@@ -250,19 +250,19 @@ import { lessons as grade11Coding } from './grades/11/coding'
 import { games as grade11EconomyGames } from './grades/11/economy'
 import { games as grade11CodingGames } from './grades/11/coding'
 
-// Старые игры из файлов grade-*.ts
+// Игры из папки games/grade-X/
 import { prepClassGames } from './games/grade-0'
 import { firstGradeGames } from './games/grade-1'
-import { secondGradeGames } from './grade-2'
-import { thirdGradeGames } from './grade-3'
-import { fourthGradeGames } from './grade-4'
-import { fifthGradeGames } from './grade-5'
-import { sixthGradeGames } from './grade-6'
-import { seventhGradeGames } from './grade-7'
-import { eighthGradeGames } from './grade-8'
-import { ninthGradeGames } from './grade-9'
-import { tenthGradeGames } from './grade-10'
-import { eleventhGradeGames } from './grade-11'
+import { secondGradeGames } from './games/grade-2'
+import { thirdGradeGames } from './games/grade-3'
+import { fourthGradeGames } from './games/grade-4'
+import { fifthGradeGames } from './games/grade-5'
+import { sixthGradeGames } from './games/grade-6'
+import { seventhGradeGames } from './games/grade-7'
+import { eighthGradeGames } from './games/grade-8'
+import { ninthGradeGames } from './games/grade-9'
+import { tenthGradeGames } from './games/grade-10'
+import { eleventhGradeGames } from './games/grade-11'
 
 // Предметы для каждого класса
 export const grade0Subjects: Subject[] = [grade0World, grade0Math, grade0Reading, grade0Russian, grade0Music, grade0Art, grade0PE, grade0Craft]

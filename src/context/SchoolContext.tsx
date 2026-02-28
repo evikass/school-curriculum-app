@@ -1,36 +1,11 @@
 'use client'
 
-import { createContext, useContext, useState, useEffect, ReactNode, useMemo } from 'react'
+import { createContext, useContext, useState, useMemo, ReactNode } from 'react'
 import { getSubjectsForGrade, allGames } from '@/data'
 import { SubjectData, GameLesson } from '@/data/types'
-
-// Types
-type ViewType = 'classes' | 'subjects' | 'lessons' | 'games' | 'gameplay'
-
-interface DailyProgress {
-  lessonsCompleted: number
-  gamesPlayed: number
-  pointsEarned: number
-}
-
-interface Progress {
-  totalPoints: number
-  completedTopics: Record<string, boolean>
-  achievements: string[]
-  streak: number
-  lastActiveDate: string
-  gamesPlayed: number
-  correctAnswers: number
-  totalAnswers: number
-  favoriteSubject: string | null
-  dailyProgress: Record<string, DailyProgress>
-  todayLessons: number
-  todayGames: number
-  todayPoints: number
-}
+import { ViewType, Progress, getInitialProgress, getTodayString, calculateStreak, saveProgressToStorage, getDefaultProgress } from './school'
 
 interface SchoolContextType {
-  // State
   selectedClass: number | null
   view: ViewType
   selectedSubject: SubjectData | null
@@ -38,8 +13,6 @@ interface SchoolContextType {
   progress: Progress
   subjects: SubjectData[]
   games: GameLesson[]
-  
-  // Actions
   goToClass: (cls: number) => void
   goToSubject: (subject: SubjectData) => void
   goToGames: () => void
@@ -49,9 +22,12 @@ interface SchoolContextType {
   completeTopic: (topicKey: string) => void
   recordGameResult: (correct: number, total: number, subject: string) => void
   unlockAchievement: (achievementId: string) => void
-  
-  // Helpers
+  resetProgress: () => void
+  setView: (view: ViewType) => void
   isKidMode: boolean
+  totalPoints: number
+  totalStars: number
+  streak: number
 }
 
 const SchoolContext = createContext<SchoolContextType | null>(null)
@@ -62,60 +38,6 @@ export function useSchool() {
   return context
 }
 
-// Helper to get initial progress from localStorage
-function getInitialProgress(): Progress {
-  const defaultProgress = { 
-    totalPoints: 0, 
-    completedTopics: {}, 
-    achievements: [],
-    streak: 0,
-    lastActiveDate: '',
-    gamesPlayed: 0,
-    correctAnswers: 0,
-    totalAnswers: 0,
-    favoriteSubject: null,
-    dailyProgress: {},
-    todayLessons: 0,
-    todayGames: 0,
-    todayPoints: 0
-  }
-  
-  if (typeof window === 'undefined') {
-    return defaultProgress
-  }
-  try {
-    const saved = localStorage.getItem('schoolProgress')
-    if (saved) {
-      const parsed = JSON.parse(saved)
-      return { ...defaultProgress, ...parsed }
-    }
-  } catch {
-    // ignore
-  }
-  return defaultProgress
-}
-
-// Get today's date string
-function getTodayString(): string {
-  return new Date().toISOString().split('T')[0]
-}
-
-// Check and update streak
-function calculateStreak(lastDate: string, currentStreak: number): number {
-  const today = getTodayString()
-  if (lastDate === today) return currentStreak // Already active today
-  
-  const yesterday = new Date()
-  yesterday.setDate(yesterday.getDate() - 1)
-  const yesterdayString = yesterday.toISOString().split('T')[0]
-  
-  if (lastDate === yesterdayString) {
-    return currentStreak + 1 // Continue streak
-  }
-  
-  return 1 // Reset streak
-}
-
 export function SchoolProvider({ children }: { children: ReactNode }) {
   const [selectedClass, setSelectedClass] = useState<number | null>(null)
   const [view, setView] = useState<ViewType>('classes')
@@ -123,64 +45,49 @@ export function SchoolProvider({ children }: { children: ReactNode }) {
   const [selectedGame, setSelectedGame] = useState<GameLesson | null>(null)
   const [progress, setProgress] = useState<Progress>(getInitialProgress)
 
-  const subjects = useMemo(() => 
-    selectedClass !== null ? getSubjectsForGrade(selectedClass) : [], 
-    [selectedClass]
-  )
-  
-  const games = useMemo(() => 
-    selectedClass !== null ? (allGames[selectedClass] || []) : [], 
-    [selectedClass]
-  )
-  
+  const subjects = useMemo(() => selectedClass !== null ? getSubjectsForGrade(selectedClass) : [], [selectedClass])
+  const games = useMemo(() => {
+    if (selectedClass === null) return []
+    return allGames[selectedClass] || []
+  }, [selectedClass])
   const isKidMode = selectedClass !== null && selectedClass <= 2
 
-  // Save progress
-  const saveProgress = (newProgress: Progress) => {
+  const updateProgress = (updates: Partial<Progress>) => {
+    const newProgress = { ...progress, ...updates }
     setProgress(newProgress)
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('schoolProgress', JSON.stringify(newProgress))
-    }
+    saveProgressToStorage(newProgress)
   }
 
-  // Add points
   const addPoints = (points: number) => {
     const today = getTodayString()
     const newStreak = calculateStreak(progress.lastActiveDate, progress.streak)
-    const newProgress = { 
-      ...progress, 
+    updateProgress({
       totalPoints: progress.totalPoints + points,
       streak: newStreak,
       lastActiveDate: today,
       todayPoints: progress.lastActiveDate === today ? progress.todayPoints + points : points
-    }
-    saveProgress(newProgress)
+    })
   }
 
-  // Complete topic
   const completeTopic = (topicKey: string) => {
     if (!progress.completedTopics[topicKey]) {
       const today = getTodayString()
       const newStreak = calculateStreak(progress.lastActiveDate, progress.streak)
-      const newProgress = {
-        ...progress,
+      updateProgress({
         completedTopics: { ...progress.completedTopics, [topicKey]: true },
         totalPoints: progress.totalPoints + 10,
         streak: newStreak,
         lastActiveDate: today,
         todayLessons: progress.lastActiveDate === today ? progress.todayLessons + 1 : 1,
         todayPoints: progress.lastActiveDate === today ? progress.todayPoints + 10 : 10
-      }
-      saveProgress(newProgress)
+      })
     }
   }
 
-  // Record game result
   const recordGameResult = (correct: number, total: number, subject: string) => {
     const today = getTodayString()
     const newStreak = calculateStreak(progress.lastActiveDate, progress.streak)
-    const newProgress = {
-      ...progress,
+    updateProgress({
       gamesPlayed: progress.gamesPlayed + 1,
       correctAnswers: progress.correctAnswers + correct,
       totalAnswers: progress.totalAnswers + total,
@@ -188,77 +95,49 @@ export function SchoolProvider({ children }: { children: ReactNode }) {
       lastActiveDate: today,
       favoriteSubject: progress.favoriteSubject || subject,
       todayGames: progress.lastActiveDate === today ? progress.todayGames + 1 : 1
-    }
-    saveProgress(newProgress)
+    })
   }
 
-  // Unlock achievement
   const unlockAchievement = (achievementId: string) => {
     if (!progress.achievements.includes(achievementId)) {
-      const newProgress = {
-        ...progress,
-        achievements: [...progress.achievements, achievementId]
-      }
-      saveProgress(newProgress)
+      updateProgress({ achievements: [...progress.achievements, achievementId] })
     }
   }
 
-  // Navigation
-  const goToClass = (cls: number) => {
-    setSelectedClass(cls)
-    setView('subjects')
-    setSelectedSubject(null)
-  }
-
-  const goToSubject = (subject: SubjectData) => {
-    setSelectedSubject(subject)
-    setView('lessons')
-  }
-
-  const goToGames = () => {
-    setView('games')
-    setSelectedGame(null)
-  }
+  const goToClass = (cls: number) => { setSelectedClass(cls); setView('subjects'); setSelectedSubject(null) }
+  const goToSubject = (subject: SubjectData) => { setSelectedSubject(subject); setView('lessons') }
+  const goToGames = () => { setView('games'); setSelectedGame(null) }
 
   const goBack = () => {
-    if (view === 'lessons') {
-      setView('subjects')
-      setSelectedSubject(null)
-    } else if (view === 'subjects') {
-      setView('classes')
-      setSelectedClass(null)
-    } else if (view === 'games') {
-      setView('subjects')
-    } else if (view === 'gameplay') {
-      setView('games')
-      setSelectedGame(null)
-    }
+    if (view === 'lessons') { setView('subjects'); setSelectedSubject(null) }
+    else if (view === 'subjects') { setView('classes'); setSelectedClass(null) }
+    else if (view === 'games') { setView('subjects') }
+    else if (view === 'gameplay') { setView('games'); setSelectedGame(null) }
   }
 
   const selectGame = (game: GameLesson | null) => {
     setSelectedGame(game)
-    if (game) setView('gameplay')
+    setView(game ? 'gameplay' : 'games')
+  }
+
+  const resetProgress = () => {
+    setProgress(getDefaultProgress())
+    saveProgressToStorage(getDefaultProgress())
+    setSelectedClass(null)
+    setView('classes')
+    setSelectedSubject(null)
+    setSelectedGame(null)
   }
 
   return (
     <SchoolContext.Provider value={{
-      selectedClass,
-      view,
-      selectedSubject,
-      selectedGame,
-      progress,
-      subjects,
-      games,
-      goToClass,
-      goToSubject,
-      goToGames,
-      goBack,
-      selectGame,
-      addPoints,
-      completeTopic,
-      recordGameResult,
-      unlockAchievement,
-      isKidMode
+      selectedClass, view, selectedSubject, selectedGame, progress, subjects, games,
+      goToClass, goToSubject, goToGames, goBack, selectGame,
+      addPoints, completeTopic, recordGameResult, unlockAchievement, resetProgress, setView,
+      isKidMode,
+      totalPoints: progress.totalPoints,
+      totalStars: Math.floor(progress.totalPoints / 10),
+      streak: progress.streak
     }}>
       {children}
     </SchoolContext.Provider>

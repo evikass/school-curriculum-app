@@ -26,3 +26,55 @@ Stage Summary:
 - page.tsx остался в пределах лимита (68 строк)
 
 ---
+Task ID: 2
+Agent: Main Agent
+Task: Исправление ошибок TypeScript - selectedGrade → selectedClass
+
+Work Log:
+- Исправлен DailyQuiz.tsx: selectedGrade → selectedClass, убран addStars, исправлен useMemo dependency
+- Исправлен QuickActions.tsx: selectedGrade → selectedClass (3 места)
+- Исправлен FriendsSystem.tsx: selectedGrade → selectedClass (2 места)
+- Исправлен ParentDashboard.tsx: selectedGrade → selectedClass, achievements → progress.achievements
+- Исправлен StudySchedule.tsx: selectedGrade → selectedClass
+- Исправлен LessonQuiz.tsx: добавлен тип QuestionItem для массива questions
+- Исправлен grade-0/index.ts: импорт Subject из правильного пути
+- Исправлены типы в GameLesson: добавлены поля questions, exercises, type, многие поля стали опциональными
+- Исправлен тип LessonItem: description и tasks стали опциональными
+- Исправлен тип TopicSection: lessons стали опциональными
+- Исправлен тип LessonTopic: добавлен title как альтернатива topic
+- Добавлен id в SubjectData
+- Добавлены проверки на undefined в GamePlayer.tsx и GameSection.tsx
+- Исправлен KidLessonViewer.tsx: тип SelectedLesson использует LessonItem
+- Исправлен LessonViewer.tsx: тип SelectedLesson использует LessonItem, добавлены проверки на undefined
+
+Stage Summary:
+- Исправлено ~20 файлов с TypeScript ошибками
+- Сборка проходит успешно
+- Деплой на GitHub Pages выполнен
+- Сайт работает: https://evikass.github.io/school-curriculum-app/
+
+---
+Task ID: 3
+Agent: Main Agent
+Task: Рефакторинг по правилам DEVELOPMENT_RULES.md (лимит 300 строк)
+
+Work Log:
+- Рефакторинг StudySchedule.tsx (428 → 150 строк): создан модуль studySchedule/ с types.ts, constants.ts, AddScheduleForm.tsx, ScheduleListItem.tsx, ScheduleNotification.tsx, useSchedule.ts
+- Рефакторинг ParentDashboard.tsx (413 → 110 строк): создан модуль parentDashboard/ с types.ts, constants.ts, useSessions.ts, OverviewTab.tsx, HistoryTab.tsx, SubjectsTab.tsx
+- Рефакторинг FriendsSystem.tsx (397 → 140 строк): создан модуль friendsSystem/ с types.ts, constants.ts, useFriends.ts, FriendCard.tsx, SearchTab.tsx, RequestsTab.tsx
+- Рефакторинг GamePlayer.tsx (488 → 150 строк): создан модуль gamePlayer/ с types.ts, useGameState.ts, QuizTask.tsx, FindTask.tsx, FillTask.tsx, OrderTask.tsx, GameFinishedScreen.tsx, ResultFeedback.tsx
+- Рефакторинг LessonQuiz.tsx (377 → 138 строк): создан модуль lessonQuiz/ с types.ts, generateQuestions.ts, useQuizState.ts
+- Рефакторинг KidLessonViewer.tsx (372 → 167 строк): создан модуль kidLessonViewer/ с types.ts, LessonCard.tsx, GameCard.tsx
+- Рефакторинг LessonViewer.tsx (345 → 196 строк): извлечены компоненты TopicBlock, LessonCard, GameCard
+- Рефакторинг DailyQuiz.tsx (333 → 191 строк): создан модуль dailyQuiz/questions.ts
+- Рефакторинг GameSection.tsx (331 → 60 строк): Gameplay вынесен в gameSection/Gameplay.tsx
+- Рефакторинг StickerAlbum.tsx (326 → 161 строк): создан модуль stickerAlbum/data.ts
+- Рефакторинг SchoolContext.tsx (311 → 145 строк): создан модуль context/school/ с types.ts, utils.ts
+
+Stage Summary:
+- Все компоненты школьного модуля теперь <300 строк
+- Создано 10+ новых модульных директорий
+- Улучшена поддерживаемость кода
+- Деплой на GitHub Pages выполнен успешно
+
+---

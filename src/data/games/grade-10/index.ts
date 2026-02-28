@@ -1,5 +1,5 @@
 // Экспорт игр для 10 класса
-import { GameLesson } from '../types'
+import { GameLesson } from '../../types'
 
 export const tenthGradeGames: GameLesson[] = [
   // ========== АЛГЕБРА ==========

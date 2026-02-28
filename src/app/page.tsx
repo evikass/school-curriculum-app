@@ -5,9 +5,8 @@ import {
   GradeSelector, SubjectGrid, LessonViewer, 
   GameSection, Gameplay,
   KidGameSection, KidGameplay, KidSubjectGrid, KidLessonViewer,
-  AchievementsPanel, DailyTasks, WelcomeModal, ProgressBarImproved, MascotHelper, LeaderboardPanel,
-  WeeklyChallenges, StudyStats, ThemeDayBanner, RewardSystem, DailyBonus, DailyQuiz, StudySchedule,
-  ParentDashboard, QuickActions, FriendsSystem, StickerAlbum, MiniGames
+  WelcomeModal, ProgressBarImproved, ThemeDayBanner,
+  LeftSideMenu, RightSideMenu
 } from '@/components/school'
 import { School } from 'lucide-react'
 
@@ -51,23 +50,10 @@ function AppContent() {
         </footer>
       </div>
 
-      {/* Floating panels */}
+      {/* Floating panels - only 2 buttons now! */}
       <WelcomeModal />
-      <AchievementsPanel />
-      <LeaderboardPanel />
-      <DailyTasks />
-      <WeeklyChallenges />
-      <StudyStats />
-      <RewardSystem />
-      <DailyBonus />
-      <DailyQuiz />
-      <StudySchedule />
-      <ParentDashboard />
-      <QuickActions />
-      <FriendsSystem />
-      <StickerAlbum />
-      <MiniGames />
-      <MascotHelper />
+      <LeftSideMenu />
+      <RightSideMenu />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 'use client'
 
+import { useEffect } from 'react'
 import { useSchool } from '@/context/SchoolContext'
 import { SubjectData } from '@/data/types'
 import {
@@ -52,6 +53,16 @@ export default function SubjectGrid() {
 
   const getIconComponent = (iconName: string) => iconMap[iconName] || BookOpen
   const getEmoji = (title: string) => subjectEmojis[title] || '📖'
+
+  // Debug logging
+  useEffect(() => {
+    console.log('SubjectGrid:', { 
+      selectedClass, 
+      gamesCount: games?.length || 0,
+      games: games,
+      view: 'subjects'
+    })
+  }, [selectedClass, games])
 
   return (
     <div className="w-full animate-slideIn">

@@ -10,36 +10,55 @@ export interface LessonTask {
 }
 
 export interface GameLesson {
+  id?: string;
   title: string;
-  subject: string;
-  icon: string;
-  color: string;
-  tasks: LessonTask[];
-  reward: {
+  subject?: string;
+  icon?: string;
+  color?: string;
+  type?: string;
+  tasks?: LessonTask[];
+  questions?: Array<{ question: string; options: string[]; correctAnswer: number }>;
+  exercises?: Array<{ 
+    text?: string; 
+    answer?: string; 
+    correctAnswer?: string | number;
+    items?: string[];
+    correctOrder?: number[];
+    explanation?: string;
+  }>;
+  reward?: {
     stars: number;
     message: string;
   };
 }
 
 export interface LessonItem {
+  id?: string;
   title: string;
-  description: string;
-  tasks: string[];
+  description?: string;
+  tasks?: string[];
+  image?: string;
+  content?: string;
+  examples?: string[];
+  facts?: string[];
+  practice?: LessonTask[] | string;
 }
 
 // Тема для уроков (средний уровень)
 export interface TopicSection {
   title: string;           // Название темы
-  lessons: LessonItem[];   // Уроки внутри темы
+  lessons?: LessonItem[];   // Уроки внутри темы
 }
 
 export interface LessonTopic {
-  topic: string;              // Название раздела (крупной темы)
+  topic?: string;             // Название раздела (крупной темы)
+  title?: string;             // Альтернативное название (для совместимости)
   subtopics?: TopicSection[]; // Темы внутри раздела (новая структура)
   lessons?: LessonItem[];     // Уроки (для обратной совместимости)
 }
 
 export interface SubjectData {
+  id?: string;
   title: string;
   icon: string;
   color: string;

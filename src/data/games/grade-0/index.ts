@@ -1,5 +1,5 @@
 // Экспорт игр для подготовительного класса
-import { GameLesson } from '../types'
+import { GameLesson } from '../../types'
 
 export const prepClassGames: GameLesson[] = [
   // ========== ПОДГОТОВКА К ПИСЬМУ ==========

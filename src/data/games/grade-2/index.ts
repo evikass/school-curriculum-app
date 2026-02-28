@@ -1,5 +1,5 @@
 // Экспорт игр для 2 класса
-import { GameLesson } from '../types'
+import { GameLesson } from '../../types'
 
 export const secondGradeGames: GameLesson[] = [
   // ========== РУССКИЙ ЯЗЫК ==========

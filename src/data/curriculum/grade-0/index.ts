@@ -1,12 +1,4 @@
-import { Subject } from './writing'
-import { Subject as MathSubject } from './math'
-import { Subject as SpeechSubject } from './speech'
-import { Subject as WorldSubject } from './world'
-import { Subject as ArtSubject } from './art'
-import { Subject as MusicSubject } from './music'
-import { Subject as PESubject } from './pe'
-import { Subject as ModelingSubject } from './modeling'
-import { Subject as TechnologySubject } from './technology'
+import { Subject } from '../../types'
 
 export { prepWriting } from './writing'
 export { prepMath } from './math'

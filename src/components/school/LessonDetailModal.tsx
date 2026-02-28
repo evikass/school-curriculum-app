@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { 
   X, BookOpen, ChevronRight, Star, CheckCircle, 
-  Lightbulb, Target, Clock, Award
+  Lightbulb, Target, Clock, Award, ClipboardList
 } from 'lucide-react'
 
 interface LessonDetail {
@@ -24,9 +24,10 @@ interface Props {
   isOpen: boolean
   onClose: () => void
   onComplete: () => void
+  onStartQuiz?: () => void
 }
 
-export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete }: Props) {
+export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete, onStartQuiz }: Props) {
   const [currentSection, setCurrentSection] = useState(0)
   
   if (!lesson) return null
@@ -239,6 +240,21 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete 
                 >
                   Закрыть
                 </button>
+                {onStartQuiz && (
+                  <button
+                    onClick={() => {
+                      onClose()
+                      onStartQuiz()
+                    }}
+                    className="flex-1 py-3 bg-gradient-to-r from-purple-500 to-pink-500 
+                              hover:from-purple-600 hover:to-pink-600
+                              text-white rounded-xl font-medium transition-colors
+                              flex items-center justify-center gap-2"
+                  >
+                    <ClipboardList className="w-5 h-5" />
+                    Тест
+                  </button>
+                )}
                 <button
                   onClick={() => {
                     onComplete()

@@ -1,5 +1,5 @@
 // Экспорт игр для 7 класса
-import { GameLesson } from '../types'
+import { GameLesson } from '../../types'
 
 export const seventhGradeGames: GameLesson[] = [
   // ========== АЛГЕБРА ==========

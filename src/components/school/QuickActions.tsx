@@ -19,7 +19,7 @@ interface QuickAction {
 
 export default function QuickActions() {
   const { 
-    setView, selectedGrade, totalPoints, totalStars, 
+    setView, selectedClass, totalPoints, totalStars, 
     streak, resetProgress 
   } = useSchool()
   const [isOpen, setIsOpen] = useState(false)
@@ -42,7 +42,7 @@ export default function QuickActions() {
       icon: <BookOpen className="w-5 h-5" />,
       color: 'from-green-500 to-emerald-500',
       action: () => {
-        if (selectedGrade !== null) {
+        if (selectedClass !== null) {
           setView('subjects')
           setIsOpen(false)
         }
@@ -54,7 +54,7 @@ export default function QuickActions() {
       icon: <Gamepad2 className="w-5 h-5" />,
       color: 'from-purple-500 to-pink-500',
       action: () => {
-        if (selectedGrade !== null) {
+        if (selectedClass !== null) {
           setView('games')
           setIsOpen(false)
         }

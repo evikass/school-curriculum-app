@@ -1,5 +1,5 @@
 // Экспорт игр для 4 класса
-import { GameLesson } from '../types'
+import { GameLesson } from '../../types'
 
 export const fourthGradeGames: GameLesson[] = [
   // ========== МАТЕМАТИКА ==========
