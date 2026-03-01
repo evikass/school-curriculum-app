@@ -4,7 +4,8 @@ import { SchoolProvider, useSchool } from '@/context/SchoolContext'
 import { 
   GradeSelector, SubjectGrid, LessonViewer, 
   GameSection, Gameplay,
-  KidGameSection, KidGameplay, KidSubjectGrid, KidLessonViewer
+  KidGameSection, KidGameplay, KidSubjectGrid, KidLessonViewer,
+  SideButtons
 } from '@/components/school'
 import { School } from 'lucide-react'
 
@@ -41,6 +42,9 @@ function AppContent() {
           ИНЕТШКОЛА © 2025 • Сделано с любовью для учеников
         </footer>
       </div>
+
+      {/* Side Buttons - Мультимодальные кнопки по бокам */}
+      <SideButtons />
     </div>
   )
 }
