@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { useSchool } from '@/context/SchoolContext'
 import { LessonTopic, TopicSection, GameLesson, LessonItem } from '@/data/types'
-import { ArrowLeft, ChevronDown, ChevronRight, BookOpen, Gamepad2, Star, Play, FileText } from 'lucide-react'
+import { ArrowLeft, ChevronDown, ChevronRight, BookOpen, Gamepad2, Star, Play } from 'lucide-react'
 import LessonDetailModal from './LessonDetailModal'
 import LessonQuiz from './LessonQuiz'
 
@@ -152,27 +152,25 @@ function TopicBlock({ topicBlock, topicIndex, expandedTopic, completedQuizzes, o
 
 function LessonCard({ lesson, isQuizCompleted, onOpenDetail }: { lesson: SelectedLesson; isQuizCompleted: boolean; onOpenDetail: (l: SelectedLesson) => void }) {
   return (
-    <div className="p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-400/50 transition-all">
-      <div className="flex items-start justify-between gap-4">
+    <button onClick={() => onOpenDetail(lesson)} className="w-full p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-400/50 hover:bg-white/10 transition-all text-left group">
+      <div className="flex items-start gap-4">
+        <div className="p-2 rounded-xl bg-gradient-to-br from-purple-500 to-blue-500 group-hover:scale-110 transition-transform">
+          <Star className="w-5 h-5 text-yellow-400" />
+        </div>
         <div className="flex-1">
-          <h5 className="text-lg font-bold text-purple-300 mb-2 flex items-center gap-2">
-            <Star className="w-5 h-5 text-yellow-400" />{lesson.title}
-          </h5>
+          <h5 className="text-lg font-bold text-white mb-1 group-hover:text-purple-300 transition-colors">{lesson.title}</h5>
           <p className="text-gray-400 text-sm line-clamp-2">{lesson.description}</p>
         </div>
-        <div className="flex gap-2 flex-shrink-0">
-          <button onClick={() => onOpenDetail(lesson)} className="px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white rounded-xl font-medium text-sm flex items-center gap-2 transition-all hover:scale-105">
-            <FileText className="w-4 h-4" />Урок
-          </button>
+        <div className="text-purple-400 group-hover:translate-x-1 transition-transform">
+          <ChevronRight className="w-5 h-5" />
         </div>
       </div>
       {lesson.tasks && lesson.tasks.length > 0 && (
-        <div className="mt-3 p-3 rounded-xl bg-purple-500/10 border border-purple-400/20">
-          <p className="text-purple-300 text-sm font-medium mb-1">📝 Заданий: {lesson.tasks.length}</p>
-          <p className="text-purple-200/60 text-xs">{lesson.tasks.slice(0, 2).join(' • ')}...</p>
+        <div className="mt-3 ml-11 p-3 rounded-xl bg-purple-500/10 border border-purple-400/20">
+          <p className="text-purple-300 text-sm font-medium">📝 {lesson.tasks.length} заданий</p>
         </div>
       )}
-    </div>
+    </button>
   )
 }
 
