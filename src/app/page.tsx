@@ -40,7 +40,7 @@ function AppContent() {
         {/* Footer */}
         <footer className="text-center mt-12 text-purple-300/50 text-sm">
           ИНЕТШКОЛА © 2025 • Сделано с любовью для учеников
-          <span className="ml-2 text-xs opacity-50">v2.1-2025-01-16</span>
+          <span className="ml-2 text-xs opacity-50">v2.2-fix</span>
         </footer>
       </div>
 
