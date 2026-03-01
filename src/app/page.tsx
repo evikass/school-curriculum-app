@@ -4,10 +4,7 @@ import { SchoolProvider, useSchool } from '@/context/SchoolContext'
 import { 
   GradeSelector, SubjectGrid, LessonViewer, 
   GameSection, Gameplay,
-  KidGameSection, KidGameplay, KidSubjectGrid, KidLessonViewer,
-  AchievementsPanel, DailyTasks, WelcomeModal, ProgressBarImproved, MascotHelper, LeaderboardPanel,
-  WeeklyChallenges, StudyStats, ThemeDayBanner, RewardSystem, DailyBonus, DailyQuiz, StudySchedule,
-  ParentDashboard, QuickActions, FriendsSystem, StickerAlbum, MiniGames
+  KidGameSection, KidGameplay, KidSubjectGrid, KidLessonViewer
 } from '@/components/school'
 import { School } from 'lucide-react'
 
@@ -26,17 +23,11 @@ function AppContent() {
             ИНЕТШКОЛА
           </h1>
           <p className="text-xl text-purple-200">
-            Учи и играй! 🎮📚✨
+            Интерактивная школьная программа
           </p>
         </header>
 
-        {/* Progress bar - always visible except on class selection */}
-        {view !== 'classes' && <ProgressBarImproved />}
-        
-        {/* Theme day banner */}
-        {view !== 'classes' && <ThemeDayBanner />}
-
-        {/* Main content - use kid-friendly components for grades 0-2 */}
+        {/* Main content */}
         <main>
           {view === 'classes' && <GradeSelector />}
           {view === 'subjects' && (isKidMode ? <KidSubjectGrid /> : <SubjectGrid />)}
@@ -47,27 +38,9 @@ function AppContent() {
 
         {/* Footer */}
         <footer className="text-center mt-12 text-purple-300/50 text-sm">
-          ИНЕТШКОЛА © 2025 • Сделано с ❤️ для учеников
+          ИНЕТШКОЛА © 2025 • Сделано с любовью для учеников
         </footer>
       </div>
-
-      {/* Floating panels */}
-      <WelcomeModal />
-      <AchievementsPanel />
-      <LeaderboardPanel />
-      <DailyTasks />
-      <WeeklyChallenges />
-      <StudyStats />
-      <RewardSystem />
-      <DailyBonus />
-      <DailyQuiz />
-      <StudySchedule />
-      <ParentDashboard />
-      <QuickActions />
-      <FriendsSystem />
-      <StickerAlbum />
-      <MiniGames />
-      <MascotHelper />
     </div>
   )
 }
