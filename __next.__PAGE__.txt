@@ -1,9 +1,5 @@
 1:"$Sreact.fragment"
-2:I[47257,["/school-curriculum-app/_next/static/chunks/2f236954d6a65e12.js"],"ClientPageRoot"]
-3:I[52683,["/school-curriculum-app/_next/static/chunks/a76e21727cce163b.js","/school-curriculum-app/_next/static/chunks/27749841b463623e.js","/school-curriculum-app/_next/static/chunks/465b31ddb96c86c2.js"],"default"]
-6:I[97367,["/school-curriculum-app/_next/static/chunks/2f236954d6a65e12.js"],"OutletBoundary"]
-7:"$Sreact.suspense"
-0:{"buildId":"71CdabybWnpL4i3Xd8vTY","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/school-curriculum-app/_next/static/chunks/465b31ddb96c86c2.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
-4:{}
-5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
-8:null
+2:I[97367,["/school-curriculum-app/_next/static/chunks/2f236954d6a65e12.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"buildId":"buG6KHn9PmIZV_wWQkPrT","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 p-4","children":["$","div",null,{"className":"max-w-7xl mx-auto text-center","children":[["$","h1",null,{"className":"text-4xl font-black text-white mb-4","children":"ИНЕТШКОЛА"}],["$","p",null,{"className":"text-purple-200 mb-8","children":"Тестовая страница"}],["$","p",null,{"className":"text-green-400","children":"v2.8-minimal"}]]}]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+4:null
