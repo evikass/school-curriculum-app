@@ -1,4 +1,2 @@
 // Экспорт игр для 3 класса
-import { GameLesson } from './types'
-
-export const thirdGradeGames: GameLesson[] = []
+export { thirdGradeGames } from './games/grade-3'

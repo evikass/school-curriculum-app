@@ -1,4 +1,2 @@
 // Экспорт игр для 10 класса
-import { GameLesson } from './types'
-
-export const tenthGradeGames: GameLesson[] = []
+export { tenthGradeGames } from './games/grade-10'
