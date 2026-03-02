@@ -19,7 +19,11 @@ export const metadata: Metadata = {
   keywords: ["школа", "уроки", "образование", "мини-игры", "учеба", "онлайн обучение", "ИНЕТШКОЛА"],
   authors: [{ name: "ИНЕТШКОЛА" }],
   icons: {
-    icon: "/school-curriculum-app/logo.svg",
+    icon: [
+      { url: "/school-curriculum-app/icon.png", type: "image/png", sizes: "512x512" },
+      { url: "/school-curriculum-app/favicon.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: "/school-curriculum-app/icon.png",
   },
   openGraph: {
     title: "ИНЕТШКОЛА",
@@ -27,11 +31,13 @@ export const metadata: Metadata = {
     url: "https://evikass.github.io/school-curriculum-app/",
     siteName: "ИНЕТШКОЛА",
     type: "website",
+    images: ["/school-curriculum-app/icon.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "ИНЕТШКОЛА",
     description: "Полная школьная программа с мини-играми",
+    images: ["/school-curriculum-app/icon.png"],
   },
 };
 
