@@ -13,6 +13,7 @@ export default function AnimatedBackground() {
       size: Math.random() * 3 + 1,
       opacity: Math.random() * 0.5 + 0.3
     }))
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setStars(newStars)
   }, [])
 

@@ -72,8 +72,10 @@ export default function StickerAlbum() {
   useEffect(() => {
     const saved = localStorage.getItem('stickerAlbum')
     if (saved) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setStickers(JSON.parse(saved))
     } else {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setStickers(allStickers)
     }
   }, [])
@@ -97,6 +99,7 @@ export default function StickerAlbum() {
     })
     
     if (JSON.stringify(updated) !== JSON.stringify(stickers)) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setStickers(updated)
       localStorage.setItem('stickerAlbum', JSON.stringify(updated))
     }

@@ -13,6 +13,12 @@ export default function QuickMath() {
   const [score, setScore] = useState(0)
   const [time, setTime] = useState(30)
 
+  const newProblem = () => {
+    setNum1(Math.floor(Math.random() * 10) + 1)
+    setNum2(Math.floor(Math.random() * 10) + 1)
+    setOp(['+', '-', '×'][Math.floor(Math.random() * 3)])
+  }
+
   useEffect(() => {
     newProblem()
   }, [])
@@ -23,12 +29,6 @@ export default function QuickMath() {
       return () => clearTimeout(t)
     }
   }, [time])
-
-  const newProblem = () => {
-    setNum1(Math.floor(Math.random() * 10) + 1)
-    setNum2(Math.floor(Math.random() * 10) + 1)
-    setOp(['+', '-', '×'][Math.floor(Math.random() * 3)])
-  }
 
   const getAnswer = () => {
     if (op === '+') return num1 + num2

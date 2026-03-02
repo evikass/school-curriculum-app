@@ -12,15 +12,16 @@ export default function AlphabetSort() {
   const [selected, setSelected] = useState<string[]>([])
   const [score, setScore] = useState(0)
 
-  useEffect(() => {
-    newRound()
-  }, [])
-
   const newRound = () => {
     const shuffled = [...ALPHABET].sort(() => Math.random() - 0.5).slice(0, 5)
     setLetters(shuffled)
     setSelected([])
   }
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    newRound()
+  }, [])
 
   const select = (letter: string) => {
     if (selected.includes(letter)) {

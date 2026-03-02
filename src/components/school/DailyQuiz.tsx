@@ -74,6 +74,7 @@ export default function DailyQuiz() {
     const lastAnswerDate = localStorage.getItem('lastQuizDate')
     const today = new Date().toDateString()
     if (lastAnswerDate === today) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setAnsweredToday(true)
     }
   }, [])

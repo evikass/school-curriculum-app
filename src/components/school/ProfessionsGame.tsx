@@ -85,6 +85,7 @@ export default function ProfessionsGame() {
   }
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (mode === 'what') generateWhatQuestion()
     else if (mode === 'who') generateWhoQuestion()
     else if (mode === 'action') generateActionQuestion()

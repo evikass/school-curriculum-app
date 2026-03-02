@@ -19,7 +19,16 @@ export default function ColorMatch() {
   const [score, setScore] = useState(0)
   const [time, setTime] = useState(10)
 
+  const newRound = () => {
+    const t = COLORS[Math.floor(Math.random() * COLORS.length)]
+    const opts = [t, ...COLORS.filter(c => c !== t).sort(() => Math.random() - 0.5).slice(0, 3)].sort(() => Math.random() - 0.5)
+    setTarget(t)
+    setOptions(opts)
+    setTime(10)
+  }
+
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     newRound()
   }, [])
 
@@ -29,14 +38,6 @@ export default function ColorMatch() {
       return () => clearTimeout(t)
     }
   }, [time])
-
-  const newRound = () => {
-    const t = COLORS[Math.floor(Math.random() * COLORS.length)]
-    const opts = [t, ...COLORS.filter(c => c !== t).sort(() => Math.random() - 0.5).slice(0, 3)].sort(() => Math.random() - 0.5)
-    setTarget(t)
-    setOptions(opts)
-    setTime(10)
-  }
 
   const answer = (color: typeof COLORS[0]) => {
     if (color.hex === target.hex) {

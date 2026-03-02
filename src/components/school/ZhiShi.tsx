@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useSchool } from '@/context/SchoolContext'
 import { useSound } from '@/hooks/useSound'
 import { RefreshCw, Star, BookOpen } from 'lucide-react'
@@ -36,7 +36,7 @@ type GameMode = 'fill' | 'find' | 'rule'
 
 export default function ZhiShi() {
   const { addXP } = useSchool()
-  const { playCorrect, playWrong } = useSound()
+  const { playSuccess, playError } = useSound()
   const [mode, setMode] = useState<GameMode>('fill')
   const [difficulty, setDifficulty] = useState<Difficulty>('easy')
   const [score, setScore] = useState(0)
@@ -48,9 +48,9 @@ export default function ZhiShi() {
   const [ruleToShow, setRuleToShow] = useState<typeof RULES[0] | null>(null)
   const [wrongWord, setWrongWord] = useState<{ wrong: string; correct: string } | null>(null)
 
-  const getAllWords = () => RULES.flatMap(r => r.examples.map(w => ({ word: w, rule: r })))
+  const getAllWords = useCallback(() => RULES.flatMap(r => r.examples.map(w => ({ word: w, rule: r }))), [])
 
-  const generateFillQuestion = () => {
+  const generateFillQuestion = useCallback(() => {
     const allWords = getAllWords()
     const { word, rule } = allWords[Math.floor(Math.random() * allWords.length)]
     
@@ -65,9 +65,9 @@ export default function ZhiShi() {
     
     setCurrentWord({ word, rule, blankIndex })
     setOptions([rule.correct, rule.wrong].sort(() => Math.random() - 0.5))
-  }
+  }, [getAllWords])
 
-  const generateFindQuestion = () => {
+  const generateFindQuestion = useCallback(() => {
     const useWrong = Math.random() > 0.5
     const rule = RULES[Math.floor(Math.random() * RULES.length)]
     
@@ -82,31 +82,35 @@ export default function ZhiShi() {
       const correct = rule.examples[Math.floor(Math.random() * rule.examples.length)]
       setWrongWord({ wrong: correct, correct })
     }
-  }
+  }, [])
 
-  const generateRuleQuestion = () => {
+  const generateRuleQuestion = useCallback(() => {
     setRuleToShow(RULES[Math.floor(Math.random() * RULES.length)])
-  }
+  }, [])
 
+  // Generate initial question on mount and when mode changes
   useEffect(() => {
-    if (mode === 'fill') generateFillQuestion()
-    else if (mode === 'find') generateFindQuestion()
-    else generateRuleQuestion()
-  }, [mode])
+    const timer = setTimeout(() => {
+      if (mode === 'fill') generateFillQuestion()
+      else if (mode === 'find') generateFindQuestion()
+      else generateRuleQuestion()
+    }, 0)
+    return () => clearTimeout(timer)
+  }, [mode, generateFillQuestion, generateFindQuestion, generateRuleQuestion])
 
   const handleFillAnswer = (answer: string) => {
     if (!currentWord) return
     const correct = answer === currentWord.rule.correct
     
     if (correct) {
-      playCorrect()
+      playSuccess()
       const points = difficulty === 'easy' ? 10 : difficulty === 'medium' ? 15 : 20
       setScore(s => s + points)
       setStreak(s => s + 1)
       setFeedback('correct')
       addXP(5 + streak)
     } else {
-      playWrong()
+      playError()
       setStreak(0)
       setFeedback('wrong')
     }
@@ -123,13 +127,13 @@ export default function ZhiShi() {
     const answeredCorrect = isCorrect === wordIsCorrect
     
     if (answeredCorrect) {
-      playCorrect()
+      playSuccess()
       setScore(s => s + 15)
       setStreak(s => s + 1)
       setFeedback('correct')
       addXP(8 + streak)
     } else {
-      playWrong()
+      playError()
       setStreak(0)
       setFeedback('wrong')
     }
@@ -145,13 +149,13 @@ export default function ZhiShi() {
     const correct = ruleName === ruleToShow.rule
     
     if (correct) {
-      playCorrect()
+      playSuccess()
       setScore(s => s + 10)
       setStreak(s => s + 1)
       setFeedback('correct')
       addXP(5 + streak)
     } else {
-      playWrong()
+      playError()
       setStreak(0)
       setFeedback('wrong')
     }

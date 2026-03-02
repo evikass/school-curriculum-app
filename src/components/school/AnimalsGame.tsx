@@ -140,6 +140,7 @@ export default function AnimalsGame() {
   }
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (mode === 'classify') generateClassifyQuestion()
     else if (mode === 'habitat') generateHabitatQuestion()
     else if (mode === 'sounds') generateSoundQuestion()

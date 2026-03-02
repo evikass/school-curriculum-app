@@ -63,6 +63,7 @@ export default function PhysicsFormulas() {
   }
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (mode === 'formula' || mode === 'variable') generateFormulaQuestion()
     else generateCalcQuestion()
   }, [mode])

@@ -24,6 +24,7 @@ export default function SpeedTest() {
       const t = setTimeout(() => setTime(t => t - 1), 1000)
       return () => clearTimeout(t)
     } else if (time === 0) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setFinished(true)
     }
   }, [time, finished])

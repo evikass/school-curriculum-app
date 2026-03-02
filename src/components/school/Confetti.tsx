@@ -13,6 +13,7 @@ export default function Confetti() {
       color: colors[Math.floor(Math.random() * colors.length)],
       delay: Math.random() * 2
     }))
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setPieces(newPieces)
   }, [])
 

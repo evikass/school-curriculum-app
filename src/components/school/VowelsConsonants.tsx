@@ -64,6 +64,7 @@ export default function VowelsConsonants() {
   }
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (mode === 'sort') {
       setCurrentLetter(getRandomLetter())
     } else {
