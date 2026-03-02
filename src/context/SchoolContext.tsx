@@ -247,7 +247,11 @@ export function SchoolProvider({ children }: { children: ReactNode }) {
 
   const selectGame = (game: GameLesson | null) => {
     setSelectedGame(game)
-    if (game) setView('gameplay')
+    if (game) {
+      setView('gameplay')
+    } else {
+      setView('games')
+    }
   }
 
   return (
