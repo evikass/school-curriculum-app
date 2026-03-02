@@ -263,13 +263,16 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                     onComplete()
                     onClose()
                   }}
-                  className="flex-1 py-3 bg-gradient-to-r from-green-500 to-emerald-500 
-                            hover:from-green-600 hover:to-emerald-600
-                            text-white rounded-xl font-medium transition-colors
-                            flex items-center justify-center gap-2"
+                  disabled={!isQuizCompleted}
+                  className={`flex-1 py-3 rounded-xl font-medium transition-colors
+                            flex items-center justify-center gap-2
+                            ${isQuizCompleted 
+                              ? 'bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white cursor-pointer' 
+                              : 'bg-gray-600/50 text-gray-400 cursor-not-allowed'
+                            }`}
                 >
                   <Award className="w-5 h-5" />
-                  Пройдено!
+                  {isQuizCompleted ? 'Пройдено!' : 'Сначала тест'}
                 </button>
               </div>
             </div>
