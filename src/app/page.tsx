@@ -113,7 +113,7 @@ function AppContent() {
           </button>
           <p className="text-xl text-purple-200">Интерактивная школьная программа</p>
           <div className="flex justify-center gap-2 mt-3 flex-wrap">
-            <span className="text-green-400 text-xs bg-green-400/20 px-3 py-1 rounded-full">v2.77</span>
+            <span className="text-green-400 text-xs bg-green-400/20 px-3 py-1 rounded-full">v2.78</span>
             <span className="text-purple-400 text-xs bg-purple-400/20 px-3 py-1 rounded-full debug-info">{view}</span>
             <button onClick={() => setShowQuickQuiz(!showQuickQuiz)} className={`text-xs px-3 py-1 rounded-full transition-colors ${showQuickQuiz ? 'bg-cyan-400/30 text-cyan-300' : 'bg-cyan-400/20 text-cyan-400 hover:bg-cyan-400/30'}`}><Gamepad2 className="w-3 h-3 inline mr-1" />Тест</button>
             <button onClick={() => setShowCalendar(!showCalendar)} className={`text-xs px-3 py-1 rounded-full transition-colors ${showCalendar ? 'bg-orange-400/30 text-orange-300' : 'bg-orange-400/20 text-orange-400 hover:bg-orange-400/30'}`}><Calendar className="w-3 h-3 inline mr-1" />Календарь</button>
