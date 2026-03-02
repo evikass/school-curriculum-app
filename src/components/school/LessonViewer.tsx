@@ -4,8 +4,8 @@ import { useState } from 'react'
 import { useSchool } from '@/context/SchoolContext'
 import { LessonTopic, TopicSection, GameLesson } from '@/data/types'
 import {
-  ArrowLeft, ChevronDown, ChevronRight, BookOpen, Gamepad2, HelpCircle, Play,
-  CheckCircle, Star, Sparkles, FileText, ClipboardList
+  ArrowLeft, ChevronDown, ChevronRight, BookOpen, Gamepad2, Play,
+  CheckCircle, Star
 } from 'lucide-react'
 import LessonDetailModal from './LessonDetailModal'
 import LessonQuiz from './LessonQuiz'
@@ -51,8 +51,8 @@ export default function LessonViewer() {
     setIsDetailOpen(true)
   }
   
-  const openQuiz = (lesson: SelectedLesson, lessonKey: string) => {
-    setQuizLesson({ ...lesson, title: `${lesson.title}` })
+  const openQuiz = (lesson: SelectedLesson) => {
+    setQuizLesson(lesson)
     setIsQuizOpen(true)
   }
   
@@ -171,64 +171,38 @@ export default function LessonViewer() {
                             </span>
                             {subtopic.title}
                           </h4>
-                          <div className="space-y-4 pl-4">
+                          <div className="space-y-3 pl-4">
                             {subtopic.lessons.map((lesson, lessonIndex) => {
-                              const lessonKey = `${topicKey}-${subtopicIndex}-${lessonIndex}`
                               const isQuizCompleted = completedQuizzes.has(lesson.title)
                               
                               return (
-                                <div key={lessonIndex} 
-                                     className="p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-400/50 transition-all">
-                                  <div className="flex items-start justify-between gap-4">
-                                    <div className="flex-1">
-                                      <h5 className="text-lg font-bold text-purple-300 mb-2 flex items-center gap-2">
-                                        <Star className="w-5 h-5 text-yellow-400" />
+                                <button
+                                  key={lessonIndex} 
+                                  onClick={() => openDetail(lesson)}
+                                  className="w-full p-4 rounded-2xl bg-white/5 border border-white/10 
+                                             hover:border-purple-400/50 hover:bg-white/10 
+                                             transition-all text-left"
+                                >
+                                  <div className="flex items-center gap-3">
+                                    <Star className="w-5 h-5 text-yellow-400 flex-shrink-0" />
+                                    <div className="flex-1 min-w-0">
+                                      <h5 className="text-lg font-bold text-purple-300 truncate">
                                         {lesson.title}
                                       </h5>
-                                      <p className="text-gray-400 text-sm line-clamp-2">
+                                      <p className="text-gray-400 text-sm truncate">
                                         {lesson.description}
                                       </p>
                                     </div>
-                                    
-                                    {/* Кнопки действий */}
-                                    <div className="flex gap-2 flex-shrink-0">
-                                      <button
-                                        onClick={() => openDetail(lesson)}
-                                        className="px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500
-                                                   hover:from-blue-600 hover:to-cyan-600
-                                                   text-white rounded-xl font-medium text-sm
-                                                   flex items-center gap-2 transition-all hover:scale-105"
-                                      >
-                                        <FileText className="w-4 h-4" />
-                                        Урок
-                                      </button>
-                                      <button
-                                        onClick={() => openQuiz(lesson, lessonKey)}
-                                        className={`px-4 py-2 rounded-xl font-medium text-sm
-                                                   flex items-center gap-2 transition-all hover:scale-105
-                                                   ${isQuizCompleted 
-                                                     ? 'bg-green-500 text-white'
-                                                     : 'bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white'
-                                                   }`}
-                                      >
-                                        <ClipboardList className="w-4 h-4" />
-                                        {isQuizCompleted ? '✓ Тест' : 'Тест'}
-                                      </button>
-                                    </div>
+                                    {isQuizCompleted && (
+                                      <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0" />
+                                    )}
+                                    {lesson.tasks && lesson.tasks.length > 0 && (
+                                      <span className="text-xs text-purple-400 bg-purple-500/20 px-2 py-1 rounded-full">
+                                        {lesson.tasks.length} зад.
+                                      </span>
+                                    )}
                                   </div>
-                                  
-                                  {/* Превью заданий */}
-                                  {lesson.tasks && lesson.tasks.length > 0 && (
-                                    <div className="mt-3 p-3 rounded-xl bg-purple-500/10 border border-purple-400/20">
-                                      <p className="text-purple-300 text-sm font-medium mb-1">
-                                        📝 Заданий: {lesson.tasks.length}
-                                      </p>
-                                      <p className="text-purple-200/60 text-xs">
-                                        {lesson.tasks.slice(0, 2).join(' • ')}...
-                                      </p>
-                                    </div>
-                                  )}
-                                </div>
+                                </button>
                               )
                             })}
                           </div>
@@ -237,58 +211,36 @@ export default function LessonViewer() {
                     ) : (
                       /* Old structure */
                       topicBlock.lessons?.map((lesson, lessonIndex) => {
-                        const lessonKey = `${topicKey}-${lessonIndex}`
                         const isQuizCompleted = completedQuizzes.has(lesson.title)
                         
                         return (
-                          <div key={lessonIndex} 
-                               className="p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-400/50">
-                            <div className="flex items-start justify-between gap-4">
-                              <div className="flex-1">
-                                <h4 className="text-xl font-bold text-purple-300 mb-2">{lesson.title}</h4>
-                                <p className="text-gray-400 text-sm line-clamp-2">
+                          <button
+                            key={lessonIndex} 
+                            onClick={() => openDetail(lesson)}
+                            className="w-full p-4 rounded-2xl bg-white/5 border border-white/10 
+                                       hover:border-purple-400/50 hover:bg-white/10 
+                                       transition-all text-left"
+                          >
+                            <div className="flex items-center gap-3">
+                              <Star className="w-5 h-5 text-yellow-400 flex-shrink-0" />
+                              <div className="flex-1 min-w-0">
+                                <h4 className="text-lg font-bold text-purple-300 truncate">
+                                  {lesson.title}
+                                </h4>
+                                <p className="text-gray-400 text-sm truncate">
                                   {lesson.description}
                                 </p>
                               </div>
-                              
-                              {/* Кнопки действий */}
-                              <div className="flex gap-2 flex-shrink-0">
-                                <button
-                                  onClick={() => openDetail(lesson)}
-                                  className="px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500
-                                             hover:from-blue-600 hover:to-cyan-600
-                                             text-white rounded-xl font-medium text-sm
-                                             flex items-center gap-2 transition-all hover:scale-105"
-                                >
-                                  <FileText className="w-4 h-4" />
-                                  Урок
-                                </button>
-                                <button
-                                  onClick={() => openQuiz(lesson, lessonKey)}
-                                  className={`px-4 py-2 rounded-xl font-medium text-sm
-                                             flex items-center gap-2 transition-all hover:scale-105
-                                             ${isQuizCompleted 
-                                               ? 'bg-green-500 text-white'
-                                               : 'bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white'
-                                             }`}
-                                >
-                                  <ClipboardList className="w-4 h-4" />
-                                  {isQuizCompleted ? '✓ Тест' : 'Тест'}
-                                </button>
-                              </div>
+                              {isQuizCompleted && (
+                                <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0" />
+                              )}
+                              {lesson.tasks && lesson.tasks.length > 0 && (
+                                <span className="text-xs text-purple-400 bg-purple-500/20 px-2 py-1 rounded-full">
+                                  {lesson.tasks.length} зад.
+                                </span>
+                              )}
                             </div>
-                            
-                            {lesson.tasks && lesson.tasks.length > 0 && (
-                              <div className="mt-4 p-4 rounded-xl bg-purple-500/10 border border-purple-400/20">
-                                <p className="text-purple-300 font-medium mb-2">📝 Задания:</p>
-                                <ul className="list-disc pl-5 text-gray-300 space-y-1">
-                                  {lesson.tasks.map((task, i) => (
-                                    <li key={i}>{task}</li>
-                                  ))}
-                                </ul>
-                              </div>
-                            )}
-                          </div>
+                          </button>
                         )
                       })
                     )}
@@ -336,6 +288,8 @@ export default function LessonViewer() {
         isOpen={isDetailOpen}
         onClose={() => setIsDetailOpen(false)}
         onComplete={handleDetailComplete}
+        onQuiz={detailLesson ? () => openQuiz(detailLesson) : undefined}
+        isQuizCompleted={detailLesson ? completedQuizzes.has(detailLesson.title) : false}
       />
       
       <LessonQuiz
