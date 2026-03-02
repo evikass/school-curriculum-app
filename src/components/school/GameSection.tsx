@@ -6,77 +6,108 @@ import { GameLesson } from '@/data/types'
 import { ArrowLeft, Gamepad2, Star, Play, Trophy, CheckCircle, Circle } from 'lucide-react'
 import { useState } from 'react'
 
-export default function GameSection() {
-  const { games, selectedClass, selectGame, goBack } = useSchool()
-
-  return (
-    <div className="w-full animate-fadeIn">
-      {/* Back button */}
+function SafeGameCard({ game, onSelect }: { game: GameLesson; onSelect: (g: GameLesson) => void }) {
+  try {
+    return (
       <button
-        onClick={goBack}
-        className="mb-6 flex items-center gap-2 text-white/80 hover:text-white text-xl font-medium 
-                   bg-white/10 hover:bg-white/20 px-6 py-3 rounded-2xl transition-all"
+        onClick={() => onSelect(game)}
+        className="group relative overflow-hidden p-6 rounded-3xl
+                   bg-gradient-to-br from-purple-600/60 to-pink-600/60
+                   border-4 border-white/20 hover:border-yellow-400/50
+                   shadow-xl hover:shadow-2xl hover:scale-[1.02]
+                   transition-all duration-300 text-left"
       >
-        <ArrowLeft className="w-6 h-6" /> 
-        Назад к предметам
-      </button>
-
-      {/* Title */}
-      <div className="text-center mb-8">
-        <div className="inline-flex items-center gap-4 mb-4">
-          <Gamepad2 className="w-16 h-16 text-purple-400" />
+        {/* Icon */}
+        <div className="p-4 rounded-2xl bg-gradient-to-br from-yellow-400 to-orange-500 inline-block mb-4
+                        group-hover:scale-110 transition-transform">
+          <Gamepad2 className="w-10 h-10 text-white" />
         </div>
-        <h2 className="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300 mb-3">
-          Игры и викторины!
-        </h2>
-        <p className="text-xl text-purple-200">
-          {selectedClass === 0 ? 'Подготовишки' : `${selectedClass} класс`} • {games.length} игр
-        </p>
+
+        {/* Content */}
+        <h3 className="text-2xl font-bold text-white mb-2">{game.title || 'Без названия'}</h3>
+        <p className="text-purple-200 mb-4">{game.subject || 'Предмет'}</p>
+
+        {/* Stats */}
+        <div className="flex items-center gap-4 mb-4">
+          <span className="text-white/80 bg-white/10 px-3 py-1 rounded-xl">
+            {game.tasks?.length || 0} заданий
+          </span>
+          <span className="flex items-center gap-1 text-yellow-400">
+            <Star className="w-5 h-5 fill-yellow-400" />
+            {game.reward?.stars || 0}
+          </span>
+        </div>
+
+        {/* Play button */}
+        <div className="flex items-center gap-2 text-white font-bold">
+          <Play className="w-6 h-6 group-hover:scale-110 transition-transform" />
+          Начать игру!
+        </div>
+      </button>
+    )
+  } catch (e) {
+    console.error('SafeGameCard error:', e)
+    return null
+  }
+}
+
+export default function GameSection() {
+  try {
+    const { games, selectedClass, selectGame, goBack } = useSchool()
+    
+    // Safety check - ensure games is always an array
+    const safeGames = Array.isArray(games) ? games : (games ? [games] : [])
+    const gamesCount = safeGames.length
+
+    return (
+      <div className="w-full animate-fadeIn">
+        {/* Back button */}
+        <button
+          onClick={goBack}
+          className="mb-6 flex items-center gap-2 text-white/80 hover:text-white text-xl font-medium 
+                     bg-white/10 hover:bg-white/20 px-6 py-3 rounded-2xl transition-all"
+        >
+          <ArrowLeft className="w-6 h-6" /> 
+          Назад к предметам
+        </button>
+
+        {/* Title */}
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center gap-4 mb-4">
+            <Gamepad2 className="w-16 h-16 text-purple-400" />
+          </div>
+          <h2 className="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300 mb-3">
+            Игры и викторины!
+          </h2>
+          <p className="text-xl text-purple-200">
+            {selectedClass === 0 ? 'Подготовишки' : `${selectedClass} класс`} • {gamesCount} игр
+          </p>
+        </div>
+
+        {/* Games grid */}
+        {gamesCount === 0 ? (
+          <div className="text-center p-8 bg-white/10 rounded-2xl">
+            <p className="text-purple-200 text-xl">Игр для этого класса пока нет 😔</p>
+            <p className="text-purple-300 mt-2">Попробуйте другой класс!</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {safeGames.map((game: GameLesson, index: number) => (
+              <SafeGameCard key={index} game={game} onSelect={selectGame} />
+            ))}
+          </div>
+        )}
       </div>
-
-      {/* Games grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {games.map((game: GameLesson, index: number) => (
-          <button
-            key={index}
-            onClick={() => selectGame(game)}
-            className="group relative overflow-hidden p-6 rounded-3xl
-                       bg-gradient-to-br from-purple-600/60 to-pink-600/60
-                       border-4 border-white/20 hover:border-yellow-400/50
-                       shadow-xl hover:shadow-2xl hover:scale-[1.02]
-                       transition-all duration-300 text-left"
-          >
-            {/* Icon */}
-            <div className="p-4 rounded-2xl bg-gradient-to-br from-yellow-400 to-orange-500 inline-block mb-4
-                            group-hover:scale-110 transition-transform">
-              <Gamepad2 className="w-10 h-10 text-white" />
-            </div>
-
-            {/* Content */}
-            <h3 className="text-2xl font-bold text-white mb-2">{game.title}</h3>
-            <p className="text-purple-200 mb-4">{game.subject}</p>
-
-            {/* Stats */}
-            <div className="flex items-center gap-4 mb-4">
-              <span className="text-white/80 bg-white/10 px-3 py-1 rounded-xl">
-                {game.tasks.length} заданий
-              </span>
-              <span className="flex items-center gap-1 text-yellow-400">
-                <Star className="w-5 h-5 fill-yellow-400" />
-                {game.reward.stars}
-              </span>
-            </div>
-
-            {/* Play button */}
-            <div className="flex items-center gap-2 text-white font-bold">
-              <Play className="w-6 h-6 group-hover:scale-110 transition-transform" />
-              Начать игру!
-            </div>
-          </button>
-        ))}
+    )
+  } catch (error) {
+    console.error('GameSection render error:', error)
+    return (
+      <div className="p-6 bg-red-500/20 border-2 border-red-500 rounded-2xl text-white">
+        <h2 className="text-2xl font-bold mb-2">Ошибка загрузки игр</h2>
+        <p>{error instanceof Error ? error.message : 'Неизвестная ошибка'}</p>
       </div>
-    </div>
-  )
+    )
+  }
 }
 
 // Gameplay component for playing a game
@@ -88,9 +119,45 @@ export function Gameplay() {
   const [showResults, setShowResults] = useState(false)
 
   if (!selectedGame) return null
+  
+  // Safety checks
+  const tasks = selectedGame.tasks || []
+  const totalTasks = tasks.length
+  
+  if (totalTasks === 0) {
+    return (
+      <div className="w-full max-w-2xl mx-auto animate-fadeIn">
+        <div className="text-center p-8 bg-white/10 rounded-2xl">
+          <p className="text-purple-200 text-xl">В этой игре нет заданий 😔</p>
+          <button
+            onClick={() => selectGame(null)}
+            className="mt-4 px-6 py-3 bg-purple-500 text-white rounded-2xl"
+          >
+            Назад
+          </button>
+        </div>
+      </div>
+    )
+  }
 
-  const task = selectedGame.tasks[currentIndex]
-  const totalTasks = selectedGame.tasks.length
+  const task = tasks[currentIndex]
+  
+  // Safety check for task
+  if (!task) {
+    return (
+      <div className="w-full max-w-2xl mx-auto animate-fadeIn">
+        <div className="text-center p-8 bg-white/10 rounded-2xl">
+          <p className="text-purple-200 text-xl">Задание не найдено 😔</p>
+          <button
+            onClick={() => selectGame(null)}
+            className="mt-4 px-6 py-3 bg-purple-500 text-white rounded-2xl"
+          >
+            Назад
+          </button>
+        </div>
+      </div>
+    )
+  }
 
   const handleAnswerSelect = (answer: string) => {
     setAnswers({ ...answers, [currentIndex]: answer })
@@ -106,7 +173,7 @@ export function Gameplay() {
 
   const calculateScore = () => {
     let correct = 0
-    selectedGame.tasks.forEach((task, index) => {
+    tasks.forEach((task, index) => {
       const userAnswer = answers[index]
       if (task.type === 'find' && Array.isArray(userAnswer) && Array.isArray(task.correctAnswer)) {
         if (JSON.stringify([...userAnswer].sort()) === JSON.stringify([...task.correctAnswer].sort())) {
@@ -148,12 +215,12 @@ export function Gameplay() {
 
           {/* Stars */}
           <div className="flex justify-center gap-2 mb-6">
-            {Array.from({ length: selectedGame.reward.stars }).map((_, i) => (
+            {Array.from({ length: selectedGame.reward?.stars || 3 }).map((_, i) => (
               <Star key={i} className="w-10 h-10 text-yellow-400 fill-yellow-400" />
             ))}
           </div>
 
-          <p className="text-xl text-white/90 mb-8">{selectedGame.reward.message}</p>
+          <p className="text-xl text-white/90 mb-8">{selectedGame.reward?.message || 'Отличная работа!'}</p>
 
           <div className="flex justify-center gap-4">
             <button

@@ -1,7 +1,7 @@
 'use client'
 
 import { SchoolProvider, useSchool } from '@/context/SchoolContext'
-import { GradeSelector, SubjectGrid, LessonViewer, KidSubjectGrid, KidLessonViewer, GameSection, Gameplay, AchievementsDisplay, AnimatedBackground, KidGradeSelector, LevelProgress, DailyBonus, KidGameSection, StreakCalendar, SoundToggle, ThemeSelector, ExtendedQuickQuiz, LearningPath, ChallengeMode, MemoryGame, DailyChallenge, FlashCards, SpeedTest, StatsDashboard, TypingPractice, SpellingGame, NumberPuzzle, WordScramble, MathRacing, TriviaBattle, CrosswordGame, SentenceBuilder, ColorMatch, WordSearch, SequenceGame, EmojiQuiz, GeographyQuiz, HangmanGame, TrueOrFalse, AnagramGame, OddOneOut, SoundQuiz, MathPuzzle, WordChain, QuickMath, AlphabetSort, SynonymAntonym, FlagsQuiz, TimeQuiz, Riddles, Proverbs, PunctuationQuiz, CapitalCities, RomanNumerals, FractionCompare, PercentQuiz, GeometryQuiz, NatureQuiz, HistoryQuiz, ScienceQuiz, MeasurementQuiz, EquationSolver, PartsOfSpeech, WordFormation, Syllables, StressMark, MultiplicationTable, Antonyms, WordCases, DivisionTable, Homonyms, Conjugations, CompareNumbers, Abbreviations, PrimeNumbers, VowelsConsonants, ZhiShi, DaysOfWeek, EvenOdd, ShapesQuiz, SimpleMath, CountingGame, AnimalsGame, ProfessionsGame, PeriodicTableGame, PhysicsFormulas, ChemistryQuiz, BiologyQuiz, AstronomyQuiz, LogicPuzzles, WordProblems, ReadingComprehension } from '@/components/school'
+import { ErrorBoundary, GradeSelector, SubjectGrid, LessonViewer, KidSubjectGrid, KidLessonViewer, GameSection, Gameplay, KidGameSection, KidGameplay, AchievementsDisplay, AnimatedBackground, KidGradeSelector, LevelProgress, DailyBonus, StreakCalendar, SoundToggle, ThemeSelector, ExtendedQuickQuiz, LearningPath, ChallengeMode, MemoryGame, DailyChallenge, FlashCards, SpeedTest, StatsDashboard, TypingPractice, SpellingGame, NumberPuzzle, WordScramble, MathRacing, TriviaBattle, CrosswordGame, SentenceBuilder, ColorMatch, WordSearch, SequenceGame, EmojiQuiz, GeographyQuiz, HangmanGame, TrueOrFalse, AnagramGame, OddOneOut, SoundQuiz, MathPuzzle, WordChain, QuickMath, AlphabetSort, SynonymAntonym, FlagsQuiz, TimeQuiz, Riddles, Proverbs, PunctuationQuiz, CapitalCities, RomanNumerals, FractionCompare, PercentQuiz, GeometryQuiz, NatureQuiz, HistoryQuiz, ScienceQuiz, MeasurementQuiz, EquationSolver, PartsOfSpeech, WordFormation, Syllables, StressMark, MultiplicationTable, Antonyms, WordCases, DivisionTable, Homonyms, Conjugations, CompareNumbers, Abbreviations, PrimeNumbers, VowelsConsonants, ZhiShi, DaysOfWeek, EvenOdd, ShapesQuiz, SimpleMath, CountingGame, AnimalsGame, ProfessionsGame, PeriodicTableGame, PhysicsFormulas, ChemistryQuiz, BiologyQuiz, AstronomyQuiz, LogicPuzzles, WordProblems, ReadingComprehension } from '@/components/school'
 import { useState, useEffect } from 'react'
 import { Calendar, Gamepad2, Map, Timer, Brain, Gift, Zap, BarChart, Layers, Pen, Calculator, Shuffle, Car, Swords, Grid3X3, MessageSquare, Palette, Search, Hash, Smile, Globe, CheckCircle, RefreshCw, Target, Volume2, Link2, ArrowUpAz, ArrowRightLeft, Flag, Clock, HelpCircle, BookOpen, PenTool, Building2, Languages, Scale, Percent, CircleDot, Leaf, ScrollText, Atom, Ruler, BookOpenCheck, Puzzle, AudioLines, X, Divide, BookCopy, ArrowLeftRight, TextCursorInput, Type, SpellCheck, CalendarDays, Hexagon, Plus, Circle, PawPrint, Briefcase, Atom as AtomIcon, FlaskConical, Microscope, Star, FileText } from 'lucide-react'
 
@@ -104,7 +104,7 @@ function AppContent() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 p-4 md:p-8 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 p-4 md:p-8 relative overflow-hidden" suppressHydrationWarning>
       <AnimatedBackground />
       <div className="max-w-7xl mx-auto relative z-10">
         <header className="text-center mb-6">
@@ -113,7 +113,8 @@ function AppContent() {
           </button>
           <p className="text-xl text-purple-200">Интерактивная школьная программа</p>
           <div className="flex justify-center gap-2 mt-3 flex-wrap">
-            <span className="text-green-400 text-xs bg-green-400/20 px-3 py-1 rounded-full">v2.62</span>
+            <span className="text-green-400 text-xs bg-green-400/20 px-3 py-1 rounded-full">v2.77</span>
+            <span className="text-purple-400 text-xs bg-purple-400/20 px-3 py-1 rounded-full debug-info">{view}</span>
             <button onClick={() => setShowQuickQuiz(!showQuickQuiz)} className={`text-xs px-3 py-1 rounded-full transition-colors ${showQuickQuiz ? 'bg-cyan-400/30 text-cyan-300' : 'bg-cyan-400/20 text-cyan-400 hover:bg-cyan-400/30'}`}><Gamepad2 className="w-3 h-3 inline mr-1" />Тест</button>
             <button onClick={() => setShowCalendar(!showCalendar)} className={`text-xs px-3 py-1 rounded-full transition-colors ${showCalendar ? 'bg-orange-400/30 text-orange-300' : 'bg-orange-400/20 text-orange-400 hover:bg-orange-400/30'}`}><Calendar className="w-3 h-3 inline mr-1" />Календарь</button>
             {selectedClass !== null && <button onClick={() => setShowLearningPath(!showLearningPath)} className={`text-xs px-3 py-1 rounded-full transition-colors ${showLearningPath ? 'bg-violet-400/30 text-violet-300' : 'bg-violet-400/20 text-violet-400 hover:bg-violet-400/30'}`}><Map className="w-3 h-3 inline mr-1" />Путь</button>}
@@ -131,7 +132,17 @@ function AppContent() {
 
         {showQuickQuiz && view === 'classes' && !activeMiniGame && <div className="mb-8 animate-slideIn"><ExtendedQuickQuiz /></div>}
         {showCalendar && view === 'classes' && !activeMiniGame && <div className="mb-8 animate-slideIn"><StreakCalendar /></div>}
-        {activeMiniGame && <div className="mb-8 animate-slideIn">{gameComponents[activeMiniGame]}</div>}
+        {activeMiniGame && (
+          <div className="mb-8 animate-slideIn relative">
+            <button 
+              onClick={() => setActiveMiniGame(null)} 
+              className="absolute -top-2 -right-2 z-10 w-8 h-8 bg-red-500 hover:bg-red-600 rounded-full flex items-center justify-center text-white font-bold shadow-lg transition-colors"
+            >
+              ✕
+            </button>
+            {gameComponents[activeMiniGame]}
+          </div>
+        )}
         {showLearningPath && view === 'subjects' && <div className="mb-8 animate-slideIn"><LearningPath /></div>}
         {selectedClass && <LevelProgress />}
         {showAchievements && <div className="mb-8 animate-slideIn"><AchievementsDisplay /></div>}
@@ -141,7 +152,7 @@ function AppContent() {
           {view === 'subjects' && (isKidMode ? <KidSubjectGrid /> : <SubjectGrid />)}
           {view === 'lessons' && (isKidMode ? <KidLessonViewer /> : <LessonViewer />)}
           {view === 'games' && (isKidMode ? <KidGameSection /> : <GameSection />)}
-          {view === 'gameplay' && <Gameplay />}
+          {view === 'gameplay' && (isKidMode ? <KidGameplay /> : <Gameplay />)}
         </main>
       </div>
       {showDailyBonus && <DailyBonus onClose={() => setShowDailyBonus(false)} />}

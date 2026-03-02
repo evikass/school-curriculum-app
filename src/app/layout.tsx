@@ -18,10 +18,11 @@ export const metadata: Metadata = {
   description: "Интерактивная школьная программа для классов 0-11 с уроками и мини-играми по всем предметам.",
   keywords: ["школа", "уроки", "образование", "мини-игры", "учеба", "онлайн обучение", "ИНЕТШКОЛА"],
   authors: [{ name: "ИНЕТШКОЛА" }],
+  metadataBase: new URL('https://evikass.github.io/school-curriculum-app/'),
   icons: {
     icon: [
+      { url: "/school-curriculum-app/favicon.ico", type: "image/x-icon" },
       { url: "/school-curriculum-app/icon.png", type: "image/png", sizes: "512x512" },
-      { url: "/school-curriculum-app/favicon.png", type: "image/png", sizes: "32x32" },
     ],
     apple: "/school-curriculum-app/icon.png",
   },
@@ -50,6 +51,7 @@ export default function RootLayout({
     <html lang="ru" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
+        suppressHydrationWarning
       >
         {children}
         <Toaster />

@@ -7,21 +7,31 @@ import { GameLesson } from '@/data/types'
 import { ArrowLeft, Gamepad2, Star, Play, Trophy, CheckCircle, Circle, Sparkles, PartyPopper } from 'lucide-react'
 import { useSound } from '@/lib/sounds'
 
-// Confetti component for celebration
+// Confetti component for celebration - deterministic for SSR
 function Confetti() {
-  const [particles, setParticles] = useState<Array<{ id: number; x: number; color: string; delay: number; rotation: number }>>([])
+  const [particles, setParticles] = useState<Array<{ id: number; x: number; color: string; delay: number; rotation: number; isRound: boolean }>>([])
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
+    setMounted(true)
+    // Use seeded random for deterministic generation
+    const seedRandom = (seed: number) => {
+      const x = Math.sin(seed * 9999) * 10000
+      return x - Math.floor(x)
+    }
     const colors = ['#FFD700', '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', '#DDA0DD', '#98D8C8']
     const newParticles = Array.from({ length: 50 }, (_, i) => ({
       id: i,
-      x: Math.random() * 100,
-      color: colors[Math.floor(Math.random() * colors.length)],
-      delay: Math.random() * 0.5,
-      rotation: Math.random() * 360
+      x: seedRandom(i * 1.1) * 100,
+      color: colors[Math.floor(seedRandom(i * 2.2) * colors.length)],
+      delay: seedRandom(i * 3.3) * 0.5,
+      rotation: seedRandom(i * 4.4) * 360,
+      isRound: seedRandom(i * 5.5) > 0.5
     }))
     setParticles(newParticles)
   }, [])
+
+  if (!mounted) return null
 
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden z-50">
@@ -35,7 +45,7 @@ function Confetti() {
             width: '10px',
             height: '10px',
             backgroundColor: p.color,
-            borderRadius: Math.random() > 0.5 ? '50%' : '0',
+            borderRadius: p.isRound ? '50%' : '0',
             animationDelay: `${p.delay}s`,
             transform: `rotate(${p.rotation}deg)`
           }}
@@ -45,79 +55,110 @@ function Confetti() {
   )
 }
 
-export default function KidGameSection() {
-  const { games, selectedClass, selectGame, goBack } = useSchool()
-
-  const gradeEmoji = selectedClass === 0 ? '🎒' : selectedClass === 1 ? '🌟' : '🦋'
-
-  return (
-    <div className="w-full animate-bounceIn">
-      {/* Back button - BIG for kids */}
+function SafeGameCard({ game, onSelect }: { game: GameLesson; onSelect: (g: GameLesson) => void }) {
+  try {
+    return (
       <button
-        onClick={goBack}
-        className="mb-8 flex items-center gap-3 text-white text-2xl font-bold 
-                   bg-white/20 hover:bg-white/30 px-8 py-4 rounded-3xl transition-all
-                   border-4 border-white/30 hover:border-white/50"
+        onClick={() => onSelect(game)}
+        className="group relative overflow-hidden p-8 rounded-3xl
+                   bg-gradient-to-br from-purple-500/60 to-pink-500/60
+                   border-4 border-white/30 hover:border-yellow-400
+                   shadow-2xl hover:shadow-yellow-400/20
+                   transition-all duration-300 hover:scale-[1.03] text-left"
       >
-        <ArrowLeft className="w-8 h-8" /> 
-        Назад
+        {/* Star badge */}
+        <div className="absolute top-4 right-4 bg-yellow-400 text-purple-900 
+                       px-4 py-2 rounded-2xl font-black text-lg flex items-center gap-2">
+          <Star className="w-6 h-6 fill-purple-900" />
+          {game.reward?.stars || 0}
+        </div>
+
+        {/* Icon */}
+        <div className="p-5 rounded-3xl bg-gradient-to-br from-yellow-400 to-orange-500 
+                       inline-block mb-5 group-hover:scale-110 transition-transform">
+          <Gamepad2 className="w-14 h-14 text-white" />
+        </div>
+
+        {/* Content */}
+        <h3 className="text-3xl font-black text-white mb-3">{game.title || 'Игра'}</h3>
+        <p className="text-xl text-purple-200 mb-4">{game.subject || 'Предмет'}</p>
+
+        <div className="text-white/80 text-lg">
+          {game.tasks?.length || 0} заданий
+        </div>
+
+        {/* Play button */}
+        <div className="mt-6 flex items-center gap-3 text-yellow-300 text-xl font-bold">
+          <Play className="w-8 h-8" />
+          ИГРАТЬ!
+        </div>
       </button>
+    )
+  } catch (e) {
+    console.error('SafeGameCard error:', e)
+    return null
+  }
+}
 
-      {/* Title - HUGE and colorful */}
-      <div className="text-center mb-10">
-        <div className="text-8xl mb-4 animate-float">{gradeEmoji}</div>
-        <h2 className="text-4xl md:text-6xl font-black text-transparent bg-clip-text 
-                       bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300 mb-4">
-          ИГРЫ!
-        </h2>
-        <p className="text-2xl text-purple-200">
-          Выбери игру и играй! 🎮
-        </p>
+export default function KidGameSection() {
+  try {
+    const { games, selectedClass, selectGame, goBack } = useSchool()
+
+    const gradeEmoji = selectedClass === 0 ? '🎒' : selectedClass === 1 ? '🌟' : '🦋'
+    
+    // Safety check - ensure games is always an array
+    const safeGames = Array.isArray(games) ? games : (games ? [games] : [])
+    const gamesCount = safeGames.length
+
+    return (
+      <div className="w-full animate-bounceIn">
+        {/* Back button - BIG for kids */}
+        <button
+          onClick={goBack}
+          className="mb-8 flex items-center gap-3 text-white text-2xl font-bold 
+                     bg-white/20 hover:bg-white/30 px-8 py-4 rounded-3xl transition-all
+                     border-4 border-white/30 hover:border-white/50"
+        >
+          <ArrowLeft className="w-8 h-8" /> 
+          Назад
+        </button>
+
+        {/* Title - HUGE and colorful */}
+        <div className="text-center mb-10">
+          <div className="text-8xl mb-4 animate-float">{gradeEmoji}</div>
+          <h2 className="text-4xl md:text-6xl font-black text-transparent bg-clip-text 
+                         bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300 mb-4">
+            ИГРЫ!
+          </h2>
+          <p className="text-2xl text-purple-200">
+            Выбери игру и играй! 🎮 {gamesCount} игр
+          </p>
+        </div>
+
+        {/* Games grid - BIG CARDS */}
+        {gamesCount === 0 ? (
+          <div className="text-center p-10 bg-white/10 rounded-3xl">
+            <p className="text-2xl text-purple-200">Игр для этого класса пока нет 😔</p>
+            <p className="text-purple-300 mt-4">Попробуй другой класс!</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {safeGames.map((game: GameLesson, index: number) => (
+              <SafeGameCard key={index} game={game} onSelect={selectGame} />
+            ))}
+          </div>
+        )}
       </div>
-
-      {/* Games grid - BIG CARDS */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
-        {games.map((game: GameLesson, index: number) => (
-          <button
-            key={index}
-            onClick={() => selectGame(game)}
-            className="group relative overflow-hidden p-8 rounded-3xl
-                       bg-gradient-to-br from-purple-500/60 to-pink-500/60
-                       border-4 border-white/30 hover:border-yellow-400
-                       shadow-2xl hover:shadow-yellow-400/20
-                       transition-all duration-300 hover:scale-[1.03] text-left"
-          >
-            {/* Star badge */}
-            <div className="absolute top-4 right-4 bg-yellow-400 text-purple-900 
-                           px-4 py-2 rounded-2xl font-black text-lg flex items-center gap-2">
-              <Star className="w-6 h-6 fill-purple-900" />
-              {game.reward.stars}
-            </div>
-
-            {/* Icon */}
-            <div className="p-5 rounded-3xl bg-gradient-to-br from-yellow-400 to-orange-500 
-                           inline-block mb-5 group-hover:scale-110 transition-transform">
-              <Gamepad2 className="w-14 h-14 text-white" />
-            </div>
-
-            {/* Content */}
-            <h3 className="text-3xl font-black text-white mb-3">{game.title}</h3>
-            <p className="text-xl text-purple-200 mb-4">{game.subject}</p>
-
-            <div className="text-white/80 text-lg">
-              {game.tasks.length} заданий
-            </div>
-
-            {/* Play button */}
-            <div className="mt-6 flex items-center gap-3 text-yellow-300 text-xl font-bold">
-              <Play className="w-8 h-8" />
-              ИГРАТЬ!
-            </div>
-          </button>
-        ))}
+    )
+  } catch (error) {
+    console.error('KidGameSection render error:', error)
+    return (
+      <div className="p-6 bg-red-500/20 border-2 border-red-500 rounded-2xl text-white">
+        <h2 className="text-2xl font-bold mb-2">Ошибка загрузки игр 😢</h2>
+        <p>{error instanceof Error ? error.message : 'Неизвестная ошибка'}</p>
       </div>
-    </div>
-  )
+    )
+  }
 }
 
 // Kid-friendly gameplay component
@@ -132,8 +173,44 @@ export function KidGameplay() {
 
   if (!selectedGame) return null
 
-  const task = selectedGame.tasks[currentIndex]
-  const totalTasks = selectedGame.tasks.length
+  // Safety checks
+  const tasks = selectedGame.tasks || []
+  const totalTasks = tasks.length
+  
+  if (totalTasks === 0) {
+    return (
+      <div className="w-full max-w-2xl mx-auto animate-bounceIn">
+        <div className="text-center p-10 bg-white/10 rounded-3xl">
+          <p className="text-2xl text-purple-200">В этой игре нет заданий 😔</p>
+          <button
+            onClick={() => selectGame(null)}
+            className="mt-6 px-8 py-4 bg-purple-500 text-white rounded-3xl text-xl font-bold"
+          >
+            Назад
+          </button>
+        </div>
+      </div>
+    )
+  }
+
+  const task = tasks[currentIndex]
+  
+  // Safety check for task
+  if (!task) {
+    return (
+      <div className="w-full max-w-2xl mx-auto animate-bounceIn">
+        <div className="text-center p-10 bg-white/10 rounded-3xl">
+          <p className="text-2xl text-purple-200">Задание не найдено 😔</p>
+          <button
+            onClick={() => selectGame(null)}
+            className="mt-6 px-8 py-4 bg-purple-500 text-white rounded-3xl text-xl font-bold"
+          >
+            Назад
+          </button>
+        </div>
+      </div>
+    )
+  }
 
   const handleAnswerSelect = (answer: string) => {
     setAnswers({ ...answers, [currentIndex]: answer })
@@ -149,7 +226,7 @@ export function KidGameplay() {
 
   const calculateScore = () => {
     let correct = 0
-    selectedGame.tasks.forEach((task, index) => {
+    tasks.forEach((task, index) => {
       const userAnswer = answers[index]
       if (task.type === 'find' && Array.isArray(userAnswer) && Array.isArray(task.correctAnswer)) {
         if (JSON.stringify([...userAnswer].sort()) === JSON.stringify([...task.correctAnswer].sort())) {
@@ -171,7 +248,6 @@ export function KidGameplay() {
     if (score >= totalTasks * 0.7) {
       setShowCelebration(true)
       if (score === totalTasks) {
-        // Perfect score!
         playAchievement()
       } else {
         playLevelUp()
@@ -180,7 +256,6 @@ export function KidGameplay() {
       playCorrect()
     }
     
-    // Track perfect game for achievements
     if (score === totalTasks) {
       unlockAchievement('perfect_game')
     }
@@ -196,9 +271,8 @@ export function KidGameplay() {
       <div className="w-full max-w-2xl mx-auto animate-bounceIn">
         {showCelebration && <Confetti />}
         
-        <div className="text-center p-10 rounded-3xl bg-gradient-to-br 
-                        ${isGood ? 'from-green-500/60 to-teal-500/60' : 'from-purple-600/60 to-pink-600/60'}
-                        border-4 border-white/30 shadow-2xl">
+        <div className={`text-center p-10 rounded-3xl border-4 border-white/30 shadow-2xl
+                        ${isGood ? 'bg-gradient-to-br from-green-500/60 to-teal-500/60' : 'bg-gradient-to-br from-purple-600/60 to-pink-600/60'}`}>
           
           {/* Big icon */}
           <div className="mb-6">
@@ -232,13 +306,13 @@ export function KidGameplay() {
 
           {/* Stars */}
           <div className="flex justify-center gap-3 mb-8">
-            {Array.from({ length: selectedGame.reward.stars }).map((_, i) => (
+            {Array.from({ length: selectedGame.reward?.stars || 3 }).map((_, i) => (
               <Star key={i} className="w-14 h-14 text-yellow-400 fill-yellow-400 animate-sparkle" 
                     style={{ animationDelay: `${i * 0.2}s` }} />
             ))}
           </div>
 
-          <p className="text-2xl text-white mb-10">{selectedGame.reward.message}</p>
+          <p className="text-2xl text-white mb-10">{selectedGame.reward?.message || 'Отличная работа!'}</p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <button

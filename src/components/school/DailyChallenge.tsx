@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useSchool } from '@/context/SchoolContext'
 import { Gift, RotateCcw } from 'lucide-react'
 
@@ -13,7 +13,14 @@ const CHALLENGES = [
 export default function DailyChallenge() {
   const { addXP } = useSchool()
   const [completed, setCompleted] = useState(false)
-  const challenge = CHALLENGES[Math.floor(Math.random() * CHALLENGES.length)]
+  const [challenge, setChallenge] = useState<typeof CHALLENGES[0] | null>(null)
+
+  useEffect(() => {
+    // Only select challenge on client side
+    setChallenge(CHALLENGES[Math.floor(Math.random() * CHALLENGES.length)])
+  }, [])
+
+  if (!challenge) return null
 
   const complete = () => {
     addXP(challenge.reward)

@@ -60,6 +60,10 @@ const gradeEmoji = (cls: number | null) => {
 export default function KidSubjectGrid() {
   const { selectedClass, subjects, games, goToSubject, goToGames, goBack } = useSchool()
 
+  // Safety checks
+  const safeGames = games || []
+  const safeSubjects = subjects || []
+
   const getEmoji = (title: string) => subjectEmojis[title] || '📖'
 
   return (
@@ -88,18 +92,18 @@ export default function KidSubjectGrid() {
       </div>
 
       {/* Games button - HUGE */}
-      {games.length > 0 && (
+      {safeGames.length > 0 && (
         <button
           onClick={goToGames}
           className="w-full mb-10 p-8 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 
                      rounded-3xl shadow-2xl transition-all hover:scale-[1.02] 
-                     border-4 border-white/30 hover:border-yellow-400 group"
+                     border-4 border-white/30 hover:border-yellow-400 group cursor-pointer"
         >
           <div className="flex items-center justify-center gap-6">
             <Gamepad2 className="w-16 h-16 text-white group-hover:scale-110 transition-transform" />
             <div className="text-left">
               <div className="text-3xl md:text-4xl font-black text-white">ИГРЫ!</div>
-              <div className="text-xl text-white/80">{games.length} игр доступно</div>
+              <div className="text-xl text-white/80">{safeGames.length} игр доступно</div>
             </div>
             <Sparkles className="w-12 h-12 text-yellow-300 animate-sparkle" />
           </div>
@@ -108,7 +112,7 @@ export default function KidSubjectGrid() {
 
       {/* Subjects grid - BIG CARDS */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
-        {subjects.map((subject: SubjectData, index: number) => {
+        {safeSubjects.map((subject: SubjectData, index: number) => {
           const emoji = getEmoji(subject.title)
           const lessonsCount = subject.detailedTopics?.reduce((acc, t) => acc + (t.subtopics?.reduce((a, s) => a + s.lessons.length, 0) || t.lessons?.length || 0), 0) || 0
           const gamesCount = subject.games?.length || 0
