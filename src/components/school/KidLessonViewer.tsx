@@ -32,13 +32,7 @@ export default function KidLessonViewer() {
   if (!selectedSubject) return null
 
   const toggleTopic = (topicName: string) => {
-    const newExpanded = new Set(expandedTopics)
-    if (newExpanded.has(topicName)) {
-      newExpanded.delete(topicName)
-    } else {
-      newExpanded.add(topicName)
-    }
-    setExpandedTopics(newExpanded)
+    setExpandedTopics(prev => prev.has(topicName) ? new Set() : new Set([topicName]))
   }
 
   const handleCompleteLesson = (lessonKey: string) => {
