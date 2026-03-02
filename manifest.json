@@ -1,0 +1,38 @@
+{
+  "name": "ИНЕТШКОЛА - Интерактивная школьная программа",
+  "short_name": "ИНЕТШКОЛА",
+  "description": "Интерактивная школьная программа для классов 0-11 с играми и уроками",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e1b4b",
+  "theme_color": "#7c3aed",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "kids", "games"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Выбрать класс",
+      "url": "/",
+      "description": "Выберите класс для обучения"
+    }
+  ]
+}
