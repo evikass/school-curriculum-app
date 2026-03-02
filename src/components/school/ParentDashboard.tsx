@@ -47,13 +47,16 @@ export default function ParentDashboard() {
   
   useEffect(() => {
     const saved = localStorage.getItem('studySessions')
-    if (saved) {
-      setSessions(JSON.parse(saved))
-    } else {
-      const demo = generateDemoSessions()
-      setSessions(demo)
-      localStorage.setItem('studySessions', JSON.stringify(demo))
+    const loadData = () => {
+      if (saved) {
+        setSessions(JSON.parse(saved))
+      } else {
+        const demo = generateDemoSessions()
+        setSessions(demo)
+        localStorage.setItem('studySessions', JSON.stringify(demo))
+      }
     }
+    setTimeout(loadData, 0)
   }, [])
   
   // Статистика

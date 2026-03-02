@@ -17,10 +17,6 @@ export default function MemoryGame() {
   const [flipped, setFlipped] = useState<number[]>([])
   const [moves, setMoves] = useState(0)
 
-  useEffect(() => {
-    initGame()
-  }, [])
-
   const initGame = () => {
     const deck = [...PAIRS, ...PAIRS]
       .sort(() => Math.random() - 0.5)
@@ -29,6 +25,10 @@ export default function MemoryGame() {
     setFlipped([])
     setMoves(0)
   }
+
+  useEffect(() => {
+    initGame()
+  }, [])
 
   const flip = (index: number) => {
     if (flipped.length === 2 || cards[index].flipped || cards[index].matched) return

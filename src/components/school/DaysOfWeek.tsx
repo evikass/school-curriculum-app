@@ -51,19 +51,6 @@ export default function DaysOfWeek() {
 
   const shuffleArray = <T,>(arr: T[]): T[] => [...arr].sort(() => Math.random() - 0.5)
 
-  useEffect(() => {
-    if (mode === 'order') {
-      setShuffledDays(shuffleArray(DAYS))
-      setSelectedDays([])
-    } else if (mode === 'yesterday') {
-      generateDayQuestion()
-    } else if (mode === 'month') {
-      generateMonthQuestion()
-    } else if (mode === 'season') {
-      generateSeasonQuestion()
-    }
-  }, [mode])
-
   const generateDayQuestion = () => {
     const day = DAYS[Math.floor(Math.random() * DAYS.length)]
     const question: 'вчера' | 'завтра' = Math.random() > 0.5 ? 'вчера' : 'завтра'
@@ -80,6 +67,19 @@ export default function DaysOfWeek() {
     const season = SEASONS[Math.floor(Math.random() * SEASONS.length)]
     setSeasonQuestion({ months: shuffleArray(season.months), answer: season.name })
   }
+
+  useEffect(() => {
+    if (mode === 'order') {
+      setShuffledDays(shuffleArray(DAYS))
+      setSelectedDays([])
+    } else if (mode === 'yesterday') {
+      generateDayQuestion()
+    } else if (mode === 'month') {
+      generateMonthQuestion()
+    } else if (mode === 'season') {
+      generateSeasonQuestion()
+    }
+  }, [mode])
 
   const handleDaySelect = (day: typeof DAYS[0]) => {
     if (selectedDays.length >= 7) return
