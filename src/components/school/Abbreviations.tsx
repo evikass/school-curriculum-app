@@ -2,8 +2,8 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { useSchool } from '@/context/SchoolContext'
-import useSound from '@/hooks/useSound'
-import { Abbreviate, RotateCcw, Trophy, Target, BookOpen } from 'lucide-react'
+import { useSound } from '@/hooks/useSound'
+import { TextCursorInput, RotateCcw, Trophy, Target, BookOpen } from 'lucide-react'
 
 interface AbbreviationData {
   abbr: string
@@ -64,7 +64,7 @@ const ABBREVIATIONS: AbbreviationData[] = [
 
 export default function Abbreviations() {
   const { addXP } = useSchool()
-  const { playSound } = useSound()
+  const { playSuccess, playError } = useSound()
   const [currentAbbr, setCurrentAbbr] = useState<AbbreviationData | null>(null)
   const [options, setOptions] = useState<string[]>([])
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
@@ -143,7 +143,7 @@ export default function Abbreviations() {
     const isCorrect = answer === currentAbbr.full
     
     if (isCorrect) {
-      playSound('correct')
+      playSuccess()
       const newStreak = streak + 1
       setStreak(newStreak)
       const bonus = Math.floor(newStreak / 3) * 2
@@ -151,7 +151,7 @@ export default function Abbreviations() {
       setScore(prev => prev + xp)
       addXP(xp)
     } else {
-      playSound('wrong')
+      playError()
       setStreak(0)
     }
     
@@ -184,7 +184,7 @@ export default function Abbreviations() {
     return (
       <div className="bg-gradient-to-br from-amber-900/50 to-yellow-900/50 rounded-2xl p-6 backdrop-blur-sm border border-amber-500/30">
         <h2 className="text-2xl font-bold text-amber-300 mb-6 flex items-center gap-2">
-          <Abbreviate className="w-7 h-7" />
+          <TextCursorInput className="w-7 h-7" />
           Аббревиатуры
         </h2>
         
