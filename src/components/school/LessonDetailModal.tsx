@@ -272,7 +272,7 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                             }`}
                 >
                   <Award className="w-5 h-5" />
-                  {isQuizCompleted ? 'Пройдено!' : 'Сначала тест'}
+                  {isQuizCompleted ? 'Пройдено! ✓' : 'Не пройден'}
                 </button>
               </div>
             </div>
