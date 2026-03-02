@@ -1,4 +1,5 @@
 export { default as ErrorBoundary } from './ErrorBoundary'
+export { default as FloatingGameMenu } from './FloatingGameMenu'
 export { default as GradeSelector } from './GradeSelector'
 export { default as KidGradeSelector } from './KidGradeSelector'
 export { default as SubjectGrid } from './SubjectGrid'
