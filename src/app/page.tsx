@@ -80,7 +80,7 @@ function AppContent() {
           
           {/* Compact button row */}
           <div className="flex justify-center items-center gap-2 mt-3 flex-wrap">
-            <span className="text-green-400 text-xs bg-green-400/20 px-2 py-1 rounded-full">v3.16</span>
+            <span className="text-green-400 text-xs bg-green-400/20 px-2 py-1 rounded-full">v3.17</span>
             
             <button onClick={() => setShowCalendar(!showCalendar)} 
                     className={`text-xs px-2 py-1 rounded-full transition-colors flex items-center gap-1
@@ -217,7 +217,7 @@ function AppContent() {
                 <div className="flex flex-col items-center mb-4">
                   <div className="bg-white rounded-xl p-3 shadow-lg">
                     <QRCodeSVG 
-                      value="00020101021230800016com.nspk.ru0111790913272325204549953036435405802RU6007Moscow6304A1F8"
+                      value="Счёт Сбербанка: 40817810127008641225"
                       size={160}
                       level="M"
                       bgColor="#ffffff"
@@ -228,6 +228,15 @@ function AppContent() {
                     <Smartphone className="w-3 h-3" />
                     Отсканируйте в приложении банка
                   </p>
+                </div>
+                
+                {/* Account Info */}
+                <div className="bg-green-500/10 rounded-xl p-3 mb-4 border border-green-500/20">
+                  <p className="text-xs text-green-300 font-medium mb-1">💳 Реквизиты для перевода:</p>
+                  <div className="bg-slate-800/50 rounded-lg p-2 font-mono text-sm text-white text-center select-all">
+                    40817810127008641225
+                  </div>
+                  <p className="text-xs text-white/50 mt-1 text-center">Счёт Сбербанка • скопируйте для перевода</p>
                 </div>
                 
                 {/* Quick Payment Buttons */}
