@@ -49,7 +49,7 @@ function AppContent() {
           
           {/* Compact button row */}
           <div className="flex justify-center items-center gap-2 mt-3 flex-wrap">
-            <span className="text-green-400 text-xs bg-green-400/20 px-2 py-1 rounded-full">v3.3</span>
+            <span className="text-green-400 text-xs bg-green-400/20 px-2 py-1 rounded-full">v3.4</span>
             
             <button onClick={() => setShowCalendar(!showCalendar)} 
                     className={`text-xs px-2 py-1 rounded-full transition-colors flex items-center gap-1
