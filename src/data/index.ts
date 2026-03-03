@@ -57,10 +57,12 @@ import { lessons as grade3Robotics } from './grades/3/robotics'
 import { lessons as grade3Ethics } from './grades/3/ethics'
 import { lessons as grade3Informatics } from './grades/3/informatics'
 import { lessons as grade3Safety } from './grades/3/safety'
+import { lessons as grade3LocalHistory } from './grades/3/local-history'
 import { games as grade3RoboticsGames } from './grades/3/robotics'
 import { games as grade3EthicsGames } from './grades/3/ethics'
 import { games as grade3InformaticsGames } from './grades/3/informatics'
 import { games as grade3SafetyGames } from './grades/3/safety'
+import { games as grade3LocalHistoryGames } from './grades/3/local-history'
 
 // Grade 4
 import { lessons as grade4Russian } from './grades/4/russian'
@@ -332,7 +334,7 @@ import { eleventhGradeGames } from './grade-11'
 export const grade0Subjects: Subject[] = [grade0World, grade0Math, grade0Reading, grade0Russian, grade0Music, grade0Art, grade0PE, grade0Craft]
 export const grade1Subjects: Subject[] = [grade1Russian, grade1Literature, grade1Math, grade1World, grade1English, grade1Tech, grade1Art, grade1Music, grade1PE, grade1Reading]
 export const grade2Subjects: Subject[] = [grade2Russian, grade2Literature, grade2Math, grade2World, grade2English, grade2Tech, grade2Art, grade2Music, grade2PE, grade2Projects]
-export const grade3Subjects: Subject[] = [grade3Russian, grade3Literature, grade3Math, grade3World, grade3English, grade3Tech, grade3Art, grade3Music, grade3PE, grade3Robotics, grade3Ethics, grade3Informatics, grade3Safety]
+export const grade3Subjects: Subject[] = [grade3Russian, grade3Literature, grade3Math, grade3World, grade3English, grade3Tech, grade3Art, grade3Music, grade3PE, grade3Robotics, grade3Ethics, grade3Informatics, grade3Safety, grade3LocalHistory]
 export const grade4Subjects: Subject[] = [grade4Russian, grade4Literature, grade4Math, grade4World, grade4English, grade4Religion, grade4Tech, grade4Art, grade4Music, grade4PE, grade4Projects, grade4History, grade4Geography, grade4Informatics, grade4Nature]
 export const grade5Subjects: Subject[] = [grade5Russian, grade5Literature, grade5Math, grade5History, grade5Biology, grade5Geography, grade5English, grade5Tech, grade5Art, grade5Music, grade5PE, grade5Safety, grade5Crafts, grade5Finance, grade5Digital, grade5Informatics, grade5Robotics]
 export const grade6Subjects: Subject[] = [grade6Russian, grade6Literature, grade6Math, grade6History, grade6Biology, grade6Geography, grade6English, grade6Tech, grade6Art, grade6Music, grade6PE, grade6Safety, grade6Social, grade6Informatics, grade6Robotics, grade6Ecology, grade6Coding, grade6Physics, grade6Chemistry, grade6Crafts]
@@ -380,7 +382,7 @@ export const allGames: Record<number, GameLesson[]> = {
   0: prepClassGames,
   1: [...firstGradeGames, ...grade1ReadingGames],
   2: [...secondGradeGames, ...grade2ProjectsGames],
-  3: [...thirdGradeGames, ...grade3RoboticsGames, ...grade3EthicsGames, ...grade3InformaticsGames, ...grade3SafetyGames],
+  3: [...thirdGradeGames, ...grade3RoboticsGames, ...grade3EthicsGames, ...grade3InformaticsGames, ...grade3SafetyGames, ...grade3LocalHistoryGames],
   4: [...fourthGradeGames, ...grade4WorldGames, ...grade4MathGames, ...grade4RussianGames, ...grade4LiteratureGames, ...grade4EnglishGames, ...grade4ProjectsGames, ...grade4HistoryGames, ...grade4GeographyGames, ...grade4InformaticsGames, ...grade4NatureGames],
   5: [...fifthGradeGames, ...grade5MathGames, ...grade5HistoryGames, ...grade5BiologyGames, ...grade5GeographyGames, ...grade5EnglishGames, ...grade5RussianGames, ...grade5LiteratureGames, ...grade5CraftsGames, ...grade5FinanceGames, ...grade5DigitalGames, ...grade5InformaticsGames, ...grade5RoboticsGames],
   6: [...sixthGradeGames, ...grade6MathGames, ...grade6HistoryGames, ...grade6BiologyGames, ...grade6GeographyGames, ...grade6EnglishGames, ...grade6RussianGames, ...grade6LiteratureGames, ...grade6SocialGames, ...grade6InformaticsGames, ...grade6RoboticsGames, ...grade6EcologyGames, ...grade6CodingGames, ...grade6PhysicsGames, ...grade6ChemistryGames, ...grade6CraftsGames],
