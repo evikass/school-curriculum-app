@@ -43,6 +43,7 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь степени! 🔢" }
   },
 
+<<<<<<< HEAD
   // ========== MATCHING GAMES ==========
   {
     title: "Математические пары",
@@ -66,6 +67,8 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь пары! 🔗" }
   },
 
+=======
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
   // ========== ГЕОМЕТРИЯ ==========
   {
     title: "Треугольники",
@@ -81,6 +84,7 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь треугольники! 🔺" }
   },
   {
+<<<<<<< HEAD
     title: "Геометрические пары",
     subject: "Геометрия",
     icon: "Shapes",
@@ -96,6 +100,8 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь геометрию! 📐" }
   },
   {
+=======
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     title: "Параллельные прямые",
     subject: "Геометрия",
     icon: "Shapes",
@@ -124,6 +130,7 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь причастия! 📝" }
   },
   {
+<<<<<<< HEAD
     title: "Части речи - пары",
     subject: "Русский язык",
     icon: "BookOpen",
@@ -145,6 +152,8 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь части речи! ✍️" }
   },
   {
+=======
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     title: "Деепричастие",
     subject: "Русский язык",
     icon: "BookOpen",
@@ -173,6 +182,7 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь былины! 📜" }
   },
   {
+<<<<<<< HEAD
     title: "Литературные пары",
     subject: "Литература",
     icon: "BookOpenText",
@@ -194,6 +204,8 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь литературу! 📚" }
   },
   {
+=======
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     title: "Лирика Пушкина",
     subject: "Литература",
     icon: "BookOpenText",
@@ -222,6 +234,7 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь историю Руси! 🏰" }
   },
   {
+<<<<<<< HEAD
     title: "Исторические пары",
     subject: "История",
     icon: "Landmark",
@@ -243,6 +256,8 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь историю! ⚔️" }
   },
   {
+=======
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     title: "Татаро-монгольское иго",
     subject: "История",
     icon: "Landmark",
@@ -271,6 +286,7 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь клетку! 🔬" }
   },
   {
+<<<<<<< HEAD
     title: "Биологические пары",
     subject: "Биология",
     icon: "Leaf",
@@ -292,6 +308,8 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь биологию! 🌱" }
   },
   {
+=======
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     title: "Фотосинтез",
     subject: "Биология",
     icon: "Leaf",
@@ -319,6 +337,7 @@ export const seventhGradeGames: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь географию! 🌍" }
   },
+<<<<<<< HEAD
   {
     title: "Географические пары",
     subject: "География",
@@ -340,6 +359,8 @@ export const seventhGradeGames: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь географию! 🗺️" }
   },
+=======
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 
   // ========== ФИЗИКА ==========
   {
@@ -355,6 +376,7 @@ export const seventhGradeGames: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь механику! ⚛️" }
   },
+<<<<<<< HEAD
   {
     title: "Физические пары",
     subject: "Физика",
@@ -376,6 +398,8 @@ export const seventhGradeGames: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь физику! ⚡" }
   },
+=======
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 
   // ========== АНГЛИЙСКИЙ ==========
   {
@@ -392,6 +416,7 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Great! Ты знаешь Present Perfect! 🇬🇧" }
   },
   {
+<<<<<<< HEAD
     title: "Английские пары",
     subject: "Английский",
     icon: "Languages",
@@ -413,6 +438,8 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Great! Ты знаешь английский! 🇬🇧" }
   },
   {
+=======
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     title: "Conditionals",
     subject: "Английский",
     icon: "Languages",

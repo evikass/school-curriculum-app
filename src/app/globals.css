@@ -3,6 +3,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
+<<<<<<< HEAD
 /* FlashCards 3D transforms */
 .perspective-1000 {
   perspective: 1000px;
@@ -14,6 +15,8 @@
   transform: rotateY(180deg);
 }
 
+=======
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -438,6 +441,7 @@ html {
 .animate-fadeIn {
   animation: fadeIn 0.3s ease-out;
 }
+<<<<<<< HEAD
 
 /* Sparkle animation for stars */
 @keyframes sparkle {
@@ -509,3 +513,5 @@ html {
 .animate-confetti {
   animation: confettiFall 3s ease-in forwards;
 }
+=======
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c

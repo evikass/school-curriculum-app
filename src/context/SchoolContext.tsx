@@ -38,6 +38,11 @@ interface SchoolContextType {
   progress: Progress
   subjects: SubjectData[]
   games: GameLesson[]
+<<<<<<< HEAD
+=======
+  xp: number
+  level: number
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
   
   // Actions
   goToClass: (cls: number) => void
@@ -46,6 +51,10 @@ interface SchoolContextType {
   goBack: () => void
   selectGame: (game: GameLesson | null) => void
   addPoints: (points: number) => void
+<<<<<<< HEAD
+=======
+  addXP: (points: number) => void // Alias for addPoints
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
   completeTopic: (topicKey: string) => void
   recordGameResult: (correct: number, total: number, subject: string) => void
   unlockAchievement: (achievementId: string) => void
@@ -62,6 +71,7 @@ export function useSchool() {
   return context
 }
 
+<<<<<<< HEAD
 // Helper to get initial progress from localStorage
 function getInitialProgress(): Progress {
   const defaultProgress = { 
@@ -93,6 +103,23 @@ function getInitialProgress(): Progress {
     // ignore
   }
   return defaultProgress
+=======
+// Default progress
+const defaultProgress: Progress = { 
+  totalPoints: 0, 
+  completedTopics: {}, 
+  achievements: [],
+  streak: 0,
+  lastActiveDate: '',
+  gamesPlayed: 0,
+  correctAnswers: 0,
+  totalAnswers: 0,
+  favoriteSubject: null,
+  dailyProgress: {},
+  todayLessons: 0,
+  todayGames: 0,
+  todayPoints: 0
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 }
 
 // Get today's date string
@@ -121,25 +148,65 @@ export function SchoolProvider({ children }: { children: ReactNode }) {
   const [view, setView] = useState<ViewType>('classes')
   const [selectedSubject, setSelectedSubject] = useState<SubjectData | null>(null)
   const [selectedGame, setSelectedGame] = useState<GameLesson | null>(null)
+<<<<<<< HEAD
   const [progress, setProgress] = useState<Progress>(getInitialProgress)
+=======
+  const [progress, setProgress] = useState<Progress>(defaultProgress)
+  const [isClient, setIsClient] = useState(false)
+
+  // Load progress from localStorage on client side only
+  useEffect(() => {
+    setIsClient(true)
+    try {
+      const saved = localStorage.getItem('schoolProgress')
+      if (saved) {
+        const parsed = JSON.parse(saved)
+        setProgress(prev => ({ ...prev, ...parsed }))
+      }
+    } catch {
+      // ignore
+    }
+  }, [])
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 
   const subjects = useMemo(() => 
     selectedClass !== null ? getSubjectsForGrade(selectedClass) : [], 
     [selectedClass]
   )
   
+<<<<<<< HEAD
   const games = useMemo(() => 
     selectedClass !== null ? (allGames[selectedClass] || []) : [], 
     [selectedClass]
   )
   
   const isKidMode = selectedClass !== null && selectedClass <= 2
+=======
+  const games = useMemo(() => {
+    const result = selectedClass !== null ? (allGames[selectedClass] || []) : []
+    return result
+  }, [selectedClass])
+  
+  const isKidMode = selectedClass !== null && selectedClass <= 2
+  
+  // XP and Level
+  const xp = progress.totalPoints
+  const level = Math.floor(xp / 100) + 1
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 
   // Save progress
   const saveProgress = (newProgress: Progress) => {
     setProgress(newProgress)
     if (typeof window !== 'undefined') {
+<<<<<<< HEAD
       localStorage.setItem('schoolProgress', JSON.stringify(newProgress))
+=======
+      try {
+        localStorage.setItem('schoolProgress', JSON.stringify(newProgress))
+      } catch {
+        // ignore
+      }
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     }
   }
 
@@ -237,7 +304,15 @@ export function SchoolProvider({ children }: { children: ReactNode }) {
 
   const selectGame = (game: GameLesson | null) => {
     setSelectedGame(game)
+<<<<<<< HEAD
     if (game) setView('gameplay')
+=======
+    if (game) {
+      setView('gameplay')
+    } else {
+      setView('games')
+    }
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
   }
 
   return (
@@ -249,12 +324,21 @@ export function SchoolProvider({ children }: { children: ReactNode }) {
       progress,
       subjects,
       games,
+<<<<<<< HEAD
+=======
+      xp,
+      level,
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
       goToClass,
       goToSubject,
       goToGames,
       goBack,
       selectGame,
       addPoints,
+<<<<<<< HEAD
+=======
+      addXP: addPoints,
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
       completeTopic,
       recordGameResult,
       unlockAchievement,

@@ -1,4 +1,5 @@
 import { SubjectData, GameLesson } from '@/data/types'
+<<<<<<< HEAD
 
 const L = (title: string, description: string, tasks: string[], image?: string, content?: string, examples?: string[], facts?: string[]) => ({
   title, description, tasks, image, content, examples, facts
@@ -163,3 +164,7 @@ export const games: GameLesson[] = [
     }
   }
 ]
+=======
+export const lessons: SubjectData = { title: "География", icon: "Map", color: "text-teal-400", topics: [] }
+export const games: GameLesson[] = []
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c

@@ -1,9 +1,18 @@
+<<<<<<< HEAD
+=======
+export { default as ErrorBoundary } from './ErrorBoundary'
+export { default as FloatingGameMenu } from './FloatingGameMenu'
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 export { default as GradeSelector } from './GradeSelector'
 export { default as KidGradeSelector } from './KidGradeSelector'
 export { default as SubjectGrid } from './SubjectGrid'
 export { default as LessonViewer } from './LessonViewer'
+<<<<<<< HEAD
 export { default as GameSection } from './GameSection'
 export { default as Gameplay } from './Gameplay'
+=======
+export { default as GameSection, Gameplay } from './GameSection'
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 export { default as KidSubjectGrid } from './KidSubjectGrid'
 export { default as KidLessonViewer } from './KidLessonViewer'
 export { default as Confetti } from './Confetti'
@@ -14,7 +23,11 @@ export { default as LevelProgress } from './LevelProgress'
 export { default as DailyBonus } from './DailyBonus'
 export { default as StickerReward } from './StickerReward'
 export { default as SubjectProgress } from './SubjectProgress'
+<<<<<<< HEAD
 export { default as KidGameSection } from './KidGameSection'
+=======
+export { default as KidGameSection, KidGameplay } from './KidGameSection'
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 export { default as StreakCalendar } from './StreakCalendar'
 export { default as QuickQuiz } from './QuickQuiz'
 export { default as SoundToggle } from './SoundToggle'
@@ -66,3 +79,35 @@ export { default as ScienceQuiz } from './ScienceQuiz'
 export { default as MeasurementQuiz } from './MeasurementQuiz'
 export { default as EquationSolver } from './EquationSolver'
 export { default as PartsOfSpeech } from './PartsOfSpeech'
+<<<<<<< HEAD
+=======
+export { default as WordFormation } from './WordFormation'
+export { default as Syllables } from './Syllables'
+export { default as StressMark } from './StressMark'
+export { default as MultiplicationTable } from './MultiplicationTable'
+export { default as Antonyms } from './Antonyms'
+export { default as WordCases } from './WordCases'
+export { default as DivisionTable } from './DivisionTable'
+export { default as Homonyms } from './Homonyms'
+export { default as Conjugations } from './Conjugations'
+export { default as CompareNumbers } from './CompareNumbers'
+export { default as Abbreviations } from './Abbreviations'
+export { default as PrimeNumbers } from './PrimeNumbers'
+export { default as VowelsConsonants } from './VowelsConsonants'
+export { default as ZhiShi } from './ZhiShi'
+export { default as DaysOfWeek } from './DaysOfWeek'
+export { default as EvenOdd } from './EvenOdd'
+export { default as ShapesQuiz } from './ShapesQuiz'
+export { default as SimpleMath } from './SimpleMath'
+export { default as CountingGame } from './CountingGame'
+export { default as AnimalsGame } from './AnimalsGame'
+export { default as ProfessionsGame } from './ProfessionsGame'
+export { default as PeriodicTableGame } from './PeriodicTableGame'
+export { default as PhysicsFormulas } from './PhysicsFormulas'
+export { default as ChemistryQuiz } from './ChemistryQuiz'
+export { default as BiologyQuiz } from './BiologyQuiz'
+export { default as AstronomyQuiz } from './AstronomyQuiz'
+export { default as LogicPuzzles } from './LogicPuzzles'
+export { default as WordProblems } from './WordProblems'
+export { default as ReadingComprehension } from './ReadingComprehension'
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c

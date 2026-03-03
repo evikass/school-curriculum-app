@@ -49,6 +49,13 @@ const subjectEmojis: Record<string, string> = {
 
 export default function SubjectGrid() {
   const { selectedClass, subjects, games, goToSubject, goToGames, goBack, isKidMode } = useSchool()
+<<<<<<< HEAD
+=======
+  
+  // Safety checks
+  const safeSubjects = subjects || []
+  const safeGames = games || []
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 
   const getIconComponent = (iconName: string) => iconMap[iconName] || BookOpen
   const getEmoji = (title: string) => subjectEmojis[title] || '📖'
@@ -76,18 +83,30 @@ export default function SubjectGrid() {
       </div>
 
       {/* Games button */}
+<<<<<<< HEAD
       {games.length > 0 && (
+=======
+      {safeGames.length > 0 && (
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
         <button
           onClick={goToGames}
           className="w-full mb-8 p-6 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 
                      rounded-3xl shadow-xl hover:shadow-2xl transition-all hover:scale-[1.02] 
+<<<<<<< HEAD
                      border-4 border-white/20 group"
+=======
+                     border-4 border-white/20 group cursor-pointer"
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
         >
           <div className="flex items-center justify-center gap-4">
             <Gamepad2 className="w-12 h-12 text-white group-hover:rotate-12 transition-transform" />
             <div className="text-left">
               <div className="text-2xl font-black text-white">Игры и викторины!</div>
+<<<<<<< HEAD
               <div className="text-white/80">{games.length} игр доступно</div>
+=======
+              <div className="text-white/80">{safeGames.length} игр доступно</div>
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
             </div>
             <Sparkles className="w-10 h-10 text-yellow-300 animate-pulse" />
           </div>
@@ -96,7 +115,11 @@ export default function SubjectGrid() {
 
       {/* Subjects grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+<<<<<<< HEAD
         {subjects.map((subject: SubjectData, index: number) => {
+=======
+        {safeSubjects.map((subject: SubjectData, index: number) => {
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
           const IconComponent = getIconComponent(subject.icon)
           const emoji = getEmoji(subject.title)
           const lessonsCount = subject.detailedTopics?.reduce((acc, t) => acc + (t.subtopics?.reduce((a, s) => a + s.lessons.length, 0) || t.lessons?.length || 0), 0) || 0

@@ -4,8 +4,13 @@ import { useState } from 'react'
 import { useSchool } from '@/context/SchoolContext'
 import { LessonTopic, TopicSection, GameLesson } from '@/data/types'
 import {
+<<<<<<< HEAD
   ArrowLeft, ChevronDown, ChevronRight, BookOpen, Gamepad2, HelpCircle, Play,
   CheckCircle, Star, Sparkles, FileText, ClipboardList
+=======
+  ArrowLeft, ChevronDown, ChevronRight, BookOpen, Gamepad2, Play,
+  CheckCircle, Star
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 } from 'lucide-react'
 import LessonDetailModal from './LessonDetailModal'
 import LessonQuiz from './LessonQuiz'
@@ -37,6 +42,7 @@ export default function LessonViewer() {
   if (!selectedSubject) return null
 
   const toggleTopic = (topicName: string) => {
+<<<<<<< HEAD
     const newExpanded = new Set(expandedTopics)
     if (newExpanded.has(topicName)) {
       newExpanded.delete(topicName)
@@ -44,6 +50,9 @@ export default function LessonViewer() {
       newExpanded.add(topicName)
     }
     setExpandedTopics(newExpanded)
+=======
+    setExpandedTopics(prev => prev.has(topicName) ? new Set() : new Set([topicName]))
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
   }
   
   const openDetail = (lesson: SelectedLesson) => {
@@ -51,8 +60,13 @@ export default function LessonViewer() {
     setIsDetailOpen(true)
   }
   
+<<<<<<< HEAD
   const openQuiz = (lesson: SelectedLesson, lessonKey: string) => {
     setQuizLesson({ ...lesson, title: `${lesson.title}` })
+=======
+  const openQuiz = (lesson: SelectedLesson) => {
+    setQuizLesson(lesson)
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     setIsQuizOpen(true)
   }
   
@@ -171,6 +185,7 @@ export default function LessonViewer() {
                             </span>
                             {subtopic.title}
                           </h4>
+<<<<<<< HEAD
                           <div className="space-y-4 pl-4">
                             {subtopic.lessons.map((lesson, lessonIndex) => {
                               const lessonKey = `${topicKey}-${subtopicIndex}-${lessonIndex}`
@@ -229,6 +244,40 @@ export default function LessonViewer() {
                                     </div>
                                   )}
                                 </div>
+=======
+                          <div className="space-y-3 pl-4">
+                            {subtopic.lessons.map((lesson, lessonIndex) => {
+                              const isQuizCompleted = completedQuizzes.has(lesson.title)
+                              
+                              return (
+                                <button
+                                  key={lessonIndex} 
+                                  onClick={() => openDetail(lesson)}
+                                  className="w-full p-4 rounded-2xl bg-white/5 border border-white/10 
+                                             hover:border-purple-400/50 hover:bg-white/10 
+                                             transition-all text-left"
+                                >
+                                  <div className="flex items-center gap-3">
+                                    <Star className="w-5 h-5 text-yellow-400 flex-shrink-0" />
+                                    <div className="flex-1 min-w-0">
+                                      <h5 className="text-lg font-bold text-purple-300 truncate">
+                                        {lesson.title}
+                                      </h5>
+                                      <p className="text-gray-400 text-sm truncate">
+                                        {lesson.description}
+                                      </p>
+                                    </div>
+                                    {isQuizCompleted && (
+                                      <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0" />
+                                    )}
+                                    {lesson.tasks && lesson.tasks.length > 0 && (
+                                      <span className="text-xs text-purple-400 bg-purple-500/20 px-2 py-1 rounded-full">
+                                        {lesson.tasks.length} зад.
+                                      </span>
+                                    )}
+                                  </div>
+                                </button>
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
                               )
                             })}
                           </div>
@@ -237,6 +286,7 @@ export default function LessonViewer() {
                     ) : (
                       /* Old structure */
                       topicBlock.lessons?.map((lesson, lessonIndex) => {
+<<<<<<< HEAD
                         const lessonKey = `${topicKey}-${lessonIndex}`
                         const isQuizCompleted = completedQuizzes.has(lesson.title)
                         
@@ -289,6 +339,38 @@ export default function LessonViewer() {
                               </div>
                             )}
                           </div>
+=======
+                        const isQuizCompleted = completedQuizzes.has(lesson.title)
+                        
+                        return (
+                          <button
+                            key={lessonIndex} 
+                            onClick={() => openDetail(lesson)}
+                            className="w-full p-4 rounded-2xl bg-white/5 border border-white/10 
+                                       hover:border-purple-400/50 hover:bg-white/10 
+                                       transition-all text-left"
+                          >
+                            <div className="flex items-center gap-3">
+                              <Star className="w-5 h-5 text-yellow-400 flex-shrink-0" />
+                              <div className="flex-1 min-w-0">
+                                <h4 className="text-lg font-bold text-purple-300 truncate">
+                                  {lesson.title}
+                                </h4>
+                                <p className="text-gray-400 text-sm truncate">
+                                  {lesson.description}
+                                </p>
+                              </div>
+                              {isQuizCompleted && (
+                                <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0" />
+                              )}
+                              {lesson.tasks && lesson.tasks.length > 0 && (
+                                <span className="text-xs text-purple-400 bg-purple-500/20 px-2 py-1 rounded-full">
+                                  {lesson.tasks.length} зад.
+                                </span>
+                              )}
+                            </div>
+                          </button>
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
                         )
                       })
                     )}
@@ -336,6 +418,11 @@ export default function LessonViewer() {
         isOpen={isDetailOpen}
         onClose={() => setIsDetailOpen(false)}
         onComplete={handleDetailComplete}
+<<<<<<< HEAD
+=======
+        onQuiz={detailLesson ? () => openQuiz(detailLesson) : undefined}
+        isQuizCompleted={detailLesson ? completedQuizzes.has(detailLesson.title) : false}
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
       />
       
       <LessonQuiz

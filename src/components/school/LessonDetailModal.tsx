@@ -3,8 +3,13 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { 
+<<<<<<< HEAD
   X, BookOpen, ChevronRight, Star, CheckCircle, 
   Lightbulb, Target, Clock, Award
+=======
+  X, BookOpen, Star, CheckCircle, 
+  Lightbulb, Target, Clock, Award, ClipboardList
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 } from 'lucide-react'
 
 interface LessonDetail {
@@ -24,9 +29,17 @@ interface Props {
   isOpen: boolean
   onClose: () => void
   onComplete: () => void
+<<<<<<< HEAD
 }
 
 export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete }: Props) {
+=======
+  onQuiz?: () => void
+  isQuizCompleted?: boolean
+}
+
+export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete, onQuiz, isQuizCompleted }: Props) {
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
   const [currentSection, setCurrentSection] = useState(0)
   
   if (!lesson) return null
@@ -239,11 +252,32 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete 
                 >
                   Закрыть
                 </button>
+<<<<<<< HEAD
+=======
+                {onQuiz && (
+                  <button
+                    onClick={() => {
+                      onClose()
+                      onQuiz()
+                    }}
+                    className={`flex-1 py-3 rounded-xl font-medium transition-colors
+                               flex items-center justify-center gap-2
+                               ${isQuizCompleted 
+                                 ? 'bg-green-500 text-white' 
+                                 : 'bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white'
+                               }`}
+                  >
+                    <ClipboardList className="w-5 h-5" />
+                    {isQuizCompleted ? '✓ Тест пройден' : 'Тест'}
+                  </button>
+                )}
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
                 <button
                   onClick={() => {
                     onComplete()
                     onClose()
                   }}
+<<<<<<< HEAD
                   className="flex-1 py-3 bg-gradient-to-r from-green-500 to-emerald-500 
                             hover:from-green-600 hover:to-emerald-600
                             text-white rounded-xl font-medium transition-colors
@@ -251,6 +285,18 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete 
                 >
                   <Award className="w-5 h-5" />
                   Пройдено!
+=======
+                  disabled={!isQuizCompleted}
+                  className={`flex-1 py-3 rounded-xl font-medium transition-colors
+                            flex items-center justify-center gap-2
+                            ${isQuizCompleted 
+                              ? 'bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white cursor-pointer' 
+                              : 'bg-gray-600/50 text-gray-400 cursor-not-allowed'
+                            }`}
+                >
+                  <Award className="w-5 h-5" />
+                  {isQuizCompleted ? 'Пройдено! ✓' : 'Не пройден'}
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
                 </button>
               </div>
             </div>

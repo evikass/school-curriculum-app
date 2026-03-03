@@ -1,4 +1,5 @@
 import { SubjectData, GameLesson } from '@/data/types'
+<<<<<<< HEAD
 
 const createLesson = (title: string, description: string, tasks: string[]) => ({
   title,
@@ -143,3 +144,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты понимаешь нравственность! ❤️" }
   }
 ]
+=======
+export const lessons: SubjectData = { title: "Основы религиозных культур", icon: "HeartHandshake", color: "text-amber-400", topics: ["Культура", "Религии", "Нравственность", "Традиции"] }
+export const games: GameLesson[] = []
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c

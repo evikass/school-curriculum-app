@@ -60,8 +60,15 @@ export default function StudySchedule() {
   useEffect(() => {
     const saved = localStorage.getItem('studySchedule')
     if (saved) {
+<<<<<<< HEAD
       setSchedule(JSON.parse(saved))
     } else {
+=======
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setSchedule(JSON.parse(saved))
+    } else {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
       setSchedule(defaultSchedule)
       localStorage.setItem('studySchedule', JSON.stringify(defaultSchedule))
     }

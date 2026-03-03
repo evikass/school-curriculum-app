@@ -74,7 +74,11 @@ export default function DailyQuiz() {
     const lastAnswerDate = localStorage.getItem('lastQuizDate')
     const today = new Date().toDateString()
     if (lastAnswerDate === today) {
+<<<<<<< HEAD
       setAnsweredToday(true)
+=======
+      setTimeout(() => setAnsweredToday(true), 0)
+>>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     }
   }, [])
 
