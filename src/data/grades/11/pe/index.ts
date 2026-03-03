@@ -1,3 +1,41 @@
 import { SubjectData, GameLesson } from '@/data/types'
-export const lessons: SubjectData = { title: "Физическая культура", icon: "Dumbbell", color: "text-orange-400", topics: [] }
-export const games: GameLesson[] = []
+
+export const lessons: SubjectData = {
+  title: "Физическая культура",
+  icon: "Dumbbell",
+  color: "text-orange-400",
+  topics: [
+    "Физическая культура и здоровый образ жизни",
+    "Спорт и тренировка",
+    "Профессионально-прикладная физическая подготовка",
+    "Организация занятий"
+  ],
+  detailedTopics: [
+    {
+      topic: "Здоровый образ жизни",
+      lessons: [
+        {
+          title: "Здоровый образ жизни и его составляющие",
+          description: `**Здоровый образ жизни (ЗОЖ):**\n\n**Составляющие:**\n\n**1. Рациональное питание:**\n- Сбалансированность\n- Режим питания\n\n**2. Двигательная активность:**\n- 10000 шагов в день\n- Регулярные тренировки\n\n**3. Отказ от вредных привычек:**\n- Курение\n- Алкоголь\n- Наркотики\n\n**4. Закаливание:**\n- Укрепление иммунитета\n\n**5. Режим труда и отдыха:**\n- Сон 7-8 часов\n- Отдых`,
+          tasks: ["Что такое ЗОЖ?", "Сколько спать?", "Вредные привычки?"]
+        }
+      ]
+    }
+  ]
+}
+
+export const games: GameLesson[] = [
+  {
+    title: "Здоровый образ жизни",
+    subject: "Физическая культура",
+    icon: "Dumbbell",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'fill', question: "Норма сна — __ часов", correctAnswer: "7-8", hint: "Взрослому человеку" },
+      { type: 'quiz', question: "Сколько шагов в день?", options: ["5000", "10000", "15000", "20000"], correctAnswer: "10000", hint: "Норма активности" },
+      { type: 'quiz', question: "Закаливание:", options: ["Вредно", "Укрепляет иммунитет", "Не нужно", "Только зимой"], correctAnswer: "Укрепляет иммунитет", hint: "Польза для здоровья" },
+      { type: 'fill', question: "ЗОЖ — здоровый образ __", correctAnswer: "жизни", hint: "Полноценное название" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь ЗОЖ! 💪" }
+  }
+]

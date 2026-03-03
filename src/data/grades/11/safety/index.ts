@@ -1,3 +1,41 @@
 import { SubjectData, GameLesson } from '@/data/types'
-export const lessons: SubjectData = { title: "Основы безопасности", icon: "Shield", color: "text-slate-400", topics: [] }
-export const games: GameLesson[] = []
+
+export const lessons: SubjectData = {
+  title: "Основы безопасности",
+  icon: "Shield",
+  color: "text-slate-400",
+  topics: [
+    "Основы медицинских знаний",
+    "Военная служба",
+    "Безопасность в повседневной жизни",
+    "Подготовка к ЧС"
+  ],
+  detailedTopics: [
+    {
+      topic: "Основы медицинских знаний",
+      lessons: [
+        {
+          title: "Первая помощь в различных ситуациях",
+          description: `**Основные правила первой помощи:**\n\n**1. Оценить ситуацию:**\n- Убедиться в безопасности\n- Оценить состояние пострадавшего\n\n**2. Вызвать помощь:**\n- 103 — скорая\n- 112 — единый номер\n\n**3. Оказать помощь:**\n- Остановить кровотечение\n- Восстановить дыхание\n- Иммобилизация\n\n**Правила осмотра:**\n- Голова, шея, грудь, живот, конечности\n\n**СЛР:**\n- 30 нажатий, 2 вдоха\n- Глубина 5 см`,
+          tasks: ["Как вызвать скорую?", "Что такое СЛР?", "Правила осмотра пострадавшего?"]
+        }
+      ]
+    }
+  ]
+}
+
+export const games: GameLesson[] = [
+  {
+    title: "Первая помощь",
+    subject: "Основы безопасности",
+    icon: "Shield",
+    color: "text-slate-400",
+    tasks: [
+      { type: 'fill', question: "СЛР — __ сердечно-лёгочная реанимация", correctAnswer: "сердечно-лёгочная", hint: "Восстановление жизни" },
+      { type: 'quiz', question: "Сколько нажатий в СЛР?", options: ["10", "20", "30", "40"], correctAnswer: "30", hint: "Затем 2 вдоха" },
+      { type: 'fill', question: "Глубина нажатий — __ см", correctAnswer: "5", hint: "Для взрослого" },
+      { type: 'quiz', question: "Единый номер экстренных служб:", options: ["01", "103", "112", "102"], correctAnswer: "112", hint: "Работает везде" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты умеешь спасать! 🛡️" }
+  }
+]

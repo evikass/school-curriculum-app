@@ -85,6 +85,8 @@ const GAME_BUTTONS: GameButton[] = [
   { id: 'memory', icon: '🧠', label: 'Память', color: 'purple' },
   { id: 'daily', icon: '🎁', label: 'Ежедн', color: 'amber' },
   { id: 'stats', icon: '📊', label: 'Стат', color: 'blue' },
+  { id: 'verbtense', icon: '⏰', label: 'Глагол', color: 'violet' },
+  { id: 'wordbuilder', icon: '🔤', label: 'СобСл', color: 'emerald' },
 ]
 
 const COLOR_MAP: Record<string, string> = {

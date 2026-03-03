@@ -1,3 +1,41 @@
 import { SubjectData, GameLesson } from '@/data/types'
-export const lessons: SubjectData = { title: "Литература", icon: "BookODumbbellnText", color: "text-purple-400", topics: [] }
-export const games: GameLesson[] = []
+
+export const lessons: SubjectData = {
+  title: "Литература",
+  icon: "BookOpen",
+  color: "text-red-400",
+  topics: [
+    "Русская литература XIX века",
+    "Русская литература XX века",
+    "Зарубежная литература",
+    "Анализ произведений"
+  ],
+  detailedTopics: [
+    {
+      topic: "Русская литература XIX века",
+      lessons: [
+        {
+          title: "А.С. Пушкин",
+          description: `**Александр Сергеевич Пушкин (1799-1837)**\n\n**Основные произведения:**\n\n**Поэмы:**\n- «Руслан и Людмила»\n- «Полтава»\n- «Медный всадник»\n\n**Роман в стихах:**\n- «Евгений Онегин» — энциклопедия русской жизни\n\n**Проза:**\n- «Капитанская дочка»\n- «Повести Белкина»\n\n**Творчество Пушкина:**\n- Свобода и любовь\n- История России\n- Судьба маленького человека`,
+          tasks: ["Годы жизни Пушкина?", "Главный роман Пушкина?", "Темы творчества?"]
+        }
+      ]
+    }
+  ]
+}
+
+export const games: GameLesson[] = [
+  {
+    title: "Русская классика",
+    subject: "Литература",
+    icon: "BookOpen",
+    color: "text-red-400",
+    tasks: [
+      { type: 'quiz', question: "Автор «Евгения Онегина»:", options: ["Лермонтов", "Гоголь", "Пушкин", "Толстой"], correctAnswer: "Пушкин", hint: "Роман в стихах" },
+      { type: 'fill', question: "Пушкин родился в __ году", correctAnswer: "1799", hint: "6 июня" },
+      { type: 'quiz', question: "«Капитанская дочка» — это:", options: ["Поэма", "Роман", "Повесть", "Стихотворение"], correctAnswer: "Повесть", hint: "Прозаическое произведение" },
+      { type: 'quiz', question: "Пушкин погиб на дуэли в:", options: ["1837", "1840", "1841", "1830"], correctAnswer: "1837", hint: "Дантес" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь литературу! 📚" }
+  }
+]

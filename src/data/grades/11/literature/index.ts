@@ -1,3 +1,41 @@
 import { SubjectData, GameLesson } from '@/data/types'
-export const lessons: SubjectData = { title: "Литература", icon: "BookODumbbellnText", color: "text-purple-400", topics: [] }
-export const games: GameLesson[] = []
+
+export const lessons: SubjectData = {
+  title: "Литература",
+  icon: "BookOpen",
+  color: "text-red-400",
+  topics: [
+    "Русская литература XX века",
+    "Литература русского зарубежья",
+    "Современная литература",
+    "Подготовка к ЕГЭ"
+  ],
+  detailedTopics: [
+    {
+      topic: "Русская литература XX века",
+      lessons: [
+        {
+          title: "Литература периода Великой Отечественной войны",
+          description: `**Великая Отечественная война в литературе:**\n\n**Поэзия:**\n- К. Симонов «Жди меня»\n- А. Твардовский «Василий Тёркин»\n- Ю. Друнина\n\n**Проза:**\n- М. Шолохов «Судьба человека»\n- Б. Васильев «А зори здесь тихие»\n- В. Быков «Сотников»\n\n**Темы:**\n- Героизм народа\n- Трагедия войны\n- Человек на войне`,
+          tasks: ["Назовите военных писателей?", "«Василий Тёркин» — автор?", "Темы военной прозы?"]
+        }
+      ]
+    }
+  ]
+}
+
+export const games: GameLesson[] = [
+  {
+    title: "Литература XX века",
+    subject: "Литература",
+    icon: "BookOpen",
+    color: "text-red-400",
+    tasks: [
+      { type: 'quiz', question: "Автор «Василия Тёркина»:", options: ["Симонов", "Твардовский", "Шолохов", "Пастернак"], correctAnswer: "Твардовский", hint: "Поэма о войне" },
+      { type: 'fill', question: "«Судьба человека» — автор __", correctAnswer: "Шолохов", hint: "Рассказ о войне" },
+      { type: 'quiz', question: "«Жди меня» — автор:", options: ["Твардовский", "Симонов", "Друнина", "Ахматова"], correctAnswer: "Симонов", hint: "Любовная лирика войны" },
+      { type: 'fill', question: "«А зори здесь тихие» — автор __", correctAnswer: "Васильев", hint: "О девушках-зенитчицах" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь литературу! 📚" }
+  }
+]

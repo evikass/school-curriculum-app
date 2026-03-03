@@ -1,3 +1,41 @@
 import { SubjectData, GameLesson } from '@/data/types'
-export const lessons: SubjectData = { title: "Русский язык", icon: "BookODumbbelln", color: "text-red-400", topics: [] }
-export const games: GameLesson[] = []
+
+export const lessons: SubjectData = {
+  title: "Русский язык",
+  icon: "BookOpen",
+  color: "text-red-400",
+  topics: [
+    "Синтаксис и пунктуация",
+    "Текст и его строение",
+    "Стили речи",
+    "Подготовка к ЕГЭ"
+  ],
+  detailedTopics: [
+    {
+      topic: "Текст",
+      lessons: [
+        {
+          title: "Текст и его признаки",
+          description: `**Текст** — связное высказывание.\n\n**Признаки текста:**\n\n**1. Смысловая цельность:**\n- Единство темы\n- Основная мысль\n\n**2. Связность:**\n- Логическая связь\n- Цепная и параллельная связь\n\n**3. Членимость:**\n- Абзацы\n- Микротемы\n\n**4. Завершённость:**\n- Начало и конец\n\n**Средства связи:**\n- Местоимения\n- Синонимы\n- Повтор слов\n- Союзы`,
+          tasks: ["Признаки текста?", "Что такое микротема?", "Средства связи предложений?"]
+        }
+      ]
+    }
+  ]
+}
+
+export const games: GameLesson[] = [
+  {
+    title: "Текст",
+    subject: "Русский язык",
+    icon: "BookOpen",
+    color: "text-red-400",
+    tasks: [
+      { type: 'quiz', question: "Текст — это:", options: ["Набор предложений", "Связное высказывание", "Отдельные слова", "Диалог"], correctAnswer: "Связное высказывание", hint: "Единство темы" },
+      { type: 'fill', question: "Микротема — тема __", correctAnswer: "абзаца", hint: "Часть текста" },
+      { type: 'quiz', question: "Средства связи предложений:", options: ["Только союзы", "Местоимения, синонимы, союзы", "Только повтор", "Нет средств"], correctAnswer: "Местоимения, синонимы, союзы", hint: "Разные способы" },
+      { type: 'fill', question: "Основная мысль — __ текста", correctAnswer: "идея", hint: "Что автор хочет сказать" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь русский! 📚" }
+  }
+]
