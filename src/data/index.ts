@@ -23,10 +23,12 @@ import { lessons as grade1Tech } from './grades/1/tech'
 import { lessons as grade1Art } from './grades/1/art'
 import { lessons as grade1Music } from './grades/1/music'
 import { lessons as grade1PE } from './grades/1/pe'
+import { lessons as grade1Reading } from './grades/1/reading'
 import { games as grade1RussianGames } from './grades/1/russian'
 import { games as grade1MathGames } from './grades/1/math'
 import { games as grade1WorldGames } from './grades/1/world'
 import { games as grade1EnglishGames } from './grades/1/english'
+import { games as grade1ReadingGames } from './grades/1/reading'
 
 // Grade 2
 import { lessons as grade2Russian } from './grades/2/russian'
@@ -38,6 +40,8 @@ import { lessons as grade2Tech } from './grades/2/tech'
 import { lessons as grade2Art } from './grades/2/art'
 import { lessons as grade2Music } from './grades/2/music'
 import { lessons as grade2PE } from './grades/2/pe'
+import { lessons as grade2Projects } from './grades/2/projects'
+import { games as grade2ProjectsGames } from './grades/2/projects'
 
 // Grade 3
 import { lessons as grade3Russian } from './grades/3/russian'
@@ -51,8 +55,14 @@ import { lessons as grade3Music } from './grades/3/music'
 import { lessons as grade3PE } from './grades/3/pe'
 import { lessons as grade3Robotics } from './grades/3/robotics'
 import { lessons as grade3Ethics } from './grades/3/ethics'
+import { lessons as grade3Informatics } from './grades/3/informatics'
+import { lessons as grade3Safety } from './grades/3/safety'
+import { lessons as grade3LocalHistory } from './grades/3/local-history'
 import { games as grade3RoboticsGames } from './grades/3/robotics'
 import { games as grade3EthicsGames } from './grades/3/ethics'
+import { games as grade3InformaticsGames } from './grades/3/informatics'
+import { games as grade3SafetyGames } from './grades/3/safety'
+import { games as grade3LocalHistoryGames } from './grades/3/local-history'
 
 // Grade 4
 import { lessons as grade4Russian } from './grades/4/russian'
@@ -66,12 +76,20 @@ import { lessons as grade4Art } from './grades/4/art'
 import { lessons as grade4Music } from './grades/4/music'
 import { lessons as grade4PE } from './grades/4/pe'
 import { lessons as grade4Projects } from './grades/4/projects'
+import { lessons as grade4History } from './grades/4/history'
+import { lessons as grade4Geography } from './grades/4/geography'
+import { lessons as grade4Informatics } from './grades/4/informatics'
+import { lessons as grade4Nature } from './grades/4/nature'
 import { games as grade4WorldGames } from './grades/4/world'
 import { games as grade4MathGames } from './grades/4/math'
 import { games as grade4RussianGames } from './grades/4/russian'
 import { games as grade4LiteratureGames } from './grades/4/literature'
 import { games as grade4EnglishGames } from './grades/4/english'
 import { games as grade4ProjectsGames } from './grades/4/projects'
+import { games as grade4HistoryGames } from './grades/4/history'
+import { games as grade4GeographyGames } from './grades/4/geography'
+import { games as grade4InformaticsGames } from './grades/4/informatics'
+import { games as grade4NatureGames } from './grades/4/nature'
 
 // Grade 5
 import { lessons as grade5Russian } from './grades/5/russian'
@@ -87,6 +105,10 @@ import { lessons as grade5Music } from './grades/5/music'
 import { lessons as grade5PE } from './grades/5/pe'
 import { lessons as grade5Safety } from './grades/5/safety'
 import { lessons as grade5Crafts } from './grades/5/crafts'
+import { lessons as grade5Finance } from './grades/5/finance'
+import { lessons as grade5Digital } from './grades/5/digital'
+import { lessons as grade5Informatics } from './grades/5/informatics'
+import { lessons as grade5Robotics } from './grades/5/robotics'
 import { games as grade5MathGames } from './grades/5/math'
 import { games as grade5HistoryGames } from './grades/5/history'
 import { games as grade5BiologyGames } from './grades/5/biology'
@@ -95,6 +117,10 @@ import { games as grade5EnglishGames } from './grades/5/english'
 import { games as grade5RussianGames } from './grades/5/russian'
 import { games as grade5LiteratureGames } from './grades/5/literature'
 import { games as grade5CraftsGames } from './grades/5/crafts'
+import { games as grade5FinanceGames } from './grades/5/finance'
+import { games as grade5DigitalGames } from './grades/5/digital'
+import { games as grade5InformaticsGames } from './grades/5/informatics'
+import { games as grade5RoboticsGames } from './grades/5/robotics'
 
 // Grade 6
 import { lessons as grade6Russian } from './grades/6/russian'
@@ -114,6 +140,9 @@ import { lessons as grade6Informatics } from './grades/6/informatics'
 import { lessons as grade6Robotics } from './grades/6/robotics'
 import { lessons as grade6Ecology } from './grades/6/ecology'
 import { lessons as grade6Coding } from './grades/6/coding'
+import { lessons as grade6Physics } from './grades/6/physics'
+import { lessons as grade6Chemistry } from './grades/6/chemistry'
+import { lessons as grade6Crafts } from './grades/6/crafts'
 import { games as grade6MathGames } from './grades/6/math'
 import { games as grade6HistoryGames } from './grades/6/history'
 import { games as grade6BiologyGames } from './grades/6/biology'
@@ -126,6 +155,9 @@ import { games as grade6InformaticsGames } from './grades/6/informatics'
 import { games as grade6RoboticsGames } from './grades/6/robotics'
 import { games as grade6EcologyGames } from './grades/6/ecology'
 import { games as grade6CodingGames } from './grades/6/coding'
+import { games as grade6PhysicsGames } from './grades/6/physics'
+import { games as grade6ChemistryGames } from './grades/6/chemistry'
+import { games as grade6CraftsGames } from './grades/6/crafts'
 
 // Grade 7
 import { lessons as grade7Russian } from './grades/7/russian'
@@ -146,6 +178,8 @@ import { lessons as grade7Coding } from './grades/7/coding'
 import { lessons as grade7Social } from './grades/7/social'
 import { lessons as grade7Ecology } from './grades/7/ecology'
 import { lessons as grade7Robotics } from './grades/7/robotics'
+import { lessons as grade7Chemistry } from './grades/7/chemistry'
+import { lessons as grade7Informatics } from './grades/7/informatics'
 import { games as grade7AlgebraGames } from './grades/7/algebra'
 import { games as grade7GeometryGames } from './grades/7/geometry'
 import { games as grade7PhysicsGames } from './grades/7/physics'
@@ -159,6 +193,8 @@ import { games as grade7CodingGames } from './grades/7/coding'
 import { games as grade7SocialGames } from './grades/7/social'
 import { games as grade7EcologyGames } from './grades/7/ecology'
 import { games as grade7RoboticsGames } from './grades/7/robotics'
+import { games as grade7ChemistryGames } from './grades/7/chemistry'
+import { games as grade7InformaticsGames } from './grades/7/informatics'
 
 // Grade 8
 import { lessons as grade8Russian } from './grades/8/russian'
@@ -180,11 +216,15 @@ import { lessons as grade8Coding } from './grades/8/coding'
 import { lessons as grade8Social } from './grades/8/social'
 import { lessons as grade8Economy } from './grades/8/economy'
 import { lessons as grade8Informatics } from './grades/8/informatics'
+import { lessons as grade8Robotics } from './grades/8/robotics'
+import { lessons as grade8Law } from './grades/8/law'
 import { games as grade8PhysicsGames } from './grades/8/physics'
 import { games as grade8CodingGames } from './grades/8/coding'
 import { games as grade8SocialGames } from './grades/8/social'
 import { games as grade8EconomyGames } from './grades/8/economy'
 import { games as grade8InformaticsGames } from './grades/8/informatics'
+import { games as grade8RoboticsGames } from './grades/8/robotics'
+import { games as grade8LawGames } from './grades/8/law'
 
 // Grade 9
 import { lessons as grade9Russian } from './grades/9/russian'
@@ -205,10 +245,18 @@ import { lessons as grade9Safety } from './grades/9/safety'
 import { lessons as grade9Social } from './grades/9/social'
 import { lessons as grade9Coding } from './grades/9/coding'
 import { lessons as grade9Informatics } from './grades/9/informatics'
+import { lessons as grade9Psychology } from './grades/9/psychology'
+import { lessons as grade9Economy } from './grades/9/economy'
+import { lessons as grade9Career } from './grades/9/career'
+import { lessons as grade9OGE } from './grades/9/oge'
 import { games as grade9AlgebraGames } from './grades/9/algebra'
 import { games as grade9SocialGames } from './grades/9/social'
 import { games as grade9CodingGames } from './grades/9/coding'
 import { games as grade9InformaticsGames } from './grades/9/informatics'
+import { games as grade9PsychologyGames } from './grades/9/psychology'
+import { games as grade9EconomyGames } from './grades/9/economy'
+import { games as grade9CareerGames } from './grades/9/career'
+import { games as grade9OGEGames } from './grades/9/oge'
 
 // Grade 10
 import { lessons as grade10Russian } from './grades/10/russian'
@@ -227,8 +275,26 @@ import { lessons as grade10PE } from './grades/10/pe'
 import { lessons as grade10Safety } from './grades/10/safety'
 import { lessons as grade10Economy } from './grades/10/economy'
 import { lessons as grade10Coding } from './grades/10/coding'
+import { lessons as grade10Tech } from './grades/10/tech'
+import { lessons as grade10Art } from './grades/10/art'
+import { lessons as grade10Career } from './grades/10/career'
+import { lessons as grade10Astronomy } from './grades/10/astronomy'
+import { lessons as grade10Business } from './grades/10/business'
+import { lessons as grade10Philosophy } from './grades/10/philosophy'
+import { lessons as grade10Projects } from './grades/10/projects'
+import { lessons as grade10Lab } from './grades/10/lab'
+import { lessons as grade10EGE } from './grades/10/ege'
 import { games as grade10EconomyGames } from './grades/10/economy'
 import { games as grade10CodingGames } from './grades/10/coding'
+import { games as grade10TechGames } from './grades/10/tech'
+import { games as grade10ArtGames } from './grades/10/art'
+import { games as grade10CareerGames } from './grades/10/career'
+import { games as grade10AstronomyGames } from './grades/10/astronomy'
+import { games as grade10BusinessGames } from './grades/10/business'
+import { games as grade10PhilosophyGames } from './grades/10/philosophy'
+import { games as grade10ProjectsGames } from './grades/10/projects'
+import { games as grade10LabGames } from './grades/10/lab'
+import { games as grade10EGEGames } from './grades/10/ege'
 
 // Grade 11
 import { lessons as grade11Russian } from './grades/11/russian'
@@ -266,16 +332,16 @@ import { eleventhGradeGames } from './grade-11'
 
 // Предметы для каждого класса
 export const grade0Subjects: Subject[] = [grade0World, grade0Math, grade0Reading, grade0Russian, grade0Music, grade0Art, grade0PE, grade0Craft]
-export const grade1Subjects: Subject[] = [grade1Russian, grade1Literature, grade1Math, grade1World, grade1English, grade1Tech, grade1Art, grade1Music, grade1PE]
-export const grade2Subjects: Subject[] = [grade2Russian, grade2Literature, grade2Math, grade2World, grade2English, grade2Tech, grade2Art, grade2Music, grade2PE]
-export const grade3Subjects: Subject[] = [grade3Russian, grade3Literature, grade3Math, grade3World, grade3English, grade3Tech, grade3Art, grade3Music, grade3PE, grade3Robotics, grade3Ethics]
-export const grade4Subjects: Subject[] = [grade4Russian, grade4Literature, grade4Math, grade4World, grade4English, grade4Religion, grade4Tech, grade4Art, grade4Music, grade4PE, grade4Projects]
-export const grade5Subjects: Subject[] = [grade5Russian, grade5Literature, grade5Math, grade5History, grade5Biology, grade5Geography, grade5English, grade5Tech, grade5Art, grade5Music, grade5PE, grade5Safety, grade5Crafts]
-export const grade6Subjects: Subject[] = [grade6Russian, grade6Literature, grade6Math, grade6History, grade6Biology, grade6Geography, grade6English, grade6Tech, grade6Art, grade6Music, grade6PE, grade6Safety, grade6Social, grade6Informatics, grade6Robotics, grade6Ecology, grade6Coding]
-export const grade7Subjects: Subject[] = [grade7Russian, grade7Literature, grade7Algebra, grade7Geometry, grade7Physics, grade7History, grade7Biology, grade7Geography, grade7English, grade7Tech, grade7Art, grade7Music, grade7PE, grade7Safety, grade7Coding, grade7Social, grade7Ecology, grade7Robotics]
-export const grade8Subjects: Subject[] = [grade8Russian, grade8Literature, grade8Algebra, grade8Geometry, grade8Physics, grade8Chemistry, grade8History, grade8Biology, grade8Geography, grade8English, grade8Tech, grade8Art, grade8Music, grade8PE, grade8Safety, grade8Coding, grade8Social, grade8Economy, grade8Informatics]
-export const grade9Subjects: Subject[] = [grade9Russian, grade9Literature, grade9Algebra, grade9Geometry, grade9Physics, grade9Chemistry, grade9History, grade9Biology, grade9Geography, grade9English, grade9Tech, grade9Art, grade9Music, grade9PE, grade9Safety, grade9Social, grade9Coding, grade9Informatics]
-export const grade10Subjects: Subject[] = [grade10Russian, grade10Literature, grade10Algebra, grade10Geometry, grade10Physics, grade10Chemistry, grade10History, grade10Social, grade10Biology, grade10Geography, grade10English, grade10Informatics, grade10PE, grade10Safety, grade10Economy, grade10Coding]
+export const grade1Subjects: Subject[] = [grade1Russian, grade1Literature, grade1Math, grade1World, grade1English, grade1Tech, grade1Art, grade1Music, grade1PE, grade1Reading]
+export const grade2Subjects: Subject[] = [grade2Russian, grade2Literature, grade2Math, grade2World, grade2English, grade2Tech, grade2Art, grade2Music, grade2PE, grade2Projects]
+export const grade3Subjects: Subject[] = [grade3Russian, grade3Literature, grade3Math, grade3World, grade3English, grade3Tech, grade3Art, grade3Music, grade3PE, grade3Robotics, grade3Ethics, grade3Informatics, grade3Safety]
+export const grade4Subjects: Subject[] = [grade4Russian, grade4Literature, grade4Math, grade4World, grade4English, grade4Religion, grade4Tech, grade4Art, grade4Music, grade4PE, grade4Projects, grade4History, grade4Geography, grade4Informatics, grade4Nature]
+export const grade5Subjects: Subject[] = [grade5Russian, grade5Literature, grade5Math, grade5History, grade5Biology, grade5Geography, grade5English, grade5Tech, grade5Art, grade5Music, grade5PE, grade5Safety, grade5Crafts, grade5Finance, grade5Digital, grade5Informatics, grade5Robotics]
+export const grade6Subjects: Subject[] = [grade6Russian, grade6Literature, grade6Math, grade6History, grade6Biology, grade6Geography, grade6English, grade6Tech, grade6Art, grade6Music, grade6PE, grade6Safety, grade6Social, grade6Informatics, grade6Robotics, grade6Ecology, grade6Coding, grade6Physics, grade6Chemistry, grade6Crafts]
+export const grade7Subjects: Subject[] = [grade7Russian, grade7Literature, grade7Algebra, grade7Geometry, grade7Physics, grade7History, grade7Biology, grade7Geography, grade7English, grade7Tech, grade7Art, grade7Music, grade7PE, grade7Safety, grade7Coding, grade7Social, grade7Ecology, grade7Robotics, grade7Chemistry, grade7Informatics]
+export const grade8Subjects: Subject[] = [grade8Russian, grade8Literature, grade8Algebra, grade8Geometry, grade8Physics, grade8Chemistry, grade8History, grade8Biology, grade8Geography, grade8English, grade8Tech, grade8Art, grade8Music, grade8PE, grade8Safety, grade8Coding, grade8Social, grade8Economy, grade8Informatics, grade8Robotics, grade8Law]
+export const grade9Subjects: Subject[] = [grade9Russian, grade9Literature, grade9Algebra, grade9Geometry, grade9Physics, grade9Chemistry, grade9History, grade9Biology, grade9Geography, grade9English, grade9Tech, grade9Art, grade9Music, grade9PE, grade9Safety, grade9Social, grade9Coding, grade9Informatics, grade9Psychology, grade9Economy, grade9Career, grade9OGE]
+export const grade10Subjects: Subject[] = [grade10Russian, grade10Literature, grade10Algebra, grade10Geometry, grade10Physics, grade10Chemistry, grade10History, grade10Social, grade10Biology, grade10Geography, grade10English, grade10Informatics, grade10PE, grade10Safety, grade10Economy, grade10Coding, grade10Tech, grade10Art, grade10Career, grade10Astronomy, grade10Business, grade10Philosophy, grade10Projects, grade10Lab, grade10EGE]
 export const grade11Subjects: Subject[] = [grade11Russian, grade11Literature, grade11Algebra, grade11Geometry, grade11Physics, grade11Chemistry, grade11History, grade11Social, grade11Biology, grade11Geography, grade11English, grade11Informatics, grade11PE, grade11Safety, grade11Economy, grade11Coding]
 
 // Функция получения предметов для класса
@@ -314,16 +380,16 @@ export { eleventhGradeGames }
 // Все игры по классам
 export const allGames: Record<number, GameLesson[]> = {
   0: prepClassGames,
-  1: firstGradeGames,
-  2: secondGradeGames,
-  3: [...thirdGradeGames, ...grade3RoboticsGames, ...grade3EthicsGames],
-  4: [...fourthGradeGames, ...grade4WorldGames, ...grade4MathGames, ...grade4RussianGames, ...grade4LiteratureGames, ...grade4EnglishGames, ...grade4ProjectsGames],
-  5: [...fifthGradeGames, ...grade5MathGames, ...grade5HistoryGames, ...grade5BiologyGames, ...grade5GeographyGames, ...grade5EnglishGames, ...grade5RussianGames, ...grade5LiteratureGames, ...grade5CraftsGames],
-  6: [...sixthGradeGames, ...grade6MathGames, ...grade6HistoryGames, ...grade6BiologyGames, ...grade6GeographyGames, ...grade6EnglishGames, ...grade6RussianGames, ...grade6LiteratureGames, ...grade6SocialGames, ...grade6InformaticsGames, ...grade6RoboticsGames, ...grade6EcologyGames, ...grade6CodingGames],
-  7: [...seventhGradeGames, ...grade7AlgebraGames, ...grade7GeometryGames, ...grade7PhysicsGames, ...grade7HistoryGames, ...grade7BiologyGames, ...grade7GeographyGames, ...grade7EnglishGames, ...grade7RussianGames, ...grade7LiteratureGames, ...grade7CodingGames, ...grade7SocialGames, ...grade7EcologyGames, ...grade7RoboticsGames],
-  8: [...eighthGradeGames, ...grade8PhysicsGames, ...grade8CodingGames, ...grade8SocialGames, ...grade8EconomyGames, ...grade8InformaticsGames],
-  9: [...ninthGradeGames, ...grade9AlgebraGames, ...grade9SocialGames, ...grade9CodingGames, ...grade9InformaticsGames],
-  10: [...tenthGradeGames, ...grade10EconomyGames, ...grade10CodingGames],
+  1: [...firstGradeGames, ...grade1ReadingGames],
+  2: [...secondGradeGames, ...grade2ProjectsGames],
+  3: [...thirdGradeGames, ...grade3RoboticsGames, ...grade3EthicsGames, ...grade3InformaticsGames, ...grade3SafetyGames],
+  4: [...fourthGradeGames, ...grade4WorldGames, ...grade4MathGames, ...grade4RussianGames, ...grade4LiteratureGames, ...grade4EnglishGames, ...grade4ProjectsGames, ...grade4HistoryGames, ...grade4GeographyGames, ...grade4InformaticsGames, ...grade4NatureGames],
+  5: [...fifthGradeGames, ...grade5MathGames, ...grade5HistoryGames, ...grade5BiologyGames, ...grade5GeographyGames, ...grade5EnglishGames, ...grade5RussianGames, ...grade5LiteratureGames, ...grade5CraftsGames, ...grade5FinanceGames, ...grade5DigitalGames, ...grade5InformaticsGames, ...grade5RoboticsGames],
+  6: [...sixthGradeGames, ...grade6MathGames, ...grade6HistoryGames, ...grade6BiologyGames, ...grade6GeographyGames, ...grade6EnglishGames, ...grade6RussianGames, ...grade6LiteratureGames, ...grade6SocialGames, ...grade6InformaticsGames, ...grade6RoboticsGames, ...grade6EcologyGames, ...grade6CodingGames, ...grade6PhysicsGames, ...grade6ChemistryGames, ...grade6CraftsGames],
+  7: [...seventhGradeGames, ...grade7AlgebraGames, ...grade7GeometryGames, ...grade7PhysicsGames, ...grade7HistoryGames, ...grade7BiologyGames, ...grade7GeographyGames, ...grade7EnglishGames, ...grade7RussianGames, ...grade7LiteratureGames, ...grade7CodingGames, ...grade7SocialGames, ...grade7EcologyGames, ...grade7RoboticsGames, ...grade7ChemistryGames, ...grade7InformaticsGames],
+  8: [...eighthGradeGames, ...grade8PhysicsGames, ...grade8CodingGames, ...grade8SocialGames, ...grade8EconomyGames, ...grade8InformaticsGames, ...grade8RoboticsGames, ...grade8LawGames],
+  9: [...ninthGradeGames, ...grade9AlgebraGames, ...grade9SocialGames, ...grade9CodingGames, ...grade9InformaticsGames, ...grade9PsychologyGames, ...grade9EconomyGames, ...grade9CareerGames, ...grade9OGEGames],
+  10: [...tenthGradeGames, ...grade10EconomyGames, ...grade10CodingGames, ...grade10TechGames, ...grade10ArtGames, ...grade10CareerGames, ...grade10AstronomyGames, ...grade10BusinessGames, ...grade10PhilosophyGames, ...grade10ProjectsGames, ...grade10LabGames, ...grade10EGEGames],
   11: [...eleventhGradeGames, ...grade11EconomyGames, ...grade11CodingGames],
 }
 
