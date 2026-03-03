@@ -676,3 +676,31 @@ Stage Summary:
 - Версия v3.14
 - Деплой: https://evikass.github.io/school-curriculum-app/
 - 32 новых предмета для классов 1-10
+
+---
+Task ID: 20
+Agent: Main Agent
+Task: v3.15 - Интеграция всех предметов в index.ts
+
+Work Log:
+- Обновлён файл /src/data/index.ts с импортами всех новых предметов
+- Добавлены импорты для 32 новых предметов:
+  - Grade 1: Reading
+  - Grade 2: Projects
+  - Grade 3: Informatics, Safety, Local History
+  - Grade 4: History, Geography, Informatics, Nature
+  - Grade 5: Finance, Digital, Informatics, Robotics
+  - Grade 6: Physics, Chemistry, Crafts
+  - Grade 7: Chemistry, Informatics
+  - Grade 8: Robotics, Law
+  - Grade 9: Psychology, Economy, Career, OGE
+  - Grade 10: Tech, Art, Career, Astronomy, Business, Philosophy, Projects, Lab, EGE
+- Обновлены массивы gradeSubjects для всех классов
+- Обновлён объект allGames с играми для новых предметов
+- Обновлена версия в page.tsx: v3.14 → v3.15
+- Закоммичено и задеплоено на gh-pages
+
+Stage Summary:
+- Версия v3.15
+- Деплой: https://evikass.github.io/school-curriculum-app/
+- 50+ предметов интегрированы в систему
