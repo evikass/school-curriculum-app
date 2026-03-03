@@ -42,19 +42,20 @@ const generateDemoSessions = (): StudySession[] => {
 export default function ParentDashboard() {
   const { totalPoints, totalStars, selectedGrade, achievements } = useSchool()
   const [isOpen, setIsOpen] = useState(false)
-  const [sessions, setSessions] = useState<StudySession[]>([])
   const [activeTab, setActiveTab] = useState<'overview' | 'history' | 'subjects'>('overview')
   
-  useEffect(() => {
+  // Используем ленивую инициализацию для sessions
+  const [sessions, setSessions] = useState<StudySession[]>(() => {
+    if (typeof window === 'undefined') return []
     const saved = localStorage.getItem('studySessions')
     if (saved) {
-      setSessions(JSON.parse(saved))
+      return JSON.parse(saved)
     } else {
       const demo = generateDemoSessions()
-      setSessions(demo)
       localStorage.setItem('studySessions', JSON.stringify(demo))
+      return demo
     }
-  }, [])
+  })
   
   // Статистика
   const stats = useMemo(() => {

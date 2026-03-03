@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useMemo } from 'react'
 import { Gift, Star, Flame, Zap, X } from 'lucide-react'
 import { useSchool } from '@/context/SchoolContext'
 import { useSound } from '@/lib/sounds'
@@ -13,18 +13,17 @@ interface DailyBonusProps {
 export default function DailyBonus({ onClose }: DailyBonusProps) {
   const { progress, addPoints, unlockAchievement } = useSchool()
   const [claimed, setClaimed] = useState(false)
-  const [bonusAmount, setBonusAmount] = useState(0)
   const { playAchievement } = useSound()
 
   const level = calculateLevel(progress.totalPoints)
   const rank = getRank(level)
 
-  // Calculate daily bonus based on streak and level
-  useEffect(() => {
+  // Calculate daily bonus based on streak and level using useMemo
+  const bonusAmount = useMemo(() => {
     const baseBonus = XP_REWARDS.DAILY_LOGIN
     const streakBonus = Math.min(progress.streak, 7) * XP_REWARDS.STREAK_BONUS
     const levelBonus = Math.floor(level * 2)
-    setBonusAmount(baseBonus + streakBonus + levelBonus)
+    return baseBonus + streakBonus + levelBonus
   }, [progress.streak, level])
 
   const claimBonus = () => {

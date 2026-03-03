@@ -141,6 +141,29 @@ export default function FlagsQuiz() {
     setTimeout(() => generateQuestion(), 100)
   }, [getTimeLimit, generateQuestion])
 
+  const nextQuestion = useCallback(() => {
+    setShowFeedback(null)
+    setSelectedAnswer(null)
+    
+    if (question >= 10) {
+      setGameState('result')
+    } else {
+      setQuestion(prev => prev + 1)
+      generateQuestion()
+      setTimeLeft(getTimeLimit(difficulty))
+    }
+  }, [question, difficulty, generateQuestion, getTimeLimit])
+
+  const handleTimeout = useCallback(() => {
+    playSound('error')
+    setShowFeedback('wrong')
+    setStreak(0)
+    
+    setTimeout(() => {
+      nextQuestion()
+    }, 1500)
+  }, [playSound, nextQuestion])
+
   useEffect(() => {
     if (gameState !== 'playing' || timeLeft <= 0) return
     
@@ -155,30 +178,7 @@ export default function FlagsQuiz() {
     }, 1000)
     
     return () => clearInterval(timer)
-  }, [gameState, timeLeft])
-
-  const handleTimeout = useCallback(() => {
-    playSound('error')
-    setShowFeedback('wrong')
-    setStreak(0)
-    
-    setTimeout(() => {
-      nextQuestion()
-    }, 1500)
-  }, [playSound])
-
-  const nextQuestion = useCallback(() => {
-    setShowFeedback(null)
-    setSelectedAnswer(null)
-    
-    if (question >= 10) {
-      setGameState('result')
-    } else {
-      setQuestion(prev => prev + 1)
-      generateQuestion()
-      setTimeLeft(getTimeLimit(difficulty))
-    }
-  }, [question, difficulty, generateQuestion, getTimeLimit])
+  }, [gameState, timeLeft, handleTimeout])
 
   const handleAnswer = (answer: string) => {
     if (showFeedback || !currentFlag) return

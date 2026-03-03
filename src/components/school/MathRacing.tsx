@@ -102,6 +102,11 @@ export default function MathRacing() {
     problemStartTime.current = Date.now()
   }, [])
 
+  const finishGame = useCallback(() => {
+    setGameState('finished')
+    if (timerRef.current) clearTimeout(timerRef.current)
+  }, [])
+
   useEffect(() => {
     if (gameState === 'playing' && timeLeft > 0) {
       timerRef.current = setTimeout(() => {
@@ -111,9 +116,11 @@ export default function MathRacing() {
         if (timerRef.current) clearTimeout(timerRef.current)
       }
     } else if (timeLeft === 0 && gameState === 'playing') {
-      finishGame()
+      // Используем setTimeout для отложенного вызова
+      const timer = setTimeout(() => finishGame(), 0)
+      return () => clearTimeout(timer)
     }
-  }, [timeLeft, gameState])
+  }, [timeLeft, gameState, finishGame])
 
   const checkAnswer = useCallback(() => {
     if (!currentProblem || !difficulty) return
@@ -166,11 +173,6 @@ export default function MathRacing() {
     setCurrentProblem(generateProblem(difficulty))
     problemStartTime.current = Date.now()
   }, [currentProblem, userAnswer, difficulty, combo, maxCombo, correct, addXP, playSound])
-
-  const finishGame = useCallback(() => {
-    setGameState('finished')
-    if (timerRef.current) clearTimeout(timerRef.current)
-  }, [])
 
   const resetGame = useCallback(() => {
     setGameState('setup')

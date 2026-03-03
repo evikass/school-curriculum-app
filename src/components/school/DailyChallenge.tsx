@@ -42,35 +42,38 @@ const CHALLENGE_QUESTIONS: ChallengeQuestion[] = [
   { q: "Формула воды?", options: ["H2O", "CO2", "O2"], answer: "H2O" },
 ]
 
+// Helper to get saved state
+function getSavedState(todayKey: string) {
+  if (typeof window === 'undefined') return { completed: false, correct: 0 }
+  const saved = localStorage.getItem('dailyChallenge')
+  if (saved) {
+    const data = JSON.parse(saved)
+    if (data.date === todayKey) {
+      return { completed: data.completed, correct: data.correct || 0 }
+    }
+  }
+  return { completed: false, correct: 0 }
+}
+
+// Helper to generate questions
+function generateQuestions(todayKey: string) {
+  const seed = todayKey.split('').reduce((a, b) => a + b.charCodeAt(0), 0)
+  const shuffled = [...CHALLENGE_QUESTIONS].sort(() => (seed % 2) - 0.5)
+  return shuffled.slice(0, 5)
+}
+
 export default function DailyChallenge() {
   const { progress, addPoints } = useSchool()
   const { playCorrect, playWrong, playAchievement } = useSound()
   
-  const [questions, setQuestions] = useState<ChallengeQuestion[]>([])
+  const [todayKey] = useState(() => new Date().toDateString())
+  const [questions] = useState<ChallengeQuestion[]>(() => generateQuestions(todayKey))
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [correct, setCorrect] = useState(0)
+  const [correct, setCorrect] = useState(() => getSavedState(todayKey).correct)
   const [selected, setSelected] = useState<string | null>(null)
   const [showResult, setShowResult] = useState(false)
-  const [completed, setCompleted] = useState(false)
+  const [completed, setCompleted] = useState(() => getSavedState(todayKey).completed)
   const [streak, setStreak] = useState(0)
-  const [todayKey] = useState(() => new Date().toDateString())
-  
-  // Load saved state
-  useEffect(() => {
-    const saved = localStorage.getItem('dailyChallenge')
-    if (saved) {
-      const data = JSON.parse(saved)
-      if (data.date === todayKey) {
-        setCompleted(data.completed)
-        setCorrect(data.correct || 0)
-      }
-    }
-    
-    // Generate today's questions based on date
-    const seed = todayKey.split('').reduce((a, b) => a + b.charCodeAt(0), 0)
-    const shuffled = [...CHALLENGE_QUESTIONS].sort(() => (seed % 2) - 0.5)
-    setQuestions(shuffled.slice(0, 5))
-  }, [todayKey])
 
   const calculateBonus = useCallback(() => {
     const accuracy = (correct / questions.length) * 100

@@ -57,12 +57,10 @@ import { lessons as grade3Robotics } from './grades/3/robotics'
 import { lessons as grade3Ethics } from './grades/3/ethics'
 import { lessons as grade3Informatics } from './grades/3/informatics'
 import { lessons as grade3Safety } from './grades/3/safety'
-import { lessons as grade3LocalHistory } from './grades/3/local-history'
 import { games as grade3RoboticsGames } from './grades/3/robotics'
 import { games as grade3EthicsGames } from './grades/3/ethics'
 import { games as grade3InformaticsGames } from './grades/3/informatics'
 import { games as grade3SafetyGames } from './grades/3/safety'
-import { games as grade3LocalHistoryGames } from './grades/3/local-history'
 
 // Grade 4
 import { lessons as grade4Russian } from './grades/4/russian'

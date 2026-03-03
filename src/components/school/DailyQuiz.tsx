@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Brain, Sparkles, Trophy, X, Clock, Star, ChevronRight, Zap } from 'lucide-react'
 import { useSchool } from '@/context/SchoolContext'
@@ -56,7 +56,11 @@ export default function DailyQuiz() {
   const [showResult, setShowResult] = useState(false)
   const [isComplete, setIsComplete] = useState(false)
   const [timeLeft, setTimeLeft] = useState(15)
-  const [answeredToday, setAnsweredToday] = useState(false)
+  const [answeredToday, setAnsweredToday] = useState(() => {
+    if (typeof window === 'undefined') return false
+    const lastAnswerDate = localStorage.getItem('lastQuizDate')
+    return lastAnswerDate === new Date().toDateString()
+  })
   
   // Получаем вопрос дня на основе даты
   const todayQuestion = useMemo(() => {
@@ -68,17 +72,8 @@ export default function DailyQuiz() {
     const filtered = quizQuestions.filter(q => q.difficulty <= maxDifficulty)
     return filtered[dayOfYear % filtered.length]
   }, [selectedGrade])
-  
-  // Проверяем, отвечал ли сегодня
-  useEffect(() => {
-    const lastAnswerDate = localStorage.getItem('lastQuizDate')
-    const today = new Date().toDateString()
-    if (lastAnswerDate === today) {
-      setAnsweredToday(true)
-    }
-  }, [])
 
-  const handleAnswer = (answerIndex: number) => {
+  const handleAnswer = useCallback((answerIndex: number) => {
     if (showResult) return
     
     setSelectedAnswer(answerIndex)
@@ -96,7 +91,7 @@ export default function DailyQuiz() {
       setAnsweredToday(true)
       setIsComplete(true)
     }, 2000)
-  }
+  }, [showResult, todayQuestion, addPoints, addStars])
   
   // Таймер
   useEffect(() => {
@@ -104,9 +99,11 @@ export default function DailyQuiz() {
       const timer = setTimeout(() => setTimeLeft(t => t - 1), 1000)
       return () => clearTimeout(timer)
     } else if (timeLeft === 0 && !showResult) {
-      handleAnswer(-1) // Время вышло
+      // Используем setTimeout для отложенного вызова
+      const timer = setTimeout(() => handleAnswer(-1), 0)
+      return () => clearTimeout(timer)
     }
-  }, [isOpen, showResult, isComplete, timeLeft])
+  }, [isOpen, showResult, isComplete, timeLeft, handleAnswer])
   
   const resetQuiz = () => {
     setCurrentQuestion(0)

@@ -65,7 +65,9 @@ function MathGame({ onComplete }: { onComplete: (score: number) => void }) {
   }, [])
   
   useEffect(() => {
-    generateProblem()
+    // Используем setTimeout для отложенного вызова
+    const timer = setTimeout(() => generateProblem(), 0)
+    return () => clearTimeout(timer)
   }, [generateProblem])
   
   const handleAnswer = (answer: number) => {

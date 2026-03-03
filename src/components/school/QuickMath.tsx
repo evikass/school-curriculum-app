@@ -104,7 +104,9 @@ export default function QuickMath() {
       timerRef.current = setTimeout(() => setTimeLeft(t => t - 1), 1000)
       return () => { if (timerRef.current) clearTimeout(timerRef.current) }
     } else if (timeLeft === 0 && gameMode && modeConfig[gameMode].time > 0 && gameState === 'playing') {
-      setGameState('finished')
+      // Используем setTimeout для отложенного setState
+      const timer = setTimeout(() => setGameState('finished'), 0)
+      return () => clearTimeout(timer)
     }
   }, [timeLeft, gameMode, gameState])
 
@@ -113,7 +115,9 @@ export default function QuickMath() {
     if (gameMode && gameState === 'playing') {
       const target = modeConfig[gameMode].target
       if (target < 999 && correct >= target) {
-        setGameState('finished')
+        // Используем setTimeout для отложенного setState
+        const timer = setTimeout(() => setGameState('finished'), 0)
+        return () => clearTimeout(timer)
       }
     }
   }, [correct, gameMode, gameState])

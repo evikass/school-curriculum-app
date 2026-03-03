@@ -92,6 +92,11 @@ export default function SequenceGame() {
     setShowRule(false)
   }, [])
 
+  const finishGame = useCallback(() => {
+    setGameState('finished')
+    if (timerRef.current) clearTimeout(timerRef.current)
+  }, [])
+
   useEffect(() => {
     if (gameState === 'playing') {
       const seq = getNextSequence()
@@ -108,15 +113,19 @@ export default function SequenceGame() {
       timerRef.current = setTimeout(() => setTimeLeft(t => t - 1), 1000)
       return () => { if (timerRef.current) clearTimeout(timerRef.current) }
     } else if (timeLeft === 0 && gameMode === 'timed' && gameState === 'playing') {
-      finishGame()
+      // Используем setTimeout для отложенного вызова
+      const timer = setTimeout(() => finishGame(), 0)
+      return () => clearTimeout(timer)
     }
-  }, [timeLeft, gameMode, gameState])
+  }, [timeLeft, gameMode, gameState, finishGame])
 
   useEffect(() => {
     if (gameMode === 'survival' && lives <= 0 && gameState === 'playing') {
-      finishGame()
+      // Используем setTimeout для отложенного вызова
+      const timer = setTimeout(() => finishGame(), 0)
+      return () => clearTimeout(timer)
     }
-  }, [lives, gameMode, gameState])
+  }, [lives, gameMode, gameState, finishGame])
 
   const checkAnswer = useCallback(() => {
     if (!currentSequence) return
@@ -150,11 +159,6 @@ export default function SequenceGame() {
       setDisplayedNumbers(nextSeq.numbers.slice(0, -1))
     }
   }, [currentSequence, userAnswer, gameMode, streak, lives, addXP, playSound, getNextSequence])
-
-  const finishGame = useCallback(() => {
-    setGameState('finished')
-    if (timerRef.current) clearTimeout(timerRef.current)
-  }, [])
 
   const resetGame = useCallback(() => {
     setGameState('setup')

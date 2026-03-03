@@ -28,20 +28,19 @@ const QUIZ_QUESTIONS = [
 ]
 
 export default function QuickQuiz() {
-  const [question, setQuestion] = useState<typeof QUIZ_QUESTIONS[0] | null>(null)
+  const { playCorrect, playWrong, playAchievement } = useSound()
+  
+  // Ленивая инициализация первого вопроса
+  const getRandomQuestion = () => QUIZ_QUESTIONS[Math.floor(Math.random() * QUIZ_QUESTIONS.length)]
+  
+  const [question, setQuestion] = useState(() => getRandomQuestion())
   const [selected, setSelected] = useState<string | null>(null)
   const [answered, setAnswered] = useState(false)
   const [score, setScore] = useState(0)
   const [total, setTotal] = useState(0)
-  const { playCorrect, playWrong, playAchievement } = useSound()
-
-  useEffect(() => {
-    nextQuestion()
-  }, [])
 
   const nextQuestion = () => {
-    const randomIndex = Math.floor(Math.random() * QUIZ_QUESTIONS.length)
-    setQuestion(QUIZ_QUESTIONS[randomIndex])
+    setQuestion(getRandomQuestion())
     setSelected(null)
     setAnswered(false)
   }

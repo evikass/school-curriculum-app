@@ -104,8 +104,14 @@ export default function AnagramGame() {
     if (gameMode && modeConfig[gameMode].time > 0 && gameState === 'playing' && timeLeft > 0) {
       const timer = setTimeout(() => setTimeLeft(t => t - 1), 1000)
       return () => clearTimeout(timer)
-    } else if (timeLeft === 0 && gameMode && modeConfig[gameMode].time > 0 && gameState === 'playing') {
-      setGameState('finished')
+    }
+  }, [timeLeft, gameMode, gameState])
+
+  // Отдельный эффект для завершения игры при истечении времени
+  useEffect(() => {
+    if (timeLeft === 0 && gameMode && modeConfig[gameMode].time > 0 && gameState === 'playing') {
+      const timer = setTimeout(() => setGameState('finished'), 0)
+      return () => clearTimeout(timer)
     }
   }, [timeLeft, gameMode, gameState])
 

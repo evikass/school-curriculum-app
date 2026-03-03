@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 interface Star {
   id: number
@@ -13,20 +13,16 @@ interface Star {
 }
 
 export default function AnimatedBackground() {
-  const [stars, setStars] = useState<Star[]>([])
-
-  useEffect(() => {
-    const newStars: Star[] = Array.from({ length: 50 }, (_, i) => ({
-      id: i,
-      x: Math.random() * 100,
-      y: Math.random() * 100,
-      size: 1 + Math.random() * 3,
-      opacity: 0.2 + Math.random() * 0.5,
-      duration: 2 + Math.random() * 3,
-      delay: Math.random() * 3
-    }))
-    setStars(newStars)
-  }, [])
+  // Используем ленивую инициализацию для избежания setState в эффекте
+  const [stars] = useState<Star[]>(() => Array.from({ length: 50 }, (_, i) => ({
+    id: i,
+    x: Math.random() * 100,
+    y: Math.random() * 100,
+    size: 1 + Math.random() * 3,
+    opacity: 0.2 + Math.random() * 0.5,
+    duration: 2 + Math.random() * 3,
+    delay: Math.random() * 3
+  })))
 
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">

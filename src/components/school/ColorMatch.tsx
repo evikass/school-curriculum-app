@@ -80,6 +80,16 @@ export default function ColorMatch() {
     generateRound()
   }, [generateRound])
 
+  const finishGame = useCallback(() => {
+    setGameState('finished')
+    if (timerRef.current) clearTimeout(timerRef.current)
+    
+    if (reactionTimes.current.length > 0) {
+      const avg = reactionTimes.current.reduce((a, b) => a + b, 0) / reactionTimes.current.length
+      setAvgReaction(Math.round(avg))
+    }
+  }, [])
+
   useEffect(() => {
     if (gameState === 'playing' && timeLeft > 0) {
       timerRef.current = setTimeout(() => {
@@ -89,9 +99,11 @@ export default function ColorMatch() {
         if (timerRef.current) clearTimeout(timerRef.current)
       }
     } else if (timeLeft === 0 && gameState === 'playing') {
-      finishGame()
+      // Используем setTimeout для отложенного setState
+      const timer = setTimeout(() => finishGame(), 0)
+      return () => clearTimeout(timer)
     }
-  }, [timeLeft, gameState])
+  }, [timeLeft, gameState, finishGame])
 
   const handleAnswer = useCallback((answer: boolean) => {
     if (!gameMode) return
@@ -125,17 +137,7 @@ export default function ColorMatch() {
       setRound(r => r + 1)
       generateRound()
     }
-  }, [gameMode, isMatch, streak, maxStreak, correct, wrong, addXP, playSound, generateRound])
-
-  const finishGame = useCallback(() => {
-    setGameState('finished')
-    if (timerRef.current) clearTimeout(timerRef.current)
-    
-    if (reactionTimes.current.length > 0) {
-      const avg = reactionTimes.current.reduce((a, b) => a + b, 0) / reactionTimes.current.length
-      setAvgReaction(Math.round(avg))
-    }
-  }, [])
+  }, [gameMode, isMatch, streak, maxStreak, correct, wrong, addXP, playSound, generateRound, finishGame])
 
   const resetGame = useCallback(() => {
     setGameState('setup')

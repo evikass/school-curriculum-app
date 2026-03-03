@@ -107,13 +107,17 @@ export default function OddOneOut() {
       timerRef.current = setTimeout(() => setTimeLeft(t => t - 1), 1000)
       return () => { if (timerRef.current) clearTimeout(timerRef.current) }
     } else if (timeLeft === 0 && gameMode === 'speed' && gameState === 'playing') {
-      setGameState('finished')
+      // Используем setTimeout для отложенного setState
+      const timer = setTimeout(() => setGameState('finished'), 0)
+      return () => clearTimeout(timer)
     }
   }, [timeLeft, gameMode, gameState])
 
   useEffect(() => {
     if (gameMode === 'survival' && lives <= 0 && gameState === 'playing') {
-      setGameState('finished')
+      // Используем setTimeout для отложенного setState
+      const timer = setTimeout(() => setGameState('finished'), 0)
+      return () => clearTimeout(timer)
     }
   }, [lives, gameMode, gameState])
 
