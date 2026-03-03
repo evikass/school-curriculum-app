@@ -2,7 +2,10 @@
 
 import { useState, useEffect } from 'react'
 import { Volume2, VolumeX } from 'lucide-react'
-import { soundManager } from '@/lib/sounds'
+import { soundManager, useSound } from '@/lib/sounds'
+
+// Re-export useSound for other components
+export { useSound }
 
 export default function SoundToggle() {
   const [enabled, setEnabled] = useState(true)
