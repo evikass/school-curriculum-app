@@ -4,13 +4,8 @@ import { useState } from 'react'
 import { useSchool } from '@/context/SchoolContext'
 import { LessonTopic, TopicSection, GameLesson } from '@/data/types'
 import {
-<<<<<<< HEAD
-  ArrowLeft, ChevronDown, ChevronRight, BookOpen, Gamepad2, HelpCircle, Play,
-  CheckCircle, Star, Sparkles, FileText, ClipboardList
-=======
   ArrowLeft, ChevronDown, ChevronRight, BookOpen, Gamepad2, Play,
   CheckCircle, Star
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 } from 'lucide-react'
 import LessonDetailModal from './LessonDetailModal'
 import LessonQuiz from './LessonQuiz'
@@ -42,17 +37,7 @@ export default function LessonViewer() {
   if (!selectedSubject) return null
 
   const toggleTopic = (topicName: string) => {
-<<<<<<< HEAD
-    const newExpanded = new Set(expandedTopics)
-    if (newExpanded.has(topicName)) {
-      newExpanded.delete(topicName)
-    } else {
-      newExpanded.add(topicName)
-    }
-    setExpandedTopics(newExpanded)
-=======
     setExpandedTopics(prev => prev.has(topicName) ? new Set() : new Set([topicName]))
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
   }
   
   const openDetail = (lesson: SelectedLesson) => {
@@ -60,13 +45,8 @@ export default function LessonViewer() {
     setIsDetailOpen(true)
   }
   
-<<<<<<< HEAD
-  const openQuiz = (lesson: SelectedLesson, lessonKey: string) => {
-    setQuizLesson({ ...lesson, title: `${lesson.title}` })
-=======
   const openQuiz = (lesson: SelectedLesson) => {
     setQuizLesson(lesson)
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     setIsQuizOpen(true)
   }
   
@@ -185,66 +165,6 @@ export default function LessonViewer() {
                             </span>
                             {subtopic.title}
                           </h4>
-<<<<<<< HEAD
-                          <div className="space-y-4 pl-4">
-                            {subtopic.lessons.map((lesson, lessonIndex) => {
-                              const lessonKey = `${topicKey}-${subtopicIndex}-${lessonIndex}`
-                              const isQuizCompleted = completedQuizzes.has(lesson.title)
-                              
-                              return (
-                                <div key={lessonIndex} 
-                                     className="p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-400/50 transition-all">
-                                  <div className="flex items-start justify-between gap-4">
-                                    <div className="flex-1">
-                                      <h5 className="text-lg font-bold text-purple-300 mb-2 flex items-center gap-2">
-                                        <Star className="w-5 h-5 text-yellow-400" />
-                                        {lesson.title}
-                                      </h5>
-                                      <p className="text-gray-400 text-sm line-clamp-2">
-                                        {lesson.description}
-                                      </p>
-                                    </div>
-                                    
-                                    {/* Кнопки действий */}
-                                    <div className="flex gap-2 flex-shrink-0">
-                                      <button
-                                        onClick={() => openDetail(lesson)}
-                                        className="px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500
-                                                   hover:from-blue-600 hover:to-cyan-600
-                                                   text-white rounded-xl font-medium text-sm
-                                                   flex items-center gap-2 transition-all hover:scale-105"
-                                      >
-                                        <FileText className="w-4 h-4" />
-                                        Урок
-                                      </button>
-                                      <button
-                                        onClick={() => openQuiz(lesson, lessonKey)}
-                                        className={`px-4 py-2 rounded-xl font-medium text-sm
-                                                   flex items-center gap-2 transition-all hover:scale-105
-                                                   ${isQuizCompleted 
-                                                     ? 'bg-green-500 text-white'
-                                                     : 'bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white'
-                                                   }`}
-                                      >
-                                        <ClipboardList className="w-4 h-4" />
-                                        {isQuizCompleted ? '✓ Тест' : 'Тест'}
-                                      </button>
-                                    </div>
-                                  </div>
-                                  
-                                  {/* Превью заданий */}
-                                  {lesson.tasks && lesson.tasks.length > 0 && (
-                                    <div className="mt-3 p-3 rounded-xl bg-purple-500/10 border border-purple-400/20">
-                                      <p className="text-purple-300 text-sm font-medium mb-1">
-                                        📝 Заданий: {lesson.tasks.length}
-                                      </p>
-                                      <p className="text-purple-200/60 text-xs">
-                                        {lesson.tasks.slice(0, 2).join(' • ')}...
-                                      </p>
-                                    </div>
-                                  )}
-                                </div>
-=======
                           <div className="space-y-3 pl-4">
                             {subtopic.lessons.map((lesson, lessonIndex) => {
                               const isQuizCompleted = completedQuizzes.has(lesson.title)
@@ -277,7 +197,6 @@ export default function LessonViewer() {
                                     )}
                                   </div>
                                 </button>
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
                               )
                             })}
                           </div>
@@ -286,60 +205,6 @@ export default function LessonViewer() {
                     ) : (
                       /* Old structure */
                       topicBlock.lessons?.map((lesson, lessonIndex) => {
-<<<<<<< HEAD
-                        const lessonKey = `${topicKey}-${lessonIndex}`
-                        const isQuizCompleted = completedQuizzes.has(lesson.title)
-                        
-                        return (
-                          <div key={lessonIndex} 
-                               className="p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-400/50">
-                            <div className="flex items-start justify-between gap-4">
-                              <div className="flex-1">
-                                <h4 className="text-xl font-bold text-purple-300 mb-2">{lesson.title}</h4>
-                                <p className="text-gray-400 text-sm line-clamp-2">
-                                  {lesson.description}
-                                </p>
-                              </div>
-                              
-                              {/* Кнопки действий */}
-                              <div className="flex gap-2 flex-shrink-0">
-                                <button
-                                  onClick={() => openDetail(lesson)}
-                                  className="px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500
-                                             hover:from-blue-600 hover:to-cyan-600
-                                             text-white rounded-xl font-medium text-sm
-                                             flex items-center gap-2 transition-all hover:scale-105"
-                                >
-                                  <FileText className="w-4 h-4" />
-                                  Урок
-                                </button>
-                                <button
-                                  onClick={() => openQuiz(lesson, lessonKey)}
-                                  className={`px-4 py-2 rounded-xl font-medium text-sm
-                                             flex items-center gap-2 transition-all hover:scale-105
-                                             ${isQuizCompleted 
-                                               ? 'bg-green-500 text-white'
-                                               : 'bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white'
-                                             }`}
-                                >
-                                  <ClipboardList className="w-4 h-4" />
-                                  {isQuizCompleted ? '✓ Тест' : 'Тест'}
-                                </button>
-                              </div>
-                            </div>
-                            
-                            {lesson.tasks && lesson.tasks.length > 0 && (
-                              <div className="mt-4 p-4 rounded-xl bg-purple-500/10 border border-purple-400/20">
-                                <p className="text-purple-300 font-medium mb-2">📝 Задания:</p>
-                                <ul className="list-disc pl-5 text-gray-300 space-y-1">
-                                  {lesson.tasks.map((task, i) => (
-                                    <li key={i}>{task}</li>
-                                  ))}
-                                </ul>
-                              </div>
-                            )}
-                          </div>
-=======
                         const isQuizCompleted = completedQuizzes.has(lesson.title)
                         
                         return (
@@ -370,7 +235,6 @@ export default function LessonViewer() {
                               )}
                             </div>
                           </button>
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
                         )
                       })
                     )}
@@ -418,11 +282,8 @@ export default function LessonViewer() {
         isOpen={isDetailOpen}
         onClose={() => setIsDetailOpen(false)}
         onComplete={handleDetailComplete}
-<<<<<<< HEAD
-=======
         onQuiz={detailLesson ? () => openQuiz(detailLesson) : undefined}
         isQuizCompleted={detailLesson ? completedQuizzes.has(detailLesson.title) : false}
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
       />
       
       <LessonQuiz

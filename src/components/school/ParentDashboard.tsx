@@ -47,15 +47,6 @@ export default function ParentDashboard() {
   
   useEffect(() => {
     const saved = localStorage.getItem('studySessions')
-<<<<<<< HEAD
-    if (saved) {
-      setSessions(JSON.parse(saved))
-    } else {
-      const demo = generateDemoSessions()
-      setSessions(demo)
-      localStorage.setItem('studySessions', JSON.stringify(demo))
-    }
-=======
     const loadData = () => {
       if (saved) {
         setSessions(JSON.parse(saved))
@@ -66,7 +57,6 @@ export default function ParentDashboard() {
       }
     }
     setTimeout(loadData, 0)
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
   }, [])
   
   // Статистика

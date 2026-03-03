@@ -43,32 +43,6 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь степени! 🔢" }
   },
 
-<<<<<<< HEAD
-  // ========== MATCHING GAMES ==========
-  {
-    title: "Математические пары",
-    subject: "Алгебра",
-    icon: "Link2",
-    color: "text-cyan-400",
-    tasks: [
-      { 
-        type: 'match', 
-        question: "Соедини формулу с её названием:",
-        options: ["a² + 2ab + b²", "a² - b²", "(a-b)(a+b)", "Квадрат суммы", "Разность квадратов", "Разложение разности"],
-        correctAnswer: ["a² + 2ab + b²→Квадрат суммы", "a² - b²→Разность квадратов", "(a-b)(a+b)→Разложение разности"]
-      },
-      { 
-        type: 'match', 
-        question: "Соедини степень с её значением:",
-        options: ["2³", "3²", "4²", "8", "9", "16"],
-        correctAnswer: ["2³→8", "3²→9", "4²→16"]
-      }
-    ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь пары! 🔗" }
-  },
-
-=======
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
   // ========== ГЕОМЕТРИЯ ==========
   {
     title: "Треугольники",
@@ -84,24 +58,6 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь треугольники! 🔺" }
   },
   {
-<<<<<<< HEAD
-    title: "Геометрические пары",
-    subject: "Геометрия",
-    icon: "Shapes",
-    color: "text-cyan-400",
-    tasks: [
-      { 
-        type: 'match', 
-        question: "Соедини фигуру с количеством углов:",
-        options: ["Треугольник", "Квадрат", "Пятиугольник", "3 угла", "4 угла", "5 углов"],
-        correctAnswer: ["Треугольник→3 угла", "Квадрат→4 угла", "Пятиугольник→5 углов"]
-      }
-    ],
-    reward: { stars: 3, message: "Супер! Ты знаешь геометрию! 📐" }
-  },
-  {
-=======
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     title: "Параллельные прямые",
     subject: "Геометрия",
     icon: "Shapes",
@@ -130,30 +86,6 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь причастия! 📝" }
   },
   {
-<<<<<<< HEAD
-    title: "Части речи - пары",
-    subject: "Русский язык",
-    icon: "BookOpen",
-    color: "text-red-400",
-    tasks: [
-      { 
-        type: 'match', 
-        question: "Соедини часть речи с примером:",
-        options: ["Существительное", "Прилагательное", "Глагол", "Стол", "Красивый", "Бежать"],
-        correctAnswer: ["Существительное→Стол", "Прилагательное→Красивый", "Глагол→Бежать"]
-      },
-      { 
-        type: 'match', 
-        question: "Соедини причастие с его типом:",
-        options: ["Читающий", "Прочитанный", "Читаемый", "Действительное", "Страдательное прош.", "Страдательное наст."],
-        correctAnswer: ["Читающий→Действительное", "Прочитанный→Страдательное прош.", "Читаемый→Страдательное наст."]
-      }
-    ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь части речи! ✍️" }
-  },
-  {
-=======
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     title: "Деепричастие",
     subject: "Русский язык",
     icon: "BookOpen",
@@ -182,30 +114,6 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь былины! 📜" }
   },
   {
-<<<<<<< HEAD
-    title: "Литературные пары",
-    subject: "Литература",
-    icon: "BookOpenText",
-    color: "text-amber-400",
-    tasks: [
-      { 
-        type: 'match', 
-        question: "Соедини автора с произведением:",
-        options: ["А.С. Пушкин", "М.Ю. Лермонтов", "Н.В. Гоголь", "Евгений Онегин", "Мцыри", "Ревизор"],
-        correctAnswer: ["А.С. Пушкин→Евгений Онегин", "М.Ю. Лермонтов→Мцыри", "Н.В. Гоголь→Ревизор"]
-      },
-      { 
-        type: 'match', 
-        question: "Соедини жанр с примером:",
-        options: ["Роман", "Поэма", "Сказка", "Война и мир", "Руслан и Людмила", "Золотой петушок"],
-        correctAnswer: ["Роман→Война и мир", "Поэма→Руслан и Людмила", "Сказка→Золотой петушок"]
-      }
-    ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь литературу! 📚" }
-  },
-  {
-=======
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     title: "Лирика Пушкина",
     subject: "Литература",
     icon: "BookOpenText",
@@ -234,30 +142,6 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь историю Руси! 🏰" }
   },
   {
-<<<<<<< HEAD
-    title: "Исторические пары",
-    subject: "История",
-    icon: "Landmark",
-    color: "text-orange-400",
-    tasks: [
-      { 
-        type: 'match', 
-        question: "Соедини князя с событием:",
-        options: ["Владимир", "Ярослав Мудрый", "Александр Невский", "Крещение Руси", "Русская Правда", "Ледовое побоище"],
-        correctAnswer: ["Владимир→Крещение Руси", "Ярослав Мудрый→Русская Правда", "Александр Невский→Ледовое побоище"]
-      },
-      { 
-        type: 'match', 
-        question: "Соедини год с событием:",
-        options: ["988", "1147", "1380", "Крещение Руси", "Основание Москвы", "Куликовская битва"],
-        correctAnswer: ["988→Крещение Руси", "1147→Основание Москвы", "1380→Куликовская битва"]
-      }
-    ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь историю! ⚔️" }
-  },
-  {
-=======
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     title: "Татаро-монгольское иго",
     subject: "История",
     icon: "Landmark",
@@ -286,30 +170,6 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь клетку! 🔬" }
   },
   {
-<<<<<<< HEAD
-    title: "Биологические пары",
-    subject: "Биология",
-    icon: "Leaf",
-    color: "text-green-400",
-    tasks: [
-      { 
-        type: 'match', 
-        question: "Соедини органоид с функцией:",
-        options: ["Митохондрия", "Рибосома", "Хлоропласт", "Синтез белка", "Производство энергии", "Фотосинтез"],
-        correctAnswer: ["Митохондрия→Производство энергии", "Рибосома→Синтез белка", "Хлоропласт→Фотосинтез"]
-      },
-      { 
-        type: 'match', 
-        question: "Соедини царство с примером:",
-        options: ["Бактерии", "Растения", "Животные", "Берёза", "Медведь", "Кишечная палочка"],
-        correctAnswer: ["Бактерии→Кишечная палочка", "Растения→Берёза", "Животные→Медведь"]
-      }
-    ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь биологию! 🌱" }
-  },
-  {
-=======
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     title: "Фотосинтез",
     subject: "Биология",
     icon: "Leaf",
@@ -337,30 +197,6 @@ export const seventhGradeGames: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь географию! 🌍" }
   },
-<<<<<<< HEAD
-  {
-    title: "Географические пары",
-    subject: "География",
-    icon: "Map",
-    color: "text-cyan-400",
-    tasks: [
-      { 
-        type: 'match', 
-        question: "Соедини материк с его особенностью:",
-        options: ["Евразия", "Африка", "Антарктида", "Самый холодный", "Самый большой", "Самый жаркий"],
-        correctAnswer: ["Евразия→Самый большой", "Африка→Самый жаркий", "Антарктида→Самый холодный"]
-      },
-      { 
-        type: 'match', 
-        question: "Соедини океан с его площадью:",
-        options: ["Тихий", "Атлантический", "Северный Ледовитый", "Самый большой", "Второй по величине", "Самый маленький"],
-        correctAnswer: ["Тихий→Самый большой", "Атлантический→Второй по величине", "Северный Ледовитый→Самый маленький"]
-      }
-    ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь географию! 🗺️" }
-  },
-=======
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 
   // ========== ФИЗИКА ==========
   {
@@ -376,30 +212,6 @@ export const seventhGradeGames: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь механику! ⚛️" }
   },
-<<<<<<< HEAD
-  {
-    title: "Физические пары",
-    subject: "Физика",
-    icon: "Atom",
-    color: "text-violet-400",
-    tasks: [
-      { 
-        type: 'match', 
-        question: "Соедини величину с единицей измерения:",
-        options: ["Скорость", "Время", "Путь", "м/с", "с", "м"],
-        correctAnswer: ["Скорость→м/с", "Время→с", "Путь→м"]
-      },
-      { 
-        type: 'match', 
-        question: "Соедини формулу с названием:",
-        options: ["v = s/t", "s = v × t", "t = s/v", "Скорость", "Путь", "Время"],
-        correctAnswer: ["v = s/t→Скорость", "s = v × t→Путь", "t = s/v→Время"]
-      }
-    ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь физику! ⚡" }
-  },
-=======
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
 
   // ========== АНГЛИЙСКИЙ ==========
   {
@@ -416,30 +228,6 @@ export const seventhGradeGames: GameLesson[] = [
     reward: { stars: 3, message: "Great! Ты знаешь Present Perfect! 🇬🇧" }
   },
   {
-<<<<<<< HEAD
-    title: "Английские пары",
-    subject: "Английский",
-    icon: "Languages",
-    color: "text-pink-400",
-    tasks: [
-      { 
-        type: 'match', 
-        question: "Соедини глагол с Past Participle:",
-        options: ["go", "see", "write", "gone", "seen", "written"],
-        correctAnswer: ["go→gone", "see→seen", "write→written"]
-      },
-      { 
-        type: 'match', 
-        question: "Соедини время с маркером:",
-        options: ["Present Simple", "Past Simple", "Present Perfect", "Always", "Yesterday", "Just"],
-        correctAnswer: ["Present Simple→Always", "Past Simple→Yesterday", "Present Perfect→Just"]
-      }
-    ],
-    reward: { stars: 3, message: "Great! Ты знаешь английский! 🇬🇧" }
-  },
-  {
-=======
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
     title: "Conditionals",
     subject: "Английский",
     icon: "Languages",

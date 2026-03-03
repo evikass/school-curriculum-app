@@ -1,8 +1,4 @@
 import { SubjectData, GameLesson } from '@/data/types'
-<<<<<<< HEAD
-export const lessons: SubjectData = { title: "Изобразительное искусство", icon: "Palette", color: "text-rose-400", topics: ["Жанры", "Натюрморт", "Пейзаж", "Промыслы"] }
-export const games: GameLesson[] = []
-=======
 
 export const lessons: SubjectData = {
   title: "Изобразительное искусство",
@@ -275,4 +271,3 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты различаешь тёплые и холодные цвета! 🌈" }
   }
 ]
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c

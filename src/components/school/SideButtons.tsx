@@ -154,15 +154,10 @@ export default function SideButtons() {
   useEffect(() => {
     const saved = localStorage.getItem('stickerAlbum')
     if (saved) {
-<<<<<<< HEAD
-      setStickers(JSON.parse(saved))
-    } else {
-=======
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setStickers(JSON.parse(saved))
     } else {
       // eslint-disable-next-line react-hooks/set-state-in-effect
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
       setStickers(allStickers)
     }
   }, [])
@@ -183,10 +178,7 @@ export default function SideButtons() {
       return s
     })
     if (JSON.stringify(updated) !== JSON.stringify(stickers)) {
-<<<<<<< HEAD
-=======
       // eslint-disable-next-line react-hooks/set-state-in-effect
->>>>>>> e73dce10ee3b11e1d7702effc925444d9dfee03c
       setStickers(updated)
       localStorage.setItem('stickerAlbum', JSON.stringify(updated))
     }
