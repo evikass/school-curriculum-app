@@ -215,11 +215,28 @@ export default function Gameplay() {
     )
   }
 
+  // Exit game function
+  const exitGame = () => {
+    // Reset all game state
+    setCurrentIndex(0)
+    setAnswers({})
+    setShowResults(false)
+    setScore(0)
+    setCombo(0)
+    setAnswerState('idle')
+    setTimer(0)
+    setMatchedPairs([])
+    setSelectedLeft(null)
+    setTimedMode(false)
+    // Navigate away
+    selectGame(null)
+  }
+
   // Game screen
   return (
     <div className="w-full max-w-2xl mx-auto">
-      <button onClick={() => selectGame(null)}
-        className="mb-6 flex items-center gap-2 text-white/80 hover:text-white text-xl font-medium bg-white/10 hover:bg-white/20 px-6 py-3 rounded-2xl transition-all">
+      <button onClick={exitGame}
+        className="mb-6 flex items-center gap-2 text-white/80 hover:text-white text-xl font-medium bg-white/10 hover:bg-white/20 px-6 py-3 rounded-2xl transition-all cursor-pointer">
         <ArrowLeft className="w-6 h-6" /> Выйти из игры
       </button>
 
