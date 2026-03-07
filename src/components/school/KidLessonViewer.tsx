@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { ArrowLeft, Star, BookOpen, ChevronDown, ChevronRight, Gamepad2, Play, Sparkles } from 'lucide-react'
 import { generateLessonQuiz } from '@/lib/lessonQuizGenerator'
 import LessonContentRenderer from './LessonContentRenderer'
+import { LiteraryWorkModal, useLiteraryWork } from './LiteraryWorkModal'
 
 interface Lesson {
   title: string
@@ -22,6 +23,7 @@ export default function KidLessonViewer() {
   const [selectedTopicIndex, setSelectedTopicIndex] = useState<number | null>(null)
   const [showGames, setShowGames] = useState(false)
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(new Set())
+  const { currentWork, isModalOpen: isLiteraryOpen, openWork, closeWork } = useLiteraryWork()
 
   if (!selectedSubject) return null
 
@@ -31,133 +33,145 @@ export default function KidLessonViewer() {
   // Если выбран урок - показываем его содержимое
   if (selectedLesson) {
     return (
-      <div className="w-full animate-slideIn">
-        <button
-          onClick={() => selectLesson(null)}
-          className="mb-6 flex items-center gap-3 text-white text-xl font-bold 
-                     bg-white/20 hover:bg-white/30 px-6 py-3 rounded-2xl transition-all
-                     hover:scale-105 active:scale-95 border border-white/20"
-        >
-          <ArrowLeft className="w-6 h-6" /> 
-          <span>Назад к урокам</span>
-        </button>
+      <>
+        <div className="w-full animate-slideIn">
+          <button
+            onClick={() => selectLesson(null)}
+            className="mb-6 flex items-center gap-3 text-white text-xl font-bold 
+                       bg-white/20 hover:bg-white/30 px-6 py-3 rounded-2xl transition-all
+                       hover:scale-105 active:scale-95 border border-white/20"
+          >
+            <ArrowLeft className="w-6 h-6" /> 
+            <span>Назад к урокам</span>
+          </button>
 
-        <div className="max-w-3xl mx-auto">
-          {/* Красивый заголовок урока */}
-          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-purple-600/40 via-pink-600/30 to-blue-600/40 
-                          border-2 border-white/20 p-6 md:p-8 shadow-2xl">
-            {/* Декоративные элементы */}
-            <div className="absolute top-0 right-0 w-40 h-40 bg-yellow-400/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-            <div className="absolute bottom-0 left-0 w-32 h-32 bg-purple-400/10 rounded-full blur-2xl translate-y-1/2 -translate-x-1/2"></div>
-            
-            <div className="relative z-10">
-              {/* Иконка предмета */}
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-yellow-400 to-orange-500 
-                                flex items-center justify-center text-3xl shadow-lg">
-                  📖
-                </div>
-                <div>
-                  <h2 className="text-2xl md:text-3xl font-black text-white">
-                    {selectedLesson.title}
-                  </h2>
-                  <p className="text-purple-200 text-sm">{selectedSubject.title}</p>
-                </div>
-              </div>
+          <div className="max-w-3xl mx-auto">
+            {/* Красивый заголовок урока */}
+            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-purple-600/40 via-pink-600/30 to-blue-600/40 
+                            border-2 border-white/20 p-6 md:p-8 shadow-2xl">
+              {/* Декоративные элементы */}
+              <div className="absolute top-0 right-0 w-40 h-40 bg-yellow-400/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+              <div className="absolute bottom-0 left-0 w-32 h-32 bg-purple-400/10 rounded-full blur-2xl translate-y-1/2 -translate-x-1/2"></div>
               
-              {/* Содержимое урока с новым форматированием */}
-              <div className="mt-6">
-                <LessonContentRenderer content={selectedLesson.description} />
-              </div>
-
-              {/* Задания */}
-              {selectedLesson.tasks && selectedLesson.tasks.length > 0 && (
-                <div className="mt-8 p-5 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 rounded-2xl border-2 border-indigo-400/30">
-                  <h4 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center">
-                      <BookOpen className="w-5 h-5 text-white" />
-                    </div>
-                    <span className="text-emerald-300">Задания для закрепления:</span>
-                  </h4>
-                  <div className="space-y-2">
-                    {selectedLesson.tasks.map((task, i) => (
-                      <div key={i} className="flex items-start gap-3 p-3 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all">
-                        <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center text-white text-xs font-bold flex-shrink-0 mt-0.5">
-                          {i + 1}
-                        </div>
-                        <span className="text-white/90 text-base">{task}</span>
-                      </div>
-                    ))}
+              <div className="relative z-10">
+                {/* Иконка предмета */}
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-yellow-400 to-orange-500 
+                                  flex items-center justify-center text-3xl shadow-lg">
+                    📖
+                  </div>
+                  <div>
+                    <h2 className="text-2xl md:text-3xl font-black text-white">
+                      {selectedLesson.title}
+                    </h2>
+                    <p className="text-purple-200 text-sm">{selectedSubject.title}</p>
                   </div>
                 </div>
-              )}
+                
+                {/* Содержимое урока с новым форматированием */}
+                <div className="mt-6">
+                  <LessonContentRenderer 
+                    content={selectedLesson.description} 
+                    onOpenLiteraryWork={openWork}
+                  />
+                </div>
 
-              {/* Кнопки действий */}
-              <div className="mt-8 flex flex-wrap gap-3 justify-center">
-                <button
-                  onClick={() => {
-                    const subjectGames = games.filter(g =>
-                      g.subject === selectedSubject.title ||
-                      selectedSubject.title.toLowerCase().includes(g.subject.toLowerCase()) ||
-                      g.subject.toLowerCase().includes(selectedSubject.title.toLowerCase())
-                    )
+                {/* Задания */}
+                {selectedLesson.tasks && selectedLesson.tasks.length > 0 && (
+                  <div className="mt-8 p-5 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 rounded-2xl border-2 border-indigo-400/30">
+                    <h4 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                      <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center">
+                        <BookOpen className="w-5 h-5 text-white" />
+                      </div>
+                      <span className="text-emerald-300">Задания для закрепления:</span>
+                    </h4>
+                    <div className="space-y-2">
+                      {selectedLesson.tasks.map((task, i) => (
+                        <div key={i} className="flex items-start gap-3 p-3 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all">
+                          <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center text-white text-xs font-bold flex-shrink-0 mt-0.5">
+                            {i + 1}
+                          </div>
+                          <span className="text-white/90 text-base">{task}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
 
-                    if (subjectGames.length > 0) {
-                      const randomGame = subjectGames[Math.floor(Math.random() * subjectGames.length)]
-                      selectGameFromLesson(randomGame)
-                    } else {
-                      const generatedGame = generateLessonQuiz(
-                        selectedLesson.title,
-                        selectedLesson.description,
-                        selectedSubject.title
+                {/* Кнопки действий */}
+                <div className="mt-8 flex flex-wrap gap-3 justify-center">
+                  <button
+                    onClick={() => {
+                      const subjectGames = games.filter(g =>
+                        g.subject === selectedSubject.title ||
+                        selectedSubject.title.toLowerCase().includes(g.subject.toLowerCase()) ||
+                        g.subject.toLowerCase().includes(selectedSubject.title.toLowerCase())
                       )
-                      if (generatedGame) {
-                        selectGameFromLesson(generatedGame)
-                      } else if (games.length > 0) {
-                        const randomGame = games[Math.floor(Math.random() * games.length)]
+
+                      if (subjectGames.length > 0) {
+                        const randomGame = subjectGames[Math.floor(Math.random() * subjectGames.length)]
                         selectGameFromLesson(randomGame)
+                      } else {
+                        const generatedGame = generateLessonQuiz(
+                          selectedLesson.title,
+                          selectedLesson.description,
+                          selectedSubject.title
+                        )
+                        if (generatedGame) {
+                          selectGameFromLesson(generatedGame)
+                        } else if (games.length > 0) {
+                          const randomGame = games[Math.floor(Math.random() * games.length)]
+                          selectGameFromLesson(randomGame)
+                        }
                       }
-                    }
-                  }}
-                  className="px-6 py-3 text-lg font-bold bg-gradient-to-r from-purple-500 to-pink-500 
-                             hover:from-purple-400 hover:to-pink-400
-                             text-white rounded-2xl transition-all hover:scale-105 active:scale-95 
-                             flex items-center gap-2 shadow-lg border border-white/20"
-                >
-                  <Gamepad2 className="w-5 h-5" />
-                  <span>🎮 Тест-игра</span>
-                </button>
-                
-                <button
-                  onClick={() => {
-                    setCompletedLessons(new Set([...completedLessons, selectedLesson.title]))
-                    completeTopic(selectedLesson.title)
-                    addPoints(5)
-                    selectLesson(null)
-                  }}
-                  className="px-6 py-3 text-lg font-bold bg-gradient-to-r from-green-500 to-emerald-500 
-                             hover:from-green-400 hover:to-emerald-400
-                             text-white rounded-2xl transition-all hover:scale-105 active:scale-95 
-                             flex items-center gap-2 shadow-lg border border-white/20"
-                >
-                  <Star className="w-5 h-5" />
-                  <span>✅ Понял! +5 ⭐</span>
-                </button>
-                
-                <button
-                  onClick={() => selectLesson(null)}
-                  className="px-6 py-3 text-lg font-bold bg-white/20 hover:bg-white/30 
-                             text-white rounded-2xl transition-all hover:scale-105 active:scale-95 
-                             flex items-center gap-2 border border-white/10"
-                >
-                  <BookOpen className="w-5 h-5" />
-                  <span>📚 Другие уроки</span>
-                </button>
+                    }}
+                    className="px-6 py-3 text-lg font-bold bg-gradient-to-r from-purple-500 to-pink-500 
+                               hover:from-purple-400 hover:to-pink-400
+                               text-white rounded-2xl transition-all hover:scale-105 active:scale-95 
+                               flex items-center gap-2 shadow-lg border border-white/20"
+                  >
+                    <Gamepad2 className="w-5 h-5" />
+                    <span>🎮 Тест-игра</span>
+                  </button>
+                  
+                  <button
+                    onClick={() => {
+                      setCompletedLessons(new Set([...completedLessons, selectedLesson.title]))
+                      completeTopic(selectedLesson.title)
+                      addPoints(5)
+                      selectLesson(null)
+                    }}
+                    className="px-6 py-3 text-lg font-bold bg-gradient-to-r from-green-500 to-emerald-500 
+                               hover:from-green-400 hover:to-emerald-400
+                               text-white rounded-2xl transition-all hover:scale-105 active:scale-95 
+                               flex items-center gap-2 shadow-lg border border-white/20"
+                  >
+                    <Star className="w-5 h-5" />
+                    <span>✅ Понял! +5 ⭐</span>
+                  </button>
+                  
+                  <button
+                    onClick={() => selectLesson(null)}
+                    className="px-6 py-3 text-lg font-bold bg-white/20 hover:bg-white/30 
+                               text-white rounded-2xl transition-all hover:scale-105 active:scale-95 
+                               flex items-center gap-2 border border-white/10"
+                  >
+                    <BookOpen className="w-5 h-5" />
+                    <span>📚 Другие уроки</span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+        
+        {/* Модальное окно литературного произведения */}
+        <LiteraryWorkModal 
+          workId={currentWork} 
+          isOpen={isLiteraryOpen} 
+          onClose={closeWork} 
+        />
+      </>
     )
   }
 

@@ -1,17 +1,18 @@
 'use client'
 
-import React, { useMemo } from 'react'
+import React, { useMemo, useState } from 'react'
 import { 
   Lightbulb, BookOpen, CheckCircle, Star, AlertTriangle, 
-  Sparkles, Target, HelpCircle, Info, Award
+  Sparkles, Target, HelpCircle, Info, Award, ExternalLink
 } from 'lucide-react'
 
 interface LessonContentRendererProps {
   content: string
+  onOpenLiteraryWork?: (workId: string) => void
 }
 
 // Парсер контента урока с расширенным форматированием
-export default function LessonContentRenderer({ content }: LessonContentRendererProps) {
+export default function LessonContentRenderer({ content, onOpenLiteraryWork }: LessonContentRendererProps) {
   const parsedContent = useMemo(() => {
     if (!content) return []
     
@@ -143,7 +144,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
               <AlertTriangle className="w-5 h-5 text-amber-400 flex-shrink-0" />
               <span className="text-amber-300 font-bold text-lg">Важно!</span>
             </div>
-            <p className="text-white/90 text-base">{line.replace('!!! ', '')}</p>
+            <p className="text-white/90 text-base">{parseInlineFormatting(line.replace('!!! ', ''))}</p>
           </div>
         )
         continue
@@ -158,7 +159,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
               <Lightbulb className="w-5 h-5 text-cyan-400 flex-shrink-0" />
               <span className="text-cyan-300 font-bold">💡 Подсказка</span>
             </div>
-            <p className="text-white/90 text-base">{line.replace('!! ', '')}</p>
+            <p className="text-white/90 text-base">{parseInlineFormatting(line.replace('!! ', ''))}</p>
           </div>
         )
         continue
@@ -171,7 +172,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
           <div key={`note-${i}`} className="my-3 p-4 bg-gradient-to-r from-violet-500/20 to-purple-500/20 rounded-xl border border-violet-400/30">
             <div className="flex items-center gap-3">
               <Info className="w-5 h-5 text-violet-400 flex-shrink-0" />
-              <p className="text-white/90 text-base">{line.replace('! ', '')}</p>
+              <p className="text-white/90 text-base">{parseInlineFormatting(line.replace('! ', ''))}</p>
             </div>
           </div>
         )
@@ -187,7 +188,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
               <Target className="w-5 h-5 text-green-400 flex-shrink-0" />
               <span className="text-green-300 font-medium">Пример:</span>
             </div>
-            <p className="text-white/90 text-base mt-1">{line.replace('> ', '')}</p>
+            <p className="text-white/90 text-base mt-1">{parseInlineFormatting(line.replace('> ', ''))}</p>
           </div>
         )
         continue
@@ -202,7 +203,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
               <HelpCircle className="w-5 h-5 text-rose-400 flex-shrink-0" />
               <span className="text-rose-300 font-medium">⚠️ Внимание!</span>
             </div>
-            <p className="text-white/90 text-base mt-1">{line.replace('? ', '')}</p>
+            <p className="text-white/90 text-base mt-1">{parseInlineFormatting(line.replace('? ', ''))}</p>
           </div>
         )
         continue
@@ -215,7 +216,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
           <div key={`check-${i}`} className="my-3 p-4 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-xl border border-emerald-400/30">
             <div className="flex items-center gap-3">
               <CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0" />
-              <p className="text-white/90 text-base">{line.replace('+ ', '')}</p>
+              <p className="text-white/90 text-base">{parseInlineFormatting(line.replace('+ ', ''))}</p>
             </div>
           </div>
         )
@@ -229,7 +230,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
           <div key={`award-${i}`} className="my-3 p-4 bg-gradient-to-r from-yellow-500/20 to-amber-500/20 rounded-xl border border-yellow-400/30">
             <div className="flex items-center gap-3">
               <Award className="w-5 h-5 text-yellow-400 flex-shrink-0" />
-              <p className="text-white/90 text-base">{line.replace('* ', '')}</p>
+              <p className="text-white/90 text-base">{parseInlineFormatting(line.replace('* ', ''))}</p>
             </div>
           </div>
         )
@@ -245,7 +246,29 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
               <BookOpen className="w-5 h-5 text-indigo-400 flex-shrink-0" />
               <span className="text-indigo-300 font-medium">📖 Определение:</span>
             </div>
-            <p className="text-white/90 text-base mt-2 font-medium">{line.replace(':- ', '')}</p>
+            <p className="text-white/90 text-base mt-2 font-medium">{parseInlineFormatting(line.replace(':- ', ''))}</p>
+          </div>
+        )
+        continue
+      }
+      
+      // Literary work link [[work-id|text]]
+      const literaryMatch = line.match(/\[\[(.+?)\|(.+?)\]\]/)
+      if (literaryMatch) {
+        flushList()
+        const workId = literaryMatch[1]
+        const linkText = literaryMatch[2]
+        elements.push(
+          <div key={`literary-${i}`} className="my-4 p-4 bg-gradient-to-r from-amber-500/20 to-orange-500/20 rounded-2xl border-2 border-amber-400/40 cursor-pointer hover:border-amber-400/60 transition-all"
+                   onClick={() => onOpenLiteraryWork?.(workId)}>
+            <div className="flex items-center gap-3">
+              <BookOpen className="w-6 h-6 text-amber-400 flex-shrink-0" />
+              <div>
+                <p className="text-amber-200 font-medium">Читать полный текст:</p>
+                <p className="text-white font-bold text-lg">{linkText}</p>
+              </div>
+              <ExternalLink className="w-5 h-5 text-amber-400 ml-auto flex-shrink-0" />
+            </div>
           </div>
         )
         continue
@@ -315,7 +338,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
     flushList()
     
     return elements
-  }, [content])
+  }, [content, onOpenLiteraryWork])
   
   if (!content) return null
   
