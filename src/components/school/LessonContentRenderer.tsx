@@ -1,13 +1,10 @@
 'use client'
 
-import { useMemo } from 'react'
+import React, { useMemo } from 'react'
 import { 
   Lightbulb, BookOpen, CheckCircle, Star, AlertTriangle, 
-  Sparkles, Target, HelpCircle, MessageSquare, Info, Award, ListChecks
+  Sparkles, Target, HelpCircle, Info, Award
 } from 'lucide-react'
-
-import { useSchool, LessonData } from '@/context/SchoolContext'
-import { useState } from 'react'
 
 interface LessonContentRendererProps {
   content: string
@@ -19,7 +16,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
     if (!content) return []
     
     const lines = content.split('\n')
-    const elements: JSX.Element[] = []
+    const elements: React.ReactElement[] = []
     
     let currentList: { type: 'bullet' | 'numbered' | 'none', items: string[] } = { type: 'none', items: [] }
     let inCodeBlock = false
@@ -32,7 +29,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
             <div key={`list-${elements.length}`} className="my-4 space-y-2">
               {currentList.items.map((item, idx) => (
                 <div key={idx} className="flex items-start gap-3 p-3 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all">
-                  <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white text-sm flex-shrink-00 mt-0.5">
+                  <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white text-sm flex-shrink-0 mt-0.5">
                     {idx + 1}
                   </div>
                   <span className="text-white/90 text-base leading-relaxed">{parseInlineFormatting(item)}</span>
@@ -45,7 +42,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
             <div key={`list-${elements.length}`} className="my-4 space-y-2">
               {currentList.items.map((item, idx) => (
                 <div key={idx} className="flex items-start gap-3 p-3 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 rounded-xl border border-blue-400/30 hover:border-blue-400/50 transition-all">
-                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-cyan-400 flex items-center justify-center text-white text-xs flex-shrink-00 mt-0.5 font-bold">
+                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-cyan-400 flex items-center justify-center text-white text-xs flex-shrink-0 mt-0.5 font-bold">
                     {idx + 1}
                   </div>
                   <span className="text-white/90 text-base leading-relaxed">{parseInlineFormatting(item)}</span>
@@ -58,15 +55,15 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
       currentList = { type: 'none', items: [] }
     }
     
-    const parseInlineFormatting = (text: string) => {
-      // Bold text
-      let result = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-      // Highlighted text
-      result = result.replace(/==(.+?)==/g, '<mark>$1</mark>')
-      // Underline
-      result = result.replace(/__(.+?)__/g, '<u>$1</u>')
-      
-      return result
+    const parseInlineFormatting = (text: string): React.ReactNode => {
+      // Bold text **text**
+      const parts = text.split(/(\*\*.+?\*\*)/g)
+      return parts.map((part, idx) => {
+        if (part.startsWith('**') && part.endsWith('**')) {
+          return <strong key={idx} className="text-yellow-300 font-bold">{part.slice(2, -2)}</strong>
+        }
+        return part
+      })
     }
     
     for (let i = 0; i < lines.length; i++) {
@@ -128,7 +125,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
         flushList()
         elements.push(
           <div key={`h3-${i}`} className="mt-5 mb-3 flex items-center gap-2">
-            <Sparkles className="w-5 h-5 text-yellow-400" />
+            <Sparkles className="w-5 h-5 text-yellow-400 flex-shrink-0" />
             <h3 className="text-xl font-bold text-yellow-200">
               {line.replace('# ', '')}
             </h3>
@@ -143,8 +140,8 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
         elements.push(
           <div key={`important-${i}`} className="my-4 p-4 bg-gradient-to-r from-amber-500/20 to-orange-500/20 rounded-2xl border-2 border-amber-400/50 shadow-lg">
             <div className="flex items-center gap-3 mb-2">
-              <AlertTriangle className="w-5 h-5 text-amber-400" />
-              <span className="text-amber-300 font-semibold">Важно!</span>
+              <AlertTriangle className="w-5 h-5 text-amber-400 flex-shrink-0" />
+              <span className="text-amber-300 font-bold text-lg">Важно!</span>
             </div>
             <p className="text-white/90 text-base">{line.replace('!!! ', '')}</p>
           </div>
@@ -158,8 +155,8 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
         elements.push(
           <div key={`tip-${i}`} className="my-4 p-4 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 rounded-2xl border border-cyan-400/30">
             <div className="flex items-center gap-3 mb-2">
-              <Lightbulb className="w-5 h-5 text-cyan-400" />
-              <span className="text-cyan-300 font-semibold">Подсказка</span>
+              <Lightbulb className="w-5 h-5 text-cyan-400 flex-shrink-0" />
+              <span className="text-cyan-300 font-bold">💡 Подсказка</span>
             </div>
             <p className="text-white/90 text-base">{line.replace('!! ', '')}</p>
           </div>
@@ -173,7 +170,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
         elements.push(
           <div key={`note-${i}`} className="my-3 p-4 bg-gradient-to-r from-violet-500/20 to-purple-500/20 rounded-xl border border-violet-400/30">
             <div className="flex items-center gap-3">
-              <Info className="w-5 h-5 text-violet-400" />
+              <Info className="w-5 h-5 text-violet-400 flex-shrink-0" />
               <p className="text-white/90 text-base">{line.replace('! ', '')}</p>
             </div>
           </div>
@@ -187,7 +184,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
         elements.push(
           <div key={`example-${i}`} className="my-3 p-4 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-xl border border-green-400/30">
             <div className="flex items-center gap-3">
-              <Target className="w-5 h-5 text-green-400" />
+              <Target className="w-5 h-5 text-green-400 flex-shrink-0" />
               <span className="text-green-300 font-medium">Пример:</span>
             </div>
             <p className="text-white/90 text-base mt-1">{line.replace('> ', '')}</p>
@@ -202,8 +199,8 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
         elements.push(
           <div key={`warning-${i}`} className="my-3 p-4 bg-gradient-to-r from-rose-500/20 to-pink-500/20 rounded-xl border border-rose-400/30">
             <div className="flex items-center gap-3">
-              <HelpCircle className="w-5 h-5 text-rose-400" />
-              <span className="text-rose-300 font-medium">Внимание!</span>
+              <HelpCircle className="w-5 h-5 text-rose-400 flex-shrink-0" />
+              <span className="text-rose-300 font-medium">⚠️ Внимание!</span>
             </div>
             <p className="text-white/90 text-base mt-1">{line.replace('? ', '')}</p>
           </div>
@@ -217,7 +214,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
         elements.push(
           <div key={`check-${i}`} className="my-3 p-4 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-xl border border-emerald-400/30">
             <div className="flex items-center gap-3">
-              <CheckCircle className="w-5 h-5 text-emerald-400" />
+              <CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0" />
               <p className="text-white/90 text-base">{line.replace('+ ', '')}</p>
             </div>
           </div>
@@ -231,7 +228,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
         elements.push(
           <div key={`award-${i}`} className="my-3 p-4 bg-gradient-to-r from-yellow-500/20 to-amber-500/20 rounded-xl border border-yellow-400/30">
             <div className="flex items-center gap-3">
-              <Award className="w-5 h-5 text-yellow-400" />
+              <Award className="w-5 h-5 text-yellow-400 flex-shrink-0" />
               <p className="text-white/90 text-base">{line.replace('* ', '')}</p>
             </div>
           </div>
@@ -245,8 +242,8 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
         elements.push(
           <div key={`def-${i}`} className="my-3 p-4 bg-gradient-to-r from-indigo-500/20 to-violet-500/20 rounded-xl border-l-4 border-indigo-400/50">
             <div className="flex items-center gap-3">
-              <BookOpen className="w-5 h-5 text-indigo-400" />
-              <span className="text-indigo-300 font-medium">Определение:</span>
+              <BookOpen className="w-5 h-5 text-indigo-400 flex-shrink-0" />
+              <span className="text-indigo-300 font-medium">📖 Определение:</span>
             </div>
             <p className="text-white/90 text-base mt-2 font-medium">{line.replace(':- ', '')}</p>
           </div>
@@ -280,7 +277,7 @@ export default function LessonContentRenderer({ content }: LessonContentRenderer
         elements.push(
           <div key={`bold-${i}`} className="mt-5 mb-3 p-3 bg-gradient-to-r from-purple-500/30 to-pink-500/30 rounded-xl border border-purple-400/40">
             <h4 className="text-lg font-bold text-white flex items-center gap-2">
-              <Star className="w-5 h-5 text-yellow-400" />
+              <Star className="w-5 h-5 text-yellow-400 flex-shrink-0" />
               {line.replace(/\*\*/g, '')}
             </h4>
           </div>
