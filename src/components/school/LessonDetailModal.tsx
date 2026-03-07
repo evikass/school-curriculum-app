@@ -6,6 +6,7 @@ import {
   X, BookOpen, Star, CheckCircle, 
   Lightbulb, Target, Clock, Award, Gamepad2
 } from 'lucide-react'
+import LessonContentRenderer from './LessonContentRenderer'
 
 interface LessonDetail {
   title: string
@@ -115,9 +116,7 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                       </div>
                     )}
                     <div className="bg-white/5 rounded-2xl p-4 border border-white/10">
-                      <p className="text-gray-200 leading-relaxed whitespace-pre-line">
-                        {lesson.content || (currentContent.content as string)}
-                      </p>
+                      <LessonContentRenderer content={lesson.content || (currentContent.content as string)} />
                     </div>
                     
                     {/* Интересные факты */}
