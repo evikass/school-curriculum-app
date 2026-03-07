@@ -217,7 +217,7 @@ export default function Gameplay() {
 
   // Exit game function
   const exitGame = () => {
-    // Reset all game state
+    // Reset all game state first
     setCurrentIndex(0)
     setAnswers({})
     setShowResults(false)
@@ -228,15 +228,24 @@ export default function Gameplay() {
     setMatchedPairs([])
     setSelectedLeft(null)
     setTimedMode(false)
-    // Navigate away
-    selectGame(null)
+    setShowHint(false)
+    setHintsUsed(0)
+    // Navigate away - use setTimeout to ensure state is reset
+    setTimeout(() => {
+      selectGame(null)
+    }, 0)
   }
 
   // Game screen
   return (
     <div className="w-full max-w-2xl mx-auto">
-      <button onClick={exitGame}
-        className="mb-6 flex items-center gap-2 text-white/80 hover:text-white text-xl font-medium bg-white/10 hover:bg-white/20 px-6 py-3 rounded-2xl transition-all cursor-pointer">
+      <button 
+        onClick={(e) => {
+          e.preventDefault()
+          e.stopPropagation()
+          exitGame()
+        }}
+        className="mb-6 flex items-center gap-2 text-white/80 hover:text-white text-xl font-medium bg-white/10 hover:bg-white/20 px-6 py-3 rounded-2xl transition-all cursor-pointer active:scale-95 hover:bg-red-500/30">
         <ArrowLeft className="w-6 h-6" /> Выйти из игры
       </button>
 
