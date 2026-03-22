@@ -2859,7 +2859,7 @@ function SoundsSVG() {
 }
 
 // Слоги - делящиеся слова
-function Syllables() {
+function SyllablesSVG() {
   return (
     <svg viewBox="0 0 200 200" className="w-full h-full">
       <defs>
