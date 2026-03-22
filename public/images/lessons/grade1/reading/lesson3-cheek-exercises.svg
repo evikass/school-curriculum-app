@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5"/>
+      <stop offset="100%" style="stop-color:#e1bee7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <text x="200" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#5e35b1" text-anchor="middle">💨 Упражнения для щёк</text>
+  
+  <!-- Cheeks animation -->
+  <g transform="translate(100, 80)">
+    <!-- Face -->
+    <circle cx="100" cy="60" r="50" fill="#FFE0B2" stroke="#FFA726" stroke-width="3"/>
+    <!-- Eyes -->
+    <circle cx="85" cy="50" r="6" fill="#333"/>
+    <circle cx="115" cy="50" r="6" fill="#333"/>
+    <!-- Cheeks puffing -->
+    <ellipse cx="70" cy="70" rx="20" ry="15" fill="#FFCCBC">
+      <animate attributeName="rx" values="20;25;20" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="130" cy="70" rx="20" ry="15" fill="#FFCCBC">
+      <animate attributeName="rx" values="20;25;20" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Mouth -->
+    <ellipse cx="100" cy="85" rx="15" ry="10" fill="#FF8A80"/>
+  </g>
+  
+  <!-- Exercises -->
+  <g font-family="Arial" font-size="12" fill="#4A148C">
+    <rect x="30" y="180" width="150" height="35" fill="#fff" rx="8" opacity="0.9"/>
+    <text x="105" y="203" text-anchor="middle">🎈 Надуть щёки</text>
+    
+    <rect x="220" y="180" width="150" height="35" fill="#fff" rx="8" opacity="0.9"/>
+    <text x="295" y="203" text-anchor="middle">🌬️ Втянуть щёки</text>
+    
+    <rect x="125" y="230" width="150" height="35" fill="#fff" rx="8" opacity="0.9"/>
+    <text x="200" y="253" text-anchor="middle">🐴 Поцокать как лошадка</text>
+  </g>
+  
+  <!-- Air puff -->
+  <g transform="translate(280, 100)">
+    <circle cx="20" cy="20" r="15" fill="#E3F2FD" opacity="0.7">
+      <animate attributeName="r" values="15;25;15" dur="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0.3;0.7" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="40" cy="10" r="10" fill="#BBDEFB" opacity="0.5">
+      <animate attributeName="r" values="10;20;10" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

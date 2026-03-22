@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8eaf6"/>
+      <stop offset="100%" style="stop-color:#c5cae9"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <text x="200" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3949ab" text-anchor="middle">📚 Учим стихи</text>
+  
+  <!-- Book -->
+  <g transform="translate(120, 60)">
+    <rect x="0" y="0" width="160" height="120" fill="#fff" stroke="#5c6bc0" stroke-width="3" rx="5">
+      <animate attributeName="height" values="120;125;120" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <line x1="80" y1="0" x2="80" y2="120" stroke="#5c6bc0" stroke-width="2"/>
+    <!-- Text lines -->
+    <rect x="15" y="20" width="55" height="4" fill="#7986cb" rx="2">
+      <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="15" y="35" width="50" height="4" fill="#7986cb" rx="2"/>
+    <rect x="15" y="50" width="55" height="4" fill="#7986cb" rx="2"/>
+    <rect x="15" y="65" width="45" height="4" fill="#7986cb" rx="2"/>
+    <rect x="15" y="80" width="55" height="4" fill="#7986cb" rx="2"/>
+    <rect x="90" y="20" width="55" height="4" fill="#9fa8da" rx="2"/>
+    <rect x="90" y="35" width="50" height="4" fill="#9fa8da" rx="2"/>
+    <rect x="90" y="50" width="55" height="4" fill="#9fa8da" rx="2"/>
+    <rect x="90" y="65" width="45" height="4" fill="#9fa8da" rx="2"/>
+    <rect x="90" y="80" width="55" height="4" fill="#9fa8da" rx="2"/>
+  </g>
+  
+  <!-- Brain remembering -->
+  <g transform="translate(40, 200)">
+    <ellipse cx="40" cy="30" rx="35" ry="25" fill="#ce93d8">
+      <animate attributeName="ry" values="25;28;25" dur="1.5s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="40" y="38" font-family="Arial" font-size="20" text-anchor="middle">🧠</text>
+    <text x="40" y="70" font-family="Arial" font-size="9" fill="#7b1fa2" text-anchor="middle">Запоминаем</text>
+  </g>
+  
+  <!-- Heart feeling -->
+  <g transform="translate(140, 200)">
+    <circle cx="40" cy="30" r="30" fill="#ef9a9a">
+      <animate attributeName="r" values="30;33;30" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <text x="40" y="38" font-family="Arial" font-size="18" text-anchor="middle">❤️</text>
+    <text x="40" y="70" font-family="Arial" font-size="9" fill="#c62828" text-anchor="middle">Чувствуем</text>
+  </g>
+  
+  <!-- Mouth speaking -->
+  <g transform="translate(240, 200)">
+    <circle cx="40" cy="30" r="30" fill="#80cbc4">
+      <animate attributeName="fill" values="#80cbc4;#4db6ac;#80cbc4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="40" y="38" font-family="Arial" font-size="18" text-anchor="middle">👄</text>
+    <text x="40" y="70" font-family="Arial" font-size="9" fill="#00695c" text-anchor="middle">Рассказываем</text>
+  </g>
+  
+  <!-- Stars -->
+  <g fill="#ffd54f">
+    <text x="100" y="55" font-family="Arial" font-size="14">⭐</text>
+    <text x="300" y="55" font-family="Arial" font-size="14">⭐</text>
+    <text x="330" y="100" font-family="Arial" font-size="12">✨</text>
+    <text x="70" y="100" font-family="Arial" font-size="12">✨</text>
+  </g>
+</svg>

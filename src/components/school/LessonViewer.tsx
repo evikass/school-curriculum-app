@@ -235,22 +235,35 @@ export default function LessonViewer() {
                                            hover:border-purple-400/50 hover:bg-white/10
                                            transition-all text-left group cursor-pointer"
                               >
-                                <div className="flex items-center gap-3 mb-2">
-                                  <Star className="w-5 h-5 text-yellow-400 group-hover:scale-110 transition-transform" />
-                                  <h5 className="text-lg font-bold text-purple-300 group-hover:text-purple-200 transition-colors">
-                                    {lesson.title}
-                                  </h5>
-                                </div>
-                                <p className="text-gray-400 text-sm line-clamp-2 ml-8">
-                                  {lesson.description}
-                                </p>
-                                {lesson.tasks && lesson.tasks.length > 0 && (
-                                  <div className="mt-3 ml-8 flex items-center gap-2 text-purple-400 text-xs">
-                                    <span>📝 {lesson.tasks.length} заданий</span>
-                                    <span className="text-white/30">•</span>
-                                    <span className="text-green-400">Нажмите, чтобы открыть</span>
+                                <div className="flex gap-4">
+                                  <div className="flex-1 min-w-0">
+                                    <div className="flex items-center gap-3 mb-2">
+                                      <Star className="w-5 h-5 text-yellow-400 group-hover:scale-110 transition-transform flex-shrink-0" />
+                                      <h5 className="text-lg font-bold text-purple-300 group-hover:text-purple-200 transition-colors">
+                                        {lesson.title}
+                                      </h5>
+                                    </div>
+                                    <p className="text-gray-400 text-sm line-clamp-2 ml-8">
+                                      {lesson.description}
+                                    </p>
+                                    {lesson.tasks && lesson.tasks.length > 0 && (
+                                      <div className="mt-3 ml-8 flex items-center gap-2 text-purple-400 text-xs">
+                                        <span>📝 {lesson.tasks.length} заданий</span>
+                                        <span className="text-white/30">•</span>
+                                        <span className="text-green-400">Нажмите, чтобы открыть</span>
+                                      </div>
+                                    )}
                                   </div>
-                                )}
+                                  {lesson.image && (
+                                    <div className="flex-shrink-0 w-24 h-24 rounded-xl overflow-hidden border border-white/10 bg-white/5">
+                                      <img 
+                                        src={lesson.image} 
+                                        alt={lesson.title}
+                                        className="w-full h-full object-contain"
+                                      />
+                                    </div>
+                                  )}
+                                </div>
                               </button>
                             ))}
                           </div>
@@ -266,22 +279,35 @@ export default function LessonViewer() {
                                      hover:border-purple-400/50 hover:bg-white/10
                                      transition-all text-left group cursor-pointer"
                         >
-                          <div className="flex items-center gap-3 mb-2">
-                            <Star className="w-5 h-5 text-yellow-400 group-hover:scale-110 transition-transform" />
-                            <h4 className="text-xl font-bold text-purple-300 group-hover:text-purple-200 transition-colors">
-                              {lesson.title}
-                            </h4>
-                          </div>
-                          <p className="text-gray-400 text-sm line-clamp-2 ml-8">
-                            {lesson.description}
-                          </p>
-                          {lesson.tasks && lesson.tasks.length > 0 && (
-                            <div className="mt-3 ml-8 flex items-center gap-2 text-purple-400 text-xs">
-                              <span>📝 {lesson.tasks.length} заданий</span>
-                              <span className="text-white/30">•</span>
-                              <span className="text-green-400">Нажмите, чтобы открыть</span>
+                          <div className="flex gap-4">
+                            <div className="flex-1 min-w-0">
+                              <div className="flex items-center gap-3 mb-2">
+                                <Star className="w-5 h-5 text-yellow-400 group-hover:scale-110 transition-transform flex-shrink-0" />
+                                <h4 className="text-xl font-bold text-purple-300 group-hover:text-purple-200 transition-colors">
+                                  {lesson.title}
+                                </h4>
+                              </div>
+                              <p className="text-gray-400 text-sm line-clamp-2 ml-8">
+                                {lesson.description}
+                              </p>
+                              {lesson.tasks && lesson.tasks.length > 0 && (
+                                <div className="mt-3 ml-8 flex items-center gap-2 text-purple-400 text-xs">
+                                  <span>📝 {lesson.tasks.length} заданий</span>
+                                  <span className="text-white/30">•</span>
+                                  <span className="text-green-400">Нажмите, чтобы открыть</span>
+                                </div>
+                              )}
                             </div>
-                          )}
+                            {lesson.image && (
+                              <div className="flex-shrink-0 w-24 h-24 rounded-xl overflow-hidden border border-white/10 bg-white/5">
+                                <img 
+                                  src={lesson.image} 
+                                  alt={lesson.title}
+                                  className="w-full h-full object-contain"
+                                />
+                              </div>
+                            )}
+                          </div>
                         </button>
                       ))
                     )}
