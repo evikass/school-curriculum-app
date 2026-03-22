@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-15px); } }
+      @keyframes sparkle { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+      @keyframes wag { 0%, 100% { transform: rotate(-5deg); } 50% { transform: rotate(5deg); } }
+      .animate { animation: bounce 2s ease-in-out infinite; }
+      .pulse { animation: pulse 1.5s ease-in-out infinite; }
+      .float { animation: float 3s ease-in-out infinite; }
+      .sparkle { animation: sparkle 1.5s ease-in-out infinite; }
+      .wag { animation: wag 0.5s ease-in-out infinite; }
+    </style>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9C27B0;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#9C27B0;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect width="500" height="350" fill="#FFF5E6" opacity="0.7"/>
+  
+  <circle cx="50" cy="50" r="40" fill="#9C27B0" opacity="0.2"/>
+  <circle cx="450" cy="300" r="50" fill="#9C27B0" opacity="0.15"/>
+  <circle cx="400" cy="60" r="30" fill="#9C27B0" opacity="0.1"/>
+  
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333" text-anchor="middle">🔊 Темп и динамика</text>
+  <rect x="80" y="50" width="340" height="3" rx="2" fill="#9C27B0" opacity="0.6"/>
+  
+  <g class="animate" transform="translate(250, 180)">
+    <circle cx="0" cy="0" r="60" fill="#9C27B0" opacity="0.3"/>
+    <circle cx="0" cy="0" r="45" fill="#9C27B0" opacity="0.5"/>
+    <text x="0" y="20" font-size="60" text-anchor="middle">🔊</text>
+  </g>
+  
+  <circle class="sparkle" cx="100" cy="100" r="4" fill="#9C27B0" style="animation-delay: 0s"/>
+  <circle class="sparkle" cx="400" cy="120" r="5" fill="#9C27B0" style="animation-delay: 0.3s"/>
+  <circle class="sparkle" cx="150" cy="280" r="3" fill="#9C27B0" style="animation-delay: 0.6s"/>
+  <circle class="sparkle" cx="350" cy="260" r="4" fill="#9C27B0" style="animation-delay: 0.9s"/>
+  
+  <rect x="50" y="310" width="400" height="8" rx="4" fill="#9C27B0" opacity="0.4"/>
+  <rect x="100" y="325" width="300" height="4" rx="2" fill="#9C27B0" opacity="0.3"/>
+  
+  <text x="30" y="330" font-size="16" opacity="0.4">🔊</text>
+  <text x="450" y="330" font-size="16" opacity="0.4">🔊</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f7fa"/>
+      <stop offset="100%" style="stop-color:#b2ebf2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <text x="200" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#00838f" text-anchor="middle">🎭 Выразительное чтение</text>
+  
+  <!-- Voice waves -->
+  <g transform="translate(50, 70)">
+    <path d="M0,30 Q15,10 30,30 Q45,50 60,30 Q75,10 90,30" stroke="#00acc1" stroke-width="3" fill="none">
+      <animate attributeName="d" values="M0,30 Q15,10 30,30 Q45,50 60,30 Q75,10 90,30;M0,30 Q15,50 30,30 Q45,10 60,30 Q75,50 90,30;M0,30 Q15,10 30,30 Q45,50 60,30 Q75,10 90,30" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,50 Q20,30 40,50 Q60,70 80,50 Q100,30 120,50" stroke="#26c6da" stroke-width="2" fill="none">
+      <animate attributeName="d" values="M0,50 Q20,30 40,50 Q60,70 80,50 Q100,30 120,50;M0,50 Q20,70 40,50 Q60,30 80,50 Q100,70 120,50;M0,50 Q20,30 40,50 Q60,70 80,50 Q100,30 120,50" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Pauses symbols -->
+  <g transform="translate(200, 70)">
+    <rect x="0" y="0" width="80" height="60" fill="#fff" rx="10" stroke="#0097a7" stroke-width="2"/>
+    <text x="15" y="25" font-family="Arial" font-size="14" fill="#006064">,</text>
+    <text x="35" y="25" font-family="Arial" font-size="14" fill="#006064">.</text>
+    <text x="55" y="25" font-family="Arial" font-size="14" fill="#006064">!</text>
+    <text x="20" y="50" font-family="Arial" font-size="9" fill="#00838f">паузы</text>
+  </g>
+  
+  <!-- Intonation arrows -->
+  <g transform="translate(300, 70)">
+    <rect x="0" y="0" width="80" height="60" fill="#fff" rx="10" stroke="#0097a7" stroke-width="2"/>
+    <!-- Up arrow for question -->
+    <path d="M20,45 L20,25 L15,30 M20,25 L25,30" stroke="#e91e63" stroke-width="2" fill="none"/>
+    <text x="20" y="55" font-family="Arial" font-size="8" fill="#c2185b" text-anchor="middle">?</text>
+    <!-- Down arrow for statement -->
+    <path d="M60,25 L60,45 L55,40 M60,45 L65,40" stroke="#4caf50" stroke-width="2" fill="none"/>
+    <text x="60" y="20" font-family="Arial" font-size="8" fill="#2e7d32" text-anchor="middle">.</text>
+  </g>
+  
+  <!-- Emotion faces -->
+  <g transform="translate(50, 160)">
+    <circle cx="30" cy="30" r="25" fill="#fff59d" stroke="#fbc02d" stroke-width="2">
+      <animate attributeName="r" values="25;27;25" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="22" cy="25" r="3" fill="#333"/>
+    <circle cx="38" cy="25" r="3" fill="#333"/>
+    <path d="M20,38 Q30,48 40,38" stroke="#333" stroke-width="2" fill="none"/>
+    <text x="30" y="70" font-family="Arial" font-size="9" fill="#f57f17" text-anchor="middle">Радостно</text>
+  </g>
+  
+  <g transform="translate(130, 160)">
+    <circle cx="30" cy="30" r="25" fill="#90caf9" stroke="#1976d2" stroke-width="2"/>
+    <circle cx="22" cy="25" r="3" fill="#333"/>
+    <circle cx="38" cy="25" r="3" fill="#333"/>
+    <path d="M20,40 Q30,32 40,40" stroke="#333" stroke-width="2" fill="none"/>
+    <text x="30" y="70" font-family="Arial" font-size="9" fill="#1565c0" text-anchor="middle">Грустно</text>
+  </g>
+  
+  <g transform="translate(210, 160)">
+    <circle cx="30" cy="30" r="25" fill="#ce93d8" stroke="#8e24aa" stroke-width="2">
+      <animate attributeName="r" values="25;28;25" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="22" cy="25" r="3" fill="#333"/>
+    <circle cx="38" cy="25" r="3" fill="#333"/>
+    <ellipse cx="30" cy="40" rx="8" ry="5" fill="#333"/>
+    <text x="30" y="70" font-family="Arial" font-size="9" fill="#6a1b9a" text-anchor="middle">Удивлённо</text>
+  </g>
+  
+  <g transform="translate(290, 160)">
+    <circle cx="30" cy="30" r="25" fill="#ef9a9a" stroke="#c62828" stroke-width="2"/>
+    <circle cx="22" cy="25" r="3" fill="#333"/>
+    <circle cx="38" cy="25" r="3" fill="#333"/>
+    <path d="M20,42 L40,42" stroke="#333" stroke-width="2"/>
+    <text x="30" y="70" font-family="Arial" font-size="9" fill="#b71c1c" text-anchor="middle">Серьёзно</text>
+  </g>
+  
+  <!-- Tips -->
+  <g font-family="Arial" font-size="10" fill="#006064">
+    <text x="200" y="265" text-anchor="middle">💡 Выдели главное слово голосом</text>
+    <text x="200" y="285" text-anchor="middle">💡 Делай паузы на знаках препинания</text>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E1F5FE"/>
+      <stop offset="100%" style="stop-color:#B3E5FC"/>
+    </linearGradient>
+    <style>
+      @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+      .pulse { animation: pulse 1.5s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="200" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#01579B" text-anchor="middle">📖 Рассказ из личного опыта</text>
+  
+  <!-- Child with thought bubble -->
+  <g transform="translate(30, 60)">
+    <circle cx="40" cy="60" r="35" fill="#FFE0B2" stroke="#FF9800" stroke-width="2"/>
+    <circle cx="30" cy="50" r="4" fill="#333"/>
+    <circle cx="50" cy="50" r="4" fill="#333"/>
+    <path d="M30,70 Q40,80 50,70" stroke="#333" stroke-width="2" fill="none"/>
+    <text x="40" y="115" font-family="Arial" font-size="10" fill="#E65100" text-anchor="middle">Это Я!</text>
+    
+    <!-- Thought bubble -->
+    <g transform="translate(60, 0)">
+      <ellipse cx="60" cy="35" rx="50" ry="30" fill="#FFF" stroke="#0288D1" stroke-width="2"/>
+      <circle cx="25" cy="50" r="8" fill="#FFF" stroke="#0288D1" stroke-width="1"/>
+      <circle cx="12" cy="60" r="5" fill="#FFF" stroke="#0288D1" stroke-width="1"/>
+      <text x="60" y="40" font-family="Arial" font-size="10" fill="#01579B" text-anchor="middle">Моя история!</text>
+    </g>
+  </g>
+  
+  <!-- Story structure -->
+  <g transform="translate(220, 55)">
+    <rect width="160" height="120" fill="#FFF" rx="10" stroke="#0288D1" stroke-width="2"/>
+    <text x="80" y="25" font-family="Arial" font-size="12" font-weight="bold" fill="#01579B" text-anchor="middle">📝 План рассказа:</text>
+    
+    <rect x="10" y="35" width="140" height="22" fill="#E1F5FE" rx="5"/>
+    <text x="80" y="50" font-family="Arial" font-size="10" fill="#0277BD" text-anchor="middle">1. Вступление: Я хочу рассказать...</text>
+    
+    <rect x="10" y="62" width="140" height="22" fill="#B3E5FC" rx="5"/>
+    <text x="80" y="77" font-family="Arial" font-size="10" fill="#0277BD" text-anchor="middle">2. Основная часть: Это было...</text>
+    
+    <rect x="10" y="89" width="140" height="22" fill="#81D4FA" rx="5"/>
+    <text x="80" y="104" font-family="Arial" font-size="10" fill="#0277BD" text-anchor="middle">3. Заключение: Вот такая история!</text>
+  </g>
+  
+  <!-- Topics -->
+  <g transform="translate(20, 185)">
+    <text x="180" y="15" font-family="Arial" font-size="12" font-weight="bold" fill="#0277BD" text-anchor="middle">💡 О чём можно рассказать?</text>
+    
+    <g transform="translate(0, 25)">
+      <rect width="85" height="30" fill="#FFF" rx="8" stroke="#29B6F6" stroke-width="1" class="pulse"/>
+      <text x="42" y="20" font-family="Arial" font-size="9" fill="#0288D1" text-anchor="middle">🎪 День рождения</text>
+    </g>
+    <g transform="translate(95, 25)">
+      <rect width="85" height="30" fill="#FFF" rx="8" stroke="#29B6F6" stroke-width="1" class="pulse" style="animation-delay:0.2s"/>
+      <text x="42" y="20" font-family="Arial" font-size="9" fill="#0288D1" text-anchor="middle">🐕 Мой питомец</text>
+    </g>
+    <g transform="translate(190, 25)">
+      <rect width="85" height="30" fill="#FFF" rx="8" stroke="#29B6F6" stroke-width="1" class="pulse" style="animation-delay:0.4s"/>
+      <text x="42" y="20" font-family="Arial" font-size="9" fill="#0288D1" text-anchor="middle">🏖️ Выходные</text>
+    </g>
+    <g transform="translate(285, 25)">
+      <rect width="85" height="30" fill="#FFF" rx="8" stroke="#29B6F6" stroke-width="1" class="pulse" style="animation-delay:0.6s"/>
+      <text x="42" y="20" font-family="Arial" font-size="9" fill="#0288D1" text-anchor="middle">🎁 Подарок</text>
+    </g>
+  </g>
+</svg>
