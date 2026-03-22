@@ -137,17 +137,27 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
               <div className="prose prose-invert max-w-none">
                 {currentSection === 0 && (
                   <div className="space-y-4">
-                    {/* Анимированный SVG для урока */}
-                    <div className="flex justify-center mb-4">
-                      <LessonAnimatedSVG 
-                        lessonTitle={lesson.title} 
-                        subject=""
-                        size="medium" 
-                      />
-                    </div>
-                    
                     {/* Изображение урока */}
-                    {lesson.image && (
+                    {lesson.image ? (
+                      <div className="relative rounded-2xl overflow-hidden border-2 border-purple-400/30 mb-4 shadow-lg">
+                        <img 
+                          src={lesson.image} 
+                          alt={lesson.title}
+                          className="w-full h-auto object-cover"
+                        />
+                      </div>
+                    ) : (
+                      <div className="flex justify-center mb-4">
+                        <LessonAnimatedSVG 
+                          lessonTitle={lesson.title} 
+                          subject=""
+                          size="medium" 
+                        />
+                      </div>
+                    )}
+                    
+                    {/* Дополнительное изображение если есть */}
+                    {lesson.image && false && (
                       <div className="relative rounded-2xl overflow-hidden border-2 border-purple-400/30 mb-4 shadow-lg">
                         <img 
                           src={lesson.image} 

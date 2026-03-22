@@ -332,13 +332,23 @@ export default function KidLessonViewer() {
               </div>
             </div>
 
-            {/* Анимированный SVG */}
+            {/* Анимированный SVG или изображение урока */}
             <div className="flex justify-center mb-8">
-              <LessonAnimatedSVG 
-                lessonTitle={selectedLesson.title} 
-                subject={selectedSubject?.title || ''}
-                size="medium" 
-              />
+              {selectedLesson.image ? (
+                <div className="relative rounded-3xl overflow-hidden border-4 border-purple-400/30 shadow-xl max-w-md">
+                  <img 
+                    src={selectedLesson.image} 
+                    alt={selectedLesson.title}
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+              ) : (
+                <LessonAnimatedSVG 
+                  lessonTitle={selectedLesson.title} 
+                  subject={selectedSubject?.title || ''}
+                  size="medium" 
+                />
+              )}
             </div>
             
             {/* Контент урока */}
