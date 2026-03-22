@@ -697,5 +697,31 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что такое СКИ исполнителя?", options: ["Среда", "Система команд", "Скорость", "Счётчик"], correctAnswer: "Система команд", hint: "Доступные команды" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь алгоритмы! 📋" }
+  },
+  {
+    title: "Компьютерная графика",
+    subject: "Информатика",
+    icon: "Monitor",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Из чего состоит растровое изображение?", options: ["Векторы", "Пиксели", "Кривые", "Слои"], correctAnswer: "Пиксели", hint: "Точки разных цветов" },
+      { type: 'quiz', question: "Какой формат лучше для логотипов?", options: ["JPEG", "PNG", "SVG", "BMP"], correctAnswer: "SVG", hint: "Векторный формат" },
+      { type: 'find', question: "Выбери растровые форматы:", options: ["JPEG", "SVG", "PNG", "GIF", "AI"], correctAnswer: ["JPEG", "PNG", "GIF"], hint: "Для фотографий" },
+      { type: 'quiz', question: "Что происходит с растром при увеличении?", options: ["Улучшается качество", "Теряется качество", "Не меняется", "Уменьшается размер"], correctAnswer: "Теряется качество", hint: "Пикселизация" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь графику! 🎨" }
+  },
+  {
+    title: "Циклы в программировании",
+    subject: "Информатика",
+    icon: "Monitor",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Какой цикл выполняется, пока условие истинно?", options: ["for", "while", "if", "else"], correctAnswer: "while", hint: "С предусловием" },
+      { type: 'quiz', question: "Что делает range(5)?", options: ["Числа 1-5", "Числа 0-4", "Числа 0-5", "Числа 1-4"], correctAnswer: "Числа 0-4", hint: "От 0 до n-1" },
+      { type: 'find', question: "Выбери операторы управления циклом:", options: ["break", "continue", "return", "stop", "next"], correctAnswer: ["break", "continue"], hint: "Выход и пропуск" },
+      { type: 'quiz', question: "Сколько раз выполнится: for i in range(3)?", options: ["2", "3", "4", "1"], correctAnswer: "3", hint: "i = 0, 1, 2" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты освоил циклы! 🔄" }
   }
 ]

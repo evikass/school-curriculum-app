@@ -139,7 +139,7 @@ const lessons: SubjectData = {
   ]
 }
 
-const games: GameLesson[] = [
+export const games: GameLesson[] = [
   {
     title: "Лепка из глины",
     subject: "Художественные ремёсла",
