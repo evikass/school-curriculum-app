@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
+      @keyframes shake { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(3px); } }
+      .animate { animation: bounce 2s ease-in-out infinite; }
+      .pulse { animation: pulse 1.5s ease-in-out infinite; }
+      .shake { animation: shake 0.3s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#E8F5E9"/>
+  
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1B5E20" text-anchor="middle">🔊 Согласные звуки</text>
+  <rect x="100" y="55" width="300" height="3" rx="2" fill="#43A047" opacity="0.6"/>
+  
+  <!-- Hard consonants -->
+  <g transform="translate(50, 90)">
+    <rect width="180" height="100" fill="#C8E6C9" rx="10" stroke="#4CAF50" stroke-width="2"/>
+    <text x="90" y="25" font-family="Arial" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Твёрдые</text>
+    <g font-family="Arial" font-size="20" font-weight="bold" fill="#1B5E20">
+      <text x="30" y="60" text-anchor="middle" class="animate">М</text>
+      <text x="70" y="60" text-anchor="middle" class="animate" style="animation-delay: 0.1s">Н</text>
+      <text x="110" y="60" text-anchor="middle" class="animate" style="animation-delay: 0.2s">Р</text>
+      <text x="150" y="60" text-anchor="middle" class="animate" style="animation-delay: 0.3s">Л</text>
+    </g>
+    <text x="90" y="90" font-family="Arial" font-size="10" fill="#33691E" text-anchor="middle">мама, нос, рак</text>
+  </g>
+  
+  <!-- Soft consonants -->
+  <g transform="translate(270, 90)">
+    <rect width="180" height="100" fill="#DCEDC8" rx="10" stroke="#8BC34A" stroke-width="2"/>
+    <text x="90" y="25" font-family="Arial" font-size="14" font-weight="bold" fill="#558B2F" text-anchor="middle">Мягкие</text>
+    <g font-family="Arial" font-size="20" font-weight="bold" fill="#33691E">
+      <text x="30" y="60" text-anchor="middle" class="pulse">М'</text>
+      <text x="70" y="60" text-anchor="middle" class="pulse" style="animation-delay: 0.1s">Н'</text>
+      <text x="110" y="60" text-anchor="middle" class="pulse" style="animation-delay: 0.2s">Р'</text>
+      <text x="150" y="60" text-anchor="middle" class="pulse" style="animation-delay: 0.3s">Л'</text>
+    </g>
+    <text x="90" y="90" font-family="Arial" font-size="10" fill="#1B5E20" text-anchor="middle">мята, нёс, река</text>
+  </g>
+  
+  <!-- Voiced pairs -->
+  <g transform="translate(50, 210)">
+    <rect width="180" height="80" fill="#FFCDD2" rx="10" stroke="#E57373" stroke-width="2"/>
+    <text x="90" y="25" font-family="Arial" font-size="14" font-weight="bold" fill="#C62828" text-anchor="middle">Звонкие 🔔</text>
+    <text x="90" y="55" font-family="Arial" font-size="14" fill="#B71C1C" text-anchor="middle">Б В Г Д Ж З</text>
+    <text x="90" y="72" font-family="Arial" font-size="9" fill="#D32F2F" text-anchor="middle">голос участвует</text>
+  </g>
+  
+  <!-- Voiceless pairs -->
+  <g transform="translate(270, 210)">
+    <rect width="180" height="80" fill="#F8BBD0" rx="10" stroke="#9C27B0" stroke-width="2"/>
+    <text x="90" y="25" font-family="Arial" font-size="14" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Глухие 🔇</text>
+    <text x="90" y="55" font-family="Arial" font-size="14" fill="#7B1FA2" text-anchor="middle">П Ф К Т Ш С</text>
+    <text x="90" y="72" font-family="Arial" font-size="9" fill="#8E24AA" text-anchor="middle">только шум</text>
+  </g>
+  
+  <!-- Vibration indicator -->
+  <g transform="translate(225, 300)">
+    <circle cx="25" cy="25" r="20" fill="#F44336" opacity="0.3">
+      <animate attributeName="r" values="20;30;20" dur="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="25" y="30" font-family="Arial" font-size="12" fill="#B71C1C" text-anchor="middle">📳</text>
+    <text x="25" y="55" font-family="Arial" font-size="8" fill="#C62828" text-anchor="middle">приложи к горлу</text>
+  </g>
+</svg>

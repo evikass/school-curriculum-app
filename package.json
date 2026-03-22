@@ -20,6 +20,7 @@
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
     "@tailwindcss/postcss": "^4.2.1",
+    "@vkontakte/vk-bridge": "^2.15.11",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "eas-cli": "^18.3.0",
