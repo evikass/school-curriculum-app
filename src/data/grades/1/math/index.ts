@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: 🔢 Число и цифра 1",
+          image: "/images/lessons/grade1/math/lesson1-number-1.svg",
           description: `## 🔢 Знакомство с числом 1
 
 **Число 1** — это самое первое число в математике. Оно обозначает один предмет и является началом счёта.
@@ -208,6 +209,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: ➕➖✖️➗ Знаки +, -, =",
+          image: "/images/lessons/grade1/math/lesson4-signs.svg",
           description: `## ➕➖✖️➗ Арифметические знаки
 
 Сегодня мы выучим три важных знака для решения примеров! Это «помощники» математики.
@@ -863,6 +865,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 12: 🔷 Геометрические фигуры",
+          image: "/images/lessons/grade1/math/lesson12-shapes.svg",
           description: `## 🔷 Знакомство с геометрическими фигурами
 
 Геометрические фигуры — это формы предметов. Все предметы вокруг нас имеют форму!

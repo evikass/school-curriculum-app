@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: 🍞 «Колобок»",
+          image: "/images/lessons/grade1/literature/lesson1-kolobok.svg",
           description: `## 🍞 Русская народная сказка «Колобок»
 
 **Жили-были старик со старухой.** Однажды старик говорит:
@@ -134,6 +135,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: 🥕 «Репка»",
+          image: "/images/lessons/grade1/literature/lesson3-repka.svg",
           description: `## 🥕 Русская народная сказка «Репка»
 
 **Посадил дед репку.** Выросла репка большая-пребольшая! Такую огромную — глазам не верится!

@@ -111,6 +111,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Времена года",
+          image: "/images/lessons/grade1/world/lesson3-seasons.svg",
           description: `**Времена года**
 
 В году 4 времени года: зима, весна, лето, осень.
