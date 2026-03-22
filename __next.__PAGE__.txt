@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[78026,["/school-curriculum-app/_next/static/chunks/daf416755689ebf4.js"],"ClientPageRoot"]
+3:I[2948,["/school-curriculum-app/_next/static/chunks/698c68f093cc56aa.js","/school-curriculum-app/_next/static/chunks/7f11b063d0e5f460.js","/school-curriculum-app/_next/static/chunks/8b31ddff09e3c510.js"],"default"]
+6:I[90806,["/school-curriculum-app/_next/static/chunks/daf416755689ebf4.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"fbP_dd1C6LI0q7lfdzL60","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/school-curriculum-app/_next/static/chunks/8b31ddff09e3c510.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null

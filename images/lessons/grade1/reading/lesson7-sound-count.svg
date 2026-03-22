@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes count { 0% { opacity: 0.3; } 50% { opacity: 1; } 100% { opacity: 0.3; } }
+      .count { animation: count 1s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#E3F2FD"/>
+  
+  <!-- Title -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1565C0" text-anchor="middle">🔢 Считаем звуки</text>
+  
+  <!-- Sound boxes -->
+  <g transform="translate(50, 70)">
+    <!-- Word: МАК -->
+    <rect width="130" height="140" fill="#fff" rx="15" stroke="#2196F3" stroke-width="3"/>
+    <text x="65" y="30" font-family="Arial" font-size="18" font-weight="bold" fill="#0D47A1" text-anchor="middle">МАК</text>
+    
+    <!-- Sound boxes -->
+    <g transform="translate(15, 50)">
+      <rect width="30" height="30" fill="#FFCDD2" rx="5" class="count"/>
+      <text x="15" y="22" font-family="Arial" font-size="16" fill="#C62828" text-anchor="middle">М</text>
+    </g>
+    <g transform="translate(50, 50)">
+      <rect width="30" height="30" fill="#C8E6C9" rx="5" class="count" style="animation-delay: 0.3s"/>
+      <text x="15" y="22" font-family="Arial" font-size="16" fill="#2E7D32" text-anchor="middle">А</text>
+    </g>
+    <g transform="translate(85, 50)">
+      <rect width="30" height="30" fill="#BBDEFB" rx="5" class="count" style="animation-delay: 0.6s"/>
+      <text x="15" y="22" font-family="Arial" font-size="16" fill="#1565C0" text-anchor="middle">К</text>
+    </g>
+    
+    <text x="65" y="110" font-family="Arial" font-size="14" fill="#1565C0" text-anchor="middle">3 звука</text>
+    <text x="65" y="130" font-family="Arial" font-size="10" fill="#1976D2" text-anchor="middle">3 фишки</text>
+  </g>
+  
+  <g transform="translate(185, 70)">
+    <!-- Word: МАМА -->
+    <rect width="130" height="140" fill="#fff" rx="15" stroke="#9C27B0" stroke-width="3"/>
+    <text x="65" y="30" font-family="Arial" font-size="18" font-weight="bold" fill="#6A1B9A" text-anchor="middle">МАМА</text>
+    
+    <!-- Sound boxes -->
+    <g transform="translate(5, 50)">
+      <rect width="28" height="28" fill="#E1BEE7" rx="5" class="count"/>
+      <text x="14" y="20" font-family="Arial" font-size="14" fill="#7B1FA2" text-anchor="middle">М</text>
+    </g>
+    <g transform="translate(36, 50)">
+      <rect width="28" height="28" fill="#F3E5F5" rx="5" class="count" style="animation-delay: 0.2s"/>
+      <text x="14" y="20" font-family="Arial" font-size="14" fill="#8E24AA" text-anchor="middle">А</text>
+    </g>
+    <g transform="translate(67, 50)">
+      <rect width="28" height="28" fill="#E1BEE7" rx="5" class="count" style="animation-delay: 0.4s"/>
+      <text x="14" y="20" font-family="Arial" font-size="14" fill="#7B1FA2" text-anchor="middle">М</text>
+    </g>
+    <g transform="translate(98, 50)">
+      <rect width="28" height="28" fill="#F3E5F5" rx="5" class="count" style="animation-delay: 0.6s"/>
+      <text x="14" y="20" font-family="Arial" font-size="14" fill="#8E24AA" text-anchor="middle">А</text>
+    </g>
+    
+    <text x="65" y="110" font-family="Arial" font-size="14" fill="#7B1FA2" text-anchor="middle">4 звука</text>
+    <text x="65" y="130" font-family="Arial" font-size="10" fill="#9C27B0" text-anchor="middle">4 фишки</text>
+  </g>
+  
+  <g transform="translate(320, 70)">
+    <!-- Word: СОБАКА -->
+    <rect width="130" height="140" fill="#fff" rx="15" stroke="#FF5722" stroke-width="3"/>
+    <text x="65" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#BF360C" text-anchor="middle">СОБАКА</text>
+    
+    <!-- Sound boxes - 6 sounds -->
+    <g transform="translate(5, 50)">
+      <rect width="22" height="22" fill="#FFCCBC" rx="3" class="count"/>
+      <text x="11" y="16" font-family="Arial" font-size="11" fill="#D84315" text-anchor="middle">С</text>
+    </g>
+    <g transform="translate(28, 50)">
+      <rect width="22" height="22" fill="#FFAB91" rx="3" class="count" style="animation-delay: 0.15s"/>
+      <text x="11" y="16" font-family="Arial" font-size="11" fill="#E64A19" text-anchor="middle">А</text>
+    </g>
+    <g transform="translate(51, 50)">
+      <rect width="22" height="22" fill="#FFCCBC" rx="3" class="count" style="animation-delay: 0.3s"/>
+      <text x="11" y="16" font-family="Arial" font-size="11" fill="#D84315" text-anchor="middle">Б</text>
+    </g>
+    <g transform="translate(74, 50)">
+      <rect width="22" height="22" fill="#FFAB91" rx="3" class="count" style="animation-delay: 0.45s"/>
+      <text x="11" y="16" font-family="Arial" font-size="11" fill="#E64A19" text-anchor="middle">А</text>
+    </g>
+    <g transform="translate(97, 50)">
+      <rect width="22" height="22" fill="#FFCCBC" rx="3" class="count" style="animation-delay: 0.6s"/>
+      <text x="11" y="16" font-family="Arial" font-size="11" fill="#D84315" text-anchor="middle">К</text>
+    </g>
+    <g transform="translate(120, 50)">
+      <rect width="22" height="22" fill="#FFAB91" rx="3" class="count" style="animation-delay: 0.75s"/>
+      <text x="11" y="16" font-family="Arial" font-size="11" fill="#E64A19" text-anchor="middle">А</text>
+    </g>
+    
+    <text x="65" y="110" font-family="Arial" font-size="14" fill="#D84315" text-anchor="middle">6 звуков!</text>
+    <text x="65" y="130" font-family="Arial" font-size="10" fill="#E64A19" text-anchor="middle">6 фишек</text>
+  </g>
+  
+  <!-- Houses for sounds -->
+  <g transform="translate(50, 230)">
+    <text x="200" y="20" font-family="Arial" font-size="14" font-weight="bold" fill="#1565C0" text-anchor="middle">🏠 Звуковые домики</text>
+    <rect x="50" y="30" width="90" height="60" fill="#BBDEFB" rx="10" stroke="#1976D2" stroke-width="2"/>
+    <text x="95" y="55" font-family="Arial" font-size="12" fill="#0D47A1" text-anchor="middle">3 окошка</text>
+    <text x="95" y="75" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">МАК, КОТ</text>
+    
+    <rect x="155" y="30" width="90" height="60" fill="#C8E6C9" rx="10" stroke="#388E3C" stroke-width="2"/>
+    <text x="200" y="55" font-family="Arial" font-size="12" fill="#1B5E20" text-anchor="middle">4 окошка</text>
+    <text x="200" y="75" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">МАМА, ЛУНА</text>
+    
+    <rect x="260" y="30" width="90" height="60" fill="#FFE0B2" rx="10" stroke="#FF9800" stroke-width="2"/>
+    <text x="305" y="55" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">5 окошек</text>
+    <text x="305" y="75" font-family="Arial" font-size="10" fill="#F57C00" text-anchor="middle">МЫШКА</text>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <style>
+      @keyframes color { 0% { fill: #FFCDD2; } 25% { fill: #C8E6C9; } 50% { fill: #BBDEFB; } 75% { fill: #FFF9C4; } 100% { fill: #FFCDD2; } }
+      @keyframes bounce { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+      .color { animation: color 3s ease-in-out infinite; }
+      .bounce { animation: bounce 1s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="400" height="300" fill="#FAFAFA"/>
+  
+  <!-- Title -->
+  <text x="200" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#6A1B9A" text-anchor="middle">🎨 Слова-признаки</text>
+  
+  <!-- Color wheel -->
+  <g transform="translate(50, 70)">
+    <circle cx="60" cy="50" r="45" class="color"/>
+    <circle cx="60" cy="50" r="35" fill="#FAFAFA"/>
+    <text x="60" y="55" font-family="Arial" font-size="12" font-weight="bold" fill="#6A1B9A" text-anchor="middle">ЦВЕТ</text>
+    <text x="60" y="115" font-family="Arial" font-size="9" fill="#7B1FA2" text-anchor="middle">красный, синий</text>
+  </g>
+  
+  <!-- Size -->
+  <g transform="translate(170, 70)">
+    <rect width="100" height="100" fill="#E1BEE7" rx="10" stroke="#9C27B0" stroke-width="2"/>
+    <circle cx="30" cy="40" r="12" fill="#7B1FA2" class="bounce"/>
+    <circle cx="70" cy="40" r="22" fill="#9C27B0" class="bounce" style="animation-delay: 0.3s"/>
+    <text x="50" y="80" font-family="Arial" font-size="12" font-weight="bold" fill="#6A1B9A" text-anchor="middle">РАЗМЕР</text>
+    <text x="50" y="95" font-family="Arial" font-size="9" fill="#7B1FA2" text-anchor="middle">большой, маленький</text>
+  </g>
+  
+  <!-- Shape -->
+  <g transform="translate(290, 70)">
+    <rect width="100" height="100" fill="#F3E5F5" rx="10" stroke="#AB47BC" stroke-width="2"/>
+    <circle cx="35" cy="35" r="15" fill="#8E24AA"/>
+    <rect x="55" y="25" width="25" height="25" fill="#7B1FA2"/>
+    <text x="50" y="80" font-family="Arial" font-size="12" font-weight="bold" fill="#6A1B9A" text-anchor="middle">ФОРМА</text>
+    <text x="50" y="95" font-family="Arial" font-size="9" fill="#7B1FA2" text-anchor="middle">круглый, квадратный</text>
+  </g>
+  
+  <!-- Question -->
+  <g transform="translate(50, 185)">
+    <rect width="300" height="35" fill="#CE93D8" rx="10"/>
+    <text x="150" y="25" font-family="Arial" font-size="16" font-weight="bold" fill="#4A148C" text-anchor="middle">❓ КАКОЙ? КАКАЯ? КАКОЕ? КАКИЕ?</text>
+  </g>
+  
+  <!-- Examples -->
+  <g transform="translate(30, 235)">
+    <rect width="105" height="50" fill="#FFF" rx="8" stroke="#9C27B0" stroke-width="1"/>
+    <text x="52" y="20" font-family="Arial" font-size="10" fill="#7B1FA2" text-anchor="middle">🍎 яблоко</text>
+    <text x="52" y="40" font-family="Arial" font-size="10" font-weight="bold" fill="#6A1B9A" text-anchor="middle">круглое, красное</text>
+  </g>
+  
+  <g transform="translate(148, 235)">
+    <rect width="105" height="50" fill="#FFF" rx="8" stroke="#9C27B0" stroke-width="1"/>
+    <text x="52" y="20" font-family="Arial" font-size="10" fill="#7B1FA2" text-anchor="middle">🐱 котёнок</text>
+    <text x="52" y="40" font-family="Arial" font-size="10" font-weight="bold" fill="#6A1B9A" text-anchor="middle">маленький, пушистый</text>
+  </g>
+  
+  <g transform="translate(265, 235)">
+    <rect width="105" height="50" fill="#FFF" rx="8" stroke="#9C27B0" stroke-width="1"/>
+    <text x="52" y="20" font-family="Arial" font-size="10" fill="#7B1FA2" text-anchor="middle">☀️ солнце</text>
+    <text x="52" y="40" font-family="Arial" font-size="10" font-weight="bold" fill="#6A1B9A" text-anchor="middle">яркое, тёплое</text>
+  </g>
+</svg>

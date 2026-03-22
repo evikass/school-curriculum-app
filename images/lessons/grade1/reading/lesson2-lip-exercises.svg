@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-10px) scale(1.05); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
+      @keyframes smile { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+      @keyframes tube { 0%, 100% { transform: scaleX(1); } 50% { transform: scaleX(1.2); } }
+      .animate { animation: bounce 2s ease-in-out infinite; }
+      .pulse { animation: pulse 1.5s ease-in-out infinite; }
+      .smile { animation: smile 1s ease-in-out infinite; }
+      .tube { animation: tube 1.5s ease-in-out infinite; transform-origin: center; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FFF0F5"/>
+  
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#C71585" text-anchor="middle">👄 Упражнения для губ</text>
+  <rect x="100" y="55" width="300" height="3" rx="2" fill="#DB7093" opacity="0.6"/>
+  
+  <!-- Smile exercise -->
+  <g transform="translate(50, 100)">
+    <circle cx="50" cy="50" r="45" fill="#FFE4E1" stroke="#DB7093" stroke-width="3"/>
+    <circle cx="35" cy="40" r="5" fill="#333"/>
+    <circle cx="65" cy="40" r="5" fill="#333"/>
+    <path class="smile" d="M30,60 Q50,80 70,60" stroke="#C71585" stroke-width="3" fill="none"/>
+    <text x="50" y="110" font-family="Arial" font-size="11" fill="#8B008B" text-anchor="middle">Улыбка 😊</text>
+  </g>
+  
+  <!-- Tube exercise -->
+  <g transform="translate(170, 100)">
+    <circle cx="50" cy="50" r="45" fill="#FFE4E1" stroke="#DB7093" stroke-width="3"/>
+    <circle cx="35" cy="40" r="5" fill="#333"/>
+    <circle cx="65" cy="40" r="5" fill="#333"/>
+    <ellipse class="tube" cx="50" cy="65" rx="10" ry="12" fill="#C71585"/>
+    <text x="50" y="110" font-family="Arial" font-size="11" fill="#8B008B" text-anchor="middle">Трубочка 👄</text>
+  </g>
+  
+  <!-- Alternating exercise -->
+  <g transform="translate(290, 100)">
+    <circle cx="50" cy="50" r="45" fill="#FFE4E1" stroke="#DB7093" stroke-width="3"/>
+    <circle cx="35" cy="40" r="5" fill="#333"/>
+    <circle cx="65" cy="40" r="5" fill="#333"/>
+    <path d="M35,65 Q50,75 65,65" stroke="#C71585" stroke-width="3" fill="none">
+      <animate attributeName="d" values="M35,65 Q50,75 65,65;M35,70 Q50,60 65,70;M35,65 Q50,75 65,65" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <text x="50" y="110" font-family="Arial" font-size="11" fill="#8B008B" text-anchor="middle">Чередование 🔄</text>
+  </g>
+  
+  <!-- Exercise counter -->
+  <g transform="translate(100, 230)">
+    <rect width="300" height="80" fill="#FFF" rx="15" stroke="#DB7093" stroke-width="2"/>
+    <text x="150" y="25" font-family="Arial" font-size="14" fill="#C71585" text-anchor="middle">Упражнения:</text>
+    <text x="50" y="55" font-family="Arial" font-size="12" fill="#8B008B" text-anchor="middle">1. Улыбка 5 раз</text>
+    <text x="150" y="55" font-family="Arial" font-size="12" fill="#8B008B" text-anchor="middle">2. Трубочка 5 раз</text>
+    <text x="250" y="55" font-family="Arial" font-size="12" fill="#8B008B" text-anchor="middle">3. Чередование</text>
+  </g>
+  
+  <text x="250" y="335" font-family="Arial" font-size="12" fill="#DB7093" text-anchor="middle">Артикуляционная гимнастика для губ</text>
+</svg>
