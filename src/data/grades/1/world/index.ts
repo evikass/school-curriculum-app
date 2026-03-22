@@ -164,6 +164,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Растения",
+          image: "/images/lessons/grade1/world/lesson4-plants.svg",
           description: `**Растения**
 
 Растения — это живые организмы, которые дышат, питаются, растут и размножаются.
@@ -350,6 +351,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Птицы",
+          image: "/images/lessons/grade1/world/lesson7-birds.svg",
           description: `**Птицы**
 
 Птицы — это животные, у которых есть крылья и перья. Большинство птиц умеет летать.
@@ -401,6 +403,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Правила безопасности",
+          image: "/images/lessons/grade1/world/lesson8-safety.svg",
           description: `**Правила безопасности**
 
 Безопасность — это защита от опасностей.

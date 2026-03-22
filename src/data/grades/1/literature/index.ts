@@ -504,6 +504,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 8: 🧸 А.Л. Барто «Игрушки»",
+          image: "/images/lessons/grade1/literature/lesson8-barto.svg",
           description: `## 🧸 Агния Львовна Барто
 
 **Агния Львовна Барто** — любимая детская поэтесса! Её стихи знают все дети.
@@ -576,6 +577,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 9: 🐦 С.Я. Маршак «Детям»",
+          image: "/images/lessons/grade1/literature/lesson9-marshak.svg",
           description: `## 🐦 Самуил Яковлевич Маршак
 
 **Самуил Яковлевич Маршак** — замечательный детский поэт и переводчик!
@@ -653,6 +655,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 10: 📏 С.В. Михалков «Дети»",
+          image: "/images/lessons/grade1/literature/lesson10-mikhalkov.svg",
           description: `## 📏 Сергей Владимирович Михалков
 
 **Сергей Владимирович Михалков** — известный детский поэт! Написал гимн России.
@@ -734,6 +737,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 11: 🏫 В.Д. Берестов «Первый в школе»",
+          image: "/images/lessons/grade1/literature/lesson11-berestov.svg",
           description: `## 🏫 Валентин Дмитриевич Берестов
 
 **Валентин Дмитриевич Берестов** — детский поэт и писатель. Пишет о школе и детях.
@@ -801,6 +805,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 12: 🌳 И.А. Бунин «Детство»",
+          image: "/images/lessons/grade1/literature/lesson12-bunin.svg",
           description: `## 🌳 Иван Алексеевич Бунин
 
 **Иван Алексеевич Бунин** — русский писатель и поэт, лауреат Нобелевской премии.
