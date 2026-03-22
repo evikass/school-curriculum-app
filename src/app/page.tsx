@@ -222,10 +222,30 @@ function AppContent() {
             {/* Russia Tab */}
             {donateTab === 'ru' && (
               <>
+                {/* Boosty - Prominent Button */}
+                <a
+                  href={boostyService.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block mb-4 bg-gradient-to-r from-orange-500/20 to-red-500/20 hover:from-orange-500/30 hover:to-red-500/30 rounded-xl p-4 border border-orange-500/30 transition-all hover:scale-[1.02]"
+                >
+                  <div className="flex items-center gap-3">
+                    <span className="text-3xl">{boostyService.logo}</span>
+                    <div className="flex-1">
+                      <div className="text-lg font-bold text-white flex items-center gap-2">
+                        {boostyService.name}
+                        <span className="text-xs bg-orange-500/30 text-orange-300 px-2 py-0.5 rounded-full">Рекомендуем</span>
+                      </div>
+                      <div className="text-sm text-orange-200 mt-1">{boostyService.desc}</div>
+                    </div>
+                    <ExternalLink className="w-5 h-5 text-orange-300" />
+                  </div>
+                </a>
+
                 {/* QR Code Section */}
                 <div className="flex flex-col items-center mb-4">
                   <div className="bg-white rounded-xl p-3 shadow-lg">
-                    <QRCodeSVG 
+                    <QRCodeSVG
                       value="https://www.ozon.ru/my/ozonbank/p2p"
                       size={160}
                       level="M"
@@ -238,7 +258,7 @@ function AppContent() {
                     Отсканируйте в приложении банка
                   </p>
                 </div>
-                
+
                 {/* Account Info */}
                 <div className="bg-blue-500/10 rounded-xl p-3 mb-4 border border-blue-500/20">
                   <p className="text-xs text-blue-300 font-medium mb-2">💳 Реквизиты для перевода:</p>
