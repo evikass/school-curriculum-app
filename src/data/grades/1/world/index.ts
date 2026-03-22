@@ -15,6 +15,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Что такое окружающий мир?",
+          image: "/images/lessons/grade1/world/lesson1-nature.svg",
           description: `**Окружающий мир**
 
 Окружающий мир — это всё, что нас окружает: природа, люди, предметы.
@@ -61,6 +62,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Живая и неживая природа",
+          image: "/images/lessons/grade1/world/lesson2-living-nonliving.svg",
           description: `**Живая и неживая природа**
 
 Природа делится на живую и неживую.
@@ -220,6 +222,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Домашние животные",
+          image: "/images/lessons/grade1/world/lesson5-domestic-animals.svg",
           description: `**Домашние животные**
 
 Домашние животные — это животные, которые живут с человеком и приносят ему пользу.
@@ -283,6 +286,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Дикие животные",
+          image: "/images/lessons/grade1/world/lesson6-wild-animals.svg",
           description: `**Дикие животные**
 
 Дикие животные — это животные, которые живут в природе и сами добывают себе еду.

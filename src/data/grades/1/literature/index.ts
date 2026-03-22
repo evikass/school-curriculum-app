@@ -73,6 +73,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: 🏠 «Теремок»",
+          image: "/images/lessons/grade1/literature/lesson2-teremok.svg",
           description: `## 🏠 Русская народная сказка «Теремок»
 
 **Стоял в поле теремок.** Был он ни низок, ни высок, ни узок, ни широк. Красивый теремок, с окошками, с дверью!
@@ -203,6 +204,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: 🐔 «Курочка Ряба»",
+          image: "/images/lessons/grade1/literature/lesson4-ryaba.svg",
           description: `## 🐔 Русская народная сказка «Курочка Ряба»
 
 **Жили-были дед да баба.** И была у них Курочка Ряба — красивая, пёстрая, умная!
@@ -268,6 +270,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: 🐟 А.С. Пушкин «Сказка о рыбаке и рыбке»",
+          image: "/images/lessons/grade1/literature/lesson5-fisherman.svg",
           description: `## 🐟 Александр Сергеевич Пушкин
 
 **Александр Сергеевич Пушкин** — великий русский поэт. Написал много сказок для детей и взрослых.
@@ -334,6 +337,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: 🪰 К.И. Чуковский «Муха-Цокотуха»",
+          image: "/images/lessons/grade1/literature/lesson6-muha.svg",
           description: `## 🪰 Корней Иванович Чуковский
 
 **Корней Иванович Чуковский** — любимый детский писатель! Его стихи весёлые и легко запоминаются.
@@ -414,6 +418,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: 👨‍⚕️ К.И. Чуковский «Доктор Айболит»",
+          image: "/images/lessons/grade1/literature/lesson7-aibolit.svg",
           description: `## 👨‍⚕️ «Доктор Айболит»
 
 **Добрый доктор Айболит!**
