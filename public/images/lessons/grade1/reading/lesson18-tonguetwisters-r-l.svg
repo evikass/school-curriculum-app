@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec"/>
+      <stop offset="100%" style="stop-color:#f3e5f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <text x="200" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7b1fa2" text-anchor="middle">🦁 Скороговорки Р-Л</text>
+  
+  <!-- Lion for Р sound -->
+  <g transform="translate(30, 70)">
+    <circle cx="50" cy="50" r="35" fill="#ffcc80">
+      <animate attributeName="r" values="35;38;35" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Mane -->
+    <circle cx="50" cy="50" r="40" fill="#ffb74d" opacity="0.5"/>
+    <!-- Face -->
+    <circle cx="40" cy="42" r="5" fill="#333"/>
+    <circle cx="60" cy="42" r="5" fill="#333"/>
+    <ellipse cx="50" cy="55" rx="8" ry="5" fill="#ff8a65"/>
+    <!-- Mouth open for RRR -->
+    <ellipse cx="50" cy="65" rx="12" ry="8" fill="#c62828">
+      <animate attributeName="ry" values="8;10;8" dur="0.3s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="50" y="105" font-family="Arial" font-size="24" fill="#e65100" text-anchor="middle">Р</text>
+    <text x="50" y="125" font-family="Arial" font-size="10" fill="#bf360c" text-anchor="middle">дрожащий</text>
+  </g>
+  
+  <!-- Elephant trunk for Л sound -->
+  <g transform="translate(200, 70)">
+    <circle cx="50" cy="45" r="30" fill="#90a4ae">
+      <animate attributeName="fill" values="#90a4ae;#78909c;#90a4ae" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="38" cy="38" r="5" fill="#333"/>
+    <circle cx="62" cy="38" r="5" fill="#333"/>
+    <!-- Trunk -->
+    <path d="M50,55 Q55,75 45,90 Q35,100 50,95" stroke="#607d8b" stroke-width="8" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M50,55 Q55,75 45,90 Q35,100 50,95;M50,55 Q45,75 55,90 Q65,100 50,95;M50,55 Q55,75 45,90 Q35,100 50,95" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <text x="50" y="125" font-family="Arial" font-size="24" fill="#455a64" text-anchor="middle">Л</text>
+    <text x="50" y="145" font-family="Arial" font-size="10" fill="#37474f" text-anchor="middle">плавный</text>
+  </g>
+  
+  <!-- Examples -->
+  <g font-family="Arial" font-size="10">
+    <rect x="20" y="185" width="360" height="25" fill="#fff" rx="5" opacity="0.9"/>
+    <text x="200" y="202" fill="#6a1b9a" text-anchor="middle">"На дворе — трава, на траве — дрова"</text>
+    
+    <rect x="20" y="215" width="360" height="25" fill="#fff" rx="5" opacity="0.9"/>
+    <text x="200" y="232" fill="#6a1b9a" text-anchor="middle">"Карл у Клары украл кораллы"</text>
+    
+    <rect x="20" y="245" width="360" height="25" fill="#fff" rx="5" opacity="0.9"/>
+    <text x="200" y="262" fill="#6a1b9a" text-anchor="middle">"Мы ели, ели ершей у ели"</text>
+  </g>
+</svg>

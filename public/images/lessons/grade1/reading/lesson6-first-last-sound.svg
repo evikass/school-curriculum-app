@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+      @keyframes highlight { 0%, 100% { fill: #FF6B6B; } 50% { fill: #FFD700; } }
+      .bounce { animation: bounce 1s ease-in-out infinite; }
+      .pulse { animation: pulse 1.5s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  
+  <!-- Title -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#E65100" text-anchor="middle">🔤 Первый и последний звук</text>
+  
+  <!-- Word examples -->
+  <g transform="translate(50, 70)">
+    <!-- Word 1: МАМА -->
+    <rect width="120" height="80" fill="#FFE0B2" rx="10" stroke="#FF9800" stroke-width="2"/>
+    <text x="60" y="35" font-family="Arial" font-size="20" font-weight="bold" fill="#E65100" text-anchor="middle">МАМА</text>
+    <circle cx="25" cy="50" r="18" fill="#FF6B6B" class="bounce">
+      <text x="25" y="55" font-family="Arial" font-size="14" fill="white" text-anchor="middle">М</text>
+    </circle>
+    <circle cx="95" cy="50" r="18" fill="#4CAF50" class="bounce" style="animation-delay: 0.5s">
+      <text x="95" y="55" font-family="Arial" font-size="14" fill="white" text-anchor="middle">А</text>
+    </circle>
+    <text x="60" y="75" font-family="Arial" font-size="9" fill="#BF360C" text-anchor="middle">[М] ... [А]</text>
+  </g>
+  
+  <g transform="translate(190, 70)">
+    <!-- Word 2: ДОМ -->
+    <rect width="120" height="80" fill="#C8E6C9" rx="10" stroke="#4CAF50" stroke-width="2"/>
+    <text x="60" y="35" font-family="Arial" font-size="20" font-weight="bold" fill="#2E7D32" text-anchor="middle">ДОМ</text>
+    <circle cx="25" cy="50" r="18" fill="#FF6B6B" class="bounce">
+      <text x="25" y="55" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Д</text>
+    </circle>
+    <circle cx="95" cy="50" r="18" fill="#4CAF50" class="bounce" style="animation-delay: 0.5s">
+      <text x="95" y="55" font-family="Arial" font-size="14" fill="white" text-anchor="middle">М</text>
+    </circle>
+    <text x="60" y="75" font-family="Arial" font-size="9" fill="#1B5E20" text-anchor="middle">[Д] ... [М]</text>
+  </g>
+  
+  <g transform="translate(330, 70)">
+    <!-- Word 3: ШКОЛА -->
+    <rect width="120" height="80" fill="#BBDEFB" rx="10" stroke="#2196F3" stroke-width="2"/>
+    <text x="60" y="35" font-family="Arial" font-size="18" font-weight="bold" fill="#1565C0" text-anchor="middle">ШКОЛА</text>
+    <circle cx="25" cy="50" r="18" fill="#FF6B6B" class="bounce">
+      <text x="25" y="55" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Ш</text>
+    </circle>
+    <circle cx="95" cy="50" r="18" fill="#4CAF50" class="bounce" style="animation-delay: 0.5s">
+      <text x="95" y="55" font-family="Arial" font-size="14" fill="white" text-anchor="middle">А</text>
+    </circle>
+    <text x="60" y="75" font-family="Arial" font-size="9" fill="#0D47A1" text-anchor="middle">[Ш] ... [А]</text>
+  </g>
+  
+  <!-- Chain game -->
+  <g transform="translate(50, 180)">
+    <rect width="400" height="80" fill="#FCE4EC" rx="15" stroke="#E91E63" stroke-width="2"/>
+    <text x="200" y="25" font-family="Arial" font-size="14" font-weight="bold" fill="#C2185B" text-anchor="middle">🔗 Игра "Цепочка слов"</text>
+    
+    <text x="50" y="55" font-family="Arial" font-size="16" fill="#880E4F" text-anchor="middle">ДОМ</text>
+    <text x="100" y="55" font-family="Arial" font-size="14" fill="#E91E63">→</text>
+    <text x="150" y="55" font-family="Arial" font-size="16" fill="#880E4F" text-anchor="middle">МАК</text>
+    <text x="200" y="55" font-family="Arial" font-size="14" fill="#E91E63">→</text>
+    <text x="250" y="55" font-family="Arial" font-size="16" fill="#880E4F" text-anchor="middle">КОТ</text>
+    <text x="300" y="55" font-family="Arial" font-size="14" fill="#E91E63">→</text>
+    <text x="350" y="55" font-family="Arial" font-size="16" fill="#880E4F" text-anchor="middle">ТОМ</text>
+  </g>
+  
+  <!-- Instructions -->
+  <g transform="translate(50, 280)">
+    <rect width="180" height="50" fill="#FFF" rx="8" stroke="#FF9800" stroke-width="1"/>
+    <text x="90" y="25" font-family="Arial" font-size="11" fill="#E65100" text-anchor="middle">1️⃣ Произнеси слово медленно</text>
+    <text x="90" y="42" font-family="Arial" font-size="11" fill="#E65100" text-anchor="middle">2️⃣ Найди первый и последний</text>
+  </g>
+  
+  <g transform="translate(270, 280)">
+    <rect width="180" height="50" fill="#FFF" rx="8" stroke="#4CAF50" stroke-width="1"/>
+    <text x="90" y="25" font-family="Arial" font-size="11" fill="#2E7D32" text-anchor="middle">🔴 Первый звук</text>
+    <text x="90" y="42" font-family="Arial" font-size="11" fill="#2E7D32" text-anchor="middle">🟢 Последний звук</text>
+  </g>
+</svg>

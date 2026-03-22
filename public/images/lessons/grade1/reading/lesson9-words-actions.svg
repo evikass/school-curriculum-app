@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <style>
+      @keyframes run { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(5px); } }
+      @keyframes jump { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      @keyframes read { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-5deg); } }
+      .run { animation: run 0.5s ease-in-out infinite; }
+      .jump { animation: jump 0.8s ease-in-out infinite; }
+      .read { animation: read 1s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="400" height="300" fill="#E8F5E9"/>
+  
+  <!-- Title -->
+  <text x="200" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2E7D32" text-anchor="middle">🏃 Слова-действия</text>
+  
+  <!-- Action icons -->
+  <g transform="translate(30, 60)">
+    <rect width="100" height="80" fill="#C8E6C9" rx="10" stroke="#4CAF50" stroke-width="2"/>
+    <text x="50" y="45" font-family="Arial" font-size="28" text-anchor="middle" class="run">🏃</text>
+    <text x="50" y="70" font-family="Arial" font-size="12" font-weight="bold" fill="#1B5E20" text-anchor="middle">бежать</text>
+  </g>
+  
+  <g transform="translate(140, 60)">
+    <rect width="100" height="80" fill="#DCEDC8" rx="10" stroke="#8BC34A" stroke-width="2"/>
+    <text x="50" y="45" font-family="Arial" font-size="28" text-anchor="middle" class="jump">⬆️</text>
+    <text x="50" y="70" font-family="Arial" font-size="12" font-weight="bold" fill="#33691E" text-anchor="middle">прыгать</text>
+  </g>
+  
+  <g transform="translate(250, 60)">
+    <rect width="100" height="80" fill="#F0F4C3" rx="10" stroke="#CDDC39" stroke-width="2"/>
+    <text x="50" y="45" font-family="Arial" font-size="28" text-anchor="middle" class="read">📖</text>
+    <text x="50" y="70" font-family="Arial" font-size="12" font-weight="bold" fill="#827717" text-anchor="middle">читать</text>
+  </g>
+  
+  <!-- Question -->
+  <g transform="translate(50, 160)">
+    <rect width="300" height="40" fill="#FFF" rx="10" stroke="#4CAF50" stroke-width="2"/>
+    <text x="150" y="28" font-family="Arial" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">❓ ЧТО ДЕЛАЕТ? ЧТО ДЕЛАЮТ?</text>
+  </g>
+  
+  <!-- Examples -->
+  <g transform="translate(30, 215)">
+    <rect width="160" height="70" fill="#FFF" rx="8" stroke="#66BB6A" stroke-width="1"/>
+    <text x="80" y="20" font-family="Arial" font-size="10" fill="#388E3C" text-anchor="middle">Кошка (что делает?)</text>
+    <text x="80" y="40" font-family="Arial" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">СПИТ 🐱💤</text>
+    <text x="80" y="60" font-family="Arial" font-size="10" fill="#4CAF50" text-anchor="middle">мяукает, ест, играет</text>
+  </g>
+  
+  <g transform="translate(210, 215)">
+    <rect width="160" height="70" fill="#FFF" rx="8" stroke="#66BB6A" stroke-width="1"/>
+    <text x="80" y="20" font-family="Arial" font-size="10" fill="#388E3C" text-anchor="middle">Мальчик (что делает?)</text>
+    <text x="80" y="40" font-family="Arial" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">БЕЖИТ 🏃</text>
+    <text x="80" y="60" font-family="Arial" font-size="10" fill="#4CAF50" text-anchor="middle">читает, пишет, играет</text>
+  </g>
+</svg>
