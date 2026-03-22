@@ -10,6 +10,7 @@ export const lessons: SubjectData = {
       topic: "Устное народное творчество",
       lessons: [
         {
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson1.svg",
           title: "Урок 1: Русские народные сказки",
           description: `**Особенности русских народных сказок**
 
@@ -53,6 +54,7 @@ export const lessons: SubjectData = {
           ]
         },
         {
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson2.svg",
           title: "Урок 2: Сказка «Колобок»",
           description: `**Сказка «Колобок»**
 
@@ -101,6 +103,7 @@ export const lessons: SubjectData = {
           ]
         },
         {
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson3.svg",
           title: "Урок 3: Сказка «Теремок»",
           description: `**Сказка «Теремок»**
 
@@ -142,6 +145,7 @@ export const lessons: SubjectData = {
           ]
         },
         {
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson4.svg",
           title: "Урок 4: Пословицы и поговорки",
           description: `**Пословицы и поговорки**
 
@@ -195,6 +199,7 @@ export const lessons: SubjectData = {
       topic: "Русские писатели",
       lessons: [
         {
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson5.svg",
           title: "Урок 5: А.С. Пушкин",
           description: `**Александр Сергеевич Пушкин**
 
@@ -236,6 +241,7 @@ export const lessons: SubjectData = {
           ]
         },
         {
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson6.svg",
           title: "Урок 6: И.А. Крылов",
           description: `**Иван Андреевич Крылов**
 
@@ -278,6 +284,7 @@ export const lessons: SubjectData = {
           ]
         },
         {
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson7.svg",
           title: "Урок 7: Л.Н. Толстой",
           description: `**Лев Николаевич Толстой**
 
@@ -324,6 +331,7 @@ export const lessons: SubjectData = {
           ]
         },
         {
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson8.svg",
           title: "Урок 8: К.И. Чуковский",
           description: `**Корней Иванович Чуковский**
 
@@ -380,6 +388,7 @@ export const lessons: SubjectData = {
       topic: "Зарубежные сказки",
       lessons: [
         {
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson9.svg",
           title: "Урок 9: Шарль Перро",
           description: `**Шарль Перро**
 
@@ -420,6 +429,7 @@ export const lessons: SubjectData = {
           ]
         },
         {
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson10.svg",
           title: "Урок 10: Ганс Христиан Андерсен",
           description: `**Ганс Христиан Андерсен**
 

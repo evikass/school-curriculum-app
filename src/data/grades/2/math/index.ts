@@ -4,6 +4,7 @@ import { SubjectData, GameLesson } from '@/data/types'
 const createLesson = (
   title: string,
   description: string,
+  image: string,
   tasks: string[],
   theory?: string,
   examples?: string[],
@@ -11,6 +12,7 @@ const createLesson = (
 ) => ({
   title,
   description,
+  image,
   tasks,
   theory,
   examples,
@@ -29,6 +31,7 @@ export const lessons: SubjectData = {
         createLesson(
           "Урок 1: 📊 Образование чисел от 10 до 20",
           "Учимся образовывать числа второго десятка и понимать их состав.",
+          "/school-curriculum-app/images/lessons/grade2/math/lesson1.svg",
           [
             "Образовать числа из десятков и единиц",
             "Назвать числа от 10 до 20",
@@ -81,6 +84,7 @@ export const lessons: SubjectData = {
         createLesson(
           "Урок 2: 🔵 Круглые числа и счёт десятками",
           "Изучаем круглые числа и учимся выполнять действия с ними.",
+          "/school-curriculum-app/images/lessons/grade2/math/lesson2.svg",
           [
             "Посчитать десятками от 10 до 100",
             "Назвать круглые числа",
@@ -133,6 +137,7 @@ export const lessons: SubjectData = {
         createLesson(
           "Урок 3: 📏 Двузначные числа и их разряды",
           "Изучаем разрядный состав двузначных чисел.",
+          "/school-curriculum-app/images/lessons/grade2/math/lesson3.svg",
           [
             "Разложить числа на десятки и единицы",
             "Записать числа по порядку",
@@ -193,6 +198,7 @@ export const lessons: SubjectData = {
         createLesson(
           "Урок 4: ➕ Сложение двузначных чисел",
           "Осваиваем разные способы сложения двузначных чисел.",
+          "/school-curriculum-app/images/lessons/grade2/math/lesson4.svg",
           [
             "Сложить числа поразрядно",
             "Решить примеры в столбик",
@@ -258,6 +264,7 @@ export const lessons: SubjectData = {
         createLesson(
           "Урок 5: ➖ Вычитание двузначных чисел",
           "Осваиваем разные способы вычитания двузначных чисел.",
+          "/school-curriculum-app/images/lessons/grade2/math/lesson5.svg",
           [
             "Вычесть числа поразрядно",
             "Решить примеры в столбик",
@@ -328,6 +335,7 @@ export const lessons: SubjectData = {
         createLesson(
           "Урок 6: ✖️ Что такое умножение?",
           "Знакомимся с понятием умножения как сложения одинаковых чисел.",
+          "/school-curriculum-app/images/lessons/grade2/math/lesson6.svg",
           [
             "Понять смысл умножения",
             "Заменить сложение умножением",
@@ -393,6 +401,7 @@ export const lessons: SubjectData = {
         createLesson(
           "Урок 7: 2️⃣ Таблица умножения на 2",
           "Выучим таблицу умножения на 2 — основу для дальнейшего изучения.",
+          "/school-curriculum-app/images/lessons/grade2/math/lesson7.svg",
           [
             "Выучить таблицу на 2",
             "Решить примеры на умножение на 2",
@@ -452,6 +461,7 @@ export const lessons: SubjectData = {
         createLesson(
           "Урок 8: 3️⃣ Таблица умножения на 3",
           "Выучим таблицу умножения на 3.",
+          "/school-curriculum-app/images/lessons/grade2/math/lesson8.svg",
           [
             "Выучить таблицу на 3",
             "Решить примеры на умножение на 3",
@@ -511,6 +521,7 @@ export const lessons: SubjectData = {
         createLesson(
           "Урок 9: ➗ Что такое деление?",
           "Знакомимся с понятием деления как действия, обратного умножению.",
+          "/school-curriculum-app/images/lessons/grade2/math/lesson9.svg",
           [
             "Понять смысл деления",
             "Связать деление с умножением",
@@ -577,6 +588,7 @@ export const lessons: SubjectData = {
         createLesson(
           "Урок 10: 2️⃣➗ Деление на 2 и на 3",
           "Выучим таблицы деления на 2 и на 3.",
+          "/school-curriculum-app/images/lessons/grade2/math/lesson10.svg",
           [
             "Выучить таблицы деления на 2 и 3",
             "Связать деление с умножением",
@@ -651,6 +663,7 @@ export const lessons: SubjectData = {
         createLesson(
           "Урок 11: 📝 Решение задач",
           "Учимся решать текстовые задачи по шагам.",
+          "/school-curriculum-app/images/lessons/grade2/math/lesson11.svg",
           [
             "Прочитать и понять задачу",
             "Определить действие",
@@ -720,6 +733,7 @@ export const lessons: SubjectData = {
         createLesson(
           "Урок 12: 📐 Периметр фигур",
           "Изучаем понятие периметра и учимся его вычислять.",
+          "/school-curriculum-app/images/lessons/grade2/math/lesson12.svg",
           [
             "Найти периметр квадрата",
             "Найти периметр прямоугольника",

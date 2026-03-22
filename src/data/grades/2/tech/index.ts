@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Свойства бумаги",
+          image: "/school-curriculum-app/images/lessons/grade2/tech/lesson1.svg",
           description: `**Бумага и её свойства**
 
 Бумага — один из самых распространённых материалов для творчества. У бумаги есть разные свойства.
@@ -68,6 +69,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Аппликация «Цветы»",
+          image: "/school-curriculum-app/images/lessons/grade2/tech/lesson2.svg",
           description: `**Аппликация «Цветы»**
 
 Аппликация — это создание изображений из наклеенных кусочков бумаги или ткани.
@@ -130,6 +132,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Оригами «Голубь»",
+          image: "/school-curriculum-app/images/lessons/grade2/tech/lesson3.svg",
           description: `**Оригами**
 
 Оригами — это японское искусство складывания из бумаги. Слово «оригами» означает «сложенная бумага».
@@ -187,6 +190,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Объёмные поделки",
+          image: "/school-curriculum-app/images/lessons/grade2/tech/lesson4.svg",
           description: `**Объёмные поделки из бумаги**
 
 Объёмные поделки — это поделки, которые имеют три измерения: длину, ширину и высоту.
@@ -252,6 +256,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Поделки из шишек",
+          image: "/school-curriculum-app/images/lessons/grade2/tech/lesson5.svg",
           description: `**Поделки из шишек**
 
 Шишки — отличный природный материал для поделок. Их можно собирать в лесу или парке.
@@ -320,6 +325,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Аппликация из листьев",
+          image: "/school-curriculum-app/images/lessons/grade2/tech/lesson6.svg",
           description: `**Аппликация из листьев**
 
 Листья — красивый природный материал для создания картин.

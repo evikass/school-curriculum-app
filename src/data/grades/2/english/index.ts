@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Члены семьи",
+          image: "/school-curriculum-app/images/lessons/grade2/english/lesson1.svg",
           description: `**Семья по-английски**
 
 Семья — это самое важное в жизни каждого человека. Давайте выучим названия членов семьи на английском языке.
@@ -56,6 +57,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Описание семьи",
+          image: "/school-curriculum-app/images/lessons/grade2/english/lesson2.svg",
           description: `**Описание семьи**
 
 Научимся описывать свою семью на английском языке. Мы будем использовать простые предложения и знакомые слова.
@@ -127,6 +129,7 @@ I love my family very much!"
       lessons: [
         {
           title: "Урок 3: Фрукты и овощи",
+          image: "/school-curriculum-app/images/lessons/grade2/english/lesson3.svg",
           description: `**Фрукты и овощи по-английски**
 
 Еда — это важная тема для изучения. Мы выучим названия фруктов и овощей на английском языке.
@@ -193,6 +196,7 @@ I love my family very much!"
         },
         {
           title: "Урок 4: Напитки и еда",
+          image: "/school-curriculum-app/images/lessons/grade2/english/lesson4.svg",
           description: `**Напитки и еда**
 
 Продолжаем изучать тему еды. Выучим названия напитков и основных блюд.
@@ -266,6 +270,7 @@ I love my family very much!"
       lessons: [
         {
           title: "Урок 5: Домашние животные",
+          image: "/school-curriculum-app/images/lessons/grade2/english/lesson5.svg",
           description: `**Домашние животные (Pets)**
 
 Домашние животные — это наши любимцы, которые живут вместе с нами. Выучим их названия на английском языке.
@@ -326,6 +331,7 @@ I love my family very much!"
         },
         {
           title: "Урок 6: Дикие животные",
+          image: "/school-curriculum-app/images/lessons/grade2/english/lesson6.svg",
           description: `**Дикие животные (Wild animals)**
 
 Дикие животные живут в лесах, джунглях, саваннах и других природных местах. Они не живут дома у людей.
@@ -397,6 +403,7 @@ I love my family very much!"
       lessons: [
         {
           title: "Урок 7: Цвета",
+          image: "/school-curriculum-app/images/lessons/grade2/english/lesson7.svg",
           description: `**Цвета (Colours)**
 
 Цвета окружают нас повсюду. Давайте выучим названия цветов на английском языке.
@@ -461,6 +468,7 @@ I love my family very much!"
         },
         {
           title: "Урок 8: Числа 1-20",
+          image: "/school-curriculum-app/images/lessons/grade2/english/lesson8.svg",
           description: `**Числа от 1 до 20 (Numbers)**
 
 Числа нужны нам каждый день — для счёта, времени, денег. Выучим числа от 1 до 20.

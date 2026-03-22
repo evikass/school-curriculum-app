@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Песня, танец, марш",
+          image: "/school-curriculum-app/images/lessons/grade2/music/lesson1.svg",
           description: `**Три кита музыки**
 
 В музыке есть три основных жанра, которые называют «тремя китами»: песня, танец и марш.
@@ -72,6 +73,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Мелодия и ритм",
+          image: "/school-curriculum-app/images/lessons/grade2/music/lesson2.svg",
           description: `**Мелодия и ритм**
 
 Мелодия и ритм — это главные средства музыкальной выразительности.
@@ -123,6 +125,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Темп и динамика",
+          image: "/school-curriculum-app/images/lessons/grade2/music/lesson3.svg",
           description: `**Темп и динамика**
 
 Темп и динамика — это важные средства выразительности в музыке.
@@ -179,6 +182,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Музыкальные инструменты",
+          image: "/school-curriculum-app/images/lessons/grade2/music/lesson4.svg",
           description: `**Музыкальные инструменты**
 
 Музыкальные инструменты — это приспособления для извлечения звуков.
@@ -235,6 +239,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Русские народные песни",
+          image: "/school-curriculum-app/images/lessons/grade2/music/lesson5.svg",
           description: `**Русские народные песни**
 
 Русские народные песни — это песни, созданные народом и передаваемые из поколения в поколение.
@@ -289,6 +294,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Композиторы России",
+          image: "/school-curriculum-app/images/lessons/grade2/music/lesson6.svg",
           description: `**Великие русские композиторы**
 
 Композитор — это человек, который сочиняет музыку.

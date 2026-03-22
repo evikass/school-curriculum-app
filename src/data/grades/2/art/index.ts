@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Что такое живопись?",
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson1.svg",
           description: `**Живопись**
 
 Живопись — это вид изобразительного искусства, в котором художники создают картины с помощью красок.
@@ -51,6 +52,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Пейзаж",
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson2.svg",
           description: `**Пейзаж**
 
 Пейзаж — это картина, на которой изображена природа: леса, поля, горы, реки, море, небо.
@@ -97,6 +99,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Натюрморт",
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson3.svg",
           description: `**Натюрморт**
 
 Натюрморт — это картина, на которой изображены неживые предметы: фрукты, цветы, посуда, книги.
@@ -144,6 +147,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Портрет",
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson4.svg",
           description: `**Портрет**
 
 Портрет — это картина, на которой изображён человек или группа людей.
@@ -196,6 +200,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Дымковская игрушка",
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson5.svg",
           description: `**Дымковская игрушка**
 
 Дымковская игрушка — это народный промысел из слободы Дымково под Кировом.
@@ -249,6 +254,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Хохломская роспись",
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson6.svg",
           description: `**Хохломская роспись**
 
 Хохломская роспись — это народный промысел росписи деревянной посуды. Зародилась в селе Хохлома Нижегородской области.
@@ -296,6 +302,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Гжельская керамика",
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson7.svg",
           description: `**Гжельская керамика**
 
 Гжель — это народный промысел керамики с характерной синей росписью на белом фоне.
@@ -344,6 +351,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Городецкая роспись",
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson8.svg",
           description: `**Городецкая роспись**
 
 Городецкая роспись — это народный промысел росписи деревянных изделий, зародившийся в городе Городец Нижегородской области.

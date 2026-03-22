@@ -1,6 +1,6 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const L = (t: string, d: string, tasks: string[]) => ({ title: t, description: d, tasks })
+const L = (t: string, d: string, tasks: string[], image: string) => ({ title: t, description: d, tasks, image })
 
 export const lessons: SubjectData = {
   title: "Окружающий мир",
@@ -13,6 +13,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Живая и неживая природа",
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson1.svg",
           description: `**Живая и неживая природа**
 
 Окружающий мир состоит из живой и неживой природы. Понимание различий между ними помогает нам лучше понимать мир вокруг.
@@ -56,6 +57,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Явления природы",
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson2.svg",
           description: `**Явления природы**
 
 Явления природы — это изменения, которые происходят в природе. Они могут быть связаны с неживой и живой природой.
@@ -105,6 +107,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Водоёмы",
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson3.svg",
           description: `**Водоёмы**
 
 Водоём — это природное или искусственное хранилище воды. Вода занимает большую часть поверхности нашей планеты.
@@ -152,6 +155,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Полезные ископаемые",
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson4.svg",
           description: `**Полезные ископаемые**
 
 Полезные ископаемые — это минералы и горные породы, которые человек использует в хозяйстве.
@@ -204,6 +208,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Растения и их разнообразие",
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson5.svg",
           description: `**Разнообразие растений**
 
 Растения — это живые организмы, которые могут создавать органические вещества из неорганических с помощью солнечного света.
@@ -255,6 +260,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Животные и их группы",
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson6.svg",
           description: `**Группы животных**
 
 Животные — это живые организмы, которые питаются готовыми органическими веществами. В природе существует огромное разнообразие животных.
@@ -312,6 +318,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Красная книга",
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson7.svg",
           description: `**Красная книга**
 
 Красная книга — это книга, в которую заносят редкие и исчезающие виды животных и растений.
@@ -364,6 +371,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Охрана природы",
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson8.svg",
           description: `**Охрана природы**
 
 Охрана природы — это защита природных ресурсов и сохранение окружающей среды для будущих поколений.
