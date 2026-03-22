@@ -1,9 +1,10 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, description: string, tasks: string[]) => ({
+const createLesson = (title: string, description: string, tasks: string[], image?: string) => ({
   title,
   description,
-  tasks
+  tasks,
+  ...(image && { image })
 })
 
 export const lessons: SubjectData = {
@@ -20,25 +21,25 @@ export const lessons: SubjectData = {
           "Пропеть простые звуки",
           "Спеть простую песенку",
           "Петь вместе с классом"
-        ]),
+        ], "/images/lessons/grade1/music/lesson1-voice-song.svg"),
         createLesson("Урок 2: Детские песни", "Песни для малышей.", [
           "Спеть «Антошку»",
           "Спеть «Кузнечика»",
           "Спеть «Пусть бегут неуклюже»",
           "Выучить слова песни"
-        ]),
+        ], "/images/lessons/grade1/music/lesson2-children-songs.svg"),
         createLesson("Урок 3: Народные песни", "Русские песенки.", [
           "Спеть «Во саду ли, в огороде»",
           "Спеть «Сорока-ворона»",
           "Спеть «Ладушки»",
           "Разучить хороводную песню"
-        ]),
+        ], "/images/lessons/grade1/music/lesson3-folk-songs.svg"),
         createLesson("Урок 4: Праздничные песни", "Песни к праздникам.", [
           "Спеть песню к Новому году",
           "Спеть песню к 8 Марта",
           "Спеть песню к Дню Победы",
           "Выступить на празднике"
-        ])
+        ], "/images/lessons/grade1/music/lesson4-holiday-songs.svg")
       ]
     },
     {
@@ -49,25 +50,25 @@ export const lessons: SubjectData = {
           "Постучать ритм",
           "Поиграть на погремушке",
           "Создать ритмический рисунок"
-        ]),
+        ], "/images/lessons/grade1/music/lesson5-percussion.svg"),
         createLesson("Урок 6: Клавишные инструменты", "Пианино и орган.", [
           "Узнать звук пианино",
           "Найти до, ре, ми",
-          "Сыграить простую мелодию",
+          "Сыграть простую мелодию",
           "Послушать орган"
-        ]),
+        ], "/images/lessons/grade1/music/lesson6-keyboard.svg"),
         createLesson("Урок 7: Струнные инструменты", "Скрипка и гитара.", [
           "Узнать звук скрипки",
           "Узнать звук гитары",
           "Послушать концерт",
           "Попробовать сыграть"
-        ]),
+        ], "/images/lessons/grade1/music/lesson7-strings.svg"),
         createLesson("Урок 8: Духовые инструменты", "Флейта и труба.", [
           "Узнать звук флейты",
           "Узнать звук трубы",
           "Послушать оркестр",
           "Угадать инструмент по звуку"
-        ])
+        ], "/images/lessons/grade1/music/lesson8-wind.svg")
       ]
     },
     {
@@ -78,25 +79,25 @@ export const lessons: SubjectData = {
           "Потопать ритм",
           "Простучать ритм палочками",
           "Создать свой ритм"
-        ]),
+        ], "/images/lessons/grade1/music/lesson9-rhythm.svg"),
         createLesson("Урок 10: Музыка и движение", "Двигаемся под музыку.", [
           "Идти под музыку",
           "Танцевать простые движения",
           "Маршировать",
           "Кружиться под вальс"
-        ]),
+        ], "/images/lessons/grade1/music/lesson10-music-movement.svg"),
         createLesson("Урок 11: Темп", "Быстро и медленно.", [
           "Узнать быстрый темп",
           "Узнать медленный темп",
           "Двигаться быстро под музыку",
           "Двигаться медленно под музыку"
-        ]),
+        ], "/images/lessons/grade1/music/lesson11-tempo.svg"),
         createLesson("Урок 12: Громкость", "Тихо и громко.", [
           "Пропеть тихо",
           "Пропеть громко",
           "Играть тихо на инструменте",
           "Играть громко на инструменте"
-        ])
+        ], "/images/lessons/grade1/music/lesson12-volume.svg")
       ]
     }
   ]

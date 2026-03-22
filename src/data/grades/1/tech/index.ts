@@ -68,7 +68,7 @@ export const lessons: SubjectData = {
           "Вырезать крону",
           "Вырезать листья",
           "Собрать дерево"
-        ])
+        ], "/images/lessons/grade1/tech/lesson8-tree.svg")
       ]
     },
     {
@@ -79,25 +79,25 @@ export const lessons: SubjectData = {
           "Вырезать украшения",
           "Наклеить детали",
           "Написать пожелание"
-        ]),
+        ], "/images/lessons/grade1/tech/lesson9-card.svg"),
         createLesson("Урок 10: Гирлянда", "Украшение для праздника. Флажки и фигурки на нитке.", [
           "Вырезать флажки",
           "Вырезать фигуры",
           "Нанизать на нитку",
           "Развесить гирлянду"
-        ]),
+        ], "/images/lessons/grade1/tech/lesson10-garland.svg"),
         createLesson("Урок 11: Закладка", "Для книг. Красивая закладка с узором.", [
           "Вырезать закладку",
           "Украсить рисунком",
           "Сделать красивый край",
           "Использовать в книге"
-        ]),
+        ], "/images/lessons/grade1/tech/lesson11-bookmark.svg"),
         createLesson("Урок 12: Мобиле", "Подвесная поделка из бумаги.", [
           "Вырезать фигуры",
           "Прикрепить нити",
           "Собрать конструкцию",
           "Подвесить мобиле"
-        ])
+        ], "/images/lessons/grade1/tech/lesson12-mobile.svg")
       ]
     }
   ]

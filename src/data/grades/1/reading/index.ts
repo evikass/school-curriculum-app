@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Упражнения для языка",
+          image: "/images/lessons/grade1/reading/lesson1-tongue-exercises.svg",
           description: `**Артикуляционная гимнастика для языка**
 
 Язык — главный помощник речи! Чтобы говорить чётко и красиво, нужно тренировать язык каждый день.
@@ -38,6 +39,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Упражнения для губ",
+          image: "/images/lessons/grade1/reading/lesson2-lip-exercises.svg",
           description: `**Артикуляционная гимнастика для губ**
 
 Губы помогают нам произносить звуки О, У, И, Ы. Тренируем губы!
@@ -65,6 +67,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Упражнения для щёк",
+          image: "/images/lessons/grade1/reading/lesson3-cheek-exercises.svg",
           description: `**Артикуляционная гимнастика для щёк**
 
 Щёки помогают нам дуть, свистеть и говорить!
@@ -97,6 +100,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 4: Гласные звуки",
+          image: "/images/lessons/grade1/reading/lesson4-vowels.svg",
           description: `**Гласные звуки: А, О, У, И, Ы, Э**
 
 Гласные звуки — это звуки, которые можно пропеть голосом. Воздух свободно выходит изо рта.
@@ -130,6 +134,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 5: Согласные звуки",
+          image: "/images/lessons/grade1/reading/lesson5-consonants.svg",
           description: `**Согласные звуки**
 
 Согласные звуки — это звуки, которые нельзя пропеть. Воздух встречает преграду: губы, зубы или язык.
@@ -168,6 +173,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Первый и последний звук",
+          image: "/images/lessons/grade1/reading/lesson6-first-last-sound.svg",
           description: `**Первый и последний звук в слове**
 
 Каждое слово начинается с одного звука и заканчивается другим. Научимся их находить!
@@ -211,6 +217,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Сколько звуков в слове?",
+          image: "/images/lessons/grade1/reading/lesson7-sound-count.svg",
           description: `**Считаем звуки в слове**
 
 Каждое слово состоит из звуков. Научимся их считать!
@@ -256,6 +263,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 8: Слова-предметы",
+          image: "/images/lessons/grade1/reading/lesson8-words-objects.svg",
           description: `**Слова-предметы (существительные)**
 
 Слова-предметы — это слова, которые называют всё, что нас окружает!
@@ -297,6 +305,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 9: Слова-действия",
+          image: "/images/lessons/grade1/reading/lesson9-words-actions.svg",
           description: `**Слова-действия (глаголы)**
 
 Слова-действия — это слова, которые называют то, что делают предметы!
@@ -340,6 +349,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 10: Слова-признаки",
+          image: "/images/lessons/grade1/reading/lesson10-words-attributes.svg",
           description: `**Слова-признаки (прилагательные)**
 
 Слова-признаки — это слова, которые описывают предметы! Они делают нашу речь красивой.
@@ -382,6 +392,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 11: Слова-помощники",
+          image: "/images/lessons/grade1/reading/lesson11-helper-words.svg",
           description: `**Слова-помощники (предлоги)**
 
 Слова-помощники — это маленькие слова, которые связывают слова в предложении!
@@ -429,6 +440,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 12: Что такое рассказ?",
+          image: "/images/lessons/grade1/reading/lesson12-story-structure.svg",
           description: `**Что такое рассказ?**
 
 Рассказ — это история, которую мы рассказываем или пишем. У каждого рассказа есть начало, середина и конец.
@@ -469,6 +481,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 13: Составляем рассказ по картинке",
+          image: "/images/lessons/grade1/reading/lesson13-story-from-picture.svg",
           description: `**Составляем рассказ по картинке**
 
 Картинка может подсказать целую историю! Научимся «читать» картинки.
@@ -511,6 +524,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 14: Рассказ из личного опыта",
+          image: "/images/lessons/grade1/reading/lesson14-personal-story.svg",
           description: `**Рассказ из личного опыта**
 
 Самые интересные рассказы — это истории из твоей жизни! О том, что случилось с тобой.
@@ -553,6 +567,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 15: Придумываем сказку",
+          image: "/images/lessons/grade1/reading/lesson15-fairy-tale.svg",
           description: `**Придумываем сказку**
 
 Сказка — это волшебная история. В сказке может случиться всё, что ты придумаешь!
@@ -603,6 +618,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 16: Скороговорки для звуков С и З",
+          image: "/images/lessons/grade1/reading/lesson16-tonguetwisters-s-z.svg",
           description: `**Скороговорки для звуков [С] и [З]**
 
 Скороговорки — это короткие фразы, которые трудно быстро произнести. Они тренируют речь!
@@ -642,6 +658,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 17: Скороговорки для звуков Ш и Ж",
+          image: "/images/lessons/grade1/reading/lesson17-tonguetwisters-sh-zh.svg",
           description: `**Скороговорки для звуков [Ш] и [Ж]**
 
 Эти звуки называются шипящими. Они делают речь «шуршащей»!
@@ -683,6 +700,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 18: Скороговорки для звуков Р и Л",
+          image: "/images/lessons/grade1/reading/lesson18-tonguetwisters-r-l.svg",
           description: `**Скороговорки для звуков [Р] и [Л]**
 
 Звуки [Р] и [Л] самые трудные для произношения. Тренируем их!
@@ -724,6 +742,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 19: Учим стихи",
+          image: "/images/lessons/grade1/reading/lesson19-learn-poems.svg",
           description: `**Учимся запоминать стихи**
 
 Стихи — это слова, написанные ритмом и рифмой. Их легко запоминать!
@@ -773,6 +792,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 20: Читаем стихи выразительно",
+          image: "/images/lessons/grade1/reading/lesson20-expressive-reading.svg",
           description: `**Читаем стихи выразительно**
 
 Выразительное чтение — это когда стихи звучат как музыка!

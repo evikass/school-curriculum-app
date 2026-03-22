@@ -1,7 +1,8 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, description: string, tasks: string[]) => ({
-  title, description, tasks
+const createLesson = (title: string, description: string, tasks: string[], image?: string) => ({
+  title, description, tasks,
+  ...(image && { image })
 })
 
 export const lessons: SubjectData = {
@@ -18,19 +19,19 @@ export const lessons: SubjectData = {
           "Ответить на приветствие",
           "Познакомиться",
           "Разыграть диалог"
-        ]),
+        ], "/images/lessons/grade1/english/lesson1-hello.svg"),
         createLesson("Урок 2: What is your name?", "Умение представиться.", [
           "Спросить имя",
           "Ответить: My name is...",
           "Разыграть диалог",
           "Написать имя"
-        ]),
+        ], "/images/lessons/grade1/english/lesson2-name.svg"),
         createLesson("Урок 3: Goodbye!", "Прощание.", [
           "Научиться Goodbye!",
           "Ответить",
           "Выучить песенку",
           "Разыграть диалог"
-        ])
+        ], "/images/lessons/grade1/english/lesson3-goodbye.svg")
       ]
     },
     {
@@ -41,19 +42,19 @@ export const lessons: SubjectData = {
           "Показать предметы",
           "Назвать цвет",
           "Раскрасить картинку"
-        ]),
+        ], "/images/lessons/grade1/english/lesson4-colours.svg"),
         createLesson("Урок 5: Numbers 1-5", "Счёт от 1 до 5.", [
           "Выучить: one, two, three...",
           "Посчитать предметы",
           "Показать пальцы",
           "Написать словами"
-        ]),
+        ], "/images/lessons/grade1/english/lesson5-numbers-1-5.svg"),
         createLesson("Урок 6: Numbers 6-10", "Счёт от 6 до 10.", [
           "Выучить: six, seven...",
           "Посчитать до 10",
           "Назвать число",
           "Решить примеры"
-        ])
+        ], "/images/lessons/grade1/english/lesson6-numbers-6-10.svg")
       ]
     }
   ]
@@ -76,8 +77,8 @@ export const games: GameLesson[] = [
       {
         type: 'match',
         question: "Соедини: Hello - это...",
-        options: ["Привет", "Пока", "Спасибо"],
-        correctAnswer: "Привет",
+        options: ["Hello"],
+        correctAnswer: ["Привет"],
         hint: "Hello = Привет"
       },
       {
