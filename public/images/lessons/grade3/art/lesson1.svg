@@ -1,97 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="artBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FCE4EC;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#F8BBD9;stop-opacity:0.6" />
+    <linearGradient id="art1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color="#F8BBD9;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color="#F48FB1;stop-opacity:0.4"/>
     </linearGradient>
   </defs>
   
   <!-- Background -->
-  <rect width="500" height="350" fill="url(#artBg)"/>
+  <rect width="500" height="350" fill="url(#art1)"/>
+  <rect width="500" height="350" fill="#FFF8E1" opacity="0.4"/>
   
   <!-- Sun -->
-  <circle cx="450" cy="50" r="24" fill="#FFD700" opacity="0.85">
-    <animate attributeName="r" values="24;28;24" dur="3s" repeatCount="indefinite"/>
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
   </circle>
   
-  <!-- Clouds -->
-  <g opacity="0.75">
-    <ellipse cx="110" cy="45" rx="28" ry="16" fill="white"/>
-    <ellipse cx="135" cy="40" rx="22" ry="13" fill="white"/>
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#AD1457" text-anchor="middle">🎨 Жанры живописи</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#E91E63" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#F48FB1" opacity="0.4"/>
+  
+  <!-- Art genres -->
+  <g transform="translate(30, 70)" font-family="Arial, sans-serif">
+    <!-- Portrait -->
+    <rect x="0" y="0" width="130" height="110" fill="#FCE4EC" rx="8" stroke="#E91E63"/>
+    <text x="65" y="18" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">Портрет</text>
+    <circle cx="65" cy="55" r="25" fill="#FFCCBC"/>
+    <circle cx="55" cy="50" r="3" fill="#333"/>
+    <circle cx="75" cy="50" r="3" fill="#333"/>
+    <ellipse cx="65" cy="62" rx="8" ry="3" fill="#E91E63"/>
+    <text x="65" y="100" font-size="8" fill="#C2185B" text-anchor="middle">изображение человека</text>
+    
+    <!-- Landscape -->
+    <rect x="150" y="0" width="130" height="110" fill="#C8E6C9" rx="8" stroke="#4CAF50"/>
+    <text x="215" y="18" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Пейзаж</text>
+    <rect x="165" y="30" width="100" height="50" fill="#87CEEB"/>
+    <polygon points="175,80 200,50 225,80" fill="#4CAF50"/>
+    <polygon points="215,80 240,45 265,80" fill="#388E3C"/>
+    <ellipse cx="215" cy="85" rx="50" ry="15" fill="#8BC34A"/>
+    <text x="215" y="100" font-size="8" fill="#2E7D32" text-anchor="middle">изображение природы</text>
+    
+    <!-- Still life -->
+    <rect x="300" y="0" width="130" height="110" fill="#FFECB3" rx="8" stroke="#FF9800"/>
+    <text x="365" y="18" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">Натюрморт</text>
+    <ellipse cx="345" cy="70" rx="15" ry="12" fill="#E91E63"/>
+    <ellipse cx="380" cy="68" rx="12" ry="15" fill="#FF9800"/>
+    <rect x="320" y="75" width="90" height="20" fill="#8D6E63" rx="2"/>
+    <text x="365" y="100" font-size="8" fill="#F57C00" text-anchor="middle">предметы, фрукты</text>
   </g>
   
-  <!-- Trees -->
-  <g opacity="0.25">
-    <ellipse cx="35" cy="280" rx="22" ry="35" fill="#228B22"/>
-    <rect x="30" y="280" width="10" height="20" fill="#5D4037"/>
+  <!-- Info -->
+  <g transform="translate(50, 200)">
+    <rect x="0" y="0" width="400" height="100" fill="#F3E5F5" rx="8" stroke="#9C27B0"/>
+    <text x="200" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Жанр — это вид произведения искусства</text>
+    <text x="200" y="40" font-family="Arial, sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle">Каждый художник выбирает свой жанр</text>
+    <text x="200" y="60" font-family="Arial, sans-serif" font-size="9" fill="#8E24AA" text-anchor="middle">Портретисты: В.А. Серов, И.Е. Репин</text>
+    <text x="200" y="75" font-family="Arial, sans-serif" font-size="9" fill="#8E24AA" text-anchor="middle">Пейзажисты: И.И. Левитан, И.И. Шишкин</text>
+    <text x="200" y="90" font-family="Arial, sans-serif" font-size="9" fill="#9C27B0" text-anchor="middle">Попробуй нарисовать в каждом жанре!</text>
   </g>
   
   <!-- Flowers -->
-  <g opacity="0.5">
-    <circle cx="40" cy="325" r="5" fill="#E91E63"/>
-    <circle cx="47" cy="320" r="4" fill="#F48FB1"/>
-  </g>
-  <g opacity="0.45">
-    <circle cx="465" cy="325" r="5" fill="#9C27B0"/>
-    <circle cx="458" cy="320" r="4" fill="#BA68C8"/>
-  </g>
-  
-  <!-- Title -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#C2185B" text-anchor="middle">🎨 Жанры живописи</text>
-  <rect x="100" y="45" width="300" height="3" rx="2" fill="#C2185B" opacity="0.5"/>
-  
-  <!-- Main Content -->
-  <rect x="30" y="60" width="440" height="255" rx="15" fill="white" opacity="0.92" stroke="#E91E63" stroke-width="2"/>
-  
-  <!-- Genres -->
-  <text x="250" y="85" font-size="11" font-weight="bold" fill="#C2185B" text-anchor="middle">Виды живописи / Types of painting</text>
-  
-  <g transform="translate(50, 95)">
-    <!-- Portrait -->
-    <rect x="0" y="0" width="130" height="75" rx="8" fill="#FCE4EC" stroke="#E91E63"/>
-    <text x="65" y="18" font-size="9" font-weight="bold" fill="#C2185B" text-anchor="middle">👤 Портрет</text>
-    <text x="65" y="45" font-size="28" text-anchor="middle">🖼️</text>
-    <text x="65" y="68" font-size="8" fill="#333" text-anchor="middle">Изображение человека</text>
-    
-    <!-- Landscape -->
-    <rect x="145" y="0" width="130" height="75" rx="8" fill="#E8F5E9" stroke="#4CAF50"/>
-    <text x="210" y="18" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">🌄 Пейзаж</text>
-    <text x="210" y="45" font-size="28" text-anchor="middle">🏞️</text>
-    <text x="210" y="68" font-size="8" fill="#333" text-anchor="middle">Природа, виды</text>
-    
-    <!-- Still life -->
-    <rect x="290" y="0" width="130" height="75" rx="8" fill="#FFF3E0" stroke="#FF9800"/>
-    <text x="355" y="18" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">🍎 Натюрморт</text>
-    <text x="355" y="45" font-size="28" text-anchor="middle">🍇</text>
-    <text x="355" y="68" font-size="8" fill="#333" text-anchor="middle">Предметы, фрукты</text>
-  </g>
-  
-  <!-- More genres -->
-  <g transform="translate(110, 180)">
-    <!-- Animal painting -->
-    <rect x="0" y="0" width="130" height="60" rx="8" fill="#E3F2FD" stroke="#2196F3"/>
-    <text x="65" y="18" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">🦁 Анималистика</text>
-    <text x="65" y="42" font-size="22" text-anchor="middle">🦁</text>
-    
-    <!-- Historical -->
-    <rect x="150" y="0" width="130" height="60" rx="8" fill="#F3E5F5" stroke="#9C27B0"/>
-    <text x="215" y="18" font-size="9" font-weight="bold" fill="#7B1FA2" text-anchor="middle">🏰 Исторический</text>
-    <text x="215" y="42" font-size="22" text-anchor="middle">🏛️</text>
-  </g>
-  
-  <!-- Tools -->
-  <rect x="50" y="250" width="400" height="55" rx="10" fill="#FCE4EC" stroke="#E91E63"/>
-  <text x="250" y="270" font-size="11" font-weight="bold" fill="#C2185B" text-anchor="middle">🎨 Материалы художника</text>
-  <text x="120" y="290" font-size="9" fill="#333">🖌️ кисти</text>
-  <text x="190" y="290" font-size="9" fill="#333">🎨 краски</text>
-  <text x="260" y="290" font-size="9" fill="#333">📄 бумага</text>
-  <text x="330" y="290" font-size="9" fill="#333">✏️ карандаши</text>
-  
-  <!-- Palette -->
-  <g transform="translate(55, 275)" opacity="0.6">
-    <ellipse cx="15" cy="15" rx="15" ry="12" fill="#E91E63"/>
-    <circle cx="8" cy="10" r="3" fill="#FFEB3B"/>
-    <circle cx="15" cy="8" r="3" fill="#2196F3"/>
-    <circle cx="22" cy="12" r="3" fill="#4CAF50"/>
-  </g>
+  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
+  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
 </svg>

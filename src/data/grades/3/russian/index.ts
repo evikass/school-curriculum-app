@@ -18,7 +18,7 @@ export const lessons: SubjectData = {
           "Найти корень в словах: лес, лесник, лесной",
           "Подобрать родственные слова",
           "Выделить корень карандашом"
-        ], "/school-curriculum-app/images/lessons/russian/word-structure.png",
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson1.svg",
         `## 🌳 Корень слова
 
 **Корень** — это главная часть слова, в которой заключён общий смысл всех родственных слов.
@@ -63,7 +63,7 @@ export const lessons: SubjectData = {
           "Образовать новые слова: писать → написать, переписать",
           "Выделить приставку в словах",
           "Составить слова с приставками"
-        ], "/school-curriculum-app/images/lessons/russian/word-structure.png",
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson2.svg",
         `## ➡️ Приставка
 
 **Приставка** — это часть слова, которая стоит ПЕРЕД корнём и служит для образования новых слов.
@@ -103,7 +103,7 @@ export const lessons: SubjectData = {
           "Образовать слова: дом → домик, домишко",
           "Найти суффиксы в словах",
           "Придумать слова с суффиксами"
-        ], "/school-curriculum-app/images/lessons/russian/word-structure.png",
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson3.svg",
         `## ⬅️ Суффикс
 
 **Суффикс** — это часть слова, которая стоит ПОСЛЕ корня и служит для образования новых слов.
@@ -146,7 +146,7 @@ export const lessons: SubjectData = {
           "Изменить слово по вопросам",
           "Найти нулевое окончание",
           "Определить роль окончания"
-        ], "/school-curriculum-app/images/lessons/russian/word-structure.png",
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson4.svg",
         `## 🔚 Окончание
 
 **Окончание** — это изменяемая часть слова, которая служит для связи слов в предложении.
@@ -197,7 +197,7 @@ export const lessons: SubjectData = {
           "Разобрать слова: подснежник, берёзка",
           "Составить схему слова",
           "Найти слова с таким же составом"
-        ], "/school-curriculum-app/images/lessons/russian/word-structure.png",
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson5.svg",
         `## 🔍 Разбор слова по составу
 
 **Разбор слова по составу** — это анализ всех морфем (частей) слова.
@@ -246,7 +246,7 @@ export const lessons: SubjectData = {
           "Выучить падежные вопросы",
           "Определить падеж слов",
           "Составить таблицу падежей"
-        ], "/school-curriculum-app/images/lessons/russian/cases.png",
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson6.svg",
         `## 📋 Падежи существительных
 
 В русском языке **6 падежей**. Падеж показывает, какую роль слово играет в предложении.
@@ -285,7 +285,7 @@ export const lessons: SubjectData = {
           "Определить слова в И.п.",
           "Найти подлежащее",
           "Составить предложения"
-        ], "/school-curriculum-app/images/lessons/russian/cases.png",
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson7.svg",
         `## 📝 Именительный падеж
 
 **Именительный падеж** — это начальная форма существительного. Он отвечает на вопросы **кто? что?**
@@ -327,7 +327,7 @@ export const lessons: SubjectData = {
           "Определить слова в Р.п.",
           "Употребить с предлогами",
           "Составить словосочетания"
-        ], "/school-curriculum-app/images/lessons/russian/cases.png",
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson8.svg",
         `## 🚫 Родительный падеж
 
 **Родительный падеж** отвечает на вопросы **кого? чего?** и часто обозначает отсутствие предмета или принадлежность.
@@ -366,7 +366,7 @@ export const lessons: SubjectData = {
           "Определить слова в Д.п.",
           "Употребить с предлогами",
           "Составить словосочетания"
-        ], "/school-curriculum-app/images/lessons/russian/cases.png",
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson9.svg",
         `## 🎁 Дательный падеж
 
 **Дательный падеж** отвечает на вопросы **кому? чему?** и обозначает адресата действия.
@@ -406,7 +406,7 @@ export const lessons: SubjectData = {
           "Отличить от И.п. и Р.п.",
           "Определить слова в В.п.",
           "Найти дополнение"
-        ], "/school-curriculum-app/images/lessons/russian/cases.png",
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson10.svg",
         `## 👁️ Винительный падеж
 
 **Винительный падеж** отвечает на вопросы **кого? что?** и обозначает объект действия.
@@ -448,7 +448,7 @@ export const lessons: SubjectData = {
           "Определить слова в Т.п.",
           "Употребить с предлогами",
           "Составить предложения"
-        ], "/school-curriculum-app/images/lessons/russian/cases.png",
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson11.svg",
         `## 🛠️ Творительный падеж
 
 **Творительный падеж** отвечает на вопросы **кем? чем?** и обозначает орудие действия или совместность.
@@ -492,7 +492,7 @@ export const lessons: SubjectData = {
           "Определить слова в П.п.",
           "Только с предлогами!",
           "Составить предложения"
-        ], "/school-curriculum-app/images/lessons/russian/cases.png",
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson12.svg",
         `## 💭 Предложный падеж
 
 **Предложный падеж** отвечает на вопросы **о ком? о чём?** и употребляется ТОЛЬКО с предлогами!
@@ -540,7 +540,7 @@ export const lessons: SubjectData = {
           "Женский род: красивая",
           "Средний род: красивое",
           "Определить род прилагательных"
-        ], undefined,
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson13.svg",
         `## 👤 Род имён прилагательных
 
 **Имя прилагательное** изменяется по родам. Род прилагательного определяется по существительному, с которым оно связано.
@@ -582,7 +582,7 @@ export const lessons: SubjectData = {
           "Изменить по числам",
           "Определить число",
           "Связать с существительным"
-        ], undefined,
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson14.svg",
         `## 🔢 Число имён прилагательных
 
 Прилагательные изменяются по числам: **единственное** и **множественное**.
@@ -626,7 +626,7 @@ export const lessons: SubjectData = {
           "Падежные окончания",
           "Определить падеж",
           "Правильно писать окончания"
-        ], undefined,
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson15.svg",
         `## 📐 Склонение прилагательных
 
 Прилагательные изменяются по падежам. Это называется **склонением**.
@@ -673,7 +673,7 @@ export const lessons: SubjectData = {
           "Настоящее: читает",
           "Будущее: будет читать",
           "Определить время глаголов"
-        ], undefined,
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson16.svg",
         `## ⏰ Время глагола
 
 Глаголы изменяются по временам. В русском языке **три времени**: прошедшее, настоящее и будущее.
@@ -719,7 +719,7 @@ export const lessons: SubjectData = {
           "Изменить глагол по числам",
           "Определить форму",
           "Составить предложения"
-        ], undefined,
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson17.svg",
         `## 👥 Изменение глаголов по числам
 
 Глаголы изменяются по числам: **единственное** и **множественное**.
@@ -765,7 +765,7 @@ export const lessons: SubjectData = {
           "Написать правильно",
           "Найти ошибки",
           "Объяснить написание"
-        ], undefined,
+        ], "/school-curriculum-app/images/lessons/grade3/russian/lesson18.svg",
         `## ❌ НЕ с глаголами
 
 **НЕ с глаголами пишется РАЗДЕЛЬНО!** Это одно из самых важных правил русского языка.

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="lit11" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color="#F8BBD9;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color="#F48FB1;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#lit11)"/>
+  <rect width="500" height="350" fill="#FFF8E1" opacity="0.4"/>
+  
+  <!-- Sun -->
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#AD1457" text-anchor="middle">👑 Братья Гримм</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#E91E63" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#F48FB1" opacity="0.4"/>
+  
+  <!-- Snow White scene -->
+  <g transform="translate(50, 80)">
+    <!-- Castle -->
+    <rect x="50" y="50" width="80" height="80" fill="#CE93D8" stroke="#7B1FA2" stroke-width="2"/>
+    <polygon points="50,50 90,10 130,50" fill="#AB47BC"/>
+    <rect x="60" y="60" width="20" height="20" fill="#E1BEE7"/>
+    <rect x="100" y="60" width="20" height="20" fill="#E1BEE7"/>
+    
+    <!-- Mirror -->
+    <ellipse cx="250" cy="80" rx="40" ry="60" fill="#B3E5FC" stroke="#0288D1" stroke-width="3"/>
+    <text x="250" y="85" font-family="Arial, sans-serif" font-size="9" fill="#01579B" text-anchor="middle">волшебное</text>
+    <text x="250" y="97" font-family="Arial, sans-serif" font-size="9" fill="#01579B" text-anchor="middle">зеркало</text>
+    
+    <!-- Dwarfs house -->
+    <rect x="320" y="60" width="100" height="70" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+    <polygon points="320,60 370,20 420,60" fill="#A1887F"/>
+    <circle cx="370" cy="50" r="15" fill="#5D4037"/>
+    <rect x="350" y="90" width="40" height="30" fill="#4E342E"/>
+  </g>
+  
+  <!-- Info -->
+  <g transform="translate(50, 210)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="400" height="90" fill="#FCE4EC" rx="8" stroke="#E91E63"/>
+    <text x="200" y="20" font-size="11" font-weight="bold" fill="#880E4F" text-anchor="middle">Немецкие сказочники</text>
+    <text x="200" y="38" font-size="10" fill="#AD1457" text-anchor="middle">«Белоснежка и семь гномов» • «Золушка»</text>
+    <text x="200" y="53" font-size="10" fill="#C2185B" text-anchor="middle">«Красная Шапочка» • «Бременские музыканты»</text>
+    <text x="200" y="73" font-size="9" fill="#D81B60" text-anchor="middle">Учат: добро побеждает зло, зависть наказывается</text>
+  </g>
+  
+  <!-- Flowers -->
+  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
+  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+</svg>
