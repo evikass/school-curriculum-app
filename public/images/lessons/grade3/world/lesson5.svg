@@ -1,57 +1,112 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="lit5" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#E1BEE7;stop-opacity:0.5"/>
-      <stop offset="100%" style="stop-color:#CE93D8;stop-opacity:0.3"/>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD"/>
+      <stop offset="100%" style="stop-color:#BBDEFB"/>
+    </linearGradient>
+    <linearGradient id="body5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFCCBC"/>
+      <stop offset="100%" style="stop-color:#FFAB91"/>
     </linearGradient>
   </defs>
-  
+
   <!-- Background -->
-  <rect width="500" height="350" fill="url(#lit5)"/>
-  <rect width="500" height="350" fill="#FFF8E1" opacity="0.4"/>
-  
-  <!-- Sun -->
-  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
-    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  
+  <rect width="500" height="350" fill="url(#bg5)"/>
+
   <!-- Title -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#6A1B9A" text-anchor="middle">✒️ А.С. Пушкин</text>
-  <rect x="80" y="42" width="340" height="2" rx="1" fill="#9C27B0" opacity="0.5"/>
-  
-  <!-- Ground -->
-  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#CE93D8" opacity="0.4"/>
-  
-  <!-- Portrait area -->
-  <g transform="translate(50, 80)">
-    <rect x="0" y="0" width="150" height="150" fill="#F3E5F5" rx="10" stroke="#9C27B0"/>
-    <circle cx="75" cy="50" r="30" fill="#FFCCBC"/>
-    <ellipse cx="75" cy="90" rx="25" ry="20" fill="#37474F"/>
-    <rect x="50" y="110" width="50" height="35" fill="#5D4037" rx="3"/>
-    <text x="75" y="165" font-family="Arial, sans-serif" font-size="10" fill="#6A1B9A" text-anchor="middle">1799-1837</text>
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1565C0" text-anchor="middle">🧍 Строение тела человека</text>
+  <rect x="100" y="38" width="300" height="2" rx="1" fill="#1976D2" opacity="0.5"/>
+
+  <!-- Human body outline -->
+  <g transform="translate(200, 50)">
+    <!-- Head -->
+    <ellipse cx="50" cy="35" rx="28" ry="32" fill="url(#body5)" stroke="#E64A19" stroke-width="2">
+      <animate attributeName="stroke-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <!-- Eyes -->
+    <ellipse cx="40" cy="30" rx="5" ry="4" fill="#FFFFFF"/>
+    <ellipse cx="60" cy="30" rx="5" ry="4" fill="#FFFFFF"/>
+    <circle cx="40" cy="30" r="2" fill="#4E342E">
+      <animate attributeName="cy" values="30;28;30" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="30" r="2" fill="#4E342E">
+      <animate attributeName="cy" values="30;28;30" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Nose -->
+    <path d="M50,35 L50,45 L46,48" stroke="#D84315" stroke-width="1.5" fill="none"/>
+    
+    <!-- Mouth -->
+    <path d="M42,55 Q50,60 58,55" stroke="#E64A19" stroke-width="1.5" fill="none"/>
+    
+    <!-- Neck -->
+    <rect x="42" y="65" width="16" height="20" fill="url(#body5)"/>
+    
+    <!-- Torso -->
+    <path d="M25,85 L75,85 L80,180 L20,180 Z" fill="url(#body5)" stroke="#E64A19" stroke-width="2"/>
+    
+    <!-- Arms -->
+    <path d="M25,90 L5,95 L0,140 L5,145 L20,140 L25,100" fill="url(#body5)" stroke="#E64A19" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" values="0 25 90;-5 25 90;0 25 90;5 25 90;0 25 90" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M75,90 L95,95 L100,140 L95,145 L80,140 L75,100" fill="url(#body5)" stroke="#E64A19" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" values="0 75 90;5 75 90;0 75 90;-5 75 90;0 75 90" dur="3s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Legs -->
+    <path d="M30,180 L25,260 L35,265 L40,185" fill="url(#body5)" stroke="#E64A19" stroke-width="2"/>
+    <path d="M70,180 L75,260 L65,265 L60,185" fill="url(#body5)" stroke="#E64A19" stroke-width="2"/>
+    
+    <!-- Feet -->
+    <ellipse cx="30" cy="268" rx="12" ry="6" fill="url(#body5)" stroke="#E64A19" stroke-width="2"/>
+    <ellipse cx="70" cy="268" rx="12" ry="6" fill="url(#body5)" stroke="#E64A19" stroke-width="2"/>
   </g>
-  
-  <!-- Info -->
-  <g transform="translate(220, 80)" font-family="Arial, sans-serif">
-    <rect x="0" y="0" width="220" height="150" fill="#EDE7F6" rx="10" stroke="#7B1FA2"/>
-    <text x="110" y="25" font-size="12" font-weight="bold" fill="#4A148C" text-anchor="middle">Великий русский поэт</text>
-    <text x="110" y="50" font-size="10" fill="#6A1B9A" text-anchor="middle">«Солнце русской поэзии»</text>
-    <text x="110" y="75" font-size="9" fill="#7B1FA2" text-anchor="middle">Сказки:</text>
-    <text x="110" y="95" font-size="9" fill="#8E24AA" text-anchor="middle">• Сказка о рыбаке и рыбке</text>
-    <text x="110" y="110" font-size="9" fill="#8E24AA" text-anchor="middle">• Сказка о золотом петушке</text>
-    <text x="110" y="125" font-size="9" fill="#8E24AA" text-anchor="middle">• Сказка о царе Салтане</text>
-    <text x="110" y="140" font-size="9" fill="#8E24AA" text-anchor="middle">• Руслан и Людмила</text>
+
+  <!-- Body parts labels with arrows -->
+  <g font-family="Arial, sans-serif" font-size="11">
+    <!-- Head label -->
+    <line x1="290" y1="85" x2="320" y2="70" stroke="#1565C0" stroke-width="1.5"/>
+    <circle cx="290" cy="85" r="3" fill="#1565C0"/>
+    <text x="325" y="75" fill="#1565C0" font-weight="bold">Голова</text>
+    
+    <!-- Torso label -->
+    <line x1="285" y1="150" x2="330" y2="150" stroke="#1565C0" stroke-width="1.5"/>
+    <circle cx="285" cy="150" r="3" fill="#1565C0"/>
+    <text x="335" y="145" fill="#1565C0" font-weight="bold">Туловище</text>
+    <text x="335" y="160" fill="#1976D2" font-size="9">грудь, живот, спина</text>
+    
+    <!-- Arms label -->
+    <line x1="185" y1="150" x2="150" y2="150" stroke="#1565C0" stroke-width="1.5"/>
+    <circle cx="185" cy="150" r="3" fill="#1565C0"/>
+    <text x="100" y="145" fill="#1565C0" font-weight="bold">Руки</text>
+    <text x="100" y="160" fill="#1976D2" font-size="9">плечо, локоть, кисть</text>
+    
+    <!-- Legs label -->
+    <line x1="250" y1="260" x2="250" y2="290" stroke="#1565C0" stroke-width="1.5"/>
+    <circle cx="250" cy="260" r="3" fill="#1565C0"/>
+    <text x="200" y="305" fill="#1565C0" font-weight="bold">Ноги</text>
+    <text x="240" y="305" fill="#1976D2" font-size="9">бедро, колено, стопа</text>
   </g>
-  
-  <!-- Fish tale moral -->
-  <g transform="translate(50, 250)">
-    <rect x="0" y="0" width="400" height="55" fill="#FFF8E1" rx="8" stroke="#FFC107"/>
-    <text x="200" y="18" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E65100" text-anchor="middle">«Сказка о рыбаке и рыбке»</text>
-    <text x="200" y="35" font-family="Arial, sans-serif" font-size="10" fill="#F57C00" text-anchor="middle">Учит: жадность наказывается</text>
-    <text x="200" y="48" font-family="Arial, sans-serif" font-size="9" fill="#FF9800" text-anchor="middle">Старуха осталась у разбитого корыта</text>
+
+  <!-- Info boxes -->
+  <g font-family="Arial, sans-serif">
+    <rect x="20" y="55" width="100" height="60" rx="8" fill="#FFFFFF" opacity="0.8" stroke="#1976D2"/>
+    <text x="70" y="75" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">Части тела:</text>
+    <text x="70" y="90" font-size="9" fill="#1976D2" text-anchor="middle">• Голова</text>
+    <text x="70" y="103" font-size="9" fill="#1976D2" text-anchor="middle">• Туловище</text>
+    <text x="70" y="116" font-size="9" fill="#1976D2" text-anchor="middle">• Конечности</text>
   </g>
-  
-  <!-- Flowers -->
-  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
-  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+
+  <!-- Heart symbol -->
+  <g transform="translate(250, 140)">
+    <path d="M0,-8 C-5,-15 -15,-15 -15,-5 C-15,5 0,15 0,15 C0,15 15,5 15,-5 C15,-15 5,-15 0,-8" fill="#E91E63">
+      <animate attributeName="transform" type="scale" values="1;1.1;1" dur="1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Bottom text -->
+  <text x="250" y="340" font-family="Arial, sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">
+    Человек — часть живой природы
+  </text>
 </svg>

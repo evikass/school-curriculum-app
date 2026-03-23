@@ -1,57 +1,157 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="lit11" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#F8BBD9;stop-opacity:0.5"/>
-      <stop offset="100%" style="stop-color:#F48FB1;stop-opacity:0.3"/>
+    <linearGradient id="bg11" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#78909C"/>
+      <stop offset="100%" style="stop-color:#546E7A"/>
+    </linearGradient>
+    <linearGradient id="iron11" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#B71C1C"/>
+      <stop offset="100%" style="stop-color:#8B0000"/>
+    </linearGradient>
+    <linearGradient id="copper11" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF7043"/>
+      <stop offset="100%" style="stop-color:#D84315"/>
+    </linearGradient>
+    <linearGradient id="gold11" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD54F"/>
+      <stop offset="100%" style="stop-color:#FF8F00"/>
+    </linearGradient>
+    <linearGradient id="metal11" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#B0BEC5"/>
+      <stop offset="100%" style="stop-color:#78909C"/>
     </linearGradient>
   </defs>
-  
+
   <!-- Background -->
-  <rect width="500" height="350" fill="url(#lit11)"/>
-  <rect width="500" height="350" fill="#FFF8E1" opacity="0.4"/>
-  
-  <!-- Sun -->
-  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
-    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  
+  <rect width="500" height="350" fill="url(#bg11)"/>
+
   <!-- Title -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#AD1457" text-anchor="middle">👑 Братья Гримм</text>
-  <rect x="80" y="42" width="340" height="2" rx="1" fill="#E91E63" opacity="0.5"/>
-  
-  <!-- Ground -->
-  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#F48FB1" opacity="0.4"/>
-  
-  <!-- Snow White scene -->
-  <g transform="translate(50, 80)">
-    <!-- Castle -->
-    <rect x="50" y="50" width="80" height="80" fill="#CE93D8" stroke="#7B1FA2" stroke-width="2"/>
-    <polygon points="50,50 90,10 130,50" fill="#AB47BC"/>
-    <rect x="60" y="60" width="20" height="20" fill="#E1BEE7"/>
-    <rect x="100" y="60" width="20" height="20" fill="#E1BEE7"/>
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">⚙️ Рудные ископаемые</text>
+  <rect x="80" y="38" width="340" height="2" rx="1" fill="#FFD54F" opacity="0.5"/>
+
+  <!-- Iron ore section -->
+  <g transform="translate(20, 55)">
+    <rect x="0" y="0" width="140" height="140" rx="10" fill="#37474F" stroke="#546E7A" stroke-width="2"/>
+    <text x="70" y="22" font-family="Arial, sans-serif" font-size="12" fill="#FFCDD2" text-anchor="middle" font-weight="bold">🧱 Железная руда</text>
     
-    <!-- Mirror -->
-    <ellipse cx="250" cy="80" rx="40" ry="60" fill="#B3E5FC" stroke="#0288D1" stroke-width="3"/>
-    <text x="250" y="85" font-family="Arial, sans-serif" font-size="9" fill="#01579B" text-anchor="middle">волшебное</text>
-    <text x="250" y="97" font-family="Arial, sans-serif" font-size="9" fill="#01579B" text-anchor="middle">зеркало</text>
+    <!-- Iron ore rocks -->
+    <ellipse cx="45" cy="70" rx="30" ry="22" fill="#8D6E63"/>
+    <ellipse cx="45" cy="68" rx="28" ry="20" fill="url(#iron11)">
+      <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="40" cy="65" rx="15" ry="10" fill="#D32F2F" opacity="0.5"/>
     
-    <!-- Dwarfs house -->
-    <rect x="320" y="60" width="100" height="70" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
-    <polygon points="320,60 370,20 420,60" fill="#A1887F"/>
-    <circle cx="370" cy="50" r="15" fill="#5D4037"/>
-    <rect x="350" y="90" width="40" height="30" fill="#4E342E"/>
+    <ellipse cx="100" cy="85" rx="25" ry="18" fill="#8D6E63"/>
+    <ellipse cx="100" cy="83" rx="23" ry="16" fill="url(#iron11)"/>
+    
+    <!-- Steel products -->
+    <rect x="25" y="105" width="15" height="25" fill="url(#metal11)" rx="2"/>
+    <rect x="50" y="110" width="30" height="4" fill="url(#metal11)"/>
+    <rect x="50" y="118" width="30" height="4" fill="url(#metal11)"/>
+    <circle cx="110" cy="118" r="12" fill="url(#metal11)" stroke="#455A64" stroke-width="2"/>
+    
+    <text x="70" y="138" font-family="Arial, sans-serif" font-size="8" fill="#B0BEC5" text-anchor="middle">→ сталь, чугун</text>
   </g>
-  
-  <!-- Info -->
-  <g transform="translate(50, 210)" font-family="Arial, sans-serif">
-    <rect x="0" y="0" width="400" height="90" fill="#FCE4EC" rx="8" stroke="#E91E63"/>
-    <text x="200" y="20" font-size="11" font-weight="bold" fill="#880E4F" text-anchor="middle">Немецкие сказочники</text>
-    <text x="200" y="38" font-size="10" fill="#AD1457" text-anchor="middle">«Белоснежка и семь гномов» • «Золушка»</text>
-    <text x="200" y="53" font-size="10" fill="#C2185B" text-anchor="middle">«Красная Шапочка» • «Бременские музыканты»</text>
-    <text x="200" y="73" font-size="9" fill="#D81B60" text-anchor="middle">Учат: добро побеждает зло, зависть наказывается</text>
+
+  <!-- Copper section -->
+  <g transform="translate(180, 55)">
+    <rect x="0" y="0" width="140" height="140" rx="10" fill="#37474F" stroke="#546E7A" stroke-width="2"/>
+    <text x="70" y="22" font-family="Arial, sans-serif" font-size="12" fill="#FFCCBC" text-anchor="middle" font-weight="bold">🟤 Медная руда</text>
+    
+    <!-- Copper ore -->
+    <ellipse cx="50" cy="65" rx="28" ry="20" fill="#795548"/>
+    <ellipse cx="50" cy="63" rx="25" ry="18" fill="url(#copper11)">
+      <animate attributeName="opacity" values="1;0.85;1" dur="2.5s" repeatCount="indefinite"/>
+    </ellipse>
+    <polygon points="35,55 45,45 55,55 50,70 40,70" fill="#FF8A65" opacity="0.6"/>
+    
+    <ellipse cx="100" cy="80" rx="22" ry="16" fill="#795548"/>
+    <ellipse cx="100" cy="78" rx="20" ry="14" fill="url(#copper11)"/>
+    
+    <!-- Wire -->
+    <path d="M25,110 Q45,105 65,115 Q85,125 105,115 Q125,105 135,115" stroke="#FF7043" stroke-width="4" fill="none"/>
+    <circle cx="130" cy="115" r="5" fill="url(#copper11)"/>
+    
+    <text x="70" y="138" font-family="Arial, sans-serif" font-size="8" fill="#B0BEC5" text-anchor="middle">→ провода, трубы</text>
   </g>
-  
-  <!-- Flowers -->
-  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
-  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+
+  <!-- Gold section -->
+  <g transform="translate(340, 55)">
+    <rect x="0" y="0" width="140" height="140" rx="10" fill="#37474F" stroke="#546E7A" stroke-width="2"/>
+    <text x="70" y="22" font-family="Arial, sans-serif" font-size="12" fill="#FFECB3" text-anchor="middle" font-weight="bold">🥇 Золотая руда</text>
+    
+    <!-- Gold nuggets in rock -->
+    <ellipse cx="50" cy="65" rx="32" ry="24" fill="#5D4037"/>
+    <ellipse cx="50" cy="63" rx="30" ry="22" fill="#6D4C41"/>
+    
+    <!-- Gold pieces -->
+    <polygon points="35,55 42,45 50,55 46,68 38,68" fill="url(#gold11)">
+      <animate attributeName="opacity" values="1;0.7;1" dur="1.5s" repeatCount="indefinite"/>
+    </polygon>
+    <circle cx="60" cy="60" r="6" fill="url(#gold11)"/>
+    <polygon points="70,70 78,62 86,70 82,80 74,80" fill="url(#gold11)"/>
+    
+    <ellipse cx="105" cy="80" rx="20" ry="15" fill="#5D4037"/>
+    <circle cx="105" cy="78" r="5" fill="#FFD54F"/>
+    
+    <!-- Gold bar -->
+    <polygon points="50,100 90,100 95,115 45,115" fill="url(#gold11)" stroke="#FF8F00"/>
+    <polygon points="50,100 70,95 90,100" fill="#FFE082"/>
+    
+    <text x="70" y="138" font-family="Arial, sans-serif" font-size="8" fill="#B0BEC5" text-anchor="middle">→ украшения, монеты</text>
+  </g>
+
+  <!-- Uses section -->
+  <g transform="translate(20, 210)">
+    <rect x="0" y="0" width="460" height="80" rx="10" fill="#FFFFFF" opacity="0.1"/>
+    <text x="230" y="20" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">🔧 Из металлов делают:</text>
+    
+    <!-- Items from metal -->
+    <g transform="translate(50, 35)">
+      <!-- Car -->
+      <rect x="0" y="15" width="35" height="15" fill="url(#metal11)" rx="3"/>
+      <rect x="5" y="8" width="20" height="10" fill="#90A4AE" rx="2"/>
+      <circle cx="8" cy="32" r="5" fill="#424242"/>
+      <circle cx="30" cy="32" r="5" fill="#424242"/>
+      <text x="20" y="50" font-family="Arial, sans-serif" font-size="8" fill="#B0BEC5" text-anchor="middle">машины</text>
+    </g>
+    
+    <g transform="translate(130, 35)">
+      <!-- Building -->
+      <rect x="0" y="5" width="40" height="35" fill="url(#metal11)"/>
+      <rect x="5" y="10" width="10" height="8" fill="#455A64"/>
+      <rect x="18" y="10" width="10" height="8" fill="#455A64"/>
+      <rect x="5" y="22" width="10" height="8" fill="#455A64"/>
+      <rect x="18" y="22" width="10" height="8" fill="#455A64"/>
+      <text x="20" y="50" font-family="Arial, sans-serif" font-size="8" fill="#B0BEC5" text-anchor="middle">здания</text>
+    </g>
+    
+    <g transform="translate(210, 35)">
+      <!-- Tools -->
+      <rect x="0" y="15" width="30" height="6" fill="url(#metal11)" rx="1"/>
+      <rect x="25" y="10" width="15" height="16" fill="#8D6E63" rx="2"/>
+      <text x="20" y="50" font-family="Arial, sans-serif" font-size="8" fill="#B0BEC5" text-anchor="middle">инструменты</text>
+    </g>
+    
+    <g transform="translate(300, 35)">
+      <!-- Electronics -->
+      <rect x="0" y="10" width="35" height="25" fill="#37474F" rx="2"/>
+      <rect x="3" y="13" width="29" height="15" fill="#4CAF50"/>
+      <circle cx="10" cy="32" r="3" fill="url(#copper11)"/>
+      <circle cx="25" cy="32" r="3" fill="url(#copper11)"/>
+      <text x="18" y="50" font-family="Arial, sans-serif" font-size="8" fill="#B0BEC5" text-anchor="middle">электроника</text>
+    </g>
+    
+    <g transform="translate(380, 35)">
+      <!-- Jewelry -->
+      <circle cx="20" cy="20" r="12" fill="none" stroke="url(#gold11)" stroke-width="4"/>
+      <circle cx="20" cy="20" r="5" fill="#E91E63"/>
+      <text x="20" y="50" font-family="Arial, sans-serif" font-size="8" fill="#B0BEC5" text-anchor="middle">украшения</text>
+    </g>
+  </g>
+
+  <!-- Bottom text -->
+  <text x="250" y="345" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">
+    Рудные ископаемые — источник металлов
+  </text>
 </svg>

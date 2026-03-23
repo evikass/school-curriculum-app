@@ -1,69 +1,123 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="lit4" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFECB3;stop-opacity:0.5"/>
-      <stop offset="100%" style="stop-color:#FFE082;stop-opacity:0.3"/>
+    <linearGradient id="sky4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB"/>
+      <stop offset="100%" style="stop-color:#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="water4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4FC3F7"/>
+      <stop offset="50%" style="stop-color:#0288D1"/>
+      <stop offset="100%" style="stop-color:#01579B"/>
     </linearGradient>
   </defs>
 
   <!-- Background -->
-  <rect width="500" height="350" fill="url(#lit4)"/>
-  <rect width="500" height="350" fill="#FFF8E1" opacity="0.4"/>
+  <rect width="500" height="350" fill="url(#sky4)"/>
 
   <!-- Sun -->
-  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
-    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  <circle cx="450" cy="50" r="30" fill="#FFD54F">
+    <animate attributeName="r" values="28;32;28" dur="3s" repeatCount="indefinite"/>
   </circle>
+  <g stroke="#FFD54F" stroke-width="2" opacity="0.7">
+    <line x1="450" y1="10" x2="450" y2="0">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="480" y1="20" x2="490" y2="10"/>
+    <line x1="490" y1="50" x2="500" y2="50"/>
+    <line x1="480" y1="80" x2="490" y2="90"/>
+    <line x1="420" y1="20" x2="410" y2="10"/>
+    <line x1="410" y1="50" x2="400" y2="50"/>
+    <line x1="420" y1="80" x2="410" y2="90"/>
+  </g>
 
   <!-- Title -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E65100" text-anchor="middle">📚 Пословицы и поговорки</text>
-  <rect x="80" y="42" width="340" height="2" rx="1" fill="#FF9800" opacity="0.5"/>
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#01579B" text-anchor="middle">🌊 Водоём</text>
+  <rect x="100" y="38" width="300" height="2" rx="1" fill="#0288D1" opacity="0.5"/>
 
-  <!-- Ground -->
-  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#FFCC80" opacity="0.5"/>
+  <!-- Mountains in background -->
+  <polygon points="0,120 80,60 160,120" fill="#81C784"/>
+  <polygon points="100,120 200,50 300,120" fill="#66BB6A"/>
+  <polygon points="240,120 350,55 460,120" fill="#81C784"/>
+  <polygon points="380,120 480,70 500,100 500,120" fill="#66BB6A"/>
 
-  <!-- Book icon -->
-  <g transform="translate(180, 80)">
-    <rect x="0" y="0" width="140" height="100" fill="#8D6E63" rx="5"/>
-    <rect x="10" y="5" width="55" height="90" fill="#FFF8E1"/>
-    <rect x="75" y="5" width="55" height="90" fill="#FFFDE7"/>
-    <line x1="70" y1="5" x2="70" y2="95" stroke="#5D4037" stroke-width="2"/>
+  <!-- Ground/Shore -->
+  <ellipse cx="250" cy="180" rx="280" ry="40" fill="#8BC34A"/>
+
+  <!-- Water body -->
+  <ellipse cx="250" cy="280" rx="220" ry="100" fill="url(#water4)">
+    <animate attributeName="rx" values="218;222;218" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Water waves -->
+  <g stroke="#FFFFFF" stroke-width="1" opacity="0.4" fill="none">
+    <path d="M80,260 Q130,250 180,260 Q230,270 280,260 Q330,250 380,260 Q430,270 450,260">
+      <animate attributeName="d" values="M80,260 Q130,250 180,260 Q230,270 280,260 Q330,250 380,260 Q430,270 450,260;M80,262 Q130,272 180,262 Q230,252 280,262 Q330,272 380,262 Q430,252 450,262;M80,260 Q130,250 180,260 Q230,270 280,260 Q330,250 380,260 Q430,270 450,260" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M60,290 Q120,280 180,290 Q240,300 300,290 Q360,280 420,290">
+      <animate attributeName="d" values="M60,290 Q120,280 180,290 Q240,300 300,290 Q360,280 420,290;M60,292 Q120,302 180,292 Q240,282 300,292 Q360,302 420,292;M60,290 Q120,280 180,290 Q240,300 300,290 Q360,280 420,290" dur="2.5s" repeatCount="indefinite"/>
+    </path>
   </g>
 
-  <!-- Proverbs examples -->
-  <g transform="translate(30, 200)" font-family="Arial, sans-serif" font-size="10">
-    <rect x="0" y="0" width="210" height="35" fill="#FFECB3" rx="5"/>
-    <text x="105" y="15" fill="#E65100" text-anchor="middle" font-weight="bold">О труде:</text>
-    <text x="105" y="28" fill="#F57C00" text-anchor="middle">«Терпение и труд всё перетрут»</text>
-
-    <rect x="230" y="0" width="210" height="35" fill="#FFECB3" rx="5"/>
-    <text x="335" y="15" fill="#E65100" text-anchor="middle" font-weight="bold">О дружбе:</text>
-    <text x="335" y="28" fill="#F57C00" text-anchor="middle">«Друг познаётся в беде»</text>
-
-    <rect x="115" y="45" width="210" height="35" fill="#FFECB3" rx="5"/>
-    <text x="220" y="60" fill="#E65100" text-anchor="middle" font-weight="bold">О знаниях:</text>
-    <text x="220" y="73" fill="#F57C00" text-anchor="middle">«Ученье — свет, а неученье — тьма»</text>
+  <!-- Reeds on the left -->
+  <g stroke="#2E7D32" stroke-width="2" fill="none">
+    <path d="M50,200 Q55,170 50,140">
+      <animate attributeName="d" values="M50,200 Q55,170 50,140;M50,200 Q45,170 50,140;M50,200 Q55,170 50,140" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M65,200 Q70,160 65,130">
+      <animate attributeName="d" values="M65,200 Q70,160 65,130;M65,200 Q60,160 65,130;M65,200 Q70,160 65,130" dur="2.3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M80,200 Q85,175 80,150">
+      <animate attributeName="d" values="M80,200 Q85,175 80,150;M80,200 Q75,175 80,150;M80,200 Q85,175 80,150" dur="1.8s" repeatCount="indefinite"/>
+    </path>
   </g>
+  <ellipse cx="50" cy="135" rx="4" ry="10" fill="#4CAF50"/>
+  <ellipse cx="65" cy="125" rx="4" ry="12" fill="#388E3C"/>
+  <ellipse cx="80" cy="145" rx="4" ry="10" fill="#4CAF50"/>
 
-  <!-- Explanation -->
-  <g transform="translate(50, 80)">
-    <rect x="0" y="0" width="120" height="50" fill="#E3F2FD" rx="5" stroke="#2196F3"/>
-    <text x="60" y="20" font-family="Arial, sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">Пословица</text>
-    <text x="60" y="35" font-family="Arial, sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">законченное</text>
-    <text x="60" y="46" font-family="Arial, sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">предложение</text>
-
-    <rect x="350" y="0" width="120" height="50" fill="#C8E6C9" rx="5" stroke="#4CAF50"/>
-    <text x="410" y="20" font-family="Arial, sans-serif" font-size="10" fill="#1B5E20" text-anchor="middle" font-weight="bold">Поговорка</text>
-    <text x="410" y="35" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">незаконченная</text>
-    <text x="410" y="46" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">фраза</text>
-  </g>
-
-  <!-- Flowers -->
-  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
-  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
-
-  <!-- Sparkles -->
-  <circle cx="250" cy="130" r="2" fill="#FFD54F">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
+  <!-- Lily pads -->
+  <ellipse cx="150" cy="280" rx="25" ry="15" fill="#4CAF50" opacity="0.8"/>
+  <ellipse cx="350" cy="290" rx="20" ry="12" fill="#388E3C" opacity="0.8"/>
+  
+  <!-- Flower on lily pad -->
+  <circle cx="150" cy="275" r="8" fill="#F8BBD9">
+    <animate attributeName="r" values="7;9;7" dur="2s" repeatCount="indefinite"/>
   </circle>
+  <circle cx="150" cy="275" r="3" fill="#FFEB3B"/>
+
+  <!-- Fish -->
+  <g transform="translate(0,0)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;30,0;0,0" dur="6s" repeatCount="indefinite"/>
+    <ellipse cx="200" cy="300" rx="20" ry="10" fill="#FF7043"/>
+    <polygon points="220,300 235,290 235,310" fill="#FF7043"/>
+    <circle cx="188" cy="297" r="3" fill="#FFFFFF"/>
+    <circle cx="188" cy="297" r="1.5" fill="#000000"/>
+    <path d="M200,295 Q205,293 210,295" stroke="#D84315" stroke-width="1" fill="none"/>
+  </g>
+
+  <!-- Another fish -->
+  <g transform="translate(0,0)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-25,0;0,0" dur="5s" repeatCount="indefinite"/>
+    <ellipse cx="320" cy="310" rx="15" ry="8" fill="#FFB74D"/>
+    <polygon points="305,310 292,303 292,317" fill="#FFB74D"/>
+    <circle cx="328" cy="308" r="2" fill="#FFFFFF"/>
+    <circle cx="328" cy="308" r="1" fill="#000000"/>
+  </g>
+
+  <!-- Dragonfly -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;10,-5;0,0;-10,5;0,0" dur="4s" repeatCount="indefinite"/>
+    <ellipse cx="100" cy="180" rx="8" ry="3" fill="#7B1FA2"/>
+    <circle cx="92" cy="179" r="3" fill="#9C27B0"/>
+    <line x1="88" y1="176" x2="80" y2="170" stroke="#7B1FA2" stroke-width="1"/>
+    <line x1="88" y1="182" x2="80" y2="188" stroke="#7B1FA2" stroke-width="1"/>
+    <ellipse cx="105" cy="178" rx="10" ry="4" fill="#CE93D8" opacity="0.6"/>
+    <ellipse cx="105" cy="182" rx="10" ry="4" fill="#CE93D8" opacity="0.6"/>
+  </g>
+
+  <!-- Labels -->
+  <g font-family="Arial, sans-serif" font-size="9" fill="#01579B">
+    <text x="250" y="320" text-anchor="middle" font-weight="bold">Пресный водоём</text>
+    <text x="320" y="335" text-anchor="middle">🐟 рыбы</text>
+    <text x="180" y="335" text-anchor="middle">🌿 растения</text>
+  </g>
 </svg>
