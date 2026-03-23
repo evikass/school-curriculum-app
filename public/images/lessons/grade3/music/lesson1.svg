@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="musicBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F7FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B2EBF2;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#musicBg)"/>
+  
+  <!-- Sun -->
+  <circle cx="450" cy="50" r="24" fill="#FFD700" opacity="0.85">
+    <animate attributeName="r" values="24;28;24" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Clouds -->
+  <g opacity="0.75">
+    <ellipse cx="110" cy="45" rx="28" ry="16" fill="white"/>
+    <ellipse cx="135" cy="40" rx="22" ry="13" fill="white"/>
+  </g>
+  
+  <!-- Trees -->
+  <g opacity="0.25">
+    <ellipse cx="35" cy="280" rx="22" ry="35" fill="#228B22"/>
+    <rect x="30" y="280" width="10" height="20" fill="#5D4037"/>
+  </g>
+  
+  <!-- Flowers -->
+  <g opacity="0.5">
+    <circle cx="40" cy="325" r="5" fill="#00BCD4"/>
+    <circle cx="47" cy="320" r="4" fill="#4DD0E1"/>
+  </g>
+  
+  <!-- Musical notes floating -->
+  <text x="60" y="100" font-size="16" fill="#00838F" opacity="0.3">
+    <animate attributeName="y" values="100;90;100" dur="2s" repeatCount="indefinite"/>
+    🎵
+  </text>
+  <text x="420" y="120" font-size="14" fill="#00838F" opacity="0.25">
+    <animate attributeName="y" values="120;130;120" dur="2.5s" repeatCount="indefinite"/>
+    🎶
+  </text>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#00838F" text-anchor="middle">🎵 Песня, танец, марш</text>
+  <rect x="100" y="45" width="300" height="3" rx="2" fill="#00838F" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="30" y="60" width="440" height="255" rx="15" fill="white" opacity="0.92" stroke="#00BCD4" stroke-width="2"/>
+  
+  <!-- Three types -->
+  <text x="250" y="85" font-size="11" font-weight="bold" fill="#00838F" text-anchor="middle">Три кита в музыке / Three pillars of music</text>
+  
+  <g transform="translate(50, 95)">
+    <!-- Song -->
+    <rect x="0" y="0" width="130" height="95" rx="10" fill="#E0F7FA" stroke="#00BCD4"/>
+    <text x="65" y="20" font-size="10" font-weight="bold" fill="#00838F" text-anchor="middle">🎤 Песня</text>
+    <text x="65" y="50" font-size="32" text-anchor="middle">🎵</text>
+    <text x="65" y="75" font-size="8" fill="#333" text-anchor="middle">Мелодия + слова</text>
+    <text x="65" y="88" font-size="8" fill="#333" text-anchor="middle">Можно петь</text>
+    
+    <!-- Dance -->
+    <rect x="145" y="0" width="130" height="95" rx="10" fill="#FCE4EC" stroke="#E91E63"/>
+    <text x="210" y="20" font-size="10" font-weight="bold" fill="#C2185B" text-anchor="middle">💃 Танец</text>
+    <text x="210" y="50" font-size="32" text-anchor="middle">🕺</text>
+    <text x="210" y="75" font-size="8" fill="#333" text-anchor="middle">Ритм + движение</text>
+    <text x="210" y="88" font-size="8" fill="#333" text-anchor="middle">Можно танцевать</text>
+    
+    <!-- March -->
+    <rect x="290" y="0" width="130" height="95" rx="10" fill="#E8EAF6" stroke="#3F51B5"/>
+    <text x="355" y="20" font-size="10" font-weight="bold" fill="#303F9F" text-anchor="middle">🥁 Марш</text>
+    <text x="355" y="50" font-size="32" text-anchor="middle">🥁</text>
+    <text x="355" y="75" font-size="8" fill="#333" text-anchor="middle">Чёткий ритм</text>
+    <text x="355" y="88" font-size="8" fill="#333" text-anchor="middle">Можно шагать</text>
+  </g>
+  
+  <!-- Characteristics -->
+  <rect x="50" y="205" width="400" height="55" rx="10" fill="#E0F7FA" stroke="#00BCD4"/>
+  <text x="250" y="225" font-size="10" font-weight="bold" fill="#00838F" text-anchor="middle">🎼 Особенности каждого жанра</text>
+  <text x="100" y="245" font-size="9" fill="#333">Песня — напевная, плавная</text>
+  <text x="250" y="245" font-size="9" fill="#333">Танец — подвижная, весёлая</text>
+  <text x="100" y="258" font-size="9" fill="#333">Марш — торжественная, чёткая</text>
+  
+  <!-- Examples -->
+  <rect x="80" y="270" width="340" height="40" rx="8" fill="#FCE4EC" stroke="#E91E63"/>
+  <text x="250" y="285" font-size="10" font-weight="bold" fill="#C2185B" text-anchor="middle">🎧 Примеры:</text>
+  <text x="250" y="300" font-size="9" fill="#333" text-anchor="middle">"Катюша" — песня • "Вальс цветов" — танец • "Прощание славянки" — марш</text>
+  
+  <!-- Decorative notes -->
+  <g transform="translate(55, 275)" opacity="0.5">
+    <text font-size="18">🎵🎶</text>
+  </g>
+</svg>

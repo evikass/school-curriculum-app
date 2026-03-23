@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="skyGrad6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFECB3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#skyGrad6)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="50" cy="50" r="30" fill="#FF9800" opacity="0.12"/>
+  <circle cx="460" cy="300" r="40" fill="#FF9800" opacity="0.1"/>
+  
+  <!-- Sun -->
+  <circle cx="70" cy="55" r="25" fill="#FFD700" opacity="0.9">
+    <animate attributeName="r" values="25;28;25" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <g stroke="#FFD700" stroke-width="2" opacity="0.6">
+    <line x1="70" y1="20" x2="70" y2="10"/>
+    <line x1="45" y1="30" x2="35" y2="20"/>
+    <line x1="95" y1="30" x2="105" y2="20"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 70 55" to="360 70 55" dur="12s" repeatCount="indefinite"/>
+  </g>
+  
+  <!-- Clouds -->
+  <g opacity="0.7">
+    <ellipse cx="200" cy="40" rx="28" ry="16" fill="white"/>
+    <ellipse cx="220" cy="35" rx="22" ry="13" fill="white"/>
+  </g>
+  
+  <!-- Trees -->
+  <g opacity="0.3">
+    <ellipse cx="465" cy="275" rx="28" ry="42" fill="#228B22"/>
+    <rect x="460" y="275" width="10" height="25" fill="#8B4513"/>
+  </g>
+  
+  <!-- Flowers -->
+  <g opacity="0.5">
+    <circle cx="40" cy="325" r="5" fill="#FF9800"/>
+    <circle cx="47" cy="320" r="4" fill="#FFCC80"/>
+  </g>
+  <g opacity="0.45">
+    <circle cx="460" cy="325" r="5" fill="#E91E63"/>
+    <circle cx="453" cy="320" r="4" fill="#F8BBD9"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E65100" text-anchor="middle">1️⃣ Именительный падеж</text>
+  <rect x="100" y="45" width="300" height="3" rx="2" fill="#E65100" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="30" y="60" width="440" height="260" rx="15" fill="white" opacity="0.92" stroke="#E65100" stroke-width="2"/>
+  
+  <!-- Definition -->
+  <rect x="50" y="75" width="400" height="45" rx="8" fill="#FFF3E0"/>
+  <text x="250" y="95" font-size="12" font-weight="bold" fill="#E65100" text-anchor="middle">Именительный падеж — начальная форма слова</text>
+  <text x="250" y="112" font-size="10" fill="#333" text-anchor="middle">Отвечает на вопросы: КТО? ЧТО?</text>
+  
+  <!-- Examples section -->
+  <g transform="translate(50, 130)">
+    <text x="0" y="0" font-size="11" font-weight="bold" fill="#E65100">Примеры:</text>
+    
+    <!-- Person examples -->
+    <rect x="0" y="10" width="200" height="55" rx="8" fill="#FFECB3" stroke="#E65100"/>
+    <text x="100" y="30" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">👤 КТО? (одушевлённые)</text>
+    <text x="100" y="48" font-size="10" fill="#333" text-anchor="middle">ученик, мама, кот, друг</text>
+    
+    <!-- Thing examples -->
+    <rect x="210" y="10" width="200" height="55" rx="8" fill="#FFE0B2" stroke="#E65100"/>
+    <text x="310" y="30" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">📦 ЧТО? (неодушевлённые)</text>
+    <text x="310" y="48" font-size="10" fill="#333" text-anchor="middle">книга, стол, солнце, дом</text>
+  </g>
+  
+  <!-- Usage section -->
+  <g transform="translate(50, 210)">
+    <text x="0" y="0" font-size="11" font-weight="bold" fill="#E65100">Когда используется:</text>
+    
+    <rect x="0" y="10" width="410" height="65" rx="8" fill="#FFF8E1" stroke="#E65100"/>
+    <text x="20" y="30" font-size="10" fill="#333">📌 Подлежащее в предложении:</text>
+    <text x="40" y="45" font-size="10" fill="#666">Мама готовит обед. (Мама — подлежащее)</text>
+    <text x="20" y="62" font-size="10" fill="#333">📌 Словарная форма слова</text>
+  </g>
+  
+  <!-- Animated indicator -->
+  <g transform="translate(250, 295)">
+    <text font-size="10" fill="#E65100" text-anchor="middle">
+      <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+      Именительный — ИМЯ предмета!
+    </text>
+  </g>
+  
+  <!-- Pencil decoration -->
+  <g transform="translate(420, 290)" opacity="0.5">
+    <rect x="0" y="3" width="25" height="8" fill="#FFD700"/>
+    <polygon points="25,3 25,11 32,7" fill="#333"/>
+  </g>
+</svg>
