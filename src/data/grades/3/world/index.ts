@@ -62,19 +62,19 @@ export const lessons: SubjectData = {
           "Описать мышцы",
           "Объяснить движение",
           "Рассказать о гигиене"
-        ], "/school-curriculum-app/images/lessons/grade3/world/lesson5.svg"),
+        ], "/school-curriculum-app/images/lessons/grade3/world/lesson6.svg"),
         L("Урок 7: Пищеварительная система", "Как мы едим.", [
           "Назвать органы",
           "Объяснить процесс",
           "Рассказать о пище",
           "Составить меню"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/world/lesson7.svg"),
         L("Урок 8: Дыхательная система", "Как мы дышим.", [
           "Назвать органы",
           "Объяснить дыхание",
           "Рассказать о чистом воздухе",
           "Провести опыт"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/world/lesson8.svg")
       ]
     },
     {
@@ -85,25 +85,25 @@ export const lessons: SubjectData = {
           "Назвать виды",
           "Описать применение",
           "Найти на карте"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/world/lesson9.svg"),
         L("Урок 10: Горючие ископаемые", "Топливо.", [
           "Назвать нефть",
           "Описать газ",
           "Рассказать об угле",
           "Объяснить значение"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/world/lesson10.svg"),
         L("Урок 11: Рудные ископаемые", "Металлы.", [
           "Назвать руды",
           "Описать железо",
           "Рассказать о меди",
           "Объяснить добычу"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/world/lesson11.svg"),
         L("Урок 12: Нерудные ископаемые", "Камни и песок.", [
           "Назвать песок",
           "Описать глину",
           "Рассказать о камне",
           "Объяснить применение"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/world/lesson12.svg")
       ]
     },
     {
@@ -114,13 +114,13 @@ export const lessons: SubjectData = {
           "Объяснить причины",
           "Рассказать о последствиях",
           "Предложить решения"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/world/lesson13.svg"),
         L("Урок 14: Охрана природы", "Защита окружающей среды.", [
           "Назвать меры охраны",
           "Объяснить заповедники",
           "Рассказать о Красной книге",
           "Нарисовать плакат"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/world/lesson14.svg")
       ]
     }
   ]

@@ -42,7 +42,7 @@ export const lessons: SubjectData = {
           "«Терпение и труд всё перетрут»",
           "Объяснить значение",
           "Придумать ситуацию"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson4.svg")
       ]
     },
     {
@@ -53,31 +53,31 @@ export const lessons: SubjectData = {
           "«Сказка о рыбаке и рыбке»",
           "Чему учит сказка?",
           "Выучить отрывок"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson5.svg"),
         L("Урок 6: И.А. Крылов", "Баснописец России.", [
           "Что такое басня?",
           "«Ворона и Лисица»",
           "Мораль басни",
           "Инсценировать басню"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson6.svg"),
         L("Урок 7: Л.Н. Толстой", "Писатель и педагог.", [
           "Биография Толстого",
           "Рассказы для детей",
           "«Филипок»",
           "Обсудить поступки героя"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson7.svg"),
         L("Урок 8: М.М. Пришвин", "Писатель-натуралист.", [
           "Любовь к природе",
           "«Лесная капель»",
           "Описание природы",
           "Нарисовать иллюстрацию"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson8.svg"),
         L("Урок 9: К.Г. Паустовский", "Мастер описания.", [
           "Тёплые истории",
           "«Стальное колечко»",
           "Красота родного края",
           "Найти красивые описания"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson9.svg")
       ]
     },
     {
@@ -88,19 +88,19 @@ export const lessons: SubjectData = {
           "«Гадкий утёнок»",
           "Чему учит сказка?",
           "Сравнить с русскими сказками"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson10.svg"),
         L("Урок 11: Братья Гримм", "Немецкие сказочники.", [
           "Кто такие братья Гримм?",
           "«Белоснежка и семь гномов»",
           "Волшебные элементы",
           "Пересказать сказку"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson11.svg"),
         L("Урок 12: Шарль Перро", "Французские сказки.", [
           "Сказки Перро",
           "«Золушка»",
           "Добро побеждает зло",
           "Сравнить версии"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson12.svg")
       ]
     },
     {
@@ -111,25 +111,25 @@ export const lessons: SubjectData = {
           "«Весенняя гроза»",
           "Образы природы",
           "Выразительное чтение"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson13.svg"),
         L("Урок 14: А.А. Фет", "Лирические стихи.", [
           "Красота в стихах",
           "«Весенний дождь»",
           "Настроение стиха",
           "Нарисовать картинку"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson14.svg"),
         L("Урок 15: С.А. Есенин", "Поэт русской деревни.", [
           "Любовь к Родине",
           "«Берёза»",
           "Образ берёзы",
           "Выучить наизусть"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson15.svg"),
         L("Урок 16: Детские поэты", "Агния Барто, Сергей Михалков.", [
           "Весёлые стихи",
           "«Мойдодыр» Чуковского",
           "Юмор в стихах",
           "Придумать продолжение"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/literature/lesson16.svg")
       ]
     }
   ]

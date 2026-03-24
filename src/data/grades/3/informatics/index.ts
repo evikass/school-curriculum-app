@@ -1,7 +1,7 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, description: string, tasks: string[]) => ({
-  title, description, tasks
+const createLesson = (title: string, description: string, tasks: string[], image?: string) => ({
+  title, description, tasks, image
 })
 
 export const lessons: SubjectData = {
@@ -18,25 +18,25 @@ export const lessons: SubjectData = {
           "Узнать о частях компьютера",
           "Понять, что такое информация",
           "Привести примеры информации"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/informatics/lesson1.svg"),
         createLesson("Урок 2: Кодирование информации", "Как кодируют данные.", [
           "Узнать о шифрах",
           "Закодировать слово",
           "Раскодировать сообщение",
           "Игра в шифровальщика"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/informatics/lesson2.svg"),
         createLesson("Урок 3: Логические задачи", "Развитие логики.", [
           "Решить задачу на сравнение",
           "Найти закономерность",
           "Определить лишнее",
           "Решить логическую цепочку"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/informatics/lesson3.svg"),
         createLesson("Урок 4: Множества", "Группы предметов.", [
           "Понять, что такое множество",
           "Объединить предметы в группы",
           "Найти общие признаки",
           "Изобразить кругами Эйлера"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/informatics/lesson4.svg")
       ]
     },
     {
@@ -47,25 +47,25 @@ export const lessons: SubjectData = {
           "Привести примеры алгоритмов",
           "Составить алгоритм дня",
           "Выполнить алгоритм"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/informatics/lesson5.svg"),
         createLesson("Урок 6: Линейные алгоритмы", "Простые алгоритмы.", [
           "Составить алгоритм заварки чая",
           "Нарисовать блок-схему",
           "Выполнить алгоритм",
           "Найти ошибки в алгоритме"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/informatics/lesson6.svg"),
         createLesson("Урок 7: Ветвления", "Алгоритмы с выбором.", [
           "Понять условие если-то",
           "Составить алгоритм с ветвлением",
           "Нарисовать блок-схему",
           "Решить задачи"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/informatics/lesson7.svg"),
         createLesson("Урок 8: Исполнители", "Кто выполняет алгоритм.", [
           "Познакомиться с исполнителями",
           "Управление роботом",
           "Составить команды",
           "Игра \"Робот\""
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/informatics/lesson8.svg")
       ]
     },
     {
@@ -76,25 +76,25 @@ export const lessons: SubjectData = {
           "Расстояние до монитора",
           "Перерывы в работе",
           "Упражнения для глаз"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/informatics/lesson9.svg"),
         createLesson("Урок 10: Интернет безопасный", "Правила в интернете.", [
           "Не общаться с незнакомцами",
           "Не давать личную информацию",
           "Сообщать родителям о проблемах",
           "Безопасные сайты"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/informatics/lesson10.svg"),
         createLesson("Урок 11: Вирусы и защита", "Защита компьютера.", [
           "Что такое вирусы",
           "Как защититься",
           "Антивирусные программы",
           "Правила безопасности"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/informatics/lesson11.svg"),
         createLesson("Урок 12: Итоговое занятие", "Повторение пройденного.", [
           "Повторить термины",
           "Решить задачи",
           "Составить алгоритм",
           "Проверочная работа"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/informatics/lesson12.svg")
       ]
     }
   ]

@@ -1,6 +1,6 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const L = (title: string, description: string, tasks: string[]) => ({ title, description, tasks, theory: description })
+const L = (title: string, description: string, tasks: string[], image?: string) => ({ title, description, tasks, theory: description, image })
 
 export const lessons: SubjectData = {
   title: "Иностранный язык",
@@ -16,25 +16,25 @@ export const lessons: SubjectData = {
           "A B C D E F G...",
           "Спеть песенку ABC",
           "Запомнить порядок букв"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson1.svg"),
         L("Урок 2: Vowels and Consonants", "Гласные и согласные.", [
           "Гласные: A, E, I, O, U",
           "Y иногда гласная",
           "Произношение звуков",
           "Прочитать слова"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson2.svg"),
         L("Урок 3: Reading Rules", "Правила чтения.", [
           "Open syllable: name, like",
           "Closed syllable: cat, dog",
           "Прочитать слова",
           "Найти различия"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson3.svg"),
         L("Урок 4: Common Words", "Частые слова.", [
           "the, and, is, it, to",
           "Прочитать предложения",
           "Составить фразы",
           "Использовать в речи"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson4.svg")
       ]
     },
     {
@@ -45,25 +45,25 @@ export const lessons: SubjectData = {
           "Eleven, twelve, thirteen...",
           "Посчитать предметы",
           "Назвать возраст"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson5.svg"),
         L("Урок 6: Numbers 20-100", "Десятки до ста.", [
           "Twenty, thirty, forty...",
           "25 = twenty-five",
           "Назвать числа",
           "Решить примеры"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson6.svg"),
         L("Урок 7: Colors", "Цвета.", [
           "Red, blue, green, yellow",
           "Orange, purple, pink, brown",
           "Описать предметы",
           "Назвать любимый цвет"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson7.svg"),
         L("Урок 8: Shapes", "Фигуры.", [
           "Circle, square, triangle",
           "Rectangle, oval",
           "Найти фигуры",
           "Нарисовать фигуры"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson8.svg")
       ]
     },
     {
@@ -74,25 +74,25 @@ export const lessons: SubjectData = {
           "Grandmother, grandfather",
           "Описать семью",
           "Нарисовать семейное дерево"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson9.svg"),
         L("Урок 10: Describing People", "Описание людей.", [
           "Tall, short, young, old",
           "Hair: long, short, curly",
           "Eyes: blue, brown, green",
           "Описать друга"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson10.svg"),
         L("Урок 11: Body Parts", "Части тела.", [
           "Head, shoulders, knees, toes",
           "Eyes, ears, nose, mouth",
           "Спеть песенку",
           "Показать на себе"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson11.svg"),
         L("Урок 12: Clothes", "Одежда.", [
           "Shirt, dress, pants, skirt",
           "Hat, coat, shoes, socks",
           "Описать одежду",
           "Что ты носишь?"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson12.svg")
       ]
     },
     {
@@ -103,25 +103,25 @@ export const lessons: SubjectData = {
           "Bird, rabbit, turtle",
           "Описать питомца",
           "У кого есть питомец?"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson13.svg"),
         L("Урок 14: Wild Animals", "Дикие животные.", [
           "Lion, tiger, elephant, bear",
           "Monkey, giraffe, zebra",
           "Где они живут?",
           "Описать животное"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson14.svg"),
         L("Урок 15: Farm Animals", "Домашние животные.", [
           "Cow, pig, sheep, horse",
           "Chicken, duck, goat",
           "Что они дают?",
           "Звуки животных"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson15.svg"),
         L("Урок 16: Weather", "Погода.", [
           "Sunny, rainy, cloudy, windy",
           "Snowy, hot, cold, warm",
           "Какая сегодня погода?",
           "Одежда по погоде"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson16.svg")
       ]
     },
     {
@@ -132,25 +132,25 @@ export const lessons: SubjectData = {
           "Carrot, potato, tomato",
           "Что ты любишь?",
           "I like... / I don't like..."
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson17.svg"),
         L("Урок 18: Food", "Еда.", [
           "Bread, cheese, meat, fish",
           "Rice, pasta, soup, salad",
           "Что на обед?",
           "Составить меню"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson18.svg"),
         L("Урок 19: Drinks", "Напитки.", [
           "Water, milk, juice, tea",
           "Coffee, soda",
           "Что ты пьёшь?",
           "В кафе"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson19.svg"),
         L("Урок 20: At the Cafe", "В кафе.", [
           "Can I have...?",
           "Here you are",
           "Thank you",
           "Диалог в кафе"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson20.svg")
       ]
     },
     {
@@ -161,25 +161,25 @@ export const lessons: SubjectData = {
           "o'clock, half past",
           "It's 3 o'clock",
           "Режим дня"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson21.svg"),
         L("Урок 22: Daily Activities", "Ежедневные дела.", [
           "Wake up, get up, wash",
           "Have breakfast, go to school",
           "Describe your day",
           "Приёмы пищи"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson22.svg"),
         L("Урок 23: Days of Week", "Дни недели.", [
           "Monday, Tuesday, Wednesday...",
           "Sunday is the first day",
           "Что ты делаешь в...?",
           "Расписание"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson23.svg"),
         L("Урок 24: Months and Seasons", "Месяцы и сезоны.", [
           "January, February, March...",
           "Winter, spring, summer, autumn",
           "Какой сейчас месяц?",
           "Любимое время года"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/english/lesson24.svg")
       ]
     }
   ]

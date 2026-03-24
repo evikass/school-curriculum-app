@@ -1,7 +1,7 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, description: string, tasks: string[]) => ({
-  title, description, tasks
+const createLesson = (title: string, description: string, tasks: string[], image?: string) => ({
+  title, description, tasks, image
 })
 
 export const lessons: SubjectData = {
@@ -18,25 +18,25 @@ export const lessons: SubjectData = {
           "Запомнить значение каждого сигнала",
           "Нарисовать светофор",
           "Поиграть в игру \"Светофор\""
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/safety/lesson1.svg"),
         createLesson("Урок 2: Пешеходный переход", "Правила перехода улицы.", [
           "Изучить зебру",
           "Научиться смотреть по сторонам",
           "Потренироваться переходить",
           "Запомнить правило: лево-право-лево"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/safety/lesson2.svg"),
         createLesson("Урок 3: Дорожные знаки", "Важные знаки для пешеходов.", [
           "Изучить знаки \"Пешеходный переход\"",
           "Изучить знаки \"Остановка\"",
           "Найти знаки на картинках",
           "Нарисовать знаки"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/safety/lesson3.svg"),
         createLesson("Урок 4: Безопасный маршрут", "Как ходить в школу.", [
           "Составить маршрут до школы",
           "Отметить опасные места",
           "Выбрать безопасный путь",
           "Пройти маршрут с родителями"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/safety/lesson4.svg")
       ]
     },
     {
@@ -47,25 +47,25 @@ export const lessons: SubjectData = {
           "Запомнить правила безопасности",
           "Научиться выключать приборы",
           "Не трогать розетки"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/safety/lesson5.svg"),
         createLesson("Урок 6: Огонь и горячее", "Осторожно с огнём!", [
           "Изучить опасность огня",
           "Не играть со спичками",
           "Осторожно с горячей водой",
           "Что делать при ожоге"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/safety/lesson6.svg"),
         createLesson("Урок 7: Лекарства и химия", "Опасные вещества.", [
           "Не трогать лекарства",
           "Не пить неизвестное",
           "Опасность бытовой химии",
           "Сообщать взрослым"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/safety/lesson7.svg"),
         createLesson("Урок 8: Один дома", "Правила безопасности.", [
           "Не открывать дверь чужим",
           "Не говорить по телефону",
           "Кому звонить в опасности",
           "Памятка важных номеров"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/safety/lesson8.svg")
       ]
     },
     {
@@ -76,25 +76,25 @@ export const lessons: SubjectData = {
           "Обработать антисептиком",
           "Наложить пластырь",
           "Обратиться к взрослым"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/safety/lesson9.svg"),
         createLesson("Урок 10: Носовое кровотечение", "Первая помощь.", [
           "Сесть и наклониться вперёд",
           "Приложить холод к носу",
           "Зажать нос",
           "Когда обращаться к врачу"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/safety/lesson10.svg"),
         createLesson("Урок 11: Вызов помощи", "Как вызвать 112.", [
           "Запомнить номер 112",
           "Что говорить по телефону",
           "Сообщить адрес",
           "Описать ситуацию"
-        ]),
+        ], "/school-curriculum-app/images/lessons/grade3/safety/lesson11.svg"),
         createLesson("Урок 12: Экстренные ситуации", "Что делать в опасности.", [
           "Не паниковать",
           "Позвать на помощь",
           "Позвонить взрослым",
           "Действовать спокойно"
-        ])
+        ], "/school-curriculum-app/images/lessons/grade3/safety/lesson12.svg")
       ]
     }
   ]
