@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Времена года",
+          image: "/images/lessons/grade0/world/lesson1-nature.svg",
           description: `**Знакомство с сезонами**
 
 В природе есть четыре времени года, или сезона. Каждый сезон имеет свои особенности и признаки.
@@ -64,6 +65,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Домашние животные",
+          image: "/images/lessons/grade0/world/lesson2-nature.svg",
           description: `**Знакомство с домашними животными**
 
 Домашние животные живут рядом с человеком. Люди заботятся о них, а животные приносят пользу.
@@ -124,6 +126,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Дикие животные",
+          image: "/images/lessons/grade0/world/lesson3-nature.svg",
           description: `**Животные леса**
 
 Дикие животные живут в лесу и других природных местах. Они сами добывают себе еду и строят жилища.
@@ -184,6 +187,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Правила безопасности",
+          image: "/images/lessons/grade0/world/lesson4-nature.svg",
           description: `**Основы безопасности**
 
 Безопасность — это защита от опасностей. Важно знать правила, чтобы не попасть в беду.
@@ -241,6 +245,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Части суток",
+          image: "/images/lessons/grade0/world/lesson5-plants.svg",
           description: `**Утро, день, вечер, ночь**
 
 Сутки делятся на четыре части: утро, день, вечер, ночь. Каждая часть имеет свои признаки.
@@ -289,6 +294,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Овощи и фрукты",
+          image: "/images/lessons/grade0/world/lesson6-plants.svg",
           description: `**Растения, которые мы едим**
 
 Овощи и фрукты — это растения, которые человек выращивает для питания. Они очень полезны!
@@ -340,6 +346,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Птицы",
+          image: "/images/lessons/grade0/world/lesson7-plants.svg",
           description: `**Знакомство с птицами**
 
 Птицы — это животные, которые умеют летать. У них есть крылья, перья и клюв.
@@ -404,6 +411,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Деревья",
+          image: "/images/lessons/grade0/world/lesson8-plants.svg",
           description: `**Деревья вокруг нас**
 
 Деревья — это крупные растения с твёрдым стволом. Они живут очень долго.

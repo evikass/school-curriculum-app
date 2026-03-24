@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Знакомство с прописью",
+          image: "/images/lessons/grade0/russian/lesson1-primer.svg",
           description: `**Первое занятие с прописью**
 
 Сегодня мы познакомимся с прописью — специальной тетрадью для обучения письму. Пропись поможет научиться красиво писать буквы и цифры.
@@ -46,6 +47,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Обведение контуров",
+          image: "/images/lessons/grade0/russian/lesson2-tracing.svg",
           description: `**Навык обведения по контуру**
 
 Обведение по контуру — это важный навык, который готовит руку к письму. Мы учимся управлять рукой, проводить линии точно по образцу.
@@ -83,6 +85,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Рисование линий",
+          image: "/images/lessons/grade0/russian/lesson3-lines.svg",
           description: `**Прямые, волнистые, ломаные линии**
 
 Сегодня мы научимся рисовать разные виды линий. Линии — это основа письма, из них состоят буквы.
@@ -125,6 +128,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Графический диктант",
+          image: "/images/lessons/grade0/russian/lesson4-writing.svg",
           description: `**Выполнение диктанта по клеточкам**
 
 Графический диктант — это упражнение, в котором нужно рисовать по клеточкам под диктовку. Это развивает внимание, память и умение ориентироваться.
@@ -176,6 +180,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Рисование узоров",
+          image: "/images/lessons/grade0/russian/lesson5-writing.svg",
           description: `**Узоры из линий и фигур**
 
 Узоры — это повторяющиеся элементы, которые создают красивый рисунок. Рисование узоров готовит руку к письму букв.
@@ -219,6 +224,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Элементы букв",
+          image: "/images/lessons/grade0/russian/lesson6-writing.svg",
           description: `**Палочки и крючочки**
 
 Сегодня мы начинаем учиться писать элементы букв. Каждый элемент — это часть буквы, из которых она состоит.
@@ -266,6 +272,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Петли и овалы",
+          image: "/images/lessons/grade0/russian/lesson7-writing.svg",
           description: `**Элементы букв: петли и овалы**
 
 Петли и овалы — это округлые элементы, которые входят в состав многих букв. Они требуют особого внимания и тренировки.
@@ -317,6 +324,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Письмо элементов",
+          image: "/images/lessons/grade0/russian/lesson8-writing.svg",
           description: `**Подготовка к письму букв**
 
 Сегодня мы объединим все изученные элементы и подготовимся к написанию первых букв.
