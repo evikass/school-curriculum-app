@@ -21,25 +21,25 @@ export const lessons: SubjectData = {
           "Согнуть бумагу",
           "Разорвать бумагу",
           "Смять бумагу"
-        ], "/images/lessons/grade1/tech/lesson1-paper.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/tech/lesson1-paper.svg"),
         createLesson("Урок 2: Сгибание", "Сгибаем по линейке. Учимся делать ровные сгибы.", [
           "Согнуть лист пополам",
           "Согнуть вчетверо",
           "Сделать сгибы ровными",
           "Создать гармошку"
-        ], "/images/lessons/grade1/tech/lesson2-folding.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/tech/lesson2-folding.svg"),
         createLesson("Урок 3: Резание", "Работа с ножницами. Правила безопасности при резании.", [
           "Правильно держать ножницы",
           "Вырезать по прямой",
           "Вырезать по кривой",
           "Вырезать фигуры"
-        ], "/images/lessons/grade1/tech/lesson3-cutting.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/tech/lesson3-cutting.svg"),
         createLesson("Урок 4: Склеивание", "Работа с клеем. Как правильно наносить клей и соединять детали.", [
           "Нанести клей кисточкой",
           "Прижить детали",
           "Протереть лишний клей",
           "Дать просохнуть"
-        ], "/images/lessons/grade1/tech/lesson4-gluing.svg")
+        ], "/school-curriculum-app/images/lessons/grade1/tech/lesson4-gluing.svg")
       ]
     },
     {
@@ -50,25 +50,25 @@ export const lessons: SubjectData = {
           "Вырезать середину",
           "Вырезать стебель",
           "Собрать и наклеить"
-        ], "/images/lessons/grade1/tech/lesson5-flower.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/tech/lesson5-flower.svg"),
         createLesson("Урок 6: Аппликация «Домик»", "Из геометрических фигур. Собираем домик из квадрата, треугольника и прямоугольников.", [
           "Вырезать квадрат",
           "Вырезать треугольник",
           "Вырезать прямоугольники",
           "Собрать домик"
-        ], "/images/lessons/grade1/tech/lesson6-house.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/tech/lesson6-house.svg"),
         createLesson("Урок 7: Аппликация «Животные»", "Звери из бумаги. Делаем котика и зайчика из геометрических фигур.", [
           "Вырезать туловище",
           "Вырезать голову",
           "Вырезать лапы",
           "Собрать животное"
-        ], "/images/lessons/grade1/tech/lesson7-animals.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/tech/lesson7-animals.svg"),
         createLesson("Урок 8: Аппликация «Дерево»", "Осеннее дерево с разноцветными листьями.", [
           "Вырезать ствол",
           "Вырезать крону",
           "Вырезать листья",
           "Собрать дерево"
-        ], "/images/lessons/grade1/tech/lesson8-tree.svg")
+        ], "/school-curriculum-app/images/lessons/grade1/tech/lesson8-tree.svg")
       ]
     },
     {
@@ -79,25 +79,25 @@ export const lessons: SubjectData = {
           "Вырезать украшения",
           "Наклеить детали",
           "Написать пожелание"
-        ], "/images/lessons/grade1/tech/lesson9-card.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/tech/lesson9-card.svg"),
         createLesson("Урок 10: Гирлянда", "Украшение для праздника. Флажки и фигурки на нитке.", [
           "Вырезать флажки",
           "Вырезать фигуры",
           "Нанизать на нитку",
           "Развесить гирлянду"
-        ], "/images/lessons/grade1/tech/lesson10-garland.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/tech/lesson10-garland.svg"),
         createLesson("Урок 11: Закладка", "Для книг. Красивая закладка с узором.", [
           "Вырезать закладку",
           "Украсить рисунком",
           "Сделать красивый край",
           "Использовать в книге"
-        ], "/images/lessons/grade1/tech/lesson11-bookmark.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/tech/lesson11-bookmark.svg"),
         createLesson("Урок 12: Мобиле", "Подвесная поделка из бумаги.", [
           "Вырезать фигуры",
           "Прикрепить нити",
           "Собрать конструкцию",
           "Подвесить мобиле"
-        ], "/images/lessons/grade1/tech/lesson12-mobile.svg")
+        ], "/school-curriculum-app/images/lessons/grade1/tech/lesson12-mobile.svg")
       ]
     }
   ]

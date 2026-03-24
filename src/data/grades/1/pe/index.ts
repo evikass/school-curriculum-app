@@ -21,25 +21,25 @@ export const lessons: SubjectData = {
           "Принять положение «смирно»",
           "Выполнить повороты",
           "Разойтись на разминку"
-        ], "/images/lessons/grade1/pe/lesson1-formation.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/pe/lesson1-formation.svg"),
         createLesson("Урок 2: Ходьба", "Разные виды ходьбы.", [
           "Ходьба на носках",
           "Ходьба на пятках",
           "Ходьба в полуприседе",
           "Ходьба приставным шагом"
-        ], "/images/lessons/grade1/pe/lesson2-walking.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/pe/lesson2-walking.svg"),
         createLesson("Урок 3: Бег", "Беговые упражнения.", [
           "Бег с высокого старта",
           "Бег с низкого старта",
           "Челночный бег",
           "Бег на скорость"
-        ], "/images/lessons/grade1/pe/lesson3-running.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/pe/lesson3-running.svg"),
         createLesson("Урок 4: Прыжки", "Прыжковые упражнения.", [
           "Прыжок в длину с места",
           "Прыжок в высоту",
           "Прыжок через препятствие",
           "Многоскоки"
-        ], "/images/lessons/grade1/pe/lesson4-jumping.svg")
+        ], "/school-curriculum-app/images/lessons/grade1/pe/lesson4-jumping.svg")
       ]
     },
     {
@@ -50,25 +50,25 @@ export const lessons: SubjectData = {
           "Выбрать водящего",
           "Искать спрятавшихся",
           "Меняться ролями"
-        ], "/images/lessons/grade1/pe/lesson5-hide-seek.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/pe/lesson5-hide-seek.svg"),
         createLesson("Урок 6: Догонялки", "Бег за лидером.", [
           "Выбрать догоняющего",
           "Бежать от догоняющего",
           "Осалить догоняющего",
           "Меняться ролями"
-        ], "/images/lessons/grade1/pe/lesson6-tag.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/pe/lesson6-tag.svg"),
         createLesson("Урок 7: Эстафета", "Командные соревнования.", [
           "Разделиться на команды",
           "Передать эстафетную палочку",
           "Пробежать свой этап",
           "Привести команду к победе"
-        ], "/images/lessons/grade1/pe/lesson7-relay.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/pe/lesson7-relay.svg"),
         createLesson("Урок 8: Игры с мячом", "Футбол и баскетбол.", [
           "Передача мяча",
           "Броски в цель",
           "Отбивание мяча",
           "Футбол или баскетбол"
-        ], "/images/lessons/grade1/pe/lesson8-ball-games.svg")
+        ], "/school-curriculum-app/images/lessons/grade1/pe/lesson8-ball-games.svg")
       ]
     },
     {
@@ -79,7 +79,7 @@ export const lessons: SubjectData = {
           "Встать на лыжи",
           "Пройти ступающим шагом",
           "Пройти скользящим шагом"
-        ], "/images/lessons/grade1/pe/lesson9-skiing.svg")
+        ], "/school-curriculum-app/images/lessons/grade1/pe/lesson9-skiing.svg")
       ]
     }
   ]

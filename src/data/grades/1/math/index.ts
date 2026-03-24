@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: 🔢 Число и цифра 1",
-          image: "/images/lessons/grade1/math/lesson1-number-1.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson1-number-1.svg",
           description: `## 🔢 Знакомство с числом 1
 
 **Число 1** — это самое первое число в математике. Оно обозначает один предмет и является началом счёта.
@@ -75,7 +75,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: 🦢 Число и цифра 2",
-          image: "/images/lessons/grade1/math/lesson2-number-2.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson2-number-2.svg",
           description: `## 🦢 Знакомство с числом 2
 
 **Число 2** — это два предмета вместе. Число 2 идёт после числа 1 и обозначает пару!
@@ -142,7 +142,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: 🐰 Число и цифра 3",
-          image: "/images/lessons/grade1/math/lesson3-number-3.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson3-number-3.svg",
           description: `## 🐰 Знакомство с числом 3
 
 **Число 3** — это три предмета. Три — волшебное число в сказках и легендах!
@@ -211,7 +211,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: ➕➖✖️➗ Знаки +, -, =",
-          image: "/images/lessons/grade1/math/lesson4-signs.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson4-signs.svg",
           description: `## ➕➖✖️➗ Арифметические знаки
 
 Сегодня мы выучим три важных знака для решения примеров! Это «помощники» математики.
@@ -287,7 +287,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 5: 🪑 Числа 4 и 5",
-          image: "/images/lessons/grade1/math/lesson5-numbers-4-5.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson5-numbers-4-5.svg",
           description: `## 🪑 Знакомство с числами 4 и 5
 
 Сегодня изучаем сразу два числа — 4 и 5! Они очень важные и интересные.
@@ -371,7 +371,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: 🎲 Числа 6-10",
-          image: "/images/lessons/grade1/math/lesson6-numbers-6-10.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson6-numbers-6-10.svg",
           description: `## 🎲 Числа от 6 до 10
 
 Заканчиваем изучать числа первого десятка! Это числа 6, 7, 8, 9, 10.
@@ -482,7 +482,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 7: ➕ Сложение чисел",
-          image: "/images/lessons/grade1/math/lesson7-addition.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson7-addition.svg",
           description: `## ➕ Что такое сложение?
 
 **Сложение** — это объединение предметов в одну группу. Когда мы складываем, предметов становится больше.
@@ -558,7 +558,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: ➖ Вычитание чисел",
-          image: "/images/lessons/grade1/math/lesson8-subtraction.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson8-subtraction.svg",
           description: `## ➖ Что такое вычитание?
 
 **Вычитание** — это удаление части предметов. Когда мы вычитаем, предметов становится меньше.
@@ -633,7 +633,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 9: ⬆️ Прибавить и вычесть 1",
-          image: "/images/lessons/grade1/math/lesson9-plus-minus-1.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson9-plus-minus-1.svg",
           description: `## ⬆️ Прибавляем и вычитаем 1
 
 Сегодня мы выучим самые простые примеры! Прибавить и вычесть 1 — это основа всей математики.
@@ -715,7 +715,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 10: ⬆️⬆️ Прибавить и вычесть 2",
-          image: "/images/lessons/grade1/math/lesson10-plus-minus-2.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson10-plus-minus-2.svg",
           description: `## ⬆️⬆️ Прибавляем и вычитаем 2
 
 Как прибавить 2? Можно прибавить 1, потом ещё раз 1! Два маленьких шага — один большой.
@@ -793,7 +793,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 11: ⬆️⬆️⬆️ Прибавить и вычесть 3",
-          image: "/images/lessons/grade1/math/lesson11-plus-minus-3.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson11-plus-minus-3.svg",
           description: `## ⬆️⬆️⬆️ Прибавляем и вычитаем 3
 
 Как прибавить 3? Можно разными способами! Три — это «волшебное» число.
@@ -874,7 +874,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 12: 🔷 Геометрические фигуры",
-          image: "/images/lessons/grade1/math/lesson12-shapes.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson12-shapes.svg",
           description: `## 🔷 Знакомство с геометрическими фигурами
 
 Геометрические фигуры — это формы предметов. Все предметы вокруг нас имеют форму!
@@ -963,7 +963,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 13: 📏 Точка и линия",
-          image: "/images/lessons/grade1/math/lesson13-point-line.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/math/lesson13-point-line.svg",
           description: `## 📏 Точка, линия, отрезок
 
 Сегодня изучаем основные элементы геометрии!

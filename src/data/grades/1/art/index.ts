@@ -21,25 +21,25 @@ export const lessons: SubjectData = {
           "Найти красные предметы в классе",
           "Найти синие предметы",
           "Раскрасить радугу по порядку"
-        ], "/images/lessons/grade1/art/lesson1-rainbow-colors.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/art/lesson1-rainbow-colors.svg"),
         createLesson("Урок 2: Основные цвета", "Красный, жёлтый, синий.", [
           "Узнать красный цвет",
           "Узнать жёлтый цвет",
           "Узнать синий цвет",
           "Найти предметы основных цветов"
-        ], "/images/lessons/grade1/art/lesson2-primary-colors.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/art/lesson2-primary-colors.svg"),
         createLesson("Урок 3: Смешивание цветов", "Получаем новые цвета.", [
           "Красный + жёлтый = оранжевый",
           "Синий + жёлтый = зелёный",
           "Красный + синий = фиолетовый",
           "Нарисовать цветовой круг"
-        ], "/images/lessons/grade1/art/lesson3-mixing-colors.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/art/lesson3-mixing-colors.svg"),
         createLesson("Урок 4: Тёплые и холодные", "Температура цвета.", [
           "Узнать тёплые цвета",
           "Узнать холодные цвета",
           "Нарисовать солнце тёплыми цветами",
           "Нарисовать снег холодными цветами"
-        ], "/images/lessons/grade1/art/lesson4-warm-cold.svg")
+        ], "/school-curriculum-app/images/lessons/grade1/art/lesson4-warm-cold.svg")
       ]
     },
     {
@@ -50,25 +50,25 @@ export const lessons: SubjectData = {
           "Нарисовать волнистую линию",
           "Нарисовать ломаную линию",
           "Создать узор из линий"
-        ], "/images/lessons/grade1/art/lesson5-lines.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/art/lesson5-lines.svg"),
         createLesson("Урок 6: Геометрические фигуры", "Круг, квадрат, треугольник.", [
           "Нарисовать круг",
           "Нарисовать квадрат",
           "Нарисовать треугольник",
           "Составить рисунок из фигур"
-        ], "/images/lessons/grade1/art/lesson6-shapes.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/art/lesson6-shapes.svg"),
         createLesson("Урок 7: Штриховка", "Закрашиваем фигуры.", [
           "Заштриховать круг",
           "Заштриховать квадрат",
           "Заштриховать треугольник",
           "Создать узор штриховкой"
-        ], "/images/lessons/grade1/art/lesson7-hatching.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/art/lesson7-hatching.svg"),
         createLesson("Урок 8: Контур и заливка", "Обводим и красим.", [
           "Обвести фигуры по контуру",
           "Закрасить фигуры",
           "Создать аппликацию из фигур",
           "Составить орнамент"
-        ], "/images/lessons/grade1/art/lesson8-contour-fill.svg")
+        ], "/school-curriculum-app/images/lessons/grade1/art/lesson8-contour-fill.svg")
       ]
     },
     {
@@ -79,25 +79,25 @@ export const lessons: SubjectData = {
           "Набрать краску на кисточку",
           "Нарисовать небо",
           "Нарисовать траву"
-        ], "/images/lessons/grade1/art/lesson9-brush-painting.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/art/lesson9-brush-painting.svg"),
         createLesson("Урок 10: Акварель", "Прозрачные краски.", [
           "Узнать свойства акварели",
           "Нарисовать цветок акварелью",
           "Сделать развод красок",
           "Нарисовать пейзаж"
-        ], "/images/lessons/grade1/art/lesson10-watercolor.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/art/lesson10-watercolor.svg"),
         createLesson("Урок 11: Гуашь", "Плотные краски.", [
           "Узнать свойства гуаши",
           "Закрасить фигуру гуашью",
           "Нарисовать узор гуашью",
           "Создать открытку"
-        ], "/images/lessons/grade1/art/lesson11-gouache.svg"),
+        ], "/school-curriculum-app/images/lessons/grade1/art/lesson11-gouache.svg"),
         createLesson("Урок 12: Свободное рисование", "Творчество.", [
           "Выбрать тему рисунка",
           "Нарисовать свою картину",
           "Рассказать о рисунке",
           "Оформить работу"
-        ], "/images/lessons/grade1/art/lesson12-free-drawing.svg")
+        ], "/school-curriculum-app/images/lessons/grade1/art/lesson12-free-drawing.svg")
       ]
     }
   ]

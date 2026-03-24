@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: 🍞 «Колобок»",
-          image: "/images/lessons/grade1/literature/lesson1-kolobok.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/literature/lesson1-kolobok.svg",
           description: `## 🍞 Русская народная сказка «Колобок»
 
 **Жили-были старик со старухой.** Однажды старик говорит:
@@ -73,7 +73,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: 🏠 «Теремок»",
-          image: "/images/lessons/grade1/literature/lesson2-teremok.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/literature/lesson2-teremok.svg",
           description: `## 🏠 Русская народная сказка «Теремок»
 
 **Стоял в поле теремок.** Был он ни низок, ни высок, ни узок, ни широк. Красивый теремок, с окошками, с дверью!
@@ -136,7 +136,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: 🥕 «Репка»",
-          image: "/images/lessons/grade1/literature/lesson3-repka.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/literature/lesson3-repka.svg",
           description: `## 🥕 Русская народная сказка «Репка»
 
 **Посадил дед репку.** Выросла репка большая-пребольшая! Такую огромную — глазам не верится!
@@ -204,7 +204,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: 🐔 «Курочка Ряба»",
-          image: "/images/lessons/grade1/literature/lesson4-ryaba.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/literature/lesson4-ryaba.svg",
           description: `## 🐔 Русская народная сказка «Курочка Ряба»
 
 **Жили-были дед да баба.** И была у них Курочка Ряба — красивая, пёстрая, умная!
@@ -270,7 +270,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: 🐟 А.С. Пушкин «Сказка о рыбаке и рыбке»",
-          image: "/images/lessons/grade1/literature/lesson5-fisherman.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/literature/lesson5-fisherman.svg",
           description: `## 🐟 Александр Сергеевич Пушкин
 
 **Александр Сергеевич Пушкин** — великий русский поэт. Написал много сказок для детей и взрослых.
@@ -337,7 +337,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: 🪰 К.И. Чуковский «Муха-Цокотуха»",
-          image: "/images/lessons/grade1/literature/lesson6-muha.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/literature/lesson6-muha.svg",
           description: `## 🪰 Корней Иванович Чуковский
 
 **Корней Иванович Чуковский** — любимый детский писатель! Его стихи весёлые и легко запоминаются.
@@ -418,7 +418,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: 👨‍⚕️ К.И. Чуковский «Доктор Айболит»",
-          image: "/images/lessons/grade1/literature/lesson7-aibolit.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/literature/lesson7-aibolit.svg",
           description: `## 👨‍⚕️ «Доктор Айболит»
 
 **Добрый доктор Айболит!**
@@ -504,7 +504,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 8: 🧸 А.Л. Барто «Игрушки»",
-          image: "/images/lessons/grade1/literature/lesson8-barto.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/literature/lesson8-barto.svg",
           description: `## 🧸 Агния Львовна Барто
 
 **Агния Львовна Барто** — любимая детская поэтесса! Её стихи знают все дети.
@@ -577,7 +577,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 9: 🐦 С.Я. Маршак «Детям»",
-          image: "/images/lessons/grade1/literature/lesson9-marshak.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/literature/lesson9-marshak.svg",
           description: `## 🐦 Самуил Яковлевич Маршак
 
 **Самуил Яковлевич Маршак** — замечательный детский поэт и переводчик!
@@ -655,7 +655,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 10: 📏 С.В. Михалков «Дети»",
-          image: "/images/lessons/grade1/literature/lesson10-mikhalkov.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/literature/lesson10-mikhalkov.svg",
           description: `## 📏 Сергей Владимирович Михалков
 
 **Сергей Владимирович Михалков** — известный детский поэт! Написал гимн России.
@@ -737,7 +737,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 11: 🏫 В.Д. Берестов «Первый в школе»",
-          image: "/images/lessons/grade1/literature/lesson11-berestov.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/literature/lesson11-berestov.svg",
           description: `## 🏫 Валентин Дмитриевич Берестов
 
 **Валентин Дмитриевич Берестов** — детский поэт и писатель. Пишет о школе и детях.
@@ -805,7 +805,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 12: 🌳 И.А. Бунин «Детство»",
-          image: "/images/lessons/grade1/literature/lesson12-bunin.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/literature/lesson12-bunin.svg",
           description: `## 🌳 Иван Алексеевич Бунин
 
 **Иван Алексеевич Бунин** — русский писатель и поэт, лауреат Нобелевской премии.

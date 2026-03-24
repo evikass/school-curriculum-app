@@ -16,7 +16,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: 🗣️ Гласные и согласные звуки",
-          image: "/images/lessons/grade1/russian/lesson1-vowels-consonants.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/russian/lesson1-vowels-consonants.svg",
           description: `## 🗣️ Звуки речи
 
 **Звуки речи** — это то, что мы слышим и произносим. Буквы — это знаки, которыми мы записываем звуки на письме.
@@ -82,7 +82,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: 🔔 Звонкие и глухие согласные",
-          image: "/images/lessons/grade1/russian/lesson2-voiced-voiceless.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/russian/lesson2-voiced-voiceless.svg",
           description: `## 🔔 Звонкие и глухие согласные
 
 Согласные звуки делятся на звонкие и глухие.
@@ -151,7 +151,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: 📏 Твёрдые и мягкие согласные",
-          image: "/images/lessons/grade1/russian/lesson3-hard-soft.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/russian/lesson3-hard-soft.svg",
           description: `## 📏 Твёрдые и мягкие согласные
 
 В русском языке согласные могут быть твёрдыми и мягкими.
@@ -222,7 +222,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: 📊 Деление слов на слоги",
-          image: "/images/lessons/grade1/russian/lesson4-syllables.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/russian/lesson4-syllables.svg",
           description: `## 📊 Слоги в словах
 
 **Слог** — это часть слова, которую можно произнести одним выдохом.
@@ -302,7 +302,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: 📝 Слово и его значение",
-          image: "/images/lessons/grade1/russian/lesson5-word-meaning.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/russian/lesson5-word-meaning.svg",
           description: `## 📝 Слово и его значение
 
 **Слово** — это название предмета, признака, действия или количества.
@@ -387,7 +387,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: ✍️ Предложение",
-          image: "/images/lessons/grade1/russian/lesson6-sentence.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/russian/lesson6-sentence.svg",
           description: `## ✍️ Предложение
 
 **Предложение** — это одно или несколько слов, которые выражают законченную мысль.
@@ -459,7 +459,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: 🅰️ Большая буква в словах",
-          image: "/images/lessons/grade1/russian/lesson7-capital-letters.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/russian/lesson7-capital-letters.svg",
           description: `## 🅰️ Большая буква в словах
 
 Большая (заглавная) буква пишется в определённых случаях.
@@ -539,7 +539,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 8: ✏️ Правила ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ",
-          image: "/images/lessons/grade1/russian/lesson8-zhi-shi.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/russian/lesson8-zhi-shi.svg",
           description: `## ✏️ Правила написания ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ
 
 Эти правила нужно запомнить! Это орфограммы — написания, которые нельзя проверить.
@@ -616,7 +616,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 9: 🌙 Мягкий знак на конце слов",
-          image: "/images/lessons/grade1/russian/lesson9-soft-sign.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/russian/lesson9-soft-sign.svg",
           description: `## 🌙 Мягкий знак на конце слов
 
 **Мягкий знак (Ь)** показывает мягкость согласного звука.
@@ -680,7 +680,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 10: ➡️ Перенос слов",
-          image: "/images/lessons/grade1/russian/lesson10-word-transfer.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/russian/lesson10-word-transfer.svg",
           description: `## ➡️ Правила переноса слов
 
 Слова переносятся с одной строки на другую по слогам.

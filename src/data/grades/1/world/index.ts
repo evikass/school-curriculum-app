@@ -15,7 +15,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Что такое окружающий мир?",
-          image: "/images/lessons/grade1/world/lesson1-nature.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/world/lesson1-nature.svg",
           description: `**Окружающий мир**
 
 Окружающий мир — это всё, что нас окружает: природа, люди, предметы.
@@ -62,7 +62,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Живая и неживая природа",
-          image: "/images/lessons/grade1/world/lesson2-living-nonliving.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/world/lesson2-living-nonliving.svg",
           description: `**Живая и неживая природа**
 
 Природа делится на живую и неживую.
@@ -113,7 +113,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Времена года",
-          image: "/images/lessons/grade1/world/lesson3-seasons.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/world/lesson3-seasons.svg",
           description: `**Времена года**
 
 В году 4 времени года: зима, весна, лето, осень.
@@ -164,7 +164,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Растения",
-          image: "/images/lessons/grade1/world/lesson4-plants.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/world/lesson4-plants.svg",
           description: `**Растения**
 
 Растения — это живые организмы, которые дышат, питаются, растут и размножаются.
@@ -223,7 +223,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Домашние животные",
-          image: "/images/lessons/grade1/world/lesson5-domestic-animals.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/world/lesson5-domestic-animals.svg",
           description: `**Домашние животные**
 
 Домашние животные — это животные, которые живут с человеком и приносят ему пользу.
@@ -287,7 +287,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Дикие животные",
-          image: "/images/lessons/grade1/world/lesson6-wild-animals.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/world/lesson6-wild-animals.svg",
           description: `**Дикие животные**
 
 Дикие животные — это животные, которые живут в природе и сами добывают себе еду.
@@ -351,7 +351,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Птицы",
-          image: "/images/lessons/grade1/world/lesson7-birds.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/world/lesson7-birds.svg",
           description: `**Птицы**
 
 Птицы — это животные, у которых есть крылья и перья. Большинство птиц умеет летать.
@@ -403,7 +403,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Правила безопасности",
-          image: "/images/lessons/grade1/world/lesson8-safety.svg",
+          image: "/school-curriculum-app/images/lessons/grade1/world/lesson8-safety.svg",
           description: `**Правила безопасности**
 
 Безопасность — это защита от опасностей.
