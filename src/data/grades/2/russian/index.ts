@@ -7,14 +7,16 @@ const createLesson = (
   tasks: string[],
   theory?: string,
   examples?: string[],
-  facts?: string[]
+  facts?: string[],
+  image?: string
 ) => ({
   title,
   description,
   tasks,
   theory,
   examples,
-  facts
+  facts,
+  image
 })
 
 export const lessons: SubjectData = {
@@ -77,7 +79,8 @@ export const lessons: SubjectData = {
             "💡 В русском языке около 50 000 существительных!",
             "💡 Существительные могут обозначать не только предметы, но и явления: дождь, гроза, радость.",
             "💡 Самое длинное существительное в русском языке — «превысокомногорассмотрительствующий»!"
-          ]
+          ],
+          "/school-curriculum-app/images/lessons/grade2/russian/lesson1.svg"
         ),
         createLesson(
           "Урок 2: 🎨 Имя прилагательное",
@@ -135,7 +138,8 @@ export const lessons: SubjectData = {
             "💡 Прилагательные делают нашу речь точной и красивой!",
             "💡 Без прилагательных мы не смогли бы описать, какой предмет.",
             "💡 В русском языке более 30 000 прилагательных!"
-          ]
+          ],
+          "/school-curriculum-app/images/lessons/grade2/russian/lesson2.svg"
         ),
         createLesson(
           "Урок 3: 🏃 Глагол",
@@ -194,7 +198,8 @@ export const lessons: SubjectData = {
             "💡 Глагол — самая подвижная часть речи, у него много форм!",
             "💡 В русском языке глаголы имеют три времени, а в английском — больше!",
             "💡 Самые употребительные глаголы: быть, иметь, говорить, знать."
-          ]
+          ],
+          "/school-curriculum-app/images/lessons/grade2/russian/lesson3.svg"
         ),
         createLesson(
           "Урок 4: 🔗 Связь слов в предложении",
@@ -266,7 +271,8 @@ export const lessons: SubjectData = {
             "💡 Предложение с одним главным членом называется односоставным!",
             "💡 В русском языке есть предложения без подлежащего: «Темнеет.»",
             "💡 Знаки препинания помогают понять смысл предложения!"
-          ]
+          ],
+          "/school-curriculum-app/images/lessons/grade2/russian/lesson4.svg"
         )
       ]
     },
@@ -332,7 +338,8 @@ export const lessons: SubjectData = {
             "💡 В русском языке около 500 словарных слов с непроверяемыми гласными!",
             "💡 Ударение в русском языке свободное — может падать на любой слог.",
             "💡 Чтобы запомнить словарные слова, можно придумать стих или ассоциацию!"
-          ]
+          ],
+          "/school-curriculum-app/images/lessons/grade2/russian/lesson5.svg"
         ),
         createLesson(
           "Урок 6: 🎯 Парные согласные в корне",
@@ -396,7 +403,8 @@ export const lessons: SubjectData = {
             "💡 Парные согласные названы так, потому что у каждого звонкого есть парный глухой!",
             "💡 В слове «гриб» слышим [п], но пишем Б — проверяем словом «грибы»!",
             "💡 Самые частые ошибки — в словах: ду[п], моро[с], сапо[к]!"
-          ]
+          ],
+          "/school-curriculum-app/images/lessons/grade2/russian/lesson6.svg"
         ),
         createLesson(
           "Урок 7: ❄️ Разделительный мягкий знак",
@@ -462,7 +470,8 @@ export const lessons: SubjectData = {
             "💡 Разделительный Ь «разделяет» согласный и гласный звуки!",
             "💡 При произношении разделительного Ь появляется звук [й]!",
             "💡 В словах с разделительным Ь всегда слышится [й] после согласного!"
-          ]
+          ],
+          "/school-curriculum-app/images/lessons/grade2/russian/lesson7.svg"
         ),
         createLesson(
           "Урок 8: 📎 Правописание приставок",
@@ -526,7 +535,8 @@ export const lessons: SubjectData = {
             "💡 Приставки образуют новые слова: ходить → выходить → переходить!",
             "💡 В русском языке около 50 приставок!",
             "💡 Приставка З- не бывает в русском языке: нет слов «збежать», «зделать»!"
-          ]
+          ],
+          "/school-curriculum-app/images/lessons/grade2/russian/lesson8.svg"
         )
       ]
     },
@@ -607,7 +617,8 @@ export const lessons: SubjectData = {
             "💡 Самое древнее произведение — «Эпос о Гильгамеше», ему около 4000 лет!",
             "💡 Текст может состоять всего из одного предложения: «Осень.»",
             "💡 Заголовок — это «имя» текста, он помогает понять тему!"
-          ]
+          ],
+          "/school-curriculum-app/images/lessons/grade2/russian/lesson9.svg"
         ),
         createLesson(
           "Урок 10: 📋 План текста",
@@ -691,7 +702,8 @@ export const lessons: SubjectData = {
             "💡 План — это «скелет» текста, его основа!",
             "💡 Хороший план помогает запомнить текст надолго!",
             "💡 В школе часто просят составить план — это полезный навык!"
-          ]
+          ],
+          "/school-curriculum-app/images/lessons/grade2/russian/lesson10.svg"
         )
       ]
     }

@@ -68,7 +68,8 @@ export const lessons: SubjectData = {
             "Назвать виды танцев",
             "Похлопать ритм марша",
             "Определить жанр музыки"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/music/lesson1.svg"
         },
         {
           title: "Урок 2: Мелодия и ритм",
@@ -119,7 +120,8 @@ export const lessons: SubjectData = {
             "Похлопать ритмический рисунок",
             "Определить движение мелодии",
             "Сравнить ритмы разных песен"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/music/lesson2.svg"
         },
         {
           title: "Урок 3: Темп и динамика",
@@ -175,7 +177,8 @@ export const lessons: SubjectData = {
             "Показать динамику голосом",
             "Определить темп музыкального произведения",
             "Исполнить мелодию с изменением громкости"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/music/lesson3.svg"
         },
         {
           title: "Урок 4: Музыкальные инструменты",
@@ -226,7 +229,8 @@ export const lessons: SubjectData = {
             "Угадать инструмент по звуку",
             "Рассказать о струнных инструментах",
             "Определить инструменты в оркестре"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/music/lesson4.svg"
         }
       ]
     },
@@ -285,7 +289,8 @@ export const lessons: SubjectData = {
             "Спеть народную песню",
             "Объяснить особенности лирической песни",
             "Разучить хороводную песню"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/music/lesson5.svg"
         },
         {
           title: "Урок 6: Композиторы России",
@@ -346,7 +351,8 @@ export const lessons: SubjectData = {
             "Рассказать о Чайковском",
             "Назвать произведения Глинки",
             "Прослушать фрагмент из «Щелкунчика»"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/music/lesson6.svg"
         }
       ]
     }

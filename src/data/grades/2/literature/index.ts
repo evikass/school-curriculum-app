@@ -50,7 +50,8 @@ export const lessons: SubjectData = {
             "Найти особенности сказок",
             "Определить героев и их роли",
             "Пересказать любимую сказку"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson1.svg"
         },
         {
           title: "Урок 2: Сказка «Колобок»",
@@ -98,7 +99,8 @@ export const lessons: SubjectData = {
             "Выучить песенку Колобка",
             "Пересказать сюжет",
             "Объяснить главную мысль"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson2.svg"
         },
         {
           title: "Урок 3: Сказка «Теремок»",
@@ -139,7 +141,8 @@ export const lessons: SubjectData = {
             "Запомнить жителей теремка",
             "Пересказать по ролям",
             "Объяснить смысл сказки"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson3.svg"
         },
         {
           title: "Урок 4: Пословицы и поговорки",
@@ -187,7 +190,8 @@ export const lessons: SubjectData = {
             "Объяснить смысл пословиц",
             "Придумать рассказ с пословицей",
             "Сравнить пословицы разных народов"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson4.svg"
         }
       ]
     },
@@ -233,7 +237,8 @@ export const lessons: SubjectData = {
             "Выучить отрывок наизусть",
             "Пересказать сюжет",
             "Найти главную мысль"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson5.svg"
         },
         {
           title: "Урок 6: И.А. Крылов",
@@ -275,7 +280,8 @@ export const lessons: SubjectData = {
             "Выучить мораль басни",
             "Инсценировать басню",
             "Объяснить, что высмеивает басня"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson6.svg"
         },
         {
           title: "Урок 7: Л.Н. Толстой",
@@ -321,7 +327,8 @@ export const lessons: SubjectData = {
             "Пересказать сюжет",
             "Объяснить главную мысль",
             "Описать главного героя"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson7.svg"
         },
         {
           title: "Урок 8: К.И. Чуковский",
@@ -372,7 +379,8 @@ export const lessons: SubjectData = {
             "Выучить отрывок наизусть",
             "Пересказать сюжет",
             "Найти главную мысль"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson8.svg"
         }
       ]
     },
@@ -417,7 +425,8 @@ export const lessons: SubjectData = {
             "Сравнить с русскими сказками",
             "Пересказать сюжет",
             "Описать главных героев"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson9.svg"
         },
         {
           title: "Урок 10: Ганс Христиан Андерсен",
@@ -462,7 +471,8 @@ export const lessons: SubjectData = {
             "Обсудить поступки героев",
             "Найти главную мысль",
             "Сравнить со сказками Перро"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/literature/lesson10.svg"
         }
       ]
     }

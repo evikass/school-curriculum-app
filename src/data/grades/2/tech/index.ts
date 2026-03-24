@@ -64,7 +64,8 @@ export const lessons: SubjectData = {
             "Определить свойства бумаги",
             "Сравнить бумагу и картон",
             "Вырезать простые фигуры"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/tech/lesson1.svg"
         },
         {
           title: "Урок 2: Аппликация «Цветы»",
@@ -126,7 +127,8 @@ export const lessons: SubjectData = {
             "Вырезать детали цветов",
             "Составить композицию",
             "Наклеить детали"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/tech/lesson2.svg"
         },
         {
           title: "Урок 3: Оригами «Голубь»",
@@ -183,7 +185,8 @@ export const lessons: SubjectData = {
             "Выполнить оригами «Голубь»",
             "Сделать самолёт из бумаги",
             "Украсить поделку"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/tech/lesson3.svg"
         },
         {
           title: "Урок 4: Объёмные поделки",
@@ -243,7 +246,8 @@ export const lessons: SubjectData = {
             "Сделать поделку «Гриб»",
             "Выполнить «Ёлочку»",
             "Создать свою объёмную поделку"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/tech/lesson4.svg"
         }
       ]
     },
@@ -316,7 +320,8 @@ export const lessons: SubjectData = {
             "Сделать ёжика из шишки",
             "Выполнить поделку по выбору",
             "Украсить поделку"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/tech/lesson5.svg"
         },
         {
           title: "Урок 6: Аппликация из листьев",
@@ -379,7 +384,8 @@ export const lessons: SubjectData = {
             "Сделать рыбку из листьев",
             "Выполнить аппликацию по выбору",
             "Создать осеннюю картину"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/tech/lesson6.svg"
         }
       ]
     }

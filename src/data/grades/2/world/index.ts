@@ -52,7 +52,8 @@ export const lessons: SubjectData = {
             "Разделить объекты на живые и неживые",
             "Привести примеры связи живой и неживой природы",
             "Объяснить, почему человек — часть живой природы"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson1.svg"
         },
         {
           title: "Урок 2: Явления природы",
@@ -101,7 +102,8 @@ export const lessons: SubjectData = {
             "Привести примеры явлений живой природы",
             "Объяснить, почему происходит листопад",
             "Описать явления каждого сезона"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson2.svg"
         },
         {
           title: "Урок 3: Водоёмы",
@@ -148,7 +150,8 @@ export const lessons: SubjectData = {
             "Объяснить разницу между рекой и озером",
             "Назвать части реки",
             "Рассказать, как охранять водоёмы"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson3.svg"
         },
         {
           title: "Урок 4: Полезные ископаемые",
@@ -195,7 +198,8 @@ export const lessons: SubjectData = {
             "Объяснить, как используют нефть и газ",
             "Назвать способы добычи ископаемых",
             "Рассказать об охране недр"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson4.svg"
         }
       ]
     },
@@ -251,7 +255,8 @@ export const lessons: SubjectData = {
             "Объяснить отличие дерева от кустарника",
             "Перечислить значение растений",
             "Рассказать об охране растений"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson5.svg"
         },
         {
           title: "Урок 6: Животные и их группы",
@@ -308,7 +313,8 @@ export const lessons: SubjectData = {
             "Объяснить признаки каждой группы",
             "Привести примеры животных каждой группы",
             "Сравнить птиц и насекомых"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson6.svg"
         },
         {
           title: "Урок 7: Красная книга",
@@ -360,7 +366,8 @@ export const lessons: SubjectData = {
             "Назвать животных из Красной книги",
             "Перечислить причины исчезновения видов",
             "Рассказать, как помочь природе"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson7.svg"
         },
         {
           title: "Урок 8: Охрана природы",
@@ -418,7 +425,8 @@ export const lessons: SubjectData = {
             "Назвать правила поведения в лесу",
             "Объяснить, как сортировать мусор",
             "Рассказать, что может сделать каждый"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/world/lesson8.svg"
         }
       ]
     }

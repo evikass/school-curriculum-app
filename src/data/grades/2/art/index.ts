@@ -47,7 +47,8 @@ export const lessons: SubjectData = {
             "Объяснить, что такое картина",
             "Назвать известных художников",
             "Рассказать о видах живописи"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson1.svg"
         },
         {
           title: "Урок 2: Пейзаж",
@@ -93,7 +94,8 @@ export const lessons: SubjectData = {
             "Назвать виды пейзажа",
             "Рассказать о линии горизонта",
             "Нарисовать простой пейзаж"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson2.svg"
         },
         {
           title: "Урок 3: Натюрморт",
@@ -140,7 +142,8 @@ export const lessons: SubjectData = {
             "Назвать правила композиции",
             "Рассказать о свете и тени",
             "Нарисовать простой натюрморт"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson3.svg"
         },
         {
           title: "Урок 4: Портрет",
@@ -187,7 +190,8 @@ export const lessons: SubjectData = {
             "Назвать виды портрета",
             "Рассказать о пропорциях лица",
             "Нарисовать простой портрет"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson4.svg"
         }
       ]
     },
@@ -245,7 +249,8 @@ export const lessons: SubjectData = {
             "Назвать особенности узора",
             "Объяснить символы узоров",
             "Раскрасить силуэт дымковской игрушки"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson5.svg"
         },
         {
           title: "Урок 6: Хохломская роспись",
@@ -292,7 +297,8 @@ export const lessons: SubjectData = {
             "Назвать элементы росписи",
             "Объяснить, почему посуда «золотая»",
             "Нарисовать элемент хохломской росписи"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson6.svg"
         },
         {
           title: "Урок 7: Гжельская керамика",
@@ -340,7 +346,8 @@ export const lessons: SubjectData = {
             "Назвать характерные цвета",
             "Объяснить элементы росписи",
             "Нарисовать элемент гжельской росписи"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson7.svg"
         },
         {
           title: "Урок 8: Городецкая роспись",
@@ -388,7 +395,8 @@ export const lessons: SubjectData = {
             "Назвать элементы росписи",
             "Объяснить технику росписи",
             "Нарисовать элемент городецкой росписи"
-          ]
+          ],
+          image: "/school-curriculum-app/images/lessons/grade2/art/lesson8.svg"
         }
       ]
     }
