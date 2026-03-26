@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes softPulse { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.05); opacity: 0.8; } }
+      @keyframes underline { 0%, 100% { stroke-dashoffset: 0; } 50% { stroke-dashoffset: 10; } }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      .soft { animation: softPulse 2s ease-in-out infinite; }
+      .word { animation: float 2.5s ease-in-out infinite; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#f0fdf4"/>
+  
+  <!-- Title -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#15803d">Мягкий знак на конце слов 🌙</text>
+  
+  <!-- Main rule -->
+  <rect x="20" y="50" width="460" height="50" fill="#dcfce7" rx="10"/>
+  <text x="250" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#15803d">Ь показывает мягкость согласного звука</text>
+  
+  <!-- Comparison -->
+  <rect x="20" y="110" width="220" height="80" fill="#fef3c7" rx="12"/>
+  <text x="130" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#b45309">Без мягкого знака</text>
+  <g class="word">
+    <text x="80" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#d97706">КОН</text>
+    <text x="150" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">— [н] твёрдый</text>
+  </g>
+  
+  <rect x="260" y="110" width="220" height="80" fill="#ecfdf5" rx="12"/>
+  <text x="370" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#059669">С мягким знаком</text>
+  <g class="word" style="animation-delay: 0.3s">
+    <text x="320" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#10b981">КОНЬ</text>
+    <text x="400" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#047857">— [н'] мягкий</text>
+  </g>
+  
+  <!-- Soft sign character -->
+  <g class="soft">
+    <circle cx="250" cy="230" r="25" fill="#8b5cf6"/>
+    <text x="250" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="white">Ь</text>
+  </g>
+  <text x="250" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7c3aed">«Тихая» буква — не обозначает звука</text>
+  
+  <!-- More examples -->
+  <rect x="20" y="285" width="150" height="55" fill="#fef2f2" rx="8"/>
+  <text x="95" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Предметы</text>
+  <text x="95" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#ef4444">КОНЬ 🐴 ГУСЬ 🦢</text>
+  
+  <rect x="180" y="285" width="140" height="55" fill="#dbeafe" rx="8"/>
+  <text x="250" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2563eb">Действия</text>
+  <text x="250" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#3b82f6">ПИСАТЬ ЧИТАТЬ</text>
+  
+  <rect x="330" y="285" width="150" height="55" fill="#fefce8" rx="8"/>
+  <text x="405" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ca8a04">Признаки</text>
+  <text x="405" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#eab308">СИЛЬНЫЙ СМЕЛЫЙ</text>
+</svg>

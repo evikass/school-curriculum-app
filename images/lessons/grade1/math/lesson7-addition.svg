@@ -1,59 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#e8f5e9"/>
-      <stop offset="100%" style="stop-color:#c8e6c9"/>
-    </linearGradient>
-  </defs>
-  <rect width="400" height="300" fill="url(#bg)"/>
-  
-  <!-- Example: 2 + 3 = 5 -->
-  <text x="200" y="80" font-family="Arial Black, sans-serif" font-size="36" fill="#2e7d32" text-anchor="middle" font-weight="bold">2 + 3 = 5</text>
-  
-  <!-- Visual representation -->
-  <!-- Two apples -->
-  <g transform="translate(60, 130)">
-    <ellipse cx="15" cy="15" rx="14" ry="16" fill="#f44336">
-      <animate attributeName="ry" values="16;18;16" dur="1.5s" repeatCount="indefinite"/>
-    </ellipse>
-    <rect x="13" y="-2" width="4" height="8" fill="#795548"/>
-    <ellipse cx="15" cy="15" rx="14" ry="16" fill="#f44336"/>
-    <ellipse cx="45" cy="15" rx="14" ry="16" fill="#c62828">
-      <animate attributeName="ry" values="16;18;16" dur="1.8s" repeatCount="indefinite"/>
-    </ellipse>
-    <rect x="43" y="-2" width="4" height="8" fill="#795548"/>
-  </g>
-  
-  <!-- Plus sign -->
-  <text x="140" y="150" font-family="Arial Black, sans-serif" font-size="30" fill="#4caf50">+</text>
-  
-  <!-- Three apples -->
-  <g transform="translate(170, 130)">
-    <ellipse cx="15" cy="15" rx="14" ry="16" fill="#ff9800"/>
-    <rect x="13" y="-2" width="4" height="8" fill="#795548"/>
-    <ellipse cx="45" cy="15" rx="14" ry="16" fill="#ffb74d"/>
-    <rect x="43" y="-2" width="4" height="8" fill="#795548"/>
-    <ellipse cx="75" cy="15" rx="14" ry="16" fill="#ff9800"/>
-    <rect x="73" y="-2" width="4" height="8" fill="#795548"/>
-  </g>
-  
-  <!-- Equals sign -->
-  <text x="290" y="150" font-family="Arial Black, sans-serif" font-size="30" fill="#2196f3">=</text>
-  
-  <!-- Five apples (result) -->
-  <g transform="translate(50, 200)">
-    <ellipse cx="0" cy="0" rx="12" ry="14" fill="#f44336"/>
-    <ellipse cx="30" cy="0" rx="12" ry="14" fill="#c62828"/>
-    <ellipse cx="60" cy="0" rx="12" ry="14" fill="#ff9800"/>
-    <ellipse cx="90" cy="0" rx="12" ry="14" fill="#ffb74d"/>
-    <ellipse cx="120" cy="0" rx="12" ry="14" fill="#f44336"/>
-  </g>
-  
-  <!-- Arrow showing result -->
-  <path d="M200,180 L200,210" stroke="#2e7d32" stroke-width="3" marker-end="url(#arrow)">
-    <animate attributeName="opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite"/>
-  </path>
-  
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <style>
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes plus-grow {
+      0%, 100% { transform: scale(1) rotate(0deg); }
+      50% { transform: scale(1.2) rotate(90deg); }
+    }
+    @keyframes move-right {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(20px); }
+    }
+    @keyframes pop {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+    }
+    .apple { animation: bounce 2s ease-in-out infinite; }
+    .plus { animation: plus-grow 3s ease-in-out infinite; transform-origin: center; }
+    .result { animation: pop 1.5s ease-in-out infinite; }
+  </style>
+  <!-- Background -->
+  <rect width="400" height="400" fill="#fff7ed" rx="20"/>
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="20" fill="#fed7aa" opacity="0.6"/>
+  <circle cx="350" cy="350" r="25" fill="#fef3c7" opacity="0.6"/>
+  <circle cx="370" cy="60" r="15" fill="#bbf7d0" opacity="0.6"/>
   <!-- Title -->
-  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#1b5e20" text-anchor="middle" font-weight="bold">Сложение</text>
+  <text x="200" y="50" font-size="24" fill="#ea580c" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">СЛОЖЕНИЕ</text>
+  <!-- Main equation: 2 + 2 = 4 -->
+  <g transform="translate(50, 100)">
+    <!-- First group: 2 apples -->
+    <g class="apple">
+      <circle cx="30" cy="80" r="25" fill="#ef4444"/>
+      <ellipse cx="30" cy="55" rx="5" ry="8" fill="#22c55e"/>
+      <path d="M 30 55 Q 35 45 30 40" stroke="#78350f" stroke-width="2" fill="none"/>
+      <text x="30" y="90" font-size="30" fill="white" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">2</text>
+    </g>
+    <!-- Plus sign -->
+    <g class="plus" transform="translate(80, 80)">
+      <rect x="-20" y="-5" width="40" height="10" fill="#22c55e" rx="3"/>
+      <rect x="-5" y="-20" width="10" height="40" fill="#22c55e" rx="3"/>
+    </g>
+    <!-- Second group: 2 apples -->
+    <g class="apple" style="animation-delay: 0.3s">
+      <circle cx="170" cy="80" r="25" fill="#ef4444"/>
+      <ellipse cx="170" cy="55" rx="5" ry="8" fill="#22c55e"/>
+      <path d="M 170 55 Q 175 45 170 40" stroke="#78350f" stroke-width="2" fill="none"/>
+      <text x="170" y="90" font-size="30" fill="white" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">2</text>
+    </g>
+    <!-- Equals sign -->
+    <g transform="translate(210, 80)">
+      <rect x="-20" y="-10" width="40" height="8" fill="#6366f1" rx="2"/>
+      <rect x="-20" y="5" width="40" height="8" fill="#6366f1" rx="2"/>
+    </g>
+    <!-- Result: 4 -->
+    <g class="result">
+      <text x="280" y="95" font-size="60" fill="#3b82f6" font-family="Arial, sans-serif" font-weight="bold">4</text>
+    </g>
+  </g>
+  <!-- Visual example with circles -->
+  <g transform="translate(50, 220)">
+    <text x="150" y="0" font-size="14" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">ОБЪЕДИНЯЕМ ПРЕДМЕТЫ</text>
+    <!-- First group circles -->
+    <circle cx="40" cy="50" r="18" fill="#fca5a5" class="apple"/>
+    <circle cx="75" cy="50" r="18" fill="#fca5a5" class="apple" style="animation-delay: 0.2s"/>
+    <!-- Plus -->
+    <text x="105" y="58" font-size="30" fill="#22c55e" font-family="Arial, sans-serif" font-weight="bold">+</text>
+    <!-- Second group circles -->
+    <circle cx="140" cy="50" r="18" fill="#fca5a5" class="apple" style="animation-delay: 0.4s"/>
+    <circle cx="175" cy="50" r="18" fill="#fca5a5" class="apple" style="animation-delay: 0.6s"/>
+    <!-- Arrow -->
+    <path d="M 200 50 L 230 50" stroke="#6366f1" stroke-width="3" fill="none"/>
+    <polygon points="230,50 220,45 220,55" fill="#6366f1"/>
+    <!-- Result circles -->
+    <circle cx="260" cy="50" r="18" fill="#86efac" class="result"/>
+    <circle cx="295" cy="50" r="18" fill="#86efac" class="result" style="animation-delay: 0.2s"/>
+    <circle cx="260" cy="85" r="18" fill="#86efac" class="result" style="animation-delay: 0.4s"/>
+    <circle cx="295" cy="85" r="18" fill="#86efac" class="result" style="animation-delay: 0.6s"/>
+  </g>
+  <!-- Formula -->
+  <g transform="translate(200, 370)">
+    <text x="0" y="0" font-size="18" fill="#6366f1" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">2 + 2 = 4</text>
+  </g>
 </svg>

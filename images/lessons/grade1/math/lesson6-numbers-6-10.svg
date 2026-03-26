@@ -1,86 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f3e5f5"/>
-      <stop offset="100%" style="stop-color:#e1bee7"/>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <rect width="400" height="300" fill="url(#bg)"/>
-  
+  <style>
+    @keyframes wave {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.1); opacity: 0.9; }
+    }
+    @keyframes rainbow {
+      0% { fill: #ef4444; }
+      16% { fill: #f97316; }
+      33% { fill: #eab308; }
+      50% { fill: #22c55e; }
+      66% { fill: #3b82f6; }
+      83% { fill: #8b5cf6; }
+      100% { fill: #ef4444; }
+    }
+    .num { animation: pulse 2s ease-in-out infinite; }
+    .wave { animation: wave 1.5s ease-in-out infinite; }
+    .rainbow { animation: rainbow 5s linear infinite; }
+  </style>
+  <!-- Background -->
+  <rect width="400" height="400" fill="#faf5ff" rx="20"/>
+  <!-- Rainbow decoration -->
+  <path d="M 50 100 Q 200 -20 350 100" fill="none" stroke-width="20" stroke="#ef4444" opacity="0.7"/>
+  <path d="M 60 105 Q 200 0 340 105" fill="none" stroke-width="15" stroke="#f97316" opacity="0.7"/>
+  <path d="M 70 110 Q 200 20 330 110" fill="none" stroke-width="12" stroke="#eab308" opacity="0.7"/>
+  <path d="M 80 115 Q 200 40 320 115" fill="none" stroke-width="10" stroke="#22c55e" opacity="0.7"/>
+  <path d="M 90 120 Q 200 55 310 120" fill="none" stroke-width="8" stroke="#3b82f6" opacity="0.7"/>
   <!-- Numbers 6-10 in a row -->
-  <text x="80" y="100" font-family="Arial Black, sans-serif" font-size="40" fill="#7b1fa2" text-anchor="middle" font-weight="bold">
-    6
-    <animate attributeName="y" values="100;95;100" dur="1.5s" repeatCount="indefinite"/>
-  </text>
-  <text x="140" y="100" font-family="Arial Black, sans-serif" font-size="40" fill="#9c27b0" text-anchor="middle" font-weight="bold">
-    7
-    <animate attributeName="y" values="100;95;100" dur="1.8s" repeatCount="indefinite"/>
-  </text>
-  <text x="200" y="100" font-family="Arial Black, sans-serif" font-size="40" fill="#ab47bc" text-anchor="middle" font-weight="bold">
-    8
-    <animate attributeName="y" values="100;95;100" dur="2s" repeatCount="indefinite"/>
-  </text>
-  <text x="260" y="100" font-family="Arial Black, sans-serif" font-size="40" fill="#ba68c8" text-anchor="middle" font-weight="bold">
-    9
-    <animate attributeName="y" values="100;95;100" dur="1.6s" repeatCount="indefinite"/>
-  </text>
-  <text x="320" y="100" font-family="Arial Black, sans-serif" font-size="40" fill="#ce93d8" text-anchor="middle" font-weight="bold">
-    10
-    <animate attributeName="y" values="100;95;100" dur="2.2s" repeatCount="indefinite"/>
-  </text>
-  
-  <!-- Dots representing numbers -->
-  <g fill="#7b1fa2">
-    <circle cx="68" cy="140" r="5"/>
-    <circle cx="92" cy="140" r="5"/>
-    <circle cx="68" cy="155" r="5"/>
-    <circle cx="92" cy="155" r="5"/>
-    <circle cx="68" cy="170" r="5"/>
-    <circle cx="92" cy="170" r="5"/>
+  <g class="wave" transform="translate(20, 180)">
+    <text class="num" x="0" y="60" font-size="55" font-weight="bold" fill="#ef4444" font-family="Arial">6</text>
+    <circle cx="25" cy="90" r="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
   </g>
-  <g fill="#9c27b0">
-    <circle cx="128" cy="140" r="5"/>
-    <circle cx="152" cy="140" r="5"/>
-    <circle cx="128" cy="155" r="5"/>
-    <circle cx="152" cy="155" r="5"/>
-    <circle cx="128" cy="170" r="5"/>
-    <circle cx="152" cy="170" r="5"/>
-    <circle cx="140" cy="185" r="5"/>
+  <g class="wave" style="animation-delay: 0.2s" transform="translate(90, 180)">
+    <text class="num" x="0" y="60" font-size="55" font-weight="bold" fill="#f97316" font-family="Arial">7</text>
+    <polygon points="25,75 30,90 45,90 33,100 38,115 25,105 12,115 17,100 5,90 20,90" fill="#fcd34d" transform="scale(0.6) translate(15, 15)"/>
   </g>
-  <g fill="#ab47bc">
-    <circle cx="188" cy="140" r="5"/>
-    <circle cx="212" cy="140" r="5"/>
-    <circle cx="188" cy="155" r="5"/>
-    <circle cx="212" cy="155" r="5"/>
-    <circle cx="188" cy="170" r="5"/>
-    <circle cx="212" cy="170" r="5"/>
-    <circle cx="188" cy="185" r="5"/>
-    <circle cx="212" cy="185" r="5"/>
+  <g class="wave" style="animation-delay: 0.4s" transform="translate(160, 180)">
+    <text class="num" x="0" y="60" font-size="55" font-weight="bold" fill="#eab308" font-family="Arial">8</text>
+    <!-- Snowman -->
+    <circle cx="25" cy="80" r="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+    <circle cx="25" cy="95" r="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+    <circle cx="23" cy="78" r="1.5" fill="#1e293b"/>
+    <circle cx="27" cy="78" r="1.5" fill="#1e293b"/>
   </g>
-  <g fill="#ba68c8">
-    <circle cx="248" cy="140" r="5"/>
-    <circle cx="272" cy="140" r="5"/>
-    <circle cx="248" cy="155" r="5"/>
-    <circle cx="272" cy="155" r="5"/>
-    <circle cx="248" cy="170" r="5"/>
-    <circle cx="272" cy="170" r="5"/>
-    <circle cx="248" cy="185" r="5"/>
-    <circle cx="272" cy="185" r="5"/>
-    <circle cx="260" cy="200" r="5"/>
+  <g class="wave" style="animation-delay: 0.6s" transform="translate(230, 180)">
+    <text class="num" x="0" y="60" font-size="55" font-weight="bold" fill="#22c55e" font-family="Arial">9</text>
+    <!-- Balloon -->
+    <ellipse cx="25" cy="75" rx="12" ry="15" fill="#f472b6"/>
+    <path d="M 25 90 L 25 105" stroke="#94a3b8" stroke-width="1"/>
   </g>
-  <g fill="#ce93d8">
-    <circle cx="308" cy="140" r="5"/>
-    <circle cx="332" cy="140" r="5"/>
-    <circle cx="308" cy="155" r="5"/>
-    <circle cx="332" cy="155" r="5"/>
-    <circle cx="308" cy="170" r="5"/>
-    <circle cx="332" cy="170" r="5"/>
-    <circle cx="308" cy="185" r="5"/>
-    <circle cx="332" cy="185" r="5"/>
-    <circle cx="308" cy="200" r="5"/>
-    <circle cx="332" cy="200" r="5"/>
+  <g class="wave" style="animation-delay: 0.8s" transform="translate(300, 180)">
+    <text class="num" x="0" y="60" font-size="55" font-weight="bold" fill="#3b82f6" font-family="Arial">10</text>
   </g>
-  
-  <!-- Title -->
-  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#6a1b9a" text-anchor="middle" font-weight="bold">Числа 6-10</text>
+  <!-- Ten fingers -->
+  <g transform="translate(100, 290)">
+    <rect x="0" y="10" width="8" height="35" rx="4" fill="#fef3c7"/>
+    <rect x="12" y="5" width="8" height="40" rx="4" fill="#fef3c7"/>
+    <rect x="24" y="0" width="8" height="45" rx="4" fill="#fef3c7"/>
+    <rect x="36" y="5" width="8" height="40" rx="4" fill="#fef3c7"/>
+    <rect x="48" y="15" width="8" height="30" rx="4" fill="#fef3c7"/>
+    <!-- Second hand -->
+    <rect x="70" y="10" width="8" height="35" rx="4" fill="#fef3c7"/>
+    <rect x="82" y="5" width="8" height="40" rx="4" fill="#fef3c7"/>
+    <rect x="94" y="0" width="8" height="45" rx="4" fill="#fef3c7"/>
+    <rect x="106" y="5" width="8" height="40" rx="4" fill="#fef3c7"/>
+    <rect x="118" y="15" width="8" height="30" rx="4" fill="#fef3c7"/>
+    <rect x="0" y="50" width="130" height="20" rx="5" fill="#fef3c7"/>
+  </g>
+  <!-- Label -->
+  <text x="200" y="385" font-size="16" fill="#7c3aed" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">ЧИСЛА 6 - 10</text>
 </svg>

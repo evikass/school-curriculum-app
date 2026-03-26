@@ -52,25 +52,42 @@
   </g>
   
   <g transform="translate(370, 90)">
-    <!-- И -->
+    <!-- Э -->
     <circle class="float" style="animation-delay: 0.8s" cx="50" cy="50" r="40" fill="#87CEEB" stroke="#4682B4" stroke-width="3"/>
-    <text x="50" y="60" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">И</text>
-    <text x="50" y="110" font-family="Arial" font-size="10" fill="#4169E1" text-anchor="middle">и-и-и!</text>
+    <text x="50" y="60" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">Э</text>
+    <text x="50" y="110" font-family="Arial" font-size="10" fill="#4682B4" text-anchor="middle">э-э-э!</text>
   </g>
   
-  <!-- Sound waves -->
-  <g transform="translate(100, 220)">
-    <path class="pulse" d="M10 50 Q30 30 50 50 Q70 70 90 50 Q110 30 130 50" stroke="#FFA500" stroke-width="3" fill="none"/>
-    <path class="pulse" style="animation-delay: 0.3s" d="M10 70 Q30 50 50 70 Q70 90 90 70 Q110 50 130 70" stroke="#FF8C00" stroke-width="3" fill="none"/>
-    <path class="pulse" style="animation-delay: 0.6s" d="M10 90 Q30 70 50 90 Q70 110 90 90 Q110 70 130 90" stroke="#FFD700" stroke-width="3" fill="none"/>
+  <!-- Second row - Iotated vowels -->
+  <g transform="translate(90, 210)">
+    <!-- Я -->
+    <circle class="pulse" cx="50" cy="40" r="38" fill="#FF69B4" stroke="#C71585" stroke-width="3"/>
+    <text x="50" y="50" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Я</text>
+    <text x="50" y="95" font-family="Arial" font-size="10" fill="#C71585" text-anchor="middle">я-я-я!</text>
   </g>
   
-  <!-- Mouth illustration -->
-  <g transform="translate(280, 210)">
-    <ellipse cx="60" cy="40" rx="50" ry="35" fill="#FFE4C4" stroke="#D2691E" stroke-width="2"/>
-    <ellipse cx="60" cy="50" rx="30" ry="20" fill="#8B0000"/>
-    <ellipse class="color" cx="60" cy="45" rx="20" ry="12" fill="#FF6B6B"/>
+  <g transform="translate(170, 210)">
+    <!-- Ё -->
+    <circle class="pulse" style="animation-delay: 0.3s" cx="50" cy="40" r="38" fill="#DDA0DD" stroke="#9370DB" stroke-width="3"/>
+    <text x="50" y="50" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Ё</text>
+    <text x="50" y="95" font-family="Arial" font-size="10" fill="#9370DB" text-anchor="middle">ё-ё-ё!</text>
   </g>
   
-  <text x="250" y="330" font-family="Arial" font-size="14" fill="#FF8C00" text-anchor="middle">Гласные можно пропеть: А, О, У, И, Ы, Э</text>
+  <g transform="translate(250, 210)">
+    <!-- Ю -->
+    <circle class="pulse" style="animation-delay: 0.6s" cx="50" cy="40" r="38" fill="#98FB98" stroke="#32CD32" stroke-width="3"/>
+    <text x="50" y="50" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Ю</text>
+    <text x="50" y="95" font-family="Arial" font-size="10" fill="#228B22" text-anchor="middle">ю-ю-ю!</text>
+  </g>
+  
+  <g transform="translate(330, 210)">
+    <!-- Е -->
+    <circle class="pulse" style="animation-delay: 0.9s" cx="50" cy="40" r="38" fill="#F0E68C" stroke="#BDB76B" stroke-width="3"/>
+    <text x="50" y="50" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Е</text>
+    <text x="50" y="95" font-family="Arial" font-size="10" fill="#8B8B00" text-anchor="middle">е-е-е!</text>
+  </g>
+  
+  <!-- Tip box -->
+  <rect x="20" y="310" width="460" height="35" rx="10" fill="#FFF8DC" stroke="#FFA500" stroke-width="2"/>
+  <text x="250" y="333" font-family="Arial" font-size="13" fill="#FF8C00" text-anchor="middle">💡 Гласные можно петь: А, О, У, Ы, Э, Я, Ё, Ю, Е — их 10!</text>
 </svg>

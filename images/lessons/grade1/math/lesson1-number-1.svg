@@ -1,50 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#e0f7fa"/>
-      <stop offset="100%" style="stop-color:#b2ebf2"/>
-    </linearGradient>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-15px) scale(1.1); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+      @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      .number { animation: bounce 2s ease-in-out infinite; }
+      .dot { animation: pulse 1.5s ease-in-out infinite; }
+      .sun { animation: spin 20s linear infinite; }
+    </style>
   </defs>
-  <rect width="400" height="300" fill="url(#bg)"/>
   
-  <!-- Number 1 -->
-  <text x="200" y="180" font-family="Arial Black, sans-serif" font-size="120" fill="#1976d2" text-anchor="middle" font-weight="bold">
-    1
-    <animate attributeName="font-size" values="120;125;120" dur="2s" repeatCount="indefinite"/>
-  </text>
-  
-  <!-- Single objects -->
-  <!-- Sun -->
-  <circle cx="80" cy="60" r="25" fill="#ffeb3b">
-    <animate attributeName="r" values="25;27;25" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <g stroke="#ffeb3b" stroke-width="3">
-    <line x1="80" y1="25" x2="80" y2="15"/>
-    <line x1="80" y1="95" x2="80" y2="105"/>
-    <line x1="45" y1="60" x2="35" y2="60"/>
-    <line x1="115" y1="60" x2="125" y2="60"/>
-  </g>
-  
-  <!-- Apple -->
-  <ellipse cx="320" cy="65" rx="20" ry="22" fill="#f44336">
-    <animate attributeName="ry" values="22;24;22" dur="1.8s" repeatCount="indefinite"/>
-  </ellipse>
-  <rect x="318" y="40" width="4" height="8" fill="#795548"/>
-  <ellipse cx="328" y="48" rx="6" ry="4" fill="#4caf50"/>
-  
-  <!-- Star -->
-  <polygon points="80,240 85,255 100,255 88,265 93,280 80,270 67,280 72,265 60,255 75,255" fill="#ffc107">
-    <animate attributeName="opacity" values="1;0.8;1" dur="1s" repeatCount="indefinite"/>
-  </polygon>
-  
-  <!-- Flower -->
-  <circle cx="320" cy="240" r="12" fill="#e91e63"/>
-  <circle cx="308" cy="230" r="10" fill="#f48fb1"/>
-  <circle cx="332" cy="230" r="10" fill="#f48fb1"/>
-  <circle cx="308" cy="250" r="10" fill="#f48fb1"/>
-  <circle cx="332" cy="250" r="10" fill="#f48fb1"/>
-  <circle cx="320" cy="240" r="8" fill="#ffeb3b"/>
+  <!-- Background -->
+  <rect width="500" height="350" fill="#fef3c7"/>
   
   <!-- Title -->
-  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#1565c0" text-anchor="middle" font-weight="bold">Число и цифра 1</text>
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#b45309">Число и цифра 1 🔢</text>
+  
+  <!-- Big number 1 -->
+  <g class="number">
+    <rect x="180" y="55" width="140" height="160" fill="#f59e0b" rx="20"/>
+    <text x="250" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="100" font-weight="bold" fill="white">1</text>
+  </g>
+  
+  <!-- One sun -->
+  <g class="sun" style="transform-origin: 420px 100px">
+    <circle cx="420" cy="100" r="30" fill="#fbbf24"/>
+    <g stroke="#f59e0b" stroke-width="3">
+      <line x1="420" y1="60" x2="420" y2="45"/>
+      <line x1="420" y1="140" x2="420" y2="155"/>
+      <line x1="380" y1="100" x2="365" y2="100"/>
+      <line x1="460" y1="100" x2="475" y2="100"/>
+      <line x1="395" y1="75" x2="385" y2="65"/>
+      <line x1="445" y1="125" x2="455" y2="135"/>
+      <line x1="395" y1="125" x2="385" y2="135"/>
+      <line x1="445" y1="75" x2="455" y2="65"/>
+    </g>
+  </g>
+  <text x="420" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">1 солнце ☀️</text>
+  
+  <!-- Examples -->
+  <rect x="20" y="225" width="150" height="50" fill="#dcfce7" rx="10"/>
+  <text x="95" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#15803d">🍎 1 яблоко</text>
+  <text x="95" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">Один предмет</text>
+  
+  <rect x="180" y="225" width="140" height="50" fill="#dbeafe" rx="10"/>
+  <text x="250" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2563eb">📅 1 день</text>
+  <text x="250" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1d4ed8">Первый день недели</text>
+  
+  <rect x="330" y="225" width="150" height="50" fill="#fce7f3" rx="10"/>
+  <text x="405" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#db2777">🥇 1 место</text>
+  <text x="405" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#be185d">Победа!</text>
+  
+  <!-- Die with one dot -->
+  <g class="dot">
+    <rect x="50" y="80" width="80" height="80" fill="white" rx="10" stroke="#e5e7eb" stroke-width="2"/>
+    <circle cx="90" cy="120" r="12" fill="#1f2937"/>
+  </g>
+  <text x="90" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">1 точка на кубике</text>
+  
+  <!-- How to write -->
+  <rect x="20" y="285" width="460" height="55" fill="#f8fafc" rx="10"/>
+  <text x="250" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">Как писать цифру 1</text>
+  <text x="250" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Начинаем сверху → наклонная линия вниз до нижней линии клетки</text>
 </svg>

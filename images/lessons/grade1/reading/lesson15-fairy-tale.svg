@@ -1,60 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#fce4ec"/>
-      <stop offset="100%" style="stop-color:#f8bbd9"/>
+      <stop offset="0%" style="stop-color:#e1f5fe"/>
+      <stop offset="100%" style="stop-color:#b3e5fc"/>
     </linearGradient>
   </defs>
   <rect width="400" height="300" fill="url(#bg)"/>
-  <text x="200" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ad1457" text-anchor="middle">✨ Придумываем сказку</text>
+  <text x="200" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0277bd" text-anchor="middle">Придумываем сказку</text>
   
-  <!-- Magic castle -->
-  <g transform="translate(150, 70)">
-    <polygon points="50,0 100,50 0,50" fill="#ce93d8">
-      <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
-    </polygon>
-    <rect x="20" y="50" width="60" height="60" fill="#ab47bc"/>
-    <rect x="35" y="80" width="30" height="30" fill="#7b1fa2"/>
-    <circle cx="50" cy="95" r="3" fill="#ffeb3b"/>
-  </g>
+  <!-- Fairy tale castle -->
+  <polygon points="200,50 170,100 230,100" fill="#ce93d8"/>
+  <rect x="180" y="100" width="40" height="40" fill="#ba68c8"/>
+  <rect x="175" y="140" width="50" height="30" fill="#ab47bc"/>
+  <circle cx="200" cy="130" r="5" fill="#ffd54f"/>
   
+  <!-- Stars/sparkles -->
+  <circle cx="150" cy="70" r="4" fill="#ffd54f">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="65" r="3" fill="#ffd54f">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="130" cy="100" r="3" fill="#ff80ab">
+    <animate attributeName="opacity" values="1;0.5;1" dur="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="270" cy="90" r="4" fill="#ff80ab">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Fairy tale elements -->
   <!-- Hero -->
-  <g transform="translate(40, 120)">
-    <circle cx="30" cy="30" r="25" fill="#ffcc80">
-      <animate attributeName="cy" values="30;25;30" dur="1.5s" repeatCount="indefinite"/>
-    </circle>
-    <text x="30" y="38" font-family="Arial" font-size="20" text-anchor="middle">🧒</text>
-    <text x="30" y="70" font-family="Arial" font-size="10" fill="#5d4037" text-anchor="middle">Герой</text>
-  </g>
+  <rect x="30" y="170" width="80" height="110" fill="#fff" stroke="#7b1fa2" stroke-width="2" rx="8"/>
+  <text x="70" y="190" font-family="Arial" font-size="11" font-weight="bold" fill="#6a1b9a" text-anchor="middle">ГЕРОЙ</text>
+  <text x="70" y="220" font-family="Arial" font-size="14" text-anchor="middle">👸</text>
+  <text x="70" y="240" font-family="Arial" font-size="9" fill="#7b1fa2" text-anchor="middle">Кто главный</text>
+  <text x="70" y="255" font-family="Arial" font-size="9" fill="#7b1fa2" text-anchor="middle">персонаж?</text>
   
-  <!-- Magic wand -->
-  <g transform="translate(280, 100)">
-    <rect x="0" y="0" width="8" height="60" fill="#795548" rx="2" transform="rotate(30)"/>
-    <polygon points="4,0 15,10 4,15" fill="#ffeb3b">
-      <animate attributeName="opacity" values="1;0.5;1" dur="0.5s" repeatCount="indefinite"/>
-    </polygon>
-    <text x="10" y="80" font-family="Arial" font-size="10" fill="#6a1b9a" text-anchor="middle">Волшебство</text>
-  </g>
+  <!-- Magic -->
+  <rect x="120" y="170" width="80" height="110" fill="#fff" stroke="#00897b" stroke-width="2" rx="8"/>
+  <text x="160" y="190" font-family="Arial" font-size="11" font-weight="bold" fill="#00695c" text-anchor="middle">ВОЛШЕБСТВО</text>
+  <text x="160" y="220" font-family="Arial" font-size="14" text-anchor="middle">✨</text>
+  <text x="160" y="240" font-family="Arial" font-size="9" fill="#00897b" text-anchor="middle">Какое</text>
+  <text x="160" y="255" font-family="Arial" font-size="9" fill="#00897b" text-anchor="middle">чудо?</text>
   
-  <!-- Dragon/Adventure -->
-  <g transform="translate(310, 160)">
-    <text x="30" y="30" font-family="Arial" font-size="35" text-anchor="middle">🐉</text>
-    <text x="30" y="55" font-family="Arial" font-size="10" fill="#c62828" text-anchor="middle">Приключение</text>
-  </g>
+  <!-- Adventure -->
+  <rect x="210" y="170" width="80" height="110" fill="#fff" stroke="#e65100" stroke-width="2" rx="8"/>
+  <text x="250" y="190" font-family="Arial" font-size="11" font-weight="bold" fill="#bf360c" text-anchor="middle">ПРИКЛЮЧЕНИЕ</text>
+  <text x="250" y="220" font-family="Arial" font-size="14" text-anchor="middle">🗺️</text>
+  <text x="250" y="240" font-family="Arial" font-size="9" fill="#e65100" text-anchor="middle">Что</text>
+  <text x="250" y="255" font-family="Arial" font-size="9" fill="#e65100" text-anchor="middle">случилось?</text>
   
-  <!-- Story elements -->
-  <g font-family="Arial" font-size="11" fill="#7b1fa2">
-    <text x="30" y="230">📖 Жили-были...</text>
-    <text x="30" y="248">🏰 В некотором царстве...</text>
-    <text x="30" y="266">⏰ Давным-давно...</text>
-  </g>
+  <!-- Happy end -->
+  <rect x="300" y="170" width="80" height="110" fill="#fff" stroke="#388e3c" stroke-width="2" rx="8"/>
+  <text x="340" y="190" font-family="Arial" font-size="11" font-weight="bold" fill="#2e7d32" text-anchor="middle">СЧАСТЛИВЫЙ</text>
+  <text x="340" y="205" font-family="Arial" font-size="11" font-weight="bold" fill="#2e7d32" text-anchor="middle">КОНЕЦ</text>
+  <text x="340" y="235" font-family="Arial" font-size="14" text-anchor="middle">❤️</text>
+  <text x="340" y="260" font-family="Arial" font-size="9" fill="#388e3c" text-anchor="middle">Добро победит!</text>
   
-  <!-- Happy ending -->
-  <g transform="translate(280, 210)">
-    <circle cx="30" cy="30" r="25" fill="#81c784">
-      <animate attributeName="r" values="25;28;25" dur="1s" repeatCount="indefinite"/>
-    </circle>
-    <text x="30" y="38" font-family="Arial" font-size="20" text-anchor="middle">❤️</text>
-    <text x="30" y="70" font-family="Arial" font-size="10" fill="#2e7d32" text-anchor="middle">Добро побеждает!</text>
-  </g>
+  <!-- Wand -->
+  <line x1="280" y1="50" x2="320" y2="80" stroke="#ffd54f" stroke-width="3"/>
+  <polygon points="320,75 330,85 315,85" fill="#ffd54f">
+    <animate attributeName="opacity" values="1;0.5;1" dur="0.5s" repeatCount="indefinite"/>
+  </polygon>
+  
+  <text x="200" y="295" font-family="Arial" font-size="11" fill="#4a148c" text-anchor="middle">В сказке возможно всё, что ты придумаешь!</text>
 </svg>

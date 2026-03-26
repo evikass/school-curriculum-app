@@ -8,7 +8,8 @@
   <rect width="400" height="300" fill="url(#bg)"/>
   <text x="200" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e65100" text-anchor="middle">Что такое рассказ?</text>
   
-  <!-- Story structure - Beginning -->
+  <!-- Story structure -->
+  <!-- Beginning -->
   <rect x="30" y="60" width="100" height="180" fill="#81d4fa" rx="10"/>
   <text x="80" y="85" font-family="Arial" font-size="14" font-weight="bold" fill="#01579b" text-anchor="middle">НАЧАЛО</text>
   <circle cx="80" cy="120" r="25" fill="#4fc3f7">
@@ -46,8 +47,10 @@
   <text x="320" y="232" font-family="Arial" font-size="9" fill="#2e7d32" text-anchor="middle">истории</text>
   
   <!-- Arrows -->
-  <polygon points="145,150 155,145 155,155" fill="#5d4037"/>
-  <polygon points="265,150 275,145 275,155" fill="#5d4037"/>
+  <path d="M135 150 L145 150" stroke="#5d4037" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M255 150 L265 150" stroke="#5d4037" stroke-width="3" fill="none"/>
+  <polygon points="265,145 275,150 265,155" fill="#5d4037"/>
+  <polygon points="145,145 155,150 145,155" fill="#5d4037"/>
   
   <text x="200" y="280" font-family="Arial" font-size="12" fill="#5d4037" text-anchor="middle">У каждого рассказа есть начало, середина и конец!</text>
 </svg>

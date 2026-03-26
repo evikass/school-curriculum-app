@@ -1,47 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#e3f2fd"/>
-      <stop offset="100%" style="stop-color:#bbdefb"/>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ade80;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#eab308;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <rect width="400" height="300" fill="url(#bg)"/>
-  
-  <!-- Number 4 -->
-  <text x="100" y="150" font-family="Arial Black, sans-serif" font-size="80" fill="#1976d2" text-anchor="middle" font-weight="bold">
-    4
-    <animate attributeName="fill" values="#1976d2;#2196f3;#1976d2" dur="2s" repeatCount="indefinite"/>
-  </text>
-  
-  <!-- Number 5 -->
-  <text x="300" y="150" font-family="Arial Black, sans-serif" font-size="80" fill="#ff5722" text-anchor="middle" font-weight="bold">
-    5
-    <animate attributeName="fill" values="#ff5722;#ff7043;#ff5722" dur="2s" repeatCount="indefinite"/>
-  </text>
-  
-  <!-- Four apples -->
-  <g transform="translate(60, 200)">
-    <ellipse cx="0" cy="0" rx="12" ry="14" fill="#f44336"/>
-    <ellipse cx="30" cy="0" rx="12" ry="14" fill="#c62828"/>
-    <ellipse cx="60" cy="0" rx="12" ry="14" fill="#d32f2f"/>
-    <ellipse cx="90" cy="0" rx="12" ry="14" fill="#f44336"/>
+  <style>
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    @keyframes rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    .num4 { animation: pulse 2s ease-in-out infinite; transform-origin: center; }
+    .num5 { animation: pulse 2s ease-in-out infinite 0.5s; transform-origin: center; }
+    .chair { animation: bounce 2.5s ease-in-out infinite; }
+    .star { animation: twinkle 1.5s ease-in-out infinite; }
+    .sun { animation: rotate 10s linear infinite; transform-origin: 340px 60px; }
+  </style>
+  <!-- Background -->
+  <rect width="400" height="400" fill="#ecfdf5" rx="20"/>
+  <!-- Sun -->
+  <g class="sun">
+    <circle cx="340" cy="60" r="25" fill="#fbbf24"/>
+    <g stroke="#fbbf24" stroke-width="3">
+      <line x1="340" y1="25" x2="340" y2="10"/>
+      <line x1="365" y1="35" x2="375" y2="25"/>
+      <line x1="375" y1="60" x2="390" y2="60"/>
+      <line x1="365" y1="85" x2="375" y2="95"/>
+      <line x1="315" y1="35" x2="305" y2="25"/>
+      <line x1="305" y1="60" x2="290" y2="60"/>
+      <line x1="315" y1="85" x2="305" y2="95"/>
+    </g>
   </g>
-  
-  <!-- Five stars -->
-  <g transform="translate(250, 200)">
-    <polygon points="0,0 3,10 13,10 5,16 8,26 0,20 -8,26 -5,16 -13,10 -3,10" fill="#ffc107" transform="scale(0.8)">
-      <animate attributeName="opacity" values="1;0.7;1" dur="1s" repeatCount="indefinite"/>
-    </polygon>
-    <polygon points="0,0 3,10 13,10 5,16 8,26 0,20 -8,26 -5,16 -13,10 -3,10" fill="#ffeb3b" transform="translate(25,0) scale(0.8)">
-      <animate attributeName="opacity" values="0.8;1;0.8" dur="1.2s" repeatCount="indefinite"/>
-    </polygon>
-    <polygon points="0,0 3,10 13,10 5,16 8,26 0,20 -8,26 -5,16 -13,10 -3,10" fill="#ffc107" transform="translate(50,0) scale(0.8)"/>
-    <polygon points="0,0 3,10 13,10 5,16 8,26 0,20 -8,26 -5,16 -13,10 -3,10" fill="#ffeb3b" transform="translate(75,0) scale(0.8)"/>
-    <polygon points="0,0 3,10 13,10 5,16 8,26 0,20 -8,26 -5,16 -13,10 -3,10" fill="#ffc107" transform="translate(100,0) scale(0.8)">
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.4s" repeatCount="indefinite"/>
-    </polygon>
+  <!-- Stars -->
+  <polygon class="star" points="50,40 55,55 70,55 58,65 63,80 50,70 37,80 42,65 30,55 45,55" fill="#fcd34d"/>
+  <polygon class="star" points="80,350 83,358 92,358 85,363 88,372 80,367 72,372 75,363 68,358 77,358" fill="#a5f3fc" style="animation-delay: 0.5s"/>
+  <!-- Number 4 (chair shape) -->
+  <g class="num4" transform="translate(70, 100)">
+    <text x="0" y="140" font-size="150" font-weight="bold" fill="url(#grad4)" font-family="Arial, sans-serif">4</text>
   </g>
-  
-  <!-- Title -->
-  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#1565c0" text-anchor="middle" font-weight="bold">Числа 4 и 5</text>
+  <!-- Chair decoration -->
+  <g class="chair" transform="translate(90, 280)">
+    <rect x="0" y="0" width="50" height="10" fill="#a78bfa" rx="3"/>
+    <rect x="5" y="10" width="10" height="40" fill="#a78bfa"/>
+    <rect x="35" y="10" width="10" height="40" fill="#a78bfa"/>
+    <rect x="0" y="-30" width="10" height="30" fill="#a78bfa"/>
+  </g>
+  <!-- Number 5 (star/hook shape) -->
+  <g class="num5" transform="translate(200, 100)">
+    <text x="0" y="140" font-size="150" font-weight="bold" fill="url(#grad5)" font-family="Arial, sans-serif">5</text>
+  </g>
+  <!-- Star decoration for 5 -->
+  <g class="star" transform="translate(280, 280)">
+    <polygon points="25,0 30,18 50,18 34,30 40,50 25,38 10,50 16,30 0,18 20,18" fill="#fcd34d"/>
+  </g>
+  <!-- Hand with 5 fingers -->
+  <g transform="translate(170, 300)">
+    <ellipse cx="40" cy="50" rx="35" ry="25" fill="#fef3c7"/>
+    <rect x="15" y="10" width="12" height="40" rx="6" fill="#fef3c7"/>
+    <rect x="30" y="5" width="12" height="45" rx="6" fill="#fef3c7"/>
+    <rect x="45" y="5" width="12" height="45" rx="6" fill="#fef3c7"/>
+    <rect x="60" y="10" width="12" height="40" rx="6" fill="#fef3c7"/>
+    <rect x="72" y="25" width="10" height="30" rx="5" fill="#fef3c7"/>
+  </g>
+  <!-- Label -->
+  <g transform="translate(200, 385)">
+    <text x="0" y="0" font-size="16" fill="#059669" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">ЧЕТЫРЕ и ПЯТЬ</text>
+  </g>
 </svg>

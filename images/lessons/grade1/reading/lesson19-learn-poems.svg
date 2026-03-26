@@ -1,66 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#e8eaf6"/>
-      <stop offset="100%" style="stop-color:#c5cae9"/>
+      <stop offset="0%" style="stop-color:#e8f5e9"/>
+      <stop offset="100%" style="stop-color:#c8e6c9"/>
     </linearGradient>
   </defs>
   <rect width="400" height="300" fill="url(#bg)"/>
-  <text x="200" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3949ab" text-anchor="middle">📚 Учим стихи</text>
+  <text x="200" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2e7d32" text-anchor="middle">Учим стихи</text>
   
   <!-- Book -->
-  <g transform="translate(120, 60)">
-    <rect x="0" y="0" width="160" height="120" fill="#fff" stroke="#5c6bc0" stroke-width="3" rx="5">
-      <animate attributeName="height" values="120;125;120" dur="2s" repeatCount="indefinite"/>
-    </rect>
-    <line x1="80" y1="0" x2="80" y2="120" stroke="#5c6bc0" stroke-width="2"/>
-    <!-- Text lines -->
-    <rect x="15" y="20" width="55" height="4" fill="#7986cb" rx="2">
-      <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="15" y="35" width="50" height="4" fill="#7986cb" rx="2"/>
-    <rect x="15" y="50" width="55" height="4" fill="#7986cb" rx="2"/>
-    <rect x="15" y="65" width="45" height="4" fill="#7986cb" rx="2"/>
-    <rect x="15" y="80" width="55" height="4" fill="#7986cb" rx="2"/>
-    <rect x="90" y="20" width="55" height="4" fill="#9fa8da" rx="2"/>
-    <rect x="90" y="35" width="50" height="4" fill="#9fa8da" rx="2"/>
-    <rect x="90" y="50" width="55" height="4" fill="#9fa8da" rx="2"/>
-    <rect x="90" y="65" width="45" height="4" fill="#9fa8da" rx="2"/>
-    <rect x="90" y="80" width="55" height="4" fill="#9fa8da" rx="2"/>
-  </g>
+  <rect x="100" y="50" width="200" height="130" fill="#fff" stroke="#4caf50" stroke-width="3" rx="5"/>
+  <line x1="200" y1="50" x2="200" y2="180" stroke="#4caf50" stroke-width="2"/>
   
-  <!-- Brain remembering -->
-  <g transform="translate(40, 200)">
-    <ellipse cx="40" cy="30" rx="35" ry="25" fill="#ce93d8">
-      <animate attributeName="ry" values="25;28;25" dur="1.5s" repeatCount="indefinite"/>
-    </ellipse>
-    <text x="40" y="38" font-family="Arial" font-size="20" text-anchor="middle">🧠</text>
-    <text x="40" y="70" font-family="Arial" font-size="9" fill="#7b1fa2" text-anchor="middle">Запоминаем</text>
-  </g>
+  <!-- Text on left page -->
+  <text x="150" y="80" font-family="Georgia, serif" font-size="11" fill="#1b5e20" text-anchor="middle" font-style="italic">"Осьминог"</text>
+  <text x="150" y="100" font-family="Georgia, serif" font-size="9" fill="#2e7d32" text-anchor="middle">Осьминог спросил</text>
+  <text x="150" y="115" font-family="Georgia, serif" font-size="9" fill="#2e7d32" text-anchor="middle">осьминога:</text>
+  <text x="150" y="130" font-family="Georgia, serif" font-size="9" fill="#2e7d32" text-anchor="middle">— Отчего ты</text>
+  <text x="150" y="145" font-family="Georgia, serif" font-size="9" fill="#2e7d32" text-anchor="middle">такого родного?</text>
+  <text x="150" y="165" font-family="Georgia, serif" font-size="8" fill="#1b5e20" text-anchor="middle">И. Токмакова</text>
   
-  <!-- Heart feeling -->
-  <g transform="translate(140, 200)">
-    <circle cx="40" cy="30" r="30" fill="#ef9a9a">
-      <animate attributeName="r" values="30;33;30" dur="1s" repeatCount="indefinite"/>
-    </circle>
-    <text x="40" y="38" font-family="Arial" font-size="18" text-anchor="middle">❤️</text>
-    <text x="40" y="70" font-family="Arial" font-size="9" fill="#c62828" text-anchor="middle">Чувствуем</text>
-  </g>
+  <!-- Text on right page -->
+  <text x="250" y="80" font-family="Georgia, serif" font-size="9" fill="#2e7d32" text-anchor="middle">Отчего твои</text>
+  <text x="250" y="95" font-family="Georgia, serif" font-size="9" fill="#2e7d32" text-anchor="middle">ноги бегут</text>
+  <text x="250" y="110" font-family="Georgia, serif" font-size="9" fill="#2e7d32" text-anchor="middle">по дороге,</text>
+  <text x="250" y="130" font-family="Georgia, serif" font-size="9" fill="#2e7d32" text-anchor="middle">А руки</text>
+  <text x="250" y="145" font-family="Georgia, serif" font-size="9" fill="#2e7d32" text-anchor="middle">готовят обед?</text>
   
-  <!-- Mouth speaking -->
-  <g transform="translate(240, 200)">
-    <circle cx="40" cy="30" r="30" fill="#80cbc4">
-      <animate attributeName="fill" values="#80cbc4;#4db6ac;#80cbc4" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="40" y="38" font-family="Arial" font-size="18" text-anchor="middle">👄</text>
-    <text x="40" y="70" font-family="Arial" font-size="9" fill="#00695c" text-anchor="middle">Рассказываем</text>
-  </g>
+  <!-- Steps -->
+  <rect x="30" y="190" width="340" height="95" fill="white" stroke="#81c784" stroke-width="2" rx="10"/>
   
-  <!-- Stars -->
-  <g fill="#ffd54f">
-    <text x="100" y="55" font-family="Arial" font-size="14">⭐</text>
-    <text x="300" y="55" font-family="Arial" font-size="14">⭐</text>
-    <text x="330" y="100" font-family="Arial" font-size="12">✨</text>
-    <text x="70" y="100" font-family="Arial" font-size="12">✨</text>
-  </g>
+  <circle cx="60" cy="220" r="15" fill="#a5d6a7">
+    <animate attributeName="fill" values="#a5d6a7;#81c784;#a5d6a7" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="60" y="225" font-family="Arial" font-size="12" text-anchor="middle">1</text>
+  <text x="85" y="225" font-family="Arial" font-size="11" fill="#2e7d32">Прочитай вслух 2-3 раза</text>
+  
+  <circle cx="60" cy="255" r="15" fill="#a5d6a7">
+    <animate attributeName="fill" values="#81c784;#a5d6a7;#81c784" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="60" y="260" font-family="Arial" font-size="12" text-anchor="middle">2</text>
+  <text x="85" y="260" font-family="Arial" font-size="11" fill="#2e7d32">Представь картинку</text>
+  
+  <circle cx="230" cy="220" r="15" fill="#a5d6a7">
+    <animate attributeName="fill" values="#a5d6a7;#81c784;#a5d6a7" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="230" y="225" font-family="Arial" font-size="12" text-anchor="middle">3</text>
+  <text x="255" y="225" font-family="Arial" font-size="11" fill="#2e7d32">Повтори по строчке</text>
+  
+  <circle cx="230" cy="255" r="15" fill="#a5d6a7">
+    <animate attributeName="fill" values="#81c784;#a5d6a7;#81c784" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="230" y="260" font-family="Arial" font-size="12" text-anchor="middle">4</text>
+  <text x="255" y="260" font-family="Arial" font-size="11" fill="#2e7d32">Расскажи кому-нибудь!</text>
+  
+  <!-- Octopus -->
+  <circle cx="340" cy="130" r="20" fill="#ff8a65">
+    <animate attributeName="cy" values="130;125;130" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="340" y="137" font-family="Arial" font-size="16" text-anchor="middle">🐙</text>
 </svg>
