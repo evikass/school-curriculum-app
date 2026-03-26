@@ -1,70 +1,90 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="tech1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFE082;stop-opacity:0.6"/>
-      <stop offset="100%" style="stop-color:#FFD54F;stop-opacity:0.4"/>
+    <linearGradient id="techBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8E1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFECB3;stop-opacity:0.6" />
     </linearGradient>
   </defs>
   
   <!-- Background -->
-  <rect width="500" height="350" fill="url(#tech1)"/>
-  <rect width="500" height="350" fill="#FFF8E1" opacity="0.4"/>
+  <rect width="500" height="350" fill="url(#techBg)"/>
   
   <!-- Sun -->
-  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
-    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  <circle cx="450" cy="50" r="24" fill="#FFD700" opacity="0.85">
+    <animate attributeName="r" values="24;28;24" dur="3s" repeatCount="indefinite"/>
   </circle>
   
-  <!-- Title -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E65100" text-anchor="middle">✂️ Работа с бумагой</text>
-  <rect x="80" y="42" width="340" height="2" rx="1" fill="#FF9800" opacity="0.5"/>
-  
-  <!-- Ground -->
-  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#FFCC80" opacity="0.5"/>
-  
-  <!-- Tools -->
-  <g transform="translate(50, 80)" font-family="Arial, sans-serif">
-    <!-- Scissors -->
-    <rect x="0" y="0" width="120" height="100" fill="#FFECB3" rx="8" stroke="#FF9800"/>
-    <ellipse cx="30" cy="40" rx="15" ry="20" fill="#78909C"/>
-    <ellipse cx="70" cy="40" rx="15" ry="20" fill="#78909C"/>
-    <polygon points="45,60 55,60 70,90 50,90" fill="#546E7A"/>
-    <polygon points="55,60 45,60 30,90 50,90" fill="#546E7A"/>
-    <text x="60" y="95" font-size="10" fill="#E65100" text-anchor="middle">ножницы</text>
-    
-    <!-- Paper -->
-    <rect x="140" y="0" width="120" height="100" fill="#FFF8E1" rx="8" stroke="#FF9800"/>
-    <rect x="165" y="15" width="70" height="55" fill="#FFF" stroke="#BDBDBD"/>
-    <line x1="175" y1="25" x2="225" y2="25" stroke="#E0E0E0"/>
-    <line x1="175" y1="35" x2="225" y2="35" stroke="#E0E0E0"/>
-    <line x1="175" y1="45" x2="225" y2="45" stroke="#E0E0E0"/>
-    <text x="200" y="95" font-size="10" fill="#E65100" text-anchor="middle">бумага</text>
-    
-    <!-- Glue -->
-    <rect x="280" y="0" width="120" height="100" fill="#E3F2FD" rx="8" stroke="#2196F3"/>
-    <rect x="315" y="15" width="50" height="45" fill="#FFF" stroke="#90CAF9"/>
-    <ellipse cx="340" cy="65" rx="20" ry="8" fill="#FF9800"/>
-    <text x="340" y="95" font-size="10" fill="#0D47A1" text-anchor="middle">клей</text>
+  <!-- Clouds -->
+  <g opacity="0.7">
+    <ellipse cx="110" cy="45" rx="28" ry="16" fill="white"/>
+    <ellipse cx="135" cy="40" rx="22" ry="13" fill="white"/>
   </g>
   
-  <!-- Origami example -->
-  <g transform="translate(100, 200)">
-    <rect x="0" y="0" width="300" height="100" fill="#FFECB3" rx="10" stroke="#FF9800"/>
-    <text x="150" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E65100" text-anchor="middle">Оригами — искусство складывания бумаги</text>
-    
-    <!-- Paper crane -->
-    <g transform="translate(100, 35)">
-      <polygon points="50,10 70,40 30,40" fill="#F44336"/>
-      <polygon points="50,10 50,50 30,40" fill="#D32F2F"/>
-      <polygon points="50,10 50,50 70,40" fill="#EF5350"/>
-      <line x1="50" y1="10" x2="50" y2="0" stroke="#333" stroke-width="2"/>
-      <polygon points="50,50 35,65 50,60 65,65" fill="#F44336"/>
-    </g>
-    
-    <text x="150" y="90" font-family="Arial, sans-serif" font-size="9" fill="#F57C00" text-anchor="middle">Журавлик — символ мира и счастья</text>
+  <!-- Trees -->
+  <g opacity="0.25">
+    <ellipse cx="35" cy="280" rx="22" ry="35" fill="#228B22"/>
+    <rect x="30" y="280" width="10" height="20" fill="#5D4037"/>
   </g>
   
   <!-- Flowers -->
-  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
-  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+  <g opacity="0.5">
+    <circle cx="40" cy="325" r="5" fill="#FFC107"/>
+    <circle cx="47" cy="320" r="4" fill="#FFD54F"/>
+  </g>
+  <g opacity="0.45">
+    <circle cx="465" cy="325" r="5" fill="#FF9800"/>
+    <circle cx="458" cy="320" r="4" fill="#FFB74D"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#F57C00" text-anchor="middle">✂️ Работа с бумагой</text>
+  <rect x="100" y="45" width="300" height="3" rx="2" fill="#F57C00" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="30" y="60" width="440" height="255" rx="15" fill="white" opacity="0.92" stroke="#FF9800" stroke-width="2"/>
+  
+  <!-- Paper crafts -->
+  <text x="250" y="85" font-size="11" font-weight="bold" fill="#F57C00" text-anchor="middle">Бумажные поделки / Paper crafts</text>
+  
+  <g transform="translate(50, 95)">
+    <!-- Origami -->
+    <rect x="0" y="0" width="130" height="80" rx="8" fill="#FFF3E0" stroke="#FF9800"/>
+    <text x="65" y="20" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">🦢 Оригами</text>
+    <text x="65" y="45" font-size="28" text-anchor="middle">🦢</text>
+    <text x="65" y="70" font-size="8" fill="#333" text-anchor="middle">Складывание фигурок</text>
+    
+    <!-- Applique -->
+    <rect x="145" y="0" width="130" height="80" rx="8" fill="#FFE0B2" stroke="#FFA726"/>
+    <text x="210" y="20" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">🎨 Аппликация</text>
+    <text x="210" y="45" font-size="28" text-anchor="middle">🌸</text>
+    <text x="210" y="70" font-size="8" fill="#333" text-anchor="middle">Наклеивание деталей</text>
+    
+    <!-- Cutting -->
+    <rect x="290" y="0" width="130" height="80" rx="8" fill="#FFECB3" stroke="#FFB74D"/>
+    <text x="355" y="20" font-size="9" font-weight="bold" fill="#F57C00" text-anchor="middle">✂️ Вырезание</text>
+    <text x="355" y="45" font-size="28" text-anchor="middle">⭐</text>
+    <text x="355" y="70" font-size="8" fill="#333" text-anchor="middle">Фигуры из бумаги</text>
+  </g>
+  
+  <!-- Tools section -->
+  <rect x="50" y="190" width="400" height="70" rx="10" fill="#FFFDE7" stroke="#FF9800"/>
+  <text x="250" y="210" font-size="11" font-weight="bold" fill="#F57C00" text-anchor="middle">🛠️ Инструменты для работы с бумагой</text>
+  <g transform="translate(70, 225)">
+    <text x="0" y="12" font-size="9" fill="#333">✂️ ножницы</text>
+    <text x="90" y="12" font-size="9" fill="#333">📐 линейка</text>
+    <text x="170" y="12" font-size="9" fill="#333">🖊️ карандаш</text>
+    <text x="260" y="12" font-size="9" fill="#333">🧴 клей</text>
+    <text x="0" y="30" font-size="9" fill="#333">📋 цветная бумага</text>
+    <text x="130" y="30" font-size="9" fill="#333">📕 картон</text>
+  </g>
+  
+  <!-- Safety tips -->
+  <rect x="50" y="270" width="400" height="40" rx="8" fill="#FFEBEE" stroke="#F44336"/>
+  <text x="250" y="285" font-size="10" font-weight="bold" fill="#D32F2F" text-anchor="middle">⚠️ Правила безопасности:</text>
+  <text x="250" y="300" font-size="9" fill="#333" text-anchor="middle">Передавать ножницы кольцами вперёд, не бегать с ножницами</text>
+  
+  <!-- Decorative scissors -->
+  <g transform="translate(55, 280)" opacity="0.5">
+    <text font-size="18">✂️</text>
+  </g>
 </svg>

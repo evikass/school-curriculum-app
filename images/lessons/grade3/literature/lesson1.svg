@@ -1,103 +1,104 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="lit1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFCCBC;stop-opacity:0.5"/>
-      <stop offset="100%" style="stop-color:#FFAB91;stop-opacity:0.3"/>
+    <linearGradient id="litBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EDE7F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F3E5F5;stop-opacity:0.7" />
     </linearGradient>
   </defs>
   
   <!-- Background -->
-  <rect width="500" height="350" fill="url(#lit1)"/>
-  <rect width="500" height="350" fill="#FFF8E1" opacity="0.4"/>
+  <rect width="500" height="350" fill="url(#litBg)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="50" cy="50" r="30" fill="#7B1FA2" opacity="0.12"/>
+  <circle cx="460" cy="300" r="40" fill="#7B1FA2" opacity="0.1"/>
   
   <!-- Sun -->
-  <circle cx="420" cy="60" r="30" fill="#FFD54F" opacity="0.7">
-    <animate attributeName="r" values="28;32;28" dur="3s" repeatCount="indefinite"/>
+  <circle cx="440" cy="50" r="20" fill="#FFD700" opacity="0.8">
+    <animate attributeName="r" values="20;24;20" dur="3s" repeatCount="indefinite"/>
   </circle>
   
-  <!-- Title -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#BF360C" text-anchor="middle">🏰 Русские народные сказки</text>
-  <rect x="80" y="42" width="340" height="2" rx="1" fill="#FF7043" opacity="0.5"/>
+  <!-- Forest scene -->
+  <ellipse cx="250" cy="370" rx="300" ry="60" fill="#81C784" opacity="0.4"/>
   
-  <!-- Ground -->
-  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#A5D6A7" opacity="0.6"/>
-  
-  <!-- Far forest -->
-  <g opacity="0.4">
-    <polygon points="20,180 50,110 80,180" fill="#2E7D32"/>
-    <polygon points="70,185 110,100 150,185" fill="#388E3C"/>
-    <polygon points="350,180 390,105 430,180" fill="#2E7D32"/>
-    <polygon points="420,185 460,115 500,185" fill="#388E3C"/>
+  <!-- Trees -->
+  <g opacity="0.3">
+    <ellipse cx="40" cy="280" rx="25" ry="40" fill="#228B22"/>
+    <rect x="35" y="280" width="10" height="25" fill="#8B4513"/>
   </g>
-  
-  <!-- Near forest left -->
-  <g>
-    <polygon points="0,280 35,160 70,280" fill="#43A047"/>
-    <polygon points="50,290 100,150 150,290" fill="#2E7D32"/>
-    <rect x="30" y="280" width="10" height="30" fill="#795548"/>
-    <rect x="90" y="290" width="12" height="25" fill="#795548"/>
+  <g opacity="0.25">
+    <ellipse cx="470" cy="275" rx="28" ry="45" fill="#228B22"/>
+    <rect x="465" y="275" width="10" height="28" fill="#8B4513"/>
   </g>
-  
-  <!-- Near forest right -->
-  <g>
-    <polygon points="360,285 400,155 440,285" fill="#43A047"/>
-    <polygon points="430,280 470,165 510,280" fill="#2E7D32"/>
-    <rect x="390" y="285" width="10" height="28" fill="#795548"/>
-    <rect x="460" y="280" width="12" height="30" fill="#795548"/>
-  </g>
-  
-  <!-- Castle in center -->
-  <g transform="translate(250, 200)">
-    <rect x="-35" y="-15" width="70" height="50" fill="#FFCC80" stroke="#E65100" stroke-width="2"/>
-    <polygon points="-45,-15 0,-50 45,-15" fill="#FF8A65" stroke="#E65100" stroke-width="1"/>
-    <rect x="-45" y="-50" width="12" height="40" fill="#FFAB91"/>
-    <rect x="33" y="-50" width="12" height="40" fill="#FFAB91"/>
-    <polygon points="-45,-50 -39,-62 -33,-50" fill="#EF5350"/>
-    <polygon points="33,-50 39,-62 45,-50" fill="#EF5350"/>
-    <rect x="-8" y="5" width="16" height="25" fill="#5D4037" rx="8"/>
-    <circle cx="0" cy="12" r="3" fill="#FFD54F"/>
-    <rect x="-25" y="-5" width="12" height="15" fill="#81D4FA" opacity="0.7"/>
-    <rect x="13" y="-5" width="12" height="15" fill="#81D4FA" opacity="0.7"/>
-    <animateTransform attributeName="transform" type="translate" values="250,200;250,195;250,200" dur="4s" repeatCount="indefinite"/>
-  </g>
-  
-  <!-- Path -->
-  <path d="M250,350 Q220,320 200,300 Q180,280 250,260" fill="none" stroke="#BCAAA4" stroke-width="20" opacity="0.4"/>
-  <path d="M250,350 Q280,320 300,300 Q320,280 250,260" fill="none" stroke="#BCAAA4" stroke-width="20" opacity="0.4"/>
-  
-  <!-- Flowers -->
-  <g>
-    <circle cx="170" cy="290" r="5" fill="#E91E63"/>
-    <circle cx="180" cy="295" r="4" fill="#F48FB1"/>
-    <circle cx="320" cy="288" r="5" fill="#E91E63"/>
-    <circle cx="335" cy="293" r="4" fill="#F48FB1"/>
-  </g>
-  
-  <!-- Magical sparkles -->
-  <circle cx="200" cy="150" r="3" fill="#FFD54F">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="300" cy="160" r="2" fill="#FFD54F">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="0.3s"/>
-  </circle>
-  <circle cx="230" cy="140" r="2" fill="#E91E63">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="0.6s"/>
-  </circle>
-  <circle cx="270" cy="145" r="2" fill="#E91E63">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="0.9s"/>
-  </circle>
   
   <!-- Birds -->
-  <g opacity="0.6">
-    <path d="M150,80 Q155,75 160,80" fill="none" stroke="#333" stroke-width="2"/>
-    <path d="M320,70 Q325,65 330,70" fill="none" stroke="#333" stroke-width="2"/>
-    <animateTransform attributeName="transform" type="translate" values="0,0;30,3;0,0" dur="6s" repeatCount="indefinite"/>
+  <path d="M100 60 Q105 55 110 60 Q115 55 120 60" stroke="#333" stroke-width="1.5" fill="none" opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="0,0;30,5;60,0" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M350 80 Q355 75 360 80 Q365 75 370 80" stroke="#333" stroke-width="1.5" fill="none" opacity="0.4">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-25,3;-50,0" dur="7s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Flowers -->
+  <g opacity="0.5">
+    <circle cx="35" cy="325" r="5" fill="#E91E63"/>
+    <circle cx="42" cy="320" r="4" fill="#F48FB1"/>
+  </g>
+  <g opacity="0.45">
+    <circle cx="465" cy="325" r="5" fill="#9C27B0"/>
+    <circle cx="458" cy="320" r="4" fill="#CE93D8"/>
   </g>
   
-  <!-- Clouds -->
-  <g opacity="0.5">
-    <ellipse cx="80" cy="50" rx="25" ry="12" fill="#FFF"/>
-    <ellipse cx="60" cy="55" rx="18" ry="10" fill="#FFF"/>
-    <ellipse cx="100" cy="55" rx="15" ry="8" fill="#FFF"/>
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#6A1B9A" text-anchor="middle">📖 Устное народное творчество</text>
+  <rect x="80" y="45" width="340" height="3" rx="2" fill="#6A1B9A" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="30" y="60" width="440" height="255" rx="15" fill="white" opacity="0.9" stroke="#6A1B9A" stroke-width="2"/>
+  
+  <!-- Types grid -->
+  <g transform="translate(50, 80)">
+    <!-- Fairy tales -->
+    <rect x="0" y="0" width="125" height="90" rx="10" fill="#F3E5F5" stroke="#7B1FA2"/>
+    <text x="62" y="20" font-size="10" font-weight="bold" fill="#6A1B9A" text-anchor="middle">✨ Сказки</text>
+    <text x="62" y="45" font-size="28" text-anchor="middle">🧙‍♀️</text>
+    <text x="62" y="70" font-size="8" fill="#333" text-anchor="middle">Волшебные</text>
+    <text x="62" y="82" font-size="8" fill="#333" text-anchor="middle">О животных</text>
+    
+    <!-- Proverbs -->
+    <rect x="135" y="0" width="125" height="90" rx="10" fill="#E8F5E9" stroke="#4CAF50"/>
+    <text x="197" y="20" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle">💬 Пословицы</text>
+    <text x="197" y="45" font-size="28" text-anchor="middle">📜</text>
+    <text x="197" y="70" font-size="8" fill="#333" text-anchor="middle">Мудрость народа</text>
+    <text x="197" y="82" font-size="8" fill="#333" text-anchor="middle">Жизненный опыт</text>
+    
+    <!-- Riddles -->
+    <rect x="270" y="0" width="125" height="90" rx="10" fill="#FFF3E0" stroke="#FF9800"/>
+    <text x="332" y="20" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">❓ Загадки</text>
+    <text x="332" y="45" font-size="28" text-anchor="middle">🔮</text>
+    <text x="332" y="70" font-size="8" fill="#333" text-anchor="middle">Описание предмета</text>
+    <text x="332" y="82" font-size="8" fill="#333" text-anchor="middle">Нужно отгадать</text>
   </g>
+  
+  <!-- Features section -->
+  <rect x="50" y="185" width="400" height="75" rx="10" fill="#FCE4EC" stroke="#6A1B9A"/>
+  <text x="250" y="205" font-size="11" font-weight="bold" fill="#6A1B9A" text-anchor="middle">🌟 Особенности устного народного творчества</text>
+  <text x="70" y="225" font-size="9" fill="#333">📌 Создано народом, автор неизвестен</text>
+  <text x="70" y="240" font-size="9" fill="#333">📌 Передаётся из поколения в поколение</text>
+  <text x="260" y="225" font-size="9" fill="#333">📌 Учит мудрости и добру</text>
+  <text x="260" y="240" font-size="9" fill="#333">📌 Отражает народную жизнь</text>
+  
+  <!-- Animated book -->
+  <g transform="translate(250, 285)">
+    <rect x="-20" y="-10" width="40" height="25" rx="3" fill="#6A1B9A" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.9;0.6" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-18" y="-8" width="36" height="21" fill="white"/>
+    <line x1="0" y1="-8" x2="0" y2="13" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="0" y="4" font-size="6" fill="#6A1B9A" text-anchor="middle">НК</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <text x="60" y="300" font-size="20" opacity="0.3">📚</text>
+  <text x="430" y="300" font-size="20" opacity="0.3">✨</text>
 </svg>
