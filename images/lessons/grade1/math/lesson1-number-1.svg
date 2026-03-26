@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f7fa"/>
+      <stop offset="100%" style="stop-color:#b2ebf2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Number 1 -->
+  <text x="200" y="180" font-family="Arial Black, sans-serif" font-size="120" fill="#1976d2" text-anchor="middle" font-weight="bold">
+    1
+    <animate attributeName="font-size" values="120;125;120" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Single objects -->
+  <!-- Sun -->
+  <circle cx="80" cy="60" r="25" fill="#ffeb3b">
+    <animate attributeName="r" values="25;27;25" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <g stroke="#ffeb3b" stroke-width="3">
+    <line x1="80" y1="25" x2="80" y2="15"/>
+    <line x1="80" y1="95" x2="80" y2="105"/>
+    <line x1="45" y1="60" x2="35" y2="60"/>
+    <line x1="115" y1="60" x2="125" y2="60"/>
+  </g>
+  
+  <!-- Apple -->
+  <ellipse cx="320" cy="65" rx="20" ry="22" fill="#f44336">
+    <animate attributeName="ry" values="22;24;22" dur="1.8s" repeatCount="indefinite"/>
+  </ellipse>
+  <rect x="318" y="40" width="4" height="8" fill="#795548"/>
+  <ellipse cx="328" y="48" rx="6" ry="4" fill="#4caf50"/>
+  
+  <!-- Star -->
+  <polygon points="80,240 85,255 100,255 88,265 93,280 80,270 67,280 72,265 60,255 75,255" fill="#ffc107">
+    <animate attributeName="opacity" values="1;0.8;1" dur="1s" repeatCount="indefinite"/>
+  </polygon>
+  
+  <!-- Flower -->
+  <circle cx="320" cy="240" r="12" fill="#e91e63"/>
+  <circle cx="308" cy="230" r="10" fill="#f48fb1"/>
+  <circle cx="332" cy="230" r="10" fill="#f48fb1"/>
+  <circle cx="308" cy="250" r="10" fill="#f48fb1"/>
+  <circle cx="332" cy="250" r="10" fill="#f48fb1"/>
+  <circle cx="320" cy="240" r="8" fill="#ffeb3b"/>
+  
+  <!-- Title -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#1565c0" text-anchor="middle" font-weight="bold">Число и цифра 1</text>
+</svg>

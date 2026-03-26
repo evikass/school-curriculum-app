@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9"/>
+      <stop offset="100%" style="stop-color:#c8e6c9"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Example: 2 + 3 = 5 -->
+  <text x="200" y="80" font-family="Arial Black, sans-serif" font-size="36" fill="#2e7d32" text-anchor="middle" font-weight="bold">2 + 3 = 5</text>
+  
+  <!-- Visual representation -->
+  <!-- Two apples -->
+  <g transform="translate(60, 130)">
+    <ellipse cx="15" cy="15" rx="14" ry="16" fill="#f44336">
+      <animate attributeName="ry" values="16;18;16" dur="1.5s" repeatCount="indefinite"/>
+    </ellipse>
+    <rect x="13" y="-2" width="4" height="8" fill="#795548"/>
+    <ellipse cx="15" cy="15" rx="14" ry="16" fill="#f44336"/>
+    <ellipse cx="45" cy="15" rx="14" ry="16" fill="#c62828">
+      <animate attributeName="ry" values="16;18;16" dur="1.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <rect x="43" y="-2" width="4" height="8" fill="#795548"/>
+  </g>
+  
+  <!-- Plus sign -->
+  <text x="140" y="150" font-family="Arial Black, sans-serif" font-size="30" fill="#4caf50">+</text>
+  
+  <!-- Three apples -->
+  <g transform="translate(170, 130)">
+    <ellipse cx="15" cy="15" rx="14" ry="16" fill="#ff9800"/>
+    <rect x="13" y="-2" width="4" height="8" fill="#795548"/>
+    <ellipse cx="45" cy="15" rx="14" ry="16" fill="#ffb74d"/>
+    <rect x="43" y="-2" width="4" height="8" fill="#795548"/>
+    <ellipse cx="75" cy="15" rx="14" ry="16" fill="#ff9800"/>
+    <rect x="73" y="-2" width="4" height="8" fill="#795548"/>
+  </g>
+  
+  <!-- Equals sign -->
+  <text x="290" y="150" font-family="Arial Black, sans-serif" font-size="30" fill="#2196f3">=</text>
+  
+  <!-- Five apples (result) -->
+  <g transform="translate(50, 200)">
+    <ellipse cx="0" cy="0" rx="12" ry="14" fill="#f44336"/>
+    <ellipse cx="30" cy="0" rx="12" ry="14" fill="#c62828"/>
+    <ellipse cx="60" cy="0" rx="12" ry="14" fill="#ff9800"/>
+    <ellipse cx="90" cy="0" rx="12" ry="14" fill="#ffb74d"/>
+    <ellipse cx="120" cy="0" rx="12" ry="14" fill="#f44336"/>
+  </g>
+  
+  <!-- Arrow showing result -->
+  <path d="M200,180 L200,210" stroke="#2e7d32" stroke-width="3" marker-end="url(#arrow)">
+    <animate attributeName="opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Title -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#1b5e20" text-anchor="middle" font-weight="bold">Сложение</text>
+</svg>

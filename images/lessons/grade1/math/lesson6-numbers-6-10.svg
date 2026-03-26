@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5"/>
+      <stop offset="100%" style="stop-color:#e1bee7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Numbers 6-10 in a row -->
+  <text x="80" y="100" font-family="Arial Black, sans-serif" font-size="40" fill="#7b1fa2" text-anchor="middle" font-weight="bold">
+    6
+    <animate attributeName="y" values="100;95;100" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+  <text x="140" y="100" font-family="Arial Black, sans-serif" font-size="40" fill="#9c27b0" text-anchor="middle" font-weight="bold">
+    7
+    <animate attributeName="y" values="100;95;100" dur="1.8s" repeatCount="indefinite"/>
+  </text>
+  <text x="200" y="100" font-family="Arial Black, sans-serif" font-size="40" fill="#ab47bc" text-anchor="middle" font-weight="bold">
+    8
+    <animate attributeName="y" values="100;95;100" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <text x="260" y="100" font-family="Arial Black, sans-serif" font-size="40" fill="#ba68c8" text-anchor="middle" font-weight="bold">
+    9
+    <animate attributeName="y" values="100;95;100" dur="1.6s" repeatCount="indefinite"/>
+  </text>
+  <text x="320" y="100" font-family="Arial Black, sans-serif" font-size="40" fill="#ce93d8" text-anchor="middle" font-weight="bold">
+    10
+    <animate attributeName="y" values="100;95;100" dur="2.2s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Dots representing numbers -->
+  <g fill="#7b1fa2">
+    <circle cx="68" cy="140" r="5"/>
+    <circle cx="92" cy="140" r="5"/>
+    <circle cx="68" cy="155" r="5"/>
+    <circle cx="92" cy="155" r="5"/>
+    <circle cx="68" cy="170" r="5"/>
+    <circle cx="92" cy="170" r="5"/>
+  </g>
+  <g fill="#9c27b0">
+    <circle cx="128" cy="140" r="5"/>
+    <circle cx="152" cy="140" r="5"/>
+    <circle cx="128" cy="155" r="5"/>
+    <circle cx="152" cy="155" r="5"/>
+    <circle cx="128" cy="170" r="5"/>
+    <circle cx="152" cy="170" r="5"/>
+    <circle cx="140" cy="185" r="5"/>
+  </g>
+  <g fill="#ab47bc">
+    <circle cx="188" cy="140" r="5"/>
+    <circle cx="212" cy="140" r="5"/>
+    <circle cx="188" cy="155" r="5"/>
+    <circle cx="212" cy="155" r="5"/>
+    <circle cx="188" cy="170" r="5"/>
+    <circle cx="212" cy="170" r="5"/>
+    <circle cx="188" cy="185" r="5"/>
+    <circle cx="212" cy="185" r="5"/>
+  </g>
+  <g fill="#ba68c8">
+    <circle cx="248" cy="140" r="5"/>
+    <circle cx="272" cy="140" r="5"/>
+    <circle cx="248" cy="155" r="5"/>
+    <circle cx="272" cy="155" r="5"/>
+    <circle cx="248" cy="170" r="5"/>
+    <circle cx="272" cy="170" r="5"/>
+    <circle cx="248" cy="185" r="5"/>
+    <circle cx="272" cy="185" r="5"/>
+    <circle cx="260" cy="200" r="5"/>
+  </g>
+  <g fill="#ce93d8">
+    <circle cx="308" cy="140" r="5"/>
+    <circle cx="332" cy="140" r="5"/>
+    <circle cx="308" cy="155" r="5"/>
+    <circle cx="332" cy="155" r="5"/>
+    <circle cx="308" cy="170" r="5"/>
+    <circle cx="332" cy="170" r="5"/>
+    <circle cx="308" cy="185" r="5"/>
+    <circle cx="332" cy="185" r="5"/>
+    <circle cx="308" cy="200" r="5"/>
+    <circle cx="332" cy="200" r="5"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#6a1b9a" text-anchor="middle" font-weight="bold">Числа 6-10</text>
+</svg>

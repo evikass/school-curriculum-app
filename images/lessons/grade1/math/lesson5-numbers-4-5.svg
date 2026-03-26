@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd"/>
+      <stop offset="100%" style="stop-color:#bbdefb"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Number 4 -->
+  <text x="100" y="150" font-family="Arial Black, sans-serif" font-size="80" fill="#1976d2" text-anchor="middle" font-weight="bold">
+    4
+    <animate attributeName="fill" values="#1976d2;#2196f3;#1976d2" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Number 5 -->
+  <text x="300" y="150" font-family="Arial Black, sans-serif" font-size="80" fill="#ff5722" text-anchor="middle" font-weight="bold">
+    5
+    <animate attributeName="fill" values="#ff5722;#ff7043;#ff5722" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Four apples -->
+  <g transform="translate(60, 200)">
+    <ellipse cx="0" cy="0" rx="12" ry="14" fill="#f44336"/>
+    <ellipse cx="30" cy="0" rx="12" ry="14" fill="#c62828"/>
+    <ellipse cx="60" cy="0" rx="12" ry="14" fill="#d32f2f"/>
+    <ellipse cx="90" cy="0" rx="12" ry="14" fill="#f44336"/>
+  </g>
+  
+  <!-- Five stars -->
+  <g transform="translate(250, 200)">
+    <polygon points="0,0 3,10 13,10 5,16 8,26 0,20 -8,26 -5,16 -13,10 -3,10" fill="#ffc107" transform="scale(0.8)">
+      <animate attributeName="opacity" values="1;0.7;1" dur="1s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="0,0 3,10 13,10 5,16 8,26 0,20 -8,26 -5,16 -13,10 -3,10" fill="#ffeb3b" transform="translate(25,0) scale(0.8)">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="1.2s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="0,0 3,10 13,10 5,16 8,26 0,20 -8,26 -5,16 -13,10 -3,10" fill="#ffc107" transform="translate(50,0) scale(0.8)"/>
+    <polygon points="0,0 3,10 13,10 5,16 8,26 0,20 -8,26 -5,16 -13,10 -3,10" fill="#ffeb3b" transform="translate(75,0) scale(0.8)"/>
+    <polygon points="0,0 3,10 13,10 5,16 8,26 0,20 -8,26 -5,16 -13,10 -3,10" fill="#ffc107" transform="translate(100,0) scale(0.8)">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.4s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#1565c0" text-anchor="middle" font-weight="bold">Числа 4 и 5</text>
+</svg>

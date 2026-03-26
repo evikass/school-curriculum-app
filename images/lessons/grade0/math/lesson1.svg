@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+      @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .bounce { animation: bounce 1.5s ease-in-out infinite; }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#E3F2FD"/>
+  
+  <!-- Background circles -->
+  <circle cx="50" cy="50" r="30" fill="#BBDEFB" opacity="0.5"/>
+  <circle cx="450" cy="300" r="40" fill="#90CAF9" opacity="0.4"/>
+  
+  <!-- Title -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1565C0" text-anchor="middle">🔢 Счёт до 5</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#42A5F5"/>
+  
+  <!-- Number line -->
+  <g transform="translate(50, 80)">
+    <!-- Number 1 -->
+    <g class="bounce" style="animation-delay: 0s;">
+      <circle cx="40" cy="50" r="35" fill="#FFEB3B" stroke="#F57F17" stroke-width="3"/>
+      <text x="40" y="60" font-family="Arial" font-size="36" font-weight="bold" fill="#F57F17" text-anchor="middle">1</text>
+    </g>
+    <!-- Number 2 -->
+    <g class="bounce" style="animation-delay: 0.2s;">
+      <circle cx="120" cy="50" r="35" fill="#FF9800" stroke="#E65100" stroke-width="3"/>
+      <text x="120" y="60" font-family="Arial" font-size="36" font-weight="bold" fill="#E65100" text-anchor="middle">2</text>
+    </g>
+    <!-- Number 3 -->
+    <g class="bounce" style="animation-delay: 0.4s;">
+      <circle cx="200" cy="50" r="35" fill="#4CAF50" stroke="#2E7D32" stroke-width="3"/>
+      <text x="200" y="60" font-family="Arial" font-size="36" font-weight="bold" fill="#2E7D32" text-anchor="middle">3</text>
+    </g>
+    <!-- Number 4 -->
+    <g class="bounce" style="animation-delay: 0.6s;">
+      <circle cx="280" cy="50" r="35" fill="#2196F3" stroke="#1565C0" stroke-width="3"/>
+      <text x="280" y="60" font-family="Arial" font-size="36" font-weight="bold" fill="#1565C0" text-anchor="middle">4</text>
+    </g>
+    <!-- Number 5 -->
+    <g class="bounce" style="animation-delay: 0.8s;">
+      <circle cx="360" cy="50" r="35" fill="#E91E63" stroke="#AD1457" stroke-width="3"/>
+      <text x="360" y="60" font-family="Arial" font-size="36" font-weight="bold" fill="#AD1457" text-anchor="middle">5</text>
+    </g>
+  </g>
+  
+  <!-- Fingers illustration -->
+  <g transform="translate(150, 180)">
+    <text x="100" y="0" font-family="Arial" font-size="16" fill="#1565C0" text-anchor="middle">Покажи 5 пальцев!</text>
+    <!-- Hand with 5 fingers -->
+    <ellipse cx="100" cy="100" rx="50" ry="40" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+    <!-- Fingers -->
+    <rect x="55" y="50" width="12" height="45" rx="6" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+    <rect x="73" y="35" width="12" height="55" rx="6" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+    <rect x="91" y="30" width="12" height="60" rx="6" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+    <rect x="109" y="35" width="12" height="55" rx="6" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+    <rect x="127" y="50" width="12" height="45" rx="6" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+    <!-- Number 5 label -->
+    <circle cx="100" cy="155" r="20" fill="#E91E63"/>
+    <text x="100" y="162" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">5</text>
+  </g>
+  
+  <!-- Stars -->
+  <g class="pulse">
+    <polygon points="30,150 35,165 50,165 38,175 43,190 30,180 17,190 22,175 10,165 25,165" fill="#FFD700"/>
+    <polygon points="470,100 475,115 490,115 478,125 483,140 470,130 457,140 462,125 450,115 465,115" fill="#FFD700"/>
+  </g>
+</svg>

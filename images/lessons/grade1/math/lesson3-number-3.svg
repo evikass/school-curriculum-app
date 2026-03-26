@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9"/>
+      <stop offset="100%" style="stop-color:#c8e6c9"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Number 3 -->
+  <text x="200" y="180" font-family="Arial Black, sans-serif" font-size="120" fill="#388e3c" text-anchor="middle" font-weight="bold">
+    3
+    <animate attributeName="font-size" values="120;125;120" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Three balloons -->
+  <ellipse cx="70" cy="50" rx="18" ry="22" fill="#f44336">
+    <animate attributeName="cy" values="50;45;50" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="100" cy="45" rx="18" ry="22" fill="#2196f3">
+    <animate attributeName="cy" values="45;40;45" dur="2.2s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="130" cy="50" rx="18" ry="22" fill="#ffeb3b">
+    <animate attributeName="cy" values="50;45;50" dur="1.8s" repeatCount="indefinite"/>
+  </ellipse>
+  <path d="M70,72 Q85,85 100,72 Q115,85 130,72" stroke="#795548" fill="none" stroke-width="1"/>
+  
+  <!-- Three apples -->
+  <ellipse cx="280" cy="50" rx="15" ry="17" fill="#f44336"/>
+  <ellipse cx="310" cy="55" rx="15" ry="17" fill="#c62828"/>
+  <ellipse cx="340" cy="50" rx="15" ry="17" fill="#d32f2f"/>
+  <rect x="278" y="30" width="3" height="6" fill="#795548"/>
+  <rect x="308" y="35" width="3" height="6" fill="#795548"/>
+  <rect x="338" y="30" width="3" height="6" fill="#795548"/>
+  
+  <!-- Three butterflies -->
+  <g transform="translate(70, 220)">
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#e91e63" transform="rotate(-30)"/>
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#f48fb1" transform="rotate(30)"/>
+    <ellipse cx="0" cy="10" rx="8" ry="5" fill="#e91e63" transform="rotate(-30)"/>
+    <ellipse cx="0" cy="10" rx="8" ry="5" fill="#f48fb1" transform="rotate(30)"/>
+    <ellipse cx="0" cy="5" rx="2" ry="10" fill="#4a148c"/>
+    <animate attributeName="transform" attributeType="XML" type="translate" values="70,220;75,215;70,220" dur="3s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(110, 235)">
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#ff9800" transform="rotate(-30)"/>
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#ffcc80" transform="rotate(30)"/>
+    <ellipse cx="0" cy="8" rx="7" ry="5" fill="#ff9800" transform="rotate(-30)"/>
+    <ellipse cx="0" cy="8" rx="7" ry="5" fill="#ffcc80" transform="rotate(30)"/>
+    <ellipse cx="0" cy="4" rx="2" ry="8" fill="#e65100"/>
+  </g>
+  <g transform="translate(150, 225)">
+    <ellipse cx="0" cy="0" rx="11" ry="7" fill="#9c27b0" transform="rotate(-30)"/>
+    <ellipse cx="0" cy="0" rx="11" ry="7" fill="#ce93d8" transform="rotate(30)"/>
+    <ellipse cx="0" cy="9" rx="7" ry="5" fill="#9c27b0" transform="rotate(-30)"/>
+    <ellipse cx="0" cy="9" rx="7" ry="5" fill="#ce93d8" transform="rotate(30)"/>
+    <ellipse cx="0" cy="5" rx="2" ry="9" fill="#4a148c"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#2e7d32" text-anchor="middle" font-weight="bold">Число и цифра 3</text>
+</svg>

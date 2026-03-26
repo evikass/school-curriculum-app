@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color="#fff8e1"/>
+      <stop offset="100%" style="stop-color:#ffecb3"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Big letters С, с -->
+  <text x="150" y="150" font-family="Arial Black, sans-serif" font-size="100" fill="#f57f17" text-anchor="middle" font-weight="bold">
+    С
+    <animate attributeName="fill" values="#f57f17;#ff9800;#f57f17" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <text x="260" y="150" font-family="Arial, sans-serif" font-size="80" fill="#ffb300" text-anchor="middle">с</text>
+  
+  <!-- Sounds -->
+  <g transform="translate(50, 50)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" fill="#f44336">[с] — твёрдый (свистит)</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="16" fill="#9c27b0">[с'] — мягкий</text>
+  </g>
+  
+  <!-- Snake for S sound -->
+  <g transform="translate(320, 100)">
+    <path d="M0,0 Q20,-15 40,0 Q60,15 80,0" stroke="#4caf50" stroke-width="6" fill="none">
+      <animate attributeName="d" values="M0,0 Q20,-15 40,0 Q60,15 80,0;M0,0 Q20,15 40,0 Q60,-15 80,0;M0,0 Q20,-15 40,0 Q60,15 80,0" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="80" cy="0" r="6" fill="#4caf50"/>
+    <circle cx="78" cy="-2" r="2" fill="#000"/>
+    <polygon points="88,-3 95,0 88,3" fill="#f44336"/>
+  </g>
+  
+  <!-- Examples -->
+  <g transform="translate(50, 200)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#333"><tspan fill="#f57f17">С</tspan>ок — [с]</text>
+    <text x="100" y="0" font-family="Arial, sans-serif" font-size="14" fill="#333"><tspan fill="#ffb300">с</tspan>ыр — [с]</text>
+    <text x="180" y="0" font-family="Arial, sans-serif" font-size="14" fill="#333"><tspan fill="#ffb300">с</tspan>ено — [с']</text>
+    <text x="270" y="0" font-family="Arial, sans-serif" font-size="14" fill="#333">гу<tspan fill="#ffb300">с</tspan>ь — [с']</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#e65100" text-anchor="middle" font-weight="bold">Буквы С, с — звуки [с], [с']</text>
+</svg>
