@@ -1,14 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      @keyframes grow { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
-      @keyframes highlight { 0%, 100% { fill: #dc2626; } 50% { fill: #f87171; } }
-      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
-      .capital { animation: grow 2s ease-in-out infinite; }
-      .highlight { animation: highlight 1.5s ease-in-out infinite; }
-      .item { animation: bounce 2.5s ease-in-out infinite; }
-    </style>
-  </defs>
+  
   
   <!-- Background -->
   <rect width="500" height="350" fill="#fef2f2"/>
@@ -24,13 +15,14 @@
   <rect x="20" y="105" width="220" height="55" fill="#dbeafe" rx="10"/>
   <text x="130" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1d4ed8">1. В начале предложения</text>
   <text x="130" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3b82f6">
-    <tspan class="capital" style="fill: #dc2626">М</tspan>ама готовит обед.
+    <tspan style="fill: #dc2626">М</tspan>ама готовит обед.
   </text>
   
   <!-- 2. Names -->
   <rect x="260" y="105" width="220" height="55" fill="#dcfce7" rx="10"/>
   <text x="370" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#15803d">2. Имена, фамилии, отчества</text>
-  <g class="item">
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
     <text x="370" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#22c55e">
       <tspan style="fill: #dc2626">Иван Петрович Сидоров</tspan>
     </text>
@@ -39,14 +31,14 @@
   <!-- 3. Pet names -->
   <rect x="20" y="170" width="220" height="55" fill="#fef3c7" rx="10"/>
   <text x="130" y="193" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#b45309">3. Клички животных</text>
-  <g class="item" style="animation-delay: 0.3s">
+  <g style="animation-delay: 0.3s">
     <text x="130" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d97706">🐕 собака <tspan style="fill: #dc2626">Шарик</tspan></text>
   </g>
   
   <!-- 4. Cities, rivers, countries -->
   <rect x="260" y="170" width="220" height="55" fill="#f3e8ff" rx="10"/>
   <text x="370" y="193" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#7c3aed">4. Города, реки, страны</text>
-  <g class="item" style="animation-delay: 0.5s">
+  <g style="animation-delay: 0.5s">
     <text x="370" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#9333ea">🏙️ <tspan style="fill: #dc2626">Москва</tspan> 🌊 <tspan style="fill: #dc2626">Волга</tspan> 🇷🇺 <tspan style="fill: #dc2626">Россия</tspan></text>
   </g>
   

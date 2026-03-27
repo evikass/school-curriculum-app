@@ -5,28 +5,7 @@
       <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <style>
-    @keyframes wave {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-5px); }
-    }
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); opacity: 1; }
-      50% { transform: scale(1.1); opacity: 0.9; }
-    }
-    @keyframes rainbow {
-      0% { fill: #ef4444; }
-      16% { fill: #f97316; }
-      33% { fill: #eab308; }
-      50% { fill: #22c55e; }
-      66% { fill: #3b82f6; }
-      83% { fill: #8b5cf6; }
-      100% { fill: #ef4444; }
-    }
-    .num { animation: pulse 2s ease-in-out infinite; }
-    .wave { animation: wave 1.5s ease-in-out infinite; }
-    .rainbow { animation: rainbow 5s linear infinite; }
-  </style>
+  
   <!-- Background -->
   <rect width="400" height="400" fill="#faf5ff" rx="20"/>
   <!-- Rainbow decoration -->
@@ -36,30 +15,34 @@
   <path d="M 80 115 Q 200 40 320 115" fill="none" stroke-width="10" stroke="#22c55e" opacity="0.7"/>
   <path d="M 90 120 Q 200 55 310 120" fill="none" stroke-width="8" stroke="#3b82f6" opacity="0.7"/>
   <!-- Numbers 6-10 in a row -->
-  <g class="wave" transform="translate(20, 180)">
-    <text class="num" x="0" y="60" font-size="55" font-weight="bold" fill="#ef4444" font-family="Arial">6</text>
-    <circle cx="25" cy="90" r="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <g transform="translate(20, 180)">
+    <text x="0" y="60" font-size="55" font-weight="bold" fill="#ef4444" font-family="Arial">6</text>
+    <circle cx="25" cy="90" r="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2">
+    <animate attributeName="r" values="8;10;8" dur="3s" repeatCount="indefinite"/>
+  </circle>
   </g>
-  <g class="wave" style="animation-delay: 0.2s" transform="translate(90, 180)">
-    <text class="num" x="0" y="60" font-size="55" font-weight="bold" fill="#f97316" font-family="Arial">7</text>
+  <g style="animation-delay: 0.2s" transform="translate(90, 180)">
+    <text x="0" y="60" font-size="55" font-weight="bold" fill="#f97316" font-family="Arial">7</text>
     <polygon points="25,75 30,90 45,90 33,100 38,115 25,105 12,115 17,100 5,90 20,90" fill="#fcd34d" transform="scale(0.6) translate(15, 15)"/>
   </g>
-  <g class="wave" style="animation-delay: 0.4s" transform="translate(160, 180)">
-    <text class="num" x="0" y="60" font-size="55" font-weight="bold" fill="#eab308" font-family="Arial">8</text>
+  <g style="animation-delay: 0.4s" transform="translate(160, 180)">
+    <text x="0" y="60" font-size="55" font-weight="bold" fill="#eab308" font-family="Arial">8</text>
     <!-- Snowman -->
-    <circle cx="25" cy="80" r="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+    <circle cx="25" cy="80" r="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1">
+    <animate attributeName="r" values="10;12;10" dur="3s" repeatCount="indefinite"/>
+  </circle>
     <circle cx="25" cy="95" r="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
     <circle cx="23" cy="78" r="1.5" fill="#1e293b"/>
     <circle cx="27" cy="78" r="1.5" fill="#1e293b"/>
   </g>
-  <g class="wave" style="animation-delay: 0.6s" transform="translate(230, 180)">
-    <text class="num" x="0" y="60" font-size="55" font-weight="bold" fill="#22c55e" font-family="Arial">9</text>
+  <g style="animation-delay: 0.6s" transform="translate(230, 180)">
+    <text x="0" y="60" font-size="55" font-weight="bold" fill="#22c55e" font-family="Arial">9</text>
     <!-- Balloon -->
     <ellipse cx="25" cy="75" rx="12" ry="15" fill="#f472b6"/>
     <path d="M 25 90 L 25 105" stroke="#94a3b8" stroke-width="1"/>
   </g>
-  <g class="wave" style="animation-delay: 0.8s" transform="translate(300, 180)">
-    <text class="num" x="0" y="60" font-size="55" font-weight="bold" fill="#3b82f6" font-family="Arial">10</text>
+  <g style="animation-delay: 0.8s" transform="translate(300, 180)">
+    <text x="0" y="60" font-size="55" font-weight="bold" fill="#3b82f6" font-family="Arial">10</text>
   </g>
   <!-- Ten fingers -->
   <g transform="translate(100, 290)">

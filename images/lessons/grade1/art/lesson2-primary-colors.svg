@@ -1,43 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
-      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
-      .pulse { animation: pulse 2s ease-in-out infinite; transform-origin: center; }
-      .bounce { animation: bounce 2s ease-in-out infinite; }
-    </style>
-  </defs>
+  
   <rect width="500" height="350" fill="#FFF5EE"/>
   
   <!-- Заголовок -->
   <text x="250" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#C71585">🎨 Основные цвета</text>
   
   <!-- Три основных цвета -->
-  <g class="pulse">
-    <circle cx="130" cy="160" r="60" fill="#FF0000"/>
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+    <circle cx="130" cy="160" r="60" fill="#FF0000">
+    <animate attributeName="r" values="60;62;60" dur="3s" repeatCount="indefinite"/>
+  </circle>
     <text x="130" y="165" text-anchor="middle" font-size="16" fill="white" font-weight="bold">Красный</text>
   </g>
   
-  <g class="pulse" style="animation-delay: 0.3s;">
-    <circle cx="250" cy="160" r="60" fill="#FFFF00"/>
+  <g style="animation-delay: 0.3s;">
+    <circle cx="250" cy="160" r="60" fill="#FFFF00">
+    <animate attributeName="r" values="60;62;60" dur="3s" repeatCount="indefinite"/>
+  </circle>
     <text x="250" y="165" text-anchor="middle" font-size="16" fill="#333" font-weight="bold">Жёлтый</text>
   </g>
   
-  <g class="pulse" style="animation-delay: 0.6s;">
+  <g style="animation-delay: 0.6s;">
     <circle cx="370" cy="160" r="60" fill="#0000FF"/>
     <text x="370" y="165" text-anchor="middle" font-size="16" fill="white" font-weight="bold">Синий</text>
   </g>
   
   <!-- Кисточки -->
-  <g class="bounce">
+  <g>
     <rect x="115" y="240" width="30" height="80" rx="3" fill="#8B4513"/>
     <path d="M115 240 Q130 220 145 240" fill="#FF0000"/>
   </g>
-  <g class="bounce" style="animation-delay: 0.3s;">
+  <g style="animation-delay: 0.3s;">
     <rect x="235" y="240" width="30" height="80" rx="3" fill="#8B4513"/>
     <path d="M235 240 Q250 220 265 240" fill="#FFFF00"/>
   </g>
-  <g class="bounce" style="animation-delay: 0.6s;">
+  <g style="animation-delay: 0.6s;">
     <rect x="355" y="240" width="30" height="80" rx="3" fill="#8B4513"/>
     <path d="M355 240 Q370 220 385 240" fill="#0000FF"/>
   </g>

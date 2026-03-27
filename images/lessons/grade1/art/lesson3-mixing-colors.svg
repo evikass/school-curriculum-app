@@ -1,12 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      @keyframes swirl { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-      @keyframes fade { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
-      .swirl { animation: swirl 8s linear infinite; transform-origin: 250px 180px; }
-      .fade { animation: fade 2s ease-in-out infinite; }
-    </style>
-  </defs>
+  
   <rect width="500" height="350" fill="#FFF0F5"/>
   
   <!-- Заголовок -->
@@ -16,16 +9,21 @@
   <ellipse cx="250" cy="180" rx="120" ry="80" fill="#DEB887" stroke="#8B4513" stroke-width="3"/>
   
   <!-- Смешивание -->
-  <g class="fade">
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
     <!-- Красный + Жёлтый = Оранжевый -->
-    <circle cx="150" cy="120" r="25" fill="#FF0000" opacity="0.8"/>
+    <circle cx="150" cy="120" r="25" fill="#FF0000" opacity="0.8">
+    <animate attributeName="r" values="25;27;25" dur="3s" repeatCount="indefinite"/>
+  </circle>
     <text x="180" y="100" font-size="16" fill="#333">+</text>
-    <circle cx="210" cy="120" r="25" fill="#FFFF00" opacity="0.8"/>
+    <circle cx="210" cy="120" r="25" fill="#FFFF00" opacity="0.8">
+    <animate attributeName="r" values="25;27;25" dur="3s" repeatCount="indefinite"/>
+  </circle>
     <text x="245" y="100" font-size="16" fill="#333">=</text>
     <circle cx="280" cy="120" r="25" fill="#FF7F00" opacity="0.8"/>
   </g>
   
-  <g class="fade" style="animation-delay: 0.5s;">
+  <g style="animation-delay: 0.5s;">
     <!-- Синий + Жёлтый = Зелёный -->
     <circle cx="150" cy="180" r="25" fill="#0000FF" opacity="0.8"/>
     <text x="180" y="160" font-size="16" fill="#333">+</text>
@@ -34,7 +32,7 @@
     <circle cx="280" cy="180" r="25" fill="#00FF00" opacity="0.8"/>
   </g>
   
-  <g class="fade" style="animation-delay: 1s;">
+  <g style="animation-delay: 1s;">
     <!-- Красный + Синий = Фиолетовый -->
     <circle cx="150" cy="240" r="25" fill="#FF0000" opacity="0.8"/>
     <text x="180" y="220" font-size="16" fill="#333">+</text>
@@ -44,7 +42,7 @@
   </g>
   
   <!-- Кисть -->
-  <g class="swirl" style="animation-duration: 0s;">
+  <g style="animation-duration: 0s;">
     <rect x="380" y="140" width="15" height="100" rx="2" fill="#8B4513"/>
     <ellipse cx="387" cy="140" rx="10" ry="15" fill="#FF69B4"/>
   </g>

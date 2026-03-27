@@ -1,23 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <defs>
-    <style>
-      @keyframes fall1 {
-        0% { transform: translate(0, 0) rotate(0deg); opacity: 1; }
-        100% { transform: translate(30px, 100px) rotate(360deg); opacity: 0; }
-      }
-      @keyframes fall2 {
-        0% { transform: translate(0, 0) rotate(0deg); opacity: 1; }
-        100% { transform: translate(-25px, 90px) rotate(-270deg); opacity: 0; }
-      }
-      @keyframes fall3 {
-        0% { transform: translate(0, 0) rotate(0deg); opacity: 1; }
-        100% { transform: translate(15px, 85px) rotate(180deg); opacity: 0; }
-      }
-      .leaf1 { animation: fall1 4s ease-in-out infinite; }
-      .leaf2 { animation: fall2 5s ease-in-out infinite; animation-delay: 1s; }
-      .leaf3 { animation: fall3 4.5s ease-in-out infinite; animation-delay: 2s; }
-    </style>
-  </defs>
+  
   
   <!-- Background -->
   <rect width="400" height="300" fill="#FFF8E1"/>
@@ -51,9 +33,9 @@
     <ellipse cx="30" cy="75" rx="7" ry="4" fill="#FF9800" transform="rotate(-30 30 75)"/>
     
     <!-- Falling leaves -->
-    <ellipse cx="90" cy="30" rx="8" ry="5" fill="#FF5722" class="leaf1"/>
-    <ellipse cx="10" cy="40" rx="7" ry="4" fill="#FFC107" class="leaf2"/>
-    <ellipse cx="60" cy="20" rx="6" ry="4" fill="#F44336" class="leaf3"/>
+    <ellipse cx="90" cy="30" rx="8" ry="5" fill="#FF5722"/>
+    <ellipse cx="10" cy="40" rx="7" ry="4" fill="#FFC107"/>
+    <ellipse cx="60" cy="20" rx="6" ry="4" fill="#F44336"/>
   </g>
   
   <!-- Materials -->

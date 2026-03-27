@@ -1,11 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <style>
-      @keyframes glow { 0%, 100% { filter: brightness(1); } 50% { filter: brightness(1.3); } }
-      @keyframes snow { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
-      .warm { animation: glow 2s ease-in-out infinite; }
-      .cold { animation: snow 3s ease-in-out infinite; }
-    </style>
+    
     <linearGradient id="warmGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#FF4500"/>
       <stop offset="50%" style="stop-color:#FF6347"/>
@@ -23,10 +18,15 @@
   <text x="250" y="35" text-anchor="middle" font-size="24" font-weight="bold" fill="#C71585">🌡️ Тёплые и холодные цвета</text>
   
   <!-- Тёплые цвета (слева) -->
-  <g class="warm">
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0;360" dur="15s" repeatCount="indefinite"/>
     <rect x="30" y="70" width="200" height="200" rx="15" fill="url(#warmGrad)"/>
-    <circle cx="80" cy="120" r="25" fill="#FF0000"/>
-    <circle cx="130" cy="120" r="25" fill="#FF7F00"/>
+    <circle cx="80" cy="120" r="25" fill="#FF0000">
+    <animate attributeName="r" values="25;27;25" dur="3s" repeatCount="indefinite"/>
+  </circle>
+    <circle cx="130" cy="120" r="25" fill="#FF7F00">
+    <animate attributeName="r" values="25;27;25" dur="3s" repeatCount="indefinite"/>
+  </circle>
     <circle cx="180" cy="120" r="25" fill="#FFFF00"/>
     <circle cx="105" cy="180" r="25" fill="#FF4500"/>
     <circle cx="155" cy="180" r="25" fill="#FFD700"/>
@@ -34,7 +34,7 @@
   </g>
   
   <!-- Холодные цвета (справа) -->
-  <g class="cold">
+  <g>
     <rect x="270" y="70" width="200" height="200" rx="15" fill="url(#coldGrad)"/>
     <circle cx="320" cy="120" r="25" fill="#0000FF"/>
     <circle cx="370" cy="120" r="25" fill="#4169E1"/>
@@ -45,11 +45,11 @@
   </g>
   
   <!-- Солнце и снежинка -->
-  <g class="warm">
+  <g>
     <circle cx="70" cy="310" r="20" fill="#FFD700"/>
     <text x="70" y="315" text-anchor="middle" font-size="20">☀️</text>
   </g>
-  <g class="cold">
+  <g>
     <text x="430" y="315" text-anchor="middle" font-size="25">❄️</text>
   </g>
   

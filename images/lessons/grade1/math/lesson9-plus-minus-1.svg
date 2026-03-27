@@ -1,24 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <style>
-    @keyframes hop {
-      0%, 100% { transform: translateX(0); }
-      50% { transform: translateX(30px); }
-    }
-    @keyframes step {
-      0% { transform: translateX(0); }
-      25% { transform: translateX(25px); }
-      50% { transform: translateX(50px); }
-      75% { transform: translateX(75px); }
-      100% { transform: translateX(100px); }
-    }
-    @keyframes arrow-pulse {
-      0%, 100% { opacity: 0.5; }
-      50% { opacity: 1; }
-    }
-    .hop { animation: hop 1s ease-in-out infinite; }
-    .arrow { animation: arrow-pulse 1s ease-in-out infinite; }
-    .frog { animation: hop 1.5s ease-in-out infinite; }
-  </style>
+  
   <!-- Background -->
   <rect width="400" height="400" fill="#ecfdf5" rx="20"/>
   <!-- Decorative lily pads -->
@@ -32,11 +13,16 @@
     <line x1="0" y1="30" x2="340" y2="30" stroke="#22c55e" stroke-width="4"/>
     <!-- Numbers on the line -->
     <g>
-      <circle cx="0" cy="30" r="20" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0" dur="2s" repeatCount="indefinite"/>
+      <circle cx="0" cy="30" r="20" fill="#fef3c7" stroke="#f59e0b" stroke-width="2">
+    <animate attributeName="r" values="20;22;20" dur="3s" repeatCount="indefinite"/>
+  </circle>
       <text x="0" y="37" font-size="20" fill="#78350f" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">0</text>
     </g>
     <g>
-      <circle cx="48" cy="30" r="20" fill="#bbf7d0" stroke="#22c55e" stroke-width="2"/>
+      <circle cx="48" cy="30" r="20" fill="#bbf7d0" stroke="#22c55e" stroke-width="2">
+    <animate attributeName="r" values="20;22;20" dur="3s" repeatCount="indefinite"/>
+  </circle>
       <text x="48" y="37" font-size="20" fill="#166534" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">1</text>
     </g>
     <g>
@@ -65,7 +51,7 @@
     </g>
   </g>
   <!-- Frog on number line -->
-  <g class="frog" transform="translate(50, 75)">
+  <g transform="translate(50, 75)">
     <!-- Frog body -->
     <ellipse cx="0" cy="35" rx="15" ry="10" fill="#22c55e"/>
     <circle cx="-8" cy="28" r="5" fill="#22c55e"/>
@@ -78,7 +64,7 @@
     <rect x="0" y="0" width="150" height="80" fill="#dcfce7" rx="10"/>
     <text x="75" y="25" font-size="14" fill="#166534" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">+1 = СЛЕДУЮЩЕЕ</text>
     <!-- Arrow right -->
-    <g class="arrow" transform="translate(75, 50)">
+    <g transform="translate(75, 50)">
       <path d="M -30 0 L 30 0" stroke="#22c55e" stroke-width="3" fill="none"/>
       <polygon points="30,0 20,-5 20,5" fill="#22c55e"/>
     </g>
@@ -89,7 +75,7 @@
     <rect x="0" y="0" width="150" height="80" fill="#fee2e2" rx="10"/>
     <text x="75" y="25" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">−1 = ПРЕДЫДУЩЕЕ</text>
     <!-- Arrow left -->
-    <g class="arrow" transform="translate(75, 50)">
+    <g transform="translate(75, 50)">
       <path d="M 30 0 L -30 0" stroke="#dc2626" stroke-width="3" fill="none"/>
       <polygon points="-30,0 -20,-5 -20,5" fill="#dc2626"/>
     </g>

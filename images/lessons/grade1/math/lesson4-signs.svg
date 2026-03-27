@@ -1,16 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      @keyframes moveRight { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(10px); } }
-      @keyframes moveLeft { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-10px); } }
-      @keyframes appear { 0% { opacity: 0; transform: scale(0.5); } 100% { opacity: 1; transform: scale(1); } }
-      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
-      .plus { animation: moveRight 2s ease-in-out infinite; }
-      .minus { animation: moveLeft 2s ease-in-out infinite; }
-      .result { animation: appear 2s ease-in-out infinite; }
-      .sign { animation: bounce 1.5s ease-in-out infinite; }
-    </style>
-  </defs>
+  
   
   <!-- Background -->
   <rect width="500" height="350" fill="#dbeafe"/>
@@ -23,14 +12,15 @@
   <text x="95" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#15803d">Плюс (+)</text>
   <text x="95" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">Сложение</text>
   
-  <g class="sign">
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
     <rect x="85" y="110" width="20" height="60" fill="#22c55e" rx="3"/>
     <rect x="65" y="130" width="60" height="20" fill="#22c55e" rx="3"/>
   </g>
   <text x="95" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#15803d">Предметов становится больше</text>
   
   <!-- Example: 2 + 1 = 3 -->
-  <g class="plus">
+  <g>
     <rect x="180" y="50" width="150" height="140" fill="#fef3c7" rx="12"/>
     <text x="255" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#b45309">Пример</text>
     
@@ -48,7 +38,7 @@
   <text x="410" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#dc2626">Минус (-)</text>
   <text x="410" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#b91c1c">Вычитание</text>
   
-  <g class="sign" style="animation-delay: 0.3s">
+  <g style="animation-delay: 0.3s">
     <rect x="380" y="135" width="60" height="15" fill="#ef4444" rx="3"/>
   </g>
   <text x="410" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#dc2626">Предметов становится меньше</text>
