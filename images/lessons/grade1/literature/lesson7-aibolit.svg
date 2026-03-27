@@ -12,8 +12,9 @@
   <text x="250" y="28" font-size="18" fill="white" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">👨‍⚕️ ДОКТОР АЙБОЛИТ</text>
   <text x="250" y="45" font-size="11" fill="#d1fae5" text-anchor="middle" font-family="Arial, sans-serif">К.И. Чуковский</text>
   
-  <!-- Doctor Aybolit - animated -->
-  <g transform="translate(50, 80)">
+  <!-- Doctor Aybolit - animated (NO static transform, only animateTransform) -->
+  <g>
+    <!-- Initial position set via animateTransform -->
     <animateTransform attributeName="transform" type="translate" values="50,80;50,75;50,80" dur="3s" repeatCount="indefinite"/>
     
     <!-- Body (white coat) -->
@@ -54,7 +55,7 @@
   
   <!-- Animals queue - animated -->
   <!-- Fox -->
-  <g transform="translate(180, 95)">
+  <g>
     <animateTransform attributeName="transform" type="translate" values="180,95;180,90;180,95" dur="2s" repeatCount="indefinite" begin="0s"/>
     <ellipse cx="25" cy="35" rx="18" ry="13" fill="#f97316"/>
     <polygon points="12,18 25,5 38,18" fill="#f97316"/>
@@ -67,7 +68,7 @@
   </g>
   
   <!-- Rabbit -->
-  <g transform="translate(240, 95)">
+  <g>
     <animateTransform attributeName="transform" type="translate" values="240,95;240,88;240,95" dur="2s" repeatCount="indefinite" begin="0.3s"/>
     <ellipse cx="22" cy="38" rx="16" ry="18" fill="#faf5ff"/>
     <circle cx="22" cy="22" r="14" fill="#faf5ff"/>
@@ -82,7 +83,7 @@
   </g>
   
   <!-- Dog -->
-  <g transform="translate(300, 95)">
+  <g>
     <animateTransform attributeName="transform" type="translate" values="300,95;300,90;300,95" dur="2s" repeatCount="indefinite" begin="0.6s"/>
     <ellipse cx="22" cy="32" rx="20" ry="16" fill="#a8a29e"/>
     <circle cx="22" cy="18" r="14" fill="#a8a29e"/>
@@ -101,7 +102,7 @@
   <text x="250" y="205" font-size="12" fill="#047857" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">🌍 Животные из Африки:</text>
   
   <!-- Hippo -->
-  <g transform="translate(55, 215)">
+  <g>
     <animateTransform attributeName="transform" type="translate" values="55,215;55,212;55,215" dur="3s" repeatCount="indefinite"/>
     <ellipse cx="25" cy="28" rx="24" ry="18" fill="#9ca3af"/>
     <ellipse cx="25" cy="16" rx="18" ry="12" fill="#9ca3af"/>
@@ -113,7 +114,7 @@
   </g>
   
   <!-- Elephant -->
-  <g transform="translate(130, 210)">
+  <g>
     <animateTransform attributeName="transform" type="translate" values="130,210;130,207;130,210" dur="3s" repeatCount="indefinite" begin="0.5s"/>
     <ellipse cx="30" cy="30" rx="26" ry="18" fill="#a8a29e"/>
     <circle cx="18" cy="18" r="15" fill="#a8a29e"/>
@@ -126,7 +127,7 @@
   </g>
   
   <!-- Lion -->
-  <g transform="translate(210, 210)">
+  <g>
     <animateTransform attributeName="transform" type="translate" values="210,210;210,205;210,210" dur="2s" repeatCount="indefinite" begin="1s"/>
     <ellipse cx="22" cy="30" rx="18" ry="14" fill="#fbbf24"/>
     <circle cx="22" cy="18" r="16" fill="#f59e0b"/>
@@ -138,7 +139,7 @@
   </g>
   
   <!-- Giraffe -->
-  <g transform="translate(280, 205)">
+  <g>
     <animateTransform attributeName="transform" type="translate" values="280,205;280,202;280,205" dur="3s" repeatCount="indefinite" begin="1.5s"/>
     <ellipse cx="18" cy="45" rx="12" ry="10" fill="#fbbf24"/>
     <rect x="13" y="15" width="10" height="30" fill="#fbbf24"/>
@@ -153,7 +154,7 @@
   </g>
   
   <!-- Monkey -->
-  <g transform="translate(350, 215)">
+  <g>
     <animateTransform attributeName="transform" type="translate" values="350,215;350,210;350,215" dur="2s" repeatCount="indefinite" begin="0.8s"/>
     <ellipse cx="20" cy="28" rx="16" ry="12" fill="#92400e"/>
     <circle cx="20" cy="15" r="12" fill="#a16207"/>
@@ -166,7 +167,7 @@
     <text x="20" y="50" font-size="9" fill="#78350f" text-anchor="middle" font-family="Arial, sans-serif">🐒 Мартышка</text>
   </g>
   
-  <!-- Heart with cross -->
+  <!-- Heart with cross - scale animation -->
   <g transform="translate(420, 70)">
     <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" additive="sum"/>
     <path d="M 25 15 C 25 10, 15 5, 10 15 C 5 25, 15 35, 25 45 C 35 35, 45 25, 40 15 C 35 5, 25 10, 25 15" fill="#dc2626"/>
