@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8EAF6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#C5CAE9;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg10)"/>
+  
+  <!-- Title -->
+  <rect x="100" y="10" width="300" height="45" rx="10" fill="#FFF" stroke="#3F51B5" stroke-width="2"/>
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1A237E" text-anchor="middle">📞 Экстренные службы</text>
+  
+  <!-- Emergency number 112 -->
+  <g transform="translate(180, 70)">
+    <rect x="0" y="0" width="140" height="60" fill="#F44336" rx="10">
+      <animate attributeName="fill" values="#F44336;#EF5350;#F44336" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="70" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFF" text-anchor="middle">Единый номер</text>
+    <text x="70" y="52" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFF" text-anchor="middle">112</text>
+  </g>
+  
+  <!-- Fire department 101 -->
+  <g transform="translate(30, 160)">
+    <rect x="0" y="0" width="140" height="100" fill="#FFEBEE" rx="10" stroke="#E53935" stroke-width="2"/>
+    <text x="70" y="20" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#B71C1C" text-anchor="middle">ПОЖАРНАЯ</text>
+    
+    <!-- Fire truck icon -->
+    <rect x="25" y="35" width="60" height="25" fill="#F44336" rx="3"/>
+    <rect x="85" y="45" width="20" height="15" fill="#F44336" rx="2"/>
+    <rect x="30" y="38" width="15" height="12" fill="#81D4FA"/>
+    <circle cx="35" cy="62" r="8" fill="#333"/>
+    <circle cx="55" cy="62" r="8" fill="#333"/>
+    <circle cx="90" cy="62" r="8" fill="#333"/>
+    
+    <!-- Number -->
+    <rect x="40" y="75" width="60" height="20" fill="#F44336" rx="5"/>
+    <text x="70" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">101</text>
+  </g>
+  
+  <!-- Police 102 -->
+  <g transform="translate(180, 160)">
+    <rect x="0" y="0" width="140" height="100" fill="#E3F2FD" rx="10" stroke="#1E88E5" stroke-width="2"/>
+    <text x="70" y="20" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0D47A1" text-anchor="middle">ПОЛИЦИЯ</text>
+    
+    <!-- Police car icon -->
+    <rect x="25" y="35" width="60" height="25" fill="#2196F3" rx="3"/>
+    <rect x="85" y="45" width="20" height="15" fill="#2196F3" rx="2"/>
+    <rect x="30" y="38" width="15" height="12" fill="#81D4FA"/>
+    <circle cx="35" cy="62" r="8" fill="#333"/>
+    <circle cx="55" cy="62" r="8" fill="#333"/>
+    <circle cx="90" cy="62" r="8" fill="#333"/>
+    <!-- Siren -->
+    <rect x="50" y="28" width="20" height="8" fill="#F44336" rx="2">
+      <animate attributeName="fill" values="#F44336;#2196F3;#F44336" dur="0.5s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Number -->
+    <rect x="40" y="75" width="60" height="20" fill="#2196F3" rx="5"/>
+    <text x="70" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">102</text>
+  </g>
+  
+  <!-- Ambulance 103 -->
+  <g transform="translate(330, 160)">
+    <rect x="0" y="0" width="140" height="100" fill="#E8F5E9" rx="10" stroke="#43A047" stroke-width="2"/>
+    <text x="70" y="20" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">СКОРАЯ</text>
+    
+    <!-- Ambulance icon -->
+    <rect x="25" y="35" width="60" height="25" fill="#FFF" rx="3" stroke="#4CAF50" stroke-width="2"/>
+    <rect x="85" y="45" width="20" height="15" fill="#FFF" rx="2" stroke="#4CAF50" stroke-width="1"/>
+    <!-- Red cross -->
+    <rect x="50" y="40" width="10" height="15" fill="#F44336"/>
+    <rect x="45" y="45" width="20" height="5" fill="#F44336"/>
+    <circle cx="35" cy="62" r="8" fill="#333"/>
+    <circle cx="55" cy="62" r="8" fill="#333"/>
+    <circle cx="90" cy="62" r="8" fill="#333"/>
+    
+    <!-- Number -->
+    <rect x="40" y="75" width="60" height="20" fill="#4CAF50" rx="5"/>
+    <text x="70" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">103</text>
+  </g>
+  
+  <!-- When to call -->
+  <g transform="translate(30, 275)">
+    <rect x="0" y="0" width="200" height="60" fill="#FFF" rx="10" stroke="#9C27B0" stroke-width="2"/>
+    <text x="100" y="18" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#6A1B9A" text-anchor="middle">📋 КОГДА ЗВОНИТЬ:</text>
+    <text x="100" y="33" font-family="Arial, sans-serif" font-size="9" fill="#7B1FA2" text-anchor="middle">• Пожар или дым</text>
+    <text x="100" y="46" font-family="Arial, sans-serif" font-size="9" fill="#8E24AA" text-anchor="middle">• Несчастный случай • Преступление</text>
+  </g>
+  
+  <!-- How to call -->
+  <g transform="translate(250, 275)">
+    <rect x="0" y="0" width="220" height="60" fill="#FFF" rx="10" stroke="#FF5722" stroke-width="2"/>
+    <text x="110" y="18" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">📱 КАК ЗВОНИТЬ:</text>
+    <text x="110" y="33" font-family="Arial, sans-serif" font-size="9" fill="#F57C00" text-anchor="middle">1. Набери номер 2. Назови своё имя</text>
+    <text x="110" y="46" font-family="Arial, sans-serif" font-size="9" fill="#FF9800" text-anchor="middle">3. Скажи адрес 4. Опиши что случилось</text>
+  </g>
+  
+  <!-- Phone icon animation -->
+  <g transform="translate(350, 70)">
+    <rect x="0" y="0" width="50" height="60" fill="#4CAF50" rx="8"/>
+    <rect x="5" y="5" width="40" height="45" fill="#81C784" rx="5"/>
+    <circle cx="25" cy="50" r="5" fill="#4CAF50"/>
+    <!-- Ringing animation -->
+    <path d="M-5,20 Q-15,15 -5,10" stroke="#4CAF50" stroke-width="2" fill="none">
+      <animate attributeName="d" values="M-5,20 Q-15,15 -5,10;M-5,18 Q-12,15 -5,12;M-5,20 Q-15,15 -5,10" dur="0.3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M55,20 Q65,15 55,10" stroke="#4CAF50" stroke-width="2" fill="none">
+      <animate attributeName="d" values="M55,20 Q65,15 55,10;M55,18 Q62,15 55,12;M55,20 Q65,15 55,10" dur="0.3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Decorative stars -->
+  <polygon points="20,140 23,150 33,150 25,157 28,167 20,161 12,167 15,157 7,150 17,150" fill="#FFC107" opacity="0.6"/>
+  <polygon points="480,140 483,150 493,150 485,157 488,167 480,161 472,167 475,157 467,150 477,150" fill="#FFC107" opacity="0.6"/>
+</svg>
