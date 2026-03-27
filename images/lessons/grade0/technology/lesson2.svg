@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      .bounce { animation: bounce 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#E3F2FD"/>
+  <text x="250" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#1565C0" text-anchor="middle">🎨 Аппликации</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#42A5F5"/>
+  
+  <!-- Sample applique: Sunflower -->
+  <g transform="translate(50, 80)">
+    <!-- Background paper -->
+    <rect x="0" y="0" width="180" height="160" fill="#FFF9C4" stroke="#FBC02D" stroke-width="3" rx="5"/>
+    
+    <!-- Stem -->
+    <rect x="85" y="80" width="10" height="70" fill="#4CAF50"/>
+    
+    <!-- Leaves -->
+    <ellipse cx="70" cy="120" rx="25" ry="12" fill="#66BB6A" transform="rotate(-30, 70, 120)"/>
+    <ellipse cx="110" cy="110" rx="25" ry="12" fill="#66BB6A" transform="rotate(30, 110, 110)"/>
+    
+    <!-- Petals -->
+    <g class="bounce">
+      <ellipse cx="90" cy="30" rx="15" ry="25" fill="#FF9800"/>
+      <ellipse cx="60" cy="45" rx="15" ry="25" fill="#FFA726" transform="rotate(-45, 60, 45)"/>
+      <ellipse cx="120" cy="45" rx="15" ry="25" fill="#FFA726" transform="rotate(45, 120, 45)"/>
+      <ellipse cx="55" cy="75" rx="15" ry="25" fill="#FFB74D" transform="rotate(-90, 55, 75)"/>
+      <ellipse cx="125" cy="75" rx="15" ry="25" fill="#FFB74D" transform="rotate(90, 125, 75)"/>
+      <ellipse cx="65" cy="60" rx="15" ry="25" fill="#FF9800" transform="rotate(-70, 65, 60)"/>
+      <ellipse cx="115" cy="60" rx="15" ry="25" fill="#FF9800" transform="rotate(70, 115, 60)"/>
+    </g>
+    
+    <!-- Center -->
+    <circle cx="90" cy="65" r="20" fill="#5D4037"/>
+    
+    <text x="90" y="180" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Подсолнух</text>
+  </g>
+  
+  <!-- Sample applique: Fish -->
+  <g transform="translate(260, 80)">
+    <!-- Background -->
+    <rect x="0" y="0" width="180" height="160" fill="#BBDEFB" stroke="#2196F3" stroke-width="3" rx="5"/>
+    
+    <!-- Water bubbles -->
+    <circle cx="30" cy="30" r="8" fill="#E3F2FD" opacity="0.7"/>
+    <circle cx="150" cy="50" r="6" fill="#E3F2FD" opacity="0.7"/>
+    <circle cx="160" cy="120" r="5" fill="#E3F2FD" opacity="0.7"/>
+    
+    <!-- Fish body -->
+    <g class="bounce" style="animation-delay: 0.5s;">
+      <ellipse cx="80" cy="80" rx="50" ry="30" fill="#F44336"/>
+      <!-- Tail -->
+      <polygon points="130,80 155,55 155,105" fill="#E91E63"/>
+      <!-- Fin -->
+      <polygon points="80,50 70,25 95,50" fill="#FF5722"/>
+      <!-- Eye -->
+      <circle cx="55" cy="75" r="10" fill="white"/>
+      <circle cx="55" cy="75" r="5" fill="#333"/>
+      <!-- Scales pattern -->
+      <circle cx="90" cy="70" r="8" fill="#EF5350"/>
+      <circle cx="105" cy="80" r="8" fill="#EF5350"/>
+      <circle cx="90" cy="90" r="8" fill="#EF5350"/>
+    </g>
+    
+    <!-- Seaweed -->
+    <rect x="10" y="100" width="8" height="60" fill="#4CAF50" rx="4"/>
+    <rect x="25" y="110" width="6" height="50" fill="#66BB6A" rx="3"/>
+    <rect x="145" y="105" width="7" height="55" fill="#4CAF50" rx="4"/>
+    
+    <text x="90" y="180" font-family="Arial" font-size="12" fill="#1565C0" text-anchor="middle">Рыбка</text>
+  </g>
+  
+  <!-- Tools needed -->
+  <g transform="translate(30, 280)">
+    <text x="220" y="0" font-family="Arial" font-size="13" fill="#1565C0" text-anchor="middle">Что нужно для аппликации:</text>
+    
+    <g transform="translate(30, 15)">
+      <rect x="0" y="0" width="70" height="40" fill="#FFCCBC" stroke="#FF5722" stroke-width="2" rx="5"/>
+      <text x="35" y="27" font-family="Arial" font-size="10" fill="#D84315" text-anchor="middle">✂️ Ножницы</text>
+    </g>
+    
+    <g transform="translate(110, 15)">
+      <rect x="0" y="0" width="70" height="40" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="5"/>
+      <text x="35" y="27" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">🧴 Клей</text>
+    </g>
+    
+    <g transform="translate(190, 15)">
+      <rect x="0" y="0" width="70" height="40" fill="#FFECB3" stroke="#FFC107" stroke-width="2" rx="5"/>
+      <text x="35" y="27" font-family="Arial" font-size="10" fill="#F57F17" text-anchor="middle">📄 Бумага</text>
+    </g>
+    
+    <g transform="translate(270, 15)">
+      <rect x="0" y="0" width="70" height="40" fill="#E1BEE7" stroke="#9C27B0" stroke-width="2" rx="5"/>
+      <text x="35" y="27" font-family="Arial" font-size="10" fill="#6A1B9A" text-anchor="middle">📐 Карандаш</text>
+    </g>
+    
+    <g transform="translate(350, 15)">
+      <rect x="0" y="0" width="70" height="40" fill="#B2EBF2" stroke="#00BCD4" stroke-width="2" rx="5"/>
+      <text x="35" y="27" font-family="Arial" font-size="10" fill="#00838F" text-anchor="middle">📋 Основа</text>
+    </g>
+  </g>
+</svg>

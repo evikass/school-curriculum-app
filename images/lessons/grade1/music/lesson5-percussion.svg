@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  
+  <!-- 标题 -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#F57C00">🥁 Урок 5: Ударные инструменты 🪘</text>
+  
+  <!-- 大鼓 -->
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+    <ellipse cx="100" cy="200" rx="50" ry="30" fill="#8D6E63"/>
+    <ellipse cx="100" cy="200" rx="45" ry="25" fill="#D7CCC8"/>
+    <ellipse cx="100" cy="200" rx="40" ry="20" fill="#EFEBE9"/>
+    <rect x="55" y="200" width="90" height="60" fill="#8D6E63"/>
+    <ellipse cx="100" cy="260" rx="45" ry="25" fill="#A1887F"/>
+    <line x1="60" y1="210" x2="60" y2="250" stroke="#5D4037" stroke-width="2"/>
+    <line x1="140" y1="210" x2="140" y2="250" stroke="#5D4037" stroke-width="2"/>
+  </g>
+  
+  <!-- 鼓槌 -->
+  <g>
+    <rect x="130" y="160" width="8" height="60" rx="3" fill="#FFCC80" transform="rotate(30 130 160)"/>
+    <circle cx="155" cy="185" r="8" fill="#F5F5F5">
+    <animate attributeName="r" values="8;10;8" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  </g>
+  
+  <!-- 三角铁 -->
+  <g>
+    <polygon points="220,140 270,140 245,200" fill="none" stroke="#FFD54F" stroke-width="6"/>
+    <circle cx="245" cy="135" r="5" fill="#FFD54F">
+    <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+    <line x1="245" y1="130" x2="245" y2="100" stroke="#757575" stroke-width="2"/>
+    <rect x="275" y="150" width="4" height="40" fill="#8D6E63"/>
+    <circle cx="277" cy="150" r="4" fill="#BDBDBD"/>
+  </g>
+  
+  <!-- 响板/沙锤 -->
+  <g>
+    <ellipse cx="340" cy="180" rx="15" ry="25" fill="#FF7043"/>
+    <ellipse cx="340" cy="180" rx="12" ry="22" fill="#FFAB91"/>
+    <rect x="338" y="150" width="4" height="30" fill="#8D6E63"/>
+    <circle cx="340" cy="210" r="3" fill="#F57C00"/>
+  </g>
+  
+  <g style="animation-delay: 0.3s">
+    <ellipse cx="380" cy="185" rx="15" ry="25" fill="#42A5F5"/>
+    <ellipse cx="380" cy="185" rx="12" ry="22" fill="#90CAF9"/>
+    <rect x="378" y="155" width="4" height="30" fill="#8D6E63"/>
+    <circle cx="380" cy="215" r="3" fill="#1976D2"/>
+  </g>
+  
+  <!-- 木琴 -->
+  <g>
+    <rect x="400" y="180" width="15" height="80" rx="2" fill="#F44336"/>
+    <rect x="420" y="190" width="15" height="70" rx="2" fill="#FF9800"/>
+    <rect x="440" y="200" width="15" height="60" rx="2" fill="#FFEB3B"/>
+    <rect x="460" y="210" width="15" height="50" rx="2" fill="#4CAF50"/>
+    <line x1="407" y1="265" x2="467" y2="265" stroke="#795548" stroke-width="3"/>
+  </g>
+  
+  <!-- 音符装饰 -->
+  <g>
+    <ellipse cx="60" cy="100" rx="8" ry="6" fill="#F57C00"/>
+    <rect x="66" y="70" width="2" height="30" fill="#F57C00"/>
+  </g>
+  <g style="animation-delay: 0.2s">
+    <ellipse cx="440" cy="90" rx="8" ry="6" fill="#FF9800"/>
+    <rect x="446" y="60" width="2" height="30" fill="#FF9800"/>
+  </g>
+  
+  <!-- 声波效果 -->
+  <g>
+    <circle cx="100" cy="200" r="60" stroke="#FF9800" stroke-width="2" fill="none" opacity="0.3"/>
+    <circle cx="100" cy="200" r="70" stroke="#FF9800" stroke-width="1" fill="none" opacity="0.2"/>
+  </g>
+  
+  <!-- 教学提示 -->
+  <rect x="50" y="280" width="400" height="40" rx="5" fill="#FFE0B2"/>
+  <text x="250" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#F57C00">🥁 Барабан, 🔔 треугольник, 🎺 бубен, 🪇 маракасы</text>
+  <text x="250" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#E65100">Ударные задают ритм музыке!</text>
+  
+  <!-- 教学提示 -->
+  <rect x="50" y="325" width="400" height="20" rx="5" fill="#FFF8E1"/>
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#F57C00">👋 Отбивай ритм хлопками!</text>
+</svg>

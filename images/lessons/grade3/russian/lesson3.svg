@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="skyGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8DC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFACD;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#skyGrad3)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="50" cy="50" r="35" fill="#FFA500" opacity="0.15"/>
+  <circle cx="460" cy="300" r="45" fill="#FFA500" opacity="0.12"/>
+  <circle cx="420" cy="70" r="25" fill="#FFD700" opacity="0.1"/>
+  
+  <!-- Sun -->
+  <circle cx="450" cy="45" r="22" fill="#FFD700" opacity="0.8">
+    <animate attributeName="r" values="22;25;22" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Clouds -->
+  <g opacity="0.7">
+    <ellipse cx="120" cy="50" rx="30" ry="18" fill="white"/>
+    <ellipse cx="140" cy="45" rx="25" ry="15" fill="white"/>
+    <ellipse cx="100" cy="55" rx="20" ry="12" fill="white"/>
+  </g>
+  
+  <!-- Ground with flowers -->
+  <ellipse cx="250" cy="370" rx="280" ry="50" fill="#90EE90" opacity="0.4"/>
+  
+  <!-- Small flowers -->
+  <g opacity="0.5">
+    <circle cx="40" cy="325" r="4" fill="#FF6347"/>
+    <circle cx="35" cy="320" r="3" fill="#FFA07A"/>
+    <circle cx="45" cy="320" r="3" fill="#FFA07A"/>
+  </g>
+  <g opacity="0.5">
+    <circle cx="460" cy="320" r="4" fill="#DA70D6"/>
+    <circle cx="455" cy="315" r="3" fill="#EE82EE"/>
+    <circle cx="465" cy="315" r="3" fill="#EE82EE"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FF8C00" text-anchor="middle">⬅️ Суффикс</text>
+  <rect x="100" y="45" width="300" height="3" rx="2" fill="#FF8C00" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="30" y="65" width="440" height="255" rx="15" fill="white" opacity="0.9" stroke="#FF8C00" stroke-width="2"/>
+  
+  <!-- Definition -->
+  <text x="250" y="95" font-size="12" font-weight="bold" fill="#FF8C00" text-anchor="middle">Суффикс — часть слова после корня</text>
+  
+  <!-- Word diagram -->
+  <g transform="translate(250, 140)">
+    <!-- Base word structure -->
+    <rect x="-120" y="-15" width="60" height="30" rx="5" fill="#FFE4B5" stroke="#FF8C00"/>
+    <text x="-90" y="5" font-size="11" fill="#333" text-anchor="middle">ДОМ</text>
+    
+    <text x="-50" y="5" font-size="16" fill="#FF8C00">+</text>
+    
+    <!-- Suffix -->
+    <rect x="-35" y="-15" width="55" height="30" rx="5" fill="#FFA500" opacity="0.3" stroke="#FF8C00" stroke-dasharray="3"/>
+    <text x="-8" y="5" font-size="11" fill="#FF8C00" font-weight="bold" text-anchor="middle">-ИК-</text>
+    
+    <text x="30" y="5" font-size="16" fill="#333">=</text>
+    
+    <!-- Result -->
+    <rect x="45" y="-15" width="70" height="30" rx="5" fill="#FFE4B5" stroke="#FF8C00"/>
+    <text x="80" y="5" font-size="11" fill="#333" text-anchor="middle">ДОМИК</text>
+    
+    <!-- Arrow showing suffix position -->
+    <path d="M-8 25 L-8 35" stroke="#FF8C00" stroke-width="2"/>
+    <text x="-8" y="50" font-size="9" fill="#FF8C00" text-anchor="middle">суффикс</text>
+  </g>
+  
+  <!-- Examples table -->
+  <g transform="translate(50, 200)">
+    <text x="0" y="0" font-size="11" font-weight="bold" fill="#FF8C00">Примеры суффиксов:</text>
+    
+    <rect x="0" y="10" width="180" height="25" rx="5" fill="#FFF8DC"/>
+    <text x="10" y="27" font-size="10" fill="#333">-ик-, -ек-</text>
+    <text x="70" y="27" font-size="9" fill="#666">→ домик, мячик</text>
+    
+    <rect x="0" y="40" width="180" height="25" rx="5" fill="#FFF8DC"/>
+    <text x="10" y="57" font-size="10" fill="#333">-ник-</text>
+    <text x="50" y="57" font-size="9" fill="#666">→ лесник, ученик</text>
+    
+    <rect x="0" y="70" width="180" height="25" rx="5" fill="#FFF8DC"/>
+    <text x="10" y="87" font-size="10" fill="#333">-ок-</text>
+    <text x="45" y="87" font-size="9" fill="#666">→ грибок, снежок</text>
+  </g>
+  
+  <!-- Meanings -->
+  <g transform="translate(260, 200)">
+    <text x="0" y="0" font-size="11" font-weight="bold" fill="#FF8C00">Значения суффиксов:</text>
+    
+    <rect x="0" y="10" width="200" height="95" rx="8" fill="#FFFACD" stroke="#FF8C00" stroke-width="1"/>
+    <text x="10" y="30" font-size="9" fill="#333">• -ик- = маленький предмет</text>
+    <text x="10" y="48" font-size="9" fill="#333">• -ник- = человек по профессии</text>
+    <text x="10" y="66" font-size="9" fill="#333">• -ок- = уменьшительно-ласкательное</text>
+    <text x="10" y="84" font-size="9" fill="#333">• -ищ- = увеличительное</text>
+  </g>
+  
+  <!-- Animated suffix indicator -->
+  <g transform="translate(420, 280)">
+    <polygon points="0,-15 -8,-5 -3,-5 -3,5 3,5 3,-5 8,-5" fill="#FF8C00" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="1s" repeatCount="indefinite"/>
+    </polygon>
+    <text x="0" y="20" font-size="9" fill="#FF8C00" text-anchor="middle">После корня!</text>
+  </g>
+  
+  <!-- Decorative pencil -->
+  <g transform="translate(60, 285)" opacity="0.6">
+    <rect x="0" y="0" width="30" height="8" fill="#FFD700"/>
+    <polygon points="30,0 30,8 38,4" fill="#333"/>
+    <rect x="0" y="0" width="6" height="8" fill="#FF6347"/>
+  </g>
+</svg>

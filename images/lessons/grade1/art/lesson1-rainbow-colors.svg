@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  
+  <rect width="500" height="350" fill="#FFF0F5"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#C71585">🌈 Радуга цветов</text>
+  
+  <!-- Радуга -->
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+    <path d="M80 280 Q250 80 420 280" stroke="#FF0000" stroke-width="18" fill="none" opacity="0.9"/>
+    <path d="M95 280 Q250 100 405 280" stroke="#FF7F00" stroke-width="16" fill="none" opacity="0.9"/>
+    <path d="M110 280 Q250 120 390 280" stroke="#FFFF00" stroke-width="14" fill="none" opacity="0.9"/>
+    <path d="M125 280 Q250 140 375 280" stroke="#00FF00" stroke-width="12" fill="none" opacity="0.9"/>
+    <path d="M140 280 Q250 160 360 280" stroke="#0000FF" stroke-width="10" fill="none" opacity="0.9"/>
+    <path d="M155 280 Q250 180 345 280" stroke="#4B0082" stroke-width="8" fill="none" opacity="0.9"/>
+    <path d="M170 280 Q250 200 330 280" stroke="#9400D3" stroke-width="6" fill="none" opacity="0.9"/>
+  </g>
+  
+  <!-- Облака -->
+  <g>
+    <ellipse cx="70" cy="250" rx="40" ry="25" fill="#FFB6C1" opacity="0.8"/>
+    <ellipse cx="100" cy="240" rx="35" ry="22" fill="#FFB6C1" opacity="0.8"/>
+  </g>
+  <g style="animation-delay: 0.5s;">
+    <ellipse cx="420" cy="250" rx="40" ry="25" fill="#FFB6C1" opacity="0.8"/>
+    <ellipse cx="450" cy="240" rx="35" ry="22" fill="#FFB6C1" opacity="0.8"/>
+  </g>
+  
+  <!-- Названия цветов -->
+  <text x="95" y="320" font-size="11" fill="#FF0000">Красный</text>
+  <text x="155" y="320" font-size="11" fill="#FF7F00">Оранжевый</text>
+  <text x="230" y="320" font-size="11" fill="#B8860B">Жёлтый</text>
+  <text x="290" y="320" font-size="11" fill="#228B22">Зелёный</text>
+  <text x="345" y="320" font-size="11" fill="#0000FF">Синий</text>
+  <text x="400" y="320" font-size="11" fill="#4B0082">Фиолетовый</text>
+  
+  <!-- Подсказка -->
+  <text x="250" y="70" text-anchor="middle" font-size="12" fill="#DB7093">💡 Запомни 7 цветов радуги!</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="250" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#6366f1">Геометрические фигуры 🔷</text>
+  
+  <!-- Circle -->
+  <rect x="20" y="50" width="150" height="120" fill="#fef2f2" rx="12"/>
+  <text x="95" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">Круг ⭕</text>
+  <g style="transform-origin: 95px 115px">
+    <circle cx="95" cy="115" r="35" fill="#f87171" stroke="#dc2626" stroke-width="3">
+    <animate attributeName="r" values="35;37;35" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  </g>
+  <text x="95" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#b91c1c">Нет углов, можно катить</text>
+  
+  <!-- Square -->
+  <rect x="180" y="50" width="140" height="120" fill="#eff6ff" rx="12"/>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2563eb">Квадрат ⬜</text>
+  <g style="transform-origin: 250px 115px; animation-delay: 0.3s">
+    <rect x="215" y="80" width="70" height="70" fill="#60a5fa" stroke="#2563eb" stroke-width="3" rx="3"/>
+  </g>
+  <text x="250" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1d4ed8">4 равные стороны, 4 угла</text>
+  
+  <!-- Triangle -->
+  <rect x="330" y="50" width="150" height="120" fill="#f0fdf4" rx="12"/>
+  <text x="405" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#15803d">Треугольник 🔺</text>
+  <g style="transform-origin: 405px 115px; animation-delay: 0.6s">
+    <polygon points="405,80 440,150 370,150" fill="#4ade80" stroke="#15803d" stroke-width="3"/>
+  </g>
+  <text x="405" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#166534">3 стороны, 3 угла</text>
+  
+  <!-- Rectangle -->
+  <rect x="20" y="180" width="150" height="100" fill="#fefce8" rx="12"/>
+  <text x="95" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ca8a04">Прямоугольник ▭</text>
+  <g style="transform-origin: 95px 240px; animation-delay: 0.9s">
+    <rect x="55" y="215" width="80" height="50" fill="#fbbf24" stroke="#ca8a04" stroke-width="3" rx="3"/>
+  </g>
+  <text x="95" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#a16207">4 угла, стороны попарно равны</text>
+  
+  <!-- Oval -->
+  <rect x="180" y="180" width="140" height="100" fill="#fdf2f8" rx="12"/>
+  <text x="250" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#db2777">Овал ⬭</text>
+  <g style="transform-origin: 250px 240px; animation-delay: 1.2s">
+    <ellipse cx="250" cy="240" rx="50" ry="30" fill="#f472b6" stroke="#db2777" stroke-width="3"/>
+  </g>
+  <text x="250" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#be185d">Вытянутый круг</text>
+  
+  <!-- Point and Line -->
+  <rect x="330" y="180" width="150" height="100" fill="#f5f3ff" rx="12"/>
+  <text x="405" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7c3aed">Точка и линия</text>
+  <circle cx="360" cy="240" r="6" fill="#8b5cf6">
+    <animate attributeName="r" values="6;8;6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <line x1="380" y1="240" x2="460" y2="240" stroke="#8b5cf6" stroke-width="3"/>
+  <text x="405" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6d28d9">Точка • — начало линии</text>
+  
+  <!-- Real world examples -->
+  <rect x="20" y="290" width="460" height="50" fill="#f1f5f9" rx="10"/>
+  <text x="250" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#334155">Где встречаются фигуры?</text>
+  <text x="250" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#64748b">⚽ Мяч — круг | 🪟 Окно — квадрат | 🏠 Крыша — треугольник | 📖 Книга — прямоугольник</text>
+</svg>

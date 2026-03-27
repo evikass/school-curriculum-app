@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color="#e0f7fa"/>
+      <stop offset="100%" style="stop-color="#b2ebf2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Big letter У -->
+  <text x="200" y="160" font-family="Arial Black, sans-serif" font-size="140" fill="#00838f" text-anchor="middle" font-weight="bold">
+    У
+    <animate attributeName="fill" values="#00838f;#00bcd4;#00838f" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Small letter у -->
+  <text x="320" y="100" font-family="Arial, sans-serif" font-size="60" fill="#00bcd4" text-anchor="middle">у</text>
+  
+  <!-- Sound wave -->
+  <g transform="translate(50, 50)">
+    <ellipse cx="30" cy="20" rx="15" ry="10" stroke="#f44336" stroke-width="3" fill="none">
+      <animate attributeName="rx" values="15;18;15" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="55" y="25" font-family="Arial, sans-serif" font-size="16" fill="#f44336">[У]</text>
+  </g>
+  
+  <!-- Mouth for У sound (tube) -->
+  <g transform="translate(320, 180)">
+    <ellipse cx="0" cy="0" rx="10" ry="12" fill="#ffccbc" stroke="#00838f" stroke-width="2"/>
+    <circle cx="0" cy="0" r="5" fill="#b71c1c"/>
+  </g>
+  
+  <!-- Words starting with У -->
+  <text x="60" y="240" font-family="Arial, sans-serif" font-size="14" fill="#333">У</text>
+  <text x="75" y="240" font-family="Arial, sans-serif" font-size="14" fill="#00838f">тка</text>
+  <text x="120" y="240" font-family="Arial, sans-serif" font-size="14" fill="#333">У</text>
+  <text x="135" y="240" font-family="Arial, sans-serif" font-size="14" fill="#00838f">литка</text>
+  <text x="210" y="240" font-family="Arial, sans-serif" font-size="14" fill="#333">У</text>
+  <text x="225" y="240" font-family="Arial, sans-serif" font-size="14" fill="#00838f">читель</text>
+  <text x="310" y="240" font-family="Arial, sans-serif" font-size="14" fill="#333">У</text>
+  <text x="325" y="240" font-family="Arial, sans-serif" font-size="14" fill="#00838f">ши</text>
+  
+  <!-- Title -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#006064" text-anchor="middle" font-weight="bold">Буква У, звук [у]</text>
+</svg>

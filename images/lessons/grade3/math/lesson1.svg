@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="mathBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BBDEFB;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#mathBg)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="55" cy="55" r="32" fill="#2196F3" opacity="0.12"/>
+  <circle cx="455" cy="295" r="42" fill="#2196F3" opacity="0.1"/>
+  
+  <!-- Sun -->
+  <circle cx="440" cy="50" r="22" fill="#FFD700" opacity="0.85">
+    <animate attributeName="r" values="22;26;22" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Clouds with numbers -->
+  <g opacity="0.7">
+    <ellipse cx="100" cy="45" rx="30" ry="18" fill="white"/>
+    <ellipse cx="125" cy="40" rx="24" ry="14" fill="white"/>
+  </g>
+  
+  <!-- Trees -->
+  <g opacity="0.25">
+    <ellipse cx="35" cy="280" rx="22" ry="35" fill="#228B22"/>
+    <rect x="30" y="280" width="10" height="20" fill="#8B4513"/>
+  </g>
+  <g opacity="0.22">
+    <ellipse cx="470" cy="275" rx="25" ry="38" fill="#228B22"/>
+    <rect x="465" y="275" width="10" height="22" fill="#8B4513"/>
+  </g>
+  
+  <!-- Flowers -->
+  <g opacity="0.5">
+    <circle cx="40" cy="325" r="5" fill="#2196F3"/>
+    <circle cx="47" cy="320" r="4" fill="#64B5F6"/>
+  </g>
+  <g opacity="0.45">
+    <circle cx="465" cy="325" r="5" fill="#1976D2"/>
+    <circle cx="458" cy="320" r="4" fill="#42A5F5"/>
+  </g>
+  
+  <!-- Floating numbers decoration -->
+  <text x="40" y="100" font-size="14" fill="#1976D2" opacity="0.3">
+    <animate attributeName="y" values="100;95;100" dur="3s" repeatCount="indefinite"/>
+    100
+  </text>
+  <text x="430" y="120" font-size="14" fill="#1976D2" opacity="0.25">
+    <animate attributeName="y" values="120;125;120" dur="2.5s" repeatCount="indefinite"/>
+    500
+  </text>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1565C0" text-anchor="middle">🔢 Числа от 1 до 1000</text>
+  <rect x="100" y="45" width="300" height="3" rx="2" fill="#1565C0" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="30" y="60" width="440" height="255" rx="15" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="2"/>
+  
+  <!-- Number line -->
+  <text x="250" y="85" font-size="11" font-weight="bold" fill="#1565C0" text-anchor="middle">Нумерация чисел</text>
+  
+  <!-- Number line visual -->
+  <g transform="translate(50, 95)">
+    <line x1="0" y1="20" x2="400" y2="20" stroke="#1976D2" stroke-width="2"/>
+    
+    <!-- Markers -->
+    <line x1="0" y1="15" x2="0" y2="25" stroke="#1976D2" stroke-width="2"/>
+    <text x="0" y="40" font-size="10" fill="#333" text-anchor="middle">1</text>
+    
+    <line x1="100" y1="15" x2="100" y2="25" stroke="#1976D2" stroke-width="2"/>
+    <text x="100" y="40" font-size="10" fill="#333" text-anchor="middle">100</text>
+    
+    <line x1="200" y1="15" x2="200" y2="25" stroke="#1976D2" stroke-width="2"/>
+    <text x="200" y="40" font-size="10" fill="#333" text-anchor="middle">250</text>
+    
+    <line x1="300" y1="15" x2="300" y2="25" stroke="#1976D2" stroke-width="2"/>
+    <text x="300" y="40" font-size="10" fill="#333" text-anchor="middle">500</text>
+    
+    <line x1="400" y1="15" x2="400" y2="25" stroke="#1976D2" stroke-width="2"/>
+    <text x="400" y="40" font-size="10" fill="#333" text-anchor="middle">1000</text>
+  </g>
+  
+  <!-- Number types -->
+  <g transform="translate(50, 155)">
+    <rect x="0" y="0" width="125" height="55" rx="8" fill="#E3F2FD" stroke="#1976D2"/>
+    <text x="62" y="18" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle">📌 Сотни</text>
+    <text x="62" y="35" font-size="12" fill="#333" text-anchor="middle">100, 200, 300...</text>
+    <text x="62" y="50" font-size="8" fill="#666" text-anchor="middle">сто, двести, триста</text>
+    
+    <rect x="137" y="0" width="125" height="55" rx="8" fill="#BBDEFB" stroke="#1E88E5"/>
+    <text x="199" y="18" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle">📌 Десятки</text>
+    <text x="199" y="35" font-size="12" fill="#333" text-anchor="middle">10, 20, 30...</text>
+    <text x="199" y="50" font-size="8" fill="#666" text-anchor="middle">десять, двадцать</text>
+    
+    <rect x="274" y="0" width="125" height="55" rx="8" fill="#90CAF9" stroke="#42A5F5"/>
+    <text x="336" y="18" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle">📌 Единицы</text>
+    <text x="336" y="35" font-size="12" fill="#333" text-anchor="middle">1, 2, 3...9</text>
+    <text x="336" y="50" font-size="8" fill="#666" text-anchor="middle">один, два, три</text>
+  </g>
+  
+  <!-- Key points -->
+  <rect x="50" y="225" width="400" height="55" rx="10" fill="#E8EAF6" stroke="#1565C0"/>
+  <text x="250" y="245" font-size="11" font-weight="bold" fill="#1565C0" text-anchor="middle">🌟 Как образуются числа</text>
+  <text x="70" y="265" font-size="9" fill="#333">📌 354 = 3 сотни + 5 десятков + 4 единицы</text>
+  
+  <!-- Animated calculator -->
+  <g transform="translate(420, 275)">
+    <rect x="0" y="0" width="30" height="35" rx="4" fill="#1976D2" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.8;0.5" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="3" y="3" width="24" height="10" fill="#BBDEFB"/>
+    <text x="15" y="12" font-size="7" fill="#1565C0" text-anchor="middle">123</text>
+  </g>
+  
+  <!-- Pencil -->
+  <g transform="translate(55, 280)" opacity="0.5">
+    <rect x="0" y="3" width="25" height="8" fill="#FFD700"/>
+    <polygon points="25,3 25,11 32,7" fill="#333"/>
+  </g>
+</svg>

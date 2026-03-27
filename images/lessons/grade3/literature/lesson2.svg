@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="litBg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F1F8E9;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#litBg2)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="60" cy="55" r="30" fill="#4CAF50" opacity="0.15"/>
+  <circle cx="450" cy="295" r="40" fill="#4CAF50" opacity="0.1"/>
+  
+  <!-- Sun -->
+  <circle cx="430" cy="50" r="22" fill="#FFD700" opacity="0.85">
+    <animate attributeName="r" values="22;26;22" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Clouds -->
+  <g opacity="0.7">
+    <ellipse cx="100" cy="45" rx="25" ry="15" fill="white"/>
+    <ellipse cx="120" cy="40" rx="20" ry="12" fill="white"/>
+  </g>
+  
+  <!-- Trees -->
+  <g opacity="0.28">
+    <ellipse cx="35" cy="280" rx="22" ry="35" fill="#228B22"/>
+    <rect x="30" y="280" width="10" height="20" fill="#8B4513"/>
+  </g>
+  
+  <!-- Flowers -->
+  <g opacity="0.5">
+    <circle cx="40" cy="325" r="5" fill="#4CAF50"/>
+    <circle cx="47" cy="320" r="4" fill="#81C784"/>
+  </g>
+  <g opacity="0.45">
+    <circle cx="460" cy="325" r="5" fill="#8BC34A"/>
+    <circle cx="453" cy="320" r="4" fill="#AED581"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2E7D32" text-anchor="middle">📝 Поэтическая тетрадь</text>
+  <rect x="100" y="45" width="300" height="3" rx="2" fill="#2E7D32" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="30" y="60" width="440" height="255" rx="15" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="2"/>
+  
+  <!-- Poets section -->
+  <text x="250" y="85" font-size="12" font-weight="bold" fill="#2E7D32" text-anchor="middle">Русские поэты о природе</text>
+  
+  <!-- Poet cards -->
+  <g transform="translate(50, 100)">
+    <!-- Pushkin -->
+    <rect x="0" y="0" width="125" height="70" rx="8" fill="#E8F5E9" stroke="#4CAF50"/>
+    <text x="62" y="18" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle">А.С. Пушкин</text>
+    <text x="62" y="35" font-size="20" text-anchor="middle">🧔</text>
+    <text x="62" y="55" font-size="7" fill="#333" text-anchor="middle">"Унылая пора! Очей</text>
+    <text x="62" y="65" font-size="7" fill="#333" text-anchor="middle">очарованье..."</text>
+    
+    <!-- Tyutchev -->
+    <rect x="135" y="0" width="125" height="70" rx="8" fill="#F1F8E9" stroke="#7CB342"/>
+    <text x="197" y="18" font-size="10" font-weight="bold" fill="#558B2F" text-anchor="middle">Ф.И. Тютчев</text>
+    <text x="197" y="35" font-size="20" text-anchor="middle">👔</text>
+    <text x="197" y="55" font-size="7" fill="#333" text-anchor="middle">"Чародейкою Зимою</text>
+    <text x="197" y="65" font-size="7" fill="#333" text-anchor="middle">околдован лес..."</text>
+    
+    <!-- Fet -->
+    <rect x="270" y="0" width="125" height="70" rx="8" fill="#DCEDC8" stroke="#8BC34A"/>
+    <text x="332" y="18" font-size="10" font-weight="bold" fill="#689F38" text-anchor="middle">А.А. Фет</text>
+    <text x="332" y="35" font-size="20" text-anchor="middle">🎭</text>
+    <text x="332" y="55" font-size="7" fill="#333" text-anchor="middle">"Я пришёл к тебе с</text>
+    <text x="332" y="65" font-size="7" fill="#333" text-anchor="middle">приветом..."</text>
+  </g>
+  
+  <!-- Poetry features -->
+  <rect x="50" y="185" width="400" height="70" rx="10" fill="#F9FBE7" stroke="#2E7D32"/>
+  <text x="250" y="205" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">🌟 Особенности поэзии</text>
+  <text x="70" y="225" font-size="9" fill="#333">📌 Рифма — созвучие окончаний строк</text>
+  <text x="70" y="240" font-size="9" fill="#333">📌 Ритм — музыкальность стиха</text>
+  <text x="260" y="225" font-size="9" fill="#333">📌 Образные выражения</text>
+  <text x="260" y="240" font-size="9" fill="#333">📌 Эмоции и чувства</text>
+  
+  <!-- Poem example -->
+  <rect x="120" y="265" width="260" height="40" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-dasharray="3"/>
+  <text x="250" y="282" font-size="9" fill="#2E7D32" text-anchor="middle" font-style="italic">"Лес, точно терем расписной,"</text>
+  <text x="250" y="295" font-size="8" fill="#666" text-anchor="middle">— И.А. Бунин</text>
+  
+  <!-- Decorative quill -->
+  <g transform="translate(60, 285)" opacity="0.5">
+    <path d="M0 20 Q10 10 5 0 Q15 10 20 20 Q10 15 0 20" fill="#2E7D32"/>
+    <line x1="10" y1="20" x2="10" y2="35" stroke="#8B4513" stroke-width="2"/>
+  </g>
+  
+  <!-- Book -->
+  <g transform="translate(420, 285)" opacity="0.5">
+    <rect x="0" y="0" width="25" height="18" rx="2" fill="#4CAF50"/>
+    <rect x="2" y="2" width="21" height="14" fill="white"/>
+  </g>
+</svg>

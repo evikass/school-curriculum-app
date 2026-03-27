@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#ecfdf5"/>
+  
+  <!-- Title -->
+  <text x="250" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#166534">«Репка» 🥕</text>
+  <text x="250" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#15803d">Русская народная сказка</text>
+  
+  <!-- Characters chain -->
+  <rect x="20" y="60" width="460" height="130" fill="#f0fdf4" rx="12"/>
+  <text x="250" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#15803d">Герои сказки (в порядке появления):</text>
+  
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+    <!-- Turnip -->
+    <g style="animation-delay: 0s">
+      <text x="45" y="130" text-anchor="middle" font-size="35">🥕</text>
+      <text x="45" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Репка</text>
+    </g>
+    <text x="70" y="130" text-anchor="middle" font-size="16">←</text>
+    
+    <!-- Grandfather -->
+    <g style="animation-delay: 0.2s">
+      <text x="100" y="130" text-anchor="middle" font-size="30">🧓</text>
+      <text x="100" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Дедка</text>
+    </g>
+    <text x="125" y="130" text-anchor="middle" font-size="16">←</text>
+    
+    <!-- Grandmother -->
+    <g style="animation-delay: 0.4s">
+      <text x="155" y="130" text-anchor="middle" font-size="30">👵</text>
+      <text x="155" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Бабка</text>
+    </g>
+    <text x="180" y="130" text-anchor="middle" font-size="16">←</text>
+    
+    <!-- Granddaughter -->
+    <g style="animation-delay: 0.6s">
+      <text x="210" y="130" text-anchor="middle" font-size="30">👧</text>
+      <text x="210" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Внучка</text>
+    </g>
+    <text x="235" y="130" text-anchor="middle" font-size="16">←</text>
+    
+    <!-- Dog -->
+    <g style="animation-delay: 0.8s">
+      <text x="265" y="130" text-anchor="middle" font-size="30">🐕</text>
+      <text x="265" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Жучка</text>
+    </g>
+    <text x="290" y="130" text-anchor="middle" font-size="16">←</text>
+    
+    <!-- Cat -->
+    <g style="animation-delay: 1s">
+      <text x="320" y="130" text-anchor="middle" font-size="30">🐱</text>
+      <text x="320" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Кошка</text>
+    </g>
+    <text x="345" y="130" text-anchor="middle" font-size="16">←</text>
+    
+    <!-- Mouse -->
+    <g style="animation-delay: 1.2s">
+      <text x="375" y="130" text-anchor="middle" font-size="30">🐭</text>
+      <text x="375" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Мышка</text>
+    </g>
+    
+    <text x="430" y="130" text-anchor="middle" font-size="14" fill="#dc2626">→ ВЫТЯНУЛИ!</text>
+  </g>
+  
+  <!-- Key point -->
+  <rect x="20" y="200" width="460" height="50" fill="#fef3c7" rx="10"/>
+  <text x="250" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#b45309">💡 Главная мысль:</text>
+  <text x="250" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#92400e">Вместе можно сделать то, что одному не под силу! Даже маленькая мышка важна!</text>
+  
+  <!-- Questions -->
+  <rect x="20" y="260" width="220" height="80" fill="#dbeafe" rx="10"/>
+  <text x="130" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2563eb">Вопросы по сказке:</text>
+  <text x="130" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1d4ed8">• Кто посадил репку?</text>
+  <text x="130" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1d4ed8">• Кто пришёл последним?</text>
+  <text x="130" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1d4ed8">• Кто самый маленький герой?</text>
+  
+  <rect x="260" y="260" width="220" height="80" fill="#fce7f3" rx="10"/>
+  <text x="370" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#db2777">Задание:</text>
+  <text x="370" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#be185d">• Перескажи сказку</text>
+  <text x="370" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#be185d">• Нарисуй героев</text>
+  <text x="370" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#be185d">• Разыграй по ролям</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#f0fdf4"/>
+  
+  <!-- Title -->
+  <text x="250" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#15803d">Времена года 🍂🌸☀️❄️</text>
+  
+  <!-- Winter -->
+  <rect x="20" y="50" width="110" height="130" fill="#e0f2fe" rx="12"/>
+  <text x="75" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0369a1">ЗИМА ❄️</text>
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+    <text x="75" y="110" text-anchor="middle" font-size="35">⛄</text>
+  </g>
+  <text x="75" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0c4a6e">Декабрь, январь, февраль</text>
+  <text x="75" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0369a1">Холодно, снег, лыжи</text>
+  <text x="75" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#0284c7">🧥 Шуба, шапка, варежки</text>
+  
+  <!-- Spring -->
+  <rect x="140" y="50" width="110" height="130" fill="#dcfce7" rx="12"/>
+  <text x="195" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#15803d">ВЕСНА 🌸</text>
+  <g style="animation-delay: 0.5s">
+    <text x="195" y="110" text-anchor="middle" font-size="35">🌷</text>
+  </g>
+  <text x="195" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Март, апрель, май</text>
+  <text x="195" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#15803d">Тает снег, ручьи</text>
+  <text x="195" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#22c55e">🧥 Куртка, резиновые сапоги</text>
+  
+  <!-- Summer -->
+  <rect x="260" y="50" width="110" height="130" fill="#fef3c7" rx="12"/>
+  <text x="315" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#b45309">ЛЕТО ☀️</text>
+  <g>
+    <text x="315" y="110" text-anchor="middle" font-size="35">🌻</text>
+  </g>
+  <text x="315" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#92400e">Июнь, июль, август</text>
+  <text x="315" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#b45309">Жарко, каникулы, купаться</text>
+  <text x="315" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#d97706">👕 Футболка, шорты, сандалии</text>
+  
+  <!-- Autumn -->
+  <rect x="380" y="50" width="100" height="130" fill="#fef2f2" rx="12"/>
+  <text x="430" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#dc2626">ОСЕНЬ 🍂</text>
+  <g style="animation-delay: 1s">
+    <text x="430" y="110" text-anchor="middle" font-size="35">🍁</text>
+  </g>
+  <text x="430" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#991b1b">Сентябрь, октябрь, ноябрь</text>
+  <text x="430" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#dc2626">Листопад, дожди</text>
+  <text x="430" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#ef4444">🧥 Пальто, плащ, зонт</text>
+  
+  <!-- Cycle arrow -->
+  <rect x="20" y="190" width="460" height="50" fill="#f8fafc" rx="10"/>
+  <text x="250" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#334155">Круговорот времён года</text>
+  <text x="250" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">ЗИМА → ВЕСНА → ЛЕТО → ОСЕНЬ → ЗИМА ...</text>
+  
+  <!-- Signs of seasons -->
+  <rect x="20" y="250" width="150" height="90" fill="#f0f9ff" rx="10"/>
+  <text x="95" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0c4a6e">Признаки зимы</text>
+  <text x="95" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0369a1">❄️ Снег, мороз</text>
+  <text x="95" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0369a1">🧤 Тёплая одежда</text>
+  <text x="95" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0369a1">🎿 Лыжи, коньки</text>
+  
+  <rect x="180" y="250" width="140" height="90" fill="#f0fdf4" rx="10"/>
+  <text x="250" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#166534">Признаки весны</text>
+  <text x="250" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#15803d">🌱 Проталины, почки</text>
+  <text x="250" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#15803d">🐦 Птицы прилетают</text>
+  <text x="250" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#15803d">💧 Ручьи бегут</text>
+  
+  <rect x="330" y="250" width="150" height="90" fill="#fffbeb" rx="10"/>
+  <text x="405" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#92400e">Признаки лета и осени</text>
+  <text x="405" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#b45309">☀️ Лето: жарко, ягоды</text>
+  <text x="405" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#b45309">🍂 Осень: листопад</text>
+  <text x="405" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#b45309">🌧️ Дожди, урожай</text>
+</svg>

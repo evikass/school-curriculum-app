@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#fefce8"/>
+  
+  <!-- Title -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ca8a04">ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ ✏️</text>
+  
+  <!-- ZHI-SHI Rule -->
+  <rect x="20" y="50" width="150" height="140" fill="#dcfce7" rx="12"/>
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+    <rect x="35" y="65" width="120" height="35" fill="#22c55e" rx="8"/>
+    <text x="95" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">ЖИ - ШИ</text>
+  </g>
+  <text x="95" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#15803d">И</text>
+  <text x="95" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">жизнь, шина</text>
+  <text x="95" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">машина, ножи</text>
+  <text x="95" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#15803d">Ж и Ш — всегда твёрдые!</text>
+  
+  <!-- CHA-SCHA Rule -->
+  <rect x="180" y="50" width="140" height="140" fill="#dbeafe" rx="12"/>
+  <g style="animation-delay: 0.3s">
+    <rect x="195" y="65" width="110" height="35" fill="#3b82f6" rx="8"/>
+    <text x="250" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">ЧА - ЩА</text>
+  </g>
+  <text x="250" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1d4ed8">А</text>
+  <text x="250" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e40af">чай, чаща</text>
+  <text x="250" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e40af">задача, роща</text>
+  <text x="250" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2563eb">Ч и Щ — всегда мягкие!</text>
+  
+  <!-- CHU-SCHU Rule -->
+  <rect x="330" y="50" width="150" height="140" fill="#fce7f3" rx="12"/>
+  <g style="animation-delay: 0.6s">
+    <rect x="345" y="65" width="120" height="35" fill="#ec4899" rx="8"/>
+    <text x="405" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">ЧУ - ЩУ</text>
+  </g>
+  <text x="405" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#be185d">У</text>
+  <text x="405" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#9d174d">чудо, щука</text>
+  <text x="405" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#9d174d">чулок, щупальце</text>
+  <text x="405" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#db2777">Запомни написание!</text>
+  
+  <!-- Wrong examples -->
+  <rect x="20" y="200" width="460" height="60" fill="#fee2e2" rx="10"/>
+  <text x="250" y="222" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">❌ Ошибки, которые нельзя делать:</text>
+  <g>
+    <text x="95" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#ef4444" text-decoration="line-through">жы</text>
+    <text x="95" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#22c55e">→ жи</text>
+  </g>
+  <g style="animation-delay: 0.2s">
+    <text x="250" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#ef4444" text-decoration="line-through">чя</text>
+    <text x="250" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#3b82f6">→ ча</text>
+  </g>
+  <g style="animation-delay: 0.4s">
+    <text x="405" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#ef4444" text-decoration="line-through">щю</text>
+    <text x="405" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#ec4899">→ щу</text>
+  </g>
+  
+  <!-- Memory helper -->
+  <rect x="20" y="270" width="460" height="70" fill="#f8fafc" rx="10"/>
+  <text x="250" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#334155">💡 Как запомнить?</text>
+  <text x="250" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">ЖИ-ШИ пиши с буквой И | ЧА-ЩА пиши с буквой А | ЧУ-ЩУ пиши с буквой У</text>
+</svg>

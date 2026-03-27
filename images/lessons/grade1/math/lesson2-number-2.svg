@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f0f9ff" rx="20"/>
+  <!-- Decorative circles -->
+  <circle cx="50" cy="50" r="20" fill="#fde68a" opacity="0.6">
+    <animate attributeName="r" values="20;22;20" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="80" r="15" fill="#fca5a5" opacity="0.6">
+    <animate attributeName="r" values="15;17;15" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="350" r="18" fill="#86efac" opacity="0.6"/>
+  <circle cx="330" cy="320" r="12" fill="#93c5fd" opacity="0.6"/>
+  <!-- Large number 2 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0" dur="2s" repeatCount="indefinite"/>
+    <text x="200" y="250" font-size="200" font-weight="bold" fill="url(#grad2)" text-anchor="middle" font-family="Arial, sans-serif">2</text>
+  </g>
+  <!-- Swan 1 -->
+  <g transform="translate(60, 280)">
+    <ellipse cx="30" cy="30" rx="25" ry="20" fill="#fef3c7"/>
+    <path d="M 50 20 Q 70 0 65 -15 Q 60 -20 55 -15 Q 50 0 50 10" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+    <circle cx="60" cy="-5" r="2" fill="#1e293b"/>
+    <path d="M 65 -10 L 70 -8" stroke="#f97316" stroke-width="2"/>
+  </g>
+  <!-- Swan 2 -->
+  <g transform="translate(280, 280)">
+    <ellipse cx="30" cy="30" rx="25" ry="20" fill="#fef3c7"/>
+    <path d="M 10 20 Q -10 0 -5 -15 Q 0 -20 5 -15 Q 10 0 10 10" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+    <circle cx="0" cy="-5" r="2" fill="#1e293b"/>
+    <path d="M -5 -10 L -10 -8" stroke="#f97316" stroke-width="2"/>
+  </g>
+  <!-- Two items label -->
+  <g transform="translate(200, 380)">
+    <text x="0" y="0" font-size="18" fill="#6366f1" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">ДВА</text>
+  </g>
+</svg>

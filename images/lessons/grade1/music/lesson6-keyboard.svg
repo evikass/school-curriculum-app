@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  
+  <rect width="500" height="350" fill="#E8EAF6"/>
+  
+  <!-- 标题 -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#3949AB">🎹 Урок 6: Клавишные инструменты 🎹</text>
+  
+  <!-- 钢琴 -->
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+    <!-- 钢琴主体 -->
+    <rect x="50" y="150" width="200" height="130" rx="5" fill="#263238"/>
+    <rect x="55" y="155" width="190" height="80" fill="#37474F"/>
+    
+    <!-- 白键 -->
+    <rect x="60" y="160" width="20" height="70" fill="#FAFAFA"/>
+    <rect x="82" y="160" width="20" height="70" fill="#FAFAFA"/>
+    <rect x="104" y="160" width="20" height="70" fill="#FAFAFA" style="animation-delay: 0.2s"/>
+    <rect x="126" y="160" width="20" height="70" fill="#FAFAFA"/>
+    <rect x="148" y="160" width="20" height="70" fill="#FAFAFA"/>
+    <rect x="170" y="160" width="20" height="70" fill="#FAFAFA" style="animation-delay: 0.4s"/>
+    <rect x="192" y="160" width="20" height="70" fill="#FAFAFA"/>
+    <rect x="214" y="160" width="20" height="70" fill="#FAFAFA"/>
+    
+    <!-- 黑键 -->
+    <rect x="75" y="160" width="12" height="45" fill="#212121"/>
+    <rect x="97" y="160" width="12" height="45" fill="#212121"/>
+    <rect x="141" y="160" width="12" height="45" fill="#212121"/>
+    <rect x="163" y="160" width="12" height="45" fill="#212121"/>
+    <rect x="185" y="160" width="12" height="45" fill="#212121"/>
+    
+    <!-- 乐谱架 -->
+    <rect x="80" y="120" width="140" height="35" fill="#546E7A"/>
+    <rect x="85" y="125" width="130" height="25" fill="#ECEFF1"/>
+    <text x="150" y="142" text-anchor="middle" font-size="10" fill="#37474F">ДО РЕ МИ ФА</text>
+  </g>
+  
+  <!-- 手风琴 -->
+  <g>
+    <rect x="280" y="160" width="50" height="70" rx="5" fill="#E91E63"/>
+    <rect x="280" y="165" width="50" height="25" fill="#F48FB1"/>
+    <rect x="335" y="160" width="50" height="70" rx="5" fill="#E91E63"/>
+    <rect x="335" y="165" width="50" height="25" fill="#F48FB1"/>
+    
+    <!-- 风箱 -->
+    <g>
+      <polygon points="330,160 335,165 335,225 330,230" fill="#8D6E63"/>
+      <polygon points="330,160 335,165 335,225 330,230" fill="#8D6E63" transform="translate(5,0)"/>
+    </g>
+    
+    <!-- 键盘 -->
+    <rect x="285" y="195" width="10" height="30" fill="#FAFAFA"/>
+    <rect x="297" y="195" width="10" height="30" fill="#FAFAFA"/>
+    <rect x="309" y="195" width="10" height="30" fill="#FAFAFA"/>
+    <rect x="340" y="195" width="10" height="30" fill="#FAFAFA"/>
+    <rect x="352" y="195" width="10" height="30" fill="#FAFAFA"/>
+    <rect x="364" y="195" width="10" height="30" fill="#FAFAFA"/>
+  </g>
+  
+  <!-- 音符 -->
+  <g>
+    <ellipse cx="120" cy="80" rx="10" ry="7" fill="#3949AB"/>
+    <rect x="128" y="45" width="3" height="35" fill="#3949AB"/>
+    <path d="M131 45 Q145 55 131 70" fill="#3949AB"/>
+  </g>
+  
+  <g style="animation-delay: 0.5s">
+    <ellipse cx="180" cy="90" rx="10" ry="7" fill="#7986CB"/>
+    <rect x="188" y="55" width="3" height="35" fill="#7986CB"/>
+  </g>
+  
+  <g style="animation-delay: 0.8s">
+    <ellipse cx="400" cy="85" rx="10" ry="7" fill="#5C6BC0"/>
+    <rect x="408" y="50" width="3" height="35" fill="#5C6BC0"/>
+  </g>
+  
+  <!-- 音阶显示 -->
+  <rect x="50" y="290" width="400" height="30" rx="5" fill="#C5CAE9"/>
+  <text x="250" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#3949AB">ДО (C) — РЕ (D) — МИ (E) — ФА (F) — СОЛЬ (G) — ЛЯ (A) — СИ (B)</text>
+  
+  <!-- 教学提示 -->
+  <rect x="50" y="325" width="400" height="20" rx="5" fill="#E8EAF6"/>
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3949AB">🎹 Клавиши помогают играть разные ноты!</text>
+</svg>

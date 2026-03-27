@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#fef3c7"/>
+  
+  <!-- Title -->
+  <text x="250" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#b45309">«Колобок» 🍞</text>
+  <text x="250" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">Русская народная сказка</text>
+  
+  <!-- Kolobok -->
+  <g style="transform-origin: center">
+    <circle cx="70" cy="90" r="28" fill="#fbbf24" stroke="#d97706" stroke-width="2">
+    <animate attributeName="r" values="28;30;28" dur="3s" repeatCount="indefinite"/>
+  </circle>
+    <circle cx="60" cy="85" r="4" fill="#1f2937">
+    <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+    <circle cx="80" cy="85" r="4" fill="#1f2937"/>
+    <path d="M 62 98 Q 70 105 78 98" fill="none" stroke="#d97706" stroke-width="2"/>
+  </g>
+  
+  <!-- Characters path -->
+  <rect x="20" y="130" width="460" height="80" fill="#fffbeb" rx="10"/>
+  <text x="250" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400e">Кого встретил Колобок:</text>
+  
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+    <text x="70" y="185" text-anchor="middle" font-size="30">🐰</text>
+    <text x="70" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Заяц</text>
+  </g>
+  <g style="animation-delay: 0.3s">
+    <text x="140" y="185" text-anchor="middle" font-size="30">🐺</text>
+    <text x="140" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e40af">Волк</text>
+  </g>
+  <g style="animation-delay: 0.6s">
+    <text x="210" y="185" text-anchor="middle" font-size="30">🐻</text>
+    <text x="210" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#92400e">Медведь</text>
+  </g>
+  <g style="animation-delay: 0.9s">
+    <text x="280" y="185" text-anchor="middle" font-size="30">🦊</text>
+    <text x="280" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#dc2626">Лиса</text>
+  </g>
+  
+  <text x="380" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">← съела Колобка!</text>
+  
+  <!-- Song -->
+  <rect x="20" y="220" width="460" height="60" fill="#fef2f2" rx="10"/>
+  <text x="250" y="243" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#dc2626">🎵 Песенка Колобка:</text>
+  <text x="250" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#b91c1c">«Я Колобок, Колобок! По коробу скребён, по сусеку метён...</text>
+  
+  <!-- Lesson -->
+  <rect x="20" y="290" width="220" height="50" fill="#dcfce7" rx="10"/>
+  <text x="130" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#15803d">Чему учит сказка?</text>
+  <text x="130" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#166534">Не хвастайся, слушайся родителей</text>
+  
+  <rect x="260" y="290" width="220" height="50" fill="#dbeafe" rx="10"/>
+  <text x="370" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2563eb">Кто испёк Колобка?</text>
+  <text x="370" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1d4ed8">Дед и Бабка 🧓👵</text>
+</svg>

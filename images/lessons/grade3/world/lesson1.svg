@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="worldBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#worldBg)"/>
+  
+  <!-- Sun with rays -->
+  <circle cx="450" cy="55" r="28" fill="#FFD700" opacity="0.9">
+    <animate attributeName="r" values="28;32;28" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <g stroke="#FFD700" stroke-width="2" opacity="0.6">
+    <line x1="450" y1="15" x2="450" y2="5"/>
+    <line x1="485" y1="20" x2="495" y2="10"/>
+    <line x1="495" y1="55" x2="500" y2="55"/>
+    <line x1="485" y1="90" x2="495" y2="100"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 55" to="360 450 55" dur="20s" repeatCount="indefinite"/>
+  </g>
+  
+  <!-- Clouds -->
+  <g opacity="0.8">
+    <ellipse cx="100" cy="45" rx="30" ry="18" fill="white"/>
+    <ellipse cx="125" cy="40" rx="25" ry="15" fill="white"/>
+    <ellipse cx="80" cy="50" rx="20" ry="12" fill="white"/>
+  </g>
+  
+  <!-- Forest scene -->
+  <ellipse cx="250" cy="380" rx="320" ry="70" fill="#81C784" opacity="0.5"/>
+  
+  <!-- Trees -->
+  <g opacity="0.4">
+    <ellipse cx="35" cy="275" rx="25" ry="40" fill="#2E7D32"/>
+    <rect x="30" y="275" width="10" height="25" fill="#5D4037"/>
+  </g>
+  <g opacity="0.35">
+    <ellipse cx="470" cy="270" rx="28" ry="45" fill="#2E7D32"/>
+    <rect x="465" y="270" width="10" height="28" fill="#5D4037"/>
+  </g>
+  
+  <!-- Birds -->
+  <path d="M150 70 Q155 65 160 70 Q165 65 170 70" stroke="#333" stroke-width="1.5" fill="none" opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="0,0;20,3;40,0" dur="6s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Flowers -->
+  <g opacity="0.6">
+    <circle cx="45" cy="325" r="6" fill="#E91E63"/>
+    <circle cx="53" cy="319" r="5" fill="#F48FB1"/>
+    <circle cx="37" cy="319" r="5" fill="#F48FB1"/>
+    <line x1="45" y1="332" x2="45" y2="350" stroke="#388E3C" stroke-width="2"/>
+  </g>
+  <g opacity="0.5">
+    <circle cx="455" cy="322" r="6" fill="#FFEB3B"/>
+    <circle cx="463" cy="316" r="5" fill="#FFF59D"/>
+    <circle cx="447" cy="316" r="5" fill="#FFF59D"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1B5E20" text-anchor="middle">🌳 Природные сообщества</text>
+  <rect x="80" y="45" width="340" height="3" rx="2" fill="#1B5E20" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="30" y="60" width="440" height="255" rx="15" fill="white" opacity="0.92" stroke="#2E7D32" stroke-width="2"/>
+  
+  <!-- Communities -->
+  <text x="250" y="85" font-size="11" font-weight="bold" fill="#1B5E20" text-anchor="middle">Виды природных сообществ</text>
+  
+  <!-- Community cards -->
+  <g transform="translate(45, 95)">
+    <!-- Forest -->
+    <rect x="0" y="0" width="130" height="75" rx="8" fill="#C8E6C9" stroke="#4CAF50"/>
+    <text x="65" y="18" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle">🌲 Лес</text>
+    <text x="65" y="40" font-size="24" text-anchor="middle">🌳</text>
+    <text x="65" y="58" font-size="7" fill="#333" text-anchor="middle">Деревья, кустарники,</text>
+    <text x="65" y="68" font-size="7" fill="#333" text-anchor="middle">травы, грибы</text>
+    
+    <!-- Meadow -->
+    <rect x="140" y="0" width="130" height="75" rx="8" fill="#DCEDC8" stroke="#8BC34A"/>
+    <text x="205" y="18" font-size="10" font-weight="bold" fill="#558B2F" text-anchor="middle">🌻 Луг</text>
+    <text x="205" y="40" font-size="24" text-anchor="middle">🌾</text>
+    <text x="205" y="58" font-size="7" fill="#333" text-anchor="middle">Травы, цветы,</text>
+    <text x="205" y="68" font-size="7" fill="#333" text-anchor="middle">насекомые</text>
+    
+    <!-- Water -->
+    <rect x="280" y="0" width="130" height="75" rx="8" fill="#B2EBF2" stroke="#00BCD4"/>
+    <text x="345" y="18" font-size="10" font-weight="bold" fill="#00838F" text-anchor="middle">💧 Водоём</text>
+    <text x="345" y="40" font-size="24" text-anchor="middle">🐠</text>
+    <text x="345" y="58" font-size="7" fill="#333" text-anchor="middle">Рыбы, водоросли,</text>
+    <text x="345" y="68" font-size="7" fill="#333" text-anchor="middle">моллюски</text>
+  </g>
+  
+  <!-- Features section -->
+  <rect x="50" y="185" width="400" height="75" rx="10" fill="#F1F8E9" stroke="#4CAF50"/>
+  <text x="250" y="205" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">🌟 Особенности природных сообществ</text>
+  <text x="70" y="225" font-size="9" fill="#333">📌 Живые организмы связаны друг с другом</text>
+  <text x="70" y="240" font-size="9" fill="#333">📌 Обмен веществом и энергией</text>
+  <text x="260" y="225" font-size="9" fill="#333">📌 Пищевые цепи</text>
+  <text x="260" y="240" font-size="9" fill="#333">📌 Круговорот жизни</text>
+  
+  <!-- Food chain example -->
+  <rect x="100" y="270" width="300" height="38" rx="8" fill="#E8F5E9" stroke="#4CAF50"/>
+  <text x="250" y="285" font-size="9" fill="#2E7D32" text-anchor="middle">Пищевая цепь:</text>
+  <text x="250" y="300" font-size="10" fill="#333" text-anchor="middle">🌱 Трава → 🐛 Насекомое → 🐸 Лягушка → 🦅 Птица</text>
+  
+  <!-- Decorative elements -->
+  <text x="55" y="310" font-size="14" opacity="0.4">🌿</text>
+  <text x="435" y="310" font-size="14" opacity="0.4">🌸</text>
+</svg>

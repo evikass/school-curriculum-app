@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  
+  <rect width="500" height="350" fill="#FFF5E6"/>
+  
+  <!-- Background decoration -->
+  <circle cx="40" cy="40" r="25" fill="#FFB347" opacity="0.3">
+    <animate attributeName="r" values="25;27;25" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="460" cy="310" r="30" fill="#FFCC80" opacity="0.4">
+    <animate attributeName="r" values="30;32;30" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="480" cy="80" r="20" fill="#FFB347" opacity="0.3"/>
+  
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#E65100" text-anchor="middle">📦 Слова-предметы</text>
+  <rect x="100" y="55" width="300" height="3" rx="2" fill="#FF9800" opacity="0.6"/>
+  
+  <!-- Explanation -->
+  <rect x="30" y="75" width="440" height="40" rx="8" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+  <text x="250" y="100" font-family="Arial" font-size="13" fill="#E65100" text-anchor="middle">Слова-предметы отвечают на вопросы: КТО? ЧТО?</text>
+  
+  <!-- Living objects (КТО?) -->
+  <rect x="30" y="125" width="210" height="150" rx="12" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+  <text x="135" y="150" font-family="Arial" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">👤 КТО? (живые)</text>
+  
+  <g transform="translate(45, 165)">
+    <!-- Cat -->
+    <g>
+    <animateTransform attributeName="transform" type="rotate" values="0;360" dur="15s" repeatCount="indefinite"/>
+      <circle cx="25" cy="25" r="22" fill="#81C784"/>
+      <text x="25" y="20" font-family="Arial" font-size="16" text-anchor="middle">🐱</text>
+      <text x="25" y="35" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">кот</text>
+    </g>
+    <!-- Boy -->
+    <g style="animation-delay: 0.2s">
+      <circle cx="85" cy="25" r="22" fill="#66BB6A"/>
+      <text x="85" y="20" font-family="Arial" font-size="16" text-anchor="middle">👦</text>
+      <text x="85" y="35" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">мальчик</text>
+    </g>
+    <!-- Mom -->
+    <g style="animation-delay: 0.4s">
+      <circle cx="145" cy="25" r="22" fill="#4CAF50"/>
+      <text x="145" y="20" font-family="Arial" font-size="16" text-anchor="middle">👩</text>
+      <text x="145" y="35" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">мама</text>
+    </g>
+  </g>
+  
+  <g transform="translate(45, 220)">
+    <!-- Bird -->
+    <g style="animation-delay: 0.6s">
+      <circle cx="25" cy="25" r="22" fill="#81C784"/>
+      <text x="25" y="20" font-family="Arial" font-size="16" text-anchor="middle">🐦</text>
+      <text x="25" y="35" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">птица</text>
+    </g>
+    <!-- Dog -->
+    <g style="animation-delay: 0.8s">
+      <circle cx="85" cy="25" r="22" fill="#66BB6A"/>
+      <text x="85" y="20" font-family="Arial" font-size="16" text-anchor="middle">🐕</text>
+      <text x="85" y="35" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">собака</text>
+    </g>
+    <!-- Dad -->
+    <g style="animation-delay: 1s">
+      <circle cx="145" cy="25" r="22" fill="#4CAF50"/>
+      <text x="145" y="20" font-family="Arial" font-size="16" text-anchor="middle">👨</text>
+      <text x="145" y="35" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">папа</text>
+    </g>
+  </g>
+  
+  <!-- Non-living objects (ЧТО?) -->
+  <rect x="260" y="125" width="210" height="150" rx="12" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+  <text x="365" y="150" font-family="Arial" font-size="16" font-weight="bold" fill="#1565C0" text-anchor="middle">📦 ЧТО? (неживые)</text>
+  
+  <g transform="translate(275, 165)">
+    <!-- Table -->
+    <g>
+      <circle cx="25" cy="25" r="22" fill="#64B5F6"/>
+      <text x="25" y="20" font-family="Arial" font-size="16" text-anchor="middle">🪑</text>
+      <text x="25" y="35" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">стол</text>
+    </g>
+    <!-- Book -->
+    <g style="animation-delay: 0.2s">
+      <circle cx="85" cy="25" r="22" fill="#42A5F5"/>
+      <text x="85" y="20" font-family="Arial" font-size="16" text-anchor="middle">📚</text>
+      <text x="85" y="35" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">книга</text>
+    </g>
+    <!-- Ball -->
+    <g style="animation-delay: 0.4s">
+      <circle cx="145" cy="25" r="22" fill="#2196F3"/>
+      <text x="145" y="20" font-family="Arial" font-size="16" text-anchor="middle">⚽</text>
+      <text x="145" y="35" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">мяч</text>
+    </g>
+  </g>
+  
+  <g transform="translate(275, 220)">
+    <!-- House -->
+    <g style="animation-delay: 0.6s">
+      <circle cx="25" cy="25" r="22" fill="#64B5F6"/>
+      <text x="25" y="20" font-family="Arial" font-size="16" text-anchor="middle">🏠</text>
+      <text x="25" y="35" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">дом</text>
+    </g>
+    <!-- Tree -->
+    <g style="animation-delay: 0.8s">
+      <circle cx="85" cy="25" r="22" fill="#42A5F5"/>
+      <text x="85" y="20" font-family="Arial" font-size="16" text-anchor="middle">🌳</text>
+      <text x="85" y="35" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">дерево</text>
+    </g>
+    <!-- Sun -->
+    <g style="animation-delay: 1s">
+      <circle cx="145" cy="25" r="22" fill="#2196F3"/>
+      <text x="145" y="20" font-family="Arial" font-size="16" text-anchor="middle">☀️</text>
+      <text x="145" y="35" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">солнце</text>
+    </g>
+  </g>
+  
+  <!-- Tip box -->
+  <rect x="20" y="290" width="460" height="50" rx="10" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+  <text x="250" y="310" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">💡 Слова-предметы — это имена существительные!</text>
+  <text x="250" y="328" font-family="Arial" font-size="11" fill="#FF9800" text-anchor="middle">Они называют людей, животных, вещи, явления природы</text>
+</svg>

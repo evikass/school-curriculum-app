@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="#fef2f2" rx="20"/>
+  <!-- Decorative elements -->
+  <circle cx="60" cy="60" r="20" fill="#fecaca" opacity="0.6">
+    <animate attributeName="r" values="20;22;20" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="340" cy="340" r="25" fill="#fef3c7" opacity="0.6">
+    <animate attributeName="r" values="25;27;25" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="70" r="15" fill="#bbf7d0" opacity="0.6"/>
+  <!-- Title -->
+  <text x="200" y="50" font-size="24" fill="#dc2626" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">ВЫЧИТАНИЕ</text>
+  <!-- Main equation: 5 - 2 = 3 -->
+  <g transform="translate(30, 90)">
+    <!-- First group: 5 apples -->
+    <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0" dur="2s" repeatCount="indefinite"/>
+      <circle cx="30" cy="80" r="22" fill="#ef4444"/>
+      <ellipse cx="30" cy="58" rx="4" ry="6" fill="#22c55e"/>
+      <path d="M 30 58 Q 34 50 30 45" stroke="#78350f" stroke-width="2" fill="none"/>
+    </g>
+    <g style="animation-delay: 0.1s">
+      <circle cx="65" cy="80" r="22" fill="#ef4444"/>
+      <ellipse cx="65" cy="58" rx="4" ry="6" fill="#22c55e"/>
+      <path d="M 65 58 Q 69 50 65 45" stroke="#78350f" stroke-width="2" fill="none"/>
+    </g>
+    <g style="animation-delay: 0.2s">
+      <circle cx="100" cy="80" r="22" fill="#ef4444"/>
+      <ellipse cx="100" cy="58" rx="4" ry="6" fill="#22c55e"/>
+      <path d="M 100 58 Q 104 50 100 45" stroke="#78350f" stroke-width="2" fill="none"/>
+    </g>
+    <g style="animation-delay: 0.3s">
+      <circle cx="135" cy="80" r="22" fill="#ef4444"/>
+      <ellipse cx="135" cy="58" rx="4" ry="6" fill="#22c55e"/>
+      <path d="M 135 58 Q 139 50 135 45" stroke="#78350f" stroke-width="2" fill="none"/>
+    </g>
+    <g style="animation-delay: 0.4s">
+      <circle cx="170" cy="80" r="22" fill="#ef4444"/>
+      <ellipse cx="170" cy="58" rx="4" ry="6" fill="#22c55e"/>
+      <path d="M 170 58 Q 174 50 170 45" stroke="#78350f" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+  <!-- Minus sign and result -->
+  <g transform="translate(50, 100)">
+    <!-- Minus sign -->
+    <g transform="translate(200, 60)">
+      <rect x="-20" y="-5" width="40" height="10" fill="#dc2626" rx="3"/>
+    </g>
+    <!-- Number 2 being subtracted -->
+    <text x="260" y="75" font-size="50" fill="#dc2626" font-family="Arial, sans-serif" font-weight="bold">2</text>
+    <!-- Equals sign -->
+    <g transform="translate(290, 60)">
+      <rect x="-15" y="-10" width="30" height="6" fill="#6366f1" rx="2"/>
+      <rect x="-15" y="4" width="30" height="6" fill="#6366f1" rx="2"/>
+    </g>
+    <!-- Result: 3 -->
+    <g>
+      <text x="330" y="80" font-size="55" fill="#22c55e" font-family="Arial, sans-serif" font-weight="bold">3</text>
+    </g>
+  </g>
+  <!-- Visual example with circles -->
+  <g transform="translate(50, 220)">
+    <text x="150" y="0" font-size="14" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">УБИРАЕМ ПРЕДМЕТЫ</text>
+    <!-- First group: 5 circles -->
+    <circle cx="30" cy="50" r="16" fill="#fca5a5"/>
+    <circle cx="60" cy="50" r="16" fill="#fca5a5" style="animation-delay: 0.1s"/>
+    <circle cx="90" cy="50" r="16" fill="#fca5a5" style="animation-delay: 0.2s"/>
+    <circle cx="120" cy="50" r="16" fill="#fca5a5" style="animation-delay: 0.3s"/>
+    <circle cx="150" cy="50" r="16" fill="#fca5a5" style="animation-delay: 0.4s"/>
+    <!-- Minus -->
+    <text x="180" y="58" font-size="30" fill="#dc2626" font-family="Arial, sans-serif" font-weight="bold">−</text>
+    <!-- Number 2 crossed out -->
+    <g>
+      <circle cx="210" cy="50" r="16" fill="#fca5a5"/>
+      <line x1="200" y1="40" x2="220" y2="60" stroke="#dc2626" stroke-width="3"/>
+      <circle cx="240" cy="50" r="16" fill="#fca5a5"/>
+      <line x1="230" y1="40" x2="250" y2="60" stroke="#dc2626" stroke-width="3"/>
+    </g>
+    <!-- Arrow -->
+    <path d="M 270 50 L 300 50" stroke="#6366f1" stroke-width="3" fill="none"/>
+    <polygon points="300,50 290,45 290,55" fill="#6366f1"/>
+    <!-- Result: 3 circles -->
+    <circle cx="330" cy="50" r="16" fill="#86efac"/>
+    <circle cx="330" cy="85" r="16" fill="#86efac" style="animation-delay: 0.2s"/>
+    <circle cx="360" cy="70" r="16" fill="#86efac" style="animation-delay: 0.3s"/>
+  </g>
+  <!-- Formula -->
+  <g transform="translate(200, 370)">
+    <text x="0" y="0" font-size="18" fill="#dc2626" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">5 − 2 = 3</text>
+  </g>
+</svg>

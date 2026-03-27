@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      @keyframes draw { 0% { stroke-dashoffset: 300; } 100% { stroke-dashoffset: 0; } }
+      .bounce { animation: bounce 2s ease-in-out infinite; }
+      .draw { stroke-dasharray: 300; animation: draw 3s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#E0F7FA"/>
+  
+  <!-- Title -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#00695C" text-anchor="middle">📊 Графический диктант</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#26A69A"/>
+  
+  <!-- Grid -->
+  <g transform="translate(80, 80)">
+    <!-- Grid lines -->
+    <g stroke="#B2DFDB" stroke-width="1">
+      <line x1="0" y1="0" x2="340" y2="0"/>
+      <line x1="0" y1="34" x2="340" y2="34"/>
+      <line x1="0" y1="68" x2="340" y2="68"/>
+      <line x1="0" y1="102" x2="340" y2="102"/>
+      <line x1="0" y1="136" x2="340" y2="136"/>
+      <line x1="0" y1="0" x2="0" y2="136"/>
+      <line x1="34" y1="0" x2="34" y2="136"/>
+      <line x1="68" y1="0" x2="68" y2="136"/>
+      <line x1="102" y1="0" x2="102" y2="136"/>
+      <line x1="136" y1="0" x2="136" y2="136"/>
+      <line x1="170" y1="0" x2="170" y2="136"/>
+      <line x1="204" y1="0" x2="204" y2="136"/>
+      <line x1="238" y1="0" x2="238" y2="136"/>
+      <line x1="272" y1="0" x2="272" y2="136"/>
+      <line x1="306" y1="0" x2="306" y2="136"/>
+      <line x1="340" y1="0" x2="340" y2="136"/>
+    </g>
+    
+    <!-- Example drawing - heart shape -->
+    <path class="draw" d="M102,34 L102,68 L136,102 L170,68 L170,34 L136,0 L102,34" fill="none" stroke="#E91E63" stroke-width="3"/>
+    
+    <!-- Start point -->
+    <circle class="bounce" cx="102" cy="34" r="8" fill="#4CAF50"/>
+    <text x="102" y="38" font-family="Arial" font-size="10" font-weight="bold" fill="white" text-anchor="middle">1</text>
+    
+    <!-- Direction arrows -->
+    <polygon points="136,68 136,78 146,73" fill="#2196F3"/>
+    <polygon points="170,34 180,34 175,24" fill="#2196F3"/>
+  </g>
+  
+  <!-- Instructions -->
+  <g transform="translate(50, 250)">
+    <text x="200" y="0" font-family="Arial" font-size="14" fill="#00695C" text-anchor="middle">Следуй инструкциям: 2 клетки вправо, 2 вниз...</text>
+    
+    <!-- Direction hints -->
+    <g transform="translate(100, 20)">
+      <rect x="0" y="0" width="40" height="40" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="5"/>
+      <polygon points="20,30 10,15 30,15" fill="#4CAF50"/>
+      <text x="20" y="55" font-family="Arial" font-size="10" fill="#4CAF50" text-anchor="middle">вниз</text>
+    </g>
+    <g transform="translate(150, 20)">
+      <rect x="0" y="0" width="40" height="40" fill="#BBDEFB" stroke="#2196F3" stroke-width="2" rx="5"/>
+      <polygon points="30,20 15,10 15,30" fill="#2196F3"/>
+      <text x="20" y="55" font-family="Arial" font-size="10" fill="#2196F3" text-anchor="middle">вправо</text>
+    </g>
+    <g transform="translate(200, 20)">
+      <rect x="0" y="0" width="40" height="40" fill="#FFCCBC" stroke="#FF5722" stroke-width="2" rx="5"/>
+      <polygon points="20,10 10,25 30,25" fill="#FF5722"/>
+      <text x="20" y="55" font-family="Arial" font-size="10" fill="#FF5722" text-anchor="middle">вверх</text>
+    </g>
+    <g transform="translate(250, 20)">
+      <rect x="0" y="0" width="40" height="40" fill="#F8BBD9" stroke="#E91E63" stroke-width="2" rx="5"/>
+      <polygon points="10,20 25,10 25,30" fill="#E91E63"/>
+      <text x="20" y="55" font-family="Arial" font-size="10" fill="#E91E63" text-anchor="middle">влево</text>
+    </g>
+  </g>
+</svg>
