@@ -1,28 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <defs>
-    <style>
-      @keyframes swing1 {
-        0%, 100% { transform: rotate(-8deg); }
-        50% { transform: rotate(8deg); }
-      }
-      @keyframes swing2 {
-        0%, 100% { transform: rotate(6deg); }
-        50% { transform: rotate(-6deg); }
-      }
-      @keyframes swing3 {
-        0%, 100% { transform: rotate(-5deg); }
-        50% { transform: rotate(5deg); }
-      }
-      @keyframes swing4 {
-        0%, 100% { transform: rotate(7deg); }
-        50% { transform: rotate(-7deg); }
-      }
-      .flag1 { animation: swing1 2s ease-in-out infinite; transform-origin: top center; }
-      .flag2 { animation: swing2 2.3s ease-in-out infinite; transform-origin: top center; }
-      .flag3 { animation: swing3 1.8s ease-in-out infinite; transform-origin: top center; }
-      .flag4 { animation: swing4 2.1s ease-in-out infinite; transform-origin: top center; }
-    </style>
-  </defs>
+  
   
   <!-- Background -->
   <rect width="400" height="300" fill="#E3F2FD"/>
@@ -40,42 +17,46 @@
   
   <!-- Hanging flags -->
   <!-- Flag 1 - Red -->
-  <g transform="translate(60, 70)" class="flag1">
+  <g transform="translate(60, 70)">
     <line x1="0" y1="0" x2="0" y2="10" stroke="#5D4037" stroke-width="2"/>
     <polygon points="0,10 35,25 0,40" fill="#F44336"/>
-    <circle cx="15" cy="28" r="4" fill="#FFC107"/>
+    <circle cx="15" cy="28" r="4" fill="#FFC107">
+    <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
+  </circle>
   </g>
   
   <!-- Flag 2 - Yellow -->
-  <g transform="translate(115, 78)" class="flag2">
+  <g transform="translate(115, 78)">
     <line x1="0" y1="0" x2="0" y2="10" stroke="#5D4037" stroke-width="2"/>
     <polygon points="0,10 35,25 0,40" fill="#FFEB3B"/>
-    <circle cx="15" cy="28" r="4" fill="#E91E63"/>
+    <circle cx="15" cy="28" r="4" fill="#E91E63">
+    <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
+  </circle>
   </g>
   
   <!-- Flag 3 - Green -->
-  <g transform="translate(175, 75)" class="flag3">
+  <g transform="translate(175, 75)">
     <line x1="0" y1="0" x2="0" y2="10" stroke="#5D4037" stroke-width="2"/>
     <polygon points="0,10 35,25 0,40" fill="#4CAF50"/>
     <circle cx="15" cy="28" r="4" fill="#2196F3"/>
   </g>
   
   <!-- Flag 4 - Blue -->
-  <g transform="translate(235, 68)" class="flag4">
+  <g transform="translate(235, 68)">
     <line x1="0" y1="0" x2="0" y2="10" stroke="#5D4037" stroke-width="2"/>
     <polygon points="0,10 35,25 0,40" fill="#2196F3"/>
     <circle cx="15" cy="28" r="4" fill="#4CAF50"/>
   </g>
   
   <!-- Flag 5 - Orange -->
-  <g transform="translate(290, 65)" class="flag1">
+  <g transform="translate(290, 65)">
     <line x1="0" y1="0" x2="0" y2="10" stroke="#5D4037" stroke-width="2"/>
     <polygon points="0,10 35,25 0,40" fill="#FF9800"/>
     <circle cx="15" cy="28" r="4" fill="#9C27B0"/>
   </g>
   
   <!-- Flag 6 - Purple -->
-  <g transform="translate(345, 68)" class="flag2">
+  <g transform="translate(345, 68)">
     <line x1="0" y1="0" x2="0" y2="10" stroke="#5D4037" stroke-width="2"/>
     <polygon points="0,10 35,25 0,40" fill="#9C27B0"/>
     <circle cx="15" cy="28" r="4" fill="#FF9800"/>

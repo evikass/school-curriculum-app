@@ -1,53 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <style>
-    @keyframes triple-hop {
-      0%, 100% { transform: translateX(0); }
-      33% { transform: translateX(20px); }
-      66% { transform: translateX(40px); }
-    }
-    @keyframes bounce-light {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-5px); }
-    }
-    @keyframes wiggle {
-      0%, 100% { transform: rotate(-3deg); }
-      50% { transform: rotate(3deg); }
-    }
-    .frog { animation: triple-hop 2s ease-in-out infinite; }
-    .example { animation: bounce-light 2s ease-in-out infinite; }
-    .crown { animation: wiggle 1s ease-in-out infinite; transform-origin: center bottom; }
-  </style>
+  
   <!-- Background -->
   <rect width="400" height="400" fill="#faf5ff" rx="20"/>
   <!-- Decorative stars -->
-  <polygon points="50,50 53,60 63,60 55,67 58,77 50,70 42,77 45,67 37,60 47,60" fill="#fbbf24" class="crown"/>
+  <polygon points="50,50 53,60 63,60 55,67 58,77 50,70 42,77 45,67 37,60 47,60" fill="#fbbf24"/>
   <polygon points="350,60 352,67 360,67 354,72 356,80 350,75 344,80 346,72 340,67 348,67" fill="#a78bfa"/>
   <!-- Title -->
   <text x="200" y="45" font-size="22" fill="#9333ea" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">ПРИБАВИТЬ И ВЫЧЕСТЬ 3</text>
   <!-- Three fairy tale images -->
   <g transform="translate(30, 70)">
     <!-- Three bears/pigs/bears reference -->
-    <g class="frog" transform="translate(0, 0)">
-      <circle cx="30" cy="30" r="20" fill="#fbbf24"/>
-      <circle cx="22" cy="25" r="4" fill="#1e293b"/>
+    <g transform="translate(0, 0)">
+      <circle cx="30" cy="30" r="20" fill="#fbbf24">
+    <animate attributeName="r" values="20;22;20" dur="3s" repeatCount="indefinite"/>
+  </circle>
+      <circle cx="22" cy="25" r="4" fill="#1e293b">
+    <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
+  </circle>
       <circle cx="38" cy="25" r="4" fill="#1e293b"/>
       <ellipse cx="30" cy="35" rx="6" ry="4" fill="#78350f"/>
       <!-- Crown for fairy tale -->
-      <polygon points="15,10 20,20 30,12 40,20 45,10 45,22 15,22" fill="#fcd34d" class="crown"/>
+      <polygon points="15,10 20,20 30,12 40,20 45,10 45,22 15,22" fill="#fcd34d"/>
     </g>
-    <g class="frog" style="animation-delay: 0.2s" transform="translate(80, 0)">
+    <g style="animation-delay: 0.2s" transform="translate(80, 0)">
       <circle cx="30" cy="30" r="20" fill="#fbbf24"/>
       <circle cx="22" cy="25" r="4" fill="#1e293b"/>
       <circle cx="38" cy="25" r="4" fill="#1e293b"/>
       <ellipse cx="30" cy="35" rx="6" ry="4" fill="#78350f"/>
-      <polygon points="15,10 20,20 30,12 40,20 45,10 45,22 15,22" fill="#fcd34d" class="crown" style="animation-delay: 0.3s"/>
+      <polygon points="15,10 20,20 30,12 40,20 45,10 45,22 15,22" fill="#fcd34d" style="animation-delay: 0.3s"/>
     </g>
-    <g class="frog" style="animation-delay: 0.4s" transform="translate(160, 0)">
+    <g style="animation-delay: 0.4s" transform="translate(160, 0)">
       <circle cx="30" cy="30" r="20" fill="#fbbf24"/>
       <circle cx="22" cy="25" r="4" fill="#1e293b"/>
       <circle cx="38" cy="25" r="4" fill="#1e293b"/>
       <ellipse cx="30" cy="35" rx="6" ry="4" fill="#78350f"/>
-      <polygon points="15,10 20,20 30,12 40,20 45,10 45,22 15,22" fill="#fcd34d" class="crown" style="animation-delay: 0.6s"/>
+      <polygon points="15,10 20,20 30,12 40,20 45,10 45,22 15,22" fill="#fcd34d" style="animation-delay: 0.6s"/>
     </g>
   </g>
   <!-- Formula -->
@@ -81,23 +68,23 @@
   <g transform="translate(30, 260)">
     <text x="170" y="0" font-size="14" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">ПРИМЕРЫ:</text>
     <!-- +3 examples -->
-    <g class="example" transform="translate(0, 15)">
+    <g transform="translate(0, 15)">
       <rect x="0" y="0" width="155" height="40" fill="#ecfdf5" rx="8"/>
       <text x="77" y="18" font-size="16" fill="#16a34a" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">4 + 3 = 7</text>
       <text x="77" y="33" font-size="9" fill="#6b7280" text-anchor="middle" font-family="Arial, sans-serif">4→5→6→7</text>
     </g>
-    <g class="example" style="animation-delay: 0.3s" transform="translate(170, 15)">
+    <g style="animation-delay: 0.3s" transform="translate(170, 15)">
       <rect x="0" y="0" width="155" height="40" fill="#ecfdf5" rx="8"/>
       <text x="77" y="18" font-size="16" fill="#16a34a" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">5 + 3 = 8</text>
       <text x="77" y="33" font-size="9" fill="#6b7280" text-anchor="middle" font-family="Arial, sans-serif">5→6→7→8</text>
     </g>
     <!-- -3 examples -->
-    <g class="example" style="animation-delay: 0.6s" transform="translate(0, 65)">
+    <g style="animation-delay: 0.6s" transform="translate(0, 65)">
       <rect x="0" y="0" width="155" height="40" fill="#fef2f2" rx="8"/>
       <text x="77" y="18" font-size="16" fill="#dc2626" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">8 − 3 = 5</text>
       <text x="77" y="33" font-size="9" fill="#6b7280" text-anchor="middle" font-family="Arial, sans-serif">8→7→6→5</text>
     </g>
-    <g class="example" style="animation-delay: 0.9s" transform="translate(170, 65)">
+    <g style="animation-delay: 0.9s" transform="translate(170, 65)">
       <rect x="0" y="0" width="155" height="40" fill="#fef2f2" rx="8"/>
       <text x="77" y="18" font-size="16" fill="#dc2626" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">7 − 3 = 4</text>
       <text x="77" y="33" font-size="9" fill="#6b7280" text-anchor="middle" font-family="Arial, sans-serif">7→6→5→4</text>

@@ -1,27 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <defs>
-    <style>
-      @keyframes rotate1 {
-        0% { transform: rotate(-10deg); }
-        100% { transform: rotate(10deg); }
-      }
-      @keyframes rotate2 {
-        0% { transform: rotate(8deg); }
-        100% { transform: rotate(-8deg); }
-      }
-      @keyframes rotate3 {
-        0% { transform: rotate(-6deg); }
-        100% { transform: rotate(6deg); }
-      }
-      @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-      .swing1 { animation: rotate1 4s ease-in-out infinite alternate; transform-origin: 200px 40px; }
-      .swing2 { animation: rotate2 3.5s ease-in-out infinite alternate; transform-origin: 200px 40px; }
-      .star-spin { animation: spin 8s linear infinite; transform-origin: center; }
-    </style>
-  </defs>
+  
   
   <!-- Background -->
   <rect width="400" height="300" fill="#F3E5F5"/>
@@ -33,31 +11,36 @@
   
   <!-- Ceiling mount -->
   <rect x="185" y="35" width="30" height="10" fill="#5D4037"/>
-  <circle cx="200" cy="40" r="5" fill="#795548"/>
+  <circle cx="200" cy="40" r="5" fill="#795548">
+    <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+  </circle>
   
   <!-- Main support bar -->
-  <g class="swing1">
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
     <line x1="200" y1="45" x2="200" y2="70" stroke="#8D6E63" stroke-width="3"/>
     <line x1="130" y1="70" x2="270" y2="70" stroke="#8D6E63" stroke-width="4"/>
     
     <!-- Left side decorations -->
-    <g class="swing2">
+    <g>
       <!-- Star -->
       <line x1="130" y1="70" x2="130" y2="100" stroke="#BDB76B" stroke-width="1"/>
       <g transform="translate(130, 115)">
-        <polygon points="0,-15 4,-5 15,-5 6,2 10,12 0,6 -10,12 -6,2 -15,-5 -4,-5" fill="#FFD700" class="star-spin"/>
+        <polygon points="0,-15 4,-5 15,-5 6,2 10,12 0,6 -10,12 -6,2 -15,-5 -4,-5" fill="#FFD700"/>
       </g>
       
       <!-- Moon -->
       <line x1="150" y1="70" x2="150" y2="130" stroke="#BDB76B" stroke-width="1"/>
       <g transform="translate(150, 145)">
-        <circle cx="0" cy="0" r="12" fill="#FFE082"/>
+        <circle cx="0" cy="0" r="12" fill="#FFE082">
+    <animate attributeName="r" values="12;14;12" dur="3s" repeatCount="indefinite"/>
+  </circle>
         <circle cx="5" cy="-3" r="10" fill="#F3E5F5"/>
       </g>
     </g>
     
     <!-- Right side decorations -->
-    <g class="swing2">
+    <g>
       <!-- Heart -->
       <line x1="270" y1="70" x2="270" y2="95" stroke="#BDB76B" stroke-width="1"/>
       <g transform="translate(270, 110)">

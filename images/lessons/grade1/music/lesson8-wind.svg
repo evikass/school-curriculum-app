@@ -1,23 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      @keyframes blow { 0%, 100% { transform: scaleX(1); } 50% { transform: scaleX(1.1); } }
-      @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
-      @keyframes wind { 0%, 100% { transform: translateX(0); opacity: 1; } 100% { transform: translateX(30px); opacity: 0; } }
-      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
-      .blow { animation: blow 0.5s ease-in-out infinite; transform-origin: left center; }
-      .breathe { animation: breathe 1s ease-in-out infinite; }
-      .wind { animation: wind 1.5s ease-in-out infinite; }
-      .float { animation: float 2s ease-in-out infinite; }
-    </style>
-  </defs>
+  
   <rect width="500" height="350" fill="#E1F5FE"/>
   
   <!-- 标题 -->
   <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0277BD">🎺 Урок 8: Духовые инструменты 🎶</text>
   
   <!-- 小号 -->
-  <g class="breathe">
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
     <!-- 吹嘴 -->
     <ellipse cx="70" cy="160" rx="8" ry="12" fill="#FFD54F"/>
     <rect x="78" y="155" width="30" height="10" fill="#FFD54F"/>
@@ -33,22 +23,26 @@
   </g>
   
   <!-- 气流效果 -->
-  <g class="wind">
+  <g>
     <ellipse cx="235" cy="155" rx="5" ry="3" fill="#B3E5FC"/>
     <ellipse cx="250" cy="160" rx="5" ry="3" fill="#B3E5FC"/>
     <ellipse cx="265" cy="157" rx="5" ry="3" fill="#B3E5FC"/>
   </g>
   
   <!-- 长笛 -->
-  <g class="blow">
+  <g>
     <!-- 吹嘴 -->
     <ellipse cx="70" cy="250" rx="6" ry="10" fill="#E0E0E0"/>
     <!-- 管身 -->
     <rect x="76" y="246" width="140" height="8" fill="#BDBDBD"/>
     <rect x="216" y="248" width="60" height="6" fill="#BDBDBD"/>
     <!-- 按键 -->
-    <circle cx="100" cy="250" r="6" fill="#9E9E9E"/>
-    <circle cx="130" cy="250" r="6" fill="#9E9E9E"/>
+    <circle cx="100" cy="250" r="6" fill="#9E9E9E">
+    <animate attributeName="r" values="6;8;6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+    <circle cx="130" cy="250" r="6" fill="#9E9E9E">
+    <animate attributeName="r" values="6;8;6" dur="3s" repeatCount="indefinite"/>
+  </circle>
     <circle cx="160" cy="250" r="6" fill="#9E9E9E"/>
     <circle cx="190" cy="250" r="6" fill="#9E9E9E"/>
     <circle cx="220" cy="250" r="5" fill="#9E9E9E"/>
@@ -69,7 +63,7 @@
   </g>
   
   <!-- 萨克斯风简化 -->
-  <g class="breathe" style="animation-delay: 0.3s">
+  <g style="animation-delay: 0.3s">
     <!-- 吹嘴 -->
     <ellipse cx="320" cy="230" rx="6" ry="10" fill="#FFD54F"/>
     <rect x="326" y="225" width="20" height="10" fill="#FFD54F"/>
@@ -85,15 +79,15 @@
   </g>
   
   <!-- 音符 -->
-  <g class="float">
+  <g>
     <ellipse cx="140" cy="80" rx="10" ry="7" fill="#0277BD"/>
     <rect x="148" y="45" width="3" height="35" fill="#0277BD"/>
   </g>
-  <g class="float" style="animation-delay: 0.3s">
+  <g style="animation-delay: 0.3s">
     <ellipse cx="200" cy="90" rx="10" ry="7" fill="#29B6F6"/>
     <rect x="208" y="55" width="3" height="35" fill="#29B6F6"/>
   </g>
-  <g class="float" style="animation-delay: 0.6s">
+  <g style="animation-delay: 0.6s">
     <ellipse cx="450" cy="70" rx="10" ry="7" fill="#4FC3F7"/>
     <rect x="458" y="35" width="3" height="35" fill="#4FC3F7"/>
   </g>

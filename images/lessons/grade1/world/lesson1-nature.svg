@@ -1,21 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <style>
-    @keyframes rotate {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-5px); }
-    }
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.05); }
-    }
-    .sun { animation: rotate 20s linear infinite; transform-origin: 340px 60px; }
-    .cloud { animation: float 4s ease-in-out infinite; }
-    .tree { animation: pulse 3s ease-in-out infinite; }
-  </style>
+  
   <!-- Background - sky gradient -->
   <rect width="400" height="400" fill="#7dd3fc" rx="20"/>
   <rect width="400" height="200" fill="#38bdf8" rx="20"/>
@@ -25,8 +9,11 @@
   <!-- Title -->
   <text x="200" y="35" font-size="18" fill="#fef3c7" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">ОКРУЖАЮЩИЙ МИР</text>
   <!-- Sun -->
-  <g class="sun">
-    <circle cx="340" cy="60" r="30" fill="#fbbf24"/>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0;360" dur="15s" repeatCount="indefinite"/>
+    <circle cx="340" cy="60" r="30" fill="#fbbf24">
+    <animate attributeName="r" values="30;32;30" dur="3s" repeatCount="indefinite"/>
+  </circle>
     <g stroke="#fbbf24" stroke-width="3">
       <line x1="340" y1="20" x2="340" y2="5"/>
       <line x1="370" y1="30" x2="385" y2="20"/>
@@ -38,18 +25,18 @@
     </g>
   </g>
   <!-- Clouds -->
-  <g class="cloud">
+  <g>
     <ellipse cx="80" cy="80" rx="30" ry="20" fill="#f8fafc"/>
     <ellipse cx="100" cy="70" rx="25" ry="18" fill="#f8fafc"/>
     <ellipse cx="60" cy="75" rx="20" ry="15" fill="#f8fafc"/>
   </g>
-  <g class="cloud" style="animation-delay: 2s" transform="translate(50, 0)">
+  <g style="animation-delay: 2s" transform="translate(50, 0)">
     <ellipse cx="200" cy="100" rx="35" ry="22" fill="#f8fafc"/>
     <ellipse cx="225" cy="90" rx="28" ry="18" fill="#f8fafc"/>
     <ellipse cx="175" cy="95" rx="22" ry="16" fill="#f8fafc"/>
   </g>
   <!-- Tree -->
-  <g class="tree" transform="translate(50, 180)">
+  <g transform="translate(50, 180)">
     <!-- Trunk -->
     <rect x="30" y="100" width="20" height="80" fill="#78350f"/>
     <!-- Crown -->
@@ -60,12 +47,14 @@
   <!-- Flower -->
   <g transform="translate(180, 280)">
     <rect x="20" y="40" width="4" height="40" fill="#22c55e"/>
-    <circle cx="22" cy="30" r="15" fill="#ec4899"/>
+    <circle cx="22" cy="30" r="15" fill="#ec4899">
+    <animate attributeName="r" values="15;17;15" dur="3s" repeatCount="indefinite"/>
+  </circle>
     <circle cx="22" cy="30" r="8" fill="#fef3c7"/>
     <ellipse cx="35" y="55" rx="10" ry="5" fill="#22c55e"/>
   </g>
   <!-- Bird -->
-  <g class="cloud" style="animation-delay: 1s" transform="translate(280, 150)">
+  <g style="animation-delay: 1s" transform="translate(280, 150)">
     <ellipse cx="20" cy="20" rx="18" ry="12" fill="#78716c"/>
     <circle cx="30" cy="15" r="10" fill="#78716c"/>
     <polygon points="40,15 50,12 40,18" fill="#f59e0b"/>
@@ -74,7 +63,7 @@
     <path d="M 8 28 Q -2 38 13 33" fill="#78716c"/>
   </g>
   <!-- Butterfly -->
-  <g class="cloud" style="animation-delay: 0.5s" transform="translate(140, 200)">
+  <g style="animation-delay: 0.5s" transform="translate(140, 200)">
     <ellipse cx="15" cy="20" rx="12" ry="8" fill="#f472b6"/>
     <ellipse cx="35" cy="20" rx="12" ry="8" fill="#f472b6"/>
     <ellipse cx="15" cy="30" rx="8" ry="6" fill="#fb7185"/>

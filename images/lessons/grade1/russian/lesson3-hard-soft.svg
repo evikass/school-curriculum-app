@@ -1,15 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      @keyframes softBounce { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
-      @keyframes slide { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(5px); } }
-      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-      .hard { animation: softBounce 2s ease-in-out infinite; }
-      .soft { animation: softBounce 2s ease-in-out infinite; animation-delay: 0.5s; }
-      .arrow { animation: slide 1.5s ease-in-out infinite; }
-      .always { animation: blink 2s ease-in-out infinite; }
-    </style>
-  </defs>
+  
   
   <!-- Background -->
   <rect width="500" height="350" fill="#f0fdf4"/>
@@ -21,15 +11,16 @@
   <rect x="20" y="50" width="220" height="130" fill="#fef3c7" rx="12"/>
   <text x="130" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#b45309">Твёрдые 🪨</text>
   
-  <g class="hard">
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
     <rect x="45" y="95" width="45" height="40" fill="#f59e0b" rx="5"/>
     <text x="67" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">МА</text>
   </g>
-  <g class="hard" style="animation-delay: 0.2s">
+  <g style="animation-delay: 0.2s">
     <rect x="100" y="95" width="45" height="40" fill="#d97706" rx="5"/>
     <text x="122" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">МО</text>
   </g>
-  <g class="hard" style="animation-delay: 0.4s">
+  <g style="animation-delay: 0.4s">
     <rect x="155" y="95" width="45" height="40" fill="#b45309" rx="5"/>
     <text x="177" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">МУ</text>
   </g>
@@ -40,15 +31,15 @@
   <rect x="260" y="50" width="220" height="130" fill="#ecfdf5" rx="12"/>
   <text x="370" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#059669">Мягкие 🪶</text>
   
-  <g class="soft">
+  <g>
     <rect x="285" y="95" width="45" height="40" fill="#10b981" rx="5"/>
     <text x="307" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">МЯ</text>
   </g>
-  <g class="soft" style="animation-delay: 0.7s">
+  <g style="animation-delay: 0.7s">
     <rect x="340" y="95" width="45" height="40" fill="#059669" rx="5"/>
     <text x="362" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">МЁ</text>
   </g>
-  <g class="soft" style="animation-delay: 0.9s">
+  <g style="animation-delay: 0.9s">
     <rect x="395" y="95" width="45" height="40" fill="#047857" rx="5"/>
     <text x="417" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">МИ</text>
   </g>
@@ -61,12 +52,12 @@
   <text x="120" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#8b5cf6">КОН — КОНЬ 🐴</text>
   
   <!-- Always hard -->
-  <rect x="240" y="195" width="120" height="70" fill="#fee2e2" rx="10" class="always"/>
+  <rect x="240" y="195" width="120" height="70" fill="#fee2e2" rx="10"/>
   <text x="300" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Всегда твёрдые</text>
   <text x="300" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ef4444">Ж Ш Ц</text>
   
   <!-- Always soft -->
-  <rect x="375" y="195" width="105" height="70" fill="#dbeafe" rx="10" class="always" style="animation-delay: 0.5s"/>
+  <rect x="375" y="195" width="105" height="70" fill="#dbeafe" rx="10" style="animation-delay: 0.5s"/>
   <text x="427" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2563eb">Всегда мягкие</text>
   <text x="427" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#3b82f6">Ч Щ Й</text>
   

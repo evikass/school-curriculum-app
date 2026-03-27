@@ -1,12 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      @keyframes bright { 0%, 100% { filter: brightness(1); } 50% { filter: brightness(1.2); } }
-      @keyframes layer { 0%, 100% { opacity: 0.9; } 50% { opacity: 1; } }
-      .bright { animation: bright 2s ease-in-out infinite; }
-      .layer { animation: layer 3s ease-in-out infinite; }
-    </style>
-  </defs>
+  
   <rect width="500" height="350" fill="#FFF8DC"/>
   
   <!-- Заголовок -->
@@ -15,14 +8,14 @@
   <!-- Гуашевые краски -->
   <g transform="translate(30, 60)">
     <rect x="0" y="0" width="180" height="100" rx="8" fill="#333" stroke="#222" stroke-width="2"/>
-    <rect x="10" y="10" width="35" height="30" fill="#FF0000" class="bright"/>
-    <rect x="50" y="10" width="35" height="30" fill="#FFFF00" class="bright" style="animation-delay: 0.2s;"/>
-    <rect x="90" y="10" width="35" height="30" fill="#0000FF" class="bright" style="animation-delay: 0.4s;"/>
-    <rect x="130" y="10" width="35" height="30" fill="#FFFFFF" stroke="#CCC" stroke-width="1" class="bright" style="animation-delay: 0.6s;"/>
-    <rect x="10" y="50" width="35" height="30" fill="#00FF00" class="bright" style="animation-delay: 0.8s;"/>
-    <rect x="50" y="50" width="35" height="30" fill="#FF00FF" class="bright" style="animation-delay: 1s;"/>
-    <rect x="90" y="50" width="35" height="30" fill="#00FFFF" class="bright" style="animation-delay: 1.2s;"/>
-    <rect x="130" y="50" width="35" height="30" fill="#FFA500" class="bright" style="animation-delay: 1.4s;"/>
+    <rect x="10" y="10" width="35" height="30" fill="#FF0000"/>
+    <rect x="50" y="10" width="35" height="30" fill="#FFFF00" style="animation-delay: 0.2s;"/>
+    <rect x="90" y="10" width="35" height="30" fill="#0000FF" style="animation-delay: 0.4s;"/>
+    <rect x="130" y="10" width="35" height="30" fill="#FFFFFF" stroke="#CCC" stroke-width="1" style="animation-delay: 0.6s;"/>
+    <rect x="10" y="50" width="35" height="30" fill="#00FF00" style="animation-delay: 0.8s;"/>
+    <rect x="50" y="50" width="35" height="30" fill="#FF00FF" style="animation-delay: 1s;"/>
+    <rect x="90" y="50" width="35" height="30" fill="#00FFFF" style="animation-delay: 1.2s;"/>
+    <rect x="130" y="50" width="35" height="30" fill="#FFA500" style="animation-delay: 1.4s;"/>
   </g>
   
   <!-- Особенности гуаши -->
@@ -44,15 +37,17 @@
     <!-- Рамка -->
     <rect x="8" y="8" width="284" height="114" fill="#FFFAF0"/>
     <!-- Небо -->
-    <rect x="8" y="8" width="284" height="50" fill="#4169E1" class="bright"/>
-    <circle cx="250" cy="30" r="15" fill="#FFD700" class="bright" style="animation-delay: 0.3s;"/>
+    <rect x="8" y="8" width="284" height="50" fill="#4169E1"/>
+    <circle cx="250" cy="30" r="15" fill="#FFD700" style="animation-delay: 0.3s;">
+    <animate attributeName="r" values="15;17;15" dur="3s" repeatCount="indefinite"/>
+  </circle>
     <!-- Горы -->
-    <polygon points="8,58 80,25 150,58" fill="#696969" class="layer"/>
-    <polygon points="100,58 180,20 260,58" fill="#808080" class="layer" style="animation-delay: 0.5s;"/>
+    <polygon points="8,58 80,25 150,58" fill="#696969"/>
+    <polygon points="100,58 180,20 260,58" fill="#808080" style="animation-delay: 0.5s;"/>
     <!-- Деревья -->
-    <polygon points="40,122 50,70 60,122" fill="#228B22" class="layer"/>
-    <polygon points="70,122 82,65 94,122" fill="#2E8B57" class="layer" style="animation-delay: 0.3s;"/>
-    <polygon points="220,122 235,60 250,122" fill="#228B22" class="layer" style="animation-delay: 0.6s;"/>
+    <polygon points="40,122 50,70 60,122" fill="#228B22"/>
+    <polygon points="70,122 82,65 94,122" fill="#2E8B57" style="animation-delay: 0.3s;"/>
+    <polygon points="220,122 235,60 250,122" fill="#228B22" style="animation-delay: 0.6s;"/>
     <!-- Земля -->
     <rect x="8" y="100" width="284" height="22" fill="#8B4513"/>
   </g>

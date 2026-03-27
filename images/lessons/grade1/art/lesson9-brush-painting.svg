@@ -1,12 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      @keyframes brushStroke { 0% { stroke-dashoffset: 400; } 100% { stroke-dashoffset: 0; } }
-      @keyframes drip { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
-      .brush { stroke-dasharray: 400; animation: brushStroke 3s ease-in-out infinite; }
-      .drip { animation: drip 1s ease-in-out infinite; }
-    </style>
-  </defs>
+  
   <rect width="500" height="350" fill="#FFF0F5"/>
   
   <!-- Заголовок -->
@@ -33,8 +26,12 @@
   
   <!-- Палитра -->
   <ellipse cx="350" cy="130" rx="100" ry="60" fill="#DEB887" stroke="#8B4513" stroke-width="3"/>
-  <circle cx="300" cy="110" r="15" fill="#FF0000"/>
-  <circle cx="330" cy="100" r="15" fill="#FF7F00"/>
+  <circle cx="300" cy="110" r="15" fill="#FF0000">
+    <animate attributeName="r" values="15;17;15" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="330" cy="100" r="15" fill="#FF7F00">
+    <animate attributeName="r" values="15;17;15" dur="3s" repeatCount="indefinite"/>
+  </circle>
   <circle cx="360" cy="95" r="15" fill="#FFFF00"/>
   <circle cx="390" cy="100" r="15" fill="#00FF00"/>
   <circle cx="420" cy="110" r="15" fill="#0000FF"/>
@@ -43,10 +40,11 @@
   <circle cx="320" cy="155" r="12" fill="#8B4513"/>
   
   <!-- Капли краски -->
-  <g class="drip">
+  <g>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
     <ellipse cx="310" cy="130" rx="3" ry="5" fill="#FF0000"/>
   </g>
-  <g class="drip" style="animation-delay: 0.3s;">
+  <g style="animation-delay: 0.3s;">
     <ellipse cx="370" cy="135" rx="3" ry="5" fill="#FFFF00"/>
   </g>
   
@@ -54,10 +52,10 @@
   <rect x="50" y="180" width="400" height="130" fill="#FFFAF0" stroke="#D2B48C" stroke-width="4"/>
   
   <!-- Мазки краски -->
-  <path d="M70 200 Q120 180 170 210" stroke="#FF6B6B" stroke-width="15" fill="none" stroke-linecap="round" class="brush"/>
-  <path d="M100 260 Q180 230 250 270" stroke="#4ECDC4" stroke-width="12" fill="none" stroke-linecap="round" class="brush" style="animation-delay: 0.5s;"/>
-  <path d="M280 220 Q350 200 400 240" stroke="#FFE66D" stroke-width="10" fill="none" stroke-linecap="round" class="brush" style="animation-delay: 1s;"/>
-  <path d="M200 290 Q280 270 350 300" stroke="#9370DB" stroke-width="8" fill="none" stroke-linecap="round" class="brush" style="animation-delay: 1.5s;"/>
+  <path d="M70 200 Q120 180 170 210" stroke="#FF6B6B" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M100 260 Q180 230 250 270" stroke="#4ECDC4" stroke-width="12" fill="none" stroke-linecap="round" style="animation-delay: 0.5s;"/>
+  <path d="M280 220 Q350 200 400 240" stroke="#FFE66D" stroke-width="10" fill="none" stroke-linecap="round" style="animation-delay: 1s;"/>
+  <path d="M200 290 Q280 270 350 300" stroke="#9370DB" stroke-width="8" fill="none" stroke-linecap="round" style="animation-delay: 1.5s;"/>
   
   <!-- Баночка с водой -->
   <rect x="440" y="250" width="40" height="60" rx="5" fill="#87CEEB" stroke="#4169E1" stroke-width="2" opacity="0.7"/>
