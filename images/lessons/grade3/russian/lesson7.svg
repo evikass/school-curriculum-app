@@ -1,77 +1,110 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="sky7" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#E1F5FE;stop-opacity:0.6"/>
-      <stop offset="100%" style="stop-color:#B3E5FC;stop-opacity:0.4"/>
+    <linearGradient id="skyGrad7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F3E5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E1BEE7;stop-opacity:0.5" />
     </linearGradient>
   </defs>
   
   <!-- Background -->
-  <rect width="500" height="350" fill="url(#sky7)"/>
-  <rect width="500" height="350" fill="#FAFAFA" opacity="0.3"/>
+  <rect width="500" height="350" fill="url(#skyGrad7)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="60" cy="60" r="35" fill="#9C27B0" opacity="0.12"/>
+  <circle cx="450" cy="290" r="45" fill="#9C27B0" opacity="0.1"/>
   
   <!-- Sun -->
-  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
-    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  <circle cx="440" cy="50" r="22" fill="#FFD700" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
   </circle>
   
-  <!-- Title -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0277BD" text-anchor="middle">📝 Именительный падеж</text>
-  <rect x="80" y="42" width="340" height="2" rx="1" fill="#03A9F4" opacity="0.5"/>
-  
-  <!-- Ground -->
-  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#81D4FA" opacity="0.5"/>
-  
-  <!-- Main info box -->
-  <g transform="translate(50, 70)">
-    <rect x="0" y="0" width="180" height="100" fill="#E1F5FE" rx="10" stroke="#03A9F4"/>
-    <text x="90" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#01579B" text-anchor="middle">КТО? ЧТО?</text>
-    <text x="90" y="50" font-family="Arial, sans-serif" font-size="12" fill="#0277BD" text-anchor="middle">Начальная форма</text>
-    <text x="90" y="70" font-family="Arial, sans-serif" font-size="12" fill="#0277BD" text-anchor="middle">Падеж подлежащего</text>
-    <text x="90" y="90" font-family="Arial, sans-serif" font-size="12" fill="#0277BD" text-anchor="middle">Без предлога</text>
+  <!-- Clouds -->
+  <g opacity="0.65">
+    <ellipse cx="120" cy="45" rx="28" ry="16" fill="white"/>
+    <ellipse cx="145" cy="40" rx="22" ry="13" fill="white"/>
+    <ellipse cx="100" cy="50" rx="18" ry="11" fill="white"/>
   </g>
   
-  <!-- Subject examples -->
-  <g transform="translate(270, 70)">
-    <rect x="0" y="0" width="180" height="100" fill="#FFF8E1" rx="10" stroke="#FFC107"/>
-    <text x="90" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF6F00" text-anchor="middle">Подлежащее</text>
-    <text x="90" y="50" font-family="Arial, sans-serif" font-size="12" fill="#FF8F00" text-anchor="middle">Кошка спит.</text>
-    <text x="90" y="70" font-family="Arial, sans-serif" font-size="12" fill="#FF8F00" text-anchor="middle">Мальчик читает.</text>
-    <text x="90" y="90" font-family="Arial, sans-serif" font-size="12" fill="#FF8F00" text-anchor="middle">Дерево растёт.</text>
+  <!-- Trees -->
+  <g opacity="0.28">
+    <ellipse cx="40" cy="280" rx="25" ry="38" fill="#228B22"/>
+    <rect x="35" y="280" width="10" height="22" fill="#8B4513"/>
   </g>
-  
-  <!-- Endings -->
-  <g transform="translate(50, 190)" font-family="Arial, sans-serif">
-    <text x="200" y="0" font-size="14" font-weight="bold" fill="#0277BD" text-anchor="middle">Окончания И.п.</text>
-    
-    <rect x="20" y="15" width="110" height="50" fill="#B3E5FC" rx="5"/>
-    <text x="75" y="35" font-size="12" fill="#01579B" text-anchor="middle">Мужской род</text>
-    <text x="75" y="55" font-size="11" fill="#0277BD" text-anchor="middle">стол, дом (∅)</text>
-    
-    <rect x="145" y="15" width="110" height="50" fill="#B3E5FC" rx="5"/>
-    <text x="200" y="35" font-size="12" fill="#01579B" text-anchor="middle">Женский род</text>
-    <text x="200" y="55" font-size="11" fill="#0277BD" text-anchor="middle">стен-а, земл-я</text>
-    
-    <rect x="270" y="15" width="110" height="50" fill="#B3E5FC" rx="5"/>
-    <text x="325" y="35" font-size="12" fill="#01579B" text-anchor="middle">Средний род</text>
-    <text x="325" y="55" font-size="11" fill="#0277BD" text-anchor="middle">окн-о, пол-е</text>
-  </g>
-  
-  <!-- Important note -->
-  <g transform="translate(100, 280)">
-    <rect x="0" y="0" width="300" height="30" fill="#C8E6C9" rx="5" stroke="#4CAF50"/>
-    <text x="150" y="22" font-family="Arial, sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle">💡 Подлежащее — всегда в И.п.!</text>
+  <g opacity="0.25">
+    <ellipse cx="470" cy="275" rx="28" ry="42" fill="#228B22"/>
+    <rect x="465" y="275" width="10" height="25" fill="#8B4513"/>
   </g>
   
   <!-- Flowers -->
-  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
-  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+  <g opacity="0.5">
+    <circle cx="45" cy="325" r="5" fill="#AB47BC"/>
+    <circle cx="52" cy="320" r="4" fill="#CE93D8"/>
+  </g>
+  <g opacity="0.45">
+    <circle cx="460" cy="325" r="5" fill="#7B1FA2"/>
+    <circle cx="453" cy="320" r="4" fill="#BA68C8"/>
+  </g>
   
-  <!-- Sparkles -->
-  <circle cx="140" cy="120" r="2" fill="#FFD54F">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="360" cy="120" r="2" fill="#FFD54F">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="0.3s"/>
-  </circle>
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#7B1FA2" text-anchor="middle">2️⃣ Родительный падеж</text>
+  <rect x="100" y="45" width="300" height="3" rx="2" fill="#7B1FA2" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="30" y="60" width="440" height="260" rx="15" fill="white" opacity="0.92" stroke="#7B1FA2" stroke-width="2"/>
+  
+  <!-- Definition -->
+  <rect x="50" y="75" width="400" height="45" rx="8" fill="#F3E5F5"/>
+  <text x="250" y="95" font-size="12" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Родительный падеж — нет кого? нет чего?</text>
+  <text x="250" y="112" font-size="10" fill="#333" text-anchor="middle">Отвечает на вопросы: КОГО? ЧЕГО?</text>
+  
+  <!-- Examples section -->
+  <g transform="translate(50, 130)">
+    <text x="0" y="0" font-size="11" font-weight="bold" fill="#7B1FA2">Примеры:</text>
+    
+    <!-- Left examples -->
+    <rect x="0" y="10" width="195" height="70" rx="8" fill="#EDE7F6" stroke="#7B1FA2"/>
+    <text x="97" y="28" font-size="9" font-weight="bold" fill="#7B1FA2" text-anchor="middle">👤 КОГО? (одуш.)</text>
+    <text x="97" y="45" font-size="9" fill="#333" text-anchor="middle">Нет мам</text>
+    <text x="97" y="57" font-size="8" fill="#7B1FA2" text-anchor="middle">ы</text>
+    <text x="97" y="70" font-size="9" fill="#333" text-anchor="middle">, нет ученик</text>
+    <text x="145" y="70" font-size="8" fill="#7B1FA2">а</text>
+    
+    <!-- Right examples -->
+    <rect x="205" y="10" width="205" height="70" rx="8" fill="#F3E5F5" stroke="#7B1FA2"/>
+    <text x="307" y="28" font-size="9" font-weight="bold" fill="#7B1FA2" text-anchor="middle">📦 ЧЕГО? (неодуш.)</text>
+    <text x="307" y="45" font-size="9" fill="#333" text-anchor="middle">Нет книг</text>
+    <text x="345" y="45" font-size="8" fill="#7B1FA2">и</text>
+    <text x="307" y="57" font-size="9" fill="#333" text-anchor="middle">, нет дом</text>
+    <text x="352" y="57" font-size="8" fill="#7B1FA2">а</text>
+    <text x="307" y="70" font-size="9" fill="#333" text-anchor="middle">, нет стол</text>
+    <text x="352" y="70" font-size="8" fill="#7B1FA2">а</text>
+  </g>
+  
+  <!-- Usage section -->
+  <g transform="translate(50, 215)">
+    <text x="0" y="0" font-size="11" font-weight="bold" fill="#7B1FA2">Когда используется:</text>
+    
+    <rect x="0" y="10" width="410" height="60" rx="8" fill="#FCE4EC" stroke="#7B1FA2"/>
+    <text x="15" y="28" font-size="9" fill="#333">📌 Обозначение принадлежности: книга</text>
+    <text x="240" y="28" font-size="9" fill="#7B1FA2" font-weight="bold"> брата</text>
+    <text x="15" y="43" font-size="9" fill="#333">📌 Отсутствие предмета: нет</text>
+    <text x="145" y="43" font-size="9" fill="#7B1FA2" font-weight="bold"> воды</text>
+    <text x="15" y="58" font-size="9" fill="#333">📌 Часть целого: стакан</text>
+    <text x="120" y="58" font-size="9" fill="#7B1FA2" font-weight="bold"> молока</text>
+  </g>
+  
+  <!-- Animated indicator -->
+  <g transform="translate(250, 295)">
+    <text font-size="10" fill="#7B1FA2" text-anchor="middle">
+      <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+      Родительный — РОДИТЕЛЬ, нет кого-то!
+    </text>
+  </g>
+  
+  <!-- Book decoration -->
+  <g transform="translate(60, 290)" opacity="0.5">
+    <rect x="0" y="0" width="25" height="18" rx="2" fill="#7B1FA2"/>
+    <rect x="2" y="2" width="21" height="14" fill="white"/>
+    <text x="12" y="12" font-size="6" fill="#7B1FA2" text-anchor="middle">Р.п.</text>
+  </g>
 </svg>

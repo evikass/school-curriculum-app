@@ -1,98 +1,106 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="artBg3" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#BBDEFB;stop-opacity:0.6" />
+    <linearGradient id="worldBg3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FCE4EC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8BBD9;stop-opacity:0.5" />
     </linearGradient>
   </defs>
   
   <!-- Background -->
-  <rect width="500" height="350" fill="url(#artBg3)"/>
+  <rect width="500" height="350" fill="url(#worldBg3)"/>
   
-  <!-- Sky elements -->
-  <circle cx="450" cy="55" r="25" fill="#FFD700" opacity="0.9">
-    <animate attributeName="r" values="25;28;25" dur="3s" repeatCount="indefinite"/>
+  <!-- Decorative circles -->
+  <circle cx="55" cy="55" r="30" fill="#E91E63" opacity="0.12"/>
+  <circle cx="455" cy="295" r="40" fill="#E91E63" opacity="0.1"/>
+  
+  <!-- Sun -->
+  <circle cx="440" cy="50" r="22" fill="#FFD700" opacity="0.85">
+    <animate attributeName="r" values="22;26;22" dur="3s" repeatCount="indefinite"/>
   </circle>
   
   <!-- Clouds -->
-  <g opacity="0.8">
-    <ellipse cx="100" cy="45" rx="28" ry="16" fill="white"/>
-    <ellipse cx="130" cy="40" rx="22" ry="13" fill="white"/>
+  <g opacity="0.7">
+    <ellipse cx="120" cy="45" rx="28" ry="16" fill="white"/>
+    <ellipse cx="145" cy="40" rx="22" ry="13" fill="white"/>
   </g>
   
-  <!-- Mountains in background -->
-  <polygon points="0,250 80,150 160,250" fill="#90A4AE" opacity="0.4"/>
-  <polygon points="340,250 420,130 500,250" fill="#78909C" opacity="0.35"/>
-  
   <!-- Trees -->
-  <g opacity="0.35">
-    <ellipse cx="35" cy="275" rx="20" ry="32" fill="#2E7D32"/>
-    <rect x="30" y="275" width="8" height="18" fill="#5D4037"/>
+  <g opacity="0.25">
+    <ellipse cx="35" cy="280" rx="22" ry="35" fill="#228B22"/>
+    <rect x="30" y="280" width="10" height="20" fill="#5D4037"/>
   </g>
   
   <!-- Flowers -->
   <g opacity="0.5">
-    <circle cx="40" cy="325" r="5" fill="#2196F3"/>
-    <circle cx="47" cy="320" r="4" fill="#64B5F6"/>
+    <circle cx="40" cy="325" r="5" fill="#E91E63"/>
+    <circle cx="47" cy="320" r="4" fill="#F48FB1"/>
+  </g>
+  <g opacity="0.45">
+    <circle cx="465" cy="325" r="5" fill="#EC407A"/>
+    <circle cx="458" cy="320" r="4" fill="#F06292"/>
   </g>
   
   <!-- Title -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1565C0" text-anchor="middle">🏞️ Пейзаж</text>
-  <rect x="100" y="45" width="300" height="3" rx="2" fill="#1565C0" opacity="0.5"/>
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#C2185B" text-anchor="middle">🫀 Организм человека</text>
+  <rect x="80" y="45" width="340" height="3" rx="2" fill="#C2185B" opacity="0.5"/>
   
   <!-- Main Content -->
-  <rect x="30" y="60" width="440" height="255" rx="15" fill="white" opacity="0.92" stroke="#1976D2" stroke-width="2"/>
+  <rect x="30" y="60" width="440" height="255" rx="15" fill="white" opacity="0.92" stroke="#E91E63" stroke-width="2"/>
   
-  <!-- Landscape info -->
-  <text x="250" y="85" font-size="11" font-weight="bold" fill="#1565C0" text-anchor="middle">Искусство пейзажа / Landscape art</text>
+  <!-- Body systems -->
+  <text x="250" y="85" font-size="11" font-weight="bold" fill="#C2185B" text-anchor="middle">Системы органов человека</text>
   
-  <!-- Mini landscape demo -->
-  <g transform="translate(50, 95)">
-    <!-- Sky -->
-    <rect x="0" y="0" width="180" height="60" fill="#BBDEFB"/>
+  <!-- Systems grid -->
+  <g transform="translate(45, 95)">
+    <!-- Skeleton -->
+    <rect x="0" y="0" width="130" height="65" rx="8" fill="#FCE4EC" stroke="#E91E63"/>
+    <text x="65" y="16" font-size="9" font-weight="bold" fill="#C2185B" text-anchor="middle">🦴 Скелет</text>
+    <text x="65" y="35" font-size="20" text-anchor="middle">🦴</text>
+    <text x="65" y="55" font-size="7" fill="#333" text-anchor="middle">Опора тела, защита органов</text>
     
-    <!-- Sun -->
-    <circle cx="150" cy="20" r="15" fill="#FFD700"/>
+    <!-- Muscles -->
+    <rect x="140" y="0" width="130" height="65" rx="8" fill="#F3E5F5" stroke="#9C27B0"/>
+    <text x="205" y="16" font-size="9" font-weight="bold" fill="#7B1FA2" text-anchor="middle">💪 Мышцы</text>
+    <text x="205" y="35" font-size="20" text-anchor="middle">💪</text>
+    <text x="205" y="55" font-size="7" fill="#333" text-anchor="middle">Движение тела</text>
     
-    <!-- Mountains -->
-    <polygon points="0,60 45,20 90,60" fill="#5D4037"/>
-    <polygon points="60,60 110,15 160,60" fill="#795548"/>
-    <polygon points="120,60 165,25 200,60" fill="#6D4C41"/>
+    <!-- Heart -->
+    <rect x="280" y="0" width="130" height="65" rx="8" fill="#FFEBEE" stroke="#F44336"/>
+    <text x="345" y="16" font-size="9" font-weight="bold" fill="#D32F2F" text-anchor="middle">❤️ Сердце</text>
+    <text x="345" y="35" font-size="20" text-anchor="middle">❤️</text>
+    <text x="345" y="55" font-size="7" fill="#333" text-anchor="middle">Кровообращение</text>
     
-    <!-- Ground -->
-    <rect x="0" y="60" width="180" height="40" fill="#81C784"/>
+    <!-- Lungs -->
+    <rect x="0" y="75" width="130" height="65" rx="8" fill="#E3F2FD" stroke="#2196F3"/>
+    <text x="65" y="91" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">🫁 Лёгкие</text>
+    <text x="65" y="110" font-size="20" text-anchor="middle">🫁</text>
+    <text x="65" y="130" font-size="7" fill="#333" text-anchor="middle">Дыхание</text>
     
-    <!-- Trees -->
-    <ellipse cx="30" cy="65" rx="12" ry="18" fill="#2E7D32"/>
-    <ellipse cx="150" cy="68" rx="14" ry="20" fill="#388E3C"/>
+    <!-- Brain -->
+    <rect x="140" y="75" width="130" height="65" rx="8" fill="#FFF3E0" stroke="#FF9800"/>
+    <text x="205" y="91" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">🧠 Мозг</text>
+    <text x="205" y="110" font-size="20" text-anchor="middle">🧠</text>
+    <text x="205" y="130" font-size="7" fill="#333" text-anchor="middle">Управление организмом</text>
     
-    <!-- River -->
-    <path d="M0 85 Q50 75 90 85 Q130 95 180 85" fill="#4FC3F7" opacity="0.7"/>
+    <!-- Stomach -->
+    <rect x="280" y="75" width="130" height="65" rx="8" fill="#E8F5E9" stroke="#4CAF50"/>
+    <text x="345" y="91" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">🍽️ Пищеварение</text>
+    <text x="345" y="110" font-size="20" text-anchor="middle">🍽️</text>
+    <text x="345" y="130" font-size="7" fill="#333" text-anchor="middle">Переработка пищи</text>
   </g>
   
-  <!-- Types -->
-  <g transform="translate(250, 95)">
-    <rect x="0" y="0" width="200" height="100" rx="8" fill="#E3F2FD" stroke="#1976D2"/>
-    <text x="100" y="18" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle">Виды пейзажа:</text>
-    <text x="20" y="38" font-size="9" fill="#333">🌄 Горный пейзаж</text>
-    <text x="20" y="53" font-size="9" fill="#333">🌊 Морской пейзаж</text>
-    <text x="20" y="68" font-size="9" fill="#333">🌲 Лесной пейзаж</text>
-    <text x="20" y="83" font-size="9" fill="#333">🏙️ Городской пейзаж</text>
-  </g>
+  <!-- Health tips -->
+  <rect x="50" y="245" width="400" height="55" rx="10" fill="#FCE4EC" stroke="#E91E63"/>
+  <text x="250" y="265" font-size="11" font-weight="bold" fill="#C2185B" text-anchor="middle">🌟 Правила здорового образа жизни</text>
+  <text x="70" y="285" font-size="9" fill="#333">📌 Правильное питание</text>
+  <text x="200" y="285" font-size="9" fill="#333">📌 Движение и спорт</text>
+  <text x="320" y="285" font-size="9" fill="#333">📌 Сон и отдых</text>
   
-  <!-- Tips -->
-  <rect x="50" y="205" width="400" height="55" rx="10" fill="#E8EAF6" stroke="#3F51B5"/>
-  <text x="250" y="225" font-size="10" font-weight="bold" fill="#303F9F" text-anchor="middle">🎨 Советы художнику</text>
-  <text x="70" y="245" font-size="9" fill="#333">📌 Небо светлее к горизонту</text>
-  <text x="260" y="245" font-size="9" fill="#333">📌 Дальние предметы светлее</text>
-  
-  <!-- Famous landscapes -->
-  <rect x="80" y="270" width="340" height="40" rx="8" fill="#E3F2FD" stroke="#1976D2"/>
-  <text x="250" y="285" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle">🖼️ Знаменитые пейзажи</text>
-  <text x="250" y="300" font-size="8" fill="#333" text-anchor="middle">И. Левитан "Золотая осень" • И. Шишкин "Утро в сосновом лесу"</text>
-  
-  <!-- Decorative -->
-  <g transform="translate(55, 275)" opacity="0.5">
-    <text font-size="18">🎨</text>
+  <!-- Animated heart -->
+  <g transform="translate(250, 300)">
+    <text font-size="16" text-anchor="middle">
+      ❤️
+      <animate attributeName="opacity" values="1;0.6;1" dur="1s" repeatCount="indefinite"/>
+    </text>
   </g>
 </svg>

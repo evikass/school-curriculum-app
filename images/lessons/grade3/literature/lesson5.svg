@@ -1,57 +1,94 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="lit5" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#E1BEE7;stop-opacity:0.5"/>
-      <stop offset="100%" style="stop-color:#CE93D8;stop-opacity:0.3"/>
+    <linearGradient id="litBg5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FCE4EC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8BBD9;stop-opacity:0.5" />
     </linearGradient>
   </defs>
   
   <!-- Background -->
-  <rect width="500" height="350" fill="url(#lit5)"/>
-  <rect width="500" height="350" fill="#FFF8E1" opacity="0.4"/>
+  <rect width="500" height="350" fill="url(#litBg5)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="50" cy="50" r="30" fill="#E91E63" opacity="0.12"/>
+  <circle cx="460" cy="295" r="40" fill="#E91E63" opacity="0.1"/>
   
   <!-- Sun -->
-  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
-    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  <circle cx="430" cy="50" r="20" fill="#FFD700" opacity="0.85">
+    <animate attributeName="r" values="20;24;20" dur="3s" repeatCount="indefinite"/>
   </circle>
   
-  <!-- Title -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#6A1B9A" text-anchor="middle">✒️ А.С. Пушкин</text>
-  <rect x="80" y="42" width="340" height="2" rx="1" fill="#9C27B0" opacity="0.5"/>
-  
-  <!-- Ground -->
-  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#CE93D8" opacity="0.4"/>
-  
-  <!-- Portrait area -->
-  <g transform="translate(50, 80)">
-    <rect x="0" y="0" width="150" height="150" fill="#F3E5F5" rx="10" stroke="#9C27B0"/>
-    <circle cx="75" cy="50" r="30" fill="#FFCCBC"/>
-    <ellipse cx="75" cy="90" rx="25" ry="20" fill="#37474F"/>
-    <rect x="50" y="110" width="50" height="35" fill="#5D4037" rx="3"/>
-    <text x="75" y="165" font-family="Arial, sans-serif" font-size="10" fill="#6A1B9A" text-anchor="middle">1799-1837</text>
+  <!-- Trees -->
+  <g opacity="0.28">
+    <ellipse cx="40" cy="280" rx="24" ry="38" fill="#228B22"/>
+    <rect x="35" y="280" width="10" height="22" fill="#8B4513"/>
   </g>
-  
-  <!-- Info -->
-  <g transform="translate(220, 80)" font-family="Arial, sans-serif">
-    <rect x="0" y="0" width="220" height="150" fill="#EDE7F6" rx="10" stroke="#7B1FA2"/>
-    <text x="110" y="25" font-size="12" font-weight="bold" fill="#4A148C" text-anchor="middle">Великий русский поэт</text>
-    <text x="110" y="50" font-size="10" fill="#6A1B9A" text-anchor="middle">«Солнце русской поэзии»</text>
-    <text x="110" y="75" font-size="9" fill="#7B1FA2" text-anchor="middle">Сказки:</text>
-    <text x="110" y="95" font-size="9" fill="#8E24AA" text-anchor="middle">• Сказка о рыбаке и рыбке</text>
-    <text x="110" y="110" font-size="9" fill="#8E24AA" text-anchor="middle">• Сказка о золотом петушке</text>
-    <text x="110" y="125" font-size="9" fill="#8E24AA" text-anchor="middle">• Сказка о царе Салтане</text>
-    <text x="110" y="140" font-size="9" fill="#8E24AA" text-anchor="middle">• Руслан и Людмила</text>
-  </g>
-  
-  <!-- Fish tale moral -->
-  <g transform="translate(50, 250)">
-    <rect x="0" y="0" width="400" height="55" fill="#FFF8E1" rx="8" stroke="#FFC107"/>
-    <text x="200" y="18" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E65100" text-anchor="middle">«Сказка о рыбаке и рыбке»</text>
-    <text x="200" y="35" font-family="Arial, sans-serif" font-size="10" fill="#F57C00" text-anchor="middle">Учит: жадность наказывается</text>
-    <text x="200" y="48" font-family="Arial, sans-serif" font-size="9" fill="#FF9800" text-anchor="middle">Старуха осталась у разбитого корыта</text>
+  <g opacity="0.25">
+    <ellipse cx="465" cy="278" rx="26" ry="40" fill="#228B22"/>
+    <rect x="460" y="278" width="10" height="24" fill="#8B4513"/>
   </g>
   
   <!-- Flowers -->
-  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
-  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+  <g opacity="0.5">
+    <circle cx="35" cy="325" r="5" fill="#E91E63"/>
+    <circle cx="42" cy="320" r="4" fill="#F48FB1"/>
+  </g>
+  <g opacity="0.45">
+    <circle cx="465" cy="325" r="5" fill="#EC407A"/>
+    <circle cx="458" cy="320" r="4" fill="#F06292"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#C2185B" text-anchor="middle">🌸 Сказки разных народов</text>
+  <rect x="80" y="45" width="340" height="3" rx="2" fill="#C2185B" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="30" y="60" width="440" height="255" rx="15" fill="white" opacity="0.9" stroke="#C2185B" stroke-width="2"/>
+  
+  <!-- World tales -->
+  <text x="250" y="85" font-size="11" font-weight="bold" fill="#C2185B" text-anchor="middle">Сказки народов мира</text>
+  
+  <!-- Tale cards -->
+  <g transform="translate(45, 95)">
+    <!-- Russian -->
+    <rect x="0" y="0" width="130" height="70" rx="8" fill="#FCE4EC" stroke="#E91E63"/>
+    <text x="65" y="16" font-size="9" font-weight="bold" fill="#C2185B" text-anchor="middle">🇷🇺 Русские</text>
+    <text x="65" y="32" font-size="18" text-anchor="middle">🧚</text>
+    <text x="65" y="50" font-size="7" fill="#333" text-anchor="middle">Баба-яга</text>
+    <text x="65" y="62" font-size="7" fill="#333" text-anchor="middle">Кощей Бессмертный</text>
+    
+    <!-- European -->
+    <rect x="140" y="0" width="130" height="70" rx="8" fill="#F3E5F5" stroke="#9C27B0"/>
+    <text x="205" y="16" font-size="9" font-weight="bold" fill="#7B1FA2" text-anchor="middle">🌍 Европейские</text>
+    <text x="205" y="32" font-size="18" text-anchor="middle">👸</text>
+    <text x="205" y="50" font-size="7" fill="#333" text-anchor="middle">Золушка</text>
+    <text x="205" y="62" font-size="7" fill="#333" text-anchor="middle">Белоснежка</text>
+    
+    <!-- Eastern -->
+    <rect x="280" y="0" width="130" height="70" rx="8" fill="#FFF3E0" stroke="#FF9800"/>
+    <text x="345" y="16" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">🕌 Восточные</text>
+    <text x="345" y="32" font-size="18" text-anchor="middle">🧞</text>
+    <text x="345" y="50" font-size="7" fill="#333" text-anchor="middle">Аладдин</text>
+    <text x="345" y="62" font-size="7" fill="#333" text-anchor="middle">Синдбад</text>
+  </g>
+  
+  <!-- Common features -->
+  <rect x="50" y="180" width="400" height="75" rx="10" fill="#FCE4EC" stroke="#C2185B"/>
+  <text x="250" y="200" font-size="11" font-weight="bold" fill="#C2185B" text-anchor="middle">🌟 Что общего у всех сказок</text>
+  <text x="70" y="220" font-size="9" fill="#333">📌 Добро побеждает зло</text>
+  <text x="70" y="235" font-size="9" fill="#333">📌 Герой проходит испытания</text>
+  <text x="260" y="220" font-size="9" fill="#333">📌 Волшебные помощники</text>
+  <text x="260" y="235" font-size="9" fill="#333">📌 Счастливый конец</text>
+  
+  <!-- Quote -->
+  <rect x="100" y="268" width="300" height="40" rx="8" fill="#FFF0F5" stroke="#E91E63" stroke-dasharray="3"/>
+  <text x="250" y="285" font-size="9" fill="#C2185B" text-anchor="middle" font-style="italic">"Сказка — ложь, да в ней намёк,</text>
+  <text x="250" y="300" font-size="9" fill="#C2185B" text-anchor="middle" font-style="italic">добрым молодцам урок!"</text>
+  
+  <!-- Book decoration -->
+  <g transform="translate(60, 285)" opacity="0.5">
+    <rect x="0" y="0" width="25" height="18" rx="2" fill="#E91E63"/>
+    <rect x="2" y="2" width="21" height="14" fill="white"/>
+    <text x="12" y="12" font-size="6" fill="#E91E63" text-anchor="middle">🌍</text>
+  </g>
 </svg>
