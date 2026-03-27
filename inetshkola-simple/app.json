@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ИНЕТШКОЛА",
+    "slug": "inetshkola",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E1B4B"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ru.inetshkola.app"
+    },
+    "android": {
+      "package": "ru.inetshkola.app",
+      "versionCode": 5,
+      "adaptiveIcon": {
+        "backgroundColor": "#1E1B4B",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9a42de8b-1ae7-4a1f-9e4e-864e36cc65a0"
+      }
+    }
+  }
+}

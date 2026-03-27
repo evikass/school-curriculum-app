@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="sky3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8E6C9;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#E8F5E9;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#sky3)"/>
+  <rect width="500" height="350" fill="#FFF3E0" opacity="0.3"/>
+  
+  <!-- Sun -->
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2E7D32" text-anchor="middle">⬅️ Суффикс</text>
+  <rect x="100" y="42" width="300" height="2" rx="1" fill="#66BB6A" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#A5D6A7" opacity="0.6"/>
+  
+  <!-- Arrow showing suffix position -->
+  <g>
+    <path d="M450,150 L380,150 L390,140 M380,150 L390,160" stroke="#1565C0" stroke-width="3" fill="none">
+      <animate attributeName="stroke-dasharray" values="0,200;200,0" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <text x="415" y="130" font-family="Arial, sans-serif" font-size="12" fill="#1565C0" text-anchor="middle">СУФФИКС</text>
+  </g>
+  
+  <!-- Word building blocks -->
+  <g transform="translate(100, 150)">
+    <!-- Root block -->
+    <rect x="0" y="0" width="100" height="50" fill="#66BB6A" rx="8"/>
+    <text x="50" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFF" text-anchor="middle">ДОМ</text>
+    
+    <!-- Plus sign -->
+    <text x="120" y="35" font-family="Arial, sans-serif" font-size="24" fill="#333">+</text>
+    
+    <!-- Suffix block -->
+    <rect x="140" y="0" width="80" height="50" fill="#42A5F5" rx="8"/>
+    <text x="180" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFF" text-anchor="middle">-ИК</text>
+    
+    <!-- Equals sign -->
+    <text x="240" y="35" font-family="Arial, sans-serif" font-size="24" fill="#333">=</text>
+    
+    <!-- Result -->
+    <rect x="260" y="0" width="120" height="50" fill="#FF7043" rx="8"/>
+    <text x="320" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFF" text-anchor="middle">ДОМИК</text>
+  </g>
+  
+  <!-- Suffix meanings -->
+  <g font-family="Arial, sans-serif" font-size="11">
+    <rect x="30" y="230" width="140" height="50" fill="#E3F2FD" rx="5" stroke="#42A5F5"/>
+    <text x="100" y="250" fill="#1565C0" text-anchor="middle" font-weight="bold">-ИК, -ЕК</text>
+    <text x="100" y="268" fill="#1565C0" text-anchor="middle">уменьшительно-ласк.</text>
+    
+    <rect x="180" y="230" width="140" height="50" fill="#E3F2FD" rx="5" stroke="#42A5F5"/>
+    <text x="250" y="250" fill="#1565C0" text-anchor="middle" font-weight="bold">-НИК</text>
+    <text x="250" y="268" fill="#1565C0" text-anchor="middle">человек по профессии</text>
+    
+    <rect x="330" y="230" width="140" height="50" fill="#E3F2FD" rx="5" stroke="#42A5F5"/>
+    <text x="400" y="250" fill="#1565C0" text-anchor="middle" font-weight="bold">-ЛИВ</text>
+    <text x="400" y="268" fill="#1565C0" text-anchor="middle">свойство характера</text>
+  </g>
+  
+  <!-- Examples -->
+  <g font-family="Arial, sans-serif" font-size="12">
+    <text x="80" y="300" fill="#2E7D32" text-anchor="middle">дом → домик</text>
+    <text x="250" y="300" fill="#2E7D32" text-anchor="middle">лес → лесник</text>
+    <text x="420" y="300" fill="#2E7D32" text-anchor="middle">забота → заботливый</text>
+  </g>
+  
+  <!-- Flowers -->
+  <circle cx="20" cy="310" r="6" fill="#E91E63"/>
+  <circle cx="480" cy="310" r="6" fill="#E91E63"/>
+  
+  <!-- Sparkles -->
+  <circle cx="200" cy="180" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="190" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="280" cy="200" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+</svg>
