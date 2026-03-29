@@ -281,43 +281,45 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                 >
                   Закрыть
                 </button>
-                {onStartQuiz && (
+                {isTestCompleted ? (
+                  <>
+                    <button
+                      onClick={onStartQuiz}
+                      className="flex-1 py-3 bg-gradient-to-r from-green-500 to-emerald-500 
+                                hover:from-green-600 hover:to-emerald-600
+                                text-white rounded-xl font-medium transition-colors
+                                flex items-center justify-center gap-2"
+                    >
+                      <CheckCircle className="w-5 h-5" />
+                      Пройдено! ✓
+                    </button>
+                    <button
+                      onClick={() => {
+                        onComplete()
+                        onClose()
+                      }}
+                      className="flex-1 py-3 bg-gradient-to-r from-yellow-500 to-orange-500 
+                                hover:from-yellow-600 hover:to-orange-600
+                                text-white rounded-xl font-medium transition-colors
+                                flex items-center justify-center gap-2"
+                    >
+                      <Award className="w-5 h-5" />
+                      Понял! +5⭐
+                    </button>
+                  </>
+                ) : (
                   <button
                     onClick={() => {
                       onClose()
-                      onStartQuiz()
+                      onStartQuiz && onStartQuiz()
                     }}
-                    className="flex-1 py-3 bg-gradient-to-r from-purple-500 to-pink-500 
-                              hover:from-purple-600 hover:to-pink-600
+                    className="flex-1 py-3 bg-gradient-to-r from-orange-500 to-red-500 
+                              hover:from-orange-600 hover:to-red-600
                               text-white rounded-xl font-medium transition-colors
                               flex items-center justify-center gap-2"
                   >
                     <Gamepad2 className="w-5 h-5" />
-                    Тест
-                  </button>
-                )}
-                {isTestCompleted ? (
-                  <button
-                    onClick={() => {
-                      onComplete()
-                      onClose()
-                    }}
-                    className="flex-1 py-3 bg-gradient-to-r from-green-500 to-emerald-500 
-                              hover:from-green-600 hover:to-emerald-600
-                              text-white rounded-xl font-medium transition-colors
-                              flex items-center justify-center gap-2"
-                  >
-                    <Award className="w-5 h-5" />
-                    Пройдено!
-                  </button>
-                ) : (
-                  <button
-                    disabled
-                    className="flex-1 py-3 bg-gray-500/50 text-gray-300 rounded-xl font-medium 
-                              flex items-center justify-center gap-2 cursor-not-allowed"
-                    title="Сначала пройдите тест!"
-                  >
-                    🔒 Пройдено!
+                    Не пройдено
                   </button>
                 )}
               </div>
