@@ -281,47 +281,58 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                 >
                   Закрыть
                 </button>
+                
+                {/* Кнопка Тест - всегда видна */}
+                <button
+                  onClick={() => {
+                    onClose()
+                    onStartQuiz && onStartQuiz()
+                  }}
+                  className="flex-1 py-3 bg-gradient-to-r from-purple-500 to-indigo-500 
+                            hover:from-purple-600 hover:to-indigo-600
+                            text-white rounded-xl font-medium transition-colors
+                            flex items-center justify-center gap-2"
+                >
+                  <Gamepad2 className="w-5 h-5" />
+                  Тест
+                </button>
+
+                {/* Статус теста */}
                 {isTestCompleted ? (
-                  <>
-                    <button
-                      onClick={onStartQuiz}
-                      className="flex-1 py-3 bg-gradient-to-r from-green-500 to-emerald-500 
-                                hover:from-green-600 hover:to-emerald-600
-                                text-white rounded-xl font-medium transition-colors
-                                flex items-center justify-center gap-2"
-                    >
-                      <CheckCircle className="w-5 h-5" />
-                      Пройдено! ✓
-                    </button>
-                    <button
-                      onClick={() => {
-                        onComplete()
-                        onClose()
-                      }}
-                      className="flex-1 py-3 bg-gradient-to-r from-yellow-500 to-orange-500 
-                                hover:from-yellow-600 hover:to-orange-600
-                                text-white rounded-xl font-medium transition-colors
-                                flex items-center justify-center gap-2"
-                    >
-                      <Award className="w-5 h-5" />
-                      Понял! +5⭐
-                    </button>
-                  </>
+                  <button
+                    disabled
+                    className="flex-1 py-3 bg-gradient-to-r from-green-500 to-emerald-500 
+                              text-white rounded-xl font-medium 
+                              flex items-center justify-center gap-2 cursor-default"
+                  >
+                    <CheckCircle className="w-5 h-5" />
+                    Пройдено!
+                  </button>
                 ) : (
                   <button
-                    onClick={() => {
-                      onClose()
-                      onStartQuiz && onStartQuiz()
-                    }}
-                    className="flex-1 py-3 bg-gradient-to-r from-orange-500 to-red-500 
-                              hover:from-orange-600 hover:to-red-600
-                              text-white rounded-xl font-medium transition-colors
-                              flex items-center justify-center gap-2"
+                    disabled
+                    className="flex-1 py-3 bg-gray-500/50 
+                              text-white/70 rounded-xl font-medium 
+                              flex items-center justify-center gap-2 cursor-default"
                   >
-                    <Gamepad2 className="w-5 h-5" />
-                    Не пройдено
+                    🔒 Не пройдено
                   </button>
                 )}
+
+                {/* Кнопка Понял */}
+                <button
+                  onClick={() => {
+                    onComplete()
+                    onClose()
+                  }}
+                  className="flex-1 py-3 bg-gradient-to-r from-yellow-500 to-orange-500 
+                            hover:from-yellow-600 hover:to-orange-600
+                            text-white rounded-xl font-medium transition-colors
+                            flex items-center justify-center gap-2"
+                >
+                  <Award className="w-5 h-5" />
+                  Понял! +5⭐
+                </button>
               </div>
             </div>
           </motion.div>

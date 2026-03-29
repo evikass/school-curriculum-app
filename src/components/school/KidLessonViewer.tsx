@@ -379,90 +379,79 @@ export default function KidLessonViewer() {
 
             {/* Кнопки действий */}
             <div className="mt-8 flex gap-4 justify-center flex-wrap">
+              {/* Кнопка Тест - всегда видна */}
+              <button
+                onClick={() => {
+                  const subjectGames = games.filter(g =>
+                    g.subject === selectedSubject.title ||
+                    selectedSubject.title.toLowerCase().includes(g.subject.toLowerCase()) ||
+                    g.subject.toLowerCase().includes(selectedSubject.title.toLowerCase())
+                  )
+                  if (subjectGames.length > 0) {
+                    const randomGame = subjectGames[Math.floor(Math.random() * subjectGames.length)]
+                    selectGameFromLesson(randomGame)
+                  } else {
+                    const generatedGame = generateLessonQuiz(
+                      selectedLesson.title,
+                      selectedLesson.description,
+                      selectedSubject.title
+                    )
+                    if (generatedGame) {
+                      selectGameFromLesson(generatedGame)
+                    } else if (games.length > 0) {
+                      const randomGame = games[Math.floor(Math.random() * games.length)]
+                      selectGameFromLesson(randomGame)
+                    }
+                  }
+                }}
+                className="px-8 py-4 text-xl font-bold 
+                           bg-gradient-to-r from-purple-500 to-indigo-500 
+                           hover:from-purple-400 hover:to-indigo-400
+                           text-white rounded-2xl transition-all hover:scale-105 
+                           flex items-center gap-3 shadow-xl"
+              >
+                📝 Тест
+              </button>
+
+              {/* Статус теста */}
               {isLessonTestCompleted(selectedLesson.title) ? (
-                <>
-                  <button
-                    onClick={() => {
-                      const subjectGames = games.filter(g =>
-                        g.subject === selectedSubject.title ||
-                        selectedSubject.title.toLowerCase().includes(g.subject.toLowerCase()) ||
-                        g.subject.toLowerCase().includes(selectedSubject.title.toLowerCase())
-                      )
-                      if (subjectGames.length > 0) {
-                        const randomGame = subjectGames[Math.floor(Math.random() * subjectGames.length)]
-                        selectGameFromLesson(randomGame)
-                      } else {
-                        const generatedGame = generateLessonQuiz(
-                          selectedLesson.title,
-                          selectedLesson.description,
-                          selectedSubject.title
-                        )
-                        if (generatedGame) {
-                          selectGameFromLesson(generatedGame)
-                        } else if (games.length > 0) {
-                          const randomGame = games[Math.floor(Math.random() * games.length)]
-                          selectGameFromLesson(randomGame)
-                        }
-                      }
-                    }}
-                    className="px-8 py-4 text-xl font-bold 
-                               bg-gradient-to-r from-green-500 to-emerald-500 
-                               hover:from-green-400 hover:to-emerald-400
-                               text-white rounded-2xl transition-all hover:scale-105 
-                               flex items-center gap-3 shadow-xl"
-                  >
-                    ✅ Пройдено! ✓
-                  </button>
-                  <button
-                    onClick={() => {
-                      setCompletedLessons(new Set([...completedLessons, selectedLesson.title]))
-                      completeTopic(selectedLesson.title)
-                      addPoints(5)
-                      selectLesson(null)
-                    }}
-                    className="px-8 py-4 text-xl font-bold 
-                               bg-gradient-to-r from-yellow-500 to-orange-500 
-                               hover:from-yellow-400 hover:to-orange-400
-                               text-white rounded-2xl transition-all hover:scale-105 
-                               flex items-center gap-3 shadow-xl"
-                  >
-                    ⭐ Понял! +5⭐
-                  </button>
-                </>
+                <button
+                  disabled
+                  className="px-8 py-4 text-xl font-bold 
+                             bg-gradient-to-r from-green-500 to-emerald-500 
+                             text-white rounded-2xl 
+                             flex items-center gap-3 shadow-xl cursor-default"
+                >
+                  ✅ Пройдено!
+                </button>
               ) : (
                 <button
-                  onClick={() => {
-                    const subjectGames = games.filter(g =>
-                      g.subject === selectedSubject.title ||
-                      selectedSubject.title.toLowerCase().includes(g.subject.toLowerCase()) ||
-                      g.subject.toLowerCase().includes(selectedSubject.title.toLowerCase())
-                    )
-                    if (subjectGames.length > 0) {
-                      const randomGame = subjectGames[Math.floor(Math.random() * subjectGames.length)]
-                      selectGameFromLesson(randomGame)
-                    } else {
-                      const generatedGame = generateLessonQuiz(
-                        selectedLesson.title,
-                        selectedLesson.description,
-                        selectedSubject.title
-                      )
-                      if (generatedGame) {
-                        selectGameFromLesson(generatedGame)
-                      } else if (games.length > 0) {
-                        const randomGame = games[Math.floor(Math.random() * games.length)]
-                        selectGameFromLesson(randomGame)
-                      }
-                    }
-                  }}
+                  disabled
                   className="px-8 py-4 text-xl font-bold 
-                             bg-gradient-to-r from-orange-500 to-red-500 
-                             hover:from-orange-400 hover:to-red-400
-                             text-white rounded-2xl transition-all hover:scale-105 
-                             flex items-center gap-3 shadow-xl"
+                             bg-gray-500/50 
+                             text-white/70 rounded-2xl 
+                             flex items-center gap-3 shadow-xl cursor-default"
                 >
-                  🎮 Не пройдено
+                  🔒 Не пройдено
                 </button>
               )}
+
+              {/* Кнопка Понял */}
+              <button
+                onClick={() => {
+                  setCompletedLessons(new Set([...completedLessons, selectedLesson.title]))
+                  completeTopic(selectedLesson.title)
+                  addPoints(5)
+                  selectLesson(null)
+                }}
+                className="px-8 py-4 text-xl font-bold 
+                           bg-gradient-to-r from-yellow-500 to-orange-500 
+                           hover:from-yellow-400 hover:to-orange-400
+                           text-white rounded-2xl transition-all hover:scale-105 
+                           flex items-center gap-3 shadow-xl"
+              >
+                ⭐ Понял! +5⭐
+              </button>
               <button
                 onClick={() => selectLesson(null)}
                 className="px-8 py-4 text-xl font-bold 
