@@ -274,7 +274,7 @@ interface Lesson {
 }
 
 export default function KidLessonViewer() {
-  const { selectedSubject, goBack, completeTopic, addPoints, selectGame, selectGameFromLesson, games: contextGames, selectedLesson, selectLesson } = useSchool()
+  const { selectedSubject, goBack, completeTopic, addPoints, selectGame, selectGameFromLesson, games: contextGames, selectedLesson, selectLesson, isLessonTestCompleted } = useSchool()
   const [selectedTopicIndex, setSelectedTopicIndex] = useState<number | null>(null)
   const [showGames, setShowGames] = useState(false)
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(new Set())
@@ -411,21 +411,33 @@ export default function KidLessonViewer() {
               >
                 🎮 Игра-тест
               </button>
-              <button
-                onClick={() => {
-                  setCompletedLessons(new Set([...completedLessons, selectedLesson.title]))
-                  completeTopic(selectedLesson.title)
-                  addPoints(5)
-                  selectLesson(null)
-                }}
-                className="px-8 py-4 text-xl font-bold 
-                           bg-gradient-to-r from-green-500 to-emerald-500 
-                           hover:from-green-400 hover:to-emerald-400
-                           text-white rounded-2xl transition-all hover:scale-105 
-                           flex items-center gap-3 shadow-xl"
-              >
-                ✅ Понял! +5⭐
-              </button>
+              {isLessonTestCompleted(selectedLesson.title) ? (
+                <button
+                  onClick={() => {
+                    setCompletedLessons(new Set([...completedLessons, selectedLesson.title]))
+                    completeTopic(selectedLesson.title)
+                    addPoints(5)
+                    selectLesson(null)
+                  }}
+                  className="px-8 py-4 text-xl font-bold 
+                             bg-gradient-to-r from-green-500 to-emerald-500 
+                             hover:from-green-400 hover:to-emerald-400
+                             text-white rounded-2xl transition-all hover:scale-105 
+                             flex items-center gap-3 shadow-xl"
+                >
+                  ✅ Понял! +5⭐
+                </button>
+              ) : (
+                <button
+                  disabled
+                  className="px-8 py-4 text-xl font-bold 
+                             bg-gray-500/50 text-gray-300 rounded-2xl 
+                             flex items-center gap-3 shadow-xl cursor-not-allowed"
+                  title="Сначала пройдите тест!"
+                >
+                  🔒 Понял! +5⭐
+                </button>
+              )}
               <button
                 onClick={() => selectLesson(null)}
                 className="px-8 py-4 text-xl font-bold 

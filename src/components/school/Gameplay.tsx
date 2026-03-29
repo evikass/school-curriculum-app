@@ -10,7 +10,7 @@ import { calculateLevel, XP_REWARDS, getRank } from '@/data/constants'
 type AnswerState = 'idle' | 'correct' | 'incorrect' | 'revealed'
 
 export default function Gameplay() {
-  const { selectedGame, selectGame, addPoints, recordGameResult, unlockAchievement, progress, gameFromLesson } = useSchool()
+  const { selectedGame, selectGame, addPoints, recordGameResult, unlockAchievement, progress, gameFromLesson, selectedLesson, markLessonTestCompleted } = useSchool()
   const [currentIndex, setCurrentIndex] = useState(0)
   const [answers, setAnswers] = useState<Record<number, string | string[]>>({})
   const [answerState, setAnswerState] = useState<AnswerState>('idle')
@@ -163,6 +163,11 @@ export default function Gameplay() {
     }
     
     recordGameResult(finalScore, totalTasks, selectedGame.subject)
+    
+    // Если игра запущена из урока и пройдена хотя бы на 50%, помечаем тест как пройденный
+    if (gameFromLesson && selectedLesson && finalScore >= totalTasks * 0.5) {
+      markLessonTestCompleted(selectedLesson.title)
+    }
     
     // Check for streak achievements
     if (progress.streak >= 7) unlockAchievement('streak_7')

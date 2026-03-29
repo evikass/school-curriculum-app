@@ -28,6 +28,7 @@ interface Progress {
   todayLessons: number
   todayGames: number
   todayPoints: number
+  completedLessonTests: string[] // Уроки, тесты по которым пройдены
 }
 
 // Тип для урока
@@ -58,6 +59,8 @@ interface SchoolContextType {
   selectGame: (game: GameLesson | null) => void
   selectGameFromLesson: (game: GameLesson) => void // Запуск игры из урока
   selectLesson: (lesson: LessonData | null) => void // Выбор урока
+  markLessonTestCompleted: (lessonTitle: string) => void // Пометить тест урока как пройденный
+  isLessonTestCompleted: (lessonTitle: string) => boolean // Проверить, пройден ли тест урока
   setActiveMiniGame: (game: MiniGameType) => void
   addPoints: (points: number) => void
   completeTopic: (topicKey: string) => void
@@ -78,9 +81,9 @@ export function useSchool() {
 
 // Helper to get initial progress from localStorage
 function getInitialProgress(): Progress {
-  const defaultProgress = { 
-    totalPoints: 0, 
-    completedTopics: {}, 
+  const defaultProgress = {
+    totalPoints: 0,
+    completedTopics: {},
     achievements: [],
     streak: 0,
     lastActiveDate: '',
@@ -91,7 +94,8 @@ function getInitialProgress(): Progress {
     dailyProgress: {},
     todayLessons: 0,
     todayGames: 0,
-    todayPoints: 0
+    todayPoints: 0,
+    completedLessonTests: []
   }
   
   if (typeof window === 'undefined') {
@@ -326,6 +330,22 @@ export function SchoolProvider({ children }: { children: ReactNode }) {
     }
   }
 
+  // Пометить тест урока как пройденный
+  const markLessonTestCompleted = (lessonTitle: string) => {
+    if (!progress.completedLessonTests.includes(lessonTitle)) {
+      const newProgress = {
+        ...progress,
+        completedLessonTests: [...progress.completedLessonTests, lessonTitle]
+      }
+      saveProgress(newProgress)
+    }
+  }
+
+  // Проверить, пройден ли тест урока
+  const isLessonTestCompleted = (lessonTitle: string): boolean => {
+    return progress.completedLessonTests.includes(lessonTitle)
+  }
+
   return (
     <SchoolContext.Provider value={{
       selectedClass,
@@ -345,6 +365,8 @@ export function SchoolProvider({ children }: { children: ReactNode }) {
       selectGame,
       selectGameFromLesson,
       selectLesson,
+      markLessonTestCompleted,
+      isLessonTestCompleted,
       setActiveMiniGame,
       addPoints,
       completeTopic,

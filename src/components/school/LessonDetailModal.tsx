@@ -28,9 +28,10 @@ interface Props {
   onClose: () => void
   onComplete: () => void
   onStartQuiz?: () => void // Новый callback для запуска теста
+  isTestCompleted?: boolean // Пройден ли тест для этого урока
 }
 
-export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete, onStartQuiz }: Props) {
+export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete, onStartQuiz, isTestCompleted }: Props) {
   const [currentSection, setCurrentSection] = useState(0)
   const [showPeriodicTable, setShowPeriodicTable] = useState(false)
   
@@ -295,19 +296,30 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                     Тест
                   </button>
                 )}
-                <button
-                  onClick={() => {
-                    onComplete()
-                    onClose()
-                  }}
-                  className="flex-1 py-3 bg-gradient-to-r from-green-500 to-emerald-500 
-                            hover:from-green-600 hover:to-emerald-600
-                            text-white rounded-xl font-medium transition-colors
-                            flex items-center justify-center gap-2"
-                >
-                  <Award className="w-5 h-5" />
-                  Пройдено!
-                </button>
+                {isTestCompleted ? (
+                  <button
+                    onClick={() => {
+                      onComplete()
+                      onClose()
+                    }}
+                    className="flex-1 py-3 bg-gradient-to-r from-green-500 to-emerald-500 
+                              hover:from-green-600 hover:to-emerald-600
+                              text-white rounded-xl font-medium transition-colors
+                              flex items-center justify-center gap-2"
+                  >
+                    <Award className="w-5 h-5" />
+                    Пройдено!
+                  </button>
+                ) : (
+                  <button
+                    disabled
+                    className="flex-1 py-3 bg-gray-500/50 text-gray-300 rounded-xl font-medium 
+                              flex items-center justify-center gap-2 cursor-not-allowed"
+                    title="Сначала пройдите тест!"
+                  >
+                    🔒 Пройдено!
+                  </button>
+                )}
               </div>
             </div>
           </motion.div>

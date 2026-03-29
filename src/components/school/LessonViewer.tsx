@@ -20,7 +20,7 @@ interface SelectedLesson {
 }
 
 export default function LessonViewer() {
-  const { selectedSubject, selectedClass, completeTopic, goBack, selectGameFromLesson, games: contextGames } = useSchool()
+  const { selectedSubject, selectedClass, completeTopic, goBack, selectGameFromLesson, games: contextGames, isLessonTestCompleted } = useSchool()
   // Одна открытая вкладка вместо Set
   const [expandedTopic, setExpandedTopic] = useState<string | null>(null)
   const [currentTab, setCurrentTab] = useState<'lessons' | 'games'>('lessons')
@@ -330,6 +330,7 @@ export default function LessonViewer() {
         onClose={() => setIsDetailOpen(false)}
         onComplete={handleDetailComplete}
         onStartQuiz={detailLesson ? () => startQuiz(detailLesson) : undefined}
+        isTestCompleted={detailLesson ? isLessonTestCompleted(detailLesson.title) : false}
       />
     </div>
   )
