@@ -344,7 +344,7 @@ export default function GamePlayer({ game, onBack, onComplete }: GamePlayerProps
                 }`}
               >
                 <span className="flex items-center gap-3">
-                  <span className="w-8 h-8 rounded-full bg-slate-600 flex items-center justify-center text-sm">
+                  <span className="w-8 h-8 rounded-full bg-slate-600 inline-flex items-center justify-center text-sm flex-shrink-0">
                     {String.fromCharCode(65 + index)}
                   </span>
                   {option}

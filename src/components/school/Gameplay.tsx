@@ -326,7 +326,7 @@ export default function Gameplay() {
                   {showCorrect && <CheckCircle className="w-6 h-6 text-green-300" />}
                   {showIncorrect && <XCircle className="w-6 h-6 text-red-300" />}
                   {!showCorrect && !showIncorrect && (
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full bg-white/20 text-sm">
+                    <span className="w-6 h-6 inline-flex items-center justify-center rounded-full bg-white/20 text-sm flex-shrink-0">
                       {String.fromCharCode(65 + index)}
                     </span>
                   )}
