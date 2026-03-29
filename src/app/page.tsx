@@ -10,7 +10,7 @@ function getTodayString(): string { return new Date().toISOString().split('T')[0
 type MiniGameType = 'challenge' | 'memory' | 'daily' | 'flashcards' | 'speedtest' | 'stats' | 'typing' | 'spelling' | 'puzzle' | 'scramble' | 'racing' | 'trivia' | 'crossword' | 'sentence' | 'colormatch' | 'wordsearch' | 'sequence' | 'emoji' | 'geography' | 'hangman' | 'truefalse' | 'anagram' | 'oddoneout' | 'soundquiz' | 'mathpuzzle' | 'wordchain' | 'quickmath' | 'alphabetsort' | 'synonym' | 'flags' | 'timequiz' | 'riddles' | 'proverbs' | 'punctuation' | 'capitals' | 'roman' | 'fraction' | 'percent' | 'geometry' | 'nature' | 'history' | 'science' | 'measurement' | 'equation' | 'parts' | 'periodic' | null
 
 function AppContent() {
-  const { view, isKidMode, goToClass, selectedClass, activeMiniGame, setActiveMiniGame } = useSchool()
+  const { view, isKidMode, goToClass, selectedClass, activeMiniGame, setActiveMiniGame, goToSubject, subjects, goToGames } = useSchool()
   const [showAchievements, setShowAchievements] = useState(false)
   const [showDailyBonus, setShowDailyBonus] = useState(false)
   const [showQuickQuiz, setShowQuickQuiz] = useState(false)
@@ -19,6 +19,51 @@ function AppContent() {
   const [showSettings, setShowSettings] = useState(false)
   const [showDonate, setShowDonate] = useState(false)
   const [donateTab, setDonateTab] = useState<'ru' | 'intl'>('ru')
+
+  // Handler for LearningPath "Начать" button
+  const handleLearningPathStart = (node: { title: string; type: string }) => {
+    setShowLearningPath(false)
+    
+    // Map topic titles to subject names
+    const topicToSubject: Record<string, string> = {
+      'Знакомство с цифрами': 'Математика',
+      'Игра с формами': 'Математика',
+      'Буквы А-Я': 'Русский язык',
+      'Времена года': 'Окружающий мир',
+      'Счёт до 10': 'Математика',
+      'Сложение': 'Математика',
+      'Математическая гонка': 'Математика',
+      'Алфавит': 'Русский язык',
+      'Слоги': 'Русский язык',
+      'Счёт до 100': 'Математика',
+      'Вычитание': 'Математика',
+      'Таблица умножения': 'Математика',
+      'Части речи': 'Русский язык',
+      'Математический спринт': 'Математика',
+      'Периметр и площадь': 'Математика',
+      'Падежи': 'Русский язык',
+      'Геометрический марафон': 'Математика',
+      'Деление': 'Математика',
+      'Линейные уравнения': 'Алгебра',
+      'Формулы сокращённого умножения': 'Алгебра',
+      'Треугольники': 'Геометрия',
+      'Теорема Пифагора': 'Геометрия',
+      'Алгебраический челлендж': 'Алгебра',
+    }
+    
+    const subjectName = topicToSubject[node.title]
+    
+    if (node.type === 'game') {
+      // Navigate to games
+      goToGames()
+    } else if (subjectName) {
+      // Find the subject and navigate to it
+      const subject = subjects.find(s => s.title === subjectName)
+      if (subject) {
+        goToSubject(subject)
+      }
+    }
+  }
 
   const boostyService = {
     id: 'boosty',
@@ -88,7 +133,7 @@ function AppContent() {
           
           {/* Compact button row */}
           <div className="flex justify-center items-center gap-2 mt-3 flex-wrap">
-            <span className="text-green-400 text-xs bg-green-400/20 px-2 py-1 rounded-full">v3.326</span>
+            <span className="text-green-400 text-xs bg-green-400/20 px-2 py-1 rounded-full">v3.327</span>
             <span className="text-yellow-400 text-xs bg-yellow-400/20 px-2 py-1 rounded-full" suppressHydrationWarning>{new Date().toLocaleDateString('ru-RU')}</span>
             
             <button onClick={() => setShowCalendar(!showCalendar)} 
@@ -154,7 +199,7 @@ function AppContent() {
         {showLearningPath && view === 'subjects' && (
           <div className="mb-6 animate-slideIn relative">
             <button onClick={() => setShowLearningPath(false)} className="absolute -top-2 -right-2 z-10 w-6 h-6 bg-red-500 hover:bg-red-600 rounded-full flex items-center justify-center text-white text-sm">✕</button>
-            <LearningPath />
+            <LearningPath onStart={handleLearningPathStart} />
           </div>
         )}
         

@@ -15,6 +15,10 @@ interface PathNode {
   locked: boolean
 }
 
+interface LearningPathProps {
+  onStart?: (node: PathNode) => void
+}
+
 const PATH_DATA: Record<number, PathNode[]> = {
   0: [
     { id: '0-1', title: 'Знакомство с цифрами', description: 'Учимся считать от 1 до 5', type: 'lesson', difficulty: 'easy', xpReward: 10, completed: false, locked: false },
@@ -83,7 +87,7 @@ const getDifficultyStars = (difficulty: PathNode['difficulty']) => {
   ))
 }
 
-export default function LearningPath() {
+export default function LearningPath({ onStart }: LearningPathProps) {
   const { selectedClass, progress } = useSchool()
   const [selectedNode, setSelectedNode] = useState<PathNode | null>(null)
   
@@ -93,6 +97,12 @@ export default function LearningPath() {
   const completedCount = pathNodes.filter(n => progress.completedTopics[n.id]).length
   const totalXp = pathNodes.reduce((sum, n) => sum + n.xpReward, 0)
   const earnedXp = pathNodes.filter(n => progress.completedTopics[n.id]).reduce((sum, n) => sum + n.xpReward, 0)
+
+  const handleStart = () => {
+    if (selectedNode && onStart) {
+      onStart(selectedNode)
+    }
+  }
 
   return (
     <div className="w-full max-w-2xl mx-auto p-6 rounded-3xl bg-gradient-to-br from-violet-600/90 to-purple-600/90 
@@ -202,7 +212,9 @@ export default function LearningPath() {
               +{selectedNode.xpReward} XP
             </span>
           </div>
-          <button className="w-full mt-3 py-2 bg-gradient-to-r from-violet-500 to-purple-500 
+          <button 
+            onClick={handleStart}
+            className="w-full mt-3 py-2 bg-gradient-to-r from-violet-500 to-purple-500 
             text-white rounded-xl font-medium hover:scale-[1.02] transition-transform flex items-center justify-center gap-2">
             Начать
             <ChevronRight className="w-4 h-4" />
