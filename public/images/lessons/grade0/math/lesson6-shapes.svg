@@ -15,7 +15,7 @@
   <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#15803d">Геометрические фигуры 🔷</text>
   
   <!-- Circle -->
-  <g class="shape circle" style="transform-origin: 80px 100px">
+  <g class="circle" style="transform-origin: 80px 100px">
     <circle cx="80" cy="100" r="45" fill="#ef4444" stroke="#dc2626" stroke-width="3"/>
   </g>
   <text x="80" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">Круг ⭕</text>

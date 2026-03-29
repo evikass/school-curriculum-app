@@ -1,18 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
   <style>
-    @keyframes fly {
-      0%, 100% { transform: translateY(0) rotate(0deg); }
-      50% { transform: translateY(-10px) rotate(5deg); }
+    @keyframes fly1 {
+      0%, 100% { transform: translate(170px, 70px) translateY(0) rotate(0deg); }
+      50% { transform: translate(170px, 70px) translateY(-10px) rotate(5deg); }
+    }
+    @keyframes fly2 {
+      0%, 100% { transform: translate(120px, 300px) translateY(0) rotate(0deg); }
+      50% { transform: translate(120px, 300px) translateY(-10px) rotate(-5deg); }
     }
     @keyframes buzz {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.05); }
+      0%, 100% { transform: translate(50px, 200px) scale(1); }
+      50% { transform: translate(50px, 200px) scale(1.05); }
     }
     @keyframes sparkle {
       0%, 100% { opacity: 1; }
       50% { opacity: 0.3; }
     }
-    .fly { animation: fly 2s ease-in-out infinite; }
+    .fly1 { animation: fly1 2s ease-in-out infinite; }
+    .fly2 { animation: fly2 2s ease-in-out infinite 1s; }
     .buzz { animation: buzz 0.5s ease-in-out infinite; }
     .sparkle { animation: sparkle 1s ease-in-out infinite; }
   </style>
@@ -27,7 +32,7 @@
   <text x="200" y="35" font-size="18" fill="#b45309" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">МУХА-ЦОКОТУХА</text>
   <text x="200" y="52" font-size="11" fill="#92400e" text-anchor="middle" font-family="Arial, sans-serif">К.И. Чуковский</text>
   <!-- Fly (Muha) -->
-  <g class="fly" transform="translate(170, 70)">
+  <g class="fly1">
     <!-- Body -->
     <ellipse cx="30" cy="45" rx="22" ry="28" fill="#fbbf24"/>
     <!-- Stripes -->
@@ -59,7 +64,7 @@
     <text x="30" y="105" font-size="10" fill="#78350f" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">Муха-Цокотуха</text>
   </g>
   <!-- Samovar -->
-  <g class="buzz" transform="translate(50, 200)">
+  <g class="buzz">
     <ellipse cx="50" cy="100" rx="45" ry="20" fill="#dc2626"/>
     <rect x="15" y="50" width="70" height="50" fill="#dc2626" rx="10"/>
     <ellipse cx="50" cy="50" rx="35" ry="15" fill="#dc2626"/>
@@ -97,7 +102,7 @@
     <text x="25" y="55" font-size="9" fill="#dc2626" text-anchor="middle" font-family="Arial, sans-serif">Паук 😈</text>
   </g>
   <!-- Mosquito (hero) -->
-  <g class="fly" style="animation-delay: 1s" transform="translate(120, 300)">
+  <g class="fly2">
     <ellipse cx="25" cy="20" rx="12" ry="8" fill="#bfdbfe"/>
     <circle cx="25" cy="8" r="8" fill="#bfdbfe"/>
     <circle cx="22" cy="6" r="3" fill="#1e293b"/>
@@ -113,7 +118,5 @@
     <text x="25" y="75" font-size="9" fill="#3b82f6" text-anchor="middle" font-family="Arial, sans-serif">Комарик 🦸</text>
   </g>
   <!-- Quote -->
-  <g transform="translate(200, 385)">
-    <text x="0" y="0" font-size="10" fill="#92400e" text-anchor="middle" font-family="Arial, sans-serif" font-style="italic">«Муха по полю пошла, Муха денежку нашла...»</text>
-  </g>
+  <text x="200" y="385" font-size="11" fill="#78350f" text-anchor="middle" font-family="Arial, sans-serif" font-style="italic">«Муха, Муха-Цокотуха, позолоченное брюхо!»</text>
 </svg>

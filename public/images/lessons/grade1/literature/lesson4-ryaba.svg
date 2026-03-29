@@ -1,24 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
   <style>
-    @keyframes lay-egg {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(5px); }
+    @keyframes chicken-move {
+      0%, 100% { transform: translate(180px, 60px) translateY(0); }
+      50% { transform: translate(180px, 60px) translateY(5px); }
     }
-    @keyframes sparkle {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.5; transform: scale(1.2); }
+    @keyframes egg-sparkle {
+      0%, 100% { transform: translate(280px, 220px) scale(1); opacity: 1; }
+      50% { transform: translate(280px, 220px) scale(1.1); opacity: 0.8; }
     }
-    @keyframes sad {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-3px); }
+    @keyframes ded-sad {
+      0%, 100% { transform: translate(40px, 200px) translateY(0); }
+      50% { transform: translate(40px, 200px) translateY(-3px); }
+    }
+    @keyframes baba-sad {
+      0%, 100% { transform: translate(120px, 200px) translateY(0); }
+      50% { transform: translate(120px, 200px) translateY(-3px); }
     }
     @keyframes blink {
       0%, 90%, 100% { transform: scaleY(1); }
       95% { transform: scaleY(0.1); }
     }
-    .chicken { animation: lay-egg 2s ease-in-out infinite; }
-    .egg { animation: sparkle 2s ease-in-out infinite; }
-    .sad { animation: sad 1.5s ease-in-out infinite; }
+    .chicken { animation: chicken-move 2s ease-in-out infinite; }
+    .egg { animation: egg-sparkle 2s ease-in-out infinite; }
+    .ded { animation: ded-sad 1.5s ease-in-out infinite; }
+    .baba { animation: baba-sad 1.5s ease-in-out infinite 0.5s; }
     .eye { animation: blink 3s ease-in-out infinite; transform-origin: center; }
   </style>
   <!-- Background -->
@@ -26,7 +31,7 @@
   <!-- Title -->
   <text x="200" y="35" font-size="20" fill="#b45309" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">КУРОЧКА РЯБА</text>
   <!-- Hen (Ryaba) -->
-  <g class="chicken" transform="translate(180, 60)">
+  <g class="chicken">
     <!-- Body -->
     <ellipse cx="50" cy="80" rx="45" ry="35" fill="#fef3c7"/>
     <!-- Wing -->
@@ -53,7 +58,7 @@
     <text x="50" y="165" font-size="12" fill="#92400e" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">Курочка Ряба</text>
   </g>
   <!-- Golden egg -->
-  <g class="egg" transform="translate(280, 220)">
+  <g class="egg">
     <ellipse cx="30" cy="40" rx="25" ry="32" fill="#fbbf24"/>
     <ellipse cx="30" cy="40" rx="25" ry="32" fill="none" stroke="#f59e0b" stroke-width="2"/>
     <!-- Sparkles -->
@@ -65,7 +70,7 @@
     <text x="30" y="90" font-size="10" fill="#92400e" text-anchor="middle" font-family="Arial, sans-serif">ЗОЛОТОЕ ЯИЧКО</text>
   </g>
   <!-- Grandfather (Ded) -->
-  <g class="sad" transform="translate(40, 200)">
+  <g class="ded">
     <!-- Body -->
     <rect x="10" y="40" width="50" height="60" fill="#1e40af" rx="5"/>
     <!-- Head -->
@@ -87,7 +92,7 @@
     <text x="35" y="120" font-size="10" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">Дед</text>
   </g>
   <!-- Grandmother (Baba) -->
-  <g class="sad" style="animation-delay: 0.5s" transform="translate(120, 200)">
+  <g class="baba">
     <!-- Body -->
     <rect x="10" y="40" width="50" height="60" fill="#dc2626" rx="5"/>
     <!-- Head -->
@@ -125,7 +130,5 @@
     <path d="M 10 35 Q 20 25 30 35 Q 25 45 10 35" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
   </g>
   <!-- Quote -->
-  <g transform="translate(200, 390)">
-    <text x="0" y="0" font-size="11" fill="#78350f" text-anchor="middle" font-family="Arial, sans-serif" font-style="italic">«Не плачь, дед! Не плачь, баба!»</text>
-  </g>
+  <text x="200" y="390" font-size="11" fill="#78350f" text-anchor="middle" font-family="Arial, sans-serif" font-style="italic">«Не плачь, дед! Не плачь, баба!»</text>
 </svg>

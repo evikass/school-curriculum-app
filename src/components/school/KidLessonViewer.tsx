@@ -327,17 +327,8 @@ export default function KidLessonViewer() {
               </div>
             </div>
 
-            {/* Анимированный SVG */}
-            <div className="flex justify-center mb-6">
-              <LessonAnimatedSVG 
-                lessonTitle={selectedLesson.title} 
-                subject={selectedSubject?.title || ''}
-                size="medium" 
-              />
-            </div>
-            
-            {/* Изображение урока из SVG файла */}
-            {'image' in selectedLesson && selectedLesson.image && (
+            {/* Изображение урока из SVG файла (приоритет) */}
+            {'image' in selectedLesson && selectedLesson.image ? (
               <div className="flex justify-center mb-6">
                 <div className="relative rounded-3xl overflow-hidden border-4 border-purple-400/30 shadow-2xl max-w-2xl w-full">
                   <img 
@@ -350,6 +341,15 @@ export default function KidLessonViewer() {
                     }}
                   />
                 </div>
+              </div>
+            ) : (
+              /* Анимированный SVG - только если нет внешней картинки */
+              <div className="flex justify-center mb-6">
+                <LessonAnimatedSVG 
+                  lessonTitle={selectedLesson.title} 
+                  subject={selectedSubject?.title || ''}
+                  size="medium" 
+                />
               </div>
             )}
             
