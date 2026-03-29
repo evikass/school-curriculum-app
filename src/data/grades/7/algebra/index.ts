@@ -567,7 +567,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Упрости: 3a + 2a - a", options: ["4a", "5a", "6a", "3a"], correctAnswer: "4a", hint: "3 + 2 - 1 = 4" },
       { type: 'quiz', question: "Упрости: 2(x + 3) - x", options: ["x + 6", "2x + 6", "x + 3", "3x + 6"], correctAnswer: "x + 6", hint: "2x + 6 - x = x + 6" },
       { type: 'quiz', question: "Раскрой: (x + 2)(x - 1)", options: ["x² + x - 2", "x² - x + 2", "x² + 2x - 2", "x² - 2"], correctAnswer: "x² + x - 2", hint: "x² - x + 2x - 2" },
-      { type: 'quiz', question: "Определите степень одночлена: 5x²y³", options: ["5", "6", "10", "11"], correctAnswer: "6", hint: "2 + 3 = 5 — сумма показателей" }
+      { type: 'quiz', question: "Определите степень одночлена: 5x²y³", options: ["5", "6", "10", "11"], correctAnswer: "5", hint: "2 + 3 = 5 — сумма показателей" }
     ],
     reward: { stars: 3, message: "Супер! Ты работаешь с многочленами! 📝" }
   }
