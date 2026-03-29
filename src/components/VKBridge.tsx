@@ -17,16 +17,21 @@ export default function VKBridge() {
   const [error, setError] = useState<string | null>(null);
   const [isVK, setIsVK] = useState(false);
   const [retryCount, setRetryCount] = useState(0);
+  const [skipped, setSkipped] = useState(false);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
-    // Detect VK environment
+    // Detect VK environment - be more conservative
+    // Only consider it VK if we have explicit VK indicators
     const checkVK = () => {
-      const isIframe = window.location !== window.parent.location;
       const hasVKParam = new URLSearchParams(window.location.search).has('vk_platform');
+      const hasVKAppId = new URLSearchParams(window.location.search).has('vk_app_id');
       const isVKDomain = window.location.hostname.includes('vk.com');
-      return isIframe || hasVKParam || isVKDomain;
+      const isVKReferrer = document.referrer.includes('vk.com');
+
+      // Only return true if we have clear VK indicators
+      return hasVKParam || hasVKAppId || isVKDomain || isVKReferrer;
     };
 
     const vkDetected = checkVK();
@@ -37,13 +42,13 @@ export default function VKBridge() {
       return;
     }
 
-    // Timeout after 15 seconds
+    // Reduced timeout - 5 seconds instead of 15
     const timeout = setTimeout(() => {
       if (isLoading) {
-        setError('Таймаут: не удалось подключиться к VK за 15 секунд. Проверьте интернет-соединение.');
+        setError('Таймаут: не удалось подключиться к VK. Нажмите "Пропустить" для продолжения.');
         setIsLoading(false);
       }
-    }, 15000);
+    }, 5000);
 
     // Load VK Bridge script
     const script = document.createElement('script');
@@ -115,8 +120,14 @@ export default function VKBridge() {
     setRetryCount(prev => prev + 1);
   };
 
-  // Don't render anything if not in VK
-  if (!isVK) {
+  const handleSkip = () => {
+    setSkipped(true);
+    setIsLoading(false);
+    setError(null);
+  };
+
+  // Don't render anything if not in VK or if skipped
+  if (!isVK || skipped) {
     return null;
   }
 
@@ -127,7 +138,13 @@ export default function VKBridge() {
         <div className="text-center p-8">
           <div className="w-16 h-16 border-4 border-white/30 border-t-white rounded-full animate-spin mx-auto mb-4"></div>
           <h2 className="text-2xl font-bold text-white mb-2">ИНЕТШКОЛА</h2>
-          <p className="text-purple-200">Загрузка VK Mini App...</p>
+          <p className="text-purple-200 mb-4">Загрузка VK Mini App...</p>
+          <button
+            onClick={handleSkip}
+            className="px-4 py-2 bg-white/10 hover:bg-white/20 text-white/70 hover:text-white rounded-lg text-sm transition-colors"
+          >
+            Пропустить
+          </button>
         </div>
       </div>
     );
@@ -141,12 +158,20 @@ export default function VKBridge() {
           <div className="text-6xl mb-4">😕</div>
           <h2 className="text-xl font-bold text-white mb-2">Ошибка соединения</h2>
           <p className="text-purple-200 mb-4">{error}</p>
-          <button
-            onClick={handleRetry}
-            className="px-6 py-3 bg-purple-500 hover:bg-purple-400 text-white rounded-xl font-semibold transition-colors"
-          >
-            Попробовать снова
-          </button>
+          <div className="flex gap-3 justify-center flex-wrap">
+            <button
+              onClick={handleRetry}
+              className="px-6 py-3 bg-purple-500 hover:bg-purple-400 text-white rounded-xl font-semibold transition-colors"
+            >
+              Попробовать снова
+            </button>
+            <button
+              onClick={handleSkip}
+              className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-xl font-semibold transition-colors"
+            >
+              Пропустить
+            </button>
+          </div>
           <p className="text-purple-300/50 text-sm mt-4">
             Если проблема повторяется, проверьте интернет-соединение
           </p>
