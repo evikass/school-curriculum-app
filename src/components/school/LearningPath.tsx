@@ -95,8 +95,8 @@ export default function LearningPath() {
   const earnedXp = pathNodes.filter(n => progress.completedTopics[n.id]).reduce((sum, n) => sum + n.xpReward, 0)
 
   return (
-    <div className="w-full max-w-2xl mx-auto p-6 rounded-3xl bg-gradient-to-br from-violet-500/20 to-purple-500/20 
-      border-2 border-violet-400/30 backdrop-blur-sm">
+    <div className="w-full max-w-2xl mx-auto p-6 rounded-3xl bg-gradient-to-br from-violet-600/90 to-purple-600/90 
+      border-2 border-violet-400/50">
       
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
