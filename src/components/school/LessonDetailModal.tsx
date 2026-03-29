@@ -281,23 +281,8 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                 >
                   Закрыть
                 </button>
-                
-                {/* Кнопка Тест - всегда видна */}
-                <button
-                  onClick={() => {
-                    onClose()
-                    onStartQuiz && onStartQuiz()
-                  }}
-                  className="flex-1 py-3 bg-gradient-to-r from-purple-500 to-indigo-500 
-                            hover:from-purple-600 hover:to-indigo-600
-                            text-white rounded-xl font-medium transition-colors
-                            flex items-center justify-center gap-2"
-                >
-                  <Gamepad2 className="w-5 h-5" />
-                  Тест
-                </button>
 
-                {/* Статус теста */}
+                {/* Статус теста - кликабельный, запускает тест */}
                 {isTestCompleted ? (
                   <button
                     disabled
@@ -310,29 +295,17 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                   </button>
                 ) : (
                   <button
-                    disabled
-                    className="flex-1 py-3 bg-gray-500/50 
-                              text-white/70 rounded-xl font-medium 
-                              flex items-center justify-center gap-2 cursor-default"
+                    onClick={() => {
+                      onClose()
+                      onStartQuiz && onStartQuiz()
+                    }}
+                    className="flex-1 py-3 bg-gray-500/50 hover:bg-gray-500/70
+                              text-white/70 hover:text-white rounded-xl font-medium transition-colors
+                              flex items-center justify-center gap-2"
                   >
                     🔒 Не пройдено
                   </button>
                 )}
-
-                {/* Кнопка Понял */}
-                <button
-                  onClick={() => {
-                    onComplete()
-                    onClose()
-                  }}
-                  className="flex-1 py-3 bg-gradient-to-r from-yellow-500 to-orange-500 
-                            hover:from-yellow-600 hover:to-orange-600
-                            text-white rounded-xl font-medium transition-colors
-                            flex items-center justify-center gap-2"
-                >
-                  <Award className="w-5 h-5" />
-                  Понял! +5⭐
-                </button>
               </div>
             </div>
           </motion.div>
