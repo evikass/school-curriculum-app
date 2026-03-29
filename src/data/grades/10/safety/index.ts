@@ -1,7 +1,7 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
 export const lessons: SubjectData = {
-  title: "Основы безопасности",
+  title: "ОБЖ",
   icon: "Shield",
   color: "text-slate-400",
   topics: [
@@ -383,7 +383,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Личная безопасность",
-    subject: "Основы безопасности",
+    subject: "ОБЖ",
     icon: "User",
     color: "text-slate-400",
     tasks: [
@@ -397,7 +397,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Пожарная безопасность",
-    subject: "Основы безопасности",
+    subject: "ОБЖ",
     icon: "Flame",
     color: "text-slate-400",
     tasks: [
@@ -411,7 +411,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Чрезвычайные ситуации",
-    subject: "Основы безопасности",
+    subject: "ОБЖ",
     icon: "AlertTriangle",
     color: "text-slate-400",
     tasks: [
@@ -425,7 +425,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Первая помощь",
-    subject: "Основы безопасности",
+    subject: "ОБЖ",
     icon: "Heart",
     color: "text-slate-400",
     tasks: [
@@ -439,7 +439,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Безопасность в быту",
-    subject: "Основы безопасности",
+    subject: "ОБЖ",
     icon: "Home",
     color: "text-slate-400",
     tasks: [

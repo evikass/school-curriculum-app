@@ -5,7 +5,7 @@ const L = (title: string, description: string, tasks: string[], image?: string, 
 })
 
 export const lessons: SubjectData = {
-  title: "Основы безопасности жизнедеятельности",
+  title: "ОБЖ",
   icon: "Shield",
   color: "text-slate-400",
   topics: ["Безопасность в повседневной жизни", "Чрезвычайные ситуации", "Гражданская оборона", "Здоровый образ жизни"],

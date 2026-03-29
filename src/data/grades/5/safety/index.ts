@@ -3,7 +3,7 @@ import { SubjectData, GameLesson } from '@/data/types'
 const L = (title: string, description: string, tasks: string[]) => ({ title, description, tasks, theory: description })
 
 export const lessons: SubjectData = {
-  title: "Основы безопасности",
+  title: "ОБЖ",
   icon: "Shield",
   color: "text-slate-400",
   topics: ["Безопасность на дорогах", "Пожарная безопасность", "Безопасность в быту", "Экстремальные ситуации"],
@@ -1442,7 +1442,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Безопасность на дорогах",
-    subject: "Основы безопасности",
+    subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
     tasks: [
@@ -1455,7 +1455,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Пожарная безопасность",
-    subject: "Основы безопасности",
+    subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
     tasks: [
@@ -1468,7 +1468,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Безопасность в быту",
-    subject: "Основы безопасности",
+    subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
     tasks: [
@@ -1481,7 +1481,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Первая помощь",
-    subject: "Основы безопасности",
+    subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
     tasks: [

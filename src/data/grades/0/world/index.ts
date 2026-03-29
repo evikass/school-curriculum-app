@@ -188,7 +188,7 @@ export const lessons: SubjectData = {
         {
           title: "Урок 4: Правила безопасности",
           image: "/school-curriculum-app/images/lessons/grade0/world/lesson4-nature.svg",
-          description: `**Основы безопасности**
+          description: `**ОБЖ**
 
 Безопасность — это защита от опасностей. Важно знать правила, чтобы не попасть в беду.
 
