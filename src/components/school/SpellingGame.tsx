@@ -16,7 +16,7 @@ interface SpellingWord {
 const SPELLING_WORDS: SpellingWord[] = [
   // Easy - простые правила
   { word: 'жи-ши пиши с буквой и', correctSpelling: 'машина', wrongSpelling: 'машины', rule: 'ЖИ-ШИ пиши с И', difficulty: 'easy' },
-  { word: 'ча-ща пиши с буквой а', correctSpelling: 'задача', wrongSpelling: 'задоча', rule: 'ЧА-ЩА пиши с А', difficulty: 'easy' },
+  { word: 'ча-ща пиши с буквой а', correctSpelling: 'задача', wrongSpelling: 'задачя', rule: 'ЧА-ЩА пиши с А', difficulty: 'easy' },
   { word: 'чу-щу пиши с буквой у', correctSpelling: 'щука', wrongSpelling: 'щака', rule: 'ЧУ-ЩУ пиши с У', difficulty: 'easy' },
   { word: 'безударная гласная', correctSpelling: 'вода', wrongSpelling: 'вада', rule: 'Проверяемая гласная: воды', difficulty: 'easy' },
   { word: 'парный согласный', correctSpelling: 'дуб', wrongSpelling: 'дуп', rule: 'Проверочное слово: дубы', difficulty: 'easy' },
