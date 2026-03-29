@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Знакомство с пластилином",
-          image: "/images/lessons/grade0/craft/lesson1-modeling.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/craft/lesson1-modeling.svg",
           description: `**Первые шаги в лепке**
 
 Пластилин — это удивительный материал! Из него можно создавать любые формы и фигурки. Он мягкий, податливый и бывает разных цветов.
@@ -65,7 +65,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Простые формы",
-          image: "/images/lessons/grade0/craft/lesson2-modeling.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/craft/lesson2-modeling.svg",
           description: `**Шар, куб, конус**
 
 Сегодня мы научимся лепить основные формы — это основа всех фигурок!
@@ -131,7 +131,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Животные из пластилина",
-          image: "/images/lessons/grade0/craft/lesson3-modeling.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/craft/lesson3-modeling.svg",
           description: `**Простые животные**
 
 Сегодня мы слепим забавных животных! Используем простые формы — шарики и колбаски.
@@ -187,7 +187,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Фрукты и овощи",
-          image: "/images/lessons/grade0/craft/lesson4-modeling.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/craft/lesson4-modeling.svg",
           description: `**Лепим еду**
 
 Сегодня мы слепим вкусные фрукты и овощи! Они яркие и красивые.
@@ -259,7 +259,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Первая аппликация",
-          image: "/images/lessons/grade0/craft/lesson5-modeling.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/craft/lesson5-modeling.svg",
           description: `**Наклеиваем фигуры**
 
 Аппликация — это создание картинок из вырезанных и наклеенных фигур. Это очень интересное занятие!
@@ -319,7 +319,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Аппликация «Цветок»",
-          image: "/images/lessons/grade0/craft/lesson6-modeling.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/craft/lesson6-modeling.svg",
           description: `**Весенняя поделка**
 
 Сегодня мы создадим красивый весенний цветок! Это будет яркая аппликация.
@@ -375,7 +375,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Аппликация «Домик»",
-          image: "/images/lessons/grade0/craft/lesson7-crafts.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/craft/lesson7-crafts.svg",
           description: `**Из геометрических фигур**
 
 Сегодня мы построим домик из бумаги! Он будет состоять из геометрических фигур.
@@ -435,7 +435,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Аппликация «Дерево»",
-          image: "/images/lessons/grade0/craft/lesson8-crafts.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/craft/lesson8-crafts.svg",
           description: `**Осеннее дерево**
 
 Сегодня мы создадим красивое осеннее дерево с разноцветными листьями!
@@ -500,7 +500,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 9: Поделки из шишек",
-          image: "/images/lessons/grade0/craft/lesson9-crafts.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/craft/lesson9-crafts.svg",
           description: `**Лесные поделки**
 
 Шишки — отличный материал для поделок! Из них можно сделать много интересных фигурок.
@@ -565,7 +565,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 10: Поделки из желудей",
-          image: "/images/lessons/grade0/craft/lesson1-modeling.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/craft/lesson1-modeling.svg",
           description: `**Дубовые плоды**
 
 Жёлуди — это плоды дуба. Они маленькие, с красивой шапочкой, и отлично подходят для поделок!
@@ -638,7 +638,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 11: Аппликация из листьев",
-          image: "/images/lessons/grade0/craft/lesson1-modeling.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/craft/lesson1-modeling.svg",
           description: `**Осенние листья**
 
 Осенние листья — это краски природы! Из них получаются замечательные картины.
@@ -710,7 +710,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 12: Камешки и ракушки",
-          image: "/images/lessons/grade0/craft/lesson1-modeling.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/craft/lesson1-modeling.svg",
           description: `**Морские поделки**
 
 Камешки и ракушки — сокровища с морского берега! Из них можно создавать красивые поделки.

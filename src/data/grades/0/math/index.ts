@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Счёт до 5",
-          image: "/images/lessons/grade0/math/lesson1-counting-1-5.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/math/lesson1-counting-1-5.svg",
           description: `**Знакомство со счётом предметов**
 
 Сегодня мы научимся считать предметы до 5! Счёт — это умение называть числа по порядку и определять количество предметов.
@@ -40,7 +40,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Счёт до 10",
-          image: "/images/lessons/grade0/math/lesson2-counting-6-10.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/math/lesson2-counting-6-10.svg",
           description: `**Продолжаем счёт — числа от 6 до 10**
 
 Теперь мы знаем счёт до 5. Пора познакомиться с числами 6, 7, 8, 9, 10!
@@ -74,7 +74,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Цифры 1-5",
-          image: "/images/lessons/grade0/math/lesson3-digits-1-5.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/math/lesson3-digits-1-5.svg",
           description: `**Знакомство с цифрами**
 
 Цифра — это знак, которым записывают число. Сегодня мы выучим цифры от 1 до 5.
@@ -112,7 +112,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Цифры 6-9 и 0",
-          image: "/images/lessons/grade0/math/lesson4-digits-6-9-0.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/math/lesson4-digits-6-9-0.svg",
           description: `**Продолжаем изучать цифры**
 
 Сегодня выучим цифры 6, 7, 8, 9 и особенную цифру 0.
@@ -155,7 +155,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Сравнение групп",
-          image: "/images/lessons/grade0/math/lesson5-comparison.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/math/lesson5-comparison.svg",
           description: `**Больше, меньше, равно**
 
 Сегодня научимся сравнивать группы предметов!
@@ -197,7 +197,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Геометрические фигуры",
-          image: "/images/lessons/grade0/math/lesson6-shapes.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/math/lesson6-shapes.svg",
           description: `**Знакомство с геометрическими фигурами**
 
 Геометрические фигуры — это формы предметов. Давай их изучим!
@@ -239,7 +239,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Счёт в пределах 10",
-          image: "/images/lessons/grade0/math/lesson7-counting-10.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/math/lesson7-counting-10.svg",
           description: `**Закрепление счёта до 10**
 
 Проверим, как ты научился считать!
@@ -275,7 +275,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Повторение",
-          image: "/images/lessons/grade0/math/lesson8-review.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/math/lesson8-review.svg",
           description: `**Проверка знаний**
 
 Сегодня мы повторим всё, что узнали!

@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Цвета радуги",
-          image: "/images/lessons/grade0/art/lesson1-colors.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/art/lesson1-colors.svg",
           description: `**Знакомство с цветами**
 
 Радуга — это удивительное природное явление! После дождя на небе можно увидеть красивую разноцветную дугу. В радуге 7 цветов, и их легко запомнить.
@@ -46,7 +46,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Красный, жёлтый, синий",
-          image: "/images/lessons/grade0/art/lesson2-colors.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/art/lesson2-colors.svg",
           description: `**Три основных цвета**
 
 Среди всех цветов есть три особенных — их называют ОСНОВНЫМИ. Из них можно получить все остальные цвета!
@@ -86,7 +86,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Смешивание цветов",
-          image: "/images/lessons/grade0/art/lesson3-colors.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/art/lesson3-colors.svg",
           description: `**Волшебство смешивания**
 
 Сегодня мы узнаем, как из трёх основных цветов получать новые! Это как волшебство — смешиваешь два цвета и получаешь третий.
@@ -125,7 +125,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Тёплые и холодные цвета",
-          image: "/images/lessons/grade0/art/lesson4-colors.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/art/lesson4-colors.svg",
           description: `**Температура цвета**
 
 Цвета могут быть тёплыми и холодными! Это не значит, что они настоящие тёплые или холодные на ощупь. Это про ощущения и настроение.
@@ -174,7 +174,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Круг и овал",
-          image: "/images/lessons/grade0/art/lesson5-drawing.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/art/lesson5-drawing.svg",
           description: `**Круглые формы**
 
 Сегодня мы научимся рисовать круглые формы! Круг и овал — это формы без углов, их можно катить как мячик.
@@ -226,7 +226,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Квадрат и прямоугольник",
-          image: "/images/lessons/grade0/art/lesson6-drawing.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/art/lesson6-drawing.svg",
           description: `**Прямые формы**
 
 Квадрат и прямоугольник — это формы с прямыми сторонами и углами. Их нельзя катить как круг!
@@ -279,7 +279,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Треугольник",
-          image: "/images/lessons/grade0/art/lesson7-drawing.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/art/lesson7-drawing.svg",
           description: `**Форма с тремя углами**
 
 Треугольник — это фигура с тремя сторонами и тремя углами. Это самая простая фигура с углами!
@@ -325,7 +325,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Композиция из фигур",
-          image: "/images/lessons/grade0/art/lesson8-drawing.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/art/lesson8-drawing.svg",
           description: `**Создаём картинки из фигур**
 
 Сегодня мы научимся составлять целые картинки из простых фигур! Это как конструктор — собираем из частей целое.
@@ -380,7 +380,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 9: Листья деревьев",
-          image: "/images/lessons/grade0/art/lesson9-drawing.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/art/lesson9-drawing.svg",
           description: `**Осенние листья**
 
 Осень — это время, когда листья становятся разноцветными и падают на землю. Из них можно создавать красивые аппликации!
@@ -425,7 +425,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 10: Рисование красками",
-          image: "/images/lessons/grade0/art/lesson1-colors.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/art/lesson1-colors.svg",
           description: `**Акварель для малышей**
 
 Акварель — это нежные, прозрачные краски. Они разводятся водой и создают красивые, лёгкие рисунки.
@@ -473,7 +473,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 11: Пальчиковое рисование",
-          image: "/images/lessons/grade0/art/lesson1-colors.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/art/lesson1-colors.svg",
           description: `**Рисуем пальчиками!**
 
 Пальчиковое рисование — это самый весёлый способ рисования! Ты можешь рисовать прямо пальчиками, без кисточки.
@@ -525,7 +525,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 12: Свободное творчество",
-          image: "/images/lessons/grade0/art/lesson1-colors.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/art/lesson1-colors.svg",
           description: `**Рисуем что хотим!**
 
 Сегодня особенный урок — ты сам выбираешь, что рисовать! Это твоя фантазия и твоё творчество.

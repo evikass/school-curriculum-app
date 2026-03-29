@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Звуки вокруг нас",
-          image: "/images/lessons/grade0/music/lesson1-sounds.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/music/lesson1-sounds.svg",
           description: `**Звуки природы и дома**
 
 Мир полон звуков! Сегодня мы научимся слушать и различать звуки вокруг нас.
@@ -54,7 +54,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Громко и тихо",
-          image: "/images/lessons/grade0/music/lesson2-sounds.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/music/lesson2-sounds.svg",
           description: `**Динамика звука**
 
 Сегодня мы узнаем, что звуки бывают громкими и тихими. Это называется динамикой.
@@ -106,7 +106,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Быстро и медленно",
-          image: "/images/lessons/grade0/music/lesson3-sounds.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/music/lesson3-sounds.svg",
           description: `**Темп музыки**
 
 Сегодня мы узнаем, что музыка бывает быстрой и медленной. Скорость музыки называется темпом.
@@ -155,7 +155,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Высокие и низкие звуки",
-          image: "/images/lessons/grade0/music/lesson4-sounds.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/music/lesson4-sounds.svg",
           description: `**Высота звука**
 
 Сегодня мы узнаем, что звуки бывают высокими и низкими. Это называется высотой звука.
@@ -206,7 +206,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Песня «В лесу родилась ёлочка»",
-          image: "/images/lessons/grade0/music/lesson5-sounds.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/music/lesson5-sounds.svg",
           description: `**Новогодняя песня**
 
 Сегодня мы выучим самую известную новогоднюю песню!
@@ -260,7 +260,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Песня «Антошка»",
-          image: "/images/lessons/grade0/music/lesson6-sounds.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/music/lesson6-sounds.svg",
           description: `**Весёлая песня**
 
 Сегодня мы выучим весёлую песню про мальчика Антошку!
@@ -313,7 +313,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Песня «Кузнечик»",
-          image: "/images/lessons/grade0/music/lesson7-instruments.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/music/lesson7-instruments.svg",
           description: `**Песня про насекомое**
 
 Сегодня мы выучим песню про весёлого кузнечика!
@@ -369,7 +369,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Колыбельная",
-          image: "/images/lessons/grade0/music/lesson8-instruments.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/music/lesson8-instruments.svg",
           description: `**Спокойная песня**
 
 Сегодня мы познакомимся с колыбельной песней — песней для укладывания спать.
@@ -425,7 +425,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 9: Бубен и погремушка",
-          image: "/images/lessons/grade0/music/lesson9-instruments.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/music/lesson9-instruments.svg",
           description: `**Шумовые инструменты**
 
 Сегодня мы познакомимся с шумовыми музыкальными инструментами — бубном и погремушкой.
@@ -477,7 +477,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 10: Барабан",
-          image: "/images/lessons/grade0/music/lesson1-sounds.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/music/lesson1-sounds.svg",
           description: `**Ударный инструмент**
 
 Сегодня мы познакомимся с барабаном — главным ударным инструментом!
@@ -521,7 +521,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 11: Колокольчик",
-          image: "/images/lessons/grade0/music/lesson1-sounds.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/music/lesson1-sounds.svg",
           description: `**Звонкий инструмент**
 
 Сегодня мы познакомимся с колокольчиком — самым звонким инструментом!
@@ -564,7 +564,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 12: Оркестр",
-          image: "/images/lessons/grade0/music/lesson1-sounds.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/music/lesson1-sounds.svg",
           description: `**Много инструментов вместе**
 
 Сегодня мы узнаем, что такое оркестр — когда много инструментов играют вместе!

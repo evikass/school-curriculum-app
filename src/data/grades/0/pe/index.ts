@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Ходьба и бег",
-          image: "/images/lessons/grade0/pe/lesson1-exercise.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/pe/lesson1-exercise.svg",
           description: `**Учимся двигаться правильно**
 
 Движение — это жизнь! Сегодня мы научимся правильно ходить и бегать.
@@ -59,7 +59,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Прыжки",
-          image: "/images/lessons/grade0/pe/lesson2-exercise.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/pe/lesson2-exercise.svg",
           description: `**Прыгаем по-разному**
 
 Прыжки — это весело и полезно! Они делают ноги сильными и развивают координацию.
@@ -113,7 +113,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Наклоны и повороты",
-          image: "/images/lessons/grade0/pe/lesson3-exercise.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/pe/lesson3-exercise.svg",
           description: `**Упражнения для гибкости**
 
 Наклоны и повороты делают тело гибким и подвижным. Они полезны для спины и талии.
@@ -171,7 +171,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Приседания",
-          image: "/images/lessons/grade0/pe/lesson4-exercise.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/pe/lesson4-exercise.svg",
           description: `**Укрепляем ноги**
 
 Приседания — одно из лучших упражнений для ног! Они делают мышцы сильными и выносливыми.
@@ -233,7 +233,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Прятки",
-          image: "/images/lessons/grade0/pe/lesson5-exercise.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/pe/lesson5-exercise.svg",
           description: `**Игра в прятки**
 
 Прятки — это весёлая игра, где одни прячутся, а другие ищут! Игра развивает внимательность и умение тихо сидеть.
@@ -285,7 +285,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Догонялки",
-          image: "/images/lessons/grade0/pe/lesson6-exercise.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/pe/lesson6-exercise.svg",
           description: `**Бегаем друг за другом**
 
 Догонялки — это весёлая игра с бегом! Нужно убегать от догоняющего и не попадаться.
@@ -333,7 +333,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Эстафета",
-          image: "/images/lessons/grade0/pe/lesson7-games.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/pe/lesson7-games.svg",
           description: `**Передаём предметы**
 
 Эстафета — это командная игра, где игроки по очереди выполняют задания и передают друг другу предметы.
@@ -388,7 +388,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Игры с мячом",
-          image: "/images/lessons/grade0/pe/lesson8-games.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/pe/lesson8-games.svg",
           description: `**Учимся работать с мячом**
 
 Мяч — отличный спортивный снаряд! С ним можно играть по-разному: бросать, ловить, вести, забивать.
@@ -451,7 +451,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 9: Разминка",
-          image: "/images/lessons/grade0/pe/lesson9-games.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/pe/lesson9-games.svg",
           description: `**Готовимся к занятию**
 
 Разминка — это обязательная часть любого занятия спортом. Она разогревает мышцы и готовит тело к нагрузке.
@@ -511,7 +511,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 10: Упражнения",
-          image: "/images/lessons/grade0/pe/lesson1-exercise.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/pe/lesson1-exercise.svg",
           description: `**Делаем зарядку**
 
 Зарядка — это упражнения для всего тела! Она помогает проснуться, стать бодрым и сильным.
@@ -578,7 +578,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 11: Равновесие",
-          image: "/images/lessons/grade0/pe/lesson1-exercise.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/pe/lesson1-exercise.svg",
           description: `**Стоим устойчиво**
 
 Равновесие — это умение держать тело в устойчивом положении. Оно важно для многих видов спорта и повседневной жизни.
@@ -641,7 +641,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 12: Дыхание",
-          image: "/images/lessons/grade0/pe/lesson1-exercise.svg",
+          image: "/school-curriculum-app/images/lessons/grade0/pe/lesson1-exercise.svg",
           description: `**Дышим правильно**
 
 Правильное дыхание — основа здоровья! Когда мы дышим правильно, организм получает больше кислорода.
