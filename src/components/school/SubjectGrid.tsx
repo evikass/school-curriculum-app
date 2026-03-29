@@ -57,8 +57,15 @@ export default function SubjectGrid() {
     <div className="w-full animate-slideIn">
       {/* Title */}
       <div className="text-center mb-4">
-        <h2 className="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300 mb-3">
-          {selectedClass === 0 ? '🎒 Подготовишки' : `📚 ${selectedClass} класс`}
+        <h2 className="text-3xl md:text-5xl font-black mb-3">
+          {selectedClass === 0 ? (
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300">🎒 Подготовишки</span>
+          ) : (
+            <>
+              <span>📚</span>{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300">{selectedClass} класс</span>
+            </>
+          )}
         </h2>
         <p className="text-xl text-purple-200">
           Выбери предмет для изучения! ✨
