@@ -1,7 +1,7 @@
 'use client'
 
 import { useSchool } from '@/context/SchoolContext'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { ArrowLeft, Gamepad2, Star, Trophy, CheckCircle, XCircle, Circle, Clock, Zap, Link2, Lightbulb, HelpCircle } from 'lucide-react'
 import Confetti from './Confetti'
 import { useSound } from '@/lib/sounds'
@@ -16,6 +16,7 @@ export default function Gameplay() {
   const [answerState, setAnswerState] = useState<AnswerState>('idle')
   const [showResults, setShowResults] = useState(false)
   const [score, setScore] = useState(0)
+  const [finalScore, setFinalScore] = useState(0)
   const [combo, setCombo] = useState(0)
   const [timer, setTimer] = useState(0)
   const [timedMode, setTimedMode] = useState(false)
@@ -26,6 +27,9 @@ export default function Gameplay() {
   const [showHint, setShowHint] = useState(false)
   const [hintsUsed, setHintsUsed] = useState(0)
   const { playCorrect, playWrong, playAchievement, playStreak } = useSound()
+  
+  // Ref для точного подсчёта правильных ответов (исправляет баг с достижением "Идеально!")
+  const correctAnswersRef = useRef(0)
 
   const level = calculateLevel(progress.totalPoints)
   const rank = getRank(level)
@@ -62,6 +66,7 @@ export default function Gameplay() {
       setAnswerState('correct')
       playCorrect()
       setCombo(c => c + 1)
+      correctAnswersRef.current += 1
       const bonus = Math.min(combo, 5) * XP_REWARDS.CORRECT_ANSWER
       addPoints(XP_REWARDS.CORRECT_ANSWER + bonus)
     } else {
@@ -88,6 +93,7 @@ export default function Gameplay() {
       setAnswerState('correct')
       playCorrect()
       setCombo(c => c + 1)
+      correctAnswersRef.current += 1
       addPoints(XP_REWARDS.CORRECT_ANSWER * 2)
     } else {
       setAnswerState('incorrect')
@@ -104,6 +110,7 @@ export default function Gameplay() {
       setAnswerState('correct')
       playCorrect()
       setCombo(c => c + 1)
+      correctAnswersRef.current += 1
       addPoints(XP_REWARDS.CORRECT_ANSWER * 2)
     } else {
       setAnswerState('incorrect')
@@ -128,6 +135,7 @@ export default function Gameplay() {
       setAnswerState('correct')
       playCorrect()
       setCombo(c => c + 1)
+      correctAnswersRef.current += 1
       addPoints(XP_REWARDS.CORRECT_ANSWER * 2)
     } else {
       setAnswerState('incorrect')
@@ -153,19 +161,20 @@ export default function Gameplay() {
   }
 
   const finishGame = () => {
-    const finalScore = answerState === 'correct' ? score + 1 : score
+    const score = correctAnswersRef.current
+    setFinalScore(score)
     setShowResults(true)
     
-    if (finalScore === totalTasks) {
+    if (score === totalTasks) {
       playAchievement()
       unlockAchievement('perfect_game')
       addPoints(XP_REWARDS.PERFECT_GAME)
     }
     
-    recordGameResult(finalScore, totalTasks, selectedGame.subject)
+    recordGameResult(score, totalTasks, selectedGame.subject)
     
     // Если игра запущена из урока и пройдена хотя бы на 50%, помечаем тест как пройденный
-    if (gameFromLesson && selectedLesson && finalScore >= totalTasks * 0.5) {
+    if (gameFromLesson && selectedLesson && score >= totalTasks * 0.5) {
       markLessonTestCompleted(selectedLesson.title)
     }
     
@@ -179,20 +188,22 @@ export default function Gameplay() {
     setAnswers({})
     setShowResults(false)
     setScore(0)
+    setFinalScore(0)
     setCombo(0)
     setAnswerState('idle')
     setTimer(0)
     setMatchedPairs([])
     setSelectedLeft(null)
+    correctAnswersRef.current = 0
   }
 
   // Results screen
   if (showResults) {
-    const percentage = totalTasks > 0 ? Math.round((score / totalTasks) * 100) : 0
+    const percentage = totalTasks > 0 ? Math.round((finalScore / totalTasks) * 100) : 0
 
     return (
       <>
-        {score >= totalTasks * 0.5 && <Confetti />}
+        {finalScore >= totalTasks * 0.5 && <Confetti />}
         <div className="w-full max-w-2xl mx-auto">
           <div className="text-center p-8 rounded-3xl bg-gradient-to-br from-purple-600/60 to-pink-600/60 border-4 border-white/20 animate-bounceIn">
             <Trophy className="w-20 h-20 text-yellow-400 mx-auto mb-6 animate-float" />
@@ -202,7 +213,7 @@ export default function Gameplay() {
           
             <div className="flex justify-center gap-8 mb-8">
               <div className="text-center">
-                <div className="text-5xl font-black text-green-400">{score}</div>
+                <div className="text-5xl font-black text-green-400">{finalScore}</div>
                 <div className="text-white/70">Правильно</div>
               </div>
               <div className="text-center">
@@ -210,14 +221,14 @@ export default function Gameplay() {
                 <div className="text-white/70">Результат</div>
               </div>
               <div className="text-center">
-                <div className="text-5xl font-black text-yellow-400">{Math.round(score * XP_REWARDS.CORRECT_ANSWER)}</div>
+                <div className="text-5xl font-black text-yellow-400">{Math.round(finalScore * XP_REWARDS.CORRECT_ANSWER)}</div>
                 <div className="text-white/70">XP</div>
               </div>
             </div>
 
             <div className="flex justify-center gap-2 mb-6">
               {Array.from({ length: selectedGame.reward?.stars || 0 }).map((_, i) => (
-                <Star key={i} className={`w-10 h-10 text-yellow-400 fill-yellow-400 ${i < score ? 'animate-bounce' : 'opacity-30'}`} 
+                <Star key={i} className={`w-10 h-10 text-yellow-400 fill-yellow-400 ${i < finalScore ? 'animate-bounce' : 'opacity-30'}`} 
                   style={{ animationDelay: `${i * 0.1}s` }} />
               ))}
             </div>
@@ -528,6 +539,7 @@ export default function Gameplay() {
                               if (matchedPairs.length + 2 >= leftItems.length * 2) {
                                 setAnswerState('correct')
                                 setCombo(c => c + 1)
+                                correctAnswersRef.current += 1
                               }
                             } else {
                               playWrong()
