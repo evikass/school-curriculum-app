@@ -519,33 +519,31 @@ export default function KidLessonViewer() {
         </p>
       </div>
 
-      {/* Кнопка Назад слева (по краю блока уроков), Игры по центру */}
-      <div className="relative flex justify-center mb-8 h-14">
-        {/* Кнопка Назад - по левому краю max-w-4xl контейнера */}
-        <div className="w-full max-w-4xl absolute left-1/2 -translate-x-1/2 px-4">
+      {/* Кнопка Назад слева, Игры справа */}
+      <div className="flex justify-center mb-8">
+        <div className="w-full max-w-4xl px-4 flex items-center gap-4">
           <button
             onClick={goBack}
-            className="flex items-center gap-2 text-white text-lg font-bold 
-                       bg-white/20 hover:bg-white/30 px-5 py-3 rounded-2xl transition-all"
+            className="flex items-center gap-2 text-white text-base md:text-lg font-bold 
+                       bg-white/20 hover:bg-white/30 px-4 md:px-5 py-2.5 md:py-3 rounded-2xl transition-all"
           >
-            <ArrowLeft className="w-5 h-5" /> Назад
+            <ArrowLeft className="w-4 h-4 md:w-5 md:h-5" /> Назад
           </button>
+          
+          {games.length > 0 && (
+            <button
+              onClick={() => setShowGames(true)}
+              className="px-4 md:px-5 py-2.5 md:py-3 text-base md:text-lg font-bold 
+                         bg-gradient-to-r from-green-500 to-teal-500 
+                         hover:from-green-400 hover:to-teal-400
+                         text-white rounded-2xl transition-all hover:scale-105 
+                         flex items-center gap-2"
+            >
+              <Gamepad2 className="w-4 h-4 md:w-5 md:h-5" />
+              Игры ({games.length})
+            </button>
+          )}
         </div>
-        
-        {/* Кнопка Игры - по центру экрана */}
-        {games.length > 0 && (
-          <button
-            onClick={() => setShowGames(true)}
-            className="absolute left-1/2 -translate-x-1/2 px-5 py-3 text-lg font-bold 
-                       bg-gradient-to-r from-green-500 to-teal-500 
-                       hover:from-green-400 hover:to-teal-400
-                       text-white rounded-2xl transition-all hover:scale-105 
-                       flex items-center gap-2"
-          >
-            <Gamepad2 className="w-5 h-5" />
-            Игры ({games.length})
-          </button>
-        )}
       </div>
 
       <div className="space-y-4 max-w-4xl mx-auto">
