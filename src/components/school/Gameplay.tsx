@@ -222,7 +222,9 @@ export default function Gameplay() {
               ))}
             </div>
 
-            <p className="text-xl text-white/90 mb-8">{selectedGame.reward?.message || 'Отлично!'}</p>
+            {percentage >= 50 && (
+              <p className="text-xl text-white/90 mb-8">{selectedGame.reward?.message || 'Отлично!'}</p>
+            )}
 
             {timedMode && (
               <p className="text-lg text-cyan-300 mb-4">⏱ Время: {Math.floor(timer / 60)}:{(timer % 60).toString().padStart(2, '0')}</p>
