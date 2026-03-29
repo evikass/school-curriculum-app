@@ -149,10 +149,14 @@ function updateStreakCalendar(points: number, isLesson: boolean, isGame: boolean
       }
     }
     
-    streakData[today].hasActivity = true
     streakData[today].points = (streakData[today].points || 0) + points
     if (isLesson) streakData[today].lessons = (streakData[today].lessons || 0) + 1
     if (isGame) streakData[today].games = (streakData[today].games || 0) + 1
+    
+    // hasActivity только если есть уроки или игры (не просто бонус за вход)
+    if (isLesson || isGame) {
+      streakData[today].hasActivity = true
+    }
     
     localStorage.setItem('streakCalendar', JSON.stringify(streakData))
   } catch {
