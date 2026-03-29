@@ -14,7 +14,7 @@ const lessons: SubjectData = {
   detailedTopics: [
     {
       id: 'crafts-5-1',
-      title: 'Лепка из глины',
+      topic: 'Лепка из глины',
       description: 'Искусство работы с глиной',
       lessons: [
         {
@@ -45,7 +45,7 @@ const lessons: SubjectData = {
     },
     {
       id: 'crafts-5-2',
-      title: 'Роспись по дереву',
+      topic: 'Роспись по дереву',
       description: 'Традиционные техники росписи',
       lessons: [
         {
@@ -76,7 +76,7 @@ const lessons: SubjectData = {
     },
     {
       id: 'crafts-5-3',
-      title: 'Бисероплетение',
+      topic: 'Бисероплетение',
       description: 'Искусство создания украшений из бисера',
       lessons: [
         {
@@ -107,7 +107,7 @@ const lessons: SubjectData = {
     },
     {
       id: 'crafts-5-4',
-      title: 'Народные промыслы',
+      topic: 'Народные промыслы',
       description: 'Изучение традиционных ремёсел России',
       lessons: [
         {
