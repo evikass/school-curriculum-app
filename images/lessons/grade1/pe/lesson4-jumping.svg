@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bgPE4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd"/>
+      <stop offset="100%" style="stop-color:#bbdefb"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgPE4)"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="220" width="400" height="80" fill="#90caf9"/>
+  
+  <!-- Title -->
+  <text x="200" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1565c0">Прыжки</text>
+  
+  <!-- Jump in place -->
+  <g transform="translate(80, 150)">
+    <text x="0" y="-55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0d47a1">Прыжок на месте</text>
+    <ellipse cx="0" cy="0" rx="15" ry="25" fill="#4caf50"/>
+    <circle cx="0" cy="-35" r="15" fill="#ffcc80"/>
+    <ellipse cx="0" cy="-45" rx="12" ry="8" fill="#5d4037"/>
+    <circle cx="-4" cy="-38" r="2" fill="#333"/>
+    <circle cx="4" cy="-38" r="2" fill="#333"/>
+    <!-- Bent knees for jump -->
+    <ellipse cx="-8" cy="28" rx="8" ry="5" fill="#2e7d32"/>
+    <ellipse cx="8" cy="28" rx="8" ry="5" fill="#2e7d32"/>
+    <!-- Jumping animation -->
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-30;0,0" dur="0.8s" repeatCount="indefinite"/>
+  </g>
+  
+  <!-- Long jump -->
+  <g transform="translate(200, 150)">
+    <text x="0" y="-55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0d47a1">Прыжок в длину</text>
+    <!-- Body in flight -->
+    <ellipse cx="0" cy="0" rx="15" ry="25" fill="#ff9800" transform="rotate(-20)"/>
+    <circle cx="8" cy="-35" r="15" fill="#ffcc80"/>
+    <ellipse cx="8" cy="-45" rx="12" ry="8" fill="#5d4037"/>
+    <circle cx="4" cy="-38" r="2" fill="#333"/>
+    <circle cx="12" cy="-38" r="2" fill="#333"/>
+    <!-- Arms back -->
+    <ellipse cx="-20" cy="5" rx="8" ry="5" fill="#ff9800" transform="rotate(-30 -20 5)"/>
+    <ellipse cx="-15" cy="15" rx="8" ry="5" fill="#ff9800" transform="rotate(30 -15 15)"/>
+    <!-- Legs stretched -->
+    <rect x="-5" y="20" width="6" height="30" rx="2" fill="#e65100" transform="rotate(30 -2 35)"/>
+    <rect x="0" y="20" width="6" height="30" rx="2" fill="#e65100" transform="rotate(-30 3 35)"/>
+    <!-- Flight arc -->
+    <animateTransform attributeName="transform" type="translate" values="-30,20;0,-20;30,20" dur="1.2s" repeatCount="indefinite"/>
+  </g>
+  
+  <!-- High jump -->
+  <g transform="translate(320, 140)">
+    <text x="0" y="-75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0d47a1">Прыжок в высоту</text>
+    <!-- Bar -->
+    <rect x="-30" y="-20" width="60" height="4" fill="#e53935"/>
+    <rect x="-35" y="-25" width="6" height="70" fill="#bdbdbd"/>
+    <rect x="29" y="-25" width="6" height="70" fill="#bdbdbd"/>
+    <!-- Body over bar -->
+    <ellipse cx="0" cy="-30" rx="12" ry="20" fill="#9c27b0" transform="rotate(90)"/>
+    <circle cx="-25" cy="-30" r="12" fill="#ffcc80"/>
+    <ellipse cx="-25" cy="-40" rx="10" ry="7" fill="#8d6e63"/>
+    <!-- Arms up -->
+    <ellipse cx="-10" cy="-45" rx="6" ry="4" fill="#9c27b0"/>
+    <ellipse cx="-40" cy="-45" rx="6" ry="4" fill="#9c27b0"/>
+    <!-- Jump animation -->
+    <animateTransform attributeName="transform" type="translate" values="0,40;0,0;0,40" dur="1.5s" repeatCount="indefinite"/>
+  </g>
+  
+  <!-- Landing mat -->
+  <rect x="280" y="200" width="80" height="20" rx="5" fill="#81c784"/>
+  
+  <!-- Arrow showing jump direction -->
+  <g transform="translate(200, 250)">
+    <path d="M-60 0 L-30 -15 L-30 -5 L60 -5 L60 5 L-30 5 L-30 15 Z" fill="#1565c0" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Motion trails -->
+  <g stroke="#64b5f6" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M50 180 Q80 150 110 180">
+      <animate attributeName="d" values="M50 180 Q80 150 110 180;M50 180 Q80 120 110 180;M50 180 Q80 150 110 180" dur="0.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Spring coils for jump visualization -->
+  <g transform="translate(80, 200)">
+    <path d="M-8 0 Q-12 10 -8 20 Q-4 30 -8 40 Q-12 50 -8 60" stroke="#4caf50" stroke-width="3" fill="none">
+      <animate attributeName="d" values="M-8 0 Q-12 10 -8 20 Q-4 30 -8 40 Q-12 50 -8 60;M-8 0 Q-4 10 -8 20 Q-12 30 -8 40 Q-4 50 -8 60;M-8 0 Q-12 10 -8 20 Q-4 30 -8 40 Q-12 50 -8 60" dur="0.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Label -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0d47a1">Прыжковые упражнения</text>
+</svg>

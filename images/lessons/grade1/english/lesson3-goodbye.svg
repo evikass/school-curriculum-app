@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec"/>
+      <stop offset="100%" style="stop-color:#f8bbd9"/>
+    </linearGradient>
+    <linearGradient id="sunset" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff8a65"/>
+      <stop offset="50%" style="stop-color:#ffab91"/>
+      <stop offset="100%" style="stop-color:#ffccbc"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGrad3)"/>
+  
+  <!-- Sunset sky gradient -->
+  <rect y="0" width="400" height="180" fill="url(#sunset)" opacity="0.4"/>
+  
+  <!-- Setting sun -->
+  <g transform="translate(200, 140)">
+    <circle r="40" fill="#ff7043">
+      <animate attributeName="cy" values="0;5;0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="35" fill="#ffab91" opacity="0.5"/>
+  </g>
+  
+  <!-- Child waving goodbye -->
+  <g transform="translate(100, 160)">
+    <!-- Body -->
+    <ellipse cx="0" cy="55" rx="22" ry="30" fill="#42a5f5"/>
+    <!-- Head -->
+    <circle cx="0" cy="8" r="22" fill="#ffcc80"/>
+    <!-- Hair -->
+    <ellipse cx="0" cy="-5" rx="18" ry="12" fill="#5d4037"/>
+    <!-- Eyes -->
+    <path d="M-8 5 Q-5 9 -2 5" stroke="#333" stroke-width="2" fill="none"/>
+    <path d="M2 5 Q5 9 8 5" stroke="#333" stroke-width="2" fill="none"/>
+    <!-- Smile -->
+    <path d="M-6 15 Q0 21 6 15" stroke="#333" stroke-width="2" fill="none"/>
+    <!-- Waving arm -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-30;20;-30" dur="0.6s" repeatCount="indefinite"/>
+      <ellipse cx="30" cy="-25" rx="18" ry="7" fill="#ffcc80"/>
+      <circle cx="45" cy="-25" r="7" fill="#ffcc80"/>
+    </g>
+  </g>
+  
+  <!-- Speech bubble -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="1.5s" repeatCount="indefinite"/>
+    <ellipse cx="100" cy="70" rx="55" ry="30" fill="white" stroke="#e91e63" stroke-width="3"/>
+    <polygon points="120,95 110,115 130,95" fill="white" stroke="#e91e63" stroke-width="3"/>
+    <text x="100" y="75" text-anchor="middle" font-family="Comic Sans MS, cursive" font-size="20" font-weight="bold" fill="#c2185b">Goodbye!</text>
+  </g>
+  
+  <!-- Another child -->
+  <g transform="translate(280, 160)">
+    <!-- Body -->
+    <ellipse cx="0" cy="55" rx="22" ry="30" fill="#ab47bc"/>
+    <!-- Head -->
+    <circle cx="0" cy="8" r="22" fill="#ffcc80"/>
+    <!-- Hair -->
+    <path d="M-18 -5 Q0 -25 18 -5 Q10 5 0 0 Q-10 5 -18 -5" fill="#6d4c41"/>
+    <!-- Eyes -->
+    <path d="M-8 5 Q-5 9 -2 5" stroke="#333" stroke-width="2" fill="none"/>
+    <path d="M2 5 Q5 9 8 5" stroke="#333" stroke-width="2" fill="none"/>
+    <!-- Smile -->
+    <path d="M-6 15 Q0 21 6 15" stroke="#333" stroke-width="2" fill="none"/>
+    <!-- Waving arm -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="30;-20;30" dur="0.6s" repeatCount="indefinite"/>
+      <ellipse cx="-30" cy="-25" rx="18" ry="7" fill="#ffcc80"/>
+      <circle cx="-45" cy="-25" r="7" fill="#ffcc80"/>
+    </g>
+  </g>
+  
+  <!-- Speech bubble -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="1.5s" repeatCount="indefinite" begin="0.3s"/>
+    <ellipse cx="280" cy="70" rx="50" ry="28" fill="white" stroke="#9c27b0" stroke-width="3"/>
+    <polygon points="260,95 270,115 250,95" fill="white" stroke="#9c27b0" stroke-width="3"/>
+    <text x="280" y="75" text-anchor="middle" font-family="Comic Sans MS, cursive" font-size="20" font-weight="bold" fill="#7b1fa2">Bye-bye!</text>
+  </g>
+  
+  <!-- Birds flying away -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;-30,10;0,0" dur="3s" repeatCount="indefinite"/>
+    <path d="M320 50 Q325 45 330 50 Q335 45 340 50" stroke="#5d4037" stroke-width="2" fill="none"/>
+    <path d="M340 60 Q345 55 350 60 Q355 55 360 60" stroke="#5d4037" stroke-width="2" fill="none"/>
+    <path d="M330 70 Q335 65 340 70 Q345 65 350 70" stroke="#5d4037" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Hearts floating -->
+  <g fill="#f48fb1">
+    <path d="M50 100 C50 90 60 85 65 90 C70 85 80 90 80 100 C80 110 65 120 65 120 C65 120 50 110 50 100">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M350 130 C350 122 358 118 362 122 C366 118 374 122 374 130 C374 138 362 146 362 146 C362 146 350 138 350 130" transform="scale(0.7) translate(150, 50)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Ground with grass -->
+  <ellipse cx="200" cy="275" rx="180" ry="18" fill="#a5d6a7"/>
+  
+  <!-- Title -->
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#4a148c">Saying goodbye / Прощание</text>
+</svg>
