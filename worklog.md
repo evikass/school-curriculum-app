@@ -113,3 +113,28 @@ Stage Summary:
 - Все типы игр теперь имеют корректную кнопку проверки
 - Добавлена поддержка нескольких форматов данных для типа match
 - Деплой: https://evikass.github.io/school-curriculum-app/
+
+---
+Task ID: 26
+Agent: Main Agent
+Task: Исправление отображения полных уроков в 3 классе
+
+Work Log:
+- Выявлена проблема: KidLessonViewer отображал только поле `description` (короткое описание)
+  вместо полного содержания урока в поле `content` (markdown)
+- Обновлён интерфейс `LessonData` в SchoolContext.tsx:
+  - Добавлены поля: `image`, `content`, `examples`, `facts`
+- Обновлён интерфейс `LessonItem` в types.ts:
+  - Добавлено поле `content` для полного содержания урока
+- Исправлен KidLessonViewer.tsx:
+  - Изменено отображение контента: `content || description`
+  - Добавлен блок "Примеры" с cyan стилизацией
+  - Добавлен блок "Интересные факты" с purple стилизацией
+- LessonDetailModal.tsx уже корректно использовал поле `content`
+- Обновлена версия до v3.333
+
+Stage Summary:
+- Исправлено отображение полных уроков в 3 классе (и других классах)
+- Теперь уроки показывают полное содержание вместо короткого описания
+- Добавлены секции для примеров и интересных фактов
+- Деплой: https://evikass.github.io/school-curriculum-app/ (gh-pages branch)
