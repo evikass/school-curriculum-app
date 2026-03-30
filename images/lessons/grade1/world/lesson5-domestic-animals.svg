@@ -1,13 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  
+  <style>
+    @keyframes eat {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(3px); }
+    }
+    @keyframes wag {
+      0%, 100% { transform: rotate(-10deg); }
+      50% { transform: rotate(10deg); }
+    }
+    @keyframes moo {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .eat { animation: eat 1s ease-in-out infinite; }
+    .wag { animation: wag 0.5s ease-in-out infinite; transform-origin: left center; }
+    .moo { animation: moo 2s ease-in-out infinite; }
+  </style>
   <!-- Background - farm -->
   <rect width="400" height="400" fill="#fef3c7" rx="20"/>
   <!-- Sky -->
   <rect width="400" height="100" fill="#7dd3fc" rx="20"/>
   <!-- Sun -->
-  <circle cx="350" cy="40" r="25" fill="#fbbf24">
-    <animate attributeName="r" values="25;27;25" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="350" cy="40" r="25" fill="#fbbf24"/>
   <!-- Barn -->
   <g transform="translate(250, 60)">
     <polygon points="0,50 40,0 80,50" fill="#dc2626"/>
@@ -17,11 +31,9 @@
   <!-- Title -->
   <text x="200" y="30" font-size="16" fill="#166534" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">ДОМАШНИЕ ЖИВОТНЫЕ</text>
   <!-- Cow -->
-  <g transform="translate(20, 100)">
+  <g class="moo" transform="translate(20, 100)">
     <ellipse cx="50" cy="60" rx="40" ry="30" fill="#f5f5f4"/>
-    <circle cx="80" cy="45" r="22" fill="#f5f5f4">
-    <animate attributeName="r" values="22;24;22" dur="3s" repeatCount="indefinite"/>
-  </circle>
+    <circle cx="80" cy="45" r="22" fill="#f5f5f4"/>
     <ellipse cx="45" cy="60" rx="8" ry="6" fill="#1e293b"/>
     <ellipse cx="55" cy="55" rx="6" ry="5" fill="#1e293b"/>
     <ellipse cx="70" cy="65" rx="5" ry="4" fill="#1e293b"/>
@@ -42,7 +54,7 @@
     <text x="50" y="157" font-size="8" fill="#0369a1" text-anchor="middle" font-family="Arial, sans-serif">Даёт молоко</text>
   </g>
   <!-- Pig -->
-  <g transform="translate(130, 130)">
+  <g class="eat" transform="translate(130, 130)">
     <ellipse cx="30" cy="40" rx="28" ry="22" fill="#f9a8d4"/>
     <ellipse cx="30" cy="25" rx="18" ry="15" fill="#f9a8d4"/>
     <ellipse cx="30" cy="30" rx="8" ry="6" fill="#fda4af"/>
@@ -60,7 +72,7 @@
     <text x="30" y="102" font-size="8" fill="#0369a1" text-anchor="middle" font-family="Arial, sans-serif">Даёт мясо</text>
   </g>
   <!-- Chicken -->
-  <g style="animation-delay: 0.5s" transform="translate(240, 130)">
+  <g class="eat" style="animation-delay: 0.5s" transform="translate(240, 130)">
     <ellipse cx="25" cy="45" rx="20" ry="15" fill="#fef3c7"/>
     <circle cx="25" cy="25" r="15" fill="#fef3c7"/>
     <polygon points="25,20 35,25 25,30" fill="#f97316"/>
@@ -89,8 +101,7 @@
     <!-- Tongue -->
     <ellipse cx="52" cy="50" rx="5" ry="7" fill="#ec4899"/>
     <!-- Tail -->
-    <g>
-    <animateTransform attributeName="transform" type="rotate" values="0;360" dur="15s" repeatCount="indefinite"/>
+    <g class="wag">
       <path d="M 5 45 Q -10 30 -5 20" stroke="#a16207" stroke-width="8" fill="none" stroke-linecap="round"/>
     </g>
     <!-- Legs -->
@@ -121,7 +132,7 @@
     <text x="25" y="102" font-size="8" fill="#0369a1" text-anchor="middle" font-family="Arial, sans-serif">Ловит мышей</text>
   </g>
   <!-- Sheep -->
-  <g style="animation-delay: 1s" transform="translate(220, 250)">
+  <g class="moo" style="animation-delay: 1s" transform="translate(220, 250)">
     <ellipse cx="30" cy="50" rx="28" ry="20" fill="#f8fafc"/>
     <!-- Fluffy wool -->
     <circle cx="20" cy="45" r="10" fill="#f8fafc"/>

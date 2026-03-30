@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  
+  <defs>
+    <style>
+      @keyframes softPulse { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.05); opacity: 0.8; } }
+      @keyframes underline { 0%, 100% { stroke-dashoffset: 0; } 50% { stroke-dashoffset: 10; } }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      .soft { animation: softPulse 2s ease-in-out infinite; }
+      .word { animation: float 2.5s ease-in-out infinite; }
+    </style>
+  </defs>
   
   <!-- Background -->
   <rect width="500" height="350" fill="#f0fdf4"/>
@@ -14,24 +22,21 @@
   <!-- Comparison -->
   <rect x="20" y="110" width="220" height="80" fill="#fef3c7" rx="12"/>
   <text x="130" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#b45309">Без мягкого знака</text>
-  <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  <g class="word">
     <text x="80" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#d97706">КОН</text>
     <text x="150" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">— [н] твёрдый</text>
   </g>
   
   <rect x="260" y="110" width="220" height="80" fill="#ecfdf5" rx="12"/>
   <text x="370" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#059669">С мягким знаком</text>
-  <g style="animation-delay: 0.3s">
+  <g class="word" style="animation-delay: 0.3s">
     <text x="320" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#10b981">КОНЬ</text>
     <text x="400" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#047857">— [н'] мягкий</text>
   </g>
   
   <!-- Soft sign character -->
-  <g>
-    <circle cx="250" cy="230" r="25" fill="#8b5cf6">
-    <animate attributeName="r" values="25;27;25" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <g class="soft">
+    <circle cx="250" cy="230" r="25" fill="#8b5cf6"/>
     <text x="250" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="white">Ь</text>
   </g>
   <text x="250" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7c3aed">«Тихая» буква — не обозначает звука</text>

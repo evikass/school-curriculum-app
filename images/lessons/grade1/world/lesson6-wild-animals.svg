@@ -1,5 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  
+  <style>
+    @keyframes walk {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(5px); }
+    }
+    @keyframes hop {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes fly {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-5px) rotate(3deg); }
+    }
+    @keyframes sleep {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.02); }
+    }
+    .walk { animation: walk 2s ease-in-out infinite; }
+    .hop { animation: hop 1s ease-in-out infinite; }
+    .fly { animation: fly 2s ease-in-out infinite; }
+    .sleep { animation: sleep 3s ease-in-out infinite; }
+  </style>
   <!-- Background - forest -->
   <rect width="400" height="400" fill="#14532d" rx="20"/>
   <!-- Trees -->
@@ -15,17 +36,13 @@
   <text x="200" y="35" font-size="16" fill="#fef3c7" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">ДИКИЕ ЖИВОТНЫЕ</text>
   <text x="200" y="50" font-size="10" fill="#86efac" text-anchor="middle" font-family="Arial, sans-serif">🌲 Живут в лесу сами по себе</text>
   <!-- Bear -->
-  <g transform="translate(20, 80)">
+  <g class="sleep" transform="translate(20, 80)">
     <!-- Body -->
     <ellipse cx="50" cy="80" rx="45" ry="35" fill="#78350f"/>
     <!-- Head -->
-    <circle cx="90" cy="60" r="30" fill="#78350f">
-    <animate attributeName="r" values="30;32;30" dur="3s" repeatCount="indefinite"/>
-  </circle>
+    <circle cx="90" cy="60" r="30" fill="#78350f"/>
     <!-- Ears -->
-    <circle cx="70" cy="40" r="12" fill="#78350f">
-    <animate attributeName="r" values="12;14;12" dur="3s" repeatCount="indefinite"/>
-  </circle>
+    <circle cx="70" cy="40" r="12" fill="#78350f"/>
     <circle cx="110" cy="40" r="12" fill="#78350f"/>
     <!-- Snout -->
     <ellipse cx="95" cy="70" rx="12" ry="10" fill="#a8a29e"/>
@@ -42,7 +59,7 @@
     <text x="60" y="143" font-size="8" fill="#86efac" text-anchor="middle" font-family="Arial, sans-serif">Спит в берлоге</text>
   </g>
   <!-- Fox -->
-  <g transform="translate(150, 90)">
+  <g class="walk" transform="translate(150, 90)">
     <!-- Body -->
     <ellipse cx="35" cy="50" rx="30" ry="20" fill="#f97316"/>
     <!-- Head -->
@@ -63,7 +80,7 @@
     <text x="40" y="98" font-size="8" fill="#86efac" text-anchor="middle" font-family="Arial, sans-serif">Живёт в норе</text>
   </g>
   <!-- Wolf -->
-  <g style="animation-delay: 0.5s" transform="translate(260, 85)">
+  <g class="walk" style="animation-delay: 0.5s" transform="translate(260, 85)">
     <!-- Body -->
     <ellipse cx="35" cy="50" rx="32" ry="22" fill="#6b7280"/>
     <!-- Head -->
@@ -84,7 +101,7 @@
     <text x="40" y="98" font-size="8" fill="#86efac" text-anchor="middle" font-family="Arial, sans-serif">Живёт в логове</text>
   </g>
   <!-- Hare -->
-  <g transform="translate(30, 200)">
+  <g class="hop" transform="translate(30, 200)">
     <!-- Body -->
     <ellipse cx="30" cy="50" rx="22" ry="18" fill="#e5e7eb"/>
     <!-- Head -->
@@ -105,7 +122,7 @@
     <text x="30" y="98" font-size="8" fill="#86efac" text-anchor="middle" font-family="Arial, sans-serif">Быстро бегает</text>
   </g>
   <!-- Squirrel -->
-  <g style="animation-delay: 0.3s" transform="translate(130, 190)">
+  <g class="hop" style="animation-delay: 0.3s" transform="translate(130, 190)">
     <!-- Body -->
     <ellipse cx="25" cy="50" rx="18" ry="15" fill="#f97316"/>
     <!-- Head -->
@@ -156,7 +173,7 @@
     <text x="30" y="103" font-size="8" fill="#86efac" text-anchor="middle" font-family="Arial, sans-serif">Колючие иголки</text>
   </g>
   <!-- Deer -->
-  <g style="animation-delay: 1s" transform="translate(320, 180)">
+  <g class="walk" style="animation-delay: 1s" transform="translate(320, 180)">
     <!-- Body -->
     <ellipse cx="30" cy="60" rx="25" ry="20" fill="#b45309"/>
     <!-- Neck -->
@@ -179,7 +196,7 @@
     <text x="30" y="115" font-size="10" fill="#fef3c7" text-anchor="middle" font-family="Arial, sans-serif">Олень 🦌</text>
   </g>
   <!-- Owl on tree -->
-  <g transform="translate(350, 60)">
+  <g class="fly" transform="translate(350, 60)">
     <rect x="5" y="0" width="8" height="60" fill="#78350f"/>
     <ellipse cx="20" cy="30" rx="18" ry="15" fill="#78716c"/>
     <circle cx="20" cy="22" r="12" fill="#78716c"/>

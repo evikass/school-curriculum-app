@@ -1,5 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  
+  <defs>
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes shimmer {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 1; }
+      }
+      .bookmark { animation: float 3s ease-in-out infinite; }
+      .sparkle { animation: shimmer 2s ease-in-out infinite; }
+    </style>
+  </defs>
   
   <!-- Background -->
   <rect width="400" height="300" fill="#E8F5E9"/>
@@ -33,7 +46,7 @@
   </g>
   
   <!-- Floating bookmark -->
-  <g transform="translate(100, 100)">
+  <g transform="translate(100, 100)" class="bookmark">
     <!-- Bookmark body -->
     <rect x="0" y="0" width="35" height="80" fill="#FF9800" rx="3" stroke="#E65100" stroke-width="2"/>
     <!-- Bookmark tail -->
@@ -45,7 +58,7 @@
     <rect x="5" y="24" width="25" height="4" fill="#FFE082"/>
     
     <!-- Star decoration -->
-    <polygon points="17.5,40 20,48 28,48 22,53 24,61 17.5,56 11,61 13,53 7,48 15,48" fill="#FFEB3B"/>
+    <polygon points="17.5,40 20,48 28,48 22,53 24,61 17.5,56 11,61 13,53 7,48 15,48" fill="#FFEB3B" class="sparkle"/>
     
     <!-- Ribbon -->
     <rect x="30" y="0" width="8" height="25" fill="#E91E63"/>
@@ -80,12 +93,8 @@
     <g transform="translate(90, 15)">
       <rect x="0" y="0" width="30" height="50" fill="#FFB74D" rx="2"/>
       <ellipse cx="15" cy="20" rx="12" ry="10" fill="#4CAF50"/>
-      <circle cx="12" cy="17" r="3" fill="#E91E63">
-    <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/>
-  </circle>
-      <circle cx="18" cy="22" r="2" fill="#FFEB3B">
-    <animate attributeName="r" values="2;4;2" dur="3s" repeatCount="indefinite"/>
-  </circle>
+      <circle cx="12" cy="17" r="3" fill="#E91E63"/>
+      <circle cx="18" cy="22" r="2" fill="#FFEB3B"/>
       <text x="15" y="65" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="8" fill="#616161">Природа</text>
     </g>
   </g>

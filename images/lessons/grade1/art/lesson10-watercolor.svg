@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    
+    <style>
+      @keyframes watercolor { 0% { opacity: 0.5; } 50% { opacity: 0.9; } 100% { opacity: 0.5; } }
+      @keyframes spread { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+      .watercolor { animation: watercolor 3s ease-in-out infinite; }
+      .spread { animation: spread 4s ease-in-out infinite; transform-origin: center; }
+    </style>
     <radialGradient id="wetOnWet" cx="50%" cy="50%" r="50%">
       <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:0.8"/>
       <stop offset="50%" style="stop-color:#4169E1;stop-opacity:0.5"/>
@@ -22,22 +27,22 @@
   <!-- Акварельные краски -->
   <g transform="translate(120, 60)">
     <rect x="0" y="0" width="200" height="80" rx="5" fill="#FFF5EE" stroke="#DEB887" stroke-width="2"/>
-    <rect x="10" y="10" width="30" height="25" fill="#FF6B6B" opacity="0.7"/>
-    <rect x="45" y="10" width="30" height="25" fill="#FFB347" opacity="0.7" style="animation-delay: 0.2s;"/>
-    <rect x="80" y="10" width="30" height="25" fill="#FFFF66" opacity="0.7" style="animation-delay: 0.4s;"/>
-    <rect x="115" y="10" width="30" height="25" fill="#77DD77" opacity="0.7" style="animation-delay: 0.6s;"/>
-    <rect x="150" y="10" width="30" height="25" fill="#89CFF0" opacity="0.7" style="animation-delay: 0.8s;"/>
-    <rect x="10" y="45" width="30" height="25" fill="#B19CD9" opacity="0.7" style="animation-delay: 1s;"/>
-    <rect x="45" y="45" width="30" height="25" fill="#FFB6C1" opacity="0.7" style="animation-delay: 1.2s;"/>
-    <rect x="80" y="45" width="30" height="25" fill="#8B4513" opacity="0.7" style="animation-delay: 1.4s;"/>
-    <rect x="115" y="45" width="30" height="25" fill="#2F4F4F" opacity="0.7" style="animation-delay: 1.6s;"/>
-    <rect x="150" y="45" width="30" height="25" fill="#333" opacity="0.7" style="animation-delay: 1.8s;"/>
+    <rect x="10" y="10" width="30" height="25" fill="#FF6B6B" opacity="0.7" class="watercolor"/>
+    <rect x="45" y="10" width="30" height="25" fill="#FFB347" opacity="0.7" class="watercolor" style="animation-delay: 0.2s;"/>
+    <rect x="80" y="10" width="30" height="25" fill="#FFFF66" opacity="0.7" class="watercolor" style="animation-delay: 0.4s;"/>
+    <rect x="115" y="10" width="30" height="25" fill="#77DD77" opacity="0.7" class="watercolor" style="animation-delay: 0.6s;"/>
+    <rect x="150" y="10" width="30" height="25" fill="#89CFF0" opacity="0.7" class="watercolor" style="animation-delay: 0.8s;"/>
+    <rect x="10" y="45" width="30" height="25" fill="#B19CD9" opacity="0.7" class="watercolor" style="animation-delay: 1s;"/>
+    <rect x="45" y="45" width="30" height="25" fill="#FFB6C1" opacity="0.7" class="watercolor" style="animation-delay: 1.2s;"/>
+    <rect x="80" y="45" width="30" height="25" fill="#8B4513" opacity="0.7" class="watercolor" style="animation-delay: 1.4s;"/>
+    <rect x="115" y="45" width="30" height="25" fill="#2F4F4F" opacity="0.7" class="watercolor" style="animation-delay: 1.6s;"/>
+    <rect x="150" y="45" width="30" height="25" fill="#333" opacity="0.7" class="watercolor" style="animation-delay: 1.8s;"/>
   </g>
   
   <!-- Техника "по-сырому" -->
   <text x="400" y="70" text-anchor="middle" font-size="11" fill="#4169E1" font-weight="bold">По-сырому</text>
   <rect x="350" y="80" width="100" height="70" fill="#FFFAF0" stroke="#DEB887" stroke-width="2"/>
-  <ellipse cx="400" cy="115" rx="35" ry="25" fill="url(#wetOnWet)"/>
+  <ellipse cx="400" cy="115" rx="35" ry="25" fill="url(#wetOnWet)" class="spread"/>
   
   <!-- Примеры акварельных работ -->
   <text x="250" y="170" text-anchor="middle" font-size="14" fill="#4169E1" font-weight="bold">Примеры акварельных работ:</text>
@@ -45,20 +50,18 @@
   <!-- Небо -->
   <g transform="translate(40, 185)">
     <rect x="0" y="0" width="120" height="80" fill="#FFFAF0" stroke="#DEB887" stroke-width="2"/>
-    <rect x="5" y="5" width="110" height="40" fill="#87CEEB" opacity="0.6"/>
-    <circle cx="90" cy="20" r="12" fill="#FFD700" opacity="0.7">
-    <animate attributeName="r" values="12;14;12" dur="3s" repeatCount="indefinite"/>
-  </circle>
-    <rect x="5" y="45" width="110" height="30" fill="#90EE90" opacity="0.5" style="animation-delay: 1s;"/>
+    <rect x="5" y="5" width="110" height="40" fill="#87CEEB" opacity="0.6" class="watercolor"/>
+    <circle cx="90" cy="20" r="12" fill="#FFD700" opacity="0.7"/>
+    <rect x="5" y="45" width="110" height="30" fill="#90EE90" opacity="0.5" class="watercolor" style="animation-delay: 1s;"/>
     <text x="60" y="95" text-anchor="middle" font-size="10" fill="#4169E1">Небо 🌅</text>
   </g>
   
   <!-- Цветок -->
   <g transform="translate(180, 185)">
     <rect x="0" y="0" width="120" height="80" fill="#FFFAF0" stroke="#DEB887" stroke-width="2"/>
-    <ellipse cx="60" cy="35" rx="25" ry="20" fill="#FF69B4" opacity="0.6"/>
-    <ellipse cx="45" cy="30" rx="15" ry="12" fill="#FFB6C1" opacity="0.5" style="animation-delay: 0.5s;"/>
-    <ellipse cx="75" cy="30" rx="15" ry="12" fill="#FFB6C1" opacity="0.5" style="animation-delay: 0.5s;"/>
+    <ellipse cx="60" cy="35" rx="25" ry="20" fill="#FF69B4" opacity="0.6" class="watercolor"/>
+    <ellipse cx="45" cy="30" rx="15" ry="12" fill="#FFB6C1" opacity="0.5" class="watercolor" style="animation-delay: 0.5s;"/>
+    <ellipse cx="75" cy="30" rx="15" ry="12" fill="#FFB6C1" opacity="0.5" class="watercolor" style="animation-delay: 0.5s;"/>
     <rect x="57" y="50" width="6" height="25" fill="#228B22" opacity="0.6"/>
     <text x="60" y="95" text-anchor="middle" font-size="10" fill="#4169E1">Цветок 🌸</text>
   </g>
@@ -67,8 +70,8 @@
   <g transform="translate(320, 185)">
     <rect x="0" y="0" width="120" height="80" fill="#FFFAF0" stroke="#DEB887" stroke-width="2"/>
     <rect x="55" y="50" width="12" height="28" fill="#8B4513" opacity="0.7"/>
-    <ellipse cx="61" cy="35" rx="30" ry="25" fill="#228B22" opacity="0.5"/>
-    <ellipse cx="50" cy="40" rx="20" ry="18" fill="#32CD32" opacity="0.4" style="animation-delay: 0.7s;"/>
+    <ellipse cx="61" cy="35" rx="30" ry="25" fill="#228B22" opacity="0.5" class="watercolor"/>
+    <ellipse cx="50" cy="40" rx="20" ry="18" fill="#32CD32" opacity="0.4" class="watercolor" style="animation-delay: 0.7s;"/>
     <text x="60" y="95" text-anchor="middle" font-size="10" fill="#4169E1">Дерево 🌳</text>
   </g>
   

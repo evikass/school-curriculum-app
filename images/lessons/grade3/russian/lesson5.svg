@@ -1,109 +1,83 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="skyGrad5" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFEBEE;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FCE4EC;stop-opacity:1" />
+    <linearGradient id="sky5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFCCBC;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#FBE9E7;stop-opacity:0.3"/>
     </linearGradient>
   </defs>
   
   <!-- Background -->
-  <rect width="500" height="350" fill="url(#skyGrad5)"/>
-  
-  <!-- Decorative elements -->
-  <circle cx="70" cy="70" r="35" fill="#E91E63" opacity="0.1"/>
-  <circle cx="440" cy="280" r="45" fill="#E91E63" opacity="0.08"/>
+  <rect width="500" height="350" fill="url(#sky5)"/>
+  <rect width="500" height="350" fill="#FFF8E1" opacity="0.3"/>
   
   <!-- Sun -->
-  <circle cx="450" cy="55" r="22" fill="#FFD700" opacity="0.7">
-    <animate attributeName="r" values="22;26;22" dur="3s" repeatCount="indefinite"/>
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
   </circle>
   
-  <!-- Clouds -->
-  <g opacity="0.6">
-    <ellipse cx="100" cy="50" rx="25" ry="15" fill="white"/>
-    <ellipse cx="120" cy="45" rx="20" ry="12" fill="white"/>
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#BF360C" text-anchor="middle">🔍 Разбор слова по составу</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#FF7043" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#FFCCBC" opacity="0.5"/>
+  
+  <!-- Word breakdown diagram -->
+  <g transform="translate(100, 80)">
+    <!-- Word: подснежник -->
+    <text x="150" y="30" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333" text-anchor="middle">ПОДСНЕЖНИК</text>
+    
+    <!-- Boxes for each part -->
+    <rect x="30" y="45" width="50" height="35" fill="#FF7043" rx="5"/>
+    <text x="55" y="68" font-family="Arial, sans-serif" font-size="14" fill="#FFF" text-anchor="middle">под-</text>
+    <text x="55" y="95" font-family="Arial, sans-serif" font-size="9" fill="#BF360C" text-anchor="middle">приставка</text>
+    
+    <rect x="90" y="45" width="60" height="35" fill="#66BB6A" rx="5"/>
+    <text x="120" y="68" font-family="Arial, sans-serif" font-size="14" fill="#FFF" text-anchor="middle">-снеж-</text>
+    <text x="120" y="95" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">корень</text>
+    
+    <rect x="160" y="45" width="50" height="35" fill="#42A5F5" rx="5"/>
+    <text x="185" y="68" font-family="Arial, sans-serif" font-size="14" fill="#FFF" text-anchor="middle">-ник-</text>
+    <text x="185" y="95" font-family="Arial, sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">суффикс</text>
+    
+    <rect x="220" y="45" width="50" height="35" fill="#AB47BC" rx="5"/>
+    <text x="245" y="68" font-family="Arial, sans-serif" font-size="14" fill="#FFF" text-anchor="middle">нулев.</text>
+    <text x="245" y="95" font-family="Arial, sans-serif" font-size="9" fill="#6A1B9A" text-anchor="middle">окончание</text>
   </g>
   
-  <!-- Trees -->
-  <g opacity="0.25">
-    <ellipse cx="35" cy="285" rx="22" ry="35" fill="#228B22"/>
-    <rect x="30" y="285" width="10" height="20" fill="#8B4513"/>
+  <!-- Steps -->
+  <g transform="translate(50, 200)" font-family="Arial, sans-serif" font-size="11">
+    <circle cx="20" cy="15" r="15" fill="#FF7043"/>
+    <text x="20" y="20" fill="#FFF" text-anchor="middle" font-weight="bold">1</text>
+    <text x="50" y="20" fill="#333">Найди окончание (измени слово)</text>
+    
+    <circle cx="20" cy="50" r="15" fill="#66BB6A"/>
+    <text x="20" y="55" fill="#FFF" text-anchor="middle" font-weight="bold">2</text>
+    <text x="50" y="55" fill="#333">Найди корень (подбери родственные)</text>
+    
+    <circle cx="230" cy="15" r="15" fill="#42A5F5"/>
+    <text x="230" y="20" fill="#FFF" text-anchor="middle" font-weight="bold">3</text>
+    <text x="260" y="20" fill="#333">Найди приставку (перед корнем)</text>
+    
+    <circle cx="230" cy="50" r="15" fill="#AB47BC"/>
+    <text x="230" y="55" fill="#FFF" text-anchor="middle" font-weight="bold">4</text>
+    <text x="260" y="55" fill="#333">Найди суффикс (после корня)</text>
+  </g>
+  
+  <!-- Schema -->
+  <g transform="translate(100, 270)">
+    <text x="150" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#BF360C" text-anchor="middle">Схема: приставка-корень-суффикс-окончание</text>
   </g>
   
   <!-- Flowers -->
-  <g opacity="0.5">
-    <circle cx="45" cy="325" r="5" fill="#FF4081"/>
-    <circle cx="52" cy="320" r="4" fill="#F8BBD9"/>
-  </g>
-  <g opacity="0.45">
-    <circle cx="465" cy="325" r="5" fill="#AB47BC"/>
-    <circle cx="458" cy="320" r="4" fill="#E1BEE7"/>
-  </g>
+  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
+  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
   
-  <!-- Title -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#C2185B" text-anchor="middle">📋 Падежи</text>
-  <rect x="100" y="45" width="300" height="3" rx="2" fill="#C2185B" opacity="0.5"/>
-  
-  <!-- Main Content -->
-  <rect x="25" y="60" width="450" height="260" rx="15" fill="white" opacity="0.92" stroke="#C2185B" stroke-width="2"/>
-  
-  <!-- Cases table header -->
-  <text x="250" y="85" font-size="12" font-weight="bold" fill="#C2185B" text-anchor="middle">В русском языке 6 падежей</text>
-  
-  <!-- Cases grid -->
-  <g transform="translate(40, 100)">
-    <!-- Row 1 -->
-    <rect x="0" y="0" width="130" height="40" rx="5" fill="#FCE4EC" stroke="#C2185B"/>
-    <text x="65" y="18" font-size="10" font-weight="bold" fill="#C2185B" text-anchor="middle">Именительный</text>
-    <text x="65" y="32" font-size="9" fill="#333" text-anchor="middle">Кто? Что?</text>
-    
-    <rect x="140" y="0" width="130" height="40" rx="5" fill="#F3E5F5" stroke="#7B1FA2"/>
-    <text x="205" y="18" font-size="10" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Родительный</text>
-    <text x="205" y="32" font-size="9" fill="#333" text-anchor="middle">Кого? Чего?</text>
-    
-    <rect x="280" y="0" width="130" height="40" rx="5" fill="#E3F2FD" stroke="#1976D2"/>
-    <text x="345" y="18" font-size="10" font-weight="bold" fill="#1976D2" text-anchor="middle">Дательный</text>
-    <text x="345" y="32" font-size="9" fill="#333" text-anchor="middle">Кому? Чему?</text>
-    
-    <!-- Row 2 -->
-    <rect x="0" y="50" width="130" height="40" rx="5" fill="#FFF3E0" stroke="#F57C00"/>
-    <text x="65" y="68" font-size="10" font-weight="bold" fill="#F57C00" text-anchor="middle">Винительный</text>
-    <text x="65" y="82" font-size="9" fill="#333" text-anchor="middle">Кого? Что?</text>
-    
-    <rect x="140" y="50" width="130" height="40" rx="5" fill="#E8F5E9" stroke="#388E3C"/>
-    <text x="205" y="68" font-size="10" font-weight="bold" fill="#388E3C" text-anchor="middle">Творительный</text>
-    <text x="205" y="82" font-size="9" fill="#333" text-anchor="middle">Кем? Чем?</text>
-    
-    <rect x="280" y="50" width="130" height="40" rx="5" fill="#ECEFF1" stroke="#455A64"/>
-    <text x="345" y="68" font-size="10" font-weight="bold" fill="#455A64" text-anchor="middle">Предложный</text>
-    <text x="345" y="82" font-size="9" fill="#333" text-anchor="middle">О ком? О чём?</text>
-  </g>
-  
-  <!-- Memory helper -->
-  <rect x="40" y="210" width="420" height="70" rx="10" fill="#FFF0F5" stroke="#C2185B" stroke-dasharray="5"/>
-  <text x="250" y="230" font-size="11" font-weight="bold" fill="#C2185B" text-anchor="middle">💡 Как запомнить падежи:</text>
-  <text x="250" y="250" font-size="10" fill="#333" text-anchor="middle">"Иван Родил Девчонку, Велел Тащить Пелёнку"</text>
-  <text x="250" y="268" font-size="9" fill="#666" text-anchor="middle">(И - Иван, Р - Родил, Д - Девчонку, В - Велел, Т - Тащить, П - Пелёнку)</text>
-  
-  <!-- Animated case indicator -->
-  <g transform="translate(250, 295)">
-    <text x="0" y="0" font-size="10" fill="#C2185B" text-anchor="middle">
-      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
-      Падеж показывает роль слова в предложении
-    </text>
-  </g>
-  
-  <!-- Book decoration -->
-  <g transform="translate(60, 285)" opacity="0.5">
-    <rect x="0" y="0" width="25" height="18" rx="2" fill="#C2185B"/>
-    <rect x="2" y="2" width="21" height="14" fill="white"/>
-    <text x="12" y="12" font-size="5" fill="#C2185B" text-anchor="middle">1-6</text>
-  </g>
-  
-  <!-- Pencil -->
-  <g transform="translate(420, 285)" opacity="0.5">
-    <rect x="0" y="3" width="25" height="8" fill="#FFD700"/>
-    <polygon points="25,3 25,11 32,7" fill="#333"/>
-    <rect x="0" y="3" width="5" height="8" fill="#E91E63"/>
-  </g>
+  <!-- Sparkles -->
+  <circle cx="200" cy="140" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="150" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
 </svg>

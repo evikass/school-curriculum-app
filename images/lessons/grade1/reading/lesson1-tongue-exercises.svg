@@ -1,14 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-15px) scale(1.1); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+      @keyframes wag { 0%, 100% { transform: rotate(-10deg); } 50% { transform: rotate(10deg); } }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      .animate { animation: bounce 2s ease-in-out infinite; }
+      .pulse { animation: pulse 1.5s ease-in-out infinite; }
+      .wag { animation: wag 0.5s ease-in-out infinite; transform-origin: center; }
+      .float { animation: float 3s ease-in-out infinite; }
+    </style>
+  </defs>
   <rect width="500" height="350" fill="#FFF5E6"/>
   
   <!-- Background decoration -->
-  <circle cx="50" cy="50" r="30" fill="#FFE4C4" opacity="0.5">
-    <animate attributeName="r" values="30;32;30" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="450" cy="300" r="40" fill="#FFDAB9" opacity="0.4">
-    <animate attributeName="r" values="40;42;40" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="50" cy="50" r="30" fill="#FFE4C4" opacity="0.5"/>
+  <circle cx="450" cy="300" r="40" fill="#FFDAB9" opacity="0.4"/>
   <circle cx="400" cy="80" r="25" fill="#FFDAB9" opacity="0.3"/>
   
   <!-- Title -->
@@ -16,7 +23,7 @@
   <rect x="100" y="55" width="300" height="3" rx="2" fill="#D2691E" opacity="0.6"/>
   
   <!-- Mouth/Face illustration -->
-  <g transform="translate(120, 100)">
+  <g class="float" transform="translate(120, 100)">
     <!-- Face circle -->
     <circle cx="70" cy="70" r="65" fill="#FFE4C4" stroke="#D2691E" stroke-width="3"/>
     <!-- Eyes -->
@@ -29,7 +36,7 @@
     <!-- Mouth open -->
     <ellipse cx="70" cy="95" rx="25" ry="15" fill="#8B0000" stroke="#8B4513" stroke-width="2"/>
     <!-- Tongue -->
-    <ellipse cx="70" cy="92" rx="15" ry="10" fill="#FF6B6B"/>
+    <ellipse class="wag" cx="70" cy="92" rx="15" ry="10" fill="#FF6B6B"/>
   </g>
   
   <!-- Exercise bubbles -->
@@ -40,7 +47,7 @@
     <text x="60" y="40" font-family="Arial" font-size="12" fill="#8B4513" text-anchor="middle">язык</text>
     
     <!-- Bubble 2 -->
-    <circle cx="60" cy="120" r="40" fill="#FFE4C4" stroke="#D2691E" stroke-width="2"/>
+    <circle class="pulse" cx="60" cy="120" r="40" fill="#FFE4C4" stroke="#D2691E" stroke-width="2"/>
     <text x="60" y="115" font-family="Arial" font-size="12" fill="#8B4513" text-anchor="middle">Подними</text>
     <text x="60" y="130" font-family="Arial" font-size="12" fill="#8B4513" text-anchor="middle">вверх</text>
     
@@ -51,8 +58,7 @@
   </g>
   
   <!-- Animated arrows -->
-  <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  <g class="animate">
     <path d="M320 55 L340 45 L340 50 L360 50 L360 60 L340 60 L340 65 Z" fill="#D2691E"/>
   </g>
   

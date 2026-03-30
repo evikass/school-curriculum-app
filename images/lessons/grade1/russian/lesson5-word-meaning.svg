@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  
+  <defs>
+    <style>
+      @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      @keyframes rotate { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      .word { animation: pulse 2s ease-in-out infinite; }
+      .icon { animation: float 2.5s ease-in-out infinite; }
+    </style>
+  </defs>
   
   <!-- Background -->
   <rect width="500" height="350" fill="#faf5ff"/>
@@ -13,19 +21,14 @@
   <text x="95" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#b45309">Слова-предметы</text>
   <text x="95" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#92400e">КТО? ЧТО?</text>
   
-  <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
-    <circle cx="55" cy="130" r="18" fill="#f59e0b">
-    <animate attributeName="r" values="18;20;18" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <g class="icon">
+    <circle cx="55" cy="130" r="18" fill="#f59e0b"/>
     <text x="55" y="135" text-anchor="middle" font-size="16">👧</text>
   </g>
   <text x="55" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#92400e">мама</text>
   
-  <g style="animation-delay: 0.3s">
-    <circle cx="135" cy="130" r="18" fill="#d97706">
-    <animate attributeName="r" values="18;20;18" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <g class="icon" style="animation-delay: 0.3s">
+    <circle cx="135" cy="130" r="18" fill="#d97706"/>
     <text x="135" y="135" text-anchor="middle" font-size="16">📚</text>
   </g>
   <text x="135" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#92400e">книга</text>
@@ -35,13 +38,13 @@
   <text x="250" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#15803d">Слова-действия</text>
   <text x="250" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">ЧТО ДЕЛАТЬ?</text>
   
-  <g>
+  <g class="icon">
     <circle cx="215" cy="130" r="18" fill="#22c55e"/>
     <text x="215" y="135" text-anchor="middle" font-size="16">🏃</text>
   </g>
   <text x="215" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#166534">бежать</text>
   
-  <g style="animation-delay: 0.4s">
+  <g class="icon" style="animation-delay: 0.4s">
     <circle cx="285" cy="130" r="18" fill="#16a34a"/>
     <text x="285" y="135" text-anchor="middle" font-size="16">📖</text>
   </g>
@@ -52,13 +55,13 @@
   <text x="405" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2563eb">Слова-признаки</text>
   <text x="405" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1d4ed8">КАКОЙ?</text>
   
-  <g>
+  <g class="icon">
     <circle cx="370" cy="130" r="18" fill="#3b82f6"/>
     <text x="370" y="135" text-anchor="middle" font-size="16">🔴</text>
   </g>
   <text x="370" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1d4ed8">красный</text>
   
-  <g style="animation-delay: 0.5s">
+  <g class="icon" style="animation-delay: 0.5s">
     <circle cx="440" cy="130" r="18" fill="#2563eb"/>
     <text x="440" y="135" text-anchor="middle" font-size="16">📏</text>
   </g>

@@ -1,5 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  
+  <defs>
+    <style>
+      @keyframes ring { 0%, 100% { transform: rotate(0deg); } 25% { transform: rotate(10deg); } 75% { transform: rotate(-10deg); } }
+      @keyframes wave { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      .bell { animation: ring 1s ease-in-out infinite; transform-origin: 250px 60px; }
+      .sound { animation: wave 1.5s ease-in-out infinite; }
+      .letter { animation: bounce 2s ease-in-out infinite; }
+    </style>
+  </defs>
   
   <!-- Background -->
   <rect width="500" height="350" fill="#fefce8"/>
@@ -8,40 +17,35 @@
   <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ca8a04">Звонкие и глухие согласные 🔔</text>
   
   <!-- Bell animation -->
-  <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  <g class="bell">
     <ellipse cx="250" cy="70" rx="25" ry="20" fill="#eab308"/>
     <rect x="243" y="50" width="14" height="10" fill="#ca8a04"/>
-    <circle cx="250" cy="85" r="6" fill="#a16207">
-    <animate attributeName="r" values="6;8;6" dur="3s" repeatCount="indefinite"/>
-  </circle>
+    <circle cx="250" cy="85" r="6" fill="#a16207"/>
   </g>
   
   <!-- Sound waves -->
-  <circle cx="250" cy="70" r="40" fill="none" stroke="#fbbf24" stroke-width="2"/>
-  <circle cx="250" cy="70" r="55" fill="none" stroke="#fcd34d" stroke-width="1.5" style="animation-delay: 0.3s"/>
-  <circle cx="250" cy="70" r="70" fill="none" stroke="#fef08a" stroke-width="1" style="animation-delay: 0.6s"/>
+  <circle cx="250" cy="70" r="40" fill="none" stroke="#fbbf24" stroke-width="2" class="sound"/>
+  <circle cx="250" cy="70" r="55" fill="none" stroke="#fcd34d" stroke-width="1.5" class="sound" style="animation-delay: 0.3s"/>
+  <circle cx="250" cy="70" r="70" fill="none" stroke="#fef08a" stroke-width="1" class="sound" style="animation-delay: 0.6s"/>
   
   <!-- Voiced consonants -->
   <rect x="20" y="110" width="220" height="110" fill="#dcfce7" rx="12"/>
   <text x="130" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#15803d">Звонкие 🔊</text>
   <text x="130" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">Произносятся с голосом</text>
   
-  <g>
-    <circle cx="55" cy="185" r="18" fill="#22c55e">
-    <animate attributeName="r" values="18;20;18" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <g class="letter">
+    <circle cx="55" cy="185" r="18" fill="#22c55e"/>
     <text x="55" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Б</text>
   </g>
-  <g style="animation-delay: 0.15s">
+  <g class="letter" style="animation-delay: 0.15s">
     <circle cx="95" cy="185" r="18" fill="#16a34a"/>
     <text x="95" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">В</text>
   </g>
-  <g style="animation-delay: 0.3s">
+  <g class="letter" style="animation-delay: 0.3s">
     <circle cx="135" cy="185" r="18" fill="#15803d"/>
     <text x="135" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Г</text>
   </g>
-  <g style="animation-delay: 0.45s">
+  <g class="letter" style="animation-delay: 0.45s">
     <circle cx="175" cy="185" r="18" fill="#166534"/>
     <text x="175" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Д</text>
   </g>
@@ -51,15 +55,15 @@
   <text x="370" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3730a3">Глухие 🔇</text>
   <text x="370" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#4338ca">Только шум</text>
   
-  <g style="animation-delay: 0.6s">
+  <g class="letter" style="animation-delay: 0.6s">
     <rect x="300" y="168" width="35" height="35" fill="#6366f1" rx="5"/>
     <text x="317" y="191" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">П</text>
   </g>
-  <g style="animation-delay: 0.75s">
+  <g class="letter" style="animation-delay: 0.75s">
     <rect x="345" y="168" width="35" height="35" fill="#4f46e5" rx="5"/>
     <text x="362" y="191" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Ф</text>
   </g>
-  <g style="animation-delay: 0.9s">
+  <g class="letter" style="animation-delay: 0.9s">
     <rect x="390" y="168" width="35" height="35" fill="#4338ca" rx="5"/>
     <text x="407" y="191" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">К</text>
   </g>

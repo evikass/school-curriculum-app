@@ -1,5 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  
+  <defs>
+    <style>
+      @keyframes roll { 0% { transform: translateX(0) rotate(0deg); } 25% { transform: translateX(50px) rotate(90deg); } 50% { transform: translateX(100px) rotate(180deg); } 75% { transform: translateX(150px) rotate(270deg); } 100% { transform: translateX(200px) rotate(360deg); } }
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      @keyframes hop { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-15px) scale(1.1); } }
+      .kolobok { animation: roll 8s linear infinite; }
+      .animal { animation: hop 2s ease-in-out infinite; }
+      .fox { animation: bounce 1.5s ease-in-out infinite; }
+    </style>
+  </defs>
   
   <!-- Background -->
   <rect width="500" height="350" fill="#fef3c7"/>
@@ -9,13 +18,9 @@
   <text x="250" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">Русская народная сказка</text>
   
   <!-- Kolobok -->
-  <g style="transform-origin: center">
-    <circle cx="70" cy="90" r="28" fill="#fbbf24" stroke="#d97706" stroke-width="2">
-    <animate attributeName="r" values="28;30;28" dur="3s" repeatCount="indefinite"/>
-  </circle>
-    <circle cx="60" cy="85" r="4" fill="#1f2937">
-    <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <g class="kolobok" style="transform-origin: center">
+    <circle cx="70" cy="90" r="28" fill="#fbbf24" stroke="#d97706" stroke-width="2"/>
+    <circle cx="60" cy="85" r="4" fill="#1f2937"/>
     <circle cx="80" cy="85" r="4" fill="#1f2937"/>
     <path d="M 62 98 Q 70 105 78 98" fill="none" stroke="#d97706" stroke-width="2"/>
   </g>
@@ -24,20 +29,19 @@
   <rect x="20" y="130" width="460" height="80" fill="#fffbeb" rx="10"/>
   <text x="250" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400e">Кого встретил Колобок:</text>
   
-  <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  <g class="animal">
     <text x="70" y="185" text-anchor="middle" font-size="30">🐰</text>
     <text x="70" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Заяц</text>
   </g>
-  <g style="animation-delay: 0.3s">
+  <g class="animal" style="animation-delay: 0.3s">
     <text x="140" y="185" text-anchor="middle" font-size="30">🐺</text>
     <text x="140" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e40af">Волк</text>
   </g>
-  <g style="animation-delay: 0.6s">
+  <g class="animal" style="animation-delay: 0.6s">
     <text x="210" y="185" text-anchor="middle" font-size="30">🐻</text>
     <text x="210" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#92400e">Медведь</text>
   </g>
-  <g style="animation-delay: 0.9s">
+  <g class="fox" style="animation-delay: 0.9s">
     <text x="280" y="185" text-anchor="middle" font-size="30">🦊</text>
     <text x="280" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#dc2626">Лиса</text>
   </g>

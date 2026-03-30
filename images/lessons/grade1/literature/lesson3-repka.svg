@@ -1,5 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  
+  <defs>
+    <style>
+      @keyframes wave { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+      @keyframes pull { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(20px); } }
+      .character { animation: wave 2s ease-in-out infinite; }
+      .star { animation: blink 1.5s ease-in-out infinite; }
+      .pull { animation: pull 3s ease-in-out infinite; }
+    </style>
+  </defs>
   
   <!-- Background -->
   <rect width="500" height="350" fill="#ecfdf5"/>
@@ -12,52 +21,51 @@
   <rect x="20" y="60" width="460" height="130" fill="#f0fdf4" rx="12"/>
   <text x="250" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#15803d">Герои сказки (в порядке появления):</text>
   
-  <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  <g class="pull">
     <!-- Turnip -->
-    <g style="animation-delay: 0s">
+    <g class="character" style="animation-delay: 0s">
       <text x="45" y="130" text-anchor="middle" font-size="35">🥕</text>
       <text x="45" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Репка</text>
     </g>
     <text x="70" y="130" text-anchor="middle" font-size="16">←</text>
     
     <!-- Grandfather -->
-    <g style="animation-delay: 0.2s">
+    <g class="character" style="animation-delay: 0.2s">
       <text x="100" y="130" text-anchor="middle" font-size="30">🧓</text>
       <text x="100" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Дедка</text>
     </g>
     <text x="125" y="130" text-anchor="middle" font-size="16">←</text>
     
     <!-- Grandmother -->
-    <g style="animation-delay: 0.4s">
+    <g class="character" style="animation-delay: 0.4s">
       <text x="155" y="130" text-anchor="middle" font-size="30">👵</text>
       <text x="155" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Бабка</text>
     </g>
     <text x="180" y="130" text-anchor="middle" font-size="16">←</text>
     
     <!-- Granddaughter -->
-    <g style="animation-delay: 0.6s">
+    <g class="character" style="animation-delay: 0.6s">
       <text x="210" y="130" text-anchor="middle" font-size="30">👧</text>
       <text x="210" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Внучка</text>
     </g>
     <text x="235" y="130" text-anchor="middle" font-size="16">←</text>
     
     <!-- Dog -->
-    <g style="animation-delay: 0.8s">
+    <g class="character" style="animation-delay: 0.8s">
       <text x="265" y="130" text-anchor="middle" font-size="30">🐕</text>
       <text x="265" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Жучка</text>
     </g>
     <text x="290" y="130" text-anchor="middle" font-size="16">←</text>
     
     <!-- Cat -->
-    <g style="animation-delay: 1s">
+    <g class="character" style="animation-delay: 1s">
       <text x="320" y="130" text-anchor="middle" font-size="30">🐱</text>
       <text x="320" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Кошка</text>
     </g>
     <text x="345" y="130" text-anchor="middle" font-size="16">←</text>
     
     <!-- Mouse -->
-    <g style="animation-delay: 1.2s">
+    <g class="character" style="animation-delay: 1.2s">
       <text x="375" y="130" text-anchor="middle" font-size="30">🐭</text>
       <text x="375" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#166534">Мышка</text>
     </g>

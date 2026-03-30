@@ -1,16 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  
+  <defs>
+    <style>
+      @keyframes twinkle { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(0.8); } }
+      @keyframes swing { 0%, 100% { transform: rotate(-5deg); } 50% { transform: rotate(5deg); } }
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      @keyframes glow { 0%, 100% { fill: #FFD700; } 50% { fill: #FFA000; } }
+      .twinkle { animation: twinkle 1s ease-in-out infinite; }
+      .swing { animation: swing 2s ease-in-out infinite; transform-origin: top center; }
+      .bounce { animation: bounce 1.5s ease-in-out infinite; }
+      .glow { animation: glow 2s ease-in-out infinite; }
+    </style>
+  </defs>
   <rect width="500" height="350" fill="#E3F2FD"/>
   
   <!-- 雪花背景 -->
-  <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  <g class="twinkle">
     <text x="50" y="80" font-size="20">❄</text>
     <text x="120" y="60" font-size="15">❄</text>
     <text x="400" y="70" font-size="18">❄</text>
     <text x="450" y="100" font-size="14">❄</text>
   </g>
-  <g style="animation-delay: 0.5s">
+  <g class="twinkle" style="animation-delay: 0.5s">
     <text x="80" y="120" font-size="12">❄</text>
     <text x="430" y="130" font-size="16">❄</text>
   </g>
@@ -19,22 +29,18 @@
   <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1565C0">🎄 Урок 4: Праздничные песни 🎉</text>
   
   <!-- 新年树 -->
-  <g>
+  <g class="swing">
     <polygon points="150,250 100,180 120,180 80,120 100,120 70,70 150,70 130,120 150,120 110,180 130,180" fill="#4CAF50"/>
     <rect x="140" y="250" width="20" height="30" fill="#795548"/>
-    <circle cx="110" cy="100" r="6" fill="#F44336">
-    <animate attributeName="r" values="6;8;6" dur="3s" repeatCount="indefinite"/>
-  </circle>
-    <circle cx="130" cy="130" r="5" fill="#2196F3" style="animation-delay: 0.3s">
-    <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
-  </circle>
-    <circle cx="100" cy="150" r="6" fill="#FFD54F" style="animation-delay: 0.6s"/>
-    <circle cx="125" cy="170" r="5" fill="#E91E63" style="animation-delay: 0.9s"/>
-    <polygon points="150,60 145,75 155,75" fill="#FFD54F"/>
+    <circle cx="110" cy="100" r="6" fill="#F44336" class="glow"/>
+    <circle cx="130" cy="130" r="5" fill="#2196F3" class="glow" style="animation-delay: 0.3s"/>
+    <circle cx="100" cy="150" r="6" fill="#FFD54F" class="glow" style="animation-delay: 0.6s"/>
+    <circle cx="125" cy="170" r="5" fill="#E91E63" class="glow" style="animation-delay: 0.9s"/>
+    <polygon points="150,60 145,75 155,75" fill="#FFD54F" class="glow"/>
   </g>
   
   <!-- 礼物盒 -->
-  <g>
+  <g class="bounce">
     <rect x="250" y="200" width="60" height="50" rx="5" fill="#E91E63"/>
     <rect x="245" y="195" width="70" height="15" fill="#E91E63"/>
     <rect x="275" y="200" width="10" height="50" fill="#FFD54F"/>
@@ -46,7 +52,7 @@
   <g>
     <rect x="370" y="180" width="20" height="70" rx="3" fill="#FFECB3"/>
     <rect x="380" y="200" width="2" height="50" fill="#FFC107"/>
-    <ellipse cx="381" cy="175" rx="8" ry="12" fill="#FF9800"/>
+    <ellipse cx="381" cy="175" rx="8" ry="12" fill="#FF9800" class="glow"/>
     <ellipse cx="381" cy="172" rx="4" ry="8" fill="#FFEB3B"/>
   </g>
   
@@ -59,15 +65,15 @@
     <line x1="50" y1="312" x2="200" y2="312"/>
   </g>
   
-  <g style="animation-delay: 0.2s">
+  <g class="bounce" style="animation-delay: 0.2s">
     <ellipse cx="70" cy="296" rx="8" ry="6" fill="#E91E63"/>
     <rect x="76" y="268" width="2" height="28" fill="#E91E63"/>
   </g>
-  <g style="animation-delay: 0.4s">
+  <g class="bounce" style="animation-delay: 0.4s">
     <ellipse cx="110" cy="288" rx="8" ry="6" fill="#4CAF50"/>
     <rect x="116" y="260" width="2" height="28" fill="#4CAF50"/>
   </g>
-  <g style="animation-delay: 0.6s">
+  <g class="bounce" style="animation-delay: 0.6s">
     <ellipse cx="150" cy="304" rx="8" ry="6" fill="#2196F3"/>
     <rect x="156" y="276" width="2" height="28" fill="#2196F3"/>
   </g>

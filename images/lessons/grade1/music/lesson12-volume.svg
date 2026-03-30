@@ -1,5 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  
+  <defs>
+    <style>
+      @keyframes loud { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.2); opacity: 0.8; } }
+      @keyframes quiet { 0%, 100% { transform: scale(1); opacity: 0.6; } 50% { transform: scale(0.9); opacity: 0.4; } }
+      @keyframes wave-loud { 0%, 100% { transform: scaleX(1); } 50% { transform: scaleX(1.5); } }
+      @keyframes wave-quiet { 0%, 100% { transform: scaleX(1); } 50% { transform: scaleX(1.1); } }
+      @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.8; } }
+      .loud { animation: loud 0.5s ease-in-out infinite; }
+      .quiet { animation: quiet 1.5s ease-in-out infinite; }
+      .wave-loud { animation: wave-loud 0.5s ease-in-out infinite; transform-origin: left center; }
+      .wave-quiet { animation: wave-quiet 1.5s ease-in-out infinite; transform-origin: left center; }
+      .pulse { animation: pulse 1s ease-in-out infinite; }
+    </style>
+  </defs>
   <rect width="500" height="350" fill="#ECEFF1"/>
   
   <!-- 标题 -->
@@ -14,27 +27,22 @@
   <text x="130" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#E53935">(форте - f)</text>
   
   <!-- 大喇叭 -->
-  <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  <g class="loud">
     <polygon points="60,150 120,130 120,210 60,190" fill="#E53935"/>
     <rect x="50" y="155" width="15" height="30" fill="#C62828"/>
-    <circle cx="50" cy="170" r="20" fill="#EF5350">
-    <animate attributeName="r" values="20;22;20" dur="3s" repeatCount="indefinite"/>
-  </circle>
-    <circle cx="50" cy="170" r="12" fill="#E53935">
-    <animate attributeName="r" values="12;14;12" dur="3s" repeatCount="indefinite"/>
-  </circle>
+    <circle cx="50" cy="170" r="20" fill="#EF5350"/>
+    <circle cx="50" cy="170" r="12" fill="#E53935"/>
   </g>
   
   <!-- 大声波 -->
-  <g>
+  <g class="wave-loud">
     <path d="M130 160 Q150 150 150 170 Q150 190 130 180" stroke="#C62828" stroke-width="3" fill="none"/>
     <path d="M155 150 Q180 135 180 170 Q180 205 155 190" stroke="#C62828" stroke-width="2" fill="none"/>
-    <path d="M185 140 Q215 120 215 170 Q215 220 185 200" stroke="#C62828" stroke-width="2" fill="none"/>
+    <path d="M185 140 Q215 120 215 170 Q215 220 185 200" stroke="#C62828" stroke-width="2" fill="none" class="pulse"/>
   </g>
   
   <!-- 强音符 -->
-  <g>
+  <g class="loud">
     <ellipse cx="180" cy="230" rx="15" ry="10" fill="#C62828"/>
     <rect x="193" y="180" width="4" height="50" fill="#C62828"/>
     <path d="M197 180 Q215 195 197 215" fill="#C62828"/>
@@ -46,7 +54,7 @@
   <text x="370" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#388E3C">(пиано - p)</text>
   
   <!-- 小喇叭 -->
-  <g>
+  <g class="quiet">
     <polygon points="300,150 340,140 340,200 300,190" fill="#43A047"/>
     <rect x="290" y="155" width="15" height="25" fill="#2E7D32"/>
     <circle cx="290" cy="168" r="15" fill="#66BB6A"/>
@@ -54,20 +62,20 @@
   </g>
   
   <!-- 小声波 -->
-  <g>
+  <g class="wave-quiet">
     <path d="M350 160 Q365 155 365 168 Q365 180 350 175" stroke="#2E7D32" stroke-width="2" fill="none"/>
     <path d="M370 155 Q390 145 390 168 Q390 190 370 180" stroke="#2E7D32" stroke-width="1" fill="none"/>
   </g>
   
   <!-- 弱音符 -->
-  <g>
+  <g class="quiet">
     <ellipse cx="420" cy="230" rx="10" ry="7" fill="#388E3C"/>
     <rect x="428" y="195" width="2" height="35" fill="#388E3C"/>
     <path d="M430 195 Q442 205 430 218" fill="#388E3C"/>
   </g>
   
   <!-- 小动物睡觉 -->
-  <g>
+  <g class="quiet">
     <ellipse cx="380" cy="250" rx="20" ry="15" fill="#A1887F"/>
     <circle cx="365" cy="245" r="10" fill="#BCAAA4"/>
     <path d="M360 242 Q365 240 370 242" stroke="#5D4037" stroke-width="1" fill="none"/>

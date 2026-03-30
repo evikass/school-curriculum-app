@@ -9,15 +9,34 @@
       <stop offset="100%" style="stop-color:#eab308;stop-opacity:1" />
     </linearGradient>
   </defs>
-  
+  <style>
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    @keyframes rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    .num4 { animation: pulse 2s ease-in-out infinite; transform-origin: center; }
+    .num5 { animation: pulse 2s ease-in-out infinite 0.5s; transform-origin: center; }
+    .chair { animation: bounce 2.5s ease-in-out infinite; }
+    .star { animation: twinkle 1.5s ease-in-out infinite; }
+    .sun { animation: rotate 10s linear infinite; transform-origin: 340px 60px; }
+  </style>
   <!-- Background -->
   <rect width="400" height="400" fill="#ecfdf5" rx="20"/>
   <!-- Sun -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0" dur="2s" repeatCount="indefinite"/>
-    <circle cx="340" cy="60" r="25" fill="#fbbf24">
-    <animate attributeName="r" values="25;27;25" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <g class="sun">
+    <circle cx="340" cy="60" r="25" fill="#fbbf24"/>
     <g stroke="#fbbf24" stroke-width="3">
       <line x1="340" y1="25" x2="340" y2="10"/>
       <line x1="365" y1="35" x2="375" y2="25"/>
@@ -29,25 +48,25 @@
     </g>
   </g>
   <!-- Stars -->
-  <polygon points="50,40 55,55 70,55 58,65 63,80 50,70 37,80 42,65 30,55 45,55" fill="#fcd34d"/>
-  <polygon points="80,350 83,358 92,358 85,363 88,372 80,367 72,372 75,363 68,358 77,358" fill="#a5f3fc" style="animation-delay: 0.5s"/>
+  <polygon class="star" points="50,40 55,55 70,55 58,65 63,80 50,70 37,80 42,65 30,55 45,55" fill="#fcd34d"/>
+  <polygon class="star" points="80,350 83,358 92,358 85,363 88,372 80,367 72,372 75,363 68,358 77,358" fill="#a5f3fc" style="animation-delay: 0.5s"/>
   <!-- Number 4 (chair shape) -->
-  <g transform="translate(70, 100)">
+  <g class="num4" transform="translate(70, 100)">
     <text x="0" y="140" font-size="150" font-weight="bold" fill="url(#grad4)" font-family="Arial, sans-serif">4</text>
   </g>
   <!-- Chair decoration -->
-  <g transform="translate(90, 280)">
+  <g class="chair" transform="translate(90, 280)">
     <rect x="0" y="0" width="50" height="10" fill="#a78bfa" rx="3"/>
     <rect x="5" y="10" width="10" height="40" fill="#a78bfa"/>
     <rect x="35" y="10" width="10" height="40" fill="#a78bfa"/>
     <rect x="0" y="-30" width="10" height="30" fill="#a78bfa"/>
   </g>
   <!-- Number 5 (star/hook shape) -->
-  <g transform="translate(200, 100)">
+  <g class="num5" transform="translate(200, 100)">
     <text x="0" y="140" font-size="150" font-weight="bold" fill="url(#grad5)" font-family="Arial, sans-serif">5</text>
   </g>
   <!-- Star decoration for 5 -->
-  <g transform="translate(280, 280)">
+  <g class="star" transform="translate(280, 280)">
     <polygon points="25,0 30,18 50,18 34,30 40,50 25,38 10,50 16,30 0,18 20,18" fill="#fcd34d"/>
   </g>
   <!-- Hand with 5 fingers -->

@@ -1,47 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <style>
-      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }
-      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
-      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-15px); } }
-      @keyframes sparkle { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
-      @keyframes wag { 0%, 100% { transform: rotate(-5deg); } 50% { transform: rotate(5deg); } }
-      .animate { animation: bounce 2s ease-in-out infinite; }
-      .pulse { animation: pulse 1.5s ease-in-out infinite; }
-      .float { animation: float 3s ease-in-out infinite; }
-      .sparkle { animation: sparkle 1.5s ease-in-out infinite; }
-      .wag { animation: wag 0.5s ease-in-out infinite; }
-    </style>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#9B59B6;stop-opacity:0.3" />
-      <stop offset="100%" style="stop-color:#9B59B6;stop-opacity:0.1" />
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#AD1457;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#FCE4EC;stop-opacity:0.5"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00897B;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#AD1457;stop-opacity:0.7"/>
     </linearGradient>
   </defs>
   
-  <rect width="500" height="350" fill="url(#bg)"/>
-  <rect width="500" height="350" fill="#FFF5E6" opacity="0.7"/>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#skyGradient)"/>
+  <rect width="500" height="350" fill="#FCE4EC" opacity="0.4"/>
   
-  <circle cx="50" cy="50" r="40" fill="#9B59B6" opacity="0.2"/>
-  <circle cx="450" cy="300" r="50" fill="#9B59B6" opacity="0.15"/>
-  <circle cx="400" cy="60" r="30" fill="#9B59B6" opacity="0.1"/>
+  <!-- Decorative elements -->
+  <circle cx="450" cy="50" r="40" fill="#AD1457" opacity="0.15">
+    <animate attributeName="r" values="38;42;38" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="300" r="30" fill="#00897B" opacity="0.15">
+    <animate attributeName="r" values="28;32;28" dur="3s" repeatCount="indefinite"/>
+  </circle>
   
-  <text x="250" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333" text-anchor="middle">✒️ А.С. Пушкин</text>
-  <rect x="80" y="50" width="340" height="3" rx="2" fill="#9B59B6" opacity="0.6"/>
+  <!-- Header -->
+  <rect x="50" y="25" width="400" height="50" rx="10" fill="url(#accentGradient)" opacity="0.8"/>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">📖 Урок 5</text>
   
-  <g class="animate" transform="translate(250, 180)">
-    <circle cx="0" cy="0" r="60" fill="#9B59B6" opacity="0.3"/>
-    <circle cx="0" cy="0" r="45" fill="#9B59B6" opacity="0.5"/>
-    <text x="0" y="20" font-size="60" text-anchor="middle">✒️</text>
+  <!-- Topic box -->
+  <rect x="50" y="90" width="400" height="60" rx="8" fill="#FFFFFF" opacity="0.9" stroke="#AD1457" stroke-width="2"/>
+  <text x="250" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#AD1457" text-anchor="middle">Басни И.А. Крылова</text>
+  
+  <!-- Content area -->
+  <rect x="50" y="165" width="400" height="140" rx="8" fill="#FFFFFF" opacity="0.7" stroke="#AD1457" stroke-width="1"/>
+  
+  <!-- Visual elements based on subject -->
+  <g transform="translate(250, 235)">
+    <!-- Subject-specific visual -->
+    <circle cx="0" cy="0" r="50" fill="#AD1457" opacity="0.2">
+      <animate attributeName="r" values="48;52;48" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="35" fill="#00897B" opacity="0.3"/>
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="32" text-anchor="middle">📖</text>
   </g>
   
-  <circle class="sparkle" cx="100" cy="100" r="4" fill="#9B59B6" style="animation-delay: 0s"/>
-  <circle class="sparkle" cx="400" cy="120" r="5" fill="#9B59B6" style="animation-delay: 0.3s"/>
-  <circle class="sparkle" cx="150" cy="280" r="3" fill="#9B59B6" style="animation-delay: 0.6s"/>
-  <circle class="sparkle" cx="350" cy="260" r="4" fill="#9B59B6" style="animation-delay: 0.9s"/>
+  <!-- Progress indicator -->
+  <rect x="50" y="320" width="400" height="8" rx="4" fill="#E0E0E0"/>
+  <rect x="50" y="320" width="200" height="8" rx="4" fill="#00897B"/>
   
-  <rect x="50" y="310" width="400" height="8" rx="4" fill="#9B59B6" opacity="0.4"/>
-  <rect x="100" y="325" width="300" height="4" rx="2" fill="#9B59B6" opacity="0.3"/>
-  
-  <text x="30" y="330" font-size="16" opacity="0.4">✒️</text>
-  <text x="450" y="330" font-size="16" opacity="0.4">✒️</text>
+  <!-- Lesson number badge -->
+  <circle cx="440" cy="310" r="20" fill="#AD1457"/>
+  <text x="440" y="316" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
 </svg>

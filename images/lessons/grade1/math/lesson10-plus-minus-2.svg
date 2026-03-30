@@ -1,5 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  
+  <style>
+    @keyframes double-hop {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(25px); }
+      50% { transform: translateX(50px); }
+      75% { transform: translateX(50px); }
+    }
+    @keyframes step-step {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(25px); }
+      50% { transform: translateX(50px); }
+      75% { transform: translateX(50px); }
+      100% { transform: translateX(50px); }
+    }
+    @keyframes bounce-light {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    .rabbit { animation: double-hop 2s ease-in-out infinite; }
+    .example { animation: bounce-light 2s ease-in-out infinite; }
+  </style>
   <!-- Background -->
   <rect width="400" height="400" fill="#fefce8" rx="20"/>
   <!-- Decorative carrots -->
@@ -14,11 +34,9 @@
   <!-- Title -->
   <text x="200" y="45" font-size="22" fill="#ca8a04" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">ПРИБАВИТЬ И ВЫЧЕСТЬ 2</text>
   <!-- Rabbit jumping -->
-  <g transform="translate(60, 70)">
+  <g class="rabbit" transform="translate(60, 70)">
     <ellipse cx="30" cy="45" rx="22" ry="18" fill="#faf5ff"/>
-    <circle cx="30" cy="25" r="14" fill="#faf5ff">
-    <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite"/>
-  </circle>
+    <circle cx="30" cy="25" r="14" fill="#faf5ff"/>
     <ellipse cx="22" cy="8" rx="4" ry="14" fill="#faf5ff"/>
     <ellipse cx="38" cy="8" rx="4" ry="14" fill="#faf5ff"/>
     <circle cx="25" cy="22" r="2.5" fill="#1e293b"/>
@@ -38,9 +56,7 @@
   <g transform="translate(30, 150)">
     <line x1="0" y1="20" x2="340" y2="20" stroke="#ca8a04" stroke-width="3"/>
     <!-- Numbers -->
-    <circle cx="0" cy="20" r="18" fill="#fef3c7" stroke="#eab308" stroke-width="2">
-    <animate attributeName="r" values="18;20;18" dur="3s" repeatCount="indefinite"/>
-  </circle>
+    <circle cx="0" cy="20" r="18" fill="#fef3c7" stroke="#eab308" stroke-width="2"/>
     <text x="0" y="26" font-size="16" fill="#78350f" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">1</text>
     
     <circle cx="68" cy="20" r="18" fill="#fef3c7" stroke="#eab308" stroke-width="2"/>
@@ -67,23 +83,23 @@
   <g transform="translate(30, 230)">
     <text x="170" y="0" font-size="16" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">ПРИМЕРЫ:</text>
     <!-- +2 examples -->
-    <g transform="translate(0, 20)">
+    <g class="example" transform="translate(0, 20)">
       <rect x="0" y="0" width="155" height="50" fill="#ecfdf5" rx="8"/>
       <text x="77" y="20" font-size="18" fill="#16a34a" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">3 + 2 = 5</text>
       <text x="77" y="40" font-size="10" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">3→4→5</text>
     </g>
-    <g style="animation-delay: 0.3s" transform="translate(170, 20)">
+    <g class="example" style="animation-delay: 0.3s" transform="translate(170, 20)">
       <rect x="0" y="0" width="155" height="50" fill="#ecfdf5" rx="8"/>
       <text x="77" y="20" font-size="18" fill="#16a34a" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">4 + 2 = 6</text>
       <text x="77" y="40" font-size="10" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">4→5→6</text>
     </g>
     <!-- -2 examples -->
-    <g style="animation-delay: 0.6s" transform="translate(0, 80)">
+    <g class="example" style="animation-delay: 0.6s" transform="translate(0, 80)">
       <rect x="0" y="0" width="155" height="50" fill="#fef2f2" rx="8"/>
       <text x="77" y="20" font-size="18" fill="#dc2626" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">6 − 2 = 4</text>
       <text x="77" y="40" font-size="10" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">6→5→4</text>
     </g>
-    <g style="animation-delay: 0.9s" transform="translate(170, 80)">
+    <g class="example" style="animation-delay: 0.9s" transform="translate(170, 80)">
       <rect x="0" y="0" width="155" height="50" fill="#fef2f2" rx="8"/>
       <text x="77" y="20" font-size="18" fill="#dc2626" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">5 − 2 = 3</text>
       <text x="77" y="40" font-size="10" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">5→4→3</text>

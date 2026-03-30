@@ -1,5 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  
+  <defs>
+    <style>
+      @keyframes fillAnim { 0% { fill-opacity: 0; } 100% { fill-opacity: 1; } }
+      @keyframes draw { 0% { stroke-dashoffset: 300; } 100% { stroke-dashoffset: 0; } }
+      .fill { animation: fillAnim 3s ease-in-out infinite alternate; }
+      .draw { stroke-dasharray: 300; animation: draw 4s ease-in-out infinite; }
+    </style>
+  </defs>
   <rect width="500" height="350" fill="#FFF5EE"/>
   
   <!-- Заголовок -->
@@ -7,53 +14,48 @@
   
   <!-- Только контур -->
   <text x="100" y="80" text-anchor="middle" font-size="14" fill="#333" font-weight="bold">Только контур</text>
-  <circle cx="100" cy="150" r="50" fill="none" stroke="#C71585" stroke-width="4"/>
+  <circle cx="100" cy="150" r="50" fill="none" stroke="#C71585" stroke-width="4" class="draw"/>
   
   <!-- Только заливка -->
   <text x="250" y="80" text-anchor="middle" font-size="14" fill="#333" font-weight="bold">Только заливка</text>
-  <circle cx="250" cy="150" r="50" fill="#FF69B4">
-    <animate attributeName="r" values="50;52;50" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="250" cy="150" r="50" fill="#FF69B4" class="fill"/>
   
   <!-- Контур + заливка -->
   <text x="400" y="80" text-anchor="middle" font-size="14" fill="#333" font-weight="bold">Контур + заливка</text>
   <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
-    <circle cx="400" cy="150" r="50" fill="#FFB6C1">
-    <animate attributeName="r" values="50;52;50" dur="3s" repeatCount="indefinite"/>
-  </circle>
-    <circle cx="400" cy="150" r="50" fill="none" stroke="#C71585" stroke-width="4"/>
+    <circle cx="400" cy="150" r="50" fill="#FFB6C1" class="fill"/>
+    <circle cx="400" cy="150" r="50" fill="none" stroke="#C71585" stroke-width="4" class="draw"/>
   </g>
   
   <!-- Примеры с разными фигурами -->
   <g transform="translate(50, 220)">
     <!-- Квадрат контур -->
-    <rect x="0" y="0" width="60" height="60" fill="none" stroke="#9370DB" stroke-width="3"/>
+    <rect x="0" y="0" width="60" height="60" fill="none" stroke="#9370DB" stroke-width="3" class="draw"/>
     <text x="30" y="80" text-anchor="middle" font-size="10" fill="#333">Контур</text>
   </g>
   
   <g transform="translate(120, 220)">
     <!-- Квадрат заливка -->
-    <rect x="0" y="0" width="60" height="60" fill="#9370DB"/>
+    <rect x="0" y="0" width="60" height="60" fill="#9370DB" class="fill"/>
     <text x="30" y="80" text-anchor="middle" font-size="10" fill="#333">Заливка</text>
   </g>
   
   <g transform="translate(190, 220)">
     <!-- Треугольник контур -->
-    <polygon points="30,0 0,60 60,60" fill="none" stroke="#FF6347" stroke-width="3"/>
+    <polygon points="30,0 0,60 60,60" fill="none" stroke="#FF6347" stroke-width="3" class="draw"/>
     <text x="30" y="80" text-anchor="middle" font-size="10" fill="#333">Контур</text>
   </g>
   
   <g transform="translate(260, 220)">
     <!-- Треугольник заливка -->
-    <polygon points="30,0 0,60 60,60" fill="#FF6347"/>
+    <polygon points="30,0 0,60 60,60" fill="#FF6347" class="fill"/>
     <text x="30" y="80" text-anchor="middle" font-size="10" fill="#333">Заливка</text>
   </g>
   
   <g transform="translate(330, 220)">
     <!-- Звезда контур+заливка -->
-    <polygon points="30,5 35,25 55,25 40,40 45,60 30,50 15,60 20,40 5,25 25,25" fill="#FFD700"/>
-    <polygon points="30,5 35,25 55,25 40,40 45,60 30,50 15,60 20,40 5,25 25,25" fill="none" stroke="#FF8C00" stroke-width="2"/>
+    <polygon points="30,5 35,25 55,25 40,40 45,60 30,50 15,60 20,40 5,25 25,25" fill="#FFD700" class="fill"/>
+    <polygon points="30,5 35,25 55,25 40,40 45,60 30,50 15,60 20,40 5,25 25,25" fill="none" stroke="#FF8C00" stroke-width="2" class="draw"/>
     <text x="30" y="80" text-anchor="middle" font-size="10" fill="#333">Вместе</text>
   </g>
   

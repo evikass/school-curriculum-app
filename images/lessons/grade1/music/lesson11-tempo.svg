@@ -1,5 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  
+  <defs>
+    <style>
+      @keyframes slow { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(5px); } }
+      @keyframes fast { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(20px); } }
+      @keyframes pulse-slow { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+      @keyframes pulse-fast { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.2); } }
+      @keyframes turtle { 0%, 100% { transform: translateX(0); } 100% { transform: translateX(10px); } }
+      @keyframes rabbit { 0%, 100% { transform: translateX(0); } 100% { transform: translateX(40px); } }
+      .slow { animation: slow 2s ease-in-out infinite; }
+      .fast { animation: fast 0.5s ease-in-out infinite; }
+      .pulse-slow { animation: pulse-slow 2s ease-in-out infinite; }
+      .pulse-fast { animation: pulse-fast 0.5s ease-in-out infinite; }
+      .turtle { animation: turtle 3s ease-in-out infinite; }
+      .rabbit { animation: rabbit 0.8s ease-in-out infinite; }
+    </style>
+  </defs>
   <rect width="500" height="350" fill="#FFFDE7"/>
   
   <!-- 标题 -->
@@ -13,27 +28,22 @@
   <text x="130" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FBC02D">🐢 Медленно</text>
   
   <!-- 乌龟 -->
-  <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  <g class="turtle">
     <ellipse cx="100" cy="160" rx="40" ry="30" fill="#8D6E63"/>
     <ellipse cx="100" cy="155" rx="35" ry="25" fill="#A1887F"/>
-    <circle cx="55" cy="150" r="12" fill="#8D6E63">
-    <animate attributeName="r" values="12;14;12" dur="3s" repeatCount="indefinite"/>
-  </circle>
-    <circle cx="48" cy="147" r="3" fill="#5D4037">
-    <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/>
-  </circle>
+    <circle cx="55" cy="150" r="12" fill="#8D6E63"/>
+    <circle cx="48" cy="147" r="3" fill="#5D4037"/>
     <ellipse cx="70" cy="185" rx="8" ry="5" fill="#8D6E63"/>
     <ellipse cx="130" cy="185" rx="8" ry="5" fill="#8D6E63"/>
     <path d="M70 155 Q85 145 100 155 Q115 145 130 155" stroke="#6D4C41" stroke-width="2" fill="none"/>
   </g>
   
   <!-- 慢速音符 -->
-  <g>
+  <g class="pulse-slow">
     <ellipse cx="180" cy="130" rx="12" ry="8" fill="#FBC02D"/>
     <rect x="190" y="90" width="3" height="40" fill="#FBC02D"/>
   </g>
-  <g style="animation-delay: 1s">
+  <g class="pulse-slow" style="animation-delay: 1s">
     <ellipse cx="180" cy="200" rx="12" ry="8" fill="#F9A825"/>
     <rect x="190" y="160" width="3" height="40" fill="#F9A825"/>
   </g>
@@ -43,7 +53,7 @@
   <text x="370" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FF8F00">🐰 Быстро</text>
   
   <!-- 兔子 -->
-  <g>
+  <g class="rabbit">
     <ellipse cx="350" cy="170" rx="30" ry="35" fill="#FAFAFA"/>
     <ellipse cx="340" cy="135" rx="8" ry="25" fill="#FAFAFA"/>
     <ellipse cx="360" cy="135" rx="8" ry="25" fill="#FAFAFA"/>
@@ -57,19 +67,19 @@
   </g>
   
   <!-- 快速音符 -->
-  <g>
+  <g class="pulse-fast">
     <ellipse cx="420" cy="120" rx="10" ry="7" fill="#FF8F00"/>
     <rect x="428" y="85" width="2" height="35" fill="#FF8F00"/>
   </g>
-  <g style="animation-delay: 0.25s">
+  <g class="pulse-fast" style="animation-delay: 0.25s">
     <ellipse cx="440" cy="140" rx="10" ry="7" fill="#FFA000"/>
     <rect x="448" y="105" width="2" height="35" fill="#FFA000"/>
   </g>
-  <g style="animation-delay: 0.5s">
+  <g class="pulse-fast" style="animation-delay: 0.5s">
     <ellipse cx="420" cy="200" rx="10" ry="7" fill="#FFB300"/>
     <rect x="428" y="165" width="2" height="35" fill="#FFB300"/>
   </g>
-  <g style="animation-delay: 0.75s">
+  <g class="pulse-fast" style="animation-delay: 0.75s">
     <ellipse cx="440" cy="220" rx="10" ry="7" fill="#FFC107"/>
     <rect x="448" y="185" width="2" height="35" fill="#FFC107"/>
   </g>

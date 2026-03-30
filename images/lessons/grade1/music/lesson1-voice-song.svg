@@ -1,5 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-15px); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      @keyframes wave { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(1.5); } }
+      .note1 { animation: bounce 1.5s ease-in-out infinite; }
+      .note2 { animation: bounce 1.8s ease-in-out infinite 0.3s; }
+      .note3 { animation: float 2s ease-in-out infinite 0.5s; }
+      .wave { animation: wave 1s ease-in-out infinite; transform-origin: center; }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+    </style>
+  </defs>
   <rect width="500" height="350" fill="#E8F5E9"/>
   
   <!-- 标题 -->
@@ -7,36 +19,33 @@
   
   <!-- 歌唱人物 -->
   <ellipse cx="120" cy="200" rx="35" ry="45" fill="#FFCC80"/>
-  <circle cx="120" cy="145" r="30" fill="#FFCC80">
-    <animate attributeName="r" values="30;32;30" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="120" cy="145" r="30" fill="#FFCC80"/>
   <ellipse cx="108" cy="140" rx="5" ry="6" fill="#5D4037"/>
   <ellipse cx="132" cy="140" rx="5" ry="6" fill="#5D4037"/>
   <path d="M110 160 Q120 170 130 160" stroke="#5D4037" stroke-width="2" fill="none"/>
-  <ellipse cx="135" cy="175" rx="8" ry="5" fill="#F48FB1"/>
+  <ellipse cx="135" cy="175" rx="8" ry="5" fill="#F48FB1" class="pulse"/>
   
   <!-- 音符群 -->
-  <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  <g class="note1">
     <ellipse cx="200" cy="120" rx="12" ry="9" fill="#E91E63"/>
     <rect x="210" y="70" width="3" height="50" fill="#E91E63"/>
     <path d="M213 70 Q230 80 213 95" fill="#E91E63"/>
   </g>
   
-  <g>
+  <g class="note2">
     <ellipse cx="280" cy="140" rx="12" ry="9" fill="#9C27B0"/>
     <rect x="290" y="90" width="3" height="50" fill="#9C27B0"/>
     <path d="M293 90 Q310 100 293 115" fill="#9C27B0"/>
   </g>
   
-  <g>
+  <g class="note3">
     <ellipse cx="350" cy="110" rx="12" ry="9" fill="#FF5722"/>
     <rect x="360" y="60" width="3" height="50" fill="#FF5722"/>
     <path d="M363 60 Q380 70 363 85" fill="#FF5722"/>
   </g>
   
   <!-- 声波 -->
-  <g>
+  <g class="wave">
     <path d="M160 180 Q175 160 190 180 Q205 200 220 180" stroke="#4CAF50" stroke-width="3" fill="none"/>
     <path d="M170 200 Q185 180 200 200 Q215 220 230 200" stroke="#4CAF50" stroke-width="3" fill="none"/>
   </g>

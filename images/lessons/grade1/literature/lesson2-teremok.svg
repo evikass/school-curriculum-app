@@ -1,11 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  
+  <style>
+    @keyframes sway {
+      0%, 100% { transform: translate(120px, 150px) rotate(-2deg); }
+      50% { transform: translate(120px, 150px) rotate(2deg); }
+    }
+    @keyframes bounce1 {
+      0%, 100% { transform: translate(30px, 290px) translateY(0); }
+      50% { transform: translate(30px, 290px) translateY(-5px); }
+    }
+    @keyframes bounce2 {
+      0%, 100% { transform: translate(60px, 290px) translateY(0); }
+      50% { transform: translate(60px, 290px) translateY(-5px); }
+    }
+    @keyframes bounce3 {
+      0%, 100% { transform: translate(100px, 285px) translateY(0); }
+      50% { transform: translate(100px, 285px) translateY(-5px); }
+    }
+    @keyframes bounce4 {
+      0%, 100% { transform: translate(140px, 280px) translateY(0); }
+      50% { transform: translate(140px, 280px) translateY(-5px); }
+    }
+    @keyframes bounce5 {
+      0%, 100% { transform: translate(180px, 275px) translateY(0); }
+      50% { transform: translate(180px, 275px) translateY(-5px); }
+    }
+    @keyframes bounce6 {
+      0%, 100% { transform: translate(300px, 140px) translateY(0); }
+      50% { transform: translate(300px, 140px) translateY(-5px); }
+    }
+    @keyframes blink {
+      0%, 90%, 100% { transform: scaleY(1); }
+      95% { transform: scaleY(0.1); }
+    }
+    .house { animation: sway 4s ease-in-out infinite; transform-origin: 200px 270px; }
+    .animal1 { animation: bounce1 2s ease-in-out infinite; }
+    .animal2 { animation: bounce2 2s ease-in-out infinite 0.2s; }
+    .animal3 { animation: bounce3 2s ease-in-out infinite 0.4s; }
+    .animal4 { animation: bounce4 2s ease-in-out infinite 0.6s; }
+    .animal5 { animation: bounce5 2s ease-in-out infinite 0.8s; }
+    .animal6 { animation: bounce6 2s ease-in-out infinite 1s; }
+    .eye { animation: blink 3s ease-in-out infinite; transform-origin: center; }
+  </style>
   <!-- Background -->
   <rect width="400" height="400" fill="#f0fdf4" rx="20"/>
   <!-- Sun -->
-  <circle cx="350" cy="50" r="30" fill="#fbbf24">
-    <animate attributeName="r" values="30;32;30" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="350" cy="50" r="30" fill="#fbbf24"/>
   <g stroke="#fbbf24" stroke-width="3">
     <line x1="350" y1="10" x2="350" y2="0"/>
     <line x1="380" y1="20" x2="390" y2="10"/>
@@ -18,7 +57,7 @@
   <!-- Ground -->
   <ellipse cx="200" cy="380" rx="180" ry="20" fill="#86efac"/>
   <!-- Teremok (house) -->
-  <g transform="translate(120, 150)">
+  <g class="house">
     <!-- House body -->
     <rect x="0" y="80" width="160" height="120" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
     <!-- Roof -->
@@ -29,71 +68,69 @@
     <line x1="50" y1="135" x2="110" y2="135" stroke="#1e40af" stroke-width="2"/>
     <!-- Door -->
     <rect x="60" y="165" width="40" height="35" fill="#78350f" stroke="#451a03" stroke-width="2"/>
-    <circle cx="90" cy="185" r="4" fill="#fbbf24">
-    <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
-  </circle>
+    <circle cx="90" cy="185" r="4" fill="#fbbf24"/>
   </g>
   <!-- Animals queue -->
   <!-- Mouse -->
-  <g transform="translate(30, 290)">
+  <g class="animal1">
     <ellipse cx="20" cy="25" rx="15" ry="12" fill="#a8a29e"/>
     <circle cx="25" cy="15" r="10" fill="#a8a29e"/>
     <circle cx="30" cy="8" r="8" fill="#a8a29e"/>
     <ellipse cx="20" cy="18" rx="2" ry="6" fill="#fecaca"/>
-    <circle cx="28" cy="12" r="2" fill="#1e293b"/>
+    <circle class="eye" cx="28" cy="12" r="2" fill="#1e293b"/>
     <ellipse cx="42" cy="30" rx="8" ry="4" fill="#fecaca"/>
     <text x="20" y="55" font-size="10" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">Мышка</text>
   </g>
   <!-- Frog -->
-  <g style="animation-delay: 0.2s" transform="translate(60, 290)">
+  <g class="animal2">
     <ellipse cx="20" cy="30" rx="18" ry="14" fill="#22c55e"/>
     <circle cx="20" cy="18" r="12" fill="#22c55e"/>
     <circle cx="15" cy="14" r="4" fill="#fef3c7"/>
     <circle cx="25" cy="14" r="4" fill="#fef3c7"/>
-    <circle cx="15" cy="14" r="2" fill="#1e293b"/>
-    <circle cx="25" cy="14" r="2" fill="#1e293b"/>
+    <circle class="eye" cx="15" cy="14" r="2" fill="#1e293b"/>
+    <circle class="eye" cx="25" cy="14" r="2" fill="#1e293b"/>
     <text x="20" y="55" font-size="10" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">Лягушка</text>
   </g>
   <!-- Rabbit -->
-  <g style="animation-delay: 0.4s" transform="translate(100, 285)">
+  <g class="animal3">
     <ellipse cx="15" cy="35" rx="12" ry="15" fill="#faf5ff"/>
     <circle cx="15" cy="20" r="10" fill="#faf5ff"/>
     <ellipse cx="10" cy="5" rx="4" ry="12" fill="#faf5ff"/>
     <ellipse cx="20" cy="5" rx="4" ry="12" fill="#faf5ff"/>
-    <circle cx="12" cy="18" r="2" fill="#1e293b"/>
-    <circle cx="18" cy="18" r="2" fill="#1e293b"/>
+    <circle class="eye" cx="12" cy="18" r="2" fill="#1e293b"/>
+    <circle class="eye" cx="18" cy="18" r="2" fill="#1e293b"/>
     <text x="15" y="60" font-size="10" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">Зайчик</text>
   </g>
   <!-- Fox -->
-  <g style="animation-delay: 0.6s" transform="translate(140, 280)">
+  <g class="animal4">
     <ellipse cx="20" cy="35" rx="15" ry="12" fill="#f97316"/>
     <polygon points="5,20 20,5 35,20" fill="#f97316"/>
     <polygon points="10,10 5,0 15,15" fill="#f97316"/>
     <polygon points="30,10 35,0 25,15" fill="#f97316"/>
-    <circle cx="15" cy="18" r="2" fill="#1e293b"/>
-    <circle cx="25" cy="18" r="2" fill="#1e293b"/>
+    <circle class="eye" cx="15" cy="18" r="2" fill="#1e293b"/>
+    <circle class="eye" cx="25" cy="18" r="2" fill="#1e293b"/>
     <ellipse cx="20" cy="25" rx="3" ry="2" fill="#1e293b"/>
     <text x="20" y="60" font-size="10" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">Лисичка</text>
   </g>
   <!-- Wolf -->
-  <g style="animation-delay: 0.8s" transform="translate(180, 275)">
+  <g class="animal5">
     <ellipse cx="20" cy="40" rx="18" ry="15" fill="#6b7280"/>
     <ellipse cx="20" cy="25" rx="12" ry="10" fill="#6b7280"/>
     <polygon points="10,15 5,0 18,12" fill="#6b7280"/>
     <polygon points="30,15 35,0 22,12" fill="#6b7280"/>
-    <circle cx="15" cy="22" r="2" fill="#fbbf24"/>
-    <circle cx="25" cy="22" r="2" fill="#fbbf24"/>
+    <circle class="eye" cx="15" cy="22" r="2" fill="#fbbf24"/>
+    <circle class="eye" cx="25" cy="22" r="2" fill="#fbbf24"/>
     <ellipse cx="20" cy="28" rx="4" ry="3" fill="#1e293b"/>
     <text x="20" y="65" font-size="10" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">Волчок</text>
   </g>
   <!-- Bear (big, on roof) -->
-  <g style="animation-delay: 1s" transform="translate(300, 140)">
+  <g class="animal6">
     <ellipse cx="30" cy="50" rx="25" ry="20" fill="#78350f"/>
     <circle cx="30" cy="30" r="20" fill="#78350f"/>
     <circle cx="20" cy="25" r="5" fill="#a8a29e"/>
     <circle cx="40" cy="25" r="5" fill="#a8a29e"/>
-    <circle cx="20" cy="25" r="2" fill="#1e293b"/>
-    <circle cx="40" cy="25" r="2" fill="#1e293b"/>
+    <circle class="eye" cx="20" cy="25" r="2" fill="#1e293b"/>
+    <circle class="eye" cx="40" cy="25" r="2" fill="#1e293b"/>
     <ellipse cx="30" cy="35" rx="5" ry="3" fill="#1e293b"/>
     <circle cx="15" cy="15" r="8" fill="#78350f"/>
     <circle cx="45" cy="15" r="8" fill="#78350f"/>

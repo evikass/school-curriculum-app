@@ -1,10 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  
+  <style>
+    @keyframes swim {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      25% { transform: translateY(-5px) rotate(-3deg); }
+      75% { transform: translateY(5px) rotate(3deg); }
+    }
+    @keyframes sparkle {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(1.5); }
+    }
+    @keyframes wave {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(3px); }
+    }
+    .fish { animation: swim 3s ease-in-out infinite; }
+    .sparkle { animation: sparkle 1.5s ease-in-out infinite; }
+    .wave { animation: wave 2s ease-in-out infinite; }
+  </style>
   <!-- Background - sea -->
   <rect width="400" height="400" fill="#0ea5e9" rx="20"/>
   <!-- Waves -->
-  <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  <g class="wave">
     <path d="M 0 60 Q 50 40 100 60 Q 150 80 200 60 Q 250 40 300 60 Q 350 80 400 60" fill="#38bdf8"/>
     <path d="M 0 80 Q 50 60 100 80 Q 150 100 200 80 Q 250 60 300 80 Q 350 100 400 80" fill="#7dd3fc"/>
   </g>
@@ -16,15 +32,11 @@
     <!-- Body -->
     <rect x="20" y="50" width="50" height="70" fill="#78716c" rx="5"/>
     <!-- Head -->
-    <circle cx="45" cy="35" r="25" fill="#fef3c7">
-    <animate attributeName="r" values="25;27;25" dur="3s" repeatCount="indefinite"/>
-  </circle>
+    <circle cx="45" cy="35" r="25" fill="#fef3c7"/>
     <!-- Beard -->
     <path d="M 25 45 Q 45 90 65 45" fill="#e5e7eb"/>
     <!-- Eyes -->
-    <circle cx="38" cy="32" r="3" fill="#1e293b">
-    <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/>
-  </circle>
+    <circle cx="38" cy="32" r="3" fill="#1e293b"/>
     <circle cx="52" cy="32" r="3" fill="#1e293b"/>
     <!-- Hat -->
     <ellipse cx="45" cy="15" rx="22" ry="8" fill="#44403c"/>
@@ -34,7 +46,7 @@
     <line x1="150" y1="20" x2="150" y2="60" stroke="#64748b" stroke-width="1"/>
   </g>
   <!-- Golden fish -->
-  <g transform="translate(280, 180)">
+  <g class="fish" transform="translate(280, 180)">
     <!-- Body -->
     <ellipse cx="40" cy="40" rx="35" ry="25" fill="#fbbf24"/>
     <!-- Tail -->
@@ -48,8 +60,8 @@
     <!-- Crown -->
     <polygon points="30,10 35,25 45,25 50,10 50,28 30,28" fill="#fcd34d" stroke="#f59e0b" stroke-width="1"/>
     <!-- Sparkles -->
-    <polygon points="70,20 72,25 77,25 73,28 75,33 70,30 65,33 67,28 63,25 68,25" fill="#fef3c7"/>
-    <polygon style="animation-delay: 0.5s" points="25,5 26,8 29,8 27,10 28,13 25,11 22,13 23,10 21,8 24,8" fill="#fef3c7"/>
+    <polygon class="sparkle" points="70,20 72,25 77,25 73,28 75,33 70,30 65,33 67,28 63,25 68,25" fill="#fef3c7"/>
+    <polygon class="sparkle" style="animation-delay: 0.5s" points="25,5 26,8 29,8 27,10 28,13 25,11 22,13 23,10 21,8 24,8" fill="#fef3c7"/>
     <text x="40" y="80" font-size="10" fill="#fef3c7" text-anchor="middle" font-family="Arial, sans-serif">Золотая рыбка</text>
   </g>
   <!-- Old woman -->

@@ -1,118 +1,82 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="skyGrad4" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#F1F8E9;stop-opacity:1" />
+    <linearGradient id="sky4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D1C4E9;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#EDE7F6;stop-opacity:0.3"/>
     </linearGradient>
   </defs>
   
   <!-- Background -->
-  <rect width="500" height="350" fill="url(#skyGrad4)"/>
-  
-  <!-- Decorative elements -->
-  <circle cx="60" cy="60" r="30" fill="#4CAF50" opacity="0.15"/>
-  <circle cx="450" cy="290" r="40" fill="#4CAF50" opacity="0.12"/>
+  <rect width="500" height="350" fill="url(#sky4)"/>
+  <rect width="500" height="350" fill="#FCE4EC" opacity="0.3"/>
   
   <!-- Sun -->
-  <circle cx="430" cy="50" r="20" fill="#FFD700" opacity="0.8">
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
   </circle>
   
-  <!-- Trees -->
-  <g opacity="0.3">
-    <ellipse cx="40" cy="290" rx="25" ry="40" fill="#228B22"/>
-    <rect x="35" y="290" width="10" height="25" fill="#8B4513"/>
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#6A1B9A" text-anchor="middle">🔚 Окончание</text>
+  <rect x="100" y="42" width="300" height="2" rx="1" fill="#AB47BC" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#CE93D8" opacity="0.4"/>
+  
+  <!-- Word form changes -->
+  <g transform="translate(50, 100)">
+    <!-- Word forms -->
+    <rect x="0" y="0" width="70" height="35" fill="#9C27B0" rx="5"/>
+    <text x="35" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">лес</text>
+    <text x="35" y="55" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">(нулевое)</text>
+    
+    <rect x="85" y="0" width="70" height="35" fill="#9C27B0" rx="5"/>
+    <text x="120" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">лес<b>а</b></text>
+    <text x="120" y="55" font-family="Arial, sans-serif" font-size="10" fill="#E91E63" text-anchor="middle">-а</text>
+    
+    <rect x="170" y="0" width="70" height="35" fill="#9C27B0" rx="5"/>
+    <text x="205" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">лес<b>у</b></text>
+    <text x="205" y="55" font-family="Arial, sans-serif" font-size="10" fill="#E91E63" text-anchor="middle">-у</text>
+    
+    <rect x="255" y="0" width="80" height="35" fill="#9C27B0" rx="5"/>
+    <text x="295" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">лес<b>ом</b></text>
+    <text x="295" y="55" font-family="Arial, sans-serif" font-size="10" fill="#E91E63" text-anchor="middle">-ом</text>
+    
+    <rect x="350" y="0" width="80" height="35" fill="#9C27B0" rx="5"/>
+    <text x="390" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">о лес<b>е</b></text>
+    <text x="390" y="55" font-family="Arial, sans-serif" font-size="10" fill="#E91E63" text-anchor="middle">-е</text>
   </g>
-  <g opacity="0.25">
-    <ellipse cx="470" cy="280" rx="30" ry="45" fill="#228B22"/>
-    <rect x="465" y="280" width="10" height="30" fill="#8B4513"/>
+  
+  <!-- Highlight arrow -->
+  <g>
+    <path d="M300,130 L350,130 L350,90 L360,100 M350,90 L340,100" stroke="#E91E63" stroke-width="2" fill="none"/>
+    <text x="385" y="115" font-family="Arial, sans-serif" font-size="12" fill="#E91E63" text-anchor="middle">Меняется!</text>
+  </g>
+  
+  <!-- Zero ending explanation -->
+  <g transform="translate(100, 170)">
+    <rect x="0" y="0" width="300" height="60" fill="#F3E5F5" rx="8" stroke="#9C27B0"/>
+    <text x="150" y="25" font-family="Arial, sans-serif" font-size="13" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Нулевое окончание</text>
+    <text x="150" y="45" font-family="Arial, sans-serif" font-size="12" fill="#6A1B9A" text-anchor="middle">лес, дом, стол — окончание есть, но не видно!</text>
+  </g>
+  
+  <!-- Role of ending -->
+  <g transform="translate(80, 250)">
+    <rect x="0" y="0" width="150" height="40" fill="#E1BEE7" rx="5"/>
+    <text x="75" y="25" font-family="Arial, sans-serif" font-size="12" fill="#6A1B9A" text-anchor="middle">Связывает слова</text>
+    
+    <rect x="170" y="0" width="150" height="40" fill="#E1BEE7" rx="5"/>
+    <text x="245" y="25" font-family="Arial, sans-serif" font-size="12" fill="#6A1B9A" text-anchor="middle">Изменяется по падежам</text>
   </g>
   
   <!-- Flowers -->
-  <g opacity="0.5">
-    <circle cx="50" cy="325" r="5" fill="#E91E63"/>
-    <circle cx="57" cy="320" r="4" fill="#F48FB1"/>
-    <circle cx="43" cy="320" r="4" fill="#F48FB1"/>
-  </g>
-  <g opacity="0.4">
-    <circle cx="455" cy="325" r="5" fill="#9C27B0"/>
-    <circle cx="462" cy="320" r="4" fill="#CE93D8"/>
-    <circle cx="448" cy="320" r="4" fill="#CE93D8"/>
-  </g>
+  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
+  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
   
-  <!-- Title -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2E7D32" text-anchor="middle">🔚 Окончание</text>
-  <rect x="100" y="45" width="300" height="3" rx="2" fill="#2E7D32" opacity="0.5"/>
-  
-  <!-- Main Content -->
-  <rect x="30" y="65" width="440" height="255" rx="15" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="2"/>
-  
-  <!-- Definition -->
-  <text x="250" y="95" font-size="12" font-weight="bold" fill="#2E7D32" text-anchor="middle">Окончание — изменяемая часть слова для связи слов</text>
-  
-  <!-- Word forms diagram -->
-  <g transform="translate(250, 155)">
-    <!-- Central word -->
-    <rect x="-40" y="-20" width="80" height="40" rx="8" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2"/>
-    <text x="0" y="5" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">ДОМ</text>
-    
-    <!-- Arrows to forms -->
-    <line x1="-60" y1="0" x2="-90" y2="-30" stroke="#2E7D32" stroke-width="1.5"/>
-    <line x1="60" y1="0" x2="90" y2="-30" stroke="#2E7D32" stroke-width="1.5"/>
-    <line x1="-60" y1="0" x2="-90" y2="40" stroke="#2E7D32" stroke-width="1.5"/>
-    <line x1="60" y1="0" x2="90" y2="40" stroke="#2E7D32" stroke-width="1.5"/>
-    <line x1="0" y1="30" x2="0" y2="70" stroke="#2E7D32" stroke-width="1.5"/>
-    
-    <!-- Word forms -->
-    <g transform="translate(-110, -45)">
-      <rect x="-30" y="-12" width="60" height="24" rx="5" fill="#C8E6C9"/>
-      <text x="0" y="3" font-size="11" fill="#333" text-anchor="middle">дом</text>
-      <text x="0" y="20" font-size="8" fill="#666" text-anchor="middle">(нулевое)</text>
-    </g>
-    
-    <g transform="translate(110, -45)">
-      <rect x="-30" y="-12" width="60" height="24" rx="5" fill="#C8E6C9"/>
-      <text x="0" y="3" font-size="11" fill="#333" text-anchor="middle">дом</text>
-      <text x="0" y="20" font-size="8" fill="#666" text-anchor="middle">а</text>
-    </g>
-    
-    <g transform="translate(-110, 55)">
-      <rect x="-30" y="-12" width="60" height="24" rx="5" fill="#C8E6C9"/>
-      <text x="0" y="3" font-size="11" fill="#333" text-anchor="middle">дом</text>
-      <text x="0" y="20" font-size="8" fill="#666" text-anchor="middle">у</text>
-    </g>
-    
-    <g transform="translate(110, 55)">
-      <rect x="-30" y="-12" width="60" height="24" rx="5" fill="#C8E6C9"/>
-      <text x="0" y="3" font-size="11" fill="#333" text-anchor="middle">дом</text>
-      <text x="0" y="20" font-size="8" fill="#666" text-anchor="middle">ом</text>
-    </g>
-    
-    <g transform="translate(0, 85)">
-      <rect x="-30" y="-12" width="60" height="24" rx="5" fill="#C8E6C9"/>
-      <text x="0" y="3" font-size="11" fill="#333" text-anchor="middle">дом</text>
-      <text x="0" y="20" font-size="8" fill="#666" text-anchor="middle">е</text>
-    </g>
-  </g>
-  
-  <!-- Key points box -->
-  <rect x="50" y="255" width="180" height="55" rx="8" fill="#F1F8E9" stroke="#2E7D32"/>
-  <text x="140" y="275" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle">📌 Важно:</text>
-  <text x="60" y="290" font-size="9" fill="#333">• Окончание изменяется</text>
-  <text x="60" y="302" font-size="9" fill="#333">• Связывает слова в предложении</text>
-  
-  <!-- Example sentence -->
-  <rect x="250" y="255" width="200" height="55" rx="8" fill="#E8F5E9" stroke="#2E7D32"/>
-  <text x="350" y="275" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle">Пример:</text>
-  <text x="350" y="292" font-size="10" fill="#333" text-anchor="middle">Я живу в дом</text>
-  <text x="400" y="292" font-size="10" fill="#E91E63" font-weight="bold">е</text>
-  <text x="350" y="305" font-size="9" fill="#666" text-anchor="middle">(предложный падеж)</text>
-  
-  <!-- Animated ending indicator -->
-  <g transform="translate(240, 100)">
-    <rect x="0" y="0" width="20" height="15" fill="#2E7D32" opacity="0.3">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="1.5s" repeatCount="indefinite"/>
-    </rect>
-    <text x="10" y="12" font-size="8" fill="white" text-anchor="middle">?</text>
-  </g>
+  <!-- Sparkles -->
+  <circle cx="150" cy="150" r="2" fill="#AB47BC">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="160" r="2" fill="#AB47BC">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="0.4s"/>
+  </circle>
 </svg>

@@ -1,19 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  
+  <defs>
+    <style>
+      @keyframes dance { 0%, 100% { transform: rotate(-5deg) translateY(0); } 25% { transform: rotate(5deg) translateY(-10px); } 50% { transform: rotate(-5deg) translateY(0); } 75% { transform: rotate(5deg) translateY(-10px); } }
+      @keyframes jump { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }
+      @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      @keyframes sway { 0%, 100% { transform: rotate(-10deg); } 50% { transform: rotate(10deg); } }
+      .dance { animation: dance 1s ease-in-out infinite; transform-origin: bottom center; }
+      .jump { animation: jump 0.8s ease-in-out infinite; }
+      .spin { animation: spin 3s linear infinite; }
+      .sway { animation: sway 2s ease-in-out infinite; transform-origin: bottom center; }
+    </style>
+  </defs>
   <rect width="500" height="350" fill="#E0F7FA"/>
   
   <!-- 标题 -->
   <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#00838F">💃 Урок 10: Музыка и движение 🕺</text>
   
   <!-- 跳舞的女孩 -->
-  <g>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
-    <circle cx="100" cy="130" r="25" fill="#FFCC80">
-    <animate attributeName="r" values="25;27;25" dur="3s" repeatCount="indefinite"/>
-  </circle>
-    <circle cx="92" cy="125" r="4" fill="#5D4037">
-    <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <g class="dance">
+    <circle cx="100" cy="130" r="25" fill="#FFCC80"/>
+    <circle cx="92" cy="125" r="4" fill="#5D4037"/>
     <circle cx="108" cy="125" r="4" fill="#5D4037"/>
     <path d="M92 140 Q100 150 108 140" stroke="#5D4037" stroke-width="2" fill="none"/>
     <!-- 裙子 -->
@@ -27,7 +33,7 @@
   </g>
   
   <!-- 跳跃的男孩 -->
-  <g>
+  <g class="jump">
     <circle cx="250" cy="150" r="25" fill="#FFCC80"/>
     <circle cx="242" cy="145" r="4" fill="#5D4037"/>
     <circle cx="258" cy="145" r="4" fill="#5D4037"/>
@@ -43,14 +49,14 @@
   </g>
   
   <!-- 旋转的音符 -->
-  <g style="transform-origin: 400px 100px">
+  <g class="spin" style="transform-origin: 400px 100px">
     <ellipse cx="400" cy="100" rx="15" ry="10" fill="#00BCD4"/>
     <rect x="413" y="50" width="4" height="50" fill="#00BCD4"/>
     <path d="M417 50 Q440 65 417 85" fill="#00BCD4"/>
   </g>
   
   <!-- 摇摆的音符 -->
-  <g>
+  <g class="sway">
     <ellipse cx="450" cy="180" rx="12" ry="8" fill="#26C6DA"/>
     <rect x="460" y="140" width="3" height="40" fill="#26C6DA"/>
   </g>
