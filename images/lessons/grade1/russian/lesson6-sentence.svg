@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes write { 0%, 100% { stroke-dashoffset: 100; } 50% { stroke-dashoffset: 0; } }
+      @keyframes appear { 0% { opacity: 0; } 100% { opacity: 1; } }
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      .sentence { animation: appear 2s ease-in-out infinite; }
+      .part { animation: bounce 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#f0f9ff"/>
+  
+  <!-- Title -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#0369a1">Предложение ✍️</text>
+  
+  <!-- Main rule box -->
+  <rect x="20" y="50" width="460" height="70" fill="#e0f2fe" rx="12"/>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0369a1">Правила предложения</text>
+  <text x="250" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0c4a6e">1. Первое слово — с большой буквы</text>
+  <text x="250" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0c4a6e">2. В конце — точка (.), вопрос (?) или восклицание (!)</text>
+  
+  <!-- Sentence example -->
+  <rect x="20" y="130" width="460" height="60" fill="#fef3c7" rx="10" class="sentence"/>
+  <text x="250" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#92400e">Мама готовит обед.</text>
+  <text x="250" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#b45309">Большая буква в начале + точка в конце</text>
+  
+  <!-- Main members -->
+  <rect x="20" y="200" width="220" height="90" fill="#dcfce7" rx="10"/>
+  <text x="130" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#15803d">Подлежащее</text>
+  <text x="130" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">О ком? О чём? — КТО? ЧТО?</text>
+  <g class="part">
+    <rect x="85" y="255" width="90" height="25" fill="#22c55e" rx="5"/>
+    <text x="130" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Мама</text>
+  </g>
+  
+  <rect x="260" y="200" width="220" height="90" fill="#dbeafe" rx="10"/>
+  <text x="370" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#2563eb">Сказуемое</text>
+  <text x="370" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1d4ed8">Что делает? — ЧТО ДЕЛАЕТ?</text>
+  <g class="part" style="animation-delay: 0.3s">
+    <rect x="325" y="255" width="90" height="25" fill="#3b82f6" rx="5"/>
+    <text x="370" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">готовит</text>
+  </g>
+  
+  <!-- Sentence types -->
+  <rect x="20" y="300" width="140" height="40" fill="#fef2f2" rx="8"/>
+  <text x="90" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Повествовательное</text>
+  <text x="90" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ef4444">Мама готовит.</text>
+  
+  <rect x="180" y="300" width="140" height="40" fill="#f0fdf4" rx="8"/>
+  <text x="250" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#15803d">Вопросительное</text>
+  <text x="250" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#22c55e">Что делает мама?</text>
+  
+  <rect x="340" y="300" width="140" height="40" fill="#fefce8" rx="8"/>
+  <text x="410" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ca8a04">Побудительное</text>
+  <text x="410" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#eab308">Иди домой!</text>
+</svg>
