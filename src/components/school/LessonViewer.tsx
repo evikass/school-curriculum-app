@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useSchool } from '@/context/SchoolContext'
 import { LessonTopic, TopicSection, GameLesson } from '@/data/types'
 import {
@@ -20,7 +20,7 @@ interface SelectedLesson {
 }
 
 export default function LessonViewer() {
-  const { selectedSubject, selectedClass, completeTopic, goBack, selectGameFromLesson, games: contextGames, isLessonTestCompleted } = useSchool()
+  const { selectedSubject, selectedClass, completeTopic, goBack, selectGameFromLesson, games: contextGames, isLessonTestCompleted, selectLesson, selectedLesson, view, gameFromLesson } = useSchool()
   // Одна открытая вкладка вместо Set
   const [expandedTopic, setExpandedTopic] = useState<string | null>(null)
   const [currentTab, setCurrentTab] = useState<'lessons' | 'games'>('lessons')
@@ -30,6 +30,14 @@ export default function LessonViewer() {
   const [isDetailOpen, setIsDetailOpen] = useState(false)
   
   const games = contextGames || []
+
+  // При возврате из теста - открыть модальное окно с уроком
+  useEffect(() => {
+    if (selectedLesson && !isDetailOpen && view === 'lessons' && selectedLesson.title !== detailLesson?.title) {
+      setDetailLesson(selectedLesson as SelectedLesson)
+      setIsDetailOpen(true)
+    }
+  }, [selectedLesson, isDetailOpen, view, detailLesson?.title])
 
   if (!selectedSubject) return null
 
@@ -44,6 +52,10 @@ export default function LessonViewer() {
   }
   
   const startQuiz = (lesson: SelectedLesson) => {
+    // Устанавливаем selectedLesson в контексте для markLessonTestCompleted
+    selectLesson(lesson as any)
+    setIsDetailOpen(false) // Закрываем модальное окно перед тестом
+    
     // Извлекаем тему урока из названия (например, "Урок 1: Корень слова" -> "Корень слова")
     const lessonTitle = String(lesson.title || '')
     const lessonTopic = lessonTitle.includes(':')
@@ -327,7 +339,10 @@ export default function LessonViewer() {
       <LessonDetailModal
         lesson={detailLesson}
         isOpen={isDetailOpen}
-        onClose={() => setIsDetailOpen(false)}
+        onClose={() => {
+          setIsDetailOpen(false)
+          selectLesson(null) // Сбрасываем selectedLesson при закрытии модального окна
+        }}
         onComplete={handleDetailComplete}
         onStartQuiz={detailLesson ? () => startQuiz(detailLesson) : undefined}
         isTestCompleted={detailLesson ? isLessonTestCompleted(detailLesson.title) : false}
