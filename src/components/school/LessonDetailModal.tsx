@@ -282,7 +282,22 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                   Закрыть
                 </button>
 
-                {/* Статус теста - кликабельный, запускает тест */}
+                {/* Кнопка Тест - всегда видна */}
+                <button
+                  onClick={() => {
+                    onClose()
+                    onStartQuiz && onStartQuiz()
+                  }}
+                  className="flex-1 py-3 bg-gradient-to-r from-purple-500 to-pink-500 
+                            hover:from-purple-600 hover:to-pink-600
+                            text-white rounded-xl font-medium transition-colors
+                            flex items-center justify-center gap-2"
+                >
+                  <Gamepad2 className="w-5 h-5" />
+                  Тест
+                </button>
+
+                {/* Статус теста */}
                 {isTestCompleted ? (
                   <button
                     disabled
@@ -295,13 +310,10 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                   </button>
                 ) : (
                   <button
-                    onClick={() => {
-                      onClose()
-                      onStartQuiz && onStartQuiz()
-                    }}
-                    className="flex-1 py-3 bg-gray-500/50 hover:bg-gray-500/70
-                              text-white/70 hover:text-white rounded-xl font-medium transition-colors
-                              flex items-center justify-center gap-2"
+                    disabled
+                    className="flex-1 py-3 bg-gray-500/50 
+                              text-white/70 rounded-xl font-medium 
+                              flex items-center justify-center gap-2 cursor-default"
                   >
                     🔒 Не пройдено
                   </button>
