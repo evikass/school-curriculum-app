@@ -355,8 +355,36 @@ export default function KidLessonViewer() {
             
             {/* Контент урока */}
             <div className="space-y-0">
-              {formatKidText(selectedLesson.description)}
+              {formatKidText(selectedLesson.content || selectedLesson.description)}
             </div>
+
+            {/* Примеры */}
+            {selectedLesson.examples && selectedLesson.examples.length > 0 && (
+              <div className="mt-6 bg-cyan-500/20 rounded-3xl p-6 border-2 border-cyan-400/30">
+                <h4 className="text-xl md:text-2xl font-bold text-cyan-300 mb-4">
+                  📝 Примеры:
+                </h4>
+                <div className="space-y-2">
+                  {selectedLesson.examples.map((example, i) => (
+                    <p key={i} className="text-lg text-white/90">• {example}</p>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Интересные факты */}
+            {selectedLesson.facts && selectedLesson.facts.length > 0 && (
+              <div className="mt-6 bg-purple-500/20 rounded-3xl p-6 border-2 border-purple-400/30">
+                <h4 className="text-xl md:text-2xl font-bold text-purple-300 mb-4">
+                  💡 Интересные факты:
+                </h4>
+                <div className="space-y-2">
+                  {selectedLesson.facts.map((fact, i) => (
+                    <p key={i} className="text-lg text-white/90">• {fact}</p>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* Блок с заданиями */}
             {selectedLesson.tasks && selectedLesson.tasks.length > 0 && (

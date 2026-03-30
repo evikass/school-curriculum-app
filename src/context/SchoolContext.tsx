@@ -36,6 +36,10 @@ export interface LessonData {
   title: string
   description: string
   tasks: string[]
+  image?: string
+  content?: string      // Полное содержание урока (markdown)
+  examples?: string[]   // Примеры
+  facts?: string[]      // Интересные факты
 }
 
 interface SchoolContextType {

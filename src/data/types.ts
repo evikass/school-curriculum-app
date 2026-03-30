@@ -26,6 +26,7 @@ export interface LessonItem {
   description: string;
   tasks: string[];
   theory?: string;        // Подробная теория урока
+  content?: string;       // Полное содержание урока (markdown)
   keyPoints?: string[];   // Ключевые моменты
   examples?: string[];    // Примеры
   facts?: string[];       // Интересные факты
