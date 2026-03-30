@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes shimmer {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 1; }
+      }
+      .bookmark { animation: float 3s ease-in-out infinite; }
+      .sparkle { animation: shimmer 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#E8F5E9"/>
+  
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="16" font-weight="bold" fill="#2E7D32">
+    Закладка
+  </text>
+  
+  <!-- Open book -->
+  <g transform="translate(40, 80)">
+    <!-- Book cover -->
+    <rect x="0" y="0" width="120" height="150" fill="#795548" rx="5"/>
+    <!-- Pages -->
+    <rect x="5" y="5" width="55" height="140" fill="#FFFDE7"/>
+    <rect x="60" y="5" width="55" height="140" fill="#FFFDE7"/>
+    <!-- Page lines -->
+    <g stroke="#E0E0E0" stroke-width="1">
+      <line x1="15" y1="25" x2="50" y2="25"/>
+      <line x1="15" y1="40" x2="50" y2="40"/>
+      <line x1="15" y1="55" x2="50" y2="55"/>
+      <line x1="15" y1="70" x2="50" y2="70"/>
+      <line x1="70" y1="25" x2="105" y2="25"/>
+      <line x1="70" y1="40" x2="105" y2="40"/>
+      <line x1="70" y1="55" x2="105" y2="55"/>
+      <line x1="70" y1="70" x2="105" y2="70"/>
+    </g>
+    <!-- Book spine -->
+    <rect x="57" y="0" width="6" height="150" fill="#5D4037"/>
+    <text x="60" y="175" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="10" fill="#5D4037">Книга</text>
+  </g>
+  
+  <!-- Floating bookmark -->
+  <g transform="translate(100, 100)" class="bookmark">
+    <!-- Bookmark body -->
+    <rect x="0" y="0" width="35" height="80" fill="#FF9800" rx="3" stroke="#E65100" stroke-width="2"/>
+    <!-- Bookmark tail -->
+    <polygon points="0,80 17.5,95 35,80" fill="#FF9800" stroke="#E65100" stroke-width="2"/>
+    
+    <!-- Decorations on bookmark -->
+    <rect x="5" y="8" width="25" height="4" fill="#FFE082"/>
+    <rect x="5" y="16" width="25" height="4" fill="#FFE082"/>
+    <rect x="5" y="24" width="25" height="4" fill="#FFE082"/>
+    
+    <!-- Star decoration -->
+    <polygon points="17.5,40 20,48 28,48 22,53 24,61 17.5,56 11,61 13,53 7,48 15,48" fill="#FFEB3B" class="sparkle"/>
+    
+    <!-- Ribbon -->
+    <rect x="30" y="0" width="8" height="25" fill="#E91E63"/>
+    <polygon points="30,25 34,35 38,25" fill="#E91E63"/>
+  </g>
+  
+  <!-- Bookmark designs -->
+  <g transform="translate(220, 60)">
+    <text x="0" y="0" font-family="'Comic Sans MS', cursive" font-size="11" font-weight="bold" fill="#2E7D32">Варианты:</text>
+    
+    <!-- Design 1 - Animal -->
+    <g transform="translate(0, 15)">
+      <rect x="0" y="0" width="30" height="50" fill="#81C784" rx="2"/>
+      <circle cx="15" cy="15" r="10" fill="#FFF"/>
+      <circle cx="12" cy="12" r="3" fill="#333"/>
+      <circle cx="18" cy="12" r="3" fill="#333"/>
+      <ellipse cx="15" cy="18" rx="3" ry="2" fill="#FF9800"/>
+      <text x="15" y="65" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="8" fill="#616161">Животные</text>
+    </g>
+    
+    <!-- Design 2 - Pattern -->
+    <g transform="translate(45, 15)">
+      <rect x="0" y="0" width="30" height="50" fill="#64B5F6" rx="2"/>
+      <circle cx="10" cy="15" r="5" fill="#FFF"/>
+      <circle cx="22" cy="15" r="5" fill="#FFF"/>
+      <circle cx="10" cy="30" r="5" fill="#FFF"/>
+      <circle cx="22" cy="30" r="5" fill="#FFF"/>
+      <text x="15" y="65" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="8" fill="#616161">Узор</text>
+    </g>
+    
+    <!-- Design 3 - Nature -->
+    <g transform="translate(90, 15)">
+      <rect x="0" y="0" width="30" height="50" fill="#FFB74D" rx="2"/>
+      <ellipse cx="15" cy="20" rx="12" ry="10" fill="#4CAF50"/>
+      <circle cx="12" cy="17" r="3" fill="#E91E63"/>
+      <circle cx="18" cy="22" r="2" fill="#FFEB3B"/>
+      <text x="15" y="65" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="8" fill="#616161">Природа</text>
+    </g>
+  </g>
+  
+  <!-- Steps -->
+  <g transform="translate(220, 170)">
+    <text x="0" y="0" font-family="'Comic Sans MS', cursive" font-size="10" fill="#2E7D32">1. Вырежи прямоугольник</text>
+    <text x="0" y="15" font-family="'Comic Sans MS', cursive" font-size="10" fill="#2E7D32">2. Сделай хвостик снизу</text>
+    <text x="0" y="30" font-family="'Comic Sans MS', cursive" font-size="10" fill="#2E7D32">3. Укрась рисунком</text>
+    <text x="0" y="45" font-family="'Comic Sans MS', cursive" font-size="10" fill="#2E7D32">4. Добавь ленточку</text>
+  </g>
+  
+  <!-- Tools -->
+  <g transform="translate(60, 260)">
+    <!-- Scissors -->
+    <ellipse cx="0" cy="-5" r="6" fill="none" stroke="#FF5722" stroke-width="2"/>
+    <ellipse cx="0" cy="5" r="6" fill="none" stroke="#FF5722" stroke-width="2"/>
+    <polygon points="6,0 20,-2 6,2" fill="#78909C"/>
+    <text x="10" y="25" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="9" fill="#616161">Ножницы</text>
+  </g>
+  
+  <g transform="translate(130, 250)">
+    <rect x="0" y="0" width="30" height="40" fill="#FFCC80" rx="2"/>
+    <rect x="35" y="5" width="30" height="35" fill="#81C784" rx="2"/>
+    <rect x="70" y="0" width="30" height="40" fill="#64B5F6" rx="2"/>
+    <text x="50" y="55" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="9" fill="#616161">Картон</text>
+  </g>
+  
+  <g transform="translate(240, 255)">
+    <!-- Markers -->
+    <rect x="0" y="0" width="8" height="30" fill="#E91E63" rx="2"/>
+    <rect x="12" y="3" width="8" height="27" fill="#2196F3" rx="2"/>
+    <rect x="24" y="1" width="8" height="29" fill="#4CAF50" rx="2"/>
+    <text x="16" y="42" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="9" fill="#616161">Фломастеры</text>
+  </g>
+  
+  <g transform="translate(320, 255)">
+    <!-- Ribbon -->
+    <rect x="0" y="0" width="10" height="35" fill="#E91E63"/>
+    <rect x="15" y="0" width="10" height="35" fill="#9C27B0"/>
+    <text x="12" y="47" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="9" fill="#616161">Ленточки</text>
+  </g>
+</svg>
