@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="math14" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BBDEFB;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#90CAF9;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#math14)"/>
+  <rect width="500" height="350" fill="#FFFDE7" opacity="0.3"/>
+  
+  <!-- Sun -->
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1565C0" text-anchor="middle">📏 Площадь прямоугольника</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#2196F3" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#90CAF9" opacity="0.5"/>
+  
+  <!-- Rectangle with grid -->
+  <g transform="translate(100, 80)">
+    <!-- Grid background -->
+    <rect x="0" y="0" width="240" height="100" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    
+    <!-- Grid lines -->
+    <g stroke="#90CAF9" stroke-width="1">
+      <line x1="40" y1="0" x2="40" y2="100"/>
+      <line x1="80" y1="0" x2="80" y2="100"/>
+      <line x1="120" y1="0" x2="120" y2="100"/>
+      <line x1="160" y1="0" x2="160" y2="100"/>
+      <line x1="200" y1="0" x2="200" y2="100"/>
+      <line x1="0" y1="25" x2="240" y2="25"/>
+      <line x1="0" y1="50" x2="240" y2="50"/>
+      <line x1="0" y1="75" x2="240" y2="75"/>
+    </g>
+    
+    <!-- Dimensions -->
+    <text x="120" y="-10" font-family="Arial, sans-serif" font-size="12" fill="#0D47A1" text-anchor="middle">a = 6 см</text>
+    <text x="260" y="50" font-family="Arial, sans-serif" font-size="12" fill="#0D47A1" text-anchor="middle">b = 4 см</text>
+    
+    <!-- Squares -->
+    <g fill="#42A5F5" opacity="0.5">
+      <rect x="0" y="0" width="40" height="25"/>
+      <rect x="40" y="0" width="40" height="25"/>
+      <rect x="80" y="0" width="40" height="25"/>
+      <rect x="120" y="0" width="40" height="25"/>
+      <rect x="160" y="0" width="40" height="25"/>
+      <rect x="200" y="0" width="40" height="25"/>
+    </g>
+    
+    <!-- Formula -->
+    <text x="120" y="55" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle">S = a × b</text>
+    <text x="120" y="75" font-family="Arial, sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">6 × 4 = 24 см²</text>
+  </g>
+  
+  <!-- Formula explanation -->
+  <g transform="translate(50, 210)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="400" height="55" fill="#E3F2FD" rx="8" stroke="#2196F3"/>
+    <text x="200" y="20" font-size="12" fill="#0D47A1" text-anchor="middle">S = 6 × 4 = 24 см²</text>
+    <text x="200" y="38" font-size="10" fill="#1565C0" text-anchor="middle">Площадь показывает, сколько места занимает фигура</text>
+    <text x="200" y="50" font-size="9" fill="#1976D2" text-anchor="middle">Измеряется в квадратных единицах: см², м²</text>
+  </g>
+  
+  <!-- Warning -->
+  <g transform="translate(100, 280)">
+    <rect x="0" y="0" width="300" height="30" fill="#FFEBEE" rx="5" stroke="#F44336"/>
+    <text x="150" y="12" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">⚠️ Не путай!</text>
+    <text x="150" y="24" font-family="Arial, sans-serif" font-size="9" fill="#D32F2F" text-anchor="middle">Периметр — «забор», Площадь — «пол»</text>
+  </g>
+  
+  <!-- Flowers -->
+  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
+  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+</svg>
