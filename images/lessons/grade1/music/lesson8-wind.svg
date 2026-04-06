@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes blow { 0%, 100% { transform: scaleX(1); } 50% { transform: scaleX(1.1); } }
+      @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+      @keyframes wind { 0%, 100% { transform: translateX(0); opacity: 1; } 100% { transform: translateX(30px); opacity: 0; } }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      .blow { animation: blow 0.5s ease-in-out infinite; transform-origin: left center; }
+      .breathe { animation: breathe 1s ease-in-out infinite; }
+      .wind { animation: wind 1.5s ease-in-out infinite; }
+      .float { animation: float 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#E1F5FE"/>
+  
+  <!-- 标题 -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0277BD">🎺 Урок 8: Духовые инструменты 🎶</text>
+  
+  <!-- 小号 -->
+  <g class="breathe">
+    <!-- 吹嘴 -->
+    <ellipse cx="70" cy="160" rx="8" ry="12" fill="#FFD54F"/>
+    <rect x="78" y="155" width="30" height="10" fill="#FFD54F"/>
+    <!-- 管身 -->
+    <rect x="108" y="153" width="80" height="14" fill="#FFD54F"/>
+    <!-- 活塞 -->
+    <rect x="130" y="135" width="12" height="20" rx="2" fill="#FFC107"/>
+    <rect x="150" y="135" width="12" height="20" rx="2" fill="#FFC107"/>
+    <rect x="170" y="135" width="12" height="20" rx="2" fill="#FFC107"/>
+    <!-- 喇叭口 -->
+    <ellipse cx="210" cy="160" rx="20" ry="30" fill="#FFD54F"/>
+    <ellipse cx="210" cy="160" rx="15" ry="25" fill="#FFECB3"/>
+  </g>
+  
+  <!-- 气流效果 -->
+  <g class="wind">
+    <ellipse cx="235" cy="155" rx="5" ry="3" fill="#B3E5FC"/>
+    <ellipse cx="250" cy="160" rx="5" ry="3" fill="#B3E5FC"/>
+    <ellipse cx="265" cy="157" rx="5" ry="3" fill="#B3E5FC"/>
+  </g>
+  
+  <!-- 长笛 -->
+  <g class="blow">
+    <!-- 吹嘴 -->
+    <ellipse cx="70" cy="250" rx="6" ry="10" fill="#E0E0E0"/>
+    <!-- 管身 -->
+    <rect x="76" y="246" width="140" height="8" fill="#BDBDBD"/>
+    <rect x="216" y="248" width="60" height="6" fill="#BDBDBD"/>
+    <!-- 按键 -->
+    <circle cx="100" cy="250" r="6" fill="#9E9E9E"/>
+    <circle cx="130" cy="250" r="6" fill="#9E9E9E"/>
+    <circle cx="160" cy="250" r="6" fill="#9E9E9E"/>
+    <circle cx="190" cy="250" r="6" fill="#9E9E9E"/>
+    <circle cx="220" cy="250" r="5" fill="#9E9E9E"/>
+    <circle cx="250" cy="250" r="5" fill="#9E9E9E"/>
+  </g>
+  
+  <!-- 口琴 -->
+  <g>
+    <rect x="300" y="150" width="100" height="25" rx="3" fill="#37474F"/>
+    <rect x="305" y="155" width="90" height="15" fill="#546E7A"/>
+    <!-- 音孔 -->
+    <rect x="312" y="158" width="8" height="10" fill="#263238"/>
+    <rect x="325" y="158" width="8" height="10" fill="#263238"/>
+    <rect x="338" y="158" width="8" height="10" fill="#263238"/>
+    <rect x="351" y="158" width="8" height="10" fill="#263238"/>
+    <rect x="364" y="158" width="8" height="10" fill="#263238"/>
+    <rect x="377" y="158" width="8" height="10" fill="#263238"/>
+  </g>
+  
+  <!-- 萨克斯风简化 -->
+  <g class="breathe" style="animation-delay: 0.3s">
+    <!-- 吹嘴 -->
+    <ellipse cx="320" cy="230" rx="6" ry="10" fill="#FFD54F"/>
+    <rect x="326" y="225" width="20" height="10" fill="#FFD54F"/>
+    <!-- 管身弯曲 -->
+    <path d="M346 230 Q380 230 390 270 Q400 310 360 310" stroke="#FFD54F" stroke-width="25" fill="none"/>
+    <path d="M346 230 Q380 230 390 270 Q400 310 360 310" stroke="#FFECB3" stroke-width="15" fill="none"/>
+    <!-- 按键 -->
+    <circle cx="360" cy="245" r="5" fill="#FFC107"/>
+    <circle cx="375" cy="260" r="5" fill="#FFC107"/>
+    <circle cx="385" cy="280" r="5" fill="#FFC107"/>
+    <!-- 喇叭口 -->
+    <ellipse cx="360" cy="310" rx="25" ry="15" fill="#FFD54F"/>
+  </g>
+  
+  <!-- 音符 -->
+  <g class="float">
+    <ellipse cx="140" cy="80" rx="10" ry="7" fill="#0277BD"/>
+    <rect x="148" y="45" width="3" height="35" fill="#0277BD"/>
+  </g>
+  <g class="float" style="animation-delay: 0.3s">
+    <ellipse cx="200" cy="90" rx="10" ry="7" fill="#29B6F6"/>
+    <rect x="208" y="55" width="3" height="35" fill="#29B6F6"/>
+  </g>
+  <g class="float" style="animation-delay: 0.6s">
+    <ellipse cx="450" cy="70" rx="10" ry="7" fill="#4FC3F7"/>
+    <rect x="458" y="35" width="3" height="35" fill="#4FC3F7"/>
+  </g>
+  
+  <!-- 乐器名称 -->
+  <rect x="50" y="280" width="400" height="40" rx="5" fill="#B3E5FC"/>
+  <text x="100" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0277BD">🎺 Труба</text>
+  <text x="220" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0277BD">🎵 Флейта</text>
+  <text x="340" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0277BD">🎷 Саксофон</text>
+  <text x="450" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0277BD">🎵 Губная гармошка</text>
+  
+  <!-- 教学提示 -->
+  <rect x="50" y="325" width="400" height="20" rx="5" fill="#E1F5FE"/>
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0277BD">💨 Дуем в инструмент — получается звук!</text>
+</svg>

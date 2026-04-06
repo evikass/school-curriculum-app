@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="grad13" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8EAF6"/>
+      <stop offset="100%" style="stop-color:#C5CAE9"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#grad13)"/>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#303F9F" text-anchor="middle">📆 Days of the Week</text>
+  <rect x="100" y="45" width="300" height="2" rx="1" fill="#3F51B5" opacity="0.6"/>
+  
+  <!-- Days grid -->
+  <g font-family="Arial, sans-serif">
+    <!-- Monday -->
+    <rect x="20" y="60" width="210" height="35" fill="#FFCDD2" rx="8">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="125" y="75" font-size="14" fill="#C62828" text-anchor="middle" font-weight="bold">Monday</text>
+    <text x="125" y="88" font-size="9" fill="#E57373" text-anchor="middle">понедельник</text>
+    
+    <!-- Tuesday -->
+    <rect x="240" y="60" width="210" height="35" fill="#FFECB3" rx="8">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="345" y="75" font-size="14" fill="#F57F17" text-anchor="middle" font-weight="bold">Tuesday</text>
+    <text x="345" y="88" font-size="9" fill="#FFB74D" text-anchor="middle">вторник</text>
+    
+    <!-- Wednesday -->
+    <rect x="20" y="105" width="210" height="35" fill="#C8E6C9" rx="8">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="125" y="120" font-size="14" fill="#2E7D32" text-anchor="middle" font-weight="bold">Wednesday</text>
+    <text x="125" y="133" font-size="9" fill="#66BB6A" text-anchor="middle">среда</text>
+    
+    <!-- Thursday -->
+    <rect x="240" y="105" width="210" height="35" fill="#B3E5FC" rx="8">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="345" y="120" font-size="14" fill="#0277BD" text-anchor="middle" font-weight="bold">Thursday</text>
+    <text x="345" y="133" font-size="9" fill="#4FC3F7" text-anchor="middle">четверг</text>
+    
+    <!-- Friday -->
+    <rect x="20" y="150" width="210" height="35" fill="#E1BEE7" rx="8">
+      <animate attributeName="opacity" values="1;0.85;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="125" y="165" font-size="14" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Friday</text>
+    <text x="125" y="178" font-size="9" fill="#BA68C8" text-anchor="middle">пятница</text>
+    
+    <!-- Saturday -->
+    <rect x="240" y="150" width="210" height="35" fill="#F8BBD9" rx="8">
+      <animate attributeName="opacity" values="1;0.85;1" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="345" y="165" font-size="14" fill="#C2185B" text-anchor="middle" font-weight="bold">Saturday</text>
+    <text x="345" y="178" font-size="9" fill="#F06292" text-anchor="middle">суббота</text>
+    
+    <!-- Sunday -->
+    <rect x="115" y="195" width="270" height="40" fill="#FFCDD2" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="250" y="215" font-size="16" fill="#D32F2F" text-anchor="middle" font-weight="bold">Sunday</text>
+    <text x="250" y="230" font-size="10" fill="#EF9A9A" text-anchor="middle">воскресенье</text>
+  </g>
+  
+  <!-- Week cycle arrow -->
+  <g transform="translate(250, 280)">
+    <ellipse cx="0" cy="0" rx="80" ry="30" fill="none" stroke="#3F51B5" stroke-width="2" stroke-dasharray="5,5">
+      <animate attributeName="stroke-dashoffset" values="0;10" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+    <polygon points="75,-5 85,0 75,5" fill="#3F51B5"/>
+  </g>
+  <text x="250" y="285" font-family="Arial, sans-serif" font-size="10" fill="#3F51B5" text-anchor="middle">7 days = 1 week</text>
+  
+  <!-- Decorative sun for Sunday -->
+  <circle cx="400" cy="215" r="15" fill="#FFD54F">
+    <animate attributeName="r" values="15;18;15" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Lesson number -->
+  <circle cx="30" cy="320" r="20" fill="#3F51B5" opacity="0.9"/>
+  <text x="30" y="326" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">13</text>
+</svg>

@@ -1,0 +1,32 @@
+# Exclude big directories
+node_modules/
+.next/
+dist/
+public/
+src/
+prisma/
+db/
+examples/
+app-store-builds/
+download/
+inetshkola-*/
+404/
+.zscripts/
+.git/
+
+# Exclude config files for other projects
+tsconfig.json
+next.config.*
+tailwind.config.*
+postcss.config.*
+components.json
+bun.lock
+
+# Exclude logs and temp
+*.log
+.env*
+.gitignore
+Caddyfile
+*.md
+index.txt
+404.html

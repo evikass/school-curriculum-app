@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-15px) scale(1.1); } }
+      @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      .bounce { animation: bounce 2s ease-in-out infinite; }
+      .spin { animation: spin 8s linear infinite; transform-origin: 400px 270px; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FFF5EE"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-size="24" font-weight="bold" fill="#C71585">🔷 Геометрические фигуры</text>
+  
+  <!-- Круг -->
+  <g class="bounce">
+    <circle cx="80" cy="120" r="45" fill="#FF6B6B" stroke="#C71585" stroke-width="3"/>
+    <text x="80" y="125" text-anchor="middle" font-size="14" fill="white" font-weight="bold">Круг</text>
+  </g>
+  
+  <!-- Квадрат -->
+  <g class="bounce" style="animation-delay: 0.3s;">
+    <rect x="150" y="75" width="90" height="90" fill="#4ECDC4" stroke="#008B8B" stroke-width="3"/>
+    <text x="195" y="125" text-anchor="middle" font-size="14" fill="white" font-weight="bold">Квадрат</text>
+  </g>
+  
+  <!-- Треугольник -->
+  <g class="bounce" style="animation-delay: 0.6s;">
+    <polygon points="330,75 290,165 370,165" fill="#FFE66D" stroke="#DAA520" stroke-width="3"/>
+    <text x="330" y="145" text-anchor="middle" font-size="12" fill="#333" font-weight="bold">Треугольник</text>
+  </g>
+  
+  <!-- Прямоугольник -->
+  <g class="bounce" style="animation-delay: 0.9s;">
+    <rect x="60" y="200" width="120" height="70" fill="#95E1D3" stroke="#3CB371" stroke-width="3"/>
+    <text x="120" y="240" text-anchor="middle" font-size="13" fill="#333" font-weight="bold">Прямоугольник</text>
+  </g>
+  
+  <!-- Овал -->
+  <g class="bounce" style="animation-delay: 1.2s;">
+    <ellipse cx="280" cy="235" rx="70" ry="45" fill="#DDA0DD" stroke="#9932CC" stroke-width="3"/>
+    <text x="280" y="240" text-anchor="middle" font-size="14" fill="white" font-weight="bold">Овал</text>
+  </g>
+  
+  <!-- Звезда -->
+  <g class="spin">
+    <polygon points="400,220 410,250 445,250 418,270 428,300 400,280 372,300 382,270 355,250 390,250" fill="#FFD700" stroke="#FF8C00" stroke-width="2"/>
+    <text x="400" y="265" text-anchor="middle" font-size="10" fill="#333" font-weight="bold">Звезда</text>
+  </g>
+  
+  <!-- Подсказка -->
+  <text x="250" y="340" text-anchor="middle" font-size="12" fill="#DB7093">💡 Фигуры — основа любого рисунка!</text>
+</svg>

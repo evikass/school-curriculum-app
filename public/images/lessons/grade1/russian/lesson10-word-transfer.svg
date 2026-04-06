@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes split { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(3px); } }
+      @keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-2px); } 75% { transform: translateX(2px); } }
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      .correct { animation: split 2s ease-in-out infinite; }
+      .wrong { animation: shake 0.5s ease-in-out infinite; }
+      .rule { animation: bounce 2.5s ease-in-out infinite; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#eff6ff"/>
+  
+  <!-- Title -->
+  <text x="250" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1d4ed8">Перенос слов ➡️</text>
+  
+  <!-- Main rule -->
+  <rect x="20" y="45" width="460" height="40" fill="#dbeafe" rx="8"/>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e40af">Слова переносятся по слогам</text>
+  
+  <!-- Correct examples -->
+  <rect x="20" y="95" width="230" height="90" fill="#dcfce7" rx="10"/>
+  <text x="135" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#15803d">✅ Правильно</text>
+  
+  <g class="correct">
+    <text x="70" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#166534">МО-</text>
+    <text x="100" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#15803d">ЛО-</text>
+    <text x="130" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#22c55e">КО</text>
+  </g>
+  <text x="185" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">молоко</text>
+  
+  <g class="correct" style="animation-delay: 0.3s">
+    <text x="70" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#166534">МАЙ-</text>
+    <text x="115" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#22c55e">КА</text>
+  </g>
+  <text x="170" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">майка</text>
+  
+  <!-- Wrong examples -->
+  <rect x="260" y="95" width="220" height="90" fill="#fee2e2" rx="10"/>
+  <text x="370" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#dc2626">❌ Неправильно</text>
+  
+  <g class="wrong">
+    <text x="300" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#ef4444" text-decoration="line-through">О-</text>
+    <text x="330" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#ef4444" text-decoration="line-through">СЕНЬ</text>
+  </g>
+  <text x="400" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#dc2626">одну букву нельзя!</text>
+  
+  <g class="wrong" style="animation-delay: 0.2s">
+    <text x="300" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#ef4444" text-decoration="line-through">МА-</text>
+    <text x="340" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#ef4444" text-decoration="line-through">ЙКА</text>
+  </g>
+  <text x="415" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#dc2626">Й не отделяется!</text>
+  
+  <!-- Rules -->
+  <rect x="20" y="195" width="150" height="75" fill="#fef3c7" rx="8" class="rule"/>
+  <text x="95" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#b45309">Двойные согласные</text>
+  <text x="95" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d97706">КАС-СА</text>
+  <text x="95" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#92400e">разделяются</text>
+  
+  <rect x="180" y="195" width="140" height="75" fill="#ecfdf5" rx="8" class="rule" style="animation-delay: 0.2s"/>
+  <text x="250" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#059669">Ь и Й</text>
+  <text x="250" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#10b981">КО-НЬ-КИ</text>
+  <text x="250" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#047857">не отделяются</text>
+  
+  <rect x="330" y="195" width="150" height="75" fill="#f3e8ff" rx="8" class="rule" style="animation-delay: 0.4s"/>
+  <text x="405" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#7c3aed">Одна буква</text>
+  <text x="405" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#a855f7">Я-МА ❌</text>
+  <text x="405" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6b21a8">нельзя переносить</text>
+  
+  <!-- Words that cannot be transferred -->
+  <rect x="20" y="280" width="460" height="60" fill="#f8fafc" rx="10"/>
+  <text x="250" y="303" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">Слова, которые НЕ переносятся:</text>
+  <text x="250" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">ДОМ, КОТ, ЛЕС, ЯМА — односложные или одна буква в начале/конце</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color="#e0f2f1"/>
+      <stop offset="100%" style="stop-color="#b2dfdb"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Big letters Т, т -->
+  <text x="150" y="150" font-family="Arial Black, sans-serif" font-size="100" fill="#00695c" text-anchor="middle" font-weight="bold">
+    Т
+    <animate attributeName="fill" values="#00695c;#009688;#00695c" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <text x="260" y="150" font-family="Arial, sans-serif" font-size="80" fill="#26a69a" text-anchor="middle">т</text>
+  
+  <!-- Sounds -->
+  <g transform="translate(50, 50)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" fill="#f44336">[т] — твёрдый</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="16" fill="#9c27b0">[т'] — мягкий</text>
+  </g>
+  
+  <!-- Examples -->
+  <g transform="translate(50, 200)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#333"><tspan fill="#00695c">Т</tspan>анк — [т]</text>
+    <text x="100" y="0" font-family="Arial, sans-serif" font-size="14" fill="#333"><tspan fill="#26a69a">т</tspan>орт — [т]</text>
+    <text x="180" y="0" font-family="Arial, sans-serif" font-size="14" fill="#333"><tspan fill="#26a69a">т</tspan>игр — [т']</text>
+    <text x="270" y="0" font-family="Arial, sans-serif" font-size="14" fill="#333">ле<tspan fill="#26a69a">т</span>о — [т']</text>
+  </g>
+  
+  <!-- Table icon -->
+  <g transform="translate(320, 80)">
+    <rect x="-25" y="-10" width="50" height="5" fill="#795548"/>
+    <rect x="-20" y="-5" width="5" height="25" fill="#795548"/>
+    <rect x="15" y="-5" width="5" height="25" fill="#795548"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#004d40" text-anchor="middle" font-weight="bold">Буквы Т, т — звуки [т], [т']</text>
+</svg>

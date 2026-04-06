@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="ethics1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#ethics1)"/>
+  <rect width="500" height="350" fill="#FFF8E1" opacity="0.4"/>
+  
+  <!-- Sun -->
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2E7D32" text-anchor="middle">💚 Добро и зло</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#4CAF50" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#A5D6A7" opacity="0.5"/>
+  
+  <!-- Good vs Evil -->
+  <g transform="translate(50, 80)" font-family="Arial, sans-serif">
+    <!-- Good -->
+    <rect x="0" y="0" width="180" height="150" fill="#C8E6C9" rx="10" stroke="#4CAF50"/>
+    <text x="90" y="25" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">ДОБРО</text>
+    
+    <!-- Heart -->
+    <g transform="translate(65, 40)">
+      <path d="M25,15 C25,5 15,0 10,0 C5,0 0,5 0,15 C0,30 25,45 25,45 C25,45 50,30 50,15 C50,5 45,0 40,0 C35,0 25,5 25,15" fill="#E91E63">
+        <animate attributeName="transform" type="scale" values="1;1.1;1" dur="1s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="1s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    
+    <text x="90" y="110" font-size="10" fill="#388E3C" text-anchor="middle">Помогать • Заботиться</text>
+    <text x="90" y="125" font-size="10" fill="#43A047" text-anchor="middle">Делиться • Быть честным</text>
+    <text x="90" y="140" font-size="9" fill="#4CAF50" text-anchor="middle">Любить • Прощать</text>
+    
+    <!-- Evil -->
+    <rect x="220" y="0" width="180" height="150" fill="#FFCDD2" rx="10" stroke="#F44336"/>
+    <text x="310" y="25" font-size="14" font-weight="bold" fill="#B71C1C" text-anchor="middle">ЗЛО</text>
+    
+    <!-- Thunder -->
+    <g transform="translate(285, 40)">
+      <polygon points="25,0 10,25 20,25 15,50 40,20 28,20 35,0" fill="#FF9800"/>
+    </g>
+    
+    <text x="310" y="110" font-size="10" fill="#D32F2F" text-anchor="middle">Обижать • Лгать</text>
+    <text x="310" y="125" font-size="10" fill="#E53935" text-anchor="middle">Завидовать • Воровать</text>
+    <text x="310" y="140" font-size="9" fill="#EF5350" text-anchor="middle">Ненавидеть • Грубить</text>
+  </g>
+  
+  <!-- Lesson -->
+  <g transform="translate(50, 250)">
+    <rect x="0" y="0" width="400" height="55" fill="#FFF8E1" rx="8" stroke="#FFC107"/>
+    <text x="200" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E65100" text-anchor="middle">💡 Золотое правило нравственности</text>
+    <text x="200" y="38" font-family="Arial, sans-serif" font-size="10" fill="#F57C00" text-anchor="middle">«Поступай с другими так, как хочешь,</text>
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="10" fill="#FF9800" text-anchor="middle">чтобы они поступали с тобой»</text>
+  </g>
+  
+  <!-- Flowers -->
+  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
+  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+</svg>

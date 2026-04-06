@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes hatch { 0% { stroke-dashoffset: 100; } 100% { stroke-dashoffset: 0; } }
+      @keyframes pulse { 0%, 100% { opacity: 0.7; } 50% { opacity: 1; } }
+      .hatch { stroke-dasharray: 100; animation: hatch 2s ease-in-out infinite; }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FFF0F5"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-size="24" font-weight="bold" fill="#C71585">✏️ Штриховка</text>
+  
+  <!-- Горизонтальная штриховка -->
+  <text x="50" y="80" font-size="12" fill="#333" font-weight="bold">Горизонтальная</text>
+  <rect x="50" y="90" width="120" height="80" fill="#FFE4E1" stroke="#C71585" stroke-width="2"/>
+  <g class="hatch">
+    <line x1="55" y1="105" x2="165" y2="105" stroke="#C71585" stroke-width="2"/>
+    <line x1="55" y1="120" x2="165" y2="120" stroke="#C71585" stroke-width="2"/>
+    <line x1="55" y1="135" x2="165" y2="135" stroke="#C71585" stroke-width="2"/>
+    <line x1="55" y1="150" x2="165" y2="150" stroke="#C71585" stroke-width="2"/>
+  </g>
+  
+  <!-- Вертикальная штриховка -->
+  <text x="200" y="80" font-size="12" fill="#333" font-weight="bold">Вертикальная</text>
+  <rect x="200" y="90" width="120" height="80" fill="#E6E6FA" stroke="#9370DB" stroke-width="2"/>
+  <g class="hatch" style="animation-delay: 0.5s;">
+    <line x1="215" y1="95" x2="215" y2="165" stroke="#9370DB" stroke-width="2"/>
+    <line x1="235" y1="95" x2="235" y2="165" stroke="#9370DB" stroke-width="2"/>
+    <line x1="255" y1="95" x2="255" y2="165" stroke="#9370DB" stroke-width="2"/>
+    <line x1="275" y1="95" x2="275" y2="165" stroke="#9370DB" stroke-width="2"/>
+    <line x1="295" y1="95" x2="295" y2="165" stroke="#9370DB" stroke-width="2"/>
+  </g>
+  
+  <!-- Диагональная штриховка -->
+  <text x="350" y="80" font-size="12" fill="#333" font-weight="bold">Диагональная</text>
+  <rect x="350" y="90" width="120" height="80" fill="#FFFACD" stroke="#DAA520" stroke-width="2"/>
+  <g class="hatch" style="animation-delay: 1s;">
+    <line x1="355" y1="165" x2="385" y2="95" stroke="#DAA520" stroke-width="2"/>
+    <line x1="375" y1="165" x2="405" y2="95" stroke="#DAA520" stroke-width="2"/>
+    <line x1="395" y1="165" x2="425" y2="95" stroke="#DAA520" stroke-width="2"/>
+    <line x1="415" y1="165" x2="445" y2="95" stroke="#DAA520" stroke-width="2"/>
+  </g>
+  
+  <!-- Круг со штриховкой -->
+  <text x="150" y="210" font-size="12" fill="#333" font-weight="bold">Круглая штриховка</text>
+  <circle cx="150" cy="280" r="50" fill="#E0FFFF" stroke="#20B2AA" stroke-width="2"/>
+  <g class="pulse">
+    <line x1="105" y1="280" x2="195" y2="280" stroke="#20B2AA" stroke-width="1.5"/>
+    <line x1="150" y1="235" x2="150" y2="325" stroke="#20B2AA" stroke-width="1.5"/>
+    <line x1="118" y1="248" x2="182" y2="312" stroke="#20B2AA" stroke-width="1.5"/>
+    <line x1="182" y1="248" x2="118" y2="312" stroke="#20B2AA" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Точка (точечная штриховка) -->
+  <text x="320" y="210" font-size="12" fill="#333" font-weight="bold">Точечная</text>
+  <rect x="300" y="230" width="150" height="100" fill="#FFFAF0" stroke="#CD853F" stroke-width="2"/>
+  <g class="pulse">
+    <circle cx="320" cy="260" r="3" fill="#CD853F"/>
+    <circle cx="340" cy="250" r="3" fill="#CD853F"/>
+    <circle cx="360" cy="265" r="3" fill="#CD853F"/>
+    <circle cx="380" cy="255" r="3" fill="#CD853F"/>
+    <circle cx="400" cy="270" r="3" fill="#CD853F"/>
+    <circle cx="420" cy="258" r="3" fill="#CD853F"/>
+    <circle cx="330" cy="290" r="3" fill="#CD853F"/>
+    <circle cx="350" cy="300" r="3" fill="#CD853F"/>
+    <circle cx="370" cy="285" r="3" fill="#CD853F"/>
+    <circle cx="390" cy="295" r="3" fill="#CD853F"/>
+    <circle cx="410" cy="310" r="3" fill="#CD853F"/>
+    <circle cx="425" cy="288" r="3" fill="#CD853F"/>
+  </g>
+  
+  <!-- Подсказка -->
+  <text x="250" y="345" text-anchor="middle" font-size="12" fill="#DB7093">💡 Штриховка придаёт объём и текстуру!</text>
+</svg>

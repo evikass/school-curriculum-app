@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="sky16" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE0B2;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#FFF3E0;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#sky16)"/>
+  <rect width="500" height="350" fill="#FFF8E1" opacity="0.3"/>
+  
+  <!-- Sun -->
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E65100" text-anchor="middle">⏰ Время глагола</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#FF9800" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#FFCC80" opacity="0.5"/>
+  
+  <!-- Three tenses -->
+  <g transform="translate(20, 80)" font-family="Arial, sans-serif">
+    <!-- Past -->
+    <rect x="0" y="0" width="145" height="130" fill="#FFECB3" rx="10" stroke="#FFA000"/>
+    <text x="72" y="25" font-size="14" font-weight="bold" fill="#E65100" text-anchor="middle">Прошедшее</text>
+    <text x="72" y="45" font-size="10" fill="#F57C00" text-anchor="middle">Что делал?</text>
+    <text x="72" y="70" font-size="12" fill="#FF8F00" text-anchor="middle">читал</text>
+    <text x="72" y="90" font-size="12" fill="#FF8F00" text-anchor="middle">писал</text>
+    <text x="72" y="110" font-size="12" fill="#FF8F00" text-anchor="middle">бежал</text>
+    <text x="72" y="125" font-size="9" fill="#FFB300" text-anchor="middle">суффикс -л-</text>
+    
+    <!-- Present -->
+    <rect x="160" y="0" width="145" height="130" fill="#C8E6C9" rx="10" stroke="#388E3C"/>
+    <text x="232" y="25" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Настоящее</text>
+    <text x="232" y="45" font-size="10" fill="#2E7D32" text-anchor="middle">Что делает?</text>
+    <text x="232" y="70" font-size="12" fill="#388E3C" text-anchor="middle">читает</text>
+    <text x="232" y="90" font-size="12" fill="#388E3C" text-anchor="middle">пишет</text>
+    <text x="232" y="110" font-size="12" fill="#388E3C" text-anchor="middle">бежит</text>
+    <text x="232" y="125" font-size="9" fill="#4CAF50" text-anchor="middle">сейчас</text>
+    
+    <!-- Future -->
+    <rect x="320" y="0" width="145" height="130" fill="#BBDEFB" rx="10" stroke="#1976D2"/>
+    <text x="392" y="25" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle">Будущее</text>
+    <text x="392" y="45" font-size="10" fill="#1565C0" text-anchor="middle">Что сделает?</text>
+    <text x="392" y="70" font-size="12" fill="#039BE5" text-anchor="middle">будет читать</text>
+    <text x="392" y="90" font-size="12" fill="#039BE5" text-anchor="middle">прочитает</text>
+    <text x="392" y="110" font-size="12" fill="#039BE5" text-anchor="middle">напишет</text>
+    <text x="392" y="125" font-size="9" fill="#2196F3" text-anchor="middle">потом</text>
+  </g>
+  
+  <!-- Timeline -->
+  <g transform="translate(50, 230)">
+    <line x1="0" y1="20" x2="400" y2="20" stroke="#FF9800" stroke-width="3"/>
+    <circle cx="50" cy="20" r="8" fill="#FFA000"/>
+    <text x="50" y="45" font-family="Arial, sans-serif" font-size="10" fill="#E65100" text-anchor="middle">было</text>
+    <circle cx="200" cy="20" r="8" fill="#4CAF50"/>
+    <text x="200" y="45" font-family="Arial, sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">сейчас</text>
+    <circle cx="350" cy="20" r="8" fill="#2196F3"/>
+    <text x="350" y="45" font-family="Arial, sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle">будет</text>
+    
+    <!-- Arrow -->
+    <polygon points="400,20 390,15 390,25" fill="#FF9800"/>
+  </g>
+  
+  <!-- Examples -->
+  <g transform="translate(50, 285)" font-family="Arial, sans-serif" font-size="11">
+    <rect x="0" y="0" width="130" height="25" fill="#FFECB3" rx="5"/>
+    <text x="65" y="18" fill="#E65100" text-anchor="middle">Мама читала книгу</text>
+    
+    <rect x="145" y="0" width="130" height="25" fill="#C8E6C9" rx="5"/>
+    <text x="210" y="18" fill="#1B5E20" text-anchor="middle">Мама читает книгу</text>
+    
+    <rect x="290" y="0" width="140" height="25" fill="#BBDEFB" rx="5"/>
+    <text x="360" y="18" fill="#0D47A1" text-anchor="middle">Мама будет читать</text>
+  </g>
+  
+  <!-- Flowers -->
+  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
+  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+  
+  <!-- Sparkles -->
+  <circle cx="90" cy="140" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="140" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="410" cy="140" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+</svg>
