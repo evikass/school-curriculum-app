@@ -117,7 +117,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Экономика России',
+      topic: 'Экономика России',
       lessons: [
         {
           title: 'Экономическая история России',
