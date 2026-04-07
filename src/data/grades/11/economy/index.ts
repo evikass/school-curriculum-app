@@ -17,7 +17,7 @@ const lessons: SubjectData = {
   ],
   detailedTopics: [
     {
-      title: 'Международная экономика',
+      topic: 'Международная экономика',
       lessons: [
         {
           title: 'Мировое хозяйство',
@@ -42,7 +42,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Международная торговля',
+      topic: 'Международная торговля',
       lessons: [
         {
           title: 'Торговая политика',
@@ -67,7 +67,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Валютные отношения',
+      topic: 'Валютные отношения',
       lessons: [
         {
           title: 'Валютные курсы',
@@ -92,7 +92,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Глобализация',
+      topic: 'Глобализация',
       lessons: [
         {
           title: 'Сущность глобализации',
@@ -142,7 +142,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Налоговая система',
+      topic: 'Налоговая система',
       lessons: [
         {
           title: 'Принципы налогообложения',
@@ -167,7 +167,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Бюджетная система',
+      topic: 'Бюджетная система',
       lessons: [
         {
           title: 'Бюджетное устройство России',
@@ -192,7 +192,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Подготовка к ЕГЭ',
+      topic: 'Подготовка к ЕГЭ',
       lessons: [
         {
           title: 'Ключевые понятия экономики',
