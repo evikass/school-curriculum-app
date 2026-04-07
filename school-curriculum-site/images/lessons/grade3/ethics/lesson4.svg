@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FFA000"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg4)"/>
+  
+  <!-- Sun -->
+  <circle cx="50" cy="50" r="28" fill="#FFD54F" opacity="0.8">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E65100" text-anchor="middle">🛡️ Честность</text>
+  <rect x="130" y="42" width="240" height="2" rx="1" fill="#FF9800" opacity="0.6"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="330" rx="260" ry="40" fill="#FFCC80" opacity="0.4"/>
+  
+  <!-- Shield with checkmark -->
+  <g transform="translate(50, 70)">
+    <path d="M60,0 L120,20 L120,80 C120,120 60,150 60,150 C60,150 0,120 0,80 L0,20 Z" fill="url(#shieldGrad)" stroke="#E65100" stroke-width="3">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <polyline points="30,70 50,95 90,40" stroke="#FFF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="60" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#E65100" text-anchor="middle">Правда</text>
+  </g>
+  
+  <!-- Truth vs Lie comparison -->
+  <g transform="translate(200, 70)" font-family="Arial, sans-serif">
+    <!-- Truth box -->
+    <rect x="0" y="0" width="130" height="70" fill="#C8E6C9" rx="8" stroke="#4CAF50">
+      <animate attributeName="fill" values="#C8E6C9;#A5D6A7;#C8E6C9" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="65" y="25" font-size="12" font-weight="bold" fill="#2E7D32" text-anchor="middle">✓ Правда</text>
+    <text x="65" y="45" font-size="10" fill="#388E3C" text-anchor="middle">Доверие друзей</text>
+    <text x="65" y="60" font-size="10" fill="#43A047" text-anchor="middle">Чистая совесть</text>
+    
+    <!-- Lie box -->
+    <rect x="150" y="0" width="130" height="70" fill="#FFCDD2" rx="8" stroke="#F44336">
+      <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="215" y="25" font-size="12" font-weight="bold" fill="#C62828" text-anchor="middle">✗ Ложь</text>
+    <text x="215" y="45" font-size="10" fill="#D32F2F" text-anchor="middle">Потеря доверия</text>
+    <text x="215" y="60" font-size="10" fill="#E53935" text-anchor="middle">Чувство вины</text>
+  </g>
+  
+  <!-- Mirror with reflection -->
+  <g transform="translate(320, 160)">
+    <ellipse cx="60" cy="60" rx="50" ry="70" fill="#FFF" stroke="#8D6E63" stroke-width="8"/>
+    <ellipse cx="60" cy="60" rx="40" ry="55" fill="#E0F7FA">
+      <animate attributeName="fill" values="#E0F7FA;#B2EBF2;#E0F7FA" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Face in mirror -->
+    <circle cx="60" cy="45" r="15" fill="#FFCC80"/>
+    <circle cx="55" cy="42" r="2" fill="#5D4037"/>
+    <circle cx="65" cy="42" r="2" fill="#5D4037"/>
+    <path d="M52,52 Q60,58 68,52" stroke="#E65100" stroke-width="2" fill="none"/>
+    <text x="60" y="120" font-family="Arial, sans-serif" font-size="10" fill="#5D4037" text-anchor="middle">Чистая совесть</text>
+  </g>
+  
+  <!-- Honest actions list -->
+  <g transform="translate(30, 200)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="170" height="90" fill="#FFF" rx="10" stroke="#FF9800"/>
+    <text x="85" y="20" font-size="11" font-weight="bold" fill="#E65100" text-anchor="middle">📝 Будь честным:</text>
+    <text x="15" y="40" font-size="10" fill="#F57C00">• Говори правду</text>
+    <text x="15" y="55" font-size="10" fill="#F57C00">• Признавай ошибки</text>
+    <text x="15" y="70" font-size="10" fill="#F57C00">• Не обманывай</text>
+    <text x="15" y="85" font-size="10" fill="#F57C00">• Держи слово</text>
+  </g>
+  
+  <!-- Lesson box -->
+  <g transform="translate(40, 295)">
+    <rect x="0" y="0" width="420" height="45" fill="#FFF8E1" rx="8" stroke="#FF9800"/>
+    <text x="210" y="18" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E65100" text-anchor="middle">💡 «Лучше горькая правда, чем сладкая ложь»</text>
+    <text x="210" y="35" font-family="Arial, sans-serif" font-size="10" fill="#F57C00" text-anchor="middle">Честный человек заслуживает уважения и доверия</text>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#dcfce7"/>
+  <text x="250" y="30" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#15803d">Окружающий мир 🌍</text>
+  <rect x="20" y="50" width="110" height="130" fill="#dbeafe" rx="10"/>
+  <text x="75" y="90" text-anchor="middle" font-family="Arial" font-size="30">❄️</text>
+  <text x="75" y="120" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#1d4ed8">Зима</text>
+  <text x="75" y="145" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Холод, снег</text>
+  <text x="75" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Дек-Фев</text>
+  <rect x="140" y="50" width="110" height="130" fill="#fce7f3" rx="10"/>
+  <text x="195" y="90" text-anchor="middle" font-family="Arial" font-size="30">🌸</text>
+  <text x="195" y="120" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#be185d">Весна</text>
+  <text x="195" y="145" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Тепло, цветы</text>
+  <text x="195" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Март-Май</text>
+  <rect x="260" y="50" width="110" height="130" fill="#fef3c7" rx="10"/>
+  <text x="315" y="90" text-anchor="middle" font-family="Arial" font-size="30">☀️</text>
+  <text x="315" y="120" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#b45309">Лето</text>
+  <text x="315" y="145" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Жарко, солнце</text>
+  <text x="315" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Июнь-Авг</text>
+  <rect x="380" y="50" width="110" height="130" fill="#f3e8ff" rx="10"/>
+  <text x="435" y="90" text-anchor="middle" font-family="Arial" font-size="30">🍂</text>
+  <text x="435" y="120" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#7c3aed">Осень</text>
+  <text x="435" y="145" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Листопад</text>
+  <text x="435" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Сен-Ноя</text>
+  <rect x="20" y="200" width="225" height="130" fill="#fef2f2" rx="10"/>
+  <text x="132" y="225" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#dc2626">Домашние животные 🐄</text>
+  <text x="70" y="260" text-anchor="middle" font-family="Arial" font-size="20">🐕 🐱 🐄 🐴 🐖 🐔</text>
+  <text x="132" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Живут с человеком</text>
+  <text x="132" y="315" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Приносят пользу</text>
+  <rect x="255" y="200" width="225" height="130" fill="#dbeafe" rx="10"/>
+  <text x="367" y="225" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1d4ed8">Дикие животные 🐻</text>
+  <text x="310" y="260" text-anchor="middle" font-family="Arial" font-size="20">🐻 🦊 🐺 🐰 🐿️ 🦔</text>
+  <text x="367" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Живут в лесу</text>
+  <text x="367" y="315" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Сами добывают еду</text>
+</svg>

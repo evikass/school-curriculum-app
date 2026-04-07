@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#fef3c7"/>
+  <text x="250" y="30" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#b45309">Физкультура 🏃</text>
+  <rect x="30" y="50" width="140" height="130" fill="#dcfce7" rx="15"/>
+  <text x="100" y="90" text-anchor="middle" font-family="Arial" font-size="40">🚶</text>
+  <text x="100" y="120" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#15803d">Ходьба</text>
+  <text x="100" y="145" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">На носочках</text>
+  <text x="100" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">На пятках</text>
+  <rect x="180" y="50" width="140" height="130" fill="#dbeafe" rx="15"/>
+  <text x="250" y="90" text-anchor="middle" font-family="Arial" font-size="40">🏃</text>
+  <text x="250" y="120" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#1d4ed8">Бег</text>
+  <text x="250" y="145" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Быстро</text>
+  <text x="250" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Медленно</text>
+  <rect x="330" y="50" width="140" height="130" fill="#fce7f3" rx="15"/>
+  <text x="400" y="90" text-anchor="middle" font-family="Arial" font-size="40">🦘</text>
+  <text x="400" y="120" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#be185d">Прыжки</text>
+  <text x="400" y="145" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">На двух ногах</text>
+  <text x="400" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">На одной ноге</text>
+  <rect x="20" y="200" width="460" height="130" fill="#f3e8ff" rx="10"/>
+  <text x="250" y="225" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#7c3aed">Упражнения 🤸</text>
+  <text x="80" y="260" text-anchor="middle" font-family="Arial" font-size="20">🙋</text>
+  <text x="80" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Руки вверх</text>
+  <text x="170" y="260" text-anchor="middle" font-family="Arial" font-size="20">🧎</text>
+  <text x="170" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Приседания</text>
+  <text x="260" y="260" text-anchor="middle" font-family="Arial" font-size="20">🙆</text>
+  <text x="260" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Наклоны</text>
+  <text x="350" y="260" text-anchor="middle" font-family="Arial" font-size="20">🤸</text>
+  <text x="350" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Повороты</text>
+  <text x="440" y="260" text-anchor="middle" font-family="Arial" font-size="20">💪</text>
+  <text x="440" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Разминка</text>
+</svg>
