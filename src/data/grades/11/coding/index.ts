@@ -17,7 +17,7 @@ const lessons: SubjectData = {
   ],
   detailedTopics: [
     {
-      title: 'Системы счисления',
+      topic: 'Системы счисления',
       lessons: [
         {
           title: 'Позиционные системы счисления',
@@ -42,7 +42,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Логика и алгебра логики',
+      topic: 'Логика и алгебра логики',
       lessons: [
         {
           title: 'Логические операции',
@@ -67,7 +67,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Алгоритмы и программирование',
+      topic: 'Алгоритмы и программирование',
       lessons: [
         {
           title: 'Анализ алгоритмов',
@@ -92,7 +92,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Информационные модели',
+      topic: 'Информационные модели',
       lessons: [
         {
           title: 'Моделирование',
@@ -117,7 +117,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Компьютерные сети',
+      topic: 'Компьютерные сети',
       lessons: [
         {
           title: 'Модели сетей',
@@ -142,7 +142,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Информационная безопасность',
+      topic: 'Информационная безопасность',
       lessons: [
         {
           title: 'Угрозы информационной безопасности',
@@ -167,7 +167,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Теория информации',
+      topic: 'Теория информации',
       lessons: [
         {
           title: 'Измерение информации',
@@ -192,7 +192,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Подготовка к ЕГЭ',
+      topic: 'Подготовка к ЕГЭ',
       lessons: [
         {
           title: 'Структура ЕГЭ по информатике',
