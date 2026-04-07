@@ -17,7 +17,7 @@ const lessons: SubjectData = {
   ],
   detailedTopics: [
     {
-      title: 'Микроэкономика: основы',
+      topic: 'Микроэкономика: основы',
       lessons: [
         {
           title: 'Предмет и метод микроэкономики',
@@ -42,7 +42,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Поведение потребителя',
+      topic: 'Поведение потребителя',
       lessons: [
         {
           title: 'Индивидуальный и рыночный спрос',
@@ -67,7 +67,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Теория фирмы',
+      topic: 'Теория фирмы',
       lessons: [
         {
           title: 'Производственная функция',
@@ -92,7 +92,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Рыночные структуры',
+      topic: 'Рыночные структуры',
       lessons: [
         {
           title: 'Совершенная конкуренция',
@@ -117,7 +117,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Факторные рынки',
+      topic: 'Факторные рынки',
       lessons: [
         {
           title: 'Рынок труда',
@@ -142,7 +142,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Макроэкономика',
+      topic: 'Макроэкономика',
       lessons: [
         {
           title: 'ВВП и методы его расчёта',
@@ -167,7 +167,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Денежно-кредитная политика',
+      topic: 'Денежно-кредитная политика',
       lessons: [
         {
           title: 'Деньги и денежное обращение',
@@ -192,7 +192,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Экономический рост',
+      topic: 'Экономический рост',
       lessons: [
         {
           title: 'Факторы экономического роста',
