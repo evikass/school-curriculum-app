@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes clap { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.2); } }
+      .syllable { animation: clap 1s ease-in-out infinite; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#eff6ff"/>
+  
+  <!-- Title -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1d4ed8">Слова и слоги 👏</text>
+  
+  <!-- Syllable explanation -->
+  <rect x="20" y="50" width="460" height="60" fill="#fef3c7" rx="10"/>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#b45309">Слог — это часть слова, которую можно произнести одним выдохом</text>
+  <text x="250" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d97706">Сколько гласных — столько и слогов! 🔤</text>
+  
+  <!-- One syllable -->
+  <g class="syllable">
+    <rect x="30" y="125" width="140" height="70" fill="#dcfce7" rx="10"/>
+    <text x="100" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#15803d">ДОМ</text>
+    <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#22c55e">1 слог 👏</text>
+  </g>
+  
+  <!-- Two syllables -->
+  <g class="syllable" style="animation-delay: 0.3s">
+    <rect x="180" y="125" width="140" height="70" fill="#dbeafe" rx="10"/>
+    <text x="250" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1d4ed8">МА-МА</text>
+    <text x="250" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#3b82f6">2 слога 👏👏</text>
+  </g>
+  
+  <!-- Three syllables -->
+  <g class="syllable" style="animation-delay: 0.6s">
+    <rect x="330" y="125" width="140" height="70" fill="#fce7f3" rx="10"/>
+    <text x="400" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#be185d">МО-ЛО-КО</text>
+    <text x="400" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#ec4899">3 слога 👏👏👏</text>
+  </g>
+  
+  <!-- Counting method -->
+  <rect x="20" y="210" width="220" height="120" fill="#f3e8ff" rx="15"/>
+  <text x="130" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7c3aed">Как считать слоги:</text>
+  <text x="130" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">1. Хлопни на каждый слог</text>
+  <text x="130" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">2. Подбородок опускается</text>
+  <text x="130" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">3. Считай гласные буквы</text>
+  <text x="130" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">✋ = слоги!</text>
+  
+  <!-- Practice words -->
+  <rect x="260" y="210" width="220" height="120" fill="#fef2f2" rx="15"/>
+  <text x="370" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">Потренируйся:</text>
+  <text x="370" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">ШКО-ЛА (2)</text>
+  <text x="370" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">КНИ-ГА (2)</text>
+  <text x="370" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">У-ЧИ-ТЕЛЬ (3)</text>
+  <text x="370" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Хлопни и посчитай!</text>
+</svg>

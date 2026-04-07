@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDE7"/>
+      <stop offset="100%" stop-color="#FFF9C4"/>
+    </linearGradient>
+    <linearGradient id="houseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFCC80"/>
+      <stop offset="100%" stop-color="#FFB74D"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg7)"/>
+  
+  <!-- Sun -->
+  <circle cx="450" cy="50" r="28" fill="#FFD54F">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E65100" text-anchor="middle">🏠 Семья</text>
+  <rect x="160" y="42" width="180" height="2" rx="1" fill="#FF9800" opacity="0.6"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="330" rx="270" ry="35" fill="#C8E6C9" opacity="0.5"/>
+  
+  <!-- House -->
+  <g transform="translate(50, 70)">
+    <!-- Roof -->
+    <polygon points="100,0 20,60 180,60" fill="#E65100" stroke="#BF360C" stroke-width="2">
+      <animate attributeName="fill" values="#E65100;#F57C00;#E65100" dur="5s" repeatCount="indefinite"/>
+    </polygon>
+    <!-- House body -->
+    <rect x="30" y="60" width="140" height="100" fill="url(#houseGrad)" stroke="#E65100" stroke-width="2"/>
+    <!-- Door -->
+    <rect x="80" y="100" width="40" height="60" fill="#8D6E63" rx="3"/>
+    <circle cx="110" cy="130" r="4" fill="#FFD54F"/>
+    <!-- Windows -->
+    <rect x="45" y="75" width="30" height="30" fill="#81D4FA" stroke="#5D4037" stroke-width="2"/>
+    <line x1="60" y1="75" x2="60" y2="105" stroke="#5D4037" stroke-width="2"/>
+    <line x1="45" y1="90" x2="75" y2="90" stroke="#5D4037" stroke-width="2"/>
+    <rect x="125" y="75" width="30" height="30" fill="#81D4FA" stroke="#5D4037" stroke-width="2"/>
+    <line x1="140" y1="75" x2="140" y2="105" stroke="#5D4037" stroke-width="2"/>
+    <line x1="125" y1="90" x2="155" y2="90" stroke="#5D4037" stroke-width="2"/>
+    <!-- Chimney -->
+    <rect x="130" y="20" width="20" height="40" fill="#8D6E63"/>
+    <!-- Smoke -->
+    <g fill="#B0BEC5" opacity="0.6">
+      <circle cx="140" cy="15" r="8">
+        <animate attributeName="cy" values="15;5;15" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;0.3;0.6" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="145" cy="5" r="6">
+        <animate attributeName="cy" values="5;-5;5" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.5;0.2;0.5" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <!-- Heart on house -->
+    <path d="M100,45 C100,40 95,37 92,37 C89,37 87,40 87,43 C87,48 100,55 100,55 C100,55 113,48 113,43 C113,40 111,37 108,37 C105,37 100,40 100,45" fill="#E91E63">
+      <animate attributeName="transform" type="scale" values="1;1.1;1" dur="1.5s" repeatCount="indefinite" additive="sum"/>
+    </path>
+  </g>
+  
+  <!-- Family members -->
+  <g transform="translate(250, 90)">
+    <!-- Dad -->
+    <g transform="translate(0, 0)">
+      <circle cx="25" cy="20" r="18" fill="#FFCC80"/>
+      <ellipse cx="25" cy="12" rx="14" ry="8" fill="#5D4037"/>
+      <rect x="10" y="38" width="30" height="40" rx="8" fill="#1976D2"/>
+      <rect x="12" y="78" width="12" height="25" rx="4" fill="#455A64"/>
+      <rect x="26" y="78" width="12" height="25" rx="4" fill="#455A64"/>
+      <circle cx="20" cy="18" r="2" fill="#5D4037"/>
+      <circle cx="30" cy="18" r="2" fill="#5D4037"/>
+      <path d="M18,26 Q25,32 32,26" stroke="#E65100" stroke-width="2" fill="none"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="2s" repeatCount="indefinite"/>
+    </g>
+    
+    <!-- Mom -->
+    <g transform="translate(45, 5)">
+      <circle cx="25" cy="20" r="18" fill="#FFCC80"/>
+      <ellipse cx="25" cy="10" rx="16" ry="12" fill="#5D4037"/>
+      <rect x="10" y="38" width="30" height="40" rx="8" fill="#E91E63"/>
+      <rect x="12" y="78" width="12" height="25" rx="4" fill="#7B1FA2"/>
+      <rect x="26" y="78" width="12" height="25" rx="4" fill="#7B1FA2"/>
+      <circle cx="20" cy="18" r="2" fill="#5D4037"/>
+      <circle cx="30" cy="18" r="2" fill="#5D4037"/>
+      <path d="M18,26 Q25,32 32,26" stroke="#E65100" stroke-width="2" fill="none"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="2.2s" repeatCount="indefinite"/>
+    </g>
+    
+    <!-- Child -->
+    <g transform="translate(95, 20)">
+      <circle cx="15" cy="15" r="14" fill="#FFCC80"/>
+      <ellipse cx="15" cy="8" rx="11" ry="7" fill="#5D4037"/>
+      <rect x="5" y="29" width="20" height="28" rx="6" fill="#4CAF50"/>
+      <rect x="5" y="57" width="9" height="18" rx="4" fill="#FF9800"/>
+      <rect x="16" y="57" width="9" height="18" rx="4" fill="#FF9800"/>
+      <circle cx="11" cy="13" r="2" fill="#5D4037"/>
+      <circle cx="19" cy="13" r="2" fill="#5D4037"/>
+      <path d="M10,20 Q15,25 20,20" stroke="#E65100" stroke-width="2" fill="none"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="1.5s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  
+  <!-- Family values -->
+  <g transform="translate(320, 90)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="160" height="120" fill="#FFF" rx="10" stroke="#FF9800"/>
+    <text x="80" y="22" font-size="12" font-weight="bold" fill="#E65100" text-anchor="middle">👨‍👩‍👧 Семейные ценности</text>
+    <text x="15" y="45" font-size="10" fill="#F57C00">❤️ Любовь и забота</text>
+    <text x="15" y="65" font-size="10" fill="#F57C00">🤝 Взаимопомощь</text>
+    <text x="15" y="85" font-size="10" fill="#F57C00">💬 Уважение</text>
+    <text x="15" y="105" font-size="10" fill="#F57C00">🛡️ Поддержка</text>
+  </g>
+  
+  <!-- Lesson box -->
+  <g transform="translate(40, 260)">
+    <rect x="0" y="0" width="420" height="55" fill="#FFF8E1" rx="8" stroke="#FF9800"/>
+    <text x="210" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E65100" text-anchor="middle">💡 Семья — это самые близкие и родные люди</text>
+    <text x="210" y="40" font-family="Arial, sans-serif" font-size="10" fill="#F57C00" text-anchor="middle">Люби, уважай и помогай своей семье!</text>
+  </g>
+  
+  <!-- Flowers -->
+  <circle cx="40" cy="310" r="6" fill="#E91E63"/>
+  <circle cx="460" cy="305" r="5" fill="#FF9800"/>
+  <circle cx="480" cy="315" r="4" fill="#E91E63"/>
+</svg>
