@@ -500,6 +500,121 @@ const seniorQuizDatabase: Record<string, LessonTask[][]> = {
       { type: 'fill', question: 'В сказках добро всегда побеждает __', correctAnswer: 'зло', hint: 'Главная мысль сказок' },
     ],
   ],
+
+  // === ПРОГРАММИРОВАНИЕ / PYTHON ===
+  'python': [
+    [
+      { type: 'quiz', question: 'Какая функция выводит текст на экран?', options: ['input()', 'print()', 'output()', 'display()'], correctAnswer: 'print()', hint: 'Функция названа по аналогии с печатью' },
+      { type: 'quiz', question: 'Какой оператор используется для целочисленного деления?', options: ['/', '//', '%', '**'], correctAnswer: '//', hint: 'Это два символа обычного деления' },
+      { type: 'fill', question: 'Функция для ввода данных с клавиатуры — ___.', correctAnswer: 'input', hint: 'Название функции переводится как "ввод"' },
+      { type: 'find', question: 'Выбери правильные имена переменных в Python:', options: ['my_var', '2name', '_count', 'my-var', 'userName', 'class'], correctAnswer: ['my_var', '_count', 'userName'], hint: 'Имена не могут начинаться с цифры и содержать дефис, class — зарезервированное слово' },
+    ],
+    [
+      { type: 'quiz', question: 'Как обозначается комментарий в Python?', options: ['//', '#', '/*', '--'], correctAnswer: '#', hint: 'Символ решётки' },
+      { type: 'quiz', question: 'Что выведет print(2 ** 3)?', options: ['6', '8', '9', '5'], correctAnswer: '8', hint: '** — это возведение в степень' },
+      { type: 'fill', question: 'Оператор остатка от деления в Python — ___.', correctAnswer: '%', hint: 'Знак процента' },
+      { type: 'quiz', question: 'Какой тип данных у переменной x = 3.14?', options: ['int', 'float', 'str', 'bool'], correctAnswer: 'float', hint: 'Это число с дробной частью' },
+    ],
+  ],
+
+  'основы python': [
+    [
+      { type: 'quiz', question: 'Кто создал язык Python?', options: ['Джеймс Гослинг', 'Гвидо ван Россум', 'Бьярне Страуструп'], correctAnswer: 'Гвидо ван Россум', hint: 'Нидерландский программист' },
+      { type: 'quiz', question: 'Какая функция выводит текст на экран?', options: ['input()', 'print()', 'output()', 'show()'], correctAnswer: 'print()', hint: 'От английского "печать"' },
+      { type: 'fill', question: 'Символ для комментариев в Python — ___.', correctAnswer: '#', hint: 'Решётка' },
+      { type: 'find', question: 'Выбери особенности Python:', options: ['Простой синтаксис', 'Требует точку с запятой', 'Интерпретируемый язык', 'Кроссплатформенность', 'Только для Windows'], correctAnswer: ['Простой синтаксис', 'Интерпретируемый язык', 'Кроссплатформенность'], hint: 'Python — простой и универсальный язык' },
+    ],
+  ],
+
+  'переменные': [
+    [
+      { type: 'quiz', question: 'Какой тип данных для целых чисел?', options: ['float', 'int', 'str', 'bool'], correctAnswer: 'int', hint: 'Integer — целый' },
+      { type: 'quiz', question: 'Какой тип данных у переменной x = "Привет"?', options: ['int', 'float', 'str', 'bool'], correctAnswer: 'str', hint: 'Текст в кавычках — строка' },
+      { type: 'fill', question: 'Функция для определения типа — ___.', correctAnswer: 'type', hint: 'От слова "тип"' },
+      { type: 'find', question: 'Выбери правильные имена переменных:', options: ['my_var', '2value', '_name', 'my-var', 'count', 'def'], correctAnswer: ['my_var', '_name', 'count'], hint: 'Нельзя: начинать с цифры, дефис, зарезервированные слова' },
+    ],
+  ],
+
+  'типы данных': [
+    [
+      { type: 'quiz', question: 'Какой тип данных у переменной x = 3.14?', options: ['int', 'float', 'str', 'bool'], correctAnswer: 'float', hint: 'Это число с дробной частью' },
+      { type: 'fill', question: 'Функция для преобразования строки в число — ___.', correctAnswer: 'int', hint: 'Сокращение от integer (целое число)' },
+      { type: 'quiz', question: 'Что вернёт type("Hello")?', options: ['<class str>', '<class string>', '<class text>', '<class char>'], correctAnswer: '<class str>', hint: 'Строковый тип в Python называется str' },
+      { type: 'match', question: 'Соедини тип данных с примером:', options: ['int', 'float', 'str', 'bool'], correctAnswer: ['42', '3.14', '"Привет"', 'True'], hint: 'int — целое, float — дробное, str — строка, bool — истина/ложь' },
+    ],
+  ],
+
+  'условия': [
+    [
+      { type: 'quiz', question: 'Какой оператор проверяет равенство в Python?', options: ['=', '==', '===', '!='], correctAnswer: '==', hint: 'Один = это присваивание, два = это сравнение' },
+      { type: 'fill', question: 'Ключевое слово для альтернативной ветки в if — ___.', correctAnswer: 'else', hint: 'Переводится как "иначе"' },
+      { type: 'quiz', question: 'Что выведет: x = 5; print(x > 3 and x < 10)?', options: ['True', 'False', '5', 'Ошибка'], correctAnswer: 'True', hint: '5 > 3 И 5 < 10 — оба условия истинны' },
+      { type: 'find', question: 'Выбери правильные условия:', options: ['if x == 5:', 'if x = 5:', 'elif x > 0:', 'else if x < 0:'], correctAnswer: ['if x == 5:', 'elif x > 0:'], hint: 'В Python используется == для сравнения и elif вместо else if' },
+    ],
+  ],
+
+  'циклы': [
+    [
+      { type: 'quiz', question: 'Какой цикл выполняется, пока условие истинно?', options: ['for', 'while', 'if', 'loop'], correctAnswer: 'while', hint: 'Название цикла переводится как "пока"' },
+      { type: 'fill', question: 'Оператор для выхода из цикла — ___.', correctAnswer: 'break', hint: 'Это слово переводится как "прервать"' },
+      { type: 'quiz', question: 'Что выведет: for i in range(3): print(i)?', options: ['0 1 2', '1 2 3', '0 1 2 3', '1 2'], correctAnswer: '0 1 2', hint: 'range(3) создаёт числа от 0 до 2' },
+      { type: 'match', question: 'Соедини оператор с его действием:', options: ['break', 'continue', 'range(5)', 'for'], correctAnswer: ['Выход из цикла', 'Переход к следующей итерации', 'Числа 0,1,2,3,4', 'Цикл перебора'], hint: 'Каждый оператор выполняет свою функцию в цикле' },
+    ],
+  ],
+
+  'списки': [
+    [
+      { type: 'quiz', question: 'Какой индекс у первого элемента списка?', options: ['0', '1', '-1', 'first'], correctAnswer: '0', hint: 'В Python нумерация начинается с нуля' },
+      { type: 'fill', question: 'Метод для добавления элемента в конец списка — ___.', correctAnswer: 'append', hint: 'Это слово переводится как "добавить в конец"' },
+      { type: 'quiz', question: 'Что делает s[::-1] для строки s?', options: ['Удаляет символы', 'Разворачивает строку', 'Дублирует строку', 'Ошибка'], correctAnswer: 'Разворачивает строку', hint: 'Отрицательный шаг идёт в обратном направлении' },
+      { type: 'find', question: 'Выбери изменяемые типы данных:', options: ['list', 'str', 'dict', 'tuple', 'set'], correctAnswer: ['list', 'dict', 'set'], hint: 'Строки и кортежи нельзя изменить после создания' },
+    ],
+  ],
+
+  'строки': [
+    [
+      { type: 'quiz', question: 'Какой индекс у последнего элемента строки s?', options: ['0', '1', '-1', 'len(s)'], correctAnswer: '-1', hint: 'Отрицательный индекс считает с конца' },
+      { type: 'fill', question: 'Метод для преобразования строки в верхний регистр — ___.', correctAnswer: 'upper', hint: 'От слова "верхний"' },
+      { type: 'quiz', question: 'Как объединить две строки?', options: ['str1 + str2', 'str1.concat(str2)', 'str1.join(str2)', 'str1.merge(str2)'], correctAnswer: 'str1 + str2', hint: 'Оператор + конкатенирует строки' },
+      { type: 'find', question: 'Выбери методы строк:', options: ['upper()', 'add()', 'lower()', 'strip()', 'append()'], correctAnswer: ['upper()', 'lower()', 'strip()'], hint: 'append() — метод списка, не строки' },
+    ],
+  ],
+
+  'словари': [
+    [
+      { type: 'quiz', question: 'Что такое словарь в Python?', options: ['Список значений', 'Набор пар ключ-значение', 'Упорядоченная коллекция', 'Массив чисел'], correctAnswer: 'Набор пар ключ-значение', hint: 'Словарь хранит данные по ключам' },
+      { type: 'fill', question: 'Метод для получения всех ключей словаря — ___.', correctAnswer: 'keys', hint: 'От слова "ключи"' },
+      { type: 'quiz', question: 'Как получить значение по ключу "name" из словаря d?', options: ['d.name', 'd["name"]', 'd->name', 'd::name'], correctAnswer: 'd["name"]', hint: 'Доступ через квадратные скобки' },
+      { type: 'find', question: 'Выбери верные утверждения о словарях:', options: ['Ключи уникальны', 'Ключи могут повторяться', 'Значения доступны по ключу', 'Словарь упорядочен', 'Словарь изменяем'], correctAnswer: ['Ключи уникальны', 'Значения доступны по ключу', 'Словарь изменяем'], hint: 'Ключи должны быть уникальными' },
+    ],
+  ],
+
+  'функции': [
+    [
+      { type: 'quiz', question: 'Какое ключевое слово объявляет функцию?', options: ['function', 'func', 'def', 'define'], correctAnswer: 'def', hint: 'Сокращение от define (определить)' },
+      { type: 'fill', question: 'Ключевое слово для возврата значения из функции — ___.', correctAnswer: 'return', hint: 'Это слово переводится как "вернуть"' },
+      { type: 'quiz', question: 'Что вернёт функция без return?', options: ['0', 'None', 'Пустую строку', 'Ошибка'], correctAnswer: 'None', hint: 'Если нет return, функция возвращает None' },
+      { type: 'find', question: 'Выбери правильные утверждения о функциях:', options: ['Функция может не иметь параметров', 'Функция всегда возвращает значение', 'return завершает функцию', 'Функция может возвращать несколько значений'], correctAnswer: ['Функция может не иметь параметров', 'return завершает функцию', 'Функция может возвращать несколько значений'], hint: 'Функция без return возвращает None, не "всегда значение"' },
+    ],
+  ],
+
+  'файлы': [
+    [
+      { type: 'quiz', question: 'Какой режим открывает файл для чтения?', options: ['"w"', '"r"', '"a"', '"x"'], correctAnswer: '"r"', hint: 'От слова "read" (читать)' },
+      { type: 'fill', question: 'Ключевое слово для автоматического закрытия файла — ___.', correctAnswer: 'with', hint: 'Используется в конструкции with open(...)' },
+      { type: 'quiz', question: 'Какой режим добавляет данные в конец файла?', options: ['"w"', '"r"', '"a"', '"x"'], correctAnswer: '"a"', hint: 'От слова "append" (добавить)' },
+      { type: 'find', question: 'Выбери режимы работы с файлами:', options: ['"r" — чтение', '"w" — запись', '"x" — выполнение', '"a" — добавление', '"d" — удаление'], correctAnswer: ['"r" — чтение', '"w" — запись', '"a" — добавление'], hint: 'В Python нет режимов "x" для выполнения или "d" для удаления' },
+    ],
+  ],
+
+  'программирование': [
+    [
+      { type: 'quiz', question: 'Что такое переменная?', options: ['Число', 'Именованная область памяти', 'Функция', 'Оператор'], correctAnswer: 'Именованная область памяти', hint: 'Переменная хранит данные под именем' },
+      { type: 'quiz', question: 'Какой тип данных хранит истину или ложь?', options: ['int', 'float', 'str', 'bool'], correctAnswer: 'bool', hint: 'От имени математика Джорджа Буля' },
+      { type: 'fill', question: 'Оператор присваивания в Python — ___.', correctAnswer: '=', hint: 'Один знак равенства' },
+      { type: 'find', question: 'Выбери базовые понятия программирования:', options: ['Переменная', 'Предложение', 'Функция', 'Цикл', 'Глагол'], correctAnswer: ['Переменная', 'Функция', 'Цикл'], hint: 'Предложение и глагол — понятия русского языка' },
+    ],
+  ],
 }
 
 // Функция для создания игры по уроку
@@ -591,6 +706,31 @@ export function generateLessonQuiz(lessonTitle: string, lessonDescription: strin
       'арифметик': 'арифметика',
       'экосистем': 'экосистема',
       'сказк': 'сказка',
+      // Программирование / Python
+      'python': 'python',
+      'программирован': 'программирование',
+      'переменн': 'переменные',
+      'тип данных': 'типы данных',
+      'тип данн': 'типы данных',
+      'услови': 'условия',
+      'ветвлен': 'условия',
+      'цикл': 'циклы',
+      'for': 'циклы',
+      'while': 'циклы',
+      'список': 'списки',
+      'list': 'списки',
+      'строк': 'строки',
+      'словар': 'словари',
+      'dict': 'словари',
+      'функци': 'функции',
+      'def': 'функции',
+      'return': 'функции',
+      'файл': 'файлы',
+      'open': 'файлы',
+      'арифметик': 'арифметика',
+      'оператор': 'python',
+      'print': 'python',
+      'input': 'python',
     }
 
     for (const [keyword, topic] of Object.entries(keywords)) {
@@ -624,6 +764,9 @@ export function generateLessonQuiz(lessonTitle: string, lessonDescription: strin
       'физкультура': { topic: 'физкультура', db: quizDatabase },
       'изобразительное искусство': { topic: 'изобразительное искусство', db: quizDatabase },
       'технология': { topic: 'технология', db: quizDatabase },
+      'основы программирования': { topic: 'python', db: seniorQuizDatabase },
+      'программирование': { topic: 'программирование', db: seniorQuizDatabase },
+      'информатика': { topic: 'программирование', db: seniorQuizDatabase },
     }
 
     for (const [subject, mapping] of Object.entries(subjectMapping)) {
