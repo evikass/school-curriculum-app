@@ -30,6 +30,9 @@ export default function LessonViewer() {
   const [isDetailOpen, setIsDetailOpen] = useState(false)
   
   const games = contextGames || []
+  
+  // Фильтруем игры по текущему предмету
+  const subjectGames = games.filter(g => g.subject === selectedSubject?.title)
 
   // При возврате из теста - открыть модальное окно с уроком
   useEffect(() => {
@@ -175,7 +178,7 @@ export default function LessonViewer() {
         >
           📘 Уроки
         </button>
-        {games.length > 0 && (
+        {subjectGames.length > 0 && (
           <button
             onClick={() => setCurrentTab('games')}
             className={`px-6 py-3 rounded-2xl font-bold text-lg transition-all whitespace-nowrap
@@ -183,7 +186,7 @@ export default function LessonViewer() {
                 ? 'bg-gradient-to-r from-green-500 to-teal-500 text-white shadow-lg' 
                 : 'bg-white/10 text-white/70 hover:bg-white/20'}`}
           >
-            🎮 Игры ({games.length})
+            🎮 Игры ({subjectGames.length})
           </button>
         )}
       </div>
@@ -306,9 +309,9 @@ export default function LessonViewer() {
       )}
 
       {/* Games tab */}
-      {currentTab === 'games' && games.length > 0 && (
+      {currentTab === 'games' && subjectGames.length > 0 && (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {games.map((game: GameLesson, index: number) => (
+          {subjectGames.map((game: GameLesson, index: number) => (
             <button
               key={index}
               onClick={() => selectGameFromLesson(game)}

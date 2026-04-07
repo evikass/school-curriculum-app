@@ -689,7 +689,7 @@ with open("output.txt", "w") as f:
 export const games: GameLesson[] = [
   {
     title: "Основы Python",
-    subject: "Программирование",
+    subject: "Основы программирования",
     icon: "Code",
     color: "text-cyan-400",
     tasks: [
@@ -725,7 +725,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Типы данных",
-    subject: "Программирование",
+    subject: "Основы программирования",
     icon: "Database",
     color: "text-blue-400",
     tasks: [
@@ -761,7 +761,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Условия и ветвления",
-    subject: "Программирование",
+    subject: "Основы программирования",
     icon: "GitBranch",
     color: "text-yellow-400",
     tasks: [
@@ -797,7 +797,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Циклы",
-    subject: "Программирование",
+    subject: "Основы программирования",
     icon: "Repeat",
     color: "text-purple-400",
     tasks: [
@@ -833,7 +833,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Списки и строки",
-    subject: "Программирование",
+    subject: "Основы программирования",
     icon: "List",
     color: "text-green-400",
     tasks: [
@@ -869,7 +869,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Функции",
-    subject: "Программирование",
+    subject: "Основы программирования",
     icon: "FunctionSquare",
     color: "text-orange-400",
     tasks: [
