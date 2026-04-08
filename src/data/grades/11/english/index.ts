@@ -120,7 +120,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Mixed Conditionals",
+    title: "Урок 1: Mixed Conditionals",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -133,7 +133,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Excellent! You know Mixed Conditionals! 🎓" }
   },
   {
-    title: "Inversion",
+    title: "Урок 2: Inversion",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -146,20 +146,72 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Great! You know Inversion! 📚" }
   },
   {
-    title: "Academic Vocabulary",
+    title: "Урок 3: Subjunctive Mood",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "I suggest that he ____ more careful. (subjunctive)", options: ["be", "is", "was"], correctAnswer: "be", hint: "Present Subjunctive — базовая форма" },
+      { type: 'quiz', question: "I wish I ____ rich. (сожаление о настоящем)", options: ["am", "were", "be"], correctAnswer: "were", hint: "Past Subjunctive — were для всех лиц" },
+      { type: 'fill', question: "I wish I ____ known the truth. (сожаление о прошлом)", correctAnswer: "had", hint: "wish + Past Perfect" },
+      { type: 'quiz', question: "You ____ better study. (совет)", options: ["had", "would", "should"], correctAnswer: "had", hint: "Had better = тебе лучше" }
+    ],
+    reward: { stars: 3, message: "Perfect! You know Subjunctive Mood! ✨" }
+  },
+  {
+    title: "Урок 4: Complex Structures",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "It was John ____ broke the window. (cleft sentence)", options: ["who", "which", "what"], correctAnswer: "who", hint: "It was... who... = Именно..." },
+      { type: 'quiz', question: "____ down the street, I met an old friend.", options: ["Walking", "Walked", "Walk"], correctAnswer: "Walking", hint: "Present Participle = активное действие" },
+      { type: 'fill', question: "What I need ____ a cup of coffee.", correctAnswer: "is", hint: "Wh-cleft: What... is..." },
+      { type: 'quiz', question: "He is ____ young to drive.", options: ["too", "so", "very"], correctAnswer: "too", hint: "Too... to = слишком... чтобы" }
+    ],
+    reward: { stars: 3, message: "Excellent! You know Complex Structures! 🏗️" }
+  },
+  {
+    title: "Урок 5: Academic Vocabulary",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "Анализировать данные — ____ the data.", options: ["analyse", "make", "do"], correctAnswer: "analyse", hint: "Analyse = анализировать" },
       { type: 'quiz', question: "Ключевой фактор — a key ____.", options: ["issue", "factor", "aspect"], correctAnswer: "factor", hint: "Factor = фактор" },
-      { type: 'fill', question: "Furthermore, Moreover, __ = кроме того", correctAnswer: "In addition", hint: "In addition = дополнительно" },
+      { type: 'fill', question: "Furthermore, Moreover, ____ = кроме того", correctAnswer: "In addition", hint: "In addition = дополнительно" },
       { type: 'quiz', question: "В заключение — In ____.", options: ["end", "conclusion", "finish"], correctAnswer: "conclusion", hint: "In conclusion" }
     ],
     reward: { stars: 3, message: "Super! You know Academic Vocabulary! ✍️" }
   },
   {
-    title: "Business English",
+    title: "Урок 6: Essay Writing",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Главная мысль эссе — ____ statement.", options: ["thesis", "topic", "main"], correctAnswer: "thesis", hint: "Thesis statement = тезис" },
+      { type: 'quiz', question: "Первое предложение абзаца — ____ sentence.", options: ["topic", "main", "first"], correctAnswer: "topic", hint: "Topic sentence = тематическое предложение" },
+      { type: 'fill', question: "This essay will ____ the causes of climate change.", correctAnswer: "examine", hint: "examine = рассматривать" },
+      { type: 'quiz', question: "Заключение эссе должно:", options: ["Вводить новые идеи", "Обобщать основные пункты", "Быть самым длинным"], correctAnswer: "Обобщать основные пункты", hint: "Заключение = summary" }
+    ],
+    reward: { stars: 3, message: "Great! You know Essay Writing! 📝" }
+  },
+  {
+    title: "Урок 7: Debating Skills",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "My primary ____ is that... (аргумент)", options: ["argument", "point", "idea"], correctAnswer: "argument", hint: "Argument = аргумент" },
+      { type: 'quiz', question: "Атака на личность — логическая ошибка:", options: ["Straw Man", "Ad Hominem", "False Dichotomy"], correctAnswer: "Ad Hominem", hint: "Ad Hominem = к человеку" },
+      { type: 'fill', question: "I see your point, ____ I must disagree.", correctAnswer: "but", hint: "I see your point, but..." },
+      { type: 'quiz', question: "«Или ты с нами, или против нас» — это:", options: ["Straw Man", "False Dichotomy", "Slippery Slope"], correctAnswer: "False Dichotomy", hint: "Ложная дилемма" }
+    ],
+    reward: { stars: 3, message: "Excellent! You know Debating Skills! 🎤" }
+  },
+  {
+    title: "Урок 8: Business English",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -167,8 +219,34 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Dear Mr. Smith, ... Yours ____.", options: ["faithfully", "sincerely", "truly"], correctAnswer: "sincerely", hint: "Yours sincerely — когда знаете имя" },
       { type: 'quiz', question: "Я пишу, чтобы узнать о... — I am writing to ____ about...", options: ["inquire", "ask", "know"], correctAnswer: "inquire", hint: "Inquire = узнавать, справляться" },
       { type: 'fill', question: "Please find ____ my CV. (во вложении)", correctAnswer: "attached", hint: "Please find attached..." },
-      { type: 'quiz', question: "Tell me about ____. (о себе)", options: ["you", "yourself", "yours"], correctAnswer: "yourself", hint: "Tell me about yourself" }
+      { type: 'quiz', question: "I look forward ____ from you.", options: ["hear", "to hear", "to hearing"], correctAnswer: "to hearing", hint: "look forward to + -ing" }
     ],
     reward: { stars: 3, message: "Excellent! You know Business English! 💼" }
+  },
+  {
+    title: "Урок 9: Job Interview",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Tell me about ____. (о себе)", options: ["you", "yourself", "yours"], correctAnswer: "yourself", hint: "Tell me about yourself" },
+      { type: 'quiz', question: "What are your ____? (сильные стороны)", options: ["strengths", "powers", "forces"], correctAnswer: "strengths", hint: "Strengths = сильные стороны" },
+      { type: 'fill', question: "Why should we ____ you?", correctAnswer: "hire", hint: "hire = нанять" },
+      { type: 'quiz', question: "Спасибо за интервью — Thank you email отправить:", options: ["В тот же день", "В течение 24 часов", "Через неделю"], correctAnswer: "В течение 24 часов", hint: "Thank you email — в течение 24 часов" }
+    ],
+    reward: { stars: 3, message: "Perfect! You're ready for Job Interview! 💪" }
+  },
+  {
+    title: "Урок 10: Presentation Skills",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Today I'm going to ____ about...", options: ["talk", "speak", "tell"], correctAnswer: "talk", hint: "talk about = говорить о" },
+      { type: 'quiz', question: "Какой процент времени — введение?", options: ["5%", "10-15%", "30%"], correctAnswer: "10-15%", hint: "Introduction = 10-15%" },
+      { type: 'fill', question: "To ____ up, we've looked at three main points.", correctAnswer: "sum", hint: "To sum up = подводя итог" },
+      { type: 'quiz', question: "I'd be happy to ____ any questions.", options: ["answer", "reply", "respond"], correctAnswer: "answer", hint: "answer questions = отвечать на вопросы" }
+    ],
+    reward: { stars: 3, message: "Excellent! You know Presentation Skills! 🎯" }
   }
 ]
