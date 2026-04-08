@@ -1,7 +1,7 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const L = (title: string, description: string, tasks: string[], image?: string, content?: string, examples?: string[], facts?: string[]) => ({ 
-  title, description, tasks, image, content, examples, facts
+const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[]) => ({ 
+  title, description, tasks, content, examples, facts
 })
 
 export const lessons: SubjectData = {
