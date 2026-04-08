@@ -397,59 +397,172 @@ cos α = |n₁⃗ · n₂⃗| / (|n₁⃗| · |n₂⃗|)`,
 
 export const games: GameLesson[] = [
   {
-    title: "Многогранники",
+    title: "Призма и её свойства",
+    subject: "Геометрия",
+    icon: "Shapes",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'quiz', question: "Какая призма называется прямой?", options: ["Боковые рёбра перпендикулярны основаниям", "Основания — квадраты", "Все грани равны", "Боковые грани — квадраты"], correctAnswer: "Боковые рёбра перпендикулярны основаниям", hint: "Определение прямой призмы" },
+      { type: 'fill', question: "Площадь боковой поверхности прямой призмы: S = P · __", correctAnswer: "H", hint: "P — периметр, H — высота" },
+      { type: 'quiz', question: "Сколько вершин у треугольной призмы?", options: ["6", "5", "3", "9"], correctAnswer: "6", hint: "3 вершины в каждом основании" },
+      { type: 'quiz', question: "Какая призма называется правильной?", options: ["Прямая с правильным основанием", "Все рёбра равны", "Все грани равны", "Наклонная с квадратом в основании"], correctAnswer: "Прямая с правильным основанием", hint: "Два условия" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь призму! 📦" }
+  },
+  {
+    title: "Параллелепипед и куб",
     subject: "Геометрия",
     icon: "Box",
     color: "text-cyan-400",
     tasks: [
-      { type: 'fill', question: "Призма с прямоугольником в основании — ___ . (параллелепипед)", correctAnswer: "параллелепипед", hint: "6 граней — параллелограммы" },
       { type: 'quiz', question: "Сколько вершин у куба?", options: ["8", "6", "12", "4"], correctAnswer: "8", hint: "Каждая грань — квадрат" },
-      { type: 'fill', question: "Площадь боковой поверхности прямой призмы: S = P · ___ . (H)", correctAnswer: "H", hint: "Высота призмы" },
+      { type: 'fill', question: "Диагональ прямоугольного параллелепипеда: d² = a² + b² + __²", correctAnswer: "c", hint: "Три измерения" },
       { type: 'quiz', question: "Объём куба с ребром 3:", options: ["27", "9", "54", "18"], correctAnswer: "27", hint: "V = a³" },
-      { type: 'fill', question: "Пирамида с треугольным основанием имеет ___ боковых граней. (три)", correctAnswer: "три", hint: "Число боковых граней = числу сторон основания" }
+      { type: 'fill', question: "Площадь поверхности куба: S = 6__²", correctAnswer: "a", hint: "Ребро куба" }
     ],
-    reward: { stars: 3, message: "Отличное знание многогранников!" }
+    reward: { stars: 3, message: "Супер! Ты знаешь параллелепипед и куб! 🎲" }
   },
   {
-    title: "Тела вращения",
+    title: "Пирамида",
+    subject: "Геометрия",
+    icon: "Triangle",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'quiz', question: "Какая пирамида называется правильной?", options: ["С правильным основанием, вершина над центром", "Все рёбра равны", "Все грани равны", "Основание — квадрат"], correctAnswer: "С правильным основанием, вершина над центром", hint: "Два условия" },
+      { type: 'fill', question: "Апофема — это высота __ грани пирамиды", correctAnswer: "боковой", hint: "Проводится из вершины к основанию" },
+      { type: 'quiz', question: "Площадь боковой поверхности правильной пирамиды:", options: ["½·P·l", "P·l", "P·H", "½·S·H"], correctAnswer: "½·P·l", hint: "P — периметр, l — апофема" },
+      { type: 'fill', question: "Объём пирамиды: V = ⅓·S_осн·__", correctAnswer: "H", hint: "Высота пирамиды" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь пирамиду! 🔺" }
+  },
+  {
+    title: "Цилиндр",
     subject: "Геометрия",
     icon: "Circle",
     color: "text-cyan-400",
     tasks: [
       { type: 'quiz', question: "Цилиндр образуется вращением:", options: ["Прямоугольника", "Треугольника", "Круга", "Трапеции"], correctAnswer: "Прямоугольника", hint: "Вокруг одной из сторон" },
-      { type: 'fill', question: "Площадь боковой поверхности цилиндра: S = 2πR___ . (H)", correctAnswer: "H", hint: "Высота цилиндра" },
-      { type: 'quiz', question: "Объём конуса:", options: ["⅓πR²H", "πR²H", "½πR²H", "⅔πR²H"], correctAnswer: "⅓πR²H", hint: "В 3 раза меньше цилиндра" },
-      { type: 'fill', question: "Площадь сферы: S = ___πR². (4)", correctAnswer: "4", hint: "Умножаем на 4" },
-      { type: 'quiz', question: "Шар отличается от сферы тем, что:", options: ["Шар — это тело, сфера — поверхность", "Сфера — это тело, шар — поверхность", "Это одно и то же", "Шар полый внутри"], correctAnswer: "Шар — это тело, сфера — поверхность", hint: "Аналог: круг и окружность" }
+      { type: 'fill', question: "Площадь боковой поверхности цилиндра: S = 2πR__", correctAnswer: "H", hint: "Высота цилиндра" },
+      { type: 'quiz', question: "Объём цилиндра:", options: ["πR²H", "2πRH", "πRH", "⅓πR²H"], correctAnswer: "πR²H", hint: "Площадь основания × высоту" },
+      { type: 'quiz', question: "Осевое сечение цилиндра — это:", options: ["Прямоугольник", "Круг", "Треугольник", "Эллипс"], correctAnswer: "Прямоугольник", hint: "Сечение через ось" }
     ],
-    reward: { stars: 3, message: "Ты хорошо знаешь тела вращения!" }
+    reward: { stars: 3, message: "Круто! Ты знаешь цилиндр! 🥫" }
   },
   {
-    title: "Объёмы и площади",
+    title: "Конус",
+    subject: "Геометрия",
+    icon: "Cone",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'quiz', question: "Конус образуется вращением:", options: ["Прямоугольного треугольника", "Прямоугольника", "Круга", "Равнобедренного треугольника"], correctAnswer: "Прямоугольного треугольника", hint: "Вокруг катета" },
+      { type: 'fill', question: "Связь элементов конуса: l² = R² + __²", correctAnswer: "H", hint: "Теорема Пифагора" },
+      { type: 'quiz', question: "Объём конуса:", options: ["⅓πR²H", "πR²H", "½πR²H", "⅔πR²H"], correctAnswer: "⅓πR²H", hint: "В 3 раза меньше цилиндра" },
+      { type: 'fill', question: "Площадь боковой поверхности конуса: S = πR__", correctAnswer: "l", hint: "Образующая конуса" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь конус! 🎯" }
+  },
+  {
+    title: "Сфера и шар",
+    subject: "Геометрия",
+    icon: "Circle",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'quiz', question: "Чем шар отличается от сферы?", options: ["Шар — тело, сфера — поверхность", "Сфера — тело, шар — поверхность", "Это одно и то же", "Шар полый внутри"], correctAnswer: "Шар — тело, сфера — поверхность", hint: "Аналог: круг и окружность" },
+      { type: 'fill', question: "Площадь сферы: S = __πR²", correctAnswer: "4", hint: "Умножаем на 4" },
+      { type: 'quiz', question: "Объём шара:", options: ["⁴⁄₃πR³", "4πR²", "πR³", "⅓πR³"], correctAnswer: "⁴⁄₃πR³", hint: "4/3 × π × R³" },
+      { type: 'fill', question: "Диаметр сферы: D = 2__", correctAnswer: "R", hint: "Радиус" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь сферу и шар! 🌐" }
+  },
+  {
+    title: "Объёмы многогранников",
     subject: "Геометрия",
     icon: "Calculator",
     color: "text-cyan-400",
     tasks: [
-      { type: 'fill', question: "Объём призмы: V = S_осн · ___ . (H)", correctAnswer: "H", hint: "Высота" },
-      { type: 'quiz', question: "Объём шара радиуса 3:", options: ["36π", "12π", "27π", "9π"], correctAnswer: "36π", hint: "V = 4/3πR³ = 4/3·π·27" },
-      { type: 'fill', question: "Площадь поверхности куба с ребром 2: S = ___ . (24)", correctAnswer: "24", hint: "S = 6a²" },
+      { type: 'fill', question: "Объём призмы: V = S_осн · __", correctAnswer: "H", hint: "Высота" },
       { type: 'quiz', question: "Объём пирамиды ___ раза меньше объёма призмы с тем же основанием и высотой.", options: ["В 3", "В 2", "В 4", "В 6"], correctAnswer: "В 3", hint: "Множитель ⅓ в формуле" },
-      { type: 'fill', question: "Отношение объёмов подобных тел равно k___ . (³ или в кубе)", correctAnswer: "³", hint: "Или «в кубе»" }
+      { type: 'fill', question: "Отношение объёмов подобных тел равно k__", correctAnswer: "³", hint: "Или «в кубе»" },
+      { type: 'quiz', question: "Объём куба с ребром 2:", options: ["8", "4", "16", "12"], correctAnswer: "8", hint: "V = a³" }
     ],
-    reward: { stars: 3, message: "Отличное владение формулами!" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь объёмы многогранников! 📊" }
   },
   {
-    title: "Координаты и векторы",
+    title: "Объёмы тел вращения",
+    subject: "Геометрия",
+    icon: "Calculator",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'quiz', question: "Объём шара радиуса 3:", options: ["36π", "12π", "27π", "9π"], correctAnswer: "36π", hint: "V = 4/3πR³ = 4/3·π·27" },
+      { type: 'fill', question: "Объём цилиндра: V = π__²H", correctAnswer: "R", hint: "Радиус основания" },
+      { type: 'quiz', question: "Во сколько раз объём конуса меньше объёма цилиндра с теми же основанием и высотой?", options: ["В 3", "В 2", "В 4", "В 6"], correctAnswer: "В 3", hint: "⅓ в формуле конуса" },
+      { type: 'fill', question: "Объём усечённого конуса содержит множитель ⅓__", correctAnswer: "π", hint: "Как и обычный конус" }
+    ],
+    reward: { stars: 3, message: "Круто! Ты знаешь объёмы тел вращения! 📏" }
+  },
+  {
+    title: "Площади поверхностей многогранников",
+    subject: "Геометрия",
+    icon: "Square",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'fill', question: "Площадь боковой поверхности прямой призмы: S = __ · H", correctAnswer: "P", hint: "Периметр основания" },
+      { type: 'quiz', question: "Площадь поверхности куба с ребром 2:", options: ["24", "12", "8", "16"], correctAnswer: "24", hint: "S = 6a²" },
+      { type: 'fill', question: "Площадь боковой поверхности правильной пирамиды: S = ½·P·__", correctAnswer: "l", hint: "Апофема" },
+      { type: 'quiz', question: "Полная поверхность призмы:", options: ["S_бок + 2S_осн", "S_бок + S_осн", "2S_бок", "S_бок"], correctAnswer: "S_бок + 2S_осн", hint: "Два основания" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь площади поверхностей! 📐" }
+  },
+  {
+    title: "Площади поверхностей тел вращения",
+    subject: "Геометрия",
+    icon: "Circle",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'fill', question: "Площадь боковой поверхности цилиндра: S = __πRH", correctAnswer: "2", hint: "Развёртка — прямоугольник" },
+      { type: 'quiz', question: "Площадь боковой поверхности конуса:", options: ["πRl", "2πRl", "πRH", "πR²"], correctAnswer: "πRl", hint: "Развёртка — сектор" },
+      { type: 'fill', question: "Площадь полной поверхности цилиндра: S = 2πR(R + __)", correctAnswer: "H", hint: "Высота" },
+      { type: 'quiz', question: "Площадь сферы равна:", options: ["4πR²", "2πR²", "πR²", "πRl"], correctAnswer: "4πR²", hint: "Запомни формулу!" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь площади тел вращения! 🎯" }
+  },
+  {
+    title: "Координаты точки и вектора",
     subject: "Геометрия",
     icon: "Compass",
     color: "text-cyan-400",
     tasks: [
-      { type: 'fill', question: "Координаты точки в пространстве: (x, y, ___) . (z)", correctAnswer: "z", hint: "Три координаты" },
+      { type: 'fill', question: "Координаты точки в пространстве: (x, y, __)", correctAnswer: "z", hint: "Три координаты" },
       { type: 'quiz', question: "Длина вектора a⃗(3, 4, 0):", options: ["5", "7", "12", "25"], correctAnswer: "5", hint: "√(9+16+0)" },
-      { type: 'fill', question: "Уравнение плоскости: Ax + By + ___ + D = 0. (Cz)", correctAnswer: "Cz", hint: "Три переменные" },
-      { type: 'quiz', question: "Скалярное произведение перпендикулярных векторов:", options: ["0", "1", "-1", "Зависит от длин"], correctAnswer: "0", hint: "cos 90° = 0" },
-      { type: 'fill', question: "Нормальный вектор плоскости ей ___ . (перпендикулярен)", correctAnswer: "перпендикулярен", hint: "«Нормаль» — перпендикуляр" }
+      { type: 'fill', question: "Координаты вектора AB: A(1,2,3), B(4,6,8) → AB = (3, 4, __)", correctAnswer: "5", hint: "x₂-x₁, y₂-y₁, z₂-z₁" },
+      { type: 'quiz', question: "Расстояние между точками A(0,0,0) и B(3,4,0):", options: ["5", "7", "12", "25"], correctAnswer: "5", hint: "√(3²+4²+0²)" }
     ],
-    reward: { stars: 3, message: "Ты владеешь методом координат!" }
+    reward: { stars: 3, message: "Отлично! Ты владеешь координатами! 🧭" }
+  },
+  {
+    title: "Действия с векторами",
+    subject: "Геометрия",
+    icon: "Move",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'quiz', question: "Скалярное произведение перпендикулярных векторов:", options: ["0", "1", "-1", "Зависит от длин"], correctAnswer: "0", hint: "cos 90° = 0" },
+      { type: 'fill', question: "Сумма векторов (1,2,3) + (4,5,6) = (5, 7, __)", correctAnswer: "9", hint: "Сложение координат" },
+      { type: 'quiz', question: "Скалярное произведение a⃗·a⃗ равно:", options: ["|a⃗|²", "|a⃗|", "0", "1"], correctAnswer: "|a⃗|²", hint: "cos 0° = 1" },
+      { type: 'fill', question: "Угол между векторами: cos α = (a⃗·b⃗) / (|a⃗|·|__|)", correctAnswer: "b⃗", hint: "Длина второго вектора" }
+    ],
+    reward: { stars: 3, message: "Круто! Ты знаешь действия с векторами! ➡️" }
+  },
+  {
+    title: "Уравнения плоскости и прямой",
+    subject: "Геометрия",
+    icon: "Grid",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'fill', question: "Уравнение плоскости: Ax + By + __ + D = 0", correctAnswer: "Cz", hint: "Три переменные" },
+      { type: 'quiz', question: "Нормальный вектор плоскости:", options: ["Перпендикулярен плоскости", "Параллелен плоскости", "Лежит в плоскости", "Наклонён под 45°"], correctAnswer: "Перпендикулярен плоскости", hint: "«Нормаль» — перпендикуляр" },
+      { type: 'fill', question: "Нормальный вектор плоскости 2x + 3y - z + 5 = 0: n⃗ = (2, 3, __)", correctAnswer: "-1", hint: "Коэффициенты при x, y, z" },
+      { type: 'quiz', question: "Каноническое уравнение прямой:", options: ["(x-x₀)/a = (y-y₀)/b = (z-z₀)/c", "Ax + By + Cz + D = 0", "x² + y² = R²", "y = kx + b"], correctAnswer: "(x-x₀)/a = (y-y₀)/b = (z-z₀)/c", hint: "Три равные дроби" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь уравнения! 📝" }
   }
 ]
