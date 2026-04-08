@@ -522,9 +522,26 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Период функции y = sin 2x:", options: ["2π", "π", "π/2", "4π"], correctAnswer: "π", hint: "Период = 2π/k" },
       { type: 'fill', question: "arcsin(1/2) = π/__", correctAnswer: "6", hint: "sin(π/6) = 1/2" },
       { type: 'quiz', question: "arccos(-1) = ?", options: ["0", "π/2", "π", "2π"], correctAnswer: "π", hint: "cos π = -1" },
-      { type: 'quiz', question: "Решите: sin x = 0", options: ["x = πn", "x = π/2 + πn", "x = 2πn", "x = 0"], correctAnswer: "x = πn", hint: "Нули синуса" }
+      { type: 'quiz', question: "Решите: sin x = 0", options: ["x = πn", "x = π/2 + πn", "x = 2πn", "x = 0"], correctAnswer: "x = πn", hint: "Нули синуса" },
+      { type: 'quiz', question: "Функция y = cos x является:", options: ["Чётной", "Нечётной", "Ни чётной, ни нечётной", "Периодической с периодом π"], correctAnswer: "Чётной", hint: "cos(-x) = cos x" },
+      { type: 'fill', question: "Период функции y = tan x равен π/__", correctAnswer: "1", hint: "Период тангенса" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь тригонометрию! 📐" }
+  },
+  {
+    title: "Обратные тригонометрические функции",
+    subject: "Алгебра",
+    icon: "Sigma",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'fill', question: "arcsin(√3/2) = π/__", correctAnswer: "3", hint: "sin(π/3) = √3/2" },
+      { type: 'quiz', question: "arccos(-1/2) = ?", options: ["π/3", "2π/3", "π/6", "5π/6"], correctAnswer: "2π/3", hint: "arccos(-x) = π - arccos x" },
+      { type: 'fill', question: "arctan(1) = π/__", correctAnswer: "4", hint: "tan(π/4) = 1" },
+      { type: 'quiz', question: "sin(arcsin 0.5) = ?", options: ["0.5", "π/6", "30°", "0"], correctAnswer: "0.5", hint: "sin(arcsin x) = x" },
+      { type: 'quiz', question: "arcsin(-x) = ?", options: ["arcsin x", "-arcsin x", "π - arcsin x", "arcsin x - π"], correctAnswer: "-arcsin x", hint: "Арксинус нечётная функция" },
+      { type: 'quiz', question: "Область значений arccos x:", options: ["[-1; 1]", "[0; π]", "[-π/2; π/2]", "R"], correctAnswer: "[0; π]", hint: "Арккосинус возвращает углы из [0; π]" }
+    ],
+    reward: { stars: 3, message: "Превосходно! Ты освоил обратные тригонометрические функции! 🎯" }
   },
   {
     title: "Интегралы",
@@ -535,9 +552,71 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "∫x²dx = ?", options: ["x³", "x³/3 + C", "2x + C", "x³ + C"], correctAnswer: "x³/3 + C", hint: "Степень увеличивается на 1" },
       { type: 'fill', question: "∫sin x dx = -cos x + __", correctAnswer: "C", hint: "Не забудьте константу!" },
       { type: 'quiz', question: "∫[0;1] x dx = ?", options: ["0", "1/2", "1", "2"], correctAnswer: "1/2", hint: "Формула Ньютона-Лейбница" },
-      { type: 'quiz', question: "∫eˣdx = ?", options: ["xeˣ⁻¹", "eˣ + C", "ln x + C", "eˣ/x + C"], correctAnswer: "eˣ + C", hint: "Производная и интеграл eˣ" }
+      { type: 'quiz', question: "∫eˣdx = ?", options: ["xeˣ⁻¹", "eˣ + C", "ln x + C", "eˣ/x + C"], correctAnswer: "eˣ + C", hint: "Производная и интеграл eˣ" },
+      { type: 'fill', question: "∫(1/x)dx = ln|x| + __", correctAnswer: "C", hint: "Неопределённый интеграл" },
+      { type: 'quiz', question: "∫cos x dx = ?", options: ["sin x + C", "-sin x + C", "cos x + C", "tan x + C"], correctAnswer: "sin x + C", hint: "Производная sin x = cos x" }
     ],
     reward: { stars: 3, message: "Супер! Ты освоил интегралы! ∫" }
+  },
+  {
+    title: "Определённый интеграл",
+    subject: "Алгебра",
+    icon: "Sigma",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'fill', question: "∫[0;2] x²dx = __", correctAnswer: "8/3", hint: "F(2) - F(0), где F(x) = x³/3" },
+      { type: 'quiz', question: "∫[0;π] sin x dx = ?", options: ["0", "1", "2", "π"], correctAnswer: "2", hint: "-cos π - (-cos 0)" },
+      { type: 'quiz', question: "∫[1;e] (1/x)dx = ?", options: ["0", "1", "e", "e-1"], correctAnswer: "1", hint: "ln e - ln 1" },
+      { type: 'fill', question: "∫[0;1] eˣdx = e - __", correctAnswer: "1", hint: "e¹ - e⁰" },
+      { type: 'quiz', question: "Формула Ньютона-Лейбница:", options: ["∫f(x)dx = F(x)", "∫[a;b]f(x)dx = F(b) - F(a)", "∫f(x)dx = F'(x)", "F'(x) = f(x)"], correctAnswer: "∫[a;b]f(x)dx = F(b) - F(a)", hint: "Связь определённого интеграла и первообразной" },
+      { type: 'quiz', question: "∫[a;a] f(x)dx = ?", options: ["a", "0", "f(a)", "1"], correctAnswer: "0", hint: "Интеграл по точке равен нулю" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты владеешь определёнными интегралами! 📊" }
+  },
+  {
+    title: "Иррациональные уравнения",
+    subject: "Алгебра",
+    icon: "Sigma",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'fill', question: "√(x + 5) = 4, тогда x = __", correctAnswer: "11", hint: "Возведите обе части в квадрат" },
+      { type: 'quiz', question: "При решении √f(x) = g(x) обязательно нужно:", options: ["Найти ОДЗ или сделать проверку", "Умножить на √f(x)", "Разделить на g(x)", "Возвести в куб"], correctAnswer: "Найти ОДЗ или сделать проверку", hint: "Возведение в квадрат может дать посторонние корни" },
+      { type: 'fill', question: "√x + √(x-3) = 3. Пусть √x = t. Тогда x = __²", correctAnswer: "t", hint: "Замена переменной" },
+      { type: 'quiz', question: "ОДЗ для √(x - 3):", options: ["x > 3", "x ≥ 3", "x ≤ 3", "x ≠ 3"], correctAnswer: "x ≥ 3", hint: "Выражение под корнем должно быть неотрицательным" },
+      { type: 'quiz', question: "√(2x - 1) = x - 2. Чему равен x?", options: ["1", "2", "5", "Нет решения"], correctAnswer: "5", hint: "Решите и проверьте ОДЗ: x ≥ 0.5 и x ≥ 2" },
+      { type: 'quiz', question: "Метод решения уравнения x·√(x-3) - 4√(x-3) = 0:", options: ["Возведение в квадрат", "Разложение на множители", "Замена переменной", "Графический"], correctAnswer: "Разложение на множители", hint: "Вынесите √(x-3) за скобки" }
+    ],
+    reward: { stars: 3, message: "Превосходно! Ты решаешь иррациональные уравнения! √" }
+  },
+  {
+    title: "Системы уравнений",
+    subject: "Алгебра",
+    icon: "Sigma",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'fill', question: "Система {y = 2x, x + y = 6. Ответ: x = __", correctAnswer: "2", hint: "Подставьте y = 2x во второе уравнение" },
+      { type: 'quiz', question: "Метод сложения лучше применять, когда:", options: ["Одна переменная выражена через другую", "Коэффициенты при одной переменной противоположны", "Уравнения нелинейные", "Есть модуль"], correctAnswer: "Коэффициенты при одной переменной противоположны", hint: "При сложении такие коэффициенты дают 0" },
+      { type: 'fill', question: "{x + y = 5, x - y = 1. Ответ: x = __", correctAnswer: "3", hint: "Сложите уравнения" },
+      { type: 'quiz', question: "{xy = 6, x + y = 5. Какие методы можно использовать?", options: ["Только подстановку", "Только графический", "Подстановку или теорему Виета", "Только сложение"], correctAnswer: "Подстановку или теорему Виета", hint: "По теореме Виета: x и y - корни t² - 5t + 6 = 0" },
+      { type: 'quiz', question: "При каком a система {y = x², y = a имеет одно решение?", options: ["a = 0", "a > 0", "a < 0", "При любом a"], correctAnswer: "a = 0", hint: "Прямая y = a касается параболы только при a = 0" },
+      { type: 'quiz', question: "Графический метод решения систем заключается в:", options: ["Сложении уравнений", "Нахождении точек пересечения графиков", "Подстановке", "Замене переменных"], correctAnswer: "Нахождении точек пересечения графиков", hint: "Графическое решение - точки пересечения" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты освоил системы уравнений! 📐" }
+  },
+  {
+    title: "Неравенства с модулем",
+    subject: "Алгебра",
+    icon: "Sigma",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'fill', question: "|x| < 5. Ответ: x ∈ (-__; 5)", correctAnswer: "5", hint: "|x| < a означает -a < x < a" },
+      { type: 'quiz', question: "|x - 3| > 2 равносильно:", options: ["-2 < x - 3 < 2", "x - 3 < -2 или x - 3 > 2", "x - 3 > 2", "|x| > 5"], correctAnswer: "x - 3 < -2 или x - 3 > 2", hint: "|x| > a означает x < -a или x > a" },
+      { type: 'fill', question: "|2x + 1| ≤ 3. Тогда -3 ≤ 2x + 1 ≤ __", correctAnswer: "3", hint: "|x| ≤ a означает -a ≤ x ≤ a" },
+      { type: 'quiz', question: "|x| ≥ 0 верно:", options: ["Только для x ≥ 0", "Только для x ≤ 0", "Для любых x", "Только для x = 0"], correctAnswer: "Для любых x", hint: "Модуль всегда неотрицателен" },
+      { type: 'quiz', question: "Решить |x - 2| + |x + 1| ≤ 4. Нули модулей:", options: ["x = 2 и x = -1", "x = 2 и x = 1", "x = -2 и x = 1", "x = ±2"], correctAnswer: "x = 2 и x = -1", hint: "Нули: x - 2 = 0 и x + 1 = 0" },
+      { type: 'fill', question: "|x| = 5, тогда x = ±__", correctAnswer: "5", hint: "Уравнение |x| = a имеет два корня при a > 0" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты решаешь неравенства с модулем! |x|" }
   },
   {
     title: "Комплексные числа",
@@ -548,8 +627,27 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "i² = ?", options: ["1", "-1", "i", "-i"], correctAnswer: "-1", hint: "Основное свойство мнимой единицы" },
       { type: 'fill', question: "|3 + 4i| = __", correctAnswer: "5", hint: "√(a² + b²)" },
       { type: 'quiz', question: "(1 + i)² = ?", options: ["2", "2i", "1 + 2i", "2 + 2i"], correctAnswer: "2i", hint: "(1 + i)(1 + i) = 1 + 2i + i²" },
-      { type: 'quiz', question: "Сопряжённое к 2 - 3i:", options: ["2 + 3i", "-2 + 3i", "-2 - 3i", "2 - 3i"], correctAnswer: "2 + 3i", hint: "Меняем знак мнимой части" }
+      { type: 'quiz', question: "Сопряжённое к 2 - 3i:", options: ["2 + 3i", "-2 + 3i", "-2 - 3i", "2 - 3i"], correctAnswer: "2 + 3i", hint: "Меняем знак мнимой части" },
+      { type: 'fill', question: "i³ = -__", correctAnswer: "i", hint: "i³ = i² · i = -1 · i" },
+      { type: 'quiz', question: "(3 + 2i) + (1 - 5i) = ?", options: ["4 - 3i", "4 + 3i", "4 - 7i", "2 - 3i"], correctAnswer: "4 - 3i", hint: "Складываем действительные и мнимые части отдельно" },
+      { type: 'quiz', question: "i⁴ = ?", options: ["1", "-1", "i", "-i"], correctAnswer: "1", hint: "i⁴ = (i²)² = (-1)²" }
     ],
     reward: { stars: 3, message: "Круто! Ты знаешь комплексные числа! ℂ" }
+  },
+  {
+    title: "Производная функции",
+    subject: "Алгебра",
+    icon: "Sigma",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "(x³)' = ?", options: ["3x²", "x²", "3x", "3x³"], correctAnswer: "3x²", hint: "(xⁿ)' = n·xⁿ⁻¹" },
+      { type: 'fill', question: "(sin x)' = cos__", correctAnswer: "x", hint: "Производная синуса" },
+      { type: 'quiz', question: "(cos x)' = ?", options: ["sin x", "-sin x", "cos x", "-cos x"], correctAnswer: "-sin x", hint: "Производная косинуса" },
+      { type: 'fill', question: "(eˣ)' = e__", correctAnswer: "x", hint: "Производная экспоненты" },
+      { type: 'quiz', question: "(ln x)' = ?", options: ["x", "1/x", "ln x", "eˣ"], correctAnswer: "1/x", hint: "Производная натурального логарифма" },
+      { type: 'quiz', question: "(2x + 3)' = ?", options: ["2", "2x", "2x + 3", "3"], correctAnswer: "2", hint: "Производная линейной функции" },
+      { type: 'fill', question: "(x² + 3x)' = 2x + __", correctAnswer: "3", hint: "(x²)' + (3x)' = 2x + 3" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты владеешь производными! d/dx" }
   }
 ]
