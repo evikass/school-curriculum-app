@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-15px) scale(1.1); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+      @keyframes wag { 0%, 100% { transform: rotate(-10deg); } 50% { transform: rotate(10deg); } }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      .animate { animation: bounce 2s ease-in-out infinite; }
+      .pulse { animation: pulse 1.5s ease-in-out infinite; }
+      .wag { animation: wag 0.5s ease-in-out infinite; transform-origin: center; }
+      .float { animation: float 3s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FFF5E6"/>
+  
+  <!-- Background decoration -->
+  <circle cx="50" cy="50" r="30" fill="#FFE4C4" opacity="0.5"/>
+  <circle cx="450" cy="300" r="40" fill="#FFDAB9" opacity="0.4"/>
+  <circle cx="400" cy="80" r="25" fill="#FFDAB9" opacity="0.3"/>
+  
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#8B4513" text-anchor="middle">👅 Упражнения для языка</text>
+  <rect x="100" y="55" width="300" height="3" rx="2" fill="#D2691E" opacity="0.6"/>
+  
+  <!-- Mouth/Face illustration -->
+  <g class="float" transform="translate(120, 100)">
+    <!-- Face circle -->
+    <circle cx="70" cy="70" r="65" fill="#FFE4C4" stroke="#D2691E" stroke-width="3"/>
+    <!-- Eyes -->
+    <circle cx="45" cy="50" r="8" fill="#8B4513"/>
+    <circle cx="95" cy="50" r="8" fill="#8B4513"/>
+    <circle cx="47" cy="48" r="3" fill="white"/>
+    <circle cx="97" cy="48" r="3" fill="white"/>
+    <!-- Nose -->
+    <ellipse cx="70" cy="70" rx="6" ry="5" fill="#DEB887"/>
+    <!-- Mouth open -->
+    <ellipse cx="70" cy="95" rx="25" ry="15" fill="#8B0000" stroke="#8B4513" stroke-width="2"/>
+    <!-- Tongue -->
+    <ellipse class="wag" cx="70" cy="92" rx="15" ry="10" fill="#FF6B6B"/>
+  </g>
+  
+  <!-- Exercise bubbles -->
+  <g transform="translate(280, 90)">
+    <!-- Bubble 1 -->
+    <circle cx="60" cy="30" r="40" fill="#FFDAB9" stroke="#D2691E" stroke-width="2"/>
+    <text x="60" y="25" font-family="Arial" font-size="12" fill="#8B4513" text-anchor="middle">Высунь</text>
+    <text x="60" y="40" font-family="Arial" font-size="12" fill="#8B4513" text-anchor="middle">язык</text>
+    
+    <!-- Bubble 2 -->
+    <circle class="pulse" cx="60" cy="120" r="40" fill="#FFE4C4" stroke="#D2691E" stroke-width="2"/>
+    <text x="60" y="115" font-family="Arial" font-size="12" fill="#8B4513" text-anchor="middle">Подними</text>
+    <text x="60" y="130" font-family="Arial" font-size="12" fill="#8B4513" text-anchor="middle">вверх</text>
+    
+    <!-- Bubble 3 -->
+    <circle cx="60" cy="210" r="40" fill="#FFDAB9" stroke="#D2691E" stroke-width="2"/>
+    <text x="60" y="205" font-family="Arial" font-size="12" fill="#8B4513" text-anchor="middle">Опусти</text>
+    <text x="60" y="220" font-family="Arial" font-size="12" fill="#8B4513" text-anchor="middle">вниз</text>
+  </g>
+  
+  <!-- Animated arrows -->
+  <g class="animate">
+    <path d="M320 55 L340 45 L340 50 L360 50 L360 60 L340 60 L340 65 Z" fill="#D2691E"/>
+  </g>
+  
+  <!-- Tip box -->
+  <rect x="20" y="290" width="460" height="50" rx="10" fill="#FFF8DC" stroke="#D2691E" stroke-width="2"/>
+  <text x="250" y="312" font-family="Arial" font-size="13" fill="#8B4513" text-anchor="middle">💡 Совет: Делай упражнения перед зеркалом!</text>
+  <text x="250" y="330" font-family="Arial" font-size="12" fill="#A0522D" text-anchor="middle">Повторяй 5-6 раз каждое движение</text>
+</svg>
