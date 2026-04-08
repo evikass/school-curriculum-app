@@ -71,14 +71,14 @@ export default function LessonViewer() {
 
     // 1. Ищем готовую игру по точному совпадению с темой урока
     let matchingGame = games.find(g =>
-      g.title.toLowerCase() === lessonTopicLower ||
-      g.title.toLowerCase() === lessonTitleLower
+      g.name.toLowerCase() === lessonTopicLower ||
+      g.name.toLowerCase() === lessonTitleLower
     )
 
     // 2. Ищем игру, где тема урока содержится в названии игры или наоборот
     if (!matchingGame) {
       matchingGame = games.find(g => {
-        const gameTitleLower = g.title.toLowerCase()
+        const gameTitleLower = g.name.toLowerCase()
         return gameTitleLower.includes(lessonTopicLower) ||
                lessonTopicLower.includes(gameTitleLower) ||
                gameTitleLower.includes(lessonDescLower) ||
@@ -99,7 +99,7 @@ export default function LessonViewer() {
       for (const keyword of keywords) {
         if (lessonTopicLower.includes(keyword) || lessonDescLower.includes(keyword)) {
           matchingGame = games.find(g =>
-            g.title.toLowerCase().includes(keyword)
+            g.name.toLowerCase().includes(keyword)
           )
           if (matchingGame) break
         }
@@ -324,7 +324,7 @@ export default function LessonViewer() {
                   <Gamepad2 className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-white">{game.title}</h4>
+                  <h4 className="text-xl font-bold text-white">{game.name}</h4>
                   <p className="text-purple-200">{game.tasks.length} заданий</p>
                 </div>
               </div>
