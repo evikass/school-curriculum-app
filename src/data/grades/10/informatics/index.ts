@@ -391,59 +391,171 @@ for i := 1 to n-1 do
 
 export const games: GameLesson[] = [
   {
-    title: "Измерение информации",
+    name: "Измерение информации",
     subject: "Информатика",
     icon: "HardDrive",
     color: "text-sky-400",
     tasks: [
-      { type: 'fill', question: "1 байт = ___ бит. (8)", correctAnswer: "8", hint: "Основная единица" },
-      { type: 'quiz', question: "Сообщение о выпадении орла несёт:", options: ["1 бит", "2 бита", "1 байт", "4 бита"], correctAnswer: "1 бит", hint: "Два равновероятных исхода" },
-      { type: 'fill', question: "1 Кбайт = ___ байт. (1024)", correctAnswer: "1024", hint: "2 в 10 степени" },
-      { type: 'quiz', question: "Сколько бит нужно для кодирования 16 цветов?", options: ["4 бита", "8 бит", "16 бит", "2 бита"], correctAnswer: "4 бита", hint: "2^4 = 16" },
-      { type: 'fill', question: "UTF-8 использует от 1 до ___ байт на символ. (4)", correctAnswer: "4", hint: "Переменная длина" }
+      { type: 'fill', question: "1 байт = ___ бит", correctAnswer: "8", hint: "Основная единица измерения" },
+      { type: 'quiz', question: "Сообщение о выпадении орла при броске монеты несёт:", options: ["1 бит", "2 бита", "1 байт", "4 бита"], correctAnswer: "1 бит", hint: "Два равновероятных исхода" },
+      { type: 'fill', question: "1 Кбайт = ___ байт", correctAnswer: "1024", hint: "2 в 10 степени" },
+      { type: 'quiz', question: "Формула N = 2^i связывает:", options: ["Количество событий и информацию", "Символы и байты", "Частоту и время", "Пиксели и цвета"], correctAnswer: "Количество событий и информацию", hint: "Содержательный подход" },
+      { type: 'fill', question: "Информационный вес символа i = log₂(___)", correctAnswer: "N", hint: "N — мощность алфавита" }
     ],
     reward: { stars: 3, message: "Отличное понимание измерения информации!" }
   },
   {
-    title: "Системы счисления",
-    subject: "Информатика",
-    icon: "Binary",
-    color: "text-sky-400",
-    tasks: [
-      { type: 'fill', question: "10₁₀ = ___₂ . (1010)", correctAnswer: "1010", hint: "8 + 2 = 10" },
-      { type: 'quiz', question: "101₂ в десятичной системе:", options: ["5", "3", "4", "6"], correctAnswer: "5", hint: "4 + 1 = 5" },
-      { type: 'fill', question: "В шестнадцатеричной системе A = ___₁₀ . (10)", correctAnswer: "10", hint: "Цифры 0-9, A-F" },
-      { type: 'quiz', question: "Для перевода из двоичной в восьмеричную группируем по:", options: ["3 бита", "4 бита", "2 бита", "8 бит"], correctAnswer: "3 бита", hint: "2³ = 8" },
-      { type: 'fill', question: "FF₁₆ = ___₁₀ . (255)", correctAnswer: "255", hint: "15×16 + 15" }
-    ],
-    reward: { stars: 3, message: "Ты хорошо владеешь системами счисления!" }
-  },
-  {
-    title: "Алгоритмы",
+    name: "Кодирование информации",
     subject: "Информатика",
     icon: "Code",
     color: "text-sky-400",
     tasks: [
+      { type: 'quiz', question: "Сколько символов можно закодировать в ASCII?", options: ["256", "128", "65536", "1024"], correctAnswer: "256", hint: "1 байт = 8 бит = 2⁸" },
+      { type: 'fill', question: "Unicode использует ___ байта на символ", correctAnswer: "2", hint: "65536 символов" },
+      { type: 'quiz', question: "Глубина цвета 8 бит позволяет закодировать:", options: ["256 цветов", "16 цветов", "65536 цветов", "8 цветов"], correctAnswer: "256 цветов", hint: "2⁸ = 256" },
+      { type: 'fill', question: "Объём звукового файла V = f × i × ___", correctAnswer: "t", hint: "t — время записи" },
+      { type: 'quiz', question: "UTF-8 использует на символ:", options: ["1-4 байта", "1 байт", "2 байта", "4 байта"], correctAnswer: "1-4 байта", hint: "Переменная длина кодирования" }
+    ],
+    reward: { stars: 3, message: "Ты понимаешь принципы кодирования!" }
+  },
+  {
+    name: "Информационные процессы",
+    subject: "Информатика",
+    icon: "RefreshCw",
+    color: "text-sky-400",
+    tasks: [
+      { type: 'quiz', question: "Какой информационный процесс: получение информации из внешнего мира?", options: ["Сбор", "Хранение", "Обработка", "Передача"], correctAnswer: "Сбор", hint: "Первичный процесс" },
+      { type: 'fill', question: "Источник → Канал связи → ___", correctAnswer: "Приёмник", hint: "Третий элемент схемы передачи" },
+      { type: 'quiz', question: "Что НЕ является цифровым носителем?", options: ["Бумага", "SSD", "Флеш-память", "Жёсткий диск"], correctAnswer: "Бумага", hint: "Аналоговый носитель" },
+      { type: 'fill', question: "Преобразование информации для защиты — это ___", correctAnswer: "шифрование", hint: "Делает данные недоступными без ключа" },
+      { type: 'quiz', question: "Кодирование и декодирование — это:", options: ["Преобразование формы", "Преобразование содержания", "Хранение", "Передача"], correctAnswer: "Преобразование формы", hint: "Меняется вид, не смысл" }
+    ],
+    reward: { stars: 3, message: "Отличное знание информационных процессов!" }
+  },
+  {
+    name: "Позиционные системы счисления",
+    subject: "Информатика",
+    icon: "Binary",
+    color: "text-sky-400",
+    tasks: [
+      { type: 'fill', question: "10₁₀ = ___₂ (в двоичной системе)", correctAnswer: "1010", hint: "8 + 2 = 10" },
+      { type: 'quiz', question: "101₂ в десятичной системе равно:", options: ["5", "3", "4", "6"], correctAnswer: "5", hint: "4 + 1 = 5" },
+      { type: 'fill', question: "В шестнадцатеричной системе A = ___₁₀", correctAnswer: "10", hint: "Цифры 0-9, затем A-F" },
+      { type: 'quiz', question: "Какие цифры используются в восьмеричной системе?", options: ["0-7", "0-8", "1-8", "0-9"], correctAnswer: "0-7", hint: "Основание 8" },
+      { type: 'fill', question: "FF₁₆ = ___₁₀", correctAnswer: "255", hint: "15×16 + 15 = 255" }
+    ],
+    reward: { stars: 3, message: "Ты хорошо владеешь системами счисления!" }
+  },
+  {
+    name: "Арифметика в позиционных системах",
+    subject: "Информатика",
+    icon: "Calculator",
+    color: "text-sky-400",
+    tasks: [
+      { type: 'quiz', question: "1 + 1 в двоичной системе равно:", options: ["10", "2", "11", "0"], correctAnswer: "10", hint: "0 и 1 в перенос" },
+      { type: 'fill', question: "101₂ + 110₂ = ___₂", correctAnswer: "1011", hint: "5 + 6 = 11" },
+      { type: 'quiz', question: "Для перевода из двоичной в восьмеричную группируем по:", options: ["3 бита", "4 бита", "2 бита", "8 бит"], correctAnswer: "3 бита", hint: "2³ = 8" },
+      { type: 'fill', question: "Для перевода в шестнадцатеричную группируем по ___ бит", correctAnswer: "4", hint: "2⁴ = 16" },
+      { type: 'quiz', question: "10₂ - 1₂ =", options: ["1", "11", "0", "10"], correctAnswer: "1", hint: "Заем из старшего разряда" }
+    ],
+    reward: { stars: 3, message: "Отличные навыки двоичной арифметики!" }
+  },
+  {
+    name: "Алгоритмы и их свойства",
+    subject: "Информатика",
+    icon: "GitBranch",
+    color: "text-sky-400",
+    tasks: [
       { type: 'quiz', question: "Какое свойство означает, что алгоритм завершается?", options: ["Конечность", "Массовость", "Дискретность", "Определённость"], correctAnswer: "Конечность", hint: "Не бесконечный" },
-      { type: 'fill', question: "Базовая структура «если-то-иначе» — это ___ . (ветвление)", correctAnswer: "ветвление", hint: "Условный оператор" },
-      { type: 'quiz', question: "Цикл, который выполняется заданное число раз:", options: ["For", "While", "Repeat", "If"], correctAnswer: "For", hint: "С параметром" },
-      { type: 'fill', question: "___ — упорядоченный набор однотипных элементов. (Массив)", correctAnswer: "Массив", hint: "Индексный доступ" },
-      { type: 'quiz', question: "Для поиска максимума нужно:", options: ["Сравнить все элементы", "Сложить все элементы", "Найти среднее", "Отсортировать"], correctAnswer: "Сравнить все элементы", hint: "Перебор с запоминанием максимума" }
+      { type: 'fill', question: "___ означает, что алгоритм состоит из отдельных шагов", correctAnswer: "Дискретность", hint: "По шагам" },
+      { type: 'quiz', question: "Базовая структура «если-то-иначе» — это:", options: ["Ветвление", "Следование", "Цикл", "Массив"], correctAnswer: "Ветвление", hint: "Условный оператор" },
+      { type: 'fill', question: "Повторение действий — это ___", correctAnswer: "цикл", hint: "Базовая структура" },
+      { type: 'quiz', question: "Какой способ записи алгоритма использует графические блоки?", options: ["Блок-схема", "Словесный", "Программа", "Таблица"], correctAnswer: "Блок-схема", hint: "Графическое изображение" }
     ],
     reward: { stars: 3, message: "Отличное понимание алгоритмов!" }
   },
   {
-    title: "Сети и безопасность",
+    name: "Основы программирования",
+    subject: "Информатика",
+    icon: "Terminal",
+    color: "text-sky-400",
+    tasks: [
+      { type: 'quiz', question: "Какой тип данных для целых чисел?", options: ["integer", "real", "boolean", "string"], correctAnswer: "integer", hint: "Целочисленный тип" },
+      { type: 'fill', question: "___ — тип данных для вещественных чисел", correctAnswer: "real", hint: "Дробные числа" },
+      { type: 'quiz', question: "Цикл, который выполняется заданное число раз:", options: ["For", "While", "Repeat", "If"], correctAnswer: "For", hint: "Цикл с параметром" },
+      { type: 'fill', question: "Оператор ___ выполняется, пока условие истинно", correctAnswer: "while", hint: "Цикл с предусловием" },
+      { type: 'quiz', question: "Для ввода данных используется:", options: ["read", "write", "if", "for"], correctAnswer: "read", hint: "Чтение с клавиатуры" }
+    ],
+    reward: { stars: 3, message: "Ты понимаешь основы программирования!" }
+  },
+  {
+    name: "Массивы и их обработка",
+    subject: "Информатика",
+    icon: "List",
+    color: "text-sky-400",
+    tasks: [
+      { type: 'fill', question: "___ — упорядоченный набор однотипных элементов", correctAnswer: "Массив", hint: "Индексный доступ" },
+      { type: 'quiz', question: "Доступ к элементу массива осуществляется по:", options: ["Индексу", "Имени", "Значению", "Типу"], correctAnswer: "Индексу", hint: "A[i]" },
+      { type: 'fill', question: "Для нахождения суммы элементов массива используем ___", correctAnswer: "цикл", hint: "Перебор всех элементов" },
+      { type: 'quiz', question: "Для поиска максимума нужно:", options: ["Сравнить все элементы", "Сложить все элементы", "Найти среднее", "Отсортировать"], correctAnswer: "Сравнить все элементы", hint: "Перебор с запоминанием максимума" },
+      { type: 'fill', question: "Сортировка ___ — простой метод сортировки обменом", correctAnswer: "пузырьком", hint: "Обмен соседних элементов" }
+    ],
+    reward: { stars: 3, message: "Отличное понимание массивов!" }
+  },
+  {
+    name: "Локальные и глобальные сети",
     subject: "Информатика",
     icon: "Network",
     color: "text-sky-400",
     tasks: [
-      { type: 'fill', question: "LAN — это ___ сеть. (локальная)", correctAnswer: "локальная", hint: "В пределах здания" },
-      { type: 'quiz', question: "Сколько чисел в IPv4-адресе?", options: ["4", "6", "8", "16"], correctAnswer: "4", hint: "Например, 192.168.1.1" },
-      { type: 'fill', question: "DNS преобразует доменное имя в ___-адрес. (IP)", correctAnswer: "IP", hint: "Числовый адрес" },
-      { type: 'quiz', question: "Троян — это:", options: ["Программа, маскирующаяся под полезную", "Самокопирующаяся программа", "Файл-зараза", "Сетевой червь"], correctAnswer: "Программа, маскирующаяся под полезную", hint: "От Троянского коня" },
-      { type: 'fill', question: "___ шифрование использует пару ключей. (Асимметричное)", correctAnswer: "Асимметричное", hint: "Открытый и закрытый ключи" }
+      { type: 'fill', question: "LAN — это ___ сеть", correctAnswer: "локальная", hint: "В пределах здания" },
+      { type: 'quiz', question: "WAN — это:", options: ["Глобальная сеть", "Локальная сеть", "Городская сеть", "Беспроводная сеть"], correctAnswer: "Глобальная сеть", hint: "Интернет" },
+      { type: 'fill', question: "___ — центральный узел в топологии «звезда»", correctAnswer: "коммутатор", hint: "Switch" },
+      { type: 'quiz', question: "Маршрутизатор нужен для:", options: ["Соединения сетей", "Подключения к сети", "Преобразования сигналов", "Хранения данных"], correctAnswer: "Соединения сетей", hint: "Router" },
+      { type: 'fill', question: "Модем ___ сигналы для передачи по линии связи", correctAnswer: "преобразует", hint: "Модуляция/демодуляция" }
     ],
-    reward: { stars: 3, message: "Ты разбираешься в сетях и безопасности!" }
+    reward: { stars: 3, message: "Ты разбираешься в компьютерных сетях!" }
+  },
+  {
+    name: "Интернет и его сервисы",
+    subject: "Информатика",
+    icon: "Globe",
+    color: "text-sky-400",
+    tasks: [
+      { type: 'fill', question: "Сколько чисел в IPv4-адресе? ___", correctAnswer: "4", hint: "Например, 192.168.1.1" },
+      { type: 'quiz', question: "DNS преобразует:", options: ["Доменное имя в IP-адрес", "IP-адрес в MAC-адрес", "Сайт в файл", "Буквы в цифры"], correctAnswer: "Доменное имя в IP-адрес", hint: "Name to address" },
+      { type: 'fill', question: "HTTPS — протокол для ___ страниц", correctAnswer: "веб", hint: "Безопасный HTTP" },
+      { type: 'quiz', question: "Какой протокол для передачи файлов?", options: ["FTP", "HTTP", "SMTP", "TCP"], correctAnswer: "FTP", hint: "File Transfer Protocol" },
+      { type: 'fill', question: "URL = протокол://___ /путь", correctAnswer: "домен", hint: "Адрес сайта" }
+    ],
+    reward: { stars: 3, message: "Отличное знание Интернета!" }
+  },
+  {
+    name: "Угрозы информационной безопасности",
+    subject: "Информатика",
+    icon: "AlertTriangle",
+    color: "text-sky-400",
+    tasks: [
+      { type: 'quiz', question: "Троян — это:", options: ["Программа, маскирующаяся под полезную", "Самокопирующаяся программа", "Файл-зараза", "Сетевой червь"], correctAnswer: "Программа, маскирующаяся под полезную", hint: "От Троянского коня" },
+      { type: 'fill', question: "___ — поддельные сайты и письма для кражи данных", correctAnswer: "Фишинг", hint: "Phishing" },
+      { type: 'quiz', question: "Ransomware — это:", options: ["Программа-вымогатель", "Антивирус", "Файрвол", "Браузер"], correctAnswer: "Программа-вымогатель", hint: "Шифрует данные" },
+      { type: 'fill', question: "DDoS — атака на отказ в ___", correctAnswer: "обслуживании", hint: "Перегрузка сервера" },
+      { type: 'quiz', question: "Социальная инженерия — это:", options: ["Манипуляция людьми", "Взлом паролей", "Вирусная атака", "Сетевая атака"], correctAnswer: "Манипуляция людьми", hint: "Обман пользователя" }
+    ],
+    reward: { stars: 3, message: "Ты понимаешь угрозы безопасности!" }
+  },
+  {
+    name: "Защита информации",
+    subject: "Информатика",
+    icon: "Shield",
+    color: "text-sky-400",
+    tasks: [
+      { type: 'fill', question: "___ шифрование использует пару ключей", correctAnswer: "Асимметричное", hint: "Открытый и закрытый ключи" },
+      { type: 'quiz', question: "Симметричное шифрование использует:", options: ["Один ключ", "Два ключа", "Три ключа", "Без ключа"], correctAnswer: "Один ключ", hint: "Для шифрования и расшифровки" },
+      { type: 'fill', question: "2FA — это ___ аутентификация", correctAnswer: "двухфакторная", hint: "Два способа подтверждения" },
+      { type: 'quiz', question: "Сигнатурный метод антивируса ищет:", options: ["Известные вирусы", "Подозрительное поведение", "Новые программы", "Файлы"], correctAnswer: "Известные вирусы", hint: "По базе сигнатур" },
+      { type: 'fill', question: "___ — копирование данных для восстановления", correctAnswer: "Резервное", hint: "Backup" }
+    ],
+    reward: { stars: 3, message: "Отличное знание защиты информации!" }
   }
 ]
