@@ -12,7 +12,12 @@ import {
 import { generateLessonQuiz } from '@/lib/lessonQuizGenerator'
 import LessonAnimatedSVG from './LessonAnimatedSVG'
 import PeriodicTable from './PeriodicTable'
-import { LessonTopic, LessonItem } from '@/data/types'
+import { LessonTopic, LessonItem, GameLesson } from '@/data/types'
+
+// Helper function для получения имени игры (поддерживает name и title)
+const getGameName = (game: GameLesson): string => {
+  return (game as any).name || game.title || ''
+}
 
 // Цвета для смысловых блоков
 const blockColors = [
@@ -543,7 +548,7 @@ export default function KidLessonViewer() {
                   <Gamepad2 className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-white">{game.name}</h4>
+                  <h4 className="text-xl font-bold text-white">{getGameName(game)}</h4>
                   <p className="text-lg text-purple-200">{game.tasks.length} заданий</p>
                 </div>
               </div>

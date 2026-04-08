@@ -54,11 +54,16 @@ export default function LessonViewer() {
     setIsDetailOpen(true)
   }
   
+  // Helper function для получения имени игры (поддерживает name и title)
+  const getGameName = (game: GameLesson): string => {
+    return (game as any).name || game.title || ''
+  }
+
   const startQuiz = (lesson: SelectedLesson) => {
     // Устанавливаем selectedLesson в контексте для markLessonTestCompleted
     selectLesson(lesson as any)
     setIsDetailOpen(false) // Закрываем модальное окно перед тестом
-    
+
     // Извлекаем тему урока из названия (например, "Урок 1: Корень слова" -> "Корень слова")
     const lessonTitle = String(lesson.title || '')
     const lessonTopic = lessonTitle.includes(':')
@@ -70,19 +75,19 @@ export default function LessonViewer() {
     const lessonDescLower = String(lesson.description || '').toLowerCase()
 
     // 1. Ищем готовую игру по точному совпадению с темой урока
-    let matchingGame = games.find(g =>
-      g.name.toLowerCase() === lessonTopicLower ||
-      g.name.toLowerCase() === lessonTitleLower
-    )
+    let matchingGame = games.find(g => {
+      const gameName = getGameName(g).toLowerCase()
+      return gameName === lessonTopicLower || gameName === lessonTitleLower
+    })
 
     // 2. Ищем игру, где тема урока содержится в названии игры или наоборот
     if (!matchingGame) {
       matchingGame = games.find(g => {
-        const gameTitleLower = g.name.toLowerCase()
-        return gameTitleLower.includes(lessonTopicLower) ||
-               lessonTopicLower.includes(gameTitleLower) ||
-               gameTitleLower.includes(lessonDescLower) ||
-               lessonDescLower.includes(gameTitleLower)
+        const gameName = getGameName(g).toLowerCase()
+        return gameName.includes(lessonTopicLower) ||
+               lessonTopicLower.includes(gameName) ||
+               gameName.includes(lessonDescLower) ||
+               lessonDescLower.includes(gameName)
       })
     }
 
@@ -99,7 +104,7 @@ export default function LessonViewer() {
       for (const keyword of keywords) {
         if (lessonTopicLower.includes(keyword) || lessonDescLower.includes(keyword)) {
           matchingGame = games.find(g =>
-            g.name.toLowerCase().includes(keyword)
+            getGameName(g).toLowerCase().includes(keyword)
           )
           if (matchingGame) break
         }
@@ -324,7 +329,7 @@ export default function LessonViewer() {
                   <Gamepad2 className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-white">{game.name}</h4>
+                  <h4 className="text-xl font-bold text-white">{getGameName(game)}</h4>
                   <p className="text-purple-200">{game.tasks.length} заданий</p>
                 </div>
               </div>
