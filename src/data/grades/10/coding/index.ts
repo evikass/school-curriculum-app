@@ -17,7 +17,7 @@ const lessons: SubjectData = {
   ],
   detailedTopics: [
     {
-      title: 'Продвинутые алгоритмы',
+      topic: 'Продвинутые алгоритмы',
       lessons: [
         {
           title: 'Динамическое программирование',
@@ -42,7 +42,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Парадигмы программирования',
+      topic: 'Парадигмы программирования',
       lessons: [
         {
           title: 'Функциональное программирование',
@@ -67,7 +67,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Базы данных',
+      topic: 'Базы данных',
       lessons: [
         {
           title: 'Реляционные базы данных',
@@ -92,7 +92,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Сетевое программирование',
+      topic: 'Сетевое программирование',
       lessons: [
         {
           title: 'Протоколы TCP/IP',
@@ -117,7 +117,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Машинное обучение',
+      topic: 'Машинное обучение',
       lessons: [
         {
           title: 'Введение в машинное обучение',
@@ -142,7 +142,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Безопасность',
+      topic: 'Безопасность',
       lessons: [
         {
           title: 'SQL-инъекции',
@@ -167,7 +167,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Архитектура ПО',
+      topic: 'Архитектура ПО',
       lessons: [
         {
           title: 'Принципы SOLID',
@@ -192,7 +192,7 @@ const lessons: SubjectData = {
       ]
     },
     {
-      title: 'Итоговый проект',
+      topic: 'Итоговый проект',
       lessons: [
         {
           title: 'Проектирование проекта',
