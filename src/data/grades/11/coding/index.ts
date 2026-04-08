@@ -2094,89 +2094,422 @@ print(count)
   ]
 }
 
+
 export const games: GameLesson[] = [
   {
-    title: "Системы счисления",
-    subject: "Информатика",
-    icon: "Binary",
+    title: "Позиционные системы счисления",
+    subject: "Информатика и программирование",
+    icon: "Code",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: 'Сколько цифр в шестнадцатеричной системе?', options: ['8', '10', '12', '16'], correctAnswer: '16', hint: 'Шестнадцатеричная: 0-9 и A-F' },
-      { type: 'quiz', question: 'Чему равно число 10 в двоичной системе в десятичной?', options: ['2', '10', '16', '8'], correctAnswer: '2', hint: '10₂ = 1×2¹ + 0×2⁰ = 2' },
-      { type: 'find', question: 'Выбери правильные соответствия:', options: ['10₂ = 2', '10₈ = 8', '10₁₀ = 10', '10₁₆ = 16'], correctAnswer: ['10₂ = 2', '10₁₀ = 10', '10₁₆ = 16'], hint: '10 в разных системах имеет разное значение' },
-      { type: 'match', question: 'Соедини число с системой счисления:', options: ['1010', '12', 'A', '10'], correctAnswer: ['Двоичная', 'Восьмеричная', 'Шестнадцатеричная', 'Десятичная'], hint: 'Вспомни основания систем' },
-      { type: 'fill', question: 'Для перевода из десятичной системы нужно делить на ___ системы.', correctAnswer: 'основание', hint: 'Делим на основание и берём остатки' }
+      { type: 'quiz', question: 'Основание двоичной системы:', options: ['1', '2', '8', '10'], correctAnswer: '2', hint: 'Двоичная = 2 цифры' },
+      { type: 'quiz', question: '157 в двоичной системе:', options: ['10011101', '10111101', '10011110', '10101101'], correctAnswer: '10011101', hint: 'Делите на 2 с остатками' },
+      { type: 'fill', question: 'В шестнадцатеричной системе A = ___ в десятичной.', correctAnswer: '10', hint: 'A=10, B=11, C=12...' },
+      { type: 'quiz', question: 'Быстрый перевод двоичного в восьмеричное:', options: ['Группы по 2 цифры', 'Группы по 3 цифры', 'Группы по 4 цифры', 'Деление на 8'], correctAnswer: 'Группы по 3 цифры', hint: '2³ = 8' }
     ],
     reward: { stars: 3, message: "Мастер систем счисления! 🔢" }
   },
   {
-    title: "Алгебра логики",
-    subject: "Информатика",
-    icon: "GitBranch",
-    color: "text-blue-400",
+    title: "Арифметика в разных системах",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: 'Чему равно A ∧ 0?', options: ['A', '0', '1', 'Не определено'], correctAnswer: '0', hint: 'Конъюнкция с ложью всегда ложна' },
-      { type: 'quiz', question: 'Какая операция имеет наивысший приоритет?', options: ['Дизъюнкция', 'Конъюнкция', 'Инверсия', 'Импликация'], correctAnswer: 'Инверсия', hint: 'Порядок: ¬, ∧, ∨, →, ≡' },
-      { type: 'find', question: 'Выбери тождественно истинные выражения:', options: ['A ∨ ¬A', 'A ∧ ¬A', 'A → A', 'A ∧ 0', '1 ∨ A'], correctAnswer: ['A ∨ ¬A', 'A → A', '1 ∨ A'], hint: 'Тавтологии всегда истинны' },
-      { type: 'match', question: 'Соедини закон с формулой:', options: ['Де Моргана', 'Поглощения', 'Двойного отрицания'], correctAnswer: ['¬(A ∧ B) = ¬A ∨ ¬B', 'A ∨ (A ∧ B) = A', '¬(¬A) = A'], hint: 'Законы алгебры логики' },
-      { type: 'fill', question: 'Закон де Моргана: ¬(A ∧ B) = ¬A ___ ¬B.', correctAnswer: '∨', hint: 'Отрицание конъюнкции = дизъюнкция отрицаний' }
+      { type: 'quiz', question: '1 + 1 в двоичной системе:', options: ['2', '10', '11', '0'], correctAnswer: '10', hint: 'Перенос в старший разряд' },
+      { type: 'quiz', question: '1101 + 1011 = ?', options: ['11000', '10000', '10110', '11110'], correctAnswer: '11000', hint: '13 + 11 = 24' },
+      { type: 'fill', question: 'F + 1 в шестнадцатеричной = ___', correctAnswer: '10', hint: '15 + 1 = 16' },
+      { type: 'quiz', question: '0 - 1 в двоичной системе:', options: ['0', '1', '10', 'Ошибка'], correctAnswer: '1', hint: 'Заём из старшего разряда' }
+    ],
+    reward: { stars: 3, message: "Арифметик систем счисления! ➕" }
+  },
+  {
+    title: "Представление чисел в компьютере",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Диапазон 8-битных чисел без знака:', options: ['0-127', '0-255', '-128-127', '-255-255'], correctAnswer: '0-255', hint: '2⁸ - 1 = 255' },
+      { type: 'quiz', question: 'Дополнительный код -25 (8 бит):', options: ['10011001', '11100110', '11100111', '00011001'], correctAnswer: '11100111', hint: 'Инверсия + 1' },
+      { type: 'fill', question: 'IEEE 754: мантисса + порядок + ___ бит.', correctAnswer: 'знак', hint: 'Один бит для знака' },
+      { type: 'quiz', question: 'Переполнение разрядной сетки:', options: ['Деление на 0', 'Результат не помещается', 'Бесконечный цикл', 'Ошибка памяти'], correctAnswer: 'Результат не помещается', hint: 'Слишком большое число' }
+    ],
+    reward: { stars: 3, message: "Эксперт по представлению чисел! 💾" }
+  },
+  {
+    title: "Кодирование текста и изображений",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'ASCII использует:', options: ['5 бит', '7 бит', '8 бит', '16 бит'], correctAnswer: '7 бит', hint: '128 символов' },
+      { type: 'quiz', question: 'Глубина цвета 24 бита = цветов:', options: ['256', '65536', '16777216', '4294967296'], correctAnswer: '16777216', hint: '2²⁴' },
+      { type: 'fill', question: 'UTF-8 использует от ___ до 4 байт на символ.', correctAnswer: '1', hint: 'Переменная длина' },
+      { type: 'quiz', question: 'JPEG — сжатие:', options: ['Без потерь', 'С потерями', 'Без сжатия', 'Только текст'], correctAnswer: 'С потерями', hint: 'Отбрасывает невидимые детали' }
+    ],
+    reward: { stars: 3, message: "Мастер кодирования! 🎨" }
+  },
+  {
+    title: "Логические операции",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: '1 ∧ 0 = ?', options: ['0', '1', '10', 'Не определено'], correctAnswer: '0', hint: 'Конъюнкция (И)' },
+      { type: 'quiz', question: 'Импликация A → B ложна при:', options: ['A=0, B=0', 'A=0, B=1', 'A=1, B=0', 'A=1, B=1'], correctAnswer: 'A=1, B=0', hint: 'Из истины не следует ложь' },
+      { type: 'fill', question: 'A → B = ¬A ___ B', correctAnswer: '∨', hint: 'Дизъюнкция' },
+      { type: 'quiz', question: 'Строк в таблице истинности для 3 переменных:', options: ['4', '6', '8', '9'], correctAnswer: '8', hint: '2³ = 8' }
     ],
     reward: { stars: 3, message: "Логик! 🧠" }
   },
   {
-    title: "Компьютерные сети",
-    subject: "Информатика",
-    icon: "Network",
-    color: "text-purple-400",
+    title: "Законы алгебры логики",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: 'Сколько уровней в модели OSI?', options: ['4', '5', '6', '7'], correctAnswer: '7', hint: 'OSI — Open Systems Interconnection' },
-      { type: 'quiz', question: 'Какой протокол обеспечивает надёжную доставку данных?', options: ['UDP', 'IP', 'TCP', 'ICMP'], correctAnswer: 'TCP', hint: 'TCP гарантирует доставку и порядок пакетов' },
-      { type: 'find', question: 'Выбери протоколы прикладного уровня:', options: ['HTTP', 'TCP', 'FTP', 'IP', 'DNS', 'UDP'], correctAnswer: ['HTTP', 'FTP', 'DNS'], hint: 'Прикладной уровень — самый верхний в OSI' },
-      { type: 'match', question: 'Соедини протокол с портом:', options: ['HTTP', 'HTTPS', 'SSH', 'DNS'], correctAnswer: ['80', '443', '22', '53'], hint: 'Стандартные порты протоколов' },
-      { type: 'fill', question: 'IP-адрес состоит из ___ октетов.', correctAnswer: '4', hint: 'IPv4 = 4 байта = 32 бита' }
+      { type: 'quiz', question: '¬(A ∧ B) = ?', options: ['¬A ∧ ¬B', '¬A ∨ ¬B', 'A ∨ B', '¬A ∧ B'], correctAnswer: '¬A ∨ ¬B', hint: 'Закон де Моргана' },
+      { type: 'quiz', question: 'A ∨ (A ∧ B) = ?', options: ['A', 'B', 'A ∧ B', 'A ∨ B'], correctAnswer: 'A', hint: 'Закон поглощения' },
+      { type: 'fill', question: 'A ∨ ¬A = ___', correctAnswer: '1', hint: 'Закон исключения третьего' },
+      { type: 'quiz', question: 'A ∧ ¬A = ?', options: ['A', '0', '1', '¬A'], correctAnswer: '0', hint: 'Закон противоречия' }
     ],
-    reward: { stars: 3, message: "Сетевой администратор! 🌐" }
+    reward: { stars: 3, message: "Алгебраист логики! 📐" }
   },
   {
-    title: "Информационная безопасность",
-    subject: "Информатика",
-    icon: "Shield",
-    color: "text-red-400",
+    title: "Логические схемы",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: 'Какой тип шифрования использует пару ключей?', options: ['Симметричное', 'Асимметричное', 'Блочное', 'Потоковое'], correctAnswer: 'Асимметричное', hint: 'Открытый и закрытый ключи' },
-      { type: 'quiz', question: 'Что такое хеш-функция?', options: ['Шифрование', 'Необратимое преобразование', 'Сжатие', 'Кодирование'], correctAnswer: 'Необратимое преобразование', hint: 'Хеш нельзя восстановить обратно' },
-      { type: 'find', question: 'Выбери угрозы информационной безопасности:', options: ['Вирусы', 'Фишинг', 'Архивация', 'DDoS', 'Кэширование', 'SQL-инъекция'], correctAnswer: ['Вирусы', 'Фишинг', 'DDoS', 'SQL-инъекция'], hint: 'Угрозы нарушают конфиденциальность, целостность, доступность' },
-      { type: 'match', question: 'Соедини тип атаки с описанием:', options: ['Фишинг', 'DDoS', 'XSS'], correctAnswer: ['Мошеннические письма', 'Отказ в обслуживании', 'Внедрение скриптов'], hint: 'Разные типы атак' },
-      { type: 'fill', question: '___ — преобразование информации для защиты от несанкционированного доступа.', correctAnswer: 'Шифрование', hint: 'Основной метод защиты данных' }
+      { type: 'quiz', question: 'Вентиль И (AND) на выходе 1 если:', options: ['Хотя бы один вход 1', 'Оба входа 1', 'Оба входа 0', 'Входы разные'], correctAnswer: 'Оба входа 1', hint: 'Конъюнкция' },
+      { type: 'quiz', question: 'Полусумматор вычисляет:', options: ['Произведение', 'Сумму и перенос', 'Разность', 'Частное'], correctAnswer: 'Сумму и перенос', hint: 'Два выхода' },
+      { type: 'fill', question: 'Триггер хранит ___ бит информации.', correctAnswer: '1', hint: 'Элемент памяти' },
+      { type: 'quiz', question: 'NAND — это:', options: ['И', 'ИЛИ', 'И-НЕ', 'ИЛИ-НЕ'], correctAnswer: 'И-НЕ', hint: 'NOT AND' }
     ],
-    reward: { stars: 3, message: "Специалист по кибербезопасности! 🛡️" }
+    reward: { stars: 3, message: "Схемотехник! ⚡" }
   },
   {
-    title: "Теория информации",
-    subject: "Информатика",
-    icon: "Info",
-    color: "text-cyan-400",
+    title: "Решение логических задач",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: 'Какая формула используется для измерения информации при равновероятных событиях?', options: ['Формула Шеннона', 'Формула Хартли', 'Формула Эйлера', 'Формула Байеса'], correctAnswer: 'Формула Хартли', hint: 'I = log₂(N)' },
-      { type: 'quiz', question: 'Что обеспечивает условие Фано?', options: ['Сжатие данных', 'Однозначное декодирование', 'Шифрование', 'Целостность данных'], correctAnswer: 'Однозначное декодирование', hint: 'Ни один код не является началом другого' },
-      { type: 'find', question: 'Выбери методы сжатия данных:', options: ['RLE', 'AES', 'Хаффман', 'RSA', 'LZ77', 'MD5'], correctAnswer: ['RLE', 'Хаффман', 'LZ77'], hint: 'Сжатие уменьшает объём данных' },
-      { type: 'match', question: 'Соедини понятие с определением:', options: ['Пропускная способность', 'Избыточность', 'Код Хаффмана'], correctAnswer: ['Бит/с', 'Защита от ошибок', 'Оптимальное кодирование'], hint: 'Концепции теории информации' },
-      { type: 'fill', question: 'IPv6-адрес имеет длину ___ бит.', correctAnswer: '128', hint: 'IPv6 = 16 байт = 128 бит' }
+      { type: 'quiz', question: '(A→B) ∧ (B→C) ∧ (C→D) = 1 имеет решений:', options: ['4', '5', '8', '16'], correctAnswer: '5', hint: 'Только последовательности 0000, 0001, 0011, 0111, 1111' },
+      { type: 'quiz', question: 'IP 192.168.1.10, маска 255.255.255.0, адрес сети:', options: ['192.168.0.0', '192.168.1.0', '192.168.1.10', '255.255.255.0'], correctAnswer: '192.168.1.0', hint: 'IP AND маска' },
+      { type: 'fill', question: 'IP-адресов в сети /24: ___', correctAnswer: '256', hint: '2⁸ = 256' },
+      { type: 'quiz', question: 'Метод рассуждений — это:', options: ['Формулы', 'Последовательный анализ', 'Таблицы', 'Программирование'], correctAnswer: 'Последовательный анализ', hint: 'Логический вывод' }
     ],
-    reward: { stars: 3, message: "Теоретик информации! 📡" }
+    reward: { stars: 3, message: "Решатель задач! 🧩" }
   },
   {
-    title: "Подготовка к ЕГЭ",
-    subject: "Информатика",
-    icon: "GraduationCap",
-    color: "text-yellow-400",
+    title: "Анализ алгоритмов",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: 'Сколько времени даётся на ЕГЭ по информатике?', options: ['2 часа', '3 часа', '3 часа 55 минут', '4 часа'], correctAnswer: '3 часа 55 минут', hint: 'Почти 4 часа на выполнение' },
-      { type: 'quiz', question: 'Какое задание требует программирования обработки строк?', options: ['Задание 5', 'Задание 17', 'Задание 24', 'Задание 27'], correctAnswer: 'Задание 24', hint: 'Это задание на обработку символьных строк' },
-      { type: 'find', question: 'Выбери темы ЕГЭ по информатике:', options: ['Системы счисления', 'Дифференциальные уравнения', 'Алгебра логики', 'Графы', 'Органическая химия', 'Массивы'], correctAnswer: ['Системы счисления', 'Алгебра логики', 'Графы', 'Массивы'], hint: 'Только информатика!' },
-      { type: 'match', question: 'Соедини задание с темой:', options: ['Задание 1', 'Задание 2', 'Задание 15'], correctAnswer: ['Системы счисления', 'Таблицы истинности', 'Алгебра логики'], hint: 'Структура ЕГЭ' },
-      { type: 'fill', question: 'Задание 27 ЕГЭ требует ___ обработки данных.', correctAnswer: 'эффективной', hint: 'Нужен оптимальный алгоритм для больших данных' }
+      { type: 'quiz', question: 'Бинарный поиск имеет сложность:', options: ['O(1)', 'O(n)', 'O(log n)', 'O(n²)'], correctAnswer: 'O(log n)', hint: 'Деление пополам' },
+      { type: 'quiz', question: 'Сложность двойного цикла for i in range(n): for j in range(n):', options: ['O(n)', 'O(n log n)', 'O(n²)', 'O(2ⁿ)'], correctAnswer: 'O(n²)', hint: 'n × n операций' },
+      { type: 'fill', question: 'O(1) — ___ сложность.', correctAnswer: 'константная', hint: 'Не зависит от n' },
+      { type: 'quiz', question: 'NP-полные задачи:', options: ['Легко решаются', 'Сложнее всех в NP', 'Не существуют', 'Только теоретические'], correctAnswer: 'Сложнее всех в NP', hint: 'Самые трудные' }
     ],
-    reward: { stars: 3, message: "Готов к ЕГЭ! 🎓" }
+    reward: { stars: 3, message: "Аналитик алгоритмов! 📊" }
+  },
+  {
+    title: "Рекурсивные алгоритмы",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Базовый случай в рекурсии:', options: ['Рекурсивный вызов', 'Условие выхода', 'Цикл', 'Переменная'], correctAnswer: 'Условие выхода', hint: 'Остановка рекурсии' },
+      { type: 'quiz', question: 'factorial(5) = ?', options: ['25', '60', '120', '720'], correctAnswer: '120', hint: '5! = 5×4×3×2×1' },
+      { type: 'fill', question: 'Fib без мемоизации имеет сложность O(___)', correctAnswer: '2ⁿ', hint: 'Экспоненциальная' },
+      { type: 'quiz', question: 'Переполнение стека:', options: ['Мало памяти', 'Слишком глубокая рекурсия', 'Ошибка в коде', 'Неверный тип'], correctAnswer: 'Слишком глубокая рекурсия', hint: 'Stack Overflow' }
+    ],
+    reward: { stars: 3, message: "Рекурсивный мастер! 🔄" }
+  },
+  {
+    title: "Динамическое программирование",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'ДП требует:', options: ['Только рекурсию', 'Оптимальную подструктуру', 'Бесконечную память', 'Глобальные переменные'], correctAnswer: 'Оптимальную подструктуру', hint: 'Решение из подзадач' },
+      { type: 'quiz', question: 'Задача о кузнечике: способов до клетки 5:', options: ['3', '5', '8', '13'], correctAnswer: '8', hint: 'Числа Фибоначчи' },
+      { type: 'fill', question: 'Мемоизация — ___ результатов.', correctAnswer: 'запоминание', hint: 'Кэширование' },
+      { type: 'quiz', question: 'Задача о рюкзаке максимизирует:', options: ['Вес', 'Ценность', 'Количество', 'Объём'], correctAnswer: 'Ценность', hint: 'При ограничении веса' }
+    ],
+    reward: { stars: 3, message: "Динамический программист! 💾" }
+  },
+  {
+    title: "Графы и деревья",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'DFS — обход:', options: ['В ширину', 'В глубину', 'По возрастанию', 'Случайный'], correctAnswer: 'В глубину', hint: 'Deep First Search' },
+      { type: 'quiz', question: 'BFS использует:', options: ['Стек', 'Очередь', 'Кучу', 'Массив'], correctAnswer: 'Очередь', hint: 'Queue' },
+      { type: 'fill', question: 'Дерево с n вершинами имеет ___ рёбер.', correctAnswer: 'n-1', hint: 'На 1 меньше вершин' },
+      { type: 'quiz', question: 'Алгоритм Дейкстры находит:', options: ['Минимальное дерево', 'Кратчайший путь', 'Максимальный поток', 'Циклы'], correctAnswer: 'Кратчайший путь', hint: 'От одной вершины' }
+    ],
+    reward: { stars: 3, message: "Графовый эксперт! 🌳" }
+  },
+  {
+    title: "Моделирование",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Модель — это:', options: ['Точная копия', 'Упрощённое представление', 'Чертёж', 'Программа'], correctAnswer: 'Упрощённое представление', hint: 'Абстракция' },
+      { type: 'quiz', question: 'Статическая модель:', options: ['Меняется во времени', 'Не меняется во времени', 'Случайная', 'Оптимальная'], correctAnswer: 'Не меняется во времени', hint: 'Без динамики' },
+      { type: 'fill', question: '___ — проверка соответствия модели реальности.', correctAnswer: 'Валидация', hint: 'Не верификация' },
+      { type: 'quiz', question: 'Формализация:', options: ['Проверка модели', 'Переход к модели', 'Реализация', 'Тестирование'], correctAnswer: 'Переход к модели', hint: 'От реальности к модели' }
+    ],
+    reward: { stars: 3, message: "Моделист! 🎯" }
+  },
+  {
+    title: "Графические модели",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Дерево — это граф:', options: ['С циклами', 'Без циклов', 'Полный', 'Направленный'], correctAnswer: 'Без циклов', hint: 'Ациклический связный граф' },
+      { type: 'quiz', question: 'Ориентированный граф имеет:', options: ['Направленные рёбра', 'Только вершины', 'Взвешенные рёбра', 'Циклы'], correctAnswer: 'Направленные рёбра', hint: 'Стрелки' },
+      { type: 'fill', question: 'Конечный автомат — граф ___.', correctAnswer: 'состояний', hint: 'Вершины = состояния' },
+      { type: 'quiz', question: 'Критический путь в PERT:', options: ['Кратчайший', 'Самый длинный', 'Оптимальный', 'Случайный'], correctAnswer: 'Самый длинный', hint: 'Определяет минимальное время' }
+    ],
+    reward: { stars: 3, message: "Графовый дизайнер! 🔗" }
+  },
+  {
+    title: "Табличные модели",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: '1NF требует:', options: ['Уникальные ключи', 'Атомарные значения', 'Нет NULL', 'Один столбец'], correctAnswer: 'Атомарные значения', hint: 'Неделимые значения' },
+      { type: 'quiz', question: 'Первичный ключ:', options: ['Может повторяться', 'Уникально идентифицирует строку', 'Всегда число', 'Необязателен'], correctAnswer: 'Уникально идентифицирует строку', hint: 'ID записи' },
+      { type: 'fill', question: '3NF устраняет ___ зависимости.', correctAnswer: 'транзитивные', hint: 'А → В → С' },
+      { type: 'quiz', question: 'Внешний ключ:', options: ['Уникален', 'Ссылается на другую таблицу', 'Всегда NULL', 'Автоинкремент'], correctAnswer: 'Ссылается на другую таблицу', hint: 'Foreign Key' }
+    ],
+    reward: { stars: 3, message: "Базы данных мастер! 📋" }
+  },
+  {
+    title: "Математические модели",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Детерминированная модель:', options: ['Случайная', 'Однозначная', 'Динамическая', 'Статистическая'], correctAnswer: 'Однозначная', hint: 'Определённый результат' },
+      { type: 'quiz', question: 'Имитационное моделирование:', options: ['Только формулы', 'Воспроизведение работы системы', 'Статистика', 'Чертежи'], correctAnswer: 'Воспроизведение работы системы', hint: 'Симуляция' },
+      { type: 'fill', question: 'Вероятностная модель учитывает ___ факторы.', correctAnswer: 'случайные', hint: 'Стохастические' },
+      { type: 'quiz', question: 'Оптимизационная модель ищет:', options: ['Любое решение', 'Экстремум функции', 'Все решения', 'Ошибка'], correctAnswer: 'Экстремум функции', hint: 'Максимум или минимум' }
+    ],
+    reward: { stars: 3, message: "Математик! 📐" }
+  },
+  {
+    title: "Модели сетей",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'OSI модель имеет уровней:', options: ['4', '5', '7', '8'], correctAnswer: '7', hint: 'Seven layers' },
+      { type: 'quiz', question: 'TCP/IP модель:', options: ['4 уровня', '7 уровней', '5 уровней', '3 уровня'], correctAnswer: '4 уровня', hint: 'Прикладной, транспорт, интернет, канальный' },
+      { type: 'fill', question: 'Канальный уровень — ___ уровень OSI.', correctAnswer: '2', hint: 'Data Link' },
+      { type: 'quiz', question: 'Топология «звезда»:', options: ['Все соединены со всеми', 'Центральный узел', 'Кольцо', 'Линия'], correctAnswer: 'Центральный узел', hint: 'Server в центре' }
+    ],
+    reward: { stars: 3, message: "Сетевой архитектор! 🌐" }
+  },
+  {
+    title: "IP-адресация",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'IPv4 адрес имеет:', options: ['32 бита', '64 бита', '128 бит', '48 бит'], correctAnswer: '32 бита', hint: '4 октета' },
+      { type: 'quiz', question: 'Частный IP-адрес:', options: ['8.8.8.8', '192.168.1.1', '1.1.1.1', '93.184.216.34'], correctAnswer: '192.168.1.1', hint: 'Локальная сеть' },
+      { type: 'fill', question: 'IPv6 имеет ___ бит.', correctAnswer: '128', hint: 'В 4 раза больше IPv4' },
+      { type: 'quiz', question: 'Маска /24:', options: ['255.0.0.0', '255.255.0.0', '255.255.255.0', '255.255.255.255'], correctAnswer: '255.255.255.0', hint: '24 единицы' }
+    ],
+    reward: { stars: 3, message: "IP-эксперт! 🔢" }
+  },
+  {
+    title: "Протоколы Интернета",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'HTTP порт:', options: ['21', '22', '80', '443'], correctAnswer: '80', hint: 'Web-трафик' },
+      { type: 'quiz', question: 'HTTPS порт:', options: ['80', '443', '8080', '8443'], correctAnswer: '443', hint: 'Зашифрованный web' },
+      { type: 'fill', question: 'DNS преобразует ___ в IP-адрес.', correctAnswer: 'домен', hint: 'Имя сайта' },
+      { type: 'quiz', question: 'TCP обеспечивает:', options: ['Максимальную скорость', 'Надёжную доставку', 'Только передачу', 'Шифрование'], correctAnswer: 'Надёжную доставку', hint: 'Гарантия доставки' }
+    ],
+    reward: { stars: 3, message: "Протокольный эксперт! 📡" }
+  },
+  {
+    title: "Сетевое оборудование",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Коммутатор работает на уровне:', options: ['1', '2', '3', '4'], correctAnswer: '2', hint: 'Канальный уровень' },
+      { type: 'quiz', question: 'Роутер работает на уровне:', options: ['1', '2', '3', '4'], correctAnswer: '3', hint: 'Сетевой уровень' },
+      { type: 'fill', question: 'MAC-адрес имеет ___ бит.', correctAnswer: '48', hint: '6 байт' },
+      { type: 'quiz', question: 'Hub:', options: ['Маршрутизирует', 'Повторяет сигнал', 'Фильтрует', 'Шифрует'], correctAnswer: 'Повторяет сигнал', hint: 'Устройство 1 уровня' }
+    ],
+    reward: { stars: 3, message: "Сетевой инженер! 🔧" }
+  },
+  {
+    title: "Угрозы информационной безопасности",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Вредоносная программа:', options: ['Антивирус', 'Вирус', 'Файрвол', 'Браузер'], correctAnswer: 'Вирус', hint: 'Malware' },
+      { type: 'quiz', question: 'Phishing:', options: ['Вирус', 'Мошенничество', 'DDoS', 'Взлом'], correctAnswer: 'Мошенничество', hint: 'Поддельные сайты' },
+      { type: 'fill', question: 'DDoS — распределённая атака типа ___.', correctAnswer: 'отказ в обслуживании', hint: 'Denial of Service' },
+      { type: 'quiz', question: 'Социальная инженерия:', options: ['Технический взлом', 'Манипуляция людьми', 'Вирус', 'Баг'], correctAnswer: 'Манипуляция людьми', hint: 'Человеческий фактор' }
+    ],
+    reward: { stars: 3, message: "Эксперт по безопасности! 🔒" }
+  },
+  {
+    title: "Методы защиты",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Firewall:', options: ['Антивирус', 'Сетевой экран', 'Браузер', 'Почта'], correctAnswer: 'Сетевой экран', hint: 'Фильтрует трафик' },
+      { type: 'quiz', question: 'Двухфакторная аутентификация:', options: ['Пароль', 'Пароль + код', 'Только биометрия', 'Без пароля'], correctAnswer: 'Пароль + код', hint: '2FA' },
+      { type: 'fill', question: 'Антивирус ___ вредоносные программы.', correctAnswer: 'обнаруживает', hint: 'И удаляет' },
+      { type: 'quiz', question: 'Резервное копирование:', options: ['Шифрование', 'Сохранение копий', 'Удаление', 'Сжатие'], correctAnswer: 'Сохранение копий', hint: 'Backup' }
+    ],
+    reward: { stars: 3, message: "Защитник данных! 🛡️" }
+  },
+  {
+    title: "Криптография",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Симметричное шифрование:', options: ['Один ключ', 'Два ключа', 'Без ключей', 'Публичный ключ'], correctAnswer: 'Один ключ', hint: 'Ключ шифрования = ключ дешифрования' },
+      { type: 'quiz', question: 'RSA — шифрование:', options: ['Симметричное', 'Асимметричное', 'Безключевое', 'Хеширование'], correctAnswer: 'Асимметричное', hint: 'Публичный и приватный ключ' },
+      { type: 'fill', question: 'Хеш-функция создаёт ___ значение.', correctAnswer: 'уникальное', hint: 'Фиксированной длины' },
+      { type: 'quiz', question: 'Цифровая подпись:', options: ['Шифрует', 'Подтверждает авторство', 'Скрывает', 'Сжимает'], correctAnswer: 'Подтверждает авторство', hint: 'Аутентификация' }
+    ],
+    reward: { stars: 3, message: "Криптограф! 🔐" }
+  },
+  {
+    title: "Правовые аспекты",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Авторское право:', options: ['Только на книги', 'На произведения', 'Не защищает', 'Только на программы'], correctAnswer: 'На произведения', hint: 'Copyright' },
+      { type: 'quiz', question: 'GPL лицензия:', options: ['Коммерческая', 'Открытая', 'Закрытая', 'Пробная'], correctAnswer: 'Открытая', hint: 'GNU GPL' },
+      { type: 'fill', question: 'Персональные данные защищены ___.', correctAnswer: 'законом', hint: 'ФЗ-152' },
+      { type: 'quiz', question: 'Плагиат:', options: ['Цитирование', 'Присвоение авторства', 'Лицензирование', 'Копирование'], correctAnswer: 'Присвоение авторства', hint: 'Нарушение прав' }
+    ],
+    reward: { stars: 3, message: "Юрист ИТ! ⚖️" }
+  },
+  {
+    title: "Измерение информации",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: '1 байт =', options: ['4 бита', '8 бит', '16 бит', '10 бит'], correctAnswer: '8 бит', hint: 'Стандарт' },
+      { type: 'quiz', question: 'Формула Хартли:', options: ['I = n', 'I = log₂N', 'I = N²', 'I = 2ⁿ'], correctAnswer: 'I = log₂N', hint: 'Количество информации' },
+      { type: 'fill', question: '1 КБ = ___ байт.', correctAnswer: '1024', hint: '2¹⁰' },
+      { type: 'quiz', question: 'Вероятностный подход:', options: ['Все равновероятны', 'Учитывает вероятность', 'Не учитывает', 'Только текст'], correctAnswer: 'Учитывает вероятность', hint: 'Формула Шеннона' }
+    ],
+    reward: { stars: 3, message: "Измеритель информации! 📏" }
+  },
+  {
+    title: "Кодирование информации",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Равномерный код:', options: ['Разная длина', 'Одинаковая длина', 'Оптимальный', 'Сжатый'], correctAnswer: 'Одинаковая длина', hint: 'Все коды одной длины' },
+      { type: 'quiz', question: 'Код Хаффмана:', options: ['Равномерный', 'Оптимальный префиксный', 'Не сжимает', 'Для изображений'], correctAnswer: 'Оптимальный префиксный', hint: 'Частые символы короче' },
+      { type: 'fill', question: 'Префиксный код — код без ___.', correctAnswer: 'префиксов', hint: 'Никакой код не начало другого' },
+      { type: 'quiz', question: 'RLE кодирует:', options: ['Все символы', 'Повторяющиеся последовательности', 'Только нули', 'Только текст'], correctAnswer: 'Повторяющиеся последовательности', hint: 'Run-Length Encoding' }
+    ],
+    reward: { stars: 3, message: "Кодировщик! 💻" }
+  },
+  {
+    title: "Передача информации",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Пропускная способность измеряется:', options: ['Байтах', 'Битах в секунду', 'Герцах', 'Вольтах'], correctAnswer: 'Битах в секунду', hint: 'бит/с' },
+      { type: 'quiz', question: 'Формула Шеннона:', options: ['C = B', 'C = B·log₂(1+S/N)', 'C = B·S/N', 'C = 2B'], correctAnswer: 'C = B·log₂(1+S/N)', hint: 'Пропускная способность канала' },
+      { type: 'fill', question: 'Задержка — ___ передачи данных.', correctAnswer: 'время', hint: 'Latency' },
+      { type: 'quiz', question: 'Помехоустойчивое кодирование:', options: ['Сжимает', 'Обнаруживает ошибки', 'Шифрует', 'Ускоряет'], correctAnswer: 'Обнаруживает ошибки', hint: 'Избыточность' }
+    ],
+    reward: { stars: 3, message: "Связист! 📡" }
+  },
+  {
+    title: "Хранение и обработка информации",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'SSD использует:', options: ['Магнитные диски', 'Флеш-память', 'Ленты', 'Оптику'], correctAnswer: 'Флеш-память', hint: 'Solid State Drive' },
+      { type: 'quiz', question: 'RAID:', options: ['Видеокарта', 'Массив дисков', 'Процессор', 'Память'], correctAnswer: 'Массив дисков', hint: 'Redundant Array' },
+      { type: 'fill', question: 'Буфер — ___ память для временных данных.', correctAnswer: 'временная', hint: 'Cache' },
+      { type: 'quiz', question: 'Базы данных:', options: ['Текстовые файлы', 'Структурированное хранение', 'Изображения', 'Программы'], correctAnswer: 'Структурированное хранение', hint: 'SQL, NoSQL' }
+    ],
+    reward: { stars: 3, message: "Архитектор данных! 💾" }
+  },
+  {
+    title: "Структура ЕГЭ по информатике",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'ЕГЭ по информатике:', options: ['На бумаге', 'На компьютере', 'Устно', 'Письменно'], correctAnswer: 'На компьютере', hint: 'Компьютерная форма' },
+      { type: 'quiz', question: 'Количество заданий:', options: ['23', '25', '27', '30'], correctAnswer: '27', hint: 'С 2024 года' },
+      { type: 'fill', question: 'Максимальный балл: ___', correctAnswer: '30', hint: 'Первичный балл' },
+      { type: 'quiz', question: 'Время на ЕГЭ:', options: ['2 часа', '2.5 часа', '3 часа', '4 часа'], correctAnswer: '3 часа', hint: '180 минут' }
+    ],
+    reward: { stars: 3, message: "Знаток ЕГЭ! 📝" }
+  },
+  {
+    title: "Типовые задания",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Задание 5:', options: ['Системы счисления', 'Программирование', 'Логика', 'Графы'], correctAnswer: 'Программирование', hint: 'Анализ программ' },
+      { type: 'quiz', question: 'Задание 2:', options: ['Таблицы истинности', 'Программирование', 'Кодирование', 'Сети'], correctAnswer: 'Таблицы истинности', hint: 'Логика' },
+      { type: 'fill', question: 'Задание 15 — ___ логические выражения.', correctAnswer: 'упрощать', hint: 'Алгебра логики' },
+      { type: 'quiz', question: 'Задание 17:', options: ['Обработка файла', 'Рекурсия', 'Графы', 'Кодирование'], correctAnswer: 'Обработка файла', hint: 'Анализ данных' }
+    ],
+    reward: { stars: 3, message: "Решатель ЕГЭ! ✅" }
+  },
+  {
+    title: "Программирование в ЕГЭ",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Языки на ЕГЭ:', options: ['Только Python', 'Python, C++, Pascal', 'Только C++', 'Любой'], correctAnswer: 'Python, C++, Pascal', hint: 'На выбор' },
+      { type: 'quiz', question: 'Задание 24:', options: ['Обработка строки', 'Массив', 'Граф', 'Файл'], correctAnswer: 'Обработка строки', hint: 'Строки' },
+      { type: 'fill', question: 'Задание 25 — обработка ___.', correctAnswer: 'чисел', hint: 'Числовая последовательность' },
+      { type: 'quiz', question: 'Задание 27:', options: ['Лёгкое', 'Сложное программирование', 'Теория', 'Тест'], correctAnswer: 'Сложное программирование', hint: 'Две части: простая и сложная' }
+    ],
+    reward: { stars: 3, message: "Программист ЕГЭ! 💻" }
+  },
+  {
+    title: "Стратегия подготовки",
+    subject: "Информатика и программирование",
+    icon: "Code",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: 'Проходной балл:', options: ['40', '44', '46', '50'], correctAnswer: '44', hint: 'Минимальный' },
+      { type: 'quiz', question: 'Лучший способ подготовки:', options: ['Теория', 'Решение вариантов', 'Только программирование', 'Чтение'], correctAnswer: 'Решение вариантов', hint: 'Практика' },
+      { type: 'fill', question: 'На экзамен можно взять ___.', correctAnswer: 'калькулятор', hint: 'И справочные материалы' },
+      { type: 'quiz', question: 'Задания по возрастанию сложности:', options: ['Нет', 'Да', 'Сначала лёгкие', 'Сначала сложные'], correctAnswer: 'Нет', hint: 'Перемешаны' }
+    ],
+    reward: { stars: 3, message: "Стратег! 🎯" }
   }
 ]
