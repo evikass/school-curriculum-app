@@ -143,55 +143,159 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Углеводороды",
+    title: "Урок 1: Предмет органической химии",
+    subject: "Химия",
+    icon: "FlaskConical",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: "Органическая химия изучает:", options: ["Все соединения", "Соединения углерода", "Только белки"], correctAnswer: "Соединения углерода", hint: "Углерод — основа органических соединений" },
+      { type: 'quiz', question: "Валентность углерода в органических соединениях:", options: ["2", "3", "4"], correctAnswer: "4", hint: "Углерод образует 4 ковалентные связи" },
+      { type: 'quiz', question: "Сколько органических соединений известно?", options: ["Около 1000", "Более 10 миллионов", "Около 100"], correctAnswer: "Более 10 миллионов", hint: "Многообразие связано со способностью C образовывать цепи" },
+      { type: 'fill', question: "Простейший углеводород: __", correctAnswer: "CH4", hint: "Метан — простейший углеводород" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты изучил основы органической химии! ⚗️" }
+  },
+  {
+    title: "Урок 2: Теория строения органических соединений",
+    subject: "Химия",
+    icon: "FlaskConical",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: "Автор теории химического строения:", options: ["Менделеев", "Бутлеров", "Ломоносов"], correctAnswer: "Бутлеров", hint: "А.М. Бутлеров создал теорию в 1861 г." },
+      { type: 'quiz', question: "Изомерия — это:", options: ["Одинаковый состав и строение", "Одинаковый состав, разное строение", "Разный состав"], correctAnswer: "Одинаковый состав, разное строение", hint: "Изомеры имеют одинаковую формулу" },
+      { type: 'quiz', question: "Гомологический ряд отличается на:", options: ["CH", "CH2", "CH3"], correctAnswer: "CH2", hint: "Гомологи отличаются на CH2-группу" },
+      { type: 'fill', question: "Формула бутана: __", correctAnswer: "C4H10", hint: "Бутан — четвёртый в ряду алканов" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты понимаешь теорию строения! 🧪" }
+  },
+  {
+    title: "Урок 3: Классификация и номенклатура",
+    subject: "Химия",
+    icon: "FlaskConical",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: "ИЮПАК — это:", options: ["Тривиальные названия", "Международная номенклатура", "Рациональная номенклатура"], correctAnswer: "Международная номенклатура", hint: "IUPAC — систематическая номенклатура" },
+      { type: 'quiz', question: "Корень «пент-» означает атомов C:", options: ["3", "4", "5"], correctAnswer: "5", hint: "Пентан — C5H12" },
+      { type: 'quiz', question: "Суффикс «-ен» указывает на:", options: ["Одинарную связь", "Двойную связь", "Тройную связь"], correctAnswer: "Двойную связь", hint: "Алкены содержат двойную связь" },
+      { type: 'fill', question: "Название CH3-CH(CH3)-CH3 по ИЮПАК: __", correctAnswer: "2-метилпропан", hint: "Выбери самую длинную цепь" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты владеешь номенклатурой! 📝" }
+  },
+  {
+    title: "Урок 4: Алканы",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-emerald-400",
     tasks: [
       { type: 'quiz', question: "Общая формула алканов:", options: ["CnH2n", "CnH2n+2", "CnH2n-2"], correctAnswer: "CnH2n+2", hint: "Алканы — предельные углеводороды" },
-      { type: 'quiz', question: "Какой углеводород содержит тройную связь?", options: ["Этан", "Этен", "Этин"], correctAnswer: "Этин", hint: "Этин — другое название ацетилен" },
-      { type: 'quiz', question: "Бензол обесцвечивает бромную воду?", options: ["Да", "Нет"], correctAnswer: "Нет", hint: "В бензоле нет двойных связей в обычном понимании" },
-      { type: 'fill', question: "Формула этилена: __", correctAnswer: "C2H4", hint: "Этилен — простейший алкен" }
+      { type: 'quiz', question: "Гибридизация атомов C в алканах:", options: ["sp", "sp²", "sp³"], correctAnswer: "sp³", hint: "Все связи одинарные" },
+      { type: 'quiz', question: "Метан — основной компонент:", options: ["Воздуха", "Природного газа", "Нефти"], correctAnswer: "Природного газа", hint: "Метан — главный компонент природного газа" },
+      { type: 'fill', question: "Формула октана: __", correctAnswer: "C8H18", hint: "Октан — восьмой в ряду алканов" }
     ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь углеводороды! ⚗️" }
+    reward: { stars: 3, message: "Супер! Ты знаешь алканы! ⛽" }
   },
   {
-    title: "Функциональные группы",
+    title: "Урок 5: Алкены",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Функциональная группа спиртов:", options: ["-CHO", "-OH", "-COOH"], correctAnswer: "-OH", hint: "Спирты содержат гидроксильную группу" },
-      { type: 'quiz', question: "Функциональная группа альдегидов:", options: ["-OH", "-CHO", "-COOH"], correctAnswer: "-CHO", hint: "Альдегиды содержат формильную группу" },
+      { type: 'quiz', question: "Общая формула алкенов:", options: ["CnH2n", "CnH2n+2", "CnH2n-2"], correctAnswer: "CnH2n", hint: "Алкены содержат одну двойную связь" },
+      { type: 'quiz', question: "Этилен — это:", options: ["Этан", "Этен", "Этин"], correctAnswer: "Этен", hint: "Этилен — тривиальное название этена" },
+      { type: 'quiz', question: "Какая реакция качественная для алкенов?", options: ["С натрием", "С бромной водой", "С кислотой"], correctAnswer: "С бромной водой", hint: "Алкены обесцвечивают бромную воду" },
+      { type: 'fill', question: "Продукт полимеризации этилена: __", correctAnswer: "полиэтилен", hint: "nC2H4 → (-CH2-CH2-)n" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты понимаешь алкены! 🔬" }
+  },
+  {
+    title: "Урок 6: Алкины",
+    subject: "Химия",
+    icon: "FlaskConical",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: "Общая формула алкинов:", options: ["CnH2n", "CnH2n+2", "CnH2n-2"], correctAnswer: "CnH2n-2", hint: "Алкины содержат одну тройную связь" },
+      { type: 'quiz', question: "Ацетилен получают из:", options: ["Метана", "Карбида кальция", "Этанола"], correctAnswer: "Карбида кальция", hint: "CaC2 + 2H2O → C2H2" },
+      { type: 'quiz', question: "Температура пламени ацетилена:", options: ["~1000°C", "~2000°C", "~3000°C"], correctAnswer: "~3000°C", hint: "Ацетиленовое пламя самое горячее" },
+      { type: 'fill', question: "Формула ацетилена: __", correctAnswer: "C2H2", hint: "Этин — систематическое название" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь алкины! 🔥" }
+  },
+  {
+    title: "Урок 7: Арены",
+    subject: "Химия",
+    icon: "FlaskConical",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: "Формула бензола:", options: ["C6H6", "C6H12", "C6H8"], correctAnswer: "C6H6", hint: "Бензол — простейший арен" },
+      { type: 'quiz', question: "Правило Хюккеля для бензола (n=1):", options: ["4 π-электрона", "6 π-электронов", "8 π-электронов"], correctAnswer: "6 π-электронов", hint: "4n+2 при n=1 даёт 6" },
+      { type: 'quiz', question: "Бензол обесцвечивает бромную воду?", options: ["Да", "Нет"], correctAnswer: "Нет", hint: "В бензоле нет обычных двойных связей" },
+      { type: 'fill', question: "Толуол — это метилбензол, формула: __", correctAnswer: "C6H5CH3", hint: "Бензольное кольцо + CH3" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты понимаешь арены! ⚗️" }
+  },
+  {
+    title: "Урок 8: Спирты",
+    subject: "Химия",
+    icon: "FlaskConical",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: "Функциональная группа спиртов:", options: ["-CHO", "-OH", "-COOH"], correctAnswer: "-OH", hint: "Гидроксильная группа" },
+      { type: 'quiz', question: "Метанол:", options: ["Безопасен", "Ядовит", "Полезен"], correctAnswer: "Ядовит", hint: "Метанол вызывает слепоту и смерть" },
+      { type: 'quiz', question: "Глицерин — это:", options: ["Одноатомный спирт", "Трёхатомный спирт", "Двухатомный спирт"], correctAnswer: "Трёхатомный спирт", hint: "Глицерин содержит 3 группы -OH" },
+      { type: 'fill', question: "Формула этанола: __", correctAnswer: "C2H5OH", hint: "Винный спирт" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь спирты! 🧪" }
+  },
+  {
+    title: "Урок 9: Альдегиды и кетоны",
+    subject: "Химия",
+    icon: "FlaskConical",
+    color: "text-emerald-400",
+    tasks: [
+      { type: 'quiz', question: "Функциональная группа альдегидов:", options: ["-OH", "-CHO", "-COOH"], correctAnswer: "-CHO", hint: "Формильная группа" },
+      { type: 'quiz', question: "Реакция «серебряного зеркала» качественная для:", options: ["Спиртов", "Альдегидов", "Кетонов"], correctAnswer: "Альдегидов", hint: "Альдегиды окисляются до кислот" },
+      { type: 'quiz', question: "Ацетон — это:", options: ["Альдегид", "Кетон", "Спирт"], correctAnswer: "Кетон", hint: "Ацетон — простейший кетон" },
+      { type: 'fill', question: "Формула формальдегида: __", correctAnswer: "HCHO", hint: "Простейший альдегид" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты понимаешь карбонильные соединения! 🔬" }
+  },
+  {
+    title: "Урок 10: Карбоновые кислоты",
+    subject: "Химия",
+    icon: "FlaskConical",
+    color: "text-emerald-400",
+    tasks: [
       { type: 'quiz', question: "Функциональная группа карбоновых кислот:", options: ["-OH", "-CHO", "-COOH"], correctAnswer: "-COOH", hint: "Карбоксильная группа" },
-      { type: 'fill', question: "Формула уксусной кислоты: __", correctAnswer: "CH3COOH", hint: "Уксусная кислота — простейшая карбоновая кислота" }
+      { type: 'quiz', question: "Уксусная кислота — это:", options: ["HCOOH", "CH3COOH", "C2H5COOH"], correctAnswer: "CH3COOH", hint: "Уксус содержит уксусную кислоту" },
+      { type: 'quiz', question: "Реакция этерификации — это:", options: ["Присоединение", "Замещение", "Отщепление"], correctAnswer: "Замещение", hint: "Спирт + кислота → сложный эфир" },
+      { type: 'fill', question: "Жиры — сложные эфиры __ и высших кислот", correctAnswer: "глицерина", hint: "Глицерин + жирные кислоты = жиры" }
     ],
-    reward: { stars: 3, message: "Супер! Ты знаешь функциональные группы! 🧪" }
+    reward: { stars: 3, message: "Супер! Ты знаешь карбоновые кислоты! ⚗️" }
   },
   {
-    title: "Химические реакции",
+    title: "Урок 11: Типы химических реакций",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Гидрирование — это реакция:", options: ["Замещения", "Присоединения", "Отщепления"], correctAnswer: "Присоединения", hint: "Гидрирование — добавление водорода" },
-      { type: 'quiz', question: "Дегидратация спирта — это реакция:", options: ["Замещения", "Присоединения", "Отщепления"], correctAnswer: "Отщепления", hint: "Дегидратация — удаление воды" },
-      { type: 'quiz', question: "Реакция «серебряного зеркала» качественная для:", options: ["Спиртов", "Альдегидов", "Кислот"], correctAnswer: "Альдегидов", hint: "Альдегиды окисляются до кислот" },
-      { type: 'quiz', question: "Полимеризация характерна для:", options: ["Алканов", "Алкенов", "Алкинов"], correctAnswer: "Алкенов", hint: "Двойная связь разрывается и образует полимер" }
+      { type: 'quiz', question: "Гидрирование — это реакция:", options: ["Замещения", "Присоединения", "Отщепления"], correctAnswer: "Присоединения", hint: "Добавление водорода к кратной связи" },
+      { type: 'quiz', question: "Дегидратация — это реакция:", options: ["Замещения", "Присоединения", "Отщепления"], correctAnswer: "Отщепления", hint: "Удаление воды" },
+      { type: 'quiz', question: "Галогенирование алканов — реакция:", options: ["Замещения", "Присоединения", "Отщепления"], correctAnswer: "Замещения", hint: "Атом H заменяется на галоген" },
+      { type: 'fill', question: "Полимеризация характерна для __", correctAnswer: "алкенов", hint: "Двойная связь разрывается" }
     ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь типы реакций! 🔬" }
+    reward: { stars: 3, message: "Отлично! Ты различаешь типы реакций! 🧪" }
   },
   {
-    title: "Изомерия",
+    title: "Урок 12: Механизмы реакций",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Бутан и изобутан — это:", options: ["Гомологи", "Структурные изомеры", "Геометрические изомеры"], correctAnswer: "Структурные изомеры", hint: "Одинаковый состав, разное строение цепи" },
-      { type: 'quiz', question: "Цис- и транс-изомерия — это:", options: ["Структурная", "Геометрическая", "Межклассовая"], correctAnswer: "Геометрическая", hint: "Разное положение групп относительно двойной связи" },
-      { type: 'quiz', question: "Этанол и диметиловый эфир — это:", options: ["Гомологи", "Структурные изомеры", "Межклассовые изомеры"], correctAnswer: "Межклассовые изомеры", hint: "Спирт и эфир с формулой C2H6O" },
-      { type: 'fill', question: "Изомерия начинается с __ атомов углерода у алканов", correctAnswer: "4", hint: "Бутан (C4H10) — первый алкан с изомером" }
+      { type: 'quiz', question: "Радикальные реакции идут через:", options: ["Ионы", "Свободные радикалы", "Молекулы"], correctAnswer: "Свободные радикалы", hint: "Радикалы имеют неспаренный электрон" },
+      { type: 'quiz', question: "Электрофил — это частица:", options: ["Любящая электроны", "Отдающая электроны", "Нейтральная"], correctAnswer: "Любящая электроны", hint: "Электрофилы — катионы, акцепторы электронов" },
+      { type: 'quiz', question: "Нитрование бензола идёт по механизму:", options: ["SN", "AdE", "SE"], correctAnswer: "SE", hint: "Электрофильное замещение" },
+      { type: 'fill', question: "Антиоксиданты связывают __", correctAnswer: "свободные радикалы", hint: "Антиоксиданты защищают от радикалов" }
     ],
-    reward: { stars: 3, message: "Супер! Ты понимаешь изомерию! 📐" }
+    reward: { stars: 3, message: "Супер! Ты понимаешь механизмы реакций! 🔬" }
   }
 ]
