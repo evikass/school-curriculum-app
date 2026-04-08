@@ -221,7 +221,7 @@ const lessons: SubjectData = {
 
 const games: GameLesson[] = [
   {
-    title: "ООП и принципы SOLID",
+    name: "Принципы SOLID",
     subject: "Программирование",
     icon: "Code",
     color: "text-emerald-400",
@@ -235,7 +235,7 @@ const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличное знание ООП! 🎯" }
   },
   {
-    title: "Алгоритмы и структуры данных",
+    name: "Динамическое программирование",
     subject: "Программирование",
     icon: "GitBranch",
     color: "text-blue-400",
@@ -249,7 +249,7 @@ const games: GameLesson[] = [
     reward: { stars: 3, message: "Алгоритмическое мышление на высоте! 🧠" }
   },
   {
-    title: "Базы данных и SQL",
+    name: "Реляционные базы данных",
     subject: "Программирование",
     icon: "Database",
     color: "text-purple-400",
@@ -263,7 +263,7 @@ const games: GameLesson[] = [
     reward: { stars: 3, message: "Мастер баз данных! 💾" }
   },
   {
-    title: "Сети и безопасность",
+    name: "Протоколы TCP/IP",
     subject: "Программирование",
     icon: "Shield",
     color: "text-red-400",
@@ -277,7 +277,7 @@ const games: GameLesson[] = [
     reward: { stars: 3, message: "Защитник киберпространства! 🛡️" }
   },
   {
-    title: "Асинхронность и Python",
+    name: "Асинхронное программирование",
     subject: "Программирование",
     icon: "Zap",
     color: "text-yellow-400",
