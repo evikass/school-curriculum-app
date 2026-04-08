@@ -335,6 +335,13 @@ import { lessons as grade11Economy } from './grades/11/economy'
 import { lessons as grade11Coding } from './grades/11/coding'
 import { games as grade11EconomyGames } from './grades/11/economy'
 import { games as grade11CodingGames } from './grades/11/coding'
+import { games as grade11LiteratureGames } from './grades/11/literature'
+import { games as grade11RussianGames } from './grades/11/russian'
+import { games as grade11AlgebraGames } from './grades/11/algebra'
+import { games as grade11GeometryGames } from './grades/11/geometry'
+import { games as grade11PhysicsGames } from './grades/11/physics'
+import { games as grade11ChemistryGames } from './grades/11/chemistry'
+import { games as grade11HistoryGames } from './grades/11/history'
 
 // Старые игры из файлов grade-*.ts
 import { prepClassGames } from './games/grade-0'
@@ -410,7 +417,7 @@ export const allGames: Record<number, GameLesson[]> = {
   8: [...eighthGradeGames, ...grade8PhysicsGames, ...grade8CodingGames, ...grade8SocialGames, ...grade8EconomyGames, ...grade8InformaticsGames, ...grade8RoboticsGames, ...grade8LawGames],
   9: [...ninthGradeGames, ...grade9AlgebraGames, ...grade9GeometryGames, ...grade9PhysicsGames, ...grade9ChemistryGames, ...grade9BiologyGames, ...grade9GeographyGames, ...grade9HistoryGames, ...grade9RussianGames, ...grade9LiteratureGames, ...grade9SocialGames, ...grade9CodingGames, ...grade9InformaticsGames, ...grade9PsychologyGames, ...grade9EconomyGames, ...grade9CareerGames, ...grade9OGEGames],
   10: [...tenthGradeGames, ...grade10EconomyGames, ...grade10CodingGames, ...grade10TechGames, ...grade10ArtGames, ...grade10CareerGames, ...grade10AstronomyGames, ...grade10BusinessGames, ...grade10PhilosophyGames, ...grade10ProjectsGames, ...grade10LabGames, ...grade10EGEGames],
-  11: [...eleventhGradeGames, ...grade11EconomyGames, ...grade11CodingGames],
+  11: [...eleventhGradeGames, ...grade11EconomyGames, ...grade11CodingGames, ...grade11LiteratureGames, ...grade11RussianGames, ...grade11AlgebraGames, ...grade11GeometryGames, ...grade11PhysicsGames, ...grade11ChemistryGames, ...grade11HistoryGames],
 }
 
 // Curriculum данные
