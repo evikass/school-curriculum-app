@@ -399,7 +399,7 @@ export default function MiniGames() {
                       >
                         <span className="text-4xl">{game.emoji}</span>
                         <div>
-                          <h4 className="text-white font-bold text-lg">{game.title}</h4>
+                          <h4 className="text-white font-bold text-lg">{game.name}</h4>
                           <p className="text-white/70 text-sm">{game.description}</p>
                         </div>
                         <Zap className="w-5 h-5 text-white/50 ml-auto" />

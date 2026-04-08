@@ -543,7 +543,7 @@ export default function KidLessonViewer() {
                   <Gamepad2 className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-white">{game.title}</h4>
+                  <h4 className="text-xl font-bold text-white">{game.name}</h4>
                   <p className="text-lg text-purple-200">{game.tasks.length} заданий</p>
                 </div>
               </div>

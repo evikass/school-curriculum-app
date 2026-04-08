@@ -34,7 +34,7 @@ export default function GameSection() {
             <div className="p-4 rounded-2xl bg-gradient-to-br from-yellow-400 to-orange-500 inline-block mb-4 group-hover:scale-110 transition-transform">
               <Gamepad2 className="w-10 h-10 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-white mb-2">{game.title}</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">{game.name}</h3>
             <p className="text-purple-200 mb-4">{game.subject}</p>
             <div className="flex items-center gap-4 mb-4">
               <span className="text-white/80 bg-white/10 px-3 py-1 rounded-xl">{game.tasks?.length || 0} заданий</span>

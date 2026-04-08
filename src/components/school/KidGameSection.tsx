@@ -217,7 +217,7 @@ export default function KidGameSection() {
 
             {/* Title */}
             <h3 className="text-lg font-bold text-white mb-1">
-              {game.title}
+              {game.name}
             </h3>
 
             {/* Subject */}
@@ -263,7 +263,7 @@ export default function KidGameSection() {
 
                 {/* Title */}
                 <h3 className="text-base font-bold text-white mb-1">
-                  {game.title}
+                  {game.name}
                 </h3>
 
                 {/* Subject */}
