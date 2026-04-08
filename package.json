@@ -1,6 +1,6 @@
 {
   "name": "inetshkola-final",
-  "version": "3.389",
+  "version": "3.390",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
