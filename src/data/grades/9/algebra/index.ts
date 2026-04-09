@@ -522,30 +522,56 @@ C₁₅³ = 15! / (3! × 12!) = 455`,
 
 export const games: GameLesson[] = [
   {
-    title: "Квадратичная функция",
+    title: "Функция y = ax²",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "График квадратичной функции:", options: ["Прямая", "Парабола", "Гипербола", "Окружность"], correctAnswer: "Парабола", hint: "Кривая линия" },
-      { type: 'fill', question: "x₀ = -b / __a (формула абсциссы вершины)", correctAnswer: "2", hint: "Делим на 2a" },
+      { type: 'quiz', question: "График функции y = ax²:", options: ["Прямая", "Парабола", "Гипербола", "Окружность"], correctAnswer: "Парабола", hint: "Кривая линия" },
       { type: 'quiz', question: "Ветви параболы y = -2x² направлены:", options: ["Вверх", "Вниз", "Вправо", "Влево"], correctAnswer: "Вниз", hint: "a < 0" },
-      { type: 'quiz', question: "Нули функции y = x² - 4:", options: ["x = 2", "x = ±2", "x = -2", "x = 0"], correctAnswer: "x = ±2", hint: "x² = 4" }
+      { type: 'fill', question: "Вершина параболы y = ax² находится в точке (0; __)", correctAnswer: "0", hint: "Начало координат" },
+      { type: 'quiz', question: "Найдите значение y = 3x² при x = -2:", options: ["6", "-6", "12", "-12"], correctAnswer: "12", hint: "3 × (-2)² = 3 × 4" }
     ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь квадратичную функцию! 📈" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь функцию y = ax²! 📈" }
   },
   {
-    title: "Системы уравнений",
+    title: "Функция y = ax² + bx + c",
+    subject: "Алгебра",
+    icon: "Sigma",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'fill', question: "x₀ = -b / __a (формула абсциссы вершины)", correctAnswer: "2", hint: "Делим на 2a" },
+      { type: 'quiz', question: "Найдите вершину параболы y = x² - 6x + 5:", options: ["(3; -4)", "(3; 4)", "(-3; -4)", "(3; 0)"], correctAnswer: "(3; -4)", hint: "x₀ = 6/2 = 3, y₀ = 9-18+5" },
+      { type: 'quiz', question: "Нули функции y = x² - 5x + 6:", options: ["x = 2 и x = 3", "x = 1 и x = 6", "x = -2 и x = -3", "x = 0"], correctAnswer: "x = 2 и x = 3", hint: "Решите x² - 5x + 6 = 0" },
+      { type: 'fill', question: "Парабола y = ax² + bx + c пересекает ось Y в точке (0; __)", correctAnswer: "c", hint: "Подставьте x = 0" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь квадратичную функцию! 📊" }
+  },
+  {
+    title: "Системы линейных уравнений",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
       { type: 'quiz', question: "Сколько решений имеет система параллельных прямых?", options: ["Одно", "Ни одного", "Много", "Два"], correctAnswer: "Ни одного", hint: "Параллельные не пересекаются" },
       { type: 'fill', question: "При способе сложения уравнения __ или вычитают", correctAnswer: "складывают", hint: "Чтобы исключить переменную" },
-      { type: 'quiz', question: "Решите систему {x + y = 5, {x - y = 1:", options: ["(3; 2)", "(2; 3)", "(4; 1)", "(1; 4)"], correctAnswer: "(3; 2)", hint: "x = 3, y = 2" },
+      { type: 'quiz', question: "Решите систему {x + y = 7, {x - y = 1:", options: ["(4; 3)", "(3; 4)", "(5; 2)", "(2; 5)"], correctAnswer: "(4; 3)", hint: "x = 4, y = 3" },
       { type: 'find', question: "Способы решения систем:", options: ["Подстановка", "Сложение", "Графический", "Умножение", "Деление"], correctAnswer: ["Подстановка", "Сложение", "Графический"], hint: "Три основных способа" }
     ],
-    reward: { stars: 3, message: "Супер! Ты умеешь решать системы! 🔢" }
+    reward: { stars: 3, message: "Отлично! Ты умеешь решать системы! 🔢" }
+  },
+  {
+    title: "Нелинейные системы уравнений",
+    subject: "Алгебра",
+    icon: "Sigma",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Решите систему {x + y = 3, {xy = 2:", options: ["(1; 2) и (2; 1)", "(1; 2)", "(2; 1)", "(3; 0)"], correctAnswer: "(1; 2) и (2; 1)", hint: "По теореме Виета" },
+      { type: 'fill', question: "Для симметричных систем используют замену u = x + y, v = __", correctAnswer: "xy", hint: "Произведение" },
+      { type: 'quiz', question: "Сколько решений может иметь система двух окружностей?", options: ["Только 1", "Только 2", "0, 1, 2 или много", "Только 0"], correctAnswer: "0, 1, 2 или много", hint: "Зависит от взаимного расположения" },
+      { type: 'quiz', question: "Система {x + y = 5, {x² + y² = 13 имеет решения:", options: ["(2; 3) и (3; 2)", "(1; 4) и (4; 1)", "(0; 5)", "Нет решений"], correctAnswer: "(2; 3) и (3; 2)", hint: "Подставьте и проверьте" }
+    ],
+    reward: { stars: 3, message: "Круто! Ты решаешь нелинейные системы! 🎯" }
   },
   {
     title: "Арифметическая прогрессия",
@@ -558,7 +584,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "10-й член прогрессии a₁ = 2, d = 3:", options: ["29", "30", "32", "27"], correctAnswer: "29", hint: "a₁₀ = 2 + 9×3" },
       { type: 'fill', question: "Сумма n первых членов: Sₙ = (a₁ + aₙ) × n / __", correctAnswer: "2", hint: "Делим на 2" }
     ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь арифметическую прогрессию! 📊" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь арифметическую прогрессию! 📈" }
   },
   {
     title: "Геометрическая прогрессия",
@@ -571,10 +597,10 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "4-й член b₁ = 1, q = 2:", options: ["4", "8", "16", "2"], correctAnswer: "8", hint: "b₄ = 1 × 2³" },
       { type: 'fill', question: "Сумма бесконечной прогрессии S = b₁ / (1 - __)", correctAnswer: "q", hint: "Делим на 1-q" }
     ],
-    reward: { stars: 3, message: "Круто! Ты знаешь геометрическую прогрессию! 📈" }
+    reward: { stars: 3, message: "Круто! Ты знаешь геометрическую прогрессию! 📊" }
   },
   {
-    title: "Комбинаторика",
+    title: "Комбинаторные задачи",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-indigo-400",

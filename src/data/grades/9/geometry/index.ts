@@ -590,17 +590,43 @@ M → M₁(0; 1)
 
 export const games: GameLesson[] = [
   {
-    title: "Векторы",
+    title: "Понятие вектора",
     subject: "Геометрия",
     icon: "ShaDumbbells",
     color: "text-cyan-400",
     tasks: [
       { type: 'quiz', question: "Вектор — это:", options: ["Отрезок", "Направленный отрезок", "Прямая", "Луч"], correctAnswer: "Направленный отрезок", hint: "Есть начало и конец" },
-      { type: 'quiz', question: "Равные векторы:", options: ["Имеют равные длины", "Сонаправлены и равны по длине", "Противоположно направлены", "Лежат на одной прямой"], correctAnswer: "Сонаправлены и равны по длине", hint: "Два условия" },
-      { type: 'quiz', question: "Сумма противоположных векторов:", options: ["a⃗", "2a⃗", "0⃗", "-a⃗"], correctAnswer: "0⃗", hint: "a⃗ + (-a⃗) = ?" },
-      { type: 'fill', question: "Правило треугольника: конец первого — __ второго", correctAnswer: "начало", hint: "Соединяем векторы" }
+      { type: 'fill', question: "Нулевой вектор — это вектор, у которого начало и конец __", correctAnswer: "совпадают", hint: "Та же точка" },
+      { type: 'quiz', question: "Коллинеарные векторы:", options: ["Имеют равные длины", "Лежат на одной или параллельных прямых", "Направлены в одну сторону", "Перпендикулярны"], correctAnswer: "Лежат на одной или параллельных прямых", hint: "Параллельны" },
+      { type: 'quiz', question: "Равные векторы:", options: ["Имеют равные длины", "Сонаправлены и равны по длине", "Противоположно направлены", "Лежат на одной прямой"], correctAnswer: "Сонаправлены и равны по длине", hint: "Два условия" }
     ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь векторы! ➡️" }
+    reward: { stars: 3, message: "Отлично! Ты понимаешь векторы! ➡️" }
+  },
+  {
+    title: "Сложение и вычитание векторов",
+    subject: "Геометрия",
+    icon: "ShaDumbbells",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'fill', question: "Правило треугольника: конец первого вектора — __ второго", correctAnswer: "начало", hint: "Соединяем векторы" },
+      { type: 'quiz', question: "Сумма противоположных векторов:", options: ["a⃗", "2a⃗", "0⃗", "-a⃗"], correctAnswer: "0⃗", hint: "a⃗ + (-a⃗) = ?" },
+      { type: 'quiz', question: "При правиле параллелограмма векторы откладывают от:", options: ["Разных точек", "Одной точки", "Начала координат", "Конца друг друга"], correctAnswer: "Одной точки", hint: "Общее начало" },
+      { type: 'fill', question: "a⃗ - b⃗ = a⃗ + (-__)", correctAnswer: "b⃗", hint: "Вычитание через сложение" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты умеешь складывать векторы! 🔢" }
+  },
+  {
+    title: "Умножение вектора на число",
+    subject: "Геометрия",
+    icon: "ShaDumbbells",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'quiz', question: "При умножении вектора на k < 0 получаем вектор:", options: ["Сонаправленный", "Противоположно направленный", "Нулевой", "Перпендикулярный"], correctAnswer: "Противоположно направленный", hint: "Направление меняется" },
+      { type: 'fill', question: "При k = 0 произведение k·a⃗ равно __ вектору", correctAnswer: "нулевому", hint: "Нулевой вектор" },
+      { type: 'quiz', question: "Вектор 2a⃗ по сравнению с a⃗:", options: ["Короче в 2 раза", "Длиннее в 2 раза", "Противоположен", "Перпендикулярен"], correctAnswer: "Длиннее в 2 раза", hint: "Увеличивается" },
+      { type: 'fill', question: "Середина отрезка AB: OM = (OA + __) / 2", correctAnswer: "OB", hint: "Сумма векторов" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты понимаешь умножение вектора! 📐" }
   },
   {
     title: "Координаты вектора",
@@ -613,10 +639,23 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сумма векторов {2; 3} и {1; -2}:", options: ["{3; 1}", "{3; 5}", "{1; 5}", "{2; 1}"], correctAnswer: "{3; 1}", hint: "Складываем координаты" },
       { type: 'fill', question: "Умножение вектора {2; 3} на 2: {__; 6}", correctAnswer: "4", hint: "Умножаем каждую координату" }
     ],
-    reward: { stars: 3, message: "Супер! Ты работаешь с координатами! 📐" }
+    reward: { stars: 3, message: "Супер! Ты работаешь с координатами! 📊" }
   },
   {
-    title: "Синус, косинус, тангенс",
+    title: "Уравнение окружности и прямой",
+    subject: "Геометрия",
+    icon: "ShaDumbbells",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'fill', question: "Уравнение окружности с центром (a; b) и радиусом R: (x-a)² + (y-__)² = R²", correctAnswer: "b", hint: "(y-b)²" },
+      { type: 'quiz', question: "Уравнение окружности с центром в начале координат:", options: ["x + y = R", "x² + y² = R²", "x² - y² = R²", "xy = R"], correctAnswer: "x² + y² = R²", hint: "Центр (0; 0)" },
+      { type: 'fill', question: "Общее уравнение прямой: Ax + By + __ = 0", correctAnswer: "C", hint: "Свободный член" },
+      { type: 'quiz', question: "Уравнение y = kx + b называется:", options: ["Общим", "С угловым коэффициентом", "Каноническим", "Параметрическим"], correctAnswer: "С угловым коэффициентом", hint: "k — угловой коэффициент" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь уравнения линий! 📈" }
+  },
+  {
+    title: "Синус, косинус, тангенс угла",
     subject: "Геометрия",
     icon: "ShaDumbbells",
     color: "text-cyan-400",
@@ -629,42 +668,81 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь тригонометрию! 📊" }
   },
   {
-    title: "Теоремы синусов и косинусов",
+    title: "Теорема синусов",
     subject: "Геометрия",
     icon: "ShaDumbbells",
     color: "text-cyan-400",
     tasks: [
       { type: 'quiz', question: "Теорема синусов: a/sin A =", options: ["R", "2R", "S", "b/sin A"], correctAnswer: "2R", hint: "Удвоенный радиус описанной окружности" },
-      { type: 'quiz', question: "Теорема косинусов: a² =", options: ["b² + c²", "b² + c² - 2bc cos A", "b² - c²", "2bc cos A"], correctAnswer: "b² + c² - 2bc cos A", hint: "Квадрат стороны" },
-      { type: 'quiz', question: "Если cos A = 0, то угол A:", options: ["Острый", "Тупой", "Прямой", "Развёрнутый"], correctAnswer: "Прямой", hint: "90°" },
-      { type: 'fill', question: "Теорема Пифагора — частный случай теоремы __", correctAnswer: "косинусов", hint: "Для прямого угла" }
+      { type: 'fill', question: "a/sin A = b/sin B = c/sin C = __R", correctAnswer: "2", hint: "Диаметр описанной окружности" },
+      { type: 'quiz', question: "По теореме синусов можно найти:", options: ["Только стороны", "Только углы", "Стороны, углы и радиус описанной окружности", "Площадь"], correctAnswer: "Стороны, углы и радиус описанной окружности", hint: "Много применений" },
+      { type: 'fill', question: "R = a / (2 sin __)", correctAnswer: "A", hint: "Угол против стороны a" }
     ],
-    reward: { stars: 3, message: "Круто! Ты применяешь теоремы! 🔺" }
+    reward: { stars: 3, message: "Круто! Ты применяешь теорему синусов! 🔺" }
   },
   {
-    title: "Длина и площадь",
+    title: "Теорема косинусов",
+    subject: "Геометрия",
+    icon: "ShaDumbbells",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'quiz', question: "Теорема косинусов: a² =", options: ["b² + c²", "b² + c² - 2bc cos A", "b² - c²", "2bc cos A"], correctAnswer: "b² + c² - 2bc cos A", hint: "Квадрат стороны" },
+      { type: 'quiz', question: "Если cos A = 0, то угол A:", options: ["Острый", "Тупой", "Прямой", "Развёрнутый"], correctAnswer: "Прямой", hint: "90°" },
+      { type: 'fill', question: "Теорема Пифагора — частный случай теоремы __", correctAnswer: "косинусов", hint: "Для прямого угла" },
+      { type: 'quiz', question: "Если a² > b² + c², то угол A:", options: ["Острый", "Тупой", "Прямой", "Развёрнутый"], correctAnswer: "Тупой", hint: "cos A < 0" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты применяешь теорему косинусов! 📐" }
+  },
+  {
+    title: "Длина окружности и дуги",
     subject: "Геометрия",
     icon: "ShaDumbbells",
     color: "text-cyan-400",
     tasks: [
       { type: 'quiz', question: "Длина окружности радиуса R:", options: ["πR", "2πR", "πR²", "2πR²"], correctAnswer: "2πR", hint: "C = 2πR" },
-      { type: 'quiz', question: "Площадь круга радиуса R:", options: ["πR", "2πR", "πR²", "2πR²"], correctAnswer: "πR²", hint: "S = πR²" },
-      { type: 'fill', question: "Длина дуги в 60° окружности R=6: l = __π", correctAnswer: "2", hint: "l = πR × n/180" },
-      { type: 'quiz', question: "Площадь сектора в 90° круга R=4:", options: ["4π", "8π", "16π", "2π"], correctAnswer: "4π", hint: "S = πR² × n/360 = π × 16 × 1/4" }
+      { type: 'fill', question: "Длина дуги в n градусов: l = πRn/__", correctAnswer: "180", hint: "Формула дуги" },
+      { type: 'quiz', question: "Угол в 1 радиан — это:", options: ["Центральный угол 1°", "Центральный угол, опирающийся на дугу равную радиусу", "Угол 57,3°", "Прямой угол"], correctAnswer: "Центральный угол, опирающийся на дугу равную радиусу", hint: "Определение радиана" },
+      { type: 'fill', question: "60° = π/__ радиан", correctAnswer: "3", hint: "π/3" }
     ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь формулы! ⭕" }
+    reward: { stars: 3, message: "Супер! Ты знаешь формулы длин! ⭕" }
   },
   {
-    title: "Движения",
+    title: "Площадь круга и его частей",
+    subject: "Геометрия",
+    icon: "ShaDumbbells",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'quiz', question: "Площадь круга радиуса R:", options: ["πR", "2πR", "πR²", "2πR²"], correctAnswer: "πR²", hint: "S = πR²" },
+      { type: 'fill', question: "Площадь сектора в n градусов: S = πR²n/__", correctAnswer: "360", hint: "Формула сектора" },
+      { type: 'quiz', question: "Площадь полукруга радиуса 4:", options: ["4π", "8π", "16π", "2π"], correctAnswer: "8π", hint: "S = πR²/2 = π·16/2" },
+      { type: 'quiz', question: "Если площадь круга 100π, то радиус:", options: ["10", "20", "50", "100"], correctAnswer: "10", hint: "πR² = 100π" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь площади! 🔵" }
+  },
+  {
+    title: "Виды движений",
     subject: "Геометрия",
     icon: "ShaDumbbells",
     color: "text-cyan-400",
     tasks: [
       { type: 'quiz', question: "Движение сохраняет:", options: ["Только длины", "Только углы", "Длины и углы", "Ничего"], correctAnswer: "Длины и углы", hint: "Все расстояния" },
       { type: 'find', question: "Выберите виды движений:", options: ["Симметрия", "Поворот", "Перенос", "Подобие", "Растяжение"], correctAnswer: ["Симметрия", "Поворот", "Перенос"], hint: "Три вида движений" },
-      { type: 'quiz', question: "Поворот на 180° — это:", options: ["Параллельный перенос", "Осевая симметрия", "Центральная симметрия", "Тождество"], correctAnswer: "Центральная симметрия", hint: "Относительно центра" },
-      { type: 'fill', question: "При параллельном переносе на вектор {3; 2} точка (1; 1) переходит в (__; 3)", correctAnswer: "4", hint: "Прибавляем координаты вектора" }
+      { type: 'quiz', question: "При центральной симметрии точка O:", options: ["Переходит в другую точку", "Переходит сама в себя", "Исчезает", "Сдвигается"], correctAnswer: "Переходит сама в себя", hint: "Центр симметрии неподвижен" },
+      { type: 'fill', question: "Осевая симметрия — это симметрия относительно __", correctAnswer: "прямой", hint: "Относительно линии" }
     ],
-    reward: { stars: 3, message: "Супер! Ты понимаешь движения! 🔄" }
+    reward: { stars: 3, message: "Круто! Ты понимаешь движения! 🔄" }
+  },
+  {
+    title: "Параллельный перенос и поворот",
+    subject: "Геометрия",
+    icon: "ShaDumbbells",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'quiz', question: "Параллельный перенос задаётся:", options: ["Точкой", "Вектором", "Углом", "Прямой"], correctAnswer: "Вектором", hint: "Направление и расстояние" },
+      { type: 'fill', question: "При параллельном переносе на вектор {3; 2} точка (1; 1) переходит в (__; 3)", correctAnswer: "4", hint: "Прибавляем координаты вектора" },
+      { type: 'quiz', question: "Поворот на 180° — это:", options: ["Параллельный перенос", "Осевая симметрия", "Центральная симметрия", "Тождество"], correctAnswer: "Центральная симметрия", hint: "Относительно центра" },
+      { type: 'quiz', question: "При повороте точка O (центр поворота):", options: ["Переходит в другую точку", "Переходит сама в себя", "Сдвигается", "Исчезает"], correctAnswer: "Переходит сама в себя", hint: "Центр неподвижен" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь перенос и поворот! 🔄" }
   }
 ]
