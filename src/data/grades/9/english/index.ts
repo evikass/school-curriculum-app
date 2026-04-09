@@ -243,87 +243,159 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Путешествия",
+    title: "Виды путешествий",
     subject: "Иностранный язык",
     icon: "Plane",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What is 'accommodation'?", options: ["Place to stay", "Type of food", "Transport", "Currency"], correctAnswer: "Place to stay", hint: "Hotel, hostel, etc." },
-      { type: 'fill', question: "I'd like a window ___. (место у окна)", correctAnswer: "seat", hint: "On a plane" },
-      { type: 'quiz', question: "'Departure' means:", options: ["Leaving", "Arriving", "Staying", "Booking"], correctAnswer: "Leaving", hint: "Opposite of arrival" },
-      { type: 'fill', question: "My flight was ___ for two hours. (задержан)", correctAnswer: "delayed", hint: "Not on time" },
-      { type: 'quiz', question: "Where do you pick up your luggage?", options: ["Baggage claim", "Check-in", "Gate", "Customs"], correctAnswer: "Baggage claim", hint: "After arrival" }
+      { type: 'quiz', question: "What is 'destination'?", options: ["Place to go", "Type of food", "Transport", "Currency"], correctAnswer: "Place to go", hint: "Where you're heading" },
+      { type: 'fill', question: "I have ___ visited Paris. (никогда не)", correctAnswer: "never", hint: "Negative experience" },
+      { type: 'quiz', question: "Present Perfect is used for:", options: ["Life experience", "Past actions", "Future plans", "Daily routine"], correctAnswer: "Life experience", hint: "At any time" },
+      { type: 'fill', question: "Sightseeing means seeing ___. (достопримечательности)", correctAnswer: "sights", hint: "Tourist attractions" }
     ],
-    reward: { stars: 3, message: "Отлично! Ты готов к путешествию!" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь лексику путешествий!" }
   },
   {
-    title: "Профессии",
+    title: "В аэропорту",
+    subject: "Иностранный язык",
+    icon: "Plane",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'fill', question: "___ pass is your ticket to board. (посадочный)", correctAnswer: "Boarding", hint: "Required for flight" },
+      { type: 'quiz', question: "Where do you pick up luggage?", options: ["Baggage claim", "Check-in", "Gate", "Customs"], correctAnswer: "Baggage claim", hint: "After arrival" },
+      { type: 'fill', question: "My flight was ___ for two hours. (задержан)", correctAnswer: "delayed", hint: "Not on time" },
+      { type: 'quiz', question: "'Gate' at airport means:", options: ["Exit to plane", "Entrance to building", "Parking area", "Ticket office"], correctAnswer: "Exit to plane", hint: "Boarding area" }
+    ],
+    reward: { stars: 3, message: "Ты готов к путешествию на самолёте!" }
+  },
+  {
+    title: "В гостинице",
+    subject: "Иностранный язык",
+    icon: "Hotel",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'fill', question: "I'd like to ___ a room for two nights. (забронировать)", correctAnswer: "book", hint: "Make a reservation" },
+      { type: 'quiz', question: "What does 'complimentary' mean?", options: ["Free", "Expensive", "Reserved", "Unavailable"], correctAnswer: "Free", hint: "Included at no cost" },
+      { type: 'fill', question: "Is breakfast ___? (включено)", correctAnswer: "included", hint: "Part of the deal" },
+      { type: 'quiz', question: "'Check-out' means:", options: ["Leaving the hotel", "Arriving at hotel", "Paying extra", "Ordering food"], correctAnswer: "Leaving the hotel", hint: "End of stay" }
+    ],
+    reward: { stars: 3, message: "Ты можешь заселиться в отеле!" }
+  },
+  {
+    title: "Мир профессий",
     subject: "Иностранный язык",
     icon: "Briefcase",
     color: "text-pink-400",
     tasks: [
       { type: 'fill', question: "A ___ treats patients in a hospital. (врач)", correctAnswer: "doctor", hint: "Medical professional" },
-      { type: 'quiz', question: "Who prepares financial reports?", options: ["Accountant", "Doctor", "Teacher", "Driver"], correctAnswer: "Accountant", hint: "Works with numbers" },
+      { type: 'quiz', question: "Who designs buildings?", options: ["Architect", "Doctor", "Teacher", "Driver"], correctAnswer: "Architect", hint: "Construction plans" },
       { type: 'fill', question: "I work as a software ___ at Google. (разработчик)", correctAnswer: "developer", hint: "Creates programs" },
-      { type: 'quiz', question: "A lawyer works in:", options: ["Law firm", "Hospital", "School", "Restaurant"], correctAnswer: "Law firm", hint: "Legal services" },
-      { type: 'fill', question: "She has been ___ for ten years. (работать)", correctAnswer: "working", hint: "Present perfect continuous" }
+      { type: 'quiz', question: "'Must' expresses:", options: ["Obligation", "Suggestion", "Permission", "Ability"], correctAnswer: "Obligation", hint: "Necessity" }
     ],
     reward: { stars: 3, message: "Ты хорошо знаешь названия профессий!" }
   },
   {
-    title: "Экология",
+    title: "Поиск работы",
+    subject: "Иностранный язык",
+    icon: "FileText",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'fill', question: "A ___ is a document about your experience. (резюме)", correctAnswer: "CV", hint: "Or resume" },
+      { type: 'quiz', question: "What is an 'interview'?", options: ["Job meeting", "Written test", "Email exchange", "Phone call only"], correctAnswer: "Job meeting", hint: "Face to face discussion" },
+      { type: 'fill', question: "Please find my CV ___ to this email. (приложенным)", correctAnswer: "attached", hint: "Included in email" },
+      { type: 'quiz', question: "'Strengths' means:", options: ["Strong points", "Weaknesses", "Hobbies", "Skills only"], correctAnswer: "Strong points", hint: "Positive qualities" }
+    ],
+    reward: { stars: 3, message: "Ты готов к поиску работы!" }
+  },
+  {
+    title: "Деловое общение",
+    subject: "Иностранный язык",
+    icon: "Mail",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'fill', question: "A ___ is the final date for a task. (крайний срок)", correctAnswer: "deadline", hint: "Time limit" },
+      { type: 'quiz', question: "How to start a business email?", options: ["I am writing to...", "Hey there!", "What's up?", "Hi buddy"], correctAnswer: "I am writing to...", hint: "Formal opening" },
+      { type: 'fill', question: "I look forward to ___ from you. (получить ответ)", correctAnswer: "hearing", hint: "Waiting for reply" },
+      { type: 'quiz', question: "'Negotiation' means:", options: ["Discussion for agreement", "Argument", "Contract signing", "Meeting only"], correctAnswer: "Discussion for agreement", hint: "Reaching a deal" }
+    ],
+    reward: { stars: 3, message: "Ты готов к деловому общению!" }
+  },
+  {
+    title: "Экологические проблемы",
     subject: "Иностранный язык",
     icon: "Leaf",
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "What causes global warming?", options: ["Greenhouse gases", "Recycling", "Wind energy", "Solar panels"], correctAnswer: "Greenhouse gases", hint: "Carbon dioxide, methane" },
-      { type: 'fill', question: "We need to ___ plastic waste. (перерабатывать)", correctAnswer: "recycle", hint: "Process for reuse" },
-      { type: 'quiz', question: "Which animal is endangered?", options: ["Panda", "Cat", "Dog", "Rabbit"], correctAnswer: "Panda", hint: "Risk of extinction" },
-      { type: 'fill', question: "___ is the clearing of forests. (вырубка лесов)", correctAnswer: "Deforestation", hint: "Cutting down trees" },
-      { type: 'quiz', question: "Solar and wind are ___ energy sources.", options: ["Renewable", "Fossil", "Nuclear", "Electric"], correctAnswer: "Renewable", hint: "Can be replenished" }
+      { type: 'fill', question: "___ species are animals at risk of extinction. (исчезающие)", correctAnswer: "Endangered", hint: "In danger" },
+      { type: 'quiz', question: "'Deforestation' means:", options: ["Cutting down forests", "Planting trees", "Forest protection", "Forest fire"], correctAnswer: "Cutting down forests", hint: "Removing trees" },
+      { type: 'fill', question: "Pollution causes health ___. (проблемы)", correctAnswer: "problems", hint: "Negative effects" }
     ],
     reward: { stars: 3, message: "Ты понимаешь экологические проблемы!" }
   },
   {
-    title: "СМИ и технологии",
+    title: "Защита окружающей среды",
     subject: "Иностранный язык",
-    icon: "Monitor",
+    icon: "Recycle",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "The ___ of the article caught my attention. (заголовок)", correctAnswer: "headline", hint: "Title of a news piece" },
-      { type: 'quiz', question: "AI stands for:", options: ["Artificial Intelligence", "Automated Internet", "Advanced Innovation", "Audio Interface"], correctAnswer: "Artificial Intelligence", hint: "Smart machines" },
-      { type: 'fill', question: "Don't forget to create a ___ of your files. (резервная копия)", correctAnswer: "backup", hint: "Extra copy" },
-      { type: 'quiz', question: "Which is a social media platform?", options: ["Instagram", "Microsoft Word", "Google Chrome", "Netflix"], correctAnswer: "Instagram", hint: "Photo and video sharing" },
-      { type: 'fill', question: "Virtual ___ creates computer-generated environments. (реальность)", correctAnswer: "reality", hint: "VR technology" }
+      { type: 'fill', question: "We need to ___ plastic waste. (перерабатывать)", correctAnswer: "recycle", hint: "Process for reuse" },
+      { type: 'quiz', question: "What are the 3 R's?", options: ["Reduce, Reuse, Recycle", "Read, Write, Learn", "Run, Walk, Jump", "Red, Green, Blue"], correctAnswer: "Reduce, Reuse, Recycle", hint: "Environmental principles" },
+      { type: 'fill', question: "___ energy comes from sun and wind. (возобновляемая)", correctAnswer: "Renewable", hint: "Can be replenished" },
+      { type: 'quiz', question: "'Eco-friendly' means:", options: ["Good for environment", "Expensive", "New product", "Popular"], correctAnswer: "Good for environment", hint: "Environmentally safe" }
     ],
-    reward: { stars: 3, message: "Отличное знание современной лексики!" }
+    reward: { stars: 3, message: "Ты знаешь, как защитить природу!" }
   },
   {
-    title: "Грамматика",
+    title: "Типы СМИ",
     subject: "Иностранный язык",
-    icon: "BookOpen",
+    icon: "Newspaper",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "I have ___ been to Paris. (никогда)", correctAnswer: "never", hint: "Negative experience" },
-      { type: 'quiz', question: "Choose the correct form: She ___ here for five years.", options: ["has worked", "have worked", "worked", "working"], correctAnswer: "has worked", hint: "Present perfect" },
-      { type: 'fill', question: "You ___ wear a seatbelt in a car. (должен)", correctAnswer: "must", hint: "Obligation" },
-      { type: 'quiz', question: "I look forward to ___ from you.", options: ["hearing", "hear", "heard", "hears"], correctAnswer: "hearing", hint: "After 'look forward to' use -ing" },
-      { type: 'fill', question: "The report was ___ yesterday. (написан)", correctAnswer: "written", hint: "Passive voice" }
+      { type: 'fill', question: "A ___ is a daily or weekly publication. (газета)", correctAnswer: "newspaper", hint: "Print media" },
+      { type: 'quiz', question: "What is a 'headline'?", options: ["Article title", "First paragraph", "Last paragraph", "Picture"], correctAnswer: "Article title", hint: "Main title" },
+      { type: 'fill', question: "A ___ writes articles for media. (журналист)", correctAnswer: "journalist", hint: "Media professional" },
+      { type: 'quiz', question: "'Broadcast' means:", options: ["Transmit on TV/radio", "Print", "Write", "Read"], correctAnswer: "Transmit on TV/radio", hint: "Air transmission" }
     ],
-    reward: { stars: 3, message: "Ты отлично владеешь грамматикой!" }
+    reward: { stars: 3, message: "Ты разбираешься в типах СМИ!" }
   },
   {
-    title: "Деловой английский",
+    title: "Социальные сети",
     subject: "Иностранный язык",
-    icon: "FileText",
+    icon: "Share2",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "I'm writing to apply for the ___ of manager. (должность)", correctAnswer: "position", hint: "Job role" },
-      { type: 'quiz', question: "What is a 'deadline'?", options: ["Final date", "Starting time", "Meeting", "Contract"], correctAnswer: "Final date", hint: "Time limit" },
-      { type: 'fill', question: "Please find my CV ___ to this email. (приложенным)", correctAnswer: "attached", hint: "Included in email" },
-      { type: 'quiz', question: "A formal way to end a business email:", options: ["Best regards", "See ya", "Later", "Bye-bye"], correctAnswer: "Best regards", hint: "Professional closing" },
-      { type: 'fill', question: "We need to schedule a ___. (встречу)", correctAnswer: "meeting", hint: "Business gathering" }
+      { type: 'fill', question: "Viral content spreads ___ online. (быстро)", correctAnswer: "quickly", hint: "Becomes popular" },
+      { type: 'quiz', question: "What is 'cyberbullying'?", options: ["Online harassment", "Computer virus", "Video game", "Social platform"], correctAnswer: "Online harassment", hint: "Digital bullying" },
+      { type: 'fill', question: "Don't share personal ___ online. (информация)", correctAnswer: "information", hint: "Private data" },
+      { type: 'quiz', question: "A 'follower' is:", options: ["Someone who subscribes", "A friend", "Family member", "Coworker"], correctAnswer: "Someone who subscribes", hint: "Social media connection" }
     ],
-    reward: { stars: 3, message: "Ты готов к деловому общению!" }
+    reward: { stars: 3, message: "Ты безопасно используешь соцсети!" }
+  },
+  {
+    title: "Технологии будущего",
+    subject: "Иностранный язык",
+    icon: "Cpu",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'fill', question: "AI stands for Artificial ___ . (интеллект)", correctAnswer: "Intelligence", hint: "Smart machines" },
+      { type: 'quiz', question: "What is 'virtual reality'?", options: ["Computer-generated environment", "Real world", "Dream", "Movie"], correctAnswer: "Computer-generated environment", hint: "VR technology" },
+      { type: 'fill', question: "___ cars drive without a driver. (автопилотируемые)", correctAnswer: "Self-driving", hint: "Or autonomous" },
+      { type: 'quiz', question: "'Automation' means:", options: ["Machines doing work", "Manual labor", "Working slowly", "No work"], correctAnswer: "Machines doing work", hint: "Automatic processes" }
+    ],
+    reward: { stars: 3, message: "Ты понимаешь технологии будущего!" }
+  },
+  {
+    title: "Цифровая грамотность",
+    subject: "Иностранный язык",
+    icon: "Shield",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'fill', question: "Use strong ___ to protect accounts. (пароли)", correctAnswer: "passwords", hint: "Security codes" },
+      { type: 'quiz', question: "What is 'phishing'?", options: ["Fake emails to steal data", "Fishing hobby", "Computer game", "Website design"], correctAnswer: "Fake emails to steal data", hint: "Online scam" },
+      { type: 'fill', question: "Create a ___ of important files. (резервную копию)", correctAnswer: "backup", hint: "Extra copy" },
+      { type: 'quiz', question: "'Encryption' means:", options: ["Coding data for security", "Deleting files", "Opening files", "Sharing files"], correctAnswer: "Coding data for security", hint: "Data protection" }
+    ],
+    reward: { stars: 3, message: "Ты цифровой грамотный пользователь!" }
   }
 ]
