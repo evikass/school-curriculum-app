@@ -17,55 +17,201 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Виды путешествий",
-          description: `Изучение лексики по теме путешествия: авиаперелёты, железнодорожные поездки, круизы, автотуризм.
+          description: `Изучение лексики по теме путешествия: авиаперелёты, железнодорожные поездки, круизы, автотуризм. Учащиеся научатся описывать различные виды путешествий, их преимущества и недостатки, а также выражать свой опыт путешествий с использованием времени Present Perfect.
 
-**Travel vocabulary:** flight (полёт), journey (путешествие), destination (место назначения), accommodation (размещение), itinerary (маршрут), sightseeing (осмотр достопримечательностей).
+**Основная лексика по теме путешествия:**
+
+| Английское слово | Транскрипция | Русский перевод |
+|------------------|--------------|-----------------|
+| journey | /ˈdʒɜːni/ | путешествие |
+| trip | /trɪp/ | поездка |
+| voyage | /ˈvɔɪɪdʒ/ | морское путешествие |
+| tour | /tʊə/ | тур, экскурсия |
+| expedition | /ˌekspəˈdɪʃn/ | экспедиция |
+| excursion | /ɪkˈskɜːʃn/ | экскурсия |
+| destination | /ˌdestɪˈneɪʃn/ | место назначения |
+| itinerary | /aɪˈtɪnərəri/ | маршрут, план поездки |
+| accommodation | /əˌkɒməˈdeɪʃn/ | размещение |
+| sightseeing | /ˈsaɪtˌsiːɪŋ/ | осмотр достопримечательностей |
+
+**Виды путешествий и их характеристики:**
+
+| Вид путешествия | Английский термин | Преимущества | Недостатки |
+|-----------------|-------------------|--------------|------------|
+| Авиаперелёт | air travel | быстро, комфортно | дорого, задержки |
+| Поездка на поезде | rail travel | удобно, красиво | медленнее самолёта |
+| Круиз | cruise | роскошно, развлечения | очень дорого |
+| Автотуризм | road trip | свобода, гибкость | усталость от вождения |
+| Автостоп | hitchhiking | дёшево, приключения | небезопасно |
+| Бэкпэкинг | backpacking | экономично, самостоятельность | тяжёлый рюкзак |
 
 **Present Perfect для описания опыта путешествий:**
-- I have visited Paris. (Я посетил Париж.)
+
+Время Present Perfect используется для описания жизненного опыта путешествий без указания конкретного времени. Это одно из важнейших применений данного грамматического времени в разговорной практике.
+
+**Структура утверждения:** Subject + have/has + Past Participle
+
+**Примеры использования:**
+- I have visited Paris twice. (Я посещал Париж дважды.)
 - She has never been to London. (Она никогда не была в Лондоне.)
-- Have you ever travelled by train? (Вы когда-нибудь путешествовали на поезде?)`,
+- Have you ever travelled by train? (Вы когда-нибудь путешествовали на поезде?)
+- We have explored many European countries. (Мы исследовали многие европейские страны.)
+- He has just returned from Japan. (Он только что вернулся из Японии.)
+
+**Наречия, часто используемые с Present Perfect:**
+- ever (когда-либо) — Have you ever seen the Grand Canyon?
+- never (никогда) — I have never visited Australia.
+- already (уже) — They have already booked the hotel.
+- yet (ещё) — Have you packed your luggage yet?
+- just (только что) — She has just arrived at the airport.
+- before (ранее) — I have been to this city before.
+
+**Полезные фразы для обсуждения путешествий:**
+- What's your dream destination? (Какое твоё место мечты?)
+- I prefer travelling by... (Я предпочитаю путешествовать на...)
+- The best trip I've ever had was... (Лучшее путешествие, которое у меня было...)
+- I would love to visit... (Я хотел бы посетить...)`,
           tasks: [
-            "Как перевести слово destination?",
-            "Когда используется Present Perfect для описания путешествий?",
-            "Образуйте Past Participle от глагола be",
-            "Составьте предложение: Я никогда не был в Японии"
+            "Переведите и составьте предложение с словом 'destination': Опишите место назначения вашей мечты",
+            "Образуйте вопросительное предложение в Present Perfect с наречием 'ever' о путешествии в Азию",
+            "Напишите три предложения о своём опыте путешествий, используя Present Perfect с наречиями never, already и just"
           ]
         },
         {
           title: "В аэропорту",
-          description: `Лексика для ориентирования в аэропорту: регистрация, паспортный контроль, таможня, посадка.
+          description: `Лексика для ориентирования в аэропорту: регистрация, паспортный контроль, таможня, посадка. Этот урок научит учащихся успешно взаимодействовать с персоналом аэропорта, понимать объявления и ориентироваться в аэропортовой инфраструктуре.
 
-**Airport vocabulary:** check-in (регистрация), boarding pass (посадочный талон), departure lounge (зал вылета), gate (выход на посадку), customs (таможня), baggage claim (получение багажа).
+**Основная аэропортовая лексика:**
 
-**Useful phrases:**
-- Where is the check-in counter? (Где стойка регистрации?)
-- I'd like a window seat. (Я хотел бы место у окна.)
-- My flight has been delayed. (Мой рейс задержан.)
-- I've lost my luggage. (Я потерял багаж.)`,
+| Английское слово | Транскрипция | Русский перевод |
+|------------------|--------------|-----------------|
+| terminal | /ˈtɜːmɪnl/ | терминал |
+| check-in | /ˈtʃek ɪn/ | регистрация |
+| boarding pass | /ˈbɔːdɪŋ pɑːs/ | посадочный талон |
+| departure lounge | /dɪˈpɑːtʃə laʊndʒ/ | зал вылета |
+| gate | /geɪt/ | выход на посадку |
+| customs | /ˈkʌstəmz/ | таможня |
+| baggage claim | /ˈbæɡɪdʒ kleɪm/ | получение багажа |
+| carousel | /ˌkærəˈsel/ | багажная карусель |
+| conveyor belt | /kənˈveɪə belt/ | транспортерная лента |
+| security check | /sɪˈkjʊərəti tʃek/ | контроль безопасности |
+| passport control | /ˈpɑːspɔːt kənˈtrəʊl/ | паспортный контроль |
+| duty-free | /ˌdjuːti ˈfriː/ | магазин беспошлинной торговли |
+
+**Типы багажа и связанные термины:**
+
+| Термин | Значение | Пример использования |
+|--------|----------|---------------------|
+| carry-on luggage | ручная кладь | You can take one carry-on bag. |
+| checked baggage | сдаваемый багаж | Maximum weight is 23 kg. |
+| suitcase | чемодан | I bought a new suitcase. |
+| backpack | рюкзак | Backpacks are convenient for travel. |
+| luggage tag | багажная бирка | Attach a luggage tag to your bag. |
+| excess baggage | перевес багажа | Excess baggage fees are expensive. |
+| lost luggage | потерянный багаж | Report lost luggage immediately. |
+
+**Полезные фразы в аэропорту:**
+
+**На регистрации:**
+- I'd like to check in for flight BA123 to London. (Я хотел бы зарегистрироваться на рейс BA123 в Лондон.)
+- Can I have a window/aisle seat? (Можно мне место у окна/у прохода?)
+- How much luggage can I take? (Сколько багажа я могу взять?)
+- Is the flight on time? (Рейс вылетает вовремя?)
+- Where is gate 15? (Где находится выход 15?)
+
+**На паспортном контроле:**
+- Here is my passport. (Вот мой паспорт.)
+- I'm travelling for tourism/business. (Я путешествую как турист/по делам.)
+- I'm staying for two weeks. (Я пробуду две недели.)
+- This is my return ticket. (Это мой обратный билет.)
+
+**Объявления в аэропорту:**
+- Flight BA123 is now boarding at gate 15. (Рейс BA123 сейчас садится у выхода 15.)
+- This is the final boarding call for flight BA123. (Это последняя посадка на рейс BA123.)
+- Flight BA123 has been delayed by 30 minutes. (Рейс BA123 задержан на 30 минут.)
+- Please proceed to gate 15 for boarding. (Пожалуйста, пройдите к выходу 15 для посадки.)
+
+**Проблемные ситуации:**
+- My flight has been delayed/cancelled. (Мой рейс задержан/отменён.)
+- I've lost my luggage. (Я потерял багаж.)
+- My luggage hasn't arrived. (Мой багаж не прибыл.)
+- Where is the lost and found office? (Где бюро находок?)`,
           tasks: [
-            "Как сказать «посадочный талон» на английском?",
-            "Где получают багаж после прилёта?",
-            "Переведите: I'd like an aisle seat",
-            "Что означает фраза «boarding pass»?"
+            "Составьте диалог на регистрации: попросите место у окна и уточните норму багажа",
+            "Переведите и запомните: 'This is the final boarding call' — когда вы можете услышать эту фразу?",
+            "Напишите три фразы для решения проблемы с потерянным багажом"
           ]
         },
         {
           title: "В гостинице",
-          description: `Бронирование номера, регистрация заезда и выезда, решение проблем в отеле.
+          description: `Бронирование номера, регистрация заезда и выезда, решение проблем в отеле. Учащиеся научатся бронировать проживание, общаться с персоналом отеля и решать типичные проблемы, возникающие во время проживания.
 
-**Hotel vocabulary:** reservation (бронирование), check-in/out (заезд/выезд), room service (обслуживание номеров), amenities (удобства), deposit (залог), complimentary (бесплатный).
+**Основная лексика по теме гостиница:**
 
-**Making a reservation:**
+| Английское слово | Транскрипция | Русский перевод |
+|------------------|--------------|-----------------|
+| reservation | /ˌrezəˈveɪʃn/ | бронирование |
+| booking | /ˈbʊkɪŋ/ | бронь |
+| check-in | /ˈtʃek ɪn/ | заезд, регистрация |
+| check-out | /ˈtʃek aʊt/ | выезд |
+| reception | /rɪˈsepʃn/ | стойка регистрации |
+| receptionist | /rɪˈsepʃənɪst/ | администратор |
+| room service | /ˈruːm ˈsɜːvɪs/ | обслуживание номеров |
+| amenities | /əˈmiːnɪtiz/ | удобства |
+| facilities | /fəˈsɪlɪtiz/ | сооружения, службы |
+| deposit | /dɪˈpɒzɪt/ | залог |
+| complimentary | /ˌkɒmplɪˈmentri/ | бесплатный |
+| vacancy | /ˈveɪkənsi/ | свободный номер |
+
+**Типы номеров в отеле:**
+
+| Тип номера | Описание | Особенности |
+|------------|----------|-------------|
+| Single room | одноместный номер | Одна кровать |
+| Double room | двухместный номер | Одна большая кровать |
+| Twin room | двухместный номер | Две отдельные кровати |
+| Suite | люкс | Несколько комнат, гостиная |
+| Deluxe room | улучшенный номер | Повышенная комфортность |
+| Family room | семейный номер | Вместимость 3-4 человека |
+| Penthouse | пентхаус | Роскошный номер на верхнем этаже |
+
+**Фразы для бронирования номера:**
+
+**По телефону или онлайн:**
 - I'd like to book a room for two nights. (Я хотел бы забронировать номер на две ночи.)
-- Do you have any vacancies? (У вас есть свободные номера?)
+- Do you have any vacancies for next weekend? (У вас есть свободные номера на следующие выходные?)
 - What's the rate per night? (Какая цена за ночь?)
-- Is breakfast included? (Завтрак включён?)`,
+- Is breakfast included? (Завтрак включён?)
+- Can I cancel my reservation free of charge? (Могу ли я отменить бронирование бесплатно?)
+- I'd like a room with a sea view. (Я хотел бы номер с видом на море.)
+
+**При заезде:**
+- I have a reservation under the name Smith. (У меня бронирование на фамилию Смит.)
+- I'd like to check in, please. (Я хотел бы зарегистрироваться.)
+- Can I see your ID/passport, please? (Можно ваш документ?)
+- Here's your key card. (Вот ваша ключ-карта.)
+- The elevator is on your right. (Лифт справа от вас.)
+- Breakfast is served from 7 to 10 am. (Завтрак подаётся с 7 до 10 утра.)
+
+**Услуги и проблемы:**
+
+**Просьбы о услугах:**
+- Could I have an extra pillow/blanket/towel? (Можно дополнительную подушку/одеяло/полотенце?)
+- The Wi-Fi password, please? (Пароль от Wi-Fi, пожалуйста?)
+- What time is check-out? (Во сколько выезд?)
+- Can I have a late check-out? (Можно поздний выезд?)
+- Could you call a taxi for me? (Не могли бы вы вызвать мне такси?)
+
+**Жалобы и проблемы:**
+- The air conditioning isn't working. (Кондиционер не работает.)
+- There's no hot water in my room. (В моём номере нет горячей воды.)
+- The room is too noisy. (В номере слишком шумно.)
+- My room hasn't been cleaned. (Мой номер не убрали.)
+- I think there's a mistake in my bill. (Думаю, в моём счёте ошибка.)`,
           tasks: [
-            "Что означает слово complimentary?",
-            "Как забронировать номер на английском?",
-            "Переведите: amenities",
-            "Как спросить, включён ли завтрак?"
+            "Составьте диалог для бронирования номера: уточните наличие свободных мест, цену и включён ли завтрак",
+            "Опишите вашу жалобу на неубранный номер администратору отеля",
+            "Переведите и объясните разницу между double room и twin room"
           ]
         }
       ]
@@ -75,55 +221,219 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Мир профессий",
-          description: `Изучение названий профессий, описание обязанностей и требований. Модальные глаголы для описания профессиональных требований.
+          description: `Изучение названий профессий, описание обязанностей и требований. Модальные глаголы для описания профессиональных требований. Учащиеся научатся описывать различные профессии, говорить о требованиях к ним и выражать свои карьерные предпочтения.
 
-**Professions:** doctor (врач), engineer (инженер), lawyer (юрист), accountant (бухгалтер), software developer (разработчик ПО), journalist (журналист), architect (архитектор).
+**Профессии в современном мире:**
 
-**Modal verbs for job requirements:**
-- You must have a medical degree to become a doctor. (Вы должны иметь медицинскую степень.)
-- You should be good at math for engineering. (Вам следует быть хорошим в математике.)
-- You need to be creative as a designer. (Вам нужно быть креативным.)`,
+| Английское слово | Транскрипция | Русский перевод | Сфера деятельности |
+|------------------|--------------|-----------------|-------------------|
+| doctor | /ˈdɒktə/ | врач | медицина |
+| nurse | /nɜːs/ | медсестра/медбрат | медицина |
+| engineer | /ˌendʒɪˈnɪə/ | инженер | техническая |
+| lawyer | /ˈlɔːjə/ | юрист | право |
+| accountant | /əˈkaʊntənt/ | бухгалтер | финансы |
+| software developer | /ˈsɒftweə dɪˈveləpə/ | разработчик ПО | IT |
+| journalist | /ˈdʒɜːnəlɪst/ | журналист | медиа |
+| architect | /ˈɑːkɪtekt/ | архитектор | строительство |
+| teacher | /ˈtiːtʃə/ | учитель | образование |
+| chef | /ʃef/ | шеф-повар | общественное питание |
+| pilot | /ˈpaɪlət/ | пилот | авиация |
+| mechanic | /məˈkænɪk/ | механик | техническая |
+
+**Профессии будущего:**
+
+| Профессия | Описание | Навыки |
+|-----------|----------|--------|
+| Data scientist | аналитик данных | математика, статистика |
+| AI specialist | специалист по ИИ | программирование, машинное обучение |
+| Cybersecurity analyst | аналитик кибербезопасности | IT-безопасность |
+| Sustainability consultant | консультант по устойчивому развитию | экология, бизнес |
+| Virtual reality designer | дизайнер VR | 3D-моделирование, творчество |
+| Robotics engineer | инженер-робототехник | механика, электроника |
+
+**Модальные глаголы для описания профессиональных требований:**
+
+| Модальный глагол | Значение | Пример |
+|------------------|----------|--------|
+| must | обязательность, необходимость | You must have a medical degree to become a doctor. |
+| should | рекомендация, желательность | You should be good at math for engineering. |
+| need to | необходимость | You need to be creative as a designer. |
+| have to | вынужденная необходимость | Teachers have to work with children. |
+| can | способность, возможность | A programmer can work remotely. |
+| may | возможность, вероятность | You may need to travel for this job. |
+
+**Описание профессиональных обязанностей:**
+
+При описании профессий важно использовать правильные грамматические конструкции:
+
+**Описание обязанностей (Present Simple):**
+- A teacher explains new material to students. (Учитель объясняет новый материал ученикам.)
+- Doctors treat patients in hospitals. (Врачи лечат пациентов в больницах.)
+- Journalists write articles for newspapers. (Журналисты пишут статьи для газет.)
+
+**Описание требований к профессии:**
+- You must have excellent communication skills. (У вас должны быть отличные коммуникативные навыки.)
+- You should be able to work in a team. (Вы должны уметь работать в команде.)
+- You need to be patient and attentive. (Вам нужно быть терпеливым и внимательным.)
+
+**Вопросы о профессиях:**
+- What do you do? / What's your job? (Кем вы работаете?)
+- What does a software developer do? (Чем занимается разработчик ПО?)
+- What skills do you need for this job? (Какие навыки нужны для этой работы?)
+- Where do you work? (Где вы работаете?)
+- How long have you been working there? (Как долго вы там работаете?)`,
           tasks: [
-            "Как будет «архитектор» на английском?",
-            "Какой модальный глагол выражает обязательность?",
-            "Переведите: software developer",
-            "Опишите требования к профессии врача"
+            "Опишите профессию своей мечты: название, обязанности, необходимые навыки (используя модальные глаголы must, should, need to)",
+            "Составьте три предложения о том, что делает учитель, врач и журналист (используя Present Simple)",
+            "Переведите и объясните, какие навыки нужны для профессии 'cybersecurity analyst'"
           ]
         },
         {
           title: "Поиск работы",
-          description: `Написание резюме, сопроводительного письма, подготовка к собеседованию.
+          description: `Написание резюме, сопроводительного письма, подготовка к собеседованию. Учащиеся научатся составлять профессиональные документы для трудоустройства и готовиться к собеседованиям на английском языке.
 
-**Job search vocabulary:** CV/resume (резюме), cover letter (сопроводительное письмо), interview (собеседование), vacancy (вакансия), applicant (соискатель), salary (зарплата), benefits (льготы).
+**Лексика по теме поиск работы:**
 
-**Interview phrases:**
-- Tell me about yourself. (Расскажите о себе.)
-- Why do you want this job? (Почему вы хотите эту работу?)
-- What are your strengths and weaknesses? (Какие ваши сильные и слабые стороны?)
-- When can you start? (Когда вы можете начать?)`,
+| Английское слово | Транскрипция | Русский перевод |
+|------------------|--------------|-----------------|
+| CV / resume | /ˌsiː ˈviː/ /ˈrezjʊmeɪ/ | резюме |
+| cover letter | /ˈkʌvə ˈletə/ | сопроводительное письмо |
+| interview | /ˈɪntəvjuː/ | собеседование |
+| vacancy | /ˈveɪkənsi/ | вакансия |
+| applicant | /ˈæplɪkənt/ | соискатель |
+| candidate | /ˈkændɪdət/ | кандидат |
+| employer | /ɪmˈplɔɪə/ | работодатель |
+| employee | /ɪmˈplɔɪiː/ | работник |
+| salary | /ˈsæləri/ | зарплата |
+| wages | /weɪdʒɪz/ | заработная плата (почасовая) |
+| benefits | /ˈbenɪfɪts/ | льготы, пособия |
+| position | /pəˈzɪʃn/ | должность |
+
+**Структура резюме (CV):**
+
+| Раздел | Английское название | Содержание |
+|--------|---------------------|------------|
+| Контактная информация | Contact Information | Имя, телефон, email, адрес |
+| Цель | Objective / Career Summary | Кратко о целях и опыте |
+| Опыт работы | Work Experience | Места работы, должности, обязанности |
+| Образование | Education | Учебные заведения, специальности |
+| Навыки | Skills | Профессиональные и языковые навыки |
+| Достижения | Achievements | Награды, сертификаты, проекты |
+
+**Пример резюме (фрагменты):**
+
+**Objective:**
+"A motivated software developer with 3 years of experience seeking a position at an innovative tech company."
+
+**Work Experience:**
+- Software Developer at TechCorp (2021-present)
+  - Developed web applications using JavaScript and Python
+  - Collaborated with a team of 5 developers
+  - Improved website performance by 30%
+
+**Skills:**
+- Programming: JavaScript, Python, Java
+- Languages: English (Advanced), Russian (Native)
+- Soft skills: teamwork, problem-solving, communication
+
+**Сопроводительное письмо (Cover Letter):**
+
+Структура сопроводительного письма:
+1. Приветствие: Dear Mr./Ms. [Last Name],
+2. Вступление: I am writing to apply for the position of...
+3. Почему вы подходите: I believe my experience in... makes me a strong candidate...
+4. Детали опыта: In my previous role, I...
+5. Заключение: I would welcome the opportunity to discuss my application...
+6. Завершение: I look forward to hearing from you. Sincerely, [Name]
+
+**Примеры фраз для cover letter:**
+- I am writing to express my interest in the position of... (Я пишу, чтобы выразить интерес к должности...)
+- I was excited to see your job posting on... (Я был рад увидеть вашу вакансию на...)
+- With my background in... I am confident I can contribute to... (С моим опытом в... я уверен, что могу внести вклад в...)
+- Please find my CV attached for your consideration. (Пожалуйста, найдите моё резюме во вложении.)`,
           tasks: [
-            "Чем отличается CV от cover letter?",
-            "Как ответить на вопрос о сильных сторонах?",
-            "Переведите: vacancy",
-            "Какие вопросы задают на собеседовании?"
+            "Напишите краткий раздел 'Objective' для резюме, описывающий ваши карьерные цели",
+            "Составьте начало сопроводительного письма с указанием должности и источника информации о вакансии",
+            "Переведите три ключевых навыка из раздела Skills и объясните их важность для работодателя"
           ]
         },
         {
           title: "Деловое общение",
-          description: `Деловая переписка, телефонные разговоры, презентации. Профессиональный этикет.
+          description: `Деловая переписка, телефонные разговоры, презентации. Профессиональный этикет. Учащиеся освоят навыки деловой коммуникации на английском языке, включая написание писем, проведение телефонных разговоров и публичные выступления.
 
-**Business vocabulary:** meeting (встреча), deadline (крайний срок), proposal (предложение), negotiation (переговоры), contract (контракт), partnership (партнёрство).
+**Основная деловая лексика:**
 
-**Email phrases:**
-- I am writing to inquire about... (Я пишу, чтобы узнать о...)
-- Please find attached... (Пожалуйста, найдите во вложении...)
+| Английское слово | Транскрипция | Русский перевод |
+|------------------|--------------|-----------------|
+| meeting | /ˈmiːtɪŋ/ | встреча, совещание |
+| conference | /ˈkɒnfərəns/ | конференция |
+| deadline | /ˈdedlaɪn/ | крайний срок |
+| proposal | /prəˈpəʊzl/ | предложение, заявка |
+| negotiation | /nɪˌɡəʊʃiˈeɪʃn/ | переговоры |
+| contract | /ˈkɒntrækt/ | контракт, договор |
+| agreement | /əˈɡriːmənt/ | соглашение |
+| partnership | /ˈpɑːtnəʃɪp/ | партнёрство |
+| client | /ˈklaɪənt/ | клиент |
+| supplier | /səˈplaɪə/ | поставщик |
+| invoice | /ˈɪnvɔɪs/ | счёт-фактура |
+| quotation | /kwəʊˈteɪʃn/ | коммерческое предложение |
+
+**Деловая переписка:**
+
+**Типы деловых писем:**
+| Тип письма | Цель | Пример начала |
+|------------|------|---------------|
+| Запрос информации | Inquiry | I am writing to inquire about... |
+| Ответ на запрос | Reply | Thank you for your inquiry... |
+| Предложение | Proposal | We are pleased to submit our proposal... |
+| Жалоба | Complaint | I am writing to express my dissatisfaction... |
+| Извинение | Apology | We sincerely apologize for... |
+| Благодарность | Thank you | We appreciate your cooperation... |
+
+**Полезные фразы для деловых писем:**
+
+**Начало письма:**
+- I am writing to inquire about your services. (Я пишу, чтобы узнать о ваших услугах.)
+- I am writing regarding our meeting last week. (Я пишу касательно нашей встречи на прошлой неделе.)
+- Thank you for your email dated March 15th. (Спасибо за ваше письмо от 15 марта.)
+
+**Основная часть:**
+- Please find attached the requested documents. (Пожалуйста, найдите во вложении запрошенные документы.)
+- I would like to confirm our appointment on... (Я хотел бы подтвердить нашу встречу...)
+- Could you please provide more information about...? (Не могли бы вы предоставить больше информации о...?)
+
+**Завершение письма:**
 - I look forward to hearing from you. (Жду вашего ответа.)
-- Thank you for your consideration. (Спасибо за рассмотрение.)`,
+- Thank you for your consideration. (Спасибо за рассмотрение.)
+- Please do not hesitate to contact me if you need further information. (Пожалуйста, свяжитесь со мной, если нужна дополнительная информация.)
+- Best regards / Sincerely / Yours faithfully (С уважением)
+
+**Телефонные разговоры:**
+
+**Начало разговора:**
+- Good morning, ABC Company. How can I help you? (Доброе утро, компания ABC. Чем могу помочь?)
+- This is John Smith speaking. (Это Джон Смит.)
+- I'm calling about... / I'm calling regarding... (Я звоню по поводу...)
+
+**Просьбы и ответы:**
+- Could I speak to Mr. Johnson, please? (Могу я поговорить с мистером Джонсоном?)
+- One moment, please. I'll put you through. (Один момент, я вас соединю.)
+- I'm afraid he's in a meeting at the moment. (Боюсь, он сейчас на совещании.)
+- Would you like to leave a message? (Хотите оставить сообщение?)
+
+**Презентации:**
+
+**Структура презентации:**
+1. Вступление: Good morning everyone. Today I'm going to talk about...
+2. Цель: The purpose of my presentation is to...
+3. Основная часть: First, I'd like to discuss... Secondly... Finally...
+4. Графики и таблицы: As you can see from this chart...
+5. Заключение: To sum up / In conclusion...
+6. Вопросы: Are there any questions?`,
           tasks: [
-            "Что такое deadline?",
-            "Как начать деловое письмо?",
-            "Переведите: negotiation",
-            "Как вежливо закончить деловое письмо?"
+            "Напишите деловое письмо-запрос о возможности сотрудничества с компанией",
+            "Составьте телефонный диалог: вы звоните в компанию и просите соединить с менеджером",
+            "Подготовьте начало презентации о своём проекте или идее (3-4 предложения)"
           ]
         }
       ]
@@ -133,36 +443,160 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Экологические проблемы",
-          description: `Изучение лексики по теме экологии: загрязнение, изменение климата, исчезновение видов.
+          description: `Изучение лексики по теме экологии: загрязнение, изменение климата, исчезновение видов. Учащиеся научатся обсуждать экологические проблемы на английском языке, описывать причины и последствия экологических кризисов.
 
-**Environmental problems:** pollution (загрязнение), climate change (изменение климата), global warming (глобальное потепление), deforestation (вырубка лесов), endangered species (исчезающие виды).
+**Основная экологическая лексика:**
 
-**Causes and effects:**
-- Pollution causes health problems. (Загрязнение вызывает проблемы со здоровьем.)
-- Deforestation leads to habitat loss. (Вырубка лесов ведёт к потере среды обитания.)
-- Carbon emissions contribute to global warming. (Выбросы углерода способствуют глобальному потеплению.)`,
+| Английское слово | Транскрипция | Русский перевод |
+|------------------|--------------|-----------------|
+| environment | /ɪnˈvaɪrənmənt/ | окружающая среда |
+| pollution | /pəˈluːʃn/ | загрязнение |
+| climate change | /ˈklaɪmət tʃeɪndʒ/ | изменение климата |
+| global warming | /ˌɡləʊbl ˈwɔːmɪŋ/ | глобальное потепление |
+| greenhouse effect | /ˈɡriːnhaʊs ɪˈfekt/ | парниковый эффект |
+| deforestation | /diːˌfɒrɪˈsteɪʃn/ | вырубка лесов |
+| endangered species | /ɪnˈdeɪndʒəd ˈspiːʃiːz/ | исчезающие виды |
+| extinction | /ɪkˈstɪŋkʃn/ | вымирание |
+| habitat | /ˈhæbɪtæt/ | среда обитания |
+| ecosystem | /ˈiːkəʊsɪstəm/ | экосистема |
+| biodiversity | /ˌbaɪəʊdaɪˈvɜːsəti/ | биоразнообразие |
+| carbon footprint | /ˈkɑːbən ˈfʊtprɪnt/ | углеродный след |
+
+**Типы загрязнения:**
+
+| Тип загрязнения | Английский термин | Источники | Последствия |
+|-----------------|-------------------|-----------|-------------|
+| Воздушное | air pollution | заводы, автомобили | заболевания дыхательной системы |
+| Водное | water pollution | промышленные стоки | гибель рыб, отравление воды |
+| Почвенное | soil pollution | пестициды, свалки | деградация земель |
+| Шумовое | noise pollution | транспорт, строительство | стресс, нарушение сна |
+| Световое | light pollution | городское освещение | нарушение экосистем |
+| Пластиковое | plastic pollution | одноразовая упаковка | загрязнение океанов |
+
+**Причины и последствия экологических проблем:**
+
+**Глобальное потепление:**
+
+Причины (Causes):
+- Burning fossil fuels (сжигание ископаемого топлива)
+- Deforestation (вырубка лесов)
+- Industrial emissions (промышленные выбросы)
+- Agriculture and livestock (сельское хозяйство и животноводство)
+
+Последствия (Effects):
+- Rising sea levels (повышение уровня моря)
+- Melting ice caps (таяние ледников)
+- Extreme weather events (экстремальные погодные явления)
+- Droughts and floods (засухи и наводнения)
+
+**Исчезновение видов:**
+
+Причины:
+- Habitat destruction (разрушение среды обитания)
+- Poaching (браконьерство)
+- Climate change (изменение климата)
+- Pollution (загрязнение)
+
+Примеры исчезающих видов:
+- Giant panda (большая панда)
+- Siberian tiger (амурский тигр)
+- Blue whale (голубой кит)
+- Snow leopard (снежный барс)
+- Polar bear (белый медведь)
+
+**Грамматика: Cause and Effect (Причина и следствие)**
+
+Для описания причинно-следственных связей используются следующие конструкции:
+
+| Конструкция | Пример | Перевод |
+|-------------|--------|---------|
+| cause | Pollution causes health problems. | Загрязнение вызывает проблемы со здоровьем. |
+| lead to | Deforestation leads to habitat loss. | Вырубка лесов ведёт к потере среды обитания. |
+| result in | Emissions result in global warming. | Выбросы приводят к глобальному потеплению. |
+| contribute to | Cars contribute to air pollution. | Автомобили способствуют загрязнению воздуха. |
+| because of | Sea levels rise because of melting ice. | Уровень моря повышается из-за таяния льда. |
+| due to | Species disappear due to hunting. | Виды исчезают из-за охоты. |`,
           tasks: [
-            "Что означает endangered species?",
-            "Какие причины глобального потепления?",
-            "Переведите: deforestation",
-            "Опишите последствия загрязнения"
+            "Опишите три вида загрязнения окружающей среды: их источники и последствия, используя конструкции 'cause', 'lead to', 'result in'",
+            "Объясните связь между глобальным потеплением и таянием ледников, используя cause/effect конструкции",
+            "Переведите и составьте предложения с терминами 'endangered species' и 'biodiversity'"
           ]
         },
         {
           title: "Защита окружающей среды",
-          description: `Способы защиты природы: переработка, энергосбережение, устойчивое развитие.
+          description: `Способы защиты природы: переработка, энергосбережение, устойчивое развитие. Учащиеся изучат практические способы защиты окружающей среды и смогут обсуждать экологические инициативы на английском языке.
 
-**Environmental protection:** recycling (переработка), renewable energy (возобновляемая энергия), sustainable development (устойчивое развитие), conservation (сохранение), eco-friendly (экологичный).
+**Лексика по защите окружающей среды:**
 
-**Actions:**
+| Английское слово | Транскрипция | Русский перевод |
+|------------------|--------------|-----------------|
+| recycling | /riːˈsaɪklɪŋ/ | переработка |
+| renewable energy | /rɪˈnjuːəbl ˈenədʒi/ | возобновляемая энергия |
+| sustainable development | /səˈsteɪnəbl dɪˈveləpmənt/ | устойчивое развитие |
+| conservation | /ˌkɒnsəˈveɪʃn/ | сохранение, охрана |
+| eco-friendly | /ˌiːkəʊ ˈfrendli/ | экологичный |
+| sustainability | /səˌsteɪnəˈbɪləti/ | устойчивость |
+| organic | /ɔːˈɡænɪk/ | органический |
+| biodegradable | /ˌbaɪəʊdɪˈɡreɪdəbl/ | биоразлагаемый |
+| compost | /ˈkɒmpɒst/ | компост |
+| solar power | /ˈsəʊlə ˈpaʊə/ | солнечная энергия |
+| wind power | /wɪnd ˈpaʊə/ | ветровая энергия |
+| carbon neutral | /ˈkɑːbən ˈnjuːtrəl/ | углеродно-нейтральный |
+
+**Принципы 3R (Three R's):**
+
+| Принцип | Английский термин | Значение | Примеры действий |
+|---------|-------------------|----------|------------------|
+| Reduce | сокращение | уменьшение потребления | покупать меньше, отключать электроприборы |
+| Reuse | повторное использование | использование вещей повторно | многоразовые пакеты, бутылки |
+| Recycle | переработка | переработка материалов | сортировка мусора, сдача макулатуры |
+
+**Возобновляемые источники энергии:**
+
+| Источник | Английский термин | Преимущества | Недостатки |
+|----------|-------------------|--------------|------------|
+| Солнечная энергия | solar energy | чистая, неисчерпаемая | зависит от погоды |
+| Ветровая энергия | wind energy | чистая, возобновляемая | шум, визуальное загрязнение |
+| Гидроэнергия | hydropower | надёжная, эффективная | воздействие на экосистемы рек |
+| Геотермальная | geothermal energy | стабильная, чистая | ограниченная доступность |
+| Биомасса | biomass | использует отходы | выбросы при сжигании |
+
+**Действия для защиты окружающей среды:**
+
+**Индивидуальные действия:**
 - We should reduce, reuse, and recycle. (Мы должны сокращать, повторно использовать и перерабатывать.)
-- We can use public transport instead of driving. (Мы можем использовать общественный транспорт.)
-- We need to protect natural habitats. (Нам нужно защищать естественную среду.)`,
+- We can use public transport instead of driving. (Мы можем использовать общественный транспорт вместо вождения.)
+- We need to protect natural habitats. (Нам нужно защищать естественную среду.)
+- I will bring my own reusable bag when shopping. (Я буду приносить свою многоразовую сумку при покупках.)
+- We can plant trees in our community. (Мы можем сажать деревья в нашем сообществе.)
+
+**Глобальные инициативы:**
+- Paris Agreement (Парижское соглашение)
+- Sustainable Development Goals (Цели устойчивого развития)
+- Green energy transition (Переход на зелёную энергию)
+- Protected areas (Охраняемые территории)
+- Carbon trading (Торговля выбросами)
+
+**Грамматика: Modal verbs for suggestions and obligations**
+
+| Модальный глагол | Значение | Пример |
+|------------------|----------|--------|
+| should | рекомендация | We should recycle more. |
+| can | возможность | We can use solar panels. |
+| need to | необходимость | We need to reduce waste. |
+| must | обязательство | We must protect nature. |
+| could | возможность, предложение | We could carpool to work. |
+| ought to | моральный долг | We ought to think about future generations. |
+
+**Полезные фразы для обсуждения экологии:**
+- What can individuals do to help the environment? (Что могут сделать отдельные люди для помощи окружающей среде?)
+- We all have a responsibility to... (У всех нас есть ответственность...)
+- Small changes can make a big difference. (Маленькие изменения могут иметь большое значение.)
+- It's important to raise awareness about... (Важно повышать осведомлённость о...)`,
           tasks: [
-            "Что означает eco-friendly?",
-            "Назовите три принципа защиты среды (3 R's)",
-            "Переведите: renewable energy",
-            "Как можно снизить углеродный след?"
+            "Объясните принципы 3R (Reduce, Reuse, Recycle) и приведите по два примера действий для каждого принципа",
+            "Сравните два вида возобновляемой энергии, используя модальные глаголы should, can, need to",
+            "Напишите пять предложений о том, что вы можете делать для защиты окружающей среды"
           ]
         }
       ]
@@ -172,31 +606,166 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Типы СМИ",
-          description: `Изучение типов средств массовой информации: печать, радио, телевидение, интернет-медиа.
+          description: `Изучение типов средств массовой информации: печать, радио, телевидение, интернет-медиа. Учащиеся научатся классифицировать СМИ, обсуждать их роль в обществе и критически оценивать медиаконтент.
 
-**Media types:** newspaper (газета), magazine (журнал), television (телевидение), radio (радио), online news (онлайн-новости), social media (социальные сети).
+**Основная лексика по теме СМИ:**
 
-**Media vocabulary:** journalist (журналист), editor (редактор), headline (заголовок), article (статья), broadcast (трансляция), coverage (освещение).`,
+| Английское слово | Транскрипция | Русский перевод |
+|------------------|--------------|-----------------|
+| media | /ˈmiːdiə/ | средства массовой информации |
+| newspaper | /ˈnjuːzˌpeɪpə/ | газета |
+| magazine | /ˌmæɡəˈziːn/ | журнал |
+| television | /ˈtelɪvɪʒn/ | телевидение |
+| radio | /ˈreɪdiəʊ/ | радио |
+| broadcast | /ˈbrɔːdkɑːst/ | трансляция |
+| coverage | /ˈkʌvərɪdʒ/ | освещение (событий) |
+| journalist | /ˈdʒɜːnəlɪst/ | журналист |
+| editor | /ˈedɪtə/ | редактор |
+| headline | /ˈhedlaɪn/ | заголовок |
+| article | /ˈɑːtɪkl/ | статья |
+| report | /rɪˈpɔːt/ | репортаж, доклад |
+| correspondent | /ˌkɒrɪˈspɒndənt/ | корреспондент |
+
+**Типы СМИ и их характеристики:**
+
+| Тип СМИ | Английский термин | Преимущества | Недостатки |
+|---------|-------------------|--------------|------------|
+| Газеты | newspapers | достоверность, глубина анализа | устаревающая информация |
+| Журналы | magazines | качественные фото, специализированный контент | периодичность выхода |
+| Радио | radio | мобильность, оперативность | отсутствие визуализации |
+| Телевидение | television | визуальность, эмоциональность | пассивное потребление |
+| Интернет-медиа | online media | актуальность, интерактивность | фейковые новости |
+| Подкасты | podcasts | удобство, глубина темы | требует времени |
+
+**Профессии в СМИ:**
+
+| Профессия | Обязанности | Навыки |
+|-----------|-------------|--------|
+| Journalist | сбор информации, написание статей | коммуникация, письмо |
+| Editor | редактирование, утверждение материалов | внимательность, знание языка |
+| News anchor | ведение новостей | дикция, презентация |
+| Photographer | съёмка фото | визуальное мышление |
+| Producer | организация производства | менеджмент, планирование |
+| Blogger | создание онлайн-контента | креативность, технические навыки |
+
+**Категории новостей:**
+
+| Категория | Английский термин | Примеры |
+|-----------|-------------------|---------|
+| Политика | politics | elections, government decisions |
+| Экономика | business/economy | stock market, company news |
+| Спорт | sports | football matches, Olympics |
+| Развлечения | entertainment | movies, music, celebrities |
+| Наука и технологии | science and technology | discoveries, gadgets |
+| Погода | weather | forecasts, extreme weather |
+
+**Глаголы для описания работы СМИ:**
+
+| Глагол | Значение | Пример |
+|--------|----------|--------|
+| report | сообщать | The journalist reported the accident. |
+| cover | освещать | They covered the election campaign. |
+| publish | публиковать | The newspaper publishes daily. |
+| broadcast | транслировать | The match was broadcast live. |
+| edit | редактировать | She edits the fashion section. |
+| investigate | расследовать | They investigated the scandal. |
+
+**Критическое отношение к информации:**
+
+При работе с информацией важно уметь её оценивать:
+- Check the source (проверяйте источник)
+- Verify the information (подтверждайте информацию)
+- Consider multiple perspectives (рассматривайте разные точки зрения)
+- Identify bias (определяйте предвзятость)
+- Distinguish fact from opinion (отличайте факты от мнений)`,
           tasks: [
-            "Чем отличается newspaper от magazine?",
-            "Что такое headline?",
-            "Переведите: broadcast",
-            "Назовите типы СМИ"
+            "Сравните два типа СМИ (например, газеты и интернет-медиа), опишите их преимущества и недостатки",
+            "Опишите профессию журналиста: обязанности, необходимые навыки, используя глаголы report, cover, investigate",
+            "Переведите и объясните, почему важно 'distinguish fact from opinion' при работе с информацией"
           ]
         },
         {
           title: "Социальные сети",
-          description: `Влияние социальных сетей на общество, преимущества и недостатки. Безопасность в интернете.
+          description: `Влияние социальных сетей на общество, преимущества и недостатки. Безопасность в интернете. Учащиеся научатся обсуждать роль социальных сетей в современном обществе и правила безопасного поведения онлайн.
 
-**Social media vocabulary:** platform (платформа), follower (подписчик), post (публикация), like (лайк), share (поделиться), comment (комментарий), viral (вирусный/популярный).
+**Лексика по теме социальные сети:**
 
-**Advantages:** staying connected, sharing information, building communities.
-**Disadvantages:** fake news, cyberbullying, addiction, privacy concerns.`,
+| Английское слово | Транскрипция | Русский перевод |
+|------------------|--------------|-----------------|
+| social media | /ˈsəʊʃl ˈmiːdiə/ | социальные сети |
+| platform | /ˈplætfɔːm/ | платформа |
+| profile | /ˈprəʊfaɪl/ | профиль |
+| post | /pəʊst/ | публикация, пост |
+| feed | /fiːd/ | лента новостей |
+| follower | /ˈfɒləʊə/ | подписчик |
+| following | /ˈfɒləʊɪŋ/ | подписки |
+| like | /laɪk/ | отметка «нравится» |
+| share | /ʃeə/ | поделиться |
+| comment | /ˈkɒment/ | комментарий |
+| hashtag | /ˈhæʃtæɡ/ | хэштег |
+| viral | /ˈvaɪərəl/ | вирусный (популярный) |
+| influencer | /ˈɪnfluənsə/ | инфлюенсер, блогер |
+| trend | /trend/ | тренд, тенденция |
+
+**Популярные социальные платформы:**
+
+| Платформа | Тип | Особенности |
+|-----------|-----|-------------|
+| Instagram | фото/видео | визуальный контент, stories |
+| TikTok | короткие видео | развлекательный контент |
+| Twitter/X | микроблогинг | краткие сообщения, новости |
+| Facebook | социальная сеть | общение, группы, события |
+| YouTube | видеохостинг | длинные видео, обучение |
+| LinkedIn | профессиональная сеть | карьера, бизнес-контакты |
+| Telegram | мессенджер | каналы, группы, безопасность |
+
+**Преимущества и недостатки социальных сетей:**
+
+**Advantages (Преимущества):**
+- Staying connected with friends and family (поддержание связи с друзьями и семьёй)
+- Sharing information and ideas (обмен информацией и идеями)
+- Building communities (создание сообществ)
+- Learning and education (обучение и образование)
+- Business opportunities (бизнес-возможности)
+- Raising awareness about important issues (привлечение внимания к важным проблемам)
+
+**Disadvantages (Недостатки):**
+- Fake news and misinformation (фейковые новости и дезинформация)
+- Cyberbullying (кибербуллинг, интернет-травля)
+- Addiction and time wasting (зависимость и трата времени)
+- Privacy concerns (проблемы конфиденциальности)
+- Negative impact on mental health (негативное влияние на психическое здоровье)
+- Comparison with others (сравнение себя с другими)
+
+**Безопасность в интернете:**
+
+| Правило | Английская формулировка | Объяснение |
+|---------|------------------------|------------|
+| Не делитесь личной информацией | Don't share personal information | адрес, телефон, финансовые данные |
+| Используйте надёжные пароли | Use strong passwords | комбинация букв, цифр, символов |
+| Будьте осторожны с незнакомцами | Be careful with strangers | не всем можно доверять онлайн |
+| Проверяйте информацию | Verify information | не верьте всему, что видите |
+| Думайте, прежде чем публиковать | Think before you post | информация остаётся в интернете |
+| Настройте приватность | Adjust privacy settings | контролируйте, кто видит ваш контент |
+
+**Типы онлайн-угроз:**
+
+| Угроза | Английский термин | Описание |
+|--------|-------------------|----------|
+| Фишинг | phishing | попытка украсть данные через поддельные сайты |
+| Кибербуллинг | cyberbullying | травля в интернете |
+| Мошенничество | scam | обман для получения денег |
+| Вредоносное ПО | malware | вирусы, трояны |
+| Кража личности | identity theft | использование чужих данных |
+
+**Полезные фразы для обсуждения:**
+- Social media has changed the way we communicate. (Социальные сети изменили то, как мы общаемся.)
+- It's important to maintain a balance between online and offline life. (Важно поддерживать баланс между онлайн и офлайн жизнью.)
+- We should be critical of the information we see online. (Мы должны критически относиться к информации, которую видим онлайн.)`,
           tasks: [
-            "Что означает viral content?",
-            "Какие опасности социальных сетей?",
-            "Переведите: cyberbullying",
-            "Как защитить личную информацию в сети?"
+            "Опишите преимущества и недостатки одной социальной платформы (на ваш выбор), используя преимущества и недостатки из урока",
+            "Перечислите три правила безопасности в интернете и объясните, почему они важны",
+            "Напишите о влиянии социальных сетей на молодёжь, используя лексику урока (viral, influencer, cyberbullying)"
           ]
         }
       ]
@@ -206,34 +775,168 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Технологии будущего",
-          description: `Изучение лексики по теме технологий: искусственный интеллект, роботы, виртуальная реальность.
+          description: `Изучение лексики по теме технологий: искусственный интеллект, роботы, виртуальная реальность. Учащиеся научатся обсуждать современные технологии и их влияние на будущее человечества.
 
-**Technology vocabulary:** artificial intelligence (искусственный интеллект), robotics (робототехника), virtual reality (виртуальная реальность), automation (автоматизация), innovation (инновация).
+**Основная технологическая лексика:**
 
-**Future technologies:** self-driving cars (автопилотируемые автомобили), smart homes (умные дома), medical robots (медицинские роботы), space exploration (освоение космоса).`,
+| Английское слово | Транскрипция | Русский перевод |
+|------------------|--------------|-----------------|
+| technology | /tekˈnɒlədʒi/ | технология |
+| innovation | /ˌɪnəˈveɪʃn/ | инновация |
+| artificial intelligence | /ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/ | искусственный интеллект |
+| AI | /eɪ aɪ/ | ИИ (сокращение) |
+| robotics | /rəʊˈbɒtɪks/ | робототехника |
+| virtual reality | /ˈvɜːtʃuəl riˈæləti/ | виртуальная реальность |
+| VR | /viː ɑːr/ | ВР (сокращение) |
+| augmented reality | /ɔːɡˈmentɪd riˈæləti/ | дополненная реальность |
+| automation | /ˌɔːtəˈmeɪʃn/ | автоматизация |
+| machine learning | /məˈʃiːn ˈlɜːnɪŋ/ | машинное обучение |
+| blockchain | /ˈblɒktʃeɪn/ | блокчейн |
+| quantum computing | /ˈkwɒntəm kəmˈpjuːtɪŋ/ | квантовые вычисления |
+
+**Технологии будущего:**
+
+| Технология | Английский термин | Описание | Применение |
+|------------|-------------------|----------|------------|
+| Автопилотируемые автомобили | self-driving cars | автомобили без водителя | транспорт |
+| Умные дома | smart homes | дома с автоматическим управлением | быт |
+| Медицинские роботы | medical robots | роботы для хирургии | медицина |
+| Освоение космоса | space exploration | изучение космоса | наука |
+| Нанотехнологии | nanotechnology | технологии на молекулярном уровне | медицина, производство |
+| Биотехнологии | biotechnology | использование живых организмов | медицина, сельское хозяйство |
+
+**Искусственный интеллект (AI):**
+
+**Области применения ИИ:**
+| Область | Примеры применения |
+|---------|-------------------|
+| Healthcare | диагностика заболеваний, разработка лекарств |
+| Transportation | беспилотные автомобили, оптимизация маршрутов |
+| Education | персонализированное обучение |
+| Finance | анализ рынков, обнаружение мошенничества |
+| Entertainment | рекомендации контента, игры |
+| Customer service | чат-боты, голосовые помощники |
+
+**Виртуальная и дополненная реальность:**
+
+| Технология | Особенности | Применение |
+|------------|-------------|------------|
+| VR (Virtual Reality) | полное погружение в виртуальный мир | игры, обучение, терапия |
+| AR (Augmented Reality) | наложение цифровых объектов на реальность | навигация, образование, розница |
+| MR (Mixed Reality) | смешение реального и виртуального | промышленность, медицина |
+
+**Грамматика: Future tenses for predictions**
+
+Для описания будущих технологий используются различные Future times:
+
+| Время | Использование | Пример |
+|-------|---------------|--------|
+| Future Simple | прогнозы, предсказания | Robots will do most jobs. |
+| Future Continuous | действия в процессе в будущем | In 2050, cars will be driving themselves. |
+| Future Perfect | завершённые действия к моменту в будущем | By 2030, scientists will have discovered new treatments. |
+| be going to | планы, намерения | AI is going to transform many industries. |
+
+**Полезные фразы для обсуждения технологий:**
+- Technology is changing our lives in many ways. (Технологии меняют нашу жизнь во многих отношениях.)
+- Artificial intelligence will revolutionise many industries. (Искусственный интеллект революционизирует многие отрасли.)
+- We need to consider both benefits and risks of new technologies. (Нам нужно учитывать как преимущества, так и риски новых технологий.)
+- The pace of technological change is accelerating. (Темпы технологических изменений ускоряются.)`,
           tasks: [
-            "Как расшифровывается AI?",
-            "Что такое virtual reality?",
-            "Переведите: automation",
-            "Опишите технологии будущего"
+            "Опишите одну технологию будущего: что она делает, как применяется и как изменит нашу жизнь",
+            "Составьте три предложения о развитии ИИ, используя Future Simple и Future Perfect",
+            "Объясните разницу между VR (Virtual Reality) и AR (Augmented Reality), приведите примеры применения"
           ]
         },
         {
           title: "Цифровая грамотность",
-          description: `Безопасное использование технологий, защита личных данных, критическое мышление в цифровую эпоху.
+          description: `Безопасное использование технологий, защита личных данных, критическое мышление в цифровую эпоху. Учащиеся научатся правилам цифровой безопасности и методам защиты личной информации.
 
-**Digital literacy vocabulary:** cybersecurity (кибербезопасность), password (пароль), encryption (шифрование), phishing (фишинг), malware (вредоносное ПО), backup (резервная копия).
+**Лексика по цифровой безопасности:**
 
-**Online safety tips:**
-- Use strong passwords. (Используйте надёжные пароли.)
+| Английское слово | Транскрипция | Русский перевод |
+|------------------|--------------|-----------------|
+| cybersecurity | /ˌsaɪbəsɪˈkjʊərəti/ | кибербезопасность |
+| password | /ˈpɑːswɜːd/ | пароль |
+| encryption | /ɪnˈkrɪpʃn/ | шифрование |
+| phishing | /ˈfɪʃɪŋ/ | фишинг (мошенничество) |
+| malware | /ˈmæleweə/ | вредоносное ПО |
+| virus | /ˈvaɪrəs/ | вирус |
+| backup | /ˈbækʌp/ | резервная копия |
+| firewall | /ˈfaɪəwɔːl/ | брандмауэр |
+| authentication | /ɔːˌθentɪˈkeɪʃn/ | аутентификация |
+| two-factor authentication | /tuː ˈfæktə.../ | двухфакторная аутентификация |
+| privacy settings | /ˈprɪvəsi ˈsetɪŋz/ | настройки приватности |
+| digital footprint | /ˈdɪdʒɪtl ˈfʊtprɪnt/ | цифровой след |
+
+**Типы киберугроз:**
+
+| Угроза | Английский термин | Описание | Защита |
+|--------|-------------------|----------|--------|
+| Фишинг | phishing | поддельные письма для кражи данных | проверяйте отправителя |
+| Вирусы | viruses | программы, заражающие компьютер | антивирус, не открывайте подозрительные файлы |
+| Трояны | trojans | вредоносные программы под видом безопасных | скачивайте только с официальных сайтов |
+| Вымогатели | ransomware | блокировка данных для выкупа | резервное копирование |
+| Шпионское ПО | spyware | скрытый сбор информации | антивирус, брандмауэр |
+| Социальная инженерия | social engineering | манипуляция людьми | не доверяйте незнакомцам |
+
+**Правила создания надёжного пароля:**
+
+| Правило | Английская формулировка | Пример |
+|---------|------------------------|--------|
+| Минимум 12 символов | At least 12 characters | MyP@ssw0rd2024! |
+| Комбинация букв | Mix of upper and lowercase | AbCdEf |
+| Цифры | Include numbers | 123456 |
+| Специальные символы | Special characters | !@#$%^&* |
+| Не использовать личную информацию | Avoid personal information | не использовать дату рождения |
+| Уникальный для каждого сайта | Different for each account | разные пароли везде |
+
+**Правила цифровой безопасности:**
+
+**Онлайн-безопасность:**
+- Use strong, unique passwords. (Используйте надёжные уникальные пароли.)
+- Enable two-factor authentication. (Включите двухфакторную аутентификацию.)
 - Don't share personal information. (Не делитесь личной информацией.)
-- Be careful with email attachments. (Будьте осторожны с вложениями.)
-- Update your software regularly. (Регулярно обновляйте ПО.)`,
+- Be careful with email attachments. (Будьте осторожны с вложениями в письмах.)
+- Update your software regularly. (Регулярно обновляйте программное обеспечение.)
+- Don't click on suspicious links. (Не нажимайте на подозрительные ссылки.)
+- Use secure Wi-Fi networks. (Используйте защищённые Wi-Fi сети.)
+
+**Защита личных данных:**
+
+| Данные | Что нельзя делать | Почему это опасно |
+|--------|-------------------|-------------------|
+| Адрес | Не публиковать домашний адрес | риск физической безопасности |
+| Телефон | Не давать номер незнакомцам | спам, мошенничество |
+| Финансы | Не передавать данные карт | кража денег |
+| Пароли | Не сообщать никому | взлом аккаунтов |
+| Фото | Не публиковать компрометирующие фото | репутация, шантаж |
+| Расписание | Не сообщать, когда вас нет дома | риск кражи |
+
+**Цифровой след (Digital Footprint):**
+
+Цифровой след — это вся информация о вас в интернете. Она включает:
+- Social media posts (публикации в соцсетях)
+- Comments and likes (комментарии и лайки)
+- Search history (история поиска)
+- Online purchases (онлайн-покупки)
+- Uploaded photos and videos (загруженные фото и видео)
+
+Важно помнить: Once something is online, it can be there forever. (Однажды опубликованное в интернете может остаться там навсегда.)
+
+**Грамматика: Imperatives for instructions**
+
+Для инструкций и правил безопасности используется повелительное наклонение:
+
+| Форма | Пример | Перевод |
+|-------|--------|---------|
+| Положительная | Use strong passwords. | Используйте надёжные пароли. |
+| Отрицательная | Don't share personal information. | Не делитесь личной информацией. |
+| С 'always' | Always check the source. | Всегда проверяйте источник. |
+| С 'never' | Never open suspicious emails. | Никогда не открывайте подозрительные письма. |`,
           tasks: [
-            "Что такое phishing?",
-            "Как создать надёжный пароль?",
-            "Переведите: backup",
-            "Какие правила цифровой безопасности?"
+            "Создайте правила для надёжного пароля и объясните, почему каждый элемент важен",
+            "Опишите три типа киберугроз и методы защиты от них",
+            "Напишите пять правил цифровой безопасности для школьников, используя повелительное наклонение"
           ]
         }
       ]
@@ -248,10 +951,14 @@ export const games: GameLesson[] = [
     icon: "Plane",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What is 'destination'?", options: ["Place to go", "Type of food", "Transport", "Currency"], correctAnswer: "Place to go", hint: "Where you're heading" },
+      { type: 'quiz', question: "What does 'destination' mean?", options: ["Place to go", "Type of food", "Transport", "Currency"], correctAnswer: "Place to go", hint: "Where you're heading" },
       { type: 'fill', question: "I have ___ visited Paris. (никогда не)", correctAnswer: "never", hint: "Negative experience" },
-      { type: 'quiz', question: "Present Perfect is used for:", options: ["Life experience", "Past actions", "Future plans", "Daily routine"], correctAnswer: "Life experience", hint: "At any time" },
-      { type: 'fill', question: "Sightseeing means seeing ___. (достопримечательности)", correctAnswer: "sights", hint: "Tourist attractions" }
+      { type: 'quiz', question: "Present Perfect is used for:", options: ["Life experience", "Past actions with specific time", "Future plans", "Daily routine"], correctAnswer: "Life experience", hint: "At any time in your life" },
+      { type: 'fill', question: "Sightseeing means seeing ___. (достопримечательности)", correctAnswer: "sights", hint: "Tourist attractions" },
+      { type: 'quiz', question: "Which word means 'путешествие'?", options: ["journey", "hotel", "ticket", "passport"], correctAnswer: "journey", hint: "Going from one place to another" },
+      { type: 'fill', question: "My ___ is Paris this summer. (место назначения)", correctAnswer: "destination", hint: "Where I'm going" },
+      { type: 'quiz', question: "'Accommodation' means:", options: ["Place to stay", "Type of food", "Travel method", "Luggage"], correctAnswer: "Place to stay", hint: "Where you sleep during travel" },
+      { type: 'fill', question: "Have you ever ___ by train? (путешествовали)", correctAnswer: "travelled", hint: "Past participle of travel" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь лексику путешествий!" }
   },
@@ -261,10 +968,14 @@ export const games: GameLesson[] = [
     icon: "Plane",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "___ pass is your ticket to board. (посадочный)", correctAnswer: "Boarding", hint: "Required for flight" },
-      { type: 'quiz', question: "Where do you pick up luggage?", options: ["Baggage claim", "Check-in", "Gate", "Customs"], correctAnswer: "Baggage claim", hint: "After arrival" },
+      { type: 'fill', question: "___ pass is your ticket to board the plane. (посадочный)", correctAnswer: "Boarding", hint: "Required for flight" },
+      { type: 'quiz', question: "Where do you pick up luggage after arrival?", options: ["Baggage claim", "Check-in", "Gate", "Customs"], correctAnswer: "Baggage claim", hint: "After arrival" },
       { type: 'fill', question: "My flight was ___ for two hours. (задержан)", correctAnswer: "delayed", hint: "Not on time" },
-      { type: 'quiz', question: "'Gate' at airport means:", options: ["Exit to plane", "Entrance to building", "Parking area", "Ticket office"], correctAnswer: "Exit to plane", hint: "Boarding area" }
+      { type: 'quiz', question: "'Gate' at the airport means:", options: ["Exit to board the plane", "Entrance to building", "Parking area", "Ticket office"], correctAnswer: "Exit to board the plane", hint: "Boarding area" },
+      { type: 'fill', question: "I'd like a ___ seat, please. (место у окна)", correctAnswer: "window", hint: "You can see outside" },
+      { type: 'quiz', question: "What is 'customs'?", options: ["Border control for goods", "Ticket office", "Restaurant", "Hotel desk"], correctAnswer: "Border control for goods", hint: "Checking what you bring" },
+      { type: 'fill', question: "Where is the check-in ___? (стойка)", correctAnswer: "counter", hint: "Desk for registration" },
+      { type: 'quiz', question: "'Departure lounge' is where you:", options: ["Wait for your flight", "Pick up luggage", "Buy tickets", "Eat dinner"], correctAnswer: "Wait for your flight", hint: "Before boarding" }
     ],
     reward: { stars: 3, message: "Ты готов к путешествию на самолёте!" }
   },
@@ -275,9 +986,13 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'fill', question: "I'd like to ___ a room for two nights. (забронировать)", correctAnswer: "book", hint: "Make a reservation" },
-      { type: 'quiz', question: "What does 'complimentary' mean?", options: ["Free", "Expensive", "Reserved", "Unavailable"], correctAnswer: "Free", hint: "Included at no cost" },
+      { type: 'quiz', question: "What does 'complimentary' mean?", options: ["Free of charge", "Expensive", "Reserved", "Unavailable"], correctAnswer: "Free of charge", hint: "Included at no cost" },
       { type: 'fill', question: "Is breakfast ___? (включено)", correctAnswer: "included", hint: "Part of the deal" },
-      { type: 'quiz', question: "'Check-out' means:", options: ["Leaving the hotel", "Arriving at hotel", "Paying extra", "Ordering food"], correctAnswer: "Leaving the hotel", hint: "End of stay" }
+      { type: 'quiz', question: "'Check-out' means:", options: ["Leaving the hotel", "Arriving at hotel", "Paying extra", "Ordering food"], correctAnswer: "Leaving the hotel", hint: "End of stay" },
+      { type: 'fill', question: "Do you have any ___ for tonight? (свободные номера)", correctAnswer: "vacancies", hint: "Empty rooms available" },
+      { type: 'quiz', question: "'Room service' provides:", options: ["Food delivered to your room", "Cleaning only", "Transportation", "Tickets"], correctAnswer: "Food delivered to your room", hint: "Ordering food to your door" },
+      { type: 'fill', question: "What time is ___? (выезд)", correctAnswer: "check-out", hint: "When you leave the hotel" },
+      { type: 'quiz', question: "A 'twin room' has:", options: ["Two separate beds", "One double bed", "Three beds", "No bed"], correctAnswer: "Two separate beds", hint: "Not for couples" }
     ],
     reward: { stars: 3, message: "Ты можешь заселиться в отеле!" }
   },
@@ -290,7 +1005,11 @@ export const games: GameLesson[] = [
       { type: 'fill', question: "A ___ treats patients in a hospital. (врач)", correctAnswer: "doctor", hint: "Medical professional" },
       { type: 'quiz', question: "Who designs buildings?", options: ["Architect", "Doctor", "Teacher", "Driver"], correctAnswer: "Architect", hint: "Construction plans" },
       { type: 'fill', question: "I work as a software ___ at Google. (разработчик)", correctAnswer: "developer", hint: "Creates programs" },
-      { type: 'quiz', question: "'Must' expresses:", options: ["Obligation", "Suggestion", "Permission", "Ability"], correctAnswer: "Obligation", hint: "Necessity" }
+      { type: 'quiz', question: "'Must' expresses:", options: ["Obligation", "Suggestion", "Permission", "Ability"], correctAnswer: "Obligation", hint: "Necessity" },
+      { type: 'fill', question: "A ___ writes articles for newspapers. (журналист)", correctAnswer: "journalist", hint: "Media professional" },
+      { type: 'quiz', question: "What does an accountant do?", options: ["Manages finances", "Treats patients", "Teaches students", "Drives trucks"], correctAnswer: "Manages finances", hint: "Numbers and money" },
+      { type: 'fill', question: "You ___ be good at math to be an engineer. (должны)", correctAnswer: "must", hint: "Requirement" },
+      { type: 'quiz', question: "'Software developer' creates:", options: ["Computer programs", "Buildings", "Medicines", "Food"], correctAnswer: "Computer programs", hint: "IT professional" }
     ],
     reward: { stars: 3, message: "Ты хорошо знаешь названия профессий!" }
   },
@@ -301,9 +1020,13 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'fill', question: "A ___ is a document about your experience. (резюме)", correctAnswer: "CV", hint: "Or resume" },
-      { type: 'quiz', question: "What is an 'interview'?", options: ["Job meeting", "Written test", "Email exchange", "Phone call only"], correctAnswer: "Job meeting", hint: "Face to face discussion" },
+      { type: 'quiz', question: "What is an 'interview'?", options: ["Job meeting with employer", "Written test", "Email exchange", "Phone call only"], correctAnswer: "Job meeting with employer", hint: "Face to face discussion" },
       { type: 'fill', question: "Please find my CV ___ to this email. (приложенным)", correctAnswer: "attached", hint: "Included in email" },
-      { type: 'quiz', question: "'Strengths' means:", options: ["Strong points", "Weaknesses", "Hobbies", "Skills only"], correctAnswer: "Strong points", hint: "Positive qualities" }
+      { type: 'quiz', question: "'Strengths' means:", options: ["Strong points", "Weaknesses", "Hobbies", "Skills only"], correctAnswer: "Strong points", hint: "Positive qualities" },
+      { type: 'fill', question: "A ___ letter explains why you want the job. (сопроводительное)", correctAnswer: "cover", hint: "Goes with CV" },
+      { type: 'quiz', question: "A 'vacancy' is:", options: ["An open job position", "A holiday", "A meeting", "A contract"], correctAnswer: "An open job position", hint: "Job opening" },
+      { type: 'fill', question: "What are your ___ and weaknesses? (сильные стороны)", correctAnswer: "strengths", hint: "Positive qualities" },
+      { type: 'quiz', question: "'Applicant' means:", options: ["Person applying for a job", "Employer", "Manager", "Colleague"], correctAnswer: "Person applying for a job", hint: "Job seeker" }
     ],
     reward: { stars: 3, message: "Ты готов к поиску работы!" }
   },
@@ -316,7 +1039,11 @@ export const games: GameLesson[] = [
       { type: 'fill', question: "A ___ is the final date for a task. (крайний срок)", correctAnswer: "deadline", hint: "Time limit" },
       { type: 'quiz', question: "How to start a business email?", options: ["I am writing to...", "Hey there!", "What's up?", "Hi buddy"], correctAnswer: "I am writing to...", hint: "Formal opening" },
       { type: 'fill', question: "I look forward to ___ from you. (получить ответ)", correctAnswer: "hearing", hint: "Waiting for reply" },
-      { type: 'quiz', question: "'Negotiation' means:", options: ["Discussion for agreement", "Argument", "Contract signing", "Meeting only"], correctAnswer: "Discussion for agreement", hint: "Reaching a deal" }
+      { type: 'quiz', question: "'Negotiation' means:", options: ["Discussion to reach agreement", "Argument", "Contract signing", "Meeting only"], correctAnswer: "Discussion to reach agreement", hint: "Reaching a deal" },
+      { type: 'fill', question: "Please find the document ___. (во вложении)", correctAnswer: "attached", hint: "Included with email" },
+      { type: 'quiz', question: "'Proposal' means:", options: ["A formal suggestion", "A complaint", "A meeting", "A contract"], correctAnswer: "A formal suggestion", hint: "Business offer" },
+      { type: 'fill', question: "Thank you for your ___. (рассмотрение)", correctAnswer: "consideration", hint: "Reviewing my request" },
+      { type: 'quiz', question: "In business, 'meeting' means:", options: ["A gathering for discussion", "A phone call", "An email", "A contract"], correctAnswer: "A gathering for discussion", hint: "Business gathering" }
     ],
     reward: { stars: 3, message: "Ты готов к деловому общению!" }
   },
@@ -329,7 +1056,11 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "What causes global warming?", options: ["Greenhouse gases", "Recycling", "Wind energy", "Solar panels"], correctAnswer: "Greenhouse gases", hint: "Carbon dioxide, methane" },
       { type: 'fill', question: "___ species are animals at risk of extinction. (исчезающие)", correctAnswer: "Endangered", hint: "In danger" },
       { type: 'quiz', question: "'Deforestation' means:", options: ["Cutting down forests", "Planting trees", "Forest protection", "Forest fire"], correctAnswer: "Cutting down forests", hint: "Removing trees" },
-      { type: 'fill', question: "Pollution causes health ___. (проблемы)", correctAnswer: "problems", hint: "Negative effects" }
+      { type: 'fill', question: "Pollution causes health ___. (проблемы)", correctAnswer: "problems", hint: "Negative effects" },
+      { type: 'quiz', question: "What is 'biodiversity'?", options: ["Variety of life forms", "Type of pollution", "Renewable energy", "Climate change"], correctAnswer: "Variety of life forms", hint: "Many different species" },
+      { type: 'fill', question: "Habitat ___ is when animals lose their homes. (потеря)", correctAnswer: "loss", hint: "Destruction of natural homes" },
+      { type: 'quiz', question: "'Extinction' means:", options: ["Complete disappearance of a species", "Moving to a new place", "Growing population", "Changing habitat"], correctAnswer: "Complete disappearance of a species", hint: "Gone forever" },
+      { type: 'fill', question: "Carbon ___ is the total emissions caused by a person. (след)", correctAnswer: "footprint", hint: "Your environmental impact" }
     ],
     reward: { stars: 3, message: "Ты понимаешь экологические проблемы!" }
   },
@@ -342,7 +1073,11 @@ export const games: GameLesson[] = [
       { type: 'fill', question: "We need to ___ plastic waste. (перерабатывать)", correctAnswer: "recycle", hint: "Process for reuse" },
       { type: 'quiz', question: "What are the 3 R's?", options: ["Reduce, Reuse, Recycle", "Read, Write, Learn", "Run, Walk, Jump", "Red, Green, Blue"], correctAnswer: "Reduce, Reuse, Recycle", hint: "Environmental principles" },
       { type: 'fill', question: "___ energy comes from sun and wind. (возобновляемая)", correctAnswer: "Renewable", hint: "Can be replenished" },
-      { type: 'quiz', question: "'Eco-friendly' means:", options: ["Good for environment", "Expensive", "New product", "Popular"], correctAnswer: "Good for environment", hint: "Environmentally safe" }
+      { type: 'quiz', question: "'Eco-friendly' means:", options: ["Good for the environment", "Expensive", "New product", "Popular"], correctAnswer: "Good for the environment", hint: "Environmentally safe" },
+      { type: 'fill', question: "We should ___ water and electricity. (экономить)", correctAnswer: "save", hint: "Use less" },
+      { type: 'quiz', question: "What is 'sustainable development'?", options: ["Development that meets present needs without harming future", "Fast economic growth", "Industrial expansion", "Population increase"], correctAnswer: "Development that meets present needs without harming future", hint: "Long-term thinking" },
+      { type: 'fill', question: "Solar panels convert sunlight into ___. (энергию)", correctAnswer: "energy", hint: "Power from the sun" },
+      { type: 'quiz', question: "'Conservation' means:", options: ["Protection and preservation", "Destruction", "Pollution", "Consumption"], correctAnswer: "Protection and preservation", hint: "Saving natural resources" }
     ],
     reward: { stars: 3, message: "Ты знаешь, как защитить природу!" }
   },
@@ -355,7 +1090,11 @@ export const games: GameLesson[] = [
       { type: 'fill', question: "A ___ is a daily or weekly publication. (газета)", correctAnswer: "newspaper", hint: "Print media" },
       { type: 'quiz', question: "What is a 'headline'?", options: ["Article title", "First paragraph", "Last paragraph", "Picture"], correctAnswer: "Article title", hint: "Main title" },
       { type: 'fill', question: "A ___ writes articles for media. (журналист)", correctAnswer: "journalist", hint: "Media professional" },
-      { type: 'quiz', question: "'Broadcast' means:", options: ["Transmit on TV/radio", "Print", "Write", "Read"], correctAnswer: "Transmit on TV/radio", hint: "Air transmission" }
+      { type: 'quiz', question: "'Broadcast' means:", options: ["Transmit on TV/radio", "Print", "Write", "Read"], correctAnswer: "Transmit on TV/radio", hint: "Air transmission" },
+      { type: 'fill', question: "The editor ___ the articles before publication. (редактирует)", correctAnswer: "edits", hint: "Makes corrections" },
+      { type: 'quiz', question: "What does a 'correspondent' do?", options: ["Reports from a specific location", "Edits articles", "Prints newspapers", "Manages the company"], correctAnswer: "Reports from a specific location", hint: "Field reporter" },
+      { type: 'fill', question: "Media ___ is how news events are reported. (освещение)", correctAnswer: "coverage", hint: "Reporting of events" },
+      { type: 'quiz', question: "A 'magazine' is:", options: ["A periodic publication with articles and photos", "A daily newspaper", "A radio program", "A TV show"], correctAnswer: "A periodic publication with articles and photos", hint: "Weekly or monthly" }
     ],
     reward: { stars: 3, message: "Ты разбираешься в типах СМИ!" }
   },
@@ -368,7 +1107,11 @@ export const games: GameLesson[] = [
       { type: 'fill', question: "Viral content spreads ___ online. (быстро)", correctAnswer: "quickly", hint: "Becomes popular" },
       { type: 'quiz', question: "What is 'cyberbullying'?", options: ["Online harassment", "Computer virus", "Video game", "Social platform"], correctAnswer: "Online harassment", hint: "Digital bullying" },
       { type: 'fill', question: "Don't share personal ___ online. (информация)", correctAnswer: "information", hint: "Private data" },
-      { type: 'quiz', question: "A 'follower' is:", options: ["Someone who subscribes", "A friend", "Family member", "Coworker"], correctAnswer: "Someone who subscribes", hint: "Social media connection" }
+      { type: 'quiz', question: "A 'follower' is:", options: ["Someone who subscribes to your content", "A friend", "Family member", "Coworker"], correctAnswer: "Someone who subscribes to your content", hint: "Social media connection" },
+      { type: 'fill', question: "An ___ has many followers on social media. (инфлюенсер)", correctAnswer: "influencer", hint: "Popular content creator" },
+      { type: 'quiz', question: "'Fake news' means:", options: ["False information presented as news", "Real news", "Old news", "Sports news"], correctAnswer: "False information presented as news", hint: "Misinformation" },
+      { type: 'fill', question: "Privacy ___ control who can see your posts. (настройки)", correctAnswer: "settings", hint: "Security options" },
+      { type: 'quiz', question: "What is a 'hashtag'?", options: ["A label with # symbol", "A photo", "A video", "A message"], correctAnswer: "A label with # symbol", hint: "Categorizes content" }
     ],
     reward: { stars: 3, message: "Ты безопасно используешь соцсети!" }
   },
@@ -381,7 +1124,11 @@ export const games: GameLesson[] = [
       { type: 'fill', question: "AI stands for Artificial ___ . (интеллект)", correctAnswer: "Intelligence", hint: "Smart machines" },
       { type: 'quiz', question: "What is 'virtual reality'?", options: ["Computer-generated environment", "Real world", "Dream", "Movie"], correctAnswer: "Computer-generated environment", hint: "VR technology" },
       { type: 'fill', question: "___ cars drive without a driver. (автопилотируемые)", correctAnswer: "Self-driving", hint: "Or autonomous" },
-      { type: 'quiz', question: "'Automation' means:", options: ["Machines doing work", "Manual labor", "Working slowly", "No work"], correctAnswer: "Machines doing work", hint: "Automatic processes" }
+      { type: 'quiz', question: "'Automation' means:", options: ["Machines doing work automatically", "Manual labor", "Working slowly", "No work"], correctAnswer: "Machines doing work automatically", hint: "Automatic processes" },
+      { type: 'fill', question: "Machine ___ allows computers to learn from data. (обучение)", correctAnswer: "learning", hint: "AI technology" },
+      { type: 'quiz', question: "What is 'blockchain'?", options: ["A digital ledger technology", "A type of robot", "A video game", "A social network"], correctAnswer: "A digital ledger technology", hint: "Secure record system" },
+      { type: 'fill', question: "Smart ___ have automated systems for lighting and temperature. (дома)", correctAnswer: "homes", hint: "Connected living spaces" },
+      { type: 'quiz', question: "'Innovation' means:", options: ["A new idea or method", "Old technology", "Traditional way", "Problem"], correctAnswer: "A new idea or method", hint: "Creative solution" }
     ],
     reward: { stars: 3, message: "Ты понимаешь технологии будущего!" }
   },
@@ -394,7 +1141,11 @@ export const games: GameLesson[] = [
       { type: 'fill', question: "Use strong ___ to protect accounts. (пароли)", correctAnswer: "passwords", hint: "Security codes" },
       { type: 'quiz', question: "What is 'phishing'?", options: ["Fake emails to steal data", "Fishing hobby", "Computer game", "Website design"], correctAnswer: "Fake emails to steal data", hint: "Online scam" },
       { type: 'fill', question: "Create a ___ of important files. (резервную копию)", correctAnswer: "backup", hint: "Extra copy" },
-      { type: 'quiz', question: "'Encryption' means:", options: ["Coding data for security", "Deleting files", "Opening files", "Sharing files"], correctAnswer: "Coding data for security", hint: "Data protection" }
+      { type: 'quiz', question: "'Encryption' means:", options: ["Coding data for security", "Deleting files", "Opening files", "Sharing files"], correctAnswer: "Coding data for security", hint: "Data protection" },
+      { type: 'fill', question: "___ is software that harms your computer. (вредоносное ПО)", correctAnswer: "Malware", hint: "Viruses and trojans" },
+      { type: 'quiz', question: "What is 'two-factor authentication'?", options: ["Extra security layer for login", "Two passwords", "Two computers", "Two users"], correctAnswer: "Extra security layer for login", hint: "Additional verification" },
+      { type: 'fill', question: "Your digital ___ is all the information about you online. (след)", correctAnswer: "footprint", hint: "Online presence" },
+      { type: 'quiz', question: "A 'firewall' is:", options: ["Security system for networks", "A type of virus", "A website", "An email"], correctAnswer: "Security system for networks", hint: "Network protection" }
     ],
     reward: { stars: 3, message: "Ты цифровой грамотный пользователь!" }
   }
