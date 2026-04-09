@@ -1425,7 +1425,6 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Сколько процентов доходов рекомендуется откладывать?",
-        options: "1-5%",
         options: ["1-5%", "10-20%", "30-40%", "50%"],
         correctAnswer: "10-20%",
         hint: "Минимум десятую часть"
