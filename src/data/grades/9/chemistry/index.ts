@@ -490,20 +490,20 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь строение атома! ⚛️" }
   },
   {
-    title: "Периодическая система",
+    title: "Периодический закон",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Кто создал Периодическую систему?", options: ["Ньютон", "Менделеев", "Эйнштейн", "Ломоносов"], correctAnswer: "Менделеев", hint: "Русский учёный, 1869 год" },
+      { type: 'quiz', question: "Кто открыл периодический закон?", options: ["Ньютон", "Менделеев", "Эйнштейн", "Ломоносов"], correctAnswer: "Менделеев", hint: "Русский учёный, 1869 год" },
       { type: 'quiz', question: "В периоде слева направо металлические свойства:", options: ["Усиливаются", "Ослабевают", "Не меняются", "Исчезают"], correctAnswer: "Ослабевают", hint: "Металлы слева, неметаллы справа" },
-      { type: 'find', question: "Выбери щелочные металлы:", options: ["Na", "K", "Fe", "Li", "Cu"], correctAnswer: ["Na", "K", "Li"], hint: "1 группа, металлы" },
-      { type: 'fill', question: "Элемент с Z = 17 называется __", correctAnswer: "хлор", hint: "Cl — неметалл" }
+      { type: 'quiz', question: "В группе сверху вниз металлические свойства:", options: ["Усиливаются", "Ослабевают", "Не меняются", "Исчезают"], correctAnswer: "Усиливаются", hint: "Радиус атома увеличивается" },
+      { type: 'fill', question: "Номер группы показывает число __ электронов", correctAnswer: "валентных", hint: "На внешнем уровне" }
     ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь таблицу Менделеева! 📊" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь периодический закон! 📊" }
   },
   {
-    title: "Химическая связь",
+    title: "Типы химической связи",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-emerald-400",
@@ -516,7 +516,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь типы связи! 🔗" }
   },
   {
-    title: "Типы реакций",
+    title: "Типы химических реакций",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-emerald-400",
@@ -529,7 +529,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь типы реакций! 🧪" }
   },
   {
-    title: "Растворы",
+    title: "Растворы и их свойства",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-emerald-400",
@@ -542,7 +542,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь растворы! 🧫" }
   },
   {
-    title: "Массовая доля",
+    title: "Массовая доля вещества в растворе",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-emerald-400",

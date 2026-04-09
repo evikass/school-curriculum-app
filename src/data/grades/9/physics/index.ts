@@ -698,20 +698,59 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь законы Ньютона! 🍎" }
   },
   {
-    title: "Импульс и энергия",
+    title: "Движение тела под действием силы тяжести",
+    subject: "Физика",
+    icon: "Atom",
+    color: "text-purple-400",
+    tasks: [
+      { type: 'fill', question: "Ускорение свободного падения g ≈ __ м/с²", correctAnswer: "9,8", hint: "На поверхности Земли" },
+      { type: 'quiz', question: "Максимальная высота при броске вверх: H =", options: ["v₀²/g", "v₀²/(2g)", "2v₀/g", "v₀/g"], correctAnswer: "v₀²/(2g)", hint: "Кинетическая переходит в потенциальную" },
+      { type: 'quiz', question: "При каком угле броска дальность полёта максимальна?", options: ["30°", "45°", "60°", "90°"], correctAnswer: "45°", hint: "Оптимальный угол" },
+      { type: 'fill', question: "Время подъёма тела, брошенного вверх: t = v₀/__", correctAnswer: "g", hint: "До остановки" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты понимаешь движение тел! 🚀" }
+  },
+  {
+    title: "Импульс тела. Закон сохранения импульса",
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
     tasks: [
       { type: 'quiz', question: "Формула импульса:", options: ["p = mv", "p = ma", "p = F/t", "p = mgh"], correctAnswer: "p = mv", hint: "Масса × скорость" },
-      { type: 'quiz', question: "Кинетическая энергия:", options: ["mgh", "mv²/2", "kx²/2", "mv"], correctAnswer: "mv²/2", hint: "Энергия движения" },
-      { type: 'fill', question: "Потенциальная энергия поднятого тела: Eп = m__", correctAnswer: "gh", hint: "Масса × g × высота" },
-      { type: 'quiz', question: "Закон сохранения энергии:", options: ["Eк уменьшается", "Eп увеличивается", "Eк + Eп = const", "Eк = Eп"], correctAnswer: "Eк + Eп = const", hint: "Полная энергия постоянна" }
+      { type: 'quiz', question: "Закон сохранения импульса выполняется для:", options: ["Любой системы", "Замкнутой системы", "Открытой системы", "Неподвижных тел"], correctAnswer: "Замкнутой системы", hint: "Без внешних сил" },
+      { type: 'fill', question: "Второй закон Ньютона в импульсной форме: F = Δp/__", correctAnswer: "Δt", hint: "Изменение импульса за время" },
+      { type: 'quiz', question: "Пример реактивного движения:", options: ["Автомобиль", "Ракета", "Поезд", "Велосипед"], correctAnswer: "Ракета", hint: "Отдача при выбросе газов" }
     ],
-    reward: { stars: 3, message: "Супер! Ты понимаешь сохранение! ⚡" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь импульс! ⚡" }
   },
   {
-    title: "Колебания и волны",
+    title: "Механическая работа и мощность",
+    subject: "Физика",
+    icon: "Atom",
+    color: "text-purple-400",
+    tasks: [
+      { type: 'fill', question: "Формула работы: A = F · s · __ α", correctAnswer: "cos", hint: "Угол между силой и перемещением" },
+      { type: 'quiz', question: "Работа равна нулю, когда сила направлена:", options: ["По движению", "Против движения", "Перпендикулярно движению", "Под углом 45°"], correctAnswer: "Перпендикулярно движению", hint: "cos 90° = 0" },
+      { type: 'quiz', question: "Формула мощности:", options: ["N = A·t", "N = A/t", "N = F/s", "N = F·s"], correctAnswer: "N = A/t", hint: "Работа за время" },
+      { type: 'fill', question: "КПД = Aполезная / Aзатраченная × __%", correctAnswer: "100", hint: "В процентах" }
+    ],
+    reward: { stars: 3, message: "Круто! Ты знаешь работу и мощность! 💪" }
+  },
+  {
+    title: "Энергия. Закон сохранения энергии",
+    subject: "Физика",
+    icon: "Atom",
+    color: "text-purple-400",
+    tasks: [
+      { type: 'quiz', question: "Кинетическая энергия:", options: ["mgh", "mv²/2", "kx²/2", "mv"], correctAnswer: "mv²/2", hint: "Энергия движения" },
+      { type: 'fill', question: "Потенциальная энергия поднятого тела: Eп = m__", correctAnswer: "gh", hint: "Масса × g × высота" },
+      { type: 'quiz', question: "Закон сохранения энергии:", options: ["Eк уменьшается", "Eп увеличивается", "Eк + Eп = const", "Eк = Eп"], correctAnswer: "Eк + Eп = const", hint: "Полная энергия постоянна" },
+      { type: 'quiz', question: "Скорость тела, падающего с высоты H:", options: ["√(gH)", "√(2gH)", "gH", "2gH"], correctAnswer: "√(2gH)", hint: "Из закона сохранения энергии" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты понимаешь энергию! ⚡" }
+  },
+  {
+    title: "Механические колебания",
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -719,9 +758,22 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Период колебаний — это:", options: ["Число колебаний в секунду", "Время одного колебания", "Амплитуда", "Частота"], correctAnswer: "Время одного колебания", hint: "Время одного полного колебания" },
       { type: 'quiz', question: "Период математического маятника:", options: ["2π√(m/k)", "2π√(l/g)", "√(l/g)", "2π/l"], correctAnswer: "2π√(l/g)", hint: "Длина и g" },
       { type: 'fill', question: "Частота и период: ν = 1/__", correctAnswer: "T", hint: "Обратная величина" },
-      { type: 'quiz', question: "Длина волны:", options: ["λ = vT", "λ = v/T", "λ = vT²", "λ = v + T"], correctAnswer: "λ = vT", hint: "Скорость × период" }
+      { type: 'quiz', question: "Период пружинного маятника:", options: ["2π√(m/k)", "2π√(k/m)", "√(m/k)", "2πm/k"], correctAnswer: "2π√(m/k)", hint: "Масса и жёсткость" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь колебания! 🌊" }
+  },
+  {
+    title: "Механические волны",
+    subject: "Физика",
+    icon: "Atom",
+    color: "text-purple-400",
+    tasks: [
+      { type: 'quiz', question: "Длина волны:", options: ["λ = vT", "λ = v/T", "λ = vT²", "λ = v + T"], correctAnswer: "λ = vT", hint: "Скорость × период" },
+      { type: 'quiz', question: "Поперечные волны — это волны, в которых частицы колеблются:", options: ["Вдоль направления волны", "Перпендикулярно направлению волны", "По кругу", "Хаотично"], correctAnswer: "Перпендикулярно направлению волны", hint: "Например, волны на воде" },
+      { type: 'fill', question: "Диапазон слышимости: от 20 Гц до __ Гц", correctAnswer: "20000", hint: "20 кГц" },
+      { type: 'quiz', question: "Высота тона звука зависит от:", options: ["Амплитуды", "Частоты", "Громкости", "Длительности"], correctAnswer: "Частоты", hint: "Чем выше частота, тем выше тон" }
+    ],
+    reward: { stars: 3, message: "Круто! Ты знаешь волны! 📻" }
   },
   {
     title: "Магнитное поле",
@@ -737,7 +789,20 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Круто! Ты знаешь магнетизм! 🧲" }
   },
   {
-    title: "Атом и радиоактивность",
+    title: "Электромагнитная индукция",
+    subject: "Физика",
+    icon: "Atom",
+    color: "text-purple-400",
+    tasks: [
+      { type: 'quiz', question: "Электромагнитная индукция — это возникновение:", options: ["Магнитного поля", "Электрического тока при изменении магнитного потока", "Тепла", "Света"], correctAnswer: "Электрического тока при изменении магнитного потока", hint: "Открыл Фарадей" },
+      { type: 'fill', question: "Магнитный поток: Φ = BS__ α", correctAnswer: "cos", hint: "Угол между нормалью и линиями" },
+      { type: 'quiz', question: "Закон Фарадея: ЭДС индукции равна:", options: ["Магнитному потоку", "Скорости изменения магнитного потока", "Силе тока", "Индуктивности"], correctAnswer: "Скорости изменения магнитного потока", hint: "ε = -ΔΦ/Δt" },
+      { type: 'quiz', question: "Правило Ленца определяет:", options: ["Величину ЭДС", "Направление индукционного тока", "Скорость тока", "Мощность"], correctAnswer: "Направление индукционного тока", hint: "Препятствует изменению потока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь индукцию! ⚡" }
+  },
+  {
+    title: "Строение атома. Радиоактивность",
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
