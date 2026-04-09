@@ -221,184 +221,452 @@ const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Алгоритмы и сложность",
+    title: "Сложность алгоритмов",
     subject: "Программирование",
-    icon: "Binary",
+    icon: "Activity",
     color: "text-indigo-400",
     tasks: [
-      { 
-        type: 'quiz', 
-        question: 'Какая сложность у быстрой сортировки в среднем случае?', 
-        options: ['O(n)', 'O(n log n)', 'O(n²)', 'O(log n)'], 
-        correctAnswer: 'O(n log n)', 
-        hint: 'Быстрая сортировка эффективна благодаря разделению массива' 
-      },
-      { 
-        type: 'quiz', 
-        question: 'Что означает LIFO в контексте стека?', 
-        options: ['Last In, First Out', 'Last In, First Order', 'List In, First Out', 'Large Input, Fast Output'], 
-        correctAnswer: 'Last In, First Out', 
-        hint: 'Последний пришёл — первый вышел' 
-      },
-      { 
-        type: 'fill', 
-        question: 'Линейная сложность алгоритма обозначается как O(___)', 
-        correctAnswer: 'n', 
-        hint: 'Время растёт пропорционально размеру данных' 
-      },
-      { 
-        type: 'match', 
-        question: 'Соедини структуру данных с её принципом:', 
-        options: ['Стек', 'Очередь', 'Дек', 'Список'], 
-        correctAnswer: ['LIFO', 'FIFO', 'Оба направления', 'Произвольный доступ'], 
-        hint: 'Каждая структура имеет свой способ работы с данными' 
-      }
+      { type: 'quiz', question: 'Какая сложность означает константное время?', options: ['O(1)', 'O(n)', 'O(n²)', 'O(log n)'], correctAnswer: 'O(1)', hint: 'Не зависит от размера данных' },
+      { type: 'fill', question: 'Линейная сложность обозначается как O(___).', correctAnswer: 'n', hint: 'Время растёт пропорционально данным' },
+      { type: 'quiz', question: 'Какая сложность у пузырьковой сортировки?', options: ['O(n²)', 'O(n)', 'O(log n)', 'O(1)'], correctAnswer: 'O(n²)', hint: 'Два вложенных цикла' },
+      { type: 'fill', question: 'Сложность O(log n) — ___ сложность.', correctAnswer: 'логарифмическая', hint: 'Бинарный поиск' },
+      { type: 'quiz', question: 'O(n log n) — сложность:', options: ['Быстрой сортировки', 'Пузырьковой', 'Линейного поиска', 'Константная'], correctAnswer: 'Быстрой сортировки', hint: 'Эффективный алгоритм' }
     ],
-    reward: { stars: 3, message: "Ты понимаешь алгоритмы! 🧮" }
+    reward: { stars: 3, message: "Ты понимаешь сложность алгоритмов! 📊" }
   },
   {
-    title: "Объектно-ориентированное программирование",
+    title: "Сортировка данных",
+    subject: "Программирование",
+    icon: "ArrowUpDown",
+    color: "text-blue-400",
+    tasks: [
+      { type: 'fill', question: 'Упорядочивание элементов — это ___ .', correctAnswer: 'сортировка', hint: 'Расстановка по порядку' },
+      { type: 'quiz', question: 'Какой алгоритм сортировки самый простой?', options: ['Пузырьковый', 'Быстрый', 'Слиянием', 'Пирамидальный'], correctAnswer: 'Пузырьковый', hint: 'Но медленный O(n²)' },
+      { type: 'fill', question: 'Быстрая сортировка работает за O(n log ___).', correctAnswer: 'n', hint: 'В среднем случае' },
+      { type: 'quiz', question: 'Сортировка выбором:', options: ['Находит минимум и ставит в начало', 'Меняет соседние элементы', 'Делит массив пополам', 'Использует пирамиду'], correctAnswer: 'Находит минимум и ставит в начало', hint: 'Постепенно заполняем начало' },
+      { type: 'fill', question: 'Сортировка слиянием — ___ алгоритм.', correctAnswer: 'стабильный', hint: 'Сохраняет порядок равных' }
+    ],
+    reward: { stars: 3, message: "Ты понимаешь сортировку! 🔄" }
+  },
+  {
+    title: "Стек и очередь",
+    subject: "Программирование",
+    icon: "Layers",
+    color: "text-purple-400",
+    tasks: [
+      { type: 'fill', question: 'LIFO расшифровывается как Last In, First ___ .', correctAnswer: 'Out', hint: 'Последний пришёл — первый вышел' },
+      { type: 'quiz', question: 'Стек работает по принципу:', options: ['LIFO', 'FIFO', 'LILO', 'FILO'], correctAnswer: 'LIFO', hint: 'Стек блюд' },
+      { type: 'fill', question: 'Операция добавления в стек — ___ .', correctAnswer: 'push', hint: 'Поместить наверх' },
+      { type: 'quiz', question: 'Очередь работает по принципу:', options: ['FIFO', 'LIFO', 'LILO', 'FILO'], correctAnswer: 'FIFO', hint: 'Очередь в магазине' },
+      { type: 'fill', question: 'Операция удаления из очереди — ___ .', correctAnswer: 'dequeue', hint: 'Убрать из начала' }
+    ],
+    reward: { stars: 3, message: "Ты понимаешь стек и очередь! 📚" }
+  },
+  {
+    title: "Деревья и графы",
+    subject: "Программирование",
+    icon: "GitBranch",
+    color: "text-green-400",
+    tasks: [
+      { type: 'fill', question: 'Дерево — ___ структура с корнем и узлами.', correctAnswer: 'иерархическая', hint: 'Один корень, много ветвей' },
+      { type: 'quiz', question: 'Бинарное дерево имеет не более:', options: ['Двух детей у узла', 'Одного ребёнка', 'Трёх детей', 'Любое количество'], correctAnswer: 'Двух детей у узла', hint: 'Бинарное = двоичное' },
+      { type: 'fill', question: 'Граф — набор вершин и ___ .', correctAnswer: 'рёбер', hint: 'Связи между вершинами' },
+      { type: 'quiz', question: 'BFS — это поиск:', options: ['В ширину', 'В глубину', 'Бинарный', 'Линейный'], correctAnswer: 'В ширину', hint: 'Breadth-First Search' },
+      { type: 'fill', question: 'DFS — поиск в ___ .', correctAnswer: 'глубину', hint: 'Deep-First Search' }
+    ],
+    reward: { stars: 3, message: "Ты понимаешь деревья и графы! 🌳" }
+  },
+  {
+    title: "Классы и объекты",
     subject: "Программирование",
     icon: "Box",
     color: "text-emerald-400",
     tasks: [
-      { 
-        type: 'quiz', 
-        question: 'Что такое инкапсуляция в ООП?', 
-        options: ['Создание объектов', 'Скрытие внутренней реализации', 'Наследование свойств', 'Полиморфизм методов'], 
-        correctAnswer: 'Скрытие внутренней реализации', 
-        hint: 'Инкапсуляция защищает данные от внешнего воздействия' 
-      },
-      { 
-        type: 'fill', 
-        question: 'Метод ___ в Python ссылается на текущий объект.', 
-        correctAnswer: 'self', 
-        hint: 'Это ключевое слово для обращения к атрибутам объекта' 
-      },
-      { 
-        type: 'match', 
-        question: 'Соедини принцип ООП с описанием:', 
-        options: ['Инкапсуляция', 'Наследование', 'Полиморфизм', 'Абстракция'], 
-        correctAnswer: ['Скрытие деталей', 'Передача свойств', 'Разные формы', 'Упрощение модели'], 
-        hint: 'Четыре основных принципа ООП' 
-      },
-      { 
-        type: 'find', 
-        question: 'Выбери правильные утверждения об ООП:', 
-        options: ['Класс — шаблон для объектов', 'Объект — экземпляр класса', 'Метод — переменная класса', 'Атрибут — функция класса', 'Конструктор создаёт объект', 'self — это класс'], 
-        correctAnswer: ['Класс — шаблон для объектов', 'Объект — экземпляр класса', 'Конструктор создаёт объект'], 
-        hint: 'Внимательно проверь каждое утверждение' 
-      }
+      { type: 'fill', question: 'Класс — это ___ для создания объектов.', correctAnswer: 'шаблон', hint: 'Чертёж' },
+      { type: 'quiz', question: 'Объект — это:', options: ['Экземпляр класса', 'Шаблон класса', 'Метод класса', 'Атрибут класса'], correctAnswer: 'Экземпляр класса', hint: 'Конкретный представитель' },
+      { type: 'fill', question: '___ в Python ссылается на текущий объект.', correctAnswer: 'self', hint: 'Ключевое слово' },
+      { type: 'quiz', question: 'Конструктор — это метод:', options: ['Для создания объекта', 'Для удаления объекта', 'Для копирования', 'Для сравнения'], correctAnswer: 'Для создания объекта', hint: '__init__ в Python' },
+      { type: 'fill', question: 'Атрибуты — это ___ класса.', correctAnswer: 'свойства', hint: 'Данные объекта' }
     ],
-    reward: { stars: 3, message: "Ты понимаешь ООП! 📦" }
+    reward: { stars: 3, message: "Ты понимаешь классы и объекты! 📦" }
   },
   {
-    title: "Базы данных и SQL",
+    title: "Инкапсуляция",
     subject: "Программирование",
-    icon: "Database",
-    color: "text-orange-400",
-    tasks: [
-      { 
-        type: 'quiz', 
-        question: 'Какая команда SQL выбирает данные из таблицы?', 
-        options: ['GET', 'SELECT', 'FETCH', 'RETRIEVE'], 
-        correctAnswer: 'SELECT', 
-        hint: 'Эта команда используется для чтения данных' 
-      },
-      { 
-        type: 'fill', 
-        question: 'SQL-команда ___ добавляет данные в таблицу.', 
-        correctAnswer: 'INSERT', 
-        hint: 'Команда вставляет новые записи' 
-      },
-      { 
-        type: 'match', 
-        question: 'Соедини SQL-команду с её действием:', 
-        options: ['SELECT', 'INSERT', 'UPDATE', 'DELETE'], 
-        correctAnswer: ['Выбрать данные', 'Добавить данные', 'Изменить данные', 'Удалить данные'], 
-        hint: 'Это основные команды для работы с данными' 
-      },
-      { 
-        type: 'find', 
-        question: 'Выбери ключевые слова SQL:', 
-        options: ['SELECT', 'FROM', 'WHERE', 'PRINT', 'IF', 'ORDER BY'], 
-        correctAnswer: ['SELECT', 'FROM', 'WHERE', 'ORDER BY'], 
-        hint: 'Это ключевые слова для построения запросов' 
-      }
-    ],
-    reward: { stars: 3, message: "Ты умеешь работать с базами данных! 💾" }
-  },
-  {
-    title: "Веб-разработка",
-    subject: "Программирование",
-    icon: "Globe",
-    color: "text-blue-400",
-    tasks: [
-      { 
-        type: 'quiz', 
-        question: 'Какой тег используется для создания ссылки в HTML?', 
-        options: ['<link>', '<a>', '<href>', '<url>'], 
-        correctAnswer: '<a>', 
-        hint: 'Тег anchor (якорь) создаёт гиперссылки' 
-      },
-      { 
-        type: 'fill', 
-        question: 'В Flask декоратор @app.___("/") определяет маршрут.', 
-        correctAnswer: 'route', 
-        hint: 'Этот декоратор связывает URL с функцией-обработчиком' 
-      },
-      { 
-        type: 'match', 
-        question: 'Соедини технологию с её назначением:', 
-        options: ['HTML', 'CSS', 'JavaScript', 'Flask'], 
-        correctAnswer: ['Структура страницы', 'Оформление', 'Интерактивность', 'Серверный фреймворк'], 
-        hint: 'Каждая технология отвечает за свой слой веб-приложения' 
-      },
-      { 
-        type: 'find', 
-        question: 'Выбери HTML-теги:', 
-        options: ['<div>', '<box>', '<span>', '<container>', '<p>', '<paragraph>'], 
-        correctAnswer: ['<div>', '<span>', '<p>'], 
-        hint: 'Проверь, какие теги реально существуют в HTML' 
-      }
-    ],
-    reward: { stars: 3, message: "Ты понимаешь веб-разработку! 🌐" }
-  },
-  {
-    title: "Git и контроль версий",
-    subject: "Программирование",
-    icon: "GitBranch",
+    icon: "Lock",
     color: "text-red-400",
     tasks: [
-      { 
-        type: 'quiz', 
-        question: 'Какая команда Git создаёт новую ветку?', 
-        options: ['git new', 'git branch', 'git create', 'git fork'], 
-        correctAnswer: 'git branch', 
-        hint: 'Эта команда управляет ветками в репозитории' 
-      },
-      { 
-        type: 'fill', 
-        question: 'Команда git ___ отправляет изменения на GitHub.', 
-        correctAnswer: 'push', 
-        hint: 'Эта команда "толкает" изменения на удалённый сервер' 
-      },
-      { 
-        type: 'match', 
-        question: 'Соедини Git-команду с её действием:', 
-        options: ['git add', 'git commit', 'git push', 'git pull'], 
-        correctAnswer: ['Добавить в индекс', 'Зафиксировать', 'Отправить', 'Получить'], 
-        hint: 'Это основные команды для работы с репозиторием' 
-      },
-      { 
-        type: 'find', 
-        question: 'Выбери команды Git:', 
-        options: ['git init', 'git start', 'git clone', 'git copy', 'git merge', 'git combine'], 
-        correctAnswer: ['git init', 'git clone', 'git merge'], 
-        hint: 'Проверь, какие команды реально существуют в Git' 
-      }
+      { type: 'fill', question: 'Инкапсуляция — ___ внутренней реализации.', correctAnswer: 'скрытие', hint: 'Защита данных' },
+      { type: 'quiz', question: 'Приватные атрибуты в Python начинаются с:', options: ['_', '__', '@', '#'], correctAnswer: '_', hint: 'Одно или два подчёркивания' },
+      { type: 'fill', question: '___ контролируют доступ к атрибутам.', correctAnswer: 'свойства', hint: 'property в Python' },
+      { type: 'quiz', question: 'Публичные атрибуты:', options: ['Доступны извне', 'Скрыты', 'Только для чтения', 'Удалены'], correctAnswer: 'Доступны извне', hint: 'Без ограничений' },
+      { type: 'fill', question: 'Инкапсуляция защищает данные от ___ изменения.', correctAnswer: 'некорректного', hint: 'Безопасность' }
     ],
-    reward: { stars: 3, message: "Ты умеешь работать с Git! 🔀" }
+    reward: { stars: 3, message: "Ты понимаешь инкапсуляцию! 🔒" }
+  },
+  {
+    title: "Наследование",
+    subject: "Программирование",
+    icon: "GitMerge",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'fill', question: 'Наследование — создание нового класса на основе ___ .', correctAnswer: 'существующего', hint: 'Базовый класс' },
+      { type: 'quiz', question: 'Родительский класс также называют:', options: ['Базовым', 'Производным', 'Дочерним', 'Наследником'], correctAnswer: 'Базовым', hint: 'Основа' },
+      { type: 'fill', question: '___ вызывает метод родительского класса.', correctAnswer: 'super()', hint: 'Функция в Python' },
+      { type: 'quiz', question: 'Переопределение методов — это:', options: ['Изменение поведения', 'Удаление метода', 'Добавление метода', 'Копирование метода'], correctAnswer: 'Изменение поведения', hint: 'Новая реализация' },
+      { type: 'fill', question: 'Дочерний класс ___ родительский.', correctAnswer: 'расширяет', hint: 'Добавляет функциональность' }
+    ],
+    reward: { stars: 3, message: "Ты понимаешь наследование! 🔀" }
+  },
+  {
+    title: "Полиморфизм",
+    subject: "Программирование",
+    icon: "Copy",
+    color: "text-cyan-400",
+    tasks: [
+      { type: 'fill', question: 'Полиморфизм — единый ___ для разных форм.', correctAnswer: 'интерфейс', hint: 'Один метод — разное поведение' },
+      { type: 'quiz', question: 'Методы с одинаковым именем в разных классах:', options: ['Работают по-разному', 'Одинаково', 'Не работают', 'Дублируются'], correctAnswer: 'Работают по-разному', hint: 'Суть полиморфизма' },
+      { type: 'fill', question: '___ классы определяют интерфейс без реализации.', correctAnswer: 'Абстрактные', hint: 'ABC в Python' },
+      { type: 'quiz', question: 'Полиморфизм позволяет:', options: ['Работать с разными классами одинаково', 'Создавать классы', 'Удалять методы', 'Копировать объекты'], correctAnswer: 'Работать с разными классами одинаково', hint: 'Гибкость кода' },
+      { type: 'fill', question: 'Полиморфизм ___ код.', correctAnswer: 'упрощает', hint: 'Удобство' }
+    ],
+    reward: { stars: 3, message: "Ты понимаешь полиморфизм! 🎭" }
+  },
+  {
+    title: "Чтение и запись файлов",
+    subject: "Программирование",
+    icon: "FileText",
+    color: "text-yellow-400",
+    tasks: [
+      { type: 'fill', question: 'Файлы хранят данные между ___ программы.', correctAnswer: 'запусками', hint: 'Сохранение' },
+      { type: 'quiz', question: 'Режим "r" означает:', options: ['Чтение', 'Запись', 'Добавление', 'Удаление'], correctAnswer: 'Чтение', hint: 'Read' },
+      { type: 'fill', question: 'Режим "w" — ___ в файл.', correctAnswer: 'запись', hint: 'Write' },
+      { type: 'quiz', question: 'with автоматически:', options: ['Закрывает файл', 'Открывает файл', 'Читает файл', 'Удаляет файл'], correctAnswer: 'Закрывает файл', hint: 'Контекстный менеджер' },
+      { type: 'fill', question: '___ () читает весь файл.', correctAnswer: 'read', hint: 'Одним вызовом' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь работать с файлами! 📄" }
+  },
+  {
+    title: "Работа с CSV и JSON",
+    subject: "Программирование",
+    icon: "FileJson",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'fill', question: 'CSV — формат ___ данных.', correctAnswer: 'табличных', hint: 'Разделённые запятыми' },
+      { type: 'quiz', question: 'JSON поддерживает:', options: ['Объекты и массивы', 'Только строки', 'Только числа', 'Только булевы'], correctAnswer: 'Объекты и массивы', hint: 'Структурированные данные' },
+      { type: 'fill', question: 'json.___() преобразует объект в строку.', correctAnswer: 'dumps', hint: 'Сериализация' },
+      { type: 'quiz', question: 'json.loads() выполняет:', options: ['Десериализацию', 'Сериализацию', 'Удаление', 'Чтение файла'], correctAnswer: 'Десериализацию', hint: 'Строка в объект' },
+      { type: 'fill', question: 'CSV расшифровывается как Comma-Separated ___ .', correctAnswer: 'Values', hint: 'Значения' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь работать с CSV и JSON! 📋" }
+  },
+  {
+    title: "Основы SQL",
+    subject: "Программирование",
+    icon: "Database",
+    color: "text-blue-500",
+    tasks: [
+      { type: 'fill', question: 'SQL — язык ___ к базам данных.', correctAnswer: 'запросов', hint: 'Structured Query Language' },
+      { type: 'quiz', question: 'SELECT — это:', options: ['Выборка данных', 'Добавление данных', 'Удаление данных', 'Обновление данных'], correctAnswer: 'Выборка данных', hint: 'Чтение из таблицы' },
+      { type: 'fill', question: 'INSERT ___ добавляет данные.', correctAnswer: 'INTO', hint: 'Вставить в таблицу' },
+      { type: 'quiz', question: 'DELETE удаляет:', options: ['Данные', 'Таблицу', 'Базу', 'Столбец'], correctAnswer: 'Данные', hint: 'С условием WHERE' },
+      { type: 'fill', question: 'WHERE — условие ___ .', correctAnswer: 'фильтрации', hint: 'Отбор записей' }
+    ],
+    reward: { stars: 3, message: "Ты знаешь основы SQL! 💾" }
+  },
+  {
+    title: "SQLite в Python",
+    subject: "Программирование",
+    icon: "HardDrive",
+    color: "text-slate-400",
+    tasks: [
+      { type: 'fill', question: 'SQLite — ___ база данных.', correctAnswer: 'встроенная', hint: 'Не требует сервера' },
+      { type: 'quiz', question: 'Модуль для работы с SQLite:', options: ['sqlite3', 'sql', 'database', 'db'], correctAnswer: 'sqlite3', hint: 'Стандартная библиотека' },
+      { type: 'fill', question: 'sqlite3.___() создаёт соединение.', correctAnswer: 'connect', hint: 'Подключение к БД' },
+      { type: 'quiz', question: 'Курсор используется для:', options: ['Выполнения запросов', 'Создания БД', 'Закрытия БД', 'Резервного копирования'], correctAnswer: 'Выполнения запросов', hint: 'cursor.execute()' },
+      { type: 'fill', question: 'fetchall() возвращает все ___ .', correctAnswer: 'результаты', hint: 'Список записей' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь работать с SQLite! 🗄️" }
+  },
+  {
+    title: "Основы HTML",
+    subject: "Программирование",
+    icon: "Code",
+    color: "text-orange-500",
+    tasks: [
+      { type: 'fill', question: 'HTML — язык ___ веб-страниц.', correctAnswer: 'разметки', hint: 'Структура страницы' },
+      { type: 'quiz', question: 'Тег для заголовка:', options: ['<h1>', '<header>', '<heading>', '<title>'], correctAnswer: '<h1>', hint: 'От h1 до h6' },
+      { type: 'fill', question: 'Тег <___> создаёт ссылку.', correctAnswer: 'a', hint: 'Anchor' },
+      { type: 'quiz', question: 'Атрибут для адреса ссылки:', options: ['href', 'src', 'link', 'url'], correctAnswer: 'href', hint: 'Hypertext Reference' },
+      { type: 'fill', question: '<img> — тег для ___ .', correctAnswer: 'изображения', hint: 'Picture' }
+    ],
+    reward: { stars: 3, message: "Ты знаешь основы HTML! 🌐" }
+  },
+  {
+    title: "CSS для стилизации",
+    subject: "Программирование",
+    icon: "Palette",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'fill', question: 'CSS — ___ таблицы стилей.', correctAnswer: 'каскадные', hint: 'Cascading Style Sheets' },
+      { type: 'quiz', question: 'Селектор по классу:', options: ['.class', '#class', 'class', '@class'], correctAnswer: '.class', hint: 'Точка перед именем' },
+      { type: 'fill', question: 'Box model: content, padding, border, ___ .', correctAnswer: 'margin', hint: 'Внешний отступ' },
+      { type: 'quiz', question: 'Flexbox используется для:', options: ['Вёрстки', 'Анимации', 'Форм', 'Базы данных'], correctAnswer: 'Вёрстки', hint: 'Расположение элементов' },
+      { type: 'fill', question: 'Свойство color изменяет ___ текста.', correctAnswer: 'цвет', hint: 'Оформление' }
+    ],
+    reward: { stars: 3, message: "Ты знаешь CSS! 🎨" }
+  },
+  {
+    title: "Flask: создание веб-приложения",
+    subject: "Программирование",
+    icon: "Flame",
+    color: "text-gray-400",
+    tasks: [
+      { type: 'fill', question: 'Flask — ___ для веб-приложений.', correctAnswer: 'микрофреймворк', hint: 'Лёгкий фреймворк' },
+      { type: 'quiz', question: 'Декоратор для маршрута:', options: ['@app.route', '@route', '@url', '@path'], correctAnswer: '@app.route', hint: 'Связывает URL с функцией' },
+      { type: 'fill', question: 'render___() возвращает HTML-шаблон.', correctAnswer: 'template', hint: 'Рендеринг' },
+      { type: 'quiz', question: 'app.run() запускает:', options: ['Сервер', 'Базу данных', 'Тесты', 'Компилятор'], correctAnswer: 'Сервер', hint: 'Локальный сервер' },
+      { type: 'fill', question: 'request содержит ___ запроса.', correctAnswer: 'данные', hint: 'Информация от клиента' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь создавать веб-приложения! 🔥" }
+  },
+  {
+    title: "Формы и обработка данных",
+    subject: "Программирование",
+    icon: "FileInput",
+    color: "text-teal-400",
+    tasks: [
+      { type: 'fill', question: 'HTML-формы ___ данные пользователя.', correctAnswer: 'собирают', hint: 'Ввод информации' },
+      { type: 'quiz', question: 'Метод POST:', options: ['Отправляет данные', 'Запрашивает данные', 'Удаляет данные', 'Обновляет данные'], correctAnswer: 'Отправляет данные', hint: 'Передача на сервер' },
+      { type: 'fill', question: '<input> — поле для ___ .', correctAnswer: 'ввода', hint: 'Текст, число, файл' },
+      { type: 'quiz', question: 'Валидация — это:', options: ['Проверка корректности', 'Отправка данных', 'Сохранение данных', 'Удаление данных'], correctAnswer: 'Проверка корректности', hint: 'Правильность данных' },
+      { type: 'fill', question: 'request.___ содержит данные формы.', correctAnswer: 'form', hint: 'В Flask' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь работать с формами! 📝" }
+  },
+  {
+    title: "Библиотека Tkinter",
+    subject: "Программирование",
+    icon: "Layout",
+    color: "text-violet-400",
+    tasks: [
+      { type: 'fill', question: 'Tkinter — библиотека для ___ интерфейса.', correctAnswer: 'графического', hint: 'GUI' },
+      { type: 'quiz', question: 'Виджет Button — это:', options: ['Кнопка', 'Поле ввода', 'Метка', 'Список'], correctAnswer: 'Кнопка', hint: 'Нажимается' },
+      { type: 'fill', question: 'root.___() запускает главный цикл.', correctAnswer: 'mainloop', hint: 'Обработка событий' },
+      { type: 'quiz', question: 'Менеджер компоновки pack:', options: ['Упаковывает виджеты', 'Удаляет виджеты', 'Создаёт виджеты', 'Копирует виджеты'], correctAnswer: 'Упаковывает виджеты', hint: 'Размещение в окне' },
+      { type: 'fill', question: 'События — действия ___ .', correctAnswer: 'пользователя', hint: 'Клик, ввод' }
+    ],
+    reward: { stars: 3, message: "Ты знаешь Tkinter! 🖼️" }
+  },
+  {
+    title: "Создание форм",
+    subject: "Программирование",
+    icon: "FormInput",
+    color: "text-lime-400",
+    tasks: [
+      { type: 'fill', question: 'Entry — поле для ввода ___ строки.', correctAnswer: 'одной', hint: 'Одиночный ввод' },
+      { type: 'quiz', question: 'Text — это:', options: ['Многострочное поле', 'Однострочное поле', 'Кнопка', 'Метка'], correctAnswer: 'Многострочное поле', hint: 'Несколько строк' },
+      { type: 'fill', question: '___ () получает данные из виджета.', correctAnswer: 'get', hint: 'Извлечение' },
+      { type: 'quiz', question: 'Checkbutton — это:', options: ['Флажок', 'Переключатель', 'Кнопка', 'Поле'], correctAnswer: 'Флажок', hint: 'Галочка' },
+      { type: 'fill', question: 'insert() ___ текст в виджет.', correctAnswer: 'добавляет', hint: 'Вставка' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь создавать формы! 📊" }
+  },
+  {
+    title: "Обработка событий",
+    subject: "Программирование",
+    icon: "MousePointer",
+    color: "text-fuchsia-400",
+    tasks: [
+      { type: 'fill', question: 'command — привязка функции к ___ .', correctAnswer: 'кнопке', hint: 'При нажатии' },
+      { type: 'quiz', question: 'bind() привязывает:', options: ['Событие к виджету', 'Виджет к окну', 'Функцию к классу', 'Переменную к значению'], correctAnswer: 'Событие к виджету', hint: 'Обработка действий' },
+      { type: 'fill', question: '<Button-1> — событие ___ .', correctAnswer: 'клика', hint: 'Нажатие кнопки мыши' },
+      { type: 'quiz', question: '<Key> — это событие:', options: ['Нажатия клавиши', 'Клика мышью', 'Движения мыши', 'Закрытия окна'], correctAnswer: 'Нажатия клавиши', hint: 'Клавиатура' },
+      { type: 'fill', question: '___ -функции для передачи аргументов.', correctAnswer: 'лямбда', hint: 'lambda' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь обрабатывать события! 🖱️" }
+  },
+  {
+    title: "Меню и диалоги",
+    subject: "Программирование",
+    icon: "Menu",
+    color: "text-rose-400",
+    tasks: [
+      { type: 'fill', question: 'Menu — создание ___ .', correctAnswer: 'меню', hint: 'Панель с пунктами' },
+      { type: 'quiz', question: 'add_cascade создаёт:', options: ['Вложенное меню', 'Пункт меню', 'Разделитель', 'Кнопку'], correctAnswer: 'Вложенное меню', hint: 'Подменю' },
+      { type: 'fill', question: 'messagebox — ___ окна.', correctAnswer: 'диалоговые', hint: 'Сообщения' },
+      { type: 'quiz', question: 'showinfo показывает:', options: ['Информационное сообщение', 'Вопрос', 'Ошибку', 'Файл'], correctAnswer: 'Информационное сообщение', hint: 'Уведомление' },
+      { type: 'fill', question: 'filedialog — диалог выбора ___ .', correctAnswer: 'файла', hint: 'Открыть/сохранить' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь создавать меню! 📋" }
+  },
+  {
+    title: "Методы отладки",
+    subject: "Программирование",
+    icon: "Bug",
+    color: "text-red-500",
+    tasks: [
+      { type: 'fill', question: 'Print-отладка — вывод значений в ___ .', correctAnswer: 'консоль', hint: 'Терминал' },
+      { type: 'quiz', question: 'Отладчик выполняет:', options: ['Пошаговое выполнение', 'Компиляцию', 'Интерпретацию', 'Деплой'], correctAnswer: 'Пошаговое выполнение', hint: 'Debug' },
+      { type: 'fill', question: 'Точки останова — ___ в выполнении.', correctAnswer: 'пауза', hint: 'Breakpoints' },
+      { type: 'quiz', question: 'pdb — это:', options: ['Отладчик Python', 'Компилятор', 'Интерпретатор', 'Редактор'], correctAnswer: 'Отладчик Python', hint: 'В командной строке' },
+      { type: 'fill', question: 'IDE имеют ___ отладчики.', correctAnswer: 'встроенные', hint: 'PyCharm, VS Code' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь отлаживать код! 🐛" }
+  },
+  {
+    title: "Unit-тестирование",
+    subject: "Программирование",
+    icon: "CheckCircle",
+    color: "text-green-500",
+    tasks: [
+      { type: 'fill', question: 'Unit-тест проверяет отдельную ___ .', correctAnswer: 'функцию', hint: 'Или метод' },
+      { type: 'quiz', question: 'Модуль для тестирования в Python:', options: ['unittest', 'test', 'testing', 'pytest'], correctAnswer: 'unittest', hint: 'Стандартный модуль' },
+      { type: 'fill', question: '___ — класс для создания тестов.', correctAnswer: 'TestCase', hint: 'Наследование' },
+      { type: 'quiz', question: 'assertEqual проверяет:', options: ['Равенство', 'Истинность', 'Исключение', 'Тип'], correctAnswer: 'Равенство', hint: 'Сравнение значений' },
+      { type: 'fill', question: 'setUp — ___ к тесту.', correctAnswer: 'подготовка', hint: 'Выполняется до' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь писать тесты! ✅" }
+  },
+  {
+    title: "Документирование кода",
+    subject: "Программирование",
+    icon: "BookOpen",
+    color: "text-amber-500",
+    tasks: [
+      { type: 'fill', question: 'Docstring — строка ___ функции.', correctAnswer: 'документации', hint: 'Описание' },
+      { type: 'quiz', question: 'Комментарии в Python начинаются с:', options: ['#', '//', '--', '/*'], correctAnswer: '#', hint: 'Решётка' },
+      { type: 'fill', question: 'README.md — описание ___ .', correctAnswer: 'проекта', hint: 'Главная страница' },
+      { type: 'quiz', question: 'Type hints — это:', options: ['Указание типов', 'Комментарии', 'Переменные', 'Функции'], correctAnswer: 'Указание типов', hint: 'Аннотации' },
+      { type: 'fill', question: 'Документация помогает ___ код.', correctAnswer: 'понимать', hint: 'Читаемость' }
+    ],
+    reward: { stars: 3, message: "Ты документируешь код! 📖" }
+  },
+  {
+    title: "Обработка ошибок",
+    subject: "Программирование",
+    icon: "AlertTriangle",
+    color: "text-yellow-500",
+    tasks: [
+      { type: 'fill', question: 'try-except — обработка ___ .', correctAnswer: 'исключений', hint: 'Ошибки' },
+      { type: 'quiz', question: 'finally выполняется:', options: ['Всегда', 'Только при ошибке', 'Только при успехе', 'Никогда'], correctAnswer: 'Всегда', hint: 'В конце' },
+      { type: 'fill', question: 'raise — ___ исключение.', correctAnswer: 'генерирует', hint: 'Создание ошибки' },
+      { type: 'quiz', question: 'with автоматически управляет:', options: ['Ресурсами', 'Переменными', 'Функциями', 'Классами'], correctAnswer: 'Ресурсами', hint: 'Контекстный менеджер' },
+      { type: 'fill', question: 'Собственные исключения наследуют от ___ .', correctAnswer: 'Exception', hint: 'Базовый класс' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь обрабатывать ошибки! ⚠️" }
+  },
+  {
+    title: "Git: контроль версий",
+    subject: "Программирование",
+    icon: "GitBranch",
+    color: "text-orange-600",
+    tasks: [
+      { type: 'fill', question: 'Git — система контроля ___ .', correctAnswer: 'версий', hint: 'История изменений' },
+      { type: 'quiz', question: 'git init создаёт:', options: ['Репозиторий', 'Файл', 'Ветку', 'Коммит'], correctAnswer: 'Репозиторий', hint: 'Новый проект' },
+      { type: 'fill', question: 'git ___ добавляет файлы.', correctAnswer: 'add', hint: 'В индекс' },
+      { type: 'quiz', question: 'git commit:', options: ['Фиксирует изменения', 'Добавляет файлы', 'Удаляет файлы', 'Отправляет на сервер'], correctAnswer: 'Фиксирует изменения', hint: 'Сохранение' },
+      { type: 'fill', question: 'git log показывает ___ коммитов.', correctAnswer: 'историю', hint: 'Список' }
+    ],
+    reward: { stars: 3, message: "Ты знаешь Git! 🔀" }
+  },
+  {
+    title: "Ветвление и слияние",
+    subject: "Программирование",
+    icon: "GitMerge",
+    color: "text-purple-500",
+    tasks: [
+      { type: 'fill', question: 'Ветка — независимая линия ___ .', correctAnswer: 'разработки', hint: 'Branch' },
+      { type: 'quiz', question: 'git branch показывает:', options: ['Список веток', 'Историю', 'Файлы', 'Изменения'], correctAnswer: 'Список веток', hint: 'Все ветки' },
+      { type: 'fill', question: 'git ___ сливает ветки.', correctAnswer: 'merge', hint: 'Объединение' },
+      { type: 'quiz', question: 'Конфликты возникают при:', options: ['Несовместимых изменениях', 'Создании ветки', 'Удалении ветки', 'Переключении ветки'], correctAnswer: 'Несовместимых изменениях', hint: 'Одни и те же строки' },
+      { type: 'fill', question: 'git checkout -b создаёт и ___ ветку.', correctAnswer: 'переключает', hint: 'На новую ветку' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь работать с ветками! 🌿" }
+  },
+  {
+    title: "GitHub для совместной работы",
+    subject: "Программирование",
+    icon: "Github",
+    color: "text-gray-500",
+    tasks: [
+      { type: 'fill', question: 'GitHub — платформа для ___ репозиториев.', correctAnswer: 'хостинга', hint: 'Облако' },
+      { type: 'quiz', question: 'git push отправляет:', options: ['Изменения на сервер', 'Изменения с сервера', 'Файлы', 'Ветки'], correctAnswer: 'Изменения на сервер', hint: 'Загрузка' },
+      { type: 'fill', question: 'git ___ получает изменения.', correctAnswer: 'pull', hint: 'С сервера' },
+      { type: 'quiz', question: 'Pull request — это:', options: ['Предложение изменений', 'Запрос на скачивание', 'Удаление ветки', 'Создание репозитория'], correctAnswer: 'Предложение изменений', hint: 'PR' },
+      { type: 'fill', question: 'Code review — ___ кода.', correctAnswer: 'проверка', hint: 'Другими разработчиками' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь работать с GitHub! 🐙" }
+  },
+  {
+    title: "Стиль кода и соглашения",
+    subject: "Программирование",
+    icon: "Ruler",
+    color: "text-blue-400",
+    tasks: [
+      { type: 'fill', question: 'PEP 8 — стиль кода ___ .', correctAnswer: 'Python', hint: 'Правила' },
+      { type: 'quiz', question: 'Отступы в Python:', options: ['4 пробела', '2 пробела', '1 таб', '3 пробела'], correctAnswer: '4 пробела', hint: 'Стандарт' },
+      { type: 'fill', question: 'Длина строки: до ___ символов.', correctAnswer: '79', hint: 'Ограничение' },
+      { type: 'quiz', question: 'snake_case используется для:', options: ['Функций', 'Классов', 'Констант', 'Всех'], correctAnswer: 'Функций', hint: 'Нижние подчёркивания' },
+      { type: 'fill', question: 'Линтеры проверяют ___ кода.', correctAnswer: 'стиль', hint: 'pylint, flake8' }
+    ],
+    reward: { stars: 3, message: "Ты пишешь чистый код! 📏" }
+  },
+  {
+    title: "Выбор и планирование проекта",
+    subject: "Программирование",
+    icon: "ClipboardList",
+    color: "text-indigo-500",
+    tasks: [
+      { type: 'fill', question: 'MVP — минимальный ___ продукт.', correctAnswer: 'жизнеспособный', hint: 'Minimum Viable Product' },
+      { type: 'quiz', question: 'Декомпозиция — это:', options: ['Разбиение на подзадачи', 'Объединение задач', 'Удаление задач', 'Сортировка задач'], correctAnswer: 'Разбиение на подзадачи', hint: 'Деление' },
+      { type: 'fill', question: 'Техническое ___ описывает требования.', correctAnswer: 'задание', hint: 'ТЗ' },
+      { type: 'quiz', question: 'Критерий выбора проекта:', options: ['Интерес', 'Сложность', 'Время', 'Язык'], correctAnswer: 'Интерес', hint: 'Мотивация' },
+      { type: 'fill', question: 'Приоритизация — расстановка ___ .', correctAnswer: 'приоритетов', hint: 'Важность' }
+    ],
+    reward: { stars: 3, message: "Ты умеешь планировать проекты! 📋" }
+  },
+  {
+    title: "Реализация проекта",
+    subject: "Программирование",
+    icon: "Rocket",
+    color: "text-red-400",
+    tasks: [
+      { type: 'fill', question: 'Итеративная разработка — маленькими ___ .', correctAnswer: 'шагами', hint: 'Постепенно' },
+      { type: 'quiz', question: 'Рефакторинг — это:', options: ['Улучшение кода', 'Добавление функций', 'Удаление кода', 'Копирование кода'], correctAnswer: 'Улучшение кода', hint: 'Без изменения функциональности' },
+      { type: 'fill', question: 'Регулярные ___ сохраняют прогресс.', correctAnswer: 'коммиты', hint: 'В Git' },
+      { type: 'quiz', question: 'Тестирование после каждого изменения:', options: ['Повышает качество', 'Замедляет работу', 'Не нужно', 'Усложняет код'], correctAnswer: 'Повышает качество', hint: 'Проверка' },
+      { type: 'fill', question: 'Документирование ведётся по ___ работы.', correctAnswer: 'ходу', hint: 'В процессе' }
+    ],
+    reward: { stars: 3, message: "Ты реализуешь проекты! 🚀" }
+  },
+  {
+    title: "Презентация проекта",
+    subject: "Программирование",
+    icon: "Presentation",
+    color: "text-cyan-500",
+    tasks: [
+      { type: 'fill', question: 'Структура презентации: проблема, решение, ___ .', correctAnswer: 'демонстрация', hint: 'Показ работы' },
+      { type: 'quiz', question: 'Code review — это:', options: ['Проверка кода', 'Написание кода', 'Удаление кода', 'Тестирование'], correctAnswer: 'Проверка кода', hint: 'Другими людьми' },
+      { type: 'fill', question: 'Обратная ___ помогает улучшить проект.', correctAnswer: 'связь', hint: 'Feedback' },
+      { type: 'quiz', question: 'Демонстрация работы — это:', options: ['Показ проекта', 'Рассказ о планах', 'Чтение документации', 'Обсуждение кода'], correctAnswer: 'Показ проекта', hint: 'В действии' },
+      { type: 'fill', question: 'Ответы на вопросы ___ .', correctAnswer: 'аудитории', hint: 'После презентации' }
+    ],
+    reward: { stars: 3, message: "Ты презентуешь проекты! 🎤" }
+  },
+  {
+    title: "Анализ и развитие",
+    subject: "Программирование",
+    icon: "TrendingUp",
+    color: "text-green-400",
+    tasks: [
+      { type: 'fill', question: 'Ретроспектива — анализ ___ проекта.', correctAnswer: 'результатов', hint: 'Что получилось' },
+      { type: 'quiz', question: 'Портфолио проектов нужно для:', options: ['Карьеры', 'Учёбы', 'Хобби', 'Друзей'], correctAnswer: 'Карьеры', hint: 'Резюме' },
+      { type: 'fill', question: 'Непрерывное ___ — ключ к успеху.', correctAnswer: 'обучение', hint: 'Развитие' },
+      { type: 'quiz', question: 'Планирование развития включает:', options: ['Следующие шаги', 'Только прошлое', 'Только настоящее', 'Удаление проекта'], correctAnswer: 'Следующие шаги', hint: 'Будущее' },
+      { type: 'fill', question: 'Анализ проблем помогает их ___ .', correctAnswer: 'решить', hint: 'В будущем' }
+    ],
+    reward: { stars: 3, message: "Ты анализируешь и развиваешься! 📈" }
   }
 ]
 
