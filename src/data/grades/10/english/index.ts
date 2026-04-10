@@ -131,9 +131,9 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "Present Perfect образуется с помощью:", options: ["have/has + V3", "had + V3", "will have + V3", "is + Ving"], correctAnswer: "have/has + V3", hint: "I have finished. She has finished." },
-      { type: 'fill', question: "Past Perfect: ___ + V3", correctAnswer: "had", hint: "She had left when I came." },
+      { type: 'quiz', question: "Past Perfect образуется с помощью:", options: ["had + V3", "have/has + V3", "will have + V3", "is + Ving", "was + Ving"], correctAnswer: "had + V3", hint: "She had left when I came." },
       { type: 'quiz', question: "Future Perfect используется для:", options: ["Действия в прошлом", "Действия, которое завершится к моменту в будущем", "Действия сейчас", "Регулярного действия"], correctAnswer: "Действия, которое завершится к моменту в будущем", hint: "By 2025 I will have graduated." },
-      { type: 'fill', question: "Типичные маркеры Present Perfect: ever, never, already, just, ___ .", correctAnswer: "yet", hint: "I haven't done it yet." },
+      { type: 'quiz', question: "Какой из маркеров Present Perfect означает 'ещё не'?", options: ["yet", "already", "just", "ever", "never"], correctAnswer: "yet", hint: "I haven't done it yet." },
       { type: 'quiz', question: "Какое время используется для действия до другого действия в прошлом?", options: ["Present Perfect", "Past Perfect", "Past Simple", "Future Perfect"], correctAnswer: "Past Perfect", hint: "He had left when I came." }
     ],
     reward: { stars: 3, message: "Great! You know Perfect tenses! 🎯" }
@@ -145,9 +145,9 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "Passive Voice образуется:", options: ["be + V3", "have + V3", "will + V", "do + V"], correctAnswer: "be + V3", hint: "The book is written." },
-      { type: 'fill', question: "The house ___ built in 1990. (Past Simple Passive)", correctAnswer: "was", hint: "was/were + V3" },
+      { type: 'quiz', question: "Past Simple Passive образуется с помощью:", options: ["was/were + V3", "am/is/are + V3", "has/have + V3", "will be + V3", "had been + V3"], correctAnswer: "was/were + V3", hint: "was/were + V3" },
       { type: 'quiz', question: "Present Simple Passive:", options: ["am/is/are + V3", "was/were + V3", "will be + V3", "has been + V3"], correctAnswer: "am/is/are + V3", hint: "English is spoken here." },
-      { type: 'fill', question: "The book has ___ read. (Present Perfect Passive)", correctAnswer: "been", hint: "have/has been + V3" },
+      { type: 'quiz', question: "В Present Perfect Passive после have/has следует:", options: ["been + V3", "be + V3", "being + V3", "is + V3", "was + V3"], correctAnswer: "been + V3", hint: "have/has been + V3" },
       { type: 'quiz', question: "Когда используется Passive Voice?", options: ["Когда важен объект или субъект неизвестен", "Когда важен субъект", "Всегда", "Никогда"], correctAnswer: "Когда важен объект или субъект неизвестен", hint: "The window was broken. (Кем? — неизвестно)" }
     ],
     reward: { stars: 3, message: "Excellent! You know Passive Voice! 📚" }
@@ -158,10 +158,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "If I ___ rich, I would travel. (Second Conditional)", correctAnswer: "were", hint: "Во II Conditional: If I were..." },
+      { type: 'quiz', question: "Какая форма используется во Second Conditional после If I/he/she/it?", options: ["were", "was", "am", "is", "be"], correctAnswer: "were", hint: "Во II Conditional: If I were..." },
       { type: 'quiz', question: "Zero Conditional описывает:", options: ["Факты и законы природы", "Реальное будущее", "Нереальное настоящее", "Нереальное прошлое"], correctAnswer: "Факты и законы природы", hint: "If you heat ice, it melts." },
       { type: 'quiz', question: "First Conditional:", options: ["If + Present, will + V", "If + Past, would + V", "If + Present, Present", "If + Past Perfect, would have + V3"], correctAnswer: "If + Present, will + V", hint: "If it rains, I will stay home." },
-      { type: 'fill', question: "Third Conditional: If I had known, I ___ have come.", correctAnswer: "would", hint: "would have + V3" },
+      { type: 'quiz', question: "В Third Conditional после 'If I had known, I ... have come' используется:", options: ["would", "will", "could", "shall", "should"], correctAnswer: "would", hint: "would have + V3" },
       { type: 'quiz', question: "Third Conditional описывает:", options: ["Реальное будущее", "Нереальное настоящее", "Нереальное прошлое", "Факты"], correctAnswer: "Нереальное прошлое", hint: "If I had studied harder, I would have passed." }
     ],
     reward: { stars: 3, message: "Super! You know Conditionals! 🎓" }
@@ -173,9 +173,9 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "В косвенной речи Present Simple меняется на:", options: ["Past Simple", "Present Perfect", "Future Simple", "Present Continuous"], correctAnswer: "Past Simple", hint: "\"I work\" → He said he worked." },
-      { type: 'fill', question: "\"I will come\" → He said he ___ come.", correctAnswer: "would", hint: "will → would" },
+      { type: 'quiz', question: "В косвенной речи will меняется на:", options: ["would", "will", "shall", "could", "might"], correctAnswer: "would", hint: "will → would" },
       { type: 'quiz', question: "Для общих вопросов в косвенной речи используется:", options: ["if/whether", "what", "where", "how"], correctAnswer: "if/whether", hint: "He asked if I liked coffee." },
-      { type: 'fill', question: "\"Don't go there\" → He told me ___ to go there.", correctAnswer: "not", hint: "not to + V для отрицательных команд" },
+      { type: 'quiz', question: "Для отрицательной команды в косвенной речи используется:", options: ["not to + V", "to not + V", "don't + V", "not + V", "no + V"], correctAnswer: "not to + V", hint: "not to + V для отрицательных команд" },
       { type: 'quiz', question: "В косвенной речи now меняется на:", options: ["then", "that day", "there", "the next day"], correctAnswer: "then", hint: "\"I'm busy now\" → He said he was busy then." }
     ],
     reward: { stars: 3, message: "Well done! You know Reported Speech! 🗣️" }
@@ -187,9 +187,9 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "give up означает:", options: ["бросить, отказаться", "начать", "искать", "поднять"], correctAnswer: "бросить, отказаться", hint: "I gave up smoking." },
-      { type: 'fill', question: "turn ___ — включить (свет, телевизор)", correctAnswer: "on", hint: "Turn on the light." },
+      { type: 'quiz', question: "Какой предлог нужен в фразовом глаголе 'turn ___' — включить?", options: ["on", "off", "up", "down", "out"], correctAnswer: "on", hint: "Turn on the light." },
       { type: 'quiz', question: "run out of означает:", options: ["закончиться (о запасах)", "выбежать", "бежать из", "исчерпать"], correctAnswer: "закончиться (о запасах)", hint: "We ran out of milk." },
-      { type: 'fill', question: "find ___ — узнать, выяснить", correctAnswer: "out", hint: "I found out the truth." },
+      { type: 'quiz', question: "Какой предлог нужен в фразовом глаголе 'find ___' — узнать, выяснить?", options: ["out", "up", "off", "on", "in"], correctAnswer: "out", hint: "I found out the truth." },
       { type: 'quiz', question: "calm down означает:", options: ["успокоиться", "волноваться", "спускаться", "записывать"], correctAnswer: "успокоиться", hint: "Calm down, everything will be fine." }
     ],
     reward: { stars: 3, message: "Great! You know Phrasal Verbs! 📖" }
@@ -201,9 +201,9 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "break a leg означает:", options: ["ни пуха ни пера!", "сломать ногу", "быть больным", "идти медленно"], correctAnswer: "ни пуха ни пера!", hint: "Break a leg at the audition!" },
-      { type: 'fill', question: "let the cat out of the bag — выдать ___", correctAnswer: "секрет", hint: "Don't let the cat out of the bag!" },
+      { type: 'quiz', question: "Идиома 'let the cat out of the bag' означает выдать:", options: ["секрет", "кошку", "сумку", "деньги", "правду"], correctAnswer: "секрет", hint: "Don't let the cat out of the bag!" },
       { type: 'quiz', question: "once in a blue moon означает:", options: ["очень редко", "каждый день", "ночью", "при полной луне"], correctAnswer: "очень редко", hint: "We meet once in a blue moon." },
-      { type: 'fill', question: "kill two birds with one stone — убить двух ___ одним выстрелом", correctAnswer: "зайцев", hint: "I killed two birds with one stone." },
+      { type: 'quiz', question: "Идиома 'kill two birds with one stone' означает убить двух:", options: ["зайцев", "птиц", "камней", "врагов", "целей"], correctAnswer: "зайцев", hint: "I killed two birds with one stone." },
       { type: 'quiz', question: "cost an arm and a leg означает:", options: ["стоить очень дорого", "стоить дёшево", "быть бесплатным", "стоять на ногах"], correctAnswer: "стоить очень дорого", hint: "This car costs an arm and a leg." }
     ],
     reward: { stars: 3, message: "Amazing! You know English idioms! 🌟" }
@@ -215,9 +215,9 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "Префикс un- означает:", options: ["не-", "пере-", "пред-", "недо-"], correctAnswer: "не-", hint: "unhappy, unusual" },
-      { type: 'fill', question: "Суффикс -er образует существительное: teach → ___", correctAnswer: "teacher", hint: "учитель" },
+      { type: 'quiz', question: "Суффикс -er образует существительное: teach → ?", options: ["teacher", "teaching", "teachable", "teachment", "teachor"], correctAnswer: "teacher", hint: "учитель" },
       { type: 'quiz', question: "Суффикс -less означает:", options: ["без качества", "с качеством", "обладающий", "деятель"], correctAnswer: "без качества", hint: "useless, hopeless" },
-      { type: 'fill', question: "Суффикс -ful означает «с качеством»: use → ___", correctAnswer: "useful", hint: "полезный" },
+      { type: 'quiz', question: "Суффикс -ful означает 'с качеством': use → ?", options: ["useful", "useless", "using", "used", "useably"], correctAnswer: "useful", hint: "полезный" },
       { type: 'quiz', question: "Суффикс существительного -tion означает:", options: ["действие", "деятель", "качество", "свойство"], correctAnswer: "действие", hint: "education, decision" }
     ],
     reward: { stars: 3, message: "Excellent! You know Word Formation! 📝" }
@@ -229,9 +229,9 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "Skimming — это:", options: ["беглое чтение для общего понимания", "поиск конкретной информации", "детальное чтение", "чтение вслух"], correctAnswer: "беглое чтение для общего понимания", hint: "Чтение заголовков и первых предложений" },
-      { type: 'fill', question: "___ — поисковое чтение для нахождения конкретной информации", correctAnswer: "Scanning", hint: "Поиск дат, имён, чисел в тексте" },
+      { type: 'quiz', question: "Как называется поисковое чтение для нахождения конкретной информации?", options: ["Scanning", "Skimming", "Intensive Reading", "Extensive Reading", "Close Reading"], correctAnswer: "Scanning", hint: "Поиск дат, имён, чисел в тексте" },
       { type: 'quiz', question: "При скимминге нужно:", options: ["Читать заголовки и первые предложения абзацев", "Читать каждое слово", "Искать конкретные даты", "Переводить текст"], correctAnswer: "Читать заголовки и первые предложения абзацев", hint: "Быстрое понимание сути текста" },
-      { type: 'fill', question: "Intensive Reading — это ___ чтение для полного понимания", correctAnswer: "интенсивное", hint: "Внимательное чтение каждого предложения" },
+      { type: 'quiz', question: "Intensive Reading — это какой тип чтения?", options: ["интенсивное", "экстенсивное", "быстрое", "поисковое", "диагональное"], correctAnswer: "интенсивное", hint: "Внимательное чтение каждого предложения" },
       { type: 'quiz', question: "Что НЕ нужно делать при чтении?", options: ["Переводить каждое слово", "Угадывать значение по контексту", "Обращать внимание на связки слов", "Читать регулярно"], correctAnswer: "Переводить каждое слово", hint: "Это замедляет чтение" }
     ],
     reward: { stars: 3, message: "Great! You know reading strategies! 📚" }
@@ -243,9 +243,9 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "Структура текста:", options: ["Introduction — Body — Conclusion", "Beginning — Middle — End", "Head — Body — Tail", "First — Second — Third"], correctAnswer: "Introduction — Body — Conclusion", hint: "Введение, основная часть, заключение" },
-      { type: 'fill', question: "Moreover, furthermore, in addition — слова для ___ информации", correctAnswer: "добавления", hint: "Они добавляют новую информацию" },
+      { type: 'quiz', question: "Moreover, furthermore, in addition — слова для чего?", options: ["добавления информации", "противопоставления", "примеров", "заключения", "причины"], correctAnswer: "добавления информации", hint: "Они добавляют новую информацию" },
       { type: 'quiz', question: "However, nevertheless — слова для:", options: ["Противопоставления", "Добавления", "Примеров", "Заключения"], correctAnswer: "Противопоставления", hint: "Однако, тем не менее" },
-      { type: 'fill', question: "Therefore, consequently — слова для причины и ___", correctAnswer: "следствия", hint: "Поэтому, следовательно" },
+      { type: 'quiz', question: "Therefore, consequently — слова для причины и чего?", options: ["следствия", "добавления", "примера", "противопоставления", "заключения"], correctAnswer: "следствия", hint: "Поэтому, следовательно" },
       { type: 'quiz', question: "Тон текста может быть:", options: ["Формальным, неформальным, ироничным", "Только формальным", "Только нейтральным", "Только критическим"], correctAnswer: "Формальным, неформальным, ироничным", hint: "Отношение автора к предмету" }
     ],
     reward: { stars: 3, message: "Well done! You can analyze texts! 🔍" }
@@ -256,11 +256,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "___ my opinion... — По моему мнению...", correctAnswer: "In", hint: "In my opinion..." },
+      { type: 'quiz', question: "Какое предлог нужно перед 'my opinion'?", options: ["In", "On", "At", "For", "To"], correctAnswer: "In", hint: "In my opinion..." },
       { type: 'quiz', question: "I couldn't agree more означает:", options: ["Полностью согласен", "Не согласен", "Частично согласен", "Не знаю"], correctAnswer: "Полностью согласен", hint: "Не могу не согласиться" },
-      { type: 'fill', question: "I'm ___ I disagree. — Боюсь, я не согласен.", correctAnswer: "afraid", hint: "Вежливое несогласие" },
+      { type: 'quiz', question: "I'm ___ I disagree. — Боюсь, я не согласен.", options: ["afraid", "sure", "certain", "happy", "glad"], correctAnswer: "afraid", hint: "Вежливое несогласие" },
       { type: 'quiz', question: "Для вежливого прерывания используют:", options: ["Sorry to interrupt, but...", "Stop talking!", "Be quiet!", "Shut up!"], correctAnswer: "Sorry to interrupt, but...", hint: "Извините, что перебиваю, но..." },
-      { type: 'fill', question: "To ___ up, ... — Подводя итог...", correctAnswer: "sum", hint: "To sum up, in conclusion" }
+      { type: 'quiz', question: "To ___ up, ... — Подводя итог...", options: ["sum", "add", "give", "look", "come"], correctAnswer: "sum", hint: "To sum up, in conclusion" }
     ],
     reward: { stars: 3, message: "Excellent! You have great discussion skills! 🎤" }
   }
