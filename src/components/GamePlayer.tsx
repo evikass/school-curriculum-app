@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useEffect } from 'react'
 import { GameLesson } from '@/data/types'
 import { 
   ChevronLeft, 
@@ -52,17 +52,25 @@ export default function GamePlayer({ game, onBack, onComplete }: GamePlayerProps
   })
   const [selectedLeft, setSelectedLeft] = useState<string | null>(null)
   
-  // Shuffled right column for match type
-  const shuffledRightAnswers = useMemo(() => {
-    const task = game.tasks[currentTask]
-    if (task?.type === 'match' && Array.isArray(task.correctAnswer)) {
-      return shuffleArray(task.correctAnswer as string[])
+  // Shuffled right column for match type - use useState to prevent re-shuffling on re-renders
+  const [shuffledRightAnswers, setShuffledRightAnswers] = useState<string[]>(() => {
+    const firstTask = game.tasks[0]
+    if (firstTask?.type === 'match' && Array.isArray(firstTask.correctAnswer)) {
+      return shuffleArray(firstTask.correctAnswer as string[])
     }
     return []
-  }, [currentTask, game.tasks])
+  })
 
   const task = game.tasks[currentTask]
   const progress = ((currentTask) / game.tasks.length) * 100
+
+  // Update shuffled answers when task changes
+  useEffect(() => {
+    const currentTaskData = game.tasks[currentTask]
+    if (currentTaskData?.type === 'match' && Array.isArray(currentTaskData.correctAnswer)) {
+      setShuffledRightAnswers(shuffleArray(currentTaskData.correctAnswer as string[]))
+    }
+  }, [currentTask, game.tasks])
 
   const handleAnswer = (answer: string) => {
     setSelectedAnswer(answer)
