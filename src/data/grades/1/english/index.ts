@@ -561,8 +561,8 @@ export const games: GameLesson[] = [
       {
         type: 'match',
         question: "Соедини число с переводом:",
-        options: ["Six", "Eight", "Ten"],
-        correctAnswer: ["6", "8", "10"],
+        options: ["Six", "Seven", "Eight", "Nine", "Ten"],
+        correctAnswer: ["6", "7", "8", "9", "10"],
         hint: "Числа на английском"
       },
       {
