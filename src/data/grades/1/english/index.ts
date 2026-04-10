@@ -362,14 +362,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Как сказать «Привет» по-английски?",
-        options: ["Goodbye", "Hello", "Thanks"],
+        options: ["Goodbye", "Hello", "Thanks", "Никто не знает", "Не знаю"],
         correctAnswer: "Hello",
         hint: "Это самое популярное приветствие"
       },
       {
         type: 'quiz',
         question: "Как ещё можно поздороваться?",
-        options: ["Hi", "Bye", "No"],
+        options: ["Hi", "Bye", "No", "Никто не знает", "Не знаю"],
         correctAnswer: "Hi",
         hint: "Это короткое приветствие"
       },
@@ -383,7 +383,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "What is your name? — это...",
-        options: ["Как дела?", "Как тебя зовут?", "Сколько тебе лет?"],
+        options: ["Как дела?", "Как тебя зовут?", "Сколько тебе лет?", "Никто не знает", "Не знаю"],
         correctAnswer: "Как тебя зовут?",
         hint: "Name = имя"
       }
@@ -399,14 +399,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Red - это какой цвет?",
-        options: ["Синий", "Красный", "Зелёный"],
+        options: ["Синий", "Красный", "Зелёный", "Никто не знает", "Не знаю"],
         correctAnswer: "Красный",
         hint: "Red = Красный"
       },
       {
         type: 'quiz',
         question: "Как будет «синий» по-английски?",
-        options: ["Red", "Blue", "Green"],
+        options: ["Red", "Blue", "Green", "Никто не знает", "Не знаю"],
         correctAnswer: "Blue",
         hint: "Blue = Синий"
       },
@@ -420,7 +420,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Какого цвета трава?",
-        options: ["Red", "Blue", "Green"],
+        options: ["Red", "Blue", "Green", "Никто не знает", "Не знаю"],
         correctAnswer: "Green",
         hint: "Трава зелёная"
       }
@@ -436,27 +436,28 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "One - это какое число?",
-        options: ["Один", "Два", "Три"],
+        options: ["Один", "Два", "Три", "Никто не знает", "Не знаю"],
         correctAnswer: "Один",
         hint: "One = 1"
       },
       {
         type: 'quiz',
         question: "Как будет «пять» по-английски?",
-        options: ["Four", "Five", "Six"],
+        options: ["Four", "Five", "Six", "Никто не знает", "Не знаю"],
         correctAnswer: "Five",
         hint: "Five = 5"
       },
       {
-        type: 'order',
-        question: "Расставь по порядку: Three, One, Two, Four",
-        correctAnswer: ["One", "Two", "Three", "Four"],
+        type: 'quiz',
+        question: "Какое число идёт после Two?",
+        options: ["One", "Three", "Four", "Five", "Six"],
+        correctAnswer: "Three",
         hint: "От 1 до 4"
       },
       {
         type: 'quiz',
         question: "Ten - это?",
-        options: ["8", "9", "10"],
+        options: ["8", "9", "10", "Никто не знает", "Не знаю"],
         correctAnswer: "10",
         hint: "Ten = 10"
       }
@@ -472,14 +473,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Cat - это?",
-        options: ["Собака", "Кошка", "Птица"],
+        options: ["Собака", "Кошка", "Птица", "Никто не знает", "Не знаю"],
         correctAnswer: "Кошка",
         hint: "Cat = Кошка"
       },
       {
         type: 'quiz',
         question: "Как будет «собака» по-английски?",
-        options: ["Cat", "Dog", "Bird"],
+        options: ["Cat", "Dog", "Bird", "Никто не знает", "Не знаю"],
         correctAnswer: "Dog",
         hint: "Dog = Собака"
       },
@@ -493,11 +494,85 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Fish - это?",
-        options: ["Птица", "Рыба", "Кошка"],
+        options: ["Птица", "Рыба", "Кошка", "Никто не знает", "Не знаю"],
         correctAnswer: "Рыба",
         hint: "Fish живёт в воде"
       }
     ],
     reward: { stars: 3, message: "Great job! Ты знаешь животных! 🐱" }
+  },
+  {
+    title: "Приветствие и прощание 👋",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как сказать «Привет» по-английски?",
+        options: ["Bye", "Hello", "Thanks", "Никто не знает", "Не знаю"],
+        correctAnswer: "Hello",
+        hint: "Приветствие"
+      },
+      {
+        type: 'quiz',
+        question: "Как сказать «До свидания» по-английски?",
+        options: ["Hello", "Goodbye", "Sorry", "Никто не знает", "Не знаю"],
+        correctAnswer: "Goodbye",
+        hint: "Прощание"
+      },
+      {
+        type: 'find',
+        question: "Найди приветствия:",
+        options: ["Hello", "Bye", "Hi", "Goodbye", "Good morning"],
+        correctAnswer: ["Hello", "Hi", "Good morning"],
+        hint: "Приветствия"
+      },
+      {
+        type: 'find',
+        question: "Найди прощания:",
+        options: ["Hello", "Goodbye", "Bye", "Hi", "Good night"],
+        correctAnswer: ["Goodbye", "Bye", "Good night"],
+        hint: "Прощания"
+      }
+    ],
+    reward: { stars: 3, message: "Excellent! Ты умеешь здороваться! 👋" }
+  },
+  {
+    title: "Числа 6-10 🔢",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как будет «6» по-английски?",
+        options: ["Five", "Six", "Seven", "Никто не знает", "Не знаю"],
+        correctAnswer: "Six",
+        hint: "Six = 6"
+      },
+      {
+        type: 'quiz',
+        question: "Как будет «8» по-английски?",
+        options: ["Seven", "Eight", "Nine", "Никто не знает", "Не знаю"],
+        correctAnswer: "Eight",
+        hint: "Eight = 8"
+      },
+      {
+        type: 'match',
+        question: "Соедини число с переводом:",
+        options: ["Six", "Eight", "Ten"],
+        correctAnswer: ["6", "8", "10"],
+        hint: "Числа на английском"
+      },
+      {
+        type: 'find',
+        question: "Найди числа от 6 до 10:",
+        options: ["Six", "Five", "Seven", "Eight", "Three", "Nine", "Ten"],
+        correctAnswer: ["Six", "Seven", "Eight", "Nine", "Ten"],
+        hint: "Числа 6-10"
+      }
+    ],
+    reward: { stars: 3, message: "Great! Ты знаешь числа! 🔢" }
   }
 ]

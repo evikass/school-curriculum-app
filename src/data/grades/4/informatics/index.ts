@@ -360,14 +360,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Какая клавиша делает пробел?",
-        options: ["Enter", "Пробел", "Shift"],
+        options: ["Enter", "Пробел", "Shift", "Никто не знает", "Не знаю"],
         correctAnswer: "Пробел",
         hint: "Самая длинная клавиша"
       },
       {
         type: 'quiz',
         question: "Какая клавиша стирает символы слева от курсора?",
-        options: ["Delete", "Backspace", "Enter"],
+        options: ["Delete", "Backspace", "Enter", "Никто не знает", "Не знаю"],
         correctAnswer: "Backspace",
         hint: "Стрелка влево над Enter"
       },
@@ -379,8 +379,9 @@ export const games: GameLesson[] = [
         hint: "Какие клавиши используются в сочетаниях?"
       },
       {
-        type: 'fill',
+        type: 'quiz',
         question: "Клавиша Enter используется для ... строки",
+        options: ["новой", "удаления", "очистки", "копирования", "вставки", "сохранения"],
         correctAnswer: "новой",
         hint: "Что происходит при нажатии?"
       }
@@ -396,14 +397,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Чем стирают части рисунка?",
-        options: ["Кисть", "Ластик", "Карандаш"],
+        options: ["Кисть", "Ластик", "Карандаш", "Никто не знает", "Не знаю"],
         correctAnswer: "Ластик",
         hint: "Как в обычной жизни стирают"
       },
       {
         type: 'quiz',
         question: "Какой инструмент заливает цветом?",
-        options: ["Карандаш", "Заливка", "Ластик"],
+        options: ["Карандаш", "Заливка", "Ластик", "Никто не знает", "Не знаю"],
         correctAnswer: "Заливка",
         hint: "Ведёрко с краской"
       },
@@ -417,7 +418,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Как отменить последнее действие?",
-        options: ["Ctrl+Z", "Ctrl+S", "Ctrl+C"],
+        options: ["Ctrl+Z", "Ctrl+S", "Ctrl+C", "Никто не знает", "Не знаю"],
         correctAnswer: "Ctrl+Z",
         hint: "Z = Отмена (Undo)"
       }
@@ -433,7 +434,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Можно ли сообщать пароли незнакомцам в интернете?",
-        options: ["Да", "Нет", "Только друзьям"],
+        options: ["Да", "Нет", "Только друзьям", "Никто не знает", "Не знаю"],
         correctAnswer: "Нет",
         hint: "Пароли — это секрет!"
       },
@@ -447,13 +448,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Какая поисковая система самая популярная в России?",
-        options: ["Google", "Яндекс", "Bing"],
+        options: ["Google", "Яндекс", "Bing", "Никто не знает", "Не знаю"],
         correctAnswer: "Яндекс",
         hint: "Российская поисковая система"
       },
       {
-        type: 'fill',
+        type: 'quiz',
         question: "Если в интернете что-то подозрительное, нужно рассказать ...",
+        options: ["родителям", "друзьям", "никому", "незнакомцам", "учителю", "полиции"],
         correctAnswer: "родителям",
         hint: "Кто поможет и защитит?"
       }

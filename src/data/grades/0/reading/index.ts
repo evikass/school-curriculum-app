@@ -357,7 +357,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "С какого звука начинается слово МАМА?",
-        options: ["А", "М", "О"],
+        options: ["А", "М", "О", "Никто не знает", "Не знаю"],
         correctAnswer: "М",
         hint: "Произнеси слово: [М]ама"
       },
@@ -378,7 +378,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Какой звук последний в слове КОТ?",
-        options: ["К", "О", "Т"],
+        options: ["К", "О", "Т", "Никто не знает", "Не знаю"],
         correctAnswer: "Т",
         hint: "Ко-[Т] - последний звук"
       }
@@ -394,14 +394,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Сколько слогов в слове МА-МА?",
-        options: ["1", "2", "3"],
+        options: ["1", "2", "3", "Никто не знает", "Не знаю"],
         correctAnswer: "2",
         hint: "Хлопни: МА-МА (два хлопка)"
       },
       {
         type: 'quiz',
         question: "Сколько слогов в слове ШАР?",
-        options: ["1", "2", "3"],
+        options: ["1", "2", "3", "Никто не знает", "Не знаю"],
         correctAnswer: "1",
         hint: "Хлопни один раз: ШАР"
       },
@@ -431,14 +431,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "С чего начинается предложение?",
-        options: ["С маленькой буквы", "С большой буквы", "С точки"],
+        options: ["С маленькой буквы", "С большой буквы", "С точки", "Никто не знает", "Не знаю"],
         correctAnswer: "С большой буквы",
         hint: "Первое слово пишется с большой буквы"
       },
       {
         type: 'quiz',
         question: "Чем заканчивается предложение?",
-        options: ["Запятой", "Точкой", "Пробелом"],
+        options: ["Запятой", "Точкой", "Пробелом", "Никто не знает", "Не знаю"],
         correctAnswer: "Точкой",
         hint: "В конце предложения ставится точка"
       },
@@ -452,7 +452,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Сколько слов в предложении: «Я иду»?",
-        options: ["1", "2", "3"],
+        options: ["1", "2", "3", "Никто не знает", "Не знаю"],
         correctAnswer: "2",
         hint: "Я-иду - два слова"
       }
@@ -468,7 +468,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Какой звук можно пропеть?",
-        options: ["М", "А", "К"],
+        options: ["М", "А", "К", "Никто не знает", "Не знаю"],
         correctAnswer: "А",
         hint: "Гласные звуки можно петь: А-а-а!"
       },
@@ -489,7 +489,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Сколько гласных в слове МАМА?",
-        options: ["1", "2", "4"],
+        options: ["1", "2", "4", "Никто не знает", "Не знаю"],
         correctAnswer: "2",
         hint: "М-А-М-А: две А"
       }
@@ -505,7 +505,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Что делает кот?",
-        options: ["Лает", "Мяукает", "Кукарекает"],
+        options: ["Лает", "Мяукает", "Кукарекает", "Никто не знает", "Не знаю"],
         correctAnswer: "Мяукает",
         hint: "Кот говорит мяу"
       },
@@ -526,7 +526,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Что делает птица?",
-        options: ["Плавает", "Летает", "Бегает"],
+        options: ["Плавает", "Летает", "Бегает", "Никто не знает", "Не знаю"],
         correctAnswer: "Летает",
         hint: "У птиц есть крылья"
       }
@@ -542,7 +542,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Какой огурец?",
-        options: ["Зелёный", "Красный", "Синий"],
+        options: ["Зелёный", "Красный", "Синий", "Никто не знает", "Не знаю"],
         correctAnswer: "Зелёный",
         hint: "Огурец зелёного цвета"
       },
@@ -563,7 +563,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Какое солнышко?",
-        options: ["Грустное", "Тёмное", "Яркое"],
+        options: ["Грустное", "Тёмное", "Яркое", "Никто не знает", "Не знаю"],
         correctAnswer: "Яркое",
         hint: "Солнце светит ярко"
       }
@@ -579,7 +579,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Что рифмуется со словом КОТ?",
-        options: ["Дом", "Крот", "Сад"],
+        options: ["Дом", "Крот", "Сад", "Никто не знает", "Не знаю"],
         correctAnswer: "Крот",
         hint: "Кот - Крот, звучит похоже"
       },
@@ -600,11 +600,48 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Что рифмуется со словом ДОМ?",
-        options: ["Стол", "Гном", "Стул"],
+        options: ["Стол", "Гном", "Стул", "Никто не знает", "Не знаю"],
         correctAnswer: "Гном",
         hint: "Дом - Гном, одинаково заканчиваются"
       }
     ],
     reward: { stars: 3, message: "Молодец! Ты умеешь рифмовать! 🎭" }
+  },
+  {
+    title: "Развитие речи 🗣️",
+    subject: "Развитие речи",
+    icon: "MessageCircle",
+    color: "text-teal-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какой звук первый в слове ЯБЛОКО?",
+        options: ["Я", "Б", "О", "Никто не знает", "Не знаю"],
+        correctAnswer: "Я",
+        hint: "Произнеси слово: [Я]блоко"
+      },
+      {
+        type: 'quiz',
+        question: "Сколько слогов в слове ВО-ДА?",
+        options: ["1", "2", "3", "Никто не знает", "Не знаю"],
+        correctAnswer: "2",
+        hint: "Хлопни: ВО-ДА (два хлопка)"
+      },
+      {
+        type: 'find',
+        question: "Выбери слова, которые начинаются на согласную:",
+        options: ["Мама", "Аист", "Дом", "Оса", "Кот"],
+        correctAnswer: ["Мама", "Дом", "Кот"],
+        hint: "Согласные звуки нельзя пропеть"
+      },
+      {
+        type: 'quiz',
+        question: "Какой звук последний в слове ЛЕС?",
+        options: ["Л", "Е", "С", "Никто не знает", "Не знаю"],
+        correctAnswer: "С",
+        hint: "Ле-[С] - последний звук"
+      }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты развиваешь речь! 🗣️" }
   }
 ]

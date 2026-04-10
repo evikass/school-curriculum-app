@@ -331,8 +331,9 @@ export const games: GameLesson[] = [
         hint: "Связано с ИИ"
       },
       {
-        type: 'fill',
+        type: 'quiz',
         question: "Одноплатный компьютер, используемый в роботах: Raspberry ...",
+        options: ["Pi", "Zero", "One", "Arduino", "STM", "ESP"],
         correctAnswer: "Pi",
         hint: "Математическая константа"
       }
@@ -367,8 +368,9 @@ export const games: GameLesson[] = [
         hint: "Специально для роботов"
       },
       {
-        type: 'fill',
+        type: 'quiz',
         question: "Деревья ... описывают поведение робота",
+        options: ["поведения", "решений", "действий", "логики", "алгоритмов", "задач"],
         correctAnswer: "поведения",
         hint: "Иерархические модели"
       }
@@ -443,8 +445,9 @@ export const games: GameLesson[] = [
         hint: "Низкое энергопотребление"
       },
       {
-        type: 'fill',
+        type: 'quiz',
         question: "Автоматические реакции на события в умном доме называются ...",
+        options: ["сценарии", "триггеры", "автоматизация", "правила", "события", "действия"],
         correctAnswer: "сценарии",
         hint: "Программируемые правила"
       }
@@ -479,8 +482,9 @@ export const games: GameLesson[] = [
         hint: "Автоматическое перестроение модели"
       },
       {
-        type: 'fill',
+        type: 'quiz',
         question: "По 3D-модели автоматически создаются ...",
+        options: ["чертежи", "схемы", "эскизы", "планы", "рисунки", "макеты"],
         correctAnswer: "чертежи",
         hint: "Документация для производства"
       }
@@ -515,8 +519,9 @@ export const games: GameLesson[] = [
         hint: "Важна для анимации и печати"
       },
       {
-        type: 'fill',
+        type: 'quiz',
         question: "LOD расшифровывается как Level of ...",
+        options: ["Detail", "Depth", "Design", "Data", "Dimension", "Definition"],
         correctAnswer: "Detail",
         hint: "Уровень детализации"
       }
@@ -551,8 +556,9 @@ export const games: GameLesson[] = [
         hint: "Самый популярный для начинающих"
       },
       {
-        type: 'fill',
+        type: 'quiz',
         question: "Слайсер преобразует модель в ...-code",
+        options: ["G", "M", "S", "X", "C", "T"],
         correctAnswer: "G",
         hint: "Инструкции для принтера"
       }
@@ -624,8 +630,9 @@ export const games: GameLesson[] = [
         hint: "Фреймворк Agile"
       },
       {
-        type: 'fill',
+        type: 'quiz',
         question: "Риск — это возможное событие, которое может повлиять на ...",
+        options: ["проект", "команду", "бюджет", "сроки", "качество", "результат"],
         correctAnswer: "проект",
         hint: "Негативное влияние"
       }
@@ -660,8 +667,9 @@ export const games: GameLesson[] = [
         hint: "Конструктивный подход"
       },
       {
-        type: 'fill',
+        type: 'quiz',
         question: "Культура команды — это общие ...",
+        options: ["ценности", "правила", "интересы", "задачи", "цели", "идеи"],
         correctAnswer: "ценности",
         hint: "Принципы и нормы"
       }
@@ -733,8 +741,9 @@ export const games: GameLesson[] = [
         hint: "Представление работы"
       },
       {
-        type: 'fill',
+        type: 'quiz',
         question: "Анализ проекта после защиты называется ...",
+        options: ["рефлексия", "дебрифинг", "обзор", "разбор", "анализ", "оценка"],
         correctAnswer: "рефлексия",
         hint: "Осмысление опыта"
       }

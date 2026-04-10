@@ -137,11 +137,11 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       {
-        type: 'order',
-        question: "Расставь числа по порядку от 1 до 5:",
-        options: ["Three", "One", "Five", "Two", "Four"],
-        correctAnswer: ["One", "Two", "Three", "Four", "Five"],
-        hint: "Один, два, три, четыре, пять"
+        type: 'quiz',
+        question: "Какое число идёт после Three?",
+        options: ["One", "Two", "Four", "Five", "Six"],
+        correctAnswer: "Four",
+        hint: "Один, два, три, четыре..."
       },
       {
         type: 'match',

@@ -935,14 +935,14 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Выражение 3x² + 1/x является:", options: ["Целым", "Дробным", "Рациональным числом", "Иррациональным"], correctAnswer: "Дробным", hint: "Есть деление на переменную" },
-      { type: 'fill', question: "ОДЗ для 5/(x - 7): x ≠ __", correctAnswer: "7", hint: "Знаменатель не равен нулю" },
-      { type: 'quiz', question: "Сколько недопустимых значений у 2/(x² - 9)?", options: ["1", "2", "3", "0"], correctAnswer: "2", hint: "x² - 9 = 0, x = ±3" },
-      { type: 'fill', question: "(a² - b²)/(a - b) = __", correctAnswer: "a + b", hint: "Разность квадратов" },
-      { type: 'quiz', question: "ОДЗ для 1/(x(x - 2)):", options: ["x ≠ 0", "x ≠ 2", "x ≠ 0 и x ≠ 2", "Все значения"], correctAnswer: "x ≠ 0 и x ≠ 2", hint: "Два множителя в знаменателе" },
-      { type: 'fill', question: "x² - 16 = (x - __)(x + 4)", correctAnswer: "4", hint: "Разность квадратов" },
-      { type: 'quiz', question: "Какое выражение целое?", options: ["3/x", "x² + 1/x", "5x² - 3x + 2", "1/(x + 1)"], correctAnswer: "5x² - 3x + 2", hint: "Нет деления на переменную" },
-      { type: 'fill', question: "ОДЗ для √(x - 5): x ≥ __", correctAnswer: "5", hint: "Подкоренное ≥ 0" }
+      { type: 'quiz', question: "Выражение 3x² + 1/x является:", options: ["Целым", "Дробным", "Рациональным числом", "Иррациональным", "Другой ответ"], correctAnswer: "Дробным", hint: "Есть деление на переменную" },
+      { type: 'quiz', question: "ОДЗ для 5/(x - 7): x ≠ __", options: ["7", "0", "-7", "5", "1", "12"], correctAnswer: "7", hint: "Знаменатель не равен нулю" },
+      { type: 'quiz', question: "Сколько недопустимых значений у 2/(x² - 9)?", options: ["1", "2", "3", "0", "Другой ответ"], correctAnswer: "2", hint: "x² - 9 = 0, x = ±3" },
+      { type: 'quiz', question: "(a² - b²)/(a - b) = __", options: ["a + b", "a - b", "a² + b²", "ab", "2a", "2b"], correctAnswer: "a + b", hint: "Разность квадратов" },
+      { type: 'quiz', question: "ОДЗ для 1/(x(x - 2)):", options: ["x ≠ 0", "x ≠ 2", "x ≠ 0 и x ≠ 2", "Все значения", "Другой ответ"], correctAnswer: "x ≠ 0 и x ≠ 2", hint: "Два множителя в знаменателе" },
+      { type: 'quiz', question: "x² - 16 = (x - __)(x + 4)", options: ["4", "2", "8", "16", "-4", "-16"], correctAnswer: "4", hint: "Разность квадратов" },
+      { type: 'quiz', question: "Какое выражение целое?", options: ["3/x", "x² + 1/x", "5x² - 3x + 2", "1/(x + 1)", "Другой ответ"], correctAnswer: "5x² - 3x + 2", hint: "Нет деления на переменную" },
+      { type: 'quiz', question: "ОДЗ для √(x - 5): x ≥ __", options: ["5", "0", "-5", "10", "1", "25"], correctAnswer: "5", hint: "Подкоренное ≥ 0" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь рациональные выражения!" }
   },
@@ -952,14 +952,14 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "12a³/18a² = __/3 (сократите)", correctAnswer: "2a", hint: "12/18 = 2/3, a³/a² = a" },
-      { type: 'quiz', question: "(x² - 9)/(x - 3) равно:", options: ["x - 3", "x + 3", "x² - 3", "x/3"], correctAnswer: "x + 3", hint: "(x-3)(x+3)/(x-3)" },
-      { type: 'fill', question: "(a² + 2a + 1)/(a + 1) = __", correctAnswer: "a + 1", hint: "(a + 1)²/(a + 1)" },
-      { type: 'quiz', question: "Общий знаменатель для 1/x и 1/(x + 1):", options: ["x", "x + 1", "x(x + 1)", "2x"], correctAnswer: "x(x + 1)", hint: "НОК знаменателей" },
-      { type: 'fill', question: "6x²/9x = __x/3", correctAnswer: "2", hint: "6/9 = 2/3, x²/x = x" },
-      { type: 'quiz', question: "Сократите (x² - 4)/(x² - 2x):", options: ["(x + 2)/x", "(x - 2)/x", "2/x", "x - 2"], correctAnswer: "(x + 2)/x", hint: "Разложите на множители" },
-      { type: 'fill', question: "(a - b)²/(a - b) = __", correctAnswer: "a - b", hint: "Сократите (a - b)" },
-      { type: 'quiz', question: "Какое равенство верно?", options: ["a/b = 2a/2b", "a/b = 2a/b", "a/b = a/2b", "a/b = (a + 1)/(b + 1)"], correctAnswer: "a/b = 2a/2b", hint: "Основное свойство дроби" }
+      { type: 'quiz', question: "12a³/18a² = __/3 (сократите)", options: ["2a", "a", "6a", "4a", "3a", "a/3"], correctAnswer: "2a", hint: "12/18 = 2/3, a³/a² = a" },
+      { type: 'quiz', question: "(x² - 9)/(x - 3) равно:", options: ["x - 3", "x + 3", "x² - 3", "x/3", "Другой ответ"], correctAnswer: "x + 3", hint: "(x-3)(x+3)/(x-3)" },
+      { type: 'quiz', question: "(a² + 2a + 1)/(a + 1) = __", options: ["a + 1", "a - 1", "a + 2", "a² + 1", "2a + 1", "a"], correctAnswer: "a + 1", hint: "(a + 1)²/(a + 1)" },
+      { type: 'quiz', question: "Общий знаменатель для 1/x и 1/(x + 1):", options: ["x", "x + 1", "x(x + 1)", "2x", "Другой ответ"], correctAnswer: "x(x + 1)", hint: "НОК знаменателей" },
+      { type: 'quiz', question: "6x²/9x = __x/3", options: ["2", "3", "6", "1", "4", "9"], correctAnswer: "2", hint: "6/9 = 2/3, x²/x = x" },
+      { type: 'quiz', question: "Сократите (x² - 4)/(x² - 2x):", options: ["(x + 2)/x", "(x - 2)/x", "2/x", "x - 2", "Другой ответ"], correctAnswer: "(x + 2)/x", hint: "Разложите на множители" },
+      { type: 'quiz', question: "(a - b)²/(a - b) = __", options: ["a - b", "a + b", "2(a - b)", "a² - b²", "ab", "a/b"], correctAnswer: "a - b", hint: "Сократите (a - b)" },
+      { type: 'quiz', question: "Какое равенство верно?", options: ["a/b = 2a/2b", "a/b = 2a/b", "a/b = a/2b", "a/b = (a + 1)/(b + 1)", "Другой ответ"], correctAnswer: "a/b = 2a/2b", hint: "Основное свойство дроби" }
     ],
     reward: { stars: 3, message: "Ты отлично владеешь основным свойством дроби!" }
   },
@@ -969,14 +969,14 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "3a/x + 5a/x = __a/x", correctAnswer: "8", hint: "3 + 5 = 8" },
-      { type: 'quiz', question: "1/(x + 2) + 1/(x - 2) равно:", options: ["2x/(x² - 4)", "2/(x² - 4)", "x/(x² - 4)", "2x/(x + 2)"], correctAnswer: "2x/(x² - 4)", hint: "Общий знаменатель x² - 4" },
-      { type: 'fill', question: "1/x + 1/(2x) = __/(2x)", correctAnswer: "3", hint: "1/x = 2/(2x)" },
-      { type: 'quiz', question: "a/(a - b) - b/(a + b) равно:", options: ["(a² + b²)/(a² - b²)", "(a² - b²)/(a² - b²)", "ab/(a² - b²)", "(a + b)/(a - b)"], correctAnswer: "(a² + b²)/(a² - b²)", hint: "Приведите к общему знаменателю" },
-      { type: 'fill', question: "2/x - 1/x = __/x", correctAnswer: "1", hint: "2 - 1 = 1" },
-      { type: 'quiz', question: "Общий знаменатель для 1/(x - 1) и 1/(x + 1):", options: ["x - 1", "x + 1", "x² - 1", "2x"], correctAnswer: "x² - 1", hint: "Разность квадратов" },
-      { type: 'fill', question: "x/(x - 2) - 2/(x - 2) = __/(x - 2)", correctAnswer: "x - 2", hint: "x - 2 в числителе" },
-      { type: 'quiz', question: "1/a + 1/b равно:", options: ["2/ab", "(a + b)/ab", "1/(a + b)", "(a + b)/(a - b)"], correctAnswer: "(a + b)/ab", hint: "Общий знаменатель ab" }
+      { type: 'quiz', question: "3a/x + 5a/x = __a/x", options: ["8", "15", "2", "3", "5", "-2"], correctAnswer: "8", hint: "3 + 5 = 8" },
+      { type: 'quiz', question: "1/(x + 2) + 1/(x - 2) равно:", options: ["2x/(x² - 4)", "2/(x² - 4)", "x/(x² - 4)", "2x/(x + 2)", "Другой ответ"], correctAnswer: "2x/(x² - 4)", hint: "Общий знаменатель x² - 4" },
+      { type: 'quiz', question: "1/x + 1/(2x) = __/(2x)", options: ["3", "2", "1", "4", "1/2", "0"], correctAnswer: "3", hint: "1/x = 2/(2x)" },
+      { type: 'quiz', question: "a/(a - b) - b/(a + b) равно:", options: ["(a² + b²)/(a² - b²)", "(a² - b²)/(a² - b²)", "ab/(a² - b²)", "(a + b)/(a - b)", "Другой ответ"], correctAnswer: "(a² + b²)/(a² - b²)", hint: "Приведите к общему знаменателю" },
+      { type: 'quiz', question: "2/x - 1/x = __/x", options: ["1", "3", "2", "0", "-1", "1/2"], correctAnswer: "1", hint: "2 - 1 = 1" },
+      { type: 'quiz', question: "Общий знаменатель для 1/(x - 1) и 1/(x + 1):", options: ["x - 1", "x + 1", "x² - 1", "2x", "Другой ответ"], correctAnswer: "x² - 1", hint: "Разность квадратов" },
+      { type: 'quiz', question: "x/(x - 2) - 2/(x - 2) = __/(x - 2)", options: ["x - 2", "x + 2", "2", "x", "0", "2x"], correctAnswer: "x - 2", hint: "x - 2 в числителе" },
+      { type: 'quiz', question: "1/a + 1/b равно:", options: ["2/ab", "(a + b)/ab", "1/(a + b)", "(a + b)/(a - b)", "Другой ответ"], correctAnswer: "(a + b)/ab", hint: "Общий знаменатель ab" }
     ],
     reward: { stars: 3, message: "Ты умеешь складывать и вычитать дроби!" }
   },
@@ -986,14 +986,14 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "√144 = __", correctAnswer: "12", hint: "12² = 144" },
-      { type: 'quiz', question: "(√13)² равно:", options: ["13", "√13", "169", "26"], correctAnswer: "13", hint: "Основное тождество корня" },
-      { type: 'quiz', question: "Сравните √10 и √11:", options: ["√10 > √11", "√10 < √11", "√10 = √11", "Нельзя сравнить"], correctAnswer: "√10 < √11", hint: "10 < 11" },
-      { type: 'fill', question: "ОДЗ для √(x - 3): x ≥ __", correctAnswer: "3", hint: "Подкоренное ≥ 0" },
-      { type: 'quiz', question: "√0 равно:", options: ["0", "1", "Не существует", "-1"], correctAnswer: "0", hint: "0² = 0" },
-      { type: 'fill', question: "√81 = __", correctAnswer: "9", hint: "9² = 81" },
-      { type: 'quiz', question: "При каких x имеет смысл √(-x)?", options: ["x ≥ 0", "x ≤ 0", "x > 0", "При любых"], correctAnswer: "x ≤ 0", hint: "-x ≥ 0, значит x ≤ 0" },
-      { type: 'fill', question: "√121 = __", correctAnswer: "11", hint: "11² = 121" }
+      { type: 'quiz', question: "√144 = __", options: ["12", "11", "13", "14", "10", "144"], correctAnswer: "12", hint: "12² = 144" },
+      { type: 'quiz', question: "(√13)² равно:", options: ["13", "√13", "169", "26", "Другой ответ"], correctAnswer: "13", hint: "Основное тождество корня" },
+      { type: 'quiz', question: "Сравните √10 и √11:", options: ["√10 > √11", "√10 < √11", "√10 = √11", "Нельзя сравнить", "Другой ответ"], correctAnswer: "√10 < √11", hint: "10 < 11" },
+      { type: 'quiz', question: "ОДЗ для √(x - 3): x ≥ __", options: ["3", "0", "-3", "6", "1", "9"], correctAnswer: "3", hint: "Подкоренное ≥ 0" },
+      { type: 'quiz', question: "√0 равно:", options: ["0", "1", "Не существует", "-1", "Другой ответ"], correctAnswer: "0", hint: "0² = 0" },
+      { type: 'quiz', question: "√81 = __", options: ["9", "8", "10", "7", "81", "3"], correctAnswer: "9", hint: "9² = 81" },
+      { type: 'quiz', question: "При каких x имеет смысл √(-x)?", options: ["x ≥ 0", "x ≤ 0", "x > 0", "При любых", "Другой ответ"], correctAnswer: "x ≤ 0", hint: "-x ≥ 0, значит x ≤ 0" },
+      { type: 'quiz', question: "√121 = __", options: ["11", "10", "12", "13", "121", "1"], correctAnswer: "11", hint: "11² = 121" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь квадратные корни!" }
   },
@@ -1003,14 +1003,14 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "√(25 × 16) = __ × 4 = 20", correctAnswer: "5", hint: "√25 × √16" },
-      { type: 'quiz', question: "√50 равно:", options: ["5√2", "2√5", "10√5", "25√2"], correctAnswer: "5√2", hint: "50 = 25 × 2" },
-      { type: 'fill', question: "√(8a²) = __|a|√2", correctAnswer: "2", hint: "8 = 4 × 2" },
-      { type: 'quiz', question: "5√3 внесите под корень:", options: ["√15", "√75", "√8", "√53"], correctAnswer: "√75", hint: "√(25 × 3)" },
-      { type: 'fill', question: "√72 = __√2", correctAnswer: "6", hint: "72 = 36 × 2" },
-      { type: 'quiz', question: "√(a²) равно:", options: ["a", "|a|", "a²", "-a"], correctAnswer: "|a|", hint: "Корень всегда неотрицателен" },
-      { type: 'fill', question: "√(x²) = __x__ (с модулем)", correctAnswer: "|x|", hint: "Модуль x" },
-      { type: 'quiz', question: "√(36/4) равно:", options: ["3", "6/2", "9", "√9"], correctAnswer: "3", hint: "√36/√4 = 6/2" }
+      { type: 'quiz', question: "√(25 × 16) = __ × 4 = 20", options: ["5", "4", "25", "16", "10", "2"], correctAnswer: "5", hint: "√25 × √16" },
+      { type: 'quiz', question: "√50 равно:", options: ["5√2", "2√5", "10√5", "25√2", "Другой ответ"], correctAnswer: "5√2", hint: "50 = 25 × 2" },
+      { type: 'quiz', question: "√(8a²) = __|a|√2", options: ["2", "4", "8", "1", "3", "a"], correctAnswer: "2", hint: "8 = 4 × 2" },
+      { type: 'quiz', question: "5√3 внесите под корень:", options: ["√15", "√75", "√8", "√53", "Другой ответ"], correctAnswer: "√75", hint: "√(25 × 3)" },
+      { type: 'quiz', question: "√72 = __√2", options: ["6", "36", "8", "12", "4", "3"], correctAnswer: "6", hint: "72 = 36 × 2" },
+      { type: 'quiz', question: "√(a²) равно:", options: ["a", "|a|", "a²", "-a", "Другой ответ"], correctAnswer: "|a|", hint: "Корень всегда неотрицателен" },
+      { type: 'quiz', question: "√(x²) = __x__ (с модулем)", options: ["|x|", "x", "-x", "±x", "x²", "√x"], correctAnswer: "|x|", hint: "Модуль x" },
+      { type: 'quiz', question: "√(36/4) равно:", options: ["3", "6/2", "9", "√9", "Другой ответ"], correctAnswer: "3", hint: "√36/√4 = 6/2" }
     ],
     reward: { stars: 3, message: "Ты отлично знаешь свойства корня!" }
   },
@@ -1020,14 +1020,14 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "√18 + √50 - √8 = __√2", correctAnswer: "4", hint: "3√2 + 5√2 - 2√2" },
-      { type: 'quiz', question: "√6 × √24 равно:", options: ["√30", "6", "12", "√144"], correctAnswer: "6", hint: "√(6 × 24) = √144" },
-      { type: 'fill', question: "5/√3 = 5√3/__", correctAnswer: "3", hint: "Умножили на √3" },
-      { type: 'quiz', question: "(√7 + 1)² равно:", options: ["7 + 1", "8 + 2√7", "7 - 2√7 + 1", "8"], correctAnswer: "8 + 2√7", hint: "Формула квадрата суммы" },
-      { type: 'fill', question: "√2 × √8 = __", correctAnswer: "4", hint: "√16" },
-      { type: 'quiz', question: "1/(2 + √3) равно:", options: ["2 + √3", "2 - √3", "1/(2 - √3)", "√3 - 2"], correctAnswer: "2 - √3", hint: "Умножьте на сопряжённое" },
-      { type: 'fill', question: "√20 - √5 = __√5", correctAnswer: "1", hint: "2√5 - √5" },
-      { type: 'quiz', question: "(√5 - 2)(√5 + 2) равно:", options: ["5 - 4", "5 + 4", "√25", "1"], correctAnswer: "1", hint: "Разность квадратов" }
+      { type: 'quiz', question: "√18 + √50 - √8 = __√2", options: ["4", "6", "8", "2", "10", "5"], correctAnswer: "4", hint: "3√2 + 5√2 - 2√2" },
+      { type: 'quiz', question: "√6 × √24 равно:", options: ["√30", "6", "12", "√144", "Другой ответ"], correctAnswer: "6", hint: "√(6 × 24) = √144" },
+      { type: 'quiz', question: "5/√3 = 5√3/__", options: ["3", "√3", "1", "9", "5", "15"], correctAnswer: "3", hint: "Умножили на √3" },
+      { type: 'quiz', question: "(√7 + 1)² равно:", options: ["7 + 1", "8 + 2√7", "7 - 2√7 + 1", "8", "Другой ответ"], correctAnswer: "8 + 2√7", hint: "Формула квадрата суммы" },
+      { type: 'quiz', question: "√2 × √8 = __", options: ["4", "2", "8", "16", "√10", "10"], correctAnswer: "4", hint: "√16" },
+      { type: 'quiz', question: "1/(2 + √3) равно:", options: ["2 + √3", "2 - √3", "1/(2 - √3)", "√3 - 2", "Другой ответ"], correctAnswer: "2 - √3", hint: "Умножьте на сопряжённое" },
+      { type: 'quiz', question: "√20 - √5 = __√5", options: ["1", "2", "3", "4", "0", "5"], correctAnswer: "1", hint: "2√5 - √5" },
+      { type: 'quiz', question: "(√5 - 2)(√5 + 2) равно:", options: ["5 - 4", "5 + 4", "√25", "1", "Другой ответ"], correctAnswer: "1", hint: "Разность квадратов" }
     ],
     reward: { stars: 3, message: "Ты умеешь преобразовывать выражения с корнями!" }
   },
@@ -1037,14 +1037,14 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "x² - 25 = 0, x = ±__", correctAnswer: "5", hint: "x² = 25" },
-      { type: 'quiz', question: "3x² + 12x = 0 имеет корни:", options: ["0 и 4", "0 и -4", "4 и -4", "Только 0"], correctAnswer: "0 и -4", hint: "3x(x + 4) = 0" },
-      { type: 'fill', question: "5x² = 0, x = __", correctAnswer: "0", hint: "x² = 0" },
-      { type: 'quiz', question: "x² + 16 = 0:", options: ["x = ±4", "x = 4", "Нет корней", "x = -4"], correctAnswer: "Нет корней", hint: "x² = -16 < 0" },
-      { type: 'fill', question: "x² - 49 = 0, x = ±__", correctAnswer: "7", hint: "x² = 49" },
-      { type: 'quiz', question: "2x² - 8x = 0 имеет корни:", options: ["0 и 4", "0 и -4", "4 и -4", "0 и 2"], correctAnswer: "0 и 4", hint: "2x(x - 4) = 0" },
-      { type: 'fill', question: "x² - 100 = 0, x = ±__", correctAnswer: "10", hint: "x² = 100" },
-      { type: 'quiz', question: "Сколько корней у ax² = 0?", options: ["0", "1", "2", "Зависит от a"], correctAnswer: "1", hint: "x = 0" }
+      { type: 'quiz', question: "x² - 25 = 0, x = ±__", options: ["5", "25", "10", "-5", "0", "±25"], correctAnswer: "5", hint: "x² = 25" },
+      { type: 'quiz', question: "3x² + 12x = 0 имеет корни:", options: ["0 и 4", "0 и -4", "4 и -4", "Только 0", "Другой ответ"], correctAnswer: "0 и -4", hint: "3x(x + 4) = 0" },
+      { type: 'quiz', question: "5x² = 0, x = __", options: ["0", "5", "1", "-5", "2", "10"], correctAnswer: "0", hint: "x² = 0" },
+      { type: 'quiz', question: "x² + 16 = 0:", options: ["x = ±4", "x = 4", "Нет корней", "x = -4", "Другой ответ"], correctAnswer: "Нет корней", hint: "x² = -16 < 0" },
+      { type: 'quiz', question: "x² - 49 = 0, x = ±__", options: ["7", "49", "14", "-7", "0", "±49"], correctAnswer: "7", hint: "x² = 49" },
+      { type: 'quiz', question: "2x² - 8x = 0 имеет корни:", options: ["0 и 4", "0 и -4", "4 и -4", "0 и 2", "Другой ответ"], correctAnswer: "0 и 4", hint: "2x(x - 4) = 0" },
+      { type: 'quiz', question: "x² - 100 = 0, x = ±__", options: ["10", "100", "50", "-10", "0", "±100"], correctAnswer: "10", hint: "x² = 100" },
+      { type: 'quiz', question: "Сколько корней у ax² = 0?", options: ["0", "1", "2", "Зависит от a", "Другой ответ"], correctAnswer: "1", hint: "x = 0" }
     ],
     reward: { stars: 3, message: "Ты умеешь решать неполные уравнения!" }
   },
@@ -1054,14 +1054,14 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "Для x² - 3x - 10: D = __", correctAnswer: "49", hint: "D = 9 + 40" },
-      { type: 'quiz', question: "Корни x² - 3x - 10 = 0:", options: ["-2 и 5", "2 и -5", "-2 и -5", "2 и 5"], correctAnswer: "-2 и 5", hint: "D = 49, x = (3±7)/2" },
-      { type: 'fill', question: "Для 2x² + 5x - 3: D = __", correctAnswer: "49", hint: "D = 25 + 24" },
-      { type: 'quiz', question: "Для x² - 6x + 9: D равно:", options: ["0", "1", "36", "-36"], correctAnswer: "0", hint: "D = 36 - 36" },
-      { type: 'fill', question: "x² - 8x + 15 = 0: x₁ + x₂ = __", correctAnswer: "8", hint: "Теорема Виета" },
-      { type: 'quiz', question: "По теореме Виета x₁ × x₂ для x² - 8x + 15:", options: ["8", "15", "-8", "-15"], correctAnswer: "15", hint: "Произведение корней = q" },
-      { type: 'fill', question: "x² + px + q = 0: x₁ + x₂ = -__", correctAnswer: "p", hint: "Теорема Виета" },
-      { type: 'quiz', question: "x² + 2x + 5 = 0 имеет:", options: ["2 корня", "1 корень", "Нет корней", "Бесконечно много"], correctAnswer: "Нет корней", hint: "D = 4 - 20 < 0" }
+      { type: 'quiz', question: "Для x² - 3x - 10: D = __", options: ["49", "9", "40", "-40", "7", "10"], correctAnswer: "49", hint: "D = 9 + 40" },
+      { type: 'quiz', question: "Корни x² - 3x - 10 = 0:", options: ["-2 и 5", "2 и -5", "-2 и -5", "2 и 5", "Другой ответ"], correctAnswer: "-2 и 5", hint: "D = 49, x = (3±7)/2" },
+      { type: 'quiz', question: "Для 2x² + 5x - 3: D = __", options: ["49", "25", "-24", "1", "7", "-1"], correctAnswer: "49", hint: "D = 25 + 24" },
+      { type: 'quiz', question: "Для x² - 6x + 9: D равно:", options: ["0", "1", "36", "-36", "Другой ответ"], correctAnswer: "0", hint: "D = 36 - 36" },
+      { type: 'quiz', question: "x² - 8x + 15 = 0: x₁ + x₂ = __", options: ["8", "15", "-8", "-15", "3", "5"], correctAnswer: "8", hint: "Теорема Виета" },
+      { type: 'quiz', question: "По теореме Виета x₁ × x₂ для x² - 8x + 15:", options: ["8", "15", "-8", "-15", "Другой ответ"], correctAnswer: "15", hint: "Произведение корней = q" },
+      { type: 'quiz', question: "x² + px + q = 0: x₁ + x₂ = -__", options: ["p", "q", "x", "1", "-p", "-q"], correctAnswer: "p", hint: "Теорема Виета" },
+      { type: 'quiz', question: "x² + 2x + 5 = 0 имеет:", options: ["2 корня", "1 корень", "Нет корней", "Бесконечно много", "Другой ответ"], correctAnswer: "Нет корней", hint: "D = 4 - 20 < 0" }
     ],
     reward: { stars: 3, message: "Ты умеешь решать квадратные уравнения!" }
   },
@@ -1071,14 +1071,14 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "5/6 и 7/8:", options: ["5/6 > 7/8", "5/6 < 7/8", "5/6 = 7/8", "Нельзя сравнить"], correctAnswer: "5/6 < 7/8", hint: "Приведите к общему знаменателю" },
-      { type: 'fill', question: "√5 ≈ __.236", correctAnswer: "2", hint: "Приближённое значение" },
-      { type: 'quiz', question: "Если a > b, то a - 3 __ b - 3:", options: [">", "<", "=", "Зависит от a и b"], correctAnswer: ">", hint: "Свойство прибавления" },
-      { type: 'fill', question: "Если x > 5, то 2x __ 10", correctAnswer: ">", hint: "Умножение на 2 > 0" },
-      { type: 'quiz', question: "Если a > b, то при умножении на -2:", options: ["-2a > -2b", "-2a < -2b", "-2a = -2b", "Зависит от чисел"], correctAnswer: "-2a < -2b", hint: "Знак меняется" },
-      { type: 'fill', question: "Сравните: √3 __ 1.8 (больше или меньше)", correctAnswer: "<", hint: "√3 ≈ 1.73" },
-      { type: 'quiz', question: "Если a > b > 0, то:", options: ["1/a > 1/b", "1/a < 1/b", "1/a = 1/b", "Зависит от a, b"], correctAnswer: "1/a < 1/b", hint: "Обратные числа" },
-      { type: 'fill', question: "Если a > b, то a + 5 __ b + 5", correctAnswer: ">", hint: "Прибавили одно и то же число" }
+      { type: 'quiz', question: "5/6 и 7/8:", options: ["5/6 > 7/8", "5/6 < 7/8", "5/6 = 7/8", "Нельзя сравнить", "Другой ответ"], correctAnswer: "5/6 < 7/8", hint: "Приведите к общему знаменателю" },
+      { type: 'quiz', question: "√5 ≈ __.236", options: ["2", "1", "3", "4", "5", "2.5"], correctAnswer: "2", hint: "Приближённое значение" },
+      { type: 'quiz', question: "Если a > b, то a - 3 __ b - 3:", options: [">", "<", "=", "Зависит от a и b", "Другой ответ"], correctAnswer: ">", hint: "Свойство прибавления" },
+      { type: 'quiz', question: "Если x > 5, то 2x __ 10", options: [">", "<", "=", "≤", "≥", "≠"], correctAnswer: ">", hint: "Умножение на 2 > 0" },
+      { type: 'quiz', question: "Если a > b, то при умножении на -2:", options: ["-2a > -2b", "-2a < -2b", "-2a = -2b", "Зависит от чисел", "Другой ответ"], correctAnswer: "-2a < -2b", hint: "Знак меняется" },
+      { type: 'quiz', question: "Сравните: √3 __ 1.8 (больше или меньше)", options: ["<", ">", "=", "≤", "≥", "≈"], correctAnswer: "<", hint: "√3 ≈ 1.73" },
+      { type: 'quiz', question: "Если a > b > 0, то:", options: ["1/a > 1/b", "1/a < 1/b", "1/a = 1/b", "Зависит от a, b", "Другой ответ"], correctAnswer: "1/a < 1/b", hint: "Обратные числа" },
+      { type: 'quiz', question: "Если a > b, то a + 5 __ b + 5", options: [">", "<", "=", "≤", "≥", "≠"], correctAnswer: ">", hint: "Прибавили одно и то же число" }
     ],
     reward: { stars: 3, message: "Ты понимаешь свойства неравенств!" }
   },
@@ -1088,14 +1088,14 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "2x + 7 > 11, x > __", correctAnswer: "2", hint: "2x > 4" },
-      { type: 'quiz', question: "-3x + 5 ≥ 14:", options: ["x ≥ -3", "x ≤ -3", "x ≥ 3", "x ≤ 3"], correctAnswer: "x ≤ -3", hint: "Знак меняется" },
-      { type: 'fill', question: "4 - x < 2x + 1, x > __", correctAnswer: "1", hint: "3 < 3x" },
-      { type: 'quiz', question: "x ≥ -3 в интервальной записи:", options: ["(-3; +∞)", "[-3; +∞)", "(-∞; -3)", "(-∞; -3]"], correctAnswer: "[-3; +∞)", hint: "Квадратная скобка" },
-      { type: 'fill', question: "-2x > 8, x __ -4", correctAnswer: "<", hint: "Знак меняется" },
-      { type: 'quiz', question: "5x - 3 ≤ 2x + 6:", options: ["x ≤ 3", "x ≥ 3", "x ≤ 1", "x ≥ 1"], correctAnswer: "x ≤ 3", hint: "3x ≤ 9" },
-      { type: 'fill', question: "x > 4 в интервальной записи: (4; __)", correctAnswer: "+∞", hint: "Бесконечность" },
-      { type: 'quiz', question: "-x < 5 равно:", options: ["x > -5", "x < -5", "x > 5", "x < 5"], correctAnswer: "x > -5", hint: "Умножили на -1" }
+      { type: 'quiz', question: "2x + 7 > 11, x > __", options: ["2", "4", "1", "3", "0", "5"], correctAnswer: "2", hint: "2x > 4" },
+      { type: 'quiz', question: "-3x + 5 ≥ 14:", options: ["x ≥ -3", "x ≤ -3", "x ≥ 3", "x ≤ 3", "Другой ответ"], correctAnswer: "x ≤ -3", hint: "Знак меняется" },
+      { type: 'quiz', question: "4 - x < 2x + 1, x > __", options: ["1", "2", "3", "0", "-1", "4"], correctAnswer: "1", hint: "3 < 3x" },
+      { type: 'quiz', question: "x ≥ -3 в интервальной записи:", options: ["(-3; +∞)", "[-3; +∞)", "(-∞; -3)", "(-∞; -3]", "Другой ответ"], correctAnswer: "[-3; +∞)", hint: "Квадратная скобка" },
+      { type: 'quiz', question: "-2x > 8, x __ -4", options: ["<", ">", "=", "≤", "≥", "≠"], correctAnswer: "<", hint: "Знак меняется" },
+      { type: 'quiz', question: "5x - 3 ≤ 2x + 6:", options: ["x ≤ 3", "x ≥ 3", "x ≤ 1", "x ≥ 1", "Другой ответ"], correctAnswer: "x ≤ 3", hint: "3x ≤ 9" },
+      { type: 'quiz', question: "x > 4 в интервальной записи: (4; __)", options: ["+∞", "-∞", "∞", "0", "10", "100"], correctAnswer: "+∞", hint: "Бесконечность" },
+      { type: 'quiz', question: "-x < 5 равно:", options: ["x > -5", "x < -5", "x > 5", "x < 5", "Другой ответ"], correctAnswer: "x > -5", hint: "Умножили на -1" }
     ],
     reward: { stars: 3, message: "Ты умеешь решать линейные неравенства!" }
   },
@@ -1105,14 +1105,14 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "3⁻² = 1/__", correctAnswer: "9", hint: "3⁻² = 1/3²" },
-      { type: 'quiz', question: "2⁻³ × 2⁵ равно:", options: ["2² = 4", "2⁻¹⁵", "2⁸", "2² = 4"], correctAnswer: "2² = 4", hint: "Показатели складываются" },
-      { type: 'fill', question: "2800000 = 2.8 × 10__", correctAnswer: "6", hint: "6 нулей после 2.8" },
-      { type: 'quiz', question: "0.00045 в стандартном виде:", options: ["4.5 × 10⁻⁴", "4.5 × 10⁴", "45 × 10⁻⁵", "0.45 × 10⁻³"], correctAnswer: "4.5 × 10⁻⁴", hint: "Запятая сдвинулась на 4 позиции" },
-      { type: 'fill', question: "5⁻¹ = 1/__", correctAnswer: "5", hint: "5⁻¹ = 1/5" },
-      { type: 'quiz', question: "(2⁻²)³ равно:", options: ["2⁻⁶ = 1/64", "2⁶ = 64", "2⁻⁵", "2⁵"], correctAnswer: "2⁻⁶ = 1/64", hint: "Показатели умножаются" },
-      { type: 'fill', question: "10⁻³ = 0.00__", correctAnswer: "1", hint: "Три нуля после запятой" },
-      { type: 'quiz', question: "a⁵ : a⁻² равно:", options: ["a³", "a⁷", "a⁻⁷", "a⁻³"], correctAnswer: "a⁷", hint: "5 - (-2) = 7" }
+      { type: 'quiz', question: "3⁻² = 1/__", options: ["9", "6", "3", "1", "-9", "-3"], correctAnswer: "9", hint: "3⁻² = 1/3²" },
+      { type: 'quiz', question: "2⁻³ × 2⁵ равно:", options: ["2² = 4", "2⁻¹⁵", "2⁸", "2² = 4", "Другой ответ"], correctAnswer: "2² = 4", hint: "Показатели складываются" },
+      { type: 'quiz', question: "2800000 = 2.8 × 10__", options: ["6", "7", "5", "4", "3", "8"], correctAnswer: "6", hint: "6 нулей после 2.8" },
+      { type: 'quiz', question: "0.00045 в стандартном виде:", options: ["4.5 × 10⁻⁴", "4.5 × 10⁴", "45 × 10⁻⁵", "0.45 × 10⁻³", "Другой ответ"], correctAnswer: "4.5 × 10⁻⁴", hint: "Запятая сдвинулась на 4 позиции" },
+      { type: 'quiz', question: "5⁻¹ = 1/__", options: ["5", "1", "-5", "0.2", "10", "-1"], correctAnswer: "5", hint: "5⁻¹ = 1/5" },
+      { type: 'quiz', question: "(2⁻²)³ равно:", options: ["2⁻⁶ = 1/64", "2⁶ = 64", "2⁻⁵", "2⁵", "Другой ответ"], correctAnswer: "2⁻⁶ = 1/64", hint: "Показатели умножаются" },
+      { type: 'quiz', question: "10⁻³ = 0.00__", options: ["1", "10", "100", "0", "0.1", "-1"], correctAnswer: "1", hint: "Три нуля после запятой" },
+      { type: 'quiz', question: "a⁵ : a⁻² равно:", options: ["a³", "a⁷", "a⁻⁷", "a⁻³", "Другой ответ"], correctAnswer: "a⁷", hint: "5 - (-2) = 7" }
     ],
     reward: { stars: 3, message: "Ты владеешь степенями с целым показателем!" }
   }

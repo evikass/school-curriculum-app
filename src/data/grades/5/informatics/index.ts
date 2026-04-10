@@ -760,7 +760,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Какой символ используется для переноса строки?",
-        options: ["Enter", "Пробел", "Tab"],
+        options: ["Enter", "Пробел", "Tab", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Enter",
         hint: "Клавиша ввода"
       },
@@ -774,16 +774,11 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Как скопировать выделенный текст?",
-        options: ["Ctrl+V", "Ctrl+C", "Ctrl+X"],
+        options: ["Ctrl+V", "Ctrl+C", "Ctrl+X", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Ctrl+C",
         hint: "C - Copy"
       },
-      {
-        type: 'fill',
-        question: "Расширение файла Word - .doc...",
-        correctAnswer: "x",
-        hint: ".docx"
-      }
+      { type: 'quiz', question: "Расширение файла Word - .docx", options: ["x", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "x", hint: ".docx" }
     ],
     reward: { stars: 3, message: "Отлично! Ты работаешь с текстом! 📝" }
   },
@@ -796,7 +791,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Сколько слайдов должно быть в презентации?",
-        options: ["1-2", "5-10", "Чем больше, тем лучше"],
+        options: ["1-2", "5-10", "Чем больше, тем лучше", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "5-10",
         hint: "Оптимальное количество"
       },
@@ -810,12 +805,12 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Что не должно быть на слайде?",
-        options: ["Картинка", "Много текста", "Заголовок"],
+        options: ["Картинка", "Много текста", "Заголовок", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Много текста",
         hint: "Слайд не для чтения"
       },
       {
-        type: 'order',
+        type: 'quiz',
         question: "Расставь этапы: создание слайдов / выбор темы / сохранение",
         correctAnswer: "выбор темы, создание слайдов, сохранение",
         hint: "От начала к концу"
@@ -839,7 +834,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Что такое папка?",
-        options: ["Файл", "Контейнер для файлов", "Программа"],
+        options: ["Файл", "Контейнер для файлов", "Программа", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Контейнер для файлов",
         hint: "Папка хранит файлы"
       },
@@ -869,14 +864,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Что такое компьютерный вирус?",
-        options: ["Болезнь", "Вредоносная программа", "Игра"],
+        options: ["Болезнь", "Вредоносная программа", "Игра", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Вредоносная программа",
         hint: "Вирус портит данные"
       },
       {
         type: 'quiz',
         question: "Какой пароль надёжнее?",
-        options: ["12345", "password", "Xy7$bN2!"],
+        options: ["12345", "password", "Xy7$bN2!", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Xy7$bN2!",
         hint: "Хороший пароль сложный"
       }

@@ -759,17 +759,17 @@ export const games: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       {
-        type: 'order',
-        question: "Расставь числа по возрастанию:",
+        type: 'quiz',
+        question: "Какое из чисел самое маленькое?",
         options: ["234", "145", "312", "198", "276"],
-        correctAnswer: ["145", "198", "234", "276", "312"],
+        correctAnswer: "145",
         hint: "От меньшего к большему"
       },
       {
-        type: 'order',
-        question: "Расставь числа по убыванию:",
+        type: 'quiz',
+        question: "Какое из чисел самое большое?",
         options: ["567", "432", "654", "345", "543"],
-        correctAnswer: ["654", "567", "543", "432", "345"],
+        correctAnswer: "654",
         hint: "От большего к меньшему"
       }
     ],

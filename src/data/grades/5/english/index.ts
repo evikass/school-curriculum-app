@@ -2017,10 +2017,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «Как тебя зовут?»", options: ["How old are you?", "What is your name?", "Where are you from?"], correctAnswer: "What is your name?", hint: "Name = имя" },
-      { type: 'quiz', question: "Как ответить на «How are you?»?", options: ["I am 12", "I am fine", "I am from Russia"], correctAnswer: "I am fine", hint: "Fine = хорошо" },
+      { type: 'quiz', question: "Как сказать «Как тебя зовут?»", options: ["How old are you?", "What is your name?", "Where are you from?", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "What is your name?", hint: "Name = имя" },
+      { type: 'quiz', question: "Как ответить на «How are you?»?", options: ["I am 12", "I am fine", "I am from Russia", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "I am fine", hint: "Fine = хорошо" },
       { type: 'find', question: "Выбери фразы приветствия:", options: ["Hello", "Goodbye", "Hi", "Good night", "Good morning", "See you"], correctAnswer: ["Hello", "Hi", "Good morning"], hint: "Hello, Hi, Good morning = приветствие" },
-      { type: 'quiz', question: "Nice to meet you = ?", options: ["До свидания", "Приятно познакомиться", "Как дела"], correctAnswer: "Приятно познакомиться", hint: "Meet = встречать, знакомиться" }
+      { type: 'quiz', question: "Nice to meet you = ?", options: ["До свидания", "Приятно познакомиться", "Как дела", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Приятно познакомиться", hint: "Meet = встречать, знакомиться" }
     ],
     reward: { stars: 3, message: "Great! Ты умеешь знакомиться! 👋" }
   },
@@ -2030,10 +2030,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «солнечно»?", options: ["Rainy", "Sunny", "Cloudy"], correctAnswer: "Sunny", hint: "Sun = солнце" },
+      { type: 'quiz', question: "Как сказать «солнечно»?", options: ["Rainy", "Sunny", "Cloudy", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Sunny", hint: "Sun = солнце" },
       { type: 'find', question: "Выбери названия времён года:", options: ["Monday", "Winter", "Spring", "January", "Summer", "Autumn"], correctAnswer: ["Winter", "Spring", "Summer", "Autumn"], hint: "Seasons = времена года" },
-      { type: 'quiz', question: "What's the weather like? = ?", options: ["Который час?", "Какая погода?", "Как дела?"], correctAnswer: "Какая погода?", hint: "Weather = погода" },
-      { type: 'quiz', question: "Какая погода: It's raining?", options: ["Солнечно", "Дождливо", "Снежно"], correctAnswer: "Дождливо", hint: "Rain = дождь" }
+      { type: 'quiz', question: "What's the weather like? = ?", options: ["Который час?", "Какая погода?", "Как дела?", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Какая погода?", hint: "Weather = погода" },
+      { type: 'quiz', question: "Какая погода: It's raining?", options: ["Солнечно", "Дождливо", "Снежно", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Дождливо", hint: "Rain = дождь" }
     ],
     reward: { stars: 3, message: "Excellent! Ты говоришь о погоде! ☀️" }
   },
@@ -2043,10 +2043,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Mother - это?", options: ["Папа", "Мама", "Бабушка"], correctAnswer: "Мама", hint: "Mother = мама" },
+      { type: 'quiz', question: "Mother - это?", options: ["Папа", "Мама", "Бабушка", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Мама", hint: "Mother = мама" },
       { type: 'find', question: "Выбери названия комнат:", options: ["Kitchen", "Car", "Bedroom", "Garden", "Bathroom", "Living room"], correctAnswer: ["Kitchen", "Bedroom", "Bathroom", "Living room"], hint: "Rooms = комнаты" },
-      { type: 'quiz', question: "Как будет «семья»?", options: ["Friend", "Family", "House"], correctAnswer: "Family", hint: "Family = семья" },
-      { type: 'quiz', question: "Sister - это?", options: ["Сестра", "Брат", "Тётя"], correctAnswer: "Сестра", hint: "Sister = сестра" }
+      { type: 'quiz', question: "Как будет «семья»?", options: ["Friend", "Family", "House", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Family", hint: "Family = семья" },
+      { type: 'quiz', question: "Sister - это?", options: ["Сестра", "Брат", "Тётя", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Сестра", hint: "Sister = сестра" }
     ],
     reward: { stars: 3, message: "Wonderful! Ты говоришь о семье! 🏠" }
   },
@@ -2056,10 +2056,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Когда используем Present Simple?", options: ["Для регулярных действий", "Для действий сейчас", "Для прошлого"], correctAnswer: "Для регулярных действий", hint: "Present Simple: I play tennis every day" },
-      { type: 'quiz', question: "Когда используем Present Continuous?", options: ["Для регулярных действий", "Для действий в данный момент", "Для будущего"], correctAnswer: "Для действий в данный момент", hint: "Present Continuous: I am playing now" },
+      { type: 'quiz', question: "Когда используем Present Simple?", options: ["Для регулярных действий", "Для действий сейчас", "Для прошлого", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Для регулярных действий", hint: "Present Simple: I play tennis every day" },
+      { type: 'quiz', question: "Когда используем Present Continuous?", options: ["Для регулярных действий", "Для действий в данный момент", "Для будущего", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Для действий в данный момент", hint: "Present Continuous: I am playing now" },
       { type: 'find', question: "Выбери предложения в Present Continuous:", options: ["I am reading now", "She reads every day", "They are playing", "He works here", "We are watching TV"], correctAnswer: ["I am reading now", "They are playing", "We are watching TV"], hint: "Present Continuous = am/is/are + verb-ing" },
-      { type: 'quiz', question: "I ___ to school every day. (go)", options: ["am going", "go", "went"], correctAnswer: "go", hint: "Present Simple для регулярных действий" }
+      { type: 'quiz', question: "I ___ to school every day. (go)", options: ["am going", "go", "went", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "go", hint: "Present Simple для регулярных действий" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь времена! ⏰" }
   },
@@ -2069,10 +2069,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Go в прошедшем времени = ?", options: ["goed", "went", "gone"], correctAnswer: "went", hint: "Go - неправильный глагол: went" },
-      { type: 'quiz', question: "Play в прошедшем времени = ?", options: ["played", "plaied", "playd"], correctAnswer: "played", hint: "Play - правильный глагол + ed" },
+      { type: 'quiz', question: "Go в прошедшем времени = ?", options: ["goed", "went", "gone", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "went", hint: "Go - неправильный глагол: went" },
+      { type: 'quiz', question: "Play в прошедшем времени = ?", options: ["played", "plaied", "playd", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "played", hint: "Play - правильный глагол + ed" },
       { type: 'find', question: "Выбери глаголы в Past Simple:", options: ["Went", "Go", "Played", "Eat", "Visited", "See"], correctAnswer: ["Went", "Played", "Visited"], hint: "Past Simple = прошедшее время" },
-      { type: 'quiz', question: "I ___ to the cinema yesterday.", options: ["go", "went", "am going"], correctAnswer: "went", hint: "Yesterday = вчера (прошедшее время)" }
+      { type: 'quiz', question: "I ___ to the cinema yesterday.", options: ["go", "went", "am going", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "went", hint: "Yesterday = вчера (прошедшее время)" }
     ],
     reward: { stars: 3, message: "Excellent! Ты знаешь прошедшее время! 📅" }
   }

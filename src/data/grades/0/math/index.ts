@@ -324,8 +324,8 @@ export const games: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       { type: 'match', question: "Соедини цифру с количеством звёздочек:", options: ["1", "2", "3", "4", "5"], correctAnswer: ["⭐", "⭐⭐", "⭐⭐⭐", "⭐⭐⭐⭐", "⭐⭐⭐⭐⭐"], hint: "Посчитай звёздочки" },
-      { type: 'quiz', question: "Как выглядит цифра 3?", options: ["1️⃣", "2️⃣", "3️⃣"], correctAnswer: "3️⃣", hint: "Цифра 3 похожа на ушки зайчика" },
-      { type: 'order', question: "Расставь цифры по порядку:", options: ["3", "1", "5", "2", "4"], correctAnswer: ["1", "2", "3", "4", "5"], hint: "Начни с самого маленького" },
+      { type: 'quiz', question: "Как выглядит цифра 3?", options: ["1️⃣", "2️⃣", "3️⃣", "Никто не знает", "Не знаю"], correctAnswer: "3️⃣", hint: "Цифра 3 похожа на ушки зайчика" },
+      { type: 'quiz', question: "Какая цифра самая маленькая?", options: ["3", "1", "5", "2", "4"], correctAnswer: "1", hint: "Начни с самого маленького" },
       { type: 'find', question: "Найди все цифры меньше 4:", options: ["1", "2", "3", "4", "5"], correctAnswer: ["1", "2", "3"], hint: "Цифры 1, 2, 3 меньше 4" }
     ],
     reward: { stars: 3, message: "Молодец! Ты выучил цифры 1-5! 🌟" }
@@ -336,10 +336,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Какое число идёт после 7?", options: ["6", "8", "9"], correctAnswer: "8", hint: "Посчитай: 1, 2, 3, 4, 5, 6, 7, ..." },
-      { type: 'order', question: "Расставь по порядку: 8, 6, 10, 7, 9", correctAnswer: ["6", "7", "8", "9", "10"], hint: "От меньшего к большему" },
+      { type: 'quiz', question: "Какое число идёт после 7?", options: ["6", "8", "9", "Никто не знает", "Не знаю"], correctAnswer: "8", hint: "Посчитай: 1, 2, 3, 4, 5, 6, 7, ..." },
+      { type: 'quiz', question: "Какое число самое маленькое из 8, 6, 10, 7, 9?", options: ["8", "6", "10", "7", "9"], correctAnswer: "6", hint: "От меньшего к большему" },
       { type: 'find', question: "Найди все цифры больше 7:", options: ["5", "6", "7", "8", "9", "10"], correctAnswer: ["8", "9", "10"], hint: "Больше 7 - это 8, 9, 10" },
-      { type: 'quiz', question: "Сколько пальцев на обеих руках?", options: ["5", "8", "10"], correctAnswer: "10", hint: "Посчитай все пальчики!" }
+      { type: 'quiz', question: "Сколько пальцев на обеих руках?", options: ["5", "8", "10", "Никто не знает", "Не знаю"], correctAnswer: "10", hint: "Посчитай все пальчики!" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь цифры до 10! 🎉" }
   },
@@ -349,10 +349,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Сколько яблок? 🍎🍎🍎🍎", options: ["3", "4", "5"], correctAnswer: "4", hint: "Посчитай: раз, два, три, четыре!" },
-      { type: 'quiz', question: "Сколько шариков? 🎈🎈🎈🎈🎈🎈", options: ["5", "6", "7"], correctAnswer: "6", hint: "Посчитай все шарики" },
+      { type: 'quiz', question: "Сколько яблок? 🍎🍎🍎🍎", options: ["3", "4", "5", "Никто не знает", "Не знаю"], correctAnswer: "4", hint: "Посчитай: раз, два, три, четыре!" },
+      { type: 'quiz', question: "Сколько шариков? 🎈🎈🎈🎈🎈🎈", options: ["5", "6", "7", "Никто не знает", "Не знаю"], correctAnswer: "6", hint: "Посчитай все шарики" },
       { type: 'find', question: "Где ровно 5 предметов?", options: ["🌸🌸🌸", "🌸🌸🌸🌸🌸", "🌸🌸🌸🌸", "🌸🌸🌸🌸🌸🌸"], correctAnswer: ["🌸🌸🌸🌸🌸"], hint: "Посчитай цветочки" },
-      { type: 'quiz', question: "Сколько пальцев на одной руке?", options: ["4", "5", "6"], correctAnswer: "5", hint: "Посмотри на свою руку!" }
+      { type: 'quiz', question: "Сколько пальцев на одной руке?", options: ["4", "5", "6", "Никто не знает", "Не знаю"], correctAnswer: "5", hint: "Посмотри на свою руку!" }
     ],
     reward: { stars: 3, message: "Умница! Ты умеешь считать предметы! 🔢" }
   },
@@ -362,8 +362,8 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Что больше: 3 или 6?", options: ["3", "6", "Одинаково"], correctAnswer: "6", hint: "6 идёт позже при счёте" },
-      { type: 'quiz', question: "Что меньше: 8 или 4?", options: ["8", "4", "Одинаково"], correctAnswer: "4", hint: "4 идёт раньше при счёте" },
+      { type: 'quiz', question: "Что больше: 3 или 6?", options: ["3", "6", "Одинаково", "Никто не знает", "Не знаю"], correctAnswer: "6", hint: "6 идёт позже при счёте" },
+      { type: 'quiz', question: "Что меньше: 8 или 4?", options: ["8", "4", "Одинаково", "Никто не знает", "Не знаю"], correctAnswer: "4", hint: "4 идёт раньше при счёте" },
       { type: 'match', question: "Соедини числа с правильным знаком:", options: ["5 и 3", "2 и 7", "4 и 4", "6 и 1"], correctAnswer: ["5 > 3", "2 < 7", "4 = 4", "6 > 1"], hint: "Больше >, меньше <, равно =" },
       { type: 'find', question: "Найди верные сравнения:", options: ["5 > 2", "3 > 7", "4 = 4", "6 < 3"], correctAnswer: ["5 > 2", "4 = 4"], hint: "Проверь каждое сравнение" }
     ],
@@ -375,8 +375,8 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Как называется эта фигура? ⬤", options: ["Квадрат", "Круг", "Треугольник"], correctAnswer: "Круг", hint: "Круг круглый, без углов" },
-      { type: 'quiz', question: "Сколько углов у квадрата?", options: ["3", "4", "5"], correctAnswer: "4", hint: "Квадрат имеет 4 угла" },
+      { type: 'quiz', question: "Как называется эта фигура? ⬤", options: ["Квадрат", "Круг", "Треугольник", "Никто не знает", "Не знаю"], correctAnswer: "Круг", hint: "Круг круглый, без углов" },
+      { type: 'quiz', question: "Сколько углов у квадрата?", options: ["3", "4", "5", "Никто не знает", "Не знаю"], correctAnswer: "4", hint: "Квадрат имеет 4 угла" },
       { type: 'match', question: "Соедини фигуру с названием:", options: ["⬤", "■", "▲"], correctAnswer: ["Круг", "Квадрат", "Треугольник"], hint: "Форма подскажет название" },
       { type: 'find', question: "Найди фигуры с углами:", options: ["⬤", "■", "▲", "●", "□"], correctAnswer: ["■", "▲", "□"], hint: "Углы есть у квадрата и треугольника" }
     ],
@@ -388,10 +388,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Какое число стоит перед 5?", options: ["3", "4", "6"], correctAnswer: "4", hint: "Посчитай: ...4, 5" },
-      { type: 'quiz', question: "Какое число стоит после 7?", options: ["6", "8", "9"], correctAnswer: "8", hint: "Посчитай: 7, 8..." },
+      { type: 'quiz', question: "Какое число стоит перед 5?", options: ["3", "4", "6", "Никто не знает", "Не знаю"], correctAnswer: "4", hint: "Посчитай: ...4, 5" },
+      { type: 'quiz', question: "Какое число стоит после 7?", options: ["6", "8", "9", "Никто не знает", "Не знаю"], correctAnswer: "8", hint: "Посчитай: 7, 8..." },
       { type: 'find', question: "Найди соседей числа 6:", options: ["4 и 5", "5 и 7", "7 и 8"], correctAnswer: ["5 и 7"], hint: "Соседи - числа до и после" },
-      { type: 'fill', question: "Вставь пропущенное: 3, 4, __, 6", correctAnswer: "5", hint: "Какое число между 4 и 6?" }
+      { type: 'quiz', question: "Какое число пропущено: 3, 4, __, 6?", options: ["2", "5", "7", "8", "1"], correctAnswer: "5", hint: "Какое число между 4 и 6?" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь соседей чисел! 🏠" }
   },
@@ -401,11 +401,24 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Что означает 0?", options: ["Один", "Нисколько", "Много"], correctAnswer: "Нисколько", hint: "0 - это когда ничего нет" },
-      { type: 'quiz', question: "Сколько будет 5 + 0?", options: ["0", "5", "10"], correctAnswer: "5", hint: "Если ничего не добавить..." },
+      { type: 'quiz', question: "Что означает 0?", options: ["Один", "Нисколько", "Много", "Никто не знает", "Не знаю"], correctAnswer: "Нисколько", hint: "0 - это когда ничего нет" },
+      { type: 'quiz', question: "Сколько будет 5 + 0?", options: ["0", "5", "10", "Никто не знает", "Не знаю"], correctAnswer: "5", hint: "Если ничего не добавить..." },
       { type: 'find', question: "Где используется число 10?", options: ["Пальцы на руках", "Дней в неделе", "Месяцев в году"], correctAnswer: ["Пальцы на руках"], hint: "Посчитай пальцы!" },
-      { type: 'order', question: "Расставь: 0, 5, 10, 3, 8", correctAnswer: ["0", "3", "5", "8", "10"], hint: "От меньшего к большему" }
+      { type: 'quiz', question: "Какое число самое маленькое из 0, 5, 10, 3, 8?", options: ["0", "5", "10", "3", "8"], correctAnswer: "0", hint: "От меньшего к большему" }
     ],
     reward: { stars: 3, message: "Прекрасно! Ты понимаешь 0 и 10! ✨" }
+  },
+  {
+    title: "Повторение счёта 🔄",
+    subject: "Основы счёта",
+    icon: "Calculator",
+    color: "text-blue-400",
+    tasks: [
+      { type: 'quiz', question: "Сколько будет 2 + 2?", options: ["3", "4", "5", "Никто не знает", "Не знаю"], correctAnswer: "4", hint: "Два и два вместе" },
+      { type: 'quiz', question: "Какое число между 7 и 9?", options: ["6", "8", "10", "Никто не знает", "Не знаю"], correctAnswer: "8", hint: "Посчитай: 7, 8, 9" },
+      { type: 'find', question: "Какие числа больше 5?", options: ["3", "6", "7", "4", "8"], correctAnswer: ["6", "7", "8"], hint: "Больше 5 — это 6, 7, 8, 9, 10" },
+      { type: 'quiz', question: "Сколько сторон у треугольника?", options: ["2", "3", "4", "Никто не знает", "Не знаю"], correctAnswer: "3", hint: "Треугольник имеет 3 стороны" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь счёт! 🔄" }
   }
 ]

@@ -1613,10 +1613,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Сколько тысяч в числе 25 000?", options: ["25", "250", "2500"], correctAnswer: "25", hint: "25 000 = 25 тысяч" },
-      { type: 'quiz', question: "Как записать число «триста пятьдесят тысяч семьсот двадцать четыре»?", options: ["350 724", "35 724", "350 072"], correctAnswer: "350 724", hint: "350 тысяч + 724 = 350 724" },
+      { type: 'quiz', question: "Сколько тысяч в числе 25 000?", options: ["25", "250", "2500", "Никто не знает", "Не знаю"], correctAnswer: "25", hint: "25 000 = 25 тысяч" },
+      { type: 'quiz', question: "Как записать число «триста пятьдесят тысяч семьсот двадцать четыре»?", options: ["350 724", "35 724", "350 072", "Никто не знает", "Не знаю"], correctAnswer: "350 724", hint: "350 тысяч + 724 = 350 724" },
       { type: 'find', question: "Выбери числа больше 100 000:", options: ["99 999", "100 001", "50 000", "999 999", "100 000"], correctAnswer: ["100 001", "999 999", "100 000"], hint: "100 000 = сто тысяч" },
-      { type: 'fill', question: "1 миллион = __ тысяч", correctAnswer: "1000", hint: "1 000 000 = 1000 тысяч" }
+      { type: 'quiz', question: "1 миллион = __ тысяч", options: ["100", "1000", "10", "10000", "100000", "1000000"], correctAnswer: "1000", hint: "1 000 000 = 1000 тысяч" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь числа до миллиона! 🔢" }
   },
@@ -1626,10 +1626,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "25 486 + 13 257 = ?", options: ["38 743", "38 733", "37 743"], correctAnswer: "38 743", hint: "Сложи поразрядно" },
-      { type: 'quiz', question: "45 000 - 12 345 = ?", options: ["32 655", "33 655", "32 555"], correctAnswer: "32 655", hint: "Вычти поразрядно" },
-      { type: 'quiz', question: "1234 × 3 = ?", options: ["3702", "3602", "3700"], correctAnswer: "3702", hint: "Умножь каждую цифру на 3" },
-      { type: 'quiz', question: "4560 : 4 = ?", options: ["1140", "1240", "1040"], correctAnswer: "1140", hint: "Раздели каждую цифру на 4" }
+      { type: 'quiz', question: "25 486 + 13 257 = ?", options: ["38 743", "38 733", "37 743", "Никто не знает", "Не знаю"], correctAnswer: "38 743", hint: "Сложи поразрядно" },
+      { type: 'quiz', question: "45 000 - 12 345 = ?", options: ["32 655", "33 655", "32 555", "Никто не знает", "Не знаю"], correctAnswer: "32 655", hint: "Вычти поразрядно" },
+      { type: 'quiz', question: "1234 × 3 = ?", options: ["3702", "3602", "3700", "Никто не знает", "Не знаю"], correctAnswer: "3702", hint: "Умножь каждую цифру на 3" },
+      { type: 'quiz', question: "4560 : 4 = ?", options: ["1140", "1240", "1040", "Никто не знает", "Не знаю"], correctAnswer: "1140", hint: "Раздели каждую цифру на 4" }
     ],
     reward: { stars: 3, message: "Супер! Ты владеешь арифметикой! 🧮" }
   },
@@ -1639,10 +1639,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Формула пути (расстояния):", options: ["S = V × t", "V = S × t", "t = S × V"], correctAnswer: "S = V × t", hint: "Расстояние = скорость × время" },
-      { type: 'quiz', question: "Автомобиль едет со скоростью 60 км/ч. Какое расстояние он проедет за 2 часа?", options: ["30 км", "120 км", "62 км"], correctAnswer: "120 км", hint: "S = 60 × 2 = 120 км" },
-      { type: 'quiz', question: "Велосипедист проехал 30 км за 2 часа. Какова его скорость?", options: ["15 км/ч", "60 км/ч", "32 км/ч"], correctAnswer: "15 км/ч", hint: "V = S : t = 30 : 2 = 15 км/ч" },
-      { type: 'quiz', question: "Пешеход идёт со скоростью 5 км/ч. За сколько времени он пройдёт 20 км?", options: ["4 часа", "25 часов", "15 часов"], correctAnswer: "4 часа", hint: "t = S : V = 20 : 5 = 4 часа" }
+      { type: 'quiz', question: "Формула пути (расстояния):", options: ["S = V × t", "V = S × t", "t = S × V", "Никто не знает", "Не знаю"], correctAnswer: "S = V × t", hint: "Расстояние = скорость × время" },
+      { type: 'quiz', question: "Автомобиль едет со скоростью 60 км/ч. Какое расстояние он проедет за 2 часа?", options: ["30 км", "120 км", "62 км", "Никто не знает", "Не знаю"], correctAnswer: "120 км", hint: "S = 60 × 2 = 120 км" },
+      { type: 'quiz', question: "Велосипедист проехал 30 км за 2 часа. Какова его скорость?", options: ["15 км/ч", "60 км/ч", "32 км/ч", "Никто не знает", "Не знаю"], correctAnswer: "15 км/ч", hint: "V = S : t = 30 : 2 = 15 км/ч" },
+      { type: 'quiz', question: "Пешеход идёт со скоростью 5 км/ч. За сколько времени он пройдёт 20 км?", options: ["4 часа", "25 часов", "15 часов", "Никто не знает", "Не знаю"], correctAnswer: "4 часа", hint: "t = S : V = 20 : 5 = 4 часа" }
     ],
     reward: { stars: 3, message: "Отлично! Ты решаешь задачи на движение! 🚗" }
   },
@@ -1652,10 +1652,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "1/4 + 1/4 = ?", options: ["1/2", "2/4", "2/8"], correctAnswer: "2/4", hint: "С одинаковыми знаменателями складываем числители" },
-      { type: 'quiz', question: "3/5 - 1/5 = ?", options: ["2/5", "2/0", "4/5"], correctAnswer: "2/5", hint: "Вычитаем числители: 3 - 1 = 2" },
-      { type: 'quiz', question: "2/8 = ? (сократи дробь)", options: ["1/4", "1/2", "2/4"], correctAnswer: "1/4", hint: "2/8 = 1/4 (делим на 2)" },
-      { type: 'quiz', question: "Какая дробь больше: 3/4 или 1/2?", options: ["3/4", "1/2", "Они равны"], correctAnswer: "3/4", hint: "3/4 = 0.75, а 1/2 = 0.5" }
+      { type: 'quiz', question: "1/4 + 1/4 = ?", options: ["1/2", "2/4", "2/8", "Никто не знает", "Не знаю"], correctAnswer: "2/4", hint: "С одинаковыми знаменателями складываем числители" },
+      { type: 'quiz', question: "3/5 - 1/5 = ?", options: ["2/5", "2/0", "4/5", "Никто не знает", "Не знаю"], correctAnswer: "2/5", hint: "Вычитаем числители: 3 - 1 = 2" },
+      { type: 'quiz', question: "2/8 = ? (сократи дробь)", options: ["1/4", "1/2", "2/4", "Никто не знает", "Не знаю"], correctAnswer: "1/4", hint: "2/8 = 1/4 (делим на 2)" },
+      { type: 'quiz', question: "Какая дробь больше: 3/4 или 1/2?", options: ["3/4", "1/2", "Они равны", "Никто не знает", "Не знаю"], correctAnswer: "3/4", hint: "3/4 = 0.75, а 1/2 = 0.5" }
     ],
     reward: { stars: 3, message: "Супер! Ты работаешь с дробями! 🥧" }
   },
@@ -1666,9 +1666,9 @@ export const games: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       { type: 'find', question: "Выбери геометрические тела (объёмные фигуры):", options: ["Куб", "Квадрат", "Шар", "Круг", "Цилиндр", "Треугольник"], correctAnswer: ["Куб", "Шар", "Цилиндр"], hint: "Геометрические тела - объёмные фигуры" },
-      { type: 'quiz', question: "У куба сколько граней?", options: ["4", "6", "8"], correctAnswer: "6", hint: "У куба 6 граней (сторон)" },
-      { type: 'quiz', question: "Какая фигура в основании цилиндра?", options: ["Квадрат", "Круг", "Треугольник"], correctAnswer: "Круг", hint: "Цилиндр имеет круглое основание" },
-      { type: 'quiz', question: "Какое тело похоже на мяч?", options: ["Куб", "Шар", "Пирамида"], correctAnswer: "Шар", hint: "Шар - это круглый шар" }
+      { type: 'quiz', question: "У куба сколько граней?", options: ["4", "6", "8", "Никто не знает", "Не знаю"], correctAnswer: "6", hint: "У куба 6 граней (сторон)" },
+      { type: 'quiz', question: "Какая фигура в основании цилиндра?", options: ["Квадрат", "Круг", "Треугольник", "Никто не знает", "Не знаю"], correctAnswer: "Круг", hint: "Цилиндр имеет круглое основание" },
+      { type: 'quiz', question: "Какое тело похоже на мяч?", options: ["Куб", "Шар", "Пирамида", "Никто не знает", "Не знаю"], correctAnswer: "Шар", hint: "Шар - это круглый шар" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь геометрические тела! 🔷" }
   },
@@ -1678,10 +1678,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Сколько метров в 1 километре?", options: ["10", "100", "1000"], correctAnswer: "1000", hint: "1 км = 1000 м" },
-      { type: 'quiz', question: "Сколько граммов в 1 килограмме?", options: ["100", "1000", "10"], correctAnswer: "1000", hint: "1 кг = 1000 г" },
+      { type: 'quiz', question: "Сколько метров в 1 километре?", options: ["10", "100", "1000", "Никто не знает", "Не знаю"], correctAnswer: "1000", hint: "1 км = 1000 м" },
+      { type: 'quiz', question: "Сколько граммов в 1 килограмме?", options: ["100", "1000", "10", "Никто не знает", "Не знаю"], correctAnswer: "1000", hint: "1 кг = 1000 г" },
       { type: 'find', question: "Выбери единицы времени:", options: ["Метр", "Час", "Килограмм", "Минута", "Секунда", "Литр"], correctAnswer: ["Час", "Минута", "Секунда"], hint: "Единицы времени измеряют время" },
-      { type: 'quiz', question: "Полчаса - это сколько минут?", options: ["15", "30", "60"], correctAnswer: "30", hint: "1 час = 60 минут, полчаса = 30 минут" }
+      { type: 'quiz', question: "Полчаса - это сколько минут?", options: ["15", "30", "60", "Никто не знает", "Не знаю"], correctAnswer: "30", hint: "1 час = 60 минут, полчаса = 30 минут" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь единицы измерения! ⏱️" }
   }

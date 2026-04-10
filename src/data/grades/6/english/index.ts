@@ -637,10 +637,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "How do you say 'мама' in English?", options: ["Father", "Mother", "Sister", "Brother"], correctAnswer: "Mother", hint: "Female parent" },
+      { type: 'quiz', question: "How do you say 'мама' in English?", options: ["Father", "Mother", "Sister", "Brother", "Другой ответ"], correctAnswer: "Mother", hint: "Female parent" },
       { type: 'find', question: "Choose family members:", options: ["Mother", "Teacher", "Father", "Doctor", "Sister", "Driver"], correctAnswer: ["Mother", "Father", "Sister"], hint: "People in a family" },
-      { type: 'quiz', question: "What does 'slim' mean?", options: ["Высокий", "Стройный", "Полный", "Низкий"], correctAnswer: "Стройный", hint: "Body type" },
-      { type: 'quiz', question: "How do you say 'у него голубые глаза'?", options: ["He has green eyes", "He has blue eyes", "He has brown eyes", "He has black eyes"], correctAnswer: "He has blue eyes", hint: "Eye color" }
+      { type: 'quiz', question: "What does 'slim' mean?", options: ["Высокий", "Стройный", "Полный", "Низкий", "Другой ответ"], correctAnswer: "Стройный", hint: "Body type" },
+      { type: 'quiz', question: "How do you say 'у него голубые глаза'?", options: ["He has green eyes", "He has blue eyes", "He has brown eyes", "He has black eyes", "Другой ответ"], correctAnswer: "He has blue eyes", hint: "Eye color" }
     ],
     reward: { stars: 3, message: "Great! You know family vocabulary! 👨‍👩‍👧‍👦" }
   },
@@ -650,10 +650,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What time is 'half past seven'?", options: ["7:00", "7:15", "7:30", "7:45"], correctAnswer: "7:30", hint: "30 minutes after 7" },
+      { type: 'quiz', question: "What time is 'half past seven'?", options: ["7:00", "7:15", "7:30", "7:45", "Другой ответ"], correctAnswer: "7:30", hint: "30 minutes after 7" },
       { type: 'find', question: "Choose daily activities:", options: ["Wake up", "Play", "Have breakfast", "Sleep", "Go to school", "Run"], correctAnswer: ["Wake up", "Have breakfast", "Go to school"], hint: "Morning activities" },
-      { type: 'quiz', question: "Which preposition: '___ Monday'?", options: ["at", "on", "in", "to"], correctAnswer: "on", hint: "For days of the week" },
-      { type: 'quiz', question: "What does 'usually' mean?", options: ["Всегда", "Обычно", "Иногда", "Никогда"], correctAnswer: "Обычно", hint: "Adverb of frequency" }
+      { type: 'quiz', question: "Which preposition: '___ Monday'?", options: ["at", "on", "in", "to", "Другой ответ"], correctAnswer: "on", hint: "For days of the week" },
+      { type: 'quiz', question: "What does 'usually' mean?", options: ["Всегда", "Обычно", "Иногда", "Никогда", "Другой ответ"], correctAnswer: "Обычно", hint: "Adverb of frequency" }
     ],
     reward: { stars: 3, message: "Great! You know daily routine! ⏰" }
   },
@@ -663,10 +663,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "How do you say 'играть на гитаре'?", options: ["play guitar", "play the guitar", "play a guitar", "playing guitar"], correctAnswer: "play the guitar", hint: "Use 'the' for instruments" },
+      { type: 'quiz', question: "How do you say 'играть на гитаре'?", options: ["play guitar", "play the guitar", "play a guitar", "playing guitar", "Другой ответ"], correctAnswer: "play the guitar", hint: "Use 'the' for instruments" },
       { type: 'find', question: "Choose hobbies:", options: ["Reading", "Walking", "Swimming", "Sleeping", "Drawing", "Eating"], correctAnswer: ["Reading", "Swimming", "Drawing"], hint: "Activities people do for fun" },
-      { type: 'quiz', question: "Complete: 'She ___ play tennis.'", options: ["can", "cans", "can to", "is can"], correctAnswer: "can", hint: "Modal verb stays the same" },
-      { type: 'quiz', question: "What does 'can't' mean?", options: ["Могу", "Не могу", "Хочу", "Не хочу"], correctAnswer: "Не могу", hint: "Negative ability" }
+      { type: 'quiz', question: "Complete: 'She ___ play tennis.'", options: ["can", "cans", "can to", "is can", "Другой ответ"], correctAnswer: "can", hint: "Modal verb stays the same" },
+      { type: 'quiz', question: "What does 'can't' mean?", options: ["Могу", "Не могу", "Хочу", "Не хочу", "Другой ответ"], correctAnswer: "Не могу", hint: "Negative ability" }
     ],
     reward: { stars: 3, message: "Amazing! You know hobbies and abilities! 🎨" }
   },
@@ -676,10 +676,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "How do you say 'паспорт' in English?", options: ["Ticket", "Passport", "Boarding pass", "Visa"], correctAnswer: "Passport", hint: "Travel document" },
+      { type: 'quiz', question: "How do you say 'паспорт' in English?", options: ["Ticket", "Passport", "Boarding pass", "Visa", "Другой ответ"], correctAnswer: "Passport", hint: "Travel document" },
       { type: 'find', question: "Choose airport places:", options: ["Gate", "School", "Check-in desk", "Hospital", "Customs", "Park"], correctAnswer: ["Gate", "Check-in desk", "Customs"], hint: "Places at an airport" },
-      { type: 'quiz', question: "What nationality is from France?", options: ["French", "Francish", "France", "Franch"], correctAnswer: "French", hint: "People from France" },
-      { type: 'quiz', question: "Complete: 'I'm ___ Russia.'", options: ["from", "in", "at", "of"], correctAnswer: "from", hint: "Talking about origin" }
+      { type: 'quiz', question: "What nationality is from France?", options: ["French", "Francish", "France", "Franch", "Другой ответ"], correctAnswer: "French", hint: "People from France" },
+      { type: 'quiz', question: "Complete: 'I'm ___ Russia.'", options: ["from", "in", "at", "of", "Другой ответ"], correctAnswer: "from", hint: "Talking about origin" }
     ],
     reward: { stars: 3, message: "Excellent! You're ready to travel! ✈️" }
   }

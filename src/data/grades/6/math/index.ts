@@ -690,10 +690,10 @@ x = 4
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Делится ли 246 на 2?", options: ["Да", "Нет"], correctAnswer: "Да", hint: "Последняя цифра чётная?" },
-      { type: 'quiz', question: "Делится ли 357 на 3?", options: ["Да", "Нет"], correctAnswer: "Да", hint: "Сумма цифр: 3+5+7=15" },
-      { type: 'fill', question: "НОД(12, 18) = __", correctAnswer: "6", hint: "Наибольший общий делитель" },
-      { type: 'quiz', question: "Какое число простое?", options: ["4", "9", "11", "15"], correctAnswer: "11", hint: "Простое делится только на 1 и на себя" }
+      { type: 'quiz', question: "Делится ли 246 на 2?", options: ["Да", "Нет", "Другой ответ 1", "Другой ответ 2", "Другой ответ 3"], correctAnswer: "Да", hint: "Последняя цифра чётная?" },
+      { type: 'quiz', question: "Делится ли 357 на 3?", options: ["Да", "Нет", "Другой ответ 1", "Другой ответ 2", "Другой ответ 3"], correctAnswer: "Да", hint: "Сумма цифр: 3+5+7=15" },
+      { type: 'quiz', question: "НОД(12, 18) = 6", options: ["6", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "6", hint: "Наибольший общий делитель" },
+      { type: 'quiz', question: "Какое число простое?", options: ["4", "9", "11", "15", "Другой ответ"], correctAnswer: "11", hint: "Простое делится только на 1 и на себя" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь делимость! 🔢" }
   },
@@ -703,10 +703,10 @@ x = 4
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'fill', question: "Сократите: 12/18 = __/3", correctAnswer: "2", hint: "Разделите на НОД(12, 18)" },
-      { type: 'quiz', question: "1/2 + 1/3 = ?", options: ["1/5", "2/5", "5/6", "1/6"], correctAnswer: "5/6", hint: "Приведите к общему знаменателю 6" },
-      { type: 'quiz', question: "2/3 × 3/4 = ?", options: ["5/7", "6/12", "1/2", "5/12"], correctAnswer: "1/2", hint: "Умножьте числители и знаменатели" },
-      { type: 'fill', question: "2/5 ÷ 1/2 = __/5", correctAnswer: "4", hint: "Деление = умножение на обратную дробь" }
+      { type: 'quiz', question: "Сократите: 12/18 = 2/3", options: ["2", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "2", hint: "Разделите на НОД(12, 18)" },
+      { type: 'quiz', question: "1/2 + 1/3 = ?", options: ["1/5", "2/5", "5/6", "1/6", "Другой ответ"], correctAnswer: "5/6", hint: "Приведите к общему знаменателю 6" },
+      { type: 'quiz', question: "2/3 × 3/4 = ?", options: ["5/7", "6/12", "1/2", "5/12", "Другой ответ"], correctAnswer: "1/2", hint: "Умножьте числители и знаменатели" },
+      { type: 'quiz', question: "2/5 ÷ 1/2 = 4/5", options: ["4", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "4", hint: "Деление = умножение на обратную дробь" }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь работать с дробями! ➗" }
   },
@@ -716,10 +716,10 @@ x = 4
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "(-5) + (-3) = ?", options: ["-8", "-2", "2", "8"], correctAnswer: "-8", hint: "Сумма отрицательных — отрицательная" },
-      { type: 'quiz', question: "(-7) × (-2) = ?", options: ["-14", "-9", "14", "5"], correctAnswer: "14", hint: "Минус на минус даёт плюс" },
-      { type: 'fill', question: "|−8| = __", correctAnswer: "8", hint: "Модуль — всегда положительный" },
-      { type: 'quiz', question: "-3 - (-5) = ?", options: ["-8", "-2", "2", "8"], correctAnswer: "2", hint: "Вычитание = сложение с противоположным" }
+      { type: 'quiz', question: "(-5) + (-3) = ?", options: ["-8", "-2", "2", "8", "Другой ответ"], correctAnswer: "-8", hint: "Сумма отрицательных — отрицательная" },
+      { type: 'quiz', question: "(-7) × (-2) = ?", options: ["-14", "-9", "14", "5", "Другой ответ"], correctAnswer: "14", hint: "Минус на минус даёт плюс" },
+      { type: 'quiz', question: "|−8| = 8", options: ["8", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "8", hint: "Модуль — всегда положительный" },
+      { type: 'quiz', question: "-3 - (-5) = ?", options: ["-8", "-2", "2", "8", "Другой ответ"], correctAnswer: "2", hint: "Вычитание = сложение с противоположным" }
     ],
     reward: { stars: 3, message: "Круто! Ты освоил отрицательные числа! 💪" }
   },
@@ -729,10 +729,10 @@ x = 4
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Точка (-3; 5) находится в какой четверти?", options: ["I", "II", "III", "IV"], correctAnswer: "II", hint: "x отрицательный, y положительный" },
-      { type: 'quiz', question: "Точка (4; -2) находится в какой четверти?", options: ["I", "II", "III", "IV"], correctAnswer: "IV", hint: "x положительный, y отрицательный" },
-      { type: 'fill', question: "Точка симметричная (2; 3) относительно оси y: (__; 3)", correctAnswer: "-2", hint: "Меняется знак x" },
-      { type: 'quiz', question: "Точка (0; 5) лежит на:", options: ["Оси x", "Оси y", "В I четверти", "В II четверти"], correctAnswer: "Оси y", hint: "x = 0" }
+      { type: 'quiz', question: "Точка (-3; 5) находится в какой четверти?", options: ["I", "II", "III", "IV", "Другой ответ"], correctAnswer: "II", hint: "x отрицательный, y положительный" },
+      { type: 'quiz', question: "Точка (4; -2) находится в какой четверти?", options: ["I", "II", "III", "IV", "Другой ответ"], correctAnswer: "IV", hint: "x положительный, y отрицательный" },
+      { type: 'quiz', question: "Точка симметричная (2; 3) относительно оси y: (-2; 3)", options: ["-2", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "-2", hint: "Меняется знак x" },
+      { type: 'quiz', question: "Точка (0; 5) лежит на:", options: ["Оси x", "Оси y", "В I четверти", "В II четверти", "Другой ответ"], correctAnswer: "Оси y", hint: "x = 0" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь координаты! 📍" }
   }
@@ -746,10 +746,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Делится ли 246 на 2?", options: ["Да", "Нет"], correctAnswer: "Да", hint: "Последняя цифра чётная?" },
-      { type: 'quiz', question: "Делится ли 357 на 3?", options: ["Да", "Нет"], correctAnswer: "Да", hint: "Сумма цифр: 3+5+7=15" },
-      { type: 'fill', question: "НОД(12, 18) = __", correctAnswer: "6", hint: "Наибольший общий делитель" },
-      { type: 'quiz', question: "Какое число простое?", options: ["4", "9", "11", "15"], correctAnswer: "11", hint: "Простое делится только на 1 и на себя" }
+      { type: 'quiz', question: "Делится ли 246 на 2?", options: ["Да", "Нет", "Другой ответ 1", "Другой ответ 2", "Другой ответ 3"], correctAnswer: "Да", hint: "Последняя цифра чётная?" },
+      { type: 'quiz', question: "Делится ли 357 на 3?", options: ["Да", "Нет", "Другой ответ 1", "Другой ответ 2", "Другой ответ 3"], correctAnswer: "Да", hint: "Сумма цифр: 3+5+7=15" },
+      { type: 'quiz', question: "НОД(12, 18) = 6", options: ["6", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "6", hint: "Наибольший общий делитель" },
+      { type: 'quiz', question: "Какое число простое?", options: ["4", "9", "11", "15", "Другой ответ"], correctAnswer: "11", hint: "Простое делится только на 1 и на себя" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь делимость! 🔢" }
   },
@@ -759,10 +759,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'fill', question: "Сократите: 12/18 = __/3", correctAnswer: "2", hint: "Разделите на НОД(12, 18)" },
-      { type: 'quiz', question: "1/2 + 1/3 = ?", options: ["1/5", "2/5", "5/6", "1/6"], correctAnswer: "5/6", hint: "Приведите к общему знаменателю 6" },
-      { type: 'quiz', question: "2/3 × 3/4 = ?", options: ["5/7", "6/12", "1/2", "5/12"], correctAnswer: "1/2", hint: "Умножьте числители и знаменатели" },
-      { type: 'fill', question: "2/5 ÷ 1/2 = __/5", correctAnswer: "4", hint: "Деление = умножение на обратную дробь" }
+      { type: 'quiz', question: "Сократите: 12/18 = 2/3", options: ["2", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "2", hint: "Разделите на НОД(12, 18)" },
+      { type: 'quiz', question: "1/2 + 1/3 = ?", options: ["1/5", "2/5", "5/6", "1/6", "Другой ответ"], correctAnswer: "5/6", hint: "Приведите к общему знаменателю 6" },
+      { type: 'quiz', question: "2/3 × 3/4 = ?", options: ["5/7", "6/12", "1/2", "5/12", "Другой ответ"], correctAnswer: "1/2", hint: "Умножьте числители и знаменатели" },
+      { type: 'quiz', question: "2/5 ÷ 1/2 = 4/5", options: ["4", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "4", hint: "Деление = умножение на обратную дробь" }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь работать с дробями! ➗" }
   },
@@ -772,10 +772,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "(-5) + (-3) = ?", options: ["-8", "-2", "2", "8"], correctAnswer: "-8", hint: "Сумма отрицательных — отрицательная" },
-      { type: 'quiz', question: "(-7) × (-2) = ?", options: ["-14", "-9", "14", "5"], correctAnswer: "14", hint: "Минус на минус даёт плюс" },
-      { type: 'fill', question: "|−8| = __", correctAnswer: "8", hint: "Модуль — всегда положительный" },
-      { type: 'quiz', question: "-3 - (-5) = ?", options: ["-8", "-2", "2", "8"], correctAnswer: "2", hint: "Вычитание = сложение с противоположным" }
+      { type: 'quiz', question: "(-5) + (-3) = ?", options: ["-8", "-2", "2", "8", "Другой ответ"], correctAnswer: "-8", hint: "Сумма отрицательных — отрицательная" },
+      { type: 'quiz', question: "(-7) × (-2) = ?", options: ["-14", "-9", "14", "5", "Другой ответ"], correctAnswer: "14", hint: "Минус на минус даёт плюс" },
+      { type: 'quiz', question: "|−8| = 8", options: ["8", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "8", hint: "Модуль — всегда положительный" },
+      { type: 'quiz', question: "-3 - (-5) = ?", options: ["-8", "-2", "2", "8", "Другой ответ"], correctAnswer: "2", hint: "Вычитание = сложение с противоположным" }
     ],
     reward: { stars: 3, message: "Круто! Ты освоил отрицательные числа! 💪" }
   },
@@ -785,10 +785,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Точка (-3; 5) находится в какой четверти?", options: ["I", "II", "III", "IV"], correctAnswer: "II", hint: "x отрицательный, y положительный" },
-      { type: 'quiz', question: "Точка (4; -2) находится в какой четверти?", options: ["I", "II", "III", "IV"], correctAnswer: "IV", hint: "x положительный, y отрицательный" },
-      { type: 'fill', question: "Точка симметричная (2; 3) относительно оси y: (__; 3)", correctAnswer: "-2", hint: "Меняется знак x" },
-      { type: 'quiz', question: "Точка (0; 5) лежит на:", options: ["Оси x", "Оси y", "В I четверти", "В II четверти"], correctAnswer: "Оси y", hint: "x = 0" }
+      { type: 'quiz', question: "Точка (-3; 5) находится в какой четверти?", options: ["I", "II", "III", "IV", "Другой ответ"], correctAnswer: "II", hint: "x отрицательный, y положительный" },
+      { type: 'quiz', question: "Точка (4; -2) находится в какой четверти?", options: ["I", "II", "III", "IV", "Другой ответ"], correctAnswer: "IV", hint: "x положительный, y отрицательный" },
+      { type: 'quiz', question: "Точка симметричная (2; 3) относительно оси y: (-2; 3)", options: ["-2", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "-2", hint: "Меняется знак x" },
+      { type: 'quiz', question: "Точка (0; 5) лежит на:", options: ["Оси x", "Оси y", "В I четверти", "В II четверти", "Другой ответ"], correctAnswer: "Оси y", hint: "x = 0" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь координаты! 📍" }
   }

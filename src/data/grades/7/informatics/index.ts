@@ -665,10 +665,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое переменная в программировании?", options: ["Именованная область памяти", "Команда", "Файл", "Функция"], correctAnswer: "Именованная область памяти", hint: "Хранит данные" },
-      { type: 'quiz', question: "Какой тип данных для целых чисел?", options: ["str", "float", "int", "bool"], correctAnswer: "int", hint: "Integer — целый" },
+      { type: 'quiz', question: "Что такое переменная в программировании?", options: ["Именованная область памяти", "Команда", "Файл", "Функция", "Другой ответ"], correctAnswer: "Именованная область памяти", hint: "Хранит данные" },
+      { type: 'quiz', question: "Какой тип данных для целых чисел?", options: ["str", "float", "int", "bool", "Другой ответ"], correctAnswer: "int", hint: "Integer — целый" },
       { type: 'find', question: "Выбери типы данных Python:", options: ["int", "float", "str", "number", "bool", "text"], correctAnswer: ["int", "float", "str", "bool"], hint: "Основные типы Python" },
-      { type: 'quiz', question: "Какой оператор используется для условия?", options: ["for", "while", "if", "def"], correctAnswer: "if", hint: "Проверка условия" }
+      { type: 'quiz', question: "Какой оператор используется для условия?", options: ["for", "while", "if", "def", "Другой ответ"], correctAnswer: "if", hint: "Проверка условия" }
     ],
     reward: { stars: 3, message: "Отлично! Ты программируешь! 💻" }
   },
@@ -678,10 +678,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Какой язык создаёт структуру веб-страницы?", options: ["Python", "HTML", "JavaScript", "CSS"], correctAnswer: "HTML", hint: "HyperText Markup Language" },
-      { type: 'quiz', question: "Для чего нужен CSS?", options: ["Для программирования", "Для стилизации", "Для базы данных", "Для сервера"], correctAnswer: "Для стилизации", hint: "Каскадные таблицы стилей" },
+      { type: 'quiz', question: "Какой язык создаёт структуру веб-страницы?", options: ["Python", "HTML", "JavaScript", "CSS", "Другой ответ"], correctAnswer: "HTML", hint: "HyperText Markup Language" },
+      { type: 'quiz', question: "Для чего нужен CSS?", options: ["Для программирования", "Для стилизации", "Для базы данных", "Для сервера", "Другой ответ"], correctAnswer: "Для стилизации", hint: "Каскадные таблицы стилей" },
       { type: 'find', question: "Выбери теги HTML:", options: ["<p>", "<div>", "print()", "<img>", "<h1>"], correctAnswer: ["<p>", "<div>", "<img>", "<h1>"], hint: "Угловые скобки" },
-      { type: 'quiz', question: "Какой тег для ссылки?", options: ["<link>", "<a>", "<href>", "<url>"], correctAnswer: "<a>", hint: "Anchor — якорь" }
+      { type: 'quiz', question: "Какой тег для ссылки?", options: ["<link>", "<a>", "<href>", "<url>", "Другой ответ"], correctAnswer: "<a>", hint: "Anchor — якорь" }
     ],
     reward: { stars: 3, message: "Молодец! Ты создаёшь сайты! 🌐" }
   },
@@ -691,10 +691,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое алгоритм?", options: ["Программа", "Последовательность действий", "Данные", "Переменная"], correctAnswer: "Последовательность действий", hint: "Пошаговая инструкция" },
+      { type: 'quiz', question: "Что такое алгоритм?", options: ["Программа", "Последовательность действий", "Данные", "Переменная", "Другой ответ"], correctAnswer: "Последовательность действий", hint: "Пошаговая инструкция" },
       { type: 'find', question: "Выбери свойства алгоритма:", options: ["Дискретность", "Определённость", "Скорость", "Результативность", "Массовость"], correctAnswer: ["Дискретность", "Определённость", "Результативность", "Массовость"], hint: "Основные свойства" },
-      { type: 'quiz', question: "Какая фигура в блок-схеме означает условие?", options: ["Овал", "Прямоугольник", "Ромб", "Параллелограмм"], correctAnswer: "Ромб", hint: "Ветвление" },
-      { type: 'quiz', question: "Что такое СКИ исполнителя?", options: ["Среда", "Система команд", "Скорость", "Счётчик"], correctAnswer: "Система команд", hint: "Доступные команды" }
+      { type: 'quiz', question: "Какая фигура в блок-схеме означает условие?", options: ["Овал", "Прямоугольник", "Ромб", "Параллелограмм", "Другой ответ"], correctAnswer: "Ромб", hint: "Ветвление" },
+      { type: 'quiz', question: "Что такое СКИ исполнителя?", options: ["Среда", "Система команд", "Скорость", "Счётчик", "Другой ответ"], correctAnswer: "Система команд", hint: "Доступные команды" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь алгоритмы! 📋" }
   },
@@ -704,10 +704,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Из чего состоит растровое изображение?", options: ["Векторы", "Пиксели", "Кривые", "Слои"], correctAnswer: "Пиксели", hint: "Точки разных цветов" },
-      { type: 'quiz', question: "Какой формат лучше для логотипов?", options: ["JPEG", "PNG", "SVG", "BMP"], correctAnswer: "SVG", hint: "Векторный формат" },
+      { type: 'quiz', question: "Из чего состоит растровое изображение?", options: ["Векторы", "Пиксели", "Кривые", "Слои", "Другой ответ"], correctAnswer: "Пиксели", hint: "Точки разных цветов" },
+      { type: 'quiz', question: "Какой формат лучше для логотипов?", options: ["JPEG", "PNG", "SVG", "BMP", "Другой ответ"], correctAnswer: "SVG", hint: "Векторный формат" },
       { type: 'find', question: "Выбери растровые форматы:", options: ["JPEG", "SVG", "PNG", "GIF", "AI"], correctAnswer: ["JPEG", "PNG", "GIF"], hint: "Для фотографий" },
-      { type: 'quiz', question: "Что происходит с растром при увеличении?", options: ["Улучшается качество", "Теряется качество", "Не меняется", "Уменьшается размер"], correctAnswer: "Теряется качество", hint: "Пикселизация" }
+      { type: 'quiz', question: "Что происходит с растром при увеличении?", options: ["Улучшается качество", "Теряется качество", "Не меняется", "Уменьшается размер", "Другой ответ"], correctAnswer: "Теряется качество", hint: "Пикселизация" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь графику! 🎨" }
   },
@@ -717,10 +717,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Какой цикл выполняется, пока условие истинно?", options: ["for", "while", "if", "else"], correctAnswer: "while", hint: "С предусловием" },
-      { type: 'quiz', question: "Что делает range(5)?", options: ["Числа 1-5", "Числа 0-4", "Числа 0-5", "Числа 1-4"], correctAnswer: "Числа 0-4", hint: "От 0 до n-1" },
+      { type: 'quiz', question: "Какой цикл выполняется, пока условие истинно?", options: ["for", "while", "if", "else", "Другой ответ"], correctAnswer: "while", hint: "С предусловием" },
+      { type: 'quiz', question: "Что делает range(5)?", options: ["Числа 1-5", "Числа 0-4", "Числа 0-5", "Числа 1-4", "Другой ответ"], correctAnswer: "Числа 0-4", hint: "От 0 до n-1" },
       { type: 'find', question: "Выбери операторы управления циклом:", options: ["break", "continue", "return", "stop", "next"], correctAnswer: ["break", "continue"], hint: "Выход и пропуск" },
-      { type: 'quiz', question: "Сколько раз выполнится: for i in range(3)?", options: ["2", "3", "4", "1"], correctAnswer: "3", hint: "i = 0, 1, 2" }
+      { type: 'quiz', question: "Сколько раз выполнится: for i in range(3)?", options: ["2", "3", "4", "1", "Другой ответ"], correctAnswer: "3", hint: "i = 0, 1, 2" }
     ],
     reward: { stars: 3, message: "Отлично! Ты освоил циклы! 🔄" }
   }

@@ -1418,11 +1418,11 @@ export const games: GameLesson[] = [
     icon: 'HardDrive',
     color: 'text-blue-400',
     tasks: [
-      { type: 'quiz', question: 'Сколько бит в одном байте?', options: ['4', '8', '16', '32'], correctAnswer: '8', hint: 'Стандартная единица' },
-      { type: 'fill', question: 'Формула для расчёта информационного объёма: I = K × ___', correctAnswer: 'i', hint: 'Вес символа' },
-      { type: 'quiz', question: 'При мощности алфавита 64 символа, информационный вес одного символа:', options: ['4 бита', '5 бит', '6 бит', '8 бит'], correctAnswer: '6 бит', hint: 'log₂64' },
-      { type: 'fill', question: '1 Кбайт = ___ байт', correctAnswer: '1024', hint: '2¹⁰' },
-      { type: 'quiz', question: 'Сообщение из 50 символов при 8 битах на символ занимает:', options: ['50 бит', '400 бит', '50 байт', '400 байт'], correctAnswer: '400 бит', hint: 'I = K × i' }
+      { type: 'quiz', question: 'Сколько бит в одном байте?', options: ['4', '8', '16', '32', 'Другой ответ'], correctAnswer: '8', hint: 'Стандартная единица' },
+      { type: 'quiz', question: 'Формула для расчёта информационного объёма: I = K × i', options: ['i', 'iing', 'ied', 'is', 'uni'], correctAnswer: 'i', hint: 'Вес символа' },
+      { type: 'quiz', question: 'При мощности алфавита 64 символа, информационный вес одного символа:', options: ['4 бита', '5 бит', '6 бит', '8 бит', 'Другой ответ'], correctAnswer: '6 бит', hint: 'log₂64' },
+      { type: 'quiz', question: '1 Кбайт = 1024 байт', options: ['1024', '1024ing', '1024ed', '1024s', 'un1024'], correctAnswer: '1024', hint: '2¹⁰' },
+      { type: 'quiz', question: 'Сообщение из 50 символов при 8 битах на символ занимает:', options: ['50 бит', '400 бит', '50 байт', '400 байт', 'Другой ответ'], correctAnswer: '400 бит', hint: 'I = K × i' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь информационный объём! 💾' }
   },
@@ -1432,11 +1432,11 @@ export const games: GameLesson[] = [
     icon: 'Code',
     color: 'text-green-400',
     tasks: [
-      { type: 'fill', question: 'Количество цветов N = 2^i, где i — ___ цвета.', correctAnswer: 'глубина', hint: 'Бит на пиксель' },
-      { type: 'quiz', question: 'При глубине цвета 8 бит изображение может содержать:', options: ['8 цветов', '16 цветов', '256 цветов', '65536 цветов'], correctAnswer: '256 цветов', hint: 'N = 2⁸' },
-      { type: 'fill', question: 'Кодировка ___ использует 16 бит на символ.', correctAnswer: 'Unicode', hint: 'Или UTF-16' },
-      { type: 'quiz', question: 'Сколько байт занимает изображение 10×10 пикселей с глубиной цвета 24 бита?', options: ['100 байт', '240 байт', '300 байт', '2400 байт'], correctAnswer: '300 байт', hint: 'I = K × i / 8' },
-      { type: 'fill', question: 'ASCII кодирует ___ символов.', correctAnswer: '128', hint: '7 бит на символ' }
+      { type: 'quiz', question: 'Количество цветов N = 2^i, где i — глубина цвета.', options: ['глубина', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'глубина', hint: 'Бит на пиксель' },
+      { type: 'quiz', question: 'При глубине цвета 8 бит изображение может содержать:', options: ['8 цветов', '16 цветов', '256 цветов', '65536 цветов', 'Другой ответ'], correctAnswer: '256 цветов', hint: 'N = 2⁸' },
+      { type: 'quiz', question: 'Кодировка Unicode использует 16 бит на символ.', options: ['Unicode', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'Unicode', hint: 'Или UTF-16' },
+      { type: 'quiz', question: 'Сколько байт занимает изображение 10×10 пикселей с глубиной цвета 24 бита?', options: ['100 байт', '240 байт', '300 байт', '2400 байт', 'Другой ответ'], correctAnswer: '300 байт', hint: 'I = K × i / 8' },
+      { type: 'quiz', question: 'ASCII кодирует 128 символов.', options: ['128', '128ing', '128ed', '128s', 'un128'], correctAnswer: '128', hint: '7 бит на символ' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь кодирование! 🔢' }
   },
@@ -1446,11 +1446,11 @@ export const games: GameLesson[] = [
     icon: 'Table',
     color: 'text-emerald-400',
     tasks: [
-      { type: 'fill', question: 'Формула в электронных таблицах начинается со знака ___ .', correctAnswer: '=', hint: 'Первый символ' },
-      { type: 'quiz', question: 'Адрес ячейки на пересечении столбца C и строки 5:', options: ['C5', '5C', 'C-5', '5-C'], correctAnswer: 'C5', hint: 'Буква + число' },
-      { type: 'fill', question: 'Ссылка, которая не меняется при копировании — ___ ссылка.', correctAnswer: 'абсолютная', hint: 'Со знаками $' },
-      { type: 'quiz', question: 'Как записать абсолютную ссылку на ячейку A1?', options: ['A1', '$A$1', 'A$1', '$A1'], correctAnswer: '$A$1', hint: 'Знаки $ перед буквой и числом' },
-      { type: 'fill', question: 'Диапазон ячеек от A1 до B5 записывается как ___ .', correctAnswer: 'A1:B5', hint: 'Двоеточие' }
+      { type: 'quiz', question: 'Формула в электронных таблицах начинается со знака = .', options: ['=', '=ing', '=ed', '=s', 'un='], correctAnswer: '=', hint: 'Первый символ' },
+      { type: 'quiz', question: 'Адрес ячейки на пересечении столбца C и строки 5:', options: ['C5', '5C', 'C-5', '5-C', 'Другой ответ'], correctAnswer: 'C5', hint: 'Буква + число' },
+      { type: 'quiz', question: 'Ссылка, которая не меняется при копировании — абсолютная ссылка.', options: ['абсолютная', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'абсолютная', hint: 'Со знаками $' },
+      { type: 'quiz', question: 'Как записать абсолютную ссылку на ячейку A1?', options: ['A1', '$A$1', 'A$1', '$A1', 'Другой ответ'], correctAnswer: '$A$1', hint: 'Знаки $ перед буквой и числом' },
+      { type: 'quiz', question: 'Диапазон ячеек от A1 до B5 записывается как A1:B5 .', options: ['A1:B5', 'A1:B5ing', 'A1:B5ed', 'A1:B5s', 'unA1:B5'], correctAnswer: 'A1:B5', hint: 'Двоеточие' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь электронные таблицы! 📊' }
   },
@@ -1460,11 +1460,11 @@ export const games: GameLesson[] = [
     icon: 'FunctionSquare',
     color: 'text-purple-400',
     tasks: [
-      { type: 'fill', question: 'Функция для вычисления суммы — ___ .', correctAnswer: 'СУММ', hint: 'Или SUM' },
-      { type: 'quiz', question: 'Какая функция вычисляет среднее арифметическое?', options: ['СУММ', 'СРЗНАЧ', 'МАКС', 'МИН'], correctAnswer: 'СРЗНАЧ', hint: 'AVERAGE' },
-      { type: 'fill', question: 'Функция ЕСЛИ проверяет ___ и возвращает одно из двух значений.', correctAnswer: 'условие', hint: 'Логическое выражение' },
-      { type: 'quiz', question: 'Формула =ЕСЛИ(A1>5; "да"; "нет") при A1=3 вернёт:', options: ['да', 'нет', '3', 'ошибка'], correctAnswer: 'нет', hint: '3 < 5' },
-      { type: 'fill', question: 'Функция ___ подсчитывает количество ячеек по условию.', correctAnswer: 'СЧЁТЕСЛИ', hint: 'COUNTIF' }
+      { type: 'quiz', question: 'Функция для вычисления суммы — СУММ .', options: ['СУММ', 'СУММing', 'СУММed', 'СУММs', 'unСУММ'], correctAnswer: 'СУММ', hint: 'Или SUM' },
+      { type: 'quiz', question: 'Какая функция вычисляет среднее арифметическое?', options: ['СУММ', 'СРЗНАЧ', 'МАКС', 'МИН', 'Другой ответ'], correctAnswer: 'СРЗНАЧ', hint: 'AVERAGE' },
+      { type: 'quiz', question: 'Функция ЕСЛИ проверяет условие и возвращает одно из двух значений.', options: ['условие', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'условие', hint: 'Логическое выражение' },
+      { type: 'quiz', question: 'Формула =ЕСЛИ(A1>5; "да"; "нет") при A1=3 вернёт:', options: ['да', 'нет', '3', 'ошибка', 'Другой ответ'], correctAnswer: 'нет', hint: '3 < 5' },
+      { type: 'quiz', question: 'Функция СЧЁТЕСЛИ подсчитывает количество ячеек по условию.', options: ['СЧЁТЕСЛИ', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'СЧЁТЕСЛИ', hint: 'COUNTIF' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь функции! ⚙️' }
   },
@@ -1474,11 +1474,11 @@ export const games: GameLesson[] = [
     icon: 'BarChart',
     color: 'text-orange-400',
     tasks: [
-      { type: 'fill', question: 'Диаграмма для показа долей целого — ___ диаграмма.', correctAnswer: 'круговая', hint: 'Секторы' },
-      { type: 'quiz', question: 'Какой тип диаграммы лучше для сравнения категорий?', options: ['Круговая', 'Гистограмма', 'График', 'Точечная'], correctAnswer: 'Гистограмма', hint: 'Столбики' },
-      { type: 'fill', question: 'Расшифровка цветов на диаграмме — ___ .', correctAnswer: 'легенда', hint: 'Подписи' },
-      { type: 'quiz', question: 'Для отображения динамики во времени используют:', options: ['Круговую диаграмму', 'Линейный график', 'Точечную диаграмму', 'Гистограмму'], correctAnswer: 'Линейный график', hint: 'Кривая линия' },
-      { type: 'fill', question: 'Сумма секторов круговой диаграммы равна ___%.', correctAnswer: '100', hint: 'Целое' }
+      { type: 'quiz', question: 'Диаграмма для показа долей целого — круговая диаграмма.', options: ['круговая', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'круговая', hint: 'Секторы' },
+      { type: 'quiz', question: 'Какой тип диаграммы лучше для сравнения категорий?', options: ['Круговая', 'Гистограмма', 'График', 'Точечная', 'Другой ответ'], correctAnswer: 'Гистограмма', hint: 'Столбики' },
+      { type: 'quiz', question: 'Расшифровка цветов на диаграмме — легенда .', options: ['легенда', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'легенда', hint: 'Подписи' },
+      { type: 'quiz', question: 'Для отображения динамики во времени используют:', options: ['Круговую диаграмму', 'Линейный график', 'Точечную диаграмму', 'Гистограмму', 'Другой ответ'], correctAnswer: 'Линейный график', hint: 'Кривая линия' },
+      { type: 'quiz', question: 'Сумма секторов круговой диаграммы равна 100%.', options: ['100', '100ing', '100ed', '100s', 'un100'], correctAnswer: '100', hint: 'Целое' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь диаграммы! 📈' }
   },
@@ -1488,11 +1488,11 @@ export const games: GameLesson[] = [
     icon: 'Brackets',
     color: 'text-cyan-400',
     tasks: [
-      { type: 'fill', question: 'Доступ к элементу массива осуществляется по ___ .', correctAnswer: 'индексу', hint: 'Номер элемента' },
+      { type: 'quiz', question: 'Доступ к элементу массива осуществляется по индексу .', options: ['индексу', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'индексу', hint: 'Номер элемента' },
       { type: 'quiz', question: 'Как описать массив из 10 целых чисел в Паскале?', options: ['array[10] of integer', 'array[1..10] of integer', 'integer[10]', 'array integer[10]'], correctAnswer: 'array[1..10] of integer', hint: 'Диапазон индексов' },
-      { type: 'fill', question: 'Для перебора всех элементов массива используют ___ .', correctAnswer: 'цикл', hint: 'for' },
-      { type: 'quiz', question: 'a[3] — это:', options: ['Третий элемент массива a', 'Массив из 3 элементов', 'Три массива a', 'Имя массива'], correctAnswer: 'Третий элемент массива a', hint: 'Индекс в квадратных скобках' },
-      { type: 'fill', question: 'Все элементы массива имеют один и тот же ___ .', correctAnswer: 'тип', hint: 'Целый, вещественный...' }
+      { type: 'quiz', question: 'Для перебора всех элементов массива используют цикл .', options: ['цикл', 'циклing', 'циклed', 'циклs', 'unцикл'], correctAnswer: 'цикл', hint: 'for' },
+      { type: 'quiz', question: 'a[3] — это:', options: ['Третий элемент массива a', 'Массив из 3 элементов', 'Три массива a', 'Имя массива', 'Другой ответ'], correctAnswer: 'Третий элемент массива a', hint: 'Индекс в квадратных скобках' },
+      { type: 'quiz', question: 'Все элементы массива имеют один и тот же тип .', options: ['тип', 'типing', 'типed', 'типs', 'unтип'], correctAnswer: 'тип', hint: 'Целый, вещественный...' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь массивы! 📋' }
   },
@@ -1502,11 +1502,11 @@ export const games: GameLesson[] = [
     icon: 'Cpu',
     color: 'text-red-400',
     tasks: [
-      { type: 'fill', question: 'Начальное значение при поиске суммы — ___ .', correctAnswer: '0', hint: 'Нейтральный элемент сложения' },
-      { type: 'quiz', question: 'При поиске максимума начальное значение:', options: ['0', '1', 'Первый элемент массива', 'Последний элемент'], correctAnswer: 'Первый элемент массива', hint: 'max := a[1]' },
-      { type: 'fill', question: 'Сортировка ___ меняет местами соседние элементы.', correctAnswer: 'пузырьком', hint: 'Пузырёк всплывает' },
-      { type: 'quiz', question: 'Для подсчёта элементов по условию используют:', options: ['Переменную-счётчик', 'Массив', 'Строку', 'Файл'], correctAnswer: 'Переменную-счётчик', hint: 'k := k + 1' },
-      { type: 'fill', question: 'Начальное значение при поиске произведения — ___ .', correctAnswer: '1', hint: 'Нейтральный элемент умножения' }
+      { type: 'quiz', question: 'Начальное значение при поиске суммы — 0 .', options: ['0', '0ing', '0ed', '0s', 'un0'], correctAnswer: '0', hint: 'Нейтральный элемент сложения' },
+      { type: 'quiz', question: 'При поиске максимума начальное значение:', options: ['0', '1', 'Первый элемент массива', 'Последний элемент', 'Другой ответ'], correctAnswer: 'Первый элемент массива', hint: 'max := a[1]' },
+      { type: 'quiz', question: 'Сортировка пузырьком меняет местами соседние элементы.', options: ['пузырьком', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'пузырьком', hint: 'Пузырёк всплывает' },
+      { type: 'quiz', question: 'Для подсчёта элементов по условию используют:', options: ['Переменную-счётчик', 'Массив', 'Строку', 'Файл', 'Другой ответ'], correctAnswer: 'Переменную-счётчик', hint: 'k := k + 1' },
+      { type: 'quiz', question: 'Начальное значение при поиске произведения — 1 .', options: ['1', '1ing', '1ed', '1s', 'un1'], correctAnswer: '1', hint: 'Нейтральный элемент умножения' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь алгоритмы! 🔄' }
   },
@@ -1516,11 +1516,11 @@ export const games: GameLesson[] = [
     icon: 'Type',
     color: 'text-pink-400',
     tasks: [
-      { type: 'fill', question: 'Функция length(s) возвращает ___ строки.', correctAnswer: 'длину', hint: 'Количество символов' },
-      { type: 'quiz', question: 'Операция объединения строк называется:', options: ['Сложение', 'Конкатенация', 'Умножение', 'Деление'], correctAnswer: 'Конкатенация', hint: '+' },
-      { type: 'fill', question: 'Функция ___ находит позицию подстроки в строке.', correctAnswer: 'pos', hint: 'Позиция' },
-      { type: 'quiz', question: 'copy(s, 2, 3) копирует:', options: ['2 и 3 символ', '3 символа начиная со 2-го', '2 символа начиная с 3-го', 'Символы 2-5'], correctAnswer: '3 символа начиная со 2-го', hint: 'copy(строка, позиция, количество)' },
-      { type: 'fill', question: 'Процедура ___ удаляет символы из строки.', correctAnswer: 'delete', hint: 'Удаление' }
+      { type: 'quiz', question: 'Функция length(s) возвращает длину строки.', options: ['длину', 'длинуing', 'длинуed', 'длинуs', 'unдлину'], correctAnswer: 'длину', hint: 'Количество символов' },
+      { type: 'quiz', question: 'Операция объединения строк называется:', options: ['Сложение', 'Конкатенация', 'Умножение', 'Деление', 'Другой ответ'], correctAnswer: 'Конкатенация', hint: '+' },
+      { type: 'quiz', question: 'Функция pos находит позицию подстроки в строке.', options: ['pos', 'posing', 'posed', 'poss', 'unpos'], correctAnswer: 'pos', hint: 'Позиция' },
+      { type: 'quiz', question: 'copy(s, 2, 3) копирует:', options: ['2 и 3 символ', '3 символа начиная со 2-го', '2 символа начиная с 3-го', 'Символы 2-5', 'Другой ответ'], correctAnswer: '3 символа начиная со 2-го', hint: 'copy(строка, позиция, количество)' },
+      { type: 'quiz', question: 'Процедура delete удаляет символы из строки.', options: ['delete', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'delete', hint: 'Удаление' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь строки! 🔤' }
   },
@@ -1530,11 +1530,11 @@ export const games: GameLesson[] = [
     icon: 'Box',
     color: 'text-violet-400',
     tasks: [
-      { type: 'fill', question: 'Подпрограмма, которая возвращает значение — ___ .', correctAnswer: 'функция', hint: 'function' },
-      { type: 'quiz', question: 'Подпрограмма, которая не возвращает значение:', options: ['Функция', 'Процедура', 'Массив', 'Цикл'], correctAnswer: 'Процедура', hint: 'procedure' },
-      { type: 'fill', question: 'Ключевое слово ___ означает передачу параметра по ссылке.', correctAnswer: 'var', hint: 'Изменение оригинала' },
-      { type: 'quiz', question: 'Переменные, описанные внутри подпрограммы:', options: ['Глобальные', 'Локальные', 'Статические', 'Динамические'], correctAnswer: 'Локальные', hint: 'Доступны только внутри' },
-      { type: 'fill', question: 'Параметры в заголовке подпрограммы — ___ параметры.', correctAnswer: 'формальные', hint: 'При описании' }
+      { type: 'quiz', question: 'Подпрограмма, которая возвращает значение — функция .', options: ['функция', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'функция', hint: 'function' },
+      { type: 'quiz', question: 'Подпрограмма, которая не возвращает значение:', options: ['Функция', 'Процедура', 'Массив', 'Цикл', 'Другой ответ'], correctAnswer: 'Процедура', hint: 'procedure' },
+      { type: 'quiz', question: 'Ключевое слово var означает передачу параметра по ссылке.', options: ['var', 'varing', 'vared', 'vars', 'unvar'], correctAnswer: 'var', hint: 'Изменение оригинала' },
+      { type: 'quiz', question: 'Переменные, описанные внутри подпрограммы:', options: ['Глобальные', 'Локальные', 'Статические', 'Динамические', 'Другой ответ'], correctAnswer: 'Локальные', hint: 'Доступны только внутри' },
+      { type: 'quiz', question: 'Параметры в заголовке подпрограммы — формальные параметры.', options: ['формальные', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'формальные', hint: 'При описании' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь подпрограммы! 📦' }
   },
@@ -1544,11 +1544,11 @@ export const games: GameLesson[] = [
     icon: 'Layers',
     color: 'text-amber-400',
     tasks: [
-      { type: 'fill', question: 'Физическая копия объекта — ___ модель.', correctAnswer: 'материальная', hint: 'Или натурная' },
-      { type: 'quiz', question: 'Глобус — это:', options: ['Информационная модель', 'Материальная модель', 'Знаковая модель', 'Программная модель'], correctAnswer: 'Материальная модель', hint: 'Можно потрогать' },
-      { type: 'fill', question: 'Модель, описывающая изменение во времени — ___ .', correctAnswer: 'динамическая', hint: 'Движение' },
-      { type: 'quiz', question: 'Процесс построения информационных моделей:', options: ['Моделирование', 'Формализация', 'Алгоритмизация', 'Программирование'], correctAnswer: 'Формализация', hint: 'Формальный язык' },
-      { type: 'fill', question: 'Соответствие модели реальному объекту — ___ .', correctAnswer: 'адекватность', hint: 'Точность модели' }
+      { type: 'quiz', question: 'Физическая копия объекта — материальная модель.', options: ['материальная', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'материальная', hint: 'Или натурная' },
+      { type: 'quiz', question: 'Глобус — это:', options: ['Информационная модель', 'Материальная модель', 'Знаковая модель', 'Программная модель', 'Другой ответ'], correctAnswer: 'Материальная модель', hint: 'Можно потрогать' },
+      { type: 'quiz', question: 'Модель, описывающая изменение во времени — динамическая .', options: ['динамическая', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'динамическая', hint: 'Движение' },
+      { type: 'quiz', question: 'Процесс построения информационных моделей:', options: ['Моделирование', 'Формализация', 'Алгоритмизация', 'Программирование', 'Другой ответ'], correctAnswer: 'Формализация', hint: 'Формальный язык' },
+      { type: 'quiz', question: 'Соответствие модели реальному объекту — адекватность .', options: ['адекватность', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'адекватность', hint: 'Точность модели' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь моделирование! 🧱' }
   },
@@ -1558,11 +1558,11 @@ export const games: GameLesson[] = [
     icon: 'Share2',
     color: 'text-teal-400',
     tasks: [
-      { type: 'fill', question: 'Граф без циклов с одной корневой вершиной — ___ .', correctAnswer: 'дерево', hint: 'Иерархия' },
-      { type: 'quiz', question: 'Направленное ребро графа называется:', options: ['Линия', 'Дуга', 'Стрелка', 'Путь'], correctAnswer: 'Дуга', hint: 'Со стрелкой' },
-      { type: 'fill', question: 'Граф с рёбрами-числами — ___ граф.', correctAnswer: 'взвешенный', hint: 'Вес ребра' },
-      { type: 'quiz', question: 'Генеалогическое древо — это пример:', options: ['Сети', 'Дерева', 'Цикла', 'Графа с петлями'], correctAnswer: 'Дерева', hint: 'Иерархическая структура' },
-      { type: 'fill', question: 'Вершины графа соединяются ___ .', correctAnswer: 'рёбрами', hint: 'Линии связи' }
+      { type: 'quiz', question: 'Граф без циклов с одной корневой вершиной — дерево .', options: ['дерево', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'дерево', hint: 'Иерархия' },
+      { type: 'quiz', question: 'Направленное ребро графа называется:', options: ['Линия', 'Дуга', 'Стрелка', 'Путь', 'Другой ответ'], correctAnswer: 'Дуга', hint: 'Со стрелкой' },
+      { type: 'quiz', question: 'Граф с рёбрами-числами — взвешенный граф.', options: ['взвешенный', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'взвешенный', hint: 'Вес ребра' },
+      { type: 'quiz', question: 'Генеалогическое древо — это пример:', options: ['Сети', 'Дерева', 'Цикла', 'Графа с петлями', 'Другой ответ'], correctAnswer: 'Дерева', hint: 'Иерархическая структура' },
+      { type: 'quiz', question: 'Вершины графа соединяются рёбрами .', options: ['рёбрами', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'рёбрами', hint: 'Линии связи' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь графы! 🔗' }
   },
@@ -1572,11 +1572,11 @@ export const games: GameLesson[] = [
     icon: 'Globe',
     color: 'text-blue-500',
     tasks: [
-      { type: 'fill', question: 'Протокол безопасной передачи веб-страниц — ___ .', correctAnswer: 'HTTPS', hint: 'HTTP + шифрование' },
-      { type: 'quiz', question: 'IPv4-адрес содержит:', options: ['4 бита', '8 бит', '4 байта', '8 байт'], correctAnswer: '4 байта', hint: '32 бита' },
-      { type: 'fill', question: 'Язык для создания структуры веб-страниц — ___ .', correctAnswer: 'HTML', hint: 'Гипертекст' },
-      { type: 'quiz', question: 'DNS преобразует:', options: ['IP в MAC', 'Имя в IP-адрес', 'Текст в звук', 'Рисунок в текст'], correctAnswer: 'Имя в IP-адрес', hint: 'Доменное имя' },
-      { type: 'fill', question: 'Домен верхнего уровня для России — ___ .', correctAnswer: '.ru', hint: 'Код страны' }
+      { type: 'quiz', question: 'Протокол безопасной передачи веб-страниц — HTTPS .', options: ['HTTPS', 'HTTPSing', 'HTTPSed', 'HTTPSs', 'unHTTPS'], correctAnswer: 'HTTPS', hint: 'HTTP + шифрование' },
+      { type: 'quiz', question: 'IPv4-адрес содержит:', options: ['4 бита', '8 бит', '4 байта', '8 байт', 'Другой ответ'], correctAnswer: '4 байта', hint: '32 бита' },
+      { type: 'quiz', question: 'Язык для создания структуры веб-страниц — HTML .', options: ['HTML', 'HTMLing', 'HTMLed', 'HTMLs', 'unHTML'], correctAnswer: 'HTML', hint: 'Гипертекст' },
+      { type: 'quiz', question: 'DNS преобразует:', options: ['IP в MAC', 'Имя в IP-адрес', 'Текст в звук', 'Рисунок в текст', 'Другой ответ'], correctAnswer: 'Имя в IP-адрес', hint: 'Доменное имя' },
+      { type: 'quiz', question: 'Домен верхнего уровня для России — .ru .', options: ['.ru', '.ruing', '.rued', '.rus', 'un.ru'], correctAnswer: '.ru', hint: 'Код страны' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь Интернет! 🌐' }
   }

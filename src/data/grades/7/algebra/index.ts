@@ -512,10 +512,10 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Реши уравнение: 3x + 5 = 17", options: ["x = 4", "x = 6", "x = 3", "x = 5"], correctAnswer: "x = 4", hint: "3x = 12, x = 4" },
-      { type: 'quiz', question: "Реши уравнение: 2x - 7 = 9", options: ["x = 8", "x = 1", "x = 16", "x = 11"], correctAnswer: "x = 8", hint: "2x = 16, x = 8" },
-      { type: 'quiz', question: "Реши уравнение: 5x = 2x + 12", options: ["x = 4", "x = 3", "x = 6", "x = 2"], correctAnswer: "x = 4", hint: "3x = 12, x = 4" },
-      { type: 'quiz', question: "Реши уравнение: 7 - x = 2x + 1", options: ["x = 2", "x = 3", "x = 1", "x = 4"], correctAnswer: "x = 2", hint: "6 = 3x, x = 2" }
+      { type: 'quiz', question: "Реши уравнение: 3x + 5 = 17", options: ["x = 4", "x = 6", "x = 3", "x = 5", "Другой ответ"], correctAnswer: "x = 4", hint: "3x = 12, x = 4" },
+      { type: 'quiz', question: "Реши уравнение: 2x - 7 = 9", options: ["x = 8", "x = 1", "x = 16", "x = 11", "Другой ответ"], correctAnswer: "x = 8", hint: "2x = 16, x = 8" },
+      { type: 'quiz', question: "Реши уравнение: 5x = 2x + 12", options: ["x = 4", "x = 3", "x = 6", "x = 2", "Другой ответ"], correctAnswer: "x = 4", hint: "3x = 12, x = 4" },
+      { type: 'quiz', question: "Реши уравнение: 7 - x = 2x + 1", options: ["x = 2", "x = 3", "x = 1", "x = 4", "Другой ответ"], correctAnswer: "x = 2", hint: "6 = 3x, x = 2" }
     ],
     reward: { stars: 3, message: "Отлично! Ты решаешь уравнения! 📐" }
   },
@@ -525,10 +525,10 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Чему равно 2³?", options: ["6", "8", "9", "5"], correctAnswer: "8", hint: "2 · 2 · 2 = 8" },
-      { type: 'quiz', question: "Чему равно 5²?", options: ["10", "25", "15", "7"], correctAnswer: "25", hint: "5 · 5 = 25" },
-      { type: 'quiz', question: "Чему равно 10³?", options: ["30", "100", "1000", "10000"], correctAnswer: "1000", hint: "10 · 10 · 10 = 1000" },
-      { type: 'quiz', question: "Упрости: x⁵ · x³", options: ["x⁸", "x¹⁵", "x²", "2x⁸"], correctAnswer: "x⁸", hint: "Складываем показатели" }
+      { type: 'quiz', question: "Чему равно 2³?", options: ["6", "8", "9", "5", "Другой ответ"], correctAnswer: "8", hint: "2 · 2 · 2 = 8" },
+      { type: 'quiz', question: "Чему равно 5²?", options: ["10", "25", "15", "7", "Другой ответ"], correctAnswer: "25", hint: "5 · 5 = 25" },
+      { type: 'quiz', question: "Чему равно 10³?", options: ["30", "100", "1000", "10000", "Другой ответ"], correctAnswer: "1000", hint: "10 · 10 · 10 = 1000" },
+      { type: 'quiz', question: "Упрости: x⁵ · x³", options: ["x⁸", "x¹⁵", "x²", "2x⁸", "Другой ответ"], correctAnswer: "x⁸", hint: "Складываем показатели" }
     ],
     reward: { stars: 3, message: "Отлично! Ты вычисляешь степени! 🔢" }
   },
@@ -538,10 +538,10 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Упрости: a⁶ : a²", options: ["a³", "a⁴", "a⁸", "a¹²"], correctAnswer: "a⁴", hint: "Вычитаем показатели" },
-      { type: 'quiz', question: "Упрости: (b³)²", options: ["b⁵", "b⁶", "b⁹", "b¹"], correctAnswer: "b⁶", hint: "Умножаем показатели" },
-      { type: 'quiz', question: "Чему равно a⁰?", options: ["0", "1", "a", "Не определено"], correctAnswer: "1", hint: "Любое число в нулевой степени равно 1" },
-      { type: 'quiz', question: "Упрости: (2x)²", options: ["2x²", "4x²", "2x", "4x"], correctAnswer: "4x²", hint: "(2x)² = 4 · x²" }
+      { type: 'quiz', question: "Упрости: a⁶ : a²", options: ["a³", "a⁴", "a⁸", "a¹²", "Другой ответ"], correctAnswer: "a⁴", hint: "Вычитаем показатели" },
+      { type: 'quiz', question: "Упрости: (b³)²", options: ["b⁵", "b⁶", "b⁹", "b¹", "Другой ответ"], correctAnswer: "b⁶", hint: "Умножаем показатели" },
+      { type: 'quiz', question: "Чему равно a⁰?", options: ["0", "1", "a", "Не определено", "Другой ответ"], correctAnswer: "1", hint: "Любое число в нулевой степени равно 1" },
+      { type: 'quiz', question: "Упрости: (2x)²", options: ["2x²", "4x²", "2x", "4x", "Другой ответ"], correctAnswer: "4x²", hint: "(2x)² = 4 · x²" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь свойства степеней! ⭐" }
   },
@@ -551,10 +551,10 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Найди y при x = 2, если y = 3x - 1", options: ["y = 3", "y = 5", "y = 7", "y = 2"], correctAnswer: "y = 5", hint: "y = 3·2 - 1 = 5" },
-      { type: 'quiz', question: "Где график y = 2x + 3 пересекает ось Y?", options: ["(0; 3)", "(3; 0)", "(0; 2)", "(2; 0)"], correctAnswer: "(0; 3)", hint: "При x = 0, y = b = 3" },
-      { type: 'quiz', question: "Какая прямая возрастает?", options: ["y = 2x + 1", "y = -3x + 5", "y = -x", "y = -0.5x"], correctAnswer: "y = 2x + 1", hint: "Возрастает при k > 0" },
-      { type: 'quiz', question: "Чему равен угловой коэффициент y = -5x + 2?", options: ["k = 5", "k = -5", "k = 2", "k = -2"], correctAnswer: "k = -5", hint: "k — коэффициент при x" }
+      { type: 'quiz', question: "Найди y при x = 2, если y = 3x - 1", options: ["y = 3", "y = 5", "y = 7", "y = 2", "Другой ответ"], correctAnswer: "y = 5", hint: "y = 3·2 - 1 = 5" },
+      { type: 'quiz', question: "Где график y = 2x + 3 пересекает ось Y?", options: ["(0; 3)", "(3; 0)", "(0; 2)", "(2; 0)", "Другой ответ"], correctAnswer: "(0; 3)", hint: "При x = 0, y = b = 3" },
+      { type: 'quiz', question: "Какая прямая возрастает?", options: ["y = 2x + 1", "y = -3x + 5", "y = -x", "y = -0.5x", "Другой ответ"], correctAnswer: "y = 2x + 1", hint: "Возрастает при k > 0" },
+      { type: 'quiz', question: "Чему равен угловой коэффициент y = -5x + 2?", options: ["k = 5", "k = -5", "k = 2", "k = -2", "Другой ответ"], correctAnswer: "k = -5", hint: "k — коэффициент при x" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь функции! 📈" }
   },
@@ -564,10 +564,10 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Упрости: 3a + 2a - a", options: ["4a", "5a", "6a", "3a"], correctAnswer: "4a", hint: "3 + 2 - 1 = 4" },
-      { type: 'quiz', question: "Упрости: 2(x + 3) - x", options: ["x + 6", "2x + 6", "x + 3", "3x + 6"], correctAnswer: "x + 6", hint: "2x + 6 - x = x + 6" },
-      { type: 'quiz', question: "Раскрой: (x + 2)(x - 1)", options: ["x² + x - 2", "x² - x + 2", "x² + 2x - 2", "x² - 2"], correctAnswer: "x² + x - 2", hint: "x² - x + 2x - 2" },
-      { type: 'quiz', question: "Определите степень одночлена: 5x²y³", options: ["5", "6", "10", "11"], correctAnswer: "5", hint: "2 + 3 = 5 — сумма показателей" }
+      { type: 'quiz', question: "Упрости: 3a + 2a - a", options: ["4a", "5a", "6a", "3a", "Другой ответ"], correctAnswer: "4a", hint: "3 + 2 - 1 = 4" },
+      { type: 'quiz', question: "Упрости: 2(x + 3) - x", options: ["x + 6", "2x + 6", "x + 3", "3x + 6", "Другой ответ"], correctAnswer: "x + 6", hint: "2x + 6 - x = x + 6" },
+      { type: 'quiz', question: "Раскрой: (x + 2)(x - 1)", options: ["x² + x - 2", "x² - x + 2", "x² + 2x - 2", "x² - 2", "Другой ответ"], correctAnswer: "x² + x - 2", hint: "x² - x + 2x - 2" },
+      { type: 'quiz', question: "Определите степень одночлена: 5x²y³", options: ["5", "6", "10", "11", "Другой ответ"], correctAnswer: "5", hint: "2 + 3 = 5 — сумма показателей" }
     ],
     reward: { stars: 3, message: "Супер! Ты работаешь с многочленами! 📝" }
   }

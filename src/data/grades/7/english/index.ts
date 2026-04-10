@@ -334,10 +334,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What time do you ___ get up?", options: ["usually", "ever", "never", "always"], correctAnswer: "usually", hint: "Frequency adverb" },
-      { type: 'quiz', question: "She ___ has breakfast at 8 am.", options: ["have to", "has to", "must to", "should to"], correctAnswer: "has to", hint: "Obligation for he/she/it" },
+      { type: 'quiz', question: "What time do you ___ get up?", options: ["usually", "ever", "never", "always", "Другой ответ"], correctAnswer: "usually", hint: "Frequency adverb" },
+      { type: 'quiz', question: "She ___ has breakfast at 8 am.", options: ["have to", "has to", "must to", "should to", "Другой ответ"], correctAnswer: "has to", hint: "Obligation for he/she/it" },
       { type: 'find', question: "Select household chores:", options: ["Do homework", "Do the washing-up", "Watch TV", "Make the bed", "Play games"], correctAnswer: ["Do the washing-up", "Make the bed"], hint: "Work around the house" },
-      { type: 'quiz', question: "I'm ___ visit Paris next summer.", options: ["will", "going to", "will be", "would"], correctAnswer: "going to", hint: "Plans for future" }
+      { type: 'quiz', question: "I'm ___ visit Paris next summer.", options: ["will", "going to", "will be", "would", "Другой ответ"], correctAnswer: "going to", hint: "Plans for future" }
     ],
     reward: { stars: 3, message: "Excellent! You know daily routines! 🌟" }
   },
@@ -347,10 +347,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What's the Russian for 'boarding pass'?", options: ["Билет", "Посадочный талон", "Багаж", "Регистрация"], correctAnswer: "Посадочный талон", hint: "At the airport" },
-      { type: 'quiz', question: "We ___ protect nature.", options: ["should", "must", "have", "need"], correctAnswer: "must", hint: "Strong obligation" },
+      { type: 'quiz', question: "What's the Russian for 'boarding pass'?", options: ["Билет", "Посадочный талон", "Багаж", "Регистрация", "Другой ответ"], correctAnswer: "Посадочный талон", hint: "At the airport" },
+      { type: 'quiz', question: "We ___ protect nature.", options: ["should", "must", "have", "need", "Другой ответ"], correctAnswer: "must", hint: "Strong obligation" },
       { type: 'find', question: "Select environmental problems:", options: ["Pollution", "Journey", "Global warming", "Deforestation", "Hotel"], correctAnswer: ["Pollution", "Global warming", "Deforestation"], hint: "Issues with nature" },
-      { type: 'quiz', question: "Have you ever ___ this app?", options: ["use", "used", "using", "uses"], correctAnswer: "used", hint: "Present Perfect" }
+      { type: 'quiz', question: "Have you ever ___ this app?", options: ["use", "used", "using", "uses", "Другой ответ"], correctAnswer: "used", hint: "Present Perfect" }
     ],
     reward: { stars: 3, message: "Great job! You're an English pro! 🎉" }
   }

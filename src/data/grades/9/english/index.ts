@@ -951,14 +951,14 @@ export const games: GameLesson[] = [
     icon: "Plane",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What does 'destination' mean?", options: ["Place to go", "Type of food", "Transport", "Currency"], correctAnswer: "Place to go", hint: "Where you're heading" },
-      { type: 'fill', question: "I have ___ visited Paris. (никогда не)", correctAnswer: "never", hint: "Negative experience" },
-      { type: 'quiz', question: "Present Perfect is used for:", options: ["Life experience", "Past actions with specific time", "Future plans", "Daily routine"], correctAnswer: "Life experience", hint: "At any time in your life" },
-      { type: 'fill', question: "Sightseeing means seeing ___. (достопримечательности)", correctAnswer: "sights", hint: "Tourist attractions" },
-      { type: 'quiz', question: "Which word means 'путешествие'?", options: ["journey", "hotel", "ticket", "passport"], correctAnswer: "journey", hint: "Going from one place to another" },
-      { type: 'fill', question: "My ___ is Paris this summer. (место назначения)", correctAnswer: "destination", hint: "Where I'm going" },
-      { type: 'quiz', question: "'Accommodation' means:", options: ["Place to stay", "Type of food", "Travel method", "Luggage"], correctAnswer: "Place to stay", hint: "Where you sleep during travel" },
-      { type: 'fill', question: "Have you ever ___ by train? (путешествовали)", correctAnswer: "travelled", hint: "Past participle of travel" }
+      { type: 'quiz', question: "What does 'destination' mean?", options: ["Place to go", "Type of food", "Transport", "Currency", "Другой ответ"], correctAnswer: "Place to go", hint: "Where you're heading" },
+      { type: 'quiz', question: "I have never visited Paris. (никогда не)", options: ["never", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "never", hint: "Negative experience" },
+      { type: 'quiz', question: "Present Perfect is used for:", options: ["Life experience", "Past actions with specific time", "Future plans", "Daily routine", "Другой ответ"], correctAnswer: "Life experience", hint: "At any time in your life" },
+      { type: 'quiz', question: "Sightseeing means seeing sights. (достопримечательности)", options: ["sights", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "sights", hint: "Tourist attractions" },
+      { type: 'quiz', question: "Which word means 'путешествие'?", options: ["journey", "hotel", "ticket", "passport", "Другой ответ"], correctAnswer: "journey", hint: "Going from one place to another" },
+      { type: 'quiz', question: "My destination is Paris this summer. (место назначения)", options: ["destination", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "destination", hint: "Where I'm going" },
+      { type: 'quiz', question: "'Accommodation' means:", options: ["Place to stay", "Type of food", "Travel method", "Luggage", "Другой ответ"], correctAnswer: "Place to stay", hint: "Where you sleep during travel" },
+      { type: 'quiz', question: "Have you ever travelled by train? (путешествовали)", options: ["travelled", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "travelled", hint: "Past participle of travel" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь лексику путешествий!" }
   },
@@ -968,14 +968,14 @@ export const games: GameLesson[] = [
     icon: "Plane",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "___ pass is your ticket to board the plane. (посадочный)", correctAnswer: "Boarding", hint: "Required for flight" },
-      { type: 'quiz', question: "Where do you pick up luggage after arrival?", options: ["Baggage claim", "Check-in", "Gate", "Customs"], correctAnswer: "Baggage claim", hint: "After arrival" },
-      { type: 'fill', question: "My flight was ___ for two hours. (задержан)", correctAnswer: "delayed", hint: "Not on time" },
-      { type: 'quiz', question: "'Gate' at the airport means:", options: ["Exit to board the plane", "Entrance to building", "Parking area", "Ticket office"], correctAnswer: "Exit to board the plane", hint: "Boarding area" },
-      { type: 'fill', question: "I'd like a ___ seat, please. (место у окна)", correctAnswer: "window", hint: "You can see outside" },
-      { type: 'quiz', question: "What is 'customs'?", options: ["Border control for goods", "Ticket office", "Restaurant", "Hotel desk"], correctAnswer: "Border control for goods", hint: "Checking what you bring" },
-      { type: 'fill', question: "Where is the check-in ___? (стойка)", correctAnswer: "counter", hint: "Desk for registration" },
-      { type: 'quiz', question: "'Departure lounge' is where you:", options: ["Wait for your flight", "Pick up luggage", "Buy tickets", "Eat dinner"], correctAnswer: "Wait for your flight", hint: "Before boarding" }
+      { type: 'quiz', question: "Boarding pass is your ticket to board the plane. (посадочный)", options: ["Boarding", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Boarding", hint: "Required for flight" },
+      { type: 'quiz', question: "Where do you pick up luggage after arrival?", options: ["Baggage claim", "Check-in", "Gate", "Customs", "Другой ответ"], correctAnswer: "Baggage claim", hint: "After arrival" },
+      { type: 'quiz', question: "My flight was delayed for two hours. (задержан)", options: ["delayed", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "delayed", hint: "Not on time" },
+      { type: 'quiz', question: "'Gate' at the airport means:", options: ["Exit to board the plane", "Entrance to building", "Parking area", "Ticket office", "Другой ответ"], correctAnswer: "Exit to board the plane", hint: "Boarding area" },
+      { type: 'quiz', question: "I'd like a window seat, please. (место у окна)", options: ["window", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "window", hint: "You can see outside" },
+      { type: 'quiz', question: "What is 'customs'?", options: ["Border control for goods", "Ticket office", "Restaurant", "Hotel desk", "Другой ответ"], correctAnswer: "Border control for goods", hint: "Checking what you bring" },
+      { type: 'quiz', question: "Where is the check-in counter? (стойка)", options: ["counter", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "counter", hint: "Desk for registration" },
+      { type: 'quiz', question: "'Departure lounge' is where you:", options: ["Wait for your flight", "Pick up luggage", "Buy tickets", "Eat dinner", "Другой ответ"], correctAnswer: "Wait for your flight", hint: "Before boarding" }
     ],
     reward: { stars: 3, message: "Ты готов к путешествию на самолёте!" }
   },
@@ -985,14 +985,14 @@ export const games: GameLesson[] = [
     icon: "Hotel",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "I'd like to ___ a room for two nights. (забронировать)", correctAnswer: "book", hint: "Make a reservation" },
-      { type: 'quiz', question: "What does 'complimentary' mean?", options: ["Free of charge", "Expensive", "Reserved", "Unavailable"], correctAnswer: "Free of charge", hint: "Included at no cost" },
-      { type: 'fill', question: "Is breakfast ___? (включено)", correctAnswer: "included", hint: "Part of the deal" },
-      { type: 'quiz', question: "'Check-out' means:", options: ["Leaving the hotel", "Arriving at hotel", "Paying extra", "Ordering food"], correctAnswer: "Leaving the hotel", hint: "End of stay" },
-      { type: 'fill', question: "Do you have any ___ for tonight? (свободные номера)", correctAnswer: "vacancies", hint: "Empty rooms available" },
-      { type: 'quiz', question: "'Room service' provides:", options: ["Food delivered to your room", "Cleaning only", "Transportation", "Tickets"], correctAnswer: "Food delivered to your room", hint: "Ordering food to your door" },
-      { type: 'fill', question: "What time is ___? (выезд)", correctAnswer: "check-out", hint: "When you leave the hotel" },
-      { type: 'quiz', question: "A 'twin room' has:", options: ["Two separate beds", "One double bed", "Three beds", "No bed"], correctAnswer: "Two separate beds", hint: "Not for couples" }
+      { type: 'quiz', question: "I'd like to book a room for two nights. (забронировать)", options: ["book", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "book", hint: "Make a reservation" },
+      { type: 'quiz', question: "What does 'complimentary' mean?", options: ["Free of charge", "Expensive", "Reserved", "Unavailable", "Другой ответ"], correctAnswer: "Free of charge", hint: "Included at no cost" },
+      { type: 'quiz', question: "Is breakfast included? (включено)", options: ["included", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "included", hint: "Part of the deal" },
+      { type: 'quiz', question: "'Check-out' means:", options: ["Leaving the hotel", "Arriving at hotel", "Paying extra", "Ordering food", "Другой ответ"], correctAnswer: "Leaving the hotel", hint: "End of stay" },
+      { type: 'quiz', question: "Do you have any vacancies for tonight? (свободные номера)", options: ["vacancies", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "vacancies", hint: "Empty rooms available" },
+      { type: 'quiz', question: "'Room service' provides:", options: ["Food delivered to your room", "Cleaning only", "Transportation", "Tickets", "Другой ответ"], correctAnswer: "Food delivered to your room", hint: "Ordering food to your door" },
+      { type: 'quiz', question: "What time is check-out? (выезд)", options: ["check-out", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "check-out", hint: "When you leave the hotel" },
+      { type: 'quiz', question: "A 'twin room' has:", options: ["Two separate beds", "One double bed", "Three beds", "No bed", "Другой ответ"], correctAnswer: "Two separate beds", hint: "Not for couples" }
     ],
     reward: { stars: 3, message: "Ты можешь заселиться в отеле!" }
   },
@@ -1002,14 +1002,14 @@ export const games: GameLesson[] = [
     icon: "Briefcase",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "A ___ treats patients in a hospital. (врач)", correctAnswer: "doctor", hint: "Medical professional" },
-      { type: 'quiz', question: "Who designs buildings?", options: ["Architect", "Doctor", "Teacher", "Driver"], correctAnswer: "Architect", hint: "Construction plans" },
-      { type: 'fill', question: "I work as a software ___ at Google. (разработчик)", correctAnswer: "developer", hint: "Creates programs" },
-      { type: 'quiz', question: "'Must' expresses:", options: ["Obligation", "Suggestion", "Permission", "Ability"], correctAnswer: "Obligation", hint: "Necessity" },
-      { type: 'fill', question: "A ___ writes articles for newspapers. (журналист)", correctAnswer: "journalist", hint: "Media professional" },
-      { type: 'quiz', question: "What does an accountant do?", options: ["Manages finances", "Treats patients", "Teaches students", "Drives trucks"], correctAnswer: "Manages finances", hint: "Numbers and money" },
-      { type: 'fill', question: "You ___ be good at math to be an engineer. (должны)", correctAnswer: "must", hint: "Requirement" },
-      { type: 'quiz', question: "'Software developer' creates:", options: ["Computer programs", "Buildings", "Medicines", "Food"], correctAnswer: "Computer programs", hint: "IT professional" }
+      { type: 'quiz', question: "A doctor treats patients in a hospital. (врач)", options: ["doctor", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "doctor", hint: "Medical professional" },
+      { type: 'quiz', question: "Who designs buildings?", options: ["Architect", "Doctor", "Teacher", "Driver", "Другой ответ"], correctAnswer: "Architect", hint: "Construction plans" },
+      { type: 'quiz', question: "I work as a software developer at Google. (разработчик)", options: ["developer", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "developer", hint: "Creates programs" },
+      { type: 'quiz', question: "'Must' expresses:", options: ["Obligation", "Suggestion", "Permission", "Ability", "Другой ответ"], correctAnswer: "Obligation", hint: "Necessity" },
+      { type: 'quiz', question: "A journalist writes articles for newspapers. (журналист)", options: ["journalist", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "journalist", hint: "Media professional" },
+      { type: 'quiz', question: "What does an accountant do?", options: ["Manages finances", "Treats patients", "Teaches students", "Drives trucks", "Другой ответ"], correctAnswer: "Manages finances", hint: "Numbers and money" },
+      { type: 'quiz', question: "You must be good at math to be an engineer. (должны)", options: ["must", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "must", hint: "Requirement" },
+      { type: 'quiz', question: "'Software developer' creates:", options: ["Computer programs", "Buildings", "Medicines", "Food", "Другой ответ"], correctAnswer: "Computer programs", hint: "IT professional" }
     ],
     reward: { stars: 3, message: "Ты хорошо знаешь названия профессий!" }
   },
@@ -1019,14 +1019,14 @@ export const games: GameLesson[] = [
     icon: "FileText",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "A ___ is a document about your experience. (резюме)", correctAnswer: "CV", hint: "Or resume" },
-      { type: 'quiz', question: "What is an 'interview'?", options: ["Job meeting with employer", "Written test", "Email exchange", "Phone call only"], correctAnswer: "Job meeting with employer", hint: "Face to face discussion" },
-      { type: 'fill', question: "Please find my CV ___ to this email. (приложенным)", correctAnswer: "attached", hint: "Included in email" },
-      { type: 'quiz', question: "'Strengths' means:", options: ["Strong points", "Weaknesses", "Hobbies", "Skills only"], correctAnswer: "Strong points", hint: "Positive qualities" },
-      { type: 'fill', question: "A ___ letter explains why you want the job. (сопроводительное)", correctAnswer: "cover", hint: "Goes with CV" },
-      { type: 'quiz', question: "A 'vacancy' is:", options: ["An open job position", "A holiday", "A meeting", "A contract"], correctAnswer: "An open job position", hint: "Job opening" },
-      { type: 'fill', question: "What are your ___ and weaknesses? (сильные стороны)", correctAnswer: "strengths", hint: "Positive qualities" },
-      { type: 'quiz', question: "'Applicant' means:", options: ["Person applying for a job", "Employer", "Manager", "Colleague"], correctAnswer: "Person applying for a job", hint: "Job seeker" }
+      { type: 'quiz', question: "A CV is a document about your experience. (резюме)", options: ["CV", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "CV", hint: "Or resume" },
+      { type: 'quiz', question: "What is an 'interview'?", options: ["Job meeting with employer", "Written test", "Email exchange", "Phone call only", "Другой ответ"], correctAnswer: "Job meeting with employer", hint: "Face to face discussion" },
+      { type: 'quiz', question: "Please find my CV attached to this email. (приложенным)", options: ["attached", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "attached", hint: "Included in email" },
+      { type: 'quiz', question: "'Strengths' means:", options: ["Strong points", "Weaknesses", "Hobbies", "Skills only", "Другой ответ"], correctAnswer: "Strong points", hint: "Positive qualities" },
+      { type: 'quiz', question: "A cover letter explains why you want the job. (сопроводительное)", options: ["cover", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "cover", hint: "Goes with CV" },
+      { type: 'quiz', question: "A 'vacancy' is:", options: ["An open job position", "A holiday", "A meeting", "A contract", "Другой ответ"], correctAnswer: "An open job position", hint: "Job opening" },
+      { type: 'quiz', question: "What are your strengths and weaknesses? (сильные стороны)", options: ["strengths", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "strengths", hint: "Positive qualities" },
+      { type: 'quiz', question: "'Applicant' means:", options: ["Person applying for a job", "Employer", "Manager", "Colleague", "Другой ответ"], correctAnswer: "Person applying for a job", hint: "Job seeker" }
     ],
     reward: { stars: 3, message: "Ты готов к поиску работы!" }
   },
@@ -1036,14 +1036,14 @@ export const games: GameLesson[] = [
     icon: "Mail",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "A ___ is the final date for a task. (крайний срок)", correctAnswer: "deadline", hint: "Time limit" },
-      { type: 'quiz', question: "How to start a business email?", options: ["I am writing to...", "Hey there!", "What's up?", "Hi buddy"], correctAnswer: "I am writing to...", hint: "Formal opening" },
-      { type: 'fill', question: "I look forward to ___ from you. (получить ответ)", correctAnswer: "hearing", hint: "Waiting for reply" },
-      { type: 'quiz', question: "'Negotiation' means:", options: ["Discussion to reach agreement", "Argument", "Contract signing", "Meeting only"], correctAnswer: "Discussion to reach agreement", hint: "Reaching a deal" },
-      { type: 'fill', question: "Please find the document ___. (во вложении)", correctAnswer: "attached", hint: "Included with email" },
-      { type: 'quiz', question: "'Proposal' means:", options: ["A formal suggestion", "A complaint", "A meeting", "A contract"], correctAnswer: "A formal suggestion", hint: "Business offer" },
-      { type: 'fill', question: "Thank you for your ___. (рассмотрение)", correctAnswer: "consideration", hint: "Reviewing my request" },
-      { type: 'quiz', question: "In business, 'meeting' means:", options: ["A gathering for discussion", "A phone call", "An email", "A contract"], correctAnswer: "A gathering for discussion", hint: "Business gathering" }
+      { type: 'quiz', question: "A deadline is the final date for a task. (крайний срок)", options: ["deadline", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "deadline", hint: "Time limit" },
+      { type: 'quiz', question: "How to start a business email?", options: ["I am writing to...", "Hey there!", "What's up?", "Hi buddy", "Другой ответ"], correctAnswer: "I am writing to...", hint: "Formal opening" },
+      { type: 'quiz', question: "I look forward to hearing from you. (получить ответ)", options: ["hearing", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "hearing", hint: "Waiting for reply" },
+      { type: 'quiz', question: "'Negotiation' means:", options: ["Discussion to reach agreement", "Argument", "Contract signing", "Meeting only", "Другой ответ"], correctAnswer: "Discussion to reach agreement", hint: "Reaching a deal" },
+      { type: 'quiz', question: "Please find the document attached. (во вложении)", options: ["attached", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "attached", hint: "Included with email" },
+      { type: 'quiz', question: "'Proposal' means:", options: ["A formal suggestion", "A complaint", "A meeting", "A contract", "Другой ответ"], correctAnswer: "A formal suggestion", hint: "Business offer" },
+      { type: 'quiz', question: "Thank you for your consideration. (рассмотрение)", options: ["consideration", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "consideration", hint: "Reviewing my request" },
+      { type: 'quiz', question: "In business, 'meeting' means:", options: ["A gathering for discussion", "A phone call", "An email", "A contract", "Другой ответ"], correctAnswer: "A gathering for discussion", hint: "Business gathering" }
     ],
     reward: { stars: 3, message: "Ты готов к деловому общению!" }
   },
@@ -1053,14 +1053,14 @@ export const games: GameLesson[] = [
     icon: "Leaf",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What causes global warming?", options: ["Greenhouse gases", "Recycling", "Wind energy", "Solar panels"], correctAnswer: "Greenhouse gases", hint: "Carbon dioxide, methane" },
-      { type: 'fill', question: "___ species are animals at risk of extinction. (исчезающие)", correctAnswer: "Endangered", hint: "In danger" },
-      { type: 'quiz', question: "'Deforestation' means:", options: ["Cutting down forests", "Planting trees", "Forest protection", "Forest fire"], correctAnswer: "Cutting down forests", hint: "Removing trees" },
-      { type: 'fill', question: "Pollution causes health ___. (проблемы)", correctAnswer: "problems", hint: "Negative effects" },
-      { type: 'quiz', question: "What is 'biodiversity'?", options: ["Variety of life forms", "Type of pollution", "Renewable energy", "Climate change"], correctAnswer: "Variety of life forms", hint: "Many different species" },
-      { type: 'fill', question: "Habitat ___ is when animals lose their homes. (потеря)", correctAnswer: "loss", hint: "Destruction of natural homes" },
-      { type: 'quiz', question: "'Extinction' means:", options: ["Complete disappearance of a species", "Moving to a new place", "Growing population", "Changing habitat"], correctAnswer: "Complete disappearance of a species", hint: "Gone forever" },
-      { type: 'fill', question: "Carbon ___ is the total emissions caused by a person. (след)", correctAnswer: "footprint", hint: "Your environmental impact" }
+      { type: 'quiz', question: "What causes global warming?", options: ["Greenhouse gases", "Recycling", "Wind energy", "Solar panels", "Другой ответ"], correctAnswer: "Greenhouse gases", hint: "Carbon dioxide, methane" },
+      { type: 'quiz', question: "Endangered species are animals at risk of extinction. (исчезающие)", options: ["Endangered", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Endangered", hint: "In danger" },
+      { type: 'quiz', question: "'Deforestation' means:", options: ["Cutting down forests", "Planting trees", "Forest protection", "Forest fire", "Другой ответ"], correctAnswer: "Cutting down forests", hint: "Removing trees" },
+      { type: 'quiz', question: "Pollution causes health problems. (проблемы)", options: ["problems", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "problems", hint: "Negative effects" },
+      { type: 'quiz', question: "What is 'biodiversity'?", options: ["Variety of life forms", "Type of pollution", "Renewable energy", "Climate change", "Другой ответ"], correctAnswer: "Variety of life forms", hint: "Many different species" },
+      { type: 'quiz', question: "Habitat loss is when animals lose their homes. (потеря)", options: ["loss", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "loss", hint: "Destruction of natural homes" },
+      { type: 'quiz', question: "'Extinction' means:", options: ["Complete disappearance of a species", "Moving to a new place", "Growing population", "Changing habitat", "Другой ответ"], correctAnswer: "Complete disappearance of a species", hint: "Gone forever" },
+      { type: 'quiz', question: "Carbon footprint is the total emissions caused by a person. (след)", options: ["footprint", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "footprint", hint: "Your environmental impact" }
     ],
     reward: { stars: 3, message: "Ты понимаешь экологические проблемы!" }
   },
@@ -1070,14 +1070,14 @@ export const games: GameLesson[] = [
     icon: "Recycle",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "We need to ___ plastic waste. (перерабатывать)", correctAnswer: "recycle", hint: "Process for reuse" },
-      { type: 'quiz', question: "What are the 3 R's?", options: ["Reduce, Reuse, Recycle", "Read, Write, Learn", "Run, Walk, Jump", "Red, Green, Blue"], correctAnswer: "Reduce, Reuse, Recycle", hint: "Environmental principles" },
-      { type: 'fill', question: "___ energy comes from sun and wind. (возобновляемая)", correctAnswer: "Renewable", hint: "Can be replenished" },
-      { type: 'quiz', question: "'Eco-friendly' means:", options: ["Good for the environment", "Expensive", "New product", "Popular"], correctAnswer: "Good for the environment", hint: "Environmentally safe" },
-      { type: 'fill', question: "We should ___ water and electricity. (экономить)", correctAnswer: "save", hint: "Use less" },
-      { type: 'quiz', question: "What is 'sustainable development'?", options: ["Development that meets present needs without harming future", "Fast economic growth", "Industrial expansion", "Population increase"], correctAnswer: "Development that meets present needs without harming future", hint: "Long-term thinking" },
-      { type: 'fill', question: "Solar panels convert sunlight into ___. (энергию)", correctAnswer: "energy", hint: "Power from the sun" },
-      { type: 'quiz', question: "'Conservation' means:", options: ["Protection and preservation", "Destruction", "Pollution", "Consumption"], correctAnswer: "Protection and preservation", hint: "Saving natural resources" }
+      { type: 'quiz', question: "We need to recycle plastic waste. (перерабатывать)", options: ["recycle", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "recycle", hint: "Process for reuse" },
+      { type: 'quiz', question: "What are the 3 R's?", options: ["Reduce, Reuse, Recycle", "Read, Write, Learn", "Run, Walk, Jump", "Red, Green, Blue", "Другой ответ"], correctAnswer: "Reduce, Reuse, Recycle", hint: "Environmental principles" },
+      { type: 'quiz', question: "Renewable energy comes from sun and wind. (возобновляемая)", options: ["Renewable", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Renewable", hint: "Can be replenished" },
+      { type: 'quiz', question: "'Eco-friendly' means:", options: ["Good for the environment", "Expensive", "New product", "Popular", "Другой ответ"], correctAnswer: "Good for the environment", hint: "Environmentally safe" },
+      { type: 'quiz', question: "We should save water and electricity. (экономить)", options: ["save", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "save", hint: "Use less" },
+      { type: 'quiz', question: "What is 'sustainable development'?", options: ["Development that meets present needs without harming future", "Fast economic growth", "Industrial expansion", "Population increase", "Другой ответ"], correctAnswer: "Development that meets present needs without harming future", hint: "Long-term thinking" },
+      { type: 'quiz', question: "Solar panels convert sunlight into energy. (энергию)", options: ["energy", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "energy", hint: "Power from the sun" },
+      { type: 'quiz', question: "'Conservation' means:", options: ["Protection and preservation", "Destruction", "Pollution", "Consumption", "Другой ответ"], correctAnswer: "Protection and preservation", hint: "Saving natural resources" }
     ],
     reward: { stars: 3, message: "Ты знаешь, как защитить природу!" }
   },
@@ -1087,14 +1087,14 @@ export const games: GameLesson[] = [
     icon: "Newspaper",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "A ___ is a daily or weekly publication. (газета)", correctAnswer: "newspaper", hint: "Print media" },
-      { type: 'quiz', question: "What is a 'headline'?", options: ["Article title", "First paragraph", "Last paragraph", "Picture"], correctAnswer: "Article title", hint: "Main title" },
-      { type: 'fill', question: "A ___ writes articles for media. (журналист)", correctAnswer: "journalist", hint: "Media professional" },
-      { type: 'quiz', question: "'Broadcast' means:", options: ["Transmit on TV/radio", "Print", "Write", "Read"], correctAnswer: "Transmit on TV/radio", hint: "Air transmission" },
-      { type: 'fill', question: "The editor ___ the articles before publication. (редактирует)", correctAnswer: "edits", hint: "Makes corrections" },
-      { type: 'quiz', question: "What does a 'correspondent' do?", options: ["Reports from a specific location", "Edits articles", "Prints newspapers", "Manages the company"], correctAnswer: "Reports from a specific location", hint: "Field reporter" },
-      { type: 'fill', question: "Media ___ is how news events are reported. (освещение)", correctAnswer: "coverage", hint: "Reporting of events" },
-      { type: 'quiz', question: "A 'magazine' is:", options: ["A periodic publication with articles and photos", "A daily newspaper", "A radio program", "A TV show"], correctAnswer: "A periodic publication with articles and photos", hint: "Weekly or monthly" }
+      { type: 'quiz', question: "A newspaper is a daily or weekly publication. (газета)", options: ["newspaper", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "newspaper", hint: "Print media" },
+      { type: 'quiz', question: "What is a 'headline'?", options: ["Article title", "First paragraph", "Last paragraph", "Picture", "Другой ответ"], correctAnswer: "Article title", hint: "Main title" },
+      { type: 'quiz', question: "A journalist writes articles for media. (журналист)", options: ["journalist", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "journalist", hint: "Media professional" },
+      { type: 'quiz', question: "'Broadcast' means:", options: ["Transmit on TV/radio", "Print", "Write", "Read", "Другой ответ"], correctAnswer: "Transmit on TV/radio", hint: "Air transmission" },
+      { type: 'quiz', question: "The editor edits the articles before publication. (редактирует)", options: ["edits", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "edits", hint: "Makes corrections" },
+      { type: 'quiz', question: "What does a 'correspondent' do?", options: ["Reports from a specific location", "Edits articles", "Prints newspapers", "Manages the company", "Другой ответ"], correctAnswer: "Reports from a specific location", hint: "Field reporter" },
+      { type: 'quiz', question: "Media coverage is how news events are reported. (освещение)", options: ["coverage", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "coverage", hint: "Reporting of events" },
+      { type: 'quiz', question: "A 'magazine' is:", options: ["A periodic publication with articles and photos", "A daily newspaper", "A radio program", "A TV show", "Другой ответ"], correctAnswer: "A periodic publication with articles and photos", hint: "Weekly or monthly" }
     ],
     reward: { stars: 3, message: "Ты разбираешься в типах СМИ!" }
   },
@@ -1104,14 +1104,14 @@ export const games: GameLesson[] = [
     icon: "Share2",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "Viral content spreads ___ online. (быстро)", correctAnswer: "quickly", hint: "Becomes popular" },
-      { type: 'quiz', question: "What is 'cyberbullying'?", options: ["Online harassment", "Computer virus", "Video game", "Social platform"], correctAnswer: "Online harassment", hint: "Digital bullying" },
-      { type: 'fill', question: "Don't share personal ___ online. (информация)", correctAnswer: "information", hint: "Private data" },
-      { type: 'quiz', question: "A 'follower' is:", options: ["Someone who subscribes to your content", "A friend", "Family member", "Coworker"], correctAnswer: "Someone who subscribes to your content", hint: "Social media connection" },
-      { type: 'fill', question: "An ___ has many followers on social media. (инфлюенсер)", correctAnswer: "influencer", hint: "Popular content creator" },
-      { type: 'quiz', question: "'Fake news' means:", options: ["False information presented as news", "Real news", "Old news", "Sports news"], correctAnswer: "False information presented as news", hint: "Misinformation" },
-      { type: 'fill', question: "Privacy ___ control who can see your posts. (настройки)", correctAnswer: "settings", hint: "Security options" },
-      { type: 'quiz', question: "What is a 'hashtag'?", options: ["A label with # symbol", "A photo", "A video", "A message"], correctAnswer: "A label with # symbol", hint: "Categorizes content" }
+      { type: 'quiz', question: "Viral content spreads quickly online. (быстро)", options: ["quickly", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "quickly", hint: "Becomes popular" },
+      { type: 'quiz', question: "What is 'cyberbullying'?", options: ["Online harassment", "Computer virus", "Video game", "Social platform", "Другой ответ"], correctAnswer: "Online harassment", hint: "Digital bullying" },
+      { type: 'quiz', question: "Don't share personal information online. (информация)", options: ["information", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "information", hint: "Private data" },
+      { type: 'quiz', question: "A 'follower' is:", options: ["Someone who subscribes to your content", "A friend", "Family member", "Coworker", "Другой ответ"], correctAnswer: "Someone who subscribes to your content", hint: "Social media connection" },
+      { type: 'quiz', question: "An influencer has many followers on social media. (инфлюенсер)", options: ["influencer", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "influencer", hint: "Popular content creator" },
+      { type: 'quiz', question: "'Fake news' means:", options: ["False information presented as news", "Real news", "Old news", "Sports news", "Другой ответ"], correctAnswer: "False information presented as news", hint: "Misinformation" },
+      { type: 'quiz', question: "Privacy settings control who can see your posts. (настройки)", options: ["settings", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "settings", hint: "Security options" },
+      { type: 'quiz', question: "What is a 'hashtag'?", options: ["A label with # symbol", "A photo", "A video", "A message", "Другой ответ"], correctAnswer: "A label with # symbol", hint: "Categorizes content" }
     ],
     reward: { stars: 3, message: "Ты безопасно используешь соцсети!" }
   },
@@ -1121,14 +1121,14 @@ export const games: GameLesson[] = [
     icon: "Cpu",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "AI stands for Artificial ___ . (интеллект)", correctAnswer: "Intelligence", hint: "Smart machines" },
-      { type: 'quiz', question: "What is 'virtual reality'?", options: ["Computer-generated environment", "Real world", "Dream", "Movie"], correctAnswer: "Computer-generated environment", hint: "VR technology" },
-      { type: 'fill', question: "___ cars drive without a driver. (автопилотируемые)", correctAnswer: "Self-driving", hint: "Or autonomous" },
-      { type: 'quiz', question: "'Automation' means:", options: ["Machines doing work automatically", "Manual labor", "Working slowly", "No work"], correctAnswer: "Machines doing work automatically", hint: "Automatic processes" },
-      { type: 'fill', question: "Machine ___ allows computers to learn from data. (обучение)", correctAnswer: "learning", hint: "AI technology" },
-      { type: 'quiz', question: "What is 'blockchain'?", options: ["A digital ledger technology", "A type of robot", "A video game", "A social network"], correctAnswer: "A digital ledger technology", hint: "Secure record system" },
-      { type: 'fill', question: "Smart ___ have automated systems for lighting and temperature. (дома)", correctAnswer: "homes", hint: "Connected living spaces" },
-      { type: 'quiz', question: "'Innovation' means:", options: ["A new idea or method", "Old technology", "Traditional way", "Problem"], correctAnswer: "A new idea or method", hint: "Creative solution" }
+      { type: 'quiz', question: "AI stands for Artificial Intelligence . (интеллект)", options: ["Intelligence", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Intelligence", hint: "Smart machines" },
+      { type: 'quiz', question: "What is 'virtual reality'?", options: ["Computer-generated environment", "Real world", "Dream", "Movie", "Другой ответ"], correctAnswer: "Computer-generated environment", hint: "VR technology" },
+      { type: 'quiz', question: "Self-driving cars drive without a driver. (автопилотируемые)", options: ["Self-driving", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Self-driving", hint: "Or autonomous" },
+      { type: 'quiz', question: "'Automation' means:", options: ["Machines doing work automatically", "Manual labor", "Working slowly", "No work", "Другой ответ"], correctAnswer: "Machines doing work automatically", hint: "Automatic processes" },
+      { type: 'quiz', question: "Machine learning allows computers to learn from data. (обучение)", options: ["learning", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "learning", hint: "AI technology" },
+      { type: 'quiz', question: "What is 'blockchain'?", options: ["A digital ledger technology", "A type of robot", "A video game", "A social network", "Другой ответ"], correctAnswer: "A digital ledger technology", hint: "Secure record system" },
+      { type: 'quiz', question: "Smart homes have automated systems for lighting and temperature. (дома)", options: ["homes", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "homes", hint: "Connected living spaces" },
+      { type: 'quiz', question: "'Innovation' means:", options: ["A new idea or method", "Old technology", "Traditional way", "Problem", "Другой ответ"], correctAnswer: "A new idea or method", hint: "Creative solution" }
     ],
     reward: { stars: 3, message: "Ты понимаешь технологии будущего!" }
   },
@@ -1138,14 +1138,14 @@ export const games: GameLesson[] = [
     icon: "Shield",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "Use strong ___ to protect accounts. (пароли)", correctAnswer: "passwords", hint: "Security codes" },
-      { type: 'quiz', question: "What is 'phishing'?", options: ["Fake emails to steal data", "Fishing hobby", "Computer game", "Website design"], correctAnswer: "Fake emails to steal data", hint: "Online scam" },
-      { type: 'fill', question: "Create a ___ of important files. (резервную копию)", correctAnswer: "backup", hint: "Extra copy" },
-      { type: 'quiz', question: "'Encryption' means:", options: ["Coding data for security", "Deleting files", "Opening files", "Sharing files"], correctAnswer: "Coding data for security", hint: "Data protection" },
-      { type: 'fill', question: "___ is software that harms your computer. (вредоносное ПО)", correctAnswer: "Malware", hint: "Viruses and trojans" },
-      { type: 'quiz', question: "What is 'two-factor authentication'?", options: ["Extra security layer for login", "Two passwords", "Two computers", "Two users"], correctAnswer: "Extra security layer for login", hint: "Additional verification" },
-      { type: 'fill', question: "Your digital ___ is all the information about you online. (след)", correctAnswer: "footprint", hint: "Online presence" },
-      { type: 'quiz', question: "A 'firewall' is:", options: ["Security system for networks", "A type of virus", "A website", "An email"], correctAnswer: "Security system for networks", hint: "Network protection" }
+      { type: 'quiz', question: "Use strong passwords to protect accounts. (пароли)", options: ["passwords", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "passwords", hint: "Security codes" },
+      { type: 'quiz', question: "What is 'phishing'?", options: ["Fake emails to steal data", "Fishing hobby", "Computer game", "Website design", "Другой ответ"], correctAnswer: "Fake emails to steal data", hint: "Online scam" },
+      { type: 'quiz', question: "Create a backup of important files. (резервную копию)", options: ["backup", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "backup", hint: "Extra copy" },
+      { type: 'quiz', question: "'Encryption' means:", options: ["Coding data for security", "Deleting files", "Opening files", "Sharing files", "Другой ответ"], correctAnswer: "Coding data for security", hint: "Data protection" },
+      { type: 'quiz', question: "Malware is software that harms your computer. (вредоносное ПО)", options: ["Malware", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Malware", hint: "Viruses and trojans" },
+      { type: 'quiz', question: "What is 'two-factor authentication'?", options: ["Extra security layer for login", "Two passwords", "Two computers", "Two users", "Другой ответ"], correctAnswer: "Extra security layer for login", hint: "Additional verification" },
+      { type: 'quiz', question: "Your digital footprint is all the information about you online. (след)", options: ["footprint", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "footprint", hint: "Online presence" },
+      { type: 'quiz', question: "A 'firewall' is:", options: ["Security system for networks", "A type of virus", "A website", "An email", "Другой ответ"], correctAnswer: "Security system for networks", hint: "Network protection" }
     ],
     reward: { stars: 3, message: "Ты цифровой грамотный пользователь!" }
   }

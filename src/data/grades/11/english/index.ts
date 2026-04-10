@@ -127,7 +127,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "If I had studied, I ____ have a degree now.", options: ["would", "will", "would have"], correctAnswer: "would", hint: "Mixed: условие в прошлом, результат сейчас" },
       { type: 'quiz', question: "Had I known = ?", options: ["If I had known", "If I knew", "If I have known"], correctAnswer: "If I had known", hint: "Инверсия в условном предложении" },
-      { type: 'fill', question: "If I were you, I ____ have accepted. (III+II)", correctAnswer: "would", hint: "would have + V3" },
+      { type: 'quiz', question: "If I were you, I ____ have accepted. (III+II)", options: ["would", "will", "should", "could", "might"], correctAnswer: "would", hint: "would have + V3" },
       { type: 'quiz', question: "Were I rich... — это:", options: ["Past Simple", "Инверсия (без if)", "Present Simple"], correctAnswer: "Инверсия (без if)", hint: "Were I = If I were" }
     ],
     reward: { stars: 3, message: "Excellent! You know Mixed Conditionals! 🎓" }
@@ -140,7 +140,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Never ____ I seen such beauty.", options: ["have", "has", "did"], correctAnswer: "have", hint: "Never have I seen..." },
       { type: 'quiz', question: "Only then ____ she understand.", options: ["did", "does", "has"], correctAnswer: "did", hint: "Only then did she understand." },
-      { type: 'fill', question: "____ had I arrived than it started to rain. (No sooner)", correctAnswer: "No sooner", hint: "No sooner had... than..." },
+      { type: 'quiz', question: "____ had I arrived than it started to rain. (No sooner)", options: ["No sooner", "Hardly", "Scarcely", "Seldom", "Never"], correctAnswer: "No sooner", hint: "No sooner had... than..." },
       { type: 'quiz', question: "She likes coffee. So __ I.", options: ["do", "am", "like"], correctAnswer: "do", hint: "So do I = Я тоже" }
     ],
     reward: { stars: 3, message: "Great! You know Inversion! 📚" }
@@ -153,7 +153,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "I suggest that he ____ more careful. (subjunctive)", options: ["be", "is", "was"], correctAnswer: "be", hint: "Present Subjunctive — базовая форма" },
       { type: 'quiz', question: "I wish I ____ rich. (сожаление о настоящем)", options: ["am", "were", "be"], correctAnswer: "were", hint: "Past Subjunctive — were для всех лиц" },
-      { type: 'fill', question: "I wish I ____ known the truth. (сожаление о прошлом)", correctAnswer: "had", hint: "wish + Past Perfect" },
+      { type: 'quiz', question: "I wish I ____ known the truth. (сожаление о прошлом)", options: ["had", "have", "would have", "could have", "should have"], correctAnswer: "had", hint: "wish + Past Perfect" },
       { type: 'quiz', question: "You ____ better study. (совет)", options: ["had", "would", "should"], correctAnswer: "had", hint: "Had better = тебе лучше" }
     ],
     reward: { stars: 3, message: "Perfect! You know Subjunctive Mood! ✨" }
@@ -166,7 +166,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "It was John ____ broke the window. (cleft sentence)", options: ["who", "which", "what"], correctAnswer: "who", hint: "It was... who... = Именно..." },
       { type: 'quiz', question: "____ down the street, I met an old friend.", options: ["Walking", "Walked", "Walk"], correctAnswer: "Walking", hint: "Present Participle = активное действие" },
-      { type: 'fill', question: "What I need ____ a cup of coffee.", correctAnswer: "is", hint: "Wh-cleft: What... is..." },
+      { type: 'quiz', question: "What I need ____ a cup of coffee.", options: ["is", "are", "was", "were", "be"], correctAnswer: "is", hint: "Wh-cleft: What... is..." },
       { type: 'quiz', question: "He is ____ young to drive.", options: ["too", "so", "very"], correctAnswer: "too", hint: "Too... to = слишком... чтобы" }
     ],
     reward: { stars: 3, message: "Excellent! You know Complex Structures! 🏗️" }
@@ -179,7 +179,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Анализировать данные — ____ the data.", options: ["analyse", "make", "do"], correctAnswer: "analyse", hint: "Analyse = анализировать" },
       { type: 'quiz', question: "Ключевой фактор — a key ____.", options: ["issue", "factor", "aspect"], correctAnswer: "factor", hint: "Factor = фактор" },
-      { type: 'fill', question: "Furthermore, Moreover, ____ = кроме того", correctAnswer: "In addition", hint: "In addition = дополнительно" },
+      { type: 'quiz', question: "Furthermore, Moreover, ____ = кроме того", options: ["In addition", "Additionally", "Besides", "Also", "Plus"], correctAnswer: "In addition", hint: "In addition = дополнительно" },
       { type: 'quiz', question: "В заключение — In ____.", options: ["end", "conclusion", "finish"], correctAnswer: "conclusion", hint: "In conclusion" }
     ],
     reward: { stars: 3, message: "Super! You know Academic Vocabulary! ✍️" }
@@ -192,7 +192,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Главная мысль эссе — ____ statement.", options: ["thesis", "topic", "main"], correctAnswer: "thesis", hint: "Thesis statement = тезис" },
       { type: 'quiz', question: "Первое предложение абзаца — ____ sentence.", options: ["topic", "main", "first"], correctAnswer: "topic", hint: "Topic sentence = тематическое предложение" },
-      { type: 'fill', question: "This essay will ____ the causes of climate change.", correctAnswer: "examine", hint: "examine = рассматривать" },
+      { type: 'quiz', question: "This essay will ____ the causes of climate change.", options: ["examine", "examination", "examining", "examines", "examined"], correctAnswer: "examine", hint: "examine = рассматривать" },
       { type: 'quiz', question: "Заключение эссе должно:", options: ["Вводить новые идеи", "Обобщать основные пункты", "Быть самым длинным"], correctAnswer: "Обобщать основные пункты", hint: "Заключение = summary" }
     ],
     reward: { stars: 3, message: "Great! You know Essay Writing! 📝" }
@@ -205,7 +205,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "My primary ____ is that... (аргумент)", options: ["argument", "point", "idea"], correctAnswer: "argument", hint: "Argument = аргумент" },
       { type: 'quiz', question: "Атака на личность — логическая ошибка:", options: ["Straw Man", "Ad Hominem", "False Dichotomy"], correctAnswer: "Ad Hominem", hint: "Ad Hominem = к человеку" },
-      { type: 'fill', question: "I see your point, ____ I must disagree.", correctAnswer: "but", hint: "I see your point, but..." },
+      { type: 'quiz', question: "I see your point, ____ I must disagree.", options: ["but", "and", "so", "or", "yet"], correctAnswer: "but", hint: "I see your point, but..." },
       { type: 'quiz', question: "«Или ты с нами, или против нас» — это:", options: ["Straw Man", "False Dichotomy", "Slippery Slope"], correctAnswer: "False Dichotomy", hint: "Ложная дилемма" }
     ],
     reward: { stars: 3, message: "Excellent! You know Debating Skills! 🎤" }
@@ -218,7 +218,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Dear Mr. Smith, ... Yours ____.", options: ["faithfully", "sincerely", "truly"], correctAnswer: "sincerely", hint: "Yours sincerely — когда знаете имя" },
       { type: 'quiz', question: "Я пишу, чтобы узнать о... — I am writing to ____ about...", options: ["inquire", "ask", "know"], correctAnswer: "inquire", hint: "Inquire = узнавать, справляться" },
-      { type: 'fill', question: "Please find ____ my CV. (во вложении)", correctAnswer: "attached", hint: "Please find attached..." },
+      { type: 'quiz', question: "Please find ____ my CV. (во вложении)", options: ["attached", "attach", "attachment", "attaching", "attaches"], correctAnswer: "attached", hint: "Please find attached..." },
       { type: 'quiz', question: "I look forward ____ from you.", options: ["hear", "to hear", "to hearing"], correctAnswer: "to hearing", hint: "look forward to + -ing" }
     ],
     reward: { stars: 3, message: "Excellent! You know Business English! 💼" }
@@ -231,7 +231,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Tell me about ____. (о себе)", options: ["you", "yourself", "yours"], correctAnswer: "yourself", hint: "Tell me about yourself" },
       { type: 'quiz', question: "What are your ____? (сильные стороны)", options: ["strengths", "powers", "forces"], correctAnswer: "strengths", hint: "Strengths = сильные стороны" },
-      { type: 'fill', question: "Why should we ____ you?", correctAnswer: "hire", hint: "hire = нанять" },
+      { type: 'quiz', question: "Why should we ____ you?", options: ["hire", "hired", "hiring", "hires", "fire"], correctAnswer: "hire", hint: "hire = нанять" },
       { type: 'quiz', question: "Спасибо за интервью — Thank you email отправить:", options: ["В тот же день", "В течение 24 часов", "Через неделю"], correctAnswer: "В течение 24 часов", hint: "Thank you email — в течение 24 часов" }
     ],
     reward: { stars: 3, message: "Perfect! You're ready for Job Interview! 💪" }
@@ -244,7 +244,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Today I'm going to ____ about...", options: ["talk", "speak", "tell"], correctAnswer: "talk", hint: "talk about = говорить о" },
       { type: 'quiz', question: "Какой процент времени — введение?", options: ["5%", "10-15%", "30%"], correctAnswer: "10-15%", hint: "Introduction = 10-15%" },
-      { type: 'fill', question: "To ____ up, we've looked at three main points.", correctAnswer: "sum", hint: "To sum up = подводя итог" },
+      { type: 'quiz', question: "To ____ up, we've looked at three main points.", options: ["sum", "add", "total", "count", "wrap"], correctAnswer: "sum", hint: "To sum up = подводя итог" },
       { type: 'quiz', question: "I'd be happy to ____ any questions.", options: ["answer", "reply", "respond"], correctAnswer: "answer", hint: "answer questions = отвечать на вопросы" }
     ],
     reward: { stars: 3, message: "Excellent! You know Presentation Skills! 🎯" }

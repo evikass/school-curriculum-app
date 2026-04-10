@@ -1550,11 +1550,11 @@ export const games: GameLesson[] = [
     icon: "Activity",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: 'Какая сложность означает константное время?', options: ['O(1)', 'O(n)', 'O(n²)', 'O(log n)'], correctAnswer: 'O(1)', hint: 'Не зависит от размера данных' },
-      { type: 'fill', question: 'Линейная сложность обозначается как O(___).', correctAnswer: 'n', hint: 'Время растёт пропорционально данным' },
-      { type: 'quiz', question: 'Какая сложность у пузырьковой сортировки?', options: ['O(n²)', 'O(n)', 'O(log n)', 'O(1)'], correctAnswer: 'O(n²)', hint: 'Два вложенных цикла' },
-      { type: 'fill', question: 'Сложность O(log n) — ___ сложность.', correctAnswer: 'логарифмическая', hint: 'Бинарный поиск' },
-      { type: 'quiz', question: 'O(n log n) — сложность:', options: ['Быстрой сортировки', 'Пузырьковой', 'Линейного поиска', 'Константная'], correctAnswer: 'Быстрой сортировки', hint: 'Эффективный алгоритм' }
+      { type: 'quiz', question: 'Какая сложность означает константное время?', options: ['O(1)', 'O(n)', 'O(n²)', 'O(log n)', 'Другой ответ'], correctAnswer: 'O(1)', hint: 'Не зависит от размера данных' },
+      { type: 'quiz', question: 'Линейная сложность обозначается как O(___).', options: ['n', 'log n', 'n²', '1', '2n', 'n log n'], correctAnswer: 'n', hint: 'Время растёт пропорционально данным' },
+      { type: 'quiz', question: 'Какая сложность у пузырьковой сортировки?', options: ['O(n²)', 'O(n)', 'O(log n)', 'O(1)', 'Другой ответ'], correctAnswer: 'O(n²)', hint: 'Два вложенных цикла' },
+      { type: 'quiz', question: 'Сложность O(log n) — ___ сложность.', options: ['логарифмическая', 'линейная', 'квадратичная', 'константная', 'экспоненциальная', 'факториальная'], correctAnswer: 'логарифмическая', hint: 'Бинарный поиск' },
+      { type: 'quiz', question: 'O(n log n) — сложность:', options: ['Быстрой сортировки', 'Пузырьковой', 'Линейного поиска', 'Константная', 'Другой ответ'], correctAnswer: 'Быстрой сортировки', hint: 'Эффективный алгоритм' }
     ],
     reward: { stars: 3, message: "Ты понимаешь сложность алгоритмов! 📊" }
   },
@@ -1564,11 +1564,11 @@ export const games: GameLesson[] = [
     icon: "ArrowUpDown",
     color: "text-blue-400",
     tasks: [
-      { type: 'fill', question: 'Упорядочивание элементов — это ___ .', correctAnswer: 'сортировка', hint: 'Расстановка по порядку' },
-      { type: 'quiz', question: 'Какой алгоритм сортировки самый простой?', options: ['Пузырьковый', 'Быстрый', 'Слиянием', 'Пирамидальный'], correctAnswer: 'Пузырьковый', hint: 'Но медленный O(n²)' },
-      { type: 'fill', question: 'Быстрая сортировка работает за O(n log ___).', correctAnswer: 'n', hint: 'В среднем случае' },
-      { type: 'quiz', question: 'Сортировка выбором:', options: ['Находит минимум и ставит в начало', 'Меняет соседние элементы', 'Делит массив пополам', 'Использует пирамиду'], correctAnswer: 'Находит минимум и ставит в начало', hint: 'Постепенно заполняем начало' },
-      { type: 'fill', question: 'Сортировка слиянием — ___ алгоритм.', correctAnswer: 'стабильный', hint: 'Сохраняет порядок равных' }
+      { type: 'quiz', question: 'Упорядочивание элементов — это ___ .', options: ['сортировка', 'фильтрация', 'поиск', 'удаление', 'копирование', 'сравнение'], correctAnswer: 'сортировка', hint: 'Расстановка по порядку' },
+      { type: 'quiz', question: 'Какой алгоритм сортировки самый простой?', options: ['Пузырьковый', 'Быстрый', 'Слиянием', 'Пирамидальный', 'Другой ответ'], correctAnswer: 'Пузырьковый', hint: 'Но медленный O(n²)' },
+      { type: 'quiz', question: 'Быстрая сортировка работает за O(n log ___).', options: ['n', 'n²', '1', 'log n', 'm', 'k'], correctAnswer: 'n', hint: 'В среднем случае' },
+      { type: 'quiz', question: 'Сортировка выбором:', options: ['Находит минимум и ставит в начало', 'Меняет соседние элементы', 'Делит массив пополам', 'Использует пирамиду', 'Другой ответ'], correctAnswer: 'Находит минимум и ставит в начало', hint: 'Постепенно заполняем начало' },
+      { type: 'quiz', question: 'Сортировка слиянием — ___ алгоритм.', options: ['стабильный', 'нестабильный', 'простой', 'медленный', 'линейный', 'неэффективный'], correctAnswer: 'стабильный', hint: 'Сохраняет порядок равных' }
     ],
     reward: { stars: 3, message: "Ты понимаешь сортировку! 🔄" }
   },
@@ -1578,11 +1578,11 @@ export const games: GameLesson[] = [
     icon: "Layers",
     color: "text-purple-400",
     tasks: [
-      { type: 'fill', question: 'LIFO расшифровывается как Last In, First ___ .', correctAnswer: 'Out', hint: 'Последний пришёл — первый вышел' },
-      { type: 'quiz', question: 'Стек работает по принципу:', options: ['LIFO', 'FIFO', 'LILO', 'FILO'], correctAnswer: 'LIFO', hint: 'Стек блюд' },
-      { type: 'fill', question: 'Операция добавления в стек — ___ .', correctAnswer: 'push', hint: 'Поместить наверх' },
-      { type: 'quiz', question: 'Очередь работает по принципу:', options: ['FIFO', 'LIFO', 'LILO', 'FILO'], correctAnswer: 'FIFO', hint: 'Очередь в магазине' },
-      { type: 'fill', question: 'Операция удаления из очереди — ___ .', correctAnswer: 'dequeue', hint: 'Убрать из начала' }
+      { type: 'quiz', question: 'LIFO расшифровывается как Last In, First ___ .', options: ['Out', 'In', 'Over', 'On', 'Off', 'Open'], correctAnswer: 'Out', hint: 'Последний пришёл — первый вышел' },
+      { type: 'quiz', question: 'Стек работает по принципу:', options: ['LIFO', 'FIFO', 'LILO', 'FILO', 'Другой ответ'], correctAnswer: 'LIFO', hint: 'Стек блюд' },
+      { type: 'quiz', question: 'Операция добавления в стек — ___ .', options: ['push', 'pop', 'peek', 'pull', 'add', 'insert'], correctAnswer: 'push', hint: 'Поместить наверх' },
+      { type: 'quiz', question: 'Очередь работает по принципу:', options: ['FIFO', 'LIFO', 'LILO', 'FILO', 'Другой ответ'], correctAnswer: 'FIFO', hint: 'Очередь в магазине' },
+      { type: 'quiz', question: 'Операция удаления из очереди — ___ .', options: ['dequeue', 'enqueue', 'push', 'pop', 'remove', 'delete'], correctAnswer: 'dequeue', hint: 'Убрать из начала' }
     ],
     reward: { stars: 3, message: "Ты понимаешь стек и очередь! 📚" }
   },
@@ -1592,11 +1592,11 @@ export const games: GameLesson[] = [
     icon: "GitBranch",
     color: "text-green-400",
     tasks: [
-      { type: 'fill', question: 'Дерево — ___ структура с корнем и узлами.', correctAnswer: 'иерархическая', hint: 'Один корень, много ветвей' },
-      { type: 'quiz', question: 'Бинарное дерево имеет не более:', options: ['Двух детей у узла', 'Одного ребёнка', 'Трёх детей', 'Любое количество'], correctAnswer: 'Двух детей у узла', hint: 'Бинарное = двоичное' },
-      { type: 'fill', question: 'Граф — набор вершин и ___ .', correctAnswer: 'рёбер', hint: 'Связи между вершинами' },
-      { type: 'quiz', question: 'BFS — это поиск:', options: ['В ширину', 'В глубину', 'Бинарный', 'Линейный'], correctAnswer: 'В ширину', hint: 'Breadth-First Search' },
-      { type: 'fill', question: 'DFS — поиск в ___ .', correctAnswer: 'глубину', hint: 'Deep-First Search' }
+      { type: 'quiz', question: 'Дерево — ___ структура с корнем и узлами.', options: ['иерархическая', 'линейная', 'плоская', 'циклическая', 'сетевая', 'табличная'], correctAnswer: 'иерархическая', hint: 'Один корень, много ветвей' },
+      { type: 'quiz', question: 'Бинарное дерево имеет не более:', options: ['Двух детей у узла', 'Одного ребёнка', 'Трёх детей', 'Любое количество', 'Другой ответ'], correctAnswer: 'Двух детей у узла', hint: 'Бинарное = двоичное' },
+      { type: 'quiz', question: 'Граф — набор вершин и ___ .', options: ['рёбер', 'узлов', 'листьев', 'корней', 'путей', 'циклов'], correctAnswer: 'рёбер', hint: 'Связи между вершинами' },
+      { type: 'quiz', question: 'BFS — это поиск:', options: ['В ширину', 'В глубину', 'Бинарный', 'Линейный', 'Другой ответ'], correctAnswer: 'В ширину', hint: 'Breadth-First Search' },
+      { type: 'quiz', question: 'DFS — поиск в ___ .', options: ['глубину', 'ширину', 'высоту', 'длину', 'объём', 'площадь'], correctAnswer: 'глубину', hint: 'Deep-First Search' }
     ],
     reward: { stars: 3, message: "Ты понимаешь деревья и графы! 🌳" }
   },
@@ -1606,11 +1606,11 @@ export const games: GameLesson[] = [
     icon: "Box",
     color: "text-emerald-400",
     tasks: [
-      { type: 'fill', question: 'Класс — это ___ для создания объектов.', correctAnswer: 'шаблон', hint: 'Чертёж' },
-      { type: 'quiz', question: 'Объект — это:', options: ['Экземпляр класса', 'Шаблон класса', 'Метод класса', 'Атрибут класса'], correctAnswer: 'Экземпляр класса', hint: 'Конкретный представитель' },
-      { type: 'fill', question: '___ в Python ссылается на текущий объект.', correctAnswer: 'self', hint: 'Ключевое слово' },
-      { type: 'quiz', question: 'Конструктор — это метод:', options: ['Для создания объекта', 'Для удаления объекта', 'Для копирования', 'Для сравнения'], correctAnswer: 'Для создания объекта', hint: '__init__ в Python' },
-      { type: 'fill', question: 'Атрибуты — это ___ класса.', correctAnswer: 'свойства', hint: 'Данные объекта' }
+      { type: 'quiz', question: 'Класс — это ___ для создания объектов.', options: ['шаблон', 'объект', 'метод', 'функция', 'переменная', 'тип'], correctAnswer: 'шаблон', hint: 'Чертёж' },
+      { type: 'quiz', question: 'Объект — это:', options: ['Экземпляр класса', 'Шаблон класса', 'Метод класса', 'Атрибут класса', 'Другой ответ'], correctAnswer: 'Экземпляр класса', hint: 'Конкретный представитель' },
+      { type: 'quiz', question: '___ в Python ссылается на текущий объект.', options: ['self', 'this', 'me', 'obj', 'current', 'instance'], correctAnswer: 'self', hint: 'Ключевое слово' },
+      { type: 'quiz', question: 'Конструктор — это метод:', options: ['Для создания объекта', 'Для удаления объекта', 'Для копирования', 'Для сравнения', 'Другой ответ'], correctAnswer: 'Для создания объекта', hint: '__init__ в Python' },
+      { type: 'quiz', question: 'Атрибуты — это ___ класса.', options: ['свойства', 'методы', 'функции', 'объекты', 'переменные', 'константы'], correctAnswer: 'свойства', hint: 'Данные объекта' }
     ],
     reward: { stars: 3, message: "Ты понимаешь классы и объекты! 📦" }
   },
@@ -1620,11 +1620,11 @@ export const games: GameLesson[] = [
     icon: "Lock",
     color: "text-red-400",
     tasks: [
-      { type: 'fill', question: 'Инкапсуляция — ___ внутренней реализации.', correctAnswer: 'скрытие', hint: 'Защита данных' },
-      { type: 'quiz', question: 'Приватные атрибуты в Python начинаются с:', options: ['_', '__', '@', '#'], correctAnswer: '_', hint: 'Одно или два подчёркивания' },
-      { type: 'fill', question: '___ контролируют доступ к атрибутам.', correctAnswer: 'свойства', hint: 'property в Python' },
-      { type: 'quiz', question: 'Публичные атрибуты:', options: ['Доступны извне', 'Скрыты', 'Только для чтения', 'Удалены'], correctAnswer: 'Доступны извне', hint: 'Без ограничений' },
-      { type: 'fill', question: 'Инкапсуляция защищает данные от ___ изменения.', correctAnswer: 'некорректного', hint: 'Безопасность' }
+      { type: 'quiz', question: 'Инкапсуляция — ___ внутренней реализации.', options: ['скрытие', 'открытие', 'удаление', 'копирование', 'изменение', 'добавление'], correctAnswer: 'скрытие', hint: 'Защита данных' },
+      { type: 'quiz', question: 'Приватные атрибуты в Python начинаются с:', options: ['_', '__', '@', '#', 'Другой ответ'], correctAnswer: '_', hint: 'Одно или два подчёркивания' },
+      { type: 'quiz', question: '___ контролируют доступ к атрибутам.', options: ['свойства', 'методы', 'функции', 'классы', 'объекты', 'переменные'], correctAnswer: 'свойства', hint: 'property в Python' },
+      { type: 'quiz', question: 'Публичные атрибуты:', options: ['Доступны извне', 'Скрыты', 'Только для чтения', 'Удалены', 'Другой ответ'], correctAnswer: 'Доступны извне', hint: 'Без ограничений' },
+      { type: 'quiz', question: 'Инкапсуляция защищает данные от ___ изменения.', options: ['некорректного', 'правильного', 'быстрого', 'медленного', 'частого', 'редкого'], correctAnswer: 'некорректного', hint: 'Безопасность' }
     ],
     reward: { stars: 3, message: "Ты понимаешь инкапсуляцию! 🔒" }
   },
@@ -1634,11 +1634,11 @@ export const games: GameLesson[] = [
     icon: "GitMerge",
     color: "text-orange-400",
     tasks: [
-      { type: 'fill', question: 'Наследование — создание нового класса на основе ___ .', correctAnswer: 'существующего', hint: 'Базовый класс' },
-      { type: 'quiz', question: 'Родительский класс также называют:', options: ['Базовым', 'Производным', 'Дочерним', 'Наследником'], correctAnswer: 'Базовым', hint: 'Основа' },
-      { type: 'fill', question: '___ вызывает метод родительского класса.', correctAnswer: 'super()', hint: 'Функция в Python' },
-      { type: 'quiz', question: 'Переопределение методов — это:', options: ['Изменение поведения', 'Удаление метода', 'Добавление метода', 'Копирование метода'], correctAnswer: 'Изменение поведения', hint: 'Новая реализация' },
-      { type: 'fill', question: 'Дочерний класс ___ родительский.', correctAnswer: 'расширяет', hint: 'Добавляет функциональность' }
+      { type: 'quiz', question: 'Наследование — создание нового класса на основе ___ .', options: ['существующего', 'нового', 'пустого', 'абстрактного', 'базового', 'родительского'], correctAnswer: 'существующего', hint: 'Базовый класс' },
+      { type: 'quiz', question: 'Родительский класс также называют:', options: ['Базовым', 'Производным', 'Дочерним', 'Наследником', 'Другой ответ'], correctAnswer: 'Базовым', hint: 'Основа' },
+      { type: 'quiz', question: '___ вызывает метод родительского класса.', options: ['super()', 'parent()', 'base()', 'this()', 'self()', 'call()'], correctAnswer: 'super()', hint: 'Функция в Python' },
+      { type: 'quiz', question: 'Переопределение методов — это:', options: ['Изменение поведения', 'Удаление метода', 'Добавление метода', 'Копирование метода', 'Другой ответ'], correctAnswer: 'Изменение поведения', hint: 'Новая реализация' },
+      { type: 'quiz', question: 'Дочерний класс ___ родительский.', options: ['расширяет', 'удаляет', 'копирует', 'игнорирует', 'заменяет', 'перезаписывает'], correctAnswer: 'расширяет', hint: 'Добавляет функциональность' }
     ],
     reward: { stars: 3, message: "Ты понимаешь наследование! 🔀" }
   },
@@ -1648,11 +1648,11 @@ export const games: GameLesson[] = [
     icon: "Copy",
     color: "text-cyan-400",
     tasks: [
-      { type: 'fill', question: 'Полиморфизм — единый ___ для разных форм.', correctAnswer: 'интерфейс', hint: 'Один метод — разное поведение' },
-      { type: 'quiz', question: 'Методы с одинаковым именем в разных классах:', options: ['Работают по-разному', 'Одинаково', 'Не работают', 'Дублируются'], correctAnswer: 'Работают по-разному', hint: 'Суть полиморфизма' },
-      { type: 'fill', question: '___ классы определяют интерфейс без реализации.', correctAnswer: 'Абстрактные', hint: 'ABC в Python' },
-      { type: 'quiz', question: 'Полиморфизм позволяет:', options: ['Работать с разными классами одинаково', 'Создавать классы', 'Удалять методы', 'Копировать объекты'], correctAnswer: 'Работать с разными классами одинаково', hint: 'Гибкость кода' },
-      { type: 'fill', question: 'Полиморфизм ___ код.', correctAnswer: 'упрощает', hint: 'Удобство' }
+      { type: 'quiz', question: 'Полиморфизм — единый ___ для разных форм.', options: ['интерфейс', 'класс', 'объект', 'метод', 'атрибут', 'тип'], correctAnswer: 'интерфейс', hint: 'Один метод — разное поведение' },
+      { type: 'quiz', question: 'Методы с одинаковым именем в разных классах:', options: ['Работают по-разному', 'Одинаково', 'Не работают', 'Дублируются', 'Другой ответ'], correctAnswer: 'Работают по-разному', hint: 'Суть полиморфизма' },
+      { type: 'quiz', question: '___ классы определяют интерфейс без реализации.', options: ['Абстрактные', 'Конкретные', 'Базовые', 'Дочерние', 'Публичные', 'Приватные'], correctAnswer: 'Абстрактные', hint: 'ABC в Python' },
+      { type: 'quiz', question: 'Полиморфизм позволяет:', options: ['Работать с разными классами одинаково', 'Создавать классы', 'Удалять методы', 'Копировать объекты', 'Другой ответ'], correctAnswer: 'Работать с разными классами одинаково', hint: 'Гибкость кода' },
+      { type: 'quiz', question: 'Полиморфизм ___ код.', options: ['упрощает', 'усложняет', 'удаляет', 'копирует', 'игнорирует', 'перезаписывает'], correctAnswer: 'упрощает', hint: 'Удобство' }
     ],
     reward: { stars: 3, message: "Ты понимаешь полиморфизм! 🎭" }
   },
@@ -1662,11 +1662,11 @@ export const games: GameLesson[] = [
     icon: "FileText",
     color: "text-yellow-400",
     tasks: [
-      { type: 'fill', question: 'Файлы хранят данные между ___ программы.', correctAnswer: 'запусками', hint: 'Сохранение' },
-      { type: 'quiz', question: 'Режим "r" означает:', options: ['Чтение', 'Запись', 'Добавление', 'Удаление'], correctAnswer: 'Чтение', hint: 'Read' },
-      { type: 'fill', question: 'Режим "w" — ___ в файл.', correctAnswer: 'запись', hint: 'Write' },
-      { type: 'quiz', question: 'with автоматически:', options: ['Закрывает файл', 'Открывает файл', 'Читает файл', 'Удаляет файл'], correctAnswer: 'Закрывает файл', hint: 'Контекстный менеджер' },
-      { type: 'fill', question: '___ () читает весь файл.', correctAnswer: 'read', hint: 'Одним вызовом' }
+      { type: 'quiz', question: 'Файлы хранят данные между ___ программы.', options: ['запусками', 'строками', 'функциями', 'классами', 'циклами', 'методами'], correctAnswer: 'запусками', hint: 'Сохранение' },
+      { type: 'quiz', question: 'Режим "r" означает:', options: ['Чтение', 'Запись', 'Добавление', 'Удаление', 'Другой ответ'], correctAnswer: 'Чтение', hint: 'Read' },
+      { type: 'quiz', question: 'Режим "w" — ___ в файл.', options: ['запись', 'чтение', 'добавление', 'удаление', 'перемещение', 'копирование'], correctAnswer: 'запись', hint: 'Write' },
+      { type: 'quiz', question: 'with автоматически:', options: ['Закрывает файл', 'Открывает файл', 'Читает файл', 'Удаляет файл', 'Другой ответ'], correctAnswer: 'Закрывает файл', hint: 'Контекстный менеджер' },
+      { type: 'quiz', question: '___ () читает весь файл.', options: ['read', 'write', 'open', 'close', 'delete', 'copy'], correctAnswer: 'read', hint: 'Одним вызовом' }
     ],
     reward: { stars: 3, message: "Ты умеешь работать с файлами! 📄" }
   },
@@ -1676,11 +1676,11 @@ export const games: GameLesson[] = [
     icon: "FileJson",
     color: "text-amber-400",
     tasks: [
-      { type: 'fill', question: 'CSV — формат ___ данных.', correctAnswer: 'табличных', hint: 'Разделённые запятыми' },
-      { type: 'quiz', question: 'JSON поддерживает:', options: ['Объекты и массивы', 'Только строки', 'Только числа', 'Только булевы'], correctAnswer: 'Объекты и массивы', hint: 'Структурированные данные' },
-      { type: 'fill', question: 'json.___() преобразует объект в строку.', correctAnswer: 'dumps', hint: 'Сериализация' },
-      { type: 'quiz', question: 'json.loads() выполняет:', options: ['Десериализацию', 'Сериализацию', 'Удаление', 'Чтение файла'], correctAnswer: 'Десериализацию', hint: 'Строка в объект' },
-      { type: 'fill', question: 'CSV расшифровывается как Comma-Separated ___ .', correctAnswer: 'Values', hint: 'Значения' }
+      { type: 'quiz', question: 'CSV — формат ___ данных.', options: ['табличных', 'графических', 'звуковых', 'видео', 'архивных', 'исполняемых'], correctAnswer: 'табличных', hint: 'Разделённые запятыми' },
+      { type: 'quiz', question: 'JSON поддерживает:', options: ['Объекты и массивы', 'Только строки', 'Только числа', 'Только булевы', 'Другой ответ'], correctAnswer: 'Объекты и массивы', hint: 'Структурированные данные' },
+      { type: 'quiz', question: 'json.___() преобразует объект в строку.', options: ['dumps', 'loads', 'read', 'write', 'parse', 'stringify'], correctAnswer: 'dumps', hint: 'Сериализация' },
+      { type: 'quiz', question: 'json.loads() выполняет:', options: ['Десериализацию', 'Сериализацию', 'Удаление', 'Чтение файла', 'Другой ответ'], correctAnswer: 'Десериализацию', hint: 'Строка в объект' },
+      { type: 'quiz', question: 'CSV расшифровывается как Comma-Separated ___ .', options: ['Values', 'Variables', 'Vectors', 'Views', 'Versions', 'Volumes'], correctAnswer: 'Values', hint: 'Значения' }
     ],
     reward: { stars: 3, message: "Ты умеешь работать с CSV и JSON! 📋" }
   },
@@ -1690,11 +1690,11 @@ export const games: GameLesson[] = [
     icon: "Database",
     color: "text-blue-500",
     tasks: [
-      { type: 'fill', question: 'SQL — язык ___ к базам данных.', correctAnswer: 'запросов', hint: 'Structured Query Language' },
-      { type: 'quiz', question: 'SELECT — это:', options: ['Выборка данных', 'Добавление данных', 'Удаление данных', 'Обновление данных'], correctAnswer: 'Выборка данных', hint: 'Чтение из таблицы' },
-      { type: 'fill', question: 'INSERT ___ добавляет данные.', correctAnswer: 'INTO', hint: 'Вставить в таблицу' },
-      { type: 'quiz', question: 'DELETE удаляет:', options: ['Данные', 'Таблицу', 'Базу', 'Столбец'], correctAnswer: 'Данные', hint: 'С условием WHERE' },
-      { type: 'fill', question: 'WHERE — условие ___ .', correctAnswer: 'фильтрации', hint: 'Отбор записей' }
+      { type: 'quiz', question: 'SQL — язык ___ к базам данных.', options: ['запросов', 'программирования', 'разметки', 'стилей', 'скриптов', 'команд'], correctAnswer: 'запросов', hint: 'Structured Query Language' },
+      { type: 'quiz', question: 'SELECT — это:', options: ['Выборка данных', 'Добавление данных', 'Удаление данных', 'Обновление данных', 'Другой ответ'], correctAnswer: 'Выборка данных', hint: 'Чтение из таблицы' },
+      { type: 'quiz', question: 'INSERT ___ добавляет данные.', options: ['INTO', 'FROM', 'WHERE', 'SET', 'VALUES', 'TABLE'], correctAnswer: 'INTO', hint: 'Вставить в таблицу' },
+      { type: 'quiz', question: 'DELETE удаляет:', options: ['Данные', 'Таблицу', 'Базу', 'Столбец', 'Другой ответ'], correctAnswer: 'Данные', hint: 'С условием WHERE' },
+      { type: 'quiz', question: 'WHERE — условие ___ .', options: ['фильтрации', 'сортировки', 'группировки', 'объединения', 'удаления', 'вставки'], correctAnswer: 'фильтрации', hint: 'Отбор записей' }
     ],
     reward: { stars: 3, message: "Ты знаешь основы SQL! 💾" }
   },
@@ -1704,11 +1704,11 @@ export const games: GameLesson[] = [
     icon: "HardDrive",
     color: "text-slate-400",
     tasks: [
-      { type: 'fill', question: 'SQLite — ___ база данных.', correctAnswer: 'встроенная', hint: 'Не требует сервера' },
-      { type: 'quiz', question: 'Модуль для работы с SQLite:', options: ['sqlite3', 'sql', 'database', 'db'], correctAnswer: 'sqlite3', hint: 'Стандартная библиотека' },
-      { type: 'fill', question: 'sqlite3.___() создаёт соединение.', correctAnswer: 'connect', hint: 'Подключение к БД' },
-      { type: 'quiz', question: 'Курсор используется для:', options: ['Выполнения запросов', 'Создания БД', 'Закрытия БД', 'Резервного копирования'], correctAnswer: 'Выполнения запросов', hint: 'cursor.execute()' },
-      { type: 'fill', question: 'fetchall() возвращает все ___ .', correctAnswer: 'результаты', hint: 'Список записей' }
+      { type: 'quiz', question: 'SQLite — ___ база данных.', options: ['встроенная', 'внешняя', 'сетевая', 'облачная', 'распределённая', 'иерархическая'], correctAnswer: 'встроенная', hint: 'Не требует сервера' },
+      { type: 'quiz', question: 'Модуль для работы с SQLite:', options: ['sqlite3', 'sql', 'database', 'db', 'Другой ответ'], correctAnswer: 'sqlite3', hint: 'Стандартная библиотека' },
+      { type: 'quiz', question: 'sqlite3.___() создаёт соединение.', options: ['connect', 'open', 'create', 'start', 'init', 'link'], correctAnswer: 'connect', hint: 'Подключение к БД' },
+      { type: 'quiz', question: 'Курсор используется для:', options: ['Выполнения запросов', 'Создания БД', 'Закрытия БД', 'Резервного копирования', 'Другой ответ'], correctAnswer: 'Выполнения запросов', hint: 'cursor.execute()' },
+      { type: 'quiz', question: 'fetchall() возвращает все ___ .', options: ['результаты', 'ошибки', 'таблицы', 'столбцы', 'строки', 'запросы'], correctAnswer: 'результаты', hint: 'Список записей' }
     ],
     reward: { stars: 3, message: "Ты умеешь работать с SQLite! 🗄️" }
   },
@@ -1718,11 +1718,11 @@ export const games: GameLesson[] = [
     icon: "Code",
     color: "text-orange-500",
     tasks: [
-      { type: 'fill', question: 'HTML — язык ___ веб-страниц.', correctAnswer: 'разметки', hint: 'Структура страницы' },
-      { type: 'quiz', question: 'Тег для заголовка:', options: ['<h1>', '<header>', '<heading>', '<title>'], correctAnswer: '<h1>', hint: 'От h1 до h6' },
-      { type: 'fill', question: 'Тег <___> создаёт ссылку.', correctAnswer: 'a', hint: 'Anchor' },
-      { type: 'quiz', question: 'Атрибут для адреса ссылки:', options: ['href', 'src', 'link', 'url'], correctAnswer: 'href', hint: 'Hypertext Reference' },
-      { type: 'fill', question: '<img> — тег для ___ .', correctAnswer: 'изображения', hint: 'Picture' }
+      { type: 'quiz', question: 'HTML — язык ___ веб-страниц.', options: ['разметки', 'программирования', 'стилей', 'скриптов', 'запросов', 'данных'], correctAnswer: 'разметки', hint: 'Структура страницы' },
+      { type: 'quiz', question: 'Тег для заголовка:', options: ['<h1>', '<header>', '<heading>', '<title>', 'Другой ответ'], correctAnswer: '<h1>', hint: 'От h1 до h6' },
+      { type: 'quiz', question: 'Тег <___> создаёт ссылку.', options: ['a', 'link', 'href', 'url', 'ref', 'src'], correctAnswer: 'a', hint: 'Anchor' },
+      { type: 'quiz', question: 'Атрибут для адреса ссылки:', options: ['href', 'src', 'link', 'url', 'Другой ответ'], correctAnswer: 'href', hint: 'Hypertext Reference' },
+      { type: 'quiz', question: '<img> — тег для ___ .', options: ['изображения', 'ссылки', 'текста', 'видео', 'аудио', 'таблицы'], correctAnswer: 'изображения', hint: 'Picture' }
     ],
     reward: { stars: 3, message: "Ты знаешь основы HTML! 🌐" }
   },
@@ -1732,11 +1732,11 @@ export const games: GameLesson[] = [
     icon: "Palette",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: 'CSS — ___ таблицы стилей.', correctAnswer: 'каскадные', hint: 'Cascading Style Sheets' },
-      { type: 'quiz', question: 'Селектор по классу:', options: ['.class', '#class', 'class', '@class'], correctAnswer: '.class', hint: 'Точка перед именем' },
-      { type: 'fill', question: 'Box model: content, padding, border, ___ .', correctAnswer: 'margin', hint: 'Внешний отступ' },
-      { type: 'quiz', question: 'Flexbox используется для:', options: ['Вёрстки', 'Анимации', 'Форм', 'Базы данных'], correctAnswer: 'Вёрстки', hint: 'Расположение элементов' },
-      { type: 'fill', question: 'Свойство color изменяет ___ текста.', correctAnswer: 'цвет', hint: 'Оформление' }
+      { type: 'quiz', question: 'CSS — ___ таблицы стилей.', options: ['каскадные', 'календарные', 'качественные', 'компактные', 'комплексные', 'комбинированные'], correctAnswer: 'каскадные', hint: 'Cascading Style Sheets' },
+      { type: 'quiz', question: 'Селектор по классу:', options: ['.class', '#class', 'class', '@class', 'Другой ответ'], correctAnswer: '.class', hint: 'Точка перед именем' },
+      { type: 'quiz', question: 'Box model: content, padding, border, ___ .', options: ['margin', 'border', 'padding', 'content', 'width', 'height'], correctAnswer: 'margin', hint: 'Внешний отступ' },
+      { type: 'quiz', question: 'Flexbox используется для:', options: ['Вёрстки', 'Анимации', 'Форм', 'Базы данных', 'Другой ответ'], correctAnswer: 'Вёрстки', hint: 'Расположение элементов' },
+      { type: 'quiz', question: 'Свойство color изменяет ___ текста.', options: ['цвет', 'размер', 'шрифт', 'позицию', 'выравнивание', 'отступ'], correctAnswer: 'цвет', hint: 'Оформление' }
     ],
     reward: { stars: 3, message: "Ты знаешь CSS! 🎨" }
   },
@@ -1746,11 +1746,11 @@ export const games: GameLesson[] = [
     icon: "Flame",
     color: "text-gray-400",
     tasks: [
-      { type: 'fill', question: 'Flask — ___ для веб-приложений.', correctAnswer: 'микрофреймворк', hint: 'Лёгкий фреймворк' },
-      { type: 'quiz', question: 'Декоратор для маршрута:', options: ['@app.route', '@route', '@url', '@path'], correctAnswer: '@app.route', hint: 'Связывает URL с функцией' },
-      { type: 'fill', question: 'render___() возвращает HTML-шаблон.', correctAnswer: 'template', hint: 'Рендеринг' },
-      { type: 'quiz', question: 'app.run() запускает:', options: ['Сервер', 'Базу данных', 'Тесты', 'Компилятор'], correctAnswer: 'Сервер', hint: 'Локальный сервер' },
-      { type: 'fill', question: 'request содержит ___ запроса.', correctAnswer: 'данные', hint: 'Информация от клиента' }
+      { type: 'quiz', question: 'Flask — ___ для веб-приложений.', options: ['микрофреймворк', 'библиотека', 'язык', 'база данных', 'редактор', 'компилятор'], correctAnswer: 'микрофреймворк', hint: 'Лёгкий фреймворк' },
+      { type: 'quiz', question: 'Декоратор для маршрута:', options: ['@app.route', '@route', '@url', '@path', 'Другой ответ'], correctAnswer: '@app.route', hint: 'Связывает URL с функцией' },
+      { type: 'quiz', question: 'render___() возвращает HTML-шаблон.', options: ['template', 'html', 'page', 'view', 'file', 'string'], correctAnswer: 'template', hint: 'Рендеринг' },
+      { type: 'quiz', question: 'app.run() запускает:', options: ['Сервер', 'Базу данных', 'Тесты', 'Компилятор', 'Другой ответ'], correctAnswer: 'Сервер', hint: 'Локальный сервер' },
+      { type: 'quiz', question: 'request содержит ___ запроса.', options: ['данные', 'ошибки', 'функции', 'классы', 'методы', 'переменные'], correctAnswer: 'данные', hint: 'Информация от клиента' }
     ],
     reward: { stars: 3, message: "Ты умеешь создавать веб-приложения! 🔥" }
   },
@@ -1760,11 +1760,11 @@ export const games: GameLesson[] = [
     icon: "FileInput",
     color: "text-teal-400",
     tasks: [
-      { type: 'fill', question: 'HTML-формы ___ данные пользователя.', correctAnswer: 'собирают', hint: 'Ввод информации' },
-      { type: 'quiz', question: 'Метод POST:', options: ['Отправляет данные', 'Запрашивает данные', 'Удаляет данные', 'Обновляет данные'], correctAnswer: 'Отправляет данные', hint: 'Передача на сервер' },
-      { type: 'fill', question: '<input> — поле для ___ .', correctAnswer: 'ввода', hint: 'Текст, число, файл' },
-      { type: 'quiz', question: 'Валидация — это:', options: ['Проверка корректности', 'Отправка данных', 'Сохранение данных', 'Удаление данных'], correctAnswer: 'Проверка корректности', hint: 'Правильность данных' },
-      { type: 'fill', question: 'request.___ содержит данные формы.', correctAnswer: 'form', hint: 'В Flask' }
+      { type: 'quiz', question: 'HTML-формы ___ данные пользователя.', options: ['собирают', 'отправляют', 'удаляют', 'копируют', 'перемещают', 'архивируют'], correctAnswer: 'собирают', hint: 'Ввод информации' },
+      { type: 'quiz', question: 'Метод POST:', options: ['Отправляет данные', 'Запрашивает данные', 'Удаляет данные', 'Обновляет данные', 'Другой ответ'], correctAnswer: 'Отправляет данные', hint: 'Передача на сервер' },
+      { type: 'quiz', question: '<input> — поле для ___ .', options: ['ввода', 'вывода', 'отображения', 'хранения', 'удаления', 'редактирования'], correctAnswer: 'ввода', hint: 'Текст, число, файл' },
+      { type: 'quiz', question: 'Валидация — это:', options: ['Проверка корректности', 'Отправка данных', 'Сохранение данных', 'Удаление данных', 'Другой ответ'], correctAnswer: 'Проверка корректности', hint: 'Правильность данных' },
+      { type: 'quiz', question: 'request.___ содержит данные формы.', options: ['form', 'data', 'body', 'input', 'value', 'fields'], correctAnswer: 'form', hint: 'В Flask' }
     ],
     reward: { stars: 3, message: "Ты умеешь работать с формами! 📝" }
   },
@@ -1774,11 +1774,11 @@ export const games: GameLesson[] = [
     icon: "Layout",
     color: "text-violet-400",
     tasks: [
-      { type: 'fill', question: 'Tkinter — библиотека для ___ интерфейса.', correctAnswer: 'графического', hint: 'GUI' },
-      { type: 'quiz', question: 'Виджет Button — это:', options: ['Кнопка', 'Поле ввода', 'Метка', 'Список'], correctAnswer: 'Кнопка', hint: 'Нажимается' },
-      { type: 'fill', question: 'root.___() запускает главный цикл.', correctAnswer: 'mainloop', hint: 'Обработка событий' },
-      { type: 'quiz', question: 'Менеджер компоновки pack:', options: ['Упаковывает виджеты', 'Удаляет виджеты', 'Создаёт виджеты', 'Красит виджеты'], correctAnswer: 'Упаковывает виджеты', hint: 'Размещение' },
-      { type: 'fill', question: 'Entry — виджет для ___ данных.', correctAnswer: 'ввода', hint: 'Одна строка' }
+      { type: 'quiz', question: 'Tkinter — библиотека для ___ интерфейса.', options: ['графического', 'текстового', 'командного', 'сетевого', 'базового', 'файлового'], correctAnswer: 'графического', hint: 'GUI' },
+      { type: 'quiz', question: 'Виджет Button — это:', options: ['Кнопка', 'Поле ввода', 'Метка', 'Список', 'Другой ответ'], correctAnswer: 'Кнопка', hint: 'Нажимается' },
+      { type: 'quiz', question: 'root.___() запускает главный цикл.', options: ['mainloop', 'start', 'run', 'begin', 'init', 'execute'], correctAnswer: 'mainloop', hint: 'Обработка событий' },
+      { type: 'quiz', question: 'Менеджер компоновки pack:', options: ['Упаковывает виджеты', 'Удаляет виджеты', 'Создаёт виджеты', 'Красит виджеты', 'Другой ответ'], correctAnswer: 'Упаковывает виджеты', hint: 'Размещение' },
+      { type: 'quiz', question: 'Entry — виджет для ___ данных.', options: ['ввода', 'вывода', 'отображения', 'хранения', 'обработки', 'проверки'], correctAnswer: 'ввода', hint: 'Одна строка' }
     ],
     reward: { stars: 3, message: "Ты умеешь работать с Tkinter! 🖼️" }
   },
@@ -1788,11 +1788,11 @@ export const games: GameLesson[] = [
     icon: "TextBox",
     color: "text-blue-300",
     tasks: [
-      { type: 'fill', question: 'Entry — поле для ___ строки.', correctAnswer: 'одной', hint: 'Однострочное' },
-      { type: 'quiz', question: 'Text — это:', options: ['Многострочное поле', 'Метка', 'Кнопка', 'Список'], correctAnswer: 'Многострочное поле', hint: 'Несколько строк' },
-      { type: 'fill', question: 'get() ___ данные из виджета.', correctAnswer: 'получает', hint: 'Извлечение' },
-      { type: 'quiz', question: 'Checkbutton — это:', options: ['Флажок', 'Переключатель', 'Кнопка', 'Поле'], correctAnswer: 'Флажок', hint: 'Галочка' },
-      { type: 'fill', question: 'Radiobutton — ___ переключатель.', correctAnswer: 'радиокнопка', hint: 'Один из нескольких' }
+      { type: 'quiz', question: 'Entry — поле для ___ строки.', options: ['одной', 'двух', 'нескольких', 'многострочной', 'пустой', 'длинной'], correctAnswer: 'одной', hint: 'Однострочное' },
+      { type: 'quiz', question: 'Text — это:', options: ['Многострочное поле', 'Метка', 'Кнопка', 'Список', 'Другой ответ'], correctAnswer: 'Многострочное поле', hint: 'Несколько строк' },
+      { type: 'quiz', question: 'get() ___ данные из виджета.', options: ['получает', 'устанавливает', 'удаляет', 'копирует', 'перемещает', 'проверяет'], correctAnswer: 'получает', hint: 'Извлечение' },
+      { type: 'quiz', question: 'Checkbutton — это:', options: ['Флажок', 'Переключатель', 'Кнопка', 'Поле', 'Другой ответ'], correctAnswer: 'Флажок', hint: 'Галочка' },
+      { type: 'quiz', question: 'Radiobutton — ___ переключатель.', options: ['радиокнопка', 'флажок', 'кнопка', 'список', 'меню', 'поле'], correctAnswer: 'радиокнопка', hint: 'Один из нескольких' }
     ],
     reward: { stars: 3, message: "Ты умеешь создавать формы! 📝" }
   },
@@ -1802,11 +1802,11 @@ export const games: GameLesson[] = [
     icon: "MousePointerClick",
     color: "text-emerald-400",
     tasks: [
-      { type: 'fill', question: 'command привязывает ___ к кнопке.', correctAnswer: 'функцию', hint: 'Обработчик' },
-      { type: 'quiz', question: 'bind() привязывает:', options: ['Событие к виджету', 'Виджет к окну', 'Функцию к переменной', 'Файл к программе'], correctAnswer: 'Событие к виджету', hint: 'Реакция' },
-      { type: 'fill', question: '<Button-1> — ___ клик мыши.', correctAnswer: 'левый', hint: 'Основная кнопка' },
-      { type: 'quiz', question: '<Key> — событие:', options: ['Нажатие клавиши', 'Клик мыши', 'Движение мыши', 'Закрытие окна'], correctAnswer: 'Нажатие клавиши', hint: 'Клавиатура' },
-      { type: 'fill', question: 'lambda позволяет передавать ___ .', correctAnswer: 'аргументы', hint: 'Параметры' }
+      { type: 'quiz', question: 'command привязывает ___ к кнопке.', options: ['функцию', 'переменную', 'класс', 'объект', 'массив', 'строку'], correctAnswer: 'функцию', hint: 'Обработчик' },
+      { type: 'quiz', question: 'bind() привязывает:', options: ['Событие к виджету', 'Виджет к окну', 'Функцию к переменной', 'Файл к программе', 'Другой ответ'], correctAnswer: 'Событие к виджету', hint: 'Реакция' },
+      { type: 'quiz', question: '<Button-1> — ___ клик мыши.', options: ['левый', 'правый', 'средний', 'двойной', 'тройной', 'длинный'], correctAnswer: 'левый', hint: 'Основная кнопка' },
+      { type: 'quiz', question: '<Key> — событие:', options: ['Нажатие клавиши', 'Клик мыши', 'Движение мыши', 'Закрытие окна', 'Другой ответ'], correctAnswer: 'Нажатие клавиши', hint: 'Клавиатура' },
+      { type: 'quiz', question: 'lambda позволяет передавать ___ .', options: ['аргументы', 'функции', 'классы', 'объекты', 'массивы', 'переменные'], correctAnswer: 'аргументы', hint: 'Параметры' }
     ],
     reward: { stars: 3, message: "Ты умеешь обрабатывать события! 🖱️" }
   },
@@ -1816,11 +1816,11 @@ export const games: GameLesson[] = [
     icon: "Menu",
     color: "text-amber-400",
     tasks: [
-      { type: 'fill', question: 'Menu — виджет для создания ___ .', correctAnswer: 'меню', hint: 'Пункты' },
-      { type: 'quiz', question: 'add_cascade создаёт:', options: ['Вложенное меню', 'Пункт меню', 'Разделитель', 'Кнопку'], correctAnswer: 'Вложенное меню', hint: 'Подменю' },
-      { type: 'fill', question: 'messagebox показывает ___ окна.', correctAnswer: 'диалоговые', hint: 'Сообщения' },
-      { type: 'quiz', question: 'askopenfilename открывает:', options: ['Диалог выбора файла', 'Файл для чтения', 'Новое окно', 'Сохранение'], correctAnswer: 'Диалог выбора файла', hint: 'Выбор' },
-      { type: 'fill', question: 'showinfo показывает ___ сообщение.', correctAnswer: 'информационное', hint: 'Информация' }
+      { type: 'quiz', question: 'Menu — виджет для создания ___ .', options: ['меню', 'кнопок', 'полей', 'списков', 'окон', 'диалогов'], correctAnswer: 'меню', hint: 'Пункты' },
+      { type: 'quiz', question: 'add_cascade создаёт:', options: ['Вложенное меню', 'Пункт меню', 'Разделитель', 'Кнопку', 'Другой ответ'], correctAnswer: 'Вложенное меню', hint: 'Подменю' },
+      { type: 'quiz', question: 'messagebox показывает ___ окна.', options: ['диалоговые', 'главные', 'вспомогательные', 'второстепенные', 'поплавковые', 'модальные'], correctAnswer: 'диалоговые', hint: 'Сообщения' },
+      { type: 'quiz', question: 'askopenfilename открывает:', options: ['Диалог выбора файла', 'Файл для чтения', 'Новое окно', 'Сохранение', 'Другой ответ'], correctAnswer: 'Диалог выбора файла', hint: 'Выбор' },
+      { type: 'quiz', question: 'showinfo показывает ___ сообщение.', options: ['информационное', 'предупреждение', 'ошибку', 'вопрос', 'подтверждение', 'уведомление'], correctAnswer: 'информационное', hint: 'Информация' }
     ],
     reward: { stars: 3, message: "Ты умеешь создавать меню и диалоги! 📋" }
   },
@@ -1830,11 +1830,11 @@ export const games: GameLesson[] = [
     icon: "Bug",
     color: "text-red-400",
     tasks: [
-      { type: 'fill', question: 'Print-отладка — вывод значений в ___ .', correctAnswer: 'консоль', hint: 'Терминал' },
-      { type: 'quiz', question: 'Отладчик позволяет:', options: ['Пошагово выполнять код', 'Удалять код', 'Компилировать', 'Архивировать'], correctAnswer: 'Пошагово выполнять код', hint: 'По шагам' },
-      { type: 'fill', question: 'Точка ___ останавливает выполнение.', correctAnswer: 'останова', hint: 'Breakpoint' },
-      { type: 'quiz', question: 'pdb — это:', options: ['Отладчик Python', 'Компилятор', 'Интерпретатор', 'Редактор'], correctAnswer: 'Отладчик Python', hint: 'Debug' },
-      { type: 'fill', question: 'IDE — интегрированная среда ___ .', correctAnswer: 'разработки', hint: 'Development' }
+      { type: 'quiz', question: 'Print-отладка — вывод значений в ___ .', options: ['консоль', 'файл', 'базу', 'окно', 'память', 'буфер'], correctAnswer: 'консоль', hint: 'Терминал' },
+      { type: 'quiz', question: 'Отладчик позволяет:', options: ['Пошагово выполнять код', 'Удалять код', 'Компилировать', 'Архивировать', 'Другой ответ'], correctAnswer: 'Пошагово выполнять код', hint: 'По шагам' },
+      { type: 'quiz', question: 'Точка ___ останавливает выполнение.', options: ['останова', 'входа', 'выхода', 'возврата', 'перехода', 'останова'], correctAnswer: 'останова', hint: 'Breakpoint' },
+      { type: 'quiz', question: 'pdb — это:', options: ['Отладчик Python', 'Компилятор', 'Интерпретатор', 'Редактор', 'Другой ответ'], correctAnswer: 'Отладчик Python', hint: 'Debug' },
+      { type: 'quiz', question: 'IDE — интегрированная среда ___ .', options: ['разработки', 'тестирования', 'отладки', 'компиляции', 'интерпретации', 'архивации'], correctAnswer: 'разработки', hint: 'Development' }
     ],
     reward: { stars: 3, message: "Ты умеешь отлаживать код! 🐛" }
   },
@@ -1844,11 +1844,11 @@ export const games: GameLesson[] = [
     icon: "TestTube",
     color: "text-green-500",
     tasks: [
-      { type: 'fill', question: 'Unit-тест проверяет ___ функцию.', correctAnswer: 'отдельную', hint: 'Изолированно' },
-      { type: 'quiz', question: 'unittest — это:', options: ['Встроенный фреймворк', 'Внешняя библиотека', 'Язык программирования', 'IDE'], correctAnswer: 'Встроенный фреймворк', hint: 'Модуль Python' },
-      { type: 'fill', question: 'assertEqual проверяет ___ значений.', correctAnswer: 'равенство', hint: 'Сравнение' },
-      { type: 'quiz', question: 'setUp выполняется:', options: ['Перед каждым тестом', 'После каждого теста', 'Один раз в начале', 'В конце всех тестов'], correctAnswer: 'Перед каждым тестом', hint: 'Подготовка' },
-      { type: 'fill', question: 'python -m unittest запускает ___ .', correctAnswer: 'тесты', hint: 'Проверка' }
+      { type: 'quiz', question: 'Unit-тест проверяет ___ функцию.', options: ['отдельную', 'все', 'главную', 'вспомогательную', 'системную', 'интеграционную'], correctAnswer: 'отдельную', hint: 'Изолированно' },
+      { type: 'quiz', question: 'unittest — это:', options: ['Встроенный фреймворк', 'Внешняя библиотека', 'Язык программирования', 'IDE', 'Другой ответ'], correctAnswer: 'Встроенный фреймворк', hint: 'Модуль Python' },
+      { type: 'quiz', question: 'assertEqual проверяет ___ значений.', options: ['равенство', 'различие', 'больше', 'меньше', 'сумму', 'произведение'], correctAnswer: 'равенство', hint: 'Сравнение' },
+      { type: 'quiz', question: 'setUp выполняется:', options: ['Перед каждым тестом', 'После каждого теста', 'Один раз в начале', 'В конце всех тестов', 'Другой ответ'], correctAnswer: 'Перед каждым тестом', hint: 'Подготовка' },
+      { type: 'quiz', question: 'python -m unittest запускает ___ .', options: ['тесты', 'программу', 'скрипт', 'компиляцию', 'отладку', 'сервер'], correctAnswer: 'тесты', hint: 'Проверка' }
     ],
     reward: { stars: 3, message: "Ты умеешь писать тесты! 🧪" }
   },
@@ -1858,11 +1858,11 @@ export const games: GameLesson[] = [
     icon: "FileText",
     color: "text-blue-400",
     tasks: [
-      { type: 'fill', question: 'Docstring — ___ документации функции.', correctAnswer: 'строка', hint: 'Описание' },
-      { type: 'quiz', question: 'README.md — это:', options: ['Описание проекта', 'Код программы', 'Тесты', 'Конфигурация'], correctAnswer: 'Описание проекта', hint: 'Документация' },
-      { type: 'fill', question: '# означает ___ комментарий.', correctAnswer: 'однострочный', hint: 'Короткий' },
-      { type: 'quiz', question: 'Type hints — это:', options: ['Аннотации типов', 'Комментарии', 'Переменные', 'Функции'], correctAnswer: 'Аннотации типов', hint: 'Указание типов' },
-      { type: 'fill', question: 'Документация помогает ___ код.', correctAnswer: 'понимать', hint: 'Чтение' }
+      { type: 'quiz', question: 'Docstring — ___ документации функции.', options: ['строка', 'блок', 'файл', 'комментарий', 'раздел', 'класс'], correctAnswer: 'строка', hint: 'Описание' },
+      { type: 'quiz', question: 'README.md — это:', options: ['Описание проекта', 'Код программы', 'Тесты', 'Конфигурация', 'Другой ответ'], correctAnswer: 'Описание проекта', hint: 'Документация' },
+      { type: 'quiz', question: '# означает ___ комментарий.', options: ['однострочный', 'многострочный', 'документирующий', 'блочный', 'встроенный', 'специальный'], correctAnswer: 'однострочный', hint: 'Короткий' },
+      { type: 'quiz', question: 'Type hints — это:', options: ['Аннотации типов', 'Комментарии', 'Переменные', 'Функции', 'Другой ответ'], correctAnswer: 'Аннотации типов', hint: 'Указание типов' },
+      { type: 'quiz', question: 'Документация помогает ___ код.', options: ['понимать', 'удалять', 'копировать', 'перемещать', 'архивировать', 'шифровать'], correctAnswer: 'понимать', hint: 'Чтение' }
     ],
     reward: { stars: 3, message: "Ты умеешь документировать код! 📄" }
   },
@@ -1872,11 +1872,11 @@ export const games: GameLesson[] = [
     icon: "AlertTriangle",
     color: "text-yellow-500",
     tasks: [
-      { type: 'fill', question: 'try-except ___ исключения.', correctAnswer: 'обрабатывает', hint: 'Ловит ошибки' },
-      { type: 'quiz', question: 'finally выполняется:', options: ['Всегда', 'Только при ошибке', 'Только без ошибки', 'Никогда'], correctAnswer: 'Всегда', hint: 'Гарантированно' },
-      { type: 'fill', question: 'raise ___ исключение.', correctAnswer: 'генерирует', hint: 'Создаёт' },
-      { type: 'quiz', question: 'Собственные исключения наследуются от:', options: ['Exception', 'Error', 'BaseException', 'object'], correctAnswer: 'Exception', hint: 'Базовый класс' },
-      { type: 'fill', question: 'with автоматически ___ ресурсы.', correctAnswer: 'управляет', hint: 'Контекст' }
+      { type: 'quiz', question: 'try-except ___ исключения.', options: ['обрабатывает', 'создаёт', 'удаляет', 'игнорирует', 'передаёт', 'возвращает'], correctAnswer: 'обрабатывает', hint: 'Ловит ошибки' },
+      { type: 'quiz', question: 'finally выполняется:', options: ['Всегда', 'Только при ошибке', 'Только без ошибки', 'Никогда', 'Другой ответ'], correctAnswer: 'Всегда', hint: 'Гарантированно' },
+      { type: 'quiz', question: 'raise ___ исключение.', options: ['генерирует', 'обрабатывает', 'удаляет', 'игнорирует', 'передаёт', 'возвращает'], correctAnswer: 'генерирует', hint: 'Создаёт' },
+      { type: 'quiz', question: 'Собственные исключения наследуются от:', options: ['Exception', 'Error', 'BaseException', 'object', 'Другой ответ'], correctAnswer: 'Exception', hint: 'Базовый класс' },
+      { type: 'quiz', question: 'with автоматически ___ ресурсы.', options: ['управляет', 'удаляет', 'создаёт', 'копирует', 'перемещает', 'блокирует'], correctAnswer: 'управляет', hint: 'Контекст' }
     ],
     reward: { stars: 3, message: "Ты умеешь обрабатывать ошибки! ⚠️" }
   },
@@ -1886,11 +1886,11 @@ export const games: GameLesson[] = [
     icon: "GitBranch",
     color: "text-orange-500",
     tasks: [
-      { type: 'fill', question: 'git init ___ репозиторий.', correctAnswer: 'создаёт', hint: 'Инициализация' },
-      { type: 'quiz', question: 'git add:', options: ['Добавляет файлы', 'Коммитит', 'Отправляет', 'Клонирует'], correctAnswer: 'Добавляет файлы', hint: 'Staging' },
-      { type: 'fill', question: 'git commit ___ изменения.', correctAnswer: 'фиксирует', hint: 'Сохраняет' },
-      { type: 'quiz', question: 'git status показывает:', options: ['Состояние файлов', 'Историю', 'Различия', 'Ветки'], correctAnswer: 'Состояние файлов', hint: 'Текущее' },
-      { type: 'fill', question: 'git log показывает ___ коммитов.', correctAnswer: 'историю', hint: 'Прошлое' }
+      { type: 'quiz', question: 'git init ___ репозиторий.', options: ['создаёт', 'удаляет', 'копирует', 'перемещает', 'архивирует', 'клонирует'], correctAnswer: 'создаёт', hint: 'Инициализация' },
+      { type: 'quiz', question: 'git add:', options: ['Добавляет файлы', 'Коммитит', 'Отправляет', 'Клонирует', 'Другой ответ'], correctAnswer: 'Добавляет файлы', hint: 'Staging' },
+      { type: 'quiz', question: 'git commit ___ изменения.', options: ['фиксирует', 'удаляет', 'отправляет', 'получает', 'копирует', 'перемещает'], correctAnswer: 'фиксирует', hint: 'Сохраняет' },
+      { type: 'quiz', question: 'git status показывает:', options: ['Состояние файлов', 'Историю', 'Различия', 'Ветки', 'Другой ответ'], correctAnswer: 'Состояние файлов', hint: 'Текущее' },
+      { type: 'quiz', question: 'git log показывает ___ коммитов.', options: ['историю', 'список', 'дерево', 'граф', 'таблицу', 'диаграмму'], correctAnswer: 'историю', hint: 'Прошлое' }
     ],
     reward: { stars: 3, message: "Ты знаешь основы Git! 🔀" }
   },
@@ -1900,11 +1900,11 @@ export const games: GameLesson[] = [
     icon: "GitMerge",
     color: "text-purple-500",
     tasks: [
-      { type: 'fill', question: 'Ветка — независимая ___ разработки.', correctAnswer: 'линия', hint: 'Ветвь' },
-      { type: 'quiz', question: 'git checkout -b:', options: ['Создаёт и переключает ветку', 'Удаляет ветку', 'Сливает ветки', 'Показывает ветки'], correctAnswer: 'Создаёт и переключает ветку', hint: 'Новая ветка' },
-      { type: 'fill', question: 'git merge ___ ветки.', correctAnswer: 'сливает', hint: 'Объединяет' },
-      { type: 'quiz', question: 'Конфликт возникает при:', options: ['Несовместимых изменениях', 'Удалении ветки', 'Создании ветки', 'Переключении'], correctAnswer: 'Несовместимых изменениях', hint: 'Проблема' },
-      { type: 'fill', question: 'git branch показывает список ___ .', correctAnswer: 'веток', hint: 'Перечень' }
+      { type: 'quiz', question: 'Ветка — независимая ___ разработки.', options: ['линия', 'часть', 'ветвь', 'копия', 'версия', 'модуль'], correctAnswer: 'линия', hint: 'Ветвь' },
+      { type: 'quiz', question: 'git checkout -b:', options: ['Создаёт и переключает ветку', 'Удаляет ветку', 'Сливает ветки', 'Показывает ветки', 'Другой ответ'], correctAnswer: 'Создаёт и переключает ветку', hint: 'Новая ветка' },
+      { type: 'quiz', question: 'git merge ___ ветки.', options: ['сливает', 'удаляет', 'создаёт', 'копирует', 'переименовывает', 'перемещает'], correctAnswer: 'сливает', hint: 'Объединяет' },
+      { type: 'quiz', question: 'Конфликт возникает при:', options: ['Несовместимых изменениях', 'Удалении ветки', 'Создании ветки', 'Переключении', 'Другой ответ'], correctAnswer: 'Несовместимых изменениях', hint: 'Проблема' },
+      { type: 'quiz', question: 'git branch показывает список ___ .', options: ['веток', 'коммитов', 'файлов', 'папок', 'изменений', 'авторов'], correctAnswer: 'веток', hint: 'Перечень' }
     ],
     reward: { stars: 3, message: "Ты понимаешь ветвление! 🌿" }
   },
@@ -1914,11 +1914,11 @@ export const games: GameLesson[] = [
     icon: "Github",
     color: "text-gray-500",
     tasks: [
-      { type: 'fill', question: 'GitHub — платформа для ___ репозиториев.', correctAnswer: 'хостинга', hint: 'Хранение' },
-      { type: 'quiz', question: 'git push:', options: ['Отправляет изменения', 'Получает изменения', 'Создаёт ветку', 'Сливает ветки'], correctAnswer: 'Отправляет изменения', hint: 'Upload' },
-      { type: 'fill', question: 'git pull ___ изменения.', correctAnswer: 'получает', hint: 'Download' },
-      { type: 'quiz', question: 'Pull Request — это:', options: ['Предложение изменений', 'Запрос на скачивание', 'Команда Git', 'Тип ветки'], correctAnswer: 'Предложение изменений', hint: 'Merge request' },
-      { type: 'fill', question: 'Code review — ___ кода.', correctAnswer: 'проверка', hint: 'Review' }
+      { type: 'quiz', question: 'GitHub — платформа для ___ репозиториев.', options: ['хостинга', 'создания', 'удаления', 'копирования', 'архивации', 'шифрования'], correctAnswer: 'хостинга', hint: 'Хранение' },
+      { type: 'quiz', question: 'git push:', options: ['Отправляет изменения', 'Получает изменения', 'Создаёт ветку', 'Сливает ветки', 'Другой ответ'], correctAnswer: 'Отправляет изменения', hint: 'Upload' },
+      { type: 'quiz', question: 'git pull ___ изменения.', options: ['получает', 'отправляет', 'удаляет', 'создаёт', 'копирует', 'перемещает'], correctAnswer: 'получает', hint: 'Download' },
+      { type: 'quiz', question: 'Pull Request — это:', options: ['Предложение изменений', 'Запрос на скачивание', 'Команда Git', 'Тип ветки', 'Другой ответ'], correctAnswer: 'Предложение изменений', hint: 'Merge request' },
+      { type: 'quiz', question: 'Code review — ___ кода.', options: ['проверка', 'написание', 'удаление', 'копирование', 'форматирование', 'оптимизация'], correctAnswer: 'проверка', hint: 'Review' }
     ],
     reward: { stars: 3, message: "Ты умеешь работать с GitHub! 🐙" }
   },
@@ -1928,11 +1928,11 @@ export const games: GameLesson[] = [
     icon: "Code2",
     color: "text-cyan-500",
     tasks: [
-      { type: 'fill', question: 'PEP 8 — ___ кода Python.', correctAnswer: 'стиль', hint: 'Правила' },
-      { type: 'quiz', question: 'Отступ в Python:', options: ['4 пробела', '2 пробела', 'Таб', '8 пробелов'], correctAnswer: '4 пробела', hint: 'Стандарт' },
-      { type: 'fill', question: 'Длина строки до ___ символов.', correctAnswer: '79', hint: 'Ограничение' },
-      { type: 'quiz', question: 'snake_case используется для:', options: ['Функций и переменных', 'Классов', 'Констант', 'Модулей'], correctAnswer: 'Функций и переменных', hint: 'Именование' },
-      { type: 'fill', question: 'pylint — ___ для проверки стиля.', correctAnswer: 'линтер', hint: 'Инструмент' }
+      { type: 'quiz', question: 'PEP 8 — ___ кода Python.', options: ['стиль', 'стандарт', 'правило', 'формат', 'шаблон', 'образец'], correctAnswer: 'стиль', hint: 'Правила' },
+      { type: 'quiz', question: 'Отступ в Python:', options: ['4 пробела', '2 пробела', 'Таб', '8 пробелов', 'Другой ответ'], correctAnswer: '4 пробела', hint: 'Стандарт' },
+      { type: 'quiz', question: 'Длина строки до ___ символов.', options: ['79', '80', '100', '120', '72', '99'], correctAnswer: '79', hint: 'Ограничение' },
+      { type: 'quiz', question: 'snake_case используется для:', options: ['Функций и переменных', 'Классов', 'Констант', 'Модулей', 'Другой ответ'], correctAnswer: 'Функций и переменных', hint: 'Именование' },
+      { type: 'quiz', question: 'pylint — ___ для проверки стиля.', options: ['линтер', 'компилятор', 'отладчик', 'редактор', 'интерпретатор', 'система'], correctAnswer: 'линтер', hint: 'Инструмент' }
     ],
     reward: { stars: 3, message: "Ты следуешь стилю кода! ✨" }
   },
@@ -1942,11 +1942,11 @@ export const games: GameLesson[] = [
     icon: "ClipboardList",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: 'MVP — минимальный ___ продукт.', correctAnswer: 'жизнеспособный', hint: 'Базовая версия' },
-      { type: 'quiz', question: 'Критерий выбора проекта:', options: ['Интерес', 'Сложность', 'Цена', 'Время года'], correctAnswer: 'Интерес', hint: 'Мотивация' },
-      { type: 'fill', question: 'Техническое ___ описывает требования.', correctAnswer: 'задание', hint: 'Документ' },
-      { type: 'quiz', question: 'Декомпозиция — это:', options: ['Разбиение на подзадачи', 'Удаление задач', 'Объединение задач', 'Сортировка задач'], correctAnswer: 'Разбиение на подзадачи', hint: 'Деление' },
-      { type: 'fill', question: 'Функциональные ___ описывают возможности.', correctAnswer: 'требования', hint: 'Что должно делать' }
+      { type: 'quiz', question: 'MVP — минимальный ___ продукт.', options: ['жизнеспособный', 'рабочий', 'функциональный', 'прототип', 'готовый', 'полезный'], correctAnswer: 'жизнеспособный', hint: 'Базовая версия' },
+      { type: 'quiz', question: 'Критерий выбора проекта:', options: ['Интерес', 'Сложность', 'Цена', 'Время года', 'Другой ответ'], correctAnswer: 'Интерес', hint: 'Мотивация' },
+      { type: 'quiz', question: 'Техническое ___ описывает требования.', options: ['задание', 'описание', 'руководство', 'письмо', 'документ', 'файл'], correctAnswer: 'задание', hint: 'Документ' },
+      { type: 'quiz', question: 'Декомпозиция — это:', options: ['Разбиение на подзадачи', 'Удаление задач', 'Объединение задач', 'Сортировка задач', 'Другой ответ'], correctAnswer: 'Разбиение на подзадачи', hint: 'Деление' },
+      { type: 'quiz', question: 'Функциональные ___ описывают возможности.', options: ['требования', 'задачи', 'функции', 'методы', 'классы', 'модули'], correctAnswer: 'требования', hint: 'Что должно делать' }
     ],
     reward: { stars: 3, message: "Ты умеешь планировать проекты! 📋" }
   },
@@ -1956,11 +1956,11 @@ export const games: GameLesson[] = [
     icon: "Rocket",
     color: "text-red-500",
     tasks: [
-      { type: 'fill', question: 'Итеративная разработка — ___ шаги.', correctAnswer: 'маленькие', hint: 'Постепенно' },
-      { type: 'quiz', question: 'Рефакторинг — это:', options: ['Улучшение кода без изменения функций', 'Добавление функций', 'Удаление кода', 'Тестирование'], correctAnswer: 'Улучшение кода без изменения функций', hint: 'Оптимизация' },
-      { type: 'fill', question: 'Регулярные ___ сохраняют историю.', correctAnswer: 'коммиты', hint: 'Git' },
-      { type: 'quiz', question: 'Тестировать нужно:', options: ['После каждого изменения', 'Один раз в конце', 'Не нужно', 'Раз в неделю'], correctAnswer: 'После каждого изменения', hint: 'Регулярно' },
-      { type: 'fill', question: 'Документирование помогает ___ код.', correctAnswer: 'понимать', hint: 'Читаемость' }
+      { type: 'quiz', question: 'Итеративная разработка — ___ шаги.', options: ['маленькие', 'большие', 'случайные', 'параллельные', 'последовательные', 'обратные'], correctAnswer: 'маленькие', hint: 'Постепенно' },
+      { type: 'quiz', question: 'Рефакторинг — это:', options: ['Улучшение кода без изменения функций', 'Добавление функций', 'Удаление кода', 'Тестирование', 'Другой ответ'], correctAnswer: 'Улучшение кода без изменения функций', hint: 'Оптимизация' },
+      { type: 'quiz', question: 'Регулярные ___ сохраняют историю.', options: ['коммиты', 'бекапы', 'копии', 'сохранения', 'архивы', 'ветки'], correctAnswer: 'коммиты', hint: 'Git' },
+      { type: 'quiz', question: 'Тестировать нужно:', options: ['После каждого изменения', 'Один раз в конце', 'Не нужно', 'Раз в неделю', 'Другой ответ'], correctAnswer: 'После каждого изменения', hint: 'Регулярно' },
+      { type: 'quiz', question: 'Документирование помогает ___ код.', options: ['понимать', 'удалять', 'копировать', 'перемещать', 'архивировать', 'шифровать'], correctAnswer: 'понимать', hint: 'Читаемость' }
     ],
     reward: { stars: 3, message: "Ты умеешь реализовывать проекты! 🚀" }
   },
@@ -1970,11 +1970,11 @@ export const games: GameLesson[] = [
     icon: "Presentation",
     color: "text-cyan-500",
     tasks: [
-      { type: 'fill', question: 'Структура презентации: проблема, решение, ___ .', correctAnswer: 'демонстрация', hint: 'Показ работы' },
-      { type: 'quiz', question: 'Демонстрация работы — это:', options: ['Показ проекта', 'Рассказ о планах', 'Чтение документации', 'Обсуждение кода'], correctAnswer: 'Показ проекта', hint: 'В действии' },
-      { type: 'fill', question: 'Обратная ___ помогает улучшить проект.', correctAnswer: 'связь', hint: 'Feedback' },
-      { type: 'quiz', question: 'Ответы на вопросы:', options: ['Помогают объяснить решения', 'Не нужны', 'Только для экспертов', 'Усложняют презентацию'], correctAnswer: 'Помогают объяснить решения', hint: 'Взаимодействие' },
-      { type: 'fill', question: 'Ответы на вопросы ___ .', correctAnswer: 'аудитории', hint: 'После презентации' }
+      { type: 'quiz', question: 'Структура презентации: проблема, решение, ___ .', options: ['демонстрация', 'выводы', 'теория', 'практика', 'обсуждение', 'вопросы'], correctAnswer: 'демонстрация', hint: 'Показ работы' },
+      { type: 'quiz', question: 'Демонстрация работы — это:', options: ['Показ проекта', 'Рассказ о планах', 'Чтение документации', 'Обсуждение кода', 'Другой ответ'], correctAnswer: 'Показ проекта', hint: 'В действии' },
+      { type: 'quiz', question: 'Обратная ___ помогает улучшить проект.', options: ['связь', 'сторона', 'информация', 'реакция', 'помощь', 'поддержка'], correctAnswer: 'связь', hint: 'Feedback' },
+      { type: 'quiz', question: 'Ответы на вопросы:', options: ['Помогают объяснить решения', 'Не нужны', 'Только для экспертов', 'Усложняют презентацию', 'Другой ответ'], correctAnswer: 'Помогают объяснить решения', hint: 'Взаимодействие' },
+      { type: 'quiz', question: 'Ответы на вопросы ___ .', options: ['аудитории', 'преподавателя', 'экспертов', 'коллег', 'друзей', 'родителей'], correctAnswer: 'аудитории', hint: 'После презентации' }
     ],
     reward: { stars: 3, message: "Ты презентуешь проекты! 🎤" }
   },
@@ -1984,11 +1984,11 @@ export const games: GameLesson[] = [
     icon: "TrendingUp",
     color: "text-green-400",
     tasks: [
-      { type: 'fill', question: 'Ретроспектива — анализ ___ проекта.', correctAnswer: 'результатов', hint: 'Что получилось' },
-      { type: 'quiz', question: 'Портфолио проектов нужно для:', options: ['Карьеры', 'Учёбы', 'Хобби', 'Друзей'], correctAnswer: 'Карьеры', hint: 'Резюме' },
-      { type: 'fill', question: 'Непрерывное ___ — ключ к успеху.', correctAnswer: 'обучение', hint: 'Развитие' },
-      { type: 'quiz', question: 'Планирование развития включает:', options: ['Следующие шаги', 'Только прошлое', 'Только настоящее', 'Удаление проекта'], correctAnswer: 'Следующие шаги', hint: 'Будущее' },
-      { type: 'fill', question: 'Анализ проблем помогает их ___ .', correctAnswer: 'решить', hint: 'В будущем' }
+      { type: 'quiz', question: 'Ретроспектива — анализ ___ проекта.', options: ['результатов', 'ошибок', 'успехов', 'кода', 'тестов', 'документации'], correctAnswer: 'результатов', hint: 'Что получилось' },
+      { type: 'quiz', question: 'Портфолио проектов нужно для:', options: ['Карьеры', 'Учёбы', 'Хобби', 'Друзей', 'Другой ответ'], correctAnswer: 'Карьеры', hint: 'Резюме' },
+      { type: 'quiz', question: 'Непрерывное ___ — ключ к успеху.', options: ['обучение', 'тестирование', 'написание', 'чтение', 'программирование', 'документирование'], correctAnswer: 'обучение', hint: 'Развитие' },
+      { type: 'quiz', question: 'Планирование развития включает:', options: ['Следующие шаги', 'Только прошлое', 'Только настоящее', 'Удаление проекта', 'Другой ответ'], correctAnswer: 'Следующие шаги', hint: 'Будущее' },
+      { type: 'quiz', question: 'Анализ проблем помогает их ___ .', options: ['решить', 'понять', 'описать', 'найти', 'избежать', 'проанализировать'], correctAnswer: 'решить', hint: 'В будущем' }
     ],
     reward: { stars: 3, message: "Ты анализируешь и развиваешься! 📈" }
   }

@@ -1281,10 +1281,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «Привет» по-английски?", options: ["Goodbye", "Hello", "Thanks"], correctAnswer: "Hello", hint: "Hello — самое популярное приветствие" },
-      { type: 'quiz', question: "Как спросить «Как дела?» по-английски?", options: ["How are you?", "What is your name?", "Where are you from?"], correctAnswer: "How are you?", hint: "How are you? — Как дела?" },
+      { type: 'quiz', question: "Как сказать «Привет» по-английски?", options: ["Goodbye", "Hello", "Thanks", "Никто не знает", "Не знаю"], correctAnswer: "Hello", hint: "Hello — самое популярное приветствие" },
+      { type: 'quiz', question: "Как спросить «Как дела?» по-английски?", options: ["How are you?", "What is your name?", "Where are you from?", "Никто не знает", "Не знаю"], correctAnswer: "How are you?", hint: "How are you? — Как дела?" },
       { type: 'find', question: "Выбери фразы приветствия:", options: ["Hello!", "Goodbye!", "Hi!", "Good morning!", "Sorry!"], correctAnswer: ["Hello!", "Hi!", "Good morning!"], hint: "Это фразы для приветствия" },
-      { type: 'fill', question: "My ... is Anna. (Меня зовут Анна)", correctAnswer: "name", hint: "My name is... — Меня зовут..." }
+      { type: 'quiz', question: "My ... is Anna. (Меня зовут Анна)", options: ["name", "age", "friend", "school", "country", "city"], correctAnswer: "name", hint: "My name is... — Меня зовут..." }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь здороваться по-английски! 👋" }
   },
@@ -1294,10 +1294,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «красный» по-английски?", options: ["blue", "red", "green"], correctAnswer: "red", hint: "Red — красный" },
+      { type: 'quiz', question: "Как будет «красный» по-английски?", options: ["blue", "red", "green", "Никто не знает", "Не знаю"], correctAnswer: "red", hint: "Red — красный" },
       { type: 'find', question: "Выбери цвета радуги:", options: ["red", "dog", "yellow", "green", "blue", "cat"], correctAnswer: ["red", "yellow", "green", "blue"], hint: "Это цвета радуги" },
-      { type: 'quiz', question: "Как будет число 5 по-английски?", options: ["three", "four", "five"], correctAnswer: "five", hint: "Five — пять" },
-      { type: 'fill', question: "My favourite colour is ... (Мой любимый цвет — синий)", correctAnswer: "blue", hint: "Blue — синий" }
+      { type: 'quiz', question: "Как будет число 5 по-английски?", options: ["three", "four", "five", "Никто не знает", "Не знаю"], correctAnswer: "five", hint: "Five — пять" },
+      { type: 'quiz', question: "My favourite colour is ... (Мой любимый цвет — синий)", options: ["blue", "red", "green", "yellow", "black", "white"], correctAnswer: "blue", hint: "Blue — синий" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь цвета и числа! 🎨" }
   },
@@ -1307,10 +1307,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «мама» по-английски?", options: ["father", "mother", "sister"], correctAnswer: "mother", hint: "Mother — мама" },
+      { type: 'quiz', question: "Как будет «мама» по-английски?", options: ["father", "mother", "sister", "Никто не знает", "Не знаю"], correctAnswer: "mother", hint: "Mother — мама" },
       { type: 'find', question: "Выбери членов семьи:", options: ["mother", "house", "father", "sister", "room", "brother"], correctAnswer: ["mother", "father", "sister", "brother"], hint: "Это члены семьи" },
-      { type: 'quiz', question: "Как будет «дом» по-английски?", options: ["house", "flat", "room"], correctAnswer: "house", hint: "House — дом" },
-      { type: 'fill', question: "I have a big ... (У меня большая семья)", correctAnswer: "family", hint: "Family — семья" }
+      { type: 'quiz', question: "Как будет «дом» по-английски?", options: ["house", "flat", "room", "Никто не знает", "Не знаю"], correctAnswer: "house", hint: "House — дом" },
+      { type: 'quiz', question: "I have a big ... (У меня большая семья)", options: ["family", "house", "dog", "car", "room", "book"], correctAnswer: "family", hint: "Family — семья" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь слова о семье! 👨‍👩‍👧‍👦" }
   },
@@ -1320,10 +1320,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «яблоко» по-английски?", options: ["orange", "apple", "banana"], correctAnswer: "apple", hint: "Apple — яблоко" },
+      { type: 'quiz', question: "Как будет «яблоко» по-английски?", options: ["orange", "apple", "banana", "Никто не знает", "Не знаю"], correctAnswer: "apple", hint: "Apple — яблоко" },
       { type: 'find', question: "Выбери продукты питания:", options: ["bread", "water", "book", "cheese", "pen", "milk"], correctAnswer: ["bread", "cheese", "milk"], hint: "Это продукты питания" },
-      { type: 'quiz', question: "Как вежливо попросить воды?", options: ["Water!", "Can I have water, please?", "Give me water!"], correctAnswer: "Can I have water, please?", hint: "Can I have... please? — Можно мне... пожалуйста?" },
-      { type: 'fill', question: "I like ... (Мне нравится пицца)", correctAnswer: "pizza", hint: "Pizza — пицца" }
+      { type: 'quiz', question: "Как вежливо попросить воды?", options: ["Water!", "Can I have water, please?", "Give me water!", "Никто не знает", "Не знаю"], correctAnswer: "Can I have water, please?", hint: "Can I have... please? — Можно мне... пожалуйста?" },
+      { type: 'quiz', question: "I like ... (Мне нравится пицца)", options: ["pizza", "apple", "bread", "milk", "water", "cheese"], correctAnswer: "pizza", hint: "Pizza — пицца" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь слова о еде! 🍕" }
   }

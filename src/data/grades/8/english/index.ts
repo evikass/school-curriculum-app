@@ -715,10 +715,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "I ___ to school every day.", options: ["am going", "go", "have gone", "went"], correctAnswer: "go", hint: "Regular action = Present Simple" },
-      { type: 'quiz', question: "She ___ in London.", options: ["live", "lives", "living", "is living"], correctAnswer: "lives", hint: "He/She/It + V+s" },
-      { type: 'fill', question: "My brother ___ (work) in a bank.", correctAnswer: "works", hint: "He + V+s" },
-      { type: 'quiz', question: "___ you like coffee?", options: ["Do", "Does", "Is", "Are"], correctAnswer: "Do", hint: "Question with I/you/we/they = Do" }
+      { type: 'quiz', question: "I ___ to school every day.", options: ["am going", "go", "have gone", "went", "Другой ответ"], correctAnswer: "go", hint: "Regular action = Present Simple" },
+      { type: 'quiz', question: "She ___ in London.", options: ["live", "lives", "living", "is living", "Другой ответ"], correctAnswer: "lives", hint: "He/She/It + V+s" },
+      { type: 'quiz', question: "My brother ___ (work) in a bank.", options: ["works", "work", "working", "worked", "is working", "has worked"], correctAnswer: "works", hint: "He + V+s" },
+      { type: 'quiz', question: "___ you like coffee?", options: ["Do", "Does", "Is", "Are", "Другой ответ"], correctAnswer: "Do", hint: "Question with I/you/we/they = Do" }
     ],
     reward: { stars: 3, message: "Excellent! You know Present Simple! 🌟" }
   },
@@ -728,10 +728,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Look! It ___ .", options: ["rains", "is raining", "rained", "has rained"], correctAnswer: "is raining", hint: "Happening now = Present Continuous" },
-      { type: 'quiz', question: "They ___ football at the moment.", options: ["play", "plays", "are playing", "is playing"], correctAnswer: "are playing", hint: "They + are + V-ing" },
-      { type: 'fill', question: "I am ___ (read) a book now.", correctAnswer: "reading", hint: "am + V-ing" },
-      { type: 'quiz', question: "She isn't ___ TV right now.", options: ["watch", "watches", "watching", "watched"], correctAnswer: "watching", hint: "isn't + V-ing" }
+      { type: 'quiz', question: "Look! It ___ .", options: ["rains", "is raining", "rained", "has rained", "Другой ответ"], correctAnswer: "is raining", hint: "Happening now = Present Continuous" },
+      { type: 'quiz', question: "They ___ football at the moment.", options: ["play", "plays", "are playing", "is playing", "Другой ответ"], correctAnswer: "are playing", hint: "They + are + V-ing" },
+      { type: 'quiz', question: "I am ___ (read) a book now.", options: ["reading", "read", "reads", "to read", "reader", "readed"], correctAnswer: "reading", hint: "am + V-ing" },
+      { type: 'quiz', question: "She isn't ___ TV right now.", options: ["watch", "watches", "watching", "watched", "Другой ответ"], correctAnswer: "watching", hint: "isn't + V-ing" }
     ],
     reward: { stars: 3, message: "Great! You understand Present Continuous! ⏰" }
   },
@@ -741,10 +741,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "She ___ in London for 5 years.", options: ["lives", "is living", "has lived", "lived"], correctAnswer: "has lived", hint: "For + period = Present Perfect" },
-      { type: 'fill', question: "I have ___ (see) this film already.", correctAnswer: "seen", hint: "Present Perfect uses V3" },
-      { type: 'quiz', question: "Have you ever ___ to Paris?", options: ["be", "been", "being", "was"], correctAnswer: "been", hint: "Have + V3 (be → been)" },
-      { type: 'quiz', question: "I have known him ___ 2015.", options: ["for", "since", "at", "in"], correctAnswer: "since", hint: "Since + point in time" }
+      { type: 'quiz', question: "She ___ in London for 5 years.", options: ["lives", "is living", "has lived", "lived", "Другой ответ"], correctAnswer: "has lived", hint: "For + period = Present Perfect" },
+      { type: 'quiz', question: "I have ___ (see) this film already.", options: ["seen", "saw", "see", "seeing", "sees", "been"], correctAnswer: "seen", hint: "Present Perfect uses V3" },
+      { type: 'quiz', question: "Have you ever ___ to Paris?", options: ["be", "been", "being", "was", "Другой ответ"], correctAnswer: "been", hint: "Have + V3 (be → been)" },
+      { type: 'quiz', question: "I have known him ___ 2015.", options: ["for", "since", "at", "in", "Другой ответ"], correctAnswer: "since", hint: "Since + point in time" }
     ],
     reward: { stars: 3, message: "Perfect! You know Present Perfect! ✅" }
   },
@@ -755,10 +755,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "We ___ to the cinema yesterday.", options: ["go", "are going", "went", "have gone"], correctAnswer: "went", hint: "Yesterday = Past Simple" },
-      { type: 'fill', question: "Did she ___ (come) to the party?", correctAnswer: "come", hint: "Did + base form" },
-      { type: 'quiz', question: "He ___ his homework last night.", options: ["doesn't do", "didn't do", "didn't did", "not did"], correctAnswer: "didn't do", hint: "didn't + base form" },
-      { type: 'quiz', question: "They were ___ home yesterday.", options: ["at", "in", "on", "to"], correctAnswer: "at", hint: "at home" }
+      { type: 'quiz', question: "We ___ to the cinema yesterday.", options: ["go", "are going", "went", "have gone", "Другой ответ"], correctAnswer: "went", hint: "Yesterday = Past Simple" },
+      { type: 'quiz', question: "Did she ___ (come) to the party?", options: ["come", "came", "comes", "coming", "to come", "has come"], correctAnswer: "come", hint: "Did + base form" },
+      { type: 'quiz', question: "He ___ his homework last night.", options: ["doesn't do", "didn't do", "didn't did", "not did", "Другой ответ"], correctAnswer: "didn't do", hint: "didn't + base form" },
+      { type: 'quiz', question: "They were ___ home yesterday.", options: ["at", "in", "on", "to", "Другой ответ"], correctAnswer: "at", hint: "at home" }
     ],
     reward: { stars: 3, message: "Great job! You understand Past Simple! ⏮️" }
   },
@@ -768,10 +768,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "At 5 o'clock yesterday I ___ TV.", options: ["watched", "was watching", "have watched", "watch"], correctAnswer: "was watching", hint: "At specific time in the past = Past Continuous" },
-      { type: 'quiz', question: "When the phone rang, I ___ .", options: ["slept", "was sleeping", "have slept", "sleep"], correctAnswer: "was sleeping", hint: "Interrupted action = Past Continuous" },
-      { type: 'fill', question: "They were ___ (play) football at that time.", correctAnswer: "playing", hint: "were + V-ing" },
-      { type: 'quiz', question: "While she ___ (cook), the phone rang.", options: ["cooked", "was cooking", "cooks", "has cooked"], correctAnswer: "was cooking", hint: "While = ongoing action in past" }
+      { type: 'quiz', question: "At 5 o'clock yesterday I ___ TV.", options: ["watched", "was watching", "have watched", "watch", "Другой ответ"], correctAnswer: "was watching", hint: "At specific time in the past = Past Continuous" },
+      { type: 'quiz', question: "When the phone rang, I ___ .", options: ["slept", "was sleeping", "have slept", "sleep", "Другой ответ"], correctAnswer: "was sleeping", hint: "Interrupted action = Past Continuous" },
+      { type: 'quiz', question: "They were ___ (play) football at that time.", options: ["playing", "play", "played", "plays", "to play", "has played"], correctAnswer: "playing", hint: "were + V-ing" },
+      { type: 'quiz', question: "While she ___ (cook), the phone rang.", options: ["cooked", "was cooking", "cooks", "has cooked", "Другой ответ"], correctAnswer: "was cooking", hint: "While = ongoing action in past" }
     ],
     reward: { stars: 3, message: "Excellent! You know Past Continuous! 🕐" }
   },
@@ -782,10 +782,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "I think it ___ rain tomorrow.", options: ["will", "is going to", "would", "shall"], correctAnswer: "will", hint: "Prediction = will" },
-      { type: 'quiz', question: "I ___ help you with your homework.", options: ["will", "am going to", "was", "had"], correctAnswer: "will", hint: "Promise = will" },
-      { type: 'fill', question: "She won't ___ (tell) anyone.", correctAnswer: "tell", hint: "won't + base form" },
-      { type: 'quiz', question: "___ you come to the party?", options: ["Will", "Are", "Do", "Did"], correctAnswer: "Will", hint: "Future question = Will + subject + V" }
+      { type: 'quiz', question: "I think it ___ rain tomorrow.", options: ["will", "is going to", "would", "shall", "Другой ответ"], correctAnswer: "will", hint: "Prediction = will" },
+      { type: 'quiz', question: "I ___ help you with your homework.", options: ["will", "am going to", "was", "had", "Другой ответ"], correctAnswer: "will", hint: "Promise = will" },
+      { type: 'quiz', question: "She won't ___ (tell) anyone.", options: ["tell", "tells", "told", "telling", "to tell", "has told"], correctAnswer: "tell", hint: "won't + base form" },
+      { type: 'quiz', question: "___ you come to the party?", options: ["Will", "Are", "Do", "Did", "Другой ответ"], correctAnswer: "Will", hint: "Future question = Will + subject + V" }
     ],
     reward: { stars: 3, message: "Well done! You know Future Simple! 🔮" }
   },
@@ -795,10 +795,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Look at the clouds! It ___ rain.", options: ["will", "is going to", "would", "shall"], correctAnswer: "is going to", hint: "Evidence now = going to" },
-      { type: 'fill', question: "I'm going ___ (study) tonight.", correctAnswer: "to study", hint: "going to + V" },
-      { type: 'quiz', question: "She is ___ buy a new car.", options: ["will", "going to", "will to", "going"], correctAnswer: "going to", hint: "is going to + V" },
-      { type: 'quiz', question: "What are you ___ do tomorrow?", options: ["will", "going to", "would", "shall"], correctAnswer: "going to", hint: "are going to + V" }
+      { type: 'quiz', question: "Look at the clouds! It ___ rain.", options: ["will", "is going to", "would", "shall", "Другой ответ"], correctAnswer: "is going to", hint: "Evidence now = going to" },
+      { type: 'quiz', question: "I'm going ___ (study) tonight.", options: ["to study", "study", "studying", "studied", "studies", "has studied"], correctAnswer: "to study", hint: "going to + V" },
+      { type: 'quiz', question: "She is ___ buy a new car.", options: ["will", "going to", "will to", "going", "Другой ответ"], correctAnswer: "going to", hint: "is going to + V" },
+      { type: 'quiz', question: "What are you ___ do tomorrow?", options: ["will", "going to", "would", "shall", "Другой ответ"], correctAnswer: "going to", hint: "are going to + V" }
     ],
     reward: { stars: 3, message: "Great! You understand 'going to'! 📅" }
   },
@@ -809,10 +809,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "You ___ smoke here. It's forbidden.", options: ["can't", "mustn't", "shouldn't", "don't have to"], correctAnswer: "mustn't", hint: "Forbidden = mustn't" },
-      { type: 'fill', question: "She can ___ (speak) three languages.", correctAnswer: "speak", hint: "can + base form" },
-      { type: 'quiz', question: "___ you help me, please?", options: ["Can", "Must", "Should", "Have to"], correctAnswer: "Can", hint: "Request = Can/Could" },
-      { type: 'quiz', question: "You ___ wear a uniform at school.", options: ["can", "must", "should", "may"], correctAnswer: "must", hint: "Obligation = must" }
+      { type: 'quiz', question: "You ___ smoke here. It's forbidden.", options: ["can't", "mustn't", "shouldn't", "don't have to", "Другой ответ"], correctAnswer: "mustn't", hint: "Forbidden = mustn't" },
+      { type: 'quiz', question: "She can ___ (speak) three languages.", options: ["speak", "speaks", "spoke", "speaking", "to speak", "has spoken"], correctAnswer: "speak", hint: "can + base form" },
+      { type: 'quiz', question: "___ you help me, please?", options: ["Can", "Must", "Should", "Have to", "Другой ответ"], correctAnswer: "Can", hint: "Request = Can/Could" },
+      { type: 'quiz', question: "You ___ wear a uniform at school.", options: ["can", "must", "should", "may", "Другой ответ"], correctAnswer: "must", hint: "Obligation = must" }
     ],
     reward: { stars: 3, message: "Perfect! You understand Can, Could, Must! ✨" }
   },
@@ -822,10 +822,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "You ___ see a doctor. You look ill.", options: ["can", "must", "should", "may"], correctAnswer: "should", hint: "Advice = should" },
-      { type: 'quiz', question: "It ___ rain tomorrow. (possibility)", options: ["must", "should", "may", "have to"], correctAnswer: "may", hint: "Possibility = may/might" },
-      { type: 'fill', question: "You shouldn't ___ (eat) so much sugar.", correctAnswer: "eat", hint: "shouldn't + base form" },
-      { type: 'quiz', question: "___ I use your phone?", options: ["Must", "Should", "May", "Have to"], correctAnswer: "May", hint: "Formal request = May" }
+      { type: 'quiz', question: "You ___ see a doctor. You look ill.", options: ["can", "must", "should", "may", "Другой ответ"], correctAnswer: "should", hint: "Advice = should" },
+      { type: 'quiz', question: "It ___ rain tomorrow. (possibility)", options: ["must", "should", "may", "have to", "Другой ответ"], correctAnswer: "may", hint: "Possibility = may/might" },
+      { type: 'quiz', question: "You shouldn't ___ (eat) so much sugar.", options: ["eat", "eats", "ate", "eating", "to eat", "has eaten"], correctAnswer: "eat", hint: "shouldn't + base form" },
+      { type: 'quiz', question: "___ I use your phone?", options: ["Must", "Should", "May", "Have to", "Другой ответ"], correctAnswer: "May", hint: "Formal request = May" }
     ],
     reward: { stars: 3, message: "Excellent! You know Should, May, Might! 💡" }
   },
@@ -836,10 +836,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "English ___ all over the world.", options: ["speaks", "is spoken", "spoke", "is speaking"], correctAnswer: "is spoken", hint: "Present Simple Passive" },
-      { type: 'quiz', question: "The letter ___ yesterday.", options: ["sent", "was sent", "is sent", "sends"], correctAnswer: "was sent", hint: "Past Simple Passive" },
-      { type: 'fill', question: "The book will be ___ (finish) soon.", correctAnswer: "finished", hint: "will be + V3" },
-      { type: 'quiz', question: "This picture was painted ___ Picasso.", options: ["with", "by", "from", "of"], correctAnswer: "by", hint: "Agent = by" }
+      { type: 'quiz', question: "English ___ all over the world.", options: ["speaks", "is spoken", "spoke", "is speaking", "Другой ответ"], correctAnswer: "is spoken", hint: "Present Simple Passive" },
+      { type: 'quiz', question: "The letter ___ yesterday.", options: ["sent", "was sent", "is sent", "sends", "Другой ответ"], correctAnswer: "was sent", hint: "Past Simple Passive" },
+      { type: 'quiz', question: "The book will be ___ (finish) soon.", options: ["finished", "finish", "finishes", "finishing", "to finish", "has finished"], correctAnswer: "finished", hint: "will be + V3" },
+      { type: 'quiz', question: "This picture was painted ___ Picasso.", options: ["with", "by", "from", "of", "Другой ответ"], correctAnswer: "by", hint: "Agent = by" }
     ],
     reward: { stars: 3, message: "Excellent! You know Passive Voice! 📝" }
   },
@@ -850,10 +850,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "If you heat water to 100°C, it ___.", options: ["will boil", "would boil", "boils", "boiled"], correctAnswer: "boils", hint: "Zero Conditional = fact" },
-      { type: 'quiz', question: "If it rains, I ___ at home.", options: ["stay", "will stay", "would stay", "stayed"], correctAnswer: "will stay", hint: "First Conditional" },
-      { type: 'fill', question: "If you don't hurry, you'll miss the bus. = ___ you hurry, you'll miss the bus.", correctAnswer: "Unless", hint: "Unless = If not" },
-      { type: 'quiz', question: "If she ___ (come), I will be happy.", options: ["comes", "will come", "came", "would come"], correctAnswer: "comes", hint: "If + Present Simple" }
+      { type: 'quiz', question: "If you heat water to 100°C, it ___.", options: ["will boil", "would boil", "boils", "boiled", "Другой ответ"], correctAnswer: "boils", hint: "Zero Conditional = fact" },
+      { type: 'quiz', question: "If it rains, I ___ at home.", options: ["stay", "will stay", "would stay", "stayed", "Другой ответ"], correctAnswer: "will stay", hint: "First Conditional" },
+      { type: 'quiz', question: "If you don't hurry, you'll miss the bus. = ___ you hurry, you'll miss the bus.", options: ["Unless", "If", "When", "While", "Before", "After"], correctAnswer: "Unless", hint: "Unless = If not" },
+      { type: 'quiz', question: "If she ___ (come), I will be happy.", options: ["comes", "will come", "came", "would come", "Другой ответ"], correctAnswer: "comes", hint: "If + Present Simple" }
     ],
     reward: { stars: 3, message: "Great! You understand Zero and First Conditionals! 🔀" }
   },
@@ -863,10 +863,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "If I were you, I ___ accept.", options: ["will", "would", "would have", "had"], correctAnswer: "would", hint: "Second Conditional" },
-      { type: 'fill', question: "If I had known, I ___ have told you.", correctAnswer: "would", hint: "Third Conditional" },
-      { type: 'quiz', question: "If I ___ (be) you, I would study harder.", options: ["am", "was", "were", "be"], correctAnswer: "were", hint: "Second Conditional uses 'were' for all persons" },
-      { type: 'quiz', question: "If she ___ (study) harder, she would have passed.", options: ["studies", "studied", "had studied", "would study"], correctAnswer: "had studied", hint: "Third Conditional: If + Past Perfect" }
+      { type: 'quiz', question: "If I were you, I ___ accept.", options: ["will", "would", "would have", "had", "Другой ответ"], correctAnswer: "would", hint: "Second Conditional" },
+      { type: 'quiz', question: "If I had known, I ___ have told you.", options: ["would", "will", "wouldn't", "won't", "had", "have"], correctAnswer: "would", hint: "Third Conditional" },
+      { type: 'quiz', question: "If I ___ (be) you, I would study harder.", options: ["am", "was", "were", "be", "Другой ответ"], correctAnswer: "were", hint: "Second Conditional uses 'were' for all persons" },
+      { type: 'quiz', question: "If she ___ (study) harder, she would have passed.", options: ["studies", "studied", "had studied", "would study", "Другой ответ"], correctAnswer: "had studied", hint: "Third Conditional: If + Past Perfect" }
     ],
     reward: { stars: 3, message: "Perfect! You know Second and Third Conditionals! 🎯" }
   },
@@ -877,10 +877,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "I usually ___ at 7 o'clock.", options: ["wake up", "get up", "go to bed", "have dinner"], correctAnswer: "wake up", hint: "Morning activity" },
-      { type: 'fill', question: "I have breakfast ___ the morning. (preposition)", correctAnswer: "in", hint: "in the morning" },
-      { type: 'quiz', question: "After school I ___ my homework.", options: ["make", "do", "have", "take"], correctAnswer: "do", hint: "do homework" },
-      { type: 'quiz', question: "I go ___ bed at 10 p.m.", options: ["at", "in", "to", "on"], correctAnswer: "to", hint: "go to bed" }
+      { type: 'quiz', question: "I usually ___ at 7 o'clock.", options: ["wake up", "get up", "go to bed", "have dinner", "Другой ответ"], correctAnswer: "wake up", hint: "Morning activity" },
+      { type: 'quiz', question: "I have breakfast ___ the morning. (preposition)", options: ["in", "at", "on", "to", "for", "by"], correctAnswer: "in", hint: "in the morning" },
+      { type: 'quiz', question: "After school I ___ my homework.", options: ["make", "do", "have", "take", "Другой ответ"], correctAnswer: "do", hint: "do homework" },
+      { type: 'quiz', question: "I go ___ bed at 10 p.m.", options: ["at", "in", "to", "on", "Другой ответ"], correctAnswer: "to", hint: "go to bed" }
     ],
     reward: { stars: 3, message: "Excellent! You know Daily Routine vocabulary! 🌅" }
   },
@@ -890,10 +890,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "She can play ___ piano.", options: ["a", "an", "the", "-"], correctAnswer: "the", hint: "play THE piano (instrument)" },
-      { type: 'fill', question: "In my free time I like ___ (read) books.", correctAnswer: "reading", hint: "like + V-ing" },
-      { type: 'quiz', question: "He's fond ___ playing football.", options: ["in", "on", "of", "at"], correctAnswer: "of", hint: "fond of" },
-      { type: 'quiz', question: "What do you do ___ your free time?", options: ["in", "on", "at", "for"], correctAnswer: "in", hint: "in your free time" }
+      { type: 'quiz', question: "She can play ___ piano.", options: ["a", "an", "the", "-", "Другой ответ"], correctAnswer: "the", hint: "play THE piano (instrument)" },
+      { type: 'quiz', question: "In my free time I like ___ (read) books.", options: ["reading", "read", "reads", "to reading", "reader", "readed"], correctAnswer: "reading", hint: "like + V-ing" },
+      { type: 'quiz', question: "He's fond ___ playing football.", options: ["in", "on", "of", "at", "Другой ответ"], correctAnswer: "of", hint: "fond of" },
+      { type: 'quiz', question: "What do you do ___ your free time?", options: ["in", "on", "at", "for", "Другой ответ"], correctAnswer: "in", hint: "in your free time" }
     ],
     reward: { stars: 3, message: "Great! You know Hobbies vocabulary! 🎨" }
   },
@@ -904,10 +904,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "___ reading is for general understanding.", options: ["Detailed", "Scanning", "Skimming", "Intensive"], correctAnswer: "Skimming", hint: "Skimming = quick reading for gist" },
-      { type: 'quiz', question: "___ reading is looking for specific information.", options: ["Detailed", "Scanning", "Skimming", "Extensive"], correctAnswer: "Scanning", hint: "Scanning = searching for details" },
-      { type: 'fill', question: "The three parts of a text are: Introduction, Body paragraphs, and ___.", correctAnswer: "Conclusion", hint: "Text structure" },
-      { type: 'quiz', question: "What does 'predicting' mean?", options: ["Guessing meaning from context", "Predicting content from title", "Finding keywords", "Understanding pronouns"], correctAnswer: "Predicting content from title", hint: "Before reading strategy" }
+      { type: 'quiz', question: "___ reading is for general understanding.", options: ["Detailed", "Scanning", "Skimming", "Intensive", "Другой ответ"], correctAnswer: "Skimming", hint: "Skimming = quick reading for gist" },
+      { type: 'quiz', question: "___ reading is looking for specific information.", options: ["Detailed", "Scanning", "Skimming", "Extensive", "Другой ответ"], correctAnswer: "Scanning", hint: "Scanning = searching for details" },
+      { type: 'quiz', question: "The three parts of a text are: Introduction, Body paragraphs, and ___.", options: ["Conclusion", "Summary", "Ending", "Result", "Finish", "Output"], correctAnswer: "Conclusion", hint: "Text structure" },
+      { type: 'quiz', question: "What does 'predicting' mean?", options: ["Guessing meaning from context", "Predicting content from title", "Finding keywords", "Understanding pronouns", "Другой ответ"], correctAnswer: "Predicting content from title", hint: "Before reading strategy" }
     ],
     reward: { stars: 3, message: "Perfect! You understand Reading Strategies! 📖" }
   }

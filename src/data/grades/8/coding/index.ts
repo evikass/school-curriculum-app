@@ -696,20 +696,21 @@ export const games: GameLesson[] = [
       { 
         type: 'quiz', 
         question: 'Какая функция выводит текст на экран?', 
-        options: ['input()', 'print()', 'output()', 'display()'], 
+        options: ['input()', 'print()', 'output()', 'display()', 'Другой ответ'], 
         correctAnswer: 'print()', 
         hint: 'Функция названа по аналогии с печатью' 
       },
       { 
         type: 'quiz', 
         question: 'Какой оператор используется для целочисленного деления?', 
-        options: ['/', '//', '%', '**'], 
+        options: ['/', '//', '%', '**', 'Другой ответ'], 
         correctAnswer: '//', 
         hint: 'Это два символа обычного деления' 
       },
       { 
-        type: 'fill', 
+        type: 'quiz', 
         question: 'Функция для ввода данных с клавиатуры — ___.', 
+        options: ['input', 'print', 'output', 'scan', 'read', 'get'], 
         correctAnswer: 'input', 
         hint: 'Название функции переводится как "ввод"' 
       },
@@ -732,20 +733,21 @@ export const games: GameLesson[] = [
       { 
         type: 'quiz', 
         question: 'Какой тип данных у переменной x = 3.14?', 
-        options: ['int', 'float', 'str', 'bool'], 
+        options: ['int', 'float', 'str', 'bool', 'Другой ответ'], 
         correctAnswer: 'float', 
         hint: 'Это число с дробной частью' 
       },
       { 
-        type: 'fill', 
+        type: 'quiz', 
         question: 'Функция для преобразования строки в целое число — ___.', 
+        options: ['int', 'str', 'float', 'num', 'integer', 'number'], 
         correctAnswer: 'int', 
         hint: 'Сокращение от integer (целое число)' 
       },
       { 
         type: 'quiz', 
         question: 'Что вернёт type("Hello")?', 
-        options: ['<class str>', '<class string>', '<class text>', '<class char>'], 
+        options: ['<class str>', '<class string>', '<class text>', '<class char>', 'Другой ответ'], 
         correctAnswer: '<class str>', 
         hint: 'Строковый тип в Python называется str' 
       },
@@ -768,20 +770,21 @@ export const games: GameLesson[] = [
       { 
         type: 'quiz', 
         question: 'Какой оператор проверяет равенство в Python?', 
-        options: ['=', '==', '===', '!='], 
+        options: ['=', '==', '===', '!=', 'Другой ответ'], 
         correctAnswer: '==', 
         hint: 'Один = это присваивание, два = это сравнение' 
       },
       { 
-        type: 'fill', 
+        type: 'quiz', 
         question: 'Ключевое слово для альтернативной ветки в if — ___.', 
+        options: ['else', 'elif', 'if', 'then', 'otherwise', 'or'], 
         correctAnswer: 'else', 
         hint: 'Переводится как "иначе"' 
       },
       { 
         type: 'quiz', 
         question: 'Что выведет: x = 5; print(x > 3 and x < 10)?', 
-        options: ['True', 'False', '5', 'Ошибка'], 
+        options: ['True', 'False', '5', 'Ошибка', 'Другой ответ'], 
         correctAnswer: 'True', 
         hint: '5 > 3 И 5 < 10 — оба условия истинны' 
       },
@@ -804,20 +807,21 @@ export const games: GameLesson[] = [
       { 
         type: 'quiz', 
         question: 'Какой цикл выполняется, пока условие истинно?', 
-        options: ['for', 'while', 'if', 'loop'], 
+        options: ['for', 'while', 'if', 'loop', 'Другой ответ'], 
         correctAnswer: 'while', 
         hint: 'Название цикла переводится как "пока"' 
       },
       { 
-        type: 'fill', 
+        type: 'quiz', 
         question: 'Оператор для выхода из цикла — ___.', 
+        options: ['break', 'continue', 'exit', 'stop', 'return', 'quit'], 
         correctAnswer: 'break', 
         hint: 'Это слово переводится как "прервать"' 
       },
       { 
         type: 'quiz', 
         question: 'Что выведет: for i in range(3): print(i)?', 
-        options: ['0 1 2', '1 2 3', '0 1 2 3', '1 2'], 
+        options: ['0 1 2', '1 2 3', '0 1 2 3', '1 2', 'Другой ответ'], 
         correctAnswer: '0 1 2', 
         hint: 'range(3) создаёт числа от 0 до 2' 
       },
@@ -840,20 +844,21 @@ export const games: GameLesson[] = [
       { 
         type: 'quiz', 
         question: 'Какой индекс у первого элемента списка?', 
-        options: ['0', '1', '-1', 'first'], 
+        options: ['0', '1', '-1', 'first', 'Другой ответ'], 
         correctAnswer: '0', 
         hint: 'В Python нумерация начинается с нуля' 
       },
       { 
-        type: 'fill', 
+        type: 'quiz', 
         question: 'Метод для добавления элемента в конец списка — ___.', 
+        options: ['append', 'add', 'insert', 'push', 'extend', 'add_last'], 
         correctAnswer: 'append', 
         hint: 'Это слово переводится как "добавить в конец"' 
       },
       { 
         type: 'quiz', 
         question: 'Что делает s[::-1] для строки s?', 
-        options: ['Удаляет символы', 'Разворачивает строку', 'Дублирует строку', 'Ошибка'], 
+        options: ['Удаляет символы', 'Разворачивает строку', 'Дублирует строку', 'Ошибка', 'Другой ответ'], 
         correctAnswer: 'Разворачивает строку', 
         hint: 'Отрицательный шаг идёт в обратном направлении' 
       },
@@ -876,20 +881,21 @@ export const games: GameLesson[] = [
       { 
         type: 'quiz', 
         question: 'Какое ключевое слово объявляет функцию?', 
-        options: ['function', 'func', 'def', 'define'], 
+        options: ['function', 'func', 'def', 'define', 'Другой ответ'], 
         correctAnswer: 'def', 
         hint: 'Сокращение от define (определить)' 
       },
       { 
-        type: 'fill', 
+        type: 'quiz', 
         question: 'Ключевое слово для возврата значения из функции — ___.', 
+        options: ['return', 'print', 'output', 'send', 'give', 'result'], 
         correctAnswer: 'return', 
         hint: 'Это слово переводится как "вернуть"' 
       },
       { 
         type: 'quiz', 
         question: 'Что вернёт функция без return?', 
-        options: ['0', 'None', 'Пустую строку', 'Ошибка'], 
+        options: ['0', 'None', 'Пустую строку', 'Ошибка', 'Другой ответ'], 
         correctAnswer: 'None', 
         hint: 'Если нет return, функция возвращает None' 
       },

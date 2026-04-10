@@ -1339,10 +1339,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «5» на английском?", options: ["four", "five", "six"], correctAnswer: "five", hint: "1-one, 2-two, 3-three, 4-four, 5-?" },
-      { type: 'quiz', question: "Как будет «12» на английском?", options: ["twelve", "twenty", "two"], correctAnswer: "twelve", hint: "11-eleven, 12-?" },
-      { type: 'fill', question: "«25» по-английски: twenty-__", correctAnswer: "five", hint: "25 = twenty-five" },
-      { type: 'quiz', question: "Какое число «seventeen»?", options: ["16", "17", "18"], correctAnswer: "17", hint: "Seven + teen = seventeen" }
+      { type: 'quiz', question: "Как будет «5» на английском?", options: ["four", "five", "six", "Никто не знает", "Не знаю"], correctAnswer: "five", hint: "1-one, 2-two, 3-three, 4-four, 5-?" },
+      { type: 'quiz', question: "Как будет «12» на английском?", options: ["twelve", "twenty", "two", "Никто не знает", "Не знаю"], correctAnswer: "twelve", hint: "11-eleven, 12-?" },
+      { type: 'quiz', question: "«25» по-английски: twenty-__", options: ["five", "four", "six", "seven", "eight", "nine"], correctAnswer: "five", hint: "25 = twenty-five" },
+      { type: 'quiz', question: "Какое число «seventeen»?", options: ["16", "17", "18", "Никто не знает", "Не знаю"], correctAnswer: "17", hint: "Seven + teen = seventeen" }
     ],
     reward: { stars: 3, message: "Great! You know numbers! 🔢" }
   },
@@ -1352,10 +1352,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «красный» на английском?", options: ["red", "blue", "green"], correctAnswer: "red", hint: "Apple is red" },
-      { type: 'quiz', question: "Какой цвет «yellow»?", options: ["жёлтый", "зелёный", "синий"], correctAnswer: "жёлтый", hint: "Sun is yellow" },
+      { type: 'quiz', question: "Как будет «красный» на английском?", options: ["red", "blue", "green", "Никто не знает", "Не знаю"], correctAnswer: "red", hint: "Apple is red" },
+      { type: 'quiz', question: "Какой цвет «yellow»?", options: ["жёлтый", "зелёный", "синий", "Никто не знает", "Не знаю"], correctAnswer: "жёлтый", hint: "Sun is yellow" },
       { type: 'find', question: "Выбери названия цветов:", options: ["Red", "Cat", "Blue", "Green", "Dog", "Yellow"], correctAnswer: ["Red", "Blue", "Green", "Yellow"], hint: "Colors are: red, blue, green, yellow..." },
-      { type: 'quiz', question: "Как будет «оранжевый»?", options: ["orange", "purple", "pink"], correctAnswer: "orange", hint: "Orange fruit is orange!" }
+      { type: 'quiz', question: "Как будет «оранжевый»?", options: ["orange", "purple", "pink", "Никто не знает", "Не знаю"], correctAnswer: "orange", hint: "Orange fruit is orange!" }
     ],
     reward: { stars: 3, message: "Excellent! You know colors! 🎨" }
   },
@@ -1365,10 +1365,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "«Mother» — это:", options: ["папа", "мама", "сестра"], correctAnswer: "мама", hint: "Mother = мама" },
-      { type: 'quiz', question: "Как будет «бабушка» на английском?", options: ["grandmother", "grandfather", "mother"], correctAnswer: "grandmother", hint: "Grand + mother = grandmother" },
-      { type: 'fill', question: "Brother — это __", correctAnswer: "брат", hint: "Brother = брат, Sister = сестра" },
-      { type: 'quiz', question: "«Father» — это:", options: ["отец", "дедушка", "брат"], correctAnswer: "отец", hint: "Father = папа, отец" }
+      { type: 'quiz', question: "«Mother» — это:", options: ["папа", "мама", "сестра", "Никто не знает", "Не знаю"], correctAnswer: "мама", hint: "Mother = мама" },
+      { type: 'quiz', question: "Как будет «бабушка» на английском?", options: ["grandmother", "grandfather", "mother", "Никто не знает", "Не знаю"], correctAnswer: "grandmother", hint: "Grand + mother = grandmother" },
+      { type: 'quiz', question: "Brother — это __", options: ["брат", "сестра", "отец", "мать", "дядя", "дедушка"], correctAnswer: "брат", hint: "Brother = брат, Sister = сестра" },
+      { type: 'quiz', question: "«Father» — это:", options: ["отец", "дедушка", "брат", "Никто не знает", "Не знаю"], correctAnswer: "отец", hint: "Father = папа, отец" }
     ],
     reward: { stars: 3, message: "Great! You know family! 👨‍👩‍👧‍👦" }
   },
@@ -1378,10 +1378,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «кошка» на английском?", options: ["dog", "cat", "bird"], correctAnswer: "cat", hint: "Meow! 🐱" },
-      { type: 'quiz', question: "«Dog» — это:", options: ["собака", "кошка", "лошадь"], correctAnswer: "собака", hint: "Woof! 🐕" },
-      { type: 'quiz', question: "Как будет «лев»?", options: ["tiger", "lion", "bear"], correctAnswer: "lion", hint: "King of the jungle 🦁" },
-      { type: 'fill', question: "Elephant — это __", correctAnswer: "слон", hint: "Big grey animal with a trunk 🐘" }
+      { type: 'quiz', question: "Как будет «кошка» на английском?", options: ["dog", "cat", "bird", "Никто не знает", "Не знаю"], correctAnswer: "cat", hint: "Meow! 🐱" },
+      { type: 'quiz', question: "«Dog» — это:", options: ["собака", "кошка", "лошадь", "Никто не знает", "Не знаю"], correctAnswer: "собака", hint: "Woof! 🐕" },
+      { type: 'quiz', question: "Как будет «лев»?", options: ["tiger", "lion", "bear", "Никто не знает", "Не знаю"], correctAnswer: "lion", hint: "King of the jungle 🦁" },
+      { type: 'quiz', question: "Elephant — это __", options: ["слон", "тигр", "медведь", "лев", "зебра", "обезьяна"], correctAnswer: "слон", hint: "Big grey animal with a trunk 🐘" }
     ],
     reward: { stars: 3, message: "Super! You know animals! 🐾" }
   },
@@ -1391,10 +1391,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "«Apple» — это:", options: ["апельсин", "яблоко", "банан"], correctAnswer: "яблоко", hint: "Red or green fruit 🍎" },
-      { type: 'quiz', question: "Как будет «хлеб» на английском?", options: ["bread", "water", "milk"], correctAnswer: "bread", hint: "Bread 🍞" },
-      { type: 'quiz', question: "«Water» — это:", options: ["молоко", "вода", "сок"], correctAnswer: "вода", hint: "We drink water 💧" },
-      { type: 'fill', question: "Banana — это __", correctAnswer: "банан", hint: "Yellow fruit 🍌" }
+      { type: 'quiz', question: "«Apple» — это:", options: ["апельсин", "яблоко", "банан", "Никто не знает", "Не знаю"], correctAnswer: "яблоко", hint: "Red or green fruit 🍎" },
+      { type: 'quiz', question: "Как будет «хлеб» на английском?", options: ["bread", "water", "milk", "Никто не знает", "Не знаю"], correctAnswer: "bread", hint: "Bread 🍞" },
+      { type: 'quiz', question: "«Water» — это:", options: ["молоко", "вода", "сок", "Никто не знает", "Не знаю"], correctAnswer: "вода", hint: "We drink water 💧" },
+      { type: 'quiz', question: "Banana — это __", options: ["банан", "яблоко", "апельсин", "груша", "виноград", "арбуз"], correctAnswer: "банан", hint: "Yellow fruit 🍌" }
     ],
     reward: { stars: 3, message: "Excellent! You know food! 🍎" }
   },
@@ -1404,10 +1404,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «понедельник»?", options: ["Monday", "Sunday", "Friday"], correctAnswer: "Monday", hint: "First day of the week" },
-      { type: 'quiz', question: "«Sunday» — это:", options: ["суббота", "воскресенье", "понедельник"], correctAnswer: "воскресенье", hint: "Last day of the week" },
-      { type: 'quiz', question: "Какой месяц «January»?", options: ["февраль", "январь", "март"], correctAnswer: "январь", hint: "First month of the year" },
-      { type: 'quiz', question: "Как будет «лето»?", options: ["spring", "summer", "winter"], correctAnswer: "summer", hint: "Hot season with holidays ☀️" }
+      { type: 'quiz', question: "Как будет «понедельник»?", options: ["Monday", "Sunday", "Friday", "Никто не знает", "Не знаю"], correctAnswer: "Monday", hint: "First day of the week" },
+      { type: 'quiz', question: "«Sunday» — это:", options: ["суббота", "воскресенье", "понедельник", "Никто не знает", "Не знаю"], correctAnswer: "воскресенье", hint: "Last day of the week" },
+      { type: 'quiz', question: "Какой месяц «January»?", options: ["февраль", "январь", "март", "Никто не знает", "Не знаю"], correctAnswer: "январь", hint: "First month of the year" },
+      { type: 'quiz', question: "Как будет «лето»?", options: ["spring", "summer", "winter", "Никто не знает", "Не знаю"], correctAnswer: "summer", hint: "Hot season with holidays ☀️" }
     ],
     reward: { stars: 3, message: "Great! You know calendar! 📅" }
   },
@@ -1417,10 +1417,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "«Head» — это:", options: ["рука", "голова", "нога"], correctAnswer: "голова", hint: "On your shoulders" },
-      { type: 'quiz', question: "Как будет «глаза»?", options: ["ears", "eyes", "nose"], correctAnswer: "eyes", hint: "Two eyes to see 👀" },
-      { type: 'fill', question: "Nose — это __", correctAnswer: "нос", hint: "On your face, you breathe with it 👃" },
-      { type: 'quiz', question: "«Hands» — это:", options: ["ноги", "руки", "уши"], correctAnswer: "руки", hint: "You write with your hands ✋" }
+      { type: 'quiz', question: "«Head» — это:", options: ["рука", "голова", "нога", "Никто не знает", "Не знаю"], correctAnswer: "голова", hint: "On your shoulders" },
+      { type: 'quiz', question: "Как будет «глаза»?", options: ["ears", "eyes", "nose", "Никто не знает", "Не знаю"], correctAnswer: "eyes", hint: "Two eyes to see 👀" },
+      { type: 'quiz', question: "Nose — это __", options: ["нос", "рот", "глаз", "ухо", "голова", "лицо"], correctAnswer: "нос", hint: "On your face, you breathe with it 👃" },
+      { type: 'quiz', question: "«Hands» — это:", options: ["ноги", "руки", "уши", "Никто не знает", "Не знаю"], correctAnswer: "руки", hint: "You write with your hands ✋" }
     ],
     reward: { stars: 3, message: "Super! You know body parts! 🫀" }
   },
@@ -1430,10 +1430,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "«Hello» — это:", options: ["пока", "привет", "спасибо"], correctAnswer: "привет", hint: "Greeting" },
-      { type: 'quiz', question: "Как сказать «спасибо»?", options: ["Please", "Thank you", "Sorry"], correctAnswer: "Thank you", hint: "When someone helps you" },
-      { type: 'quiz', question: "«Goodbye» — это:", options: ["здравствуйте", "до свидания", "извините"], correctAnswer: "до свидания", hint: "When you leave" },
-      { type: 'fill', question: "«Как дела?» — How __ you?", correctAnswer: "are", hint: "How are you?" }
+      { type: 'quiz', question: "«Hello» — это:", options: ["пока", "привет", "спасибо", "Никто не знает", "Не знаю"], correctAnswer: "привет", hint: "Greeting" },
+      { type: 'quiz', question: "Как сказать «спасибо»?", options: ["Please", "Thank you", "Sorry", "Никто не знает", "Не знаю"], correctAnswer: "Thank you", hint: "When someone helps you" },
+      { type: 'quiz', question: "«Goodbye» — это:", options: ["здравствуйте", "до свидания", "извините", "Никто не знает", "Не знаю"], correctAnswer: "до свидания", hint: "When you leave" },
+      { type: 'quiz', question: "«Как дела?» — How __ you?", options: ["are", "is", "am", "do", "can", "have"], correctAnswer: "are", hint: "How are you?" }
     ],
     reward: { stars: 3, message: "Excellent! You know phrases! 💬" }
   }
