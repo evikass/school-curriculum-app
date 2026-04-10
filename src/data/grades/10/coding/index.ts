@@ -1022,7 +1022,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Какой принцип лежит в основе динамического программирования?', options: ['Принцип жадности', 'Принцип оптимальности Беллмана', 'Принцип деления пополам', 'Принцип рекурсии'], correctAnswer: 'Принцип оптимальности Беллмана', hint: 'Этот принцип говорит, что оптимальное решение содержит оптимальные решения подзадач' },
       { type: 'quiz', question: 'Что такое мемоизация?', options: ['Удаление памяти', 'Запоминание результатов подзадач', 'Сортировка данных', 'Сжатие информации'], correctAnswer: 'Запоминание результатов подзадач', hint: 'Мемоизация avoids повторных вычислений' },
       { type: 'find', question: 'Выбери классические задачи динамического программирования:', options: ['Числа Фибоначчи', 'Быстрая сортировка', 'Задача о рюкзаке', 'Бинарный поиск', 'Редакционное расстояние'], correctAnswer: ['Числа Фибоначчи', 'Задача о рюкзаке', 'Редакционное расстояние'], hint: 'Это задачи, эффективно решаемые методом ДП' },
-      { type: 'fill', question: 'Динамическое программирование снижает сложность с экспоненциальной до ___.', correctAnswer: 'полиномиальной', hint: 'Это значительное улучшение эффективности' }
+      { type: 'quiz', question: 'Динамическое программирование снижает сложность с экспоненциальной до какой?', options: ['Линейной', 'Полиномиальной', 'Логарифмической', 'Константной', 'Квадратичной', 'Кубической'], correctAnswer: 'Полиномиальной', hint: 'Это значительное улучшение эффективности' }
     ],
     reward: { stars: 3, message: "Мастер динамического программирования! 🧠" }
   },
@@ -1035,7 +1035,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Какой алгоритм находит кратчайший путь во взвешенном графе?', options: ['DFS', 'BFS', 'Дейкстры', 'Краскала'], correctAnswer: 'Дейкстры', hint: 'Этот алгоритм использует жадный подход' },
       { type: 'quiz', question: 'Какой обход графа использует стек?', options: ['BFS', 'DFS', 'Дейкстра', 'Флойда'], correctAnswer: 'DFS', hint: 'DFS — поиск в глубину, рекурсивный обход' },
       { type: 'find', question: 'Выбери алгоритмы на графах:', options: ['Дейкстры', 'Быстрая сортировка', 'Флойда-Уоршелла', 'Топологическая сортировка', 'Бинарный поиск'], correctAnswer: ['Дейкстры', 'Флойда-Уоршелла', 'Топологическая сортировка'], hint: 'Это алгоритмы для работы с графами' },
-      { type: 'fill', question: '___ сортировка применяется к ориентированным ациклическим графам.', correctAnswer: 'Топологическая', hint: 'Она определяет порядок вершин' }
+      { type: 'quiz', question: 'Какая сортировка применяется к ориентированным ациклическим графам?', options: ['Топологическая', 'Быстрая', 'Слиянием', 'Пузырьковая', 'Вставками', 'Выбором'], correctAnswer: 'Топологическая', hint: 'Она определяет порядок вершин' }
     ],
     reward: { stars: 3, message: "Навигатор графов! 🗺️" }
   },
@@ -1048,7 +1048,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Какая сложность у алгоритма Кнута-Морриса-Пратта?', options: ['O(n×m)', 'O(n+m)', 'O(n log m)', 'O(n²)'], correctAnswer: 'O(n+m)', hint: 'КМП работает линейно относительно длин строк' },
       { type: 'quiz', question: 'Что такое префикс-функция в КМП?', options: ['Длина строки', 'Длина наибольшего префикса, совпадающего с суффиксом', 'Количество символов', 'Позиция совпадения'], correctAnswer: 'Длина наибольшего префикса, совпадающего с суффиксом', hint: 'Она используется для оптимизации поиска' },
       { type: 'find', question: 'Выбери алгоритмы поиска подстроки:', options: ['Наивный', 'Кнута-Морриса-Пратта', 'Быстрая сортировка', 'Бойера-Мура', 'Дейкстры'], correctAnswer: ['Наивный', 'Кнута-Морриса-Пратта', 'Бойера-Мура'], hint: 'Эти алгоритмы ищут подстроку в строке' },
-      { type: 'fill', question: 'Z-функция возвращает массив длин наибольших префиксов, начинающихся с каждой ___.', correctAnswer: 'позиции', hint: 'Z[i] — длина префикса, начинающегося с i' }
+      { type: 'quiz', question: 'Z-функция возвращает массив длин наибольших префиксов, начинающихся с каждой чего?', options: ['Буквы', 'Позиции', 'Строки', 'Подстроки', 'Суффикса', 'Символа'], correctAnswer: 'Позиции', hint: 'Z[i] — длина префикса, начинающегося с i' }
     ],
     reward: { stars: 3, message: "Строковый мастер! 📝" }
   },
@@ -1061,7 +1061,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что такое коллизия в хешировании?', options: ['Ошибка хеш-функции', 'Одинаковые хеши для разных данных', 'Переполнение памяти', 'Замедление работы'], correctAnswer: 'Одинаковые хеши для разных данных', hint: 'Коллизии неизбежны из-за ограниченного размера хеша' },
       { type: 'quiz', question: 'Какая сложность поиска в хеш-таблице в среднем?', options: ['O(n)', 'O(log n)', 'O(1)', 'O(n²)'], correctAnswer: 'O(1)', hint: 'Хеш-таблицы обеспечивают константный доступ' },
       { type: 'find', question: 'Выбери методы разрешения коллизий:', options: ['Цепочки', 'Открытая адресация', 'Рекурсия', 'Деление пополам', 'Линейное пробирование'], correctAnswer: ['Цепочки', 'Открытая адресация', 'Линейное пробирование'], hint: 'Эти методы решают проблему коллизий' },
-      { type: 'fill', question: 'Свойства хорошей хеш-функции: детерминированность, равномерность и ___.', correctAnswer: 'быстрота', hint: 'Хеш-функция должна работать быстро' }
+      { type: 'quiz', question: 'Какие три свойства хорошей хеш-функции: детерминированность, равномерность и?', options: ['Быстрота', 'Уникальность', 'Обратимость', 'Сложность', 'Случайность', 'Стабильность'], correctAnswer: 'Быстрота', hint: 'Хеш-функция должна работать быстро' }
     ],
     reward: { stars: 3, message: "Хеш-мастер! #️⃣" }
   },
@@ -1074,7 +1074,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что такое чистая функция?', options: ['Функция без аргументов', 'Функция без побочных эффектов', 'Функция с одним аргументом', 'Функция, возвращающая число'], correctAnswer: 'Функция без побочных эффектов', hint: 'Чистая функция всегда возвращает одинаковый результат для одинаковых входов' },
       { type: 'quiz', question: 'Что означает иммутабельность?', options: ['Изменяемость данных', 'Неизменяемость данных', 'Удаление данных', 'Копирование данных'], correctAnswer: 'Неизменяемость данных', hint: 'Иммутабельные данные нельзя изменить после создания' },
       { type: 'find', question: 'Выбери функции высшего порядка:', options: ['map', 'filter', 'reduce', 'print', 'input', 'len'], correctAnswer: ['map', 'filter', 'reduce'], hint: 'Они принимают или возвращают функции' },
-      { type: 'fill', question: '___ — это анонимные функции в функциональном программировании.', correctAnswer: 'Лямбда-выражения', hint: 'Они записываются без имени' }
+      { type: 'quiz', question: 'Как называются анонимные функции в функциональном программировании?', options: ['Лямбда-выражения', 'Стрелочные функции', 'Замыкания', 'Коллбеки', 'Генераторы', 'Итераторы'], correctAnswer: 'Лямбда-выражения', hint: 'Они записываются без имени' }
     ],
     reward: { stars: 3, message: "Функциональный мыслитель! λ" }
   },
@@ -1087,7 +1087,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что такое замыкание?', options: ['Закрытие программы', 'Функция, запоминающая лексическое окружение', 'Блокировка переменной', 'Удаление функции'], correctAnswer: 'Функция, запоминающая лексическое окружение', hint: 'Замыкание "замыкает" переменные внешней функции' },
       { type: 'quiz', question: 'Что делает декоратор?', options: ['Удаляет функцию', 'Модифицирует поведение функции', 'Создаёт класс', 'Вызывает ошибку'], correctAnswer: 'Модифицирует поведение функции', hint: 'Декоратор оборачивает функцию, добавляя функциональность' },
       { type: 'find', question: 'Выбери применения декораторов:', options: ['Логирование', 'Кэширование', 'Сортировка', 'Проверка прав', 'Хеширование'], correctAnswer: ['Логирование', 'Кэширование', 'Проверка прав'], hint: 'Декораторы добавляют кросс-функциональность' },
-      { type: 'fill', question: 'Синтаксис @decorator — это ___ для применения декоратора.', correctAnswer: 'сахар', hint: 'Синтаксический сахар упрощает запись' }
+      { type: 'quiz', question: 'Синтаксис @decorator — это что для применения декоратора?', options: ['Сахар', 'Макрос', 'Директива', 'Аннотация', 'Метка', 'Тег'], correctAnswer: 'Сахар', hint: 'Синтаксический сахар упрощает запись' }
     ],
     reward: { stars: 3, message: "Мастер замыканий! 🎁" }
   },
@@ -1100,7 +1100,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что делает yield в Python?', options: ['Возвращает значение и завершает функцию', 'Возвращает значение и приостанавливает функцию', 'Удаляет переменную', 'Создаёт класс'], correctAnswer: 'Возвращает значение и приостанавливает функцию', hint: 'yield превращает функцию в генератор' },
       { type: 'quiz', question: 'Какой протокол должен реализовать итератор?', options: ['__iter__ и __next__', '__call__ и __return__', '__init__ и __del__', '__str__ и __repr__'], correctAnswer: '__iter__ и __next__', hint: 'Эти методы определяют протокол итератора' },
       { type: 'find', question: 'Выбери преимущества генераторов:', options: ['Экономия памяти', 'Ленивые вычисления', 'Быстрый случайный доступ', 'Обработка бесконечных последовательностей', 'Простота индексации'], correctAnswer: ['Экономия памяти', 'Ленивые вычисления', 'Обработка бесконечных последовательностей'], hint: 'Генераторы эффективны для больших данных' },
-      { type: 'fill', question: 'Генераторы используют ___ вычисления — элементы генерируются по требованию.', correctAnswer: 'ленивые', hint: 'Элементы не вычисляются заранее' }
+      { type: 'quiz', question: 'Генераторы используют какие вычисления — элементы генерируются по требованию?', options: ['Ленивые', 'Жадные', 'Параллельные', 'Асинхронные', 'Рекурсивные', 'Итеративные'], correctAnswer: 'Ленивые', hint: 'Элементы не вычисляются заранее' }
     ],
     reward: { stars: 3, message: "Генератор идей! ⚡" }
   },
@@ -1113,7 +1113,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Какое ключевое слово создаёт асинхронную функцию?', options: ['await', 'async', 'yield', 'lambda'], correctAnswer: 'async', hint: 'async объявляет корутину' },
       { type: 'quiz', question: 'Что такое event loop?', options: ['Цикл событий', 'Бесконечный цикл', 'Ошибка программы', 'Тип данных'], correctAnswer: 'Цикл событий', hint: 'Event loop управляет выполнением асинхронных задач' },
       { type: 'find', question: 'Выбери преимущества асинхронного программирования:', options: ['Эффективность для I/O', 'Простота отладки', 'Масштабируемость', 'Быстрота CPU-задач', 'Низкие накладные расходы'], correctAnswer: ['Эффективность для I/O', 'Масштабируемость', 'Низкие накладные расходы'], hint: 'Асинхронность хороша для операций ввода-вывода' },
-      { type: 'fill', question: 'Ключевое слово ___ приостанавливает корутину до завершения ожидаемой операции.', correctAnswer: 'await', hint: 'await ожидает результата асинхронной операции' }
+      { type: 'quiz', question: 'Какое ключевое слово приостанавливает корутину до завершения ожидаемой операции?', options: ['await', 'async', 'yield', 'return', 'break', 'continue'], correctAnswer: 'await', hint: 'await ожидает результата асинхронной операции' }
     ],
     reward: { stars: 3, message: "Асинхронный мастер! 🔄" }
   },
@@ -1126,7 +1126,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что такое первичный ключ?', options: ['Первый столбец таблицы', 'Уникальный идентификатор строки', 'Имя таблицы', 'Тип данных'], correctAnswer: 'Уникальный идентификатор строки', hint: 'Первичный ключ однозначно идентифицирует каждую запись' },
       { type: 'quiz', question: 'Что такое нормализация базы данных?', options: ['Увеличение размера БД', 'Устранение избыточности данных', 'Создание копий', 'Удаление таблиц'], correctAnswer: 'Устранение избыточности данных', hint: 'Нормализация улучшает структуру БД' },
       { type: 'find', question: 'Выбери типы JOIN:', options: ['INNER JOIN', 'LEFT JOIN', 'FAST JOIN', 'RIGHT JOIN', 'SUPER JOIN'], correctAnswer: ['INNER JOIN', 'LEFT JOIN', 'RIGHT JOIN'], hint: 'Это основные типы объединения таблиц' },
-      { type: 'fill', question: '___ ключ — это ссылка на первичный ключ другой таблицы.', correctAnswer: 'Внешний', hint: 'Внешний ключ создаёт связь между таблицами' }
+      { type: 'quiz', question: 'Какой ключ — это ссылка на первичный ключ другой таблицы?', options: ['Внешний', 'Вторичный', 'Составной', 'Уникальный', 'Индексный', 'Суррогатный'], correctAnswer: 'Внешний', hint: 'Внешний ключ создаёт связь между таблицами' }
     ],
     reward: { stars: 3, message: "Мастер баз данных! 💾" }
   },
@@ -1139,7 +1139,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Для чего используется GROUP BY?', options: ['Сортировка данных', 'Группировка строк', 'Удаление дубликатов', 'Создание таблиц'], correctAnswer: 'Группировка строк', hint: 'GROUP BY группирует строки с одинаковыми значениями' },
       { type: 'quiz', question: 'Чем HAVING отличается от WHERE?', options: ['HAVING быстрее', 'HAVING фильтрует группы, WHERE — строки', 'Они одинаковы', 'WHERE фильтрует группы'], correctAnswer: 'HAVING фильтрует группы, WHERE — строки', hint: 'HAVING применяется после GROUP BY' },
       { type: 'find', question: 'Выбери агрегатные функции SQL:', options: ['COUNT', 'SORT', 'SUM', 'FILTER', 'AVG', 'MAX'], correctAnswer: ['COUNT', 'SUM', 'AVG', 'MAX'], hint: 'Агрегатные функции вычисляют значения по группам' },
-      { type: 'fill', question: 'Свойства транзакций: атомарность, согласованность, изолированность, ___.', correctAnswer: 'долговечность', hint: 'ACID — Atomicity, Consistency, Isolation, Durability' }
+      { type: 'quiz', question: 'Какое четвёртое свойство транзакций ACID: атомарность, согласованность, изолированность, ...?', options: ['Долговечность', 'Надёжность', 'Целостность', 'Безопасность', 'Доступность', 'Согласованность'], correctAnswer: 'Долговечность', hint: 'ACID — Atomicity, Consistency, Isolation, Durability' }
     ],
     reward: { stars: 3, message: "SQL-эксперт! 📊" }
   },
@@ -1152,7 +1152,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что означает NoSQL?', options: ['No SQL', 'Not Only SQL', 'New SQL', 'No Structured Query Language'], correctAnswer: 'Not Only SQL', hint: 'NoSQL — это не только SQL, альтернативные модели данных' },
       { type: 'quiz', question: 'Какой тип NoSQL представляет MongoDB?', options: ['Ключ-значение', 'Документоориентированная', 'Колоночная', 'Графовая'], correctAnswer: 'Документоориентированная', hint: 'MongoDB хранит данные в виде документов JSON' },
       { type: 'find', question: 'Выбери типы NoSQL баз данных:', options: ['Документоориентированные', 'Ключ-значение', 'Реляционные', 'Колоночные', 'Графовые'], correctAnswer: ['Документоориентированные', 'Ключ-значение', 'Колоночные', 'Графовые'], hint: 'Это основные типы NoSQL' },
-      { type: 'fill', question: 'CAP-теорема: Consistency, Availability, Partition ___.', correctAnswer: 'tolerance', hint: 'C, A, P — три свойства распределённой системы' }
+      { type: 'quiz', question: 'CAP-теорема: Consistency, Availability, Partition что?', options: ['tolerance', 'transfer', 'time', 'timeout', 'testing', 'traffic'], correctAnswer: 'tolerance', hint: 'C, A, P — три свойства распределённой системы' }
     ],
     reward: { stars: 3, message: "NoSQL-эксперт! 🗃️" }
   },
@@ -1165,7 +1165,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что такое ORM?', options: ['База данных', 'Объектно-реляционное отображение', 'Язык запросов', 'Фреймворк'], correctAnswer: 'Объектно-реляционное отображение', hint: 'ORM связывает объекты с таблицами БД' },
       { type: 'quiz', question: 'Для чего нужна сессия в SQLAlchemy?', options: ['Хранение паролей', 'Управление соединением и транзакциями', 'Создание таблиц', 'Генерация SQL'], correctAnswer: 'Управление соединением и транзакциями', hint: 'Сессия отслеживает изменения объектов' },
       { type: 'find', question: 'Выбери методы Query API:', options: ['filter', 'order_by', 'delete_all', 'limit', 'create_table'], correctAnswer: ['filter', 'order_by', 'limit'], hint: 'Это методы для построения запросов' },
-      { type: 'fill', question: 'Инструмент для миграций в SQLAlchemy — ___.', correctAnswer: 'Alembic', hint: 'Alembic управляет версиями схемы БД' }
+      { type: 'quiz', question: 'Какой инструмент для миграций в SQLAlchemy?', options: ['Alembic', 'Migrate', 'Flyway', 'Liquibase', 'Django', 'SQLMesh'], correctAnswer: 'Alembic', hint: 'Alembic управляет версиями схемы БД' }
     ],
     reward: { stars: 3, message: "ORM-мастер! 🔗" }
   },
@@ -1178,7 +1178,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Какой протокол обеспечивает надёжную доставку?', options: ['UDP', 'TCP', 'IP', 'HTTP'], correctAnswer: 'TCP', hint: 'TCP гарантирует доставку и порядок пакетов' },
       { type: 'quiz', question: 'Какой порт используется для HTTPS?', options: ['80', '443', '22', '8080'], correctAnswer: '443', hint: '443 — стандартный порт HTTPS' },
       { type: 'find', question: 'Выбери уровни модели TCP/IP:', options: ['Прикладной', 'Транспортный', 'Физический', 'Сетевой', 'Канальный'], correctAnswer: ['Прикладной', 'Транспортный', 'Сетевой', 'Канальный'], hint: 'Это четыре уровня стека TCP/IP' },
-      { type: 'fill', question: '___ — протокол для шифрования HTTPS-трафика.', correctAnswer: 'TLS', hint: 'TLS/SSL обеспечивает шифрование' }
+      { type: 'quiz', question: 'Какой протокол шифрует HTTPS-трафик?', options: ['TLS', 'SSL', 'SSH', 'FTP', 'HTTP', 'SMTP'], correctAnswer: 'TLS', hint: 'TLS/SSL обеспечивает шифрование' }
     ],
     reward: { stars: 3, message: "Сетевой эксперт! 🌐" }
   },
@@ -1191,7 +1191,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Какой метод привязывает сокет к адресу?', options: ['connect', 'bind', 'listen', 'accept'], correctAnswer: 'bind', hint: 'bind связывает сокет с IP и портом' },
       { type: 'quiz', question: 'Какой метод принимает входящее соединение?', options: ['connect', 'bind', 'listen', 'accept'], correctAnswer: 'accept', hint: 'accept ждёт и принимает соединение' },
       { type: 'find', question: 'Выбери методы для передачи данных:', options: ['send', 'recv', 'close', 'connect', 'listen'], correctAnswer: ['send', 'recv'], hint: 'send отправляет, recv принимает данные' },
-      { type: 'fill', question: 'SOCK_STREAM — тип сокета для протокола ___.', correctAnswer: 'TCP', hint: 'SOCK_STREAM — надёжное соединение' }
+      { type: 'quiz', question: 'SOCK_STREAM — тип сокета для какого протокола?', options: ['TCP', 'UDP', 'IP', 'HTTP', 'FTP', 'SMTP'], correctAnswer: 'TCP', hint: 'SOCK_STREAM — надёжное соединение' }
     ],
     reward: { stars: 3, message: "Сокет-мастер! 🔌" }
   },
@@ -1204,7 +1204,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Какой HTTP-метод используется для создания ресурса?', options: ['GET', 'POST', 'PUT', 'DELETE'], correctAnswer: 'POST', hint: 'POST создаёт новый ресурс' },
       { type: 'quiz', question: 'Что означает статус-код 404?', options: ['Успех', 'Перенаправление', 'Не найдено', 'Ошибка сервера'], correctAnswer: 'Не найдено', hint: '404 — ресурс не существует' },
       { type: 'find', question: 'Выбери HTTP-методы:', options: ['GET', 'POST', 'SEND', 'DELETE', 'FETCH'], correctAnswer: ['GET', 'POST', 'DELETE'], hint: 'Это основные HTTP-методы' },
-      { type: 'fill', question: 'REST — это ___ стиль для веб-сервисов.', correctAnswer: 'архитектурный', hint: 'REST определяет принципы проектирования API' }
+      { type: 'quiz', question: 'REST — это какой стиль для веб-сервисов?', options: ['Архитектурный', 'Функциональный', 'Объектный', 'Процедурный', 'Событийный', 'Модульный'], correctAnswer: 'Архитектурный', hint: 'REST определяет принципы проектирования API' }
     ],
     reward: { stars: 3, message: "API-архитектор! 🌍" }
   },
@@ -1217,7 +1217,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что означает MVT в Django?', options: ['Model-View-Template', 'Model-View-Controller', 'Module-View-Template', 'Model-Value-Template'], correctAnswer: 'Model-View-Template', hint: 'MVT — архитектура Django' },
       { type: 'quiz', question: 'В каком файле определяется маршрутизация?', options: ['models.py', 'views.py', 'urls.py', 'settings.py'], correctAnswer: 'urls.py', hint: 'urls.py связывает URL с представлениями' },
       { type: 'find', question: 'Выбери компоненты Django:', options: ['ORM', 'Админка', 'Компилятор', 'Шаблоны', 'Интерпретатор'], correctAnswer: ['ORM', 'Админка', 'Шаблоны'], hint: 'Это встроенные возможности Django' },
-      { type: 'fill', question: '___ автоматически генерирует интерфейс управления данными.', correctAnswer: 'Админка', hint: 'Django admin — готовый интерфейс CRUD' }
+      { type: 'quiz', question: 'Что автоматически генерирует интерфейс управления данными в Django?', options: ['Админка', 'ORM', 'Shell', 'Миграции', 'Формы', 'Views'], correctAnswer: 'Админка', hint: 'Django admin — готовый интерфейс CRUD' }
     ],
     reward: { stars: 3, message: "Django-разработчик! 🎸" }
   },
@@ -1230,7 +1230,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Какой тип ML использует размеченные данные?', options: ['Обучение без учителя', 'Обучение с учителем', 'Обучение с подкреплением', 'Глубокое обучение'], correctAnswer: 'Обучение с учителем', hint: 'При обучении с учителем есть правильные ответы' },
       { type: 'quiz', question: 'Что такое признаки в ML?', options: ['Правильные ответы', 'Характеристики объектов', 'Алгоритмы', 'Модели'], correctAnswer: 'Характеристики объектов', hint: 'Признаки — входные данные для модели' },
       { type: 'find', question: 'Выбери библиотеки для ML:', options: ['scikit-learn', 'TensorFlow', 'Django', 'PyTorch', 'Flask'], correctAnswer: ['scikit-learn', 'TensorFlow', 'PyTorch'], hint: 'Это библиотеки машинного обучения' },
-      { type: 'fill', question: 'Датасет делится на обучающую и ___ выборки.', correctAnswer: 'тестовую', hint: 'Тестовая выборка используется для проверки' }
+      { type: 'quiz', question: 'Датасет делится на обучающую и какую выборки?', options: ['Тестовую', 'Валидационную', 'Тренировочную', 'Рабочую', 'Основную', 'Вспомогательную'], correctAnswer: 'Тестовую', hint: 'Тестовая выборка используется для проверки' }
     ],
     reward: { stars: 3, message: "ML-энтузиаст! 🧠" }
   },
@@ -1243,7 +1243,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что предсказывает линейная регрессия?', options: ['Класс объекта', 'Непрерывное значение', 'Кластер', 'Вероятность'], correctAnswer: 'Непрерывное значение', hint: 'Регрессия предсказывает числа' },
       { type: 'quiz', question: 'Какой метод оптимизации используется?', options: ['Бинарный поиск', 'Градиентный спуск', 'Сортировка', 'Хеширование'], correctAnswer: 'Градиентный спуск', hint: 'Градиентный спуск минимизирует ошибку' },
       { type: 'find', question: 'Выбери метрики регрессии:', options: ['MSE', 'Accuracy', 'MAE', 'R²', 'F1-score'], correctAnswer: ['MSE', 'MAE', 'R²'], hint: 'Это метрики для регрессии' },
-      { type: 'fill', question: 'L1-регуляризация называется ___.', correctAnswer: 'Lasso', hint: 'Lasso зануляет незначимые веса' }
+      { type: 'quiz', question: 'Как называется L1-регуляризация?', options: ['Lasso', 'Ridge', 'Elastic Net', 'Dropout', 'Batch Norm', 'Early Stopping'], correctAnswer: 'Lasso', hint: 'Lasso зануляет незначимые веса' }
     ],
     reward: { stars: 3, message: "Регрессионный аналитик! 📈" }
   },
@@ -1256,7 +1256,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что предсказывает классификация?', options: ['Число', 'Класс объекта', 'Строку', 'Массив'], correctAnswer: 'Класс объекта', hint: 'Классификация распределяет по категориям' },
       { type: 'quiz', question: 'Какая метрика показывает долю правильных ответов?', options: ['Precision', 'Recall', 'Accuracy', 'F1'], correctAnswer: 'Accuracy', hint: 'Accuracy = правильные / всего' },
       { type: 'find', question: 'Выбери алгоритмы классификации:', options: ['Random Forest', 'K-means', 'SVM', 'Decision Tree', 'PCA'], correctAnswer: ['Random Forest', 'SVM', 'Decision Tree'], hint: 'Это алгоритмы классификации' },
-      { type: 'fill', question: 'ROC-кривая показывает зависимость TPR от ___.', correctAnswer: 'FPR', hint: 'FPR — False Positive Rate' }
+      { type: 'quiz', question: 'ROC-кривая показывает зависимость TPR от чего?', options: ['FPR', 'Accuracy', 'Precision', 'Recall', 'F1', 'AUC'], correctAnswer: 'FPR', hint: 'FPR — False Positive Rate' }
     ],
     reward: { stars: 3, message: "Классификатор! 🏷️" }
   },
@@ -1269,7 +1269,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Нужны ли метки для кластеризации?', options: ['Да', 'Нет', 'Иногда', 'Зависит от алгоритма'], correctAnswer: 'Нет', hint: 'Кластеризация — обучение без учителя' },
       { type: 'quiz', question: 'Какой алгоритм разбивает на K кластеров?', options: ['DBSCAN', 'K-means', 'Random Forest', 'SVM'], correctAnswer: 'K-means', hint: 'K-means делит данные на K групп' },
       { type: 'find', question: 'Выбери алгоритмы кластеризации:', options: ['K-means', 'DBSCAN', 'Logistic Regression', 'Иерархическая', 'Linear Regression'], correctAnswer: ['K-means', 'DBSCAN', 'Иерархическая'], hint: 'Это алгоритмы кластеризации' },
-      { type: 'fill', question: 'Метод ___ помогает выбрать число кластеров.', correctAnswer: 'локтя', hint: 'График инерции показывает оптимальное K' }
+      { type: 'quiz', question: 'Какой метод помогает выбрать число кластеров?', options: ['Локтя', 'Колена', 'Пика', 'Плато', 'Склона', 'Вершины'], correctAnswer: 'Локтя', hint: 'График инерции показывает оптимальное K' }
     ],
     reward: { stars: 3, message: "Кластеризатор! 🎯" }
   },
@@ -1282,7 +1282,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что такое SQL-инъекция?', options: ['Оптимизация запросов', 'Внедрение вредоносного SQL', 'Шифрование данных', 'Резервное копирование'], correctAnswer: 'Внедрение вредоносного SQL', hint: 'Инъекция — атака через пользовательский ввод' },
       { type: 'quiz', question: 'Как лучше защититься от SQL-инъекций?', options: ['Шифрование', 'Параметризованные запросы', 'Сжатие', 'Кэширование'], correctAnswer: 'Параметризованные запросы', hint: 'Параметры отделены от SQL-кода' },
       { type: 'find', question: 'Выбери типы SQL-инъекций:', options: ['In-band', 'Out-of-band', 'Blind', 'Encrypted', 'Compressed'], correctAnswer: ['In-band', 'Out-of-band', 'Blind'], hint: 'Это типы SQL-инъекций' },
-      { type: 'fill', question: 'OWASP ___ — список основных уязвимостей.', correctAnswer: 'Top 10', hint: 'OWASP Top 10 — популярные уязвимости' }
+      { type: 'quiz', question: 'OWASP что — список основных уязвимостей?', options: ['Top 10', 'Top 20', 'Best 10', 'List 10', 'Secure 10', 'Safe 10'], correctAnswer: 'Top 10', hint: 'OWASP Top 10 — популярные уязвимости' }
     ],
     reward: { stars: 3, message: "Защитник от инъекций! 🛡️" }
   },
@@ -1295,7 +1295,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что такое XSS?', options: ['Внедрение SQL', 'Внедрение JavaScript', 'Кража паролей', 'Фишинг'], correctAnswer: 'Внедрение JavaScript', hint: 'XSS — Cross-Site Scripting' },
       { type: 'quiz', question: 'Как защититься от CSRF?', options: ['Шифрование', 'CSRF-токены', 'Сжатие', 'Кэширование'], correctAnswer: 'CSRF-токены', hint: 'Токены проверяют подлинность запроса' },
       { type: 'find', question: 'Выбери типы XSS:', options: ['Reflected', 'Stored', 'Encrypted', 'DOM-based', 'Compressed'], correctAnswer: ['Reflected', 'Stored', 'DOM-based'], hint: 'Это типы XSS-атак' },
-      { type: 'fill', question: 'Content Security ___ ограничивает источники скриптов.', correctAnswer: 'Policy', hint: 'CSP — заголовок безопасности' }
+      { type: 'quiz', question: 'Content Security что ограничивает источники скриптов?', options: ['Policy', 'Protocol', 'Proxy', 'Provider', 'Portal', 'Platform'], correctAnswer: 'Policy', hint: 'CSP — заголовок безопасности' }
     ],
     reward: { stars: 3, message: "Эксперт по безопасности! 🔒" }
   },
@@ -1308,7 +1308,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Почему MD5 не подходит для паролей?', options: ['Слишком медленный', 'Слишком быстрый, уязвим к перебору', 'Не работает', 'Слишком длинный'], correctAnswer: 'Слишком быстрый, уязвим к перебору', hint: 'Быстрые хеши облегчают брутфорс' },
       { type: 'quiz', question: 'Какой алгоритм рекомендуется для паролей?', options: ['MD5', 'SHA-1', 'bcrypt', 'CRC32'], correctAnswer: 'bcrypt', hint: 'bcrypt специально создан для паролей' },
       { type: 'find', question: 'Выбери алгоритмы для хеширования паролей:', options: ['bcrypt', 'MD5', 'Argon2', 'SHA-256', 'scrypt'], correctAnswer: ['bcrypt', 'Argon2', 'scrypt'], hint: 'Это медленные алгоритмы для паролей' },
-      { type: 'fill', question: '___ — случайная добавка для уникальности хешей.', correctAnswer: 'Salt', hint: 'Salt делает каждый хеш уникальным' }
+      { type: 'quiz', question: 'Что такое случайная добавка для уникальности хешей?', options: ['Salt', 'Pepper', 'Seed', 'Nonce', 'IV', 'Key'], correctAnswer: 'Salt', hint: 'Salt делает каждый хеш уникальным' }
     ],
     reward: { stars: 3, message: "Хранитель паролей! 🔑" }
   },
@@ -1321,7 +1321,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Какой протокол шифрует HTTPS-трафик?', options: ['HTTP', 'FTP', 'TLS', 'SMTP'], correctAnswer: 'TLS', hint: 'TLS/SSL обеспечивает шифрование' },
       { type: 'quiz', question: 'Что подтверждает цифровой сертификат?', options: ['Скорость соединения', 'Подлинность сервера', 'Размер данных', 'Формат файлов'], correctAnswer: 'Подлинность сервера', hint: 'Сертификат доказывает, кто вы' },
       { type: 'find', question: 'Выбери компоненты HTTPS:', options: ['Сертификат', 'CA', 'Шифрование', 'Компрессия', 'Кэширование'], correctAnswer: ['Сертификат', 'CA', 'Шифрование'], hint: 'Это компоненты безопасного соединения' },
-      { type: 'fill', question: 'Let\'s Encrypt выдаёт ___ сертификаты.', correctAnswer: 'бесплатные', hint: 'Let\'s Encrypt — бесплатный CA' }
+      { type: 'quiz', question: 'Какие сертификаты выдаёт Let\'s Encrypt?', options: ['Бесплатные', 'Платные', 'Премиум', 'Корпоративные', 'Пробные', 'Временные'], correctAnswer: 'Бесплатные', hint: 'Let\'s Encrypt — бесплатный CA' }
     ],
     reward: { stars: 3, message: "Мастер HTTPS! 🔐" }
   },
@@ -1334,7 +1334,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что означает S в SOLID?', options: ['Simple', 'Single Responsibility', 'Secure', 'Static'], correctAnswer: 'Single Responsibility', hint: 'Один класс — одна ответственность' },
       { type: 'quiz', question: 'Какой принцип говорит о закрытости для модификации?', options: ['Single Responsibility', 'Open/Closed', 'Liskov Substitution', 'Dependency Inversion'], correctAnswer: 'Open/Closed', hint: 'Открыт для расширения, закрыт для изменения' },
       { type: 'find', question: 'Выбери принципы SOLID:', options: ['Single Responsibility', 'Open/Closed', 'Simple Code', 'Interface Segregation', 'Dependency Inversion'], correctAnswer: ['Single Responsibility', 'Open/Closed', 'Interface Segregation', 'Dependency Inversion'], hint: 'SOLID — 5 принципов' },
-      { type: 'fill', question: 'D в SOLID означает Dependency ___.', correctAnswer: 'Inversion', hint: 'Зависимость от абстракций' }
+      { type: 'quiz', question: 'D в SOLID означает Dependency что?', options: ['Inversion', 'Injection', 'Interface', 'Inheritance', 'Implementation', 'Integration'], correctAnswer: 'Inversion', hint: 'Зависимость от абстракций' }
     ],
     reward: { stars: 3, message: "SOLID-архитектор! 📐" }
   },
@@ -1347,7 +1347,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Какой паттерн гарантирует один экземпляр?', options: ['Factory', 'Singleton', 'Observer', 'Strategy'], correctAnswer: 'Singleton', hint: 'Singleton — единственный экземпляр' },
       { type: 'quiz', question: 'Какой паттерн добавляет поведение динамически?', options: ['Adapter', 'Decorator', 'Facade', 'Proxy'], correctAnswer: 'Decorator', hint: 'Decorator оборачивает объект' },
       { type: 'find', question: 'Выбери порождающие паттерны:', options: ['Singleton', 'Factory', 'Adapter', 'Builder', 'Observer'], correctAnswer: ['Singleton', 'Factory', 'Builder'], hint: 'Порождающие паттерны создают объекты' },
-      { type: 'fill', question: 'Паттерн ___ оповещает зависимые объекты об изменениях.', correctAnswer: 'Observer', hint: 'Observer — событийная модель' }
+      { type: 'quiz', question: 'Какой паттерн оповещает зависимые объекты об изменениях?', options: ['Observer', 'Singleton', 'Factory', 'Strategy', 'Decorator', 'Adapter'], correctAnswer: 'Observer', hint: 'Observer — событийная модель' }
     ],
     reward: { stars: 3, message: "Паттерн-мастер! 🧩" }
   },
@@ -1360,7 +1360,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что такое микросервис?', options: ['Большое приложение', 'Маленький независимый сервис', 'База данных', 'Фронтенд'], correctAnswer: 'Маленький независимый сервис', hint: 'Микросервис отвечает за одну функцию' },
       { type: 'quiz', question: 'Что такое API Gateway?', options: ['База данных', 'Единая точка входа', 'Кэш', 'Мониторинг'], correctAnswer: 'Единая точка входа', hint: 'Gateway маршрутизирует запросы' },
       { type: 'find', question: 'Выбери преимущества микросервисов:', options: ['Независимый деплой', 'Масштабируемость', 'Простота', 'Изоляция сбоев', 'Единая база данных'], correctAnswer: ['Независимый деплой', 'Масштабируемость', 'Изоляция сбоев'], hint: 'Это плюсы микросервисов' },
-      { type: 'fill', question: '___ используется для оркестрации контейнеров.', correctAnswer: 'Kubernetes', hint: 'Kubernetes управляет контейнерами' }
+      { type: 'quiz', question: 'Что используется для оркестрации контейнеров?', options: ['Kubernetes', 'Docker', 'Jenkins', 'Ansible', 'Terraform', 'Vagrant'], correctAnswer: 'Kubernetes', hint: 'Kubernetes управляет контейнерами' }
     ],
     reward: { stars: 3, message: "Микросервисный архитектор! 📦" }
   },
@@ -1373,7 +1373,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что означает CI?', options: ['Code Integration', 'Continuous Integration', 'Central Interface', 'Common Infrastructure'], correctAnswer: 'Continuous Integration', hint: 'CI — частая интеграция кода' },
       { type: 'quiz', question: 'Какой инструмент CI/CD от GitHub?', options: ['Jenkins', 'GitLab CI', 'GitHub Actions', 'CircleCI'], correctAnswer: 'GitHub Actions', hint: 'Actions встроен в GitHub' },
       { type: 'find', question: 'Выбери инструменты CI/CD:', options: ['Jenkins', 'Docker', 'GitHub Actions', 'GitLab CI', 'Kubernetes'], correctAnswer: ['Jenkins', 'GitHub Actions', 'GitLab CI'], hint: 'Это инструменты для автоматизации' },
-      { type: 'fill', question: 'Docker ___ описывает образ контейнера.', correctAnswer: 'Dockerfile', hint: 'Dockerfile — инструкция для образа' }
+      { type: 'quiz', question: 'Docker что описывает образ контейнера?', options: ['Dockerfile', 'Dockerfile.yaml', 'Docker.json', 'Docker.xml', 'Docker.toml', 'Docker.ini'], correctAnswer: 'Dockerfile', hint: 'Dockerfile — инструкция для образа' }
     ],
     reward: { stars: 3, message: "DevOps-инженер! 🚀" }
   },
@@ -1386,7 +1386,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что такое функциональные требования?', options: ['Как система работает', 'Что система делает', 'Сколько стоит', 'Кто разрабатывает'], correctAnswer: 'Что система делает', hint: 'Функциональные требования описывают функции' },
       { type: 'quiz', question: 'Какая диаграмма показывает структуру БД?', options: ['UML', 'ERD', 'Flowchart', 'Mind map'], correctAnswer: 'ERD', hint: 'ERD — Entity-Relationship Diagram' },
       { type: 'find', question: 'Выбери этапы проектирования:', options: ['Сбор требований', 'Написание кода', 'Выбор стека', 'Тестирование', 'Проектирование архитектуры'], correctAnswer: ['Сбор требований', 'Выбор стека', 'Проектирование архитектуры'], hint: 'Это этапы проектирования' },
-      { type: 'fill', question: 'Техническое ___ описывает требования к проекту.', correctAnswer: 'задание', hint: 'ТЗ документирует требования' }
+      { type: 'quiz', question: 'Техническое что описывает требования к проекту?', options: ['Задание', 'Решение', 'Описание', 'План', 'Условие', 'Соглашение'], correctAnswer: 'Задание', hint: 'ТЗ документирует требования' }
     ],
     reward: { stars: 3, message: "Проектировщик! 📋" }
   },
@@ -1399,7 +1399,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что такое MVP?', options: ['Максимальный продукт', 'Минимальный жизнеспособный продукт', 'Мобильная версия', 'Мультиплатформенный продукт'], correctAnswer: 'Минимальный жизнеспособный продукт', hint: 'MVP содержит только ключевую функциональность' },
       { type: 'quiz', question: 'Что такое TDD?', options: ['Test-Driven Development', 'Total Design Document', 'Technical Data Definition', 'Target Development Design'], correctAnswer: 'Test-Driven Development', hint: 'TDD — сначала тесты, потом код' },
       { type: 'find', question: 'Выбери принципы MVP:', options: ['Фокус на главном', 'Максимум функций', 'Быстрая обратная связь', 'Итеративность', 'Идеальное качество'], correctAnswer: ['Фокус на главном', 'Быстрая обратная связь', 'Итеративность'], hint: 'Это принципы MVP' },
-      { type: 'fill', question: '___ — улучшение структуры кода без изменения поведения.', correctAnswer: 'Рефакторинг', hint: 'Рефакторинг очищает код' }
+      { type: 'quiz', question: 'Как называется улучшение структуры кода без изменения поведения?', options: ['Рефакторинг', 'Оптимизация', 'Дебаггинг', 'Тестирование', 'Документирование', 'Комментирование'], correctAnswer: 'Рефакторинг', hint: 'Рефакторинг очищает код' }
     ],
     reward: { stars: 3, message: "MVP-разработчик! 🚀" }
   },
@@ -1412,7 +1412,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Какие тесты проверяют отдельные функции?', options: ['E2E', 'Интеграционные', 'Unit', 'Нагрузочные'], correctAnswer: 'Unit', hint: 'Unit-тесты изолированы и быстры' },
       { type: 'quiz', question: 'Что показывает пирамида тестирования?', options: ['Стоимость тестов', 'Соотношение типов тестов', 'Сложность тестов', 'Время выполнения'], correctAnswer: 'Соотношение типов тестов', hint: 'Много unit, меньше интеграции, мало E2E' },
       { type: 'find', question: 'Выбери типы тестов:', options: ['Unit', 'Компиляция', 'Интеграционные', 'E2E', 'Деплой'], correctAnswer: ['Unit', 'Интеграционные', 'E2E'], hint: 'Это типы тестирования' },
-      { type: 'fill', question: 'Code ___ — проверка кода другими разработчиками.', correctAnswer: 'review', hint: 'Review находит баги и улучшает код' }
+      { type: 'quiz', question: 'Code что — проверка кода другими разработчиками?', options: ['review', 'audit', 'test', 'check', 'scan', 'verify'], correctAnswer: 'review', hint: 'Review находит баги и улучшает код' }
     ],
     reward: { stars: 3, message: "Тестировщик! 🐛" }
   },
@@ -1425,7 +1425,7 @@ const games: GameLesson[] = [
       { type: 'quiz', question: 'Что такое деплой?', options: ['Написание кода', 'Развёртывание приложения', 'Тестирование', 'Проектирование'], correctAnswer: 'Развёртывание приложения', hint: 'Деплой — выкладка на production' },
       { type: 'quiz', question: 'Какой сертификат выдаёт Let\'s Encrypt?', options: ['Платный', 'Бесплатный SSL', 'Премиум', 'Корпоративный'], correctAnswer: 'Бесплатный SSL', hint: 'Let\'s Encrypt — бесплатный CA' },
       { type: 'find', question: 'Выбери варианты хостинга:', options: ['VPS', 'PaaS', 'Облачные сервисы', 'Локальный сервер', 'Флешка'], correctAnswer: ['VPS', 'PaaS', 'Облачные сервисы'], hint: 'Это способы размещения приложения' },
-      { type: 'fill', question: '___ — процесс анализа завершённого проекта.', correctAnswer: 'Рефлексия', hint: 'Рефлексия помогает учиться на опыте' }
+      { type: 'quiz', question: 'Как называется процесс анализа завершённого проекта?', options: ['Рефлексия', 'Ревью', 'Тестирование', 'Аудит', 'Дебрифинг', 'Ретроспектива'], correctAnswer: 'Рефлексия', hint: 'Рефлексия помогает учиться на опыте' }
     ],
     reward: { stars: 3, message: "Проект успешно завершён! 🎓" }
   }
