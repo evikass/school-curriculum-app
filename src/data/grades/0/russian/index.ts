@@ -523,8 +523,8 @@ export const games: GameLesson[] = [
       {
         type: 'match',
         question: "Соедини букву с её элементом:",
-        options: ["О", "А", "У"],
-        correctAnswer: ["Овал", "Палочки", "Петля"],
+        options: ["О", "А", "У", "М", "Н"],
+        correctAnswer: ["Овал", "Палочки", "Петля", "Палочки", "Палочки"],
         hint: "Из чего состоят буквы?"
       },
       {
