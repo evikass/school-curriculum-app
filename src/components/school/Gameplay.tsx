@@ -23,6 +23,7 @@ export default function Gameplay() {
   // Matching game state
   const [matchedPairs, setMatchedPairs] = useState<string[]>([])
   const [selectedLeft, setSelectedLeft] = useState<string | null>(null)
+  const [shuffledRightItems, setShuffledRightItems] = useState<string[]>([])
   // Hint system
   const [showHint, setShowHint] = useState(false)
   const [hintsUsed, setHintsUsed] = useState(0)
@@ -40,6 +41,21 @@ export default function Gameplay() {
       return () => clearInterval(interval)
     }
   }, [timedMode, showResults, answerState])
+
+  // Shuffle right items for match type when task changes
+  useEffect(() => {
+    if (!selectedGame) return
+    const currentTask = selectedGame.tasks?.[currentIndex]
+    if (currentTask?.type === 'match' && Array.isArray(currentTask.correctAnswer)) {
+      const correctAnswerArray = (currentTask.correctAnswer as any[]).map(a => String(a || ''))
+      const isNewFormat = correctAnswerArray.some(ans => typeof ans === 'string' && ans.includes('→'))
+      if (!isNewFormat) {
+        // Old format: shuffle correctAnswer for right column
+        const shuffled = [...correctAnswerArray].sort(() => Math.random() - 0.5)
+        setShuffledRightItems(shuffled)
+      }
+    }
+  }, [currentIndex, selectedGame])
 
   if (!selectedGame) return null
 
@@ -152,6 +168,7 @@ export default function Gameplay() {
     // Reset match type state for next task
     setMatchedPairs([])
     setSelectedLeft(null)
+    setShuffledRightItems([])
     setShowHint(false)
     if (currentIndex < totalTasks - 1) {
       setCurrentIndex(currentIndex + 1)
@@ -194,6 +211,7 @@ export default function Gameplay() {
     setTimer(0)
     setMatchedPairs([])
     setSelectedLeft(null)
+    setShuffledRightItems([])
     correctAnswersRef.current = 0
   }
 
@@ -488,8 +506,8 @@ export default function Gameplay() {
               } else {
                 // Old format: options and correctAnswer are parallel arrays
                 leftItems = task.options
-                // Shuffle right items for old format
-                rightItems = [...correctAnswerArray].sort(() => Math.random() - 0.5)
+                // Use pre-shuffled right items from state (prevents jumping on re-render)
+                rightItems = shuffledRightItems.length > 0 ? shuffledRightItems : correctAnswerArray
                 correctPairs = new Map(
                   task.options.map((left, i) => [left, correctAnswerArray[i] || ''])
                 )
