@@ -72,28 +72,28 @@ export const games: GameLesson[] = [
       {
         type: 'find',
         question: "Что означает Apple?",
-        options: ["Груша", "Яблоко", "Апельсин", "Банан"],
+        options: ["Груша", "Яблоко", "Апельсин", "Банан", "Виноград"],
         correctAnswer: "Яблоко",
         hint: "Apple = яблоко"
       },
       {
         type: 'find',
         question: "Что означает Milk?",
-        options: ["Вода", "Сок", "Молоко", "Чай"],
+        options: ["Вода", "Сок", "Молоко", "Чай", "Кофе"],
         correctAnswer: "Молоко",
         hint: "Milk = молоко"
       },
       {
         type: 'find',
         question: "Что означает Bread?",
-        options: ["Молоко", "Хлеб", "Сыр", "Масло"],
+        options: ["Молоко", "Хлеб", "Сыр", "Масло", "Яйцо"],
         correctAnswer: "Хлеб",
         hint: "Bread = хлеб"
       },
       {
         type: 'find',
         question: "Что означает Water?",
-        options: ["Вода", "Молоко", "Сок", "Чай"],
+        options: ["Вода", "Молоко", "Сок", "Чай", "Кофе"],
         correctAnswer: "Вода",
         hint: "Water = вода"
       }
@@ -116,14 +116,14 @@ export const games: GameLesson[] = [
       {
         type: 'find',
         question: "Какой цвет означает Black?",
-        options: ["Белый", "Чёрный", "Серый", "Коричневый"],
+        options: ["Белый", "Чёрный", "Серый", "Коричневый", "Синий"],
         correctAnswer: "Чёрный",
         hint: "Black = чёрный"
       },
       {
         type: 'find',
         question: "Какой цвет означает White?",
-        options: ["Белый", "Чёрный", "Серый", "Жёлтый"],
+        options: ["Белый", "Чёрный", "Серый", "Жёлтый", "Красный"],
         correctAnswer: "Белый",
         hint: "White = белый"
       }
@@ -153,7 +153,7 @@ export const games: GameLesson[] = [
       {
         type: 'find',
         question: "Какое число означает Seven?",
-        options: ["5", "6", "7", "8"],
+        options: ["5", "6", "7", "8", "9"],
         correctAnswer: "7",
         hint: "Seven = 7"
       }
@@ -169,28 +169,28 @@ export const games: GameLesson[] = [
       {
         type: 'find',
         question: "Какое животное означает Cat?",
-        options: ["Собака", "Кошка", "Птица", "Рыба"],
+        options: ["Собака", "Кошка", "Птица", "Рыба", "Лошадь"],
         correctAnswer: "Кошка",
         hint: "Cat = кошка"
       },
       {
         type: 'find',
         question: "Какое животное означает Dog?",
-        options: ["Кошка", "Собака", "Птица", "Лошадь"],
+        options: ["Кошка", "Собака", "Птица", "Лошадь", "Корова"],
         correctAnswer: "Собака",
         hint: "Dog = собака"
       },
       {
         type: 'find',
         question: "Найди домашнее животное:",
-        options: ["Tiger", "Lion", "Cat", "Wolf"],
+        options: ["Tiger", "Lion", "Cat", "Wolf", "Bear"],
         correctAnswer: "Cat",
         hint: "Pet = домашнее животное"
       },
       {
         type: 'find',
         question: "Найди дикое животное:",
-        options: ["Cat", "Dog", "Tiger", "Fish"],
+        options: ["Cat", "Dog", "Tiger", "Fish", "Mouse"],
         correctAnswer: "Tiger",
         hint: "Wild = дикий"
       }
