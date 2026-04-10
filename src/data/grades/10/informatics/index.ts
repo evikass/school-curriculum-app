@@ -396,11 +396,11 @@ export const games: GameLesson[] = [
     icon: "HardDrive",
     color: "text-sky-400",
     tasks: [
-      { type: 'fill', question: "1 байт = ___ бит", correctAnswer: "8", hint: "Основная единица измерения" },
+      { type: 'quiz', question: "1 байт = ? бит", options: ["8", "4", "16", "10", "2"], correctAnswer: "8", hint: "Основная единица измерения" },
       { type: 'quiz', question: "Сообщение о выпадении орла при броске монеты несёт:", options: ["1 бит", "2 бита", "1 байт", "4 бита"], correctAnswer: "1 бит", hint: "Два равновероятных исхода" },
-      { type: 'fill', question: "1 Кбайт = ___ байт", correctAnswer: "1024", hint: "2 в 10 степени" },
+      { type: 'quiz', question: "1 Кбайт = ? байт", options: ["1024", "1000", "2048", "512", "100"], correctAnswer: "1024", hint: "2 в 10 степени" },
       { type: 'quiz', question: "Формула N = 2^i связывает:", options: ["Количество событий и информацию", "Символы и байты", "Частоту и время", "Пиксели и цвета"], correctAnswer: "Количество событий и информацию", hint: "Содержательный подход" },
-      { type: 'fill', question: "Информационный вес символа i = log₂(___)", correctAnswer: "N", hint: "N — мощность алфавита" }
+      { type: 'quiz', question: "Информационный вес символа i = log₂(?):", options: ["N (мощность алфавита)", "K (количество символов)", "V (объём)", "t (время)", "f (частота)"], correctAnswer: "N (мощность алфавита)", hint: "N — мощность алфавита" }
     ],
     reward: { stars: 3, message: "Отличное понимание измерения информации!" }
   },
@@ -411,9 +411,9 @@ export const games: GameLesson[] = [
     color: "text-sky-400",
     tasks: [
       { type: 'quiz', question: "Сколько символов можно закодировать в ASCII?", options: ["256", "128", "65536", "1024"], correctAnswer: "256", hint: "1 байт = 8 бит = 2⁸" },
-      { type: 'fill', question: "Unicode использует ___ байта на символ", correctAnswer: "2", hint: "65536 символов" },
+      { type: 'quiz', question: "Unicode использует ? байта на символ:", options: ["2", "1", "4", "3", "8"], correctAnswer: "2", hint: "65536 символов" },
       { type: 'quiz', question: "Глубина цвета 8 бит позволяет закодировать:", options: ["256 цветов", "16 цветов", "65536 цветов", "8 цветов"], correctAnswer: "256 цветов", hint: "2⁸ = 256" },
-      { type: 'fill', question: "Объём звукового файла V = f × i × ___", correctAnswer: "t", hint: "t — время записи" },
+      { type: 'quiz', question: "Объём звукового файла V = f × i × ?", options: ["t (время)", "N (мощность)", "K (количество)", "s (скорость)", "v (объём)"], correctAnswer: "t (время)", hint: "t — время записи" },
       { type: 'quiz', question: "UTF-8 использует на символ:", options: ["1-4 байта", "1 байт", "2 байта", "4 байта"], correctAnswer: "1-4 байта", hint: "Переменная длина кодирования" }
     ],
     reward: { stars: 3, message: "Ты понимаешь принципы кодирования!" }
@@ -425,9 +425,9 @@ export const games: GameLesson[] = [
     color: "text-sky-400",
     tasks: [
       { type: 'quiz', question: "Какой информационный процесс: получение информации из внешнего мира?", options: ["Сбор", "Хранение", "Обработка", "Передача"], correctAnswer: "Сбор", hint: "Первичный процесс" },
-      { type: 'fill', question: "Источник → Канал связи → ___", correctAnswer: "Приёмник", hint: "Третий элемент схемы передачи" },
+      { type: 'quiz', question: "Источник → Канал связи → ?", options: ["Приёмник", "Обработчик", "Кодер", "Декодер", "Накопитель"], correctAnswer: "Приёмник", hint: "Третий элемент схемы передачи" },
       { type: 'quiz', question: "Что НЕ является цифровым носителем?", options: ["Бумага", "SSD", "Флеш-память", "Жёсткий диск"], correctAnswer: "Бумага", hint: "Аналоговый носитель" },
-      { type: 'fill', question: "Преобразование информации для защиты — это ___", correctAnswer: "шифрование", hint: "Делает данные недоступными без ключа" },
+      { type: 'quiz', question: "Преобразование информации для защиты — это:", options: ["шифрование", "кодирование", "сжатие", "архивация", "копирование"], correctAnswer: "шифрование", hint: "Делает данные недоступными без ключа" },
       { type: 'quiz', question: "Кодирование и декодирование — это:", options: ["Преобразование формы", "Преобразование содержания", "Хранение", "Передача"], correctAnswer: "Преобразование формы", hint: "Меняется вид, не смысл" }
     ],
     reward: { stars: 3, message: "Отличное знание информационных процессов!" }
@@ -438,11 +438,11 @@ export const games: GameLesson[] = [
     icon: "Binary",
     color: "text-sky-400",
     tasks: [
-      { type: 'fill', question: "10₁₀ = ___₂ (в двоичной системе)", correctAnswer: "1010", hint: "8 + 2 = 10" },
+      { type: 'quiz', question: "10₁₀ = ?₂ (в двоичной системе):", options: ["1010", "1001", "1100", "0110", "1110"], correctAnswer: "1010", hint: "8 + 2 = 10" },
       { type: 'quiz', question: "101₂ в десятичной системе равно:", options: ["5", "3", "4", "6"], correctAnswer: "5", hint: "4 + 1 = 5" },
-      { type: 'fill', question: "В шестнадцатеричной системе A = ___₁₀", correctAnswer: "10", hint: "Цифры 0-9, затем A-F" },
+      { type: 'quiz', question: "В шестнадцатеричной системе A = ?₁₀:", options: ["10", "11", "15", "16", "1"], correctAnswer: "10", hint: "Цифры 0-9, затем A-F" },
       { type: 'quiz', question: "Какие цифры используются в восьмеричной системе?", options: ["0-7", "0-8", "1-8", "0-9"], correctAnswer: "0-7", hint: "Основание 8" },
-      { type: 'fill', question: "FF₁₆ = ___₁₀", correctAnswer: "255", hint: "15×16 + 15 = 255" }
+      { type: 'quiz', question: "FF₁₆ = ?₁₀:", options: ["255", "256", "240", "127", "511"], correctAnswer: "255", hint: "15×16 + 15 = 255" }
     ],
     reward: { stars: 3, message: "Ты хорошо владеешь системами счисления!" }
   },
@@ -453,9 +453,9 @@ export const games: GameLesson[] = [
     color: "text-sky-400",
     tasks: [
       { type: 'quiz', question: "1 + 1 в двоичной системе равно:", options: ["10", "2", "11", "0"], correctAnswer: "10", hint: "0 и 1 в перенос" },
-      { type: 'fill', question: "101₂ + 110₂ = ___₂", correctAnswer: "1011", hint: "5 + 6 = 11" },
+      { type: 'quiz', question: "101₂ + 110₂ = ?₂:", options: ["1011", "1111", "1001", "1101", "0111"], correctAnswer: "1011", hint: "5 + 6 = 11" },
       { type: 'quiz', question: "Для перевода из двоичной в восьмеричную группируем по:", options: ["3 бита", "4 бита", "2 бита", "8 бит"], correctAnswer: "3 бита", hint: "2³ = 8" },
-      { type: 'fill', question: "Для перевода в шестнадцатеричную группируем по ___ бит", correctAnswer: "4", hint: "2⁴ = 16" },
+      { type: 'quiz', question: "Для перевода в шестнадцатеричную группируем по ? бит:", options: ["4", "2", "3", "8", "16"], correctAnswer: "4", hint: "2⁴ = 16" },
       { type: 'quiz', question: "10₂ - 1₂ =", options: ["1", "11", "0", "10"], correctAnswer: "1", hint: "Заем из старшего разряда" }
     ],
     reward: { stars: 3, message: "Отличные навыки двоичной арифметики!" }
@@ -467,9 +467,9 @@ export const games: GameLesson[] = [
     color: "text-sky-400",
     tasks: [
       { type: 'quiz', question: "Какое свойство означает, что алгоритм завершается?", options: ["Конечность", "Массовость", "Дискретность", "Определённость"], correctAnswer: "Конечность", hint: "Не бесконечный" },
-      { type: 'fill', question: "___ означает, что алгоритм состоит из отдельных шагов", correctAnswer: "Дискретность", hint: "По шагам" },
+      { type: 'quiz', question: "Какое свойство означает, что алгоритм состоит из отдельных шагов?", options: ["Дискретность", "Конечность", "Массовость", "Определённость", "Результативность"], correctAnswer: "Дискретность", hint: "По шагам" },
       { type: 'quiz', question: "Базовая структура «если-то-иначе» — это:", options: ["Ветвление", "Следование", "Цикл", "Массив"], correctAnswer: "Ветвление", hint: "Условный оператор" },
-      { type: 'fill', question: "Повторение действий — это ___", correctAnswer: "цикл", hint: "Базовая структура" },
+      { type: 'quiz', question: "Повторение действий — это:", options: ["цикл", "ветвление", "следование", "рекурсия", "процедура"], correctAnswer: "цикл", hint: "Базовая структура" },
       { type: 'quiz', question: "Какой способ записи алгоритма использует графические блоки?", options: ["Блок-схема", "Словесный", "Программа", "Таблица"], correctAnswer: "Блок-схема", hint: "Графическое изображение" }
     ],
     reward: { stars: 3, message: "Отличное понимание алгоритмов!" }
@@ -481,9 +481,9 @@ export const games: GameLesson[] = [
     color: "text-sky-400",
     tasks: [
       { type: 'quiz', question: "Какой тип данных для целых чисел?", options: ["integer", "real", "boolean", "string"], correctAnswer: "integer", hint: "Целочисленный тип" },
-      { type: 'fill', question: "___ — тип данных для вещественных чисел", correctAnswer: "real", hint: "Дробные числа" },
+      { type: 'quiz', question: "Какой тип данных для вещественных чисел?", options: ["real", "integer", "boolean", "string", "char"], correctAnswer: "real", hint: "Дробные числа" },
       { type: 'quiz', question: "Цикл, который выполняется заданное число раз:", options: ["For", "While", "Repeat", "If"], correctAnswer: "For", hint: "Цикл с параметром" },
-      { type: 'fill', question: "Оператор ___ выполняется, пока условие истинно", correctAnswer: "while", hint: "Цикл с предусловием" },
+      { type: 'quiz', question: "Какой оператор выполняется, пока условие истинно?", options: ["while", "for", "if", "repeat", "case"], correctAnswer: "while", hint: "Цикл с предусловием" },
       { type: 'quiz', question: "Для ввода данных используется:", options: ["read", "write", "if", "for"], correctAnswer: "read", hint: "Чтение с клавиатуры" }
     ],
     reward: { stars: 3, message: "Ты понимаешь основы программирования!" }
@@ -494,11 +494,11 @@ export const games: GameLesson[] = [
     icon: "List",
     color: "text-sky-400",
     tasks: [
-      { type: 'fill', question: "___ — упорядоченный набор однотипных элементов", correctAnswer: "Массив", hint: "Индексный доступ" },
+      { type: 'quiz', question: "Упорядоченный набор однотипных элементов — это:", options: ["Массив", "Список", "Строка", "Запись", "Файл"], correctAnswer: "Массив", hint: "Индексный доступ" },
       { type: 'quiz', question: "Доступ к элементу массива осуществляется по:", options: ["Индексу", "Имени", "Значению", "Типу"], correctAnswer: "Индексу", hint: "A[i]" },
-      { type: 'fill', question: "Для нахождения суммы элементов массива используем ___", correctAnswer: "цикл", hint: "Перебор всех элементов" },
+      { type: 'quiz', question: "Для нахождения суммы элементов массива используем:", options: ["цикл", "условие", "массив", "функцию", "процедуру"], correctAnswer: "цикл", hint: "Перебор всех элементов" },
       { type: 'quiz', question: "Для поиска максимума нужно:", options: ["Сравнить все элементы", "Сложить все элементы", "Найти среднее", "Отсортировать"], correctAnswer: "Сравнить все элементы", hint: "Перебор с запоминанием максимума" },
-      { type: 'fill', question: "Сортировка ___ — простой метод сортировки обменом", correctAnswer: "пузырьком", hint: "Обмен соседних элементов" }
+      { type: 'quiz', question: "Сортировка ??? — простой метод сортировки обменом:", options: ["пузырьком", "выбором", "вставками", "слиянием", "быстрая"], correctAnswer: "пузырьком", hint: "Обмен соседних элементов" }
     ],
     reward: { stars: 3, message: "Отличное понимание массивов!" }
   },
@@ -508,11 +508,11 @@ export const games: GameLesson[] = [
     icon: "Network",
     color: "text-sky-400",
     tasks: [
-      { type: 'fill', question: "LAN — это ___ сеть", correctAnswer: "локальная", hint: "В пределах здания" },
+      { type: 'quiz', question: "LAN — это какая сеть?", options: ["локальная", "глобальная", "городская", "региональная", "беспроводная"], correctAnswer: "локальная", hint: "В пределах здания" },
       { type: 'quiz', question: "WAN — это:", options: ["Глобальная сеть", "Локальная сеть", "Городская сеть", "Беспроводная сеть"], correctAnswer: "Глобальная сеть", hint: "Интернет" },
-      { type: 'fill', question: "___ — центральный узел в топологии «звезда»", correctAnswer: "коммутатор", hint: "Switch" },
+      { type: 'quiz', question: "Центральный узел в топологии «звезда» — это:", options: ["коммутатор", "маршрутизатор", "модем", "сервер", "хаб"], correctAnswer: "коммутатор", hint: "Switch" },
       { type: 'quiz', question: "Маршрутизатор нужен для:", options: ["Соединения сетей", "Подключения к сети", "Преобразования сигналов", "Хранения данных"], correctAnswer: "Соединения сетей", hint: "Router" },
-      { type: 'fill', question: "Модем ___ сигналы для передачи по линии связи", correctAnswer: "преобразует", hint: "Модуляция/демодуляция" }
+      { type: 'quiz', question: "Модем ??? сигналы для передачи по линии связи:", options: ["преобразует", "усиливает", "создаёт", "удаляет", "хранит"], correctAnswer: "преобразует", hint: "Модуляция/демодуляция" }
     ],
     reward: { stars: 3, message: "Ты разбираешься в компьютерных сетях!" }
   },
@@ -522,11 +522,11 @@ export const games: GameLesson[] = [
     icon: "Globe",
     color: "text-sky-400",
     tasks: [
-      { type: 'fill', question: "Сколько чисел в IPv4-адресе? ___", correctAnswer: "4", hint: "Например, 192.168.1.1" },
+      { type: 'quiz', question: "Сколько чисел в IPv4-адресе?", options: ["4", "6", "8", "2", "16"], correctAnswer: "4", hint: "Например, 192.168.1.1" },
       { type: 'quiz', question: "DNS преобразует:", options: ["Доменное имя в IP-адрес", "IP-адрес в MAC-адрес", "Сайт в файл", "Буквы в цифры"], correctAnswer: "Доменное имя в IP-адрес", hint: "Name to address" },
-      { type: 'fill', question: "HTTPS — протокол для ___ страниц", correctAnswer: "веб", hint: "Безопасный HTTP" },
+      { type: 'quiz', question: "HTTPS — протокол для ??? страниц:", options: ["веб", "файловых", "почтовых", "текстовых", "графических"], correctAnswer: "веб", hint: "Безопасный HTTP" },
       { type: 'quiz', question: "Какой протокол для передачи файлов?", options: ["FTP", "HTTP", "SMTP", "TCP"], correctAnswer: "FTP", hint: "File Transfer Protocol" },
-      { type: 'fill', question: "URL = протокол://___ /путь", correctAnswer: "домен", hint: "Адрес сайта" }
+      { type: 'quiz', question: "URL = протокол://??? /путь", options: ["домен", "IP-адрес", "сервер", "файл", "порт"], correctAnswer: "домен", hint: "Адрес сайта" }
     ],
     reward: { stars: 3, message: "Отличное знание Интернета!" }
   },
@@ -537,9 +537,9 @@ export const games: GameLesson[] = [
     color: "text-sky-400",
     tasks: [
       { type: 'quiz', question: "Троян — это:", options: ["Программа, маскирующаяся под полезную", "Самокопирующаяся программа", "Файл-зараза", "Сетевой червь"], correctAnswer: "Программа, маскирующаяся под полезную", hint: "От Троянского коня" },
-      { type: 'fill', question: "___ — поддельные сайты и письма для кражи данных", correctAnswer: "Фишинг", hint: "Phishing" },
+      { type: 'quiz', question: "Поддельные сайты и письма для кражи данных — это:", options: ["Фишинг", "Спам", "Вирус", "Троян", "Червь"], correctAnswer: "Фишинг", hint: "Phishing" },
       { type: 'quiz', question: "Ransomware — это:", options: ["Программа-вымогатель", "Антивирус", "Файрвол", "Браузер"], correctAnswer: "Программа-вымогатель", hint: "Шифрует данные" },
-      { type: 'fill', question: "DDoS — атака на отказ в ___", correctAnswer: "обслуживании", hint: "Перегрузка сервера" },
+      { type: 'quiz', question: "DDoS — атака на отказ в ???", options: ["обслуживании", "подключении", "доступе", "передаче", "шифровании"], correctAnswer: "обслуживании", hint: "Перегрузка сервера" },
       { type: 'quiz', question: "Социальная инженерия — это:", options: ["Манипуляция людьми", "Взлом паролей", "Вирусная атака", "Сетевая атака"], correctAnswer: "Манипуляция людьми", hint: "Обман пользователя" }
     ],
     reward: { stars: 3, message: "Ты понимаешь угрозы безопасности!" }
@@ -550,11 +550,11 @@ export const games: GameLesson[] = [
     icon: "Shield",
     color: "text-sky-400",
     tasks: [
-      { type: 'fill', question: "___ шифрование использует пару ключей", correctAnswer: "Асимметричное", hint: "Открытый и закрытый ключи" },
+      { type: 'quiz', question: "Какое шифрование использует пару ключей?", options: ["Асимметричное", "Симметричное", "Потоковое", "Блочное", "Сквозное"], correctAnswer: "Асимметричное", hint: "Открытый и закрытый ключи" },
       { type: 'quiz', question: "Симметричное шифрование использует:", options: ["Один ключ", "Два ключа", "Три ключа", "Без ключа"], correctAnswer: "Один ключ", hint: "Для шифрования и расшифровки" },
-      { type: 'fill', question: "2FA — это ___ аутентификация", correctAnswer: "двухфакторная", hint: "Два способа подтверждения" },
+      { type: 'quiz', question: "2FA — это какая аутентификация?", options: ["двухфакторная", "одноразовая", "биометрическая", "парольная", "сертийная"], correctAnswer: "двухфакторная", hint: "Два способа подтверждения" },
       { type: 'quiz', question: "Сигнатурный метод антивируса ищет:", options: ["Известные вирусы", "Подозрительное поведение", "Новые программы", "Файлы"], correctAnswer: "Известные вирусы", hint: "По базе сигнатур" },
-      { type: 'fill', question: "___ — копирование данных для восстановления", correctAnswer: "Резервное", hint: "Backup" }
+      { type: 'quiz', question: "??? копирование данных для восстановления:", options: ["Резервное", "Быстрое", "Полное", "Частичное", "Онлайн"], correctAnswer: "Резервное", hint: "Backup" }
     ],
     reward: { stars: 3, message: "Отличное знание защиты информации!" }
   }
