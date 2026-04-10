@@ -817,9 +817,9 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'match', question: "Соедини пример с ответом:", options: ["2 × 3", "2 × 5", "2 × 7", "2 × 9"], correctAnswer: ["6", "10", "14", "18"], hint: "Умножай на 2" },
+      { type: 'match', question: "Соедини пример с ответом:", options: ["2 × 3", "2 × 5", "2 × 7", "2 × 9", "2 × 4"], correctAnswer: ["6", "10", "14", "18", "8"], hint: "Умножай на 2" },
       { type: 'quiz', question: "2 × 6 = ?", options: ["10", "12", "14", "Никто не знает", "Не знаю"], correctAnswer: "12", hint: "2 + 2 + 2 + 2 + 2 + 2 = ?" },
-      { type: 'find', question: "Найди примеры с ответом 16:", options: ["2 × 7", "2 × 8", "2 × 9", "8 × 2"], correctAnswer: ["2 × 8", "8 × 2"], hint: "16 = 2 × 8" },
+      { type: 'find', question: "Найди примеры с ответом 16:", options: ["2 × 7", "2 × 8", "2 × 9", "8 × 2", "4 × 4"], correctAnswer: ["2 × 8", "8 × 2", "4 × 4"], hint: "16 = 2 × 8 = 4 × 4" },
       { type: 'quiz', question: "Сколько будет 2 × 4?", options: ["6", "8", "10", "Никто не знает", "Не знаю"], correctAnswer: "8", hint: "2 + 2 + 2 + 2 = ?" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь таблицу на 2! ✖️" }
@@ -830,9 +830,9 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'match', question: "Соедини пример с ответом:", options: ["3 × 4", "3 × 6", "3 × 7", "3 × 8"], correctAnswer: ["12", "18", "21", "24"], hint: "Умножай на 3" },
+      { type: 'match', question: "Соедини пример с ответом:", options: ["3 × 4", "3 × 6", "3 × 7", "3 × 8", "3 × 5"], correctAnswer: ["12", "18", "21", "24", "15"], hint: "Умножай на 3" },
       { type: 'quiz', question: "3 × 5 = ?", options: ["12", "15", "18", "Никто не знает", "Не знаю"], correctAnswer: "15", hint: "3 + 3 + 3 + 3 + 3 = ?" },
-      { type: 'find', question: "Найди примеры с ответом 18:", options: ["3 × 5", "3 × 6", "2 × 9", "3 × 4"], correctAnswer: ["3 × 6", "2 × 9"], hint: "18 = 3 × 6 = 2 × 9" },
+      { type: 'find', question: "Найди примеры с ответом 18:", options: ["3 × 5", "3 × 6", "2 × 9", "3 × 4", "6 × 3"], correctAnswer: ["3 × 6", "2 × 9", "6 × 3"], hint: "18 = 3 × 6 = 2 × 9" },
       { type: 'quiz', question: "Какое число умножить на 3, чтобы получить 21?", options: ["6", "7", "8", "Никто не знает", "Не знаю"], correctAnswer: "7", hint: "3 × ? = 21" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь таблицу на 3! 🎯" }
@@ -843,10 +843,10 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'match', question: "Соедини пример с ответом:", options: ["12 : 2", "18 : 2", "14 : 2", "16 : 2"], correctAnswer: ["6", "9", "7", "8"], hint: "Дели на 2" },
-      { type: 'match', question: "Соедини пример с ответом:", options: ["15 : 3", "21 : 3", "27 : 3", "18 : 3"], correctAnswer: ["5", "7", "9", "6"], hint: "Дели на 3" },
+      { type: 'match', question: "Соедини пример с ответом:", options: ["12 : 2", "18 : 2", "14 : 2", "16 : 2", "20 : 2"], correctAnswer: ["6", "9", "7", "8", "10"], hint: "Дели на 2" },
+      { type: 'match', question: "Соедини пример с ответом:", options: ["15 : 3", "21 : 3", "27 : 3", "18 : 3", "24 : 3"], correctAnswer: ["5", "7", "9", "6", "8"], hint: "Дели на 3" },
       { type: 'quiz', question: "24 : 3 = ?", options: ["6", "7", "8", "Никто не знает", "Не знаю"], correctAnswer: "8", hint: "Сколько раз 3 помещается в 24?" },
-      { type: 'find', question: "Найди примеры с ответом 6:", options: ["12 : 2", "18 : 3", "14 : 2", "24 : 4"], correctAnswer: ["12 : 2", "18 : 3"], hint: "Проверь каждый пример" }
+      { type: 'find', question: "Найди примеры с ответом 6:", options: ["12 : 2", "18 : 3", "14 : 2", "24 : 4", "30 : 5"], correctAnswer: ["12 : 2", "18 : 3", "24 : 4", "30 : 5"], hint: "Проверь каждый пример" }
     ],
     reward: { stars: 3, message: "Прекрасно! Ты понимаешь деление! ➗" }
   },
@@ -856,9 +856,9 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'match', question: "Соедини пример с ответом:", options: ["25 + 30", "47 + 8", "36 + 14", "28 + 35"], correctAnswer: ["55", "55", "50", "63"], hint: "Складывай числа" },
+      { type: 'match', question: "Соедини пример с ответом:", options: ["25 + 30", "47 + 8", "36 + 14", "28 + 35", "19 + 6"], correctAnswer: ["55", "55", "50", "63", "25"], hint: "Складывай числа" },
       { type: 'quiz', question: "45 + 27 = ?", options: ["62", "72", "82", "Никто не знает", "Не знаю"], correctAnswer: "72", hint: "45 + 27 = 45 + 20 + 7" },
-      { type: 'find', question: "Найди примеры с ответом больше 60:", options: ["35 + 20", "28 + 35", "45 + 18", "30 + 25"], correctAnswer: ["28 + 35", "45 + 18"], hint: "Реши каждый пример" },
+      { type: 'find', question: "Найди примеры с ответом больше 60:", options: ["35 + 20", "28 + 35", "45 + 18", "30 + 25", "50 + 15"], correctAnswer: ["28 + 35", "45 + 18", "50 + 15"], hint: "Реши каждый пример" },
       { type: 'quiz', question: "Чему равна сумма 38 и 24?", options: ["52", "62", "72", "Никто не знает", "Не знаю"], correctAnswer: "62", hint: "38 + 24 = ?" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь складывать! ➕" }
@@ -869,9 +869,9 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'match', question: "Соедини пример с ответом:", options: ["70 - 25", "52 - 7", "80 - 35", "64 - 28"], correctAnswer: ["45", "45", "45", "36"], hint: "Вычитай числа" },
+      { type: 'match', question: "Соедини пример с ответом:", options: ["70 - 25", "52 - 7", "80 - 35", "64 - 28", "90 - 45"], correctAnswer: ["45", "45", "45", "36", "45"], hint: "Вычитай числа" },
       { type: 'quiz', question: "83 - 37 = ?", options: ["36", "46", "56", "Никто не знает", "Не знаю"], correctAnswer: "46", hint: "83 - 37 = 83 - 30 - 7" },
-      { type: 'find', question: "Найди примеры с ответом меньше 30:", options: ["50 - 15", "45 - 20", "60 - 35", "70 - 50"], correctAnswer: ["45 - 20", "60 - 35", "70 - 50"], hint: "Реши каждый пример" },
+      { type: 'find', question: "Найди примеры с ответом меньше 30:", options: ["50 - 15", "45 - 20", "60 - 35", "70 - 50", "80 - 60"], correctAnswer: ["45 - 20", "60 - 35", "70 - 50", "80 - 60"], hint: "Реши каждый пример" },
       { type: 'quiz', question: "В магазине было 45 яблок. Продали 18. Сколько осталось?", options: ["25", "27", "35", "Никто не знает", "Не знаю"], correctAnswer: "27", hint: "45 - 18 = ?" }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь вычитать! ➖" }
@@ -884,7 +884,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Какое из чисел самое маленькое?", options: ["45", "23", "67", "12", "89"], correctAnswer: "12", hint: "Сравни десятки" },
       { type: 'quiz', question: "Какое из чисел самое большое?", options: ["34", "78", "15", "56", "92"], correctAnswer: "92", hint: "Найди самое большое" },
-      { type: 'find', question: "Выбери верные неравенства:", options: ["45 > 34", "23 > 45", "67 < 89", "12 > 34"], correctAnswer: ["45 > 34", "67 < 89"], hint: "Проверь каждое сравнение" },
+      { type: 'find', question: "Выбери верные неравенства:", options: ["45 > 34", "23 > 45", "67 < 89", "12 > 34", "56 < 65"], correctAnswer: ["45 > 34", "67 < 89", "56 < 65"], hint: "Проверь каждое сравнение" },
       { type: 'quiz', question: "Какое число больше: 56 или 65?", options: ["56", "65", "Они равны", "Никто не знает", "Не знаю"], correctAnswer: "65", hint: "Сравни десятки" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь сравнивать числа! ⚖️" }
@@ -896,7 +896,7 @@ export const games: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       { type: 'quiz', question: "Чему равен периметр квадрата со стороной 4 см?", options: ["12 см", "16 см", "20 см", "Никто не знает", "Не знаю"], correctAnswer: "16 см", hint: "4 + 4 + 4 + 4 = ?" },
-      { type: 'match', question: "Соедини фигуру с периметром:", options: ["Квадрат 3 см", "Квадрат 5 см", "Треугольник 2+3+4", "Прямоугольник 2×4"], correctAnswer: ["12 см", "20 см", "9 см", "12 см"], hint: "Сложи все стороны" },
+      { type: 'match', question: "Соедини фигуру с периметром:", options: ["Квадрат 3 см", "Квадрат 5 см", "Треугольник 2+3+4", "Прямоугольник 2×4", "Квадрат 2 см"], correctAnswer: ["12 см", "20 см", "9 см", "12 см", "8 см"], hint: "Сложи все стороны" },
       { type: 'quiz', question: "Периметр прямоугольника со сторонами 2 и 5 см?", options: ["10 см", "12 см", "14 см", "Никто не знает", "Не знаю"], correctAnswer: "14 см", hint: "2 + 5 + 2 + 5 = ?" },
       { type: 'quiz', question: "Стороны треугольника: 3 см, 4 см, 5 см. Найди периметр.", options: ["10 см", "11 см", "12 см", "Никто не знает", "Не знаю"], correctAnswer: "12 см", hint: "3 + 4 + 5 = ?" }
     ],
@@ -924,7 +924,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько десятков в числе 15?", options: ["1", "5", "10", "Никто не знает", "Не знаю"], correctAnswer: "1", hint: "15 = 10 + 5" },
       { type: 'quiz', question: "Какое число состоит из 1 десятка и 7 единиц?", options: ["16", "17", "18", "Никто не знает", "Не знаю"], correctAnswer: "17", hint: "10 + 7 = ?" },
       { type: 'find', question: "Найди числа от 10 до 20:", options: ["9", "12", "15", "21", "18"], correctAnswer: ["12", "15", "18"], hint: "Между 10 и 20" },
-      { type: 'match', question: "Соедини число с составом:", options: ["13", "16", "19", "14"], correctAnswer: ["10+3", "10+6", "10+9", "10+4"], hint: "Десяток + единицы" }
+      { type: 'match', question: "Соедини число с составом:", options: ["13", "16", "19", "14", "11"], correctAnswer: ["10+3", "10+6", "10+9", "10+4", "10+1"], hint: "Десяток + единицы" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь числа до 20! 🔢" }
   },
@@ -937,7 +937,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько десятков в числе 47?", options: ["4", "7", "40", "Никто не знает", "Не знаю"], correctAnswer: "4", hint: "Первая цифра — десятки" },
       { type: 'quiz', question: "Сколько единиц в числе 56?", options: ["5", "6", "50", "Никто не знает", "Не знаю"], correctAnswer: "6", hint: "Вторая цифра — единицы" },
       { type: 'find', question: "Найди числа, где 3 десятка:", options: ["13", "23", "33", "43", "30"], correctAnswer: ["33", "30"], hint: "Первая цифра 3" },
-      { type: 'match', question: "Соедини число с десятками и единицами:", options: ["25", "52", "38", "83"], correctAnswer: ["2 дес 5 ед", "5 дес 2 ед", "3 дес 8 ед", "8 дес 3 ед"], hint: "Первое — десятки, второе — единицы" }
+      { type: 'match', question: "Соедини число с десятками и единицами:", options: ["25", "52", "38", "83", "47"], correctAnswer: ["2 дес 5 ед", "5 дес 2 ед", "3 дес 8 ед", "8 дес 3 ед", "4 дес 7 ед"], hint: "Первое — десятки, второе — единицы" }
     ],
     reward: { stars: 3, message: "Супер! Ты понимаешь разряды! 📊" }
   },
