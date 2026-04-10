@@ -604,10 +604,10 @@ export const games: GameLesson[] = [
     icon: "Atom",
     color: "text-purple-400",
     tasks: [
-      { type: 'fill', question: "Путь при v = 10 м/с за 5 с: s = __ м", correctAnswer: "50", hint: "s = vt" },
-      { type: 'fill', question: "Скорость через 3 с при a = 4 м/с² из покоя: v = __ м/с", correctAnswer: "12", hint: "v = at" },
+      { type: 'quiz', question: "Путь при v = 10 м/с за 5 с равен:", options: ["50 м", "40 м", "60 м", "45 м", "55 м"], correctAnswer: "50 м", hint: "s = vt" },
+      { type: 'quiz', question: "Скорость через 3 с при a = 4 м/с² из покоя равна:", options: ["12 м/с", "8 м/с", "10 м/с", "14 м/с", "16 м/с"], correctAnswer: "12 м/с", hint: "v = at" },
       { type: 'quiz', question: "Единица ускорения в СИ:", options: ["м/с", "м/с²", "м²/с", "с/м"], correctAnswer: "м/с²", hint: "Ускорение = изменение скорости за время" },
-      { type: 'fill', question: "Путь при свободном падении за 2 с (g = 10): s = __ м", correctAnswer: "20", hint: "s = gt²/2" }
+      { type: 'quiz', question: "Путь при свободном падении за 2 с (g = 10) равен:", options: ["20 м", "10 м", "30 м", "40 м", "15 м"], correctAnswer: "20 м", hint: "s = gt²/2" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь кинематику! 🚀" }
   },
@@ -617,9 +617,9 @@ export const games: GameLesson[] = [
     icon: "Atom",
     color: "text-purple-400",
     tasks: [
-      { type: 'fill', question: "Центростремительное ускорение при v = 6 м/с, R = 3 м: a = __ м/с²", correctAnswer: "12", hint: "a = v²/R" },
+      { type: 'quiz', question: "Центростремительное ускорение при v = 6 м/с, R = 3 м равно:", options: ["12 м/с²", "8 м/с²", "18 м/с²", "6 м/с²", "24 м/с²"], correctAnswer: "12 м/с²", hint: "a = v²/R" },
       { type: 'quiz', question: "Период и частота связаны формулой:", options: ["T = ν", "T = 1/ν", "T = ν²", "T = 2πν"], correctAnswer: "T = 1/ν", hint: "Период обратно пропорционален частоте" },
-      { type: 'fill', question: "Линейная скорость v = ω × __", correctAnswer: "R", hint: "Радиус окружности" },
+      { type: 'quiz', question: "Линейная скорость v = ω × ?", options: ["R (радиус)", "T (период)", "ν (частота)", "m (масса)", "t (время)"], correctAnswer: "R (радиус)", hint: "Радиус окружности" },
       { type: 'quiz', question: "Центростремительное ускорение направлено:", options: ["От центра", "К центру", "По касательной", "Произвольно"], correctAnswer: "К центру", hint: "Поэтому называется центростремительным" }
     ],
     reward: { stars: 3, message: "Супер! Ты понимаешь движение по окружности! 🔄" }
@@ -631,7 +631,7 @@ export const games: GameLesson[] = [
     color: "text-purple-400",
     tasks: [
       { type: 'quiz', question: "F = ma — это какой закон Ньютона?", options: ["Первый", "Второй", "Третий", "Четвёртый"], correctAnswer: "Второй", hint: "Второй закон связывает силу, массу и ускорение" },
-      { type: 'fill', question: "Тело массой 3 кг движется с ускорением 2 м/с². Сила F = __ Н", correctAnswer: "6", hint: "F = ma" },
+      { type: 'quiz', question: "Тело массой 3 кг движется с ускорением 2 м/с². Сила F равна:", options: ["6 Н", "5 Н", "8 Н", "4 Н", "10 Н"], correctAnswer: "6 Н", hint: "F = ma" },
       { type: 'quiz', question: "Третий закон Ньютона гласит:", options: ["F = ma", "Действие равно противодействию", "Тело покоится", "Энергия сохраняется"], correctAnswer: "Действие равно противодействию", hint: "Силы действия и противодействия равны" },
       { type: 'quiz', question: "При равномерном движении равнодействующая сила:", options: ["F > 0", "F < 0", "F = 0", "F = ma"], correctAnswer: "F = 0", hint: "Нет ускорения — нет силы" }
     ],
@@ -643,9 +643,9 @@ export const games: GameLesson[] = [
     icon: "Atom",
     color: "text-purple-400",
     tasks: [
-      { type: 'fill', question: "Сила тяжести F = m × __", correctAnswer: "g", hint: "Ускорение свободного падения" },
+      { type: 'quiz', question: "Сила тяжести F = m × ?", options: ["g (ускорение св. падения)", "v (скорость)", "a (ускорение)", "h (высота)", "t (время)"], correctAnswer: "g (ускорение св. падения)", hint: "Ускорение свободного падения" },
       { type: 'quiz', question: "Закон Гука:", options: ["F = mg", "F = kx", "F = μN", "F = ma"], correctAnswer: "F = kx", hint: "Сила упругости" },
-      { type: 'fill', question: "Сила трения F = μ × __", correctAnswer: "N", hint: "Сила нормального давления" },
+      { type: 'quiz', question: "Сила трения F = μ × ?", options: ["N (сила норм. давления)", "m (масса)", "v (скорость)", "g (ускорение)", "k (жёсткость)"], correctAnswer: "N (сила норм. давления)", hint: "Сила нормального давления" },
       { type: 'quiz', question: "Вес тела в покое:", options: ["P = 0", "P = mg", "P = ma", "P = m(g+a)"], correctAnswer: "P = mg", hint: "Вес равен силе тяжести" }
     ],
     reward: { stars: 3, message: "Круто! Ты знаешь силы в механике! 💪" }
@@ -656,8 +656,8 @@ export const games: GameLesson[] = [
     icon: "Atom",
     color: "text-purple-400",
     tasks: [
-      { type: 'fill', question: "Импульс p = m × __", correctAnswer: "v", hint: "Скорость" },
-      { type: 'fill', question: "Импульс тела m = 2 кг, v = 3 м/с: p = __ кг·м/с", correctAnswer: "6", hint: "p = mv" },
+      { type: 'quiz', question: "Импульс p = m × ?", options: ["v (скорость)", "a (ускорение)", "t (время)", "F (сила)", "s (перемещение)"], correctAnswer: "v (скорость)", hint: "Скорость" },
+      { type: 'quiz', question: "Импульс тела m = 2 кг, v = 3 м/с равен:", options: ["6 кг·м/с", "5 кг·м/с", "8 кг·м/с", "4 кг·м/с", "10 кг·м/с"], correctAnswer: "6 кг·м/с", hint: "p = mv" },
       { type: 'quiz', question: "Закон сохранения импульса выполняется, если:", options: ["Внешние силы есть", "Внешних сил нет или они скомпенсированы", "Тело покоится", "Тело движется"], correctAnswer: "Внешних сил нет или они скомпенсированы", hint: "Замкнутая система" },
       { type: 'quiz', question: "Импульс силы равен:", options: ["mv", "ma", "Δp", "F"], correctAnswer: "Δp", hint: "Изменению импульса" }
     ],
@@ -669,10 +669,10 @@ export const games: GameLesson[] = [
     icon: "Atom",
     color: "text-purple-400",
     tasks: [
-      { type: 'fill', question: "Кинетическая энергия E = mv²/__", correctAnswer: "2", hint: "E = mv²/2" },
-      { type: 'fill', question: "Потенциальная энергия E = mgh, где h — __", correctAnswer: "высота", hint: "Высота над нулевым уровнем" },
+      { type: 'quiz', question: "Кинетическая энергия E = mv²/? ", options: ["2", "3", "4", "1", "t"], correctAnswer: "2", hint: "E = mv²/2" },
+      { type: 'quiz', question: "Потенциальная энергия E = mgh, где h — это:", options: ["высота", "время", "скорость", "масса", "ускорение"], correctAnswer: "высота", hint: "Высота над нулевым уровнем" },
       { type: 'quiz', question: "При падении тела:", options: ["Eк растёт, Eп растёт", "Eк растёт, Eп падает", "Eк падает, Eп растёт", "Обе не меняются"], correctAnswer: "Eк растёт, Eп падает", hint: "Энергия переходит" },
-      { type: 'fill', question: "Работа A = F × __", correctAnswer: "s", hint: "Перемещение" }
+      { type: 'quiz', question: "Работа A = F × ?", options: ["s (перемещение)", "t (время)", "v (скорость)", "m (масса)", "a (ускорение)"], correctAnswer: "s (перемещение)", hint: "Перемещение" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь закон сохранения энергии! ⚡" }
   },
@@ -684,7 +684,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Сколько основных положений МКТ?", options: ["2", "3", "4", "5"], correctAnswer: "3", hint: "Частицы, движение, взаимодействие" },
       { type: 'quiz', question: "pV = νRT — это уравнение:", options: ["Бойля-Мариотта", "Гей-Люссака", "Менделеева-Клапейрона", "Шарля"], correctAnswer: "Менделеева-Клапейрона", hint: "Уравнение состояния идеального газа" },
-      { type: 'fill', question: "Универсальная газовая постоянная R ≈ __ Дж/(моль·К)", correctAnswer: "8.31", hint: "R = 8.31 Дж/(моль·К)" },
+      { type: 'quiz', question: "Универсальная газовая постоянная R ≈ ? Дж/(моль·К)", options: ["8.31", "6.02", "1.38", "9.81", "3.14"], correctAnswer: "8.31", hint: "R = 8.31 Дж/(моль·К)" },
       { type: 'quiz', question: "Броуновское движение — это:", options: ["Движение молекул", "Движение частиц под ударами молекул", "Тепловое движение", "Испарение"], correctAnswer: "Движение частиц под ударами молекул", hint: "Наблюдается в микроскоп" }
     ],
     reward: { stars: 3, message: "Круто! Ты знаешь МКТ! 🔬" }
@@ -698,7 +698,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "При изотермическом процессе постоянно:", options: ["Давление", "Объём", "Температура", "Ничего"], correctAnswer: "Температура", hint: "Изотермический = постоянная температура" },
       { type: 'quiz', question: "Закон Бойля-Мариотта:", options: ["p₁V₁ = p₂V₂", "V₁/T₁ = V₂/T₂", "p₁/T₁ = p₂/T₂", "pV = const"], correctAnswer: "p₁V₁ = p₂V₂", hint: "T = const" },
       { type: 'quiz', question: "При нагревании газа при постоянном объёме:", options: ["Давление растёт", "Давление падает", "Объём растёт", "Ничего не меняется"], correctAnswer: "Давление растёт", hint: "Закон Шарля" },
-      { type: 'fill', question: "При изобарном процессе постоянно __", correctAnswer: "давление", hint: "Изобарный = постоянное давление" }
+      { type: 'quiz', question: "При изобарном процессе постоянно:", options: ["давление", "объём", "температура", "масса", "концентрация"], correctAnswer: "давление", hint: "Изобарный = постоянное давление" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь газовые законы! 🌡️" }
   },
@@ -708,10 +708,10 @@ export const games: GameLesson[] = [
     icon: "Atom",
     color: "text-purple-400",
     tasks: [
-      { type: 'fill', question: "Элементарный заряд e ≈ 1.6 × 10⁻¹⁹ __", correctAnswer: "Кл", hint: "Единица измерения заряда" },
+      { type: 'quiz', question: "Элементарный заряд e ≈ 1.6 × 10⁻¹⁹ ?", options: ["Кл (Кулон)", "В (Вольт)", "А (Ампер)", "Дж (Джоуль)", "Н (Ньютон)"], correctAnswer: "Кл (Кулон)", hint: "Единица измерения заряда" },
       { type: 'quiz', question: "Формула закона Кулона:", options: ["F = ma", "F = kq₁q₂/r²", "F = mg", "F = qE"], correctAnswer: "F = kq₁q₂/r²", hint: "Сила взаимодействия зарядов" },
       { type: 'quiz', question: "Одноимённые заряды:", options: ["Притягиваются", "Отталкиваются", "Не взаимодействуют", "Нейтрализуются"], correctAnswer: "Отталкиваются", hint: "+ и + или - и -" },
-      { type: 'fill', question: "Напряжённость E = F/__", correctAnswer: "q", hint: "Сила на заряд" }
+      { type: 'quiz', question: "Напряжённость E = F/?", options: ["q (заряд)", "m (масса)", "v (скорость)", "r (расстояние)", "t (время)"], correctAnswer: "q (заряд)", hint: "Сила на заряд" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь закон Кулона! ⚡" }
   },
@@ -721,10 +721,10 @@ export const games: GameLesson[] = [
     icon: "Atom",
     color: "text-purple-400",
     tasks: [
-      { type: 'fill', question: "Работа A = q × __", correctAnswer: "U", hint: "Напряжение" },
-      { type: 'fill', question: "Ёмкость C = q/U измеряется в __", correctAnswer: "Фарад", hint: "Единица измерения ёмкости" },
+      { type: 'quiz', question: "Работа A = q × ?", options: ["U (напряжение)", "v (скорость)", "t (время)", "m (масса)", "r (расстояние)"], correctAnswer: "U (напряжение)", hint: "Напряжение" },
+      { type: 'quiz', question: "Ёмкость C = q/U измеряется в:", options: ["Фарад", "Кулон", "Вольт", "Ом", "Джоуль"], correctAnswer: "Фарад", hint: "Единица измерения ёмкости" },
       { type: 'quiz', question: "Энергия конденсатора:", options: ["W = qU", "W = CU²/2", "W = Fd", "W = mgh"], correctAnswer: "W = CU²/2", hint: "Энергия электрического поля" },
-      { type: 'fill', question: "Разность потенциалов измеряется в __", correctAnswer: "Вольт", hint: "Единица напряжения" }
+      { type: 'quiz', question: "Разность потенциалов измеряется в:", options: ["Вольт", "Ампер", "Ом", "Ватт", "Кулон"], correctAnswer: "Вольт", hint: "Единица напряжения" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь работу и потенциал! 🔌" }
   }
