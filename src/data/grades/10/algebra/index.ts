@@ -648,7 +648,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "³√125 = ?", options: ["3", "5", "25", "15"], correctAnswer: "5", hint: "5³ = 125" },
       { type: 'quiz', question: "⁴√81 = ?", options: ["3", "9", "27", "81"], correctAnswer: "3", hint: "3⁴ = 81" },
-      { type: 'fill', question: "³√(27 × 8) = ³√27 × ³√8 = 2 × __", correctAnswer: "3", hint: "³√27 = ?" },
+      { type: 'quiz', question: "³√(27 × 8) = ³√27 × ³√8 = 2 × ?", options: ["2", "3", "4", "6", "9"], correctAnswer: "3", hint: "³√27 = ?" },
       { type: 'quiz', question: "√(x - 2) = 3. x = ?", options: ["5", "7", "11", "9"], correctAnswer: "11", hint: "x - 2 = 9" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь корни n-й степени! 🔢" }
@@ -661,7 +661,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "27^(2/3) = ?", options: ["3", "9", "27", "81"], correctAnswer: "9", hint: "³√27² = 3² = 9" },
       { type: 'quiz', question: "16^(-1/2) = ?", options: ["1/4", "-4", "4", "1/16"], correctAnswer: "1/4", hint: "1/√16" },
-      { type: 'fill', question: "a^(1/3) × a^(2/3) = a^__", correctAnswer: "1", hint: "Сложите показатели" },
+      { type: 'quiz', question: "a^(1/3) × a^(2/3) = a^?", options: ["0", "1", "1/6", "2/3", "3"], correctAnswer: "1", hint: "Сложите показатели" },
       { type: 'quiz', question: "Какое больше: 3^(1/2) или 3^(1/3)?", options: ["3^(1/2)", "3^(1/3)", "Равны", "Нельзя сравнить"], correctAnswer: "3^(1/2)", hint: "При a > 1 больше степень с большим показателем" }
     ],
     reward: { stars: 3, message: "Супер! Ты понимаешь рациональные степени! 📊" }
@@ -673,7 +673,7 @@ export const games: GameLesson[] = [
     color: "text-indigo-400",
     tasks: [
       { type: 'quiz', question: "3ˣ = 81. x = ?", options: ["2", "3", "4", "5"], correctAnswer: "4", hint: "3⁴ = 81" },
-      { type: 'fill', question: "2ˣ⁺¹ = 16. x = __", correctAnswer: "3", hint: "2³⁺¹ = 2⁴ = 16" },
+      { type: 'quiz', question: "2ˣ⁺¹ = 16. x = ?", options: ["2", "3", "4", "5", "6"], correctAnswer: "3", hint: "2³⁺¹ = 2⁴ = 16" },
       { type: 'quiz', question: "5ˣ × 5ˣ⁻¹ = 125. x = ?", options: ["1", "2", "3", "4"], correctAnswer: "2", hint: "5²ˣ⁻¹ = 5³" },
       { type: 'quiz', question: "При каком a функция y = aˣ возрастает?", options: ["a > 1", "0 < a < 1", "a < 0", "a = 1"], correctAnswer: "a > 1", hint: "Свойства показательной функции" }
     ],
@@ -687,7 +687,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "2ˣ < 32. Решение:", options: ["x < 5", "x > 5", "x < 4", "x > 4"], correctAnswer: "x < 5", hint: "2ˣ < 2⁵, основание > 1" },
       { type: 'quiz', question: "(1/2)ˣ > 4. Решение:", options: ["x > -2", "x < -2", "x > 2", "x < 2"], correctAnswer: "x < -2", hint: "(1/2)ˣ > (1/2)⁻², основание < 1" },
-      { type: 'fill', question: "3ˣ⁻² ≥ 9. x ≥ __", correctAnswer: "4", hint: "3ˣ⁻² ≥ 3²" },
+      { type: 'quiz', question: "3ˣ⁻² ≥ 9. x ≥ ?", options: ["2", "3", "4", "5", "6"], correctAnswer: "4", hint: "3ˣ⁻² ≥ 3²" },
       { type: 'quiz', question: "4ˣ ≤ 16. Решение:", options: ["x ≤ 2", "x ≥ 2", "x ≤ 4", "x ≥ 4"], correctAnswer: "x ≤ 2", hint: "4ˣ ≤ 4²" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь решать показательные неравенства! 💪" }
@@ -699,7 +699,7 @@ export const games: GameLesson[] = [
     color: "text-indigo-400",
     tasks: [
       { type: 'quiz', question: "log₂32 = ?", options: ["4", "5", "6", "16"], correctAnswer: "5", hint: "2⁵ = 32" },
-      { type: 'fill', question: "log₃(1/27) = __", correctAnswer: "-3", hint: "3⁻³ = 1/27" },
+      { type: 'quiz', question: "log₃(1/27) = ?", options: ["-3", "-2", "-1", "3", "9"], correctAnswer: "-3", hint: "3⁻³ = 1/27" },
       { type: 'quiz', question: "log₁₀1000 = ?", options: ["2", "3", "10", "100"], correctAnswer: "3", hint: "10³ = 1000" },
       { type: 'quiz', question: "3^(log₃7) = ?", options: ["3", "7", "log₃7", "21"], correctAnswer: "7", hint: "Основное логарифмическое тождество" }
     ],
@@ -712,7 +712,7 @@ export const games: GameLesson[] = [
     color: "text-indigo-400",
     tasks: [
       { type: 'quiz', question: "log₂32 - log₂2 = ?", options: ["4", "5", "15", "16"], correctAnswer: "4", hint: "log₂(32/2)" },
-      { type: 'fill', question: "log₅250 - log₅10 = log₅__ = 2", correctAnswer: "25", hint: "log₅(250/10)" },
+      { type: 'quiz', question: "log₅250 - log₅10 = log₅? = 2", options: ["10", "20", "25", "50", "240"], correctAnswer: "25", hint: "log₅(250/10)" },
       { type: 'quiz', question: "2log₃6 - log₃4 = ?", options: ["1", "2", "3", "4"], correctAnswer: "2", hint: "log₃36 - log₃4 = log₃9" },
       { type: 'quiz', question: "logₐ(bc) = ?", options: ["logₐb + logₐc", "logₐb × logₐc", "logₐb - logₐc", "logₐ(b/c)"], correctAnswer: "logₐb + logₐc", hint: "Логарифм произведения" }
     ],
@@ -724,10 +724,10 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "log₃x = 2. x = __", correctAnswer: "9", hint: "3² = 9" },
+      { type: 'quiz', question: "log₃x = 2. x = ?", options: ["3", "6", "9", "12", "27"], correctAnswer: "9", hint: "3² = 9" },
       { type: 'quiz', question: "log₂(x - 1) = 3. x = ?", options: ["7", "8", "9", "4"], correctAnswer: "9", hint: "x - 1 = 2³ = 8" },
       { type: 'quiz', question: "lg x + lg(x + 9) = 1. x = ?", options: ["1", "9", "10", "-10"], correctAnswer: "1", hint: "lg(x(x+9)) = 1, x > 0" },
-      { type: 'fill', question: "log₂²x - 3log₂x + 2 = 0. Меньший корень x = __", correctAnswer: "2", hint: "t² - 3t + 2 = 0, t = log₂x" }
+      { type: 'quiz', question: "log₂²x - 3log₂x + 2 = 0. Меньший корень x = ?", options: ["1", "2", "4", "8", "16"], correctAnswer: "2", hint: "t² - 3t + 2 = 0, t = log₂x" }
     ],
     reward: { stars: 3, message: "Круто! Ты умеешь решать логарифмические уравнения! ✏️" }
   },
@@ -737,10 +737,10 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "sin²α + cos²α = __", correctAnswer: "1", hint: "Основное тригонометрическое тождество" },
+      { type: 'quiz', question: "sin²α + cos²α = ?", options: ["0", "1", "2", "sin 2α", "cos 2α"], correctAnswer: "1", hint: "Основное тригонометрическое тождество" },
       { type: 'quiz', question: "Найти cos α, если sin α = 0.8", options: ["0.6", "-0.6", "0.36", "0.64"], correctAnswer: "0.6", hint: "cos²α = 1 - sin²α" },
       { type: 'quiz', question: "tan α × cot α = ?", options: ["0", "1", "sin α", "cos α"], correctAnswer: "1", hint: "Связь тангенса и котангенса" },
-      { type: 'fill', question: "tan α = sin α / __", correctAnswer: "cos α", hint: "Определение тангенса" }
+      { type: 'quiz', question: "tan α = sin α / ?", options: ["cos α", "sin α", "tan α", "cot α", "1"], correctAnswer: "cos α", hint: "Определение тангенса" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь тригонометрические тождества! 📐" }
   },
@@ -752,7 +752,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "sin(α + β) = ?", options: ["sin α cos β + cos α sin β", "sin α cos β - cos α sin β", "cos α cos β - sin α sin β", "cos α cos β + sin α sin β"], correctAnswer: "sin α cos β + cos α sin β", hint: "Формула синуса суммы" },
       { type: 'quiz', question: "cos(α - β) = ?", options: ["cos α cos β + sin α sin β", "cos α cos β - sin α sin β", "sin α cos β + cos α sin β", "sin α cos β - cos α sin β"], correctAnswer: "cos α cos β + sin α sin β", hint: "Формула косинуса разности" },
-      { type: 'fill', question: "sin 15° = sin(45° - __°)", correctAnswer: "30", hint: "15 = 45 - 30" },
+      { type: 'quiz', question: "sin 15° = sin(45° - ?°)", options: ["15", "20", "25", "30", "60"], correctAnswer: "30", hint: "15 = 45 - 30" },
       { type: 'quiz', question: "cos(α + β) - cos(α - β) = ?", options: ["-2sin α sin β", "2sin α sin β", "-2cos α cos β", "2cos α cos β"], correctAnswer: "-2sin α sin β", hint: "Примените формулы" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь формулы сложения! 📊" }
@@ -764,7 +764,7 @@ export const games: GameLesson[] = [
     color: "text-indigo-400",
     tasks: [
       { type: 'quiz', question: "(x⁴)' = ?", options: ["4x³", "x³", "4x⁴", "3x³"], correctAnswer: "4x³", hint: "n·xⁿ⁻¹" },
-      { type: 'fill', question: "(3x² - 2x + 1)' = 6x - __", correctAnswer: "2", hint: "(3x²)' = 6x, (-2x)' = -2" },
+      { type: 'quiz', question: "(3x² - 2x + 1)' = 6x - ?", options: ["1", "2", "3", "6", "-2"], correctAnswer: "2", hint: "(3x²)' = 6x, (-2x)' = -2" },
       { type: 'quiz', question: "(√x)' = ?", options: ["1/(2√x)", "2√x", "1/√x", "√x/2"], correctAnswer: "1/(2√x)", hint: "Таблица производных" },
       { type: 'quiz', question: "(1/x)' = ?", options: ["-1/x²", "1/x²", "-1/x", "ln x"], correctAnswer: "-1/x²", hint: "Таблица производных" }
     ],
@@ -776,9 +776,9 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "(x² + 3x - 5)' = 2x + __", correctAnswer: "3", hint: "(x²)' = 2x, (3x)' = 3" },
+      { type: 'quiz', question: "(x² + 3x - 5)' = 2x + ?", options: ["2", "3", "5", "-3", "-5"], correctAnswer: "3", hint: "(x²)' = 2x, (3x)' = 3" },
       { type: 'quiz', question: "(x × sin x)' = ?", options: ["sin x + x cos x", "x cos x", "sin x - x cos x", "cos x + sin x"], correctAnswer: "sin x + x cos x", hint: "(f × g)' = f' × g + f × g'" },
-      { type: 'fill', question: "(ln 2x)' = 1/__", correctAnswer: "x", hint: "(ln 2x)' = 2/(2x) = 1/x" },
+      { type: 'quiz', question: "(ln 2x)' = 1/?", options: ["x", "2x", "x²", "2", "ln x"], correctAnswer: "x", hint: "(ln 2x)' = 2/(2x) = 1/x" },
       { type: 'quiz', question: "(eˣ²)' = ?", options: ["2xeˣ²", "eˣ²", "xeˣ²", "2eˣ²"], correctAnswer: "2xeˣ²", hint: "Цепное правило: eˣ² × 2x" }
     ],
     reward: { stars: 3, message: "Круто! Ты знаешь правила дифференцирования! 🎯" }
@@ -789,10 +789,10 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "f(x) = x³ - 3x. Критические точки: x = 1 и x = __", correctAnswer: "-1", hint: "f'(x) = 3x² - 3 = 0" },
+      { type: 'quiz', question: "f(x) = x³ - 3x. Критические точки: x = 1 и x = ?", options: ["-1", "0", "2", "-2", "3"], correctAnswer: "-1", hint: "f'(x) = 3x² - 3 = 0" },
       { type: 'quiz', question: "Если f'(x) > 0 на интервале, то функция:", options: ["Возрастает", "Убывает", "Постоянна", "Имеет экстремум"], correctAnswer: "Возрастает", hint: "Знак производной и монотонность" },
       { type: 'quiz', question: "В точке максимума производная меняет знак:", options: ["С + на -", "С - на +", "Не меняется", "С 0 на +"], correctAnswer: "С + на -", hint: "Признак максимума" },
-      { type: 'fill', question: "f(x) = x² - 6x на [0; 5]. Наименьшее значение при x = __", correctAnswer: "3", hint: "f'(x) = 2x - 6 = 0" }
+      { type: 'quiz', question: "f(x) = x² - 6x на [0; 5]. Наименьшее значение при x = ?", options: ["0", "1", "3", "5", "6"], correctAnswer: "3", hint: "f'(x) = 2x - 6 = 0" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь применять производную! 🔬" }
   }
