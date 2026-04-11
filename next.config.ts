@@ -11,8 +11,13 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   reactStrictMode: false,
+  experimental: {
+    turbo: {
+      resolveExtensions: ['.tsx', '.ts', '.jsx', '.js', '.json'],
+    },
+  },
   turbopack: {
-    root: '..',
+    root: '/home/z/my-project/school-curriculum-app',
   },
 };
 

@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
-2:I[99068,["/school-curriculum-app/_next/static/chunks/37e48b3d06e9a89a.js","/school-curriculum-app/_next/static/chunks/41a38f696da87542.js","/school-curriculum-app/_next/static/chunks/7979b1d8ee3bf526.js"],"default"]
-3:I[81389,["/school-curriculum-app/_next/static/chunks/37e48b3d06e9a89a.js","/school-curriculum-app/_next/static/chunks/41a38f696da87542.js","/school-curriculum-app/_next/static/chunks/7979b1d8ee3bf526.js"],"default"]
-0:{"buildId":"HR61Q7L_IALAzPToYwcrS","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+2:I[39756,["/school-curriculum-app/_next/static/chunks/07f91abe78716cec.js","/school-curriculum-app/_next/static/chunks/4a74546350702b08.js","/school-curriculum-app/_next/static/chunks/2f236954d6a65e12.js"],"default"]
+3:I[37457,["/school-curriculum-app/_next/static/chunks/07f91abe78716cec.js","/school-curriculum-app/_next/static/chunks/4a74546350702b08.js","/school-curriculum-app/_next/static/chunks/2f236954d6a65e12.js"],"default"]
+0:{"buildId":"IlOS6zd8xXZPpVWQYxt3R","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
