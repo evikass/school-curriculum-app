@@ -374,8 +374,8 @@ export const games: GameLesson[] = [
       {
         type: 'find',
         question: "Выбери клавиши-модификаторы:",
-        options: ["Shift", "A", "Ctrl", "Пробел"],
-        correctAnswer: ["Shift", "Ctrl"],
+        options: ["Shift", "A", "Ctrl", "Пробел", "Alt", "Enter"],
+        correctAnswer: ["Shift", "Ctrl", "Alt"],
         hint: "Какие клавиши используются в сочетаниях?"
       },
       {
@@ -411,8 +411,8 @@ export const games: GameLesson[] = [
       {
         type: 'find',
         question: "Выбери геометрические фигуры:",
-        options: ["Круг", "Кисть", "Прямоугольник", "Карандаш"],
-        correctAnswer: ["Круг", "Прямоугольник"],
+        options: ["Круг", "Кисть", "Прямоугольник", "Карандаш", "Треугольник", "Линия"],
+        correctAnswer: ["Круг", "Прямоугольник", "Треугольник"],
         hint: "Фигуры с прямыми краями"
       },
       {
