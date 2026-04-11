@@ -1038,7 +1038,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Какая комбинация клавиш используется для копирования?", options: ["Ctrl+V", "Ctrl+C", "Ctrl+X", "Ctrl+Z", "Другой ответ"], correctAnswer: "Ctrl+C", hint: "C — от английского Copy" },
       { type: 'quiz', question: "Какая комбинация клавиш используется для вставки?", options: ["Ctrl+C", "Ctrl+V", "Ctrl+X", "Ctrl+A", "Другой ответ"], correctAnswer: "Ctrl+V", hint: "V — от английского paste, соседняя с C" },
-      { type: 'find', question: "Выбери правильные горячие клавиши:", options: ["Ctrl+Z — отмена", "Ctrl+S — сохранить", "Ctrl+D — удалить", "Ctrl+A — выделить всё"], correctAnswer: ["Ctrl+Z — отмена", "Ctrl+S — сохранить", "Ctrl+A — выделить всё"], hint: "Z — undo, S — save, A — all" },
+      { type: 'find', question: "Выбери правильные горячие клавиши:", options: ["Ctrl+Z — отмена", "Ctrl+S — сохранить", "Ctrl+D — удалить", "Ctrl+A — выделить всё", "Ctrl+C — копировать"], correctAnswer: ["Ctrl+Z — отмена", "Ctrl+S — сохранить", "Ctrl+A — выделить всё", "Ctrl+C — копировать"], hint: "Z — undo, S — save, A — all" },
       { type: 'quiz', question: "Ctrl+X используется для вырезания.", options: ["вырезания", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "вырезания", hint: "Вырезанный элемент можно вставить в другое место" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь горячие клавиши! ⌨️" }
