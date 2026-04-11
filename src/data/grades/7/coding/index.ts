@@ -511,7 +511,8 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой оператор используется для проверки условия?", options: ["if", "for", "while", "def", "Другой ответ"], correctAnswer: "if", hint: "Этот оператор проверяет истинность условия" },
       { type: 'quiz', question: "Что выведет print(2 ** 3)?", options: ["6", "8", "5", "9", "Другой ответ"], correctAnswer: "8", hint: "** — это оператор возведения в степень" },
       { type: 'find', question: "Выбери типы данных Python:", options: ["int", "float", "str", "bool", "text"], correctAnswer: ["int", "float", "str", "bool"], hint: "text — это не тип данных в Python" },
-      { type: 'quiz', question: "Функция print() выводит текст на экран.", options: ["print", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "print", hint: "Это одна из самых используемых функций" }
+      { type: 'quiz', question: "Функция print() выводит текст на экран.", options: ["print", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "print", hint: "Это одна из самых используемых функций" },
+      { type: 'quiz', question: "Какой язык программирования самый простой для начинающих?", options: ["C++", "Python", "Java", "Assembly", "Другой ответ"], correctAnswer: "Python", hint: "Простой синтаксис" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь основы Python! 🐍" }
   },
@@ -524,7 +525,8 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какое имя переменной правильное?", options: ["2name", "my-var", "userName", "class", "Другой ответ"], correctAnswer: "userName", hint: "Не начинается с цифры, не ключевое слово" },
       { type: 'quiz', question: "Что возвращает функция без return?", options: ["0", "null", "None", "False", "Другой ответ"], correctAnswer: "None", hint: "Специальное значение в Python" },
       { type: 'quiz', question: "Какой оператор сравнения «не равно»?", options: ["<>", "!=", "!==", "=/=", "Другой ответ"], correctAnswer: "!=", hint: "Используется в Python" },
-      { type: 'quiz', question: "range(3) создаёт числа: 0, 1, 2.", options: ["2", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "2", hint: "От 0 до n-1" }
+      { type: 'quiz', question: "range(3) создаёт числа: 0, 1, 2.", options: ["2", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "2", hint: "От 0 до n-1" },
+      { type: 'quiz', question: "Что делает оператор = в Python?", options: ["Сравнивает", "Присваивает значение", "Выводит", "Складывает", "Другой ответ"], correctAnswer: "Присваивает значение", hint: "Оператор присваивания" }
     ],
     reward: { stars: 3, message: "Супер! Ты понимаешь переменные! 🎯" }
   },
@@ -537,7 +539,8 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какая функция создаёт диапазон чисел?", options: ["list()", "range()", "num()", "seq()", "Другой ответ"], correctAnswer: "range()", hint: "Эта функция часто используется с циклом for" },
       { type: 'quiz', question: "Что делает оператор break?", options: ["Пропускает итерацию", "Выходит из цикла", "Продолжает цикл", "Останавливает программу", "Другой ответ"], correctAnswer: "Выходит из цикла", hint: "Прерывает выполнение цикла" },
       { type: 'quiz', question: "Что делает оператор continue?", options: ["Выходит из цикла", "Пропускает итерацию", "Начинает сначала", "Останавливает программу", "Другой ответ"], correctAnswer: "Пропускает итерацию", hint: "Переходит к следующей итерации" },
-      { type: 'quiz', question: "Цикл while выполняется, пока условие истинно.", options: ["while", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "while", hint: "Этот цикл может быть бесконечным" }
+      { type: 'quiz', question: "Цикл while выполняется, пока условие истинно.", options: ["while", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "while", hint: "Этот цикл может быть бесконечным" },
+      { type: 'quiz', question: "Чем цикл for отличается от while?", options: ["for — с предусловием", "for — перебор последовательности", "while — перебор", "Они одинаковые", "Другой ответ"], correctAnswer: "for — перебор последовательности", hint: "for используется для перебора" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь циклы! 🚀" }
   }

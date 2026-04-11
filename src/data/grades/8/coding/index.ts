@@ -752,11 +752,11 @@ export const games: GameLesson[] = [
         hint: 'Строковый тип в Python называется str' 
       },
       { 
-        type: 'match', 
-        question: 'Соедини тип данных с примером:', 
-        options: ['int', 'float', 'str', 'bool'], 
-        correctAnswer: ['42', '3.14', '"Привет"', 'True'], 
-        hint: 'int — целое, float — дробное, str — строка, bool — истина/ложь' 
+        type: 'find', 
+        question: 'Выбери типы данных в Python:', 
+        options: ['int — целые числа', 'float — дробные числа', 'str — строки', 'bool — логические значения', 'num — числа'], 
+        correctAnswer: ['int — целые числа', 'float — дробные числа', 'str — строки', 'bool — логические значения'], 
+        hint: 'Основные типы данных в Python' 
       }
     ],
     reward: { stars: 3, message: "Ты знаешь типы данных! 📊" }
@@ -826,10 +826,10 @@ export const games: GameLesson[] = [
         hint: 'range(3) создаёт числа от 0 до 2' 
       },
       { 
-        type: 'match', 
-        question: 'Соедини оператор с его действием:', 
-        options: ['break', 'continue', 'range(5)', 'for'], 
-        correctAnswer: ['Выход из цикла', 'Переход к следующей итерации', 'Числа 0,1,2,3,4', 'Цикл перебора'], 
+        type: 'find', 
+        question: 'Выбери операторы управления циклом:', 
+        options: ['break — выход из цикла', 'continue — следующая итерация', 'range(5) — числа 0-4', 'for — цикл перебора', 'stop — остановка'], 
+        correctAnswer: ['break — выход из цикла', 'continue — следующая итерация', 'range(5) — числа 0-4', 'for — цикл перебора'], 
         hint: 'Каждый оператор выполняет свою функцию в цикле' 
       }
     ],

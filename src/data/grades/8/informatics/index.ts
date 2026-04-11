@@ -369,111 +369,81 @@ except ValueError:
 
 export const games: GameLesson[] = [
   {
-    id: "test-informatics-1",
     title: "Информация и её свойства",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
-    type: "test",
-    questions: [
-      { question: "Какое свойство информации означает, что она не зависит от мнения?", options: ["Достоверность", "Объективность", "Актуальность", "Полнота"], correctAnswer: 1 },
-      { question: "Сколько бит в 1 байте?", options: ["4", "8", "16", "32"], correctAnswer: 1 },
-      { question: "Какая кодовая таблица содержит более 100 000 символов?", options: ["ASCII", "ANSI", "Unicode", "KOI-8"], correctAnswer: 2 },
-      { question: "Какой информационный процесс означает сохранение для использования?", options: ["Сбор", "Обработка", "Хранение", "Передача"], correctAnswer: 2 },
-      { question: "Чему равно количество информации при 4 возможных событиях?", options: ["1 бит", "2 бита", "4 бита", "8 бит"], correctAnswer: 1 },
-      { question: "Сколько байт в 1 Кбайте?", options: ["100", "1000", "1024", "2048"], correctAnswer: 2 },
-      { question: "Какой способ кодирования используется для представления графики пикселями?", options: ["Векторное", "Растровое", "Фрактальное", "Трёхмерное"], correctAnswer: 1 },
-      { question: "Какая формула связывает количество событий и информацию?", options: ["N = i²", "N = 2^i", "i = N/2", "N = i × 2"], correctAnswer: 1 }
-    ]
+    tasks: [
+      { type: 'quiz', question: "Какое свойство информации означает, что она не зависит от мнения?", options: ["Достоверность", "Объективность", "Актуальность", "Полнота", "Другой ответ"], correctAnswer: "Объективность", hint: "Не зависит от субъекта" },
+      { type: 'quiz', question: "Сколько бит в 1 байте?", options: ["4", "8", "16", "32", "Другой ответ"], correctAnswer: "8", hint: "Базовая единица информации" },
+      { type: 'quiz', question: "Какая кодовая таблица содержит более 100 000 символов?", options: ["ASCII", "ANSI", "Unicode", "KOI-8", "Другой ответ"], correctAnswer: "Unicode", hint: "Современный стандарт кодирования" },
+      { type: 'quiz', question: "Какой информационный процесс означает сохранение для использования?", options: ["Сбор", "Обработка", "Хранение", "Передача", "Другой ответ"], correctAnswer: "Хранение", hint: "Сохранение на носителях" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь свойства информации! 📊" }
   },
   {
-    id: "test-informatics-2",
     title: "Системы счисления",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
-    type: "test",
-    questions: [
-      { question: "Переведите число 1010₂ в десятичную систему:", options: ["5", "8", "10", "12"], correctAnswer: 2 },
-      { question: "Переведите число 13 в двоичную систему:", options: ["1010", "1011", "1100", "1101"], correctAnswer: 3 },
-      { question: "Какое основание у восьмеричной системы счисления?", options: ["2", "8", "10", "16"], correctAnswer: 1 },
-      { question: "Чему равно 7 в двоичной системе?", options: ["100", "101", "110", "111"], correctAnswer: 3 },
-      { question: "Какие цифры используются в шестнадцатеричной системе?", options: ["0-9 и A-F", "0-7", "0-9", "1-16"], correctAnswer: 0 },
-      { question: "Чему равна сумма 101₂ + 110₂?", options: ["1011", "1100", "1001", "1111"], correctAnswer: 0 },
-      { question: "Переведите число 15 в двоичную систему:", options: ["1010", "1110", "1111", "1011"], correctAnswer: 2 },
-      { question: "Какая система счисления используется в компьютерах?", options: ["Десятичная", "Восьмеричная", "Двоичная", "Шестнадцатеричная"], correctAnswer: 2 }
-    ]
+    tasks: [
+      { type: 'quiz', question: "Переведите число 1010₂ в десятичную систему:", options: ["5", "8", "10", "12", "Другой ответ"], correctAnswer: "10", hint: "1×8 + 0×4 + 1×2 + 0×1" },
+      { type: 'quiz', question: "Переведите число 13 в двоичную систему:", options: ["1010", "1011", "1100", "1101", "Другой ответ"], correctAnswer: "1101", hint: "13 = 8 + 4 + 1" },
+      { type: 'quiz', question: "Какое основание у восьмеричной системы счисления?", options: ["2", "8", "10", "16", "Другой ответ"], correctAnswer: "8", hint: "В названии системы" },
+      { type: 'quiz', question: "Чему равно 7 в двоичной системе?", options: ["100", "101", "110", "111", "Другой ответ"], correctAnswer: "111", hint: "7 = 4 + 2 + 1" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты умеешь переводить числа! 🔢" }
   },
   {
-    id: "test-informatics-3",
     title: "Понятие алгоритма",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
-    type: "test",
-    questions: [
-      { question: "Какое свойство алгоритма означает, что он состоит из отдельных шагов?", options: ["Понятность", "Дискретность", "Результативность", "Массовость"], correctAnswer: 1 },
-      { question: "Какой блок на блок-схеме означает условие?", options: ["Овал", "Прямоугольник", "Ромб", "Параллелограмм"], correctAnswer: 2 },
-      { question: "Какая базовая конструкция выбирает одну из ветвей по условию?", options: ["Следование", "Ветвление", "Цикл", "Подпрограмма"], correctAnswer: 1 },
-      { question: "Какой цикл выполняется хотя бы один раз?", options: ["Цикл с параметром", "Цикл с предусловием", "Цикл с постусловием", "Бесконечный цикл"], correctAnswer: 2 },
-      { question: "Что означает свойство массовости алгоритма?", options: ["Состоит из шагов", "Применим к классу задач", "Завершается результатом", "Понятен исполнителю"], correctAnswer: 1 },
-      { question: "Как называется набор команд, которые исполнитель может выполнять?", options: ["Алгоритм", "Программа", "Система команд исполнителя", "Блок-схема"], correctAnswer: 2 },
-      { question: "Какой способ записи алгоритма использует графические символы?", options: ["Словесный", "Графический", "Программный", "Табличный"], correctAnswer: 1 },
-      { question: "Какой блок означает начало и конец алгоритма?", options: ["Овал", "Прямоугольник", "Ромб", "Параллелограмм"], correctAnswer: 0 }
-    ]
+    tasks: [
+      { type: 'quiz', question: "Какое свойство алгоритма означает, что он состоит из отдельных шагов?", options: ["Понятность", "Дискретность", "Результативность", "Массовость", "Другой ответ"], correctAnswer: "Дискретность", hint: "Делимость на шаги" },
+      { type: 'quiz', question: "Какой блок на блок-схеме означает условие?", options: ["Овал", "Прямоугольник", "Ромб", "Параллелограмм", "Другой ответ"], correctAnswer: "Ромб", hint: "Разветвление алгоритма" },
+      { type: 'quiz', question: "Какая базовая конструкция выбирает одну из ветвей по условию?", options: ["Следование", "Ветвление", "Цикл", "Подпрограмма", "Другой ответ"], correctAnswer: "Ветвление", hint: "Выбор пути выполнения" },
+      { type: 'quiz', question: "Какой цикл выполняется хотя бы один раз?", options: ["Цикл с параметром", "Цикл с предусловием", "Цикл с постусловием", "Бесконечный цикл", "Другой ответ"], correctAnswer: "Цикл с постусловием", hint: "Условие проверяется после выполнения" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты понимаешь алгоритмы! 📋" }
   },
   {
-    id: "test-informatics-4",
     title: "Программирование на языке Python",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
-    type: "test",
-    questions: [
-      { question: "Какой тип данных используется для целых чисел в Python?", options: ["float", "str", "int", "bool"], correctAnswer: 2 },
-      { question: "Что выведет команда print(2 ** 3)?", options: ["5", "6", "8", "9"], correctAnswer: 2 },
-      { question: "Какая функция используется для вывода текста на экран?", options: ["input()", "print()", "len()", "int()"], correctAnswer: 1 },
-      { question: "Что возвращает функция range(3)?", options: ["0, 1, 2, 3", "1, 2, 3", "0, 1, 2", "3, 2, 1"], correctAnswer: 2 },
-      { question: "Какой тип данных у значения True?", options: ["int", "str", "float", "bool"], correctAnswer: 3 },
-      { question: "Какая функция используется для ввода данных с клавиатуры?", options: ["print()", "input()", "read()", "get()"], correctAnswer: 1 },
-      { question: "Что выведет print(2 + 3)?", options: ["23", "5", "2+3", "Ошибка"], correctAnswer: 1 },
-      { question: "Какой тип данных у значения 3.14?", options: ["int", "float", "str", "bool"], correctAnswer: 1 }
-    ]
+    tasks: [
+      { type: 'quiz', question: "Какой тип данных используется для целых чисел в Python?", options: ["float", "str", "int", "bool", "Другой ответ"], correctAnswer: "int", hint: "Integer — целое число" },
+      { type: 'quiz', question: "Что выведет команда print(2 ** 3)?", options: ["5", "6", "8", "9", "Другой ответ"], correctAnswer: "8", hint: "Оператор ** — возведение в степень" },
+      { type: 'quiz', question: "Какая функция используется для вывода текста на экран?", options: ["input()", "print()", "len()", "int()", "Другой ответ"], correctAnswer: "print()", hint: "Вывод на печать" },
+      { type: 'quiz', question: "Что возвращает функция range(3)?", options: ["0, 1, 2, 3", "1, 2, 3", "0, 1, 2", "3, 2, 1", "Другой ответ"], correctAnswer: "0, 1, 2", hint: "Три числа от 0" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь основы Python! 🐍" }
   },
   {
-    id: "test-informatics-5",
     title: "Алгоритмические конструкции в Python",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
-    type: "test",
-    questions: [
-      { question: "Какой оператор используется для логического И в Python?", options: ["&&", "and", "AND", "&"], correctAnswer: 1 },
-      { question: "Для чего используется оператор break?", options: ["Продолжить цикл", "Выйти из цикла", "Пропустить итерацию", "Начать сначала"], correctAnswer: 1 },
-      { question: "Чем отличается elif от if?", options: ["Ничем", "elif проверяется только если предыдущее условие ложно", "elif всегда проверяется", "if работает только в циклах"], correctAnswer: 1 },
-      { question: "Что выведет for i in range(1, 4): print(i)?", options: ["0, 1, 2, 3", "1, 2, 3", "1, 2, 3, 4", "0, 1, 2"], correctAnswer: 1 },
-      { question: "Какой оператор пропускает текущую итерацию цикла?", options: ["break", "continue", "pass", "skip"], correctAnswer: 1 },
-      { question: "Как записать условие «x больше 5 И меньше 10»?", options: ["x > 5 and x < 10", "5 < x < 10", "x > 5 && x < 10", "Оба варианта 1 и 2 верны"], correctAnswer: 3 },
-      { question: "Какой логический оператор означает «НЕ»?", options: ["not", "!", "NO", "NEG"], correctAnswer: 0 },
-      { question: "Что означает оператор or?", options: ["Логическое И", "Логическое ИЛИ", "Логическое НЕ", "Сложение"], correctAnswer: 1 }
-    ]
+    tasks: [
+      { type: 'quiz', question: "Какой оператор используется для логического И в Python?", options: ["&&", "and", "AND", "&", "Другой ответ"], correctAnswer: "and", hint: "Ключевое слово" },
+      { type: 'quiz', question: "Для чего используется оператор break?", options: ["Продолжить цикл", "Выйти из цикла", "Пропустить итерацию", "Начать сначала", "Другой ответ"], correctAnswer: "Выйти из цикла", hint: "Прерывание цикла" },
+      { type: 'quiz', question: "Чем отличается elif от if?", options: ["Ничем", "elif проверяется только если предыдущее условие ложно", "elif всегда проверяется", "if работает только в циклах", "Другой ответ"], correctAnswer: "elif проверяется только если предыдущее условие ложно", hint: "Цепочка условий" },
+      { type: 'quiz', question: "Что выведет for i in range(1, 4): print(i)?", options: ["0, 1, 2, 3", "1, 2, 3", "1, 2, 3, 4", "0, 1, 2", "Другой ответ"], correctAnswer: "1, 2, 3", hint: "От 1 до 3 включительно" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь конструкции Python! 🔀" }
   },
   {
-    id: "test-informatics-6",
     title: "Обработка данных",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
-    type: "test",
-    questions: [
-      { question: "Как добавить элемент в конец списка в Python?", options: ["add()", "append()", "insert()", "push()"], correctAnswer: 1 },
-      { question: "Какая функция возвращает длину списка?", options: ["size()", "length()", "len()", "count()"], correctAnswer: 2 },
-      { question: "Какая структура данных хранит пары «ключ-значение»?", options: ["Список", "Кортеж", "Множество", "Словарь"], correctAnswer: 3 },
-      { question: "Какой режим используется для открытия файла для чтения?", options: ["'w'", "'r'", "'a'", "'x'"], correctAnswer: 1 },
-      { question: "Какой метод преобразует строку в верхний регистр?", options: ["upper()", "toUpperCase()", "uppercase()", "capital()"], correctAnswer: 0 },
-      { question: "Какая конструкция используется для обработки ошибок?", options: ["if-else", "try-except", "for-while", "switch-case"], correctAnswer: 1 },
-      { question: "Как прочитать всё содержимое файла?", options: ["f.read()", "f.readline()", "f.readlines()", "f.get()"], correctAnswer: 0 },
-      { question: "Что выведет len('Привет')?", options: ["5", "6", "7", "Ошибка"], correctAnswer: 1 }
-    ]
+    tasks: [
+      { type: 'quiz', question: "Как добавить элемент в конец списка в Python?", options: ["add()", "append()", "insert()", "push()", "Другой ответ"], correctAnswer: "append()", hint: "Добавление в конец" },
+      { type: 'quiz', question: "Какая функция возвращает длину списка?", options: ["size()", "length()", "len()", "count()", "Другой ответ"], correctAnswer: "len()", hint: "Length — длина" },
+      { type: 'quiz', question: "Какая структура данных хранит пары «ключ-значение»?", options: ["Список", "Кортеж", "Множество", "Словарь", "Другой ответ"], correctAnswer: "Словарь", hint: "Dictionary" },
+      { type: 'quiz', question: "Какой режим используется для открытия файла для чтения?", options: ["'w'", "'r'", "'a'", "'x'", "Другой ответ"], correctAnswer: "'r'", hint: "Read — чтение" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты умеешь работать с данными! 💾" }
   }
 ]
