@@ -708,21 +708,21 @@ export const games: GameLesson[] = [
       {
         type: 'find',
         question: "Найди пример с ответом 56:",
-        options: ["7 × 7", "8 × 7", "9 × 6", "6 × 9"],
+        options: ["7 × 7", "8 × 7", "9 × 6", "6 × 9", "7 × 8", "8 × 8"],
         correctAnswer: "8 × 7",
         hint: "8 × 7 = 56"
       },
       {
         type: 'find',
         question: "Найди пример с ответом 63:",
-        options: ["7 × 8", "8 × 8", "9 × 7", "7 × 9"],
+        options: ["7 × 8", "8 × 8", "9 × 7", "7 × 9", "6 × 10", "9 × 8"],
         correctAnswer: "9 × 7",
         hint: "9 × 7 = 63"
       },
       {
         type: 'find',
         question: "Найди пример с ответом 48:",
-        options: ["6 × 7", "6 × 8", "7 × 7", "8 × 5"],
+        options: ["6 × 7", "6 × 8", "7 × 7", "8 × 5", "5 × 9", "7 × 6"],
         correctAnswer: "6 × 8",
         hint: "6 × 8 = 48"
       }
@@ -798,7 +798,7 @@ export const games: GameLesson[] = [
       {
         type: 'find',
         question: "У какого прямоугольника площадь больше?",
-        options: ["4 см × 5 см", "6 см × 3 см", "7 см × 2 см"],
+        options: ["4 см × 5 см", "6 см × 3 см", "7 см × 2 см", "3 см × 6 см", "5 см × 3 см"],
         correctAnswer: "4 см × 5 см",
         hint: "S1=20, S2=18, S3=14"
       }
@@ -814,21 +814,21 @@ export const games: GameLesson[] = [
       {
         type: 'find',
         question: "В 6 коробках по 8 карандашей. Сколько всего?",
-        options: ["42", "48", "54", "56"],
+        options: ["42", "48", "54", "56", "45", "52"],
         correctAnswer: "48",
         hint: "6 × 8 = 48"
       },
       {
         type: 'find',
         question: "В 7 рядах по 9 стульев. Сколько всего?",
-        options: ["56", "63", "72", "54"],
+        options: ["56", "63", "72", "54", "64", "49"],
         correctAnswer: "63",
         hint: "7 × 9 = 63"
       },
       {
         type: 'find',
         question: "На 8 полках по 5 книг. Сколько всего?",
-        options: ["35", "40", "45", "48"],
+        options: ["35", "40", "45", "48", "42", "50"],
         correctAnswer: "40",
         hint: "8 × 5 = 40"
       }
@@ -844,21 +844,21 @@ export const games: GameLesson[] = [
       {
         type: 'find',
         question: "36 яблок разделили на 4 детей поровну. Сколько каждому?",
-        options: ["6", "8", "9", "7"],
+        options: ["6", "8", "9", "7", "5", "10"],
         correctAnswer: "9",
         hint: "36 : 4 = 9"
       },
       {
         type: 'find',
         question: "48 конфет раздали 6 детям поровну. Сколько каждому?",
-        options: ["6", "7", "8", "9"],
+        options: ["6", "7", "8", "9", "5", "10"],
         correctAnswer: "8",
         hint: "48 : 6 = 8"
       },
       {
         type: 'find',
         question: "56 марок расклеили на 8 листов поровну. Сколько на каждом?",
-        options: ["6", "7", "8", "9"],
+        options: ["6", "7", "8", "9", "5", "10"],
         correctAnswer: "7",
         hint: "56 : 8 = 7"
       }
@@ -881,14 +881,14 @@ export const games: GameLesson[] = [
       {
         type: 'find',
         question: "Какой остаток при делении 29 на 7?",
-        options: ["1", "2", "3", "4"],
+        options: ["1", "2", "3", "4", "0", "6"],
         correctAnswer: "1",
         hint: "29 = 7 × 4 + 1"
       },
       {
         type: 'find',
         question: "Какой остаток НЕ может быть при делении на 5?",
-        options: ["0", "3", "5", "4"],
+        options: ["0", "3", "5", "4", "1", "2"],
         correctAnswer: "5",
         hint: "Остаток меньше делителя"
       }
