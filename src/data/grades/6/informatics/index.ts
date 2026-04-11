@@ -1,7 +1,6 @@
 import { Subject, SubjectData, GameLesson } from '../../../types'
 
 const lessons: SubjectData = {
-  id: 'informatics-6',
   title: 'Информатика',
   icon: 'Monitor',
   color: '#6366F1',

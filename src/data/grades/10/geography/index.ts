@@ -414,7 +414,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    name: "Государства на политической карте мира",
+    title: "Государства на политической карте мира",
     subject: "География",
     icon: "Globe",
     color: "text-teal-400",
@@ -428,7 +428,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличное знание политической карты мира!" }
   },
   {
-    name: "Формы правления и административного устройства",
+    title: "Формы правления и административного устройства",
     subject: "География",
     icon: "Crown",
     color: "text-teal-400",
@@ -442,7 +442,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты хорошо знаешь формы правления!" }
   },
   {
-    name: "Международные организации",
+    title: "Международные организации",
     subject: "География",
     icon: "Building",
     color: "text-teal-400",
@@ -456,7 +456,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличное знание международных организаций!" }
   },
   {
-    name: "Мировое хозяйство и международное разделение труда",
+    title: "Мировое хозяйство и международное разделение труда",
     subject: "География",
     icon: "Factory",
     color: "text-teal-400",
@@ -470,7 +470,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты понимаешь мировую экономику!" }
   },
   {
-    name: "География промышленности",
+    title: "География промышленности",
     subject: "География",
     icon: "Cog",
     color: "text-teal-400",
@@ -484,7 +484,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличное знание географии промышленности!" }
   },
   {
-    name: "География сельского хозяйства",
+    title: "География сельского хозяйства",
     subject: "География",
     icon: "Wheat",
     color: "text-teal-400",
@@ -498,7 +498,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты хорошо знаешь географию сельского хозяйства!" }
   },
   {
-    name: "Численность и размещение населения",
+    title: "Численность и размещение населения",
     subject: "География",
     icon: "Users",
     color: "text-teal-400",
@@ -512,7 +512,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличное знание географии населения!" }
   },
   {
-    name: "Воспроизводство и структура населения",
+    title: "Воспроизводство и структура населения",
     subject: "География",
     icon: "TrendingUp",
     color: "text-teal-400",
@@ -526,7 +526,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты понимаешь демографические процессы!" }
   },
   {
-    name: "Миграции населения",
+    title: "Миграции населения",
     subject: "География",
     icon: "Move",
     color: "text-teal-400",
@@ -540,7 +540,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты хорошо знаешь миграционные процессы!" }
   },
   {
-    name: "Европа",
+    title: "Европа",
     subject: "География",
     icon: "Landmark",
     color: "text-teal-400",
@@ -554,7 +554,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличное знание географии Европы!" }
   },
   {
-    name: "Азия",
+    title: "Азия",
     subject: "География",
     icon: "Temple",
     color: "text-teal-400",
@@ -568,7 +568,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты хорошо знаешь географию Азии!" }
   },
   {
-    name: "Африка",
+    title: "Африка",
     subject: "География",
     icon: "Sun",
     color: "text-teal-400",
@@ -582,7 +582,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличное знание географии Африки!" }
   },
   {
-    name: "Северная и Южная Америка",
+    title: "Северная и Южная Америка",
     subject: "География",
     icon: "Mountains",
     color: "text-teal-400",
@@ -596,7 +596,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты хорошо знаешь географию Америки!" }
   },
   {
-    name: "Экологические проблемы",
+    title: "Экологические проблемы",
     subject: "География",
     icon: "AlertTriangle",
     color: "text-teal-400",
@@ -610,7 +610,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты понимаешь экологические проблемы!" }
   },
   {
-    name: "Проблема народонаселения",
+    title: "Проблема народонаселения",
     subject: "География",
     icon: "Users",
     color: "text-teal-400",

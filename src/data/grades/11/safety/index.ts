@@ -143,7 +143,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    name: "Урок 1: Безопасность в быту",
+    title: "Урок 1: Безопасность в быту",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -156,7 +156,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь правила безопасности дома! 🏠" }
   },
   {
-    name: "Урок 2: Безопасность на дорогах",
+    title: "Урок 2: Безопасность на дорогах",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -169,7 +169,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь правила дорожного движения! 🚦" }
   },
   {
-    name: "Урок 3: Безопасность на воде",
+    title: "Урок 3: Безопасность на воде",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -182,7 +182,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь правила безопасности на воде! 🌊" }
   },
   {
-    name: "Урок 4: Криминальная безопасность",
+    title: "Урок 4: Криминальная безопасность",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -195,7 +195,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь правила криминальной безопасности! 🛡️" }
   },
   {
-    name: "Урок 5: Природные чрезвычайные ситуации",
+    title: "Урок 5: Природные чрезвычайные ситуации",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -208,7 +208,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты готов к природным ЧС! 🌋" }
   },
   {
-    name: "Урок 6: Техногенные чрезвычайные ситуации",
+    title: "Урок 6: Техногенные чрезвычайные ситуации",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -221,7 +221,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь действия при техногенных ЧС! ☢️" }
   },
   {
-    name: "Урок 7: Терроризм и его последствия",
+    title: "Урок 7: Терроризм и его последствия",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -234,7 +234,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь правила антитеррора! 🚨" }
   },
   {
-    name: "Урок 8: Первая помощь",
+    title: "Урок 8: Первая помощь",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -247,7 +247,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты умеешь оказывать первую помощь! 🏥" }
   },
   {
-    name: "Урок 9: Сигналы гражданской обороны",
+    title: "Урок 9: Сигналы гражданской обороны",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -260,7 +260,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь сигналы гражданской обороны! 📢" }
   },
   {
-    name: "Урок 10: Защитные сооружения",
+    title: "Урок 10: Защитные сооружения",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -273,7 +273,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь защитные сооружения! 🏢" }
   },
   {
-    name: "Урок 11: Здоровый образ жизни",
+    title: "Урок 11: Здоровый образ жизни",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -286,7 +286,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты приверженец здорового образа жизни! 💪" }
   },
   {
-    name: "Урок 12: Вредные привычки",
+    title: "Урок 12: Вредные привычки",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",

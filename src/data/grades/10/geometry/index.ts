@@ -482,7 +482,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Объём призмы: V = S_осн · ___", options: ["H", "h", "l", "s", "v", "a"], correctAnswer: "H", hint: "Высота" },
       { type: 'quiz', question: "Объём пирамиды ___ раза меньше объёма призмы с тем же основанием и высотой.", options: ["В 3", "В 2", "В 4", "В 6"], correctAnswer: "В 3", hint: "Множитель ⅓ в формуле" },
-      { type: 'quiz', question: "Отношение объёмов подобных тел равно k___", options: ["³", "²", "⁴", "⁵", "¹", "⁶"], correctAnswer: "³", hint: "Или «в кубе»" },,
+      { type: 'quiz', question: "Отношение объёмов подобных тел равно k___", options: ["³", "²", "⁴", "⁵", "¹", "⁶"], correctAnswer: "³", hint: "Или «в кубе»" },
       { type: 'quiz', question: "Объём куба с ребром 2:", options: ["8", "4", "16", "12"], correctAnswer: "8", hint: "V = a³" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь объёмы многогранников! 📊" }
@@ -508,7 +508,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Площадь боковой поверхности прямой призмы: S = ___ · H", options: ["P", "S", "l", "a", "b", "V"], correctAnswer: "P", hint: "Периметр основания" },
       { type: 'quiz', question: "Площадь поверхности куба с ребром 2:", options: ["24", "12", "8", "16"], correctAnswer: "24", hint: "S = 6a²" },
-      { type: 'quiz', question: "Площадь боковой поверхности правильной пирамиды: S = ½·P·___", options: ["l", "H", "h", "s", "a", "b"], correctAnswer: "l", hint: "Апофема" },,
+      { type: 'quiz', question: "Площадь боковой поверхности правильной пирамиды: S = ½·P·___", options: ["l", "H", "h", "s", "a", "b"], correctAnswer: "l", hint: "Апофема" },
       { type: 'quiz', question: "Полная поверхность призмы:", options: ["S_бок + 2S_осн", "S_бок + S_осн", "2S_бок", "S_бок"], correctAnswer: "S_бок + 2S_осн", hint: "Два основания" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь площади поверхностей! 📐" }

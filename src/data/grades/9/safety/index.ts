@@ -1,7 +1,6 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
 export const lessons: SubjectData = {
-  id: 'safety-9',
   title: "ОБЖ",
   icon: "Shield",
   color: "from-slate-500 to-gray-600",

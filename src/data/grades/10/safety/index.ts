@@ -382,7 +382,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    name: "Личная безопасность в повседневной жизни",
+    title: "Личная безопасность в повседневной жизни",
     subject: "ОБЖ",
     icon: "User",
     color: "text-slate-400",
@@ -396,7 +396,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь правила личной безопасности!" }
   },
   {
-    name: "Самозащита и правовые аспекты",
+    title: "Самозащита и правовые аспекты",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -410,7 +410,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь правовые аспекты самозащиты!" }
   },
   {
-    name: "Причины пожаров и профилактика",
+    title: "Причины пожаров и профилактика",
     subject: "ОБЖ",
     icon: "Flame",
     color: "text-slate-400",
@@ -424,7 +424,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь причины и профилактику пожаров!" }
   },
   {
-    name: "Действия при пожаре",
+    title: "Действия при пожаре",
     subject: "ОБЖ",
     icon: "AlertTriangle",
     color: "text-slate-400",
@@ -438,7 +438,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты готов действовать при пожаре!" }
   },
   {
-    name: "Чрезвычайные ситуации природного характера",
+    title: "Чрезвычайные ситуации природного характера",
     subject: "ОБЖ",
     icon: "Cloud",
     color: "text-slate-400",
@@ -452,7 +452,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты готов к природным ЧС!" }
   },
   {
-    name: "Чрезвычайные ситуации техногенного характера",
+    title: "Чрезвычайные ситуации техногенного характера",
     subject: "ОБЖ",
     icon: "Factory",
     color: "text-slate-400",
@@ -466,7 +466,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты готов к техногенным ЧС!" }
   },
   {
-    name: "Оценка состояния и сердечно-лёгочная реанимация",
+    title: "Оценка состояния и сердечно-лёгочная реанимация",
     subject: "ОБЖ",
     icon: "Heart",
     color: "text-slate-400",
@@ -480,7 +480,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты умеешь проводить СЛР!" }
   },
   {
-    name: "Первая помощь при кровотечениях и травмах",
+    title: "Первая помощь при кровотечениях и травмах",
     subject: "ОБЖ",
     icon: "Droplet",
     color: "text-slate-400",
@@ -494,7 +494,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты умеешь оказывать первую помощь!" }
   },
   {
-    name: "Электробезопасность",
+    title: "Электробезопасность",
     subject: "ОБЖ",
     icon: "Zap",
     color: "text-slate-400",
@@ -508,7 +508,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь правила электробезопасности!" }
   },
   {
-    name: "Дорожная безопасность",
+    title: "Дорожная безопасность",
     subject: "ОБЖ",
     icon: "Car",
     color: "text-slate-400",

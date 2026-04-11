@@ -1,12 +1,18 @@
 // Типы для уроков и мини-игр
 
+export interface MatchPair {
+  left: string;
+  right: string;
+}
+
 export interface LessonTask {
   type: 'quiz' | 'match' | 'order' | 'find' | 'fill' | 'drag';
   question: string;
   options?: string[];
-  correctAnswer: string | string[];
+  correctAnswer?: string | string[];  // Optional for match type
   hint?: string;
   image?: string;
+  pairs?: MatchPair[];  // For match type tasks
 }
 
 export interface GameLesson {
@@ -90,7 +96,9 @@ export const subjectNames: Record<string, { title: string; icon: string; color: 
   reading: { title: "Развитие речи", icon: "MessageCircle", color: "text-teal-400" },
   craft: { title: "Лепка", icon: "Circle", color: "text-amber-400" },
   religion: { title: "Основы религиозных культур", icon: "HeartHandshake", color: "text-amber-400" },
-  safety: { title: "Основы безопасности", icon: "Shield", color: "text-slate-400" }
+  safety: { title: "Основы безопасности", icon: "Shield", color: "text-slate-400" },
+  astronomy: { title: "Астрономия", icon: "Telescope", color: "text-violet-400" },
+  ecology: { title: "Экология", icon: "Leaf", color: "text-green-400" }
 };
 
 // Порядок предметов по классам

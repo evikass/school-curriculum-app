@@ -290,7 +290,7 @@ export default function GamePlayer({ game, onBack, onComplete }: GamePlayerProps
       {/* Game header */}
       <div className="bg-slate-800/60 backdrop-blur-xl rounded-2xl p-6 mb-6 border border-slate-700/50">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-2xl font-bold text-white">{game.name}</h2>
+          <h2 className="text-2xl font-bold text-white">{game.title}</h2>
           <div className="flex items-center gap-2">
             <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
             <span className="text-xl font-bold text-yellow-400">{score}/{game.tasks.length}</span>

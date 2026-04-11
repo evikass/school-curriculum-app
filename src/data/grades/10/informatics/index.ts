@@ -391,7 +391,7 @@ for i := 1 to n-1 do
 
 export const games: GameLesson[] = [
   {
-    name: "Измерение информации",
+    title: "Измерение информации",
     subject: "Информатика",
     icon: "HardDrive",
     color: "text-sky-400",
@@ -405,7 +405,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличное понимание измерения информации!" }
   },
   {
-    name: "Кодирование информации",
+    title: "Кодирование информации",
     subject: "Информатика",
     icon: "Code",
     color: "text-sky-400",
@@ -419,7 +419,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты понимаешь принципы кодирования!" }
   },
   {
-    name: "Информационные процессы",
+    title: "Информационные процессы",
     subject: "Информатика",
     icon: "RefreshCw",
     color: "text-sky-400",
@@ -433,7 +433,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличное знание информационных процессов!" }
   },
   {
-    name: "Позиционные системы счисления",
+    title: "Позиционные системы счисления",
     subject: "Информатика",
     icon: "Binary",
     color: "text-sky-400",
@@ -447,7 +447,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты хорошо владеешь системами счисления!" }
   },
   {
-    name: "Арифметика в позиционных системах",
+    title: "Арифметика в позиционных системах",
     subject: "Информатика",
     icon: "Calculator",
     color: "text-sky-400",
@@ -461,7 +461,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличные навыки двоичной арифметики!" }
   },
   {
-    name: "Алгоритмы и их свойства",
+    title: "Алгоритмы и их свойства",
     subject: "Информатика",
     icon: "GitBranch",
     color: "text-sky-400",
@@ -475,7 +475,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличное понимание алгоритмов!" }
   },
   {
-    name: "Основы программирования",
+    title: "Основы программирования",
     subject: "Информатика",
     icon: "Terminal",
     color: "text-sky-400",
@@ -489,7 +489,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты понимаешь основы программирования!" }
   },
   {
-    name: "Массивы и их обработка",
+    title: "Массивы и их обработка",
     subject: "Информатика",
     icon: "List",
     color: "text-sky-400",
@@ -503,7 +503,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличное понимание массивов!" }
   },
   {
-    name: "Локальные и глобальные сети",
+    title: "Локальные и глобальные сети",
     subject: "Информатика",
     icon: "Network",
     color: "text-sky-400",
@@ -517,7 +517,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты разбираешься в компьютерных сетях!" }
   },
   {
-    name: "Интернет и его сервисы",
+    title: "Интернет и его сервисы",
     subject: "Информатика",
     icon: "Globe",
     color: "text-sky-400",
@@ -531,7 +531,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отличное знание Интернета!" }
   },
   {
-    name: "Угрозы информационной безопасности",
+    title: "Угрозы информационной безопасности",
     subject: "Информатика",
     icon: "AlertTriangle",
     color: "text-sky-400",
@@ -545,7 +545,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты понимаешь угрозы безопасности!" }
   },
   {
-    name: "Защита информации",
+    title: "Защита информации",
     subject: "Информатика",
     icon: "Shield",
     color: "text-sky-400",

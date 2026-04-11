@@ -125,7 +125,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    name: "Урок 1: Времена группы Perfect",
+    title: "Урок 1: Времена группы Perfect",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -139,7 +139,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Great! You know Perfect tenses! 🎯" }
   },
   {
-    name: "Урок 2: Passive Voice",
+    title: "Урок 2: Passive Voice",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -153,7 +153,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Excellent! You know Passive Voice! 📚" }
   },
   {
-    name: "Урок 3: Conditionals",
+    title: "Урок 3: Conditionals",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -167,7 +167,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Super! You know Conditionals! 🎓" }
   },
   {
-    name: "Урок 4: Reported Speech",
+    title: "Урок 4: Reported Speech",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -181,7 +181,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Well done! You know Reported Speech! 🗣️" }
   },
   {
-    name: "Урок 5: Phrasal Verbs",
+    title: "Урок 5: Phrasal Verbs",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -195,7 +195,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Great! You know Phrasal Verbs! 📖" }
   },
   {
-    name: "Урок 6: Idioms",
+    title: "Урок 6: Idioms",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -209,7 +209,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Amazing! You know English idioms! 🌟" }
   },
   {
-    name: "Урок 7: Word Formation",
+    title: "Урок 7: Word Formation",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -223,7 +223,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Excellent! You know Word Formation! 📝" }
   },
   {
-    name: "Урок 8: Reading Strategies",
+    title: "Урок 8: Reading Strategies",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -237,7 +237,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Great! You know reading strategies! 📚" }
   },
   {
-    name: "Урок 9: Text Analysis",
+    title: "Урок 9: Text Analysis",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -251,7 +251,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Well done! You can analyze texts! 🔍" }
   },
   {
-    name: "Урок 10: Discussion Skills",
+    title: "Урок 10: Discussion Skills",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",

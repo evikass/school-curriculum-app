@@ -304,7 +304,7 @@ CAD-системы — программное обеспечение для со
 
 export const games: GameLesson[] = [
   {
-    name: "Урок 1: Продвинутая робототехника",
+    title: "Урок 1: Продвинутая робототехника",
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -341,7 +341,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты разбираешься в робототехнике! 🤖" }
   },
   {
-    name: "Урок 2: Программирование роботов",
+    title: "Урок 2: Программирование роботов",
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -378,7 +378,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты понимаешь программирование роботов! 💻" }
   },
   {
-    name: "Урок 3: Мехатроника",
+    title: "Урок 3: Мехатроника",
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -418,7 +418,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь мехатронику! ⚙️" }
   },
   {
-    name: "Урок 4: Проект \"Умный дом\"",
+    title: "Урок 4: Проект \"Умный дом\"",
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -455,7 +455,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты создаёшь умный дом! 🏠" }
   },
   {
-    name: "Урок 5: CAD-системы",
+    title: "Урок 5: CAD-системы",
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -492,7 +492,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты владеешь CAD-системами! 📐" }
   },
   {
-    name: "Урок 6: Сложные модели",
+    title: "Урок 6: Сложные модели",
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -529,7 +529,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты создаёшь сложные модели! 🎨" }
   },
   {
-    name: "Урок 7: Подготовка к печати",
+    title: "Урок 7: Подготовка к печати",
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -566,7 +566,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты готов к 3D-печати! 🖨️" }
   },
   {
-    name: "Урок 8: Проект \"Функциональная модель\"",
+    title: "Урок 8: Проект \"Функциональная модель\"",
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -603,7 +603,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты создаёшь функциональные модели! 🔧" }
   },
   {
-    name: "Урок 9: Управление проектами",
+    title: "Урок 9: Управление проектами",
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -640,7 +640,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты управляешь проектами! 📋" }
   },
   {
-    name: "Урок 10: Командная работа",
+    title: "Урок 10: Командная работа",
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -677,7 +677,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты работаешь в команде! 👥" }
   },
   {
-    name: "Урок 11: Презентация проекта",
+    title: "Урок 11: Презентация проекта",
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -714,7 +714,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты презентуешь проекты! 🎤" }
   },
   {
-    name: "Урок 12: Итоговый проект",
+    title: "Урок 12: Итоговый проект",
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",

@@ -421,8 +421,8 @@ export const games: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Приставка на З перед звонкими:", options: "З", correctAnswer: "З", hint: "Беззвёздный" },
-      { type: 'quiz', question: "Приставка на С перед глухими:", options: "С", correctAnswer: "С", hint: "Бескрайний" },
+      { type: 'quiz', question: "Приставка на З перед звонкими:", options: ["З"], correctAnswer: "З", hint: "Беззвёздный" },
+      { type: 'quiz', question: "Приставка на С перед глухими:", options: ["С"], correctAnswer: "С", hint: "Бескрайний" },
       { type: 'quiz', question: "ПРИ- означает приближение, близость, __ действия", options: ["полноту", "неполноту", "завершение", "отсутствие", "повторение", "начало"], correctAnswer: "неполноту", hint: "Приоткрыть" },
       { type: 'quiz', question: "ПРЕ- может означать:", options: ["Приближение", "Очень или пере-", "Неполноту", "Близость"], correctAnswer: "Очень или пере-", hint: "Прекрасный, преградить" },
       { type: 'quiz', question: "После приставки на согласный пишется __ (ы/и)", options: ["ы", "и", "я", "е", "ю", "э"], correctAnswer: "ы", hint: "Играть → сыграть" },

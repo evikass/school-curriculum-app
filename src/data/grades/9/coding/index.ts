@@ -1,7 +1,6 @@
 import { Subject, GameLesson } from '../../../types'
 
 export const lessons: Subject = {
-  id: 'coding-9',
   title: 'Программирование',
   icon: 'Code',
   color: 'from-emerald-500 to-teal-500',
