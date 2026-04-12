@@ -9,10 +9,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Какая буква первая в алфавите?", options: ["А", "Б", "В"], correctAnswer: "А", hint: "Алфавит начинается с А" },
-      { type: 'quiz', question: "Какая буква следует за А?", options: ["В", "Б", "Г"], correctAnswer: "Б", hint: "А, Б, ..." },
+      { type: 'quiz', question: "Какая буква первая в алфавите?", options: ["А", "Б", "В", "Г", "Д"], correctAnswer: "А", hint: "Алфавит начинается с А" },
+      { type: 'quiz', question: "Какая буква следует за А?", options: ["В", "Б", "Г", "Д", "Е"], correctAnswer: "Б", hint: "А, Б, ..." },
       { type: 'find', question: "Выбери гласные буквы:", options: ["А", "Б", "О", "М", "У"], correctAnswer: ["А", "О", "У"], hint: "Гласные - их можно петь" },
-      { type: 'quiz', question: "Сколько букв в русском алфавите?", options: ["30", "33", "35"], correctAnswer: "33", hint: "В русском алфавите 33 буквы" }
+      { type: 'quiz', question: "Сколько букв в русском алфавите?", options: ["30", "33", "35", "31", "32"], correctAnswer: "33", hint: "В русском алфавите 33 буквы" },
+      { type: 'quiz', question: "Какая буква третья в алфавите?", options: ["А", "Б", "В", "Г", "Д"], correctAnswer: "В", hint: "А, Б, ..." }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь алфавит! 🔤" }
   },
@@ -22,10 +23,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Какой звук обозначает буква А?", options: ["Гласный 🔴", "Согласный 🔵"], correctAnswer: "Гласный 🔴", hint: "Этот звук поётся свободно!" },
+      { type: 'quiz', question: "Какой звук обозначает буква А?", options: ["Гласный 🔴", "Согласный 🔵", "Звонкий 🔔", "Глухой 🔇", "Твёрдый ⬛"], correctAnswer: "Гласный 🔴", hint: "Этот звук поётся свободно!" },
       { type: 'find', question: "Выбери слова с буквой А:", options: ["МАМА 👩", "ПАПА 👨", "СЫН 👦", "ДОМ 🏠", "АНЯ 👧"], correctAnswer: ["МАМА 👩", "ПАПА 👨", "АНЯ 👧"], hint: "Ищи букву А в словах" },
-      { type: 'quiz', question: "С какой буквы начинается слово АРБУЗ?", options: ["О", "А", "У"], correctAnswer: "А", hint: "Произнеси слово: [А]рбуз" },
-      { type: 'quiz', question: "Сколько звуков [а] в слове БАНАН?", options: ["1", "2", "3"], correctAnswer: "2", hint: "БА-НАН - послушай внимательно!" }
+      { type: 'quiz', question: "С какой буквы начинается слово АРБУЗ?", options: ["О", "А", "У", "Р", "Б"], correctAnswer: "А", hint: "Произнеси слово: [А]рбуз" },
+      { type: 'quiz', question: "Сколько звуков [а] в слове БАНАН?", options: ["1", "2", "3", "4", "5"], correctAnswer: "2", hint: "БА-НАН - послушай внимательно!" },
+      { type: 'find', question: "Выбери слова, которые начинаются на букву А:", options: ["Арбуз 🍉", "Банан 🍌", "Аист 🪶", "Кот 🐱", "Апельсин 🍊"], correctAnswer: ["Арбуз 🍉", "Аист 🪶", "Апельсин 🍊"], hint: "Ищи слова, где первая буква — А" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь букву А! 🌟" }
   },
@@ -35,10 +37,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Как правильно: МАШ__НА?", options: ["МАШЫНА", "МАШИНА"], correctAnswer: "МАШИНА", hint: "ЖИ-ШИ пиши с И!" },
-      { type: 'quiz', question: "Как правильно написать?", options: ["ШЫНА 🛞", "ШИНА 🛞"], correctAnswer: "ШИНА 🛞", hint: "ШИ всегда пишется с буквой И" },
+      { type: 'quiz', question: "Как правильно: МАШ__НА?", options: ["МАШЫНА", "МАШИНА", "МАШЕНА", "МАШОНА", "МАШЮНА"], correctAnswer: "МАШИНА", hint: "ЖИ-ШИ пиши с И!" },
+      { type: 'quiz', question: "Как правильно написать?", options: ["ШЫНА 🛞", "ШИНА 🛞", "ШЕНА 🛞", "ШОНА 🛞", "ШАНА 🛞"], correctAnswer: "ШИНА 🛞", hint: "ШИ всегда пишется с буквой И" },
       { type: 'find', question: "Выбери слова с ЖИ и ШИ:", options: ["ЖИРАФ 🦒", "ШИЛО", "МАМА 👩", "МАШИНА 🚗", "ЖИЗНЬ ✨"], correctAnswer: ["ЖИРАФ 🦒", "ШИЛО", "МАШИНА 🚗", "ЖИЗНЬ ✨"], hint: "Ищи сочетания ЖИ и ШИ" },
-      { type: 'fill', question: "Вставь букву: ЛЫЖ__", correctAnswer: "И", hint: "ЖИ - пиши с И!" }
+      { type: 'fill', question: "Вставь букву: ЛЫЖ__", correctAnswer: "И", hint: "ЖИ - пиши с И!" },
+      { type: 'quiz', question: "Как правильно: Ш__ШКА?", options: ["ШЫШКА", "ШИШКА 🌲", "ШЕШКА", "ШАШКА", "ШЮШКА"], correctAnswer: "ШИШКА 🌲", hint: "ШИ пиши с И!" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь правило! 🏆" }
   },
@@ -48,10 +51,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Как правильно: ТУЧ__?", options: ["ТУЧА ☁️", "ТУЧЯ ☁️"], correctAnswer: "ТУЧА ☁️", hint: "ЧА-ЩА пиши с А!" },
+      { type: 'quiz', question: "Как правильно: ТУЧ__?", options: ["ТУЧА ☁️", "ТУЧЯ ☁️", "ТУЧИ ☁️", "ТУЧУ ☁️", "ТУЧО ☁️"], correctAnswer: "ТУЧА ☁️", hint: "ЧА-ЩА пиши с А!" },
       { type: 'find', question: "Выбери слова с ЧА и ЩА:", options: ["ЧАЩА 🌲", "ЧАША 🏆", "МАМА 👩", "ЩУКА 🐟", "ДАЧА 🏡"], correctAnswer: ["ЧАЩА 🌲", "ЧАША 🏆", "ДАЧА 🏡"], hint: "Ищи ЧА и ЩА" },
-      { type: 'quiz', question: "В слове РОЩА какая орфограмма?", options: ["ЖИ-ШИ", "ЧА-ЩА"], correctAnswer: "ЧА-ЩА", hint: "РОЩА - это ЩА" },
-      { type: 'fill', question: "Вставь букву: ЗАДАЧ__", correctAnswer: "А", hint: "ЧА - пиши с А!" }
+      { type: 'quiz', question: "В слове РОЩА какая орфограмма?", options: ["ЖИ-ШИ", "ЧА-ЩА", "ЧУ-ЩУ", "ЖЕ-ШЕ", "ЧК-ЧН"], correctAnswer: "ЧА-ЩА", hint: "РОЩА - это ЩА" },
+      { type: 'fill', question: "Вставь букву: ЗАДАЧ__", correctAnswer: "А", hint: "ЧА - пиши с А!" },
+      { type: 'find', question: "Выбери слова с буквой ЩА:", options: ["ЩАВЕЛЬ 🥬", "ПЛАЩ", "ЩЕНОК 🐶", "ТЩАТЕЛЬНО", "ПОМОЩЬ 💪"], correctAnswer: ["ЩАВЕЛЬ 🥬", "ТЩАТЕЛЬНО"], hint: "Ищи сочетание ЩА" }
     ],
     reward: { stars: 3, message: "Замечательно! Ты знаешь правило ЧА-ЩА! 📝" }
   },
@@ -61,10 +65,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "С какой буквы начинаются имена?", options: ["С маленькой", "С большой"], correctAnswer: "С большой", hint: "Имена пишутся с большой буквы!" },
+      { type: 'quiz', question: "С какой буквы начинаются имена?", options: ["С маленькой", "С большой", "С любой", "С гласной", "С согласной"], correctAnswer: "С большой", hint: "Имена пишутся с большой буквы!" },
       { type: 'find', question: "Выбери правильно написанные имена:", options: ["маша", "Маша", "ПЕТЯ", "Петя", "аня"], correctAnswer: ["Маша", "Петя"], hint: "Имена начинаются с большой буквы" },
-      { type: 'quiz', question: "Как написать название города?", options: ["москва", "Москва", "МОСКВА"], correctAnswer: "Москва", hint: "Названия городов - с большой буквы" },
-      { type: 'quiz', question: "Что пишется с большой буквы?", options: ["Стол", "Москва", "Бежит"], correctAnswer: "Москва", hint: "Название города!" }
+      { type: 'quiz', question: "Как написать название города?", options: ["москва", "Москва", "МОСКВА", "мОсква", "МосквА"], correctAnswer: "Москва", hint: "Названия городов - с большой буквы" },
+      { type: 'quiz', question: "Что пишется с большой буквы?", options: ["Стол", "Москва", "Бежит", "Река", "Кот"], correctAnswer: "Москва", hint: "Название города!" },
+      { type: 'find', question: "Что пишется с большой буквы?", options: ["Москва 🏙️", "Река 🌊", "Маша 👧", "Стол 🪑", "Россия 🇷🇺"], correctAnswer: ["Москва 🏙️", "Маша 👧", "Россия 🇷🇺"], hint: "Имена собственные пишутся с большой буквы" }
     ],
     reward: { stars: 3, message: "Умница! Ты знаешь про большую букву! 📖" }
   },
@@ -76,10 +81,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Сколько звёзд? ⭐⭐⭐", options: ["2", "3", "4"], correctAnswer: "3", hint: "Посчитай: раз, два, три!" },
-      { type: 'quiz', question: "Сколько яблок? 🍎🍎🍎🍎🍎", options: ["4", "5", "6"], correctAnswer: "5", hint: "Посчитай все яблоки!" },
-      { type: 'order', question: "Расставь по порядку: 3, 1, 5, 2", options: ["3", "1", "5", "2"], correctAnswer: "1, 2, 3, 5", hint: "От меньшего к большему" },
-      { type: 'quiz', question: "Какое число больше: 2 или 4?", options: ["2", "4", "Одинаково"], correctAnswer: "4", hint: "4 идёт позже при счёте" }
+      { type: 'quiz', question: "Сколько звёзд? ⭐⭐⭐", options: ["2", "3", "4", "5", "1"], correctAnswer: "3", hint: "Посчитай: раз, два, три!" },
+      { type: 'quiz', question: "Сколько яблок? 🍎🍎🍎🍎🍎", options: ["4", "5", "6", "3", "7"], correctAnswer: "5", hint: "Посчитай все яблоки!" },
+      { type: 'order', question: "Расставь по порядку: 3, 1, 5, 2", options: ["3", "1", "5", "2", "4"], correctAnswer: "1, 2, 3, 5", hint: "От меньшего к большему" },
+      { type: 'quiz', question: "Какое число больше: 2 или 4?", options: ["2", "4", "Одинаково", "1", "3"], correctAnswer: "4", hint: "4 идёт позже при счёте" },
+      { type: 'quiz', question: "Какое число идёт перед 5?", options: ["3", "6", "4", "2", "7"], correctAnswer: "4", hint: "Считай обратно: 5, 4, 3..." }
     ],
     reward: { stars: 3, message: "Умница! Ты знаешь числа! 🔢" }
   },
@@ -89,10 +95,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "2 + 3 = ?", options: ["4", "5", "6"], correctAnswer: "5", hint: "Два плюс три..." },
-      { type: 'quiz', question: "4 + 2 = ?", options: ["5", "6", "7"], correctAnswer: "6", hint: "Четыре и два вместе" },
+      { type: 'quiz', question: "2 + 3 = ?", options: ["4", "5", "6", "3", "7"], correctAnswer: "5", hint: "Два плюс три..." },
+      { type: 'quiz', question: "4 + 2 = ?", options: ["5", "6", "7", "4", "8"], correctAnswer: "6", hint: "Четыре и два вместе" },
       { type: 'fill', question: "3 + __ = 7", correctAnswer: "4", hint: "Сколько добавить до семи?" },
-      { type: 'quiz', question: "5 + 5 = ?", options: ["9", "10", "11"], correctAnswer: "10", hint: "Это все пальцы на руках!" }
+      { type: 'quiz', question: "5 + 5 = ?", options: ["9", "10", "11", "8", "12"], correctAnswer: "10", hint: "Это все пальцы на руках!" },
+      { type: 'quiz', question: "1 + 6 = ?", options: ["5", "6", "7", "8", "4"], correctAnswer: "7", hint: "Один плюс шесть" }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь складывать! ➕" }
   },
@@ -102,10 +109,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "5 - 2 = ?", options: ["2", "3", "4"], correctAnswer: "3", hint: "Пять минус два..." },
-      { type: 'quiz', question: "7 - 3 = ?", options: ["3", "4", "5"], correctAnswer: "4", hint: "Семь убери три" },
+      { type: 'quiz', question: "5 - 2 = ?", options: ["2", "3", "4", "1", "5"], correctAnswer: "3", hint: "Пять минус два..." },
+      { type: 'quiz', question: "7 - 3 = ?", options: ["3", "4", "5", "2", "6"], correctAnswer: "4", hint: "Семь убери три" },
       { type: 'fill', question: "10 - __ = 6", correctAnswer: "4", hint: "Что отнять от 10, чтобы получить 6?" },
-      { type: 'quiz', question: "8 - 0 = ?", options: ["0", "8", "7"], correctAnswer: "8", hint: "Если ничего не отнять..." }
+      { type: 'quiz', question: "8 - 0 = ?", options: ["0", "8", "7", "1", "9"], correctAnswer: "8", hint: "Если ничего не отнять..." },
+      { type: 'quiz', question: "9 - 4 = ?", options: ["3", "4", "5", "6", "7"], correctAnswer: "5", hint: "Девять минус четыре" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь вычитать! ➖" }
   },
@@ -115,10 +123,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Сколько углов у треугольника?", options: ["2", "3", "4"], correctAnswer: "3", hint: "Треугольник = три угла" },
-      { type: 'quiz', question: "Какая фигура круглой формы?", options: ["Квадрат ⬜", "Круг ⭕", "Треугольник 🔺"], correctAnswer: "Круг ⭕", hint: "Круглая как мяч!" },
-      { type: 'find', question: "Выбери фигуры с 4 углами:", options: ["Квадрат ⬜", "Треугольник 🔺", "Прямоугольник ▭", "Круг ⭕"], correctAnswer: ["Квадрат ⬜", "Прямоугольник ▭"], hint: "4 угла = четырёхугольник" },
-      { type: 'quiz', question: "Что похоже на квадрат?", options: ["Мяч ⚽", "Окно 🪟", "Колесо 🛞"], correctAnswer: "Окно 🪟", hint: "У окна 4 равные стороны" }
+      { type: 'quiz', question: "Сколько углов у треугольника?", options: ["2", "3", "4", "5", "6"], correctAnswer: "3", hint: "Треугольник = три угла" },
+      { type: 'quiz', question: "Какая фигура круглой формы?", options: ["Квадрат ⬜", "Круг ⭕", "Треугольник 🔺", "Прямоугольник ▭", "Овал 🥚"], correctAnswer: "Круг ⭕", hint: "Круглая как мяч!" },
+      { type: 'find', question: "Выбери фигуры с 4 углами:", options: ["Квадрат ⬜", "Треугольник 🔺", "Прямоугольник ▭", "Круг ⭕", "Ромб 🔷"], correctAnswer: ["Квадрат ⬜", "Прямоугольник ▭", "Ромб 🔷"], hint: "4 угла = четырёхугольник" },
+      { type: 'quiz', question: "Что похоже на квадрат?", options: ["Мяч ⚽", "Окно 🪟", "Колесо 🛞", "Солнце ☀️", "Яйцо 🥚"], correctAnswer: "Окно 🪟", hint: "У окна 4 равные стороны" },
+      { type: 'quiz', question: "Сколько сторон у треугольника?", options: ["2", "3", "4", "5", "6"], correctAnswer: "3", hint: "Три-угольник!" }
     ],
     reward: { stars: 3, message: "Здорово! Ты знаешь фигуры! 🔷" }
   },
@@ -130,10 +139,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "BookOpenText",
     color: "text-amber-400",
     tasks: [
-      { type: 'quiz', question: "Кто съел Колобка?", options: ["Волк 🐺", "Лиса 🦊", "Медведь 🐻"], correctAnswer: "Лиса 🦊", hint: "Хитрая рыжая плутовка" },
-      { type: 'quiz', question: "Из чего сделан Буратино?", options: ["Из железа", "Из дерева", "Из пластилина"], correctAnswer: "Из дерева", hint: "Папа Карло вырезал его" },
-      { type: 'find', question: "Кто помогал Красной Шапочке?", options: ["Волк 🐺", "Охотники 🔫", "Бабушка 👵", "Дровосеки 🪓"], correctAnswer: ["Охотники 🔫", "Дровосеки 🪓"], hint: "Они спасли бабушку" },
-      { type: 'quiz', question: "Кто тянул репку первым?", options: ["Бабка", "Дедка", "Внучка"], correctAnswer: "Дедка", hint: "Посадил дед репку..." }
+      { type: 'quiz', question: "Кто съел Колобка?", options: ["Волк 🐺", "Лиса 🦊", "Медведь 🐻", "Заяц 🐰", "Дедка 👴"], correctAnswer: "Лиса 🦊", hint: "Хитрая рыжая плутовка" },
+      { type: 'quiz', question: "Из чего сделан Буратино?", options: ["Из железа", "Из дерева", "Из пластилина", "Из бумаги", "Из глины"], correctAnswer: "Из дерева", hint: "Папа Карло вырезал его" },
+      { type: 'find', question: "Кто помогал Красной Шапочке?", options: ["Волк 🐺", "Охотники 🔫", "Бабушка 👵", "Дровосеки 🪓", "Мама 👩"], correctAnswer: ["Охотники 🔫", "Дровосеки 🪓"], hint: "Они спасли бабушку" },
+      { type: 'quiz', question: "Кто тянул репку первым?", options: ["Бабка", "Дедка", "Внучка", "Жучка 🐕", "Кошка 🐱"], correctAnswer: "Дедка", hint: "Посадил дед репку..." },
+      { type: 'quiz', question: "В какой сказке девочка пошла к бабушке через лес?", options: ["Репка", "Колобок", "Красная Шапочка 🧢", "Теремок", "Маша и медведь"], correctAnswer: "Красная Шапочка 🧢", hint: "Она несла пирожки в корзинке" }
     ],
     reward: { stars: 3, message: "Прекрасно! Ты знаешь сказки! 📚" }
   },
@@ -145,10 +155,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Globe",
     color: "text-green-400",
     tasks: [
-      { type: 'quiz', question: "Какое время года после зимы?", options: ["Лето ☀️", "Весна 🌸", "Осень 🍂"], correctAnswer: "Весна 🌸", hint: "Когда тает снег?" },
-      { type: 'find', question: "Что бывает осенью?", options: ["Листопад 🍂", "Снег ❄️", "Дожди 🌧️", "Цветы 🌷"], correctAnswer: ["Листопад 🍂", "Дожди 🌧️"], hint: "Осенью прохладно" },
-      { type: 'quiz', question: "Когда можно купаться в речке?", options: ["Зимой ❄️", "Летом ☀️", "Осенью 🍂"], correctAnswer: "Летом ☀️", hint: "Когда тепло и солнечно" },
-      { type: 'quiz', question: "Сколько времён года?", options: ["3", "4", "5"], correctAnswer: "4", hint: "Зима, весна, лето, осень" }
+      { type: 'quiz', question: "Какое время года после зимы?", options: ["Лето ☀️", "Весна 🌸", "Осень 🍂", "Зима ❄️", "Ранняя весна 🌷"], correctAnswer: "Весна 🌸", hint: "Когда тает снег?" },
+      { type: 'find', question: "Что бывает осенью?", options: ["Листопад 🍂", "Снег ❄️", "Дожди 🌧️", "Цветы 🌷", "Грибы 🍄"], correctAnswer: ["Листопад 🍂", "Дожди 🌧️", "Грибы 🍄"], hint: "Осенью прохладно" },
+      { type: 'quiz', question: "Когда можно купаться в речке?", options: ["Зимой ❄️", "Летом ☀️", "Осенью 🍂", "Весной 🌸", "Каждый день"], correctAnswer: "Летом ☀️", hint: "Когда тепло и солнечно" },
+      { type: 'quiz', question: "Сколько времён года?", options: ["3", "4", "5", "6", "2"], correctAnswer: "4", hint: "Зима, весна, лето, осень" },
+      { type: 'quiz', question: "Какое время года самое холодное?", options: ["Лето ☀️", "Весна 🌸", "Осень 🍂", "Зима ❄️", "Ранняя осень"], correctAnswer: "Зима ❄️", hint: "Когда выпадает снег?" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь времена года! 🌸" }
   },
@@ -158,10 +169,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Globe",
     color: "text-green-400",
     tasks: [
-      { type: 'quiz', question: "Какое животное говорит «Му»?", options: ["Кошка 🐱", "Корова 🐄", "Собака 🐕"], correctAnswer: "Корова 🐄", hint: "Большое животное на ферме" },
+      { type: 'quiz', question: "Какое животное говорит «Му»?", options: ["Кошка 🐱", "Корова 🐄", "Собака 🐕", "Лошадь 🐴", "Свинья 🐷"], correctAnswer: "Корова 🐄", hint: "Большое животное на ферме" },
       { type: 'find', question: "Выбери домашних животных:", options: ["Кошка 🐱", "Лиса 🦊", "Собака 🐕", "Волк 🐺", "Корова 🐄"], correctAnswer: ["Кошка 🐱", "Собака 🐕", "Корова 🐄"], hint: "Они живут с людьми" },
-      { type: 'quiz', question: "Кто умеет летать?", options: ["Рыба 🐟", "Птица 🐦", "Змея 🐍"], correctAnswer: "Птица 🐦", hint: "У кого есть крылья?" },
-      { type: 'quiz', question: "Где живёт белка?", options: ["В норе 🕳️", "В дупле 🌳", "В воде 🌊"], correctAnswer: "В дупле 🌳", hint: "Белка живёт на дереве" }
+      { type: 'quiz', question: "Кто умеет летать?", options: ["Рыба 🐟", "Птица 🐦", "Змея 🐍", "Лягушка 🐸", "Черепаха 🐢"], correctAnswer: "Птица 🐦", hint: "У кого есть крылья?" },
+      { type: 'quiz', question: "Где живёт белка?", options: ["В норе 🕳️", "В дупле 🌳", "В воде 🌊", "В берлоге 🐻", "В гнезде 🪺"], correctAnswer: "В дупле 🌳", hint: "Белка живёт на дереве" },
+      { type: 'find', question: "Выбери диких животных:", options: ["Кошка 🐱", "Лиса 🦊", "Волк 🐺", "Корова 🐄", "Заяц 🐰"], correctAnswer: ["Лиса 🦊", "Волк 🐺", "Заяц 🐰"], hint: "Дикие животные живут в лесу" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь животных! 🐾" }
   },
@@ -173,10 +185,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «Привет» по-английски?", options: ["Goodbye 👋", "Hello 👋", "Thanks 🙏"], correctAnswer: "Hello 👋", hint: "Самое популярное приветствие" },
-      { type: 'quiz', question: "Что значит Hi?", options: ["Пока", "Привет", "Спасибо"], correctAnswer: "Привет", hint: "Hi = Привет" },
+      { type: 'quiz', question: "Как сказать «Привет» по-английски?", options: ["Goodbye 👋", "Hello 👋", "Thanks 🙏", "Sorry 🙏", "Please 🙏"], correctAnswer: "Hello 👋", hint: "Самое популярное приветствие" },
+      { type: 'quiz', question: "Что значит Hi?", options: ["Пока", "Привет", "Спасибо", "Извините", "Пожалуйста"], correctAnswer: "Привет", hint: "Hi = Привет" },
       { type: 'find', question: "Выбери приветствия:", options: ["Hello", "Hi", "Goodbye", "Bye", "Thanks"], correctAnswer: ["Hello", "Hi"], hint: "Приветствия по-английски" },
-      { type: 'quiz', question: "Как сказать «Пока»?", options: ["Hello", "Bye", "Hi"], correctAnswer: "Bye", hint: "Bye = Пока" }
+      { type: 'quiz', question: "Как сказать «Пока»?", options: ["Hello", "Bye", "Hi", "Morning", "Night"], correctAnswer: "Bye", hint: "Bye = Пока" },
+      { type: 'quiz', question: "Что значит Good morning?", options: ["Спокойной ночи", "Доброе утро ☀️", "До свидания", "Спасибо", "Привет"], correctAnswer: "Доброе утро ☀️", hint: "Morning = утро" }
     ],
     reward: { stars: 3, message: "Great! Отлично! 👋" }
   },
@@ -186,10 +199,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Red - это...", options: ["Синий", "Красный", "Зелёный"], correctAnswer: "Красный", hint: "Red = красный цвет" },
-      { type: 'quiz', question: "Как будет «жёлтый»?", options: ["Yellow", "Green", "Blue"], correctAnswer: "Yellow", hint: "Yellow = цвет солнца" },
+      { type: 'quiz', question: "Red - это...", options: ["Синий", "Красный", "Зелёный", "Жёлтый", "Белый"], correctAnswer: "Красный", hint: "Red = красный цвет" },
+      { type: 'quiz', question: "Как будет «жёлтый»?", options: ["Yellow", "Green", "Blue", "Red", "Pink"], correctAnswer: "Yellow", hint: "Yellow = цвет солнца" },
       { type: 'find', question: "Выбери цвета радуги:", options: ["Red", "Cat", "Blue", "Dog", "Green"], correctAnswer: ["Red", "Blue", "Green"], hint: "Цвета = Colors" },
-      { type: 'quiz', question: "Какого цвета трава?", options: ["Red", "Blue", "Green"], correctAnswer: "Green", hint: "Green = зелёный" }
+      { type: 'quiz', question: "Какого цвета трава?", options: ["Red", "Blue", "Green", "Yellow", "Pink"], correctAnswer: "Green", hint: "Green = зелёный" },
+      { type: 'quiz', question: "Как будет «чёрный»?", options: ["White", "Brown", "Black", "Orange", "Purple"], correctAnswer: "Black", hint: "Black = чёрный цвет" }
     ],
     reward: { stars: 3, message: "Wonderful! Замечательно! 🎨" }
   },
@@ -201,10 +215,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Какое число идёт после 15?", options: ["14", "16", "17"], correctAnswer: "16", hint: "Посчитай: 14, 15, ..." },
+      { type: 'quiz', question: "Какое число идёт после 15?", options: ["14", "16", "17", "18", "19"], correctAnswer: "16", hint: "Посчитай: 14, 15, ..." },
       { type: 'fill', question: "Какое число между 12 и 14?", correctAnswer: "13", hint: "12, ?, 14" },
-      { type: 'quiz', question: "Сколько десятков в числе 17?", options: ["1", "7", "17"], correctAnswer: "1", hint: "17 = 1 десяток и 7 единиц" },
-      { type: 'quiz', question: "Какое число больше: 19 или 15?", options: ["19", "15", "Одинаково"], correctAnswer: "19", hint: "19 идёт позже при счёте" }
+      { type: 'quiz', question: "Сколько десятков в числе 17?", options: ["1", "7", "17", "10", "3"], correctAnswer: "1", hint: "17 = 1 десяток и 7 единиц" },
+      { type: 'quiz', question: "Какое число больше: 19 или 15?", options: ["19", "15", "Одинаково", "20", "18"], correctAnswer: "19", hint: "19 идёт позже при счёте" },
+      { type: 'quiz', question: "Какое число идёт перед 20?", options: ["18", "21", "19", "17", "15"], correctAnswer: "19", hint: "Считай обратно: 20, 19, 18..." }
     ],
     reward: { stars: 3, message: "Умница! Ты считаешь до 20! 🔢" }
   },
@@ -216,8 +231,9 @@ export const firstGradeGames: GameLesson[] = [
     tasks: [
       { type: 'fill', question: "5 - это 2 + __", correctAnswer: "3", hint: "2 + 3 = 5" },
       { type: 'fill', question: "7 - это 4 + __", correctAnswer: "3", hint: "4 + 3 = 7" },
-      { type: 'quiz', question: "Из каких чисел состоит 6?", options: ["3 и 3", "2 и 2", "5 и 2"], correctAnswer: "3 и 3", hint: "3 + 3 = 6" },
-      { type: 'fill', question: "10 - это 6 + __", correctAnswer: "4", hint: "6 + 4 = 10" }
+      { type: 'quiz', question: "Из каких чисел состоит 6?", options: ["3 и 3", "2 и 2", "5 и 2", "1 и 4", "6 и 0"], correctAnswer: "3 и 3", hint: "3 + 3 = 6" },
+      { type: 'fill', question: "10 - это 6 + __", correctAnswer: "4", hint: "6 + 4 = 10" },
+      { type: 'fill', question: "8 - это 5 + __", correctAnswer: "3", hint: "5 + 3 = 8" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь состав чисел! 🧮" }
   },
@@ -227,10 +243,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Как правильно: Щ__КА?", options: ["ЩУКА 🐟", "ЩАКА"], correctAnswer: "ЩУКА 🐟", hint: "ЧУ-ЩУ пиши с У!" },
+      { type: 'quiz', question: "Как правильно: Щ__КА?", options: ["ЩУКА 🐟", "ЩАКА", "ЩИКА", "ЩОКА", "ЩЕКА"], correctAnswer: "ЩУКА 🐟", hint: "ЧУ-ЩУ пиши с У!" },
       { type: 'find', question: "Выбери слова с ЧУ и ЩУ:", options: ["ЧУДО ✨", "ЩУКА 🐟", "МАМА 👩", "ЧУГУН", "РОЩА 🌳"], correctAnswer: ["ЧУДО ✨", "ЩУКА 🐟", "ЧУГУН"], hint: "ЧУ-ЩУ с буквой У" },
       { type: 'fill', question: "Вставь букву: Ч__ДО", correctAnswer: "У", hint: "ЧУ - пиши с У!" },
-      { type: 'quiz', question: "В слове ЧУМАКА какая орфограмма?", options: ["ЖИ-ШИ", "ЧУ-ЩУ"], correctAnswer: "ЧУ-ЩУ", hint: "ЧУ - пишется с У" }
+      { type: 'quiz', question: "В слове ЧУМАКА какая орфограмма?", options: ["ЖИ-ШИ", "ЧУ-ЩУ", "ЧА-ЩА", "ЖЕ-ШЕ", "ЧК-ЧН"], correctAnswer: "ЧУ-ЩУ", hint: "ЧУ - пишется с У" },
+      { type: 'quiz', question: "Как правильно: Ч__ЖИК?", options: ["ЧОЖИК", "ЧАЖИК", "ЧУЖИК 🐦", "ЧИЖИК", "ЧЕЖИК"], correctAnswer: "ЧУЖИК 🐦", hint: "ЧУ - пиши с буквой У!" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь правило ЧУ-ЩУ! ✍️" }
   },
@@ -240,10 +257,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Что делает птица? 🐦", options: ["Летит", "Плавает", "Бегает"], correctAnswer: "Летит", hint: "Птицы летают!" },
+      { type: 'quiz', question: "Что делает птица? 🐦", options: ["Летит", "Плавает", "Бегает", "Ползает", "Роет"], correctAnswer: "Летит", hint: "Птицы летают!" },
       { type: 'find', question: "Выбери слова-действия:", options: ["Бежит 🏃", "Красивый", "Пишет ✍️", "Стол", "Читает 📖"], correctAnswer: ["Бежит 🏃", "Пишет ✍️", "Читает 📖"], hint: "Слова-действия отвечают на «что делает?»" },
-      { type: 'quiz', question: "На какой вопрос отвечает слово «рисует»?", options: ["Что?", "Что делает?", "Какой?"], correctAnswer: "Что делает?", hint: "Рисует - это действие" },
-      { type: 'quiz', question: "Что делает рыба? 🐟", options: ["Летит", "Плавает", "Бегает"], correctAnswer: "Плавает", hint: "Рыбы плавают в воде" }
+      { type: 'quiz', question: "На какой вопрос отвечает слово «рисует»?", options: ["Что?", "Что делает?", "Какой?", "Где?", "Когда?"], correctAnswer: "Что делает?", hint: "Рисует - это действие" },
+      { type: 'quiz', question: "Что делает рыба? 🐟", options: ["Летит", "Плавает", "Бегает", "Прыгает", "Поёт"], correctAnswer: "Плавает", hint: "Рыбы плавают в воде" },
+      { type: 'find', question: "Выбери слова, которые НЕ являются действиями:", options: ["Прыгает 🦘", "Красный", "Быстрый", "Поёт 🎤", "Добрый"], correctAnswer: ["Красный", "Быстрый", "Добрый"], hint: "Ищи слова-признаки, а не действия" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь слова-действия! 📝" }
   },
@@ -253,10 +271,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Globe",
     color: "text-green-400",
     tasks: [
-      { type: 'quiz', question: "Какой день идёт после среды?", options: ["Вторник", "Четверг", "Пятница"], correctAnswer: "Четверг", hint: "Понедельник, вторник, среда, ..." },
+      { type: 'quiz', question: "Какой день идёт после среды?", options: ["Вторник", "Четверг", "Пятница", "Понедельник", "Суббота"], correctAnswer: "Четверг", hint: "Понедельник, вторник, среда, ..." },
       { type: 'find', question: "Выбери зимние месяцы:", options: ["Декабрь", "Июнь", "Январь", "Июль", "Февраль"], correctAnswer: ["Декабрь", "Январь", "Февраль"], hint: "Зимние месяцы - холодные" },
-      { type: 'quiz', question: "Сколько месяцев в году?", options: ["10", "11", "12"], correctAnswer: "12", hint: "В году 12 месяцев" },
-      { type: 'quiz', question: "В каком месяце начинается учебный год?", options: ["Август", "Сентябрь", "Октябрь"], correctAnswer: "Сентябрь", hint: "1 сентября - День знаний" }
+      { type: 'quiz', question: "Сколько месяцев в году?", options: ["10", "11", "12", "13", "9"], correctAnswer: "12", hint: "В году 12 месяцев" },
+      { type: 'quiz', question: "В каком месяце начинается учебный год?", options: ["Август", "Сентябрь", "Октябрь", "Ноябрь", "Июль"], correctAnswer: "Сентябрь", hint: "1 сентября - День знаний" },
+      { type: 'quiz', question: "Какой день недели первый?", options: ["Вторник", "Среда", "Понедельник", "Четверг", "Воскресенье"], correctAnswer: "Понедельник", hint: "Неделя начинается с понедельника" }
     ],
     reward: { stars: 3, message: "Умница! Ты знаешь календарь! 📅" }
   },
@@ -266,10 +285,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Globe",
     color: "text-green-400",
     tasks: [
-      { type: 'quiz', question: "Кто детёныш у кошки?", options: ["Щенок", "Котёнок", "Медвежонок"], correctAnswer: "Котёнок", hint: "Кошка - котёнок" },
-      { type: 'find', question: "Выбери правильные пары:", options: ["Собака - щенок", "Корова - телёнок", "Кошка - щенок", "Лошадь - жеребёнок"], correctAnswer: ["Собака - щенок", "Корова - телёнок", "Лошадь - жеребёнок"], hint: "У каждого животного свой детёныш" },
-      { type: 'quiz', question: "Кто детёныш у курицы?", options: ["Утёнок", "Цыплёнок", "Гусёнок"], correctAnswer: "Цыплёнок", hint: "Курица - цыплёнок" },
-      { type: 'quiz', question: "Кто детёныш у медведя?", options: ["Медвежонок", "Зайчонок", "Лисёнок"], correctAnswer: "Медвежонок", hint: "Медведь - медвежонок" }
+      { type: 'quiz', question: "Кто детёныш у кошки?", options: ["Щенок", "Котёнок", "Медвежонок", "Телятёнок", "Жеребёнок"], correctAnswer: "Котёнок", hint: "Кошка - котёнок" },
+      { type: 'find', question: "Выбери правильные пары:", options: ["Собака - щенок", "Корова - телёнок", "Кошка - щенок", "Лошадь - жеребёнок", "Утка - утёнок"], correctAnswer: ["Собака - щенок", "Корова - телёнок", "Лошадь - жеребёнок", "Утка - утёнок"], hint: "У каждого животного свой детёныш" },
+      { type: 'quiz', question: "Кто детёныш у курицы?", options: ["Утёнок", "Цыплёнок", "Гусёнок", "Котёнок", "Щенок"], correctAnswer: "Цыплёнок", hint: "Курица - цыплёнок" },
+      { type: 'quiz', question: "Кто детёныш у медведя?", options: ["Медвежонок", "Зайчонок", "Лисёнок", "Волчонок", "Бельчонок"], correctAnswer: "Медвежонок", hint: "Медведь - медвежонок" },
+      { type: 'quiz', question: "Кто детёныш у свиньи?", options: ["Щенок", "Жеребёнок", "Поросёнок 🐷", "Котёнок", "Телятёнок"], correctAnswer: "Поросёнок 🐷", hint: "Свинья - поросёнок" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь детёнышей! 🐾" }
   },
@@ -279,10 +299,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "One - это...", options: ["Один", "Два", "Три"], correctAnswer: "Один", hint: "One = 1" },
-      { type: 'quiz', question: "Как будет «три»?", options: ["Two", "Three", "Four"], correctAnswer: "Three", hint: "Three = 3" },
+      { type: 'quiz', question: "One - это...", options: ["Один", "Два", "Три", "Четыре", "Пять"], correctAnswer: "Один", hint: "One = 1" },
+      { type: 'quiz', question: "Как будет «три»?", options: ["Two", "Three", "Four", "Five", "Six"], correctAnswer: "Three", hint: "Three = 3" },
       { type: 'fill', question: "Two + Two = __ (Four)", correctAnswer: "Four", hint: "2 + 2 = 4" },
-      { type: 'find', question: "Выбери числа от 1 до 3:", options: ["One", "Four", "Two", "Five", "Three"], correctAnswer: ["One", "Two", "Three"], hint: "1, 2, 3" }
+      { type: 'find', question: "Выбери числа от 1 до 3:", options: ["One", "Four", "Two", "Five", "Three"], correctAnswer: ["One", "Two", "Three"], hint: "1, 2, 3" },
+      { type: 'quiz', question: "Five - это...", options: ["3", "4", "5", "6", "2"], correctAnswer: "5", hint: "Five = пять" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь числа! 🔢" }
   },
@@ -294,10 +315,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Что больше: 7 или 5?", options: ["7", "5", "Одинаково"], correctAnswer: "7", hint: "7 идёт позже при счёте" },
-      { type: 'quiz', question: "Что меньше: 3 или 6?", options: ["3", "6", "Одинаково"], correctAnswer: "3", hint: "3 идёт раньше при счёте" },
+      { type: 'quiz', question: "Что больше: 7 или 5?", options: ["7", "5", "Одинаково", "6", "8"], correctAnswer: "7", hint: "7 идёт позже при счёте" },
+      { type: 'quiz', question: "Что меньше: 3 или 6?", options: ["3", "6", "Одинаково", "4", "5"], correctAnswer: "3", hint: "3 идёт раньше при счёте" },
       { type: 'fill', question: "Поставь знак: 4 __ 4 (равно)", correctAnswer: "=", hint: "Числа одинаковые" },
-      { type: 'quiz', question: "Сколько яблок больше? 🍎🍎🍎 vs 🍎🍎", options: ["Первых больше на 1", "Вторых больше", "Одинаково"], correctAnswer: "Первых больше на 1", hint: "3 > 2" }
+      { type: 'quiz', question: "Сколько яблок больше? 🍎🍎🍎 vs 🍎🍎", options: ["Первых больше на 1", "Вторых больше", "Одинаково", "Первых больше на 2", "Первых больше на 3"], correctAnswer: "Первых больше на 1", hint: "3 > 2" },
+      { type: 'quiz', question: "Что больше: 10 или 8?", options: ["10", "8", "Одинаково", "9", "7"], correctAnswer: "10", hint: "10 - это два десятка" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь сравнивать! ⚖️" }
   },
@@ -307,10 +329,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Было 3 яблока 🍎🍎🍎, съели 1. Сколько осталось?", options: ["1", "2", "4"], correctAnswer: "2", hint: "3 - 1 = 2" },
-      { type: 'quiz', question: "Было 2 птички 🐦🐦, прилетели ещё 2. Сколько стало?", options: ["2", "4", "3"], correctAnswer: "4", hint: "2 + 2 = 4" },
+      { type: 'quiz', question: "Было 3 яблока 🍎🍎🍎, съели 1. Сколько осталось?", options: ["1", "2", "4", "3", "5"], correctAnswer: "2", hint: "3 - 1 = 2" },
+      { type: 'quiz', question: "Было 2 птички 🐦🐦, прилетели ещё 2. Сколько стало?", options: ["2", "4", "3", "5", "1"], correctAnswer: "4", hint: "2 + 2 = 4" },
       { type: 'fill', question: "5 конфет 🍬🍬🍬🍬🍬, 2 съели. Осталось __", correctAnswer: "3", hint: "5 - 2 = 3" },
-      { type: 'quiz', question: "У Маши 2 куклы 🎎🎎, у Даши 3. Сколько всего?", options: ["4", "5", "6"], correctAnswer: "5", hint: "2 + 3 = 5" }
+      { type: 'quiz', question: "У Маши 2 куклы 🎎🎎, у Даши 3. Сколько всего?", options: ["4", "5", "6", "3", "7"], correctAnswer: "5", hint: "2 + 3 = 5" },
+      { type: 'quiz', question: "На ветке сидели 4 птицы 🐦🐦🐦🐦, 1 улетела. Сколько осталось?", options: ["1", "2", "3", "4", "5"], correctAnswer: "3", hint: "4 - 1 = 3" }
     ],
     reward: { stars: 3, message: "Умница! Ты решаешь задачи! 📊" }
   },
@@ -320,10 +343,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Сколько слогов в слове МА-МА?", options: ["1", "2", "3"], correctAnswer: "2", hint: "Хлопни два раза: МА-МА" },
-      { type: 'quiz', question: "Сколько слогов в слове ШАР?", options: ["1", "2", "3"], correctAnswer: "1", hint: "Хлопни один раз" },
+      { type: 'quiz', question: "Сколько слогов в слове МА-МА?", options: ["1", "2", "3", "4", "5"], correctAnswer: "2", hint: "Хлопни два раза: МА-МА" },
+      { type: 'quiz', question: "Сколько слогов в слове ШАР?", options: ["1", "2", "3", "4", "5"], correctAnswer: "1", hint: "Хлопни один раз" },
       { type: 'find', question: "Выбери слова из 2 слогов:", options: ["Дом 🏠", "Вода 💧", "Кот 🐱", "Рука ✋", "Сад 🌳"], correctAnswer: ["Вода 💧", "Рука ✋"], hint: "Посчитай хлопки" },
-      { type: 'quiz', question: "Какое слово самое длинное?", options: ["Кот", "Машина", "Дом"], correctAnswer: "Машина", hint: "Посчитай слоги" }
+      { type: 'quiz', question: "Какое слово самое длинное?", options: ["Кот", "Машина", "Дом", "Сон", "Нос"], correctAnswer: "Машина", hint: "Посчитай слоги" },
+      { type: 'fill', question: "Сколько слогов в слове КА-РАН-ДАШ? __", correctAnswer: "3", hint: "Хлопни три раза: КА-РАН-ДАШ" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь слоги! 📝" }
   },
@@ -333,10 +357,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Какой мяч? ⚽", options: ["Круглый", "Бежит", "Мяч"], correctAnswer: "Круглый", hint: "Признак предмета" },
+      { type: 'quiz', question: "Какой мяч? ⚽", options: ["Круглый", "Бежит", "Мяч", "Катится", "Прыгает"], correctAnswer: "Круглый", hint: "Признак предмета" },
       { type: 'find', question: "Выбери слова-признаки:", options: ["Большой", "Стол", "Красный", "Дом", "Быстрый"], correctAnswer: ["Большой", "Красный", "Быстрый"], hint: "Слова-признаки описывают предметы" },
-      { type: 'quiz', question: "На какой вопрос отвечает слово «красивый»?", options: ["Что?", "Какой?", "Что делает?"], correctAnswer: "Какой?", hint: "Какой? - это признак" },
-      { type: 'quiz', question: "Какое небо? ☁️", options: ["Синее", "Бежит", "Небо"], correctAnswer: "Синее", hint: "Признак неба" }
+      { type: 'quiz', question: "На какой вопрос отвечает слово «красивый»?", options: ["Что?", "Какой?", "Что делает?", "Где?", "Когда?"], correctAnswer: "Какой?", hint: "Какой? - это признак" },
+      { type: 'quiz', question: "Какое небо? ☁️", options: ["Синее", "Бежит", "Небо", "Шумит", "Темное"], correctAnswer: "Синее", hint: "Признак неба" },
+      { type: 'find', question: "Выбери слова-признаки для яблока 🍎:", options: ["Красное", "Круглое", "Катится", "Сладкое", "Растёт"], correctAnswer: ["Красное", "Круглое", "Сладкое"], hint: "Признаки описывают, какое яблоко" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь слова-признаки! ✍️" }
   },
@@ -346,10 +371,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Globe",
     color: "text-green-400",
     tasks: [
-      { type: 'quiz', question: "Мама и папа - это...", options: ["Дети", "Родители", "Бабушка"], correctAnswer: "Родители", hint: "Родители - это мама и папа" },
+      { type: 'quiz', question: "Мама и папа - это...", options: ["Дети", "Родители", "Бабушка", "Дедушка", "Внуки"], correctAnswer: "Родители", hint: "Родители - это мама и папа" },
       { type: 'find', question: "Выбери членов семьи:", options: ["Мама 👩", "Учитель", "Папа 👨", "Друг", "Бабушка 👵"], correctAnswer: ["Мама 👩", "Папа 👨", "Бабушка 👵"], hint: "Семья - самые близкие люди" },
-      { type: 'quiz', question: "Брат мамы - это...", options: ["Дядя", "Дедушка", "Папа"], correctAnswer: "Дядя", hint: "Брат мамы или папы" },
-      { type: 'quiz', question: "Дочь мамы - это...", options: ["Тётя", "Сестра", "Бабушка"], correctAnswer: "Сестра", hint: "Дочь моих родителей" }
+      { type: 'quiz', question: "Брат мамы - это...", options: ["Дядя", "Дедушка", "Папа", "Двоюродный брат", "Сын"], correctAnswer: "Дядя", hint: "Брат мамы или папы" },
+      { type: 'quiz', question: "Дочь мамы - это...", options: ["Тётя", "Сестра", "Бабушка", "Племянница", "Кузина"], correctAnswer: "Сестра", hint: "Дочь моих родителей" },
+      { type: 'quiz', question: "Мамин папа - это...", options: ["Брат", "Дядя", "Дедушка 👴", "Папа", "Сын"], correctAnswer: "Дедушка 👴", hint: "Папа мамы = твой дедушка" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь семью! 👨‍👩‍👧‍👦" }
   },
@@ -359,10 +385,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Globe",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что летает в небе?", options: ["Машина 🚗", "Самолёт ✈️", "Корабль 🚢"], correctAnswer: "Самолёт ✈️", hint: "У самолёта есть крылья" },
+      { type: 'quiz', question: "Что летает в небе?", options: ["Машина 🚗", "Самолёт ✈️", "Корабль 🚢", "Поезд 🚂", "Велосипед 🚲"], correctAnswer: "Самолёт ✈️", hint: "У самолёта есть крылья" },
       { type: 'find', question: "Выбери транспорт:", options: ["Машина 🚗", "Стол 🪑", "Автобус 🚌", "Дерево 🌳", "Велосипед 🚲"], correctAnswer: ["Машина 🚗", "Автобус 🚌", "Велосипед 🚲"], hint: "Транспорт - это то, на чём ездят" },
-      { type: 'quiz', question: "Корабль плавает...", options: ["В небе", "На дороге", "По воде 🌊"], correctAnswer: "По воде 🌊", hint: "Корабли плавают по морям и рекам" },
-      { type: 'quiz', question: "Сколько колёс у велосипеда?", options: ["2", "3", "4"], correctAnswer: "2", hint: "Велосипед = два колеса" }
+      { type: 'quiz', question: "Корабль плавает...", options: ["В небе", "На дороге", "По воде 🌊", "По рельсам", "В космосе"], correctAnswer: "По воде 🌊", hint: "Корабли плавают по морям и рекам" },
+      { type: 'quiz', question: "Сколько колёс у велосипеда?", options: ["2", "3", "4", "1", "6"], correctAnswer: "2", hint: "Велосипед = два колеса" },
+      { type: 'quiz', question: "Что едет по рельсам?", options: ["Самолёт ✈️", "Корабль 🚢", "Поезд 🚂", "Вертолёт 🚁", "Мяч ⚽"], correctAnswer: "Поезд 🚂", hint: "У поезда есть колёса и рельсы" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь транспорт! 🚗" }
   },
@@ -372,10 +399,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Mother - это...", options: ["Папа", "Мама", "Сестра"], correctAnswer: "Мама", hint: "Mother = мама" },
-      { type: 'quiz', question: "Как будет «папа»?", options: ["Mother", "Father", "Sister"], correctAnswer: "Father", hint: "Father = папа" },
+      { type: 'quiz', question: "Mother - это...", options: ["Папа", "Мама", "Сестра", "Бабушка", "Тётя"], correctAnswer: "Мама", hint: "Mother = мама" },
+      { type: 'quiz', question: "Как будет «папа»?", options: ["Mother", "Father", "Sister", "Brother", "Uncle"], correctAnswer: "Father", hint: "Father = папа" },
       { type: 'find', question: "Выбери слова о семье:", options: ["Mother 👩", "Cat 🐱", "Father 👨", "Dog 🐕", "Sister 👧"], correctAnswer: ["Mother 👩", "Father 👨", "Sister 👧"], hint: "Family = семья" },
-      { type: 'fill', question: "Brother = __ (брат)", correctAnswer: "брат", hint: "Brother - это брат" }
+      { type: 'fill', question: "Brother = __ (брат)", correctAnswer: "брат", hint: "Brother - это брат" },
+      { type: 'quiz', question: "Grandmother - это...", options: ["Мама", "Сестра", "Бабушка 👵", "Тётя", "Дочь"], correctAnswer: "Бабушка 👵", hint: "Grandmother = бабушка" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь семью! 👨‍👩‍👧‍👦" }
   },
@@ -385,10 +413,11 @@ export const firstGradeGames: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Cat - это...", options: ["Собака", "Кошка", "Птица"], correctAnswer: "Кошка", hint: "Cat = кошка 🐱" },
-      { type: 'quiz', question: "Как будет «собака»?", options: ["Cat", "Dog", "Bird"], correctAnswer: "Dog", hint: "Dog = собака 🐕" },
+      { type: 'quiz', question: "Cat - это...", options: ["Собака", "Кошка", "Птица", "Рыба", "Лягушка"], correctAnswer: "Кошка", hint: "Cat = кошка 🐱" },
+      { type: 'quiz', question: "Как будет «собака»?", options: ["Cat", "Dog", "Bird", "Fish", "Cow"], correctAnswer: "Dog", hint: "Dog = собака 🐕" },
       { type: 'fill', question: "Fish = __ (рыба)", correctAnswer: "рыба", hint: "Fish плавает в воде" },
-      { type: 'find', question: "Выбери названия животных:", options: ["Cat 🐱", "Red", "Dog 🐕", "Big", "Bird 🐦"], correctAnswer: ["Cat 🐱", "Dog 🐕", "Bird 🐦"], hint: "Animals = животные" }
+      { type: 'find', question: "Выбери названия животных:", options: ["Cat 🐱", "Red", "Dog 🐕", "Big", "Bird 🐦"], correctAnswer: ["Cat 🐱", "Dog 🐕", "Bird 🐦"], hint: "Animals = животные" },
+      { type: 'quiz', question: "Bear - это...", options: ["Зайец 🐰", "Медведь 🐻", "Лиса 🦊", "Волк 🐺", "Ёж 🦔"], correctAnswer: "Медведь 🐻", hint: "Bear = медведь" }
     ],
     reward: { stars: 3, message: "Wonderful! Ты знаешь животных! 🐾" }
   }
