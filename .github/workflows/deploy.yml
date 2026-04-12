@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -23,11 +21,6 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy to gh-pages
-        run: |
-          cd out
-          git init
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-          git add -A
-          git commit -m "Deploy to gh-pages"
-          git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" master:gh-pages
+        run: npx gh-pages -d out -t
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
