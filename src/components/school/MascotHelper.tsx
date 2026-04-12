@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect } from 'react'
 import { X } from 'lucide-react'
 
 const tips = [
@@ -12,16 +12,20 @@ const tips = [
   { emoji: '🐸', message: 'Лягушка-путешественница: Каждый урок - приключение! 🗺️' },
 ]
 
-// Get initial dismissed state
-function getInitialDismissed(): boolean {
-  if (typeof window === 'undefined') return false
-  return localStorage.getItem('mascotDismissed') === 'true'
-}
-
 export default function MascotHelper() {
   const [isVisible, setIsVisible] = useState(false)
-  const [isDismissed, setIsDismissed] = useState(getInitialDismissed)
-  const currentTip = useMemo(() => tips[Math.floor(Math.random() * tips.length)], [])
+  const [isDismissed, setIsDismissed] = useState(false)
+  const [currentTip, setCurrentTip] = useState(tips[0])
+
+  useEffect(() => {
+    // Load dismissed state and pick a random tip only on client
+    const dismissed = localStorage.getItem('mascotDismissed') === 'true'
+    if (dismissed) {
+      setIsDismissed(true)
+      return
+    }
+    setCurrentTip(tips[Math.floor(Math.random() * tips.length)])
+  }, [])
 
   useEffect(() => {
     if (isDismissed) return

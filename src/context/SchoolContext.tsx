@@ -83,40 +83,6 @@ export function useSchool() {
   return context
 }
 
-// Helper to get initial progress from localStorage
-function getInitialProgress(): Progress {
-  const defaultProgress = {
-    totalPoints: 0,
-    completedTopics: {},
-    achievements: [],
-    streak: 0,
-    lastActiveDate: '',
-    gamesPlayed: 0,
-    correctAnswers: 0,
-    totalAnswers: 0,
-    favoriteSubject: null,
-    dailyProgress: {},
-    todayLessons: 0,
-    todayGames: 0,
-    todayPoints: 0,
-    completedLessonTests: []
-  }
-  
-  if (typeof window === 'undefined') {
-    return defaultProgress
-  }
-  try {
-    const saved = localStorage.getItem('schoolProgress')
-    if (saved) {
-      const parsed = JSON.parse(saved)
-      return { ...defaultProgress, ...parsed }
-    }
-  } catch {
-    // ignore
-  }
-  return defaultProgress
-}
-
 // Get today's date string
 function getTodayString(): string {
   return new Date().toISOString().split('T')[0]
@@ -172,6 +138,23 @@ function updateStreakCalendar(points: number, isLesson: boolean, isGame: boolean
   }
 }
 
+const defaultProgress: Progress = {
+  totalPoints: 0,
+  completedTopics: {},
+  achievements: [],
+  streak: 0,
+  lastActiveDate: '',
+  gamesPlayed: 0,
+  correctAnswers: 0,
+  totalAnswers: 0,
+  favoriteSubject: null,
+  dailyProgress: {},
+  todayLessons: 0,
+  todayGames: 0,
+  todayPoints: 0,
+  completedLessonTests: []
+}
+
 export function SchoolProvider({ children }: { children: ReactNode }) {
   const [selectedClass, setSelectedClass] = useState<number | null>(null)
   const [view, setView] = useState<ViewType>('classes')
@@ -179,8 +162,21 @@ export function SchoolProvider({ children }: { children: ReactNode }) {
   const [selectedGame, setSelectedGame] = useState<GameLesson | null>(null)
   const [selectedLesson, setSelectedLesson] = useState<LessonData | null>(null)
   const [activeMiniGame, setActiveMiniGame] = useState<MiniGameType>(null)
-  const [progress, setProgress] = useState<Progress>(getInitialProgress)
+  const [progress, setProgress] = useState<Progress>(defaultProgress)
   const [gameFromLesson, setGameFromLesson] = useState(false)
+
+  // Load progress from localStorage only on client
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('schoolProgress')
+      if (saved) {
+        const parsed = JSON.parse(saved)
+        setProgress({ ...defaultProgress, ...parsed })
+      }
+    } catch {
+      // ignore
+    }
+  }, [])
 
   const subjects = useMemo(() => 
     selectedClass !== null ? getSubjectsForGrade(selectedClass) : [], 

@@ -43,17 +43,16 @@ const slides: WelcomeSlide[] = [
   }
 ]
 
-// Get initial state from localStorage
-function getInitialState(): { isOpen: boolean; hasSeenWelcome: boolean } {
-  if (typeof window === 'undefined') {
-    return { isOpen: false, hasSeenWelcome: false }
-  }
-  const hasSeenWelcome = localStorage.getItem('hasSeenWelcome') === 'true'
-  return { isOpen: !hasSeenWelcome, hasSeenWelcome }
-}
-
 export default function WelcomeModal() {
-  const [state, setState] = useState(getInitialState)
+  const [state, setState] = useState<{ isOpen: boolean; hasSeenWelcome: boolean }>({ isOpen: false, hasSeenWelcome: false })
+
+  // Check localStorage only on client
+  useEffect(() => {
+    const hasSeenWelcome = localStorage.getItem('hasSeenWelcome') === 'true'
+    if (!hasSeenWelcome) {
+      setState({ isOpen: true, hasSeenWelcome: false })
+    }
+  }, [])
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
   const { isEnabled, setEnabled, playClick } = useSound()
