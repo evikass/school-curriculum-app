@@ -713,6 +713,27 @@ export const games: GameLesson[] = [
         options: ["Cat", "Dog", "Bird", "Fish", "Rabbit"],
         correctAnswer: ["Кошка", "Собака", "Птица", "Рыба", "Кролик"],
         hint: "Animals = животные"
+      },
+      {
+        type: 'match',
+        question: "Соедини слово с переводом:",
+        options: ["Apple", "Banana", "Orange", "Lemon", "Pear"],
+        correctAnswer: ["Яблоко", "Банан", "Апельсин", "Лимон", "Груша"],
+        hint: "Fruits = фрукты"
+      },
+      {
+        type: 'match',
+        question: "Соедини слово с переводом:",
+        options: ["Red", "Blue", "Green", "Yellow", "White"],
+        correctAnswer: ["Красный", "Синий", "Зелёный", "Жёлтый", "Белый"],
+        hint: "Colors = цвета"
+      },
+      {
+        type: 'match',
+        question: "Соедини слово с переводом:",
+        options: ["Water", "Milk", "Juice", "Tea", "Coffee"],
+        correctAnswer: ["Вода", "Молоко", "Сок", "Чай", "Кофе"],
+        hint: "Drinks = напитки"
       }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь слова! 📚" }
@@ -750,6 +771,13 @@ export const games: GameLesson[] = [
         options: ["Вода", "Молоко", "Сок", "Чай", "Кофе"],
         correctAnswer: "Вода",
         hint: "Water = вода"
+      },
+      {
+        type: 'find',
+        question: "Что означает Cheese?",
+        options: ["Хлеб", "Масло", "Сыр", "Яйцо", "Мясо"],
+        correctAnswer: "Сыр",
+        hint: "Cheese = сыр"
       }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь еду! 🍎" }
@@ -780,6 +808,20 @@ export const games: GameLesson[] = [
         options: ["Белый", "Чёрный", "Серый", "Жёлтый", "Красный"],
         correctAnswer: "Белый",
         hint: "White = белый"
+      },
+      {
+        type: 'find',
+        question: "Какой цвет означает Green?",
+        options: ["Красный", "Синий", "Зелёный", "Жёлтый", "Оранжевый"],
+        correctAnswer: "Зелёный",
+        hint: "Green = зелёный"
+      },
+      {
+        type: 'find',
+        question: "Какой цвет означает Pink?",
+        options: ["Розовый", "Красный", "Оранжевый", "Фиолетовый", "Жёлтый"],
+        correctAnswer: "Розовый",
+        hint: "Pink = розовый"
       }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь цвета! 🌈" }
@@ -810,6 +852,20 @@ export const games: GameLesson[] = [
         options: ["5", "6", "7", "8", "9"],
         correctAnswer: "7",
         hint: "Seven = 7"
+      },
+      {
+        type: 'find',
+        question: "Какое число означает Ten?",
+        options: ["7", "8", "9", "10", "11"],
+        correctAnswer: "10",
+        hint: "Ten = 10"
+      },
+      {
+        type: 'find',
+        question: "Какое число означает Five?",
+        options: ["3", "4", "5", "6", "7"],
+        correctAnswer: "5",
+        hint: "Five = 5"
       }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь считать! 🔢" }
@@ -847,6 +903,13 @@ export const games: GameLesson[] = [
         options: ["Cat", "Dog", "Tiger", "Fish", "Mouse"],
         correctAnswer: "Tiger",
         hint: "Wild = дикий"
+      },
+      {
+        type: 'find',
+        question: "Какое животное означает Bird?",
+        options: ["Кошка", "Собака", "Птица", "Рыба", "Лошадь"],
+        correctAnswer: "Птица",
+        hint: "Bird = птица"
       }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь животных! 🐱🐶" }
