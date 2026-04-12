@@ -386,6 +386,13 @@ export const games: GameLesson[] = [
         options: ["Как дела?", "Как тебя зовут?", "Сколько тебе лет?", "Никто не знает", "Не знаю"],
         correctAnswer: "Как тебя зовут?",
         hint: "Name = имя"
+      },
+      {
+        type: 'quiz',
+        question: "Good morning — это...",
+        options: ["Добрый вечер", "Доброе утро", "Добрый день", "Никто не знает", "Не знаю"],
+        correctAnswer: "Доброе утро",
+        hint: "Говорим это утром"
       }
     ],
     reward: { stars: 3, message: "Great! Отлично! Ты знаешь приветствия! 👋" }
@@ -423,6 +430,13 @@ export const games: GameLesson[] = [
         options: ["Red", "Blue", "Green", "Никто не знает", "Не знаю"],
         correctAnswer: "Green",
         hint: "Трава зелёная"
+      },
+      {
+        type: 'quiz',
+        question: "Yellow - это какой цвет?",
+        options: ["Жёлтый", "Красный", "Синий", "Никто не знает", "Не знаю"],
+        correctAnswer: "Жёлтый",
+        hint: "Yellow = Жёлтый, как солнышко"
       }
     ],
     reward: { stars: 3, message: "Wonderful! Ты знаешь цвета! 🎨" }
@@ -460,6 +474,13 @@ export const games: GameLesson[] = [
         options: ["8", "9", "10", "Никто не знает", "Не знаю"],
         correctAnswer: "10",
         hint: "Ten = 10"
+      },
+      {
+        type: 'quiz',
+        question: "Как будет «семь» по-английски?",
+        options: ["Six", "Seven", "Eight", "Никто не знает", "Не знаю"],
+        correctAnswer: "Seven",
+        hint: "Seven = 7"
       }
     ],
     reward: { stars: 3, message: "Excellent! Ты знаешь числа! 🔢" }
@@ -497,6 +518,13 @@ export const games: GameLesson[] = [
         options: ["Птица", "Рыба", "Кошка", "Никто не знает", "Не знаю"],
         correctAnswer: "Рыба",
         hint: "Fish живёт в воде"
+      },
+      {
+        type: 'quiz',
+        question: "Bird - это?",
+        options: ["Рыба", "Птица", "Собака", "Никто не знает", "Не знаю"],
+        correctAnswer: "Птица",
+        hint: "Bird летает в небе"
       }
     ],
     reward: { stars: 3, message: "Great job! Ты знаешь животных! 🐱" }
@@ -534,6 +562,13 @@ export const games: GameLesson[] = [
         options: ["Hello", "Goodbye", "Bye", "Hi", "Good night"],
         correctAnswer: ["Goodbye", "Bye", "Good night"],
         hint: "Прощания"
+      },
+      {
+        type: 'quiz',
+        question: "See you — это...",
+        options: ["Привет", "До свидания", "Спасибо", "Никто не знает", "Не знаю"],
+        correctAnswer: "До свидания",
+        hint: "See you = Увидимся/До встречи"
       }
     ],
     reward: { stars: 3, message: "Excellent! Ты умеешь здороваться! 👋" }
@@ -571,6 +606,13 @@ export const games: GameLesson[] = [
         options: ["Six", "Five", "Seven", "Eight", "Three", "Nine", "Ten"],
         correctAnswer: ["Six", "Seven", "Eight", "Nine", "Ten"],
         hint: "Числа 6-10"
+      },
+      {
+        type: 'quiz',
+        question: "Какое число идёт после Seven?",
+        options: ["Six", "Eight", "Nine", "Ten", "Five"],
+        correctAnswer: "Eight",
+        hint: "Посчитай: шесть, семь, ..."
       }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь числа! 🔢" }
