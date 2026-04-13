@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+      .bounce { animation: bounce 2s ease-in-out infinite; }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  
+  <!-- Title -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#E65100" text-anchor="middle">🔺 Треугольник</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#FF9800"/>
+  
+  <!-- Main triangle -->
+  <g transform="translate(150, 80)">
+    <polygon class="bounce" points="100,0 200,150 0,150" fill="#4CAF50" stroke="#2E7D32" stroke-width="4"/>
+    <text x="100" y="100" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">ТРИ</text>
+    <text x="100" y="120" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">УГОЛКА</text>
+  </g>
+  
+  <!-- Counting angles -->
+  <g transform="translate(50, 260)">
+    <text x="200" y="0" font-family="Arial" font-size="16" fill="#E65100" text-anchor="middle">Посчитай углы: 1, 2, 3!</text>
+    
+    <!-- Angle markers -->
+    <circle cx="150" cy="30" r="12" fill="#F44336"/>
+    <text x="150" y="35" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">1</text>
+    
+    <circle cx="50" cy="100" r="12" fill="#2196F3"/>
+    <text x="50" y="105" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">2</text>
+    
+    <circle cx="250" cy="100" r="12" fill="#FFEB3B" stroke="#F57F17" stroke-width="2"/>
+    <text x="250" y="105" font-family="Arial" font-size="14" font-weight="bold" fill="#F57F17" text-anchor="middle">3</text>
+  </g>
+  
+  <!-- Examples of triangles -->
+  <g transform="translate(30, 80)">
+    <polygon class="pulse" points="30,150 50,110 70,150" fill="#FF9800" stroke="#E65100" stroke-width="2"/>
+    <text x="50" y="170" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">крыша</text>
+  </g>
+  
+  <g transform="translate(400, 80)">
+    <polygon class="pulse" style="animation-delay: 0.5s;" points="30,150 50,110 70,150" fill="#E91E63" stroke="#AD1457" stroke-width="2"/>
+    <text x="50" y="170" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">морковь</text>
+  </g>
+  
+  <!-- Decorations -->
+  <polygon points="470,30 480,50 460,50" fill="#FFD700"/>
+  <polygon points="30,320 40,340 20,340" fill="#FFD700"/>
+</svg>

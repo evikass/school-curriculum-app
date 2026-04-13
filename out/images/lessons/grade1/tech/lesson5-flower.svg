@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FCE4EC"/>
+  
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="16" font-weight="bold" fill="#C2185B">
+    Аппликация «Цветок»
+  </text>
+  
+  <!-- Table -->
+  <rect x="20" y="200" width="360" height="80" fill="#8D6E63"/>
+  <rect x="20" y="195" width="360" height="10" fill="#A1887F"/>
+  
+  <!-- Finished flower -->
+  <g transform="translate(280, 100)">
+    <!-- Stem -->
+    <rect x="48" y="50" width="4" height="60" fill="#4CAF50"/>
+    
+    <!-- Leaves -->
+    <ellipse cx="35" cy="80" rx="20" ry="8" fill="#66BB6A" transform="rotate(-30 35 80)"/>
+    <ellipse cx="65" cy="90" rx="18" ry="7" fill="#66BB6A" transform="rotate(30 65 90)"/>
+    
+    <!-- Petals -->
+    <ellipse cx="50" cy="20" rx="15" ry="25" fill="#E91E63"/>
+    <ellipse cx="25" cy="35" rx="15" ry="25" fill="#EC407A" transform="rotate(-60 25 35)"/>
+    <ellipse cx="75" cy="35" rx="15" ry="25" fill="#EC407A" transform="rotate(60 75 35)"/>
+    <ellipse cx="30" cy="60" rx="15" ry="25" fill="#F06292" transform="rotate(-120 30 60)"/>
+    <ellipse cx="70" cy="60" rx="15" ry="25" fill="#F06292" transform="rotate(120 70 60)"/>
+    
+    <!-- Center -->
+    <circle cx="50" cy="45" r="15" fill="#FFC107">
+      <animate attributeName="r" values="15;17;15" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="45" cy="40" r="2" fill="#FF8F00"/>
+    <circle cx="55" cy="42" r="2" fill="#FF8F00"/>
+    <circle cx="50" cy="48" r="2" fill="#FF8F00"/>
+  </g>
+  
+  <!-- Paper pieces -->
+  <g transform="translate(60, 50)">
+    <!-- Red petal -->
+    <ellipse cx="30" cy="15" rx="15" ry="25" fill="#E91E63">
+      <animateTransform attributeName="transform" type="translate" values="0,0;5,-5;0,0" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="30" y="55" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="9" fill="#C2185B">Лепесток</text>
+  </g>
+  
+  <!-- Yellow center -->
+  <g transform="translate(130, 70)">
+    <circle cx="15" cy="15" r="15" fill="#FFC107"/>
+    <text x="15" y="45" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="9" fill="#F57F17">Середина</text>
+  </g>
+  
+  <!-- Green stem -->
+  <g transform="translate(50, 100)">
+    <rect x="0" y="0" width="6" height="40" fill="#4CAF50"/>
+    <text x="3" y="55" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="9" fill="#2E7D32">Стебель</text>
+  </g>
+  
+  <!-- Green leaf -->
+  <g transform="translate(100, 120)">
+    <ellipse cx="15" cy="10" rx="20" ry="8" fill="#66BB6A" transform="rotate(-20 15 10)"/>
+    <text x="15" y="35" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="9" fill="#2E7D32">Лист</text>
+  </g>
+  
+  <!-- Steps -->
+  <g transform="translate(200, 50)">
+    <text x="0" y="0" font-family="'Comic Sans MS', cursive" font-size="11" fill="#C2185B">1. Вырежи детали</text>
+    <text x="0" y="18" font-family="'Comic Sans MS', cursive" font-size="11" fill="#C2185B">2. Намажь клеем</text>
+    <text x="0" y="36" font-family="'Comic Sans MS', cursive" font-size="11" fill="#C2185B">3. Собери цветок</text>
+  </g>
+  
+  <!-- Tools -->
+  <g transform="translate(80, 230)">
+    <!-- Scissors -->
+    <ellipse cx="-8" cy="-8" r="6" fill="none" stroke="#FF5722" stroke-width="2"/>
+    <ellipse cx="-8" cy="4" r="6" fill="none" stroke="#FF5722" stroke-width="2"/>
+    <polygon points="0,-4 15,-2 0,4" fill="#78909C"/>
+    <text x="5" y="25" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="9" fill="#616161">Ножницы</text>
+  </g>
+  
+  <g transform="translate(160, 225)">
+    <rect x="0" y="0" width="25" height="35" fill="#4CAF50" rx="3"/>
+    <rect x="8" y="-8" width="9" height="10" fill="#81C784"/>
+    <text x="12" y="50" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="9" fill="#616161">Клей</text>
+  </g>
+  
+  <g transform="translate(240, 220)">
+    <!-- Colored paper -->
+    <rect x="0" y="0" width="30" height="25" fill="#E91E63"/>
+    <rect x="35" y="0" width="30" height="25" fill="#4CAF50"/>
+    <rect x="70" y="0" width="30" height="25" fill="#FFC107"/>
+    <text x="50" y="40" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="9" fill="#616161">Цветная бумага</text>
+  </g>
+</svg>

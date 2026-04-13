@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="techBg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F3E5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E1BEE7;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#techBg2)"/>
+  
+  <!-- Sun -->
+  <circle cx="70" cy="55" r="25" fill="#FFD700" opacity="0.9">
+    <animate attributeName="r" values="25;28;25" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Clouds -->
+  <g opacity="0.7">
+    <ellipse cx="200" cy="45" rx="30" ry="18" fill="white"/>
+    <ellipse cx="230" cy="40" rx="24" ry="14" fill="white"/>
+  </g>
+  
+  <!-- Trees -->
+  <g opacity="0.25">
+    <ellipse cx="470" cy="280" rx="25" ry="38" fill="#228B22"/>
+    <rect x="465" y="280" width="10" height="22" fill="#5D4037"/>
+  </g>
+  
+  <!-- Flowers -->
+  <g opacity="0.5">
+    <circle cx="40" cy="325" r="5" fill="#9C27B0"/>
+    <circle cx="47" cy="320" r="4" fill="#BA68C8"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7B1FA2" text-anchor="middle">🧵 Работа с тканью</text>
+  <rect x="100" y="45" width="300" height="3" rx="2" fill="#7B1FA2" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="30" y="60" width="440" height="255" rx="15" fill="white" opacity="0.92" stroke="#9C27B0" stroke-width="2"/>
+  
+  <!-- Fabric work -->
+  <text x="250" y="85" font-size="11" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Работа с тканью / Fabric work</text>
+  
+  <g transform="translate(50, 95)">
+    <!-- Sewing -->
+    <rect x="0" y="0" width="130" height="80" rx="8" fill="#F3E5F5" stroke="#9C27B0"/>
+    <text x="65" y="20" font-size="9" font-weight="bold" fill="#7B1FA2" text-anchor="middle">🪡 Шитьё</text>
+    <text x="65" y="45" font-size="28" text-anchor="middle">🧵</text>
+    <text x="65" y="70" font-size="8" fill="#333" text-anchor="middle">Игла и нитки</text>
+    
+    <!-- Embroidery -->
+    <rect x="145" y="0" width="130" height="80" rx="8" fill="#EDE7F6" stroke="#7E57C2"/>
+    <text x="210" y="20" font-size="9" font-weight="bold" fill="#512DA8" text-anchor="middle">🌸 Вышивка</text>
+    <text x="210" y="45" font-size="28" text-anchor="middle">🌺</text>
+    <text x="210" y="70" font-size="8" fill="#333" text-anchor="middle">Узоры на ткани</text>
+    
+    <!-- Cutting fabric -->
+    <rect x="290" y="0" width="130" height="80" rx="8" fill="#CE93D8" stroke="#AB47BC"/>
+    <text x="355" y="20" font-size="9" font-weight="bold" fill="#6A1B9A" text-anchor="middle">✂️ Кройка</text>
+    <text x="355" y="45" font-size="28" text-anchor="middle">📐</text>
+    <text x="355" y="70" font-size="8" fill="#333" text-anchor="middle">Выкройки</text>
+  </g>
+  
+  <!-- Tools -->
+  <rect x="50" y="190" width="400" height="70" rx="10" fill="#FCE4EC" stroke="#E91E63"/>
+  <text x="250" y="210" font-size="11" font-weight="bold" fill="#C2185B" text-anchor="middle">🛠️ Инструменты для шитья</text>
+  <g transform="translate(70, 225)">
+    <text x="0" y="12" font-size="9" fill="#333">🪡 игла</text>
+    <text x="70" y="12" font-size="9" fill="#333">🧵 нитки</text>
+    <text x="140" y="12" font-size="9" fill="#333">✂️ ножницы</text>
+    <text x="230" y="12" font-size="9" fill="#333">📏 сантиметр</text>
+    <text x="0" y="30" font-size="9" fill="#333">🔘 пуговицы</text>
+    <text x="100" y="30" font-size="9" fill="#333">🧷 булавки</text>
+  </g>
+  
+  <!-- Safety -->
+  <rect x="50" y="270" width="400" height="40" rx="8" fill="#FFF3E0" stroke="#FF9800"/>
+  <text x="250" y="285" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">⚠️ Осторожно с иглой!</text>
+  <text x="250" y="300" font-size="9" fill="#333" text-anchor="middle">Храни иглы в игольнице, не бери иглу в рот</text>
+  
+  <!-- Decorative -->
+  <g transform="translate(55, 280)" opacity="0.5">
+    <text font-size="18">🧵</text>
+  </g>
+</svg>

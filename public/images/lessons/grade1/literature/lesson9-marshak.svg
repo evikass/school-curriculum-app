@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="skyMarshak" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#64B5F6"/>
+      <stop offset="100%" style="stop-color:#E3F2FD"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#skyMarshak)"/>
+  
+  <!-- Sun -->
+  <g transform="translate(50, 50)">
+    <circle cx="0" cy="0" r="25" fill="#FFD600">
+      <animate attributeName="r" values="25;28;25" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <g stroke="#FFD600" stroke-width="3" stroke-linecap="round">
+      <line x1="0" y1="-35" x2="0" y2="-45">
+        <animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="10s" repeatCount="indefinite"/>
+      </line>
+      <line x1="25" y1="-25" x2="32" y2="-32"/>
+      <line x1="35" y1="0" x2="45" y2="0"/>
+      <line x1="25" y1="25" x2="32" y2="32"/>
+      <line x1="0" y1="35" x2="0" y2="45"/>
+      <line x1="-25" y1="25" x2="-32" y2="32"/>
+      <line x1="-35" y1="0" x2="-45" y2="0"/>
+      <line x1="-25" y1="-25" x2="-32" y2="-32"/>
+    </g>
+  </g>
+  
+  <!-- Cloud -->
+  <g fill="white" opacity="0.9">
+    <ellipse cx="320" cy="60" rx="40" ry="25">
+      <animate attributeName="cx" values="320;330;320" dur="5s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="350" cy="55" rx="30" ry="20"/>
+    <ellipse cx="290" cy="55" rx="25" ry="18"/>
+  </g>
+  
+  <!-- Tree -->
+  <g transform="translate(100, 200)">
+    <rect x="-15" y="0" width="30" height="80" fill="#795548"/>
+    <ellipse cx="0" cy="-20" rx="50" ry="40" fill="#4CAF50"/>
+    <ellipse cx="-25" cy="0" rx="25" ry="20" fill="#388E3C"/>
+    <ellipse cx="30" cy="-10" rx="25" ry="22" fill="#388E3C"/>
+  </g>
+  
+  <!-- Sparrow (Воробей) - from "Где обедал, воробей?" -->
+  <g transform="translate(200, 120)">
+    <animateTransform attributeName="transform" type="translate" values="200,120;210,115;200,120" dur="1.5s" repeatCount="indefinite"/>
+    
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="18" ry="12" fill="#8D6E63"/>
+    
+    <!-- Head -->
+    <circle cx="15" cy="-5" r="10" fill="#A1887F"/>
+    
+    <!-- Eye -->
+    <circle cx="18" cy="-6" r="3" fill="#212121"/>
+    <circle cx="19" cy="-7" r="1" fill="white"/>
+    
+    <!-- Beak -->
+    <polygon points="25,-5 32,-3 25,-1" fill="#FF8F00"/>
+    
+    <!-- Wing -->
+    <path d="M-5,-5 Q-20,-15 -10,-8" fill="#6D4C41"/>
+    
+    <!-- Tail -->
+    <polygon points="-18,0 -30,5 -30,-5" fill="#5D4037"/>
+    
+    <!-- Speech bubble -->
+    <g transform="translate(30, -30)">
+      <rect x="-5" y="-15" width="60" height="25" fill="white" rx="5"/>
+      <polygon points="-5,10 5,10 0,20" fill="white"/>
+      <text x="25" y="2" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="9" fill="#333">Где обедал?</text>
+    </g>
+  </g>
+  
+  <!-- Zoo gate -->
+  <g transform="translate(280, 150)">
+    <!-- Left pillar -->
+    <rect x="-40" y="0" width="15" height="100" fill="#8D6E63"/>
+    <!-- Right pillar -->
+    <rect x="25" y="0" width="15" height="100" fill="#8D6E63"/>
+    <!-- Arch -->
+    <path d="M-40,0 Q0,-40 40,0" stroke="#8D6E63" stroke-width="12" fill="none"/>
+    <!-- Sign -->
+    <rect x="-35" y="-60" width="70" height="25" fill="#4CAF50" rx="5"/>
+    <text x="0" y="-43" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="12" font-weight="bold" fill="white">ЗООПАРК</text>
+    
+    <!-- Animals behind gate -->
+    <!-- Lion peeking -->
+    <circle cx="-15" cy="40" r="20" fill="#FF9800">
+      <animate attributeName="cy" values="40;35;40" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-20" cy="35" r="4" fill="#212121"/>
+    <ellipse cx="-8" cy="50" rx="15" ry="8" fill="#FFB74D"/>
+    
+    <!-- Elephant trunk -->
+    <path d="M20,50 Q35,60 30,75" stroke="#90A4AE" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Luggage (Багаж) -->
+  <g transform="translate(40, 220)">
+    <!-- Suitcase -->
+    <rect x="0" y="0" width="50" height="35" fill="#795548" rx="3"/>
+    <rect x="5" y="5" width="40" height="25" fill="#6D4C41" rx="2"/>
+    <rect x="20" y="-5" width="10" height="8" fill="#5D4037"/>
+    <line x1="0" y1="17" x2="50" y2="17" stroke="#5D4037" stroke-width="2"/>
+    
+    <!-- Small dog peeking from suitcase -->
+    <circle cx="35" cy="10" r="12" fill="#D7CCC8">
+      <animate attributeName="cy" values="10;5;10" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="32" cy="7" r="2" fill="#212121"/>
+    <circle cx="38" cy="7" r="2" fill="#212121"/>
+    <ellipse cx="35" cy="13" rx="4" ry="3" fill="#212121"/>
+    <!-- Ears -->
+    <ellipse cx="28" cy="0" rx="5" ry="8" fill="#A1887F"/>
+    <ellipse cx="42" cy="0" rx="5" ry="8" fill="#A1887F"/>
+  </g>
+  
+  <!-- Cat (Усатый-полосатый) -->
+  <g transform="translate(340, 220)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="25" ry="18" fill="#FF9800"/>
+    
+    <!-- Stripes -->
+    <path d="M-15,-10 Q-10,0 -15,10" stroke="#E65100" stroke-width="3" fill="none"/>
+    <path d="M-5,-15 Q0,0 -5,15" stroke="#E65100" stroke-width="3" fill="none"/>
+    <path d="M10,-12 Q15,0 10,12" stroke="#E65100" stroke-width="3" fill="none"/>
+    
+    <!-- Head -->
+    <circle cx="25" cy="-5" r="15" fill="#FF9800"/>
+    
+    <!-- Ears -->
+    <polygon points="15,-18 20,-5 30,-15" fill="#FF9800"/>
+    <polygon points="35,-18 30,-5 40,-15" fill="#FF9800"/>
+    
+    <!-- Whiskers -->
+    <line x1="35" y1="-5" x2="50" y2="-8" stroke="#212121" stroke-width="1"/>
+    <line x1="35" y1="-3" x2="50" y2="-3" stroke="#212121" stroke-width="1"/>
+    <line x1="35" y1="-1" x2="50" y2="2" stroke="#212121" stroke-width="1"/>
+    
+    <!-- Eyes -->
+    <ellipse cx="22" cy="-8" rx="4" ry="5" fill="#4CAF50"/>
+    <ellipse cx="32" cy="-8" rx="4" ry="5" fill="#4CAF50"/>
+    <ellipse cx="22" cy="-8" rx="2" ry="4" fill="#212121"/>
+    <ellipse cx="32" cy="-8" rx="2" ry="4" fill="#212121"/>
+    
+    <!-- Nose -->
+    <ellipse cx="27" cy="0" rx="3" ry="2" fill="#E91E63"/>
+    
+    <!-- Tail -->
+    <path d="M-25,0 Q-40,-10 -35,-25" stroke="#FF9800" stroke-width="8" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M-25,0 Q-40,-10 -35,-25;M-25,0 Q-45,-5 -40,-20;M-25,0 Q-40,-10 -35,-25" dur="1s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Kitten -->
+    <g transform="translate(10, 30)">
+      <ellipse cx="0" cy="0" rx="12" ry="8" fill="#FFB74D"/>
+      <circle cx="10" cy="-3" r="8" fill="#FFB74D"/>
+      <polygon points="5,-10 8,0 15,-8" fill="#FFB74D"/>
+      <polygon points="15,-10 12,0 20,-8" fill="#FFB74D"/>
+      <circle cx="8" cy="-5" r="2" fill="#212121"/>
+      <circle cx="14" cy="-5" r="2" fill="#212121"/>
+    </g>
+  </g>
+  
+  <!-- Poems text -->
+  <text x="200" y="290" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="14" font-weight="bold" fill="#1565C0">
+    С.Я. Маршак «Детям»
+  </text>
+</svg>

@@ -1,7 +1,7 @@
-:HL["/school-curriculum-app/_next/static/chunks/0d-3ce-77ldw3.css","style"]
-:HL["/school-curriculum-app/_next/static/chunks/13qq9zjjiqz4b.css","style"]
-:HL["/school-curriculum-app/_next/static/media/07454f8ad8aaac57-s.p.0tqkxa-w3pk~c.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/school-curriculum-app/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/school-curriculum-app/_next/static/media/7f11d98043fdedc9-s.p.0r4w1y.tjq0ay.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/school-curriculum-app/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"HisHCZEa0l9DSOf6WHdKz"}
+:HL["/school-curriculum-app/_next/static/chunks/55063ca7ffb96f2c.css","style"]
+:HL["/school-curriculum-app/_next/static/chunks/1c8578128b189354.css","style"]
+:HL["/school-curriculum-app/_next/static/media/07454f8ad8aaac57-s.p.fc65572f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/school-curriculum-app/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/school-curriculum-app/_next/static/media/7f11d98043fdedc9-s.p.317fa95e.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/school-curriculum-app/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"zSFceiOLhzM5cERzdz48g","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

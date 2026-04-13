@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      @keyframes notes { 0%, 100% { transform: translateY(0) rotate(-5deg); } 50% { transform: translateY(-10px) rotate(5deg); } }
+      .bounce { animation: bounce 2s ease-in-out infinite; }
+      .notes { animation: notes 1.5s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#E0F7FA"/>
+  <text x="250" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#00695C" text-anchor="middle">🎵 Пение детских песен</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#26A69A"/>
+  
+  <!-- Musical notes floating -->
+  <g class="notes" style="animation-delay: 0s;"><text x="50" y="100" font-size="30">🎵</text></g>
+  <g class="notes" style="animation-delay: 0.3s;"><text x="450" y="120" font-size="30">🎶</text></g>
+  <g class="notes" style="animation-delay: 0.6s;"><text x="80" y="200" font-size="25">🎵</text></g>
+  
+  <!-- Children singing -->
+  <g transform="translate(120, 90)">
+    <g class="bounce">
+      <circle cx="60" cy="50" r="35" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+      <circle cx="50" cy="45" r="5" fill="#5D4037"/>
+      <circle cx="70" cy="45" r="5" fill="#5D4037"/>
+      <ellipse cx="60" cy="60" rx="12" ry="8" fill="#C62828"/>
+      <ellipse cx="60" cy="55" rx="5" ry="3" fill="#FFEB3B"/>
+    </g>
+    <g class="bounce" style="animation-delay: 0.3s;">
+      <circle cx="140" cy="50" r="35" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+      <circle cx="130" cy="45" r="5" fill="#5D4037"/>
+      <circle cx="150" cy="45" r="5" fill="#5D4037"/>
+      <ellipse cx="140" cy="60" rx="12" ry="8" fill="#C62828"/>
+      <ellipse cx="140" cy="55" rx="5" ry="3" fill="#FFEB3B"/>
+    </g>
+    <g class="bounce" style="animation-delay: 0.6s;">
+      <circle cx="220" cy="50" r="35" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+      <circle cx="210" cy="45" r="5" fill="#5D4037"/>
+      <circle cx="230" cy="45" r="5" fill="#5D4037"/>
+      <ellipse cx="220" cy="60" rx="12" ry="8" fill="#C62828"/>
+      <ellipse cx="220" cy="55" rx="5" ry="3" fill="#FFEB3B"/>
+    </g>
+  </g>
+  
+  <!-- Popular songs -->
+  <g transform="translate(50, 230)">
+    <text x="200" y="0" font-family="Arial" font-size="14" fill="#00695C" text-anchor="middle">Разучим песенки:</text>
+    <rect x="30" y="20" width="120" height="50" fill="#B2EBF2" stroke="#00ACC1" stroke-width="2" rx="8"/>
+    <text x="90" y="42" font-family="Arial" font-size="11" fill="#00695C" text-anchor="middle">В лесу родилась</text>
+    <text x="90" y="56" font-family="Arial" font-size="11" fill="#00695C" text-anchor="middle">ёлочка</text>
+    
+    <rect x="170" y="20" width="120" height="50" fill="#C8E6C9" stroke="#43A047" stroke-width="2" rx="8"/>
+    <text x="230" y="42" font-family="Arial" font-size="11" fill="#2E7D32" text-anchor="middle">Два весёлых</text>
+    <text x="230" y="56" font-family="Arial" font-size="11" fill="#2E7D32" text-anchor="middle">гусака</text>
+    
+    <rect x="310" y="20" width="120" height="50" fill="#FFCCBC" stroke="#E64A19" stroke-width="2" rx="8"/>
+    <text x="370" y="42" font-family="Arial" font-size="11" fill="#D84315" text-anchor="middle">Пусть бегут</text>
+    <text x="370" y="56" font-family="Arial" font-size="11" fill="#D84315" text-anchor="middle">неуклюже</text>
+  </g>
+</svg>

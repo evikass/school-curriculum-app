@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes sway { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+      .sway { animation: sway 3s ease-in-out infinite; transform-origin: bottom center; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#E8F5E9"/>
+  <text x="250" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#2E7D32" text-anchor="middle">🍂 Природные материалы</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#66BB6A"/>
+  
+  <!-- Natural materials collection -->
+  <g transform="translate(30, 80)">
+    <!-- Leaves -->
+    <g class="sway" style="animation-delay: 0s;">
+      <ellipse cx="50" cy="40" rx="30" ry="20" fill="#4CAF50" stroke="#2E7D32" stroke-width="2" transform="rotate(-30, 50, 40)"/>
+      <line x1="50" y1="55" x2="50" y2="80" stroke="#795548" stroke-width="3"/>
+      <text x="50" y="100" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">Листья</text>
+    </g>
+    
+    <!-- Pinecones -->
+    <g class="sway" style="animation-delay: 0.2s;">
+      <ellipse cx="130" cy="50" rx="20" ry="30" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+      <line x1="115" y1="35" x2="130" y2="25" stroke="#5D4037" stroke-width="1"/>
+      <line x1="145" y1="35" x2="130" y2="25" stroke="#5D4037" stroke-width="1"/>
+      <line x1="115" y1="50" x2="145" y2="50" stroke="#5D4037" stroke-width="1"/>
+      <line x1="118" y1="65" x2="142" y2="65" stroke="#5D4037" stroke-width="1"/>
+      <line x1="125" y1="78" x2="135" y2="78" stroke="#5D4037" stroke-width="1"/>
+      <text x="130" y="105" font-family="Arial" font-size="10" fill="#5D4037" text-anchor="middle">Шишки</text>
+    </g>
+    
+    <!-- Acorns -->
+    <g class="sway" style="animation-delay: 0.4s;">
+      <ellipse cx="210" cy="50" rx="12" ry="8" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+      <ellipse cx="210" cy="65" rx="15" ry="18" fill="#A1887F" stroke="#6D4C41" stroke-width="2"/>
+      <ellipse cx="235" cy="55" rx="10" ry="6" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+      <ellipse cx="235" cy="67" rx="12" ry="14" fill="#BCAAA4" stroke="#8D6E63" stroke-width="2"/>
+      <text x="220" y="105" font-family="Arial" font-size="10" fill="#4E342E" text-anchor="middle">Жёлуди</text>
+    </g>
+    
+    <!-- Chestnuts -->
+    <g class="sway" style="animation-delay: 0.6s;">
+      <circle cx="310" cy="55" r="22" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+      <path d="M295,40 Q310,30 325,40" fill="#A1887F" stroke="#6D4C41" stroke-width="1"/>
+      <circle cx="350" cy="60" r="18" fill="#A1887F" stroke="#6D4C41" stroke-width="2"/>
+      <text x="330" y="105" font-family="Arial" font-size="10" fill="#5D4037" text-anchor="middle">Каштаны</text>
+    </g>
+    
+    <!-- Twigs -->
+    <g class="sway" style="animation-delay: 0.8s;">
+      <line x1="400" y1="30" x2="400" y2="80" stroke="#795548" stroke-width="4" stroke-linecap="round"/>
+      <line x1="400" y1="40" x2="420" y2="30" stroke="#795548" stroke-width="2" stroke-linecap="round"/>
+      <line x1="400" y1="55" x2="425" y2="50" stroke="#795548" stroke-width="2" stroke-linecap="round"/>
+      <line x1="400" y1="70" x2="418" y2="75" stroke="#795548" stroke-width="2" stroke-linecap="round"/>
+      <text x="410" y="105" font-family="Arial" font-size="10" fill="#5D4037" text-anchor="middle">Веточки</text>
+    </g>
+  </g>
+  
+  <!-- Craft examples -->
+  <g transform="translate(30, 210)">
+    <text x="220" y="0" font-family="Arial" font-size="14" fill="#2E7D32" text-anchor="middle">Поделки из природных материалов:</text>
+    
+    <g transform="translate(20, 20)">
+      <rect x="0" y="0" width="75" height="80" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="8"/>
+      <text x="37" y="30" font-family="Arial" font-size="25" text-anchor="middle">🦔</text>
+      <text x="37" y="55" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">Ёжик из</text>
+      <text x="37" y="70" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">шишки</text>
+    </g>
+    
+    <g transform="translate(110, 20)">
+      <rect x="0" y="0" width="75" height="80" fill="#FFCCBC" stroke="#FF5722" stroke-width="2" rx="8"/>
+      <text x="37" y="30" font-family="Arial" font-size="25" text-anchor="middle">🦉</text>
+      <text x="37" y="55" font-family="Arial" font-size="10" fill="#D84315" text-anchor="middle">Сова из</text>
+      <text x="37" y="70" font-family="Arial" font-size="10" fill="#D84315" text-anchor="middle">шишки</text>
+    </g>
+    
+    <g transform="translate(200, 20)">
+      <rect x="0" y="0" width="75" height="80" fill="#BBDEFB" stroke="#2196F3" stroke-width="2" rx="8"/>
+      <text x="37" y="30" font-family="Arial" font-size="25" text-anchor="middle">🐟</text>
+      <text x="37" y="55" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">Рыбка из</text>
+      <text x="37" y="70" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">листьев</text>
+    </g>
+    
+    <g transform="translate(290, 20)">
+      <rect x="0" y="0" width="75" height="80" fill="#F8BBD9" stroke="#E91E63" stroke-width="2" rx="8"/>
+      <text x="37" y="30" font-family="Arial" font-size="25" text-anchor="middle">🦃</text>
+      <text x="37" y="55" font-family="Arial" font-size="10" fill="#AD1457" text-anchor="middle">Индюк из</text>
+      <text x="37" y="70" font-family="Arial" font-size="10" fill="#AD1457" text-anchor="middle">листьев</text>
+    </g>
+    
+    <g transform="translate(380, 20)">
+      <rect x="0" y="0" width="75" height="80" fill="#FFECB3" stroke="#FFC107" stroke-width="2" rx="8"/>
+      <text x="37" y="30" font-family="Arial" font-size="25" text-anchor="middle">🌲</text>
+      <text x="37" y="55" font-family="Arial" font-size="10" fill="#F57F17" text-anchor="middle">Дерево из</text>
+      <text x="37" y="70" font-family="Arial" font-size="10" fill="#F57F17" text-anchor="middle">каштанов</text>
+    </g>
+  </g>
+</svg>

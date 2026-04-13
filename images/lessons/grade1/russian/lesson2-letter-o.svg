@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd"/>
+      <stop offset="100%" style="stop-color:#bbdefb"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Big letter O -->
+  <text x="200" y="160" font-family="Arial Black, sans-serif" font-size="140" fill="#1565c0" text-anchor="middle" font-weight="bold">
+    О
+    <animate attributeName="fill" values="#1565c0;#2196f3;#1565c0" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Small letter o -->
+  <text x="320" y="100" font-family="Arial, sans-serif" font-size="60" fill="#2196f3" text-anchor="middle">о</text>
+  
+  <!-- Sound wave -->
+  <g transform="translate(50, 50)">
+    <ellipse cx="30" cy="20" rx="25" ry="15" stroke="#f44336" stroke-width="3" fill="none">
+      <animate attributeName="rx" values="25;28;25" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="70" y="25" font-family="Arial, sans-serif" font-size="16" fill="#f44336">[О]</text>
+  </g>
+  
+  <!-- Mouth shape for O -->
+  <g transform="translate(320, 180)">
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="#ffccbc" stroke="#e65100" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#b71c1c"/>
+  </g>
+  
+  <!-- Words starting with O -->
+  <text x="60" y="240" font-family="Arial, sans-serif" font-size="14" fill="#333">О</text>
+  <text x="75" y="240" font-family="Arial, sans-serif" font-size="14" fill="#1565c0">сен</text>
+  <text x="130" y="240" font-family="Arial, sans-serif" font-size="14" fill="#333">О</text>
+  <text x="145" y="240" font-family="Arial, sans-serif" font-size="14" fill="#1565c0">лень</text>
+  <text x="210" y="240" font-family="Arial, sans-serif" font-size="14" fill="#333">О</text>
+  <text x="225" y="240" font-family="Arial, sans-serif" font-size="14" fill="#1565c0">блако</text>
+  <text x="310" y="240" font-family="Arial, sans-serif" font-size="14" fill="#333">О</text>
+  <text x="325" y="240" font-family="Arial, sans-serif" font-size="14" fill="#1565c0">рех</text>
+  
+  <!-- Title -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#0d47a1" text-anchor="middle" font-weight="bold">Буква О, звук [о]</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="techBg3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BBDEFB;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#techBg3)"/>
+  
+  <!-- Sun -->
+  <circle cx="445" cy="50" r="24" fill="#FFD700" opacity="0.85">
+    <animate attributeName="r" values="24;28;24" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Clouds -->
+  <g opacity="0.7">
+    <ellipse cx="120" cy="45" rx="28" ry="16" fill="white"/>
+    <ellipse cx="145" cy="40" rx="22" ry="13" fill="white"/>
+  </g>
+  
+  <!-- Trees -->
+  <g opacity="0.25">
+    <ellipse cx="35" cy="280" rx="22" ry="35" fill="#228B22"/>
+    <rect x="30" y="280" width="10" height="20" fill="#5D4037"/>
+  </g>
+  
+  <!-- Flowers -->
+  <g opacity="0.5">
+    <circle cx="40" cy="325" r="5" fill="#2196F3"/>
+    <circle cx="47" cy="320" r="4" fill="#64B5F6"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1565C0" text-anchor="middle">🚗 Модели</text>
+  <rect x="100" y="45" width="300" height="3" rx="2" fill="#1565C0" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="30" y="60" width="440" height="255" rx="15" fill="white" opacity="0.92" stroke="#1976D2" stroke-width="2"/>
+  
+  <!-- Models -->
+  <text x="250" y="85" font-size="11" font-weight="bold" fill="#1565C0" text-anchor="middle">Изготовление моделей / Making models</text>
+  
+  <g transform="translate(50, 95)">
+    <!-- Paper model -->
+    <rect x="0" y="0" width="130" height="75" rx="8" fill="#E3F2FD" stroke="#2196F3"/>
+    <text x="65" y="18" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">✈️ Бумажные модели</text>
+    <text x="65" y="45" font-size="28" text-anchor="middle">✈️</text>
+    <text x="65" y="68" font-size="8" fill="#333" text-anchor="middle">Самолёты, корабли</text>
+    
+    <!-- Clay model -->
+    <rect x="145" y="0" width="130" height="75" rx="8" fill="#BBDEFB" stroke="#1E88E5"/>
+    <text x="210" y="18" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">🏺 Лепка</text>
+    <text x="210" y="45" font-size="28" text-anchor="middle">🎨</text>
+    <text x="210" y="68" font-size="8" fill="#333" text-anchor="middle">Пластилин, глина</text>
+    
+    <!-- Construction -->
+    <rect x="290" y="0" width="130" height="75" rx="8" fill="#90CAF9" stroke="#42A5F5"/>
+    <text x="355" y="18" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">🧱 Конструирование</text>
+    <text x="355" y="45" font-size="28" text-anchor="middle">🏗️</text>
+    <text x="355" y="68" font-size="8" fill="#333" text-anchor="middle">Конструктор, детали</text>
+  </g>
+  
+  <!-- Steps -->
+  <rect x="50" y="185" width="400" height="75" rx="10" fill="#E8EAF6" stroke="#3F51B5"/>
+  <text x="250" y="205" font-size="11" font-weight="bold" fill="#303F9F" text-anchor="middle">📋 Этапы создания модели</text>
+  <g transform="translate(70, 220)">
+    <text x="0" y="12" font-size="9" fill="#333">1️⃣ Выбрать модель</text>
+    <text x="130" y="12" font-size="9" fill="#333">2️⃣ Подготовить материалы</text>
+    <text x="0" y="30" font-size="9" fill="#333">3️⃣ Сделать детали</text>
+    <text x="130" y="30" font-size="9" fill="#333">4️⃣ Собрать модель</text>
+  </g>
+  
+  <!-- Tips -->
+  <rect x="80" y="270" width="340" height="40" rx="8" fill="#E3F2FD" stroke="#1976D2"/>
+  <text x="250" y="285" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle">💡 Совет: Работай аккуратно и терпеливо!</text>
+  <text x="250" y="300" font-size="9" fill="#333" text-anchor="middle">Хорошая модель требует времени и внимания</text>
+  
+  <!-- Decorative -->
+  <g transform="translate(55, 280)" opacity="0.5">
+    <text font-size="18">🔧</text>
+  </g>
+</svg>

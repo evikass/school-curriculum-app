@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes squish { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1, 0.9); } }
+      .squish { animation: squish 1.5s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FCE4EC"/>
+  <text x="250" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#AD1457" text-anchor="middle">🎨 Знакомство с пластилином</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#E91E63"/>
+  
+  <!-- Play-Doh containers -->
+  <g transform="translate(30, 80)">
+    <g class="squish" style="animation-delay: 0s;">
+      <rect x="10" y="20" width="60" height="80" fill="#F44336" stroke="#B71C1C" stroke-width="2" rx="5"/>
+      <ellipse cx="40" cy="20" rx="30" ry="8" fill="#EF5350"/>
+      <ellipse cx="40" cy="100" rx="30" ry="8" fill="#C62828"/>
+      <text x="40" y="70" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Красный</text>
+    </g>
+    
+    <g class="squish" style="animation-delay: 0.2s;">
+      <rect x="85" y="20" width="60" height="80" fill="#FFEB3B" stroke="#F57F17" stroke-width="2" rx="5"/>
+      <ellipse cx="115" cy="20" rx="30" ry="8" fill="#FFF176"/>
+      <ellipse cx="115" cy="100" rx="30" ry="8" fill="#FBC02D"/>
+      <text x="115" y="70" font-family="Arial" font-size="10" fill="#F57F17" text-anchor="middle">Жёлтый</text>
+    </g>
+    
+    <g class="squish" style="animation-delay: 0.4s;">
+      <rect x="160" y="20" width="60" height="80" fill="#4CAF50" stroke="#2E7D32" stroke-width="2" rx="5"/>
+      <ellipse cx="190" cy="20" rx="30" ry="8" fill="#66BB6A"/>
+      <ellipse cx="190" cy="100" rx="30" ry="8" fill="#388E3C"/>
+      <text x="190" y="70" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Зелёный</text>
+    </g>
+    
+    <g class="squish" style="animation-delay: 0.6s;">
+      <rect x="235" y="20" width="60" height="80" fill="#2196F3" stroke="#1565C0" stroke-width="2" rx="5"/>
+      <ellipse cx="265" cy="20" rx="30" ry="8" fill="#42A5F5"/>
+      <ellipse cx="265" cy="100" rx="30" ry="8" fill="#1976D2"/>
+      <text x="265" y="70" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Синий</text>
+    </g>
+    
+    <g class="squish" style="animation-delay: 0.8s;">
+      <rect x="310" y="20" width="60" height="80" fill="#9C27B0" stroke="#6A1B9A" stroke-width="2" rx="5"/>
+      <ellipse cx="340" cy="20" rx="30" ry="8" fill="#AB47BC"/>
+      <ellipse cx="340" cy="100" rx="30" ry="8" fill="#7B1FA2"/>
+      <text x="340" y="70" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Фиолет.</text>
+    </g>
+    
+    <g class="squish" style="animation-delay: 1s;">
+      <rect x="385" y="20" width="60" height="80" fill="#FF9800" stroke="#E65100" stroke-width="2" rx="5"/>
+      <ellipse cx="415" cy="20" rx="30" ry="8" fill="#FFB74D"/>
+      <ellipse cx="415" cy="100" rx="30" ry="8" fill="#F57C00"/>
+      <text x="415" y="70" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Оранж.</text>
+    </g>
+  </g>
+  
+  <!-- Basic shapes with clay -->
+  <g transform="translate(50, 210)">
+    <text x="200" y="0" font-family="Arial" font-size="14" fill="#AD1457" text-anchor="middle">Сделай из пластилина:</text>
+    
+    <g transform="translate(30, 20)">
+      <circle cx="40" cy="40" r="35" fill="#4CAF50" stroke="#2E7D32" stroke-width="3"/>
+      <text x="40" y="95" font-family="Arial" font-size="11" fill="#2E7D32" text-anchor="middle">Шар</text>
+    </g>
+    
+    <g transform="translate(130, 20)">
+      <rect x="5" y="5" width="70" height="70" fill="#2196F3" stroke="#1565C0" stroke-width="3" rx="5"/>
+      <text x="40" y="95" font-family="Arial" font-size="11" fill="#1565C0" text-anchor="middle">Куб</text>
+    </g>
+    
+    <g transform="translate(230, 20)">
+      <ellipse cx="40" cy="40" rx="25" ry="40" fill="#FF9800" stroke="#E65100" stroke-width="3"/>
+      <text x="40" y="95" font-family="Arial" font-size="11" fill="#E65100" text-anchor="middle">Цилиндр</text>
+    </g>
+    
+    <g transform="translate(310, 20)">
+      <rect x="10" y="35" width="80" height="15" fill="#E91E63" stroke="#AD1457" stroke-width="3" rx="5"/>
+      <text x="50" y="95" font-family="Arial" font-size="11" fill="#AD1457" text-anchor="middle">Колбаска</text>
+    </g>
+  </g>
+</svg>
