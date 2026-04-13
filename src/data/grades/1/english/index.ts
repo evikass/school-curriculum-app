@@ -393,6 +393,13 @@ export const games: GameLesson[] = [
         options: ["Добрый вечер", "Доброе утро", "Добрый день", "Никто не знает", "Не знаю"],
         correctAnswer: "Доброе утро",
         hint: "Говорим это утром"
+      },
+      {
+        type: 'quiz',
+        question: "Как сказать «Меня зовут...» по-английски?",
+        options: ["My name is...", "My cat is...", "My dog is...", "Не знаю", "Никто не знает"],
+        correctAnswer: "My name is...",
+        hint: "My name = моё имя"
       }
     ],
     reward: { stars: 3, message: "Great! Отлично! Ты знаешь приветствия! 👋" }
@@ -437,6 +444,13 @@ export const games: GameLesson[] = [
         options: ["Жёлтый", "Красный", "Синий", "Никто не знает", "Не знаю"],
         correctAnswer: "Жёлтый",
         hint: "Yellow = Жёлтый, как солнышко"
+      },
+      {
+        type: 'quiz',
+        question: "Pink - это какой цвет?",
+        options: ["Розовый", "Красный", "Жёлтый", "Не знаю", "Никто не знает"],
+        correctAnswer: "Розовый",
+        hint: "Pink = Розовый, как цветок 🌸"
       }
     ],
     reward: { stars: 3, message: "Wonderful! Ты знаешь цвета! 🎨" }
@@ -525,6 +539,13 @@ export const games: GameLesson[] = [
         options: ["Рыба", "Птица", "Собака", "Никто не знает", "Не знаю"],
         correctAnswer: "Птица",
         hint: "Bird летает в небе"
+      },
+      {
+        type: 'quiz',
+        question: "Как будет «медведь» по-английски?",
+        options: ["Cat", "Dog", "Bear", "Не знаю", "Никто не знает"],
+        correctAnswer: "Bear",
+        hint: "Bear = Медведь 🐻"
       }
     ],
     reward: { stars: 3, message: "Great job! Ты знаешь животных! 🐱" }
@@ -569,6 +590,20 @@ export const games: GameLesson[] = [
         options: ["Привет", "До свидания", "Спасибо", "Никто не знает", "Не знаю"],
         correctAnswer: "До свидания",
         hint: "See you = Увидимся/До встречи"
+      },
+      {
+        type: 'quiz',
+        question: "Good evening — это...",
+        options: ["Добрый день", "Добрый вечер", "Доброе утро", "Не знаю", "Никто не знает"],
+        correctAnswer: "Добрый вечер",
+        hint: "Evening = вечер"
+      },
+      {
+        type: 'quiz',
+        question: "Good night — это...",
+        options: ["Добрый день", "Спокойной ночи", "Доброе утро", "Не знаю", "Никто не знает"],
+        correctAnswer: "Спокойной ночи",
+        hint: "Night = ночь, говорят перед сном"
       }
     ],
     reward: { stars: 3, message: "Excellent! Ты умеешь здороваться! 👋" }
@@ -613,6 +648,20 @@ export const games: GameLesson[] = [
         options: ["Six", "Eight", "Nine", "Ten", "Five"],
         correctAnswer: "Eight",
         hint: "Посчитай: шесть, семь, ..."
+      },
+      {
+        type: 'quiz',
+        question: "Nine - это какое число?",
+        options: ["7", "8", "9", "Не знаю", "Никто не знает"],
+        correctAnswer: "9",
+        hint: "Nine = 9"
+      },
+      {
+        type: 'quiz',
+        question: "Какое число идёт после Nine?",
+        options: ["Seven", "Eight", "Ten", "Не знаю", "Никто не знает"],
+        correctAnswer: "Ten",
+        hint: "Посчитай: восемь, девять, ..."
       }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь числа! 🔢" }
