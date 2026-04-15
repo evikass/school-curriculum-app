@@ -409,5 +409,33 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "What's the Past Simple of 'go'?", options: ["goed", "went", "gone", "going", "Другой ответ"], correctAnswer: "went", hint: "Irregular verb" }
     ],
     reward: { stars: 3, message: "Great job! You're an English pro! 🎉" }
+  },
+  {
+    title: "Travel and Tourism",
+    subject: "English",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "What's the Russian for 'boarding pass'?", options: ["Билет", "Посадочный талон", "Загранпаспорт", "Регистрация", "Другой ответ"], correctAnswer: "Посадочный талон", hint: "You need it to board the plane" },
+      { type: 'quiz', question: "I'm going ___ visit London next summer.", options: ["for", "to", "at", "on", "Другой ответ"], correctAnswer: "to", hint: "Going to + infinitive" },
+      { type: 'quiz', question: "Which word means 'самолётом'?", options: ["By train", "By plane", "By bus", "On foot", "Другой ответ"], correctAnswer: "By plane", hint: "A type of air transport" },
+      { type: 'find', question: "Select places to visit:", options: ["Museum", "Cathedral", "Homework", "Palace", "Monument"], correctAnswer: ["Museum", "Cathedral", "Palace", "Monument"], hint: "Tourist attractions and landmarks" },
+      { type: 'quiz', question: "How do you ask for directions to a museum?", options: ["What is a museum?", "How do I get to the museum?", "Where is the museum from?", "Do you like museums?", "Другой ответ"], correctAnswer: "How do I get to the museum?", hint: "Useful phrase for tourists" }
+    ],
+    reward: { stars: 3, message: "Amazing! You're ready to travel! ✈️" }
+  },
+  {
+    title: "Technology",
+    subject: "English",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "What's the Russian for 'social media'?", options: ["Электронная почта", "Социальные сети", "Веб-сайт", "Блог", "Другой ответ"], correctAnswer: "Социальные сети", hint: "VK, Instagram, TikTok..." },
+      { type: 'quiz', question: "I have ___ bought a new smartphone.", options: ["yet", "just", "ever", "never", "Другой ответ"], correctAnswer: "just", hint: "Present Perfect with 'already/just'" },
+      { type: 'quiz', question: "What does 'download' mean in Russian?", options: ["Загружать онлайн", "Скачивать файлы", "Удалять данные", "Отправлять письмо", "Другой ответ"], correctAnswer: "Скачивать файлы", hint: "Getting files from the internet" },
+      { type: 'quiz', question: "Which is an important internet safety rule?", options: ["Share your password with friends", "Post personal information publicly", "Don't share personal information", "Accept all friend requests", "Другой ответ"], correctAnswer: "Don't share personal information", hint: "Stay safe online" },
+      { type: 'quiz', question: "Have you ever ___ this app?", options: ["use", "uses", "using", "used", "Другой ответ"], correctAnswer: "used", hint: "Present Perfect: have/has + Past Participle" }
+    ],
+    reward: { stars: 3, message: "Great! You're a digital native! 💻" }
   }
 ]
