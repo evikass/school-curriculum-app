@@ -39,6 +39,7 @@ export interface LessonData {
   image?: string
   content?: string      // Полное содержание урока (markdown)
   examples?: string[]   // Примеры
+  keyPoints?: string[]  // Ключевые моменты
   facts?: string[]      // Интересные факты
 }
 

@@ -16,6 +16,7 @@ interface SelectedLesson {
   image?: string
   content?: string
   examples?: string[]
+  keyPoints?: string[]
   facts?: string[]
 }
 

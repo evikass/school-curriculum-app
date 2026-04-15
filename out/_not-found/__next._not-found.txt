@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[39756,["/school-curriculum-app/_next/static/chunks/07f91abe78716cec.js","/school-curriculum-app/_next/static/chunks/4a74546350702b08.js","/school-curriculum-app/_next/static/chunks/2f236954d6a65e12.js"],"default"]
 3:I[37457,["/school-curriculum-app/_next/static/chunks/07f91abe78716cec.js","/school-curriculum-app/_next/static/chunks/4a74546350702b08.js","/school-curriculum-app/_next/static/chunks/2f236954d6a65e12.js"],"default"]
-0:{"buildId":"OVS0Ejs1aBT31xB5C7dSX","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"N21_wW3BKf3nFOvWpe-ks","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
