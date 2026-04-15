@@ -838,5 +838,145 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что делает оператор continue в цикле?", options: ["Выходит из цикла", "Пропускает итерацию", "Останавливает программу", "Продолжает цикл", "Другой ответ"], correctAnswer: "Пропускает итерацию", hint: "Переходит к следующей итерации" }
     ],
     reward: { stars: 3, message: "Отлично! Ты освоил циклы! 🔄" }
+  },
+  {
+    title: "Введение в программирование",
+    subject: "Информатика",
+    icon: "Monitor",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Что такое программа?", options: ["Файл с текстом", "Последовательность команд для компьютера", "Сайт в интернете", "Картинка", "Другой ответ"], correctAnswer: "Последовательность команд для компьютера", hint: "Выполняется шаг за шагом" },
+      { type: 'quiz', question: "Какой язык программирования популярен для обучения?", options: ["Java", "Python", "Assembly", "Fortran", "Другой ответ"], correctAnswer: "Python", hint: "Простой и понятный синтаксис" },
+      { type: 'quiz', question: "Для чего нужна среда разработки (IDE)?", options: ["Для просмотра сайтов", "Для написания кода", "Для рисования", "Для прослушивания музыки", "Другой ответ"], correctAnswer: "Для написания кода", hint: "VS Code, PyCharm, IDLE" },
+      { type: 'quiz', question: "Что выводит команда print('Привет')?", options: ["Ошибка", "Слово Привет", "Число", "Ничего", "Другой ответ"], correctAnswer: "Слово Привет", hint: "Первая программа на Python" },
+      { type: 'quiz', question: "Какой язык используется для создания веб-сайтов?", options: ["Python", "C++", "JavaScript", "Pascal", "Другой ответ"], correctAnswer: "JavaScript", hint: "Работает в браузере" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь основы программирования! 💻" }
+  },
+  {
+    title: "Переменные и типы данных",
+    subject: "Информатика",
+    icon: "Monitor",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Что такое переменная?", options: ["Команда", "Именованная область памяти для хранения данных", "Функция", "Тип данных", "Другой ответ"], correctAnswer: "Именованная область памяти для хранения данных", hint: "Хранит значение" },
+      { type: 'quiz', question: "Какой тип данных используется для целых чисел?", options: ["str", "float", "int", "bool", "Другой ответ"], correctAnswer: "int", hint: "Integer — целый" },
+      { type: 'quiz', question: "Какой тип данных используется для строк текста?", options: ["int", "float", "bool", "str", "Другой ответ"], correctAnswer: "str", hint: "String — строка" },
+      { type: 'quiz', question: "Чему равно значение type(3.14)?", options: ["int", "float", "str", "bool", "Другой ответ"], correctAnswer: "float", hint: "Вещественное число" },
+      { type: 'quiz', question: "Как получить ввод от пользователя в Python?", options: ["read()", "input()", "get()", "scan()", "Другой ответ"], correctAnswer: "input()", hint: "Запрашивает данные с клавиатуры" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь переменные! 📝" }
+  },
+  {
+    title: "Условия и ветвления",
+    subject: "Информатика",
+    icon: "Monitor",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Какой оператор используется для проверки условия?", options: ["for", "while", "if", "print", "Другой ответ"], correctAnswer: "if", hint: "Условный оператор" },
+      { type: 'quiz', question: "Что делает оператор elif?", options: ["Завершает программу", "Проверяет дополнительное условие", "Создаёт цикл", "Объявляет функцию", "Другой ответ"], correctAnswer: "Проверяет дополнительное условие", hint: "Множественные условия" },
+      { type: 'quiz', question: "Какой оператор означает логическое И в Python?", options: ["&&", "and", "&", "AND", "Другой ответ"], correctAnswer: "and", hint: "Оба условия истинны" },
+      { type: 'quiz', question: "Что означает оператор != ?", options: ["Равно", "Не равно", "Больше", "Меньше", "Другой ответ"], correctAnswer: "Не равно", hint: "Отрицание равенства" },
+      { type: 'quiz', question: "Какой оператор означает логическое ИЛИ?", options: ["and", "not", "or", "||", "Другой ответ"], correctAnswer: "or", hint: "Хотя бы одно условие истинно" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь условия! 🔀" }
+  },
+  {
+    title: "Основы HTML",
+    subject: "Информатика",
+    icon: "Monitor",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Что означает аббревиатура HTML?", options: ["HyperText Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "HyperText Machine Learning", "Другой ответ"], correctAnswer: "HyperText Markup Language", hint: "Язык разметки" },
+      { type: 'quiz', question: "Какой тег создаёт главный заголовок страницы?", options: ["<p>", "<title>", "<h1>", "<header>", "Другой ответ"], correctAnswer: "<h1>", hint: "Heading 1" },
+      { type: 'quiz', question: "Какой тег используется для создания ссылки?", options: ["<link>", "<a>", "<href>", "<url>", "Другой ответ"], correctAnswer: "<a>", hint: "Anchor — якорь" },
+      { type: 'quiz', question: "Какой атрибут тега <a> указывает адрес ссылки?", options: ["src", "link", "href", "url", "Другой ответ"], correctAnswer: "href", hint: "Hypertext Reference" },
+      { type: 'quiz', question: "Какой тег создаёт параграф текста?", options: ["<div>", "<text>", "<p>", "<br>", "Другой ответ"], correctAnswer: "<p>", hint: "Paragraph" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь HTML! 🌐" }
+  },
+  {
+    title: "Основы CSS",
+    subject: "Информатика",
+    icon: "Monitor",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Что означает аббревиатура CSS?", options: ["Computer Style Sheets", "Cascading Style Sheets", "Creative Style System", "Colorful Style Sheets", "Другой ответ"], correctAnswer: "Cascading Style Sheets", hint: "Каскадные таблицы стилей" },
+      { type: 'quiz', question: "Какое свойство CSS задает цвет текста?", options: ["font-color", "text-color", "color", "foreground", "Другой ответ"], correctAnswer: "color", hint: "Цвет текста элемента" },
+      { type: 'quiz', question: "Какой символ используется для селектора по классу?", options: ["#", ".", "@", "$", "Другой ответ"], correctAnswer: ".", hint: "Точка перед именем класса" },
+      { type: 'quiz', question: "Какое свойство задаёт внешний отступ элемента?", options: ["padding", "border", "margin", "spacing", "Другой ответ"], correctAnswer: "margin", hint: "Отступ со всех сторон" },
+      { type: 'quiz', question: "Какой символ используется для селектора по id?", options: [".", "#", "*", "&", "Другой ответ"], correctAnswer: "#", hint: "Решётка перед идентификатором" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь CSS! 🎨" }
+  },
+  {
+    title: "Создание веб-страницы",
+    subject: "Информатика",
+    icon: "Monitor",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Какой семантический тег используется для шапки сайта?", options: ["<top>", "<head>", "<header>", "<h1>", "Другой ответ"], correctAnswer: "<header>", hint: "Верхняя часть страницы" },
+      { type: 'quiz', question: "Какой тег создаёт навигацию по сайту?", options: ["<menu>", "<nav>", "<link>", "<navigate>", "Другой ответ"], correctAnswer: "<nav>", hint: "Navigation" },
+      { type: 'quiz', question: "Какой тег используется для основной части контента?", options: ["<body>", "<main>", "<content>", "<section>", "Другой ответ"], correctAnswer: "<main>", hint: "Основное содержание" },
+      { type: 'quiz', question: "Какой тег создаёт подвал сайта?", options: ["<bottom>", "<footer>", "<end>", "<down>", "Другой ответ"], correctAnswer: "<footer>", hint: "Нижняя часть страницы" },
+      { type: 'quiz', question: "Как подключить внешний файл стилей в HTML?", options: ["<style src='...'>", "<css href='...'>", "<link rel='stylesheet' href='...'>", "<script src='...'>", "Другой ответ"], correctAnswer: "<link rel='stylesheet' href='...'>", hint: "Тег link в разделе head" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты умеешь создавать сайты! 📄" }
+  },
+  {
+    title: "Растровая и векторная графика",
+    subject: "Информатика",
+    icon: "Monitor",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Из чего состоит растровое изображение?", options: ["Из кривых", "Из пикселей", "Из векторов", "Из слоёв", "Другой ответ"], correctAnswer: "Из пикселей", hint: "Маленькие точки разных цветов" },
+      { type: 'quiz', question: "Какой формат лучше для логотипов?", options: ["JPEG", "BMP", "SVG", "PNG", "Другой ответ"], correctAnswer: "SVG", hint: "Векторный формат" },
+      { type: 'quiz', question: "Что происходит с векторным изображением при увеличении?", options: ["Теряет качество", "Не теряет качество", "Размывается", "Исчезает", "Другой ответ"], correctAnswer: "Не теряет качество", hint: "Математические формулы" },
+      { type: 'quiz', question: "Какой формат растровой графики поддерживает анимацию?", options: ["JPEG", "PNG", "GIF", "BMP", "Другой ответ"], correctAnswer: "GIF", hint: "Кадры анимации" },
+      { type: 'quiz', question: "В какой программе работают с векторной графикой?", options: ["Photoshop", "GIMP", "Illustrator", "Paint", "Другой ответ"], correctAnswer: "Illustrator", hint: "Adobe Illustrator" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь виды графики! 🖼️" }
+  },
+  {
+    title: "Обработка изображений",
+    subject: "Информатика",
+    icon: "Monitor",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Что такое кадрирование изображения?", options: ["Изменение цвета", "Обрезка изображения", "Увеличение", "Поворот", "Другой ответ"], correctAnswer: "Обрезка изображения", hint: "Удаление лишних частей" },
+      { type: 'quiz', question: "Какой современный формат изображений обеспечивает маленький размер?", options: ["JPEG", "PNG", "WebP", "BMP", "Другой ответ"], correctAnswer: "WebP", hint: "Современный формат" },
+      { type: 'quiz', question: "Для чего нужны слои в графическом редакторе?", options: ["Для увеличения размера", "Для наложения изображений", "Для изменения формата", "Для печати", "Другой ответ"], correctAnswer: "Для наложения изображений", hint: "Работа с элементами по отдельности" },
+      { type: 'quiz', question: "Какой формат поддерживает прозрачность?", options: ["JPEG", "BMP", "PNG", "TIFF", "Другой ответ"], correctAnswer: "PNG", hint: "Удобно для логотипов" },
+      { type: 'quiz', question: "Что такое цветокоррекция изображения?", options: ["Изменение размера", "Настройка яркости, контраста, насыщенности", "Кадрирование", "Сжатие", "Другой ответ"], correctAnswer: "Настройка яркости, контраста, насыщенности", hint: "Улучшение визуального качества" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь обработку изображений! 🎨" }
+  },
+  {
+    title: "Что такое алгоритм",
+    subject: "Информатика",
+    icon: "Monitor",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Что такое алгоритм?", options: ["Любой текст", "Точное описание последовательности действий", "Программа", "Рисунок", "Другой ответ"], correctAnswer: "Точное описание последовательности действий", hint: "Пошаговая инструкция" },
+      { type: 'quiz', question: "Какое свойство алгоритма означает разделение на шаги?", options: ["Массовость", "Дискретность", "Результативность", "Определённость", "Другой ответ"], correctAnswer: "Дискретность", hint: "Выполнение по порядку" },
+      { type: 'quiz', question: "Какая фигура в блок-схеме обозначает действие?", options: ["Овал", "Ромб", "Прямоугольник", "Параллелограмм", "Другой ответ"], correctAnswer: "Прямоугольник", hint: "Блок действий" },
+      { type: 'quiz', question: "Какое свойство алгоритма означает применимость к множеству данных?", options: ["Дискретность", "Определённость", "Массовость", "Результативность", "Другой ответ"], correctAnswer: "Массовость", hint: "Универсальность" },
+      { type: 'quiz', question: "Какая фигура в блок-схеме обозначает условие?", options: ["Прямоугольник", "Овал", "Ромб", "Круг", "Другой ответ"], correctAnswer: "Ромб", hint: "Ветвление алгоритма" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь алгоритмы! 📋" }
+  },
+  {
+    title: "Исполнители алгоритмов",
+    subject: "Информатика",
+    icon: "Monitor",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Что такое исполнитель алгоритма?", options: ["Человек", "Объект, выполняющий алгоритм", "Компьютер", "Программа", "Другой ответ"], correctAnswer: "Объект, выполняющий алгоритм", hint: "Выполняет команды" },
+      { type: 'quiz', question: "Что такое СКИ исполнителя?", options: ["Скорость", "Система команд исполнителя", "Среда", "Счётчик", "Другой ответ"], correctAnswer: "Система команд исполнителя", hint: "Набор доступных команд" },
+      { type: 'quiz', question: "Какие команды есть у исполнителя Робот?", options: ["Влево, вправо, вверх, вниз, закрасить", "Вперёд, назад, прыгнуть", "Записать, стереть", "Нарисовать, закрасить", "Другой ответ"], correctAnswer: "Влево, вправо, вверх, вниз, закрасить", hint: "Клеточное поле" },
+      { type: 'quiz', question: "Что такое отказ исполнителя?", options: ["Завершение работы", "Команда не может быть выполнена", "Перезагрузка", "Остановка программы", "Другой ответ"], correctAnswer: "Команда не может быть выполнена", hint: "Выход за границы среды" },
+      { type: 'quiz', question: "В какой среде работает исполнитель Черепаха?", options: ["Клеточное поле", "Координатная плоскость", "Текстовый документ", "База данных", "Другой ответ"], correctAnswer: "Координатная плоскость", hint: "Плоскость с линиями" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь исполнителей! 🤖" }
   }
 ]

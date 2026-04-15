@@ -437,5 +437,89 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Have you ever ___ this app?", options: ["use", "uses", "using", "used", "Другой ответ"], correctAnswer: "used", hint: "Present Perfect: have/has + Past Participle" }
     ],
     reward: { stars: 3, message: "Great! You're a digital native! 💻" }
+  },
+  {
+    title: "Daily Routines and Habits",
+    subject: "English",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Which tense do we use for daily routines?", options: ["Present Continuous", "Present Simple", "Past Simple", "Future Simple", "Другой ответ"], correctAnswer: "Present Simple", hint: "I wake up at 7 AM every day" },
+      { type: 'quiz', question: "What does 'usually' mean in Russian?", options: ["Никогда", "Обычно", "Иногда", "Всегда", "Другой ответ"], correctAnswer: "Обычно", hint: "Frequency adverb — 80%" },
+      { type: 'quiz', question: "Where do you place frequency adverbs with 'to be'?", options: ["Before 'to be'", "After 'to be'", "At the end", "At the beginning", "Другой ответ"], correctAnswer: "After 'to be'", hint: "She is never late" },
+      { type: 'quiz', question: "What does 'go to bed' mean?", options: ["Идти в школу", "Ложиться спать", "Делать уборку", "Идти гулять", "Другой ответ"], correctAnswer: "Ложиться спать", hint: "Daily activity before sleeping" },
+      { type: 'quiz', question: "Which phrase means 'вечером'?", options: ["In the morning", "In the afternoon", "In the evening", "At night", "Другой ответ"], correctAnswer: "In the evening", hint: "Time of day" }
+    ],
+    reward: { stars: 3, message: "Great! You know daily routines! 🕐" }
+  },
+  {
+    title: "Household Chores",
+    subject: "English",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "What does 'do the washing-up' mean?", options: ["Стирать бельё", "Мыть посуду", "Убираться", "Гладить", "Другой ответ"], correctAnswer: "Мыть посуду", hint: "Work with dishes" },
+      { type: 'quiz', question: "Which modal verb expresses strong obligation?", options: ["Should", "Must", "Can", "May", "Другой ответ"], correctAnswer: "Must", hint: "You must help your parents" },
+      { type: 'quiz', question: "What does 'make the bed' mean?", options: ["Построить кровать", "Заправлять постель", "Купить кровать", "Убрать комнату", "Другой ответ"], correctAnswer: "Заправлять постель", hint: "Morning household task" },
+      { type: 'quiz', question: "What's the difference between 'make' and 'do'?", options: ["They are the same", "Make = create, Do = perform/complete", "Make = clean, Do = build", "Make = destroy, Do = fix", "Другой ответ"], correctAnswer: "Make = create, Do = perform/complete", hint: "Make breakfast vs do homework" },
+      { type: 'quiz', question: "How do you ask: «Какие домашние дела ты делаешь?»", options: ["What chores do you do?", "When do you clean?", "Where is your room?", "Why do you work?", "Другой ответ"], correctAnswer: "What chores do you do?", hint: "Question about household tasks" }
+    ],
+    reward: { stars: 3, message: "Great! You know household chores! 🧹" }
+  },
+  {
+    title: "Planning a Trip",
+    subject: "English",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "What does 'boarding pass' mean in Russian?", options: ["Билет", "Посадочный талон", "Загранпаспорт", "Регистрация", "Другой ответ"], correctAnswer: "Посадочный талон", hint: "Document needed to board a plane" },
+      { type: 'quiz', question: "Which phrase means 'I'm going to visit London'?", options: ["I will visit London", "I'm going to visit London", "I visit London", "I visited London", "Другой ответ"], correctAnswer: "I'm going to visit London", hint: "Going to + infinitive for plans" },
+      { type: 'quiz', question: "What does 'by plane' mean?", options: ["На поезде", "Самолётом", "На машине", "Пешком", "Другой ответ"], correctAnswer: "Самолётом", hint: "Type of air transport" },
+      { type: 'quiz', question: "What does 'check in' mean at a hotel?", options: ["Выселиться", "Заселиться", "Забронировать", "Оплатить", "Другой ответ"], correctAnswer: "Заселиться", hint: "Arrival procedure" },
+      { type: 'quiz', question: "What's the difference between 'journey' and 'voyage'?", options: ["They are the same", "Journey = general trip, Voyage = sea journey", "Journey = sea, Voyage = land", "Journey = short, Voyage = long walk", "Другой ответ"], correctAnswer: "Journey = general trip, Voyage = sea journey", hint: "Voyage is specifically by ship" }
+    ],
+    reward: { stars: 3, message: "Great! You can plan a trip! ✈️" }
+  },
+  {
+    title: "Sightseeing and Activities",
+    subject: "English",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "What does 'monument' mean in Russian?", options: ["Музей", "Памятник", "Площадь", "Фонтан", "Другой ответ"], correctAnswer: "Памятник", hint: "A structure commemorating a person or event" },
+      { type: 'quiz', question: "Which tense is used for travel stories?", options: ["Present Simple", "Present Continuous", "Past Simple", "Future Simple", "Другой ответ"], correctAnswer: "Past Simple", hint: "I visited the Louvre last year" },
+      { type: 'quiz', question: "How do you ask for directions to a museum?", options: ["What is a museum?", "How do I get to the museum?", "Where is the museum from?", "Do you like museums?", "Другой ответ"], correctAnswer: "How do I get to the museum?", hint: "Useful phrase for tourists" },
+      { type: 'quiz', question: "What does 'ancient' mean?", options: ["Современный", "Древний", "Красивый", "Переполненный", "Другой ответ"], correctAnswer: "Древний", hint: "Adjective describing old places" },
+      { type: 'quiz', question: "What is the Past Simple of 'see'?", options: ["Seed", "Saw", "Seen", "Seeing", "Другой ответ"], correctAnswer: "Saw", hint: "Irregular verb" }
+    ],
+    reward: { stars: 3, message: "Great! You're a sightseeing expert! 🏛️" }
+  },
+  {
+    title: "Environmental Problems",
+    subject: "English",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "What does 'global warming' mean in Russian?", options: ["Глобальное потепление", "Глобальное заморозка", "Загрязнение воды", "Вырубка лесов", "Другой ответ"], correctAnswer: "Глобальное потепление", hint: "Rising temperatures on Earth" },
+      { type: 'quiz', question: "Which modal verb gives advice?", options: ["Must", "Should", "Can", "Will", "Другой ответ"], correctAnswer: "Should", hint: "We should recycle more" },
+      { type: 'quiz', question: "What does 'deforestation' mean?", options: ["Посадка деревьев", "Вырубка лесов", "Загрязнение воздуха", "Рекультивация", "Другой ответ"], correctAnswer: "Вырубка лесов", hint: "Cutting down forests" },
+      { type: 'quiz', question: "Complete: If people recycle, there ___ less waste.", options: ["is", "will be", "was", "are", "Другой ответ"], correctAnswer: "will be", hint: "First Conditional: If + present, will + infinitive" },
+      { type: 'quiz', question: "What does 'endangered species' mean?", options: ["Опасные животные", "Исчезающие виды", "Домашние питомцы", "Водные организмы", "Другой ответ"], correctAnswer: "Исчезающие виды", hint: "Animals at risk of extinction" }
+    ],
+    reward: { stars: 3, message: "Great! You care about the environment! 🌍" }
+  },
+  {
+    title: "Digital World",
+    subject: "English",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "What does 'social media' mean in Russian?", options: ["Электронная почта", "Социальные сети", "Веб-сайт", "Блог", "Другой ответ"], correctAnswer: "Социальные сети", hint: "VK, Instagram, TikTok..." },
+      { type: 'quiz', question: "Which tense is used for experiences?", options: ["Past Simple", "Present Simple", "Present Perfect", "Future Simple", "Другой ответ"], correctAnswer: "Present Perfect", hint: "I have already bought a new smartphone" },
+      { type: 'quiz', question: "What does 'download' mean?", options: ["Загружать онлайн", "Скачивать файлы", "Удалять данные", "Отправлять письмо", "Другой ответ"], correctAnswer: "Скачивать файлы", hint: "Getting files from the internet" },
+      { type: 'quiz', question: "Which is an important internet safety rule?", options: ["Share your password with friends", "Post personal information publicly", "Don't share personal information", "Accept all friend requests", "Другой ответ"], correctAnswer: "Don't share personal information", hint: "Stay safe online" },
+      { type: 'quiz', question: "What does 'cyberbullying' mean?", options: ["Онлайн-игры", "Кибербуллинг — травля в интернете", "Компьютерные вирусы", "Социальные сети", "Другой ответ"], correctAnswer: "Кибербуллинг — травля в интернете", hint: "Disadvantage of technology" }
+    ],
+    reward: { stars: 3, message: "Great! You're a digital citizen! 📱" }
   }
 ]
