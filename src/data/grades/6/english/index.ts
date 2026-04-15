@@ -68,7 +68,12 @@ export const lessons: SubjectData = {
             "Describe your family using possessive adjectives",
             "Write 3 sentences about your grandparents"
           ],
-          examples: ["This is my mother. Her name is Anna. She is a teacher.", "My uncle lives in Moscow. He has two children.", "Their grandparents are from Kazan."]
+          examples: ["This is my mother. Her name is Anna. She is a teacher.", "My uncle lives in Moscow. He has two children.", "Their grandparents are from Kazan."],
+          keyPoints: [
+            "Family members: mother, father, sister, brother, grandmother, grandfather",
+            "Possessive adjectives: my, your, his, her, our, their show who owns something",
+            "To be (am/is/are) is used to describe people and relationships"
+          ]
         },
         {
           title: "Describing People",
@@ -140,7 +145,12 @@ export const lessons: SubjectData = {
             "Write 5 sentences about someone's appearance",
             "Use 'have got' in 3 sentences"
           ],
-          examples: ["He has got blue eyes and dark hair.", "She is tall and slim. She is very friendly.", "My friend is short with brown eyes and curly hair."]
+          examples: ["He has got blue eyes and dark hair.", "She is tall and slim. She is very friendly.", "My friend is short with brown eyes and curly hair."],
+          keyPoints: [
+            "Adjectives describe appearance: tall, short, young, old, blonde, dark-haired",
+            "Has got is used to describe physical features and possessions",
+            "Questions with Who, What, Where for asking about people"
+          ]
         }
       ]
     },
@@ -212,7 +222,12 @@ export const lessons: SubjectData = {
             "Write 5 sentences about your day using Present Simple",
             "Describe what time you do different activities"
           ],
-          examples: ["I wake up at 7 o clock and have breakfast at 7:30.", "She goes to school at 8 and does her homework in the evening.", "We usually have dinner at 7 p.m."]
+          examples: ["I wake up at 7 o clock and have breakfast at 7:30.", "She goes to school at 8 and does her homework in the evening.", "We usually have dinner at 7 p.m."],
+          keyPoints: [
+            "Time expressions: in the morning, in the afternoon, at night, at weekends",
+            "Present Simple for daily routines and regular activities",
+            "Adverbs of frequency: always, usually, often, sometimes, never"
+          ]
         },
         {
           title: "Days of the Week and Prepositions",
@@ -291,7 +306,12 @@ export const lessons: SubjectData = {
             "Write sentences using at, on, in correctly",
             "Describe your weekly routine with adverbs of frequency"
           ],
-          examples: ["I always do my homework after school.", "She never watches TV in the morning.", "We visit our grandparents on Sunday."]
+          examples: ["I always do my homework after school.", "She never watches TV in the morning.", "We visit our grandparents on Sunday."],
+          keyPoints: [
+            "Days of the week: Monday through Sunday, always capitalised in English",
+            "Prepositions of time: in (months/years), on (days), at (clock time)",
+            "Ordinal numbers: first, second, third for dates"
+          ]
         }
       ]
     },
@@ -381,7 +401,12 @@ export const lessons: SubjectData = {
             "Write about 5 activities you like",
             "Describe your friend's hobbies"
           ],
-          examples: ["I like reading books and playing football.", "She is interested in music and dancing.", "He is good at swimming and riding a bike."]
+          examples: ["I like reading books and playing football.", "She is interested in music and dancing.", "He is good at swimming and riding a bike."],
+          keyPoints: [
+            "Free time vocabulary: reading, swimming, playing sports, watching films",
+            "Like + -ing: I like reading, She enjoys swimming",
+            "Can/Cannot for abilities: I can play football, He can't swim"
+          ]
         },
         {
           title: "Can / Can't for Abilities",
@@ -462,7 +487,12 @@ export const lessons: SubjectData = {
             "Make 3 questions using 'Can you...?'",
             "Write about your abilities and talents"
           ],
-          examples: ["I can swim, but I cannot drive.", "She can play the piano very well.", "Can you help me with this task?"]
+          examples: ["I can swim, but I cannot drive.", "She can play the piano very well.", "Can you help me with this task?"],
+          keyPoints: [
+            "Can expresses ability, permission and possibility in English",
+            "Can is the same for all persons: I can, he can, we can",
+            "Negative: cannot or can't; question: Can you...? — Yes, I can / No, I can't"
+          ]
         }
       ]
     },
@@ -541,7 +571,12 @@ export const lessons: SubjectData = {
             "Write 5 useful phrases for travellers",
             "Describe what you do at the airport step by step"
           ],
-          examples: ["Here is my passport. I would like a window seat, please.", "Where is gate 5? The flight leaves at 3 p.m.", "I have one suitcase and a hand luggage."]
+          examples: ["Here is my passport. I would like a window seat, please.", "Where is gate 5? The flight leaves at 3 p.m.", "I have one suitcase and a hand luggage."],
+          keyPoints: [
+            "Airport vocabulary: boarding pass, gate, departure, arrival, luggage",
+            "Travel phrases: I'd like to book..., Where is gate...?, How long is the flight?",
+            "Imperative mood for instructions and requests"
+          ]
         },
         {
           title: "Countries and Nationalities",
@@ -631,7 +666,12 @@ export const lessons: SubjectData = {
             "Write about 3 countries you'd like to visit",
             "Describe your nationality and languages you speak"
           ],
-          examples: ["Moscow is the capital of Russia.", "I am from Russia. I speak Russian.", "She is French. She lives in Paris."]
+          examples: ["Moscow is the capital of Russia.", "I am from Russia. I speak Russian.", "She is French. She lives in Paris."],
+          keyPoints: [
+            "Countries and nationalities: France — French, Japan — Japanese, Russia — Russian",
+            "Languages: English, Spanish, Chinese, Arabic, German",
+            "To be from / To come from for talking about origin"
+          ]
         }
       ]
     }

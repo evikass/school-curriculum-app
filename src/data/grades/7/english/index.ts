@@ -55,6 +55,11 @@ export const lessons: SubjectData = {
           examples: [
             "Present Simple: I usually wake up at 7 o'clock 🕐",
             "Наречия частотности: always (100%) → usually → often → sometimes → rarely → never (0%)"
+          ],
+          keyPoints: [
+            "Present Simple for routines: I wake up at 7 AM every day",
+            "Present Continuous for actions happening now: I am reading now",
+            "Adverbs of frequency: always, usually, often, sometimes, never"
           ]
         },
         {
@@ -105,6 +110,11 @@ export const lessons: SubjectData = {
           examples: [
             "I have to do the washing-up — мне нужно помыть посуду 🧽",
             "Should: You should help your parents — тебе следует помочь родителям"
+          ],
+          keyPoints: [
+            "Household chores vocabulary: do the dishes, vacuum the floor, do the laundry",
+            "Make vs do: make breakfast (создать), do homework (выполнить)",
+            "Have to / must for obligations: I have to clean my room"
           ]
         }
       ]
@@ -163,6 +173,11 @@ export const lessons: SubjectData = {
           examples: [
             "I'm going to visit London next summer — планирую посетить Лондон ✈️",
             "by plane — самолётом, by train — поездом, on foot — пешком"
+          ],
+          keyPoints: [
+            "Travel vocabulary: book a hotel, pack luggage, check in, boarding pass",
+            "Future with going to: I'm going to visit Paris next summer",
+            "Conditional: If I have time, I will go to the museum"
           ]
         },
         {
@@ -219,6 +234,11 @@ Love,
           examples: [
             "Past Simple: I visited the Louvre last year — прошлым летом я посетил Лувр 🏛️",
             "How do I get to the museum? — как добраться до музея?"
+          ],
+          keyPoints: [
+            "Sightseeing vocabulary: monument, museum, gallery, cathedral, square",
+            "Would like to for polite requests and offers: I'd like to see the Eiffel Tower",
+            "Directions: turn left/right, go straight, opposite, next to"
           ]
         }
       ]
@@ -281,6 +301,11 @@ Love,
           examples: [
             "We must protect nature — мы должны защищать природу 🌍",
             "First Conditional: If we recycle, there will be less waste"
+          ],
+          keyPoints: [
+            "Environmental vocabulary: pollution, recycling, global warming, endangered species",
+            "Should / shouldn't for advice: We should recycle paper and plastic",
+            "Passive voice: The air is polluted by factories"
           ]
         }
       ]
@@ -344,6 +369,11 @@ Love,
           examples: [
             "Present Perfect: I have bought a new smartphone — я купил новый телефон 📱",
             "Internet safety: don't share personal information online"
+          ],
+          keyPoints: [
+            "Digital vocabulary: social media, download, upload, password, account",
+            "Present Perfect for experiences: I have already sent the email",
+            "Online safety: never share your password with strangers"
           ]
         }
       ]

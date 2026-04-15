@@ -77,14 +77,14 @@ export const lessons: SubjectData = {
             "Напишите три предложения о своём опыте путешествий, используя Present Perfect с наречиями never, already и just"
           ],
           examples: [
-          "Artificial intelligence (AI) — искусственный интеллект, robotics — робототехника 🤖",
-          "Technological breakthroughs change our daily life significantly",
-          "Genetic engineering allows modifying DNA — генная инженерия модифицирует ДНК"
-          ],
-          examples: [
           "I have visited Paris twice — Present Perfect для описания опыта путешествий ✈️",
           "Наречия Present Perfect: ever, never, already, yet, just, before",
           "Backpacking — экономичный способ путешествовать с рюкзаком"
+          ],
+          keyPoints: [
+            "Примеры использования — I have visited Paris twice",
+            "Наречия, часто используемые с Present Perfect — never (никогда) — I have never visited Australia",
+            "just (только что) — She has just arrived at the airport."
           ]
         },
         {
@@ -155,6 +155,11 @@ export const lessons: SubjectData = {
           "I\'d like to check in for flight BA123 to London — фраза на регистрации 🛫",
           "Boarding pass — посадочный талон, duty-free — магазин беспошлинной торговли",
           "This is the final boarding call — последнее объявление о посадке"
+          ],
+          keyPoints: [
+            "Полезные фразы в аэропорту — На регистрации:",
+            "На регистрации — Can I have a window/aisle seat",
+            "Проблемные ситуации — My flight has been delayed/cancelled"
           ]
         },
         {
@@ -232,6 +237,11 @@ export const lessons: SubjectData = {
           "I\'d like to book a room for two nights — бронирование номера на две ночи 🏨",
           "Double room — одна большая кровать, twin room — две отдельные",
           "The air conditioning isn\'t working — жалоба на неработающий кондиционер"
+          ],
+          keyPoints: [
+            "Фразы для бронирования номера — По телефону или онлайн:",
+            "По телефону или онлайн — What's the rate per night",
+            "При заезде — I'd like to check in, please"
           ]
         }
       ]
@@ -311,6 +321,11 @@ export const lessons: SubjectData = {
           "A software developer creates applications using programming languages 💼",
           "Модальные глаголы: must (обязательно), should (рекомендуется), need to (необходимо)",
           "AI specialist и cybersecurity analyst — профессии будущего"
+          ],
+          keyPoints: [
+            "Вопросы о профессиях — What do you do",
+            "Ключевое понятие: Мир профессий",
+            "Ключевое понятие: Мир профессий"
           ]
         },
         {
@@ -385,6 +400,11 @@ export const lessons: SubjectData = {
           "CV (resume) — резюме, cover letter — сопроводительное письмо 📋",
           "I am writing to apply for the position of... — начало сопроводительного письма",
           "Objective — краткое описание карьерных целей в начале резюме"
+          ],
+          keyPoints: [
+            "Пример резюме (фрагменты) — Objective:",
+            "Сопроводительное письмо (Cover Letter) — Структура сопроводительного письма:",
+            "Структура сопроводительного письма — Приветствие: Dear Mr"
           ]
         },
         {
@@ -469,6 +489,11 @@ export const lessons: SubjectData = {
           "I look forward to hearing from you — стандартное завершение делового письма 📧",
           "Could I speak to Mr. Johnson, please? — просьба соединить по телефону",
           "Good morning everyone. Today I\'m going to talk about... — начало презентации"
+          ],
+          keyPoints: [
+            "Деловая переписка — Типы деловых писем:",
+            "Полезные фразы для деловых писем — Начало письма:",
+            "Завершение письма — I look forward to hearing from you"
           ]
         }
       ]
@@ -560,6 +585,11 @@ export const lessons: SubjectData = {
           "Deforestation leads to habitat loss — вырубка лесов ведёт к потере среды обитания 🌍",
           "Global warming causes rising sea levels and melting ice caps",
           "Cause and effect: pollution causes health problems, cars contribute to air pollution"
+          ],
+          keyPoints: [
+            "Причины и последствия экологических проблем — Глобальное потепление:",
+            "Глобальное потепление — Причины (Causes):",
+            "Исчезновение видов — Причины:"
           ]
         },
         {
@@ -642,6 +672,11 @@ export const lessons: SubjectData = {
           "Принципы 3R: Reduce (сократить), Reuse (использовать повторно), Recycle (переработать) ♻️",
           "Renewable energy: solar power, wind energy, hydropower — чистая энергия",
           "We should reduce, reuse, and recycle — modal verb should для рекомендаций"
+          ],
+          keyPoints: [
+            "Действия для защиты окружающей среды — Индивидуальные действия:",
+            "Глобальные инициативы — Paris Agreement (Парижское соглашение)",
+            "Ключевое понятие: Защита окружающей среды"
           ]
         }
       ]
@@ -732,6 +767,11 @@ export const lessons: SubjectData = {
           "Types of media: newspapers, magazines, television, radio, online media 📺",
           "Headline — заголовок статьи, article — статья, broadcast — трансляция",
           "Fake news — ложные новости, важный навык критического мышления"
+          ],
+          keyPoints: [
+            "Критическое отношение к информации — При работе с информацией важно уметь её оценивать:",
+            "При работе с информацией важно уметь её оценивать — Check the source (проверяйте источник)",
+            "Ключевое понятие: Типы СМИ"
           ]
         },
         {
@@ -821,6 +861,11 @@ export const lessons: SubjectData = {
             "Social media — социальные сети, influencer — блогер, viral — ставший вирусным",
             "Cyberbullying — кибербуллинг, phishing — фишинг, не делитесь личной информацией",
             "Подростки проводят в соцсетях значительную часть дня — важна цифровая гигиена"
+          ],
+          keyPoints: [
+            "Преимущества и недостатки социальных сетей — Advantages (Преимущества):",
+            "Ключевое понятие: Социальные сети",
+            "Ключевое понятие: Социальные сети"
           ]
         }
       ]
@@ -905,6 +950,11 @@ export const lessons: SubjectData = {
             "AI (artificial intelligence) — искусственный интеллект, machine learning — машинное обучение",
             "VR (virtual reality) — виртуальная реальность, AR (augmented reality) — дополненная реальность",
             "Self-driving cars, smart homes, medical robots — технологии, меняющие будущее"
+          ],
+          keyPoints: [
+            "Искусственный интеллект (AI) — Области применения ИИ:",
+            "Ключевое понятие: Технологии будущего",
+            "Ключевое понятие: Технологии будущего"
           ]
         },
         {
@@ -1002,6 +1052,11 @@ export const lessons: SubjectData = {
             "Phishing — фишинг, malware — вредоносное ПО, two-factor authentication — двухфакторная аутентификация",
             "Use strong, unique passwords — используйте надёжные уникальные пароли для каждого аккаунта",
             "Digital footprint — цифровой след, вся информация о вас в интернете может остаться навсегда"
+          ],
+          keyPoints: [
+            "Правила цифровой безопасности — Онлайн-безопасность:",
+            "Цифровой след (Digital Footprint) — Цифровой след — это вся информация о вас в интернете",
+            "Цифровой след — это вся информация о вас в интернете. Она включает:"
           ]
         }
       ]

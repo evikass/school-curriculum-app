@@ -64,6 +64,11 @@ always, usually, often, sometimes, rarely, never, every day, on Mondays
             "He goes to school every day. — Он ходит в школу каждый день. (3-е лицо ед. ч., окончание -es)",
             "My mother works in a hospital. — Моя мама работает в больнице. (Факт, постоянное состояние)",
             "Do you like pizza? — Ты любишь пиццу? (Вопрос с вспомогательным глаголом do)"
+          ],
+          keyPoints: [
+            "Основные случаи употребления — Регулярные, повторяющиеся действия: I wake up at 7 o'clock every day",
+            "Образование утверждений — I/You/We/They + V (base form): I work, we play",
+            "Правила правописания — work → works"
           ]
         },
         {
@@ -115,6 +120,11 @@ now, at the moment, at present, today, this week, tonight
             "Look! The children are playing in the yard. — Смотри! Дети играют во дворе. (Действие в данный момент)",
             "I am reading an interesting book now. — Я сейчас читаю интересную книгу.",
             "She is not watching TV at the moment. — Она сейчас не смотрит телевизор. (Отрицание: isn't + V-ing)"
+          ],
+          keyPoints: [
+            "Основные случаи употребления — Действие в момент речи: I am reading a book now",
+            "Правила правописания — work → working",
+            "Глаголы, не употребляющиеся в Continuous — состояния: be, have, know, understand, believe"
           ]
         },
         {
@@ -163,6 +173,11 @@ for (период времени), since (момент времени)
             "I have already finished my homework. — Я уже закончил домашнее задание. (Результат важен сейчас)",
             "She has lived in Moscow for 10 years. — Она живёт в Москве 10 лет. (Предлог for — период времени)",
             "Have you ever been to St. Petersburg? — Ты когда-нибудь бывал в Санкт-Петербурге? (Опыт)"
+          ],
+          keyPoints: [
+            "Основные случаи употребления — Личный опыт: I have been to Paris",
+            "I have lost my key. (результат важен — не могу войти)",
+            "Действие завершилось, результат важен сейчас: I have lost my keys. (не могу найти)"
           ]
         }
       ]
@@ -220,6 +235,11 @@ We/You/They were: *They were happy.*
             "We went to the cinema yesterday. — Мы ходили в кино вчера. (Завершённое действие)",
             "She didn't understand the question. — Она не поняла вопрос. (Отрицание: didn't + V)",
             "Did you see him last night? — Ты видел его вчера вечером? (Вопрос с did)"
+          ],
+          keyPoints: [
+            "Основные случаи употребления — Завершённые действия в прошлом: I visited Paris last year",
+            "Образование правильных глаголов — V + ed: work → worked, play → played, watch → watched",
+            "Правила правописания — work → worked"
           ]
         },
         {
@@ -269,6 +289,11 @@ at 5 o'clock yesterday, at that moment, while, when
             "At 8 o'clock yesterday I was having breakfast. — Вчера в 8 часов я завтракал. (Конкретный момент)",
             "When I came home, my mother was cooking dinner. — Когда я пришёл, мама готовила ужин. (Прерванное действие)",
             "While he was reading, his brother was playing. — Пока он читал, его брат играл. (Одновременные действия)"
+          ],
+          keyPoints: [
+            "Основные случаи употребления — Прерванное действие: When the phone rang, I was sleeping",
+            "Сочетание с Past Simple — Когда одно действие прерывает другое:",
+            "Когда одно действие прерывает другое — Длинное действие — Past Continuous"
           ]
         }
       ]
@@ -321,6 +346,11 @@ tomorrow, next week/month/year, soon, in the future, in 2030
             "I think it will rain tomorrow. — Думаю, завтра пойдёт дождь. (Предсказание с will)",
             "I will help you with your homework. — Я помогу тебе с домашним заданием. (Обещание)",
             "She won't tell anyone your secret. — Она никому не расскажет твой секрет. (Отрицание: won't)"
+          ],
+          keyPoints: [
+            "Основные случаи употребления — Мгновенные решения: It's cold",
+            "I'll help you. — мгновенное решение",
+            "I'm going to help you. — запланированное действие"
           ]
         },
         {
@@ -367,6 +397,11 @@ I'm not going to study. She isn't going to come. They aren't going to stay.
             "I am going to visit my grandmother next weekend. — Я собираюсь навестить бабушку в выходные. (План)",
             "Look at those clouds! It is going to rain. — Посмотри на тучи! Собирается дождь. (Признаки)",
             "They are going to move to a new flat. — Они собираются переехать в новую квартиру. (Намерение)"
+          ],
+          keyPoints: [
+            "Основные случаи употребления — Планы и намерения: I'm going to study medicine",
+            "Going to vs Present Continuous для планов — Оба используются для планов:",
+            "Оба используются для планов — I'm going to meet Tom"
           ]
         }
       ]
@@ -420,6 +455,11 @@ I'm not going to study. She isn't going to come. They aren't going to stay.
             "She can speak three languages. — Она может говорить на трёх языках. (Умение)",
             "You must do your homework every day. — Ты должен делать домашнее задание каждый день. (Обязанность)",
             "Could you open the window, please? — Не могли бы вы открыть окно? (Вежливая просьба)"
+          ],
+          keyPoints: [
+            "CAN — физическая возможность, умение:",
+            "COULD — вежливая просьба, возможность в прошлом:",
+            "MUST — обязанность, настоятельная необходимость:"
           ]
         },
         {
@@ -462,6 +502,11 @@ I'm not going to study. She isn't going to come. They aren't going to stay.
             "You should eat more vegetables. — Тебе стоит есть больше овощей. (Совет)",
             "It may rain tomorrow. — Завтра может пойти дождь. (Возможность)",
             "He might come to the party. — Он, возможно, придёт на вечеринку. (Меньшая вероятность)"
+          ],
+          keyPoints: [
+            "MAY — вероятность, разрешение (формально):",
+            "MIGHT — меньшая вероятность:",
+            "It might snow tonight. (Возможно, ночью пойдёт снег — меньше уверенности)"
           ]
         }
       ]
@@ -520,6 +565,11 @@ have/has been + V3
             "This book was written by Pushkin. — Эта книга была написана Пушкиным. (Past Simple Passive с by)",
             "English is spoken in many countries. — На английском говорят во многих странах. (Present Simple Passive)",
             "The work has already been done. — Работа уже выполнена. (Present Perfect Passive)"
+          ],
+          keyPoints: [
+            "Когда используется Passive — Важен объект, а не исполнитель",
+            "Если указываем исполнителя — This picture was painted by Picasso",
+            "Ключевое понятие: Passive Voice"
           ]
         }
       ]
@@ -571,6 +621,11 @@ Main clause + If clause
             "If you heat ice, it melts. — Если нагреть лёд, он тает. (Zero Conditional — факт)",
             "If it rains tomorrow, we will stay at home. — Если завтра пойдёт дождь, мы останемся дома. (First Conditional)",
             "Unless you study hard, you won't pass the exam. — Если не будешь стараться, не сдашь. (Unless = if not)"
+          ],
+          keyPoints: [
+            "First Conditional — реальные условия:",
+            "When I see him — уверен, что увижу",
+            "If I see him — не уверен"
           ]
         },
         {
@@ -614,6 +669,11 @@ If + Past Perfect, would have + V3
             "If I were rich, I would travel around the world. — Если бы я был богат, я бы путешествовал. (Second Conditional)",
             "If I had studied harder, I would have passed the exam. — Если бы учился усерднее, сдал бы. (Third Conditional)",
             "If I knew her phone number, I would call her. — Если бы знал номер, позвонил бы. (Second)"
+          ],
+          keyPoints: [
+            "Second Conditional для советов — If I were you, I would study medicine",
+            "Third Conditional — нереальные условия в прошлом:",
+            "Ключевое понятие: Conditionals: Second and Third"
           ]
         }
       ]
@@ -670,6 +730,11 @@ If + Past Perfect, would have + V3
             "I usually wake up at 7 o'clock and have a shower. — Я обычно просыпаюсь в 7 часов и принимаю душ.",
             "After school I do my homework and then watch TV. — После школы делаю домашку и смотрю ТВ.",
             "She goes to bed at 10 p.m. every day. — Она ложится спать в 10 вечера. (Предлог at со временем)"
+          ],
+          keyPoints: [
+            "have a shower — принимать душ",
+            "brush teeth — чистить зубы",
+            "leave home — выходить из дома"
           ]
         },
         {
@@ -721,6 +786,11 @@ If + Past Perfect, would have + V3
             "In my free time I like reading books and listening to music. — В свободное время люблю читать и слушать музыку.",
             "She plays the piano very well. — Она очень хорошо играет на пианино. (Артикль the с инструментом)",
             "He is fond of playing football. — Он увлекается футболом. (Конструкция be fond of)"
+          ],
+          keyPoints: [
+            "Виды хобби — read books / magazines — читать книги/журналы",
+            "read books / magazines — читать книги/журналы",
+            "watch films / series — смотреть фильмы/сериалы"
           ]
         }
       ]
@@ -775,6 +845,11 @@ If + Past Perfect, would have + V3
             "Skimming — быстрый просмотр заголовков и первого абзаца для понимания главной идеи текста.",
             "Scanning — поиск конкретного имени или даты в тексте, не читая его целиком.",
             "Слова-связки however (однако) и therefore (поэтому) помогают понять логическую структуру текста."
+          ],
+          keyPoints: [
+            "Виды чтения — Skimming (Просмотровое чтение):",
+            "Skimming (Просмотровое чтение) — Быстрое прочтение для общего понимания",
+            "Scanning (Поисковое чтение) — Поиск конкретной информации"
           ]
         }
       ]
