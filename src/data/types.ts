@@ -21,6 +21,7 @@ export interface GameLesson {
   icon: string;
   color: string;
   tasks: LessonTask[];
+  examples?: string[];
   reward: {
     stars: number;
     message: string;

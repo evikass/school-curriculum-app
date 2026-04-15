@@ -75,6 +75,16 @@ export const lessons: SubjectData = {
             "Переведите и составьте предложение с словом 'destination': Опишите место назначения вашей мечты",
             "Образуйте вопросительное предложение в Present Perfect с наречием 'ever' о путешествии в Азию",
             "Напишите три предложения о своём опыте путешествий, используя Present Perfect с наречиями never, already и just"
+          ],
+          examples: [
+          "Artificial intelligence (AI) — искусственный интеллект, robotics — робототехника 🤖",
+          "Technological breakthroughs change our daily life significantly",
+          "Genetic engineering allows modifying DNA — генная инженерия модифицирует ДНК"
+          ],
+          examples: [
+          "I have visited Paris twice — Present Perfect для описания опыта путешествий ✈️",
+          "Наречия Present Perfect: ever, never, already, yet, just, before",
+          "Backpacking — экономичный способ путешествовать с рюкзаком"
           ]
         },
         {
@@ -140,6 +150,11 @@ export const lessons: SubjectData = {
             "Составьте диалог на регистрации: попросите место у окна и уточните норму багажа",
             "Переведите и запомните: 'This is the final boarding call' — когда вы можете услышать эту фразу?",
             "Напишите три фразы для решения проблемы с потерянным багажом"
+          ],
+          examples: [
+          "I\'d like to check in for flight BA123 to London — фраза на регистрации 🛫",
+          "Boarding pass — посадочный талон, duty-free — магазин беспошлинной торговли",
+          "This is the final boarding call — последнее объявление о посадке"
           ]
         },
         {
@@ -212,6 +227,11 @@ export const lessons: SubjectData = {
             "Составьте диалог для бронирования номера: уточните наличие свободных мест, цену и включён ли завтрак",
             "Опишите вашу жалобу на неубранный номер администратору отеля",
             "Переведите и объясните разницу между double room и twin room"
+          ],
+          examples: [
+          "I\'d like to book a room for two nights — бронирование номера на две ночи 🏨",
+          "Double room — одна большая кровать, twin room — две отдельные",
+          "The air conditioning isn\'t working — жалоба на неработающий кондиционер"
           ]
         }
       ]
@@ -286,6 +306,11 @@ export const lessons: SubjectData = {
             "Опишите профессию своей мечты: название, обязанности, необходимые навыки (используя модальные глаголы must, should, need to)",
             "Составьте три предложения о том, что делает учитель, врач и журналист (используя Present Simple)",
             "Переведите и объясните, какие навыки нужны для профессии 'cybersecurity analyst'"
+          ],
+          examples: [
+          "A software developer creates applications using programming languages 💼",
+          "Модальные глаголы: must (обязательно), should (рекомендуется), need to (необходимо)",
+          "AI specialist и cybersecurity analyst — профессии будущего"
           ]
         },
         {
@@ -355,6 +380,11 @@ export const lessons: SubjectData = {
             "Напишите краткий раздел 'Objective' для резюме, описывающий ваши карьерные цели",
             "Составьте начало сопроводительного письма с указанием должности и источника информации о вакансии",
             "Переведите три ключевых навыка из раздела Skills и объясните их важность для работодателя"
+          ],
+          examples: [
+          "CV (resume) — резюме, cover letter — сопроводительное письмо 📋",
+          "I am writing to apply for the position of... — начало сопроводительного письма",
+          "Objective — краткое описание карьерных целей в начале резюме"
           ]
         },
         {
@@ -434,6 +464,11 @@ export const lessons: SubjectData = {
             "Напишите деловое письмо-запрос о возможности сотрудничества с компанией",
             "Составьте телефонный диалог: вы звоните в компанию и просите соединить с менеджером",
             "Подготовьте начало презентации о своём проекте или идее (3-4 предложения)"
+          ],
+          examples: [
+          "I look forward to hearing from you — стандартное завершение делового письма 📧",
+          "Could I speak to Mr. Johnson, please? — просьба соединить по телефону",
+          "Good morning everyone. Today I\'m going to talk about... — начало презентации"
           ]
         }
       ]
@@ -520,6 +555,11 @@ export const lessons: SubjectData = {
             "Опишите три вида загрязнения окружающей среды: их источники и последствия, используя конструкции 'cause', 'lead to', 'result in'",
             "Объясните связь между глобальным потеплением и таянием ледников, используя cause/effect конструкции",
             "Переведите и составьте предложения с терминами 'endangered species' и 'biodiversity'"
+          ],
+          examples: [
+          "Deforestation leads to habitat loss — вырубка лесов ведёт к потере среды обитания 🌍",
+          "Global warming causes rising sea levels and melting ice caps",
+          "Cause and effect: pollution causes health problems, cars contribute to air pollution"
           ]
         },
         {
@@ -597,6 +637,11 @@ export const lessons: SubjectData = {
             "Объясните принципы 3R (Reduce, Reuse, Recycle) и приведите по два примера действий для каждого принципа",
             "Сравните два вида возобновляемой энергии, используя модальные глаголы should, can, need to",
             "Напишите пять предложений о том, что вы можете делать для защиты окружающей среды"
+          ],
+          examples: [
+          "Принципы 3R: Reduce (сократить), Reuse (использовать повторно), Recycle (переработать) ♻️",
+          "Renewable energy: solar power, wind energy, hydropower — чистая энергия",
+          "We should reduce, reuse, and recycle — modal verb should для рекомендаций"
           ]
         }
       ]
@@ -682,6 +727,11 @@ export const lessons: SubjectData = {
             "Сравните два типа СМИ (например, газеты и интернет-медиа), опишите их преимущества и недостатки",
             "Опишите профессию журналиста: обязанности, необходимые навыки, используя глаголы report, cover, investigate",
             "Переведите и объясните, почему важно 'distinguish fact from opinion' при работе с информацией"
+          ],
+          examples: [
+          "Types of media: newspapers, magazines, television, radio, online media 📺",
+          "Headline — заголовок статьи, article — статья, broadcast — трансляция",
+          "Fake news — ложные новости, важный навык критического мышления"
           ]
         },
         {
@@ -766,6 +816,11 @@ export const lessons: SubjectData = {
             "Опишите преимущества и недостатки одной социальной платформы (на ваш выбор), используя преимущества и недостатки из урока",
             "Перечислите три правила безопасности в интернете и объясните, почему они важны",
             "Напишите о влиянии социальных сетей на молодёжь, используя лексику урока (viral, influencer, cyberbullying)"
+          ],
+          examples: [
+            "Social media — социальные сети, influencer — блогер, viral — ставший вирусным",
+            "Cyberbullying — кибербуллинг, phishing — фишинг, не делитесь личной информацией",
+            "Подростки проводят в соцсетях значительную часть дня — важна цифровая гигиена"
           ]
         }
       ]
@@ -845,6 +900,11 @@ export const lessons: SubjectData = {
             "Опишите одну технологию будущего: что она делает, как применяется и как изменит нашу жизнь",
             "Составьте три предложения о развитии ИИ, используя Future Simple и Future Perfect",
             "Объясните разницу между VR (Virtual Reality) и AR (Augmented Reality), приведите примеры применения"
+          ],
+          examples: [
+            "AI (artificial intelligence) — искусственный интеллект, machine learning — машинное обучение",
+            "VR (virtual reality) — виртуальная реальность, AR (augmented reality) — дополненная реальность",
+            "Self-driving cars, smart homes, medical robots — технологии, меняющие будущее"
           ]
         },
         {
@@ -937,6 +997,11 @@ export const lessons: SubjectData = {
             "Создайте правила для надёжного пароля и объясните, почему каждый элемент важен",
             "Опишите три типа киберугроз и методы защиты от них",
             "Напишите пять правил цифровой безопасности для школьников, используя повелительное наклонение"
+          ],
+          examples: [
+            "Phishing — фишинг, malware — вредоносное ПО, two-factor authentication — двухфакторная аутентификация",
+            "Use strong, unique passwords — используйте надёжные уникальные пароли для каждого аккаунта",
+            "Digital footprint — цифровой след, вся информация о вас в интернете может остаться навсегда"
           ]
         }
       ]

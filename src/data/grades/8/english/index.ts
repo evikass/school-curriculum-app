@@ -59,6 +59,11 @@ always, usually, often, sometimes, rarely, never, every day, on Mondays
             "Поставьте вопрос: She plays tennis on Sundays.",
             "Образуйте отрицание: They live in Moscow.",
             "Переведите: Мой папа всегда читает газету утром."
+          ],
+          examples: [
+            "He goes to school every day. — Он ходит в школу каждый день. (3-е лицо ед. ч., окончание -es)",
+            "My mother works in a hospital. — Моя мама работает в больнице. (Факт, постоянное состояние)",
+            "Do you like pizza? — Ты любишь пиццу? (Вопрос с вспомогательным глаголом do)"
           ]
         },
         {
@@ -105,6 +110,11 @@ now, at the moment, at present, today, this week, tonight
             "Поставьте вопрос: He is reading a newspaper now.",
             "Образуйте отрицание: We are watching TV.",
             "Выберите правильную форму: I (am knowing / know) him well."
+          ],
+          examples: [
+            "Look! The children are playing in the yard. — Смотри! Дети играют во дворе. (Действие в данный момент)",
+            "I am reading an interesting book now. — Я сейчас читаю интересную книгу.",
+            "She is not watching TV at the moment. — Она сейчас не смотрит телевизор. (Отрицание: isn't + V-ing)"
           ]
         },
         {
@@ -148,6 +158,11 @@ for (период времени), since (момент времени)
             "Поставьте вопрос: She has finished the report.",
             "Заполните: I have known him ___ 2015. (for/since)",
             "Выберите время: We (went / have gone) to Paris last year."
+          ],
+          examples: [
+            "I have already finished my homework. — Я уже закончил домашнее задание. (Результат важен сейчас)",
+            "She has lived in Moscow for 10 years. — Она живёт в Москве 10 лет. (Предлог for — период времени)",
+            "Have you ever been to St. Petersburg? — Ты когда-нибудь бывал в Санкт-Петербурге? (Опыт)"
           ]
         }
       ]
@@ -200,6 +215,11 @@ We/You/They were: *They were happy.*
             "Поставьте вопрос: She bought a new dress yesterday.",
             "Образуйте отрицание: He saw his friend at the party.",
             "Напишите 3-ю форму: go, see, have, come, do"
+          ],
+          examples: [
+            "We went to the cinema yesterday. — Мы ходили в кино вчера. (Завершённое действие)",
+            "She didn't understand the question. — Она не поняла вопрос. (Отрицание: didn't + V)",
+            "Did you see him last night? — Ты видел его вчера вечером? (Вопрос с did)"
           ]
         },
         {
@@ -244,6 +264,11 @@ at 5 o'clock yesterday, at that moment, while, when
             "Соедините: While she (cook), the phone (ring).",
             "Образуйте отрицание: They were playing football at that time.",
             "Переведите: Когда я пришёл домой, мама готовила ужин."
+          ],
+          examples: [
+            "At 8 o'clock yesterday I was having breakfast. — Вчера в 8 часов я завтракал. (Конкретный момент)",
+            "When I came home, my mother was cooking dinner. — Когда я пришёл, мама готовила ужин. (Прерванное действие)",
+            "While he was reading, his brother was playing. — Пока он читал, его брат играл. (Одновременные действия)"
           ]
         }
       ]
@@ -291,6 +316,11 @@ tomorrow, next week/month/year, soon, in the future, in 2030
             "Поставьте вопрос: She will come to the party.",
             "Образуйте отрицание: We will meet tomorrow.",
             "Выберите: Look at the clouds! It (will / is going to) rain."
+          ],
+          examples: [
+            "I think it will rain tomorrow. — Думаю, завтра пойдёт дождь. (Предсказание с will)",
+            "I will help you with your homework. — Я помогу тебе с домашним заданием. (Обещание)",
+            "She won't tell anyone your secret. — Она никому не расскажет твой секрет. (Отрицание: won't)"
           ]
         },
         {
@@ -332,6 +362,11 @@ I'm not going to study. She isn't going to come. They aren't going to stay.
             "Поставьте вопрос: She is going to buy a new car.",
             "Образуйте отрицание: They are going to leave early.",
             "Переведите: Я собираюсь стать врачом."
+          ],
+          examples: [
+            "I am going to visit my grandmother next weekend. — Я собираюсь навестить бабушку в выходные. (План)",
+            "Look at those clouds! It is going to rain. — Посмотри на тучи! Собирается дождь. (Признаки)",
+            "They are going to move to a new flat. — Они собираются переехать в новую квартиру. (Намерение)"
           ]
         }
       ]
@@ -380,6 +415,11 @@ I'm not going to study. She isn't going to come. They aren't going to stay.
             "Переведите: Ты должен сделать домашнее задание.",
             "Заполните: You (mustn't / don't have to) smoke here. It's forbidden.",
             "Образуйте вопрос: She can speak English."
+          ],
+          examples: [
+            "She can speak three languages. — Она может говорить на трёх языках. (Умение)",
+            "You must do your homework every day. — Ты должен делать домашнее задание каждый день. (Обязанность)",
+            "Could you open the window, please? — Не могли бы вы открыть окно? (Вежливая просьба)"
           ]
         },
         {
@@ -417,6 +457,11 @@ I'm not going to study. She isn't going to come. They aren't going to stay.
             "Переведите: Возможно, она придёт завтра.",
             "Заполните: (May / Must) I use your phone?",
             "Образуйте вопрос: I should tell her the truth."
+          ],
+          examples: [
+            "You should eat more vegetables. — Тебе стоит есть больше овощей. (Совет)",
+            "It may rain tomorrow. — Завтра может пойти дождь. (Возможность)",
+            "He might come to the party. — Он, возможно, придёт на вечеринку. (Меньшая вероятность)"
           ]
         }
       ]
@@ -470,6 +515,11 @@ have/has been + V3
             "Преобразуйте в Passive: People speak Spanish in many countries.",
             "Заполните: The book (write) by a famous author.",
             "Переведите: Письмо было отправлено вчера."
+          ],
+          examples: [
+            "This book was written by Pushkin. — Эта книга была написана Пушкиным. (Past Simple Passive с by)",
+            "English is spoken in many countries. — На английском говорят во многих странах. (Present Simple Passive)",
+            "The work has already been done. — Работа уже выполнена. (Present Perfect Passive)"
           ]
         }
       ]
@@ -516,6 +566,11 @@ Main clause + If clause
             "Переделайте: If you don't study, you won't pass. (use unless)",
             "Выберите тип: If you heat ice, it melts. (Zero/First)",
             "Переведите: Если будет хорошая погода, мы пойдём в парк."
+          ],
+          examples: [
+            "If you heat ice, it melts. — Если нагреть лёд, он тает. (Zero Conditional — факт)",
+            "If it rains tomorrow, we will stay at home. — Если завтра пойдёт дождь, мы останемся дома. (First Conditional)",
+            "Unless you study hard, you won't pass the exam. — Если не будешь стараться, не сдашь. (Unless = if not)"
           ]
         },
         {
@@ -554,6 +609,11 @@ If + Past Perfect, would have + V3
             "Раскройте скобки: If she (study) harder, she (pass) the exam. (Third Conditional)",
             "Выберите тип: If I won the lottery, I would buy a house. (Second/Third)",
             "Переведите: Если бы я знал правду, я бы сказал тебе."
+          ],
+          examples: [
+            "If I were rich, I would travel around the world. — Если бы я был богат, я бы путешествовал. (Second Conditional)",
+            "If I had studied harder, I would have passed the exam. — Если бы учился усерднее, сдал бы. (Third Conditional)",
+            "If I knew her phone number, I would call her. — Если бы знал номер, позвонил бы. (Second)"
           ]
         }
       ]
@@ -605,6 +665,11 @@ If + Past Perfect, would have + V3
             "Заполните: I have breakfast ___ the morning. (at/in/on)",
             "Составьте предложение: she / usually / up / get / at 7 o'clock",
             "Переведите: После школы я делаю домашнее задание."
+          ],
+          examples: [
+            "I usually wake up at 7 o'clock and have a shower. — Я обычно просыпаюсь в 7 часов и принимаю душ.",
+            "After school I do my homework and then watch TV. — После школы делаю домашку и смотрю ТВ.",
+            "She goes to bed at 10 p.m. every day. — Она ложится спать в 10 вечера. (Предлог at со временем)"
           ]
         },
         {
@@ -651,6 +716,11 @@ If + Past Perfect, would have + V3
             "Заполните: She can play ___ piano. (the/-)",
             "Составьте вопрос: you / do / What / do / free time / in your / ?",
             "Переведите: Я увлекаюсь фотографией."
+          ],
+          examples: [
+            "In my free time I like reading books and listening to music. — В свободное время люблю читать и слушать музыку.",
+            "She plays the piano very well. — Она очень хорошо играет на пианино. (Артикль the с инструментом)",
+            "He is fond of playing football. — Он увлекается футболом. (Конструкция be fond of)"
           ]
         }
       ]
@@ -700,6 +770,11 @@ If + Past Perfect, would have + V3
             "Что такое skimming?",
             "Перечислите три части структуры текста.",
             "Как догадаться о значении незнакомого слова?"
+          ],
+          examples: [
+            "Skimming — быстрый просмотр заголовков и первого абзаца для понимания главной идеи текста.",
+            "Scanning — поиск конкретного имени или даты в тексте, не читая его целиком.",
+            "Слова-связки however (однако) и therefore (поэтому) помогают понять логическую структуру текста."
           ]
         }
       ]

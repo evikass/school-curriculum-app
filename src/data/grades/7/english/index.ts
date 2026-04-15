@@ -51,6 +51,10 @@ export const lessons: SubjectData = {
             "Put the adverb: She (often) is late for school",
             "Make a sentence: always / I / breakfast / have",
             "Write 5 daily activities"
+          ],
+          examples: [
+            "Present Simple: I usually wake up at 7 o'clock 🕐",
+            "Наречия частотности: always (100%) → usually → often → sometimes → rarely → never (0%)"
           ]
         },
         {
@@ -97,6 +101,10 @@ export const lessons: SubjectData = {
             "Make a question: you / have to / do / chores / what?",
             "Write 5 household chores",
             "Use 'should': help / parents / you / your"
+          ],
+          examples: [
+            "I have to do the washing-up — мне нужно помыть посуду 🧽",
+            "Should: You should help your parents — тебе следует помочь родителям"
           ]
         }
       ]
@@ -151,6 +159,10 @@ export const lessons: SubjectData = {
             "Write 5 types of transport",
             "Make a sentence: going to / I / visit / Paris",
             "What's the difference: journey / trip / voyage?"
+          ],
+          examples: [
+            "I'm going to visit London next summer — планирую посетить Лондон ✈️",
+            "by plane — самолётом, by train — поездом, on foot — пешком"
           ]
         },
         {
@@ -203,6 +215,10 @@ Love,
             "Write 5 adjectives to describe places",
             "Tell about your last trip (5 sentences)",
             "Write a postcard from London"
+          ],
+          examples: [
+            "Past Simple: I visited the Louvre last year — прошлым летом я посетил Лувр 🏛️",
+            "How do I get to the museum? — как добраться до музея?"
           ]
         }
       ]
@@ -261,6 +277,10 @@ Love,
             "Write 5 environmental problems",
             "Make a sentence with First Conditional",
             "What should people do to help?"
+          ],
+          examples: [
+            "We must protect nature — мы должны защищать природу 🌍",
+            "First Conditional: If we recycle, there will be less waste"
           ]
         }
       ]
@@ -320,6 +340,10 @@ Love,
             "Write 5 digital devices",
             "Present Perfect: you / ever / use / this app?",
             "Write about pros and cons of the Internet"
+          ],
+          examples: [
+            "Present Perfect: I have bought a new smartphone — я купил новый телефон 📱",
+            "Internet safety: don't share personal information online"
           ]
         }
       ]

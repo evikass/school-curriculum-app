@@ -67,7 +67,8 @@ export const lessons: SubjectData = {
             "Ask a question about family",
             "Describe your family using possessive adjectives",
             "Write 3 sentences about your grandparents"
-          ]
+          ],
+          examples: ["This is my mother. Her name is Anna. She is a teacher.", "My uncle lives in Moscow. He has two children.", "Their grandparents are from Kazan."]
         },
         {
           title: "Describing People",
@@ -138,7 +139,8 @@ export const lessons: SubjectData = {
             "Describe a family member's character",
             "Write 5 sentences about someone's appearance",
             "Use 'have got' in 3 sentences"
-          ]
+          ],
+          examples: ["He has got blue eyes and dark hair.", "She is tall and slim. She is very friendly.", "My friend is short with brown eyes and curly hair."]
         }
       ]
     },
@@ -209,7 +211,8 @@ export const lessons: SubjectData = {
             "Ask a question about daily routine",
             "Write 5 sentences about your day using Present Simple",
             "Describe what time you do different activities"
-          ]
+          ],
+          examples: ["I wake up at 7 o clock and have breakfast at 7:30.", "She goes to school at 8 and does her homework in the evening.", "We usually have dinner at 7 p.m."]
         },
         {
           title: "Days of the Week and Prepositions",
@@ -287,7 +290,8 @@ export const lessons: SubjectData = {
             "Translate: always, sometimes, never",
             "Write sentences using at, on, in correctly",
             "Describe your weekly routine with adverbs of frequency"
-          ]
+          ],
+          examples: ["I always do my homework after school.", "She never watches TV in the morning.", "We visit our grandparents on Sunday."]
         }
       ]
     },
@@ -376,7 +380,8 @@ export const lessons: SubjectData = {
             "Make sentences with 'like' and 'enjoy'",
             "Write about 5 activities you like",
             "Describe your friend's hobbies"
-          ]
+          ],
+          examples: ["I like reading books and playing football.", "She is interested in music and dancing.", "He is good at swimming and riding a bike."]
         },
         {
           title: "Can / Can't for Abilities",
@@ -456,7 +461,8 @@ export const lessons: SubjectData = {
             "Tell what you can and can't do",
             "Make 3 questions using 'Can you...?'",
             "Write about your abilities and talents"
-          ]
+          ],
+          examples: ["I can swim, but I cannot drive.", "She can play the piano very well.", "Can you help me with this task?"]
         }
       ]
     },
@@ -534,7 +540,8 @@ export const lessons: SubjectData = {
             "Make a dialogue at the airport",
             "Write 5 useful phrases for travellers",
             "Describe what you do at the airport step by step"
-          ]
+          ],
+          examples: ["Here is my passport. I would like a window seat, please.", "Where is gate 5? The flight leaves at 3 p.m.", "I have one suitcase and a hand luggage."]
         },
         {
           title: "Countries and Nationalities",
@@ -623,12 +630,15 @@ export const lessons: SubjectData = {
             "Make a dialogue about your country",
             "Write about 3 countries you'd like to visit",
             "Describe your nationality and languages you speak"
-          ]
+          ],
+          examples: ["Moscow is the capital of Russia.", "I am from Russia. I speak Russian.", "She is French. She lives in Paris."]
         }
       ]
     }
   ]
 }
+
+
 
 export const games: GameLesson[] = [
   {
