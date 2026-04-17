@@ -1060,7 +1060,7 @@ export const lessons: SubjectData = {
 }
 
 export const games: GameLesson[] = [
-  {
+{
     title: "Числа 1-5 🎲",
     subject: "Математика",
     icon: "Calculator",
@@ -1074,7 +1074,7 @@ export const games: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь числа 1-5! 🔢" }
   },
-  {
+{
     title: "Числа 6-10 🎯",
     subject: "Математика",
     icon: "Calculator",
@@ -1088,7 +1088,7 @@ export const games: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь числа до 10! 🎉" }
   },
-  {
+{
     title: "Сложение до 10 ➕",
     subject: "Математика",
     icon: "Calculator",
@@ -1102,7 +1102,7 @@ export const games: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь складывать! ➕" }
   },
-  {
+{
     title: "Вычитание до 10 ➖",
     subject: "Математика",
     icon: "Calculator",
@@ -1116,7 +1116,7 @@ export const games: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Молодец! Ты умеешь вычитать! ➖" }
   },
-  {
+{
     title: "Сравнение чисел ⚖️",
     subject: "Математика",
     icon: "Calculator",
@@ -1130,7 +1130,7 @@ export const games: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь сравнивать! ⚖️" }
   },
-  {
+{
     title: "Геометрические фигуры 🔷",
     subject: "Математика",
     icon: "Calculator",
@@ -1144,7 +1144,7 @@ export const games: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь фигуры! 🔷🔶" }
   },
-  {
+{
     title: "Состав числа 🧮",
     subject: "Математика",
     icon: "Calculator",
@@ -1158,7 +1158,7 @@ export const games: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Прекрасно! Ты знаешь состав чисел! 🧮" }
   },
-  {
+{
     title: "Задачи на смекалку 🧩",
     subject: "Математика",
     icon: "Calculator",
@@ -1172,7 +1172,7 @@ export const games: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Круто! Ты решил задачи! 🧩" }
   },
-  {
+{
     title: "Числа 1-5 🔢",
     subject: "Математика",
     icon: "Calculator",
@@ -1186,7 +1186,7 @@ export const games: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь числа 1-5! 🔢" }
   },
-  {
+{
     title: "Числа 6-10 🔟",
     subject: "Математика",
     icon: "Calculator",
@@ -1200,7 +1200,7 @@ export const games: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь числа 6-10! 🔟" }
   },
-  {
+{
     title: "Сложение ➕",
     subject: "Математика",
     icon: "Calculator",
@@ -1214,7 +1214,7 @@ export const games: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь складывать! ➕" }
   },
-  {
+{
     title: "Вычитание ➖",
     subject: "Математика",
     icon: "Calculator",
@@ -1228,18 +1228,18 @@ export const games: GameLesson[] = [
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь вычитать! ➖" }
   },
-  {
-    title: "Геометрические фигуры 🔷",
+{
+    title: "Математические знаки ➕➖➗",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Какая фигура похожа на колесо?", options: ["Квадрат", "Круг", "Треугольник", "Никто не знает", "Не знаю"], correctAnswer: "Круг", hint: "Круглое колесо" },
-      { type: 'quiz', question: "Сколько углов у треугольника?", options: ["2", "3", "4", "Никто не знает", "Не знаю"], correctAnswer: "3", hint: "Три угла — треугольник" },
-      { type: 'find', question: "Найди предметы круглой формы:", options: ["Мяч", "Книга", "Тарелка", "Окно", "Колесо"], correctAnswer: ["Мяч", "Тарелка", "Колесо"], hint: "Круглые предметы" },
-      { type: 'match', question: "Соедини фигуру с предметом:", options: ["Круг", "Квадрат", "Треугольник", "Прямоугольник", "Овал"], correctAnswer: ["Мяч", "Окно", "Крыша дома", "Дверь", "Яйцо"], hint: "Формы вокруг нас" },
-      { type: 'quiz', question: "Сколько сторон у квадрата?", options: ["3", "4", "5", "Никто не знает", "Не знаю"], correctAnswer: "4", hint: "Квадрат = 4 стороны" }
+      { type: 'quiz', question: "Какой знак означает «прибавить»?", options: ["-", "=", "+", "*", "Не знаю"], correctAnswer: "+", hint: "Этот знак выглядит как крестик" },
+      { type: 'quiz', question: "Какой знак означает «вычесть»?", options: ["+", "-", "=", "*", "Не знаю"], correctAnswer: "-", hint: "Этот знак — горизонтальная чёрточка" },
+      { type: 'quiz', question: "Что означает знак «=»?", options: ["Больше", "Меньше", "Равно", "Не равно", "Не знаю"], correctAnswer: "Равно", hint: "Две полоски, одна над другой" },
+      { type: 'quiz', question: "Какой знак пропущен: 3 __ 2 = 5?", options: ["-", "=", "+", "*", "Не знаю"], correctAnswer: "+", hint: "Три плюс два равно пяти" },
+      { type: 'quiz', question: "Какой знак пропущен: 7 __ 4 = 3?", options: ["+", "=", "-", "*", "Не знаю"], correctAnswer: "-", hint: "Семь минус четыре равно трём" }
     ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь фигуры! 🔷" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь математические знаки! ➕➖" }
   }
 ]
