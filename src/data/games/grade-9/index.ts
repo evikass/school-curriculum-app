@@ -12,7 +12,7 @@ export const ninthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "При делении неравенства на отрицательное число знак:", options: ["Не меняется", "Меняется на противоположный", "Становится равенством", "Умножается на 2", "Исчезает"], correctAnswer: "Меняется на противоположный", hint: "Важно: при делении на минус знак меняется!" },
       { type: 'quiz', question: "Решить: 2x > 6", options: ["x > 3", "x < 3", "x > 4", "x < 4", "x > 6"], correctAnswer: "x > 3", hint: "x > 6/2 = 3" },
       { type: 'quiz', question: "-x > 5, значит:", options: ["x < -5", "x > -5", "x < 5", "x > 5", "x = -5"], correctAnswer: "x < -5", hint: "При делении на -1 знак меняется" },
-      { type: 'quiz', question: "Решить систему: x > 2 и x < 5", options: ["(2; 5)", "x > 5", "x < 2", "[2; 5]", "x ≥ 2"], correctAnswer: "(2; 5)", hint: "Пересечение интервалов" },
+      { type: 'quiz', question: "Решить систему: x > 2 и x < 5", options: ["(2; 5)", "x > 5", "x < 2", "—", ","], correctAnswer: "(2; 5)", hint: "Пересечение интервалов" },
       { type: 'quiz', question: "Решить: 3x - 1 ≤ 8", options: ["x ≤ 3", "x ≤ 2", "x ≥ 3", "x < 3", "x ≤ 4"], correctAnswer: "x ≤ 3", hint: "3x ≤ 9, x ≤ 3" }
     ],
     reward: { stars: 3, message: "Отлично! Ты решаешь неравенства! 📐" }
@@ -210,7 +210,7 @@ export const ninthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Прямая: «I am happy» → Косвенная:", options: ["He said he is happy", "He said he was happy", "He said he will be happy", "He said he has been happy", "He said he had been happy"], correctAnswer: "He said he was happy", hint: "Present → Past при согласовании" },
       { type: 'quiz', question: "«I will come» → He said:", options: ["he will come", "he would come", "he came", "he comes", "he had come"], correctAnswer: "he would come", hint: "Future → Future in the Past" },
       { type: 'quiz', question: "«I saw him» → She said:", options: ["she saw him", "she had seen him", "she has seen him", "she sees him", "she will see him"], correctAnswer: "she had seen him", hint: "Past → Past Perfect" },
-      { type: 'quiz', question: "«Don't go!» → She told me:", options: ["don't go", "not to go", "to not go", "didn't go", "not go"], correctAnswer: "not to go", hint: "Повелительное → инфинитив с not" },
+      { type: 'quiz', question: "«Don't go!» → She told me:", options: ["not to go", "don", ",", "t go", "not go"], correctAnswer: "not to go", hint: "Повелительное → инфинитив с not" },
       { type: 'quiz', question: "«I have finished» → He said he:", options: ["has finished", "had finished", "finished", "will finish", "finishes"], correctAnswer: "had finished", hint: "Present Perfect → Past Perfect" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь косвенную речь! 🇬🇧" }

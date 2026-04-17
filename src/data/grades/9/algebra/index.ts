@@ -592,6 +592,36 @@ C₁₅³ = 15! / (3! × 12!) = 455`,
 
 export const games: GameLesson[] = [
   {
+    title: "Функция y = ax² 📚",
+    subject: "Алгебра",
+    icon: "Sigma",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Вопрос 1 по теме \"Функция y = ax²\"", options: ["Свойства квадратичной функции:","Функция y = ax²","Полная квадратичная функция:","1. Способ подстановки:","Формулы:"], correctAnswer: "Функция y = ax²", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 2 по теме \"Функция y = ax²\"", options: ["Функция y = ax²","Дано:","Свойства квадратичной функции:","Решение:","Система линейных уравнений"], correctAnswer: "Функция y = ax²", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 3 по теме \"Функция y = ax²\"", options: ["Направление ветвей:","Функция y = ax²","Дано:","1. n-й член:","Свойства:"], correctAnswer: "Функция y = ax²", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 4 по теме \"Функция y = ax²\"", options: ["Размещение","Нули функции:","Примеры:","Функция y = ax²","Свойства квадратичной функции:"], correctAnswer: "Функция y = ax²", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 5 по теме \"Функция y = ax²\"", options: ["Решение:","Пример:","Общий вид:","Дано:","Функция y = ax²"], correctAnswer: "Функция y = ax²", hint: "Ответ связан с материалом урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  }
+] = [
+  {
+    title: "Функция y = ax² 📚",
+    subject: "Алгебра",
+    icon: "Sigma",
+    color: "text-indigo-400",
+    tasks: [
+      { type: 'quiz', question: "Вопрос 1 по теме \"Функция y = ax²\"", options: ["Функция y = ax²","Формулы:","Размещения:","Влияние коэффициентов:","Формула:"], correctAnswer: "Функция y = ax²", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 2 по теме \"Функция y = ax²\"", options: ["Функция y = ax²","Нет решений","3. Графический способ:","Формула:","Простейший случай: y = ax²"], correctAnswer: "Функция y = ax²", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 3 по теме \"Функция y = ax²\"", options: ["2. Нули функции (y = 0):","Функция y = ax²","Алгоритм:","Решение:","Одно решение"], correctAnswer: "Функция y = ax²", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 4 по теме \"Функция y = ax²\"", options: ["Построение графика:","Таблица для y = x²:","3. Сумма n членов:","Нули функции:","Функция y = ax²"], correctAnswer: "Функция y = ax²", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 5 по теме \"Функция y = ax²\"", options: ["Формула:","Полная квадратичная функция:","Правило сложения:","Пример:","Функция y = ax²"], correctAnswer: "Функция y = ax²", hint: "Ответ связан с материалом урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  }
+] = [
+  {
     title: "Функция y = ax²",
     subject: "Алгебра",
     icon: "Sigma",
@@ -599,7 +629,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "График функции y = ax²:", options: ["Прямая", "Парабола", "Гипербола", "Окружность", "Другой ответ"], correctAnswer: "Парабола", hint: "Кривая линия" },
       { type: 'quiz', question: "Ветви параболы y = -2x² направлены:", options: ["Вверх", "Вниз", "Вправо", "Влево", "Другой ответ"], correctAnswer: "Вниз", hint: "a < 0" },
-      { type: 'quiz', question: "Вершина параболы y = ax² находится в точке (0; ...)", options: ["0", "1", "-1", "2", "-2", "a"], correctAnswer: "0", hint: "Начало координат" },
+      { type: 'quiz', question: "Вершина параболы y = ax² находится в точке (0; ...)", options: ["a", "0", "-2", "1", "2"], correctAnswer: "0", hint: "Начало координат" },
       { type: 'quiz', question: "Найдите значение y = 3x² при x = -2:", options: ["6", "-6", "12", "-12", "Другой ответ"], correctAnswer: "12", hint: "3 × (-2)² = 3 × 4" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь функцию y = ax²! 📈" }
@@ -610,10 +640,10 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "x₀ = -b / ...a (формула абсциссы вершины)", options: ["1", "2", "3", "4", "0.5", "b"], correctAnswer: "2", hint: "Делим на 2a" },
+      { type: 'quiz', question: "x₀ = -b / ...a (формула абсциссы вершины)", options: ["4", "0.5", "3", "1", "2"], correctAnswer: "2", hint: "Делим на 2a" },
       { type: 'quiz', question: "Найдите вершину параболы y = x² - 6x + 5:", options: ["(3; -4)", "(3; 4)", "(-3; -4)", "(3; 0)", "Другой ответ"], correctAnswer: "(3; -4)", hint: "x₀ = 6/2 = 3, y₀ = 9-18+5" },
       { type: 'quiz', question: "Нули функции y = x² - 5x + 6:", options: ["x = 2 и x = 3", "x = 1 и x = 6", "x = -2 и x = -3", "x = 0", "Другой ответ"], correctAnswer: "x = 2 и x = 3", hint: "Решите x² - 5x + 6 = 0" },
-      { type: 'quiz', question: "Парабола y = ax² + bx + c пересекает ось Y в точке (0; ...)", options: ["0", "1", "-1", "c", "b", "a"], correctAnswer: "c", hint: "Подставьте x = 0" },
+      { type: 'quiz', question: "Парабола y = ax² + bx + c пересекает ось Y в точке (0; ...)", options: ["-1", "b", "1", "c", "0"], correctAnswer: "c", hint: "Подставьте x = 0" },
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь квадратичную функцию! 📊" }
   },
@@ -624,7 +654,7 @@ export const games: GameLesson[] = [
     color: "text-indigo-400",
     tasks: [
       { type: 'quiz', question: "Сколько решений имеет система параллельных прямых?", options: ["Одно", "Ни одного", "Много", "Два", "Другой ответ"], correctAnswer: "Ни одного", hint: "Параллельные не пересекаются" },
-      { type: 'quiz', question: "При способе сложения уравнения ... или вычитают", options: ["умножают", "делят", "складывают", "вычитают", "сравнивают", "переписывают"], correctAnswer: "складывают", hint: "Чтобы исключить переменную" },
+      { type: 'quiz', question: "При способе сложения уравнения ... или вычитают", options: ["складывают", "переписывают", "сравнивают", "умножают", "вычитают"], correctAnswer: "складывают", hint: "Чтобы исключить переменную" },
       { type: 'quiz', question: "Решите систему {x + y = 7, {x - y = 1:", options: ["(4; 3)", "(3; 4)", "(5; 2)", "(2; 5)", "Другой ответ"], correctAnswer: "(4; 3)", hint: "x = 4, y = 3" },
       { type: 'find', question: "Способы решения систем:", options: ["Подстановка", "Сложение", "Графический", "Умножение", "Деление"], correctAnswer: ["Подстановка", "Сложение", "Графический"], hint: "Три основных способа" }
     ],
@@ -637,7 +667,7 @@ export const games: GameLesson[] = [
     color: "text-indigo-400",
     tasks: [
       { type: 'quiz', question: "Решите систему {x + y = 3, {xy = 2:", options: ["(1; 2) и (2; 1)", "(1; 2)", "(2; 1)", "(3; 0)", "Другой ответ"], correctAnswer: "(1; 2) и (2; 1)", hint: "По теореме Виета" },
-      { type: 'quiz', question: "Для симметричных систем используют замену u = x + y, v = ...", options: ["x - y", "xy", "x/y", "x² + y²", "x + 2y", "2x + y"], correctAnswer: "xy", hint: "Произведение" },
+      { type: 'quiz', question: "Для симметричных систем используют замену u = x + y, v = ...", options: ["xy", "x - y", "x/y", "2x + y", "x + 2y"], correctAnswer: "xy", hint: "Произведение" },
       { type: 'quiz', question: "Сколько решений может иметь система двух окружностей?", options: ["Только 1", "Только 2", "0, 1, 2 или много", "Только 0", "Другой ответ"], correctAnswer: "0, 1, 2 или много", hint: "Зависит от взаимного расположения" },
       { type: 'quiz', question: "Система {x + y = 5, {x² + y² = 13 имеет решения:", options: ["(2; 3) и (3; 2)", "(1; 4) и (4; 1)", "(0; 5)", "Нет решений", "Другой ответ"], correctAnswer: "(2; 3) и (3; 2)", hint: "Подставьте и проверьте" }
     ],
@@ -649,10 +679,10 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "aₙ = a₁ + (n - 1)...", options: ["a", "d", "n", "k", "b", "m"], correctAnswer: "d", hint: "Разность" },
+      { type: 'quiz', question: "aₙ = a₁ + (n - 1)...", options: ["m", "d", "a", "n", "b"], correctAnswer: "d", hint: "Разность" },
       { type: 'quiz', question: "Разность прогрессии 3, 7, 11, ...:", options: ["3", "4", "7", "11", "Другой ответ"], correctAnswer: "4", hint: "d = 7 - 3" },
       { type: 'quiz', question: "10-й член прогрессии a₁ = 2, d = 3:", options: ["29", "30", "32", "27", "Другой ответ"], correctAnswer: "29", hint: "a₁₀ = 2 + 9×3" },
-      { type: 'quiz', question: "Сумма n первых членов: Sₙ = (a₁ + aₙ) × n / ...", options: ["1", "2", "3", "4", "n", "aₙ"], correctAnswer: "2", hint: "Делим на 2" },
+      { type: 'quiz', question: "Сумма n первых членов: Sₙ = (a₁ + aₙ) × n / ...", options: ["4", "n", "3", "aₙ", "2"], correctAnswer: "2", hint: "Делим на 2" },
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь арифметическую прогрессию! 📈" }
   },
@@ -662,10 +692,10 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "bₙ = b₁ × q^(n - ...)", options: ["0", "1", "2", "n", "q", "b₁"], correctAnswer: "1", hint: "Степень n-1" },
+      { type: 'quiz', question: "bₙ = b₁ × q^(n - ...)", options: ["2", "n", "1", "q", "0"], correctAnswer: "1", hint: "Степень n-1" },
       { type: 'quiz', question: "Знаменатель прогрессии 2, 6, 18, ...:", options: ["2", "3", "4", "6", "Другой ответ"], correctAnswer: "3", hint: "q = 6/2" },
       { type: 'quiz', question: "4-й член b₁ = 1, q = 2:", options: ["4", "8", "16", "2", "Другой ответ"], correctAnswer: "8", hint: "b₄ = 1 × 2³" },
-      { type: 'quiz', question: "Сумма бесконечной прогрессии S = b₁ / (1 - ...)", options: ["1", "q", "b₁", "n", "0", "∞"], correctAnswer: "q", hint: "Делим на 1-q" },
+      { type: 'quiz', question: "Сумма бесконечной прогрессии S = b₁ / (1 - ...)", options: ["1", "n", "q", "0", "∞"], correctAnswer: "q", hint: "Делим на 1-q" },
     ],
     reward: { stars: 3, message: "Круто! Ты знаешь геометрическую прогрессию! 📊" }
   },
@@ -675,7 +705,7 @@ export const games: GameLesson[] = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "5! = ...", options: ["24", "60", "120", "720", "100", "150"], correctAnswer: "120", hint: "1×2×3×4×5" },
+      { type: 'quiz', question: "5! = ...", options: ["24", "720", "120", "150", "100"], correctAnswer: "120", hint: "1×2×3×4×5" },
       { type: 'quiz', question: "Перестановки — это:", options: ["Выборка с порядком", "Выборка без порядка", "Расстановка всех элементов", "Сумма элементов", "Другой ответ"], correctAnswer: "Расстановка всех элементов", hint: "Все n элементов" },
       { type: 'quiz', question: "Сколькими способами выбрать 2 из 5 (порядок важен)?", options: ["10", "20", "5", "25", "Другой ответ"], correctAnswer: "20", hint: "A₅² = 5×4" },
       { type: 'quiz', question: "Сколькими способами выбрать 2 из 5 (порядок не важен)?", options: ["10", "20", "5", "25", "Другой ответ"], correctAnswer: "10", hint: "C₅² = 5×4/2" }

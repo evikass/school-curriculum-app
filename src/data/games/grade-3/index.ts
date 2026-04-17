@@ -12,7 +12,7 @@ export const thirdGradeGames: GameLesson[] = [
       { type: 'quiz', question: "2 × 7 = ?", options: ["12", "14", "16", "13", "18"], correctAnswer: "14", hint: "2 × 7 = 14" },
       { type: 'quiz', question: "3 × 6 = ?", options: ["15", "18", "21", "16", "20"], correctAnswer: "18", hint: "3 × 6 = 18" },
       { type: 'quiz', question: "4 × 5 = ?", options: ["15", "20", "25", "18", "22"], correctAnswer: "20", hint: "4 × 5 = 20" },
-      { type: 'fill', question: "5 × __ = 35", correctAnswer: "7", hint: "Сколько раз по 5 будет 35?" },
+      { type: 'quiz', question: "5 × (...) = 35", options: ["107", "9", "2", "17", "7"], correctAnswer: "7", hint: "Сколько раз по 5 будет 35?" },
       { type: 'quiz', question: "3 × 8 = ?", options: ["21", "24", "25", "27", "30"], correctAnswer: "24", hint: "3 × 8 = 24" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь таблицу умножения! ✖️" }
@@ -26,7 +26,7 @@ export const thirdGradeGames: GameLesson[] = [
       { type: 'quiz', question: "6 × 7 = ?", options: ["36", "42", "48", "38", "45"], correctAnswer: "42", hint: "6 × 7 = 42" },
       { type: 'quiz', question: "7 × 8 = ?", options: ["54", "56", "64", "58", "62"], correctAnswer: "56", hint: "7 × 8 = 56" },
       { type: 'quiz', question: "8 × 9 = ?", options: ["64", "72", "81", "68", "76"], correctAnswer: "72", hint: "8 × 9 = 72" },
-      { type: 'fill', question: "9 × __ = 63", correctAnswer: "7", hint: "9 × 7 = 63" },
+      { type: 'quiz', question: "9 × (...) = 63", options: ["7", "9", "2", "107", "17"], correctAnswer: "7", hint: "9 × 7 = 63" },
       { type: 'quiz', question: "6 × 8 = ?", options: ["42", "46", "48", "52", "56"], correctAnswer: "48", hint: "6 × 8 = 48" }
     ],
     reward: { stars: 3, message: "Супер! Ты освоил сложную таблицу! 🏆" }
@@ -39,7 +39,7 @@ export const thirdGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "36 ÷ 6 = ?", options: ["5", "6", "7", "4", "8"], correctAnswer: "6", hint: "36 ÷ 6 = 6" },
       { type: 'quiz', question: "56 ÷ 8 = ?", options: ["6", "7", "8", "5", "9"], correctAnswer: "7", hint: "56 ÷ 8 = 7" },
-      { type: 'fill', question: "__ ÷ 9 = 8", correctAnswer: "72", hint: "Какое число делится на 9 и даёт 8?" },
+      { type: 'quiz', question: "(...) ÷ 9 = 8", options: ["74", "67", "72", "144", "62"], correctAnswer: "72", hint: "Какое число делится на 9 и даёт 8?" },
       { type: 'quiz', question: "81 ÷ 9 = ?", options: ["8", "9", "10", "7", "11"], correctAnswer: "9", hint: "81 ÷ 9 = 9" },
       { type: 'quiz', question: "42 ÷ 7 = ?", options: ["5", "6", "7", "8", "9"], correctAnswer: "6", hint: "42 ÷ 7 = 6" }
     ],
@@ -67,7 +67,7 @@ export const thirdGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Периметр квадрата со стороной 4 см?", options: ["12 см", "16 см", "20 см", "14 см", "18 см"], correctAnswer: "16 см", hint: "P = 4 × сторона" },
       { type: 'quiz', question: "Площадь прямоугольника 3×5?", options: ["8", "15", "16", "10", "20"], correctAnswer: "15", hint: "S = длина × ширина" },
-      { type: 'fill', question: "Периметр прямоугольника 2×5 = __ см", correctAnswer: "14", hint: "P = 2×(длина + ширина)" },
+      { type: 'quiz', question: "Периметр прямоугольника 2×5 = (...) см", options: ["24", "1", "14", "9", "42"], correctAnswer: "14", hint: "P = 2×(длина + ширина)" },
       { type: 'quiz', question: "Сторона квадрата с периметром 20 см?", options: ["4 см", "5 см", "10 см", "3 см", "8 см"], correctAnswer: "5 см", hint: "Сторона = P ÷ 4" },
       { type: 'quiz', question: "Площадь квадрата со стороной 6 см?", options: ["24", "30", "36", "42", "48"], correctAnswer: "36", hint: "S = сторона × сторона" }
     ],
@@ -81,7 +81,7 @@ export const thirdGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "245 + 132 = ?", options: ["367", "377", "387", "357", "397"], correctAnswer: "377", hint: "Сложи сотни, десятки и единицы" },
       { type: 'quiz', question: "500 - 234 = ?", options: ["266", "276", "366", "256", "286"], correctAnswer: "266", hint: "500 - 234 = 266" },
-      { type: 'fill', question: "356 + 144 = __", correctAnswer: "500", hint: "356 + 144 = 500" },
+      { type: 'quiz', question: "356 + 144 = (...)", options: ["250", "500", "400", "1500", "5000"], correctAnswer: "500", hint: "356 + 144 = 500" },
       { type: 'find', question: "Выбери примеры с ответом 500:", options: ["250 + 250", "600 - 100", "450 + 50", "400 + 200", "350 + 150"], correctAnswer: ["250 + 250", "600 - 100", "450 + 50", "350 + 150"], hint: "Реши каждый пример" },
       { type: 'quiz', question: "678 + 234 = ?", options: ["812", "902", "912", "922", "932"], correctAnswer: "912", hint: "678 + 234 = 912" }
     ],
@@ -95,7 +95,7 @@ export const thirdGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Сколько минут в 1 часе?", options: ["60", "100", "24", "50", "120"], correctAnswer: "60", hint: "1 час = 60 минут" },
       { type: 'quiz', question: "Сколько часов в сутках?", options: ["12", "24", "60", "10", "48"], correctAnswer: "24", hint: "1 сутки = 24 часа" },
-      { type: 'fill', question: "2 часа 30 минут = __ минут", correctAnswer: "150", hint: "2×60 + 30 = 150" },
+      { type: 'quiz', question: "2 часа 30 минут = (...) минут", options: ["300", "105", "150", "250", "1500"], correctAnswer: "150", hint: "2×60 + 30 = 150" },
       { type: 'quiz', question: "Полчаса - это сколько минут?", options: ["15", "30", "45", "10", "20"], correctAnswer: "30", hint: "Половина часа" },
       { type: 'quiz', question: "Сколько секунд в 1 минуте?", options: ["30", "50", "60", "90", "100"], correctAnswer: "60", hint: "1 минута = 60 секунд" }
     ],
@@ -112,7 +112,7 @@ export const thirdGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Какой падеж: «вижу (кого?) маму»?", options: ["Именительный", "Родительный", "Винительный", "Дательный", "Творительный"], correctAnswer: "Винительный", hint: "Винительный падеж отвечает на «кого? что?»" },
       { type: 'quiz', question: "Падеж: «нет (кого?) мамы»?", options: ["Родительный", "Дательный", "Винительный", "Именительный", "Творительный"], correctAnswer: "Родительный", hint: "Родительный падеж - «кого? чего? нет»" },
       { type: 'find', question: "Выбери вопросы дательного падежа:", options: ["Кого? Что?", "Кому? Чему?", "Кем? Чем?", "О ком? О чём?", "Кого? Чего?"], correctAnswer: ["Кому? Чему?"], hint: "Дательный падеж - «кому? чему?»" },
-      { type: 'fill', question: "Предложный падеж отвечает: О __? О чём?", correctAnswer: "ком", hint: "О ком? О чём?" },
+      { type: 'quiz', question: "Предложный падеж отвечает: О (...)? О чём?", options: ["кым", "ном", "коп", "ком", "кок"], correctAnswer: "ком", hint: "О ком? О чём?" },
       { type: 'quiz', question: "Какой падеж: «рад (чему?) весне»?", options: ["Родительный", "Дательный", "Творительный", "Предложный", "Винительный"], correctAnswer: "Дательный", hint: "Рад (чему?) — дательный падеж" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь падежи! 📝" }
@@ -151,11 +151,11 @@ export const thirdGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'fill', question: "Вставь букву: В__да (проверочное слово воды)", correctAnswer: "о", hint: "ВОдЫ — проверочное слово" },
+      { type: 'quiz', question: "Вставь букву: В(...)да (проверочное слово воды)", options: ["о", "проверочное", "слово", "вставь", "у"], correctAnswer: "о", hint: "ВОдЫ — проверочное слово" },
       { type: 'quiz', question: "Как проверить безударную гласную?", options: ["Подобрать проверочное слово", "Посмотреть в словаре", "Написать любую букву", "Спросить учителя", "Написать две буквы"], correctAnswer: "Подобрать проверочное слово", hint: "Нужно изменить слово так, чтобы гласная стала ударной" },
       { type: 'find', question: "Выбери слова с проверяемой безударной:", options: ["Сосна (сОсы)", "Собака", "Мороз (мОрозы)", "Ворона", "Трава (трАвка)"], correctAnswer: ["Сосна (сОсы)", "Мороз (мОрозы)", "Трава (трАвка)"], hint: "Можно ли проверить ударением?" },
-      { type: 'fill', question: "Вставь букву: К__за (кОзы)", correctAnswer: "о", hint: "КОзЫ — проверочное слово" },
-      { type: 'fill', question: "Вставь букву: З__мля (зЕмли)", correctAnswer: "е", hint: "зЕмли — проверочное слово" }
+      { type: 'quiz', question: "Вставь букву: К(...)за (кОзы)", options: ["о", "вставь", "букву", "козы", "ё"], correctAnswer: "о", hint: "КОзЫ — проверочное слово" },
+      { type: 'quiz', question: "Вставь букву: З(...)мля (зЕмли)", options: ["и", "мля", "а", "е", "ю"], correctAnswer: "е", hint: "зЕмли — проверочное слово" }
     ],
     reward: { stars: 3, message: "Умница! Ты умеешь проверять гласные! ✅" }
   },
@@ -168,7 +168,7 @@ export const thirdGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Какая часть слова стоит перед корнем?", options: ["Приставка", "Суффикс", "Окончание", "Корень", "Основа"], correctAnswer: "Приставка", hint: "Приставка стоит перед корнем" },
       { type: 'quiz', question: "Какая часть слова служит для образования новых слов?", options: ["Корень", "Окончание", "Суффикс", "Приставка", "Основа"], correctAnswer: "Суффикс", hint: "Суффикс образует новые слова" },
       { type: 'find', question: "Выбери части слова:", options: ["Корень", "Слог", "Приставка", "Буква", "Окончание"], correctAnswer: ["Корень", "Приставка", "Окончание"], hint: "Морфемы - части слова" },
-      { type: 'fill', question: "В слове «подснежник» корень: __", correctAnswer: "снеж", hint: "Снеж - общая часть родственных слов" },
+      { type: 'quiz', question: "В слове «подснежник» корень: (...)", options: ["слове", "корень", "подснежник", "снеж", "нет"], correctAnswer: "снеж", hint: "Снеж - общая часть родственных слов" },
       { type: 'quiz', question: "Как найти корень слова?", options: ["Посмотреть в словаре", "Подобрать родственные слова", "Спросить учителя", "Посчитать буквы", "Убрать окончание"], correctAnswer: "Подобрать родственные слова", hint: "Корень — общая часть родственных слов" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь состав слова! 📖" }
@@ -180,7 +180,7 @@ export const thirdGradeGames: GameLesson[] = [
     color: "text-red-400",
     tasks: [
       { type: 'quiz', question: "Приставка «пре-» означает:", options: ["Пере-", "Очень", "Оба значения", "Приближение", "Нет значения"], correctAnswer: "Оба значения", hint: "Пре- = очень или пере-" },
-      { type: 'fill', question: "Приставка в слове «пр__бежать»", correctAnswer: "при", hint: "Прибежать - приближение" },
+      { type: 'quiz', question: "Приставка в слове «пр(...)бежать»", options: ["пни", "рри", "кри", "при", "прю"], correctAnswer: "при", hint: "Прибежать - приближение" },
       { type: 'find', question: "Выбери слова с приставкой «при-»:", options: ["Прибежать", "Прекрасный", "Пришкольный", "Прервать", "Прилететь"], correctAnswer: ["Прибежать", "Пришкольный", "Прилететь"], hint: "При- = приближение, присоединение, неполнота действия" },
       { type: 'quiz', question: "В слове «преградить» приставка означает:", options: ["Приближение", "Пере- (через)", "Очень", "Неполнота действия", "Присоединение"], correctAnswer: "Пере- (через)", hint: "Преградить = перегородить" },
       { type: 'quiz', question: "Слово «преглупый» — приставка «пре-» означает:", options: ["Пере-", "Очень", "Приближение", "Неполнота действия", "Присоединение"], correctAnswer: "Очень", hint: "Преглупый = очень глупый" }
@@ -212,7 +212,7 @@ export const thirdGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Сколько сказок написал Пушкин?", options: ["5", "6", "7", "8", "10"], correctAnswer: "5", hint: "Пушкин написал 5 сказок" },
       { type: 'find', question: "Выбери сказки Пушкина:", options: ["О рыбаке и рыбке", "Колобок", "О царе Салтане", "О Золотом петушке", "Теремок"], correctAnswer: ["О рыбаке и рыбке", "О царе Салтане", "О Золотом петушке"], hint: "Александр Сергеевич Пушкин" },
       { type: 'quiz', question: "Кто испугал царевну в «Сказке о мёртвой царевне»?", options: ["Баба Яга", "Злая мачеха", "Кощей", "Злой дед", "Лесная ведьма"], correctAnswer: "Злая мачеха", hint: "Мачеха была jealous" },
-      { type: 'fill', question: "«Сказка о __ и о работнике его Балде»", correctAnswer: "попе", hint: "Поп нанял Балду работником" },
+      { type: 'quiz', question: "«Сказка о (...) и о работнике его Балде»", options: ["балде", "сказка", "работнике", "нет", "попе"], correctAnswer: "попе", hint: "Поп нанял Балду работником" },
       { type: 'quiz', question: "Кого встретил старик в «Сказке о рыбаке и рыбке»?", options: ["Золотую рыбку", "Русалку", "Медузу", "Кита", "Дельфина"], correctAnswer: "Золотую рыбку", hint: "Старик поймал золотую рыбку" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь сказки Пушкина! 📚" }

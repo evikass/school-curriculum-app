@@ -1275,56 +1275,365 @@ export const lessons: SubjectData = {
   ]
 }
 export const games: GameLesson[] = [
+
+  // ========== АНГЛИЙСКИЙ (24 теста) ==========
   {
-    title: "Приветствие и знакомство",
+    title: "Приветствие",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «Привет» по-английски?", options: ["Goodbye", "Hello", "Thanks", "Никто не знает", "Не знаю"], correctAnswer: "Hello", hint: "Hello — самое популярное приветствие" },
-      { type: 'quiz', question: "Как спросить «Как дела?» по-английски?", options: ["How are you?", "What is your name?", "Where are you from?", "Никто не знает", "Не знаю"], correctAnswer: "How are you?", hint: "How are you? — Как дела?" },
-      { type: 'find', question: "Выбери фразы приветствия:", options: ["Hello!", "Goodbye!", "Hi!", "Good morning!", "Sorry!"], correctAnswer: ["Hello!", "Hi!", "Good morning!"], hint: "Это фразы для приветствия" },
-      { type: 'quiz', question: "My ... is Anna. (Меня зовут Анна)", options: ["name", "age", "friend", "school", "country", "city"], correctAnswer: "name", hint: "My name is... — Меня зовут..." }
+      { type: 'quiz', question: "How do you say «Доброе утро» in English?", options: ["Good night", "Good morning", "Good evening", "Good afternoon", "Hello"], correctAnswer: "Good morning", hint: "Morning — утро" },
+      { type: 'quiz', question: "What does «Goodbye!» mean?", options: ["Здравствуйте", "Доброе утро", "До свидания", "Спокойной ночи", "Как дела"], correctAnswer: "До свидания", hint: "Goodbye — прощание" },
+      { type: 'quiz', question: "«Как дела?» по-английски: How (...)_ you?", options: ["are", "you", "английски", "дела", "how"], correctAnswer: "are", hint: "How are you? — Как дела?" },
+      { type: 'quiz', question: "What does «See you!» mean?", options: ["До свидания", "Увидимся", "Привет", "Как дела", "Спасибо"], correctAnswer: "Увидимся", hint: "See you — увидимся позже" },
+      { type: 'quiz', question: "How do you answer «How are you?»", options: ["My name is Tom", ",", "I", "Hello", "m fine, thanks!"], correctAnswer: "I'm fine, thanks!", hint: "Отвечаем: I'm fine, thanks!" }
     ],
-    reward: { stars: 3, message: "Отлично! Ты умеешь здороваться по-английски! 👋" }
+    reward: { stars: 3, message: "Great! Ты знаешь приветствия! 👋" }
   },
+
   {
-    title: "Цвета и числа",
+    title: "Представление",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «красный» по-английски?", options: ["blue", "red", "green", "Никто не знает", "Не знаю"], correctAnswer: "red", hint: "Red — красный" },
-      { type: 'find', question: "Выбери цвета радуги:", options: ["red", "dog", "yellow", "green", "blue", "cat"], correctAnswer: ["red", "yellow", "green", "blue"], hint: "Это цвета радуги" },
-      { type: 'quiz', question: "Как будет число 5 по-английски?", options: ["three", "four", "five", "Никто не знает", "Не знаю"], correctAnswer: "five", hint: "Five — пять" },
-      { type: 'quiz', question: "My favourite colour is ... (Мой любимый цвет — синий)", options: ["blue", "red", "green", "yellow", "black", "white"], correctAnswer: "blue", hint: "Blue — синий" }
+      { type: 'quiz', question: "How do you say «Меня зовут Анна»?", options: ["My name is Anna", "I am Anna", "She is Anna", "It is Anna", "Anna is me"], correctAnswer: "My name is Anna", hint: "My name is... — Меня зовут..." },
+      { type: 'quiz', question: "What does «I'm from Russia» mean?", options: ["Я говорю по-русски", "Я из России", "Я люблю Россию", "Я живу в Москве", "Я учусь в России"], correctAnswer: "Я из России", hint: "I'm from — Я из..." },
+      { type: 'quiz', question: "«Мне 10 лет» по-английски: I'm (...) years old.", options: ["8", "9", "10", "11", "12"], correctAnswer: "10", hint: "I'm [число] years old." },
+      { type: 'quiz', question: "What does «Nice to meet you!» mean?", options: ["Как дела?", "Как тебя зовут?", "Приятно познакомиться!", "До свидания!", "Сколько тебе лет?"], correctAnswer: "Приятно познакомиться!", hint: "Nice to meet you — при знакомстве" },
+      { type: 'quiz', question: "How do you ask «Откуда ты?»?", options: ["What is your name?", "How old are you?", "Where are you from?", "How are you?", "Who are you?"], correctAnswer: "Where are you from?", hint: "Where — где/откуда" }
     ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь цвета и числа! 🎨" }
+    reward: { stars: 3, message: "Excellent! Ты умеешь представляться! 🙋" }
   },
+
   {
-    title: "Семья и дом",
+    title: "Вежливые слова",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «мама» по-английски?", options: ["father", "mother", "sister", "Никто не знает", "Не знаю"], correctAnswer: "mother", hint: "Mother — мама" },
-      { type: 'find', question: "Выбери членов семьи:", options: ["mother", "house", "father", "sister", "room", "brother"], correctAnswer: ["mother", "father", "sister", "brother"], hint: "Это члены семьи" },
-      { type: 'quiz', question: "Как будет «дом» по-английски?", options: ["house", "flat", "room", "Никто не знает", "Не знаю"], correctAnswer: "house", hint: "House — дом" },
-      { type: 'quiz', question: "I have a big ... (У меня большая семья)", options: ["family", "house", "dog", "car", "room", "book"], correctAnswer: "family", hint: "Family — семья" }
+      { type: 'quiz', question: "How do you say «Пожалуйста» when making a request?", options: ["Thank you", "Sorry", "Please", "Hello", "Goodbye"], correctAnswer: "Please", hint: "Please — пожалуйста (при просьбе)" },
+      { type: 'quiz', question: "What does «Thank you very much!» mean?", options: ["Здравствуйте", "Извините", "До свидания", "Большое спасибо!", "Пожалуйста"], correctAnswer: "Большое спасибо!", hint: "Thank you very much — большое спасибо" },
+      { type: 'quiz', question: "«Вы здесь» (вот, пожалуйста): Here (...)_ are.", options: ["you", "here", "are", "здесь", "пожалуйста"], correctAnswer: "you", hint: "Here you are — вот, пожалуйста" },
+      { type: 'quiz', question: "What does «You're welcome!» mean?", options: ["Добро пожаловать", "Не за что! (пожалуйста)", "Привет", "Спасибо", "До свидания"], correctAnswer: "Не за что! (пожалуйста)", hint: "Ответ на благодарность" },
+      { type: 'quiz', question: "How do you say «Извините!»?", options: ["Hello", "Please", "Thanks", "Sorry!", "Goodbye"], correctAnswer: "Sorry!", hint: "Sorry — извини/извините" }
     ],
-    reward: { stars: 3, message: "Молодец! Ты знаешь слова о семье! 👨‍👩‍👧‍👦" }
+    reward: { stars: 3, message: "Wonderful! Ты знаешь вежливые слова! 🙏" }
   },
+
   {
-    title: "Еда и напитки",
+    title: "Вопросительные слова",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «яблоко» по-английски?", options: ["orange", "apple", "banana", "Никто не знает", "Не знаю"], correctAnswer: "apple", hint: "Apple — яблоко" },
-      { type: 'find', question: "Выбери продукты питания:", options: ["bread", "water", "book", "cheese", "pen", "milk"], correctAnswer: ["bread", "cheese", "milk"], hint: "Это продукты питания" },
-      { type: 'quiz', question: "Как вежливо попросить воды?", options: ["Water!", "Can I have water, please?", "Give me water!", "Никто не знает", "Не знаю"], correctAnswer: "Can I have water, please?", hint: "Can I have... please? — Можно мне... пожалуйста?" },
-      { type: 'quiz', question: "I like ... (Мне нравится пицца)", options: ["pizza", "apple", "bread", "milk", "water", "cheese"], correctAnswer: "pizza", hint: "Pizza — пицца" }
+      { type: 'quiz', question: "What does «Where?» mean?", options: ["Кто?", "Где? Куда?", "Когда?", "Почему?", "Что?"], correctAnswer: "Где? Куда?", hint: "Where — где / куда" },
+      { type: 'quiz', question: "Which word asks «Когда?»?", options: ["What", "Where", "Who", "When", "How"], correctAnswer: "When", hint: "When — когда" },
+      { type: 'quiz', question: "«Почему?» по-английски: (...)_", options: ["нет", "не знаю", "почему", "английски", "Why"], correctAnswer: "Why", hint: "Why — почему" },
+      { type: 'quiz', question: "What does «Who?» mean?", options: ["Что?", "Где?", "Кто?", "Как?", "Когда?"], correctAnswer: "Кто?", hint: "Who — используется только про людей" },
+      { type: 'quiz', question: "How do you ask «Что это?»?", options: ["Who is this?", "Where is this?", "When is this?", "What is this?", "How is this?"], correctAnswer: "What is this?", hint: "What — что / какой" }
     ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь слова о еде! 🍕" }
+    reward: { stars: 3, message: "Good job! Ты знаешь вопросительные слова! ❓" }
+  },
+
+  {
+    title: "Цвета",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «красный» in English?", options: ["Blue", "Green", "Red", "Yellow", "Black"], correctAnswer: "Red", hint: "Red — красный" },
+      { type: 'quiz', question: "What colour is the grass?", options: ["Red", "Blue", "Yellow", "Green", "White"], correctAnswer: "Green", hint: "Трава зелёная — green" },
+      { type: 'quiz', question: "«Жёлтый» по-английски: (...)_", options: ["жёлтый", "нет", "не знаю", "yellow", "английски"], correctAnswer: "yellow", hint: "The sun is yellow." },
+      { type: 'quiz', question: "What does «purple» mean?", options: ["Зелёный", "Оранжевый", "Фиолетовый", "Розовый", "Коричневый"], correctAnswer: "Фиолетовый", hint: "Purple — фиолетовый" },
+      { type: 'quiz', question: "How do you ask «Какого это цвета?»?", options: ["What is it?", "What colour is it?", "How is it?", "Where is it?", "Who is it?"], correctAnswer: "What colour is it?", hint: "What colour — какой цвет" }
+    ],
+    reward: { stars: 3, message: "Amazing! Ты знаешь цвета! 🎨" }
+  },
+
+  {
+    title: "Числа",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «пятнадцать» in English?", options: ["Fifty", "Fifteen", "Five", "Fourteen", "Sixteen"], correctAnswer: "Fifteen", hint: "Fifteen — 15 (с буквой n: fifTEEN)" },
+      { type: 'quiz', question: "What number is «twelve»?", options: ["10", "11", "12", "20", "13"], correctAnswer: "12", hint: "Twelve = 12" },
+      { type: 'quiz', question: "«Сорок» по-английски: (...)", options: ["fourty", "forty", "fourteen", "four", "for"], correctAnswer: "forty", hint: "Внимание: forty пишется без 'u'!" },
+      { type: 'quiz', question: "What is «one hundred»?", options: ["10", "100", "1000", "50", "99"], correctAnswer: "100", hint: "One hundred = 100" },
+      { type: 'quiz', question: "Numbers 13-19 end in:", options: ["-ty", "-teen", "-tion", "-ed", "-ing"], correctAnswer: "-teen", hint: "thirteen, fourteen, fifteen..." }
+    ],
+    reward: { stars: 3, message: "Super! Ты знаешь числа! 🔢" }
+  },
+
+  {
+    title: "Части тела",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «голова» in English?", options: ["Hand", "Head", "Hair", "Heart", "Hat"], correctAnswer: "Head", hint: "Head — голова" },
+      { type: 'quiz', question: "What does «eye» mean?", options: ["Ухо", "Нос", "Глаз", "Рот", "Рука"], correctAnswer: "Глаз", hint: "Eye — глаз (множественное: eyes)" },
+      { type: 'quiz', question: "«Нога» по-английски: (...)_", options: ["не знаю", "нет", "английски", "нога", "leg"], correctAnswer: "leg", hint: "Leg — нога (от бедра до стопы)" },
+      { type: 'quiz', question: "What is the plural of «tooth»?", options: ["Toothes", "Teeth", "Tooths", "Teeths", "Toothes"], correctAnswer: "Teeth", hint: "Tooth → teeth — неправильное множественное" },
+      { type: 'quiz', question: "What does «nose» mean?", options: ["Глаз", "Ухо", "Нос", "Рот", "Шея"], correctAnswer: "Нос", hint: "Nose — нос" }
+    ],
+    reward: { stars: 3, message: "Great! Ты знаешь части тела! 🦶" }
+  },
+
+  {
+    title: "Одежда",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «футболка» in English?", options: ["Shirt", "T-shirt", "Dress", "Coat", "Sweater"], correctAnswer: "T-shirt", hint: "T-shirt — футболка" },
+      { type: 'quiz', question: "What does «jacket» mean?", options: ["Шляпа", "Куртка", "Рубашка", "Юбка", "Платье"], correctAnswer: "Куртка", hint: "Jacket — куртка" },
+      { type: 'quiz', question: "«Брюки» по-английски: (...)_", options: ["trousers", "нет", "не знаю", "английски", "брюки"], correctAnswer: "trousers", hint: "Trousers — брюки (всегда множественное)" },
+      { type: 'quiz', question: "What does «shoes» mean?", options: ["Шапка", "Шарф", "Обувь / ботинки", "Носки", "Перчатки"], correctAnswer: "Обувь / ботинки", hint: "Shoes — обувь" },
+      { type: 'quiz', question: "How do you say «Я ношу красную футболку»?", options: ["I have a red T-shirt", "I'm wearing a red T-shirt", "I like red T-shirt", "Red is my T-shirt", "My T-shirt is red"], correctAnswer: "I'm wearing a red T-shirt", hint: "I'm wearing — я ношу" }
+    ],
+    reward: { stars: 3, message: "Nice! Ты знаешь одежду! 👔" }
+  },
+
+  {
+    title: "Школьные принадлежности",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «ручка» in English?", options: ["Pencil", "Pen", "Paper", "Book", "Ruler"], correctAnswer: "Pen", hint: "Pen — ручка, pencil — карандаш" },
+      { type: 'quiz', question: "What does «eraser» mean?", options: ["Карандаш", "Линейка", "Ластик", "Точилка", "Пенал"], correctAnswer: "Ластик", hint: "Eraser (амер.) = rubber (брит.)" },
+      { type: 'quiz', question: "«Линейка» по-английски: (...)_", options: ["нет", "ruler", "не знаю", "линейка", "английски"], correctAnswer: "ruler", hint: "Ruler — линейка" },
+      { type: 'quiz', question: "What does «pencil case» mean?", options: ["Карандаш", "Ручка", "Ластик", "Пенал", "Сумка"], correctAnswer: "Пенал", hint: "Pencil case — чехол для карандашей = пенал" },
+      { type: 'quiz', question: "How do you ask «Можно одолжить ручку?»?", options: ["Give me a pen", "I need a pen", "Can I borrow your pen?", "Where is my pen?", "Your pen is nice"], correctAnswer: "Can I borrow your pen?", hint: "Borrow — одолжить" }
+    ],
+    reward: { stars: 3, message: "Perfect! Ты знаешь школьные принадлежности! 📚" }
+  },
+
+  {
+    title: "В классе",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «парта» in English?", options: ["Table", "Desk", "Chair", "Board", "Door"], correctAnswer: "Desk", hint: "Desk — школьная парта" },
+      { type: 'quiz', question: "What does «board» mean?", options: ["Парта", "Стул", "Доска", "Окно", "Дверь"], correctAnswer: "Доска", hint: "Board — классная доска" },
+      { type: 'quiz', question: "«Встаньте!» по-английски: Stand (...)_!", options: ["up", "stand", "английски", "нет", "встаньте"], correctAnswer: "up", hint: "Stand up! — встаньте!" },
+      { type: 'quiz', question: "What does «Sit down!» mean?", options: ["Встаньте!", "Сядьте!", "Пишите!", "Читайте!", "Слушайте!"], correctAnswer: "Сядьте!", hint: "Sit down — сядьте" },
+      { type: 'quiz', question: "What does «window» mean?", options: ["Дверь", "Стена", "Пол", "Окно", "Потолок"], correctAnswer: "Окно", hint: "Window — окно" }
+    ],
+    reward: { stars: 3, message: "Well done! Ты знаешь слова для класса! 🏫" }
+  },
+
+  {
+    title: "Школьные предметы",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «математика» in English?", options: ["Maths", "Music", "Art", "Science", "History"], correctAnswer: "Maths", hint: "Maths (брит.) / Math (амер.)" },
+      { type: 'quiz', question: "What does «PE» stand for?", options: ["Primary English", "Physical Education", "Practical Exercise", "Public Exam", "Personal Education"], correctAnswer: "Physical Education", hint: "PE — физкультура" },
+      { type: 'quiz', question: "«Музыка» по-английски: (...)_", options: ["нет", "не знаю", "английски", "музыка", "Music"], correctAnswer: "Music", hint: "Music — музыка" },
+      { type: 'quiz', question: "How do you say «Мой любимый предмет — ИЗО»?", options: ["I like Art", "My favourite subject is Art", "I have Art", "Art is good", "I do Art"], correctAnswer: "My favourite subject is Art", hint: "My favourite subject is..." },
+      { type: 'quiz', question: "What does «Science» mean?", options: ["История", "География", "Окружающий мир / Естествознание", "Музыка", "Чтение"], correctAnswer: "Окружающий мир / Естествознание", hint: "Science — наука, окружающий мир" }
+    ],
+    reward: { stars: 3, message: "Fantastic! Ты знаешь школьные предметы! 📖" }
+  },
+
+  {
+    title: "Расписание",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "What day comes after Monday?", options: ["Sunday", "Wednesday", "Tuesday", "Thursday", "Friday"], correctAnswer: "Tuesday", hint: "Monday → Tuesday" },
+      { type: 'quiz', question: "How do you say «среда» in English?", options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], correctAnswer: "Wednesday", hint: "Wednesday — среда (помни букву d!)" },
+      { type: 'quiz', question: "«Школа начинается в 8 часов»: School starts at (...) o'clock.", options: ["7", "8", "9", "10", "6"], correctAnswer: "8", hint: "At 8 o'clock — в 8 часов" },
+      { type: 'quiz', question: "What does «weekend» mean?", options: ["Будни", "Выходные", "Неделя", "Утро", "Каникулы"], correctAnswer: "Выходные", hint: "Weekend — суббота и воскресенье" },
+      { type: 'quiz', question: "How do you ask «Какой сегодня день?»?", options: ["What time is it?", "What day is it today?", "How are you?", "Where is school?", "What is this?"], correctAnswer: "What day is it today?", hint: "What day — какой день" }
+    ],
+    reward: { stars: 3, message: "Brilliant! Ты знаешь расписание! 📅" }
+  },
+
+  {
+    title: "Члены семьи",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «бабушка» in English?", options: ["Mother", "Sister", "Grandmother", "Aunt", "Daughter"], correctAnswer: "Grandmother", hint: "Grandmother / grandma — бабушка" },
+      { type: 'quiz', question: "What does «uncle» mean?", options: ["Дедушка", "Дядя", "Брат", "Папа", "Сын"], correctAnswer: "Дядя", hint: "Uncle — дядя" },
+      { type: 'quiz', question: "«Двоюродный брат/сестра» по-английски: (...)_", options: ["сестра", "английски", "cousin", "двоюродный", "брат"], correctAnswer: "cousin", hint: "Cousin — двоюродный брат или сестра" },
+      { type: 'quiz', question: "What does «parents» mean?", options: ["Дети", "Бабушка и дедушка", "Мама и папа (родители)", "Брат и сестра", "Дядя и тётя"], correctAnswer: "Мама и папа (родители)", hint: "Parents = mother + father" },
+      { type: 'quiz', question: "How do you say «У меня есть брат»?", options: ["I have a brother", "I am a brother", "My brother is", "I see a brother", "I like brother"], correctAnswer: "I have a brother", hint: "I have — у меня есть" }
+    ],
+    reward: { stars: 3, message: "Lovely! Ты знаешь членов семьи! 👨‍👩‍👧‍👦" }
+  },
+
+  {
+    title: "Мой дом",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «кухня» in English?", options: ["Bedroom", "Living room", "Kitchen", "Bathroom", "Hall"], correctAnswer: "Kitchen", hint: "Kitchen — кухня" },
+      { type: 'quiz', question: "What does «living room» mean?", options: ["Спальня", "Кухня", "Гостиная", "Ванная", "Прихожая"], correctAnswer: "Гостиная", hint: "Living room — гостиная" },
+      { type: 'quiz', question: "«Спальня» по-английски: (...)_", options: ["не знаю", "английски", "спальня", "нет", "bedroom"], correctAnswer: "bedroom", hint: "Bedroom — спальня" },
+      { type: 'quiz', question: "What does «garden» mean?", options: ["Гараж", "Сад", "Балкон", "Крыша", "Погреб"], correctAnswer: "Сад", hint: "Garden — сад" },
+      { type: 'quiz', question: "How do you say «Я живу в большом доме»?", options: ["I live in a big house", "My big house is", "I have big house", "Big house I live", "I am big house"], correctAnswer: "I live in a big house", hint: "I live in — я живу в" }
+    ],
+    reward: { stars: 3, message: "Great! Ты знаешь слова про дом! 🏠" }
+  },
+
+  {
+    title: "Моя комната",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «кровать» in English?", options: ["Desk", "Chair", "Bed", "Sofa", "Table"], correctAnswer: "Bed", hint: "Bed — кровать" },
+      { type: 'quiz', question: "What does «next to the window» mean?", options: ["Под окном", "За окном", "Рядом с окном", "На окне", "Над окном"], correctAnswer: "Рядом с окном", hint: "Next to — рядом с" },
+      { type: 'quiz', question: "«Ковёр» по-английски: (...)_", options: ["carpet", "нет", "английски", "не знаю", "ковёр"], correctAnswer: "carpet", hint: "Carpet — ковёр" },
+      { type: 'quiz', question: "What does «under the bed» mean?", options: ["На кровати", "Рядом с кроватью", "Под кроватью", "За кроватью", "Над кроватью"], correctAnswer: "Под кроватью", hint: "Under — под" },
+      { type: 'quiz', question: "How do you say «Книги на полке»?", options: ["Books in the shelf", "Books on the shelf", "Books under the shelf", "Books next to shelf", "The books shelf"], correctAnswer: "Books on the shelf", hint: "On the shelf — на полке" }
+    ],
+    reward: { stars: 3, message: "Wonderful! Ты описываешь комнату! 🛏️" }
+  },
+
+  {
+    title: "Будни и выходные",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «делать уроки» in English?", options: ["Do homework", "Make homework", "Have homework", "Go homework", "Work homework"], correctAnswer: "Do homework", hint: "Do homework — делать домашнее задание" },
+      { type: 'quiz', question: "What does «get up» mean?", options: ["Ложиться спать", "Вставать", "Завтракать", "Идти в школу", "Приходить домой"], correctAnswer: "Вставать", hint: "Get up — вставать (с кровати)" },
+      { type: 'quiz', question: "«Ложиться спать» по-английски: go to (...)_", options: ["go", "спать", "английски", "ложиться", "bed"], correctAnswer: "bed", hint: "Go to bed — ложиться спать" },
+      { type: 'quiz', question: "What does «have breakfast» mean?", options: ["Обедать", "Ужинать", "Завтракать", "Идти гулять", "Просыпаться"], correctAnswer: "Завтракать", hint: "Have breakfast — завтракать" },
+      { type: 'quiz', question: "How do you say «Я встаю в 7 часов»?", options: ["I go to school at 7", "I get up at 7 o", ",", "clock", "—"], correctAnswer: "I get up at 7 o'clock", hint: "Get up — вставать, at 7 o'clock — в 7 часов" }
+    ],
+    reward: { stars: 3, message: "Excellent! Ты знаешь распорядок дня! 📆" }
+  },
+
+  {
+    title: "Продукты",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «хлеб» in English?", options: ["Butter", "Bread", "Cheese", "Meat", "Milk"], correctAnswer: "Bread", hint: "Bread — хлеб" },
+      { type: 'quiz', question: "What does «cheese» mean?", options: ["Молоко", "Масло", "Сыр", "Мясо", "Рыба"], correctAnswer: "Сыр", hint: "Cheese — сыр" },
+      { type: 'quiz', question: "«Курица» по-английски: (...)_", options: ["chicken", "не знаю", "курица", "английски", "нет"], correctAnswer: "chicken", hint: "Chicken — курица" },
+      { type: 'quiz', question: "How do you say «Мне нравится пицца»?", options: ["I eat pizza", "I have pizza", "I like pizza", "I want pizza", "My pizza is good"], correctAnswer: "I like pizza", hint: "I like — мне нравится" },
+      { type: 'quiz', question: "What does «butter» mean?", options: ["Хлеб", "Сыр", "Молоко", "Масло", "Яйцо"], correctAnswer: "Масло", hint: "Butter — сливочное масло" }
+    ],
+    reward: { stars: 3, message: "Yummy! Ты знаешь продукты! 🍕" }
+  },
+
+  {
+    title: "Напитки",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «сок» in English?", options: ["Water", "Milk", "Juice", "Tea", "Coffee"], correctAnswer: "Juice", hint: "Juice — сок" },
+      { type: 'quiz', question: "What does «Would you like some tea?» mean?", options: ["Ты хочешь чаю?", "Где чай?", "Я люблю чай", "Чай вкусный", "Сколько стоит чай?"], correctAnswer: "Ты хочешь чаю?", hint: "Would you like — вежливое предложение" },
+      { type: 'quiz', question: "«Вода» по-английски: (...)_", options: ["вода", "water", "нет", "не знаю", "английски"], correctAnswer: "water", hint: "Water — вода" },
+      { type: 'quiz', question: "What does «a cup of tea» mean?", options: ["Стакан чая", "Чашка чая", "Бутылка чая", "Банка чая", "Чайник чая"], correctAnswer: "Чашка чая", hint: "A cup of — чашка" },
+      { type: 'quiz', question: "How do you refuse politely? «Нет, ___»", options: ["Go away", "No, thank you", "I hate it", "Stop", "Never"], correctAnswer: "No, thank you", hint: "No, thank you — вежливый отказ" }
+    ],
+    reward: { stars: 3, message: "Delicious! Ты знаешь напитки! 🥤" }
+  },
+
+  {
+    title: "Фрукты и овощи",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «яблоко» in English?", options: ["Banana", "Orange", "Apple", "Pear", "Grape"], correctAnswer: "Apple", hint: "Apple — яблоко (с an: an apple)" },
+      { type: 'quiz', question: "What does «carrot» mean?", options: ["Картофель", "Капуста", "Морковь", "Огурец", "Помидор"], correctAnswer: "Морковь", hint: "Carrot — морковь" },
+      { type: 'quiz', question: "«Банан» по-английски: (...)_", options: ["нет", "banana", "английски", "не знаю", "банан"], correctAnswer: "banana", hint: "Banana — банан" },
+      { type: 'quiz', question: "What does «tomato» mean?", options: ["Картофель", "Морковь", "Лук", "Помидор", "Огурец"], correctAnswer: "Помидор", hint: "Tomato — помидор" },
+      { type: 'quiz', question: "How do you say «Овощи полезные»?", options: ["Vegetables are healthy", "Vegetables are tasty", "Vegetables are bad", "I like vegetables", "Eat vegetables"], correctAnswer: "Vegetables are healthy", hint: "Healthy — полезный" }
+    ],
+    reward: { stars: 3, message: "Fresh! Ты знаешь фрукты и овощи! 🍎" }
+  },
+
+  {
+    title: "В кафе",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you order food politely? «___ I have a pizza?»", options: ["Do", "Can", "Am", "Is", "Are"], correctAnswer: "Can", hint: "Can I have...? — Можно мне...?" },
+      { type: 'quiz', question: "What does «I'd like...» mean?", options: ["Я люблю", "Я хочу", "Я ем", "Я знаю", "Я вижу"], correctAnswer: "Я хочу", hint: "I'd like = I would like — я бы хотел" },
+      { type: 'quiz', question: "«Сколько это стоит?» по-английски: How (...)_ is it?", options: ["английски", "стоит", "how", "much", "is"], correctAnswer: "much", hint: "How much is it? — сколько стоит?" },
+      { type: 'quiz', question: "What does «menu» mean?", options: ["Еда", "Официант", "Меню", "Счёт", "Стол"], correctAnswer: "Меню", hint: "Menu — меню (перечень блюд)" },
+      { type: 'quiz', question: "What does «Enjoy your meal!» mean?", options: ["До свидания", "Приятного аппетита!", "Спасибо", "Пожалуйста", "Как вкусно!"], correctAnswer: "Приятного аппетита!", hint: "Enjoy your meal — приятного аппетита" }
+    ],
+    reward: { stars: 3, message: "Bon appétit! Ты знаешь фразы для кафе! ☕" }
+  },
+
+  {
+    title: "Транспорт",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «автобус» in English?", options: ["Car", "Bus", "Train", "Bike", "Taxi"], correctAnswer: "Bus", hint: "Bus — автобус" },
+      { type: 'quiz', question: "What does «underground» mean?", options: ["Поезд", "Самолёт", "Метро", "Трамвай", "Велосипед"], correctAnswer: "Метро", hint: "Underground (брит.) = Subway (амер.)" },
+      { type: 'quiz', question: "«Самолёт» по-английски: (...)_", options: ["plane", "не знаю", "нет", "самолёт", "английски"], correctAnswer: "plane", hint: "Plane — самолёт" },
+      { type: 'quiz', question: "How do you say «Я еду в школу на автобусе»?", options: ["I go to school by car", "I go to school by bus", "I go to school by train", "I go to school by plane", "I go to school by bike"], correctAnswer: "I go to school by bus", hint: "By bus — на автобусе" },
+      { type: 'quiz', question: "What does «ship» mean?", options: ["Машина", "Поезд", "Корабль", "Велосипед", "Трамвай"], correctAnswer: "Корабль", hint: "Ship — корабль" }
+    ],
+    reward: { stars: 3, message: "Excellent! Ты знаешь транспорт! 🚌" }
+  },
+
+  {
+    title: "В городе",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "How do you say «библиотека» in English?", options: ["Shop", "Hospital", "Library", "Museum", "School"], correctAnswer: "Library", hint: "Library — библиотека" },
+      { type: 'quiz', question: "What does «museum» mean?", options: ["Школа", "Больница", "Парк", "Музей", "Магазин"], correctAnswer: "Музей", hint: "Museum — музей" },
+      { type: 'quiz', question: "«Больница» по-английски: (...)_", options: ["больница", "не знаю", "нет", "английски", "hospital"], correctAnswer: "hospital", hint: "Hospital — больница" },
+      { type: 'quiz', question: "How do you ask «Где банк?»?", options: ["What is the bank?", "Where is the bank?", "Who is the bank?", "How is the bank?", "Why is the bank?"], correctAnswer: "Where is the bank?", hint: "Where is...? — Где...?" },
+      { type: 'quiz', question: "What does «park» mean?", options: ["Магазин", "Ресторан", "Парк", "Кинотеатр", "Банк"], correctAnswer: "Парк", hint: "Park — парк" }
+    ],
+    reward: { stars: 3, message: "Great! Ты знаешь слова про город! 🏙️" }
+  },
+
+  {
+    title: "Достопримечательности",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Where is Big Ben?", options: ["Paris", "Moscow", "London", "New York", "Rome"], correctAnswer: "London", hint: "Big Ben — знаменитая башня в Лондоне" },
+      { type: 'quiz', question: "What does «castle» mean?", options: ["Церковь", "Мост", "Замок", "Башня", "Площадь"], correctAnswer: "Замок", hint: "Castle — замок" },
+      { type: 'quiz', question: "«Мост» по-английски: (...)_", options: ["нет", "мост", "bridge", "английски", "не знаю"], correctAnswer: "bridge", hint: "Bridge — мост" },
+      { type: 'quiz', question: "Where is the Eiffel Tower?", options: ["London", "Moscow", "Berlin", "Paris", "Rome"], correctAnswer: "Paris", hint: "Eiffel Tower — Эйфелева башня в Париже" },
+      { type: 'quiz', question: "What does «square» mean?", options: ["Улица", "Мост", "Фонтан", "Площадь", "Памятник"], correctAnswer: "Площадь", hint: "Square — площадь" }
+    ],
+    reward: { stars: 3, message: "Fantastic! Ты знаешь достопримечательности! 🗼" }
+  },
+
+  {
+    title: "Страны",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "What is the capital of France?", options: ["London", "Berlin", "Paris", "Madrid", "Rome"], correctAnswer: "Paris", hint: "Столица Франции — Париж" },
+      { type: 'quiz', question: "What nationality is someone from Germany?", options: ["French", "English", "Spanish", "German", "Italian"], correctAnswer: "German", hint: "Germany — German" },
+      { type: 'quiz', question: "«Япония» по-английски: (...)_", options: ["япония", "нет", "Japan", "английски", "не знаю"], correctAnswer: "Japan", hint: "Japan — Япония" },
+      { type: 'quiz', question: "How do you say «Россия — большая страна»?", options: ["Russia is small", "Russia is big", "Russia is old", "Russia is new", "Russia is beautiful"], correctAnswer: "Russia is big", hint: "Big — большой, страна — country" },
+      { type: 'quiz', question: "What does «The USA» mean?", options: ["Англия", "Франция", "Германия", "США", "Испания"], correctAnswer: "США", hint: "The USA = The United States of America" }
+    ],
+    reward: { stars: 3, message: "Amazing! Ты знаешь страны! 🌍" }
   }
 ]

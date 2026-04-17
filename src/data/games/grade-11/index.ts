@@ -10,10 +10,10 @@ export const eleventhGradeGames: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       { type: 'quiz', question: "Интеграл - это:", options: ["Производная", "Первообразная", "Скорость", "Лимит", "Матрица"], correctAnswer: "Первообразная", hint: "Интегрирование - операция, обратная дифференцированию" },
-      { type: 'fill', question: "∫x²dx = x³/__ + C", correctAnswer: "3", hint: "∫xⁿdx = xⁿ⁺¹/(n+1)" },
+      { type: 'quiz', question: "∫x²dx = x³/(...) + C", options: ["2", "9", "3", "103", "1"], correctAnswer: "3", hint: "∫xⁿdx = xⁿ⁺¹/(n+1)" },
       { type: 'quiz', question: "∫cos(x)dx = ?", options: ["sin(x) + C", "-sin(x) + C", "cos(x) + C", "tg(x) + C", "-cos(x) + C"], correctAnswer: "sin(x) + C", hint: "Производная синуса - косинус" },
       { type: 'quiz', question: "Формула Ньютона-Лейбница:", options: ["∫ᵃᵇf(x)dx = F(b) - F(a)", "∫ᵃᵇf(x)dx = F(a) - F(b)", "∫ᵃᵇf(x)dx = F(a) + F(b)", "∫ᵃᵇf(x)dx = F(b) + F(a)", "∫ᵃᵇf(x)dx = F(a) × F(b)"], correctAnswer: "∫ᵃᵇf(x)dx = F(b) - F(a)", hint: "Определённый интеграл через первообразную" },
-      { type: 'fill', question: "∫sin(x)dx = -__ + C", correctAnswer: "cos(x)", hint: "Производная косинуса = -sin(x)" }
+      { type: 'quiz', question: "∫sin(x)dx = -(...) + C", options: ["не знаю", "нет", "cos(x)", "dx", "sin"], correctAnswer: "cos(x)", hint: "Производная косинуса = -sin(x)" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь интегралы! 📐" }
   },
@@ -23,7 +23,7 @@ export const eleventhGradeGames: GameLesson[] = [
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'fill', question: "log₂8 = __ (2 в какой степени = 8?)", correctAnswer: "3", hint: "2³ = 8" },
+      { type: 'quiz', question: "log₂8 = (...) (2 в какой степени = 8?)", options: ["3", "9", "1", "103", "2"], correctAnswer: "3", hint: "2³ = 8" },
       { type: 'quiz', question: "logₐa = ?", options: ["0", "1", "a", "1/a", "a²"], correctAnswer: "1", hint: "a¹ = a" },
       { type: 'quiz', question: "logₐ1 = ?", options: ["0", "1", "a", "-1", "∞"], correctAnswer: "0", hint: "a⁰ = 1" },
       { type: 'quiz', question: "logₐ(xy) = ?", options: ["logₐx + logₐy", "logₐx · logₐy", "logₐx - logₐy", "logₐx / logₐy", "(logₐx)ᵧ"], correctAnswer: "logₐx + logₐy", hint: "Логарифм произведения = сумма логарифмов" },
@@ -38,10 +38,10 @@ export const eleventhGradeGames: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       { type: 'quiz', question: "i² = ?", options: ["-1", "1", "0", "i", "-i"], correctAnswer: "-1", hint: "i = √(-1), i² = -1" },
-      { type: 'fill', question: "(3 + 2i) + (1 + 4i) = __ + 6i", correctAnswer: "4", hint: "Складываем действительные части: 3 + 1" },
+      { type: 'quiz', question: "(3 + 2i) + (1 + 4i) = (...) + 6i", options: ["104", "1004", "2", "4", "9"], correctAnswer: "4", hint: "Складываем действительные части: 3 + 1" },
       { type: 'quiz', question: "Мнимая единица i = ?", options: ["√1", "√(-1)", "√0", "√2", "-√1"], correctAnswer: "√(-1)", hint: "i = √(-1)" },
       { type: 'quiz', question: "Комплексное число a + bi содержит:", options: ["Только действительную часть", "Только мнимую часть", "Обе части", "Ни одной", "Только ноль"], correctAnswer: "Обе части", hint: "a - действительная, bi - мнимая часть" },
-      { type: 'fill', question: "Модуль комплексного числа |3 + 4i| = __", correctAnswer: "5", hint: "|a + bi| = √(a² + b²) = √(9 + 16) = 5" }
+      { type: 'quiz', question: "Модуль комплексного числа |3 + 4i| = (...)", options: ["0", "1005", "5", "2", "105"], correctAnswer: "5", hint: "|a + bi| = √(a² + b²) = √(9 + 16) = 5" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь комплексные числа! 📊" }
   },
@@ -54,10 +54,10 @@ export const eleventhGradeGames: GameLesson[] = [
     color: "text-cyan-400",
     tasks: [
       { type: 'quiz', question: "Цилиндр получается вращением:", options: ["Треугольника", "Прямоугольника", "Круга", "Квадрата", "Ромба"], correctAnswer: "Прямоугольника", hint: "Вращение прямоугольника вокруг стороны" },
-      { type: 'fill', question: "Объём цилиндра V = πr²h. Если r=2, h=5, то V = __π", correctAnswer: "20", hint: "V = π · 4 · 5 = 20π" },
+      { type: 'quiz', question: "Объём цилиндра V = πr²h. Если r=2, h=5, то V = (...)π", options: ["20", "22", "18", "200", "2"], correctAnswer: "20", hint: "V = π · 4 · 5 = 20π" },
       { type: 'quiz', question: "Конус получается вращением:", options: ["Прямоугольника", "Треугольника", "Круга", "Квадрата", "Трапеции"], correctAnswer: "Треугольника", hint: "Вращение прямоугольного треугольника" },
       { type: 'quiz', question: "Объём конуса:", options: ["πr²h", "(1/3)πr²h", "(4/3)πr³", "2πr²h", "(1/2)πr²h"], correctAnswer: "(1/3)πr²h", hint: "V = 1/3 · πr² · h" },
-      { type: 'fill', question: "Площадь поверхности шара S = 4πr². Если r=3, то S = __π", correctAnswer: "36", hint: "S = 4π · 9 = 36π" }
+      { type: 'quiz', question: "Площадь поверхности шара S = 4πr². Если r=3, то S = (...)π", options: ["18", "31", "37", "41", "36"], correctAnswer: "36", hint: "S = 4π · 9 = 36π" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь тела вращения! ⭕" }
   },
@@ -67,11 +67,11 @@ export const eleventhGradeGames: GameLesson[] = [
     icon: "Shapes",
     color: "text-cyan-400",
     tasks: [
-      { type: 'fill', question: "Расстояние между точками A(0,0,0) и B(3,4,0) = __", correctAnswer: "5", hint: "√(3² + 4² + 0²) = 5" },
+      { type: 'quiz', question: "Расстояние между точками A(0,0,0) и B(3,4,0) = (...)", options: ["105", "1005", "5", "2", "0"], correctAnswer: "5", hint: "√(3² + 4² + 0²) = 5" },
       { type: 'quiz', question: "Скалярное произведение векторов a·b = ?", options: ["|a| × |b|", "|a| × |b| × cos α", "|a| + |b|", "|a| - |b|", "|a| / |b|"], correctAnswer: "|a| × |b| × cos α", hint: "Через модули и косинус угла" },
-      { type: 'fill', question: "Вектор a(1,2,3), вектор b(2,1,1). a·b = __", correctAnswer: "7", hint: "1·2 + 2·1 + 3·1 = 7" },
+      { type: 'quiz', question: "Вектор a(1,2,3), вектор b(2,1,1). a·b = (...)", options: ["7", "107", "2", "17", "9"], correctAnswer: "7", hint: "1·2 + 2·1 + 3·1 = 7" },
       { type: 'quiz', question: "Если скалярное произведение = 0, то векторы:", options: ["Коллинеарны", "Перпендикулярны", "Равны", "Противоположны", "Совпадают"], correctAnswer: "Перпендикулярны", hint: "a·b = 0 → cos 90° = 0" },
-      { type: 'fill', question: "Вектор a(1,0,0), модуль |a| = __", correctAnswer: "1", hint: "|a| = √(1² + 0² + 0²) = 1" }
+      { type: 'quiz', question: "Вектор a(1,0,0), модуль |a| = (...)", options: ["2", "0", "1001", "1", "11"], correctAnswer: "1", hint: "|a| = √(1² + 0² + 0²) = 1" }
     ],
     reward: { stars: 3, message: "Супер! Ты работаешь в пространстве! 📏" }
   },
@@ -147,7 +147,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Первый президент России:", options: ["Горбачёв", "Ельцин", "Путин", "Кравчук", "Назарбаев"], correctAnswer: "Ельцин", hint: "Б.Н. Ельцин - первый президент РФ" },
       { type: 'find', question: "Выбери события перестройки:", options: ["Гласность", "Ускорение", "Коллективизация", "Демократизация", "Индустриализация"], correctAnswer: ["Гласность", "Ускорение", "Демократизация"], hint: "Политика Горбачёва" },
       { type: 'quiz', question: "Последний лидер СССР:", options: ["Ельцин", "Горбачёв", "Андропов", "Брежнев", "Хрущёв"], correctAnswer: "Горбачёв", hint: "М.С. Горбачёв - последний генсек" },
-      { type: 'fill', question: "Беловежское соглашение о распаде СССР подписано в __ году", correctAnswer: "1991", hint: "8 декабря 1991 года" }
+      { type: 'quiz', question: "Беловежское соглашение о распаде СССР подписано в (...) году", options: ["2091", "1990", "1981", "1991", "9191"], correctAnswer: "1991", hint: "8 декабря 1991 года" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь новейшую историю! 🏛️" }
   },
@@ -175,7 +175,7 @@ export const eleventhGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Квант - это:", options: ["Волна", "Порция энергии", "Частица", "Поле", "Сила"], correctAnswer: "Порция энергии", hint: "E = hν - энергия кванта" },
       { type: 'quiz', question: "Постоянная Планка обозначается:", options: ["c", "h", "ν", "λ", "f"], correctAnswer: "h", hint: "h ≈ 6.63 × 10⁻³⁴ Дж·с" },
-      { type: 'fill', question: "E = hν, где ν - это __ (частота)", correctAnswer: "частота", hint: "Греческая буква ню" },
+      { type: 'quiz', question: "E = hν, где ν - это (...) (частота)", options: ["где", "частота", "не знаю", "нет", "всё"], correctAnswer: "частота", hint: "Греческая буква ню" },
       { type: 'quiz', question: "Фотоэффект открыл:", options: ["Эйнштейн", "Столетов", "Планк", "Бор", "Резерфорд"], correctAnswer: "Столетов", hint: "А.Г. Столетов изучал фотоэффект" },
       { type: 'quiz', question: "Корпускулярно-волновой дуализм означает:", options: ["Частица = волна", "Свет - и частица, и волна", "Только волна", "Только частица", "Ничего из этого"], correctAnswer: "Свет - и частица, и волна", hint: "Свет проявляет обе природы" }
     ],
@@ -193,7 +193,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "При повышении температуры скорость реакции:", options: ["Уменьшается", "Увеличивается", "Не меняется", "Обнуляется", "Инвертируется"], correctAnswer: "Увеличивается", hint: "Правило Вант-Гоффа" },
       { type: 'find', question: "Выбери факторы, влияющие на скорость:", options: ["Температура", "Концентрация", "Катализатор", "Давление", "Объём"], correctAnswer: ["Температура", "Концентрация", "Катализатор", "Давление"], hint: "Факторы скорости реакции" },
       { type: 'quiz', question: "Катализатор:", options: ["Расходуется в реакции", "Не расходуется", "Замедляет реакцию", "Изменяет продукты", "Является продуктом"], correctAnswer: "Не расходуется", hint: "Катализатор ускоряет, но не расходуется" },
-      { type: 'fill', question: "Закон действующих масс: скорость пропорциональна __ реагентов", correctAnswer: "концентрации", hint: "v = k · [A] · [B]" }
+      { type: 'quiz', question: "Закон действующих масс: скорость пропорциональна (...) реагентов", options: ["концентрации", "закон", "скорость", "пропорциональна", "масс"], correctAnswer: "концентрации", hint: "v = k · [A] · [B]" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь кинетику! 🧪" }
   },
@@ -209,7 +209,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'find', question: "Выбери уровни организации жизни:", options: ["Клеточный", "Организменный", "Популяционный", "Молекулярный", "Биосферный"], correctAnswer: ["Клеточный", "Организменный", "Популяционный", "Биосферный"], hint: "Уровни организации живого" },
       { type: 'quiz', question: "Пищевая цепь начинается с:", options: ["Хищников", "Производителей", "Разлагателей", "Паразитов", "Симбионтов"], correctAnswer: "Производителей", hint: "Растения - производители" },
       { type: 'quiz', question: "Биосфера - это:", options: ["Часть Земли с жизнью", "Атмосфера", "Гидросфера", "Литосфера", "Тропосфера"], correctAnswer: "Часть Земли с жизнью", hint: "По Вернадскому - оболочка Земли с жизнью" },
-      { type: 'fill', question: "Правило экологической пирамиды: на каждом уровне __ в 10 раз", correctAnswer: "энергии", hint: "Переход энергии между уровнями" }
+      { type: 'quiz', question: "Правило экологической пирамиды: на каждом уровне (...) в 10 раз", options: ["правило", "энергии", "каждом", "пирамиды", "экологической"], correctAnswer: "энергии", hint: "Переход энергии между уровнями" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь экологию! 🌿" }
   },
@@ -224,7 +224,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Essay structure includes:", options: ["Introduction, Body, Conclusion", "Only Body", "Introduction only", "Only Conclusion", "Title and Author"], correctAnswer: "Introduction, Body, Conclusion", hint: "Три части эссе" },
       { type: 'find', question: "Выбери linking words:", options: ["However", "Therefore", "Moreover", "Beautiful", "Quickly"], correctAnswer: ["However", "Therefore", "Moreover"], hint: "Слова-связки для эссе" },
       { type: 'quiz', question: "«In conclusion» используется:", options: ["В начале", "В конце", "В середине", "В заголовке", "В примечании"], correctAnswer: "В конце", hint: "In conclusion = в заключение" },
-      { type: 'fill', question: "On the one hand... on the __ hand...", correctAnswer: "other", hint: "С одной стороны... с другой стороны" },
+      { type: 'quiz', question: "On the one hand... on the (...) hand...", options: ["the", "hand", "other", "one", "on"], correctAnswer: "other", hint: "С одной стороны... с другой стороны" },
       { type: 'quiz', question: "«Furthermore» means:", options: ["Однако", "Кроме того", "Поэтому", "Наконец", "В результате"], correctAnswer: "Кроме того", hint: "Furthermore = additionally" }
     ],
     reward: { stars: 3, message: "Excellent! Ты готов к академическому английскому! 🇬🇧" }
@@ -238,7 +238,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "«Give up» means:", options: ["Start", "Stop trying", "Continue", "Begin", "Finish"], correctAnswer: "Stop trying", hint: "Give up = бросить, отказаться" },
       { type: 'quiz', question: "«Look after» means:", options: ["Search", "Take care of", "Watch", "Find", "Ignore"], correctAnswer: "Take care of", hint: "Look after = присматривать" },
       { type: 'find', question: "Выбери фразовые глаголы:", options: ["Look up", "Go on", "Turn off", "Beautiful house", "Very quickly"], correctAnswer: ["Look up", "Go on", "Turn off"], hint: "Фразовые глаголы = глагол + предлог" },
-      { type: 'fill', question: "Turn __ the light, please. (off/on)", correctAnswer: "off", hint: "Turn off = выключить" },
+      { type: 'quiz', question: "Turn (...) the light, please. (off/on)", options: ["light", "the", "off", "on", "turn"], correctAnswer: "off", hint: "Turn off = выключить" },
       { type: 'quiz', question: "«Take off» means:", options: ["Надеть", "Снять", "Положить", "Взять", "Убрать"], correctAnswer: "Снять", hint: "Take off = снять (одежду)" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь фразовые глаголы! 🔄" }
@@ -251,11 +251,11 @@ export const eleventhGradeGames: GameLesson[] = [
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'fill', question: "∫₀² x dx = __ (по формуле Ньютона-Лейбница)", correctAnswer: "2", hint: "x²/2 от 0 до 2 = 4/2 - 0 = 2" },
+      { type: 'quiz', question: "∫₀² x dx = (...) (по формуле Ньютона-Лейбница)", options: ["2", "6", "1", "0", "102"], correctAnswer: "2", hint: "x²/2 от 0 до 2 = 4/2 - 0 = 2" },
       { type: 'quiz', question: "Площадь под графиком f(x) от a до b:", options: ["f(b) - f(a)", "∫ₐᵇ f(x)dx", "f'(x)", "f(a) + f(b)", "f(b) / f(a)"], correctAnswer: "∫ₐᵇ f(x)dx", hint: "Определённый интеграл = площадь" },
-      { type: 'fill', question: "∫₀¹ 2x dx = __", correctAnswer: "1", hint: "x² от 0 до 1 = 1 - 0 = 1" },
+      { type: 'quiz', question: "∫₀¹ 2x dx = (...)", options: ["2", "0", "11", "1001", "1"], correctAnswer: "1", hint: "x² от 0 до 1 = 1 - 0 = 1" },
       { type: 'quiz', question: "Интеграл от константы C:", options: ["Cx + C", "C", "Cx", "Cx² + C", "C/x + C"], correctAnswer: "Cx + C", hint: "∫C dx = Cx + C₁" },
-      { type: 'fill', question: "∫₀³ x² dx = __ (x³/3 от 0 до 3)", correctAnswer: "9", hint: "27/3 - 0 = 9" }
+      { type: 'quiz', question: "∫₀³ x² dx = (...) (x³/3 от 0 до 3)", options: ["11", "109", "0", "9", "18"], correctAnswer: "9", hint: "27/3 - 0 = 9" }
     ],
     reward: { stars: 3, message: "Отлично! Ты работаешь с интегралами! 📐" }
   },
@@ -269,7 +269,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Решение y' = kx:", options: ["y = kx", "y = kx²/2 + C", "y = k", "y = kx + C", "y = k/x"], correctAnswer: "y = kx²/2 + C", hint: "Интегрируем обе части" },
       { type: 'fill', question: "y' = 5, тогда y = 5x + __", correctAnswer: "C", hint: "Произвольная постоянная" },
       { type: 'quiz', question: "Порядок дифференциального уравнения определяется:", options: ["Старшей степенью", "Старшей производной", "Количеством переменных", "Количеством констант", "Количеством корней"], correctAnswer: "Старшей производной", hint: "Порядок = наивысший порядок производной" },
-      { type: 'quiz', question: "Дифференциальное уравнение первого порядка содержит:", options: ["Только y''", "y' (первую производную)", "y'''", "Интегралы", "Логарифмы"], correctAnswer: "y' (первую производную)", hint: "Наивысшая производная - первого порядка" }
+      { type: 'quiz', question: "Дифференциальное уравнение первого порядка содержит:", options: ["Логарифмы", ",", "Интегралы", "y", ""], correctAnswer: "y' (первую производную)", hint: "Наивысшая производная - первого порядка" }
     ],
     reward: { stars: 3, message: "Супер! Ты понимаешь дифференциальные уравнения! 🔢" }
   },
@@ -280,10 +280,10 @@ export const eleventhGradeGames: GameLesson[] = [
     color: "text-violet-400",
     tasks: [
       { type: 'quiz', question: "Закон преломления света:", options: ["sin α = sin β", "sin α / sin β = n", "α = β", "cos α = cos β", "tg α = tg β"], correctAnswer: "sin α / sin β = n", hint: "Закон Снеллиуса" },
-      { type: 'fill', question: "Угол падения __ углу отражения", correctAnswer: "равен", hint: "Закон отражения" },
+      { type: 'quiz', question: "Угол падения (...) углу отражения", options: ["падения", "равен", "углу", "угол", "отражения"], correctAnswer: "равен", hint: "Закон отражения" },
       { type: 'quiz', question: "Показатель преломления стекла:", options: ["≈ 1", "≈ 1.5", "≈ 2", "≈ 0.5", "≈ 3"], correctAnswer: "≈ 1.5", hint: "Стекло преломляет свет" },
       { type: 'find', question: "Выбери оптические явления:", options: ["Преломление", "Отражение", "Дифракция", "Испарение", "Интерференция"], correctAnswer: ["Преломление", "Отражение", "Дифракция", "Интерференция"], hint: "Явления, связанные со светом" },
-      { type: 'fill', question: "Полное внутреннее отражение происходит при переходе из оптически более __ среды", correctAnswer: "плотной", hint: "Из среды с большим n в среду с меньшим n" }
+      { type: 'quiz', question: "Полное внутреннее отражение происходит при переходе из оптически более (...) среды", options: ["полное", "происходит", "более", "внутреннее", "плотной"], correctAnswer: "плотной", hint: "Из среды с большим n в среду с меньшим n" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь оптику! 💡" }
   },
@@ -294,10 +294,10 @@ export const eleventhGradeGames: GameLesson[] = [
     color: "text-violet-400",
     tasks: [
       { type: 'quiz', question: "Ядро состоит из:", options: ["Протонов и электронов", "Протонов и нейтронов", "Только протонов", "Только нейтронов", "Протонов, нейтронов и электронов"], correctAnswer: "Протонов и нейтронов", hint: "Нуклоны = протоны + нейтроны" },
-      { type: 'fill', question: "Массовое число A = Z + N, где Z - протоны, N - __", correctAnswer: "нейтроны", hint: "N = количество нейтронов" },
+      { type: 'quiz', question: "Массовое число A = Z + N, где Z - протоны, N - (...)", options: ["протоны", "где", "массовое", "нейтроны", "число"], correctAnswer: "нейтроны", hint: "N = количество нейтронов" },
       { type: 'quiz', question: "Альфа-распад:", options: ["Вылет электрона", "Вылет ядра гелия", "Вылет нейтрона", "Вылет протона", "Вылет позитрона"], correctAnswer: "Вылет ядра гелия", hint: "₂⁴He" },
       { type: 'quiz', question: "Бета-распад:", options: ["Вылет электрона", "Вылет ядра гелия", "Вылет протона", "Вылет нейтрона", "Вылет альфа-частицы"], correctAnswer: "Вылет электрона", hint: "Превращение нейтрона в протон" },
-      { type: 'fill', question: "При альфа-распаде массовое число уменьшается на __", correctAnswer: "4", hint: "Альфа-частица ₂⁴He имеет массу 4" }
+      { type: 'quiz', question: "При альфа-распаде массовое число уменьшается на (...)", options: ["4", "9", "2", "104", "1004"], correctAnswer: "4", hint: "Альфа-частица ₂⁴He имеет массу 4" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь ядерную физику! ⚛️" }
   },
@@ -309,7 +309,7 @@ export const eleventhGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Окислительно-восстановительные реакции:", options: ["Без изменения степеней", "С изменением степеней окисления", "Только с кислородом", "Только с водородом", "Только при нагревании"], correctAnswer: "С изменением степеней окисления", hint: "ОВР = передача электронов" },
       { type: 'find', question: "Выбери окислители:", options: ["O₂", "H₂", "KMnO₄", "Na", "Cl₂"], correctAnswer: ["O₂", "KMnO₄", "Cl₂"], hint: "Окислители принимают электроны" },
-      { type: 'fill', question: "В реакции Zn + 2HCl → ZnCl₂ + H₂ окислитель - __", correctAnswer: "HCl", hint: "Водород принимает электроны" },
+      { type: 'quiz', question: "В реакции Zn + 2HCl → ZnCl₂ + H₂ окислитель - (...)", options: ["zn", "окислитель", "реакции", "HCl", "zncl"], correctAnswer: "HCl", hint: "Водород принимает электроны" },
       { type: 'quiz', question: "Электролиз - это:", options: ["Разложение током", "Нагревание", "Окисление", "Восстановление", "Фильтрование"], correctAnswer: "Разложение током", hint: "Незапланированное разложение вещества током" },
       { type: 'quiz', question: "Восстановитель - это вещество, которое:", options: ["Принимает электроны", "Отдаёт электроны", "Не участвует в реакции", "Является катализатором", "Растворяется"], correctAnswer: "Отдаёт электроны", hint: "Восстановитель окисляется" }
     ],
@@ -324,7 +324,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Автор учения о биосфере:", options: ["Дарвин", "Вернадский", "Менделеев", "Линней", "Ламарк"], correctAnswer: "Вернадский", hint: "В.И. Вернадский" },
       { type: 'find', question: "Выбери функции биосферы:", options: ["Газовая", "Концентрационная", "Окислительная", "Механическая", "Биохимическая"], correctAnswer: ["Газовая", "Концентрационная", "Окислительная", "Биохимическая"], hint: "Функции живого вещества" },
       { type: 'quiz', question: "Красная книга содержит:", options: ["Все виды", "Редкие и исчезающие виды", "Опасные виды", "Исследованные виды", "Вымершие виды"], correctAnswer: "Редкие и исчезающие виды", hint: "Охрана природы" },
-      { type: 'fill', question: "Биосфера - оболочка Земли, заселённая __ организмами", correctAnswer: "живыми", hint: "Сфера жизни" },
+      { type: 'quiz', question: "Биосфера - оболочка Земли, заселённая (...) организмами", options: ["заселённая", "живыми", "земли", "организмами", "оболочка"], correctAnswer: "живыми", hint: "Сфера жизни" },
       { type: 'quiz', question: "Ноосфера - это:", options: ["Сфера разума", "Сфера воды", "Сфера воздуха", "Сфера камня", "Сфера огня"], correctAnswer: "Сфера разума", hint: "Понятие Вернадского - сфера, преобразованная разумом" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь экологию! 🌍" }
@@ -339,7 +339,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'find', question: "Выбери события 90-х:", options: ["Приватизация", "Дефолт 1998", "Крым 2014", "Чеченские войны", "Олимпиада 2014"], correctAnswer: ["Приватизация", "Дефолт 1998", "Чеченские войны"], hint: "Россия в переходный период" },
       { type: 'quiz', question: "Приватизация в России началась в:", options: ["1990", "1992", "1995", "1993", "1991"], correctAnswer: "1992", hint: "Ваучерная приватизация" },
       { type: 'quiz', question: "Дефолт в России произошёл в:", options: ["1995", "1998", "2000", "1996", "1997"], correctAnswer: "1998", hint: "17 августа 1998" },
-      { type: 'fill', question: "Ваучер - это приватизационный __", correctAnswer: "чек", hint: "Ваучерная приватизация - каждый гражданин получил чек" }
+      { type: 'quiz', question: "Ваучер - это приватизационный (...)", options: ["век", "чет", "чек", "чец", "чед"], correctAnswer: "чек", hint: "Ваучерная приватизация - каждый гражданин получил чек" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь новейшую историю! 🏛️" }
   },
@@ -350,10 +350,10 @@ export const eleventhGradeGames: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "«I am happy» → He said he __ happy.", options: ["is", "was", "will be", "has been", "had been"], correctAnswer: "was", hint: "Смещение времён: Present → Past" },
-      { type: 'fill', question: "«I will come» → She said she __ come.", correctAnswer: "would", hint: "Will → would" },
+      { type: 'quiz', question: "«I will come» → She said she (...) come.", options: ["would", "come", "she", "said", "will"], correctAnswer: "would", hint: "Will → would" },
       { type: 'quiz', question: "«I can swim» → He said he __ swim.", options: ["can", "could", "will", "would", "may"], correctAnswer: "could", hint: "Can → could" },
       { type: 'find', question: "Выбери изменения в косвенной речи:", options: ["Here → There", "Now → Then", "Today → That day", "Tomorrow → Yesterday", "Yesterday → The day before"], correctAnswer: ["Here → There", "Now → Then", "Today → That day", "Yesterday → The day before"], hint: "Смещение местоимений и наречий" },
-      { type: 'fill', question: "«I went there» → He said he __ gone there.", correctAnswer: "had", hint: "Past Simple → Past Perfect" }
+      { type: 'quiz', question: "«I went there» → He said he (...) gone there.", options: ["had", "he", "there", "said", "gone"], correctAnswer: "had", hint: "Past Simple → Past Perfect" }
     ],
     reward: { stars: 3, message: "Excellent! Ты знаешь косвенную речь! 🇬🇧" }
   },
@@ -366,10 +366,10 @@ export const eleventhGradeGames: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       { type: 'quiz', question: "sin x = 0, x = ?", options: ["πn", "π/2 + πn", "2πn", "π/4 + πn", "π/3 + πn"], correctAnswer: "πn", hint: "sin x = 0 при x = πn" },
-      { type: 'fill', question: "cos x = 1, x = __n", correctAnswer: "2π", hint: "cos x = 1 при x = 2πn" },
+      { type: 'quiz', question: "cos x = 1, x = (...)n", options: ["не знаю", "всё", "2π", "cos", "нет"], correctAnswer: "2π", hint: "cos x = 1 при x = 2πn" },
       { type: 'quiz', question: "tg x = 0, x = ?", options: ["πn", "π/2 + πn", "2πn", "π/4 + πn", "π/6 + πn"], correctAnswer: "πn", hint: "tg x = 0 при x = πn" },
       { type: 'quiz', question: "sin x = 1/2, x = ?", options: ["π/6 + 2πn", "π/3 + 2πn", "π/4 + 2πn", "π/2 + 2πn", "0 + 2πn"], correctAnswer: "π/6 + 2πn", hint: "sin 30° = 1/2" },
-      { type: 'fill', question: "cos x = 0, x = π/2 + __n", correctAnswer: "π", hint: "cos x = 0 при x = π/2 + πn" }
+      { type: 'quiz', question: "cos x = 0, x = π/2 + (...)n", options: ["всё", "нет", "не знаю", "cos", "π"], correctAnswer: "π", hint: "cos x = 0 при x = π/2 + πn" }
     ],
     reward: { stars: 3, message: "Отлично! Ты решаешь тригонометрические уравнения! 📐" }
   },
@@ -381,9 +381,9 @@ export const eleventhGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Шар вписан в куб. Диаметр шара равен:", options: ["Стороне куба", "Диагонали куба", "Половине стороны", "Двойной стороне", "Диагонали грани"], correctAnswer: "Стороне куба", hint: "Шар касается всех граней" },
       { type: 'quiz', question: "Конус вписан в цилиндр. Их высоты:", options: ["Разные", "Одинаковые", "Зависит от размера", "Высота конуса больше", "Высота цилиндра больше"], correctAnswer: "Одинаковые", hint: "Конус касается оснований цилиндра" },
-      { type: 'fill', question: "Если радиус шара = 3, то объём = __π (4/3πr³)", correctAnswer: "36", hint: "V = 4/3 × π × 27 = 36π" },
+      { type: 'quiz', question: "Если радиус шара = 3, то объём = (...)π (4/3πr³)", options: ["37", "31", "41", "18", "36"], correctAnswer: "36", hint: "V = 4/3 × π × 27 = 36π" },
       { type: 'quiz', question: "Сфера вписана в куб со стороной a. Радиус сферы:", options: ["a", "a/2", "a√2", "a/3", "2a"], correctAnswer: "a/2", hint: "Диаметр = a" },
-      { type: 'fill', question: "Объём шара с радиусом R = (4/3)πR³. При R=1, V = __π/3", correctAnswer: "4", hint: "V = 4π/3" }
+      { type: 'quiz', question: "Объём шара с радиусом R = (4/3)πR³. При R=1, V = (...)π/3", options: ["9", "1004", "104", "4", "2"], correctAnswer: "4", hint: "V = 4π/3" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь комбинации тел! 📦" }
   },
@@ -424,7 +424,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Крым вошёл в состав России:", options: ["2010", "2014", "2018", "2012", "2016"], correctAnswer: "2014", hint: "Март 2014 года" },
       { type: 'find', question: "Выбери события современной России:", options: ["Олимпиада Сочи 2014", "Крым 2014", "Конституция 1993", "Перестройка", "Вступление в ВТО 2012"], correctAnswer: ["Олимпиада Сочи 2014", "Крым 2014", "Вступление в ВТО 2012"], hint: "События после 2000 года" },
       { type: 'quiz', question: "Олимпиада в Сочи прошла в:", options: ["2010", "2014", "2018", "2012", "2016"], correctAnswer: "2014", hint: "Зимняя олимпиада" },
-      { type: 'fill', question: "Конституция РФ принята в __ году", correctAnswer: "1993", hint: "12 декабря 1993" },
+      { type: 'quiz', question: "Конституция РФ принята в (...) году", options: ["1993", "1893", "1998", "1995", "1991"], correctAnswer: "1993", hint: "12 декабря 1993" },
       { type: 'quiz', question: "День России отмечается:", options: ["12 июня", "12 декабря", "7 ноября", "9 мая", "4 ноября"], correctAnswer: "12 июня", hint: "День принятия декларации о суверенитете" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь современную историю! 🇷🇺" }
@@ -438,7 +438,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Первый закон термодинамики:", options: ["Q = A", "Q = ΔU + A", "ΔU = Q", "Q = ΔU - A", "A = ΔU + Q"], correctAnswer: "Q = ΔU + A", hint: "Количество теплоты = изменение внутренней энергии + работа" },
       { type: 'quiz', question: "Адиабатный процесс:", options: ["При постоянной температуре", "Без теплообмена", "При постоянном давлении", "При постоянном объёме", "При постоянной влажности"], correctAnswer: "Без теплообмена", hint: "Q = 0" },
       { type: 'find', question: "Выбери изопроцессы:", options: ["Изотермический", "Изобарный", "Изохорный", "Адиабатный", "Изотопный"], correctAnswer: ["Изотермический", "Изобарный", "Изохорный", "Адиабатный"], hint: "Процессы при постоянном параметре" },
-      { type: 'fill', question: "КПД = (Q₁ - Q₂) / __", correctAnswer: "Q₁", hint: "КПД = полезная работа / затраченная энергия" },
+      { type: 'quiz', question: "КПД = (Q₁ - Q₂) / (...)", options: ["кпд", "Q₁", "не знаю", "всё", "нет"], correctAnswer: "Q₁", hint: "КПД = полезная работа / затраченная энергия" },
       { type: 'quiz', question: "Изотермический процесс - при постоянной:", options: ["Давлении", "Объёме", "Температуре", "Энтропии", "Энергии"], correctAnswer: "Температуре", hint: "T = const" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь термодинамику! ⚛️" }
@@ -452,7 +452,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Человек имеет хромосом:", options: ["23", "46", "48", "44", "50"], correctAnswer: "46", hint: "23 пары хромосом" },
       { type: 'quiz', question: "Пол человека определяется:", options: ["X-хромосомой", "Y-хромосомой", "Обеими", "Аутосомами", "Митохондриями"], correctAnswer: "Y-хромосомой", hint: "XY = мужчина, XX = женщина" },
       { type: 'find', question: "Выбери наследственные заболевания:", options: ["Гемофилия", "Дальтонизм", "Грипп", "Синдром Дауна", "Простуда"], correctAnswer: ["Гемофилия", "Дальтонизм", "Синдром Дауна"], hint: "Генетические нарушения" },
-      { type: 'fill', question: "Гемофилия - __-сцепленное заболевание", correctAnswer: "X", hint: "Ген в X-хромосоме" },
+      { type: 'quiz', question: "Гемофилия - (...)-сцепленное заболевание", options: ["заболевание", "сцепленное", "нет", "X", "гемофилия"], correctAnswer: "X", hint: "Ген в X-хромосоме" },
       { type: 'quiz', question: "Генотип - это:", options: ["Внешний вид", "Совокупность генов", "Окружающая среда", "Фенотип", "Мутация"], correctAnswer: "Совокупность генов", hint: "Генетическая конституция организма" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь генетику! 🧬" }
@@ -465,7 +465,7 @@ export const eleventhGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "If I __ (study) harder yesterday, I would pass now.", options: ["studied", "had studied", "study", "have studied", "would study"], correctAnswer: "had studied", hint: "Mixed: Past Perfect + would + V" },
       { type: 'quiz', question: "If she __ (be) rich, she would have bought it.", options: ["is", "were", "had been", "has been", "would be"], correctAnswer: "were", hint: "Mixed: Second + Third" },
-      { type: 'fill', question: "If I knew her, I __ (say) hello yesterday. (would have said)", correctAnswer: "would have said", hint: "Present unreal + Past unreal" },
+      { type: 'quiz', question: "If I knew her, I (...) (say) hello yesterday. (would have said)", options: ["knew", "yesterday", "would", "said", "would have said"], correctAnswer: "would have said", hint: "Present unreal + Past unreal" },
       { type: 'find', question: "Выбери типы conditionals:", options: ["Zero", "First", "Second", "Third", "Mixed"], correctAnswer: ["Zero", "First", "Second", "Third", "Mixed"], hint: "Пять типов условных предложений" },
       { type: 'quiz', question: "Third Conditional structure:", options: ["If + Past Simple, would + V", "If + Past Perfect, would have + V3", "If + Present Simple, will + V", "If + Present Perfect, will + V", "If + Future, will + V"], correctAnswer: "If + Past Perfect, would have + V3", hint: "Третий тип - прошлое нереальное" }
     ],
@@ -496,7 +496,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Инфляция - это:", options: ["Снижение цен", "Повышение общего уровня цен", "Стабильность цен", "Рост производства", "Падение курса"], correctAnswer: "Повышение общего уровня цен", hint: "Обесценивание денег" },
       { type: 'quiz', question: "Спрос и предложение определяют:", options: ["Только предложение", "Рыночную цену", "Только спрос", "Государственную цену", "Себестоимость"], correctAnswer: "Рыночную цену", hint: "Закон спроса и предложения" },
       { type: 'find', question: "Выбери факторы производства:", options: ["Труд", "Капитал", "Земля", "Деньги", "Предпринимательство"], correctAnswer: ["Труд", "Капитал", "Земля", "Предпринимательство"], hint: "Ресурсы для производства" },
-      { type: 'fill', question: "Безработица - это отсутствие __ у трудоспособного населения", correctAnswer: "работы", hint: "Трудоспособные люди без работы" },
+      { type: 'quiz', question: "Безработица - это отсутствие (...) у трудоспособного населения", options: ["населения", "безработица", "работы", "трудоспособного", "отсутствие"], correctAnswer: "работы", hint: "Трудоспособные люди без работы" },
       { type: 'quiz', question: "Монополия - это:", options: ["Много конкурентов", "Один продавец на рынке", "Два продавца", "Отсутствие рынка", "Свободный рынок"], correctAnswer: "Один продавец на рынке", hint: "Единственный производитель товара" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь экономику! 💰" }
@@ -512,7 +512,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Самая длинная река России:", options: ["Волга", "Обь", "Лена", "Енисей", "Амур"], correctAnswer: "Обь", hint: "Обь с Иртышом - самая длинная" },
       { type: 'quiz', question: "Самое глубокое озеро мира в России:", options: ["Ладожское", "Байкал", "Каспийское", "Онежское", "Таймыр"], correctAnswer: "Байкал", hint: "Байкал - глубочайшее озеро" },
       { type: 'find', question: "Выбери субъекты РФ:", options: ["Московская область", "Крым", "Киев", "Санкт-Петербург", "Минск"], correctAnswer: ["Московская область", "Крым", "Санкт-Петербург"], hint: "Субъекты Российской Федерации" },
-      { type: 'fill', question: "Россия граничит с __ странами (число)", correctAnswer: "18", hint: "Самое большое число границ" },
+      { type: 'quiz', question: "Россия граничит с (...) странами (число)", options: ["180", "9", "1", "17", "18"], correctAnswer: "18", hint: "Самое большое число границ" },
       { type: 'quiz', question: "Столица России:", options: ["Москва", "Санкт-Петербург", "Новосибирск", "Екатеринбург", "Казань"], correctAnswer: "Москва", hint: "Столица Российской Федерации" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь географию России! 🗺️" }
@@ -526,7 +526,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Самая большая страна мира по площади:", options: ["Китай", "США", "Россия", "Канада", "Бразилия"], correctAnswer: "Россия", hint: "17 млн км²" },
       { type: 'quiz', question: "Самая населённая страна мира:", options: ["Индия", "Китай", "США", "Индонезия", "Бразилия"], correctAnswer: "Индия", hint: "Индия превзошла Китай в 2023" },
       { type: 'find', question: "Выбери континенты:", options: ["Евразия", "Африка", "Атлантида", "Австралия", "Антарктида"], correctAnswer: ["Евразия", "Африка", "Австралия", "Антарктида"], hint: "Шесть континентов" },
-      { type: 'fill', question: "Самый большой океан - __ океан", correctAnswer: "Тихий", hint: "Тихий океан - самый большой" },
+      { type: 'quiz', question: "Самый большой океан - (...) океан", options: ["тихять", "тихин", "Тихий", "тихют", "большой"], correctAnswer: "Тихий", hint: "Тихий океан - самый большой" },
       { type: 'quiz', question: "Самая высокая гора мира:", options: ["Эльбрус", "Эверест", "Килиманджаро", "Монблан", "Казбек"], correctAnswer: "Эверест", hint: "8848 м - Джомолунгма" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь географию мира! 🌍" }
@@ -542,7 +542,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Переменная в программировании - это:", options: ["Постоянное значение", "Именованная область памяти", "Команда", "Оператор", "Функция"], correctAnswer: "Именованная область памяти", hint: "Хранит данные" },
       { type: 'quiz', question: "Цикл for используется для:", options: ["Однократного выполнения", "Многократного выполнения", "Остановки программы", "Ввода данных", "Вывода данных"], correctAnswer: "Многократного выполнения", hint: "Повторение кода" },
       { type: 'find', question: "Выбери типы данных:", options: ["Integer", "String", "Boolean", "Table", "Chair"], correctAnswer: ["Integer", "String", "Boolean"], hint: "Основные типы данных" },
-      { type: 'fill', question: "if-else - это __ конструкция", correctAnswer: "условная", hint: "Условный оператор" },
+      { type: 'quiz', question: "if-else - это (...) конструкция", options: ["конструкция", "условном", "условная", "условнут", "условнка"], correctAnswer: "условная", hint: "Условный оператор" },
       { type: 'quiz', question: "Массив - это:", options: ["Одна переменная", "Набор элементов", "Функция", "Оператор", "Цикл"], correctAnswer: "Набор элементов", hint: "Структура данных для хранения набора значений" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь программирование! 💻" }
@@ -556,7 +556,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Массив - это:", options: ["Одна переменная", "Упорядоченный набор элементов", "Функция", "Цикл", "Условие"], correctAnswer: "Упорядоченный набор элементов", hint: "Коллекция данных" },
       { type: 'quiz', question: "Сложность алгоритма O(n) означает:", options: ["Константное время", "Линейное время", "Квадратичное время", "Логарифмическое время", "Экспоненциальное время"], correctAnswer: "Линейное время", hint: "Время растёт линейно" },
       { type: 'find', question: "Выбери алгоритмы сортировки:", options: ["Пузырьковая", "Быстрая", "Слиянием", "Умножения", "Деления"], correctAnswer: ["Пузырьковая", "Быстрая", "Слиянием"], hint: "Алгоритмы упорядочивания" },
-      { type: 'fill', question: "Бинарный поиск работает за O(log __)", correctAnswer: "n", hint: "Логарифмическая сложность" },
+      { type: 'quiz', question: "Бинарный поиск работает за O(log (...))", options: ["log", "работает", "бинарный", "n", "поиск"], correctAnswer: "n", hint: "Логарифмическая сложность" },
       { type: 'quiz', question: "Стек работает по принципу:", options: ["FIFO", "LIFO", "Случайно", "По приоритету", "По кругу"], correctAnswer: "LIFO", hint: "Last In, First Out - последним пришёл, первым ушёл" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь алгоритмы! 🔢" }
@@ -570,10 +570,10 @@ export const eleventhGradeGames: GameLesson[] = [
     color: "text-violet-400",
     tasks: [
       { type: 'quiz', question: "Закон Ома для участка цепи:", options: ["I = U/R", "I = UR", "I = R/U", "I = U + R", "I = U × R"], correctAnswer: "I = U/R", hint: "Ток = напряжение / сопротивление" },
-      { type: 'fill', question: "Сила тока измеряется в __", correctAnswer: "амперах", hint: "Единица силы тока" },
+      { type: 'quiz', question: "Сила тока измеряется в (...)", options: ["нет", "тока", "сила", "измеряется", "амперах"], correctAnswer: "амперах", hint: "Единица силы тока" },
       { type: 'quiz', question: "При последовательном соединении сопротивления:", options: ["Складываются", "Вычитаются", "Перемножаются", "Делятся", "Не меняются"], correctAnswer: "Складываются", hint: "R = R₁ + R₂ + ..." },
       { type: 'find', question: "Выбери электрические величины:", options: ["Напряжение", "Сила тока", "Сопротивление", "Масса", "Скорость"], correctAnswer: ["Напряжение", "Сила тока", "Сопротивление"], hint: "Электрические характеристики" },
-      { type: 'fill', question: "Напряжение измеряется в __", correctAnswer: "вольтах", hint: "Единица напряжения" }
+      { type: 'quiz', question: "Напряжение измеряется в (...)", options: ["вольтах", "измеряется", "нет", "напряжение", "не знаю"], correctAnswer: "вольтах", hint: "Единица напряжения" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь электродинамику! ⚡" }
   },
@@ -585,9 +585,9 @@ export const eleventhGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Магнитное поле создаётся:", options: ["Покоющимися зарядами", "Движущимися зарядами", "Только магнитами", "Только током", "Только зарядами"], correctAnswer: "Движущимися зарядами", hint: "Электрический ток создаёт магнитное поле" },
       { type: 'quiz', question: "Сила Лоренца действует на:", options: ["Покоющийся заряд", "Движущийся заряд", "Любой заряд", "Нейтральные частицы", "Только магниты"], correctAnswer: "Движущийся заряд", hint: "F = qvB" },
-      { type: 'fill', question: "Правило __ руки определяет направление магнитного поля", correctAnswer: "буравчика", hint: "Правило буравчика или правой руки" },
+      { type: 'quiz', question: "Правило (...) руки определяет направление магнитного поля", options: ["буравчика", "буравчиует", "буравчиов", "буравчиий", "определяет"], correctAnswer: "буравчика", hint: "Правило буравчика или правой руки" },
       { type: 'quiz', question: "Магнитный поток измеряется в:", options: ["Тесла", "Вебер", "Ампер", "Вольт", "Генри"], correctAnswer: "Вебер", hint: "Ф = BS" },
-      { type: 'fill', question: "Магнитная индукция измеряется в __", correctAnswer: "тесла", hint: "Единица магнитной индукции" }
+      { type: 'quiz', question: "Магнитная индукция измеряется в (...)", options: ["измеряется", "нет", "индукция", "магнитная", "тесла"], correctAnswer: "тесла", hint: "Единица магнитной индукции" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь магнитное поле! 🧲" }
   },
@@ -602,7 +602,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Алканы имеют общую формулу:", options: ["CₙH₂ₙ", "CₙH₂ₙ₊₂", "CₙH₂ₙ₋₂", "CₙHₙ", "CHₙ"], correctAnswer: "CₙH₂ₙ₊₂", hint: "Предельные углеводороды" },
       { type: 'quiz', question: "Этанол - это:", options: ["Кислота", "Спирт", "Альдегид", "Кетон", "Эфир"], correctAnswer: "Спирт", hint: "C₂H₅OH - этиловый спирт" },
       { type: 'find', question: "Выбери функциональные группы:", options: ["-OH", "-COOH", "-NH₂", "-H₂O", "-O₂"], correctAnswer: ["-OH", "-COOH", "-NH₂"], hint: "Группы атомов, определяющие свойства" },
-      { type: 'fill', question: "Гомологический ряд - это серия веществ с разницей CH__", correctAnswer: "2", hint: "Гомологи отличаются на CH₂" },
+      { type: 'quiz', question: "Гомологический ряд - это серия веществ с разницей CH(...)", options: ["102", "1", "6", "2", "0"], correctAnswer: "2", hint: "Гомологи отличаются на CH₂" },
       { type: 'quiz', question: "Изомерия - это:", options: ["Одинаковое строение", "Одинаковая формула, разное строение", "Разная формула", "Отсутствие связи", "Свободные радикалы"], correctAnswer: "Одинаковая формула, разное строение", hint: "Вещества с одинаковой формулой, но разным строением" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь органическую химию! 🧪" }
@@ -616,7 +616,7 @@ export const eleventhGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Алкены содержат:", options: ["Одинарную связь", "Двойную связь", "Тройную связь", "Без связей", "Ионную связь"], correctAnswer: "Двойную связь", hint: "C=C - двойная связь" },
       { type: 'quiz', question: "Бензол имеет структуру:", options: ["Линейную", "Циклическую", "Разветвлённую", "Цепную", "Сферическую"], correctAnswer: "Циклическую", hint: "C₆H₆ - ароматическое кольцо" },
       { type: 'find', question: "Выбери типы реакций в органике:", options: ["Замещения", "Присоединения", "Гниения", "Отщепления", "Горения"], correctAnswer: ["Замещения", "Присоединения", "Отщепления", "Горения"], hint: "Основные типы органических реакций" },
-      { type: 'fill', question: "Метан - это CH__", correctAnswer: "4", hint: "CH₄ - простейший алкан" },
+      { type: 'quiz', question: "Метан - это CH(...)", options: ["2", "104", "1004", "4", "9"], correctAnswer: "4", hint: "CH₄ - простейший алкан" },
       { type: 'quiz', question: "Алкины содержат:", options: ["Одинарную связь", "Двойную связь", "Тройную связь", "Без связей", "Две двойные связи"], correctAnswer: "Тройную связь", hint: "C≡C - тройная связь" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь углеводороды! ⚗️" }

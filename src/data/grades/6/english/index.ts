@@ -682,8 +682,234 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
+    title: "Family and Appearance 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Вопрос 1 по теме \"Family and Appearance\"", options: ["skate","Chinese","Monday","Family and Appearance","sometimes (40%)"], correctAnswer: "Family and Appearance", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 2 по теме \"Family and Appearance\"", options: ["Niece","Family and Appearance","twenty to six","brave","play tennis"], correctAnswer: "Family and Appearance", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 3 по теме \"Family and Appearance\"", options: ["Tuesday","ride a bike","Friday","watch films","Family and Appearance"], correctAnswer: "Family and Appearance", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 4 по теме \"Family and Appearance\"", options: ["Family and Appearance","Thursday","do homework","speak English","quarter past seven"], correctAnswer: "Family and Appearance", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 5 по теме \"Family and Appearance\"", options: ["check-in desk","customs","play football","play chess","Family and Appearance"], correctAnswer: "Family and Appearance", hint: "Ответ связан с материалом урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Time and Routine 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Вопрос 1 по теме \"Time and Routine\"", options: ["It's 7 o'clock.","draw","Time and Routine","in the morning","in September"], correctAnswer: "Time and Routine", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 2 по теме \"Time and Routine\"", options: ["No, I can't.","at 7 o'clock","in 2024","Time and Routine","passport"], correctAnswer: "Time and Routine", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 3 по теме \"Time and Routine\"", options: ["Russian","duty-free shop","go through security","Time and Routine","play basketball"], correctAnswer: "Time and Routine", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 4 по теме \"Time and Routine\"", options: ["Cousin","Time and Routine","Key Points:","blue eyes","draw"], correctAnswer: "Time and Routine", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 5 по теме \"Time and Routine\"", options: ["can't / cannot","Key Points:","in the evening","in the morning","Time and Routine"], correctAnswer: "Time and Routine", hint: "Ответ связан с материалом урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Hobbies and Abilities 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Вопрос 1 по теме \"Hobbies and Abilities\"", options: ["Hobbies and Abilities","No, he can't.","French","arrival hall","security check"], correctAnswer: "Hobbies and Abilities", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 2 по теме \"Hobbies and Abilities\"", options: ["dark","Hobbies and Abilities","Key Points:","Flight KL123 is now boarding.","honest"], correctAnswer: "Hobbies and Abilities", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 3 по теме \"Hobbies and Abilities\"", options: ["on my birthday","Sunday","Cousin","arrival hall","Hobbies and Abilities"], correctAnswer: "Hobbies and Abilities", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 4 по теме \"Hobbies and Abilities\"", options: ["gate","at noon","Key Points:","Examples:","Hobbies and Abilities"], correctAnswer: "Hobbies and Abilities", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 5 по теме \"Hobbies and Abilities\"", options: ["Hobbies and Abilities","long / short hair","Key Points:","brown eyes","check-in desk"], correctAnswer: "Hobbies and Abilities", hint: "Ответ связан с материалом урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Travelling 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Вопрос 1 по теме \"Travelling\"", options: ["Travelling","on Friday morning","brown","He → his","They → their"], correctAnswer: "Travelling", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 2 по теме \"Travelling\"", options: ["slim","Travelling","Japanese","be interested in","on the 5th of May"], correctAnswer: "Travelling", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 3 по теме \"Travelling\"", options: ["No, I can't.","ride a bike","Key Points:","Travelling","Examples:"], correctAnswer: "Travelling", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 4 по теме \"Travelling\"", options: ["on my birthday","Sunday","Aunt","Travelling","Examples:"], correctAnswer: "Travelling", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 5 по теме \"Travelling\"", options: ["hand luggage","in September","Travelling","customs","can't / cannot"], correctAnswer: "Travelling", hint: "Ответ связан с материалом урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Describing People 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Что означает термин \"основное понятие темы...\"?", options: ["collect stamps","go to school","customs","\"Have got\" = \"have\" (British English)","dance"], correctAnswer: "\"Have got\" = \"have\" (British English)", hint: "Этот термин связан с темой: Describing People" },
+      { type: 'quiz', question: "Какое понятие относится к теме \"Describing People\"?", options: ["slim","on Monday","Tuesday","play tennis","in the evening"], correctAnswer: "slim", hint: "Ответ связан с уроком: Describing People" },
+      { type: 'quiz', question: "Какое из следующих утверждений верно относительно темы \"Describing People\"?", options: ["Yes, she can.","gate","quarter past seven","Key Points:","eyes"], correctAnswer: "eyes", hint: "Обратите внимание на ключевое слово в описании урока" },
+      { type: 'find', question: "Выберите понятия, связанные с темой \"Describing People\":", options: ["brave","honest","kind","short","brown","clever / smart"], correctAnswer: ["brave","honest","clever / smart"], hint: "Ищите термины, которые встречаются в уроке Describing People" },
+      { type: 'quiz', question: "Что является основным понятием урока \"Describing People\"?", options: ["red / ginger","brown","wavy","Use \"am / is / are\" for character traits:  > **Examples:** >","! Use \"have got / has got\" for physical features"], correctAnswer: "Use \"am / is / are\" for character traits:  > **Examples:** >", hint: "Ответ содержится в описании урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Days of the Week and Prepositions 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Что означает термин \"! Remember: Days of the week start with a capital ...\"?", options: ["quarter to eight","! Remember","No, he can't.","play basketball","boarding pass"], correctAnswer: "! Remember", hint: "Этот термин связан с темой: Days of the Week and Prepositions" },
+      { type: 'quiz', question: "Какое понятие относится к теме \"Days of the Week and Prepositions\"?", options: ["It's seven a.m.","ticket","Wednesday","No, I can't.","Yes, she can."], correctAnswer: "Wednesday", hint: "Ответ связан с уроком: Days of the Week and Prepositions" },
+      { type: 'quiz', question: "Какое из следующих утверждений верно относительно темы \"Days of the Week and Prepositions\"?", options: ["evening","paint","red / ginger","twenty to six","Tuesday"], correctAnswer: "evening", hint: "Обратите внимание на ключевое слово в описании урока" },
+      { type: 'find', question: "Выберите понятия, связанные с темой \"Days of the Week and Prepositions\":", options: ["never (0%)","in September","at noon","at midnight","always (100%)","Friday"], correctAnswer: ["at midnight","always (100%)","Friday"], hint: "Ищите термины, которые встречаются в уроке Days of the Week and Prepositions" },
+      { type: 'quiz', question: "Что является основным понятием урока \"Days of the Week and Prepositions\"?", options: ["in the morning","on Friday morning","sometimes (40%)","Examples:","> - We visit our grandparents on Sunday"], correctAnswer: "> - We visit our grandparents on Sunday", hint: "Ответ содержится в описании урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Free Time Activities 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Что означает термин \"основное понятие темы...\"?", options: ["Saturday","After \"play\" NO article for sports (play football)","Examples:","tall","Mother / Mom / Mum"], correctAnswer: "After \"play\" NO article for sports (play football)", hint: "Этот термин связан с темой: Free Time Activities" },
+      { type: 'quiz', question: "Какое понятие относится к теме \"Free Time Activities\"?", options: ["draw","Thursday","Examples:","brave","in September"], correctAnswer: "draw", hint: "Ответ связан с уроком: Free Time Activities" },
+      { type: 'quiz', question: "Какое из следующих утверждений верно относительно темы \"Free Time Activities\"?", options: ["books","It's seven a.m.","Spanish","often (60%)","write stories"], correctAnswer: "books", hint: "Обратите внимание на ключевое слово в описании урока" },
+      { type: 'find', question: "Выберите понятия, связанные с темой \"Free Time Activities\":", options: ["Examples:","skate","read books","sing","play computer games","draw"], correctAnswer: ["sing","draw","Examples:"], hint: "Ищите термины, которые встречаются в уроке Free Time Activities" },
+      { type: 'quiz', question: "Что является основным понятием урока \"Free Time Activities\"?", options: ["read books","watch films","> - My hobby is photography","dance","swim"], correctAnswer: "> - My hobby is photography", hint: "Ответ содержится в описании урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Countries and Nationalities 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Что означает термин \"Where do you come from? — Откуда ты родом?...\"?", options: ["- Where do you come from?","kind","It's 7 o'clock.","in September","We → our"], correctAnswer: "- Where do you come from?", hint: "Этот термин связан с темой: Countries and Nationalities" },
+      { type: 'quiz', question: "Какое понятие относится к теме \"Countries and Nationalities\"?", options: ["Key Points:","English","honest","Japanese","customs"], correctAnswer: "English", hint: "Ответ связан с уроком: Countries and Nationalities" },
+      { type: 'quiz', question: "Какое из следующих утверждений верно относительно темы \"Countries and Nationalities\"?", options: ["Examples:","letters","suitcase","You → your","have lunch"], correctAnswer: "letters", hint: "Обратите внимание на ключевое слово в описании урока" },
+      { type: 'find', question: "Выберите понятия, связанные с темой \"Countries and Nationalities\":", options: ["Key Points:","Chinese","Spanish","English","Examples:","Japanese"], correctAnswer: ["Japanese","Spanish","Key Points:"], hint: "Ищите термины, которые встречаются в уроке Countries and Nationalities" },
+      { type: 'quiz', question: "Что является основным понятием урока \"Countries and Nationalities\"?", options: ["- Where are you from?","Chinese","- Do you speak English?","Nationality adjectives also start with capital letters","English"], correctAnswer: "Nationality adjectives also start with capital letters", hint: "Ответ содержится в описании урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  }
+] = [
+  {
+    title: "Family and Appearance 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Вопрос 1 по теме \"Family and Appearance\"", options: ["Russian","Examples:","Family and Appearance","speak English","usually (80%)"], correctAnswer: "Family and Appearance", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 2 по теме \"Family and Appearance\"", options: ["on Friday morning","play the guitar","Family and Appearance","Key Points:","They → their"], correctAnswer: "Family and Appearance", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 3 по теме \"Family and Appearance\"", options: ["gate","Key Points:","in September","Family and Appearance","rarely (20%)"], correctAnswer: "Family and Appearance", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 4 по теме \"Family and Appearance\"", options: ["Examples:","long / short hair","have dinner","Family and Appearance","dance"], correctAnswer: "Family and Appearance", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 5 по теме \"Family and Appearance\"", options: ["Examples:","in the morning","take off","Cousin","Family and Appearance"], correctAnswer: "Family and Appearance", hint: "Ответ связан с материалом урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Time and Routine 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Вопрос 1 по теме \"Time and Routine\"", options: ["Niece","suitcase","Time and Routine","read books","play the guitar"], correctAnswer: "Time and Routine", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 2 по теме \"Time and Routine\"", options: ["Sister","Time and Routine","Key Points:","curly","do homework"], correctAnswer: "Time and Routine", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 3 по теме \"Time and Routine\"", options: ["Flight KL123 is now boarding.","Time and Routine","collect luggage","have lunch","gate"], correctAnswer: "Time and Routine", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 4 по теме \"Time and Routine\"", options: ["Time and Routine","in 2024","clever / smart","wavy","at night"], correctAnswer: "Time and Routine", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 5 по теме \"Time and Routine\"", options: ["suitcase","wake up","Time and Routine","Examples:","Key Points:"], correctAnswer: "Time and Routine", hint: "Ответ связан с материалом урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Hobbies and Abilities 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Вопрос 1 по теме \"Hobbies and Abilities\"", options: ["Hobbies and Abilities","short","Brother","Uncle","cook"], correctAnswer: "Hobbies and Abilities", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 2 по теме \"Hobbies and Abilities\"", options: ["always (100%)","You → your","half past seven","green eyes","Hobbies and Abilities"], correctAnswer: "Hobbies and Abilities", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 3 по теме \"Hobbies and Abilities\"", options: ["It's 7 o'clock.","Hobbies and Abilities","take photos","play chess","Examples:"], correctAnswer: "Hobbies and Abilities", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 4 по теме \"Hobbies and Abilities\"", options: ["play basketball","Hobbies and Abilities","fair / blond","Parents","The flight is delayed."], correctAnswer: "Hobbies and Abilities", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 5 по теме \"Hobbies and Abilities\"", options: ["Hobbies and Abilities","Wednesday","at noon","brown","Examples:"], correctAnswer: "Hobbies and Abilities", hint: "Ответ связан с материалом урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Travelling 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Вопрос 1 по теме \"Travelling\"", options: ["write stories","Grandmother / Grandma","Yes, I can.","Travelling","Examples:"], correctAnswer: "Travelling", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 2 по теме \"Travelling\"", options: ["Sunday","Travelling","listen to music","luggage / baggage","brown"], correctAnswer: "Travelling", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 3 по теме \"Travelling\"", options: ["play the guitar","Father / Dad","Travelling","Examples:","customs"], correctAnswer: "Travelling", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 4 по теме \"Travelling\"", options: ["Travelling","They → their","Sunday","ten past three","Parents"], correctAnswer: "Travelling", hint: "Ответ связан с материалом урока" },
+      { type: 'quiz', question: "Вопрос 5 по теме \"Travelling\"", options: ["have breakfast","Monday","Examples:","Travelling","Tuesday"], correctAnswer: "Travelling", hint: "Ответ связан с материалом урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Describing People 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Что означает термин \"основное понятие темы...\"?", options: ["medium height","! Use \"am / is / are\" for character traits","never (0%)","We → our","Father / Dad"], correctAnswer: "! Use \"am / is / are\" for character traits", hint: "Этот термин связан с темой: Describing People" },
+      { type: 'quiz', question: "Какое понятие относится к теме \"Describing People\"?", options: ["speak English","blue eyes","It's seven p.m.","Examples:","athletic"], correctAnswer: "athletic", hint: "Ответ связан с уроком: Describing People" },
+      { type: 'quiz', question: "Какое из следующих утверждений верно относительно темы \"Describing People\"?", options: ["watch films","The flight is delayed.","blue eyes","slim","eyes"], correctAnswer: "eyes", hint: "Обратите внимание на ключевое слово в описании урока" },
+      { type: 'find', question: "Выберите понятия, связанные с темой \"Describing People\":", options: ["slim","short","grey eyes","funny","Key Points:","fair / blond"], correctAnswer: ["Key Points:","grey eyes","fair / blond"], hint: "Ищите термины, которые встречаются в уроке Describing People" },
+      { type: 'quiz', question: "Что является основным понятием урока \"Describing People\"?", options: ["curly","blue eyes","athletic","Use \"am / is / are\" for character traits:  > **Examples:** >","tall"], correctAnswer: "Use \"am / is / are\" for character traits:  > **Examples:** >", hint: "Ответ содержится в описании урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Days of the Week and Prepositions 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Что означает термин \"! Remember: Days of the week start with a capital ...\"?", options: ["Niece","do homework","! Remember","Examples:","tall"], correctAnswer: "! Remember", hint: "Этот термин связан с темой: Days of the Week and Prepositions" },
+      { type: 'quiz', question: "Какое понятие относится к теме \"Days of the Week and Prepositions\"?", options: ["Key Points:","Uncle","Examples:","Saturday","dance"], correctAnswer: "Saturday", hint: "Ответ связан с уроком: Days of the Week and Prepositions" },
+      { type: 'quiz', question: "Какое из следующих утверждений верно относительно темы \"Days of the Week and Prepositions\"?", options: ["German","Examples:","in the evening","Grandmother / Grandma","June"], correctAnswer: "June", hint: "Обратите внимание на ключевое слово в описании урока" },
+      { type: 'find', question: "Выберите понятия, связанные с темой \"Days of the Week and Prepositions\":", options: ["at noon","Saturday","always (100%)","usually (80%)","Tuesday","often (60%)"], correctAnswer: ["Tuesday","Saturday","usually (80%)"], hint: "Ищите термины, которые встречаются в уроке Days of the Week and Prepositions" },
+      { type: 'quiz', question: "Что является основным понятием урока \"Days of the Week and Prepositions\"?", options: ["> - We visit our grandparents on Sunday","Sunday","in the morning","at 7 o'clock","at noon"], correctAnswer: "> - We visit our grandparents on Sunday", hint: "Ответ содержится в описании урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Free Time Activities 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Что означает термин \"основное понятие темы...\"?", options: ["paint","After \"play\" NO article for sports (play football)","Wednesday","land","Key Points:"], correctAnswer: "After \"play\" NO article for sports (play football)", hint: "Этот термин связан с темой: Free Time Activities" },
+      { type: 'quiz', question: "Какое понятие относится к теме \"Free Time Activities\"?", options: ["skate","athletic","Key Points:","in 2024","cook"], correctAnswer: "skate", hint: "Ответ связан с уроком: Free Time Activities" },
+      { type: 'quiz', question: "Какое из следующих утверждений верно относительно темы \"Free Time Activities\"?", options: ["in September","plump","take photos","swimming","He → his"], correctAnswer: "swimming", hint: "Обратите внимание на ключевое слово в описании урока" },
+      { type: 'find', question: "Выберите понятия, связанные с темой \"Free Time Activities\":", options: ["sing","collect stamps","play volleyball","listen to music","draw","Examples:"], correctAnswer: ["sing","Examples:","play volleyball"], hint: "Ищите термины, которые встречаются в уроке Free Time Activities" },
+      { type: 'quiz', question: "Что является основным понятием урока \"Free Time Activities\"?", options: ["collect stamps","> - My hobby is photography","play volleyball","cook","write stories"], correctAnswer: "> - My hobby is photography", hint: "Ответ содержится в описании урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  },
+  {
+    title: "Countries and Nationalities 📚",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Что означает термин \"I'm from Russia. — Я из России...\"?", options: ["- I'm from Russia.","It's seven p.m.","Aunt","Examples:","Nephew"], correctAnswer: "- I'm from Russia.", hint: "Этот термин связан с темой: Countries and Nationalities" },
+      { type: 'quiz', question: "Какое понятие относится к теме \"Countries and Nationalities\"?", options: ["Saturday","Spanish","It's seven p.m.","gate","have breakfast"], correctAnswer: "Spanish", hint: "Ответ связан с уроком: Countries and Nationalities" },
+      { type: 'quiz', question: "Какое из следующих утверждений верно относительно темы \"Countries and Nationalities\"?", options: ["Key Points:","Saturday","England","never (0%)","draw"], correctAnswer: "England", hint: "Обратите внимание на ключевое слово в описании урока" },
+      { type: 'find', question: "Выберите понятия, связанные с темой \"Countries and Nationalities\":", options: ["German","Chinese","Russian","Examples:","English","Spanish"], correctAnswer: ["Chinese","Spanish","German"], hint: "Ищите термины, которые встречаются в уроке Countries and Nationalities" },
+      { type: 'quiz', question: "Что является основным понятием урока \"Countries and Nationalities\"?", options: ["Japanese","Nationality adjectives also start with capital letters","Chinese","--------|------------","English"], correctAnswer: "Nationality adjectives also start with capital letters", hint: "Ответ содержится в описании урока" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
+  }
+] = [
+  {
     title: "Family and Appearance",
-    subject: "English",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
@@ -696,7 +922,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Time and Routine",
-    subject: "English",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
@@ -709,7 +935,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Hobbies and Abilities",
-    subject: "English",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
@@ -722,7 +948,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Travelling",
-    subject: "English",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
@@ -735,7 +961,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Describing People",
-    subject: "English",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
@@ -749,7 +975,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Days of the Week and Prepositions",
-    subject: "English",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
@@ -763,7 +989,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Free Time Activities",
-    subject: "English",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
@@ -777,13 +1003,13 @@ export const games: GameLesson[] = [
   },
   {
     title: "Countries and Nationalities",
-    subject: "English",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "What nationality is from Japan?", options: ["Japanish", "Japanese", "Japan", "Japanian", "Другой ответ"], correctAnswer: "Japanese", hint: "People from Japan" },
       { type: 'quiz', question: "What is the capital of France?", options: ["London", "Berlin", "Paris", "Rome", "Другой ответ"], correctAnswer: "Paris", hint: "City of Light" },
-      { type: 'quiz', question: "Complete: '___ the USA' (country with 'the')?", options: ["I'm from", "I'm from the", "Both are correct", "Neither", "Другой ответ"], correctAnswer: "I'm from the", hint: "Use 'the' with 'States'" },
+      { type: 'quiz', question: "Complete: '___ the USA' (country with 'the')?", options: ["Другой ответ", "Both are correct", "m from the", "I", "Neither"], correctAnswer: "I'm from the", hint: "Use 'the' with 'States'" },
       { type: 'quiz', question: "How do you ask about origin?", options: ["Where are you go?", "Where are you from?", "Where do you from?", "Where you from are?", "Другой ответ"], correctAnswer: "Where are you from?", hint: "be + from" },
       { type: 'quiz', question: "What nationality is from Germany?", options: ["German", "Germany", "Germanian", "Germish", "Другой ответ"], correctAnswer: "German", hint: "People from Germany" }
     ],

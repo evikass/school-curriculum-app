@@ -956,7 +956,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Профессия фонарщика — это профессия ...",
-        options: ["прошлого", "настоящего", "будущего", "современная", "востребованная", "редкая"],
+        options: ["будущего", "прошлого", "настоящего", "востребованная", "современная"],
         correctAnswer: "прошлого",
         hint: "Исчезнувшая профессия"
       },
@@ -1022,7 +1022,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Data Scientist — это аналитик ... данных",
-        options: ["малых", "больших", "всех", "статистических", "точных", "неточных"],
+        options: ["точных", "больших", "всех", "статистических", "неточных"],
         correctAnswer: "больших",
         hint: "Big Data"
       },
@@ -1088,7 +1088,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "UI расшифровывается как User ...",
-        options: ["Identity", "Interface", "Input", "Image", "Information", "Interaction"],
+        options: ["Image", "Identity", "Input", "Interaction", "Interface"],
         correctAnswer: "Interface",
         hint: "Пользовательский интерфейс"
       },
@@ -1154,7 +1154,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Выбор профессии должен быть ...",
-        options: ["случайным", "осознанным", "быстрым", "принуждённым", "модным", "выгодным"],
+        options: ["осознанным", "принуждённым", "модным", "выгодным", "быстрым"],
         correctAnswer: "осознанным",
         hint: "Обдуманным, взвешенным"
       },
@@ -1221,7 +1221,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Оптимальный объём резюме для опыта до 10 лет — ... страница(ы)",
-        options: ["0,5", "1-2", "3-4", "5", "10", "1"],
+        options: ["0,5", "1-2", "3-4", "10", "5"],
         correctAnswer: "1-2",
         hint: "Не более двух"
       },
@@ -1287,7 +1287,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Ключевые слова в резюме нужны для прохождения ... систем",
-        options: ["HR", "ATS", "IT", "SEO", "CRM", "ERP"],
+        options: ["ATS", "ERP", "CRM", "IT", "HR"],
         correctAnswer: "ATS",
         hint: "Автоматический отбор"
       },
@@ -1353,7 +1353,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Платформа для портфолио программистов — ...",
-        options: ["LinkedIn", "GitHub", "Behance", "Dribbble", "ArtStation", "Medium"],
+        options: ["Dribbble", "Medium", "LinkedIn", "GitHub", "Behance"],
         correctAnswer: "GitHub",
         hint: "Код и проекты"
       },
@@ -1419,7 +1419,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Cover letter — это сопроводительное ...",
-        options: ["слово", "письмо", "сообщение", "заявление", "объявление", "предложение"],
+        options: ["заявление", "объявление", "сообщение", "слово", "письмо"],
         correctAnswer: "письмо",
         hint: "По-английски"
       },
@@ -1486,7 +1486,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Первое впечатление формируется за первые ... секунд",
-        options: ["3", "5", "7", "10", "15", "30"],
+        options: ["10", "7", "15", "30", "3"],
         correctAnswer: "7",
         hint: "Очень быстро"
       },
@@ -1551,7 +1551,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "При ответе о слабых сторонах важно показать, как вы ... над ними",
-        options: ["думаете", "работаете", "мечтаете", "забыли", "ничего", "беспокоитесь"],
+        options: ["думаете", "забыли", "ничего", "работаете", "мечтаете"],
         correctAnswer: "работаете",
         hint: "Конструктивный подход"
       },
@@ -1616,7 +1616,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "После mock-интервью важно получить обратную ...",
-        options: ["реакцию", "связь", "помощь", "совет", "отзыв", "поддержку"],
+        options: ["помощь", "связь", "отзыв", "поддержку", "совет"],
         correctAnswer: "связь",
         hint: "feedback"
       },
@@ -1681,7 +1681,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "SMART — это критерии для постановки ...",
-        options: ["вопросов", "целей", "задач", "планов", "правил", "норм"],
+        options: ["планов", "задач", "правил", "целей", "вопросов"],
         correctAnswer: "целей",
         hint: "Конкретные, измеримые цели"
       },
@@ -1732,7 +1732,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Система отслеживания кандидатов — это ...",
-        options: ["HRM", "ATS", "CRM", "ERP", "BI", "AI"],
+        options: ["ERP", "BI", "HRM", "ATS", "AI"],
         correctAnswer: "ATS",
         hint: "Applicant Tracking System"
       },
@@ -1760,7 +1760,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "STAR — это Situation, Task, Action, ...",
-        options: ["Target", "Result", "Review", "Reason", "Response", "Ratio"],
+        options: ["Target", "Review", "Ratio", "Reason", "Result"],
         correctAnswer: "Result",
         hint: "Результат"
       },

@@ -11,7 +11,7 @@ export const fifthGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Сократи дробь: 6/8", options: ["3/4", "2/3", "1/2", "4/6", "6/8"], correctAnswer: "3/4", hint: "Раздели числитель и знаменатель на 2" },
       { type: 'quiz', question: "Приведи к общему знаменателю: 1/2 и 1/3", options: ["3/6 и 2/6", "2/6 и 3/6", "1/6 и 1/6", "4/6 и 3/6", "2/5 и 3/5"], correctAnswer: "3/6 и 2/6", hint: "Общий знаменатель = 6" },
-      { type: 'fill', question: "2/5 + 1/5 = __/5", correctAnswer: "3", hint: "Сложи числители" },
+      { type: 'quiz', question: "2/5 + 1/5 = (...)/5", options: ["103", "2", "3", "9", "1"], correctAnswer: "3", hint: "Сложи числители" },
       { type: 'quiz', question: "Какая дробь больше: 2/3 или 3/4?", options: ["2/3", "3/4", "Они равны", "1/2", "Нельзя сравнить"], correctAnswer: "3/4", hint: "Приведи к общему знаменателю: 8/12 vs 9/12" },
       { type: 'quiz', question: "Сократи дробь: 10/15", options: ["2/3", "3/5", "1/2", "5/10", "4/6"], correctAnswer: "2/3", hint: "Раздели числитель и знаменатель на 5" }
     ],
@@ -25,7 +25,7 @@ export const fifthGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "0,5 + 0,3 = ?", options: ["0,53", "0,8", "0,35", "0,15", "1,0"], correctAnswer: "0,8", hint: "Сложи как обычные числа" },
       { type: 'quiz', question: "0,25 × 4 = ?", options: ["0,100", "1", "1,00", "0,5", "1,5"], correctAnswer: "1", hint: "25 × 4 = 100, значит 0,25 × 4 = 1" },
-      { type: 'fill', question: "1,5 - 0,7 = __", correctAnswer: "0,8", hint: "15 - 7 = 8" },
+      { type: 'quiz', question: "1,5 - 0,7 = (...)", options: ["всё", "нет", "не знаю", "ничего", "0,8"], correctAnswer: "0,8", hint: "15 - 7 = 8" },
       { type: 'find', question: "Выбери равные дроби:", options: ["0,5 = 1/2", "0,25 = 1/4", "0,3 = 1/3", "0,75 = 3/4", "0,2 = 1/5"], correctAnswer: ["0,5 = 1/2", "0,25 = 1/4", "0,75 = 3/4", "0,2 = 1/5"], hint: "0,3 ≈ 1/3, но не равно" },
       { type: 'quiz', question: "0,8 × 10 = ?", options: ["0,08", "8", "0,80", "80", "0,8"], correctAnswer: "8", hint: "При умножении на 10 запятая переносится вправо" }
     ],
@@ -39,7 +39,7 @@ export const fifthGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "50% от 100 = ?", options: ["25", "50", "75", "10", "100"], correctAnswer: "50", hint: "50% = 1/2 от числа" },
       { type: 'quiz', question: "25% от 200 = ?", options: ["25", "50", "100", "75", "200"], correctAnswer: "50", hint: "25% = 1/4 от числа" },
-      { type: 'fill', question: "10% от 500 = __", correctAnswer: "50", hint: "10% = 1/10 от числа" },
+      { type: 'quiz', question: "10% от 500 = (...)", options: ["49", "55", "51", "50", "150"], correctAnswer: "50", hint: "10% = 1/10 от числа" },
       { type: 'quiz', question: "Сколько процентов составляет 1/4?", options: ["10%", "25%", "50%", "75%", "100%"], correctAnswer: "25%", hint: "1/4 = 25/100 = 25%" },
       { type: 'quiz', question: "75% от 80 = ?", options: ["20", "40", "60", "75", "80"], correctAnswer: "60", hint: "75% = 3/4, 80 ÷ 4 × 3 = 60" }
     ],
@@ -51,11 +51,11 @@ export const fifthGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'fill', question: "x + 5 = 12, x = __", correctAnswer: "7", hint: "x = 12 - 5" },
-      { type: 'fill', question: "x - 8 = 15, x = __", correctAnswer: "23", hint: "x = 15 + 8" },
-      { type: 'fill', question: "3x = 18, x = __", correctAnswer: "6", hint: "x = 18 ÷ 3" },
+      { type: 'quiz', question: "x + 5 = 12, x = (...)", options: ["9", "2", "107", "17", "7"], correctAnswer: "7", hint: "x = 12 - 5" },
+      { type: 'quiz', question: "x - 8 = 15, x = (...)", options: ["23", "2", "22", "11", "18"], correctAnswer: "23", hint: "x = 15 + 8" },
+      { type: 'quiz', question: "3x = 18, x = (...)", options: ["1", "11", "6", "18", "60"], correctAnswer: "6", hint: "x = 18 ÷ 3" },
       { type: 'quiz', question: "Решить: 2x + 4 = 14", options: ["x = 5", "x = 7", "x = 10", "x = 3", "x = 9"], correctAnswer: "x = 5", hint: "2x = 10, x = 5" },
-      { type: 'fill', question: "x ÷ 6 = 4, x = __", correctAnswer: "24", hint: "x = 4 × 6" }
+      { type: 'quiz', question: "x ÷ 6 = 4, x = (...)", options: ["24", "124", "2", "42", "22"], correctAnswer: "24", hint: "x = 4 × 6" }
     ],
     reward: { stars: 3, message: "Умница! Ты решаешь уравнения! 📐" }
   },
@@ -70,7 +70,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Причастие - это...", options: ["Глагол", "Прилагательное", "Особая форма глагола", "Наречие", "Существительное"], correctAnswer: "Особая форма глагола", hint: "Причастие обозначает признак по действию" },
       { type: 'find', question: "Выбери причастия:", options: ["Читающий", "Читать", "Прочитанный", "Интересный", "Пишущий"], correctAnswer: ["Читающий", "Прочитанный", "Пишущий"], hint: "Причастия отвечают на вопрос «какой?» и имеют признаки глагола" },
       { type: 'quiz', question: "Какой признак причастия от глагола?", options: ["Время", "Вид", "Род", "Лицо", "Падеж"], correctAnswer: "Время", hint: "Причастия бывают настоящего и прошедшего времени" },
-      { type: 'fill', question: "Действие, которое совершает сам предмет - __ причастие", correctAnswer: "действительное", hint: "Действительные причастия" },
+      { type: 'quiz', question: "Действие, которое совершает сам предмет - (...) причастие", options: ["сам", "действительное", "действие", "действительний", "действительнин"], correctAnswer: "действительное", hint: "Действительные причастия" },
       { type: 'quiz', question: "Страдательное причастие обозначает:", options: ["Действие предмета", "Действие, направленное на предмет", "Признак предмета", "Состояние предмета", "Место действия"], correctAnswer: "Действие, направленное на предмет", hint: "Страдательные причастия: прочитанный, нарисованный" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь причастия! 📚" }
@@ -85,7 +85,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'find', question: "Выбери деепричастия:", options: ["Читая", "Читать", "Прочитав", "Читающий", "Идя"], correctAnswer: ["Читая", "Прочитав", "Идя"], hint: "Деепричастия оканчиваются на -а, -я, -в, -вши" },
       { type: 'quiz', question: "Деепричастие неизменяемо по...", options: ["Роду и числу", "По всем признакам", "По падежам", "Только по числу", "По временам"], correctAnswer: "По всем признакам", hint: "Деепричастие - неизменяемая форма" },
       { type: 'quiz', question: "Как выделяется деепричастный оборот?", options: ["Запятыми", "Тире", "Не выделяется", "Скобками", "Двоеточием"], correctAnswer: "Запятыми", hint: "Деепричастный оборот обособляется" },
-      { type: 'fill', question: "Деепричастие отвечает на вопрос «что __?»", correctAnswer: "сделав", hint: "Что делая? Что сделав?" }
+      { type: 'quiz', question: "Деепричастие отвечает на вопрос «что (...)?»", options: ["деепричастие", "отвечает", "нет", "сделав", "вопрос"], correctAnswer: "сделав", hint: "Что делая? Что сделав?" }
     ],
     reward: { stars: 3, message: "Супер! Ты понимаешь деепричастия! ✍️" }
   },
@@ -99,7 +99,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Сложноподчинённое предложение - это...", options: ["С союзом И, А, НО", "С союзами ЧТО, КОГДА", "Без союзов", "С союзом А ТАКЖЕ", "С союзом ОДНАКО"], correctAnswer: "С союзами ЧТО, КОГДА", hint: "Союзы подчинения: что, когда, если, потому что" },
       { type: 'find', question: "Выбери сложноподчинённые предложения:", options: ["Я пошёл домой, когда закончил работу.", "Светило солнце, и пели птицы.", "Я знаю, что ты придёшь.", "Дождь шёл, но мы гуляли.", "Мама сказала, чтобы я убрал комнату."], correctAnswer: ["Я пошёл домой, когда закончил работу.", "Я знаю, что ты придёшь.", "Мама сказала, чтобы я убрал комнату."], hint: "Сложноподчинённые с союзами когда, что, чтобы" },
       { type: 'quiz', question: "Сколько грамматических основ в сложном предложении?", options: ["Одна", "Две или больше", "Три", "Ноль", "Зависит от длины"], correctAnswer: "Две или больше", hint: "Сложное = 2+ простых предложений" },
-      { type: 'fill', question: "Бессоюзное сложное предложение - это предложение с __ грамматическими основами, без союзов", correctAnswer: "двумя", hint: "Части соединяются только интонацией" }
+      { type: 'quiz', question: "Бессоюзное сложное предложение - это предложение с (...) грамматическими основами, без союзов", options: ["грамматическими", "двумя", "без", "союзов", "предложение"], correctAnswer: "двумя", hint: "Части соединяются только интонацией" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь синтаксис! 📖" }
   },
@@ -128,7 +128,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Сколько лет ждал старик золотую рыбку?", options: ["30 лет и 3 года", "33 года", "35 лет", "20 лет", "40 лет"], correctAnswer: "30 лет и 3 года", hint: "«Жил старик со своею старухой у самого синего моря...»" },
       { type: 'quiz', question: "Кто превратился в лебедя в сказке о царе Салтане?", options: ["Царевна", "Царица", "Ткачиха", "Повариха", "Сватья"], correctAnswer: "Царевна", hint: "Царевна-лебедь" },
       { type: 'find', question: "Выбери сказки Пушкина:", options: ["Сказка о рыбаке и рыбке", "Сказка о мёртвой царевне", "Конёк-горбунок", "Сказка о попе", "Теремок"], correctAnswer: ["Сказка о рыбаке и рыбке", "Сказка о мёртвой царевне", "Сказка о попе"], hint: "Александр Сергеевич Пушкин" },
-      { type: 'fill', question: "«Сказка о __ и о работнике его Балде»", correctAnswer: "попе", hint: "Поп нанял Балду" },
+      { type: 'quiz', question: "«Сказка о (...) и о работнике его Балде»", options: ["нет", "сказка", "попе", "работнике", "балде"], correctAnswer: "попе", hint: "Поп нанял Балду" },
       { type: 'quiz', question: "Кто помог prince Гвидону в сказке о царе Салтане?", options: ["Царевна-лебедь", "Золотая рыбка", "Баба Яга", "Кощей", "Серый волк"], correctAnswer: "Царевна-лебедь", hint: "Царевна-лебедь совершала чудеса" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь сказки Пушкина! ✨" }
@@ -145,7 +145,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Для чего строили пирамиды?", options: ["Для жилья", "Для фараонов (гробницы)", "Для храмов", "Для торговли", "Для школ"], correctAnswer: "Для фараонов (гробницы)", hint: "Пирамиды - гробницы фараонов" },
       { type: 'find', question: "Выбери достижения египтян:", options: ["Иероглифы", "Пирамиды", "Колесо", "Папирус", "Бумага"], correctAnswer: ["Иероглифы", "Пирамиды", "Папирус"], hint: "Египтяне изобрели иероглифы и папирус" },
       { type: 'quiz', question: "Кто был правителем Египта?", options: ["Царь", "Фараон", "Император", "Президент", "Султан"], correctAnswer: "Фараон", hint: "Фараон - правитель Древнего Египта" },
-      { type: 'fill', question: "Египтяне писали на __ — специальном материале из растений", correctAnswer: "папирусе", hint: "Папирус делали из стеблей растения" }
+      { type: 'quiz', question: "Египтяне писали на (...) — специальном материале из растений", options: ["папирусе", "специальном", "египтяне", "материале", "писали"], correctAnswer: "папирусе", hint: "Папирус делали из стеблей растения" }
     ],
     reward: { stars: 3, message: "Здорово! Ты знаешь Древний Египет! 🏛️" }
   },
@@ -159,7 +159,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Где проходили Олимпийские игры?", options: ["В Афинах", "В Олимпии", "В Спарте", "В Коринфе", "В Фивах"], correctAnswer: "В Олимпии", hint: "Олимпия - место первых Олимпийских игр" },
       { type: 'find', question: "Выбери греческих богов:", options: ["Зевс", "Юпитер", "Афина", "Посейдон", "Тор"], correctAnswer: ["Зевс", "Афина", "Посейдон"], hint: "Зевс, Афина, Посейдон - греческие боги" },
       { type: 'quiz', question: "Кто написал «Илиаду» и «Одиссею»?", options: ["Сократ", "Гомер", "Платон", "Аристотель", "Перикл"], correctAnswer: "Гомер", hint: "Гомер - автор «Илиады» и «Одиссеи»" },
-      { type: 'fill', question: "В Древней Греции на сцене выступали __ — актёры в масках", correctAnswer: "актёры", hint: "Театр был важной частью культуры" }
+      { type: 'quiz', question: "В Древней Греции на сцене выступали (...) — актёры в масках", options: ["выступали", "сцене", "греции", "древней", "актёры"], correctAnswer: "актёры", hint: "Театр был важной частью культуры" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь Древнюю Грецию! 🏺" }
   },
@@ -175,7 +175,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Что такое цитоплазма?", options: ["Оболочка клетки", "Внутренняя среда клетки", "Ядро", "Митохондрия", "Рибосома"], correctAnswer: "Внутренняя среда клетки", hint: "Цитоплазма заполняет клетку" },
       { type: 'find', question: "Выбери части клетки:", options: ["Ядро", "Сердце", "Митохондрии", "Лёгкие", "Мембрана"], correctAnswer: ["Ядро", "Митохондрии", "Мембрана"], hint: "Органоиды клетки" },
       { type: 'quiz', question: "Какой органоид называют «энергетической станцией»?", options: ["Ядро", "Митохондрия", "Рибосома", "Лизосома", "Комплекс Гольджи"], correctAnswer: "Митохондрия", hint: "Митохондрии вырабатывают энергию" },
-      { type: 'fill', question: "Оболочка клетки называется __ мембраной", correctAnswer: "клеточной", hint: "Клеточная мембрана окружает клетку" }
+      { type: 'quiz', question: "Оболочка клетки называется (...) мембраной", options: ["оболочка", "клетки", "клеточной", "мембраной", "называется"], correctAnswer: "клеточной", hint: "Клеточная мембрана окружает клетку" }
     ],
     reward: { stars: 3, message: "Замечательно! Ты знаешь строение клетки! 🔬" }
   },
@@ -189,7 +189,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Какое царство делает фотосинтез?", options: ["Бактерии", "Растения", "Животные", "Грибы", "Вирусы"], correctAnswer: "Растения", hint: "Растения содержат хлорофилл" },
       { type: 'quiz', question: "Грибы - это...", options: ["Растения", "Животные", "Отдельное царство", "Бактерии", "Минералы"], correctAnswer: "Отдельное царство", hint: "Грибы - отдельное царство живой природы" },
       { type: 'quiz', question: "Какое царство самое древнее?", options: ["Бактерии", "Грибы", "Растения", "Животные", "Вирусы"], correctAnswer: "Бактерии", hint: "Бактерии появились первыми на Земле" },
-      { type: 'fill', question: "Наука о живой природе называется __", correctAnswer: "биология", hint: "Биология изучает живые организмы" }
+      { type: 'quiz', question: "Наука о живой природе называется (...)", options: ["биология", "природе", "наука", "живой", "называется"], correctAnswer: "биология", hint: "Биология изучает живые организмы" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь классификацию! 🌿" }
   },
@@ -204,7 +204,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Что показывает масштаб?", options: ["Расстояние", "Во сколько раз уменьшено", "Направление", "Высоту", "Температуру"], correctAnswer: "Во сколько раз уменьшено", hint: "Масштаб показывает степень уменьшения" },
       { type: 'quiz', question: "Как называется линия на карте, соединяющая точки с одинаковой высотой?", options: ["Меридиан", "Изобара", "Горизонталь", "Экватор", "Параллель"], correctAnswer: "Горизонталь", hint: "Горизонтали показывают рельеф" },
       { type: 'find', question: "Выбери стороны горизонта:", options: ["Север", "Верх", "Юг", "Лево", "Восток"], correctAnswer: ["Север", "Юг", "Восток"], hint: "Север, юг, восток, запад" },
-      { type: 'fill', question: "Масштаб 1:1000 означает 1 см на карте = __ см на местности", correctAnswer: "1000", hint: "В 1000 раз больше" },
+      { type: 'quiz', question: "Масштаб 1:1000 означает 1 см на карте = (...) см на местности", options: ["0100", "1000", "1001", "3000", "1100"], correctAnswer: "1000", hint: "В 1000 раз больше" },
       { type: 'quiz', question: "Какой масштаб крупнее: 1:100 или 1:1000?", options: ["1:100", "1:1000", "Они равны", "Оба мелкие", "Нельзя сравнить"], correctAnswer: "1:100", hint: "Чем меньше число после двоеточия, тем крупнее масштаб" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь карты! 🗺️" }
@@ -218,10 +218,10 @@ export const fifthGradeGames: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "I have ___ this book.", options: ["read", "readed", "reading", "reads", "to read"], correctAnswer: "read", hint: "Present Perfect: have + V3 (3-я форма)" },
-      { type: 'fill', question: "She has ___ (visit) London. (visited)", correctAnswer: "visited", hint: "has + V3 (правильный глагол + -ed)" },
+      { type: 'quiz', question: "She has (...)_ (visit) London. (visited)", options: ["london", "has", "she", "visit", "visited"], correctAnswer: "visited", hint: "has + V3 (правильный глагол + -ed)" },
       { type: 'quiz', question: "Present Perfect используется для...", options: ["Действий в прошлом", "Действий с результатом в настоящем", "Будущих действий", "Регулярных действий", "Действий в будущем"], correctAnswer: "Действий с результатом в настоящем", hint: "Результат важен сейчас" },
       { type: 'find', question: "Выбери маркеры Present Perfect:", options: ["Yesterday", "Just", "Last week", "Already", "Ever"], correctAnswer: ["Just", "Already", "Ever"], hint: "Just, already, ever, never, yet" },
-      { type: 'fill', question: "They have ___ (finish) their homework. (finished)", correctAnswer: "finished", hint: "have + V3 (правильный глагол + -ed)" }
+      { type: 'quiz', question: "They have (...)_ (finish) their homework. (finished)", options: ["finish", "they", "their", "finished", "have"], correctAnswer: "finished", hint: "have + V3 (правильный глагол + -ed)" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь Present Perfect! ✨" }
   },
@@ -234,7 +234,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "I ___ swim. (могу)", options: ["can", "must", "should", "may", "will"], correctAnswer: "can", hint: "Can = мочь, уметь" },
       { type: 'quiz', question: "You ___ do your homework. (должен)", options: ["can", "must", "may", "will", "could"], correctAnswer: "must", hint: "Must = должен (обязанность)" },
       { type: 'quiz', question: "You ___ see a doctor. (следовало бы)", options: ["can", "must", "should", "may", "will"], correctAnswer: "should", hint: "Should = следует, совет" },
-      { type: 'fill', question: "__ I come in? (Можно?) - May", correctAnswer: "May", hint: "May = можно (просьба разрешения)" },
+      { type: 'quiz', question: "(...) I come in? (Можно?) - May", options: ["in", "May", "можно", "нет", "come"], correctAnswer: "May", hint: "May = можно (просьба разрешения)" },
       { type: 'quiz', question: "She ___ be at home. (возможно)", options: ["can", "must", "should", "may", "will"], correctAnswer: "may", hint: "May = возможно, может быть" }
     ],
     reward: { stars: 3, message: "Excellent! Модальные глаголы! 🇬🇧" }
@@ -247,10 +247,10 @@ export const fifthGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'fill', question: "12 ÷ 4 = __", correctAnswer: "3", hint: "Сколько раз 4 помещается в 12?" },
-      { type: 'fill', question: "7 × 8 = __", correctAnswer: "56", hint: "Таблица умножения" },
+      { type: 'quiz', question: "12 ÷ 4 = (...)", options: ["2", "9", "1", "3", "103"], correctAnswer: "3", hint: "Сколько раз 4 помещается в 12?" },
+      { type: 'quiz', question: "7 × 8 = (...)", options: ["51", "55", "66", "1056", "56"], correctAnswer: "56", hint: "Таблица умножения" },
       { type: 'quiz', question: "72 ÷ 9 = ?", options: ["7", "8", "9", "6", "10"], correctAnswer: "8", hint: "9 × 8 = 72" },
-      { type: 'fill', question: "45 ÷ __ = 9", correctAnswer: "5", hint: "Какое число умножить на 9 = 45?" },
+      { type: 'quiz', question: "45 ÷ (...) = 9", options: ["5", "0", "1005", "105", "2"], correctAnswer: "5", hint: "Какое число умножить на 9 = 45?" },
       { type: 'quiz', question: "13 × 6 = ?", options: ["68", "78", "88", "72", "76"], correctAnswer: "78", hint: "10 × 6 + 3 × 6 = 78" }
     ],
     reward: { stars: 3, message: "Отлично! Ты владеешь умножением и делением! ✖️➗" }
@@ -262,9 +262,9 @@ export const fifthGradeGames: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       { type: 'quiz', question: "Периметр квадрата со стороной 5:", options: ["10", "20", "25", "15", "30"], correctAnswer: "20", hint: "P = 4 × a = 4 × 5" },
-      { type: 'fill', question: "Площадь прямоугольника 3 × 4 = __", correctAnswer: "12", hint: "S = a × b" },
+      { type: 'quiz', question: "Площадь прямоугольника 3 × 4 = (...)", options: ["17", "12", "2", "22", "1012"], correctAnswer: "12", hint: "S = a × b" },
       { type: 'quiz', question: "Периметр прямоугольника 2 × 3:", options: ["5", "6", "10", "8", "12"], correctAnswer: "10", hint: "P = 2(a + b) = 2(2 + 3)" },
-      { type: 'fill', question: "Площадь квадрата со стороной 6 = __", correctAnswer: "36", hint: "S = a² = 6²" },
+      { type: 'quiz', question: "Площадь квадрата со стороной 6 = (...)", options: ["18", "41", "37", "36", "31"], correctAnswer: "36", hint: "S = a² = 6²" },
       { type: 'quiz', question: "Периметр квадрата со стороной 9:", options: ["81", "36", "18", "27", "45"], correctAnswer: "36", hint: "P = 4 × 9 = 36" }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь находить площадь и периметр! 📐" }
@@ -279,7 +279,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'find', question: "Выбери имена существительные:", options: ["Бег", "Бежать", "Красота", "Красивый", "Стол"], correctAnswer: ["Бег", "Красота", "Стол"], hint: "Существительные отвечают на «кто?» «что?»" },
       { type: 'quiz', question: "Сколько падежей в русском языке?", options: ["5", "6", "7", "4", "8"], correctAnswer: "6", hint: "И, Р, Д, В, Т, П" },
       { type: 'quiz', question: "Какой падеж отвечает на вопрос «кого? чего?»?", options: ["Именительный", "Родительный", "Дательный", "Винительный", "Творительный"], correctAnswer: "Родительный", hint: "Родительный падеж - нет кого? чего?" },
-      { type: 'fill', question: "Существительные изменяются по __, числам и падежам", correctAnswer: "родам", hint: "Мужской, женский, средний род" }
+      { type: 'quiz', question: "Существительные изменяются по (...), числам и падежам", options: ["существительные", "родам", "числам", "падежам", "изменяются"], correctAnswer: "родам", hint: "Мужской, женский, средний род" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь имя существительное! 📚" }
   },
@@ -291,9 +291,9 @@ export const fifthGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Корень - это:", options: ["Изменяемая часть", "Общая часть родственных слов", "Окончание", "Приставка", "Суффикс"], correctAnswer: "Общая часть родственных слов", hint: "В корне заключён общий смысл" },
       { type: 'find', question: "Выбери однокоренные слова к слову «лес»:", options: ["Лесник", "Лестница", "Лесной", "Лесть", "Перелесок"], correctAnswer: ["Лесник", "Лесной", "Перелесок"], hint: "Однокоренные слова имеют общий корень" },
-      { type: 'fill', question: "В слове «подосиновик» корень __", correctAnswer: "осин", hint: "Под-осин-овик" },
+      { type: 'quiz', question: "В слове «подосиновик» корень (...)", options: ["осая", "осать", "оска", "осин", "осие"], correctAnswer: "осин", hint: "Под-осин-овик" },
       { type: 'quiz', question: "Что такое чередование звуков?", options: ["Замена одной буквы другой", "Замена одного звука другим", "Удвоение согласных", "Окончание слова", "Приставка слова"], correctAnswer: "Замена одного звука другим", hint: "Например: бег - бежишь (г//ж)" },
-      { type: 'fill', question: "Однокоренные слова - это слова с __ корнем", correctAnswer: "общим", hint: "Общий корень = общий смысл" }
+      { type: 'quiz', question: "Однокоренные слова - это слова с (...) корнем", options: ["слова", "общим", "нет", "корнем", "однокоренные"], correctAnswer: "общим", hint: "Общий корень = общий смысл" }
     ],
     reward: { stars: 3, message: "Супер! Ты понимаешь состав слова! ✍️" }
   },
@@ -307,7 +307,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Когда произошло крещение Руси?", options: ["862", "988", "1147", "1015", "1000"], correctAnswer: "988", hint: "Князь Владимир крестил Русь" },
       { type: 'find', question: "Выбери первых русских князей:", options: ["Рюрик", "Олег", "Иван Грозный", "Святослав", "Пётр I"], correctAnswer: ["Рюрик", "Олег", "Святослав"], hint: "Первые князья Древней Руси" },
       { type: 'quiz', question: "Кто объединил Киев и Новгород?", options: ["Рюрик", "Олег", "Владимир", "Игорь", "Ярослав"], correctAnswer: "Олег", hint: "Вещий Олег, 882 год" },
-      { type: 'fill', question: "Столица Древней Руси — город __", correctAnswer: "Киев", hint: "Киев — мать городов русских" }
+      { type: 'quiz', question: "Столица Древней Руси — город (...)", options: ["столица", "киёт", "Киев", "киов", "киить"], correctAnswer: "Киев", hint: "Киев — мать городов русских" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь историю Древней Руси! 🏰" }
   },
@@ -321,7 +321,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "К какому царству относятся грибы?", options: ["Растения", "Животные", "Отдельное царство", "Бактерии", "Вирусы"], correctAnswer: "Отдельное царство", hint: "Грибы - это не растения и не животные" },
       { type: 'quiz', question: "Что нужно для фотосинтеза?", options: ["Только вода", "Свет, вода, углекислый газ", "Только свет", "Только воздух", "Только почва"], correctAnswer: "Свет, вода, углекислый газ", hint: "Растения создают пищу с помощью света" },
       { type: 'find', question: "Выбери животных водоёмов:", options: ["Рыба", "Лягушка", "Волк", "Бобр", "Сокол"], correctAnswer: ["Рыба", "Лягушка", "Бобр"], hint: "Животные, связанные с водой" },
-      { type: 'fill', question: "Среда обитания — это место, где животное __", correctAnswer: "живёт", hint: "Среда обитания = дом животного" }
+      { type: 'quiz', question: "Среда обитания — это место, где животное (...)", options: ["живать", "живем", "живует", "живёт", "живить"], correctAnswer: "живёт", hint: "Среда обитания = дом животного" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь среды обитания! 🌿" }
   },
@@ -334,7 +334,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'find', question: "Выбери природные зоны России:", options: ["Тундра", "Джунгли", "Тайга", "Саванна", "Степь"], correctAnswer: ["Тундра", "Тайга", "Степь"], hint: "Природные зоны нашей страны" },
       { type: 'quiz', question: "Какая зона находится севернее тайги?", options: ["Степь", "Тундра", "Пустыня", "Саванна", "Джунгли"], correctAnswer: "Тундра", hint: "Тундра - самая северная зона с растениями" },
       { type: 'quiz', question: "Тайга - это...", options: ["Лес из лиственных деревьев", "Лес из хвойных деревьев", "Безлесная зона", "Зона степей", "Тропический лес"], correctAnswer: "Лес из хвойных деревьев", hint: "Ель, сосна, кедр - деревья тайги" },
-      { type: 'fill', question: "Самая холодная природная зона - арктическая __", correctAnswer: "пустыня", hint: "Лёд и снег" },
+      { type: 'quiz', question: "Самая холодная природная зона - арктическая (...)", options: ["арктическая", "холодная", "зона", "пустыня", "природная"], correctAnswer: "пустыня", hint: "Лёд и снег" },
       { type: 'quiz', question: "Какая природная зона находится южнее тайги?", options: ["Тундра", "Степь", "Арктическая пустыня", "Пустыня", "Тропики"], correctAnswer: "Степь", hint: "Степь - зона травянистой растительности" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь природные зоны! 🗺️" }
@@ -346,10 +346,10 @@ export const fifthGradeGames: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "Yesterday I ___ to school. (go)", options: ["go", "went", "goed", "going", "goes"], correctAnswer: "went", hint: "Past Simple - прошедшее время" },
-      { type: 'fill', question: "She ___ (play) football yesterday. (played)", correctAnswer: "played", hint: "Правильный глагол + -ed" },
+      { type: 'quiz', question: "She (...)_ (play) football yesterday. (played)", options: ["football", "play", "she", "yesterday", "played"], correctAnswer: "played", hint: "Правильный глагол + -ed" },
       { type: 'find', question: "Выбери неправильные глаголы:", options: ["Go", "Play", "See", "Watch", "Come"], correctAnswer: ["Go", "See", "Come"], hint: "Неправильные глаголы не добавляют -ed" },
       { type: 'quiz', question: "I ___ (see) him yesterday.", options: ["seed", "saw", "seen", "see", "seeing"], correctAnswer: "saw", hint: "See - saw - seen" },
-      { type: 'fill', question: "We ___ (visit) Moscow last year. (visited)", correctAnswer: "visited", hint: "Правильный глагол + -ed" }
+      { type: 'quiz', question: "We (...)_ (visit) Moscow last year. (visited)", options: ["visited", "we", "visit", "year", "moscow"], correctAnswer: "visited", hint: "Правильный глагол + -ed" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь прошедшее время! 🇬🇧" }
   },
@@ -361,11 +361,11 @@ export const fifthGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'fill', question: "0,6 + 0,4 = __", correctAnswer: "1", hint: "6 + 4 = 10, значит 0,6 + 0,4 = 1" },
+      { type: 'quiz', question: "0,6 + 0,4 = (...)", options: ["2", "1", "1001", "0", "11"], correctAnswer: "1", hint: "6 + 4 = 10, значит 0,6 + 0,4 = 1" },
       { type: 'quiz', question: "2,5 - 1,3 = ?", options: ["1,2", "1,5", "2,2", "1,3", "0,8"], correctAnswer: "1,2", hint: "25 - 13 = 12" },
-      { type: 'fill', question: "0,2 × 5 = __", correctAnswer: "1", hint: "2 × 5 = 10, значит 0,2 × 5 = 1,0 = 1" },
+      { type: 'quiz', question: "0,2 × 5 = (...)", options: ["1", "1001", "0", "2", "11"], correctAnswer: "1", hint: "2 × 5 = 10, значит 0,2 × 5 = 1,0 = 1" },
       { type: 'quiz', question: "1,5 ÷ 0,5 = ?", options: ["3", "0,3", "30", "3,5", "2,5"], correctAnswer: "3", hint: "15 ÷ 5 = 3" },
-      { type: 'fill', question: "3,7 + 2,3 = __", correctAnswer: "6", hint: "37 + 23 = 60, значит 3,7 + 2,3 = 6,0 = 6" }
+      { type: 'quiz', question: "3,7 + 2,3 = (...)", options: ["60", "1", "18", "11", "6"], correctAnswer: "6", hint: "37 + 23 = 60, значит 3,7 + 2,3 = 6,0 = 6" }
     ],
     reward: { stars: 3, message: "Отлично! Ты работаешь с десятичными дробями! 🔢" }
   },
@@ -376,9 +376,9 @@ export const fifthGradeGames: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       { type: 'quiz', question: "В классе 20 учеников, 25% - отличники. Сколько отличников?", options: ["4", "5", "6", "3", "8"], correctAnswer: "5", hint: "25% = 1/4, 20 ÷ 4 = 5" },
-      { type: 'fill', question: "Цена 100 рублей, скидка 10%. Цена со скидкой = __ руб.", correctAnswer: "90", hint: "100 - 10 = 90" },
+      { type: 'quiz', question: "Цена 100 рублей, скидка 10%. Цена со скидкой = (...) руб.", options: ["9", "90", "180", "89", "190"], correctAnswer: "90", hint: "100 - 10 = 90" },
       { type: 'quiz', question: "20% от 50 = ?", options: ["5", "10", "15", "20", "25"], correctAnswer: "10", hint: "20% = 1/5, 50 ÷ 5 = 10" },
-      { type: 'fill', question: "Если 30% = 15, то 100% = __", correctAnswer: "50", hint: "15 ÷ 0,3 = 50" },
+      { type: 'quiz', question: "Если 30% = 15, то 100% = (...)", options: ["49", "50", "55", "150", "51"], correctAnswer: "50", hint: "15 ÷ 0,3 = 50" },
       { type: 'quiz', question: "Число увеличили на 20% и получили 120. Какое было число?", options: ["96", "100", "80", "90", "110"], correctAnswer: "100", hint: "100% × 1,2 = 120" }
     ],
     reward: { stars: 3, message: "Супер! Ты решаешь задачи на проценты! 💯" }
@@ -390,10 +390,10 @@ export const fifthGradeGames: GameLesson[] = [
     color: "text-red-400",
     tasks: [
       { type: 'quiz', question: "В приставках на -з/-с перед звонкими пишется:", options: ["-з", "-с", "Зависит от корня", "Обе буквы", "Ничего"], correctAnswer: "-з", hint: "Перед звонкими - з, перед глухими - с" },
-      { type: 'fill', question: "Бе__шумный (перед ш - глухой)", correctAnswer: "с", hint: "Ш - глухой звук, пишем с" },
+      { type: 'quiz', question: "Бе(...)шумный (перед ш - глухой)", options: ["перед", "д", "х", "в", "с"], correctAnswer: "с", hint: "Ш - глухой звук, пишем с" },
       { type: 'find', question: "Выбери слова с приставкой на -з:", options: ["Беззвёздный", "Бесконечный", "Безопасный", "Бесшумный", "Безвкусица"], correctAnswer: ["Беззвёздный", "Безопасный", "Безвкусица"], hint: "Перед звонкими пишется з" },
       { type: 'quiz', question: "Приставка пре- означает:", options: ["Очень", "Пере-", "Оба значения", "Без-", "Не-"], correctAnswer: "Оба значения", hint: "Прекрасный = очень красивый, преградить = перегородить" },
-      { type: 'fill', question: "Приставка при- означает __ или приближение", correctAnswer: "близость", hint: "Пришкольный, прибежать" }
+      { type: 'quiz', question: "Приставка при- означает (...) или приближение", options: ["при", "приставка", "означает", "приближение", "близость"], correctAnswer: "близость", hint: "Пришкольный, прибежать" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь приставки! ✍️" }
   },
@@ -406,7 +406,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Имя прилагательное обозначает:", options: ["Предмет", "Признак предмета", "Действие", "Количество", "Место"], correctAnswer: "Признак предмета", hint: "Прилагательное отвечает на «какой?»" },
       { type: 'find', question: "Выбери имена прилагательные:", options: ["Красивый", "Красота", "Бежать", "Быстрый", "Синий"], correctAnswer: ["Красивый", "Быстрый", "Синий"], hint: "Прилагательные описывают предметы" },
       { type: 'quiz', question: "Прилагательные изменяются по:", options: ["Временам", "Родам, числам, падежам", "Лицам", "Склонениям", "Видам"], correctAnswer: "Родам, числам, падежам", hint: "Прилагательные согласуются с существительными" },
-      { type: 'fill', question: "Красивый (м.р.) → Красивая (ж.р.) → Красив__ (ср.р.)", correctAnswer: "ое", hint: "Красивое (средний род)" },
+      { type: 'quiz', question: "Красивый (м.р.) → Красивая (ж.р.) → Красив(...) (ср.р.)", options: ["ое", "оо", "ёе", "красив", "ою"], correctAnswer: "ое", hint: "Красивое (средний род)" },
       { type: 'quiz', question: "На какой вопрос отвечает прилагательное во множественном числе?", options: ["Какой?", "Какая?", "Какое?", "Какие?", "Кто?"], correctAnswer: "Какие?", hint: "Множественное число: какие?" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь прилагательные! 📝" }
@@ -420,7 +420,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Столица Римской империи:", options: ["Афины", "Рим", "Александрия", "Карфаген", "Спарта"], correctAnswer: "Рим", hint: "Рим - столица Римской империи" },
       { type: 'find', question: "Выбери римских богов:", options: ["Зевс", "Юпитер", "Марс", "Посейдон", "Венера"], correctAnswer: ["Юпитер", "Марс", "Венера"], hint: "Римские боги: Юпитер, Марс, Венера" },
       { type: 'quiz', question: "Гладиаторы - это:", options: ["Боги", "Бойцы на арене", "Политики", "Рабы", "Философы"], correctAnswer: "Бойцы на арене", hint: "Гладиаторы сражались в Колизее" },
-      { type: 'fill', question: "Рим был основан в __ г. до н.э. (753)", correctAnswer: "753", hint: "753 год до н.э." },
+      { type: 'quiz', question: "Рим был основан в (...) г. до н.э. (753)", options: ["653", "853", "753", "752", "1506"], correctAnswer: "753", hint: "753 год до н.э." },
       { type: 'quiz', question: "Какое здание в Риме было самым большим амфитеатром?", options: ["Пантеон", "Колизей", "Форум", "Триумфальная арка", "Храм"], correctAnswer: "Колизей", hint: "Колизей - амфитеатр для гладиаторских боёв" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь Древний Рим! 🏛️" }
@@ -434,7 +434,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Феодализм - это:", options: ["Рабовладение", "Система земельных отношений", "Демократия", "Капитализм", "Коммунизм"], correctAnswer: "Система земельных отношений", hint: "Феодалы владели землёй" },
       { type: 'find', question: "Выбери сословия Средневековья:", options: ["Духовенство", "Рабочие", "Рыцари", "Крестьяне", "Буржуазия"], correctAnswer: ["Духовенство", "Рыцари", "Крестьяне"], hint: "Три сословия: духовенство, рыцари, крестьяне" },
       { type: 'quiz', question: "Рыцарь - это:", options: ["Крестьянин", "Воин-феодал", "Священник", "Торговец", "Ремесленник"], correctAnswer: "Воин-феодал", hint: "Рыцари были воинами" },
-      { type: 'fill', question: "Замок - это __ феодала", correctAnswer: "крепость", hint: "Замки защищали феодалов" },
+      { type: 'quiz', question: "Замок - это (...) феодала", options: ["нет", "феодала", "крепость", "замок", "не знаю"], correctAnswer: "крепость", hint: "Замки защищали феодалов" },
       { type: 'quiz', question: "Кто организовывал крестовые походы?", options: ["Короли", "Папа Римский", "Феодалы", "Крестьяне", "Рыцари"], correctAnswer: "Папа Римский", hint: "Папа Римский призывал к крестовым походам" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь Средние века! ⚔️" }
@@ -448,7 +448,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Какой орган растения всасывает воду?", options: ["Лист", "Корень", "Стебель", "Цветок", "Плод"], correctAnswer: "Корень", hint: "Корень всасывает воду из почвы" },
       { type: 'find', question: "Выбери части растения:", options: ["Корень", "Стебель", "Лист", "Цветок", "Плод"], correctAnswer: ["Корень", "Стебель", "Лист", "Цветок", "Плод"], hint: "Основные органы растения" },
       { type: 'quiz', question: "Фотосинтез происходит в:", options: ["Корне", "Листьях", "Стебле", "Цветке", "Плоде"], correctAnswer: "Листьях", hint: "В листьях есть хлорофилл" },
-      { type: 'fill', question: "Корень закрепляет растение в __", correctAnswer: "почве", hint: "Корень держит растение" },
+      { type: 'quiz', question: "Корень закрепляет растение в (...)", options: ["растение", "закрепляет", "почве", "нет", "корень"], correctAnswer: "почве", hint: "Корень держит растение" },
       { type: 'quiz', question: "По какому органу вода поднимается от корня к листьям?", options: ["Корень", "Стебель", "Лист", "Цветок", "Плод"], correctAnswer: "Стебель", hint: "Стебель - транспортный путь растения" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь растения! 🌱" }
@@ -462,7 +462,7 @@ export const fifthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Сколько океанов на Земле?", options: ["3", "4", "5", "6", "7"], correctAnswer: "5", hint: "Тихий, Атлантический, Индийский, Северный Ледовитый, Южный" },
       { type: 'find', question: "Выбери части океана:", options: ["Море", "Залив", "Пролив", "Озеро", "Река"], correctAnswer: ["Море", "Залив", "Пролив"], hint: "Части Мирового океана" },
       { type: 'quiz', question: "Самый тёплый океан:", options: ["Тихий", "Индийский", "Атлантический", "Северный Ледовитый", "Южный"], correctAnswer: "Индийский", hint: "Индийский океан самый тёплый" },
-      { type: 'fill', question: "Солёность океанской воды = __‰ (промилле)", correctAnswer: "35", hint: "В среднем 35‰" },
+      { type: 'quiz', question: "Солёность океанской воды = (...)‰ (промилле)", options: ["17", "70", "105", "35", "37"], correctAnswer: "35", hint: "В среднем 35‰" },
       { type: 'quiz', question: "Какой океан самый большой?", options: ["Атлантический", "Тихий", "Индийский", "Северный Ледовитый", "Южный"], correctAnswer: "Тихий", hint: "Тихий океан - самый большой на Земле" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь океаны! 🌊" }
@@ -474,11 +474,523 @@ export const fifthGradeGames: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "I ___ reading now.", options: ["is", "am", "are", "be", "was"], correctAnswer: "am", hint: "I am + V-ing" },
-      { type: 'fill', question: "She __ (play) tennis now. (is playing)", correctAnswer: "is playing", hint: "She is + V-ing" },
+      { type: 'quiz', question: "She (...) (play) tennis now. (is playing)", options: ["play", "now", "playing", "tennis", "is playing"], correctAnswer: "is playing", hint: "She is + V-ing" },
       { type: 'quiz', question: "They ___ sleeping.", options: ["is", "am", "are", "be", "was"], correctAnswer: "are", hint: "They are + V-ing" },
       { type: 'find', question: "Выбери маркеры Present Continuous:", options: ["Now", "Yesterday", "At the moment", "Last week", "Today (сейчас)"], correctAnswer: ["Now", "At the moment", "Today (сейчас)"], hint: "Маркеры: now, at the moment, look, listen" },
-      { type: 'fill', question: "Look! The cat ___ (sleep) on the sofa. (is sleeping)", correctAnswer: "is sleeping", hint: "The cat is + V-ing" }
+      { type: 'quiz', question: "Look! The cat (...)_ (sleep) on the sofa. (is sleeping)", options: ["sleeping", "look", "sofa", "is", "is sleeping"], correctAnswer: "is sleeping", hint: "The cat is + V-ing" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь Present Continuous! ⏳" }
+  },
+
+  // ========== ИСТОРИЯ — НОВЫЕ ТЕСТЫ v4.0 ==========
+  {
+    title: "Культура Древнего мира",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "Какая письменность была в Древнем Египте?", options: ["Кириллица", "Иероглифы", "Латиница", "Арабская вязь", "Руны"], correctAnswer: "Иероглифы", hint: "Иероглифы — рисуночные знаки египтян" },
+      { type: 'quiz', question: "Кто был автором «Илиады» и «Одиссеи»?", options: ["Сократ", "Платон", "Гомер", "Аристотель", "Фидий"], correctAnswer: "Гомер", hint: "Гомер — великий греческий поэт древности" },
+      { type: 'quiz', question: "На каком материале писали в Древнем Египте?", options: ["Бумаге", "Пергаменте", "Папирусе", "Бересте", "Глине"], correctAnswer: "Папирусе", hint: "Папирус делали из тростника, растущего по берегам Нила" },
+      { type: 'quiz', question: "Знаменитый греческий храм, построенный на Акрополе, называется (...)", options: ["Парфенон", "греческий", "храм", "называется", "знаменитый"], correctAnswer: "Парфенон", hint: "Парфенон — храм богини Афины" },
+      { type: 'quiz', question: "Какое достижение принадлежит римлянам?", options: ["Иероглифы", "Римское право", "Папирус", "Олимпийские игры", "Демократия"], correctAnswer: "Римское право", hint: "Римское право стало основой современных законов" },
+      { type: 'quiz', question: "Где зародился театр как искусство?", options: ["В Риме", "В Египте", "В Греции", "В Вавилоне", "В Индии"], correctAnswer: "В Греции", hint: "Греки создали театр с актёрами и хором" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь культуру Древнего мира! 🎨" }
+  },
+  {
+    title: "Раннее Средневековье: Переселение народов",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "В каком году пала Западная Римская империя?", options: ["410", "455", "476", "500", "395"], correctAnswer: "476", hint: "476 год — конец Западной Римской империи" },
+      { type: 'quiz', question: "Какие племена создали Франкское государство?", options: ["Готы", "Франки", "Вандалы", "Гунны", "Англы"], correctAnswer: "Франки", hint: "Франки заселили Галлию (Францию)" },
+      { type: 'quiz', question: "Вождь франков, принявший христианство, — (...)", options: ["принявший", "вождь", "христианство", "Хлодвиг", "франков"], correctAnswer: "Хлодвиг", hint: "Хлодвиг объединил франков и крестился в 496 году" },
+      { type: 'quiz', question: "В каком году Карл Великий стал императором?", options: ["768", "800", "814", "843", "776"], correctAnswer: "800", hint: "В 800 году Карл Великий был коронован в Риме" },
+      { type: 'quiz', question: "Какое государство называлось Византией?", options: ["Западная Римская империя", "Восточная Римская империя", "Франкское королевство", "Арабский халифат", "Священная Римская империя"], correctAnswer: "Восточная Римская империя", hint: "Византия — восточная часть Римской империи" },
+      { type: 'quiz', question: "Столица Византийской империи — город (...)", options: ["империи", "Константинополь", "столица", "город", "византийской"], correctAnswer: "Константинополь", hint: "Константинополь сейчас называется Стамбул" }
+    ],
+    reward: { stars: 3, message: "Здорово! Ты понимаешь Раннее Средневековье! ⚔️" }
+  },
+  {
+    title: "Феодализм — рыцари и замки",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "Что такое феодал?", options: ["Раб", "Землевладелец-воин", "Крестьянин", "Торговец", "Ремесленник"], correctAnswer: "Землевладелец-воин", hint: "Феодал владел землёй и имел вассалов" },
+      { type: 'quiz', question: "Как называлась главная башня замка?", options: ["Башня", "Колокольня", "Донжон", "Сторожевая", "Маяк"], correctAnswer: "Донжон", hint: "Донжон — последняя крепость защиты в замке" },
+      { type: 'quiz', question: "Воин на коне в доспехах, служивший феодалу, назывался (...)", options: ["феодалу", "назывался", "доспехах", "рыцарь", "служивший"], correctAnswer: "рыцарь", hint: "Рыцарь — конный воин Средневековья" },
+      { type: 'quiz', question: "Какой возраст был для посвящения в рыцари?", options: ["14 лет", "16 лет", "18 лет", "21 год", "25 лет"], correctAnswer: "21 год", hint: "В 21 год оруженосец становился рыцарем" },
+      { type: 'quiz', question: "Рыцарский кодекс не требовал от рыцаря:", options: ["Храбрости", "Верности сеньору", "Защиты слабых", "Образованности", "Чести"], correctAnswer: "Образованности", hint: "Рыцарь должен быть храбрым, верным и честным" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь о рыцарях и замках! 🏰" }
+  },
+  {
+    title: "Средневековые города",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "Что такое цех в средневековом городе?", options: ["Торговая площадь", "Организация ремесленников", "Рынок", "Школа", "Церковь"], correctAnswer: "Организация ремесленников", hint: "Цех объединял ремесленников одной профессии" },
+      { type: 'quiz', question: "Какой город считается старейшим университетским центром Европы?", options: ["Оксфорд", "Париж", "Болонья", "Кембридж", "Салерно"], correctAnswer: "Болонья", hint: "Болонский университет основан в 1088 году" },
+      { type: 'quiz', question: "Крупные ежегодные торговые рынки в Средние века назывались (...)", options: ["века", "рынки", "назывались", "ярмарки", "средние"], correctAnswer: "ярмарки", hint: "Ярмарки собирали купцов из разных стран" },
+      { type: 'quiz', question: "Ганза — это:", options: ["Рыцарский орден", "Союз торговых городов", "Религиозный орден", "Цех ремесленников", "Королевство"], correctAnswer: "Союз торговых городов", hint: "Ганза — торговый союз городов Северной Европы" },
+      { type: 'quiz', question: "Почему города боролись за независимость от феодалов?", options: ["Хотели строить замки", "Добивались самоуправления и свободной торговли", "Хотели воевать", "Искали новые земли", "Не хотели платить налоги"], correctAnswer: "Добивались самоуправления и свободной торговли", hint: "Города боролись за вольности и самоуправление" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь о средневековых городах! 🏘️" }
+  },
+  {
+    title: "Культура Средневековья",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "Какой архитектурный стиль средневековых соборов отличается высокими шпилями и витражами?", options: ["Романский", "Готический", "Классический", "Барокко", "Ампир"], correctAnswer: "Готический", hint: "Готика — стиль с высокими башнями и витражами" },
+      { type: 'quiz', question: "Обитель монахов в Средние века называлась (...)", options: ["века", "называлась", "монастырь", "средние", "обитель"], correctAnswer: "монастырь", hint: "Монастырь — место жизни монахов" },
+      { type: 'quiz', question: "Что делали монахи в монастырях?", options: ["Воевали", "Переписывали книги и вели летописи", "Торговали", "Плавали по морям", "Строили дороги"], correctAnswer: "Переписывали книги и вели летописи", hint: "Монахи сохраняли знания, переписывая книги" },
+      { type: 'quiz', question: "Что такое витраж?", options: ["Картина", "Цветные стёкла в окнах собора", "Скульптура", "Фреска", "Мозаика"], correctAnswer: "Цветные стёкла в окнах собора", hint: "Витражи — цветные стёкла, собранные в картину" },
+      { type: 'quiz', question: "Ренессанс (Возрождение) — это:", options: ["Возврат к язычеству", "Возрождение интереса к античной культуре", "Строительство замков", "Крестовый поход", "Эпидемия"], correctAnswer: "Возрождение интереса к античной культуре", hint: "Ренессанс — период возрождения античной культуры" }
+    ],
+    reward: { stars: 3, message: "Прекрасно! Ты знаешь культуру Средневековья! 🎨" }
+  },
+  {
+    title: "Восточные славяне",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "Какое славянское племя жило по берегам реки Днепр?", options: ["Поляне", "Кривичи", "Вятичи", "Радимичи", "Ильменские словене"], correctAnswer: "Поляне", hint: "Поляне жили вокруг Киева" },
+      { type: 'quiz', question: "Кто такой Перун у восточных славян?", options: ["Царь", "Бог грома и молнии", "Князь", "Жрец", "Герой"], correctAnswer: "Бог грома и молнии", hint: "Перун — главный бог-громовержец славян" },
+      { type: 'quiz', question: "Восточные славяне жили общинами, которые назывались (...)", options: ["вервь", "жили", "славяне", "общинами", "назывались"], correctAnswer: "вервь", hint: "Вервь — соседская община у славян" },
+      { type: 'quiz', question: "Каким занятием занимались восточные славяне?", options: ["Только охотой", "Земледелием, скотоводством, охотой и рыболовством", "Только торговлей", "Только войной", "Только ремеслом"], correctAnswer: "Земледелием, скотоводством, охотой и рыболовством", hint: "Славяне были земледельцами и скотоводами" },
+      { type: 'quiz', question: "Как называлось жилище восточных славян?", options: ["Юрта", "Полуземлянка", "Замок", "Особняк", "Иглу"], correctAnswer: "Полуземлянка", hint: "Полуземлянки — жилища, углублённые в землю" },
+      { type: 'quiz', question: "Религия восточных славян, поклонявшихся силам природы, называется (...)", options: ["славян", "силам", "язычество", "религия", "называется"], correctAnswer: "язычество", hint: "Язычество — вера в нескольких богов природы" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь о восточных славянах! 🌲" }
+  },
+  {
+    title: "Образование Древнерусского государства",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "В каком году варяги были призваны на Русь?", options: ["862", "882", "911", "945", "988"], correctAnswer: "862", hint: "862 год — призвание Рюрика" },
+      { type: 'quiz', question: "Кто объединил Киев и Новгород в 882 году?", options: ["Рюрик", "Олег", "Игорь", "Ольга", "Святослав"], correctAnswer: "Олег", hint: "Вещий Олег перенёс столицу в Киев" },
+      { type: 'quiz', question: "Первый князь династии Рюриковичей назывался (...)", options: ["назывался", "первый", "Рюрик", "князь", "рюриковичей"], correctAnswer: "Рюрик", hint: "Рюрик стал правителем Новгорода в 862 году" },
+      { type: 'quiz', question: "Что собирали с подвластного населения в Древней Руси?", options: ["Подати", "Дань (полюдье)", "Налоги", "Пошлины", "Оброк"], correctAnswer: "Дань (полюдье)", hint: "Князь с дружиной ежегодно обходил земли, собирая дань" },
+      { type: 'quiz', question: "Какая княгиня первой приняла христианство на Руси?", options: ["Ольга", "Анна", "Ирина", "Евпраксия", "Глебовна"], correctAnswer: "Ольга", hint: "Княгиня Ольга крестилась в Византии" }
+    ],
+    reward: { stars: 3, message: "Здорово! Ты знаешь историю образования Руси! 👑" }
+  },
+  {
+    title: "Крещение Руси",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "В каком году произошло крещение Руси?", options: ["862", "911", "957", "988", "1019"], correctAnswer: "988", hint: "988 год — князь Владимир крестил Русь" },
+      { type: 'quiz', question: "Какой князь крестил Русь?", options: ["Олег", "Игорь", "Святослав", "Владимир", "Ярослав"], correctAnswer: "Владимир", hint: "Владимир Красное Солнышко — креститель Руси" },
+      { type: 'quiz', question: "Из какой страны Русь приняла православное христианство? Из (...)", options: ["какой", "страны", "христианство", "Византии", "приняла"], correctAnswer: "Византии", hint: "Русь приняла веру из Византийской империи" },
+      { type: 'quiz', question: "Почему Владимир выбрал православие?", options: ["Из-за красоты храмов", "Из-за красоты богослужения по рассказам послов", "Из-за силы армии", "Из-за богатства", "Из-за угрозы войны"], correctAnswer: "Из-за красоты богослужения по рассказам послов", hint: "Послы Владимира были поражены красотой византийского богослужения" },
+      { type: 'quiz', question: "Что изменилось на Руси после крещения?", options: ["Ничего", "Стала христианской страной, строились храмы", "Стала мусульманской", "Перестала существовать", "Стала республикой"], correctAnswer: "Стала христианской страной, строились храмы", hint: "Крещение Руси сделало её православной страной" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь о крещении Руси! ✝️" }
+  },
+  {
+    title: "Расцвет Древней Руси",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "При каком князе Древняя Русь достигла наивысшего расцвета?", options: ["Олег", "Владимир", "Ярослав Мудрый", "Святослав", "Мстислав"], correctAnswer: "Ярослав Мудрый", hint: "Ярослав Мудрый правил с 1019 по 1054 год" },
+      { type: 'quiz', question: "Какой документ был создан при Ярославе Мудром?", options: ["Азбука", "Русская Правда", "Летопись", "Библия", "Устав"], correctAnswer: "Русская Правда", hint: "Русская Правда — первый письменный свод законов" },
+      { type: 'quiz', question: "При Ярославе Мудром был построен знаменитый храм — Софиевский (...)", options: ["мудром", "ярославе", "знаменитый", "построен", "собор"], correctAnswer: "собор", hint: "Софиевский собор стоит в Киеве до сих пор" },
+      { type: 'quiz', question: "Какое событие привело к разделению Руси на удельные княжества?", options: ["Татарское нашествие", "Любечский съезд князей", "Крещение Руси", "Междоусобицы и смерть Ярослава Мудрого", "Крестовые походы"], correctAnswer: "Междоусобицы и смерть Ярослава Мудрого", hint: "После смерти Ярослава сыновья начали делить власть" },
+      { type: 'quiz', question: "Какой город стал крупнейшим центром торговли на Руси?", options: ["Москва", "Чернигов", "Новгород", "Рязань", "Муром"], correctAnswer: "Новгород", hint: "Новгород был богатейшей торговой республикой" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь о расцвете Древней Руси! 🌟" }
+  },
+  {
+    title: "Монгольское нашествие",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "В каком году состоялась битва на реке Калке?", options: ["1223", "1237", "1240", "1242", "1238"], correctAnswer: "1223", hint: "1223 год — первая битва русских с монголами на Калке" },
+      { type: 'quiz', question: "Кто возглавлял монгольское войско при нашествии на Русь?", options: ["Чингисхан", "Батый", "Тимур", "Угэдэй", "Субэдэй"], correctAnswer: "Батый", hint: "Батый — внук Чингисхана, предводитель нашествия" },
+      { type: 'quiz', question: "Первый русский город, захваченный Батыем в 1237 году, — (...)", options: ["город", "Рязань", "первый", "захваченный", "русский"], correctAnswer: "Рязань", hint: "Рязань пала первой после жестокой осады" },
+      { type: 'quiz', question: "В каком году монголы разорили Киев?", options: ["1237", "1238", "1240", "1242", "1243"], correctAnswer: "1240", hint: "1240 год — падение Киева под ударом монголов" },
+      { type: 'quiz', question: "Какая битва остановила шведских крестоносцев на севере?", options: ["Куликовская", "Ледовое побоище", "Битва на Калке", "Битва на Дону", "Бородинская"], correctAnswer: "Ледовое побоище", hint: "1242 год — Александр Невский разбил шведов на Чудском озере" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь о монгольском нашествии! ⚔️" }
+  },
+  {
+    title: "Русь и Орда",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "Как называлась система зависимости русских земель от монголов?", options: ["Рабство", "Иго", "Колонизация", "Феодализм", "Крепостное право"], correctAnswer: "Иго", hint: "Монголо-татарское иго длилось около 240 лет" },
+      { type: 'quiz', question: "Дань, которую русские земли платили Орде, называлась (...)", options: ["русские", "земли", "ордынский выход", "орде", "дань"], correctAnswer: "ордынский выход", hint: "Ордынский выход — ежегодная дань серебром" },
+      { type: 'quiz', question: "Что получал русский князь в Орде для подтверждения власти?", options: ["Меч", "Корону", "Ярлык", "Печать", "Знамя"], correctAnswer: "Ярлык", hint: "Ярлык — грамота хана, подтверждающая власть князя" },
+      { type: 'quiz', question: "Какой князь начал собирать русские земли вокруг Москвы?", options: ["Даниил Александрович", "Иван Калита", "Дмитрий Донской", "Иван III", "Ярослав Мудрый"], correctAnswer: "Иван Калита", hint: "Иван Калита получил ярлык на великое княжение" },
+      { type: 'quiz', question: "В каком году произошла Куликовская битва?", options: ["1223", "1240", "1380", "1480", "1147"], correctAnswer: "1380", hint: "1380 год — битва на Куликовом поле" },
+      { type: 'quiz', question: "Русский полководец, победивший на Куликовом поле, — князь Дмитрий (...)", options: ["Донской", "поле", "победивший", "дмитрий", "полководец"], correctAnswer: "Донской", hint: "Дмитрий Донской — герой Куликовской битвы" }
+    ],
+    reward: { stars: 3, message: "Здорово! Ты знаешь об эпохе ига! 🛡️" }
+  },
+  {
+    title: "Образование Российского государства",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "В каком году Русь окончательно освободилась от ордынского ига?", options: ["1380", "1453", "1480", "1510", "1547"], correctAnswer: "1480", hint: "1480 год — Стояние на реке Угре, конец ига" },
+      { type: 'quiz', question: "Кто стал первым русским царём?", options: ["Иван III", "Василий III", "Иван IV Грозный", "Дмитрий Донской", "Иван Калита"], correctAnswer: "Иван IV Грозный", hint: "Иван IV в 1547 году первым принял титул царя" },
+      { type: 'quiz', question: "Стояние на реке (...) в 1480 году привело к освобождению от ига", options: ["привело", "стояние", "освобождению", "ига", "Угре"], correctAnswer: "Угре", hint: "Стояние на Угре — без боя закончилось противостояние с Ордой" },
+      { type: 'quiz', question: "Какой орган управления создал Иван Грозный?", options: ["Боярскую думу", "Земский собор", "Избранную раду", "Сенат", "Государственную думу"], correctAnswer: "Избранную раду", hint: "Избранная рада — круг близких советников Ивана Грозного" },
+      { type: 'quiz', question: "Какое ополчение освободило Москву от поляков в 1612 году?", options: ["Стрелецкое", "Народное ополчение Минина и Пожарского", "Дворянское", "Казачье", "Монашеское"], correctAnswer: "Народное ополчение Минина и Пожарского", hint: "Кузьма Минин и Дмитрий Пожарский организовали ополчение" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь историю Российского государства! 🇷🇺" }
+  },
+  {
+    title: "Культура Древней Руси",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "Кто создал славянскую азбуку — кириллицу?", options: ["Рюрик", "Кирилл и Мефодий", "Олег", "Владимир", "Ярослав"], correctAnswer: "Кирилл и Мефодий", hint: "Братья-монахи Кирилл и Мефодий создали славянскую письменность" },
+      { type: 'quiz', question: "Как называлась первая русская летопись?", options: ["Повесть временных лет", "Русская Правда", "Слово о полку Игореве", "Задонщина", "Вече"], correctAnswer: "Повесть временных лет", hint: "Нестор написал «Повесть временных лет» в XI веке" },
+      { type: 'quiz', question: "Деревянная церковь в Руси строилась в форме (...) (восьмигранника)", options: ["руси", "форме", "шатра", "строилась", "церковь"], correctAnswer: "шатра", hint: "Шатровые храмы — особый стиль русской архитектуры" },
+      { type: 'quiz', question: "Какое произведение описывает поход князя Игоря на половцев?", options: ["Повесть временных лет", "Слово о полку Игореве", "Русская Правда", "Задонщина", "Житие Бориса и Глеба"], correctAnswer: "Слово о полку Игореве", hint: "«Слово о полку Игореве» — величайший памятник литературы" },
+      { type: 'quiz', question: "Из какого материала в основном строили храмы на Руси?", options: ["Камня", "Дерева", "Кирпича", "Мрамора", "Бетона"], correctAnswer: "Дерева", hint: "Деревянное зодчество было основным на Руси" }
+    ],
+    reward: { stars: 3, message: "Прекрасно! Ты знаешь культуру Древней Руси! 📜" }
+  },
+  {
+    title: "Великие люди истории",
+    subject: "История",
+    icon: "Landmark",
+    color: "text-orange-400",
+    tasks: [
+      { type: 'quiz', question: "Кого называли «Красное Солнышко»?", options: ["Ярослава Мудрого", "Владимира I", "Александра Невского", "Дмитрия Донского", "Ивана Калиту"], correctAnswer: "Владимира I", hint: "Князь Владимир I — Красное Солнышко, креститель Руси" },
+      { type: 'quiz', question: "За какую победу Александр Ярославич получил прозвище «Невский»?", options: ["На Куликовом поле", "На реке Неве против шведов", "На Калке", "На Дону", "На Угре"], correctAnswer: "На реке Неве против шведов", hint: "1240 год — битва со шведами на Неве" },
+      { type: 'quiz', question: "Пётр I получил прозвище (...) за масштабные реформы и создание империи", options: ["Великий", "великать", "великин", "великить", "масштабные"], correctAnswer: "Великий", hint: "Пётр I Великий — первый российский император" },
+      { type: 'quiz', question: "Какой полководец совершил переход через Альпы?", options: ["Александр Невский", "Суворов", "Кутузов", "Жуков", "Багратион"], correctAnswer: "Суворов", hint: "Суворов совершил легендарный переход через Альпы в 1799 году" },
+      { type: 'quiz', question: "Кто основал Москву, по преданию?", options: ["Рюрик", "Юрий Долгорукий", "Иван Калита", "Дмитрий Донской", "Александр Невский"], correctAnswer: "Юрий Долгорукий", hint: "Первое упоминание Москвы — 1147 год, Юрий Долгорукий" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь великих людей истории! 🌟" }
+  },
+
+  // ========== ЛИТЕРАТУРА — НОВЫЕ ТЕСТЫ v4.0 ==========
+  {
+    title: "Мифы Древней Греции",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Кто был верховным богом в греческой мифологии?", options: ["Посейдон", "Аид", "Зевс", "Аполлон", "Арес"], correctAnswer: "Зевс", hint: "Зевс — бог грома и молнии, верховный бог Олимпа" },
+      { type: 'quiz', question: "Где жили боги в греческих мифах?", options: ["В Подземном мире", "На Олимпе", "В море", "В лесу", "В небе"], correctAnswer: "На Олимпе", hint: "Олимп — гора, обитель двенадцати богов-олимпийцев" },
+      { type: 'quiz', question: "Богиня мудрости и справедливой войны в греческой мифологии — (...)", options: ["войны", "справедливой", "мудрости", "богиня", "Афина"], correctAnswer: "Афина", hint: "Афина родилась из головы Зевса в полном вооружении" },
+      { type: 'quiz', question: "Кто был богом моря у древних греков?", options: ["Зевс", "Аид", "Аполлон", "Посейдон", "Гермес"], correctAnswer: "Посейдон", hint: "Посейдон владел морями и трезубцем" },
+      { type: 'quiz', question: "Как назывался подземный мир в греческих мифах?", options: ["Олимп", "Тартар", "Аид (царство мёртвых)", "Элизиум", "Олимпия"], correctAnswer: "Аид (царство мёртвых)", hint: "Аид — бог и царство подземного мира" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь мифы Древней Греции! ⚡" }
+  },
+  {
+    title: "Подвиги Геракла",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Сколько подвигов совершил Геракл?", options: ["8", "10", "12", "14", "20"], correctAnswer: "12", hint: "Геракл совершил 12 подвигов по приказу царя Эврисфея" },
+      { type: 'quiz', question: "Какой подвиг Геракла описывает уничтожение льва?", options: ["Поймать Цербера", "Убить Немейского льва", "Одолеть гидру", "Похитить яблоки Гесперид", "Очистить Авгиевы конюшни"], correctAnswer: "Убить Немейского льва", hint: "Первый подвиг — Немейский лев, чью шкуру нельзя было пробить" },
+      { type: 'quiz', question: "Многоголовая змея, которую победил Геракл, называлась (...)", options: ["победил", "геракл", "Лернейская гидра", "называлась", "змея"], correctAnswer: "Лернейская гидра", hint: "Гидра отрастала новые головы вместо отрубленных" },
+      { type: 'quiz', question: "Кто была матерью Геракла?", options: ["Гера", "Афина", "Алкмена", "Артемида", "Афродита"], correctAnswer: "Алкмена", hint: "Алкмена — смертная женщина, мать Геракла. Его отцом был Зевс" },
+      { type: 'quiz', question: "Какой последний подвиг совершил Геракл?", options: ["Убил Немейского льва", "Похитил Цербера из подземного мира", "Добывал пояс Ипполиты", "Очистил Авгиевы конюшни", "Поймал Керинейскую лань"], correctAnswer: "Похитил Цербера из подземного мира", hint: "Последний, двенадцатый подвиг — похищение Цербера" }
+    ],
+    reward: { stars: 3, message: "Здорово! Ты знаешь подвиги Геракла! 💪" }
+  },
+  {
+    title: "Мифы о происхождении мира",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Из чего, по греческому мифу, возник мир?", options: ["Из ничего", "Из Хаоса", "Из воды", "Из огня", "Из камня"], correctAnswer: "Из Хаоса", hint: "В начале был Хаос — бесконечное тёмное пространство" },
+      { type: 'quiz', question: "Кто, по греческому мифу, создал людей?", options: ["Зевс", "Посейдон", "Прометей", "Аполлон", "Гермес"], correctAnswer: "Прометей", hint: "Прометей вылепил людей из глины" },
+      { type: 'quiz', question: "Титан, подаривший людям огонь, — (...)", options: ["подаривший", "Прометей", "титан", "огонь", "людям"], correctAnswer: "Прометей", hint: "Прометей похитил огонь с Олимпа для людей" },
+      { type: 'quiz', question: "Как Зевс наказал Прометея за подаренный людям огонь?", options: ["Изгнал с Олимпа", "Приковал к скале", "Превратил в животное", "Лишил бессмертия", "Отправил в Тартар"], correctAnswer: "Приковал к скале", hint: "Зевс приковал Прометея к скале, где орёл клевал его печень" },
+      { type: 'quiz', question: "Что, по мифу, появился на земле после того, как Пандора открыла ящик?", options: ["Богатство", "Бедствия и несчастья", "Огонь", "Животные", "Растения"], correctAnswer: "Бедствия и несчастья", hint: "Пандора открыла ящик, и все беды разлетелись по миру" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь мифы о происхождении мира! 🌍" }
+  },
+  {
+    title: "Легенды и предания",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Чем предание отличается от сказки?", options: ["Рифмой", "Опорой на реальные события", "Героями-животными", "Наличием волшебства", "Длинной"], correctAnswer: "Опорой на реальные события", hint: "Предание основано на реальных исторических событиях" },
+      { type: 'quiz', question: "Что такое легенда?", options: ["Сказка про животных", "Повествование о замечательных событиях, принятых за достоверные", "Стихотворение", "Песня", "Загадка"], correctAnswer: "Повествование о замечательных событиях, принятых за достоверные", hint: "Легенда — рассказ, в котором реальность переплетается с вымыслом" },
+      { type: 'quiz', question: "Легенда о подвиге Ильи Муромца — это русское (...)", options: ["преданый", "преданка", "предание", "преданять", "преданом"], correctAnswer: "предание", hint: "Былины основаны на преданиях о реальных событиях" },
+      { type: 'quiz', question: "Какая предания-легенда связана с основанием Рима?", options: ["О Геракле", "О Ромуле и Реме", "Об Одиссее", "О Прометее", "О Зевсе"], correctAnswer: "О Ромуле и Реме", hint: "Братья-близнецы, вскормленные волчицей, основали Рим" },
+      { type: 'quiz', question: "К какому жанру относится легенда о граде Китеже?", options: ["Сказка", "Былина", "Предание-легенда", "Басня", "Роман"], correctAnswer: "Предание-легенда", hint: "Град Китеж — невидимый город, по преданию ушедший под воду" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты понимаешь жанр легенд и преданий! 📖" }
+  },
+  {
+    title: "Малые жанры фольклора",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Что такое пословица?", options: ["Короткая сказка", "Краткое народное изречение с поучением", "Загадка", "Песня", "Считалка"], correctAnswer: "Краткое народное изречение с поучением", hint: "Пословица — мудрая краткая мысль народа" },
+      { type: 'quiz', question: "Что такое загадка?", options: ["Сказка", "Вопрос на сообразительность с метафорой", "Пословица", "Песня", "Скороговорка"], correctAnswer: "Вопрос на сообразительность с метафорой", hint: "Загадка требует догадаться о предмете по описанию" },
+      { type: 'quiz', question: "Короткий текст для ритмичного распределения ролей в игре называется (...)", options: ["считалют", "считалка", "считалов", "считалить", "считалять"], correctAnswer: "считалка", hint: "Считалки используют в детских играх" },
+      { type: 'quiz', question: "Что такое потешка?", options: ["Загадка", "Небольшая весёлая песенка для малышей", "Пословица", "Сказка", "Былина"], correctAnswer: "Небольшая весёлая песенка для малышей", hint: "Потешки — фольклор для самых маленьких" },
+      { type: 'quiz', question: "Что такое скороговорка?", options: ["Пословица", "Фраза для тренировки произношения", "Считалка", "Загадка", "Песня"], correctAnswer: "Фраза для тренировки произношения", hint: "Скороговорки тренируют дикцию и произношение" }
+    ],
+    reward: { stars: 3, message: "Здорово! Ты знаешь малые жанры фольклора! 🎵" }
+  },
+  {
+    title: "Сказки народов мира",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Кто собрал и записал немецкие народные сказки?", options: ["Пушкин", "Братья Гримм", "Андерсен", "Перро", "Толстой"], correctAnswer: "Братья Гримм", hint: "Якоб и Вильгельм Гримм записали немецкие сказки" },
+      { type: 'quiz', question: "Кто автор сказки «Золушка»?", options: ["Братья Гримм", "Шарль Перро", "Андерсен", "Пушкин", "Коллоди"], correctAnswer: "Шарль Перро", hint: "Шарль Перро — французский сказочник, автор «Золушки»" },
+      { type: 'quiz', question: "Автор сказки «Русалочка» — датский писатель (...)", options: ["автор", "русалочка", "писатель", "датский", "Андерсен"], correctAnswer: "Андерсен", hint: "Ганс Христиан Андерсен — великий датский сказочник" },
+      { type: 'quiz', question: "Какая сказка братьев Гримм рассказывает о девушке с длинными волосами?", options: ["Белоснежка", "Рапунцель", "Гензель и Гретель", "Спящая красавица", "Красная Шапочка"], correctAnswer: "Рапунцель", hint: "Рапунцель — девушка, запертая в башне с длинными волосами" },
+      { type: 'quiz', question: "Что общего у сказок разных народов?", options: ["Совпадают названия", "Похожие сюжеты и мудрость", "Одинаковы герои", "Написаны одним автором", "Один язык"], correctAnswer: "Похожие сюжеты и мудрость", hint: "Народы мира создали похожие по смыслу сказки" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь сказки народов мира! 🌍" }
+  },
+  {
+    title: "Былины",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Кто главный герой былины «Илья Муромец»?", options: ["Добрыня Никитич", "Алёша Попович", "Илья Муромец", "Святогор", "Микула Селянинович"], correctAnswer: "Илья Муромец", hint: "Илья Муромец — самый известный русский богатырь" },
+      { type: 'quiz', question: "Где исполнялись былины в Древней Руси?", options: ["В храмах", "В школах", "При дворе князя и на пирах", "На полях", "В монастырях"], correctAnswer: "При дворе князя и на пирах", hint: "Былины пели гусляры-сказители при дворе" },
+      { type: 'quiz', question: "Исполнитель былин, игравший на гуслях, назывался (...)", options: ["гуслях", "сказитель", "игравший", "исполнитель", "назывался"], correctAnswer: "сказитель", hint: "Сказители передавали былины из уст в уста" },
+      { type: 'quiz', question: "Какой город был родиной Ильи Муромца?", options: ["Киев", "Муром", "Новгород", "Чернигов", "Рязань"], correctAnswer: "Муром", hint: "Илья родился в селе Карачарово под Муромом" },
+      { type: 'quiz', question: "Кто из богатырей был поповичем (сыном священника)?", options: ["Илья Муромец", "Добрыня Никитич", "Алёша Попович", "Святогор", "Волх Всеславьевич"], correctAnswer: "Алёша Попович", hint: "Алёша Попович — младший из трёх главных богатырей" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь былины! 🛡️" }
+  },
+  {
+    title: "«Повесть временных лет»",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Кто считается автором «Повести временных лет»?", options: ["Ярослав Мудрый", "Монах Нестор", "Владимир Мономах", "Кирилл", "Олег"], correctAnswer: "Монах Нестор", hint: "Нестор — монах Киево-Печерской лавры" },
+      { type: 'quiz', question: "В каком веке была написана «Повесть временных лет»?", options: ["IX", "X", "XI", "XII", "XIII"], correctAnswer: "XII", hint: "Летопись создана в начале XII века (около 1113 г.)" },
+      { type: 'quiz', question: "«Повесть временных лет» — это (...), то есть запись исторических событий по годам", options: ["повесть", "лет", "есть", "событий", "летопись"], correctAnswer: "летопись", hint: "Летопись — запись событий «по летам» (годам)" },
+      { type: 'quiz', question: "С какого события начинается «Повесть временных лет»?", options: ["С крещения Руси", "С библейского потопа и распределения земель", "С призвания Рюрика", "С основания Киева", "С битвы на Калке"], correctAnswer: "С библейского потопа и распределения земель", hint: "Летопись начинает историю от библейских времён" },
+      { type: 'quiz', question: "Для чего создавались летописи?", options: ["Для развлечения", "Для записи важных исторических событий", "Для торговли", "Для военных целей", "Для пения"], correctAnswer: "Для записи важных исторических событий", hint: "Летописи — важнейший исторический источник" }
+    ],
+    reward: { stars: 3, message: "Прекрасно! Ты знаешь «Повесть временных лет»! 📜" }
+  },
+  {
+    title: "«Сказание о Борисе и Глебе»",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Какой жанр представляет «Сказание о Борисе и Глебе»?", options: ["Былина", "Житие", "Летопись", "Сказка", "Повесть"], correctAnswer: "Житие", hint: "Житие — описание жизни святого" },
+      { type: 'quiz', question: "Кто убил князей Бориса и Глеба?", options: ["Половцы", "Святополк Окаянный", "Ярослав Мудрый", "Монголы", "Варяги"], correctAnswer: "Святополк Окаянный", hint: "Святополк — старший брат, желавший власти" },
+      { type: 'quiz', question: "Борис и Глеб стали первыми русскими (...) (святыми покровителями)", options: ["святыми", "русскими", "борис", "первыми", "глеб"], correctAnswer: "святыми", hint: "Борис и Глеб — первые русские святые" },
+      { type: 'quiz', question: "Чему учит «Сказание о Борисе и Глебе»?", options: ["Войне", "Христианскому смирению и прощению", "Торговле", "Строительству", "Земледелию"], correctAnswer: "Христианскому смирению и прощению", hint: "Сказание учит не мстить и прощать врагов" },
+      { type: 'quiz', question: "В каком веке жили Борис и Глеб?", options: ["IX", "X", "XI", "XII", "XIII"], correctAnswer: "XI", hint: "Борис и Глеб погибли в 1015 году" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь «Сказание о Борисе и Глебе»! ✝️" }
+  },
+  {
+    title: "«Слово о полку Игореве»",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Кто автор «Слова о полку Игореве»?", options: ["Нестор", "Неизвестен", "Пушкин", "Ломоносов", "Ярослав Мудрый"], correctAnswer: "Неизвестен", hint: "Автор этого великого произведения до сих пор неизвестен" },
+      { type: 'quiz', question: "Против кого пошёл в поход князь Игорь?", options: ["Монголов", "Половцев", "Шведов", "Немецких рыцарей", "Византийцев"], correctAnswer: "Половцев", hint: "Игорь Святославич пошёл войной на половцев в 1185 году" },
+      { type: 'quiz', question: "Главная идея «Слова о полку Игореве» — призыв к (...) русских князей", options: ["призыв", "единению", "главная", "идея", "русских"], correctAnswer: "единению", hint: "Автор призывает князей объединиться для защиты Руси" },
+      { type: 'quiz', question: "В каком веке было написано «Слово о полку Игореве»?", options: ["X", "XI", "XII", "XIII", "XIV"], correctAnswer: "XII", hint: "Произведение написано в конце XII века" },
+      { type: 'quiz', question: "Какое стихотворение Пушкина содержит отсылку к «Слову»?", options: ["Руслан и Людмила", "Песнь о вещем Олеге", "Бородино", "К морю", "Зимний вечер"], correctAnswer: "Песнь о вещем Олеге", hint: "Пушкин был вдохновлён «Словом о полку Игореве»" }
+    ],
+    reward: { stars: 3, message: "Здорово! Ты знаешь «Слово о полку Игореве»! ⚔️" }
+  },
+  {
+    title: "И.А. Крылов «Волк на псарне»",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Какое историческое событие послужило основой басни «Волк на псарне»?", options: ["Куликовская битва", "Война 1812 года", "Крещение Руси", "Северная война", "Ледовое побоище"], correctAnswer: "Война 1812 года", hint: "Наполеон — волк, а русский народ — охотники" },
+      { type: 'quiz', question: "Кого символизирует Волк в басне Крылова?", options: ["Русского солдата", "Наполеона", "Кутузова", "Александра I", "Петра I"], correctAnswer: "Наполеона", hint: "Волк — Наполеон, ворвавшийся в Россию" },
+      { type: 'quiz', question: "В басне Волк попадает в (...) и пытается договориться с охотниками", options: ["волк", "басне", "охотниками", "псарню", "пытается"], correctAnswer: "псарню", hint: "Псарня — место, где живут охотничьи собаки" },
+      { type: 'quiz', question: "Как Ловчий отвечает на слова Волка о мире?", options: ["Соглашается", "Отвечает, что врагам нельзя верить", "Пугает его", "Смеётся", "Плачет"], correctAnswer: "Отвечает, что врагам нельзя верить", hint: "Ловчий понимает хитрость Волка" },
+      { type: 'quiz', question: "В чём главная мораль басни «Волк на псарне»?", options: ["Будь хитрым", "Не доверяй врагу, когда он загнан в угол", "Беги из опасности", "Кради незаметно", "Мирись с врагами"], correctAnswer: "Не доверяй врагу, когда он загнан в угол", hint: "Волк просит мира не от доброты, а от страха" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты понимаешь басню Крылова! 🐺" }
+  },
+  {
+    title: "А.С. Пушкин «Руслан и Людмила»",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Какой жанр произведения «Руслан и Людмила»?", options: ["Роман", "Поэма", "Басня", "Рассказ", "Пьеса"], correctAnswer: "Поэма", hint: "«Руслан и Людмила» — стихотворная поэма Пушкина" },
+      { type: 'quiz', question: "Кто похитил Людмилу?", options: ["Черномор", "Руслан", "Фарлаф", "Рогдай", "Наина"], correctAnswer: "Черномор", hint: "Злой карлик Черномор похитил невесту Руслана" },
+      { type: 'quiz', question: "Поэма начинается со знаменитых стихов: «У (...) дуба зелёный; златая цепь на дубе том...»", options: ["лукоморья", "стихов", "поэма", "знаменитых", "зелёный"], correctAnswer: "лукоморья", hint: "«У лукоморья дуб зелёный...» — знаменитые строки" },
+      { type: 'quiz', question: "Сколько богатырей выезжает из моря в «Руслане и Людмиле»?", options: ["Двое", "Трое", "Четверо", "Пятеро", "Тридцать три"], correctAnswer: "Тридцать три", hint: "«У лукоморья... выходят тридцать три богатыря»" },
+      { type: 'quiz', question: "Какую голову отрезал Руслан Черномору?", options: ["Одну", "Две", "Три", "Четыре", "Пять"], correctAnswer: "Одну", hint: "Руслан отрезал карлику одну бороду-голову" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь «Руслана и Людмилу»! ✨" }
+  },
+  {
+    title: "М.Ю. Лермонтов «Бородино»",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Какое событие описано в стихотворении «Бородино»?", options: ["Куликовская битва", "Бородинское сражение", "Ледовое побоище", "Полтавская битва", "Штурм Измаила"], correctAnswer: "Бородинское сражение", hint: "Бородино — главная битва Отечественной войны 1812 года" },
+      { type: 'quiz', question: "В каком году произошла Бородинская битва?", options: ["1709", "1812", "1855", "1805", "1799"], correctAnswer: "1812", hint: "1812 год — вторжение Наполеона в Россию" },
+      { type: 'quiz', question: "Стихотворение написано от лица (...) — старого солдата", options: ["стихотворение", "солдата", "лица", "артиллериста", "написано"], correctAnswer: "артиллериста", hint: "Рассказ ведётся от лица простого солдата-артиллериста" },
+      { type: 'quiz', question: "Какой русский полководец командовал в Бородинском сражении?", options: ["Суворов", "Кутузов", "Багратион", "Ушаков", "Жуков"], correctAnswer: "Кутузов", hint: "Михаил Илларионович Кутузов — главнокомандующий" },
+      { type: 'quiz', question: "Какая фраза из стихотворения стала крылатой?", options: ["«Умрём же под Москвой»", "«Скажи-ка, дядя...»", "«Вам не видать таких сражений»", "«И улеглись на поле брани»", "«Смешались в кучу кони, люди»"], correctAnswer: "«Скажи-ка, дядя...»", hint: "«Скажи-ка, дядя, ведь недаром Москва, спалённая пожаром...»" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь «Бородино»! ⚔️" }
+  },
+  {
+    title: "Н.В. Гоголь «Заколдованное место»",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Кто главный герой повести «Заколдованное место»?", options: ["Дед", "Вакула", "Иван", "Фома Григорьевич", "Оксана"], correctAnswer: "Фома Григорьевич", hint: "Фома — дед, рассказывающий историю о заколдованном месте" },
+      { type: 'quiz', question: "Из какого произведения Гоголя взята повесть «Заколдованное место»?", options: ["«Ревизор»", "«Вечера на хуторе близ Диканьки»", "«Мёртвые души»", "«Шинель»", "«Нос»"], correctAnswer: "«Вечера на хуторе близ Диканьки»", hint: "Повесть входит в сборник «Вечера на хуторе близ Диканьки»" },
+      { type: 'quiz', question: "Фома Григорьевич нашёл на заколдованном месте (...) (клад)", options: ["месте", "клад", "заколдованном", "фома", "григорьевич"], correctAnswer: "клад", hint: "На заколдованном месте лежал зарытый клад" },
+      { type: 'quiz', question: "Что произошло с Фомой на заколдованном месте?", options: ["Нашёл клад", "Пугали черти и он перепутал всё", "Убежал", "Уснул", "Утонул"], correctAnswer: "Пугали черти и он перепутал всё", hint: "Черти в образе свиней играли с дедом и путали его" },
+      { type: 'quiz', question: "Что искал Фома на заколдованном месте?", options: ["Грибы", "Ягоды", "Клад с деньгами", "Потерявшую корову", "Заблудившегося внука"], correctAnswer: "Клад с деньгами", hint: "Дед отправился на поиски закопанного клада" }
+    ],
+    reward: { stars: 3, message: "Здорово! Ты знаешь «Заколдованное место»! 👻" }
+  },
+  {
+    title: "Д. Дефо «Робинзон Крузо»",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Сколько лет Робинзон Крузо провёл на необитаемом острове?", options: ["10", "15", "20", "28", "35"], correctAnswer: "28", hint: "Робинзон прожил на острове 28 лет, 2 месяца и 19 дней" },
+      { type: 'quiz', question: "Как звали друга Робинзона, которого он спас на острове?", options: ["Пятница", "Воскресенье", "Суббота", "Понедельник", "Четверг"], correctAnswer: "Пятница", hint: "Дикарь получил имя Пятница, потому что Робинзон спас его в пятницу" },
+      { type: 'quiz', question: "Робинзон сделал себе (...) из шкур животных, чтобы носить в дождь", options: ["животных", "сделал", "зонтик", "носить", "шкур"], correctAnswer: "зонтик", hint: "Робинзон мастерил много полезных вещей" },
+      { type: 'quiz', question: "Кто автор романа «Робинзон Крузо»?", options: ["Джонатан Свифт", "Даниэль Дефо", "Жюль Верн", "Роберт Льюис Стивенсон", "Марк Твен"], correctAnswer: "Даниэль Дефо", hint: "Даниэль Дефо — английский писатель" },
+      { type: 'quiz', question: "Как Робинзон попал на необитаемый остров?", options: ["Отправился добровольно", "Корабль потерпел крушение", "Был изгнан", "Плыл на плоту", "Улетел на воздушном шаре"], correctAnswer: "Корабль потерпел крушение", hint: "Корабль попал в шторм и Робинзон оказался один на острове" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь «Робинзона Крузо»! 🏝️" }
+  },
+  {
+    title: "Х.К. Андерсен «Снежная королева»",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Как зовут главную героиню сказки «Снежная королева»?", options: ["Герда", "Кай", "Аня", "Маша", "Эльза"], correctAnswer: "Герда", hint: "Герда отправилась на поиски своего друга Кая" },
+      { type: 'quiz', question: "Что попало в глаз Каю и изменило его характер?", options: ["Камень", "Осколок зеркала тролля", "Снежинка", "Лёд", "Стрела"], correctAnswer: "Осколок зеркала тролля", hint: "Зеркало тролля делало доброе зло, а злое добрым" },
+      { type: 'quiz', question: "Герда нашла Кая во дворце (...), где он строил из льда слово «вечность»", options: ["во", "нашла", "Снежной королевы", "кая", "слово"], correctAnswer: "Снежной королевы", hint: "Снежная королева увезла Кая в свой ледяной дворец" },
+      { type: 'quiz', question: "Какое слово Кай не мог сложить из льдинок?", options: ["Любовь", "Вечность", "Доброта", "Верность", "Свобода"], correctAnswer: "Вечность", hint: "Снежная королева пообещала Каю весь мир, если он сложит «вечность»" },
+      { type: 'quiz', question: "Кто помогал Герде в пути?", options: ["Только люди", "Маленькая разбойница, принц и принцесса, ворон, олень", "Только волшебники", "Никто", "Снежная королева"], correctAnswer: "Маленькая разбойница, принц и принцесса, ворон, олень", hint: "Герду помогали разные персонажи на пути к Каю" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь «Снежную королеву»! ❄️" }
+  },
+  {
+    title: "В.П. Астафьев «Васюткино озеро",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Кто главный герой рассказа «Васюткино озеро»?", options: ["Отец", "Дед", "Васютка", "Дядя", "Григорий"], correctAnswer: "Васютка", hint: "Васютка — тринадцатилетний мальчик" },
+      { type: 'quiz', question: "Как Васютка оказался один в тайге?", options: ["Потерялся", "Отстал от рыбаков и заблудился", "Убежал из дома", "Искал грибы", "Гнался за зверем"], correctAnswer: "Отстал от рыбаков и заблудился", hint: "Васютка пошёл за кедровыми шишками и отстал" },
+      { type: 'quiz', question: "Васютка нашёл в тайге (...), которым гордился весь его посёлок", options: ["нашёл", "тайге", "гордился", "посёлок", "озеро"], correctAnswer: "озеро", hint: "Озеро оказалось полным рыбы и было названо в честь Васютки" },
+      { type: 'quiz', question: "Чему учит рассказ «Васюткино озеро»?", options: ["Рыбалке", "Смелости, находчивости и любви к природе", "Готовке", "Строительству", "Плаванию"], correctAnswer: "Смелости, находчивости и любви к природе", hint: "Васютка проявил мужество и знания тайги" },
+      { type: 'quiz', question: "Как Васютка ориентировался в тайге, чтобы найти дорогу?", options: ["По компасу", "По мху на деревьях, солнцу и реке", "По звёздам", "По следам животных", "Наугад"], correctAnswer: "По мху на деревьях, солнцу и реке", hint: "Мох растёт на северной стороне деревьев" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь «Васюткино озеро»! 🌲" }
+  },
+  {
+    title: "В.Г. Распутин «Уроки французского»",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Кто главный герой рассказа «Уроки французского»?", options: ["Володя", "Лидия Михайловна", "Илья", "Витя", "Григорий"], correctAnswer: "Витя", hint: "Витя — мальчик из деревни, учившийся в райцентре" },
+      { type: 'quiz', question: "Кто учил главного героя французскому языку?", options: ["Мужчина-учитель", "Лидия Михайловна, молодая учительница", "Дедушка", "Соседка", "Мать"], correctAnswer: "Лидия Михайловна, молодая учительница", hint: "Лидия Михайловна была доброй и понимающей" },
+      { type: 'quiz', question: "Витя играл с мальчишками в (...) на деньги, чтобы купить молоко", options: ["мальчишками", "играл", "чики", "чтобы", "витя"], correctAnswer: "чики", hint: "Чики — игра в монеты, популярная среди школьников" },
+      { type: 'quiz', question: "Почему учительница играла с Витей на деньги?", options: ["Любила играть", "Хотела помочь ему незаметно", "Заставляли", "От скуки", "Чтобы наказать"], correctAnswer: "Хотела помочь ему незаметно", hint: "Лидия Михайловна понимала, что мальчик голодает" },
+      { type: 'quiz', question: "Чему учит рассказ «Уроки французского»?", options: ["Играть в чики", "Доброте, милосердию и человечности", "Французскому языку", "Математике", "Поварскому делу"], correctAnswer: "Доброте, милосердию и человечности", hint: "Рассказ о настоящей человеческой доброте учителя" }
+    ],
+    reward: { stars: 3, message: "Здорово! Ты понимаешь «Уроки французского»! 💝" }
+  },
+  {
+    title: "Фольклор: пословицы и загадки",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Что такое пословица?", options: ["Загадка", "Краткое изречение с поучительным смыслом", "Сказка", "Песня", "Стихотворение"], correctAnswer: "Краткое изречение с поучительным смыслом", hint: "В пословице — народная мудрость" },
+      { type: 'quiz', question: "Какая пословица означает «хвастовство неуместно»?", options: ["Тише едешь — дальше будешь", "Семь раз отмерь — один раз отрежь", "Вещь хороша, когда новая, а друг — когда старый", "У семи нянек дитя без глаза", "—"], correctAnswer: "Семь раз отмерь — один раз отрежь", hint: "Эта пословица учит быть осторожным" },
+      { type: 'quiz', question: "Загадка — это (...) на сообразительность, в котором предмет описан образно", options: ["описан", "образно", "котором", "предмет", "вопрос"], correctAnswer: "вопрос", hint: "Загадка требует разгадать описанный предмет" },
+      { type: 'quiz', question: "Какой приём часто используется в загадках?", options: ["Рифма", "Метафора и сравнение", "Повтор", "Аллитерация", "Риторический вопрос"], correctAnswer: "Метафора и сравнение", hint: "В загадках предметы описываются через образы и сравнения" },
+      { type: 'quiz', question: "Какая загадка описывает предмет: «Сидит дед, во сто шуб одет, кто его раздевает, тот слёзы проливает»?", options: ["Лук", "Чеснок", "Капуста", "Свёкла", "Морковь"], correctAnswer: "Лук", hint: "Лук в шелухе как дед в шубах" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь пословицы и загадки! 🧠" }
+  },
+  {
+    title: "Древнерусская литература",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Какой жанр НЕ относится к древнерусской литературе?", options: ["Летопись", "Житие", "Поучение", "Роман", "Слово"], correctAnswer: "Роман", hint: "Роман — жанр более поздней эпохи" },
+      { type: 'quiz', question: "Что такое «житие» в древнерусской литературе?", options: ["Повесть о сражении", "Описание жизни святого", "Закон", "Песня", "Загадка"], correctAnswer: "Описание жизни святого", hint: "Жития описывали жизнь и деяния святых" },
+      { type: 'quiz', question: "«Поучение» Владимира Мономаха — это наставление (...)", options: ["поучение", "мономаха", "владимира", "наставление", "детям"], correctAnswer: "детям", hint: "Мономах писал поучение своим детям" },
+      { type: 'quiz', question: "На каком языке создавалась древнерусская литература?", options: ["На латинском", "На греческом", "На древнерусском", "На немецком", "На французском"], correctAnswer: "На древнерусском", hint: "Древнерусская литература была написана на старославянском/древнерусском" },
+      { type: 'quiz', question: "Для чего предназначались летописи в Древней Руси?", options: ["Для развлечения", "Для записи исторических событий", "Для обучения грамоте", "Для пения", "Для торговли"], correctAnswer: "Для записи исторических событий", hint: "Летописи были важнейшим источником исторической памяти" }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь древнерусскую литературу! 📚" }
+  },
+  {
+    title: "Русские писатели XIX века",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Кто автор поэмы «Руслан и Людмила»?", options: ["Лермонтов", "Пушкин", "Тютчев", "Некрасов", "Есенин"], correctAnswer: "Пушкин", hint: "Александр Сергеевич Пушкин — автор поэмы" },
+      { type: 'quiz', question: "Кто написал стихотворение «Бородино»?", options: ["Пушкин", "Лермонтов", "Тютчев", "Фет", "Жуковский"], correctAnswer: "Лермонтов", hint: "Михаил Юрьевич Лермонтов — автор «Бородино»" },
+      { type: 'quiz', question: "Автор повестей «Вечера на хуторе близ Диканьки» — (...) Гоголь", options: ["вечера", "повестей", "гоголь", "Николай", "диканьки"], correctAnswer: "Николай", hint: "Николай Васильевич Гоголь" },
+      { type: 'quiz', question: "Кто из писателей XIX века написал «Мёртвые души»?", options: ["Пушкин", "Лермонтов", "Гоголь", "Тургенев", "Достоевский"], correctAnswer: "Гоголь", hint: "Гоголь — автор поэмы в прозе «Мёртвые души»" },
+      { type: 'quiz', question: "Кто из писателей XIX века писал басни, сравнимые с произведениями Эзопа и Лафонтена?", options: ["Пушкин", "Гоголь", "Крылов", "Лермонтов", "Толстой"], correctAnswer: "Крылов", hint: "Иван Андреевич Крылов — великий русский баснописец" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь русских писателей XIX века! 🖋️" }
+  },
+  {
+    title: "Зарубежная литература",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-amber-400",
+    tasks: [
+      { type: 'quiz', question: "Кто автор сказки «Русалочка»?", options: ["Братья Гримм", "Х.К. Андерсен", "Ш. Перро", "Л. Кэрролл", "О. Уайльд"], correctAnswer: "Х.К. Андерсен", hint: "Ганс Христиан Андерсен — датский сказочник" },
+      { type: 'quiz', question: "Кто написал роман «Робинзон Крузо»?", options: ["Дж. Свифт", "Д. Дефо", "Ж. Верн", "Р. Стивенсон", "М. Твен"], correctAnswer: "Д. Дефо", hint: "Даниэль Дефо — автор романа о Робинзоне" },
+      { type: 'quiz', question: "Автор сказок «Белоснежка», «Золушка» (фр. версия), «Спящая красавица» — (...) Перро", options: ["сказок", "фр", "версия", "Шарль", "красавица"], correctAnswer: "Шарль", hint: "Шарль Перро — французский писатель-сказочник" },
+      { type: 'quiz', question: "Кто автор сказки «Гензель и Гретель»?", options: ["Андерсен", "Перро", "Братья Гримм", "Дефо", "Киплинг"], correctAnswer: "Братья Гримм", hint: "Братья Гримм записали немецкие народные сказки" },
+      { type: 'quiz', question: "Кто написал «Путешествие Гулливера»?", options: ["Дефо", "Свифт", "Верн", "Кэрролл", "Уайльд"], correctAnswer: "Свифт", hint: "Джонатан Свифт — автор сатирического произведения о Гулливере" }
+    ],
+    reward: { stars: 3, message: "Прекрасно! Ты знаешь зарубежную литературу! 🌍" }
   }
 ]

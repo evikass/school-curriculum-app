@@ -148,10 +148,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-sky-400",
     tasks: [
-      { type: 'quiz', question: "Доступ к элементу массива — сложность:", options: ["O(1)", "O(n)", "O(log n)", "O(n²)"], correctAnswer: "O(1)", hint: "Константная сложность" },
-      { type: 'quiz', question: "Бинарный поиск имеет сложность:", options: ["O(1)", "O(n)", "O(log n)", "O(n²)"], correctAnswer: "O(log n)", hint: "Делим область пополам" },
-      { type: 'quiz', question: "Сортировка пузырьком: O(__)", options: ["n", "n²", "log n", "n log n", "2ⁿ", "n!"], correctAnswer: "n²", hint: "Два вложенных цикла" },
-      { type: 'quiz', question: "Вложенные циклы: сложность:", options: ["Складывается", "Умножается", "Вычитается", "Делится"], correctAnswer: "Умножается", hint: "O(f) × O(g)" }
+      { type: 'quiz', question: "Доступ к элементу массива — сложность:", options: ["O(1)", "O(n)", "O(log n)", "O(n²)", "—"], correctAnswer: "O(1)", hint: "Константная сложность" },
+      { type: 'quiz', question: "Бинарный поиск имеет сложность:", options: ["O(1)", "O(n)", "O(log n)", "O(n²)", "—"], correctAnswer: "O(log n)", hint: "Делим область пополам" },
+      { type: 'quiz', question: "Сортировка пузырьком: O(__)", options: ["log n", "n²", "n log n", "n", "2ⁿ"], correctAnswer: "n²", hint: "Два вложенных цикла" },
+      { type: 'quiz', question: "Вложенные циклы: сложность:", options: ["Складывается", "Умножается", "Вычитается", "Делится", "—"], correctAnswer: "Умножается", hint: "O(f) × O(g)" }
     ],
     reward: { stars: 3, message: "Ты понимаешь сложность алгоритмов! 📊" }
   },
@@ -161,10 +161,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-sky-400",
     tasks: [
-      { type: 'quiz', question: "Рекурсия должна иметь:", options: ["Только рекурсивный случай", "Базовый случай", "Бесконечный цикл", "Только циклы"], correctAnswer: "Базовый случай", hint: "Условие выхода обязательно" },
-      { type: 'quiz', question: "Факториал: 0! =", options: ["0", "1", "Ошибка", "∞"], correctAnswer: "1", hint: "Базовый случай факториала" },
-      { type: 'quiz', question: "__ — запоминание результатов рекурсии", options: ["Мемоизация", "Кэширование", "Рекурсия", "Итерация", "Табуляция", "Оптимизация"], correctAnswer: "Мемоизация", hint: "Оптимизация рекурсии" },
-      { type: 'quiz', question: "fib(n) = fib(n-1) + fib(n-2) без оптимизации:", options: ["O(n)", "O(n²)", "O(2ⁿ)", "O(log n)"], correctAnswer: "O(2ⁿ)", hint: "Экспоненциальная сложность" }
+      { type: 'quiz', question: "Рекурсия должна иметь:", options: ["Только рекурсивный случай", "Базовый случай", "Бесконечный цикл", "Только циклы", "—"], correctAnswer: "Базовый случай", hint: "Условие выхода обязательно" },
+      { type: 'quiz', question: "Факториал: 0! =", options: ["0", "1", "Ошибка", "∞", "—"], correctAnswer: "1", hint: "Базовый случай факториала" },
+      { type: 'quiz', question: "__ — запоминание результатов рекурсии", options: ["Итерация", "Рекурсия", "Табуляция", "Мемоизация", "Кэширование"], correctAnswer: "Мемоизация", hint: "Оптимизация рекурсии" },
+      { type: 'quiz', question: "fib(n) = fib(n-1) + fib(n-2) без оптимизации:", options: ["O(n)", "O(n²)", "O(2ⁿ)", "O(log n)", "—"], correctAnswer: "O(2ⁿ)", hint: "Экспоненциальная сложность" }
     ],
     reward: { stars: 3, message: "Ты понимаешь рекурсию! 🔄" }
   },
@@ -174,10 +174,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-sky-400",
     tasks: [
-      { type: 'quiz', question: "ДП требует:", options: ["Только рекурсию", "Оптимальную подструктуру", "Бесконечный цикл", "Только циклы"], correctAnswer: "Оптимальную подструктуру", hint: "Разбиение на подзадачи" },
-      { type: 'quiz', question: "Мемоизация — это подход:", options: ["Снизу вверх", "Сверху вниз", "Слева направо", "Без подхода"], correctAnswer: "Сверху вниз", hint: "Рекурсия с запоминанием" },
-      { type: 'quiz', question: "Табуляция — подход __ вверх", options: ["снизу", "сверху", "слева", "справа", "по центру", "внутрь"], correctAnswer: "снизу", hint: "Итеративное заполнение" },
-      { type: 'quiz', question: "Задача кузнечика сводится к:", options: ["Сортировке", "Числам Фибоначчи", "Поиску", "Графам"], correctAnswer: "Числам Фибоначчи", hint: "dp[i] = dp[i-1] + dp[i-2]" }
+      { type: 'quiz', question: "ДП требует:", options: ["Только рекурсию", "Оптимальную подструктуру", "Бесконечный цикл", "Только циклы", "—"], correctAnswer: "Оптимальную подструктуру", hint: "Разбиение на подзадачи" },
+      { type: 'quiz', question: "Мемоизация — это подход:", options: ["Снизу вверх", "Сверху вниз", "Слева направо", "Без подхода", "—"], correctAnswer: "Сверху вниз", hint: "Рекурсия с запоминанием" },
+      { type: 'quiz', question: "Табуляция — подход __ вверх", options: ["сверху", "снизу", "по центру", "внутрь", "справа"], correctAnswer: "снизу", hint: "Итеративное заполнение" },
+      { type: 'quiz', question: "Задача кузнечика сводится к:", options: ["Сортировке", "Числам Фибоначчи", "Поиску", "Графам", "—"], correctAnswer: "Числам Фибоначчи", hint: "dp[i] = dp[i-1] + dp[i-2]" }
     ],
     reward: { stars: 3, message: "Ты владеешь динамическим программированием! 💡" }
   },
@@ -187,10 +187,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-sky-400",
     tasks: [
-      { type: 'quiz', question: "SELECT — это:", options: ["Вставка", "Выборка", "Удаление", "Обновление"], correctAnswer: "Выборка", hint: "SELECT * FROM table" },
-      { type: 'quiz', question: "JOIN используется для:", options: ["Удаления", "Обновления", "Соединения таблиц", "Создания"], correctAnswer: "Соединения таблиц", hint: "JOIN ... ON ..." },
-      { type: 'quiz', question: "Первичный __ — уникальный идентификатор", options: ["ключ", "индекс", "идентификатор", "код", "номер", "адрес"], correctAnswer: "ключ", hint: "Primary key" },
-      { type: 'quiz', question: "1НФ требует:", options: ["Сложные значения", "Атомарные значения", "Дубликаты", "NULL везде"], correctAnswer: "Атомарные значения", hint: "Все значения неделимы" }
+      { type: 'quiz', question: "SELECT — это:", options: ["Вставка", "Выборка", "Удаление", "Обновление", "—"], correctAnswer: "Выборка", hint: "SELECT * FROM table" },
+      { type: 'quiz', question: "JOIN используется для:", options: ["Удаления", "Обновления", "Соединения таблиц", "Создания", "—"], correctAnswer: "Соединения таблиц", hint: "JOIN ... ON ..." },
+      { type: 'quiz', question: "Первичный __ — уникальный идентификатор", options: ["ключ", "индекс", "идентификатор", "номер", "адрес"], correctAnswer: "ключ", hint: "Primary key" },
+      { type: 'quiz', question: "1НФ требует:", options: ["Сложные значения", "Атомарные значения", "Дубликаты", "NULL везде", "—"], correctAnswer: "Атомарные значения", hint: "Все значения неделимы" }
     ],
     reward: { stars: 3, message: "Ты знаешь базы данных! 🗄️" }
   },
@@ -200,10 +200,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-sky-400",
     tasks: [
-      { type: 'quiz', question: "Модель OSI имеет уровней:", options: ["4", "5", "7", "8"], correctAnswer: "7", hint: "7 уровней модели OSI" },
-      { type: 'quiz', question: "HTTP использует порт:", options: ["21", "22", "80", "443"], correctAnswer: "80", hint: "HTTP — 80, HTTPS — 443" },
-      { type: 'quiz', question: "IPv4 состоит из __ бит", options: ["16", "32", "64", "128", "256", "8"], correctAnswer: "32", hint: "4 байта = 32 бита" },
-      { type: 'quiz', question: "DNS использует порт:", options: ["22", "53", "80", "443"], correctAnswer: "53", hint: "DNS — 53" }
+      { type: 'quiz', question: "Модель OSI имеет уровней:", options: ["4", "5", "7", "8", "—"], correctAnswer: "7", hint: "7 уровней модели OSI" },
+      { type: 'quiz', question: "HTTP использует порт:", options: ["21", "22", "80", "443", "—"], correctAnswer: "80", hint: "HTTP — 80, HTTPS — 443" },
+      { type: 'quiz', question: "IPv4 состоит из __ бит", options: ["32", "128", "8", "16", "256"], correctAnswer: "32", hint: "4 байта = 32 бита" },
+      { type: 'quiz', question: "DNS использует порт:", options: ["22", "53", "80", "443", "—"], correctAnswer: "53", hint: "DNS — 53" }
     ],
     reward: { stars: 3, message: "Ты понимаешь компьютерные сети! 🌐" }
   },
@@ -213,10 +213,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-sky-400",
     tasks: [
-      { type: 'quiz', question: "HTML отвечает за:", options: ["Стили", "Структуру", "Логику", "Базу данных"], correctAnswer: "Структуру", hint: "HTML — разметка" },
-      { type: 'quiz', question: "CSS отвечает за:", options: ["Структуру", "Стили", "Логику", "Базу данных"], correctAnswer: "Стили", hint: "CSS — оформление" },
-      { type: 'quiz', question: "__ — язык программирования для веба", options: ["JavaScript", "Python", "Java", "C++", "PHP", "Ruby"], correctAnswer: "JavaScript", hint: "Клиентская логика" },
-      { type: 'quiz', question: "Frontend — это:", options: ["Серверная часть", "Клиентская часть", "База данных", "Сеть"], correctAnswer: "Клиентская часть", hint: "То, что видит пользователь" }
+      { type: 'quiz', question: "HTML отвечает за:", options: ["Стили", "Структуру", "Логику", "Базу данных", "—"], correctAnswer: "Структуру", hint: "HTML — разметка" },
+      { type: 'quiz', question: "CSS отвечает за:", options: ["Структуру", "Стили", "Логику", "Базу данных", "—"], correctAnswer: "Стили", hint: "CSS — оформление" },
+      { type: 'quiz', question: "__ — язык программирования для веба", options: ["C++", "JavaScript", "PHP", "Python", "Ruby"], correctAnswer: "JavaScript", hint: "Клиентская логика" },
+      { type: 'quiz', question: "Frontend — это:", options: ["Серверная часть", "Клиентская часть", "База данных", "Сеть", "—"], correctAnswer: "Клиентская часть", hint: "То, что видит пользователь" }
     ],
     reward: { stars: 3, message: "Ты знаешь веб-технологии! 🌍" }
   },
@@ -226,10 +226,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-sky-400",
     tasks: [
-      { type: 'quiz', question: "AES — это шифрование:", options: ["Симметричное", "Асимметричное", "Хеширование", "None"], correctAnswer: "Симметричное", hint: "Один ключ" },
-      { type: 'quiz', question: "RSA — это шифрование:", options: ["Симметричное", "Асимметричное", "Хеширование", "None"], correctAnswer: "Асимметричное", hint: "Пара ключей" },
-      { type: 'quiz', question: "SHA-256 — это __-функция", options: ["хеш", "шифрования", "декодирования", "сжатия", "архивации", "преобразования"], correctAnswer: "хеш", hint: "Необратимое преобразование" },
-      { type: 'quiz', question: "Открытый ключ используется для:", options: ["Расшифрования", "Шифрования", "Удаления", "Копирования"], correctAnswer: "Шифрования", hint: "Закрытый — для расшифрования" }
+      { type: 'quiz', question: "AES — это шифрование:", options: ["Симметричное", "Асимметричное", "Хеширование", "None", "—"], correctAnswer: "Симметричное", hint: "Один ключ" },
+      { type: 'quiz', question: "RSA — это шифрование:", options: ["Симметричное", "Асимметричное", "Хеширование", "None", "—"], correctAnswer: "Асимметричное", hint: "Пара ключей" },
+      { type: 'quiz', question: "SHA-256 — это __-функция", options: ["хеш", "шифрования", "архивации", "преобразования", "декодирования"], correctAnswer: "хеш", hint: "Необратимое преобразование" },
+      { type: 'quiz', question: "Открытый ключ используется для:", options: ["Расшифрования", "Шифрования", "Удаления", "Копирования", "—"], correctAnswer: "Шифрования", hint: "Закрытый — для расшифрования" }
     ],
     reward: { stars: 3, message: "Ты понимаешь криптографию! 🔐" }
   },
@@ -239,10 +239,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-sky-400",
     tasks: [
-      { type: 'quiz', question: "Фишинг — это:", options: ["Вирус", "Поддельные сайты", "DDoS", "Шифрование"], correctAnswer: "Поддельные сайты", hint: "Кража данных через фальшивые сайты" },
-      { type: 'quiz', question: "Троян:", options: ["Самораспространяется", "Маскируется под полезную программу", "Заражает файлы", "Шифрует данные"], correctAnswer: "Маскируется под полезную программу", hint: "Троянский конь" },
-      { type: 'quiz', question: "__ — удалённый доступ, порт 22", options: ["SSH", "FTP", "HTTP", "Telnet", "RDP", "VNC"], correctAnswer: "SSH", hint: "Secure Shell" },
-      { type: 'quiz', question: "2FA — это:", options: ["Антивирус", "Двухфакторная аутентификация", "Файрвол", "Шифрование"], correctAnswer: "Двухфакторная аутентификация", hint: "Два способа подтверждения" }
+      { type: 'quiz', question: "Фишинг — это:", options: ["Вирус", "Поддельные сайты", "DDoS", "Шифрование", "—"], correctAnswer: "Поддельные сайты", hint: "Кража данных через фальшивые сайты" },
+      { type: 'quiz', question: "Троян:", options: ["Самораспространяется", "Маскируется под полезную программу", "Заражает файлы", "Шифрует данные", "—"], correctAnswer: "Маскируется под полезную программу", hint: "Троянский конь" },
+      { type: 'quiz', question: "__ — удалённый доступ, порт 22", options: ["FTP", "RDP", "HTTP", "SSH", "VNC"], correctAnswer: "SSH", hint: "Secure Shell" },
+      { type: 'quiz', question: "2FA — это:", options: ["Антивирус", "Двухфакторная аутентификация", "Файрвол", "Шифрование", "—"], correctAnswer: "Двухфакторная аутентификация", hint: "Два способа подтверждения" }
     ],
     reward: { stars: 3, message: "Ты знаешь защиту информации! 🛡️" }
   },
@@ -252,10 +252,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-sky-400",
     tasks: [
-      { type: 'quiz', question: "1010₂ в десятичной системе:", options: ["8", "10", "12", "16"], correctAnswer: "10", hint: "1×8 + 0×4 + 1×2 + 0×1 = 10" },
-      { type: 'quiz', question: "16₁₀ в двоичной системе:", options: ["10000", "1111", "1000", "10001"], correctAnswer: "10000", hint: "16 = 2⁴" },
-      { type: 'quiz', question: "Сколько единиц в 2¹⁰? __", options: ["0", "1", "2", "10", "100", "1024"], correctAnswer: "1", hint: "2^n = 1 и n нулей" },
-      { type: 'quiz', question: "10₈ в десятичной системе:", options: ["8", "10", "16", "2"], correctAnswer: "8", hint: "1×8 + 0 = 8" }
+      { type: 'quiz', question: "1010₂ в десятичной системе:", options: ["8", "10", "12", "16", "—"], correctAnswer: "10", hint: "1×8 + 0×4 + 1×2 + 0×1 = 10" },
+      { type: 'quiz', question: "16₁₀ в двоичной системе:", options: ["10000", "1111", "1000", "10001", "—"], correctAnswer: "10000", hint: "16 = 2⁴" },
+      { type: 'quiz', question: "Сколько единиц в 2¹⁰? __", options: ["0", "10", "1", "1024", "2"], correctAnswer: "1", hint: "2^n = 1 и n нулей" },
+      { type: 'quiz', question: "10₈ в десятичной системе:", options: ["8", "10", "16", "2", "—"], correctAnswer: "8", hint: "1×8 + 0 = 8" }
     ],
     reward: { stars: 3, message: "Ты знаешь системы счисления! 🔢" }
   },
@@ -265,10 +265,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-sky-400",
     tasks: [
-      { type: 'quiz', question: "1 ∧ 0 =", options: ["0", "1", "Не определено"], correctAnswer: "0", hint: "Конъюнкция: 1 AND 0 = 0" },
-      { type: 'quiz', question: "1 → 0 =", options: ["0", "1", "Не определено"], correctAnswer: "0", hint: "Импликация ложна только при 1→0" },
-      { type: 'quiz', question: "¬(A ∧ B) = ¬A __ ¬B (закон де Моргана)", options: ["∨", "∧", "→", "¬", "⊕", "↔"], correctAnswer: "∨", hint: "Отрицание конъюнкции = дизъюнкция отрицаний" },
-      { type: 'quiz', question: "A ⊕ A =", options: ["0", "1", "A", "¬A"], correctAnswer: "0", hint: "XOR: A ⊕ A всегда 0" }
+      { type: 'quiz', question: "1 ∧ 0 =", options: ["0", "1", "Не определено", "—", "—"], correctAnswer: "0", hint: "Конъюнкция: 1 AND 0 = 0" },
+      { type: 'quiz', question: "1 → 0 =", options: ["0", "1", "Не определено", "—", "—"], correctAnswer: "0", hint: "Импликация ложна только при 1→0" },
+      { type: 'quiz', question: "¬(A ∧ B) = ¬A __ ¬B (закон де Моргана)", options: ["→", "⊕", "↔", "∨", "¬"], correctAnswer: "∨", hint: "Отрицание конъюнкции = дизъюнкция отрицаний" },
+      { type: 'quiz', question: "A ⊕ A =", options: ["0", "1", "A", "¬A", "—"], correctAnswer: "0", hint: "XOR: A ⊕ A всегда 0" }
     ],
     reward: { stars: 3, message: "Ты знаешь логику! 🧠" }
   },
@@ -278,10 +278,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-sky-400",
     tasks: [
-      { type: 'quiz', question: "for i in range(5) — сколько итераций?", options: ["4", "5", "6", "0"], correctAnswer: "5", hint: "range(5) = 0, 1, 2, 3, 4" },
-      { type: 'quiz', question: "len('Hello') =", options: ["4", "5", "6", "Ошибка"], correctAnswer: "5", hint: "5 символов" },
-      { type: 'quiz', question: "Задание __ — обработка строк в ЕГЭ", options: ["12", "24", "25", "26", "27", "15"], correctAnswer: "24", hint: "Работа со строками" },
-      { type: 'quiz', question: "Задание 25 в ЕГЭ — это:", options: ["Строки", "Делители", "Массивы", "Графы"], correctAnswer: "Делители", hint: "Поиск делителей чисел" }
+      { type: 'quiz', question: "for i in range(5) — сколько итераций?", options: ["4", "5", "6", "0", "—"], correctAnswer: "5", hint: "range(5) = 0, 1, 2, 3, 4" },
+      { type: 'quiz', question: "len('Hello') =", options: ["4", "5", "6", "Ошибка", "—"], correctAnswer: "5", hint: "5 символов" },
+      { type: 'quiz', question: "Задание __ — обработка строк в ЕГЭ", options: ["24", "26", "15", "27", "25"], correctAnswer: "24", hint: "Работа со строками" },
+      { type: 'quiz', question: "Задание 25 в ЕГЭ — это:", options: ["Строки", "Делители", "Массивы", "Графы", "—"], correctAnswer: "Делители", hint: "Поиск делителей чисел" }
     ],
     reward: { stars: 3, message: "Ты готов к ЕГЭ по программированию! 💻" }
   },
@@ -291,10 +291,10 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-sky-400",
     tasks: [
-      { type: 'quiz', question: "ЕГЭ по информатике имеет заданий:", options: ["25", "26", "27", "30"], correctAnswer: "27", hint: "27 заданий" },
-      { type: 'quiz', question: "Время на ЕГЭ по информатике:", options: ["3 часа", "3ч 55мин", "4 часа", "5 часов"], correctAnswer: "3ч 55мин", hint: "235 минут" },
-      { type: 'quiz', question: "Самое сложное задание — номер __", options: ["23", "24", "25", "26", "27", "22"], correctAnswer: "27", hint: "Эффективный алгоритм" },
-      { type: 'quiz', question: "Лучший язык для ЕГЭ:", options: ["C++", "Java", "Python", "Pascal"], correctAnswer: "Python", hint: "Простой и популярный" }
+      { type: 'quiz', question: "ЕГЭ по информатике имеет заданий:", options: ["25", "26", "27", "30", "—"], correctAnswer: "27", hint: "27 заданий" },
+      { type: 'quiz', question: "Время на ЕГЭ по информатике:", options: ["3 часа", "3ч 55мин", "4 часа", "5 часов", "—"], correctAnswer: "3ч 55мин", hint: "235 минут" },
+      { type: 'quiz', question: "Самое сложное задание — номер __", options: ["26", "22", "27", "23", "25"], correctAnswer: "27", hint: "Эффективный алгоритм" },
+      { type: 'quiz', question: "Лучший язык для ЕГЭ:", options: ["C++", "Java", "Python", "Pascal", "—"], correctAnswer: "Python", hint: "Простой и популярный" }
     ],
     reward: { stars: 3, message: "Ты готов к экзамену! 🎓" }
   }

@@ -794,7 +794,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Формы для лепки 🧸",
-    subject: "Лепка",
+    subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
     tasks: [

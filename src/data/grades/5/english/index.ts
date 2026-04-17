@@ -2236,7 +2236,7 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «половина восьмого» по-английски?", options: ["It's quarter past seven", "It's half past seven", "It's seven thirty", "Другой ответ", "Другой ответ"], correctAnswer: "It's half past seven", hint: "Half past = половина следующего часа" },
+      { type: 'quiz', question: "Как сказать «половина восьмого» по-английски?", options: ["It", ",", "s half past seven", "—", "—"], correctAnswer: "It's half past seven", hint: "Half past = половина следующего часа" },
       { type: 'quiz', question: "Какое наречие частотности означает «всегда»?", options: ["Usually", "Often", "Always", "Другой ответ", "Другой ответ"], correctAnswer: "Always", hint: "Always = всегда (100%)" },
       { type: 'quiz', question: "wake up = ?", options: ["Вставать", "Просыпаться", "Одеваться", "Другой ответ", "Другой ответ"], correctAnswer: "Просыпаться", hint: "Wake up = просыпаться, get up = вставать" },
       { type: 'quiz', question: "В каком времени говорится: «I go to school every day»?", options: ["Past Simple", "Present Continuous", "Present Simple", "Другой ответ", "Другой ответ"], correctAnswer: "Present Simple", hint: "Every day = каждый день → Present Simple" },
@@ -2323,7 +2323,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какая формула Present Continuous?", options: ["do + глагол", "am/is/are + глагол + -ing", "did + глагол", "Другой ответ", "Другой ответ"], correctAnswer: "am/is/are + глагол + -ing", hint: "Present Continuous = am/is/are + verb-ing" },
       { type: 'quiz', question: "Какое слово-маркер указывает на Present Continuous?", options: ["Every day", "Yesterday", "Now", "Другой ответ", "Другой ответ"], correctAnswer: "Now", hint: "Now = сейчас → Present Continuous" },
       { type: 'quiz', question: "She ___ TV at the moment. (watch)", options: ["watches", "is watching", "watched", "Другой ответ", "Другой ответ"], correctAnswer: "is watching", hint: "At the moment = в данный момент → is + -ing" },
-      { type: 'quiz', question: "Как образуется отрицание в Present Continuous?", options: ["don't + глагол", "am/is/are + not + глагол + -ing", "didn't + глагол", "Другой ответ", "Другой ответ"], correctAnswer: "am/is/are + not + глагол + -ing", hint: "I am not reading. She isn't watching." },
+      { type: 'quiz', question: "Как образуется отрицание в Present Continuous?", options: ["am/is/are + not + глагол + -ing", "don", ",", "t + глагол", "Другой ответ"], correctAnswer: "am/is/are + not + глагол + -ing", hint: "I am not reading. She isn't watching." },
       { type: 'quiz', question: "Как написать глагол write в форме -ing?", options: ["writeing", "writing", "writting", "Другой ответ", "Другой ответ"], correctAnswer: "writing", hint: "Убираем конечную -e и добавляем -ing" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь Present Continuous! 🎯" }
@@ -2335,9 +2335,9 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "Какая формула Future Simple?", options: ["am/is/are + глагол + -ing", "did + глагол", "will + глагол", "Другой ответ", "Другой ответ"], correctAnswer: "will + глагол", hint: "Future Simple = will + глагол (без to)" },
-      { type: 'quiz', question: "Как будет сокращение «I will»?", options: ["I's", "I'll", "I'm", "Другой ответ", "Другой ответ"], correctAnswer: "I'll", hint: "I'll = I will" },
+      { type: 'quiz', question: "Как будет сокращение «I will»?", options: ["I", ",", "ll", "—", "—"], correctAnswer: "I'll", hint: "I'll = I will" },
       { type: 'quiz', question: "Какое слово-маркер указывает на будущее?", options: ["Yesterday", "Now", "Tomorrow", "Другой ответ", "Другой ответ"], correctAnswer: "Tomorrow", hint: "Tomorrow = завтра → будущее время" },
-      { type: 'quiz', question: "Как образуется отрицание в Future Simple?", options: ["don't + глагол", "didn't + глагол", "won't + глагол", "Другой ответ", "Другой ответ"], correctAnswer: "won't + глагол", hint: "won't = will not" },
+      { type: 'quiz', question: "Как образуется отрицание в Future Simple?", options: ["don", ",", "t + глагол", "won", "—"], correctAnswer: "won't + глагол", hint: "won't = will not" },
       { type: 'quiz', question: "В чём разница между will и going to?", options: ["Нет разницы", "Will — решение сейчас, going to — план", "Going to — только для прошлого", "Другой ответ", "Другой ответ"], correctAnswer: "Will — решение сейчас, going to — план", hint: "Will = мгновенное решение, going to = запланированное действие" }
     ],
     reward: { stars: 3, message: "Отлично! Ты говоришь о будущем! 🚀" }

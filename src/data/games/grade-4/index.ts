@@ -11,7 +11,7 @@ export const fourthGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Сколько сотен в числе 3521?", options: ["3", "5", "52", "35", "500"], correctAnswer: "5", hint: "3 тысячи, 5 сотен, 2 десятка, 1 единица" },
       { type: 'quiz', question: "Какое число больше: 4050 или 4500?", options: ["4050", "4500", "Они равны", "4000", "4550"], correctAnswer: "4500", hint: "Сравни разряды слева направо" },
-      { type: 'fill', question: "5432 + 1234 = __", correctAnswer: "6666", hint: "Сложи поразрядно" },
+      { type: 'quiz', question: "5432 + 1234 = (...)", options: ["6664", "6666", "6766", "6676", "6656"], correctAnswer: "6666", hint: "Сложи поразрядно" },
       { type: 'quiz', question: "Округли 347 до сотен:", options: ["300", "340", "350", "400", "347"], correctAnswer: "300", hint: "47 < 50, значит округляем вниз" },
       { type: 'quiz', question: "Сколько десятков в числе 8730?", options: ["8", "7", "3", "87", "870"], correctAnswer: "3", hint: "8 тысяч, 7 сотен, 3 десятка, 0 единиц" }
     ],
@@ -25,9 +25,9 @@ export const fourthGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "25 × 4 = ?", options: ["80", "100", "125", "90", "110"], correctAnswer: "100", hint: "25 × 4 = 100" },
       { type: 'quiz', question: "144 ÷ 12 = ?", options: ["10", "11", "12", "13", "14"], correctAnswer: "12", hint: "12 × 12 = 144" },
-      { type: 'fill', question: "1000 - 367 = __", correctAnswer: "633", hint: "Вычти поразрядно" },
+      { type: 'quiz', question: "1000 - 367 = (...)", options: ["533", "623", "633", "6330", "643"], correctAnswer: "633", hint: "Вычти поразрядно" },
       { type: 'find', question: "Выбери верные равенства:", options: ["15×4=60", "72÷8=9", "100÷25=5", "16×5=80", "18×3=56"], correctAnswer: ["15×4=60", "72÷8=9", "16×5=80"], hint: "Проверь каждое" },
-      { type: 'fill', question: "125 × 8 = __", correctAnswer: "1000", hint: "125 × 8 = 1000" }
+      { type: 'quiz', question: "125 × 8 = (...)", options: ["1010", "2000", "1000", "100", "999"], correctAnswer: "1000", hint: "125 × 8 = 1000" }
     ],
     reward: { stars: 3, message: "Супер! Ты отлично считаешь! ✖️➗" }
   },
@@ -39,7 +39,7 @@ export const fourthGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Скорость 60 км/ч, время 2 ч. Какое расстояние?", options: ["30 км", "62 км", "120 км", "60 км", "100 км"], correctAnswer: "120 км", hint: "S = v × t" },
       { type: 'quiz', question: "Расстояние 180 км, время 3 ч. Найди скорость.", options: ["60 км/ч", "90 км/ч", "540 км/ч", "30 км/ч", "180 км/ч"], correctAnswer: "60 км/ч", hint: "v = S ÷ t" },
-      { type: 'fill', question: "Скорость 50 км/ч, время 4 ч. Расстояние = __ км", correctAnswer: "200", hint: "S = 50 × 4" },
+      { type: 'quiz', question: "Скорость 50 км/ч, время 4 ч. Расстояние = (...) км", options: ["198", "195", "190", "100", "200"], correctAnswer: "200", hint: "S = 50 × 4" },
       { type: 'quiz', question: "Формула расстояния?", options: ["S = v × t", "v = S × t", "t = S × v", "S = v + t", "S = v ÷ t"], correctAnswer: "S = v × t", hint: "Расстояние = скорость × время" },
       { type: 'quiz', question: "Расстояние 400 км, скорость 80 км/ч. Найди время.", options: ["320 ч", "5 ч", "6 ч", "480 ч", "4 ч"], correctAnswer: "5 ч", hint: "t = S ÷ v = 400 ÷ 80" }
     ],
@@ -54,7 +54,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "1/2 + 1/4 = ?", options: ["1/6", "2/6", "3/4", "2/4", "1/3"], correctAnswer: "3/4", hint: "Приведи к общему знаменателю: 2/4 + 1/4" },
       { type: 'quiz', question: "3/4 - 1/4 = ?", options: ["2/4", "2/0", "1/2", "1/4", "3/8"], correctAnswer: "2/4", hint: "3/4 - 1/4 = 2/4 = 1/2" },
       { type: 'find', question: "Выбери равные дроби:", options: ["1/2 = 2/4", "1/3 = 2/6", "2/3 = 4/9", "3/4 = 6/8", "1/5 = 3/10"], correctAnswer: ["1/2 = 2/4", "1/3 = 2/6", "3/4 = 6/8"], hint: "Умножь числитель и знаменатель на одно число" },
-      { type: 'fill', question: "2/5 от 100 = __", correctAnswer: "40", hint: "100 ÷ 5 × 2 = 40" },
+      { type: 'quiz', question: "2/5 от 100 = (...)", options: ["04", "30", "40", "50", "1040"], correctAnswer: "40", hint: "100 ÷ 5 × 2 = 40" },
       { type: 'quiz', question: "Какая дробь больше: 3/8 или 5/8?", options: ["3/8", "5/8", "Они равны", "1/2", "Нельзя сравнить"], correctAnswer: "5/8", hint: "При одинаковом знаменателе больше та, где числитель больше" }
     ],
     reward: { stars: 3, message: "Умница! Ты понимаешь дроби! 📊" }
@@ -70,7 +70,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Глагол «писать» - какого спряжения?", options: ["I спряжение", "II спряжение", "III спряжение", "Оба", "Ни одного"], correctAnswer: "I спряжение", hint: "ПишЕШЬ - окончание -ЕШЬ (I спр.)" },
       { type: 'quiz', question: "Глагол «говорить» - какого спряжения?", options: ["I спряжение", "II спряжение", "III спряжение", "Оба", "Ни одного"], correctAnswer: "II спряжение", hint: "ГоворИШЬ - окончание -ИШЬ (II спр.)" },
       { type: 'find', question: "Выбери глаголы II спряжения:", options: ["Делать", "Смотреть", "Видеть", "Говорить", "Читать"], correctAnswer: ["Смотреть", "Видеть", "Говорить"], hint: "II спряжение - окончания -ИТЬ, исключения" },
-      { type: 'fill', question: "Они пиш__т (I спр.)", correctAnswer: "ут", hint: "I спряжение, 3 лицо мн.ч. - -УТ/-ЮТ" },
+      { type: 'quiz', question: "Они пиш(...)т (I спр.)", options: ["ущ", "от", "уб", "спр", "ут"], correctAnswer: "ут", hint: "I спряжение, 3 лицо мн.ч. - -УТ/-ЮТ" },
       { type: 'quiz', question: "Глагол «дышать» - какого спряжения?", options: ["I спряжение", "II спряжение", "III спряжение", "Оба", "Ни одного"], correctAnswer: "II спряжение", hint: "Дышать - глагол-исключение (II спр.)" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь спряжения! 📝" }
@@ -81,11 +81,11 @@ export const fourthGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'fill', question: "Вставь букву: Сер__це (сердечный)", correctAnswer: "д", hint: "Проверочное слово - сердечный" },
+      { type: 'quiz', question: "Вставь букву: Сер(...)це (сердечный)", options: ["д", "н", "л", "с", "букву"], correctAnswer: "д", hint: "Проверочное слово - сердечный" },
       { type: 'quiz', question: "Как проверить непроизносимую согласную?", options: ["Подобрать проверочное слово", "Посмотреть в словаре", "Написать без неё", "Спросить у учителя", "Пропустить букву"], correctAnswer: "Подобрать проверочное слово", hint: "Нужно, чтобы согласная слышалась чётко" },
       { type: 'find', question: "Выбери слова с непроизносимой согласной:", options: ["Солнце (солнечный)", "Звезда (звёздный)", "Праздник (праздный)", "Чудесный", "Местный (место)"], correctAnswer: ["Солнце (солнечный)", "Звезда (звёздный)", "Праздник (праздный)", "Местный (место)"], hint: "Проверь, произносится ли согласная" },
-      { type: 'fill', question: "Чес__ный (честен) - честный", correctAnswer: "т", hint: "Честен - проверочное слово" },
-      { type: 'fill', question: "Опас__ный (опасен)", correctAnswer: "н", hint: "Проверочное слово - опасен" }
+      { type: 'quiz', question: "Чес(...)ный (честен) - честный", options: ["чес", "т", "ф", "р", "б"], correctAnswer: "т", hint: "Честен - проверочное слово" },
+      { type: 'quiz', question: "Опас(...)ный (опасен)", options: ["н", "опас", "х", "д", "опасен"], correctAnswer: "н", hint: "Проверочное слово - опасен" }
     ],
     reward: { stars: 3, message: "Супер! Ты проверяешь согласные! ✅" }
   },
@@ -99,7 +99,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Какой союз не требует запятой?", options: ["А", "И", "Но", "Однако", "Или"], correctAnswer: "И", hint: "Перед И однородные члены не разделяются запятой" },
       { type: 'find', question: "Найди предложения с однородными членами:", options: ["Кошка спит.", "Кошка ест и спит.", "На столе лежат книги, тетради и ручки.", "Дети играют.", "Мальчик рисует, читает и поёт."], correctAnswer: ["Кошка ест и спит.", "На столе лежат книги, тетради и ручки.", "Мальчик рисует, читает и поёт."], hint: "Однородные члены отвечают на один вопрос" },
       { type: 'quiz', question: "«В саду растут яблони, груши ___ сливы.» Какой знак?", options: ["Запятая", "Без знака", "Точка с запятой", "Тире", "Двоеточие"], correctAnswer: "Без знака", hint: "Перед И запятая не ставится" },
-      { type: 'fill', question: "Мальчик читал, ___ рисовал (однородные члены)", correctAnswer: "писал", hint: "Однородные члены - одинаковые по роли слова" }
+      { type: 'quiz', question: "Мальчик читал, (...)_ рисовал (однородные члены)", options: ["члены", "рисовал", "писал", "мальчик", "читал"], correctAnswer: "писал", hint: "Однородные члены - одинаковые по роли слова" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь синтаксис! 📚" }
   },
@@ -129,7 +129,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Кого называют «солнцем русской поэзии»?", options: ["Лермонтова", "Пушкина", "Есенина", "Тютчева", "Блока"], correctAnswer: "Пушкина", hint: "Александр Сергеевич Пушкин" },
       { type: 'find', question: "Выбери поэтов XIX века:", options: ["Пушкин", "Есенин", "Лермонтов", "Маяковский", "Фет"], correctAnswer: ["Пушкин", "Лермонтов", "Фет"], hint: "XIX век - золотой век русской поэзии" },
       { type: 'quiz', question: "Кто написал «Парус»?", options: ["Пушкин", "Лермонтов", "Тютчев", "Фет", "Некрасов"], correctAnswer: "Лермонтов", hint: "«Белеет парус одинокой...»" },
-      { type: 'fill', question: "А.С. ___ — автор «Сказки о рыбаке и рыбке»", correctAnswer: "Пушкин", hint: "Александр Сергеевич Пушкин" }
+      { type: 'quiz', question: "А.С. (...)_ — автор «Сказки о рыбаке и рыбке»", options: ["пушкый", "пушкий", "пушкка", "Пушкин", "пушкем"], correctAnswer: "Пушкин", hint: "Александр Сергеевич Пушкин" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь поэзию! 📖" }
   },
@@ -159,7 +159,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Где происходит газообмен?", options: ["В сердце", "В лёгких", "В желудке", "В печени", "В почках"], correctAnswer: "В лёгких", hint: "Лёгкие - орган дыхания" },
       { type: 'find', question: "Выбери органы пищеварения:", options: ["Сердце", "Желудок", "Кишечник", "Печень", "Лёгкие"], correctAnswer: ["Желудок", "Кишечник", "Печень"], hint: "Пищеварительная система перерабатывает пищу" },
       { type: 'quiz', question: "Сколько костей в теле взрослого человека?", options: ["156", "206", "306", "250", "180"], correctAnswer: "206", hint: "В скелете взрослого 206 костей" },
-      { type: 'fill', question: "Мозг защищён __ костью (черепной)", correctAnswer: "черепной", hint: "Череп защищает головной мозг" }
+      { type: 'quiz', question: "Мозг защищён (...) костью (черепной)", options: ["черепной", "костью", "нет", "защищён", "мозг"], correctAnswer: "черепной", hint: "Череп защищает головной мозг" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь анатомию! 🫀" }
   },
@@ -172,10 +172,10 @@ export const fourthGradeGames: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "I ___ to the park yesterday.", options: ["go", "went", "going", "goes", "gone"], correctAnswer: "went", hint: "Past Simple - прошедшее время" },
-      { type: 'fill', question: "She ___ (play) football last week. (played)", correctAnswer: "played", hint: "Правильный глагол + -ed" },
-      { type: 'quiz', question: "Did you watch TV? - No, I ___.", options: ["didn't", "don't", "doesn't", "wasn't", "hadn't"], correctAnswer: "didn't", hint: "Отрицание в Past Simple - didn't" },
+      { type: 'quiz', question: "She (...)_ (play) football last week. (played)", options: ["football", "she", "play", "played", "week"], correctAnswer: "played", hint: "Правильный глагол + -ed" },
+      { type: 'quiz', question: "Did you watch TV? - No, I ___.", options: ["didn", ",", "t", "doesn", "hadn"], correctAnswer: "didn't", hint: "Отрицание в Past Simple - didn't" },
       { type: 'find', question: "Выбери формы Past Simple:", options: ["went", "goes", "saw", "see", "played"], correctAnswer: ["went", "saw", "played"], hint: "Past Simple - прошедшее время" },
-      { type: 'fill', question: "We ___ (visit) London last summer. (visited)", correctAnswer: "visited", hint: "Правильный глагол + -ed" }
+      { type: 'quiz', question: "We (...)_ (visit) London last summer. (visited)", options: ["visited", "london", "visit", "last", "summer"], correctAnswer: "visited", hint: "Правильный глагол + -ed" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь Past Simple! ⏮️" }
   },
@@ -187,7 +187,7 @@ export const fourthGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "big - bigger - ___", options: ["biggest", "more big", "bigger", "most big", "bigly"], correctAnswer: "biggest", hint: "Превосходная степень: the biggest" },
       { type: 'quiz', question: "good - better - ___", options: ["goodest", "best", "more good", "gooder", "most good"], correctAnswer: "best", hint: "good - better - the best (исключение)" },
-      { type: 'fill', question: "beautiful - more beautiful - __ beautiful", correctAnswer: "most", hint: "Длинные слова: more/most" },
+      { type: 'quiz', question: "beautiful - more beautiful - (...) beautiful", options: ["не знаю", "more", "beautiful", "most", "нет"], correctAnswer: "most", hint: "Длинные слова: more/most" },
       { type: 'find', question: "Выбери правильные сравнения:", options: ["tall-taller-tallest", "big-bigger-biggest", "good-gooder-goodest", "interesting-more interesting", "small-smaller-smallest"], correctAnswer: ["tall-taller-tallest", "big-bigger-biggest", "interesting-more interesting", "small-smaller-smallest"], hint: "good - better - best (исключение)" },
       { type: 'quiz', question: "bad - worse - ___", options: ["worst", "baddest", "worsest", "more bad", "most bad"], correctAnswer: "worst", hint: "bad - worse - worst (исключение)" }
     ],
@@ -201,11 +201,11 @@ export const fourthGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'fill', question: "25 × 4 = __", correctAnswer: "100", hint: "25 × 4 = 100" },
-      { type: 'fill', question: "144 ÷ 12 = __", correctAnswer: "12", hint: "12 × 12 = 144" },
+      { type: 'quiz', question: "25 × 4 = (...)", options: ["101", "100", "50", "300", "1000"], correctAnswer: "100", hint: "25 × 4 = 100" },
+      { type: 'quiz', question: "144 ÷ 12 = (...)", options: ["21", "2", "7", "14", "12"], correctAnswer: "12", hint: "12 × 12 = 144" },
       { type: 'quiz', question: "15 × 6 = ?", options: ["80", "90", "100", "85", "95"], correctAnswer: "90", hint: "15 × 6 = 90" },
       { type: 'quiz', question: "96 ÷ 8 = ?", options: ["10", "11", "12", "13", "14"], correctAnswer: "12", hint: "8 × 12 = 96" },
-      { type: 'fill', question: "32 × 3 = __", correctAnswer: "96", hint: "30 × 3 + 2 × 3 = 96" }
+      { type: 'quiz', question: "32 × 3 = (...)", options: ["196", "86", "101", "97", "96"], correctAnswer: "96", hint: "30 × 3 + 2 × 3 = 96" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь умножать и делить! ✖️➗" }
   },
@@ -216,9 +216,9 @@ export const fourthGradeGames: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       { type: 'quiz', question: "Сколько метров в 1 километре?", options: ["100", "1000", "10000", "500", "10"], correctAnswer: "1000", hint: "1 км = 1000 м" },
-      { type: 'fill', question: "1 час = __ минут", correctAnswer: "60", hint: "В часе 60 минут" },
+      { type: 'quiz', question: "1 час = (...) минут", options: ["61", "55", "30", "50", "60"], correctAnswer: "60", hint: "В часе 60 минут" },
       { type: 'quiz', question: "Сколько граммов в 1 килограмме?", options: ["100", "1000", "10000", "500", "10"], correctAnswer: "1000", hint: "1 кг = 1000 г" },
-      { type: 'fill', question: "2 кг 500 г = __ г", correctAnswer: "2500", hint: "2000 + 500 = 2500" },
+      { type: 'quiz', question: "2 кг 500 г = (...) г", options: ["2600", "2500", "5000", "5200", "2502"], correctAnswer: "2500", hint: "2000 + 500 = 2500" },
       { type: 'quiz', question: "Сколько секунд в 1 минуте?", options: ["30", "60", "100", "120", "50"], correctAnswer: "60", hint: "В минуте 60 секунд" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь единицы измерения! 📏" }
@@ -230,10 +230,10 @@ export const fourthGradeGames: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       { type: 'quiz', question: "Какое действие выполняется первым: 2 + 3 × 4?", options: ["Сложение", "Умножение", "Оба вместе", "Вычитание", "Деление"], correctAnswer: "Умножение", hint: "Сначала умножение и деление" },
-      { type: 'fill', question: "3 + 2 × 5 = __", correctAnswer: "13", hint: "Сначала 2 × 5 = 10, потом 3 + 10 = 13" },
+      { type: 'quiz', question: "3 + 2 × 5 = (...)", options: ["23", "14", "113", "31", "13"], correctAnswer: "13", hint: "Сначала 2 × 5 = 10, потом 3 + 10 = 13" },
       { type: 'quiz', question: "(4 + 3) × 2 = ?", options: ["10", "11", "14", "15", "8"], correctAnswer: "14", hint: "Сначала скобки: 7 × 2 = 14" },
-      { type: 'fill', question: "10 - 2 × 3 = __", correctAnswer: "4", hint: "Сначала 2 × 3 = 6, потом 10 - 6 = 4" },
-      { type: 'fill', question: "16 ÷ (2 + 2) = __", correctAnswer: "4", hint: "Сначала скобки: 16 ÷ 4 = 4" }
+      { type: 'quiz', question: "10 - 2 × 3 = (...)", options: ["14", "1004", "4", "2", "40"], correctAnswer: "4", hint: "Сначала 2 × 3 = 6, потом 10 - 6 = 4" },
+      { type: 'quiz', question: "16 ÷ (2 + 2) = (...)", options: ["14", "4", "2", "1004", "40"], correctAnswer: "4", hint: "Сначала скобки: 16 ÷ 4 = 4" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь порядок действий! 🔢" }
   },
@@ -246,7 +246,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Имя прилагательное обозначает:", options: ["Предмет", "Признак предмета", "Действие", "Количество", "Место"], correctAnswer: "Признак предмета", hint: "Прилагательное отвечает на «какой? какая? какое?»" },
       { type: 'find', question: "Выбери имена прилагательные:", options: ["Красивый", "Красота", "Бежать", "Быстрый", "Синий"], correctAnswer: ["Красивый", "Быстрый", "Синий"], hint: "Прилагательные описывают предметы" },
       { type: 'quiz', question: "Прилагательное изменяется по:", options: ["Падежам", "Лицам", "Времени", "Числам", "Склонениям"], correctAnswer: "Падежам", hint: "Прилагательные изменяются по падежам, числам и родам" },
-      { type: 'fill', question: "Прилагательное «большой» в женском роде: __", correctAnswer: "большая", hint: "Большой дом, большая книга" },
+      { type: 'quiz', question: "Прилагательное «большой» в женском роде: (...)", options: ["большая", "большев", "большем", "большёт", "большин"], correctAnswer: "большая", hint: "Большой дом, большая книга" },
       { type: 'quiz', question: "На какой вопрос отвечает прилагательное?", options: ["Кто?", "Что делать?", "Какой?", "Где?", "Сколько?"], correctAnswer: "Какой?", hint: "Какой? Какая? Какое? Какие?" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь прилагательные! ✍️" }
@@ -260,7 +260,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Глагол обозначает:", options: ["Предмет", "Признак", "Действие", "Количество", "Место"], correctAnswer: "Действие", hint: "Глагол отвечает на «что делать? что сделать?»" },
       { type: 'find', question: "Выбери глаголы:", options: ["Бежать", "Бег", "Красивый", "Писать", "Письмо"], correctAnswer: ["Бежать", "Писать"], hint: "Глаголы обозначают действия" },
       { type: 'quiz', question: "Глаголы изменяются по:", options: ["Падежам", "Временам", "Родам", "Лицам", "Склонениям"], correctAnswer: "Временам", hint: "Прошедшее, настоящее, будущее время" },
-      { type: 'fill', question: "Глагол «читать» в прошедшем времени: __", correctAnswer: "читал", hint: "Читать → читал" },
+      { type: 'quiz', question: "Глагол «читать» в прошедшем времени: (...)", options: ["читал", "читать", "прошедшем", "времени", "глагол"], correctAnswer: "читал", hint: "Читать → читал" },
       { type: 'quiz', question: "Глагол в неопределённой форме отвечает на вопрос:", options: ["Что делает?", "Что делать?", "Кто?", "Какой?", "Где?"], correctAnswer: "Что делать?", hint: "Неопределённая форма - что делать? что сделать?" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь глаголы! 📝" }
@@ -272,10 +272,10 @@ export const fourthGradeGames: GameLesson[] = [
     color: "text-red-400",
     tasks: [
       { type: 'quiz', question: "Приставки на -з/-с: какой согласный пишется перед к?", options: ["-з", "-с", "Любой", "-т", "-д"], correctAnswer: "-с", hint: "Перед к, п, т пишется -с (без-, бес-)" },
-      { type: 'fill', question: "Бе__шумный (з/с)", correctAnswer: "с", hint: "Бесшумный - перед ш пишется с" },
+      { type: 'quiz', question: "Бе(...)шумный (з/с)", options: ["с", "ф", "х", "п", "бе"], correctAnswer: "с", hint: "Бесшумный - перед ш пишется с" },
       { type: 'find', question: "Выбери слова с приставкой на -з:", options: ["Беззвездный", "Бесконечный", "Безопасный", "Бесшумный", "Беззаботный"], correctAnswer: ["Беззвездный", "Безопасный", "Беззаботный"], hint: "-з перед звонкими, -с перед глухими" },
       { type: 'quiz', question: "В слове «расписать» пишется:", options: ["з", "с", "ж", "ц", "ч"], correctAnswer: "с", hint: "Расписать - перед п пишется с" },
-      { type: 'fill', question: "Бе__покойный (з/с)", correctAnswer: "с", hint: "Беспокойный - перед п пишется с" }
+      { type: 'quiz', question: "Бе(...)покойный (з/с)", options: ["с", "покойный", "н", "ш", "щ"], correctAnswer: "с", hint: "Беспокойный - перед п пишется с" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь приставки! 📖" }
   },
@@ -289,7 +289,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Кто автор «Золушки»?", options: ["Андерсен", "Братья Гримм", "Перро", "Толстой", "Пушкин"], correctAnswer: "Перро", hint: "Шарль Перро - французский сказочник" },
       { type: 'find', question: "Выбери сказки Андерсена:", options: ["Русалочка", "Золушка", "Снежная королева", "Белоснежка", "Дюймовочка"], correctAnswer: ["Русалочка", "Снежная королева", "Дюймовочка"], hint: "Андерсен - датский сказочник" },
       { type: 'quiz', question: "«Бременские музыканты» - авторы:", options: ["Андерсен", "Братья Гримм", "Перро", "Толстой", "Пушкин"], correctAnswer: "Братья Гримм", hint: "Немецкие сказочники" },
-      { type: 'fill', question: "«Гадкий ___» — сказка Андерсена", correctAnswer: "утёнок", hint: "Ганс Христиан Андерсен" }
+      { type: 'quiz', question: "«Гадкий (...)_» — сказка Андерсена", options: ["нет", "сказка", "гадкий", "утёнок", "андерсена"], correctAnswer: "утёнок", hint: "Ганс Христиан Андерсен" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь зарубежные сказки! 📚" }
   },
@@ -302,7 +302,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Какое животное - символ России?", options: ["Тигр", "Медведь", "Лиса", "Волк", "Заяц"], correctAnswer: "Медведь", hint: "Бурый медведь - символ России" },
       { type: 'find', question: "Выбери растения России:", options: ["Берёза", "Кактус", "Ель", "Пальма", "Ромашка"], correctAnswer: ["Берёза", "Ель", "Ромашка"], hint: "Типичные растения России" },
       { type: 'quiz', question: "Самое глубокое озеро в мире:", options: ["Каспийское", "Байкал", "Ладожское", "Онежское", "Таймыр"], correctAnswer: "Байкал", hint: "Байкал - глубочайшее озеро" },
-      { type: 'fill', question: "Столица России - __", correctAnswer: "Москва", hint: "Москва - столица нашей страны" },
+      { type: 'quiz', question: "Столица России - (...)", options: ["россии", "столица", "не знаю", "нет", "Москва"], correctAnswer: "Москва", hint: "Москва - столица нашей страны" },
       { type: 'quiz', question: "Какая река самая длинная в России?", options: ["Волга", "Обь", "Енисей", "Лена", "Амур"], correctAnswer: "Обь", hint: "Обь с Иртышом - самая длинная река России" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь Россию! 🇷🇺" }
@@ -317,7 +317,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'find', question: "Выбери, что загрязняет природу:", options: ["Заводы", "Леса", "Автомобили", "Парки", "Мусор"], correctAnswer: ["Заводы", "Автомобили", "Мусор"], hint: "Источники загрязнения" },
       { type: 'quiz', question: "Почему нельзя сжигать листья?", options: ["Не красиво", "Опасный дым", "Холодно", "Долго", "Мокро"], correctAnswer: "Опасный дым", hint: "При горении выделяются вредные вещества" },
       { type: 'quiz', question: "Сколько лет разлагается пластик?", options: ["10 лет", "100 лет", "Более 100 лет", "1 год", "50 лет"], correctAnswer: "Более 100 лет", hint: "Пластик разлагается очень долго" },
-      { type: 'fill', question: "Заповедник - это место, где __ природу", correctAnswer: "охраняют", hint: "В заповедниках охраняют животных и растения" }
+      { type: 'quiz', question: "Заповедник - это место, где (...) природу", options: ["охраняять", "охраняом", "природу", "охраняют", "охраняует"], correctAnswer: "охраняют", hint: "В заповедниках охраняют животных и растения" }
     ],
     reward: { stars: 3, message: "Молодец! Ты бережёшь природу! 🌿" }
   },
@@ -328,10 +328,10 @@ export const fourthGradeGames: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "I ___ visit London next summer.", options: ["will", "am", "did", "was", "do"], correctAnswer: "will", hint: "Future Simple: will + глагол" },
-      { type: 'fill', question: "She __ come tomorrow. (will)", correctAnswer: "will", hint: "Will для всех лиц" },
+      { type: 'quiz', question: "She (...) come tomorrow. (will)", options: ["tomorrow", "she", "нет", "come", "will"], correctAnswer: "will", hint: "Will для всех лиц" },
       { type: 'quiz', question: "Tomorrow I ___ to school.", options: ["go", "will go", "went", "going", "goes"], correctAnswer: "will go", hint: "Tomorrow = будущее время" },
       { type: 'find', question: "Выбери маркеры Future Simple:", options: ["Tomorrow", "Yesterday", "Next week", "Last year", "Soon"], correctAnswer: ["Tomorrow", "Next week", "Soon"], hint: "Маркеры будущего времени" },
-      { type: 'fill', question: "They ___ play football tomorrow. (will)", correctAnswer: "will", hint: "Will для всех лиц" }
+      { type: 'quiz', question: "They (...)_ play football tomorrow. (will)", options: ["will", "they", "tomorrow", "play", "football"], correctAnswer: "will", hint: "Will для всех лиц" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь будущее время! ⏭️" }
   },
@@ -345,7 +345,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'find', question: "Выбери профессии:", options: ["Врач", "Стол", "Учитель", "Книга", "Пожарный"], correctAnswer: ["Врач", "Учитель", "Пожарный"], hint: "Профессии - это работа" },
       { type: 'quiz', question: "Кто строит дома?", options: ["Врач", "Строитель", "Повар", "Учитель", "Продавец"], correctAnswer: "Строитель", hint: "Строитель создаёт здания" },
       { type: 'quiz', question: "Кто преподаёт в школе?", options: ["Врач", "Строитель", "Учитель", "Повар", "Пожарный"], correctAnswer: "Учитель", hint: "Учитель обучает детей" },
-      { type: 'fill', question: "__ — человек, который готовит еду (повар)", correctAnswer: "Повар", hint: "Повар работает на кухне" }
+      { type: 'quiz', question: "(...) — человек, который готовит еду (повар)", options: ["готовит", "Повар", "человек", "еду", "который"], correctAnswer: "Повар", hint: "Повар работает на кухне" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь профессии! 👨‍⚕️" }
   },
@@ -358,10 +358,10 @@ export const fourthGradeGames: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       { type: 'quiz', question: "Формула периметра квадрата:", options: ["P = 4a", "P = a²", "P = 2a", "P = a + a + a", "P = 2(a + b)"], correctAnswer: "P = 4a", hint: "У квадрата 4 равные стороны" },
-      { type: 'fill', question: "Периметр квадрата со стороной 5 см = __ см", correctAnswer: "20", hint: "P = 4 × 5 = 20" },
+      { type: 'quiz', question: "Периметр квадрата со стороной 5 см = (...) см", options: ["30", "1020", "20", "10", "21"], correctAnswer: "20", hint: "P = 4 × 5 = 20" },
       { type: 'quiz', question: "Формула площади прямоугольника:", options: ["S = a + b", "S = a × b", "S = 2(a + b)", "S = a × a", "S = (a + b) × 2"], correctAnswer: "S = a × b", hint: "Площадь = длина × ширина" },
-      { type: 'fill', question: "Площадь прямоугольника 6 × 4 = __ см²", correctAnswer: "24", hint: "S = 6 × 4 = 24" },
-      { type: 'fill', question: "Периметр прямоугольника со сторонами 3 см и 7 см = __ см", correctAnswer: "20", hint: "P = 2 × (3 + 7) = 20" }
+      { type: 'quiz', question: "Площадь прямоугольника 6 × 4 = (...) см²", options: ["42", "2", "23", "24", "14"], correctAnswer: "24", hint: "S = 6 × 4 = 24" },
+      { type: 'quiz', question: "Периметр прямоугольника со сторонами 3 см и 7 см = (...) см", options: ["10", "30", "20", "21", "1020"], correctAnswer: "20", hint: "P = 2 × (3 + 7) = 20" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь площадь и периметр! 📐" }
   },
@@ -371,11 +371,11 @@ export const fourthGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'fill', question: "x + 15 = 30, x = __", correctAnswer: "15", hint: "x = 30 - 15" },
-      { type: 'fill', question: "x - 8 = 12, x = __", correctAnswer: "20", hint: "x = 12 + 8" },
-      { type: 'fill', question: "x × 4 = 24, x = __", correctAnswer: "6", hint: "x = 24 ÷ 4" },
-      { type: 'fill', question: "x ÷ 3 = 9, x = __", correctAnswer: "27", hint: "x = 9 × 3" },
-      { type: 'fill', question: "x + 23 = 50, x = __", correctAnswer: "27", hint: "x = 50 - 23" }
+      { type: 'quiz', question: "x + 15 = 30, x = (...)", options: ["30", "14", "15", "7", "115"], correctAnswer: "15", hint: "x = 30 - 15" },
+      { type: 'quiz', question: "x - 8 = 12, x = (...)", options: ["1020", "21", "30", "20", "10"], correctAnswer: "20", hint: "x = 12 + 8" },
+      { type: 'quiz', question: "x × 4 = 24, x = (...)", options: ["18", "1006", "60", "6", "7"], correctAnswer: "6", hint: "x = 24 ÷ 4" },
+      { type: 'quiz', question: "x ÷ 3 = 9, x = (...)", options: ["32", "1027", "127", "27", "28"], correctAnswer: "27", hint: "x = 9 × 3" },
+      { type: 'quiz', question: "x + 23 = 50, x = (...)", options: ["1027", "127", "27", "32", "28"], correctAnswer: "27", hint: "x = 50 - 23" }
     ],
     reward: { stars: 3, message: "Супер! Ты решаешь уравнения! ✖️" }
   },
@@ -388,7 +388,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "К какому склонению относятся слова на -а, -я (мама, дядя)?", options: ["1 склонение", "2 склонение", "3 склонение", "4 склонение", "5 склонение"], correctAnswer: "1 склонение", hint: "1 склонение - ж.р. и м.р. на -а, -я" },
       { type: 'quiz', question: "К какому склонению относится слово «стол»?", options: ["1 склонение", "2 склонение", "3 склонение", "4 склонение", "Нет склонения"], correctAnswer: "2 склонение", hint: "2 склонение - м.р. без окончания, ср.р. на -о, -е" },
       { type: 'find', question: "Выбери слова 3 склонения:", options: ["Мышь", "Степь", "Стол", "Мама", "Ночь"], correctAnswer: ["Мышь", "Степь", "Ночь"], hint: "3 склонение - ж.р. на -ь" },
-      { type: 'fill', question: "Слово «окно» - __ склонение (число)", correctAnswer: "2", hint: "Окно - ср.р. на -о, 2 склонение" },
+      { type: 'quiz', question: "Слово «окно» - (...) склонение (число)", options: ["3", "2", "7", "6", "0"], correctAnswer: "2", hint: "Окно - ср.р. на -о, 2 склонение" },
       { type: 'quiz', question: "Слово «конь» - какого склонения?", options: ["1 склонение", "2 склонение", "3 склонение", "4 склонение", "Нет склонения"], correctAnswer: "2 склонение", hint: "Конь - м.р. с нулевым окончанием, 2 склонение" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь склонения! 📚" }
@@ -402,7 +402,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Существительное обозначает:", options: ["Действие", "Предмет", "Признак", "Количество", "Место"], correctAnswer: "Предмет", hint: "Существительное - это предмет" },
       { type: 'find', question: "Выбери существительные:", options: ["Дом", "Бежать", "Красивый", "Стол", "Писать"], correctAnswer: ["Дом", "Стол"], hint: "Существительные - это предметы" },
       { type: 'quiz', question: "Наречие отвечает на вопрос:", options: ["Кто? Что?", "Какой?", "Как? Где? Когда?", "Что делать?", "Сколько?"], correctAnswer: "Как? Где? Когда?", hint: "Наречие - обстоятельство" },
-      { type: 'fill', question: "«Быстро» - это __ (часть речи)", correctAnswer: "наречие", hint: "Как? Быстро - это наречие" },
+      { type: 'quiz', question: "«Быстро» - это (...) (часть речи)", options: ["наречие", "наречка", "наречом", "наречют", "наречов"], correctAnswer: "наречие", hint: "Как? Быстро - это наречие" },
       { type: 'quiz', question: "Местоимение заменяет:", options: ["Глагол", "Существительное", "Прилагательное", "Наречие", "Предлог"], correctAnswer: "Существительное", hint: "Местоимение указывает на предмет (он, она, они)" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь части речи! ✍️" }
@@ -416,7 +416,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Кто автор басни «Ворона и Лисица»?", options: ["Пушкин", "Крылов", "Лермонтов", "Толстой", "Есенин"], correctAnswer: "Крылов", hint: "Иван Андреевич Крылов" },
       { type: 'find', question: "Выбери басни Крылова:", options: ["Стрекоза и Муравей", "Репка", "Квартет", "Колобок", "Лебедь, Щука и Рак"], correctAnswer: ["Стрекоза и Муравей", "Квартет", "Лебедь, Щука и Рак"], hint: "Крылов - великий баснописец" },
       { type: 'quiz', question: "Что такое мораль басни?", options: ["Вступление", "Нравоучительный вывод", "Описание", "Заголовок", "Герой"], correctAnswer: "Нравоучительный вывод", hint: "Мораль учит чему-то важному" },
-      { type: 'fill', question: "«Ты всё пела? Это дело: Так поди же, __!» (попляши)", correctAnswer: "попляши", hint: "Из басни «Стрекоза и Муравей»" },
+      { type: 'quiz', question: "«Ты всё пела? Это дело: Так поди же, (...)!» (попляши)", options: ["же", "дело", "попляши", "так", "пела"], correctAnswer: "попляши", hint: "Из басни «Стрекоза и Муравей»" },
       { type: 'quiz', question: "В басне «Квартет» играли на:", options: ["Скрипке", "Фортепиано", "Разных инструментах", "Баяне", "Гитаре"], correctAnswer: "Разных инструментах", hint: "Мартышка, Осёл, Козёл и Мишка играли вместе" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь басни! 📖" }
@@ -431,7 +431,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Сколько планет в Солнечной системе?", options: ["7", "8", "9", "10", "6"], correctAnswer: "8", hint: "Меркурий, Венера, Земля, Марс, Юпитер, Сатурн, Уран, Нептун" },
       { type: 'find', question: "Выбери планеты:", options: ["Луна", "Земля", "Солнце", "Марс", "Юпитер"], correctAnswer: ["Земля", "Марс", "Юпитер"], hint: "Луна - спутник, Солнце - звезда" },
       { type: 'quiz', question: "Какая планета самая большая?", options: ["Земля", "Юпитер", "Сатурн", "Нептун", "Марс"], correctAnswer: "Юпитер", hint: "Юпитер - крупнейшая планета" },
-      { type: 'fill', question: "Какая планета называется «красной»? — __", correctAnswer: "Марс", hint: "Марс имеет красноватый цвет из-за железа" }
+      { type: 'quiz', question: "Какая планета называется «красной»? — (...)", options: ["красной", "называется", "какая", "планета", "Марс"], correctAnswer: "Марс", hint: "Марс имеет красноватый цвет из-за железа" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь космос! 🚀" }
   },
@@ -443,7 +443,7 @@ export const fourthGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "I ___ swim. (умею)", options: ["can", "could", "am", "is", "do"], correctAnswer: "can", hint: "Can = могу/умею (настоящее)" },
       { type: 'quiz', question: "___ you help me? (можешь)", options: ["Can", "Are", "Is", "Do", "Did"], correctAnswer: "Can", hint: "Can используется для просьбы" },
-      { type: 'fill', question: "She __ speak English. (can)", correctAnswer: "can", hint: "Can для всех лиц" },
+      { type: 'quiz', question: "She (...) speak English. (can)", options: ["нет", "english", "she", "speak", "can"], correctAnswer: "can", hint: "Can для всех лиц" },
       { type: 'find', question: "Выбери предложения с can/could:", options: ["I can swim", "I am swim", "Could you help?", "She can dances", "We could go"], correctAnswer: ["I can swim", "Could you help?", "We could go"], hint: "Can/Could + глагол без to" },
       { type: 'quiz', question: "When I was young, I ___ run fast.", options: ["can", "could", "am", "was", "do"], correctAnswer: "could", hint: "Could = прошедшее время от can" }
     ],
@@ -458,7 +458,7 @@ export const fourthGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Сколько углов у треугольника?", options: ["2", "3", "4", "5", "6"], correctAnswer: "3", hint: "Тре-угольник = три угла" },
       { type: 'quiz', question: "У прямоугольника:", options: ["Все стороны равны", "Противоположные стороны равны", "Нет углов", "3 угла", "5 углов"], correctAnswer: "Противоположные стороны равны", hint: "У прямоугольника 4 прямых угла" },
       { type: 'find', question: "Выбери фигуры с 4 углами:", options: ["Квадрат", "Треугольник", "Прямоугольник", "Круг", "Ромб"], correctAnswer: ["Квадрат", "Прямоугольник", "Ромб"], hint: "Четырёхугольники" },
-      { type: 'fill', question: "У квадрата __ угла", correctAnswer: "4", hint: "У квадрата 4 прямых угла" },
+      { type: 'quiz', question: "У квадрата (...) угла", options: ["40", "14", "2", "1004", "4"], correctAnswer: "4", hint: "У квадрата 4 прямых угла" },
       { type: 'quiz', question: "Сколько сторон у шестиугольника?", options: ["4", "5", "6", "7", "8"], correctAnswer: "6", hint: "Шести-угольник = 6 сторон" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь геометрические фигуры! 🔷" }

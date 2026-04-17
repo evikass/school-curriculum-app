@@ -97,6 +97,11 @@ import { games as grade4HistoryGames } from './grades/4/history'
 import { games as grade4GeographyGames } from './grades/4/geography'
 import { games as grade4InformaticsGames } from './grades/4/informatics'
 import { games as grade4NatureGames } from './grades/4/nature'
+import { games as grade4ReligionGames } from './grades/4/religion'
+import { games as grade4TechGames } from './grades/4/tech'
+import { games as grade4ArtGames } from './grades/4/art'
+import { games as grade4MusicGames } from './grades/4/music'
+import { games as grade4PEGames } from './grades/4/pe'
 
 // Grade 5
 import { lessons as grade5Russian } from './grades/5/russian'
@@ -455,7 +460,7 @@ export const allGames: Record<number, GameLesson[]> = {
   1: [...firstGradeGames, ...grade1ReadingGames],
   2: [...secondGradeGames, ...grade2MathGames, ...grade2RussianGames, ...grade2LiteratureGames, ...grade2WorldGames, ...grade2EnglishGames, ...grade2ProjectsGames],
   3: [...thirdGradeGames, ...grade3WorldGames, ...grade3EnglishGames, ...grade3RoboticsGames, ...grade3EthicsGames, ...grade3InformaticsGames, ...grade3SafetyGames, ...grade3RussianGames],
-  4: [...fourthGradeGames, ...grade4WorldGames, ...grade4MathGames, ...grade4RussianGames, ...grade4LiteratureGames, ...grade4EnglishGames, ...grade4ProjectsGames, ...grade4HistoryGames, ...grade4GeographyGames, ...grade4InformaticsGames, ...grade4NatureGames],
+  4: [...fourthGradeGames, ...grade4WorldGames, ...grade4MathGames, ...grade4RussianGames, ...grade4LiteratureGames, ...grade4EnglishGames, ...grade4ProjectsGames, ...grade4HistoryGames, ...grade4GeographyGames, ...grade4InformaticsGames, ...grade4NatureGames, ...grade4ReligionGames, ...grade4TechGames, ...grade4ArtGames, ...grade4MusicGames, ...grade4PEGames],
   5: [...fifthGradeGames, ...grade5MathGames, ...grade5HistoryGames, ...grade5BiologyGames, ...grade5GeographyGames, ...grade5EnglishGames, ...grade5RussianGames, ...grade5LiteratureGames, ...grade5CraftsGames, ...grade5FinanceGames, ...grade5DigitalGames, ...grade5InformaticsGames, ...grade5RoboticsGames, ...grade5MusicGames, ...grade5SafetyGames, ...grade5TechGames, ...grade5ArtGames, ...grade5PEGames],
   6: [...sixthGradeGames, ...grade6MathGames, ...grade6HistoryGames, ...grade6BiologyGames, ...grade6GeographyGames, ...grade6EnglishGames, ...grade6RussianGames, ...grade6LiteratureGames, ...grade6SocialGames, ...grade6InformaticsGames, ...grade6RoboticsGames, ...grade6EcologyGames, ...grade6CodingGames, ...grade6PhysicsGames, ...grade6ChemistryGames, ...grade6CraftsGames],
   7: [...seventhGradeGames, ...grade7AlgebraGames, ...grade7GeometryGames, ...grade7PhysicsGames, ...grade7HistoryGames, ...grade7BiologyGames, ...grade7GeographyGames, ...grade7EnglishGames, ...grade7RussianGames, ...grade7LiteratureGames, ...grade7CodingGames, ...grade7SocialGames, ...grade7EcologyGames, ...grade7RoboticsGames, ...grade7ChemistryGames, ...grade7InformaticsGames, ...grade7TechGames, ...grade7MusicGames, ...grade7PEGames, ...grade7SafetyGames],
