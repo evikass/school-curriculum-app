@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Жанры вокальной музыки",
+          image: "/school-curriculum-app/images/lessons/grade7/music/lesson1.svg",
           description: `**Вокальная музыка** — музыка для голоса.
 
 **Основные жанры:**
@@ -68,6 +69,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Инструментальные жанры",
+          image: "/school-curriculum-app/images/lessons/grade7/music/lesson2.svg",
           description: `**Инструментальная музыка** — музыка для инструментов.
 
 **Крупные жанры:**
@@ -132,6 +134,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "М.И. Глинка — основоположник русской классики",
+          image: "/school-curriculum-app/images/lessons/grade7/music/lesson3.svg",
           description: `**Михаил Иванович Глинка** (1804-1857)
 
 **Значение:**
@@ -187,6 +190,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "«Могучая кучка» и П.И. Чайковский",
+          image: "/school-curriculum-app/images/lessons/grade7/music/lesson4.svg",
           description: `**«Могучая кучка» (Балакиревский кружок):**
 - М.А. Балакирев — руководитель
 - М.П. Мусоргский
@@ -242,6 +246,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Венская классическая школа",
+          image: "/school-curriculum-app/images/lessons/grade7/music/lesson5.svg",
           description: `**Венская классическая школа:**
 - Й. Гайдн
 - В.А. Моцарт
@@ -310,6 +315,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Джаз и рок-музыка",
+          image: "/school-curriculum-app/images/lessons/grade7/music/lesson6.svg",
           description: `**Джаз:**
 
 **Происхождение:**
@@ -385,6 +391,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Жанры вокальной музыки 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson7.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -399,6 +406,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Инструментальные жанры 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson8.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -413,6 +421,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "М.И. Глинка — основоположник русской классики 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson9.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -427,6 +436,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "«Могучая кучка» и П.И. Чайковский 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson10.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -441,6 +451,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Венская классическая школа 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson11.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -455,6 +466,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Джаз и рок-музыка 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson12.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -470,6 +482,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Жанры вокальной музыки 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson13.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -484,6 +497,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Инструментальные жанры 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson14.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -498,6 +512,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "М.И. Глинка — основоположник русской классики 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson15.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -512,6 +527,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "«Могучая кучка» и П.И. Чайковский 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson16.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -526,6 +542,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Венская классическая школа 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson17.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -540,6 +557,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Джаз и рок-музыка 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson18.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -555,11 +573,22 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Музыкальные жанры",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson19.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
     tasks: [
-      { type: 'quiz', question: "Сколько частей в симфонии?", options: ["2", "3", "4", "5", "Другой ответ"], correctAnswer: "4", hint: "Классическая форма" },
+      { type: 'quiz', question: "Сколько частей в симфонии?", options: ["2", "3", "4", "5", "Другой ответ"],
+      keyPoints: [
+        "Классификация по способу исполнения — Вокальные — для голоса",
+        "Вокальные — для голоса",
+        "Инструментальные — для инструментов",
+      ],
+      examples: [
+        "Струнные инструменты: смычковые (скрипка, альт, виолончель, контрабас) и щипковые (гитара, арфа, балалайка) 🎻",
+        "Фортепиано переводится как тихо-громко — ударно-клавишный инструмент с роялем (крыловидная форма) и пианино (вертикальная форма)",
+        "Тембры: скрипка — тёплый, виолончель — глубокий бархатистый, флейта — серебристый птичий, труба — яркий героический",
+      ], correctAnswer: "4", hint: "Классическая форма" },
       { type: 'quiz', question: "Что такое a cappella?", options: ["С оркестром", "Без сопровождения", "Соло", "Хор", "Другой ответ"], correctAnswer: "Без сопровождения", hint: "Пение без инструментов" },
       { type: 'find', question: "Выберите вокальные жанры:", options: ["Симфония", "Романс", "Ария", "Концерт", "Песня"], correctAnswer: ["Романс", "Ария", "Песня"], hint: "Для голоса" },
       { type: 'quiz', question: "Какой размер у вальса?", options: ["2/4", "3/4", "4/4", "6/8", "Другой ответ"], correctAnswer: "3/4", hint: "Танцевальный жанр" },
@@ -569,6 +598,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Композиторы",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson20.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -583,6 +613,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Зарубежная музыка",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson21.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -597,6 +628,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Современная музыка",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson22.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -611,11 +643,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Жанры вокальной музыки",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson23.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
     tasks: [
-      { type: 'quiz', question: "Что такое вокальная музыка?", options: ["Музыка для инструментов", "Музыка для голоса", "Электронная музыка", "Оркестровая музыка", "Другой ответ"], correctAnswer: "Музыка для голоса", hint: "От слова «вокал» — голос" },
+      { type: 'quiz', question: "Что такое вокальная музыка?", options: ["Музыка для инструментов", "Музыка для голоса", "Электронная музыка", "Оркестровая музыка", "Другой ответ"],
+      keyPoints: [
+        "Вокальная музыка делится на жанры: песня, романс, ария, хор, кантата",
+        "Песня — самый распространённый вокальный жанр, сочетающий стихи и мелодию",
+        "Романс — лирическое произведение для голоса с инструментальным сопровождением",
+      ],
+      examples: [
+        "Симфония — крупное произведение для оркестра, обычно из 4 частей 🎻",
+        "Вальс имеет размер 3/4 — три доли на такт, танцевальный ритм",
+        "Ноктюрн — ночная музыка (мечтательная), скерцо — шутливая (живая)",
+      ], correctAnswer: "Музыка для голоса", hint: "От слова «вокал» — голос" },
       { type: 'quiz', question: "Какой вокальный жанр сочетает стихи и инструментальное сопровождение?", options: ["Песня", "Ария", "Романс", "Хор", "Другой ответ"], correctAnswer: "Романс", hint: "Лирическое произведение для голоса" },
       { type: 'quiz', question: "Что означает a cappella?", options: ["С оркестром", "Соло на фортепиано", "Пение без сопровождения", "Хоровая импровизация", "Другой ответ"], correctAnswer: "Пение без сопровождения", hint: "Без инструментов" },
       { type: 'quiz', question: "Какие виды хоров существуют по составу?", options: ["Только мужской", "Только смешанный", "Мужской, женский, смешанный, детский", "Сопрано и бас", "Другой ответ"], correctAnswer: "Мужской, женский, смешанный, детский", hint: "Различаются по составу исполнителей" },
@@ -625,11 +668,17 @@ export const games: GameLesson[] = [
   },
   {
     title: "Инструментальные жанры",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson24.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
     tasks: [
-      { type: 'quiz', question: "Сколько частей обычно в классической симфонии?", options: ["2", "3", "4", "5", "Другой ответ"], correctAnswer: "4", hint: "Быстро-медленно-менуэт-быстро" },
+      { type: 'quiz', question: "Сколько частей обычно в классической симфонии?", options: ["2", "3", "4", "5", "Другой ответ"],
+      keyPoints: [
+        "Инструментальная музыка не имеет слов и передаёт образы через звуки",
+        "Соната, симфония, концерт, сюита — основные инструментальные жанры",
+        "Инструментальная музыка делится на камерную и симфоническую",
+      ], correctAnswer: "4", hint: "Быстро-медленно-менуэт-быстро" },
       { type: 'quiz', question: "Что такое концерт как музыкальный жанр?", options: ["Один инструмент без оркестра", "Солист + оркестр", "Только хоровое произведение", "Вокальное произведение", "Другой ответ"], correctAnswer: "Солист + оркестр", hint: "Соло с оркестровым сопровождением" },
       { type: 'quiz', question: "Какой размер у вальса?", options: ["2/4", "3/4", "4/4", "6/8", "Другой ответ"], correctAnswer: "3/4", hint: "Три доли на такт" },
       { type: 'quiz', question: "Какой жанр переводится как «ночная музыка»?", options: ["Скерцо", "Прелюдия", "Этюд", "Ноктюрн", "Другой ответ"], correctAnswer: "Ноктюрн", hint: "От слова «ночь» (notte)" },
@@ -639,11 +688,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "М.И. Глинка — основоположник русской классики",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson25.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
     tasks: [
-      { type: 'quiz', question: "Какую оперу Глинка написал о подвиге крестьянина?", options: ["Руслан и Людмила", "Борис Годунов", "Иван Сусанин", "Евгений Онегин", "Другой ответ"], correctAnswer: "Иван Сусанин", hint: "События 1612-1613 годов" },
+      { type: 'quiz', question: "Какую оперу Глинка написал о подвиге крестьянина?", options: ["Руслан и Людмила", "Борис Годунов", "Иван Сусанин", "Евгений Онегин", "Другой ответ"],
+      keyPoints: [
+        "М.И. Глинка — основоположник русской классической музыки",
+        "Оперы Иван Сусанин и Руслан и Людмила заложили основы русской оперы",
+        "Глинка объединил русские народные мелодии с европейской формой",
+      ],
+      examples: [
+        "Могучая кучка: Балакирев, Мусоргский, Бородин, Римский-Корсаков, Кюи 🎼",
+        "Чайковский — автор балетов Лебединое озеро, Щелкунчик, Спящая красавица",
+        "Мусоргский — опера Борис Годунов, фортепианный цикл Картинки с выставки",
+      ], correctAnswer: "Иван Сусанин", hint: "События 1612-1613 годов" },
       { type: 'quiz', question: "По какой поэме Пушкина написана опера «Руслан и Людмила»?", options: ["Евгений Онегин", "Руслан и Людмила", "Капитанская дочка", "Полтава", "Другой ответ"], correctAnswer: "Руслан и Людмила", hint: "Сказочная поэма Пушкина" },
       { type: 'quiz', question: "Какой известный хор из оперы «Иван Сусанин» знает каждый?", options: ["Ария Сусанина", "Польские танцы", "Славься", "Увертюра", "Другой ответ"], correctAnswer: "Славься", hint: "Торжественный финальный хор" },
       { type: 'quiz', question: "Как называется оркестровая фантазия Глинки на тему народной песни?", options: ["Вальс-фантазия", "Арагонская хота", "Камаринская", "Ночь в Мадриде", "Другой ответ"], correctAnswer: "Камаринская", hint: "Русская народная мелодия" },
@@ -653,6 +713,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "«Могучая кучка» и П.И. Чайковский",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson26.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -667,11 +728,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Венская классическая школа",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson27.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
     tasks: [
-      { type: 'quiz', question: "Кто из композиторов называется «отцом симфонии»?", options: ["Моцарт", "Бетховен", "Гайдн", "Бах", "Другой ответ"], correctAnswer: "Гайдн", hint: "Написал 104 симфонии" },
+      { type: 'quiz', question: "Кто из композиторов называется «отцом симфонии»?", options: ["Моцарт", "Бетховен", "Гайдн", "Бах", "Другой ответ"],
+      keyPoints: [
+        "Венская классическая школа: Гайдн, Моцарт, Бетховен",
+        "Симфонический жанр был создан композиторами Венской классической школы",
+        "Сонатная форма — основная форма классической музыки",
+      ],
+      examples: [
+        "Джаз зародился в Новом Орлеане (США) в начале XX века 🎷",
+        "Импровизация — ключевая особенность джаза, музыкант создаёт мелодию на ходу",
+        "Queen — легендарная рок-группа, записавшая Bohemian Rhapsody",
+      ], correctAnswer: "Гайдн", hint: "Написал 104 симфонии" },
       { type: 'quiz', question: "Сколько симфоний написал Людвиг ван Бетховен?", options: ["41", "104", "600", "9", "Другой ответ"], correctAnswer: "9", hint: "Включая «Оду к радости»" },
       { type: 'quiz', question: "Какое произведение Моцарта связано с заупокойной мессой?", options: ["Свадьба Фигаро", "Дон Жуан", "Реквием", "Симфония №40", "Другой ответ"], correctAnswer: "Реквием", hint: "Написано на смерть" },
       { type: 'quiz', question: "В каком возрасте умер Моцарт?", options: ["25 лет", "30 лет", "35 лет", "50 лет", "Другой ответ"], correctAnswer: "35 лет", hint: "Вундеркинд, написал более 600 произведений" },
@@ -681,11 +753,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Джаз и рок-музыка",
+    image: "/school-curriculum-app/images/lessons/grade7/music/lesson28.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
     tasks: [
-      { type: 'quiz', question: "Где зародился джаз?", options: ["В Европе", "В Африке", "В Новом Орлеане (США)", "В России", "Другой ответ"], correctAnswer: "В Новом Орлеане (США)", hint: "Начало XX века" },
+      { type: 'quiz', question: "Где зародился джаз?", options: ["В Европе", "В Африке", "В Новом Орлеане (США)", "В России", "Другой ответ"],
+      keyPoints: [
+        "Джаз зародился в США в начале XX века, основан на импровизации",
+        "Рок-музыка появилась в 1950-е, сочетает ритм-энд-блюз, кантри и поп",
+        "Современная музыка включает электронную, рэп, хип-хоп и другие жанры",
+      ],
+      examples: [
+        "Равномерный бег 15-30 минут — лучший способ развить общую выносливость 🏃",
+        "ЧСС 130-150 уд/мин — оптимальная зона для тренировки выносливости",
+        "Бег 1000 м и 2000 м — стандартные тесты на выносливость в школе",
+      ], correctAnswer: "В Новом Орлеане (США)", hint: "Начало XX века" },
       { type: 'quiz', question: "Какая особенность является главной для джаза?", options: ["Строгая нотная запись", "Импровизация", "Хоровое пение", "Классическая форма", "Другой ответ"], correctAnswer: "Импровизация", hint: "Создание мелодии на ходу" },
       { type: 'quiz', question: "Какой инструмент является главным в рок-музыке?", options: ["Саксофон", "Фортепиано", "Электрогитара", "Скрипка", "Другой ответ"], correctAnswer: "Электрогитара", hint: "Электрическая версия" },
       { type: 'quiz', question: "В каком десятилетии появилась рок-музыка?", options: ["1920-е", "1930-е", "1950-е", "1970-е", "Другой ответ"], correctAnswer: "1950-е", hint: "На основе рок-н-ролла" },

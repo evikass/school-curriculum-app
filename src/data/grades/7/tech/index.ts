@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Свойства и пороки древесины",
+          image: "/school-curriculum-app/images/lessons/grade7/tech/lesson1.svg",
           description: `**Древесина** — природный конструкционный материал.
 
 **Свойства древесины:**
@@ -74,6 +75,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Ручная обработка древесины",
+          image: "/school-curriculum-app/images/lessons/grade7/tech/lesson2.svg",
           description: `**Инструменты для обработки:**
 
 **Разметка:**
@@ -145,6 +147,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Свойства металлов и сплавов",
+          image: "/school-curriculum-app/images/lessons/grade7/tech/lesson3.svg",
           description: `**Металлы** — материалы с особыми свойствами.
 
 **Свойства металлов:**
@@ -222,6 +225,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Приготовление блюд из яиц и теста",
+          image: "/school-curriculum-app/images/lessons/grade7/tech/lesson4.svg",
           description: `**Блюда из яиц:**
 
 **Варка яиц:**
@@ -295,6 +299,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Этапы проекта",
+          image: "/school-curriculum-app/images/lessons/grade7/tech/lesson5.svg",
           description: `**Творческий проект** — самостоятельная работа.
 
 **Этапы выполнения проекта:**
@@ -373,6 +378,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Кулинария и проекты 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson6.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -387,6 +393,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Свойства и пороки древесины 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson7.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -401,6 +408,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Свойства металлов и сплавов 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson8.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -415,6 +423,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Приготовление блюд из яиц и теста 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson9.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -429,6 +438,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Этапы проекта 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson10.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -444,6 +454,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Кулинария и проекты 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson11.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -458,6 +469,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Свойства и пороки древесины 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson12.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -472,6 +484,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Свойства металлов и сплавов 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson13.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -486,6 +499,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Приготовление блюд из яиц и теста 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson14.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -500,6 +514,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Этапы проекта 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson15.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -515,6 +530,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Материаловедение",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson16.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -529,6 +545,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Технологии обработки",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson17.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -543,11 +560,18 @@ export const games: GameLesson[] = [
   },
   {
     title: "Обработка древесины",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson18.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
     tasks: [
-      { type: 'quiz', question: "Какая порода древесины относится к хвойным?", options: ["Дуб", "Берёза", "Сосна", "Бук", "Другой ответ"], correctAnswer: "Сосна", hint: "Мягкая, смолистая" },
+      { type: 'quiz', question: "Какая порода древесины относится к хвойным?", options: ["Дуб", "Берёза", "Сосна", "Бук", "Другой ответ"],
+      keyPoints: [
+        "Тема урока: Обработка древесины (технологии)",
+      ],
+      examples: [
+        "Какой инструмент используют для пиления древесины?",
+      ], correctAnswer: "Сосна", hint: "Мягкая, смолистая" },
       { type: 'quiz', question: "Что такое текстура древесины?", options: ["Твёрдость поверхности", "Рисунок на срезе", "Влажность материала", "Плотность древесины", "Другой ответ"], correctAnswer: "Рисунок на срезе", hint: "Уникальный узор" },
       { type: 'quiz', question: "Какой инструмент используется для строгания?", options: ["Ножовка", "Рубанок", "Дрель", "Лобзик", "Другой ответ"], correctAnswer: "Рубанок", hint: "Выравнивание поверхности" },
       { type: 'quiz', question: "Какой порок древесины возникает от усушки?", options: ["Сучки", "Гниль", "Трещины", "Смоляной кармашек", "Другой ответ"], correctAnswer: "Трещины", hint: "Разлом от высыхания" },
@@ -557,6 +581,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Кулинария и проекты",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson19.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -571,11 +596,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Свойства и пороки древесины",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson20.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
     tasks: [
-      { type: 'quiz', question: "Что такое текстура древесины?", options: ["Твёрдость поверхности", "Рисунок на срезе", "Влажность материала", "Плотность", "Другой ответ"], correctAnswer: "Рисунок на срезе", hint: "Уникальный узор" },
+      { type: 'quiz', question: "Что такое текстура древесины?", options: ["Твёрдость поверхности", "Рисунок на срезе", "Влажность материала", "Плотность", "Другой ответ"],
+      keyPoints: [
+        "Древесина имеет пороки: сучки, трещины, гниль, косослой",
+        "Породы древесины: лиственные (дуб, берёза) и хвойные (сосна, ель)",
+        "Влажность древесины влияет на её вес, прочность и обрабатываемость",
+      ],
+      examples: [
+        "Рубанок — инструмент для строгания, двигать вдоль волокон 🪚",
+        "Ножовка — для продольного и поперечного пиления древесины",
+        "Правило безопасности: режущие инструменты направлять от себя",
+      ], correctAnswer: "Рисунок на срезе", hint: "Уникальный узор" },
       { type: 'quiz', question: "Какая порода древесины относится к лиственным?", options: ["Сосна", "Ель", "Дуб", "Кедр", "Другой ответ"], correctAnswer: "Дуб", hint: "Твёрдая порода" },
       { type: 'quiz', question: "Какой порок древесины возникает от усушки?", options: ["Сучки", "Гниль", "Трещины", "Завиток", "Другой ответ"], correctAnswer: "Трещины", hint: "От высыхания" },
       { type: 'quiz', question: "Какое свойство древесины — способность восстанавливать форму?", options: ["Прочность", "Твёрдость", "Упругость", "Плотность", "Другой ответ"], correctAnswer: "Упругость", hint: "Восстановление" },
@@ -585,11 +621,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Свойства металлов и сплавов",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson21.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
     tasks: [
-      { type: 'quiz', question: "Что такое сталь?", options: ["Чистое железо", "Сплав железа с углеродом", "Сплав меди", "Алюминий", "Другой ответ"], correctAnswer: "Сплав железа с углеродом", hint: "Железо + углерод" },
+      { type: 'quiz', question: "Что такое сталь?", options: ["Чистое железо", "Сплав железа с углеродом", "Сплав меди", "Алюминий", "Другой ответ"],
+      keyPoints: [
+        "Чёрные металлы (сталь, чугун) — сплавы на основе железа",
+        "Цветные металлы: медь, алюминий, цинк, свинец — не содержат железа",
+        "Механические свойства металлов: твёрдость, прочность, пластичность",
+      ],
+      examples: [
+        "Яйцо всмятку — 2-3 минуты, вкрутую — 8-10 минут 🥚",
+        "Пресное тесто (мука + вода + соль) — для пельменей и вареников",
+        "Дрожжевое тесто подходит (увеличивается) благодаря выделению углекислого газа",
+      ], correctAnswer: "Сплав железа с углеродом", hint: "Железо + углерод" },
       { type: 'quiz', question: "Какой металл не ржавеет?", options: ["Сталь", "Чугун", "Алюминий", "Железо", "Другой ответ"], correctAnswer: "Алюминий", hint: "Лёгкий, мягкий" },
       { type: 'quiz', question: "Какое свойство металла — изменение формы без разрушения?", options: ["Прочность", "Твёрдость", "Пластичность", "Магнитность", "Другой ответ"], correctAnswer: "Пластичность", hint: "Можно ковать" },
       { type: 'quiz', question: "Чем чугун отличается от стали?", options: ["Меньше углерода", "Больше углерода, хрупкий", "Легче", "Магнитнее", "Другой ответ"], correctAnswer: "Больше углерода, хрупкий", hint: "Хрупкий, хорошо льётся" },
@@ -599,11 +646,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Приготовление блюд из яиц и теста",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson22.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
     tasks: [
-      { type: 'quiz', question: "Сколько минут варить яйцо всмятку?", options: ["8-10 минут", "4-5 минут", "2-3 минуты", "15 минут", "Другой ответ"], correctAnswer: "2-3 минуты", hint: "Жидкий желток" },
+      { type: 'quiz', question: "Сколько минут варить яйцо всмятку?", options: ["8-10 минут", "4-5 минут", "2-3 минуты", "15 минут", "Другой ответ"],
+      keyPoints: [
+        "Яйца содержат белки, жиры, витамины A, D, E, группы B",
+        "Способы варки яиц: всмятку (3 мин), в мешочек (5 мин), вкрутую (10 мин)",
+        "Омлет — взбитые яйца с молоком, запечённые на сковороде",
+      ],
+      examples: [
+        "Этапы проекта: подготовительный → конструкторский → технологический → практический → заключительный 📋",
+        "Технологическая карта — пошаговое описание изготовления изделия",
+        "Критерии: качество изделия, самостоятельность, творческий подход",
+      ], correctAnswer: "2-3 минуты", hint: "Жидкий желток" },
       { type: 'quiz', question: "Какое тесто подходит для пельменей?", options: ["Дрожжевое", "Слоёное", "Пресное", "Бисквитное", "Другой ответ"], correctAnswer: "Пресное", hint: "Мука + вода + соль" },
       { type: 'quiz', question: "Из чего состоит бисквитное тесто?", options: ["Мука + вода + соль", "Мука + масло + сахар + яйцо", "Яйца + сахар + мука", "Мука + дрожжи + вода", "Другой ответ"], correctAnswer: "Яйца + сахар + мука", hint: "Взбивание до пышности" },
       { type: 'quiz', question: "Сколько молока нужно на 1 яйцо для омлета?", options: ["1 стакан", "1 столовую ложку", "100 мл", "Не нужно", "Другой ответ"], correctAnswer: "1 столовую ложку", hint: "Немного молока" },
@@ -613,11 +671,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Этапы проекта",
+    image: "/school-curriculum-app/images/lessons/grade7/tech/lesson23.svg",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
     tasks: [
-      { type: 'quiz', question: "Какой этап проекта выполняется первым?", options: ["Практический", "Заключительный", "Конструкторский", "Подготовительный", "Другой ответ"], correctAnswer: "Подготовительный", hint: "Выбор темы и цели" },
+      { type: 'quiz', question: "Какой этап проекта выполняется первым?", options: ["Практический", "Заключительный", "Конструкторский", "Подготовительный", "Другой ответ"],
+      keyPoints: [
+        "Творческий проект: 1) замысел, 2) проектирование, 3) конструирование, 4) оценка",
+        "На этапе замысла определяется проблема и цель проекта",
+        "На этапе оценки анализируется результат и делаются выводы",
+      ],
+      examples: [
+        "Живопись — искусство цвета (масло, акварель, гуашь) 🎨",
+        "Скульптура бывает круглой (со всех сторон) и рельефной (на плоскости)",
+      ], correctAnswer: "Подготовительный", hint: "Выбор темы и цели" },
       { type: 'quiz', question: "Что такое технологическая карта?", options: ["Чертёж изделия", "Пошаговое описание изготовления", "Список материалов", "Экономический расчёт", "Другой ответ"], correctAnswer: "Пошаговое описание изготовления", hint: "План работы" },
       { type: 'quiz', question: "На каком этапе создаются эскизы и чертежи?", options: ["Подготовительный", "Конструкторский", "Практический", "Заключительный", "Другой ответ"], correctAnswer: "Конструкторский", hint: "Разработка конструкции" },
       { type: 'quiz', question: "Что входит в пояснительную записку проекта?", options: ["Только титульный лист", "Только чертёж", "Введение, основная часть, заключение, список литературы", "Только список материалов", "Другой ответ"], correctAnswer: "Введение, основная часть, заключение, список литературы", hint: "Полное описание" },

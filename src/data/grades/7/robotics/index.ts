@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Что такое робототехника",
+          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson1.svg",
           description: `**Робототехника** — наука о создании и применении роботов.
 
 **Робот** — машина, способная выполнять действия человека.
@@ -57,6 +58,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Виды роботов",
+          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson2.svg",
           description: `**Классификация роботов:**
 
 **По сфере применения:**
@@ -130,6 +132,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Основные компоненты робота",
+          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson3.svg",
           description: `**Структура робота:**
 
 **Механическая часть:**
@@ -191,6 +194,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Arduino — платформа для роботов",
+          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson4.svg",
           description: `**Arduino** — популярная платформа для создания роботов.
 
 **Особенности:**
@@ -265,6 +269,7 @@ void loop() {
       lessons: [
         {
           title: "Основы программирования Arduino",
+          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson5.svg",
           description: `**Язык программирования:**
 - Основан на C/C++
 - Упрощён для начинающих
@@ -334,6 +339,7 @@ void blink(int pin, int duration) {
         },
         {
           title: "Управление моторами",
+          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson6.svg",
           description: `**Подключение DC-мотора:**
 
 **Прямое подключение (не рекомендуется):**
@@ -407,6 +413,7 @@ void backward(int speed) {
       lessons: [
         {
           title: "Ультразвуковой датчик расстояния",
+          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson7.svg",
           description: `**HC-SR04** — популярный датчик расстояния.
 
 **Принцип работы:**
@@ -478,6 +485,7 @@ void loop() {
         },
         {
           title: "Датчик линии и датчик света",
+          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson8.svg",
           description: `**Датчик линии:**
 
 **Принцип работы:**
@@ -550,6 +558,7 @@ void loop() {
 export const games: GameLesson[] = [
   {
     title: "Что такое робототехника 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson9.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -564,6 +573,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Виды роботов 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson10.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -578,6 +588,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Основные компоненты робота 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson11.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -592,6 +603,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Arduino — платформа для роботов 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson12.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -606,6 +618,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Основы программирования Arduino 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson13.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -620,6 +633,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Управление моторами 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson14.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -634,6 +648,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Ультразвуковой датчик расстояния 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson15.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -648,6 +663,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Датчик линии и датчик света 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson16.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -663,6 +679,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Что такое робототехника 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson17.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -677,6 +694,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Виды роботов 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson18.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -691,6 +709,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Основные компоненты робота 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson19.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -705,6 +724,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Arduino — платформа для роботов 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson20.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -719,6 +739,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Основы программирования Arduino 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson21.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -733,6 +754,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Управление моторами 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson22.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -747,6 +769,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Ультразвуковой датчик расстояния 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson23.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -761,6 +784,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Датчик линии и датчик света 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson24.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -776,6 +800,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Основы робототехники",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson25.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -790,6 +815,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Компоненты робота",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson26.svg",
     subject: "Робототехника",
     icon: "Settings",
     color: "text-blue-400",
@@ -804,6 +830,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Датчики и сенсоры",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson27.svg",
     subject: "Робототехника",
     icon: "Radio",
     color: "text-yellow-400",
@@ -818,11 +845,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Программирование Arduino",
+    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson28.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: "На каком языке программируется Arduino?", options: ["Python", "Java", "C/C++", "Scratch", "Другой ответ"], correctAnswer: "C/C++", hint: "Arduino использует язык на основе C/C++ с упрощённым синтаксисом" },
+      { type: 'quiz', question: "На каком языке программируется Arduino?", options: ["Python", "Java", "C/C++", "Scratch", "Другой ответ"],
+      keyPoints: [
+        "int — целые числа",
+        "float — дробные числа",
+        "Цифровые пины — Значения: HIGH (1) или LOW (0)",
+      ],
+      examples: [
+        "Ультразвуковой датчик HC-SR04 подключается четырьмя проводами: VCC к 5V, GND к земле, Trig и Echo к цифровым пинам Arduino",
+        "Датчик линии с ИК-светодиодом отличает белую поверхность от чёрной линии, что позволяет роботу двигаться по трассе",
+        "Фоторезистор изменяет сопротивление в зависимости от освещённости: при ярком свете сопротивление уменьшается",
+      ], correctAnswer: "C/C++", hint: "Arduino использует язык на основе C/C++ с упрощённым синтаксисом" },
       { type: 'quiz', question: "Зачем нужен драйвер мотора (H-мост L298N)?", options: ["Для подключения датчиков", "Для управления направлением и скоростью мотора", "Для подключения Wi-Fi", "Для хранения данных", "Другой ответ"], correctAnswer: "Для управления направлением и скоростью мотора", hint: "H-мост позволяет менять направление вращения и регулировать скорость" },
       { type: 'quiz', question: "Что такое PWM (ШИМ)?", options: ["Тип датчика", "Широтно-импульсная модуляция для управления скоростью", "Язык программирования", "Тип платы Arduino", "Другой ответ"], correctAnswer: "Широтно-импульсная модуляция для управления скоростью", hint: "PWM позволяет плавно менять скорость мотора" },
       { type: 'quiz', question: "Почему нельзя подключать мотор напрямую к Arduino?", options: ["Не подходит по размеру", "Мотор потребляет много тока, Arduino может сгореть", "Arduino не поддерживает моторы", "Мотор будет слишком медленным", "Другой ответ"], correctAnswer: "Мотор потребляет много тока, Arduino может сгореть", hint: "Мотору нужно больше тока, чем может обеспечить Arduino" },
@@ -836,7 +874,17 @@ export const games: GameLesson[] = [
     icon: "Cpu",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: "Что такое робототехника?", options: ["Наука о музыке", "Наука о создании и применении роботов", "Раздел биологии", "Тип спорта", "Другой ответ"], correctAnswer: "Наука о создании и применении роботов", hint: "Наука о роботах" },
+      { type: 'quiz', question: "Что такое робототехника?", options: ["Наука о музыке", "Наука о создании и применении роботов", "Раздел биологии", "Тип спорта", "Другой ответ"],
+      keyPoints: [
+        "Робототехника — наука о создании автоматических устройств",
+        "Роботы выполняют задачи, которые опасны, скучны или невозможны для человека",
+        "Промышленные, бытовые, медицинские и военные роботы — основные виды",
+      ],
+      examples: [
+        "Промышленные роботы — сварка, сборка и покраска на заводах 🏭",
+        "Робот-пылесос — колёсный сервисный робот для уборки дома",
+        "Boston Dynamics — создатель шагающих роботов ( Spot, Atlas)",
+      ], correctAnswer: "Наука о создании и применении роботов", hint: "Наука о роботах" },
       { type: 'quiz', question: "Кто сформулировал три закона робототехники?", options: ["Никола Тесла", "Айзек Азимов", "Альберт Эйнштейн", "Томас Эдисон", "Другой ответ"], correctAnswer: "Айзек Азимов", hint: "Писатель-фантаст" },
       { type: 'quiz', question: "В каком году создан первый промышленный робот Unimate?", options: ["1950", "1961", "1975", "1985", "Другой ответ"], correctAnswer: "1961", hint: "Начало 1960-х" },
       { type: 'quiz', question: "Что отличает робота от обычной машины?", options: ["Цвет", "Размер", "Автономность, адаптация, обучаемость", "Материал", "Другой ответ"], correctAnswer: "Автономность, адаптация, обучаемость", hint: "Три ключевых свойства" },
@@ -850,7 +898,17 @@ export const games: GameLesson[] = [
     icon: "Cpu",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: "Какие роботы применяются на заводах для сварки и сборки?", options: ["Сервисные", "Промышленные", "Образовательные", "Медицинские", "Другой ответ"], correctAnswer: "Промышленные", hint: "На производстве" },
+      { type: 'quiz', question: "Какие роботы применяются на заводах для сварки и сборки?", options: ["Сервисные", "Промышленные", "Образовательные", "Медицинские", "Другой ответ"],
+      keyPoints: [
+        "Мобильные роботы (колёсные, гусеничные, летающие) перемещаются в пространстве",
+        "Стационарные роботы (манипуляторы) закреплены в одном месте",
+        "Гуманоидные роботы имитируют форму и движения человека",
+      ],
+      examples: [
+        "Микроконтроллер — мозг робота (Arduino, ESP32, Raspberry Pi) ⚙️",
+        "Сервопривод позволяет точно позиционировать вал на заданный угол",
+        "Датчики собирают информацию: расстояние, свет, температура",
+      ], correctAnswer: "Промышленные", hint: "На производстве" },
       { type: 'quiz', question: "Как называется робот для хирургических операций?", options: ["Unimate", "Da Vinci", "mBot", "Spot", "Другой ответ"], correctAnswer: "Da Vinci", hint: "Хирургический робот" },
       { type: 'quiz', question: "Какой тип движения у робота-пылесоса?", options: ["Шагающий", "Летающий", "Колёсный", "Плавающий", "Другой ответ"], correctAnswer: "Колёсный", hint: "Колёса для передвижения" },
       { type: 'quiz', question: "Какая компания создала шагающего робота Spot?", options: ["Tesla", "Apple", "Boston Dynamics", "Samsung", "Другой ответ"], correctAnswer: "Boston Dynamics", hint: "Известна роботами-животными" },
@@ -864,7 +922,17 @@ export const games: GameLesson[] = [
     icon: "Cpu",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: "Что является «мозгом» робота?", options: ["Двигатель", "Микроконтроллер", "Батарея", "Датчик", "Другой ответ"], correctAnswer: "Микроконтроллер", hint: "Обрабатывает информацию" },
+      { type: 'quiz', question: "Что является «мозгом» робота?", options: ["Двигатель", "Микроконтроллер", "Батарея", "Датчик", "Другой ответ"],
+      keyPoints: [
+        "Основные компоненты: микроконтроллер, двигатели, датчики, источник питания",
+        "Микроконтроллер — мозг робота, обрабатывающий информацию",
+        "Программа определяет поведение робота на основе данных датчиков",
+      ],
+      examples: [
+        "Arduino Uno — самая популярная плформа с 14 цифровыми и 6 аналоговыми пинами 🔌",
+        "setup() — выполняется один раз, loop() — повторяется бесконечно",
+        "digitalWrite(13, HIGH) — подаёт сигнал HIGH на 13-й пин",
+      ], correctAnswer: "Микроконтроллер", hint: "Обрабатывает информацию" },
       { type: 'quiz', question: "Какой привод позволяет точно позиционировать вал на заданный угол?", options: ["DC-мотор", "Сервопривод", "Реле", "Зуммер", "Другой ответ"], correctAnswer: "Сервопривод", hint: "Точный поворот на угол" },
       { type: 'quiz', question: "Что такое актуаторы в робототехнике?", options: ["Датчики температуры", "Исполнительные механизмы (моторы, реле, светодиоды)", "Экраны", "Батареи", "Другой ответ"], correctAnswer: "Исполнительные механизмы (моторы, реле, светодиоды)", hint: "Выполняют действия" },
       { type: 'quiz', question: "Какие типы двигателей используются в роботах?", options: ["Только DC-моторы", "DC-моторы, сервоприводы, шаговые моторы", "Только сервоприводы", "Только двигатели внутреннего сгорания", "Другой ответ"], correctAnswer: "DC-моторы, сервоприводы, шаговые моторы", hint: "Три основных типа" },
@@ -878,7 +946,17 @@ export const games: GameLesson[] = [
     icon: "Cpu",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: "Что такое Arduino?", options: ["Язык программирования", "Открытая платформа для создания электронных устройств", "Операционная система", "Видеоигра", "Другой ответ"], correctAnswer: "Открытая платформа для создания электронных устройств", hint: "Платформа с микроконтроллером" },
+      { type: 'quiz', question: "Что такое Arduino?", options: ["Язык программирования", "Открытая платформа для создания электронных устройств", "Операционная система", "Видеоигра", "Другой ответ"],
+      keyPoints: [
+        "Arduino — открытая платформа для создания электронных устройств",
+        "Arduino состоит из микроконтроллера и среды программирования",
+        "Основные платы: Arduino Uno, Nano, Mega",
+      ],
+      examples: [
+        "Arduino программируется на языке C/C++ с упрощённым синтаксисом 💻",
+        "int ledPin = 13; — объявление переменной целого типа",
+        "if (sensorValue > 500) { ... } — условие для проверки датчика",
+      ], correctAnswer: "Открытая платформа для создания электронных устройств", hint: "Платформа с микроконтроллером" },
       { type: 'quiz', question: "Какая плата Arduino является самой популярной?", options: ["Arduino Nano", "Arduino Mega", "Arduino Uno", "ESP32", "Другой ответ"], correctAnswer: "Arduino Uno", hint: "Самая распространённая" },
       { type: 'quiz', question: "Сколько цифровых пинов у Arduino Uno?", options: ["6", "10", "14", "20", "Другой ответ"], correctAnswer: "14", hint: "Цифровые входы/выходы" },
       { type: 'quiz', question: "Какая плата Arduino имеет встроенный Wi-Fi и Bluetooth?", options: ["Arduino Uno", "Arduino Nano", "Arduino Mega", "ESP32", "Другой ответ"], correctAnswer: "ESP32", hint: "Для IoT проектов" },
@@ -892,7 +970,17 @@ export const games: GameLesson[] = [
     icon: "Cpu",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: "На каком языке программируется Arduino?", options: ["Python", "Java", "C/C++", "Scratch", "Другой ответ"], correctAnswer: "C/C++", hint: "Основан на C/C++" },
+      { type: 'quiz', question: "На каком языке программируется Arduino?", options: ["Python", "Java", "C/C++", "Scratch", "Другой ответ"],
+      keyPoints: [
+        "Программирование Arduino осуществляется на языке C/C++",
+        "setup() — начальная настройка, loop() — основной цикл программы",
+        "Цифровые пины (HIGH/LOW) и аналоговые пины (0–1023)",
+      ],
+      examples: [
+        "H-мост L298N позволяет управлять направлением и скоростью мотора ⚡",
+        "PWM (ШИМ) — широтно-импульсная модуляция, значения 0-255",
+        "Мотор подключается через драйвер, а не напрямую к Arduino!",
+      ], correctAnswer: "C/C++", hint: "Основан на C/C++" },
       { type: 'quiz', question: "Какой тип данных используется для целых чисел в Arduino?", options: ["float", "bool", "int", "String", "Другой ответ"], correctAnswer: "int", hint: "Integer — целое число" },
       { type: 'quiz', question: "Сколько раз выполняется функция setup()?", options: ["Бесконечно", "Один раз при запуске", "10 раз", "Зависит от программы", "Другой ответ"], correctAnswer: "Один раз при запуске", hint: "Начальная настройка" },
       { type: 'quiz', question: "Что делает функция analogRead()?", options: ["Подаёт сигнал", "Создаёт задержку", "Читает аналоговое значение (0–1023)", "Настраивает пин", "Другой ответ"], correctAnswer: "Читает аналоговое значение (0–1023)", hint: "0–1023" },
@@ -906,7 +994,17 @@ export const games: GameLesson[] = [
     icon: "Cpu",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: "Почему нельзя подключать мотор напрямую к Arduino?", options: ["Мотор слишком маленький", "Мотор потребляет много тока, Arduino может сгореть", "Arduino не поддерживает моторы", "Мотор будет слишком медленным", "Другой ответ"], correctAnswer: "Мотор потребляет много тока, Arduino может сгореть", hint: "Превышение допустимого тока" },
+      { type: 'quiz', question: "Почему нельзя подключать мотор напрямую к Arduino?", options: ["Мотор слишком маленький", "Мотор потребляет много тока, Arduino может сгореть", "Arduino не поддерживает моторы", "Мотор будет слишком медленным", "Другой ответ"],
+      keyPoints: [
+        "Motor drivers (L298N) управляют направлением и скоростью вращения моторов",
+        "ШИМ (PWM) позволяет плавно регулировать скорость мотора",
+        "Два мотора с разными скоростями обеспечивают поворот робота",
+      ],
+      examples: [
+        "HC-SR04 измеряет расстояние от 2 до 400 см с помощью ультразвука 📡",
+        "Trig отправляет сигнал, Echo принимает отражённый импульс",
+        "distance = duration / 58 — формула перевода времени в сантиметры",
+      ], correctAnswer: "Мотор потребляет много тока, Arduino может сгореть", hint: "Превышение допустимого тока" },
       { type: 'quiz', question: "Что такое H-мост (L298N)?", options: ["Датчик расстояния", "Драйвер мотора для управления направлением и скоростью", "Тип батареи", "Экран для Arduino", "Другой ответ"], correctAnswer: "Драйвер мотора для управления направлением и скоростью", hint: "Управляет мотором" },
       { type: 'quiz', question: "Что такое PWM (ШИМ)?", options: ["Тип датчика", "Широтно-импульсная модуляция для управления скоростью", "Язык программирования", "Тип платы Arduino", "Другой ответ"], correctAnswer: "Широтно-импульсная модуляция для управления скоростью", hint: "Плавная регулировка скорости" },
       { type: 'quiz', question: "Какие значения принимает analogWrite() для PWM?", options: ["0-100", "0-1023", "0-255", "0-512", "Другой ответ"], correctAnswer: "0-255", hint: "8-бит ШИМ" },
@@ -920,7 +1018,17 @@ export const games: GameLesson[] = [
     icon: "Cpu",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: "Какой датчик измеряет расстояние с помощью ультразвука?", options: ["Фоторезистор", "HC-SR04", "Датчик линии", "Термистор", "Другой ответ"], correctAnswer: "HC-SR04", hint: "Ультразвуковой дальномер" },
+      { type: 'quiz', question: "Какой датчик измеряет расстояние с помощью ультразвука?", options: ["Фоторезистор", "HC-SR04", "Датчик линии", "Термистор", "Другой ответ"],
+      keyPoints: [
+        "Ультразвуковой датчик HC-SR04 измеряет расстояние от 2 до 400 см",
+        "Принцип работы: излучение импульса и замер времени возврата эха",
+        "Скорость звука ≈ 343 м/с, расстояние = время × скорость / 2",
+      ],
+      examples: [
+        "Датчик линии использует ИК-излучение: белый отражает, чёрный поглощает 📏",
+        "Фоторезистор меняет сопротивление в зависимости от освещённости",
+        "Датчик линии применяется в роботах-пылесосах и роботах-транспортировщиках",
+      ], correctAnswer: "HC-SR04", hint: "Ультразвуковой дальномер" },
       { type: 'quiz', question: "Какой диапазон измерений у HC-SR04?", options: ["0-50 см", "2-400 см", "1-10 м", "0-100 см", "Другой ответ"], correctAnswer: "2-400 см", hint: "От 2 до 400 сантиметров" },
       { type: 'quiz', question: "Для чего нужен пин Trig на HC-SR04?", options: ["Для приёма сигнала", "Для отправки ультразвукового импульса", "Для питания", "Для подключения к мотору", "Другой ответ"], correctAnswer: "Для отправки ультразвукового импульса", hint: "Trigger — запуск измерения" },
       { type: 'quiz', question: "Для чего нужен пин Echo на HC-SR04?", options: ["Для отправки сигнала", "Для приёма отражённого импульса", "Для заземления", "Для подключения экрана", "Другой ответ"], correctAnswer: "Для приёма отражённого импульса", hint: "Эхо — отражённый сигнал" },
@@ -934,7 +1042,16 @@ export const games: GameLesson[] = [
     icon: "Cpu",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: "Какое излучение использует датчик линии?", options: ["Ультразвуковое", "Ультрафиолетовое", "Инфракрасное", "Рентгеновское", "Другой ответ"], correctAnswer: "Инфракрасное", hint: "ИК-светодиод" },
+      { type: 'quiz', question: "Какое излучение использует датчик линии?", options: ["Ультразвуковое", "Ультрафиолетовое", "Инфракрасное", "Рентгеновское", "Другой ответ"],
+      keyPoints: [
+        "Датчик линии различает чёрное и белое (для следования по линии)",
+        "Датчик света (фоторезистор) реагирует на уровень освещённости",
+        "Аналоговые датчики дают значение 0–1023, цифровые — HIGH/LOW",
+      ],
+      examples: [
+        "Периодический закон открыт Менделеевым в 1869 году 🧪",
+        "Современная формулировка: свойства элементов зависят от заряда ядра",
+      ], correctAnswer: "Инфракрасное", hint: "ИК-светодиод" },
       { type: 'quiz', question: "Какая поверхность даёт высокое показание датчика линии?", options: ["Чёрная", "Белая", "Прозрачная", "Зеркальная", "Другой ответ"], correctAnswer: "Белая", hint: "Белая отражает больше света" },
       { type: 'quiz', question: "Что такое фоторезистор?", options: ["Датчик расстояния", "Датчик, сопротивление которого меняется от освещённости", "Двигатель", "Тип батареи", "Другой ответ"], correctAnswer: "Датчик, сопротивление которого меняется от освещённости", hint: "Реагирует на свет" },
       { type: 'quiz', question: "Как изменяется сопротивление фоторезистора при увеличении света?", options: ["Увеличивается", "Уменьшается", "Не меняется", "Становится равным нулю", "Другой ответ"], correctAnswer: "Уменьшается", hint: "Больше света = меньше сопротивление" },

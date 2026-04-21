@@ -1104,6 +1104,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Инерция 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/physics/lesson1.svg",
     subject: "Физика",
     icon: "Atom",
     color: "text-pink-400",
@@ -1118,6 +1119,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Взаимодействие тел 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/physics/lesson2.svg",
     subject: "Физика",
     icon: "Atom",
     color: "text-pink-400",
@@ -1132,6 +1134,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Сила 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/physics/lesson3.svg",
     subject: "Физика",
     icon: "Atom",
     color: "text-pink-400",
@@ -1146,6 +1149,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Сила тяжести 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/physics/lesson4.svg",
     subject: "Физика",
     icon: "Atom",
     color: "text-pink-400",
@@ -1160,6 +1164,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Сила трения 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/physics/lesson5.svg",
     subject: "Физика",
     icon: "Atom",
     color: "text-pink-400",
@@ -1174,6 +1179,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Рычаг 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/physics/lesson6.svg",
     subject: "Физика",
     icon: "Atom",
     color: "text-pink-400",
@@ -1188,6 +1194,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Блоки 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/physics/lesson7.svg",
     subject: "Физика",
     icon: "Atom",
     color: "text-pink-400",
@@ -1202,6 +1209,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Момент силы 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/physics/lesson8.svg",
     subject: "Физика",
     icon: "Atom",
     color: "text-pink-400",
@@ -1216,6 +1224,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Лабораторная работа 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/physics/lesson9.svg",
     subject: "Физика",
     icon: "Atom",
     color: "text-pink-400",
@@ -1231,6 +1240,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Движение и скорость",
+    image: "/school-curriculum-app/images/lessons/grade6/physics/lesson10.svg",
     subject: "Физика",
     icon: "Atom",
     color: "text-pink-400",
@@ -1262,6 +1272,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Силы",
+    image: "/school-curriculum-app/images/lessons/grade6/physics/lesson11.svg",
     subject: "Физика",
     icon: "Atom",
     color: "text-pink-400",
@@ -1299,6 +1310,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Простые механизмы",
+    image: "/school-curriculum-app/images/lessons/grade6/physics/lesson12.svg",
     subject: "Физика",
     icon: "Atom",
     color: "text-pink-400",

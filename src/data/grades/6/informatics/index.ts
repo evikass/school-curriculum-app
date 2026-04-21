@@ -1093,6 +1093,7 @@ const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Алгоритмы и блок-схемы 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/informatics/lesson1.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "#6366F1",
@@ -1107,6 +1108,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Горячие клавиши 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/informatics/lesson2.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "#6366F1",
@@ -1121,6 +1123,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Компьютерная графика 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/informatics/lesson3.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "#6366F1",
@@ -1135,6 +1138,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Ветвления в алгоритмах 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/informatics/lesson4.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "#6366F1",
@@ -1149,6 +1153,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Циклы в алгоритмах 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/informatics/lesson5.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "#6366F1",
@@ -1163,6 +1168,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Текстовые редакторы 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/informatics/lesson6.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "#6366F1",
@@ -1177,6 +1183,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Основы работы с текстом 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/informatics/lesson7.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "#6366F1",
@@ -1191,6 +1198,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Форматирование текста 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/informatics/lesson8.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "#6366F1",
@@ -1205,6 +1213,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Таблицы и изображения 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/informatics/lesson9.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "#6366F1",
@@ -1219,6 +1228,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Совместная работа 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/informatics/lesson10.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "#6366F1",
@@ -1233,6 +1243,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Графический дизайн 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/informatics/lesson11.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "#6366F1",
@@ -1247,6 +1258,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Виды компьютерной графики 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/informatics/lesson12.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "#6366F1",

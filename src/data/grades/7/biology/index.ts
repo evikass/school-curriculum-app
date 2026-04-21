@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Строение и жизнедеятельность бактерий",
+          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson1.svg",
           description: `**Бактерии** — одноклеточные организмы без оформленного ядра.
 
 **Особенности строения:**
@@ -64,6 +65,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Роль бактерий в природе и жизни человека",
+          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson2.svg",
           description: `**Положительная роль:**
 
 **В природе:**
@@ -129,6 +131,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Общая характеристика грибов",
+          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson3.svg",
           description: `**Грибы** — отдельное царство организмов.
 
 **Особенности грибов:**
@@ -193,6 +196,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Значение грибов",
+          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson4.svg",
           description: `**Положительное значение:**
 
 **Пищевое:**
@@ -259,6 +263,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Водоросли",
+          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson5.svg",
           description: `**Водоросли** — низшие растения, живущие в воде.
 
 **Особенности:**
@@ -318,6 +323,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Мхи, папоротники, голосеменные",
+          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson6.svg",
           description: `**Мхи:**
 - Высшие споровые растения
 - Нет корней (ризоиды)
@@ -379,6 +385,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Корень и побег",
+          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson7.svg",
           description: `**Корень:**
 
 **Функции:**
@@ -437,6 +444,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Лист и его функции",
+          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson8.svg",
           description: `**Лист** — боковой орган побега.
 
 **Функции:**
@@ -503,6 +511,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Бактерии и грибы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson9.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -517,6 +526,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Растения 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson10.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -531,6 +541,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Строение цветковых растений 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson11.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -545,6 +556,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Водоросли и мхи 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson12.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -559,6 +571,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Роль бактерий в природе и жизни человека 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson13.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -574,6 +587,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Бактерии и грибы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson14.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -588,6 +602,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Растения 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson15.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -602,6 +617,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Строение цветковых растений 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson16.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -616,6 +632,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Водоросли и мхи 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson17.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -630,6 +647,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Роль бактерий в природе и жизни человека 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson18.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -645,6 +663,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Бактерии и грибы",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson19.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -659,6 +678,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Растения",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson20.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -673,6 +693,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Строение цветковых растений",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson21.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -687,6 +708,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Водоросли и мхи",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson22.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -701,11 +723,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Роль бактерий в природе и жизни человека",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson23.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
     tasks: [
-      { type: 'quiz', question: "Какую роль играют бактерии в круговороте веществ?", options: ["Создают органические вещества", "Разлагают органику и участвуют в почвообразовании", "Замораживают почву", "Уничтожают все организмы", "Другой ответ"], correctAnswer: "Разлагают органику и участвуют в почвообразовании", hint: "Бактерии-разрушители важны для экосистемы" },
+      { type: 'quiz', question: "Какую роль играют бактерии в круговороте веществ?", options: ["Создают органические вещества", "Разлагают органику и участвуют в почвообразовании", "Замораживают почву", "Уничтожают все организмы", "Другой ответ"],
+      keyPoints: [
+        "Полезные бактерии: молочнокислые, азотфиксирующие, участвующие в пищеварении",
+        "Вредные бактерии вызывают болезни: туберкулёз, холеру, дифтерию",
+        "Бактерии-разрушители участвуют в круговороте веществ в природе",
+      ],
+      examples: [
+        "Мицелий (грибница) — система тонких нитей (гифов) 🍄",
+        "Грибы не относятся ни к растениям, ни к животным — отдельное царство",
+      ], correctAnswer: "Разлагают органику и участвуют в почвообразовании", hint: "Бактерии-разрушители важны для экосистемы" },
       { type: 'quiz', question: "Какие продукты получают с помощью бактерий?", options: ["Хлеб и мясо", "Кисломолочные продукты (йогурт, кефир)", "Сок и вода", "Сахар и соль", "Другой ответ"], correctAnswer: "Кисломолочные продукты (йогурт, кефир)", hint: "Молочнокислые бактерии брожения" },
       { type: 'quiz', question: "Какие болезни вызывают болезнетворные бактерии?", options: ["Грипп и простуда", "Холера, туберкулёз, дифтерия", "Ожоги и переломы", "Аллергия и астма", "Другой ответ"], correctAnswer: "Холера, туберкулёз, дифтерия", hint: "Бактериальные инфекции" },
       { type: 'quiz', question: "Что делают клубеньковые бактерии на корнях бобовых растений?", options: ["Паразитируют на растении", "Связывают азот из воздуха", "Вызывают гниение корней", "Защищают от насекомых", "Другой ответ"], correctAnswer: "Связывают азот из воздуха", hint: "Азотфиксация — важный процесс для почвы" },
@@ -715,11 +747,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Значение грибов",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson24.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
     tasks: [
-      { type: 'quiz', question: "Какой антибиотик получают из плесневого гриба пеницилла?", options: ["Аспирин", "Пенициллин", "Стрептомицин", "Тетрациклин", "Другой ответ"], correctAnswer: "Пенициллин", hint: "Назван в честь гриба-продуцента" },
+      { type: 'quiz', question: "Какой антибиотик получают из плесневого гриба пеницилла?", options: ["Аспирин", "Пенициллин", "Стрептомицин", "Тетрациклин", "Другой ответ"],
+      keyPoints: [
+        "Грибы играют важнейшую роль в экосистеме как разрушители органических веществ",
+        "Съедобные грибы: белый, подберёзовик, лисичка, маслёнок",
+        "Ядовитые грибы: бледная поганка, мухомор — смертельно опасны",
+      ],
+      examples: [
+        "Ламинария (морская капуста) — бурая водоросль, богата йодом 🌊",
+        "Водоросли не имеют тканей и органов, тело — слоевище (таллом)",
+      ], correctAnswer: "Пенициллин", hint: "Назван в честь гриба-продуцента" },
       { type: 'quiz', question: "Какие одноклеточные грибы используются в хлебопечении?", options: ["Мукор", "Пеницилл", "Дрожжи", "Спирогира", "Другой ответ"], correctAnswer: "Дрожжи", hint: "Обеспечивают брожение теста" },
       { type: 'quiz', question: "Какой гриб является одним из самых ядовитых и смертельно опасен?", options: ["Мухомор", "Бледная поганка", "Ложный опёнок", "Строчок", "Другой ответ"], correctAnswer: "Бледная поганка", hint: "Несмотря на красивый вид, смертельно опасна" },
       { type: 'quiz', question: "Какую экологическую роль выполняют грибы в природе?", options: ["Фотосинтезируют", "Разлагают органические вещества и образуют перегной", "Связывают азот из воздуха", "Защищают растения от насекомых", "Другой ответ"], correctAnswer: "Разлагают органические вещества и образуют перегной", hint: "Грибы-разрушители важны для экосистемы" },
@@ -729,11 +771,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Корень и побег",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson25.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
     tasks: [
-      { type: 'quiz', question: "Какой тип корневой системы у одуванчика?", options: ["Мочковатая", "Стержневая", "Воздушная", "Смешанная", "Другой ответ"], correctAnswer: "Стержневая", hint: "Главный корень хорошо выражен" },
+      { type: 'quiz', question: "Какой тип корневой системы у одуванчика?", options: ["Мочковатая", "Стержневая", "Воздушная", "Смешанная", "Другой ответ"],
+      keyPoints: [
+        "Корень впитывает воду и минеральные вещества из почвы",
+        "Побег состоит из стебля, листьев и почек; обеспечивает рост растения",
+        "Видоизменения побега: клубень, луковица, корневище",
+      ],
+      examples: [
+        "Фотосинтез: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ ☀️",
+        "Устьица — мелкие отверстия в листе для газообмена",
+      ], correctAnswer: "Стержневая", hint: "Главный корень хорошо выражен" },
       { type: 'quiz', question: "Какая зона корня всасывает воду и минеральные вещества?", options: ["Зона деления", "Зона роста", "Зона всасывания", "Зона проведения", "Другой ответ"], correctAnswer: "Зона всасывания", hint: "Здесь находятся корневые волоски" },
       { type: 'quiz', question: "Что защищает кончик корня при продвижении в почве?", options: ["Ризоиды", "Корневой чехлик", "Пробка", "Кутикула", "Другой ответ"], correctAnswer: "Корневой чехлик", hint: "Наружный слой клеток на верхушке корня" },
       { type: 'quiz', question: "Из каких частей состоит побег?", options: ["Корень и стебель", "Стебель, листья и почки", "Листья и цветки", "Корень и листья", "Другой ответ"], correctAnswer: "Стебель, листья и почки", hint: "Побег — надземная часть растения" },
@@ -743,11 +795,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Лист и его функции",
+    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson26.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
     tasks: [
-      { type: 'quiz', question: "Какая основная функция листа растения?", options: ["Запасание воды", "Фотосинтез", "Закрепление в почве", "Размножение спорами", "Другой ответ"], correctAnswer: "Фотосинтез", hint: "Образование органических веществ на свету" },
+      { type: 'quiz', question: "Какая основная функция листа растения?", options: ["Запасание воды", "Фотосинтез", "Закрепление в почве", "Размножение спорами", "Другой ответ"],
+      keyPoints: [
+        "Лист — боковой орган растения, основная функция — фотосинтез",
+        "Устьица на нижней стороне листа обеспечивают газообмен",
+        "Осенняя окраска листьев вызвана разрушением хлорофилла",
+      ],
+      examples: [
+        "Земля состоит из ядра, мантии и земной коры 🌍",
+        "Литосферные плиты движутся со скоростью несколько см в год",
+      ], correctAnswer: "Фотосинтез", hint: "Образование органических веществ на свету" },
       { type: 'quiz', question: "Что такое устьица?", options: ["Корневые волоски", "Мелкие отверстия в листе для газообмена", "Частицы хлорофилла", "Видоизменённые листья", "Другой ответ"], correctAnswer: "Мелкие отверстия в листе для газообмена", hint: "Расположены на поверхности листа, в основном с нижней стороны" },
       { type: 'quiz', question: "Какая ткань листа выполняет фотосинтез?", options: ["Кожица (эпидермис)", "Мезофилл", "Пробка", "Проводящие пучки", "Другой ответ"], correctAnswer: "Мезофилл", hint: "Основная ткань листа между верхней и нижней кожицей" },
       { type: 'quiz', question: "Какой тип жилкования характерен для однодольных растений?", options: ["Сетчатое", "Параллельное", "Дуговое", "Перистое", "Другой ответ"], correctAnswer: "Параллельное", hint: "Жилки идут параллельно друг другу вдоль листа" },

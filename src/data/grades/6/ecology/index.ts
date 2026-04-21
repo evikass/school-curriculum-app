@@ -15,6 +15,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: 'Виды загрязнения',
+          image: "/school-curriculum-app/images/lessons/grade6/ecology/lesson1.svg",
           description: `## Виды загрязнения окружающей среды
 
 :- **Загрязнение** — поступление в окружающую среду вредных веществ, вызывающих негативные изменения.
@@ -86,6 +87,7 @@ export const lessons: SubjectData = {
         },
         {
           title: 'Загрязнение атмосферы',
+          image: "/school-curriculum-app/images/lessons/grade6/ecology/lesson2.svg",
           description: `## Загрязнение атмосферы
 
 :- **Атмосфера** — воздушная оболочка Земли, состоящая из смеси газов.
@@ -169,6 +171,7 @@ export const lessons: SubjectData = {
         },
         {
           title: 'Загрязнение воды',
+          image: "/school-curriculum-app/images/lessons/grade6/ecology/lesson3.svg",
           description: `## Загрязнение воды
 
 :- **Водные ресурсы** — все воды Земли, включая океаны, моря, реки, озёра, подземные воды и ледники.
@@ -251,6 +254,7 @@ export const lessons: SubjectData = {
         },
         {
           title: 'Загрязнение почвы',
+          image: "/school-curriculum-app/images/lessons/grade6/ecology/lesson4.svg",
           description: `## Загрязнение почвы
 
 :- **Почва** — верхний слой земной коры, обладающий плодородием и обеспечивающий жизнь растений.
@@ -340,6 +344,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: 'Что такое устойчивое развитие',
+          image: "/school-curriculum-app/images/lessons/grade6/ecology/lesson5.svg",
           description: `## Устойчивое развитие
 
 :- **Устойчивое развитие** — развитие, удовлетворяющее потребности настоящего поколения без ущерба для будущих поколений.
@@ -413,6 +418,7 @@ export const lessons: SubjectData = {
         },
         {
           title: 'Энергосбережение',
+          image: "/school-curriculum-app/images/lessons/grade6/ecology/lesson6.svg",
           description: `## Энергосбережение
 
 :- **Энергосбережение** — комплекс мер по эффективному использованию энергии и сокращению её потерь.
@@ -495,6 +501,7 @@ export const lessons: SubjectData = {
         },
         {
           title: 'Рациональное потребление',
+          image: "/school-curriculum-app/images/lessons/grade6/ecology/lesson7.svg",
           description: `## Рациональное потребление
 
 :- **Экологический след** — площадь территории, необходимой для производства ресурсов, потребляемых человеком, и поглощения его отходов.
@@ -577,6 +584,7 @@ export const lessons: SubjectData = {
         },
         {
           title: 'Зелёные технологии',
+          image: "/school-curriculum-app/images/lessons/grade6/ecology/lesson8.svg",
           description: `## Зелёные технологии
 
 :- **Зелёные технологии** — технологии, направленные на сохранение окружающей среды и рациональное использование ресурсов.
@@ -665,6 +673,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: 'Школьные экологические проекты',
+          image: "/school-curriculum-app/images/lessons/grade6/ecology/lesson9.svg",
           description: `## Школьные экологические проекты
 
 :- **Экологический проект** — практическая деятельность, направленная на решение экологических проблем.
@@ -732,6 +741,7 @@ export const lessons: SubjectData = {
         },
         {
           title: 'Раздельный сбор отходов',
+          image: "/school-curriculum-app/images/lessons/grade6/ecology/lesson10.svg",
           description: `## Раздельный сбор отходов
 
 :- **Раздельный сбор отходов** — система сбора мусора, при которой отходы сортируются по видам для последующей переработки.
@@ -802,6 +812,7 @@ export const lessons: SubjectData = {
         },
         {
           title: 'Экологическая тропа',
+          image: "/school-curriculum-app/images/lessons/grade6/ecology/lesson11.svg",
           description: `## Экологическая тропа
 
 :- **Экологическая тропа** — маршрут в природной среде, предназначенный для экологического просвещения.
@@ -881,6 +892,7 @@ export const lessons: SubjectData = {
         },
         {
           title: 'Международное экологическое сотрудничество',
+          image: "/school-curriculum-app/images/lessons/grade6/ecology/lesson12.svg",
           description: `## Международное экологическое сотрудничество
 
 :- **Международное экологическое право** — совокупность норм, регулирующих отношения между государствами в области охраны окружающей среды.
@@ -1490,6 +1502,16 @@ export const games: GameLesson[] = [
         type: 'match',
         question: "Соедини источник энергии с типом:",
         options: ["солнце", "ветер", "нефть", "уголь", "гидроэнергия"],
+        keyPoints: [
+          "Энергосбережение снижает потребление ископаемого топлива и выбросы парниковых газов",
+          "Использование энергосберегающих ламп и бытовых приборов экономит до 70% электроэнергии",
+          "Возобновляемые источники энергии: солнечная, ветровая, гидроэнергетика",
+        ],
+        examples: [
+          "Если бы все люди жили как средний европеец, понадобилось бы 3 планеты Земля",
+          "Правило 4R: Отказ, Сокращение, Повторное использование, Переработка — помогает уменьшить отходы",
+          "Средний экологический след жителя США — 8 глобальных гектаров, а Индии — 1 гектар",
+        ],
         correctAnswer: ["возобновляемый (свет)", "возобновляемый (движение)", "невозобновляемый (жидкость)", "невозобновляемый (твёрдое)", "возобновляемый (вода)"],
         hint: "Возобновляемые и невозобновляемые источники"
       },

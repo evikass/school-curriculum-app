@@ -56,6 +56,18 @@ export const lessons: SubjectData = {
             "Научиться говорить Good morning",
             "Разыграть диалог с другом",
             "Нарисовать смайлик и подписать Hello!"
+          ],
+          keyPoints: [
+            "Hello и Hi — два основных английских приветствия",
+            "Good morning — доброе утро (говорят до 12:00)",
+            "Goodbye — до свидания, Bye — пока",
+            "Английский язык говорят во многих странах мира",
+          ],
+          examples: [
+            "Сказать Hello! учителю 👋",
+            "Спеть песенку Good morning на уроке 🎵",
+            "Поздороваться по-английски с другом",
+            "Написать Hello! на карточке",
           ]
         },
         {
@@ -109,6 +121,18 @@ export const lessons: SubjectData = {
             "Научиться говорить My name is...",
             "Разыграть диалог знакомства",
             "Написать своё имя по-английски"
+          ],
+          keyPoints: [
+            "What is your name? — Как тебя зовут?",
+            "My name is... — Меня зовут...",
+            "Nice to meet you! — Приятно познакомиться!",
+            "I am... — Я... (короткая форма)",
+          ],
+          examples: [
+            "— Hello! What is your name? — My name is Sasha.",
+            "— I am Tom. Nice to meet you!",
+            "Написать своё имя на английском",
+            "Спросить имя у одноклассника по-английски",
           ]
         },
         {
@@ -169,6 +193,18 @@ See you my friend!
             "Научиться говорить See you",
             "Выучить песенку прощания",
             "Попрощаться по-английски с другом"
+          ],
+          keyPoints: [
+            "Goodbye — до свидания (официальное)",
+            "Bye-bye — пока-пока (дружелюбное)",
+            "See you tomorrow! — до завтра!",
+            "Good night! — спокойной ночи (перед сном)",
+          ],
+          examples: [
+            "— Goodbye, teacher! — Goodbye!",
+            "Сказать Bye-bye маме перед школой 👋",
+            "Спеть песенку Goodbye",
+            "Пожелать Good night перед сном 🌙",
           ]
         }
       ]
@@ -232,6 +268,18 @@ See you my friend!
             "Назвать цвет предметов в классе",
             "Раскрасить картинку и подписать цвета",
             "Спросить друга: What colour is it?"
+          ],
+          keyPoints: [
+            "Red — красный, Blue — синий, Green — зелёный",
+            "Yellow — жёлтый, Pink — розовый, Orange — оранжевый",
+            "What colour is it? — Какой это цвет?",
+            "Black — чёрный, White — белый, Brown — коричневый",
+          ],
+          examples: [
+            "Red apple — красное яблоко 🍎",
+            "Blue sky — синее небо ☁️",
+            "Green grass — зелёная трава 🌿",
+            "— What colour is the sun? — Yellow!",
           ]
         },
         {
@@ -289,6 +337,18 @@ Five fingers on one hand — count some more!
             "Посчитать предметы в классе",
             "Показать на пальцах и назвать",
             "Решить примеры: 1+2, 2+3"
+          ],
+          keyPoints: [
+            "One — 1, Two — 2, Three — 3, Four — 4, Five — 5",
+            "How many? — Сколько?",
+            "One plus one is two — один плюс один равно два",
+            "Числа на английском нужно выучить наизусть",
+          ],
+          examples: [
+            "One pencil — один карандаш ✏️",
+            "Three apples — три яблока 🍎",
+            "Five fingers — пять пальцев ✋",
+            "One plus two is three",
           ]
         },
         {
@@ -345,6 +405,18 @@ Then I let it go again!
             "Посчитать до 10 и обратно",
             "Решить примеры: 5+3, 8-2, 4+6",
             "Выучить песенку"
+          ],
+          keyPoints: [
+            "Six — 6, Seven — 7, Eight — 8, Nine — 9, Ten — 10",
+            "Eight legs — 8 лап (у паука 🕷️)",
+            "Ten fingers — 10 пальцев ✋✋",
+            "Счёт от 1 до 10: One, two, three...",
+          ],
+          examples: [
+            "Six flowers — шесть цветов 🌸",
+            "Seven days in a week — 7 дней в неделе",
+            "Ten fingers on my hands — 10 пальцев",
+            "Five plus five is ten",
           ]
         }
       ]

@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Введение в программирование",
+          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson1.svg",
           description: `**Программирование** — процесс создания программ для компьютера.
 
 **Что такое программа:**
@@ -69,6 +70,7 @@ print("Привет, мир!")
         },
         {
           title: "Переменные и типы данных",
+          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson2.svg",
           description: `**Переменная** — именованная область памяти для хранения данных.
 
 **Создание переменной:**
@@ -135,6 +137,7 @@ age = int(input("Введите возраст: "))
         },
         {
           title: "Условия и ветвления",
+          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson3.svg",
           description: `**Условный оператор if** — выполняет код при выполнении условия.
 
 **Базовый синтаксис:**
@@ -204,6 +207,7 @@ if age >= 18:
         },
         {
           title: "Циклы в программировании",
+          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson4.svg",
           description: `**Цикл** — повторение действий определённое количество раз.
 
 **Цикл for:**
@@ -274,6 +278,7 @@ for i in range(3):
       lessons: [
         {
           title: "Основы HTML",
+          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson5.svg",
           description: `**HTML** (HyperText Markup Language) — язык разметки веб-страниц.
 
 **Структура HTML-документа:**
@@ -341,6 +346,7 @@ for i in range(3):
         },
         {
           title: "Основы CSS",
+          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson6.svg",
           description: `**CSS** (Cascading Style Sheets) — язык стилей для оформления.
 
 **Способы подключения:**
@@ -416,6 +422,7 @@ p { color: blue; }
         },
         {
           title: "Создание веб-страницы",
+          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson7.svg",
           description: `**Этапы создания сайта:**
 
 **1. Планирование:**
@@ -502,6 +509,7 @@ nav a {
       lessons: [
         {
           title: "Растровая и векторная графика",
+          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson8.svg",
           description: `**Виды компьютерной графики:**
 
 **Растровая графика:**
@@ -565,6 +573,7 @@ nav a {
         },
         {
           title: "Обработка изображений",
+          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson9.svg",
           description: `**Основные операции обработки:**
 
 **Кадрирование:**
@@ -629,6 +638,7 @@ nav a {
       lessons: [
         {
           title: "Что такое алгоритм",
+          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson10.svg",
           description: `**Алгоритм** — точное описание последовательности действий.
 
 **Свойства алгоритма:**
@@ -696,6 +706,7 @@ nav a {
         },
         {
           title: "Исполнители алгоритмов",
+          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson11.svg",
           description: `**Исполнитель** — объект, выполняющий алгоритм.
 
 **Характеристики исполнителя:**
@@ -771,6 +782,7 @@ nav a {
 export const games: GameLesson[] = [
   {
     title: "Циклы в программировании 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson12.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -785,6 +797,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Введение в программирование 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson13.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -799,6 +812,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Переменные и типы данных 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson14.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -813,6 +827,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Условия и ветвления 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson15.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -827,6 +842,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Основы HTML 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson16.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -841,6 +857,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Основы CSS 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson17.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -855,6 +872,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Создание веб-страницы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson18.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -869,6 +887,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Растровая и векторная графика 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson19.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -883,6 +902,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Обработка изображений 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson20.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -897,6 +917,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Что такое алгоритм 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson21.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -911,6 +932,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Исполнители алгоритмов 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson22.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -926,6 +948,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Циклы в программировании 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson23.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -940,6 +963,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Введение в программирование 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson24.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -954,6 +978,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Переменные и типы данных 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson25.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -968,6 +993,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Условия и ветвления 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson26.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -982,6 +1008,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Основы HTML 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson27.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -996,6 +1023,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Основы CSS 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson28.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -1010,6 +1038,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Создание веб-страницы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson29.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -1024,6 +1053,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Растровая и векторная графика 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson30.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -1038,6 +1068,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Обработка изображений 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson31.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -1052,6 +1083,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Что такое алгоритм 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson32.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -1066,6 +1098,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Исполнители алгоритмов 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson33.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -1081,6 +1114,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Программирование",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson34.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -1095,6 +1129,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Веб-разработка",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson35.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -1109,6 +1144,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Алгоритмы",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson36.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -1123,6 +1159,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Компьютерная графика",
+    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson37.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -1141,7 +1178,17 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Какой цикл выполняется, пока условие истинно?", options: ["for", "while", "if", "else", "Другой ответ"], correctAnswer: "while", hint: "С предусловием" },
+      { type: 'quiz', question: "Какой цикл выполняется, пока условие истинно?", options: ["for", "while", "if", "else", "Другой ответ"],
+      keyPoints: [
+        "Цикл for — повторение блока кода заданное количество раз",
+        "Цикл while — повторение, пока условие истинно",
+        "Вложенные циклы: цикл внутри цикла для работы с таблицами",
+      ],
+      examples: [
+        "<h1>Заголовок</h1> — тег для главного заголовка страницы 🌐",
+        "<a href='https://example.com'>Ссылка</a> — гиперссылка",
+        "<img src='photo.jpg' alt='Описание'> — изображение с альтернативным текстом",
+      ], correctAnswer: "while", hint: "С предусловием" },
       { type: 'quiz', question: "Что делает range(5)?", options: ["Числа 1-5", "Числа 0-4", "Числа 0-5", "Числа 1-4", "Другой ответ"], correctAnswer: "Числа 0-4", hint: "От 0 до n-1" },
       { type: 'find', question: "Выбери операторы управления циклом:", options: ["break", "continue", "return", "stop", "next"], correctAnswer: ["break", "continue"], hint: "Выход и пропуск" },
       { type: 'quiz', question: "Сколько раз выполнится: for i in range(3)?", options: ["2", "3", "4", "1", "Другой ответ"], correctAnswer: "3", hint: "i = 0, 1, 2" },
@@ -1155,7 +1202,17 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое программа?", options: ["Файл с текстом", "Последовательность команд для компьютера", "Сайт в интернете", "Картинка", "Другой ответ"], correctAnswer: "Последовательность команд для компьютера", hint: "Выполняется шаг за шагом" },
+      { type: 'quiz', question: "Что такое программа?", options: ["Файл с текстом", "Последовательность команд для компьютера", "Сайт в интернете", "Картинка", "Другой ответ"],
+      keyPoints: [
+        "Программирование — создание последовательности инструкций для компьютера",
+        "Алгоритм — чёткая последовательность шагов для решения задачи",
+        "Свойства алгоритма: дискретность, детерминированность, результативность",
+      ],
+      examples: [
+        "name = 'Иван' — переменная типа str (строка) 📝",
+        "x = 10 — переменная типа int (целое число)",
+        "type(3.14) вернёт <class 'float'> — вещественное число",
+      ], correctAnswer: "Последовательность команд для компьютера", hint: "Выполняется шаг за шагом" },
       { type: 'quiz', question: "Какой язык программирования популярен для обучения?", options: ["Java", "Python", "Assembly", "Fortran", "Другой ответ"], correctAnswer: "Python", hint: "Простой и понятный синтаксис" },
       { type: 'quiz', question: "Для чего нужна среда разработки (IDE)?", options: ["Для просмотра сайтов", "Для написания кода", "Для рисования", "Для прослушивания музыки", "Другой ответ"], correctAnswer: "Для написания кода", hint: "VS Code, PyCharm, IDLE" },
       { type: 'quiz', question: "Что выводит команда print('Привет')?", options: ["Ошибка", "Слово Привет", "Число", "Ничего", "Другой ответ"], correctAnswer: "Слово Привет", hint: "Первая программа на Python" },
@@ -1169,7 +1226,17 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое переменная?", options: ["Команда", "Именованная область памяти для хранения данных", "Функция", "Тип данных", "Другой ответ"], correctAnswer: "Именованная область памяти для хранения данных", hint: "Хранит значение" },
+      { type: 'quiz', question: "Что такое переменная?", options: ["Команда", "Именованная область памяти для хранения данных", "Функция", "Тип данных", "Другой ответ"],
+      keyPoints: [
+        "Переменная хранит данные; тип определяет, какие данные можно хранить",
+        "Основные типы: int (целые числа), float (дробные), str (строки), bool (истина/ложь)",
+        "Имя переменной должно быть осмысленным и начинаться с буквы",
+      ],
+      examples: [
+        "if score >= 90: print('Отлично!') — условие с одним ответвлением 🔀",
+        "and — логическое И (оба условия истинны), or — ИЛИ (хотя бы одно)",
+        "Вложенные условия: if внутри if для сложных проверок",
+      ], correctAnswer: "Именованная область памяти для хранения данных", hint: "Хранит значение" },
       { type: 'quiz', question: "Какой тип данных используется для целых чисел?", options: ["str", "float", "int", "bool", "Другой ответ"], correctAnswer: "int", hint: "Integer — целый" },
       { type: 'quiz', question: "Какой тип данных используется для строк текста?", options: ["int", "float", "bool", "str", "Другой ответ"], correctAnswer: "str", hint: "String — строка" },
       { type: 'quiz', question: "Чему равно значение type(3.14)?", options: ["int", "float", "str", "bool", "Другой ответ"], correctAnswer: "float", hint: "Вещественное число" },
@@ -1183,7 +1250,17 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Какой оператор используется для проверки условия?", options: ["for", "while", "if", "print", "Другой ответ"], correctAnswer: "if", hint: "Условный оператор" },
+      { type: 'quiz', question: "Какой оператор используется для проверки условия?", options: ["for", "while", "if", "print", "Другой ответ"],
+      keyPoints: [
+        "Условный оператор (if/else) позволяет программе выбирать действие",
+        "Операторы сравнения: ==, !=, >, <, >=, <=",
+        "Логические операторы: and, or, not для сложных условий",
+      ],
+      examples: [
+        "for i in range(5): print(i) — выведет 0, 1, 2, 3, 4 🔄",
+        "while count < 5: — цикл выполняется, пока условие истинно",
+        "break — выход из цикла, continue — переход к следующей итерации",
+      ], correctAnswer: "if", hint: "Условный оператор" },
       { type: 'quiz', question: "Что делает оператор elif?", options: ["Завершает программу", "Проверяет дополнительное условие", "Создаёт цикл", "Объявляет функцию", "Другой ответ"], correctAnswer: "Проверяет дополнительное условие", hint: "Множественные условия" },
       { type: 'quiz', question: "Какой оператор означает логическое И в Python?", options: ["&&", "and", "&", "AND", "Другой ответ"], correctAnswer: "and", hint: "Оба условия истинны" },
       { type: 'quiz', question: "Что означает оператор != ?", options: ["Равно", "Не равно", "Больше", "Меньше", "Другой ответ"], correctAnswer: "Не равно", hint: "Отрицание равенства" },
@@ -1197,7 +1274,17 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что означает аббревиатура HTML?", options: ["HyperText Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "HyperText Machine Learning", "Другой ответ"], correctAnswer: "HyperText Markup Language", hint: "Язык разметки" },
+      { type: 'quiz', question: "Что означает аббревиатура HTML?", options: ["HyperText Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "HyperText Machine Learning", "Другой ответ"],
+      keyPoints: [
+        "HTML (HyperText Markup Language) — язык разметки веб-страниц",
+        "Основные теги: <html>, <head>, <body>, <h1>-<h6>, <p>, <a>, <img>",
+        "Теги обычно открываются <> и закрываются </>",
+      ],
+      examples: [
+        "p { color: blue; } — синий цвет для всех параграфов 🎨",
+        "#header { font-size: 24px; } — селектор по id",
+        "margin — внешний отступ, padding — внутренний отступ",
+      ], correctAnswer: "HyperText Markup Language", hint: "Язык разметки" },
       { type: 'quiz', question: "Какой тег создаёт главный заголовок страницы?", options: ["<p>", "<title>", "<h1>", "<header>", "Другой ответ"], correctAnswer: "<h1>", hint: "Heading 1" },
       { type: 'quiz', question: "Какой тег используется для создания ссылки?", options: ["<link>", "<a>", "<href>", "<url>", "Другой ответ"], correctAnswer: "<a>", hint: "Anchor — якорь" },
       { type: 'quiz', question: "Какой атрибут тега <a> указывает адрес ссылки?", options: ["src", "link", "href", "url", "Другой ответ"], correctAnswer: "href", hint: "Hypertext Reference" },
@@ -1211,7 +1298,17 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что означает аббревиатура CSS?", options: ["Computer Style Sheets", "Cascading Style Sheets", "Creative Style System", "Colorful Style Sheets", "Другой ответ"], correctAnswer: "Cascading Style Sheets", hint: "Каскадные таблицы стилей" },
+      { type: 'quiz', question: "Что означает аббревиатура CSS?", options: ["Computer Style Sheets", "Cascading Style Sheets", "Creative Style System", "Colorful Style Sheets", "Другой ответ"],
+      keyPoints: [
+        "CSS (Cascading Style Sheets) — язык оформления веб-страниц",
+        "Селектор { свойство: значение; } — основной синтаксис CSS",
+        "Свойства: color, font-size, background, margin, padding, border",
+      ],
+      examples: [
+        "<header> — семантический тег для шапки сайта 📄",
+        "<nav> — тег для навигации с ссылками",
+        "body { max-width: 800px; margin: 0 auto; } — центрирование контента",
+      ], correctAnswer: "Cascading Style Sheets", hint: "Каскадные таблицы стилей" },
       { type: 'quiz', question: "Какое свойство CSS задает цвет текста?", options: ["font-color", "text-color", "color", "foreground", "Другой ответ"], correctAnswer: "color", hint: "Цвет текста элемента" },
       { type: 'quiz', question: "Какой символ используется для селектора по классу?", options: ["#", ".", "@", "$", "Другой ответ"], correctAnswer: ".", hint: "Точка перед именем класса" },
       { type: 'quiz', question: "Какое свойство задаёт внешний отступ элемента?", options: ["padding", "border", "margin", "spacing", "Другой ответ"], correctAnswer: "margin", hint: "Отступ со всех сторон" },
@@ -1225,7 +1322,17 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Какой семантический тег используется для шапки сайта?", options: ["<top>", "<head>", "<header>", "<h1>", "Другой ответ"], correctAnswer: "<header>", hint: "Верхняя часть страницы" },
+      { type: 'quiz', question: "Какой семантический тег используется для шапки сайта?", options: ["<top>", "<head>", "<header>", "<h1>", "Другой ответ"],
+      keyPoints: [
+        "Веб-страница создается комбинацией HTML (структура) и CSS (оформление)",
+        "Responsive дизайн делает страницу адаптивной для разных экранов",
+        "Ссылка <a href='url'>Текст</a> соединяет страницы между собой",
+      ],
+      examples: [
+        "JPEG — формат для фотографий с сжатием с потерями 📸",
+        "SVG — векторный формат, не теряет качество при масштабировании",
+        "1 мегапиксель = 1 000 000 пикселей",
+      ], correctAnswer: "<header>", hint: "Верхняя часть страницы" },
       { type: 'quiz', question: "Какой тег создаёт навигацию по сайту?", options: ["<menu>", "<nav>", "<link>", "<navigate>", "Другой ответ"], correctAnswer: "<nav>", hint: "Navigation" },
       { type: 'quiz', question: "Какой тег используется для основной части контента?", options: ["<body>", "<main>", "<content>", "<section>", "Другой ответ"], correctAnswer: "<main>", hint: "Основное содержание" },
       { type: 'quiz', question: "Какой тег создаёт подвал сайта?", options: ["<bottom>", "<footer>", "<end>", "<down>", "Другой ответ"], correctAnswer: "<footer>", hint: "Нижняя часть страницы" },
@@ -1239,7 +1346,17 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Из чего состоит растровое изображение?", options: ["Из кривых", "Из пикселей", "Из векторов", "Из слоёв", "Другой ответ"], correctAnswer: "Из пикселей", hint: "Маленькие точки разных цветов" },
+      { type: 'quiz', question: "Из чего состоит растровое изображение?", options: ["Из кривых", "Из пикселей", "Из векторов", "Из слоёв", "Другой ответ"],
+      keyPoints: [
+        "Растровая графика — изображение из пикселей (фото, скриншоты)",
+        "Векторная графика — изображение из математических объектов (логотипы, схемы)",
+        "Растровые форматы: JPEG, PNG; векторные: SVG, AI",
+      ],
+      examples: [
+        "WebP — современный формат, меньше размер при том же качестве 🖼️",
+        "PNG поддерживает прозрачность — удобно для логотипов",
+        "Слои в Photoshop позволяют комбинировать несколько изображений",
+      ], correctAnswer: "Из пикселей", hint: "Маленькие точки разных цветов" },
       { type: 'quiz', question: "Какой формат лучше для логотипов?", options: ["JPEG", "BMP", "SVG", "PNG", "Другой ответ"], correctAnswer: "SVG", hint: "Векторный формат" },
       { type: 'quiz', question: "Что происходит с векторным изображением при увеличении?", options: ["Теряет качество", "Не теряет качество", "Размывается", "Исчезает", "Другой ответ"], correctAnswer: "Не теряет качество", hint: "Математические формулы" },
       { type: 'quiz', question: "Какой формат растровой графики поддерживает анимацию?", options: ["JPEG", "PNG", "GIF", "BMP", "Другой ответ"], correctAnswer: "GIF", hint: "Кадры анимации" },
@@ -1253,7 +1370,17 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое кадрирование изображения?", options: ["Изменение цвета", "Обрезка изображения", "Увеличение", "Поворот", "Другой ответ"], correctAnswer: "Обрезка изображения", hint: "Удаление лишних частей" },
+      { type: 'quiz', question: "Что такое кадрирование изображения?", options: ["Изменение цвета", "Обрезка изображения", "Увеличение", "Поворот", "Другой ответ"],
+      keyPoints: [
+        "Растровые редакторы: Paint, GIMP, Photoshop — работа с пикселями",
+        "Инструменты: выделение, кисть, заливка, текст, штамп, ластик",
+        "Слои позволяют работать с элементами изображения по отдельности",
+      ],
+      examples: [
+        "Свойства алгоритма: дискретность, определённость, результативность 📋",
+        "Овал — начало/конец, прямоугольник — действие, ромб — условие",
+        "Алгоритм заварки чая: вскипятить воду → положить пакетик → залить → настоять",
+      ], correctAnswer: "Обрезка изображения", hint: "Удаление лишних частей" },
       { type: 'quiz', question: "Какой современный формат изображений обеспечивает маленький размер?", options: ["JPEG", "PNG", "WebP", "BMP", "Другой ответ"], correctAnswer: "WebP", hint: "Современный формат" },
       { type: 'quiz', question: "Для чего нужны слои в графическом редакторе?", options: ["Для увеличения размера", "Для наложения изображений", "Для изменения формата", "Для печати", "Другой ответ"], correctAnswer: "Для наложения изображений", hint: "Работа с элементами по отдельности" },
       { type: 'quiz', question: "Какой формат поддерживает прозрачность?", options: ["JPEG", "BMP", "PNG", "TIFF", "Другой ответ"], correctAnswer: "PNG", hint: "Удобно для логотипов" },
@@ -1267,7 +1394,17 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое алгоритм?", options: ["Любой текст", "Точное описание последовательности действий", "Программа", "Рисунок", "Другой ответ"], correctAnswer: "Точное описание последовательности действий", hint: "Пошаговая инструкция" },
+      { type: 'quiz', question: "Что такое алгоритм?", options: ["Любой текст", "Точное описание последовательности действий", "Программа", "Рисунок", "Другой ответ"],
+      keyPoints: [
+        "Алгоритм — конечная последовательность шагов, приводящая к результату",
+        "Способы записи: словесный, блок-схема, псевдокод, программа",
+        "Линейный, разветвляющийся и циклический — три основные структуры алгоритмов",
+      ],
+      examples: [
+        "СКИ — система команд исполнителя (набор доступных команд) 🤖",
+        "Робот: команды — влево, вправо, вверх, вниз, закрасить",
+        "Черепаха: вперёд(50), вправо(90) — рисует квадрат",
+      ], correctAnswer: "Точное описание последовательности действий", hint: "Пошаговая инструкция" },
       { type: 'quiz', question: "Какое свойство алгоритма означает разделение на шаги?", options: ["Массовость", "Дискретность", "Результативность", "Определённость", "Другой ответ"], correctAnswer: "Дискретность", hint: "Выполнение по порядку" },
       { type: 'quiz', question: "Какая фигура в блок-схеме обозначает действие?", options: ["Овал", "Ромб", "Прямоугольник", "Параллелограмм", "Другой ответ"], correctAnswer: "Прямоугольник", hint: "Блок действий" },
       { type: 'quiz', question: "Какое свойство алгоритма означает применимость к множеству данных?", options: ["Дискретность", "Определённость", "Массовость", "Результативность", "Другой ответ"], correctAnswer: "Массовость", hint: "Универсальность" },
@@ -1281,7 +1418,17 @@ export const games: GameLesson[] = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое исполнитель алгоритма?", options: ["Человек", "Объект, выполняющий алгоритм", "Компьютер", "Программа", "Другой ответ"], correctAnswer: "Объект, выполняющий алгоритм", hint: "Выполняет команды" },
+      { type: 'quiz', question: "Что такое исполнитель алгоритма?", options: ["Человек", "Объект, выполняющий алгоритм", "Компьютер", "Программа", "Другой ответ"],
+      keyPoints: [
+        "Исполнитель алгоритма — объект, способный выполнять команды",
+        "Система команд исполнителя — набор команд, которые он понимает",
+        "Среда исполнителя — условия, в которых он работает (например, чертежник на координатной плоскости)",
+      ],
+      examples: [
+        "Двусоставное: Мальчик читает книгу — подлежащее мальчик и сказуемое читает",
+        "Односоставное безличное: Темнеет — нет и не может быть подлежащего, действие происходит само по себе",
+        "Односоставное назывное: Ночь. Улица. Фонарь. Аптека. — только подлежащие, нет сказуемых",
+      ], correctAnswer: "Объект, выполняющий алгоритм", hint: "Выполняет команды" },
       { type: 'quiz', question: "Что такое СКИ исполнителя?", options: ["Скорость", "Система команд исполнителя", "Среда", "Счётчик", "Другой ответ"], correctAnswer: "Система команд исполнителя", hint: "Набор доступных команд" },
       { type: 'quiz', question: "Какие команды есть у исполнителя Робот?", options: ["Влево, вправо, вверх, вниз, закрасить", "Вперёд, назад, прыгнуть", "Записать, стереть", "Нарисовать, закрасить", "Другой ответ"], correctAnswer: "Влево, вправо, вверх, вниз, закрасить", hint: "Клеточное поле" },
       { type: 'quiz', question: "Что такое отказ исполнителя?", options: ["Завершение работы", "Команда не может быть выполнена", "Перезагрузка", "Остановка программы", "Другой ответ"], correctAnswer: "Команда не может быть выполнена", hint: "Выход за границы среды" },

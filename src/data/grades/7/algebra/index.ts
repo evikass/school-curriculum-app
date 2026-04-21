@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Числовые выражения",
+          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson1.svg",
           description: `**Числовое выражение** — запись из чисел, знаков действий и скобок.
 
 **Примеры:**
@@ -60,6 +61,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Выражения с переменными",
+          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson2.svg",
           description: `**Выражение с переменной** — содержит буквы (переменные).
 
 **Примеры:**
@@ -113,6 +115,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Линейные уравнения",
+          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson3.svg",
           description: `**Уравнение** — равенство с переменной.
 
 **Линейное уравнение:**
@@ -171,6 +174,7 @@ x = -5
         },
         {
           title: "Уравнения с модулями",
+          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson4.svg",
           description: `**Модуль числа** — расстояние от числа до нуля на координатной прямой.
 
 **Определение:**
@@ -234,6 +238,7 @@ x = 2 или x = -3
       lessons: [
         {
           title: "Что такое функция",
+          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson5.svg",
           description: `**Функция** — зависимость одной переменной от другой.
 
 **Определение:**
@@ -289,6 +294,7 @@ f(4) = 3 · 4 - 2 = 10
         },
         {
           title: "Линейная функция",
+          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson6.svg",
           description: `**Линейная функция** — функция вида y = kx + b.
 
 **где:**
@@ -353,6 +359,7 @@ f(4) = 3 · 4 - 2 = 10
       lessons: [
         {
           title: "Степень и её свойства",
+          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson7.svg",
           description: `**Степень** — произведение одинаковых множителей.
 
 **Определение:**
@@ -408,6 +415,7 @@ f(4) = 3 · 4 - 2 = 10
         },
         {
           title: "Степень с нулевым показателем",
+          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson8.svg",
           description: `**Нулевая степень:**
 
 **Определение:**
@@ -469,6 +477,7 @@ x⁵ · x⁰ · x² = x⁵ · 1 · x² = x⁷
       lessons: [
         {
           title: "Одночлены и многочлены",
+          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson9.svg",
           description: `**Одночлен** — произведение чисел, переменных и их степеней.
 
 **Примеры:**
@@ -523,6 +532,7 @@ x⁵ · x⁰ · x² = x⁵ · 1 · x² = x⁷
         },
         {
           title: "Сложение и вычитание многочленов",
+          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson10.svg",
           description: `**Сложение многочленов:**
 
 **Правило:**
@@ -599,6 +609,7 @@ x⁵ · x⁰ · x² = x⁵ · 1 · x² = x⁷
 export const games: GameLesson[] = [
   {
     title: "Уравнения: Найди корень 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson11.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -613,6 +624,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Степени: Вычисления 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson12.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -627,6 +639,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Свойства степеней 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson13.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -641,6 +654,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Линейная функция 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson14.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -655,6 +669,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Многочлены 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson15.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -669,6 +684,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Числовые выражения 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson16.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -684,6 +700,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Уравнения: Найди корень 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson17.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -698,6 +715,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Степени: Вычисления 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson18.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -712,6 +730,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Свойства степеней 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson19.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -726,6 +745,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Линейная функция 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson20.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -740,6 +760,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Многочлены 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson21.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -754,6 +775,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Числовые выражения 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson22.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -769,6 +791,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Уравнения: Найди корень",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson23.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -783,6 +806,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Степени: Вычисления",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson24.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -797,6 +821,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Свойства степеней",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson25.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -811,11 +836,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Линейная функция",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson26.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Найди y при x = 2, если y = 3x - 1", options: ["y = 3", "y = 5", "y = 7", "y = 2", "Другой ответ"], correctAnswer: "y = 5", hint: "y = 3·2 - 1 = 5" },
+      { type: 'quiz', question: "Найди y при x = 2, если y = 3x - 1", options: ["y = 3", "y = 5", "y = 7", "y = 2", "Другой ответ"],
+      keyPoints: [
+        "Линейная функция: y = kx + b, где k — угловой коэффициент, b — свободный член",
+        "График линейной функции — прямая линия",
+        "k > 0: функция возрастает; k < 0: функция убывает",
+      ],
+      examples: [
+        "2³ · 2⁴ = 2⁷ = 128 — при умножении показатели складываются ➕",
+        "(aⁿ)ᵐ = aⁿ·ᵐ, значит (2³)² = 2⁶ = 64",
+      ], correctAnswer: "y = 5", hint: "y = 3·2 - 1 = 5" },
       { type: 'quiz', question: "Где график y = 2x + 3 пересекает ось Y?", options: ["(0; 3)", "(3; 0)", "(0; 2)", "(2; 0)", "Другой ответ"], correctAnswer: "(0; 3)", hint: "При x = 0, y = b = 3" },
       { type: 'quiz', question: "Какая прямая возрастает?", options: ["y = 2x + 1", "y = -3x + 5", "y = -x", "y = -0.5x", "Другой ответ"], correctAnswer: "y = 2x + 1", hint: "Возрастает при k > 0" },
       { type: 'quiz', question: "Чему равен угловой коэффициент y = -5x + 2?", options: ["k = 5", "k = -5", "k = 2", "k = -2", "Другой ответ"], correctAnswer: "k = -5", hint: "k — коэффициент при x" },
@@ -825,6 +860,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Многочлены",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson27.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -839,11 +875,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Числовые выражения",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson28.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Что такое числовое выражение?", options: ["Запись из чисел и знаков действий", "Уравнение с переменной", "График функции", "Таблица значений", "Другой ответ"], correctAnswer: "Запись из чисел и знаков действий", hint: "Состоит из чисел, знаков +, -, ·, : и скобок" },
+      { type: 'quiz', question: "Что такое числовое выражение?", options: ["Запись из чисел и знаков действий", "Уравнение с переменной", "График функции", "Таблица значений", "Другой ответ"],
+      keyPoints: [
+        "Числовое выражение — запись, состоящая из чисел и знаков арифметических действий",
+        "Порядок выполнения действий: сначала скобки, затем умножение/деление, потом сложение/вычитание",
+        "Значение числового выражения — результат выполнения всех действий",
+      ],
+      examples: [
+        "При x = 3 выражение 2x + 1 = 2·3 + 1 = 7 ✏️",
+        "Допустимые значения: 5/(x - 2), x ≠ 2 — знаменатель не может быть нулём",
+      ], correctAnswer: "Запись из чисел и знаков действий", hint: "Состоит из чисел, знаков +, -, ·, : и скобок" },
       { type: 'quiz', question: "Найдите значение выражения: 20 - 3 · 4 + 2", options: ["10", "62", "46", "8", "Другой ответ"], correctAnswer: "10", hint: "Сначала умножение: 20 - 12 + 2 = 10" },
       { type: 'quiz', question: "Какое выражение не имеет смысла?", options: ["5 + 3", "12 - 4 · 2", "5 : (3 - 3)", "(7 + 2) · 3", "Другой ответ"], correctAnswer: "5 : (3 - 3)", hint: "Деление на ноль невозможно" },
       { type: 'quiz', question: "Чему равно значение выражения: 12 + 6 : 2 - 4 · 3?", options: ["3", "15", "27", "12", "Другой ответ"], correctAnswer: "3", hint: "12 + 3 - 12 = 3" },
@@ -853,11 +899,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Выражения с переменными",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson29.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Что такое переменная в выражении?", options: ["Буква, вместо которой подставляют числа", "Число", "Знак действия", "Скобка", "Другой ответ"], correctAnswer: "Буква, вместо которой подставляют числа", hint: "Обычно x, y, a, b, c" },
+      { type: 'quiz', question: "Что такое переменная в выражении?", options: ["Буква, вместо которой подставляют числа", "Число", "Знак действия", "Скобка", "Другой ответ"],
+      keyPoints: [
+        "Выражение с переменной содержит буквы (переменные) и числа",
+        "Значение выражения зависит от значения переменной",
+        "Подстановка числа вместо переменной позволяет вычислить выражение",
+      ],
+      examples: [
+        "2x + 3 = 7, следовательно x = 2 🧮",
+        "3x - 7 = 5x + 3 → -2x = 10 → x = -5",
+      ], correctAnswer: "Буква, вместо которой подставляют числа", hint: "Обычно x, y, a, b, c" },
       { type: 'quiz', question: "Найдите значение выражения 2x + 3 при x = 5", options: ["13", "10", "25", "7", "Другой ответ"], correctAnswer: "13", hint: "2 · 5 + 3 = 13" },
       { type: 'quiz', question: "Чему равно значение выражения 3a - 2b при a = 5, b = 4?", options: ["7", "23", "1", "15", "Другой ответ"], correctAnswer: "7", hint: "3 · 5 - 2 · 4 = 15 - 8 = 7" },
       { type: 'quiz', question: "Укажите допустимые значения переменной в выражении 5/(x - 2)", options: ["x = 2", "x — любое число", "x ≠ 2", "x > 2", "Другой ответ"], correctAnswer: "x ≠ 2", hint: "Знаменатель не может быть равен нулю" },
@@ -867,11 +923,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Уравнения с модулями",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson30.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Что такое модуль числа?", options: ["Расстояние от числа до нуля на координатной прямой", "Отрицательное число", "Сумма чисел", "Разность чисел", "Другой ответ"], correctAnswer: "Расстояние от числа до нуля на координатной прямой", hint: "Модуль всегда неотрицателен" },
+      { type: 'quiz', question: "Что такое модуль числа?", options: ["Расстояние от числа до нуля на координатной прямой", "Отрицательное число", "Сумма чисел", "Разность чисел", "Другой ответ"],
+      keyPoints: [
+        "Уравнение с модулем: |x| = a имеет два решения при a > 0",
+        "Модуль числа — его расстояние от нуля на координатной прямой",
+        "|x| = a: x = a или x = −a при a > 0; нет решений при a < 0",
+      ],
+      examples: [
+        "f(x) = 3x - 2, тогда f(4) = 3 · 4 - 2 = 10 📈",
+        "Функцию можно задать формулой, таблицей или графиком",
+      ], correctAnswer: "Расстояние от числа до нуля на координатной прямой", hint: "Модуль всегда неотрицателен" },
       { type: 'quiz', question: "Чему равно |-7|?", options: ["-7", "7", "0", "14", "Другой ответ"], correctAnswer: "7", hint: "Модуль — расстояние до нуля, всегда ≥ 0" },
       { type: 'quiz', question: "Сколько корней имеет уравнение |x| = 5?", options: ["0", "1", "2", "3", "Другой ответ"], correctAnswer: "2", hint: "x = 5 или x = -5" },
       { type: 'quiz', question: "Решите уравнение |x - 2| = 3", options: ["x = 5 и x = -1", "x = 1 и x = 5", "x = -1", "x = 5", "Другой ответ"], correctAnswer: "x = 5 и x = -1", hint: "x - 2 = 3 → x = 5; x - 2 = -3 → x = -1" },
@@ -881,11 +947,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Что такое функция",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson31.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Что такое функция?", options: ["Зависимость одной переменной от другой", "Число", "Уравнение", "График", "Другой ответ"], correctAnswer: "Зависимость одной переменной от другой", hint: "Каждому x соответствует единственное y" },
+      { type: 'quiz', question: "Что такое функция?", options: ["Зависимость одной переменной от другой", "Число", "Уравнение", "График", "Другой ответ"],
+      keyPoints: [
+        "Функция — зависимость одной переменной от другой: каждому x соответствует единственное y",
+        "Область определения — множество допустимых значений аргумента",
+        "Функцию можно задать формулой, таблицей или графиком",
+      ],
+      examples: [
+        "y = 2x + 1 — график прямая, k > 0 → функция возрастает 📊",
+        "Точка пересечения с осью OY: (0; b), с осью OX: (-b/k; 0)",
+      ], correctAnswer: "Зависимость одной переменной от другой", hint: "Каждому x соответствует единственное y" },
       { type: 'quiz', question: "Как обозначается функция?", options: ["y = f(x)", "x = y", "f + x", "y + x", "Другой ответ"], correctAnswer: "y = f(x)", hint: "«Игрек равен эф от икс»" },
       { type: 'quiz', question: "Найдите f(2), если f(x) = 3x + 1", options: ["7", "5", "6", "8", "Другой ответ"], correctAnswer: "7", hint: "f(2) = 3 · 2 + 1 = 7" },
       { type: 'quiz', question: "Какая переменная называется аргументом функции?", options: ["y (зависимая)", "x (независимая)", "f", "Обе переменные", "Другой ответ"], correctAnswer: "x (независимая)", hint: "Аргумент — это входное значение функции" },
@@ -895,11 +971,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Сложение и вычитание многочленов",
+    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson32.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "Чему равно (3x² + 2x - 1) + (x² - 5x + 4)?", options: ["4x² - 3x + 3", "3x² - 3x + 3", "4x² + 7x + 3", "2x² - 3x + 5", "Другой ответ"], correctAnswer: "4x² - 3x + 3", hint: "Раскрой скобки и приведи подобные" },
+      { type: 'quiz', question: "Чему равно (3x² + 2x - 1) + (x² - 5x + 4)?", options: ["4x² - 3x + 3", "3x² - 3x + 3", "4x² + 7x + 3", "2x² - 3x + 5", "Другой ответ"],
+      keyPoints: [
+        "Многочлен — сумма одночленов",
+        "Подобные слагаемые — одночлены, отличающиеся только коэффициентом",
+        "Приведение подобных слагаемых — сложение их коэффициентов",
+      ],
+      examples: [
+        "Через любые две точки можно провести только одну прямую 📐",
+        "Отрезок — часть прямой, ограниченная двумя точками; луч — одной",
+      ], correctAnswer: "4x² - 3x + 3", hint: "Раскрой скобки и приведи подобные" },
       { type: 'quiz', question: "Чему равно (5a² - 3a + 2) - (2a² - a - 1)?", options: ["3a² - 2a + 3", "7a² - 4a + 1", "3a² - 4a + 3", "3a² + 2a + 1", "Другой ответ"], correctAnswer: "3a² - 2a + 3", hint: "При вычитании поменяй знаки во второй скобке" },
       { type: 'quiz', question: "Чему равно 2x(3x² - 4x + 1)?", options: ["6x³ - 8x² + 2x", "6x³ - 4x + 1", "5x³ - 2x² + x", "6x² - 8x + 2", "Другой ответ"], correctAnswer: "6x³ - 8x² + 2x", hint: "Умножь 2x на каждый член многочлена" },
       { type: 'quiz', question: "Чему равно (x + 2)(x - 3)?", options: ["x² - x - 6", "x² + 5x - 6", "x² - x + 6", "x² - 5x + 6", "Другой ответ"], correctAnswer: "x² - x - 6", hint: "x² - 3x + 2x - 6 = x² - x - 6" },

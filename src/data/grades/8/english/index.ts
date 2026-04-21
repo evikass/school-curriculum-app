@@ -20,6 +20,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Present Simple",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson1.svg",
           description: `**Present Simple** используется для описания регулярных действий, фактов и постоянных состояний.
 
 **Основные случаи употребления:**
@@ -73,6 +74,7 @@ always, usually, often, sometimes, rarely, never, every day, on Mondays
         },
         {
           title: "Present Continuous",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson2.svg",
           description: `**Present Continuous** используется для описания действий, происходящих в данный момент.
 
 **Основные случаи употребления:**
@@ -129,6 +131,7 @@ now, at the moment, at present, today, this week, tonight
         },
         {
           title: "Present Perfect",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson3.svg",
           description: `**Present Perfect** связывает прошлое с настоящим.
 
 **Основные случаи употребления:**
@@ -187,6 +190,7 @@ for (период времени), since (момент времени)
       lessons: [
         {
           title: "Past Simple",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson4.svg",
           description: `**Past Simple** используется для описания завершённых действий в прошлом.
 
 **Основные случаи употребления:**
@@ -244,6 +248,7 @@ We/You/They were: *They were happy.*
         },
         {
           title: "Past Continuous",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson5.svg",
           description: `**Past Continuous** описывает действия, которые длились в определённый момент в прошлом.
 
 **Основные случаи употребления:**
@@ -303,6 +308,7 @@ at 5 o'clock yesterday, at that moment, while, when
       lessons: [
         {
           title: "Future Simple",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson6.svg",
           description: `**Future Simple (will + V)** используется для будущих действий.
 
 **Основные случаи употребления:**
@@ -355,6 +361,7 @@ tomorrow, next week/month/year, soon, in the future, in 2030
         },
         {
           title: "To be going to",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson7.svg",
           description: `**To be going to + V** используется для планов и намерений.
 
 **Основные случаи употребления:**
@@ -411,6 +418,7 @@ I'm not going to study. She isn't going to come. They aren't going to stay.
       lessons: [
         {
           title: "Modal Verbs: Can, Could, Must",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson8.svg",
           description: `**Modal Verbs (Модальные глаголы)** выражают отношение говорящего к действию.
 
 **CAN — физическая возможность, умение:**
@@ -464,6 +472,7 @@ I'm not going to study. She isn't going to come. They aren't going to stay.
         },
         {
           title: "Modal Verbs: Should, May, Might",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson9.svg",
           description: `**SHOULD — совет, рекомендация:**
 - *You should see a doctor.* (Тебе следует показаться врачу)
 - *You shouldn't eat so much sugar.* (Тебе не стоит есть столько сахара)
@@ -516,6 +525,7 @@ I'm not going to study. She isn't going to come. They aren't going to stay.
       lessons: [
         {
           title: "Passive Voice",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson10.svg",
           description: `**Passive Voice (Страдательный залог)** — действие производится над подлежащим.
 
 **Active:** *People speak English all over the world.*
@@ -579,6 +589,7 @@ have/has been + V3
       lessons: [
         {
           title: "Conditionals: Zero and First",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson11.svg",
           description: `**Zero Conditional — факты и истины:**
 If + Present Simple, Present Simple
 - *If you heat water to 100°C, it boils.*
@@ -630,6 +641,7 @@ Main clause + If clause
         },
         {
           title: "Conditionals: Second and Third",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson12.svg",
           description: `**Second Conditional — нереальные условия в настоящем:**
 If + Past Simple, would + V
 - *If I had a million dollars, I would buy a house.*
@@ -683,6 +695,7 @@ If + Past Perfect, would have + V3
       lessons: [
         {
           title: "Daily Routine",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson13.svg",
           description: `**Vocabulary: Daily Routine (Повседневные дела)**
 
 **Утро (Morning):**
@@ -739,6 +752,7 @@ If + Past Perfect, would have + V3
         },
         {
           title: "Hobbies and Free Time",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson14.svg",
           description: `**Vocabulary: Hobbies and Free Time (Хобби и свободное время)**
 
 **Виды хобби:**
@@ -800,6 +814,7 @@ If + Past Perfect, would have + V3
       lessons: [
         {
           title: "Reading Strategies",
+          image: "/school-curriculum-app/images/lessons/grade8/english/lesson15.svg",
           description: `**Reading Strategies (Стратегии чтения)**
 
 **Виды чтения:**
@@ -1287,7 +1302,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "I ___ to school every day.", options: ["am going", "go", "have gone", "went", "Другой ответ"], correctAnswer: "go", hint: "Regular action = Present Simple" },
+      { type: 'quiz', question: "I ___ to school every day.", options: ["am going", "go", "have gone", "went", "Другой ответ"],
+      keyPoints: [
+        "Основные случаи употребления — Регулярные, повторяющиеся действия: I wake up at 7 o'clock every day",
+        "Образование утверждений — I/You/We/They + V (base form): I work, we play",
+        "Правила правописания — work → works",
+      ],
+      examples: [
+        "Look! The children are playing in the yard. — Смотри! Дети играют во дворе. (Действие в данный момент)",
+        "I am reading an interesting book now. — Я сейчас читаю интересную книгу.",
+        "She is not watching TV at the moment. — Она сейчас не смотрит телевизор. (Отрицание: isn't + V-ing)",
+      ], correctAnswer: "go", hint: "Regular action = Present Simple" },
       { type: 'quiz', question: "She ___ in London.", options: ["live", "lives", "living", "is living", "Другой ответ"], correctAnswer: "lives", hint: "He/She/It + V+s" },
       { type: 'quiz', question: "My brother ___ (work) in a bank.", options: ["is working", "works", "has worked", "working", "work"], correctAnswer: "works", hint: "He + V+s" },
       { type: 'quiz', question: "___ you like coffee?", options: ["Do", "Does", "Is", "Are", "Другой ответ"], correctAnswer: "Do", hint: "Question with I/you/we/they = Do" }
@@ -1300,7 +1325,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Look! It ___ .", options: ["rains", "is raining", "rained", "has rained", "Другой ответ"], correctAnswer: "is raining", hint: "Happening now = Present Continuous" },
+      { type: 'quiz', question: "Look! It ___ .", options: ["rains", "is raining", "rained", "has rained", "Другой ответ"],
+      keyPoints: [
+        "Основные случаи употребления — Действие в момент речи: I am reading a book now",
+        "Правила правописания — work → working",
+        "Глаголы, не употребляющиеся в Continuous — состояния: be, have, know, understand, believe",
+      ],
+      examples: [
+        "I have already finished my homework. — Я уже закончил домашнее задание. (Результат важен сейчас)",
+        "She has lived in Moscow for 10 years. — Она живёт в Москве 10 лет. (Предлог for — период времени)",
+        "Have you ever been to St. Petersburg? — Ты когда-нибудь бывал в Санкт-Петербурге? (Опыт)",
+      ], correctAnswer: "is raining", hint: "Happening now = Present Continuous" },
       { type: 'quiz', question: "They ___ football at the moment.", options: ["play", "plays", "are playing", "is playing", "Другой ответ"], correctAnswer: "are playing", hint: "They + are + V-ing" },
       { type: 'quiz', question: "I am ___ (read) a book now.", options: ["readed", "reader", "read", "reading", "reads"], correctAnswer: "reading", hint: "am + V-ing" },
       { type: 'quiz', question: "She isn't ___ TV right now.", options: ["watch", "watches", "watching", "watched", "Другой ответ"], correctAnswer: "watching", hint: "isn't + V-ing" }
@@ -1313,7 +1348,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "She ___ in London for 5 years.", options: ["lives", "is living", "has lived", "lived", "Другой ответ"], correctAnswer: "has lived", hint: "For + period = Present Perfect" },
+      { type: 'quiz', question: "She ___ in London for 5 years.", options: ["lives", "is living", "has lived", "lived", "Другой ответ"],
+      keyPoints: [
+        "Основные случаи употребления — Личный опыт: I have been to Paris",
+        "I have lost my key. (результат важен — не могу войти)",
+        "Действие завершилось, результат важен сейчас: I have lost my keys. (не могу найти)",
+      ],
+      examples: [
+        "We went to the cinema yesterday. — Мы ходили в кино вчера. (Завершённое действие)",
+        "She didn't understand the question. — Она не поняла вопрос. (Отрицание: didn't + V)",
+        "Did you see him last night? — Ты видел его вчера вечером? (Вопрос с did)",
+      ], correctAnswer: "has lived", hint: "For + period = Present Perfect" },
       { type: 'quiz', question: "I have ___ (see) this film already.", options: ["been", "seeing", "see", "seen", "saw"], correctAnswer: "seen", hint: "Present Perfect uses V3" },
       { type: 'quiz', question: "Have you ever ___ to Paris?", options: ["be", "been", "being", "was", "Другой ответ"], correctAnswer: "been", hint: "Have + V3 (be → been)" },
       { type: 'quiz', question: "I have known him ___ 2015.", options: ["for", "since", "at", "in", "Другой ответ"], correctAnswer: "since", hint: "Since + point in time" }
@@ -1327,7 +1372,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "We ___ to the cinema yesterday.", options: ["go", "are going", "went", "have gone", "Другой ответ"], correctAnswer: "went", hint: "Yesterday = Past Simple" },
+      { type: 'quiz', question: "We ___ to the cinema yesterday.", options: ["go", "are going", "went", "have gone", "Другой ответ"],
+      keyPoints: [
+        "Основные случаи употребления — Завершённые действия в прошлом: I visited Paris last year",
+        "Образование правильных глаголов — V + ed: work → worked, play → played, watch → watched",
+        "Правила правописания — work → worked",
+      ],
+      examples: [
+        "At 8 o'clock yesterday I was having breakfast. — Вчера в 8 часов я завтракал. (Конкретный момент)",
+        "When I came home, my mother was cooking dinner. — Когда я пришёл, мама готовила ужин. (Прерванное действие)",
+        "While he was reading, his brother was playing. — Пока он читал, его брат играл. (Одновременные действия)",
+      ], correctAnswer: "went", hint: "Yesterday = Past Simple" },
       { type: 'quiz', question: "Did she ___ (come) to the party?", options: ["comes", "came", "has come", "come", "coming"], correctAnswer: "come", hint: "Did + base form" },
       { type: 'quiz', question: "He ___ his homework last night.", options: ["doesn", ",", "t do", "didn", "—"], correctAnswer: "didn't do", hint: "didn't + base form" },
       { type: 'quiz', question: "They were ___ home yesterday.", options: ["at", "in", "on", "to", "Другой ответ"], correctAnswer: "at", hint: "at home" }
@@ -1340,7 +1395,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "At 5 o'clock yesterday I ___ TV.", options: ["watched", "was watching", "have watched", "watch", "Другой ответ"], correctAnswer: "was watching", hint: "At specific time in the past = Past Continuous" },
+      { type: 'quiz', question: "At 5 o'clock yesterday I ___ TV.", options: ["watched", "was watching", "have watched", "watch", "Другой ответ"],
+      keyPoints: [
+        "Основные случаи употребления — Прерванное действие: When the phone rang, I was sleeping",
+        "Сочетание с Past Simple — Когда одно действие прерывает другое:",
+        "Когда одно действие прерывает другое — Длинное действие — Past Continuous",
+      ],
+      examples: [
+        "I think it will rain tomorrow. — Думаю, завтра пойдёт дождь. (Предсказание с will)",
+        "I will help you with your homework. — Я помогу тебе с домашним заданием. (Обещание)",
+        "She won't tell anyone your secret. — Она никому не расскажет твой секрет. (Отрицание: won't)",
+      ], correctAnswer: "was watching", hint: "At specific time in the past = Past Continuous" },
       { type: 'quiz', question: "When the phone rang, I ___ .", options: ["slept", "was sleeping", "have slept", "sleep", "Другой ответ"], correctAnswer: "was sleeping", hint: "Interrupted action = Past Continuous" },
       { type: 'quiz', question: "They were ___ (play) football at that time.", options: ["plays", "play", "played", "playing", "to play"], correctAnswer: "playing", hint: "were + V-ing" },
       { type: 'quiz', question: "While she ___ (cook), the phone rang.", options: ["cooked", "was cooking", "cooks", "has cooked", "Другой ответ"], correctAnswer: "was cooking", hint: "While = ongoing action in past" }
@@ -1354,7 +1419,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "I think it ___ rain tomorrow.", options: ["will", "is going to", "would", "shall", "Другой ответ"], correctAnswer: "will", hint: "Prediction = will" },
+      { type: 'quiz', question: "I think it ___ rain tomorrow.", options: ["will", "is going to", "would", "shall", "Другой ответ"],
+      keyPoints: [
+        "Основные случаи употребления — Мгновенные решения: It's cold",
+        "I'll help you. — мгновенное решение",
+        "I'm going to help you. — запланированное действие",
+      ],
+      examples: [
+        "I am going to visit my grandmother next weekend. — Я собираюсь навестить бабушку в выходные. (План)",
+        "Look at those clouds! It is going to rain. — Посмотри на тучи! Собирается дождь. (Признаки)",
+        "They are going to move to a new flat. — Они собираются переехать в новую квартиру. (Намерение)",
+      ], correctAnswer: "will", hint: "Prediction = will" },
       { type: 'quiz', question: "I ___ help you with your homework.", options: ["will", "am going to", "was", "had", "Другой ответ"], correctAnswer: "will", hint: "Promise = will" },
       { type: 'quiz', question: "She won't ___ (tell) anyone.", options: ["told", "telling", "tells", "has told", "tell"], correctAnswer: "tell", hint: "won't + base form" },
       { type: 'quiz', question: "___ you come to the party?", options: ["Will", "Are", "Do", "Did", "Другой ответ"], correctAnswer: "Will", hint: "Future question = Will + subject + V" }
@@ -1367,7 +1442,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Look at the clouds! It ___ rain.", options: ["will", "is going to", "would", "shall", "Другой ответ"], correctAnswer: "is going to", hint: "Evidence now = going to" },
+      { type: 'quiz', question: "Look at the clouds! It ___ rain.", options: ["will", "is going to", "would", "shall", "Другой ответ"],
+      keyPoints: [
+        "Основные случаи употребления — Планы и намерения: I'm going to study medicine",
+        "Going to vs Present Continuous для планов — Оба используются для планов:",
+        "Оба используются для планов — I'm going to meet Tom",
+      ],
+      examples: [
+        "She can speak three languages. — Она может говорить на трёх языках. (Умение)",
+        "You must do your homework every day. — Ты должен делать домашнее задание каждый день. (Обязанность)",
+        "Could you open the window, please? — Не могли бы вы открыть окно? (Вежливая просьба)",
+      ], correctAnswer: "is going to", hint: "Evidence now = going to" },
       { type: 'quiz', question: "I'm going ___ (study) tonight.", options: ["to study", "studying", "studied", "has studied", "study"], correctAnswer: "to study", hint: "going to + V" },
       { type: 'quiz', question: "She is ___ buy a new car.", options: ["will", "going to", "will to", "going", "Другой ответ"], correctAnswer: "going to", hint: "is going to + V" },
       { type: 'quiz', question: "What are you ___ do tomorrow?", options: ["will", "going to", "would", "shall", "Другой ответ"], correctAnswer: "going to", hint: "are going to + V" }
@@ -1381,7 +1466,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "You ___ smoke here. It's forbidden.", options: ["mustn", "can", "Другой ответ", "t", ","], correctAnswer: "mustn't", hint: "Forbidden = mustn't" },
+      { type: 'quiz', question: "You ___ smoke here. It's forbidden.", options: ["mustn", "can", "Другой ответ", "t", ","],
+      keyPoints: [
+        "CAN — физическая возможность, умение:",
+        "COULD — вежливая просьба, возможность в прошлом:",
+        "MUST — обязанность, настоятельная необходимость:",
+      ],
+      examples: [
+        "You should eat more vegetables. — Тебе стоит есть больше овощей. (Совет)",
+        "It may rain tomorrow. — Завтра может пойти дождь. (Возможность)",
+        "He might come to the party. — Он, возможно, придёт на вечеринку. (Меньшая вероятность)",
+      ], correctAnswer: "mustn't", hint: "Forbidden = mustn't" },
       { type: 'quiz', question: "She can ___ (speak) three languages.", options: ["speaking", "has spoken", "speak", "spoke", "speaks"], correctAnswer: "speak", hint: "can + base form" },
       { type: 'quiz', question: "___ you help me, please?", options: ["Can", "Must", "Should", "Have to", "Другой ответ"], correctAnswer: "Can", hint: "Request = Can/Could" },
       { type: 'quiz', question: "You ___ wear a uniform at school.", options: ["can", "must", "should", "may", "Другой ответ"], correctAnswer: "must", hint: "Obligation = must" }
@@ -1394,7 +1489,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "You ___ see a doctor. You look ill.", options: ["can", "must", "should", "may", "Другой ответ"], correctAnswer: "should", hint: "Advice = should" },
+      { type: 'quiz', question: "You ___ see a doctor. You look ill.", options: ["can", "must", "should", "may", "Другой ответ"],
+      keyPoints: [
+        "MAY — вероятность, разрешение (формально):",
+        "MIGHT — меньшая вероятность:",
+        "It might snow tonight. (Возможно, ночью пойдёт снег — меньше уверенности)",
+      ],
+      examples: [
+        "This book was written by Pushkin. — Эта книга была написана Пушкиным. (Past Simple Passive с by)",
+        "English is spoken in many countries. — На английском говорят во многих странах. (Present Simple Passive)",
+        "The work has already been done. — Работа уже выполнена. (Present Perfect Passive)",
+      ], correctAnswer: "should", hint: "Advice = should" },
       { type: 'quiz', question: "It ___ rain tomorrow. (possibility)", options: ["must", "should", "may", "have to", "Другой ответ"], correctAnswer: "may", hint: "Possibility = may/might" },
       { type: 'quiz', question: "You shouldn't ___ (eat) so much sugar.", options: ["eat", "eating", "has eaten", "ate", "to eat"], correctAnswer: "eat", hint: "shouldn't + base form" },
       { type: 'quiz', question: "___ I use your phone?", options: ["Must", "Should", "May", "Have to", "Другой ответ"], correctAnswer: "May", hint: "Formal request = May" }
@@ -1408,7 +1513,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "English ___ all over the world.", options: ["speaks", "is spoken", "spoke", "is speaking", "Другой ответ"], correctAnswer: "is spoken", hint: "Present Simple Passive" },
+      { type: 'quiz', question: "English ___ all over the world.", options: ["speaks", "is spoken", "spoke", "is speaking", "Другой ответ"],
+      keyPoints: [
+        "Когда используется Passive — Важен объект, а не исполнитель",
+        "Если указываем исполнителя — This picture was painted by Picasso",
+        "Ключевое понятие: Passive Voice",
+      ],
+      examples: [
+        "If you heat ice, it melts. — Если нагреть лёд, он тает. (Zero Conditional — факт)",
+        "If it rains tomorrow, we will stay at home. — Если завтра пойдёт дождь, мы останемся дома. (First Conditional)",
+        "Unless you study hard, you won't pass the exam. — Если не будешь стараться, не сдашь. (Unless = if not)",
+      ], correctAnswer: "is spoken", hint: "Present Simple Passive" },
       { type: 'quiz', question: "The letter ___ yesterday.", options: ["sent", "was sent", "is sent", "sends", "Другой ответ"], correctAnswer: "was sent", hint: "Past Simple Passive" },
       { type: 'quiz', question: "The book will be ___ (finish) soon.", options: ["finishing", "finished", "to finish", "finishes", "finish"], correctAnswer: "finished", hint: "will be + V3" },
       { type: 'quiz', question: "This picture was painted ___ Picasso.", options: ["with", "by", "from", "of", "Другой ответ"], correctAnswer: "by", hint: "Agent = by" }
@@ -1422,7 +1537,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "If you heat water to 100°C, it ___.", options: ["will boil", "would boil", "boils", "boiled", "Другой ответ"], correctAnswer: "boils", hint: "Zero Conditional = fact" },
+      { type: 'quiz', question: "If you heat water to 100°C, it ___.", options: ["will boil", "would boil", "boils", "boiled", "Другой ответ"],
+      keyPoints: [
+        "First Conditional — реальные условия:",
+        "When I see him — уверен, что увижу",
+        "If I see him — не уверен",
+      ],
+      examples: [
+        "If I were rich, I would travel around the world. — Если бы я был богат, я бы путешествовал. (Second Conditional)",
+        "If I had studied harder, I would have passed the exam. — Если бы учился усерднее, сдал бы. (Third Conditional)",
+        "If I knew her phone number, I would call her. — Если бы знал номер, позвонил бы. (Second)",
+      ], correctAnswer: "boils", hint: "Zero Conditional = fact" },
       { type: 'quiz', question: "If it rains, I ___ at home.", options: ["stay", "will stay", "would stay", "stayed", "Другой ответ"], correctAnswer: "will stay", hint: "First Conditional" },
       { type: 'quiz', question: "If you don't hurry, you'll miss the bus. = ___ you hurry, you'll miss the bus.", options: ["When", "Before", "Unless", "After", "If"], correctAnswer: "Unless", hint: "Unless = If not" },
       { type: 'quiz', question: "If she ___ (come), I will be happy.", options: ["comes", "will come", "came", "would come", "Другой ответ"], correctAnswer: "comes", hint: "If + Present Simple" }
@@ -1435,7 +1560,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "If I were you, I ___ accept.", options: ["will", "would", "would have", "had", "Другой ответ"], correctAnswer: "would", hint: "Second Conditional" },
+      { type: 'quiz', question: "If I were you, I ___ accept.", options: ["will", "would", "would have", "had", "Другой ответ"],
+      keyPoints: [
+        "Second Conditional для советов — If I were you, I would study medicine",
+        "Third Conditional — нереальные условия в прошлом:",
+        "Ключевое понятие: Conditionals: Second and Third",
+      ],
+      examples: [
+        "I usually wake up at 7 o'clock and have a shower. — Я обычно просыпаюсь в 7 часов и принимаю душ.",
+        "After school I do my homework and then watch TV. — После школы делаю домашку и смотрю ТВ.",
+        "She goes to bed at 10 p.m. every day. — Она ложится спать в 10 вечера. (Предлог at со временем)",
+      ], correctAnswer: "would", hint: "Second Conditional" },
       { type: 'quiz', question: "If I had known, I ___ have told you.", options: ["would", "have", "t", "had", "will"], correctAnswer: "would", hint: "Third Conditional" },
       { type: 'quiz', question: "If I ___ (be) you, I would study harder.", options: ["am", "was", "were", "be", "Другой ответ"], correctAnswer: "were", hint: "Second Conditional uses 'were' for all persons" },
       { type: 'quiz', question: "If she ___ (study) harder, she would have passed.", options: ["studies", "studied", "had studied", "would study", "Другой ответ"], correctAnswer: "had studied", hint: "Third Conditional: If + Past Perfect" }
@@ -1449,7 +1584,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "I usually ___ at 7 o'clock.", options: ["wake up", "get up", "go to bed", "have dinner", "Другой ответ"], correctAnswer: "wake up", hint: "Morning activity" },
+      { type: 'quiz', question: "I usually ___ at 7 o'clock.", options: ["wake up", "get up", "go to bed", "have dinner", "Другой ответ"],
+      keyPoints: [
+        "have a shower — принимать душ",
+        "brush teeth — чистить зубы",
+        "leave home — выходить из дома",
+      ],
+      examples: [
+        "In my free time I like reading books and listening to music. — В свободное время люблю читать и слушать музыку.",
+        "She plays the piano very well. — Она очень хорошо играет на пианино. (Артикль the с инструментом)",
+        "He is fond of playing football. — Он увлекается футболом. (Конструкция be fond of)",
+      ], correctAnswer: "wake up", hint: "Morning activity" },
       { type: 'quiz', question: "I have breakfast ___ the morning. (preposition)", options: ["in", "at", "by", "on", "for"], correctAnswer: "in", hint: "in the morning" },
       { type: 'quiz', question: "After school I ___ my homework.", options: ["make", "do", "have", "take", "Другой ответ"], correctAnswer: "do", hint: "do homework" },
       { type: 'quiz', question: "I go ___ bed at 10 p.m.", options: ["at", "in", "to", "on", "Другой ответ"], correctAnswer: "to", hint: "go to bed" }
@@ -1462,7 +1607,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "She can play ___ piano.", options: ["a", "an", "the", "-", "Другой ответ"], correctAnswer: "the", hint: "play THE piano (instrument)" },
+      { type: 'quiz', question: "She can play ___ piano.", options: ["a", "an", "the", "-", "Другой ответ"],
+      keyPoints: [
+        "Виды хобби — read books / magazines — читать книги/журналы",
+        "read books / magazines — читать книги/журналы",
+        "watch films / series — смотреть фильмы/сериалы",
+      ],
+      examples: [
+        "Skimming — быстрый просмотр заголовков и первого абзаца для понимания главной идеи текста.",
+        "Scanning — поиск конкретного имени или даты в тексте, не читая его целиком.",
+        "Слова-связки however (однако) и therefore (поэтому) помогают понять логическую структуру текста.",
+      ], correctAnswer: "the", hint: "play THE piano (instrument)" },
       { type: 'quiz', question: "In my free time I like ___ (read) books.", options: ["to reading", "reader", "read", "reading", "reads"], correctAnswer: "reading", hint: "like + V-ing" },
       { type: 'quiz', question: "He's fond ___ playing football.", options: ["in", "on", "of", "at", "Другой ответ"], correctAnswer: "of", hint: "fond of" },
       { type: 'quiz', question: "What do you do ___ your free time?", options: ["in", "on", "at", "for", "Другой ответ"], correctAnswer: "in", hint: "in your free time" }
@@ -1476,7 +1631,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "___ reading is for general understanding.", options: ["Detailed", "Scanning", "Skimming", "Intensive", "Другой ответ"], correctAnswer: "Skimming", hint: "Skimming = quick reading for gist" },
+      { type: 'quiz', question: "___ reading is for general understanding.", options: ["Detailed", "Scanning", "Skimming", "Intensive", "Другой ответ"],
+      keyPoints: [
+        "Виды чтения — Skimming (Просмотровое чтение):",
+        "Skimming (Просмотровое чтение) — Быстрое прочтение для общего понимания",
+        "Scanning (Поисковое чтение) — Поиск конкретной информации",
+      ],
+      examples: [
+        "Этапы проекта: подготовительный → планирование → исследовательский → практический → заключительный",
+        "Пояснительная записка включает: титульный лист, содержание, введение, основную часть, заключение, список литературы",
+        "Критерии оценки проекта: практическая значимость, новизна, качество изготовления, полнота раскрытия темы",
+      ], correctAnswer: "Skimming", hint: "Skimming = quick reading for gist" },
       { type: 'quiz', question: "___ reading is looking for specific information.", options: ["Detailed", "Scanning", "Skimming", "Extensive", "Другой ответ"], correctAnswer: "Scanning", hint: "Scanning = searching for details" },
       { type: 'quiz', question: "The three parts of a text are: Introduction, Body paragraphs, and ___.", options: ["Result", "Conclusion", "Output", "Summary", "Finish"], correctAnswer: "Conclusion", hint: "Text structure" },
       { type: 'quiz', question: "What does 'predicting' mean?", options: ["Guessing meaning from context", "Predicting content from title", "Finding keywords", "Understanding pronouns", "Другой ответ"], correctAnswer: "Predicting content from title", hint: "Before reading strategy" }

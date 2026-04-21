@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Фонетика и графика",
+          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson1.svg",
           description: `**Фонетика** — раздел языка о звуках речи.
 
 **Гласные звуки:**
@@ -66,6 +67,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Состав слова",
+          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson2.svg",
           description: `**Морфемика** — раздел о значимых частях слова.
 
 **Морфемы:**
@@ -128,6 +130,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Причастие как часть речи",
+          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson3.svg",
           description: `**Причастие** — часть речи, обозначающая признак предмета по действию.
 
 **Вопросы:**
@@ -188,6 +191,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Правописание причастий",
+          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson4.svg",
           description: `**Н и НН в причастиях:**
 
 **НН пишется:**
@@ -246,6 +250,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Деепричастие как часть речи",
+          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson5.svg",
           description: `**Деепричастие** — самостоятельная часть речи, обозначающая добавочное действие.
 
 **Вопросы:**
@@ -311,6 +316,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Наречие как часть речи",
+          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson6.svg",
           description: `**Наречие** — часть речи, обозначающая признак действия или признака.
 
 **Вопросы:**
@@ -373,6 +379,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Правописание наречий",
+          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson7.svg",
           description: `**Слитное написание:**
 - Приставка + наречие: досыта, наверху
 - Приставки в-, на-, за- + -о: вправо, направо
@@ -431,6 +438,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Фонетика и состав слова 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson8.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -445,6 +453,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Наречие: правила и usage 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson9.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -459,6 +468,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Фонетика и графика 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson10.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -473,6 +483,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Состав слова 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson11.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -488,6 +499,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Фонетика и состав слова 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson12.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -502,6 +514,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Наречие: правила и usage 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson13.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -516,6 +529,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Фонетика и графика 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson14.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -530,6 +544,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Состав слова 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson15.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -545,6 +560,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Причастие и деепричастие",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson16.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -559,6 +575,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Наречие",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson17.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -573,6 +590,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Фонетика и состав слова",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson18.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -587,6 +605,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Наречие: правила и usage",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson19.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -601,11 +620,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Фонетика и графика",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson20.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Сколько гласных звуков в русском языке?", options: ["10", "6", "8", "5", "Другой ответ"], correctAnswer: "6", hint: "[а], [о], [у], [ы], [э], [и]" },
+      { type: 'quiz', question: "Сколько гласных звуков в русском языке?", options: ["10", "6", "8", "5", "Другой ответ"],
+      keyPoints: [
+        "Фонетика — раздел науки о языке, изучающий звуки речи",
+        "Звуки делятся на гласные (6) и согласные (36)",
+        "Буквы и звуки — разные понятия: в русском языке 33 буквы и 42 звука",
+      ],
+      examples: [
+        "Подоконник = под- (приставка) + -окон- (корень) + -ник (суффикс) 📖",
+        "Корень — общая часть родственных слов: вода, водный, подводный",
+        "Окончание — изменяемая часть слова: дом, дома, дому",
+      ], correctAnswer: "6", hint: "[а], [о], [у], [ы], [э], [и]" },
       { type: 'quiz', question: "Сколько согласных звуков в русском языке?", options: ["21", "33", "36", "42", "Другой ответ"], correctAnswer: "36", hint: "Звонкие, глухие, твёрдые, мягкие" },
       { type: 'quiz', question: "Какие согласные всегда мягкие?", options: ["Ж, ш, ц", "Ч, щ, й", "Б, в, г", "Л, м, н", "Другой ответ"], correctAnswer: "Ч, щ, й", hint: "Три звука всегда мягкие" },
       { type: 'quiz', question: "Сколько букв в русском алфавите?", options: ["31", "32", "33", "34", "Другой ответ"], correctAnswer: "33", hint: "Букв больше, чем звуков" },
@@ -615,11 +645,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Состав слова",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson21.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Что такое корень слова?", options: ["Изменяемая часть", "Общая часть родственных слов", "Часть перед корнем", "Часть после корня", "Другой ответ"], correctAnswer: "Общая часть родственных слов", hint: "Общая значимая часть" },
+      { type: 'quiz', question: "Что такое корень слова?", options: ["Изменяемая часть", "Общая часть родственных слов", "Часть перед корнем", "Часть после корня", "Другой ответ"],
+      keyPoints: [
+        "Морфема — минимальная значимая часть слова: корень, приставка, суффикс, окончание",
+        "Корень — общая часть родственных слов (вод-а, вод-ный, подвод-ник)",
+        "Нулевое окончание — отсутствие видимого окончания при склонении (стол, конь)",
+      ],
+      examples: [
+        "Причастие обозначает признак предмета по действию: читающий ученик 📝",
+        "Действительное: читающий (сам читает), страдательное: читаемый (над ним читают)",
+        "-ущ-/-ющ- (I спр.), -ащ-/-ящ- (II спр.) — суффиксы действительных причастий",
+      ], correctAnswer: "Общая часть родственных слов", hint: "Общая значимая часть" },
       { type: 'quiz', question: "Какая морфема является изменяемой частью слова?", options: ["Корень", "Приставка", "Суффикс", "Окончание", "Другой ответ"], correctAnswer: "Окончание", hint: "Дом, дома, дому" },
       { type: 'quiz', question: "Что такое морфема?", options: ["Звук", "Буква", "Минимальная значимая часть слова", "Слог", "Другой ответ"], correctAnswer: "Минимальная значимая часть слова", hint: "Корень, приставка, суффикс, окончание" },
       { type: 'quiz', question: "Как называется часть слова перед корнем?", options: ["Окончание", "Суффикс", "Приставка", "Основа", "Другой ответ"], correctAnswer: "Приставка", hint: "При-, пере-, под-" },
@@ -629,11 +670,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Причастие как часть речи",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson22.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "На какой вопрос отвечает причастие?", options: ["Что делать?", "Какой?", "Где?", "Кто?", "Другой ответ"], correctAnswer: "Какой?", hint: "Какой? Какая? Какое?" },
+      { type: 'quiz', question: "На какой вопрос отвечает причастие?", options: ["Что делать?", "Какой?", "Где?", "Кто?", "Другой ответ"],
+      keyPoints: [
+        "Причастие — самостоятельная часть речи, объединяющая свойства прилагательного и глагола",
+        "Причастие отвечает на вопросы какой? какая? какое? какие?",
+        "Причастие обозначает признак предмета по действию: бегущий, прочитанный",
+      ],
+      examples: [
+        "НН: написанный (есть приставка на-), Н: печёный (нет приставки) ✏️",
+        "НЕ с полным причастием слитно, с кратким — раздельно: не прочитана",
+        "Суффикс -ем- (I спр.): читаемый, суффикс -им- (II спр.): любимый",
+      ], correctAnswer: "Какой?", hint: "Какой? Какая? Какое?" },
       { type: 'quiz', question: "Какие признаки причастие наследует от глагола?", options: ["Род, число, падеж", "Вид, время, возвратность", "Склонение", "Краткая форма", "Другой ответ"], correctAnswer: "Вид, время, возвратность", hint: "Глагольные признаки" },
       { type: 'quiz', question: "Какое причастие называется действительным?", options: ["Обозначает признак того, кто сам совершает действие", "Обозначает признак того, над кем совершают действие", "Отвечает на вопрос «что делать»", "Обозначает признак признака", "Другой ответ"], correctAnswer: "Обозначает признак того, кто сам совершает действие", hint: "Читающий, бегущий" },
       { type: 'quiz', question: "Какой суффикс имеют действительные причастия НВ I спряжения?", options: ["-ащ-/-ящ-", "-ем-/-ом-", "-ущ-/-ющ-", "-им-", "Другой ответ"], correctAnswer: "-ущ-/-ющ-", hint: "I спряжение глагола" },
@@ -643,11 +695,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Правописание причастий",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson23.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Когда в причастии пишется НН?", options: ["Нет приставки", "Есть приставка (кроме не-)", "Краткая форма", "Отглагольное прилагательное", "Другой ответ"], correctAnswer: "Есть приставка (кроме не-)", hint: "Написанный — есть приставка на-" },
+      { type: 'quiz', question: "Когда в причастии пишется НН?", options: ["Нет приставки", "Есть приставка (кроме не-)", "Краткая форма", "Отглагольное прилагательное", "Другой ответ"],
+      keyPoints: [
+        "Действительные причастия обозначают признак предмета, который сам совершает действие",
+        "Страдательные причастия обозначают признак предмета, на который направлено действие",
+        "Две Н пишутся в причастиях на -нн- при наличии приставок и от глаголов совершенного вида",
+      ],
+      examples: [
+        "Деепричастие отвечает на вопросы: что делая? что сделав? 🔤",
+        "НСВ: читать → читая, СВ: прочитать → прочитав, написать → написав",
+        "Деепричастный оборот выделяется запятыми на письме",
+      ], correctAnswer: "Есть приставка (кроме не-)", hint: "Написанный — есть приставка на-" },
       { type: 'quiz', question: "Когда НЕ с причастием пишется раздельно?", options: ["Без не не употребляется", "Есть зависимые слова", "Нет зависимых слов", "Полная форма", "Другой ответ"], correctAnswer: "Есть зависимые слова", hint: "Не прочитанная учеником книга" },
       { type: 'quiz', question: "Какой суффикс у страдательных причастий НВ II спряжения?", options: ["-ем-/-ом-", "-ущ-/-ющ-", "-им-", "-ащ-/-ящ-", "Другой ответ"], correctAnswer: "-им-", hint: "Любимый — II спряжение" },
       { type: 'quiz', question: "Как пишется НЕ с кратким причастием?", options: ["Слитно", "Раздельно", "Через дефис", "Зависит от контекста", "Другой ответ"], correctAnswer: "Раздельно", hint: "Книга не прочитана" },
@@ -657,11 +720,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Деепричастие как часть речи",
+    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson24.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "На какой вопрос отвечает деепричастие?", options: ["Какой?", "Что делая? Что сделав?", "Кто?", "Где?", "Другой ответ"], correctAnswer: "Что делая? Что сделав?", hint: "Вопросы добавочного действия" },
+      { type: 'quiz', question: "На какой вопрос отвечает деепричастие?", options: ["Какой?", "Что делая? Что сделав?", "Кто?", "Где?", "Другой ответ"],
+      keyPoints: [
+        "Деепричастие — самостоятельная часть речи, обозначающая добавочное действие",
+        "Деепричастие отвечает на вопросы что делая? что сделав?",
+        "Деепричастный оборот выделяется запятыми",
+      ],
+      examples: [
+        "Наречие не изменяется: не склоняется, не спрягается 📚",
+        "Разряды: образа действия (как?), места (где?), времени (когда?)",
+        "Он быстро бежал — быстро — наречие образа действия",
+      ], correctAnswer: "Что делая? Что сделав?", hint: "Вопросы добавочного действия" },
       { type: 'quiz', question: "От чего образуются деепричастия несовершенного вида?", options: ["Основы прошедшего времени", "Основы глагола + -а/-я", "Приставки + глагол", "Основа инфинитива + -в", "Другой ответ"], correctAnswer: "Основы глагола + -а/-я", hint: "Читать → читая" },
       { type: 'quiz', question: "Как называется деепричастие с зависимыми словами?", options: ["Причастный оборот", "Деепричастный оборот", "Словосочетание", "Однородные члены", "Другой ответ"], correctAnswer: "Деепричастный оборот", hint: "Выделяется запятыми" },
       { type: 'quiz', question: "Как образуется деепричастие совершенного вида от «прочитать»?", options: ["Прочитая", "Прочитав", "Прочитавши", "Прочитавшись", "Другой ответ"], correctAnswer: "Прочитав", hint: "Основы прошедшего времени + -в" },

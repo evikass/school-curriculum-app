@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Периодический закон Д.И. Менделеева",
+          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson1.svg",
           description: `**Периодический закон** — фундаментальный закон химии.
 
 **Открытие:**
@@ -59,6 +60,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Структура периодической системы",
+          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson2.svg",
           description: `**Структура таблицы Менделеева:**
 
 **Периоды:**
@@ -112,6 +114,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Металлы и неметаллы",
+          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson3.svg",
           description: `**Металлы** — элементы с металлическими свойствами.
 
 **Характерные свойства металлов:**
@@ -176,6 +179,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Типы химической связи",
+          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson4.svg",
           description: `**Химическая связь** — взаимодействие атомов.
 
 **Ионная связь:**
@@ -243,6 +247,7 @@ Na⁺ + Cl⁻ → NaCl
       lessons: [
         {
           title: "Типы химических реакций",
+          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson5.svg",
           description: `**Химическая реакция** — превращение одних веществ в другие.
 
 **Признаки химических реакций:**
@@ -296,6 +301,7 @@ Na⁺ + Cl⁻ → NaCl
         },
         {
           title: "Уравнения химических реакций",
+          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson6.svg",
           description: `**Химическое уравнение** — запись реакции с помощью формул.
 
 **Закон сохранения массы:**
@@ -356,6 +362,7 @@ CaCO₃ = CaO + CO₂
         },
         {
           title: "Скорость химических реакций",
+          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson7.svg",
           description: `**Скорость реакции** — изменение концентрации веществ в единицу времени.
 
 **Факторы, влияющие на скорость:**
@@ -412,6 +419,7 @@ CaCO₃ = CaO + CO₂
       lessons: [
         {
           title: "Кислоты и основания",
+          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson8.svg",
           description: `**Кислоты** — сложные вещества, содержащие атомы водорода.
 
 **Характерные свойства:**
@@ -467,6 +475,7 @@ HCl + NaOH = NaCl + H₂O
         },
         {
           title: "Оксиды и соли",
+          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson9.svg",
           description: `**Оксиды** — сложные вещества из двух элементов, один из которых кислород.
 
 **Классификация оксидов:**
@@ -533,6 +542,7 @@ Na₂CO₃ + 2HCl = 2NaCl + H₂O + CO₂
 export const games: GameLesson[] = [
   {
     title: "Периодическая система 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson10.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -547,6 +557,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Химические реакции 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson11.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -561,6 +572,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Вещества 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson12.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -575,6 +587,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Химическая связь 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson13.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -589,6 +602,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Структура периодической системы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson14.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -603,6 +617,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Уравнения химических реакций 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson15.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -617,6 +632,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Оксиды и соли 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson16.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -631,6 +647,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Металлы и неметаллы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson17.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -645,6 +662,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Скорость химических реакций 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson18.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -660,6 +678,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Периодическая система 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson19.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -674,6 +693,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Химические реакции 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson20.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -688,6 +708,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Вещества 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson21.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -702,6 +723,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Химическая связь 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson22.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -716,6 +738,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Структура периодической системы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson23.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -730,6 +753,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Уравнения химических реакций 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson24.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -744,6 +768,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Оксиды и соли 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson25.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -758,6 +783,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Металлы и неметаллы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson26.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -772,6 +798,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Скорость химических реакций 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson27.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -787,6 +814,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Периодическая система",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson28.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -801,6 +829,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Химические реакции",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson29.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -815,6 +844,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Вещества",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson30.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -829,6 +859,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Химическая связь",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson31.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -843,11 +874,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Структура периодической системы",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson32.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
     tasks: [
-      { type: 'quiz', question: "Что такое период в таблице Менделеева?", options: ["Вертикальный столбец", "Горизонтальный ряд элементов", "Одна клетка таблицы", "Строка с формулами", "Другой ответ"], correctAnswer: "Горизонтальный ряд элементов", hint: "7 периодов — горизонтальные ряды" },
+      { type: 'quiz', question: "Что такое период в таблице Менделеева?", options: ["Вертикальный столбец", "Горизонтальный ряд элементов", "Одна клетка таблицы", "Строка с формулами", "Другой ответ"],
+      keyPoints: [
+        "Период — горизонтальный ряд элементов с одинаковым числом электронных уровней",
+        "Группа — вертикальный столбец элементов с одинаковым числом валентных электронов",
+        "Номер периода равен числу энергетических уровней атома",
+      ],
+      examples: [
+        "Металлы: блеск, пластичность, электропроводность (Fe, Cu, Al) ⚡",
+        "Неметаллы: хрупкость, не проводят ток (O, N, S, Cl)",
+      ], correctAnswer: "Горизонтальный ряд элементов", hint: "7 периодов — горизонтальные ряды" },
       { type: 'quiz', question: "Чем отличаются малые периоды от больших?", options: ["Малые содержат 2 или 8 элементов, большие — 18 или 32", "Малые длиннее", "Большие содержат только 2 элемента", "Они одинаковы", "Другой ответ"], correctAnswer: "Малые содержат 2 или 8 элементов, большие — 18 или 32", hint: "1, 2, 3 периоды — малые; 4, 5, 6, 7 — большие" },
       { type: 'quiz', question: "Как изменяются металлические свойства в периоде слева направо?", options: ["Усиливаются", "Ослабевают", "Не изменяются", "Сначала усиливаются, потом ослабевают", "Другой ответ"], correctAnswer: "Ослабевают", hint: "В периоде слева направо металлические свойства уменьшаются" },
       { type: 'quiz', question: "Что такое главная подгруппа (А) в таблице?", options: ["Только переходные металлы", "Типичные элементы — s- и p-элементы", "Только газы", "Несуществующие элементы", "Другой ответ"], correctAnswer: "Типичные элементы — s- и p-элементы", hint: "IA — щелочные металлы, VIIA — галогены" },
@@ -857,11 +898,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Уравнения химических реакций",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson33.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
     tasks: [
-      { type: 'quiz', question: "Сформулируйте закон сохранения массы веществ", options: ["Масса продуктов больше массы реагентов", "Масса реагентов равна массе продуктов", "Масса всегда уменьшается", "Масса не имеет значения", "Другой ответ"], correctAnswer: "Масса реагентов равна массе продуктов", hint: "Масса не возникает и не исчезает" },
+      { type: 'quiz', question: "Сформулируйте закон сохранения массы веществ", options: ["Масса продуктов больше массы реагентов", "Масса реагентов равна массе продуктов", "Масса всегда уменьшается", "Масса не имеет значения", "Другой ответ"],
+      keyPoints: [
+        "Уравнение химической реакции показывает вещества-реагенты и продукты",
+        "Закон сохранения массы: масса реагентов равна массе продуктов",
+        "Коэффициенты уравнивают количество атомов каждого элемента",
+      ],
+      examples: [
+        "При повышении температуры на 10°C скорость реакции растёт в 2-4 раза 🌡️",
+        "Катализаторы ускоряют реакцию, не расходуясь (ферменты в организме)",
+      ], correctAnswer: "Масса реагентов равна массе продуктов", hint: "Масса не возникает и не исчезает" },
       { type: 'quiz', question: "Чем коэффициент отличается от индекса?", options: ["Это одно и то же", "Коэффициент ставится перед формулой, индекс — внутри", "Индекс ставится перед формулой", "Индексы можно менять при уравнивании", "Другой ответ"], correctAnswer: "Коэффициент ставится перед формулой, индекс — внутри", hint: "Индексы менять нельзя, только коэффициенты" },
       { type: 'quiz', question: "Подберите коэффициенты: Fe + Cl₂ → FeCl₃", options: ["2Fe + 3Cl₂ → 2FeCl₃", "Fe + Cl₂ → FeCl₃", "3Fe + 2Cl₂ → 3FeCl₂", "Fe + 3Cl₂ → FeCl₃", "Другой ответ"], correctAnswer: "2Fe + 3Cl₂ → 2FeCl₃", hint: "Fe: 2=2, Cl: 6=6" },
       { type: 'quiz', question: "Что можно менять при уравнивании реакции?", options: ["Только индексы", "Только коэффициенты", "И индексы, и коэффициенты", "Ничего", "Другой ответ"], correctAnswer: "Только коэффициенты", hint: "Индексы отражают состав вещества, их менять нельзя" },
@@ -871,11 +922,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Оксиды и соли",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson34.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
     tasks: [
-      { type: 'quiz', question: "Что такое оксид?", options: ["Соединение трёх элементов", "Сложное вещество из двух элементов, один из которых кислород", "Вещество с водородом", "Чистый элемент", "Другой ответ"], correctAnswer: "Сложное вещество из двух элементов, один из которых кислород", hint: "Состоит из элемента и кислорода (CO₂, Fe₂O₃)" },
+      { type: 'quiz', question: "Что такое оксид?", options: ["Соединение трёх элементов", "Сложное вещество из двух элементов, один из которых кислород", "Вещество с водородом", "Чистый элемент", "Другой ответ"],
+      keyPoints: [
+        "Оксиды — соединения элемента с кислородом (CO₂, Fe₂O₃)",
+        "Соли — продукты замещения атомов водорода в кислоте на металл",
+        "Основные и кислотные оксиды по-разному реагируют с водой",
+      ],
+      examples: [
+        "print('Привет, мир!') — первая программа на Python 💻",
+        "Python был создан Гвидо ван Россумом в 1991 году",
+        "IDE — интегрированная среда разработки (VS Code, PyCharm)",
+      ], correctAnswer: "Сложное вещество из двух элементов, один из которых кислород", hint: "Состоит из элемента и кислорода (CO₂, Fe₂O₃)" },
       { type: 'quiz', question: "Какой оксид является кислотным?", options: ["CaO", "Na₂O", "CO₂", "FeO", "Другой ответ"], correctAnswer: "CO₂", hint: "Оксид неметалла — кислотный оксид" },
       { type: 'quiz', question: "Что такое соль?", options: ["Соединение металла и кислотного остатка", "Вещество с кислородом", "Оксид металла", "Чистый неметалл", "Другой ответ"], correctAnswer: "Соединение металла и кислотного остатка", hint: "NaCl, CaSO₄, KNO₃ — примеры солей" },
       { type: 'quiz', question: "Какой оксид является амфотерным?", options: ["CO₂", "Na₂O", "ZnO", "SO₃", "Другой ответ"], correctAnswer: "ZnO", hint: "Амфотерные оксиды проявляют свойства и кислот, и оснований" },
@@ -885,11 +947,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Металлы и неметаллы",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson35.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
     tasks: [
-      { type: 'quiz', question: "Какие свойства характерны для металлов?", options: ["Хрупкость, не проводят ток", "Блеск, пластичность, электропроводность", "Кислая среда, летучесть", "Яркая окраска, прозрачность", "Другой ответ"], correctAnswer: "Блеск, пластичность, электропроводность", hint: "Металлы можно ковать, они проводят электричество" },
+      { type: 'quiz', question: "Какие свойства характерны для металлов?", options: ["Хрупкость, не проводят ток", "Блеск, пластичность, электропроводность", "Кислая среда, летучесть", "Яркая окраска, прозрачность", "Другой ответ"],
+      keyPoints: [
+        "Металлы находятся слева и внизу периодической таблицы",
+        "Неметаллы находятся справа и вверху периодической таблицы",
+        "Элементы-амфотеры (Al, Zn) проявляют свойства и металлов, и неметаллов",
+      ],
+      examples: [
+        "NaCl — ионная связь (металл + неметалло, передача электронов) 🔗",
+        "H₂O — ковалентная полярная связь (между разными неметаллами)",
+      ], correctAnswer: "Блеск, пластичность, электропроводность", hint: "Металлы можно ковать, они проводят электричество" },
       { type: 'quiz', question: "Где в таблице Менделеева расположены металлы?", options: ["Справа вверху", "Левая и нижняя часть таблицы", "Только в первом периоде", "Только в побочных подгруппах", "Другой ответ"], correctAnswer: "Левая и нижняя часть таблицы", hint: "Большинство элементов — металлы" },
       { type: 'quiz', question: "Какие свойства характерны для неметаллов?", options: ["Металлический блеск, ковкость", "Хрупкость, не проводят электрический ток", "Пластичность, электропроводность", "Магнитные свойства", "Другой ответ"], correctAnswer: "Хрупкость, не проводят электрический ток", hint: "Неметаллы отличаются от металлов физическими свойствами" },
       { type: 'quiz', question: "К каким элементам относятся кремний и германий?", options: ["Металлам", "Неметаллам", "Полупроводникам", "Инертным газам", "Другой ответ"], correctAnswer: "Полупроводникам", hint: "Занимают промежуточное положение между металлами и неметаллами" },
@@ -899,11 +971,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Скорость химических реакций",
+    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson36.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
     tasks: [
-      { type: 'quiz', question: "Во сколько раз увеличивается скорость реакции при повышении температуры на 10°C?", options: ["В 1,5 раза", "В 2–4 раза", "В 10 раз", "В 100 раз", "Другой ответ"], correctAnswer: "В 2–4 раза", hint: "Правило Вант-Гоффа" },
+      { type: 'quiz', question: "Во сколько раз увеличивается скорость реакции при повышении температуры на 10°C?", options: ["В 1,5 раза", "В 2–4 раза", "В 10 раз", "В 100 раз", "Другой ответ"],
+      keyPoints: [
+        "Скорость реакции зависит от концентрации, температуры и площади поверхности",
+        "Катализатор ускоряет реакцию, не расходуясь в процессе",
+        "При повышении температуры на 10 °C скорость реакции увеличивается в 2–3 раза",
+      ],
+      examples: [
+        "HCl + NaOH = NaCl + H₂O — реакция нейтрализации ⚗️",
+        "Лакмус в кислоте красный, в щёлочи — синий",
+      ], correctAnswer: "В 2–4 раза", hint: "Правило Вант-Гоффа" },
       { type: 'quiz', question: "Что такое катализатор?", options: ["Вещество, замедляющее реакцию", "Вещество, ускоряющее реакцию и не расходующееся", "Реагент, который расходуется", "Продукт реакции", "Другой ответ"], correctAnswer: "Вещество, ускоряющее реакцию и не расходующееся", hint: "Ферменты в организме — пример катализаторов" },
       { type: 'quiz', question: "Почему порошок реагирует быстрее, чем кусок того же вещества?", options: ["Порошок холоднее", "Больше площадь поверхности контакта", "Порошок содержит катализатор", "Кусок тяжелее", "Другой ответ"], correctAnswer: "Больше площадь поверхности контакта", hint: "Больше поверхность — больше столкновений частиц" },
       { type: 'quiz', question: "Как называется вещество, замедляющее химическую реакцию?", options: ["Катализатор", "Ингибитор", "Индикатор", "Растворитель", "Другой ответ"], correctAnswer: "Ингибитор", hint: "Антиоксиданты — пример ингибиторов" },

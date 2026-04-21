@@ -991,6 +991,7 @@ const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Механические передачи 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/robotics/lesson1.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "#8B5CF6",
@@ -1005,6 +1006,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Датчики и двигатели 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/robotics/lesson2.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "#8B5CF6",
@@ -1019,6 +1021,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Создание робота 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/robotics/lesson3.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "#8B5CF6",
@@ -1033,6 +1036,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Мобильные роботы 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/robotics/lesson4.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "#8B5CF6",
@@ -1047,6 +1051,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Манипуляторы 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/robotics/lesson5.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "#8B5CF6",
@@ -1061,6 +1066,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Основы механики 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/robotics/lesson6.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "#8B5CF6",
@@ -1075,6 +1081,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Двигатели в робототехнике 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/robotics/lesson7.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "#8B5CF6",
@@ -1089,6 +1096,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Электрические схемы 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/robotics/lesson8.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "#8B5CF6",
@@ -1103,6 +1111,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Датчики 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/robotics/lesson9.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "#8B5CF6",
@@ -1117,6 +1126,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Механические узлы 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/robotics/lesson10.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "#8B5CF6",
@@ -1131,6 +1141,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Программирование 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/robotics/lesson11.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "#8B5CF6",
@@ -1145,6 +1156,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Среда программирования 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/robotics/lesson12.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "#8B5CF6",
@@ -1544,7 +1556,12 @@ export const games: GameLesson[] = [
     icon: "Cpu",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: "Какая передача позволяет увеличивать силу?", options: ["Повышающая", "Понижающая", "Прямая", "Ремённая", "Другой ответ"], correctAnswer: "Понижающая", hint: "При уменьшении скорости увеличивается сила" },
+      { type: 'quiz', question: "Какая передача позволяет увеличивать силу?", options: ["Повышающая", "Понижающая", "Прямая", "Ремённая", "Другой ответ"],
+      keyPoints: [
+        "Механические передачи преобразуют скорость и силу вращения",
+        "Зубчатая передача уменьшает скорость и увеличивает силу",
+        "Ремённая и цепная передачи передают движение на расстояние",
+      ], correctAnswer: "Понижающая", hint: "При уменьшении скорости увеличивается сила" },
       { type: 'find', question: "Выбери виды механических передач:", options: ["Зубчатая", "Ремённая", "Цепная", "Электрическая", "Червячная"], correctAnswer: ["Зубчатая", "Ремённая", "Цепная", "Червячная"], hint: "Эти передачи передают механическое движение" },
       { type: 'quiz', question: "Что определяет передаточное отношение?", options: ["Цвет шестерён", "Отношение чисел зубьев", "Размер двигателя", "Длина оси", "Другой ответ"], correctAnswer: "Отношение чисел зубьев", hint: "Больше шестерня к меньшей даёт отношение" },
       { type: 'quiz', question: "Передача, в которой используются зубчатые колёса, называется зубчатая.", options: ["зубчатая", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "зубчатая", hint: "Зубья колёс сцепляются друг с другом" }

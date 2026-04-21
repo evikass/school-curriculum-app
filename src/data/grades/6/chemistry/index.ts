@@ -639,6 +639,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O
 export const games: GameLesson[] = [
   {
     title: "Атомы и молекулы 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/chemistry/lesson1.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -653,6 +654,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Агрегатные состояния 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/chemistry/lesson2.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -667,6 +669,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Химические элементы 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/chemistry/lesson3.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -681,6 +684,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Строение атома 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/chemistry/lesson4.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -695,6 +699,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Периодическая таблица 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/chemistry/lesson5.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -709,6 +714,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Химические формулы 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/chemistry/lesson6.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -723,6 +729,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Лабораторная посуда 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/chemistry/lesson7.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -737,6 +744,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Химические реакции 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/chemistry/lesson8.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -751,6 +759,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Кислоты и основания 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/chemistry/lesson9.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -765,6 +774,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Итоговое занятие 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/chemistry/lesson10.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -780,6 +790,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Основы химии",
+    image: "/school-curriculum-app/images/lessons/grade6/chemistry/lesson11.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -811,6 +822,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Элементы и формулы",
+    image: "/school-curriculum-app/images/lessons/grade6/chemistry/lesson12.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",

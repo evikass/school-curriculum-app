@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Что такое программирование",
+          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson1.svg",
           description: `**Программирование** — процесс создания инструкций для компьютера.
 
 **Основные понятия:**
@@ -74,6 +75,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Первая программа",
+          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson2.svg",
           description: `**Первая программа на Python:**
 
 **Hello World:**
@@ -144,6 +146,7 @@ print("Привет")  # Тоже комментарий
       lessons: [
         {
           title: "Переменные в Python",
+          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson3.svg",
           description: `**Переменная** — именованная область памяти для хранения данных.
 
 **Создание переменной:**
@@ -202,6 +205,7 @@ x = y = z = 0
         },
         {
           title: "Типы данных",
+          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson4.svg",
           description: `**Основные типы данных в Python:**
 
 **Целые числа (int):**
@@ -283,6 +287,7 @@ length = len(full)  # 10
       lessons: [
         {
           title: "Условный оператор if",
+          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson5.svg",
           description: `**Условный оператор** — выполняет код при выполнении условия.
 
 **Базовый синтаксис:**
@@ -352,6 +357,7 @@ else:
         },
         {
           title: "Логические операторы",
+          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson6.svg",
           description: `**Логические операторы:**
 
 **and (И):**
@@ -432,6 +438,7 @@ if age >= 18 and has_license:
       lessons: [
         {
           title: "Цикл for",
+          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson7.svg",
           description: `**Цикл for** — перебор последовательности.
 
 **Синтаксис:**
@@ -495,6 +502,7 @@ print(total)  # 5050
         },
         {
           title: "Цикл while",
+          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson8.svg",
           description: `**Цикл while** — выполняется, пока условие истинно.
 
 **Синтаксис:**
@@ -576,6 +584,7 @@ while True:
 export const games: GameLesson[] = [
   {
     title: "Что такое программирование 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson9.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -590,6 +599,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Первая программа 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson10.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -604,6 +614,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Переменные в Python 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson11.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -618,6 +629,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Типы данных 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson12.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -632,6 +644,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Условный оператор if 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson13.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -646,6 +659,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Логические операторы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson14.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -660,6 +674,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Цикл for 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson15.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -674,6 +689,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Цикл while 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson16.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -689,6 +705,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Что такое программирование 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson17.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -703,6 +720,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Первая программа 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson18.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -717,6 +735,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Переменные в Python 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson19.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -731,6 +750,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Типы данных 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson20.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -745,6 +765,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Условный оператор if 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson21.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -759,6 +780,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Логические операторы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson22.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -773,6 +795,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Цикл for 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson23.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -787,6 +810,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Цикл while 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson24.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -802,6 +826,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Основы Python",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson25.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -816,6 +841,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Переменные и функции",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson26.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -830,6 +856,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Циклы",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson27.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -844,11 +871,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Условия и ветвления",
+    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson28.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Как записывается оператор «не равно» в Python?", options: ["<>", "!=", "=/=", "<>", "Другой ответ"], correctAnswer: "!=", hint: "Состоит из восклицательного знака и знака равенства" },
+      { type: 'quiz', question: "Как записывается оператор «не равно» в Python?", options: ["<>", "!=", "=/=", "<>", "Другой ответ"],
+      keyPoints: [
+        "Условный оператор (if/else) позволяет программе выбирать действие",
+        "Операторы сравнения: ==, !=, >, <, >=, <=",
+        "Логические операторы: and, or, not для сложных условий",
+      ],
+      examples: [
+        "for i in range(5): print(i) — выведет 0, 1, 2, 3, 4 🔄",
+        "while count < 5: — цикл выполняется, пока условие истинно",
+        "break — выход из цикла, continue — переход к следующей итерации",
+      ], correctAnswer: "!=", hint: "Состоит из восклицательного знака и знака равенства" },
       { type: 'quiz', question: "Что произойдёт, если условие в if ложно и есть блок else?", options: ["Программа завершится с ошибкой", "Выполнится блок else", "Ничего не произойдёт", "Программа начнётся заново", "Другой ответ"], correctAnswer: "Выполнится блок else", hint: "Блок else выполняется, когда условие if не выполняется" },
       { type: 'quiz', question: "Что делает логический оператор and?", options: ["Хотя бы одно условие истинно", "Оба условия должны быть истинны", "Отрицает условие", "Сравнивает строки", "Другой ответ"], correctAnswer: "Оба условия должны быть истинны", hint: "and — логическое И: результат истинен только когда оба условия истинны" },
       { type: 'quiz', question: "Какое значение у выражения (True or False)?", options: ["False", "True", "None", "Error", "Другой ответ"], correctAnswer: "True", hint: "or — логическое ИЛИ: достаточно хотя бы одного истинного условия" },
@@ -862,7 +900,16 @@ export const games: GameLesson[] = [
     icon: "Code",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Что такое программирование?", options: ["Создание инструкций для компьютера", "Сборка компьютера", "Ремонт техники", "Настройка интернета", "Другой ответ"], correctAnswer: "Создание инструкций для компьютера", hint: "Это процесс создания команд для компьютера" },
+      { type: 'quiz', question: "Что такое программирование?", options: ["Создание инструкций для компьютера", "Сборка компьютера", "Ремонт техники", "Настройка интернета", "Другой ответ"],
+      keyPoints: [
+        "Программирование — процесс создания инструкций для компьютера",
+        "Программист пишет код на языке программирования, компьютер его выполняет",
+        "Python, JavaScript, C++ — популярные языки программирования",
+      ],
+      examples: [
+        "Привет, мир!",
+        "# Это комментарий — он игнорируется при выполнении программы",
+      ], correctAnswer: "Создание инструкций для компьютера", hint: "Это процесс создания команд для компьютера" },
       { type: 'quiz', question: "Что такое алгоритм?", options: ["Бесконечный набор команд", "Пошаговая инструкция для решения задачи", "Язык программирования", "Тип данных", "Другой ответ"], correctAnswer: "Пошаговая инструкция для решения задачи", hint: "Должен быть конечным и точным" },
       { type: 'quiz', question: "Какой язык программирования используется для веб-сайтов?", options: ["C++", "Python", "JavaScript", "Java", "Другой ответ"], correctAnswer: "JavaScript", hint: "Этот язык работает в браузере" },
       { type: 'quiz', question: "Какая среда разработки (IDE) бесплатная и популярная?", options: ["PyCharm Professional", "IntelliJ IDEA", "VS Code", "Xcode", "Другой ответ"], correctAnswer: "VS Code", hint: "Много расширений, бесплатный" },
@@ -876,7 +923,16 @@ export const games: GameLesson[] = [
     icon: "Code",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Что делает функция print() в Python?", options: ["Считывает ввод", "Выводит текст на экран", "Создаёт файл", "Завершает программу", "Другой ответ"], correctAnswer: "Выводит текст на экран", hint: "Одна из самых используемых функций" },
+      { type: 'quiz', question: "Что делает функция print() в Python?", options: ["Считывает ввод", "Выводит текст на экран", "Создаёт файл", "Завершает программу", "Другой ответ"],
+      keyPoints: [
+        "Первая программа на Python: print('Hello, World!')",
+        "Функция print() выводит текст на экран",
+        "Код выполняется последовательно, строка за строкой",
+      ],
+      examples: [
+        "x = 5 — присваивание значения переменной, x += 1 — увеличение на 1",
+        "Имена переменных: начинаются с буквы или _, регистрозависимы",
+      ], correctAnswer: "Выводит текст на экран", hint: "Одна из самых используемых функций" },
       { type: 'quiz', question: "С каким расширением сохраняются файлы Python?", options: [".txt", ".py", ".java", ".exe", "Другой ответ"], correctAnswer: ".py", hint: "Расширение файлов языка Python" },
       { type: 'quiz', question: "Как записывается комментарий в Python?", options: ["// комментарий", "/* комментарий */", "# комментарий", "-- комментарий", "Другой ответ"], correctAnswer: "# комментарий", hint: "Символ решётки" },
       { type: 'quiz', question: "Чем синтаксическая ошибка отличается от логической?", options: ["Они одинаковы", "Синтаксическая — нарушение правил языка, логическая — неправильный алгоритм", "Синтаксическая — неправильный алгоритм", "Логическая — нарушение правил языка", "Другой ответ"], correctAnswer: "Синтаксическая — нарушение правил языка, логическая — неправильный алгоритм", hint: "Синтаксическая не даёт запустить программу" },
@@ -890,7 +946,16 @@ export const games: GameLesson[] = [
     icon: "Code",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Что такое переменная в Python?", options: ["Константа", "Именованная область памяти для хранения данных", "Функция", "Тип данных", "Другой ответ"], correctAnswer: "Именованная область памяти для хранения данных", hint: "Хранилище, значение которого может меняться" },
+      { type: 'quiz', question: "Что такое переменная в Python?", options: ["Константа", "Именованная область памяти для хранения данных", "Функция", "Тип данных", "Другой ответ"],
+      keyPoints: [
+        "Переменная — именованное хранилище данных, значение которого может меняться",
+        "Имя переменной должно начинаться с буквы или подчёркивания",
+        "Оператор присваивания: x = 10 сохраняет число 10 в переменную x",
+      ],
+      examples: [
+        "int (целые), float (дробные), str (строки), bool (логические) 📦",
+        "len('Hello') = 5 — функция len() возвращает длину строки",
+      ], correctAnswer: "Именованная область памяти для хранения данных", hint: "Хранилище, значение которого может меняться" },
       { type: 'quiz', question: "Может ли имя переменной начинаться с цифры?", options: ["Да", "Нет", "Только с 0", "Только с 1", "Другой ответ"], correctAnswer: "Нет", hint: "Имя должно начинаться с буквы или _" },
       { type: 'quiz', question: "Что делает оператор = в Python?", options: ["Сравнивает значения", "Присваивает значение переменной", "Проверяет равенство", "Складывает числа", "Другой ответ"], correctAnswer: "Присваивает значение переменной", hint: "Оператор присваивания" },
       { type: 'quiz', question: "Чему равно x после выполнения x = 5; x += 1?", options: ["5", "6", "1", "0", "Другой ответ"], correctAnswer: "6", hint: "x += 1 то же самое, что x = x + 1" },
@@ -904,7 +969,16 @@ export const games: GameLesson[] = [
     icon: "Code",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Какой тип данных используется для целых чисел в Python?", options: ["float", "str", "int", "bool", "Другой ответ"], correctAnswer: "int", hint: "От слова integer (целое)" },
+      { type: 'quiz', question: "Какой тип данных используется для целых чисел в Python?", options: ["float", "str", "int", "bool", "Другой ответ"],
+      keyPoints: [
+        "Типы данных в Python: int (целые), float (дробные), str (строки), bool (логические)",
+        "type() определяет тип переменной",
+        "Типы можно преобразовывать: int('5') → 5, str(10) → '10'",
+      ],
+      examples: [
+        "if age >= 18: print('Совершеннолетний') — условие с отступами 🔄",
+        "Операторы сравнения: ==, !=, >, <, >=, <=",
+      ], correctAnswer: "int", hint: "От слова integer (целое)" },
       { type: 'quiz', question: "Что возвращает функция len('Hello')?", options: ["4", "5", "6", "Hello", "Другой ответ"], correctAnswer: "5", hint: "Количество символов в строке" },
       { type: 'quiz', question: "Какой тип данных хранит значения True и False?", options: ["int", "str", "float", "bool", "Другой ответ"], correctAnswer: "bool", hint: "Логический тип данных" },
       { type: 'quiz', question: "Какой результат выражения 10 // 3?", options: ["3.33", "3", "1", "4", "Другой ответ"], correctAnswer: "3", hint: "Целочисленное деление" },
@@ -918,7 +992,16 @@ export const games: GameLesson[] = [
     icon: "Code",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Какой оператор используется для проверки условия в Python?", options: ["for", "while", "if", "def", "Другой ответ"], correctAnswer: "if", hint: "Условный оператор" },
+      { type: 'quiz', question: "Какой оператор используется для проверки условия в Python?", options: ["for", "while", "if", "def", "Другой ответ"],
+      keyPoints: [
+        "Условный оператор if позволяет программе выбирать действие",
+        "Синтаксис: if условие: блок кода (с отступом)",
+        "else выполняется, если условие ложно; elif — для нескольких условий",
+      ],
+      examples: [
+        "and — оба условия истинны, or — хотя бы одно, not — отрицание",
+        "True and False = False, True or False = True",
+      ], correctAnswer: "if", hint: "Условный оператор" },
       { type: 'quiz', question: "Как записывается «меньше или равно» в Python?", options: ["=<", "<=", ">>", "<<", "Другой ответ"], correctAnswer: "<=", hint: "Сначала знак меньше, потом равно" },
       { type: 'quiz', question: "Что произойдёт, если условие в if ложно и есть блок else?", options: ["Программа завершится с ошибкой", "Выполнится блок else", "Ничего не произойдёт", "Программа начнётся заново", "Другой ответ"], correctAnswer: "Выполнится блок else", hint: "Блок else — альтернативный вариант" },
       { type: 'quiz', question: "Какая конструкция используется для проверки нескольких условий?", options: ["if-for", "if-elif-else", "while-if", "for-else", "Другой ответ"], correctAnswer: "if-elif-else", hint: "elif позволяет добавить дополнительные условия" },
@@ -932,7 +1015,16 @@ export const games: GameLesson[] = [
     icon: "Code",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Что делает оператор and?", options: ["Истинно, если хотя бы одно условие истинно", "Истинно, если оба условия истинны", "Отрицает условие", "Сравнивает строки", "Другой ответ"], correctAnswer: "Истинно, если оба условия истинны", hint: "Логическое И" },
+      { type: 'quiz', question: "Что делает оператор and?", options: ["Истинно, если хотя бы одно условие истинно", "Истинно, если оба условия истинны", "Отрицает условие", "Сравнивает строки", "Другой ответ"],
+      keyPoints: [
+        "Логические операторы: and, or, not для объединения условий",
+        "and — оба условия истинны; or — хотя бы одно истинно",
+        "not — инвертирует значение: not True = False",
+      ],
+      examples: [
+        "range(5) даёт числа 0, 1, 2, 3, 4 — перебор последовательности 🔁",
+        "for letter in 'Hello': print(letter) — перебор символов строки",
+      ], correctAnswer: "Истинно, если оба условия истинны", hint: "Логическое И" },
       { type: 'quiz', question: "Какое значение у выражения True or False?", options: ["False", "True", "None", "Error", "Другой ответ"], correctAnswer: "True", hint: "or — хотя бы одно истинно" },
       { type: 'quiz', question: "Что делает оператор not?", options: ["Объединяет условия", "Отрицает (инвертирует) условие", "Сравнивает значения", "Создаёт цикл", "Другой ответ"], correctAnswer: "Отрицает (инвертирует) условие", hint: "not True = False" },
       { type: 'quiz', question: "Какое значение у выражения True and False?", options: ["True", "False", "None", "1", "Другой ответ"], correctAnswer: "False", hint: "and — оба должны быть истинны" },
@@ -946,7 +1038,16 @@ export const games: GameLesson[] = [
     icon: "Code",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Что делает range(5)?", options: ["Генерирует числа 1, 2, 3, 4, 5", "Генерирует числа 0, 1, 2, 3, 4", "Генерирует число 5", "Создаёт список из 5 элементов", "Другой ответ"], correctAnswer: "Генерирует числа 0, 1, 2, 3, 4", hint: "От 0 до n-1" },
+      { type: 'quiz', question: "Что делает range(5)?", options: ["Генерирует числа 1, 2, 3, 4, 5", "Генерирует числа 0, 1, 2, 3, 4", "Генерирует число 5", "Создаёт список из 5 элементов", "Другой ответ"],
+      keyPoints: [
+        "Цикл for повторяет код заданное количество раз",
+        "range(n) генерирует числа от 0 до n-1",
+        "Переменная цикла последовательно принимает значения из последовательности",
+      ],
+      examples: [
+        "while count < 5: — выполняется пока условие истинно ⏱️",
+        "break — выход из цикла, continue — пропуск итерации",
+      ], correctAnswer: "Генерирует числа 0, 1, 2, 3, 4", hint: "От 0 до n-1" },
       { type: 'quiz', question: "Сколько чисел создаст range(1, 6)?", options: ["5", "6", "4", "7", "Другой ответ"], correctAnswer: "5", hint: "Числа: 1, 2, 3, 4, 5" },
       { type: 'quiz', question: "Как перебрать символы строки в Python?", options: ["for letter in", "for i in len(str)", "for char of", "while True", "for i in range()"], correctAnswer: "for letter in 'Hello'", hint: "Цикл for с переменной и строкой" },
       { type: 'quiz', question: "Что выведет цикл: for i in range(3): print(i)?", options: ["1, 2, 3", "0, 1, 2", "0, 1, 2, 3", "3, 2, 1", "Другой ответ"], correctAnswer: "0, 1, 2", hint: "range(3) даёт числа от 0 до 2" },
@@ -960,7 +1061,17 @@ export const games: GameLesson[] = [
     icon: "Code",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: "Когда заканчивается цикл while?", options: ["После 100 итераций", "Когда условие становится ложным", "Когда переменная равна 0", "Никогда", "Другой ответ"], correctAnswer: "Когда условие становится ложным", hint: "Цикл выполняется, пока условие истинно" },
+      { type: 'quiz', question: "Когда заканчивается цикл while?", options: ["После 100 итераций", "Когда условие становится ложным", "Когда переменная равна 0", "Никогда", "Другой ответ"],
+      keyPoints: [
+        "Цикл while выполняется, пока условие истинно",
+        "while условие: блок кода — условие проверяется перед каждой итерацией",
+        "break прерывает цикл, continue переходит к следующей итерации",
+      ],
+      examples: [
+        "Человек — биосоциальное существо: имеет биологическую природу и живёт в обществе 👤",
+        "Личность формируется в обществе — характер, темперамент, способности",
+        "Индивидуальность — неповторимое сочетание качеств, отличающее человека",
+      ], correctAnswer: "Когда условие становится ложным", hint: "Цикл выполняется, пока условие истинно" },
       { type: 'quiz', question: "Что делает оператор break?", options: ["Пропускает итерацию", "Выходит из цикла", "Продолжает цикл", "Останавливает программу", "Другой ответ"], correctAnswer: "Выходит из цикла", hint: "Прерывает выполнение цикла" },
       { type: 'quiz', question: "Что делает оператор continue?", options: ["Выходит из цикла", "Пропускает текущую итерацию", "Начинает программу заново", "Останавливает программу", "Другой ответ"], correctAnswer: "Пропускает текущую итерацию", hint: "Переходит к следующей итерации" },
       { type: 'quiz', question: "Какой цикл может быть бесконечным?", options: ["while True", "for i in range(10)", "for letter in", "for x in list", "while x > 0"], correctAnswer: "while True", hint: "Условие всегда истинно" },

@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Приветствие и прощание",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson1.svg",
           description: `## Приветствие и прощание 👋
 
 # Способы приветствия
@@ -64,10 +65,23 @@ export const lessons: SubjectData = {
             "Представлять себя и других",
             "Использовать вежливые фразы",
             "Различать формальный и неформальный стиль"
+          ],
+          keyPoints: [
+            "Hello/Hi — неформальные приветствия для друзей",
+            "Good morning/afternoon/evening — формальные приветствия по времени суток",
+            "Good night — используется только при прощании вечером",
+            "Nice to meet you — фраза для первого знакомства",
+            "Thank you / Please — вежливые слова в общении",
+          ],
+          examples: [
+            "— Hello! My name is Sasha. Nice to meet you!",
+            "— Good morning! How are you? — I am fine, thanks!",
+            "Сказать Hello учителю при входе в класс 👋",
           ]
         },
         {
           title: "Урок 2: Личная информация",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson2.svg",
           description: `## Личная информация 📝
 
 # Вопросы о человеке
@@ -135,10 +149,23 @@ export const lessons: SubjectData = {
             "Задавать вопросы о человеке",
             "Использовать числительные",
             "Заполнять анкету на английском"
+          ],
+          keyPoints: [
+            "What is your name? — вопрос для знакомства",
+            "I am ... years old — как сказать свой возраст",
+            "Числительные от 1 до 100 нужны для ответов",
+            "I'm = I am — сокращённая форма глагола",
+            "Where are you from? — вопрос о происхождении",
+          ],
+          examples: [
+            "— What is your name? — My name is Alex.",
+            "— How old are you? — I am eleven years old.",
+            "Заполнить анкету с личными данными на английском",
           ]
         },
         {
           title: "Урок 3: Страны и национальности",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson3.svg",
           description: `## Страны и национальности 🌍
 
 # Страны и национальности
@@ -200,10 +227,23 @@ export const lessons: SubjectData = {
             "Спрашивать о происхождении",
             "Различать страну и национальность",
             "Работать с картой мира"
+          ],
+          keyPoints: [
+            "I am from + страна — как сказать, откуда ты",
+            "I am + национальность — как сказать национальность",
+            "Страны и национальности часто отличаются по форме",
+            "Названия стран пишутся с большой буквы на английском",
+            "Moscow is the capital of Russia — конструкция для столицы",
+          ],
+          examples: [
+            "— I am from Russia. I am Russian.",
+            "— Where are you from? — I am from Moscow.",
+            "Moscow is the capital of Russia 🇷🇺",
           ]
         },
         {
           title: "Урок 4: Профессии",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson4.svg",
           description: `## Профессии 💼
 
 # Названия профессий
@@ -269,6 +309,18 @@ export const lessons: SubjectData = {
             "Обсуждать будущую профессию",
             "Образовывать названия профессий",
             "Говорить о профессиях семьи"
+          ],
+          keyPoints: [
+            "Суффиксы -er, -or, -ist образуют названия профессий",
+            "Перед профессией ставится артикль a/an",
+            "an используется перед гласной (an actor, an engineer)",
+            "I want to be a... — как сказать о будущей профессии",
+            "What does your father do? — вопрос о профессии родителя",
+          ],
+          examples: [
+            "— I want to be a doctor. — That is a great idea!",
+            "She wants to be an actress — она хочет быть актрисой",
+            "Суффикс -er: teach→teacher, drive→driver",
           ]
         }
       ]
@@ -278,6 +330,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Погода и времена года",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson5.svg",
           description: `## Погода и времена года 🌤️
 
 # Времена года
@@ -347,10 +400,23 @@ export const lessons: SubjectData = {
             "Обсуждать климат",
             "Понимать прогноз погоды",
             "Описывать погоду в разные сезоны"
+          ],
+          keyPoints: [
+            "Четыре сезона: winter, spring, summer, autumn",
+            "It is + прилагательное — описание погоды (It is sunny)",
+            "It's raining / It's snowing — процесс в данный момент",
+            "It's rainy / It's snowy — состояние погоды",
+            "What is the weather like today? — вопрос о погоде",
+          ],
+          examples: [
+            "It is sunny and warm today — солнечно и тепло",
+            "Winter, spring, summer, autumn — четыре сезона",
+            "— What is the weather like? — It is raining ⛈️",
           ]
         },
         {
           title: "Урок 6: Природа и животные",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson6.svg",
           description: `## Природа и животные 🦁
 
 # Дикие животные (Wild Animals)
@@ -430,10 +496,23 @@ export const lessons: SubjectData = {
             "Обсуждать охрану природы",
             "Рассказывать о любимом животном",
             "Сравнивать животных"
+          ],
+          keyPoints: [
+            "Животные делятся на диких (wild) и домашних (domestic)",
+            "It has got... — описание особенностей животного",
+            "It can... — описание умений животного",
+            "It lives in... — описание среды обитания",
+            "big/small, fast/slow, strong/clever — прилагательные для описания",
+          ],
+          examples: [
+            "A lion is big and strong. It lives in Africa.",
+            "It has got four legs and a long tail — у неё четыре лапы",
+            "Кошка — домашнее животное, тигр — дикое",
           ]
         },
         {
           title: "Урок 7: В городе",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson7.svg",
           description: `## В городе 🏙️
 
 # Места в городе
@@ -503,10 +582,23 @@ export const lessons: SubjectData = {
             "Давать указания",
             "Понимать план города",
             "Рассказывать о своём городе"
+          ],
+          keyPoints: [
+            "Where is...? / How can I get to...? — вопросы о направлении",
+            "Go straight, Turn left/right — указания направления",
+            "Excuse me — для привлечения внимания на улице",
+            "next to, opposite, behind, in front of — предлоги места",
+            "in/on/under/between — основные предлоги расположения",
+          ],
+          examples: [
+            "— Excuse me! Where is the bank? — Go straight and turn left.",
+            "The library is next to the museum — библиотека рядом с музеем",
+            "in, on, under, next to, behind — предлоги места",
           ]
         },
         {
           title: "Урок 8: Транспорт",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson8.svg",
           description: `## Транспорт 🚗
 
 # Виды транспорта
@@ -580,6 +672,18 @@ export const lessons: SubjectData = {
             "Описывать поездку",
             "Сравнивать виды транспорта",
             "Рассказывать о транспорте в городе"
+          ],
+          keyPoints: [
+            "by + транспорт без артикля: by bus, by train, by plane",
+            "on foot — пешком (не by foot!)",
+            "take a bus — сесть на транспорт",
+            "Глаголы движения: go, drive, fly, sail, ride",
+            "faster than / slower than — сравнение видов транспорта",
+          ],
+          examples: [
+            "— How do you get to school? — I go by bus.",
+            "A plane is faster than a train — самолёт быстрее поезда",
+            "on foot — пешком (не by foot!) 🚶",
           ]
         }
       ]
@@ -589,6 +693,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 9: Члены семьи",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson9.svg",
           description: `## Члены семьи 👨‍👩‍👧‍👦
 
 # Близкие родственники
@@ -655,10 +760,23 @@ export const lessons: SubjectData = {
             "Сравнивать членов семьи",
             "Использовать притяжательный падеж",
             "Рассказывать о семье"
+          ],
+          keyPoints: [
+            "mother, father, sister, brother — ближайшие родственники",
+            "have got / has got — сказать, есть ли у тебя кто-то",
+            "Притяжательный падеж: Tom's book — книга Тома",
+            "parents' house — апостроф после s для множественного числа",
+            "This is my sister / These are my parents — представление семьи",
+          ],
+          examples: [
+            "— Have you got any brothers or sisters? — I have got a sister.",
+            "My mother is a teacher — моя мама учитель",
+            "Tom's book — книга Тома (притяжательный падеж)",
           ]
         },
         {
           title: "Урок 10: Внешность и характер",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson10.svg",
           description: `## Внешность и характер 👤
 
 # Описание внешности
@@ -739,10 +857,23 @@ export const lessons: SubjectData = {
             "Составлять описание человека",
             "Использовать прилагательные",
             "Описывать друзей и родственников"
+          ],
+          keyPoints: [
+            "has got — для описания внешности (волосы, глаза)",
+            "is + прилагательное — для описания характера",
+            "tall/short, long/short hair — основные прилагательные внешности",
+            "kind, clever, friendly, funny — черты характера",
+            "He is tall and slim — полное описание человека",
+          ],
+          examples: [
+            "He is tall and slim with short dark hair — он высокий и стройный",
+            "She has got blue eyes and curly hair — у неё голубые глаза",
+            "He is kind and funny — он добрый и весёлый",
           ]
         },
         {
           title: "Урок 11: Друзья",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson11.svg",
           description: `## Друзья 👫
 
 # Словарь по теме
@@ -812,10 +943,23 @@ export const lessons: SubjectData = {
             "Рассказывать истории о друзьях",
             "Объяснять, почему человек друг",
             "Писать о друге"
+          ],
+          keyPoints: [
+            "friend / best friend / classmate — виды дружеских отношений",
+            "each other — друг друга (помогать друг другу)",
+            "because — потому что (объяснение причины)",
+            "good at — хорош в чём-то (good at football)",
+            "loyal, helpful, honest — качества хорошего друга",
+          ],
+          examples: [
+            "— Who is your best friend? — My best friend is Anna.",
+            "We play football and go for a walk together",
+            "He is good at football — он хорош в футболе",
           ]
         },
         {
           title: "Урок 12: Дом и быт",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson12.svg",
           description: `## Дом и быт 🏠
 
 # Типы жилья
@@ -890,6 +1034,18 @@ export const lessons: SubjectData = {
             "Описывать свою комнату",
             "Использовать предлоги места",
             "Рассказывать о доме"
+          ],
+          keyPoints: [
+            "There is + единственное число / There are + множественное",
+            "Комнаты: bedroom, kitchen, living room, bathroom",
+            "in, on, under, next to, between — предлоги места",
+            "Is there...? / Are there...? — вопросы о наличии",
+            "Мебель: bed, sofa, desk, wardrobe — основная мебель",
+          ],
+          examples: [
+            "There is a bed and a desk in my room — в моей комнате кровать и стол",
+            "There are two chairs in the kitchen — на кухне два стула",
+            "in the bedroom, in the kitchen, in the living room",
           ]
         }
       ]
@@ -899,6 +1055,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 13: Школьные предметы",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson13.svg",
           description: `## Школьные предметы 📚
 
 # Названия предметов
@@ -973,10 +1130,23 @@ export const lessons: SubjectData = {
             "Сравнивать предметы",
             "Описывать отношение к предметам",
             "Составлять расписание"
+          ],
+          keyPoints: [
+            "Maths, English, History, PE — основные предметы",
+            "I like / I don't like — выражение отношения",
+            "My favourite subject is... — любимый предмет",
+            "interesting, boring, difficult, easy — характеристики предметов",
+            "What's your favourite subject? — вопрос о предпочтениях",
+          ],
+          examples: [
+            "Maths, English, History, Biology — школьные предметы",
+            "— What is your favourite subject? — I like PE!",
+            "I like Maths because it is interesting — мне нравится математика",
           ]
         },
         {
           title: "Урок 14: В классе",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson14.svg",
           description: `## В классе 🏫
 
 # Классная комната
@@ -1053,10 +1223,23 @@ export const lessons: SubjectData = {
             "Давать инструкции",
             "Просить о помощи",
             "Разыгрывать диалоги"
+          ],
+          keyPoints: [
+            "Школьные принадлежности: pen, pencil, ruler, textbook",
+            "Команды учителя: Open your books, Stand up, Sit down",
+            "Can I go to the toilet? — просьба на уроке",
+            "Excuse me — для вопроса учителю",
+            "Can you repeat, please? — просьба повторить",
+          ],
+          examples: [
+            "pen, pencil, ruler, notebook — школьные принадлежности",
+            "The teacher writes on the blackboard — учитель пишет на доске",
+            "Open your textbooks on page 10 — откройте учебники на странице 10",
           ]
         },
         {
           title: "Урок 15: Распорядок дня",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson15.svg",
           description: `## Распорядок дня ⏰
 
 # Утренние действия
@@ -1138,10 +1321,23 @@ export const lessons: SubjectData = {
             "Описывать будни",
             "Составлять рассказ о своём дне",
             "Спрашивать о времени"
+          ],
+          keyPoints: [
+            "Present Simple — для описания регулярных действий",
+            "always, usually, often, sometimes, never — наречия частотности",
+            "wake up, get up, have breakfast — утренние действия",
+            "do homework, go to bed — вечерние действия",
+            "What time is it? / It's half past seven — время",
+          ],
+          examples: [
+            "I wake up at 7 o'clock and have breakfast — я просыпаюсь в 7",
+            "I do my homework in the afternoon — делаю уроки днём",
+            "I go to bed at 9 o'clock — ложусь спать в 9",
           ]
         },
         {
           title: "Урок 16: Выходные и каникулы",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson16.svg",
           description: `## Выходные и каникулы 🎉
 
 # Дни недели
@@ -1220,6 +1416,18 @@ export const lessons: SubjectData = {
             "Использовать Past Simple",
             "Описывать отдых",
             "Сравнивать будни и выходные"
+          ],
+          keyPoints: [
+            "Дни недели: Monday, Tuesday, ... Sunday",
+            "Saturday и Sunday — выходные (weekend)",
+            "Past Simple — для рассказа о прошедших выходных",
+            "yesterday, last weekend, ...ago — маркеры прошедшего времени",
+            "didn't + глагол — отрицание в Past Simple",
+          ],
+          examples: [
+            "— What do you do at weekends? — I play with my friends.",
+            "In summer we go to the dacha — летом ездим на дачу",
+            "During the holidays I read books — на каникулах я читаю книги",
           ]
         }
       ]
@@ -1229,6 +1437,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 17: Продукты питания",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson17.svg",
           description: `## Продукты питания 🍎
 
 # Основные продукты
@@ -1322,10 +1531,23 @@ export const lessons: SubjectData = {
             "Говорить о здоровом питании",
             "Описывать приёмы пищи",
             "Разыгрывать диалоги о еде"
+          ],
+          keyPoints: [
+            "bread, milk, meat, apple — основные продукты питания",
+            "breakfast, lunch, dinner — приёмы пищи",
+            "I like / I don't like — предпочтения в еде",
+            "some + неисчисляемые существительные (some milk)",
+            "Would you like...? — вежливое предложение еды",
+          ],
+          examples: [
+            "I would like an apple juice, please — мне бы яблочный сок",
+            "A cup of tea and a cake, please — чашку чая и торт",
+            "How much is it? — сколько это стоит?",
           ]
         },
         {
           title: "Урок 18: В кафе и ресторане",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson18.svg",
           description: `## В кафе и ресторане 🍽️
 
 # Блюда
@@ -1396,10 +1618,23 @@ export const lessons: SubjectData = {
             "Выражать мнение о еде",
             "Разыгрывать диалог в кафе",
             "Понимать меню"
+          ],
+          keyPoints: [
+            "I would like = I'd like — вежливая форма заказа",
+            "Can I have...? — вежливая просьба",
+            "How much is it? — вопрос о цене",
+            "Can I have the bill, please? — просьба принести счёт",
+            "Anything else? — что-нибудь ещё?",
+          ],
+          examples: [
+            "— Can I help you? — I am looking for a T-shirt.",
+            "This T-shirt is blue and it costs 500 rubles",
+            "What size do you wear? — какой у тебя размер?",
           ]
         },
         {
           title: "Урок 19: Покупки",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson19.svg",
           description: `## Покупки 🛍️
 
 # Виды магазинов
@@ -1470,10 +1705,23 @@ export const lessons: SubjectData = {
             "Обсуждать одежду",
             "Разыгрывать диалог в магазине",
             "Сравнивать цены"
+          ],
+          keyPoints: [
+            "How much is this? — вопрос о цене товара",
+            "Can I try it on? — просьба примерить одежду",
+            "I'm looking for... — я ищу (в магазине)",
+            "I'll take it — решение о покупке",
+            "cheap / expensive — дешёвый / дорогой",
+          ],
+          examples: [
+            "a T-shirt, a dress, a jacket, jeans — футболка, платье, куртка",
+            "She is wearing a red hat — она носит красную шапку",
+            "Put on your coat — надень пальто",
           ]
         },
         {
           title: "Урок 20: Одежда",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson20.svg",
           description: `## Одежда 👕
 
 # Предметы одежды
@@ -1566,6 +1814,18 @@ export const lessons: SubjectData = {
             "Говорить о размерах",
             "Описывать одежду по цвету",
             "Выбирать одежду для сезона"
+          ],
+          keyPoints: [
+            "coat, dress, trousers, T-shirt — предметы одежды",
+            "wear — носить, put on — надевать, take off — снимать",
+            "try on — примерять одежду",
+            "Цвета: black, white, red, blue, green, yellow и др.",
+            "small (S), medium (M), large (L) — размеры одежды",
+          ],
+          examples: [
+            "I play football every day — я играю в футбол каждый день",
+            "She reads books in the evening — она читает книги вечером",
+            "I don't watch TV on weekdays — я не смотрю ТВ по будням",
           ]
         }
       ]
@@ -1575,6 +1835,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 21: Present Simple",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson21.svg",
           description: `## Present Simple 📖
 
 # Когда используется
@@ -1674,10 +1935,23 @@ export const lessons: SubjectData = {
             "Использовать наречия частотности",
             "Правильно добавлять -s к глаголу",
             "Описывать регулярные действия"
+          ],
+          keyPoints: [
+            "Для регулярных действий, фактов и расписаний",
+            "He/She/It + глагол + -s/-es (He plays, She goes)",
+            "don't / doesn't + глагол — отрицание",
+            "Do / Does + подлежащее + глагол? — вопрос",
+            "Наречия частотности стоят перед глаголом",
+          ],
+          examples: [
+            "I am reading a book now — я читаю книгу сейчас",
+            "She is playing in the garden at the moment — она играет в саду",
+            "They are not sleeping right now — они сейчас не спят",
           ]
         },
         {
           title: "Урок 22: Present Continuous",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson22.svg",
           description: `## Present Continuous 🏃
 
 # Когда используется
@@ -1778,10 +2052,23 @@ Am/Is/Are + подлежащее + глагол + -ing?
             "Задавать вопросы",
             "Понимать слова-маркеры",
             "Выбирать правильное время"
+          ],
+          keyPoints: [
+            "am/is/are + verb-ing — действие прямо сейчас",
+            "now, at the moment — слова-маркеры времени",
+            "am not / isn't / aren't + verb-ing — отрицание",
+            "Am/Is/Are + подлежащее + verb-ing? — вопрос",
+            "Present Simple (регулярно) vs Continuous (сейчас)",
+          ],
+          examples: [
+            "I went to the park yesterday — я ходил в парк вчера",
+            "She didn't watch TV last night — она не смотрела ТВ вчера",
+            "Did you visit your grandma last weekend? — ты навещал бабушку?",
           ]
         },
         {
           title: "Урок 23: Past Simple",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson23.svg",
           description: `## Past Simple 📅
 
 # Когда используется
@@ -1891,10 +2178,23 @@ Did + подлежащее + глагол (начальная форма)?
             "Рассказывать о прошлом",
             "Понимать слова-маркеры",
             "Отличать от других времён"
+          ],
+          keyPoints: [
+            "Правильные глаголы: verb + -ed (played, watched)",
+            "Неправильные глаголы: учить наизусть (went, saw, had)",
+            "didn't + глагол — отрицание (глагол без окончаний!)",
+            "Did + подлежащее + глагол? — вопрос",
+            "yesterday, last week, ...ago — маркеры прошедшего времени",
+          ],
+          examples: [
+            "I will go to the park tomorrow — я пойду в парк завтра",
+            "It will be sunny next week — на следующей неделе будет солнечно",
+            "We are going to have a test on Friday — у нас будет контрольная",
           ]
         },
         {
           title: "Урок 24: Future Simple",
+          image: "/school-curriculum-app/images/lessons/grade5/english/lesson24.svg",
           description: `## Future Simple 🔮
 
 # Когда используется
@@ -2003,6 +2303,13 @@ Will + подлежащее + глагол?
             "Обсуждать будущее",
             "Образовывать отрицания и вопросы",
             "Различать will и going to"
+          ],
+          keyPoints: [
+            "will + глагол — действие в будущем",
+            "won't = will not — отрицание в будущем",
+            "Will + подлежащее + глагол? — вопрос",
+            "tomorrow, next week, soon — маркеры будущего",
+            "will — мгновенные решения, going to — запланированные действия",
           ]
         }
       ]
@@ -2138,7 +2445,13 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «Где библиотека?» по-английски?", options: ["What is the library?", "Where is the library?", "How is the library?", "Другой ответ", "Другой ответ"], correctAnswer: "Where is the library?", hint: "Where = где, library = библиотека" },
+      { type: 'quiz', question: "Как сказать «Где библиотека?» по-английски?", options: ["What is the library?", "Where is the library?", "How is the library?", "Другой ответ", "Другой ответ"],
+      keyPoints: [
+        "Тема урока: В городе (английскому языку)",
+      ],
+      examples: [
+        "How do you say библиотека in English?",
+      ], correctAnswer: "Where is the library?", hint: "Where = где, library = библиотека" },
       { type: 'quiz', question: "Turn left = ?", options: ["Идите прямо", "Поверните налево", "Поверните направо", "Другой ответ", "Другой ответ"], correctAnswer: "Поверните налево", hint: "Left = лево, right = право" },
       { type: 'quiz', question: "Как будет «аэропорт» по-английски?", options: ["Airplain", "Airport", "Airpot", "Другой ответ", "Другой ответ"], correctAnswer: "Airport", hint: "Airport = аэропорт" },
       { type: 'quiz', question: "What does «next to» mean?", options: ["Напротив", "Рядом с", "За", "Другой ответ", "Другой ответ"], correctAnswer: "Рядом с", hint: "Next to = рядом с, opposite = напротив" },
@@ -2152,7 +2465,13 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «пешком» по-английски?", options: ["By foot", "On foot", "With foot", "Другой ответ", "Другой ответ"], correctAnswer: "On foot", hint: "On foot = пешком (не by foot!)" },
+      { type: 'quiz', question: "Как сказать «пешком» по-английски?", options: ["By foot", "On foot", "With foot", "Другой ответ", "Другой ответ"],
+      keyPoints: [
+        "Тема урока: Транспорт (английскому языку)",
+      ],
+      examples: [
+        "How do you say автобус in English?",
+      ], correctAnswer: "On foot", hint: "On foot = пешком (не by foot!)" },
       { type: 'quiz', question: "Какой глагол используется с «на автобусе»?", options: ["take a bus", "go a bus", "ride a bus", "Другой ответ", "Другой ответ"], correctAnswer: "take a bus", hint: "take a bus = сесть на автобус" },
       { type: 'quiz', question: "Как будет «велосипед» по-английски?", options: ["Bicycle", "Motocycle", "Bicykle", "Другой ответ", "Другой ответ"], correctAnswer: "Bicycle", hint: "Bicycle / bike = велосипед" },
       { type: 'quiz', question: "How do you get to school? = ?", options: ["Где твоя школа?", "Как ты добираешься до школы?", "Когда ты идёшь в школу?", "Другой ответ", "Другой ответ"], correctAnswer: "Как ты добираешься до школы?", hint: "Get to = добраться до" },
@@ -2208,7 +2527,13 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «физкультура» по-английски?", options: ["Physical Education", "Physics", "Philosophy", "Другой ответ", "Другой ответ"], correctAnswer: "Physical Education", hint: "PE = Physical Education = физкультура" },
+      { type: 'quiz', question: "Как будет «физкультура» по-английски?", options: ["Physical Education", "Physics", "Philosophy", "Другой ответ", "Другой ответ"],
+      keyPoints: [
+        "Тема урока: Школьные предметы (английскому языку)",
+      ],
+      examples: [
+        "How do you say математика in English?",
+      ], correctAnswer: "Physical Education", hint: "PE = Physical Education = физкультура" },
       { type: 'quiz', question: "How to say «Мне не нравится математика»?", options: ["I like Maths", "I don't like Maths", "I love Maths", "Другой ответ", "Другой ответ"], correctAnswer: "I don't like Maths", hint: "don't like = не нравится" },
       { type: 'quiz', question: "What's your favourite subject? = ?", options: ["Какой твой любимый предмет?", "Какая твоя школа?", "Сколько уроков?", "Другой ответ", "Другой ответ"], correctAnswer: "Какой твой любимый предмет?", hint: "Favourite = любимый, subject = предмет" },
       { type: 'quiz', question: "Как будет «информатика» по-английски?", options: ["Information Technology", "International Trade", "Inner Technology", "Другой ответ", "Другой ответ"], correctAnswer: "Information Technology", hint: "IT = Information Technology = информатика" },
@@ -2222,7 +2547,13 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «ластик» по-английски?", options: ["Rubber", "Ruler", "Pencil", "Другой ответ", "Другой ответ"], correctAnswer: "Rubber", hint: "Rubber / eraser = ластик" },
+      { type: 'quiz', question: "Как будет «ластик» по-английски?", options: ["Rubber", "Ruler", "Pencil", "Другой ответ", "Другой ответ"],
+      keyPoints: [
+        "Тема урока: В классе (английскому языку)",
+      ],
+      examples: [
+        "How do you say парта in English?",
+      ], correctAnswer: "Rubber", hint: "Rubber / eraser = ластик" },
       { type: 'quiz', question: "Как попросить повторить по-английски?", options: ["Can you help me?", "Can you repeat, please?", "Can I go out?", "Другой ответ", "Другой ответ"], correctAnswer: "Can you repeat, please?", hint: "Repeat = повторить" },
       { type: 'quiz', question: "What does «Open your books» mean?", options: ["Закройте книги", "Откройте книги", "Возьмите книги", "Другой ответ", "Другой ответ"], correctAnswer: "Откройте книги", hint: "Open = открыть, close = закрыть" },
       { type: 'quiz', question: "Как будет «учебник» по-английски?", options: ["Exercise book", "Textbook", "Notebook", "Другой ответ", "Другой ответ"], correctAnswer: "Textbook", hint: "Text = текст, textbook = учебник" },
@@ -2306,7 +2637,13 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «пальто» по-английски?", options: ["Jacket", "Coat", "Shirt", "Другой ответ", "Другой ответ"], correctAnswer: "Coat", hint: "Coat = пальто, jacket = куртка" },
+      { type: 'quiz', question: "Как будет «пальто» по-английски?", options: ["Jacket", "Coat", "Shirt", "Другой ответ", "Другой ответ"],
+      keyPoints: [
+        "Тема урока: Одежда (английскому языку)",
+      ],
+      examples: [
+        "How do you say футболка in English?",
+      ], correctAnswer: "Coat", hint: "Coat = пальто, jacket = куртка" },
       { type: 'quiz', question: "Как сказать «Я надеваю...» по-английски?", options: ["I take off...", "I put on...", "I try on...", "Другой ответ", "Другой ответ"], correctAnswer: "I put on...", hint: "Put on = надевать, take off = снимать" },
       { type: 'quiz', question: "Какой размер между S и L?", options: ["XS", "M", "XL", "Другой ответ", "Другой ответ"], correctAnswer: "M", hint: "S = small, M = medium, L = large" },
       { type: 'quiz', question: "Как будет «кроссовки» по-английски?", options: ["Shoes", "Boots", "Trainers", "Другой ответ", "Другой ответ"], correctAnswer: "Trainers", hint: "Trainers = кроссовки" },
@@ -2320,7 +2657,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Какая формула Present Continuous?", options: ["do + глагол", "am/is/are + глагол + -ing", "did + глагол", "Другой ответ", "Другой ответ"], correctAnswer: "am/is/are + глагол + -ing", hint: "Present Continuous = am/is/are + verb-ing" },
+      { type: 'quiz', question: "Какая формула Present Continuous?", options: ["do + глагол", "am/is/are + глагол + -ing", "did + глагол", "Другой ответ", "Другой ответ"],
+      keyPoints: [
+        "Основные случаи употребления — Действие в момент речи: I am reading a book now",
+        "Правила правописания — work → working",
+        "Глаголы, не употребляющиеся в Continuous — состояния: be, have, know, understand, believe",
+      ],
+      examples: [
+        "I have already finished my homework. — Я уже закончил домашнее задание. (Результат важен сейчас)",
+        "She has lived in Moscow for 10 years. — Она живёт в Москве 10 лет. (Предлог for — период времени)",
+        "Have you ever been to St. Petersburg? — Ты когда-нибудь бывал в Санкт-Петербурге? (Опыт)",
+      ], correctAnswer: "am/is/are + глагол + -ing", hint: "Present Continuous = am/is/are + verb-ing" },
       { type: 'quiz', question: "Какое слово-маркер указывает на Present Continuous?", options: ["Every day", "Yesterday", "Now", "Другой ответ", "Другой ответ"], correctAnswer: "Now", hint: "Now = сейчас → Present Continuous" },
       { type: 'quiz', question: "She ___ TV at the moment. (watch)", options: ["watches", "is watching", "watched", "Другой ответ", "Другой ответ"], correctAnswer: "is watching", hint: "At the moment = в данный момент → is + -ing" },
       { type: 'quiz', question: "Как образуется отрицание в Present Continuous?", options: ["am/is/are + not + глагол + -ing", "don", ",", "t + глагол", "Другой ответ"], correctAnswer: "am/is/are + not + глагол + -ing", hint: "I am not reading. She isn't watching." },
@@ -2334,7 +2681,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Какая формула Future Simple?", options: ["am/is/are + глагол + -ing", "did + глагол", "will + глагол", "Другой ответ", "Другой ответ"], correctAnswer: "will + глагол", hint: "Future Simple = will + глагол (без to)" },
+      { type: 'quiz', question: "Какая формула Future Simple?", options: ["am/is/are + глагол + -ing", "did + глагол", "will + глагол", "Другой ответ", "Другой ответ"],
+      keyPoints: [
+        "Основные случаи употребления — Мгновенные решения: It's cold",
+        "I'll help you. — мгновенное решение",
+        "I'm going to help you. — запланированное действие",
+      ],
+      examples: [
+        "I am going to visit my grandmother next weekend. — Я собираюсь навестить бабушку в выходные. (План)",
+        "Look at those clouds! It is going to rain. — Посмотри на тучи! Собирается дождь. (Признаки)",
+        "They are going to move to a new flat. — Они собираются переехать в новую квартиру. (Намерение)",
+      ], correctAnswer: "will + глагол", hint: "Future Simple = will + глагол (без to)" },
       { type: 'quiz', question: "Как будет сокращение «I will»?", options: ["I", ",", "ll", "—", "—"], correctAnswer: "I'll", hint: "I'll = I will" },
       { type: 'quiz', question: "Какое слово-маркер указывает на будущее?", options: ["Yesterday", "Now", "Tomorrow", "Другой ответ", "Другой ответ"], correctAnswer: "Tomorrow", hint: "Tomorrow = завтра → будущее время" },
       { type: 'quiz', question: "Как образуется отрицание в Future Simple?", options: ["don", ",", "t + глагол", "won", "—"], correctAnswer: "won't + глагол", hint: "won't = will not" },

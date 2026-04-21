@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Daily Routines and Habits",
+          image: "/school-curriculum-app/images/lessons/grade7/english/lesson1.svg",
           description: `**Daily Routines** — повседневные дела и привычки.
 
 **Present Simple for Routines:**
@@ -64,6 +65,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Household Chores",
+          image: "/school-curriculum-app/images/lessons/grade7/english/lesson2.svg",
           description: `**Household Chores** — домашние обязанности.
 
 **Common Chores:**
@@ -124,6 +126,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Planning a Trip",
+          image: "/school-curriculum-app/images/lessons/grade7/english/lesson3.svg",
           description: `**Travel Vocabulary:**
 - Journey — путешествие
 - Trip — поездка
@@ -182,6 +185,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Sightseeing and Activities",
+          image: "/school-curriculum-app/images/lessons/grade7/english/lesson4.svg",
           description: `**Places to Visit:**
 - Museum — музей
 - Gallery — галерея
@@ -248,6 +252,7 @@ Love,
       lessons: [
         {
           title: "Environmental Problems",
+          image: "/school-curriculum-app/images/lessons/grade7/english/lesson5.svg",
           description: `**Environmental Issues:**
 - Pollution — загрязнение
 - Air pollution — загрязнение воздуха
@@ -315,6 +320,7 @@ Love,
       lessons: [
         {
           title: "Digital World",
+          image: "/school-curriculum-app/images/lessons/grade7/english/lesson6.svg",
           description: `**Technology Vocabulary:**
 - Computer — компьютер
 - Laptop — ноутбук
@@ -384,6 +390,7 @@ Love,
 export const games: GameLesson[] = [
   {
     title: "Daily Routines and Habits 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson7.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -398,6 +405,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Household Chores 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson8.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -412,6 +420,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Planning a Trip 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson9.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -426,6 +435,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Sightseeing and Activities 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson10.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -440,6 +450,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Environmental Problems 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson11.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -454,6 +465,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Digital World 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson12.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -469,6 +481,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Daily Routines and Habits 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson13.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -483,6 +496,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Household Chores 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson14.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -497,6 +511,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Planning a Trip 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson15.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -511,6 +526,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Sightseeing and Activities 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson16.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -525,6 +541,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Environmental Problems 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson17.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -539,6 +556,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Digital World 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson18.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -554,6 +572,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Daily Life",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson19.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -568,6 +587,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Travel and Environment",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson20.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -582,6 +602,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Travel and Tourism",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson21.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -596,6 +617,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Technology",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson22.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -610,11 +632,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Daily Routines and Habits",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson23.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Which tense do we use for daily routines?", options: ["Present Continuous", "Present Simple", "Past Simple", "Future Simple", "Другой ответ"], correctAnswer: "Present Simple", hint: "I wake up at 7 AM every day" },
+      { type: 'quiz', question: "Which tense do we use for daily routines?", options: ["Present Continuous", "Present Simple", "Past Simple", "Future Simple", "Другой ответ"],
+      keyPoints: [
+        "Present Simple for routines: I wake up at 7 AM every day",
+        "Present Continuous for actions happening now: I am reading now",
+        "Adverbs of frequency: always, usually, often, sometimes, never",
+      ],
+      examples: [
+        "I have to do the washing-up — мне нужно помыть посуду 🧽",
+        "Should: You should help your parents — тебе следует помочь родителям",
+      ], correctAnswer: "Present Simple", hint: "I wake up at 7 AM every day" },
       { type: 'quiz', question: "What does 'usually' mean in Russian?", options: ["Никогда", "Обычно", "Иногда", "Всегда", "Другой ответ"], correctAnswer: "Обычно", hint: "Frequency adverb — 80%" },
       { type: 'quiz', question: "Where do you place frequency adverbs with 'to be'?", options: ["After 'to be'", "Before 'to be'", "At the beginning", "At the end", "Before the subject"], correctAnswer: "After 'to be'", hint: "She is never late" },
       { type: 'quiz', question: "What does 'go to bed' mean?", options: ["Идти в школу", "Ложиться спать", "Делать уборку", "Идти гулять", "Другой ответ"], correctAnswer: "Ложиться спать", hint: "Daily activity before sleeping" },
@@ -624,11 +656,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Household Chores",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson24.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What does 'do the washing-up' mean?", options: ["Стирать бельё", "Мыть посуду", "Убираться", "Гладить", "Другой ответ"], correctAnswer: "Мыть посуду", hint: "Work with dishes" },
+      { type: 'quiz', question: "What does 'do the washing-up' mean?", options: ["Стирать бельё", "Мыть посуду", "Убираться", "Гладить", "Другой ответ"],
+      keyPoints: [
+        "Household chores vocabulary: do the dishes, vacuum the floor, do the laundry",
+        "Make vs do: make breakfast (создать), do homework (выполнить)",
+        "Have to / must for obligations: I have to clean my room",
+      ],
+      examples: [
+        "I'm going to visit London next summer — планирую посетить Лондон ✈️",
+        "by plane — самолётом, by train — поездом, on foot — пешком",
+      ], correctAnswer: "Мыть посуду", hint: "Work with dishes" },
       { type: 'quiz', question: "Which modal verb expresses strong obligation?", options: ["Should", "Must", "Can", "May", "Другой ответ"], correctAnswer: "Must", hint: "You must help your parents" },
       { type: 'quiz', question: "What does 'make the bed' mean?", options: ["Построить кровать", "Заправлять постель", "Купить кровать", "Убрать комнату", "Другой ответ"], correctAnswer: "Заправлять постель", hint: "Morning household task" },
       { type: 'quiz', question: "What's the difference between 'make' and 'do'?", options: ["They are the same", "Make = create, Do = perform/complete", "Make = clean, Do = build", "Make = destroy, Do = fix", "Другой ответ"], correctAnswer: "Make = create, Do = perform/complete", hint: "Make breakfast vs do homework" },
@@ -638,11 +680,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Planning a Trip",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson25.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What does 'boarding pass' mean in Russian?", options: ["Билет", "Посадочный талон", "Загранпаспорт", "Регистрация", "Другой ответ"], correctAnswer: "Посадочный талон", hint: "Document needed to board a plane" },
+      { type: 'quiz', question: "What does 'boarding pass' mean in Russian?", options: ["Билет", "Посадочный талон", "Загранпаспорт", "Регистрация", "Другой ответ"],
+      keyPoints: [
+        "Travel vocabulary: book a hotel, pack luggage, check in, boarding pass",
+        "Future with going to: I'm going to visit Paris next summer",
+        "Conditional: If I have time, I will go to the museum",
+      ],
+      examples: [
+        "Past Simple: I visited the Louvre last year — прошлым летом я посетил Лувр 🏛️",
+        "How do I get to the museum? — как добраться до музея?",
+      ], correctAnswer: "Посадочный талон", hint: "Document needed to board a plane" },
       { type: 'quiz', question: "Which phrase means 'I'm going to visit London'?", options: ["I will visit London", "I'm going to visit London", "I visit London", "I visited London", "Другой ответ"], correctAnswer: "I'm going to visit London", hint: "Going to + infinitive for plans" },
       { type: 'quiz', question: "What does 'by plane' mean?", options: ["На поезде", "Самолётом", "На машине", "Пешком", "Другой ответ"], correctAnswer: "Самолётом", hint: "Type of air transport" },
       { type: 'quiz', question: "What does 'check in' mean at a hotel?", options: ["Выселиться", "Заселиться", "Забронировать", "Оплатить", "Другой ответ"], correctAnswer: "Заселиться", hint: "Arrival procedure" },
@@ -652,11 +704,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Sightseeing and Activities",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson26.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What does 'monument' mean in Russian?", options: ["Музей", "Памятник", "Площадь", "Фонтан", "Другой ответ"], correctAnswer: "Памятник", hint: "A structure commemorating a person or event" },
+      { type: 'quiz', question: "What does 'monument' mean in Russian?", options: ["Музей", "Памятник", "Площадь", "Фонтан", "Другой ответ"],
+      keyPoints: [
+        "Sightseeing vocabulary: monument, museum, gallery, cathedral, square",
+        "Would like to for polite requests and offers: I'd like to see the Eiffel Tower",
+        "Directions: turn left/right, go straight, opposite, next to",
+      ],
+      examples: [
+        "We must protect nature — мы должны защищать природу 🌍",
+        "First Conditional: If we recycle, there will be less waste",
+      ], correctAnswer: "Памятник", hint: "A structure commemorating a person or event" },
       { type: 'quiz', question: "Which tense is used for travel stories?", options: ["Present Simple", "Present Continuous", "Past Simple", "Future Simple", "Другой ответ"], correctAnswer: "Past Simple", hint: "I visited the Louvre last year" },
       { type: 'quiz', question: "How do you ask for directions to a museum?", options: ["What is a museum?", "How do I get to the museum?", "Where is the museum from?", "Do you like museums?", "Другой ответ"], correctAnswer: "How do I get to the museum?", hint: "Useful phrase for tourists" },
       { type: 'quiz', question: "What does 'ancient' mean?", options: ["Современный", "Древний", "Красивый", "Переполненный", "Другой ответ"], correctAnswer: "Древний", hint: "Adjective describing old places" },
@@ -666,11 +728,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Environmental Problems",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson27.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What does 'global warming' mean in Russian?", options: ["Глобальное потепление", "Глобальное заморозка", "Загрязнение воды", "Вырубка лесов", "Другой ответ"], correctAnswer: "Глобальное потепление", hint: "Rising temperatures on Earth" },
+      { type: 'quiz', question: "What does 'global warming' mean in Russian?", options: ["Глобальное потепление", "Глобальное заморозка", "Загрязнение воды", "Вырубка лесов", "Другой ответ"],
+      keyPoints: [
+        "Environmental vocabulary: pollution, recycling, global warming, endangered species",
+        "Should / shouldn't for advice: We should recycle paper and plastic",
+        "Passive voice: The air is polluted by factories",
+      ],
+      examples: [
+        "Present Perfect: I have bought a new smartphone — я купил новый телефон 📱",
+        "Internet safety: don't share personal information online",
+      ], correctAnswer: "Глобальное потепление", hint: "Rising temperatures on Earth" },
       { type: 'quiz', question: "Which modal verb gives advice?", options: ["Must", "Should", "Can", "Will", "Другой ответ"], correctAnswer: "Should", hint: "We should recycle more" },
       { type: 'quiz', question: "What does 'deforestation' mean?", options: ["Посадка деревьев", "Вырубка лесов", "Загрязнение воздуха", "Рекультивация", "Другой ответ"], correctAnswer: "Вырубка лесов", hint: "Cutting down forests" },
       { type: 'quiz', question: "Complete: If people recycle, there ___ less waste.", options: ["is", "will be", "was", "are", "Другой ответ"], correctAnswer: "will be", hint: "First Conditional: If + present, will + infinitive" },
@@ -680,11 +752,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Digital World",
+    image: "/school-curriculum-app/images/lessons/grade7/english/lesson28.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What does 'social media' mean in Russian?", options: ["Электронная почта", "Социальные сети", "Веб-сайт", "Блог", "Другой ответ"], correctAnswer: "Социальные сети", hint: "VK, Instagram, TikTok..." },
+      { type: 'quiz', question: "What does 'social media' mean in Russian?", options: ["Электронная почта", "Социальные сети", "Веб-сайт", "Блог", "Другой ответ"],
+      keyPoints: [
+        "Digital vocabulary: social media, download, upload, password, account",
+        "Present Perfect for experiences: I have already sent the email",
+        "Online safety: never share your password with strangers",
+      ],
+      examples: [
+        "Сосна — хвойная мягкая порода, дуб — лиственная твёрдая 🪵",
+        "Пороки древесины: сучки, трещины, гниль, завиток, смоляной кармашек",
+        "Текстура — уникальный рисунок на срезе древесины",
+      ], correctAnswer: "Социальные сети", hint: "VK, Instagram, TikTok..." },
       { type: 'quiz', question: "Which tense is used for experiences?", options: ["Past Simple", "Present Simple", "Present Perfect", "Future Simple", "Другой ответ"], correctAnswer: "Present Perfect", hint: "I have already bought a new smartphone" },
       { type: 'quiz', question: "What does 'download' mean?", options: ["Загружать онлайн", "Скачивать файлы", "Удалять данные", "Отправлять письмо", "Другой ответ"], correctAnswer: "Скачивать файлы", hint: "Getting files from the internet" },
       { type: 'quiz', question: "Which is an important internet safety rule?", options: ["Share your password with friends", "Post personal information publicly", "Don't share personal information", "Accept all friend requests", "Другой ответ"], correctAnswer: "Don't share personal information", hint: "Stay safe online" },

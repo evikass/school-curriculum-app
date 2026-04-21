@@ -863,6 +863,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Блоки Scratch",
+    image: "/school-curriculum-app/images/lessons/grade6/coding/lesson1.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-sky-400",
@@ -876,6 +877,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Переменные и условия",
+    image: "/school-curriculum-app/images/lessons/grade6/coding/lesson2.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-sky-400",
@@ -889,6 +891,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Циклы и алгоритмы",
+    image: "/school-curriculum-app/images/lessons/grade6/coding/lesson3.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-sky-400",
@@ -902,6 +905,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Создание игр",
+    image: "/school-curriculum-app/images/lessons/grade6/coding/lesson4.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-sky-400",

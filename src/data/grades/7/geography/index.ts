@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Литосфера и рельеф Земли",
+          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson1.svg",
           description: `**Литосфера** — твёрдая оболочка Земли.
 
 **Строение Земли:**
@@ -71,6 +72,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Атмосфера и климаты Земли",
+          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson2.svg",
           description: `**Климатообразующие факторы:**
 
 **1. Географическая широта:**
@@ -137,6 +139,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Численность и размещение населения",
+          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson3.svg",
           description: `**Население Земли:**
 - Более 8 млрд человек (2023)
 - Быстрый рост с XX века
@@ -188,6 +191,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Народы и религии мира",
+          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson4.svg",
           description: `**Народы мира:**
 
 **По численности:**
@@ -253,6 +257,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Тихий и Атлантический океаны",
+          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson5.svg",
           description: `**Тихий океан:**
 
 **Характеристика:**
@@ -310,6 +315,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Индийский и Северный Ледовитый океаны",
+          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson6.svg",
           description: `**Индийский океан:**
 
 **Характеристика:**
@@ -378,6 +384,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Географическое положение и рельеф Африки",
+          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson7.svg",
           description: `**Африка** — второй по размеру материк.
 
 **Географическое положение:**
@@ -434,6 +441,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Природа Африки",
+          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson8.svg",
           description: `**Климат Африки:**
 
 **Особенности:**
@@ -505,6 +513,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Литосфера и рельеф Земли 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson9.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -519,6 +528,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Атмосфера и климаты Земли 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson10.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -533,6 +543,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Численность и размещение населения 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson11.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -547,6 +558,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Народы и религии мира 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson12.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -561,6 +573,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Тихий и Атлантический океаны 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson13.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -575,6 +588,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Индийский и Северный Ледовитый океаны 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson14.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -590,6 +604,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Литосфера и рельеф Земли 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson15.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -604,6 +619,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Атмосфера и климаты Земли 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson16.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -618,6 +634,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Численность и размещение населения 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson17.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -632,6 +649,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Народы и религии мира 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson18.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -646,6 +664,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Тихий и Атлантический океаны 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson19.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -660,6 +679,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Индийский и Северный Ледовитый океаны 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson20.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -675,6 +695,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Океаны",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson21.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -689,11 +710,24 @@ export const games: GameLesson[] = [
   },
   {
     title: "Африка",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson22.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
-      { type: 'quiz', question: "Какой материк самый жаркий?", options: ["Азия", "Африка", "Австралия", "Южная Америка", "Другой ответ"], correctAnswer: "Африка", hint: "Экватор посередине" },
+      { type: 'quiz', question: "Какой материк самый жаркий?", options: ["Азия", "Африка", "Австралия", "Южная Америка", "Другой ответ"],
+      keyPoints: [
+        "Африка — самый бедный континент с самым быстрым ростом населения",
+        "Наибольшая площадь тропических лесов и пустынь в Африке",
+        "Главные ресурсы Африки: нефть, алмазы, золото, редкоземельные металлы",
+      ],
+      examples: [
+        "Чем отличается Северная Америка от Южной?",
+        "Какие крупнейшие страны Латинской Америки?",
+        "Какие природные ресурсы Южной Америки?",
+        "Какие страны самые развитые в Америке?",
+        "США, Канада — высокоразвитые страны",
+      ], correctAnswer: "Африка", hint: "Экватор посередине" },
       { type: 'quiz', question: "Какая самая длинная река Африки?", options: ["Конго", "Нил", "Нигер", "Замбези", "Другой ответ"], correctAnswer: "Нил", hint: "6671 км" },
       { type: 'find', question: "Выберите природные зоны Африки:", options: ["Тайга", "Саванны", "Тундра", "Влажные леса", "Пустыни"], correctAnswer: ["Саванны", "Влажные леса", "Пустыни"], hint: "Характерные для Африки" },
       { type: 'quiz', question: "Как называется крупнейшая пустыня Африки?", options: ["Гоби", "Калахари", "Сахара", "Намиб", "Другой ответ"], correctAnswer: "Сахара", hint: "На севере Африки" },
@@ -703,6 +737,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Литосфера и рельеф",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson23.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -717,6 +752,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Население Земли",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson24.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -731,11 +767,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Литосфера и рельеф Земли",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson25.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
-      { type: 'quiz', question: "Какие слои входит в строение Земли?", options: ["Только ядро", "Ядро, мантия, земная кора", "Только кора", "Кора и вода", "Другой ответ"], correctAnswer: "Ядро, мантия, земная кора", hint: "Три основных слоя" },
+      { type: 'quiz', question: "Какие слои входит в строение Земли?", options: ["Только ядро", "Ядро, мантия, земная кора", "Только кора", "Кора и вода", "Другой ответ"],
+      keyPoints: [
+        "Литосфера — твёрдая оболочка Земли, включающая земную кору и верхнюю часть мантии",
+        "Рельеф — совокупность неровностей земной поверхности: горы, равнины, впадины",
+        "Тектонические плиты — крупные блоки литосферы, движущиеся по мантии",
+      ],
+      examples: [
+        "7 основных климатических поясов: от экваториального до антарктического 🌡️",
+        "Гольфстрим — тёплое течение, смягчающее климат Европы",
+      ], correctAnswer: "Ядро, мантия, земная кора", hint: "Три основных слоя" },
       { type: 'quiz', question: "Чем континентальная земная кора отличается от океанической?", options: ["Не отличается", "Континентальная толще, с тремя слоями", "Океаническая толще", "Континентальная тоньше", "Другой ответ"], correctAnswer: "Континентальная толще, с тремя слоями", hint: "До 70 км с осадочным, гранитным и базальтовым слоями" },
       { type: 'quiz', question: "Какие основные литосферные плиты существуют?", options: ["Евразийская, Африканская, Тихоокеанская", "Атлантическая, Индийская, Средиземная", "Северная, Южная, Восточная", "Только одна", "Другой ответ"], correctAnswer: "Евразийская, Африканская, Тихоокеанская", hint: "Крупные блоки литосферы" },
       { type: 'quiz', question: "К какой высоте относятся низменности?", options: ["До 100 м", "До 200 м", "До 500 м", "До 1000 м", "Другой ответ"], correctAnswer: "До 200 м", hint: "Равнины до 200 метров" },
@@ -745,11 +791,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Атмосфера и климаты Земли",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson26.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
-      { type: 'quiz', question: "Сколько основных климатических поясов на Земле?", options: ["5", "6", "7", "8", "Другой ответ"], correctAnswer: "7", hint: "От экваториального до антарктического" },
+      { type: 'quiz', question: "Сколько основных климатических поясов на Земле?", options: ["5", "6", "7", "8", "Другой ответ"],
+      keyPoints: [
+        "Атмосфера — газовая оболочка Земли, защищающая от космического излучения",
+        "Климат — многолетний режим погоды, характерный для данной местности",
+        "Климатообразующие факторы: широта, высота, удалённость от океана",
+      ],
+      examples: [
+        "Население Земли — более 8 млрд человек (2023) 👥",
+        "90% населения живёт в Северном полушарии",
+      ], correctAnswer: "7", hint: "От экваториального до антарктического" },
       { type: 'quiz', question: "Какие воздушные массы формируют пустыни?", options: ["Экваториальные", "Тропические", "Умеренные", "Арктические", "Другой ответ"], correctAnswer: "Тропические", hint: "Жаркие и сухие массы" },
       { type: 'quiz', question: "Как влияют тёплые морские течения на климат?", options: ["Понижают температуру", "Повышают температуру", "Не влияют", "Увеличивают осадки только", "Другой ответ"], correctAnswer: "Повышают температуру", hint: "Как Гольфстрим для Европы" },
       { type: 'quiz', question: "Какой климатообразующий фактор определяет количество солнечного тепла?", options: ["Высота над уровнем моря", "Географическая широта", "Удалённость от океана", "Рельеф", "Другой ответ"], correctAnswer: "Географическая широта", hint: "Экватор — максимум, полюса — минимум" },
@@ -759,11 +815,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Численность и размещение населения",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson27.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
-      { type: 'quiz', question: "Какова численность населения Земли (2023)?", options: ["6 млрд", "7 млрд", "Более 8 млрд", "10 млрд", "Другой ответ"], correctAnswer: "Более 8 млрд", hint: "Быстрый рост с XX века" },
+      { type: 'quiz', question: "Какова численность населения Земли (2023)?", options: ["6 млрд", "7 млрд", "Более 8 млрд", "10 млрд", "Другой ответ"],
+      keyPoints: [
+        "Численность населения Земли превышает 8 миллиардов человек",
+        "Население распределено неравномерно: наиболее плотно заселены Европа и Юго-Восточная Азия",
+        "Естественный прирост = рождаемость − смертность",
+      ],
+      examples: [
+        "Самый многочисленный народ — китайцы (хань), более 1,4 млрд 🇨🇳",
+        "Три мировые религии: христианство, ислам, буддизм",
+      ], correctAnswer: "Более 8 млрд", hint: "Быстрый рост с XX века" },
       { type: 'quiz', question: "Какая доля населения живёт в Северном полушарии?", options: ["50%", "70%", "90%", "99%", "Другой ответ"], correctAnswer: "90%", hint: "Подавляющее большинство" },
       { type: 'quiz', question: "Какова средняя плотность населения Земли?", options: ["~10 чел./км²", "~30 чел./км²", "~60 чел./км²", "~100 чел./км²", "Другой ответ"], correctAnswer: "~60 чел./км²", hint: "Отношение числа людей к площади" },
       { type: 'quiz', question: "Какие районы являются густонаселёнными?", options: ["Пустыни", "Восточная и Южная Азия, Западная Европа", "Тундра", "Антарктида", "Другой ответ"], correctAnswer: "Восточная и Южная Азия, Западная Европа", hint: "Китай, Индия, Европа" },
@@ -773,11 +839,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Народы и религии мира",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson28.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
-      { type: 'quiz', question: "Какой народ самый многочисленный в мире?", options: ["Американцы", "Хиндустанцы", "Русские", "Китайцы (хань)", "Другой ответ"], correctAnswer: "Китайцы (хань)", hint: "Более 1,4 млрд человек" },
+      { type: 'quiz', question: "Какой народ самый многочисленный в мире?", options: ["Американцы", "Хиндустанцы", "Русские", "Китайцы (хань)", "Другой ответ"],
+      keyPoints: [
+        "Мировые религии: христианство, ислам, буддизм, индуизм",
+        "Народы мира классифицируются по языковым семьям (индоевропейская, сино-тибетская)",
+        "Этнос — исторически сложившаяся общность людей с общей культурой и языком",
+      ],
+      examples: [
+        "Тихий океан — самый большой (165 млн км²), Марианская впадина — 11 022 м 🌊",
+        "Гольфстрим — тёплое течение Атлантического океана",
+      ], correctAnswer: "Китайцы (хань)", hint: "Более 1,4 млрд человек" },
       { type: 'quiz', question: "Какая языковая семья самая распространённая?", options: ["Сино-тибетская", "Афразийская", "Индоевропейская", "Уральская", "Другой ответ"], correctAnswer: "Индоевропейская", hint: "Народы Европы, Индии, Америки" },
       { type: 'quiz', question: "Сколько приверженцев у христианства?", options: ["500 млн", "1 млрд", "1,9 млрд", "2,4 млрд", "Другой ответ"], correctAnswer: "2,4 млрд", hint: "Самая многочисленная мировая религия" },
       { type: 'quiz', question: "Где широко распространён ислам?", options: ["Европа", "Южная Америка", "Ближний Восток и Северная Африка", "Австралия", "Другой ответ"], correctAnswer: "Ближний Восток и Северная Африка", hint: "Суннизм и шиизм" },
@@ -787,11 +863,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Тихий и Атлантический океаны",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson29.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
-      { type: 'quiz', question: "Какова площадь Тихого океана?", options: ["92 млн км²", "165 млн км²", "73 млн км²", "14 млн км²", "Другой ответ"], correctAnswer: "165 млн км²", hint: "Самый большой океан" },
+      { type: 'quiz', question: "Какова площадь Тихого океана?", options: ["92 млн км²", "165 млн км²", "73 млн км²", "14 млн км²", "Другой ответ"],
+      keyPoints: [
+        "Тихий океан — самый большой и глубокий океан на Земле",
+        "Атлантический океан — второй по величине, имеет форму буквы S",
+        "Океанические течения влияют на климат прилегающих территорий",
+      ],
+      examples: [
+        "Индийский океан — самый тёплый океан на Земле ☀️",
+        "Северный морской путь — важная транспортная артерия вдоль Арктики",
+      ], correctAnswer: "165 млн км²", hint: "Самый большой океан" },
       { type: 'quiz', question: "Какова глубина Марианской впадины?", options: ["5000 м", "8000 м", "11 022 м", "15 000 м", "Другой ответ"], correctAnswer: "11 022 м", hint: "Самое глубокое место на Земле" },
       { type: 'quiz', question: "Какое течение смягчает климат Европы?", options: ["Куросио", "Гольфстрим", "Перуанское", "Бенгельское", "Другой ответ"], correctAnswer: "Гольфстрим", hint: "Тёплое течение Атлантического океана" },
       { type: 'quiz', question: "Какая площадь Атлантического океана?", options: ["14 млн км²", "73 млн км²", "92 млн км²", "165 млн км²", "Другой ответ"], correctAnswer: "92 млн км²", hint: "Второй по размеру океан" },
@@ -801,11 +887,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Индийский и Северный Ледовитый океаны",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson30.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
-      { type: 'quiz', question: "Какой океан самый тёплый?", options: ["Тихий", "Атлантический", "Индийский", "Северный Ледовитый", "Другой ответ"], correctAnswer: "Индийский", hint: "Расположен в основном в тёплых широтах" },
+      { type: 'quiz', question: "Какой океан самый тёплый?", options: ["Тихий", "Атлантический", "Индийский", "Северный Ледовитый", "Другой ответ"],
+      keyPoints: [
+        "Индийский океан — самый тёплый, расположен в основном в южном полушарии",
+        "Северный Ледовитый океан — самый маленький, покрыт льдом большую часть года",
+        "Океаны играют ключевую роль в регулировании климата Земли",
+      ],
+      examples: [
+        "Африка — второй по размеру материк (30 млн км²), пересекается экватором 🌍",
+        "Килиманджаро (5895 м) — высшая точка Африки",
+      ], correctAnswer: "Индийский", hint: "Расположен в основном в тёплых широтах" },
       { type: 'quiz', question: "Какова площадь Северного Ледовитого океана?", options: ["14 млн км²", "73 млн км²", "92 млн км²", "165 млн км²", "Другой ответ"], correctAnswer: "14 млн км²", hint: "Самый маленький океан" },
       { type: 'quiz', question: "Какие животные обитают в Арктике?", options: ["Крокодилы, фламинго", "Полярные медведи, моржи, тюлени", "Обезьяны, попугаи", "Зебры, слоны", "Другой ответ"], correctAnswer: "Полярные медведи, моржи, тюлени", hint: "Животные, адаптированные к холоду" },
       { type: 'quiz', question: "Что такое Северный морской путь?", options: ["Дорога в Африку", "Транспортная артерия вдоль Арктики", "Мост через океан", "Туннель подо льдами", "Другой ответ"], correctAnswer: "Транспортная артерия вдоль Арктики", hint: "Важный путь для судоходства" },
@@ -815,11 +911,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Географическое положение и рельеф Африки",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson31.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
-      { type: 'quiz', question: "Какова площадь Африки?", options: ["20 млн км²", "25 млн км²", "30 млн км²", "44 млн км²", "Другой ответ"], correctAnswer: "30 млн км²", hint: "Второй по размеру материк" },
+      { type: 'quiz', question: "Какова площадь Африки?", options: ["20 млн км²", "25 млн км²", "30 млн км²", "44 млн км²", "Другой ответ"],
+      keyPoints: [
+        "Африка — второй по величине континент после Евразии",
+        "Экватор пересекает Африку почти посередине, обеспечивая жаркий климат",
+        "Африка омывается двумя океанами: Атлантическим и Индийским",
+      ],
+      examples: [
+        "Нил — самая длинная река Африки (6671 км) 🏞️",
+        "Сахара — крупнейшая пустыня мира, расположена в Северной Африке",
+      ], correctAnswer: "30 млн км²", hint: "Второй по размеру материк" },
       { type: 'quiz', question: "Какая высшая точка Африки?", options: ["Гора Кения", "Килиманджаро", "Гора Камерун", "Атлас", "Другой ответ"], correctAnswer: "Килиманджаро", hint: "5895 метров" },
       { type: 'quiz', question: "Какие океаны омывают Африку?", options: ["Тихий и Северный Ледовитый", "Атлантический и Индийский", "Только Индийский", "Только Атлантический", "Другой ответ"], correctAnswer: "Атлантический и Индийский", hint: "Запад и восток материка" },
       { type: 'quiz', question: "Какая особенность географического положения Африки?", options: ["Расположена только в северном полушарии", "Экватор пересекает почти посередине", "Полностью в южном полушарии", "Не пересекается экватором", "Другой ответ"], correctAnswer: "Экватор пересекает почти посередине", hint: "Обеспечивает жаркий климат" },
@@ -829,11 +935,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Природа Африки",
+    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson32.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
-      { type: 'quiz', question: "Почему Африка — самый жаркий материк?", options: ["Много вулканов", "Экватор пересекает посередине", "Высокие горы", "Много рек", "Другой ответ"], correctAnswer: "Экватор пересекает посередине", hint: "Максимум солнечного тепла" },
+      { type: 'quiz', question: "Почему Африка — самый жаркий материк?", options: ["Много вулканов", "Экватор пересекает посередине", "Высокие горы", "Много рек", "Другой ответ"],
+      keyPoints: [
+        "Природа Африки разнообразна: от влажных экваторialных лесов до пустыни Сахара",
+        "Сахара — крупнейшая жаркая пустыня мира",
+        "В Африке обитают уникальные животные: слоны, львы, жирафы, зебры",
+      ],
+      examples: [
+        "Present Simple: I usually wake up at 7 o'clock 🕐",
+        "Наречия частотности: always (100%) → usually → often → sometimes → rarely → never (0%)",
+      ], correctAnswer: "Экватор пересекает посередине", hint: "Максимум солнечного тепла" },
       { type: 'quiz', question: "Какая самая длинная река Африки?", options: ["Конго", "Нил", "Нигер", "Замбези", "Другой ответ"], correctAnswer: "Нил", hint: "6671 км" },
       { type: 'quiz', question: "Какая крупнейшая пустыня Африки?", options: ["Гоби", "Калахари", "Сахара", "Намиб", "Другой ответ"], correctAnswer: "Сахара", hint: "Крупнейшая жаркая пустыня мира" },
       { type: 'quiz', question: "Какие природные зоны характерны для Африки?", options: ["Тайга и тундра", "Влажные леса, саванны, пустыни", "Только ледники", "Только степи", "Другой ответ"], correctAnswer: "Влажные леса, саванны, пустыни", hint: "От экваториальных лесов до пустынь" },

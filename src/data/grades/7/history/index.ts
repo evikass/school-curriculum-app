@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Объединение русских земель",
+          image: "/school-curriculum-app/images/lessons/grade7/history/lesson1.svg",
           description: `**Объединение земель вокруг Москвы** — процесс создания единого государства.
 
 **Причины объединения:**
@@ -62,6 +63,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Иван III и освобождение Руси",
+          image: "/school-curriculum-app/images/lessons/grade7/history/lesson2.svg",
           description: `**Иван III Васильевич** (1462-1505) — собиратель земель Руси.
 
 **Внутренняя политика:**
@@ -122,6 +124,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Иван IV Грозный",
+          image: "/school-curriculum-app/images/lessons/grade7/history/lesson3.svg",
           description: `**Иван IV Васильевич Грозный** (1533-1584) — первый русский царь.
 
 **Детство:**
@@ -179,6 +182,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Культура XVI века",
+          image: "/school-curriculum-app/images/lessons/grade7/history/lesson4.svg",
           description: `**Культура Московского государства:**
 
 **Летописание:**
@@ -242,6 +246,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Причины и начало Смуты",
+          image: "/school-curriculum-app/images/lessons/grade7/history/lesson5.svg",
           description: `**Смутное время** (1598-1613) — период кризиса государства.
 
 **Причины Смуты:**
@@ -300,6 +305,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Освобождение Москвы",
+          image: "/school-curriculum-app/images/lessons/grade7/history/lesson6.svg",
           description: `**Кульминация Смуты:**
 
 **Лжедмитрий II:**
@@ -354,6 +360,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Начало династии Романовых",
+          image: "/school-curriculum-app/images/lessons/grade7/history/lesson7.svg",
           description: `**Земский собор 1613 года:**
 - Выбор нового царя
 - Михаил Фёдорович Романов
@@ -414,6 +421,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Соборное уложение 1649 года",
+          image: "/school-curriculum-app/images/lessons/grade7/history/lesson8.svg",
           description: `**Соборное уложение** — свод законов, принятый при Алексее Михайловиче.
 
 **Причины создания:**
@@ -467,6 +475,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Церковный раскол",
+          image: "/school-curriculum-app/images/lessons/grade7/history/lesson9.svg",
           description: `**Раскол** — разделение церкви на никониан и старообрядцев.
 
 **Причины:**
@@ -525,6 +534,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Объединение русских земель 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson10.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -539,6 +549,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Иван III и освобождение Руси 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson11.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -553,6 +564,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Иван IV Грозный 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson12.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -567,6 +579,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Культура XVI века 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson13.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -581,6 +594,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Причины и начало Смуты 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson14.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -595,6 +609,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Освобождение Москвы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson15.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -610,6 +625,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Объединение русских земель 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson16.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -624,6 +640,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Иван III и освобождение Руси 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson17.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -638,6 +655,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Иван IV Грозный 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson18.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -652,6 +670,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Культура XVI века 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson19.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -666,6 +685,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Причины и начало Смуты 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson20.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -680,6 +700,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Освобождение Москвы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson21.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -695,6 +716,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Московское государство",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson22.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -709,6 +731,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Смутное время",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson23.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -722,6 +745,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Объединение Руси",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson24.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -735,6 +759,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Россия в XVII веке",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson25.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -748,11 +773,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Объединение русских земель",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson26.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
-      { type: 'quiz', question: "Какое событие произошло в 1380 году?", options: ["Стояние на Угре", "Куликовская битва", "Присоединение Новгорода", "Судебник Ивана III", "Другой ответ"], correctAnswer: "Куликовская битва", hint: "Дмитрий Донской разгромил Мамая" },
+      { type: 'quiz', question: "Какое событие произошло в 1380 году?", options: ["Стояние на Угре", "Куликовская битва", "Присоединение Новгорода", "Судебник Ивана III", "Другой ответ"],
+      keyPoints: [
+        "Объединение русских земель вокруг Москвы происходило в XIV–XV веках",
+        "Иван III принял титул Государь всея Руси и освободился от ордынской зависимости",
+        "Удельная система была заменена централизованным государством",
+      ],
+      examples: [
+        "Стояние на реке Угре (1480) — конец ордынского ига, 240 лет зависимости 🏰",
+        "Судебник 1497 года — первый общерусский свод законов",
+      ], correctAnswer: "Куликовская битва", hint: "Дмитрий Донской разгромил Мамая" },
       { type: 'quiz', question: "Кто начал процесс объединения русских земель?", options: ["Иван III", "Дмитрий Донской", "Василий III", "Иван Калита", "Другой ответ"], correctAnswer: "Дмитрий Донской", hint: "Куликовская битва — начало освобождения" },
       { type: 'quiz', question: "Кто завершил объединение русских земель?", options: ["Иван III", "Василий III", "Дмитрий Донской", "Иван IV", "Другой ответ"], correctAnswer: "Василий III", hint: "Присоединил Псков, Рязань, Смоленск" },
       { type: 'quiz', question: "Какова была одна из причин объединения земель?", options: ["Война с Турцией", "Необходимость освобождения от Орды", "Религиозные реформы", "Торговля с Китаем", "Другой ответ"], correctAnswer: "Необходимость освобождения от Орды", hint: "240 лет зависимости" },
@@ -762,11 +797,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Иван III и освобождение Руси",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson27.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
-      { type: 'quiz', question: "Какое событие в 1480 году ознаменовало конец ордынского ига?", options: ["Куликовская битва", "Стояние на реке Угре", "Взятие Казани", "Ливонская война", "Другой ответ"], correctAnswer: "Стояние на реке Угре", hint: "Хан Ахмат отступил" },
+      { type: 'quiz', question: "Какое событие в 1480 году ознаменовало конец ордынского ига?", options: ["Куликовская битва", "Стояние на реке Угре", "Взятие Казани", "Ливонская война", "Другой ответ"],
+      keyPoints: [
+        "Иван III (1462–1505) — первый великий князь всея Руси",
+        "Взятие Казани (1487) и присоединение Новгорода (1478) — главные достижения",
+        "Судебник 1497 года — первый единый свод законов",
+      ],
+      examples: [
+        "Иван IV — первый русский царь, венчан на царство в 1547 году 👑",
+        "Опричнина (1565-1572) — террор против боярства, раздел страны на две части",
+      ], correctAnswer: "Стояние на реке Угре", hint: "Хан Ахмат отступил" },
       { type: 'quiz', question: "Какой город был присоединён Иваном III в 1478 году?", options: ["Тверь", "Казань", "Новгород", "Псков", "Другой ответ"], correctAnswer: "Новгород", hint: "Ликвидация республики" },
       { type: 'quiz', question: "Что такое Судебник 1497 года?", options: ["Церковный документ", "Первый общерусский свод законов", "Мирный договор", "Военный устав", "Другой ответ"], correctAnswer: "Первый общерусский свод законов", hint: "Единые правила суда" },
       { type: 'quiz', question: "Какой титул принял Иван III?", options: ["Царь", "Император", "Государь всея Руси", "Князь Киевский", "Другой ответ"], correctAnswer: "Государь всея Руси", hint: "Объединитель земель" },
@@ -776,11 +821,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Иван IV Грозный",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson28.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
-      { type: 'quiz', question: "В каком году Иван IV венчался на царство?", options: ["1533", "1547", "1550", "1565", "Другой ответ"], correctAnswer: "1547", hint: "Первый русский царь" },
+      { type: 'quiz', question: "В каком году Иван IV венчался на царство?", options: ["1533", "1547", "1550", "1565", "Другой ответ"],
+      keyPoints: [
+        "Иван IV Грозный (1547–1584) — первый русский царь",
+        "Опричнина — политика массовых репрессий и террора (1565–1572)",
+        "При Иване Грозном началось покорение Сибири и Казанское ханство пало",
+      ],
+      examples: [
+        "Храм Василия Блаженного на Красной площади — шедевр шатрового зодчества ⛪",
+        "Иван Фёдоров — первопечатник, издал Апостол в 1564 году",
+      ], correctAnswer: "1547", hint: "Первый русский царь" },
       { type: 'quiz', question: "Что такое опричнина?", options: ["Реформа церкви", "Раздел страны на две части с террором", "Земский собор", "Судебник", "Другой ответ"], correctAnswer: "Раздел страны на две части с террором", hint: "1565–1572 годы" },
       { type: 'quiz', question: "Какое ханство было присоединено в 1552 году?", options: ["Астраханское", "Казанское", "Крымское", "Сибирское", "Другой ответ"], correctAnswer: "Казанское", hint: "При Иване Грозном" },
       { type: 'quiz', question: "Чем закончилась Ливонская война (1558–1583)?", options: ["Победой России", "Поражением России", "Мирным договором", "Ничем", "Другой ответ"], correctAnswer: "Поражением России", hint: "Борьба за выход к Балтике" },
@@ -790,11 +845,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Культура XVI века",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson29.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
-      { type: 'quiz', question: "Кто был первым русским первопечатником?", options: ["Дионисий", "Иван Фёдоров", "Пересветов", "Никон", "Другой ответ"], correctAnswer: "Иван Фёдоров", hint: "Издал первую печатную книгу" },
+      { type: 'quiz', question: "Кто был первым русским первопечатником?", options: ["Дионисий", "Иван Фёдоров", "Пересветов", "Никон", "Другой ответ"],
+      keyPoints: [
+        "Культура XVI века развивалась под влиянием идеи централизованного государства",
+        "Книгопечатание в России началось с Ивана Фёдорова (1564 год)",
+        "Строительство храма Василия Блаженного символизировало мощь государства",
+      ],
+      examples: [
+        "Смутное время (1598-1613) — кризис после прекращения династии Рюриковичей 📜",
+        "Голод 1601-1603 годов и Лжедмитрий I — катализаторы Смуты",
+      ], correctAnswer: "Иван Фёдоров", hint: "Издал первую печатную книгу" },
       { type: 'quiz', question: "Какая книга была напечатана первой в России?", options: ["Библия", "Апостол", "Часовник", "Псалтырь", "Другой ответ"], correctAnswer: "Апостол", hint: "1564 год" },
       { type: 'quiz', question: "Какой храм построен на Красной площади в стиле шатрового зодчества?", options: ["Успенский собор", "Храм Василия Блаженного", "Архангельский собор", "Благовещенский собор", "Другой ответ"], correctAnswer: "Храм Василия Блаженного", hint: "Покровский собор" },
       { type: 'quiz', question: "Что такое шатровый стиль?", options: ["Стиль с куполами", "Стиль с шатром вместо купола", "Готический стиль", "Классический стиль", "Другой ответ"], correctAnswer: "Стиль с шатром вместо купола", hint: "Церковь Вознесения в Коломенском" },
@@ -804,11 +869,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Причины и начало Смуты",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson30.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
-      { type: 'quiz', question: "В каком году началось Смутное время?", options: ["1598", "1601", "1605", "1610", "Другой ответ"], correctAnswer: "1598", hint: "После смерти Фёдора Ивановича" },
+      { type: 'quiz', question: "В каком году началось Смутное время?", options: ["1598", "1601", "1605", "1610", "Другой ответ"],
+      keyPoints: [
+        "Причины Смуты: династический кризис, экономический упадок, голод",
+        "Лжедмитрий I — самозванец, занявший русский престол (1605–1606)",
+        "Польско-литовская интервенция — иностранное вмешательство в дела России",
+      ],
+      examples: [
+        "Минин и Пожарский — организаторы Второго ополчения (1612) 🛡️",
+        "4 ноября — День народного единства, освобождение Москвы от поляков",
+      ], correctAnswer: "1598", hint: "После смерти Фёдора Ивановича" },
       { type: 'quiz', question: "Какова была главная причина Смуты?", options: ["Война с Турцией", "Династический кризис", "Реформа Никона", "Эпидемия чумы", "Другой ответ"], correctAnswer: "Династический кризис", hint: "Прекращение династии Рюриковичей" },
       { type: 'quiz', question: "Кто стал царём после смерти Фёдора Ивановича?", options: ["Лжедмитрий I", "Василий Шуйский", "Борис Годунов", "Михаил Романов", "Другой ответ"], correctAnswer: "Борис Годунов", hint: "Избранный царь" },
       { type: 'quiz', question: "Кто такой Лжедмитрий I?", options: ["Боярин", "Самозванец, занявший престол", "Польский король", "Шведский полководец", "Другой ответ"], correctAnswer: "Самозванец, занявший престол", hint: "Появился в 1604 году" },
@@ -818,11 +893,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Освобождение Москвы",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson31.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
-      { type: 'quiz', question: "Кто организовал сбор средств для Второго ополчения?", options: ["Пожарский", "Минин", "Ляпунов", "Трубецкой", "Другой ответ"], correctAnswer: "Минин", hint: "Кузьма Минин из Нижнего Новгорода" },
+      { type: 'quiz', question: "Кто организовал сбор средств для Второго ополчения?", options: ["Пожарский", "Минин", "Ляпунов", "Трубецкой", "Другой ответ"],
+      keyPoints: [
+        "Освобождение Москвы ополчением под руководством Минина и Пожарского (1612)",
+        "Нижегородское ополчение — народное движение за независимость",
+        "Кузьма Минин организовал сбор средств, Дмитрий Пожарский стал военачальником",
+      ],
+      examples: [
+        "Михаил Фёдорович Романов — первый царь новой династии (1613) 🏛️",
+        "Династия Романовых правила до 1917 года — более 300 лет",
+      ], correctAnswer: "Минин", hint: "Кузьма Минин из Нижнего Новгорода" },
       { type: 'quiz', question: "Из какого города началось Второе ополчение?", options: ["Москва", "Смоленск", "Нижний Новгород", "Рязань", "Другой ответ"], correctAnswer: "Нижний Новгород", hint: "1612 год" },
       { type: 'quiz', question: "Почему Первое ополчение не смогло освободить Москву?", options: ["Не хватило сил", "Распалось из-за раздоров", "Победило", "Не начинало осаду", "Другой ответ"], correctAnswer: "Распалось из-за раздоров", hint: "Ляпунов, Трубецкой, Заруцкий" },
       { type: 'quiz', question: "Какой праздник отмечается 4 ноября?", options: ["День Конституции", "День народного единства", "День Победы", "День России", "Другой ответ"], correctAnswer: "День народного единства", hint: "Освобождение Кремля в 1612" },
@@ -832,11 +917,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Начало династии Романовых",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson32.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
-      { type: 'quiz', question: "Кто стал первым царём из династии Романовых?", options: ["Алексей Михайлович", "Михаил Фёдорович", "Фёдор Алексеевич", "Пётр I", "Другой ответ"], correctAnswer: "Михаил Фёдорович", hint: "1613 год" },
+      { type: 'quiz', question: "Кто стал первым царём из династии Романовых?", options: ["Алексей Михайлович", "Михаил Фёдорович", "Фёдор Алексеевич", "Пётр I", "Другой ответ"],
+      keyPoints: [
+        "Земский собор 1613 года избрал Михаила Фёдоровича Романова на царство",
+        "Династия Романовых правила Россией с 1613 по 1917 год",
+        "Первые Романовы восстанавливали страну после Смутного времени",
+      ],
+      examples: [
+        "Соборное уложение окончательно закрепостило крестьян, отменив Юрьев день ⚖️",
+        "Смертная казнь за бунт против царя — государственное преступление",
+      ], correctAnswer: "Михаил Фёдорович", hint: "1613 год" },
       { type: 'quiz', question: "В каком году был избран первый Романов на царство?", options: ["1605", "1610", "1612", "1613", "Другой ответ"], correctAnswer: "1613", hint: "Земский собор" },
       { type: 'quiz', question: "Что было потеряно по Столбовскому миру 1617 года?", options: ["Смоленск", "Киев", "Выход к Балтике", "Казань", "Другой ответ"], correctAnswer: "Выход к Балтике", hint: "Мир со Швецией" },
       { type: 'quiz', question: "Как долго правила династия Романовых?", options: ["100 лет", "200 лет", "Более 300 лет", "500 лет", "Другой ответ"], correctAnswer: "Более 300 лет", hint: "До 1917 года" },
@@ -846,11 +941,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Соборное уложение 1649 года",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson33.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
-      { type: 'quiz', question: "Что установило Соборное уложение 1649 года?", options: ["Свободу крестьян", "Окончательное закрепощение крестьян", "Свободу торговли", "Демократию", "Другой ответ"], correctAnswer: "Окончательное закрепощение крестьян", hint: "Отмена Юрьева дня" },
+      { type: 'quiz', question: "Что установило Соборное уложение 1649 года?", options: ["Свободу крестьян", "Окончательное закрепощение крестьян", "Свободу торговли", "Демократию", "Другой ответ"],
+      keyPoints: [
+        "Соборное уложение 1649 года — свод законов, окончательно закрепостивший крестьян",
+        "Уложение было печатным законом, доступным для чтения",
+        "Система наказаний была очень суровой, включая смертную казнь",
+      ],
+      examples: [
+        "Патриарх Никон провёл реформу: двуперстие → трёхперстие ✝️",
+        "Протопоп Аввакум — главный противник реформы, сожжён заживо",
+      ], correctAnswer: "Окончательное закрепощение крестьян", hint: "Отмена Юрьева дня" },
       { type: 'quiz', question: "Что было отменено Соборным уложением?", options: ["Крепостное право", "Юрьев день", "Земские соборы", "Приказы", "Другой ответ"], correctAnswer: "Юрьев день", hint: "День перехода крестьян" },
       { type: 'quiz', question: "Какое наказание предусматривалось за бунт против царя?", options: ["Ссылка", "Тюрьма", "Смертная казнь", "Штраф", "Другой ответ"], correctAnswer: "Смертная казнь", hint: "Государственное преступление" },
       { type: 'quiz', question: "При каком царе было принято Соборное уложение?", options: ["Михаил Фёдорович", "Алексей Михайлович", "Фёдор Алексеевич", "Пётр I", "Другой ответ"], correctAnswer: "Алексей Михайлович", hint: "«Тишайший» царь" },
@@ -860,11 +965,21 @@ export const games: GameLesson[] = [
   },
   {
     title: "Церковный раскол",
+    image: "/school-curriculum-app/images/lessons/grade7/history/lesson34.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
-      { type: 'quiz', question: "Кто провёл церковную реформу в 1650-е годы?", options: ["Аввакум", "Никон", "Филарет", "Алексей Михайлович", "Другой ответ"], correctAnswer: "Никон", hint: "Патриарх с 1652 года" },
+      { type: 'quiz', question: "Кто провёл церковную реформу в 1650-е годы?", options: ["Аввакум", "Никон", "Филарет", "Алексей Михайлович", "Другой ответ"],
+      keyPoints: [
+        "Церковный раскол — разделение русской церкви на никониан и старообрядцев (1650-е)",
+        "Патриарх Nikon провёл реформу богослужебных книг и обрядов",
+        "Старообрядцы (раскольники) не приняли реформы и подвергались гонениям",
+      ],
+      examples: [
+        "Бактерии — прокариоты, не имеют оформленного ядра 🔬",
+        "Формы бактерий: кокки (шары), бациллы (палочки), спириллы (спираль)",
+      ], correctAnswer: "Никон", hint: "Патриарх с 1652 года" },
       { type: 'quiz', question: "На сколько перстов перешли креститься по реформе Никона?", options: ["На один", "На два", "На три", "На пять", "Другой ответ"], correctAnswer: "На три", hint: "Бывшее двуперстие → трёхперстие" },
       { type: 'quiz', question: "Кто был главным противником реформы Никона?", options: ["Иван Фёдоров", "Протопоп Аввакум", "Пересветов", "Курбский", "Другой ответ"], correctAnswer: "Протопоп Аввакум", hint: "Сослан и сожжён заживо" },
       { type: 'quiz', question: "Как назывались люди, не принявшие церковную реформу?", options: ["Никониане", "Старообрядцы", "Казаки", "Дворяне", "Другой ответ"], correctAnswer: "Старообрядцы", hint: "Раскольники" },

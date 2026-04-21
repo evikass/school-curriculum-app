@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Развитие выносливости",
+          image: "/school-curriculum-app/images/lessons/grade7/pe/lesson1.svg",
           description: `**Выносливость** — способность выполнять работу длительное время.
 
 **Виды выносливости:**
@@ -69,6 +70,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Развитие силы и быстроты",
+          image: "/school-curriculum-app/images/lessons/grade7/pe/lesson2.svg",
           description: `**Сила** — способность преодолевать сопротивление.
 
 **Виды силы:**
@@ -138,6 +140,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Баскетбол: техника и тактика",
+          image: "/school-curriculum-app/images/lessons/grade7/pe/lesson3.svg",
           description: `**Баскетбол** — игра с мячом, забрасывание в корзину.
 
 **Основные правила:**
@@ -195,6 +198,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Волейбол: техника и тактика",
+          image: "/school-curriculum-app/images/lessons/grade7/pe/lesson4.svg",
           description: `**Волейбол** — игра через сетку, не давая мячу коснуться пола.
 
 **Основные правила:**
@@ -262,6 +266,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Акробатические упражнения",
+          image: "/school-curriculum-app/images/lessons/grade7/pe/lesson5.svg",
           description: `**Акробатика** — упражнения с переворотами и вращениями.
 
 **Группировки:**
@@ -335,6 +340,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Лыжные ходы",
+          image: "/school-curriculum-app/images/lessons/grade7/pe/lesson6.svg",
           description: `**Лыжные ходы** — способы передвижения на лыжах.
 
 **Классические ходы:**
@@ -407,6 +413,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Развитие выносливости 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson7.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -421,6 +428,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Развитие силы и быстроты 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson8.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -435,6 +443,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Баскетбол: техника и тактика 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson9.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -449,6 +458,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Волейбол: техника и тактика 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson10.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -463,6 +473,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Акробатические упражнения 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson11.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -477,6 +488,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Лыжные ходы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson12.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -492,6 +504,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Развитие выносливости 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson13.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -506,6 +519,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Развитие силы и быстроты 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson14.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -520,6 +534,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Баскетбол: техника и тактика 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson15.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -534,6 +549,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Волейбол: техника и тактика 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson16.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -548,6 +564,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Акробатические упражнения 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson17.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -562,6 +579,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Лыжные ходы 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson18.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -577,6 +595,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Физические качества",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson19.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -591,6 +610,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Спортивные игры",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson20.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -605,6 +625,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Гимнастика",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson21.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -619,6 +640,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Лыжная подготовка",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson22.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -633,11 +655,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Развитие выносливости",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson23.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
     tasks: [
-      { type: 'quiz', question: "Что такое выносливость?", options: ["Способность поднимать тяжести", "Способность выполнять работу длительное время", "Скорость бега", "Гибкость тела", "Другой ответ"], correctAnswer: "Способность выполнять работу длительное время", hint: "Длительная физическая работа" },
+      { type: 'quiz', question: "Что такое выносливость?", options: ["Способность поднимать тяжести", "Способность выполнять работу длительное время", "Скорость бега", "Гибкость тела", "Другой ответ"],
+      keyPoints: [
+        "Выносливость — способность длительно выполнять физическую работу",
+        "Для развития выносливости используются бег, плавание, лыжи",
+        "Аэробные нагрузки (пульс 120–150 уд/мин) развивают общую выносливость",
+      ],
+      examples: [
+        "Отжимания и подтягивания — упражнения для силы с собственным весом 💪",
+        "Взрывная сила нужна для прыжков и метаний — быстрое проявление силы",
+        "Челночный бег развивает быстроту и ловкость одновременно",
+      ], correctAnswer: "Способность выполнять работу длительное время", hint: "Длительная физическая работа" },
       { type: 'quiz', question: "Какой пульс оптимален для тренировки выносливости?", options: ["80-100 уд/мин", "130-150 уд/мин", "160-180 уд/мин", "200+ уд/мин", "Другой ответ"], correctAnswer: "130-150 уд/мин", hint: "Аэробная зона" },
       { type: 'quiz', question: "Что такое фартлек?", options: ["Силовая тренировка", "«Игра скоростей» — чередование ускорений и бега", "Стретчинг", "Комплекс упражнений", "Другой ответ"], correctAnswer: "«Игра скоростей» — чередование ускорений и бега", hint: "Переменный метод бега" },
       { type: 'quiz', question: "Какие упражнения развивают общую выносливость?", options: ["Отжимания и подтягивания", "Бег, плавание, ходьба на лыжах", "Прыжки на скакалке", "Планка", "Другой ответ"], correctAnswer: "Бег, плавание, ходьба на лыжах", hint: "Аэробные нагрузки" },
@@ -647,11 +680,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Развитие силы и быстроты",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson24.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
     tasks: [
-      { type: 'quiz', question: "Что такое взрывная сила?", options: ["Сила подъёма тяжестей", "Проявление силы в кратчайшее время", "Длительная силовая работа", "Сила сгибания рук", "Другой ответ"], correctAnswer: "Проявление силы в кратчайшее время", hint: "Нужна для прыжков и метаний" },
+      { type: 'quiz', question: "Что такое взрывная сила?", options: ["Сила подъёма тяжестей", "Проявление силы в кратчайшее время", "Длительная силовая работа", "Сила сгибания рук", "Другой ответ"],
+      keyPoints: [
+        "Сила — способность преодолевать внешнее сопротивление",
+        "Быстрота — способность выполнять движения в минимальное время",
+        "Силовые упражнения и спринтерский бег развивают эти качества",
+      ],
+      examples: [
+        "В баскетболе играют 2 команды по 5 человек на площадке 🏀",
+        "Дриблинг — ведение мяча ударами ладони, голова поднята",
+        "Штрафной бросок выполняется со стойки за линией, 1 очко за попадание",
+      ], correctAnswer: "Проявление силы в кратчайшее время", hint: "Нужна для прыжков и метаний" },
       { type: 'quiz', question: "Какие упражнения развивают силу с собственным весом?", options: ["Жим штанги", "Отжимания, подтягивания, приседания", "Бег на короткие дистанции", "Плавание", "Другой ответ"], correctAnswer: "Отжимания, подтягивания, приседания", hint: "Без дополнительного отягощения" },
       { type: 'quiz', question: "Что такое быстрота?", options: ["Гибкость суставов", "Способность выполнять движения за минимальное время", "Максимальная сила", "Выносливость", "Другой ответ"], correctAnswer: "Способность выполнять движения за минимальное время", hint: "Скорость движений" },
       { type: 'quiz', question: "Какой вид быстроты относится к скорости ответной реакции?", options: ["Частота движений", "Скорость одиночного движения", "Быстрота реакции", "Силовая выносливость", "Другой ответ"], correctAnswer: "Быстрота реакции", hint: "Время реакции на сигнал" },
@@ -661,11 +705,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Баскетбол: техника и тактика",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson25.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
     tasks: [
-      { type: 'quiz', question: "Сколько игроков от каждой команды находится на площадке в баскетболе?", options: ["4", "5", "6", "7", "Другой ответ"], correctAnswer: "5", hint: "2 команды по 5 человек" },
+      { type: 'quiz', question: "Сколько игроков от каждой команды находится на площадке в баскетболе?", options: ["4", "5", "6", "7", "Другой ответ"],
+      keyPoints: [
+        "Баскетбол: дриблинг, передачи, броски — основные технические приёмы",
+        "Тактические схемы: позиционная атака, зонная и личная защита",
+        "Фол — нарушение правил, дающее право на штрафные броски",
+      ],
+      examples: [
+        "В волейболе мяч можно коснуться максимум 3 раза перед перебросом 🏐",
+        "Верхняя передача — руки над головой, касание подушечками пальцев",
+        "Волейбольная сетка: 2,43 м — мужская высота, 2,24 м — женская",
+      ], correctAnswer: "5", hint: "2 команды по 5 человек" },
       { type: 'quiz', question: "Что такое дриблинг в баскетболе?", options: ["Бросок в корзину", "Ведение мяча ударами ладони", "Передача мяча партнёру", "Подача", "Другой ответ"], correctAnswer: "Ведение мяча ударами ладони", hint: "Ведение мяча" },
       { type: 'quiz', question: "Сколько очков приносит попадание штрафного броска?", options: ["1", "2", "3", "4", "Другой ответ"], correctAnswer: "1", hint: "Штрафной бросок" },
       { type: 'quiz', question: "Что такое зонная защита в баскетболе?", options: ["Защита одного игрока", "Каждый игрок опекает определённую зону", "Быстрый отрыв", "Персональная опека", "Другой ответ"], correctAnswer: "Каждый игрок опекает определённую зону", hint: "Зональная расстановка" },
@@ -675,11 +730,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Волейбол: техника и тактика",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson26.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
     tasks: [
-      { type: 'quiz', question: "Сколько игроков в волейбольной команде на площадке?", options: ["4", "5", "6", "7", "Другой ответ"], correctAnswer: "6", hint: "2 команды по 6 человек" },
+      { type: 'quiz', question: "Сколько игроков в волейбольной команде на площадке?", options: ["4", "5", "6", "7", "Другой ответ"],
+      keyPoints: [
+        "Волейбол: подача, приём, пас, нападающий удар — основные элементы",
+        "Тактика: быстрые переводы, комбинации с центральным блокирующим",
+        "Либеро — игрок задней линии, specialised в защите",
+      ],
+      examples: [
+        "Кувырок вперёд: из упора присев → группировка → перекат → упор присев 🤸",
+        "Стойка на лопатках: лёжа на спине, ноги вверх, опора на лопатки",
+        "Акробатика выполняется только на матах после обязательной разминки",
+      ], correctAnswer: "6", hint: "2 команды по 6 человек" },
       { type: 'quiz', question: "Сколько раз можно коснуться мяча перед перебросом через сетку?", options: ["2", "3", "4", "Без ограничений", "Другой ответ"], correctAnswer: "3", hint: "Максимум касаний" },
       { type: 'quiz', question: "Как выполняется верхняя передача в волейболе?", options: ["Руки на поясе", "Руки над головой, касание подушечками пальцев", "Кулаками снизу", "Одной рукой сбоку", "Другой ответ"], correctAnswer: "Руки над головой, касание подушечками пальцев", hint: "Руки вытянуты вверх" },
       { type: 'quiz', question: "Как называется приём мяча на предплечья?", options: ["Верхняя передача", "Нижняя передача", "Нападающий удар", "Подача", "Другой ответ"], correctAnswer: "Нижняя передача", hint: "Руки вместе, прямые" },
@@ -689,11 +755,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Акробатические упражнения",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson27.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
     tasks: [
-      { type: 'quiz', question: "Из какого положения выполняется кувырок вперёд?", options: ["Стоя", "Лёжа на спине", "Упор присев", "Вис на перекладине", "Другой ответ"], correctAnswer: "Упор присев", hint: "Присев на корточки" },
+      { type: 'quiz', question: "Из какого положения выполняется кувырок вперёд?", options: ["Стоя", "Лёжа на спине", "Упор присев", "Вис на перекладине", "Другой ответ"],
+      keyPoints: [
+        "Акробатические упражнения: кувырки, стойки, перевороты, равновесия",
+        "Акробатика развивает координацию, гибкость и силу",
+        "Безопасность при выполнении акробатических упражнений — главное правило",
+      ],
+      examples: [
+        "Ласточка — наклон вперёд на одной ноге, руки в стороны, спина прямая",
+        "Ходьба по гимнастической скамейке с предметом на голове развивает статическое равновесие",
+        "Устойчивость зависит от площади опоры и положения центра тяжести",
+      ], correctAnswer: "Упор присев", hint: "Присев на корточки" },
       { type: 'quiz', question: "На что опираются при выполнении стойки на лопатках?", options: ["На руки и ноги", "На голову", "На лопатки", "На предплечья", "Другой ответ"], correctAnswer: "На лопатки", hint: "Лёжа на спине, ноги вверх" },
       { type: 'quiz', question: "Как выполняется группировка сидя?", options: ["Ноги прямо, руки за голову", "Колени к груди, руки обхватывают голени", "Руки вверх, ноги вместе", "Присед, руки вперёд", "Другой ответ"], correctAnswer: "Колени к груди, руки обхватывают голени", hint: "Свернуться в клубок" },
       { type: 'quiz', question: "Что такое «мост» в акробатике?", options: ["Перекат вперёд", "Лёжа на спине, опора на руки и ноги, спина прогнута", "Стойка на голове", "Кувырок назад", "Другой ответ"], correctAnswer: "Лёжа на спине, опора на руки и ноги, спина прогнута", hint: "Прогиб спины" },
@@ -703,11 +780,22 @@ export const games: GameLesson[] = [
   },
   {
     title: "Лыжные ходы",
+    image: "/school-curriculum-app/images/lessons/grade7/pe/lesson28.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
     tasks: [
-      { type: 'quiz', question: "Какой лыжный ход является основным для классики?", options: ["Коньковый", "Одновременный бесшажный", "Попеременный двухшажный", "Одновременный одношажный", "Другой ответ"], correctAnswer: "Попеременный двухшажный", hint: "Поочерёдное отталкивание палками" },
+      { type: 'quiz', question: "Какой лыжный ход является основным для классики?", options: ["Коньковый", "Одновременный бесшажный", "Попеременный двухшажный", "Одновременный одношажный", "Другой ответ"],
+      keyPoints: [
+        "Основные лыжные ходы: попеременный двухшажный, одновременный бесшажный",
+        "Подъёмы: лесенкой, полуёлочкой, ёлочкой",
+        "Торможение: плугом и упором",
+      ],
+      examples: [
+        "С 14 лет можно ездить по проезжей части с соблюдением ПДД 🚲",
+        "Велосипедист обязан иметь: тормоза, звуковой сигнал, светоотражатели",
+        "Левый поворот — вытянутая левая рука, правый — вытянутая правая",
+      ], correctAnswer: "Попеременный двухшажный", hint: "Поочерёдное отталкивание палками" },
       { type: 'quiz', question: "Как выполняется коньковый ход?", options: ["Отталкивание внутренним ребром", "Попеременное отталкивание палками", "Только отталкивание палками", "Шагом без палок", "Другой ответ"], correctAnswer: "Отталкивание внутренним ребром", hint: "Как на коньках" },
       { type: 'quiz', question: "Как называется подъём боком на склон?", options: ["Ёлочка", "Лесенка", "Скользящий шаг", "Полуёлочка", "Другой ответ"], correctAnswer: "Лесенка", hint: "Боком шаг за шагом" },
       { type: 'quiz', question: "Как тормозят «плугом» на лыжах?", options: ["Носки лыж раздвинуты", "Носки лыж сведены, пятки раздвинуты", "Одна лыжа поперёк", "Обе лыжи параллельно", "Другой ответ"], correctAnswer: "Носки лыж сведены, пятки раздвинуты", hint: "Пятки в стороны" },

@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Былины. Илья Муромец и Соловей-разбойник",
+          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson1.svg",
           description: `**Былина** — жанр русского фольклора, героическая песня.
 
 **Особенности былин:**
@@ -77,6 +78,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Сказки народов мира",
+          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson2.svg",
           description: `**Сказка** — жанр фольклора с фантастическим сюжетом.
 
 **Виды сказок:**
@@ -143,6 +145,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "«Повесть временных лет»",
+          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson3.svg",
           description: `**«Повесть временных лет»** — древнейшая русская летопись.
 
 **Автор:**
@@ -212,6 +215,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "А.С. Пушкин. «Полтава»",
+          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson4.svg",
           description: `**Александр Сергеевич Пушкин** (1799-1837)
 
 **Поэма «Полтава» (1828):**
@@ -278,6 +282,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "М.Ю. Лермонтов. «Песня про царя Ивана Васильевича»",
+          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson5.svg",
           description: `**Михаил Юрьевич Лермонтов** (1814-1841)
 
 **«Песня про царя Ивана Васильевича...» (1837):**
@@ -344,6 +349,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Н.В. Гоголь. «Тарас Бульба»",
+          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson6.svg",
           description: `**Николай Васильевич Гоголь** (1809-1852)
 
 **Повесть «Тарас Бульба» (1835-1842):**
@@ -415,6 +421,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "А.П. Платонов. «Юшка»",
+          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson7.svg",
           description: `**Андрей Платонович Платонов** (1899-1951)
 
 **Рассказ «Юшка» (1936):**
@@ -487,6 +494,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Былины. Илья Муромец и Соловей-разбойник 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson8.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -501,6 +509,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Сказки народов мира 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson9.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -515,6 +524,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "«Повесть временных лет» 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson10.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -529,6 +539,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "А.С. Пушкин. «Полтава» 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson11.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -544,6 +555,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Былины. Илья Муромец и Соловей-разбойник 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson12.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -558,6 +570,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Сказки народов мира 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson13.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -572,6 +585,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "«Повесть временных лет» 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson14.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -586,6 +600,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "А.С. Пушкин. «Полтава» 📚",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson15.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -601,6 +616,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Фольклор и древнерусская литература",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson16.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -615,6 +631,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Русская классика",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson17.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -629,6 +646,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Устное народное творчество",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson18.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -643,6 +661,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Литература XX века",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson19.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -657,11 +676,25 @@ export const games: GameLesson[] = [
   },
   {
     title: "Былины. Илья Муромец и Соловей-разбойник",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson20.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: "Что такое былина?", options: ["Сказка о животных", "Героическая песня о богатырях", "Летопись", "Баллада", "Другой ответ"], correctAnswer: "Героическая песня о богатырях", hint: "Жанр русского фольклора" },
+      { type: 'quiz', question: "Что такое былина?", options: ["Сказка о животных", "Героическая песня о богатырях", "Летопись", "Баллада", "Другой ответ"],
+      keyPoints: [
+        "Былина — жанр русского фольклора, героическая песня о богатырях и подвигах",
+        "Гиперболизация — преувеличение силы богатыря, расстояний, звуков свиста Соловья",
+        "Постоянные эпитеты: добрый молодец, чистое поле, тёмные леса",
+        "Илья Муромец — главный герой-богатырь, защитник родной земли от врагов",
+        "Главная тема: защита родной земли, победа добра над злом",
+      ],
+      examples: [
+        "Уж гой еси, добрый молодец, удалой боец, сын крестьянский! — типичный зачин былины",
+        "Соловей-разбойник свистом сжигает траву-мураву, поваливает леса дубравы — гипербола",
+        "Илья Муромец — собирательный образ русского богатыря, воплощение народного идеала",
+        "Сравнение с былиной о Добрыне Никитиче: оба героя защищают Русь, но разные характеры",
+      ], correctAnswer: "Героическая песня о богатырях", hint: "Жанр русского фольклора" },
       { type: 'quiz', question: "Кого победил Илья Муромец на пути в Киев?", options: ["Змея Горыныча", "Соловья-разбойника", "Калина-царя", "Тугарина Змея", "Другой ответ"], correctAnswer: "Соловья-разбойника", hint: "Свистом валил людей" },
       { type: 'quiz', question: "Что такое гипербола в былине?", options: ["Сравнение", "Преувеличение силы героя или событий", "Повторение", "Звукопись", "Другой ответ"], correctAnswer: "Преувеличение силы героя или событий", hint: "Например, сила богатыря" },
       { type: 'quiz', question: "Какой инструмент использовали при исполнении былин?", options: ["Гусли", "Балалайка", "Баян", "Гитара", "Другой ответ"], correctAnswer: "Гусли", hint: "Струнный инструмент" },
@@ -671,11 +704,25 @@ export const games: GameLesson[] = [
   },
   {
     title: "Сказки народов мира",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson21.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: "Какие виды сказок существуют?", options: ["Только волшебные", "Волшебные, бытовые, о животных", "Исторические и мифологические", "Лирические и эпические", "Другой ответ"], correctAnswer: "Волшебные, бытовые, о животных", hint: "Три основных вида" },
+      { type: 'quiz', question: "Какие виды сказок существуют?", options: ["Только волшебные", "Волшебные, бытовые, о животных", "Исторические и мифологические", "Лирические и эпические", "Другой ответ"],
+      keyPoints: [
+        "Сказка — жанр фольклора с фантастическим сюжетом; виды: волшебные, бытовые, о животных",
+        "Сказка о мёртвой царевне Пушкина основана на русских народных сказках и сказке Жуковского",
+        "Магические числа: 3 (раза обращается к силам), 7 (богатырей) — фольклорная традиция",
+        "Образ царицы-мачехи — воплощение зависти и зла, царевна — доброты и красоты",
+        "Сказка имеет зачин, концовку, присказку — характерные элементы фольклора",
+      ],
+      examples: [
+        "Свет мой, зеркальце! Скажи... — зеркальце как мотив, отражающий гордыню мачехи",
+        "Королевич Елисей обходит солнце, месяц, ветер — фольклорный мотив поиска",
+        "Сравнение со Спящей красавицей братьев Гримм: сходный мотив отравления и спасения",
+        "Песня царицы-мачехи: Я ль на свете всех милее... — выражение гордыни и тщеславия",
+      ], correctAnswer: "Волшебные, бытовые, о животных", hint: "Три основных вида" },
       { type: 'quiz', question: "Кто является злодейкой в «Сказке о мёртвой царевне» Пушкина?", options: ["Баба-Яга", "Кощей", "Царица-мачеха", "Ведьма", "Другой ответ"], correctAnswer: "Царица-мачеха", hint: "Завистливая и коварная" },
       { type: 'quiz', question: "Кто спас царевну в «Сказке о мёртвой царевне»?", options: ["Богатырь", "Королевич Елисей", "Царь", "Месяц", "Другой ответ"], correctAnswer: "Королевич Елисей", hint: "Верный и любящий" },
       { type: 'quiz', question: "Сколько богатырей жило в тереме в сказке Пушкина?", options: ["3", "5", "7", "9", "Другой ответ"], correctAnswer: "7", hint: "Магическое число в фольклоре" },
@@ -685,6 +732,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "«Повесть временных лет»",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson22.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -699,6 +747,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "А.С. Пушкин. «Полтава»",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson23.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -713,6 +762,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "М.Ю. Лермонтов. «Песня про царя Ивана Васильевича»",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson24.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -727,6 +777,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Н.В. Гоголь. «Тарас Бульба»",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson25.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -741,6 +792,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "А.П. Платонов. «Юшка»",
+    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson26.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",

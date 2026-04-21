@@ -884,6 +884,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Знакомство с глиной 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/crafts/lesson1.svg",
     subject: "Художественные ремёсла",
     icon: "Brush",
     color: "text-amber-600",
@@ -898,6 +899,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Базовые приёмы 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/crafts/lesson2.svg",
     subject: "Художественные ремёсла",
     icon: "Brush",
     color: "text-amber-600",
@@ -912,6 +914,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Лепка посуды 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/crafts/lesson3.svg",
     subject: "Художественные ремёсла",
     icon: "Brush",
     color: "text-amber-600",
@@ -926,6 +929,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Роспись глиняных изделий 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/crafts/lesson4.svg",
     subject: "Художественные ремёсла",
     icon: "Brush",
     color: "text-amber-600",
@@ -940,6 +944,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Подготовка дерева 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/crafts/lesson5.svg",
     subject: "Художественные ремёсла",
     icon: "Brush",
     color: "text-amber-600",
@@ -954,6 +959,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Хохломская роспись 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/crafts/lesson6.svg",
     subject: "Художественные ремёсла",
     icon: "Brush",
     color: "text-amber-600",
@@ -968,6 +974,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Городецкая роспись 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/crafts/lesson7.svg",
     subject: "Художественные ремёсла",
     icon: "Brush",
     color: "text-amber-600",
@@ -982,6 +989,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Современная роспись 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/crafts/lesson8.svg",
     subject: "Художественные ремёсла",
     icon: "Brush",
     color: "text-amber-600",
@@ -996,6 +1004,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Основы бисероплетения 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/crafts/lesson9.svg",
     subject: "Художественные ремёсла",
     icon: "Brush",
     color: "text-amber-600",
@@ -1010,6 +1019,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Простые цепочки 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/crafts/lesson10.svg",
     subject: "Художественные ремёсла",
     icon: "Brush",
     color: "text-amber-600",
@@ -1025,6 +1035,7 @@ export const games: GameLesson[] = [
 ] = [
   {
     title: "Народные промыслы",
+    image: "/school-curriculum-app/images/lessons/grade6/crafts/lesson11.svg",
     subject: "Художественные ремёсла",
     icon: "Brush",
     color: "text-amber-600",
@@ -1033,6 +1044,12 @@ export const games: GameLesson[] = [
         type: 'quiz',
         question: "Какой росписью украшают деревянную посуду?",
         options: ["Граффити", "Хохлома", "Тату", "Другой ответ 1", "Другой ответ 2"],
+        keyPoints: [
+          "Тема урока: Народные промыслы (изобразительному искусству)",
+        ],
+        examples: [
+          "Какая роспись бело-синяя?",
+        ],
         correctAnswer: "Хохлома",
         hint: "Золотые узоры на чёрном"
       },
@@ -1056,6 +1073,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Техники ремёсел",
+    image: "/school-curriculum-app/images/lessons/grade6/crafts/lesson12.svg",
     subject: "Художественные ремёсла",
     icon: "Brush",
     color: "text-amber-600",

@@ -2767,7 +2767,17 @@ export const games: GameLesson[] = [
     icon: "Activity",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: 'Какая сложность означает константное время?', options: ['O(1)', 'O(n)', 'O(n²)', 'O(log n)', 'Другой ответ'], correctAnswer: 'O(1)', hint: 'Не зависит от размера данных' },
+      { type: 'quiz', question: 'Какая сложность означает константное время?', options: ['O(1)', 'O(n)', 'O(n²)', 'O(log n)', 'Другой ответ'],
+      keyPoints: [
+        "Основные обозначения — O(1) — константная сложность, не зависит от размера данных",
+        "O(1) — константная сложность, не зависит от размера данных",
+        "O(log n) — логарифмическая сложность",
+      ],
+      examples: [
+        "Пузырьковая сортировка сравнивает соседние элементы — простая, но медленная O(n²)",
+        "Быстрая сортировка выбирает опорный элемент и делит массив — O(n log n)",
+        "Python sorted() использует Timsort — гибридный алгоритм сортировки",
+      ], correctAnswer: 'O(1)', hint: 'Не зависит от размера данных' },
       { type: 'quiz', question: 'Линейная сложность обозначается как O(___).', options: ["1", "n log n", "n", "2n", "n²"], correctAnswer: 'n', hint: 'Время растёт пропорционально данным' },
       { type: 'quiz', question: 'Какая сложность у пузырьковой сортировки?', options: ['O(n²)', 'O(n)', 'O(log n)', 'O(1)', 'Другой ответ'], correctAnswer: 'O(n²)', hint: 'Два вложенных цикла' },
       { type: 'quiz', question: 'Сложность O(log n) — ___ сложность.', options: ["константная", "линейная", "квадратичная", "экспоненциальная", "логарифмическая"], correctAnswer: 'логарифмическая', hint: 'Бинарный поиск' },
@@ -2781,7 +2791,17 @@ export const games: GameLesson[] = [
     icon: "ArrowUpDown",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: 'Упорядочивание элементов — это ___ .', options: ["фильтрация", "поиск", "удаление", "копирование", "сортировка"], correctAnswer: 'сортировка', hint: 'Расстановка по порядку' },
+      { type: 'quiz', question: 'Упорядочивание элементов — это ___ .', options: ["фильтрация", "поиск", "удаление", "копирование", "сортировка"],
+      keyPoints: [
+        "Основные алгоритмы сортировки — Пузырьковая сортировка (Bubble Sort)",
+        "Python: \`sorted(list)\` или \`list.sort()\` используют Timsort — гибридный алгоритм.\`,",
+        "Ключевое понятие: Сортировка данных",
+      ],
+      examples: [
+        "Стек работает по принципу LIFO: push() добавляет, pop() удаляет верхний элемент",
+        "Очередь работает по FIFO: enqueue() в конец, dequeue() из начала",
+        "Стек используется для отмены действий (Ctrl+Z), очередь — для печати документов",
+      ], correctAnswer: 'сортировка', hint: 'Расстановка по порядку' },
       { type: 'quiz', question: 'Какой алгоритм сортировки самый простой?', options: ['Пузырьковый', 'Быстрый', 'Слиянием', 'Пирамидальный', 'Другой ответ'], correctAnswer: 'Пузырьковый', hint: 'Но медленный O(n²)' },
       { type: 'quiz', question: 'Быстрая сортировка работает за O(n log ___).', options: ["log n", "n", "k", "n²", "1"], correctAnswer: 'n', hint: 'В среднем случае' },
       { type: 'quiz', question: 'Сортировка выбором:', options: ['Находит минимум и ставит в начало', 'Меняет соседние элементы', 'Делит массив пополам', 'Использует пирамиду', 'Другой ответ'], correctAnswer: 'Находит минимум и ставит в начало', hint: 'Постепенно заполняем начало' },
@@ -2795,7 +2815,17 @@ export const games: GameLesson[] = [
     icon: "Layers",
     color: "text-purple-400",
     tasks: [
-      { type: 'quiz', question: 'LIFO расшифровывается как Last In, First ___ .', options: ["Over", "Off", "Out", "In", "On"], correctAnswer: 'Out', hint: 'Последний пришёл — первый вышел' },
+      { type: 'quiz', question: 'LIFO расшифровывается как Last In, First ___ .', options: ["Over", "Off", "Out", "In", "On"],
+      keyPoints: [
+        "push(x) — добавить элемент на вершину",
+        "pop() — удалить и вернуть верхний элемент",
+        "peek() — посмотреть верхний элемент без удаления",
+      ],
+      examples: [
+        "Бинарное дерево: каждый узел имеет не более двух детей (левый и правый)",
+        "BFS обходит граф в ширину (уровень за уровнем), DFS — в глубину",
+        "Деревья применяются в файловых системах, графы — в навигации и соцсетях",
+      ], correctAnswer: 'Out', hint: 'Последний пришёл — первый вышел' },
       { type: 'quiz', question: 'Стек работает по принципу:', options: ['LIFO', 'FIFO', 'LILO', 'FILO', 'Другой ответ'], correctAnswer: 'LIFO', hint: 'Стек блюд' },
       { type: 'quiz', question: 'Операция добавления в стек — ___ .', options: ["insert", "add", "pull", "peek", "push"], correctAnswer: 'push', hint: 'Поместить наверх' },
       { type: 'quiz', question: 'Очередь работает по принципу:', options: ['FIFO', 'LIFO', 'LILO', 'FILO', 'Другой ответ'], correctAnswer: 'FIFO', hint: 'Очередь в магазине' },
@@ -2809,7 +2839,17 @@ export const games: GameLesson[] = [
     icon: "GitBranch",
     color: "text-green-400",
     tasks: [
-      { type: 'quiz', question: 'Дерево — ___ структура с корнем и узлами.', options: ["сетевая", "табличная", "плоская", "линейная", "иерархическая"], correctAnswer: 'иерархическая', hint: 'Один корень, много ветвей' },
+      { type: 'quiz', question: 'Дерево — ___ структура с корнем и узлами.', options: ["сетевая", "табличная", "плоская", "линейная", "иерархическая"],
+      keyPoints: [
+        "Основные понятия — Корень — верхний узел дерева",
+        "Корень — верхний узел дерева",
+        "Узел (Node) — элемент дерева",
+      ],
+      examples: [
+        "Иван",
+        "__init__ — конструктор, вызывается при создании объекта, self — ссылка на текущий объект",
+        "Атрибуты — свойства объекта (self.name), методы — функции внутри класса",
+      ], correctAnswer: 'иерархическая', hint: 'Один корень, много ветвей' },
       { type: 'quiz', question: 'Бинарное дерево имеет не более:', options: ['Двух детей у узла', 'Одного ребёнка', 'Трёх детей', 'Любое количество', 'Другой ответ'], correctAnswer: 'Двух детей у узла', hint: 'Бинарное = двоичное' },
       { type: 'quiz', question: 'Граф — набор вершин и ___ .', options: ["корней", "листьев", "циклов", "узлов", "рёбер"], correctAnswer: 'рёбер', hint: 'Связи между вершинами' },
       { type: 'quiz', question: 'BFS — это поиск:', options: ['В ширину', 'В глубину', 'Бинарный', 'Линейный', 'Другой ответ'], correctAnswer: 'В ширину', hint: 'Breadth-First Search' },
@@ -2823,7 +2863,17 @@ export const games: GameLesson[] = [
     icon: "Box",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: 'Класс — это ___ для создания объектов.', options: ["функция", "тип", "метод", "объект", "шаблон"], correctAnswer: 'шаблон', hint: 'Чертёж' },
+      { type: 'quiz', question: 'Класс — это ___ для создания объектов.', options: ["функция", "тип", "метод", "объект", "шаблон"],
+      keyPoints: [
+        "Атрибуты — свойства (данные)",
+        "Методы — поведение (функции)",
+        "Объект — экземпляр класса с конкретными значениями атрибутов.",
+      ],
+      examples: [
+        "self._age — защищённый атрибут (соглашение), self.__password — приватный (недоступен напрямую)",
+        "@property создаёт геттер, @balance.setter — сеттер с валидацией",
+        "Инкапсуляция защищает данные от некорректного изменения",
+      ], correctAnswer: 'шаблон', hint: 'Чертёж' },
       { type: 'quiz', question: 'Объект — это:', options: ['Экземпляр класса', 'Шаблон класса', 'Метод класса', 'Атрибут класса', 'Другой ответ'], correctAnswer: 'Экземпляр класса', hint: 'Конкретный представитель' },
       { type: 'quiz', question: '___ в Python ссылается на текущий объект.', options: ["me", "instance", "current", "obj", "self"], correctAnswer: 'self', hint: 'Ключевое слово' },
       { type: 'quiz', question: 'Конструктор — это метод:', options: ['Для создания объекта', 'Для удаления объекта', 'Для копирования', 'Для сравнения', 'Другой ответ'], correctAnswer: 'Для создания объекта', hint: '__init__ в Python' },
@@ -2837,7 +2887,17 @@ export const games: GameLesson[] = [
     icon: "Lock",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: 'Инкапсуляция — ___ внутренней реализации.', options: ["скрытие", "копирование", "открытие", "удаление", "изменение"], correctAnswer: 'скрытие', hint: 'Защита данных' },
+      { type: 'quiz', question: 'Инкапсуляция — ___ внутренней реализации.', options: ["скрытие", "копирование", "открытие", "удаление", "изменение"],
+      keyPoints: [
+        "Уровни доступа в Python — Публичные (public):",
+        "Защищённые (protected) — соглашение:",
+        "Ключевое понятие: Инкапсуляция",
+      ],
+      examples: [
+        "class Dog(Animal): наследует атрибуты и методы родительского класса Animal",
+        "super().__init__(name) вызывает конструктор родительского класса",
+        "Переопределение метода — изменение поведения унаследованного метода в дочернем классе",
+      ], correctAnswer: 'скрытие', hint: 'Защита данных' },
       { type: 'quiz', question: 'Приватные атрибуты в Python начинаются с:', options: ['_', '__', '@', '#', 'Другой ответ'], correctAnswer: '_', hint: 'Одно или два подчёркивания' },
       { type: 'quiz', question: '___ контролируют доступ к атрибутам.', options: ["функции", "классы", "методы", "переменные", "свойства"], correctAnswer: 'свойства', hint: 'property в Python' },
       { type: 'quiz', question: 'Публичные атрибуты:', options: ['Доступны извне', 'Скрыты', 'Только для чтения', 'Удалены', 'Другой ответ'], correctAnswer: 'Доступны извне', hint: 'Без ограничений' },
@@ -2851,7 +2911,17 @@ export const games: GameLesson[] = [
     icon: "GitMerge",
     color: "text-orange-400",
     tasks: [
-      { type: 'quiz', question: 'Наследование — создание нового класса на основе ___ .', options: ["существующего", "нового", "родительского", "пустого", "абстрактного"], correctAnswer: 'существующего', hint: 'Базовый класс' },
+      { type: 'quiz', question: 'Наследование — создание нового класса на основе ___ .', options: ["существующего", "нового", "родительского", "пустого", "абстрактного"],
+      keyPoints: [
+        "Родительский класс (базовый) — класс, от которого наследуют",
+        "Дочерний класс (производный) — класс, который наследует",
+        "super() — вызов метода родительского класса:",
+      ],
+      examples: [
+        "Полиморфизм: shapes = [Rectangle(5,3), Circle(4)] — for s in shapes: s.area()",
+        "Абстрактный класс (ABC) определяет интерфейс без реализации через @abstractmethod",
+        "Полиморфизм позволяет работать с разными классами через единый интерфейс",
+      ], correctAnswer: 'существующего', hint: 'Базовый класс' },
       { type: 'quiz', question: 'Родительский класс также называют:', options: ['Базовым', 'Производным', 'Дочерним', 'Наследником', 'Другой ответ'], correctAnswer: 'Базовым', hint: 'Основа' },
       { type: 'quiz', question: '___ вызывает метод родительского класса.', options: ["this()", "parent()", "self()", "call()", "super()"], correctAnswer: 'super()', hint: 'Функция в Python' },
       { type: 'quiz', question: 'Переопределение методов — это:', options: ['Изменение поведения', 'Удаление метода', 'Добавление метода', 'Копирование метода', 'Другой ответ'], correctAnswer: 'Изменение поведения', hint: 'Новая реализация' },
@@ -2865,7 +2935,20 @@ export const games: GameLesson[] = [
     icon: "Copy",
     color: "text-cyan-400",
     tasks: [
-      { type: 'quiz', question: 'Полиморфизм — единый ___ для разных форм.', options: ["объект", "метод", "интерфейс", "класс", "атрибут"], correctAnswer: 'интерфейс', hint: 'Один метод — разное поведение' },
+      { type: 'quiz', question: 'Полиморфизм — единый ___ для разных форм.', options: ["объект", "метод", "интерфейс", "класс", "атрибут"],
+      keyPoints: [
+        "Пример полиморфизма — \`\`\`python",
+        "Абстрактные классы — \`\`\`python",
+        "Преимущества полиморфизма — Единый интерфейс для разных типов",
+      ],
+      examples: [
+        "data.txt",
+        "r",
+        "r",
+        "w",
+        "a",
+        "file.read() читает весь файл, file.readline() — одну строку, file.readlines() — все в список",
+      ], correctAnswer: 'интерфейс', hint: 'Один метод — разное поведение' },
       { type: 'quiz', question: 'Методы с одинаковым именем в разных классах:', options: ['Работают по-разному', 'Одинаково', 'Не работают', 'Дублируются', 'Другой ответ'], correctAnswer: 'Работают по-разному', hint: 'Суть полиморфизма' },
       { type: 'quiz', question: '___ классы определяют интерфейс без реализации.', options: ["Базовые", "Приватные", "Абстрактные", "Конкретные", "Дочерние"], correctAnswer: 'Абстрактные', hint: 'ABC в Python' },
       { type: 'quiz', question: 'Полиморфизм позволяет:', options: ['Работать с разными классами одинаково', 'Создавать классы', 'Удалять методы', 'Копировать объекты', 'Другой ответ'], correctAnswer: 'Работать с разными классами одинаково', hint: 'Гибкость кода' },
@@ -2879,7 +2962,18 @@ export const games: GameLesson[] = [
     icon: "FileText",
     color: "text-yellow-400",
     tasks: [
-      { type: 'quiz', question: 'Файлы хранят данные между ___ программы.', options: ["методами", "запусками", "строками", "классами", "функциями"], correctAnswer: 'запусками', hint: 'Сохранение' },
+      { type: 'quiz', question: 'Файлы хранят данные между ___ программы.', options: ["методами", "запусками", "строками", "классами", "функциями"],
+      keyPoints: [
+        "Открытие файла — \`\`\`python",
+        "r",
+        "r",
+      ],
+      examples: [
+        "Имя",
+        "Возраст",
+        "JSON: json.dumps(data, ensure_ascii=False) — сериализация Python-объекта в строку",
+        "json.load(file) — десериализация JSON-файла обратно в Python-объект",
+      ], correctAnswer: 'запусками', hint: 'Сохранение' },
       { type: 'quiz', question: 'Режим "r" означает:', options: ['Чтение', 'Запись', 'Добавление', 'Удаление', 'Другой ответ'], correctAnswer: 'Чтение', hint: 'Read' },
       { type: 'quiz', question: 'Режим "w" — ___ в файл.', options: ["чтение", "копирование", "удаление", "добавление", "запись"], correctAnswer: 'запись', hint: 'Write' },
       { type: 'quiz', question: 'with автоматически:', options: ['Закрывает файл', 'Открывает файл', 'Читает файл', 'Удаляет файл', 'Другой ответ'], correctAnswer: 'Закрывает файл', hint: 'Контекстный менеджер' },
@@ -2893,7 +2987,17 @@ export const games: GameLesson[] = [
     icon: "FileJson",
     color: "text-amber-400",
     tasks: [
-      { type: 'quiz', question: 'CSV — формат ___ данных.', options: ["табличных", "графических", "архивных", "звуковых", "исполняемых"], correctAnswer: 'табличных', hint: 'Разделённые запятыми' },
+      { type: 'quiz', question: 'CSV — формат ___ данных.', options: ["табличных", "графических", "архивных", "звуковых", "исполняемых"],
+      keyPoints: [
+        "Работа с CSV — \`\`\`python",
+        "JSON (JavaScript Object Notation) — формат структурированных данных.",
+        "Типы данных JSON — Объекты (словари)",
+      ],
+      examples: [
+        "SELECT name, age FROM students WHERE age > 15 — выборка с условием",
+        "Иван",
+        "Агрегатные функции: COUNT(*), AVG(age), MAX(age), MIN(age) — анализ данных",
+      ], correctAnswer: 'табличных', hint: 'Разделённые запятыми' },
       { type: 'quiz', question: 'JSON поддерживает:', options: ['Объекты и массивы', 'Только строки', 'Только числа', 'Только булевы', 'Другой ответ'], correctAnswer: 'Объекты и массивы', hint: 'Структурированные данные' },
       { type: 'quiz', question: 'json.___() преобразует объект в строку.', options: ["dumps", "parse", "write", "loads", "stringify"], correctAnswer: 'dumps', hint: 'Сериализация' },
       { type: 'quiz', question: 'json.loads() выполняет:', options: ['Десериализацию', 'Сериализацию', 'Удаление', 'Чтение файла', 'Другой ответ'], correctAnswer: 'Десериализацию', hint: 'Строка в объект' },
@@ -2907,7 +3011,18 @@ export const games: GameLesson[] = [
     icon: "Database",
     color: "text-blue-500",
     tasks: [
-      { type: 'quiz', question: 'SQL — язык ___ к базам данных.', options: ["запросов", "разметки", "скриптов", "стилей", "программирования"], correctAnswer: 'запросов', hint: 'Structured Query Language' },
+      { type: 'quiz', question: 'SQL — язык ___ к базам данных.', options: ["запросов", "разметки", "скриптов", "стилей", "программирования"],
+      keyPoints: [
+        "Основные команды — SELECT — выборка данных:",
+        "SELECT — выборка данных:",
+        "INSERT — добавление данных:",
+      ],
+      examples: [
+        "school.db",
+        "INSERT INTO students VALUES (?, ?)",
+        "Иван",
+        "Всегда вызывайте conn.commit() для сохранения изменений и conn.close() для закрытия",
+      ], correctAnswer: 'запросов', hint: 'Structured Query Language' },
       { type: 'quiz', question: 'SELECT — это:', options: ['Выборка данных', 'Добавление данных', 'Удаление данных', 'Обновление данных', 'Другой ответ'], correctAnswer: 'Выборка данных', hint: 'Чтение из таблицы' },
       { type: 'quiz', question: 'INSERT ___ добавляет данные.', options: ["WHERE", "VALUES", "INTO", "SET", "FROM"], correctAnswer: 'INTO', hint: 'Вставить в таблицу' },
       { type: 'quiz', question: 'DELETE удаляет:', options: ['Данные', 'Таблицу', 'Базу', 'Столбец', 'Другой ответ'], correctAnswer: 'Данные', hint: 'С условием WHERE' },
@@ -2921,7 +3036,17 @@ export const games: GameLesson[] = [
     icon: "HardDrive",
     color: "text-slate-400",
     tasks: [
-      { type: 'quiz', question: 'SQLite — ___ база данных.', options: ["внешняя", "сетевая", "встроенная", "облачная", "распределённая"], correctAnswer: 'встроенная', hint: 'Не требует сервера' },
+      { type: 'quiz', question: 'SQLite — ___ база данных.', options: ["внешняя", "сетевая", "встроенная", "облачная", "распределённая"],
+      keyPoints: [
+        "Подключение к базе — \`\`\`python",
+        "Создание таблицы — \`\`\`python",
+        "Вставка данных — \`\`\`python",
+      ],
+      examples: [
+        "url",
+        "Семантические теги HTML5: <header>, <nav>, <main>, <article>, <footer>",
+        "Каждый HTML-документ начинается с <!DOCTYPE html> и имеет структуру <html>→<head>→<body>",
+      ], correctAnswer: 'встроенная', hint: 'Не требует сервера' },
       { type: 'quiz', question: 'Модуль для работы с SQLite:', options: ['sqlite3', 'sql', 'database', 'db', 'Другой ответ'], correctAnswer: 'sqlite3', hint: 'Стандартная библиотека' },
       { type: 'quiz', question: 'sqlite3.___() создаёт соединение.', options: ["connect", "init", "start", "open", "link"], correctAnswer: 'connect', hint: 'Подключение к БД' },
       { type: 'quiz', question: 'Курсор используется для:', options: ['Выполнения запросов', 'Создания БД', 'Закрытия БД', 'Резервного копирования', 'Другой ответ'], correctAnswer: 'Выполнения запросов', hint: 'cursor.execute()' },
@@ -2935,7 +3060,17 @@ export const games: GameLesson[] = [
     icon: "Code",
     color: "text-orange-500",
     tasks: [
-      { type: 'quiz', question: 'HTML — язык ___ веб-страниц.', options: ["запросов", "стилей", "программирования", "разметки", "данных"], correctAnswer: 'разметки', hint: 'Структура страницы' },
+      { type: 'quiz', question: 'HTML — язык ___ веб-страниц.', options: ["запросов", "стилей", "программирования", "разметки", "данных"],
+      keyPoints: [
+        "HTML (HyperText Markup Language) — язык разметки веб-страниц",
+        "Основные теги: <html>, <head>, <body>, <h1>-<h6>, <p>, <a>, <img>",
+        "Теги обычно открываются <> и закрываются </>",
+      ],
+      examples: [
+        "p { color: blue; } — синий цвет для всех параграфов 🎨",
+        "#header { font-size: 24px; } — селектор по id",
+        "margin — внешний отступ, padding — внутренний отступ",
+      ], correctAnswer: 'разметки', hint: 'Структура страницы' },
       { type: 'quiz', question: 'Тег для заголовка:', options: ['<h1>', '<header>', '<heading>', '<title>', 'Другой ответ'], correctAnswer: '<h1>', hint: 'От h1 до h6' },
       { type: 'quiz', question: 'Тег <___> создаёт ссылку.', options: ["href", "link", "ref", "src", "a"], correctAnswer: 'a', hint: 'Anchor' },
       { type: 'quiz', question: 'Атрибут для адреса ссылки:', options: ['href', 'src', 'link', 'url', 'Другой ответ'], correctAnswer: 'href', hint: 'Hypertext Reference' },
@@ -2949,7 +3084,18 @@ export const games: GameLesson[] = [
     icon: "Palette",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: 'CSS — ___ таблицы стилей.', options: ["качественные", "компактные", "календарные", "каскадные", "комбинированные"], correctAnswer: 'каскадные', hint: 'Cascading Style Sheets' },
+      { type: 'quiz', question: 'CSS — ___ таблицы стилей.', options: ["качественные", "компактные", "календарные", "каскадные", "комбинированные"],
+      keyPoints: [
+        "Способы подключения — \`\`\`html",
+        "<!- — Внешний файл -->",
+        "Box Model (модель коробки) — \`\`\`css",
+      ],
+      examples: [
+        "/",
+        "page.html",
+        "Иван",
+        "app.run(debug=True) запускает сервер на http://127.0.0.1:5000",
+      ], correctAnswer: 'каскадные', hint: 'Cascading Style Sheets' },
       { type: 'quiz', question: 'Селектор по классу:', options: ['.class', '#class', 'class', '@class', 'Другой ответ'], correctAnswer: '.class', hint: 'Точка перед именем' },
       { type: 'quiz', question: 'Box model: content, padding, border, ___ .', options: ["margin", "content", "padding", "height", "border"], correctAnswer: 'margin', hint: 'Внешний отступ' },
       { type: 'quiz', question: 'Flexbox используется для:', options: ['Вёрстки', 'Анимации', 'Форм', 'Базы данных', 'Другой ответ'], correctAnswer: 'Вёрстки', hint: 'Расположение элементов' },
@@ -2963,7 +3109,18 @@ export const games: GameLesson[] = [
     icon: "Flame",
     color: "text-gray-400",
     tasks: [
-      { type: 'quiz', question: 'Flask — ___ для веб-приложений.', options: ["микрофреймворк", "язык", "компилятор", "библиотека", "база данных"], correctAnswer: 'микрофреймворк', hint: 'Лёгкий фреймворк' },
+      { type: 'quiz', question: 'Flask — ___ для веб-приложений.', options: ["микрофреймворк", "язык", "компилятор", "библиотека", "база данных"],
+      keyPoints: [
+        "Простейшее приложение — \`\`\`python",
+        "Роутинг (маршрутизация) — \`\`\`python",
+        "Ключевое понятие: Flask: создание веб-приложения",
+      ],
+      examples: [
+        "POST",
+        "/submit",
+        "username",
+        "GET — запрос данных (параметры в URL), POST — отправка данных (в теле запроса)",
+      ], correctAnswer: 'микрофреймворк', hint: 'Лёгкий фреймворк' },
       { type: 'quiz', question: 'Декоратор для маршрута:', options: ['@app.route', '@route', '@url', '@path', 'Другой ответ'], correctAnswer: '@app.route', hint: 'Связывает URL с функцией' },
       { type: 'quiz', question: 'render___() возвращает HTML-шаблон.', options: ["template", "html", "page", "file", "view"], correctAnswer: 'template', hint: 'Рендеринг' },
       { type: 'quiz', question: 'app.run() запускает:', options: ['Сервер', 'Базу данных', 'Тесты', 'Компилятор', 'Другой ответ'], correctAnswer: 'Сервер', hint: 'Локальный сервер' },
@@ -2977,7 +3134,17 @@ export const games: GameLesson[] = [
     icon: "FileInput",
     color: "text-teal-400",
     tasks: [
-      { type: 'quiz', question: 'HTML-формы ___ данные пользователя.', options: ["удаляют", "архивируют", "копируют", "перемещают", "собирают"], correctAnswer: 'собирают', hint: 'Ввод информации' },
+      { type: 'quiz', question: 'HTML-формы ___ данные пользователя.', options: ["удаляют", "архивируют", "копируют", "перемещают", "собирают"],
+      keyPoints: [
+        "Создание формы — \`\`\`html",
+        "text — текстовое поле",
+        "password — поле пароля",
+      ],
+      examples: [
+        "root = tk.Tk() создаёт окно, root.title() — заголовок, root.mainloop() — запуск цикла",
+        "Label — текстовая метка, Button — кнопка, Entry — поле ввода, Text — многострочное поле",
+        "label.pack() размещает виджет в окне автоматически",
+      ], correctAnswer: 'собирают', hint: 'Ввод информации' },
       { type: 'quiz', question: 'Метод POST:', options: ['Отправляет данные', 'Запрашивает данные', 'Удаляет данные', 'Обновляет данные', 'Другой ответ'], correctAnswer: 'Отправляет данные', hint: 'Передача на сервер' },
       { type: 'quiz', question: '<input> — поле для ___ .', options: ["ввода", "вывода", "отображения", "редактирования", "хранения"], correctAnswer: 'ввода', hint: 'Текст, число, файл' },
       { type: 'quiz', question: 'Валидация — это:', options: ['Проверка корректности', 'Отправка данных', 'Сохранение данных', 'Удаление данных', 'Другой ответ'], correctAnswer: 'Проверка корректности', hint: 'Правильность данных' },
@@ -2991,7 +3158,17 @@ export const games: GameLesson[] = [
     icon: "Layout",
     color: "text-violet-400",
     tasks: [
-      { type: 'quiz', question: 'Tkinter — библиотека для ___ интерфейса.', options: ["сетевого", "файлового", "графического", "командного", "текстового"], correctAnswer: 'графического', hint: 'GUI' },
+      { type: 'quiz', question: 'Tkinter — библиотека для ___ интерфейса.', options: ["сетевого", "файлового", "графического", "командного", "текстового"],
+      keyPoints: [
+        "Простейшее окно — \`\`\`python",
+        "Основные виджеты — Label — текстовая метка",
+        "Label — текстовая метка",
+      ],
+      examples: [
+        "текст",
+        "Checkbutton — флажок (var.get() == 1), Radiobutton — переключатель из нескольких вариантов",
+        "1.0",
+      ], correctAnswer: 'графического', hint: 'GUI' },
       { type: 'quiz', question: 'Виджет Button — это:', options: ['Кнопка', 'Поле ввода', 'Метка', 'Список', 'Другой ответ'], correctAnswer: 'Кнопка', hint: 'Нажимается' },
       { type: 'quiz', question: 'root.___() запускает главный цикл.', options: ["run", "mainloop", "init", "start", "begin"], correctAnswer: 'mainloop', hint: 'Обработка событий' },
       { type: 'quiz', question: 'Менеджер компоновки pack:', options: ['Упаковывает виджеты', 'Удаляет виджеты', 'Создаёт виджеты', 'Красит виджеты', 'Другой ответ'], correctAnswer: 'Упаковывает виджеты', hint: 'Размещение' },
@@ -3005,7 +3182,17 @@ export const games: GameLesson[] = [
     icon: "TextBox",
     color: "text-blue-300",
     tasks: [
-      { type: 'quiz', question: 'Entry — поле для ___ строки.', options: ["нескольких", "двух", "длинной", "одной", "многострочной"], correctAnswer: 'одной', hint: 'Однострочное' },
+      { type: 'quiz', question: 'Entry — поле для ___ строки.', options: ["нескольких", "двух", "длинной", "одной", "многострочной"],
+      keyPoints: [
+        "Entry — поле ввода:",
+        "Text — многострочное поле:",
+        "Ключевое понятие: Создание форм",
+      ],
+      examples: [
+        "Иван",
+        "<Key>",
+        "<Button-1> — левый клик мыши, <Return> — Enter, <FocusIn> — получение фокуса",
+      ], correctAnswer: 'одной', hint: 'Однострочное' },
       { type: 'quiz', question: 'Text — это:', options: ['Многострочное поле', 'Метка', 'Кнопка', 'Список', 'Другой ответ'], correctAnswer: 'Многострочное поле', hint: 'Несколько строк' },
       { type: 'quiz', question: 'get() ___ данные из виджета.', options: ["получает", "устанавливает", "удаляет", "перемещает", "проверяет"], correctAnswer: 'получает', hint: 'Извлечение' },
       { type: 'quiz', question: 'Checkbutton — это:', options: ['Флажок', 'Переключатель', 'Кнопка', 'Поле', 'Другой ответ'], correctAnswer: 'Флажок', hint: 'Галочка' },
@@ -3019,7 +3206,18 @@ export const games: GameLesson[] = [
     icon: "MousePointerClick",
     color: "text-emerald-400",
     tasks: [
-      { type: 'quiz', question: 'command привязывает ___ к кнопке.', options: ["массив", "объект", "функцию", "строку", "переменную"], correctAnswer: 'функцию', hint: 'Обработчик' },
+      { type: 'quiz', question: 'command привязывает ___ к кнопке.', options: ["массив", "объект", "функцию", "строку", "переменную"],
+      keyPoints: [
+        "Обработка клика кнопки — \`\`\`python",
+        "Передача аргументов — \`\`\`python",
+        "Привязка событий через bind — \`\`\`python",
+      ],
+      examples: [
+        "tk.Menu(root) создаёт меню, add_cascade() добавляет пункт, add_command() — команду",
+        "Инфо",
+        "Готово!",
+        "filedialog.askopenfilename() — диалог выбора файла для открытия",
+      ], correctAnswer: 'функцию', hint: 'Обработчик' },
       { type: 'quiz', question: 'bind() привязывает:', options: ['Событие к виджету', 'Виджет к окну', 'Функцию к переменной', 'Файл к программе', 'Другой ответ'], correctAnswer: 'Событие к виджету', hint: 'Реакция' },
       { type: 'quiz', question: '<Button-1> — ___ клик мыши.', options: ["левый", "двойной", "тройной", "правый", "средний"], correctAnswer: 'левый', hint: 'Основная кнопка' },
       { type: 'quiz', question: '<Key> — событие:', options: ['Нажатие клавиши', 'Клик мыши', 'Движение мыши', 'Закрытие окна', 'Другой ответ'], correctAnswer: 'Нажатие клавиши', hint: 'Клавиатура' },
@@ -3033,7 +3231,17 @@ export const games: GameLesson[] = [
     icon: "Menu",
     color: "text-amber-400",
     tasks: [
-      { type: 'quiz', question: 'Menu — виджет для создания ___ .', options: ["меню", "диалогов", "окон", "кнопок", "полей"], correctAnswer: 'меню', hint: 'Пункты' },
+      { type: 'quiz', question: 'Menu — виджет для создания ___ .', options: ["меню", "диалогов", "окон", "кнопок", "полей"],
+      keyPoints: [
+        "Создание меню — \`\`\`python",
+        "Диалоговые окна — \`\`\`python",
+        "Ключевое понятие: Меню и диалоги",
+      ],
+      examples: [
+        "pdb.set_trace() — точка останова в коде, n — следующая строка, c — продолжить",
+        "VS Code: клик слева от номера строки — красная точка (breakpoint)",
+        "Значение x={x}",
+      ], correctAnswer: 'меню', hint: 'Пункты' },
       { type: 'quiz', question: 'add_cascade создаёт:', options: ['Вложенное меню', 'Пункт меню', 'Разделитель', 'Кнопку', 'Другой ответ'], correctAnswer: 'Вложенное меню', hint: 'Подменю' },
       { type: 'quiz', question: 'messagebox показывает ___ окна.', options: ["поплавковые", "вспомогательные", "главные", "диалоговые", "модальные"], correctAnswer: 'диалоговые', hint: 'Сообщения' },
       { type: 'quiz', question: 'askopenfilename открывает:', options: ['Диалог выбора файла', 'Файл для чтения', 'Новое окно', 'Сохранение', 'Другой ответ'], correctAnswer: 'Диалог выбора файла', hint: 'Выбор' },
@@ -3047,7 +3255,17 @@ export const games: GameLesson[] = [
     icon: "Bug",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: 'Print-отладка — вывод значений в ___ .', options: ["буфер", "консоль", "базу", "файл", "окно"], correctAnswer: 'консоль', hint: 'Терминал' },
+      { type: 'quiz', question: 'Print-отладка — вывод значений в ___ .', options: ["буфер", "консоль", "базу", "файл", "окно"],
+      keyPoints: [
+        "Использование отладчика — pdb — отладчик Python:",
+        "n (next) — выполнить следующую строку",
+        "s (step) — войти в функцию",
+      ],
+      examples: [
+        "self.assertEqual(add(2, 3), 5) — проверка равенства двух значений",
+        "self.assertRaises(ValueError) — проверка, что функция вызывает исключение",
+        "python -m unittest test_file.py — запуск всех тестов из файла",
+      ], correctAnswer: 'консоль', hint: 'Терминал' },
       { type: 'quiz', question: 'Отладчик позволяет:', options: ['Пошагово выполнять код', 'Удалять код', 'Компилировать', 'Архивировать', 'Другой ответ'], correctAnswer: 'Пошагово выполнять код', hint: 'По шагам' },
       { type: 'quiz', question: 'Точка ___ останавливает выполнение.', options: ["останова", "входа", "выхода", "возврата", "перехода"], correctAnswer: 'останова', hint: 'Breakpoint' },
       { type: 'quiz', question: 'pdb — это:', options: ['Отладчик Python', 'Компилятор', 'Интерпретатор', 'Редактор', 'Другой ответ'], correctAnswer: 'Отладчик Python', hint: 'Debug' },
@@ -3061,7 +3279,19 @@ export const games: GameLesson[] = [
     icon: "TestTube",
     color: "text-green-500",
     tasks: [
-      { type: 'quiz', question: 'Unit-тест проверяет ___ функцию.', options: ["отдельную", "главную", "системную", "интеграционную", "все"], correctAnswer: 'отдельную', hint: 'Изолированно' },
+      { type: 'quiz', question: 'Unit-тест проверяет ___ функцию.', options: ["отдельную", "главную", "системную", "интеграционную", "все"],
+      keyPoints: [
+        "Методы проверки — assertEqual(a, b) — равенство",
+        "assertRaises(Error) — ожидается исключение",
+        "assertIn(a, b) — a содержится в b",
+      ],
+      examples: [
+        "def f(x: int) -> str: — аннотация типов: принимает int, возвращает str",
+        "",
+        "Вычисляет площадь. Args: width (float). Returns: float.",
+        "",
+        "README.md: описание проекта, установка, примеры использования, лицензия",
+      ], correctAnswer: 'отдельную', hint: 'Изолированно' },
       { type: 'quiz', question: 'unittest — это:', options: ['Встроенный фреймворк', 'Внешняя библиотека', 'Язык программирования', 'IDE', 'Другой ответ'], correctAnswer: 'Встроенный фреймворк', hint: 'Модуль Python' },
       { type: 'quiz', question: 'assertEqual проверяет ___ значений.', options: ["произведение", "сумму", "равенство", "больше", "различие"], correctAnswer: 'равенство', hint: 'Сравнение' },
       { type: 'quiz', question: 'setUp выполняется:', options: ['Перед каждым тестом', 'После каждого теста', 'Один раз в начале', 'В конце всех тестов', 'Другой ответ'], correctAnswer: 'Перед каждым тестом', hint: 'Подготовка' },
@@ -3075,7 +3305,17 @@ export const games: GameLesson[] = [
     icon: "FileText",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: 'Docstring — ___ документации функции.', options: ["строка", "файл", "комментарий", "раздел", "блок"], correctAnswer: 'строка', hint: 'Описание' },
+      { type: 'quiz', question: 'Docstring — ___ документации функции.', options: ["строка", "файл", "комментарий", "раздел", "блок"],
+      keyPoints: [
+        "Docstring — документация функции:",
+        "Type hints (аннотации типов) — \`\`\`python",
+        "Ключевое понятие: Документирование кода",
+      ],
+      examples: [
+        "try-except-else-finally: else выполняется при успехе, finally — всегда",
+        "Сообщение",
+        "class MyError(Exception): pass — создание собственного типа исключения",
+      ], correctAnswer: 'строка', hint: 'Описание' },
       { type: 'quiz', question: 'README.md — это:', options: ['Описание проекта', 'Код программы', 'Тесты', 'Конфигурация', 'Другой ответ'], correctAnswer: 'Описание проекта', hint: 'Документация' },
       { type: 'quiz', question: '# означает ___ комментарий.', options: ["документирующий", "блочный", "многострочный", "однострочный", "специальный"], correctAnswer: 'однострочный', hint: 'Короткий' },
       { type: 'quiz', question: 'Type hints — это:', options: ['Аннотации типов', 'Комментарии', 'Переменные', 'Функции', 'Другой ответ'], correctAnswer: 'Аннотации типов', hint: 'Указание типов' },
@@ -3089,7 +3329,17 @@ export const games: GameLesson[] = [
     icon: "AlertTriangle",
     color: "text-yellow-500",
     tasks: [
-      { type: 'quiz', question: 'try-except ___ исключения.', options: ["создаёт", "передаёт", "удаляет", "игнорирует", "обрабатывает"], correctAnswer: 'обрабатывает', hint: 'Ловит ошибки' },
+      { type: 'quiz', question: 'try-except ___ исключения.', options: ["создаёт", "передаёт", "удаляет", "игнорирует", "обрабатывает"],
+      keyPoints: [
+        "Генерация исключений — \`\`\`python",
+        "Создание своих исключений — \`\`\`python",
+        "Контекстные менеджеры — \`\`\`python",
+      ],
+      examples: [
+        "git init создаёт новый репозиторий, git clone — копирует существующий",
+        "описание",
+        "git log --oneline — краткая история коммитов, git status — состояние",
+      ], correctAnswer: 'обрабатывает', hint: 'Ловит ошибки' },
       { type: 'quiz', question: 'finally выполняется:', options: ['Всегда', 'Только при ошибке', 'Только без ошибки', 'Никогда', 'Другой ответ'], correctAnswer: 'Всегда', hint: 'Гарантированно' },
       { type: 'quiz', question: 'raise ___ исключение.', options: ["игнорирует", "удаляет", "передаёт", "генерирует", "обрабатывает"], correctAnswer: 'генерирует', hint: 'Создаёт' },
       { type: 'quiz', question: 'Собственные исключения наследуются от:', options: ['Exception', 'Error', 'BaseException', 'object', 'Другой ответ'], correctAnswer: 'Exception', hint: 'Базовый класс' },
@@ -3103,7 +3353,17 @@ export const games: GameLesson[] = [
     icon: "GitBranch",
     color: "text-orange-500",
     tasks: [
-      { type: 'quiz', question: 'git init ___ репозиторий.', options: ["создаёт", "копирует", "клонирует", "перемещает", "удаляет"], correctAnswer: 'создаёт', hint: 'Инициализация' },
+      { type: 'quiz', question: 'git init ___ репозиторий.', options: ["создаёт", "копирует", "клонирует", "перемещает", "удаляет"],
+      keyPoints: [
+        "Базовые команды — \`\`\`bash",
+        "Игнорирование файлов (.gitignore) — \`\`\`",
+        "Просмотр истории — \`\`\`bash",
+      ],
+      examples: [
+        "git checkout -b feature-login — создание и переключение на новую ветку",
+        "git merge feature-login — слияние ветки в текущую, git branch -d — удаление",
+        "Конфликт: <<<<<<< HEAD / ======= / >>>>>>> feature — выбрать нужный вариант",
+      ], correctAnswer: 'создаёт', hint: 'Инициализация' },
       { type: 'quiz', question: 'git add:', options: ['Добавляет файлы', 'Коммитит', 'Отправляет', 'Клонирует', 'Другой ответ'], correctAnswer: 'Добавляет файлы', hint: 'Staging' },
       { type: 'quiz', question: 'git commit ___ изменения.', options: ["перемещает", "фиксирует", "удаляет", "отправляет", "копирует"], correctAnswer: 'фиксирует', hint: 'Сохраняет' },
       { type: 'quiz', question: 'git status показывает:', options: ['Состояние файлов', 'Историю', 'Различия', 'Ветки', 'Другой ответ'], correctAnswer: 'Состояние файлов', hint: 'Текущее' },
@@ -3117,7 +3377,17 @@ export const games: GameLesson[] = [
     icon: "GitMerge",
     color: "text-purple-500",
     tasks: [
-      { type: 'quiz', question: 'Ветка — независимая ___ разработки.', options: ["ветвь", "часть", "модуль", "линия", "копия"], correctAnswer: 'линия', hint: 'Ветвь' },
+      { type: 'quiz', question: 'Ветка — независимая ___ разработки.', options: ["ветвь", "часть", "модуль", "линия", "копия"],
+      keyPoints: [
+        "Работа с ветками — \`\`\`bash",
+        "Стратегии ветвления — main/master — стабильная версия",
+        "main/master — стабильная версия",
+      ],
+      examples: [
+        "git push origin main — отправка изменений, git pull origin main — получение",
+        "Pull Request: форк → изменения → PR → Code Review → Merge",
+        "README.md на GitHub: описание, установка, использование, лицензия проекта",
+      ], correctAnswer: 'линия', hint: 'Ветвь' },
       { type: 'quiz', question: 'git checkout -b:', options: ['Создаёт и переключает ветку', 'Удаляет ветку', 'Сливает ветки', 'Показывает ветки', 'Другой ответ'], correctAnswer: 'Создаёт и переключает ветку', hint: 'Новая ветка' },
       { type: 'quiz', question: 'git merge ___ ветки.', options: ["сливает", "переименовывает", "перемещает", "создаёт", "копирует"], correctAnswer: 'сливает', hint: 'Объединяет' },
       { type: 'quiz', question: 'Конфликт возникает при:', options: ['Несовместимых изменениях', 'Удалении ветки', 'Создании ветки', 'Переключении', 'Другой ответ'], correctAnswer: 'Несовместимых изменениях', hint: 'Проблема' },
@@ -3131,7 +3401,17 @@ export const games: GameLesson[] = [
     icon: "Github",
     color: "text-gray-500",
     tasks: [
-      { type: 'quiz', question: 'GitHub — платформа для ___ репозиториев.', options: ["хостинга", "архивации", "шифрования", "создания", "копирования"], correctAnswer: 'хостинга', hint: 'Хранение' },
+      { type: 'quiz', question: 'GitHub — платформа для ___ репозиториев.', options: ["хостинга", "архивации", "шифрования", "создания", "копирования"],
+      keyPoints: [
+        "Работа с удалённым репозиторием — \`\`\`bash",
+        "Code Review — проверка кода",
+        "README.md для проекта — \`\`\`markdown",
+      ],
+      examples: [
+        "PEP 8: 4 пробела на уровень, snake_case для переменных, CamelCase для классов",
+        "pylint my_script.py — проверка стиля, flake8 — лёгкий линтер для Python",
+        "Классы: ShoppingCart (CamelCase), функции: calculate_total() (snake_case)",
+      ], correctAnswer: 'хостинга', hint: 'Хранение' },
       { type: 'quiz', question: 'git push:', options: ['Отправляет изменения', 'Получает изменения', 'Создаёт ветку', 'Сливает ветки', 'Другой ответ'], correctAnswer: 'Отправляет изменения', hint: 'Upload' },
       { type: 'quiz', question: 'git pull ___ изменения.', options: ["перемещает", "копирует", "получает", "создаёт", "отправляет"], correctAnswer: 'получает', hint: 'Download' },
       { type: 'quiz', question: 'Pull Request — это:', options: ['Предложение изменений', 'Запрос на скачивание', 'Команда Git', 'Тип ветки', 'Другой ответ'], correctAnswer: 'Предложение изменений', hint: 'Merge request' },
@@ -3145,7 +3425,17 @@ export const games: GameLesson[] = [
     icon: "Code2",
     color: "text-cyan-500",
     tasks: [
-      { type: 'quiz', question: 'PEP 8 — ___ кода Python.', options: ["образец", "правило", "шаблон", "формат", "стиль"], correctAnswer: 'стиль', hint: 'Правила' },
+      { type: 'quiz', question: 'PEP 8 — ___ кода Python.', options: ["образец", "правило", "шаблон", "формат", "стиль"],
+      keyPoints: [
+        "Основные правила — Отступы:",
+        "Длина строки — Максимум 79 символов",
+        "Длинные строки можно разбивать — \`\`\`python",
+      ],
+      examples: [
+        "Техническое задание: функции программы, технологии, сроки выполнения",
+        "MVP (Minimum Viable Product) — начните с минимальной работающей версии",
+        "Декомпозиция: разбейте проект на недели — интерфейс → логика → сохранение → тестирование",
+      ], correctAnswer: 'стиль', hint: 'Правила' },
       { type: 'quiz', question: 'Отступ в Python:', options: ['4 пробела', '2 пробела', 'Таб', '8 пробелов', 'Другой ответ'], correctAnswer: '4 пробела', hint: 'Стандарт' },
       { type: 'quiz', question: 'Длина строки до ___ символов.', options: ["80", "100", "79", "72", "99"], correctAnswer: '79', hint: 'Ограничение' },
       { type: 'quiz', question: 'snake_case используется для:', options: ['Функций и переменных', 'Классов', 'Констант', 'Модулей', 'Другой ответ'], correctAnswer: 'Функций и переменных', hint: 'Именование' },
@@ -3159,7 +3449,20 @@ export const games: GameLesson[] = [
     icon: "ClipboardList",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: 'MVP — минимальный ___ продукт.', options: ["полезный", "рабочий", "готовый", "функциональный", "жизнеспособный"], correctAnswer: 'жизнеспособный', hint: 'Базовая версия' },
+      { type: 'quiz', question: 'MVP — минимальный ___ продукт.', options: ["полезный", "рабочий", "готовый", "функциональный", "жизнеспособный"],
+      keyPoints: [
+        "Критерии выбора — Интерес — тема должна быть увлекательной",
+        "Интерес — тема должна быть увлекательной",
+        "Посильность — соответствует вашим навыкам",
+      ],
+      examples: [
+        "Итеративная разработка: маленькие шаги с регулярными коммитами после каждой функции",
+        "Купить хлеб",
+        "text",
+        "Купить хлеб",
+        "done",
+        "Рефакторинг — улучшение кода без изменения функциональности",
+      ], correctAnswer: 'жизнеспособный', hint: 'Базовая версия' },
       { type: 'quiz', question: 'Критерий выбора проекта:', options: ['Интерес', 'Сложность', 'Цена', 'Время года', 'Другой ответ'], correctAnswer: 'Интерес', hint: 'Мотивация' },
       { type: 'quiz', question: 'Техническое ___ описывает требования.', options: ["документ", "задание", "руководство", "файл", "описание"], correctAnswer: 'задание', hint: 'Документ' },
       { type: 'quiz', question: 'Декомпозиция — это:', options: ['Разбиение на подзадачи', 'Удаление задач', 'Объединение задач', 'Сортировка задач', 'Другой ответ'], correctAnswer: 'Разбиение на подзадачи', hint: 'Деление' },
@@ -3173,7 +3476,17 @@ export const games: GameLesson[] = [
     icon: "Rocket",
     color: "text-red-500",
     tasks: [
-      { type: 'quiz', question: 'Итеративная разработка — ___ шаги.', options: ["параллельные", "последовательные", "обратные", "случайные", "маленькие"], correctAnswer: 'маленькие', hint: 'Постепенно' },
+      { type: 'quiz', question: 'Итеративная разработка — ___ шаги.', options: ["параллельные", "последовательные", "обратные", "случайные", "маленькие"],
+      keyPoints: [
+        "Маленькие шаги — \`\`\`bash",
+        "Регулярные коммиты — Коммит после каждой завершённой функции",
+        "Ключевое понятие: Реализация проекта",
+      ],
+      examples: [
+        "Структура: введение (1-2 мин) → демонстрация (3-5 мин) → техническая часть (2-3 мин)",
+        "Готовьте запасные скриншоты на случай технических проблем при демонстрации",
+        "Тренируйтесь выступать — ограничьте время, готовьте ответы на возможные вопросы",
+      ], correctAnswer: 'маленькие', hint: 'Постепенно' },
       { type: 'quiz', question: 'Рефакторинг — это:', options: ['Улучшение кода без изменения функций', 'Добавление функций', 'Удаление кода', 'Тестирование', 'Другой ответ'], correctAnswer: 'Улучшение кода без изменения функций', hint: 'Оптимизация' },
       { type: 'quiz', question: 'Регулярные ___ сохраняют историю.', options: ["бекапы", "сохранения", "ветки", "архивы", "коммиты"], correctAnswer: 'коммиты', hint: 'Git' },
       { type: 'quiz', question: 'Тестировать нужно:', options: ['После каждого изменения', 'Один раз в конце', 'Не нужно', 'Раз в неделю', 'Другой ответ'], correctAnswer: 'После каждого изменения', hint: 'Регулярно' },
@@ -3187,7 +3500,17 @@ export const games: GameLesson[] = [
     icon: "Presentation",
     color: "text-cyan-500",
     tasks: [
-      { type: 'quiz', question: 'Структура презентации: проблема, решение, ___ .', options: ["обсуждение", "демонстрация", "выводы", "вопросы", "практика"], correctAnswer: 'демонстрация', hint: 'Показ работы' },
+      { type: 'quiz', question: 'Структура презентации: проблема, решение, ___ .', options: ["обсуждение", "демонстрация", "выводы", "вопросы", "практика"],
+      keyPoints: [
+        "Структура презентации — Введение (1-2 минуты):",
+        "Введение (1-2 минуты) — Кто вы",
+        "Демонстрация (3-5 минут) — Запуск программы",
+      ],
+      examples: [
+        "Ретроспектива: что получилось, что не удалось, чему научились, что улучшить",
+        "Версии развития: v1.1 — новые функции, v2.0 — масштабные изменения",
+        "Портфолио: опубликуйте код на GitHub с описанием и скриншотами в README",
+      ], correctAnswer: 'демонстрация', hint: 'Показ работы' },
       { type: 'quiz', question: 'Демонстрация работы — это:', options: ['Показ проекта', 'Рассказ о планах', 'Чтение документации', 'Обсуждение кода', 'Другой ответ'], correctAnswer: 'Показ проекта', hint: 'В действии' },
       { type: 'quiz', question: 'Обратная ___ помогает улучшить проект.', options: ["поддержка", "сторона", "помощь", "связь", "информация"], correctAnswer: 'связь', hint: 'Feedback' },
       { type: 'quiz', question: 'Ответы на вопросы:', options: ['Помогают объяснить решения', 'Не нужны', 'Только для экспертов', 'Усложняют презентацию', 'Другой ответ'], correctAnswer: 'Помогают объяснить решения', hint: 'Взаимодействие' },
@@ -3201,7 +3524,17 @@ export const games: GameLesson[] = [
     icon: "TrendingUp",
     color: "text-green-400",
     tasks: [
-      { type: 'quiz', question: 'Ретроспектива — анализ ___ проекта.', options: ["тестов", "результатов", "документации", "ошибок", "успехов"], correctAnswer: 'результатов', hint: 'Что получилось' },
+      { type: 'quiz', question: 'Ретроспектива — анализ ___ проекта.', options: ["тестов", "результатов", "документации", "ошибок", "успехов"],
+      keyPoints: [
+        "Вопросы для анализа — Что получилось хорошо",
+        "Шаблон ретроспективы — \`\`\`",
+        "✅ Что получилось — Успешно реализован интерфейс",
+      ],
+      examples: [
+        "Сообщение из 150 страниц по 40 строк по 60 символов, алфавит — русский (32 буквы). I = 150 × 40 × 60 × 5 = 1 800 000 бит ≈ 220 Кбайт.",
+        "Монета подброшена дважды: N = 4 события, i = log₂4 = 2 бита информации.",
+        "Сообщение число делится на 3 уменьшает неопределённость выбора числа от 1 до 9: 3 варианта из 9, i = log₂(9/3) ≈ 1,58 бита.",
+      ], correctAnswer: 'результатов', hint: 'Что получилось' },
       { type: 'quiz', question: 'Портфолио проектов нужно для:', options: ['Карьеры', 'Учёбы', 'Хобби', 'Друзей', 'Другой ответ'], correctAnswer: 'Карьеры', hint: 'Резюме' },
       { type: 'quiz', question: 'Непрерывное ___ — ключ к успеху.', options: ["тестирование", "обучение", "чтение", "документирование", "написание"], correctAnswer: 'обучение', hint: 'Развитие' },
       { type: 'quiz', question: 'Планирование развития включает:', options: ['Следующие шаги', 'Только прошлое', 'Только настоящее', 'Удаление проекта', 'Другой ответ'], correctAnswer: 'Следующие шаги', hint: 'Будущее' },

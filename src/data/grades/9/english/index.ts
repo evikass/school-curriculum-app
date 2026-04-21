@@ -1409,7 +1409,12 @@ export const games: GameLesson[] = [
     icon: "Plane",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What does 'destination' mean?", options: ["Place to go", "Type of food", "Transport", "Currency", "Другой ответ"], correctAnswer: "Place to go", hint: "Where you're heading" },
+      { type: 'quiz', question: "What does 'destination' mean?", options: ["Place to go", "Type of food", "Transport", "Currency", "Другой ответ"],
+      keyPoints: [
+        "Примеры использования — I have visited Paris twice",
+        "Наречия, часто используемые с Present Perfect — never (никогда) — I have never visited Australia",
+        "just (только что) — She has just arrived at the airport.",
+      ], correctAnswer: "Place to go", hint: "Where you're heading" },
       { type: 'quiz', question: "I have never visited Paris. (никогда не)", options: ["never", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "never", hint: "Negative experience" },
       { type: 'quiz', question: "Present Perfect is used for:", options: ["Life experience", "Past actions with specific time", "Future plans", "Daily routine", "Другой ответ"], correctAnswer: "Life experience", hint: "At any time in your life" },
       { type: 'quiz', question: "Sightseeing means seeing sights. (достопримечательности)", options: ["sights", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "sights", hint: "Tourist attractions" },
@@ -1426,7 +1431,12 @@ export const games: GameLesson[] = [
     icon: "Plane",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Boarding pass is your ticket to board the plane. (посадочный)", options: ["Boarding", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Boarding", hint: "Required for flight" },
+      { type: 'quiz', question: "Boarding pass is your ticket to board the plane. (посадочный)", options: ["Boarding", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"],
+      keyPoints: [
+        "Полезные фразы в аэропорту — На регистрации:",
+        "На регистрации — Can I have a window/aisle seat",
+        "Проблемные ситуации — My flight has been delayed/cancelled",
+      ], correctAnswer: "Boarding", hint: "Required for flight" },
       { type: 'quiz', question: "Where do you pick up luggage after arrival?", options: ["Baggage claim", "Check-in", "Gate", "Customs", "Другой ответ"], correctAnswer: "Baggage claim", hint: "After arrival" },
       { type: 'quiz', question: "My flight was delayed for two hours. (задержан)", options: ["delayed", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "delayed", hint: "Not on time" },
       { type: 'quiz', question: "'Gate' at the airport means:", options: ["Exit to board the plane", "Entrance to building", "Parking area", "Ticket office", "Другой ответ"], correctAnswer: "Exit to board the plane", hint: "Boarding area" },
@@ -1443,7 +1453,12 @@ export const games: GameLesson[] = [
     icon: "Hotel",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "I'd like to book a room for two nights. (забронировать)", options: ["book", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "book", hint: "Make a reservation" },
+      { type: 'quiz', question: "I'd like to book a room for two nights. (забронировать)", options: ["book", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"],
+      keyPoints: [
+        "Фразы для бронирования номера — По телефону или онлайн:",
+        "По телефону или онлайн — What's the rate per night",
+        "При заезде — I'd like to check in, please",
+      ], correctAnswer: "book", hint: "Make a reservation" },
       { type: 'quiz', question: "What does 'complimentary' mean?", options: ["Free of charge", "Expensive", "Reserved", "Unavailable", "Другой ответ"], correctAnswer: "Free of charge", hint: "Included at no cost" },
       { type: 'quiz', question: "Is breakfast included? (включено)", options: ["included", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "included", hint: "Part of the deal" },
       { type: 'quiz', question: "'Check-out' means:", options: ["Leaving the hotel", "Arriving at hotel", "Paying extra", "Ordering food", "Другой ответ"], correctAnswer: "Leaving the hotel", hint: "End of stay" },
@@ -1460,7 +1475,12 @@ export const games: GameLesson[] = [
     icon: "Briefcase",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "A doctor treats patients in a hospital. (врач)", options: ["doctor", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "doctor", hint: "Medical professional" },
+      { type: 'quiz', question: "A doctor treats patients in a hospital. (врач)", options: ["doctor", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"],
+      keyPoints: [
+        "Вопросы о профессиях — What do you do",
+        "Ключевое понятие: Мир профессий",
+        "Ключевое понятие: Мир профессий",
+      ], correctAnswer: "doctor", hint: "Medical professional" },
       { type: 'quiz', question: "Who designs buildings?", options: ["Architect", "Doctor", "Teacher", "Driver", "Другой ответ"], correctAnswer: "Architect", hint: "Construction plans" },
       { type: 'quiz', question: "I work as a software developer at Google. (разработчик)", options: ["developer", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "developer", hint: "Creates programs" },
       { type: 'quiz', question: "'Must' expresses:", options: ["Obligation", "Suggestion", "Permission", "Ability", "Другой ответ"], correctAnswer: "Obligation", hint: "Necessity" },
@@ -1477,7 +1497,12 @@ export const games: GameLesson[] = [
     icon: "FileText",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "A CV is a document about your experience. (резюме)", options: ["CV", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "CV", hint: "Or resume" },
+      { type: 'quiz', question: "A CV is a document about your experience. (резюме)", options: ["CV", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"],
+      keyPoints: [
+        "Пример резюме (фрагменты) — Objective:",
+        "Сопроводительное письмо (Cover Letter) — Структура сопроводительного письма:",
+        "Структура сопроводительного письма — Приветствие: Dear Mr",
+      ], correctAnswer: "CV", hint: "Or resume" },
       { type: 'quiz', question: "What is an 'interview'?", options: ["Job meeting with employer", "Written test", "Email exchange", "Phone call only", "Другой ответ"], correctAnswer: "Job meeting with employer", hint: "Face to face discussion" },
       { type: 'quiz', question: "Please find my CV attached to this email. (приложенным)", options: ["attached", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "attached", hint: "Included in email" },
       { type: 'quiz', question: "'Strengths' means:", options: ["Strong points", "Weaknesses", "Hobbies", "Skills only", "Другой ответ"], correctAnswer: "Strong points", hint: "Positive qualities" },
@@ -1494,7 +1519,12 @@ export const games: GameLesson[] = [
     icon: "Mail",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "A deadline is the final date for a task. (крайний срок)", options: ["deadline", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "deadline", hint: "Time limit" },
+      { type: 'quiz', question: "A deadline is the final date for a task. (крайний срок)", options: ["deadline", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"],
+      keyPoints: [
+        "Деловая переписка — Типы деловых писем:",
+        "Полезные фразы для деловых писем — Начало письма:",
+        "Завершение письма — I look forward to hearing from you",
+      ], correctAnswer: "deadline", hint: "Time limit" },
       { type: 'quiz', question: "How to start a business email?", options: ["I am writing to...", "Hey there!", "What's up?", "Hi buddy", "Другой ответ"], correctAnswer: "I am writing to...", hint: "Formal opening" },
       { type: 'quiz', question: "I look forward to hearing from you. (получить ответ)", options: ["hearing", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "hearing", hint: "Waiting for reply" },
       { type: 'quiz', question: "'Negotiation' means:", options: ["Discussion to reach agreement", "Argument", "Contract signing", "Meeting only", "Другой ответ"], correctAnswer: "Discussion to reach agreement", hint: "Reaching a deal" },
@@ -1511,7 +1541,12 @@ export const games: GameLesson[] = [
     icon: "Leaf",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What causes global warming?", options: ["Greenhouse gases", "Recycling", "Wind energy", "Solar panels", "Другой ответ"], correctAnswer: "Greenhouse gases", hint: "Carbon dioxide, methane" },
+      { type: 'quiz', question: "What causes global warming?", options: ["Greenhouse gases", "Recycling", "Wind energy", "Solar panels", "Другой ответ"],
+      keyPoints: [
+        "Причины и последствия экологических проблем — Глобальное потепление:",
+        "Глобальное потепление — Причины (Causes):",
+        "Исчезновение видов — Причины:",
+      ], correctAnswer: "Greenhouse gases", hint: "Carbon dioxide, methane" },
       { type: 'quiz', question: "Endangered species are animals at risk of extinction. (исчезающие)", options: ["Endangered", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Endangered", hint: "In danger" },
       { type: 'quiz', question: "'Deforestation' means:", options: ["Cutting down forests", "Planting trees", "Forest protection", "Forest fire", "Другой ответ"], correctAnswer: "Cutting down forests", hint: "Removing trees" },
       { type: 'quiz', question: "Pollution causes health problems. (проблемы)", options: ["problems", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "problems", hint: "Negative effects" },
@@ -1528,7 +1563,12 @@ export const games: GameLesson[] = [
     icon: "Recycle",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "We need to recycle plastic waste. (перерабатывать)", options: ["recycle", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "recycle", hint: "Process for reuse" },
+      { type: 'quiz', question: "We need to recycle plastic waste. (перерабатывать)", options: ["recycle", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"],
+      keyPoints: [
+        "Действия для защиты окружающей среды — Индивидуальные действия:",
+        "Глобальные инициативы — Paris Agreement (Парижское соглашение)",
+        "Ключевое понятие: Защита окружающей среды",
+      ], correctAnswer: "recycle", hint: "Process for reuse" },
       { type: 'quiz', question: "What are the 3 R's?", options: ["Reduce, Reuse, Recycle", "Read, Write, Learn", "Run, Walk, Jump", "Red, Green, Blue", "Другой ответ"], correctAnswer: "Reduce, Reuse, Recycle", hint: "Environmental principles" },
       { type: 'quiz', question: "Renewable energy comes from sun and wind. (возобновляемая)", options: ["Renewable", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Renewable", hint: "Can be replenished" },
       { type: 'quiz', question: "'Eco-friendly' means:", options: ["Good for the environment", "Expensive", "New product", "Popular", "Другой ответ"], correctAnswer: "Good for the environment", hint: "Environmentally safe" },
@@ -1545,7 +1585,12 @@ export const games: GameLesson[] = [
     icon: "Newspaper",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "A newspaper is a daily or weekly publication. (газета)", options: ["newspaper", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "newspaper", hint: "Print media" },
+      { type: 'quiz', question: "A newspaper is a daily or weekly publication. (газета)", options: ["newspaper", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"],
+      keyPoints: [
+        "Критическое отношение к информации — При работе с информацией важно уметь её оценивать:",
+        "При работе с информацией важно уметь её оценивать — Check the source (проверяйте источник)",
+        "Ключевое понятие: Типы СМИ",
+      ], correctAnswer: "newspaper", hint: "Print media" },
       { type: 'quiz', question: "What is a 'headline'?", options: ["Article title", "First paragraph", "Last paragraph", "Picture", "Другой ответ"], correctAnswer: "Article title", hint: "Main title" },
       { type: 'quiz', question: "A journalist writes articles for media. (журналист)", options: ["journalist", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "journalist", hint: "Media professional" },
       { type: 'quiz', question: "'Broadcast' means:", options: ["Transmit on TV/radio", "Print", "Write", "Read", "Другой ответ"], correctAnswer: "Transmit on TV/radio", hint: "Air transmission" },
@@ -1562,7 +1607,12 @@ export const games: GameLesson[] = [
     icon: "Share2",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Viral content spreads quickly online. (быстро)", options: ["quickly", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "quickly", hint: "Becomes popular" },
+      { type: 'quiz', question: "Viral content spreads quickly online. (быстро)", options: ["quickly", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"],
+      keyPoints: [
+        "Преимущества и недостатки социальных сетей — Advantages (Преимущества):",
+        "Ключевое понятие: Социальные сети",
+        "Ключевое понятие: Социальные сети",
+      ], correctAnswer: "quickly", hint: "Becomes popular" },
       { type: 'quiz', question: "What is 'cyberbullying'?", options: ["Online harassment", "Computer virus", "Video game", "Social platform", "Другой ответ"], correctAnswer: "Online harassment", hint: "Digital bullying" },
       { type: 'quiz', question: "Don't share personal information online. (информация)", options: ["information", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "information", hint: "Private data" },
       { type: 'quiz', question: "A 'follower' is:", options: ["Someone who subscribes to your content", "A friend", "Family member", "Coworker", "Другой ответ"], correctAnswer: "Someone who subscribes to your content", hint: "Social media connection" },
@@ -1579,7 +1629,12 @@ export const games: GameLesson[] = [
     icon: "Cpu",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "AI stands for Artificial Intelligence . (интеллект)", options: ["Intelligence", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Intelligence", hint: "Smart machines" },
+      { type: 'quiz', question: "AI stands for Artificial Intelligence . (интеллект)", options: ["Intelligence", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"],
+      keyPoints: [
+        "Искусственный интеллект (AI) — Области применения ИИ:",
+        "Ключевое понятие: Технологии будущего",
+        "Ключевое понятие: Технологии будущего",
+      ], correctAnswer: "Intelligence", hint: "Smart machines" },
       { type: 'quiz', question: "What is 'virtual reality'?", options: ["Computer-generated environment", "Real world", "Dream", "Movie", "Другой ответ"], correctAnswer: "Computer-generated environment", hint: "VR technology" },
       { type: 'quiz', question: "Self-driving cars drive without a driver. (автопилотируемые)", options: ["Self-driving", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Self-driving", hint: "Or autonomous" },
       { type: 'quiz', question: "'Automation' means:", options: ["Machines doing work automatically", "Manual labor", "Working slowly", "No work", "Другой ответ"], correctAnswer: "Machines doing work automatically", hint: "Automatic processes" },
@@ -1596,7 +1651,17 @@ export const games: GameLesson[] = [
     icon: "Shield",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Use strong passwords to protect accounts. (пароли)", options: ["passwords", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "passwords", hint: "Security codes" },
+      { type: 'quiz', question: "Use strong passwords to protect accounts. (пароли)", options: ["passwords", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"],
+      keyPoints: [
+        "Правила цифровой безопасности — Онлайн-безопасность:",
+        "Цифровой след (Digital Footprint) — Цифровой след — это вся информация о вас в интернете",
+        "Цифровой след — это вся информация о вас в интернете. Она включает:",
+      ],
+      examples: [
+        "При проектировании школьного стола: ТЗ должно содержать габариты, материал (древесина), нагрузку до 30 кг, бюджет 2000 ₽, срок выполнения — 2 недели",
+        "Метод морфологического анализа: переберите все комбинации материалов (дерево, металл, пластик) и форм (прямоугольная, круглая, угловая) для поиска оптимального решения",
+        "После создания прототипа проведите тестирование: проверьте прочность, удобство использования и соответствие техническому заданию",
+      ], correctAnswer: "passwords", hint: "Security codes" },
       { type: 'quiz', question: "What is 'phishing'?", options: ["Fake emails to steal data", "Fishing hobby", "Computer game", "Website design", "Другой ответ"], correctAnswer: "Fake emails to steal data", hint: "Online scam" },
       { type: 'quiz', question: "Create a backup of important files. (резервную копию)", options: ["backup", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "backup", hint: "Extra copy" },
       { type: 'quiz', question: "'Encryption' means:", options: ["Coding data for security", "Deleting files", "Opening files", "Sharing files", "Другой ответ"], correctAnswer: "Coding data for security", hint: "Data protection" },

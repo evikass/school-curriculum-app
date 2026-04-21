@@ -1095,6 +1095,7 @@ const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Социальные институты 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/social/lesson1.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "#10B981",
@@ -1109,6 +1110,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Государство Россия 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/social/lesson2.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "#10B981",
@@ -1123,6 +1125,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Права и обязанности 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/social/lesson3.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "#10B981",
@@ -1137,6 +1140,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Образование как институт 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/social/lesson4.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "#10B981",
@@ -1151,6 +1155,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Религия и наука 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/social/lesson5.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "#10B981",
@@ -1165,6 +1170,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Государственное устройство 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/social/lesson6.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "#10B981",
@@ -1179,6 +1185,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Что такое государство 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/social/lesson7.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "#10B981",
@@ -1193,6 +1200,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Государственное устройство России 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/social/lesson8.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "#10B981",
@@ -1207,6 +1215,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Местное самоуправление 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/social/lesson9.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "#10B981",
@@ -1221,6 +1230,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Государственные символы 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/social/lesson10.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "#10B981",
@@ -1235,6 +1245,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Права человека 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/social/lesson11.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "#10B981",
@@ -1249,6 +1260,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Права и свободы человека 📚 📚",
+    image: "/school-curriculum-app/images/lessons/grade6/social/lesson12.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "#10B981",
