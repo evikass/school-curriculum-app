@@ -55,10 +55,27 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
   
   if (!lesson) return null
   
+  // Автогенерация keyPoints из жирного текста в описании (как на gh-pages v3.675)
+  const autoKeyPoints = (() => {
+    if (lesson.keyPoints && lesson.keyPoints.length > 0) return lesson.keyPoints
+    const desc = lesson.theory || lesson.description || ''
+    const boldMatches = (desc.match(/\*\*([^*]+)\*\*/g) || [])
+      .map(e => e.replace(/\*\*/g, '').trim())
+      .filter(e => e.length > 15 && e.length < 200)
+      .slice(0, 5)
+    return boldMatches.length > 0 ? boldMatches : []
+  })()
+
+  // Автогенерация examples из задач (как на gh-pages v3.675)
+  const autoExamples = (() => {
+    if (lesson.examples && lesson.examples.length > 0) return lesson.examples
+    return [...(lesson.tasks || [])].slice(0, 4)
+  })()
+
   const sections = [
     { title: 'Теория', icon: BookOpen, content: lesson.theory || lesson.description },
-    { title: 'Ключевые моменты', icon: Lightbulb, content: lesson.keyPoints || [] },
-    { title: 'Примеры', icon: Target, content: lesson.examples || [] },
+    { title: 'Ключевые моменты', icon: Lightbulb, content: autoKeyPoints },
+    { title: 'Примеры', icon: Target, content: autoExamples },
     { title: 'Задания', icon: CheckCircle, content: lesson.tasks }
   ]
   

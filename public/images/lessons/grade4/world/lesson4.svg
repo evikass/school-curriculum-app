@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Red top accent bar -->
+  <rect x="0" y="0" width="500" height="8" fill="#C41E3A"/>
+  <!-- Gold accent line -->
+  <rect x="0" y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Cream background -->
+  <rect x="0" y="10" width="500" height="325" fill="#F5E6C8"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Степи и пустыни</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#555">Золотые травы и бескрайние пески</text>
+  <!-- Decorative line under title -->
+  <line x1="150" y1="78" x2="350" y2="78" stroke="#C41E3A" stroke-width="1.5" opacity="0.6"/>
+  <!-- Bottom dark bar -->
+  <rect x="0" y="318" width="500" height="32" fill="#1a1a1a"/>
+  <!-- Gold accent on bottom bar -->
+  <rect x="0" y="316" width="500" height="2" fill="#D4A843"/>
+  <!-- Bottom text -->
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#F5E6C8">Окружающий мир — 4 класс</text>
+  <!-- Big sun (Bauhaus circle) -->
+  <circle cx="400" cy="120" r="40" fill="#D4A843" opacity="0.3"/>
+  <circle cx="400" cy="120" r="25" fill="#D4A843" opacity="0.5"/>
+  <circle cx="400" cy="120" r="12" fill="#D4A843"/>
+  <!-- Sun rays -->
+  <line x1="400" y1="70" x2="400" y2="85" stroke="#D4A843" stroke-width="2"/>
+  <line x1="400" y1="155" x2="400" y2="170" stroke="#D4A843" stroke-width="2"/>
+  <line x1="350" y1="120" x2="365" y2="120" stroke="#D4A843" stroke-width="2"/>
+  <line x1="435" y1="120" x2="450" y2="120" stroke="#D4A843" stroke-width="2"/>
+  <line x1="365" y1="85" x2="375" y2="95" stroke="#D4A843" stroke-width="1.5"/>
+  <line x1="425" y1="145" x2="435" y2="155" stroke="#D4A843" stroke-width="1.5"/>
+  <line x1="435" y1="85" x2="425" y2="95" stroke="#D4A843" stroke-width="1.5"/>
+  <line x1="365" y1="155" x2="375" y2="145" stroke="#D4A843" stroke-width="1.5"/>
+  <!-- Rolling hills / steppe -->
+  <path d="M0,240 Q80,210 160,230 Q240,250 320,225 Q400,200 500,240 L500,310 L0,310 Z" fill="#D4B85A"/>
+  <path d="M0,260 Q100,235 200,255 Q300,275 400,250 Q450,240 500,260 L500,310 L0,310 Z" fill="#C4A843"/>
+  <!-- Kovyl grass blades -->
+  <line x1="60" y1="250" x2="55" y2="210" stroke="#8A7A30" stroke-width="1.5"/>
+  <line x1="65" y1="248" x2="68" y2="205" stroke="#8A7A30" stroke-width="1.5"/>
+  <line x1="70" y1="249" x2="80" y2="212" stroke="#8A7A30" stroke-width="1.5"/>
+  <ellipse cx="54" cy="208" rx="4" ry="8" fill="#A89840" opacity="0.7"/>
+  <ellipse cx="70" cy="203" rx="4" ry="8" fill="#A89840" opacity="0.7"/>
+  <ellipse cx="82" cy="210" rx="4" ry="7" fill="#A89840" opacity="0.7"/>
+  <line x1="180" y1="248" x2="175" y2="208" stroke="#8A7A30" stroke-width="1.5"/>
+  <line x1="185" y1="247" x2="190" y2="205" stroke="#8A7A30" stroke-width="1.5"/>
+  <line x1="300" y1="238" x2="295" y2="198" stroke="#8A7A30" stroke-width="1.5"/>
+  <line x1="305" y1="237" x2="312" y2="195" stroke="#8A7A30" stroke-width="1.5"/>
+  <!-- Steppe eagle -->
+  <polygon points="200,140 220,125 240,140 230,135 220,150 210,135" fill="#1a1a1a"/>
+  <line x1="220" y1="150" x2="218" y2="170" stroke="#1a1a1a" stroke-width="1"/>
+  <polygon points="218,170 215,178 221,175" fill="#1a1a1a"/>
+  <line x1="220" y1="150" x2="222" y2="170" stroke="#1a1a1a" stroke-width="1"/>
+  <polygon points="222,170 225,178 219,175" fill="#1a1a1a"/>
+  <!-- Eagle wings spread -->
+  <path d="M195,132 Q180,118 160,122" stroke="#1a1a1a" stroke-width="2" fill="none"/>
+  <path d="M245,132 Q260,118 280,122" stroke="#1a1a1a" stroke-width="2" fill="none"/>
+  <!-- Ground squirrel (суслик) -->
+  <ellipse cx="130" cy="255" rx="10" ry="7" fill="#C4A060"/>
+  <circle cx="139" cy="250" r="6" fill="#C4A060"/>
+  <circle cx="142" cy="248" r="1.5" fill="#1a1a1a"/>
+  <!-- Tulips (steppe flowers) -->
+  <rect x="440" y="240" width="2" height="20" fill="#2E7D32"/>
+  <ellipse cx="441" cy="240" rx="5" ry="8" fill="#C41E3A"/>
+  <rect x="455" y="245" width="2" height="16" fill="#2E7D32"/>
+  <ellipse cx="456" cy="245" rx="4" ry="7" fill="#E06060"/>
+  <rect x="465" y="242" width="2" height="18" fill="#2E7D32"/>
+  <ellipse cx="466" cy="242" rx="5" ry="7" fill="#C41E3A"/>
+  <!-- Temperature -->
+  <rect x="30" y="90" width="75" height="22" rx="3" fill="#C41E3A" opacity="0.12"/>
+  <text x="67" y="105" font-family="Arial" font-size="9" font-weight="bold" fill="#8B4513" text-anchor="middle">+40°C</text>
+</svg>

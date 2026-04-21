@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/><rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/><polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/><polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/><polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/><polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/><circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/><circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/><text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Местное самоуправление</text><text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Обществознание - Урок 7</text><line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/><rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/><rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<!-- Card: City Hall -->
+<rect x="25" y="88" width="220" height="120" rx="6" fill="white" stroke="#1565C0" stroke-width="2"/>
+<rect x="25" y="88" width="220" height="24" rx="6" fill="#1565C0" opacity="0.12"/>
+<rect x="25" y="100" width="220" height="12" fill="#1565C0" opacity="0.12"/>
+<text x="135" y="106" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Местная власть - для людей</text>
+<!-- City hall building -->
+<rect x="50" y="135" width="80" height="45" fill="#1565C0" opacity="0.08" stroke="#1565C0" stroke-width="1.5" rx="2"/>
+<rect x="55" y="128" width="70" height="7" fill="#1565C0" opacity="0.1"/>
+<rect x="60" y="142" width="8" height="12" fill="#F9A825" opacity="0.25" stroke="#F9A825" stroke-width="0.8"/>
+<rect x="74" y="142" width="8" height="12" fill="#F9A825" opacity="0.25" stroke="#F9A825" stroke-width="0.8"/>
+<rect x="88" y="142" width="8" height="12" fill="#F9A825" opacity="0.25" stroke="#F9A825" stroke-width="0.8"/>
+<rect x="102" y="142" width="8" height="12" fill="#F9A825" opacity="0.25" stroke="#F9A825" stroke-width="0.8"/>
+<rect x="73" y="158" width="16" height="22" rx="1" fill="#1565C0" opacity="0.15" stroke="#1565C0" stroke-width="0.8"/>
+<!-- Clock tower -->
+<rect x="78" y="112" width="16" height="16" fill="#1565C0" opacity="0.12" stroke="#1565C0" stroke-width="1" rx="2"/>
+<circle cx="86" cy="120" r="5" fill="white" stroke="#C62828" stroke-width="0.8"/>
+<line x1="86" y1="120" x2="86" y2="117" stroke="#C62828" stroke-width="0.8"/>
+<line x1="86" y1="120" x2="88" y2="120" stroke="#C62828" stroke-width="0.8"/>
+<!-- People near building -->
+<circle cx="148" cy="165" r="5" fill="#2E7D32" opacity="0.2" stroke="#2E7D32" stroke-width="0.8"/>
+<rect x="145" y="170" width="6" height="10" rx="1" fill="#2E7D32" opacity="0.15"/>
+<circle cx="162" cy="165" r="5" fill="#2E7D32" opacity="0.2" stroke="#2E7D32" stroke-width="0.8"/>
+<rect x="159" y="170" width="6" height="10" rx="1" fill="#2E7D32" opacity="0.15"/>
+<circle cx="176" cy="165" r="5" fill="#2E7D32" opacity="0.2" stroke="#2E7D32" stroke-width="0.8"/>
+<rect x="173" y="170" width="6" height="10" rx="1" fill="#2E7D32" opacity="0.15"/>
+<text x="135" y="200" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Граждане решают местные дела</text>
+<!-- Card: Выборы -->
+<rect x="255" y="88" width="220" height="120" rx="6" fill="white" stroke="#C62828" stroke-width="2"/>
+<rect x="255" y="88" width="220" height="24" rx="6" fill="#C62828" opacity="0.12"/>
+<rect x="255" y="100" width="220" height="12" fill="#C62828" opacity="0.12"/>
+<text x="365" y="106" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#C62828" text-anchor="middle">Местные выборы</text>
+<!-- Ballot box -->
+<rect x="290" y="130" width="40" height="50" rx="3" fill="#C62828" opacity="0.1" stroke="#C62828" stroke-width="1.5"/>
+<rect x="305" y="125" width="10" height="10" fill="#C62828" opacity="0.15" stroke="#C62828" stroke-width="1" rx="1"/>
+<!-- Ballot paper going in -->
+<rect x="308" y="118" width="8" height="12" rx="1" fill="white" stroke="#333" stroke-width="0.8" transform="rotate(-10,312,124)"/>
+<!-- Vote checkmark -->
+<path d="M312,120 L314,122 L318,117" fill="none" stroke="#2E7D32" stroke-width="0.8"/>
+<!-- People voting -->
+<circle cx="350" cy="150" r="6" fill="#1565C0" opacity="0.2" stroke="#1565C0" stroke-width="0.8"/>
+<rect x="347" y="156" width="6" height="12" rx="1" fill="#1565C0" opacity="0.15"/>
+<circle cx="375" cy="150" r="6" fill="#1565C0" opacity="0.2" stroke="#1565C0" stroke-width="0.8"/>
+<rect x="372" y="156" width="6" height="12" rx="1" fill="#1565C0" opacity="0.15"/>
+<circle cx="400" cy="150" r="6" fill="#1565C0" opacity="0.2" stroke="#1565C0" stroke-width="0.8"/>
+<rect x="397" y="156" width="6" height="12" rx="1" fill="#1565C0" opacity="0.15"/>
+<text x="365" y="183" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Право избирать и быть избранным</text>
+<text x="365" y="197" font-family="Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">С 18 лет - активное избирательное право</text>
+<!-- Card: Органы МСУ -->
+<rect x="25" y="216" width="150" height="80" rx="6" fill="white" stroke="#2E7D32" stroke-width="2"/>
+<rect x="25" y="216" width="150" height="24" rx="6" fill="#2E7D32" opacity="0.12"/>
+<rect x="25" y="228" width="150" height="12" fill="#2E7D32" opacity="0.12"/>
+<text x="100" y="234" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#2E7D32" text-anchor="middle">Органы МСУ</text>
+<text x="38" y="256" font-family="Arial,sans-serif" font-size="10" fill="#333">Городская Дума</text>
+<text x="38" y="272" font-family="Arial,sans-serif" font-size="10" fill="#333">Мэрия (администрация)</text>
+<text x="38" y="288" font-family="Arial,sans-serif" font-size="10" fill="#333">Совет депутатов</text>
+<!-- Card: Полномочия -->
+<rect x="185" y="216" width="145" height="80" rx="6" fill="white" stroke="#F9A825" stroke-width="2"/>
+<rect x="185" y="216" width="145" height="24" rx="6" fill="#F9A825" opacity="0.12"/>
+<rect x="185" y="228" width="145" height="12" fill="#F9A825" opacity="0.12"/>
+<text x="258" y="234" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100" text-anchor="middle">Полномочия</text>
+<text x="198" y="256" font-family="Arial,sans-serif" font-size="10" fill="#333">Благоустройство города</text>
+<text x="198" y="272" font-family="Arial,sans-serif" font-size="10" fill="#333">Транспорт и дороги</text>
+<text x="198" y="288" font-family="Arial,sans-serif" font-size="10" fill="#333">Школы и больницы</text>
+<!-- Card: Участие граждан -->
+<rect x="340" y="216" width="135" height="80" rx="6" fill="white" stroke="#6A1B9A" stroke-width="2"/>
+<rect x="340" y="216" width="135" height="24" rx="6" fill="#6A1B9A" opacity="0.12"/>
+<rect x="340" y="228" width="135" height="12" fill="#6A1B9A" opacity="0.12"/>
+<text x="408" y="234" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Участие граждан</text>
+<text x="353" y="256" font-family="Arial,sans-serif" font-size="10" fill="#333">Голосование на выборах</text>
+<text x="353" y="272" font-family="Arial,sans-serif" font-size="10" fill="#333">Обращения в админ.</text>
+<text x="353" y="288" font-family="Arial,sans-serif" font-size="10" fill="#333">Общественные советы</text>
+<rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/><text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Местное самоуправление</text></svg>

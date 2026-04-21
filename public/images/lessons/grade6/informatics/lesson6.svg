@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/><rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/><polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/><polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/><polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/><polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/><circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/><circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/><text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Форматирование текста</text><text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Информатика - Урок 6</text><line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/><rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/><rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<!-- Formatting toolbar mockup -->
+<!-- Main toolbar -->
+<rect x="40" y="88" width="420" height="34" rx="6" fill="#FAFAFA" stroke="#B0BEC5" stroke-width="1.5"/>
+<!-- Bold -->
+<rect x="50" y="93" width="28" height="24" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.2"/>
+<text x="64" y="110" font-family="Arial,sans-serif" font-size="14" fill="#1565C0" text-anchor="middle" font-weight="bold">B</text>
+<!-- Italic -->
+<rect x="84" y="93" width="28" height="24" rx="4" fill="white" stroke="#B0BEC5" stroke-width="1"/>
+<text x="98" y="110" font-family="Arial,sans-serif" font-size="14" fill="#555" text-anchor="middle" font-style="italic">I</text>
+<!-- Underline -->
+<rect x="118" y="93" width="28" height="24" rx="4" fill="white" stroke="#B0BEC5" stroke-width="1"/>
+<text x="132" y="110" font-family="Arial,sans-serif" font-size="14" fill="#555" text-anchor="middle" text-decoration="underline">U</text>
+<!-- Strikethrough -->
+<rect x="152" y="93" width="28" height="24" rx="4" fill="white" stroke="#B0BEC5" stroke-width="1"/>
+<text x="166" y="110" font-family="Arial,sans-serif" font-size="13" fill="#555" text-anchor="middle" text-decoration="line-through">S</text>
+<!-- Separator -->
+<line x1="186" y1="95" x2="186" y2="115" stroke="#ddd" stroke-width="1"/>
+<!-- Align left -->
+<rect x="192" y="93" width="28" height="24" rx="4" fill="white" stroke="#B0BEC5" stroke-width="1"/>
+<line x1="200" y1="101" x2="216" y2="101" stroke="#555" stroke-width="2"/>
+<line x1="200" y1="107" x2="212" y2="107" stroke="#555" stroke-width="2"/>
+<line x1="200" y1="113" x2="214" y2="113" stroke="#555" stroke-width="2"/>
+<!-- Align center -->
+<rect x="226" y="93" width="28" height="24" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.2"/>
+<line x1="232" y1="101" x2="248" y2="101" stroke="#2E7D32" stroke-width="2"/>
+<line x1="234" y1="107" x2="246" y2="107" stroke="#2E7D32" stroke-width="2"/>
+<line x1="233" y1="113" x2="247" y2="113" stroke="#2E7D32" stroke-width="2"/>
+<!-- Align right -->
+<rect x="260" y="93" width="28" height="24" rx="4" fill="white" stroke="#B0BEC5" stroke-width="1"/>
+<line x1="264" y1="101" x2="280" y2="101" stroke="#555" stroke-width="2"/>
+<line x1="268" y1="107" x2="280" y2="107" stroke="#555" stroke-width="2"/>
+<line x1="266" y1="113" x2="280" y2="113" stroke="#555" stroke-width="2"/>
+<!-- Separator -->
+<line x1="294" y1="95" x2="294" y2="115" stroke="#ddd" stroke-width="1"/>
+<!-- Font size -->
+<rect x="300" y="93" width="50" height="24" rx="4" fill="white" stroke="#B0BEC5" stroke-width="1"/>
+<text x="325" y="109" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">14 pt</text>
+<!-- Color -->
+<rect x="358" y="93" width="28" height="24" rx="4" fill="white" stroke="#B0BEC5" stroke-width="1"/>
+<rect x="363" y="103" width="18" height="10" rx="2" fill="#C62828"/>
+<!-- List -->
+<rect x="392" y="93" width="28" height="24" rx="4" fill="white" stroke="#B0BEC5" stroke-width="1"/>
+<circle cx="401" cy="101" r="2" fill="#555"/>
+<circle cx="401" cy="107" r="2" fill="#555"/>
+<circle cx="401" cy="113" r="2" fill="#555"/>
+<line x1="407" y1="101" x2="416" y2="101" stroke="#555" stroke-width="1.5"/>
+<line x1="407" y1="107" x2="416" y2="107" stroke="#555" stroke-width="1.5"/>
+<line x1="407" y1="113" x2="416" y2="113" stroke="#555" stroke-width="1.5"/>
+<!-- Separator -->
+<line x1="426" y1="95" x2="426" y2="115" stroke="#ddd" stroke-width="1"/>
+<!-- Highlight -->
+<rect x="432" y="93" width="20" height="24" rx="4" fill="white" stroke="#B0BEC5" stroke-width="1"/>
+<rect x="437" y="98" width="10" height="14" rx="2" fill="#FFEB3B" stroke="#FDD835" stroke-width="0.8"/>
+<!-- Formatted text examples -->
+<rect x="40" y="130" width="420" height="170" rx="8" fill="white" stroke="#CFD8DC" stroke-width="1.5"/>
+<text x="60" y="155" font-family="Arial,sans-serif" font-size="10" fill="#888">Результаты форматирования:</text>
+<!-- Examples row 1 -->
+<text x="60" y="178" font-family="Arial,sans-serif" font-size="13" fill="#333" font-weight="bold">Жирный текст</text>
+<text x="185" y="178" font-family="Arial,sans-serif" font-size="13" fill="#333" font-style="italic">Курсив</text>
+<text x="270" y="178" font-family="Arial,sans-serif" font-size="13" fill="#333" text-decoration="underline">Подчёркнутый</text>
+<!-- Examples row 2 -->
+<text x="60" y="203" font-family="Arial,sans-serif" font-size="18" fill="#C62828" font-weight="bold">Крупный</text>
+<text x="165" y="203" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">Мелкий</text>
+<text x="240" y="203" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32">Цветной</text>
+<text x="320" y="203" font-family="Arial,sans-serif" font-size="13" fill="#7B1FA2">Текст</text>
+<!-- Alignment examples -->
+<text x="60" y="230" font-family="Arial,sans-serif" font-size="11" fill="#555">По левому краю</text>
+<text x="250" y="250" font-family="Arial,sans-serif" font-size="11" fill="#555" text-anchor="middle">По центру</text>
+<text x="440" y="270" font-family="Arial,sans-serif" font-size="11" fill="#555" text-anchor="end">По правому краю</text>
+<!-- List example -->
+<text x="60" y="290" font-family="Arial,sans-serif" font-size="11" fill="#555">Список:</text>
+<circle cx="68" cy="303" r="3" fill="#C62828"/>
+<text x="78" y="307" font-family="Arial,sans-serif" font-size="10" fill="#555">Маркированный элемент</text>
+<text x="92" y="321" font-family="Arial,sans-serif" font-size="10" fill="#555">1. Нумерованный элемент</text>
+<!-- Font family labels -->
+<rect x="370" y="135" width="80" height="55" rx="5" fill="#FFF8E1" stroke="#F9A825" stroke-width="1"/>
+<text x="410" y="152" font-family="Arial,sans-serif" font-size="8" fill="#F9A825" text-anchor="middle" font-weight="bold">Шрифты</text>
+<text x="380" y="165" font-family="serif" font-size="9" fill="#555">Times</text>
+<text x="380" y="178" font-family="Arial,sans-serif" font-size="9" fill="#555">Arial</text>
+<text x="380" y="191" font-family="monospace" font-size="9" fill="#555">Courier</text>
+<rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/><text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Форматирование текста</text></svg>

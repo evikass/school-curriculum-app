@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <rect x="0" y="0" width="500" height="6" fill="#C41E3A"/>
+  <rect x="0" y="310" width="500" height="4" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Имя существительное</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1a1a1a">Часть речи, обозначающая предмет (кто? что?)</text>
+  <!-- Question badges -->
+  <circle cx="85" cy="100" r="22" fill="#C41E3A"/>
+  <text x="85" y="106" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#FFFFFF">Кто?</text>
+  <circle cx="415" cy="100" r="22" fill="#2B4C7E"/>
+  <text x="415" y="106" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#FFFFFF">Что?</text>
+  <!-- Objects representing nouns - geometric Bauhaus style -->
+  <!-- Table (rectangle) -->
+  <rect x="55" y="150" width="80" height="50" rx="3" fill="#A0724A" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="65" y="200" width="8" height="20" fill="#8B6314"/>
+  <rect x="117" y="200" width="8" height="20" fill="#8B6314"/>
+  <text x="95" y="240" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#1a1a1a">стол</text>
+  <text x="95" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2B4C7E">что?</text>
+  <!-- Person (abstract figure) -->
+  <circle cx="200" cy="155" r="16" fill="#E8C090" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="190" y="173" width="20" height="35" rx="3" fill="#2B4C7E" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="185" y="175" width="10" height="25" rx="3" fill="#2B4C7E" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="205" y="175" width="10" height="25" rx="3" fill="#2B4C7E" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="200" y="240" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#1a1a1a">учитель</text>
+  <text x="200" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#C41E3A">кто?</text>
+  <!-- Book -->
+  <rect x="290" y="150" width="50" height="65" rx="2" fill="#C41E3A" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="315" y1="150" x2="315" y2="215" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="298" y1="165" x2="312" y2="165" stroke="#F5E6C8" stroke-width="1.5"/>
+  <line x1="298" y1="175" x2="312" y2="175" stroke="#F5E6C8" stroke-width="1.5"/>
+  <line x1="298" y1="185" x2="312" y2="185" stroke="#F5E6C8" stroke-width="1.5"/>
+  <text x="315" y="240" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#1a1a1a">книга</text>
+  <text x="315" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2B4C7E">что?</text>
+  <!-- Cat (abstract) -->
+  <circle cx="415" cy="170" r="18" fill="#D4A843" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- Ears -->
+  <polygon points="400,155 395,140 408,152" fill="#D4A843" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="430,155 435,140 422,152" fill="#D4A843" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- Eyes -->
+  <circle cx="409" cy="168" r="3" fill="#1a1a1a"/>
+  <circle cx="421" cy="168" r="3" fill="#1a1a1a"/>
+  <text x="415" y="240" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#1a1a1a">кот</text>
+  <text x="415" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#C41E3A">кто?</text>
+  <!-- Gender boxes at bottom -->
+  <rect x="55" y="268" width="120" height="28" rx="4" fill="#2B4C7E" opacity="0.9"/>
+  <text x="115" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">М.р. -- стол, кот</text>
+  <rect x="190" y="268" width="120" height="28" rx="4" fill="#C41E3A" opacity="0.9"/>
+  <text x="250" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">Ж.р. -- книга</text>
+  <rect x="325" y="268" width="120" height="28" rx="4" fill="#D4A843" opacity="0.9"/>
+  <text x="385" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">С.р. -- окно</text>
+  <!-- Subject name -->
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1a1a1a">Русский язык -- 4 класс</text>
+</svg>

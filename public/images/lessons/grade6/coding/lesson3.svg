@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/><rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/><polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/><polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/><polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/><polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/><circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/><circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/><text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Движение и координаты</text><text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Основы программирования - Урок 3</text><line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/><rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/><rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<!-- Coordinate grid centered -->
+<rect x="55" y="92" width="280" height="205" rx="4" fill="white" stroke="#666" stroke-width="1.5"/>
+<!-- Grid lines -->
+<g stroke="#E0E0E0" stroke-width="0.5">
+  <line x1="127" y1="92" x2="127" y2="297"/><line x1="199" y1="92" x2="199" y2="297"/><line x1="271" y1="92" x2="271" y2="297"/>
+  <line x1="55" y1="133" x2="335" y2="133"/><line x1="55" y1="175" x2="335" y2="175"/><line x1="55" y1="216" x2="335" y2="216"/><line x1="55" y1="258" x2="335" y2="258"/>
+</g>
+<!-- Axes -->
+<line x1="195" y1="92" x2="195" y2="297" stroke="#C62828" stroke-width="1.5" opacity="0.6"/>
+<line x1="55" y1="195" x2="335" y2="195" stroke="#1565C0" stroke-width="1.5" opacity="0.6"/>
+<!-- Axis arrows -->
+<polygon points="195,92 191,100 199,100" fill="#C62828" opacity="0.6"/>
+<polygon points="335,195 327,191 327,199" fill="#1565C0" opacity="0.6"/>
+<!-- Axis labels -->
+<text x="340" y="192" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" font-weight="bold">x</text>
+<text x="192" y="90" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold">y</text>
+<!-- Grid numbers -->
+<text x="195" y="307" font-family="Arial,sans-serif" font-size="9" fill="#999" text-anchor="middle">0</text>
+<text x="127" y="307" font-family="Arial,sans-serif" font-size="9" fill="#999" text-anchor="middle">-100</text>
+<text x="271" y="307" font-family="Arial,sans-serif" font-size="9" fill="#999" text-anchor="middle">100</text>
+<text x="48" y="199" font-family="Arial,sans-serif" font-size="9" fill="#999" text-anchor="middle">0</text>
+<text x="48" y="137" font-family="Arial,sans-serif" font-size="9" fill="#999" text-anchor="middle">100</text>
+<text x="48" y="261" font-family="Arial,sans-serif" font-size="9" fill="#999" text-anchor="middle">-100</text>
+<!-- Cat at position -->
+<g transform="translate(260,145)">
+  <ellipse cx="0" cy="0" rx="14" ry="12" fill="#F5A623" stroke="#E8941E" stroke-width="1"/>
+  <polygon points="-8,-9 -5,-18 -1,-8" fill="#F5A623" stroke="#E8941E" stroke-width="0.8"/>
+  <polygon points="8,-9 5,-18 1,-8" fill="#F5A623" stroke="#E8941E" stroke-width="0.8"/>
+  <circle cx="-4" cy="-2" r="2.5" fill="white"/><circle cx="-3.5" cy="-2" r="1.2" fill="#2E7D32"/>
+  <circle cx="4" cy="-2" r="2.5" fill="white"/><circle cx="4.5" cy="-2" r="1.2" fill="#2E7D32"/>
+  <ellipse cx="0" cy="3" rx="1.8" ry="1.2" fill="#E8941E"/>
+</g>
+<!-- Dashed path -->
+<path d="M195,195 L260,145" fill="none" stroke="#F5A623" stroke-width="1.5" stroke-dasharray="4,3"/>
+<!-- Position label -->
+<rect x="248" y="118" width="56" height="18" rx="3" fill="#FFF3E0" stroke="#FF8F00" stroke-width="0.8"/>
+<text x="276" y="131" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle">x:90 y:80</text>
+<!-- Code blocks on right -->
+<rect x="355" y="92" width="130" height="140" rx="5" fill="#FFF3E0" stroke="#FF8F00" stroke-width="1"/>
+<text x="420" y="108" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">Блоки движения</text>
+<!-- Block 1 -->
+<rect x="365" y="118" width="110" height="20" rx="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+<polygon points="365,118 373,118 365,126" fill="#4FC3F7"/>
+<text x="422" y="132" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">иди в x: 90 y: 80</text>
+<!-- Block 2 -->
+<rect x="365" y="145" width="110" height="20" rx="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+<polygon points="365,145 373,145 365,153" fill="#4FC3F7"/>
+<text x="422" y="159" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">сдвинься на 10</text>
+<!-- Block 3 -->
+<rect x="365" y="172" width="110" height="20" rx="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+<polygon points="365,172 373,172 365,180" fill="#4FC3F7"/>
+<text x="422" y="186" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">поверни на 15</text>
+<!-- Block 4 -->
+<rect x="365" y="199" width="110" height="20" rx="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+<polygon points="365,199 373,199 365,207" fill="#4FC3F7"/>
+<text x="422" y="213" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">направление 90</text>
+<rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/><text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Движение и координаты</text></svg>

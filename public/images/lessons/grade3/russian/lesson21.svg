@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d9488;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#00000033"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" rx="18" ry="18" fill="url(#bg)"/>
+
+  <!-- Decorative shapes -->
+  <circle cx="450" cy="50" r="30" fill="#ffffff10"/>
+  <circle cx="40" cy="300" r="40" fill="#ffffff08"/>
+  <rect x="410" y="270" width="55" height="55" rx="12" fill="#ffffff08" transform="rotate(20 437 297)"/>
+
+  <!-- Title bar -->
+  <rect x="30" y="12" width="440" height="46" rx="14" ry="14" fill="#ffffff22"/>
+  <text x="250" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#ffffff">📋 Второстепенные члены</text>
+
+  <!-- Card 1: Дополнение -->
+  <rect x="18" y="68" width="155" height="115" rx="13" ry="13" fill="#fecdd3" filter="url(#shadow)"/>
+  <rect x="18" y="68" width="155" height="30" rx="13" ry="13" fill="#e11d48"/>
+  <rect x="18" y="86" width="155" height="12" fill="#e11d48"/>
+  <text x="95" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">📦 Дополнение</text>
+  <text x="95" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#881337">Вопросы косвенных</text>
+  <text x="95" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#881337">падежей:</text>
+  <rect x="35" y="138" width="120" height="18" rx="6" ry="6" fill="#ffffff55"/>
+  <text x="95" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#9f1239">кого? чего? кому?</text>
+  <rect x="35" y="160" width="120" height="18" rx="6" ry="6" fill="#ffffff55"/>
+  <text x="95" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#9f1239">чем? о чём?</text>
+
+  <!-- Card 2: Определение -->
+  <rect x="173" y="68" width="155" height="115" rx="13" ry="13" fill="#bfdbfe" filter="url(#shadow)"/>
+  <rect x="173" y="68" width="155" height="30" rx="13" ry="13" fill="#2563eb"/>
+  <rect x="173" y="86" width="155" height="12" fill="#2563eb"/>
+  <text x="250" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">🎨 Определение</text>
+  <text x="250" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e3a5f">Признак предмета:</text>
+  <rect x="190" y="122" width="120" height="18" rx="6" ry="6" fill="#ffffff55"/>
+  <text x="250" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1e40af">какой? какая?</text>
+  <rect x="190" y="144" width="120" height="18" rx="6" ry="6" fill="#ffffff55"/>
+  <text x="250" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1e40af">какое? какие?</text>
+  <rect x="190" y="166" width="120" height="14" rx="5" ry="5" fill="#dbeafe"/>
+  <text x="250" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e40af" font-style="italic">отвечает на ?</text>
+
+  <!-- Card 3: Обстоятельство -->
+  <rect x="328" y="68" width="155" height="115" rx="13" ry="13" fill="#d9f99d" filter="url(#shadow)"/>
+  <rect x="328" y="68" width="155" height="30" rx="13" ry="13" fill="#65a30d"/>
+  <rect x="328" y="86" width="155" height="12" fill="#65a30d"/>
+  <text x="405" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">📍 Обстоятельство</text>
+  <text x="405" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#365314">Условие действия:</text>
+  <rect x="345" y="122" width="120" height="18" rx="6" ry="6" fill="#ffffff55"/>
+  <text x="405" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#3f6212">где? когда?</text>
+  <rect x="345" y="144" width="120" height="18" rx="6" ry="6" fill="#ffffff55"/>
+  <text x="405" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#3f6212">как? куда?</text>
+  <rect x="345" y="166" width="120" height="14" rx="5" ry="5" fill="#ecfccb"/>
+  <text x="405" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#365314" font-style="italic">откуда? почему?</text>
+
+  <!-- Example sentence section -->
+  <rect x="18" y="195" width="464" height="65" rx="12" ry="12" fill="#ffffff20"/>
+  <text x="250" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ccfbf1">✨ Пример предложения:</text>
+
+  <!-- Colored words -->
+  <text x="250" y="237" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold">
+    <tspan fill="#fde68a">Маленький</tspan>
+    <tspan fill="#ffffff"> мальчик </tspan>
+    <tspan fill="#bbf7d0">быстро</tspan>
+    <tspan fill="#ffffff"> бежал </tspan>
+    <tspan fill="#fca5a5">по дорожке</tspan>
+  </text>
+
+  <!-- Legend / color key -->
+  <rect x="18" y="270" width="464" height="66" rx="12" ry="12" fill="#fef08a" filter="url(#shadow)"/>
+  <text x="250" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#78350f">🎯 Разбор по членам:</text>
+
+  <!-- Color legend items -->
+  <!-- Subject + Predicate -->
+  <text x="40" y="310" font-family="Arial, sans-serif" font-size="10" fill="#92400e">• </text>
+  <rect x="52" y="299" width="50" height="16" rx="5" ry="5" fill="#ffffffaa"/>
+  <text x="77" y="311" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#78350f">мальчик</text>
+  <text x="110" y="311" font-family="Arial, sans-serif" font-size="9" fill="#92400e">+ бежал = основа</text>
+
+  <!-- Definition -->
+  <rect x="210" y="299" width="72" height="16" rx="5" ry="5" fill="#bfdbfeaa"/>
+  <text x="246" y="311" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1e40af">Маленький</text>
+  <text x="290" y="311" font-family="Arial, sans-serif" font-size="9" fill="#1e40af">= определение</text>
+
+  <!-- Adverbial -->
+  <rect x="370" y="299" width="52" height="16" rx="5" ry="5" fill="#bbf7d0aa"/>
+  <text x="396" y="311" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#166534">быстро</text>
+  <text x="428" y="311" font-family="Arial, sans-serif" font-size="9" fill="#166534">= обстоят.</text>
+
+  <!-- Complement -->
+  <rect x="210" y="318" width="90" height="16" rx="5" ry="5" fill="#fecdd3aa"/>
+  <text x="255" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#9f1239">по дорожке</text>
+  <text x="310" y="330" font-family="Arial, sans-serif" font-size="9" fill="#9f1239">= дополнение</text>
+</svg>

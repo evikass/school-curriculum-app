@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <text x="250" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Русские художники</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#D4A843">Известные русские живописцы</text>
+  <line x1="50" y1="82" x2="450" y2="82" stroke="#D4A843" stroke-width="0.5"/>
+  
+  <!-- easel -->
+  <line x1="260" y1="100" x2="260" y2="270" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="260" y1="100" x2="220" y2="270" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="260" y1="100" x2="300" y2="270" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="230" y1="200" x2="290" y2="200" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- canvas on easel -->
+  <rect x="225" y="110" width="70" height="85" fill="#FFFFFF" opacity="0.7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- tiny landscape on canvas -->
+  <polygon points="230,185 250,145 270,185" fill="#2B4C7E" opacity="0.3"/>
+  <circle cx="280" cy="125" r="6" fill="#D4A843" opacity="0.4"/>
+  <rect x="230" y="180" width="60" height="12" fill="#2E7D32" opacity="0.2"/>
+  <!-- painter figure -->
+  <circle cx="160" cy="150" r="12" fill="#C41E3A" opacity="0.7"/>
+  <line x1="160" y1="162" x2="160" y2="225" stroke="#C41E3A" stroke-width="3.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- painting arm -->
+  <line x1="160" y1="175" x2="200" y2="155" stroke="#C41E3A" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <!-- brush in hand -->
+  <line x1="200" y1="155" x2="230" y2="140" stroke="#D4A843" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="232" cy="138" r="3" fill="#C41E3A"/>
+  <!-- other arm -->
+  <line x1="160" y1="178" x2="145" y2="190" stroke="#C41E3A" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <!-- legs -->
+  <line x1="160" y1="225" x2="148" y2="265" stroke="#C41E3A" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <line x1="160" y1="225" x2="172" y2="265" stroke="#C41E3A" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <!-- palette in other hand -->
+  <ellipse cx="140" cy="195" rx="15" ry="10" fill="#D4A843" opacity="0.5" transform="rotate(-20,140,195)"/>
+  <circle cx="135" cy="192" r="3" fill="#C41E3A"/>
+  <circle cx="145" cy="190" r="3" fill="#2B4C7E"/>
+  <circle cx="140" cy="198" r="2.5" fill="#2E7D32"/>
+  <!-- paint tubes on ground -->
+  <rect x="330" y="252" width="25" height="6" rx="2" fill="#C41E3A" opacity="0.5"/>
+  <rect x="365" y="254" width="25" height="6" rx="2" fill="#2B4C7E" opacity="0.5"/>
+  <rect x="350" y="260" width="25" height="6" rx="2" fill="#D4A843" opacity="0.5"/>
+  <rect y="310" width="500" height="40" fill="#1a1a1a"/>
+  <rect y="308" width="500" height="2" fill="#C41E3A"/>
+  <text x="250" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#D4A843">Изобразительное искусство</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="6" fill="#C41E3A"/>
+  <!-- Gold line under red bar -->
+  <rect y="6" width="500" height="2" fill="#D4A843" opacity="0.6"/>
+
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Урок 12:  Расписание</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#2B4C7E" text-anchor="middle">Timetable</text>
+
+  
+  <!-- Calendar header -->
+  <rect x="70" y="95" width="360" height="30" rx="4" fill="#C41E3A"/>
+  <text x="250" y="115" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">TIMETABLE</text>
+  <!-- Day columns -->
+  <rect x="70" y="125" width="51" height="170" fill="#F0E4D0" stroke="#1a1a1a" stroke-width="0.5"/>
+  <rect x="121" y="125" width="52" height="170" fill="#F5E6C8" stroke="#1a1a1a" stroke-width="0.5"/>
+  <rect x="173" y="125" width="51" height="170" fill="#F0E4D0" stroke="#1a1a1a" stroke-width="0.5"/>
+  <rect x="224" y="125" width="52" height="170" fill="#F5E6C8" stroke="#1a1a1a" stroke-width="0.5"/>
+  <rect x="276" y="125" width="51" height="170" fill="#F0E4D0" stroke="#1a1a1a" stroke-width="0.5"/>
+  <rect x="327" y="125" width="52" height="170" fill="#FFE0B2" stroke="#1a1a1a" stroke-width="0.5"/>
+  <rect x="379" y="125" width="51" height="170" fill="#FFE0B2" stroke="#1a1a1a" stroke-width="0.5"/>
+  <!-- Day names -->
+  <text x="95" y="143" font-family="Arial" font-size="9" fill="#C41E3A" text-anchor="middle" font-weight="bold">Mon</text>
+  <text x="147" y="143" font-family="Arial" font-size="9" fill="#C41E3A" text-anchor="middle" font-weight="bold">Tue</text>
+  <text x="198" y="143" font-family="Arial" font-size="9" fill="#C41E3A" text-anchor="middle" font-weight="bold">Wed</text>
+  <text x="250" y="143" font-family="Arial" font-size="9" fill="#C41E3A" text-anchor="middle" font-weight="bold">Thu</text>
+  <text x="301" y="143" font-family="Arial" font-size="9" fill="#C41E3A" text-anchor="middle" font-weight="bold">Fri</text>
+  <text x="353" y="143" font-family="Arial" font-size="9" fill="#2B4C7E" text-anchor="middle" font-weight="bold">Sat</text>
+  <text x="404" y="143" font-family="Arial" font-size="9" fill="#2B4C7E" text-anchor="middle" font-weight="bold">Sun</text>
+  <!-- Lessons in cells -->
+  <rect x="75" y="148" width="42" height="18" rx="2" fill="#2B4C7E" opacity="0.7"/>
+  <text x="96" y="161" font-family="Arial" font-size="7" fill="#FFFFFF" text-anchor="middle">Maths</text>
+  <rect x="126" y="148" width="42" height="18" rx="2" fill="#C41E3A" opacity="0.7"/>
+  <text x="147" y="161" font-family="Arial" font-size="7" fill="#FFFFFF" text-anchor="middle">English</text>
+  <rect x="178" y="148" width="42" height="18" rx="2" fill="#43A047" opacity="0.7"/>
+  <text x="199" y="161" font-family="Arial" font-size="7" fill="#FFFFFF" text-anchor="middle">Science</text>
+  <rect x="229" y="148" width="42" height="18" rx="2" fill="#2B4C7E" opacity="0.7"/>
+  <text x="250" y="161" font-family="Arial" font-size="7" fill="#FFFFFF" text-anchor="middle">Maths</text>
+  <rect x="281" y="148" width="42" height="18" rx="2" fill="#D4A843" opacity="0.7"/>
+  <text x="302" y="161" font-family="Arial" font-size="7" fill="#FFFFFF" text-anchor="middle">Art</text>
+  <!-- Second period -->
+  <rect x="75" y="170" width="42" height="18" rx="2" fill="#C41E3A" opacity="0.7"/>
+  <text x="96" y="183" font-family="Arial" font-size="7" fill="#FFFFFF" text-anchor="middle">English</text>
+  <rect x="126" y="170" width="42" height="18" rx="2" fill="#795548" opacity="0.7"/>
+  <text x="147" y="183" font-family="Arial" font-size="7" fill="#FFFFFF" text-anchor="middle">History</text>
+  <rect x="178" y="170" width="42" height="18" rx="2" fill="#C41E3A" opacity="0.7"/>
+  <text x="199" y="183" font-family="Arial" font-size="7" fill="#FFFFFF" text-anchor="middle">English</text>
+  <rect x="229" y="170" width="42" height="18" rx="2" fill="#FB8C00" opacity="0.7"/>
+  <text x="250" y="183" font-family="Arial" font-size="7" fill="#FFFFFF" text-anchor="middle">PE</text>
+  <rect x="281" y="170" width="42" height="18" rx="2" fill="#8E24AA" opacity="0.7"/>
+  <text x="302" y="183" font-family="Arial" font-size="7" fill="#FFFFFF" text-anchor="middle">Music</text>
+  <!-- Weekend icons -->
+  <text x="353" y="195" font-family="Arial" font-size="20" text-anchor="middle" opacity="0.4">&#9757;</text>
+  <text x="353" y="215" font-family="Arial" font-size="8" fill="#2B4C7E" text-anchor="middle">play!</text>
+  <text x="404" y="195" font-family="Arial" font-size="20" text-anchor="middle" opacity="0.4">&#9757;</text>
+  <text x="404" y="215" font-family="Arial" font-size="8" fill="#2B4C7E" text-anchor="middle">rest!</text>
+  <!-- Clock -->
+  <circle cx="250" cy="250" r="30" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="250" cy="250" r="2" fill="#1a1a1a"/>
+  <line x1="250" y1="250" x2="250" y2="228" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="250" y1="250" x2="265" y2="250" stroke="#C41E3A" stroke-width="1.5"/>
+  <text x="250" y="295" font-family="Arial" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">8:00 school starts</text>
+
+  <!-- Bottom dark bar -->
+  <rect y="318" width="500" height="32" fill="#1a1a1a"/>
+  <rect y="318" width="500" height="2" fill="#D4A843" opacity="0.5"/>
+  <text x="250" y="339" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#F5E6C8" text-anchor="middle" letter-spacing="1">Иностранный язык — 4 класс</text>
+</svg>

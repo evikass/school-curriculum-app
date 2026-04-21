@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#C62828" text-anchor="middle">М. Твен. Приключения Тома Сойера</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 10</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Card 1: Tom painting the fence -->
+  <rect x="25" y="90" width="220" height="130" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="135" y="104" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" font-weight="bold" text-anchor="middle">ТОМ КРАСИТ ЗАБОР</text>
+  <!-- Sky -->
+  <rect x="30" y="108" width="210" height="50" fill="#E3F2FD" opacity="0.4" rx="3"/>
+  <!-- Clouds -->
+  <ellipse cx="60" cy="118" rx="15" ry="6" fill="white" stroke="#E0E0E0" stroke-width="0.5"/>
+  <ellipse cx="55" cy="115" rx="10" ry="5" fill="white"/>
+  <ellipse cx="200" cy="122" rx="12" ry="5" fill="white" stroke="#E0E0E0" stroke-width="0.5"/>
+  <!-- Fence (long) -->
+  <rect x="30" y="160" width="210" height="3" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.8"/>
+  <rect x="30" y="180" width="210" height="3" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.8"/>
+  <!-- Fence posts -->
+  <rect x="35" y="150" width="6" height="38" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.8"/>
+  <polygon points="33,150 38,142 43,150" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.5"/>
+  <rect x="60" y="150" width="6" height="38" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.8"/>
+  <polygon points="58,150 63,142 68,150" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.5"/>
+  <rect x="85" y="150" width="6" height="38" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.8"/>
+  <polygon points="83,150 88,142 93,150" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.5"/>
+  <rect x="110" y="150" width="6" height="38" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.8"/>
+  <polygon points="108,150 113,142 118,150" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.5"/>
+  <!-- Tom Sawyer figure -->
+  <circle cx="150" cy="148" r="8" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
+  <!-- Straw hat -->
+  <path d="M142,144 Q146,138 150,137 Q154,138 158,144" fill="#F9A825" stroke="#E65100" stroke-width="0.8"/>
+  <rect x="140" y="143" width="20" height="3" rx="1" fill="#F9A825" stroke="#E65100" stroke-width="0.5"/>
+  <!-- Eyes (looking satisfied) -->
+  <circle cx="147" cy="147" r="1.2" fill="#C62828"/>
+  <circle cx="153" cy="147" r="1.2" fill="#C62828"/>
+  <!-- Grin -->
+  <path d="M146,151 Q150,154 154,151" stroke="#C62828" stroke-width="0.8" fill="none"/>
+  <!-- Body (overalls) -->
+  <path d="M144,156 Q142,170 141,190 L159,190 Q158,170 156,156 Z" fill="#1565C0" stroke="#0D47A1" stroke-width="0.8"/>
+  <!-- Shirt visible -->
+  <rect x="144" y="156" width="12" height="8" fill="white" stroke="#C62828" stroke-width="0.3"/>
+  <!-- Left arm (painting) -->
+  <line x1="144" y1="162" x2="125" y2="170" stroke="#C62828" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Paint brush -->
+  <line x1="125" y1="170" x2="110" y2="158" stroke="#8D6E63" stroke-width="2" stroke-linecap="round"/>
+  <rect x="106" y="155" width="5" height="5" fill="white" stroke="#9E9E9E" stroke-width="0.5"/>
+  <!-- Paint drip -->
+  <circle cx="108" cy="162" r="2" fill="white" opacity="0.7"/>
+  <circle cx="106" cy="167" r="1.5" fill="white" opacity="0.5"/>
+  <!-- Right arm on hip -->
+  <line x1="156" y1="162" x2="165" y2="175" stroke="#C62828" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Legs -->
+  <line x1="147" y1="190" x2="145" y2="210" stroke="#1565C0" stroke-width="2.5"/>
+  <line x1="153" y1="190" x2="155" y2="210" stroke="#1565C0" stroke-width="2.5"/>
+  <!-- Bare feet -->
+  <ellipse cx="144" cy="212" rx="5" ry="2" fill="#FFCC80" stroke="#C62828" stroke-width="0.5"/>
+  <ellipse cx="156" cy="212" rx="5" ry="2" fill="#FFCC80" stroke="#C62828" stroke-width="0.5"/>
+  <!-- Paint bucket -->
+  <rect x="170" y="178" width="14" height="14" rx="1" fill="white" stroke="#9E9E9E" stroke-width="1"/>
+  <rect x="170" y="175" width="14" height="5" rx="1" fill="#9E9E9E" stroke="#616161" stroke-width="0.8"/>
+  <rect x="173" y="182" width="8" height="7" fill="white" opacity="0.8"/>
+  <!-- Other fence posts (already painted white) -->
+  <rect x="135" y="150" width="6" height="38" fill="white" stroke="#9E9E9E" stroke-width="0.8"/>
+  <polygon points="133,150 138,142 143,150" fill="white" stroke="#9E9E9E" stroke-width="0.5"/>
+  <rect x="160" y="150" width="6" height="38" fill="white" stroke="#9E9E9E" stroke-width="0.8"/>
+  <polygon points="158,150 163,142 168,150" fill="white" stroke="#9E9E9E" stroke-width="0.5"/>
+  <rect x="185" y="150" width="6" height="38" fill="white" stroke="#9E9E9E" stroke-width="0.8"/>
+  <polygon points="183,150 188,142 193,150" fill="white" stroke="#9E9E9E" stroke-width="0.5"/>
+  <rect x="210" y="150" width="6" height="38" fill="white" stroke="#9E9E9E" stroke-width="0.8"/>
+  <polygon points="208,150 213,142 218,150" fill="white" stroke="#9E9E9E" stroke-width="0.5"/>
+  <!-- Painted sections of fence -->
+  <rect x="130" y="160" width="80" height="3" fill="white" opacity="0.8"/>
+  <rect x="130" y="180" width="80" height="3" fill="white" opacity="0.8"/>
+
+  <!-- Card 2: Raft on Mississippi -->
+  <rect x="257" y="90" width="218" height="130" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="366" y="104" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-weight="bold" text-anchor="middle">ПЛОТ НА МИССИСИПИ</text>
+  <!-- River -->
+  <rect x="262" y="108" width="208" height="106" fill="#E3F2FD" rx="3" opacity="0.5"/>
+  <!-- Water waves -->
+  <path d="M262,140 Q280,135 298,140 Q316,135 334,140 Q352,135 370,140 Q388,135 406,140 Q424,135 470,140" stroke="#1565C0" stroke-width="0.8" fill="none" opacity="0.3"/>
+  <path d="M262,160 Q280,155 298,160 Q316,155 334,160 Q352,155 370,160 Q388,155 406,160 Q424,155 470,160" stroke="#1565C0" stroke-width="0.8" fill="none" opacity="0.3"/>
+  <path d="M262,180 Q280,175 298,180 Q316,175 334,180 Q352,175 370,180 Q388,175 406,180 Q424,175 470,180" stroke="#1565C0" stroke-width="0.8" fill="none" opacity="0.3"/>
+  <!-- River bank (top) -->
+  <path d="M262,112 Q290,108 320,112 Q350,106 380,112 Q410,108 470,110 L470,108 L262,108 Z" fill="#C8E6C9" opacity="0.5"/>
+  <!-- River bank (bottom) -->
+  <path d="M262,205 Q290,200 320,205 Q350,198 380,205 Q410,200 470,202 L470,210 L262,210 Z" fill="#8D6E63" opacity="0.3"/>
+  <!-- Raft -->
+  <rect x="310" y="155" width="80" height="10" fill="#D4A574" stroke="#8D6E63" stroke-width="1" rx="1"/>
+  <!-- Raft planks -->
+  <line x1="330" y1="155" x2="330" y2="165" stroke="#8D6E63" stroke-width="0.5"/>
+  <line x1="350" y1="155" x2="350" y2="165" stroke="#8D6E63" stroke-width="0.5"/>
+  <line x1="370" y1="155" x2="370" y2="165" stroke="#8D6E63" stroke-width="0.5"/>
+  <!-- Cross beams -->
+  <rect x="315" y="153" width="70" height="3" rx="1" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <!-- Tom on raft -->
+  <circle cx="340" cy="140" r="6" fill="#FFCC80" stroke="#C62828" stroke-width="0.6"/>
+  <path d="M334,136 Q337,130 340,129 Q343,130 346,136" fill="#F9A825" stroke="#E65100" stroke-width="0.5"/>
+  <path d="M334,146 Q338,155 336,165 L344,165 Q342,155 346,146 Z" fill="#1565C0" stroke="#0D47A1" stroke-width="0.5"/>
+  <!-- Huck on raft -->
+  <circle cx="370" cy="140" r="6" fill="#FFCC80" stroke="#C62828" stroke-width="0.6"/>
+  <!-- No hat, messy hair -->
+  <path d="M364,136 Q367,131 370,130 Q373,131 376,136" fill="#5D4037"/>
+  <path d="M364,146 Q368,155 366,165 L374,165 Q372,155 376,146 Z" fill="#FFCC80" stroke="#C62828" stroke-width="0.5"/>
+  <!-- Fishing pole (Tom) -->
+  <line x1="346" y1="148" x2="360" y2="118" stroke="#8D6E63" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Fishing line -->
+  <path d="M360,118 Q362,130 358,140 Q355,148 356,155" stroke="#9E9E9E" stroke-width="0.5" fill="none"/>
+  <!-- River trees on bank -->
+  <polygon points="275,108 282,90 289,108" fill="#2E7D32" opacity="0.4"/>
+  <rect x="280" y="108" width="4" height="8" fill="#8D6E63" opacity="0.4"/>
+  <polygon points="440,108 447,88 454,108" fill="#2E7D32" opacity="0.4"/>
+  <rect x="445" y="108" width="4" height="8" fill="#8D6E63" opacity="0.4"/>
+
+  <!-- Card 3: Treasure map / Cave -->
+  <rect x="25" y="228" width="150" height="62" rx="6" fill="white" stroke="#C62828" stroke-width="1.5" opacity="0.9"/>
+  <text x="100" y="242" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-weight="bold" text-anchor="middle">ПЕЩЕРА ИНДЬЯНЦА ДЖО</text>
+  <!-- Cave entrance -->
+  <path d="M50,260 Q50,245 70,240 Q90,245 90,260 L90,288 L50,288 Z" fill="#616161" stroke="#424242" stroke-width="1"/>
+  <path d="M55,260 Q55,250 70,246 Q85,250 85,260 L85,288 L55,288 Z" fill="#212121" stroke="#424242" stroke-width="0.5"/>
+  <!-- Torch at cave entrance -->
+  <line x1="82" y1="252" x2="82" y2="270" stroke="#8D6E63" stroke-width="2"/>
+  <ellipse cx="82" cy="248" rx="5" ry="7" fill="#F9A825" opacity="0.7"/>
+  <ellipse cx="82" cy="246" rx="3" ry="4" fill="#FF6F00" opacity="0.7"/>
+  <!-- Stalactites -->
+  <polygon points="60,245 62,252 64,245" fill="#9E9E9E"/>
+  <polygon points="68,243 70,252 72,243" fill="#9E9E9E"/>
+  <polygon points="76,244 78,252 80,244" fill="#9E9E9E"/>
+  <!-- Gold coins in corner -->
+  <circle cx="55" cy="285" r="2.5" fill="#F9A825" stroke="#E65100" stroke-width="0.5"/>
+  <circle cx="60" cy="286" r="2.5" fill="#FDD835" stroke="#E65100" stroke-width="0.5"/>
+  <circle cx="65" cy="285" r="2.5" fill="#F9A825" stroke="#E65100" stroke-width="0.5"/>
+  <!-- Treasure chest -->
+  <rect x="95" y="260" width="30" height="20" rx="2" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+  <path d="M95,260 Q110,252 125,260" fill="#A1887F" stroke="#5D4037" stroke-width="1"/>
+  <rect x="103" y="265" width="14" height="5" rx="1" fill="#F9A825" stroke="#E65100" stroke-width="0.5"/>
+  <circle cx="110" cy="267.5" r="2" fill="#E65100"/>
+  <!-- Gold coins spilling -->
+  <circle cx="128" cy="278" r="2" fill="#F9A825" stroke="#E65100" stroke-width="0.3"/>
+  <circle cx="132" cy="282" r="2" fill="#FDD835" stroke="#E65100" stroke-width="0.3"/>
+  <circle cx="135" cy="278" r="2" fill="#F9A825" stroke="#E65100" stroke-width="0.3"/>
+  <circle cx="130" cy="285" r="2" fill="#FDD835" stroke="#E65100" stroke-width="0.3"/>
+  <circle cx="137" cy="284" r="2" fill="#F9A825" stroke="#E65100" stroke-width="0.3"/>
+
+  <!-- Card 4: Characters -->
+  <rect x="183" y="228" width="135" height="62" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5" opacity="0.9"/>
+  <text x="250" y="242" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" font-weight="bold" text-anchor="middle">ГЕРОИ ПОВЕСТИ</text>
+  <!-- Tom -->
+  <circle cx="210" cy="260" r="6" fill="#FFCC80" stroke="#C62828" stroke-width="0.6"/>
+  <path d="M204,257 Q207,252 210,251 Q213,252 216,257" fill="#F9A825"/>
+  <path d="M206,266 Q208,275 207,283 L213,283 Q212,275 214,266 Z" fill="#1565C0"/>
+  <text x="210" y="293" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Том</text>
+  <!-- Huck Finn -->
+  <circle cx="242" cy="260" r="6" fill="#FFCC80" stroke="#C62828" stroke-width="0.6"/>
+  <path d="M236,257 Q239,252 242,251 Q245,252 248,257" fill="#5D4037"/>
+  <path d="M238,266 Q240,275 239,283 L245,283 Q244,275 246,266 Z" fill="#FFCC80" stroke="#C62828" stroke-width="0.3"/>
+  <text x="242" y="293" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">Гек</text>
+  <!-- Becky -->
+  <circle cx="274" cy="260" r="6" fill="#FFCC80" stroke="#C62828" stroke-width="0.6"/>
+  <path d="M268,257 Q271,251 274,250 Q277,251 280,257 L281,259 L267,259 Z" fill="#C62828"/>
+  <path d="M270,266 Q272,275 271,283 L277,283 Q276,275 278,266 Z" fill="#FFCC80" stroke="#C62828" stroke-width="0.3"/>
+  <text x="274" y="293" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle">Бекки</text>
+  <!-- Aunt Polly -->
+  <circle cx="306" cy="260" r="6" fill="#FFCC80" stroke="#C62828" stroke-width="0.6"/>
+  <path d="M300,257 Q303,251 306,250 Q309,251 312,257 L313,260 L299,260 Z" fill="#5D4037"/>
+  <path d="M302,266 Q304,275 303,283 L309,283 Q308,275 310,266 Z" fill="#2E7D32"/>
+  <!-- Glasses -->
+  <circle cx="303" cy="259" r="2.5" fill="none" stroke="#616161" stroke-width="0.5"/>
+  <circle cx="309" cy="259" r="2.5" fill="none" stroke="#616161" stroke-width="0.5"/>
+  <text x="306" y="293" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Полли</text>
+
+  <!-- Card 5: Adventure symbols -->
+  <rect x="326" y="228" width="149" height="62" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="400" y="242" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-weight="bold" text-anchor="middle">ПРИКЛЮЧЕНИЯ</text>
+  <!-- Pirate ship -->
+  <path d="M350,275 L355,258 L360,275 Z" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+  <rect x="352" y="275" width="6" height="5" fill="#8D6E63"/>
+  <!-- Flag -->
+  <rect x="356" y="252" width="12" height="8" fill="#212121"/>
+  <!-- Skull on flag -->
+  <circle cx="362" cy="256" r="2" fill="white"/>
+  <text x="362" y="257" font-family="Arial,sans-serif" font-size="3" fill="#212121" text-anchor="middle">x</text>
+  <!-- Compass -->
+  <circle cx="400" cy="270" r="12" fill="white" stroke="#C62828" stroke-width="1"/>
+  <circle cx="400" cy="270" r="10" fill="none" stroke="#9E9E9E" stroke-width="0.5"/>
+  <line x1="400" y1="260" x2="400" y2="280" stroke="#C62828" stroke-width="1"/>
+  <line x1="390" y1="270" x2="410" y2="270" stroke="#9E9E9E" stroke-width="0.8"/>
+  <polygon points="400,260 397,268 403,268" fill="#C62828"/>
+  <polygon points="400,280 397,272 403,272" fill="#9E9E9E"/>
+  <circle cx="400" cy="270" r="1.5" fill="#C62828"/>
+  <!-- Magnifying glass -->
+  <circle cx="440" cy="265" r="8" fill="#E3F2FD" stroke="#8D6E63" stroke-width="2"/>
+  <line x1="446" y1="271" x2="456" y2="281" stroke="#8D6E63" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="white" font-weight="bold">М. Твен. Приключения Тома Сойера</text>
+</svg>

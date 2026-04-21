@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#C62828" text-anchor="middle">А.С. Пушкин. Стихотворения</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 7</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Card 1: Pushkin portrait silhouette -->
+  <rect x="25" y="90" width="145" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5" opacity="0.9"/>
+  <text x="97" y="104" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-weight="bold" text-anchor="middle">А.С. ПУШКИН</text>
+  <!-- Portrait oval frame -->
+  <ellipse cx="97" cy="165" rx="50" ry="65" fill="#E3F2FD" stroke="#C62828" stroke-width="1.5"/>
+  <!-- Silhouette -->
+  <!-- Head -->
+  <circle cx="97" cy="135" r="22" fill="#5D4037"/>
+  <!-- Curly hair (afro-style) -->
+  <circle cx="80" cy="125" r="8" fill="#5D4037"/>
+  <circle cx="114" cy="125" r="8" fill="#5D4037"/>
+  <circle cx="85" cy="118" r="7" fill="#5D4037"/>
+  <circle cx="109" cy="118" r="7" fill="#5D4037"/>
+  <circle cx="97" cy="115" r="8" fill="#5D4037"/>
+  <circle cx="75" cy="130" r="6" fill="#5D4037"/>
+  <circle cx="119" cy="130" r="6" fill="#5D4037"/>
+  <!-- Face highlight -->
+  <circle cx="97" cy="138" r="16" fill="#8D6E63"/>
+  <!-- Eyes (side part) -->
+  <ellipse cx="88" cy="134" rx="3" ry="2" fill="#5D4037"/>
+  <ellipse cx="106" cy="134" rx="3" ry="2" fill="#5D4037"/>
+  <!-- Nose -->
+  <path d="M97,137 L95,143 L99,143" stroke="#5D4037" stroke-width="1" fill="none"/>
+  <!-- Neck -->
+  <rect x="90" y="155" width="14" height="10" fill="#8D6E63"/>
+  <!-- Collar/cravat -->
+  <path d="M82,165 L97,175 L112,165 L108,160 L97,168 L86,160 Z" fill="white" stroke="#C62828" stroke-width="0.8"/>
+  <!-- Coat shoulders -->
+  <path d="M70,175 Q80,168 97,178 Q114,168 124,175 L120,200 L74,200 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="1"/>
+  <!-- Collar detail -->
+  <path d="M86,168 L82,175 L97,185 L112,175 L108,168" fill="white" stroke="#C62828" stroke-width="0.5"/>
+  <!-- Medallion -->
+  <circle cx="97" cy="182" r="4" fill="#F9A825" stroke="#E65100" stroke-width="0.8"/>
+  <!-- Name plate -->
+  <rect x="57" y="245" width="80" height="18" rx="3" fill="#C62828" opacity="0.1"/>
+  <text x="97" y="258" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">1799 - 1837</text>
+  <!-- Pen -->
+  <line x1="130" y1="140" x2="145" y2="200" stroke="#5D4037" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="145,200 143,208 147,208" fill="#1565C0"/>
+  <!-- Ink drops -->
+  <circle cx="148" cy="212" r="2" fill="#1565C0" opacity="0.6"/>
+  <circle cx="152" cy="218" r="1.5" fill="#1565C0" opacity="0.4"/>
+
+  <!-- Card 2: Lyre -->
+  <rect x="182" y="90" width="145" height="130" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5" opacity="0.9"/>
+  <text x="254" y="104" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" font-weight="bold" text-anchor="middle">ЛЫРА ПОЭТА</text>
+  <!-- Lyre base -->
+  <path d="M230,200 Q225,185 230,160 Q235,140 255,130 Q275,140 278,160 Q282,185 278,200" fill="none" stroke="#8D6E63" stroke-width="3"/>
+  <!-- Crossbar -->
+  <line x1="230" y1="145" x2="278" y2="145" stroke="#8D6E63" stroke-width="3"/>
+  <!-- Sound box -->
+  <ellipse cx="254" cy="198" rx="18" ry="8" fill="#FFCC80" stroke="#8D6E63" stroke-width="1.5"/>
+  <!-- Strings -->
+  <line x1="238" y1="145" x2="240" y2="195" stroke="#C62828" stroke-width="0.8"/>
+  <line x1="248" y1="145" x2="249" y2="195" stroke="#C62828" stroke-width="0.8"/>
+  <line x1="258" y1="145" x2="258" y2="195" stroke="#C62828" stroke-width="0.8"/>
+  <line x1="268" y1="145" x2="267" y2="195" stroke="#C62828" stroke-width="0.8"/>
+  <!-- Decorative scroll at top -->
+  <circle cx="230" cy="143" r="4" fill="#F9A825" stroke="#E65100" stroke-width="0.8"/>
+  <circle cx="278" cy="143" r="4" fill="#F9A825" stroke="#E65100" stroke-width="0.8"/>
+  <!-- Musical notes floating -->
+  <circle cx="220" cy="120" r="4" fill="none" stroke="#C62828" stroke-width="1"/>
+  <line x1="224" y1="120" x2="224" y2="108" stroke="#C62828" stroke-width="1.5"/>
+  <path d="M224,108 Q230,106 228,112" fill="#C62828"/>
+  <circle cx="260" cy="115" r="4" fill="none" stroke="#C62828" stroke-width="1"/>
+  <line x1="264" y1="115" x2="264" y2="103" stroke="#C62828" stroke-width="1.5"/>
+  <path d="M264,103 Q270,101 268,107" fill="#C62828"/>
+  <circle cx="245" cy="125" r="3" fill="none" stroke="#C62828" stroke-width="0.8"/>
+  <line x1="248" y1="125" x2="248" y2="115" stroke="#C62828" stroke-width="1"/>
+  <text x="254" y="215" font-family="Arial,sans-serif" font-size="7" fill="#F57F17" text-anchor="middle">поэзия и вдохновение</text>
+
+  <!-- Card 3: Winter landscape (Зимнее утро) -->
+  <rect x="339" y="90" width="135" height="130" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="406" y="104" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" font-weight="bold" text-anchor="middle">ЗИМНЕЕ УТРО</text>
+  <!-- Winter sky -->
+  <rect x="344" y="108" width="125" height="40" fill="#E3F2FD" rx="3"/>
+  <!-- Winter sun -->
+  <circle cx="440" cy="120" r="12" fill="#FDD835" opacity="0.7"/>
+  <circle cx="440" cy="120" r="8" fill="#FFF9C4"/>
+  <!-- Snowy hills -->
+  <path d="M344,150 Q370,140 390,148 Q410,138 435,145 Q455,135 469,148 L469,210 L344,210 Z" fill="white" stroke="#E3F2FD" stroke-width="0.5"/>
+  <!-- Birch trees -->
+  <!-- Tree 1 -->
+  <rect x="365" y="135" width="4" height="55" fill="white" stroke="#616161" stroke-width="0.8"/>
+  <path d="M367,135 L367,190" stroke="#616161" stroke-width="0.5" stroke-dasharray="3,5"/>
+  <!-- Branches -->
+  <line x1="367" y1="145" x2="358" y2="140" stroke="#616161" stroke-width="1"/>
+  <line x1="367" y1="150" x2="376" y2="145" stroke="#616161" stroke-width="1"/>
+  <line x1="367" y1="158" x2="356" y2="155" stroke="#616161" stroke-width="1"/>
+  <line x1="367" y1="163" x2="378" y2="158" stroke="#616161" stroke-width="1"/>
+  <!-- Snow on branches -->
+  <ellipse cx="358" cy="139" rx="4" ry="1.5" fill="white"/>
+  <ellipse cx="376" cy="144" rx="4" ry="1.5" fill="white"/>
+  <!-- Tree 2 -->
+  <rect x="420" y="130" width="4" height="60" fill="white" stroke="#616161" stroke-width="0.8"/>
+  <path d="M422,130 L422,190" stroke="#616161" stroke-width="0.5" stroke-dasharray="3,5"/>
+  <line x1="422" y1="140" x2="413" y2="135" stroke="#616161" stroke-width="1"/>
+  <line x1="422" y1="148" x2="431" y2="143" stroke="#616161" stroke-width="1"/>
+  <line x1="422" y1="156" x2="412" y2="152" stroke="#616161" stroke-width="1"/>
+  <!-- Snowflakes -->
+  <circle cx="350" cy="115" r="1.5" fill="white" stroke="#1565C0" stroke-width="0.3"/>
+  <circle cx="380" cy="110" r="1" fill="white" stroke="#1565C0" stroke-width="0.3"/>
+  <circle cx="400" cy="118" r="1.5" fill="white" stroke="#1565C0" stroke-width="0.3"/>
+  <circle cx="420" cy="112" r="1" fill="white" stroke="#1565C0" stroke-width="0.3"/>
+  <circle cx="455" cy="108" r="1.5" fill="white" stroke="#1565C0" stroke-width="0.3"/>
+  <!-- Ground snow texture -->
+  <path d="M344,195 Q360,192 380,196 Q400,192 420,195 Q440,192 460,196" stroke="#E3F2FD" stroke-width="0.5" fill="none"/>
+  <!-- Cottage -->
+  <rect x="380" y="172" width="25" height="22" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+  <polygon points="377,172 392,160 408,172" fill="#C62828" stroke="#5D4037" stroke-width="0.5"/>
+  <rect x="387" y="180" width="8" height="14" fill="#5D4037"/>
+  <!-- Snow on roof -->
+  <path d="M377,172 Q392,167 408,172 Q392,176 377,172" fill="white" opacity="0.8"/>
+  <!-- Window glow -->
+  <rect x="396" y="176" width="6" height="5" fill="#F9A825" opacity="0.6"/>
+  <text x="406" y="215" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">мороз и солнце</text>
+
+  <!-- Card 4: Famous poems -->
+  <rect x="182" y="228" width="135" height="62" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="250" y="242" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-weight="bold" text-anchor="middle">СТРОКИ ПУШКИНА</text>
+  <!-- Book open -->
+  <path d="M215,250 L215,278 Q235,272 250,278 L250,250 Q235,244 215,250 Z" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.8"/>
+  <path d="M250,250 L250,278 Q265,272 285,278 L285,250 Q265,244 250,250 Z" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.8"/>
+  <line x1="250" y1="248" x2="250" y2="280" stroke="#8D6E63" stroke-width="1"/>
+  <!-- Text lines -->
+  <line x1="220" y1="256" x2="245" y2="254" stroke="#8D6E63" stroke-width="0.5" opacity="0.6"/>
+  <line x1="220" y1="260" x2="243" y2="258" stroke="#8D6E63" stroke-width="0.5" opacity="0.6"/>
+  <line x1="220" y1="264" x2="245" y2="262" stroke="#8D6E63" stroke-width="0.5" opacity="0.6"/>
+  <line x1="255" y1="254" x2="280" y2="256" stroke="#8D6E63" stroke-width="0.5" opacity="0.6"/>
+  <line x1="255" y1="258" x2="278" y2="260" stroke="#8D6E63" stroke-width="0.5" opacity="0.6"/>
+  <line x1="255" y1="262" x2="280" y2="264" stroke="#8D6E63" stroke-width="0.5" opacity="0.6"/>
+
+  <!-- Card 5: Quotes -->
+  <rect x="339" y="228" width="135" height="62" rx="6" fill="white" stroke="#C62828" stroke-width="1.5" opacity="0.9"/>
+  <text x="406" y="242" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-weight="bold" text-anchor="middle">О ПУШКИНЕ</text>
+  <!-- Monument silhouette -->
+  <rect x="396" y="255" width="20" height="30" fill="#9E9E9E" stroke="#616161" stroke-width="0.8"/>
+  <circle cx="406" cy="250" r="8" fill="#9E9E9E" stroke="#616161" stroke-width="0.8"/>
+  <!-- Pedestal -->
+  <rect x="388" y="283" width="36" height="5" rx="1" fill="#9E9E9E" stroke="#616161" stroke-width="0.5"/>
+  <!-- Column -->
+  <rect x="402" y="248" width="8" height="35" fill="#9E9E9E" stroke="#616161" stroke-width="0.5"/>
+  <text x="406" y="296" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">солнце русской поэзии</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">А.С. Пушкин. Стихотворения</text>
+</svg>

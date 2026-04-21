@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <rect y="8" width="500" height="2" fill="#D4A843" opacity="0.6"/>
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Сказки о животных</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1a1a1a" text-anchor="middle" opacity="0.7">Аллегория и мудрость в мире зверей</text>
+  <!-- Gold decorative line under subtitle -->
+  <line x1="120" y1="78" x2="380" y2="78" stroke="#D4A843" stroke-width="1.5" opacity="0.5"/>
+  <!-- Bottom bar -->
+  <rect y="320" width="500" height="30" fill="#1a1a1a"/>
+  <rect y="318" width="500" height="2" fill="#D4A843" opacity="0.4"/>
+  <text x="250" y="340" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#F5E6C8" text-anchor="middle" letter-spacing="1">Литературное чтение — 4 класс</text>
+  <!-- Bauhaus background -->
+  <circle cx="250" cy="200" r="120" fill="#D4A843" opacity="0.08"/>
+  <rect x="30" y="260" width="440" height="2" fill="#D4A843" opacity="0.2"/>
+  <!-- Teremok house (center) -->
+  <rect x="220" y="175" width="60" height="75" fill="#D4A843" opacity="0.5" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M210,178 L250,145 L290,178Z" fill="#C41E3A" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="237" y="195" width="16" height="16" fill="#F5E6C8" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="245" y1="195" x2="245" y2="211" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="237" y1="203" x2="253" y2="203" stroke="#1a1a1a" stroke-width="0.8"/>
+  <rect x="240" y="225" width="20" height="25" rx="10" fill="#8B6F55" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Fox (right, standing) -->
+  <ellipse cx="370" cy="260" rx="28" ry="18" fill="#D4772C" transform="rotate(-5 370 260)"/>
+  <ellipse cx="400" cy="240" rx="15" ry="13" fill="#D4772C"/>
+  <path d="M390,228 L385,215 L395,226Z" fill="#D4772C" stroke="#B85A15" stroke-width="0.5"/>
+  <path d="M405,226 L408,213 L412,225Z" fill="#D4772C" stroke="#B85A15" stroke-width="0.5"/>
+  <ellipse cx="414" cy="243" rx="8" ry="5" fill="#F0C896"/>
+  <circle cx="421" cy="242" r="2" fill="#1a1a1a"/>
+  <ellipse cx="396" cy="238" rx="3" ry="2.5" fill="#1a1a1a"/>
+  <circle cx="397" cy="237.5" r="1" fill="#FFF"/>
+  <path d="M345,252 Q330,230 335,210 Q340,200 350,210" fill="#D4772C" stroke="#B85A15" stroke-width="0.5"/>
+  <circle cx="348" cy="212" r="4" fill="#FFF8E1"/>
+  <rect x="355" y="273" width="6" height="22" fill="#D4772C"/>
+  <rect x="368" y="273" width="6" height="22" fill="#D4772C"/>
+  <rect x="380" y="273" width="6" height="22" fill="#D4772C"/>
+  <!-- Wolf (left, standing) -->
+  <ellipse cx="130" cy="262" rx="30" ry="18" fill="#888"/>
+  <ellipse cx="100" cy="242" rx="16" ry="14" fill="#888"/>
+  <path d="M88,230 L85,215 L95,228Z" fill="#888"/>
+  <path d="M103,228 L107,214 L112,226Z" fill="#888"/>
+  <ellipse cx="86" cy="247" rx="10" ry="6" fill="#AAA"/>
+  <circle cx="78" cy="245" r="2.5" fill="#1a1a1a"/>
+  <circle cx="95" cy="239" r="3" fill="#1a1a1a"/>
+  <circle cx="94" cy="238" r="1" fill="#FFF"/>
+  <path d="M82,252 Q86,258 90,252" fill="#666" stroke="#1a1a1a" stroke-width="0.8"/>
+  <path d="M158,255 Q175,240 170,220 Q168,215 162,220" fill="#888"/>
+  <rect x="110" y="275" width="7" height="20" fill="#888"/>
+  <rect x="122" y="275" width="7" height="20" fill="#888"/>
+  <rect x="138" y="275" width="7" height="20" fill="#888"/>
+  <!-- Bear (behind house, peeking) -->
+  <ellipse cx="260" cy="270" rx="25" ry="20" fill="#8B6F55"/>
+  <circle cx="210" cy="255" r="18" fill="#8B6F55"/>
+  <circle cx="195" cy="240" r="7" fill="#8B6F55"/>
+  <circle cx="195" cy="240" r="4" fill="#C4A882"/>
+  <circle cx="225" cy="240" r="7" fill="#8B6F55"/>
+  <circle cx="225" cy="240" r="4" fill="#C4A882"/>
+  <ellipse cx="210" cy="262" rx="10" ry="7" fill="#C4A882"/>
+  <circle cx="210" cy="258" r="3.5" fill="#1a1a1a"/>
+  <circle cx="203" cy="251" r="2.5" fill="#1a1a1a"/>
+  <circle cx="217" cy="251" r="2.5" fill="#1a1a1a"/>
+  <!-- Hare (tiny, near house) -->
+  <ellipse cx="310" cy="290" rx="10" ry="8" fill="#E0D5C5"/>
+  <circle cx="310" cy="280" r="7" fill="#E0D5C5"/>
+  <ellipse cx="306" cy="265" rx="3" ry="10" fill="#E0D5C5" stroke="#CCC5B5" stroke-width="0.5"/>
+  <ellipse cx="314" cy="265" rx="3" ry="10" fill="#E0D5C5" stroke="#CCC5B5" stroke-width="0.5"/>
+  <circle cx="307" cy="278" r="1.5" fill="#1a1a1a"/>
+  <circle cx="318" cy="288" r="4" fill="#FFF"/>
+</svg>

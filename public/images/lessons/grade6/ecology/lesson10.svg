@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#C62828" text-anchor="middle">Раздельный сбор отходов</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экология - Урок 10</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Main area: Items floating above with arrows to bins -->
+  <rect x="30" y="90" width="440" height="100" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="250" y="106" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">СОРТИРУЕМ ПРАВИЛЬНО</text>
+  
+  <!-- Item 1: Newspaper (goes to blue bin - paper) -->
+  <g transform="translate(85,150)">
+    <rect x="-18" y="-18" width="36" height="28" rx="2" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.5"/>
+    <line x1="-14" y1="-12" x2="14" y2="-12" stroke="#BDBDBD" stroke-width="0.5"/>
+    <line x1="-14" y1="-7" x2="14" y2="-7" stroke="#BDBDBD" stroke-width="0.5"/>
+    <line x1="-14" y1="-2" x2="8" y2="-2" stroke="#BDBDBD" stroke-width="0.5"/>
+    <text x="0" y="18" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">Бумага</text>
+  </g>
+  
+  <!-- Item 2: Plastic bottle (goes to yellow bin - plastic) -->
+  <g transform="translate(195,145)">
+    <rect x="-6" y="-12" width="12" height="24" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+    <rect x="-4" y="-18" width="8" height="7" rx="1" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.5"/>
+    <rect x="-5" y="-20" width="10" height="3" rx="1" fill="#42A5F5"/>
+    <!-- Label -->
+    <rect x="-4" y="-4" width="8" height="8" rx="1" fill="#FFF9C4"/>
+    <text x="0" y="2" font-family="Arial,sans-serif" font-size="5" fill="#F9A825" text-anchor="middle">PET</text>
+    <text x="0" y="24" font-family="Arial,sans-serif" font-size="7" fill="#F9A825" text-anchor="middle" font-weight="bold">Пластик</text>
+  </g>
+  
+  <!-- Item 3: Glass jar (goes to green bin - glass) -->
+  <g transform="translate(305,145)">
+    <rect x="-8" y="-8" width="16" height="20" rx="2" fill="#E8F5E9" stroke="#43A047" stroke-width="0.8" opacity="0.8"/>
+    <rect x="-9" y="-12" width="18" height="5" rx="2" fill="#A5D6A7" stroke="#43A047" stroke-width="0.5"/>
+    <!-- Glass shine -->
+    <line x1="-5" y1="-4" x2="-5" y2="8" stroke="white" stroke-width="1" opacity="0.5"/>
+    <text x="0" y="24" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Стекло</text>
+  </g>
+  
+  <!-- Item 4: Battery (goes to red bin - hazardous) -->
+  <g transform="translate(415,148)">
+    <rect x="-10" y="-10" width="20" height="14" rx="2" fill="#757575" stroke="#5D4037" stroke-width="0.8"/>
+    <rect x="4" y="-14" width="6" height="4" fill="#F9A825"/>
+    <!-- + and - -->
+    <text x="-5" y="-1" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">+</text>
+    <text x="5" y="-1" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">-</text>
+    <!-- Warning -->
+    <polygon points="0,-22 5,-17 -5,-17" fill="#E53935" opacity="0.8"/>
+    <text x="0" y="-16" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">!</text>
+    <text x="0" y="18" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">Опасные</text>
+  </g>
+
+  <!-- Arrows from items to bins -->
+  <line x1="85" y1="172" x2="85" y2="198" stroke="#1565C0" stroke-width="2"/>
+  <polygon points="85,198 82,193 88,193" fill="#1565C0"/>
+  
+  <line x1="195" y1="172" x2="195" y2="198" stroke="#F9A825" stroke-width="2"/>
+  <polygon points="195,198 192,193 198,193" fill="#F9A825"/>
+  
+  <line x1="305" y1="172" x2="305" y2="198" stroke="#2E7D32" stroke-width="2"/>
+  <polygon points="305,198 302,193 308,193" fill="#2E7D32"/>
+  
+  <line x1="415" y1="172" x2="415" y2="198" stroke="#C62828" stroke-width="2"/>
+  <polygon points="415,198 412,193 418,193" fill="#C62828"/>
+
+  <!-- Four recycling bins -->
+  <rect x="30" y="198" width="440" height="97" rx="5" fill="white" stroke="#757575" stroke-width="1" opacity="0.9"/>
+  
+  <!-- Bin 1: Blue (Paper) -->
+  <g transform="translate(85,265)">
+    <!-- Bin body -->
+    <path d="M-25,-40 L-20,0 L20,0 L25,-40 Z" fill="#1565C0" stroke="#0D47A1" stroke-width="1.5"/>
+    <!-- Bin lid -->
+    <rect x="-28" y="-44" width="56" height="6" rx="2" fill="#0D47A1"/>
+    <!-- Recycling symbol -->
+    <g transform="translate(0,-20)">
+      <path d="M0,-8 L-5,3 L-1,3 L-1,8 L1,8 L1,3 L5,3 Z" fill="white" opacity="0.8"/>
+    </g>
+    <!-- Label -->
+    <rect x="-18" y="-36" width="36" height="10" rx="2" fill="white" opacity="0.9"/>
+    <text x="0" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">БУМАГА</text>
+    <!-- Wheel hints -->
+    <circle cx="-15" cy="2" r="3" fill="#0D47A1"/>
+    <circle cx="15" cy="2" r="3" fill="#0D47A1"/>
+  </g>
+  
+  <!-- Bin 2: Yellow (Plastic) -->
+  <g transform="translate(195,265)">
+    <path d="M-25,-40 L-20,0 L20,0 L25,-40 Z" fill="#F9A825" stroke="#F57F17" stroke-width="1.5"/>
+    <rect x="-28" y="-44" width="56" height="6" rx="2" fill="#F57F17"/>
+    <g transform="translate(0,-20)">
+      <path d="M0,-8 L-5,3 L-1,3 L-1,8 L1,8 L1,3 L5,3 Z" fill="white" opacity="0.8"/>
+    </g>
+    <rect x="-18" y="-36" width="36" height="10" rx="2" fill="white" opacity="0.9"/>
+    <text x="0" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#F57F17" text-anchor="middle" font-weight="bold">ПЛАСТИК</text>
+    <circle cx="-15" cy="2" r="3" fill="#F57F17"/>
+    <circle cx="15" cy="2" r="3" fill="#F57F17"/>
+  </g>
+  
+  <!-- Bin 3: Green (Glass) -->
+  <g transform="translate(305,265)">
+    <path d="M-25,-40 L-20,0 L20,0 L25,-40 Z" fill="#43A047" stroke="#2E7D32" stroke-width="1.5"/>
+    <rect x="-28" y="-44" width="56" height="6" rx="2" fill="#2E7D32"/>
+    <g transform="translate(0,-20)">
+      <path d="M0,-8 L-5,3 L-1,3 L-1,8 L1,8 L1,3 L5,3 Z" fill="white" opacity="0.8"/>
+    </g>
+    <rect x="-18" y="-36" width="36" height="10" rx="2" fill="white" opacity="0.9"/>
+    <text x="0" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">СТЕКЛО</text>
+    <circle cx="-15" cy="2" r="3" fill="#2E7D32"/>
+    <circle cx="15" cy="2" r="3" fill="#2E7D32"/>
+  </g>
+  
+  <!-- Bin 4: Red (Hazardous) -->
+  <g transform="translate(415,265)">
+    <path d="M-25,-40 L-20,0 L20,0 L25,-40 Z" fill="#E53935" stroke="#C62828" stroke-width="1.5"/>
+    <rect x="-28" y="-44" width="56" height="6" rx="2" fill="#C62828"/>
+    <!-- Warning symbol instead of recycling -->
+    <polygon points="0,-28 -8,-14 8,-14" fill="white" opacity="0.8"/>
+    <text x="0" y="-17" font-family="Arial,sans-serif" font-size="8" fill="#E53935" text-anchor="middle" font-weight="bold">!</text>
+    <rect x="-18" y="-36" width="36" height="10" rx="2" fill="white" opacity="0.9"/>
+    <text x="0" y="-28" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle" font-weight="bold">ОПАСНЫЕ</text>
+    <circle cx="-15" cy="2" r="3" fill="#C62828"/>
+    <circle cx="15" cy="2" r="3" fill="#C62828"/>
+  </g>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Раздельный сбор отходов</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <rect x="0" y="8" width="500" height="3" fill="#D4A843" opacity="0.5"/>
+  
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Тепловые пояса</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#666" text-anchor="middle">Жаркий, умеренный и холодный</text>
+  
+  <!-- Decorative line under title -->
+  <line x1="120" y1="52" x2="380" y2="52" stroke="#D4A843" stroke-width="1" opacity="0.4"/>
+
+  <!-- Illustration area -->
+  <!-- Sun -->
+  <circle cx="90" cy="110" r="30" fill="#D4A843" opacity="0.7"/>
+  <line x1="90" y1="73" x2="90" y2="63" stroke="#D4A843" stroke-width="2"/>
+  <line x1="90" y1="147" x2="90" y2="157" stroke="#D4A843" stroke-width="2"/>
+  <line x1="53" y1="110" x2="43" y2="110" stroke="#D4A843" stroke-width="2"/>
+  <line x1="127" y1="110" x2="137" y2="110" stroke="#D4A843" stroke-width="2"/>
+  <line x1="65" y1="85" x2="58" y2="78" stroke="#D4A843" stroke-width="2"/>
+  <line x1="115" y1="85" x2="122" y2="78" stroke="#D4A843" stroke-width="2"/>
+  <line x1="65" y1="135" x2="58" y2="142" stroke="#D4A843" stroke-width="2"/>
+  <line x1="115" y1="135" x2="122" y2="142" stroke="#D4A843" stroke-width="2"/>
+  
+  <!-- Globe -->
+  <circle cx="280" cy="190" r="110" fill="#64B5F6" opacity="0.15" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- Hot zone (tropical) -->
+  <path d="M170,130 Q280,100 390,130 L390,180 Q280,160 170,180 Z" fill="#C41E3A" opacity="0.2"/>
+  <!-- Temperate zones -->
+  <path d="M170,180 Q280,160 390,180 L390,230 Q280,210 170,230 Z" fill="#2E7D32" opacity="0.2"/>
+  <path d="M170,150 Q280,130 390,150 L390,180 Q280,160 170,180 Z" fill="#2E7D32" opacity="0.2"/>
+  <!-- Cold zones -->
+  <path d="M170,230 Q280,210 390,230 L390,270 Q280,250 170,270 Z" fill="#2B4C7E" opacity="0.25"/>
+  <path d="M170,110 Q280,90 390,110 L390,130 Q280,100 170,130 Z" fill="#2B4C7E" opacity="0.25"/>
+  
+  <!-- Equator line -->
+  <line x1="170" y1="170" x2="390" y2="170" stroke="#C41E3A" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="395" y="167" font-family="Arial" font-size="8" fill="#C41E3A">экватор</text>
+  
+  <!-- Globe meridian -->
+  <ellipse cx="280" cy="190" rx="55" ry="110" fill="none" stroke="#1a1a1a" stroke-width="1" opacity="0.2"/>
+  <line x1="170" y1="190" x2="390" y2="190" stroke="#1a1a1a" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Labels -->
+  <text x="280" y="145" font-family="Arial" font-size="10" fill="#C41E3A" text-anchor="middle" font-weight="bold">Жаркий пояс</text>
+  <text x="210" y="205" font-family="Arial" font-size="9" fill="#2E7D32" text-anchor="middle">Умеренный</text>
+  <text x="350" y="205" font-family="Arial" font-size="9" fill="#2E7D32" text-anchor="middle">Умеренный</text>
+  <text x="250" y="255" font-family="Arial" font-size="9" fill="#2B4C7E" text-anchor="middle">Холодный</text>
+  <text x="310" y="125" font-family="Arial" font-size="9" fill="#2B4C7E" text-anchor="middle">Холодный</text>
+  
+  <!-- Sun rays to globe -->
+  <line x1="115" y1="105" x2="175" y2="140" stroke="#D4A843" stroke-width="1.5" opacity="0.4"/>
+  <line x1="115" y1="115" x2="172" y2="155" stroke="#D4A843" stroke-width="1.5" opacity="0.3"/>
+  <line x1="115" y1="125" x2="170" y2="170" stroke="#D4A843" stroke-width="1.5" opacity="0.2"/>
+  
+  <!-- Temperature indicators -->
+  <rect x="430" y="140" width="50" height="18" rx="3" fill="#C41E3A" opacity="0.15"/>
+  <text x="455" y="153" font-family="Arial" font-size="9" fill="#C41E3A" text-anchor="middle">+30C</text>
+  <rect x="430" y="190" width="50" height="18" rx="3" fill="#2E7D32" opacity="0.15"/>
+  <text x="455" y="203" font-family="Arial" font-size="9" fill="#2E7D32" text-anchor="middle">+15C</text>
+  <rect x="430" y="240" width="50" height="18" rx="3" fill="#2B4C7E" opacity="0.15"/>
+  <text x="455" y="253" font-family="Arial" font-size="9" fill="#2B4C7E" text-anchor="middle">-30C</text>
+  
+  <!-- Bottom bar -->
+  <rect x="0" y="318" width="500" height="32" fill="#2C1810"/>
+  <line x1="0" y1="318" x2="500" y2="318" stroke="#D4A843" stroke-width="1.5" opacity="0.5"/>
+  <text x="250" y="339" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#F5E6C8" text-anchor="middle" opacity="0.9">Природоведение — 4 класс</text>
+</svg>

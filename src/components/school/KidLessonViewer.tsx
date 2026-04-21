@@ -364,18 +364,23 @@ export default function KidLessonViewer() {
             </div>
 
             {/* Примеры */}
-            {selectedLesson.examples && selectedLesson.examples.length > 0 && (
+            {(() => {
+              const autoExamples = (selectedLesson.examples && selectedLesson.examples.length > 0)
+                ? selectedLesson.examples
+                : [...(selectedLesson.tasks || [])].slice(0, 4)
+              return autoExamples.length > 0 ? (
               <div className="mt-6 bg-cyan-500/20 rounded-3xl p-6 border-2 border-cyan-400/30">
                 <h4 className="text-xl md:text-2xl font-bold text-cyan-300 mb-4">
                   📝 Примеры:
                 </h4>
                 <div className="space-y-2">
-                  {selectedLesson.examples.map((example, i) => (
+                  {autoExamples.map((example, i) => (
                     <p key={i} className="text-lg text-white/90">• {example}</p>
                   ))}
                 </div>
               </div>
-            )}
+              ) : null
+            })()}
 
             {/* Интересные факты */}
             {selectedLesson.facts && selectedLesson.facts.length > 0 && (

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Red top accent bar -->
+  <rect x="0" y="0" width="500" height="8" fill="#C41E3A"/>
+  <!-- Gold accent line -->
+  <rect x="0" y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Cream background -->
+  <rect x="0" y="10" width="500" height="325" fill="#F5E6C8"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Заповедники России</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#555">Острова дикой природы</text>
+  <!-- Decorative line under title -->
+  <line x1="150" y1="78" x2="350" y2="78" stroke="#C41E3A" stroke-width="1.5" opacity="0.6"/>
+  <!-- Bottom dark bar -->
+  <rect x="0" y="318" width="500" height="32" fill="#1a1a1a"/>
+  <!-- Gold accent on bottom bar -->
+  <rect x="0" y="316" width="500" height="2" fill="#D4A843"/>
+  <!-- Bottom text -->
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#F5E6C8">Окружающий мир — 4 класс</text>
+  <!-- Mountain backdrop -->
+  <polygon points="0,200 80,100 160,200" fill="#8AA8C8" opacity="0.3"/>
+  <polygon points="120,200 220,90 320,200" fill="#7A98B8" opacity="0.25"/>
+  <polygon points="280,200 380,110 480,200" fill="#8AA8C8" opacity="0.2"/>
+  <!-- Snow caps -->
+  <polygon points="220,90 208,110 232,110" fill="white" opacity="0.4"/>
+  <polygon points="380,110 370,125 390,125" fill="white" opacity="0.4"/>
+  <!-- Forest -->
+  <polygon points="20,300 45,210 70,300" fill="#3A6A2A" opacity="0.5"/>
+  <polygon points="55,300 75,220 95,300" fill="#2E5D22" opacity="0.5"/>
+  <polygon points="90,300 110,215 130,300" fill="#3A6A2A" opacity="0.5"/>
+  <polygon points="370,300 395,220 420,300" fill="#2E5D22" opacity="0.5"/>
+  <polygon points="410,300 430,210 450,300" fill="#3A6A2A" opacity="0.5"/>
+  <polygon points="440,300 460,225 480,300" fill="#2E5D22" opacity="0.5"/>
+  <!-- Green ground -->
+  <rect x="0" y="250" width="500" height="65" fill="#6A9A4A" opacity="0.3" rx="4"/>
+  <!-- Reserve gate (wooden posts) -->
+  <rect x="155" y="160" width="12" height="100" fill="#8B6040" stroke="#6B4226" stroke-width="1"/>
+  <rect x="333" y="160" width="12" height="100" fill="#8B6040" stroke="#6B4226" stroke-width="1"/>
+  <!-- Gate top beam -->
+  <rect x="155" y="155" width="190" height="10" fill="#A0722A" stroke="#6B4226" stroke-width="1"/>
+  <!-- Sign on gate -->
+  <rect x="210" y="135" width="80" height="25" rx="3" fill="#2E7D32" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="250" y="151" font-family="Arial" font-size="9" font-weight="bold" fill="white" text-anchor="middle">ЗАПОВЕДНИК</text>
+  <!-- Brown bear in reserve -->
+  <ellipse cx="280" cy="270" rx="28" ry="18" fill="#6B4226" opacity="0.7"/>
+  <circle cx="306" cy="258" r="12" fill="#6B4226" opacity="0.7"/>
+  <circle cx="312" cy="254" r="2" fill="#1a1a1a"/>
+  <ellipse cx="318" cy="261" rx="4" ry="2.5" fill="#4A2E15" opacity="0.7"/>
+  <!-- Deer -->
+  <ellipse cx="220" cy="278" rx="22" ry="12" fill="#C09050" opacity="0.7"/>
+  <circle cx="240" cy="268" r="8" fill="#C09050" opacity="0.7"/>
+  <circle cx="244" cy="266" r="1.5" fill="#1a1a1a"/>
+  <!-- Antlers -->
+  <line x1="240" y1="262" x2="235" y2="248" stroke="#8B6A30" stroke-width="1.5"/>
+  <line x1="235" y1="248" x2="228" y2="245" stroke="#8B6A30" stroke-width="1"/>
+  <line x1="235" y1="248" x2="238" y2="242" stroke="#8B6A30" stroke-width="1"/>
+  <line x1="240" y1="262" x2="248" y2="248" stroke="#8B6A30" stroke-width="1.5"/>
+  <line x1="248" y1="248" x2="255" y2="245" stroke="#8B6A30" stroke-width="1"/>
+  <line x1="248" y1="248" x2="250" y2="242" stroke="#8B6A30" stroke-width="1"/>
+  <!-- Geyser hint (Kamchatka) -->
+  <path d="M400,210 Q395,195 400,180 Q405,165 398,150" stroke="#2B4C7E" stroke-width="2" fill="none" opacity="0.4"/>
+  <circle cx="398" cy="148" r="4" fill="white" opacity="0.3"/>
+  <!-- Lake -->
+  <ellipse cx="250" cy="295" rx="40" ry="12" fill="#2B4C7E" opacity="0.25"/>
+  <!-- Info box -->
+  <rect x="30" y="100" width="75" height="45" rx="4" fill="#2E7D32" opacity="0.1"/>
+  <text x="67" y="117" font-family="Arial" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle">100+</text>
+  <text x="67" y="130" font-family="Arial" font-size="7" fill="#2E7D32" text-anchor="middle">заповедников</text>
+  <text x="67" y="141" font-family="Arial" font-size="7" fill="#2E7D32" text-anchor="middle">в России</text>
+</svg>

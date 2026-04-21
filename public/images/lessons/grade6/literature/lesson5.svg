@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#C62828" text-anchor="middle">Русские народные сказки</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 5</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Card 1: Baba Yaga's Hut on Chicken Legs -->
+  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="135" y="104" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-weight="bold" text-anchor="middle">ИЗБУШКА НА КУРЬИХ НОЖКАХ</text>
+  <!-- Dark forest background -->
+  <rect x="30" y="108" width="210" height="50" fill="#1B5E20" opacity="0.15" rx="3"/>
+  <!-- Trees -->
+  <polygon points="40,155 50,120 60,155" fill="#2E7D32" opacity="0.4"/>
+  <polygon points="70,155 78,125 86,155" fill="#388E3C" opacity="0.4"/>
+  <polygon points="185,155 193,118 201,155" fill="#2E7D32" opacity="0.4"/>
+  <polygon points="210,155 218,122 226,155" fill="#388E3C" opacity="0.4"/>
+  <!-- Hut body -->
+  <rect x="70" y="170" width="120" height="80" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Wood plank lines -->
+  <line x1="70" y1="185" x2="190" y2="185" stroke="#6D4C41" stroke-width="0.5"/>
+  <line x1="70" y1="200" x2="190" y2="200" stroke="#6D4C41" stroke-width="0.5"/>
+  <line x1="70" y1="215" x2="190" y2="215" stroke="#6D4C41" stroke-width="0.5"/>
+  <!-- Roof -->
+  <polygon points="60,170 130,130 200,170" fill="#C62828" stroke="#8D6E63" stroke-width="1.5"/>
+  <!-- Roof pattern -->
+  <line x1="80" y1="165" x2="100" y2="145" stroke="#B71C1C" stroke-width="0.5" opacity="0.5"/>
+  <line x1="110" y1="160" x2="130" y2="140" stroke="#B71C1C" stroke-width="0.5" opacity="0.5"/>
+  <line x1="140" y1="160" x2="160" y2="145" stroke="#B71C1C" stroke-width="0.5" opacity="0.5"/>
+  <line x1="170" y1="165" x2="180" y2="155" stroke="#B71C1C" stroke-width="0.5" opacity="0.5"/>
+  <!-- Chimney -->
+  <rect x="150" y="138" width="10" height="18" fill="#6D4C41" stroke="#5D4037" stroke-width="0.8"/>
+  <!-- Smoke -->
+  <path d="M155,138 Q152,128 156,120" stroke="#9E9E9E" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M153,135 Q148,125 152,115" stroke="#9E9E9E" stroke-width="1" fill="none" opacity="0.3"/>
+  <!-- Door -->
+  <rect x="115" y="220" width="30" height="30" fill="#5D4037" stroke="#4E342E" stroke-width="1"/>
+  <circle cx="140" cy="236" r="2" fill="#F9A825"/>
+  <!-- Window -->
+  <rect x="80" y="190" width="25" height="20" fill="#E3F2FD" stroke="#5D4037" stroke-width="1"/>
+  <line x1="92" y1="190" x2="92" y2="210" stroke="#5D4037" stroke-width="0.8"/>
+  <line x1="80" y1="200" x2="105" y2="200" stroke="#5D4037" stroke-width="0.8"/>
+  <!-- Window glow -->
+  <rect x="81" y="191" width="10" height="8" fill="#F9A825" opacity="0.3"/>
+  <!-- Skull above door -->
+  <circle cx="130" cy="215" r="5" fill="white" stroke="#4E342E" stroke-width="0.8"/>
+  <circle cx="128" cy="214" r="1.2" fill="#C62828"/>
+  <circle cx="132" cy="214" r="1.2" fill="#C62828"/>
+  <polygon points="129,217 130,219 131,217" fill="#4E342E"/>
+  <!-- Chicken legs -->
+  <!-- Left leg -->
+  <line x1="90" y1="250" x2="85" y2="270" stroke="#F9A825" stroke-width="4"/>
+  <line x1="90" y1="270" x2="78" y2="278" stroke="#F9A825" stroke-width="2.5"/>
+  <line x1="90" y1="270" x2="92" y2="280" stroke="#F9A825" stroke-width="2.5"/>
+  <line x1="90" y1="270" x2="98" y2="278" stroke="#F9A825" stroke-width="2.5"/>
+  <!-- Claws -->
+  <path d="M75,278 L78,278 L76,282" stroke="#E65100" stroke-width="1" fill="none"/>
+  <path d="M96,278 L98,278 L99,282" stroke="#E65100" stroke-width="1" fill="none"/>
+  <!-- Right leg -->
+  <line x1="170" y1="250" x2="175" y2="270" stroke="#F9A825" stroke-width="4"/>
+  <line x1="175" y1="270" x2="163" y2="278" stroke="#F9A825" stroke-width="2.5"/>
+  <line x1="175" y1="270" x2="177" y2="280" stroke="#F9A825" stroke-width="2.5"/>
+  <line x1="175" y1="270" x2="183" y2="278" stroke="#F9A825" stroke-width="2.5"/>
+  <!-- Claws -->
+  <path d="M160,278 L163,278 L161,282" stroke="#E65100" stroke-width="1" fill="none"/>
+  <path d="M181,278 L183,278 L184,282" stroke="#E65100" stroke-width="1" fill="none"/>
+
+  <!-- Card 2: Firebird -->
+  <rect x="257" y="90" width="218" height="100" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5" opacity="0.9"/>
+  <text x="366" y="104" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" font-weight="bold" text-anchor="middle">ЖАР-ПТИЦА</text>
+  <!-- Firebird body -->
+  <ellipse cx="340" cy="155" rx="25" ry="15" fill="#F9A825" stroke="#E65100" stroke-width="1"/>
+  <!-- Head -->
+  <circle cx="315" cy="148" r="10" fill="#F9A825" stroke="#E65100" stroke-width="1"/>
+  <!-- Crest -->
+  <path d="M310,140 L308,128 L315,135 L312,125 L320,134" stroke="#C62828" stroke-width="1.5" fill="#C62828" opacity="0.6"/>
+  <!-- Eye -->
+  <circle cx="312" cy="146" r="2" fill="#C62828"/>
+  <circle cx="312" cy="145.5" r="0.8" fill="white"/>
+  <!-- Beak -->
+  <polygon points="305,148 298,150 305,152" fill="#E65100"/>
+  <!-- Tail feathers (long, flowing) -->
+  <path d="M360,150 Q380,130 395,140 Q410,125 420,145 Q430,135 440,150 Q435,160 420,155 Q410,165 395,155 Q380,165 360,160 Z" fill="#F9A825" stroke="#E65100" stroke-width="0.8" opacity="0.7"/>
+  <path d="M365,148 Q385,135 400,142 Q415,128 428,145 Q438,138 445,148 Q440,158 428,150 Q415,162 400,152 Q385,160 365,155 Z" fill="#C62828" stroke="#B71C1C" stroke-width="0.5" opacity="0.5"/>
+  <!-- Wing -->
+  <path d="M335,142 Q350,125 370,135 Q360,140 355,148" fill="#FFCC80" stroke="#E65100" stroke-width="0.8"/>
+  <!-- Glowing feather -->
+  <ellipse cx="420" cy="148" rx="8" ry="4" fill="#F9A825" opacity="0.8" stroke="#E65100" stroke-width="0.5"/>
+  <!-- Sparkles -->
+  <circle cx="400" cy="138" r="1.5" fill="#FDD835"/>
+  <circle cx="430" cy="142" r="1" fill="#FDD835"/>
+  <circle cx="415" cy="152" r="1.5" fill="#FDD835"/>
+  <circle cx="390" cy="148" r="1" fill="#FDD835"/>
+  <text x="366" y="182" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">чудесная птица с горящими перьями</text>
+
+  <!-- Card 3: Ivan Tsarevich -->
+  <rect x="257" y="198" width="105" height="92" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="309" y="212" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" font-weight="bold" text-anchor="middle">ИВАН-ЦАРЕВИЧ</text>
+  <!-- Body (royal kaftan) -->
+  <path d="M295,228 Q292,245 290,275 L328,275 Q326,245 323,228 Z" fill="#1565C0" stroke="#0D47A1" stroke-width="1"/>
+  <!-- Belt -->
+  <rect x="292" y="248" width="34" height="4" rx="1" fill="#F9A825"/>
+  <!-- Head -->
+  <circle cx="309" cy="220" r="10" fill="#FFCC80" stroke="#C62828" stroke-width="1"/>
+  <!-- Crown -->
+  <path d="M299,214 Q302,205 309,203 Q316,205 319,214" fill="#F9A825" stroke="#E65100" stroke-width="1"/>
+  <circle cx="302" cy="210" r="2" fill="#C62828"/>
+  <circle cx="309" cy="206" r="2.5" fill="#C62828"/>
+  <circle cx="316" cy="210" r="2" fill="#C62828"/>
+  <!-- Eyes -->
+  <circle cx="306" cy="219" r="1.5" fill="#1565C0"/>
+  <circle cx="312" cy="219" r="1.5" fill="#1565C0"/>
+  <!-- Hair -->
+  <path d="M300,222 Q305,228 308,222 Q312,228 318,222" stroke="#F9A825" stroke-width="0.8" fill="none"/>
+  <!-- Legs -->
+  <line x1="300" y1="275" x2="298" y2="288" stroke="#8D6E63" stroke-width="2.5"/>
+  <line x1="318" y1="275" x2="320" y2="288" stroke="#8D6E63" stroke-width="2.5"/>
+  <!-- Boots -->
+  <path d="M294,286 L298,286 L302,288" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+  <path d="M316,286 L320,286 L324,288" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+
+  <!-- Card 4: Magic objects -->
+  <rect x="370" y="198" width="105" height="92" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="422" y="212" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-weight="bold" text-anchor="middle">ВОЛШЕБНЫЕ ПРЕДМЕТЫ</text>
+  <!-- Magic wand -->
+  <line x1="390" y1="225" x2="410" y2="275" stroke="#8D6E63" stroke-width="2.5"/>
+  <polygon points="388,222 391,215 394,222" fill="#F9A825"/>
+  <!-- Sparkles -->
+  <circle cx="390" cy="220" r="1.5" fill="#FDD835"/>
+  <circle cx="385" cy="215" r="1" fill="#FDD835"/>
+  <circle cx="395" cy="218" r="1" fill="#FDD835"/>
+  <!-- Magic ball/mirror -->
+  <circle cx="440" cy="242" r="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <circle cx="438" cy="239" r="4" fill="white" opacity="0.5"/>
+  <text x="440" y="260" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Клубочек</text>
+  <!-- Magic tablecloth -->
+  <path d="M400,275 Q410,265 420,275 Q430,265 440,275 L435,285 L405,285 Z" fill="#FFCC80" stroke="#E65100" stroke-width="0.8"/>
+  <text x="420" y="292" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Скатерть</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русские народные сказки</text>
+</svg>

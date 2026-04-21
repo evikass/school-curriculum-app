@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/><rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/><polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/><polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/><polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/><polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/><circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/><circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/><text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Списки и массивы</text><text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Основы программирования - Урок 11</text><line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/><rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/><rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<!-- List visualization - Scratch style -->
+<g transform="translate(50,92)">
+  <!-- List header -->
+  <rect x="0" y="0" width="150" height="24" rx="4" fill="#FF8F00" stroke="#E65100" stroke-width="1.2"/>
+  <text x="75" y="16" font-family="Arial,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">список fruits</text>
+  <!-- List items -->
+  <rect x="0" y="26" width="150" height="26" fill="white" stroke="#FFB300" stroke-width="0.8"/>
+  <text x="8" y="43" font-family="Arial,sans-serif" font-size="9" fill="#999">1</text>
+  <line x1="22" y1="26" x2="22" y2="52" stroke="#FFB300" stroke-width="0.5"/>
+  <text x="30" y="43" font-family="Arial,sans-serif" font-size="11" fill="#333">яблоко</text>
+  <!-- Apple icon -->
+  <circle cx="135" cy="39" r="8" fill="#EF5350" opacity="0.3"/>
+  <rect x="45" y="52" width="150" height="26" fill="#FFF8E1" stroke="#FFB300" stroke-width="0.8"/>
+  <text x="8" y="69" font-family="Arial,sans-serif" font-size="9" fill="#999">2</text>
+  <line x1="22" y1="52" x2="22" y2="78" stroke="#FFB300" stroke-width="0.5"/>
+  <text x="30" y="69" font-family="Arial,sans-serif" font-size="11" fill="#333">банан</text>
+  <circle cx="135" cy="65" r="8" fill="#FFC107" opacity="0.3"/>
+  <rect x="0" y="78" width="150" height="26" fill="white" stroke="#FFB300" stroke-width="0.8"/>
+  <text x="8" y="95" font-family="Arial,sans-serif" font-size="9" fill="#999">3</text>
+  <line x1="22" y1="78" x2="22" y2="104" stroke="#FFB300" stroke-width="0.5"/>
+  <text x="30" y="95" font-family="Arial,sans-serif" font-size="11" fill="#333">вишня</text>
+  <circle cx="135" cy="91" r="8" fill="#C62828" opacity="0.3"/>
+  <rect x="0" y="104" width="150" height="26" fill="#FFF8E1" stroke="#FFB300" stroke-width="0.8"/>
+  <text x="8" y="121" font-family="Arial,sans-serif" font-size="9" fill="#999">4</text>
+  <line x1="22" y1="104" x2="22" y2="130" stroke="#FFB300" stroke-width="0.5"/>
+  <text x="30" y="121" font-family="Arial,sans-serif" font-size="11" fill="#333">груша</text>
+  <circle cx="135" cy="117" r="8" fill="#66BB6A" opacity="0.3"/>
+  <rect x="0" y="130" width="150" height="26" fill="white" stroke="#FFB300" stroke-width="0.8"/>
+  <text x="8" y="147" font-family="Arial,sans-serif" font-size="9" fill="#999">5</text>
+  <line x1="22" y1="130" x2="22" y2="156" stroke="#FFB300" stroke-width="0.5"/>
+  <text x="30" y="147" font-family="Arial,sans-serif" font-size="11" fill="#333">слива</text>
+  <circle cx="135" cy="143" r="8" fill="#7B1FA2" opacity="0.3"/>
+  <!-- Scrollbar -->
+  <rect x="145" y="26" width="5" height="130" rx="2" fill="#FFB300" opacity="0.4"/>
+  <rect x="145" y="26" width="5" height="40" rx="2" fill="#FF8F00" opacity="0.6"/>
+</g>
+<!-- Array visualization -->
+<g transform="translate(235,92)">
+  <text x="100" y="14" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="middle" font-weight="bold">Массив (Array)</text>
+  <!-- Array boxes -->
+  <rect x="0" y="25" width="48" height="40" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="24" y="42" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">[0]</text>
+  <text x="24" y="57" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">42</text>
+  <rect x="52" y="25" width="48" height="40" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="76" y="42" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">[1]</text>
+  <text x="76" y="57" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">17</text>
+  <rect x="104" y="25" width="48" height="40" rx="4" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+  <text x="128" y="42" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">[2]</text>
+  <text x="128" y="57" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="middle" font-weight="bold">85</text>
+  <rect x="156" y="25" width="48" height="40" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="180" y="42" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">[3]</text>
+  <text x="180" y="57" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">3</text>
+  <!-- Pointer to selected -->
+  <line x1="128" y1="70" x2="128" y2="82" stroke="#C62828" stroke-width="1.5"/>
+  <text x="128" y="92" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">выбран</text>
+</g>
+<!-- Code blocks on right -->
+<rect x="255" y="195" width="225" height="100" rx="5" fill="#F3E5F5" stroke="#9C27B0" stroke-width="1"/>
+<text x="367" y="210" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Блоки списков</text>
+<!-- Add to list -->
+<rect x="265" y="218" width="205" height="18" rx="3" fill="#FF8F00" stroke="#E65100" stroke-width="0.7"/>
+<text x="367" y="231" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">добавь апельсин в список</text>
+<!-- Delete from list -->
+<rect x="265" y="242" width="205" height="18" rx="3" fill="#FF8F00" stroke="#E65100" stroke-width="0.7"/>
+<text x="367" y="255" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">удали 1-й из списка</text>
+<!-- Get item -->
+<rect x="265" y="266" width="205" height="18" rx="3" fill="#9C27B0" stroke="#6A1B9A" stroke-width="0.7"/>
+<text x="367" y="279" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">элемент 3 из списка</text>
+<!-- Loop through list visual -->
+<g transform="translate(50,260)">
+  <text x="30" y="10" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Перебор:</text>
+  <rect x="0" y="16" width="150" height="20" rx="4" fill="#FFC107" stroke="#FF8F00" stroke-width="0.8"/>
+  <text x="75" y="30" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">для каждого элемента в списке</text>
+</g>
+<rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/><text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Списки и массивы</text></svg>

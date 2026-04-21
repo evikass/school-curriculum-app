@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <rect x="0" y="8" width="500" height="3" fill="#D4A843" opacity="0.5"/>
+  
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Экосистема</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#666" text-anchor="middle">Живые организмы и среда обитания</text>
+  
+  <!-- Decorative line under title -->
+  <line x1="120" y1="52" x2="380" y2="52" stroke="#D4A843" stroke-width="1" opacity="0.4"/>
+
+  <!-- Illustration area -->
+  <!-- Central food chain cycle -->
+  
+  <!-- Large connecting circle -->
+  <circle cx="250" cy="200" r="95" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.12"/>
+  <circle cx="250" cy="200" r="95" fill="none" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="5,5" opacity="0.15"/>
+  
+  <!-- Arrow indicators around circle -->
+  <g opacity="0.4">
+    <polygon points="250,103 245,113 255,113" fill="#1a1a1a"/>
+    <polygon points="345,155 338,150 340,160" fill="#1a1a1a"/>
+    <polygon points="345,248 340,240 338,250" fill="#1a1a1a"/>
+    <polygon points="250,297 255,287 245,287" fill="#1a1a1a"/>
+    <polygon points="155,248 160,240 162,250" fill="#1a1a1a"/>
+    <polygon points="155,155 162,150 160,160" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- Sun - top -->
+  <circle cx="250" cy="115" r="20" fill="#D4A843" opacity="0.6"/>
+  <line x1="250" y1="90" x2="250" y2="85" stroke="#D4A843" stroke-width="2"/>
+  <line x1="265" y1="95" x2="268" y2="90" stroke="#D4A843" stroke-width="1.5"/>
+  <line x1="235" y1="95" x2="232" y2="90" stroke="#D4A843" stroke-width="1.5"/>
+  <text x="250" y="148" font-family="Arial" font-size="9" fill="#D4A843" text-anchor="middle" font-weight="bold">Энергия</text>
+  
+  <!-- Producer (plant) - top right -->
+  <rect x="310" y="120" width="80" height="55" rx="6" fill="#2E7D32" opacity="0.1" stroke="#2E7D32" stroke-width="1"/>
+  <text x="350" y="135" font-family="Arial" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Производители</text>
+  <!-- Plant icon -->
+  <line x1="345" y1="165" x2="345" y2="148" stroke="#2E7D32" stroke-width="2"/>
+  <circle cx="345" cy="145" r="8" fill="#2E7D32" opacity="0.5"/>
+  <circle cx="340" cy="148" r="6" fill="#2E7D32" opacity="0.4"/>
+  <circle cx="350" cy="147" r="6" fill="#2E7D32" opacity="0.45"/>
+  <text x="350" y="170" font-family="Arial" font-size="7" fill="#666" text-anchor="middle">Растения</text>
+  
+  <!-- Primary consumer (herbivore) - right -->
+  <rect x="340" y="195" width="80" height="55" rx="6" fill="#2B4C7E" opacity="0.08" stroke="#2B4C7E" stroke-width="1"/>
+  <text x="380" y="210" font-family="Arial" font-size="9" fill="#2B4C7E" text-anchor="middle" font-weight="bold">Потребители I</text>
+  <!-- Rabbit icon -->
+  <ellipse cx="372" cy="232" rx="8" ry="6" fill="#A1887F" opacity="0.6"/>
+  <circle cx="378" cy="226" r="5" fill="#A1887F" opacity="0.6"/>
+  <ellipse cx="376" cy="218" rx="2" ry="5" fill="#A1887F" opacity="0.5"/>
+  <ellipse cx="380" cy="218" rx="2" ry="5" fill="#A1887F" opacity="0.5"/>
+  <text x="380" y="248" font-family="Arial" font-size="7" fill="#666" text-anchor="middle">Травоядные</text>
+  
+  <!-- Secondary consumer (predator) - bottom right -->
+  <rect x="300" y="268" width="80" height="40" rx="6" fill="#C41E3A" opacity="0.08" stroke="#C41E3A" stroke-width="1"/>
+  <text x="340" y="282" font-family="Arial" font-size="9" fill="#C41E3A" text-anchor="middle" font-weight="bold">Потребители II</text>
+  <!-- Wolf icon -->
+  <ellipse cx="325" cy="296" rx="10" ry="5" fill="#616161" opacity="0.5"/>
+  <circle cx="335" cy="290" r="5" fill="#616161" opacity="0.5"/>
+  <polygon points="332,285 330,278 334,283" fill="#616161" opacity="0.4"/>
+  <polygon points="337,285 339,278 336,283" fill="#616161" opacity="0.4"/>
+  <text x="340" y="305" font-family="Arial" font-size="7" fill="#666" text-anchor="middle">Хищники</text>
+  
+  <!-- Decomposer - bottom left -->
+  <rect x="120" y="268" width="80" height="40" rx="6" fill="#5D4037" opacity="0.1" stroke="#5D4037" stroke-width="1"/>
+  <text x="160" y="282" font-family="Arial" font-size="9" fill="#5D4037" text-anchor="middle" font-weight="bold">Разрушители</text>
+  <!-- Mushroom icon -->
+  <rect x="152" y="293" width="4" height="10" rx="2" fill="#EFEBE9"/>
+  <path d="M146,295 Q150,285 154,283 Q158,285 162,295 Z" fill="#8D6E63" opacity="0.7"/>
+  <rect x="164" y="290" width="3" height="8" rx="1.5" fill="#EFEBE9"/>
+  <path d="M160,292 Q163,284 165.5,283 Q168,284 171,292 Z" fill="#8D6E63" opacity="0.6"/>
+  <text x="160" y="305" font-family="Arial" font-size="7" fill="#666" text-anchor="middle">Грибы, бактерии</text>
+  
+  <!-- Medium (soil, water) - left -->
+  <rect x="80" y="195" width="80" height="55" rx="6" fill="#2B4C7E" opacity="0.05" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="120" y="210" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Среда</text>
+  <!-- Water drops and soil -->
+  <path d="M108,230 Q112,222 116,230" fill="#64B5F6" opacity="0.5"/>
+  <path d="M122,235 Q126,227 130,235" fill="#64B5F6" opacity="0.5"/>
+  <path d="M100,240 Q120,235 140,240" fill="#A1887F" opacity="0.3"/>
+  <text x="120" y="248" font-family="Arial" font-size="7" fill="#666" text-anchor="middle">Воздух, вода, почва</text>
+  
+  <!-- Food chain example -->
+  <rect x="80" y="86" width="340" height="16" rx="3" fill="#1a1a1a" opacity="0.04"/>
+  <text x="250" y="97" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle">Цепь питания: Трава - Заяц - Лиса</text>
+  
+  <!-- Arrows between nodes -->
+  <path d="M295,147 L315,150" stroke="#1a1a1a" stroke-width="1.2" opacity="0.3" marker-end="none"/>
+  <polygon points="313,148 319,150 313,153" fill="#1a1a1a" opacity="0.3"/>
+  <path d="M385,177 L385,192" stroke="#1a1a1a" stroke-width="1.2" opacity="0.3"/>
+  <polygon points="382,190 385,196 388,190" fill="#1a1a1a" opacity="0.3"/>
+  <path d="M365,252 L345,266" stroke="#1a1a1a" stroke-width="1.2" opacity="0.3"/>
+  <polygon points="347,264 342,270 349,268" fill="#1a1a1a" opacity="0.3"/>
+  <path d="M300,290 L205,290" stroke="#1a1a1a" stroke-width="1.2" opacity="0.3"/>
+  <polygon points="207,287 200,290 207,293" fill="#1a1a1a" opacity="0.3"/>
+  <path d="M120,266 L120,253" stroke="#1a1a1a" stroke-width="1.2" opacity="0.3"/>
+  <polygon points="117,255 120,249 123,255" fill="#1a1a1a" opacity="0.3"/>
+  
+  <!-- Bottom bar -->
+  <rect x="0" y="318" width="500" height="32" fill="#2C1810"/>
+  <line x1="0" y1="318" x2="500" y2="318" stroke="#D4A843" stroke-width="1.5" opacity="0.5"/>
+  <text x="250" y="339" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#F5E6C8" text-anchor="middle" opacity="0.9">Природоведение — 4 класс</text>
+</svg>
