@@ -11,9 +11,6 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   reactStrictMode: false,
-  turbopack: {
-    root: __dirname,
-  },
 };
 
 export default nextConfig;
