@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "if [ ! -f /swapfile ]; then sudo fallocate -l 8G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile; echo 'Swap created and enabled'; else echo 'Swap already exists'; fi",
-    "build": "NODE_OPTIONS='--max-old-space-size=4096' next build --no-turbopack",
+    "build": "NODE_OPTIONS='--max-old-space-size=4096' next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next build",
