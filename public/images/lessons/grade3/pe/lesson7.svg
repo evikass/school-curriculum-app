@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bgef95c002" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgef95c002)"/>
+  <rect width="500" height="350" fill="#E8F5E9" opacity="0.2"/>
+  
+  <!-- Title -->
+  <text x="250" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2E7D32" text-anchor="middle">Футбол</text>
+  <rect x="80" y="46" width="340" height="2.5" rx="1" fill="#2E7D32" opacity="0.4"/>
+  
+  <!-- Scene -->
+  <circle cx="200" cy="171.0" r="11.200000000000001" fill="#FFCCBC"/>
+<path d="M188.8,166.8 Q200,157.0 211.2,166.8" fill="#5D4037"/>
+<rect x="188.8" y="189.2" width="22.400000000000002" height="42.0" rx="3" fill="#FFF"/>
+<line x1="188.8" y1="199.0" x2="174.8" y2="231.2" stroke="#FFCCBC" stroke-width="4" stroke-linecap="round"/>
+<line x1="211.2" y1="199.0" x2="225.2" y2="231.2" stroke="#FFCCBC" stroke-width="4" stroke-linecap="round"/>
+<line x1="194.4" y1="231.2" x2="191.6" y2="283.0" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+<line x1="205.6" y1="231.2" x2="208.4" y2="283.0" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="191.6" cy="285.8" rx="6" ry="3" fill="#333"/>
+<ellipse cx="208.4" cy="285.8" rx="6" ry="3" fill="#333"/>
+<circle cx="300" cy="280" r="15" fill="#FFF" stroke="#333" stroke-width="2"/>
+<polygon points="295,270 300,265 305,270 300,275" fill="#333"/>
+<rect x="340" y="230" width="80" height="60" fill="none" stroke="#FFF" stroke-width="3" rx="2"/>
+  
+  <!-- Caption -->
+  <text x="250" y="335" font-family="Arial, sans-serif" font-size="14" fill="#1B5E20" text-anchor="middle" font-style="italic">Футбол</text>
+  
+  <ellipse cx="250" cy="310" rx="220" ry="15" fill="#2E7D32" opacity="0.06"/>
+</svg>

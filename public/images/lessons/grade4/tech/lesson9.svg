@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <!-- Thin gold line under accent -->
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Объёмные модели из бумаги</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Моделирование</text>
+  <!-- Illustration area -->
+  <rect x="140" y="145" width="60" height="60" fill="#fff" stroke="#ddd" stroke-width="1"/><line x1="170" y1="145" x2="170" y2="205" stroke="#ccc" stroke-width="0.5"/><line x1="140" y1="175" x2="200" y2="175" stroke="#ccc" stroke-width="0.5"/><line x1="140" y1="145" x2="200" y2="205" stroke="#ccc" stroke-width="0.5"/><line x1="200" y1="145" x2="140" y2="205" stroke="#ccc" stroke-width="0.5"/><text x="170" y="225" text-anchor="middle" font-size="8" fill="#999" font-family="Arial">Схема</text><polygon points="270,130 330,160 310,220 250,190" fill="#fff" stroke="#333" stroke-width="2"/><polygon points="310,160 330,160 320,200" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/><line x1="250" y1="190" x2="230" y2="170" stroke="#333" stroke-width="1.5"/><polygon points="310,160 340,145 335,165" fill="#f0f0f0" stroke="#333" stroke-width="1"/><text x="290" y="240" text-anchor="middle" font-size="11" fill="#1a1a1a" font-weight="bold" font-family="Arial">Журавлик</text><text x="250" y="270" text-anchor="middle" font-size="10" fill="#C41E3A" font-family="Arial">Без клея и ножниц!</text><text x="250" y="290" text-anchor="middle" font-size="10" fill="#1a1a1a" font-family="Arial">1000 журавликов = желание</text>
+  <!-- Bottom dark bar -->
+  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
+  <!-- Gold line above bottom bar -->
+  <rect y="313" width="500" height="2" fill="#D4A843"/>
+  <!-- Subject name -->
+  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Технология</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <text x="250" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Пётр Ильич Чайковский</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#D4A843">Изучаем творчество великого композитора</text>
+  <line x1="50" y1="82" x2="450" y2="82" stroke="#D4A843" stroke-width="0.5"/>
+  
+  <!-- grand piano silhouette -->
+  <path d="M130,240 L130,150 Q130,120 160,120 L320,120 Q340,120 350,140 L370,200 Q375,215 360,220 L130,240 Z" fill="#1a1a1a" opacity="0.75"/>
+  <!-- piano lid open -->
+  <path d="M130,150 Q130,120 160,120 L320,120 Q340,120 350,140" stroke="#D4A843" stroke-width="1.5" fill="none"/>
+  <!-- keys visible -->
+  <rect x="135" y="220" width="80" height="15" rx="1" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="0.5"/>
+  <rect x="140" y="220" width="5" height="10" fill="#1a1a1a"/>
+  <rect x="150" y="220" width="5" height="10" fill="#1a1a1a"/>
+  <rect x="165" y="220" width="5" height="10" fill="#1a1a1a"/>
+  <rect x="175" y="220" width="5" height="10" fill="#1a1a1a"/>
+  <rect x="190" y="220" width="5" height="10" fill="#1a1a1a"/>
+  <rect x="200" y="220" width="5" height="10" fill="#1a1a1a"/>
+  <!-- piano legs -->
+  <line x1="140" y1="240" x2="138" y2="270" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="340" y1="225" x2="338" y2="255" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="210" y1="235" x2="210" y2="265" stroke="#1a1a1a" stroke-width="3"/>
+  <!-- ballet slippers -->
+  <path d="M380,230 Q390,225 400,228 Q408,230 405,238 Q400,245 388,245 Q378,244 380,230 Z" fill="#C41E3A" stroke="#C41E3A" stroke-width="1"/>
+  <path d="M395,255 Q405,250 415,253 Q423,255 420,263 Q415,270 403,270 Q393,269 395,255 Z" fill="#D4A843" stroke="#D4A843" stroke-width="1"/>
+  <!-- ribbons -->
+  <path d="M395,235 Q400,240 408,238" stroke="#C41E3A" stroke-width="0.8" fill="none"/>
+  <path d="M410,260 Q415,265 423,263" stroke="#D4A843" stroke-width="0.8" fill="none"/>
+  <!-- notes -->
+  <text x="150" y="150" font-size="16" fill="#D4A843" opacity="0.5">&#9835;</text>
+  <text x="270" y="145" font-size="14" fill="#C41E3A" opacity="0.4">&#9834;</text>
+  <text x="370" y="150" font-size="12" fill="#2B4C7E" opacity="0.5">&#9833;</text>
+  <rect y="310" width="500" height="40" fill="#1a1a1a"/>
+  <rect y="308" width="500" height="2" fill="#C41E3A"/>
+  <text x="250" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#D4A843">Музыка</text>
+</svg>

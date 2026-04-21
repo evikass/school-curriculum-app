@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/><rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/><polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/><polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/><polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/><polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/><circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/><circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/><text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Таблицы и изображения</text><text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Информатика - Урок 7</text><line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/><rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/><rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<!-- Table -->
+<text x="170" y="97" font-family="Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">Таблица</text>
+<!-- Table grid -->
+<rect x="40" y="105" width="260" height="130" rx="4" fill="white" stroke="#90A4AE" stroke-width="1.5"/>
+<!-- Header row -->
+<rect x="40" y="105" width="260" height="26" rx="4" fill="#1565C0"/>
+<rect x="40" y="125" width="260" height="6" fill="#1565C0"/>
+<line x1="126" y1="105" x2="126" y2="235" stroke="#90A4AE" stroke-width="1"/>
+<line x1="213" y1="105" x2="213" y2="235" stroke="#90A4AE" stroke-width="1"/>
+<text x="83" y="122" font-family="Arial,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">Предмет</text>
+<text x="170" y="122" font-family="Arial,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">Оценка</text>
+<text x="257" y="122" font-family="Arial,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">Комментарий</text>
+<!-- Row lines -->
+<line x1="40" y1="161" x2="300" y2="161" stroke="#CFD8DC" stroke-width="1"/>
+<line x1="40" y1="197" x2="300" y2="197" stroke="#CFD8DC" stroke-width="1"/>
+<!-- Row 1 -->
+<text x="83" y="146" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Математика</text>
+<text x="170" y="146" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">5</text>
+<text x="257" y="146" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Отлично!</text>
+<!-- Row 2 -->
+<rect x="40" y="161" width="260" height="36" fill="#F5F5F5"/>
+<text x="83" y="183" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Русский</text>
+<text x="170" y="183" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">4</text>
+<text x="257" y="183" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Хорошо</text>
+<!-- Row 3 -->
+<text x="83" y="219" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Информатика</text>
+<text x="170" y="219" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">5</text>
+<text x="257" y="219" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Молодец!</text>
+<!-- Image placeholder -->
+<text x="395" y="97" font-family="Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">Изображение</text>
+<rect x="325" y="105" width="150" height="130" rx="6" fill="#ECEFF1" stroke="#90A4AE" stroke-width="1.5" stroke-dasharray="5,3"/>
+<!-- Mountain landscape icon -->
+<polygon points="340,220 380,155 410,185 435,145 470,220" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
+<polygon points="370,220 395,175 420,220" fill="#4CAF50" stroke="#388E3C" stroke-width="1"/>
+<circle cx="445" cy="140" r="15" fill="#FFD54F" stroke="#F9A825" stroke-width="1.5"/>
+<rect x="340" y="220" width="120" height="15" fill="#90CAF9" stroke="#64B5F6" stroke-width="1"/>
+<text x="400" y="255" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="middle">picture.jpg</text>
+<!-- Resize handles -->
+<circle cx="325" cy="105" r="4" fill="#1565C0" opacity="0.6"/>
+<circle cx="475" cy="105" r="4" fill="#1565C0" opacity="0.6"/>
+<circle cx="325" cy="235" r="4" fill="#1565C0" opacity="0.6"/>
+<circle cx="475" cy="235" r="4" fill="#1565C0" opacity="0.6"/>
+<!-- Bottom section: merge example -->
+<rect x="40" y="248" width="260" height="52" rx="6" fill="white" stroke="#CFD8DC" stroke-width="1.5"/>
+<text x="60" y="266" font-family="Arial,sans-serif" font-size="10" fill="#555" font-weight="bold">Объединение ячеек:</text>
+<rect x="60" y="274" width="80" height="20" rx="2" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+<rect x="140" y="274" width="80" height="20" rx="2" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+<text x="190" y="288" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Merge</text>
+<text x="230" y="288" font-family="Arial,sans-serif" font-size="12" fill="#555">=</text>
+<rect x="245" y="274" width="45" height="20" rx="2" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
+<text x="267" y="288" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">A1:B1</text>
+<!-- Image format icons -->
+<rect x="325" y="248" width="150" height="52" rx="6" fill="white" stroke="#CFD8DC" stroke-width="1.5"/>
+<text x="400" y="266" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle" font-weight="bold">Форматы:</text>
+<rect x="340" y="274" width="38" height="18" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1"/>
+<text x="359" y="287" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">JPG</text>
+<rect x="384" y="274" width="32" height="18" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+<text x="400" y="287" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">PNG</text>
+<rect x="422" y="274" width="44" height="18" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+<text x="444" y="287" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">GIF</text>
+<rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/><text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Таблицы и изображения</text></svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B71C1C"/>
+      <stop offset="100%" stop-color="#C62828"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corner accents -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
+  <!-- Title -->
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Функции</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Основы программирования - Урок 10</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#6A1B9A" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.18" rx="1"/>
+  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
+  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5"/><text x="250" y="130" font-family="monospace" font-size="13" fill="#6A1B9A" text-anchor="middle">def greet(name):</text><text x="250" y="160" font-family="monospace" font-size="13" fill="#333" text-anchor="middle">  return "Привет, " + name</text><text x="250" y="200" font-family="monospace" font-size="13" fill="#2E7D32" text-anchor="middle">result = greet("Анна")</text><text x="250" y="230" font-family="monospace" font-size="13" fill="#1565C0" text-anchor="middle">print(result)</text><text x="250" y="265" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">def, return, параметры</text>
+  </g>
+  <!-- Bottom panel -->
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Основы программирования</text>
+</svg>

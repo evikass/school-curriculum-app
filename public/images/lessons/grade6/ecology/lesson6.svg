@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+    <linearGradient id="solar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Энергосбережение</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экология - Урок 6</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Top left: Energy-saving bulb with leaf -->
+  <rect x="30" y="90" width="140" height="100" rx="5" fill="white" stroke="#F9A825" stroke-width="1.5" opacity="0.9"/>
+  <text x="100" y="106" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#F9A825" text-anchor="middle">ЭНЕРГОСБЕРЕЖЕНИЕ</text>
+  
+  <!-- Light bulb outline -->
+  <path d="M85,145 Q85,125 100,120 Q115,125 115,145 L115,155 L85,155 Z" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
+  <!-- Leaf inside bulb -->
+  <path d="M100,135 Q108,125 115,130 Q108,135 100,135 Z" fill="#43A047"/>
+  <line x1="100" y1="135" x2="108" y2="128" stroke="#2E7D32" stroke-width="1"/>
+  <!-- Bulb base -->
+  <rect x="90" y="155" width="20" height="4" fill="#757575" stroke="#5D4037" stroke-width="0.5"/>
+  <rect x="92" y="159" width="16" height="3" fill="#757575" stroke="#5D4037" stroke-width="0.5"/>
+  <rect x="93" y="162" width="14" height="4" rx="2" fill="#757575" stroke="#5D4037" stroke-width="0.5"/>
+  <!-- Light rays -->
+  <line x1="80" y1="135" x2="72" y2="135" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="80" y1="145" x2="72" y2="148" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="80" y1="125" x2="74" y2="120" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="120" y1="135" x2="128" y2="135" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="120" y1="145" x2="128" y2="148" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="120" y1="125" x2="126" y2="120" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="100" y1="118" x2="100" y2="110" stroke="#F9A825" stroke-width="1.5"/>
+  
+  <!-- "60%" label -->
+  <text x="100" y="180" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">экономия до 60%</text>
+
+  <!-- Top right: Before/After bulbs -->
+  <rect x="180" y="90" width="140" height="100" rx="5" fill="white" stroke="#E53935" stroke-width="1.5" opacity="0.9"/>
+  <text x="250" y="106" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#E53935" text-anchor="middle">ЛАМПЫ: СРАВНЕНИЕ</text>
+  
+  <!-- Old incandescent bulb -->
+  <text x="215" y="122" font-family="Arial,sans-serif" font-size="7" fill="#757575" text-anchor="middle">60 Вт</text>
+  <path d="M205,150 Q205,130 215,128 Q225,130 225,150 L225,155 L205,155 Z" fill="#FFE0B2" stroke="#E53935" stroke-width="1.5"/>
+  <rect x="210" y="155" width="10" height="3" fill="#757575"/>
+  <rect x="211" y="158" width="8" height="3" rx="1" fill="#757575"/>
+  <!-- Heat waves (wasted energy) -->
+  <path d="M198,135 Q194,130 198,125" stroke="#E53935" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M232,135 Q236,130 232,125" stroke="#E53935" stroke-width="1" fill="none" opacity="0.6"/>
+  <text x="215" y="173" font-family="Arial,sans-serif" font-size="6" fill="#E53935" text-anchor="middle">много тепла</text>
+  
+  <!-- Arrow -->
+  <text x="250" y="148" font-family="Arial,sans-serif" font-size="16" fill="#2E7D32" text-anchor="middle" font-weight="bold">&gt;</text>
+  
+  <!-- New LED bulb -->
+  <text x="285" y="122" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">10 Вт</text>
+  <path d="M275,150 Q275,130 285,128 Q295,130 295,150 L295,155 L275,155 Z" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.5"/>
+  <!-- Leaf inside -->
+  <path d="M285,140 Q290,133 294,137 Q290,141 285,140 Z" fill="#43A047"/>
+  <rect x="280" y="155" width="10" height="3" fill="#757575"/>
+  <rect x="281" y="158" width="8" height="3" rx="1" fill="#757575"/>
+  <!-- Efficient arrow -->
+  <path d="M300,135 L306,135 L306,130 L314,137 L306,144 L306,139 L300,139 Z" fill="#2E7D32" opacity="0.6"/>
+  <text x="285" y="173" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">экономия!</text>
+
+  <!-- Top far right: House with insulation -->
+  <rect x="330" y="90" width="140" height="100" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="400" y="106" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">УТЕПЛЕНИЕ ДОМА</text>
+  
+  <!-- House -->
+  <rect x="360" y="140" width="70" height="42" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.5"/>
+  <!-- Roof -->
+  <polygon points="355,140 395,115 435,140" fill="#E53935" stroke="#C62828" stroke-width="1"/>
+  <!-- Insulation pattern on walls -->
+  <line x1="365" y1="145" x2="365" y2="180" stroke="#1565C0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="375" y1="145" x2="375" y2="180" stroke="#1565C0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="385" y1="145" x2="385" y2="180" stroke="#1565C0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="395" y1="145" x2="395" y2="180" stroke="#1565C0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="405" y1="145" x2="405" y2="180" stroke="#1565C0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="415" y1="145" x2="415" y2="180" stroke="#1565C0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="425" y1="145" x2="425" y2="180" stroke="#1565C0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <!-- Window -->
+  <rect x="383" y="150" width="14" height="14" fill="#B3E5FC" stroke="#1565C0" stroke-width="1"/>
+  <line x1="390" y1="150" x2="390" y2="164" stroke="#1565C0" stroke-width="0.5"/>
+  <line x1="383" y1="157" x2="397" y2="157" stroke="#1565C0" stroke-width="0.5"/>
+  <!-- Door -->
+  <rect x="375" y="160" width="10" height="22" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <!-- Snowflake outside = cold -->
+  <text x="355" y="130" font-family="Arial,sans-serif" font-size="12" fill="#1565C0">*</text>
+  <text x="440" y="128" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">*</text>
+  <!-- Warm inside -->
+  <text x="390" y="176" font-family="Arial,sans-serif" font-size="8" fill="#E53935" text-anchor="middle">тепло</text>
+
+  <!-- Bottom left: Solar panels -->
+  <rect x="30" y="200" width="155" height="95" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="107" y="215" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">СОЛНЕЧНАЯ ЭНЕРГИЯ</text>
+  
+  <!-- House with solar panels on roof -->
+  <rect x="60" y="245" width="60" height="40" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
+  <polygon points="55,245 90,220 125,245" fill="#E53935" stroke="#C62828" stroke-width="1"/>
+  
+  <!-- Solar panels on roof -->
+  <polygon points="65,238 80,228 80,238" fill="url(#solar)" stroke="#0D47A1" stroke-width="0.5"/>
+  <polygon points="83,238 98,228 98,238" fill="url(#solar)" stroke="#0D47A1" stroke-width="0.5"/>
+  <polygon points="101,238 112,232 112,238" fill="url(#solar)" stroke="#0D47A1" stroke-width="0.5"/>
+  <!-- Panel grid lines -->
+  <line x1="72" y1="233" x2="72" y2="238" stroke="#0D47A1" stroke-width="0.3"/>
+  <line x1="90" y1="233" x2="90" y2="238" stroke="#0D47A1" stroke-width="0.3"/>
+  
+  <!-- Sun rays hitting panels -->
+  <line x1="40" y1="210" x2="75" y2="230" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="50" y1="205" x2="88" y2="228" stroke="#F9A825" stroke-width="1"/>
+  <line x1="55" y1="215" x2="105" y2="230" stroke="#F9A825" stroke-width="1"/>
+  
+  <!-- Sun -->
+  <circle cx="45" cy="210" r="12" fill="#F9A825"/>
+  
+  <!-- Energy arrow to house -->
+  <path d="M85,240 L85,245" stroke="#F9A825" stroke-width="1.5" stroke-dasharray="2,1"/>
+
+  <!-- Bottom center: Wind turbine -->
+  <rect x="195" y="200" width="100" height="95" rx="5" fill="white" stroke="#43A047" stroke-width="1.5" opacity="0.9"/>
+  <text x="245" y="215" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#43A047" text-anchor="middle">ВЕТРОВАЯ ЭНЕРГИЯ</text>
+  
+  <!-- Wind turbine -->
+  <rect x="241" y="230" width="6" height="55" fill="#757575" stroke="#5D4037" stroke-width="1"/>
+  <!-- Hub -->
+  <circle cx="244" cy="230" r="4" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+  <!-- Blades -->
+  <line x1="244" y1="230" x2="244" y2="198" stroke="#B3E5FC" stroke-width="4" stroke-linecap="round"/>
+  <line x1="244" y1="230" x2="268" y2="244" stroke="#B3E5FC" stroke-width="4" stroke-linecap="round"/>
+  <line x1="244" y1="230" x2="220" y2="244" stroke="#B3E5FC" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Wind arrows -->
+  <path d="M200,220 L220,220" stroke="#1565C0" stroke-width="1" fill="none"/>
+  <polygon points="220,220 216,217 216,223" fill="#1565C0"/>
+  <path d="M205,228 L222,228" stroke="#1565C0" stroke-width="1" fill="none" opacity="0.7"/>
+  <polygon points="222,228 218,225 218,231" fill="#1565C0" opacity="0.7"/>
+  <path d="M208,236 L224,236" stroke="#1565C0" stroke-width="1" fill="none" opacity="0.5"/>
+  <polygon points="224,236 220,233 220,239" fill="#1565C0" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <rect x="195" y="280" width="100" height="12" fill="#A5D6A7" rx="0"/>
+
+  <!-- Bottom right: Hydroelectric dam -->
+  <rect x="305" y="200" width="165" height="95" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="387" y="215" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">ГИДРОЭНЕРГЕТИКА</text>
+  
+  <!-- Dam wall -->
+  <polygon points="330,230 370,230 370,285 330,285" fill="#90A4AE" stroke="#546E7A" stroke-width="1.5"/>
+  <!-- Water behind dam -->
+  <rect x="310" y="250" width="60" height="35" fill="#42A5F5" opacity="0.6"/>
+  <!-- Water level line -->
+  <line x1="310" y1="250" x2="370" y2="250" stroke="#1565C0" stroke-width="1"/>
+  
+  <!-- Dam top -->
+  <rect x="325" y="226" width="50" height="6" fill="#78909C" stroke="#546E7A" stroke-width="0.5"/>
+  
+  <!-- Water falling -->
+  <path d="M370,250 Q375,260 370,270 Q375,280 370,285" stroke="#42A5F5" stroke-width="2" fill="none"/>
+  
+  <!-- Turbine -->
+  <circle cx="385" cy="270" r="10" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+  <line x1="385" y1="260" x2="385" y2="280" stroke="#1565C0" stroke-width="1"/>
+  <line x1="375" y1="270" x2="395" y2="270" stroke="#1565C0" stroke-width="1"/>
+  
+  <!-- Power lines -->
+  <line x1="395" y1="270" x2="440" y2="240" stroke="#757575" stroke-width="1.5"/>
+  <line x1="440" y1="240" x2="460" y2="240" stroke="#757575" stroke-width="1.5"/>
+  <!-- Power tower -->
+  <rect x="440" y="235" width="3" height="30" fill="#757575"/>
+  <line x1="430" y1="238" x2="452" y2="238" stroke="#757575" stroke-width="1"/>
+  <line x1="432" y1="262" x2="448" y2="262" stroke="#757575" stroke-width="1"/>
+  <line x1="430" y1="238" x2="432" y2="262" stroke="#757575" stroke-width="0.5"/>
+  <line x1="452" y1="238" x2="448" y2="262" stroke="#757575" stroke-width="0.5"/>
+  
+  <!-- River downstream -->
+  <path d="M370,285 Q390,283 410,285 Q430,287 450,285 Q460,284 470,285" stroke="#42A5F5" stroke-width="2" fill="none"/>
+  
+  <!-- Electricity symbol -->
+  <text x="450" y="233" font-family="Arial,sans-serif" font-size="10" fill="#F9A825" font-weight="bold">~</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Энергосбережение</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="398" height="298" rx="16" fill="none" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.3"/>
+  <text x="200" y="120" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="#f59e0b" text-anchor="middle" opacity="0.9">Химия</text>
+  <text x="200" y="165" font-family="Arial,sans-serif" font-size="18" fill="#64748b" text-anchor="middle">Теория</text>
+  <circle cx="200" cy="230" r="25" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="1.5" stroke-opacity="0.3"/>
+  <text x="200" y="237" font-family="Arial,sans-serif" font-size="22" fill="#f59e0b" text-anchor="middle" opacity="0.6">📚</text>
+</svg>

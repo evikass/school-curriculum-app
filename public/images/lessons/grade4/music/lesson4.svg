@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <text x="250" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Михаил Иванович Глинка</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#D4A843">Изучаем творчество первого русского композитора</text>
+  <line x1="50" y1="82" x2="450" y2="82" stroke="#D4A843" stroke-width="0.5"/>
+  
+  <!-- ornamental frame -->
+  <rect x="140" y="95" width="220" height="175" rx="5" stroke="#D4A843" stroke-width="2" fill="none"/>
+  <rect x="145" y="100" width="210" height="165" rx="3" stroke="#D4A843" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <!-- portrait silhouette (Bauhaus geometric) -->
+  <!-- head -->
+  <circle cx="250" cy="145" r="22" fill="#1a1a1a" opacity="0.8"/>
+  <!-- shoulders -->
+  <path d="M210,190 Q250,170 290,190 L290,210 L210,210 Z" fill="#1a1a1a" opacity="0.7"/>
+  <!-- violin across -->
+  <rect x="280" y="120" width="50" height="8" rx="3" fill="#D4A843" transform="rotate(-30,305,124)"/>
+  <ellipse cx="315" cy="145" rx="14" ry="10" fill="#D4A843" transform="rotate(-30,315,145)"/>
+  <ellipse cx="325" cy="155" rx="16" ry="12" fill="#D4A843" transform="rotate(-30,325,155)"/>
+  <!-- bow -->
+  <line x1="280" y1="115" x2="340" y2="180" stroke="#D4A843" stroke-width="1.5"/>
+  <!-- text -->
+  <text x="250" y="235" text-anchor="middle" font-family="Arial" font-size="10" fill="#1a1a1a" font-style="italic">1804 - 1857</text>
+  <!-- musical notes floating -->
+  <text x="150" y="120" font-size="14" fill="#C41E3A" opacity="0.5">&#9835;</text>
+  <text x="340" y="110" font-size="12" fill="#C41E3A" opacity="0.4">&#9834;</text>
+  <!-- decorative corners -->
+  <line x1="145" y1="100" x2="165" y2="100" stroke="#C41E3A" stroke-width="2"/>
+  <line x1="145" y1="100" x2="145" y2="120" stroke="#C41E3A" stroke-width="2"/>
+  <line x1="345" y1="100" x2="325" y2="100" stroke="#C41E3A" stroke-width="2"/>
+  <line x1="345" y1="100" x2="345" y2="120" stroke="#C41E3A" stroke-width="2"/>
+  <line x1="145" y1="260" x2="165" y2="260" stroke="#C41E3A" stroke-width="2"/>
+  <line x1="145" y1="260" x2="145" y2="240" stroke="#C41E3A" stroke-width="2"/>
+  <line x1="345" y1="260" x2="325" y2="260" stroke="#C41E3A" stroke-width="2"/>
+  <line x1="345" y1="260" x2="345" y2="240" stroke="#C41E3A" stroke-width="2"/>
+  <rect y="310" width="500" height="40" fill="#1a1a1a"/>
+  <rect y="308" width="500" height="2" fill="#C41E3A"/>
+  <text x="250" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#D4A843">Музыка</text>
+</svg>

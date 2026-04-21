@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Соединение деталей из древесины</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Технология - Урок 3</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Joint type 1: Nail -->
+  <rect x="25" y="88" width="105" height="90" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.2"/>
+  <text x="77" y="104" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#5D4037" text-anchor="middle">Гвоздь</text>
+  <!-- Two wood pieces -->
+  <rect x="42" y="125" width="70" height="18" rx="2" fill="#FFECB3" stroke="#FFB74D" stroke-width="0.8"/>
+  <rect x="42" y="143" width="70" height="18" rx="2" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.8"/>
+  <!-- Nail -->
+  <line x1="77" y1="120" x2="77" y2="162" stroke="#78909C" stroke-width="2"/>
+  <polygon points="75,162 77,168 79,162" fill="#78909C"/>
+  <rect x="73" y="117" width="8" height="4" rx="1" fill="#78909C"/>
+  <text x="77" y="178" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Быстрое крепление</text>
+
+  <!-- Joint type 2: Screw -->
+  <rect x="140" y="88" width="105" height="90" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.2"/>
+  <text x="192" y="104" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#5D4037" text-anchor="middle">Саморез</text>
+  <!-- Two wood pieces -->
+  <rect x="157" y="125" width="70" height="18" rx="2" fill="#FFECB3" stroke="#FFB74D" stroke-width="0.8"/>
+  <rect x="157" y="143" width="70" height="18" rx="2" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.8"/>
+  <!-- Screw -->
+  <line x1="192" y1="122" x2="192" y2="162" stroke="#607D8B" stroke-width="1.5"/>
+  <line x1="190" y1="127" x2="194" y2="129" stroke="#607D8B" stroke-width="0.8"/>
+  <line x1="190" y1="133" x2="194" y2="135" stroke="#607D8B" stroke-width="0.8"/>
+  <line x1="190" y1="139" x2="194" y2="141" stroke="#607D8B" stroke-width="0.8"/>
+  <line x1="190" y1="145" x2="194" y2="147" stroke="#607D8B" stroke-width="0.8"/>
+  <line x1="190" y1="151" x2="194" y2="153" stroke="#607D8B" stroke-width="0.8"/>
+  <line x1="190" y1="157" x2="194" y2="159" stroke="#607D8B" stroke-width="0.8"/>
+  <rect x="188" y="118" width="8" height="5" rx="1" fill="#607D8B"/>
+  <line x1="189" y1="120" x2="195" y2="120" stroke="#455A64" stroke-width="0.8"/>
+  <text x="192" y="178" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Надёжное крепление</text>
+
+  <!-- Joint type 3: Glue -->
+  <rect x="255" y="88" width="105" height="90" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.2"/>
+  <text x="307" y="104" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#5D4037" text-anchor="middle">Клей</text>
+  <!-- Two wood pieces -->
+  <rect x="272" y="125" width="70" height="18" rx="2" fill="#FFECB3" stroke="#FFB74D" stroke-width="0.8"/>
+  <rect x="272" y="143" width="70" height="18" rx="2" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.8"/>
+  <!-- Glue line -->
+  <rect x="272" y="141" width="70" height="4" rx="1" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.5"/>
+  <!-- Glue bottle -->
+  <rect x="300" y="110" width="14" height="12" rx="3" fill="#FDD835" stroke="#F9A825" stroke-width="0.8"/>
+  <rect x="305" y="105" width="4" height="7" rx="1" fill="#FDD835" stroke="#F9A825" stroke-width="0.5"/>
+  <text x="307" y="178" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Невидимый шов</text>
+
+  <!-- Joint type 4: Dowel -->
+  <rect x="370" y="88" width="105" height="90" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.2"/>
+  <text x="422" y="104" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#5D4037" text-anchor="middle">Нагель (шкан)</text>
+  <!-- Two wood pieces -->
+  <rect x="387" y="125" width="70" height="18" rx="2" fill="#FFECB3" stroke="#FFB74D" stroke-width="0.8"/>
+  <rect x="387" y="143" width="70" height="18" rx="2" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.8"/>
+  <!-- Dowel -->
+  <rect x="419" y="120" width="6" height="46" rx="3" fill="#BCAAA4" stroke="#8D6E63" stroke-width="0.8"/>
+  <text x="422" y="178" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Прочное соединение</text>
+
+  <!-- Assembled box -->
+  <rect x="25" y="188" width="220" height="110" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.2"/>
+  <text x="135" y="206" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#5D4037" text-anchor="middle">Собранное изделие</text>
+
+  <!-- 3D Box -->
+  <!-- Front face -->
+  <rect x="60" y="220" width="100" height="65" rx="2" fill="#FFECB3" stroke="#FFB74D" stroke-width="1.2"/>
+  <!-- Side face -->
+  <polygon points="160,220 190,205 190,270 160,285" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1.2"/>
+  <!-- Top face -->
+  <polygon points="60,220 90,205 190,205 160,220" fill="#FFF8E1" stroke="#FFB74D" stroke-width="1"/>
+  <!-- Edges highlighted -->
+  <line x1="160" y1="220" x2="160" y2="285" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <line x1="60" y1="220" x2="160" y2="220" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Joint indicators on box -->
+  <circle cx="75" cy="250" r="2.5" fill="#C62828" opacity="0.4"/>
+  <circle cx="145" cy="250" r="2.5" fill="#C62828" opacity="0.4"/>
+  <circle cx="75" cy="275" r="2.5" fill="#C62828" opacity="0.4"/>
+  <circle cx="145" cy="275" r="2.5" fill="#C62828" opacity="0.4"/>
+
+  <!-- Dovetail joint diagram -->
+  <rect x="260" y="188" width="215" height="110" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.2"/>
+  <text x="367" y="206" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#5D4037" text-anchor="middle">Шиповое соединение</text>
+
+  <!-- Dovetail diagram -->
+  <!-- Board A -->
+  <rect x="290" y="218" width="80" height="14" rx="1" fill="#FFECB3" stroke="#FFB74D" stroke-width="1"/>
+  <!-- Dovetail pins -->
+  <polygon points="305,232 300,248 310,248" fill="#FFECB3" stroke="#FFB74D" stroke-width="0.8"/>
+  <polygon points="325,232 318,248 332,248" fill="#FFECB3" stroke="#FFB74D" stroke-width="0.8"/>
+  <polygon points="345,232 338,248 352,248" fill="#FFECB3" stroke="#FFB74D" stroke-width="0.8"/>
+
+  <!-- Board B -->
+  <rect x="290" y="248" width="80" height="14" rx="1" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1"/>
+  <!-- Dovetail tails (cutouts shown as background) -->
+  <rect x="298" y="232" width="14" height="16" rx="0" fill="white" stroke="#8D6E63" stroke-width="0.6" stroke-dasharray="2,1"/>
+  <rect x="316" y="232" width="18" height="16" rx="0" fill="white" stroke="#8D6E63" stroke-width="0.6" stroke-dasharray="2,1"/>
+  <rect x="336" y="232" width="18" height="16" rx="0" fill="white" stroke="#8D6E63" stroke-width="0.6" stroke-dasharray="2,1"/>
+
+  <!-- Labels -->
+  <text x="367" y="280" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Шип в паз - классическое</text>
+  <text x="367" y="290" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">соединение без клея</text>
+
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Соединение деталей из древесины</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs><linearGradient id="gСказ" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#F3E5F5;stop-opacity:0.5"/><stop offset="100%" style="stop-color:#E1BEE7;stop-opacity:0.25"/>
+  </linearGradient></defs>
+  <rect width="800" height="500" fill="url(#gСказ)" rx="12"/>
+  <rect x="4" y="4" width="792" height="492" rx="10" fill="none" stroke="#7B1FA2" stroke-width="2.5" opacity="0.3"/>
+  <text x="400" y="50" font-family="Georgia,serif" font-size="32" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Сказки народов мира</text>
+  <line x1="80" y1="64" x2="720" y2="64" stroke="#7B1FA2" stroke-width="2" opacity="0.35"/>
+  
+  <!-- Castle big -->
+  <rect x="280" y="80" width="240" height="100" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2.5"/>
+  <polygon points="400,60 265,85 535,85" fill="#CE93D8" stroke="#7B1FA2" stroke-width="2"/>
+  <rect x="310" y="120" width="20" height="20" rx="10" fill="#E1BEE7" stroke="#9C27B0" stroke-width="1"/>
+  <rect x="390" y="120" width="20" height="20" rx="10" fill="#E1BEE7" stroke="#9C27B0" stroke-width="1"/>
+  <rect x="470" y="120" width="20" height="20" rx="10" fill="#E1BEE7" stroke="#9C27B0" stroke-width="1"/>
+  <rect x="265" y="70" width="18" height="110" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+  <polygon points="274,55 260,75 288,75" fill="#AB47BC"/>
+  <rect x="517" y="70" width="18" height="110" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+  <polygon points="526,55 512,75 540,75" fill="#AB47BC"/>
+  <!-- 3 big type cards -->
+  <rect x="30" y="220" width="230" height="80" rx="12" fill="#FFF3E0" stroke="#E65100" stroke-width="2.5"/>
+  <text x="145" y="252" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#BF360C" text-anchor="middle">Волшебные</text>
+  <text x="145" y="280" font-family="Georgia,serif" font-size="15" fill="#5D4037" text-anchor="middle">Царевна-лягушка, Сивка-бурка</text>
+  <rect x="285" y="220" width="230" height="80" rx="12" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="400" y="252" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#1B5E20" text-anchor="middle">Бытовые</text>
+  <text x="400" y="280" font-family="Georgia,serif" font-size="15" fill="#33691E" text-anchor="middle">Каша из топора, Морозко</text>
+  <rect x="540" y="220" width="230" height="80" rx="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="655" y="252" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#0D47A1" text-anchor="middle">О животных</text>
+  <text x="655" y="280" font-family="Georgia,serif" font-size="15" fill="#1A237E" text-anchor="middle">Лиса и волк, Теремок</text>
+  <!-- Bottom -->
+  <text x="400" y="350" font-family="Georgia,serif" font-size="18" fill="#7B1FA2" text-anchor="middle">Сказки всех народов: русские, французские, немецкие, арабские</text>
+  <text x="400" y="380" font-family="Georgia,serif" font-size="16" fill="#7B1FA2" text-anchor="middle" opacity="0.6">Золушка, Бременские музыканты, Тысяча и одна ночь</text>
+
+</svg>

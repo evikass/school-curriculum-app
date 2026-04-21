@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/><rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/><polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/><polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/><polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/><polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/><circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/><circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/><text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Государственные символы</text><text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Обществознание - Урок 8</text><line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/><rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/><rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<!-- Card: Флаг России -->
+<rect x="25" y="88" width="220" height="110" rx="6" fill="white" stroke="#C62828" stroke-width="2"/>
+<rect x="25" y="88" width="220" height="24" rx="6" fill="#C62828" opacity="0.12"/>
+<rect x="25" y="100" width="220" height="12" fill="#C62828" opacity="0.12"/>
+<text x="135" y="106" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#C62828" text-anchor="middle">Флаг Российской Федерации</text>
+<!-- Flag on pole -->
+<line x1="55" y1="122" x2="55" y2="180" stroke="#888" stroke-width="2"/>
+<circle cx="55" cy="122" r="2.5" fill="#F9A825" opacity="0.6"/>
+<rect x="58" y="122" width="85" height="20" fill="#FFF" stroke="#C62828" stroke-width="0.8"/>
+<rect x="58" y="142" width="85" height="20" fill="#1565C0"/>
+<rect x="58" y="162" width="85" height="20" fill="#C62828"/>
+<!-- Wave effect -->
+<path d="M58,122 Q80,126 100,122 Q120,118 143,122" fill="none" stroke="#C62828" stroke-width="0.5" opacity="0.5"/>
+<!-- Labels -->
+<rect x="160" y="125" width="10" height="10" fill="#FFF" stroke="#C62828" stroke-width="0.8"/>
+<text x="175" y="134" font-family="Arial,sans-serif" font-size="9" fill="#333">Белый - мир и чистота</text>
+<rect x="160" y="145" width="10" height="10" fill="#1565C0"/>
+<text x="175" y="154" font-family="Arial,sans-serif" font-size="9" fill="#333">Синий - верность и честность</text>
+<rect x="160" y="165" width="10" height="10" fill="#C62828"/>
+<text x="175" y="174" font-family="Arial,sans-serif" font-size="9" fill="#333">Красный - мужество</text>
+<text x="135" y="195" font-family="Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">Принят в 1993 году</text>
+<!-- Card: Герб и Гимн -->
+<rect x="255" y="88" width="220" height="110" rx="6" fill="white" stroke="#1565C0" stroke-width="2"/>
+<rect x="255" y="88" width="220" height="24" rx="6" fill="#1565C0" opacity="0.12"/>
+<rect x="255" y="100" width="220" height="12" fill="#1565C0" opacity="0.12"/>
+<text x="365" y="106" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Герб и Гимн России</text>
+<!-- Simplified shield/emblem -->
+<ellipse cx="310" cy="148" rx="22" ry="26" fill="#C62828" opacity="0.08" stroke="#C62828" stroke-width="1.2"/>
+<path d="M296,142 Q300,128 310,124 Q320,128 324,142" fill="#C62828" opacity="0.12" stroke="#C62828" stroke-width="0.8"/>
+<circle cx="306" cy="134" r="1.5" fill="#F9A825" opacity="0.5"/>
+<circle cx="314" cy="134" r="1.5" fill="#F9A825" opacity="0.5"/>
+<path d="M303,138 L303,146 Q310,150 317,146 L317,138" fill="#1565C0" opacity="0.1" stroke="#1565C0" stroke-width="0.6"/>
+<text x="310" y="180" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle">Герб РФ</text>
+<!-- Music notes for anthem -->
+<text x="380" y="135" font-family="Arial,sans-serif" font-size="22" fill="#C62828" opacity="0.3">&#9835;</text>
+<text x="400" y="145" font-family="Arial,sans-serif" font-size="16" fill="#1565C0" opacity="0.3">&#9834;</text>
+<text x="420" y="130" font-family="Arial,sans-serif" font-size="20" fill="#C62828" opacity="0.3">&#9833;</text>
+<text x="440" y="140" font-family="Arial,sans-serif" font-size="18" fill="#1565C0" opacity="0.3">&#9835;</text>
+<text x="410" y="165" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">Гимн РФ</text>
+<text x="365" y="192" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Гимн исполняется стоя</text>
+<!-- Card: Значение символов -->
+<rect x="25" y="206" width="225" height="90" rx="6" fill="white" stroke="#2E7D32" stroke-width="2"/>
+<rect x="25" y="206" width="225" height="24" rx="6" fill="#2E7D32" opacity="0.12"/>
+<rect x="25" y="218" width="225" height="12" fill="#2E7D32" opacity="0.12"/>
+<text x="138" y="224" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#2E7D32" text-anchor="middle">Значение символов</text>
+<text x="38" y="246" font-family="Arial,sans-serif" font-size="10" fill="#333">Символы объединяют народ</text>
+<text x="38" y="262" font-family="Arial,sans-serif" font-size="10" fill="#333">Показывают историю страны</text>
+<text x="38" y="278" font-family="Arial,sans-serif" font-size="10" fill="#333">Выражают ценности государства</text>
+<text x="38" y="292" font-family="Arial,sans-serif" font-size="10" fill="#333">Отношение к символам - уважение</text>
+<!-- Card: Уважение к символам -->
+<rect x="260" y="206" width="215" height="90" rx="6" fill="white" stroke="#F9A825" stroke-width="2"/>
+<rect x="260" y="206" width="215" height="24" rx="6" fill="#F9A825" opacity="0.12"/>
+<rect x="260" y="218" width="215" height="12" fill="#F9A825" opacity="0.12"/>
+<text x="368" y="224" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100" text-anchor="middle">Уважение к символам</text>
+<!-- Shield icon -->
+<path d="M285,248 L285,268 Q295,278 305,268 L305,248" fill="#F9A825" opacity="0.12" stroke="#F9A825" stroke-width="1.2"/>
+<text x="295" y="263" font-family="Arial,sans-serif" font-size="10" fill="#F9A825" text-anchor="middle">&#10003;</text>
+<text x="318" y="248" font-family="Arial,sans-serif" font-size="10" fill="#333">Стоять при гимне</text>
+<text x="318" y="264" font-family="Arial,sans-serif" font-size="10" fill="#333">Не портить флаг</text>
+<text x="318" y="280" font-family="Arial,sans-serif" font-size="10" fill="#333">Знать слова гимна</text>
+<text x="283" y="292" font-family="Arial,sans-serif" font-size="10" fill="#333">Патриотизм - любовь к Родине</text>
+<rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/><text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Государственные символы</text></svg>

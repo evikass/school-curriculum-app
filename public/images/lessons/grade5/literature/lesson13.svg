@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs><linearGradient id="gЛерм" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#F3E5F5;stop-opacity:0.5"/><stop offset="100%" style="stop-color:#E1BEE7;stop-opacity:0.25"/>
+  </linearGradient></defs>
+  <rect width="800" height="500" fill="url(#gЛерм)" rx="12"/>
+  <rect x="4" y="4" width="792" height="492" rx="10" fill="none" stroke="#7B1FA2" stroke-width="2.5" opacity="0.3"/>
+  <text x="400" y="50" font-family="Georgia,serif" font-size="32" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Лермонтов - Бородино</text>
+  <line x1="80" y1="64" x2="720" y2="64" stroke="#7B1FA2" stroke-width="2" opacity="0.35"/>
+  
+  <!-- Battlefield big -->
+  <rect x="50" y="120" width="700" height="120" fill="#E8F5E9" opacity="0.3" rx="8"/>
+  <!-- Cannons -->
+  <rect x="120" y="170" width="50" height="18" rx="3" fill="#5D4037"/>
+  <circle cx="170" cy="179" r="8" fill="#3E2723"/>
+  <rect x="620" y="170" width="50" height="18" rx="3" fill="#5D4037"/>
+  <circle cx="620" cy="179" r="8" fill="#3E2723"/>
+  <!-- Smoke -->
+  <circle cx="178" cy="158" r="16" fill="#BDBDBD" opacity="0.3"/>
+  <circle cx="190" cy="148" r="12" fill="#BDBDBD" opacity="0.2"/>
+  <circle cx="612" cy="158" r="16" fill="#BDBDBD" opacity="0.3"/>
+  <circle cx="600" cy="148" r="12" fill="#BDBDBD" opacity="0.2"/>
+  <!-- Flags big -->
+  <line x1="300" y1="85" x2="300" y2="140" stroke="#5D4037" stroke-width="3"/>
+  <rect x="300" y="85" width="40" height="28" fill="#C62828" opacity="0.7"/>
+  <line x1="500" y1="85" x2="500" y2="140" stroke="#5D4037" stroke-width="3"/>
+  <rect x="500" y="85" width="40" height="28" fill="#1565C0" opacity="0.7"/>
+  <!-- Soldiers dots -->
+  <circle cx="230" cy="195" r="6" fill="#455A64"/>
+  <circle cx="255" cy="195" r="6" fill="#455A64"/>
+  <circle cx="280" cy="195" r="6" fill="#455A64"/>
+  <circle cx="520" cy="195" r="6" fill="#455A64"/>
+  <circle cx="545" cy="195" r="6" fill="#455A64"/>
+  <circle cx="570" cy="195" r="6" fill="#455A64"/>
+  <!-- Quote -->
+  <rect x="100" y="280" width="600" height="65" rx="12" fill="#F3E5F5" stroke="#CE93D8" stroke-width="2"/>
+  <text x="400" y="310" font-family="Georgia,serif" font-size="20" fill="#6A1B9A" text-anchor="middle" font-style="italic">"Умрём же под Москвой,</text>
+  <text x="400" y="335" font-family="Georgia,serif" font-size="20" fill="#6A1B9A" text-anchor="middle" font-style="italic">как наши братья умирали!"</text>
+  <text x="400" y="390" font-family="Georgia,serif" font-size="20" fill="#7B1FA2" text-anchor="middle" font-weight="bold">М.Ю. Лермонтов - Бородино (1837)</text>
+  <text x="400" y="420" font-family="Georgia,serif" font-size="16" fill="#7B1FA2" text-anchor="middle" opacity="0.7">Бородинское сражение 1812 года</text>
+
+</svg>

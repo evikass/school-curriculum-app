@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="lit15" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8DAEF;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#D7BDE2;stop-opacity:0.4"/>
+    </linearGradient>
+    <linearGradient id="feather" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5DADE2"/>
+      <stop offset="50%" style="stop-color:#A569BD"/>
+      <stop offset="100%" style="stop-color:#E74C3C"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#lit15)"/>
+  <rect width="500" height="350" fill="#F5EEF8" opacity="0.3"/>
+  
+  <!-- Floating musical notes -->
+  <text x="50" y="80" font-size="20" fill="#9B59B6" opacity="0.6">
+    ♪
+    <animate attributeName="y" values="80;70;80" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <text x="450" y="100" font-size="18" fill="#8E44AD" opacity="0.6">
+    ♫
+    <animate attributeName="y" values="100;90;100" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+  <text x="100" y="150" font-size="16" fill="#7D3C98" opacity="0.5">
+    ♪
+    <animate attributeName="y" values="150;140;150" dur="1.8s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#6C3483" text-anchor="middle">📝 Поэзия для детей</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#9B59B6" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="270" ry="50" fill="#D5DBDB" opacity="0.5"/>
+  
+  <!-- Open book -->
+  <g transform="translate(150, 70)">
+    <!-- Left page -->
+    <path d="M100,0 L0,10 L0,100 L100,90 Z" fill="#FDFEFE" stroke="#7B7D7D" stroke-width="1"/>
+    <!-- Right page -->
+    <path d="M100,0 L200,10 L200,100 L100,90 Z" fill="#FDFEFE" stroke="#7B7D7D" stroke-width="1"/>
+    <!-- Spine -->
+    <line x1="100" y1="0" x2="100" y2="90" stroke="#5D6D7E" stroke-width="2"/>
+    
+    <!-- Poem lines on left page -->
+    <text x="30" y="30" font-size="8" fill="#2C3E50">У лукоморья дуб</text>
+    <text x="30" y="42" font-size="8" fill="#2C3E50">зелёный;</text>
+    <text x="30" y="54" font-size="8" fill="#2C3E50">Златая цепь на дубе</text>
+    <text x="30" y="66" font-size="8" fill="#2C3E50">том...</text>
+    
+    <!-- Poem lines on right page -->
+    <text x="115" y="30" font-size="8" fill="#2C3E50">И днём и ночью</text>
+    <text x="115" y="42" font-size="8" fill="#2C3E50">кот учёный</text>
+    <text x="115" y="54" font-size="8" fill="#2C3E50">Всё ходит по цепи</text>
+    <text x="115" y="66" font-size="8" fill="#2C3E50">кругом...</text>
+  </g>
+  
+  <!-- Quill pen -->
+  <g transform="translate(380, 90)">
+    <path d="M0,0 Q20,-10 40,5 L30,15 Q15,5 0,0" fill="url(#feather)">
+      <animateTransform attributeName="transform" type="rotate" values="-5 0 0;5 0 0;-5 0 0" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <rect x="35" y="0" width="25" height="4" fill="#5D4037" transform="rotate(-20 35 0)"/>
+    <polygon points="55,2 65,5 58,8" fill="#2C3E50" transform="rotate(-20 35 0)"/>
+  </g>
+  
+  <!-- Inkwell -->
+  <g transform="translate(420, 130)">
+    <ellipse cx="15" cy="20" rx="20" ry="10" fill="#2C3E50"/>
+    <rect x="0" y="5" width="30" height="15" fill="#34495E"/>
+    <ellipse cx="15" cy="5" rx="15" ry="6" fill="#1A5276"/>
+  </g>
+  
+  <!-- Poet portraits -->
+  <g transform="translate(30, 90)">
+    <!-- Pushkin -->
+    <circle cx="25" cy="30" r="22" fill="#F5CBA7" stroke="#D4AC0D" stroke-width="2">
+      <animate attributeName="r" values="22;24;22" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <ellipse cx="25" cy="25" rx="10" ry="8" fill="#FDEBD0"/>
+    <circle cx="22" cy="23" r="2" fill="#2C3E50"/>
+    <circle cx="28" cy="23" r="2" fill="#2C3E50"/>
+    <path d="M20,30 Q25,34 30,30" fill="none" stroke="#873600" stroke-width="1"/>
+    <text x="25" y="65" font-size="8" fill="#6C3483" text-anchor="middle">Пушкин</text>
+  </g>
+  
+  <g transform="translate(420, 180)">
+    <!-- Chukovsky -->
+    <circle cx="25" cy="30" r="22" fill="#F5CBA7" stroke="#27AE60" stroke-width="2">
+      <animate attributeName="r" values="22;24;22" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <ellipse cx="25" cy="25" rx="10" ry="8" fill="#FDEBD0"/>
+    <circle cx="22" cy="23" r="2" fill="#2C3E50"/>
+    <circle cx="28" cy="23" r="2" fill="#2C3E50"/>
+    <path d="M20,30 Q25,34 30,30" fill="none" stroke="#873600" stroke-width="1"/>
+    <text x="25" y="65" font-size="8" fill="#6C3483" text-anchor="middle">Чуковский</text>
+  </g>
+  
+  <!-- Cat (from Lukomorye) -->
+  <g transform="translate(100, 170)">
+    <ellipse cx="30" cy="30" rx="25" ry="20" fill="#7D3C98">
+      <animate attributeName="cy" values="30;28;30" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="20" cy="15" r="12" fill="#7D3C98"/>
+    <polygon points="12,5 18,15 8,12" fill="#7D3C98"/>
+    <polygon points="28,5 34,15 24,12" fill="#7D3C98"/>
+    <circle cx="16" cy="12" r="3" fill="#F4D03F"/>
+    <circle cx="24" cy="12" r="3" fill="#F4D03F"/>
+    <circle cx="16" cy="12" r="1.5" fill="#2C3E50"/>
+    <circle cx="24" cy="12" r="1.5" fill="#2C3E50"/>
+    <ellipse cx="20" cy="18" rx="2" ry="1" fill="#E91E63"/>
+  </g>
+  
+  <!-- Info -->
+  <g transform="translate(30, 240)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="440" height="70" fill="#EBDEF0" rx="8" stroke="#9B59B6"/>
+    <text x="220" y="20" font-size="12" font-weight="bold" fill="#6C3483" text-anchor="middle">Детские поэты</text>
+    <text x="220" y="38" font-size="10" fill="#7D3C98" text-anchor="middle">А.С. Пушкин • К.И. Чуковский • С.Я. Маршак • А.Л. Барто</text>
+    <text x="220" y="53" font-size="10" fill="#9B59B6" text-anchor="middle">Б.В. Заходер • С.В. Михалков</text>
+    <text x="220" y="65" font-size="9" fill="#AF7AC5" text-anchor="middle">Стихи радуют и учат!</text>
+  </g>
+</svg>

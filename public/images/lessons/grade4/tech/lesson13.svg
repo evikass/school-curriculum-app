@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <!-- Thin gold line under accent -->
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Пластилин</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Пластичные материалы</text>
+  <!-- Illustration area -->
+  <circle cx="160" cy="170" r="25" fill="#C41E3A" stroke="#8B0000" stroke-width="1.5"/><circle cx="220" cy="170" r="25" fill="#D4A843" stroke="#8B6914" stroke-width="1.5"/><circle cx="280" cy="170" r="25" fill="#2B4C7E" stroke="#1a3a5e" stroke-width="1.5"/><circle cx="340" cy="170" r="25" fill="#228B22" stroke="#1a6b1a" stroke-width="1.5"/><rect x="165" y="210" width="50" height="25" rx="5" fill="#FF6600" stroke="#cc4400" stroke-width="1.5"/><circle cx="280" cy="225" r="18" fill="#FF69B4" stroke="#cc4090" stroke-width="1.5"/><polygon points="200,250 215,215 185,215" fill="#8B00FF" stroke="#5a00aa" stroke-width="1.5"/><text x="250" y="275" text-anchor="middle" font-size="11" fill="#1a1a1a" font-weight="bold" font-family="Arial">Смешивай цвета!</text><text x="250" y="295" text-anchor="middle" font-size="10" fill="#C41E3A" font-family="Arial">Красный + Жёлтый = Оранжевый</text>
+  <!-- Bottom dark bar -->
+  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
+  <!-- Gold line above bottom bar -->
+  <rect y="313" width="500" height="2" fill="#D4A843"/>
+  <!-- Subject name -->
+  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Технология</text>
+</svg>

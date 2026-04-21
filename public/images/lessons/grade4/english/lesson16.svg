@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="6" fill="#C41E3A"/>
+  <!-- Gold line under red bar -->
+  <rect y="6" width="500" height="2" fill="#D4A843" opacity="0.6"/>
+
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Урок 16:  Будни и выходные</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#2B4C7E" text-anchor="middle">Weekdays</text>
+
+  
+  <!-- Timeline line -->
+  <line x1="40" y1="210" x2="460" y2="210" stroke="#D4A843" stroke-width="3"/>
+  <!-- Arrow -->
+  <polygon points="460,210 450,204 450,216" fill="#D4A843"/>
+  <!-- Event circles on timeline -->
+  <!-- Get up -->
+  <circle cx="70" cy="210" r="14" fill="#C41E3A"/>
+  <text x="70" y="214" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">7</text>
+  <text x="70" y="185" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">get up</text>
+  <rect x="45" y="225" width="50" height="16" rx="3" fill="#2B4C7E" opacity="0.2"/>
+  <text x="70" y="236" font-family="Arial" font-size="7" fill="#2B4C7E" text-anchor="middle">o'clock</text>
+  <!-- Breakfast -->
+  <circle cx="145" cy="210" r="14" fill="#2B4C7E"/>
+  <text x="145" y="214" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">8</text>
+  <text x="145" y="185" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">breakfast</text>
+  <!-- School -->
+  <circle cx="225" cy="210" r="14" fill="#D4A843"/>
+  <text x="225" y="214" font-family="Arial" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold">9</text>
+  <text x="225" y="185" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">school</text>
+  <rect x="195" y="225" width="60" height="16" rx="3" fill="#C41E3A" opacity="0.15"/>
+  <text x="225" y="236" font-family="Arial" font-size="7" fill="#C41E3A" text-anchor="middle">go to school</text>
+  <!-- Lunch -->
+  <circle cx="315" cy="210" r="14" fill="#2B4C7E"/>
+  <text x="315" y="214" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">13</text>
+  <text x="315" y="185" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">lunch</text>
+  <!-- Homework -->
+  <circle cx="395" cy="210" r="14" fill="#C41E3A"/>
+  <text x="395" y="214" font-family="Arial" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold">16</text>
+  <text x="395" y="185" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">homework</text>
+  <!-- Bed -->
+  <circle cx="450" cy="210" r="14" fill="#1a1a1a" opacity="0.4"/>
+  <text x="450" y="214" font-family="Arial" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold">21</text>
+  <text x="450" y="185" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">bed</text>
+  <!-- Weekday labels top -->
+  <text x="250" y="105" font-family="Arial" font-size="13" fill="#C41E3A" text-anchor="middle" font-weight="bold">Monday - Friday: WEEKDAYS</text>
+  <text x="250" y="130" font-family="Arial" font-size="13" fill="#2B4C7E" text-anchor="middle" font-weight="bold">Saturday - Sunday: WEEKEND</text>
+  <!-- Small decorative clocks -->
+  <circle cx="110" cy="275" r="20" fill="#FFFFFF" stroke="#C41E3A" stroke-width="1.5"/>
+  <line x1="110" y1="275" x2="110" y2="260" stroke="#C41E3A" stroke-width="1.5"/>
+  <line x1="110" y1="275" x2="120" y2="275" stroke="#C41E3A" stroke-width="1"/>
+  <text x="110" y="305" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle">morning</text>
+  <circle cx="250" cy="275" r="20" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="1.5"/>
+  <line x1="250" y1="275" x2="250" y2="260" stroke="#2B4C7E" stroke-width="1.5"/>
+  <line x1="250" y1="275" x2="262" y2="280" stroke="#2B4C7E" stroke-width="1"/>
+  <text x="250" y="305" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle">afternoon</text>
+  <circle cx="390" cy="275" r="20" fill="#FFFFFF" stroke="#D4A843" stroke-width="1.5"/>
+  <line x1="390" y1="275" x2="380" y2="260" stroke="#D4A843" stroke-width="1.5"/>
+  <line x1="390" y1="275" x2="390" y2="258" stroke="#D4A843" stroke-width="1"/>
+  <text x="390" y="305" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle">evening</text>
+
+  <!-- Bottom dark bar -->
+  <rect y="318" width="500" height="32" fill="#1a1a1a"/>
+  <rect y="318" width="500" height="2" fill="#D4A843" opacity="0.5"/>
+  <text x="250" y="339" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#F5E6C8" text-anchor="middle" letter-spacing="1">Иностранный язык — 4 класс</text>
+</svg>

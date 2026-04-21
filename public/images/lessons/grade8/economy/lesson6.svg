@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B71C1C"/>
+      <stop offset="100%" stop-color="#C62828"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corner accents -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
+  <!-- Title -->
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#2E7D32" text-anchor="middle">Предпринимательство</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экономика - Урок 6</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#2E7D32" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#2E7D32" opacity="0.18" rx="1"/>
+  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
+  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+  <rect x="15" y="85" width="470" height="215" fill="#FFF8E1"/><g transform="translate(200,180) scale(1.5)"><circle cx="0" cy="0" r="15" fill="#F57F17" opacity="0.8"/><circle cx="0" cy="0" r="6" fill="white"/><rect x="8.0" y="-4.0" width="8" height="8" fill="#F57F17" transform="rotate(0,12.0,0.0)"/><rect x="6.392304845413264" y="1.9999999999999991" width="8" height="8" fill="#F57F17" transform="rotate(30,10.392304845413264,5.999999999999999)"/><rect x="2.0000000000000018" y="6.392304845413264" width="8" height="8" fill="#F57F17" transform="rotate(60,6.000000000000002,10.392304845413264)"/><rect x="-3.999999999999999" y="8.0" width="8" height="8" fill="#F57F17" transform="rotate(90,7.347880794884119e-16,12.0)"/><rect x="-9.999999999999996" y="6.392304845413264" width="8" height="8" fill="#F57F17" transform="rotate(120,-5.999999999999997,10.392304845413264)"/><rect x="-14.392304845413264" y="1.9999999999999991" width="8" height="8" fill="#F57F17" transform="rotate(150,-10.392304845413264,5.999999999999999)"/><rect x="-16.0" y="-3.9999999999999987" width="8" height="8" fill="#F57F17" transform="rotate(180,-12.0,1.4695761589768238e-15)"/><rect x="-14.392304845413264" y="-10.000000000000002" width="8" height="8" fill="#F57F17" transform="rotate(210,-10.392304845413264,-6.000000000000002)"/><rect x="-10.000000000000005" y="-14.39230484541326" width="8" height="8" fill="#F57F17" transform="rotate(240,-6.000000000000005,-10.39230484541326)"/><rect x="-4.000000000000002" y="-16.0" width="8" height="8" fill="#F57F17" transform="rotate(270,-2.204364238465236e-15,-12.0)"/><rect x="2.0000000000000018" y="-14.392304845413264" width="8" height="8" fill="#F57F17" transform="rotate(300,6.000000000000002,-10.392304845413264)"/><rect x="6.3923048454132605" y="-10.000000000000005" width="8" height="8" fill="#F57F17" transform="rotate(330,10.39230484541326,-6.000000000000005)"/></g><g transform="translate(320,160) scale(1.0)">
+      <circle cx="0" cy="-5" r="22" fill="#FDD835" opacity="0.15"/>
+      <path d="M-10,5 Q-18,-5 -15,-15 Q-12,-25 0,-28 Q12,-25 15,-15 Q18,-5 10,5Z" fill="#FDD835" opacity="0.7" stroke="#F9A825" stroke-width="1.5"/>
+      <rect x="-8" y="5" width="16" height="8" rx="2" fill="#9E9E9E"/>
+      <line x1="-6" y1="8" x2="6" y2="8" stroke="#757575" stroke-width="1"/>
+      <line x1="-6" y1="11" x2="6" y2="11" stroke="#757575" stroke-width="1"/>
+      <path d="M-3,13 L3,13 L2,18 L-2,18Z" fill="#9E9E9E"/>
+    </g><g transform="translate(130,200) scale(0.6)"><ellipse cx="0" cy="-15" rx="18" ry="5" fill="#F9A825" stroke="#F57F17" stroke-width="1"/><ellipse cx="0" cy="-9" rx="18" ry="5" fill="#FFB300" stroke="#F57F17" stroke-width="1"/><ellipse cx="0" cy="-3" rx="18" ry="5" fill="#FFC107" stroke="#F57F17" stroke-width="1"/><ellipse cx="0" cy="3" rx="18" ry="5" fill="#FFD54F" stroke="#F57F17" stroke-width="1"/><text x="0" y="-10" font-family="Arial" font-size="14" fill="#F57F17" text-anchor="middle" font-weight="bold">$</text></g><text x="250" y="260" font-family="Arial,sans-serif" font-size="12" fill="#F57F17" text-anchor="middle" font-weight="bold">Бизнес и предпринимательство</text>
+  </g>
+  <!-- Bottom panel -->
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Экономика</text>
+</svg>

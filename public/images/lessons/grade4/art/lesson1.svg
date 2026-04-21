@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <text x="250" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Жанры живописи</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#D4A843">Основные жанры изобразительного искусства</text>
+  <line x1="50" y1="82" x2="450" y2="82" stroke="#D4A843" stroke-width="0.5"/>
+  
+  <!-- Landscape frame -->
+  <rect x="75" y="110" width="70" height="75" rx="2" stroke="#1a1a1a" stroke-width="1.5" fill="#FFFFFF" opacity="0.5"/>
+  
+      <polygon points="95,175 110,140 125,175" fill="#2B4C7E" opacity="0.4"/>
+      <polygon points="110,175 130,135 150,175" fill="#2B4C7E" opacity="0.3"/>
+      <circle cx="140" cy="125" r="8" fill="#D4A843" opacity="0.5"/>
+      <rect x="95" y="175" width="60" height="15" fill="#D4A843" opacity="0.2"/>
+  <text x="110" y="200" text-anchor="middle" font-family="Arial" font-size="8" fill="#1a1a1a">Peyzazh</text>
+  <!-- Portrait frame -->
+  <rect x="175" y="110" width="70" height="75" rx="2" stroke="#1a1a1a" stroke-width="1.5" fill="#FFFFFF" opacity="0.5"/>
+  
+      <circle cx="210" cy="140" r="15" fill="#1a1a1a" opacity="0.4"/>
+      <path d="M195,175 Q210,160 225,175" fill="#1a1a1a" opacity="0.3"/>
+  <text x="210" y="200" text-anchor="middle" font-family="Arial" font-size="8" fill="#1a1a1a">Portret</text>
+  <!-- Still Life frame -->
+  <rect x="275" y="110" width="70" height="75" rx="2" stroke="#1a1a1a" stroke-width="1.5" fill="#FFFFFF" opacity="0.5"/>
+  
+      <ellipse cx="310" cy="172" rx="18" ry="5" fill="#D4A843" opacity="0.3"/>
+      <circle cx="305" cy="155" r="10" fill="#C41E3A" opacity="0.5"/>
+      <circle cx="318" cy="150" r="8" fill="#D4A843" opacity="0.5"/>
+  <text x="310" y="200" text-anchor="middle" font-family="Arial" font-size="8" fill="#1a1a1a">Natyurmort</text>
+  <!-- Animal frame -->
+  <rect x="370" y="110" width="70" height="75" rx="2" stroke="#1a1a1a" stroke-width="1.5" fill="#FFFFFF" opacity="0.5"/>
+  
+      <ellipse cx="405" cy="155" rx="18" ry="12" fill="#D4A843" opacity="0.5"/>
+      <circle cx="392" cy="148" r="7" fill="#D4A843" opacity="0.5"/>
+      <line x1="387" y1="145" x2="383" y2="138" stroke="#D4A843" stroke-width="1.5"/>
+      <line x1="390" y1="144" x2="388" y2="136" stroke="#D4A843" stroke-width="1.5"/>
+  <text x="405" y="200" text-anchor="middle" font-family="Arial" font-size="8" fill="#1a1a1a">Animalistika</text>
+  <rect x="65" y="95" width="370" height="120" rx="4" stroke="#D4A843" stroke-width="2" fill="none"/>
+  <!-- palette below -->
+  <ellipse cx="250" cy="255" rx="50" ry="35" fill="#D4A843" opacity="0.3" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="230" cy="245" r="6" fill="#C41E3A"/>
+  <circle cx="250" cy="240" r="6" fill="#2B4C7E"/>
+  <circle cx="270" cy="245" r="6" fill="#D4A843"/>
+  <circle cx="240" cy="260" r="5" fill="#2E7D32" opacity="0.7"/>
+  <circle cx="260" cy="260" r="5" fill="#1a1a1a"/>
+  <rect y="310" width="500" height="40" fill="#1a1a1a"/>
+  <rect y="308" width="500" height="2" fill="#C41E3A"/>
+  <text x="250" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#D4A843">Изобразительное искусство</text>
+</svg>

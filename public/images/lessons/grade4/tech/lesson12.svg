@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <!-- Thin gold line under accent -->
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Архитектурные модели</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Моделирование</text>
+  <!-- Illustration area -->
+  <rect x="180" y="180" width="140" height="95" fill="#d4c8a8" stroke="#999" stroke-width="2"/><polygon points="250,105 170,180 330,180" fill="#8B4513" stroke="#666" stroke-width="2"/><rect x="175" y="175" width="150" height="10" rx="2" fill="#a89878"/><rect x="195" y="185" width="12" height="85" fill="#a89878" stroke="#888" stroke-width="1"/><rect x="225" y="185" width="12" height="85" fill="#a89878" stroke="#888" stroke-width="1"/><rect x="255" y="185" width="12" height="85" fill="#a89878" stroke="#888" stroke-width="1"/><rect x="285" y="185" width="12" height="85" fill="#a89878" stroke="#888" stroke-width="1"/><rect x="190" y="180" width="120" height="10" rx="2" fill="#a89878"/><rect x="190" y="265" width="120" height="10" rx="2" fill="#a89878"/><rect x="230" y="230" width="40" height="45" rx="2" fill="#5a3a1a" stroke="#333" stroke-width="1"/><circle cx="275" cy="250" r="15" fill="#87CEEB" opacity="0.5" stroke="#5a8ab5" stroke-width="1"/><circle cx="185" cy="250" r="15" fill="#87CEEB" opacity="0.5" stroke="#5a8ab5" stroke-width="1"/><text x="250" y="300" text-anchor="middle" font-size="10" fill="#1a1a1a" font-family="Arial">Фундамент + Стены + Крыша</text>
+  <!-- Bottom dark bar -->
+  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
+  <!-- Gold line above bottom bar -->
+  <rect y="313" width="500" height="2" fill="#D4A843"/>
+  <!-- Subject name -->
+  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Технология</text>
+</svg>

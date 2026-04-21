@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B71C1C"/>
+      <stop offset="100%" stop-color="#C62828"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corner accents -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
+  <!-- Title -->
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">ЧС техногенного характера</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ОБЖ - Урок 5</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#C62828" opacity="0.18" rx="1"/>
+  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
+  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+  <rect x="15" y="85" width="470" height="215" fill="#FFF8E1"/><rect x="150" y="150" width="200" height="100" rx="5" fill="#78909C" stroke="#455A64" stroke-width="2"/><text x="250" y="185" font-family="Arial" font-size="11" fill="white" text-anchor="middle">ЗАВОД</text><circle cx="310" cy="140" r="15" fill="#78909C" stroke="#455A64" stroke-width="1.5"/><line x1="310" y1="125" x2="310" y2="115" stroke="#455A64" stroke-width="2"/><g transform="translate(200,130) scale(0.8)">
+      <path d="M0,-25 Q-15,-10 -12,5 Q-10,15 0,20 Q10,15 12,5 Q15,-10 0,-25Z" fill="#F57F17"/>
+      <path d="M0,-15 Q-8,-5 -6,5 Q-4,12 0,15 Q4,12 6,5 Q8,-5 0,-15Z" fill="#FDD835"/>
+      <path d="M0,-5 Q-3,2 -2,8 Q0,12 2,8 Q3,2 0,-5Z" fill="#FFF9C4"/>
+    </g><text x="250" y="280" font-family="Arial,sans-serif" font-size="12" fill="#455A64" text-anchor="middle" font-weight="bold">Аварии и катастрофы</text>
+  </g>
+  <!-- Bottom panel -->
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ОБЖ</text>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus geometric corner accents -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles top -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Композиционный центр</text>
+  <text x="250" y="66" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ИЗО - Урок 4</text>
+  <line x1="30" y1="76" x2="470" y2="76" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <!-- Bauhaus stripe accent -->
+  <rect x="30" y="73" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="73" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Composition center demo -->
+  <rect x="35" y="92" width="300" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5" opacity="0.9"/>
+  <!-- Simulated painting frame -->
+  <rect x="55" y="102" width="260" height="140" rx="2" fill="#FAFAFA" stroke="#BDBDBD" stroke-width="1"/>
+  <!-- Background - abstract landscape -->
+  <rect x="55" y="102" width="260" height="80" fill="#E3F2FD"/>
+  <rect x="55" y="182" width="260" height="60" fill="#C8E6C9"/>
+  <!-- Sun -->
+  <circle cx="280" cy="120" r="15" fill="#FDD835" opacity="0.6"/>
+  <!-- MAIN CENTER - highlighted -->
+  <circle cx="185" cy="155" r="40" fill="none" stroke="#E53935" stroke-width="2" stroke-dasharray="4,3" opacity="0.8"/>
+  <!-- Central figure silhouette -->
+  <ellipse cx="185" cy="175" rx="14" ry="22" fill="#5D4037" opacity="0.7"/>
+  <circle cx="185" cy="148" r="10" fill="#5D4037" opacity="0.7"/>
+  <!-- Arrow pointing to center -->
+  <line x1="120" y1="130" x2="150" y2="145" stroke="#E53935" stroke-width="1.5"/>
+  <polygon points="150,145 143,141 146,148" fill="#E53935"/>
+  <text x="110" y="128" font-family="Arial,sans-serif" font-size="7" fill="#E53935" text-anchor="end">ЦЕНТР</text>
+  <!-- Secondary elements -->
+  <ellipse cx="100" cy="195" rx="20" ry="6" fill="#66BB6A" opacity="0.5"/>
+  <ellipse cx="250" cy="200" rx="25" ry="8" fill="#66BB6A" opacity="0.4"/>
+  <!-- Lines converging to center -->
+  <line x1="70" y1="120" x2="155" y2="150" stroke="#BDBDBD" stroke-width="0.5" opacity="0.5"/>
+  <line x1="300" y1="130" x2="215" y2="150" stroke="#BDBDBD" stroke-width="0.5" opacity="0.5"/>
+  <line x1="70" y1="200" x2="160" y2="170" stroke="#BDBDBD" stroke-width="0.5" opacity="0.5"/>
+  <line x1="300" y1="210" x2="210" y2="170" stroke="#BDBDBD" stroke-width="0.5" opacity="0.5"/>
+  <text x="185" y="250" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Линии направляют взгляд к центру</text>
+  <text x="185" y="262" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">композиции</text>
+  <text x="185" y="278" font-family="Arial,sans-serif" font-size="10" fill="#C62828" font-weight="bold" text-anchor="middle">КОМПОЗИЦИОННЫЙ ЦЕНТР</text>
+  <rect x="120" y="283" width="130" height="2" rx="1" fill="#C62828" opacity="0.2"/>
+
+  <!-- Methods panel -->
+  <rect x="350" y="92" width="115" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <!-- Method 1: Size -->
+  <circle cx="407" cy="115" r="14" fill="#FDD835" opacity="0.4"/>
+  <circle cx="407" cy="115" r="7" fill="#FDD835" opacity="0.8"/>
+  <text x="407" y="140" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">РАЗМЕР</text>
+  <!-- Method 2: Contrast -->
+  <rect x="385" y="150" width="12" height="12" rx="2" fill="#BDBDBD"/>
+  <rect x="401" y="150" width="12" height="12" rx="2" fill="#E53935"/>
+  <text x="407" y="175" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">КОНТРАСТ</text>
+  <!-- Method 3: Position -->
+  <rect x="380" y="183" width="54" height="20" rx="2" fill="none" stroke="#BDBDBD" stroke-width="0.5"/>
+  <line x1="407" y1="183" x2="407" y2="203" stroke="#BDBDBD" stroke-width="0.5"/>
+  <line x1="380" y1="193" x2="434" y2="193" stroke="#BDBDBD" stroke-width="0.5"/>
+  <circle cx="407" cy="193" r="4" fill="#1565C0" opacity="0.6"/>
+  <text x="407" y="215" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">ПОЛОЖЕНИЕ</text>
+  <!-- Method 4: Detail -->
+  <rect x="385" y="223" width="20" height="20" rx="2" fill="#E8E8E8"/>
+  <rect x="389" y="227" width="3" height="3" fill="#888"/>
+  <rect x="395" y="230" width="3" height="3" fill="#888"/>
+  <rect x="391" y="234" width="3" height="3" fill="#888"/>
+  <rect x="397" y="237" width="3" height="3" fill="#888"/>
+  <rect x="410" y="223" width="20" height="20" rx="2" fill="#E8E8E8"/>
+  <rect x="413" y="226" width="14" height="14" rx="1" fill="#888"/>
+  <text x="407" y="255" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">ДЕТАЛИЗАЦИЯ</text>
+  <!-- Method 5: Lines -->
+  <path d="M385,268 L400,275 L420,265 L430,275" stroke="#C62828" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <circle cx="420" cy="265" r="3" fill="#E53935"/>
+  <text x="407" y="286" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">НАПРАВЛЕНИЕ</text>
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Композиционный центр</text>
+</svg>
