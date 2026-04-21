@@ -14,7 +14,7 @@
     "lessons": [
      {
       "title": "Урок 1: Введение в Python",
-      "image": "/school-curriculum-app/images/lessons/grade8/coding/lesson1.svg",
+      "image": "/images/lessons/grade8/coding/lesson1.svg",
       "description": "**Python** — это высокоуровневый язык программирования, созданный Гвидо ван Россумом в 1991 году.\n\n**Почему Python?**\n- Простой и читаемый синтаксис\n- Много готовых библиотек\n- Популярность в науке о данных, веб-разработке и ИИ\n- Кроссплатформенность\n\n**Установка Python:**\n1. Скачайте с python.org\n2. Установите, отметив \"Add Python to PATH\"\n3. Проверьте: откройте терминал и введите `python --version`\n\n**Первая программа:**\n```python\nprint(\"Привет, мир!\")\n```\n\n**Функция print()** выводит текст на экран. Текст всегда в кавычках.\n\n**Комментарии** — это пояснения в коде, которые Python игнорирует:\n```python\n# Это комментарий\nprint(\"Привет\")  # Тоже комментарий\n```\n\n**PEP 8** — стиль оформления кода Python:\n- Отступы: 4 пробела\n- Имена переменных: snake_case\n- Пробелы вокруг операторов",
       "tasks": [
        "Установите Python и проверьте версию",
@@ -35,7 +35,7 @@
      },
      {
       "title": "Урок 2: Переменные и типы данных",
-      "image": "/school-curriculum-app/images/lessons/grade8/coding/lesson2.svg",
+      "image": "/images/lessons/grade8/coding/lesson2.svg",
       "description": "**Переменная** — это именованная область памяти для хранения данных.\n\n**Создание переменной:**\n```python\nname = \"Алексей\"    # строка (str)\nage = 14            # целое число (int)\nheight = 1.75       # вещественное число (float)\nis_student = True   # логический тип (bool)\n```\n\n**Правила именования:**\n- Начинаются с буквы или _\n- Могут содержать буквы, цифры, _\n- Регистрозависимые (Name ≠ name)\n- Нельзя использовать ключевые слова\n\n**Основные типы данных:**\n\n| Тип | Описание | Пример |\n|-----|----------|--------|\n| int | Целые числа | 42, -7, 0 |\n| float | Вещественные | 3.14, -0.5 |\n| str | Строки | \"Привет\", 'Мир' |\n| bool | Логические | True, False |\n\n**Функция type():**\n```python\nx = 42\nprint(type(x))  # <class 'int'>\n```\n\n**Ввод данных:**\n```python\nname = input(\"Введите имя: \")\nprint(\"Привет,\", name)\n```\n\n**Преобразование типов:**\n```python\nage = int(input(\"Возраст: \"))  # строка → число\nprice = float(\"19.99\")         # строка → float\ntext = str(42)                 # число → строка\n```",
       "tasks": [
        "Создайте переменные разных типов и выведите их",
@@ -56,7 +56,7 @@
      },
      {
       "title": "Урок 3: Арифметические операции",
-      "image": "/school-curriculum-app/images/lessons/grade8/coding/lesson3.svg",
+      "image": "/images/lessons/grade8/coding/lesson3.svg",
       "description": "**Арифметические операторы Python:**\n\n| Оператор | Действие | Пример | Результат |\n|----------|----------|--------|-----------|\n| + | Сложение | 5 + 3 | 8 |\n| - | Вычитание | 10 - 4 | 6 |\n| * | Умножение | 6 * 7 | 42 |\n| / | Деление | 15 / 4 | 3.75 |\n| // | Целочисленное деление | 15 // 4 | 3 |\n| % | Остаток от деления | 17 % 5 | 2 |\n| ** | Возведение в степень | 2 ** 10 | 1024 |\n\n**Примеры:**\n```python\na = 17\nb = 5\n\nprint(a // b)   # 3 (целая часть)\nprint(a % b)    # 2 (остаток)\nprint(a / b)    # 3.4 (обычное деление)\nprint(2 ** 8)   # 256 (степень)\n```\n\n**Приоритет операций:**\n1. Скобки ()\n2. Степень **\n3. Умножение, деление *, /, //, %\n4. Сложение, вычитание +, -\n\n```python\nresult = 2 + 3 * 4    # 14, не 20\nresult = (2 + 3) * 4  # 20\n```\n\n**Операции со строками:**\n```python\ns1 = \"Привет\"\ns2 = \"Мир\"\nprint(s1 + \" \" + s2)  # Привет Мир (конкатенация)\nprint(\"А\" * 5)        # ААААА (повторение)\n```",
       "tasks": [
        "Вычислите: 25 // 4 и 25 % 4",
@@ -77,7 +77,7 @@
      },
      {
       "title": "Урок 4: Условные операторы",
-      "image": "/school-curriculum-app/images/lessons/grade8/coding/lesson4.svg",
+      "image": "/images/lessons/grade8/coding/lesson4.svg",
       "description": "**Условный оператор if** позволяет выполнять код при определённом условии.\n\n**Базовый синтаксис:**\n```python\nif условие:\n    # код выполняется, если условие истинно\n```\n\n**Операторы сравнения:**\n\n| Оператор | Значение | Пример |\n|----------|----------|--------|\n| == | Равно | x == 5 |\n| != | Не равно | x != 0 |\n| < | Меньше | x < 10 |\n| > | Больше | x > 0 |\n| <= | Меньше или равно | x <= 100 |\n| >= | Больше или равно | x >= 1 |\n\n**Полная форма:**\n```python\nage = int(input(\"Возраст: \"))\n\nif age >= 18:\n    print(\"Вы совершеннолетний\")\nelif age >= 14:\n    print(\"Вы подросток\")\nelse:\n    print(\"Вы ребёнок\")\n```\n\n**Логические операторы:**\n- `and` — логическое И (оба условия истинны)\n- `or` — логическое ИЛИ (хотя бы одно истинно)\n- `not` — логическое НЕ (отрицание)\n\n```python\nage = 16\nhas_ticket = True\n\nif age >= 18 and has_ticket:\n    print(\"Проход разрешён\")\n\nif age < 18 or not has_ticket:\n    print(\"Проход запрещён\")\n```\n\n**Тернарный оператор:**\n```python\nstatus = \"совершеннолетний\" if age >= 18 else \"несовершеннолетний\"\n```",
       "tasks": [
        "Напишите проверку: число чётное или нечётное",
@@ -98,7 +98,7 @@
      },
      {
       "title": "Урок 5: Цикл for",
-      "image": "/school-curriculum-app/images/lessons/grade8/coding/lesson5.svg",
+      "image": "/images/lessons/grade8/coding/lesson5.svg",
       "description": "**Цикл for** используется для перебора последовательностей.\n\n**Синтаксис:**\n```python\nfor переменная in последовательность:\n    # тело цикла\n```\n\n**Функция range():**\n```python\n# range(n) — числа от 0 до n-1\nfor i in range(5):\n    print(i)  # 0, 1, 2, 3, 4\n\n# range(start, stop) — от start до stop-1\nfor i in range(2, 6):\n    print(i)  # 2, 3, 4, 5\n\n# range(start, stop, step) — с шагом\nfor i in range(0, 10, 2):\n    print(i)  # 0, 2, 4, 6, 8\n```\n\n**Перебор строки:**\n```python\nfor char in \"Python\":\n    print(char)  # P, y, t, h, o, n\n```\n\n**Перебор списка:**\n```python\nfruits = [\"яблоко\", \"банан\", \"апельсин\"]\nfor fruit in fruits:\n    print(fruit)\n```\n\n**Вычисление суммы:**\n```python\ntotal = 0\nfor i in range(1, 101):\n    total += i\nprint(total)  # 5050\n```\n\n**Операторы управления циклом:**\n- `break` — выход из цикла\n- `continue` — переход к следующей итерации\n\n```python\nfor i in range(10):\n    if i == 3:\n        continue  # пропускаем 3\n    if i == 7:\n        break     # выход на 7\n    print(i)  # 0, 1, 2, 4, 5, 6\n```",
       "tasks": [
        "Выведите числа от 1 до 10",
@@ -119,7 +119,7 @@
      },
      {
       "title": "Урок 6: Цикл while",
-      "image": "/school-curriculum-app/images/lessons/grade8/coding/lesson6.svg",
+      "image": "/images/lessons/grade8/coding/lesson6.svg",
       "description": "**Цикл while** выполняется, пока условие истинно.\n\n**Синтаксис:**\n```python\nwhile условие:\n    # тело цикла\n```\n\n**Пример: счётчик**\n```python\ncount = 0\nwhile count < 5:\n    print(count)\n    count += 1  # важно увеличивать счётчик!\n# Вывод: 0, 1, 2, 3, 4\n```\n\n**Ввод до правильного ответа:**\n```python\npassword = \"\"\nwhile password != \"secret\":\n    password = input(\"Введите пароль: \")\nprint(\"Доступ разрешён!\")\n```\n\n**Бесконечный цикл:**\n```python\nwhile True:\n    command = input(\"Команда (exit для выхода): \")\n    if command == \"exit\":\n        break\n    print(\"Вы ввели:\", command)\n```\n\n**Угадай число:**\n```python\nimport random\nsecret = random.randint(1, 100)\nattempts = 0\n\nwhile True:\n    guess = int(input(\"Угадайте число (1-100): \"))\n    attempts += 1\n    \n    if guess < secret:\n        print(\"Больше!\")\n    elif guess > secret:\n        print(\"Меньше!\")\n    else:\n        print(f\"Правильно! Попыток: {attempts}\")\n        break\n```",
       "tasks": [
        "Напишите программу, выводящую числа от 5 до 1",
@@ -145,7 +145,7 @@
     "lessons": [
      {
       "title": "Урок 7: Строки",
-      "image": "/school-curriculum-app/images/lessons/grade8/coding/lesson7.svg",
+      "image": "/images/lessons/grade8/coding/lesson7.svg",
       "description": "**Строка (str)** — это упорядоченная последовательность символов.\n\n**Создание строк:**\n```python\ns1 = \"Привет\"\ns2 = 'Мир'\ns3 = \"\"\"Многострочная\nстрока\"\"\"\n```\n\n**Индексация (начинается с 0):**\n```python\ns = \"Python\"\nprint(s[0])   # P (первый символ)\nprint(s[-1])  # n (последний символ)\nprint(s[-2])  # o (предпоследний)\n```\n\n**Срезы:**\n```python\ns = \"Python\"\nprint(s[0:3])   # Pyt (с 0 по 2)\nprint(s[2:])    # thon (с 2 до конца)\nprint(s[:4])    # Pyth (сначала до 3)\nprint(s[::2])   # Pto (каждый второй)\nprint(s[::-1])  # nohtyP (реверс)\n```\n\n**Методы строк:**\n\n| Метод | Описание | Пример |\n|-------|----------|--------|\n| upper() | Верхний регистр | \"hello\".upper() → \"HELLO\" |\n| lower() | Нижний регистр | \"HELLO\".lower() → \"hello\" |\n| strip() | Удалить пробелы | \" hi \".strip() → \"hi\" |\n| split() | Разбить на список | \"a,b,c\".split(\",\") → [\"a\",\"b\",\"c\"] |\n| join() | Соединить список | \",\".join([\"a\",\"b\"]) → \"a,b\" |\n| replace() | Заменить | \"hello\".replace(\"l\",\"L\") → \"heLLo\" |\n| find() | Найти позицию | \"hello\".find(\"l\") → 2 |\n\n**Форматирование (f-строки):**\n```python\nname = \"Анна\"\nage = 14\nprint(f\"Привет, {name}! Тебе {age} лет.\")\n```",
       "tasks": [
        "Выведите первый и последний символ строки",
@@ -166,7 +166,7 @@
      },
      {
       "title": "Урок 8: Списки",
-      "image": "/school-curriculum-app/images/lessons/grade8/coding/lesson8.svg",
+      "image": "/images/lessons/grade8/coding/lesson8.svg",
       "description": "**Список (list)** — упорядоченная изменяемая коллекция элементов.\n\n**Создание списков:**\n```python\nnumbers = [1, 2, 3, 4, 5]\nfruits = [\"яблоко\", \"банан\", \"апельсин\"]\nmixed = [1, \"текст\", 3.14, True]\nempty = []\n```\n\n**Индексация и срезы:**\n```python\nlst = [10, 20, 30, 40, 50]\nprint(lst[0])     # 10\nprint(lst[-1])    # 50\nprint(lst[1:4])   # [20, 30, 40]\n```\n\n**Изменение элементов:**\n```python\nlst = [1, 2, 3]\nlst[0] = 100      # [100, 2, 3]\nlst[1:3] = [20, 30]  # [100, 20, 30]\n```\n\n**Методы списков:**\n\n| Метод | Описание | Пример |\n|-------|----------|--------|\n| append(x) | Добавить в конец | lst.append(5) |\n| insert(i, x) | Вставить на позицию | lst.insert(0, 5) |\n| remove(x) | Удалить по значению | lst.remove(3) |\n| pop(i) | Удалить по индексу | lst.pop(0) |\n| sort() | Отсортировать | lst.sort() |\n| reverse() | Развернуть | lst.reverse() |\n| index(x) | Найти индекс | lst.index(5) |\n| count(x) | Подсчитать | lst.count(5) |\n\n**Примеры:**\n```python\nnumbers = [3, 1, 4, 1, 5, 9, 2, 6]\nnumbers.sort()           # [1, 1, 2, 3, 4, 5, 6, 9]\nnumbers.append(10)       # добавляем 10\nnumbers.remove(1)        # удаляем первую единицу\nprint(len(numbers))      # длина списка\nprint(sum(numbers))      # сумма элементов\nprint(max(numbers))      # максимум\n```",
       "tasks": [
        "Создайте список из 5 чисел и выведите его",
@@ -187,7 +187,7 @@
      },
      {
       "title": "Урок 9: Словари",
-      "image": "/school-curriculum-app/images/lessons/grade8/coding/lesson9.svg",
+      "image": "/images/lessons/grade8/coding/lesson9.svg",
       "description": "**Словарь (dict)** — коллекция пар ключ-значение.\n\n**Создание словаря:**\n```python\nperson = {\n    \"name\": \"Анна\",\n    \"age\": 14,\n    \"city\": \"Москва\"\n}\n\n# Пустой словарь\nempty = {}\nempty = dict()\n```\n\n**Доступ к элементам:**\n```python\nprint(person[\"name\"])       # Анна\nprint(person.get(\"age\"))    # 14\nprint(person.get(\"job\", \"не указано\"))  # не указано (по умолчанию)\n```\n\n**Изменение и добавление:**\n```python\nperson[\"age\"] = 15          # изменение\nperson[\"school\"] = \"№123\"   # добавление\ndel person[\"city\"]          # удаление\n```\n\n**Методы словарей:**\n```python\nperson = {\"name\": \"Анна\", \"age\": 14}\n\nprint(person.keys())    # dict_keys(['name', 'age'])\nprint(person.values())  # dict_values(['Анна', 14])\nprint(person.items())   # dict_items([('name', 'Анна'), ('age', 14)])\n\n# Перебор словаря\nfor key in person:\n    print(key, person[key])\n\nfor key, value in person.items():\n    print(f\"{key}: {value}\")\n```",
       "tasks": [
        "Создайте словарь с информацией о себе",
@@ -208,7 +208,7 @@
      },
      {
       "title": "Урок 10: Функции",
-      "image": "/school-curriculum-app/images/lessons/grade8/coding/lesson10.svg",
+      "image": "/images/lessons/grade8/coding/lesson10.svg",
       "description": "**Функция** — это именованный блок кода, который можно вызывать многократно.\n\n**Определение функции:**\n```python\ndef greet():\n    print(\"Привет!\")\n\ngreet()  # Вызов функции\n```\n\n**Параметры и аргументы:**\n```python\ndef greet(name):\n    print(f\"Привет, {name}!\")\n\ngreet(\"Анна\")  # Привет, Анна!\n```\n\n**Возврат значения:**\n```python\ndef add(a, b):\n    return a + b\n\nresult = add(5, 3)  # 8\n```\n\n**Аргументы по умолчанию:**\n```python\ndef greet(name, greeting=\"Привет\"):\n    print(f\"{greeting}, {name}!\")\n\ngreet(\"Анна\")                    # Привет, Анна!\ngreet(\"Борис\", \"Здравствуйте\")   # Здравствуйте, Борис!\n```\n\n**Именованные аргументы:**\n```python\ndef info(name, age, city):\n    print(f\"{name}, {age} лет, {city}\")\n\ninfo(age=14, city=\"Москва\", name=\"Анна\")\n```\n\n**Область видимости:**\n```python\nx = 10  # глобальная переменная\n\ndef func():\n    x = 5   # локальная переменная\n    print(x)  # 5\n\ndef func2():\n    global x\n    x = 20  # изменяем глобальную переменную\n\nfunc()\nprint(x)  # 10\nfunc2()\nprint(x)  # 20\n```",
       "tasks": [
        "Напишите функцию, которая возводит число в квадрат",
@@ -234,7 +234,7 @@
     "lessons": [
      {
       "title": "Урок 11: Работа с файлами",
-      "image": "/school-curriculum-app/images/lessons/grade8/coding/lesson11.svg",
+      "image": "/images/lessons/grade8/coding/lesson11.svg",
       "description": "**Открытие файла:**\n```python\nfile = open(\"example.txt\", \"r\")  # режим чтения\ncontent = file.read()\nfile.close()  # важно закрыть файл!\n```\n\n**Режимы работы с файлами:**\n\n| Режим | Описание |\n|-------|----------|\n| \"r\" | Чтение (по умолчанию) |\n| \"w\" | Запись (перезаписывает файл) |\n| \"a\" | Добавление в конец |\n| \"x\" | Создание (ошибка, если существует) |\n| \"r+\" | Чтение и запись |\n\n**Контекстный менеджер (рекомендуется):**\n```python\n# Автоматически закрывает файл\nwith open(\"example.txt\", \"r\") as file:\n    content = file.read()\n# Файл закрыт автоматически\n```\n\n**Чтение файла:**\n```python\n# Всё содержимое одной строкой\nwith open(\"file.txt\", \"r\") as f:\n    text = f.read()\n\n# По строкам\nwith open(\"file.txt\", \"r\") as f:\n    for line in f:\n        print(line.strip())\n\n# В список строк\nwith open(\"file.txt\", \"r\") as f:\n    lines = f.readlines()\n```\n\n**Запись в файл:**\n```python\nwith open(\"output.txt\", \"w\") as f:\n    f.write(\"Первая строка\\n\")\n    f.write(\"Вторая строка\\n\")\n\n# Запись списка\nlines = [\"Строка 1\", \"Строка 2\", \"Строка 3\"]\nwith open(\"output.txt\", \"w\") as f:\n    f.write(\"\\n\".join(lines))\n```",
       "tasks": [
        "Создайте файл и запишите в него 5 строк",
@@ -255,7 +255,7 @@
      },
      {
       "title": "Урок 12: Итоговый проект",
-      "image": "/school-curriculum-app/images/lessons/grade8/coding/lesson12.svg",
+      "image": "/images/lessons/grade8/coding/lesson12.svg",
       "description": "**Этапы создания проекта:**\n\n**1. Выбор идеи проекта:**\n- Игра (угадай число, квест, викторина)\n- Утилита (калькулятор, конвертер, заметки)\n- Анализ данных (статистика оценок, погоды)\n- Визуализация (графики, диаграммы)\n\n**2. Планирование:**\n- Определить функции программы\n- Разбить на подзадачи\n- Спроектировать интерфейс\n\n**3. Разработка:**\n- Написать базовую версию\n- Тестировать каждый этап\n- Добавлять функции постепенно\n\n**4. Документация:**\n- Добавьте комментарии\n- Создайте README с инструкцией\n- Опишите функции\n\n**5. Рефлексия:**\n- Что получилось хорошо?\n- Что можно улучшить?\n- Какие новые навыки приобрели?",
       "tasks": [
        "Выберите тему проекта",

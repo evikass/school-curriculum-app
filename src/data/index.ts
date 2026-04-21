@@ -26,8 +26,48 @@ export function getSubjectKeysForGrade(grade: number): string[] {
   return gradeSubjectKeys[grade] || []
 }
 
-// Базовый путь для загрузки данных (соответствует basePath в next.config.ts)
-const BASE_PATH = '/school-curriculum-app'
+// Базовый путь для загрузки данных
+// В Capacitor: пустой путь (локальный сервер)
+// На GitHub Pages: /school-curriculum-app
+function getBasePath(): string {
+  if (typeof window !== 'undefined') {
+    // Если URL содержит /school-curriculum-app — мы на GitHub Pages
+    if (window.location.pathname.startsWith('/school-curriculum-app')) {
+      return '/school-curriculum-app'
+    }
+  }
+  return ''
+}
+const BASE_PATH = getBasePath()
+
+// Добавить basePath к относительным ссылкам на картинки
+function fixImagePath(path: string): string {
+  if (!path || path.startsWith('http') || path.startsWith('data:')) return path
+  if (path.startsWith('/') && BASE_PATH && !path.startsWith(BASE_PATH + '/')) {
+    return BASE_PATH + path
+  }
+  return path
+}
+
+// Рекурсивно исправить все image пути в данных
+function fixImagePaths<T>(data: T): T {
+  if (Array.isArray(data)) {
+    return data.map(item => fixImagePaths(item)) as T
+  }
+  if (data && typeof data === 'object') {
+    const result = {} as T
+    for (const key in data) {
+      const value = (data as Record<string, unknown>)[key]
+      if (key === 'image' && typeof value === 'string') {
+        (result as Record<string, unknown>)[key] = fixImagePath(value)
+      } else {
+        (result as Record<string, unknown>)[key] = fixImagePaths(value)
+      }
+    }
+    return result
+  }
+  return data
+}
 
 // Асинхронная загрузка данных предмета из JSON
 async function loadSubjectData(grade: number, subject: string): Promise<{ lessons?: SubjectData; games?: GameLesson[] }> {
@@ -37,7 +77,9 @@ async function loadSubjectData(grade: number, subject: string): Promise<{ lesson
       console.warn(`Failed to load ${grade}/${subject}: ${response.status}`)
       return {}
     }
-    return await response.json()
+    const data = await response.json()
+    // Исправляем пути к картинкам с учётом basePath
+    return fixImagePaths(data)
   } catch (e) {
     console.warn(`Error loading ${grade}/${subject}:`, e)
     return {}

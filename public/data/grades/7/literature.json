@@ -15,7 +15,7 @@
     "lessons": [
      {
       "title": "Былины. Илья Муромец и Соловей-разбойник",
-      "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson1.svg",
+      "image": "/images/lessons/grade7/literature/lesson1.svg",
       "description": "**Былина** — жанр русского фольклора, героическая песня.\n\n**Особенности былин:**\n- Сказовый характер\n- Рифма — ассонанс\n- Гиперболизация\n- Исполнение под гусли\n\n**«Илья Муромец и Соловей-разбойник»:**\n\n**Сюжет:**\n- Илья едет в Киев-град\n- Встречает Соловья-разбойника\n- Побеждает его\n- Привозит в Киев\n\n**Герои:**\n\n**Илья Муромец:**\n- Русский богатырь\n- Защитник родной земли\n- Справедливый, сильный\n\n**Соловей-разбойник:**\n- Злой разбойник\n- Свистом валит людей\n- Побеждён Ильёй\n\n**Художественные особенности:**\n\n**Гиперболы:**\n- Сила богатыря\n- Свист Соловья\n- Расстояния\n\n**Постоянные эпитеты:**\n- «добрый молодец»\n- «чистое поле»\n- «тёмные леса»\n\n**Значение:**\n- Прославление богатыря\n- Защита родной земли\n- Победа добра над злом",
       "tasks": [
        "Что такое былина?",
@@ -39,7 +39,7 @@
      },
      {
       "title": "Сказки народов мира",
-      "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson2.svg",
+      "image": "/images/lessons/grade7/literature/lesson2.svg",
       "description": "**Сказка** — жанр фольклора с фантастическим сюжетом.\n\n**Виды сказок:**\n- Волшебные\n- Бытовые\n- О животных\n\n**«Сказка о мёртвой царевне...» А.С. Пушкина:**\n\n**Источники:**\n- Русские народные сказки\n- Сказка В.А. Жуковского\n\n**Сюжет:**\n- Царица умирает\n- Мачеха завидует красоте\n- Царевна изгнана\n- Спасение королевичем\n\n**Герои:**\n\n**Царевна:**\n- Добрая, кроткая\n- Красавица\n- Беззащитная\n\n**Царица-мачеха:**\n- Завистливая\n- Злая, коварная\n- Гордая\n\n**Королевич Елисей:**\n- Верный, любящий\n- Спасает невесту\n\n**Художественные особенности:**\n- Песни персонажей\n- Магические числа (7 богатырей, 3 раза обращается к силам)\n- Зачин и концовка",
       "tasks": [
        "Какие виды сказок существуют?",
@@ -68,7 +68,7 @@
     "lessons": [
      {
       "title": "«Повесть временных лет»",
-      "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson3.svg",
+      "image": "/images/lessons/grade7/literature/lesson3.svg",
       "description": "**«Повесть временных лет»** — древнейшая русская летопись.\n\n**Автор:**\n- Монах Нестор\n- Начало XII века\n- Киево-Печерский монастырь\n\n**Содержание:**\n- История Руси «откуда пошла»\n- События по годам\n- Легенды и предания\n\n**Сказание о Кожемяке:**\n\n**Сюжет:**\n- Печенеги осаждают Киев\n- Поединок богатырей\n- Победа кожемяки\n- Освобождение Руси\n\n**Герой:**\n- Простой ремесленник\n- Силач (быку кожу рвал)\n- Храбрый, скромный\n\n**Значение:**\n- Патриотизм\n- Единство народа\n- Победа над врагами\n\n**«Повесть о Петре и Февронии»:**\n\n**Сюжет:**\n- Петр победил змея\n- Исцелился от Февронии\n- Любовь и верность\n- Монашество и смерть в один день\n\n**Темы:**\n- Любовь и верность\n- Мудрость\n- Святость",
       "tasks": [
        "Кто написал «Повесть временных лет»?",
@@ -97,7 +97,7 @@
     "lessons": [
      {
       "title": "А.С. Пушкин. «Полтава»",
-      "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson4.svg",
+      "image": "/images/lessons/grade7/literature/lesson4.svg",
       "description": "**Александр Сергеевич Пушкин** (1799-1837)\n\n**Поэма «Полтава» (1828):**\n\n**Историческая основа:**\n- Полтавская битва (1709)\n- Пётр I против Карла XII\n- Предательство Мазепы\n\n**Композиция:**\n- Три части\n- Исторические сцены\n- Любовная линия\n\n**Герои:**\n\n**Пётр I:**\n- Великий полководец\n- «Он весь, как божия гроза»\n- Победитель\n\n**Иван Мазепа:**\n- Гетман Украины\n- Предатель\n- Коварный, жестокий\n\n**Мария:**\n- Дочь Кочубея\n- Любит Мазепу\n- Трагическая судьба\n\n**Кочубей:**\n- Богатый казак\n- Отец Марии\n- Казнён Мазепой\n\n**Сцена Полтавской битвы:**\n- Эпичность\n- Динамика\n- Сравнение Петра и Карла\n\n**Идея:**\n- Прославление Петра I\n- Осуждение предательства",
       "tasks": [
        "Какое событие описано в поэме?",
@@ -121,7 +121,7 @@
      },
      {
       "title": "М.Ю. Лермонтов. «Песня про царя Ивана Васильевича»",
-      "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson5.svg",
+      "image": "/images/lessons/grade7/literature/lesson5.svg",
       "description": "**Михаил Юрьевич Лермонтов** (1814-1841)\n\n**«Песня про царя Ивана Васильевича...» (1837):**\n\n**Жанр:**\n- Романтическая поэма\n- Фольклорные традиции\n\n**Сюжет:**\n- Пир у царя\n- Поединок Кирибеевича и Калашникова\n- Казнь купца\n\n**Герои:**\n\n**Иван Грозный:**\n- Царь-самодержец\n- Справедливый, но жестокий\n- «Грозный царь»\n\n**Кирибеевич:**\n- Oprичник царя\n- Влюблён в Алёну Дмитриевну\n- Погибает в поединке\n\n**Степан Калашников:**\n- Купец\n- Муж Алёны Дмитриевны\n- Защищает честь семьи\n\n**Алёна Дмитриевна:**\n- Жена Калашникова\n- Верная жена\n- Жертва домогательств\n\n**Конфликт:**\n- Честь против бесчестия\n- Простолюдин против опричника\n- Справедливость против произвола\n\n**Финал:**\n- Калашников убивает Кирибеевича\n- Казнён по воле царя\n- Память народа о герое",
       "tasks": [
        "Какой конфликт в поэме?",
@@ -145,7 +145,7 @@
      },
      {
       "title": "Н.В. Гоголь. «Тарас Бульба»",
-      "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson6.svg",
+      "image": "/images/lessons/grade7/literature/lesson6.svg",
       "description": "**Николай Васильевич Гоголь** (1809-1852)\n\n**Повесть «Тарас Бульба» (1835-1842):**\n\n**Историческая основа:**\n- XVI-XVII века\n- Запорожская Сечь\n- Борьба с поляками\n\n**Герои:**\n\n**Тарас Бульба:**\n- Старый казак\n- Предан родине\n- Бесстрашный воин\n- Погибает на костре\n\n**Остап:**\n- Старший сын\n- Храбрый, твёрдый\n- Казнён поляками\n- «Батько! Слышишь ли ты?»\n\n**Андрий:**\n- Младший сын\n- Влюбился в полячку\n- Предал родину\n- Убит отцом\n\n**Темы:**\n- Патриотизм\n- Товарищество\n- Отец и дети\n- Любовь и предательство\n\n**Идея:**\n- Прославление подвига\n- Осуждение предательства\n- Любовь к родине\n\n**Художественные особенности:**\n- Эпический стиль\n- Героический пафос\n- Яркие описания битв",
       "tasks": [
        "Где происходит действие?",
@@ -174,7 +174,7 @@
     "lessons": [
      {
       "title": "А.П. Платонов. «Юшка»",
-      "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson7.svg",
+      "image": "/images/lessons/grade7/literature/lesson7.svg",
       "description": "**Андрей Платонович Платонов** (1899-1951)\n\n**Рассказ «Юшка» (1936):**\n\n**Главный герой:**\n\n**Юшка:**\n- Работник на заводе\n- Больной чахоткой\n- Добрый, безответный\n- Нелепый вид\n\n**Отношение к Юшке:**\n- Дети дразнят\n- Взрослые бьют\n- Все считают дураком\n- Он не обижается\n\n**Юшка и дети:**\n- Любит детей\n- Дарит подарки\n- Работает на девочку-сироту\n\n**Финал:**\n- Юшка умер\n- Приехала его «дочь»\n- Выросла на его деньги\n- Стала врачом\n\n**Темы:**\n- Добро и зло\n- Милосердие\n- Человечность\n- Непонимание людей\n\n**Идея:**\n- Добро побеждает\n- Незаметный подвиг\n- Человек в человеке\n\n**Особенности стиля:**\n- Простота повествования\n- Глубина содержания\n- Парадоксальность",
       "tasks": [
        "Каким был Юшка?",
@@ -203,7 +203,7 @@
  "games": [
   {
    "title": "Фольклор и древнерусская литература",
-   "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson16.svg",
+   "image": "/images/lessons/grade7/literature/lesson16.svg",
    "subject": "Литература",
    "icon": "BookOpenText",
    "color": "text-purple-400",
@@ -285,7 +285,7 @@
   },
   {
    "title": "Русская классика",
-   "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson17.svg",
+   "image": "/images/lessons/grade7/literature/lesson17.svg",
    "subject": "Литература",
    "icon": "BookOpenText",
    "color": "text-purple-400",
@@ -367,7 +367,7 @@
   },
   {
    "title": "Устное народное творчество",
-   "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson18.svg",
+   "image": "/images/lessons/grade7/literature/lesson18.svg",
    "subject": "Литература",
    "icon": "BookOpenText",
    "color": "text-purple-400",
@@ -449,7 +449,7 @@
   },
   {
    "title": "Литература XX века",
-   "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson19.svg",
+   "image": "/images/lessons/grade7/literature/lesson19.svg",
    "subject": "Литература",
    "icon": "BookOpenText",
    "color": "text-purple-400",
@@ -527,7 +527,7 @@
   },
   {
    "title": "Былины. Илья Муромец и Соловей-разбойник",
-   "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson20.svg",
+   "image": "/images/lessons/grade7/literature/lesson20.svg",
    "subject": "Литература",
    "icon": "BookOpenText",
    "color": "text-purple-400",
@@ -618,7 +618,7 @@
   },
   {
    "title": "Сказки народов мира",
-   "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson21.svg",
+   "image": "/images/lessons/grade7/literature/lesson21.svg",
    "subject": "Литература",
    "icon": "BookOpenText",
    "color": "text-purple-400",
@@ -709,7 +709,7 @@
   },
   {
    "title": "«Повесть временных лет»",
-   "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson22.svg",
+   "image": "/images/lessons/grade7/literature/lesson22.svg",
    "subject": "Литература",
    "icon": "BookOpenText",
    "color": "text-purple-400",
@@ -787,7 +787,7 @@
   },
   {
    "title": "А.С. Пушкин. «Полтава»",
-   "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson23.svg",
+   "image": "/images/lessons/grade7/literature/lesson23.svg",
    "subject": "Литература",
    "icon": "BookOpenText",
    "color": "text-purple-400",
@@ -865,7 +865,7 @@
   },
   {
    "title": "М.Ю. Лермонтов. «Песня про царя Ивана Васильевича»",
-   "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson24.svg",
+   "image": "/images/lessons/grade7/literature/lesson24.svg",
    "subject": "Литература",
    "icon": "BookOpenText",
    "color": "text-purple-400",
@@ -943,7 +943,7 @@
   },
   {
    "title": "Н.В. Гоголь. «Тарас Бульба»",
-   "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson25.svg",
+   "image": "/images/lessons/grade7/literature/lesson25.svg",
    "subject": "Литература",
    "icon": "BookOpenText",
    "color": "text-purple-400",
@@ -1021,7 +1021,7 @@
   },
   {
    "title": "А.П. Платонов. «Юшка»",
-   "image": "/school-curriculum-app/images/lessons/grade7/literature/lesson26.svg",
+   "image": "/images/lessons/grade7/literature/lesson26.svg",
    "subject": "Литература",
    "icon": "BookOpenText",
    "color": "text-purple-400",

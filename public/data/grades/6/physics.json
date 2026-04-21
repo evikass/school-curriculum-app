@@ -306,7 +306,7 @@
  "games": [
   {
    "title": "Движение и скорость",
-   "image": "/school-curriculum-app/images/lessons/grade6/physics/lesson10.svg",
+   "image": "/images/lessons/grade6/physics/lesson10.svg",
    "subject": "Физика",
    "icon": "Atom",
    "color": "text-pink-400",
@@ -374,7 +374,7 @@
   },
   {
    "title": "Силы",
-   "image": "/school-curriculum-app/images/lessons/grade6/physics/lesson11.svg",
+   "image": "/images/lessons/grade6/physics/lesson11.svg",
    "subject": "Физика",
    "icon": "Atom",
    "color": "text-pink-400",
@@ -443,7 +443,7 @@
   },
   {
    "title": "Простые механизмы",
-   "image": "/school-curriculum-app/images/lessons/grade6/physics/lesson12.svg",
+   "image": "/images/lessons/grade6/physics/lesson12.svg",
    "subject": "Физика",
    "icon": "Atom",
    "color": "text-pink-400",

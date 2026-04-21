@@ -5,15 +5,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:gh-pages": "BASE_PATH=/school-curriculum-app next build",
+    "build:capacitor": "next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next build",
-    "expo:start": "expo start",
-    "expo:android": "expo run:android",
-    "expo:ios": "expo run:ios",
-    "expo:web": "expo start --web"
+    "cap:init": "npx cap init ИНЕТШКОЛА ru.evika.inetshkola --web-dir out",
+    "cap:add:android": "npx cap add android",
+    "cap:copy": "npx cap copy",
+    "cap:sync": "npx cap sync",
+    "cap:open:android": "npx cap open android"
   },
   "dependencies": {
+    "@capacitor/android": "^8.3.1",
+    "@capacitor/cli": "^8.3.1",
+    "@capacitor/core": "^8.3.1",
+    "@capacitor/preferences": "^8.0.1",
     "@pwabuilder/cli": "^0.0.17",
     "@radix-ui/react-toast": "^1.2.15",
     "@react-native-async-storage/async-storage": "2.2.0",

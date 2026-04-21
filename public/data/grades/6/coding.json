@@ -305,7 +305,7 @@
  "games": [
   {
    "title": "Блоки Scratch",
-   "image": "/school-curriculum-app/images/lessons/grade6/coding/lesson1.svg",
+   "image": "/images/lessons/grade6/coding/lesson1.svg",
    "subject": "Основы программирования",
    "icon": "Code",
    "color": "text-sky-400",
@@ -375,7 +375,7 @@
   },
   {
    "title": "Переменные и условия",
-   "image": "/school-curriculum-app/images/lessons/grade6/coding/lesson2.svg",
+   "image": "/images/lessons/grade6/coding/lesson2.svg",
    "subject": "Основы программирования",
    "icon": "Code",
    "color": "text-sky-400",
@@ -444,7 +444,7 @@
   },
   {
    "title": "Циклы и алгоритмы",
-   "image": "/school-curriculum-app/images/lessons/grade6/coding/lesson3.svg",
+   "image": "/images/lessons/grade6/coding/lesson3.svg",
    "subject": "Основы программирования",
    "icon": "Code",
    "color": "text-sky-400",
@@ -516,7 +516,7 @@
   },
   {
    "title": "Создание игр",
-   "image": "/school-curriculum-app/images/lessons/grade6/coding/lesson4.svg",
+   "image": "/images/lessons/grade6/coding/lesson4.svg",
    "subject": "Основы программирования",
    "icon": "Code",
    "color": "text-sky-400",

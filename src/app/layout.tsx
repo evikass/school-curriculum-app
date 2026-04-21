@@ -25,15 +25,15 @@ export const metadata: Metadata = {
   description: "Интерактивная школьная программа для классов 0-11 с уроками и мини-играми по всем предметам.",
   keywords: ["школа", "уроки", "образование", "мини-игры", "учеба", "онлайн обучение", "ИНЕТШКОЛА"],
   authors: [{ name: "ИНЕТШКОЛА" }],
-  manifest: "/school-curriculum-app/manifest.json",
+  manifest: "/manifest.json",
   icons: {
     icon: [
-      { url: "/school-curriculum-app/favicon.png", sizes: "192x192", type: "image/png" },
-      { url: "/school-curriculum-app/icon-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/school-curriculum-app/icon-512.png", sizes: "512x512", type: "image/png" },
+      { url: "/favicon.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: [
-      { url: "/school-curriculum-app/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
     ],
   },
   openGraph: {

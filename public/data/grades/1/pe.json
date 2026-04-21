@@ -22,7 +22,7 @@
        "Выполнить повороты",
        "Разойтись на разминку"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/pe/lesson1-formation.svg"
+      "image": "/images/lessons/grade1/pe/lesson1-formation.svg"
      },
      {
       "title": "Урок 2: Ходьба",
@@ -33,7 +33,7 @@
        "Ходьба в полуприседе",
        "Ходьба приставным шагом"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/pe/lesson2-walking.svg"
+      "image": "/images/lessons/grade1/pe/lesson2-walking.svg"
      },
      {
       "title": "Урок 3: Бег",
@@ -44,7 +44,7 @@
        "Челночный бег",
        "Бег на скорость"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/pe/lesson3-running.svg"
+      "image": "/images/lessons/grade1/pe/lesson3-running.svg"
      },
      {
       "title": "Урок 4: Прыжки",
@@ -55,7 +55,7 @@
        "Прыжок через препятствие",
        "Многоскоки"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/pe/lesson4-jumping.svg"
+      "image": "/images/lessons/grade1/pe/lesson4-jumping.svg"
      }
     ]
    },
@@ -71,7 +71,7 @@
        "Искать спрятавшихся",
        "Меняться ролями"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/pe/lesson5-hide-seek.svg"
+      "image": "/images/lessons/grade1/pe/lesson5-hide-seek.svg"
      },
      {
       "title": "Урок 6: Догонялки",
@@ -82,7 +82,7 @@
        "Осалить догоняющего",
        "Меняться ролями"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/pe/lesson6-tag.svg"
+      "image": "/images/lessons/grade1/pe/lesson6-tag.svg"
      },
      {
       "title": "Урок 7: Эстафета",
@@ -93,7 +93,7 @@
        "Пробежать свой этап",
        "Привести команду к победе"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/pe/lesson7-relay.svg"
+      "image": "/images/lessons/grade1/pe/lesson7-relay.svg"
      },
      {
       "title": "Урок 8: Игры с мячом",
@@ -104,7 +104,7 @@
        "Отбивание мяча",
        "Футбол или баскетбол"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/pe/lesson8-ball-games.svg"
+      "image": "/images/lessons/grade1/pe/lesson8-ball-games.svg"
      }
     ]
    },
@@ -120,7 +120,7 @@
        "Пройти ступающим шагом",
        "Пройти скользящим шагом"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/pe/lesson9-skiing.svg"
+      "image": "/images/lessons/grade1/pe/lesson9-skiing.svg"
      }
     ]
    }

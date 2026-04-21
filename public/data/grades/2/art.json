@@ -36,7 +36,7 @@
        "Рассказать о видах живописи",
        "**Кисти** — инструменты для нанесения красок (разные размеры: тонкие, толстые)"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/art/lesson1.svg"
+      "image": "/images/lessons/grade2/art/lesson1.svg"
      },
      {
       "title": "Урок 2: Пейзаж",
@@ -60,7 +60,7 @@
        "Нарисовать простой пейзаж",
        "Небо с облаками или солнцем"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/art/lesson2.svg"
+      "image": "/images/lessons/grade2/art/lesson2.svg"
      },
      {
       "title": "Урок 3: Натюрморт",
@@ -84,7 +84,7 @@
        "Нарисовать простой натюрморт",
        "Фрукты и овощи (яблоки, груши, лимоны)"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/art/lesson3.svg"
+      "image": "/images/lessons/grade2/art/lesson3.svg"
      },
      {
       "title": "Урок 4: Портрет",
@@ -106,7 +106,7 @@
        "Нарисовать простой портрет",
        "**Погрудный** — голова и плечи"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/art/lesson4.svg"
+      "image": "/images/lessons/grade2/art/lesson4.svg"
      }
     ]
    },
@@ -135,7 +135,7 @@
        "Раскрасить силуэт дымковской игрушки",
        "Пластичная, округлая"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/art/lesson5.svg"
+      "image": "/images/lessons/grade2/art/lesson5.svg"
      },
      {
       "title": "Урок 6: Хохломская роспись",
@@ -159,7 +159,7 @@
        "Нарисовать элемент хохломской росписи",
        "Золотой (фон) — на самом деле жёлтый с серебром"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/art/lesson6.svg"
+      "image": "/images/lessons/grade2/art/lesson6.svg"
      },
      {
       "title": "Урок 7: Гжельская керамика",
@@ -184,7 +184,7 @@
        "Нарисовать элемент гжельской росписи",
        "Синий узор (кобальтовая краска)"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/art/lesson7.svg"
+      "image": "/images/lessons/grade2/art/lesson7.svg"
      },
      {
       "title": "Урок 8: Городецкая роспись",
@@ -209,7 +209,7 @@
        "Нарисовать элемент городецкой росписи",
        "Яркие, насыщенные"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/art/lesson8.svg"
+      "image": "/images/lessons/grade2/art/lesson8.svg"
      }
     ]
    }

@@ -3,8 +3,8 @@
   "name": "ИНЕТШКОЛА - Интерактивная школьная программа",
   "short_name": "ИНЕТШКОЛА",
   "description": "Интерактивная школьная программа для классов 0-11 с уроками и мини-играми по всем предметам.",
-  "start_url": "/school-curriculum-app/",
-  "scope": "/school-curriculum-app/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "display_override": ["standalone", "fullscreen", "minimal-ui", "browser"],
   "orientation": "portrait-primary",
@@ -12,25 +12,25 @@
   "theme_color": "#7c3aed",
   "icons": [
     {
-      "src": "/school-curriculum-app/icon-192.png",
+      "src": "/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/school-curriculum-app/icon-512.png",
+      "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/school-curriculum-app/icon-192.png",
+      "src": "/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/school-curriculum-app/icon-512.png",
+      "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -41,21 +41,21 @@
   "dir": "ltr",
   "screenshots": [
     {
-      "src": "/school-curriculum-app/store-assets/screenshots/phone-1-home.png",
+      "src": "/store-assets/screenshots/phone-1-home.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Главная страница"
     },
     {
-      "src": "/school-curriculum-app/store-assets/screenshots/phone-2-grade.png",
+      "src": "/store-assets/screenshots/phone-2-grade.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Выбор класса"
     },
     {
-      "src": "/school-curriculum-app/store-assets/screenshots/tablet-1-home.png",
+      "src": "/store-assets/screenshots/tablet-1-home.png",
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
@@ -66,7 +66,7 @@
     {
       "name": "Выбрать класс",
       "short_name": "Классы",
-      "url": "/school-curriculum-app/",
+      "url": "/",
       "description": "Выберите класс для обучения"
     }
   ],
@@ -80,7 +80,7 @@
     "preferred_width": 400
   },
   "share_target": {
-    "action": "/school-curriculum-app/",
+    "action": "/",
     "method": "GET",
     "enctype": "application/x-www-form-urlencoded",
     "params": {

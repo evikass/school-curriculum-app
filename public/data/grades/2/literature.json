@@ -35,7 +35,7 @@
        "Бытовая сказка — Каша из топора",
        "Помощники героя: Серый волк, Конёк-Горбунок"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/literature/lesson1.svg"
+      "image": "/images/lessons/grade2/literature/lesson1.svg"
      },
      {
       "title": "Урок 2: Сказка «Колобок»",
@@ -46,7 +46,7 @@
        "Пересказать сюжет",
        "Объяснить главную мысль"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/literature/lesson2.svg"
+      "image": "/images/lessons/grade2/literature/lesson2.svg"
      },
      {
       "title": "Урок 3: Сказка «Теремок»",
@@ -57,7 +57,7 @@
        "Пересказать по ролям",
        "Объяснить смысл сказки"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/literature/lesson3.svg"
+      "image": "/images/lessons/grade2/literature/lesson3.svg"
      },
      {
       "title": "Урок 4: Пословицы и поговорки",
@@ -80,7 +80,7 @@
        "Пословица о знаниях: Век живи — век учись",
        "Поговорка: Как снег на голову — неожиданно"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/literature/lesson4.svg"
+      "image": "/images/lessons/grade2/literature/lesson4.svg"
      }
     ]
    },
@@ -108,7 +108,7 @@
        "Сказка о золотом петушке учит держать слово",
        "Пушкин учился в Царскосельском лицее"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/literature/lesson5.svg"
+      "image": "/images/lessons/grade2/literature/lesson5.svg"
      },
      {
       "title": "Урок 6: И.А. Крылов",
@@ -131,7 +131,7 @@
        "Стрекоза и Муравей учит: нужно трудиться",
        "Крылов написал более 200 басен"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/literature/lesson6.svg"
+      "image": "/images/lessons/grade2/literature/lesson6.svg"
      },
      {
       "title": "Урок 7: Л.Н. Толстой",
@@ -154,7 +154,7 @@
        "Лев и собачка — история о настоящей дружбе",
        "Басня Отец и сыновья учит единству"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/literature/lesson7.svg"
+      "image": "/images/lessons/grade2/literature/lesson7.svg"
      },
      {
       "title": "Урок 8: К.И. Чуковский",
@@ -177,7 +177,7 @@
        "Федорино горе учит любить чистоту и порядок",
        "Тараканище учит: смелость побеждает страх"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/literature/lesson8.svg"
+      "image": "/images/lessons/grade2/literature/lesson8.svg"
      }
     ]
    },
@@ -205,7 +205,7 @@
        "Кот в сапогах учит: ум важнее богатства",
        "Спящая красавица учит: любовь побеждает зло"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/literature/lesson9.svg"
+      "image": "/images/lessons/grade2/literature/lesson9.svg"
      },
      {
       "title": "Урок 10: Ганс Христиан Андерсен",
@@ -228,7 +228,7 @@
        "Снежная королева учит: любовь побеждает любое зло",
        "Стойкий оловянный солдатик учит: настоящая любовь до конца"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/literature/lesson10.svg"
+      "image": "/images/lessons/grade2/literature/lesson10.svg"
      }
     ]
    }

@@ -22,7 +22,7 @@
        "Найти синие предметы",
        "Раскрасить радугу по порядку"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/art/lesson1-rainbow-colors.svg"
+      "image": "/images/lessons/grade1/art/lesson1-rainbow-colors.svg"
      },
      {
       "title": "Урок 2: Основные цвета",
@@ -33,7 +33,7 @@
        "Узнать синий цвет",
        "Найти предметы основных цветов"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/art/lesson2-primary-colors.svg"
+      "image": "/images/lessons/grade1/art/lesson2-primary-colors.svg"
      },
      {
       "title": "Урок 3: Смешивание цветов",
@@ -44,7 +44,7 @@
        "Красный + синий = фиолетовый",
        "Нарисовать цветовой круг"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/art/lesson3-mixing-colors.svg"
+      "image": "/images/lessons/grade1/art/lesson3-mixing-colors.svg"
      },
      {
       "title": "Урок 4: Тёплые и холодные",
@@ -55,7 +55,7 @@
        "Нарисовать солнце тёплыми цветами",
        "Нарисовать снег холодными цветами"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/art/lesson4-warm-cold.svg"
+      "image": "/images/lessons/grade1/art/lesson4-warm-cold.svg"
      }
     ]
    },
@@ -71,7 +71,7 @@
        "Нарисовать ломаную линию",
        "Создать узор из линий"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/art/lesson5-lines.svg"
+      "image": "/images/lessons/grade1/art/lesson5-lines.svg"
      },
      {
       "title": "Урок 6: Геометрические фигуры",
@@ -82,7 +82,7 @@
        "Нарисовать треугольник",
        "Составить рисунок из фигур"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/art/lesson6-shapes.svg"
+      "image": "/images/lessons/grade1/art/lesson6-shapes.svg"
      },
      {
       "title": "Урок 7: Штриховка",
@@ -93,7 +93,7 @@
        "Заштриховать треугольник",
        "Создать узор штриховкой"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/art/lesson7-hatching.svg"
+      "image": "/images/lessons/grade1/art/lesson7-hatching.svg"
      },
      {
       "title": "Урок 8: Контур и заливка",
@@ -104,7 +104,7 @@
        "Создать аппликацию из фигур",
        "Составить орнамент"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/art/lesson8-contour-fill.svg"
+      "image": "/images/lessons/grade1/art/lesson8-contour-fill.svg"
      }
     ]
    },
@@ -120,7 +120,7 @@
        "Нарисовать небо",
        "Нарисовать траву"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/art/lesson9-brush-painting.svg"
+      "image": "/images/lessons/grade1/art/lesson9-brush-painting.svg"
      },
      {
       "title": "Урок 10: Акварель",
@@ -131,7 +131,7 @@
        "Сделать развод красок",
        "Нарисовать пейзаж"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/art/lesson10-watercolor.svg"
+      "image": "/images/lessons/grade1/art/lesson10-watercolor.svg"
      },
      {
       "title": "Урок 11: Гуашь",
@@ -142,7 +142,7 @@
        "Нарисовать узор гуашью",
        "Создать открытку"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/art/lesson11-gouache.svg"
+      "image": "/images/lessons/grade1/art/lesson11-gouache.svg"
      },
      {
       "title": "Урок 12: Свободное рисование",
@@ -153,7 +153,7 @@
        "Рассказать о рисунке",
        "Оформить работу"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/art/lesson12-free-drawing.svg"
+      "image": "/images/lessons/grade1/art/lesson12-free-drawing.svg"
      }
     ]
    }

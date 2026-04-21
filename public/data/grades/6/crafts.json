@@ -318,7 +318,7 @@
  "games": [
   {
    "title": "Народные промыслы",
-   "image": "/school-curriculum-app/images/lessons/grade6/crafts/lesson11.svg",
+   "image": "/images/lessons/grade6/crafts/lesson11.svg",
    "subject": "Художественные ремёсла",
    "icon": "Brush",
    "color": "text-amber-600",
@@ -394,7 +394,7 @@
   },
   {
    "title": "Техники ремёсел",
-   "image": "/school-curriculum-app/images/lessons/grade6/crafts/lesson12.svg",
+   "image": "/images/lessons/grade6/crafts/lesson12.svg",
    "subject": "Художественные ремёсла",
    "icon": "Brush",
    "color": "text-amber-600",

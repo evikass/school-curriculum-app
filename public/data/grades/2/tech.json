@@ -32,7 +32,7 @@
        "Цветная бумага подходит для аппликаций и поделок",
        "Ножницы передают кольцами вперёд для безопасности"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/tech/lesson1.svg"
+      "image": "/images/lessons/grade2/tech/lesson1.svg"
      },
      {
       "title": "Урок 2: Аппликация «Цветы»",
@@ -43,7 +43,7 @@
        "Составить композицию",
        "Наклеить детали"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/tech/lesson2.svg"
+      "image": "/images/lessons/grade2/tech/lesson2.svg"
      },
      {
       "title": "Урок 3: Оригами «Голубь»",
@@ -54,7 +54,7 @@
        "Сделать самолёт из бумаги",
        "Украсить поделку"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/tech/lesson3.svg"
+      "image": "/images/lessons/grade2/tech/lesson3.svg"
      },
      {
       "title": "Урок 4: Объёмные поделки",
@@ -75,7 +75,7 @@
        "Ёлочка: зелёный конус + полоски бумаги-ёлочки",
        "Ракета: цилиндр-корпус + конус-нос + стабилизаторы"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/tech/lesson4.svg"
+      "image": "/images/lessons/grade2/tech/lesson4.svg"
      }
     ]
    },
@@ -101,7 +101,7 @@
        "Медведь: большая шишка (тело) + маленькая (голова)",
        "Птичка: шишка + веточки для крыльев и хвоста"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/tech/lesson5.svg"
+      "image": "/images/lessons/grade2/tech/lesson5.svg"
      },
      {
       "title": "Урок 6: Аппликация из листьев",
@@ -122,7 +122,7 @@
        "Павлин: крупные листья разложить веером для хвоста",
        "Клёновые листья похожи на звёздочки — для украшения"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/tech/lesson6.svg"
+      "image": "/images/lessons/grade2/tech/lesson6.svg"
      }
     ]
    }

@@ -36,7 +36,7 @@
        "💡 В древности на Руси счёт вёлся сороками: сорок соболей — это одна меховая шуба!",
        "💡 Число 100 — первое трёхзначное число, оно состоит из 1 сотни!"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/math/lesson1.svg"
+      "image": "/images/lessons/grade2/math/lesson1.svg"
      },
      {
       "title": "Урок 2: 🔵 Круглые числа и счёт десятками",
@@ -58,7 +58,7 @@
        "💡 Древние римляне не знали нуля и записывали круглые числа иначе: X, XX, XXX, XL, L.",
        "💡 100 — единственное трёхзначное круглое число в первой сотне!"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/math/lesson2.svg"
+      "image": "/images/lessons/grade2/math/lesson2.svg"
      },
      {
       "title": "Урок 3: 📏 Двузначные числа и их разряды",
@@ -80,7 +80,7 @@
        "💡 Всего существует 90 двузначных чисел: от 10 до 99.",
        "💡 Чтобы найти соседей числа, нужно вычесть 1 и прибавить 1."
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/math/lesson3.svg"
+      "image": "/images/lessons/grade2/math/lesson3.svg"
      },
      {
       "title": "Урок 4: ➕ Сложение двузначных чисел",
@@ -102,7 +102,7 @@
        "💡 Слово «сложение» происходит от слова «слагать» — соединять.",
        "💡 При сложении числа можно менять местами: 23 + 15 = 15 + 23 = 38"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/math/lesson4.svg"
+      "image": "/images/lessons/grade2/math/lesson4.svg"
      },
      {
       "title": "Урок 5: ➖ Вычитание двузначных чисел",
@@ -124,7 +124,7 @@
        "💡 Чтобы проверить вычитание, нужно к разности прибавить вычитаемое: 47 - 23 = 24, проверка: 24 + 23 = 47",
        "💡 При вычитании числа менять местами нельзя! 47 - 23 ≠ 23 - 47"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/math/lesson5.svg"
+      "image": "/images/lessons/grade2/math/lesson5.svg"
      }
     ]
    },
@@ -151,7 +151,7 @@
        "💡 Умножение — самое быстрое арифметическое действие!",
        "💡 Таблицу умножения называют «таблицей Пифагора» в честь древнегреческого математика."
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/math/lesson6.svg"
+      "image": "/images/lessons/grade2/math/lesson6.svg"
      },
      {
       "title": "Урок 7: 2️⃣ Таблица умножения на 2",
@@ -173,7 +173,7 @@
        "💡 Все числа при умножении на 2 становятся чётными!",
        "💡 В древности люди считали на пальцах — поэтому таблица на 2 самая простая!"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/math/lesson7.svg"
+      "image": "/images/lessons/grade2/math/lesson7.svg"
      },
      {
       "title": "Урок 8: 3️⃣ Таблица умножения на 3",
@@ -195,7 +195,7 @@
        "💡 Треугольник имеет 3 стороны, 3 угла и 3 вершины — всё связано с числом 3!",
        "💡 В сказках часто встречается число 3: три медведя, три поросёнка, три богатыря!"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/math/lesson8.svg"
+      "image": "/images/lessons/grade2/math/lesson8.svg"
      },
      {
       "title": "Урок 9: ➗ Что такое деление?",
@@ -217,7 +217,7 @@
        "💡 Знак деления «:» ввёл немецкий математик Лейбниц в 1684 году.",
        "💡 Деление — самое медленное арифметическое действие!"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/math/lesson9.svg"
+      "image": "/images/lessons/grade2/math/lesson9.svg"
      },
      {
       "title": "Урок 10: 2️⃣➗ Деление на 2 и на 3",
@@ -239,7 +239,7 @@
        "💡 Числа, которые делятся на 2, называются чётными!",
        "💡 Деление — это проверка умножения: если 3 × 8 = 24, то 24 : 3 = 8"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/math/lesson10.svg"
+      "image": "/images/lessons/grade2/math/lesson10.svg"
      }
     ]
    },
@@ -266,7 +266,7 @@
        "💡 В задачах на деление есть слово «поровну» — значит делим!",
        "💡 После решения задачи обязательно проверь ответ!"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/math/lesson11.svg"
+      "image": "/images/lessons/grade2/math/lesson11.svg"
      },
      {
       "title": "Урок 12: 📐 Периметр фигур",
@@ -288,7 +288,7 @@
        "💡 Периметр — это как забор вокруг огорода: сколько нужно материала, чтобы оградить участок.",
        "💡 У квадрата и прямоугольника может быть одинаковый периметр!"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/math/lesson12.svg"
+      "image": "/images/lessons/grade2/math/lesson12.svg"
      }
     ]
    }

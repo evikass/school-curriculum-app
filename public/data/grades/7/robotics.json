@@ -15,7 +15,7 @@
     "lessons": [
      {
       "title": "Что такое робототехника",
-      "image": "/school-curriculum-app/images/lessons/grade7/robotics/lesson1.svg",
+      "image": "/images/lessons/grade7/robotics/lesson1.svg",
       "description": "**Робототехника** — наука о создании и применении роботов.\n\n**Робот** — машина, способная выполнять действия человека.\n\n**Отличия от обычных машин:**\n- Автономность — способность работать без человека\n- Адаптация — приспособление к условиям\n- Обучаемость — улучшение работы с опытом\n\n**История робототехники:**\n- Древний мир — механические куклы, автоматоны\n- 1961 — первый промышленный робот Unimate\n- XX век — космические роботы, марсоходы\n- XXI век — роботы-гуманоиды, дроны\n\n**Законы робототехники Айзека Азимова:**\n1. Робот не может причинить вред человеку\n2. Робот должен подчиняться человеку (кроме случаев вреда)\n3. Робот должен заботиться о своей безопасности\n\n**Современные направления:**\n- Промышленные роботы (сварка, сборка)\n- Сервисные роботы (уборка, доставка)\n- Медицинские роботы (хирургия)\n- Образовательные роботы (обучение)\n- Беспилотные автомобили\n- Дроны",
       "tasks": [
        "Что такое робот?",
@@ -36,7 +36,7 @@
      },
      {
       "title": "Виды роботов",
-      "image": "/school-curriculum-app/images/lessons/grade7/robotics/lesson2.svg",
+      "image": "/images/lessons/grade7/robotics/lesson2.svg",
       "description": "**Классификация роботов:**\n\n**По сфере применения:**\n\n**Промышленные роботы:**\n- Сварка кузовов автомобилей\n- Покраска\n- Сборка деталей\n- Перемещение грузов\n\n**Сервисные роботы:**\n- Роботы-пылесосы\n- Роботы-доставщики\n- Роботы-гиды в музеях\n- Роботы-официанты\n\n**Медицинские роботы:**\n- Хирургический робот Da Vinci\n- Роботы-реабилитологи\n- Роботы-фармацевты\n- Экзоскелеты\n\n**Образовательные роботы:**\n- LEGO Mindstorms\n- mBot\n- Arduino-роботы\n\n**Беспилотные транспортные средства:**\n- Беспилотные автомобили\n- Дроны\n- Подводные дроны\n\n**По типу движения:**\n\n**Колёсные:**\n- Самые распространённые\n- Простая конструкция\n- Пример: робот-пылесос\n\n**Гусеничные:**\n- Высокая проходимость\n- Пример: танки, марсоходы\n\n**Шагающие:**\n- Сложная конструкция\n- Пример: робот-собака Boston Dynamics\n\n**Летающие:**\n- Дроны, квадрокоптеры",
       "tasks": [
        "Какие виды роботов по применению?",
@@ -62,7 +62,7 @@
     "lessons": [
      {
       "title": "Основные компоненты робота",
-      "image": "/school-curriculum-app/images/lessons/grade7/robotics/lesson3.svg",
+      "image": "/images/lessons/grade7/robotics/lesson3.svg",
       "description": "**Структура робота:**\n\n**Механическая часть:**\n\n**Корпус (шасси):**\n- Основа робота\n- Крепление всех компонентов\n- Материалы: пластик, металл\n\n**Приводы (моторы):**\n- DC-моторы — простые, дешёвые\n- Сервоприводы — точное позиционирование\n- Шаговые моторы — точные шаги\n\n**Передаточные механизмы:**\n- Шестерни\n- Ремни\n- Редукторы\n\n**Электронная часть:**\n\n**Микроконтроллер:**\n- «Мозг» робота\n- Arduino, ESP32, Raspberry Pi\n- Обрабатывает сигналы, управляет моторами\n\n**Датчики:**\n- Сбор информации об окружающей среде\n- Расстояние, свет, температура\n\n**Актуаторы:**\n- Исполнительные механизмы\n- Моторы, реле, светодиоды\n\n**Питание:**\n- Батареи, аккумуляторы\n- Напряжение: 5V, 9V, 12V\n\n**Системы связи:**\n- Bluetooth\n- Wi-Fi\n- Радиоуправление",
       "tasks": [
        "Какие компоненты есть у робота?",
@@ -83,7 +83,7 @@
      },
      {
       "title": "Arduino — платформа для роботов",
-      "image": "/school-curriculum-app/images/lessons/grade7/robotics/lesson4.svg",
+      "image": "/images/lessons/grade7/robotics/lesson4.svg",
       "description": "**Arduino** — популярная платформа для создания роботов.\n\n**Особенности:**\n- Простота использования\n- Открытый исходный код\n- Большое сообщество\n\n**Виды плат Arduino:**\n\n**Arduino Uno:**\n- Самая популярная\n- ATmega328P микроконтроллер\n- 14 цифровых пинов, 6 аналоговых\n\n**Arduino Nano:**\n- Компактная версия\n- Для маленьких проектов\n\n**Arduino Mega:**\n- Больше пинов\n- Для сложных проектов\n\n**ESP32:**\n- Встроенный Wi-Fi и Bluetooth\n- Мощнее Arduino\n- Для IoT проектов\n\n**Программирование Arduino:**\n\n**Структура программы:**\n```cpp\nvoid setup() {\n  // Выполняется один раз при запуске\n  pinMode(13, OUTPUT);\n}\n\nvoid loop() {\n  // Выполняется бесконечно\n  digitalWrite(13, HIGH);\n  delay(1000);\n  digitalWrite(13, LOW);\n  delay(1000);\n}\n```\n\n**Основные функции:**\n- pinMode() — настройка пина\n- digitalWrite() — подача сигнала\n- analogRead() — чтение аналогового сигнала\n- delay() — пауза",
       "tasks": [
        "Что такое Arduino?",
@@ -109,7 +109,7 @@
     "lessons": [
      {
       "title": "Основы программирования Arduino",
-      "image": "/school-curriculum-app/images/lessons/grade7/robotics/lesson5.svg",
+      "image": "/images/lessons/grade7/robotics/lesson5.svg",
       "description": "**Язык программирования:**\n- Основан на C/C++\n- Упрощён для начинающих\n\n**Переменные:**\n\n**Типы данных:**\n- int — целые числа\n- float — дробные числа\n- bool — логические (true/false)\n- String — строки\n\n**Пример:**\n```cpp\nint ledPin = 13;\nint sensorValue = 0;\nfloat temperature = 25.5;\n```\n\n**Условия:**\n```cpp\nif (sensorValue > 500) {\n  digitalWrite(ledPin, HIGH);\n} else {\n  digitalWrite(ledPin, LOW);\n}\n```\n\n**Циклы:**\n```cpp\n// Цикл for\nfor (int i = 0; i < 10; i++) {\n  // Повторить 10 раз\n}\n\n// Цикл while\nwhile (sensorValue < 1000) {\n  sensorValue = analogRead(A0);\n}\n```\n\n**Функции:**\n```cpp\nvoid blink(int pin, int duration) {\n  digitalWrite(pin, HIGH);\n  delay(duration);\n  digitalWrite(pin, LOW);\n  delay(duration);\n}\n```",
       "tasks": [
        "На каком языке программируется Arduino?",
@@ -130,7 +130,7 @@
      },
      {
       "title": "Управление моторами",
-      "image": "/school-curriculum-app/images/lessons/grade7/robotics/lesson6.svg",
+      "image": "/images/lessons/grade7/robotics/lesson6.svg",
       "description": "**Подключение DC-мотора:**\n\n**Прямое подключение (не рекомендуется):**\n- Мотор потребляет много тока\n- Arduino может сгореть\n\n**Использование драйвера:**\n\n**H-мост (L298N):**\n- Позволяет управлять направлением\n- Управляет скоростью\n- Защищает Arduino\n\n**Подключение:**\n```\nМотор → драйвер → Arduino\n- IN1, IN2 — направление\n- ENA — скорость (PWM)\n```\n\n**Код управления:**\n```cpp\nint motorPin1 = 5;\nint motorPin2 = 6;\nint speedPin = 9;\n\nvoid setup() {\n  pinMode(motorPin1, OUTPUT);\n  pinMode(motorPin2, OUTPUT);\n  pinMode(speedPin, OUTPUT);\n}\n\nvoid forward(int speed) {\n  digitalWrite(motorPin1, HIGH);\n  digitalWrite(motorPin2, LOW);\n  analogWrite(speedPin, speed);\n}\n\nvoid backward(int speed) {\n  digitalWrite(motorPin1, LOW);\n  digitalWrite(motorPin2, HIGH);\n  analogWrite(speedPin, speed);\n}\n```\n\n**PWM (ШИМ):**\n- Pulse Width Modulation\n- Управление скоростью мотора\n- Значения: 0-255",
       "tasks": [
        "Почему нельзя подключить мотор напрямую?",
@@ -156,7 +156,7 @@
     "lessons": [
      {
       "title": "Ультразвуковой датчик расстояния",
-      "image": "/school-curriculum-app/images/lessons/grade7/robotics/lesson7.svg",
+      "image": "/images/lessons/grade7/robotics/lesson7.svg",
       "description": "**HC-SR04** — популярный датчик расстояния.\n\n**Принцип работы:**\n1. Датчик излучает ультразвуковой сигнал\n2. Сигнал отражается от препятствия\n3. Датчик принимает отражённый сигнал\n4. Вычисляется расстояние по времени\n\n**Характеристики:**\n- Диапазон: 2-400 см\n- Точность: ~3 мм\n- Угол обзора: ~15°\n\n**Подключение:**\n```\nVCC → 5V\nGND → GND\nTrig → цифровой пин\nEcho → цифровой пин\n```\n\n**Программа:**\n```cpp\nint trigPin = 9;\nint echoPin = 10;\n\nvoid setup() {\n  pinMode(trigPin, OUTPUT);\n  pinMode(echoPin, INPUT);\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  // Отправка сигнала\n  digitalWrite(trigPin, LOW);\n  delayMicroseconds(2);\n  digitalWrite(trigPin, HIGH);\n  delayMicroseconds(10);\n  digitalWrite(trigPin, LOW);\n\n  // Измерение времени\n  long duration = pulseIn(echoPin, HIGH);\n  \n  // Вычисление расстояния (см)\n  int distance = duration / 58;\n  \n  Serial.print(\"Расстояние: \");\n  Serial.print(distance);\n  Serial.println(\" см\");\n  delay(100);\n}\n```",
       "tasks": [
        "Как работает ультразвуковой датчик?",
@@ -177,7 +177,7 @@
      },
      {
       "title": "Датчик линии и датчик света",
-      "image": "/school-curriculum-app/images/lessons/grade7/robotics/lesson8.svg",
+      "image": "/images/lessons/grade7/robotics/lesson8.svg",
       "description": "**Датчик линии:**\n\n**Принцип работы:**\n- ИК-светодиод излучает свет\n- Свет отражается от поверхности\n- Фотодиод измеряет отражённый свет\n\n**Особенности:**\n- Белая поверхность отражает больше света\n- Чёрная поверхность поглощает свет\n- Высокое значение = белый, низкое = чёрный\n\n**Применение:**\n- Движение по линии\n- Роботы-пылесосы\n- Определение края стола\n\n**Код:**\n```cpp\nint sensorPin = A0;\n\nvoid loop() {\n  int value = analogRead(sensorPin);\n  \n  if (value > 500) {\n    // Белая поверхность\n    goForward();\n  } else {\n    // Чёрная линия\n    turn();\n  }\n}\n```\n\n**Датчик света (фоторезистор):**\n\n**Принцип:**\n- Сопротивление меняется от освещённости\n- Чем больше света, тем меньше сопротивление\n\n**Применение:**\n- Автоматическое освещение\n- Робот следует за светом\n\n**Калибровка:**\n- Определить пороговые значения\n- Настроить под условия",
       "tasks": [
        "Как работает датчик линии?",
@@ -203,7 +203,7 @@
  "games": [
   {
    "title": "Основы робототехники",
-   "image": "/school-curriculum-app/images/lessons/grade7/robotics/lesson25.svg",
+   "image": "/images/lessons/grade7/robotics/lesson25.svg",
    "subject": "Робототехника",
    "icon": "Cpu",
    "color": "text-purple-400",
@@ -281,7 +281,7 @@
   },
   {
    "title": "Компоненты робота",
-   "image": "/school-curriculum-app/images/lessons/grade7/robotics/lesson26.svg",
+   "image": "/images/lessons/grade7/robotics/lesson26.svg",
    "subject": "Робототехника",
    "icon": "Settings",
    "color": "text-blue-400",
@@ -365,7 +365,7 @@
   },
   {
    "title": "Датчики и сенсоры",
-   "image": "/school-curriculum-app/images/lessons/grade7/robotics/lesson27.svg",
+   "image": "/images/lessons/grade7/robotics/lesson27.svg",
    "subject": "Робототехника",
    "icon": "Radio",
    "color": "text-yellow-400",
@@ -443,7 +443,7 @@
   },
   {
    "title": "Программирование Arduino",
-   "image": "/school-curriculum-app/images/lessons/grade7/robotics/lesson28.svg",
+   "image": "/images/lessons/grade7/robotics/lesson28.svg",
    "subject": "Робототехника",
    "icon": "Cpu",
    "color": "text-purple-400",

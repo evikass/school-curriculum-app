@@ -306,7 +306,7 @@
  "games": [
   {
    "title": "Основы химии",
-   "image": "/school-curriculum-app/images/lessons/grade6/chemistry/lesson11.svg",
+   "image": "/images/lessons/grade6/chemistry/lesson11.svg",
    "subject": "Химия",
    "icon": "FlaskConical",
    "color": "text-cyan-400",
@@ -374,7 +374,7 @@
   },
   {
    "title": "Элементы и формулы",
-   "image": "/school-curriculum-app/images/lessons/grade6/chemistry/lesson12.svg",
+   "image": "/images/lessons/grade6/chemistry/lesson12.svg",
    "subject": "Химия",
    "icon": "FlaskConical",
    "color": "text-cyan-400",

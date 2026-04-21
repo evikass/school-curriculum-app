@@ -22,7 +22,7 @@
        "Спеть простую песенку",
        "Петь вместе с классом"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/music/lesson1-voice-song.svg"
+      "image": "/images/lessons/grade1/music/lesson1-voice-song.svg"
      },
      {
       "title": "Урок 2: Детские песни",
@@ -33,7 +33,7 @@
        "Спеть «Пусть бегут неуклюже»",
        "Выучить слова песни"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/music/lesson2-children-songs.svg"
+      "image": "/images/lessons/grade1/music/lesson2-children-songs.svg"
      },
      {
       "title": "Урок 3: Народные песни",
@@ -44,7 +44,7 @@
        "Спеть «Ладушки»",
        "Разучить хороводную песню"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/music/lesson3-folk-songs.svg"
+      "image": "/images/lessons/grade1/music/lesson3-folk-songs.svg"
      },
      {
       "title": "Урок 4: Праздничные песни",
@@ -55,7 +55,7 @@
        "Спеть песню к Дню Победы",
        "Выступить на празднике"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/music/lesson4-holiday-songs.svg"
+      "image": "/images/lessons/grade1/music/lesson4-holiday-songs.svg"
      }
     ]
    },
@@ -71,7 +71,7 @@
        "Поиграть на погремушке",
        "Создать ритмический рисунок"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/music/lesson5-percussion.svg"
+      "image": "/images/lessons/grade1/music/lesson5-percussion.svg"
      },
      {
       "title": "Урок 6: Клавишные инструменты",
@@ -82,7 +82,7 @@
        "Сыграть простую мелодию",
        "Послушать орган"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/music/lesson6-keyboard.svg"
+      "image": "/images/lessons/grade1/music/lesson6-keyboard.svg"
      },
      {
       "title": "Урок 7: Струнные инструменты",
@@ -93,7 +93,7 @@
        "Послушать концерт",
        "Попробовать сыграть"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/music/lesson7-strings.svg"
+      "image": "/images/lessons/grade1/music/lesson7-strings.svg"
      },
      {
       "title": "Урок 8: Духовые инструменты",
@@ -104,7 +104,7 @@
        "Послушать оркестр",
        "Угадать инструмент по звуку"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/music/lesson8-wind.svg"
+      "image": "/images/lessons/grade1/music/lesson8-wind.svg"
      }
     ]
    },
@@ -120,7 +120,7 @@
        "Простучать ритм палочками",
        "Создать свой ритм"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/music/lesson9-rhythm.svg"
+      "image": "/images/lessons/grade1/music/lesson9-rhythm.svg"
      },
      {
       "title": "Урок 10: Музыка и движение",
@@ -131,7 +131,7 @@
        "Маршировать",
        "Кружиться под вальс"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/music/lesson10-music-movement.svg"
+      "image": "/images/lessons/grade1/music/lesson10-music-movement.svg"
      },
      {
       "title": "Урок 11: Темп",
@@ -142,7 +142,7 @@
        "Двигаться быстро под музыку",
        "Двигаться медленно под музыку"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/music/lesson11-tempo.svg"
+      "image": "/images/lessons/grade1/music/lesson11-tempo.svg"
      },
      {
       "title": "Урок 12: Громкость",
@@ -153,7 +153,7 @@
        "Играть тихо на инструменте",
        "Играть громко на инструменте"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/music/lesson12-volume.svg"
+      "image": "/images/lessons/grade1/music/lesson12-volume.svg"
      }
     ]
    }

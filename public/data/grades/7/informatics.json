@@ -15,7 +15,7 @@
     "lessons": [
      {
       "title": "Введение в программирование",
-      "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson1.svg",
+      "image": "/images/lessons/grade7/informatics/lesson1.svg",
       "description": "**Программирование** — процесс создания программ для компьютера.\n\n**Что такое программа:**\n- Последовательность команд для компьютера\n- Написана на языке программирования\n- Выполняется компьютером шаг за шагом\n\n**Языки программирования:**\n\n**Python:**\n- Простой и понятный синтаксис\n- Популярен для обучения\n- Используется в науке и разработке\n\n**JavaScript:**\n- Для создания веб-сайтов\n- Работает в браузере\n- Интерактивные элементы\n\n**C++:**\n- Профессиональный язык\n- Высокая производительность\n- Игры и программы\n\n**Среда разработки (IDE):**\n- Программа для написания кода\n- Подсветка синтаксиса\n- Поиск ошибок\n- Примеры: VS Code, PyCharm, IDLE\n\n**Первая программа:**\n```python\nprint(\"Привет, мир!\")\n```\n\n**Правила написания кода:**\n- Соблюдать отступы\n- Правильно расставлять скобки\n- Комментарии для пояснений",
       "tasks": [
        "Что такое программа?",
@@ -36,7 +36,7 @@
      },
      {
       "title": "Переменные и типы данных",
-      "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson2.svg",
+      "image": "/images/lessons/grade7/informatics/lesson2.svg",
       "description": "**Переменная** — именованная область памяти для хранения данных.\n\n**Создание переменной:**\n```python\nname = \"Иван\"\nage = 14\nheight = 1.75\nis_student = True\n```\n\n**Типы данных:**\n\n**Целые числа (int):**\n- -5, 0, 14, 100\n- Арифметические операции: +, -, *, /, //, %\n\n**Вещественные числа (float):**\n- 3.14, -2.5, 1.75\n- Деление даёт float: 7 / 2 = 3.5\n\n**Строки (str):**\n- Текст в кавычках\n- \"Привет\", 'Мир'\n- Операции: + (объединение), * (повторение)\n\n**Логические (bool):**\n- True (истина) или False (ложь)\n- Результат сравнений\n\n**Операции сравнения:**\n- == (равно)\n- != (не равно)\n- >, <, >=, <=\n\n**Примеры:**\n```python\nx = 10\ny = 5\nprint(x > y)  # True\nprint(x == y) # False\n```\n\n**Ввод данных:**\n```python\nname = input(\"Введите имя: \")\nage = int(input(\"Введите возраст: \"))\n```",
       "tasks": [
        "Что такое переменная?",
@@ -57,7 +57,7 @@
      },
      {
       "title": "Условия и ветвления",
-      "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson3.svg",
+      "image": "/images/lessons/grade7/informatics/lesson3.svg",
       "description": "**Условный оператор if** — выполняет код при выполнении условия.\n\n**Базовый синтаксис:**\n```python\nif условие:\n    # код выполняется, если условие истинно\n```\n\n**Полная форма:**\n```python\nage = 18\nif age >= 18:\n    print(\"Совершеннолетний\")\nelse:\n    print(\"Несовершеннолетний\")\n```\n\n**Множественные условия (elif):**\n```python\nscore = 85\nif score >= 90:\n    print(\"Отлично!\")\nelif score >= 70:\n    print(\"Хорошо\")\nelif score >= 50:\n    print(\"Удовлетворительно\")\nelse:\n    print(\"Неудовлетворительно\")\n```\n\n**Логические операторы:**\n- **and** — логическое И (оба условия)\n- **or** — логическое ИЛИ (хотя бы одно)\n- **not** — логическое НЕ (отрицание)\n\n**Примеры:**\n```python\nage = 16\nhas_ticket = True\n\nif age >= 12 and has_ticket:\n    print(\"Можно на аттракцион\")\n```\n\n**Вложенные условия:**\n```python\nif age >= 18:\n    if has_document:\n        print(\"Доступ разрешён\")\n```",
       "tasks": [
        "Как работает оператор if?",
@@ -78,7 +78,7 @@
      },
      {
       "title": "Циклы в программировании",
-      "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson4.svg",
+      "image": "/images/lessons/grade7/informatics/lesson4.svg",
       "description": "**Цикл** — повторение действий определённое количество раз.\n\n**Цикл for:**\n```python\nfor i in range(5):\n    print(i)  # Выведет 0, 1, 2, 3, 4\n```\n\n**Функция range():**\n- range(5) — числа от 0 до 4\n- range(1, 6) — числа от 1 до 5\n- range(0, 10, 2) — 0, 2, 4, 6, 8 (с шагом 2)\n\n**Перебор элементов:**\n```python\nfruits = [\"яблоко\", \"банан\", \"апельсин\"]\nfor fruit in fruits:\n    print(fruit)\n```\n\n**Цикл while:**\n```python\ncount = 0\nwhile count < 5:\n    print(count)\n    count += 1\n```\n\n**Операторы управления:**\n- **break** — выход из цикла\n- **continue** — переход к следующей итерации\n\n**Пример с break:**\n```python\nfor i in range(10):\n    if i == 5:\n        break  # Остановится на 5\n    print(i)\n```\n\n**Вложенные циклы:**\n```python\nfor i in range(3):\n    for j in range(3):\n        print(i, j)\n```",
       "tasks": [
        "Чем for отличается от while?",
@@ -104,7 +104,7 @@
     "lessons": [
      {
       "title": "Основы HTML",
-      "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson5.svg",
+      "image": "/images/lessons/grade7/informatics/lesson5.svg",
       "description": "**HTML** (HyperText Markup Language) — язык разметки веб-страниц.\n\n**Структура HTML-документа:**\n```html\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Заголовок страницы</title>\n</head>\n<body>\n    <h1>Привет, мир!</h1>\n    <p>Это мой первый сайт.</p>\n</body>\n</html>\n```\n\n**Основные теги:**\n\n**Заголовки:**\n- <h1> — главный заголовок\n- <h2> — подзаголовок\n- <h3> - <h6> — более мелкие\n\n**Текст:**\n- <p> — параграф\n- <br> — перенос строки\n- <strong> — жирный текст\n- <em> — курсив\n\n**Списки:**\n```html\n<ul>\n    <li>Элемент 1</li>\n    <li>Элемент 2</li>\n</ul>\n```\n\n**Ссылки и изображения:**\n```html\n<a href=\"https://example.com\">Ссылка</a>\n<img src=\"image.jpg\" alt=\"Описание\">\n```\n\n**Атрибуты тегов:**\n- href — адрес ссылки\n- src — путь к изображению\n- alt — альтернативный текст\n- class, id — для стилизации",
       "tasks": [
        "Что такое HTML?",
@@ -125,7 +125,7 @@
      },
      {
       "title": "Основы CSS",
-      "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson6.svg",
+      "image": "/images/lessons/grade7/informatics/lesson6.svg",
       "description": "**CSS** (Cascading Style Sheets) — язык стилей для оформления.\n\n**Способы подключения:**\n```html\n<!-- Внутренний стиль -->\n<style>\n    body { background-color: #f0f0f0; }\n</style>\n\n<!-- Внешний файл -->\n<link rel=\"stylesheet\" href=\"styles.css\">\n```\n\n**Селекторы:**\n\n**По тегу:**\n```css\np { color: blue; }\n```\n\n**По классу:**\n```css\n.highlight { background: yellow; }\n```\n\n**По id:**\n```css\n#header { font-size: 24px; }\n```\n\n**Основные свойства:**\n\n**Цвета:**\n- color — цвет текста\n- background-color — цвет фона\n- Значения: red, #FF0000, rgb(255,0,0)\n\n**Шрифты:**\n- font-size — размер\n- font-family — семейство шрифта\n- font-weight — жирность\n\n**Отступы:**\n- margin — внешний отступ\n- padding — внутренний отступ\n- border — граница\n\n**Блочная модель:**\n```css\n.box {\n    width: 200px;\n    padding: 20px;\n    border: 1px solid black;\n    margin: 10px;\n}\n```",
       "tasks": [
        "Что такое CSS?",
@@ -146,7 +146,7 @@
      },
      {
       "title": "Создание веб-страницы",
-      "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson7.svg",
+      "image": "/images/lessons/grade7/informatics/lesson7.svg",
       "description": "**Этапы создания сайта:**\n\n**1. Планирование:**\n- Определить цель сайта\n- Структура страниц\n- Содержание\n\n**2. HTML-разметка:**\n```html\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Мой сайт</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n    <header>\n        <h1>Мой первый сайт</h1>\n        <nav>\n            <a href=\"#\">Главная</a>\n            <a href=\"#\">О нас</a>\n            <a href=\"#\">Контакты</a>\n        </nav>\n    </header>\n    <main>\n        <article>\n            <h2>Заголовок статьи</h2>\n            <p>Текст статьи...</p>\n        </article>\n    </main>\n    <footer>\n        <p>© 2024 Мой сайт</p>\n    </footer>\n</body>\n</html>\n```\n\n**3. CSS-оформление:**\n```css\nbody {\n    font-family: Arial, sans-serif;\n    max-width: 800px;\n    margin: 0 auto;\n    padding: 20px;\n}\n\nheader {\n    background: #333;\n    color: white;\n    padding: 20px;\n}\n\nnav a {\n    color: white;\n    margin-right: 15px;\n}\n```\n\n**4. Тестирование:**\n- Проверка в браузерах\n- Адаптивность\n- Работоспособность ссылок",
       "tasks": [
        "Какие этапы создания сайта?",
@@ -172,7 +172,7 @@
     "lessons": [
      {
       "title": "Растровая и векторная графика",
-      "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson8.svg",
+      "image": "/images/lessons/grade7/informatics/lesson8.svg",
       "description": "**Виды компьютерной графики:**\n\n**Растровая графика:**\n\n**Особенности:**\n- Изображение из пикселей\n- Каждый пиксель имеет цвет\n- Теряет качество при увеличении\n\n**Форматы:**\n- JPEG — фотографии, сжатие с потерями\n- PNG — с прозрачностью\n- GIF — анимация\n- BMP — без сжатия\n\n**Программы:**\n- Adobe Photoshop\n- GIMP\n- Paint.NET\n\n**Векторная графика:**\n\n**Особенности:**\n- Изображение из геометрических фигур\n- Не теряет качество при масштабировании\n- Математические формулы\n\n**Форматы:**\n- SVG — веб-графика\n- AI — Adobe Illustrator\n- EPS — универсальный\n\n**Программы:**\n- Adobe Illustrator\n- Inkscape\n- CorelDRAW\n\n**Сравнение:**\n\n| Характеристика | Растр | Вектор |\n|----------------|-------|--------|\n| Масштабирование | Теряет качество | Не теряет |\n| Размер файла | Большой | Маленький |\n| Применение | Фото | Логотипы, схемы |",
       "tasks": [
        "Чем растр отличается от вектора?",
@@ -193,7 +193,7 @@
      },
      {
       "title": "Обработка изображений",
-      "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson9.svg",
+      "image": "/images/lessons/grade7/informatics/lesson9.svg",
       "description": "**Основные операции обработки:**\n\n**Кадрирование:**\n- Обрезка изображения\n- Изменение композиции\n- Удаление лишнего\n\n**Изменение размера:**\n- Масштабирование\n- Сохранение пропорций\n- Интерполяция\n\n**Цветокоррекция:**\n- Яркость и контраст\n- Насыщенность\n- Баланс белого\n- Кривые (Curves)\n\n**Ретуширование:**\n- Удаление дефектов\n- Коррекция кожи\n- Удаление объектов\n\n**Фильтры и эффекты:**\n- Размытие\n- Резкость\n- Шум\n- Виньетирование\n\n**Работа со слоями:**\n- Наложение изображений\n- Прозрачность\n- Режимы смешивания\n- Маски слоёв\n\n**Форматы для веб:**\n- JPEG — для фото\n- PNG — для графики с прозрачностью\n- WebP — современный формат\n- SVG — для иконок и логотипов",
       "tasks": [
        "Что такое кадрирование?",
@@ -219,7 +219,7 @@
     "lessons": [
      {
       "title": "Что такое алгоритм",
-      "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson10.svg",
+      "image": "/images/lessons/grade7/informatics/lesson10.svg",
       "description": "**Алгоритм** — точное описание последовательности действий.\n\n**Свойства алгоритма:**\n\n**Дискретность:**\n- Разделение на шаги\n- Выполнение по порядку\n\n**Определённость:**\n- Чёткие инструкции\n- Однозначное понимание\n\n**Результативность:**\n- Приводит к результату\n- Конечное число шагов\n\n**Массовость:**\n- Применим к множеству данных\n- Универсальность\n\n**Способы записи:**\n\n**Словесный:**\n1. Взять книгу\n2. Открыть страницу 10\n3. Прочитать текст\n\n**Блок-схема:**\n- Овал — начало/конец\n- Прямоугольник — действие\n- Ромб — условие\n- Параллелограмм — ввод/вывод\n\n**Псевдокод:**\n```\nНАЧАЛО\n    ВВЕСТИ x, y\n    ЕСЛИ x > y ТО\n        ВЫВЕСТИ x\n    ИНАЧЕ\n        ВЫВЕСТИ y\n    КОНЕЦ ЕСЛИ\nКОНЕЦ\n```\n\n**Программный код:**\n- Запись на языке программирования\n- Исполнение компьютером",
       "tasks": [
        "Что такое алгоритм?",
@@ -240,7 +240,7 @@
      },
      {
       "title": "Исполнители алгоритмов",
-      "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson11.svg",
+      "image": "/images/lessons/grade7/informatics/lesson11.svg",
       "description": "**Исполнитель** — объект, выполняющий алгоритм.\n\n**Характеристики исполнителя:**\n\n**Среда:**\n- Обстановка, в которой работает\n- Доступные объекты\n\n**Система команд (СКИ):**\n- Набор команд исполнителя\n- Что он может делать\n\n**Отказы:**\n- Команда не может быть выполнена\n- Выход за границы среды\n\n**Примеры исполнителей:**\n\n**Робот:**\n- Команды: влево, вправо, вверх, вниз, закрасить\n- Среда: клеточное поле\n- Отказ: стена на пути\n\n**Чертёжник:**\n- Команды: опустить перо, поднять перо, сместиться\n- Среда: координатная плоскость\n- Результат: рисунок\n\n**Черепаха:**\n- Команды: вперёд(n), вправо(угол)\n- Среда: плоскость\n- Результат: линия\n\n**Пример алгоритма для Робота:**\n```\nНАЧАЛО\n    ВПРАВО\n    ВПРАВО\n    ВНИЗ\n    ЗАКРАСИТЬ\n    ВНИЗ\n    ВНИЗ\n    ЗАКРАСИТЬ\nКОНЕЦ\n```\n\n**Формальное исполнение:**\n- Исполнитель не понимает смысла\n- Точно выполняет команды\n- Важна точность алгоритма",
       "tasks": [
        "Что такое исполнитель?",
@@ -266,7 +266,7 @@
  "games": [
   {
    "title": "Программирование",
-   "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson34.svg",
+   "image": "/images/lessons/grade7/informatics/lesson34.svg",
    "subject": "Информатика",
    "icon": "Monitor",
    "color": "text-indigo-400",
@@ -350,7 +350,7 @@
   },
   {
    "title": "Веб-разработка",
-   "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson35.svg",
+   "image": "/images/lessons/grade7/informatics/lesson35.svg",
    "subject": "Информатика",
    "icon": "Monitor",
    "color": "text-indigo-400",
@@ -433,7 +433,7 @@
   },
   {
    "title": "Алгоритмы",
-   "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson36.svg",
+   "image": "/images/lessons/grade7/informatics/lesson36.svg",
    "subject": "Информатика",
    "icon": "Monitor",
    "color": "text-indigo-400",
@@ -516,7 +516,7 @@
   },
   {
    "title": "Компьютерная графика",
-   "image": "/school-curriculum-app/images/lessons/grade7/informatics/lesson37.svg",
+   "image": "/images/lessons/grade7/informatics/lesson37.svg",
    "subject": "Информатика",
    "icon": "Monitor",
    "color": "text-indigo-400",

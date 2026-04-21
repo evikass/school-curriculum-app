@@ -22,7 +22,7 @@
        "Разорвать бумагу",
        "Смять бумагу"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/tech/lesson1-paper.svg"
+      "image": "/images/lessons/grade1/tech/lesson1-paper.svg"
      },
      {
       "title": "Урок 2: Сгибание",
@@ -33,7 +33,7 @@
        "Сделать сгибы ровными",
        "Создать гармошку"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/tech/lesson2-folding.svg"
+      "image": "/images/lessons/grade1/tech/lesson2-folding.svg"
      },
      {
       "title": "Урок 3: Резание",
@@ -44,7 +44,7 @@
        "Вырезать по кривой",
        "Вырезать фигуры"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/tech/lesson3-cutting.svg"
+      "image": "/images/lessons/grade1/tech/lesson3-cutting.svg"
      },
      {
       "title": "Урок 4: Склеивание",
@@ -55,7 +55,7 @@
        "Протереть лишний клей",
        "Дать просохнуть"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/tech/lesson4-gluing.svg"
+      "image": "/images/lessons/grade1/tech/lesson4-gluing.svg"
      }
     ]
    },
@@ -71,7 +71,7 @@
        "Вырезать стебель",
        "Собрать и наклеить"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/tech/lesson5-flower.svg"
+      "image": "/images/lessons/grade1/tech/lesson5-flower.svg"
      },
      {
       "title": "Урок 6: Аппликация «Домик»",
@@ -82,7 +82,7 @@
        "Вырезать прямоугольники",
        "Собрать домик"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/tech/lesson6-house.svg"
+      "image": "/images/lessons/grade1/tech/lesson6-house.svg"
      },
      {
       "title": "Урок 7: Аппликация «Животные»",
@@ -93,7 +93,7 @@
        "Вырезать лапы",
        "Собрать животное"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/tech/lesson7-animals.svg"
+      "image": "/images/lessons/grade1/tech/lesson7-animals.svg"
      },
      {
       "title": "Урок 8: Аппликация «Дерево»",
@@ -104,7 +104,7 @@
        "Вырезать листья",
        "Собрать дерево"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/tech/lesson8-tree.svg"
+      "image": "/images/lessons/grade1/tech/lesson8-tree.svg"
      }
     ]
    },
@@ -120,7 +120,7 @@
        "Наклеить детали",
        "Написать пожелание"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/tech/lesson9-card.svg"
+      "image": "/images/lessons/grade1/tech/lesson9-card.svg"
      },
      {
       "title": "Урок 10: Гирлянда",
@@ -131,7 +131,7 @@
        "Нанизать на нитку",
        "Развесить гирлянду"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/tech/lesson10-garland.svg"
+      "image": "/images/lessons/grade1/tech/lesson10-garland.svg"
      },
      {
       "title": "Урок 11: Закладка",
@@ -142,7 +142,7 @@
        "Сделать красивый край",
        "Использовать в книге"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/tech/lesson11-bookmark.svg"
+      "image": "/images/lessons/grade1/tech/lesson11-bookmark.svg"
      },
      {
       "title": "Урок 12: Мобиле",
@@ -153,7 +153,7 @@
        "Собрать конструкцию",
        "Подвесить мобиле"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade1/tech/lesson12-mobile.svg"
+      "image": "/images/lessons/grade1/tech/lesson12-mobile.svg"
      }
     ]
    }

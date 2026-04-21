@@ -17,7 +17,7 @@
     "lessons": [
      {
       "title": "Урок 1: Hello! 👋",
-      "image": "/school-curriculum-app/images/lessons/grade1/english/lesson1-hello.svg",
+      "image": "/images/lessons/grade1/english/lesson1-hello.svg",
       "description": "**Приветствия на английском языке**\n\nЗдравствуйте! Сегодня мы начинаем изучать английский язык — язык, на котором говорят люди во многих странах мира.\n\n**Как поздороваться:**\n\n**Hello!** [хэ-ло́у] — Здравствуйте!\nЭто самое распространённое приветствие. Можно использовать в любой ситуации.\n\n**Hi!** [хай] — Привет!\nЭто неформальное приветствие для друзей и знакомых.\n\n**Good morning!** [гуд мо́рнинг] — Доброе утро!\nГоворим до 12 часов дня.\n\n**Good afternoon!** [гуд афтэну́н] — Добрый день!\nГоворим с 12 до 18 часов.\n\n**Good evening!** [гуд и́внинг] — Добрый вечер!\nГоворим после 18 часов.\n\n**Правила чтения:**\nВ квадратных скобках показано, как произносить слова. Читаем так, как написано в скобках.\n\n**Примеры диалогов:**\n\n— Hello! I am Ann.\n— Hello! I am Tom.\n\n— Hi! How are you?\n— Hi! I am fine!\n\n**Важно запомнить:**\n- Hello и Hi — самые частые приветствия\n- Good morning/day/evening — более официальные\n- Всегда улыбаемся при приветствии!\n\n**Потренируйся:**\nПопробуй поздороваться с друзьями и родными по-английски!",
       "tasks": [
        "Выучить Hello! и Hi!",
@@ -40,7 +40,7 @@
      },
      {
       "title": "Урок 2: What is your name? 📛",
-      "image": "/school-curriculum-app/images/lessons/grade1/english/lesson2-name.svg",
+      "image": "/images/lessons/grade1/english/lesson2-name.svg",
       "description": "**Как спросить имя и представиться**\n\nСегодня научимся знакомиться на английском языке — спрашивать имя и говорить своё.\n\n**Как спросить имя:**\n\n**What is your name?** [уо́т из ё: нэйм?] — Как тебя зовут?\nЭто вопрос, который задаём новому знакомому.\n\nКороткий вариант: **What's your name?** [уо́тс ё: нэйм?]\n\n**Как ответить:**\n\n**My name is...** [май нэйм из...] — Меня зовут...\nНапример: My name is Anna. [май нэйм из а́нна]\n\n**I am...** [ай эм...] — Я...\nНапример: I am Tom. [ай эм том]\n\nКороткий вариант: **I'm...** [айм...]\nНапример: I'm Kate. [айм кэйт]\n\n**Диалог знакомства:**\n\n— Hello! What is your name?\n— My name is Olga. What is your name?\n— I am Denis. Nice to meet you!\n— Nice to meet you too!\n\n**Полезные фразы:**\n\n**Nice to meet you!** [найс ту ми́т ю!] — Приятно познакомиться!\n\n**How are you?** [ха́у а: ю?] — Как дела?\n\n**I am fine!** [айэм файн!] — Хорошо!\n\n**Английские имена:**\n- Boys: Tom, Ben, Nick, Sam, Dan\n- Girls: Kate, Ann, Jane, Mary, Emma\n\n**Потренируйся:**\nПредставься по-английски и спроси имя у друга!",
       "tasks": [
        "Выучить What is your name?",
@@ -63,7 +63,7 @@
      },
      {
       "title": "Урок 3: Goodbye! 👋",
-      "image": "/school-curriculum-app/images/lessons/grade1/english/lesson3-goodbye.svg",
+      "image": "/images/lessons/grade1/english/lesson3-goodbye.svg",
       "description": "**Прощание на английском языке**\n\nУрок посвящён тому, как правильно прощаться на английском языке.\n\n**Основные прощания:**\n\n**Goodbye!** [гудба́й] — До свидания!\nСамое распространённое прощание.\n\n**Bye!** [бай] — Пока!\nКороткое, неформальное прощание.\n\n**Bye-bye!** [ба́й-бай] — Пока-пока!\nОчень дружелюбное, для близких.\n\n**See you!** [си: ю!] — Увидимся!\nНеформальное прощание.\n\n**See you later!** [си: ю лэ́йтэ!] — До встречи!\nГоворим, если скоро увидимся снова.\n\n**See you tomorrow!** [си: ю тумо́роу!] — До завтра!\n\n**Good night!** [гуд на́йт] — Спокойной ночи!\nГоворим перед сном.\n\n**Have a nice day!** [хэв э найс дэй!] — Хорошего дня!\n\n**Диалоги прощания:**\n\n— Goodbye, Tom!\n— Goodbye, Ann! See you tomorrow!\n\n— Bye, mum!\n— Bye-bye, dear! Have a nice day!\n\n**Песенка прощания:**\nGoodbye, goodbye,\nSee you again!\nGoodbye, goodbye,\nSee you my friend!\n\n**Важно запомнить:**\n- Goodbye — официальное\n- Bye и Bye-bye — для друзей\n- See you — неформальное \"до встречи\"\n- Good night — только перед сном!\n\n**Потренируйся:**\nПопрощайся с друзьями по-английски разными способами!",
       "tasks": [
        "Выучить Goodbye и Bye",
@@ -91,7 +91,7 @@
     "lessons": [
      {
       "title": "Урок 4: Colours 🎨",
-      "image": "/school-curriculum-app/images/lessons/grade1/english/lesson4-colours.svg",
+      "image": "/images/lessons/grade1/english/lesson4-colours.svg",
       "description": "**Цвета на английском языке**\n\nСегодня выучим названия основных цветов! Цвета по-английски — Colours [ка́лэз].\n\n**Основные цвета:**\n\n**Red** [рэд] — Красный\n🍎 Apple is red. — Яблоко красное.\n\n**Blue** [блу] — Синий\n🌊 The sea is blue. — Море синее.\n\n**Green** [грин] — Зелёный\n🌳 Grass is green. — Трава зелёная.\n\n**Yellow** [йэ́ллоу] — Жёлтый\n☀️ Sun is yellow. — Солнце жёлтое.\n\n**Orange** [о́риндж] — Оранжевый\n🍊 Orange is orange. — Апельсин оранжевый.\n\n**Purple** [пёпл] — Фиолетовый\n🍇 Grapes are purple. — Виноград фиолетовый.\n\n**Pink** [пинк] — Розовый\n🌸 Flower is pink. — Цветок розовый.\n\n**Black** [блэк] — Чёрный\n🖤 Black cat. — Чёрная кошка.\n\n**White** [уа́йт] — Белый\n☁️ Cloud is white. — Облако белое.\n\n**Brown** [бра́ун] — Коричневый\n🐻 Bear is brown. — Медведь коричневый.\n\n**Вопрос о цвете:**\n\n**What colour is it?** [уо́т ка́лэ из ит?] — Какой это цвет?\n\n**It is red.** [ит из рэд] — Это красный.\n\n**Диалог:**\n— What colour is the apple?\n— It is red!\n\n**Потренируйся:**\nНазови цвета предметов вокруг себя!",
       "tasks": [
        "Выучить 10 цветов",
@@ -114,7 +114,7 @@
      },
      {
       "title": "Урок 5: Numbers 1-5 🔢",
-      "image": "/school-curriculum-app/images/lessons/grade1/english/lesson5-numbers-1-5.svg",
+      "image": "/images/lessons/grade1/english/lesson5-numbers-1-5.svg",
       "description": "**Числа от 1 до 5**\n\nСегодня выучим числа от одного до пяти на английском языке!\n\n**Числа 1-5:**\n\n**One** [уа́н] — Один\n✏️ One pencil. — Один карандаш.\n\n**Two** [ту] — Два\n✏️✏️ Two pencils. — Два карандаша.\n\n**Three** [три] — Три\n🍎🍎🍎 Three apples. — Три яблока.\n\n**Four** [фо] — Четыре\n🌸🌸🌸🌸 Four flowers. — Четыре цветка.\n\n**Five** [файв] — Пять\n⭐⭐⭐⭐⭐ Five stars. — Пять звёзд.\n\n**Правила:**\n- После числа идёт существительное (предмет)\n- Запомни произношение каждого числа!\n\n**Счёт:**\nOne, two, three, four, five!\nI can count! I am alive!\n\n**Вопрос:**\n**How many?** [ха́у мэ́ни?] — Сколько?\n\n**Ответ:**\n— How many apples?\n— Three apples!\n\n**Математика по-английски:**\n1 + 1 = 2 → One plus one is two.\n2 + 2 = 4 → Two plus two is four.\n\n**Пальчики:**\nПокажи пальцы и посчитай:\nOne finger, two fingers, three fingers, four!\nFive fingers on one hand — count some more!\n\n**Потренируйся:**\nПосчитай предметы вокруг себя от 1 до 5!",
       "tasks": [
        "Выучить числа 1-5",
@@ -137,7 +137,7 @@
      },
      {
       "title": "Урок 6: Numbers 6-10 🔢",
-      "image": "/school-curriculum-app/images/lessons/grade1/english/lesson6-numbers-6-10.svg",
+      "image": "/images/lessons/grade1/english/lesson6-numbers-6-10.svg",
       "description": "**Числа от 6 до 10**\n\nПродолжаем учить числа! Сегодня от шести до десяти.\n\n**Числа 6-10:**\n\n**Six** [сикс] — Шесть\n🌸🌸🌸🌸🌸🌸 Six flowers. — Шесть цветков.\n\n**Seven** [сэ́вэн] — Семь\n🌈 Seven colours in rainbow. — Семь цветов в радуге.\n\n**Eight** [эйт] — Восемь\n🕷️ Spider has eight legs. — У паука восемь лапок.\n\n**Nine** [найн] — Девять\n 九 Nine lives of a cat. — Девять жизней у кошки.\n\n**Ten** [тэн] — Десять\n🖐️🖐️ Ten fingers. — Десять пальцев.\n\n**Весь счёт от 1 до 10:**\nOne, two, three, four, five,\nSix, seven, eight, nine, ten!\n\n**Обратный счёт:**\nTen, nine, eight, seven, six,\nFive, four, three, two, one!\n\n**Математика:**\n3 + 4 = 7 → Three plus four is seven.\n5 + 5 = 10 → Five plus five is ten.\n8 - 3 = 5 → Eight minus three is five.\n\n**Вопрос:**\n**How many fingers?** — Сколько пальцев?\n**Ten fingers!** — Десять пальцев!\n\n**Песенка:**\nOne, two, three, four, five,\nOnce I caught a fish alive!\nSix, seven, eight, nine, ten,\nThen I let it go again!\n\n**Потренируйся:**\nПосчитай от 1 до 10 и обратно! Реши примеры!",
       "tasks": [
        "Выучить числа 6-10",

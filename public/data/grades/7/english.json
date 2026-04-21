@@ -15,7 +15,7 @@
     "lessons": [
      {
       "title": "Daily Routines and Habits",
-      "image": "/school-curriculum-app/images/lessons/grade7/english/lesson1.svg",
+      "image": "/images/lessons/grade7/english/lesson1.svg",
       "description": "**Daily Routines** — повседневные дела и привычки.\n\n**Present Simple for Routines:**\n- I usually wake up at 7 o'clock.\n- She always has breakfast at 8 am.\n- We often go to school by bus.\n\n**Frequency Adverbs:**\n- Always — всегда (100%)\n- Usually — обычно (80%)\n- Often — часто (60%)\n- Sometimes — иногда (40%)\n- Rarely — редко (20%)\n- Never — никогда (0%)\n\n**Position in sentence:**\n- Before the main verb: I always eat breakfast.\n- After 'to be': She is never late.\n\n**Daily Activities:**\n- Wake up — просыпаться\n- Get up — вставать\n- Have breakfast — завтракать\n- Go to school — идти в школу\n- Have lunch — обедать\n- Do homework — делать домашнюю работу\n- Have dinner — ужинать\n- Go to bed — ложиться спать\n\n**Time Expressions:**\n- In the morning — утром\n- In the afternoon — днём\n- In the evening — вечером\n- At night — ночью\n- At noon — в полдень",
       "tasks": [
        "Translate: Я обычно просыпаюсь в 7 часов",
@@ -35,7 +35,7 @@
      },
      {
       "title": "Household Chores",
-      "image": "/school-curriculum-app/images/lessons/grade7/english/lesson2.svg",
+      "image": "/images/lessons/grade7/english/lesson2.svg",
       "description": "**Household Chores** — домашние обязанности.\n\n**Common Chores:**\n- Do the washing-up — мыть посуду\n- Do the laundry — стирать бельё\n- Do the ironing — гладить\n- Do the cleaning — убираться\n- Make the bed — заправлять постель\n- Take out the rubbish — выносить мусор\n- Vacuum the carpet — пылесосить ковёр\n- Water the plants — поливать растения\n- Walk the dog — гулять с собакой\n\n**Modal Verbs for Obligation:**\n\n**Have to / Has to:**\n- I have to clean my room.\n- She has to wash the dishes.\n- Do you have to cook dinner?\n\n**Must:**\n- You must help your parents.\n- I must do my homework.\n\n**Should:**\n- You should help your mother.\n- Children should make their beds.\n\n**Questions:**\n- What chores do you do?\n- Who has to do the washing-up?\n- How often do you clean your room?\n\n**Making Requests:**\n- Can you help me, please?\n- Could you take out the rubbish?\n- Would you mind doing the dishes?",
       "tasks": [
        "Translate: Мне нужно помыть посуду",
@@ -60,7 +60,7 @@
     "lessons": [
      {
       "title": "Planning a Trip",
-      "image": "/school-curriculum-app/images/lessons/grade7/english/lesson3.svg",
+      "image": "/images/lessons/grade7/english/lesson3.svg",
       "description": "**Travel Vocabulary:**\n- Journey — путешествие\n- Trip — поездка\n- Tour — тур, экскурсия\n- Voyage — морское путешествие\n- Excursion — экскурсия\n\n**Transport:**\n- By plane — самолётом\n- By train — поездом\n- By bus — автобусом\n- By car — на машине\n- By ship — кораблём\n- On foot — пешком\n\n**At the Airport:**\n- Check-in — регистрация\n- Boarding pass — посадочный талон\n- Gate — выход на посадку\n- Departure — отправление\n- Arrival — прибытие\n- Luggage / baggage — багаж\n- Delay — задержка\n\n**Booking a Hotel:**\n- Book a room — забронировать номер\n- Single room — одноместный номер\n- Double room — двухместный номер\n- Check in — заселиться\n- Check out — выселиться\n\n**Future Tenses for Plans:**\n\n**Going to:**\n- I'm going to visit Paris.\n- We're going to stay at a hotel.\n\n**Present Continuous:**\n- I'm flying to London tomorrow.\n- She's leaving next week.",
       "tasks": [
        "Translate: Я собираюсь посетить Лондон",
@@ -80,7 +80,7 @@
      },
      {
       "title": "Sightseeing and Activities",
-      "image": "/school-curriculum-app/images/lessons/grade7/english/lesson4.svg",
+      "image": "/images/lessons/grade7/english/lesson4.svg",
       "description": "**Places to Visit:**\n- Museum — музей\n- Gallery — галерея\n- Cathedral — собор\n- Castle — замок\n- Palace — дворец\n- Monument — памятник\n- Fountain — фонтан\n- Square — площадь\n- Bridge — мост\n\n**Useful Phrases:**\n- What's there to see?\n- How do I get to...?\n- Is it far from here?\n- Can you show me on the map?\n- How much is the entrance fee?\n- What time does it open/close?\n\n**Describing Places:**\n- Beautiful — красивый\n- Magnificent — величественный\n- Ancient — древний\n- Modern — современный\n- Crowded — переполненный\n- Peaceful — спокойный\n- Touristy — туристический\n\n**Past Simple for Travel Stories:**\n- I visited the Louvre last year.\n- We saw many interesting places.\n- Did you go to the Eiffel Tower?\n- We didn't have enough time.\n\n**Writing a Postcard:**\nDear [Name],\nI'm writing from [city].\nYesterday I visited [place].\nIt was [adjective].\nTomorrow I'm going to [plan].\nSee you soon!\nLove,\n[Your name]",
       "tasks": [
        "Translate: Как добраться до музея?",
@@ -105,7 +105,7 @@
     "lessons": [
      {
       "title": "Environmental Problems",
-      "image": "/school-curriculum-app/images/lessons/grade7/english/lesson5.svg",
+      "image": "/images/lessons/grade7/english/lesson5.svg",
       "description": "**Environmental Issues:**\n- Pollution — загрязнение\n- Air pollution — загрязнение воздуха\n- Water pollution — загрязнение воды\n- Global warming — глобальное потепление\n- Climate change — изменение климата\n- Deforestation — вырубка лесов\n- Endangered species — исчезающие виды\n- Waste — отходы\n- Plastic — пластик\n\n**Causes:**\n- Cars produce exhaust fumes.\n- Factories pollute the air.\n- People cut down forests.\n- We use too much plastic.\n\n**Consequences:**\n- Animals lose their habitats.\n- The ice caps are melting.\n- Sea levels are rising.\n- Weather is becoming extreme.\n\n**Modal Verbs for Environment:**\n\n**Should:**\n- We should recycle more.\n- People should use public transport.\n\n**Must:**\n- We must protect nature.\n- Governments must take action.\n\n**First Conditional:**\n- If we don't act, the climate will change.\n- If people recycle, there will be less waste.\n\n**Vocabulary for Solutions:**\n- Recycle — перерабатывать\n- Reuse — использовать повторно\n- Reduce — уменьшать\n- Save energy — экономить энергию\n- Use public transport — пользоваться общественным транспортом\n- Plant trees — сажать деревья",
       "tasks": [
        "Translate: Мы должны защищать природу",
@@ -130,7 +130,7 @@
     "lessons": [
      {
       "title": "Digital World",
-      "image": "/school-curriculum-app/images/lessons/grade7/english/lesson6.svg",
+      "image": "/images/lessons/grade7/english/lesson6.svg",
       "description": "**Technology Vocabulary:**\n- Computer — компьютер\n- Laptop — ноутбук\n- Smartphone — смартфон\n- Tablet — планшет\n- Internet — интернет\n- Website — веб-сайт\n- App — приложение\n- Social media — социальные сети\n- Email — электронная почта\n\n**Digital Activities:**\n- Go online — выходить в интернет\n- Browse the web — просматривать веб-страницы\n- Download files — скачивать файлы\n- Upload photos — загружать фото\n- Send messages — отправлять сообщения\n- Make video calls — делать видеозвонки\n- Play online games — играть в онлайн-игры\n\n**Present Perfect for Experience:**\n- I have bought a new smartphone.\n- Have you ever used this app?\n- She has never played this game.\n- We have downloaded many songs.\n\n**Internet Safety:**\n- Keep your password safe.\n- Don't share personal information.\n- Be careful with strangers online.\n- Ask parents for help.\n\n**Advantages and Disadvantages:**\n\n**Pros:**\n- Easy communication\n- Access to information\n- Entertainment\n- Online shopping\n\n**Cons:**\n- Addiction to gadgets\n- Less physical activity\n- Cyberbullying\n- Fake information",
       "tasks": [
        "Translate: Я никогда не играл в эту игру",
@@ -155,7 +155,7 @@
  "games": [
   {
    "title": "Daily Life",
-   "image": "/school-curriculum-app/images/lessons/grade7/english/lesson19.svg",
+   "image": "/images/lessons/grade7/english/lesson19.svg",
    "subject": "Иностранный язык",
    "icon": "Languages",
    "color": "text-pink-400",
@@ -236,7 +236,7 @@
   },
   {
    "title": "Travel and Environment",
-   "image": "/school-curriculum-app/images/lessons/grade7/english/lesson20.svg",
+   "image": "/images/lessons/grade7/english/lesson20.svg",
    "subject": "Иностранный язык",
    "icon": "Languages",
    "color": "text-pink-400",
@@ -318,7 +318,7 @@
   },
   {
    "title": "Travel and Tourism",
-   "image": "/school-curriculum-app/images/lessons/grade7/english/lesson21.svg",
+   "image": "/images/lessons/grade7/english/lesson21.svg",
    "subject": "Иностранный язык",
    "icon": "Languages",
    "color": "text-pink-400",
@@ -401,7 +401,7 @@
   },
   {
    "title": "Technology",
-   "image": "/school-curriculum-app/images/lessons/grade7/english/lesson22.svg",
+   "image": "/images/lessons/grade7/english/lesson22.svg",
    "subject": "Иностранный язык",
    "icon": "Languages",
    "color": "text-pink-400",
@@ -479,7 +479,7 @@
   },
   {
    "title": "Daily Routines and Habits",
-   "image": "/school-curriculum-app/images/lessons/grade7/english/lesson23.svg",
+   "image": "/images/lessons/grade7/english/lesson23.svg",
    "subject": "Иностранный язык",
    "icon": "Languages",
    "color": "text-pink-400",
@@ -566,7 +566,7 @@
   },
   {
    "title": "Household Chores",
-   "image": "/school-curriculum-app/images/lessons/grade7/english/lesson24.svg",
+   "image": "/images/lessons/grade7/english/lesson24.svg",
    "subject": "Иностранный язык",
    "icon": "Languages",
    "color": "text-pink-400",
@@ -653,7 +653,7 @@
   },
   {
    "title": "Planning a Trip",
-   "image": "/school-curriculum-app/images/lessons/grade7/english/lesson25.svg",
+   "image": "/images/lessons/grade7/english/lesson25.svg",
    "subject": "Иностранный язык",
    "icon": "Languages",
    "color": "text-pink-400",
@@ -740,7 +740,7 @@
   },
   {
    "title": "Sightseeing and Activities",
-   "image": "/school-curriculum-app/images/lessons/grade7/english/lesson26.svg",
+   "image": "/images/lessons/grade7/english/lesson26.svg",
    "subject": "Иностранный язык",
    "icon": "Languages",
    "color": "text-pink-400",
@@ -827,7 +827,7 @@
   },
   {
    "title": "Environmental Problems",
-   "image": "/school-curriculum-app/images/lessons/grade7/english/lesson27.svg",
+   "image": "/images/lessons/grade7/english/lesson27.svg",
    "subject": "Иностранный язык",
    "icon": "Languages",
    "color": "text-pink-400",
@@ -914,7 +914,7 @@
   },
   {
    "title": "Digital World",
-   "image": "/school-curriculum-app/images/lessons/grade7/english/lesson28.svg",
+   "image": "/images/lessons/grade7/english/lesson28.svg",
    "subject": "Иностранный язык",
    "icon": "Languages",
    "color": "text-pink-400",

@@ -34,7 +34,7 @@
        "Полька — быстрый и скачущий танец",
        "Спортивный марш играет на физкультуре"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/music/lesson1.svg"
+      "image": "/images/lessons/grade2/music/lesson1.svg"
      },
      {
       "title": "Урок 2: Мелодия и ритм",
@@ -57,7 +57,7 @@
        "Ритм польки: ТА-та-ТА-та (пунктирный)",
        "Мелодия Колобка идёт вверх и вниз"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/music/lesson2.svg"
+      "image": "/images/lessons/grade2/music/lesson2.svg"
      },
      {
       "title": "Урок 3: Темп и динамика",
@@ -80,7 +80,7 @@
        "Крещендо — музыка звучит всё громче и громче",
        "Аллегро — быстрый темп для весёлой музыки"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/music/lesson3.svg"
+      "image": "/images/lessons/grade2/music/lesson3.svg"
      },
      {
       "title": "Урок 4: Музыкальные инструменты",
@@ -103,7 +103,7 @@
        "Фортепиано — клавишный инструмент (рояль и пианино)",
        "Орган — самый большой музыкальный инструмент"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/music/lesson4.svg"
+      "image": "/images/lessons/grade2/music/lesson4.svg"
      }
     ]
    },
@@ -131,7 +131,7 @@
        "Во саду ли, в огороде — хороводная песня",
        "Народные песни поют хором или сольно"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/music/lesson5.svg"
+      "image": "/images/lessons/grade2/music/lesson5.svg"
      },
      {
       "title": "Урок 6: Композиторы России",
@@ -154,7 +154,7 @@
        "Снегурочка и Золотой петушок — оперы Римского-Корсакова",
        "Детский альбом — фортепианные пьесы Чайковского для детей"
       ],
-      "image": "/school-curriculum-app/images/lessons/grade2/music/lesson6.svg"
+      "image": "/images/lessons/grade2/music/lesson6.svg"
      }
     ]
    }
