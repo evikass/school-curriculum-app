@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "prebuild": "sudo fallocate -l 4G /swapfile2 && sudo chmod 600 /swapfile2 && sudo mkswap /swapfile2 && sudo swapon /swapfile2 && echo 'Extra swap added' && free -h",
-    "build": "NODE_OPTIONS='--max-old-space-size=6144' next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next build",
@@ -29,10 +28,10 @@
     "expo-status-bar": "~55.0.4",
     "framer-motion": "^12.38.0",
     "lucide-react": "^0.577.0",
-    "next": "^16.1.7",
+    "next": "^15.3.1",
     "qrcode.react": "^4.2.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-native": "^0.83.2",
     "react-native-safe-area-context": "~5.6.2",
     "tailwind-merge": "^3.5.0",
@@ -45,6 +44,8 @@
   "private": true,
   "devDependencies": {
     "@types/react": "19.2.14",
+    "sucrase": "^3.35.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }
 }
