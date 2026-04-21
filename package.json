@@ -4,14 +4,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "prebuild": "free -h && echo '---' && swapon --show",
-    "build": "NODE_OPTIONS='--max-old-space-size=3072' next build",
+    "prebuild": "sudo swapoff /swapfile 2>/dev/null; sudo rm -f /swapfile 2>/dev/null; sudo fallocate -l 8G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile && echo 'Swap expanded to 8GB' && free -h",
+    "build": "NODE_OPTIONS='--max-old-space-size=4096' next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next build",
     "expo:start": "expo start",
     "expo:android": "expo run:android",
-    "expo:ios": "expo run:android",
+    "expo:ios": "expo run:ios",
     "expo:web": "expo start --web"
   },
   "dependencies": {
