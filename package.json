@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "sudo fallocate -l 8G /swapfile 2>/dev/null; sudo chmod 600 /swapfile 2>/dev/null; sudo mkswap /swapfile 2>/dev/null; sudo swapon /swapfile 2>/dev/null; echo 'Swap setup done'",
     "build": "NODE_OPTIONS='--max-old-space-size=6144' next build",
     "start": "next start",
     "lint": "next lint",
