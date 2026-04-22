@@ -31,7 +31,7 @@ jobs:
 
       - name: Build Next.js (with basePath for gh-pages compatibility)
         run: |
-          BASE_PATH="/school-curriculum-app" NODE_OPTIONS='--max-old-space-size=6144' npx next build
+          BASE_PATH="/school-curriculum-app" npx next build
 
       - name: Strip basePath for Capacitor
         run: |
