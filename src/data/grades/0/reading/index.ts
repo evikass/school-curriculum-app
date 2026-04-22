@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Звуки речи",
+          image: "/school-curriculum-app/images/lessons/grade0/reading/lesson1-sounds.svg",
           description: `**Знакомство со звуками речи**
 
 Звуки речи — это то, что мы слышим и произносим. Сегодня мы научимся различать звуки и находить их в словах.
@@ -62,6 +63,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Слова и слоги",
+          image: "/school-curriculum-app/images/lessons/grade0/reading/lesson2-syllables.svg",
           description: `**Деление слов на слоги**
 
 Сегодня мы научимся делить слова на слоги. Слог — это часть слова, которую можно произнести одним выдохом.
@@ -113,6 +115,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Предложение",
+          image: "/school-curriculum-app/images/lessons/grade0/reading/lesson3-sentence.svg",
           description: `**Понятие о предложении**
 
 Предложение — это одно или несколько слов, которые выражают законченную мысль. Мы говорим предложениями, когда общаемся.
@@ -166,6 +169,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Слушание сказок",
+          image: "/school-curriculum-app/images/lessons/grade0/reading/lesson4-fairy-tales.svg",
           description: `**Прослушивание сказок**
 
 Сегодня мы будем слушать сказки и учиться понимать их содержание. Сказки учат добру, мудрости и помогают развивать речь.
@@ -227,6 +231,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Гласные и согласные",
+          image: "/school-curriculum-app/images/lessons/grade0/reading/lesson5-vowels-consonants.svg",
           description: `**Различение гласных и согласных звуков**
 
 Сегодня мы научимся различать гласные и согласные звуки. Это важно для правильного чтения и письма.
@@ -279,6 +284,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Слова-предметы и слова-действия",
+          image: "/school-curriculum-app/images/lessons/grade0/reading/lesson6-words-objects-actions.svg",
           description: `**Слова-предметы и слова-действия**
 
 Сегодня мы научимся различать слова, которые называют предметы, и слова, которые называют действия.
@@ -331,6 +337,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Слова-признаки",
+          image: "/school-curriculum-app/images/lessons/grade0/reading/lesson7-words-attributes.svg",
           description: `**Слова-признаки**
 
 Сегодня мы познакомимся со словами, которые описывают предметы. Они отвечают на вопрос КАКОЙ?
@@ -383,6 +390,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Рифма",
+          image: "/school-curriculum-app/images/lessons/grade0/reading/lesson8-rhyme.svg",
           description: `**Знакомство с рифмой**
 
 Сегодня мы узнаем, что такое рифма и научимся находить рифмующиеся слова.
