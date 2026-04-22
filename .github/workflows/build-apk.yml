@@ -25,10 +25,10 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --ignore-scripts
 
-      - name: Build Next.js (without basePath for Capacitor)
-        run: npm run build:capacitor
+      - name: Build Next.js (without basePath, without prebuild)
+        run: npx next build
 
       - name: Setup Java
         uses: actions/setup-java@v4
