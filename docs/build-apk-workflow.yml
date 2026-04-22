@@ -27,20 +27,11 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci --ignore-scripts
-
-      - name: Create swap space
-        run: |
-          sudo fallocate -l 4G /swapfile
-          sudo chmod 600 /swapfile
-          sudo mkswap /swapfile
-          sudo swapon /swapfile
-          echo "Swap space created"
-          free -h
+        run: npm ci
 
       - name: Build Next.js (with basePath for gh-pages compatibility)
         run: |
-          BASE_PATH="/school-curriculum-app" NODE_OPTIONS='--max-old-space-size=4096' npx next build
+          BASE_PATH="/school-curriculum-app" npm run build
 
       - name: Strip basePath for Capacitor
         run: |
