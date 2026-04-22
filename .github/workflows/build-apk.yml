@@ -1,0 +1,196 @@
+name: Build Android APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_name:
+        description: 'Version name (e.g. v3.677)'
+        required: false
+        default: ''
+  push:
+    branches: [apk-build]
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Next.js (with basePath for gh-pages compatibility)
+        run: |
+          BASE_PATH="/school-curriculum-app" npm run build
+
+      - name: Strip basePath for Capacitor
+        run: |
+          # Capacitor loads from file:// — no basePath needed
+          find out/ -type f \( -name "*.html" -o -name "*.js" -o -name "*.json" -o -name "*.rsc" -o -name "*.txt" \) \
+            -exec sed -i 's|/school-curriculum-app|/|g' {} +
+          # Fix potential double slashes
+          find out/ -type f \( -name "*.html" -o -name "*.js" \) \
+            -exec sed -i 's|//_next|/_next|g' {} +
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '21'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android platform & build-tools (API 35)
+        run: |
+          yes | sdkmanager "platforms;android-35" "build-tools;35.0.0"
+
+      - name: Remove Expo Android project (if exists)
+        run: |
+          rm -rf android/
+
+      - name: Initialize Capacitor Android
+        run: |
+          npx cap add android
+          npx cap sync android
+
+      - name: Patch compileSdk to 35 in Capacitor-generated project
+        run: |
+          # Capacitor 8 generates compileSdk 36 by default — patch to 35
+          sed -i 's/compileSdkVersion = 36/compileSdkVersion = 35/' android/variables.gradle
+          sed -i 's/targetSdkVersion = 36/targetSdkVersion = 35/' android/variables.gradle || true
+
+      - name: Add Kotlin version resolution strategy
+        run: |
+          # Fix Kotlin stdlib version conflicts
+          sed -i '/android {/a\
+          \
+              configurations.all {\
+                  resolutionStrategy {\
+                      force '\''org.jetbrains.kotlin:kotlin-stdlib:1.9.25'\''\
+                      force '\''org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.25'\''\
+                  }\
+              }' android/app/build.gradle
+
+      - name: Restore signing keystore
+        run: |
+          echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.keystore
+
+      - name: Configure Android signing
+        run: |
+          # Add signing config to app/build.gradle (must be before buildTypes)
+          sed -i '/android {/a\
+          \
+              signingConfigs {\
+                  release {\
+                      storeFile file("release.keystore")\
+                      storePassword "${{ secrets.KEYSTORE_PASSWORD }}"\
+                      keyAlias "${{ secrets.KEY_ALIAS }}"\
+                      keyPassword "${{ secrets.KEY_PASSWORD }}"\
+                  }\
+              }' android/app/build.gradle
+
+          # Add signingConfig to release buildType
+          sed -i '/buildTypes {/,/}/ {
+            /release {/a\
+                  signingConfig signingConfigs.release
+          }' android/app/build.gradle
+
+      - name: Copy app icons
+        run: |
+          # Create mipmap directories
+          for dir in mipmap-mdpi mipmap-hdpi mipmap-xhdpi mipmap-xxhdpi mipmap-xxxhdpi; do
+            mkdir -p android/app/src/main/res/$dir
+          done
+
+          # Select icon source
+          if [ -f "public/icon-512.png" ]; then
+            ICON_SRC="public/icon-512.png"
+          elif [ -f "public/favicon.png" ]; then
+            ICON_SRC="public/favicon.png"
+          else
+            ICON_SRC=""
+          fi
+
+          if [ -n "$ICON_SRC" ]; then
+            # Create adaptive icon layers using ImageMagick
+            # Sizes: mdpi=48, hdpi=72, xhdpi=96, xxhdpi=144, xxxhdpi=192
+            declare -A SIZES=( [mdpi]=48 [hdpi]=72 [xhdpi]=96 [xxhdpi]=144 [xxxhdpi]=192 )
+
+            for dpi in mdpi hdpi xhdpi xxhdpi xxxhdpi; do
+              SIZE=${SIZES[$dpi]}
+              DIR="android/app/src/main/res/mipmap-$dpi"
+
+              # Background (solid #1e1b4b)
+              convert -size ${SIZE}x${SIZE} xc:"#1e1b4b" "$DIR/ic_launcher_background.png"
+
+              # Foreground with 66% safe zone (logo centered in inner 66%)
+              FOREGROUND_SIZE=$SIZE
+              LOGO_SIZE=$(python3 -c "print(int($SIZE * 0.66))")
+              OFFSET=$(python3 -c "print(int(($SIZE - $LOGO_SIZE) / 2))")
+
+              # Create transparent foreground, paste resized logo in center
+              convert -size ${FOREGROUND_SIZE}x${FOREGROUND_SIZE} xc:none \
+                \( "$ICON_SRC" -resize ${LOGO_SIZE}x${LOGO_SIZE} \) \
+                -geometry +${OFFSET}+${OFFSET} -composite "$DIR/ic_launcher_foreground.png"
+
+              # Legacy icon (logo with background)
+              convert "$DIR/ic_launcher_background.png" \
+                \( "$ICON_SRC" -resize ${LOGO_SIZE}x${LOGO_SIZE} \) \
+                -geometry +${OFFSET}+${OFFSET} -composite "$DIR/ic_launcher.png"
+
+              # Round icon (simple copy — full round mask needs Android API 26+)
+              cp "$DIR/ic_launcher.png" "$DIR/ic_launcher_round.png"
+            done
+          fi
+
+      - name: Build APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease
+
+      - name: Determine version
+        id: version
+        run: |
+          if [ -n "${{ github.event.inputs.version_name }}" ]; then
+            echo "name=${{ github.event.inputs.version_name }}" >> $GITHUB_OUTPUT
+          else
+            PKG_VERSION=$(node -p "require('./package.json').version")
+            echo "name=v${PKG_VERSION}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload APK to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.name }}
+          name: ${{ steps.version.outputs.name }}
+          files: android/app/build/outputs/apk/release/app-release.apk
+          body: |
+            ## ИНЕТШКОЛА ${{ steps.version.outputs.name }}
+
+            Android APK для установки на телефон.
+
+            ### Установка:
+            1. Скачайте файл `app-release.apk`
+            2. Откройте на телефоне
+            3. Разрешите установку из неизвестных источников
+            4. Установите
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload APK as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: inetshkola-apk
+          path: android/app/build/outputs/apk/release/app-release.apk
