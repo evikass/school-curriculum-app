@@ -17,29 +17,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: site
 
-      - name: Setup Node.js
+      - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build Next.js (with basePath for gh-pages compatibility)
-        run: npm run build
-
-      - name: Strip basePath for Capacitor
-        run: |
-          # Capacitor loads from file:// - no basePath needed
-          find out/ -type f \( -name "*.html" -o -name "*.js" -o -name "*.json" -o -name "*.rsc" -o -name "*.txt" \) \
-            -exec sed -i 's|/school-curriculum-app|/|g' {} +
-          # Fix potential double slashes
-          find out/ -type f \( -name "*.html" -o -name "*.js" \) \
-            -exec sed -i 's|//_next|/_next|g' {} +
+      - name: Build Next.js (without basePath for Capacitor)
+        run: npm run build:capacitor
 
       - name: Setup Java
         uses: actions/setup-java@v4
@@ -65,13 +54,11 @@ jobs:
 
       - name: Patch compileSdk to 35 in Capacitor-generated project
         run: |
-          # Capacitor 8 generates compileSdk 36 by default - patch to 35
           sed -i 's/compileSdkVersion = 36/compileSdkVersion = 35/' android/variables.gradle
           sed -i 's/targetSdkVersion = 36/targetSdkVersion = 35/' android/variables.gradle || true
 
       - name: Add Kotlin version resolution strategy
         run: |
-          # Fix Kotlin stdlib version conflicts
           sed -i '/android {/a\
           \
               configurations.all {\
@@ -87,7 +74,6 @@ jobs:
 
       - name: Configure Android signing
         run: |
-          # Add signing config to app/build.gradle (must be before buildTypes)
           sed -i '/android {/a\
           \
               signingConfigs {\
@@ -99,7 +85,6 @@ jobs:
                   }\
               }' android/app/build.gradle
 
-          # Add signingConfig to release buildType
           sed -i '/buildTypes {/,/}/ {
             /release {/a\
                   signingConfig signingConfigs.release
@@ -107,12 +92,10 @@ jobs:
 
       - name: Copy app icons
         run: |
-          # Create mipmap directories
           for dir in mipmap-mdpi mipmap-hdpi mipmap-xhdpi mipmap-xxhdpi mipmap-xxxhdpi; do
             mkdir -p android/app/src/main/res/$dir
           done
 
-          # Select icon source
           if [ -f "public/icon-512.png" ]; then
             ICON_SRC="public/icon-512.png"
           elif [ -f "public/favicon.png" ]; then
