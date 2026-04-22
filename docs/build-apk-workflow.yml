@@ -7,8 +7,6 @@ on:
         description: 'Version name (e.g. v3.677)'
         required: false
         default: ''
-  push:
-    branches: [apk-build]
 
 jobs:
   build-apk:
@@ -19,6 +17,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: site
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -30,8 +30,7 @@ jobs:
         run: npm ci
 
       - name: Build Next.js (with basePath for gh-pages compatibility)
-        run: |
-          BASE_PATH="/school-curriculum-app" npx next build
+        run: npm run build
 
       - name: Strip basePath for Capacitor
         run: |
@@ -123,33 +122,26 @@ jobs:
           fi
 
           if [ -n "$ICON_SRC" ]; then
-            # Create adaptive icon layers using ImageMagick
-            # Sizes: mdpi=48, hdpi=72, xhdpi=96, xxhdpi=144, xxxhdpi=192
             declare -A SIZES=( [mdpi]=48 [hdpi]=72 [xhdpi]=96 [xxhdpi]=144 [xxxhdpi]=192 )
 
             for dpi in mdpi hdpi xhdpi xxhdpi xxxhdpi; do
               SIZE=${SIZES[$dpi]}
               DIR="android/app/src/main/res/mipmap-$dpi"
 
-              # Background (solid #1e1b4b)
               convert -size ${SIZE}x${SIZE} xc:"#1e1b4b" "$DIR/ic_launcher_background.png"
 
-              # Foreground with 66% safe zone (logo centered in inner 66%)
               FOREGROUND_SIZE=$SIZE
               LOGO_SIZE=$(python3 -c "print(int($SIZE * 0.66))")
               OFFSET=$(python3 -c "print(int(($SIZE - $LOGO_SIZE) / 2))")
 
-              # Create transparent foreground, paste resized logo in center
               convert -size ${FOREGROUND_SIZE}x${FOREGROUND_SIZE} xc:none \
                 \( "$ICON_SRC" -resize ${LOGO_SIZE}x${LOGO_SIZE} \) \
                 -geometry +${OFFSET}+${OFFSET} -composite "$DIR/ic_launcher_foreground.png"
 
-              # Legacy icon (logo with background)
               convert "$DIR/ic_launcher_background.png" \
                 \( "$ICON_SRC" -resize ${LOGO_SIZE}x${LOGO_SIZE} \) \
                 -geometry +${OFFSET}+${OFFSET} -composite "$DIR/ic_launcher.png"
 
-              # Round icon (simple copy - full round mask needs Android API 26+)
               cp "$DIR/ic_launcher.png" "$DIR/ic_launcher_round.png"
             done
           fi
@@ -186,6 +178,7 @@ jobs:
             2. Откройте на телефоне
             3. Разрешите установку из неизвестных источников
             4. Установите
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload APK as artifact
