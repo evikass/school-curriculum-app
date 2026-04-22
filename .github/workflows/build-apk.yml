@@ -27,15 +27,17 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --ignore-scripts
 
       - name: Build Next.js (with basePath for gh-pages compatibility)
         run: |
-          BASE_PATH="/school-curriculum-app" npm run build
+          BASE_PATH="/school-curriculum-app" NODE_OPTIONS='--max-old-space-size=6144' npx next build --no-turbopack
+        env:
+          NEXT_DISABLE_TURBOPACK: '1'
 
       - name: Strip basePath for Capacitor
         run: |
-          # Capacitor loads from file:// — no basePath needed
+          # Capacitor loads from file:// - no basePath needed
           find out/ -type f \( -name "*.html" -o -name "*.js" -o -name "*.json" -o -name "*.rsc" -o -name "*.txt" \) \
             -exec sed -i 's|/school-curriculum-app|/|g' {} +
           # Fix potential double slashes
@@ -66,7 +68,7 @@ jobs:
 
       - name: Patch compileSdk to 35 in Capacitor-generated project
         run: |
-          # Capacitor 8 generates compileSdk 36 by default — patch to 35
+          # Capacitor 8 generates compileSdk 36 by default - patch to 35
           sed -i 's/compileSdkVersion = 36/compileSdkVersion = 35/' android/variables.gradle
           sed -i 's/targetSdkVersion = 36/targetSdkVersion = 35/' android/variables.gradle || true
 
@@ -149,7 +151,7 @@ jobs:
                 \( "$ICON_SRC" -resize ${LOGO_SIZE}x${LOGO_SIZE} \) \
                 -geometry +${OFFSET}+${OFFSET} -composite "$DIR/ic_launcher.png"
 
-              # Round icon (simple copy — full round mask needs Android API 26+)
+              # Round icon (simple copy - full round mask needs Android API 26+)
               cp "$DIR/ic_launcher.png" "$DIR/ic_launcher_round.png"
             done
           fi
@@ -163,7 +165,7 @@ jobs:
       - name: Determine version
         id: version
         run: |
-          if [ -n "${{ github.event.inputs.version_name }}" ]; then
+          if [ -n "${{ github.event.inputs.version_name_name }}" ]; then
             echo "name=${{ github.event.inputs.version_name }}" >> $GITHUB_OUTPUT
           else
             PKG_VERSION=$(node -p "require('./package.json').version")
