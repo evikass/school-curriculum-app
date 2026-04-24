@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E65100"/>
+      <stop offset="100%" stop-color="#F57C00"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#E65100" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#E65100" text-anchor="middle">Теория Хекшера-Олина</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экономика - Урок 3</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#E65100" opacity="0.18" rx="1"/>
+  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+  <rect x="15" y="85" width="470" height="215" fill="#FFF3E0"/>
+  <rect x="60" y="140" width="130" height="90" rx="8" fill="none" stroke="#E65100" stroke-width="2"/>
+    <text x="125" y="175" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle">Трудоизбыточная</text>
+    <text x="125" y="195" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle">страна</text>
+    <rect x="310" y="140" width="130" height="90" rx="8" fill="none" stroke="#1565C0" stroke-width="2"/>
+    <text x="375" y="175" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle">Капиталоизбыточная</text>
+    <text x="375" y="195" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle">страна</text>
+    <line x1="190" y1="170" x2="310" y2="170" stroke="#F57C00" stroke-width="2" marker-end="url(#arrowR)"/>
+    <text x="250" y="163" font-family="Arial,sans-serif" font-size="10" fill="#F57C00" text-anchor="middle">Трудоёмкие товары</text>
+    <line x1="310" y1="200" x2="190" y2="200" stroke="#1565C0" stroke-width="2"/>
+    <text x="250" y="218" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">Капиталоёмкие товары</text>
+    <polygon points="310,170 300,165 300,175" fill="#F57C00"/>
+    <polygon points="190,200 200,195 200,205" fill="#1565C0"/>
+    <text x="250" y="290" font-family="Arial,sans-serif" font-size="12" fill="#E65100" text-anchor="middle" font-weight="bold">Теория Хекшера-Олина</text>
+  </g>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Экономика</text>
+</svg>
