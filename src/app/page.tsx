@@ -5,6 +5,7 @@ import { GradeSelector, SubjectGrid, LessonViewer, KidSubjectGrid, KidLessonView
 import { useState, useEffect } from 'react'
 import { Calendar, Gamepad2, Map, Trophy, Settings, X, Heart, ExternalLink, Smartphone, Globe, CreditCard } from 'lucide-react'
 import { QRCodeSVG } from 'qrcode.react'
+import { APP_VERSION } from '@/data/version'
 
 function getTodayString(): string { return new Date().toISOString().split('T')[0] }
 type MiniGameType = 'challenge' | 'memory' | 'daily' | 'flashcards' | 'speedtest' | 'stats' | 'typing' | 'spelling' | 'puzzle' | 'scramble' | 'racing' | 'trivia' | 'crossword' | 'sentence' | 'colormatch' | 'wordsearch' | 'sequence' | 'emoji' | 'geography' | 'hangman' | 'truefalse' | 'anagram' | 'oddoneout' | 'soundquiz' | 'mathpuzzle' | 'wordchain' | 'quickmath' | 'alphabetsort' | 'synonym' | 'flags' | 'timequiz' | 'riddles' | 'proverbs' | 'punctuation' | 'capitals' | 'roman' | 'fraction' | 'percent' | 'geometry' | 'nature' | 'history' | 'science' | 'measurement' | 'equation' | 'parts' | 'periodic' | null
@@ -133,7 +134,7 @@ function AppContent() {
           
           {/* Compact button row */}
           <div className="flex justify-center items-center gap-2 mt-3 flex-wrap">
-            <span className="text-green-400 text-xs bg-green-400/20 px-2 py-1 rounded-full">v3.676</span>
+            <span className="text-green-400 text-xs bg-green-400/20 px-2 py-1 rounded-full">{APP_VERSION}</span>
             <span className="text-yellow-400 text-xs bg-yellow-400/20 px-2 py-1 rounded-full" suppressHydrationWarning>{new Date().toLocaleDateString('ru-RU')}</span>
             
             <button onClick={() => setShowCalendar(!showCalendar)} 

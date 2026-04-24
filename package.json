@@ -1,18 +1,20 @@
 {
   "name": "inetshkola-final",
-  "version": "3.677",
+  "version": "3.696",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "prebuild": "sudo fallocate -l 8G /swapfile 2>/dev/null; sudo chmod 600 /swapfile 2>/dev/null; sudo mkswap /swapfile 2>/dev/null; sudo swapon /swapfile 2>/dev/null; echo 'Swap setup done'",
-    "build": "NODE_OPTIONS='--max-old-space-size=6144' next build",
+    "build": "node scripts/generate-version.cjs && BASE_PATH=/school-curriculum-app next build",
+    "build:capacitor": "node scripts/generate-version.cjs && next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next build",
-    "expo:start": "expo start",
-    "expo:android": "expo run:android",
-    "expo:ios": "expo run:ios",
-    "expo:web": "expo start --web"
+    "prebuild": "node scripts/generate-version.cjs",
+    "cap:init": "npx cap init ИНЕТШКОЛА ru.evika.inetshkola --web-dir out",
+    "cap:add:android": "npx cap add android",
+    "cap:copy": "npx cap copy",
+    "cap:sync": "npx cap sync",
+    "cap:open:android": "npx cap open android"
   },
   "dependencies": {
     "@capacitor/android": "^8.3.1",
@@ -49,6 +51,8 @@
   "private": true,
   "devDependencies": {
     "@types/react": "19.2.14",
+    "sucrase": "^3.35.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }
 }

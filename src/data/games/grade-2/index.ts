@@ -40,7 +40,7 @@ export const secondGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Приставка - это...", options: ["Конец слова", "Часть перед корнем", "Корень", "Суффикс", "Окончание"], correctAnswer: "Часть перед корнем", hint: "Приставка стоит ПЕРЕД корнем" },
       { type: 'find', question: "Найди слова с приставкой ПРИ-:", options: ["Приехал 🚗", "Пример", "Прыгнул", "Пришёл 🚶", "Праздник"], correctAnswer: ["Приехал 🚗", "Пример", "Пришёл 🚶"], hint: "ПРИ- = приближение, присоединение" },
       { type: 'quiz', question: "Сколько приставок в слове ПЕРЕПРИШЁЛ?", options: ["1", "2", "3", "0", "4"], correctAnswer: "2", hint: "ПЕРЕ- и ПРИ- - две приставки" },
-      { type: 'quiz', question: "Вставь приставку: (...)ехал (приблизился)", options: ["прю", "пси", "При", "приставку", "рри"], correctAnswer: "При", hint: "Приближение = ПРИ-" },
+      { type: 'quiz', question: "Вставь приставку: ехал (приблизился)", options: ["Про", "Пре", "При", "Пра", "Пре"], correctAnswer: "При", hint: "Приближение = ПРИ-" },
       { type: 'find', question: "Найди слова с приставкой ЗА-:", options: ["Забежал 🏃", "Записал ✏️", "Замок 🔒", "Захотел", "Завтра"], correctAnswer: ["Забежал 🏃", "Записал ✏️", "Захотел"], hint: "ЗА- = начало действия" }
     ],
     reward: { stars: 3, message: "Умница! Ты знаешь приставки! 📖" }
@@ -55,7 +55,7 @@ export const secondGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "8 + 7 = ?", options: ["13", "14", "15", "16", "17"], correctAnswer: "15", hint: "8 + 7 = 15" },
       { type: 'quiz', question: "9 + 6 = ?", options: ["14", "15", "16", "13", "17"], correctAnswer: "15", hint: "9 + 6 = 15" },
-      { type: 'quiz', question: "12 + (...) = 18", options: ["6", "60", "1", "11", "18"], correctAnswer: "6", hint: "Сколько добавить?" },
+      { type: 'quiz', question: "12 +  = 18", options: ["6", "60", "1", "11", "18"], correctAnswer: "6", hint: "Сколько добавить?" },
       { type: 'quiz', question: "15 + 5 = ?", options: ["19", "20", "21", "18", "22"], correctAnswer: "20", hint: "15 + 5 = 20" },
       { type: 'quiz', question: "7 + 8 = ?", options: ["14", "15", "16", "13", "17"], correctAnswer: "15", hint: "7 + 8 = 15" }
     ],
@@ -69,7 +69,7 @@ export const secondGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "18 - 9 = ?", options: ["8", "9", "10", "7", "11"], correctAnswer: "9", hint: "18 - 9 = 9" },
       { type: 'quiz', question: "15 - 7 = ?", options: ["7", "8", "9", "6", "10"], correctAnswer: "8", hint: "15 - 7 = 8" },
-      { type: 'quiz', question: "20 - (...) = 14", options: ["60", "6", "18", "1", "11"], correctAnswer: "6", hint: "Сколько отнять?" },
+      { type: 'quiz', question: "20 -  = 14", options: ["60", "6", "18", "1", "11"], correctAnswer: "6", hint: "Сколько отнять?" },
       { type: 'quiz', question: "16 - 8 = ?", options: ["7", "8", "9", "6", "10"], correctAnswer: "8", hint: "16 - 8 = 8" },
       { type: 'quiz', question: "14 - 6 = ?", options: ["7", "8", "9", "6", "10"], correctAnswer: "8", hint: "14 - 6 = 8" }
     ],
@@ -84,7 +84,7 @@ export const secondGradeGames: GameLesson[] = [
       { type: 'quiz', question: "2 × 3 = ?", options: ["5", "6", "7", "4", "8"], correctAnswer: "6", hint: "2 + 2 + 2 = 6" },
       { type: 'quiz', question: "3 × 4 = ?", options: ["10", "11", "12", "9", "13"], correctAnswer: "12", hint: "3 + 3 + 3 + 3 = 12" },
       { type: 'quiz', question: "5 × 2 = ?", options: ["7", "10", "12", "8", "9"], correctAnswer: "10", hint: "5 + 5 = 10" },
-      { type: 'quiz', question: "4 × (...) = 8", options: ["0", "102", "2", "1", "6"], correctAnswer: "2", hint: "Какое число умножить?" },
+      { type: 'quiz', question: "4 ×  = 8", options: ["3", "1", "2", "5", "6"], correctAnswer: "2", hint: "Какое число умножить?" },
       { type: 'quiz', question: "2 × 5 = ?", options: ["7", "10", "12", "8", "9"], correctAnswer: "10", hint: "2 + 2 + 2 + 2 + 2 = 10" }
     ],
     reward: { stars: 3, message: "Здорово! Ты изучаешь умножение! ✖️" }
@@ -98,7 +98,7 @@ export const secondGradeGames: GameLesson[] = [
       { type: 'quiz', question: "6 ÷ 2 = ?", options: ["2", "3", "4", "1", "5"], correctAnswer: "3", hint: "6 разделить на 2 части" },
       { type: 'quiz', question: "10 ÷ 5 = ?", options: ["1", "2", "5", "3", "4"], correctAnswer: "2", hint: "10 разделить на 5" },
       { type: 'quiz', question: "8 ÷ 4 = ?", options: ["2", "3", "4", "1", "5"], correctAnswer: "2", hint: "8 разделить на 4" },
-      { type: 'quiz', question: "12 ÷ (...) = 3", options: ["9", "4", "104", "2", "1004"], correctAnswer: "4", hint: "На сколько разделить 12?" },
+      { type: 'quiz', question: "12 ÷  = 3", options: ["6", "3", "5", "2", "8"], correctAnswer: "4", hint: "На сколько разделить 12?" },
       { type: 'quiz', question: "9 ÷ 3 = ?", options: ["2", "3", "4", "1", "5"], correctAnswer: "3", hint: "9 разделить на 3" }
     ],
     reward: { stars: 3, message: "Замечательно! Ты изучаешь деление! ➗" }
@@ -187,11 +187,11 @@ export const secondGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "2 × 6 = (...)", options: ["2", "22", "1012", "17", "12"], correctAnswer: "12", hint: "2 + 2 + 2 + 2 + 2 + 2 = 12" },
-      { type: 'quiz', question: "3 × 4 = (...)", options: ["2", "1012", "12", "22", "17"], correctAnswer: "12", hint: "3 + 3 + 3 + 3 = 12" },
+      { type: 'quiz', question: "2 × 6 = ", options: ["8", "10", "14", "12", "16"], correctAnswer: "12", hint: "2 + 2 + 2 + 2 + 2 + 2 = 12" },
+      { type: 'quiz', question: "3 × 4 = ", options: ["8", "10", "14", "12", "16"], correctAnswer: "12", hint: "3 + 3 + 3 + 3 = 12" },
       { type: 'quiz', question: "2 × 8 = ?", options: ["14", "16", "18", "12", "20"], correctAnswer: "16", hint: "2 × 8 = 16" },
       { type: 'quiz', question: "3 × 7 = ?", options: ["18", "21", "24", "20", "22"], correctAnswer: "21", hint: "3 × 7 = 21" },
-      { type: 'quiz', question: "3 × 9 = (...)", options: ["37", "22", "2", "17", "27"], correctAnswer: "27", hint: "3 × 9 = 27" }
+      { type: 'quiz', question: "3 × 9 = ", options: ["25", "29", "23", "24", "27"], correctAnswer: "27", hint: "3 × 9 = 27" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь таблицу умножения! ✖️" }
   },
@@ -201,11 +201,11 @@ export const secondGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "12 ÷ 2 = (...)", options: ["1", "60", "18", "6", "11"], correctAnswer: "6", hint: "Какое число × 2 = 12?" },
-      { type: 'quiz', question: "15 ÷ 3 = (...)", options: ["2", "5", "105", "1005", "0"], correctAnswer: "5", hint: "Какое число × 3 = 15?" },
+      { type: 'quiz', question: "12 ÷ 2 = ", options: ["4", "8", "3", "6", "5"], correctAnswer: "6", hint: "Какое число × 2 = 12?" },
+      { type: 'quiz', question: "15 ÷ 3 = ", options: ["4", "3", "6", "7", "5"], correctAnswer: "5", hint: "Какое число × 3 = 15?" },
       { type: 'quiz', question: "18 ÷ 2 = ?", options: ["7", "8", "9", "6", "10"], correctAnswer: "9", hint: "9 × 2 = 18" },
       { type: 'quiz', question: "21 ÷ 3 = ?", options: ["6", "7", "8", "5", "9"], correctAnswer: "7", hint: "7 × 3 = 21" },
-      { type: 'quiz', question: "24 ÷ 3 = (...)", options: ["0", "24", "8", "9", "18"], correctAnswer: "8", hint: "Какое число × 3 = 24?" }
+      { type: 'quiz', question: "24 ÷ 3 = ", options: ["0", "24", "8", "9", "18"], correctAnswer: "8", hint: "Какое число × 3 = 24?" }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь делить! ➗" }
   },
@@ -215,11 +215,11 @@ export const secondGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Маш(...)на (И/Ы)", options: ["ё", "И", "маш", "о", "э"], correctAnswer: "И", hint: "ЖИ-ШИ пиши с И!" },
-      { type: 'quiz', question: "Ш(...)на (И/Ы)", options: ["э", "у", "ю", "о", "И"], correctAnswer: "И", hint: "ШИ пиши с И!" },
+      { type: 'quiz', question: "Машна (И/Ы)", options: ["Ы", "И", "Е", "О", "Э"], correctAnswer: "И", hint: "ЖИ-ШИ пиши с И!" },
+      { type: 'quiz', question: "Шна (И/Ы)", options: ["э", "у", "ю", "о", "И"], correctAnswer: "И", hint: "ШИ пиши с И!" },
       { type: 'find', question: "Выбери слова с ЖИ-ШИ:", options: ["Жираф", "Шина", "Машина", "Жизнь", "Шар"], correctAnswer: ["Жираф", "Шина", "Машина", "Жизнь"], hint: "ЖИ-ШИ пишутся с И" },
       { type: 'quiz', question: "В слове «лыжи» пишется:", options: ["И", "Ы", "Е", "Ю", "А"], correctAnswer: "И", hint: "ЖИ пиши с И" },
-      { type: 'quiz', question: "Ш(...)шки (И/Ы)", options: ["е", "И", "э", "о", "я"], correctAnswer: "И", hint: "ШИ пиши с И!" }
+      { type: 'quiz', question: "Шшки (И/Ы)", options: ["Ы", "И", "Е", "О", "Я"], correctAnswer: "И", hint: "ШИ пиши с И!" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь правило ЖИ-ШИ! ✍️" }
   },
@@ -229,11 +229,11 @@ export const secondGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Туч(...) (А/Я)", options: ["э", "А", "ё", "ю", "е"], correctAnswer: "А", hint: "ЧА-ЩА пиши с А!" },
-      { type: 'quiz', question: "Рощ(...) (А/Я)", options: ["я", "ю", "А", "и", "о"], correctAnswer: "А", hint: "ЩА пиши с А!" },
+      { type: 'quiz', question: "Туч (А/Я)", options: ["э", "А", "ё", "ю", "е"], correctAnswer: "А", hint: "ЧА-ЩА пиши с А!" },
+      { type: 'quiz', question: "Рощ (А/Я)", options: ["я", "ю", "А", "и", "о"], correctAnswer: "А", hint: "ЩА пиши с А!" },
       { type: 'find', question: "Выбери слова с ЧА-ЩА:", options: ["Чаща", "Чаша", "Роща", "Туча", "Чай"], correctAnswer: ["Чаща", "Чаша", "Роща", "Туча"], hint: "ЧА-ЩА пишутся с А" },
       { type: 'quiz', question: "В слове «дача» пишется:", options: ["А", "Я", "Е", "О", "У"], correctAnswer: "А", hint: "ЧА пиши с А" },
-      { type: 'quiz', question: "Ч(...)сики (А/Я)", options: ["я", "А", "е", "ю", "сики"], correctAnswer: "А", hint: "ЧА пиши с А!" }
+      { type: 'quiz', question: "Часики — пиши с буквой...", options: ["О", "А", "Е", "У", "Я"], correctAnswer: "А", hint: "ЧА пиши с А!" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь правило ЧА-ЩА! ✍️" }
   },
@@ -243,11 +243,11 @@ export const secondGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Щ(...)ка (У/Ю)", options: ["У", "а", "ка", "ю", "я"], correctAnswer: "У", hint: "ЧУ-ЩУ пиши с У!" },
-      { type: 'quiz', question: "Ч(...)до (У/Ю)", options: ["У", "до", "ю", "ё", "э"], correctAnswer: "У", hint: "ЧУ пиши с У!" },
+      { type: 'quiz', question: "Щка (У/Ю)", options: ["У", "а", "ка", "ю", "я"], correctAnswer: "У", hint: "ЧУ-ЩУ пиши с У!" },
+      { type: 'quiz', question: "Чдо (У/Ю)", options: ["У", "до", "ю", "ё", "э"], correctAnswer: "У", hint: "ЧУ пиши с У!" },
       { type: 'find', question: "Выбери слова с ЧУ-ЩУ:", options: ["Щука", "Чудо", "Чугун", "Щупальце", "Чудак"], correctAnswer: ["Щука", "Чудо", "Чугун", "Щупальце", "Чудак"], hint: "ЧУ-ЩУ пишутся с У" },
       { type: 'quiz', question: "В слове «чулок» пишется:", options: ["У", "Ю", "О", "Е", "А"], correctAnswer: "У", hint: "ЧУ пиши с У" },
-      { type: 'quiz', question: "Щ(...)ки (У/Ю)", options: ["и", "У", "ё", "ы", "э"], correctAnswer: "У", hint: "ЩУ пиши с У!" }
+      { type: 'quiz', question: "Щки (У/Ю)", options: ["и", "У", "ё", "ы", "э"], correctAnswer: "У", hint: "ЩУ пиши с У!" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь правило ЧУ-ЩУ! ✍️" }
   },
@@ -257,11 +257,11 @@ export const secondGradeGames: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "В слове «ночка» мягкий знак:", options: ["Нужен", "Не нужен", "Не знаю", "Иногда", "Обязательно"], correctAnswer: "Не нужен", hint: "ЧК-ЧН пишутся без мягкого знака!" },
-      { type: 'quiz', question: "В слове «ночной» мягкий знак:", options: ["Нужен", "Не нужен", "Не знаю", "Иногда", "Обязательно"], correctAnswer: "Не нужен", hint: "ЧК-ЧН пишутся без мягкого знака!" },
+      { type: 'quiz', question: "В слове «ночка» мягкий знак:", options: ["Нужен", "Не нужен", "Обязательно", "Только в конце", "Перед согласной"], correctAnswer: "Не нужен", hint: "ЧК-ЧН пишутся без мягкого знака!" },
+      { type: 'quiz', question: "В слове «ночной» мягкий знак:", options: ["Нужен", "Не нужен", "Обязательно", "Только в конце", "Перед согласной"], correctAnswer: "Не нужен", hint: "ЧК-ЧН пишутся без мягкого знака!" },
       { type: 'find', question: "Выбери слова без мягкого знака:", options: ["Ночка", "Ночной", "Точка", "Тучка", "Ручка"], correctAnswer: ["Ночка", "Ночной", "Точка", "Тучка", "Ручка"], hint: "ЧК-ЧН без Ь" },
-      { type: 'quiz', question: "В слове «дочка» мягкий знак (...)", options: ["мягкий", "не нужен", "слове", "дочка", "знак"], correctAnswer: "не нужен", hint: "ЧК без Ь" },
-      { type: 'quiz', question: "В слове «срочный» мягкий знак (...)", options: ["не нужен", "мягкий", "срочный", "слове", "знак"], correctAnswer: "не нужен", hint: "ЧН без Ь" }
+      { type: 'quiz', question: "В слове «дочка» мягкий знак ", options: ["обязателен", "не нужен", "ставится", "нужен", "пишется"], correctAnswer: "не нужен", hint: "ЧК без Ь" },
+      { type: 'quiz', question: "В слове «срочный» мягкий знак ", options: ["обязателен", "не нужен", "ставится", "нужен", "пишется"], correctAnswer: "не нужен", hint: "ЧН без Ь" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь правило ЧК-ЧН! ✍️" }
   },
@@ -316,7 +316,7 @@ export const secondGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Apple - это...", options: ["Апельсин", "Яблоко 🍎", "Банан", "Груша", "Виноград"], correctAnswer: "Яблоко 🍎", hint: "Apple = яблоко" },
       { type: 'quiz', question: "Как будет «хлеб»?", options: ["Bread", "Water", "Milk", "Cheese", "Meat"], correctAnswer: "Bread", hint: "Bread = хлеб" },
       { type: 'find', question: "Выбери названия еды:", options: ["Apple 🍎", "Cat 🐱", "Bread 🍞", "Dog 🐕", "Milk 🥛"], correctAnswer: ["Apple 🍎", "Bread 🍞", "Milk 🥛"], hint: "Food = еда" },
-      { type: 'quiz', question: "Water = (...) (вода)", options: ["вода", "всё", "water", "не знаю", "нет"], correctAnswer: "вода", hint: "Water = вода" },
+      { type: 'quiz', question: "Water - это...", options: ["вода", "сок", "молоко", "чай", "сок"], correctAnswer: "вода", hint: "Water = вода" },
       { type: 'quiz', question: "Что такое Cheese?", options: ["Хлеб", "Сыр 🧀", "Молоко", "Мясо", "Рыба"], correctAnswer: "Сыр 🧀", hint: "Cheese = сыр" }
     ],
     reward: { stars: 3, message: "Great! Отлично! 🍎" }
@@ -329,11 +329,11 @@ export const secondGradeGames: GameLesson[] = [
     icon: "Calculator",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: "4 × 4 = (...)", options: ["18", "1", "17", "16", "116"], correctAnswer: "16", hint: "4 × 4 = 16" },
-      { type: 'quiz', question: "5 × 5 = (...)", options: ["1025", "2", "24", "250", "25"], correctAnswer: "25", hint: "5 × 5 = 25" },
+      { type: 'quiz', question: "4 × 4 = ", options: ["14", "18", "20", "16", "12"], correctAnswer: "16", hint: "4 × 4 = 16" },
+      { type: 'quiz', question: "5 × 5 = ", options: ["15", "20", "24", "30", "25"], correctAnswer: "25", hint: "5 × 5 = 25" },
       { type: 'quiz', question: "4 × 6 = ?", options: ["20", "24", "28", "22", "26"], correctAnswer: "24", hint: "4 × 6 = 24" },
       { type: 'quiz', question: "5 × 7 = ?", options: ["30", "35", "40", "32", "38"], correctAnswer: "35", hint: "5 × 7 = 35" },
-      { type: 'quiz', question: "4 × 9 = (...)", options: ["18", "37", "31", "41", "36"], correctAnswer: "36", hint: "4 × 9 = 36" }
+      { type: 'quiz', question: "4 × 9 = ", options: ["18", "37", "31", "41", "36"], correctAnswer: "36", hint: "4 × 9 = 36" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь таблицу умножения! ✖️" }
   },
@@ -344,9 +344,9 @@ export const secondGradeGames: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       { type: 'quiz', question: "Периметр квадрата со стороной 3:", options: ["6", "9", "12", "15", "18"], correctAnswer: "12", hint: "P = 4 × 3 = 12" },
-      { type: 'quiz', question: "Периметр прямоугольника 2 и 4 = (...)", options: ["12", "1012", "17", "2", "22"], correctAnswer: "12", hint: "P = 2 × (2 + 4) = 12" },
+      { type: 'quiz', question: "Периметр прямоугольника 2 и 4 = ", options: ["10", "14", "8", "16", "12"], correctAnswer: "12", hint: "P = 2 × (2 + 4) = 12" },
       { type: 'quiz', question: "Площадь квадрата со стороной 4:", options: ["8", "12", "16", "20", "24"], correctAnswer: "16", hint: "S = 4 × 4 = 16" },
-      { type: 'quiz', question: "Площадь прямоугольника 3 × 5 = (...)", options: ["17", "150", "51", "1", "15"], correctAnswer: "15", hint: "S = 3 × 5 = 15" },
+      { type: 'quiz', question: "Площадь прямоугольника 3 × 5 = ", options: ["12", "20", "8", "18", "15"], correctAnswer: "15", hint: "S = 3 × 5 = 15" },
       { type: 'quiz', question: "Периметр квадрата со стороной 5:", options: ["15", "20", "25", "10", "30"], correctAnswer: "20", hint: "P = 4 × 5 = 20" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь периметр и площадь! 📐" }
@@ -360,7 +360,7 @@ export const secondGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Имя прилагательное обозначает:", options: ["Предмет", "Признак предмета", "Действие", "Число", "Место"], correctAnswer: "Признак предмета", hint: "Прилагательное отвечает на «какой?»" },
       { type: 'find', question: "Выбери прилагательные:", options: ["Красивый", "Красота", "Большой", "Дом", "Быстрый"], correctAnswer: ["Красивый", "Большой", "Быстрый"], hint: "Прилагательные описывают предметы" },
       { type: 'quiz', question: "На какой вопрос отвечает прилагательное?", options: ["Что?", "Какой?", "Что делает?", "Где?", "Когда?"], correctAnswer: "Какой?", hint: "Какой? - это признак" },
-      { type: 'quiz', question: "Зелёный (какой?) - это (...)", options: ["прилагательний", "прилагательнять", "прилагательнёт", "прилагательнев", "прилагательное"], correctAnswer: "прилагательное", hint: "Прилагательное = признак" },
+      { type: 'quiz', question: "Зелёный (какой?) - это ", options: ["прилагательний", "прилагательнять", "прилагательнёт", "прилагательнев", "прилагательное"], correctAnswer: "прилагательное", hint: "Прилагательное = признак" },
       { type: 'find', question: "Выбери прилагательные:", options: ["Весёлый", "Играть", "Маленький", "Книга", "Тёплый"], correctAnswer: ["Весёлый", "Маленький", "Тёплый"], hint: "Прилагательные описывают предметы" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь прилагательные! ✍️" }
@@ -374,7 +374,7 @@ export const secondGradeGames: GameLesson[] = [
       { type: 'quiz', question: "Чем мы видим?", options: ["Ушами", "Глазами", "Носом", "Ртом", "Кожей"], correctAnswer: "Глазами", hint: "Глаза - орган зрения" },
       { type: 'find', question: "Выбери органы чувств:", options: ["Глаза", "Уши", "Рука", "Нос", "Язык"], correctAnswer: ["Глаза", "Уши", "Нос", "Язык"], hint: "Пять органов чувств" },
       { type: 'quiz', question: "Чем мы слышим?", options: ["Глазами", "Ушами", "Ртом", "Носом", "Кожей"], correctAnswer: "Ушами", hint: "Уши - орган слуха" },
-      { type: 'quiz', question: "Нос - орган (...)", options: ["не знаю", "обоняния", "нет", "нос", "орган"], correctAnswer: "обоняния", hint: "Обоняние = чувство запаха" },
+      { type: 'quiz', question: "Нос - орган ", options: ["зрения", "обоняния", "слуха", "осязания", "вкуса"], correctAnswer: "обоняния", hint: "Обоняние = чувство запаха" },
       { type: 'quiz', question: "Чем мы чувствуем вкус?", options: ["Глазами", "Ушами", "Языком", "Носом", "Кожей"], correctAnswer: "Языком", hint: "Язык - орган вкуса" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь органы чувств! 👃" }
@@ -387,9 +387,9 @@ export const secondGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "I ___ to school every day.", options: ["go", "goes", "going", "went", "gone"], correctAnswer: "go", hint: "I go = я хожу" },
       { type: 'quiz', question: "She ___ to school.", options: ["go", "goes", "going", "went", "gone"], correctAnswer: "goes", hint: "She goes = она ходит" },
-      { type: 'quiz', question: "They (...) (play) football. (play)", options: ["нет", "football", "не знаю", "they", "play"], correctAnswer: "play", hint: "They play = они играют" },
+      { type: 'quiz', question: "They  (play) football. (play)", options: ["run", "swim", "jump", "read", "play"], correctAnswer: "play", hint: "They play = они играют" },
       { type: 'find', question: "Выбери маркеры Present Simple:", options: ["Every day", "Yesterday", "Usually", "Last week", "Always"], correctAnswer: ["Every day", "Usually", "Always"], hint: "Present Simple = регулярно" },
-      { type: 'quiz', question: "He (...) (like) apples. (likes)", options: ["likes", "нет", "apples", "like", "he"], correctAnswer: "likes", hint: "He likes = ему нравится" }
+      { type: 'quiz', question: "He  (like) apples. (likes)", options: ["enjoys", "wants", "likes", "hates", "needs"], correctAnswer: "likes", hint: "He likes = ему нравится" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь Present Simple! 🇬🇧" }
   },
@@ -401,7 +401,7 @@ export const secondGradeGames: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Monday - это...", options: ["Вторник", "Понедельник", "Среда", "Четверг", "Пятница"], correctAnswer: "Понедельник", hint: "Monday = понедельник" },
       { type: 'quiz', question: "Как будет «пятница»?", options: ["Friday", "Monday", "Sunday", "Tuesday", "Saturday"], correctAnswer: "Friday", hint: "Friday = пятница" },
-      { type: 'quiz', question: "Sunday = (...) (воскресенье)", options: ["всё", "не знаю", "воскресенье", "sunday", "нет"], correctAnswer: "воскресенье", hint: "Sunday = воскресенье" },
+      { type: 'quiz', question: "Sunday =  (воскресенье)", options: ["суббота", "понедельник", "воскресенье", "четверг", "пятница"], correctAnswer: "воскресенье", hint: "Sunday = воскресенье" },
       { type: 'find', question: "Выбери дни недели:", options: ["Monday", "January", "Friday", "December", "Sunday"], correctAnswer: ["Monday", "Friday", "Sunday"], hint: "Days of the week" },
       { type: 'quiz', question: "January - это...", options: ["День недели", "Январь", "Время года", "Праздник", "Цвет"], correctAnswer: "Январь", hint: "January = январь" }
     ],

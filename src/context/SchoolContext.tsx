@@ -1,7 +1,7 @@
 'use client'
 
 import { createContext, useContext, useState, useEffect, ReactNode, useMemo } from 'react'
-import { getSubjectsForGrade, allGames } from '@/data'
+import { getSubjectsForGrade, getGamesForGrade } from '@/data'
 import { SubjectData, GameLesson } from '@/data/types'
 
 // Types
@@ -55,7 +55,8 @@ interface SchoolContextType {
   subjects: SubjectData[]
   games: GameLesson[]
   gameFromLesson: boolean // Игра запущена из урока
-  
+  isLoading: boolean      // Загрузка данных
+
   // Actions
   goToClass: (cls: number) => void
   goToSubject: (subject: SubjectData) => void
@@ -71,7 +72,7 @@ interface SchoolContextType {
   completeTopic: (topicKey: string) => void
   recordGameResult: (correct: number, total: number, subject: string) => void
   unlockAchievement: (achievementId: string) => void
-  
+
   // Helpers
   isKidMode: boolean
 }
@@ -102,7 +103,7 @@ function getInitialProgress(): Progress {
     todayPoints: 0,
     completedLessonTests: []
   }
-  
+
   if (typeof window === 'undefined') {
     return defaultProgress
   }
@@ -127,27 +128,27 @@ function getTodayString(): string {
 function calculateStreak(lastDate: string, currentStreak: number): number {
   const today = getTodayString()
   if (lastDate === today) return currentStreak // Already active today
-  
+
   const yesterday = new Date()
   yesterday.setDate(yesterday.getDate() - 1)
   const yesterdayString = yesterday.toISOString().split('T')[0]
-  
+
   if (lastDate === yesterdayString) {
     return currentStreak + 1 // Continue streak
   }
-  
+
   return 1 // Reset streak
 }
 
 // Update streak calendar data
 function updateStreakCalendar(points: number, isLesson: boolean, isGame: boolean) {
   if (typeof window === 'undefined') return
-  
+
   try {
     const today = getTodayString()
     const saved = localStorage.getItem('streakCalendar')
     const streakData = saved ? JSON.parse(saved) : {}
-    
+
     if (!streakData[today]) {
       streakData[today] = {
         date: today,
@@ -157,16 +158,16 @@ function updateStreakCalendar(points: number, isLesson: boolean, isGame: boolean
         games: 0
       }
     }
-    
+
     streakData[today].points = (streakData[today].points || 0) + points
     if (isLesson) streakData[today].lessons = (streakData[today].lessons || 0) + 1
     if (isGame) streakData[today].games = (streakData[today].games || 0) + 1
-    
+
     // hasActivity только если есть уроки или игры (не просто бонус за вход)
     if (isLesson || isGame) {
       streakData[today].hasActivity = true
     }
-    
+
     localStorage.setItem('streakCalendar', JSON.stringify(streakData))
   } catch {
     // ignore
@@ -182,17 +183,39 @@ export function SchoolProvider({ children }: { children: ReactNode }) {
   const [activeMiniGame, setActiveMiniGame] = useState<MiniGameType>(null)
   const [progress, setProgress] = useState<Progress>(getInitialProgress)
   const [gameFromLesson, setGameFromLesson] = useState(false)
+  const [subjects, setSubjects] = useState<SubjectData[]>([])
+  const [games, setGames] = useState<GameLesson[]>([])
+  const [isLoading, setIsLoading] = useState(false)
 
-  const subjects = useMemo(() => 
-    selectedClass !== null ? getSubjectsForGrade(selectedClass) : [], 
-    [selectedClass]
-  )
-  
-  const games = useMemo(() => 
-    selectedClass !== null ? (allGames[selectedClass] || []) : [], 
-    [selectedClass]
-  )
-  
+  // Асинхронная загрузка данных при выборе класса
+  useEffect(() => {
+    if (selectedClass === null) {
+      setSubjects([])
+      setGames([])
+      return
+    }
+
+    let cancelled = false
+    setIsLoading(true)
+
+    Promise.all([
+      getSubjectsForGrade(selectedClass),
+      getGamesForGrade(selectedClass)
+    ]).then(([loadedSubjects, loadedGames]) => {
+      if (!cancelled) {
+        setSubjects(loadedSubjects)
+        setGames(loadedGames)
+        setIsLoading(false)
+      }
+    }).catch(() => {
+      if (!cancelled) {
+        setIsLoading(false)
+      }
+    })
+
+    return () => { cancelled = true }
+  }, [selectedClass])
+
   const isKidMode = selectedClass !== null && selectedClass <= 2
 
   // Save progress
@@ -207,8 +230,8 @@ export function SchoolProvider({ children }: { children: ReactNode }) {
   const addPoints = (points: number) => {
     const today = getTodayString()
     const newStreak = calculateStreak(progress.lastActiveDate, progress.streak)
-    const newProgress = { 
-      ...progress, 
+    const newProgress = {
+      ...progress,
       totalPoints: progress.totalPoints + points,
       streak: newStreak,
       lastActiveDate: today,
@@ -363,6 +386,7 @@ export function SchoolProvider({ children }: { children: ReactNode }) {
       subjects,
       games,
       gameFromLesson,
+      isLoading,
       goToClass,
       goToSubject,
       goToGames,
