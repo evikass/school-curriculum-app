@@ -5,28 +5,29 @@
       <stop offset="100%" stop-color="#FFFDE7"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B71C1C"/>
-      <stop offset="100%" stop-color="#C62828"/>
+      <stop offset="0%" stop-color="#0D47A1"/>
+      <stop offset="100%" stop-color="#1565C0"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#1565C0" stroke-width="1" opacity="0.3"/>
   <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
+  <polygon points="10,10 30,10 10,30" fill="#1565C0" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
   <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
   <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Квадратичная функция</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#1565C0" text-anchor="middle">Неполные квадратные уравнения</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#C62828" opacity="0.18" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#1565C0" opacity="0.18" rx="1"/>
   <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
+  <!-- ILLUSTRATION AREA -->
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5"/><g transform="translate(250,200) scale(0.8)"><line x1="-35" y1="0" x2="35" y2="0" stroke="#333" stroke-width="1.5"/><polygon points="35,0 30,-3 30,3" fill="#333"/><line x1="0" y1="25" x2="0" y2="-30" stroke="#333" stroke-width="1.5"/><polygon points="0,-30 -3,-25 3,-25" fill="#333"/><text x="33" y="12" font-family="Arial" font-size="9" fill="#333">x</text><text x="5" y="-27" font-family="Arial" font-size="9" fill="#333">y</text><path d="M-25,20 Q-15,15 -8,0 Q0,-15 8,-25 Q12,-20 15,-15" fill="none" stroke="#C62828" stroke-width="2"/><circle cx="-24" cy="0" r="1" fill="#333"/><circle cx="0" cy="21" r="1" fill="#333"/><circle cx="-16" cy="0" r="1" fill="#333"/><circle cx="0" cy="14" r="1" fill="#333"/><circle cx="-8" cy="0" r="1" fill="#333"/><circle cx="0" cy="7" r="1" fill="#333"/><circle cx="0" cy="0" r="1" fill="#333"/><circle cx="0" cy="0" r="1" fill="#333"/><circle cx="8" cy="0" r="1" fill="#333"/><circle cx="0" cy="-7" r="1" fill="#333"/><circle cx="16" cy="0" r="1" fill="#333"/><circle cx="0" cy="-14" r="1" fill="#333"/><circle cx="24" cy="0" r="1" fill="#333"/><circle cx="0" cy="-21" r="1" fill="#333"/></g><path d="M80,250 Q120,240 150,200 Q180,140 220,120 Q250,110 280,120 Q320,140 350,200 Q380,240 420,250" fill="none" stroke="#6A1B9A" stroke-width="2.5"/><text x="250" y="290" font-family="Arial" font-size="14" fill="#6A1B9A" text-anchor="middle" font-weight="bold">y = ax2 + bx + c</text>
+  <rect x="15" y="85" width="470" height="215" fill="#E3F2FD"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#1565C0" text-anchor="middle" font-weight="bold">Неполные квадратные уравнения</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#1565C0" text-anchor="middle">Тип 1. ax² + c = 0 (b =...</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#0D47A1" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#0D47A1" text-anchor="middle">Алгоритм решения:</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Решение:</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Структура квадратного у...</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Три типа неполных квадр...</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Примеры:</text>
+  <circle cx="450" cy="110" r="15" fill="#1565C0" opacity="0.15"/><circle cx="440" cy="120" r="8" fill="#0D47A1" opacity="0.1"/>
   </g>
   <!-- Bottom panel -->
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>

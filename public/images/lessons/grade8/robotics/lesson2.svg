@@ -5,28 +5,29 @@
       <stop offset="100%" stop-color="#FFFDE7"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B71C1C"/>
-      <stop offset="100%" stop-color="#C62828"/>
+      <stop offset="0%" stop-color="#263238"/>
+      <stop offset="100%" stop-color="#37474F"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#37474F" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#37474F" stroke-width="1" opacity="0.3"/>
   <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
+  <polygon points="10,10 30,10 10,30" fill="#37474F" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
   <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
   <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#455A64" text-anchor="middle">Датчики</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#37474F" text-anchor="middle">Виды роботов</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Робототехника - Урок 2</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#455A64" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#455A64" opacity="0.18" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#37474F" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#37474F" opacity="0.18" rx="1"/>
   <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
+  <!-- ILLUSTRATION AREA -->
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E3F2FD"/><circle cx="150" cy="190" r="25" fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/><text x="150" y="185" font-family="Arial" font-size="8" fill="#1565C0" text-anchor="middle">Свет</text><text x="150" y="197" font-family="Arial" font-size="8" fill="#1565C0" text-anchor="middle">датчик</text><circle cx="250" cy="190" r="25" fill="#FFEBEE" stroke="#C62828" stroke-width="2"/><text x="250" y="185" font-family="Arial" font-size="8" fill="#C62828" text-anchor="middle">Темп.</text><text x="250" y="197" font-family="Arial" font-size="8" fill="#C62828" text-anchor="middle">датчик</text><circle cx="350" cy="190" r="25" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2"/><text x="350" y="185" font-family="Arial" font-size="8" fill="#2E7D32" text-anchor="middle">Давл.</text><text x="350" y="197" font-family="Arial" font-size="8" fill="#2E7D32" text-anchor="middle">датчик</text><text x="250" y="260" font-family="Arial,sans-serif" font-size="13" fill="#455A64" text-anchor="middle" font-weight="bold">Типы датчиков</text>
+  <rect x="15" y="85" width="470" height="215" fill="#ECEFF1"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#37474F" text-anchor="middle" font-weight="bold">Виды роботов</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#37474F" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#37474F" text-anchor="middle">По сфере применения:</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#263238" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#263238" text-anchor="middle">Колёсные:</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Классификация роботов:</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Промышленные роботы:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Сервисные роботы:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Медицинские роботы:</text>
+  <rect x="435" y="270" width="20" height="20" rx="2" fill="#37474F" opacity="0.12"/><rect x="445" y="280" width="15" height="15" rx="2" fill="#263238" opacity="0.08"/>
   </g>
   <!-- Bottom panel -->
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>

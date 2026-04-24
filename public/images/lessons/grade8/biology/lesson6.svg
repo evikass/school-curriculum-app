@@ -5,33 +5,29 @@
       <stop offset="100%" stop-color="#FFFDE7"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B71C1C"/>
-      <stop offset="100%" stop-color="#C62828"/>
+      <stop offset="0%" stop-color="#1B5E20"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
   <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
+  <polygon points="10,10 30,10 10,30" fill="#2E7D32" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
   <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
   <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1565C0" text-anchor="middle">Дыхательная система</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#2E7D32" text-anchor="middle">Кровообращение</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#1565C0" opacity="0.18" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#2E7D32" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#2E7D32" opacity="0.18" rx="1"/>
   <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
+  <!-- ILLUSTRATION AREA -->
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E3F2FD"/><g transform="translate(250,180) scale(2.0)">
-      <path d="M0,-25 C-5,-25 -8,-20 -8,-10 L-8,10 C-8,25 -25,25 -25,10 L-25,-5 C-25,-20 -15,-25 -8,-10" fill="#F48FB1" opacity="0.5" stroke="#C62828" stroke-width="1.5"/>
-      <path d="M0,-25 C5,-25 8,-20 8,-10 L8,10 C8,25 25,25 25,10 L25,-5 C25,-20 15,-25 8,-10" fill="#F48FB1" opacity="0.5" stroke="#C62828" stroke-width="1.5"/>
-      <rect x="-3" y="-30" width="6" height="10" rx="2" fill="#8D6E63"/>
-      <path d="M0,-5 L-12,15 M0,-5 L12,15 M-5,0 L-18,10 M5,0 L18,10" stroke="#C62828" stroke-width="0.8" opacity="0.5"/>
-    </g><path d="M250,120 L250,140" stroke="#8D6E63" stroke-width="4"/><text x="250" y="115" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">Трахея</text><circle cx="220" cy="160" r="3" fill="#C62828"/><circle cx="240" cy="155" r="3" fill="#C62828"/><circle cx="260" cy="155" r="3" fill="#C62828"/><circle cx="280" cy="160" r="3" fill="#C62828"/><text x="250" y="250" font-family="Arial,sans-serif" font-size="13" fill="#1565C0" text-anchor="middle" font-weight="bold">Дыхательная система</text>
+  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#2E7D32" text-anchor="middle" font-weight="bold">Кровообращение</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Артерии:</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#1B5E20" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#1B5E20" text-anchor="middle">Большой круг:</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Кровообращение</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Виды сосудов:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Вены:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Капилляры:</text>
+  <circle cx="450" cy="270" r="18" fill="#2E7D32" opacity="0.1"/><circle cx="455" cy="265" r="10" fill="#2E7D32" opacity="0.08"/>
   </g>
   <!-- Bottom panel -->
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
