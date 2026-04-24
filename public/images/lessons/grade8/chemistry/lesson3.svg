@@ -5,28 +5,29 @@
       <stop offset="100%" stop-color="#FFFDE7"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B71C1C"/>
-      <stop offset="100%" stop-color="#C62828"/>
+      <stop offset="0%" stop-color="#004D40"/>
+      <stop offset="100%" stop-color="#00695C"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#00695C" stroke-width="1" opacity="0.3"/>
   <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
+  <polygon points="10,10 30,10 10,30" fill="#00695C" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
   <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
   <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#2E7D32" text-anchor="middle">Периодическая таблица</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#00695C" text-anchor="middle">Состав атома</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#2E7D32" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#2E7D32" opacity="0.18" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#00695C" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#00695C" opacity="0.18" rx="1"/>
   <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
+  <!-- ILLUSTRATION AREA -->
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF8E1"/><rect x="80" y="100" width="340" height="180" rx="3" fill="white" stroke="#333" stroke-width="1.5"/><rect x="85" y="105" width="18" height="18" rx="1" fill="#FFCDD2"/><text x="94" y="118" font-family="Arial" font-size="8" fill="#C62828" text-anchor="middle">H</text><rect x="105" y="105" width="18" height="18" rx="1" fill="#BBDEFB"/><text x="114" y="118" font-family="Arial" font-size="8" fill="#1565C0" text-anchor="middle">He</text><rect x="85" y="125" width="18" height="18" rx="1" fill="#C8E6C9"/><text x="94" y="138" font-family="Arial" font-size="7" fill="#2E7D32" text-anchor="middle">Li</text><rect x="105" y="125" width="18" height="18" rx="1" fill="#FFF9C4"/><text x="114" y="138" font-family="Arial" font-size="7" fill="#F57F17" text-anchor="middle">Be</text><rect x="210" y="125" width="18" height="18" rx="1" fill="#E1BEE7"/><text x="219" y="138" font-family="Arial" font-size="7" fill="#6A1B9A" text-anchor="middle">B</text><rect x="228" y="125" width="18" height="18" rx="1" fill="#FFCDD2"/><text x="237" y="138" font-family="Arial" font-size="7" fill="#C62828" text-anchor="middle">C</text><rect x="246" y="125" width="18" height="18" rx="1" fill="#FFCDD2"/><text x="255" y="138" font-family="Arial" font-size="7" fill="#C62828" text-anchor="middle">N</text><rect x="264" y="125" width="18" height="18" rx="1" fill="#FFCDD2"/><text x="273" y="138" font-family="Arial" font-size="7" fill="#C62828" text-anchor="middle">O</text><rect x="282" y="125" width="18" height="18" rx="1" fill="#BBDEFB"/><text x="291" y="138" font-family="Arial" font-size="7" fill="#1565C0" text-anchor="middle">F</text><rect x="300" y="125" width="18" height="18" rx="1" fill="#BBDEFB"/><text x="309" y="138" font-family="Arial" font-size="7" fill="#1565C0" text-anchor="middle">Ne</text><text x="250" y="165" font-family="Arial,sans-serif" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">Периодическая система</text><rect x="110" y="200" width="40" height="25" rx="2" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/><text x="130" y="217" font-family="Arial" font-size="10" fill="#C62828" text-anchor="middle">Na</text><text x="130" y="230" font-family="Arial" font-size="7" fill="#333" text-anchor="middle">23</text><rect x="170" y="200" width="40" height="25" rx="2" fill="#BBDEFB" stroke="#1565C0" stroke-width="1"/><text x="190" y="217" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">Cl</text><text x="190" y="230" font-family="Arial" font-size="7" fill="#333" text-anchor="middle">35.5</text><text x="220" y="217" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">+</text><rect x="240" y="200" width="60" height="25" rx="2" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/><text x="270" y="217" font-family="Arial" font-size="10" fill="#E65100" text-anchor="middle">NaCl</text>
+  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#00695C" text-anchor="middle" font-weight="bold">Состав атома</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#00695C" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#00695C" text-anchor="middle">Ядро:</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#004D40" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#004D40" text-anchor="middle">Заряд ядра (Z):</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Атом</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Состав атома:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Протоны (p⁺):</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Нейтроны (n⁰):</text>
+  <circle cx="55" cy="275" r="16" fill="#00695C" opacity="0.12"/><circle cx="65" cy="268" r="10" fill="#00695C" opacity="0.08"/>
   </g>
   <!-- Bottom panel -->
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>

@@ -5,48 +5,29 @@
       <stop offset="100%" stop-color="#FFFDE7"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B71C1C"/>
-      <stop offset="100%" stop-color="#C62828"/>
+      <stop offset="0%" stop-color="#0D47A1"/>
+      <stop offset="100%" stop-color="#1565C0"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#1565C0" stroke-width="1" opacity="0.3"/>
   <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
+  <polygon points="10,10 30,10 10,30" fill="#1565C0" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
   <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
   <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1565C0" text-anchor="middle">Демократия</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#1565C0" text-anchor="middle">Государство и экономика</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Обществознание - Урок 4</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
   <rect x="30" y="75" width="60" height="5" fill="#1565C0" opacity="0.18" rx="1"/>
   <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
+  <!-- ILLUSTRATION AREA -->
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E3F2FD"/><rect x="100" y="120" width="300" height="80" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/><text x="250" y="150" font-family="Arial" font-size="16" fill="#1565C0" text-anchor="middle" font-weight="bold">Выборы</text><text x="250" y="175" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">Голосование за представителей</text><text x="250" y="190" font-family="Arial" font-size="11" fill="#555" text-anchor="middle">Свобода слова, многопартийность</text><g transform="translate(120,240) scale(0.8)" fill="#333">
-      <circle cx="0" cy="-40" r="10"/>
-      <path d="M-8,-28 L-12,10 L-5,10 L0,-5 L5,10 L12,10 L8,-28Z"/>
-      <line x1="-4" y1="10" x2="-6" y2="38" stroke="#333" stroke-width="4" stroke-linecap="round"/>
-      <line x1="4" y1="10" x2="6" y2="38" stroke="#333" stroke-width="4" stroke-linecap="round"/>
-    </g><g transform="translate(200,240) scale(0.8)" fill="#333">
-      <circle cx="0" cy="-40" r="10"/>
-      <path d="M-8,-28 L-12,10 L-5,10 L0,-5 L5,10 L12,10 L8,-28Z"/>
-      <line x1="-4" y1="10" x2="-6" y2="38" stroke="#333" stroke-width="4" stroke-linecap="round"/>
-      <line x1="4" y1="10" x2="6" y2="38" stroke="#333" stroke-width="4" stroke-linecap="round"/>
-    </g><g transform="translate(280,240) scale(0.8)" fill="#333">
-      <circle cx="0" cy="-40" r="10"/>
-      <path d="M-8,-28 L-12,10 L-5,10 L0,-5 L5,10 L12,10 L8,-28Z"/>
-      <line x1="-4" y1="10" x2="-6" y2="38" stroke="#333" stroke-width="4" stroke-linecap="round"/>
-      <line x1="4" y1="10" x2="6" y2="38" stroke="#333" stroke-width="4" stroke-linecap="round"/>
-    </g><g transform="translate(360,240) scale(0.8)" fill="#333">
-      <circle cx="0" cy="-40" r="10"/>
-      <path d="M-8,-28 L-12,10 L-5,10 L0,-5 L5,10 L12,10 L8,-28Z"/>
-      <line x1="-4" y1="10" x2="-6" y2="38" stroke="#333" stroke-width="4" stroke-linecap="round"/>
-      <line x1="4" y1="10" x2="6" y2="38" stroke="#333" stroke-width="4" stroke-linecap="round"/>
-    </g>
+  <rect x="15" y="85" width="470" height="215" fill="#E3F2FD"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#1565C0" text-anchor="middle" font-weight="bold">Государство и экономика</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#1565C0" text-anchor="middle">Функции государства:</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#0D47A1" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#0D47A1" text-anchor="middle">Прямые:</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Центральный банк:</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Роль государства в экон...</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Налоги:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Виды налогов:</text>
+  <rect x="435" y="268" width="30" height="25" rx="3" fill="#1565C0" opacity="0.1"/>
   </g>
   <!-- Bottom panel -->
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
