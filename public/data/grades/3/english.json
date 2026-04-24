@@ -1,0 +1,1263 @@
+{
+ "lessons": {
+  "title": "Иностранный язык",
+  "icon": "Languages",
+  "color": "text-pink-400",
+  "topics": [
+   "Alphabet",
+   "Numbers",
+   "Colors",
+   "Family",
+   "Animals",
+   "Food",
+   "Daily routine"
+  ],
+  "detailedTopics": [
+   {
+    "topic": "Alphabet and Sounds",
+    "lessons": [
+     {
+      "title": "Урок 1: English Alphabet",
+      "description": "Английский алфавит.",
+      "tasks": [
+       "26 букв в алфавите",
+       "A B C D E F G...",
+       "Спеть песенку ABC",
+       "Запомнить порядок букв"
+      ],
+      "theory": "Английский алфавит.",
+      "image": "/images/lessons/grade3/english/lesson1.svg",
+      "content": "## 🔤 English Alphabet (Английский алфавит)\n\nВ английском алфавите **26 букв**. Это меньше, чем в русском (33 буквы)!\n\n### 📚 The Alphabet:\n\n**A B C D E F G H I J K L M N O P Q R S T U V W X Y Z**\n\n### 🎵 ABC Song:\n\n«A-B-C-D-E-F-G\nH-I-J-K-L-M-N-O-P\nQ-R-S, T-U-V\nW-X, Y and Z\nNow I know my ABCs\nNext time won't you sing with me?»\n\n### 📝 Буквы и их названия:\n\n| Буква | Название | Буква | Название |\n|-------|----------|-------|----------|\n| Aa | эй | Nn | эн |\n| Bb | би | Oo | оу |\n| Cc | си | Pp | пи |\n| Dd | ди | Qq | кью |\n| Ee | и | Rr | ар |\n| Ff | эф | Ss | эс |\n| Gg | джи | Tt | ти |\n| Hh | эйч | Uu | ю |\n| Ii | ай | Vv | ви |\n| Jj | джей | Ww | дабл-ю |\n| Kk | кей | Xx | экс |\n| Ll | эл | Yy | уай |\n| Mm | эм | Zz | зед/зи |\n\n### 💡 Интересные факты:\n\n- Буква **E** — самая частая в английском\n- Буква **Z** произносится «зед» в Британии и «зи» в США",
+      "examples": [
+       "A = эй, B = би, C = си",
+       "Английский алфавит = 26 букв",
+       "E — самая частая буква"
+      ],
+      "facts": [
+       "В английском нет букв Ё, Й, Ъ, Ы, Ь, Э, Ю, Я",
+       "Буква E встречается в каждом 8 слове",
+       "ABC Song — самая известная песня для детей"
+      ]
+     },
+     {
+      "title": "Урок 2: Vowels and Consonants",
+      "description": "Гласные и согласные.",
+      "tasks": [
+       "Гласные: A, E, I, O, U",
+       "Y иногда гласная",
+       "Произношение звуков",
+       "Прочитать слова"
+      ],
+      "theory": "Гласные и согласные.",
+      "image": "/images/lessons/grade3/english/lesson2.svg",
+      "content": "## 🗣️ Vowels and Consonants (Гласные и согласные)\n\nВ английском языке буквы делятся на гласные и согласные.\n\n### 🅰️ Vowels (Гласные):\n\n**A, E, I, O, U** — всегда гласные\n\n**Y** — иногда гласная (в конце слова: my, why, fly)\n\n### 📚 Short Vowels (Краткие гласные):\n\n| Буква | Звук | Примеры |\n|-------|------|---------|\n| Aa | [æ] | cat, bat, map |\n| Ee | [e] | pen, bed, red |\n| Ii | [ɪ] | pig, sit, big |\n| Oo | [ɒ] | dog, box, hot |\n| Uu | [ʌ] | cup, bus, sun |\n\n### 📚 Long Vowels (Долгие гласные):\n\n| Буква | Звук | Примеры |\n|-------|------|---------|\n| Aa | [eɪ] | name, cake, face |\n| Ee | [iː] | me, see, tree |\n| Ii | [aɪ] | like, time, five |\n| Oo | [əʊ] | go, home, nose |\n| Uu | [juː] | student, music, cute |\n\n### 🔡 Consonants (Согласные):\n\nВсе остальные буквы: **B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y, Z**\n\n### 💡 Правило:\n\n- Гласные = 5-6 букв\n- Согласные = 20-21 буква",
+      "examples": [
+       "Гласные: A, E, I, O, U",
+       "Y — иногда гласная",
+       "Cat [kæt], Name [neɪm]"
+      ],
+      "facts": [
+       "Y — особая буква: в «my» она гласная, в «yes» — согласная",
+       "Гласные могут быть краткими и долгими",
+       "В каждом слове есть хотя бы одна гласная"
+      ]
+     },
+     {
+      "title": "Урок 3: Reading Rules",
+      "description": "Правила чтения.",
+      "tasks": [
+       "Open syllable: name, like",
+       "Closed syllable: cat, dog",
+       "Прочитать слова",
+       "Найти различия"
+      ],
+      "theory": "Правила чтения.",
+      "image": "/images/lessons/grade3/english/lesson3.svg",
+      "content": "## 📖 Reading Rules (Правила чтения)\n\nВ английском языке есть правила чтения, которые помогают правильно читать слова.\n\n### 📖 Open Syllable (Открытый слог):\n\nСлог заканчивается на гласную букву.\n**Гласная читается как в алфавите!**\n\n| Буква | Чтение | Примеры |\n|-------|--------|---------|\n| A | эй | name, cake, late |\n| E | и | me, he, she |\n| I | ай | like, time, five |\n| O | оу | go, home, no |\n| U | ю | student, music |\n\n### 📖 Closed Syllable (Закрытый слог):\n\nСлог заканчивается на согласную букву.\n**Гласная читается кратко!**\n\n| Буква | Чтение | Примеры |\n|-------|--------|---------|\n| A | э | cat, map, hat |\n| E | е | pen, bed, red |\n| I | и | pig, sit, big |\n| O | о | dog, box, hot |\n| U | а | cup, bus, sun |\n\n### 🔄 Сравним:\n\n| Открытый | Закрытый |\n|----------|----------|\n| name (эй) | cat (э) |\n| like (ай) | pig (и) |\n| go (оу) | dog (о) |\n\n### 💡 Как определить тип слога:\n\n- **Открытый:** после гласной нет согласной или она одна в конце (no, he, my)\n- **Закрытый:** после гласной стоит согласная (cat, dog, pen)",
+      "examples": [
+       "Name — открытый слог (эй)",
+       "Cat — закрытый слог (э)",
+       "Like [laɪk], Pig [pɪg]"
+      ],
+      "facts": [
+       "Одна буква может читаться по-разному",
+       "Правила помогают, но есть исключения",
+       "Чем больше читаешь, тем легче запомнить"
+      ]
+     },
+     {
+      "title": "Урок 4: Common Words",
+      "description": "Частые слова.",
+      "tasks": [
+       "the, and, is, it, to",
+       "Прочитать предложения",
+       "Составить фразы",
+       "Использовать в речи"
+      ],
+      "theory": "Частые слова.",
+      "image": "/images/lessons/grade3/english/lesson4.svg",
+      "content": "## 📝 Common Words (Частые слова)\n\nЭти слова встречаются чаще всего в английском языке. Выучи их!\n\n### 📚 Top 20 Words:\n\n| Слово | Перевод | Пример |\n|-------|---------|--------|\n| the | определённый артикль | the cat |\n| a / an | неопределённый артикль | a cat, an apple |\n| and | и | cat and dog |\n| is | есть (он/она/оно) | He is happy |\n| it | это | It is a cat |\n| to | к, в (направление) | go to school |\n| I | я | I am a student |\n| you | ты, вы | You are my friend |\n| he | он | He is tall |\n| she | она | She is kind |\n| we | мы | We are friends |\n| they | они | They are students |\n| have | иметь | I have a cat |\n| this | это | This is my book |\n| that | тот | That is a dog |\n| what | что, какой | What is this? |\n| my | мой | My name is Tom |\n| your | твой | What is your name? |\n| yes | да | Yes, I can |\n| no | нет | No, I can't |\n\n### 📝 Простые предложения:\n\n- **This is a cat.** — Это кошка.\n- **I have a dog.** — У меня есть собака.\n- **She is my friend.** — Она моя подруга.\n- **What is your name?** — Как тебя зовут?\n- **My name is Tom.** — Меня зовут Том.\n\n### 💡 Местоимения:\n\n| Русский | Английский |\n|---------|------------|\n| я | I |\n| ты | you |\n| он | he |\n| она | she |\n| оно | it |\n| мы | we |\n| они | they |",
+      "examples": [
+       "The cat, A dog, An apple",
+       "I am, You are, He is",
+       "What is your name?"
+      ],
+      "facts": [
+       "«The» — самое частое слово в английском",
+       "Местоимения помогают говорить о себе и других",
+       "Глагол «to be» — am, is, are"
+      ]
+     }
+    ]
+   },
+   {
+    "topic": "Numbers and Colors",
+    "lessons": [
+     {
+      "title": "Урок 5: Numbers 1-20",
+      "description": "Числа от 1 до 20.",
+      "tasks": [
+       "One, two, three, four...",
+       "Eleven, twelve, thirteen...",
+       "Посчитать предметы",
+       "Назвать возраст"
+      ],
+      "theory": "Числа от 1 до 20.",
+      "image": "/images/lessons/grade3/english/lesson5.svg",
+      "content": "## 🔢 Numbers 1-20 (Числа от 1 до 20)\n\nЧисла в английском языке имеют свои названия. Выучи их!\n\n### 📚 Numbers 1-10:\n\n| Цифра | Английский | Транскрипция |\n|-------|------------|--------------|\n| 1 | one | уан |\n| 2 | two | ту |\n| 3 | three | сри |\n| 4 | four | фо |\n| 5 | five | файв |\n| 6 | six | сикс |\n| 7 | seven | севен |\n| 8 | eight | эйт |\n| 9 | nine | найн |\n| 10 | ten | тен |\n\n### 📚 Numbers 11-20:\n\n| Цифра | Английский | Транскрипция |\n|-------|------------|--------------|\n| 11 | eleven | илéвен |\n| 12 | twelve | туэлв |\n| 13 | thirteen | сётин |\n| 14 | fourteen | фóтин |\n| 15 | fifteen | фифтúн |\n| 16 | sixteen | сикстúн |\n| 17 | seventeen | севентúн |\n| 18 | eighteen | эйтúн |\n| 19 | nineteen | нáйтин |\n| 20 | twenty | твéнти |\n\n### 💡 Правила:\n\n**13-19:** добавляем **-teen** к числу 3-9\n- three → thirteen\n- four → fourteen\n- six → sixteen\n\n**Исключения:**\n- 11, 12 — особые слова\n- 13 — three → thirteen (меняется)\n- 15 — five → fifteen (меняется)\n- 18 — eight → eighteen (один t)",
+      "examples": [
+       "1-one, 2-two, 3-three",
+       "11-eleven, 12-twelve, 13-thirteen",
+       "How old are you? — I am 9"
+      ],
+      "facts": [
+       "«teen» означает возраст 13-19 лет (teenager)",
+       "13-19 = цифра + teen",
+       "12 — особое слово, не «twoteen»"
+      ]
+     },
+     {
+      "title": "Урок 6: Numbers 20-100",
+      "description": "Десятки до ста.",
+      "tasks": [
+       "Twenty, thirty, forty...",
+       "25 = twenty-five",
+       "Назвать числа",
+       "Решить примеры"
+      ],
+      "theory": "Десятки до ста.",
+      "image": "/images/lessons/grade3/english/lesson6.svg",
+      "content": "## 🔢 Numbers 20-100 (Десятки до ста)\n\nПосле 20 числа образуются по правилу!\n\n### 📚 Tens (Десятки):\n\n| Число | Английский | Транскрипция |\n|-------|------------|--------------|\n| 20 | twenty | твéнти |\n| 30 | thirty | сёти |\n| 40 | forty | фóти |\n| 50 | fifty | фúфти |\n| 60 | sixty | сúксти |\n| 70 | seventy | сéвенти |\n| 80 | eighty | эйти |\n| 90 | ninety | нáйти |\n| 100 | one hundred | уан хáндред |\n\n### 🔄 Составные числа:\n\n**Правило:** десятки + единицы (через дефис)\n\n| Число | Английский |\n|-------|------------|\n| 21 | twenty-one |\n| 35 | thirty-five |\n| 47 | forty-seven |\n| 58 | fifty-eight |\n| 63 | sixty-three |\n| 72 | seventy-two |\n| 84 | eighty-four |\n| 99 | ninety-nine |\n\n### 📝 Примеры:\n\n- **25 books** — twenty-five books\n- **37 apples** — thirty-seven apples\n- **50 students** — fifty students\n\n### 💡 Математика на английском:\n\n- **plus** — плюс\n- **minus** — минус\n- **equals** — равно\n\n**5 + 3 = 8** → Five plus three equals eight.\n**10 - 4 = 6** → Ten minus four equals six.",
+      "examples": [
+       "20-twenty, 30-thirty, 40-forty",
+       "25 = twenty-five",
+       "100 = one hundred"
+      ],
+      "facts": [
+       "Forty пишется без 'u' (не fourty!)",
+       "Десятки образуются с -ty",
+       "Дефис обязателен: twenty-one"
+      ]
+     },
+     {
+      "title": "Урок 7: Colors",
+      "description": "Цвета.",
+      "tasks": [
+       "Red, blue, green, yellow",
+       "Orange, purple, pink, brown",
+       "Описать предметы",
+       "Назвать любимый цвет"
+      ],
+      "theory": "Цвета.",
+      "image": "/images/lessons/grade3/english/lesson7.svg",
+      "content": "## 🎨 Colors (Цвета)\n\nЦвета помогают описывать предметы. Выучи названия цветов!\n\n### 📚 Basic Colors:\n\n| Цвет | Английский | Транскрипция |\n|------|------------|--------------|\n| красный | red | ред |\n| синий | blue | блу |\n| зелёный | green | гри́н |\n| жёлтый | yellow | йéллоу |\n| оранжевый | orange | óриндж |\n| фиолетовый | purple | пёпл |\n| розовый | pink | пик |\n| коричневый | brown | бра́ун |\n| чёрный | black | блэк |\n| белый | white | уáйт |\n| серый | grey | грэй |\n\n### 📝 Примеры:\n\n- **The apple is red.** — Яблоко красное.\n- **The sky is blue.** — Небо синее.\n- **The grass is green.** — Трава зелёная.\n- **My favourite color is yellow.** — Мой любимый цвет — жёлтый.\n\n### ❓ Вопросы и ответы:\n\n- **What color is it?** — Какого это цвета?\n- **It is red.** — Оно красное.\n- **What is your favourite color?** — Какой твой любимый цвет?\n- **My favourite color is blue.** — Мой любимый цвет — синий.\n\n### 💡 Интересные факты:\n\n- **Orange** — это и цвет, и фрукт!\n- **Black + white = grey**\n- **Blue + yellow = green**",
+      "examples": [
+       "Red apple, Blue sky, Green grass",
+       "What color is it? — It is red",
+       "My favourite color is..."
+      ],
+      "facts": [
+       "Orange — и цвет, и фрукт",
+       "RGB = Red, Green, Blue (цифровые цвета",
+       "В радуге 7 цветов: red, orange, yellow, green, blue, indigo, violet"
+      ]
+     },
+     {
+      "title": "Урок 8: Shapes",
+      "description": "Фигуры.",
+      "tasks": [
+       "Circle, square, triangle",
+       "Rectangle, oval",
+       "Найти фигуры",
+       "Нарисовать фигуры"
+      ],
+      "theory": "Фигуры.",
+      "image": "/images/lessons/grade3/english/lesson8.svg",
+      "content": "## 📐 Shapes (Фигуры)\n\nГеометрические фигуры в английском языке.\n\n### 📚 Basic Shapes:\n\n| Фигура | Английский | Транскрипция |\n|--------|------------|--------------|\n| круг | circle | сёкл |\n| квадрат | square | сквэа |\n| треугольник | triangle | трáйэнгл |\n| прямоугольник | rectangle | рéктэнгл |\n| овал | oval | óувл |\n| ромб | diamond | dáймонд |\n| звезда | star | ста |\n| сердце | heart | хаат |\n\n### 📝 Примеры:\n\n- **It is a circle.** — Это круг.\n- **It is a square.** — Это квадрат.\n- **The box is square.** — Коробка квадратная.\n- **The ball is round.** — Мяч круглый.\n\n### 🔢 Сравнения:\n\n| Фигура | Сколько сторон? |\n|--------|-----------------|\n| Triangle | 3 sides |\n| Square | 4 sides |\n| Rectangle | 4 sides |\n\n### 📝 Описание фигур:\n\n- **A circle has no corners.** — У круга нет углов.\n- **A square has 4 equal sides.** — У квадрата 4 равные стороны.\n- **A rectangle has 4 sides.** — У прямоугольника 4 стороны.\n\n### 💡 Интересные факты:\n\n- «Triangle» = tri (три) + angle (угол)\n- Круг — единственная фигура без углов\n- Квадрат — это особый прямоугольник",
+      "examples": [
+       "Circle = круг, Square = квадрат",
+       "Triangle = три угла",
+       "A square has 4 sides"
+      ],
+      "facts": [
+       "Triangle = tri (три) + angle (угол)",
+       "Circle — единственная фигура без углов",
+       "Diamond — алмаз и ромб"
+      ]
+     }
+    ]
+   },
+   {
+    "topic": "Family and People",
+    "lessons": [
+     {
+      "title": "Урок 9: Family Members",
+      "description": "Члены семьи.",
+      "tasks": [
+       "Mother, father, sister, brother",
+       "Grandmother, grandfather",
+       "Описать семью",
+       "Нарисовать семейное дерево"
+      ],
+      "theory": "Члены семьи.",
+      "image": "/images/lessons/grade3/english/lesson9.svg",
+      "content": "## 👨‍👩‍👧‍👦 Family Members (Члены семьи)\n\nСемья — это самые близкие люди. Выучи названия членов семьи!\n\n### 📚 Close Family:\n\n| Русский | Английский | Транскрипция |\n|---------|------------|--------------|\n| мама | mother / mom | máзэ / мом |\n| папа | father / dad | fáзэ / дэд |\n| сестра | sister | сúстэ |\n| брат | brother | брáзэ |\n| бабушка | grandmother / grandma | грэндмáзэ / грэндма |\n| дедушка | grandfather / grandpa | грэндфáзэ / грэндпа |\n\n### 📚 Extended Family:\n\n| Русский | Английский |\n|---------|------------|\n| тётя | aunt |\n| дядя | uncle |\n| двоюродный брат/сестра | cousin |\n| племянник | nephew |\n| племянница | niece |\n\n### 📝 Примеры:\n\n- **This is my mother.** — Это моя мама.\n- **I have a brother.** — У меня есть брат.\n- **She is my sister.** — Она моя сестра.\n- **My grandmother is kind.** — Моя бабушка добрая.\n\n### ❓ Вопросы:\n\n- **Do you have a sister?** — У тебя есть сестра?\n- **Yes, I have a sister.** — Да, у меня есть сестра.\n- **No, I don't have a sister.** — Нет, у меня нет сестры.\n\n### 🌳 Family Tree:\n\nGrandmother + Grandfather → Mother + Father → I + Brother/Sister\n\nИли в виде схемы:\n- Grandmother и Grandfather (бабушка и дедушка)\n  - Mother и Father (мама и папа)\n    - I (я) и Brother/Sister (брат/сестра)",
+      "examples": [
+       "Mother = мама, Father = папа",
+       "Sister = сестра, Brother = брат",
+       "I have a big family"
+      ],
+      "facts": [
+       "«Grand» означает «пра-» или «старший»",
+       "Mom, Dad — разговорные формы",
+       "Cousin — двоюродный брат или сестра"
+      ]
+     },
+     {
+      "title": "Урок 10: Describing People",
+      "description": "Описание людей.",
+      "tasks": [
+       "Tall, short, young, old",
+       "Hair: long, short, curly",
+       "Eyes: blue, brown, green",
+       "Описать друга"
+      ],
+      "theory": "Описание людей.",
+      "image": "/images/lessons/grade3/english/lesson10.svg",
+      "content": "## 👤 Describing People (Описание людей)\n\nЧтобы описать человека, используем прилагательные.\n\n### 📚 Height (Рост):\n\n| Русский | Английский | Пример |\n|---------|------------|--------|\n| высокий | tall | He is tall. |\n| низкий | short | She is short. |\n| среднего роста | medium height | He is medium height. |\n\n### 📚 Age (Возраст):\n\n| Русский | Английский | Пример |\n|---------|------------|--------|\n| молодой | young | She is young. |\n| старый | old | He is old. |\n\n### 📚 Hair (Волосы):\n\n| Русский | Английский |\n|---------|------------|\n| длинные | long hair |\n| короткие | short hair |\n| кудрявые | curly hair |\n| прямые | straight hair |\n| тёмные | dark hair |\n| светлые | fair hair |\n| рыжие | red hair |\n\n### 📚 Eyes (Глаза):\n\n| Русский | Английский |\n|---------|------------|\n| синие глаза | blue eyes |\n| карие глаза | brown eyes |\n| зелёные глаза | green eyes |\n| серые глаза | grey eyes |\n\n### 📝 Примеры описания:\n\n- **She has long dark hair.** — У неё длинные тёмные волосы.\n- **He has blue eyes.** — У него синие глаза.\n- **He is tall and young.** — Он высокий и молодой.\n- **She is short with curly hair.** — Она низкая с кудрявыми волосами.\n\n### 💡 Грамматика:\n\n**To have (иметь):**\n- I have — у меня есть\n- He/She has — у него/неё есть",
+      "examples": [
+       "He is tall. She is short.",
+       "Long hair, Short hair, Curly hair",
+       "Blue eyes, Brown eyes, Green eyes"
+      ],
+      "facts": [
+       "He has, She has (не have!)",
+       "Волосы — всегда hair (не hairs!)",
+       "Eyes — всегда множественное число"
+      ]
+     },
+     {
+      "title": "Урок 11: Body Parts",
+      "description": "Части тела.",
+      "tasks": [
+       "Head, shoulders, knees, toes",
+       "Eyes, ears, nose, mouth",
+       "Спеть песенку",
+       "Показать на себе"
+      ],
+      "theory": "Части тела.",
+      "image": "/images/lessons/grade3/english/lesson11.svg",
+      "content": "## 🫀 Body Parts (Части тела)\n\nЗнание частей тела помогает описывать людей и говорить о здоровье.\n\n### 📚 Head and Face (Голова и лицо):\n\n| Русский | Английский | Транскрипция |\n|---------|------------|--------------|\n| голова | head | хед |\n| лицо | face | фейс |\n| глаз (глаза) | eye (eyes) | ай (айз) |\n| ухо (уши) | ear (ears) | иэ (иэз) |\n| нос | nose | нóуз |\n| рот | mouth | ма́ус |\n| зуб (зубы) | tooth (teeth) | ту́с (ти́с) |\n| волосы | hair | хэа |\n\n### 📚 Body (Тело):\n\n| Русский | Английский |\n|---------|------------|\n| плечо | shoulder |\n| рука | arm |\n| кисть | hand |\n| палец (руки) | finger |\n| нога | leg |\n| ступня | foot (feet) |\n| палец (ноги) | toe |\n| колено | knee |\n\n### 🎵 Song: «Head, Shoulders, Knees and Toes»\n\n«Head, shoulders, knees and toes, knees and toes\nHead, shoulders, knees and toes, knees and toes\nAnd eyes and ears and mouth and nose\nHead, shoulders, knees and toes, knees and toes!»\n\n### 📝 Примеры:\n\n- **I have two eyes.** — У меня два глаза.\n- **My nose is small.** — Мой нос маленький.\n- **Touch your head.** — Дотронься до головы.\n- **Clap your hands.** — Хлопни в ладоши.\n\n### 💡 Множественное число:\n\n- foot → feet (нога → ноги)\n- tooth → teeth (зуб → зубы)",
+      "examples": [
+       "Head, shoulders, knees, toes",
+       "Eyes, ears, nose, mouth",
+       "Hand = кисть, Arm = рука"
+      ],
+      "facts": [
+       "Foot → feet, Tooth → teeth (исключения)",
+       "Hair — всегда единственное число",
+       "Песня про части тела — самая известная детская песня"
+      ]
+     },
+     {
+      "title": "Урок 12: Clothes",
+      "description": "Одежда.",
+      "tasks": [
+       "Shirt, dress, pants, skirt",
+       "Hat, coat, shoes, socks",
+       "Описать одежду",
+       "Что ты носишь?"
+      ],
+      "theory": "Одежда.",
+      "image": "/images/lessons/grade3/english/lesson12.svg",
+      "content": "## 👕 Clothes (Одежда)\n\nОдежда помогает нам описывать людей и говорить о моде.\n\n### 📚 Upper Body (Верхняя часть):\n\n| Русский | Английский |\n|---------|------------|\n| рубашка | shirt |\n| футболка | T-shirt |\n| свитер | sweater |\n| куртка | jacket |\n| пальто | coat |\n| шапка | hat |\n| платье | dress |\n\n### 📚 Lower Body (Нижняя часть):\n\n| Русский | Английский |\n|---------|------------|\n| брюки | pants / trousers |\n| джинсы | jeans |\n| юбка | skirt |\n| шорты | shorts |\n\n### 📚 Footwear (Обувь):\n\n| Русский | Английский |\n|---------|------------|\n| обувь | shoes |\n| ботинки | boots |\n| носки | socks |\n| кроссовки | sneakers |\n\n### 📝 Примеры:\n\n- **I am wearing a blue shirt.** — Я ношу синюю рубашку.\n- **She is wearing a red dress.** — Она в красном платье.\n- **Put on your hat.** — Надень шапку.\n- **Take off your shoes.** — Сними обувь.\n\n### ❓ Вопросы:\n\n- **What are you wearing?** — Что на тебе надето?\n- **I am wearing a T-shirt and jeans.** — На мне футболка и джинсы.\n\n### 💡 Грамматика:\n\n**To wear (носить):**\n- I am wearing — я ношу (сейчас)\n- wear — носить (вообще)",
+      "examples": [
+       "Shirt = рубашка, Dress = платье",
+       "Pants = брюки, Skirt = юбка",
+       "Shoes = обувь, Socks = носки"
+      ],
+      "facts": [
+       "Pants, Jeans, Shorts — всегда множественное число",
+       "«Put on» = надеть, «Take off» = снять",
+       "I am wearing = Я сейчас ношу"
+      ]
+     }
+    ]
+   },
+   {
+    "topic": "Animals and Nature",
+    "lessons": [
+     {
+      "title": "Урок 13: Pets",
+      "description": "Домашние питомцы.",
+      "tasks": [
+       "Cat, dog, fish, hamster",
+       "Bird, rabbit, turtle",
+       "Описать питомца",
+       "У кого есть питомец?"
+      ],
+      "theory": "Домашние питомцы.",
+      "image": "/images/lessons/grade3/english/lesson13.svg",
+      "content": "## 🐱 Pets (Домашние питомцы)\n\nПитомцы — это наши любимцы! Выучи названия животных.\n\n### 📚 Common Pets:\n\n| Русский | Английский | Транскрипция |\n|---------|------------|--------------|\n| кошка | cat | кэт |\n| собака | dog | дог |\n| рыбка | fish | фиш |\n| хомяк | hamster | хáмстэ |\n| птица | bird | бёд |\n| кролик | rabbit | рэбит |\n| черепаха | turtle | тётл |\n| попугай | parrot | пэрот |\n| морская свинка | guinea pig | гúни пиг |\n\n### 📝 Примеры:\n\n- **I have a cat.** — У меня есть кошка.\n- **My dog is big.** — Моя собака большая.\n- **She has a fish.** — У неё есть рыбка.\n- **Do you have a pet?** — У тебя есть питомец?\n\n### ❓ Вопросы и ответы:\n\n- **Do you have a pet?** — У тебя есть питомец?\n- **Yes, I have a cat.** — Да, у меня есть кошка.\n- **No, I don't have a pet.** — Нет, у меня нет питомца.\n\n### 🗣️ Описание питомца:\n\n- **My cat is white.** — Моя кошка белая.\n- **My dog is small.** — Моя собака маленькая.\n- **My fish is orange.** — Моя рыбка оранжевая.\n- **My hamster is cute.** — Мой хомяк милый.\n\n### 💡 Sounds Animals Make:\n\n- Cat: Meow! 🐱\n- Dog: Woof! 🐕\n- Bird: Tweet! 🐦",
+      "examples": [
+       "Cat = кошка, Dog = собака",
+       "I have a cat. Do you have a pet?",
+       "My cat is white and small."
+      ],
+      "facts": [
+       "Fish — множественное число = fish",
+       "Guinea pig — не свинка, а морская свинка",
+       "Кошки говорят «meow», собаки — «woof»"
+      ]
+     },
+     {
+      "title": "Урок 14: Wild Animals",
+      "description": "Дикие животные.",
+      "tasks": [
+       "Lion, tiger, elephant, bear",
+       "Monkey, giraffe, zebra",
+       "Где они живут?",
+       "Описать животное"
+      ],
+      "theory": "Дикие животные.",
+      "image": "/images/lessons/grade3/english/lesson14.svg",
+      "content": "## 🦁 Wild Animals (Дикие животные)\n\nДикие животные живут в лесах, джунглях и саваннах.\n\n### 📚 Wild Animals:\n\n| Русский | Английский | Транскрипция |\n|---------|------------|--------------|\n| лев | lion | лáйен |\n| тигр | tiger | тáйгэ |\n| слон | elephant | элифант |\n| медведь | bear | бэа |\n| обезьяна | monkey | мáнки |\n| жираф | giraffe | джиráf |\n| зебра | zebra | зéбрэ |\n| волк | wolf | вульф |\n| лиса | fox | фокс |\n| заяц | hare | хэа |\n| олень | deer | диэ |\n| крокодил | crocodile | крóкодайл |\n\n### 📝 Примеры:\n\n- **The lion is big.** — Лев большой.\n- **Elephants are strong.** — Слоны сильные.\n- **A tiger has stripes.** — У тигра полосы.\n- **Giraffes are tall.** — Жирафы высокие.\n\n### 🌍 Where do they live?\n\n- **Lions live in Africa.** — Львы живут в Африке.\n- **Bears live in the forest.** — Медведи живут в лесу.\n- **Penguins live in Antarctica.** — Пингвины живут в Антарктиде.\n\n### 💡 Интересные факты:\n\n- **Lion** — царь зверей (King of the jungle)\n- **Elephant** — самое большое наземное животное\n- **Giraffe** — самое высокое животное",
+      "examples": [
+       "Lion = лев, Tiger = тигр, Bear = медведь",
+       "Elephant = слон, Giraffe = жираф",
+       "Lions live in Africa."
+      ],
+      "facts": [
+       "Lion — царь зверей",
+       "Elephant — самое большое животное",
+       "Giraffe — самое высокое животное"
+      ]
+     },
+     {
+      "title": "Урок 15: Farm Animals",
+      "description": "Домашние животные.",
+      "tasks": [
+       "Cow, pig, sheep, horse",
+       "Chicken, duck, goat",
+       "Что они дают?",
+       "Звуки животных"
+      ],
+      "theory": "Домашние животные.",
+      "image": "/images/lessons/grade3/english/lesson15.svg",
+      "content": "## 🐄 Farm Animals (Домашние животные)\n\nДомашние животные живут на ферме и приносят пользу человеку.\n\n### 📚 Farm Animals:\n\n| Русский | Английский | Транскрипция |\n|---------|------------|--------------|\n| корова | cow | ка́у |\n| свинья | pig | пиг |\n| овца | sheep | ши́п |\n| лошадь | horse | хо́с |\n| курица | chicken | чúкен |\n| утка | duck | дак |\n| коза | goat | гóут |\n| петух | rooster | рýстэ |\n| гусь | goose | гус |\n\n### 📝 Что дают животные:\n\n| Животное | Что даёт |\n|----------|----------|\n| Cow | milk (молоко) |\n| Chicken | eggs (яйца) |\n| Sheep | wool (шерсть) |\n| Duck | eggs, meat |\n| Goose | eggs, meat |\n\n### 📝 Примеры:\n\n- **Cows give milk.** — Коровы дают молоко.\n- **Chickens lay eggs.** — Курицы несут яйца.\n- **Sheep give wool.** — Овцы дают шерсть.\n- **Horses can run fast.** — Лошади могут быстро бегать.\n\n### 🗣️ Звуки животных:\n\n| Животное | Звук (русский) | Звук (английский) |\n|----------|----------------|-------------------|\n| Cow | Му! | Moo! |\n| Pig | Хрю! | Oink! |\n| Duck | Кря! | Quack! |\n| Chicken | Ко-ко! | Cluck! |\n| Horse | Иго-го! | Neigh! |\n| Sheep | Бе! | Baa! |\n\n### 💡 Интересные факты:\n\n- Sheep — множественное число от sheep (одинаково!)\n- Goose → Geese (гусь → гуси)",
+      "examples": [
+       "Cow = корова, Pig = свинья, Horse = лошадь",
+       "Cows give milk. Chickens lay eggs.",
+       "Moo, Oink, Quack, Neigh"
+      ],
+      "facts": [
+       "Sheep — одинаково в единственном и множественном числе",
+       "Goose → Geese (исключение)",
+       "На ферме много животных = farm animals"
+      ]
+     },
+     {
+      "title": "Урок 16: Weather",
+      "description": "Погода.",
+      "tasks": [
+       "Sunny, rainy, cloudy, windy",
+       "Snowy, hot, cold, warm",
+       "Какая сегодня погода?",
+       "Одежда по погоде"
+      ],
+      "theory": "Погода.",
+      "image": "/images/lessons/grade3/english/lesson16.svg",
+      "content": "## 🌤️ Weather (Погода)\n\nПогода влияет на нашу одежду и планы. Выучи слова о погоде!\n\n### 📚 Weather Words:\n\n| Русский | Английский | Транскрипция |\n|---------|------------|--------------|\n| солнечно | sunny | сáни |\n| дождливо | rainy | рéйни |\n| облачно | cloudy | клáуди |\n| ветрено | windy | вúнди |\n| снежно | snowy | снóуи |\n| туманно | foggy | фóги |\n\n### 📚 Temperature:\n\n| Русский | Английский |\n|---------|------------|\n| жарко | hot |\n| холодно | cold |\n| тепло | warm |\n| прохладно | cool |\n\n### 📝 Примеры:\n\n- **It is sunny today.** — Сегодня солнечно.\n- **It is rainy.** — Дождливо.\n- **It is cold in winter.** — Зимой холодно.\n- **It is hot in summer.** — Летом жарко.\n\n### ❓ Вопросы:\n\n- **What is the weather like today?** — Какая сегодня погода?\n- **It is sunny and warm.** — Солнечно и тепло.\n- **Is it cold?** — Холодно?\n- **Yes, it is cold.** — Да, холодно.\n\n### 👕 Одежда по погоде:\n\n| Погода | Одежда |\n|--------|--------|\n| sunny | T-shirt, sunglasses |\n| rainy | raincoat, umbrella |\n| cold | coat, hat, gloves |\n| snowy | warm jacket, boots |\n\n### 💡 Seasons:\n\n- **Spring** — весна\n- **Summer** — лето\n- **Autumn / Fall** — осень\n- **Winter** — зима",
+      "examples": [
+       "Sunny = солнечно, Rainy = дождливо",
+       "What is the weather like today?",
+       "It is sunny and warm."
+      ],
+      "facts": [
+       "Sunny, Rainy — добавляем -y к существительным",
+       "Umbrella — зонтик, Raincoat — дождевик",
+       "What's the weather like? — стандартный вопрос"
+      ]
+     }
+    ]
+   },
+   {
+    "topic": "Food and Drinks",
+    "lessons": [
+     {
+      "title": "Урок 17: Fruits and Vegetables",
+      "description": "Фрукты и овощи.",
+      "tasks": [
+       "Apple, banana, orange",
+       "Carrot, potato, tomato",
+       "Что ты любишь?",
+       "I like... / I don't like..."
+      ],
+      "theory": "Фрукты и овощи.",
+      "image": "/images/lessons/grade3/english/lesson17.svg",
+      "content": "## 🍎 Fruits and Vegetables (Фрукты и овощи)\n\nФрукты и овощи полезны для здоровья!\n\n### 📚 Fruits (Фрукты):\n\n| Русский | Английский | Транскрипция |\n|---------|------------|--------------|\n| яблоко | apple | эпл |\n| банан | banana | банáна |\n| апельсин | orange | óриндж |\n| лимон | lemon | лéмон |\n| груша | pear | пэа |\n| виноград | grapes | грéйпс |\n| клубника | strawberry | стрóбери |\n| арбуз | watermelon | вóтэmelon |\n\n### 📚 Vegetables (Овощи):\n\n| Русский | Английский | Транскрипция |\n|---------|------------|--------------|\n| морковь | carrot | кэрот |\n| картофель | potato | потéйтоу |\n| помидор | tomato | томáтоу |\n| огурец | cucumber | кьюкáмбэ |\n| капуста | cabbage | кэбидж |\n| лук | onion | áниан |\n\n### 📝 Выражаем предпочтения:\n\n- **I like apples.** — Я люблю яблоки.\n- **I don't like carrots.** — Я не люблю морковь.\n- **Do you like bananas?** — Ты любишь бананы?\n- **Yes, I do. / No, I don't.** — Да. / Нет.\n\n### 🗣️ Вопросы:\n\n- **What is your favourite fruit?** — Какой твой любимый фрукт?\n- **My favourite fruit is apple.** — Мой любимый фрукт — яблоко.\n\n### 💡 Интересные факты:\n\n- Tomato — это и фрукт, и овощ (научно — фрукт!)\n- Banana — самый популярный фрукт в мире\n- Strawberry — клубника (berry = ягода)",
+      "examples": [
+       "Apple, Banana, Orange = фрукты",
+       "Carrot, Potato, Tomato = овощи",
+       "I like apples. I don't like carrots."
+      ],
+      "facts": [
+       "Tomato — и фрукт, и овощ",
+       "Banana — самый популярный фрукт",
+       "Grapes — всегда множественное число"
+      ]
+     },
+     {
+      "title": "Урок 18: Food",
+      "description": "Еда.",
+      "tasks": [
+       "Bread, cheese, meat, fish",
+       "Rice, pasta, soup, salad",
+       "Что на обед?",
+       "Составить меню"
+      ],
+      "theory": "Еда.",
+      "image": "/images/lessons/grade3/english/lesson18.svg",
+      "content": "## 🍞 Food (Еда)\n\nЕда даёт нам энергию. Выучи названия продуктов!\n\n### 📚 Basic Food:\n\n| Русский | Английский | Транскрипция |\n|---------|------------|--------------|\n| хлеб | bread | бред |\n| сыр | cheese | чиз |\n| мясо | meat | мит |\n| рыба | fish | фиш |\n| яйцо | egg | эг |\n| рис | rice | райс |\n| макароны | pasta | пáста |\n| суп | soup | суп |\n| салат | salad | сэлэд |\n| бутерброд | sandwich | сэндвич |\n| пицца | pizza | пúца |\n| бургер | burger | бёгэ |\n\n### 📚 Meals (Приёмы пищи):\n\n| Русский | Английский |\n|---------|------------|\n| завтрак | breakfast |\n| обед | lunch |\n| ужин | dinner |\n\n### 📝 Примеры:\n\n- **I have breakfast at 8 o'clock.** — Я завтракаю в 8 часов.\n- **What's for lunch?** — Что на обед?\n- **I eat soup for lunch.** — Я ем суп на обед.\n- **I like pizza.** — Я люблю пиццу.\n\n### ❓ Вопросы:\n\n- **What do you eat for breakfast?** — Что ты ешь на завтрак?\n- **I eat eggs and toast.** — Я ем яйца и тосты.\n\n### 💡 Полезные фразы:\n\n- **I'm hungry.** — Я голоден.\n- **I'm thirsty.** — Я хочу пить.\n- **Let's have lunch!** — Давай пообедаем!",
+      "examples": [
+       "Bread = хлеб, Cheese = сыр, Meat = мясо",
+       "Breakfast, Lunch, Dinner",
+       "What do you eat for breakfast?"
+      ],
+      "facts": [
+       "Breakfast = break + fast (прервать голод)",
+       "Lunch — обед, Dinner — ужин",
+       "Sandwich назван в честь графа Сэндвича"
+      ]
+     },
+     {
+      "title": "Урок 19: Drinks",
+      "description": "Напитки.",
+      "tasks": [
+       "Water, milk, juice, tea",
+       "Coffee, soda",
+       "Что ты пьёшь?",
+       "В кафе"
+      ],
+      "theory": "Напитки.",
+      "image": "/images/lessons/grade3/english/lesson19.svg",
+      "content": "## 🥤 Drinks (Напитки)\n\nНапитки утоляют жажду. Выучи их названия!\n\n### 📚 Common Drinks:\n\n| Русский | Английский | Транскрипция |\n|---------|------------|--------------|\n| вода | water | вóтэ |\n| молоко | milk | милк |\n| сок | juice | джу́с |\n| чай | tea | ти |\n| кофе | coffee | кóфи |\n| лимонад | soda / lemonade | сóда / лемонéйд |\n| какао | hot chocolate | хот шоколéт |\n\n### 📚 Types of Juice:\n\n| Русский | Английский |\n|---------|------------|\n| апельсиновый сок | orange juice |\n| яблочный сок | apple juice |\n| томатный сок | tomato juice |\n\n### 📝 Примеры:\n\n- **I drink water.** — Я пью воду.\n- **I like orange juice.** — Я люблю апельсиновый сок.\n- **Do you like tea?** — Ты любишь чай?\n- **Yes, I do. / No, I don't.** — Да. / Нет.\n\n### ❓ Вопросы:\n\n- **What do you drink?** — Что ты пьёшь?\n- **I drink milk.** — Я пью молоко.\n- **Would you like some tea?** — Хочешь чаю?\n- **Yes, please. / No, thank you.** — Да, пожалуйста. / Нет, спасибо.\n\n### 💡 Вежливые фразы:\n\n- **I'm thirsty.** — Я хочу пить.\n- **Can I have some water?** — Можно воды?\n- **Here you are.** — Вот, пожалуйста.",
+      "examples": [
+       "Water = вода, Milk = молоко, Juice = сок",
+       "Tea = чай, Coffee = кофе",
+       "I drink water. I like juice."
+      ],
+      "facts": [
+       "«Would you like...?» — вежливое предложение",
+       "«Yes, please» — да, пожалуйста",
+       "«No, thank you» — нет, спасибо"
+      ]
+     },
+     {
+      "title": "Урок 20: At the Cafe",
+      "description": "В кафе.",
+      "tasks": [
+       "Can I have...?",
+       "Here you are",
+       "Thank you",
+       "Диалог в кафе"
+      ],
+      "theory": "В кафе.",
+      "image": "/images/lessons/grade3/english/lesson20.svg",
+      "content": "## 🍽️ At the Cafe (В кафе)\n\nКак заказать еду и напитки в кафе на английском.\n\n### 📚 Полезные фразы:\n\n| Русский | Английский |\n|---------|------------|\n| Можно мне...? | Can I have...? |\n| Я бы хотел... | I would like... |\n| Вот, пожалуйста | Here you are |\n| Спасибо | Thank you |\n| Пожалуйста | You're welcome |\n| Сколько стоит? | How much is it? |\n| Меню, пожалуйста | Menu, please |\n\n### 📝 Примеры заказов:\n\n- **Can I have a pizza, please?** — Можно мне пиццу, пожалуйста?\n- **I would like an orange juice.** — Я бы хотел апельсиновый сок.\n- **Can I have the menu?** — Можно меню?\n\n### 🗣️ Диалог в кафе:\n\n**Waiter:** Hello! Can I help you?\n**Customer:** Yes, please. Can I have a sandwich?\n**Waiter:** Here you are.\n**Customer:** Thank you. How much is it?\n**Waiter:** It's 5 dollars.\n**Customer:** Here you are.\n**Waiter:** Thank you. Have a nice day!\n\n### 📚 Счёт и оплата:\n\n| Русский | Английский |\n|---------|------------|\n| Счёт, пожалуйста | The bill, please |\n| Наличные | cash |\n| Карта | card |\n| Сдача | change |\n\n### 💡 Вежливость:\n\nВсегда говори «please» и «thank you»!\n- **Can I have... please?**\n- **Thank you!**\n- **You're welcome!**",
+      "examples": [
+       "Can I have a pizza, please?",
+       "How much is it?",
+       "Thank you! You're welcome!"
+      ],
+      "facts": [
+       "«Please» и «Thank you» — обязательны в английском",
+       "«Can I have...?» = Можно мне...?",
+       "«How much is it?» = Сколько это стоит?"
+      ]
+     }
+    ]
+   },
+   {
+    "topic": "Daily Routine",
+    "lessons": [
+     {
+      "title": "Урок 21: Time",
+      "description": "Время.",
+      "tasks": [
+       "What time is it?",
+       "o'clock, half past",
+       "It's 3 o'clock",
+       "Режим дня"
+      ],
+      "theory": "Время.",
+      "image": "/images/lessons/grade3/english/lesson21.svg",
+      "content": "## ⏰ Time (Время)\n\nУмение говорить о времени важно для ежедневной жизни.\n\n### 📚 Как спросить время:\n\n- **What time is it?** — Сколько времени?\n- **What's the time?** — Который час?\n\n### 📚 Full Hours (Целые часы):\n\n- **It's one o'clock.** — Один час.\n- **It's two o'clock.** — Два часа.\n- **It's twelve o'clock.** — Двенадцать часов.\n\n### 📚 Half Past (Половина):\n\n- **It's half past one.** — Половина второго (1:30).\n- **It's half past three.** — Половина четвёртого (3:30).\n\n### 📚 Quarter (Четверть):\n\n- **It's quarter past two.** — Четверть третьего (2:15).\n- **It's quarter to three.** — Без четверти три (2:45).\n\n### 📚 Minutes (Минуты):\n\n- **It's ten past three.** — Десять минут четвёртого (3:10).\n- **It's twenty to four.** — Без двадцати четыре (3:40).\n\n### 📝 Таблица:\n\n| Время | Английский |\n|-------|------------|\n| 1:00 | one o'clock |\n| 1:15 | quarter past one |\n| 1:30 | half past one |\n| 1:45 | quarter to two |\n| 2:00 | two o'clock |\n\n### 💡 Интересные факты:\n\n- **o'clock** = of the clock\n- **past** = после (прошло)\n- **to** = до (осталось)",
+      "examples": [
+       "What time is it? — It's 3 o'clock.",
+       "Half past one = 1:30",
+       "Quarter past = 15 минут после"
+      ],
+      "facts": [
+       "o'clock — только для целых часов",
+       "В США часто говорят 1:30 как «one thirty»",
+       "a.m. = утра, p.m. = после полудня"
+      ]
+     },
+     {
+      "title": "Урок 22: Daily Activities",
+      "description": "Ежедневные дела.",
+      "tasks": [
+       "Wake up, get up, wash",
+       "Have breakfast, go to school",
+       "Describe your day",
+       "Приёмы пищи"
+      ],
+      "theory": "Ежедневные дела.",
+      "image": "/images/lessons/grade3/english/lesson22.svg",
+      "content": "## 🌅 Daily Activities (Ежедневные дела)\n\nРасскажем о своём распорядке дня!\n\n### 📚 Morning (Утро):\n\n| Русский | Английский |\n|---------|------------|\n| просыпаться | wake up |\n| вставать | get up |\n| умываться | wash |\n| чистить зубы | brush teeth |\n| одеваться | get dressed |\n| завтракать | have breakfast |\n| идти в школу | go to school |\n\n### 📚 Day (День):\n\n| Русский | Английский |\n|---------|------------|\n| быть в школе | be at school |\n| обедать | have lunch |\n| делать уроки | do homework |\n| играть | play |\n\n### 📚 Evening (Вечер):\n\n| Русский | Английский |\n|---------|------------|\n| ужинать | have dinner |\n| смотреть ТВ | watch TV |\n| читать книгу | read a book |\n| ложиться спать | go to bed |\n\n### 📝 Распорядок дня:\n\n- **I wake up at 7 o'clock.** — Я просыпаюсь в 7 часов.\n- **I have breakfast at 8 o'clock.** — Я завтракаю в 8 часов.\n- **I go to school at 9 o'clock.** — Я иду в школу в 9 часов.\n- **I go to bed at 10 o'clock.** — Я ложусь спать в 10 часов.\n\n### 💡 Грамматика:\n\n**Present Simple** (обычно делаю):\n- I wake up, I go, I have\n\n### 🗣️ Вопросы:\n\n- **What time do you get up?** — Во сколько ты встаёшь?\n- **I get up at 7 o'clock.** — Я встаю в 7 часов.",
+      "examples": [
+       "Wake up = просыпаться, Get up = вставать",
+       "Have breakfast, Have lunch, Have dinner",
+       "I wake up at 7 o'clock."
+      ],
+      "facts": [
+       "Wake up ≠ get up (проснуться ≠ встать)",
+       "Do homework — делать домашку",
+       "Go to bed — ложиться спать"
+      ]
+     },
+     {
+      "title": "Урок 23: Days of Week",
+      "description": "Дни недели.",
+      "tasks": [
+       "Monday, Tuesday, Wednesday...",
+       "Sunday is the first day",
+       "Что ты делаешь в...?",
+       "Расписание"
+      ],
+      "theory": "Дни недели.",
+      "image": "/images/lessons/grade3/english/lesson23.svg",
+      "content": "## 📅 Days of Week (Дни недели)\n\nВ неделе 7 дней. Выучи их названия!\n\n### 📚 Days of Week:\n\n| Русский | Английский | Транскрипция |\n|---------|------------|--------------|\n| понедельник | Monday | мáнди |\n| вторник | Tuesday | тью́зди |\n| среда | Wednesday | вéнзди |\n| четверг | Thursday | сё́зди |\n| пятница | Friday | фрáйди |\n| суббота | Saturday | сэ́тэди |\n| воскресенье | Sunday | сáнди |\n\n### 📝 Особенности:\n\n- Все дни пишутся с **большой буквы**!\n- Каждый день заканчивается на **-day**\n- **Sunday** — первый день недели в Англии и США\n\n### 📝 Примеры:\n\n- **Today is Monday.** — Сегодня понедельник.\n- **Tomorrow is Tuesday.** — Завтра вторник.\n- **What day is it today?** — Какой сегодня день?\n\n### ❓ Вопросы и ответы:\n\n- **What do you do on Monday?** — Что ты делаешь в понедельник?\n- **I go to school on Monday.** — Я иду в школу в понедельник.\n\n### 📚 Weekdays vs Weekend:\n\n| Weekdays (будни) | Weekend (выходные) |\n|------------------|-------------------|\n| Monday | Saturday |\n| Tuesday | Sunday |\n| Wednesday | |\n| Thursday | |\n| Friday | |\n\n### 💡 Интересные факты:\n\n- Monday = Moon day (день луны)\n- Sunday = Sun day (день солнца)\n- Weekend — любимое время всех!",
+      "examples": [
+       "Monday, Tuesday, Wednesday, Thursday, Friday",
+       "Saturday, Sunday = weekend",
+       "What day is it today?"
+      ],
+      "facts": [
+       "Дни недели пишутся с большой буквы",
+       "Sunday — первый день в Англии и США",
+       "Weekdays = будни, Weekend = выходные"
+      ]
+     },
+     {
+      "title": "Урок 24: Months and Seasons",
+      "description": "Месяцы и сезоны.",
+      "tasks": [
+       "January, February, March...",
+       "Winter, spring, summer, autumn",
+       "Какой сейчас месяц?",
+       "Любимое время года"
+      ],
+      "theory": "Месяцы и сезоны.",
+      "image": "/images/lessons/grade3/english/lesson24.svg",
+      "content": "## 📆 Months and Seasons (Месяцы и сезоны)\n\nВ году 12 месяцев и 4 сезона.\n\n### 📚 Months (Месяцы):\n\n| Русский | Английский | Транскрипция |\n|---------|------------|--------------|\n| январь | January | джэньюэри |\n| февраль | February | фебруэри |\n| март | March | мач |\n| апрель | April | эйприл |\n| май | May | мэй |\n| июнь | June | джун |\n| июль | July | джулáй |\n| август | August | óгест |\n| сентябрь | September | сэптéмбэ |\n| октябрь | October | окtóубэ |\n| ноябрь | November | нувéмбэ |\n| декабрь | December | дисéмбэ |\n\n### 📚 Seasons (Сезоны):\n\n| Русский | Английский | Месяцы |\n|---------|------------|--------|\n| зима | winter | December, January, February |\n| весна | spring | March, April, May |\n| лето | summer | June, July, August |\n| осень | autumn / fall | September, October, November |\n\n### 📝 Примеры:\n\n- **My birthday is in May.** — Мой день рождения в мае.\n- **It is cold in winter.** — Зимой холодно.\n- **I like summer.** — Я люблю лето.\n- **What month is it now?** — Какой сейчас месяц?\n\n### ❓ Вопросы:\n\n- **What is your favourite season?** — Какое твоё любимое время года?\n- **My favourite season is summer.** — Моё любимое время года — лето.\n- **When is your birthday?** — Когда твой день рождения?\n- **My birthday is in June.** — Мой день рождения в июне.\n\n### 💡 Интересные факты:\n\n- Все месяцы пишутся с большой буквы\n- Autumn — британский, Fall — американский\n- September = septem (7), October = octo (8) — от латинских чисел",
+      "examples": [
+       "January, February, March, April, May...",
+       "Winter, Spring, Summer, Autumn",
+       "My birthday is in May."
+      ],
+      "facts": [
+       "Месяцы пишутся с большой буквы",
+       "Autumn (UK) = Fall (US)",
+       "September, October, November, December — от латинских чисел"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "games": [
+  {
+   "title": "Numbers in English",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Как будет «5» на английском?",
+     "options": [
+      "four",
+      "five",
+      "six",
+      "zero",
+      "Yesterday",
+      "Tomorrow"
+     ],
+     "correctAnswer": "five",
+     "hint": "1-one, 2-two, 3-three, 4-four, 5-?"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «12» на английском?",
+     "options": [
+      "twelve",
+      "twenty",
+      "two",
+      "zero",
+      "Yesterday",
+      "Tomorrow"
+     ],
+     "correctAnswer": "twelve",
+     "hint": "11-eleven, 12-?"
+    },
+    {
+     "type": "quiz",
+     "question": "«25» по-английски: twenty-__",
+     "options": [
+      "eight",
+      "six",
+      "seven",
+      "five",
+      "nine",
+      "zero"
+     ],
+     "correctAnswer": "five",
+     "hint": "Вспомни, как переводится это слово"
+    },
+    {
+     "type": "quiz",
+     "question": "Какое число «seventeen»?",
+     "options": [
+      "16",
+      "17",
+      "18",
+      "19",
+      "Yesterday",
+      "Tomorrow"
+     ],
+     "correctAnswer": "17",
+     "hint": "Seven + teen = seventeen"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «кот» по-английски?",
+     "options": [
+      "cat",
+      "dog",
+      "bird",
+      "fish",
+      "frog",
+      "fox"
+     ],
+     "correctAnswer": "cat",
+     "hint": "Cat — домашнее животное, которое мяукает"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Great! You know numbers! 🔢"
+   }
+  },
+  {
+   "title": "Colors in English",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Как будет «красный» на английском?",
+     "options": [
+      "red",
+      "blue",
+      "green",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "red",
+     "hint": "Какой цвет у яблока?"
+    },
+    {
+     "type": "quiz",
+     "question": "Какой цвет «yellow»?",
+     "options": [
+      "жёлтый",
+      "зелёный",
+      "синий",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "жёлтый",
+     "hint": "Sun is yellow"
+    },
+    {
+     "type": "find",
+     "question": "Выбери названия цветов:",
+     "options": [
+      "Red",
+      "Cat",
+      "Blue",
+      "Green",
+      "Dog",
+      "Yellow"
+     ],
+     "correctAnswer": [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow"
+     ],
+     "hint": "Colors are: red, blue, green, yellow..."
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «оранжевый»?",
+     "options": [
+      "orange",
+      "purple",
+      "pink",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "orange",
+     "hint": "Этот цвет называется как фрукт"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «кот» по-английски?",
+     "options": [
+      "cat",
+      "dog",
+      "bird",
+      "fish",
+      "frog",
+      "fox"
+     ],
+     "correctAnswer": "cat",
+     "hint": "Cat — домашнее животное, которое мяукает"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Excellent! You know colors! 🎨"
+   }
+  },
+  {
+   "title": "Family Members",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "«Mother» — это:",
+     "options": [
+      "папа",
+      "мама",
+      "сестра",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "мама",
+     "hint": "Вспомни, как переводится это слово"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «бабушка» на английском?",
+     "options": [
+      "grandmother",
+      "grandfather",
+      "mother",
+      "aunt",
+      "Yesterday",
+      "Tomorrow"
+     ],
+     "correctAnswer": "grandmother",
+     "hint": "Вспомни, как переводится это слово"
+    },
+    {
+     "type": "quiz",
+     "question": "Brother — это __",
+     "options": [
+      "сестра",
+      "дедушка",
+      "мать",
+      "отец",
+      "брат",
+      "Yesterday"
+     ],
+     "correctAnswer": "брат",
+     "hint": "Вспомни, как переводится это слово"
+    },
+    {
+     "type": "quiz",
+     "question": "«Father» — это:",
+     "options": [
+      "отец",
+      "дедушка",
+      "брат",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "отец",
+     "hint": "Вспомни, как переводится это слово"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «кот» по-английски?",
+     "options": [
+      "cat",
+      "dog",
+      "bird",
+      "fish",
+      "frog",
+      "fox"
+     ],
+     "correctAnswer": "cat",
+     "hint": "Cat — домашнее животное, которое мяукает"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Great! You know family! 👨‍👩‍👧‍👦"
+   }
+  },
+  {
+   "title": "Animals in English",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Как будет «кошка» на английском?",
+     "options": [
+      "dog",
+      "cat",
+      "bird",
+      "fox",
+      "Yesterday",
+      "Tomorrow"
+     ],
+     "correctAnswer": "cat",
+     "hint": "Meow! 🐱"
+    },
+    {
+     "type": "quiz",
+     "question": "«Dog» — это:",
+     "options": [
+      "собака",
+      "кошка",
+      "лошадь",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "собака",
+     "hint": "Woof! 🐕"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «лев»?",
+     "options": [
+      "tiger",
+      "lion",
+      "bear",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "lion",
+     "hint": "King of the jungle 🦁"
+    },
+    {
+     "type": "quiz",
+     "question": "Elephant — это __",
+     "options": [
+      "зебра",
+      "медведь",
+      "лев",
+      "слон",
+      "обезьяна",
+      "Yesterday"
+     ],
+     "correctAnswer": "слон",
+     "hint": "Big grey animal with a trunk 🐘"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «кот» по-английски?",
+     "options": [
+      "cat",
+      "dog",
+      "bird",
+      "fish",
+      "frog",
+      "fox"
+     ],
+     "correctAnswer": "cat",
+     "hint": "Cat — домашнее животное, которое мяукает"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Super! You know animals! 🐾"
+   }
+  },
+  {
+   "title": "Food and Drinks",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "«Apple» — это:",
+     "options": [
+      "апельсин",
+      "яблоко",
+      "банан",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "яблоко",
+     "hint": "Red or green fruit 🍎"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «хлеб» на английском?",
+     "options": [
+      "bread",
+      "water",
+      "milk",
+      "cake",
+      "Yesterday",
+      "Tomorrow"
+     ],
+     "correctAnswer": "bread",
+     "hint": "Bread 🍞"
+    },
+    {
+     "type": "quiz",
+     "question": "«Water» — это:",
+     "options": [
+      "молоко",
+      "вода",
+      "сок",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "вода",
+     "hint": "We drink water 💧"
+    },
+    {
+     "type": "quiz",
+     "question": "Banana — это __",
+     "options": [
+      "груша",
+      "апельсин",
+      "арбуз",
+      "виноград",
+      "банан",
+      "Yesterday"
+     ],
+     "correctAnswer": "банан",
+     "hint": "Yellow fruit 🍌"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «кот» по-английски?",
+     "options": [
+      "cat",
+      "dog",
+      "bird",
+      "fish",
+      "frog",
+      "fox"
+     ],
+     "correctAnswer": "cat",
+     "hint": "Cat — домашнее животное, которое мяукает"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Excellent! You know food! 🍎"
+   }
+  },
+  {
+   "title": "Days and Months",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Как будет «понедельник»?",
+     "options": [
+      "Monday",
+      "Sunday",
+      "Friday",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "Monday",
+     "hint": "First day of the week"
+    },
+    {
+     "type": "quiz",
+     "question": "«Sunday» — это:",
+     "options": [
+      "суббота",
+      "воскресенье",
+      "понедельник",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "воскресенье",
+     "hint": "Last day of the week"
+    },
+    {
+     "type": "quiz",
+     "question": "Какой месяц «January»?",
+     "options": [
+      "февраль",
+      "январь",
+      "март",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "январь",
+     "hint": "First month of the year"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «лето»?",
+     "options": [
+      "spring",
+      "summer",
+      "winter",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "summer",
+     "hint": "Hot season with holidays ☀️"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «кот» по-английски?",
+     "options": [
+      "cat",
+      "dog",
+      "bird",
+      "fish",
+      "frog",
+      "fox"
+     ],
+     "correctAnswer": "cat",
+     "hint": "Cat — домашнее животное, которое мяукает"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Great! You know calendar! 📅"
+   }
+  },
+  {
+   "title": "Body Parts",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "«Head» — это:",
+     "options": [
+      "рука",
+      "голова",
+      "нога",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "голова",
+     "hint": "On your shoulders"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «глаза»?",
+     "options": [
+      "ears",
+      "eyes",
+      "nose",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "eyes",
+     "hint": "У нас их два, чтобы видеть 👀"
+    },
+    {
+     "type": "quiz",
+     "question": "Nose — это __",
+     "options": [
+      "рот",
+      "глаз",
+      "ухо",
+      "голова",
+      "нос",
+      "Yesterday"
+     ],
+     "correctAnswer": "нос",
+     "hint": "On your face, you breathe with it 👃"
+    },
+    {
+     "type": "quiz",
+     "question": "«Hands» — это:",
+     "options": [
+      "ноги",
+      "руки",
+      "уши",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "руки",
+     "hint": "You write with your hands ✋"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «кот» по-английски?",
+     "options": [
+      "cat",
+      "dog",
+      "bird",
+      "fish",
+      "frog",
+      "fox"
+     ],
+     "correctAnswer": "cat",
+     "hint": "Cat — домашнее животное, которое мяукает"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Super! You know body parts! 🫀"
+   }
+  },
+  {
+   "title": "Basic Phrases",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "«Hello» — это:",
+     "options": [
+      "пока",
+      "привет",
+      "спасибо",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "привет",
+     "hint": "Greeting"
+    },
+    {
+     "type": "quiz",
+     "question": "Как сказать «спасибо»?",
+     "options": [
+      "Please",
+      "Thank you",
+      "Sorry",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "Thank you",
+     "hint": "When someone helps you"
+    },
+    {
+     "type": "quiz",
+     "question": "«Goodbye» — это:",
+     "options": [
+      "здравствуйте",
+      "до свидания",
+      "извините",
+      "Yesterday",
+      "Tomorrow",
+      "Always"
+     ],
+     "correctAnswer": "до свидания",
+     "hint": "When you leave"
+    },
+    {
+     "type": "quiz",
+     "question": "«Как дела?» — How __ you?",
+     "options": [
+      "do",
+      "am",
+      "have",
+      "are",
+      "is",
+      "Yesterday"
+     ],
+     "correctAnswer": "are",
+     "hint": "Вспомни фразу целиком"
+    },
+    {
+     "type": "quiz",
+     "question": "Как будет «кот» по-английски?",
+     "options": [
+      "cat",
+      "dog",
+      "bird",
+      "fish",
+      "frog",
+      "fox"
+     ],
+     "correctAnswer": "cat",
+     "hint": "Cat — домашнее животное, которое мяукает"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Excellent! You know phrases! 💬"
+   }
+  }
+ ]
+}

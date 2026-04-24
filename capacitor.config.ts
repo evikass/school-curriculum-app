@@ -5,6 +5,7 @@ const config: CapacitorConfig = {
   appName: 'ИНЕТШКОЛА',
   webDir: 'out',
   server: {
+    // Локальный сервер для обслуживания статики из assets
     androidScheme: 'https',
     cleartext: true,
   },

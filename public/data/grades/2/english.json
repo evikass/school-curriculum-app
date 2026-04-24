@@ -1,0 +1,644 @@
+{
+ "lessons": {
+  "title": "Иностранный язык",
+  "icon": "Languages",
+  "color": "text-pink-400",
+  "topics": [
+   "Семья",
+   "Еда",
+   "Животные",
+   "Погода",
+   "Цвета",
+   "Числа",
+   "Дом",
+   "Школа"
+  ],
+  "detailedTopics": [
+   {
+    "topic": "Семья",
+    "lessons": [
+     {
+      "title": "Урок 1: Члены семьи",
+      "description": "Изучаем названия членов семьи на английском языке.",
+      "tasks": [
+       "Выучить слова о семье",
+       "Произнести слова вслух",
+       "Составить предложения",
+       "Описать свою семью"
+      ],
+      "theory": "## 📚 Члены семьи (Family Members)\n\n**Семья — Family**\n\nИзучим названия членов семьи на английском языке. Эти слова очень важны, ведь семья есть у каждого!\n\n**Основные члены семьи:**\n\n| Английский | Русский | Транскрипция |\n|------------|---------|--------------|\n| Mother | Мама | [ˈmʌðə] |\n| Father | Папа | [ˈfɑːðə] |\n| Sister | Сестра | [ˈsɪstə] |\n| Brother | Брат | [ˈbrʌðə] |\n| Grandmother | Бабушка | [ˈɡrænmʌðə] |\n| Grandfather | Дедушка | [ˈɡrænfɑːðə] |\n\n**Другие родственники:**\n\n- **Son** [sʌn] — сын\n- **Daughter** [ˈdɔːtə] — дочь\n- **Uncle** [ˈʌŋkl] — дядя\n- **Aunt** [ɑːnt] — тётя\n- **Cousin** [ˈkʌzn] — кузен/кузина\n\n**Полезные фразы:**\n\n- This is my mother. — Это моя мама.\n- This is my father. — Это мой папа.\n- I have a sister. — У меня есть сестра.\n- I have a brother. — У меня есть брат.\n- My family is big. — Моя семья большая.\n- My family is small. — Моя семья маленькая.\n\n**Притяжательные местоимения:**\n\n- My — мой/моя/мои\n- Your — твой/твоя/твои\n- His — его\n- Her — её\n\n**Примеры:**\n- My mother is kind. — Моя мама добрая.\n- His father is tall. — Его папа высокий.\n- Her sister is young. — Её сестра молодая.",
+      "examples": [
+       "👨‍👩‍👧 Mother = мама, Father = папа",
+       "👧 Sister = сестра, Brother = брат",
+       "👵 Grandmother = бабушка, Grandfather = дедушка"
+      ],
+      "facts": [
+       "💡 Слово 'family' происходит от латинского 'familia' — семья!",
+       "💡 В английском языке нет различия между старшей и младшей сестрой — обе 'sister'!",
+       "💡 Слово 'cousin' обозначает и кузена, и кузину — пол не указывается!"
+      ],
+      "image": "/images/lessons/grade2/english/lesson1.svg"
+     },
+     {
+      "title": "Урок 2: Описание семьи",
+      "description": "Учимся рассказывать о своей семье на английском языке.",
+      "tasks": [
+       "Составить рассказ о семье",
+       "Использовать новые слова",
+       "Задать вопросы",
+       "Ответить на вопросы"
+      ],
+      "theory": "## 📚 Описание семьи (Describing Family)\n\n**Как рассказать о семье**\n\nЧтобы рассказать о своей семье, нужно знать несколько полезных фраз и слов.\n\n**Числительные для возраста:**\n\n| Число | Английский | Число | Английский |\n|-------|------------|-------|------------|\n| 1 | one | 7 | seven |\n| 2 | two | 8 | eight |\n| 3 | three | 9 | nine |\n| 4 | four | 10 | ten |\n| 5 | five | 20 | twenty |\n| 6 | six | 30 | thirty |\n\n**Глагол to be (быть):**\n\n- I am (I'm) — я есть\n- He is (He's) — он есть\n- She is (She's) — она есть\n- We are (We're) — мы есть\n- They are (They're) — они есть\n\n**Описываем внешность:**\n\n- tall — высокий\n- short — низкий\n- young — молодой\n- old — старый\n- beautiful — красивый\n- handsome — красивый (о мужчине)\n\n**Описываем характер:**\n\n- kind — добрый\n- nice — милый\n- funny — смешной\n- clever — умный\n- friendly — дружелюбный\n\n**Пример рассказа:**\n\n\"My name is Tom. I am 8. I have a family. My mother's name is Ann. She is 35. She is kind and beautiful. My father's name is John. He is 38. He is tall and funny. I have a sister. Her name is Kate. She is 5. She is nice. I love my family!\"\n\nПеревод: «Меня зовут Том. Мне 8 лет. У меня есть семья. Мою маму зовут Энн. Ей 35 лет. Она добрая и красивая. Моего папу зовут Джон. Ему 38 лет. Он высокий и смешной. У меня есть сестра. Её зовут Кейт. Ей 5 лет. Она милая. Я люблю свою семью!»\n\n**Вопросы о семье:**\n\n- What is your mother's name? — Как зовут твою маму?\n- How old is your father? — Сколько лет твоему папе?\n- Do you have a sister? — У тебя есть сестра?\n- Do you have a brother? — У тебя есть брат?",
+      "examples": [
+       "📝 'My mother is kind' — Моя мама добрая",
+       "📝 'He is 35 years old' — Ему 35 лет",
+       "📝 'I have a sister' — У меня есть сестра"
+      ],
+      "facts": [
+       "💡 Глагол 'to be' — самый важный глагол в английском языке!",
+       "💡 В английском возрасте используют 'years old': 'I am 8 years old'",
+       "💡 'Do you have...?' — вопрос 'У тебя есть...?'"
+      ],
+      "image": "/images/lessons/grade2/english/lesson2.svg"
+     }
+    ]
+   },
+   {
+    "topic": "Еда",
+    "lessons": [
+     {
+      "title": "Урок 3: Фрукты и овощи",
+      "description": "Изучаем названия фруктов и овощей на английском языке.",
+      "tasks": [
+       "Выучить слова о фруктах",
+       "Назвать овощи",
+       "Составить список покупок",
+       "Описать любимые фрукты"
+      ],
+      "theory": "## 📚 Фрукты и овощи (Fruits and Vegetables)\n\n**Фрукты (Fruits):**\n\n| Английский | Русский | Транскрипция |\n|------------|---------|--------------|\n| Apple | Яблоко | [ˈæpl] |\n| Banana | Банан | [bəˈnɑːnə] |\n| Orange | Апельсин | [ˈɒrɪndʒ] |\n| Pear | Груша | [peə] |\n| Lemon | Лимон | [ˈlemən] |\n| Peach | Персик | [piːtʃ] |\n| Grapes | Виноград | [ɡreɪps] |\n| Strawberry | Клубника | [ˈstrɔːbəri] |\n\n**Овощи (Vegetables):**\n\n| Английский | Русский | Транскрипция |\n|------------|---------|--------------|\n| Tomato | Помидор | [təˈmɑːtəʊ] |\n| Potato | Картофель | [pəˈteɪtəʊ] |\n| Carrot | Морковь | [ˈkærət] |\n| Cucumber | Огурец | [ˈkjuːkʌmbə] |\n| Onion | Лук | [ˈʌnjən] |\n| Cabbage | Капуста | [ˈkæbɪdʒ] |\n| Pepper | Перец | [ˈpepə] |\n\n**Полезные фразы:**\n\n- I like apples. — Я люблю яблоки.\n- I don't like onions. — Я не люблю лук.\n- Do you like bananas? — Ты любишь бананы?\n- Yes, I do. — Да.\n- No, I don't. — Нет.\n\n**Артикли a/an:**\n\nИспользуем 'a' перед согласной, 'an' перед гласной:\n- a banana — банан\n- an apple — яблоко\n- an orange — апельсин\n\n**Множественное число:**\n\nОбычно добавляем -s:\n- apple → apples\n- banana → bananas\n- carrot → carrots\n\n**Слова для описания вкуса:**\n\n- sweet — сладкий\n- sour — кислый\n- tasty — вкусный\n- yummy — вкусненький\n- fresh — свежий",
+      "examples": [
+       "🍎 Apple = яблоко, Banana = банан, Orange = апельсин",
+       "🥕 Carrot = морковь, Potato = картофель, Tomato = помидор",
+       "📝 'I like apples' — Я люблю яблоки"
+      ],
+      "facts": [
+       "💡 Помидор в английском называется 'tomato', хотя это фрукт с ботанической точки зрения!",
+       "💡 'Grape' — виноградина, 'grapes' — виноград (множество ягод)",
+       "💡 'Strawberry' — клубника, буквально 'соломенная ягода'!"
+      ],
+      "image": "/images/lessons/grade2/english/lesson3.svg"
+     },
+     {
+      "title": "Урок 4: Напитки и еда",
+      "description": "Изучаем названия напитков и базовых продуктов питания.",
+      "tasks": [
+       "Выучить названия напитков",
+       "Произнести слова вслух",
+       "Описать вкус еды",
+       "Составить диалог в кафе"
+      ],
+      "theory": "## 📚 Напитки и еда (Drinks and Food)\n\n**Напитки (Drinks):**\n\n| Английский | Русский | Транскрипция |\n|------------|---------|--------------|\n| Water | Вода | [ˈwɔːtə] |\n| Milk | Молоко | [mɪlk] |\n| Juice | Сок | [dʒuːs] |\n| Tea | Чай | [tiː] |\n| Coffee | Кофе | [ˈkɒfi] |\n\n**Виды сока:**\n- apple juice — яблочный сок\n- orange juice — апельсиновый сок\n- tomato juice — томатный сок\n\n**Еда (Food):**\n\n| Английский | Русский | Транскрипция |\n|------------|---------|--------------|\n| Bread | Хлеб | [bred] |\n| Cheese | Сыр | [tʃiːz] |\n| Butter | Масло | [ˈbʌtə] |\n| Egg | Яйцо | [eɡ] |\n| Meat | Мясо | [miːt] |\n| Fish | Рыба | [fɪʃ] |\n| Chicken | Курица | [ˈtʃɪkɪn] |\n| Soup | Суп | [suːp] |\n\n**Диалог в кафе:**\n\n**A:** Can I have a sandwich, please?\n(A: Можно мне сэндвич, пожалуйста?)\n\n**B:** Here you are.\n(B: Вот, пожалуйста.)\n\n**A:** Thank you!\n(A: Спасибо!)\n\n**B:** You're welcome!\n(B: Пожалуйста!)\n\n**Полезные фразы:**\n\n- I'm hungry. — Я голоден.\n- I'm thirsty. — Я хочу пить.\n- I want... — Я хочу...\n- Can I have...? — Можно мне...?\n- What would you like? — Что бы вы хотели?\n\n**Счёт в кафе:**\n\n- How much is it? — Сколько это стоит?\n- It's 5 dollars. — Это стоит 5 долларов.\n- Here you are. — Вот (подают деньги или еду).",
+      "examples": [
+       "🥛 Milk = молоко, Water = вода, Juice = сок",
+       "🍞 Bread = хлеб, Cheese = сыр, Butter = масло",
+       "📝 'Can I have...?' — Можно мне...?"
+      ],
+      "facts": [
+       "💡 Английское 'tea' произошло от китайского 'te'!",
+       "💡 'Sandwich' назван в честь лорда Сэндвича, который любил есть мясо между кусками хлеба!",
+       "💡 В Англии очень популярна традиция '5 o'clock tea' — чай в 5 часов вечера!"
+      ],
+      "image": "/images/lessons/grade2/english/lesson4.svg"
+     }
+    ]
+   },
+   {
+    "topic": "Животные",
+    "lessons": [
+     {
+      "title": "Урок 5: Домашние животные",
+      "description": "Изучаем названия домашних животных на английском языке.",
+      "tasks": [
+       "Выучить названия животных",
+       "Описать своего питомца",
+       "Рассказать о любимом животном",
+       "Задать вопросы о питомце"
+      ],
+      "theory": "## 📚 Домашние животные (Pets)\n\n**Домашние питомцы:**\n\n| Английский | Русский | Транскрипция |\n|------------|---------|--------------|\n| Cat | Кошка | [kæt] |\n| Dog | Собака | [dɒɡ] |\n| Fish | Рыбка | [fɪʃ] |\n| Bird | Птица | [bɜːd] |\n| Hamster | Хомяк | [ˈhæmstə] |\n| Rabbit | Кролик | [ˈræbɪt] |\n| Parrot | Попугай | [ˈpærət] |\n| Guinea pig | Морская свинка | [ˈɡɪni pɪɡ] |\n\n**Слова для описания:**\n\n**Размер:**\n- big — большой\n- small — маленький\n- little — маленький (милый)\n\n**Цвет:**\n- white — белый\n- black — чёрный\n- brown — коричневый\n- grey — серый\n- orange — рыжий\n\n**Характер:**\n- cute — милый\n- funny — смешной\n- friendly — дружелюбный\n- lazy — ленивый\n- active — активный\n\n**Части тела животных:**\n\n- tail — хвост\n- ear — ухо\n- eye — глаз\n- nose — нос\n- paw — лапа\n- fur — шерсть\n\n**Глаголы:**\n\n- run — бегать\n- jump — прыгать\n- play — играть\n- sleep — спать\n- eat — есть\n- drink — пить\n\n**Пример описания питомца:**\n\n\"I have a cat. Her name is Mimi. She is small and white. She has green eyes and a long tail. She likes to play and sleep. She is very cute!\"\n\nПеревод: «У меня есть кошка. Её зовут Мими. Она маленькая и белая. У неё зелёные глаза и длинный хвост. Она любит играть и спать. Она очень милая!»\n\n**Вопросы о питомце:**\n\n- Do you have a pet? — У тебя есть питомец?\n- What pet do you have? — Какой у тебя питомец?\n- What is its name? — Как его зовут?\n- What colour is it? — Какого он цвета?",
+      "examples": [
+       "🐱 Cat = кошка, Dog = собака, Fish = рыбка",
+       "🐹 Hamster = хомяк, Rabbit = кролик, Bird = птица",
+       "📝 'I have a cat. Her name is Mimi.' — У меня есть кошка. Её зовут Мими."
+      ],
+      "facts": [
+       "💡 Кошки — самые популярные домашние питомцы в мире!",
+       "💡 Слово 'puppy' — это щенок, 'kitten' — это котёнок!",
+       "💡 Guinea pig (морская свинка) не из Гвинеи и не свинья!"
+      ],
+      "image": "/images/lessons/grade2/english/lesson5.svg"
+     },
+     {
+      "title": "Урок 6: Дикие животные",
+      "description": "Изучаем названия диких животных на английском языке.",
+      "tasks": [
+       "Выучить названия животных",
+       "Описать дикое животное",
+       "Рассказать, где живёт животное",
+       "Что ест животное"
+      ],
+      "theory": "## 📚 Дикие животные (Wild Animals)\n\n**Дикие животные:**\n\n| Английский | Русский | Транскрипция |\n|------------|---------|--------------|\n| Lion | Лев | [ˈlaɪən] |\n| Tiger | Тигр | [ˈtaɪɡə] |\n| Bear | Медведь | [beə] |\n| Wolf | Волк | [wʊlf] |\n| Fox | Лиса | [fɒks] |\n| Rabbit | Заяц | [ˈræbɪt] |\n| Elephant | Слон | [ˈelɪfənt] |\n| Monkey | Обезьяна | [ˈmʌŋki] |\n| Giraffe | Жираф | [dʒɪˈrɑːf] |\n| Zebra | Зебра | [ˈzebrə] |\n\n**Где живут животные:**\n\n- forest — лес\n- jungle — джунгли\n- savanna — саванна\n- zoo — зоопарк\n- Africa — Африка\n- India — Индия\n\n**Примеры:**\n- Lions live in Africa. — Львы живут в Африке.\n- Bears live in the forest. — Медведи живут в лесу.\n- Monkeys live in the jungle. — Обезьяны живут в джунглях.\n\n**Что едят животные:**\n\n- meat — мясо (хищники)\n- grass — трава (травоядные)\n- fruit — фрукты\n- fish — рыба\n\n**Примеры:**\n- Lions eat meat. — Львы едят мясо.\n- Elephants eat grass. — Слоны едят траву.\n- Monkeys eat fruit. — Обезьяны едят фрукты.\n\n**Глаголы движения:**\n\n- run — бегать\n- walk — ходить\n- jump — прыгать\n- climb — лазить\n- swim — плавать\n- fly — летать\n\n**Примеры:**\n- Tigers can run. — Тигры умеют бегать.\n- Monkeys can climb. — Обезьяны умеют лазить.\n- Birds can fly. — Птицы умеют летать.\n\n**Описание животного:**\n\n\"A lion is a big wild animal. It is yellow and brown. It has a big head and a long tail. Lions live in Africa. They eat meat. They can run fast.\"\n\nПеревод: «Лев — это большое дикое животное. Оно жёлто-коричневое. У него большая голова и длинный хвост. Львы живут в Африке. Они едят мясо. Они могут быстро бегать.»",
+      "examples": [
+       "🦁 Lion = лев, Tiger = тигр, Bear = медведь",
+       "🐘 Elephant = слон, Monkey = обезьяна, Giraffe = жираф",
+       "📝 'Lions live in Africa. They eat meat.' — Львы живут в Африке. Они едят мясо."
+      ],
+      "facts": [
+       "💡 Лев — царь зверей, но тигр больше льва!",
+       "💡 Жираф — самое высокое животное в мире, до 6 метров!",
+       "💡 Слоны — единственные животные, которые не могут прыгать!"
+      ],
+      "image": "/images/lessons/grade2/english/lesson6.svg"
+     }
+    ]
+   },
+   {
+    "topic": "Цвета и числа",
+    "lessons": [
+     {
+      "title": "Урок 7: Цвета",
+      "description": "Изучаем названия цветов на английском языке.",
+      "tasks": [
+       "Выучить названия цветов",
+       "Назвать цвета предметов",
+       "Описать картинку",
+       "Игра в цвета"
+      ],
+      "theory": "## 📚 Цвета (Colors)\n\n**Основные цвета:**\n\n| Английский | Русский | Транскрипция |\n|------------|---------|--------------|\n| Red | Красный | [red] |\n| Blue | Синий | [bluː] |\n| Green | Зелёный | [ɡriːn] |\n| Yellow | Жёлтый | [ˈjeləʊ] |\n| Orange | Оранжевый | [ˈɒrɪndʒ] |\n| Purple | Фиолетовый | [ˈpɜːpl] |\n| Pink | Розовый | [pɪŋk] |\n| Brown | Коричневый | [braʊn] |\n| Black | Чёрный | [blæk] |\n| White | Белый | [waɪt] |\n| Grey | Серый | [ɡreɪ] |\n\n**Оттенки:**\n\n- light — светлый (light blue — светло-синий)\n- dark — тёмный (dark green — тёмно-зелёный)\n\n**Примеры использования:**\n\n**Описываем предметы:**\n- a red apple — красное яблоко\n- a blue car — синяя машина\n- a green tree — зелёное дерево\n- a yellow banana — жёлтый банан\n\n**Вопрос о цвете:**\n\n- What colour is it? — Какого это цвета?\n- What colour is the cat? — Какого цвета кошка?\n- It is black. — Она чёрная.\n\n**Описываем несколько предметов:**\n- red apples — красные яблоки\n- blue cars — синие машины\n- green trees — зелёные деревья\n\n**Глагол to be с цветами:**\n\n- The apple is red. — Яблоко красное.\n- The sky is blue. — Небо синее.\n- The grass is green. — Трава зелёная.\n\n**Радуга (Rainbow):**\n\nВ английском запоминают цвета радуги по фразе:\n**R**ichard **O**f **Y**ork **G**ave **B**attle **I**n **V**ain\n\n- **R**ed — красный\n- **O**range — оранжевый\n- **Y**ellow — жёлтый\n- **G**reen — зелёный\n- **B**lue — синий\n- **I**ndigo — индиго\n- **V**iolet — фиолетовый\n\n**Цвета в природе:**\n\n- The sun is yellow. — Солнце жёлтое.\n- The sky is blue. — Небо синее.\n- The grass is green. — Трава зелёная.\n- Snow is white. — Снег белый.",
+      "examples": [
+       "🔴 Red = красный, Blue = синий, Green = зелёный",
+       "🟡 Yellow = жёлтый, Orange = оранжевый, Purple = фиолетовый",
+       "📝 'What colour is it? — It is red.' — Какого это цвета? — Красного."
+      ],
+      "facts": [
+       "💡 Английское 'orange' — это и цвет, и фрукт!",
+       "💡 Слово 'pink' (розовый) появилось в английском только в XVII веке!",
+       "💡 В английском цвет 'blue' означает и голубой, и синий!"
+      ],
+      "image": "/images/lessons/grade2/english/lesson7.svg"
+     },
+     {
+      "title": "Урок 8: Числа 1-20",
+      "description": "Учимся считать на английском языке от 1 до 20.",
+      "tasks": [
+       "Посчитать предметы",
+       "Назвать число",
+       "Решить примеры",
+       "Игра в числа"
+      ],
+      "theory": "## 📚 Числа от 1 до 20 (Numbers 1-20)\n\n**Числа от 1 до 10:**\n\n| Число | Английский | Транскрипция |\n|-------|------------|--------------|\n| 1 | One | [wʌn] |\n| 2 | Two | [tuː] |\n| 3 | Three | [θriː] |\n| 4 | Four | [fɔː] |\n| 5 | Five | [faɪv] |\n| 6 | Six | [sɪks] |\n| 7 | Seven | [ˈsevn] |\n| 8 | Eight | [eɪt] |\n| 9 | Nine | [naɪn] |\n| 10 | Ten | [ten] |\n\n**Числа от 11 до 20:**\n\n| Число | Английский | Транскрипция |\n|-------|------------|--------------|\n| 11 | Eleven | [ɪˈlevn] |\n| 12 | Twelve | [twelv] |\n| 13 | Thirteen | [θɜːˈtiːn] |\n| 14 | Fourteen | [fɔːˈtiːn] |\n| 15 | Fifteen | [fɪfˈtiːn] |\n| 16 | Sixteen | [sɪksˈtiːn] |\n| 17 | Seventeen | [sevnˈtiːn] |\n| 18 | Eighteen | [eɪˈtiːn] |\n| 19 | Nineteen | [naɪnˈtiːn] |\n| 20 | Twenty | [ˈtwenti] |\n\n**Правила:**\n\n1. Числа 11 и 12 — особые, их нужно запомнить!\n2. Числа 13-19 образуются добавлением -teen к числу:\n   - three + teen = thirteen (обратите внимание: thir-)\n   - five + teen = fifteen (обратите внимание: fif-)\n   - eight + teen = eighteen (только одна t)\n\n**Десятки:**\n\n- twenty — 20\n- thirty — 30\n- forty — 40\n- fifty — 50\n\n**Составные числа:**\n\n- 21 — twenty-one\n- 22 — twenty-two\n- 35 — thirty-five\n- 47 — forty-seven\n\n**Примеры использования:**\n\n- I have five apples. — У меня 5 яблок.\n- There are seven days in a week. — В неделе 7 дней.\n- I am eight years old. — Мне 8 лет.\n\n**Математика:**\n\n- 2 + 3 = 5 — Two plus three is five.\n- 7 - 2 = 5 — Seven minus two is five.\n\n**Вопросы с числами:**\n\n- How many? — Сколько?\n- How many apples? — Сколько яблок?\n- How old are you? — Сколько тебе лет?\n- I am eight. — Мне восемь.",
+      "examples": [
+       "🔢 1-one, 2-two, 3-three, 4-four, 5-five",
+       "🔢 6-six, 7-seven, 8-eight, 9-nine, 10-ten",
+       "📝 'How many? — Five.' — Сколько? — Пять."
+      ],
+      "facts": [
+       "💡 Числа 13-19 называются 'teen numbers' — отсюда слово 'teenager' (подросток)!",
+       "💡 Число 0 читается как 'zero' или 'nought'!",
+       "💡 В английском телефонные номера читают по цифрам: 12345 = one-two-three-four-five!"
+      ],
+      "image": "/images/lessons/grade2/english/lesson8.svg"
+     }
+    ]
+   }
+  ]
+ },
+ "games": [
+  {
+   "title": "Соедини слово и перевод",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "match",
+     "question": "Соедини английское слово с русским:",
+     "options": [
+      "Mother",
+      "Father",
+      "Sister",
+      "Brother",
+      "Grandmother"
+     ],
+     "correctAnswer": [
+      "Мама",
+      "Папа",
+      "Сестра",
+      "Брат",
+      "Бабушка"
+     ],
+     "hint": "Семья = Family"
+    },
+    {
+     "type": "match",
+     "question": "Соедини слово с переводом:",
+     "options": [
+      "Cat",
+      "Dog",
+      "Bird",
+      "Fish",
+      "Rabbit"
+     ],
+     "correctAnswer": [
+      "Кошка",
+      "Собака",
+      "Птица",
+      "Рыба",
+      "Кролик"
+     ],
+     "hint": "Animals = животные"
+    },
+    {
+     "type": "match",
+     "question": "Соедини слово с переводом:",
+     "options": [
+      "Apple",
+      "Banana",
+      "Orange",
+      "Lemon",
+      "Pear"
+     ],
+     "correctAnswer": [
+      "Яблоко",
+      "Банан",
+      "Апельсин",
+      "Лимон",
+      "Груша"
+     ],
+     "hint": "Fruits = фрукты"
+    },
+    {
+     "type": "match",
+     "question": "Соедини слово с переводом:",
+     "options": [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow",
+      "White"
+     ],
+     "correctAnswer": [
+      "Красный",
+      "Синий",
+      "Зелёный",
+      "Жёлтый",
+      "Белый"
+     ],
+     "hint": "Colors = цвета"
+    },
+    {
+     "type": "match",
+     "question": "Соедини слово с переводом:",
+     "options": [
+      "Water",
+      "Milk",
+      "Juice",
+      "Tea",
+      "Coffee"
+     ],
+     "correctAnswer": [
+      "Вода",
+      "Молоко",
+      "Сок",
+      "Чай",
+      "Кофе"
+     ],
+     "hint": "Drinks = напитки"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Отлично! Ты знаешь слова! 📚"
+   }
+  },
+  {
+   "title": "Найди правильный перевод",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "find",
+     "question": "Что означает Apple?",
+     "options": [
+      "Груша",
+      "Яблоко",
+      "Апельсин",
+      "Банан",
+      "Виноград"
+     ],
+     "correctAnswer": "Яблоко",
+     "hint": "Apple = яблоко"
+    },
+    {
+     "type": "find",
+     "question": "Что означает Milk?",
+     "options": [
+      "Вода",
+      "Сок",
+      "Молоко",
+      "Чай",
+      "Кофе"
+     ],
+     "correctAnswer": "Молоко",
+     "hint": "Milk = молоко"
+    },
+    {
+     "type": "find",
+     "question": "Что означает Bread?",
+     "options": [
+      "Молоко",
+      "Хлеб",
+      "Сыр",
+      "Масло",
+      "Яйцо"
+     ],
+     "correctAnswer": "Хлеб",
+     "hint": "Bread = хлеб"
+    },
+    {
+     "type": "find",
+     "question": "Что означает Water?",
+     "options": [
+      "Вода",
+      "Молоко",
+      "Сок",
+      "Чай",
+      "Кофе"
+     ],
+     "correctAnswer": "Вода",
+     "hint": "Water = вода"
+    },
+    {
+     "type": "find",
+     "question": "Что означает Cheese?",
+     "options": [
+      "Хлеб",
+      "Масло",
+      "Сыр",
+      "Яйцо",
+      "Мясо"
+     ],
+     "correctAnswer": "Сыр",
+     "hint": "Cheese = сыр"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Супер! Ты знаешь еду! 🍎"
+   }
+  },
+  {
+   "title": "Цвета по-английски",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "match",
+     "question": "Соедини цвет с переводом:",
+     "options": [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow",
+      "Orange"
+     ],
+     "correctAnswer": [
+      "Красный",
+      "Синий",
+      "Зелёный",
+      "Жёлтый",
+      "Оранжевый"
+     ],
+     "hint": "Colors = цвета"
+    },
+    {
+     "type": "find",
+     "question": "Какой цвет означает Black?",
+     "options": [
+      "Белый",
+      "Чёрный",
+      "Серый",
+      "Коричневый",
+      "Синий"
+     ],
+     "correctAnswer": "Чёрный",
+     "hint": "Black = чёрный"
+    },
+    {
+     "type": "find",
+     "question": "Какой цвет означает White?",
+     "options": [
+      "Белый",
+      "Чёрный",
+      "Серый",
+      "Жёлтый",
+      "Красный"
+     ],
+     "correctAnswer": "Белый",
+     "hint": "White = белый"
+    },
+    {
+     "type": "find",
+     "question": "Какой цвет означает Green?",
+     "options": [
+      "Красный",
+      "Синий",
+      "Зелёный",
+      "Жёлтый",
+      "Оранжевый"
+     ],
+     "correctAnswer": "Зелёный",
+     "hint": "Green = зелёный"
+    },
+    {
+     "type": "find",
+     "question": "Какой цвет означает Pink?",
+     "options": [
+      "Розовый",
+      "Красный",
+      "Оранжевый",
+      "Фиолетовый",
+      "Жёлтый"
+     ],
+     "correctAnswer": "Розовый",
+     "hint": "Pink = розовый"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Отлично! Ты знаешь цвета! 🌈"
+   }
+  },
+  {
+   "title": "Числа по-английски",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Какое число идёт после Three?",
+     "options": [
+      "One",
+      "Two",
+      "Four",
+      "Five",
+      "Six"
+     ],
+     "correctAnswer": "Four",
+     "hint": "Один, два, три, четыре..."
+    },
+    {
+     "type": "match",
+     "question": "Соедини число с переводом:",
+     "options": [
+      "One",
+      "Three",
+      "Five",
+      "Ten",
+      "Seven"
+     ],
+     "correctAnswer": [
+      "1",
+      "3",
+      "5",
+      "10",
+      "7"
+     ],
+     "hint": "Numbers = числа"
+    },
+    {
+     "type": "find",
+     "question": "Какое число означает Seven?",
+     "options": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+     ],
+     "correctAnswer": "7",
+     "hint": "Seven = 7"
+    },
+    {
+     "type": "find",
+     "question": "Какое число означает Ten?",
+     "options": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+     ],
+     "correctAnswer": "10",
+     "hint": "Ten = 10"
+    },
+    {
+     "type": "find",
+     "question": "Какое число означает Five?",
+     "options": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+     ],
+     "correctAnswer": "5",
+     "hint": "Five = 5"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Супер! Ты умеешь считать! 🔢"
+   }
+  },
+  {
+   "title": "Животные",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "find",
+     "question": "Какое животное означает Cat?",
+     "options": [
+      "Собака",
+      "Кошка",
+      "Птица",
+      "Рыба",
+      "Лошадь"
+     ],
+     "correctAnswer": "Кошка",
+     "hint": "Cat = кошка"
+    },
+    {
+     "type": "find",
+     "question": "Какое животное означает Dog?",
+     "options": [
+      "Кошка",
+      "Собака",
+      "Птица",
+      "Лошадь",
+      "Корова"
+     ],
+     "correctAnswer": "Собака",
+     "hint": "Dog = собака"
+    },
+    {
+     "type": "find",
+     "question": "Найди домашнее животное:",
+     "options": [
+      "Tiger",
+      "Lion",
+      "Cat",
+      "Wolf",
+      "Bear"
+     ],
+     "correctAnswer": "Cat",
+     "hint": "Pet = домашнее животное"
+    },
+    {
+     "type": "find",
+     "question": "Найди дикое животное:",
+     "options": [
+      "Cat",
+      "Dog",
+      "Tiger",
+      "Fish",
+      "Mouse"
+     ],
+     "correctAnswer": "Tiger",
+     "hint": "Wild = дикий"
+    },
+    {
+     "type": "find",
+     "question": "Какое животное означает Bird?",
+     "options": [
+      "Кошка",
+      "Собака",
+      "Птица",
+      "Рыба",
+      "Лошадь"
+     ],
+     "correctAnswer": "Птица",
+     "hint": "Bird = птица"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Отлично! Ты знаешь животных! 🐱🐶"
+   }
+  }
+ ]
+}

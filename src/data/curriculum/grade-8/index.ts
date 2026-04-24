@@ -1,93 +1,48 @@
-// Экспорт предметов 8 класса
+export { grade8Algebra } from './algebra'
+import { grade8Algebra } from './algebra'
+export { grade8Geometry } from './geometry'
+import { grade8Geometry } from './geometry'
+export { grade8Russian } from './russian'
+import { grade8Russian } from './russian'
+export { grade8Literature } from './literature'
+import { grade8Literature } from './literature'
+export { grade8Physics } from './physics'
+import { grade8Physics } from './physics'
+export { grade8Chemistry } from './chemistry'
+import { grade8Chemistry } from './chemistry'
+export { grade8History } from './history'
+import { grade8History } from './history'
+export { grade8Biology } from './biology'
+import { grade8Biology } from './biology'
+export { grade8Geography } from './geography'
+import { grade8Geography } from './geography'
+export { grade8English } from './english'
+import { grade8English } from './english'
+export { grade8Technology } from './technology'
+import { grade8Technology } from './technology'
+export { grade8Art } from './art'
+import { grade8Art } from './art'
+export { grade8Music } from './music'
+import { grade8Music } from './music'
+export { grade8Pe } from './pe'
+import { grade8Pe } from './pe'
+export { grade8Safety } from './safety'
+import { grade8Safety } from './safety'
+
 export const grade8Subjects = [
-  {
-    title: "Русский язык",
-    icon: "BookOpen",
-    color: "text-red-400",
-    topics: ["Синтаксис", "Обособление", "Прямая речь"]
-  },
-  {
-    title: "Литература",
-    icon: "BookOpenText",
-    color: "text-purple-400",
-    topics: ["XIX век", "Проза", "Поэзия", "Драма"]
-  },
-  {
-    title: "Алгебра",
-    icon: "Sigma",
-    color: "text-indigo-400",
-    topics: ["Квадратные уравнения", "Неравенства", "Степени"]
-  },
-  {
-    title: "Геометрия",
-    icon: "Shapes",
-    color: "text-cyan-400",
-    topics: ["Четырёхугольники", "Площади", "Подобие"]
-  },
-  {
-    title: "Физика",
-    icon: "Atom",
-    color: "text-purple-400",
-    topics: ["Тепловые явления", "Электричество", "Магнетизм"]
-  },
-  {
-    title: "Химия",
-    icon: "FlaskConical",
-    color: "text-emerald-400",
-    topics: ["Периодическая система", "Связь", "Реакции"]
-  },
-  {
-    title: "История",
-    icon: "Landmark",
-    color: "text-amber-400",
-    topics: ["XVIII век", "Петр I", "Екатерина II"]
-  },
-  {
-    title: "Биология",
-    icon: "Atom",
-    color: "text-green-400",
-    topics: ["Человек", "Организм", "Здоровье"]
-  },
-  {
-    title: "География",
-    icon: "Map",
-    color: "text-teal-400",
-    topics: ["Россия", "Природа", "Население"]
-  },
-  {
-    title: "Иностранный язык",
-    icon: "Languages",
-    color: "text-pink-400",
-    topics: ["Passive Voice", "Conditionals"]
-  },
-  {
-    title: "Технология",
-    icon: "Ruler",
-    color: "text-yellow-400",
-    topics: ["Проекты", "Профессии"]
-  },
-  {
-    title: "Изобразительное искусство",
-    icon: "Palette",
-    color: "text-rose-400",
-    topics: ["История", "Творчество"]
-  },
-  {
-    title: "Музыка",
-    icon: "Music",
-    color: "text-cyan-400",
-    topics: ["История", "Жанры"]
-  },
-  {
-    title: "Физическая культура",
-    icon: "Dumbbell",
-    color: "text-orange-400",
-    topics: ["Спорт", "Игры"]
-  },
-  {
-    title: "Основы безопасности",
-    icon: "Shield",
-    color: "text-slate-400",
-    topics: ["Безопасность", "Здоровье"]
-  }
+  grade8Algebra,
+  grade8Geometry,
+  grade8Russian,
+  grade8Literature,
+  grade8Physics,
+  grade8Chemistry,
+  grade8History,
+  grade8Biology,
+  grade8Geography,
+  grade8English,
+  grade8Technology,
+  grade8Art,
+  grade8Music,
+  grade8Pe,
+  grade8Safety
 ]
