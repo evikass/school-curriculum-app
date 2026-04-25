@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#C62828" text-anchor="middle">И.С. Тургенев. Бежин луг</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 9</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Card 1: Night campfire scene -->
+  <rect x="25" y="90" width="310" height="200" rx="6" fill="white" stroke="#E65100" stroke-width="1.5" opacity="0.9"/>
+  <text x="180" y="104" font-family="Arial,sans-serif" font-size="8" fill="#E65100" font-weight="bold" text-anchor="middle">НОЧНОЙ КОСТЁР НА ЛУГУ</text>
+  <!-- Night sky -->
+  <rect x="30" y="108" width="300" height="90" fill="#1A237E" opacity="0.2" rx="4"/>
+  <!-- Stars -->
+  <circle cx="50" cy="115" r="1.5" fill="#FDD835" opacity="0.8"/>
+  <circle cx="85" cy="125" r="1" fill="#FDD835" opacity="0.6"/>
+  <circle cx="120" cy="112" r="1.5" fill="#FDD835" opacity="0.8"/>
+  <circle cx="160" cy="120" r="1" fill="#FDD835" opacity="0.6"/>
+  <circle cx="200" cy="110" r="2" fill="#FDD835" opacity="0.9"/>
+  <circle cx="240" cy="118" r="1" fill="#FDD835" opacity="0.7"/>
+  <circle cx="280" cy="112" r="1.5" fill="#FDD835" opacity="0.8"/>
+  <circle cx="310" cy="122" r="1" fill="#FDD835" opacity="0.6"/>
+  <circle cx="330" cy="115" r="1.5" fill="#FDD835" opacity="0.7"/>
+  <circle cx="70" cy="135" r="1" fill="#FDD835" opacity="0.5"/>
+  <circle cx="140" cy="140" r="1.5" fill="#FDD835" opacity="0.6"/>
+  <circle cx="260" cy="130" r="1" fill="#FDD835" opacity="0.5"/>
+  <!-- Moon -->
+  <circle cx="310" cy="125" r="12" fill="#FFF9C4" opacity="0.6"/>
+  <circle cx="314" cy="122" r="10" fill="#1A237E" opacity="0.15"/>
+  <!-- Russian countryside - meadow -->
+  <path d="M30,200 Q80,190 130,195 Q180,188 230,193 Q280,187 330,195 L330,285 L30,285 Z" fill="#C8E6C9" opacity="0.4"/>
+  <!-- Grass blades -->
+  <line x1="40" y1="205" x2="38" y2="195" stroke="#2E7D32" stroke-width="1" opacity="0.4"/>
+  <line x1="50" y1="203" x2="48" y2="192" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+  <line x1="60" y1="207" x2="62" y2="197" stroke="#2E7D32" stroke-width="1" opacity="0.4"/>
+  <line x1="290" y1="200" x2="288" y2="190" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+  <line x1="310" y1="202" x2="312" y2="192" stroke="#2E7D32" stroke-width="1" opacity="0.4"/>
+  <!-- Trees in distance -->
+  <polygon points="42,200 50,175 58,200" fill="#2E7D32" opacity="0.3"/>
+  <polygon points="62,198 68,178 74,198" fill="#388E3C" opacity="0.3"/>
+  <polygon points="290,198 298,172 306,198" fill="#2E7D32" opacity="0.3"/>
+  <polygon points="310,200 316,182 322,200" fill="#388E3C" opacity="0.3"/>
+  <!-- Campfire glow -->
+  <circle cx="180" cy="245" r="30" fill="#F9A825" opacity="0.08"/>
+  <circle cx="180" cy="245" r="20" fill="#F9A825" opacity="0.12"/>
+  <!-- Campfire logs -->
+  <line x1="168" y1="252" x2="192" y2="248" stroke="#8D6E63" stroke-width="4" stroke-linecap="round"/>
+  <line x1="172" y1="248" x2="188" y2="255" stroke="#6D4C41" stroke-width="4" stroke-linecap="round"/>
+  <!-- Flames -->
+  <path d="M175,248 Q178,230 180,222 Q182,230 185,248 Z" fill="#F9A825" opacity="0.9"/>
+  <path d="M177,248 Q180,235 180,228 Q182,235 183,248 Z" fill="#FF6F00" opacity="0.9"/>
+  <path d="M179,248 Q180,240 180,235 Q182,240 181,248 Z" fill="#FDD835"/>
+  <!-- Sparks -->
+  <circle cx="178" cy="218" r="1" fill="#F9A825" opacity="0.6"/>
+  <circle cx="182" cy="215" r="0.8" fill="#FDD835" opacity="0.5"/>
+  <circle cx="176" cy="220" r="0.7" fill="#F9A825" opacity="0.4"/>
+
+  <!-- Boy 1 (leftmost) - sitting -->
+  <circle cx="110" cy="225" r="7" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
+  <!-- Cap -->
+  <path d="M103,221 Q107,214 110,213 Q113,214 117,221" fill="#C62828" stroke="#8D6E63" stroke-width="0.5"/>
+  <line x1="110" y1="213" x2="110" y2="210" stroke="#C62828" stroke-width="1.5"/>
+  <!-- Eyes -->
+  <circle cx="107" cy="224" r="1" fill="#C62828"/>
+  <circle cx="113" cy="224" r="1" fill="#C62828"/>
+  <!-- Body -->
+  <path d="M105,232 Q103,245 102,260 L118,260 Q117,245 115,232 Z" fill="#1565C0" stroke="#0D47A1" stroke-width="0.5"/>
+  <!-- Arms on knees -->
+  <line x1="105" y1="240" x2="95" y2="252" stroke="#C62828" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="115" y1="240" x2="120" y2="250" stroke="#C62828" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Legs -->
+  <line x1="105" y1="260" x2="100" y2="278" stroke="#8D6E63" stroke-width="2"/>
+  <line x1="115" y1="260" x2="118" y2="278" stroke="#8D6E63" stroke-width="2"/>
+  <path d="M98,276 L100,278 L103,276" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+
+  <!-- Boy 2 (left of fire) -->
+  <circle cx="145" cy="228" r="7" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
+  <!-- Hair -->
+  <path d="M138,224 Q142,218 145,217 Q148,218 152,224" fill="#5D4037"/>
+  <circle cx="142" cy="226" r="1" fill="#C62828"/>
+  <circle cx="148" cy="226" r="1" fill="#C62828"/>
+  <path d="M140,234 Q145,238 150,234" stroke="#C62828" stroke-width="0.6" fill="none"/>
+  <path d="M140,230 Q145,235 150,230" stroke="#1565C0" stroke-width="1.5" fill="none"/>
+  <path d="M140,234 Q138,248 137,262 L153,262 Q152,248 150,234 Z" fill="white" stroke="#C62828" stroke-width="0.5"/>
+  <line x1="140" y1="242" x2="132" y2="255" stroke="#C62828" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="150" y1="242" x2="158" y2="252" stroke="#C62828" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="140" y1="262" x2="137" y2="278" stroke="#8D6E63" stroke-width="2"/>
+  <line x1="150" y1="262" x2="153" y2="278" stroke="#8D6E63" stroke-width="2"/>
+
+  <!-- Boy 3 (right of fire) - telling story, gesturing -->
+  <circle cx="215" cy="226" r="8" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
+  <!-- Wide-brimmed hat -->
+  <path d="M205,224 Q210,216 215,214 Q220,216 225,224" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+  <rect x="202" y="223" width="26" height="3" rx="1" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <circle cx="211" cy="223" r="1.2" fill="#C62828"/>
+  <circle cx="219" cy="223" r="1.2" fill="#C62828"/>
+  <line x1="212" y1="228" x2="218" y2="228" stroke="#C62828" stroke-width="0.8"/>
+  <path d="M208,234 Q215,240 222,234 Z" fill="#5D4037" opacity="0.4"/>
+  <path d="M208,232 Q206,248 204,262 L226,262 Q224,248 222,232 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="0.5"/>
+  <!-- Right arm raised (gesturing) -->
+  <line x1="222" y1="240" x2="240" y2="225" stroke="#C62828" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="242" cy="223" r="3" fill="#FFCC80" stroke="#C62828" stroke-width="0.5"/>
+  <!-- Left arm -->
+  <line x1="208" y1="240" x2="200" y2="252" stroke="#C62828" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="208" y1="262" x2="205" y2="278" stroke="#8D6E63" stroke-width="2"/>
+  <line x1="222" y1="262" x2="225" y2="278" stroke="#8D6E63" stroke-width="2"/>
+
+  <!-- Boy 4 (rightmost) - lying down -->
+  <circle cx="265" cy="248" r="7" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
+  <path d="M258,244 Q262,238 265,237 Q268,238 272,244" fill="#5D4037"/>
+  <circle cx="262" cy="246" r="1" fill="#C62828"/>
+  <circle cx="268" cy="246" r="1" fill="#C62828"/>
+  <!-- Lying body -->
+  <path d="M260,255 Q265,260 280,262 L290,260 L290,268 L258,268 Z" fill="#F9A825" stroke="#E65100" stroke-width="0.5"/>
+  <!-- Arms behind head -->
+  <line x1="258" y1="255" x2="250" y2="250" stroke="#C62828" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="258" y1="255" x2="252" y2="260" stroke="#C62828" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Card 2: Storytelling elements -->
+  <rect x="347" y="90" width="128" height="130" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="411" y="104" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-weight="bold" text-anchor="middle">СКАЗЫ ПАРОБКОВ</text>
+  <!-- Ghostly figure (from stories) -->
+  <path d="M395,130 Q390,135 388,150 Q390,165 395,170 Q400,175 405,170 Q410,165 412,155 L418,160 Q422,170 418,180 Q412,190 400,190 Q388,188 385,178 Q382,165 385,150 Q388,140 395,130 Z" fill="#E8EAF6" stroke="#7986CB" stroke-width="1" opacity="0.6"/>
+  <circle cx="395" cy="140" r="3" fill="#7986CB" opacity="0.5"/>
+  <!-- Haunted house -->
+  <rect x="425" y="145" width="35" height="30" fill="#9E9E9E" stroke="#616161" stroke-width="1"/>
+  <polygon points="420,145 442,128 465,145" fill="#616161" stroke="#424242" stroke-width="1"/>
+  <rect x="433" y="155" width="10" height="20" fill="#424242"/>
+  <rect x="427" y="150" width="5" height="5" fill="#F9A825" opacity="0.5"/>
+  <rect x="450" y="150" width="5" height="5" fill="#F9A825" opacity="0.3"/>
+  <!-- Bat -->
+  <path d="M420,125 Q415,120 412,123 Q415,125 416,128 Q413,127 412,130 Q415,128 420,130 Z" fill="#424242"/>
+  <!-- Eerie eyes -->
+  <circle cx="432" cy="160" r="1.5" fill="#FDD835" opacity="0.6"/>
+  <circle cx="442" cy="160" r="1.5" fill="#FDD835" opacity="0.6"/>
+  <!-- Text -->
+  <text x="411" y="205" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">домовые, лешие, русалки</text>
+
+  <!-- Card 3: Turgenev portrait hint -->
+  <rect x="347" y="228" width="128" height="62" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="411" y="242" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" font-weight="bold" text-anchor="middle">ПРИРОДА В РАССКАЗЕ</text>
+ <!-- Nature elements -->
+  <!-- Bird (nightjar/летучая мышь) -->
+  <path d="M365,255 Q360,250 358,253 Q360,255 361,258 Q358,257 357,260 Q360,258 365,260 Z" fill="#5D4037"/>
+  <!-- Firefly -->
+  <circle cx="390" cy="265" r="2" fill="#FDD835" opacity="0.7"/>
+  <circle cx="410" cy="258" r="1.5" fill="#FDD835" opacity="0.5"/>
+  <circle cx="430" cy="268" r="2" fill="#FDD835" opacity="0.6"/>
+  <circle cx="450" cy="260" r="1.5" fill="#FDD835" opacity="0.4"/>
+  <!-- Water/pond hint -->
+  <path d="M375,275 Q390,272 405,275 Q420,272 435,275 Q450,272 465,275" stroke="#1565C0" stroke-width="1" fill="none" opacity="0.4"/>
+  <text x="411" y="293" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">тихая ночная природа</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">И.С. Тургенев. Бежин луг</text>
+</svg>

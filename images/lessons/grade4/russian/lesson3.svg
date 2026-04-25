@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <rect x="0" y="0" width="500" height="6" fill="#C41E3A"/>
+  <rect x="0" y="310" width="500" height="4" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Второстепенные члены</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1a1a1a">Определение, дополнение, обстоятельство</text>
+  <!-- Three columns with colored headers -->
+  <!-- Column 1: Определение -->
+  <rect x="30" y="90" width="140" height="100" rx="6" fill="#FFFFFF" stroke="#C41E3A" stroke-width="2"/>
+  <rect x="30" y="90" width="140" height="28" rx="6" fill="#C41E3A"/>
+  <rect x="30" y="106" width="140" height="12" fill="#C41E3A"/>
+  <text x="100" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">Определение</text>
+  <!-- Wavy line representation -->
+  <path d="M 45 140 Q 55 132 65 140 Q 75 148 85 140 Q 95 132 105 140 Q 115 148 125 140 Q 135 132 145 140 Q 155 148 165 140" stroke="#C41E3A" stroke-width="2" fill="none"/>
+  <text x="100" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1a1a1a">Какой? Чей?</text>
+  <text x="100" y="178" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#1a1a1a" font-style="italic">красивый цветок</text>
+  <!-- Column 2: Дополнение -->
+  <rect x="180" y="90" width="140" height="100" rx="6" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="2"/>
+  <rect x="180" y="90" width="140" height="28" rx="6" fill="#2B4C7E"/>
+  <rect x="180" y="106" width="140" height="12" fill="#2B4C7E"/>
+  <text x="250" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">Дополнение</text>
+  <!-- Dashed line representation -->
+  <line x1="195" y1="140" x2="305" y2="140" stroke="#2B4C7E" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="250" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1a1a1a">Кого? Чего?</text>
+  <text x="250" y="178" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#1a1a1a" font-style="italic">читать книгу</text>
+  <!-- Column 3: Обстоятельство -->
+  <rect x="330" y="90" width="140" height="100" rx="6" fill="#FFFFFF" stroke="#D4A843" stroke-width="2"/>
+  <rect x="330" y="90" width="140" height="28" rx="6" fill="#D4A843"/>
+  <rect x="330" y="106" width="140" height="12" fill="#D4A843"/>
+  <text x="400" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1a1a1a">Обстоятельство</text>
+  <!-- Dot-dash line representation -->
+  <line x1="345" y1="140" x2="455" y2="140" stroke="#D4A843" stroke-width="2" stroke-dasharray="8,3,2,3"/>
+  <text x="400" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1a1a1a">Где? Когда? Как?</text>
+  <text x="400" y="178" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#1a1a1a" font-style="italic">идти быстро</text>
+  <!-- Example sentence with all members -->
+  <rect x="30" y="205" width="440" height="85" rx="6" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="250" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">Разбор предложения:</text>
+  <text x="250" y="248" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#1a1a1a">Красная машина быстро ехала по дороге.</text>
+  <!-- Marked words -->
+  <path d="M 140 254 Q 150 246 160 254 Q 170 262 180 254 Q 190 246 200 254 Q 210 262 218 254" stroke="#C41E3A" stroke-width="2" fill="none"/>
+  <line x1="220" y1="258" x2="290" y2="258" stroke="#D4A843" stroke-width="2" stroke-dasharray="8,3,2,3"/>
+  <!-- Labels below sentence -->
+  <circle cx="80" cy="278" r="8" fill="#C41E3A"/>
+  <text x="95" y="282" font-family="Arial, sans-serif" font-size="10" fill="#1a1a1a">определение</text>
+  <circle cx="200" cy="278" r="8" fill="#D4A843"/>
+  <text x="215" y="282" font-family="Arial, sans-serif" font-size="10" fill="#1a1a1a">обстоятельство</text>
+  <circle cx="350" cy="278" r="8" fill="#D4A843"/>
+  <text x="365" y="282" font-family="Arial, sans-serif" font-size="10" fill="#1a1a1a">обстоятельство</text>
+  <!-- Subject name -->
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1a1a1a">Русский язык -- 4 класс</text>
+</svg>

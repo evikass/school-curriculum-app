@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient><pattern id="checker" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="5" height="5" fill="#f0f0f0"/><rect x="5" y="5" width="5" height="5" fill="#f0f0f0"/><rect x="5" width="5" height="5" fill="#fff"/><rect y="5" width="5" height="5" fill="#fff"/></pattern></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/><rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/><polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/><polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/><polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/><polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/><circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/><circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/><text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Растровые редакторы</text><text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Информатика - Урок 10</text><line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/><rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/><rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<!-- Paint program window -->
+<rect x="40" y="88" width="340" height="210" rx="8" fill="#455A64" stroke="#37474F" stroke-width="2"/>
+<!-- Title bar -->
+<rect x="40" y="88" width="340" height="24" rx="8" fill="#37474F"/>
+<rect x="40" y="104" width="340" height="8" fill="#37474F"/>
+<circle cx="56" cy="100" r="4" fill="#EF5350"/><circle cx="70" cy="100" r="4" fill="#FFC107"/><circle cx="84" cy="100" r="4" fill="#66BB6A"/>
+<text x="210" y="104" font-family="Arial,sans-serif" font-size="9" fill="#B0BEC5" text-anchor="middle">Paint Editor</text>
+<!-- Toolbar left -->
+<rect x="40" y="112" width="32" height="186" fill="#546E7A"/>
+<!-- Tool icons -->
+<rect x="45" y="118" width="22" height="18" rx="3" fill="#1565C0"/>
+<!-- Brush icon -->
+<rect x="50" y="121" width="12" height="3" rx="1" fill="white"/>
+<rect x="54" y="124" width="4" height="8" fill="white"/>
+<rect x="45" y="140" width="22" height="18" rx="3" fill="transparent"/>
+<!-- Eraser icon -->
+<rect x="50" y="143" width="12" height="10" rx="1" fill="#FFCDD2"/>
+<rect x="53" y="153" width="6" height="4" fill="#8D6E63"/>
+<!-- Pencil icon -->
+<rect x="45" y="162" width="22" height="18" rx="3" fill="transparent"/>
+<line x1="50" y1="178" x2="62" y2="166" stroke="#FFD54F" stroke-width="3"/>
+<line x1="60" y1="168" x2="62" y2="166" stroke="#555" stroke-width="2"/>
+<!-- Fill bucket -->
+<rect x="45" y="184" width="22" height="18" rx="3" fill="transparent"/>
+<rect x="52" y="187" width="10" height="8" rx="1" fill="#FF7043"/>
+<rect x="53" y="195" width="3" height="4" fill="#FF7043"/>
+<!-- Zoom -->
+<rect x="45" y="206" width="22" height="18" rx="3" fill="transparent"/>
+<circle cx="56" cy="215" r="6" fill="none" stroke="#B0BEC5" stroke-width="1.5"/>
+<line x1="60" y1="219" x2="64" y2="223" stroke="#B0BEC5" stroke-width="1.5"/>
+<!-- Text tool -->
+<rect x="45" y="228" width="22" height="18" rx="3" fill="transparent"/>
+<text x="56" y="241" font-family="Arial,sans-serif" font-size="12" fill="#B0BEC5" text-anchor="middle">A</text>
+<!-- Canvas area -->
+<rect x="72" y="112" width="248" height="186" fill="url(#checker)"/>
+<!-- Drawing on canvas: a simple landscape -->
+<rect x="72" y="240" width="248" height="58" fill="#90CAF9"/>
+<rect x="72" y="260" width="248" height="38" fill="#81C784"/>
+<polygon points="72,260 130,200 190,260" fill="#66BB6A"/>
+<polygon points="140,260 200,190 260,260" fill="#4CAF50"/>
+<circle cx="270" cy="140" r="25" fill="#FFD54F"/>
+<circle cx="270" cy="140" r="20" fill="#FFEB3B"/>
+<!-- Small tree -->
+<rect x="95" y="230" width="6" height="15" fill="#795548"/>
+<circle cx="98" cy="222" r="12" fill="#66BB6A"/>
+<!-- Cloud -->
+<ellipse cx="140" cy="138" rx="20" ry="10" fill="white" opacity="0.8"/>
+<ellipse cx="155" cy="135" rx="15" ry="8" fill="white" opacity="0.8"/>
+<ellipse cx="125" cy="136" rx="12" ry="7" fill="white" opacity="0.8"/>
+<!-- Selection marquee -->
+<rect x="120" y="125" width="60" height="45" fill="none" stroke="white" stroke-width="1" stroke-dasharray="4,3"/>
+<!-- Right panel: tools info -->
+<rect x="395" y="88" width="95" height="210" rx="8" fill="white" stroke="#CFD8DC" stroke-width="1.5"/>
+<text x="442" y="110" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle" font-weight="bold">Инструменты</text>
+<line x1="405" y1="116" x2="480" y2="116" stroke="#eee" stroke-width="1"/>
+<!-- Tool list -->
+<circle cx="415" cy="132" r="4" fill="#1565C0"/>
+<text x="425" y="136" font-family="Arial,sans-serif" font-size="9" fill="#555">Кисть</text>
+<circle cx="415" cy="152" r="4" fill="#FFCDD2"/>
+<text x="425" y="156" font-family="Arial,sans-serif" font-size="9" fill="#555">Ластик</text>
+<circle cx="415" cy="172" r="4" fill="#FFD54F"/>
+<text x="425" y="176" font-family="Arial,sans-serif" font-size="9" fill="#555">Карандаш</text>
+<circle cx="415" cy="192" r="4" fill="#FF7043"/>
+<text x="425" y="196" font-family="Arial,sans-serif" font-size="9" fill="#555">Заливка</text>
+<circle cx="415" cy="212" r="4" fill="#B0BEC5"/>
+<text x="425" y="216" font-family="Arial,sans-serif" font-size="9" fill="#555">Масштаб</text>
+<circle cx="415" cy="232" r="4" fill="#CE93D8"/>
+<text x="425" y="236" font-family="Arial,sans-serif" font-size="9" fill="#555">Текст</text>
+<circle cx="415" cy="252" r="4" fill="#80CBC4"/>
+<text x="425" y="256" font-family="Arial,sans-serif" font-size="9" fill="#555">Выделение</text>
+<!-- Color palette mini -->
+<text x="442" y="275" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">Палитра:</text>
+<rect x="408" y="280" width="10" height="10" rx="1" fill="#C62828"/>
+<rect x="420" y="280" width="10" height="10" rx="1" fill="#FF6F00"/>
+<rect x="432" y="280" width="10" height="10" rx="1" fill="#F9A825"/>
+<rect x="444" y="280" width="10" height="10" rx="1" fill="#2E7D32"/>
+<rect x="456" y="280" width="10" height="10" rx="1" fill="#1565C0"/>
+<rect x="408" y="293" width="10" height="10" rx="1" fill="#333"/>
+<rect x="420" y="293" width="10" height="10" rx="1" fill="#666"/>
+<rect x="432" y="293" width="10" height="10" rx="1" fill="#999"/>
+<rect x="444" y="293" width="10" height="10" rx="1" fill="#ccc"/>
+<rect x="456" y="293" width="10" height="10" rx="1" fill="white" stroke="#ddd" stroke-width="0.5"/>
+<rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/><text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Растровые редакторы</text></svg>

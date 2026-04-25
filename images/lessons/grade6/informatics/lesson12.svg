@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/><rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/><polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/><polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/><polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/><polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/><circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/><circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/><text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Дизайн презентаций</text><text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Информатика - Урок 12</text><line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/><rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/><rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<!-- Main presentation slide -->
+<rect x="110" y="88" width="280" height="210" rx="6" fill="white" stroke="#37474F" stroke-width="2"/>
+<!-- Slide content: title slide layout -->
+<!-- Blue header bar -->
+<rect x="112" y="90" width="276" height="50" rx="4" fill="#1565C0"/>
+<text x="250" y="112" font-family="Arial,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">Моя презентация</text>
+<text x="250" y="126" font-family="Arial,sans-serif" font-size="8" fill="#BBDEFB" text-anchor="middle">Тема: Информатика</text>
+<!-- Content area -->
+<rect x="120" y="150" width="100" height="60" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+<text x="170" y="172" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Изображение</text>
+<rect x="135" y="178" width="70" height="25" rx="3" fill="#BBDEFB"/>
+<text x="170" y="195" font-family="Arial,sans-serif" font-size="20" fill="#1565C0" text-anchor="middle">&#127912;</text>
+<!-- Text content -->
+<rect x="230" y="150" width="150" height="60" rx="4" fill="white" stroke="#ddd" stroke-width="0.8"/>
+<rect x="236" y="156" width="80" height="4" rx="2" fill="#333"/>
+<rect x="236" y="164" width="70" height="3" rx="1.5" fill="#999"/>
+<rect x="236" y="171" width="75" height="3" rx="1.5" fill="#999"/>
+<rect x="236" y="178" width="65" height="3" rx="1.5" fill="#999"/>
+<rect x="236" y="185" width="72" height="3" rx="1.5" fill="#999"/>
+<rect x="236" y="192" width="60" height="3" rx="1.5" fill="#999"/>
+<rect x="236" y="199" width="68" height="3" rx="1.5" fill="#999"/>
+<!-- Bullet points section -->
+<rect x="120" y="218" width="260" height="36" rx="4" fill="#FFF8E1"/>
+<circle cx="132" cy="228" r="2.5" fill="#C62828"/>
+<rect x="138" y="225" width="90" height="4" rx="2" fill="#555"/>
+<circle cx="132" cy="240" r="2.5" fill="#C62828"/>
+<rect x="138" y="237" width="80" height="4" rx="2" fill="#555"/>
+<circle cx="236" cy="228" r="2.5" fill="#C62828"/>
+<rect x="242" y="225" width="75" height="4" rx="2" fill="#555"/>
+<circle cx="236" cy="240" r="2.5" fill="#C62828"/>
+<rect x="242" y="237" width="85" height="4" rx="2" fill="#555"/>
+<!-- Footer -->
+<rect x="112" y="260" width="276" height="14" rx="0" fill="#F5F5F5"/>
+<rect x="112" y="270" width="276" height="10" rx="4" fill="#F5F5F5"/>
+<text x="126" y="272" font-family="Arial,sans-serif" font-size="6" fill="#999">Слайд 1 из 5</text>
+<text x="375" y="272" font-family="Arial,sans-serif" font-size="6" fill="#999" text-anchor="end">Школа</text>
+<!-- Decorative: small slide thumbnails on left -->
+<rect x="35" y="95" width="60" height="40" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+<rect x="38" y="98" width="54" height="10" rx="1" fill="#66BB6A"/>
+<rect x="38" y="110" width="20" height="12" rx="1" fill="#A5D6A7"/>
+<rect x="62" y="110" width="30" height="3" rx="1" fill="#81C784"/>
+<rect x="62" y="115" width="25" height="3" rx="1" fill="#81C784"/>
+<rect x="38" y="126" width="54" height="6" rx="1" fill="#C8E6C9"/>
+<text x="65" y="132" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">1</text>
+<rect x="35" y="142" width="60" height="40" rx="3" fill="white" stroke="#BDBDBD" stroke-width="1"/>
+<rect x="38" y="145" width="54" height="10" rx="1" fill="#E0E0E0"/>
+<rect x="38" y="157" width="54" height="3" rx="1" fill="#E0E0E0"/>
+<rect x="38" y="162" width="54" height="3" rx="1" fill="#E0E0E0"/>
+<rect x="38" y="173" width="54" height="6" rx="1" fill="#F5F5F5"/>
+<text x="65" y="179" font-family="Arial,sans-serif" font-size="6" fill="#999" text-anchor="middle">2</text>
+<rect x="35" y="189" width="60" height="40" rx="3" fill="white" stroke="#BDBDBD" stroke-width="1"/>
+<rect x="38" y="192" width="54" height="10" rx="1" fill="#E0E0E0"/>
+<rect x="38" y="204" width="54" height="3" rx="1" fill="#E0E0E0"/>
+<rect x="38" y="209" width="54" height="3" rx="1" fill="#E0E0E0"/>
+<rect x="38" y="220" width="54" height="6" rx="1" fill="#F5F5F5"/>
+<text x="65" y="226" font-family="Arial,sans-serif" font-size="6" fill="#999" text-anchor="middle">3</text>
+<!-- Arrow indicator between slides -->
+<text x="65" y="244" font-family="Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">...</text>
+<!-- Right side: tips -->
+<rect x="400" y="88" width="90" height="130" rx="6" fill="white" stroke="#CFD8DC" stroke-width="1.5"/>
+<text x="445" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle" font-weight="bold">Советы</text>
+<line x1="410" y1="114" x2="480" y2="114" stroke="#eee" stroke-width="1"/>
+<text x="412" y="130" font-family="Arial,sans-serif" font-size="8" fill="#C62828">1. Мало текста</text>
+<text x="412" y="145" font-family="Arial,sans-serif" font-size="8" fill="#C62828">2. Крупный шрифт</text>
+<text x="412" y="160" font-family="Arial,sans-serif" font-size="8" fill="#C62828">3. Контраст цветов</text>
+<text x="412" y="175" font-family="Arial,sans-serif" font-size="8" fill="#C62828">4. Фото качества</text>
+<text x="412" y="190" font-family="Arial,sans-serif" font-size="8" fill="#C62828">5. Анимация в меру</text>
+<!-- Layout types at bottom right -->
+<rect x="400" y="225" width="90" height="73" rx="6" fill="white" stroke="#CFD8DC" stroke-width="1.5"/>
+<text x="445" y="243" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Макеты</text>
+<!-- Layout 1: title only -->
+<rect x="408" y="250" width="24" height="16" rx="2" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+<rect x="410" y="253" width="20" height="4" rx="1" fill="#1565C0"/>
+<!-- Layout 2: image+text -->
+<rect x="436" y="250" width="24" height="16" rx="2" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+<rect x="438" y="253" width="8" height="10" rx="1" fill="#66BB6A"/>
+<rect x="448" y="253" width="10" height="2" rx="1" fill="#2E7D32"/>
+<rect x="448" y="257" width="8" height="2" rx="1" fill="#2E7D32"/>
+<!-- Layout 3: full image -->
+<rect x="464" y="250" width="24" height="16" rx="2" fill="#FFF3E0" stroke="#E65100" stroke-width="0.8"/>
+<rect x="466" y="252" width="20" height="12" rx="1" fill="#FFCC80"/>
+<!-- Layout 4: blank -->
+<rect x="408" y="272" width="24" height="16" rx="2" fill="#F5F5F5" stroke="#999" stroke-width="0.8"/>
+<!-- Layout 5: two column -->
+<rect x="436" y="272" width="24" height="16" rx="2" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="0.8"/>
+<rect x="438" y="274" width="9" height="12" rx="1" fill="#CE93D8"/>
+<rect x="449" y="274" width="9" height="12" rx="1" fill="#CE93D8"/>
+<!-- Layout 6: comparison -->
+<rect x="464" y="272" width="24" height="16" rx="2" fill="#FFEBEE" stroke="#C62828" stroke-width="0.8"/>
+<rect x="466" y="274" width="9" height="12" rx="1" fill="#EF9A9A"/>
+<rect x="477" y="274" width="9" height="12" rx="1" fill="#EF9A9A"/>
+<rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/><text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Дизайн презентаций</text></svg>

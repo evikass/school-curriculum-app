@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="500" height="85" fill="#F5E6C8" opacity="0.9"/>
+  <line x1="0" y1="85" x2="500" y2="85" stroke="#C41E3A" stroke-width="3"/>
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Первые князья</text>
+  <text x="250" y="70" font-family="Arial, sans-serif" font-size="12" fill="#1a1a1a" text-anchor="middle">Рюрик, Олег и путь из варяг в греки</text>
+
+  <!-- Bottom panel -->
+  <rect x="0" y="315" width="500" height="35" fill="#C41E3A" opacity="0.85"/>
+  <text x="250" y="337" font-family="Arial, sans-serif" font-size="15" fill="#F5E6C8" text-anchor="middle" font-weight="bold">История России - 4 класс</text>
+
+  <!-- Background -->
+  <rect x="0" y="85" width="500" height="230" fill="#F5E6C8"/>
+
+  <!-- Geometric Bauhaus frame elements -->
+  <rect x="15" y="95" width="470" height="210" fill="none" stroke="#D4A843" stroke-width="1" opacity="0.4"/>
+
+  <!-- Shield emblem (center top) -->
+  <ellipse cx="250" cy="145" rx="45" ry="55" fill="#C41E3A" opacity="0.15"/>
+  <path d="M225,115 L250,105 L275,115 L275,155 Q250,180 225,155 Z" fill="#C41E3A" opacity="0.85" stroke="#D4A843" stroke-width="2"/>
+  <!-- Cross on shield -->
+  <rect x="244" y="118" width="12" height="42" fill="#D4A843"/>
+  <rect x="232" y="130" width="36" height="12" fill="#D4A843"/>
+  <!-- Shield ring -->
+  <circle cx="250" cy="135" r="8" fill="none" stroke="#F5E6C8" stroke-width="2"/>
+
+  <!-- Prince figure (left) - stylized -->
+  <!-- Head -->
+  <circle cx="100" cy="125" r="18" fill="#DCC9A3" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- Crown/helmet -->
+  <path d="M82,120 L100,100 L118,120" fill="#D4A843" stroke="#1a1a1a" stroke-width="1"/>
+  <circle cx="100" cy="100" r="4" fill="#C41E3A"/>
+  <!-- Body -->
+  <rect x="85" y="143" width="30" height="50" fill="#2B4C7E" rx="3"/>
+  <!-- Cloak -->
+  <path d="M80,145 L85,143 L85,193 L75,200" fill="#C41E3A" opacity="0.8"/>
+  <path d="M120,145 L115,143 L115,193 L125,200" fill="#C41E3A" opacity="0.8"/>
+  <!-- Sword -->
+  <line x1="130" y1="145" x2="130" y2="200" stroke="#1a1a1a" stroke-width="3"/>
+  <rect x="124" y="142" width="12" height="4" fill="#D4A843"/>
+
+  <!-- Ship/Viking boat (center bottom) -->
+  <path d="M130,250 L160,275 L340,275 L370,250" fill="#8B6914" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- Mast -->
+  <line x1="250" y1="250" x2="250" y2="200" stroke="#1a1a1a" stroke-width="3"/>
+  <!-- Sail -->
+  <polygon points="252,205 305,220 252,240" fill="#C41E3A" opacity="0.8" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Dragon prow -->
+  <path d="M125,250 L110,240 L120,235 L130,245" fill="#1a1a1a" stroke="#D4A843" stroke-width="1"/>
+  <!-- Shield along boat side -->
+  <circle cx="180" cy="262" r="7" fill="#C41E3A" stroke="#D4A843" stroke-width="1"/>
+  <circle cx="200" cy="262" r="7" fill="#2B4C7E" stroke="#D4A843" stroke-width="1"/>
+  <circle cx="300" cy="262" r="7" fill="#C41E3A" stroke="#D4A843" stroke-width="1"/>
+  <circle cx="320" cy="262" r="7" fill="#2B4C7E" stroke="#D4A843" stroke-width="1"/>
+  <!-- Waves -->
+  <path d="M110,275 Q140,282 170,275 Q200,268 230,275 Q260,282 290,275 Q320,268 350,275 Q380,282 410,275" fill="none" stroke="#2B4C7E" stroke-width="2" opacity="0.5"/>
+
+  <!-- Trade route arrows -->
+  <path d="M60,200 Q80,190 100,195" fill="none" stroke="#D4A843" stroke-width="2" stroke-dasharray="4,3"/>
+  <polygon points="100,195 94,190 96,198" fill="#D4A843"/>
+  <path d="M400,200 Q380,190 360,195" fill="none" stroke="#D4A843" stroke-width="2" stroke-dasharray="4,3"/>
+  <polygon points="360,195 366,190 364,198" fill="#D4A843"/>
+
+  <!-- Map-like elements (right side) -->
+  <rect x="380" y="110" width="90" height="70" fill="#F5E6C8" stroke="#D4A843" stroke-width="1.5" rx="2"/>
+  <!-- Simplified route on map -->
+  <path d="M385,165 Q400,150 420,140 Q440,130 460,120" fill="none" stroke="#2B4C7E" stroke-width="2"/>
+  <circle cx="385" cy="165" r="4" fill="#C41E3A"/>
+  <circle cx="460" cy="120" r="4" fill="#C41E3A"/>
+  <text x="393" y="175" font-family="Arial, sans-serif" font-size="8" fill="#1a1a1a">Новгород</text>
+  <text x="445" y="118" font-family="Arial, sans-serif" font-size="8" fill="#1a1a1a">Царьград</text>
+  <!-- Water on map -->
+  <ellipse cx="425" cy="155" rx="15" ry="8" fill="#2B4C7E" opacity="0.2"/>
+
+  <!-- Year label -->
+  <rect x="180" y="288" width="140" height="22" fill="#C41E3A" opacity="0.2" rx="3"/>
+  <text x="250" y="303" font-family="Arial, sans-serif" font-size="12" fill="#C41E3A" text-anchor="middle" font-weight="bold">862 - Призвание варягов</text>
+
+</svg>

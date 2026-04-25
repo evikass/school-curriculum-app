@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg5def047d" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg5def047d)"/>
+  <rect width="500" height="350" fill="#FFF3E0" opacity="0.2"/>
+  
+  <!-- Title -->
+  <text x="250" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#E65100" text-anchor="middle">Аппликация</text>
+  <rect x="80" y="46" width="340" height="2.5" rx="1" fill="#E65100" opacity="0.4"/>
+  
+  <!-- Scene -->
+  <rect x="180" y="140" width="140" height="180" rx="3" fill="#FFF" stroke="#BDBDBD" stroke-width="1"/>
+<line x1="250" y1="140" x2="250" y2="320" stroke="#E0E0E0" stroke-width="1" stroke-dasharray="4,3"/>
+<polygon points="220,180 250,150 280,180 250,210" fill="#FF8F00" opacity="0.4" stroke="#FF8F00" stroke-width="1.5"/>
+<circle cx="250" cy="250" r="25" fill="#4CAF50" opacity="0.3" stroke="#4CAF50" stroke-width="1.5"/>
+<rect x="220" y="280" width="60" height="30" fill="#2196F3" opacity="0.3" stroke="#2196F3" stroke-width="1.5"/>
+  
+  <!-- Caption -->
+  <text x="250" y="335" font-family="Arial, sans-serif" font-size="14" fill="#BF360C" text-anchor="middle" font-style="italic">Работа с бумагой</text>
+  
+  <ellipse cx="250" cy="310" rx="220" ry="15" fill="#E65100" opacity="0.06"/>
+</svg>

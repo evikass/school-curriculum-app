@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <text x="250" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Натюрморт</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#D4A843">Искусство изображения предметов</text>
+  <line x1="50" y1="82" x2="450" y2="82" stroke="#D4A843" stroke-width="0.5"/>
+  
+  <!-- table -->
+  <rect x="100" y="220" width="300" height="8" rx="2" fill="#D4A843" opacity="0.5"/>
+  <!-- tablecloth pattern -->
+  <line x1="100" y1="228" x2="100" y2="250" stroke="#C41E3A" stroke-width="1" opacity="0.3"/>
+  <line x1="200" y1="228" x2="200" y2="250" stroke="#C41E3A" stroke-width="1" opacity="0.3"/>
+  <line x1="300" y1="228" x2="300" y2="250" stroke="#C41E3A" stroke-width="1" opacity="0.3"/>
+  <line x1="400" y1="228" x2="400" y2="250" stroke="#C41E3A" stroke-width="1" opacity="0.3"/>
+  <!-- vase -->
+  <path d="M230,220 L225,180 Q225,165 240,160 L260,160 Q275,165 275,180 L270,220 Z" fill="#2B4C7E" opacity="0.6" stroke="#1a1a1a" stroke-width="1.5"/>
+  <ellipse cx="250" cy="160" rx="18" ry="5" fill="#2B4C7E" opacity="0.7" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- flowers -->
+  <!-- stem 1 -->
+  <line x1="240" y1="160" x2="225" y2="110" stroke="#2E7D32" stroke-width="2"/>
+  <circle cx="225" cy="108" r="10" fill="#C41E3A"/>
+  <circle cx="225" cy="108" r="4" fill="#D4A843"/>
+  <!-- stem 2 -->
+  <line x1="250" y1="160" x2="255" y2="100" stroke="#2E7D32" stroke-width="2"/>
+  <circle cx="255" cy="98" r="10" fill="#D4A843"/>
+  <circle cx="255" cy="98" r="4" fill="#C41E3A"/>
+  <!-- stem 3 -->
+  <line x1="260" y1="160" x2="280" y2="115" stroke="#2E7D32" stroke-width="2"/>
+  <circle cx="280" cy="113" r="8" fill="#C41E3A" opacity="0.7"/>
+  <circle cx="280" cy="113" r="3" fill="#D4A843"/>
+  <!-- leaves -->
+  <ellipse cx="233" cy="135" rx="8" ry="4" fill="#2E7D32" opacity="0.5" transform="rotate(-30,233,135)"/>
+  <ellipse cx="265" cy="130" rx="8" ry="4" fill="#2E7D32" opacity="0.5" transform="rotate(25,265,130)"/>
+  <!-- apples -->
+  <circle cx="160" cy="208" r="14" fill="#C41E3A" opacity="0.7"/>
+  <line x1="160" y1="194" x2="158" y2="188" stroke="#2E7D32" stroke-width="1.5"/>
+  <circle cx="340" cy="210" r="12" fill="#D4A843" opacity="0.6"/>
+  <line x1="340" y1="198" x2="338" y2="192" stroke="#2E7D32" stroke-width="1.5"/>
+  <rect y="310" width="500" height="40" fill="#1a1a1a"/>
+  <rect y="308" width="500" height="2" fill="#C41E3A"/>
+  <text x="250" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#D4A843">Изобразительное искусство</text>
+</svg>

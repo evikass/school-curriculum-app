@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Царства природы</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 3</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Quadrant 1: Bacteria -->
+  <rect x="20" y="90" width="222" height="100" rx="6" fill="white" stroke="#7B1FA2" stroke-width="1.5" opacity="0.9"/>
+  <text x="131" y="106" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" font-weight="bold" text-anchor="middle">БАКТЕРИИ</text>
+  <!-- Rod bacteria (bacilli) -->
+  <ellipse cx="60" cy="140" rx="10" ry="4" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+  <ellipse cx="75" cy="138" rx="10" ry="4" fill="#BA68C8" stroke="#7B1FA2" stroke-width="1"/>
+  <ellipse cx="90" cy="140" rx="10" ry="4" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+  <!-- Cocci (round bacteria) -->
+  <circle cx="60" cy="160" r="5" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="0.8"/>
+  <circle cx="72" cy="160" r="5" fill="#CE93D8" stroke="#7B1FA2" stroke-width="0.8"/>
+  <circle cx="84" cy="160" r="5" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="0.8"/>
+  <circle cx="96" cy="160" r="5" fill="#CE93D8" stroke="#7B1FA2" stroke-width="0.8"/>
+  <!-- Spiral bacteria -->
+  <path d="M115,130 Q120,140 115,150 Q110,160 115,170" stroke="#7B1FA2" stroke-width="1.5" fill="none"/>
+  <!-- Flagellum -->
+  <path d="M90,137 Q95,130 100,135 Q105,140 108,133" stroke="#7B1FA2" stroke-width="0.8" fill="none"/>
+  <!-- Label -->
+  <text x="160" y="135" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2">одноклеточные</text>
+  <text x="160" y="148" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2">прокариоты</text>
+  <text x="160" y="161" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2">нет ядра</text>
+  <!-- Magnifying glass icon -->
+  <circle cx="175" cy="178" r="10" fill="none" stroke="#7B1FA2" stroke-width="1.5" opacity="0.4"/>
+  <line x1="182" y1="185" x2="192" y2="195" stroke="#7B1FA2" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Quadrant 2: Fungi -->
+  <rect x="258" y="90" width="222" height="100" rx="6" fill="white" stroke="#795548" stroke-width="1.5" opacity="0.9"/>
+  <text x="369" y="106" font-family="Arial,sans-serif" font-size="9" fill="#795548" font-weight="bold" text-anchor="middle">ГРИБЫ</text>
+  <!-- Mushroom -->
+  <!-- Mycelium (underground network) -->
+  <path d="M310,180 Q320,175 330,180 Q340,185 350,178 Q360,172 370,178" stroke="#BCAAA4" stroke-width="1.2" fill="none"/>
+  <path d="M320,185 Q330,190 340,185 Q350,180 360,186" stroke="#D7CCC8" stroke-width="1" fill="none"/>
+  <!-- Stem -->
+  <rect x="345" y="145" width="12" height="35" rx="3" fill="#EFEBE9" stroke="#795548" stroke-width="1.2"/>
+  <!-- Cap -->
+  <path d="M325,148 Q335,118 351,115 Q367,118 377,148 Z" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Spots on cap -->
+  <circle cx="340" cy="130" r="3" fill="#EFEBE9" opacity="0.6"/>
+  <circle cx="355" cy="125" r="2.5" fill="#EFEBE9" opacity="0.6"/>
+  <circle cx="363" cy="135" r="2" fill="#EFEBE9" opacity="0.6"/>
+  <!-- Gills under cap -->
+  <line x1="330" y1="148" x2="330" y2="142" stroke="#5D4037" stroke-width="0.5"/>
+  <line x1="335" y1="148" x2="335" y2="140" stroke="#5D4037" stroke-width="0.5"/>
+  <line x1="340" y1="148" x2="340" y2="138" stroke="#5D4037" stroke-width="0.5"/>
+  <line x1="345" y1="148" x2="345" y2="137" stroke="#5D4037" stroke-width="0.5"/>
+  <line x1="350" y1="148" x2="350" y2="138" stroke="#5D4037" stroke-width="0.5"/>
+  <line x1="355" y1="148" x2="355" y2="140" stroke="#5D4037" stroke-width="0.5"/>
+  <line x1="360" y1="148" x2="360" y2="142" stroke="#5D4037" stroke-width="0.5"/>
+  <line x1="365" y1="148" x2="365" y2="144" stroke="#5D4037" stroke-width="0.5"/>
+  <!-- Label -->
+  <text x="400" y="135" font-family="Arial,sans-serif" font-size="7" fill="#795548">гетеротрофы</text>
+  <text x="400" y="148" font-family="Arial,sans-serif" font-size="7" fill="#795548">грибы, плесень</text>
+  <text x="400" y="161" font-family="Arial,sans-serif" font-size="7" fill="#795548">дрожжи, слизевики</text>
+  <!-- Small yeast cells -->
+  <circle cx="405" cy="175" r="4" fill="#D7CCC8" stroke="#795548" stroke-width="0.7"/>
+  <circle cx="414" cy="178" r="3" fill="#BCAAA4" stroke="#795548" stroke-width="0.7"/>
+  <circle cx="418" cy="170" r="3.5" fill="#D7CCC8" stroke="#795548" stroke-width="0.7"/>
+
+  <!-- Quadrant 3: Plants -->
+  <rect x="20" y="198" width="222" height="100" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="131" y="214" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" font-weight="bold" text-anchor="middle">РАСТЕНИЯ</text>
+  <!-- Tree -->
+  <rect x="55" y="250" width="8" height="30" fill="#795548"/>
+  <!-- Crown -->
+  <circle cx="59" cy="238" r="18" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.2"/>
+  <circle cx="48" cy="248" r="12" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+  <circle cx="70" cy="248" r="12" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+  <circle cx="59" cy="228" r="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <!-- Roots -->
+  <path d="M55,280 Q48,288 42,292" stroke="#795548" stroke-width="1.5" fill="none"/>
+  <path d="M63,280 Q70,288 76,292" stroke="#795548" stroke-width="1.5" fill="none"/>
+  <!-- Fern leaf -->
+  <line x1="105" y1="280" x2="105" y2="225" stroke="#2E7D32" stroke-width="1.5"/>
+  <path d="M105,240 L92,235" stroke="#43A047" stroke-width="1" stroke-linecap="round"/>
+  <path d="M105,240 L118,235" stroke="#43A047" stroke-width="1" stroke-linecap="round"/>
+  <path d="M105,248 L90,245" stroke="#43A047" stroke-width="1" stroke-linecap="round"/>
+  <path d="M105,248 L120,245" stroke="#43A047" stroke-width="1" stroke-linecap="round"/>
+  <path d="M105,256 L88,254" stroke="#43A047" stroke-width="1" stroke-linecap="round"/>
+  <path d="M105,256 L122,254" stroke="#43A047" stroke-width="1" stroke-linecap="round"/>
+  <path d="M105,232 L96,228" stroke="#43A047" stroke-width="1" stroke-linecap="round"/>
+  <path d="M105,232 L114,228" stroke="#43A047" stroke-width="1" stroke-linecap="round"/>
+  <!-- Flower -->
+  <line x1="155" y1="280" x2="155" y2="245" stroke="#2E7D32" stroke-width="1.5"/>
+  <ellipse cx="148" cy="260" rx="7" ry="4" fill="#81C784" stroke="#2E7D32" stroke-width="0.7"/>
+  <ellipse cx="162" cy="258" rx="7" ry="4" fill="#81C784" stroke="#2E7D32" stroke-width="0.7"/>
+  <circle cx="155" cy="240" r="4" fill="#F9A825"/>
+  <ellipse cx="149" cy="237" rx="3" ry="4" fill="#E53935"/>
+  <ellipse cx="161" cy="237" rx="3" ry="4" fill="#E53935"/>
+  <ellipse cx="152" cy="233" rx="3" ry="4" fill="#EF5350"/>
+  <ellipse cx="158" cy="233" rx="3" ry="4" fill="#EF5350"/>
+  <circle cx="155" cy="237" r="3" fill="#FFEE58"/>
+  <!-- Labels -->
+  <text x="200" y="240" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">автотрофы</text>
+  <text x="200" y="253" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">фотосинтез</text>
+  <text x="200" y="266" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">деревья, травы</text>
+  <text x="200" y="279" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">мхи, водоросли</text>
+
+  <!-- Quadrant 4: Animals -->
+  <rect x="258" y="198" width="222" height="100" rx="6" fill="white" stroke="#E65100" stroke-width="1.5" opacity="0.9"/>
+  <text x="369" y="214" font-family="Arial,sans-serif" font-size="9" fill="#E65100" font-weight="bold" text-anchor="middle">ЖИВОТНЫЕ</text>
+  <!-- Butterfly -->
+  <!-- Body -->
+  <rect x="303" y="242" width="4" height="18" rx="2" fill="#5D4037"/>
+  <!-- Antennae -->
+  <path d="M305,242 Q310,232 315,228" stroke="#5D4037" stroke-width="0.8" fill="none"/>
+  <path d="M305,242 Q300,232 295,228" stroke="#5D4037" stroke-width="0.8" fill="none"/>
+  <circle cx="315" cy="227" r="1.5" fill="#5D4037"/>
+  <circle cx="295" cy="227" r="1.5" fill="#5D4037"/>
+  <!-- Wings -->
+  <ellipse cx="290" cy="248" rx="15" ry="10" fill="#FF8A65" stroke="#E65100" stroke-width="0.8" opacity="0.8"/>
+  <ellipse cx="320" cy="248" rx="15" ry="10" fill="#FF8A65" stroke="#E65100" stroke-width="0.8" opacity="0.8"/>
+  <ellipse cx="288" cy="256" rx="10" ry="7" fill="#FFAB91" stroke="#E65100" stroke-width="0.7"/>
+  <ellipse cx="322" cy="256" rx="10" ry="7" fill="#FFAB91" stroke="#E65100" stroke-width="0.7"/>
+  <!-- Wing dots -->
+  <circle cx="287" cy="247" r="3" fill="#FFF3E0" opacity="0.6"/>
+  <circle cx="323" cy="247" r="3" fill="#FFF3E0" opacity="0.6"/>
+  <!-- Fish -->
+  <ellipse cx="385" cy="258" rx="20" ry="10" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+  <!-- Tail -->
+  <polygon points="405,258 418,248 418,268" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+  <!-- Eye -->
+  <circle cx="372" cy="256" r="3" fill="white"/>
+  <circle cx="372" cy="256" r="1.5" fill="#0D47A1"/>
+  <!-- Fin -->
+  <path d="M385,248 Q390,240 395,248" fill="#64B5F6" stroke="#1565C0" stroke-width="0.5"/>
+  <!-- Scales pattern -->
+  <path d="M378,260 Q385,258 392,260" stroke="#64B5F6" stroke-width="0.5" fill="none"/>
+  <path d="M375,265 Q385,263 395,265" stroke="#64B5F6" stroke-width="0.5" fill="none"/>
+  <!-- Label -->
+  <text x="350" y="290" font-family="Arial,sans-serif" font-size="7" fill="#E65100">гетеротрофы</text>
+  <text x="350" y="300" font-family="Arial,sans-serif" font-size="7" fill="#E65100">движение, нервы, органы чувств</text>
+  <!-- Water line under fish -->
+  <path d="M360,275 Q370,272 380,275 Q390,278 400,275" stroke="#1565C0" stroke-width="0.6" fill="none" opacity="0.5"/>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Царства природы</text>
+</svg>

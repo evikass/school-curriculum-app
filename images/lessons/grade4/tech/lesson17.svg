@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <!-- Thin gold line under accent -->
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Новогодняя игрушка</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Проекты</text>
+  <!-- Illustration area -->
+  <circle cx="250" cy="190" r="50" fill="#fff" stroke="#ddd" stroke-width="2"/><circle cx="250" cy="190" r="35" fill="#C41E3A" stroke="#8B0000" stroke-width="2"/><circle cx="250" cy="190" r="20" fill="#fff" opacity="0.3"/><line x1="250" y1="130" x2="250" y2="140" stroke="#888" stroke-width="2"/><circle cx="250" cy="128" r="5" fill="#D4A843" stroke="#8B6914" stroke-width="1"/><polygon points="220,155 230,135 210,135" fill="#00AA00" opacity="0.7"/><polygon points="280,170 290,150 270,150" fill="#00AA00" opacity="0.7"/><polygon points="240,220 250,200 230,200" fill="#00AA00" opacity="0.7"/><circle cx="210" cy="175" r="3" fill="#D4A843"/><circle cx="290" cy="200" r="3" fill="#D4A843"/><circle cx="230" cy="210" r="3" fill="#D4A843"/><circle cx="270" cy="165" r="3" fill="#D4A843"/><text x="250" y="270" text-anchor="middle" font-size="11" fill="#1a1a1a" font-weight="bold" font-family="Arial">Праздничные цвета!</text><text x="250" y="290" text-anchor="middle" font-size="10" fill="#C41E3A" font-family="Arial">Добавь петельку</text>
+  <!-- Bottom dark bar -->
+  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
+  <!-- Gold line above bottom bar -->
+  <rect y="313" width="500" height="2" fill="#D4A843"/>
+  <!-- Subject name -->
+  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Технология</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Инструменты для обработки древесины</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Технология - Урок 2</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Tool Card 1: Saw -->
+  <rect x="25" y="90" width="105" height="95" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.2"/>
+  <text x="77" y="107" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#5D4037" text-anchor="middle">Ножовка</text>
+  <!-- Saw blade -->
+  <rect x="42" y="120" width="70" height="5" rx="1" fill="#78909C"/>
+  <!-- Saw teeth -->
+  <polygon points="42,125 45,130 48,125 51,130 54,125 57,130 60,125 63,130 66,125 69,130 72,125 75,130 78,125 81,130 84,125 87,130 90,125 93,130 96,125 99,130 102,125 105,130 108,125 112,125" fill="#78909C"/>
+  <!-- Saw handle -->
+  <path d="M42,117 Q42,110 50,110 L50,120 Q45,120 42,117Z" fill="#A1887F"/>
+  <text x="77" y="155" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Распил</text>
+  <text x="77" y="165" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">древесины</text>
+
+  <!-- Tool Card 2: Hammer -->
+  <rect x="140" y="90" width="105" height="95" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.2"/>
+  <text x="192" y="107" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#5D4037" text-anchor="middle">Молоток</text>
+  <!-- Hammer handle -->
+  <rect x="188" y="125" width="8" height="45" rx="2" fill="#A1887F"/>
+  <!-- Hammer head -->
+  <rect x="172" y="115" width="40" height="16" rx="3" fill="#78909C"/>
+  <rect x="172" y="115" width="8" height="16" rx="2" fill="#607D8B"/>
+  <text x="192" y="185" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Забивание</text>
+  <text x="192" y="195" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">гвоздей</text>
+
+  <!-- Tool Card 3: Chisel -->
+  <rect x="255" y="90" width="105" height="95" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.2"/>
+  <text x="307" y="107" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#5D4037" text-anchor="middle">Стамеска</text>
+  <!-- Chisel handle -->
+  <rect x="303" y="115" width="8" height="30" rx="2" fill="#A1887F"/>
+  <rect x="301" y="113" width="12" height="6" rx="2" fill="#8D6E63"/>
+  <!-- Chisel blade -->
+  <polygon points="303,145 311,145 307,175" fill="#90A4AE"/>
+  <text x="307" y="195" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Вырезание</text>
+  <text x="307" y="205" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">пазов</text>
+
+  <!-- Tool Card 4: Plane -->
+  <rect x="370" y="90" width="105" height="95" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.2"/>
+  <text x="422" y="107" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#5D4037" text-anchor="middle">Рубанок</text>
+  <!-- Plane body -->
+  <rect x="390" y="130" width="65" height="18" rx="3" fill="#A1887F"/>
+  <rect x="390" y="130" width="20" height="18" rx="3" fill="#8D6E63"/>
+  <!-- Plane blade -->
+  <rect x="408" y="138" width="3" height="22" fill="#90A4AE"/>
+  <!-- Plane handle -->
+  <path d="M455,125 Q460,120 462,128 L462,148 Q460,155 455,148Z" fill="#8D6E63"/>
+  <text x="422" y="170" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Строгание</text>
+  <text x="422" y="180" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">поверхности</text>
+
+  <!-- Workbench -->
+  <rect x="25" y="195" width="450" height="100" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.2"/>
+  <text x="250" y="214" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#5D4037" text-anchor="middle">Верстак - рабочее место столяра</text>
+
+  <!-- Bench top -->
+  <rect x="60" y="228" width="380" height="14" rx="2" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1"/>
+  <!-- Bench legs -->
+  <rect x="80" y="242" width="12" height="40" rx="1" fill="#BCAAA4" stroke="#8D6E63" stroke-width="0.8"/>
+  <rect x="408" y="242" width="12" height="40" rx="1" fill="#BCAAA4" stroke="#8D6E63" stroke-width="0.8"/>
+  <rect x="80" y="258" width="340" height="6" rx="1" fill="#BCAAA4" stroke="#8D6E63" stroke-width="0.5"/>
+
+  <!-- Vise on bench -->
+  <rect x="55" y="222" width="18" height="20" rx="2" fill="#78909C" stroke="#546E7A" stroke-width="0.8"/>
+  <rect x="40" y="226" width="20" height="12" rx="1" fill="#78909C" stroke="#546E7A" stroke-width="0.8"/>
+  <rect x="43" y="229" width="6" height="6" rx="1" fill="#546E7A"/>
+
+  <!-- Wood piece on bench -->
+  <rect x="200" y="218" width="80" height="12" rx="1" fill="#FFECB3" stroke="#FFB74D" stroke-width="0.8"/>
+
+  <!-- Safety note -->
+  <rect x="320" y="240" width="140" height="38" rx="4" fill="#FFEBEE" stroke="#C62828" stroke-width="0.8"/>
+  <text x="390" y="256" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#C62828" text-anchor="middle">Техника безопасности!</text>
+  <text x="390" y="270" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Защитные очки, зажимы</text>
+
+  <!-- Drill on bench -->
+  <rect x="130" y="216" width="8" height="12" rx="1" fill="#78909C"/>
+  <rect x="128" y="210" width="12" height="8" rx="2" fill="#546E7A"/>
+  <polygon points="130,222 138,222 134,232" fill="#90A4AE" opacity="0.7"/>
+
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Инструменты для обработки древесины</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Умножение и деление отрицательных чисел</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Математика - Урок 12</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Card 1: Sign rules table -->
+  <rect x="20" y="88" width="250" height="130" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="145" y="104" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">Таблица знаков</text>
+  <line x1="28" y1="108" x2="262" y2="108" stroke="#E0E0E0" stroke-width="1"/>
+  <!-- Table header -->
+  <rect x="35" y="112" width="220" height="18" rx="3" fill="#1565C0" opacity="0.08"/>
+  <text x="95" y="125" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">x</text>
+  <text x="145" y="125" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">(+)</text>
+  <text x="210" y="125" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">(-)</text>
+  <!-- Row 1: positive x -->
+  <text x="95" y="145" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">(+)</text>
+  <rect x="118" y="135" width="55" height="16" rx="3" fill="#2E7D32" opacity="0.12"/>
+  <text x="145" y="148" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle" font-weight="bold">+  (+)</text>
+  <rect x="180" y="135" width="55" height="16" rx="3" fill="#C62828" opacity="0.12"/>
+  <text x="210" y="148" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="middle" font-weight="bold">-  (-)</text>
+  <!-- Row 2: negative x -->
+  <text x="95" y="168" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">(-)</text>
+  <rect x="118" y="158" width="55" height="16" rx="3" fill="#C62828" opacity="0.12"/>
+  <text x="145" y="171" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="middle" font-weight="bold">-  (+)</text>
+  <rect x="180" y="158" width="55" height="16" rx="3" fill="#2E7D32" opacity="0.12"/>
+  <text x="210" y="171" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle" font-weight="bold">+  (-)</text>
+  <!-- Grid lines -->
+  <line x1="110" y1="112" x2="110" y2="175" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="178" y1="112" x2="178" y2="175" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="35" y1="132" x2="255" y2="132" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="35" y1="155" x2="255" y2="155" stroke="#E0E0E0" stroke-width="0.5"/>
+  <!-- Memory rule -->
+  <rect x="35" y="182" width="220" height="30" rx="4" fill="#F9A825" opacity="0.08"/>
+  <text x="145" y="195" font-family="Arial,sans-serif" font-size="9" fill="#F9A825" text-anchor="middle" font-weight="bold">Одноимен. = +   Разноимен. = -</text>
+  <text x="145" y="207" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Два минуса дают плюс!</text>
+
+  <!-- Card 2: Examples with visual -->
+  <rect x="278" y="88" width="203" height="130" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
+  <text x="380" y="104" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">Примеры</text>
+  <line x1="286" y1="108" x2="473" y2="108" stroke="#E0E0E0" stroke-width="1"/>
+  <!-- Example 1: positive result -->
+  <rect x="288" y="114" width="185" height="18" rx="3" fill="#2E7D32" opacity="0.06"/>
+  <text x="380" y="127" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">(-3) x (-4) = <tspan fill="#2E7D32" font-weight="bold">+12</tspan></text>
+  <!-- Example 2: negative result -->
+  <rect x="288" y="136" width="185" height="18" rx="3" fill="#C62828" opacity="0.06"/>
+  <text x="380" y="149" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">(-3) x (+4) = <tspan fill="#C62828" font-weight="bold">-12</tspan></text>
+  <!-- Example 3: positive result -->
+  <rect x="288" y="158" width="185" height="18" rx="3" fill="#2E7D32" opacity="0.06"/>
+  <text x="380" y="171" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">(+3) x (+4) = <tspan fill="#2E7D32" font-weight="bold">+12</tspan></text>
+  <!-- Example 4: division -->
+  <rect x="288" y="180" width="185" height="18" rx="3" fill="#1565C0" opacity="0.06"/>
+  <text x="380" y="193" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">(-12) : (-3) = <tspan fill="#2E7D32" font-weight="bold">+4</tspan></text>
+  <!-- Note -->
+  <rect x="288" y="202" width="185" height="12" rx="2" fill="#F9A825" opacity="0.06"/>
+  <text x="380" y="212" font-family="Arial,sans-serif" font-size="7" fill="#777" text-anchor="middle">Те же правила для деления!</text>
+
+  <!-- Card 3: Visual explanation with arrows -->
+  <rect x="20" y="224" width="460" height="76" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="250" y="242" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">Наглядное объяснение</text>
+  <line x1="28" y1="246" x2="472" y2="246" stroke="#E0E0E0" stroke-width="1"/>
+  <!-- Direction concept -->
+  <rect x="35" y="253" width="210" height="42" rx="4" fill="#2E7D32" opacity="0.04"/>
+  <text x="140" y="267" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Положительное x Положительное</text>
+  <text x="140" y="282" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Вперёд x Вперёд = Вперёд (+)</text>
+  <!-- Negative concept -->
+  <rect x="255" y="253" width="210" height="42" rx="4" fill="#C62828" opacity="0.04"/>
+  <text x="360" y="267" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">Отрицательное x Отрицательное</text>
+  <text x="360" y="282" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Назад x Назад = Вперёд (+)</text>
+  <!-- Arrows -->
+  <line x1="100" y1="290" x2="180" y2="290" stroke="#2E7D32" stroke-width="1.5"/>
+  <polygon points="180,290 173,286 173,294" fill="#2E7D32"/>
+  <text x="140" y="299" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">вперёд</text>
+  <line x1="330" y1="290" x2="250" y2="290" stroke="#C62828" stroke-width="1.5"/>
+  <polygon points="250,290 257,286 257,294" fill="#C62828"/>
+  <text x="290" y="299" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">назад</text>
+
+  <!-- Bottom panel -->
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Умножение и деление отрицательных чисел</text>
+</svg>

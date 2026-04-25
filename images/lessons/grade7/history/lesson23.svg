@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Смутное время</text>
+<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">История - Урок 23</text>
+<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <rect x="25" y="90" width="450" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
+  <text x="250" y="106" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle" font-weight="bold">Смутное время</text>
+  <!-- Timeline -->
+  <line x1="50" y1="150" x2="450" y2="150" stroke="#C62828" stroke-width="2"/>
+  <circle cx="80" cy="150" r="5" fill="#C62828"/>
+  <text x="80" y="140" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">1598</text>
+  <text x="80" y="170" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Борис</text>
+  <text x="80" y="180" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Годунов</text>
+  <circle cx="180" cy="150" r="5" fill="#FF9800"/>
+  <text x="180" y="140" font-family="Arial,sans-serif" font-size="7" fill="#FF9800" text-anchor="middle">1604</text>
+  <text x="180" y="170" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Лжедмитрий</text>
+  <text x="180" y="180" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">I</text>
+  <circle cx="280" cy="150" r="5" fill="#E65100"/>
+  <text x="280" y="140" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">1610</text>
+  <text x="280" y="170" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Польская</text>
+  <text x="280" y="180" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">интервенция</text>
+  <circle cx="380" cy="150" r="5" fill="#2E7D32"/>
+  <text x="380" y="140" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">1613</text>
+  <text x="380" y="170" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Михаил</text>
+  <text x="380" y="180" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Романов</text>
+  <!-- Minin and Pozharsky -->
+  <rect x="100" y="200" width="300" height="75" rx="4" fill="#FFF3E0" opacity="0.5"/>
+  <circle cx="180" cy="240" r="14" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+  <rect x="168" y="254" width="24" height="20" rx="3" fill="#1565C0"/>
+  <circle cx="320" cy="240" r="14" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+  <rect x="308" y="254" width="24" height="20" rx="3" fill="#1565C0"/>
+  <line x1="200" y1="240" x2="300" y2="240" stroke="#C62828" stroke-width="1.5"/>
+  <text x="250" y="238" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">ополчение</text>
+  <text x="180" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Минин</text>
+  <text x="320" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Пожарский</text>
+<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">История</text>
+</svg>

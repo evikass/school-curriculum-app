@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Инструменты для обработки металла</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Технология - Урок 5</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Tool Card 1: Vise -->
+  <rect x="25" y="88" width="105" height="95" rx="6" fill="white" stroke="#546E7A" stroke-width="1.2"/>
+  <text x="77" y="104" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#37474F" text-anchor="middle">Тиски</text>
+  <!-- Vise body -->
+  <rect x="50" y="118" width="55" height="40" rx="3" fill="#78909C" stroke="#546E7A" stroke-width="1"/>
+  <!-- Vise jaws -->
+  <rect x="42" y="115" width="12" height="30" rx="1" fill="#607D8B" stroke="#455A64" stroke-width="0.8"/>
+  <rect x="101" y="115" width="12" height="30" rx="1" fill="#607D8B" stroke="#455A64" stroke-width="0.8"/>
+  <!-- Vise screw -->
+  <rect x="68" y="155" width="20" height="5" rx="2" fill="#455A64"/>
+  <circle cx="78" cy="162" r="6" fill="none" stroke="#455A64" stroke-width="1.5"/>
+  <line x1="73" y1="162" x2="83" y2="162" stroke="#455A64" stroke-width="1"/>
+  <text x="77" y="178" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Зажим детали</text>
+
+  <!-- Tool Card 2: File -->
+  <rect x="140" y="88" width="105" height="95" rx="6" fill="white" stroke="#546E7A" stroke-width="1.2"/>
+  <text x="192" y="104" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#37474F" text-anchor="middle">Напильник</text>
+  <!-- File handle -->
+  <rect x="155" y="118" width="22" height="12" rx="4" fill="#A1887F" stroke="#8D6E63" stroke-width="0.8"/>
+  <!-- File blade -->
+  <rect x="165" y="126" width="55" height="8" rx="1" fill="#78909C" stroke="#546E7A" stroke-width="0.8"/>
+  <!-- File teeth (cross-hatch pattern) -->
+  <line x1="170" y1="126" x2="173" y2="134" stroke="#546E7A" stroke-width="0.5"/>
+  <line x1="176" y1="126" x2="179" y2="134" stroke="#546E7A" stroke-width="0.5"/>
+  <line x1="182" y1="126" x2="185" y2="134" stroke="#546E7A" stroke-width="0.5"/>
+  <line x1="188" y1="126" x2="191" y2="134" stroke="#546E7A" stroke-width="0.5"/>
+  <line x1="194" y1="126" x2="197" y2="134" stroke="#546E7A" stroke-width="0.5"/>
+  <line x1="200" y1="126" x2="203" y2="134" stroke="#546E7A" stroke-width="0.5"/>
+  <line x1="206" y1="126" x2="209" y2="134" stroke="#546E7A" stroke-width="0.5"/>
+  <line x1="212" y1="126" x2="215" y2="134" stroke="#546E7A" stroke-width="0.5"/>
+  <!-- File tip -->
+  <polygon points="220,126 228,130 220,134" fill="#78909C" stroke="#546E7A" stroke-width="0.5"/>
+  <text x="192" y="152" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Обработка</text>
+  <text x="192" y="162" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">поверхности</text>
+  <text x="192" y="172" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">и опиливание</text>
+
+  <!-- Tool Card 3: Hacksaw -->
+  <rect x="255" y="88" width="105" height="95" rx="6" fill="white" stroke="#546E7A" stroke-width="1.2"/>
+  <text x="307" y="104" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#37474F" text-anchor="middle">Ножовка</text>
+  <!-- Hacksaw frame -->
+  <path d="M270,125 L270,155 L345,155 L345,125" fill="none" stroke="#455A64" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Hacksaw blade -->
+  <line x1="270" y1="140" x2="345" y2="140" stroke="#78909C" stroke-width="1.5"/>
+  <!-- Blade teeth -->
+  <line x1="275" y1="140" x2="277" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <line x1="280" y1="140" x2="282" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <line x1="285" y1="140" x2="287" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <line x1="290" y1="140" x2="292" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <line x1="295" y1="140" x2="297" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <line x1="300" y1="140" x2="302" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <line x1="305" y1="140" x2="307" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <line x1="310" y1="140" x2="312" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <line x1="315" y1="140" x2="317" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <line x1="320" y1="140" x2="322" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <line x1="325" y1="140" x2="327" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <line x1="330" y1="140" x2="332" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <line x1="335" y1="140" x2="337" y2="137" stroke="#607D8B" stroke-width="0.5"/>
+  <!-- Wing nut -->
+  <rect x="267" y="150" width="8" height="8" rx="1" fill="#607D8B"/>
+  <!-- Handle -->
+  <rect x="340" y="132" width="12" height="16" rx="3" fill="#A1887F" stroke="#8D6E63" stroke-width="0.8"/>
+  <text x="307" y="178" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Резка металла</text>
+
+  <!-- Tool Card 4: Hammer -->
+  <rect x="370" y="88" width="105" height="95" rx="6" fill="white" stroke="#546E7A" stroke-width="1.2"/>
+  <text x="422" y="104" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#37474F" text-anchor="middle">Молоток</text>
+  <!-- Hammer handle -->
+  <rect x="418" y="122" width="8" height="45" rx="2" fill="#A1887F"/>
+  <!-- Hammer head (ball-peen) -->
+  <rect x="404" y="112" width="36" height="16" rx="3" fill="#607D8B" stroke="#455A64" stroke-width="1"/>
+  <!-- Ball end -->
+  <circle cx="438" cy="120" r="6" fill="#607D8B" stroke="#455A64" stroke-width="0.8"/>
+  <text x="422" y="178" font-family="Arial,sans-serif" font-size="8" fill="#777" text-anchor="middle">Клёпка и правка</text>
+
+  <!-- Safety Panel -->
+  <rect x="25" y="193" width="450" height="105" rx="6" fill="white" stroke="#C62828" stroke-width="1.2"/>
+  <text x="250" y="212" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#C62828" text-anchor="middle">Техника безопасности при работе с металлом</text>
+  <line x1="40" y1="218" x2="460" y2="218" stroke="#C62828" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Safety goggles -->
+  <rect x="45" y="228" width="100" height="55" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+  <!-- Goggles drawing -->
+  <ellipse cx="80" cy="248" rx="14" ry="9" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+  <ellipse cx="112" cy="248" rx="14" ry="9" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+  <line x1="94" y1="248" x2="98" y2="248" stroke="#1565C0" stroke-width="1.5"/>
+  <line x1="66" y1="245" x2="50" y2="240" stroke="#1565C0" stroke-width="1"/>
+  <line x1="126" y1="245" x2="140" y2="240" stroke="#1565C0" stroke-width="1"/>
+  <text x="95" y="272" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Защитные очки</text>
+
+  <!-- Glove -->
+  <rect x="160" y="228" width="100" height="55" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+  <!-- Hand with glove -->
+  <rect x="185" y="238" width="28" height="22" rx="4" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="188" y="230" width="6" height="12" rx="2" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <rect x="196" y="228" width="6" height="14" rx="2" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <rect x="204" y="230" width="6" height="12" rx="2" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="210" y="272" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Перчатки</text>
+
+  <!-- Apron -->
+  <rect x="275" y="228" width="90" height="55" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="0.8"/>
+  <path d="M300,238 L300,268 L340,268 L340,238 Q320,232 300,238Z" fill="#FFCC80" stroke="#E65100" stroke-width="0.8"/>
+  <line x1="310" y1="238" x2="310" y2="268" stroke="#E65100" stroke-width="0.5" opacity="0.5"/>
+  <line x1="320" y1="236" x2="320" y2="268" stroke="#E65100" stroke-width="0.5" opacity="0.5"/>
+  <line x1="330" y1="238" x2="330" y2="268" stroke="#E65100" stroke-width="0.5" opacity="0.5"/>
+  <text x="320" y="272" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">Фартук</text>
+
+  <!-- Warning -->
+  <rect x="380" y="228" width="80" height="55" rx="4" fill="#FFEBEE" stroke="#C62828" stroke-width="0.8"/>
+  <polygon points="420,240 435,265 405,265" fill="none" stroke="#C62828" stroke-width="2" stroke-linejoin="round"/>
+  <text x="420" y="260" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#C62828" text-anchor="middle">!</text>
+  <text x="420" y="278" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Осторожно!</text>
+
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Инструменты для обработки металла</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:0.6"/><stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:0.3"/>
+  </linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="14"/>
+  <rect x="4" y="4" width="492" height="342" rx="12" fill="none" stroke="#4E342E" stroke-width="2.5" opacity="0.35"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#4E342E" text-anchor="middle">Черви</text>
+  <line x1="40" y1="62" x2="460" y2="62" stroke="#4E342E" stroke-width="2" opacity="0.3"/>
+  <rect x="40" y="74" width="100" height="5" rx="2.5" fill="#4E342E" opacity="0.2"/>
+  
+    <path d="M400,50 Q420,30 440,50 Q460,70 440,85 Q420,95 400,85 Q390,70 400,50" fill="none" stroke="#4E342E" stroke-width="2" opacity="0.15"/>
+    <circle cx="415" cy="55" r="4" fill="#4E342E" opacity="0.2"/>
+    <circle cx="430" cy="60" r="3" fill="#4E342E" opacity="0.15"/>
+  
+    <rect x="30" y="100" width="210" height="90" rx="12" fill="white" stroke="#4E342E" stroke-width="2.5" opacity="0.95"/>
+    <text x="135" y="142" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#4E342E" font-weight="bold">🪱</text>
+    <text x="135" y="172" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Плоские</text>
+    <text x="135" y="186" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">планария</text>
+    <rect x="260" y="100" width="210" height="90" rx="12" fill="white" stroke="#4E342E" stroke-width="2.5" opacity="0.95"/>
+    <text x="365" y="142" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#4E342E" font-weight="bold">🔴</text>
+    <text x="365" y="172" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Круглые</text>
+    <text x="365" y="186" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">аскарида</text>
+    <rect x="30" y="210" width="210" height="90" rx="12" fill="white" stroke="#4E342E" stroke-width="2.5" opacity="0.95"/>
+    <text x="135" y="252" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#4E342E" font-weight="bold">🪱</text>
+    <text x="135" y="282" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Кольчатые</text>
+    <text x="135" y="296" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">дождевой червь</text>
+    <rect x="260" y="210" width="210" height="90" rx="12" fill="white" stroke="#4E342E" stroke-width="2.5" opacity="0.95"/>
+    <text x="365" y="252" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#4E342E" font-weight="bold">💉</text>
+    <text x="365" y="282" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Пиявка</text>
+    <text x="365" y="296" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">медицина</text>
+  <rect x="30" y="315" width="440" height="26" rx="8" fill="#4E342E" opacity="0.08"/>
+  <text x="250" y="333" font-family="Arial,sans-serif" font-size="15" fill="#4E342E" text-anchor="middle" font-weight="bold">Дождевой червь — плуг природы</text>
+</svg>

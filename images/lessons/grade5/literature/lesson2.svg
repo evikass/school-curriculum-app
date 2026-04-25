@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#FFF8E7" rx="4"/>
+  
+<defs>
+  <pattern id="mh" x="0" y="0" width="28" height="16" patternUnits="userSpaceOnUse">
+    <rect width="28" height="16" fill="#C9A94E"/>
+    <path d="M0,0 L28,0 L28,4 L22,4 L22,12 L16,12 L16,4 L10,4 L10,12 L4,12 L4,4 L0,4Z" fill="#8B6914" opacity="0.85"/>
+  </pattern>
+  <pattern id="mv" x="0" y="0" width="16" height="28" patternUnits="userSpaceOnUse">
+    <rect width="16" height="28" fill="#C9A94E"/>
+    <path d="M0,0 L16,0 L16,10 L12,10 L12,16 L4,16 L4,10 L0,10Z M0,14 L12,14 L12,20 L4,20 L4,14 L0,14 L0,28 L16,28 L16,24 L4,24 L4,18 L12,18 L12,24 L0,24Z" fill="#8B6914" opacity="0.85"/>
+  </pattern>
+</defs>
+<rect x="16" y="0" width="768" height="16" fill="url(#mh)"/>
+<rect x="16" y="484" width="768" height="16" fill="url(#mh)"/>
+<rect x="0" y="16" width="16" height="468" fill="url(#mv)"/>
+<rect x="784" y="16" width="16" height="468" fill="url(#mv)"/>
+<rect x="15" y="15" width="770" height="470" fill="none" stroke="#6B4F12" stroke-width="2"/>
+  <text x="400" y="55" font-family="Georgia,serif" font-size="32" font-weight="bold" fill="#5D3A1A" text-anchor="middle">Подвиги Геракла</text>
+  <line x1="60" y1="68" x2="740" y2="68" stroke="#C49B38" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Hercules figure - big -->
+  <circle cx="400" cy="120" r="35" fill="#FFCC80" stroke="#5D3A1A" stroke-width="3"/>
+  <line x1="435" y1="100" x2="480" y2="75" stroke="#8D6E63" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="484" cy="72" r="10" fill="#8D6E63"/>
+  <rect x="380" y="155" width="40" height="65" rx="5" fill="#FF8F00" opacity="0.6"/>
+  <line x1="380" y1="220" x2="370" y2="280" stroke="#5D4037" stroke-width="5"/>
+  <line x1="420" y1="220" x2="430" y2="280" stroke="#5D4037" stroke-width="5"/>
+  <line x1="380" y1="170" x2="330" y2="200" stroke="#5D4037" stroke-width="5"/>
+  <line x1="420" y1="170" x2="470" y2="195" stroke="#5D4037" stroke-width="5"/>
+  <!-- Labors icons - BIG -->
+  <circle cx="80" cy="240" r="36" fill="#FFF3E0" stroke="#D4A853" stroke-width="2.5"/>
+  <text x="80" y="232" font-family="Georgia,serif" font-size="28" text-anchor="middle">&#x1F981;</text>
+  <text x="80" y="262" font-family="Georgia,serif" font-size="13" fill="#5D3A1A" text-anchor="middle" font-weight="bold">Немейский</text>
+  <text x="80" y="278" font-family="Georgia,serif" font-size="12" fill="#5D3A1A" text-anchor="middle">лев</text>
+  <circle cx="220" cy="240" r="36" fill="#E8F5E9" stroke="#D4A853" stroke-width="2.5"/>
+  <text x="220" y="232" font-family="Georgia,serif" font-size="28" text-anchor="middle">&#x1F409;</text>
+  <text x="220" y="262" font-family="Georgia,serif" font-size="13" fill="#5D3A1A" text-anchor="middle" font-weight="bold">Лернейская</text>
+  <text x="220" y="278" font-family="Georgia,serif" font-size="12" fill="#5D3A1A" text-anchor="middle">гидра</text>
+  <circle cx="580" cy="240" r="36" fill="#FFF8E1" stroke="#D4A853" stroke-width="2.5"/>
+  <text x="580" y="232" font-family="Georgia,serif" font-size="28" text-anchor="middle">&#x1F404;</text>
+  <text x="580" y="262" font-family="Georgia,serif" font-size="13" fill="#5D3A1A" text-anchor="middle" font-weight="bold">Авгиевы</text>
+  <text x="580" y="278" font-family="Georgia,serif" font-size="12" fill="#5D3A1A" text-anchor="middle">конюшни</text>
+  <circle cx="720" cy="240" r="36" fill="#FBE9E7" stroke="#D4A853" stroke-width="2.5"/>
+  <text x="720" y="232" font-family="Georgia,serif" font-size="28" text-anchor="middle">&#x1F34E;</text>
+  <text x="720" y="262" font-family="Georgia,serif" font-size="13" fill="#5D3A1A" text-anchor="middle" font-weight="bold">Золотые</text>
+  <text x="720" y="278" font-family="Georgia,serif" font-size="12" fill="#5D3A1A" text-anchor="middle">яблоки</text>
+  <!-- Bottom text -->
+  <text x="400" y="360" font-family="Georgia,serif" font-size="22" fill="#8B6914" text-anchor="middle">12 подвигов великого героя</text>
+  <text x="400" y="390" font-family="Georgia,serif" font-size="16" fill="#8B6914" text-anchor="middle" opacity="0.7">Сила, Мужество, Находчивость, Милосердие</text>
+  <text x="400" y="420" font-family="Georgia,serif" font-size="15" fill="#8B6914" text-anchor="middle" opacity="0.6">Немейский лев - Лернейская гидра - Стимфалийские птицы - Керинейская лань</text>
+  <text x="400" y="442" font-family="Georgia,serif" font-size="15" fill="#8B6914" text-anchor="middle" opacity="0.6">Эриманфский кабан - Авгиевы конюшни - Критский бык - Кони Диомеда</text>
+  <text x="400" y="464" font-family="Georgia,serif" font-size="15" fill="#8B6914" text-anchor="middle" opacity="0.6">Пояс Ипполиты - Коровы Гериона - Яблоки Гесперид - Кербер</text>
+
+</svg>

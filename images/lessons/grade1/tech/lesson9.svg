@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg9ab18d24" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg9ab18d24)"/>
+  <rect width="500" height="350" fill="#FFF3E0" opacity="0.2"/>
+  
+  <!-- Title -->
+  <text x="250" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#E65100" text-anchor="middle">Открытка</text>
+  <rect x="80" y="46" width="340" height="2.5" rx="1" fill="#E65100" opacity="0.4"/>
+  
+  <!-- Scene -->
+  <rect x="200" y="180" width="6" height="56.0" rx="2" fill="#8D6E63"/>
+<rect x="190" y="175" width="26" height="14" rx="3" fill="#E65100"/>
+<path d="M225,196.0 L230,236.0" stroke="#78909C" stroke-width="5" stroke-linecap="round" fill="none"/>
+<circle cx="225" cy="196.0" r="8" fill="none" stroke="#78909C" stroke-width="3"/>
+<rect x="300" y="150" width="100" height="120" rx="5" fill="#FFF8E1" stroke="#E65100" stroke-width="1.5"/>
+<line x1="320" y1="175" x2="380" y2="175" stroke="#BDBDBD" stroke-width="1"/>
+<line x1="320" y1="195" x2="370" y2="195" stroke="#BDBDBD" stroke-width="1"/>
+<line x1="320" y1="215" x2="375" y2="215" stroke="#BDBDBD" stroke-width="1"/>
+  
+  <!-- Caption -->
+  <text x="250" y="335" font-family="Arial, sans-serif" font-size="14" fill="#BF360C" text-anchor="middle" font-style="italic">Технология</text>
+  
+  <ellipse cx="250" cy="310" rx="220" ry="15" fill="#E65100" opacity="0.06"/>
+</svg>

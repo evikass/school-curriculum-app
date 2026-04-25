@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="6" fill="#C41E3A"/>
+  <!-- Gold line under red bar -->
+  <rect y="6" width="500" height="2" fill="#D4A843" opacity="0.6"/>
+
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Урок 23:  Праздники</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#2B4C7E" text-anchor="middle">Holidays</text>
+
+  
+  <!-- Gift box 1 -->
+  <rect x="60" y="220" width="50" height="45" rx="3" fill="#C41E3A" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="60" y="220" width="50" height="12" rx="2" fill="#E53935" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="82" y="220" width="6" height="45" fill="#D4A843"/>
+  <rect x="60" y="238" width="50" height="6" fill="#D4A843"/>
+  <polygon points="85,220 75,205 85,212 95,205 85,220" fill="#D4A843" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="85" y="282" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle" font-weight="bold">gift</text>
+  <!-- Gift box 2 -->
+  <rect x="130" y="235" width="40" height="35" rx="3" fill="#2B4C7E" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="147" y="235" width="6" height="35" fill="#D4A843"/>
+  <rect x="130" y="248" width="40" height="5" fill="#D4A843"/>
+  <!-- Birthday cake -->
+  <rect x="210" y="245" width="80" height="35" rx="5" fill="#FFCC80" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="215" y="240" width="70" height="10" rx="3" fill="#FF8A80" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Candles -->
+  <rect x="230" y="222" width="3" height="18" fill="#D4A843"/>
+  <circle cx="231" cy="220" r="3" fill="#C41E3A"/>
+  <rect x="248" y="222" width="3" height="18" fill="#D4A843"/>
+  <circle cx="249" cy="220" r="3" fill="#C41E3A"/>
+  <rect x="266" y="222" width="3" height="18" fill="#D4A843"/>
+  <circle cx="267" cy="220" r="3" fill="#C41E3A"/>
+  <text x="250" y="298" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle" font-weight="bold">BIRTHDAY!</text>
+  <!-- New Year tree -->
+  <polygon points="370,120 340,230 400,230" fill="#2E7D32" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="370,150 348,220 392,220" fill="#388E3C" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="363" y="230" width="14" height="20" fill="#795548" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Decorations on tree -->
+  <circle cx="355" cy="170" r="4" fill="#C41E3A"/>
+  <circle cx="380" cy="185" r="4" fill="#D4A843"/>
+  <circle cx="365" cy="200" r="4" fill="#2B4C7E"/>
+  <circle cx="385" cy="165" r="3" fill="#D4A843"/>
+  <circle cx="350" cy="195" r="3" fill="#C41E3A"/>
+  <!-- Star on top -->
+  <polygon points="370,110 367,118 375,118 369,123 371,131 370,124 373,123 370,118" fill="#D4A843" stroke="#D4A843" stroke-width="1"/>
+  <text x="370" y="265" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle" font-weight="bold">New Year</text>
+  <!-- Fireworks -->
+  <line x1="430" y1="130" x2="430" y2="200" stroke="#1a1a1a" stroke-width="1" opacity="0.3"/>
+  <line x1="430" y1="130" x2="415" y2="115" stroke="#C41E3A" stroke-width="2"/>
+  <line x1="430" y1="130" x2="445" y2="115" stroke="#D4A843" stroke-width="2"/>
+  <line x1="430" y1="130" x2="420" y2="110" stroke="#2B4C7E" stroke-width="2"/>
+  <line x1="430" y1="130" x2="440" y2="108" stroke="#C41E3A" stroke-width="2"/>
+  <circle cx="415" cy="115" r="2" fill="#C41E3A"/>
+  <circle cx="445" cy="115" r="2" fill="#D4A843"/>
+  <circle cx="420" cy="110" r="2" fill="#2B4C7E"/>
+  <circle cx="440" cy="108" r="2" fill="#C41E3A"/>
+  <!-- Party hat -->
+  <polygon points="250,105 235,140 265,140" fill="#C41E3A" stroke="#D4A843" stroke-width="1.5"/>
+  <circle cx="250" cy="105" r="3" fill="#D4A843"/>
+  <!-- Balloons -->
+  <ellipse cx="170" cy="140" rx="18" ry="22" fill="#C41E3A" opacity="0.7" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="170" y1="162" x2="172" y2="190" stroke="#1a1a1a" stroke-width="0.8"/>
+  <ellipse cx="200" cy="130" rx="16" ry="20" fill="#2B4C7E" opacity="0.7" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="200" y1="150" x2="198" y2="190" stroke="#1a1a1a" stroke-width="0.8"/>
+  <ellipse cx="230" cy="135" rx="15" ry="19" fill="#D4A843" opacity="0.7" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="230" y1="154" x2="232" y2="190" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Banner -->
+  <path d="M100 195 L400 195" fill="none" stroke="#D4A843" stroke-width="1.5"/>
+  <polygon points="120,195 130,195 125,205" fill="#C41E3A"/>
+  <polygon points="160,195 170,195 165,205" fill="#2B4C7E"/>
+  <polygon points="200,195 210,195 205,205" fill="#D4A843"/>
+  <polygon points="240,195 250,195 245,205" fill="#C41E3A"/>
+  <polygon points="280,195 290,195 285,205" fill="#2B4C7E"/>
+  <polygon points="320,195 330,195 325,205" fill="#D4A843"/>
+  <polygon points="360,195 370,195 365,205" fill="#C41E3A"/>
+
+  <!-- Bottom dark bar -->
+  <rect y="318" width="500" height="32" fill="#1a1a1a"/>
+  <rect y="318" width="500" height="2" fill="#D4A843" opacity="0.5"/>
+  <text x="250" y="339" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#F5E6C8" text-anchor="middle" letter-spacing="1">Иностранный язык — 4 класс</text>
+</svg>

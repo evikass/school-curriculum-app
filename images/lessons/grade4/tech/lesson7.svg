@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <!-- Thin gold line under accent -->
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Пришивание пуговиц</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Работа с тканью</text>
+  <!-- Illustration area -->
+  <circle cx="200" cy="170" r="25" fill="#333" stroke="#111" stroke-width="2"/><circle cx="200" cy="170" r="18" fill="none" stroke="#555" stroke-width="1"/><circle cx="192" cy="162" r="3" fill="#888"/><circle cx="208" cy="162" r="3" fill="#888"/><circle cx="192" cy="178" r="3" fill="#888"/><circle cx="208" cy="178" r="3" fill="#888"/><rect x="280" y="150" width="40" height="40" rx="3" fill="#4169E1" stroke="#2850a0" stroke-width="2"/><circle cx="293" cy="163" r="3" fill="#999"/><circle cx="307" cy="163" r="3" fill="#999"/><circle cx="293" cy="177" r="3" fill="#999"/><circle cx="307" cy="177" r="3" fill="#999"/><rect x="270" y="145" width="60" height="50" rx="3" fill="none" stroke="#c4826a" stroke-width="2" stroke-dasharray="6,3"/><line x1="170" y1="140" x2="220" y2="140" stroke="#8B4513" stroke-width="1.5"/><line x1="170" y1="200" x2="220" y2="200" stroke="#8B4513" stroke-width="1.5"/><text x="200" y="225" text-anchor="middle" font-size="10" fill="#1a1a1a" font-family="Arial">С ножкой</text><text x="300" y="210" text-anchor="middle" font-size="10" fill="#1a1a1a" font-family="Arial">Плоская</text><text x="250" y="265" text-anchor="middle" font-size="11" fill="#C41E3A" font-weight="bold" font-family="Arial">3-4 стежка!</text><text x="250" y="285" text-anchor="middle" font-size="10" fill="#1a1a1a" font-family="Arial">Закрепи на изнанке</text>
+  <!-- Bottom dark bar -->
+  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
+  <!-- Gold line above bottom bar -->
+  <rect y="313" width="500" height="2" fill="#D4A843"/>
+  <!-- Subject name -->
+  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Технология</text>
+</svg>

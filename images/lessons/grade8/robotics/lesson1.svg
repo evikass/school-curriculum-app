@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#263238"/>
+      <stop offset="100%" stop-color="#37474F"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#37474F" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#37474F" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corner accents -->
+  <polygon points="10,10 30,10 10,30" fill="#37474F" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
+  <!-- Title -->
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#37474F" text-anchor="middle">Что такое робот</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Робототехника - Урок 1</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#37474F" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#37474F" opacity="0.18" rx="1"/>
+  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
+  <!-- ILLUSTRATION AREA -->
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6"/>
+      <text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#37474F" text-anchor="middle" font-weight="bold">Что такое робот</text>
+      <rect x="25" y="155" width="140" height="45" rx="5" fill="#ECEFF1" stroke="#37474F" stroke-width="1.5"/>
+      <text x="95" y="175" font-family="Arial" font-size="11" fill="#37474F" text-anchor="middle">Определение:</text>
+      <text x="95" y="192" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Автоматическое устройство</text>
+      <rect x="170" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+      <text x="240" y="175" font-family="Arial" font-size="11" fill="#1565C0" text-anchor="middle">Три закона:</text>
+      <text x="240" y="192" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Азимов, 1942</text>
+      <rect x="315" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
+      <text x="385" y="175" font-family="Arial" font-size="11" fill="#E65100" text-anchor="middle">Компоненты:</text>
+      <text x="385" y="192" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Датчики, контроллер</text>
+      <rect x="80" y="215" width="340" height="35" rx="5" fill="#CFD8DC" stroke="#37474F" stroke-width="1"/>
+      <text x="250" y="237" font-family="Arial" font-size="12" fill="#263238" text-anchor="middle">Сенсорика → Управление → Действие</text>
+  </g>
+  <!-- Bottom panel -->
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Робототехника</text>
+</svg>

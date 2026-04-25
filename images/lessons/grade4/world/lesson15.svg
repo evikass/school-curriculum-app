@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Red top accent bar -->
+  <rect x="0" y="0" width="500" height="8" fill="#C41E3A"/>
+  <!-- Gold accent line -->
+  <rect x="0" y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Cream background -->
+  <rect x="0" y="10" width="500" height="325" fill="#F5E6C8"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Почва</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#555">Плодородный слой — основа жизни</text>
+  <!-- Decorative line under title -->
+  <line x1="150" y1="78" x2="350" y2="78" stroke="#C41E3A" stroke-width="1.5" opacity="0.6"/>
+  <!-- Bottom dark bar -->
+  <rect x="0" y="318" width="500" height="32" fill="#1a1a1a"/>
+  <!-- Gold accent on bottom bar -->
+  <rect x="0" y="316" width="500" height="2" fill="#D4A843"/>
+  <!-- Bottom text -->
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#F5E6C8">Окружающий мир — 4 класс</text>
+  <!-- Large soil block -->
+  <rect x="80" y="100" width="340" height="200" rx="6" fill="#B08050" stroke="#8B6040" stroke-width="1.5"/>
+  <!-- Surface grass -->
+  <rect x="80" y="95" width="340" height="12" rx="3" fill="#2E7D32" opacity="0.6"/>
+  <!-- Grass blades -->
+  <line x1="100" y1="95" x2="95" y2="82" stroke="#2E7D32" stroke-width="1.5"/>
+  <line x1="108" y1="95" x2="112" y2="80" stroke="#2E7D32" stroke-width="1.5"/>
+  <line x1="150" y1="95" x2="145" y2="83" stroke="#2E7D32" stroke-width="1.5"/>
+  <line x1="200" y1="95" x2="205" y2="82" stroke="#2E7D32" stroke-width="1.5"/>
+  <line x1="300" y1="95" x2="295" y2="83" stroke="#2E7D32" stroke-width="1.5"/>
+  <line x1="350" y1="95" x2="355" y2="80" stroke="#2E7D32" stroke-width="1.5"/>
+  <!-- Humus layer -->
+  <rect x="80" y="107" width="340" height="35" fill="#4A2E15" opacity="0.5" rx="0"/>
+  <text x="250" y="130" font-family="Arial" font-size="9" font-weight="bold" fill="#E8D0B0" text-anchor="middle">Перегной (гумус)</text>
+  <!-- Mineral layer -->
+  <rect x="80" y="142" width="340" height="50" fill="#A08050" opacity="0.4"/>
+  <!-- Sand particles -->
+  <circle cx="120" cy="160" r="2" fill="#D4B880"/>
+  <circle cx="135" cy="155" r="1.5" fill="#D4B880"/>
+  <circle cx="200" cy="165" r="2" fill="#D4B880"/>
+  <circle cx="250" cy="158" r="1.5" fill="#D4B880"/>
+  <circle cx="320" cy="162" r="2" fill="#D4B880"/>
+  <circle cx="370" cy="170" r="1.5" fill="#D4B880"/>
+  <!-- Clay particles -->
+  <rect x="150" y="172" width="4" height="3" fill="#8B6A50" rx="1"/>
+  <rect x="280" y="175" width="5" height="3" fill="#8B6A50" rx="1"/>
+  <rect x="350" y="170" width="4" height="3" fill="#8B6A50" rx="1"/>
+  <!-- Water droplets -->
+  <circle cx="180" cy="180" r="2" fill="#2B4C7E" opacity="0.4"/>
+  <circle cx="230" cy="185" r="1.5" fill="#2B4C7E" opacity="0.4"/>
+  <circle cx="310" cy="178" r="2" fill="#2B4C7E" opacity="0.4"/>
+  <!-- Rock layer -->
+  <rect x="80" y="192" width="340" height="108" fill="#888" opacity="0.25" rx="0"/>
+  <text x="250" y="240" font-family="Arial" font-size="9" fill="#555" text-anchor="middle">Горная порода</text>
+  <!-- Plant roots -->
+  <path d="M200,107 Q195,130 190,150 Q185,170 180,200" stroke="#6B4226" stroke-width="2" fill="none"/>
+  <path d="M190,150 Q175,160 165,170" stroke="#6B4226" stroke-width="1.5" fill="none"/>
+  <path d="M190,160 Q200,170 210,180" stroke="#6B4226" stroke-width="1.5" fill="none"/>
+  <path d="M300,107 Q305,125 310,145 Q315,165 320,195" stroke="#6B4226" stroke-width="2" fill="none"/>
+  <path d="M310,145 Q295,155 285,165" stroke="#6B4226" stroke-width="1.5" fill="none"/>
+  <path d="M310,155 Q325,165 335,175" stroke="#6B4226" stroke-width="1.5" fill="none"/>
+  <!-- Worm -->
+  <path d="M130,160 Q140,155 150,160 Q160,165 170,160" stroke="#C06060" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="128" cy="160" r="2" fill="#C06060"/>
+  <!-- Label -->
+  <rect x="30" y="160" width="40" height="60" rx="4" fill="#C41E3A" opacity="0.1"/>
+  <text x="50" y="178" font-family="Arial" font-size="8" fill="#C41E3A" text-anchor="middle">100-300</text>
+  <text x="50" y="190" font-family="Arial" font-size="7" fill="#C41E3A" text-anchor="middle">лет на</text>
+  <text x="50" y="200" font-family="Arial" font-size="7" fill="#C41E3A" text-anchor="middle">1 см</text>
+</svg>

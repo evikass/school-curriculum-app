@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Строение атома</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 6</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Hydrogen atom - Bohr model -->
+  <rect x="25" y="88" width="220" height="200" rx="6" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="135" y="105" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle" font-weight="bold">Водород (H) - Z = 1</text>
+  <!-- Electron shell -->
+  <circle cx="135" cy="190" r="65" fill="none" stroke="#7B1FA2" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <!-- Nucleus -->
+  <circle cx="135" cy="190" r="16" fill="#C62828" opacity="0.15" stroke="#C62828" stroke-width="2"/>
+  <!-- 1 proton -->
+  <circle cx="135" cy="190" r="9" fill="#EF5350" stroke="#C62828" stroke-width="1"/>
+  <text x="135" y="194" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">p+</text>
+  <!-- 1 electron -->
+  <circle cx="135" cy="125" r="7" fill="#1565C0" stroke="#0D47A1" stroke-width="1"/>
+  <text x="135" y="129" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">e-</text>
+  <!-- Labels -->
+  <line x1="145" y1="190" x2="175" y2="190" stroke="#aaa" stroke-width="0.8"/>
+  <text x="178" y="194" font-family="Arial,sans-serif" font-size="8" fill="#C62828">1 протон</text>
+  <line x1="135" y1="118" x2="175" y2="115" stroke="#aaa" stroke-width="0.8"/>
+  <text x="178" y="119" font-family="Arial,sans-serif" font-size="8" fill="#1565C0">1 электрон</text>
+  <text x="178" y="133" font-family="Arial,sans-serif" font-size="7" fill="#777">0 нейтронов</text>
+  <!-- Shell label -->
+  <text x="60" y="155" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2">1-й слой</text>
+  <text x="135" y="275" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Самый простой элемент</text>
+
+  <!-- Oxygen atom - Bohr model -->
+  <rect x="260" y="88" width="215" height="200" rx="6" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="367" y="105" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle" font-weight="bold">Кислород (O) - Z = 8</text>
+  <!-- Electron shells -->
+  <circle cx="367" cy="190" r="40" fill="none" stroke="#7B1FA2" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <circle cx="367" cy="190" r="68" fill="none" stroke="#9C27B0" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.4"/>
+  <!-- Nucleus -->
+  <circle cx="367" cy="190" r="20" fill="#C62828" opacity="0.1" stroke="#C62828" stroke-width="2"/>
+  <!-- Protons (8) -->
+  <circle cx="360" cy="184" r="5" fill="#EF5350" stroke="#C62828" stroke-width="0.5"/>
+  <circle cx="372" cy="183" r="5" fill="#EF5350" stroke="#C62828" stroke-width="0.5"/>
+  <circle cx="363" cy="196" r="5" fill="#EF5350" stroke="#C62828" stroke-width="0.5"/>
+  <circle cx="374" cy="195" r="5" fill="#EF5350" stroke="#C62828" stroke-width="0.5"/>
+  <circle cx="367" cy="189" r="5" fill="#9E9E9E" stroke="#757575" stroke-width="0.5"/>
+  <circle cx="358" cy="191" r="5" fill="#9E9E9E" stroke="#757575" stroke-width="0.5"/>
+  <circle cx="376" cy="187" r="5" fill="#9E9E9E" stroke="#757575" stroke-width="0.5"/>
+  <circle cx="367" cy="198" r="5" fill="#9E9E9E" stroke="#757575" stroke-width="0.5"/>
+  <!-- Electrons shell 1 (2 electrons) -->
+  <circle cx="340" cy="178" r="6" fill="#1565C0" stroke="#0D47A1" stroke-width="1"/>
+  <text x="340" y="182" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">e-</text>
+  <circle cx="394" cy="178" r="6" fill="#1565C0" stroke="#0D47A1" stroke-width="1"/>
+  <text x="394" y="182" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">e-</text>
+  <!-- Electrons shell 2 (6 electrons) -->
+  <circle cx="367" cy="122" r="6" fill="#1565C0" stroke="#0D47A1" stroke-width="1"/>
+  <circle cx="415" cy="155" r="6" fill="#1565C0" stroke="#0D47A1" stroke-width="1"/>
+  <circle cx="430" cy="198" r="6" fill="#1565C0" stroke="#0D47A1" stroke-width="1"/>
+  <circle cx="410" cy="245" r="6" fill="#1565C0" stroke="#0D47A1" stroke-width="1"/>
+  <circle cx="324" cy="245" r="6" fill="#1565C0" stroke="#0D47A1" stroke-width="1"/>
+  <circle cx="305" cy="198" r="6" fill="#1565C0" stroke="#0D47A1" stroke-width="1"/>
+  <!-- Labels -->
+  <text x="367" y="275" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">8p+ 8n 8e- (2+6)</text>
+
+  <!-- Bottom: Legend and Bohr model diagram -->
+  <rect x="25" y="222" width="220" height="66" rx="4" fill="#F3E5F5" stroke="#CE93D8" stroke-width="1"/>
+  <text x="135" y="237" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Модель Бора</text>
+  <text x="135" y="250" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Электроны движутся по</text>
+  <text x="135" y="261" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">определённым орбитам (слоям)</text>
+  <text x="135" y="272" font-family="Arial,sans-serif" font-size="7" fill="#777" text-anchor="middle">Каждый слой вмещает 2n2 электронов</text>
+
+  <!-- Particle info -->
+  <rect x="260" y="222" width="215" height="66" rx="4" fill="#FFF3E0" stroke="#FFCC80" stroke-width="1"/>
+  <text x="367" y="237" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">Частицы атома</text>
+  <!-- Proton -->
+  <circle cx="280" cy="255" r="6" fill="#EF5350"/>
+  <text x="295" y="258" font-family="Arial,sans-serif" font-size="8" fill="#555">Протон (+) в ядре</text>
+  <!-- Neutron -->
+  <circle cx="280" cy="272" r="6" fill="#9E9E9E"/>
+  <text x="295" y="275" font-family="Arial,sans-serif" font-size="8" fill="#555">Нейтрон (0) в ядре</text>
+  <!-- Electron -->
+  <circle cx="415" cy="255" r="6" fill="#1565C0"/>
+  <text x="430" y="258" font-family="Arial,sans-serif" font-size="8" fill="#555">Электрон (-)</text>
+  <text x="415" y="275" font-family="Arial,sans-serif" font-size="7" fill="#777">на орбите</text>
+
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Строение атома</text>
+</svg>

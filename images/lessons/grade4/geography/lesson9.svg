@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8" />
+  <rect x="0" y="0" width="500" height="4" fill="#C41E3A" />
+  <rect x="0" y="85" width="500" height="2" fill="#D4A843" opacity="0.5" />
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a1a" font-family="Arial, sans-serif">Природные зоны России</text>
+  <text x="250" y="70" text-anchor="middle" font-size="12" fill="#1a1a1a" font-family="Arial, sans-serif">Разнообразие природы России</text>
+
+  <!-- Natural zones as horizontal bands -->
+  <!-- Arctic desert -->
+  <rect x="30" y="92" width="440" height="28" rx="3" fill="white" stroke="#2B4C7E" stroke-width="1" />
+  <text x="250" y="110" text-anchor="middle" font-size="10" font-weight="bold" fill="#2B4C7E" font-family="Arial, sans-serif">Арктическая пустыня</text>
+  <!-- Ice -->
+  <polygon points="380,100 390,92 400,100" fill="white" stroke="#2B4C7E" stroke-width="0.5" />
+  <polygon points="410,98 418,93 426,98" fill="white" stroke="#2B4C7E" stroke-width="0.5" />
+  <!-- Polar bear silhouette -->
+  <g transform="translate(60,97)" fill="#1a1a1a" opacity="0.3">
+    <ellipse cx="0" cy="8" rx="8" ry="5" />
+    <circle cx="-6" cy="4" r="4" />
+    <circle cx="-8" cy="2" r="1" fill="white" />
+  </g>
+
+  <!-- Tundra -->
+  <rect x="30" y="123" width="440" height="28" rx="3" fill="#C8D8C4" stroke="#5D8A4E" stroke-width="1" />
+  <text x="250" y="141" text-anchor="middle" font-size="10" font-weight="bold" fill="#3D6B3E" font-family="Arial, sans-serif">Тундра</text>
+  <!-- Lichen dots -->
+  <circle cx="50" cy="135" r="2" fill="#7D9A6E" opacity="0.6" />
+  <circle cx="56" cy="138" r="2" fill="#7D9A6E" opacity="0.5" />
+  <circle cx="430" cy="133" r="2" fill="#7D9A6E" opacity="0.6" />
+  <!-- Reindeer silhouette -->
+  <g transform="translate(400,130)" fill="#5D4037" opacity="0.4">
+    <ellipse cx="0" cy="5" rx="8" ry="4" />
+    <line x1="6" y1="3" x2="10" y2="0" stroke="#5D4037" stroke-width="1" />
+    <line x1="6" y1="3" x2="11" y2="3" stroke="#5D4037" stroke-width="1" />
+  </g>
+
+  <!-- Taiga -->
+  <rect x="30" y="154" width="440" height="28" rx="3" fill="#2D5A27" opacity="0.3" stroke="#2D5A27" stroke-width="1" />
+  <text x="250" y="172" text-anchor="middle" font-size="10" font-weight="bold" fill="#1B3D17" font-family="Arial, sans-serif">Тайга (хвойные леса)</text>
+  <!-- Tree silhouettes -->
+  <g fill="#2D5A27" opacity="0.5">
+    <polygon points="50,170 55,158 60,170" />
+    <polygon points="57,170 62,160 67,170" />
+    <polygon points="420,168 425,155 430,168" />
+    <polygon points="428,168 433,158 438,168" />
+    <polygon points="440,170 445,162 450,170" />
+  </g>
+
+  <!-- Mixed forest -->
+  <rect x="30" y="185" width="440" height="28" rx="3" fill="#6B8E4E" opacity="0.3" stroke="#5D8A4E" stroke-width="1" />
+  <text x="250" y="203" text-anchor="middle" font-size="10" font-weight="bold" fill="#3D6B3E" font-family="Arial, sans-serif">Смешанные и широколиственные леса</text>
+
+  <!-- Forest-steppe -->
+  <rect x="30" y="216" width="440" height="24" rx="3" fill="#A8C686" opacity="0.4" stroke="#6B8E4E" stroke-width="1" />
+  <text x="250" y="232" text-anchor="middle" font-size="10" font-weight="bold" fill="#4A6E35" font-family="Arial, sans-serif">Лесостепь</text>
+
+  <!-- Steppe -->
+  <rect x="30" y="243" width="440" height="24" rx="3" fill="#D4A843" opacity="0.25" stroke="#D4A843" stroke-width="1" />
+  <text x="250" y="259" text-anchor="middle" font-size="10" font-weight="bold" fill="#8B7D32" font-family="Arial, sans-serif">Степь</text>
+  <!-- Grass tufts -->
+  <g stroke="#8B7D32" stroke-width="1" opacity="0.4">
+    <line x1="50" y1="260" x2="48" y2="252" />
+    <line x1="52" y1="260" x2="54" y2="251" />
+    <line x1="440" y1="259" x2="438" y2="251" />
+    <line x1="442" y1="259" x2="444" y2="250" />
+  </g>
+
+  <!-- Desert -->
+  <rect x="30" y="270" width="440" height="24" rx="3" fill="#E8D5A0" stroke="#D4A843" stroke-width="1" />
+  <text x="250" y="286" text-anchor="middle" font-size="10" font-weight="bold" fill="#8B6914" font-family="Arial, sans-serif">Пустыня (полупустыня)</text>
+  <!-- Cactus -->
+  <g transform="translate(430,275)">
+    <rect x="0" y="0" width="4" height="12" rx="2" fill="#5D8A4E" opacity="0.5" />
+    <rect x="-5" y="3" width="5" height="3" rx="2" fill="#5D8A4E" opacity="0.5" />
+  </g>
+
+  <!-- Arrow showing north to south -->
+  <line x1="18" y1="100" x2="18" y2="285" stroke="#C41E3A" stroke-width="2" />
+  <polygon points="18,98 14,106 22,106" fill="#C41E3A" />
+  <text x="14" y="95" font-size="7" fill="#C41E3A" font-family="Arial, sans-serif">С</text>
+  <text x="14" y="296" font-size="7" fill="#C41E3A" font-family="Arial, sans-serif">Ю</text>
+
+  <!-- Key fact -->
+  <rect x="310" y="297" width="160" height="16" rx="2" fill="#C41E3A" opacity="0.15" />
+  <text x="390" y="308" text-anchor="middle" font-size="8" fill="#C41E3A" font-family="Arial, sans-serif">Тайга — самая большая зона</text>
+
+  <!-- Bottom panel -->
+  <rect x="0" y="316" width="500" height="34" fill="#1a1a1a" />
+  <rect x="0" y="316" width="500" height="3" fill="#C41E3A" />
+  <text x="250" y="337" text-anchor="middle" font-size="13" fill="#F5E6C8" font-family="Arial, sans-serif">География: Россия — Урок 9</text>
+</svg>

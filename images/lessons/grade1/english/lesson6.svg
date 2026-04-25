@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg7c15bf2a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#B2DFDB;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg7c15bf2a)"/>
+  <rect width="500" height="350" fill="#E0F7FA" opacity="0.2"/>
+  
+  <!-- Title -->
+  <text x="250" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#00695C" text-anchor="middle">Numbers 6-10</text>
+  <rect x="80" y="46" width="340" height="2.5" rx="1" fill="#00695C" opacity="0.4"/>
+  
+  <!-- Scene -->
+  <rect x="130" y="120" width="240" height="160" rx="10" fill="#FFF" stroke="#00695C" stroke-width="2"/><text x="250" y="175" font-family="Arial, sans-serif" font-size="26" fill="#00695C" text-anchor="middle" font-weight="bold">English Lesson</text><line x1="155" y1="195" x2="345" y2="195" stroke="#00695C" opacity="0.2" stroke-width="1.5"/><text x="250" y="225" font-family="Arial" font-size="16" fill="#FF8F00" text-anchor="middle">English Vocabulary</text><circle cx="400" cy="70" r="20" fill="#00695C" opacity="0.1"/><text x="400" y="76" font-family="Arial" font-size="18" fill="#00695C" text-anchor="middle" opacity="0.3">ABC</text>
+  
+  <!-- Caption -->
+  <text x="250" y="335" font-family="Arial, sans-serif" font-size="14" fill="#004D40" text-anchor="middle" font-style="italic">Урок английского языка</text>
+  
+  <ellipse cx="250" cy="310" rx="220" ry="15" fill="#00695C" opacity="0.06"/>
+</svg>

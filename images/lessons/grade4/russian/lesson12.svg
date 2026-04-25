@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <rect x="0" y="0" width="500" height="6" fill="#C41E3A"/>
+  <rect x="0" y="310" width="500" height="4" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Парные согласные в корне</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1a1a1a">Звонкие и глухие согласные</text>
+  <!-- Paired consonants scale/balance -->
+  <!-- Balance beam -->
+  <line x1="250" y1="100" x2="250" y2="155" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="130" y1="120" x2="370" y2="120" stroke="#1a1a1a" stroke-width="3"/>
+  <!-- Base triangle -->
+  <polygon points="235,155 265,155 250,165" fill="#1a1a1a"/>
+  <!-- Left pan - Voiced -->
+  <line x1="130" y1="120" x2="120" y2="155" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="130" y1="120" x2="140" y2="155" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="95" y="155" width="70" height="35" rx="3" fill="#2B4C7E"/>
+  <text x="130" y="170" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-weight="bold" fill="#FFFFFF">ЗВОНКИЕ</text>
+  <text x="130" y="183" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#FFFFFF">Б В Г Д Ж З</text>
+  <!-- Right pan - Voiceless -->
+  <line x1="370" y1="120" x2="360" y2="155" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="370" y1="120" x2="380" y2="155" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="335" y="155" width="70" height="35" rx="3" fill="#C41E3A"/>
+  <text x="370" y="170" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-weight="bold" fill="#FFFFFF">ГЛУХИЕ</text>
+  <text x="370" y="183" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#FFFFFF">П Ф К Т Ш С</text>
+  <!-- Connection lines between pairs -->
+  <line x1="165" y1="172" x2="195" y2="172" stroke="#D4A843" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="305" y1="172" x2="335" y2="172" stroke="#D4A843" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <!-- Paired letter blocks in middle -->
+  <rect x="200" y="165" width="20" height="20" rx="2" fill="#2B4C7E" opacity="0.7"/>
+  <text x="210" y="180" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#FFFFFF">Б</text>
+  <text x="225" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#1a1a1a">-</text>
+  <rect x="230" y="165" width="20" height="20" rx="2" fill="#C41E3A" opacity="0.7"/>
+  <text x="240" y="180" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#FFFFFF">П</text>
+  <!-- Checking examples -->
+  <rect x="40" y="210" width="420" height="85" rx="5" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="250" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">Проверка парных согласных:</text>
+  <!-- Example pairs -->
+  <text x="80" y="255" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1a1a1a">ду<tspan fill="#C41E3A" font-weight="bold" text-decoration="underline">б</tspan></text>
+  <polygon points="115,250 125,245 125,255" fill="#D4A843"/>
+  <text x="165" y="255" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">ду<tspan fill="#C41E3A">Б</tspan>ы</text>
+  <text x="240" y="255" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1a1a1a">сне<tspan fill="#C41E3A" font-weight="bold" text-decoration="underline">г</tspan></text>
+  <polygon points="280,250 290,245 290,255" fill="#D4A843"/>
+  <text x="340" y="255" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">сне<tspan fill="#C41E3A">Г</tspan>а</text>
+  <text x="420" y="255" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1a1a1a">фла<tspan fill="#C41E3A" font-weight="bold" text-decoration="underline">г</tspan></text>
+  <!-- Unpronounceable consonants -->
+  <text x="250" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2B4C7E">Непроизносимые: со<tspan font-weight="bold">лн</tspan>це (солнечный), сер<tspan font-weight="bold">дц</tspan>е (сердечный)</text>
+  <!-- Subject name -->
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1a1a1a">Русский язык -- 4 класс</text>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="grad6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFDE7"/>
+      <stop offset="100%" style="stop-color:#FFF9C4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#grad6)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="300" r="40" fill="#FFECB3" opacity="0.4"/>
+  <circle cx="450" cy="50" r="35" fill="#C8E6C9" opacity="0.4"/>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#F57F17" text-anchor="middle">🍎 Food</text>
+  <rect x="100" y="45" width="300" height="2" rx="1" fill="#FFC107" opacity="0.6"/>
+  
+  <!-- Food items -->
+  <g font-family="Arial, sans-serif">
+    <!-- Apple -->
+    <rect x="20" y="65" width="110" height="90" fill="#FFCDD2" rx="12">
+      <animate attributeName="opacity" values="1;0.8;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="75" cy="105" r="28" fill="#E53935"/>
+    <ellipse cx="75" cy="78" rx="4" ry="8" fill="#4CAF50"/>
+    <path d="M75 78 Q85 70 80 85" stroke="#795548" stroke-width="2" fill="none"/>
+    <text x="75" y="148" font-size="13" fill="#B71C1C" text-anchor="middle" font-weight="bold">apple</text>
+    
+    <!-- Banana -->
+    <rect x="140" y="65" width="110" height="90" fill="#FFF9C4" rx="12">
+      <animate attributeName="opacity" values="1;0.8;1" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M165 130 Q195 80 225 120" stroke="#FFC107" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <path d="M165 130 Q195 85 220 115" stroke="#FFEB3B" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <text x="195" y="148" font-size="13" fill="#F57F17" text-anchor="middle" font-weight="bold">banana</text>
+    
+    <!-- Orange -->
+    <rect x="260" y="65" width="110" height="90" fill="#FFE0B2" rx="12">
+      <animate attributeName="opacity" values="1;0.8;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="315" cy="105" r="28" fill="#FF9800"/>
+    <ellipse cx="315" cy="78" rx="5" ry="6" fill="#4CAF50"/>
+    <text x="315" y="148" font-size="13" fill="#E65100" text-anchor="middle" font-weight="bold">orange</text>
+    
+    <!-- Bread -->
+    <rect x="380" y="65" width="100" height="90" fill="#D7CCC8" rx="12">
+      <animate attributeName="opacity" values="1;0.8;1" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="430" cy="105" rx="35" ry="22" fill="#D2691E"/>
+    <ellipse cx="430" cy="100" rx="30" ry="15" fill="#DEB887"/>
+    <text x="430" y="148" font-size="13" fill="#5D4037" text-anchor="middle" font-weight="bold">bread</text>
+    
+    <!-- Cheese -->
+    <rect x="20" y="165" width="110" height="90" fill="#FFF8E1" rx="12">
+      <animate attributeName="opacity" values="1;0.8;1" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <polygon points="40,230 110,230 120,200 50,200" fill="#FFC107"/>
+    <circle cx="60" cy="215" r="4" fill="#FF9800"/>
+    <circle cx="85" cy="220" r="3" fill="#FF9800"/>
+    <circle cx="100" cy="210" r="4" fill="#FF9800"/>
+    <text x="75" y="248" font-size="13" fill="#F57F17" text-anchor="middle" font-weight="bold">cheese</text>
+    
+    <!-- Milk -->
+    <rect x="140" y="165" width="110" height="90" fill="#E3F2FD" rx="12">
+      <animate attributeName="opacity" values="1;0.8;1" dur="4.7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="175" y="190" width="40" height="55" fill="#FAFAFA" rx="3"/>
+    <rect x="175" y="180" width="40" height="15" fill="#2196F3" rx="3"/>
+    <text x="195" y="220" font-size="10" fill="#1565C0" text-anchor="middle">milk</text>
+    <text x="195" y="248" font-size="13" fill="#0D47A1" text-anchor="middle" font-weight="bold">milk</text>
+    
+    <!-- Egg -->
+    <rect x="260" y="165" width="110" height="90" fill="#FAFAFA" rx="12">
+      <animate attributeName="opacity" values="1;0.8;1" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="315" cy="210" rx="22" ry="28" fill="#FFF8E1"/>
+    <ellipse cx="315" cy="215" rx="12" ry="15" fill="#FFECB3"/>
+    <text x="315" y="248" font-size="13" fill="#5D4037" text-anchor="middle" font-weight="bold">egg</text>
+    
+    <!-- Cake -->
+    <rect x="380" y="165" width="100" height="90" fill="#FCE4EC" rx="12">
+      <animate attributeName="opacity" values="1;0.8;1" dur="5.7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="400" y="200" width="60" height="30" fill="#D7CCC8" rx="5"/>
+    <rect x="400" y="185" width="60" height="20" fill="#FFCCBC" rx="5"/>
+    <rect x="400" y="175" width="60" height="15" fill="#F48FB1" rx="5"/>
+    <circle cx="420" cy="170" r="5" fill="#E53935"/>
+    <circle cx="430" cy="172" r="5" fill="#FFEB3B"/>
+    <circle cx="440" cy="170" r="5" fill="#4CAF50"/>
+    <text x="430" y="248" font-size="13" fill="#880E4F" text-anchor="middle" font-weight="bold">cake</text>
+  </g>
+  
+  <!-- Lesson number -->
+  <circle cx="470" cy="320" r="20" fill="#FFC107" opacity="0.9"/>
+  <text x="470" y="326" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">6</text>
+</svg>

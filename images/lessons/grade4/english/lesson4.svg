@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="6" fill="#C41E3A"/>
+  <!-- Gold line under red bar -->
+  <rect y="6" width="500" height="2" fill="#D4A843" opacity="0.6"/>
+
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Урок 4:  Вопросительные слова</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#2B4C7E" text-anchor="middle">Question words</text>
+
+  
+  <!-- Central big question mark -->
+  <text x="250" y="230" font-family="Arial Black, Arial" font-size="100" fill="#C41E3A" text-anchor="middle" opacity="0.15" font-weight="bold">?</text>
+  <!-- Question words in circles -->
+  <circle cx="250" cy="165" r="28" fill="#C41E3A"/>
+  <text x="250" y="171" font-family="Arial" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">What?</text>
+  <circle cx="130" cy="200" r="28" fill="#2B4C7E"/>
+  <text x="130" y="206" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Where?</text>
+  <circle cx="370" cy="200" r="28" fill="#2B4C7E"/>
+  <text x="370" y="206" font-family="Arial" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Who?</text>
+  <circle cx="150" cy="280" r="25" fill="#D4A843"/>
+  <text x="150" y="286" font-family="Arial" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">When?</text>
+  <circle cx="350" cy="280" r="25" fill="#D4A843"/>
+  <text x="350" y="286" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Why?</text>
+  <circle cx="250" cy="115" r="22" fill="#1a1a1a"/>
+  <text x="250" y="121" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">How?</text>
+  <!-- Connecting lines -->
+  <line x1="222" y1="155" x2="170" y2="185" stroke="#1a1a1a" stroke-width="1" opacity="0.2"/>
+  <line x1="278" y1="155" x2="330" y2="185" stroke="#1a1a1a" stroke-width="1" opacity="0.2"/>
+  <line x1="250" y1="193" x2="250" y2="137" stroke="#1a1a1a" stroke-width="1" opacity="0.2"/>
+  <line x1="170" y1="220" x2="165" y2="255" stroke="#1a1a1a" stroke-width="1" opacity="0.2"/>
+  <line x1="330" y1="220" x2="335" y2="255" stroke="#1a1a1a" stroke-width="1" opacity="0.2"/>
+  <!-- Small question marks -->
+  <text x="80" y="150" font-family="Arial" font-size="30" fill="#C41E3A" opacity="0.1">?</text>
+  <text x="400" y="300" font-family="Arial" font-size="25" fill="#2B4C7E" opacity="0.1">?</text>
+
+  <!-- Bottom dark bar -->
+  <rect y="318" width="500" height="32" fill="#1a1a1a"/>
+  <rect y="318" width="500" height="2" fill="#D4A843" opacity="0.5"/>
+  <text x="250" y="339" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#F5E6C8" text-anchor="middle" letter-spacing="1">Иностранный язык — 4 класс</text>
+</svg>
