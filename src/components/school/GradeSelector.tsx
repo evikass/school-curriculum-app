@@ -1,6 +1,7 @@
 'use client'
 
 import { useSchool } from '@/context/SchoolContext'
+import { prefetchGrade } from '@/data'
 
 const gradeStyles: Record<number, { emoji: string; color: string; bgEmoji: string }> = {
   0: { emoji: '🎒', color: 'from-pink-400 via-purple-400 to-pink-500', bgEmoji: '🎈🎈🎈' },
@@ -42,6 +43,8 @@ export default function GradeSelector() {
             <button
               key={cls}
               onClick={() => goToClass(cls)}
+              onMouseEnter={() => prefetchGrade(cls)}
+              onTouchStart={() => prefetchGrade(cls)}
               className={`
                 group relative overflow-hidden
                 p-6 md:p-8 rounded-3xl
