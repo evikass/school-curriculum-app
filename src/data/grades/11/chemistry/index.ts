@@ -1,7 +1,7 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[]) => ({ 
-  title, description, tasks, content, examples, facts, keyPoints
+const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[], image?: string) => ({ 
+  title, description, tasks, content, examples, facts, keyPoints, image
 })
 
 export const lessons: SubjectData = {
@@ -26,7 +26,8 @@ export const lessons: SubjectData = {
           "Амины — производные аммиака",
           "Анилин — ароматический амин C6H5NH2",
           "Амины проявляют основные свойства"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/chemistry/lesson1.svg"),
         L("Урок 2: Аминокислоты", "Строительные блоки белков.", [
           "Строение аминокислот",
           "Изомерия аминокислот",
@@ -40,7 +41,8 @@ export const lessons: SubjectData = {
           "Аминокислоты — амфотерные соединения",
           "Пептидная связь — основа белков",
           "20 аминокислот входят в состав белков"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/chemistry/lesson2.svg"),
         L("Урок 3: Белки", "Природные полимеры.", [
           "Строение белков",
           "Уровни организации белков",
@@ -54,7 +56,8 @@ export const lessons: SubjectData = {
           "Белки имеют 4 уровня структуры",
           "Денатурация — разрушение структуры белка",
           "Функции: каталитическая, транспортная, защитная"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/chemistry/lesson3.svg"),
         L("Урок 4: Нуклеиновые кислоты", "ДНК и РНК.", [
           "Строение нуклеотидов",
           "ДНК — дезоксирибонуклеиновая кислота",
@@ -68,7 +71,8 @@ export const lessons: SubjectData = {
           "ДНК — двойная спираль, A=T, G≡C",
           "РНК — одноцепочечная, вместо T — U",
           "АТФ — универсальный источник энергии"
-        ])
+        ],
+  "/school-curriculum-app/images/lessons/grade11/chemistry/lesson4.svg")
       ]
     },
     {
@@ -87,7 +91,8 @@ export const lessons: SubjectData = {
           "Полимеризация: n мономеров → полимер",
           "Термопластичные vs термореактивные пластмассы",
           "Полиэтилен, ПВХ, тефлон — синтетические полимеры"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/chemistry/lesson5.svg"),
         L("Урок 6: Природные полимеры", "Углеводы и белки.", [
           "Полисахариды",
           "Целлюлоза и крахмал",
@@ -101,7 +106,8 @@ export const lessons: SubjectData = {
           "Крахмал + йод → синий цвет",
           "Целлюлоза — структурный полисахарид растений",
           "Хитин — полисахарид членистоногих"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/chemistry/lesson6.svg"),
         L("Урок 7: Каучуки и резины", "Эластичные материалы.", [
           "Натуральный каучук",
           "Синтетические каучуки",
@@ -115,7 +121,8 @@ export const lessons: SubjectData = {
           "Натуральный каучук — полиизопрен из гевеи",
           "Вулканизация: каучук + сера → резина",
           "Синтетические каучуки: СКБ, СКИ, СКС"
-        ])
+        ],
+  "/school-curriculum-app/images/lessons/grade11/chemistry/lesson7.svg")
       ]
     },
     {
@@ -134,7 +141,8 @@ export const lessons: SubjectData = {
           "Водорастворимые: C, B-группа; жирорастворимые: A, D, E, K",
           "Витамин D — «солнечный витамин»",
           "Гиповитаминоз и гипервитаминоз опасны"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/chemistry/lesson8.svg"),
         L("Урок 9: Лекарственные вещества", "Химия в медицине.", [
           "Группы лекарственных веществ",
           "Антибиотики",
@@ -148,7 +156,8 @@ export const lessons: SubjectData = {
           "Пенициллин — первый антибиотик",
           "Аспирин — ацетилсалициловая кислота",
           "Соблюдайте дозировку и сроки годности лекарств"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/chemistry/lesson9.svg"),
         L("Урок 10: Химия и экология", "Охрана окружающей среды.", [
           "Загрязнение атмосферы",
           "Загрязнение воды",
@@ -162,7 +171,8 @@ export const lessons: SubjectData = {
           "CO2 — парниковый эффект",
           "Фреоны разрушают озоновый слой",
           "Принципы зелёной химии: безопасность, эффективность"
-        ])
+        ],
+  "/school-curriculum-app/images/lessons/grade11/chemistry/lesson10.svg")
       ]
     }
   ]

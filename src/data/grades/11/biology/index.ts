@@ -171,6 +171,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Урок 1: Развитие эволюционных идей",
+        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson1.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -184,6 +185,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 2: Доказательства эволюции",
+        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson2.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -197,6 +199,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 3: Микроэволюция",
+        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson3.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -210,6 +213,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 4: Макроэволюция",
+        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson4.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -223,6 +227,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 5: Экологические факторы",
+        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson5.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -236,6 +241,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 6: Популяции и сообщества",
+        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson6.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -249,6 +255,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 7: Экосистемы",
+        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson7.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -262,6 +269,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 8: Биосфера",
+        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson8.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -275,6 +283,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 9: Человек и биосфера",
+        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson9.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -288,6 +297,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 10: Основы биотехнологии",
+        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson10.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",

@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Магнитное поле",
+        image: "/school-curriculum-app/images/lessons/grade11/physics/lesson1.svg",
           description: `**Магнитное поле** — это особый вид материи, через который осуществляется взаимодействие движущихся электрических зарядов.
 
 **Вектор магнитной индукции B:**
@@ -81,6 +82,7 @@ F = qvB = 1.6 × 10⁻¹⁹ × 10⁶ × 0.01 = 1.6 × 10⁻¹⁵ Н
         },
         {
           title: "Электромагнитная индукция",
+        image: "/school-curriculum-app/images/lessons/grade11/physics/lesson2.svg",
           description: `**Электромагнитная индукция** — явление возникновения электрического тока в замкнутом контуре при изменении магнитного потока.
 
 **Магнитный поток:**
@@ -158,6 +160,7 @@ W = LI²/2 = 0.5 × 16/2 = 4 Дж
       lessons: [
         {
           title: "Гармонические колебания",
+        image: "/school-curriculum-app/images/lessons/grade11/physics/lesson3.svg",
           description: `**Гармонические колебания** — колебания, происходящие по закону синуса или косинуса.
 
 **Уравнение гармонических колебаний:**
@@ -232,6 +235,7 @@ T = 2π√(m/k) = 2π√(0.1/40) = 2π√(0.0025) = 2π × 0.05 = 0.1π ≈ 0.31
         },
         {
           title: "Электромагнитные колебания",
+        image: "/school-curriculum-app/images/lessons/grade11/physics/lesson4.svg",
           description: `**Колебательный контур** — цепь из катушки индуктивности и конденсатора.
 
 **Формула Томсона:**
@@ -302,6 +306,7 @@ U = 311/√2 ≈ 311/1.41 ≈ 220 В
       lessons: [
         {
           title: "Геометрическая оптика",
+        image: "/school-curriculum-app/images/lessons/grade11/physics/lesson5.svg",
           description: `**Закон отражения:**
 Угол падения равен углу отражения.
 α = β
@@ -375,6 +380,7 @@ f = 1/1.67 ≈ 0.6 м = 60 см
         },
         {
           title: "Волновая оптика",
+        image: "/school-curriculum-app/images/lessons/grade11/physics/lesson6.svg",
           description: `**Интерференция света** — наложение световых волн, приводящее к их усилению или ослаблению.
 
 **Условие максимума:**
@@ -442,6 +448,7 @@ sin φ = kλ/d = 6 × 10⁻⁷ / 2 × 10⁻⁶ = 0.3
       lessons: [
         {
           title: "Фотоэффект",
+        image: "/school-curriculum-app/images/lessons/grade11/physics/lesson7.svg",
           description: `**Фотоэффект** — испускание электронов веществом под действием света.
 
 **Законы Столетова:**
@@ -507,6 +514,7 @@ Aвых = 1.9 эВ = 3.04 × 10⁻¹⁹ Дж
       lessons: [
         {
           title: "Строение атома",
+        image: "/school-curriculum-app/images/lessons/grade11/physics/lesson8.svg",
           description: `**Модель атома Резерфорда:**
 - Атом состоит из положительно заряженного ядра и электронов
 - Ядро занимает очень малую часть объёма атома

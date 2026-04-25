@@ -357,6 +357,7 @@ export const games: GameLesson[] = [
   // ========== ТЕСТЫ К УРОКАМ ==========
   {
     title: "Урок 1: Сложное предложение",
+        image: "/school-curriculum-app/images/lessons/grade11/russian/lesson1.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -372,6 +373,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 2: Пунктуация в СПП",
+        image: "/school-curriculum-app/images/lessons/grade11/russian/lesson2.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -387,6 +389,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 3: Прямая и косвенная речь",
+        image: "/school-curriculum-app/images/lessons/grade11/russian/lesson3.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -402,6 +405,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 4: Н и НН в разных частях речи",
+        image: "/school-curriculum-app/images/lessons/grade11/russian/lesson4.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -417,6 +421,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 5: Правописание приставок",
+        image: "/school-curriculum-app/images/lessons/grade11/russian/lesson5.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -432,6 +437,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 6: Правописание глагольных форм",
+        image: "/school-curriculum-app/images/lessons/grade11/russian/lesson6.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -447,6 +453,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 7: Текст как единица речи",
+        image: "/school-curriculum-app/images/lessons/grade11/russian/lesson7.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -462,6 +469,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 8: Стили речи",
+        image: "/school-curriculum-app/images/lessons/grade11/russian/lesson8.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -477,6 +485,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 9: Изобразительно-выразительные средства",
+        image: "/school-curriculum-app/images/lessons/grade11/russian/lesson9.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -492,6 +501,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 10: Нормы литературного языка",
+        image: "/school-curriculum-app/images/lessons/grade11/russian/lesson10.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -507,6 +517,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 11: Подготовка к сочинению",
+        image: "/school-curriculum-app/images/lessons/grade11/russian/lesson11.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -522,6 +533,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 12: Подготовка к ЕГЭ",
+        image: "/school-curriculum-app/images/lessons/grade11/russian/lesson12.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",

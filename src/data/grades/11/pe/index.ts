@@ -143,6 +143,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Урок 1: Физическая культура и здоровье",
+        image: "/school-curriculum-app/images/lessons/grade11/pe/lesson1.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -156,6 +157,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 2: Гигиена физкультуры",
+        image: "/school-curriculum-app/images/lessons/grade11/pe/lesson2.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -169,6 +171,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 3: Самоконтроль",
+        image: "/school-curriculum-app/images/lessons/grade11/pe/lesson3.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -182,6 +185,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 4: Лёгкая атлетика",
+        image: "/school-curriculum-app/images/lessons/grade11/pe/lesson4.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -195,6 +199,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 5: Спортивные игры",
+        image: "/school-curriculum-app/images/lessons/grade11/pe/lesson5.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -208,6 +213,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 6: Гимнастика",
+        image: "/school-curriculum-app/images/lessons/grade11/pe/lesson6.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -221,6 +227,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 7: Развитие физических качеств",
+        image: "/school-curriculum-app/images/lessons/grade11/pe/lesson7.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -234,6 +241,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 8: Профилактика травматизма",
+        image: "/school-curriculum-app/images/lessons/grade11/pe/lesson8.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -247,6 +255,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 9: Организация соревнований",
+        image: "/school-curriculum-app/images/lessons/grade11/pe/lesson9.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -260,6 +269,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 10: Прикладные навыки",
+        image: "/school-curriculum-app/images/lessons/grade11/pe/lesson10.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -273,6 +283,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 11: Туризм и походы",
+        image: "/school-curriculum-app/images/lessons/grade11/pe/lesson11.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -286,6 +297,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 12: Физкультура и будущее",
+        image: "/school-curriculum-app/images/lessons/grade11/pe/lesson12.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
