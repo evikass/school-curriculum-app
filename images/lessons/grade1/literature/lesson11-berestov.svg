@@ -9,6 +9,17 @@
   <!-- Background -->
   <rect width="400" height="300" fill="url(#schoolGrad)"/>
   
+  <!-- Sun (static) -->
+  <circle cx="50" cy="45" r="20" fill="#FFD54F" opacity="0.8"/>
+  <line x1="50" y1="20" x2="50" y2="12" stroke="#FFD54F" stroke-width="2" opacity="0.5"/>
+  <line x1="50" y1="70" x2="50" y2="78" stroke="#FFD54F" stroke-width="2" opacity="0.5"/>
+  <line x1="25" y1="45" x2="17" y2="45" stroke="#FFD54F" stroke-width="2" opacity="0.5"/>
+  <line x1="75" y1="45" x2="83" y2="45" stroke="#FFD54F" stroke-width="2" opacity="0.5"/>
+  <line x1="32" y1="27" x2="26" y2="21" stroke="#FFD54F" stroke-width="2" opacity="0.5"/>
+  <line x1="68" y1="63" x2="74" y2="69" stroke="#FFD54F" stroke-width="2" opacity="0.5"/>
+  <line x1="68" y1="27" x2="74" y2="21" stroke="#FFD54F" stroke-width="2" opacity="0.5"/>
+  <line x1="32" y1="63" x2="26" y2="69" stroke="#FFD54F" stroke-width="2" opacity="0.5"/>
+  
   <!-- School building -->
   <g transform="translate(200, 100)">
     <!-- Main building -->
@@ -108,21 +119,17 @@
     </ellipse>
   </g>
   
-  <!-- School supplies floating -->
+  <!-- School supplies -->
   <!-- Book -->
   <g transform="translate(220, 180)">
-    <rect x="0" y="0" width="40" height="30" fill="#3F51B5" rx="2">
-      <animateTransform attributeName="transform" type="translate" values="220,180;225,175;220,180" dur="2s" repeatCount="indefinite"/>
-    </rect>
+    <rect x="0" y="0" width="40" height="30" fill="#3F51B5" rx="2"/>
     <rect x="5" y="5" width="30" height="3" fill="#C5CAE9"/>
     <rect x="5" y="12" width="30" height="3" fill="#C5CAE9"/>
   </g>
   
   <!-- Pencil -->
   <g transform="translate(280, 170)">
-    <rect x="0" y="0" width="8" height="40" fill="#FFC107" rx="1">
-      <animateTransform attributeName="transform" type="rotate" values="-5 4 20;5 4 20;-5 4 20" dur="1.5s" repeatCount="indefinite"/>
-    </rect>
+    <rect x="0" y="0" width="8" height="40" fill="#FFC107" rx="1"/>
     <polygon points="0,40 4,50 8,40" fill="#FFCC80"/>
     <rect x="0" y="0" width="8" height="6" fill="#F44336"/>
   </g>
@@ -142,36 +149,22 @@
     </g>
   </g>
   
-  <!-- Bell -->
+  <!-- Bell (static) -->
   <g transform="translate(350, 80)">
     <ellipse cx="0" cy="0" rx="15" ry="18" fill="#FFD600"/>
     <ellipse cx="0" cy="3" rx="10" ry="12" fill="#FFC107"/>
     <circle cx="0" cy="18" r="4" fill="#FF8F00"/>
     <line x1="0" y1="-18" x2="0" y2="-25" stroke="#795548" stroke-width="2"/>
     <circle cx="0" cy="-28" r="5" fill="#795548"/>
-    <animateTransform attributeName="transform" type="rotate" values="-5 350 80;5 350 80;-5 350 80" dur="0.3s" repeatCount="indefinite"/>
   </g>
   
-  <!-- ABC letters -->
-  <text x="50" y="50" font-family="'Comic Sans MS', cursive" font-size="20" font-weight="bold" fill="#F44336">
-    А
-    <animate attributeName="y" values="50;45;50" dur="1s" repeatCount="indefinite"/>
-  </text>
-  <text x="80" y="45" font-family="'Comic Sans MS', cursive" font-size="18" font-weight="bold" fill="#4CAF50">
-    Б
-    <animate attributeName="y" values="45;50;45" dur="1.2s" repeatCount="indefinite"/>
-  </text>
-  <text x="105" y="55" font-family="'Comic Sans MS', cursive" font-size="16" font-weight="bold" fill="#2196F3">
-    В
-    <animate attributeName="y" values="55;48;55" dur="0.8s" repeatCount="indefinite"/>
-  </text>
+  <!-- ABC letters (static) -->
+  <text x="110" y="50" font-family="'Comic Sans MS', cursive" font-size="20" font-weight="bold" fill="#F44336">А</text>
+  <text x="130" y="48" font-family="'Comic Sans MS', cursive" font-size="18" font-weight="bold" fill="#4CAF50">Б</text>
+  <text x="148" y="55" font-family="'Comic Sans MS', cursive" font-size="16" font-weight="bold" fill="#2196F3">В</text>
   
   <!-- Number 1 -->
-  <g transform="translate(40, 100)">
-    <text x="0" y="0" font-family="'Comic Sans MS', cursive" font-size="30" font-weight="bold" fill="#E91E63">
-      1
-    </text>
-  </g>
+  <text x="90" y="85" font-family="'Comic Sans MS', cursive" font-size="30" font-weight="bold" fill="#E91E63">1</text>
   
   <!-- Title -->
   <text x="200" y="290" text-anchor="middle" font-family="'Comic Sans MS', cursive" font-size="14" font-weight="bold" fill="#1565C0">

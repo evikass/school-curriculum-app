@@ -8,9 +8,7 @@
   <rect width="500" height="350" fill="url(#bgbd9fd2e2)"/>
   <rect width="500" height="350" fill="#FFF8E1" opacity="0.25"/>
   
-  <circle cx="440" cy="55" r="18" fill="#FFD54F" opacity="0.8">
-<animate attributeName="r" values="16;20;16" dur="4s" repeatCount="indefinite"/>
-</circle>
+  <circle cx="440" cy="55" r="18" fill="#FFD54F" opacity="0.8"/>
 <line x1="462.0" y1="55.0" x2="470.0" y2="55.0" stroke="#FFD54F" stroke-width="2" opacity="0.5"/>
 <line x1="459.1" y1="66.0" x2="466.0" y2="70.0" stroke="#FFD54F" stroke-width="2" opacity="0.5"/>
 <line x1="451.0" y1="74.1" x2="455.0" y2="81.0" stroke="#FFD54F" stroke-width="2" opacity="0.5"/>
