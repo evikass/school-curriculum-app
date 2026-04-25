@@ -304,773 +304,898 @@
   },
   "games": [
     {
-      "title": "Урок 1: Времена группы Perfect",
+      "title": "Времена группы Perfect ⏰",
       "subject": "Английский язык",
-      "icon": "Languages",
+      "icon": "BookOpenText",
       "color": "text-pink-400",
       "tasks": [
         {
           "type": "quiz",
-          "question": "Present Perfect образуется с помощью:",
+          "question": "Как образуется Present Perfect?",
           "options": [
             "have/has + V3",
             "had + V3",
             "will have + V3",
-            "is + Ving",
-            "—"
+            "have + V-ing",
+            "Не знаю"
           ],
           "correctAnswer": "have/has + V3",
-          "hint": "I have finished. She has finished."
+          "hint": "Вспомогательный глагол have/has + причастие прошедшего времени"
         },
         {
           "type": "quiz",
-          "question": "Past Perfect образуется с помощью:",
+          "question": "Что выражает Past Perfect?",
           "options": [
-            "had + V3",
-            "have/has + V3",
-            "will have + V3",
-            "is + Ving",
-            "was + Ving"
+            "Действие, завершившееся до другого действия в прошлом",
+            "Действие в настоящий момент",
+            "Планы на будущее",
+            "Регулярное действие в прошлом",
+            "Не знаю"
           ],
-          "correctAnswer": "had + V3",
-          "hint": "She had left when I came."
+          "correctAnswer": "Действие, завершившееся до другого действия в прошлом",
+          "hint": "Past Perfect — «предпрошедшее» время"
         },
         {
-          "type": "quiz",
-          "question": "Future Perfect используется для:",
+          "type": "find",
+          "question": "Выберите маркеры Present Perfect:",
           "options": [
-            "Действия в прошлом",
-            "Действия, которое завершится к моменту в будущем",
-            "Действия сейчас",
-            "Регулярного действия",
-            "—"
+            "already",
+            "yesterday",
+            "just",
+            "ever",
+            "last week",
+            "never"
           ],
-          "correctAnswer": "Действия, которое завершится к моменту в будущем",
-          "hint": "By 2025 I will have graduated."
-        },
-        {
-          "type": "quiz",
-          "question": "Какой из маркеров Present Perfect означает 'ещё не'?",
-          "options": [
-            "yet",
+          "correctAnswer": [
             "already",
             "just",
             "ever",
             "never"
           ],
-          "correctAnswer": "yet",
-          "hint": "I haven't done it yet."
+          "hint": "Present Perfect не используется с указанием точного времени в прошлом"
         },
         {
           "type": "quiz",
-          "question": "Какое время используется для действия до другого действия в прошлом?",
+          "question": "Какое предложение в Present Perfect?",
           "options": [
-            "Present Perfect",
-            "Past Perfect",
-            "Past Simple",
-            "Future Perfect",
-            "—"
+            "I have lost my key.",
+            "I lost my key yesterday.",
+            "I was losing my key.",
+            "I will lose my key.",
+            "Не знаю"
           ],
-          "correctAnswer": "Past Perfect",
-          "hint": "He had left when I came."
+          "correctAnswer": "I have lost my key.",
+          "hint": "Present Perfect связывает прошлое с настоящим результатом"
+        },
+        {
+          "type": "find",
+          "question": "Выберите верные соответствия времён и их формул:",
+          "options": [
+            "Present Perfect → have/has + V3",
+            "Past Perfect → had + V3",
+            "Future Perfect → will + V",
+            "Past Simple → had + V3",
+            "Present Perfect → have + V-ing",
+            "Future Perfect → will have + V3"
+          ],
+          "correctAnswer": [
+            "Present Perfect → have/has + V3",
+            "Past Perfect → had + V3",
+            "Future Perfect → will have + V3"
+          ],
+          "hint": "Все Perfect времена используют V3 (причастие прошедшего времени)"
         }
       ],
       "reward": {
         "stars": 3,
-        "message": "Great! You know Perfect tenses! 🎯"
+        "message": "Отлично! Времена Perfect освоены! ⏰"
       }
     },
     {
-      "title": "Урок 2: Passive Voice",
+      "title": "Passive Voice 🔄",
       "subject": "Английский язык",
-      "icon": "Languages",
+      "icon": "BookOpenText",
       "color": "text-pink-400",
       "tasks": [
         {
           "type": "quiz",
-          "question": "Passive Voice образуется:",
+          "question": "Как образуется Passive Voice?",
           "options": [
             "be + V3",
             "have + V3",
-            "will + V",
+            "be + V-ing",
             "do + V",
-            "—"
+            "Не знаю"
           ],
           "correctAnswer": "be + V3",
-          "hint": "The book is written."
+          "hint": "Страдательный залог: форма глагола to be + причастие прошедшего времени"
         },
         {
           "type": "quiz",
-          "question": "Past Simple Passive образуется с помощью:",
+          "question": "Какой предлог используется для указания агента в пассиве?",
           "options": [
-            "was/were + V3",
-            "am/is/are + V3",
-            "has/have + V3",
-            "will be + V3",
-            "had been + V3"
+            "by",
+            "with",
+            "from",
+            "of",
+            "Не знаю"
           ],
-          "correctAnswer": "was/were + V3",
-          "hint": "was/were + V3"
+          "correctAnswer": "by",
+          "hint": "The book was written BY Pushkin"
+        },
+        {
+          "type": "find",
+          "question": "Выберите случаи, когда используется Passive Voice:",
+          "options": [
+            "Неизвестно, кто совершил действие",
+            "Важнее объект, чем субъект",
+            "В научных текстах",
+            "В разговорной речи всегда",
+            "Когда действие происходит сейчас",
+            "В инструкциях"
+          ],
+          "correctAnswer": [
+            "Неизвестно, кто совершил действие",
+            "Важнее объект, чем субъект",
+            "В научных текстах",
+            "В инструкциях"
+          ],
+          "hint": "Passive используется, когда действие важнее деятеля"
         },
         {
           "type": "quiz",
-          "question": "Present Simple Passive:",
+          "question": "Как будет «Книга была прочитана» в Passive Voice?",
           "options": [
-            "am/is/are + V3",
-            "was/were + V3",
-            "will be + V3",
-            "has been + V3",
-            "—"
+            "The book was read.",
+            "The book read.",
+            "The book is reading.",
+            "The book has read.",
+            "Не знаю"
           ],
-          "correctAnswer": "am/is/are + V3",
-          "hint": "English is spoken here."
+          "correctAnswer": "The book was read.",
+          "hint": "Past Simple Passive: was/were + V3"
         },
         {
-          "type": "quiz",
-          "question": "В Present Perfect Passive после have/has следует:",
+          "type": "find",
+          "question": "Выберите верные формы Passive Voice:",
           "options": [
-            "been + V3",
-            "be + V3",
-            "being + V3",
-            "is + V3",
-            "was + V3"
+            "Present Simple: am/is/are + V3",
+            "Past Simple: was/were + V3",
+            "Future Simple: will be + V3",
+            "Present Perfect: have/has been + V3",
+            "Present Continuous: am/is/are being + V3",
+            "Past Perfect: had been + V3"
           ],
-          "correctAnswer": "been + V3",
-          "hint": "have/has been + V3"
-        },
-        {
-          "type": "quiz",
-          "question": "Когда используется Passive Voice?",
-          "options": [
-            "Когда важен объект или субъект неизвестен",
-            "Когда важен субъект",
-            "Всегда",
-            "Никогда",
-            "—"
+          "correctAnswer": [
+            "Present Simple: am/is/are + V3",
+            "Past Simple: was/were + V3",
+            "Future Simple: will be + V3",
+            "Present Perfect: have/has been + V3",
+            "Present Continuous: am/is/are being + V3",
+            "Past Perfect: had been + V3"
           ],
-          "correctAnswer": "Когда важен объект или субъект неизвестен",
-          "hint": "The window was broken. (Кем? — неизвестно)"
+          "hint": "Формула Passive: be (в нужном времени) + V3"
         }
       ],
       "reward": {
         "stars": 3,
-        "message": "Excellent! You know Passive Voice! 📚"
+        "message": "Супер! Пассивный залог изучен! 🔄"
       }
     },
     {
-      "title": "Урок 3: Conditionals",
+      "title": "Conditionals 🔀",
       "subject": "Английский язык",
-      "icon": "Languages",
+      "icon": "BookOpenText",
       "color": "text-pink-400",
       "tasks": [
         {
           "type": "quiz",
-          "question": "Какая форма используется во Second Conditional после If I/he/she/it?",
+          "question": "Какое условие выражает Second Conditional?",
+          "options": [
+            "Нереальное условие в настоящем/будущем",
+            "Факт/закон природы",
+            "Реальное условие в будущем",
+            "Нереальное условие в прошлом",
+            "Не знаю"
+          ],
+          "correctAnswer": "Нереальное условие в настоящем/будущем",
+          "hint": "If I had a million dollars, I would buy a house (но у меня нет)"
+        },
+        {
+          "type": "quiz",
+          "question": "Какая структура у Third Conditional?",
+          "options": [
+            "If + Past Perfect, would have + V3",
+            "If + Past Simple, would + V",
+            "If + Present Simple, will + V",
+            "If + Present, Present",
+            "Не знаю"
+          ],
+          "correctAnswer": "If + Past Perfect, would have + V3",
+          "hint": "Third Conditional — сожаление о прошлом: If I had studied, I would have passed"
+        },
+        {
+          "type": "find",
+          "question": "Выберите верные соответствия типов условных предложений:",
+          "options": [
+            "Zero — If + Present, Present (факт)",
+            "First — If + Present, will + V (реальное будущее)",
+            "Second — If + Past, would + V (нереальное настоящее)",
+            "Third — If + Past, will + V",
+            "Zero — If + Past, Past",
+            "First — If + will, will + V"
+          ],
+          "correctAnswer": [
+            "Zero — If + Present, Present (факт)",
+            "First — If + Present, will + V (реальное будущее)",
+            "Second — If + Past, would + V (нереальное настоящее)"
+          ],
+          "hint": "Каждый тип условного имеет свою структуру и значение"
+        },
+        {
+          "type": "quiz",
+          "question": "Какая форма глагола to be используется в Second Conditional для всех лиц?",
           "options": [
             "were",
             "was",
-            "am",
             "is",
-            "be"
+            "are",
+            "Не знаю"
           ],
           "correctAnswer": "were",
-          "hint": "Во II Conditional: If I were..."
+          "hint": "If I were you... If he were rich..."
         },
         {
-          "type": "quiz",
-          "question": "Zero Conditional описывает:",
+          "type": "find",
+          "question": "Выберите предложения в правильном условном типе:",
           "options": [
-            "Факты и законы природы",
-            "Реальное будущее",
-            "Нереальное настоящее",
-            "Нереальное прошлое",
-            "—"
+            "If you heat water to 100°C, it boils. (0)",
+            "If it rains, I will stay home. (I)",
+            "If I were you, I would accept. (II)",
+            "If I had known, I would have come. (III)",
+            "If it rained, I will stay home.",
+            "If I will study, I pass."
           ],
-          "correctAnswer": "Факты и законы природы",
-          "hint": "If you heat ice, it melts."
-        },
-        {
-          "type": "quiz",
-          "question": "First Conditional:",
-          "options": [
-            "If + Present, will + V",
-            "If + Past, would + V",
-            "If + Present, Present",
-            "If + Past Perfect, would have + V3",
-            "—"
+          "correctAnswer": [
+            "If you heat water to 100°C, it boils. (0)",
+            "If it rains, I will stay home. (I)",
+            "If I were you, I would accept. (II)",
+            "If I had known, I would have come. (III)"
           ],
-          "correctAnswer": "If + Present, will + V",
-          "hint": "If it rains, I will stay home."
-        },
-        {
-          "type": "quiz",
-          "question": "В Third Conditional после 'If I had known, I ... have come' используется:",
-          "options": [
-            "would",
-            "will",
-            "could",
-            "shall",
-            "should"
-          ],
-          "correctAnswer": "would",
-          "hint": "would have + V3"
-        },
-        {
-          "type": "quiz",
-          "question": "Third Conditional описывает:",
-          "options": [
-            "Реальное будущее",
-            "Нереальное настоящее",
-            "Нереальное прошлое",
-            "Факты",
-            "—"
-          ],
-          "correctAnswer": "Нереальное прошлое",
-          "hint": "If I had studied harder, I would have passed."
+          "hint": "Следите за соответствием формы и значения"
         }
       ],
       "reward": {
         "stars": 3,
-        "message": "Super! You know Conditionals! 🎓"
+        "message": "Класс! Условные предложения освоены! 🔀"
       }
     },
     {
-      "title": "Урок 4: Reported Speech",
+      "title": "Reported Speech 💬",
       "subject": "Английский язык",
-      "icon": "Languages",
+      "icon": "BookOpenText",
       "color": "text-pink-400",
       "tasks": [
         {
           "type": "quiz",
-          "question": "В косвенной речи Present Simple меняется на:",
+          "question": "Что происходит с временами при переводе в косвенную речь?",
           "options": [
-            "Past Simple",
-            "Present Perfect",
-            "Future Simple",
-            "Present Continuous",
-            "—"
+            "Они «сдвигаются назад»",
+            "Остаются без изменений",
+            "Переходят в будущее",
+            "Становятся Present Simple",
+            "Не знаю"
           ],
-          "correctAnswer": "Past Simple",
-          "hint": "\"I work\" → He said he worked."
+          "correctAnswer": "Они «сдвигаются назад»",
+          "hint": "Sequence of Tenses: Present → Past, Past → Past Perfect"
         },
         {
           "type": "quiz",
-          "question": "В косвенной речи will меняется на:",
+          "question": "\"I will come.\" → Он сказал, что...",
           "options": [
-            "would",
-            "will",
-            "shall",
-            "could",
-            "might"
+            "he would come.",
+            "he will come.",
+            "he comes.",
+            "he had come.",
+            "Не знаю"
           ],
-          "correctAnswer": "would",
-          "hint": "will → would"
+          "correctAnswer": "he would come.",
+          "hint": "will → would (сдвиг назад)"
+        },
+        {
+          "type": "find",
+          "question": "Выберите верные изменения при переходе в косвенную речь:",
+          "options": [
+            "Present Simple → Past Simple",
+            "Present Perfect → Past Perfect",
+            "will → would",
+            "can → could",
+            "may → might",
+            "must → must (без изменений)"
+          ],
+          "correctAnswer": [
+            "Present Simple → Past Simple",
+            "Present Perfect → Past Perfect",
+            "will → would",
+            "can → could",
+            "may → might"
+          ],
+          "hint": "Backshift: времена и модальные глаголы сдвигаются назад"
         },
         {
           "type": "quiz",
-          "question": "Для общих вопросов в косвенной речи используется:",
+          "question": "Какой союз используется для перевода общего вопроса в косвенную речь?",
           "options": [
-            "if/whether",
+            "if / whether",
+            "that",
             "what",
-            "where",
-            "how",
-            "—"
+            "which",
+            "Не знаю"
           ],
-          "correctAnswer": "if/whether",
-          "hint": "He asked if I liked coffee."
+          "correctAnswer": "if / whether",
+          "hint": "Общие вопросы (yes/no) передаются через if или whether"
         },
         {
-          "type": "quiz",
-          "question": "Для отрицательной команды в косвенной речи используется:",
+          "type": "find",
+          "question": "Выберите верные преобразования местоимений и наречий:",
           "options": [
-            "not to + V",
-            "to not + V",
-            "don't + V",
-            "not + V",
-            "no + V"
+            "now → then",
+            "today → that day",
+            "yesterday → the day before",
+            "here → there",
+            "tomorrow → tomorrow (без изменений)",
+            "this → that"
           ],
-          "correctAnswer": "not to + V",
-          "hint": "not to + V для отрицательных команд"
-        },
-        {
-          "type": "quiz",
-          "question": "В косвенной речи now меняется на:",
-          "options": [
-            "then",
-            "that day",
-            "there",
-            "the next day",
-            "—"
+          "correctAnswer": [
+            "now → then",
+            "today → that day",
+            "yesterday → the day before",
+            "here → there",
+            "this → that"
           ],
-          "correctAnswer": "then",
-          "hint": "\"I'm busy now\" → He said he was busy then."
+          "hint": "Указательные местоимения и наречия времени/места меняются"
         }
       ],
       "reward": {
         "stars": 3,
-        "message": "Well done! You know Reported Speech! 🗣️"
+        "message": "Молодец! Косвенная речь освоена! 💬"
       }
     },
     {
-      "title": "Урок 5: Phrasal Verbs",
+      "title": "Phrasal Verbs 🔄",
       "subject": "Английский язык",
-      "icon": "Languages",
+      "icon": "BookOpenText",
       "color": "text-pink-400",
       "tasks": [
         {
           "type": "quiz",
-          "question": "give up означает:",
+          "question": "Что означает phrasal verb «give up»?",
           "options": [
-            "бросить, отказаться",
-            "начать",
-            "искать",
-            "поднять",
-            "—"
+            "Бросить, отказаться",
+            "Поднять",
+            "Вернуть",
+            "Разобраться",
+            "Не знаю"
           ],
-          "correctAnswer": "бросить, отказаться",
-          "hint": "I gave up smoking."
+          "correctAnswer": "Бросить, отказаться",
+          "hint": "I gave up smoking — я бросил курить"
         },
         {
           "type": "quiz",
-          "question": "Какой предлог нужен в фразовом глаголе 'turn ___' — включить?",
+          "question": "Что означает «run out of»?",
           "options": [
-            "on",
-            "off",
-            "up",
-            "down",
-            "out"
+            "Закончиться (о запасах)",
+            "Выбежать из",
+            "Убежать от",
+            "Найти",
+            "Не знаю"
           ],
-          "correctAnswer": "on",
-          "hint": "Turn on the light."
+          "correctAnswer": "Закончиться (о запасах)",
+          "hint": "We ran out of milk — у нас закончилось молоко"
+        },
+        {
+          "type": "find",
+          "question": "Выберите верные значения фразовых глаголов:",
+          "options": [
+            "take up — начать заниматься",
+            "turn down — отклонить",
+            "look up — искать в словаре",
+            "break down — сломаться",
+            "put on — снять",
+            "give up — начать"
+          ],
+          "correctAnswer": [
+            "take up — начать заниматься",
+            "turn down — отклонить",
+            "look up — искать в словаре",
+            "break down — сломаться"
+          ],
+          "hint": "Значение фразового глагола часто не равно сумме значений его частей"
         },
         {
           "type": "quiz",
-          "question": "run out of означает:",
+          "question": "Что означает «find out»?",
           "options": [
-            "закончиться (о запасах)",
-            "выбежать",
-            "бежать из",
-            "исчерпать",
-            "—"
+            "Узнать, выяснить",
+            "Найти",
+            "Понять",
+            "Выключить",
+            "Не знаю"
           ],
-          "correctAnswer": "закончиться (о запасах)",
-          "hint": "We ran out of milk."
+          "correctAnswer": "Узнать, выяснить",
+          "hint": "I found out the truth — я узнал правду"
         },
         {
-          "type": "quiz",
-          "question": "Какой предлог нужен в фразовом глаголе 'find ___' — узнать, выяснить?",
+          "type": "find",
+          "question": "Выберите фразовые глаголы с предлогом UP:",
           "options": [
-            "out",
-            "up",
-            "off",
-            "on",
-            "in"
+            "wake up — просыпаться",
+            "grow up — вырастать",
+            "give up — бросить",
+            "take off — взлететь",
+            "turn down — отклонить",
+            "look up — искать в словаре"
           ],
-          "correctAnswer": "out",
-          "hint": "I found out the truth."
-        },
-        {
-          "type": "quiz",
-          "question": "calm down означает:",
-          "options": [
-            "успокоиться",
-            "волноваться",
-            "спускаться",
-            "записывать",
-            "—"
+          "correctAnswer": [
+            "wake up — просыпаться",
+            "grow up — вырастать",
+            "give up — бросить",
+            "look up — искать в словаре"
           ],
-          "correctAnswer": "успокоиться",
-          "hint": "Calm down, everything will be fine."
+          "hint": "Частица up часто означает завершённость или увеличение"
         }
       ],
       "reward": {
         "stars": 3,
-        "message": "Great! You know Phrasal Verbs! 📖"
+        "message": "Отлично! Фразовые глаголы изучены! 🔄"
       }
     },
     {
-      "title": "Урок 6: Idioms",
+      "title": "Idioms 🎭",
       "subject": "Английский язык",
-      "icon": "Languages",
+      "icon": "BookOpenText",
       "color": "text-pink-400",
       "tasks": [
         {
           "type": "quiz",
-          "question": "break a leg означает:",
+          "question": "Что означает идиома «break a leg»?",
           "options": [
-            "ни пуха ни пера!",
-            "сломать ногу",
-            "быть больным",
-            "идти медленно",
-            "—"
+            "Ни пуха ни пера!",
+            "Сломать ногу",
+            "Быть неуклюжим",
+            "Убежать",
+            "Не знаю"
           ],
-          "correctAnswer": "ни пуха ни пера!",
-          "hint": "Break a leg at the audition!"
+          "correctAnswer": "Ни пуха ни пера!",
+          "hint": "Эта идиома — пожелание удачи перед выступлением"
         },
         {
           "type": "quiz",
-          "question": "Идиома 'let the cat out of the bag' означает выдать:",
+          "question": "Что означает «it's raining cats and dogs»?",
           "options": [
-            "секрет",
-            "кошку",
-            "сумку",
-            "деньги",
-            "правду"
+            "Льёт как из ведра",
+            "Идёт снег",
+            "Животные падают с неба",
+            "Холодно",
+            "Не знаю"
           ],
-          "correctAnswer": "секрет",
-          "hint": "Don't let the cat out of the bag!"
+          "correctAnswer": "Льёт как из ведра",
+          "hint": "Идиома описывает очень сильный дождь"
+        },
+        {
+          "type": "find",
+          "question": "Выберите верные значения идиом:",
+          "options": [
+            "cost an arm and a leg — стоить очень дорого",
+            "let the cat out of the bag — выдать секрет",
+            "once in a blue moon — очень редко",
+            "kill two birds with one stone — убить двух зайцев",
+            "green with envy — заболеть",
+            "black sheep — чёрная овца (буквально)"
+          ],
+          "correctAnswer": [
+            "cost an arm and a leg — стоить очень дорого",
+            "let the cat out of the bag — выдать секрет",
+            "once in a blue moon — очень редко",
+            "kill two birds with one stone — убить двух зайцев"
+          ],
+          "hint": "Идиомы нельзя переводить дословно!"
         },
         {
           "type": "quiz",
-          "question": "once in a blue moon означает:",
+          "question": "Что означает «when pigs fly»?",
           "options": [
-            "очень редко",
-            "каждый день",
-            "ночью",
-            "при полной луне",
-            "—"
+            "Когда рак на горе свистнет",
+            "Свиньи летают",
+            "Скоро",
+            "Никогда не говори никогда",
+            "Не знаю"
           ],
-          "correctAnswer": "очень редко",
-          "hint": "We meet once in a blue moon."
+          "correctAnswer": "Когда рак на горе свистнет",
+          "hint": "Это выражение невозможности события"
         },
         {
-          "type": "quiz",
-          "question": "Идиома 'kill two birds with one stone' означает убить двух:",
+          "type": "find",
+          "question": "Выберите идиомы с частями тела:",
           "options": [
-            "зайцев",
-            "птиц",
-            "камней",
-            "врагов",
-            "целей"
+            "pull someone's leg — разыграть",
+            "keep an eye on — присматривать",
+            "lend a hand — помочь",
+            "break a heart — разбить сердце",
+            "see eye to eye — соглашаться",
+            "cost an arm and a leg — дорого"
           ],
-          "correctAnswer": "зайцев",
-          "hint": "I killed two birds with one stone."
-        },
-        {
-          "type": "quiz",
-          "question": "cost an arm and a leg означает:",
-          "options": [
-            "стоить очень дорого",
-            "стоить дёшево",
-            "быть бесплатным",
-            "стоять на ногах",
-            "—"
+          "correctAnswer": [
+            "pull someone's leg — разыграть",
+            "keep an eye on — присматривать",
+            "lend a hand — помочь",
+            "see eye to eye — соглашаться",
+            "cost an arm and a leg — дорого"
           ],
-          "correctAnswer": "стоить очень дорого",
-          "hint": "This car costs an arm and a leg."
+          "hint": "Английский язык богат идиомами с частями тела"
         }
       ],
       "reward": {
         "stars": 3,
-        "message": "Amazing! You know English idioms! 🌟"
+        "message": "Блестяще! Идиомы освоены! 🎭"
       }
     },
     {
-      "title": "Урок 7: Word Formation",
+      "title": "Word Formation 📝",
       "subject": "Английский язык",
-      "icon": "Languages",
+      "icon": "BookOpenText",
       "color": "text-pink-400",
       "tasks": [
         {
           "type": "quiz",
-          "question": "Префикс un- означает:",
+          "question": "Какой суффикс образует существительное от глагола teach?",
           "options": [
-            "не-",
-            "пере-",
-            "пред-",
-            "недо-",
-            "—"
+            "-er",
+            "-tion",
+            "-ment",
+            "-ness",
+            "Не знаю"
           ],
-          "correctAnswer": "не-",
-          "hint": "unhappy, unusual"
+          "correctAnswer": "-er",
+          "hint": "teacher — тот, кто учит"
         },
         {
           "type": "quiz",
-          "question": "Суффикс -er образует существительное: teach → ?",
+          "question": "Что означает префикс un-?",
           "options": [
-            "teacher",
-            "teaching",
-            "teachable",
-            "teachment",
-            "teachor"
+            "Не- (отрицание)",
+            "Пере-",
+            "Пред-",
+            "Чрезмерно",
+            "Не знаю"
           ],
-          "correctAnswer": "teacher",
-          "hint": "учитель"
+          "correctAnswer": "Не- (отрицание)",
+          "hint": "unhappy — несчастный, unusual — необычный"
+        },
+        {
+          "type": "find",
+          "question": "Выберите суффиксы прилагательных:",
+          "options": [
+            "-ful (beautiful)",
+            "-less (useless)",
+            "-ous (dangerous)",
+            "-tion (education)",
+            "-er (teacher)",
+            "-able (comfortable)"
+          ],
+          "correctAnswer": [
+            "-ful (beautiful)",
+            "-less (useless)",
+            "-ous (dangerous)",
+            "-able (comfortable)"
+          ],
+          "hint": "Суффиксы прилагательных: -ful, -less, -ous, -able, -ive, -al"
         },
         {
           "type": "quiz",
-          "question": "Суффикс -less означает:",
+          "question": "Какой суффикс означает «без качества»?",
           "options": [
-            "без качества",
-            "с качеством",
-            "обладающий",
-            "деятель",
-            "—"
+            "-less",
+            "-ful",
+            "-ness",
+            "-ous",
+            "Не знаю"
           ],
-          "correctAnswer": "без качества",
-          "hint": "useless, hopeless"
+          "correctAnswer": "-less",
+          "hint": "useless — бесполезный, hopeless — безнадёжный"
         },
         {
-          "type": "quiz",
-          "question": "Суффикс -ful означает 'с качеством': use → ?",
+          "type": "find",
+          "question": "Выберите верные примеры словообразования:",
           "options": [
-            "useful",
-            "useless",
-            "using",
-            "used",
-            "useably"
+            "happy → unhappy (префикс un-)",
+            "create → creative (суффикс -ive)",
+            "teach → teacher (суффикс -er)",
+            "happy → happiness (суффикс -ness)",
+            "kind → unkind (суффикс un-)",
+            "educate → education (суффикс -tion)"
           ],
-          "correctAnswer": "useful",
-          "hint": "полезный"
-        },
-        {
-          "type": "quiz",
-          "question": "Суффикс существительного -tion означает:",
-          "options": [
-            "действие",
-            "деятель",
-            "качество",
-            "свойство",
-            "—"
+          "correctAnswer": [
+            "happy → unhappy (префикс un-)",
+            "create → creative (суффикс -ive)",
+            "teach → teacher (суффикс -er)",
+            "happy → happiness (суффикс -ness)",
+            "educate → education (суффикс -tion)"
           ],
-          "correctAnswer": "действие",
-          "hint": "education, decision"
+          "hint": "Префиксы меняют значение, суффиксы — часть речи"
         }
       ],
       "reward": {
         "stars": 3,
-        "message": "Excellent! You know Word Formation! 📝"
+        "message": "Молодец! Словообразование освоено! 📝"
       }
     },
     {
-      "title": "Урок 8: Reading Strategies",
+      "title": "Reading Strategies 📖",
       "subject": "Английский язык",
-      "icon": "Languages",
+      "icon": "BookOpenText",
       "color": "text-pink-400",
       "tasks": [
         {
           "type": "quiz",
-          "question": "Skimming — это:",
+          "question": "Что такое skimming?",
           "options": [
-            "беглое чтение для общего понимания",
-            "поиск конкретной информации",
-            "детальное чтение",
-            "чтение вслух",
-            "—"
+            "Беглое чтение для понимания общего содержания",
+            "Поиск конкретной информации",
+            "Внимательное чтение каждого слова",
+            "Чтение вслух",
+            "Не знаю"
           ],
-          "correctAnswer": "беглое чтение для общего понимания",
-          "hint": "Чтение заголовков и первых предложений"
+          "correctAnswer": "Беглое чтение для понимания общего содержания",
+          "hint": "Skimming — «снятие сливок», быстрый просмотр текста"
         },
         {
           "type": "quiz",
-          "question": "Как называется поисковое чтение для нахождения конкретной информации?",
+          "question": "Какой тип чтения используется для поиска конкретного факта?",
           "options": [
             "Scanning",
             "Skimming",
             "Intensive Reading",
             "Extensive Reading",
-            "Close Reading"
+            "Не знаю"
           ],
           "correctAnswer": "Scanning",
-          "hint": "Поиск дат, имён, чисел в тексте"
+          "hint": "Scanning — поисковое чтение для нахождения конкретных данных"
         },
         {
-          "type": "quiz",
-          "question": "При скимминге нужно:",
+          "type": "find",
+          "question": "Выберите стратегии улучшения чтения:",
           "options": [
-            "Читать заголовки и первые предложения абзацев",
-            "Читать каждое слово",
-            "Искать конкретные даты",
-            "Переводить текст",
-            "—"
-          ],
-          "correctAnswer": "Читать заголовки и первые предложения абзацев",
-          "hint": "Быстрое понимание сути текста"
-        },
-        {
-          "type": "quiz",
-          "question": "Intensive Reading — это какой тип чтения?",
-          "options": [
-            "интенсивное",
-            "экстенсивное",
-            "быстрое",
-            "поисковое",
-            "диагональное"
-          ],
-          "correctAnswer": "интенсивное",
-          "hint": "Внимательное чтение каждого предложения"
-        },
-        {
-          "type": "quiz",
-          "question": "Что НЕ нужно делать при чтении?",
-          "options": [
+            "Угадывать значение слов по контексту",
             "Переводить каждое слово",
-            "Угадывать значение по контексту",
-            "Обращать внимание на связки слов",
+            "Обращать внимание на связки (however, therefore)",
             "Читать регулярно",
-            "—"
+            "Читать только сложные тексты",
+            "Выбирать тексты по уровню"
           ],
-          "correctAnswer": "Переводить каждое слово",
-          "hint": "Это замедляет чтение"
+          "correctAnswer": [
+            "Угадывать значение слов по контексту",
+            "Обращать внимание на связки (however, therefore)",
+            "Читать регулярно",
+            "Выбирать тексты по уровню"
+          ],
+          "hint": "Не нужно переводить каждое слово — развивайте языковую догадку"
+        },
+        {
+          "type": "quiz",
+          "question": "Что такое intensive reading?",
+          "options": [
+            "Полное внимательное чтение для глубокого понимания",
+            "Быстрый просмотр текста",
+            "Чтение для удовольствия",
+            "Чтение на скорость",
+            "Не знаю"
+          ],
+          "correctAnswer": "Полное внимательное чтение для глубокого понимания",
+          "hint": "Intensive = интенсивное, подробное чтение с анализом"
+        },
+        {
+          "type": "find",
+          "question": "Выберите верные соответствия стратегий чтения:",
+          "options": [
+            "Skimming — общее понимание",
+            "Scanning — поиск конкретной информации",
+            "Intensive — глубокое понимание",
+            "Extensive — чтение для удовольствия",
+            "Skimming — поиск деталей",
+            "Scanning — полное понимание"
+          ],
+          "correctAnswer": [
+            "Skimming — общее понимание",
+            "Scanning — поиск конкретной информации",
+            "Intensive — глубокое понимание",
+            "Extensive — чтение для удовольствия"
+          ],
+          "hint": "У каждой стратегии своя цель и техника"
         }
       ],
       "reward": {
         "stars": 3,
-        "message": "Great! You know reading strategies! 📚"
+        "message": "Отлично! Стратегии чтения освоены! 📖"
       }
     },
     {
-      "title": "Урок 9: Text Analysis",
+      "title": "Text Analysis 📊",
       "subject": "Английский язык",
-      "icon": "Languages",
+      "icon": "BookOpenText",
       "color": "text-pink-400",
       "tasks": [
         {
           "type": "quiz",
-          "question": "Структура текста:",
+          "question": "Из каких частей состоит структура текста?",
           "options": [
-            "Introduction — Body — Conclusion",
-            "Beginning — Middle — End",
-            "Head — Body — Tail",
-            "First — Second — Third",
-            "—"
+            "Введение, основная часть, заключение",
+            "Заголовок и абзацы",
+            "Только аргументы",
+            "Вступление и вывод",
+            "Не знаю"
           ],
-          "correctAnswer": "Introduction — Body — Conclusion",
-          "hint": "Введение, основная часть, заключение"
+          "correctAnswer": "Введение, основная часть, заключение",
+          "hint": "Introduction — Body — Conclusion"
         },
         {
           "type": "quiz",
-          "question": "Moreover, furthermore, in addition — слова для чего?",
+          "question": "Какое связующее слово выражает противопоставление?",
           "options": [
-            "добавления информации",
-            "противопоставления",
-            "примеров",
-            "заключения",
-            "причины"
+            "However",
+            "Moreover",
+            "Therefore",
+            "Besides",
+            "Не знаю"
           ],
-          "correctAnswer": "добавления информации",
-          "hint": "Они добавляют новую информацию"
+          "correctAnswer": "However",
+          "hint": "However = однако, тем не менее (противопоставление)"
+        },
+        {
+          "type": "find",
+          "question": "Выберите связующие слова по их функции:",
+          "options": [
+            "Moreover — добавление информации",
+            "However — противопоставление",
+            "Therefore — следствие",
+            "For example — пример",
+            "In conclusion — заключение",
+            "Besides — противопоставление"
+          ],
+          "correctAnswer": [
+            "Moreover — добавление информации",
+            "However — противопоставление",
+            "Therefore — следствие",
+            "For example — пример",
+            "In conclusion — заключение"
+          ],
+          "hint": "Связующие слова делают текст логичным и связным"
         },
         {
           "type": "quiz",
-          "question": "However, nevertheless — слова для:",
+          "question": "Что такое тон текста (tone)?",
           "options": [
-            "Противопоставления",
-            "Добавления",
-            "Примеров",
-            "Заключения",
-            "—"
+            "Отношение автора к предмету",
+            "Длина текста",
+            "Количество абзацев",
+            "Темп чтения",
+            "Не знаю"
           ],
-          "correctAnswer": "Противопоставления",
-          "hint": "Однако, тем не менее"
+          "correctAnswer": "Отношение автора к предмету",
+          "hint": "Тон может быть формальным, неформальным, ироничным, критическим"
         },
         {
-          "type": "quiz",
-          "question": "Therefore, consequently — слова для причины и чего?",
+          "type": "find",
+          "question": "Выберите вопросы для анализа текста:",
           "options": [
-            "следствия",
-            "добавления",
-            "примера",
-            "противопоставления",
-            "заключения"
+            "Какова главная идея текста?",
+            "Какова цель автора?",
+            "Кто целевая аудитория?",
+            "Сколько страниц в тексте?",
+            "Какой тон использует автор?",
+            "Какой шрифт использован?"
           ],
-          "correctAnswer": "следствия",
-          "hint": "Поэтому, следовательно"
-        },
-        {
-          "type": "quiz",
-          "question": "Тон текста может быть:",
-          "options": [
-            "Формальным, неформальным, ироничным",
-            "Только формальным",
-            "Только нейтральным",
-            "Только критическим",
-            "—"
+          "correctAnswer": [
+            "Какова главная идея текста?",
+            "Какова цель автора?",
+            "Кто целевая аудитория?",
+            "Какой тон использует автор?"
           ],
-          "correctAnswer": "Формальным, неформальным, ироничным",
-          "hint": "Отношение автора к предмету"
+          "hint": "Анализ текста — это понимание смысла, структуры и авторской позиции"
         }
       ],
       "reward": {
         "stars": 3,
-        "message": "Well done! You can analyze texts! 🔍"
+        "message": "Супер! Анализ текста освоен! 📊"
       }
     },
     {
-      "title": "Урок 10: Discussion Skills",
+      "title": "Discussion Skills 🗣️",
       "subject": "Английский язык",
-      "icon": "Languages",
+      "icon": "BookOpenText",
       "color": "text-pink-400",
       "tasks": [
         {
           "type": "quiz",
-          "question": "Какое предлог нужно перед 'my opinion'?",
+          "question": "Как вежливо не согласиться по-английски?",
           "options": [
-            "In",
-            "On",
-            "At",
-            "For",
-            "To"
+            "I'm afraid I disagree.",
+            "You are wrong.",
+            "No!",
+            "That's stupid.",
+            "Не знаю"
           ],
-          "correctAnswer": "In",
-          "hint": "In my opinion..."
+          "correctAnswer": "I'm afraid I disagree.",
+          "hint": "В английской культуре важно быть вежливым при несогласии"
         },
         {
           "type": "quiz",
-          "question": "I couldn't agree more означает:",
+          "question": "Как выразить своё мнение по-английски?",
           "options": [
-            "Полностью согласен",
-            "Не согласен",
-            "Частично согласен",
-            "Не знаю",
-            "—"
+            "In my opinion, ...",
+            "You must think, ...",
+            "It is fact, ...",
+            "Nobody thinks, ...",
+            "Не знаю"
           ],
-          "correctAnswer": "Полностью согласен",
-          "hint": "Не могу не согласиться"
+          "correctAnswer": "In my opinion, ...",
+          "hint": "Также: From my point of view, I believe that..."
+        },
+        {
+          "type": "find",
+          "question": "Выберите фразы для выражения согласия:",
+          "options": [
+            "I agree with you.",
+            "I couldn't agree more.",
+            "That's a good point.",
+            "I see your point, but...",
+            "Exactly!",
+            "I'm afraid I disagree."
+          ],
+          "correctAnswer": [
+            "I agree with you.",
+            "I couldn't agree more.",
+            "That's a good point.",
+            "Exactly!"
+          ],
+          "hint": "Согласие можно выражать по-разному: от простого до восторженного"
         },
         {
           "type": "quiz",
-          "question": "I'm ___ I disagree. — Боюсь, я не согласен.",
+          "question": "Как вежливо перебить собеседника?",
           "options": [
-            "afraid",
-            "sure",
-            "certain",
-            "happy",
-            "glad"
-          ],
-          "correctAnswer": "afraid",
-          "hint": "Вежливое несогласие"
-        },
-        {
-          "type": "quiz",
-          "question": "Для вежливого прерывания используют:",
-          "options": [
-            "Sorry to interrupt, but...",
+            "Sorry to interrupt, but ...",
             "Stop talking!",
             "Be quiet!",
-            "Shut up!",
-            "—"
+            "Wait!",
+            "Не знаю"
           ],
-          "correctAnswer": "Sorry to interrupt, but...",
-          "hint": "Извините, что перебиваю, но..."
+          "correctAnswer": "Sorry to interrupt, but ...",
+          "hint": "Также: Excuse me, but... / Can I just say...? / If I may..."
         },
         {
-          "type": "quiz",
-          "question": "To ___ up, ... — Подводя итог...",
+          "type": "find",
+          "question": "Выберите фразы для подведения итогов дискуссии:",
           "options": [
-            "sum",
-            "add",
-            "give",
-            "look",
-            "come"
+            "To sum up, ...",
+            "In conclusion, ...",
+            "All in all, ...",
+            "However, ...",
+            "Moreover, ...",
+            "Taking everything into account, ..."
           ],
-          "correctAnswer": "sum",
-          "hint": "To sum up, in conclusion"
+          "correctAnswer": [
+            "To sum up, ...",
+            "In conclusion, ...",
+            "All in all, ...",
+            "Taking everything into account, ..."
+          ],
+          "hint": "Подведение итогов завершает дискуссию"
         }
       ],
       "reward": {
         "stars": 3,
-        "message": "Excellent! You have great discussion skills! 🎤"
+        "message": "Отлично! Навыки дискуссии освоены! 🗣️"
       }
     }
   ]
