@@ -16,6 +16,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Строение атома",
+          image: "/school-curriculum-app/images/lessons/grade9/chemistry/lesson1.svg",
           description: `**Атом** — это наименьшая частица химического элемента, сохраняющая его химические свойства.
 
 **Строение атома:**
@@ -62,6 +63,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Периодический закон",
+          image: "/school-curriculum-app/images/lessons/grade9/chemistry/lesson2.svg",
           description: `**Периодический закон Д.И. Менделеева (1869 г.):**
 
 Свойства химических элементов и образуемых ими простых и сложных веществ находятся в периодической зависимости от относительных атомных масс элементов.
@@ -116,6 +118,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Типы химической связи",
+          image: "/school-curriculum-app/images/lessons/grade9/chemistry/lesson3.svg",
           description: `**Химическая связь** — это взаимодействие атомов, сопровождающееся выделением энергии.
 
 **1. КОВАЛЕНТНАЯ СВЯЗЬ**
@@ -180,6 +183,7 @@ Na (отдаёт e⁻) + Cl (принимает e⁻) → Na⁺Cl⁻
       lessons: [
         {
           title: "Типы химических реакций",
+          image: "/school-curriculum-app/images/lessons/grade9/chemistry/lesson4.svg",
           description: `**Химическая реакция** — это превращение одних веществ в другие.
 
 **Признаки химических реакций:**
@@ -246,6 +250,7 @@ Cl₂⁰ → Cl⁻¹ (восстановление, окислитель)`,
       lessons: [
         {
           title: "Растворы и их свойства",
+          image: "/school-curriculum-app/images/lessons/grade9/chemistry/lesson5.svg",
           description: `**Раствор** — однородная система, состоящая из растворителя, растворённого вещества и продуктов их взаимодействия.
 
 ---
@@ -321,6 +326,7 @@ Cl₂⁰ → Cl⁻¹ (восстановление, окислитель)`,
         },
         {
           title: "Массовая доля вещества в растворе",
+          image: "/school-curriculum-app/images/lessons/grade9/chemistry/lesson6.svg",
           description: `**Массовая доля растворённого вещества** — отношение массы растворённого вещества к массе всего раствора.
 
 ---
@@ -402,6 +408,7 @@ m(раствора)₂ = 500 - 100 = 400 г
         },
         {
           title: "Электролитическая диссоциация",
+          image: "/school-curriculum-app/images/lessons/grade9/chemistry/lesson7.svg",
           description: `**Электролитическая диссоциация** — процесс распада электролита на ионы при растворении или плавлении.
 
 ---
@@ -476,6 +483,7 @@ m(раствора)₂ = 500 - 100 = 400 г
         },
         {
           title: "Реакции ионного обмена",
+          image: "/school-curriculum-app/images/lessons/grade9/chemistry/lesson8.svg",
           description: `**Реакции ионного обмена (РИО)** — реакции между электролитами, идущие с образованием осадка, газа или воды.
 
 ---

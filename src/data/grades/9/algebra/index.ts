@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Функция y = ax²",
+          image: "/school-curriculum-app/images/lessons/grade9/algebra/lesson1.svg",
           description: `**Квадратичная функция** — это функция вида y = ax² + bx + c, где a, b, c — числа, a ≠ 0.
 
 **Простейший случай: y = ax²**
@@ -80,6 +81,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Функция y = ax² + bx + c",
+          image: "/school-curriculum-app/images/lessons/grade9/algebra/lesson2.svg",
           description: `**Полная квадратичная функция:** y = ax² + bx + c
 
 **График — парабола**
@@ -164,6 +166,7 @@ x = 0, y = 3
       lessons: [
         {
           title: "Системы линейных уравнений",
+          image: "/school-curriculum-app/images/lessons/grade9/algebra/lesson3.svg",
           description: `**Система линейных уравнений** — это два или более уравнения с двумя (или более) переменными.
 
 **Общий вид:**
@@ -248,6 +251,7 @@ y = 5 - 2 = 3
         },
         {
           title: "Нелинейные системы уравнений",
+          image: "/school-curriculum-app/images/lessons/grade9/algebra/lesson4.svg",
           description: `**Нелинейные системы** — системы, содержащие уравнения второй или higher степени.
 
 ---
@@ -342,6 +346,7 @@ t₁ = 2, t₂ = 3
       lessons: [
         {
           title: "Арифметическая прогрессия",
+          image: "/school-curriculum-app/images/lessons/grade9/algebra/lesson5.svg",
           description: `**Арифметическая прогрессия** — это последовательность, каждый член которой равен предыдущему, сложенному с одним и тем же числом d (разностью).
 
 **Обозначения:**
@@ -425,6 +430,7 @@ a₅ = a₁ + 4d = 17
         },
         {
           title: "Геометрическая прогрессия",
+          image: "/school-curriculum-app/images/lessons/grade9/algebra/lesson6.svg",
           description: `**Геометрическая прогрессия** — это последовательность, каждый член которой равен предыдущему, умноженному на одно и то же число q (знаменатель).
 
 **Обозначения:**
@@ -512,6 +518,7 @@ S = 8/(1 - 0,5) = 16
       lessons: [
         {
           title: "Комбинаторные задачи",
+          image: "/school-curriculum-app/images/lessons/grade9/algebra/lesson7.svg",
           description: `**Комбинаторика** — раздел математики, изучающий способы составления комбинаций из элементов.
 
 ---

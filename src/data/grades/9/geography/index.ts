@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Государственное устройство РФ",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson1.svg",
           description: `**Российская Федерация** — демократическое федеративное правовое государство с республиканской формой правления.
 
 **Конституционно-правовые основы:**
@@ -76,6 +77,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Административно-территориальное деление",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson2.svg",
           description: `**Административно-территориальное деление** — система организации территории государства.
 
 ---
@@ -152,6 +154,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Численность и размещение населения",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson3.svg",
           description: `**Численность населения России:**
 ~146 миллионов человек (2024 год)
 
@@ -222,6 +225,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Миграции и трудовые ресурсы",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson4.svg",
           description: `**Миграция** — перемещение населения из одного места в другое.
 
 **Виды миграций:**
@@ -292,6 +296,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Народы и религии России",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson5.svg",
           description: `**Многонациональный состав:**
 
 В России проживает более 190 народов.
@@ -362,6 +367,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Отраслевая структура хозяйства",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson6.svg",
           description: `**Хозяйство (экономика)** — система отраслей, обеспечивающих производство товаров и услуг.
 
 ---
@@ -435,6 +441,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Топливно-энергетический комплекс",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson7.svg",
           description: `**ТЭК** — совокупность отраслей по добыче, переработке и использованию топлива и энергии.
 
 ---
@@ -513,6 +520,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Металлургия и машиностроение",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson8.svg",
           description: `**Металлургия** — отрасль по производству металлов.
 
 ---
@@ -603,6 +611,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Сельское хозяйство и АПК",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson9.svg",
           description: `**Агропромышленный комплекс (АПК)** — совокупность отраслей, связанных с производством и переработкой сельскохозяйственной продукции.
 
 ---
@@ -695,6 +704,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Центральная Россия",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson10.svg",
           description: `**Центральная Россия** — исторический и экономический центр страны.
 
 **Состав:**
@@ -784,6 +794,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Европейский Север и Юг",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson11.svg",
           description: `**Европейский Север:**
 
 **Состав:**
@@ -872,6 +883,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урал и Сибирь",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson12.svg",
           description: `**Урал:**
 
 **Состав:**
@@ -965,6 +977,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Дальний Восток",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson13.svg",
           description: `**Дальний Восток** — самый крупный и удалённый район России.
 
 **Состав:**
@@ -1053,6 +1066,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Россия в мировой экономике",
+          image: "/school-curriculum-app/images/lessons/grade9/geography/lesson14.svg",
           description: `**Место России в мире:**
 
 **Территория:**

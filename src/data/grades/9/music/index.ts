@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Вокальные жанры",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson1.svg",
           description: `**Вокальная музыка** — это музыка, исполняемая голосом. Она существует с древнейших времён и является самым естественным способом музицирования, так как голос — это природный инструмент, данный каждому человеку от рождения.
 
 ## Основные вокальные жанры
@@ -86,6 +87,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Инструментальные жанры",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson2.svg",
           description: `**Инструментальная музыка** — музыка, исполняемая на музыкальных инструментах без участия голоса. Она обладает богатой палитрой выразительных средств и разнообразием форм.
 
 ## Классификация инструментальных жанров
@@ -161,6 +163,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Музыкально-сценические жанры",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson3.svg",
           description: `**Музыкально-сценические жанры** — это жанры, объединяющие музыку со сценическим действием, театром, драмой. Они представляют собой синтез искусств: музыки, литературы, хореографии, изобразительного искусства.
 
 ## Опера
@@ -248,6 +251,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Музыка эпохи барокко и классицизма",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson4.svg",
           description: `**История музыки** — это путь развития музыкального искусства от древности до наших дней. Каждая эпоха принесла свои идеалы, формы и выразительные средства.
 
 ## Эпоха барокко (XVII — первая половина XVIII века)
@@ -326,6 +330,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Музыка романтизма",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson5.svg",
           description: `**Романтизм** — художественное направление XIX века, провозгласившее главенство чувства над разумом, ценность индивидуальности и интерес к природе, фантастике, народным истокам.
 
 ## Характерные черты музыкального романтизма
@@ -408,6 +413,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Русская классическая музыка",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson6.svg",
           description: `**Русская классическая музыка** — уникальное явление мировой культуры, сочетающее западноевропейские традиции с национальным колоритом, народными истоками и глубиной содержания.
 
 ## Зарождение русской классической музыки
@@ -489,6 +495,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Струнные инструменты",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson7.svg",
           description: `**Струнные инструменты** — семейство музыкальных инструментов, источником звука в которых являются колеблющиеся струны. Это одна из основных групп симфонического оркестра.
 
 ## Классификация струнных инструментов
@@ -563,6 +570,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Духовые и ударные инструменты",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson8.svg",
           description: `**Духовые инструменты** — семейство инструментов, где звук возникает от колебания воздушного столба внутри трубки. **Ударные инструменты** — инструменты, звук в которых извлекается ударом или тряской.
 
 ## Духовые инструменты
@@ -635,6 +643,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Симфонический оркестр",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson9.svg",
           description: `**Симфонический оркестр** — большой коллектив музыкантов, исполняющий симфоническую музыку. Современный симфонический оркестр сложился к концу XVIII века.
 
 ## Структура симфонического оркестра
@@ -724,6 +733,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Нотная грамота",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson10.svg",
           description: `**Нотная грамота** — система записи музыки с помощью специальных знаков (нот). Позволяет сохранить и передать музыкальное произведение.
 
 ## Нотный стан и ключи
@@ -829,6 +839,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Интервалы и аккорды",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson11.svg",
           description: `**Интервал** — расстояние между двумя звуками по высоте. Интервалы являются основой мелодии и гармонии.
 
 ## Классификация интервалов
@@ -927,6 +938,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Джаз и блюз",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson12.svg",
           description: `**Джаз** — музыкальное направление, возникшее в США в конце XIX — начале XX века на основе афроамериканских музыкальных традиций. Джаз оказал огромное влияние на всю современную музыку.
 
 ## Происхождение джаза
@@ -1010,6 +1022,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Рок и поп-музыка",
+          image: "/school-curriculum-app/images/lessons/grade9/music/lesson13.svg",
           description: `**Рок-музыка** и **поп-музыка** — ведущие направления современной музыки, возникшие во второй половине XX века и оказавшие огромное влияние на мировую культуру.
 
 ## Рок-н-ролл

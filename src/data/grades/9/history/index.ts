@@ -18,6 +18,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Социально-экономическое развитие",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson1.svg",
           description: `**Россия на рубеже XIX–XX веков:**
 
 Россия входила в пятёрку крупнейших индустриальных держав мира, но отставала от ведущих стран по уровню развития.
@@ -88,6 +89,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Революция 1905–1907 годов",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson2.svg",
           description: `**Причины революции:**
 - Отсутствие политических свобод
 - Аграрный вопрос
@@ -157,6 +159,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Первая мировая война",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson3.svg",
           description: `**Причины войны:**
 - Борьба за передел мира и колоний
 - Противоречия между великими державами
@@ -234,6 +237,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Февральская революция",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson4.svg",
           description: `**Причины Февральской революции:**
 
 **Экономические:**
@@ -318,6 +322,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Октябрьская революция",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson5.svg",
           description: `**Подготовка большевиков к захвату власти:**
 
 **Апрельские тезисы Ленина:**
@@ -391,6 +396,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Гражданская война",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson6.svg",
           description: `**Гражданская война (1918–1922)** — вооружённая борьба между различными группами населения внутри страны.
 
 ---
@@ -484,6 +490,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "НЭП и образование СССР",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson7.svg",
           description: `**Новая экономическая политика (НЭП) (1921–1928):**
 
 **Причины введения:**
@@ -561,6 +568,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Индустриализация и коллективизация",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson8.svg",
           description: `**Индустриализация (с 1928):**
 
 **Цели:**
@@ -629,6 +637,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Политические репрессии",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson9.svg",
           description: `**Политические репрессии в СССР (1930-е):**
 
 **Причины:**
@@ -705,6 +714,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Начало войны",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson10.svg",
           description: `**22 июня 1941 года** — нападение Германии на СССР (план «Барбаросса»)
 
 ---
@@ -773,6 +783,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Битва за Москву и Сталинград",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson11.svg",
           description: `**Битва за Москву (сентябрь 1941 — январь 1942):**
 
 **Оборонительный этап:**
@@ -830,6 +841,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Победа и итоги войны",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson12.svg",
           description: `**Курская битва (июль–август 1943):**
 
 **Крупнейшее танковое сражение:**
@@ -904,6 +916,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Послевоенное восстановление и «оттепель»",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson13.svg",
           description: `**Послевоенное восстановление (1945–1953):**
 
 **Задачи:**
@@ -973,6 +986,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Перестройка и распад СССР",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson14.svg",
           description: `**«Застой» (1964–1985):**
 - Приход к власти Л.И. Брежнева
 - Стабильность кадров
@@ -1053,6 +1067,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Россия в 1990-е годы",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson15.svg",
           description: `**Становление новой России (1991–1999):**
 
 **Б.Н. Ельцин — первый президент России**
@@ -1118,6 +1133,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Россия в XXI веке",
+          image: "/school-curriculum-app/images/lessons/grade9/history/lesson16.svg",
           description: `**Россия с 2000 года:**
 
 **В.В. Путин — президент (2000–2008, 2012–настоящее время)**

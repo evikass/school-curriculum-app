@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Законы Ньютона",
+          image: "/school-curriculum-app/images/lessons/grade9/physics/lesson1.svg",
           description: `**Первый закон Ньютона (закон инерции):**
 
 Существуют системы отсчёта, называемые инерциальными, относительно которых тела сохраняют свою скорость неизменной, если на них не действуют другие тела или действие этих тел скомпенсировано.
@@ -75,6 +76,7 @@ a = F/m = 10/2 = 5 м/с²
         },
         {
           title: "Движение тела под действием силы тяжести",
+          image: "/school-curriculum-app/images/lessons/grade9/physics/lesson2.svg",
           description: `**Свободное падение** — движение тела под действием только силы тяжести.
 
 **Ускорение свободного падения:**
@@ -150,6 +152,7 @@ t = 2v₀sinα/g
       lessons: [
         {
           title: "Импульс тела. Закон сохранения импульса",
+          image: "/school-curriculum-app/images/lessons/grade9/physics/lesson3.svg",
           description: `**Импульс тела (количество движения):**
 
 **p⃗ = m v⃗**
@@ -221,6 +224,7 @@ m₁v₁ = m₂v₂
         },
         {
           title: "Механическая работа и мощность",
+          image: "/school-curriculum-app/images/lessons/grade9/physics/lesson4.svg",
           description: `**Механическая работа:**
 
 **A = F · s · cos α**
@@ -296,6 +300,7 @@ N = mgh/t = 100 × 9,8 × 10/20 = 490 Вт`,
         },
         {
           title: "Энергия. Закон сохранения энергии",
+          image: "/school-curriculum-app/images/lessons/grade9/physics/lesson5.svg",
           description: `**Энергия** — скалярная физическая величина, являющаяся мерой способности тела совершить работу.
 
 **Единица: Джоуль (Дж)**
@@ -384,6 +389,7 @@ v = √(2gH)
       lessons: [
         {
           title: "Механические колебания",
+          image: "/school-curriculum-app/images/lessons/grade9/physics/lesson6.svg",
           description: `**Колебания** — движения, которые повторяются через определённый промежуток времени.
 
 **Свободные колебания** — колебания под действием внутренних сил.
@@ -471,6 +477,7 @@ E = kA²/2 = mv²макс/2`,
         },
         {
           title: "Механические волны",
+          image: "/school-curriculum-app/images/lessons/grade9/physics/lesson7.svg",
           description: `**Волна** — распространение колебаний в пространстве.
 
 **Виды волн:**
@@ -556,6 +563,7 @@ E = kA²/2 = mv²макс/2`,
       lessons: [
         {
           title: "Магнитное поле",
+          image: "/school-curriculum-app/images/lessons/grade9/physics/lesson8.svg",
           description: `**Магнитное поле** — особый вид материи, существует вокруг движущихся зарядов (токов).
 
 **Свойства магнитного поля:**
@@ -631,6 +639,7 @@ E = kA²/2 = mv²макс/2`,
         },
         {
           title: "Электромагнитная индукция",
+          image: "/school-curriculum-app/images/lessons/grade9/physics/lesson9.svg",
           description: `**Электромагнитная индукция** — явление возникновения электрического тока в замкнутом контуре при изменении магнитного потока через него.
 
 **Открыто Майклом Фарадеем (1831 г.)**
@@ -711,6 +720,7 @@ L = μ₀μN²S/l
       lessons: [
         {
           title: "Строение атома. Радиоактивность",
+          image: "/school-curriculum-app/images/lessons/grade9/physics/lesson10.svg",
           description: `**Атом** — наименьшая частица химического элемента, сохраняющая его свойства.
 
 ---
