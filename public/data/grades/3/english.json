@@ -1258,6 +1258,714 @@
     "stars": 3,
     "message": "Excellent! You know phrases! 💬"
    }
+  },
+  {
+   "title": "Гласные и согласные 🗣️",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Сколько гласных букв в английском алфавите?",
+     "options": [
+      "5",
+      "6",
+      "7",
+      "3",
+      "Не знаю"
+     ],
+     "correctAnswer": "5",
+     "hint": "A, E, I, O, U"
+    },
+    {
+     "type": "find",
+     "question": "Выбери все гласные буквы:",
+     "options": [
+      "A",
+      "B",
+      "E",
+      "K",
+      "I",
+      "O",
+      "U"
+     ],
+     "correctAnswer": [
+      "A",
+      "E",
+      "I",
+      "O",
+      "U"
+     ],
+     "hint": "Гласных всего 5"
+    },
+    {
+     "type": "quiz",
+     "question": "Какая буква иногда бывает гласной?",
+     "options": [
+      "X",
+      "Y",
+      "Z",
+      "W",
+      "Не знаю"
+     ],
+     "correctAnswer": "Y",
+     "hint": "В слове 'my' она гласная"
+    },
+    {
+     "type": "quiz",
+     "question": "В закрытом слоге гласная читается __",
+     "options": [
+      "долго",
+      "кратко",
+      "как в алфавите",
+      "не читается",
+      "Не знаю"
+     ],
+     "correctAnswer": "кратко",
+     "hint": "Закрытый слог — гласная короткая"
+    },
+    {
+     "type": "find",
+     "question": "Выбери слова с открытым слогом:",
+     "options": [
+      "name",
+      "cat",
+      "like",
+      "pig",
+      "go",
+      "dog"
+     ],
+     "correctAnswer": [
+      "name",
+      "like",
+      "go"
+     ],
+     "hint": "Открытый слог — гласная читается как в алфавите"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Отлично! Ты знаешь правила чтения! 🎯"
+   }
+  },
+  {
+   "title": "Числа и цвета 🔢🎨",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Как по-английски число 12?",
+     "options": [
+      "twelve",
+      "twenty",
+      "thirteen",
+      "eleven",
+      "Не знаю"
+     ],
+     "correctAnswer": "twelve",
+     "hint": "Это особое слово, не «twoteen»"
+    },
+    {
+     "type": "find",
+     "question": "Выбери названия цветов:",
+     "options": [
+      "red",
+      "dog",
+      "blue",
+      "green",
+      "apple",
+      "yellow"
+     ],
+     "correctAnswer": [
+      "red",
+      "blue",
+      "green",
+      "yellow"
+     ],
+     "hint": "Цвета описывают предметы"
+    },
+    {
+     "type": "quiz",
+     "question": "Какое слово означает и цвет, и фрукт?",
+     "options": [
+      "apple",
+      "orange",
+      "banana",
+      "lemon",
+      "Не знаю"
+     ],
+     "correctAnswer": "orange",
+     "hint": "Апельсин — и фрукт, и цвет"
+    },
+    {
+     "type": "quiz",
+     "question": "Как сказать «25» по-английски?",
+     "options": [
+      "twenty-five",
+      "two-five",
+      "twenty five",
+      "fifty-two",
+      "Не знаю"
+     ],
+     "correctAnswer": "twenty-five",
+     "hint": "Десятки + единицы через дефис"
+    },
+    {
+     "type": "find",
+     "question": "Выбери фигуры:",
+     "options": [
+      "circle",
+      "red",
+      "square",
+      "triangle",
+      "milk",
+      "rectangle"
+     ],
+     "correctAnswer": [
+      "circle",
+      "square",
+      "triangle",
+      "rectangle"
+     ],
+     "hint": "Геометрические фигуры"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Молодец! Числа и цвета — твоя тема! 🌟"
+   }
+  },
+  {
+   "title": "Семья и люди 👨‍👩‍👧‍👦",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Как по-английски «мама»?",
+     "options": [
+      "mother",
+      "father",
+      "sister",
+      "brother",
+      "Не знаю"
+     ],
+     "correctAnswer": "mother",
+     "hint": "Разговорная форма — mom"
+    },
+    {
+     "type": "find",
+     "question": "Выбери членов семьи:",
+     "options": [
+      "grandmother",
+      "teacher",
+      "father",
+      "sister",
+      "doctor",
+      "brother"
+     ],
+     "correctAnswer": [
+      "grandmother",
+      "father",
+      "sister",
+      "brother"
+     ],
+     "hint": "Члены семьи — родные люди"
+    },
+    {
+     "type": "quiz",
+     "question": "Как сказать «У меня есть брат»?",
+     "options": [
+      "I have a brother",
+      "I am a brother",
+      "He has a brother",
+      "I has a brother",
+      "Не знаю"
+     ],
+     "correctAnswer": "I have a brother",
+     "hint": "I have = у меня есть"
+    },
+    {
+     "type": "quiz",
+     "question": "He ___ blue eyes (У него синие глаза):",
+     "options": [
+      "have",
+      "has",
+      "is",
+      "are",
+      "Не знаю"
+     ],
+     "correctAnswer": "has",
+     "hint": "He/She требует has, не have!"
+    },
+    {
+     "type": "find",
+     "question": "Выбери части тела:",
+     "options": [
+      "head",
+      "shoulder",
+      "blue",
+      "knee",
+      "red",
+      "toe"
+     ],
+     "correctAnswer": [
+      "head",
+      "shoulder",
+      "knee",
+      "toe"
+     ],
+     "hint": "Вспомни песенку Head, Shoulders, Knees and Toes"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Супер! Ты знаешь семью и тело! 💪"
+   }
+  },
+  {
+   "title": "Одежда и погода 👕🌤️",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Как по-английски «платье»?",
+     "options": [
+      "shirt",
+      "dress",
+      "skirt",
+      "pants",
+      "Не знаю"
+     ],
+     "correctAnswer": "dress",
+     "hint": "Девушки носят это"
+    },
+    {
+     "type": "find",
+     "question": "Выбери слова о погоде:",
+     "options": [
+      "sunny",
+      "rainy",
+      "bread",
+      "cloudy",
+      "cheese",
+      "windy"
+     ],
+     "correctAnswer": [
+      "sunny",
+      "rainy",
+      "cloudy",
+      "windy"
+     ],
+     "hint": "Погода — это солнце, дождь, облака, ветер"
+    },
+    {
+     "type": "quiz",
+     "question": "Как спросить «Какая сегодня погода?»",
+     "options": [
+      "What is the weather like?",
+      "How is the sky?",
+      "What color is it?",
+      "Is it day?",
+      "Не знаю"
+     ],
+     "correctAnswer": "What is the weather like?",
+     "hint": "Стандартный вопрос о погоде"
+    },
+    {
+     "type": "quiz",
+     "question": "«I am wearing» означает:",
+     "options": [
+      "Я ношу (сейчас)",
+      "Я буду носить",
+      "Я не ношу",
+      "Я хочу надеть",
+      "Не знаю"
+     ],
+     "correctAnswer": "Я ношу (сейчас)",
+     "hint": "Wearing — в данный момент"
+    },
+    {
+     "type": "find",
+     "question": "Выбери времена года:",
+     "options": [
+      "Spring",
+      "Monday",
+      "Summer",
+      "Autumn",
+      "January",
+      "Winter"
+     ],
+     "correctAnswer": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+     ],
+     "hint": "Времена года — четыре сезона"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Отлично! Одежда и погода — покорены! ☀️"
+   }
+  },
+  {
+   "title": "Животные 🐱🦁",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Как по-английски «слон»?",
+     "options": [
+      "lion",
+      "elephant",
+      "giraffe",
+      "bear",
+      "Не знаю"
+     ],
+     "correctAnswer": "elephant",
+     "hint": "Самое большое наземное животное"
+    },
+    {
+     "type": "find",
+     "question": "Выбери домашних питомцев (pets):",
+     "options": [
+      "cat",
+      "lion",
+      "dog",
+      "tiger",
+      "hamster",
+      "bear"
+     ],
+     "correctAnswer": [
+      "cat",
+      "dog",
+      "hamster"
+     ],
+     "hint": "Питомцы живут дома"
+    },
+    {
+     "type": "quiz",
+     "question": "Где живут львы?",
+     "options": [
+      "In Africa",
+      "In the forest",
+      "In Antarctica",
+      "In the ocean",
+      "Не знаю"
+     ],
+     "correctAnswer": "In Africa",
+     "hint": "Lions live in Africa"
+    },
+    {
+     "type": "quiz",
+     "question": "Что даёт корова?",
+     "options": [
+      "milk",
+      "eggs",
+      "wool",
+      "fish",
+      "Не знаю"
+     ],
+     "correctAnswer": "milk",
+     "hint": "Cows give milk"
+    },
+    {
+     "type": "find",
+     "question": "Выбери фермерских животных:",
+     "options": [
+      "cow",
+      "cat",
+      "pig",
+      "parrot",
+      "sheep",
+      "horse"
+     ],
+     "correctAnswer": [
+      "cow",
+      "pig",
+      "sheep",
+      "horse"
+     ],
+     "hint": "Фермерские животные живут на ферме"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Молодец! Ты знаешь всех животных! 🐾"
+   }
+  },
+  {
+   "title": "Еда и напитки 🍎🥤",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Как по-английски «завтрак»?",
+     "options": [
+      "lunch",
+      "breakfast",
+      "dinner",
+      "supper",
+      "Не знаю"
+     ],
+     "correctAnswer": "breakfast",
+     "hint": "Break + fast = прервать голод"
+    },
+    {
+     "type": "find",
+     "question": "Выбери фрукты:",
+     "options": [
+      "apple",
+      "carrot",
+      "banana",
+      "potato",
+      "orange",
+      "onion"
+     ],
+     "correctAnswer": [
+      "apple",
+      "banana",
+      "orange"
+     ],
+     "hint": "Фрукты сладкие и растут на деревьях"
+    },
+    {
+     "type": "quiz",
+     "question": "Как вежливо заказать в кафе?",
+     "options": [
+      "Give me pizza!",
+      "Can I have a pizza, please?",
+      "I want pizza now!",
+      "Pizza, quick!",
+      "Не знаю"
+     ],
+     "correctAnswer": "Can I have a pizza, please?",
+     "hint": "Вежливая просьба: Can I have...?"
+    },
+    {
+     "type": "quiz",
+     "question": "Как сказать «Я хочу пить»?",
+     "options": [
+      "I'm hungry",
+      "I'm thirsty",
+      "I'm tired",
+      "I'm cold",
+      "Не знаю"
+     ],
+     "correctAnswer": "I'm thirsty",
+     "hint": "Thirsty = испытывающий жажду"
+    },
+    {
+     "type": "find",
+     "question": "Выбери напитки:",
+     "options": [
+      "water",
+      "bread",
+      "milk",
+      "cheese",
+      "juice",
+      "meat"
+     ],
+     "correctAnswer": [
+      "water",
+      "milk",
+      "juice"
+     ],
+     "hint": "Напитки мы пьём"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Вкусно! Ты знаешь еду и напитки! 🍽️"
+   }
+  },
+  {
+   "title": "Частые слова и фразы 📝",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Какое слово самое частое в английском?",
+     "options": [
+      "the",
+      "a",
+      "and",
+      "is",
+      "Не знаю"
+     ],
+     "correctAnswer": "the",
+     "hint": "Определённый артикль"
+    },
+    {
+     "type": "find",
+     "question": "Выбери местоимения:",
+     "options": [
+      "I",
+      "the",
+      "you",
+      "and",
+      "he",
+      "she"
+     ],
+     "correctAnswer": [
+      "I",
+      "you",
+      "he",
+      "she"
+     ],
+     "hint": "Местоимения заменяют существительные"
+    },
+    {
+     "type": "quiz",
+     "question": "Как спросить «Как тебя зовут?»",
+     "options": [
+      "What is your name?",
+      "How are you?",
+      "Where are you?",
+      "Who are you?",
+      "Не знаю"
+     ],
+     "correctAnswer": "What is your name?",
+     "hint": "Стандартный вопрос при знакомстве"
+    },
+    {
+     "type": "quiz",
+     "question": "«She is my friend» означает:",
+     "options": [
+      "Она моя подруга",
+      "Она мой учитель",
+      "Она моя мама",
+      "Она моя сестра",
+      "Не знаю"
+     ],
+     "correctAnswer": "Она моя подруга",
+     "hint": "Friend = друг/подруга"
+    },
+    {
+     "type": "find",
+     "question": "Выбери вежливые слова:",
+     "options": [
+      "thank you",
+      "please",
+      "go away",
+      "sorry",
+      "give me",
+      "excuse me"
+     ],
+     "correctAnswer": [
+      "thank you",
+      "please",
+      "sorry",
+      "excuse me"
+     ],
+     "hint": "Вежливые слова помогают в общении"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Отлично! Ты знаешь базовые фразы! 💬"
+   }
+  },
+  {
+   "title": "Повседневная рутина 🕐",
+   "subject": "Иностранный язык",
+   "icon": "Languages",
+   "color": "text-pink-400",
+   "tasks": [
+    {
+     "type": "quiz",
+     "question": "Как сказать «Я завтракаю в 8 часов»?",
+     "options": [
+      "I have breakfast at 8 o'clock",
+      "I eat 8 breakfast",
+      "I breakfast on 8",
+      "I do breakfast in 8",
+      "Не знаю"
+     ],
+     "correctAnswer": "I have breakfast at 8 o'clock",
+     "hint": "At + время для часов"
+    },
+    {
+     "type": "find",
+     "question": "Выбери приёмы пищи:",
+     "options": [
+      "breakfast",
+      "morning",
+      "lunch",
+      "evening",
+      "dinner",
+      "night"
+     ],
+     "correctAnswer": [
+      "breakfast",
+      "lunch",
+      "dinner"
+     ],
+     "hint": "Завтрак, обед и ужин"
+    },
+    {
+     "type": "quiz",
+     "question": "Как сказать «Можно мне воды?»",
+     "options": [
+      "Can I have some water?",
+      "Give water!",
+      "I want water now!",
+      "Water to me!",
+      "Не знаю"
+     ],
+     "correctAnswer": "Can I have some water?",
+     "hint": "Вежливая просьба с Can I have"
+    },
+    {
+     "type": "quiz",
+     "question": "«Put on» означает:",
+     "options": [
+      "Надеть",
+      "Снять",
+      "Потерять",
+      "Найти",
+      "Не знаю"
+     ],
+     "correctAnswer": "Надеть",
+     "hint": "Put on = надеть одежду"
+    },
+    {
+     "type": "find",
+     "question": "Выбери действия:",
+     "options": [
+      "wear",
+      "blue",
+      "eat",
+      "tall",
+      "drink",
+      "young"
+     ],
+     "correctAnswer": [
+      "wear",
+      "eat",
+      "drink"
+     ],
+     "hint": "Действия — это глаголы"
+    }
+   ],
+   "reward": {
+    "stars": 3,
+    "message": "Супер! Ты готов к общению! 🌍"
+   }
   }
  ]
 }
