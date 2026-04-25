@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Личная безопасность в повседневной жизни",
+          image: "/school-curriculum-app/images/lessons/grade10/safety/lesson1.svg",
           description: `**Правила личной безопасности:**
 
 **На улице:**
@@ -65,6 +66,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Самозащита и правовые аспекты",
+          image: "/school-curriculum-app/images/lessons/grade10/safety/lesson2.svg",
           description: `**Самозащита** — действия по защите своей жизни и здоровья.
 
 **Правила:**
@@ -114,6 +116,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Причины пожаров и профилактика",
+          image: "/school-curriculum-app/images/lessons/grade10/safety/lesson3.svg",
           description: `**Основные причины пожаров:**
 - Неосторожное обращение с огнём
 - Неисправная электропроводка
@@ -160,6 +163,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Действия при пожаре",
+          image: "/school-curriculum-app/images/lessons/grade10/safety/lesson4.svg",
           description: `**При обнаружении пожара:**
 1. Оценить обстановку
 2. Сообщить в пожарную охрану (101)
@@ -203,6 +207,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Чрезвычайные ситуации природного характера",
+          image: "/school-curriculum-app/images/lessons/grade10/safety/lesson5.svg",
           description: `**Виды ЧС природного характера:**
 
 **Землетрясения:**
@@ -250,6 +255,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Чрезвычайные ситуации техногенного характера",
+          image: "/school-curriculum-app/images/lessons/grade10/safety/lesson6.svg",
           description: `**Виды техногенных ЧС:**
 
 **Аварии на химически опасных объектах:**
@@ -300,6 +306,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Оценка состояния и сердечно-лёгочная реанимация",
+          image: "/school-curriculum-app/images/lessons/grade10/safety/lesson7.svg",
           description: `**Оценка состояния пострадавшего:**
 1. Проверить сознание (потрясти за плечо, задать вопрос)
 2. Проверить дыхание (посмотреть движение грудной клетки, послушать)
@@ -347,6 +354,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Первая помощь при кровотечениях и травмах",
+          image: "/school-curriculum-app/images/lessons/grade10/safety/lesson8.svg",
           description: `**Виды кровотечений:**
 
 **Артериальное (яркая кровь бьёт фонтаном):**
@@ -399,6 +407,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Электробезопасность",
+          image: "/school-curriculum-app/images/lessons/grade10/safety/lesson9.svg",
           description: `**Правила электробезопасности:**
 
 **В быту:**
@@ -438,6 +447,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Дорожная безопасность",
+          image: "/school-curriculum-app/images/lessons/grade10/safety/lesson10.svg",
           description: `**Правила для пешеходов:**
 - Переходить дорогу по пешеходному переходу
 - На зелёный сигнал светофора

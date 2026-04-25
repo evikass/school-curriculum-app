@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Государства на политической карте мира",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson1.svg",
           description: `**Политическая карта мира** — это карта, показывающая государства, их границы и столицы.
 
 **Типы стран по площади:**
@@ -53,6 +54,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Формы правления и административного устройства",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson2.svg",
           description: `**Формы правления:**
 - Монархия — власть передаётся по наследству
   - Абсолютная (Саудовская Аравия, Оман, Катар)
@@ -86,6 +88,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Международные организации",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson3.svg",
           description: `**ООН (Организация Объединённых Наций)** — главная международная организация, создана в 1945 году. Штаб-квартира в Нью-Йорке. Членов: 193 государства.
 
 **Органы ООН:**
@@ -125,6 +128,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Мировое хозяйство и международное разделение труда",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson4.svg",
           description: `**Мировое хозяйство** — совокупность национальных экономик, связанных международными экономическими отношениями.
 
 **Международное разделение труда (МРТ)** — специализация стран на производстве определённых товаров и услуг.
@@ -161,6 +165,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "География промышленности",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson5.svg",
           description: `**Отрасли промышленности:**
 - Добывающая (нефть, газ, уголь, руды)
 - Обрабатывающая (машиностроение, химия, пищевая)
@@ -197,6 +202,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "География сельского хозяйства",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson6.svg",
           description: `**Отрасли сельского хозяйства:**
 - Растениеводство
 - Животноводство
@@ -238,6 +244,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Численность и размещение населения",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson7.svg",
           description: `**Население Земли:** более 8 млрд человек (2023).
 
 **Крупнейшие по населению страны:**
@@ -273,6 +280,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Воспроизводство и структура населения",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson8.svg",
           description: `**Воспроизводство населения:** рождаемость, смертность, естественный прирост.
 
 **Типы воспроизводства:**
@@ -309,6 +317,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Миграции населения",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson9.svg",
           description: `**Миграция** — перемещение людей из одного места в другое.
 
 **Виды миграций:**
@@ -351,6 +360,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Европа",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson10.svg",
           description: `**Европа** — один из самых экономически развитых регионов мира.
 
 **Население:** около 750 млн человек.
@@ -392,6 +402,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Азия",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson11.svg",
           description: `**Азия** — самый большой по площади и населению континент.
 
 **Население:** более 4,5 млрд человек (60% населения Земли).
@@ -429,6 +440,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Африка",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson12.svg",
           description: `**Африка** — второй по площади континент, самый отсталый в экономическом развитии.
 
 **Население:** более 1,4 млрд человек.
@@ -466,6 +478,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Северная и Южная Америка",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson13.svg",
           description: `**Северная Америка:**
 - США, Канада — высокоразвитые страны
 - Мексика, страны Центральной Америки — развивающиеся
@@ -507,6 +520,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Экологические проблемы",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson14.svg",
           description: `**Глобальные экологические проблемы:**
 
 **Глобальное потепление:**
@@ -540,6 +554,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Проблема народонаселения",
+          image: "/school-curriculum-app/images/lessons/grade10/geography/lesson15.svg",
           description: `**Проблема народонаселения:**
 
 **В развивающихся странах:**

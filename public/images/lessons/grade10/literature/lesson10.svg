@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#AB47BC"/>
+      <stop offset="100%" stop-color="#7B1FA2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#7B1FA2" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#AB47BC" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#7B1FA2" opacity="0.12"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#AB47BC" text-anchor="middle">Рода и жанры литературы</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 10</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#AB47BC" opacity="0.18" rx="1"/>
+  <rect x="410" y="75" width="60" height="5" fill="#7B1FA2" opacity="0.12" rx="1"/>
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
+  <rect x="225" y="155" width="50" height="70" rx="3" fill="none" stroke="#AB47BC" stroke-width="2"/><line x1="250" y1="155" x2="250" y2="225" stroke="#AB47BC" stroke-width="1.5" opacity="0.4"/><path d="M230,160 Q250,150 270,160" fill="none" stroke="#7B1FA2" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+</svg>

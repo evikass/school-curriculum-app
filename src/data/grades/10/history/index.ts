@@ -16,6 +16,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Причины и начало войны",
+          image: "/school-curriculum-app/images/lessons/grade10/history/lesson1.svg",
           description: `**Вторая мировая война (1 сентября 1939 — 2 сентября 1945)** — крупнейший вооружённый конфликт в истории человечества.
 
 **Причины войны:**
@@ -76,6 +77,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Нападение на СССР",
+          image: "/school-curriculum-app/images/lessons/grade10/history/lesson2.svg",
           description: `**22 июня 1941 года** — нападение Германии на СССР (план «Барбаросса»).
 
 **План «Барбаросса»:**
@@ -135,6 +137,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Битва за Москву",
+          image: "/school-curriculum-app/images/lessons/grade10/history/lesson3.svg",
           description: `**Битва за Москву (30 сентября 1941 — 20 апреля 1942)** — первое крупное поражение Германии.
 
 **Два этапа битвы:**
@@ -192,6 +195,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Сталинградская битва",
+          image: "/school-curriculum-app/images/lessons/grade10/history/lesson4.svg",
           description: `**Сталинградская битва (17 июля 1942 — 2 февраля 1943)** — коренной перелом в войне.
 
 **Хронология:**
@@ -251,6 +255,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Курская битва",
+          image: "/school-curriculum-app/images/lessons/grade10/history/lesson5.svg",
           description: `**Курская битва (5 июля — 23 августа 1943)** — завершение коренного перелома.
 
 **Предпосылки:**
@@ -313,6 +318,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Победа над Германией",
+          image: "/school-curriculum-app/images/lessons/grade10/history/lesson6.svg",
           description: `**Освободительные операции 1944-1945:**
 
 **1944 год — «Десять сталинских ударов»:**

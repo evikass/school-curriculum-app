@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Призма и её свойства",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson1.svg",
           description: `**Призма** — многогранник, две грани которого — равные многоугольники (основания), а остальные грани — параллелограммы.
 
 **Элементы призмы:**
@@ -56,6 +57,7 @@ S_полн = S_бок + 2S_осн`,
         },
         {
           title: "Параллелепипед и куб",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson2.svg",
           description: `**Параллелепипед** — призма, основанием которой служит параллелограмм.
 
 **Свойства параллелепипеда:**
@@ -93,6 +95,7 @@ S_полн = S_бок + 2S_осн`,
         },
         {
           title: "Пирамида",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson3.svg",
           description: `**Пирамида** — многогранник, одна грань которого — многоугольник (основание), а остальные — треугольники с общей вершиной.
 
 **Элементы пирамиды:**
@@ -133,6 +136,7 @@ S_бок = ½ · P · l, где P — периметр основания, l —
       lessons: [
         {
           title: "Цилиндр",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson4.svg",
           description: `**Цилиндр** — тело, образованное вращением прямоугольника вокруг одной из его сторон.
 
 **Элементы цилиндра:**
@@ -174,6 +178,7 @@ V = πR²H
         },
         {
           title: "Конус",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson5.svg",
           description: `**Конус** — тело, образованное вращением прямоугольного треугольника вокруг одного из катетов.
 
 **Элементы конуса:**
@@ -214,6 +219,7 @@ V = ⅓πR²H`,
         },
         {
           title: "Сфера и шар",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson6.svg",
           description: `**Сфера** — поверхность, состоящая из всех точек пространства, равноудалённых от данной точки (центра).
 
 **Шар** — тело, ограниченное сферой.
@@ -257,6 +263,7 @@ V = ⁴⁄₃πR³
       lessons: [
         {
           title: "Объёмы многогранников",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson7.svg",
           description: `**Основные формулы объёмов:**
 
 **Призма:**
@@ -298,6 +305,7 @@ V₁/V₂ = k³, где k — коэффициент подобия.
         },
         {
           title: "Объёмы тел вращения",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson8.svg",
           description: `**Основные формулы:**
 
 **Цилиндр:**
@@ -346,6 +354,7 @@ V = ⅔πR²H`,
       lessons: [
         {
           title: "Площади поверхностей многогранников",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson9.svg",
           description: `**Призма:**
 - S_бок = P · H (для прямой призмы)
 - S_полн = S_бок + 2S_осн
@@ -384,6 +393,7 @@ V = ⅔πR²H`,
         },
         {
           title: "Площади поверхностей тел вращения",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson10.svg",
           description: `**Цилиндр:**
 - S_бок = 2πRH
 - S_полн = 2πR(R + H)
@@ -427,6 +437,7 @@ V = ⅔πR²H`,
       lessons: [
         {
           title: "Координаты точки и вектора",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson11.svg",
           description: `**Прямоугольная система координат в пространстве:**
 - Три взаимно перпендикулярные оси: Ox, Oy, Oz
 - Координаты точки: A(x, y, z)
@@ -464,6 +475,7 @@ M = ((x₁+x₂)/2, (y₁+y₂)/2, (z₁+z₂)/2)`,
         },
         {
           title: "Действия с векторами",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson12.svg",
           description: `**Сложение векторов:**
 a⃗ + b⃗ = (x₁+x₂, y₁+y₂, z₁+z₂)
 
@@ -503,6 +515,7 @@ cos α = (a⃗ · b⃗) / (|a⃗| · |b⃗|)`,
         },
         {
           title: "Уравнения плоскости и прямой",
+          image: "/school-curriculum-app/images/lessons/grade10/geometry/lesson13.svg",
           description: `**Уравнение плоскости:**
 Ax + By + Cz + D = 0
 

@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Корень n-й степени",
+          image: "/school-curriculum-app/images/lessons/grade10/algebra/lesson1.svg",
           description: `**Корень n-й степени из числа a** — это число x, такое что xⁿ = a.
 
 **Обозначение:** ⁿ√a, где n — показатель корня, a — подкоренное выражение.
@@ -75,6 +76,7 @@ x = 22
         },
         {
           title: "Степень с рациональным показателем",
+          image: "/school-curriculum-app/images/lessons/grade10/algebra/lesson2.svg",
           description: `**Определение:**
 a^(1/n) = ⁿ√a
 a^(m/n) = ⁿ√(aᵐ) = (ⁿ√a)ᵐ
@@ -136,6 +138,7 @@ a^(m/n) = ⁿ√(aᵐ) = (ⁿ√a)ᵐ
       lessons: [
         {
           title: "Показательная функция",
+          image: "/school-curriculum-app/images/lessons/grade10/algebra/lesson3.svg",
           description: `**Показательная функция** — функция вида y = aˣ, где a > 0, a ≠ 1.
 
 **Свойства показательной функции:**
@@ -204,6 +207,7 @@ x = 1.5`,
         },
         {
           title: "Показательные неравенства",
+          image: "/school-curriculum-app/images/lessons/grade10/algebra/lesson4.svg",
           description: `**Показательное неравенство** — неравенство, содержащее переменную в показателе степени.
 
 **Правило:**
@@ -271,6 +275,7 @@ x ≥ 2
       lessons: [
         {
           title: "Определение логарифма",
+          image: "/school-curriculum-app/images/lessons/grade10/algebra/lesson5.svg",
           description: `**Логарифм** числа b по основанию a — это показатель степени, в которую нужно возвести a, чтобы получить b.
 
 **Обозначение:** logₐb
@@ -337,6 +342,7 @@ x = 1/3`,
         },
         {
           title: "Свойства логарифмов",
+          image: "/school-curriculum-app/images/lessons/grade10/algebra/lesson6.svg",
           description: `**1. Логарифм произведения:**
 logₐ(bc) = logₐb + logₐc
 
@@ -396,6 +402,7 @@ logₐb = logₓb / logₓa
         },
         {
           title: "Логарифмические уравнения",
+          image: "/school-curriculum-app/images/lessons/grade10/algebra/lesson7.svg",
           description: `**Логарифмическое уравнение** — уравнение, содержащее переменную под знаком логарифма.
 
 **Методы решения:**
@@ -469,6 +476,7 @@ x = ±3
       lessons: [
         {
           title: "Основные тригонометрические тождества",
+          image: "/school-curriculum-app/images/lessons/grade10/algebra/lesson8.svg",
           description: `**Основное тригонометрическое тождество:**
 sin²α + cos²α = 1
 
@@ -532,6 +540,7 @@ sin α = tan α × cos α = 3/4 × (-4/5) = -3/5`,
         },
         {
           title: "Формулы сложения",
+          image: "/school-curriculum-app/images/lessons/grade10/algebra/lesson9.svg",
           description: `**Формулы сложения:**
 
 **Синус суммы и разности:**
@@ -595,6 +604,7 @@ tan 105° = tan(60° + 45°)
       lessons: [
         {
           title: "Понятие производной",
+          image: "/school-curriculum-app/images/lessons/grade10/algebra/lesson10.svg",
           description: `**Производная функции** — это предел отношения приращения функции к приращению аргумента при стремлении приращения аргумента к нулю.
 
 **Обозначение:** f'(x), y', dy/dx
@@ -653,6 +663,7 @@ f'(x₀) = tan α, где α — угол наклона касательной
         },
         {
           title: "Правила дифференцирования",
+          image: "/school-curriculum-app/images/lessons/grade10/algebra/lesson11.svg",
           description: `**Правила дифференцирования:**
 
 **1. Производная суммы:**
@@ -710,6 +721,7 @@ f'(x₀) = tan α, где α — угол наклона касательной
         },
         {
           title: "Применение производной",
+          image: "/school-curriculum-app/images/lessons/grade10/algebra/lesson12.svg",
           description: `**Исследование функции с помощью производной:**
 
 **1. Нахождение экстремумов:**

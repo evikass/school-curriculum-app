@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Равномерное и равноускоренное движение",
+          image: "/school-curriculum-app/images/lessons/grade10/physics/lesson1.svg",
           description: `**Равномерное прямолинейное движение:**
 Скорость постоянна, тело за равные промежутки времени проходит равные расстояния.
 
@@ -82,6 +83,7 @@ t = 3 с`,
         },
         {
           title: "Движение по окружности",
+          image: "/school-curriculum-app/images/lessons/grade10/physics/lesson2.svg",
           description: `**Равномерное движение по окружности:**
 Скорость постоянна по модулю, но меняется по направлению.
 
@@ -150,6 +152,7 @@ v = 2πRν = 2π × 0.3 × 10 = 6π ≈ 18.85 м/с
       lessons: [
         {
           title: "Законы Ньютона",
+          image: "/school-curriculum-app/images/lessons/grade10/physics/lesson3.svg",
           description: `**Первый закон Ньютона:**
 Если на тело не действуют другие тела или их действие скомпенсировано, то тело находится в покое или движется равномерно и прямолинейно.
 
@@ -211,6 +214,7 @@ a = F/m = 10/5 = 2 м/с²
         },
         {
           title: "Силы в механике",
+          image: "/school-curriculum-app/images/lessons/grade10/physics/lesson4.svg",
           description: `**Сила тяжести:**
 F = mg
 
@@ -286,6 +290,7 @@ a = Fрез/m = 4/2 = 2 м/с²
       lessons: [
         {
           title: "Импульс и закон сохранения импульса",
+          image: "/school-curriculum-app/images/lessons/grade10/physics/lesson5.svg",
           description: `**Импульс тела:**
 p = mv
 
@@ -348,6 +353,7 @@ v = 0
         },
         {
           title: "Закон сохранения энергии",
+          image: "/school-curriculum-app/images/lessons/grade10/physics/lesson6.svg",
           description: `**Кинетическая энергия:**
 Eк = mv²/2
 
@@ -419,6 +425,7 @@ A = Fh = mgh = 50 × 9.8 × 3 = 1470 Дж
       lessons: [
         {
           title: "Основы МКТ",
+          image: "/school-curriculum-app/images/lessons/grade10/physics/lesson7.svg",
           description: `**Основные положения МКТ:**
 
 1. Все вещества состоят из частиц (атомов, молекул)
@@ -482,6 +489,7 @@ p = νRT/V = 0.1 × 8.31 × 300 / 0.002 = 124650 Па ≈ 125 кПа
         },
         {
           title: "Газовые законы",
+          image: "/school-curriculum-app/images/lessons/grade10/physics/lesson8.svg",
           description: `**Изопроцессы** — процессы, при которых один из параметров (p, V, T) остаётся постоянным.
 
 **Изотермический процесс (T = const):**
@@ -555,6 +563,7 @@ V₂ = 2 × 400/300 ≈ 2.67 л
       lessons: [
         {
           title: "Закон Кулона",
+          image: "/school-curriculum-app/images/lessons/grade10/physics/lesson9.svg",
           description: `**Электрический заряд:**
 - Элементарный заряд: e = 1.6 × 10⁻¹⁹ Кл
 - Заряд электрона: q = -e
@@ -622,6 +631,7 @@ E = kq/r² = 9 × 10⁹ × 2 × 10⁻⁹ / 0.09
         },
         {
           title: "Работа и потенциал",
+          image: "/school-curriculum-app/images/lessons/grade10/physics/lesson10.svg",
           description: `**Потенциал электрического поля:**
 φ = kq/r
 

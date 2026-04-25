@@ -1,6 +1,6 @@
 import { Subject, SubjectData, GameLesson } from '../../../types'
 
-const lessons: SubjectData = {
+export const lessons: SubjectData = {
   title: 'Экономика',
   icon: 'TrendingUp',
   color: '#F59E0B',
@@ -20,6 +20,7 @@ const lessons: SubjectData = {
       lessons: [
         {
           title: 'Урок 1: Предмет и метод микроэкономики',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson1.svg",
           description: `**Микроэкономика** — это раздел экономической теории, изучающий поведение отдельных экономических субъектов: домохозяйств, фирм и государства.
 
 **Предмет микроэкономики:**
@@ -51,6 +52,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 2: Теория предельной полезности',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson2.svg",
           description: `**Полезность** — способность блага удовлетворять потребности человека.
 
 **Виды полезности:**
@@ -84,6 +86,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 3: Кривые безразличия',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson3.svg",
           description: `**Кривая безразличия** — график, показывающий все комбинации двух благ, приносящих потребителю одинаковую полезность.
 
 **Свойства кривых безразличия:**
@@ -116,6 +119,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 4: Эффект дохода и эффект замещения',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson4.svg",
           description: `При изменении цены товара действуют два эффекта:
 
 **Эффект замещения:** при росте цены товара потребитель заменяет его более дешёвыми альтернативами.
@@ -154,6 +158,7 @@ const lessons: SubjectData = {
       lessons: [
         {
           title: 'Урок 5: Индивидуальный и рыночный спрос',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson5.svg",
           description: `**Индивидуальный спрос** — спрос отдельного потребителя на товар при различных ценах.
 
 **Рыночный спрос** — сумма индивидуальных спросов всех потребителей на данном рынке.
@@ -189,6 +194,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 6: Факторы, влияющие на спрос',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson6.svg",
           description: `**Неценовые факторы спроса** смещают кривую спроса:
 
 1. **Доходы потребителей:**
@@ -227,6 +233,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 7: Перекрёстная эластичность',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson7.svg",
           description: `**Перекрёстная эластичность спроса** показывает реакцию спроса на один товар при изменении цены другого товара:
 
 \`Exy = %ΔQx / %ΔPy\`
@@ -260,6 +267,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 8: Эластичность спроса по доходу',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson8.svg",
           description: `**Эластичность спроса по доходу** показывает реакцию спроса на изменение дохода:
 
 \`Ei = %ΔQ / %ΔI\`
@@ -300,6 +308,7 @@ const lessons: SubjectData = {
       lessons: [
         {
           title: 'Урок 9: Производственная функция',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson9.svg",
           description: `**Производственная функция** показывает связь между затратами ресурсов и выпуском:
 
 \`Q = f(L, K)\`
@@ -335,6 +344,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 10: Издержки производства',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson10.svg",
           description: `**Издержки производства** — затраты на производство товаров и услуг.
 
 **Виды издержек:**
@@ -371,6 +381,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 11: Выручка и прибыль',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson11.svg",
           description: `**Выручка (TR)** — доход от продажи товара:
 
 \`TR = P × Q\`
@@ -406,6 +417,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 12: Максимизация прибыли',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson12.svg",
           description: `**Условие максимизации прибыли:**
 
 \`MR = MC\`
@@ -444,6 +456,7 @@ const lessons: SubjectData = {
       lessons: [
         {
           title: 'Урок 13: Совершенная конкуренция',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson13.svg",
           description: `**Совершенная конкуренция** — идеальная рыночная структура.
 
 **Признаки:**
@@ -480,6 +493,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 14: Монополия',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson14.svg",
           description: `**Монополия** — рыночная структура с единственным продавцом уникального товара.
 
 **Причины возникновения монополии:**
@@ -513,6 +527,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 15: Олигополия',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson15.svg",
           description: `**Олигополия** — рыночная структура с несколькими крупными фирмами.
 
 **Характеристики:**
@@ -549,6 +564,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 16: Монополистическая конкуренция',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson16.svg",
           description: `**Монополистическая конкуренция** — структура с множеством продавцов дифференцированных продуктов.
 
 **Признаки:**
@@ -594,6 +610,7 @@ const lessons: SubjectData = {
       lessons: [
         {
           title: 'Урок 17: Рынок труда',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson17.svg",
           description: `**Рынок труда** — рынок, где продаётся и покупается труд.
 
 **Спрос на труд:**
@@ -630,6 +647,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 18: Рынок капитала',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson18.svg",
           description: `**Капитал** — ресурс, создаваемый для производства других благ.
 
 **Виды капитала:**
@@ -665,6 +683,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 19: Рынок земли и рента',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson19.svg",
           description: `**Земля** — невоспроизводимый природный ресурс.
 
 **Особенности земли:**
@@ -699,6 +718,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 20: Распределение доходов',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson20.svg",
           description: `**Распределение доходов** — механизм разделения национального дохода между членами общества.
 
 **Виды распределения:**
@@ -743,6 +763,7 @@ const lessons: SubjectData = {
       lessons: [
         {
           title: 'Урок 21: ВВП и методы его расчёта',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson21.svg",
           description: `**ВВП (Валовой внутренний продукт)** — рыночная стоимость всех конечных товаров и услуг, произведённых в стране за год.
 
 **Методы расчёта ВВП:**
@@ -778,6 +799,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 22: Макроэкономическое равновесие',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson22.svg",
           description: `**Совокупный спрос (AD)** — общий спрос на товары и услуги в экономике.
 
 **Компоненты AD:** C + I + G + NX
@@ -813,6 +835,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 23: Потребление и сбережения',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson23.svg",
           description: `**Располагаемый доход (Y)** делится на потребление и сбережения:
 
 \`Y = C + S\`
@@ -858,6 +881,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 24: Инвестиции и мультипликатор',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson24.svg",
           description: `**Инвестиции** — вложения в капитал для получения будущего дохода.
 
 **Виды инвестиций:**
@@ -900,6 +924,7 @@ const lessons: SubjectData = {
       lessons: [
         {
           title: 'Урок 25: Деньги и денежное обращение',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson25.svg",
           description: `**Деньги** — особый товар, выполняющий функции:
 
 1. **Средство обращения** — оплата товаров и услуг
@@ -938,6 +963,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 26: Банковская система',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson26.svg",
           description: `**Двухуровневая банковская система:**
 
 **Центральный банк:**
@@ -976,6 +1002,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 27: Денежно-кредитная политика ЦБ',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson27.svg",
           description: `**Инструменты ДКП:**
 
 1. **Ключевая ставка** — ставка по кредитам ЦБ коммерческим банкам
@@ -1013,6 +1040,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 28: Инфляция и безработица',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson28.svg",
           description: `**Инфляция** — устойчивый рост общего уровня цен.
 
 **Виды инфляции:**
@@ -1050,6 +1078,7 @@ const lessons: SubjectData = {
       lessons: [
         {
           title: 'Урок 29: Факторы экономического роста',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson29.svg",
           description: `**Экономический рост** — увеличение реального ВВП.
 
 **Типы роста:**
@@ -1084,6 +1113,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 30: Модель экономического роста Солоу',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson30.svg",
           description: `**Модель Солоу** — модель долгосрочного экономического роста.
 
 **Производственная функция:**
@@ -1118,6 +1148,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 31: Цикличность развития экономики',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson31.svg",
           description: `**Экономический цикл** — периодические колебания экономической активности.
 
 **Фазы цикла:**
@@ -1154,6 +1185,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Урок 32: Государство и экономика',
+          image: "/school-curriculum-app/images/lessons/grade10/economy/lesson32.svg",
           description: `**Функции государства в экономике:**
 
 1. **Производство общественных благ** — оборона, правопорядок, инфраструктура

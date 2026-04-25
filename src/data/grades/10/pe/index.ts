@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Здоровый образ жизни и его компоненты",
+          image: "/school-curriculum-app/images/lessons/grade10/pe/lesson1.svg",
           description: `**Здоровый образ жизни (ЗОЖ)** — деятельность человека, направленная на сохранение и укрепление здоровья.
 
 **Компоненты ЗОЖ:**
@@ -48,6 +49,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Двигательная активность и здоровье",
+          image: "/school-curriculum-app/images/lessons/grade10/pe/lesson2.svg",
           description: `**Двигательная активность** — любая мышечная активность, повышающая расход энергии.
 
 **Виды двигательной активности:**
@@ -89,6 +91,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Оценка физической подготовленности",
+          image: "/school-curriculum-app/images/lessons/grade10/pe/lesson3.svg",
           description: `**Тесты для оценки физической подготовленности:**
 
 **Выносливость:**
@@ -135,6 +138,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Бег на средние и длинные дистанции",
+          image: "/school-curriculum-app/images/lessons/grade10/pe/lesson4.svg",
           description: `**Средние дистанции:** 800, 1500 м.
 **Длинные дистанции:** 3000, 5000, 10 000 м.
 
@@ -178,6 +182,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Прыжки и метания",
+          image: "/school-curriculum-app/images/lessons/grade10/pe/lesson5.svg",
           description: `**Прыжок в длину с разбега:**
 - Разбег: 15-20 м, достижение максимальной скорости
 - Отталкивание: постановка ноги на брусок
@@ -221,6 +226,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Баскетбол: техника и тактика",
+          image: "/school-curriculum-app/images/lessons/grade10/pe/lesson6.svg",
           description: `**Техника баскетбола:**
 
 **Ведение мяча (дриблинг):**
@@ -262,6 +268,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Волейбол: техника и тактика",
+          image: "/school-curriculum-app/images/lessons/grade10/pe/lesson7.svg",
           description: `**Техника волейбола:**
 
 **Подача:**
@@ -304,6 +311,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Футбол: техника и тактика",
+          image: "/school-curriculum-app/images/lessons/grade10/pe/lesson8.svg",
           description: `**Техника футбола:**
 
 **Ведение мяча:**
@@ -345,6 +353,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Акробатические упражнения",
+          image: "/school-curriculum-app/images/lessons/grade10/pe/lesson9.svg",
           description: `**Кувырки:**
 
 **Кувырок вперёд:**
@@ -389,6 +398,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Опорный прыжок",
+          image: "/school-curriculum-app/images/lessons/grade10/pe/lesson10.svg",
           description: `**Опорный прыжок через козла:**
 
 **Фазы прыжка:**
@@ -432,6 +442,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Развитие физических качеств",
+          image: "/school-curriculum-app/images/lessons/grade10/pe/lesson11.svg",
           description: `**Физические качества:**
 
 **Сила:** способность преодолевать сопротивление.
@@ -474,6 +485,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Профессионально-прикладная физическая подготовка",
+          image: "/school-curriculum-app/images/lessons/grade10/pe/lesson12.svg",
           description: `**ППФП** — физическая подготовка с учётом будущей профессии.
 
 **Для сидячих профессий:**
