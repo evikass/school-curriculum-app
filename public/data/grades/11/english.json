@@ -299,644 +299,144 @@
   },
   "games": [
     {
-      "title": "Урок 1: Mixed Conditionals",
+      "title": "Mixed Conditionals 📚",
       "subject": "Английский язык",
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {
-          "type": "quiz",
-          "question": "If I had studied, I ____ have a degree now.",
-          "options": [
-            "would",
-            "will",
-            "would have",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "would",
-          "hint": "Mixed: условие в прошлом, результат сейчас"
-        },
-        {
-          "type": "quiz",
-          "question": "Had I known = ?",
-          "options": [
-            "If I had known",
-            "If I knew",
-            "If I have known",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "If I had known",
-          "hint": "Инверсия в условном предложении"
-        },
-        {
-          "type": "quiz",
-          "question": "If I were you, I ____ have accepted. (III+II)",
-          "options": [
-            "would",
-            "will",
-            "should",
-            "could",
-            "might"
-          ],
-          "correctAnswer": "would",
-          "hint": "would have + V3"
-        },
-        {
-          "type": "quiz",
-          "question": "Were I rich... — это:",
-          "options": [
-            "Past Simple",
-            "Инверсия (без if)",
-            "Present Simple",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "Инверсия (без if)",
-          "hint": "Were I = If I were"
-        }
+        {"type": "quiz", "question": "Какой тип Mixed Conditional: If + Past Perfect, would + V?", "options": ["II + III (условие в прошлом, результат сейчас)", "III + II (условие сейчас, результат в прошлом)", "Нулевой conditional", "Первый conditional", "Не знаю"], "correctAnswer": "II + III (условие в прошлом, результат сейчас)", "hint": "Past Perfect — прошлое, would + V — настоящее"},
+        {"type": "quiz", "question": "Какая инверсия вместо 'If I had known'?", "options": ["Were I known", "Had I known", "Did I know", "Should I know", "Не знаю"], "correctAnswer": "Had I known", "hint": "Вспомогательный глагол ставится перед подлежащим"},
+        {"type": "quiz", "question": "Что означает Mixed Conditional III + II?", "options": ["Условие в прошлом, результат сейчас", "Условие в настоящем, результат в прошлом", "Условие в будущем, результат сейчас", "Оба в настоящем", "Не знаю"], "correctAnswer": "Условие в настоящем, результат в прошлом", "hint": "If + Past Simple (настоящее/общее), would have + V3 (прошлое)"},
+        {"type": "find", "question": "Выберите все верные примеры Mixed Conditionals:", "options": ["If I had studied, I would have a degree now", "If I were you, I would have accepted", "If it rains, I will stay home", "If she hadn't missed the train, she would be here now", "If I were rich, I would travel", "Had I known, I would have come"], "correctAnswer": ["If I had studied, I would have a degree now", "If I were you, I would have accepted", "If she hadn't missed the train, she would be here now"], "hint": "Mixed Conditionals сочетают части разных типов"},
+        {"type": "find", "question": "Выберите все формы инверсии в Conditionals:", "options": ["Were I you", "Had I known", "If I was you", "Should you need help", "Do I know", "Am I rich"], "correctAnswer": ["Were I you", "Had I known", "Should you need help"], "hint": "Инверсия заменяет 'if' и делает речь формальной"}
       ],
-      "reward": {
-        "stars": 3,
-        "message": "Excellent! You know Mixed Conditionals! 🎓"
-      }
+      "reward": {"stars": 3, "message": "Отлично! Вы освоили Mixed Conditionals! 🎯"}
     },
     {
-      "title": "Урок 2: Inversion",
+      "title": "Inversion 🔄",
       "subject": "Английский язык",
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {
-          "type": "quiz",
-          "question": "Never ____ I seen such beauty.",
-          "options": [
-            "have",
-            "has",
-            "did",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "have",
-          "hint": "Never have I seen..."
-        },
-        {
-          "type": "quiz",
-          "question": "Only then ____ she understand.",
-          "options": [
-            "did",
-            "does",
-            "has",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "did",
-          "hint": "Only then did she understand."
-        },
-        {
-          "type": "quiz",
-          "question": "____ had I arrived than it started to rain. (No sooner)",
-          "options": [
-            "No sooner",
-            "Hardly",
-            "Scarcely",
-            "Seldom",
-            "Never"
-          ],
-          "correctAnswer": "No sooner",
-          "hint": "No sooner had... than..."
-        },
-        {
-          "type": "quiz",
-          "question": "She likes coffee. So __ I.",
-          "options": [
-            "do",
-            "am",
-            "like",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "do",
-          "hint": "So do I = Я тоже"
-        }
+        {"type": "quiz", "question": "Какое слово стоит после отрицательного наречия в начале предложения при инверсии?", "options": ["Подлежащее", "Вспомогательный глагол", "Основной глагол", "Существительное", "Не знаю"], "correctAnswer": "Вспомогательный глагол", "hint": "Never have I seen... — вспомогательный глагол перед подлежащим"},
+        {"type": "quiz", "question": "Как переводится 'No sooner had I arrived than it started to rain'?", "options": ["Я прибыл, и пошёл дождь", "Едва я прибыл, как начался дождь", "Я не успел прибыть, как начался дождь", "Скоро я прибуду, и начнётся дождь", "Не знаю"], "correctAnswer": "Едва я прибыл, как начался дождь", "hint": "No sooner... than — едва... как"},
+        {"type": "quiz", "question": "Что означает 'So do I'?", "options": ["Я тоже нет", "Я тоже", "Я не тоже", "Я делаю так", "Не знаю"], "correctAnswer": "Я тоже", "hint": "Используется для согласия с утвердительным предложением"},
+        {"type": "find", "question": "Выберите все наречия, требующие инверсии в начале предложения:", "options": ["Never", "Sometimes", "Rarely", "Often", "Hardly", "Seldom"], "correctAnswer": ["Never", "Rarely", "Hardly", "Seldom"], "hint": "Отрицательные и ограничительные наречия вызывают инверсию"},
+        {"type": "find", "question": "Выберите все верные примеры инверсии:", "options": ["Never have I seen such beauty", "Often I go to the park", "Only then did she understand", "Not only did he arrive late, but he also forgot", "Always she sings well", "So do I"], "correctAnswer": ["Never have I seen such beauty", "Only then did she understand", "Not only did he arrive late, but he also forgot", "So do I"], "hint": "Инверсия меняет порядок слов для выразительности"}
       ],
-      "reward": {
-        "stars": 3,
-        "message": "Great! You know Inversion! 📚"
-      }
+      "reward": {"stars": 3, "message": "Отлично! Вы разобрались с инверсией! 🎯"}
     },
     {
-      "title": "Урок 3: Subjunctive Mood",
+      "title": "Subjunctive Mood 💭",
       "subject": "Английский язык",
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {
-          "type": "quiz",
-          "question": "I suggest that he ____ more careful. (subjunctive)",
-          "options": [
-            "be",
-            "is",
-            "was",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "be",
-          "hint": "Present Subjunctive — базовая форма"
-        },
-        {
-          "type": "quiz",
-          "question": "I wish I ____ rich. (сожаление о настоящем)",
-          "options": [
-            "am",
-            "were",
-            "be",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "were",
-          "hint": "Past Subjunctive — were для всех лиц"
-        },
-        {
-          "type": "quiz",
-          "question": "I wish I ____ known the truth. (сожаление о прошлом)",
-          "options": [
-            "had",
-            "have",
-            "would have",
-            "could have",
-            "should have"
-          ],
-          "correctAnswer": "had",
-          "hint": "wish + Past Perfect"
-        },
-        {
-          "type": "quiz",
-          "question": "You ____ better study. (совет)",
-          "options": [
-            "had",
-            "would",
-            "should",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "had",
-          "hint": "Had better = тебе лучше"
-        }
+        {"type": "quiz", "question": "Какая форма глагола используется в Present Subjunctive?", "options": ["Инфинитив без 'to' (base form)", "Past Simple", "Present Perfect", "V3", "Не знаю"], "correctAnswer": "Инфинитив без 'to' (base form)", "hint": "I suggest that he be more careful — 'be' без окончания"},
+        {"type": "quiz", "question": "Какая форма используется после 'wish' для сожаления о прошлом?", "options": ["wish + Past Simple", "wish + Past Perfect", "wish + would", "wish + Present Simple", "Не знаю"], "correctAnswer": "wish + Past Perfect", "hint": "I wish I had studied harder — сожаление о прошлом"},
+        {"type": "quiz", "question": "Какая форма 'be' используется в Past Subjunctive для всех лиц?", "options": ["am/is/are", "was", "were", "been", "Не знаю"], "correctAnswer": "were", "hint": "I wish I were rich — 'were' для всех лиц"},
+        {"type": "find", "question": "Выберите все глаголы, после которых используется Present Subjunctive:", "options": ["suggest", "want", "insist", "recommend", "think", "demand"], "correctAnswer": ["suggest", "insist", "recommend", "demand"], "hint": "Эти глаголы выражают предложение, требование, рекомендацию"},
+        {"type": "find", "question": "Выберите все верные конструкции с wish:", "options": ["I wish I spoke French (сожаление о настоящем)", "I wish I will speak French", "I wish I had studied harder (сожаление о прошлом)", "I wish I can fly", "I wish you would stop (недовольство)", "I wish I was there (разговорная форма)"], "correctAnswer": ["I wish I spoke French (сожаление о настоящем)", "I wish I had studied harder (сожаление о прошлом)", "I wish you would stop (недовольство)", "I wish I was there (разговорная форма)"], "hint": "Wish + разные формы для разных значений"}
       ],
-      "reward": {
-        "stars": 3,
-        "message": "Perfect! You know Subjunctive Mood! ✨"
-      }
+      "reward": {"stars": 3, "message": "Отлично! Вы освоили Subjunctive Mood! 🎯"}
     },
     {
-      "title": "Урок 4: Complex Structures",
+      "title": "Complex Structures 🏗️",
       "subject": "Английский язык",
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {
-          "type": "quiz",
-          "question": "It was John ____ broke the window. (cleft sentence)",
-          "options": [
-            "who",
-            "which",
-            "what",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "who",
-          "hint": "It was... who... = Именно..."
-        },
-        {
-          "type": "quiz",
-          "question": "____ down the street, I met an old friend.",
-          "options": [
-            "Walking",
-            "Walked",
-            "Walk",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "Walking",
-          "hint": "Present Participle = активное действие"
-        },
-        {
-          "type": "quiz",
-          "question": "What I need ____ a cup of coffee.",
-          "options": [
-            "is",
-            "are",
-            "was",
-            "were",
-            "be"
-          ],
-          "correctAnswer": "is",
-          "hint": "Wh-cleft: What... is..."
-        },
-        {
-          "type": "quiz",
-          "question": "He is ____ young to drive.",
-          "options": [
-            "too",
-            "so",
-            "very",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "too",
-          "hint": "Too... to = слишком... чтобы"
-        }
+        {"type": "quiz", "question": "Какая конструкция выделяет элемент предложения: It + be + X + that/who?", "options": ["Wh-cleft", "It-cleft", "Participle clause", "Inversion", "Не знаю"], "correctAnswer": "It-cleft", "hint": "It was John who broke the window — Именно Джон..."},
+        {"type": "quiz", "question": "Что выражает Perfect Participle (having + V3)?", "options": ["Действие происходит одновременно", "Действие завершено до другого", "Пассивное действие", "Будущее действие", "Не знаю"], "correctAnswer": "Действие завершено до другого", "hint": "Having finished the work, he went home"},
+        {"type": "quiz", "question": "Какое значение у конструкции 'too + прилагательное + to + V'?", "options": ["Достаточно для действия", "Слишком для действия (невозможно)", "Очень хорошо для действия", "Необходимо для действия", "Не знаю"], "correctAnswer": "Слишком для действия (невозможно)", "hint": "He is too young to drive — Слишком молод, чтобы водить"},
+        {"type": "find", "question": "Выберите все типы Participle Clauses:", "options": ["Present Participle (-ing) — активное действие", "Past Participle (-ed) — пассивное действие", "Future Participle — будущее действие", "Perfect Participle (having + V3) — завершённое действие", "Conditional Participle — условное действие", "Negative Participle — отрицательное действие"], "correctAnswer": ["Present Participle (-ing) — активное действие", "Past Participle (-ed) — пассивное действие", "Perfect Participle (having + V3) — завершённое действие"], "hint": "Существует 3 типа причастных оборотов"},
+        {"type": "find", "question": "Выберите все верные примеры cleft sentences:", "options": ["It was John who broke the window", "What I need is a cup of coffee", "Walking down the street, I met a friend", "It is this book that I recommend", "He was so tired that he fell asleep", "What surprises me is his attitude"], "correctAnswer": ["It was John who broke the window", "What I need is a cup of coffee", "It is this book that I recommend", "What surprises me is his attitude"], "hint": "Cleft sentences выделяют важную информацию"}
       ],
-      "reward": {
-        "stars": 3,
-        "message": "Excellent! You know Complex Structures! 🏗️"
-      }
+      "reward": {"stars": 3, "message": "Отлично! Вы освоили сложные конструкции! 🎯"}
     },
     {
-      "title": "Урок 5: Academic Vocabulary",
+      "title": "Academic Vocabulary 📖",
       "subject": "Английский язык",
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {
-          "type": "quiz",
-          "question": "Анализировать данные — ____ the data.",
-          "options": [
-            "analyse",
-            "make",
-            "do",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "analyse",
-          "hint": "Analyse = анализировать"
-        },
-        {
-          "type": "quiz",
-          "question": "Ключевой фактор — a key ____.",
-          "options": [
-            "issue",
-            "factor",
-            "aspect",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "factor",
-          "hint": "Factor = фактор"
-        },
-        {
-          "type": "quiz",
-          "question": "Furthermore, Moreover, ____ = кроме того",
-          "options": [
-            "In addition",
-            "Additionally",
-            "Besides",
-            "Also",
-            "Plus"
-          ],
-          "correctAnswer": "In addition",
-          "hint": "In addition = дополнительно"
-        },
-        {
-          "type": "quiz",
-          "question": "В заключение — In ____.",
-          "options": [
-            "end",
-            "conclusion",
-            "finish",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "conclusion",
-          "hint": "In conclusion"
-        }
+        {"type": "quiz", "question": "Какой академический глагол означает 'оценивать, определять ценность'?", "options": ["analyse", "assess", "claim", "imply", "Не знаю"], "correctAnswer": "assess", "hint": "Assess the impact — оценить влияние"},
+        {"type": "quiz", "question": "Какое связующее слово используется для противопоставления?", "options": ["Furthermore", "Moreover", "However", "Additionally", "Не знаю"], "correctAnswer": "However", "hint": "Это слово вводит контраст или возражение"},
+        {"type": "quiz", "question": "Что предпочтительнее в академическом стиле вместо 'get'?", "options": ["take", "obtain", "receive", "grab", "Не знаю"], "correctAnswer": "obtain", "hint": "Формальные слова вместо разговорных"},
+        {"type": "find", "question": "Выберите все академические глаголы:", "options": ["analyse", "get", "assess", "evaluate", "figure out", "propose"], "correctAnswer": ["analyse", "assess", "evaluate", "propose"], "hint": "Академические глаголы — формальные и точные"},
+        {"type": "find", "question": "Выберите все связующие слова для заключения:", "options": ["Furthermore", "In conclusion", "Moreover", "To sum up", "However", "In summary"], "correctAnswer": ["In conclusion", "To sum up", "In summary"], "hint": "Эти фразы подводят итог эссе"}
       ],
-      "reward": {
-        "stars": 3,
-        "message": "Super! You know Academic Vocabulary! ✍️"
-      }
+      "reward": {"stars": 3, "message": "Отлично! Вы знаете академическую лексику! 🎯"}
     },
     {
-      "title": "Урок 6: Essay Writing",
+      "title": "Essay Writing ✍️",
       "subject": "Английский язык",
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {
-          "type": "quiz",
-          "question": "Главная мысль эссе — ____ statement.",
-          "options": [
-            "thesis",
-            "topic",
-            "main",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "thesis",
-          "hint": "Thesis statement = тезис"
-        },
-        {
-          "type": "quiz",
-          "question": "Первое предложение абзаца — ____ sentence.",
-          "options": [
-            "topic",
-            "main",
-            "first",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "topic",
-          "hint": "Topic sentence = тематическое предложение"
-        },
-        {
-          "type": "quiz",
-          "question": "This essay will ____ the causes of climate change.",
-          "options": [
-            "examine",
-            "examination",
-            "examining",
-            "examines",
-            "examined"
-          ],
-          "correctAnswer": "examine",
-          "hint": "examine = рассматривать"
-        },
-        {
-          "type": "quiz",
-          "question": "Заключение эссе должно:",
-          "options": [
-            "Вводить новые идеи",
-            "Обобщать основные пункты",
-            "Быть самым длинным",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "Обобщать основные пункты",
-          "hint": "Заключение = summary"
-        }
+        {"type": "quiz", "question": "Что такое thesis statement?", "options": ["Заключение эссе", "Главная мысль (тезис) во введении", "Первый аргумент", "Вопрос к читателю", "Не знаю"], "correctAnswer": "Главная мысль (тезис) во введении", "hint": "Это центральная идея всего эссе"},
+        {"type": "quiz", "question": "Что должно содержать заключение эссе?", "options": ["Новые аргументы", "Переформулированный тезис + обобщение + финальная мысль", "Цитаты из источников", "Вопросы к читателю", "Не знаю"], "correctAnswer": "Переформулированный тезис + обобщение + финальная мысль", "hint": "Заключение НЕ должно содержать новой информации"},
+        {"type": "quiz", "question": "Что такое topic sentence?", "options": ["Последнее предложение абзаца", "Главная мысль абзаца", "Цитата в абзаце", "Переход к следующему абзацу", "Не знаю"], "correctAnswer": "Главная мысль абзаца", "hint": "Оно открывает абзац и выражает его основную идею"},
+        {"type": "find", "question": "Выберите все компоненты введения эссе:", "options": ["General statement", "Thesis statement", "Topic sentence", "Background information", "Evidence", "Counterargument"], "correctAnswer": ["General statement", "Thesis statement", "Background information"], "hint": "Введение вводит в тему и формулирует тезис"},
+        {"type": "find", "question": "Выберите все типы эссе:", "options": ["Opinion essay", "Discussion essay", "Summary essay", "Problem-Solution essay", "Advantages-Disadvantages essay", "Narrative essay"], "correctAnswer": ["Opinion essay", "Discussion essay", "Problem-Solution essay", "Advantages-Disadvantages essay"], "hint": "Это основные типы академических эссе"}
       ],
-      "reward": {
-        "stars": 3,
-        "message": "Great! You know Essay Writing! 📝"
-      }
+      "reward": {"stars": 3, "message": "Отлично! Вы умеете писать эссе! 🎯"}
     },
     {
-      "title": "Урок 7: Debating Skills",
+      "title": "Debating Skills 🎤",
       "subject": "Английский язык",
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {
-          "type": "quiz",
-          "question": "My primary ____ is that... (аргумент)",
-          "options": [
-            "argument",
-            "point",
-            "idea",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "argument",
-          "hint": "Argument = аргумент"
-        },
-        {
-          "type": "quiz",
-          "question": "Атака на личность — логическая ошибка:",
-          "options": [
-            "Straw Man",
-            "Ad Hominem",
-            "False Dichotomy",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "Ad Hominem",
-          "hint": "Ad Hominem = к человеку"
-        },
-        {
-          "type": "quiz",
-          "question": "I see your point, ____ I must disagree.",
-          "options": [
-            "but",
-            "and",
-            "so",
-            "or",
-            "yet"
-          ],
-          "correctAnswer": "but",
-          "hint": "I see your point, but..."
-        },
-        {
-          "type": "quiz",
-          "question": "«Или ты с нами, или против нас» — это:",
-          "options": [
-            "Straw Man",
-            "False Dichotomy",
-            "Slippery Slope",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "False Dichotomy",
-          "hint": "Ложная дилемма"
-        }
+        {"type": "quiz", "question": "Какая логическая ошибка — атака на личность вместо аргумента?", "options": ["Straw Man", "Ad Hominem", "False Dichotomy", "Slippery Slope", "Не знаю"], "correctAnswer": "Ad Hominem", "hint": "Переход на личности вместо обсуждения аргумента"},
+        {"type": "quiz", "question": "Что такое 'Straw Man'?", "options": ["Атака на личность", "Искажение аргумента оппонента", "Ложная дилемма", "Обращение к авторитету", "Не знаю"], "correctAnswer": "Искажение аргумента оппонента", "hint": "Противник приписывает вам то, что вы не говорили"},
+        {"type": "quiz", "question": "Какая фраза используется для опровержения?", "options": ["My primary argument is that...", "In conclusion, I believe...", "I see your point, but I must disagree because...", "Furthermore, I would like to add...", "Не знаю"], "correctAnswer": "I see your point, but I must disagree because...", "hint": "Сначала признаёте точку зрения, затем возражаете"},
+        {"type": "find", "question": "Выберите все логические ошибки (fallacies):", "options": ["Ad Hominem", "Deduction", "Straw Man", "False Dichotomy", "Induction", "Slippery Slope"], "correctAnswer": ["Ad Hominem", "Straw Man", "False Dichotomy", "Slippery Slope"], "hint": "Это ошибки в рассуждениях, которых следует избегать"},
+        {"type": "find", "question": "Выберите все риторические приёмы:", "options": ["Rhetorical questions", "Repetition", "Ad Hominem", "Tripling (правило трёх)", "Straw Man", "False Dichotomy"], "correctAnswer": ["Rhetorical questions", "Repetition", "Tripling (правило трёх)"], "hint": "Это приёмы убеждения, а не логические ошибки"}
       ],
-      "reward": {
-        "stars": 3,
-        "message": "Excellent! You know Debating Skills! 🎤"
-      }
+      "reward": {"stars": 3, "message": "Отлично! Вы владеете навыками дебатов! 🎯"}
     },
     {
-      "title": "Урок 8: Business English",
+      "title": "Business English 💼",
       "subject": "Английский язык",
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {
-          "type": "quiz",
-          "question": "Dear Mr. Smith, ... Yours ____.",
-          "options": [
-            "faithfully",
-            "sincerely",
-            "truly",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "sincerely",
-          "hint": "Yours sincerely — когда знаете имя"
-        },
-        {
-          "type": "quiz",
-          "question": "Я пишу, чтобы узнать о... — I am writing to ____ about...",
-          "options": [
-            "inquire",
-            "ask",
-            "know",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "inquire",
-          "hint": "Inquire = узнавать, справляться"
-        },
-        {
-          "type": "quiz",
-          "question": "Please find ____ my CV. (во вложении)",
-          "options": [
-            "attached",
-            "attach",
-            "attachment",
-            "attaching",
-            "attaches"
-          ],
-          "correctAnswer": "attached",
-          "hint": "Please find attached..."
-        },
-        {
-          "type": "quiz",
-          "question": "I look forward ____ from you.",
-          "options": [
-            "hear",
-            "to hear",
-            "to hearing",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "to hearing",
-          "hint": "look forward to + -ing"
-        }
+        {"type": "quiz", "question": "Как завершить письмо, если вы знаете имя адресата?", "options": ["Yours faithfully,", "Yours sincerely,", "Best wishes,", "Cheers,", "Не знаю"], "correctAnswer": "Yours sincerely,", "hint": "Yours sincerely — если знаете имя, Yours faithfully — если нет"},
+        {"type": "quiz", "question": "Что означает 'Please find attached...'?", "options": ["Пожалуйста, найдите...", "Во вложении...", "Пожалуйста, прикрепите...", "Найдите ошибку...", "Не знаю"], "correctAnswer": "Во вложении...", "hint": "Эта фраза указывает на прикреплённый файл"},
+        {"type": "quiz", "question": "Какое приветствие используется, если имя адресата неизвестно?", "options": ["Dear Mr. Smith,", "Dear Sir/Madam,", "Hi there,", "Hello,", "Не знаю"], "correctAnswer": "Dear Sir/Madam,", "hint": "Формальное приветствие без знания имени"},
+        {"type": "find", "question": "Выберите все компоненты делового письма:", "options": ["Salutation", "Opening", "Body", "Conclusion paragraph", "Closing", "Sign-off"], "correctAnswer": ["Salutation", "Opening", "Body", "Closing", "Sign-off"], "hint": "Деловое письмо имеет 5 основных частей"},
+        {"type": "find", "question": "Выберите все фразы для презентации:", "options": ["The purpose of my presentation is to...", "Let's move on to...", "I am writing to inquire about...", "As you can see from this chart...", "Please find attached...", "I'd be happy to answer any questions"], "correctAnswer": ["The purpose of my presentation is to...", "Let's move on to...", "As you can see from this chart...", "I'd be happy to answer any questions"], "hint": "Это фразы для устной презентации, а не письма"}
       ],
-      "reward": {
-        "stars": 3,
-        "message": "Excellent! You know Business English! 💼"
-      }
+      "reward": {"stars": 3, "message": "Отлично! Вы знаете деловой английский! 🎯"}
     },
     {
-      "title": "Урок 9: Job Interview",
+      "title": "Job Interview 🤝",
       "subject": "Английский язык",
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {
-          "type": "quiz",
-          "question": "Tell me about ____. (о себе)",
-          "options": [
-            "you",
-            "yourself",
-            "yours",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "yourself",
-          "hint": "Tell me about yourself"
-        },
-        {
-          "type": "quiz",
-          "question": "What are your ____? (сильные стороны)",
-          "options": [
-            "strengths",
-            "powers",
-            "forces",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "strengths",
-          "hint": "Strengths = сильные стороны"
-        },
-        {
-          "type": "quiz",
-          "question": "Why should we ____ you?",
-          "options": [
-            "hire",
-            "hired",
-            "hiring",
-            "hires",
-            "fire"
-          ],
-          "correctAnswer": "hire",
-          "hint": "hire = нанять"
-        },
-        {
-          "type": "quiz",
-          "question": "Спасибо за интервью — Thank you email отправить:",
-          "options": [
-            "В тот же день",
-            "В течение 24 часов",
-            "Через неделю",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "В течение 24 часов",
-          "hint": "Thank you email — в течение 24 часов"
-        }
+        {"type": "quiz", "question": "В течение какого времени следует отправить thank you email после собеседования?", "options": ["1 неделю", "24 часа", "3 дня", "1 месяц", "Не знаю"], "correctAnswer": "24 часа", "hint": "Чем быстрее, тем лучше — в течение суток"},
+        {"type": "quiz", "question": "Что спрашивают в вопросе 'Where do you see yourself in 5 years?'?", "options": ["Где вы хотите жить?", "Каковы ваши карьерные цели?", "Кем вы работали 5 лет назад?", "Какой ваш любимый год?", "Не знаю"], "correctAnswer": "Каковы ваши карьерные цели?", "hint": "Работодатель хочет понять ваши долгосрочные планы"},
+        {"type": "quiz", "question": "Как лучше ответить на вопрос о слабых сторонах?", "options": ["У меня нет слабых сторон", "Я ленивый", "Я иногда слишком внимания уделяю деталям, но учусь расставлять приоритеты", "Я не умею работать в команде", "Не знаю"], "correctAnswer": "Я иногда слишком внимания уделяю деталям, но учусь расставлять приоритеты", "hint": "Назовите реальную слабость и как вы с ней работаете"},
+        {"type": "find", "question": "Выберите все типичные вопросы на собеседовании:", "options": ["Tell me about yourself", "What is your favorite color?", "Why do you want to work for this company?", "What are your strengths?", "What is your blood type?", "Why should we hire you?"], "correctAnswer": ["Tell me about yourself", "Why do you want to work for this company?", "What are your strengths?", "Why should we hire you?"], "hint": "Это стандартные профессиональные вопросы"},
+        {"type": "find", "question": "Выберите все вопросы, которые стоит задать интервьюеру:", "options": ["What does a typical day look like?", "How much is the salary?", "What are the biggest challenges facing the team?", "Can I work from home every day?", "What opportunities are there for professional development?", "When can I expect to hear back?"], "correctAnswer": ["What does a typical day look like?", "What are the biggest challenges facing the team?", "What opportunities are there for professional development?", "When can I expect to hear back?"], "hint": "Показывайте интерес к работе и команде"}
       ],
-      "reward": {
-        "stars": 3,
-        "message": "Perfect! You're ready for Job Interview! 💪"
-      }
+      "reward": {"stars": 3, "message": "Отлично! Вы готовы к собеседованию! 🎯"}
     },
     {
-      "title": "Урок 10: Presentation Skills",
+      "title": "Presentation Skills 🎙️",
       "subject": "Английский язык",
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {
-          "type": "quiz",
-          "question": "Today I'm going to ____ about...",
-          "options": [
-            "talk",
-            "speak",
-            "tell",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "talk",
-          "hint": "talk about = говорить о"
-        },
-        {
-          "type": "quiz",
-          "question": "Какой процент времени — введение?",
-          "options": [
-            "5%",
-            "10-15%",
-            "30%",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "10-15%",
-          "hint": "Introduction = 10-15%"
-        },
-        {
-          "type": "quiz",
-          "question": "To ____ up, we've looked at three main points.",
-          "options": [
-            "sum",
-            "add",
-            "total",
-            "count",
-            "wrap"
-          ],
-          "correctAnswer": "sum",
-          "hint": "To sum up = подводя итог"
-        },
-        {
-          "type": "quiz",
-          "question": "I'd be happy to ____ any questions.",
-          "options": [
-            "answer",
-            "reply",
-            "respond",
-            "—",
-            "—"
-          ],
-          "correctAnswer": "answer",
-          "hint": "answer questions = отвечать на вопросы"
-        }
+        {"type": "quiz", "question": "Какой процент времени должна занимать основная часть презентации?", "options": ["50-60%", "75-80%", "30-40%", "90-95%", "Не знаю"], "correctAnswer": "75-80%", "hint": "Введение и заключение вместе занимают 20-30%"},
+        {"type": "quiz", "question": "Что НЕ следует делать при работе со слайдами?", "options": ["Делать зрительный контакт", "Использовать простые графики", "Читать текст со слайдов", "Минимум текста на слайдах", "Не знаю"], "correctAnswer": "Читать текст со слайдов", "hint": "Слайды — поддержка, а не текст для чтения"},
+        {"type": "quiz", "question": "Как сказать 'Я не уверен, но могу уточнить' на презентации?", "options": ["I don't know", "I'm not entirely sure, but I can get back to you on that", "That's a stupid question", "Next question please", "Не знаю"], "correctAnswer": "I'm not entirely sure, but I can get back to you on that", "hint": "Будьте честны, но профессиональны"},
+        {"type": "find", "question": "Выберите все компоненты введения презентации:", "options": ["Greeting", "Self-introduction", "Detailed data analysis", "Topic announcement", "Outline", "Q&A session"], "correctAnswer": ["Greeting", "Self-introduction", "Topic announcement", "Outline"], "hint": "Введение презентации — 4 основных компонента"},
+        {"type": "find", "question": "Выберите все фразы для работы с визуальными материалами:", "options": ["As you can see from this chart...", "I am writing to inform you...", "This diagram illustrates...", "Let me draw your attention to this figure", "Please find attached...", "The table shows the comparison between..."], "correctAnswer": ["As you can see from this chart...", "This diagram illustrates...", "Let me draw your attention to this figure", "The table shows the comparison between..."], "hint": "Эти фразы направляют внимание аудитории к визуальным данным"}
       ],
-      "reward": {
-        "stars": 3,
-        "message": "Excellent! You know Presentation Skills! 🎯"
-      }
+      "reward": {"stars": 3, "message": "Отлично! Вы готовы к презентациям! 🎯"}
     }
   ]
 }
