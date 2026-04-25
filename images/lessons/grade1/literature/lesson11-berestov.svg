@@ -17,11 +17,12 @@
     <!-- Roof -->
     <polygon points="-130,0 0,-40 130,0" fill="#5D4037"/>
     
-    <!-- Flag -->
-    <line x1="0" y1="-40" x2="0" y2="-80" stroke="#5D4037" stroke-width="3"/>
-    <rect x="2" y="-80" width="35" height="20" fill="#F44336"/>
-    <rect x="2" y="-75" width="35" height="5" fill="#2196F3"/>
-    <rect x="2" y="-65" width="35" height="5" fill="#FFFFFF"/>
+    <!-- Flag pole -->
+    <line x1="0" y1="-40" x2="0" y2="-85" stroke="#5D4037" stroke-width="3"/>
+    <!-- Russian flag: white top, blue middle, red bottom -->
+    <rect x="2" y="-85" width="35" height="9" fill="#FFFFFF"/>
+    <rect x="2" y="-76" width="35" height="9" fill="#2196F3"/>
+    <rect x="2" y="-67" width="35" height="9" fill="#F44336"/>
     
     <!-- Windows -->
     <g fill="#FFF9C4">
@@ -91,6 +92,20 @@
     <line x1="12" y1="5" x2="30" y2="-10" stroke="#FFCC80" stroke-width="6" stroke-linecap="round">
       <animateTransform attributeName="transform" type="rotate" values="-10 12 5;10 12 5;-10 12 5" dur="0.5s" repeatCount="indefinite"/>
     </line>
+  </g>
+  
+  <!-- Bouncing ball near the child in the schoolyard -->
+  <g>
+    <circle cx="155" cy="245" r="12" fill="#FF6F00">
+      <animate attributeName="cy" values="245;225;245" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <ellipse cx="155" cy="245" rx="5" ry="3" fill="#FFB300" opacity="0.6">
+      <animate attributeName="cy" values="245;225;245" dur="0.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Ball shadow -->
+    <ellipse cx="155" cy="258" rx="10" ry="3" fill="#000" opacity="0.1">
+      <animate attributeName="rx" values="10;7;10" dur="0.8s" repeatCount="indefinite"/>
+    </ellipse>
   </g>
   
   <!-- School supplies floating -->
