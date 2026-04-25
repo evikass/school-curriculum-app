@@ -2,44 +2,30 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#E65100"/>
-      <stop offset="100%" stop-color="#F57C00"/>
+      <stop offset="0%" stop-color="#FF8F00"/>
+      <stop offset="100%" stop-color="#FF6F00"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#E65100" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100" text-anchor="middle">Ключевые понятия экономики</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF8F00" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF8F00" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#FF8F00" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#FF6F00" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#FF8F00" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#FF6F00" opacity="0.12"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FF8F00" text-anchor="middle">Ключевые понятия экономики</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экономика - Урок 29</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#E65100" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#FF8F00" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#FF8F00" opacity="0.18" rx="1"/>
+  <rect x="410" y="75" width="60" height="5" fill="#FF6F00" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF3E0"/>
-  <rect x="60" y="120" width="100" height="50" rx="6" fill="#E65100" opacity="0.2" stroke="#E65100" stroke-width="1.5"/>
-    <text x="110" y="150" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="middle">Спрос</text>
-    <rect x="200" y="120" width="100" height="50" rx="6" fill="#1565C0" opacity="0.2" stroke="#1565C0" stroke-width="1.5"/>
-    <text x="250" y="150" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">Предложение</text>
-    <rect x="340" y="120" width="100" height="50" rx="6" fill="#2E7D32" opacity="0.2" stroke="#2E7D32" stroke-width="1.5"/>
-    <text x="390" y="150" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">Рынок</text>
-    <rect x="60" y="190" width="100" height="50" rx="6" fill="#F9A825" opacity="0.2" stroke="#F9A825" stroke-width="1.5"/>
-    <text x="110" y="220" font-family="Arial,sans-serif" font-size="10" fill="#F9A825" text-anchor="middle">Инфляция</text>
-    <rect x="200" y="190" width="100" height="50" rx="6" fill="#7B1FA2" opacity="0.2" stroke="#7B1FA2" stroke-width="1.5"/>
-    <text x="250" y="220" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle">ВВП</text>
-    <rect x="340" y="190" width="100" height="50" rx="6" fill="#C62828" opacity="0.2" stroke="#C62828" stroke-width="1.5"/>
-    <text x="390" y="220" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle">Безработица</text>
-    <text x="250" y="280" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle" font-weight="bold">Ключевые понятия</text>
+  <rect x="15" y="85" width="470" height="215" fill="#FFF8E1" opacity="0.5"/>
+  <rect x="170" y="140" width="60" height="90" fill="#FF8F00" opacity="0.2" rx="3"/><rect x="240" y="160" width="60" height="70" fill="#FF6F00" opacity="0.15" rx="3"/><rect x="310" y="120" width="60" height="110" fill="#FF8F00" opacity="0.1" rx="3"/><text x="250" y="250" font-family="Arial,sans-serif" font-size="12" fill="#FF8F00" text-anchor="middle" opacity="0.5">$$</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Экономика</text>
+  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
+  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#FF8F00" text-anchor="middle" opacity="0.6">11 класс • Экономика</text>
 </svg>

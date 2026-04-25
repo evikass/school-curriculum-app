@@ -1,7 +1,7 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[]) => ({ 
-  title, description, tasks, content, examples, facts, keyPoints
+const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[], image?: string) => ({ 
+  title, description, tasks, content, examples, facts, keyPoints, image
 })
 
 export const lessons: SubjectData = {
@@ -26,7 +26,8 @@ export const lessons: SubjectData = {
           "Перестройка: 1985-1991, М.С. Горбачёв",
           "Гласность — свобода слова и отмена цензуры",
           "Новое политическое мышление — конец Холодной войны"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/history/lesson1.svg"),
         L("Урок 2: Распад СССР", "Кризис и распад Советского Союза.", [
           "Национальный вопрос",
           "«Парад суверенитетов»",
@@ -40,7 +41,8 @@ export const lessons: SubjectData = {
           "Беловежские соглашения (8 декабря 1991) — конец СССР",
           "ГКЧП (август 1991) — провал путча",
           "На месте СССР образовалось 15 независимых государств"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/history/lesson2.svg"),
         L("Урок 3: Россия в 1990-е годы", "Становление новой России.", [
           "Экономические реформы",
           "Политический кризис 1993",
@@ -54,7 +56,8 @@ export const lessons: SubjectData = {
           "«Шоковая терапия» — либерализация цен (1992)",
           "Конституция РФ принята 12 декабря 1993 года",
           "Дефолт 17 августа 1998 года"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/history/lesson3.svg"),
         L("Урок 4: Россия в 2000-е годы", "Стабилизация и рост.", [
           "Приход В.В. Путина к власти",
           "Вторая чеченская война",
@@ -68,7 +71,8 @@ export const lessons: SubjectData = {
           "Путин избран президентом в 2000 году",
           "Экономический рост благодаря высоким ценам на нефть",
           "Плоская шкала НДФЛ 13%"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/history/lesson4.svg"),
       ]
     },
     {
@@ -87,7 +91,8 @@ export const lessons: SubjectData = {
           "Присоединение Крыма — март 2014",
           "Санкции и политика импортозамещения",
           "Военная операция в Сирии — с 2015 года"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/history/lesson5.svg"),
         L("Урок 6: Конституция РФ", "Основной закон страны.", [
           "Принятие Конституции",
           "Структура Конституции",
@@ -101,7 +106,8 @@ export const lessons: SubjectData = {
           "Конституция принята 12 декабря 1993 года",
           "Человек, его права и свободы — высшая ценность",
           "Поправки 2020: приоритет Конституции над международным правом"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/history/lesson6.svg"),
         L("Урок 7: Государственные символы России", "Герб, флаг, гимн.", [
           "Государственный герб",
           "Государственный флаг",
@@ -115,7 +121,8 @@ export const lessons: SubjectData = {
           "Герб: золотой двуглавый орёл, св. Георгий",
           "Флаг: белый, синий, красный",
           "Гимн: музыка Александрова, слова Михалкова"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/history/lesson7.svg"),
       ]
     },
     {
@@ -134,7 +141,8 @@ export const lessons: SubjectData = {
           "Глобализация — интеграция государств",
           "ООН — главная международная организация",
           "Глобальные проблемы: экология, бедность, терроризм"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/history/lesson8.svg"),
         L("Урок 9: Международные отношения", "Мировая политика.", [
           "Система международных отношений",
           "Россия и международные организации",
@@ -148,7 +156,8 @@ export const lessons: SubjectData = {
           "Россия: ООН, СНГ, ЕАЭС, БРИКС, ШОС",
           "Принципы: суверенитет, невмешательство",
           "Региональные конфликты: Сирия, Украина, Карабах"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/history/lesson9.svg"),
       ]
     },
     {
@@ -167,7 +176,8 @@ export const lessons: SubjectData = {
           "XX век — две мировые войны, НТР, распад СССР",
           "Гагарин — первый человек в космосе (1961)",
           "Интернет — главное изобретение конца XX века"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/history/lesson10.svg"),
         L("Урок 11: Россия в современном мире", "Место России.", [
           "Геополитическое положение",
           "Экономический потенциал",
@@ -181,7 +191,8 @@ export const lessons: SubjectData = {
           "Россия — крупнейшая территория (17 млн км²)",
           "Россия: ядерная держава, член СБ ООН",
           "Вызовы: диверсификация экономики, демография"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/history/lesson11.svg"),
         L("Урок 12: Уроки истории", "Значение исторического опыта.", [
           "Историческая память",
           "Уроки войн и конфликтов",
@@ -195,7 +206,8 @@ export const lessons: SubjectData = {
           "Историческая память — основа идентичности",
           "Уроки войн: мир ценен, фашизм опасен",
           "Изучение истории помогает понять настоящее"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/history/lesson12.svg"),
       ]
     }
   ]

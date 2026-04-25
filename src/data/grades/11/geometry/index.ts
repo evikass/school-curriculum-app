@@ -1,7 +1,7 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[]) => ({ 
-  title, description, tasks, content, examples, facts, keyPoints
+const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[], image?: string) => ({ 
+  title, description, tasks, content, examples, facts, keyPoints, image
 })
 
 export const lessons: SubjectData = {
@@ -26,7 +26,8 @@ export const lessons: SubjectData = {
           "V = S_осн × H",
           "S_бок = P_осн × H (прямая призма)",
           "Куб — частный случай правильной призмы"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/geometry/lesson1.svg"),
         L("Урок 2: Пирамида", "Пирамида и её свойства.", [
           "Определение пирамиды",
           "Правильная пирамида",
@@ -40,7 +41,8 @@ export const lessons: SubjectData = {
           "V = S_осн × H / 3",
           "S_бок = P_осн × l / 2 (l — апофема)",
           "Правильная пирамида: вершина над центром основания"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/geometry/lesson2.svg"),
         L("Урок 3: Правильные многогранники", "Платоновы тела.", [
           "Определение правильного многогранника",
           "Пять правильных многогранников",
@@ -54,7 +56,8 @@ export const lessons: SubjectData = {
           "Существует только 5 правильных многогранников",
           "Формула Эйлера: V - E + F = 2",
           "Платоновы тела: тетраэдр, куб, октаэдр, додекаэдр, икосаэдр"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/geometry/lesson3.svg"),
       ]
     },
     {
@@ -73,7 +76,8 @@ export const lessons: SubjectData = {
           "V = πR²H",
           "S_бок = 2πRH",
           "Осевое сечение — прямоугольник"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/geometry/lesson4.svg"),
         L("Урок 5: Конус", "Прямой круговой конус.", [
           "Определение конуса",
           "Площадь поверхности конуса",
@@ -87,7 +91,8 @@ export const lessons: SubjectData = {
           "V = πR²H / 3",
           "S_бок = πRl",
           "l² = R² + H² (Пифагор)"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/geometry/lesson5.svg"),
         L("Урок 6: Сфера и шар", "Сфера и её свойства.", [
           "Определение сферы и шара",
           "Площадь сферы",
@@ -101,7 +106,8 @@ export const lessons: SubjectData = {
           "S = 4πR²",
           "V = 4πR³ / 3",
           "Уравнение сферы: x² + y² + z² = R²"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/geometry/lesson6.svg"),
       ]
     },
     {
@@ -120,7 +126,8 @@ export const lessons: SubjectData = {
           "Подобные тела: V₁/V₂ = k³",
           "Объём шара в 1.5 раза больше описанного цилиндра",
           "Формула объёма через интеграл: V = ∫S(x)dx"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/geometry/lesson7.svg"),
         L("Урок 8: Площади поверхностей", "Вычисление площадей.", [
           "Площадь поверхности призмы",
           "Площадь поверхности пирамиды",
@@ -134,7 +141,8 @@ export const lessons: SubjectData = {
           "S_полн = S_бок + 2S_осн (призма)",
           "S_полн = S_бок + S_осн (пирамида)",
           "Развёртка помогает понять формулы"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/geometry/lesson8.svg"),
         L("Урок 9: Комбинации тел", "Вписанные и описанные тела.", [
           "Шар, вписанный в призму",
           "Шар, описанный около призмы",
@@ -148,7 +156,8 @@ export const lessons: SubjectData = {
           "Вписанный шар касается всех граней",
           "Описанный шар проходит через все вершины",
           "Для комбинации: используйте осевое сечение"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/geometry/lesson9.svg"),
       ]
     },
     {
@@ -167,7 +176,8 @@ export const lessons: SubjectData = {
           "|AB| = √((x₂-x₁)² + (y₂-y₁)² + (z₂-z₁)²)",
           "Середина: среднее арифметическое координат",
           "Уравнение сферы: (x-x₀)² + (y-y₀)² + (z-z₀)² = R²"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/geometry/lesson10.svg"),
         L("Урок 11: Векторы в пространстве", "Операции с векторами.", [
           "Понятие вектора",
           "Действия с векторами",
@@ -181,7 +191,8 @@ export const lessons: SubjectData = {
           "Сложение: покоординатно",
           "Скалярное произведение: x₁x₂ + y₁y₂ + z₁z₂",
           "Перпендикулярность: →a · →b = 0"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/geometry/lesson11.svg"),
         L("Урок 12: Метод координат", "Решение задач методом координат.", [
           "Уравнение плоскости",
           "Расстояние от точки до плоскости",
@@ -195,7 +206,8 @@ export const lessons: SubjectData = {
           "Плоскость: Ax + By + Cz + D = 0",
           "Нормальный вектор: →n(A; B; C)",
           "d = |Ax₀+By₀+Cz₀+D| / √(A²+B²+C²)"
-        ]),
+        ],
+  "/school-curriculum-app/images/lessons/grade11/geometry/lesson12.svg"),
       ]
     }
   ]

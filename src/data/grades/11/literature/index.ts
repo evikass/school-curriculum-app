@@ -340,6 +340,7 @@ export const games: GameLesson[] = [
   // ========== ТЕСТЫ К УРОКАМ ==========
   {
     title: "Урок 1: И.А. Бунин",
+        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson1.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -355,6 +356,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 2: А.И. Куприн",
+        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson2.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -370,6 +372,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 3: М. Горький",
+        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson3.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -385,6 +388,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 4: М.А. Булгаков",
+        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson4.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -400,6 +404,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 5: М.А. Шолохов",
+        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson5.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -415,6 +420,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 6: А.Т. Твардовский",
+        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson6.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -430,6 +436,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 7: Б.Л. Васильев",
+        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson7.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -445,6 +452,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 8: В. Быков",
+        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson8.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -460,6 +468,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 9: А.И. Солженицын",
+        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson9.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -475,6 +484,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 10: В.Г. Распутин",
+        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson10.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -490,6 +500,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 11: Теория литературы",
+        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson11.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -505,6 +516,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 12: Итоговое повторение",
+        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson12.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
