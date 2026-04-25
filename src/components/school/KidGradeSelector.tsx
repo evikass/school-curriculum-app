@@ -1,6 +1,7 @@
 'use client'
 
 import { useSchool } from '@/context/SchoolContext'
+import { prefetchGrade } from '@/data'
 
 const gradeConfig = [
   { grade: 0, emoji: '🎒', name: 'Подготовишки', color: 'from-pink-400 to-purple-500', description: 'Учимся играть' },
@@ -36,6 +37,8 @@ export default function KidGradeSelector() {
           <button
             key={config.grade}
             onClick={() => goToClass(config.grade)}
+            onMouseEnter={() => prefetchGrade(config.grade)}
+            onTouchStart={() => prefetchGrade(config.grade)}
             className={`group relative overflow-hidden p-6 rounded-3xl
                        bg-gradient-to-br ${config.color}
                        border-4 border-white/20 hover:border-white/50

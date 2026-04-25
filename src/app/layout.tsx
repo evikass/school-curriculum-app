@@ -21,19 +21,20 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://evikass.github.io/school-curriculum-app/"),
   title: "ИНЕТШКОЛА - Полная школьная программа",
   description: "Интерактивная школьная программа для классов 0-11 с уроками и мини-играми по всем предметам.",
   keywords: ["школа", "уроки", "образование", "мини-игры", "учеба", "онлайн обучение", "ИНЕТШКОЛА"],
   authors: [{ name: "ИНЕТШКОЛА" }],
-  manifest: "/manifest.json",
+  manifest: "/school-curriculum-app/manifest.json",
   icons: {
     icon: [
-      { url: "/favicon.png", sizes: "192x192", type: "image/png" },
-      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+      { url: "/school-curriculum-app/favicon.png", sizes: "192x192", type: "image/png" },
+      { url: "/school-curriculum-app/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/school-curriculum-app/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: [
-      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/school-curriculum-app/icon-192.png", sizes: "192x192", type: "image/png" },
     ],
   },
   openGraph: {

@@ -69,7 +69,10 @@ function fixImagePaths<T>(data: T): T {
   return data
 }
 
-// Асинхронная загрузка данных предмета из JSON
+// Кэш загруженного bundle-файла для класса
+const bundleCache = new Map<number, Record<string, { lessons?: SubjectData; games?: GameLesson[] }>>()
+
+// Асинхронная загрузка данных предмета из JSON (fallback для отдельного предмета)
 async function loadSubjectData(grade: number, subject: string): Promise<{ lessons?: SubjectData; games?: GameLesson[] }> {
   try {
     const response = await fetch(`${BASE_PATH}/data/grades/${grade}/${subject}.json`)
@@ -86,17 +89,49 @@ async function loadSubjectData(grade: number, subject: string): Promise<{ lesson
   }
 }
 
+// Загрузка bundle-файла для класса (один запрос вместо N)
+async function loadGradeBundle(grade: number): Promise<Record<string, { lessons?: SubjectData; games?: GameLesson[] }>> {
+  // Проверяем кэш
+  const cached = bundleCache.get(grade)
+  if (cached) return cached
+
+  try {
+    const response = await fetch(`${BASE_PATH}/data/grades/${grade}/_bundle.json`)
+    if (response.ok) {
+      const data = await response.json()
+      // Исправляем пути к картинкам с учётом basePath
+      const fixed = fixImagePaths(data) as Record<string, { lessons?: SubjectData; games?: GameLesson[] }>
+      bundleCache.set(grade, fixed)
+      return fixed
+    }
+    // Если bundle не найден — fallback на загрузку отдельных файлов
+    console.warn(`Bundle not found for grade ${grade}, falling back to individual files`)
+  } catch (e) {
+    console.warn(`Error loading bundle for grade ${grade}:`, e)
+  }
+
+  // Fallback: загружаем каждый предмет отдельно
+  const keys = gradeSubjectKeys[grade] || []
+  const results = await Promise.all(keys.map(key => loadSubjectData(grade, key)))
+  const bundle: Record<string, { lessons?: SubjectData; games?: GameLesson[] }> = {}
+  keys.forEach((key, i) => {
+    bundle[key] = results[i]
+  })
+  bundleCache.set(grade, bundle)
+  return bundle
+}
+
 // Загрузка всех предметов для класса
 export async function getSubjectsForGrade(grade: number): Promise<Subject[]> {
   // Проверяем кэш
   const cached = subjectsCache.get(grade)
   if (cached) return cached
 
+  const bundle = await loadGradeBundle(grade)
   const keys = gradeSubjectKeys[grade] || []
-  const results = await Promise.all(keys.map(key => loadSubjectData(grade, key)))
 
-  const subjects = results
-    .map(r => r.lessons)
+  const subjects = keys
+    .map(key => bundle[key]?.lessons)
     .filter((s): s is SubjectData => !!s)
 
   // Кэшируем
@@ -110,15 +145,26 @@ export async function getGamesForGrade(grade: number): Promise<GameLesson[]> {
   const cached = gamesCache.get(grade)
   if (cached) return cached
 
+  const bundle = await loadGradeBundle(grade)
   const keys = gradeSubjectKeys[grade] || []
-  const results = await Promise.all(keys.map(key => loadSubjectData(grade, key)))
 
-  const games = results
-    .flatMap(r => r.games || [])
+  const games = keys
+    .flatMap(key => bundle[key]?.games || [])
 
   // Кэшируем
   gamesCache.set(grade, games)
   return games
+}
+
+// Предварительная загрузка bundle-файла для класса (без ожидания)
+export function prefetchGrade(grade: number): void {
+  // Если уже в кэше — ничего не делаем
+  if (bundleCache.has(grade)) return
+  
+  // Запускаем загрузку в фоне
+  loadGradeBundle(grade).catch(() => {
+    // Игнорируем ошибки префетча
+  })
 }
 
 // Curriculum данные (синхронные - только структура)
