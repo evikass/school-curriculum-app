@@ -2,4 +2,4 @@
 // Генерируется скриптом scripts/generate-version.cjs
 // Запускается перед каждой сборкой (npm run build)
 
-export const APP_VERSION = 'v3.708'
+export const APP_VERSION = 'v3.709'
