@@ -1,7 +1,7 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => ({
-  title, description, tasks, examples, keyPoints
+const createLesson = (title: string, image: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => ({
+  title, image, description, tasks, examples, keyPoints
 })
 
 export const lessons: SubjectData = {
@@ -20,7 +20,7 @@ export const lessons: SubjectData = {
     {
       topic: "Фонетика и орфоэпия",
       lessons: [
-        createLesson("Звуки и буквы", `**Фонетика** — раздел языкознания, изучающий звуки речи.
+        createLesson("Звуки и буквы", "/school-curriculum-app/images/lessons/grade10/russian/lesson1.svg",`**Фонетика** — раздел языкознания, изучающий звуки речи.
 
 **Звуки речи** — минимальные единицы звучности, из которых складывается речь.
 
@@ -51,7 +51,7 @@ export const lessons: SubjectData = {
           "«Ёлка» = [й'олка] — мягкий [л']",
           "«Съел» = [сй'эл] — 4 буквы, 4 звука"
         ]]),
-        createLesson("Орфоэпические нормы", `**Ударение** — выделение слога в слове силой голоса.
+        createLesson("Орфоэпические нормы", "/school-curriculum-app/images/lessons/grade10/russian/lesson2.svg",`**Ударение** — выделение слога в слове силой голоса.
 
 **Особенности русского ударения:**
 - Разноместность (может падать на любой слог)
@@ -87,7 +87,7 @@ export const lessons: SubjectData = {
     {
       topic: "Морфемика и словообразование",
       lessons: [
-        createLesson("Состав слова", `**Морфема** — минимальная значимая часть слова.
+        createLesson("Состав слова", "/school-curriculum-app/images/lessons/grade10/russian/lesson3.svg",`**Морфема** — минимальная значимая часть слова.
 
 **Виды морфем:**
 1. **Корень** — общая часть родственных слов
@@ -120,7 +120,7 @@ export const lessons: SubjectData = {
           "Нулевое окончание: стол□, дом□, красив□, день□",
           "Однокоренные: вода, водный, подводник, водяной"
         ]),
-        createLesson("Способы словообразования", `**Способы образования слов:**
+        createLesson("Способы словообразования", "/school-curriculum-app/images/lessons/grade10/russian/lesson4.svg",`**Способы образования слов:**
 
 1. **Приставочный:** город → при-город
 2. **Суффиксальный:** дом → дом-ик
@@ -158,7 +158,7 @@ export const lessons: SubjectData = {
     {
       topic: "Лексикология",
       lessons: [
-        createLesson("Лексическое значение слова", `**Лексика** — словарный состав языка.
+        createLesson("Лексическое значение слова", "/school-curriculum-app/images/lessons/grade10/russian/lesson5.svg",`**Лексика** — словарный состав языка.
 
 **Типы лексических значений:**
 1. **Прямое** — основное значение слова
@@ -193,7 +193,7 @@ export const lessons: SubjectData = {
           "Метонимия: «я съел три тарелки» (содержимое тарелки)",
           "Однозначные слова: бинокль, табурет, портфель"
         ]),
-        createLesson("Синонимы, антонимы, омонимы", `**Синонимы** — слова, близкие по значению:
+        createLesson("Синонимы, антонимы, омонимы", "/school-curriculum-app/images/lessons/grade10/russian/lesson6.svg",`**Синонимы** — слова, близкие по значению:
 - бегемот — гиппопотам
 - храбрый — смелый — отважный
 
@@ -234,7 +234,7 @@ export const lessons: SubjectData = {
     {
       topic: "Морфология",
       lessons: [
-        createLesson("Самостоятельные части речи", `**Самостоятельные части речи:**
+        createLesson("Самостоятельные части речи", "/school-curriculum-app/images/lessons/grade10/russian/lesson7.svg",`**Самостоятельные части речи:**
 
 **Имя существительное:**
 - обозначает предмет
@@ -277,7 +277,7 @@ export const lessons: SubjectData = {
           "Средство связи: «Он был учителем. Этот человек…»",
           "Однокоренные: вода, водный, подводник, водяной"
         ]]),
-        createLesson("Служебные части речи", `**Служебные части речи:**
+        createLesson("Служебные части речи", "/school-curriculum-app/images/lessons/grade10/russian/lesson8.svg",`**Служебные части речи:**
 
 **Предлог:**
 - выражает отношения между словами
@@ -322,7 +322,7 @@ export const lessons: SubjectData = {
     {
       topic: "Синтаксис и пунктуация",
       lessons: [
-        createLesson("Простое предложение", `**Предложение** — основная единица синтаксиса.
+        createLesson("Простое предложение", "/school-curriculum-app/images/lessons/grade10/russian/lesson9.svg",`**Предложение** — основная единица синтаксиса.
 
 **Виды предложений:**
 - по цели высказывания: повествовательные, вопросительные, побудительные
@@ -355,7 +355,7 @@ export const lessons: SubjectData = {
           "Средство связи: «Он был учителем. Этот человек…»",
           "Однокоренные: вода, водный, подводник, водяной"
         ]]),
-        createLesson("Сложное предложение", `**Сложные предложения:**
+        createLesson("Сложное предложение", "/school-curriculum-app/images/lessons/grade10/russian/lesson10.svg",`**Сложные предложения:**
 
 **Сложносочинённые (ССП):**
 - связываются сочинительными союзами
@@ -398,7 +398,7 @@ export const lessons: SubjectData = {
     {
       topic: "Текст и стили речи",
       lessons: [
-        createLesson("Текст и его структура", `**Текст** — группа предложений, связанных по смыслу и грамматически.
+        createLesson("Текст и его структура", "/school-curriculum-app/images/lessons/grade10/russian/lesson11.svg",`**Текст** — группа предложений, связанных по смыслу и грамматически.
 
 **Признаки текста:**
 1. Смысловая цельность
@@ -438,7 +438,7 @@ export const lessons: SubjectData = {
           "Структура: вступление → основная часть → заключение",
           "Лексический повтор: «Весна пришла. Весна — пора надежд и обновлений»"
         ]),
-        createLesson("Функциональные стили речи", `**Стили речи:**
+        createLesson("Функциональные стили речи", "/school-curriculum-app/images/lessons/grade10/russian/lesson12.svg",`**Стили речи:**
 
 **1. Разговорный:**
 - общение в быту

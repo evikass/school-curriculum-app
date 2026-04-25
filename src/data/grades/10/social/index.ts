@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Общество как сложная система",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson1.svg",
           description: `**Общество** — совокупность людей, объединённых исторически сложившимися формами взаимодействия.
 
 **Подходы к пониманию общества:**
@@ -60,6 +61,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Человек как биосоциальное существо",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson2.svg",
           description: `**Человек** — биосоциальное существо, обладающее сознанием и способностью к труду.
 
 **Биологическое в человеке:**
@@ -101,6 +103,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Деятельность человека",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson3.svg",
           description: `**Деятельность** — активное взаимодействие человека с окружающим миром.
 
 **Структура деятельности:**
@@ -147,6 +150,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Культура и её формы",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson4.svg",
           description: `**Культура** — совокупность достижений человечества в производственном, общественном и духовном отношении.
 
 **Формы культуры:**
@@ -188,6 +192,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Религия и её роль в обществе",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson5.svg",
           description: `**Религия** — форма мировоззрения, основанная на вере в сверхъестественное.
 
 **Элементы религии:**
@@ -231,6 +236,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Образование и наука",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson6.svg",
           description: `**Образование** — целенаправленный процесс получения знаний, умений и навыков.
 
 **Функции образования:**
@@ -284,6 +290,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Экономика и её роль в жизни общества",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson7.svg",
           description: `**Экономика** — сфера производства, распределения, обмена и потребления товаров и услуг.
 
 **Функции экономики:**
@@ -328,6 +335,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Рынок и рыночный механизм",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson8.svg",
           description: `**Рынок** — система экономических отношений купли-продажи.
 
 **Виды рынков:**
@@ -372,6 +380,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Деньги и банки",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson9.svg",
           description: `**Деньги** — всеобщий эквивалент стоимости товаров и услуг.
 
 **Функции денег:**
@@ -424,6 +433,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Социальная структура общества",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson10.svg",
           description: `**Социальная структура** — совокупность социальных групп и отношений между ними.
 
 **Элементы социальной структуры:**
@@ -465,6 +475,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Семья как социальный институт",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson11.svg",
           description: `**Семья** — малая социальная группа, основанная на браке или кровном родстве.
 
 **Функции семьи:**
@@ -508,6 +519,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Государство и его признаки",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson12.svg",
           description: `**Государство** — особая организация публичной власти, распространяющаяся на всё население страны.
 
 **Признаки государства:**
@@ -552,6 +564,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Право и правовые нормы",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson13.svg",
           description: `**Право** — система общеобязательных норм, охраняемых государством.
 
 **Признаки права:**
@@ -599,6 +612,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Права и свободы человека",
+          image: "/school-curriculum-app/images/lessons/grade10/social/lesson14.svg",
           description: `**Права человека** — естественные, неотъемлемые права, принадлежащие каждому от рождения.
 
 **Группы прав:**

@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Измерение информации",
+          image: "/school-curriculum-app/images/lessons/grade10/informatics/lesson1.svg",
           description: `**Подходы к измерению информации:**
 
 **Содержательный подход:**
@@ -55,6 +56,7 @@ I = K · i, где K — количество символов, i — инфор
         },
         {
           title: "Кодирование информации",
+          image: "/school-curriculum-app/images/lessons/grade10/informatics/lesson2.svg",
           description: `**Кодирование текстовой информации:**
 - ASCII — 1 байт на символ (256 символов)
 - Unicode — 2 байта на символ (65536 символов)
@@ -91,6 +93,7 @@ V = V_кадра · fps · t, где fps — кадров в секунду.`,
         },
         {
           title: "Информационные процессы",
+          image: "/school-curriculum-app/images/lessons/grade10/informatics/lesson3.svg",
           description: `**Основные информационные процессы:**
 
 **Сбор информации** — получение информации из внешнего мира.
@@ -136,6 +139,7 @@ V = V_кадра · fps · t, где fps — кадров в секунду.`,
       lessons: [
         {
           title: "Позиционные системы счисления",
+          image: "/school-curriculum-app/images/lessons/grade10/informatics/lesson4.svg",
           description: `**Система счисления** — способ записи чисел.
 
 **Позиционные системы:** значение цифры зависит от её позиции.
@@ -180,6 +184,7 @@ V = V_кадра · fps · t, где fps — кадров в секунду.`,
         },
         {
           title: "Арифметика в позиционных системах",
+          image: "/school-curriculum-app/images/lessons/grade10/informatics/lesson5.svg",
           description: `**Сложение в двоичной системе:**
 0 + 0 = 0
 0 + 1 = 1
@@ -227,6 +232,7 @@ V = V_кадра · fps · t, где fps — кадров в секунду.`,
       lessons: [
         {
           title: "Алгоритмы и их свойства",
+          image: "/school-curriculum-app/images/lessons/grade10/informatics/lesson6.svg",
           description: `**Алгоритм** — точное описание порядка действий, которые должен выполнить исполнитель для решения задачи.
 
 **Свойства алгоритма:**
@@ -266,6 +272,7 @@ V = V_кадра · fps · t, где fps — кадров в секунду.`,
         },
         {
           title: "Основы программирования",
+          image: "/school-curriculum-app/images/lessons/grade10/informatics/lesson7.svg",
           description: `**Переменные и типы данных:**
 - integer (целые числа)
 - real (вещественные числа)
@@ -313,6 +320,7 @@ while условие do
         },
         {
           title: "Массивы и их обработка",
+          image: "/school-curriculum-app/images/lessons/grade10/informatics/lesson8.svg",
           description: `**Массив** — упорядоченный набор однотипных элементов.
 
 **Объявление массива:**
@@ -364,6 +372,7 @@ for i := 1 to n-1 do
       lessons: [
         {
           title: "Локальные и глобальные сети",
+          image: "/school-curriculum-app/images/lessons/grade10/informatics/lesson9.svg",
           description: `**Компьютерная сеть** — группа компьютеров, соединённых каналами связи.
 
 **Виды сетей:**
@@ -402,6 +411,7 @@ for i := 1 to n-1 do
         },
         {
           title: "Интернет и его сервисы",
+          image: "/school-curriculum-app/images/lessons/grade10/informatics/lesson10.svg",
           description: `**Интернет** — глобальная компьютерная сеть.
 
 **Протоколы Интернета:**
@@ -448,6 +458,7 @@ for i := 1 to n-1 do
       lessons: [
         {
           title: "Угрозы информационной безопасности",
+          image: "/school-curriculum-app/images/lessons/grade10/informatics/lesson11.svg",
           description: `**Основные угрозы:**
 
 **Вредоносные программы:**
@@ -486,6 +497,7 @@ for i := 1 to n-1 do
         },
         {
           title: "Защита информации",
+          image: "/school-curriculum-app/images/lessons/grade10/informatics/lesson12.svg",
           description: `**Методы защиты:**
 
 **Антивирусное ПО:**

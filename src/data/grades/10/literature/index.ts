@@ -1,7 +1,7 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => ({
-  title, description, tasks, examples, keyPoints
+const createLesson = (title: string, image: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => ({
+  title, image, description, tasks, examples, keyPoints
 })
 
 export const lessons: SubjectData = {
@@ -18,7 +18,7 @@ export const lessons: SubjectData = {
     {
       topic: "Русская классика XIX века",
       lessons: [
-        createLesson("А.С. Пушкин", `**Александр Сергеевич Пушкин** (1799-1837) — великий русский поэт, драматург и прозаик.
+        createLesson("А.С. Пушкин", "/school-curriculum-app/images/lessons/grade10/literature/lesson1.svg",`**Александр Сергеевич Пушкин** (1799-1837) — великий русский поэт, драматург и прозаик.
 
 **Основные произведения:**
 - "Евгений Онегин" — роман в стихах
@@ -55,7 +55,7 @@ export const lessons: SubjectData = {
           "Народность языка и пушкинская традиция",
         ]
         ),
-        createLesson("М.Ю. Лермонтов", `**Михаил Юрьевич Лермонтов** (1814-1841) — русский поэт, прозаик и драматург.
+        createLesson("М.Ю. Лермонтов", "/school-curriculum-app/images/lessons/grade10/literature/lesson2.svg",`**Михаил Юрьевич Лермонтов** (1814-1841) — русский поэт, прозаик и драматург.
 
 **Основные произведения:**
 - "Герой нашего времени" — роман
@@ -94,7 +94,7 @@ export const lessons: SubjectData = {
           "Бунтарские мотивы: поэмы «Мцыри», «Демон»",
         ]
         ),
-        createLesson("Н.В. Гоголь", `**Николай Васильевич Гоголь** (1809-1852) — русский писатель, драматург.
+        createLesson("Н.В. Гоголь", "/school-curriculum-app/images/lessons/grade10/literature/lesson3.svg",`**Николай Васильевич Гоголь** (1809-1852) — русский писатель, драматург.
 
 **Основные произведения:**
 - "Мёртвые души" — поэма-роман
@@ -131,7 +131,7 @@ export const lessons: SubjectData = {
           "Обличение чиновничества и крепостничества",
         ]
         ),
-        createLesson("И.С. Тургенев", `**Иван Сергеевич Тургенев** (1818-1883) — русский писатель, мастер пейзажа и психологического портрета.
+        createLesson("И.С. Тургенев", "/school-curriculum-app/images/lessons/grade10/literature/lesson4.svg",`**Иван Сергеевич Тургенев** (1818-1883) — русский писатель, мастер пейзажа и психологического портрета.
 
 **Основные произведения:**
 - "Отцы и дети" — роман
@@ -174,7 +174,7 @@ export const lessons: SubjectData = {
     {
       topic: "Литература XX века",
       lessons: [
-        createLesson("А.П. Чехов", `**Антон Павлович Чехов** (1860-1904) — русский писатель, драматург, врач.
+        createLesson("А.П. Чехов", "/school-curriculum-app/images/lessons/grade10/literature/lesson5.svg",`**Антон Павлович Чехов** (1860-1904) — русский писатель, драматург, врач.
 
 **Основные произведения:**
 - "Вишнёвый сад" — пьеса
@@ -213,7 +213,7 @@ export const lessons: SubjectData = {
           "Вишнёвый сад — символ эпохальных перемен в России",
         ]
         ),
-        createLesson("М.А. Булгаков", `**Михаил Афанасьевич Булгаков** (1891-1940) — русский писатель, драматург.
+        createLesson("М.А. Булгаков", "/school-curriculum-app/images/lessons/grade10/literature/lesson6.svg",`**Михаил Афанасьевич Булгаков** (1891-1940) — русский писатель, драматург.
 
 **Основные произведения:**
 - "Мастер и Маргарита" — роман
@@ -251,7 +251,7 @@ export const lessons: SubjectData = {
           "Проблема добра и зла: «Что такое хорошо и что такое плохо?»",
         ]
         ),
-        createLesson("М.А. Шолохов", `**Михаил Александрович Шолохов** (1905-1984) — русский писатель, лауреат Нобелевской премии.
+        createLesson("М.А. Шолохов", "/school-curriculum-app/images/lessons/grade10/literature/lesson7.svg",`**Михаил Александрович Шолохов** (1905-1984) — русский писатель, лауреат Нобелевской премии.
 
 **Основные произведения:**
 - "Тихий Дон" — роман-эпопея
@@ -293,7 +293,7 @@ export const lessons: SubjectData = {
     {
       topic: "Зарубежная литература",
       lessons: [
-        createLesson("У. Шекспир", `**Уильям Шекспир** (1564-1616) — английский драматург, поэт.
+        createLesson("У. Шекспир", "/school-curriculum-app/images/lessons/grade10/literature/lesson8.svg",`**Уильям Шекспир** (1564-1616) — английский драматург, поэт.
 
 **Основные произведения:**
 - "Гамлет" — трагедия
@@ -332,7 +332,7 @@ export const lessons: SubjectData = {
           "Шекспировские архетипы в мировой культуре",
         ]
         ),
-        createLesson("И.В. Гёте", `**Иоганн Вольфганг Гёте** (1749-1832) — немецкий поэт, драматург, мыслитель.
+        createLesson("И.В. Гёте", "/school-curriculum-app/images/lessons/grade10/literature/lesson9.svg",`**Иоганн Вольфганг Гёте** (1749-1832) — немецкий поэт, драматург, мыслитель.
 
 **Основные произведения:**
 - "Фауст" — трагедия
@@ -374,7 +374,7 @@ export const lessons: SubjectData = {
     {
       topic: "Теория литературы",
       lessons: [
-        createLesson("Рода и жанры литературы", `**Рода литературы:**
+        createLesson("Рода и жанры литературы", "/school-curriculum-app/images/lessons/grade10/literature/lesson10.svg",`**Рода литературы:**
 
 **1. Эпос** — повествовательный род
 - Рассказ, повесть, роман
@@ -413,7 +413,7 @@ export const lessons: SubjectData = {
           "Драма — изображение конфликта в диалогах для сцены",
           "Лиро-эпические жанры: баллада, поэма, басня"
         ]),
-        createLesson("Средства выразительности", `**Тропы** — обороты речи в переносном значении.
+        createLesson("Средства выразительности", "/school-curriculum-app/images/lessons/grade10/literature/lesson11.svg",`**Тропы** — обороты речи в переносном значении.
 
 **Основные тропы:**
 1. **Метафора** — скрытое сравнение
