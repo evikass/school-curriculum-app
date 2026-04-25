@@ -16,6 +16,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "«Слово о полку Игореве»",
+          image: "/school-curriculum-app/images/lessons/grade9/literature/lesson1.svg",
           description: `**«Слово о полку Игореве»** — памятник древнерусской литературы конца XII века.
 
 ---
@@ -92,6 +93,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Жанры древнерусской литературы",
+          image: "/school-curriculum-app/images/lessons/grade9/literature/lesson2.svg",
           description: `**Древнерусская литература** — литература XI–XVII веков.
 
 ---
@@ -180,6 +182,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "М.В. Ломоносов",
+          image: "/school-curriculum-app/images/lessons/grade9/literature/lesson3.svg",
           description: `**Михаил Васильевич Ломоносов (1711–1765)**
 
 Выдающийся учёный, поэт, просветитель. «Универсальный человек» эпохи Просвещения.
@@ -255,6 +258,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Д.И. Фонвизин «Недоросль»",
+          image: "/school-curriculum-app/images/lessons/grade9/literature/lesson4.svg",
           description: `**Денис Иванович Фонвизин (1744–1792)**
 
 Русский драматург, создатель русской бытовой комедии.
@@ -333,6 +337,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "А.С. Грибоедов «Горе от ума»",
+          image: "/school-curriculum-app/images/lessons/grade9/literature/lesson5.svg",
           description: `**Александр Сергеевич Грибоедов (1795–1829)**
 
 Драматург, дипломат, музыкант, композитор.
@@ -412,6 +417,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "А.С. Пушкин",
+          image: "/school-curriculum-app/images/lessons/grade9/literature/lesson6.svg",
           description: `**Александр Сергеевич Пушкин (1799–1837)**
 
 «Солнце русской поэзии», основатель современного русского литературного языка.
@@ -473,6 +479,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "М.Ю. Лермонтов «Герой нашего времени»",
+          image: "/school-curriculum-app/images/lessons/grade9/literature/lesson7.svg",
           description: `**Михаил Юрьевич Лермонтов (1814–1841)**
 
 Поэт, прозаик, драматург, художник.
@@ -548,6 +555,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Н.В. Гоголь «Мёртвые души»",
+          image: "/school-curriculum-app/images/lessons/grade9/literature/lesson8.svg",
           description: `**Николай Васильевич Гоголь (1809–1852)**
 
 Писатель, драматург, критик.
@@ -636,6 +644,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "А.П. Чехов",
+          image: "/school-curriculum-app/images/lessons/grade9/literature/lesson9.svg",
           description: `**Антон Павлович Чехов (1860–1904)**
 
 Русский писатель, драматург, врач.
@@ -710,6 +719,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "М.А. Булгаков «Мастер и Маргарита»",
+          image: "/school-curriculum-app/images/lessons/grade9/literature/lesson10.svg",
           description: `**Михаил Афанасьевич Булгаков (1891–1940)**
 
 Русский писатель, драматург, врач.
@@ -797,6 +807,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "А.И. Солженицын",
+          image: "/school-curriculum-app/images/lessons/grade9/literature/lesson11.svg",
           description: `**Александр Исаевич Солженицын (1918–2008)**
 
 Русский писатель, публицист, общественный деятель. Лауреат Нобелевской премии (1970).

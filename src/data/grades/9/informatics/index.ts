@@ -20,6 +20,7 @@ const lessons: SubjectData = {
       lessons: [
         {
           title: 'Информационный объём',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson1.svg",
           description: `**Информационный объём — количество информации**
 
 **Информационный объём** — это количество информации, содержащейся в сообщении. Измеряется в битах, байтах, Кбайтах и т.д.
@@ -105,6 +106,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Кодирование информации',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson2.svg",
           description: `**Кодирование — преобразование информации**
 
 **Кодирование** — это процесс преобразования информации из одной формы представления в другую с помощью определённого кода.
@@ -207,6 +209,7 @@ I = f × i × t × k
       lessons: [
         {
           title: 'Электронные таблицы: основы',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson3.svg",
           description: `**Электронные таблицы — инструмент для работы с данными**
 
 **Электронные таблицы** — это программы для обработки числовых данных в табличной форме. Примеры: Microsoft Excel, LibreOffice Calc, Google Sheets.
@@ -289,6 +292,7 @@ I = f × i × t × k
         },
         {
           title: 'Функции в электронных таблицах',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson4.svg",
           description: `**Функции — готовые формулы**
 
 **Функция** — это заранее определённая формула, которая выполняет вычисления по заданным значениям (аргументам).
@@ -374,6 +378,7 @@ I = f × i × t × k
         },
         {
           title: 'Диаграммы и графики',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson5.svg",
           description: `**Диаграмма — графическое представление данных**
 
 **Диаграмма** — это графическое изображение, показывающее соотношение между данными. Диаграммы делают информацию наглядной и понятной.
@@ -491,6 +496,7 @@ I = f × i × t × k
       lessons: [
         {
           title: 'Массивы: основы',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson6.svg",
           description: `**Массив — упорядоченный набор данных**
 
 **Массив** — это упорядоченная совокупность однотипных данных, доступ к которым осуществляется по индексу.
@@ -602,6 +608,7 @@ end.
         },
         {
           title: 'Алгоритмы обработки массивов',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson7.svg",
           description: `**Основные алгоритмы работы с массивами**
 
 ---
@@ -751,6 +758,7 @@ for i := 1 to n-1 do
         },
         {
           title: 'Строки и символы',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson8.svg",
           description: `**Строка — последовательность символов**
 
 **Строка** — это упорядоченная последовательность символов. В Паскале строки имеют тип \`string\`.
@@ -876,6 +884,7 @@ end;
         },
         {
           title: 'Подпрограммы: процедуры и функции',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson9.svg",
           description: `**Подпрограммы — повторно используемый код**
 
 **Подпрограмма** — это именованный, логически законченный фрагмент программы, который можно многократно вызывать из разных мест программы.
@@ -1029,6 +1038,7 @@ end.
       lessons: [
         {
           title: 'Модели и моделирование',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson10.svg",
           description: `**Модель — упрощённое подобие объекта**
 
 **Модель** — это объект-заместитель, который отражает существенные свойства оригинала.
@@ -1126,6 +1136,7 @@ end.
         },
         {
           title: 'Графические модели: графы',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson11.svg",
           description: `**Граф — модель системы связей**
 
 **Граф** — это совокупность вершин (узлов), соединённых рёбрами (линиями). Графы используются для моделирования связей и отношений.
@@ -1244,6 +1255,7 @@ AB, AC, BC, BD
       lessons: [
         {
           title: 'Интернет-технологии',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson12.svg",
           description: `**Интернет — глобальная сеть**
 
 **Интернет** — это всемирная система объединённых компьютерных сетей, использующая протоколы TCP/IP для передачи данных.
@@ -1364,6 +1376,7 @@ AB, AC, BC, BD
       lessons: [
         {
           title: 'Архитектура компьютера',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson13.svg",
           description: `**Компьютер — универсальное устройство обработки информации**
 
 **Компьютер** — это универсальное техническое устройство для работы с информацией. Он может обрабатывать данные любого вида: текст, изображения, звук, видео.
@@ -1464,6 +1477,7 @@ AB, AC, BC, BD
       lessons: [
         {
           title: 'Текстовый редактор',
+          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson14.svg",
           description: `**Текстовый редактор — программа для работы с текстом**
 
 **Текстовый редактор** — это программа для создания, редактирования и форматирования текстовых документов.

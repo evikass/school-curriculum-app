@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Живопись, графика, скульптура",
+          image: "/school-curriculum-app/images/lessons/grade9/art/lesson1.svg",
           description: `**Изобразительное искусство** — создание художественных образов в зримых формах.
 
 **Живопись** — создание художественных образов с помощью красок.
@@ -90,6 +91,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Архитектура и дизайн",
+          image: "/school-curriculum-app/images/lessons/grade9/art/lesson2.svg",
           description: `**Архитектура** — искусство проектировать и строить здания и сооружения.
 
 Архитектура занимает особое место среди искусств, сочетая художественные и утилитарные функции.
@@ -148,6 +150,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Декоративно-прикладное искусство",
+          image: "/school-curriculum-app/images/lessons/grade9/art/lesson3.svg",
           description: `**Декоративно-прикладное искусство** — создание художественных предметов, имеющих практическое назначение.
 
 Сочетает красоту и пользу, традиции и мастерство.
@@ -226,6 +229,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Искусство Возрождения",
+          image: "/school-curriculum-app/images/lessons/grade9/art/lesson4.svg",
           description: `**Возрождение (Ренессанс)** — эпоха в культуре XIV-XVI веков.
 
 Обращение к античному наследию, утверждение гуманизма, расцвет реалистического искусства.
@@ -290,6 +294,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Импрессионизм и постимпрессионизм",
+          image: "/school-curriculum-app/images/lessons/grade9/art/lesson5.svg",
           description: `**Импрессионизм** (от фр. impression — впечатление) — направление в искусстве второй половины XIX века.
 
 Стремление передать мгновенное впечатление от окружающего мира.
@@ -368,6 +373,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Композиция в изобразительном искусстве",
+          image: "/school-curriculum-app/images/lessons/grade9/art/lesson6.svg",
           description: `**Композиция** — построение художественного произведения, расположение элементов на плоскости.
 
 Композиция организует восприятие, направляет взгляд зрителя.
@@ -438,6 +444,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Виды перспективы",
+          image: "/school-curriculum-app/images/lessons/grade9/art/lesson7.svg",
           description: `**Перспектива** — система изображения объёмных тел на плоскости.
 
 Передача глубины пространства, удалённости предметов.
@@ -517,6 +524,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Основы теории цвета",
+          image: "/school-curriculum-app/images/lessons/grade9/art/lesson8.svg",
           description: `**Цветоведение** — наука о цвете, его свойствах и взаимодействии.
 
 **Основные цвета:**
@@ -602,6 +610,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Психология цвета в искусстве",
+          image: "/school-curriculum-app/images/lessons/grade9/art/lesson9.svg",
           description: `**Психология цвета** — влияние цвета на эмоции и восприятие человека.
 
 **Эмоциональное воздействие цветов:**
@@ -689,6 +698,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Направления XX-XXI веков",
+          image: "/school-curriculum-app/images/lessons/grade9/art/lesson10.svg",
           description: `**Модернизм** (конец XIX — середина XX века):
 
 Отказ от традиций, эксперимент с формой, поиск новых выразительных средств.
@@ -756,6 +766,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Цифровое искусство",
+          image: "/school-curriculum-app/images/lessons/grade9/art/lesson11.svg",
           description: `**Цифровое искусство** — искусство, создаваемое с помощью компьютерных технологий.
 
 **Виды цифрового искусства:**

@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Понятие вектора",
+          image: "/school-curriculum-app/images/lessons/grade9/geometry/lesson1.svg",
           description: `**Вектор** — это направленный отрезок, то есть отрезок, для которого указано, какой из его концов считается началом, а какой — концом.
 
 **Обозначение:**
@@ -62,6 +63,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Сложение и вычитание векторов",
+          image: "/school-curriculum-app/images/lessons/grade9/geometry/lesson2.svg",
           description: `**Сложение векторов:**
 
 **1. Правило треугольника:**
@@ -114,6 +116,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Умножение вектора на число",
+          image: "/school-curriculum-app/images/lessons/grade9/geometry/lesson3.svg",
           description: `**Умножение вектора на число:**
 
 **Произведение вектора a⃗ на число k:**
@@ -170,6 +173,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Координаты вектора",
+          image: "/school-curriculum-app/images/lessons/grade9/geometry/lesson4.svg",
           description: `**Прямоугольная система координат:**
 Две взаимно перпендикулярные оси OX и OY с общим началом O.
 
@@ -233,6 +237,7 @@ k**a⃗** {kx; ky}
         },
         {
           title: "Уравнение окружности и прямой",
+          image: "/school-curriculum-app/images/lessons/grade9/geometry/lesson5.svg",
           description: `**Уравнение окружности:**
 
 Окружность с центром в точке A(a; b) и радиусом R:
@@ -297,6 +302,7 @@ d = |3×1 + 4×2 - 5| / √(9 + 16) = 6/5 = 1,2`,
       lessons: [
         {
           title: "Синус, косинус, тангенс угла",
+          image: "/school-curriculum-app/images/lessons/grade9/geometry/lesson6.svg",
           description: `**Синус, косинус, тангенс острого угла прямоугольного треугольника:**
 
 Для угла α:
@@ -351,6 +357,7 @@ ctg α = cos α / sin α = 1/tg α
         },
         {
           title: "Теорема синусов",
+          image: "/school-curriculum-app/images/lessons/grade9/geometry/lesson7.svg",
           description: `**Теорема синусов:**
 
 Стороны треугольника пропорциональны синусам противолежащих углов.
@@ -406,6 +413,7 @@ b = 10 × sin 45° / sin 30° = 10 × (√2/2) / (1/2) = 10√2 ≈ 14,1
         },
         {
           title: "Теорема косинусов",
+          image: "/school-curriculum-app/images/lessons/grade9/geometry/lesson8.svg",
           description: `**Теорема косинусов:**
 
 Квадрат стороны треугольника равен сумме квадратов двух других сторон минус удвоенное произведение этих сторон на косинус угла между ними.
@@ -467,6 +475,7 @@ cos C = (49 + 64 - 25) / (2 × 7 × 8) = 88/112 ≈ 0,786
       lessons: [
         {
           title: "Длина окружности и дуги",
+          image: "/school-curriculum-app/images/lessons/grade9/geometry/lesson9.svg",
           description: `**Длина окружности:**
 **C = 2πR = πD**
 
@@ -526,6 +535,7 @@ R = 16`,
         },
         {
           title: "Площадь круга и его частей",
+          image: "/school-curriculum-app/images/lessons/grade9/geometry/lesson10.svg",
           description: `**Площадь круга:**
 **S = πR² = πD²/4**
 
@@ -588,6 +598,7 @@ R = 10`,
       lessons: [
         {
           title: "Виды движений",
+          image: "/school-curriculum-app/images/lessons/grade9/geometry/lesson11.svg",
           description: `**Движение** — это отображение плоскости на себя, сохраняющее расстояния.
 
 **Свойства движений:**
@@ -645,6 +656,7 @@ A → A₁, где O — центр симметрии
         },
         {
           title: "Параллельный перенос и поворот",
+          image: "/school-curriculum-app/images/lessons/grade9/geometry/lesson12.svg",
           description: `**Параллельный перенос:**
 
 **Определение:**

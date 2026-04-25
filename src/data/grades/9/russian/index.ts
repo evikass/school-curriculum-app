@@ -18,6 +18,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Понятие о сложном предложении",
+          image: "/school-curriculum-app/images/lessons/grade9/russian/lesson1.svg",
           description: `**Сложное предложение** — это предложение, состоящее из двух или более простых предложений, связанных по смыслу и грамматически.
 
 **Основные признаки:**
@@ -68,6 +69,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "ССП с соединительными союзами",
+          image: "/school-curriculum-app/images/lessons/grade9/russian/lesson2.svg",
           description: `**Сложносочинённое предложение (ССП)** — это сложное предложение, части которого соединены сочинительными союзами и равноправны.
 
 **Соединительные союзы:**
@@ -118,6 +120,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "ССП с противительными и разделительными союзами",
+          image: "/school-curriculum-app/images/lessons/grade9/russian/lesson3.svg",
           description: `**Противительные союзы:**
 - **а**
 - **но**
@@ -189,6 +192,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "СПП: структура и виды придаточных",
+          image: "/school-curriculum-app/images/lessons/grade9/russian/lesson4.svg",
           description: `**Сложноподчинённое предложение (СПП)** — это сложное предложение, состоящее из главной и придаточной частей.
 
 **Структура СПП:**
@@ -241,6 +245,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Виды придаточных обстоятельственных",
+          image: "/school-curriculum-app/images/lessons/grade9/russian/lesson5.svg",
           description: `**Придаточные обстоятельственные:**
 
 **1. Места (где? куда? откуда?):**
@@ -298,6 +303,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Бессоюзное сложное предложение",
+          image: "/school-curriculum-app/images/lessons/grade9/russian/lesson6.svg",
           description: `**Бессоюзное сложное предложение (БСП)** — это сложное предложение, части которого связаны только по смыслу и интонацией, без союзов.
 
 **Знаки препинания в БСП:**
@@ -358,6 +364,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Сложные предложения с разными видами связи",
+          image: "/school-curriculum-app/images/lessons/grade9/russian/lesson7.svg",
           description: `**Сложное предложение с разными видами связи** — это предложение, в котором сочетаются сочинительная, подчинительная и бессоюзная связи.
 
 **Типы сочетания связей:**
@@ -427,6 +434,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Итоговое повторение синтаксиса и пунктуации",
+          image: "/school-curriculum-app/images/lessons/grade9/russian/lesson8.svg",
           description: `**Основные правила пунктуации в 9 классе:**
 
 **1. Простое предложение:**

@@ -20,6 +20,7 @@ export const lessons: Subject = {
       lessons: [
         {
           title: 'Сложность алгоритмов',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson1.svg",
           description: `**Сложность алгоритма** — это функция, показывающая, как растёт время выполнения или память при увеличении входных данных.
 
 **Основные обозначения:**
@@ -53,6 +54,7 @@ export const lessons: Subject = {
         },
         {
           title: 'Сортировка данных',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson2.svg",
           description: `**Сортировка** — упорядочивание элементов по возрастанию или убыванию.
 
 **Основные алгоритмы сортировки:**
@@ -89,6 +91,7 @@ export const lessons: Subject = {
         },
         {
           title: 'Стек и очередь',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson3.svg",
           description: `**Стек (Stack)** — структура данных LIFO (Last In, First Out)
 
 **Операции:**
@@ -144,6 +147,7 @@ queue.popleft()  # dequeue
         },
         {
           title: 'Деревья и графы',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson4.svg",
           description: `**Дерево** — иерархическая структура данных с корнем и узлами.
 
 **Основные понятия:**
@@ -195,6 +199,7 @@ queue.popleft()  # dequeue
       lessons: [
         {
           title: 'Классы и объекты',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson5.svg",
           description: `**Класс** — это шаблон (чертёж) для создания объектов. Класс описывает:
 - **Атрибуты** — свойства (данные)
 - **Методы** — поведение (функции)
@@ -237,6 +242,7 @@ student1.greet()  # Привет, я Иван!
         },
         {
           title: 'Инкапсуляция',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson6.svg",
           description: `**Инкапсуляция** — скрытие внутренней реализации объекта от внешнего вмешательства.
 
 **Уровни доступа в Python:**
@@ -292,6 +298,7 @@ class BankAccount:
         },
         {
           title: 'Наследование',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson7.svg",
           description: `**Наследование** — создание нового класса на основе существующего.
 
 **Терминология:**
@@ -345,6 +352,7 @@ class Student(Person):
         },
         {
           title: 'Полиморфизм',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson8.svg",
           description: `**Полиморфизм** — способность объектов разных классов реагировать на одинаковые методы по-разному.
 
 **Пример полиморфизма:**
@@ -412,6 +420,7 @@ class Car(Vehicle):
       lessons: [
         {
           title: 'Чтение и запись файлов',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson9.svg",
           description: `**Файлы** позволяют хранить данные между запусками программы.
 
 **Открытие файла:**
@@ -464,6 +473,7 @@ with open("output.txt", "w") as file:
         },
         {
           title: 'Работа с CSV и JSON',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson10.svg",
           description: `**CSV (Comma-Separated Values)** — формат табличных данных.
 
 **Работа с CSV:**
@@ -531,6 +541,7 @@ with open("data.json", "r", encoding="utf-8") as file:
         },
         {
           title: 'Основы SQL',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson11.svg",
           description: `**SQL (Structured Query Language)** — язык запросов к реляционным базам данных.
 
 **Основные команды:**
@@ -588,6 +599,7 @@ SELECT MAX(age), MIN(age) FROM students;  -- максимум и минимум
         },
         {
           title: 'SQLite в Python',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson12.svg",
           description: `**SQLite** — встроенная база данных, не требует отдельного сервера. Данные хранятся в одном файле.
 
 **Подключение к базе:**
@@ -655,6 +667,7 @@ for row in rows:
       lessons: [
         {
           title: 'Основы HTML',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson13.svg",
           description: `**HTML (HyperText Markup Language)** — язык разметки веб-страниц.
 
 **Структура HTML-документа:**
@@ -707,6 +720,7 @@ for row in rows:
         },
         {
           title: 'CSS для стилизации',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson14.svg",
           description: `**CSS (Cascading Style Sheets)** — язык описания внешнего вида документа.
 
 **Способы подключения:**
@@ -771,6 +785,7 @@ div.highlight p { color: green; }
         },
         {
           title: 'Flask: создание веб-приложения',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson15.svg",
           description: `**Flask** — микрофреймворк для создания веб-приложений на Python.
 
 **Установка:**
@@ -835,6 +850,7 @@ python app.py
         },
         {
           title: 'Формы и обработка данных',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson16.svg",
           description: `**HTML-формы** позволяют пользователям вводить и отправлять данные.
 
 **Создание формы:**
@@ -901,6 +917,7 @@ def submit():
       lessons: [
         {
           title: 'Библиотека Tkinter',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson17.svg",
           description: `**Tkinter** — стандартная библиотека Python для создания графического интерфейса (GUI).
 
 **Простейшее окно:**
@@ -957,6 +974,7 @@ button.pack()
         },
         {
           title: 'Создание форм',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson18.svg",
           description: `**Формы в Tkinter** — набор виджетов для ввода данных.
 
 **Entry — поле ввода:**
@@ -1019,6 +1037,7 @@ selected = choice.get()
         },
         {
           title: 'Обработка событий',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson19.svg",
           description: `**События** — действия пользователя: клик, нажатие клавиши, движение мыши.
 
 **Обработка клика кнопки:**
@@ -1072,6 +1091,7 @@ label.bind("<Button-1>", on_click)  # Левая кнопка мыши
         },
         {
           title: 'Меню и диалоги',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson20.svg",
           description: `**Меню** — важный элемент интерфейса для организации команд.
 
 **Создание меню:**
@@ -1138,6 +1158,7 @@ save_as = filedialog.asksaveasfilename(
       lessons: [
         {
           title: 'Методы отладки',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson21.svg",
           description: `**Отладка (Debugging)** — процесс поиска и исправления ошибок в программе.
 
 **Print-отладка:**
@@ -1190,6 +1211,7 @@ def buggy_function(x):
         },
         {
           title: 'Unit-тестирование',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson22.svg",
           description: `**Unit-тестирование** — проверка отдельных функций или методов.
 
 **Модуль unittest:**
@@ -1248,6 +1270,7 @@ python -m unittest test_file.py
         },
         {
           title: 'Документирование кода',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson23.svg",
           description: `**Документация** делает код понятным для других и для себя в будущем.
 
 **Docstring — документация функции:**
@@ -1317,6 +1340,7 @@ def get_items() -> list[int]:
         },
         {
           title: 'Обработка ошибок',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson24.svg",
           description: `**Исключения (Exceptions)** — ошибки, возникающие во время выполнения программы.
 
 **Try-except:**
@@ -1381,6 +1405,7 @@ with open("file.txt") as f:
       lessons: [
         {
           title: 'Git: контроль версий',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson25.svg",
           description: `**Git** — распределённая система контроля версий для отслеживания изменений в коде.
 
 **Базовые команды:**
@@ -1438,6 +1463,7 @@ git log --graph --oneline --all
         },
         {
           title: 'Ветвление и слияние',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson26.svg",
           description: `**Ветки (Branches)** — независимые линии разработки.
 
 **Работа с ветками:**
@@ -1496,6 +1522,7 @@ git commit
         },
         {
           title: 'GitHub для совместной работы',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson27.svg",
           description: `**GitHub** — платформа для хостинга Git-репозиториев и совместной разработки.
 
 **Работа с удалённым репозиторием:**
@@ -1556,6 +1583,7 @@ MIT
         },
         {
           title: 'Стиль кода и соглашения',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson28.svg",
           description: `**PEP 8** — стиль кода Python.
 
 **Основные правила:**
@@ -1628,6 +1656,7 @@ flake8 my_script.py
       lessons: [
         {
           title: 'Выбор и планирование проекта',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson29.svg",
           description: `**Выбор темы проекта** — важный первый шаг.
 
 **Критерии выбора:**
@@ -1681,6 +1710,7 @@ flake8 my_script.py
         },
         {
           title: 'Реализация проекта',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson30.svg",
           description: `**Итеративная разработка** — создание проекта небольшими шагами.
 
 **Принципы:**
@@ -1741,6 +1771,7 @@ def save_tasks(tasks, filename):
         },
         {
           title: 'Презентация проекта',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson31.svg",
           description: `**Презентация** — представление результатов работы.
 
 **Структура презентации:**
@@ -1797,6 +1828,7 @@ def save_tasks(tasks, filename):
         },
         {
           title: 'Анализ и развитие',
+          image: "/school-curriculum-app/images/lessons/grade9/coding/lesson32.svg",
           description: `**Ретроспектива** — анализ проделанной работы.
 
 **Вопросы для анализа:**

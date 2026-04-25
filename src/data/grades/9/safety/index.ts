@@ -17,6 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Электробезопасность в быту",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson1.svg",
           description: `**Электричество** — незаменимый помощник в быту, но при неправильном обращении оно становится источником серьёзной опасности. Ежегодно от поражения электрическим током погибают сотни людей.
 
 ## Основные параметры электрического тока
@@ -89,6 +90,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Бытовой газ и его опасности",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson2.svg",
           description: `**Бытовой газ** — широко используемое топливо для отопления и приготовления пищи. Однако при утечке он становится причиной взрывов, пожаров и отравлений.
 
 ## Виды бытового газа
@@ -168,6 +170,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Безопасность на воде",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson3.svg",
           description: `**Водные объекты** — популярное место отдыха, но они таят множество опасностей. Ежегодно на воде погибают тысячи людей, большинство трагедий происходит из-за нарушения правил безопасности.
 
 ## Основные правила безопасности на воде
@@ -249,6 +252,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Причины пожаров и их профилактика",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson4.svg",
           description: `**Пожар** — неконтролируемое горение, причиняющее материальный ущерб, вред жизни и здоровью людей. Понимание причин пожаров — ключ к их предотвращению.
 
 ## Причины возникновения пожаров
@@ -324,6 +328,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Действия при пожаре",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson5.svg",
           description: `**Правильные действия при пожаре** могут спасти жизнь. Знание алгоритма действий и умение сохранить самообладание — главные факторы выживания.
 
 ## Обнаружение пожара
@@ -407,6 +412,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Правила дорожного движения для пешеходов",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson6.svg",
           description: `**Пешеход** — участник дорожного движения, находящийся вне транспортного средства на дороге. Правила поведения пешеходов направлены на обеспечение их безопасности.
 
 ## Обязанности пешеходов
@@ -478,6 +484,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Безопасность велосипедиста и скутериста",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson7.svg",
           description: `**Велосипед** и **скутер** — популярные транспортные средства, которые имеют свои правила использования на дороге. Нарушение этих правил может привести к серьёзным травмам.
 
 ## Велосипед
@@ -553,6 +560,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Наводнения и паводки",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson8.svg",
           description: `**Наводнение** — значительное затопление территории водой, причиняющее материальный ущерб и угрожающее жизни людей. Наводнения являются одним из самых распространённых стихийных бедствий.
 
 ## Виды наводнений
@@ -621,6 +629,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Землетрясения",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson9.svg",
           description: `**Землетрясение** — подземные толчки и колебания земной поверхности, вызванные смещением пород в земной коре. Это одно из самых разрушительных стихийных бедствий.
 
 ## Характеристики землетрясений
@@ -691,6 +700,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Ураганы и смерчи",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson10.svg",
           description: `**Ураган** — ветер разрушительной силы, скорость которого превышает 30 м/с (около 110 км/ч). **Смерч** — атмосферный вихрь, возникающий в грозовом облаке и опускающийся к земле в виде воронки.
 
 ## Характеристики ураганов и смерчей
@@ -769,6 +779,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Оценка состояния пострадавшего",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson11.svg",
           description: `**Первая помощь** — комплекс срочных мероприятий, направленных на спасение жизни пострадавшего. Умение правильно оценить состояние человека — первый и важнейший шаг.
 
 ## Алгоритм действий на месте происшествия
@@ -853,6 +864,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Сердечно-лёгочная реанимация",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson12.svg",
           description: `**Сердечно-лёгочная реанимация (СЛР)** — комплекс мероприятий, направленных на восстановление дыхания и сердечной деятельности. Проводится при клинической смерти.
 
 ## Показания к проведению СЛР
@@ -926,6 +938,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Остановка кровотечений",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson13.svg",
           description: `**Кровотечение** — истечение крови из кровеносных сосудов при нарушении их целостности. Быстрая остановка кровотечения — жизненно важное умение, способное спасти жизнь.
 
 ## Виды кровотечений
@@ -1004,6 +1017,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Переломы и транспортная иммобилизация",
+          image: "/school-curriculum-app/images/lessons/grade9/safety/lesson14.svg",
           description: `**Перелом** — полное или частичное нарушение целостности кости. Правильная первая помощь при переломах предотвращает развитие осложнений и спасает жизнь.
 
 ## Виды переломов

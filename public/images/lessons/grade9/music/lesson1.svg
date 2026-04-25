@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFEBEE"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EF5350"/>
+      <stop offset="100%" stop-color="#B71C1C"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EF5350" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EF5350" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#EF5350" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#B71C1C" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#EF5350" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#B71C1C" opacity="0.12"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EF5350" text-anchor="middle">Вокальные жанры</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Музыка - Урок 1</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#EF5350" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#EF5350" opacity="0.18" rx="1"/>
+  <rect x="410" y="75" width="60" height="5" fill="#B71C1C" opacity="0.12" rx="1"/>
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+  <rect x="15" y="85" width="470" height="215" fill="#FFEBEE" opacity="0.5"/>
+  
+    <circle cx="240" cy="195" r="15" fill="none" stroke="#EF5350" stroke-width="2"/>
+    <line x1="255" y1="195" x2="255" y2="155" stroke="#EF5350" stroke-width="2"/>
+    <path d="M255,155 Q275,150 275,165" fill="none" stroke="#B71C1C" stroke-width="2"/>
+    <circle cx="270" cy="210" r="12" fill="none" stroke="#EF5350" stroke-width="1.5" opacity="0.5"/>
+    <line x1="282" y1="210" x2="282" y2="170" stroke="#EF5350" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Музыка</text>
+</svg>
