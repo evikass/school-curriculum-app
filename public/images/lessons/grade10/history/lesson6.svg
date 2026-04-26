@@ -4,30 +4,30 @@
       <stop offset="0%" stop-color="#EFEBE9"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8D6E63"/>
-      <stop offset="100%" stop-color="#4E342E"/>
-    </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#8D6E63" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#8D6E63" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#8D6E63" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#4E342E" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#8D6E63" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#4E342E" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#8D6E63" text-anchor="middle">Победа над Германией</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">История - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#8D6E63" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#8D6E63" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#4E342E" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#EFEBE9" opacity="0.5"/>
-  <rect x="220" y="155" width="60" height="80" rx="3" fill="none" stroke="#8D6E63" stroke-width="2"/><line x1="230" y1="175" x2="270" y2="175" stroke="#8D6E63" stroke-width="1" opacity="0.5"/><line x1="230" y1="190" x2="270" y2="190" stroke="#8D6E63" stroke-width="1" opacity="0.4"/><line x1="230" y1="205" x2="270" y2="205" stroke="#8D6E63" stroke-width="1" opacity="0.3"/><circle cx="250" cy="165" r="5" fill="#8D6E63" opacity="0.5"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#8D6E63" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#8D6E63" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">История</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5D4037" stroke-width="2.5"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#5D4037" text-anchor="middle">Победа над Германией</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">История — Урок 6</text>
+  <line x1="30" y1="64" x2="470" y2="64" stroke="#5D4037" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="72" width="460" height="50" rx="5" fill="#C62828" opacity="0.06"/>
+  <polygon points="250,74 253.08,83.66 264,83.66 255.32,89.68 258.26,102 250,93.32 241.74,102 244.68,89.68 236,83.66 246.92,83.66" fill="#C62828" opacity="0.5"/>
+  <text x="250" y="112" font-family="Arial,sans-serif" font-size="16" fill="#C62828" text-anchor="middle" font-weight="bold">9 Мая 1945 года — День Победы</text>
+  <rect x="20" y="130" width="225" height="85" rx="5" fill="#5D4037" opacity="0.08"/>
+  <text x="30" y="148" font-family="Arial,sans-serif" font-size="12" fill="#5D4037" text-anchor="start" font-weight="bold">Завершающие операции</text>
+  <text x="30" y="166" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">• Висло-Одерская операция</text>
+  <text x="30" y="182" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">• Взятие Берлина (16 апр. — 2 мая)</text>
+  <text x="30" y="198" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">• Водружение знамени над Рейхстагом</text>
+  <rect x="255" y="130" width="225" height="85" rx="5" fill="#5D4037" opacity="0.08"/>
+  <text x="265" y="148" font-family="Arial,sans-serif" font-size="12" fill="#5D4037" text-anchor="start" font-weight="bold">Капитуляция</text>
+  <text x="265" y="166" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">8 мая — подписание акта</text>
+  <text x="265" y="182" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">о безоговорочной капитуляции</text>
+  <text x="265" y="198" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">9 мая — объявление в СССР</text>
+  <rect x="20" y="222" width="460" height="70" rx="5" fill="#5D4037" opacity="0.08"/>
+  <text x="30" y="240" font-family="Arial,sans-serif" font-size="12" fill="#5D4037" text-anchor="start" font-weight="bold">Итоги войны:</text>
+  <text x="30" y="258" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">• 27 млн погибших советских граждан</text>
+  <text x="30" y="272" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">• Освобождение Европы от фашизма</text>
+  <text x="30" y="286" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">• Создание ООН, новый мировой порядок</text>
+  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#5D4037" opacity="0.06"/>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#5D4037" text-anchor="middle" font-style="italic">История · Великая Отечественная война · 10 класс</text>
 </svg>
