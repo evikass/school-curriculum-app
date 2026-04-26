@@ -5,29 +5,44 @@
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EF5350"/>
-      <stop offset="100%" stop-color="#C62828"/>
+      <stop offset="0%" stop-color="#D32F2F"/>
+      <stop offset="100%" stop-color="#D32F2F"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EF5350" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EF5350" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#EF5350" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#C62828" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EF5350" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#C62828" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EF5350" text-anchor="middle">Сложное предложение</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Русский язык - Урок 10</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#EF5350" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#EF5350" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C62828" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFEBEE" opacity="0.5"/>
-  <rect x="220" y="160" width="60" height="70" rx="5" fill="none" stroke="#EF5350" stroke-width="2"/><text x="250" y="205" font-family="Arial,sans-serif" font-size="28" fill="#EF5350" text-anchor="middle" font-weight="bold">Я</text><line x1="230" y1="215" x2="270" y2="215" stroke="#EF5350" stroke-width="1" opacity="0.4"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#D32F2F" stroke-width="2.5"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#D32F2F" text-anchor="middle">Сложное предложение</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Русский язык — Урок 10</text>
+  <line x1="30" y1="64" x2="470" y2="64" stroke="#D32F2F" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="72" width="225" height="80" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="132" y="90" font-family="Arial,sans-serif" font-size="12" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Сложносочинённое</text>
+  <text x="30" y="108" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Части равноправны</text>
+  <text x="30" y="125" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Ветер дул, и дождь шёл.</text>
+  <text x="30" y="142" font-family="Arial,sans-serif" font-size="9" fill="#D32F2F" text-anchor="start" font-weight="normal" font-style="">Союзы: и, а, но, или</text>
+  <rect x="255" y="72" width="225" height="80" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="367" y="90" font-family="Arial,sans-serif" font-size="12" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Сложноподчинённое</text>
+  <text x="265" y="108" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Главная + придаточная</text>
+  <text x="265" y="125" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Я знаю, что он придёт.</text>
+  <text x="265" y="142" font-family="Arial,sans-serif" font-size="9" fill="#D32F2F" text-anchor="start" font-weight="normal" font-style="">Союзы: что, если, когда</text>
+  <rect x="20" y="160" width="460" height="55" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="250" y="178" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Схема сложного предложения</text>
+  <rect x="30" y="188" width="140" height="20" rx="5" fill="#FF8A80" opacity="0.5"/>
+  <text x="100" y="202" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">[Главная часть]</text>
+  <line x1="175" y1="198" x2="220" y2="198" stroke="#D32F2F" stroke-width="2" marker-end="url(#arr)"/>
+  <defs><marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#D32F2F"/></marker></defs>
+  <rect x="225" y="188" width="140" height="20" rx="5" fill="#FFCDD2" opacity="0.5"/>
+  <text x="295" y="202" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">[Придаточная]</text>
+  <text x="385" y="202" font-family="Arial,sans-serif" font-size="8" fill="#888888" text-anchor="start" font-weight="normal" font-style="">← союз</text>
+  <rect x="20" y="222" width="225" height="65" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="30" y="240" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Виды придаточных:</text>
+  <text x="30" y="256" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">• Изъяснительные (что? о чём?)</text>
+  <text x="30" y="270" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">• Определительные (какой?)</text>
+  <text x="30" y="284" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">• Обстоятельственные (где? когда?)</text>
+  <rect x="255" y="222" width="225" height="65" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="265" y="240" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Бессоюзное предложение</text>
+  <text x="265" y="256" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Части без союза, через запятую</text>
+  <text x="265" y="270" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">или двоеточие/тире:</text>
+  <text x="265" y="284" font-family="Arial,sans-serif" font-size="9" fill="#D32F2F" text-anchor="start" font-weight="normal" font-style="">Темнело: шёл дождь.</text>
+  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#D32F2F" opacity="0.06"/>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="middle" font-style="italic">Русский язык · 10 класс</text>
 </svg>

@@ -6,28 +6,101 @@
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+      <stop offset="100%" stop-color="#00796B"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">География сельского хозяйства</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#26A69A" text-anchor="middle">География сельского хозяйства</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 6</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/><ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/><line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/><path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+    
+<rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
+<text x="250" y="100" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#00796B" text-anchor="middle">Основные типы сельского хозяйства</text>
+
+<!-- Crop farming -->
+<rect x="25" y="110" width="145" height="90" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="97" y="125" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Растениеводство</text>
+<!-- Wheat stalks -->
+<line x1="55" y1="170" x2="55" y2="140" stroke="#F9A825" stroke-width="1.5"/>
+<ellipse cx="55" cy="138" rx="3" ry="5" fill="#F9A825"/>
+<line x1="70" y1="170" x2="70" y2="135" stroke="#F9A825" stroke-width="1.5"/>
+<ellipse cx="70" cy="133" rx="3" ry="5" fill="#F9A825"/>
+<line x1="85" y1="170" x2="85" y2="138" stroke="#F9A825" stroke-width="1.5"/>
+<ellipse cx="85" cy="136" rx="3" ry="5" fill="#F9A825"/>
+<!-- Corn -->
+<line x1="110" y1="170" x2="110" y2="140" stroke="#4CAF50" stroke-width="1.5"/>
+<ellipse cx="110" cy="150" rx="4" ry="8" fill="#FFEB3B" stroke="#F9A825" stroke-width="0.5"/>
+<line x1="130" y1="170" x2="130" y2="142" stroke="#4CAF50" stroke-width="1.5"/>
+<ellipse cx="130" cy="152" rx="4" ry="8" fill="#FFEB3B" stroke="#F9A825" stroke-width="0.5"/>
+<!-- Ground line -->
+<path d="M40,170 L150,170" stroke="#795548" stroke-width="1"/>
+<text x="97" y="183" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Зерновые, технические, кормовые</text>
+<text x="97" y="193" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Китай, США, Индия, Россия</text>
+
+<!-- Livestock -->
+<rect x="180" y="110" width="145" height="90" rx="5" fill="white" stroke="#E65100" stroke-width="1.2"/>
+<text x="252" y="125" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">Животноводство</text>
+<!-- Cow shape -->
+<ellipse cx="225" cy="155" rx="15" ry="10" fill="#FFCCBC" stroke="#E65100" stroke-width="0.8"/>
+<ellipse cx="212" cy="152" rx="5" ry="5" fill="#FFCCBC" stroke="#E65100" stroke-width="0.8"/>
+<line x1="215" y1="165" x2="213" y2="172" stroke="#E65100" stroke-width="1"/>
+<line x1="225" y1="165" x2="223" y2="172" stroke="#E65100" stroke-width="1"/>
+<line x1="232" y1="165" x2="234" y2="172" stroke="#E65100" stroke-width="1"/>
+<line x1="238" y1="164" x2="240" y2="172" stroke="#E65100" stroke-width="1"/>
+<!-- Sheep shape -->
+<ellipse cx="270" cy="155" rx="10" ry="8" fill="white" stroke="#E65100" stroke-width="0.8"/>
+<ellipse cx="262" cy="153" rx="4" ry="4" fill="white" stroke="#E65100" stroke-width="0.8"/>
+<line x1="265" y1="163" x2="264" y2="170" stroke="#E65100" stroke-width="0.8"/>
+<line x1="275" y1="163" x2="276" y2="170" stroke="#E65100" stroke-width="0.8"/>
+<text x="252" y="185" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Молочное, мясное, овцеводство</text>
+<text x="252" y="193" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Австралия, Аргентина, США</text>
+
+<!-- Mixed farming -->
+<rect x="335" y="110" width="145" height="90" rx="5" fill="white" stroke="#6A1B9A" stroke-width="1.2"/>
+<text x="407" y="125" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Смешанное</text>
+<!-- Farm + animal -->
+<rect x="380" y="140" width="15" height="12" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="0.7"/>
+<path d="M378,140 L387,134 L396,140" fill="none" stroke="#6A1B9A" stroke-width="0.7"/>
+<!-- Small field -->
+<rect x="400" y="150" width="25" height="12" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5"/>
+<line x1="405" y1="150" x2="405" y2="162" stroke="#2E7D32" stroke-width="0.3"/>
+<line x1="412" y1="150" x2="412" y2="162" stroke="#2E7D32" stroke-width="0.3"/>
+<line x1="419" y1="150" x2="419" y2="162" stroke="#2E7D32" stroke-width="0.3"/>
+<!-- Small cow -->
+<ellipse cx="370" cy="157" rx="8" ry="5" fill="#FFCCBC" stroke="#E65100" stroke-width="0.5"/>
+<ellipse cx="364" cy="155" rx="3" ry="3" fill="#FFCCBC" stroke="#E65100" stroke-width="0.5"/>
+<text x="407" y="178" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Растениеводство + животноводство</text>
+<text x="407" y="193" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">ЕС, США, Россия</text>
+
+<!-- Bottom: World agriculture regions map concept -->
+<rect x="25" y="210" width="450" height="85" rx="5" fill="white" opacity="0.8" stroke="#00796B" stroke-width="0.5"/>
+<text x="250" y="224" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#00796B" text-anchor="middle">Специализация сельского хозяйства по регионам</text>
+<!-- Simplified regions -->
+<rect x="40" y="232" width="85" height="15" rx="3" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.7"/>
+<text x="82" y="243" font-family="Arial,sans-serif" font-size="5" fill="#F57F17" text-anchor="middle">Юго-Вост. Азия: рис</text>
+<rect x="40" y="250" width="85" height="15" rx="3" fill="#FFCCBC" stroke="#E65100" stroke-width="0.7"/>
+<text x="82" y="261" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Лат. Америка: кофе, сахар</text>
+<rect x="40" y="268" width="85" height="15" rx="3" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.7"/>
+<text x="82" y="279" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">США, Канада: зерно</text>
+
+<rect x="140" y="232" width="85" height="15" rx="3" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="0.7"/>
+<text x="182" y="243" font-family="Arial,sans-serif" font-size="5" fill="#4A148C" text-anchor="middle">Европа: молочное</text>
+<rect x="140" y="250" width="85" height="15" rx="3" fill="#B3E5FC" stroke="#0277BD" stroke-width="0.7"/>
+<text x="182" y="261" font-family="Arial,sans-serif" font-size="5" fill="#01579B" text-anchor="middle">Средняя Азия: хлопок</text>
+<rect x="140" y="268" width="85" height="15" rx="3" fill="#FFE0B2" stroke="#E65100" stroke-width="0.7"/>
+<text x="182" y="279" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Австралия: овцы</text>
+
+<rect x="240" y="232" width="85" height="15" rx="3" fill="#DCEDC8" stroke="#33691E" stroke-width="0.7"/>
+<text x="282" y="243" font-family="Arial,sans-serif" font-size="5" fill="#33691E" text-anchor="middle">Сев. Африка: оливки</text>
+<rect x="240" y="250" width="85" height="15" rx="3" fill="#F8BBD0" stroke="#C2185B" stroke-width="0.7"/>
+<text x="282" y="261" font-family="Arial,sans-serif" font-size="5" fill="#880E4F" text-anchor="middle">Южная Африка: цитрусы</text>
+<rect x="240" y="268" width="85" height="15" rx="3" fill="#D7CCC8" stroke="#5D4037" stroke-width="0.7"/>
+<text x="282" y="279" font-family="Arial,sans-serif" font-size="5" fill="#3E2723" text-anchor="middle">Россия: зерно, картофель</text>
+
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
 </svg>

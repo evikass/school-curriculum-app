@@ -9,25 +9,95 @@
       <stop offset="100%" stop-color="#C2185B"/>
     </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EC407A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EC407A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#EC407A" opacity="0.12"/>
+  <!-- Border -->
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#880E4F" stroke-width="2.5"/>
+  <!-- Inner decorative border -->
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#880E4F" stroke-width="1" opacity="0.3"/>
+  <!-- Corner decorations -->
+  <polygon points="10,10 30,10 10,30" fill="#880E4F" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#C2185B" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EC407A" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#880E4F" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#C2185B" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EC407A" text-anchor="middle">Русское искусство</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ИЗО - Урок 4</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#EC407A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#EC407A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <!-- Title -->
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#880E4F" text-anchor="middle">Русское искусство</text>
+  <!-- Subtitle -->
+  <text x="250" y="62" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Искусство — Урок 4</text>
+  <!-- Divider line -->
+  <line x1="30" y1="72" x2="470" y2="72" stroke="#880E4F" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="69" width="60" height="5" fill="#880E4F" opacity="0.18" rx="1"/>
+  <rect x="410" y="69" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
+  <!-- Clip path for content area -->
+  <clipPath id="ill"><rect x="15" y="80" width="470" height="220" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FCE4EC" opacity="0.5"/>
-  <circle cx="250" cy="190" r="50" fill="#FCE4EC" stroke="#EC407A" stroke-width="2"/><path d="M220,170 L250,210 L280,170" fill="none" stroke="#EC407A" stroke-width="2"/><circle cx="230" cy="175" r="8" fill="#EC407A" opacity="0.4"/><circle cx="270" cy="180" r="6" fill="#C2185B" opacity="0.5"/>
+  <rect x="15" y="80" width="470" height="220" fill="#FCE4EC" opacity="0.4"/>
+    <!-- Icon painting -->
+    <rect x="25" y="95" width="145" height="85" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="97" y="112" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">Иконопись</text>
+    <!-- Icon frame -->
+    <rect x="55" y="118" width="40" height="50" rx="2" fill="#FFF8E1" stroke="#880E4F" stroke-width="1.5"/>
+    <!-- Halo -->
+    <circle cx="75" cy="133" r="10" fill="none" stroke="#C2185B" stroke-width="1" opacity="0.6"/>
+    <!-- Face -->
+    <ellipse cx="75" cy="133" rx="6" ry="7" fill="none" stroke="#880E4F" stroke-width="1"/>
+    <!-- Body -->
+    <path d="M65,145 Q75,140 85,145 L82,160 L68,160 Z" fill="#880E4F" opacity="0.15" stroke="#880E4F" stroke-width="1"/>
+    <!-- Text labels -->
+    <text x="120" y="132" font-family="Arial,sans-serif" font-size="7" fill="#555">Андрей Рублёв</text>
+    <text x="120" y="142" font-family="Arial,sans-serif" font-size="7" fill="#555">Феофан Грек</text>
+    <text x="120" y="152" font-family="Arial,sans-serif" font-size="7" fill="#555">Дионисий</text>
+    <text x="97" y="175" font-family="Arial,sans-serif" font-size="8" fill="#880E4F" text-anchor="middle">Троица, XIV–XV вв.</text>
+
+    <!-- Russian realism -->
+    <rect x="180" y="95" width="145" height="85" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="252" y="112" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">Реализм XIX в.</text>
+    <!-- Palette -->
+    <ellipse cx="235" cy="145" rx="18" ry="12" fill="none" stroke="#880E4F" stroke-width="1.5"/>
+    <circle cx="228" cy="142" r="3" fill="#880E4F" opacity="0.4"/>
+    <circle cx="237" cy="138" r="3" fill="#C2185B" opacity="0.4"/>
+    <circle cx="246" cy="142" r="3" fill="#EC407A" opacity="0.4"/>
+    <!-- Brush -->
+    <line x1="253" y1="145" x2="270" y2="135" stroke="#880E4F" stroke-width="2"/>
+    <text x="252" y="168" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Репин · Суриков</text>
+    <text x="252" y="178" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Левитан · Шишкин</text>
+
+    <!-- Avant-garde -->
+    <rect x="335" y="95" width="140" height="85" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="405" y="112" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">Авангард</text>
+    <!-- Abstract shapes -->
+    <rect x="360" y="120" width="25" height="25" fill="#880E4F" opacity="0.3" transform="rotate(15,372,132)"/>
+    <circle cx="415" cy="135" r="12" fill="none" stroke="#C2185B" stroke-width="2"/>
+    <polygon points="390,160 400,140 410,160" fill="#880E4F" opacity="0.2"/>
+    <text x="405" y="175" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Кандинский · Малевич</text>
+
+    <!-- Key concepts -->
+    <rect x="25" y="190" width="220" height="50" rx="6" fill="white" stroke="#880E4F" stroke-width="1" opacity="0.9"/>
+    <text x="135" y="207" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#880E4F" text-anchor="middle">Ключевые понятия:</text>
+    <text x="135" y="220" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Образ · Духовность · Православие</text>
+    <text x="135" y="232" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Передвижники · Супрематизм</text>
+
+    <!-- Timeline -->
+    <rect x="260" y="190" width="215" height="50" rx="6" fill="white" stroke="#880E4F" stroke-width="1" opacity="0.9"/>
+    <text x="367" y="207" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#880E4F" text-anchor="middle">Эпохи русского искусства:</text>
+    <line x1="275" y1="220" x2="460" y2="220" stroke="#880E4F" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="285" cy="220" r="3" fill="#880E4F"/>
+    <text x="285" y="230" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">XI</text>
+    <circle cx="330" cy="220" r="3" fill="#880E4F"/>
+    <text x="330" y="230" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">XV</text>
+    <circle cx="385" cy="220" r="3" fill="#C2185B"/>
+    <text x="385" y="230" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">XIX</text>
+    <circle cx="445" cy="220" r="3" fill="#EC407A"/>
+    <text x="445" y="230" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">XX</text>
+
+    <!-- Works -->
+    <rect x="25" y="250" width="450" height="40" rx="6" fill="white" stroke="#880E4F" stroke-width="1" opacity="0.9"/>
+    <text x="250" y="266" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#880E4F" text-anchor="middle">Шедевры русского искусства:</text>
+    <text x="250" y="280" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Троица · Бурлаки на Волге · Чёрный квадрат · Утро в сосновом лесу</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ИЗО</text>
+  <!-- Footer panel -->
+  <rect x="12" y="305" width="476" height="35" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="337" stroke="#880E4F" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="337" stroke="#880E4F" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="328" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Искусство · 10 класс</text>
 </svg>

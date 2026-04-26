@@ -6,28 +6,82 @@
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+      <stop offset="100%" stop-color="#00796B"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Европа</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#26A69A" text-anchor="middle">Европа</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 10</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/><ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/><line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/><path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+    
+<rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
+<!-- Simplified Europe map -->
+<text x="250" y="100" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#00796B" text-anchor="middle">Европа</text>
+
+<!-- Scandinavia -->
+<path d="M150,110 L160,108 L175,112 L185,125 L190,145 L185,160 L175,170 L165,168 L160,155 L155,140 L148,125 Z" fill="#B2DFDB" stroke="#00796B" stroke-width="1"/>
+<text x="168" y="145" font-family="Arial,sans-serif" font-size="5" fill="#004D40" text-anchor="middle">Швеция</text>
+<text x="155" y="133" font-family="Arial,sans-serif" font-size="5" fill="#004D40" text-anchor="middle">Норвегия</text>
+
+<!-- UK -->
+<path d="M120,140 L130,135 L135,140 L133,155 L128,162 L122,158 L118,148 Z" fill="#BBDEFB" stroke="#1565C0" stroke-width="1"/>
+<text x="128" y="153" font-family="Arial,sans-serif" font-size="5" fill="#0D47A1" text-anchor="middle">Великобритания</text>
+
+<!-- France -->
+<path d="M140,165 L160,160 L175,165 L180,178 L172,190 L158,192 L145,188 L138,178 Z" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+<text x="158" y="180" font-family="Arial,sans-serif" font-size="6" fill="#B71C1C" text-anchor="middle">Франция</text>
+
+<!-- Germany -->
+<path d="M175,148 L195,145 L210,150 L215,162 L208,172 L195,172 L180,168 L175,158 Z" fill="#FFF9C4" stroke="#F57F17" stroke-width="1"/>
+<text x="195" y="163" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Германия</text>
+
+<!-- Poland -->
+<path d="M210,145 L235,143 L242,155 L238,168 L225,172 L212,168 L208,158 Z" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1"/>
+<text x="225" y="160" font-family="Arial,sans-serif" font-size="5" fill="#4A148C" text-anchor="middle">Польша</text>
+
+<!-- Italy -->
+<path d="M180,192 L190,188 L198,195 L205,210 L200,222 L192,225 L185,218 L180,205 Z" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+<text x="192" y="210" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">Италия</text>
+
+<!-- Spain -->
+<path d="M125,192 L155,190 L168,198 L165,210 L155,218 L135,218 L120,210 L118,200 Z" fill="#FFE0B2" stroke="#E65100" stroke-width="1"/>
+<text x="145" y="208" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Испания</text>
+
+<!-- Ukraine -->
+<path d="M240,158 L270,155 L290,162 L295,175 L285,185 L265,188 L248,182 L238,170 Z" fill="#BBDEFB" stroke="#1565C0" stroke-width="1"/>
+<text x="265" y="175" font-family="Arial,sans-serif" font-size="5" fill="#0D47A1" text-anchor="middle">Украина</text>
+
+<!-- Russia (European part) -->
+<path d="M295,110 L350,108 L400,115 L430,125 L440,145 L435,165 L420,180 L390,188 L350,185 L310,178 L295,165 L290,145 Z" fill="#FFCCBC" stroke="#BF360C" stroke-width="1"/>
+<text x="370" y="150" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" text-anchor="middle">Россия</text>
+
+<!-- Balkans -->
+<path d="M215,178 L235,175 L250,182 L255,195 L248,210 L240,218 L230,215 L222,205 L218,195 Z" fill="#B3E5FC" stroke="#0277BD" stroke-width="1"/>
+<text x="238" y="200" font-family="Arial,sans-serif" font-size="4" fill="#01579B" text-anchor="middle">Балканы</text>
+
+<!-- Seas labels -->
+<text x="170" y="225" font-family="Arial,sans-serif" font-size="5" fill="#00796B" font-style="italic" text-anchor="middle">Средиземное море</text>
+<text x="300" y="195" font-family="Arial,sans-serif" font-size="4" fill="#00796B" font-style="italic" text-anchor="middle">Чёрное море</text>
+
+<!-- EU indicator -->
+<rect x="300" y="220" width="170" height="65" rx="5" fill="white" opacity="0.9" stroke="#00796B" stroke-width="0.8"/>
+<text x="385" y="235" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">ЕС - 27 стран</text>
+<text x="385" y="248" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Население: 450 млн</text>
+<text x="385" y="260" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Общая валюта: евро (20 стран)</text>
+<text x="385" y="272" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Крупнейшие: Германия, Франция, Италия</text>
+
+<!-- Capital markers -->
+<circle cx="128" cy="148" r="2" fill="#D32F2F"/>
+<circle cx="158" cy="178" r="2" fill="#D32F2F"/>
+<circle cx="195" cy="160" r="2" fill="#D32F2F"/>
+<circle cx="192" cy="208" r="2" fill="#D32F2F"/>
+<circle cx="145" cy="205" r="2" fill="#D32F2F"/>
+<circle cx="370" cy="145" r="2" fill="#D32F2F"/>
+
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
 </svg>

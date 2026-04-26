@@ -1,33 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#E0F2F1"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#283593"/>
+      <stop offset="0%" stop-color="#00897B"/>
+      <stop offset="100%" stop-color="#00695C"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#283593" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#283593" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Уравнения плоскости и прямой</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00897B" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#00897B" text-anchor="middle">Уравнения плоскости и прямой</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Геометрия - Урок 13</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#283593" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#00897B" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <polygon points="250,150 300,230 200,230" fill="none" stroke="#5C6BC0" stroke-width="2.5"/><circle cx="250" cy="205" r="20" fill="none" stroke="#283593" stroke-width="1.5" opacity="0.5"/><line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1" opacity="0.3" stroke-dasharray="4,3"/>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
+    <!-- 3D axes -->
+    <line x1="150" y1="260" x2="260" y2="260" stroke="#00695C" stroke-width="1.5"/>
+    <polygon points="260,257 268,260 260,263" fill="#00695C"/>
+    <text x="270" y="264" font-family="Arial,sans-serif" font-size="11" fill="#E91E63" font-weight="bold">x</text>
+    <line x1="150" y1="260" x2="85" y2="295" stroke="#00695C" stroke-width="1.5"/>
+    <polygon points="85,292 78,298 88,298" fill="#00695C"/>
+    <text x="70" y="305" font-family="Arial,sans-serif" font-size="11" fill="#4CAF50" font-weight="bold">y</text>
+    <line x1="150" y1="260" x2="150" y2="120" stroke="#00695C" stroke-width="1.5"/>
+    <polygon points="147,120 150,110 153,120" fill="#00695C"/>
+    <text x="155" y="108" font-family="Arial,sans-serif" font-size="11" fill="#FF9800" font-weight="bold">z</text>
+    <circle cx="150" cy="260" r="2" fill="#00695C"/>
+    <text x="138" y="274" font-family="Arial,sans-serif" font-size="9" fill="#00695C">O</text>
+    <!-- Plane (parallelogram) -->
+    <polygon points="100,180 200,160 280,210 180,230" fill="#00897B" opacity="0.12" stroke="#00897B" stroke-width="2"/>
+    <text x="180" y="200" font-family="Arial,sans-serif" font-size="10" fill="#00897B" font-weight="bold">плоскость</text>
+    <!-- Normal vector -->
+    <line x1="180" y1="195" x2="160" y2="130" stroke="#E91E63" stroke-width="2.5"/>
+    <polygon points="157,133 155,122 164,130" fill="#E91E63"/>
+    <text x="145" y="125" font-family="Arial,sans-serif" font-size="11" fill="#E91E63" font-weight="bold">n</text>
+    <!-- Point on plane -->
+    <circle cx="180" cy="195" r="3" fill="#00897B"/>
+    <text x="185" y="210" font-family="Arial,sans-serif" font-size="9" fill="#00897B">M0(x0,y0,z0)</text>
+    <!-- Line in 3D -->
+    <line x1="230" y1="265" x2="140" y2="150" stroke="#4CAF50" stroke-width="2"/>
+    <polygon points="138,153 135,142 145,150" fill="#4CAF50"/>
+    <text x="230" y="270" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50" font-weight="bold">прямая</text>
+    <!-- Direction vector of line -->
+    <line x1="190" y1="210" x2="170" y2="170" stroke="#4CAF50" stroke-width="2" stroke-dasharray="3,2"/>
+    <text x="170" y="175" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">s</text>
+    <!-- Formulas -->
+    <rect x="290" y="90" width="190" height="205" rx="5" fill="white" opacity="0.85" stroke="#00897B" stroke-width="1"/>
+    <text x="300" y="108" font-family="Arial,sans-serif" font-size="11" fill="#00695C" font-weight="bold">Уравнение плоскости:</text>
+    <line x1="300" y1="113" x2="470" y2="113" stroke="#00897B" stroke-width="0.5"/>
+    <rect x="300" y="118" width="170" height="22" rx="3" fill="#00897B" opacity="0.08"/>
+    <text x="385" y="134" font-family="Arial,sans-serif" font-size="11" fill="#00897B" text-anchor="middle" font-weight="bold">Ax + By + Cz + D = 0</text>
+    <text x="300" y="152" font-family="Arial,sans-serif" font-size="10" fill="#444">n = (A, B, C) - нормаль</text>
+    <text x="300" y="168" font-family="Arial,sans-serif" font-size="10" fill="#444">A(x-x0)+B(y-y0)+C(z-z0)=0</text>
+    <line x1="300" y1="176" x2="470" y2="176" stroke="#00897B" stroke-width="0.5"/>
+    <text x="300" y="193" font-family="Arial,sans-serif" font-size="11" fill="#00695C" font-weight="bold">Уравнение прямой:</text>
+    <rect x="300" y="198" width="170" height="22" rx="3" fill="#4CAF50" opacity="0.08"/>
+    <text x="385" y="214" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="bold">(x-x0)/m=(y-y0)/n=(z-z0)/p</text>
+    <text x="300" y="232" font-family="Arial,sans-serif" font-size="10" fill="#444">s = (m, n, p) - направл.</text>
+    <line x1="300" y1="240" x2="470" y2="240" stroke="#00897B" stroke-width="0.5"/>
+    <text x="300" y="256" font-family="Arial,sans-serif" font-size="10" fill="#444" font-weight="bold">Угол между:</text>
+    <text x="300" y="272" font-family="Arial,sans-serif" font-size="9" fill="#444">Плоскостями:</text>
+    <text x="300" y="285" font-family="Arial,sans-serif" font-size="9" fill="#00897B">cos(a) = |n1*n2|/(|n1|*|n2|)</text>
+    <text x="300" y="300" font-family="Arial,sans-serif" font-size="9" fill="#444">Прямой и пл-тью:</text>
+    <text x="300" y="312" font-family="Arial,sans-serif" font-size="9" fill="#00897B">sin(a) = |n*s|/(|n|*|s|)</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Геометрия</text>
 </svg>

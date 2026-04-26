@@ -1,33 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ECEFF1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#78909C"/>
-      <stop offset="100%" stop-color="#37474F"/>
-    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
+    </style>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#78909C" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#78909C" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#78909C" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#37474F" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#78909C" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#37474F" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#78909C" text-anchor="middle">Проект \</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Технология - Урок 8</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#78909C" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#78909C" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#37474F" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#ECEFF1" opacity="0.5"/>
-  <circle cx="250" cy="190" r="25" fill="none" stroke="#78909C" stroke-width="2"/><circle cx="250" cy="190" r="8" fill="#78909C" opacity="0.3"/><line x1="250" y1="165" x2="250" y2="155" stroke="#78909C" stroke-width="2.5"/><line x1="275" y1="190" x2="285" y2="190" stroke="#78909C" stroke-width="2.5"/><line x1="250" y1="215" x2="250" y2="225" stroke="#78909C" stroke-width="2.5"/><line x1="225" y1="190" x2="215" y2="190" stroke="#78909C" stroke-width="2.5"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#78909C" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#78909C" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Технология</text>
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" ry="12" fill="#ECEFF1" stroke="#37474F" stroke-width="2.5"/>
+
+  <!-- Header bar -->
+  <rect x="1" y="1" width="498" height="48" rx="12" ry="12" fill="#37474F"/>
+  <rect x="1" y="25" width="498" height="24" fill="#37474F"/>
+  <text x="250" y="20" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="600">Проект «Функциональная модель»</text>
+  <text x="250" y="40" text-anchor="middle" fill="#B0BEC5" font-size="10" font-weight="400">Технология — Урок 8</text>
+
+  <!-- Top: Design Process -->
+  <rect x="30" y="60" width="440" height="55" rx="6" fill="#FFFFFF" stroke="#546E7A" stroke-width="1.5"/>
+  <text x="250" y="78" text-anchor="middle" fill="#37474F" font-size="11" font-weight="600">Процесс создания функциональной модели</text>
+
+  <rect x="42" y="88" width="80" height="20" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="82" y="102" text-anchor="middle" fill="#1565C0" font-size="8" font-weight="500">Идея</text>
+
+  <text x="130" y="102" fill="#546E7A" font-size="10">→</text>
+
+  <rect x="140" y="88" width="80" height="20" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="180" y="102" text-anchor="middle" fill="#E65100" font-size="8" font-weight="500">Чертёж</text>
+
+  <text x="228" y="102" fill="#546E7A" font-size="10">→</text>
+
+  <rect x="238" y="88" width="80" height="20" rx="4" fill="#E0F2F1" stroke="#00897B" stroke-width="1"/>
+  <text x="278" y="102" text-anchor="middle" fill="#00897B" font-size="8" font-weight="500">3D-модель</text>
+
+  <text x="326" y="102" fill="#546E7A" font-size="10">→</text>
+
+  <rect x="336" y="88" width="80" height="20" rx="4" fill="#37474F" opacity="0.12" stroke="#37474F" stroke-width="1"/>
+  <text x="376" y="102" text-anchor="middle" fill="#37474F" font-size="8" font-weight="500">Печать</text>
+
+  <text x="424" y="102" fill="#546E7A" font-size="10">→</text>
+
+  <rect x="434" y="88" width="26" height="20" rx="4" fill="#00897B"/>
+  <text x="447" y="102" text-anchor="middle" fill="#FFFFFF" font-size="8" font-weight="700">✓</text>
+
+  <!-- Left: Mechanical parts -->
+  <rect x="30" y="127" width="210" height="105" rx="6" fill="#FFFFFF" stroke="#546E7A" stroke-width="1.5"/>
+  <text x="135" y="145" text-anchor="middle" fill="#37474F" font-size="11" font-weight="600">Механические детали</text>
+
+  <rect x="42" y="154" width="92" height="30" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="88" y="168" text-anchor="middle" fill="#1565C0" font-size="8" font-weight="500">Шестерни</text>
+  <text x="88" y="179" text-anchor="middle" fill="#546E7A" font-size="7">Передача</text>
+
+  <rect x="142" y="154" width="86" height="30" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="185" y="168" text-anchor="middle" fill="#E65100" font-size="8" font-weight="500">Оси / Валы</text>
+  <text x="185" y="179" text-anchor="middle" fill="#546E7A" font-size="7">Вращение</text>
+
+  <rect x="42" y="192" width="92" height="30" rx="4" fill="#E0F2F1" stroke="#00897B" stroke-width="1"/>
+  <text x="88" y="206" text-anchor="middle" fill="#00897B" font-size="8" font-weight="500">Корпус</text>
+  <text x="88" y="217" text-anchor="middle" fill="#546E7A" font-size="7">Каркас</text>
+
+  <rect x="142" y="192" width="86" height="30" rx="4" fill="#ECEFF1" stroke="#546E7A" stroke-width="1"/>
+  <text x="185" y="206" text-anchor="middle" fill="#546E7A" font-size="8" font-weight="500">Крепёж</text>
+  <text x="185" y="217" text-anchor="middle" fill="#546E7A" font-size="7">Болты, гайки</text>
+
+  <!-- Right: Tolerances -->
+  <rect x="260" y="127" width="210" height="105" rx="6" fill="#FFFFFF" stroke="#546E7A" stroke-width="1.5"/>
+  <text x="365" y="145" text-anchor="middle" fill="#37474F" font-size="11" font-weight="600">Допуски и посадки</text>
+
+  <text x="275" y="164" fill="#1565C0" font-size="8" font-weight="600">Зазор для оси:</text>
+  <text x="455" y="164" text-anchor="end" fill="#546E7A" font-size="8">+0.2 мм</text>
+
+  <line x1="275" y1="170" x2="455" y2="170" stroke="#B0BEC5" stroke-width="0.5"/>
+
+  <text x="275" y="184" fill="#E65100" font-size="8" font-weight="600">Усадка пластика:</text>
+  <text x="455" y="184" text-anchor="end" fill="#546E7A" font-size="8">0.3 — 0.5%</text>
+
+  <line x1="275" y1="190" x2="455" y2="190" stroke="#B0BEC5" stroke-width="0.5"/>
+
+  <text x="275" y="204" fill="#00897B" font-size="8" font-weight="600">Посадка с натягом:</text>
+  <text x="455" y="204" text-anchor="end" fill="#546E7A" font-size="8">−0.1 мм</text>
+
+  <line x1="275" y1="210" x2="455" y2="210" stroke="#B0BEC5" stroke-width="0.5"/>
+
+  <text x="275" y="224" fill="#37474F" font-size="8" font-weight="600">Слой ступенька:</text>
+  <text x="455" y="224" text-anchor="end" fill="#546E7A" font-size="8">Высота слоя</text>
+
+  <!-- Bottom: Assembly -->
+  <rect x="30" y="244" width="440" height="68" rx="6" fill="#FFFFFF" stroke="#546E7A" stroke-width="1.5"/>
+  <text x="250" y="262" text-anchor="middle" fill="#37474F" font-size="11" font-weight="600">Сборка и тестирование</text>
+
+  <rect x="45" y="272" width="100" height="28" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="95" y="286" text-anchor="middle" fill="#1565C0" font-size="8" font-weight="500">Подгонка деталей</text>
+  <text x="95" y="296" text-anchor="middle" fill="#546E7A" font-size="7">Шлифовка</text>
+
+  <text x="155" y="290" text-anchor="middle" fill="#00897B" font-size="10">→</text>
+
+  <rect x="168" y="272" width="100" height="28" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="218" y="286" text-anchor="middle" fill="#E65100" font-size="8" font-weight="500">Сборка узлов</text>
+  <text x="218" y="296" text-anchor="middle" fill="#546E7A" font-size="7">Монтаж</text>
+
+  <text x="278" y="290" text-anchor="middle" fill="#00897B" font-size="10">→</text>
+
+  <rect x="291" y="272" width="80" height="28" rx="4" fill="#E0F2F1" stroke="#00897B" stroke-width="1"/>
+  <text x="331" y="286" text-anchor="middle" fill="#00897B" font-size="8" font-weight="500">Тест</text>
+  <text x="331" y="296" text-anchor="middle" fill="#546E7A" font-size="7">Проверка</text>
+
+  <text x="381" y="290" text-anchor="middle" fill="#00897B" font-size="10">→</text>
+
+  <rect x="394" y="272" width="64" height="28" rx="4" fill="#00897B"/>
+  <text x="426" y="290" text-anchor="middle" fill="#FFFFFF" font-size="8" font-weight="700">Готово!</text>
+
+  <!-- Footer -->
+  <rect x="1" y="322" width="498" height="27" rx="0" ry="0" fill="#37474F"/>
+  <rect x="1" y="322" width="498" height="27" rx="0" ry="0" fill="#37474F" opacity="0.9"/>
+  <text x="250" y="340" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="500">Технология · 10 класс</text>
 </svg>

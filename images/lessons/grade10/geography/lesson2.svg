@@ -6,28 +6,101 @@
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+      <stop offset="100%" stop-color="#00796B"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Формы правления и административн...</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#26A69A" text-anchor="middle">Формы правления и административного устройства</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 2</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/><ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/><line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/><path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+    
+<rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
+<!-- Left side: Forms of Government -->
+<text x="135" y="100" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#00796B" text-anchor="middle">Формы правления</text>
+<!-- Monarchy box -->
+<rect x="30" y="108" width="105" height="85" rx="5" fill="white" stroke="#00796B" stroke-width="1.5"/>
+<text x="82" y="122" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#D32F2F" text-anchor="middle">Монархия</text>
+<!-- Crown symbol -->
+<path d="M65,130 L70,138 L75,132 L82,140 L89,132 L94,138 L99,130 L99,145 L65,145 Z" fill="#FFD600" stroke="#F57F17" stroke-width="0.8"/>
+<line x1="63" y1="145" x2="101" y2="145" stroke="#F57F17" stroke-width="1.5"/>
+<text x="82" y="157" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Абсолютная</text>
+<text x="82" y="166" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">ОАЭ, Саудовская Аравия</text>
+<text x="82" y="178" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Парламентская</text>
+<text x="82" y="187" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Великобритания, Япония</text>
+<!-- Republic box -->
+<rect x="145" y="108" width="105" height="85" rx="5" fill="white" stroke="#00796B" stroke-width="1.5"/>
+<text x="197" y="122" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Республика</text>
+<!-- Government building icon -->
+<rect x="183" y="133" width="28" height="18" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+<path d="M180,133 L197,126 L214,133" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+<rect x="190" y="139" width="5" height="12" fill="#1565C0" opacity="0.5"/>
+<rect x="199" y="139" width="5" height="12" fill="#1565C0" opacity="0.5"/>
+<text x="197" y="163" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Президентская</text>
+<text x="197" y="172" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">США, Франция</text>
+<text x="197" y="184" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Парламентская</text>
+<text x="197" y="193" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Германия, Италия</text>
+
+<!-- Right side: Administrative structure -->
+<text x="365" y="100" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#00796B" text-anchor="middle">Административное устройство</text>
+<!-- Unitary box -->
+<rect x="260" y="108" width="105" height="85" rx="5" fill="white" stroke="#00796B" stroke-width="1.5"/>
+<text x="312" y="122" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">Унитарное</text>
+<!-- Unitary diagram: center controls regions -->
+<circle cx="312" cy="148" r="12" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+<text x="312" y="151" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Центр</text>
+<circle cx="295" cy="168" r="6" fill="#FFE0B2" stroke="#E65100" stroke-width="0.7"/>
+<circle cx="312" cy="172" r="6" fill="#FFE0B2" stroke="#E65100" stroke-width="0.7"/>
+<circle cx="329" cy="168" r="6" fill="#FFE0B2" stroke="#E65100" stroke-width="0.7"/>
+<line x1="306" y1="157" x2="297" y2="163" stroke="#E65100" stroke-width="0.7"/>
+<line x1="312" y1="160" x2="312" y2="166" stroke="#E65100" stroke-width="0.7"/>
+<line x1="318" y1="157" x2="327" y2="163" stroke="#E65100" stroke-width="0.7"/>
+<text x="312" y="190" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Франция, Япония</text>
+
+<!-- Federal box -->
+<rect x="375" y="108" width="105" height="85" rx="5" fill="white" stroke="#00796B" stroke-width="1.5"/>
+<text x="427" y="122" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4A148C" text-anchor="middle">Федерация</text>
+<!-- Federal diagram: center + autonomous regions -->
+<circle cx="427" cy="148" r="12" fill="#CE93D8" stroke="#4A148C" stroke-width="1"/>
+<text x="427" y="151" font-family="Arial,sans-serif" font-size="5" fill="#4A148C" text-anchor="middle">Центр</text>
+<rect x="405" y="165" width="16" height="10" rx="2" fill="#E1BEE7" stroke="#4A148C" stroke-width="0.7"/>
+<rect x="424" y="165" width="16" height="10" rx="2" fill="#E1BEE7" stroke="#4A148C" stroke-width="0.7"/>
+<rect x="443" y="165" width="16" height="10" rx="2" fill="#E1BEE7" stroke="#4A148C" stroke-width="0.7"/>
+<text x="413" y="173" font-family="Arial,sans-serif" font-size="4" fill="#4A148C" text-anchor="middle">суб.</text>
+<text x="432" y="173" font-family="Arial,sans-serif" font-size="4" fill="#4A148C" text-anchor="middle">суб.</text>
+<text x="451" y="173" font-family="Arial,sans-serif" font-size="4" fill="#4A148C" text-anchor="middle">суб.</text>
+<line x1="420" y1="157" x2="413" y2="165" stroke="#4A148C" stroke-width="0.7"/>
+<line x1="427" y1="160" x2="432" y2="165" stroke="#4A148C" stroke-width="0.7"/>
+<line x1="434" y1="157" x2="451" y2="165" stroke="#4A148C" stroke-width="0.7"/>
+<text x="427" y="190" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">США, Россия, Германия</text>
+
+<!-- Bottom: comparison table -->
+<rect x="30" y="200" width="450" height="95" rx="5" fill="white" opacity="0.8" stroke="#00796B" stroke-width="0.5"/>
+<line x1="30" y1="215" x2="480" y2="215" stroke="#00796B" stroke-width="0.5"/>
+<line x1="30" y1="235" x2="480" y2="235" stroke="#00796B" stroke-width="0.3" opacity="0.3"/>
+<line x1="30" y1="255" x2="480" y2="255" stroke="#00796B" stroke-width="0.3" opacity="0.3"/>
+<line x1="30" y1="275" x2="480" y2="275" stroke="#00796B" stroke-width="0.3" opacity="0.3"/>
+<line x1="150" y1="200" x2="150" y2="295" stroke="#00796B" stroke-width="0.5"/>
+<line x1="310" y1="200" x2="310" y2="295" stroke="#00796B" stroke-width="0.5"/>
+<text x="90" y="212" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#00796B" text-anchor="middle">Признак</text>
+<text x="230" y="212" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#D32F2F" text-anchor="middle">Монархия</text>
+<text x="395" y="212" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1565C0" text-anchor="middle">Республика</text>
+<text x="90" y="228" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Глава государства</text>
+<text x="230" y="228" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Наследственный</text>
+<text x="395" y="228" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Избираемый</text>
+<text x="90" y="248" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Период полномочий</text>
+<text x="230" y="248" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Пожизненно</text>
+<text x="395" y="248" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Ограничен (срок)</text>
+<text x="90" y="268" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Законодательство</text>
+<text x="230" y="268" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Монарх / парламент</text>
+<text x="395" y="268" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Парламент</text>
+<text x="90" y="288" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Примеры</text>
+<text x="230" y="288" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Великобритания, Япония</text>
+<text x="395" y="288" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">США, Франция, Россия</text>
+
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
 </svg>

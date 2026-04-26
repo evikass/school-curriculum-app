@@ -9,25 +9,102 @@
       <stop offset="100%" stop-color="#C2185B"/>
     </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EC407A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EC407A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#EC407A" opacity="0.12"/>
+  <!-- Border -->
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#880E4F" stroke-width="2.5"/>
+  <!-- Inner decorative border -->
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#880E4F" stroke-width="1" opacity="0.3"/>
+  <!-- Corner decorations -->
+  <polygon points="10,10 30,10 10,30" fill="#880E4F" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#C2185B" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EC407A" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#880E4F" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#C2185B" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EC407A" text-anchor="middle">Создание арт-проекта</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ИЗО - Урок 11</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#EC407A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#EC407A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <!-- Title -->
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#880E4F" text-anchor="middle">Создание арт-проекта</text>
+  <!-- Subtitle -->
+  <text x="250" y="62" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Искусство — Урок 11</text>
+  <!-- Divider line -->
+  <line x1="30" y1="72" x2="470" y2="72" stroke="#880E4F" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="69" width="60" height="5" fill="#880E4F" opacity="0.18" rx="1"/>
+  <rect x="410" y="69" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
+  <!-- Clip path for content area -->
+  <clipPath id="ill"><rect x="15" y="80" width="470" height="220" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FCE4EC" opacity="0.5"/>
-  <circle cx="250" cy="190" r="50" fill="#FCE4EC" stroke="#EC407A" stroke-width="2"/><path d="M220,170 L250,210 L280,170" fill="none" stroke="#EC407A" stroke-width="2"/><circle cx="230" cy="175" r="8" fill="#EC407A" opacity="0.4"/><circle cx="270" cy="180" r="6" fill="#C2185B" opacity="0.5"/>
+  <rect x="15" y="80" width="470" height="220" fill="#FCE4EC" opacity="0.4"/>
+    <!-- Project stages -->
+    <rect x="25" y="95" width="450" height="50" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="250" y="112" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">Этапы создания арт-проекта</text>
+    <!-- Flowchart: Idea → Research → Sketch → Execute → Present -->
+    <rect x="35" y="120" width="70" height="20" rx="10" fill="#880E4F" opacity="0.2"/>
+    <text x="70" y="134" font-family="Arial,sans-serif" font-size="8" fill="#880E4F" text-anchor="middle">Идея</text>
+    <polygon points="108,130 114,126 114,134" fill="#880E4F" opacity="0.5"/>
+    <rect x="118" y="120" width="70" height="20" rx="10" fill="#880E4F" opacity="0.25"/>
+    <text x="153" y="134" font-family="Arial,sans-serif" font-size="8" fill="#880E4F" text-anchor="middle">Исслед.</text>
+    <polygon points="191,130 197,126 197,134" fill="#880E4F" opacity="0.5"/>
+    <rect x="201" y="120" width="70" height="20" rx="10" fill="#880E4F" opacity="0.3"/>
+    <text x="236" y="134" font-family="Arial,sans-serif" font-size="8" fill="#880E4F" text-anchor="middle">Эскиз</text>
+    <polygon points="274,130 280,126 280,134" fill="#880E4F" opacity="0.5"/>
+    <rect x="284" y="120" width="70" height="20" rx="10" fill="#880E4F" opacity="0.35"/>
+    <text x="319" y="134" font-family="Arial,sans-serif" font-size="8" fill="#880E4F" text-anchor="middle">Создание</text>
+    <polygon points="357,130 363,126 363,134" fill="#880E4F" opacity="0.5"/>
+    <rect x="367" y="120" width="95" height="20" rx="10" fill="#880E4F" opacity="0.4"/>
+    <text x="414" y="134" font-family="Arial,sans-serif" font-size="8" fill="#880E4F" text-anchor="middle">Презентация</text>
+
+    <!-- Idea generation -->
+    <rect x="25" y="155" width="145" height="70" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="97" y="172" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">Генерация идей</text>
+    <!-- Lightbulb -->
+    <circle cx="70" cy="198" r="10" fill="none" stroke="#880E4F" stroke-width="1.5"/>
+    <line x1="65" y1="208" x2="75" y2="208" stroke="#880E4F" stroke-width="1"/>
+    <line x1="66" y1="211" x2="74" y2="211" stroke="#880E4F" stroke-width="1"/>
+    <!-- Rays -->
+    <line x1="70" y1="184" x2="70" y2="180" stroke="#C2185B" stroke-width="1"/>
+    <line x1="82" y1="190" x2="85" y2="187" stroke="#C2185B" stroke-width="1"/>
+    <line x1="58" y1="190" x2="55" y2="187" stroke="#C2185B" stroke-width="1"/>
+    <text x="115" y="193" font-family="Arial,sans-serif" font-size="7" fill="#555">Мозговой</text>
+    <text x="115" y="203" font-family="Arial,sans-serif" font-size="7" fill="#555">штурм</text>
+    <text x="115" y="216" font-family="Arial,sans-serif" font-size="7" fill="#555">Минд-мап</text>
+
+    <!-- Materials & Techniques -->
+    <rect x="180" y="155" width="145" height="70" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="252" y="172" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">Материалы</text>
+    <!-- Paint tube -->
+    <rect x="200" y="185" width="30" height="10" rx="3" fill="none" stroke="#880E4F" stroke-width="1"/>
+    <line x1="230" y1="190" x2="240" y2="188" stroke="#880E4F" stroke-width="1.5"/>
+    <!-- Brush -->
+    <line x1="250" y1="195" x2="270" y2="185" stroke="#880E4F" stroke-width="2"/>
+    <rect x="246" y="195" width="8" height="15" rx="1" fill="#880E4F" opacity="0.3" stroke="#880E4F" stroke-width="0.5"/>
+    <!-- Camera -->
+    <rect x="280" y="185" width="20" height="15" rx="2" fill="none" stroke="#880E4F" stroke-width="1"/>
+    <circle cx="290" cy="192" r="4" fill="none" stroke="#880E4F" stroke-width="1"/>
+    <text x="252" y="218" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Краски · Кисти · Фото · Цифра</text>
+
+    <!-- Presentation -->
+    <rect x="335" y="155" width="140" height="70" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="405" y="172" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">Презентация</text>
+    <!-- Exhibition wall -->
+    <rect x="355" y="180" width="50" height="30" fill="white" stroke="#880E4F" stroke-width="1"/>
+    <!-- Frames on wall -->
+    <rect x="360" y="184" width="12" height="10" fill="#880E4F" opacity="0.15" stroke="#880E4F" stroke-width="0.5"/>
+    <rect x="376" y="182" width="15" height="14" fill="#C2185B" opacity="0.1" stroke="#C2185B" stroke-width="0.5"/>
+    <rect x="395" y="185" width="8" height="8" fill="#880E4F" opacity="0.2" stroke="#880E4F" stroke-width="0.5"/>
+    <!-- Person silhouette -->
+    <circle cx="435" cy="188" r="5" fill="none" stroke="#880E4F" stroke-width="1"/>
+    <line x1="435" y1="193" x2="435" y2="205" stroke="#880E4F" stroke-width="1"/>
+    <text x="405" y="218" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Выставка · Портфолио</text>
+
+    <!-- Project types -->
+    <rect x="25" y="235" width="450" height="22" rx="6" fill="white" stroke="#880E4F" stroke-width="1" opacity="0.9"/>
+    <text x="250" y="250" font-family="Arial,sans-serif" font-size="8" fill="#880E4F" text-anchor="middle">Типы проектов: Живопись · Скульптура · Фото · Видео · Инсталляция · Дизайн · Перформанс</text>
+
+    <!-- Tips -->
+    <rect x="25" y="265" width="450" height="25" rx="6" fill="white" stroke="#880E4F" stroke-width="1" opacity="0.9"/>
+    <text x="250" y="282" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Совет: документируйте каждый этап — эскизы, ошибки, озарения ведут к лучшему результату</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ИЗО</text>
+  <!-- Footer panel -->
+  <rect x="12" y="305" width="476" height="35" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="337" stroke="#880E4F" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="337" stroke="#880E4F" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="328" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Искусство · 10 класс</text>
 </svg>

@@ -11,23 +11,97 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#66BB6A" text-anchor="middle">Индивидуальное развитие</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Индивидуальное развитие</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 12</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#66BB6A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#2E7D32" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  <circle cx="250" cy="190" r="35" fill="none" stroke="#66BB6A" stroke-width="2"/><circle cx="250" cy="190" r="25" fill="none" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/><circle cx="240" cy="180" r="8" fill="#66BB6A" opacity="0.5"/><circle cx="262" cy="198" r="6" fill="#2E7D32" opacity="0.4"/><ellipse cx="250" cy="190" rx="12" ry="35" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.4"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
+    
+    <!-- Ontogenesis overview -->
+    <rect x="20" y="90" width="460" height="28" rx="5" fill="#2E7D32"/>
+    <text x="250" y="109" font-family="Arial,sans-serif" font-size="12" fill="white" text-anchor="middle">Онтогенез - индивидуальное развитие организма</text>
+    
+    <!-- Two main periods -->
+    <rect x="20" y="125" width="225" height="50" rx="4" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="132" y="142" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">Эмбриональный период</text>
+    <text x="132" y="156" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">От зиготы до рождения</text>
+    <text x="132" y="168" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">(или вылупления)</text>
+    
+    <rect x="255" y="125" width="225" height="50" rx="4" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
+    <text x="367" y="142" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="middle">Постэмбриональный</text>
+    <text x="367" y="156" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">От рождения до смерти</text>
+    
+    <!-- Embryonic development stages -->
+    <text x="250" y="190" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Эмбриональное развитие</text>
+    
+    <!-- Zygote -->
+    <circle cx="45" cy="225" r="12" fill="#EF5350" stroke="#C62828" stroke-width="1.5"/>
+    <text x="45" y="245" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Зигота</text>
+    
+    <!-- Arrow -->
+    <line x1="60" y1="225" x2="85" y2="225" stroke="#555" stroke-width="1.5"/>
+    <polygon points="85,220 95,225 85,230" fill="#555"/>
+    
+    <!-- Cleavage -->
+    <circle cx="115" cy="218" r="7" fill="#FF8A65" stroke="#D84315" stroke-width="1"/>
+    <circle cx="127" cy="218" r="7" fill="#FF8A65" stroke="#D84315" stroke-width="1"/>
+    <circle cx="115" cy="232" r="7" fill="#FF8A65" stroke="#D84315" stroke-width="1"/>
+    <circle cx="127" cy="232" r="7" fill="#FF8A65" stroke="#D84315" stroke-width="1"/>
+    <text x="120" y="250" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Дробление</text>
+    
+    <!-- Arrow -->
+    <line x1="140" y1="225" x2="160" y2="225" stroke="#555" stroke-width="1.5"/>
+    <polygon points="160,220 170,225 160,230" fill="#555"/>
+    
+    <!-- Blastula -->
+    <circle cx="195" cy="225" r="18" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
+    <!-- Inner cells -->
+    <circle cx="195" cy="218" r="3" fill="#66BB6A"/>
+    <circle cx="190" cy="228" r="3" fill="#66BB6A"/>
+    <circle cx="200" cy="228" r="3" fill="#66BB6A"/>
+    <text x="195" y="252" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Бластула</text>
+    
+    <!-- Arrow -->
+    <line x1="215" y1="225" x2="235" y2="225" stroke="#555" stroke-width="1.5"/>
+    <polygon points="235,220 245,225 235,230" fill="#555"/>
+    
+    <!-- Gastrula -->
+    <ellipse cx="275" cy="225" rx="22" ry="18" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
+    <ellipse cx="275" cy="228" rx="14" ry="10" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+    <text x="275" y="252" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Гаструла</text>
+    <!-- Germ layers label -->
+    <text x="275" y="263" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">3 зар. листка</text>
+    
+    <!-- Arrow -->
+    <line x1="300" y1="225" x2="320" y2="225" stroke="#555" stroke-width="1.5"/>
+    <polygon points="320,220 330,225 320,230" fill="#555"/>
+    
+    <!-- Neurula -->
+    <ellipse cx="365" cy="225" rx="25" ry="18" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
+    <line x1="365" y1="210" x2="365" y2="220" stroke="#2E7D32" stroke-width="2"/>
+    <ellipse cx="365" cy="222" rx="10" ry="4" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <text x="365" y="252" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Нейрула</text>
+    
+    <!-- Arrow -->
+    <line x1="395" y1="225" x2="415" y2="225" stroke="#555" stroke-width="1.5"/>
+    <polygon points="415,220 425,225 415,230" fill="#555"/>
+    
+    <!-- Fetus -->
+    <ellipse cx="450" cy="225" rx="18" ry="22" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1.5"/>
+    <circle cx="450" cy="216" r="8" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5"/>
+    <text x="450" y="252" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Плод</text>
+    
+    <!-- Germ layers legend -->
+    <rect x="20" y="270" width="460" height="28" rx="3" fill="#F1F8E9" stroke="#66BB6A" stroke-width="1"/>
+    <rect x="30" y="275" width="12" height="12" rx="4" fill="#EF5350"/>
+    <text x="70" y="285" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Эктодерма (кожа, НС)</text>
+    <rect x="170" y="275" width="12" height="12" rx="4" fill="#FFA726"/>
+    <text x="210" y="285" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Мезодерма (мышцы, кости)</text>
+    <rect x="330" y="275" width="12" height="12" rx="4" fill="#66BB6A"/>
+    <text x="370" y="285" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Энтодерма (пищеварит.)</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
 </svg>

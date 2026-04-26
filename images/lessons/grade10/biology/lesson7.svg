@@ -11,23 +11,66 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#66BB6A" text-anchor="middle">Фотосинтез</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Фотосинтез</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 7</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#66BB6A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#2E7D32" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  <circle cx="250" cy="190" r="35" fill="none" stroke="#66BB6A" stroke-width="2"/><circle cx="250" cy="190" r="25" fill="none" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/><circle cx="240" cy="180" r="8" fill="#66BB6A" opacity="0.5"/><circle cx="262" cy="198" r="6" fill="#2E7D32" opacity="0.4"/><ellipse cx="250" cy="190" rx="12" ry="35" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.4"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
+    
+    <!-- Overall equation -->
+    <rect x="60" y="90" width="380" height="25" rx="5" fill="#2E7D32"/>
+    <text x="250" y="107" font-family="Arial,sans-serif" font-size="12" fill="white" text-anchor="middle">6CO2 + 6H2O -&gt; C6H12O6 + 6O2</text>
+    
+    <!-- Chloroplast -->
+    <ellipse cx="120" cy="190" rx="70" ry="40" fill="#C8E6C9" stroke="#2E7D32" stroke-width="2"/>
+    <!-- Thylakoids -->
+    <ellipse cx="90" cy="185" rx="20" ry="10" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+    <ellipse cx="120" cy="180" rx="20" ry="10" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+    <ellipse cx="150" cy="185" rx="20" ry="10" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+    <!-- Stacks (grana) -->
+    <ellipse cx="90" cy="195" rx="20" ry="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
+    <ellipse cx="150" cy="195" rx="20" ry="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
+    <text x="120" y="240" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">Хлоропласт</text>
+    <text x="120" y="252" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">(хлорофилл)</text>
+    
+    <!-- Sun -->
+    <circle cx="50" cy="140" r="15" fill="#FFEE58" stroke="#F9A825" stroke-width="2"/>
+    <!-- Sun rays -->
+    <line x1="50" y1="120" x2="50" y2="113" stroke="#FFEE58" stroke-width="2"/>
+    <line x1="65" y1="127" x2="72" y2="122" stroke="#FFEE58" stroke-width="2"/>
+    <line x1="35" y1="127" x2="28" y2="122" stroke="#FFEE58" stroke-width="2"/>
+    <line x1="68" y1="140" x2="75" y2="140" stroke="#FFEE58" stroke-width="2"/>
+    <text x="50" y="143" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">hv</text>
+    
+    <!-- Light reactions (right top) -->
+    <rect x="220" y="120" width="260" height="75" rx="4" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
+    <text x="350" y="136" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle">Световые реакции</text>
+    <text x="350" y="150" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">В тилакоидах</text>
+    <line x1="235" y1="158" x2="265" y2="158" stroke="#1565C0" stroke-width="1.5"/>
+    <text x="270" y="162" font-family="Arial,sans-serif" font-size="7" fill="#555">H2O</text>
+    <line x1="290" y1="158" x2="310" y2="158" stroke="#1565C0" stroke-width="1"/>
+    <text x="315" y="162" font-family="Arial,sans-serif" font-size="7" fill="#555">-&gt; O2 + H+</text>
+    <text x="350" y="175" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">АДФ + Ф -&gt; АТФ</text>
+    <text x="350" y="187" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">НАДФ+ + H+ -&gt; НАДФ-H2</text>
+    
+    <!-- Dark reactions (right bottom) -->
+    <rect x="220" y="200" width="260" height="95" rx="4" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="350" y="216" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Темновые реакции</text>
+    <text x="350" y="230" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">(Цикл Кальвина, строма)</text>
+    <text x="350" y="244" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">CO2 + НАДФ-H2 + АТФ -&gt;</text>
+    <text x="350" y="258" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">-&gt; C6H12O6 (глюкоза)</text>
+    
+    <!-- Calvin cycle mini diagram -->
+    <ellipse cx="410" cy="275" rx="35" ry="18" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
+    <text x="410" y="272" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Цикл</text>
+    <text x="410" y="283" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Кальвина</text>
+    
+    <!-- Flow arrows between light and dark -->
+    <line x1="350" y1="195" x2="350" y2="200" stroke="#555" stroke-width="1.5"/>
+    <text x="380" y="199" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">АТФ, НАДФ-H2</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
 </svg>

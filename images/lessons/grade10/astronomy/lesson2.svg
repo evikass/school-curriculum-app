@@ -1,33 +1,95 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#EDE7F6"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1A237E"/>
-      <stop offset="100%" stop-color="#0D47A1"/>
+      <stop offset="0%" stop-color="#7E57C2"/>
+      <stop offset="100%" stop-color="#4527A0"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1A237E" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#1A237E" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#0D47A1" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#0D47A1" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#1A237E" text-anchor="middle">Земля и Луна</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7E57C2" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#7E57C2" text-anchor="middle">Земля и Луна</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Астрономия - Урок 2</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#1A237E" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#1A237E" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#0D47A1" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#7E57C2" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <circle cx="250" cy="190" r="40" fill="none" stroke="#1A237E" stroke-width="2"/><circle cx="250" cy="190" r="15" fill="#1A237E" opacity="0.3"/><ellipse cx="250" cy="190" rx="60" ry="12" fill="none" stroke="#0D47A1" stroke-width="1.5" opacity="0.5"/><circle cx="210" cy="160" r="3" fill="#1A237E" opacity="0.6"/><circle cx="290" cy="175" r="2" fill="#1A237E" opacity="0.4"/><circle cx="275" cy="220" r="2.5" fill="#0D47A1" opacity="0.5"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.3"/>
+    
+    <!-- Earth -->
+    <circle cx="150" cy="200" r="40" fill="#42A5F5" stroke="#1565C0" stroke-width="2"/>
+    <!-- Continents -->
+    <path d="M135,185 C140,180 150,182 145,190 C140,195 130,192 135,185" fill="#66BB6A" opacity="0.7"/>
+    <path d="M155,195 C160,190 168,195 165,205 C160,210 150,205 155,195" fill="#66BB6A" opacity="0.7"/>
+    <path d="M140,205 C142,200 148,202 146,208 C144,212 138,210 140,205" fill="#66BB6A" opacity="0.7"/>
+    <text x="150" y="252" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">Земля</text>
+    <text x="150" y="264" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">R = 6371 км</text>
+    
+    <!-- Moon -->
+    <circle cx="300" cy="180" r="14" fill="#E0E0E0" stroke="#9E9E9E" stroke-width="1.5"/>
+    <!-- Craters -->
+    <circle cx="295" cy="175" r="3" fill="#BDBDBD" opacity="0.5"/>
+    <circle cx="305" cy="183" r="2" fill="#BDBDBD" opacity="0.5"/>
+    <circle cx="298" cy="187" r="2.5" fill="#BDBDBD" opacity="0.5"/>
+    <text x="300" y="202" font-family="Arial,sans-serif" font-size="9" fill="#757575" text-anchor="middle">Луна</text>
+    <text x="300" y="213" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">R = 1737 км</text>
+    
+    <!-- Distance arrow -->
+    <line x1="190" y1="190" x2="286" y2="180" stroke="#7E57C2" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <text x="240" y="178" font-family="Arial,sans-serif" font-size="8" fill="#4527A0" text-anchor="middle">384 400 км</text>
+    
+    <!-- Tidal lock note -->
+    <rect x="340" y="120" width="140" height="35" rx="3" fill="#E8EAF6" stroke="#7E57C2" stroke-width="1"/>
+    <text x="410" y="135" font-family="Arial,sans-serif" font-size="8" fill="#4527A0" text-anchor="middle">Приливная связь:</text>
+    <text x="410" y="147" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Луна всегда одной стороной</text>
+    
+    <!-- Lunar phases -->
+    <text x="395" y="168" font-family="Arial,sans-serif" font-size="10" fill="#4527A0" text-anchor="middle">Фазы Луны</text>
+    
+    <!-- New moon -->
+    <circle cx="340" cy="188" r="8" fill="#333" stroke="#555" stroke-width="1"/>
+    <text x="340" y="202" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">1</text>
+    
+    <!-- Waxing crescent -->
+    <circle cx="362" cy="188" r="8" fill="#E0E0E0" stroke="#555" stroke-width="1"/>
+    <path d="M362,180 A8,8 0 0,0 362,196" fill="#333"/>
+    <text x="362" y="202" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">2</text>
+    
+    <!-- First quarter -->
+    <circle cx="384" cy="188" r="8" fill="#E0E0E0" stroke="#555" stroke-width="1"/>
+    <path d="M384,180 A8,8 0 0,0 384,196" fill="#333"/>
+    <text x="384" y="202" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">3</text>
+    
+    <!-- Full moon -->
+    <circle cx="406" cy="188" r="8" fill="#F5F5F5" stroke="#555" stroke-width="1"/>
+    <text x="406" y="202" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">4</text>
+    
+    <!-- Waning gibbous -->
+    <circle cx="428" cy="188" r="8" fill="#E0E0E0" stroke="#555" stroke-width="1"/>
+    <path d="M428,180 A8,8 0 0,1 428,196" fill="#333"/>
+    <text x="428" y="202" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">5</text>
+    
+    <!-- Last quarter -->
+    <circle cx="450" cy="188" r="8" fill="#E0E0E0" stroke="#555" stroke-width="1"/>
+    <path d="M450,180 A8,8 0 0,1 450,196" fill="#333"/>
+    <text x="450" y="202" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">6</text>
+    
+    <!-- Tides -->
+    <rect x="20" y="270" width="230" height="28" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+    <text x="135" y="288" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">Приливы: гравитация Луны -&gt; подъем воды</text>
+    
+    <!-- Facts -->
+    <rect x="260" y="218" width="220" height="80" rx="3" fill="#F3E5F5" stroke="#7E57C2" stroke-width="1"/>
+    <text x="370" y="233" font-family="Arial,sans-serif" font-size="9" fill="#4527A0" text-anchor="middle">Характеристики системы</text>
+    <text x="370" y="247" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Масса Луны = 1/81 массы Земли</text>
+    <text x="370" y="259" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Период обращения: 27.3 сут.</text>
+    <text x="370" y="271" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Синод. период: 29.5 сут.</text>
+    <text x="370" y="283" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Угол наклона орбиты: 5.1 град.</text>
+    <text x="370" y="295" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Луна удаляется на 3.8 см/год</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#1A237E" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#1A237E" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Астрономия</text>
 </svg>

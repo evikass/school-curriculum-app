@@ -1,33 +1,70 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FBE9E7"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="hdr7" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E65100;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF5722"/>
-      <stop offset="100%" stop-color="#BF360C"/>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1"/>
     </linearGradient>
+    <filter id="shadow7" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.1"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF5722" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF5722" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF5722" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#BF360C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF5722" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#BF360C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FF5722" text-anchor="middle">Оценка состояния и сердечно-лёго...</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ОБЖ - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#FF5722" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FF5722" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#BF360C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FBE9E7" opacity="0.5"/>
-  <polygon points="250,150 290,230 210,230" fill="none" stroke="#FF5722" stroke-width="2.5"/><text x="250" y="215" font-family="Arial,sans-serif" font-size="24" fill="#FF5722" text-anchor="middle" font-weight="bold">!</text><circle cx="250" cy="195" r="18" fill="none" stroke="#FF5722" stroke-width="1.5" opacity="0.4"/>
+  <rect width="500" height="350" fill="url(#bg7)"/>
+  <rect x="2" y="2" width="496" height="346" rx="12" ry="12" fill="none" stroke="#E65100" stroke-width="2.5" opacity="0.6"/>
+  <rect x="3" y="3" width="494" height="42" rx="10" ry="10" fill="url(#hdr7)"/>
+  <rect x="3" y="35" width="494" height="10" fill="url(#hdr7)"/>
+  <text x="250" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Оценка состояния и сердечно-лёгочная реанимация</text>
+  <text x="250" y="36" font-family="Arial, sans-serif" font-size="10" fill="#FFF3E0" text-anchor="middle">ОБЖ — Урок 7</text>
+  <circle cx="28" cy="24" r="14" fill="#FFFFFF" opacity="0.25"/>
+  <text x="28" y="28" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">7</text>
+  <rect x="12" y="52" width="230" height="146" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow7)"/>
+  <rect x="16" y="55" width="222" height="18" rx="4" ry="4" fill="#E65100" opacity="0.15"/>
+  <text x="127" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">Признаки клинической смерти</text>
+  <circle cx="26" cy="77" r="4" fill="#C62828" opacity="0.8"/>
+  <text x="36" y="80" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Отсутствие сознания</text>
+  <circle cx="26" cy="99" r="4" fill="#C62828" opacity="0.8"/>
+  <text x="36" y="102" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Отсутствие дыхания</text>
+  <circle cx="26" cy="121" r="4" fill="#C62828" opacity="0.8"/>
+  <text x="36" y="124" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Отсутствие пульса на сонной артерии</text>
+  <circle cx="26" cy="143" r="4" fill="#C62828" opacity="0.8"/>
+  <text x="36" y="146" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Расширенные зрачки</text>
+  <circle cx="26" cy="165" r="4" fill="#C62828" opacity="0.8"/>
+  <text x="36" y="168" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Время: 4–6 минут до биологической смерти</text>
+  <rect x="252" y="52" width="236" height="146" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow7)"/>
+  <rect x="256" y="55" width="228" height="18" rx="4" ry="4" fill="#E65100" opacity="0.15"/>
+  <text x="370" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">Алгоритм СЛР (30:2)</text>
+  <circle cx="266" cy="77" r="6" fill="#2E7D32" opacity="0.2"/>
+  <text x="266" y="80" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">1</text>
+  <text x="278" y="80" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Убедитесь в безопасности</text>
+  <circle cx="266" cy="99" r="6" fill="#2E7D32" opacity="0.2"/>
+  <text x="266" y="102" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">2</text>
+  <text x="278" y="102" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Проверьте реакцию и дыхание</text>
+  <circle cx="266" cy="121" r="6" fill="#2E7D32" opacity="0.2"/>
+  <text x="266" y="124" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">3</text>
+  <text x="278" y="124" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Вызовите скорую: 103</text>
+  <circle cx="266" cy="143" r="6" fill="#2E7D32" opacity="0.2"/>
+  <text x="266" y="146" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">4</text>
+  <text x="278" y="146" font-family="Arial, sans-serif" font-size="9" fill="#37474F">30 нажатий на грудную клетку</text>
+  <circle cx="266" cy="165" r="6" fill="#2E7D32" opacity="0.2"/>
+  <text x="266" y="168" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">5</text>
+  <text x="278" y="168" font-family="Arial, sans-serif" font-size="9" fill="#37474F">2 вдоха (голова запрокинута)</text>
+  <rect x="12" y="206" width="476" height="56" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow7)"/>
+  <rect x="12" y="206" width="5" height="56" rx="2" ry="0" fill="#E65100" opacity="0.7"/>
+  <text x="250" y="220" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Параметры компрессий</text>
+  <rect x="24" y="228" width="452" height="15" rx="3" ry="3" fill="#E65100" opacity="0.06"/>
+  <text x="30" y="236" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Глубина: 5–6 см  |  Частота: 100–120 в мин  |  Точка: центр грудины</text>
+  <line x1="15" y1="334" x2="485" y2="334" stroke="#E65100" stroke-width="0.5" opacity="0.3"/>
+  <text x="250" y="338" font-family="Arial, sans-serif" font-size="8" fill="#9E9E9E" text-anchor="middle">Основы безопасности · 10 класс</text>
+
+  <!-- Heart / CPR icon -->
+  <g transform="translate(443, 58)">
+    <path d="M20,38 C5,28 0,15 8,8 C14,3 20,10 20,10 C20,10 26,3 32,8 C40,15 35,28 20,38Z" fill="#C62828" opacity="0.15" stroke="#C62828" stroke-width="1"/>
+    <line x1="12" y1="20" x2="18" y2="20" stroke="#C62828" stroke-width="2" opacity="0.4"/>
+    <line x1="18" y1="20" x2="22" y2="14" stroke="#C62828" stroke-width="2" opacity="0.4"/>
+    <line x1="22" y1="14" x2="26" y2="26" stroke="#C62828" stroke-width="2" opacity="0.4"/>
+    <line x1="26" y1="26" x2="28" y2="20" stroke="#C62828" stroke-width="2" opacity="0.4"/>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FF5722" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FF5722" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ОБЖ</text>
 </svg>

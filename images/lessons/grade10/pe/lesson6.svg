@@ -1,33 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1B5E20;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4CAF50"/>
-      <stop offset="100%" stop-color="#1B5E20"/>
+    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2E7D32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1B5E20;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4CAF50" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#4CAF50" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1B5E20" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1B5E20" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#4CAF50" text-anchor="middle">Баскетбол: техника и тактика</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физкультура - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#4CAF50" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#4CAF50" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1B5E20" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  <circle cx="250" cy="165" r="15" fill="none" stroke="#4CAF50" stroke-width="2"/><line x1="250" y1="180" x2="250" y2="215" stroke="#4CAF50" stroke-width="2"/><line x1="250" y1="195" x2="225" y2="210" stroke="#4CAF50" stroke-width="2"/><line x1="250" y1="195" x2="275" y2="210" stroke="#4CAF50" stroke-width="2"/><line x1="250" y1="215" x2="230" y2="245" stroke="#4CAF50" stroke-width="2"/><line x1="250" y1="215" x2="270" y2="245" stroke="#4CAF50" stroke-width="2"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#4CAF50" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#4CAF50" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физкультура</text>
+  <rect x="0" y="0" width="500" height="350" rx="12" ry="12" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2.5"/>
+  <rect x="0" y="0" width="500" height="52" rx="12" ry="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="30" width="500" height="22" fill="url(#headerGrad)"/>
+  <rect x="14" y="10" width="32" height="32" rx="6" ry="6" fill="#FFFFFF" opacity="0.2"/>
+  <text x="30" y="33" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">6</text>
+  <text x="56" y="24" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Баскетбол: техника и тактика</text>
+  <text x="56" y="42" font-family="Arial, sans-serif" font-size="10" fill="#C8E6C9">Физкультура — Урок 6</text>
+  <line x1="15" y1="54" x2="485" y2="54" stroke="#66BB6A" stroke-width="1" opacity="0.5"/>
+  <rect x="20" y="68" width="220" height="115" rx="6" ry="6" fill="#F1F8E9" stroke="#A5D6A7" stroke-width="1"/>
+  <rect x="20" y="68" width="220" height="22" rx="6" ry="6" fill="#2E7D32" opacity="0.85"/>
+  <rect x="20" y="80" width="220" height="10" fill="#2E7D32" opacity="0.85"/>
+  <text x="130" y="83" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">Техника владения мячом</text>
+  <text x="28" y="104" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• Ведение: пальцы, не ладонь</text>
+  <text x="28" y="118" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• Передача двумя руками</text>
+  <text x="28" y="132" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• Бросок «в прыжке»</text>
+  <text x="28" y="146" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• Подбор щита (отскок)</text>
+  <rect x="260" y="68" width="220" height="115" rx="6" ry="6" fill="#F1F8E9" stroke="#A5D6A7" stroke-width="1"/>
+  <rect x="260" y="68" width="220" height="22" rx="6" ry="6" fill="#2E7D32" opacity="0.85"/>
+  <rect x="260" y="80" width="220" height="10" fill="#2E7D32" opacity="0.85"/>
+  <text x="370" y="83" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">Правила игры</text>
+  <text x="268" y="104" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• 5 игроков на площадке</text>
+  <text x="268" y="118" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• 4 четверти по 10 мин</text>
+  <text x="268" y="132" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• 3-очковая линия: 6.75 м</text>
+  <text x="268" y="146" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• Фол: 5 личных — удаление</text>
+  <rect x="20" y="193" width="220" height="115" rx="6" ry="6" fill="#F1F8E9" stroke="#A5D6A7" stroke-width="1"/>
+  <rect x="20" y="193" width="220" height="22" rx="6" ry="6" fill="#2E7D32" opacity="0.85"/>
+  <rect x="20" y="205" width="220" height="10" fill="#2E7D32" opacity="0.85"/>
+  <text x="130" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">Тактика нападения</text>
+  <text x="28" y="229" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• Быстрый отрыв (fast break)</text>
+  <text x="28" y="243" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• «Заслон» — наведение</text>
+  <text x="28" y="257" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• Передача «в разрез»</text>
+  <text x="28" y="271" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• Расположение 3-2 / 2-3</text>
+  <rect x="260" y="193" width="220" height="115" rx="6" ry="6" fill="#F1F8E9" stroke="#A5D6A7" stroke-width="1"/>
+  <rect x="260" y="193" width="220" height="22" rx="6" ry="6" fill="#2E7D32" opacity="0.85"/>
+  <rect x="260" y="205" width="220" height="10" fill="#2E7D32" opacity="0.85"/>
+  <text x="370" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">Тактика защиты</text>
+  <text x="268" y="229" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• Личная опека (man-to-man)</text>
+  <text x="268" y="243" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• Зонная защита 2-1-2</text>
+  <text x="268" y="257" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• Прессинг по всей площадке</text>
+  <text x="268" y="271" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">• Подстраховка партнёра</text>
+  <circle cx="246" cy="320" r="8" fill="none" stroke="#2E7D32" stroke-width="1.5" opacity="0.3"/>
+  <path d="M246,312 Q242,320 246,328" fill="none" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+  <rect x="0" y="330" width="500" height="20" rx="0" ry="0" fill="url(#footerGrad)"/>
+  <rect x="0" y="338" width="500" height="12" rx="12" ry="12" fill="url(#footerGrad)"/>
+  <rect x="0" y="330" width="500" height="8" fill="url(#footerGrad)"/>
+  <text x="250" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF">Физкультура · 10 класс</text>
 </svg>

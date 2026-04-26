@@ -1,33 +1,82 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#EDE7F6"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1A237E"/>
-      <stop offset="100%" stop-color="#0D47A1"/>
+      <stop offset="0%" stop-color="#7E57C2"/>
+      <stop offset="100%" stop-color="#4527A0"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1A237E" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#1A237E" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#0D47A1" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#0D47A1" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#1A237E" text-anchor="middle">Типы звёзд</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7E57C2" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#7E57C2" text-anchor="middle">Типы звёзд</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Астрономия - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#1A237E" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#1A237E" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#0D47A1" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#7E57C2" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <circle cx="250" cy="190" r="40" fill="none" stroke="#1A237E" stroke-width="2"/><circle cx="250" cy="190" r="15" fill="#1A237E" opacity="0.3"/><ellipse cx="250" cy="190" rx="60" ry="12" fill="none" stroke="#0D47A1" stroke-width="1.5" opacity="0.5"/><circle cx="210" cy="160" r="3" fill="#1A237E" opacity="0.6"/><circle cx="290" cy="175" r="2" fill="#1A237E" opacity="0.4"/><circle cx="275" cy="220" r="2.5" fill="#0D47A1" opacity="0.5"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.3"/>
+    
+    <!-- Hertzsprung-Russell Diagram -->
+    <text x="250" y="100" font-family="Arial,sans-serif" font-size="12" fill="#4527A0" text-anchor="middle">Диаграмма Герцшпрунга-Рассела</text>
+    
+    <!-- Axes -->
+    <line x1="60" y1="280" x2="460" y2="280" stroke="#555" stroke-width="1.5"/>
+    <line x1="60" y1="280" x2="60" y2="110" stroke="#555" stroke-width="1.5"/>
+    
+    <!-- Axis labels -->
+    <text x="40" y="195" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">T</text>
+    <text x="260" y="296" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Светимость -&gt;</text>
+    <text x="40" y="180" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">L</text>
+    
+    <!-- Temperature scale (reversed - hot on left) -->
+    <text x="100" y="290" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">30000K</text>
+    <text x="200" y="290" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">10000K</text>
+    <text x="300" y="290" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">6000K</text>
+    <text x="400" y="290" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">3000K</text>
+    
+    <!-- Main Sequence band -->
+    <path d="M80,125 C150,140 250,180 350,250 L420,270 L420,280 L80,280 Z" fill="#CE93D8" opacity="0.2"/>
+    <path d="M85,130 C160,145 260,190 370,260" fill="none" stroke="#7E57C2" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="200" y="195" font-family="Arial,sans-serif" font-size="8" fill="#4527A0" text-anchor="middle">Главная</text>
+    <text x="200" y="207" font-family="Arial,sans-serif" font-size="8" fill="#4527A0" text-anchor="middle">последоват.</text>
+    
+    <!-- Sun on main sequence -->
+    <circle cx="220" cy="210" r="5" fill="#FDD835" stroke="#F9A825" stroke-width="1"/>
+    <text x="240" y="207" font-family="Arial,sans-serif" font-size="7" fill="#F9A825" text-anchor="middle">Солнце</text>
+    
+    <!-- Red giants (top right) -->
+    <circle cx="350" cy="150" r="8" fill="#EF5350" stroke="#C62828" stroke-width="1"/>
+    <text x="378" y="147" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Красные гиганты</text>
+    
+    <!-- Supergiants (top) -->
+    <circle cx="200" cy="125" r="10" fill="#EF5350" stroke="#C62828" stroke-width="1"/>
+    <text x="200" y="117" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Сверхгиганты</text>
+    
+    <!-- White dwarfs (bottom left) -->
+    <circle cx="120" cy="265" r="4" fill="#E0E0E0" stroke="#9E9E9E" stroke-width="1"/>
+    <text x="120" y="256" font-family="Arial,sans-serif" font-size="7" fill="#9E9E9E" text-anchor="middle">Белые карлики</text>
+    
+    <!-- Spectral classes -->
+    <text x="80" y="298" font-family="Arial,sans-serif" font-size="8" fill="#42A5F5" text-anchor="middle">O</text>
+    <text x="140" y="298" font-family="Arial,sans-serif" font-size="8" fill="#64B5F6" text-anchor="middle">B</text>
+    <text x="200" y="298" font-family="Arial,sans-serif" font-size="8" fill="#E0E0E0" text-anchor="middle">A</text>
+    <text x="260" y="298" font-family="Arial,sans-serif" font-size="8" fill="#FFF9C4" text-anchor="middle">F</text>
+    <text x="320" y="298" font-family="Arial,sans-serif" font-size="8" fill="#FDD835" text-anchor="middle">G</text>
+    <text x="380" y="298" font-family="Arial,sans-serif" font-size="8" fill="#FF8A65" text-anchor="middle">K</text>
+    <text x="440" y="298" font-family="Arial,sans-serif" font-size="8" fill="#EF5350" text-anchor="middle">M</text>
+    
+    <!-- Spectral class note -->
+    <rect x="380" y="115" width="100" height="65" rx="3" fill="#F3E5F5" stroke="#7E57C2" stroke-width="1"/>
+    <text x="430" y="130" font-family="Arial,sans-serif" font-size="7" fill="#4527A0" text-anchor="middle">Спектр. классы:</text>
+    <text x="430" y="142" font-family="Arial,sans-serif" font-size="6" fill="#42A5F5" text-anchor="middle">O - самые горячие</text>
+    <text x="430" y="152" font-family="Arial,sans-serif" font-size="6" fill="#64B5F6" text-anchor="middle">B - голубые</text>
+    <text x="430" y="162" font-family="Arial,sans-serif" font-size="6" fill="#E0E0E0" text-anchor="middle">A - белые</text>
+    <text x="430" y="172" font-family="Arial,sans-serif" font-size="6" fill="#FDD835" text-anchor="middle">F-G желтые</text>
+    <text x="430" y="182" font-family="Arial,sans-serif" font-size="6" fill="#EF5350" text-anchor="middle">K-M красные</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#1A237E" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#1A237E" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Астрономия</text>
 </svg>

@@ -1,33 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ECEFF1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+      <stop offset="0%" stopColor="#F3E5F5" />
+      <stop offset="100%" stopColor="#FFFFFF" />
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#78909C"/>
-      <stop offset="100%" stop-color="#37474F"/>
+      <stop offset="0%" stopColor="#7B1FA2" />
+      <stop offset="100%" stopColor="#4A148C" />
     </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stopColor="#4A148C" />
+      <stop offset="100%" stopColor="#7B1FA2" />
+    </linearGradient>
+    <clipPath id="ill">
+      <rect x="15" y="80" width="470" height="220" rx="6" />
+    </clipPath>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#78909C" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#78909C" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#78909C" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#37474F" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#78909C" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#37474F" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#78909C" text-anchor="middle">Философия Нового времени</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Философия - Урок 9</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#78909C" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#78909C" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#37474F" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#ECEFF1" opacity="0.5"/>
-  <circle cx="250" cy="190" r="40" fill="none" stroke="#78909C" stroke-width="2"/><text x="250" y="196" font-family="serif" font-size="30" fill="#78909C" text-anchor="middle">?</text><line x1="220" y1="210" x2="280" y2="210" stroke="#37474F" stroke-width="1" opacity="0.4"/>
+  <rect width="500" height="350" fill="url(#bg)" rx="10" />
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4A148C" strokeWidth="2.5" />
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#4A148C" strokeWidth="1" opacity="0.15" />
+  <polygon points="10,10 30,10 10,30" fill="#4A148C" opacity="0.10" />
+  <polygon points="490,10 470,10 490,30" fill="#4A148C" opacity="0.10" />
+  <polygon points="10,340 30,340 10,320" fill="#4A148C" opacity="0.10" />
+  <polygon points="490,340 470,340 490,320" fill="#4A148C" opacity="0.10" />
+  <text x="250" y="42" fontFamily="Arial,sans-serif" fontSize="20" fontWeight="bold" fill="#4A148C" textAnchor="middle">Философия Нового времени</text>
+  <text x="250" y="62" fontFamily="Arial,sans-serif" fontSize="11" fill="#666666" textAnchor="middle">Философия — Урок 9</text>
+  <line x1="30" y1="72" x2="470" y2="72" stroke="#4A148C" strokeWidth="2" opacity="0.20" />
+  <rect x="30" y="70" width="60" height="4" fill="#4A148C" opacity="0.15" rx="1" />
+  <rect x="410" y="70" width="60" height="4" fill="#7B1FA2" opacity="0.10" rx="1" />
+  <g clipPath="url(#ill)">
+    <rect x="15" y="80" width="470" height="220" fill="#F3E5F5" opacity="0.35" />
+    <rect x="20" y="85" width="150" height="110" rx="5" fill="#FFFFFF" stroke="#CE93D8" strokeWidth="1.2" opacity="0.95" />
+    <rect x="20" y="85" width="150" height="18" rx="5" fill="#4A148C" opacity="0.85" />
+    <rect x="20" y="97" width="150" height="6" fill="#4A148C" opacity="0.85" />
+    <text x="95" y="98" fontFamily="Arial,sans-serif" fontSize="10" fontWeight="bold" fill="#FFFFFF" textAnchor="middle">РАЦИОНАЛИЗМ</text>
+    <text x="28" y="115" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">Декарт:</text>
+    <text x="28" y="128" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">«Cogito, ergo sum»</text>
+    <text x="28" y="141" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">(Мыслю, значит существую)</text>
+    <text x="28" y="154" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start" />
+    <text x="28" y="167" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">Идеи врождены,</text>
+    <text x="28" y="180" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">разум — источник</text>
+    <text x="28" y="193" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">знания</text>
+    <rect x="178" y="85" width="150" height="110" rx="5" fill="#FFFFFF" stroke="#CE93D8" strokeWidth="1.2" opacity="0.95" />
+    <rect x="178" y="85" width="150" height="18" rx="5" fill="#4A148C" opacity="0.85" />
+    <rect x="178" y="97" width="150" height="6" fill="#4A148C" opacity="0.85" />
+    <text x="253" y="98" fontFamily="Arial,sans-serif" fontSize="10" fontWeight="bold" fill="#FFFFFF" textAnchor="middle">ЭМПИРИЗМ</text>
+    <text x="186" y="115" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">Локк, Юм:</text>
+    <text x="186" y="128" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">«Tabula rasa» —</text>
+    <text x="186" y="141" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">чистая доска</text>
+    <text x="186" y="154" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start" />
+    <text x="186" y="167" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">Опыт — источник</text>
+    <text x="186" y="180" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">знания, идеи</text>
+    <text x="186" y="193" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">приобретены</text>
+    <rect x="336" y="85" width="145" height="110" rx="5" fill="#FFFFFF" stroke="#CE93D8" strokeWidth="1.2" opacity="0.95" />
+    <rect x="336" y="85" width="145" height="18" rx="5" fill="#4A148C" opacity="0.85" />
+    <rect x="336" y="97" width="145" height="6" fill="#4A148C" opacity="0.85" />
+    <text x="408" y="98" fontFamily="Arial,sans-serif" fontSize="10" fontWeight="bold" fill="#FFFFFF" textAnchor="middle">КАНТ</text>
+    <text x="344" y="115" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">Синтез двух</text>
+    <text x="344" y="128" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">подходов:</text>
+    <text x="344" y="141" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start" />
+    <text x="344" y="154" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">Опыт без понятий</text>
+    <text x="344" y="167" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">слеп, понятия без</text>
+    <text x="344" y="180" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start">опыта пусты</text>
+    <text x="344" y="193" fontFamily="Arial,sans-serif" fontSize="9" fill="#311B92" textAnchor="start" />
+    <rect x="20" y="205" width="460" height="38" rx="4" fill="#4A148C" opacity="0.08" />
+    <line x1="24" y1="209" x2="24" y2="239" stroke="#4A148C" strokeWidth="3" opacity="0.6" />
+    <text x="32" y="219" fontFamily="Georgia,serif" fontSize="8.5" fontStyle="italic" fill="#311B92">“Имей мужество пользоваться собственным умом!”</text>
+    <text x="472" y="235" fontFamily="Arial,sans-serif" fontSize="8" fill="#7B1FA2" textAnchor="end">— И. Кант</text>
+    <rect x="20" y="252" width="460" height="42" rx="5" fill="#FFFFFF" stroke="#CE93D8" strokeWidth="1" />
+    <text x="250" y="266" fontFamily="Arial,sans-serif" fontSize="9" fontWeight="bold" fill="#4A148C" textAnchor="middle">ЭПОХА НОВОГО ВРЕМЕНИ (XVII–XVIII вв.)</text>
+    <line x1="40" y1="280" x2="460" y2="280" stroke="#4A148C" strokeWidth="1.5" opacity="0.3" />
+    <circle cx="50" cy="280" r="3" fill="#4A148C" opacity="0.6" />
+    <text x="50" y="291" fontFamily="Arial,sans-serif" fontSize="6.5" fill="#311B92" textAnchor="middle">Декарт 1596</text>
+    <circle cx="160" cy="280" r="3" fill="#4A148C" opacity="0.6" />
+    <text x="160" y="291" fontFamily="Arial,sans-serif" fontSize="6.5" fill="#311B92" textAnchor="middle">Спиноза 1632</text>
+    <circle cx="270" cy="280" r="3" fill="#4A148C" opacity="0.6" />
+    <text x="270" y="291" fontFamily="Arial,sans-serif" fontSize="6.5" fill="#311B92" textAnchor="middle">Локк 1632</text>
+    <circle cx="380" cy="280" r="3" fill="#4A148C" opacity="0.6" />
+    <text x="380" y="291" fontFamily="Arial,sans-serif" fontSize="6.5" fill="#311B92" textAnchor="middle">Кант 1724</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#78909C" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#78909C" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Философия</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)" />
+  <line x1="20" y1="308" x2="20" y2="334" stroke="#CE93D8" strokeWidth="1.5" opacity="0.5" />
+  <line x1="480" y1="308" x2="480" y2="334" stroke="#CE93D8" strokeWidth="1.5" opacity="0.5" />
+  <text x="250" y="326" fontFamily="Arial,sans-serif" fontSize="14" textAnchor="middle" fill="#FFFFFF" fontWeight="bold">Философия · 10 класс</text>
 </svg>

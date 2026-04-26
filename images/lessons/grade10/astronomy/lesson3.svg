@@ -1,33 +1,121 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#EDE7F6"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1A237E"/>
-      <stop offset="100%" stop-color="#0D47A1"/>
+      <stop offset="0%" stop-color="#7E57C2"/>
+      <stop offset="100%" stop-color="#4527A0"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1A237E" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#1A237E" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#0D47A1" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#0D47A1" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#1A237E" text-anchor="middle">Планеты Солнечной системы</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7E57C2" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#7E57C2" text-anchor="middle">Планеты Солнечной системы</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Астрономия - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#1A237E" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#1A237E" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#0D47A1" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#7E57C2" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <circle cx="250" cy="190" r="40" fill="none" stroke="#1A237E" stroke-width="2"/><circle cx="250" cy="190" r="15" fill="#1A237E" opacity="0.3"/><ellipse cx="250" cy="190" rx="60" ry="12" fill="none" stroke="#0D47A1" stroke-width="1.5" opacity="0.5"/><circle cx="210" cy="160" r="3" fill="#1A237E" opacity="0.6"/><circle cx="290" cy="175" r="2" fill="#1A237E" opacity="0.4"/><circle cx="275" cy="220" r="2.5" fill="#0D47A1" opacity="0.5"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.3"/>
+    
+    <!-- Inner planets (terrestrial) -->
+    <rect x="20" y="90" width="225" height="105" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+    <text x="132" y="106" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle">Планеты земной группы</text>
+    
+    <!-- Mercury -->
+    <circle cx="50" cy="140" r="10" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+    <text x="50" y="158" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Меркурий</text>
+    <text x="50" y="167" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">0.39 а.е.</text>
+    
+    <!-- Venus -->
+    <circle cx="110" cy="140" r="13" fill="#FF8A65" stroke="#E64A19" stroke-width="1"/>
+    <text x="110" y="160" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Венера</text>
+    <text x="110" y="169" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">0.72 а.е.</text>
+    
+    <!-- Earth -->
+    <circle cx="170" cy="140" r="14" fill="#42A5F5" stroke="#1565C0" stroke-width="1"/>
+    <path d="M163,135 C166,132 170,134 168,138 C166,142 161,140 163,135" fill="#66BB6A" opacity="0.7"/>
+    <text x="170" y="160" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Земля</text>
+    <text x="170" y="169" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">1.0 а.е.</text>
+    
+    <!-- Mars -->
+    <circle cx="225" cy="140" r="9" fill="#EF5350" stroke="#C62828" stroke-width="1"/>
+    <text x="225" y="158" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Марс</text>
+    <text x="225" y="167" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">1.52 а.е.</text>
+    
+    <!-- Properties -->
+    <text x="132" y="185" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">Твердая поверхность, мало спутников</text>
+    
+    <!-- Outer planets (gas/ice giants) -->
+    <rect x="255" y="90" width="225" height="105" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+    <text x="367" y="106" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle">Планеты-гиганты</text>
+    
+    <!-- Jupiter -->
+    <circle cx="285" cy="140" r="18" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+    <line x1="270" y1="137" x2="300" y2="137" stroke="#E65100" stroke-width="1" opacity="0.3"/>
+    <line x1="270" y1="142" x2="300" y2="142" stroke="#E65100" stroke-width="1" opacity="0.3"/>
+    <text x="285" y="165" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Юпитер</text>
+    <text x="285" y="174" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">5.2 а.е.</text>
+    
+    <!-- Saturn -->
+    <circle cx="345" cy="140" r="15" fill="#FFE082" stroke="#F9A825" stroke-width="1"/>
+    <ellipse cx="345" cy="140" rx="24" ry="5" fill="none" stroke="#F9A825" stroke-width="1.5"/>
+    <text x="345" y="165" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Сатурн</text>
+    <text x="345" y="174" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">9.5 а.е.</text>
+    
+    <!-- Uranus -->
+    <circle cx="405" cy="140" r="10" fill="#80DEEA" stroke="#00838F" stroke-width="1"/>
+    <text x="405" y="158" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Уран</text>
+    <text x="405" y="167" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">19.2 а.е.</text>
+    
+    <!-- Neptune -->
+    <circle cx="455" cy="140" r="10" fill="#5C6BC0" stroke="#283593" stroke-width="1"/>
+    <text x="455" y="158" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Нептун</text>
+    <text x="455" y="167" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">30.1 а.е.</text>
+    
+    <text x="367" y="185" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Газ/лед, много спутников, кольца</text>
+    
+    <!-- Comparison table -->
+    <rect x="20" y="202" width="460" height="98" rx="3" fill="#F3E5F5" stroke="#7E57C2" stroke-width="1"/>
+    <text x="250" y="217" font-family="Arial,sans-serif" font-size="11" fill="#4527A0" text-anchor="middle">Сравнение планет</text>
+    
+    <!-- Table header -->
+    <rect x="20" y="225" width="460" height="16" rx="4" fill="#4527A0"/>
+    <text x="65" y="236" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Планета</text>
+    <text x="155" y="236" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">D, км</text>
+    <text x="225" y="236" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Масса (Земля=1)</text>
+    <text x="320" y="236" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Сутки</text>
+    <text x="420" y="236" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Год</text>
+    
+    <!-- Mercury row -->
+    <text x="65" y="252" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Меркурий</text>
+    <text x="155" y="252" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">4879</text>
+    <text x="225" y="252" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">0.055</text>
+    <text x="320" y="252" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">59 д</text>
+    <text x="420" y="252" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">88 д</text>
+    
+    <!-- Venus row -->
+    <text x="65" y="264" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Венера</text>
+    <text x="155" y="264" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">12104</text>
+    <text x="225" y="264" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">0.815</text>
+    <text x="320" y="264" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">243 д</text>
+    <text x="420" y="264" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">225 д</text>
+    
+    <!-- Earth row -->
+    <text x="65" y="276" font-family="Arial,sans-serif" font-size="7" fill="#4527A0" text-anchor="middle">Земля</text>
+    <text x="155" y="276" font-family="Arial,sans-serif" font-size="7" fill="#4527A0" text-anchor="middle">12756</text>
+    <text x="225" y="276" font-family="Arial,sans-serif" font-size="7" fill="#4527A0" text-anchor="middle">1.0</text>
+    <text x="320" y="276" font-family="Arial,sans-serif" font-size="7" fill="#4527A0" text-anchor="middle">24 ч</text>
+    <text x="420" y="276" font-family="Arial,sans-serif" font-size="7" fill="#4527A0" text-anchor="middle">365 д</text>
+    
+    <!-- Jupiter row -->
+    <text x="65" y="288" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Юпитер</text>
+    <text x="155" y="288" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">142984</text>
+    <text x="225" y="288" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">317.8</text>
+    <text x="320" y="288" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">10 ч</text>
+    <text x="420" y="288" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">12 лет</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#1A237E" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#1A237E" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Астрономия</text>
 </svg>

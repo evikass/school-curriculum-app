@@ -11,23 +11,61 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1A237E" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Работа и потенциал</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Работа и потенциал</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 10</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1A237E" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <circle cx="250" cy="190" r="40" fill="none" stroke="#5C6BC0" stroke-width="2"/><line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/><line x1="210" y1="190" x2="290" y2="190" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/><text x="250" y="195" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" text-anchor="middle">F=ma</text>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
+    <!-- Charge Q creating field -->
+    <circle cx="130" cy="200" r="25" fill="#E91E63" opacity="0.15" stroke="#E91E63" stroke-width="2"/>
+    <text x="130" y="205" font-family="Arial,sans-serif" font-size="14" fill="#E91E63" text-anchor="middle" font-weight="bold">+Q</text>
+    <!-- Equipotential lines (concentric circles) -->
+    <circle cx="130" cy="200" r="55" fill="none" stroke="#4CAF50" stroke-width="1" stroke-dasharray="5,3" opacity="0.6"/>
+    <circle cx="130" cy="200" r="80" fill="none" stroke="#4CAF50" stroke-width="1" stroke-dasharray="5,3" opacity="0.4"/>
+    <circle cx="130" cy="200" r="105" fill="none" stroke="#4CAF50" stroke-width="0.8" stroke-dasharray="5,3" opacity="0.3"/>
+    <!-- Equipotential labels -->
+    <text x="190" y="168" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">phi1</text>
+    <text x="215" y="155" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">phi2</text>
+    <text x="240" y="140" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">phi3</text>
+    <!-- Electric field line (radial) -->
+    <line x1="157" y1="188" x2="240" y2="145" stroke="#FF9800" stroke-width="1.5"/>
+    <polygon points="240,142 248,142 242,149" fill="#FF9800"/>
+    <text x="215" y="155" font-family="Arial,sans-serif" font-size="8" fill="#FF9800">E</text>
+    <!-- Test charge q -->
+    <circle cx="240" cy="145" r="8" fill="#4CAF50" opacity="0.3" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="240" y="149" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50" text-anchor="middle">+q</text>
+    <!-- Work arrow -->
+    <path d="M248,142 L270,130" fill="none" stroke="#E91E63" stroke-width="1.5"/>
+    <polygon points="270,127 278,127 272,134" fill="#E91E63"/>
+    <text x="268" y="124" font-family="Arial,sans-serif" font-size="9" fill="#E91E63">A</text>
+    <!-- Perpendicular markers -->
+    <text x="135" y="148" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50">E _|_ эквипотенц.</text>
+    <!-- Formulas -->
+    <rect x="290" y="90" width="195" height="130" rx="5" fill="white" opacity="0.85" stroke="#5C6BC0" stroke-width="1"/>
+    <text x="300" y="108" font-family="Arial,sans-serif" font-size="12" fill="#1A237E" font-weight="bold">Потенциал:</text>
+    <line x1="300" y1="113" x2="475" y2="113" stroke="#5C6BC0" stroke-width="0.5"/>
+    <rect x="300" y="118" width="180" height="22" rx="3" fill="#5C6BC0" opacity="0.08"/>
+    <text x="390" y="134" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" text-anchor="middle" font-weight="bold">phi = k*Q/r</text>
+    <text x="300" y="155" font-family="Arial,sans-serif" font-size="11" fill="#444">[phi] = В (Вольт)</text>
+    <text x="300" y="173" font-family="Arial,sans-serif" font-size="11" fill="#444">phi = W/q (потенц. энергия</text>
+    <text x="300" y="187" font-family="Arial,sans-serif" font-size="11" fill="#444">на единицу заряда)</text>
+    <text x="300" y="205" font-family="Arial,sans-serif" font-size="11" fill="#444">На эквипот. поверх.:</text>
+    <text x="300" y="218" font-family="Arial,sans-serif" font-size="11" fill="#4CAF50">phi = const</text>
+    <!-- Work formula -->
+    <rect x="290" y="228" width="195" height="72" rx="5" fill="white" opacity="0.85" stroke="#5C6BC0" stroke-width="1"/>
+    <text x="300" y="246" font-family="Arial,sans-serif" font-size="12" fill="#1A237E" font-weight="bold">Работа поля:</text>
+    <rect x="300" y="252" width="180" height="22" rx="3" fill="#E91E63" opacity="0.08"/>
+    <text x="390" y="268" font-family="Arial,sans-serif" font-size="12" fill="#E91E63" text-anchor="middle" font-weight="bold">A = q*(phi1 - phi2)</text>
+    <text x="300" y="290" font-family="Arial,sans-serif" font-size="10" fill="#444">A = q*U  (U - напряжение)</text>
+    <text x="300" y="300" font-family="Arial,sans-serif" font-size="9" fill="#888">A не зависит от формы пути!</text>
+    <!-- Voltage -->
+    <rect x="25" y="260" width="255" height="38" rx="4" fill="white" opacity="0.8" stroke="#5C6BC0" stroke-width="1"/>
+    <text x="35" y="278" font-family="Arial,sans-serif" font-size="11" fill="#1A237E" font-weight="bold">Напряжение: U = phi1 - phi2 = A/q</text>
+    <text x="35" y="294" font-family="Arial,sans-serif" font-size="10" fill="#444">E = -grad(phi) ; E = U/d (однородное поле)</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика</text>
 </svg>

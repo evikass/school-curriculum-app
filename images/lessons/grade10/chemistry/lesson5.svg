@@ -11,23 +11,78 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF7043" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#D84315" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#D84315" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FF7043" text-anchor="middle">Алкены</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#FF7043" text-anchor="middle">Алкены</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 5</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#FF7043" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FF7043" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#D84315" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FBE9E7" opacity="0.5"/>
-  <path d="M225,155 L225,195 L210,230 L290,230 L275,195 L275,155 Z" fill="none" stroke="#FF7043" stroke-width="2"/><line x1="220" y1="155" x2="280" y2="155" stroke="#FF7043" stroke-width="2.5"/><circle cx="240" cy="210" r="6" fill="#FF7043" opacity="0.4"/><circle cx="260" cy="215" r="8" fill="#D84315" opacity="0.3"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#FFF8F0" opacity="0.5"/>
+    
+    <!-- General formula -->
+    <rect x="20" y="90" width="200" height="30" rx="5" fill="#D84315"/>
+    <text x="120" y="110" font-family="Arial,sans-serif" font-size="13" fill="white" text-anchor="middle">Общая формула: CnH2n</text>
+    
+    <!-- Ethene (ethylene) - main structure -->
+    <text x="135" y="145" font-family="Arial,sans-serif" font-size="13" fill="#D84315" text-anchor="middle">Этен (этилен) C2H4</text>
+    <circle cx="100" cy="180" r="16" fill="#333" opacity="0.85"/>
+    <text x="100" y="185" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <circle cx="170" cy="180" r="16" fill="#333" opacity="0.85"/>
+    <text x="170" y="185" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <line x1="116.0" y1="182.5" x2="154.0" y2="182.5" stroke="#555" stroke-width="2"/>
+    <line x1="116.0" y1="177.5" x2="154.0" y2="177.5" stroke="#555" stroke-width="2"/>
+    <!-- H atoms -->
+    <circle cx="75" cy="155" r="10" fill="#888" opacity="0.85"/>
+    <text x="75" y="160" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="85" y1="162" x2="94" y2="170" stroke="#555" stroke-width="2.5"/>
+    <circle cx="75" cy="205" r="10" fill="#888" opacity="0.85"/>
+    <text x="75" y="210" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="85" y1="198" x2="94" y2="190" stroke="#555" stroke-width="2.5"/>
+    <circle cx="195" cy="155" r="10" fill="#888" opacity="0.85"/>
+    <text x="195" y="160" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="185" y1="162" x2="176" y2="170" stroke="#555" stroke-width="2.5"/>
+    <circle cx="195" cy="205" r="10" fill="#888" opacity="0.85"/>
+    <text x="195" y="210" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="185" y1="198" x2="176" y2="190" stroke="#555" stroke-width="2.5"/>
+    
+    <!-- Double bond highlight -->
+    <rect x="100" y="212" width="70" height="20" rx="3" fill="#FFCCBC" stroke="#FF7043" stroke-width="1"/>
+    <text x="135" y="226" font-family="Arial,sans-serif" font-size="9" fill="#D84315" text-anchor="middle">C=C двойная</text>
+    
+    <!-- Propene -->
+    <text x="340" y="145" font-family="Arial,sans-serif" font-size="11" fill="#D84315" text-anchor="middle">Пропен C3H6</text>
+    <circle cx="300" cy="175" r="13" fill="#333" opacity="0.85"/>
+    <text x="300" y="180" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <circle cx="340" cy="175" r="13" fill="#333" opacity="0.85"/>
+    <text x="340" y="180" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <circle cx="380" cy="175" r="13" fill="#333" opacity="0.85"/>
+    <text x="380" y="180" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <line x1="313.0" y1="177.5" x2="327.0" y2="177.5" stroke="#555" stroke-width="2"/>
+    <line x1="313.0" y1="172.5" x2="327.0" y2="172.5" stroke="#555" stroke-width="2"/>
+    <line x1="353" y1="175" x2="367" y2="175" stroke="#555" stroke-width="2.5"/>
+    <text x="300" y="198" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">CH2</text>
+    <text x="340" y="198" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">CH</text>
+    <text x="380" y="198" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">CH3</text>
+    
+    <!-- Properties -->
+    <rect x="20" y="235" width="220" height="58" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
+    <text x="130" y="250" font-family="Arial,sans-serif" font-size="10" fill="#D84315" text-anchor="middle">Химические свойства:</text>
+    <text x="130" y="263" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Присоединение (H2, HCl, H2O)</text>
+    <text x="130" y="275" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Полимеризация</text>
+    <text x="130" y="287" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Горение, окисление</text>
+    
+    <rect x="260" y="235" width="220" height="58" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
+    <text x="370" y="250" font-family="Arial,sans-serif" font-size="10" fill="#D84315" text-anchor="middle">Получение:</text>
+    <text x="370" y="263" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Дегидрирование алканов</text>
+    <text x="370" y="275" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Дегидратация спиртов</text>
+    <text x="370" y="287" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Крекинг нефтепродуктов</text>
+    
+    <!-- Addition reaction example -->
+    <rect x="100" y="200" width="60" height="18" rx="3" fill="#FFF3E0" stroke="#FF7043" stroke-width="1"/>
+    <text x="130" y="213" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">C=C + H2</text>
+    <line x1="165" y1="209" x2="190" y2="209" stroke="#FF7043" stroke-width="1.5"/>
+    <text x="225" y="213" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">-&gt; C-C (алкан)</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FF7043" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FF7043" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Химия</text>
 </svg>

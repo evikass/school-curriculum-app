@@ -11,23 +11,59 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#3F51B5" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Формулы сложения</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Формулы сложения</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 9</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <path d="M200,160 Q250,120 300,160 Q350,200 300,240 Q250,280 200,240 Q150,200 200,160" fill="none" stroke="#5C6BC0" stroke-width="2.5"/><line x1="180" y1="200" x2="320" y2="200" stroke="#5C6BC0" stroke-width="1" opacity="0.5"/><text x="250" y="208" font-family="Arial,sans-serif" font-size="16" fill="#5C6BC0" text-anchor="middle">f(x)</text>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
+    <!-- Angle diagram -->
+    <line x1="60" y1="230" x2="180" y2="230" stroke="#3F51B5" stroke-width="1.5"/>
+    <path d="M100,230 A40,40 0 0,0 93,210" fill="none" stroke="#E91E63" stroke-width="2"/>
+    <text x="100" y="215" font-family="Arial,sans-serif" font-size="12" fill="#E91E63" font-weight="bold">a</text>
+    <line x1="60" y1="230" x2="160" y2="170" stroke="#5C6BC0" stroke-width="2"/>
+    <path d="M90,222 A30,30 0 0,1 90,208" fill="none" stroke="#4CAF50" stroke-width="2"/>
+    <text x="82" y="200" font-family="Arial,sans-serif" font-size="12" fill="#4CAF50" font-weight="bold">b</text>
+    <path d="M110,228 A50,50 0 0,0 100,195" fill="none" stroke="#FF9800" stroke-width="2"/>
+    <text x="112" y="205" font-family="Arial,sans-serif" font-size="12" fill="#FF9800" font-weight="bold">a+b</text>
+    <!-- Formulas for sin -->
+    <rect x="200" y="90" width="285" height="95" rx="5" fill="white" opacity="0.85" stroke="#5C6BC0" stroke-width="1"/>
+    <rect x="200" y="90" width="5" height="95" rx="2" fill="#5C6BC0"/>
+    <text x="215" y="108" font-family="Arial,sans-serif" font-size="12" fill="#3F51B5" font-weight="bold">Формулы синуса:</text>
+    <line x1="215" y1="113" x2="475" y2="113" stroke="#5C6BC0" stroke-width="0.5"/>
+    <rect x="210" y="117" width="265" height="22" rx="3" fill="#5C6BC0" opacity="0.08"/>
+    <text x="215" y="133" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" font-weight="bold">sin(a+b) = sin a cos b + cos a sin b</text>
+    <rect x="210" y="142" width="265" height="22" rx="3" fill="#5C6BC0" opacity="0.08"/>
+    <text x="215" y="158" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" font-weight="bold">sin(a-b) = sin a cos b - cos a sin b</text>
+    <text x="215" y="178" font-family="Arial,sans-serif" font-size="10" fill="#888">Формулы сложения для синуса</text>
+    <!-- Formulas for cos -->
+    <rect x="200" y="192" width="285" height="95" rx="5" fill="white" opacity="0.85" stroke="#5C6BC0" stroke-width="1"/>
+    <rect x="200" y="192" width="5" height="95" rx="2" fill="#4CAF50"/>
+    <text x="215" y="210" font-family="Arial,sans-serif" font-size="12" fill="#3F51B5" font-weight="bold">Формулы косинуса:</text>
+    <line x1="215" y1="215" x2="475" y2="215" stroke="#4CAF50" stroke-width="0.5"/>
+    <rect x="210" y="219" width="265" height="22" rx="3" fill="#4CAF50" opacity="0.08"/>
+    <text x="215" y="235" font-family="Arial,sans-serif" font-size="12" fill="#4CAF50" font-weight="bold">cos(a+b) = cos a cos b - sin a sin b</text>
+    <rect x="210" y="244" width="265" height="22" rx="3" fill="#4CAF50" opacity="0.08"/>
+    <text x="215" y="260" font-family="Arial,sans-serif" font-size="12" fill="#4CAF50" font-weight="bold">cos(a-b) = cos a cos b + sin a sin b</text>
+    <text x="215" y="280" font-family="Arial,sans-serif" font-size="10" fill="#888">Косинус: знаки чередуются!</text>
+    <!-- tg formulas (smaller) -->
+    <rect x="25" y="90" width="165" height="105" rx="5" fill="white" opacity="0.8" stroke="#5C6BC0" stroke-width="1"/>
+    <text x="35" y="108" font-family="Arial,sans-serif" font-size="11" fill="#3F51B5" font-weight="bold">Тангенс:</text>
+    <text x="35" y="126" font-family="Arial,sans-serif" font-size="10" fill="#444">tg(a+b) =</text>
+    <text x="55" y="142" font-family="Arial,sans-serif" font-size="10" fill="#444">(tg a + tg b)</text>
+    <line x1="50" y1="145" x2="145" y2="145" stroke="#444" stroke-width="0.5"/>
+    <text x="70" y="156" font-family="Arial,sans-serif" font-size="10" fill="#444">1 - tg a tg b</text>
+    <text x="35" y="175" font-family="Arial,sans-serif" font-size="10" fill="#444">tg(a-b) - аналогично</text>
+    <text x="35" y="190" font-family="Arial,sans-serif" font-size="10" fill="#444">(знак минус в числ. и знам.)</text>
+    <!-- Point at origin -->
+    <circle cx="60" cy="230" r="2" fill="#3F51B5"/>
+    <text x="48" y="242" font-family="Arial,sans-serif" font-size="9" fill="#888">O</text>
+    <!-- Tip -->
+    <rect x="25" y="260" width="165" height="32" rx="4" fill="#5C6BC0" opacity="0.08"/>
+    <text x="107" y="280" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5" text-anchor="middle">Мнемоника: син-кос, кос-син</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра</text>
 </svg>

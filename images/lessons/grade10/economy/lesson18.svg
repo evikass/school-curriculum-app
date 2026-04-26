@@ -1,33 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF3E0"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FFA726"/>
-      <stop offset="100%" stop-color="#E65100"/>
-    </linearGradient>
+    <style>
+      .title { font: bold 14px "Segoe UI", Arial, sans-serif; fill: #FFFFFF; }
+      .lesson-num { font: bold 11px "Segoe UI", Arial, sans-serif; fill: #81C784; }
+      .box-title { font: bold 11px "Segoe UI", Arial, sans-serif; fill: #1B5E20; }
+      .box-text { font: 10px "Segoe UI", Arial, sans-serif; fill: #1B5E20; }
+      .footer { font: 10px "Segoe UI", Arial, sans-serif; fill: #2E7D32; }
+    </style>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FFA726" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FFA726" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FFA726" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#E65100" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FFA726" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#E65100" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FFA726" text-anchor="middle">Урок 18: Рынок капитала</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экономика - Урок 18</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#FFA726" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FFA726" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#E65100" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF3E0" opacity="0.5"/>
-  <circle cx="250" cy="195" r="50" fill="none" stroke="#FFA726" stroke-width="2.5"/><ellipse cx="250" cy="195" rx="50" ry="18" fill="none" stroke="#FFA726" stroke-width="1" opacity="0.5"/><ellipse cx="250" cy="195" rx="28" ry="50" fill="none" stroke="#FFA726" stroke-width="1" opacity="0.5"/><circle cx="235" cy="180" r="5" fill="#FFA726"/><circle cx="268" cy="190" r="5" fill="#E65100"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FFA726" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FFA726" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Экономика</text>
+  <rect x="0" y="0" width="500" height="350" rx="12" ry="12" fill="#E8F5E9" stroke="#1B5E20" stroke-width="2.5"/>
+  <rect x="0" y="0" width="500" height="52" rx="12" ry="12" fill="#1B5E20"/>
+  <rect x="0" y="20" width="500" height="32" fill="#1B5E20"/>
+  <text x="15" y="24" class="title">Рынок капитала</text>
+  <text x="15" y="42" class="lesson-num">Экономика — Урок 18</text>
+  <circle cx="475" cy="26" r="18" fill="#0D3B0F" stroke="#81C784" stroke-width="1.5"/>
+  <text x="475" y="31" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">18</text>
+  <rect x="20" y="72" width="220" height="82" rx="6" ry="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#A5D6A7" stroke-width="1.2"/>
+  <line x1="26" y1="72" x2="234" y2="72" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="28" y="86" class="box-title">Капитал и его формы</text>
+  <text x="28" y="100" class="box-text">Физический: здания, станки</text>
+  <text x="28" y="113" class="box-text">Финансовый: акции, облигации</text>
+  <text x="28" y="126" class="box-text">Человеческий: навыки, образ.</text>
+  <text x="28" y="139" class="box-text">Ссудный: деньги в кредит</text>
+  <text x="28" y="152" class="box-text">K → инвестиции → доход</text>
+  <rect x="260" y="72" width="220" height="82" rx="6" ry="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#A5D6A7" stroke-width="1.2"/>
+  <line x1="266" y1="72" x2="474" y2="72" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="268" y="86" class="box-title">Процентная ставка (r)</text>
+  <text x="268" y="100" class="box-text">Цена капитала = r (%)</text>
+  <text x="268" y="113" class="box-text">Номинальная vs реальная:</text>
+  <text x="268" y="126" class="box-text">r(реальн) = r(ном) − π</text>
+  <text x="268" y="139" class="box-text">Уравнение Фишера</text>
+  <text x="268" y="152" class="box-text">PV = FV / (1+r)ⁿ</text>
+  <rect x="20" y="170" width="460" height="55" rx="6" ry="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#A5D6A7" stroke-width="1.2"/>
+  <line x1="26" y1="170" x2="474" y2="170" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="28" y="184" class="box-title">Дисконтирование</text>
+  <text x="28" y="198" class="box-text">PV = FV/(1+r)ⁿ — текущая стоимость будущего дохода</text>
+  <text x="28" y="211" class="box-text">NPV = Σ Rt/(1+r)ᵗ − I₀  →  NPV &gt; 0: проект выгоден</text>
+  <text x="28" y="224" class="box-text">IRR: ставка, при которой NPV = 0</text>
+  <rect x="20" y="242" width="220" height="72" rx="6" ry="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#A5D6A7" stroke-width="1.2"/>
+  <line x1="26" y1="242" x2="234" y2="242" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="28" y="256" class="box-title">Спрос на капитал</text>
+  <text x="28" y="270" class="box-text">DK ↘: чем ниже r, тем</text>
+  <text x="28" y="283" class="box-text">больше инвестиций выгодно</text>
+  <text x="28" y="296" class="box-text">DK = MRPK (предельный</text>
+  <text x="28" y="309" class="box-text">продукт капитала)</text>
+  <text x="28" y="322" class="box-text">Сдвиг: технологии, налоги</text>
+  <rect x="260" y="242" width="220" height="72" rx="6" ry="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#A5D6A7" stroke-width="1.2"/>
+  <line x1="266" y1="242" x2="474" y2="242" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="268" y="256" class="box-title">Предложение капитала</text>
+  <text x="268" y="270" class="box-text">SK ↗: сбережения домохоз.</text>
+  <text x="268" y="283" class="box-text">Чем выше r → больше сбереж.</text>
+  <text x="268" y="296" class="box-text">Межвременной выбор:</text>
+  <text x="268" y="309" class="box-text">C₁ ↔ C₂ (текущее/будущее)</text>
+  <text x="268" y="322" class="box-text">SK: накопления → инвестиции</text>
+  <rect x="0" y="325" width="500" height="25" rx="0" ry="0" fill="#1B5E20"/>
+  <rect x="0" y="325" width="500" height="25" rx="0" ry="0" fill="#1B5E20"/>
+  <rect x="0" y="330" width="500" height="20" rx="12" ry="12" fill="#1B5E20"/>
+  <rect x="0" y="330" width="500" height="10" fill="#1B5E20"/>
+  <text x="250" y="343" text-anchor="middle" class="footer">Экономика · 10 класс</text>
 </svg>

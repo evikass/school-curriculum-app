@@ -11,23 +11,62 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#3F51B5" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Показательные неравенства</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Показательные неравенства</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 4</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <path d="M200,160 Q250,120 300,160 Q350,200 300,240 Q250,280 200,240 Q150,200 200,160" fill="none" stroke="#5C6BC0" stroke-width="2.5"/><line x1="180" y1="200" x2="320" y2="200" stroke="#5C6BC0" stroke-width="1" opacity="0.5"/><text x="250" y="208" font-family="Arial,sans-serif" font-size="16" fill="#5C6BC0" text-anchor="middle">f(x)</text>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
+    <!-- Coordinate axes -->
+    <line x1="60" y1="280" x2="260" y2="280" stroke="#3F51B5" stroke-width="1.5"/>
+    <line x1="60" y1="280" x2="60" y2="95" stroke="#3F51B5" stroke-width="1.5"/>
+    <polygon points="260,277 268,280 260,283" fill="#3F51B5"/>
+    <polygon points="57,95 60,87 63,95" fill="#3F51B5"/>
+    <text x="265" y="275" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5">x</text>
+    <text x="50" y="95" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5">y</text>
+    <!-- Grid -->
+    <line x1="60" y1="250" x2="260" y2="250" stroke="#ddd" stroke-width="0.5"/>
+    <line x1="60" y1="220" x2="260" y2="220" stroke="#ddd" stroke-width="0.5"/>
+    <line x1="60" y1="190" x2="260" y2="190" stroke="#ddd" stroke-width="0.5"/>
+    <text x="50" y="253" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="end">1</text>
+    <text x="50" y="223" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="end">2</text>
+    <text x="50" y="193" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="end">3</text>
+    <!-- y = 2^x curve -->
+    <path d="M60,250 Q90,248 120,244 Q140,238 160,228 Q175,218 190,200 Q210,172 230,140 Q240,122 255,100" fill="none" stroke="#5C6BC0" stroke-width="2.5"/>
+    <text x="235" y="100" font-family="Arial,sans-serif" font-size="11" fill="#5C6BC0" font-weight="bold">y=2^x</text>
+    <!-- Horizontal line y = 4 (2^2) for 2^x > 4 -->
+    <line x1="60" y1="190" x2="260" y2="190" stroke="#E91E63" stroke-width="1.5" stroke-dasharray="5,3"/>
+    <text x="265" y="193" font-family="Arial,sans-serif" font-size="10" fill="#E91E63">y=4</text>
+    <!-- Shaded region for x > 2 -->
+    <rect x="160" y="100" width="100" height="90" fill="#5C6BC0" opacity="0.1" rx="2"/>
+    <!-- Solution point -->
+    <circle cx="160" cy="190" r="4" fill="#E91E63"/>
+    <text x="155" y="205" font-family="Arial,sans-serif" font-size="9" fill="#E91E63">x=2</text>
+    <!-- Arrow showing solution region -->
+    <line x1="170" y1="150" x2="220" y2="150" stroke="#5C6BC0" stroke-width="2"/>
+    <polygon points="220,147 228,150 220,153" fill="#5C6BC0"/>
+    <text x="195" y="145" font-family="Arial,sans-serif" font-size="9" fill="#5C6BC0" text-anchor="middle">x &gt; 2</text>
+    <!-- Method box -->
+    <rect x="275" y="90" width="200" height="195" rx="5" fill="white" opacity="0.85" stroke="#5C6BC0" stroke-width="1"/>
+    <text x="285" y="108" font-family="Arial,sans-serif" font-size="12" fill="#3F51B5" font-weight="bold">Метод решения:</text>
+    <line x1="285" y1="113" x2="465" y2="113" stroke="#5C6BC0" stroke-width="0.5"/>
+    <rect x="285" y="120" width="180" height="30" rx="3" fill="#5C6BC0" opacity="0.08"/>
+    <text x="375" y="140" font-family="Arial,sans-serif" font-size="11" fill="#3F51B5" text-anchor="middle">a^f(x) &gt; a^g(x)</text>
+    <text x="375" y="165" font-family="Arial,sans-serif" font-size="11" fill="#444" text-anchor="middle">Если a &gt; 1:</text>
+    <text x="375" y="182" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" text-anchor="middle" font-weight="bold">f(x) &gt; g(x)</text>
+    <line x1="320" y1="190" x2="430" y2="190" stroke="#ccc" stroke-width="0.5"/>
+    <text x="375" y="207" font-family="Arial,sans-serif" font-size="11" fill="#444" text-anchor="middle">Если 0 &lt; a &lt; 1:</text>
+    <text x="375" y="224" font-family="Arial,sans-serif" font-size="12" fill="#E91E63" text-anchor="middle" font-weight="bold">f(x) &lt; g(x)</text>
+    <line x1="285" y1="235" x2="465" y2="235" stroke="#5C6BC0" stroke-width="0.5"/>
+    <text x="285" y="252" font-family="Arial,sans-serif" font-size="10" fill="#666">Знак неравенства</text>
+    <text x="285" y="267" font-family="Arial,sans-serif" font-size="10" fill="#666">сохраняется при a&gt;1,</text>
+    <text x="285" y="282" font-family="Arial,sans-serif" font-size="10" fill="#666">меняется при 0&lt;a&lt;1</text>
+    <!-- Example -->
+    <text x="175" y="270" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5" text-anchor="middle">Пример: 2^x &gt; 4</text>
+    <text x="175" y="285" font-family="Arial,sans-serif" font-size="10" fill="#5C6BC0" text-anchor="middle">Ответ: x &gt; 2</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра</text>
 </svg>
