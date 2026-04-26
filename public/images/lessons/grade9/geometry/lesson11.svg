@@ -1,36 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="headerGrad11" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7E57C2;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B39DDB;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#283593"/>
-    </linearGradient>
+    <filter id="shadow11" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000022"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#283593" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#283593" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Виды движений</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Геометрия - Урок 11</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#283593" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  
-    <polygon points="250,150 300,230 200,230" fill="none" stroke="#5C6BC0" stroke-width="2.5"/>
-    <circle cx="250" cy="205" r="20" fill="none" stroke="#283593" stroke-width="1.5" opacity="0.5"/>
-    <line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1" opacity="0.3" stroke-dasharray="4,3"/>
+  <!-- Background -->
+  <rect width="500" height="350" fill="#FAFAFA" rx="8"/>
+  <!-- Header bar -->
+  <rect width="500" height="52" fill="url(#headerGrad11)" rx="8"/>
+  <rect y="40" width="500" height="12" fill="url(#headerGrad11)"/>
+  <!-- Decorative elements -->
+  <circle cx="470" cy="26" r="15" fill="#FFFFFF" opacity="0.15"/>
+  <circle cx="445" cy="18" r="8" fill="#FFFFFF" opacity="0.1"/>
+  <circle cx="30" cy="26" r="12" fill="#FFFFFF" opacity="0.12"/>
+  <!-- Title -->
+  <text x="250" y="34" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Урок 11: Виды движений</text>
+  <!-- Definition -->
+  <g transform="translate(20,62)">
+    <rect x="0" y="0" width="460" height="30" rx="6" fill="#EDE7F6"/>
+    <text x="230" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">Движение — отображение плоскости на себя, сохраняющее расстояния</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Геометрия</text>
+  <!-- Central symmetry -->
+  <g transform="translate(20,98)">
+    <rect x="0" y="0" width="145" height="125" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow11)"/>
+    <text x="72" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4A2F8A">Центральная симметрия</text>
+    <!-- Original triangle -->
+    <polygon points="40,45 55,75 25,70" fill="#7E57C2" fill-opacity="0.3" stroke="#7E57C2" stroke-width="1.5"/>
+    <text x="30" y="80" font-family="Arial,sans-serif" font-size="8" fill="#7E57C2">A</text>
+    <!-- Center point -->
+    <circle cx="72" cy="60" r="3" fill="#FF7043"/>
+    <text x="76" y="57" font-family="Arial,sans-serif" font-size="8" fill="#FF7043">O</text>
+    <!-- Reflected triangle -->
+    <polygon points="104,75 89,45 119,50" fill="#4CAF50" fill-opacity="0.3" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="108" y="42" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50">A₁</text>
+    <!-- Connecting lines -->
+    <line x1="40" y1="45" x2="104" y2="75" stroke="#BDBDBD" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <text x="72" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#757575">O — середина AA₁</text>
+  </g>
+  <!-- Axial symmetry -->
+  <g transform="translate(175,98)">
+    <rect x="0" y="0" width="145" height="125" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow11)"/>
+    <text x="72" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4A2F8A">Осевая симметрия</text>
+    <!-- Axis -->
+    <line x1="72" y1="24" x2="72" y2="108" stroke="#FF7043" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="76" y="107" font-family="Arial,sans-serif" font-size="8" fill="#FF7043">l</text>
+    <!-- Original triangle -->
+    <polygon points="30,45 50,75 20,70" fill="#7E57C2" fill-opacity="0.3" stroke="#7E57C2" stroke-width="1.5"/>
+    <!-- Reflected triangle -->
+    <polygon points="114,45 94,75 124,70" fill="#4CAF50" fill-opacity="0.3" stroke="#4CAF50" stroke-width="1.5"/>
+    <!-- Perpendicular lines -->
+    <line x1="30" y1="45" x2="114" y2="45" stroke="#BDBDBD" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <text x="72" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#757575">l — серединный ⊥</text>
+  </g>
+  <!-- Rotation -->
+  <g transform="translate(330,98)">
+    <rect x="0" y="0" width="150" height="125" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow11)"/>
+    <text x="75" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4A2F8A">Поворот</text>
+    <!-- Center -->
+    <circle cx="75" cy="60" r="3" fill="#FF7043"/>
+    <text x="79" y="57" font-family="Arial,sans-serif" font-size="8" fill="#FF7043">O</text>
+    <!-- Original point -->
+    <circle cx="110" cy="60" r="3" fill="#7E57C2"/>
+    <text x="114" y="57" font-family="Arial,sans-serif" font-size="8" fill="#7E57C2">M</text>
+    <!-- Rotated point (60 degrees) -->
+    <circle cx="92" cy="30" r="3" fill="#4CAF50"/>
+    <text x="96" y="27" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50">M₁</text>
+    <!-- Arcs -->
+    <line x1="75" y1="60" x2="110" y2="60" stroke="#7E57C2" stroke-width="1"/>
+    <line x1="75" y1="60" x2="92" y2="30" stroke="#4CAF50" stroke-width="1"/>
+    <path d="M 98 55 A 25 25 0 0 0 88 42" fill="none" stroke="#FF7043" stroke-width="1.5"/>
+    <text x="100" y="44" font-family="Arial,sans-serif" font-size="8" fill="#FF7043">α</text>
+    <text x="75" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#757575">OM=OM₁, ∠MOM₁=α</text>
+  </g>
+  <!-- Properties -->
+  <g transform="translate(20,232)">
+    <rect x="0" y="0" width="460" height="100" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow11)"/>
+    <text x="230" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">Свойства движений</text>
+    <line x1="10" y1="24" x2="450" y2="24" stroke="#D1C4E9" stroke-width="1"/>
+    <text x="12" y="42" font-family="Arial,sans-serif" font-size="10" fill="#212121">1. Сохраняют расстояния между точками</text>
+    <text x="12" y="58" font-family="Arial,sans-serif" font-size="10" fill="#212121">2. Сохраняют величины углов</text>
+    <text x="12" y="74" font-family="Arial,sans-serif" font-size="10" fill="#212121">3. Отрезок → равный отрезок</text>
+    <text x="12" y="90" font-family="Arial,sans-serif" font-size="10" fill="#212121">4. Треугольник → равный треугольник</text>
+    <text x="240" y="42" font-family="Arial,sans-serif" font-size="10" fill="#7E57C2">Центральная: O неподвижна</text>
+    <text x="240" y="58" font-family="Arial,sans-serif" font-size="10" fill="#7E57C2">прямая → параллельная</text>
+    <text x="240" y="74" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50">Осевая: точки оси l неподвижны</text>
+    <text x="240" y="90" font-family="Arial,sans-serif" font-size="10" fill="#FF7043">Перенос: фигура → равная фигура</text>
+  </g>
 </svg>
