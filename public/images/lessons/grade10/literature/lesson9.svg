@@ -1,60 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="0%" stop-color="#FFF3E0"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#7B1FA2"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#AB47BC" text-anchor="middle">И.В. Гёте</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 9</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-    
-  <!-- Faust scene - book and candle -->
-  <!-- Large book -->
-  <path d="M140,180 Q170,170 200,180 L200,260 Q170,250 140,260 Z" fill="#FFF8E1" opacity="0.6" stroke="#7B1FA2" stroke-width="1.5"/>
-  <path d="M200,180 Q230,170 260,180 L260,260 Q230,250 200,260 Z" fill="#FFFDE7" opacity="0.5" stroke="#7B1FA2" stroke-width="1.5"/>
-  <line x1="200" y1="178" x2="200" y2="260" stroke="#7B1FA2" stroke-width="1.5"/>
-  <!-- Pentagram on book -->
-  <path d="M185,210 L195,230 L175,218 L195,218 L175,230 Z" fill="none" stroke="#7B1FA2" stroke-width="1" opacity="0.5"/>
-  <!-- Candle -->
-  <rect x="320" y="180" width="8" height="50" fill="#FFF8E1" stroke="#7B1FA2" stroke-width="1"/>
-  <!-- Flame -->
-  <path d="M322,180 Q324,165 326,175 Q328,165 324,160 Q320,165 322,180" fill="#FF7043" opacity="0.5"/>
-  <path d="M323,178 Q324,168 325,175" fill="#FFC107" opacity="0.4"/>
-  <!-- Candle holder -->
-  <ellipse cx="324" cy="232" rx="12" ry="4" fill="#7B1FA2" opacity="0.15" stroke="#7B1FA2" stroke-width="1"/>
-  <!-- German architecture - Gothic arch -->
-  <path d="M380,260 L380,180 Q400,140 420,180 L420,260" fill="none" stroke="#7B1FA2" stroke-width="1.5"/>
-  <path d="M385,260 L385,185 Q400,150 415,185 L415,260" fill="none" stroke="#AB47BC" stroke-width="0.8" opacity="0.4"/>
-  <!-- Rose window -->
-  <circle cx="400" cy="190" r="12" fill="none" stroke="#7B1FA2" stroke-width="1"/>
-  <line x1="400" y1="178" x2="400" y2="202" stroke="#7B1FA2" stroke-width="0.6" opacity="0.5"/>
-  <line x1="388" y1="190" x2="412" y2="190" stroke="#7B1FA2" stroke-width="0.6" opacity="0.5"/>
-  <circle cx="400" cy="190" r="6" fill="none" stroke="#7B1FA2" stroke-width="0.6" opacity="0.4"/>
-  <!-- Mephistopheles hint - small devil figure -->
-  <path d="M80,200 Q85,185 90,200" fill="none" stroke="#7B1FA2" stroke-width="1.5"/>
-  <circle cx="85" cy="205" r="6" fill="#AB47BC" opacity="0.15" stroke="#7B1FA2" stroke-width="1"/>
-  <!-- Horns -->
-  <path d="M80,200 Q78,195 75,192" fill="none" stroke="#7B1FA2" stroke-width="1"/>
-  <path d="M90,200 Q92,195 95,192" fill="none" stroke="#7B1FA2" stroke-width="1"/>
-  <!-- Tail -->
-  <path d="M90,210 Q100,215 95,225" fill="none" stroke="#7B1FA2" stroke-width="1"/>
-  <!-- Key works -->
-  <text x="250" y="100" font-family="Georgia,serif" font-size="14" fill="#7B1FA2" text-anchor="middle" font-style="italic">Фауст</text>
-  <text x="250" y="118" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Страдания юного Вертера</text>
-  <text x="250" y="136" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Лесной царь</text>
-  <text x="250" y="280" font-family="Arial,sans-serif" font-size="11" fill="#AB47BC" opacity="0.6">1749-1832</text>
-
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#E65100" text-anchor="middle">Иоганн Вольфганг Гёте</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Литература — Урок 9</text>
+  <line x1="30" y1="64" x2="470" y2="64" stroke="#E65100" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="72" width="160" height="170" rx="5" fill="#E65100" opacity="0.08"/>
+  <circle cx="100" cy="108.6" r="17.6" fill="#E65100" opacity="0.6"/>
+  <path d="M73.6,139.4 Q100,121.8 126.4,139.4" fill="#E65100" opacity="0.4"/>  <text x="100" y="175" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="middle" font-weight="bold" font-style="">Иоганн Вольфганг</text>
+  <text x="100" y="188" font-family="Arial,sans-serif" font-size="12" fill="#BF360C" text-anchor="middle" font-weight="bold" font-style="">фон Гёте</text>
+  <text x="100" y="205" font-family="Arial,sans-serif" font-size="10" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">1749 — 1832</text>
+  <path d="M90,218 L90,235 Q90,240 100,240 Q110,240 110,235 L110,218 Z" fill="#E65100" opacity="0.15"/>
+  <line x1="95" y1="218" x2="105" y2="218" stroke="#E65100" stroke-width="1.5" opacity="0.3"/>
+  <rect x="195" y="72" width="285" height="80" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="205" y="90" font-family="Arial,sans-serif" font-size="13" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Произведения</text>
+  <text x="205" y="110" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Фауст» — трагедия</text>
+  <text x="205" y="126" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Страдания юного Вертера» — роман</text>
+  <text x="205" y="142" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Западно-восточный диван» — стихи</text>
+  <text x="205" y="158" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Римские элегии» — поэзия</text>
+  <rect x="195" y="160" width="285" height="82" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="205" y="178" font-family="Arial,sans-serif" font-size="12" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">«Фауст» — ключевые темы</text>
+  <circle cx="210" cy="195" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="199" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Поиск истины и смысла жизни</text>
+  <circle cx="210" cy="212" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="216" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Сделка с дьяволом (Мефистофель)</text>
+  <circle cx="210" cy="229" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="233" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Знание и власть, любовь и гибель</text>
+  <circle cx="210" cy="246" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="250" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Остановись, мгновенье, ты прекрасно!»</text>
+  <rect x="20" y="250" width="460" height="45" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="30" y="268" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Значение:</text>
+  <text x="30" y="285" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Величайший немецкий поэт, мыслитель, естествоиспытатель, министр</text>
+  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#E65100" opacity="0.06"/>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle" font-style="italic">Литература · 10 класс</text>
 </svg>

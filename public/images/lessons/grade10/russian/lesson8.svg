@@ -1,61 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="0%" stop-color="#FFEBEE"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#42A5F5"/>
-      <stop offset="100%" stop-color="#1565C0"/>
+      <stop offset="0%" stop-color="#D32F2F"/>
+      <stop offset="100%" stop-color="#D32F2F"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#42A5F5" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#42A5F5" text-anchor="middle">Служебные части речи</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Русский язык - Урок 8</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#42A5F5" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    <rect x="15" y="85" width="470" height="215" fill="#E3F2FD" opacity="0.5"/>
-    
-  <text x="250" y="108" font-family="Arial,sans-serif" font-size="13" fill="#1565C0" text-anchor="middle" font-weight="bold">Служебные части речи</text>
-  
-  <!-- Предлоги -->
-  <rect x="30" y="120" rx="8" width="145" height="155" fill="#FF9800" opacity="0.06" stroke="#E65100" stroke-width="1.2"/>
-  <text x="102" y="142" font-family="Arial,sans-serif" font-size="13" fill="#E65100" text-anchor="middle" font-weight="bold">Предлоги</text>
-  <text x="102" y="160" font-family="Arial,sans-serif" font-size="10" fill="#42A5F5" text-anchor="middle">связь слов в предложении</text>
-  <line x1="42" y1="168" x2="162" y2="168" stroke="#E65100" stroke-width="0.5" opacity="0.3"/>
-  <text x="102" y="185" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle">в, на, с, к, по, от,</text>
-  <text x="102" y="202" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle">из, за, под, над,</text>
-  <text x="102" y="219" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle">о, об, при, без,</text>
-  <text x="102" y="236" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle">для, ради, между</text>
-  <text x="102" y="260" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle">пришёл из школы</text>
-  
-  <!-- Союзы -->
-  <rect x="185" y="120" rx="8" width="145" height="155" fill="#4CAF50" opacity="0.06" stroke="#2E7D32" stroke-width="1.2"/>
-  <text x="257" y="142" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32" text-anchor="middle" font-weight="bold">Союзы</text>
-  <text x="257" y="160" font-family="Arial,sans-serif" font-size="10" fill="#42A5F5" text-anchor="middle">связь однор. членов/предл.</text>
-  <line x1="197" y1="168" x2="317" y2="168" stroke="#2E7D32" stroke-width="0.5" opacity="0.3"/>
-  <text x="257" y="182" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">Сочинительные:</text>
-  <text x="257" y="197" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle">и, а, но, или, да</text>
-  <text x="257" y="216" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">Подчинительные:</text>
-  <text x="257" y="231" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle">что, чтобы, если,</text>
-  <text x="257" y="248" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle">когда, потому что</text>
-  <text x="257" y="266" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">читал, но не устал</text>
-  
-  <!-- Частицы -->
-  <rect x="340" y="120" rx="8" width="145" height="155" fill="#9C27B0" opacity="0.06" stroke="#7B1FA2" stroke-width="1.2"/>
-  <text x="412" y="142" font-family="Arial,sans-serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Частицы</text>
-  <text x="412" y="160" font-family="Arial,sans-serif" font-size="10" fill="#42A5F5" text-anchor="middle">придают оттенки значения</text>
-  <line x1="352" y1="168" x2="472" y2="168" stroke="#7B1FA2" stroke-width="0.5" opacity="0.3"/>
-  <text x="412" y="182" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Отрицательные:</text>
-  <text x="412" y="197" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle">не, ни</text>
-  <text x="412" y="216" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Вопросительные:</text>
-  <text x="412" y="231" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle">ли, разве, неужели</text>
-  <text x="412" y="250" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Модальные:</text>
-  <text x="412" y="265" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle">даже, только, лишь</text>
-
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#D32F2F" stroke-width="2.5"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#D32F2F" text-anchor="middle">Служебные части речи</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Русский язык — Урок 8</text>
+  <line x1="30" y1="64" x2="470" y2="64" stroke="#D32F2F" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="72" width="145" height="140" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="92" y="92" font-family="Arial,sans-serif" font-size="13" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Предлоги</text>
+  <text x="92" y="110" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">Связывают слова</text>
+  <rect x="30" y="120" width="125" height="20" rx="5" fill="#D32F2F" opacity="0.1"/>
+  <text x="92" y="135" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">в, на, к, с, от, по</text>
+  <rect x="30" y="145" width="125" height="20" rx="5" fill="#D32F2F" opacity="0.1"/>
+  <text x="92" y="160" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">из-за, из-под, над</text>
+  <text x="92" y="185" font-family="Arial,sans-serif" font-size="9" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Производные:</text>
+  <text x="92" y="200" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">в течение, в продолжение</text>
+  <rect x="178" y="72" width="145" height="140" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="250" y="92" font-family="Arial,sans-serif" font-size="13" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Союзы</text>
+  <text x="250" y="110" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">Связывают однородные</text>
+  <text x="250" y="122" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">члены и предложения</text>
+  <rect x="188" y="130" width="125" height="20" rx="5" fill="#D32F2F" opacity="0.1"/>
+  <text x="250" y="145" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">и, а, но, или, либо</text>
+  <rect x="188" y="155" width="125" height="20" rx="5" fill="#D32F2F" opacity="0.1"/>
+  <text x="250" y="170" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">что, чтобы, если, хотя</text>
+  <text x="250" y="195" font-family="Arial,sans-serif" font-size="9" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Сочинительные /</text>
+  <text x="250" y="208" font-family="Arial,sans-serif" font-size="9" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Подчинительные</text>
+  <rect x="335" y="72" width="145" height="140" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="407" y="92" font-family="Arial,sans-serif" font-size="13" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Частицы</text>
+  <text x="407" y="110" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">Придают оттенки</text>
+  <text x="407" y="122" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">значения словам</text>
+  <rect x="345" y="130" width="125" height="20" rx="5" fill="#D32F2F" opacity="0.1"/>
+  <text x="407" y="145" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">не, ни, же, ли, бы</text>
+  <rect x="345" y="155" width="125" height="20" rx="5" fill="#D32F2F" opacity="0.1"/>
+  <text x="407" y="170" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">даже, лишь, почти</text>
+  <text x="407" y="195" font-family="Arial,sans-serif" font-size="9" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Формообразующие:</text>
+  <text x="407" y="208" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">бы, пусть, давай</text>
+  <rect x="20" y="220" width="460" height="55" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="250" y="238" font-family="Arial,sans-serif" font-size="12" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Междометия и звукоподражания</text>
+  <text x="250" y="258" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">Ой! Ах! Ура! Ку-ку! Мяу! — Не относятся ни к самостоятельным, ни к служебным</text>
+  <rect x="20" y="282" width="460" height="30" rx="5" fill="#D32F2F" opacity="0.06"/>
+  <text x="250" y="301" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">Служебные части речи не называют предметы, признаки или действия</text>
+  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#D32F2F" opacity="0.06"/>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="middle" font-style="italic">Русский язык · 10 класс</text>
 </svg>

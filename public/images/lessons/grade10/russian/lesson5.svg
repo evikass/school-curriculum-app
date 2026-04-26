@@ -1,57 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="0%" stop-color="#FFEBEE"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#42A5F5"/>
-      <stop offset="100%" stop-color="#1565C0"/>
+      <stop offset="0%" stop-color="#D32F2F"/>
+      <stop offset="100%" stop-color="#D32F2F"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#42A5F5" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#42A5F5" text-anchor="middle">Лексическое значение слова</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Русский язык - Урок 5</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#42A5F5" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    <rect x="15" y="85" width="470" height="215" fill="#E3F2FD" opacity="0.5"/>
-    
-  <text x="250" y="108" font-family="Arial,sans-serif" font-size="13" fill="#1565C0" text-anchor="middle" font-weight="bold">Лексическое значение слова</text>
-  
-  <!-- Dictionary entry -->
-  <rect x="50" y="118" rx="6" width="190" height="170" fill="#E3F2FD" opacity="0.4" stroke="#42A5F5" stroke-width="1.2"/>
-  <text x="145" y="138" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">Словарная статья</text>
-  <line x1="60" y1="142" x2="230" y2="142" stroke="#42A5F5" stroke-width="0.8" opacity="0.4"/>
-  <text x="65" y="158" font-family="Georgia,serif" font-size="14" fill="#1565C0" font-weight="bold">КНИГА</text>
-  <text x="125" y="158" font-family="Arial,sans-serif" font-size="10" fill="#42A5F5">, -и, ж.</text>
-  <text x="65" y="175" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">1. Произведение печати</text>
-  <text x="65" y="189" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">в виде переплетённых</text>
-  <text x="65" y="203" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">листов с текстом.</text>
-  <text x="65" y="220" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">2. Сшитые в один</text>
-  <text x="65" y="234" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">переплёт листы бумаги</text>
-  <text x="65" y="248" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">для записей.</text>
-  <text x="65" y="268" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5">Многозначное слово!</text>
-  
-  <!-- Прямое vs Переносное -->
-  <rect x="260" y="118" rx="6" width="210" height="80" fill="#4CAF50" opacity="0.08" stroke="#2E7D32" stroke-width="1"/>
-  <text x="365" y="138" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle" font-weight="bold">Прямое значение</text>
-  <text x="365" y="155" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle" font-style="italic">золотое кольцо</text>
-  <text x="365" y="172" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">(из золота - буквально)</text>
-  <text x="365" y="190" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="middle">первичное, основное</text>
-  
-  <rect x="260" y="208" rx="6" width="210" height="80" fill="#FF9800" opacity="0.08" stroke="#E65100" stroke-width="1"/>
-  <text x="365" y="228" font-family="Arial,sans-serif" font-size="12" fill="#E65100" text-anchor="middle" font-weight="bold">Переносное значение</text>
-  <text x="365" y="245" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle" font-style="italic">золотые руки</text>
-  <text x="365" y="262" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="middle">(умелые - переносно)</text>
-  <text x="365" y="280" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="middle">вторичное, образное</text>
-  
-  <!-- Arrow between them -->
-  <path d="M365,198 L365,208" stroke="#1565C0" stroke-width="1.5" opacity="0.5"/>
-  <path d="M360,206 L365,210 L370,206" fill="#1565C0" opacity="0.5"/>
-
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#D32F2F" stroke-width="2.5"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#D32F2F" text-anchor="middle">Лексическое значение слова</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Русский язык — Урок 5</text>
+  <line x1="30" y1="64" x2="470" y2="64" stroke="#D32F2F" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="72" width="180" height="180" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="120" y="90" font-family="Arial,sans-serif" font-size="12" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Словарная статья</text>
+  <rect x="40" y="98" width="160" height="25" rx="5" fill="#D32F2F" opacity="0.15"/>
+  <text x="50" y="115" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">ТАЛАНТ, -а, м.</text>
+  <text x="50" y="138" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">1. Выдающиеся</text>
+  <text x="50" y="150" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">   природные способности</text>
+  <text x="50" y="165" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">2. Дарование, талант-</text>
+  <text x="50" y="177" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">   ливость</text>
+  <text x="50" y="195" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="start" font-weight="bold" font-style="">Многозначное слово!</text>
+  <rect x="225" y="72" width="255" height="85" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="235" y="90" font-family="Arial,sans-serif" font-size="12" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Типы лексических значений</text>
+  <text x="235" y="110" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">• Прямое — основное значение</text>
+  <text x="235" y="126" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">• Переносное — на основе сходства</text>
+  <text x="235" y="142" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">• Многозначность — несколько значений</text>
+  <rect x="225" y="164" width="255" height="55" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="235" y="182" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">шляпка гриба (переносное)</text>
+  <text x="235" y="198" font-family="Arial,sans-serif" font-size="10" fill="#D32F2F" text-anchor="start" font-weight="normal" font-style="">шляпка женская (прямое)</text>
+  <text x="400" y="182" font-family="Arial,sans-serif" font-size="8" fill="#888888" text-anchor="start" font-weight="normal" font-style="">← перенос</text>
+  <text x="400" y="198" font-family="Arial,sans-serif" font-size="8" fill="#888888" text-anchor="start" font-weight="normal" font-style="">← прямое</text>
+  <rect x="30" y="260" width="200" height="40" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="40" y="278" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Толковый словарь</text>
+  <text x="40" y="293" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Определяет значение слов</text>
+  <rect x="245" y="260" width="235" height="40" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="255" y="278" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Омонимы vs Многозначные</text>
+  <text x="255" y="293" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Разные/одно значение в истории</text>
+  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#D32F2F" opacity="0.06"/>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="middle" font-style="italic">Русский язык · 10 класс</text>
 </svg>

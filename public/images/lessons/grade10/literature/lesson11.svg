@@ -1,77 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="0%" stop-color="#FFF3E0"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#7B1FA2"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#AB47BC" text-anchor="middle">Средства выразительности</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 11</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-    
-  <!-- Four columns for different devices -->
-  <!-- Метафора -->
-  <rect x="30" y="92" rx="6" width="105" height="195" fill="#AB47BC" opacity="0.06" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="82" y="110" font-family="Arial,sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Метафора</text>
-  <!-- Bridge connecting two concepts -->
-  <path d="M45,135 Q82,115 120,135" fill="none" stroke="#7B1FA2" stroke-width="1.5"/>
-  <circle cx="45" cy="135" r="8" fill="#AB47BC" opacity="0.15" stroke="#7B1FA2" stroke-width="1"/>
-  <circle cx="120" cy="135" r="8" fill="#AB47BC" opacity="0.15" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="82" y="155" font-family="Georgia,serif" font-size="9" fill="#7B1FA2" text-anchor="middle" font-style="italic">золотые руки</text>
-  <text x="82" y="168" font-family="Arial,sans-serif" font-size="8" fill="#AB47BC" text-anchor="middle">скрытое сравнение</text>
-  <!-- Эпитет -->
-  <rect x="142" y="92" rx="6" width="105" height="195" fill="#AB47BC" opacity="0.06" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="194" y="110" font-family="Arial,sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Эпитет</text>
-  <!-- Colorful adjective -->
-  <rect x="160" y="125" rx="3" width="70" height="22" fill="#FF7043" opacity="0.2" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="195" y="140" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle">мармеладный</text>
-  <text x="194" y="165" font-family="Georgia,serif" font-size="9" fill="#7B1FA2" text-anchor="middle" font-style="italic">мармеладное небо</text>
-  <text x="194" y="178" font-family="Arial,sans-serif" font-size="8" fill="#AB47BC" text-anchor="middle">образное прилагательное</text>
-  <!-- Сравнение -->
-  <rect x="254" y="92" rx="6" width="105" height="195" fill="#AB47BC" opacity="0.06" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="306" y="110" font-family="Arial,sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Сравнение</text>
-  <!-- Equals/like symbol -->
-  <circle cx="286" cy="135" r="10" fill="#AB47BC" opacity="0.1" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="286" y="139" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle">A</text>
-  <text x="306" y="138" font-family="Arial,sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle">=</text>
-  <circle cx="326" cy="135" r="10" fill="#AB47BC" opacity="0.1" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="326" y="139" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle">B</text>
-  <text x="306" y="165" font-family="Georgia,serif" font-size="9" fill="#7B1FA2" text-anchor="middle" font-style="italic">как зеркало</text>
-  <text x="306" y="178" font-family="Arial,sans-serif" font-size="8" fill="#AB47BC" text-anchor="middle">открытое сравнение</text>
-  <!-- Олицетворение -->
-  <rect x="366" y="92" rx="6" width="105" height="195" fill="#AB47BC" opacity="0.06" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="418" y="110" font-family="Arial,sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Олицетв.</text>
-  <!-- Object with face -->
-  <rect x="400" y="125" rx="3" width="36" height="30" fill="#AB47BC" opacity="0.1" stroke="#7B1FA2" stroke-width="1"/>
-  <!-- Eyes on object -->
-  <circle cx="410" cy="136" r="2" fill="#7B1FA2" opacity="0.5"/>
-  <circle cx="426" cy="136" r="2" fill="#7B1FA2" opacity="0.5"/>
-  <!-- Smile -->
-  <path d="M410,143 Q418,148 426,143" fill="none" stroke="#7B1FA2" stroke-width="0.8"/>
-  <text x="418" y="175" font-family="Georgia,serif" font-size="9" fill="#7B1FA2" text-anchor="middle" font-style="italic">ветер плачет</text>
-  <text x="418" y="188" font-family="Arial,sans-serif" font-size="8" fill="#AB47BC" text-anchor="middle">оживление неживого</text>
-  <!-- Bottom examples bar -->
-  <rect x="30" y="225" rx="5" width="440" height="55" fill="#F3E5F5" opacity="0.3" stroke="#AB47BC" stroke-width="0.8"/>
-  <text x="250" y="242" font-family="Arial,sans-serif" font-size="11" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Другие средства</text>
-  <text x="82" y="260" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" text-anchor="middle">Гипербола</text>
-  <text x="194" y="260" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" text-anchor="middle">Литота</text>
-  <text x="306" y="260" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" text-anchor="middle">Анафора</text>
-  <text x="418" y="260" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" text-anchor="middle">Аллегория</text>
-  <text x="82" y="272" font-family="Georgia,serif" font-size="8" fill="#AB47BC" text-anchor="middle" font-style="italic">море слёз</text>
-  <text x="194" y="272" font-family="Georgia,serif" font-size="8" fill="#AB47BC" text-anchor="middle" font-style="italic">мальчик-с-пальчик</text>
-  <text x="306" y="272" font-family="Georgia,serif" font-size="8" fill="#AB47BC" text-anchor="middle" font-style="italic">повтор в начале</text>
-  <text x="418" y="272" font-family="Georgia,serif" font-size="8" fill="#AB47BC" text-anchor="middle" font-style="italic">иносказание</text>
-
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#E65100" text-anchor="middle">Средства выразительности</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Литература — Урок 11</text>
+  <line x1="30" y1="64" x2="470" y2="64" stroke="#E65100" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="72" width="460" height="30" rx="5" fill="#E65100" opacity="0.05"/>
+  <text x="30" y="86" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Эпитет</text>
+  <text x="130" y="86" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Красивое определение</text>
+  <text x="285" y="86" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">мармеладное настроение</text>
+  <rect x="20" y="108" width="460" height="30" rx="5" fill="#E65100" opacity="0.05"/>
+  <text x="30" y="122" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Метафора</text>
+  <text x="130" y="122" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Скрытое сравнение</text>
+  <text x="285" y="122" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">золотые руки, море слёз</text>
+  <rect x="20" y="144" width="460" height="30" rx="5" fill="#E65100" opacity="0.05"/>
+  <text x="30" y="158" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Сравнение</text>
+  <text x="130" y="158" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Явное сопоставление</text>
+  <text x="285" y="158" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">как зеркало, словно лёд</text>
+  <rect x="20" y="180" width="460" height="30" rx="5" fill="#E65100" opacity="0.05"/>
+  <text x="30" y="194" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Олицетворение</text>
+  <text x="130" y="194" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Живое неживому</text>
+  <text x="285" y="194" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">ветер поёт, река бежит</text>
+  <rect x="20" y="216" width="460" height="30" rx="5" fill="#E65100" opacity="0.05"/>
+  <text x="30" y="230" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Гипербола</text>
+  <text x="130" y="230" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Преувеличение</text>
+  <text x="285" y="230" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">море слёз, сто раз говорил</text>
+  <rect x="20" y="252" width="460" height="30" rx="5" fill="#E65100" opacity="0.05"/>
+  <text x="30" y="266" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Литота</text>
+  <text x="130" y="266" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Преуменьшение</text>
+  <text x="285" y="266" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">мальчик-с-пальчик, небо с ладонь</text>
+  <text x="30" y="68" font-family="Arial,sans-serif" font-size="8" fill="#888888" text-anchor="start" font-weight="bold" font-style="">Троп</text>
+  <text x="130" y="68" font-family="Arial,sans-serif" font-size="8" fill="#888888" text-anchor="start" font-weight="bold" font-style="">Значение</text>
+  <text x="285" y="68" font-family="Arial,sans-serif" font-size="8" fill="#888888" text-anchor="start" font-weight="bold" font-style="">Пример</text>
+  <rect x="20" y="288" width="460" height="35" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="30" y="306" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Фигуры речи:</text>
+  <text x="130" y="306" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Анафора, эпифора, парцелляция, инверсия, риторический вопрос, градация</text>
+  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#E65100" opacity="0.06"/>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle" font-style="italic">Литература · 10 класс</text>
 </svg>

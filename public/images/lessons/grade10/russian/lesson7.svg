@@ -1,68 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="0%" stop-color="#FFEBEE"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#42A5F5"/>
-      <stop offset="100%" stop-color="#1565C0"/>
+      <stop offset="0%" stop-color="#D32F2F"/>
+      <stop offset="100%" stop-color="#D32F2F"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#42A5F5" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#42A5F5" text-anchor="middle">Самостоятельные части речи</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Русский язык - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#42A5F5" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    <rect x="15" y="85" width="470" height="215" fill="#E3F2FD" opacity="0.5"/>
-    
-  <text x="250" y="108" font-family="Arial,sans-serif" font-size="13" fill="#1565C0" text-anchor="middle" font-weight="bold">Самостоятельные части речи</text>
-  
-  <!-- 6 boxes for parts of speech -->
-  <!-- Существительное -->
-  <rect x="30" y="118" rx="6" width="145" height="55" fill="#EF5350" opacity="0.08" stroke="#C62828" stroke-width="1"/>
-  <text x="102" y="138" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle" font-weight="bold">Существительное</text>
-  <text x="102" y="153" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">кто? что?</text>
-  <text x="102" y="166" font-family="Georgia,serif" font-size="10" fill="#1565C0" text-anchor="middle" font-style="italic">стол, мама, Москва</text>
-  
-  <!-- Глагол -->
-  <rect x="185" y="118" rx="6" width="145" height="55" fill="#4CAF50" opacity="0.08" stroke="#2E7D32" stroke-width="1"/>
-  <text x="257" y="138" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle" font-weight="bold">Глагол</text>
-  <text x="257" y="153" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">что делать? что сделать?</text>
-  <text x="257" y="166" font-family="Georgia,serif" font-size="10" fill="#1565C0" text-anchor="middle" font-style="italic">читать, писать</text>
-  
-  <!-- Прилагательное -->
-  <rect x="340" y="118" rx="6" width="145" height="55" fill="#FF9800" opacity="0.08" stroke="#E65100" stroke-width="1"/>
-  <text x="412" y="138" font-family="Arial,sans-serif" font-size="12" fill="#E65100" text-anchor="middle" font-weight="bold">Прилагательное</text>
-  <text x="412" y="153" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">какой? какая?</text>
-  <text x="412" y="166" font-family="Georgia,serif" font-size="10" fill="#1565C0" text-anchor="middle" font-style="italic">красивый, добрый</text>
-  
-  <!-- Числительное -->
-  <rect x="30" y="182" rx="6" width="145" height="55" fill="#9C27B0" opacity="0.08" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="102" y="202" font-family="Arial,sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Числительное</text>
-  <text x="102" y="217" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">сколько? который?</text>
-  <text x="102" y="230" font-family="Georgia,serif" font-size="10" fill="#1565C0" text-anchor="middle" font-style="italic">пять, третий</text>
-  
-  <!-- Местоимение -->
-  <rect x="185" y="182" rx="6" width="145" height="55" fill="#42A5F5" opacity="0.08" stroke="#1565C0" stroke-width="1"/>
-  <text x="257" y="202" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">Местоимение</text>
-  <text x="257" y="217" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">указывает на предмет</text>
-  <text x="257" y="230" font-family="Georgia,serif" font-size="10" fill="#1565C0" text-anchor="middle" font-style="italic">он, мой, этот</text>
-  
-  <!-- Наречие -->
-  <rect x="340" y="182" rx="6" width="145" height="55" fill="#00897B" opacity="0.08" stroke="#00695C" stroke-width="1"/>
-  <text x="412" y="202" font-family="Arial,sans-serif" font-size="12" fill="#00695C" text-anchor="middle" font-weight="bold">Наречие</text>
-  <text x="412" y="217" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">как? где? когда?</text>
-  <text x="412" y="230" font-family="Georgia,serif" font-size="10" fill="#1565C0" text-anchor="middle" font-style="italic">быстро, вчера</text>
-  
-  <!-- Bottom note -->
-  <rect x="30" y="248" rx="6" width="455" height="40" fill="#E3F2FD" opacity="0.3" stroke="#42A5F5" stroke-width="0.8"/>
-  <text x="250" y="268" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle">Самостоятельные части речи называют предметы, признаки, действия, количества</text>
-  <text x="250" y="282" font-family="Arial,sans-serif" font-size="10" fill="#42A5F5" text-anchor="middle">Имеют морфологические признаки и синтаксическую роль</text>
-
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#D32F2F" stroke-width="2.5"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#D32F2F" text-anchor="middle">Самостоятельные части речи</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Русский язык — Урок 7</text>
+  <line x1="30" y1="64" x2="470" y2="64" stroke="#D32F2F" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="72" width="460" height="32" rx="5" fill="#D32F2F" opacity="0.05"/>
+  <text x="30" y="86" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Имя существительное</text>
+  <text x="200" y="86" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">кто? что?</text>
+  <text x="320" y="86" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">стол, Москва</text>
+  <rect x="20" y="112" width="460" height="32" rx="5" fill="#D32F2F" opacity="0.05"/>
+  <text x="30" y="126" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Имя прилагательное</text>
+  <text x="200" y="126" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">какой? чей?</text>
+  <text x="320" y="126" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">красивый, мамин</text>
+  <rect x="20" y="152" width="460" height="32" rx="5" fill="#D32F2F" opacity="0.05"/>
+  <text x="30" y="166" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Имя числительное</text>
+  <text x="200" y="166" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">сколько? который?</text>
+  <text x="320" y="166" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">пять, пятый</text>
+  <rect x="20" y="192" width="460" height="32" rx="5" fill="#D32F2F" opacity="0.05"/>
+  <text x="30" y="206" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Глагол</text>
+  <text x="200" y="206" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">что делать? что сделать?</text>
+  <text x="320" y="206" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">читать, прочитать</text>
+  <rect x="20" y="232" width="460" height="32" rx="5" fill="#D32F2F" opacity="0.05"/>
+  <text x="30" y="246" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Наречие</text>
+  <text x="200" y="246" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">как? где? когда?</text>
+  <text x="320" y="246" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">быстро, здесь, вчера</text>
+  <rect x="20" y="272" width="460" height="32" rx="5" fill="#D32F2F" opacity="0.05"/>
+  <text x="30" y="286" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Местоимение</text>
+  <text x="200" y="286" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">кто? что? какой?</text>
+  <text x="320" y="286" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">он, этот, мой</text>
+  <text x="200" y="84" font-family="Arial,sans-serif" font-size="8" fill="#888888" text-anchor="start" font-weight="normal" font-style="">Вопрос</text>
+  <text x="320" y="84" font-family="Arial,sans-serif" font-size="8" fill="#888888" text-anchor="start" font-weight="normal" font-style="">Примеры</text>
+  <rect x="20" y="308" width="460" height="22" rx="5" fill="#D32F2F" opacity="0.06"/>
+  <text x="250" y="323" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">Причастие и деепричастие — особые формы глагола</text>
+  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#D32F2F" opacity="0.06"/>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="middle" font-style="italic">Русский язык · 10 класс</text>
 </svg>

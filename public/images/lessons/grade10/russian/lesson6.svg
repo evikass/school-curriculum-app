@@ -1,74 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="0%" stop-color="#FFEBEE"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#42A5F5"/>
-      <stop offset="100%" stop-color="#1565C0"/>
+      <stop offset="0%" stop-color="#D32F2F"/>
+      <stop offset="100%" stop-color="#D32F2F"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#42A5F5" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#42A5F5" text-anchor="middle">Синонимы, антонимы, омонимы</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Русский язык - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#42A5F5" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    <rect x="15" y="85" width="470" height="215" fill="#E3F2FD" opacity="0.5"/>
-    
-  <text x="250" y="108" font-family="Arial,sans-serif" font-size="13" fill="#1565C0" text-anchor="middle" font-weight="bold">Лексические отношения</text>
-  
-  <!-- Синонимы -->
-  <rect x="30" y="118" rx="8" width="140" height="170" fill="#4CAF50" opacity="0.06" stroke="#2E7D32" stroke-width="1.2"/>
-  <text x="100" y="138" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32" text-anchor="middle" font-weight="bold">Синонимы</text>
-  <text x="100" y="155" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="middle">близкие по значению</text>
-  <!-- Equal sign -->
-  <text x="100" y="175" font-family="Arial,sans-serif" font-size="20" fill="#2E7D32" text-anchor="middle">=</text>
-  <text x="100" y="195" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle" font-style="italic">храбрый</text>
-  <text x="100" y="212" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle" font-style="italic">смелый</text>
-  <text x="100" y="229" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle" font-style="italic">отважный</text>
-  <text x="100" y="246" font-family="Georgia,serif" font-size="12" fill="#1565C0" text-anchor="middle" font-style="italic">бесстрашный</text>
-  <text x="100" y="270" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">разные слова,</text>
-  <text x="100" y="281" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">одинаковое значение</text>
-  
-  <!-- Антонимы -->
-  <rect x="180" y="118" rx="8" width="140" height="170" fill="#EF5350" opacity="0.06" stroke="#C62828" stroke-width="1.2"/>
-  <text x="250" y="138" font-family="Arial,sans-serif" font-size="13" fill="#C62828" text-anchor="middle" font-weight="bold">Антонимы</text>
-  <text x="250" y="155" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="middle">противоположные</text>
-  <!-- Not equal sign -->
-  <text x="250" y="175" font-family="Arial,sans-serif" font-size="20" fill="#C62828" text-anchor="middle">&#x2260;</text>
-  <text x="220" y="200" font-family="Georgia,serif" font-size="12" fill="#1565C0">горячий</text>
-  <text x="280" y="200" font-family="Arial,sans-serif" font-size="14" fill="#C62828">&#x2194;</text>
-  <text x="280" y="200" font-family="Georgia,serif" font-size="12" fill="#1565C0">холодный</text>
-  <text x="220" y="225" font-family="Georgia,serif" font-size="12" fill="#1565C0">день</text>
-  <text x="280" y="225" font-family="Arial,sans-serif" font-size="14" fill="#C62828">&#x2194;</text>
-  <text x="280" y="225" font-family="Georgia,serif" font-size="12" fill="#1565C0">ночь</text>
-  <text x="220" y="250" font-family="Georgia,serif" font-size="12" fill="#1565C0">добро</text>
-  <text x="280" y="250" font-family="Arial,sans-serif" font-size="14" fill="#C62828">&#x2194;</text>
-  <text x="280" y="250" font-family="Georgia,serif" font-size="12" fill="#1565C0">зло</text>
-  <text x="250" y="270" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle">разные слова,</text>
-  <text x="250" y="281" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle">противоположное значение</text>
-  
-  <!-- Омонимы -->
-  <rect x="330" y="118" rx="8" width="140" height="170" fill="#FF9800" opacity="0.06" stroke="#E65100" stroke-width="1.2"/>
-  <text x="400" y="138" font-family="Arial,sans-serif" font-size="13" fill="#E65100" text-anchor="middle" font-weight="bold">Омонимы</text>
-  <text x="400" y="155" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="middle">одинаковые по звучанию</text>
-  <!-- Same word sign -->
-  <text x="400" y="175" font-family="Arial,sans-serif" font-size="20" fill="#E65100" text-anchor="middle">~</text>
-  <text x="380" y="200" font-family="Georgia,serif" font-size="14" fill="#1565C0">ключ</text>
-  <text x="380" y="215" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5">родник</text>
-  <text x="425" y="200" font-family="Georgia,serif" font-size="14" fill="#1565C0">ключ</text>
-  <text x="425" y="215" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5">от замка</text>
-  <text x="380" y="240" font-family="Georgia,serif" font-size="14" fill="#1565C0">лук</text>
-  <text x="380" y="255" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5">оружие</text>
-  <text x="425" y="240" font-family="Georgia,serif" font-size="14" fill="#1565C0">лук</text>
-  <text x="425" y="255" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5">растение</text>
-  <text x="400" y="270" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle">одинаково звучат,</text>
-  <text x="400" y="281" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle">разное значение</text>
-
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#D32F2F" stroke-width="2.5"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#D32F2F" text-anchor="middle">Синонимы, антонимы, омонимы</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Русский язык — Урок 6</text>
+  <line x1="30" y1="64" x2="470" y2="64" stroke="#D32F2F" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="72" width="150" height="95" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="95" y="90" font-family="Arial,sans-serif" font-size="13" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Синонимы</text>
+  <text x="95" y="108" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">Близкие по значению</text>
+  <rect x="30" y="115" width="130" height="20" rx="5" fill="#FFCDD2" opacity="0.5"/>
+  <text x="95" y="130" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">большой — огромный</text>
+  <rect x="30" y="140" width="130" height="20" rx="5" fill="#FFCDD2" opacity="0.5"/>
+  <text x="95" y="155" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">бежать — мчаться</text>
+  <rect x="175" y="72" width="150" height="95" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="250" y="90" font-family="Arial,sans-serif" font-size="13" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Антонимы</text>
+  <text x="250" y="108" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">Противоположные</text>
+  <rect x="185" y="115" width="130" height="20" rx="5" fill="#FFCDD2" opacity="0.5"/>
+  <text x="250" y="130" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">большой — маленький</text>
+  <rect x="185" y="140" width="130" height="20" rx="5" fill="#FFCDD2" opacity="0.5"/>
+  <text x="250" y="155" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">день — ночь</text>
+  <rect x="330" y="72" width="150" height="95" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="405" y="90" font-family="Arial,sans-serif" font-size="13" fill="#D32F2F" text-anchor="middle" font-weight="bold" font-style="">Омонимы</text>
+  <text x="405" y="108" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">Одинаковые по звучанию</text>
+  <rect x="340" y="115" width="130" height="20" rx="5" fill="#FFCDD2" opacity="0.5"/>
+  <text x="405" y="130" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">ключ (родник, дверной)</text>
+  <rect x="340" y="140" width="130" height="20" rx="5" fill="#FFCDD2" opacity="0.5"/>
+  <text x="405" y="155" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="middle" font-weight="normal" font-style="">лук (оружие, растение)</text>
+  <rect x="20" y="175" width="225" height="70" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="30" y="193" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Паронимы</text>
+  <text x="30" y="210" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Похожие, но разные по значению:</text>
+  <text x="30" y="228" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">адресат — адресант</text>
+  <text x="30" y="242" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">одеть — надеть</text>
+  <rect x="255" y="175" width="225" height="70" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="265" y="193" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Омофоны / Омографы</text>
+  <text x="265" y="210" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Омофоны: луг — лук (звучат)</text>
+  <text x="265" y="228" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Омографы: зАмок — замОк</text>
+  <text x="265" y="242" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Омоформы: печь (гл./сущ.)</text>
+  <rect x="20" y="252" width="460" height="50" rx="5" fill="#D32F2F" opacity="0.06"/>
+  <text x="250" y="272" font-family="Arial,sans-serif" font-size="10" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">Лексические отношения обогащают речь и помогают точнее выражать мысли</text>
+  <text x="250" y="290" font-family="Arial,sans-serif" font-size="9" fill="#888888" text-anchor="middle" font-weight="normal" font-style="">Словари: синонимов, антонимов, омонимов, паронимов</text>
+  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#D32F2F" opacity="0.06"/>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="middle" font-style="italic">Русский язык · 10 класс</text>
 </svg>

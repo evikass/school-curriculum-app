@@ -1,73 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="0%" stop-color="#FFF3E0"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#7B1FA2"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#AB47BC" text-anchor="middle">И.С. Тургенев</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 4</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-    
-  <!-- Hunting scene with dog and forest -->
-  <!-- Forest background -->
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.3"/>
-  <!-- Trees -->
-  <path d="M50,250 L60,140 L70,250" fill="#66BB6A" opacity="0.2" stroke="#7B1FA2" stroke-width="1"/>
-  <path d="M42,180 L60,120 L78,180" fill="#66BB6A" opacity="0.15" stroke="#7B1FA2" stroke-width="0.8"/>
-  <path d="M90,250 L105,155 L120,250" fill="#66BB6A" opacity="0.2" stroke="#7B1FA2" stroke-width="1"/>
-  <path d="M82,190 L105,135 L128,190" fill="#66BB6A" opacity="0.15" stroke="#7B1FA2" stroke-width="0.8"/>
-  <path d="M430,250 L445,160 L460,250" fill="#66BB6A" opacity="0.2" stroke="#7B1FA2" stroke-width="1"/>
-  <path d="M422,195 L445,140 L468,195" fill="#66BB6A" opacity="0.15" stroke="#7B1FA2" stroke-width="0.8"/>
-  <!-- Hunter silhouette -->
-  <ellipse cx="220" cy="150" rx="14" ry="18" fill="#AB47BC" opacity="0.15" stroke="#7B1FA2" stroke-width="1.5"/>
-  <path d="M206,150 Q206,135 220,130 Q234,135 234,150" fill="none" stroke="#7B1FA2" stroke-width="1.5"/>
-  <line x1="220" y1="168" x2="220" y2="210" stroke="#7B1FA2" stroke-width="1.5"/>
-  <!-- Hat -->
-  <path d="M206,133 Q220,125 234,133" fill="none" stroke="#7B1FA2" stroke-width="1.5"/>
-  <line x1="200" y1="133" x2="240" y2="133" stroke="#7B1FA2" stroke-width="1.5"/>
-  <!-- Gun -->
-  <line x1="234" y1="155" x2="275" y2="140" stroke="#5D4037" stroke-width="2"/>
-  <line x1="270" y1="142" x2="278" y2="138" stroke="#333" stroke-width="2.5"/>
-  <!-- Legs -->
-  <line x1="215" y1="210" x2="210" y2="245" stroke="#7B1FA2" stroke-width="1.5"/>
-  <line x1="225" y1="210" x2="230" y2="245" stroke="#7B1FA2" stroke-width="1.5"/>
-  <!-- Hunting dog -->
-  <ellipse cx="300" cy="225" rx="22" ry="12" fill="#AB47BC" opacity="0.15" stroke="#7B1FA2" stroke-width="1.2"/>
-  <!-- Dog head -->
-  <ellipse cx="320" cy="218" rx="8" ry="7" fill="#AB47BC" opacity="0.15" stroke="#7B1FA2" stroke-width="1.2"/>
-  <!-- Dog ears -->
-  <path d="M315,212 Q312,205 316,210" fill="none" stroke="#7B1FA2" stroke-width="1"/>
-  <!-- Dog legs -->
-  <line x1="288" y1="237" x2="286" y2="250" stroke="#7B1FA2" stroke-width="1"/>
-  <line x1="296" y1="237" x2="294" y2="250" stroke="#7B1FA2" stroke-width="1"/>
-  <line x1="306" y1="237" x2="308" y2="250" stroke="#7B1FA2" stroke-width="1"/>
-  <line x1="314" y1="237" x2="316" y2="250" stroke="#7B1FA2" stroke-width="1"/>
-  <!-- Dog tail -->
-  <path d="M280,222 Q272,210 276,200" fill="none" stroke="#7B1FA2" stroke-width="1.2"/>
-  <!-- Ground -->
-  <path d="M30,250 Q250,240 470,250" fill="none" stroke="#7B1FA2" stroke-width="1" opacity="0.3"/>
-  <!-- Key works -->
-  <text x="250" y="105" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Отцы и дети</text>
-  <text x="250" y="123" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Записки охотника</text>
-  <text x="250" y="141" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Дворянское гнездо</text>
-  <text x="250" y="275" font-family="Arial,sans-serif" font-size="11" fill="#AB47BC" opacity="0.6">1818-1883</text>
-  <!-- Grass -->
-  <line x1="130" y1="248" x2="128" y2="240" stroke="#7B1FA2" stroke-width="0.8" opacity="0.3"/>
-  <line x1="135" y1="248" x2="137" y2="240" stroke="#7B1FA2" stroke-width="0.8" opacity="0.3"/>
-  <line x1="350" y1="248" x2="348" y2="240" stroke="#7B1FA2" stroke-width="0.8" opacity="0.3"/>
-  <line x1="355" y1="248" x2="357" y2="240" stroke="#7B1FA2" stroke-width="0.8" opacity="0.3"/>
-
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#E65100" text-anchor="middle">И.С. Тургенев</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Литература — Урок 4</text>
+  <line x1="30" y1="64" x2="470" y2="64" stroke="#E65100" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="72" width="160" height="170" rx="5" fill="#E65100" opacity="0.08"/>
+  <circle cx="100" cy="108.6" r="17.6" fill="#E65100" opacity="0.6"/>
+  <path d="M73.6,139.4 Q100,121.8 126.4,139.4" fill="#E65100" opacity="0.4"/>  <text x="100" y="175" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="middle" font-weight="bold" font-style="">Иван Сергеевич</text>
+  <text x="100" y="188" font-family="Arial,sans-serif" font-size="12" fill="#BF360C" text-anchor="middle" font-weight="bold" font-style="">Тургенев</text>
+  <text x="100" y="205" font-family="Arial,sans-serif" font-size="10" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">1818 — 1883</text>
+  <path d="M35,225 Q55,210 75,220 Q95,215 115,225 Q135,210 155,225 L155,240 L35,240 Z" fill="#4CAF50" opacity="0.15"/>
+  <rect x="195" y="72" width="285" height="80" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="205" y="90" font-family="Arial,sans-serif" font-size="13" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Произведения</text>
+  <text x="205" y="110" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Отцы и дети» — роман</text>
+  <text x="205" y="126" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Записки охотника» — рассказы</text>
+  <text x="205" y="142" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Муму» — рассказ</text>
+  <text x="205" y="158" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Ася» — повесть</text>
+  <rect x="195" y="160" width="285" height="82" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="205" y="178" font-family="Arial,sans-serif" font-size="12" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Образ Базарова</text>
+  <circle cx="210" cy="195" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="199" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Нигилист — отвергающий авторитеты</text>
+  <circle cx="210" cy="212" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="216" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Конфликт отцов и детей</text>
+  <circle cx="210" cy="229" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="233" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Разум vs чувства</text>
+  <circle cx="210" cy="246" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="250" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Трагедия одиночества</text>
+  <rect x="20" y="250" width="460" height="45" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="30" y="268" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Особенности:</text>
+  <text x="30" y="285" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Лирический пейзаж, психологизм, социальный роман, тонкий анализ человеческой души</text>
+  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#E65100" opacity="0.06"/>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle" font-style="italic">Литература · 10 класс</text>
 </svg>
