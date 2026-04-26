@@ -9,25 +9,95 @@
       <stop offset="100%" stop-color="#C2185B"/>
     </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EC407A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EC407A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#EC407A" opacity="0.12"/>
+  <!-- Border -->
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#880E4F" stroke-width="2.5"/>
+  <!-- Inner decorative border -->
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#880E4F" stroke-width="1" opacity="0.3"/>
+  <!-- Corner decorations -->
+  <polygon points="10,10 30,10 10,30" fill="#880E4F" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#C2185B" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EC407A" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#880E4F" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#C2185B" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EC407A" text-anchor="middle">Искусство и технологии</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ИЗО - Урок 8</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#EC407A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#EC407A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <!-- Title -->
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#880E4F" text-anchor="middle">Искусство и технологии</text>
+  <!-- Subtitle -->
+  <text x="250" y="62" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Искусство — Урок 8</text>
+  <!-- Divider line -->
+  <line x1="30" y1="72" x2="470" y2="72" stroke="#880E4F" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="69" width="60" height="5" fill="#880E4F" opacity="0.18" rx="1"/>
+  <rect x="410" y="69" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
+  <!-- Clip path for content area -->
+  <clipPath id="ill"><rect x="15" y="80" width="470" height="220" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FCE4EC" opacity="0.5"/>
-  <circle cx="250" cy="190" r="50" fill="#FCE4EC" stroke="#EC407A" stroke-width="2"/><path d="M220,170 L250,210 L280,170" fill="none" stroke="#EC407A" stroke-width="2"/><circle cx="230" cy="175" r="8" fill="#EC407A" opacity="0.4"/><circle cx="270" cy="180" r="6" fill="#C2185B" opacity="0.5"/>
+  <rect x="15" y="80" width="470" height="220" fill="#FCE4EC" opacity="0.4"/>
+    <!-- Digital art -->
+    <rect x="25" y="95" width="145" height="85" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="97" y="112" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">Цифровое искусство</text>
+    <!-- Monitor/tablet -->
+    <rect x="52" y="122" width="45" height="35" rx="3" fill="none" stroke="#880E4F" stroke-width="1.5"/>
+    <rect x="58" y="127" width="33" height="22" fill="#880E4F" opacity="0.1"/>
+    <!-- Pixel grid on screen -->
+    <rect x="58" y="127" width="5" height="5" fill="#880E4F" opacity="0.3"/>
+    <rect x="68" y="127" width="5" height="5" fill="#C2185B" opacity="0.3"/>
+    <rect x="78" y="127" width="5" height="5" fill="#880E4F" opacity="0.2"/>
+    <rect x="63" y="137" width="5" height="5" fill="#EC407A" opacity="0.3"/>
+    <rect x="73" y="137" width="5" height="5" fill="#880E4F" opacity="0.3"/>
+    <!-- Stylus -->
+    <line x1="110" y1="140" x2="130" y2="130" stroke="#880E4F" stroke-width="2"/>
+    <text x="97" y="175" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Планшет · 3D · NFT</text>
+
+    <!-- AI Art -->
+    <rect x="180" y="95" width="145" height="85" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="252" y="112" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">ИИ и искусство</text>
+    <!-- Neural network nodes -->
+    <circle cx="230" cy="130" r="5" fill="#880E4F" opacity="0.4"/>
+    <circle cx="250" cy="125" r="5" fill="#C2185B" opacity="0.4"/>
+    <circle cx="270" cy="130" r="5" fill="#880E4F" opacity="0.4"/>
+    <circle cx="235" cy="150" r="5" fill="#EC407A" opacity="0.4"/>
+    <circle cx="255" cy="150" r="5" fill="#880E4F" opacity="0.4"/>
+    <circle cx="275" cy="150" r="5" fill="#C2185B" opacity="0.4"/>
+    <!-- Connections -->
+    <line x1="230" y1="130" x2="235" y2="150" stroke="#880E4F" stroke-width="0.5" opacity="0.4"/>
+    <line x1="230" y1="130" x2="255" y2="150" stroke="#880E4F" stroke-width="0.5" opacity="0.4"/>
+    <line x1="250" y1="125" x2="255" y2="150" stroke="#880E4F" stroke-width="0.5" opacity="0.4"/>
+    <line x1="250" y1="125" x2="275" y2="150" stroke="#880E4F" stroke-width="0.5" opacity="0.4"/>
+    <line x1="270" y1="130" x2="275" y2="150" stroke="#880E4F" stroke-width="0.5" opacity="0.4"/>
+    <text x="252" y="175" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Генеративное · Нейросети</text>
+
+    <!-- VR/AR -->
+    <rect x="335" y="95" width="140" height="85" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="405" y="112" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">VR / AR</text>
+    <!-- VR headset -->
+    <rect x="375" y="130" width="40" height="25" rx="8" fill="none" stroke="#880E4F" stroke-width="1.5"/>
+    <circle cx="388" cy="142" r="6" fill="#880E4F" opacity="0.15"/>
+    <circle cx="402" cy="142" r="6" fill="#880E4F" opacity="0.15"/>
+    <!-- Immersion waves -->
+    <path d="M370,155 Q385,160 395,155 Q405,150 420,155" fill="none" stroke="#C2185B" stroke-width="1" opacity="0.5"/>
+    <path d="M365,162 Q385,168 395,162 Q405,156 425,162" fill="none" stroke="#880E4F" stroke-width="1" opacity="0.3"/>
+    <text x="405" y="175" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Иммерсия · Интерактив</text>
+
+    <!-- Key concepts -->
+    <rect x="25" y="190" width="220" height="50" rx="6" fill="white" stroke="#880E4F" stroke-width="1" opacity="0.9"/>
+    <text x="135" y="207" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#880E4F" text-anchor="middle">Технологии в искусстве:</text>
+    <text x="135" y="220" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Проекция · Мэппинг · Робототехника</text>
+    <text x="135" y="232" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Биотехнологии · Квантовое искусство</text>
+
+    <!-- Questions -->
+    <rect x="260" y="190" width="215" height="50" rx="6" fill="white" stroke="#880E4F" stroke-width="1" opacity="0.9"/>
+    <text x="367" y="207" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#880E4F" text-anchor="middle">Этические вопросы:</text>
+    <text x="367" y="220" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Авторство ИИ-произведений</text>
+    <text x="367" y="232" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Оригинальность · Доступность</text>
+
+    <!-- Timeline -->
+    <rect x="25" y="250" width="450" height="40" rx="6" fill="white" stroke="#880E4F" stroke-width="1" opacity="0.9"/>
+    <text x="250" y="266" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#880E4F" text-anchor="middle">Эволюция технологий в искусстве:</text>
+    <text x="250" y="280" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Фото (1839) · Кино (1895) · Видеоарт (1960-е) · CGI (1990-е) · AI (2020-е)</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ИЗО</text>
+  <!-- Footer panel -->
+  <rect x="12" y="305" width="476" height="35" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="337" stroke="#880E4F" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="337" stroke="#880E4F" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="328" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Искусство · 10 класс</text>
 </svg>
