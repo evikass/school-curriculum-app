@@ -1,33 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF3E0"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FFA726"/>
-      <stop offset="100%" stop-color="#E65100"/>
-    </linearGradient>
+    <style>
+      .title { font: bold 14px "Segoe UI", Arial, sans-serif; fill: #FFFFFF; }
+      .lesson-num { font: bold 11px "Segoe UI", Arial, sans-serif; fill: #81C784; }
+      .box-title { font: bold 11px "Segoe UI", Arial, sans-serif; fill: #1B5E20; }
+      .box-text { font: 10px "Segoe UI", Arial, sans-serif; fill: #1B5E20; }
+      .footer { font: 10px "Segoe UI", Arial, sans-serif; fill: #2E7D32; }
+    </style>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FFA726" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FFA726" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FFA726" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#E65100" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FFA726" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#E65100" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FFA726" text-anchor="middle">Урок 21: ВВП и методы его расчёта</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экономика - Урок 21</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#FFA726" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FFA726" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#E65100" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF3E0" opacity="0.5"/>
-  <circle cx="250" cy="195" r="50" fill="none" stroke="#FFA726" stroke-width="2.5"/><ellipse cx="250" cy="195" rx="50" ry="18" fill="none" stroke="#FFA726" stroke-width="1" opacity="0.5"/><ellipse cx="250" cy="195" rx="28" ry="50" fill="none" stroke="#FFA726" stroke-width="1" opacity="0.5"/><circle cx="235" cy="180" r="5" fill="#FFA726"/><circle cx="268" cy="190" r="5" fill="#E65100"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FFA726" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FFA726" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Экономика</text>
+  <rect x="0" y="0" width="500" height="350" rx="12" ry="12" fill="#E8F5E9" stroke="#1B5E20" stroke-width="2.5"/>
+  <rect x="0" y="0" width="500" height="52" rx="12" ry="12" fill="#1B5E20"/>
+  <rect x="0" y="20" width="500" height="32" fill="#1B5E20"/>
+  <text x="15" y="24" class="title">ВВП и методы его расчёта</text>
+  <text x="15" y="42" class="lesson-num">Экономика — Урок 21</text>
+  <circle cx="475" cy="26" r="18" fill="#0D3B0F" stroke="#81C784" stroke-width="1.5"/>
+  <text x="475" y="31" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">21</text>
+  <rect x="20" y="72" width="460" height="45" rx="6" ry="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#A5D6A7" stroke-width="1.2"/>
+  <line x1="26" y1="72" x2="474" y2="72" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="28" y="86" class="box-title">ВВП (GDP)</text>
+  <text x="28" y="100" class="box-text">Валовой внутренний продукт — рыночная стоимость всех конечных товаров и услуг за год на территории страны</text>
+  <rect x="20" y="132" width="145" height="85" rx="6" ry="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#A5D6A7" stroke-width="1.2"/>
+  <line x1="26" y1="132" x2="159" y2="132" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="28" y="146" class="box-title">По расходам</text>
+  <text x="28" y="160" class="box-text">Y = C + I + G + NX</text>
+  <text x="28" y="173" class="box-text">C — потребление</text>
+  <text x="28" y="186" class="box-text">I — инвестиции</text>
+  <text x="28" y="199" class="box-text">G — гос. закупки</text>
+  <text x="28" y="212" class="box-text">NX = Ex − Im</text>
+  <rect x="175" y="132" width="145" height="85" rx="6" ry="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#A5D6A7" stroke-width="1.2"/>
+  <line x1="181" y1="132" x2="314" y2="132" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="183" y="146" class="box-title">По доходам</text>
+  <text x="183" y="160" class="box-text">Y = W + R + i + π</text>
+  <text x="183" y="173" class="box-text">W — зарплата</text>
+  <text x="183" y="186" class="box-text">R — рента</text>
+  <text x="183" y="199" class="box-text">i — процент</text>
+  <text x="183" y="212" class="box-text">π — прибыль + аморт. + кос.н.</text>
+  <rect x="330" y="132" width="150" height="85" rx="6" ry="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#A5D6A7" stroke-width="1.2"/>
+  <line x1="336" y1="132" x2="474" y2="132" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="338" y="146" class="box-title">По добавл. стоим.</text>
+  <text x="338" y="160" class="box-text">Y = Σ ДСᵢ</text>
+  <text x="338" y="173" class="box-text">ДС = Выручка −</text>
+  <text x="338" y="186" class="box-text">  Промежуточные затраты</text>
+  <text x="338" y="199" class="box-text">Исключается двойной</text>
+  <text x="338" y="212" class="box-text">счёт</text>
+  <rect x="20" y="234" width="220" height="72" rx="6" ry="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#A5D6A7" stroke-width="1.2"/>
+  <line x1="26" y1="234" x2="234" y2="234" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="28" y="248" class="box-title">Номинальный vs Реальный</text>
+  <text x="28" y="262" class="box-text">ВВП(ном) = Σ Pt·Qt — текущ. цены</text>
+  <text x="28" y="275" class="box-text">ВВП(реал) = Σ P₀·Qt — баз. цены</text>
+  <text x="28" y="288" class="box-text">Дефлятор = ВВП(ном)/ВВП(реал)·100%</text>
+  <text x="28" y="301" class="box-text">Инфляция: ΔДефлятор</text>
+  <rect x="260" y="234" width="220" height="72" rx="6" ry="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#A5D6A7" stroke-width="1.2"/>
+  <line x1="266" y1="234" x2="474" y2="234" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="268" y="248" class="box-title">Не включается в ВВП</text>
+  <text x="268" y="262" class="box-text">Теневая экономика</text>
+  <text x="268" y="275" class="box-text">Домашний труд</text>
+  <text x="268" y="288" class="box-text">Перепродажа (б/у товары)</text>
+  <text x="268" y="301" class="box-text">Трансферты (пенсии, пособия)</text>
+  <text x="268" y="314" class="box-text">Промежуточные товары</text>
+  <rect x="0" y="325" width="500" height="25" rx="0" ry="0" fill="#1B5E20"/>
+  <rect x="0" y="325" width="500" height="25" rx="0" ry="0" fill="#1B5E20"/>
+  <rect x="0" y="330" width="500" height="20" rx="12" ry="12" fill="#1B5E20"/>
+  <rect x="0" y="330" width="500" height="10" fill="#1B5E20"/>
+  <text x="250" y="343" text-anchor="middle" class="footer">Экономика · 10 класс</text>
 </svg>
