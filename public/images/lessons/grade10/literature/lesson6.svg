@@ -1,70 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="0%" stop-color="#FFF3E0"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#7B1FA2"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#AB47BC" text-anchor="middle">М.А. Булгаков</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-    
-  <!-- Cat (Behemoth) silhouette -->
-  <ellipse cx="130" cy="200" rx="30" ry="25" fill="#AB47BC" opacity="0.12" stroke="#7B1FA2" stroke-width="1.5"/>
-  <!-- Cat ears -->
-  <path d="M105,180 L100,160 L115,175" fill="#AB47BC" opacity="0.12" stroke="#7B1FA2" stroke-width="1.5"/>
-  <path d="M155,180 L160,160 L145,175" fill="#AB47BC" opacity="0.12" stroke="#7B1FA2" stroke-width="1.5"/>
-  <!-- Cat eyes -->
-  <ellipse cx="120" cy="192" rx="5" ry="4" fill="#4CAF50" opacity="0.5"/>
-  <ellipse cx="140" cy="192" rx="5" ry="4" fill="#4CAF50" opacity="0.5"/>
-  <ellipse cx="120" cy="192" rx="2" ry="4" fill="#1B5E20" opacity="0.6"/>
-  <ellipse cx="140" cy="192" rx="2" ry="4" fill="#1B5E20" opacity="0.6"/>
-  <!-- Cat whiskers -->
-  <line x1="108" y1="198" x2="88" y2="195" stroke="#7B1FA2" stroke-width="0.8"/>
-  <line x1="108" y1="202" x2="88" y2="205" stroke="#7B1FA2" stroke-width="0.8"/>
-  <line x1="152" y1="198" x2="172" y2="195" stroke="#7B1FA2" stroke-width="0.8"/>
-  <line x1="152" y1="202" x2="172" y2="205" stroke="#7B1FA2" stroke-width="0.8"/>
-  <!-- Cat tail -->
-  <path d="M160,205 Q180,190 175,170 Q172,160 178,155" fill="none" stroke="#7B1FA2" stroke-width="2"/>
-  <!-- Primus stove (Behemoth's attribute) -->
-  <ellipse cx="130" cy="230" rx="15" ry="5" fill="#7B1FA2" opacity="0.15" stroke="#7B1FA2" stroke-width="1"/>
-  <rect x="122" y="220" width="16" height="10" fill="#AB47BC" opacity="0.15" stroke="#7B1FA2" stroke-width="1"/>
-  <!-- Flame -->
-  <path d="M128,220 Q130,210 132,220" fill="#FF7043" opacity="0.5"/>
-  <path d="M130,220 Q132,208 134,220" fill="#FFC107" opacity="0.4"/>
-  <!-- Tram -->
-  <rect x="280" y="165" rx="5" width="90" height="50" fill="#AB47BC" opacity="0.12" stroke="#7B1FA2" stroke-width="1.5"/>
-  <!-- Windows -->
-  <rect x="290" y="172" width="20" height="18" rx="2" fill="#FFF8E1" opacity="0.5" stroke="#7B1FA2" stroke-width="1"/>
-  <rect x="315" y="172" width="20" height="18" rx="2" fill="#FFF8E1" opacity="0.5" stroke="#7B1FA2" stroke-width="1"/>
-  <rect x="340" y="172" width="20" height="18" rx="2" fill="#FFF8E1" opacity="0.5" stroke="#7B1FA2" stroke-width="1"/>
-  <!-- Tram wheels -->
-  <circle cx="300" cy="218" r="6" fill="#7B1FA2" opacity="0.3" stroke="#7B1FA2" stroke-width="1"/>
-  <circle cx="350" cy="218" r="6" fill="#7B1FA2" opacity="0.3" stroke="#7B1FA2" stroke-width="1"/>
-  <!-- Pantograph -->
-  <line x1="325" y1="165" x2="325" y2="148" stroke="#7B1FA2" stroke-width="1.5"/>
-  <line x1="315" y1="148" x2="335" y2="148" stroke="#7B1FA2" stroke-width="1.5"/>
-  <!-- Tram number -->
-  <text x="325" y="205" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle">302</text>
-  <!-- Rails -->
-  <line x1="270" y1="224" x2="390" y2="224" stroke="#7B1FA2" stroke-width="1.5" opacity="0.4"/>
-  <line x1="270" y1="226" x2="390" y2="226" stroke="#7B1FA2" stroke-width="1.5" opacity="0.4"/>
-  <!-- Key works -->
-  <text x="250" y="100" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Мастер и Маргарита</text>
-  <text x="250" y="118" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Собачье сердце</text>
-  <text x="250" y="136" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Белая гвардия</text>
-  <text x="250" y="270" font-family="Arial,sans-serif" font-size="11" fill="#AB47BC" opacity="0.6">1891-1940</text>
-
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#E65100" text-anchor="middle">М.А. Булгаков</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Литература — Урок 6</text>
+  <line x1="30" y1="64" x2="470" y2="64" stroke="#E65100" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="72" width="160" height="170" rx="5" fill="#E65100" opacity="0.08"/>
+  <circle cx="100" cy="108.6" r="17.6" fill="#E65100" opacity="0.6"/>
+  <path d="M73.6,139.4 Q100,121.8 126.4,139.4" fill="#E65100" opacity="0.4"/>  <text x="100" y="175" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="middle" font-weight="bold" font-style="">Михаил Афанасьевич</text>
+  <text x="100" y="188" font-family="Arial,sans-serif" font-size="12" fill="#BF360C" text-anchor="middle" font-weight="bold" font-style="">Булгаков</text>
+  <text x="100" y="205" font-family="Arial,sans-serif" font-size="10" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">1891 — 1940</text>
+  <path d="M130,225 Q132,215 138,218 Q140,212 144,218 Q148,212 150,218 Q156,215 158,225 L158,235 Q155,238 150,238 L138,238 Q133,238 130,235 Z" fill="#E65100" opacity="0.25"/>
+  <path d="M134,218 L136,210 L140,218" fill="#E65100" opacity="0.25"/>
+  <path d="M148,218 L150,210 L154,218" fill="#E65100" opacity="0.25"/>
+  <rect x="195" y="72" width="285" height="80" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="205" y="90" font-family="Arial,sans-serif" font-size="13" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Произведения</text>
+  <text x="205" y="110" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Мастер и Маргарита» — роман</text>
+  <text x="205" y="126" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Собачье сердце» — повесть</text>
+  <text x="205" y="142" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Белая гвардия» — роман</text>
+  <text x="205" y="158" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Дни Турбиных» — пьеса</text>
+  <rect x="195" y="160" width="285" height="82" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="205" y="178" font-family="Arial,sans-serif" font-size="12" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">«Мастер и Маргарита»</text>
+  <circle cx="210" cy="195" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="199" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Добро и зло, творчество и власть</text>
+  <circle cx="210" cy="212" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="216" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Два временных пласта: Москва и Ершалаим</text>
+  <circle cx="210" cy="229" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="233" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Милосердие и справедливость</text>
+  <circle cx="210" cy="246" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="250" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Трагедия художника в обществе</text>
+  <rect x="20" y="250" width="460" height="45" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="30" y="268" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Особенности:</text>
+  <text x="30" y="285" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Мистический реализм, сатира, гротеск, переплетение эпох, философская глубина</text>
+  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#E65100" opacity="0.06"/>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle" font-style="italic">Литература · 10 класс</text>
 </svg>

@@ -1,70 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="0%" stop-color="#FFF3E0"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#7B1FA2"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#AB47BC" text-anchor="middle">А.С. Пушкин</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 1</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-    
-  <!-- Stylized portrait silhouette -->
-  <ellipse cx="140" cy="155" rx="28" ry="32" fill="#AB47BC" opacity="0.15"/>
-  <path d="M112,155 Q112,125 140,120 Q168,125 168,155" fill="none" stroke="#AB47BC" stroke-width="2"/>
-  <path d="M125,155 Q128,168 140,172 Q152,168 155,155" fill="none" stroke="#AB47BC" stroke-width="1.5"/>
-  <line x1="140" y1="172" x2="140" y2="220" stroke="#AB47BC" stroke-width="2"/>
-  <!-- Curly hair -->
-  <path d="M112,140 Q108,130 115,125 Q110,118 120,115 Q118,108 128,108 Q130,103 140,105 Q150,103 152,108 Q162,108 160,115 Q170,118 165,125 Q172,130 168,140" fill="none" stroke="#7B1FA2" stroke-width="1.5"/>
-  <!-- Sideburns -->
-  <path d="M112,140 Q108,148 110,155" fill="none" stroke="#7B1FA2" stroke-width="1.5"/>
-  <path d="M168,140 Q172,148 170,155" fill="none" stroke="#7B1FA2" stroke-width="1.5"/>
-  <!-- Quill pen -->
-  <line x1="95" y1="230" x2="95" y2="170" stroke="#5D4037" stroke-width="2"/>
-  <path d="M90,170 Q95,155 100,170" fill="#5D4037" opacity="0.6"/>
-  <path d="M92,165 L95,155 L98,165" fill="none" stroke="#333" stroke-width="1"/>
-  <!-- Ink spot -->
-  <circle cx="95" cy="235" r="5" fill="#5D4037" opacity="0.4"/>
-  <!-- Open book -->
-  <path d="M200,200 Q230,190 260,200 L260,265 Q230,255 200,265 Z" fill="#FFFDE7" stroke="#AB47BC" stroke-width="1.5"/>
-  <path d="M260,200 Q290,190 320,200 L320,265 Q290,255 260,265 Z" fill="#FFF8E1" stroke="#AB47BC" stroke-width="1.5"/>
-  <line x1="260" y1="198" x2="260" y2="265" stroke="#AB47BC" stroke-width="1.5"/>
-  <!-- Text lines on book -->
-  <line x1="210" y1="215" x2="250" y2="213" stroke="#AB47BC" stroke-width="0.7" opacity="0.4"/>
-  <line x1="210" y1="223" x2="250" y2="221" stroke="#AB47BC" stroke-width="0.7" opacity="0.4"/>
-  <line x1="210" y1="231" x2="250" y2="229" stroke="#AB47BC" stroke-width="0.7" opacity="0.4"/>
-  <line x1="210" y1="239" x2="245" y2="237" stroke="#AB47BC" stroke-width="0.7" opacity="0.4"/>
-  <line x1="270" y1="215" x2="310" y2="213" stroke="#AB47BC" stroke-width="0.7" opacity="0.4"/>
-  <line x1="270" y1="223" x2="310" y2="221" stroke="#AB47BC" stroke-width="0.7" opacity="0.4"/>
-  <line x1="270" y1="231" x2="310" y2="229" stroke="#AB47BC" stroke-width="0.7" opacity="0.4"/>
-  <!-- Lyre/harp -->
-  <ellipse cx="420" cy="175" rx="18" ry="25" fill="none" stroke="#AB47BC" stroke-width="2"/>
-  <line x1="420" y1="150" x2="420" y2="200" stroke="#AB47BC" stroke-width="2"/>
-  <line x1="413" y1="155" x2="413" y2="195" stroke="#AB47BC" stroke-width="0.8" opacity="0.6"/>
-  <line x1="427" y1="155" x2="427" y2="195" stroke="#AB47BC" stroke-width="0.8" opacity="0.6"/>
-  <line x1="416" y1="152" x2="416" y2="198" stroke="#AB47BC" stroke-width="0.8" opacity="0.6"/>
-  <line x1="424" y1="152" x2="424" y2="198" stroke="#AB47BC" stroke-width="0.8" opacity="0.6"/>
-  <path d="M402,200 Q420,220 438,200" fill="none" stroke="#AB47BC" stroke-width="2"/>
-  <!-- Key works -->
-  <text x="280" y="100" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Евгений Онегин</text>
-  <text x="280" y="118" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Капитанская дочка</text>
-  <text x="280" y="136" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Медный всадник</text>
-  <!-- Decorative elements -->
-  <circle cx="55" cy="105" r="3" fill="#AB47BC" opacity="0.2"/>
-  <circle cx="460" cy="280" r="4" fill="#7B1FA2" opacity="0.15"/>
-  <circle cx="380" cy="260" r="2.5" fill="#AB47BC" opacity="0.2"/>
-  <text x="140" y="260" font-family="Arial,sans-serif" font-size="11" fill="#AB47BC" opacity="0.6">1799-1837</text>
-
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#E65100" text-anchor="middle">А.С. Пушкин</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Литература — Урок 1</text>
+  <line x1="30" y1="64" x2="470" y2="64" stroke="#E65100" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="72" width="160" height="170" rx="5" fill="#E65100" opacity="0.08"/>
+  <circle cx="100" cy="110.0" r="20.0" fill="#E65100" opacity="0.6"/>
+  <path d="M70.0,145.0 Q100,125.0 130.0,145.0" fill="#E65100" opacity="0.4"/>  <text x="100" y="185" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="middle" font-weight="bold" font-style="">Александр Сергеевич</text>
+  <text x="100" y="198" font-family="Arial,sans-serif" font-size="12" fill="#BF360C" text-anchor="middle" font-weight="bold" font-style="">Пушкин</text>
+  <text x="100" y="215" font-family="Arial,sans-serif" font-size="10" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">1799 — 1837</text>
+  <path d="M78,108 L100,98 L122,108" fill="none" stroke="#E65100" stroke-width="2" opacity="0.5"/>
+  <rect x="195" y="72" width="285" height="80" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="205" y="90" font-family="Arial,sans-serif" font-size="13" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Произведения</text>
+  <text x="205" y="110" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Евгений Онегин» — роман в стихах</text>
+  <text x="205" y="126" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Капитанская дочка» — повесть</text>
+  <text x="205" y="142" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Медный всадник» — поэма</text>
+  <text x="205" y="158" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Я помню чудное мгновенье...»</text>
+  <rect x="195" y="160" width="285" height="82" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="205" y="178" font-family="Arial,sans-serif" font-size="12" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Основные темы</text>
+  <circle cx="210" cy="195" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="199" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Свобода и воля</text>
+  <circle cx="210" cy="212" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="216" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Любовь и дружба</text>
+  <circle cx="210" cy="229" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="233" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Назначение поэта и поэзии</text>
+  <circle cx="210" cy="246" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="220" y="250" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Историческая судьба России</text>
+  <rect x="20" y="250" width="460" height="45" rx="5" fill="#E65100" opacity="0.08"/>
+  <text x="30" y="268" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Значение:</text>
+  <text x="30" y="285" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Основоположник современного русского литературного языка, создатель реалистической прозы</text>
+  <rect x="400" y="255" width="25" height="20" rx="2" fill="#E65100" opacity="0.3"/>
+  <line x1="408" y1="255" x2="408" y2="275" stroke="#E65100" stroke-width="1.5" opacity="0.5"/>
+  <line x1="412" y1="262" x2="422" y2="262" stroke="#E65100" stroke-width="1" opacity="0.3"/>
+  <line x1="412" y1="268" x2="422" y2="268" stroke="#E65100" stroke-width="1" opacity="0.3"/>
+  <line x1="412" y1="274" x2="422" y2="274" stroke="#E65100" stroke-width="1" opacity="0.3"/>  <rect x="430" y="258" width="22" height="18" rx="2" fill="#E65100" opacity="0.3"/>
+  <line x1="437" y1="258" x2="437" y2="276" stroke="#E65100" stroke-width="1.5" opacity="0.5"/>
+  <line x1="441" y1="265" x2="449" y2="265" stroke="#E65100" stroke-width="1" opacity="0.3"/>
+  <line x1="441" y1="271" x2="449" y2="271" stroke="#E65100" stroke-width="1" opacity="0.3"/>
+  <line x1="441" y1="277" x2="449" y2="277" stroke="#E65100" stroke-width="1" opacity="0.3"/>  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#E65100" opacity="0.06"/>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle" font-style="italic">Литература · 10 класс</text>
 </svg>

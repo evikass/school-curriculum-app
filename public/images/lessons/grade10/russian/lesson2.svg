@@ -1,67 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="0%" stop-color="#FFEBEE"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#42A5F5"/>
-      <stop offset="100%" stop-color="#1565C0"/>
+      <stop offset="0%" stop-color="#D32F2F"/>
+      <stop offset="100%" stop-color="#D32F2F"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#42A5F5" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#42A5F5" text-anchor="middle">Орфоэпические нормы</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Русский язык - Урок 2</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#42A5F5" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    <rect x="15" y="85" width="470" height="215" fill="#E3F2FD" opacity="0.5"/>
-    
-  <!-- Accent marks on words -->
-  <rect x="30" y="92" rx="8" width="440" height="70" fill="#42A5F5" opacity="0.06" stroke="#1565C0" stroke-width="1"/>
-  <text x="250" y="110" font-family="Arial,sans-serif" font-size="13" fill="#1565C0" text-anchor="middle" font-weight="bold">Ударение в слове</text>
-  <!-- Words with accent marks -->
-  <text x="70" y="138" font-family="Georgia,serif" font-size="16" fill="#1565C0">д</text>
-  <text x="83" y="130" font-family="Arial,sans-serif" font-size="10" fill="#EF5350">&#x301;</text>
-  <text x="85" y="138" font-family="Georgia,serif" font-size="16" fill="#1565C0">ом</text>
-  
-  <text x="140" y="138" font-family="Georgia,serif" font-size="16" fill="#1565C0">звон</text>
-  <text x="175" y="130" font-family="Arial,sans-serif" font-size="10" fill="#EF5350">&#x301;</text>
-  <text x="178" y="138" font-family="Georgia,serif" font-size="16" fill="#1565C0">ит</text>
-  
-  <text x="230" y="138" font-family="Georgia,serif" font-size="16" fill="#1565C0">т</text>
-  <text x="243" y="130" font-family="Arial,sans-serif" font-size="10" fill="#EF5350">&#x301;</text>
-  <text x="245" y="138" font-family="Georgia,serif" font-size="16" fill="#1565C0">ворог</text>
-  
-  <text x="340" y="138" font-family="Georgia,serif" font-size="16" fill="#1565C0">крас</text>
-  <text x="375" y="130" font-family="Arial,sans-serif" font-size="10" fill="#EF5350">&#x301;</text>
-  <text x="378" y="138" font-family="Georgia,serif" font-size="16" fill="#1565C0">ивее</text>
-  
-  <!-- Rules section -->
-  <rect x="30" y="172" rx="8" width="210" height="120" fill="#E3F2FD" opacity="0.4" stroke="#42A5F5" stroke-width="1"/>
-  <text x="135" y="192" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">Правила</text>
-  <text x="45" y="210" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">- Звонит, не звонит</text>
-  <text x="45" y="225" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">- Красивее, не красивее</text>
-  <text x="45" y="240" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">- Каталог, не каталог</text>
-  <text x="45" y="255" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">- Договор, не договор</text>
-  <text x="45" y="270" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">- Торты, не торты</text>
-  
-  <!-- Common errors section -->
-  <rect x="260" y="172" rx="8" width="210" height="120" fill="#FFEBEE" opacity="0.3" stroke="#EF5350" stroke-width="1"/>
-  <text x="365" y="192" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle" font-weight="bold">Частые ошибки</text>
-  <text x="275" y="210" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-decoration="line-through">звонит</text>
-  <text x="340" y="210" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">звонит</text>
-  <text x="275" y="228" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-decoration="line-through">красивее</text>
-  <text x="355" y="228" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">красивее</text>
-  <text x="275" y="246" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-decoration="line-through">каталог</text>
-  <text x="340" y="246" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">каталог</text>
-  <text x="275" y="264" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-decoration="line-through">торты</text>
-  <text x="335" y="264" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">торты</text>
-  <text x="275" y="282" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-decoration="line-through">щавель</text>
-  <text x="340" y="282" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">щавель</text>
-
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#D32F2F" stroke-width="2.5"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#D32F2F" text-anchor="middle">Орфоэпические нормы</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Русский язык — Урок 2</text>
+  <line x1="30" y1="64" x2="470" y2="64" stroke="#D32F2F" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="72" width="230" height="130" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="30" y="90" font-family="Arial,sans-serif" font-size="13" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Ударение в словах</text>
+  <text x="35" y="112" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="start" font-weight="bold" font-style="">✓</text>
+  <text x="55" y="112" font-family="Arial,sans-serif" font-size="12" fill="#333333" text-anchor="start" font-weight="normal" font-style="">звонИт</text>
+  <text x="35" y="130" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="start" font-weight="bold" font-style="">✓</text>
+  <text x="55" y="130" font-family="Arial,sans-serif" font-size="12" fill="#333333" text-anchor="start" font-weight="normal" font-style="">включИт</text>
+  <text x="35" y="148" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="start" font-weight="bold" font-style="">✓</text>
+  <text x="55" y="148" font-family="Arial,sans-serif" font-size="12" fill="#333333" text-anchor="start" font-weight="normal" font-style="">облегчИт</text>
+  <text x="35" y="166" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="start" font-weight="bold" font-style="">✓</text>
+  <text x="55" y="166" font-family="Arial,sans-serif" font-size="12" fill="#333333" text-anchor="start" font-weight="normal" font-style="">свЁкла</text>
+  <text x="35" y="184" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="start" font-weight="bold" font-style="">✓</text>
+  <text x="55" y="184" font-family="Arial,sans-serif" font-size="12" fill="#333333" text-anchor="start" font-weight="normal" font-style="">тОрты</text>
+  <rect x="260" y="72" width="220" height="130" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="270" y="90" font-family="Arial,sans-serif" font-size="13" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Ошибочные варианты</text>
+  <text x="275" y="112" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="start" font-weight="normal" font-style="">звОнит ✗</text>
+  <text x="275" y="130" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="start" font-weight="normal" font-style="">вклЮчит ✗</text>
+  <text x="275" y="148" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="start" font-weight="normal" font-style="">облЕгчит ✗</text>
+  <text x="275" y="166" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="start" font-weight="normal" font-style="">свеклА ✗</text>
+  <text x="275" y="184" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="start" font-weight="normal" font-style="">тортЫ ✗</text>
+  <rect x="20" y="210" width="220" height="70" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="30" y="228" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Правила произношения</text>
+  <text x="30" y="245" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">-чн- → [шн]: коне[шн]о</text>
+  <text x="30" y="260" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">-чт- → [шт]: [шт]о</text>
+  <text x="30" y="275" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">-ться → [ца]: учиться</text>
+  <rect x="250" y="210" width="230" height="70" rx="5" fill="#D32F2F" opacity="0.08"/>
+  <text x="260" y="228" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="start" font-weight="bold" font-style="">Особенности ударения</text>
+  <text x="260" y="245" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">• Разноместность</text>
+  <text x="260" y="260" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">• Подвижность</text>
+  <text x="260" y="275" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">• Вариантность</text>
+  <rect x="20" y="286" width="460" height="30" rx="5" fill="#D32F2F" opacity="0.06"/>
+  <text x="250" y="305" font-family="Arial,sans-serif" font-size="10" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">Орфоэпический словарь — справочник правильного произношения</text>
+  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#D32F2F" opacity="0.06"/>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#D32F2F" text-anchor="middle" font-style="italic">Русский язык · 10 класс</text>
 </svg>
