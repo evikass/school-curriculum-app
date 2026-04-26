@@ -1,31 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="0%" stop-color="#E3F2FD"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7B1FA2"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
     </linearGradient>
+    <marker id="arrowBlue" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#1565C0"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#E53935"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#4CAF50"/>
+    </marker>
+    <marker id="arrowDark" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#333"/>
+    </marker>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7B1FA2" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#7B1FA2" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Магнитное поле</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 1</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#7B1FA2" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#7B1FA2" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.12" rx="1"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1565C0" text-anchor="middle">Магнитное поле</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика — Урок 1</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  <circle cx="250" cy="170" r="50" fill="none" stroke="#7B1FA2" stroke-width="2"/><circle cx="250" cy="170" r="30" fill="none" stroke="#6A1B9A" stroke-width="1.5" stroke-dasharray="4,4"/><line x1="250" y1="120" x2="250" y2="220" stroke="#7B1FA2" stroke-width="1.5"/><polygon points="250,120 245,130 255,130" fill="#7B1FA2"/><text x="250" y="245" font-family="Arial,sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle" opacity="0.5">B</text>
+    <!-- Magnetic field lines illustration -->
+    <rect x="15" y="85" width="470" height="215" fill="#E3F2FD" opacity="0.5"/>
+    <!-- Bar magnet -->
+    <rect x="40" y="100" width="80" height="35" rx="3" fill="#E53935" stroke="#B71C1C" stroke-width="1"/>
+    <rect x="120" y="100" width="80" height="35" rx="3" fill="#1E88E5" stroke="#0D47A1" stroke-width="1"/>
+    <text x="70" y="123" font-family="Arial,sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="bold">N</text>
+    <text x="150" y="123" font-family="Arial,sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="bold">S</text>
+    <!-- Field lines from N to S (external) -->
+    <path d="M80,100 Q80,70 150,70 Q220,70 220,100" fill="none" stroke="#1565C0" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+    <path d="M100,100 Q100,80 150,80 Q200,80 200,100" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+    <path d="M80,135 Q80,165 150,165 Q220,165 220,135" fill="none" stroke="#1565C0" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+    <path d="M100,135 Q100,155 150,155 Q200,155 200,135" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+    <!-- Current-carrying conductor cross-section -->
+    <circle cx="320" cy="115" r="15" fill="white" stroke="#1565C0" stroke-width="2"/>
+    <circle cx="320" cy="115" r="3" fill="#1565C0"/>
+    <text x="320" y="100" font-family="Arial,sans-serif" font-size="8" fill="#0D47A1" text-anchor="middle">⊙ I</text>
+    <!-- Circular B-field around conductor -->
+    <circle cx="320" cy="115" r="28" fill="none" stroke="#1565C0" stroke-width="1" stroke-dasharray="4,3"/>
+    <circle cx="320" cy="115" r="42" fill="none" stroke="#1565C0" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="365" y="115" font-family="Arial,sans-serif" font-size="9" fill="#1565C0">B</text>
+    <!-- Right-hand rule hint -->
+    <text x="320" y="168" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1" text-anchor="middle">Правило буравчика</text>
+    <!-- Formulas box -->
+    <rect x="20" y="180" width="225" height="112" rx="5" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+    <text x="30" y="198" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Сила Ампера:</text>
+    <text x="30" y="215" font-family="Arial,sans-serif" font-size="12" fill="#1565C0">F = B·I·L·sin(α)</text>
+    <text x="30" y="232" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Сила Лоренца:</text>
+    <text x="30" y="249" font-family="Arial,sans-serif" font-size="12" fill="#1565C0">F = q·v·B·sin(α)</text>
+    <text x="30" y="266" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Магнитный поток:</text>
+    <text x="30" y="283" font-family="Arial,sans-serif" font-size="12" fill="#1565C0">Φ = B·S·cos(α)</text>
+    <!-- Right box: properties -->
+    <rect x="255" y="180" width="225" height="112" rx="5" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+    <text x="265" y="198" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Свойства магнитного поля:</text>
+    <text x="265" y="215" font-family="Arial,sans-serif" font-size="10" fill="#444">• Порождается движущимися зарядами</text>
+    <text x="265" y="230" font-family="Arial,sans-serif" font-size="10" fill="#444">• Действует на движущиеся заряды</text>
+    <text x="265" y="245" font-family="Arial,sans-serif" font-size="10" fill="#444">• Замкнутые силовые линии</text>
+    <text x="265" y="260" font-family="Arial,sans-serif" font-size="10" fill="#444">• В = μ₀μH (в веществе)</text>
+    <text x="265" y="278" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" font-weight="bold">μ₀ = 4π·10⁻⁷ Тл·м/А</text>
+    <text x="265" y="293" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">[B] = Тл (тесла)</text>
+    
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#7B1FA2" text-anchor="middle" opacity="0.6">11 класс • Физика</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика · 11 класс</text>
 </svg>

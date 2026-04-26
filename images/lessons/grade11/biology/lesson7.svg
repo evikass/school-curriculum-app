@@ -1,31 +1,102 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="0%" stop-color="#F1F8E9"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4CAF50"/>
-      <stop offset="100%" stop-color="#388E3C"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#33691E"/>
+      <stop offset="100%" stop-color="#558B2F"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4CAF50" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#4CAF50" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#388E3C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#388E3C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#4CAF50" text-anchor="middle">Урок 7: Экосистемы</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#4CAF50" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#4CAF50" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#388E3C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#33691E" stroke-width="2.5"/>
+  <text x="250" y="40" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#33691E" text-anchor="middle">Экосистемы</text>
+  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#777" text-anchor="middle">Биология — Урок 7</text>
+  <line x1="30" y1="66" x2="470" y2="66" stroke="#33691E" stroke-width="2" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="72" width="470" height="230" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  <circle cx="200" cy="160" r="30" fill="#4CAF50" opacity="0.15"/><circle cx="300" cy="180" r="25" fill="#388E3C" opacity="0.12"/><circle cx="250" cy="200" r="20" fill="#4CAF50" opacity="0.1"/><text x="250" y="230" font-family="Arial,sans-serif" font-size="11" fill="#4CAF50" text-anchor="middle" opacity="0.6">Eco</text>
+    <rect x="15" y="72" width="470" height="230" fill="#F1F8E9" opacity="0.5"/>
+
+    <!-- Ecosystem diagram -->
+    <text x="250" y="90" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#33691E" text-anchor="middle">Структура экосистемы</text>
+    
+    <!-- Sun -->
+    <circle cx="55" cy="115" r="16" fill="#FFF9C4" stroke="#FBC02D" stroke-width="1.5"/>
+    <text x="55" y="119" font-family="Arial,sans-serif" font-size="9" fill="#F57F17" text-anchor="middle">☀️</text>
+    <text x="55" y="140" font-family="Arial,sans-serif" font-size="6.5" fill="#777" text-anchor="middle">Энергия</text>
+
+    <!-- Arrow: Sun → Producers -->
+    <line x1="72" y1="120" x2="115" y2="120" stroke="#FBC02D" stroke-width="1.5" marker-end="url(#arr7)"/>
+    <defs><marker id="arr7" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto">
+      <polygon points="0 0, 6 2.5, 0 5" fill="#FBC02D"/>
+    </marker></defs>
+
+    <!-- Producers -->
+    <rect x="118" y="105" width="75" height="32" rx="5" fill="#8BC34A" opacity="0.3" stroke="#33691E" stroke-width="1.2"/>
+    <text x="155" y="118" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#33691E" text-anchor="middle">Продуценты</text>
+    <text x="155" y="130" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">Растения, водоросли</text>
+
+    <!-- Arrow: Producers → Primary consumers -->
+    <line x1="195" y1="120" x2="230" y2="120" stroke="#33691E" stroke-width="1.5" marker-end="url(#arr7g)"/>
+    <defs><marker id="arr7g" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto">
+      <polygon points="0 0, 6 2.5, 0 5" fill="#33691E"/>
+    </marker></defs>
+
+    <!-- Primary consumers -->
+    <rect x="233" y="105" width="75" height="32" rx="5" fill="#A5D6A7" opacity="0.4" stroke="#33691E" stroke-width="1"/>
+    <text x="270" y="118" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#33691E" text-anchor="middle">Консументы I</text>
+    <text x="270" y="130" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">Травоядные</text>
+
+    <!-- Arrow -->
+    <line x1="310" y1="120" x2="340" y2="120" stroke="#33691E" stroke-width="1.5" marker-end="url(#arr7g)"/>
+
+    <!-- Secondary consumers -->
+    <rect x="343" y="105" width="75" height="32" rx="5" fill="#FFCC80" opacity="0.4" stroke="#33691E" stroke-width="1"/>
+    <text x="380" y="118" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#33691E" text-anchor="middle">Консументы II</text>
+    <text x="380" y="130" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">Хищники</text>
+
+    <!-- Arrow down to decomposers -->
+    <path d="M380,138 L380,160 L270,165" fill="none" stroke="#33691E" stroke-width="1" marker-end="url(#arr7g)"/>
+
+    <!-- Decomposers -->
+    <rect x="185" y="155" width="90" height="25" rx="5" fill="#F1F8E9" stroke="#33691E" stroke-width="1"/>
+    <text x="230" y="168" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#33691E" text-anchor="middle">Редуценты</text>
+    <text x="230" y="178" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">Бактерии, грибы</text>
+
+    <!-- Nutrient cycle arrow back -->
+    <path d="M185,170 L130,175 L125,140" fill="none" stroke="#795548" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arr7b)"/>
+    <defs><marker id="arr7b" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto">
+      <polygon points="0 0, 6 2.5, 0 5" fill="#795548"/>
+    </marker></defs>
+    <text x="120" y="165" font-family="Arial,sans-serif" font-size="5.5" fill="#795548">вещества</text>
+
+    <!-- Energy pyramid -->
+    <rect x="30" y="200" width="200" height="95" rx="5" fill="white" stroke="#33691E" stroke-width="1"/>
+    <text x="130" y="215" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">Пирамида энергии</text>
+    
+    <polygon points="130,225 100,290 160,290" fill="#A5D6A7" opacity="0.4" stroke="#33691E" stroke-width="0.8"/>
+    <!-- Trophic levels -->
+    <line x1="100" y1="290" x2="160" y2="290" stroke="#33691E" stroke-width="1"/>
+    <text x="130" y="287" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Продуценты</text>
+    <line x1="110" y1="273" x2="150" y2="273" stroke="#33691E" stroke-width="1"/>
+    <text x="130" y="270" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Конс. I</text>
+    <line x1="118" y1="256" x2="142" y2="256" stroke="#33691E" stroke-width="1"/>
+    <text x="130" y="253" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Конс. II</text>
+    <line x1="124" y1="239" x2="136" y2="239" stroke="#33691E" stroke-width="1"/>
+    <text x="130" y="236" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">Конс. III</text>
+    <text x="130" y="227" font-family="Arial,sans-serif" font-size="5" fill="#777" text-anchor="middle">1% энергии</text>
+
+    <!-- Rules -->
+    <rect x="250" y="200" width="220" height="95" rx="5" fill="white" stroke="#33691E" stroke-width="1"/>
+    <text x="360" y="215" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">Правила экосистемы</text>
+    <text x="260" y="232" font-family="Arial,sans-serif" font-size="7.5" fill="#33691E">Правило 10%:</text>
+    <text x="260" y="243" font-family="Arial,sans-serif" font-size="7" fill="#33691E">Переход ~10% энергии между</text>
+    <text x="260" y="253" font-family="Arial,sans-serif" font-size="7" fill="#33691E">соседними трофическими уровнями</text>
+    <text x="260" y="268" font-family="Arial,sans-serif" font-size="7.5" fill="#33691E">Поток энергии — открытый</text>
+    <text x="260" y="279" font-family="Arial,sans-serif" font-size="7.5" fill="#33691E">Круговорот веществ — замкнутый</text>
+    <text x="260" y="291" font-family="Arial,sans-serif" font-size="7.5" fill="#33691E">Саморегуляция → устойчивость</text>
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#4CAF50" text-anchor="middle" opacity="0.6">11 класс • Биология</text>
+  <line x1="30" y1="308" x2="470" y2="308" stroke="#33691E" stroke-width="1.5" opacity="0.25"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="11" fill="#33691E" text-anchor="middle">Биология · 11 класс</text>
 </svg>

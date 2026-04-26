@@ -1,31 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+      <stop offset="0%" stop-color="#E8F5E9" />
+      <stop offset="100%" stop-color="#FFFFFF" />
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2E7D32"/>
-      <stop offset="100%" stop-color="#1B5E20"/>
+      <stop offset="0%" stop-color="#43A047" />
+      <stop offset="100%" stop-color="#2E7D32" />
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1B5E20" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1B5E20" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#2E7D32" text-anchor="middle">Урок 7: Каучуки и резины</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#2E7D32" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#2E7D32" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1B5E20" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <rect width="500" height="350" fill="url(#bg)" rx="10" />
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5" />
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#2E7D32" text-anchor="middle">Каучуки и резины</text>
+  <text x="250" y="62" font-family="Arial,sans-serif" font-size="12" fill="#777777" text-anchor="middle">Химия — Урок 7</text>
+  <line x1="30" y1="72" x2="470" y2="72" stroke="#2E7D32" stroke-width="2" opacity="0.25" />
+  <defs>
+    <clipPath id="ill">
+      <rect x="15" y="80" width="470" height="225" rx="6" />
+    </clipPath>
+  </defs>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  <polygon points="250,120 290,190 210,190" fill="none" stroke="#2E7D32" stroke-width="2"/><circle cx="250" cy="170" r="8" fill="#1B5E20" opacity="0.3"/><text x="250" y="210" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle" opacity="0.5">C₆H₁₂O₆</text>
+    <rect x="15" y="80" width="470" height="225" fill="#F1F8E9" rx="6" opacity="0.5" />
+    <rect x="25" y="88" width="215" height="115" fill="#FFFFFF" rx="6" stroke="#2E7D32" stroke-width="1.2" />
+    <text x="132" y="104" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle" font-weight="bold">Натуральный каучук</text>
+    <text x="132" y="122" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">изопрен: CH₂=C(CH₃)—CH=CH₂</text>
+    <text x="132" y="140" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">Полимеризация изопрена:</text>
+    <text x="132" y="156" font-family="Arial,sans-serif" font-size="11" fill="#1B5E20" text-anchor="middle" font-weight="bold">nC₅H₈ → (—C₅H₈—)n</text>
+    <text x="132" y="172" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">цис-1,4-полиизопрен</text>
+    <text x="132" y="188" font-family="Arial,sans-serif" font-size="10" fill="#777777" text-anchor="middle" font-weight="normal">Источник: сок гевеи</text>
+    <text x="132" y="200" font-family="Arial,sans-serif" font-size="10" fill="#777777" text-anchor="middle" font-weight="normal">Эластичный, липкий</text>
+    <rect x="260" y="88" width="215" height="115" fill="#FFFFFF" rx="6" stroke="#2E7D32" stroke-width="1.2" />
+    <text x="367" y="104" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle" font-weight="bold">Синтетические каучуки</text>
+    <text x="367" y="122" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">Бутадиеновый (СКБ):</text>
+    <text x="367" y="136" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">nCH₂=CH—CH=CH₂</text>
+    <text x="367" y="152" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">Изопреновый (СКИ):</text>
+    <text x="367" y="166" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">nCH₂=C(CH₃)—CH=CH₂</text>
+    <text x="367" y="182" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">Хлоропреновый, бутadiен-</text>
+    <text x="367" y="196" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">нитрильный, силиконовый</text>
+    <rect x="25" y="210" width="450" height="92" fill="#FFFFFF" rx="6" stroke="#2E7D32" stroke-width="1.2" />
+    <text x="250" y="228" font-family="Arial,sans-serif" font-size="14" fill="#2E7D32" text-anchor="middle" font-weight="bold">Вулканизация</text>
+    <text x="250" y="248" font-family="Arial,sans-serif" font-size="12" fill="#333333" text-anchor="middle" font-weight="normal">Каучук + S (серa) → Резина  (t° = 140–160°C)</text>
+    <text x="80" y="272" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">Линейные цепи</text>
+    <defs>
+      <marker id="arr_150_269_200_269" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#2E7D32" />
+      </marker>
+      <marker id="arr_350_269_400_269" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#2E7D32" />
+      </marker>
+    </defs>
+    <line x1="150" y1="269" x2="200" y2="269" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arr_150_269_200_269)" />
+    <text x="270" y="272" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="bold">Сшивка серой (S)</text>
+    <line x1="350" y1="269" x2="400" y2="269" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arr_350_269_400_269)" />
+    <text x="440" y="272" font-family="Arial,sans-serif" font-size="10" fill="#1B5E20" text-anchor="middle" font-weight="bold">Резина</text>
+    <text x="250" y="294" font-family="Arial,sans-serif" font-size="10" fill="#777777" text-anchor="middle" font-weight="normal">Резина: прочная, упругая, нерастворимая, стойкая к износу</text>
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle" opacity="0.6">11 класс • Химия</text>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#777777" text-anchor="middle">Химия · 11 класс</text>
 </svg>

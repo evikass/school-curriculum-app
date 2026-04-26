@@ -1,31 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+      <stop offset="0%" stop-color="#E8F5E9" />
+      <stop offset="100%" stop-color="#FFFFFF" />
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2E7D32"/>
-      <stop offset="100%" stop-color="#1B5E20"/>
+      <stop offset="0%" stop-color="#43A047" />
+      <stop offset="100%" stop-color="#2E7D32" />
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1B5E20" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1B5E20" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#2E7D32" text-anchor="middle">Урок 6: Природные полимеры</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#2E7D32" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#2E7D32" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1B5E20" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <rect width="500" height="350" fill="url(#bg)" rx="10" />
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5" />
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#2E7D32" text-anchor="middle">Природные полимеры</text>
+  <text x="250" y="62" font-family="Arial,sans-serif" font-size="12" fill="#777777" text-anchor="middle">Химия — Урок 6</text>
+  <line x1="30" y1="72" x2="470" y2="72" stroke="#2E7D32" stroke-width="2" opacity="0.25" />
+  <defs>
+    <clipPath id="ill">
+      <rect x="15" y="80" width="470" height="225" rx="6" />
+    </clipPath>
+  </defs>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  <path d="M200,130 L200,200 L300,200 L300,130" fill="none" stroke="#2E7D32" stroke-width="2"/><line x1="200" y1="200" x2="300" y2="130" stroke="#1B5E20" stroke-width="1" opacity="0.3"/><text x="250" y="170" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle" opacity="0.5">pH</text>
+    <rect x="15" y="80" width="470" height="225" fill="#F1F8E9" rx="6" opacity="0.5" />
+    <rect x="25" y="88" width="450" height="68" fill="#FFFFFF" rx="6" stroke="#2E7D32" stroke-width="1.2" />
+    <text x="250" y="104" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32" text-anchor="middle" font-weight="bold">Полисахариды — (C₆H₁₀O₅)n</text>
+    <text x="132" y="124" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">Крахмал: запасающее вещество растений</text>
+    <text x="132" y="138" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">Целлюлоза: структурный компонент клеточной стенки</text>
+    <text x="132" y="152" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">Гликоген: запасающее вещество животных (животный крахмал)</text>
+    <rect x="25" y="163" width="215" height="110" fill="#FFFFFF" rx="6" stroke="#2E7D32" stroke-width="1.2" />
+    <text x="132" y="179" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32" text-anchor="middle" font-weight="bold">Целлюлоза</text>
+    <text x="132" y="197" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">β-гликозидные связи</text>
+    <text x="132" y="211" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">Не усваивается человеком</text>
+    <text x="132" y="225" font-family="Arial,sans-serif" font-size="9" fill="#777777" text-anchor="middle" font-weight="normal">(нет фермента целлюлазы)</text>
+    <text x="132" y="243" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">Степень полимеризации:</text>
+    <text x="132" y="257" font-family="Arial,sans-serif" font-size="11" fill="#1B5E20" text-anchor="middle" font-weight="bold">n = 2000–15000</text>
+    <text x="132" y="269" font-family="Arial,sans-serif" font-size="9" fill="#777777" text-anchor="middle" font-weight="normal">Волокна: хлопок, лён</text>
+    <rect x="260" y="163" width="215" height="110" fill="#FFFFFF" rx="6" stroke="#2E7D32" stroke-width="1.2" />
+    <text x="367" y="179" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32" text-anchor="middle" font-weight="bold">Крахмал</text>
+    <text x="367" y="197" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">α-гликозидные связи</text>
+    <text x="367" y="211" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">Усваивается человеком</text>
+    <text x="367" y="225" font-family="Arial,sans-serif" font-size="9" fill="#777777" text-anchor="middle" font-weight="normal">(амилаза в слюне)</text>
+    <text x="367" y="243" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="normal">Амилоза + Амилопектин:</text>
+    <text x="367" y="257" font-family="Arial,sans-serif" font-size="11" fill="#1B5E20" text-anchor="middle" font-weight="bold">линейная + разветвлённая</text>
+    <text x="367" y="269" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="normal">Йод → синее окрашивание</text>
+    <rect x="25" y="280" width="450" height="22" fill="#2E7D32" rx="4" opacity="0.12" />
+    <text x="250" y="296" font-family="Arial,sans-serif" font-size="10" fill="#1B5E20" text-anchor="middle" font-weight="normal">Гидролиз: (C₆H₁₀O₅)n + nH₂O → nC₆H₁₂O₆ (глюкоза)</text>
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle" opacity="0.6">11 класс • Химия</text>
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#777777" text-anchor="middle">Химия · 11 класс</text>
 </svg>

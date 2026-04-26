@@ -1,31 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#F3E5F5"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#3F51B5"/>
+      <stop offset="0%" stop-color="#6A1B9A"/>
+      <stop offset="100%" stop-color="#4A148C"/>
     </linearGradient>
+    <marker id="arrowBlue" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#6A1B9A"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#E53935"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#4CAF50"/>
+    </marker>
+    <marker id="arrowDark" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#333"/>
+    </marker>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#3F51B5" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Иррациональные уравнения</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 5</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#6A1B9A" stroke-width="2.5"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Иррациональные уравнения</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра — Урок 5</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#6A1B9A" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <rect x="150" y="130" width="80" height="80" fill="#5C6BC0" opacity="0.15" rx="3"/><line x1="150" y1="130" x2="230" y2="210" stroke="#5C6BC0" stroke-width="1.5" opacity="0.4"/><line x1="230" y1="130" x2="150" y2="210" stroke="#5C6BC0" stroke-width="1.5" opacity="0.4"/><text x="270" y="175" font-family="Arial,sans-serif" font-size="16" fill="#5C6BC0" text-anchor="middle" opacity="0.7">|x|</text>
+    <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
+    <!-- Root function graph -->
+    <rect x="25" y="95" width="220" height="130" rx="5" fill="white" opacity="0.7" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="135" y="110" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" text-anchor="middle" font-weight="bold">y = √(f(x))</text>
+    <line x1="40" y1="195" x2="230" y2="195" stroke="#888" stroke-width="0.5"/>
+    <line x1="40" y1="195" x2="40" y2="115" stroke="#888" stroke-width="0.5"/>
+    <!-- sqrt curve -->
+    <path d="M50,192 Q80,175 110,160 Q140,145 170,135 Q200,128 225,122" fill="none" stroke="#6A1B9A" stroke-width="2.5"/>
+    <text x="228" y="118" font-family="Arial,sans-serif" font-size="9" fill="#6A1B9A">√x</text>
+    <!-- Domain marker -->
+    <line x1="40" y1="195" x2="50" y2="195" stroke="#E53935" stroke-width="2"/>
+    <text x="40" y="208" font-family="Arial,sans-serif" font-size="8" fill="#E53935">0</text>
+    <text x="35" y="112" font-family="Arial,sans-serif" font-size="9" fill="#4A148C">y</text>
+    <text x="233" y="198" font-family="Arial,sans-serif" font-size="9" fill="#4A148C">x</text>
+    <!-- Methods -->
+    <rect x="260" y="95" width="215" height="130" rx="3" fill="white" opacity="0.9" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="367" y="110" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" text-anchor="middle" font-weight="bold">Методы решения</text>
+    <text x="270" y="130" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" font-weight="bold">1. Возведение в степень:</text>
+    <text x="270" y="145" font-family="Arial,sans-serif" font-size="9" fill="#444">√(f(x)) = g(x) ⇒ f(x) = g²(x)</text>
+    <text x="270" y="160" font-family="Arial,sans-serif" font-size="9" fill="#E53935">+ проверка! (ОДЗ: g(x) ≥ 0)</text>
+    <text x="270" y="178" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" font-weight="bold">2. Замена переменной:</text>
+    <text x="270" y="193" font-family="Arial,sans-serif" font-size="9" fill="#444">√x = t, t ≥ 0</text>
+    <text x="270" y="211" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" font-weight="bold">3. Свойства корней:</text>
+    <text x="270" y="226" font-family="Arial,sans-serif" font-size="9" fill="#444">√a·√b = √(ab); √a/√b = √(a/b)</text>
+    <!-- Examples -->
+    <rect x="20" y="230" width="460" height="66" rx="5" fill="white" opacity="0.9" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="30" y="248" font-family="Arial,sans-serif" font-size="11" fill="#4A148C" font-weight="bold">Пример:</text>
+    <text x="30" y="265" font-family="Arial,sans-serif" font-size="10" fill="#444">√(2x+1) = x − 1  ⇒  2x+1 = (x−1)²  ⇒  x²−4x = 0</text>
+    <text x="30" y="280" font-family="Arial,sans-serif" font-size="10" fill="#444">x = 0 или x = 4. Проверка: x=0 → −1✗; x=4 → √9=3 ✓</text>
+    <text x="30" y="293" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A">Ответ: x = 4 (посторонний корень исключён)</text>
+    
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#5C6BC0" text-anchor="middle" opacity="0.6">11 класс • Алгебра</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра · 11 класс</text>
 </svg>

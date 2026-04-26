@@ -1,31 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#EDE7F6"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#F5FDFC"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7C4DFF"/>
-      <stop offset="100%" stop-color="#651FFF"/>
+      <stop offset="0%" stop-color="#00695C"/>
+      <stop offset="100%" stop-color="#00897B"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7C4DFF" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#7C4DFF" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#7C4DFF" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#651FFF" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#7C4DFF" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#651FFF" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#7C4DFF" text-anchor="middle">Урок 10: Права человека</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Обществознание - Урок 10</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#7C4DFF" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#7C4DFF" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#651FFF" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#00695C" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#00695C" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#00897B" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#004D40" opacity="0.12"/>
+  <text x="250" y="46" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#00695C" text-anchor="middle">Права человека</text>
+  <text x="250" y="66" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Обществознание — Урок 10</text>
+  <line x1="30" y1="76" x2="470" y2="76" stroke="#00695C" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="73" width="60" height="5" fill="#00695C" opacity="0.18" rx="1"/>
+  <rect x="410" y="73" width="60" height="5" fill="#00897B" opacity="0.12" rx="1"/>
+  <clipPath id="ill"><rect x="15" y="83" width="470" height="217" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#EDE7F6" opacity="0.5"/>
-  <rect x="180" y="130" width="140" height="90" fill="none" stroke="#7C4DFF" stroke-width="2" rx="5"/><line x1="180" y1="155" x2="320" y2="155" stroke="#7C4DFF" stroke-width="1" opacity="0.3"/><text x="250" y="148" font-family="Arial,sans-serif" font-size="12" fill="#7C4DFF" text-anchor="middle" opacity="0.6">⚖</text><text x="250" y="190" font-family="Arial,sans-serif" font-size="11" fill="#651FFF" text-anchor="middle" opacity="0.4">Право</text>
+  <rect x="15" y="83" width="470" height="217" fill="#E0F2F1"/>
+  
+    <!-- Definition -->
+    <rect x="25" y="90" width="450" height="35" rx="5" fill="#00695C" opacity="0.1" stroke="#00695C" stroke-width="1"/>
+    <text x="250" y="107" font-family="Arial,sans-serif" font-size="10" fill="#004D40" text-anchor="middle" font-weight="bold">Права человека — неотъемлемые права, принадлежащие каждому от рождения</text>
+
+    <!-- Generations of rights -->
+    <rect x="25" y="132" width="145" height="80" rx="6" fill="white" stroke="#00695C" stroke-width="1.5"/>
+    <rect x="25" y="132" width="145" height="22" rx="6" fill="#00695C"/>
+    <text x="97" y="148" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">I поколение</text>
+    <text x="35" y="167" font-family="Arial,sans-serif" font-size="8" fill="#004D40">Личные и политические</text>
+    <circle cx="40" cy="180" r="2.5" fill="#00695C"/>
+    <text x="48" y="184" font-family="Arial,sans-serif" font-size="7" fill="#666">Право на жизнь</text>
+    <circle cx="40" cy="193" r="2.5" fill="#00695C"/>
+    <text x="48" y="197" font-family="Arial,sans-serif" font-size="7" fill="#666">Свобода слова</text>
+    <circle cx="40" cy="206" r="2.5" fill="#00695C"/>
+    <text x="48" y="210" font-family="Arial,sans-serif" font-size="7" fill="#666">Равенство перед законом</text>
+
+    <rect x="180" y="132" width="145" height="80" rx="6" fill="white" stroke="#00897B" stroke-width="1.5"/>
+    <rect x="180" y="132" width="145" height="22" rx="6" fill="#00897B"/>
+    <text x="252" y="148" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">II поколение</text>
+    <text x="190" y="167" font-family="Arial,sans-serif" font-size="8" fill="#004D40">Социально-экономические</text>
+    <circle cx="195" cy="180" r="2.5" fill="#00897B"/>
+    <text x="203" y="184" font-family="Arial,sans-serif" font-size="7" fill="#666">Право на труд</text>
+    <circle cx="195" cy="193" r="2.5" fill="#00897B"/>
+    <text x="203" y="197" font-family="Arial,sans-serif" font-size="7" fill="#666">Право на образование</text>
+    <circle cx="195" cy="206" r="2.5" fill="#00897B"/>
+    <text x="203" y="210" font-family="Arial,sans-serif" font-size="7" fill="#666">Право на отдых</text>
+
+    <rect x="335" y="132" width="140" height="80" rx="6" fill="white" stroke="#26A69A" stroke-width="1.5"/>
+    <rect x="335" y="132" width="140" height="22" rx="6" fill="#26A69A"/>
+    <text x="405" y="148" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">III поколение</text>
+    <text x="345" y="167" font-family="Arial,sans-serif" font-size="8" fill="#004D40">Коллективные права</text>
+    <circle cx="350" cy="180" r="2.5" fill="#26A69A"/>
+    <text x="358" y="184" font-family="Arial,sans-serif" font-size="7" fill="#666">Право на мир</text>
+    <circle cx="350" cy="193" r="2.5" fill="#26A69A"/>
+    <text x="358" y="197" font-family="Arial,sans-serif" font-size="7" fill="#666">Право на экологию</text>
+    <circle cx="350" cy="206" r="2.5" fill="#26A69A"/>
+    <text x="358" y="210" font-family="Arial,sans-serif" font-size="7" fill="#666">Право на развитие</text>
+
+    <!-- Key documents -->
+    <rect x="25" y="222" width="450" height="76" rx="6" fill="white" stroke="#00695C" stroke-width="1"/>
+    <text x="250" y="240" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="middle" font-weight="bold">Основные документы</text>
+    <line x1="35" y1="246" x2="465" y2="246" stroke="#00695C" stroke-width="0.5" opacity="0.3"/>
+    <rect x="35" y="252" width="130" height="38" rx="4" fill="#00695C" opacity="0.08"/>
+    <text x="100" y="268" font-family="Arial,sans-serif" font-size="8" fill="#00695C" text-anchor="middle" font-weight="bold">Всеобщая декларация</text>
+    <text x="100" y="280" font-family="Arial,sans-serif" font-size="8" fill="#00695C" text-anchor="middle">прав человека (1948)</text>
+    <rect x="175" y="252" width="150" height="38" rx="4" fill="#00897B" opacity="0.08"/>
+    <text x="250" y="268" font-family="Arial,sans-serif" font-size="8" fill="#00897B" text-anchor="middle" font-weight="bold">Конвенция о правах</text>
+    <text x="250" y="280" font-family="Arial,sans-serif" font-size="8" fill="#00897B" text-anchor="middle">ребёнка (1989)</text>
+    <rect x="335" y="252" width="130" height="38" rx="4" fill="#26A69A" opacity="0.08"/>
+    <text x="400" y="268" font-family="Arial,sans-serif" font-size="8" fill="#26A69A" text-anchor="middle" font-weight="bold">Конституция РФ</text>
+    <text x="400" y="280" font-family="Arial,sans-serif" font-size="8" fill="#26A69A" text-anchor="middle">гл. 2 (1993)</text>
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#7C4DFF" text-anchor="middle" opacity="0.6">11 класс • Обществознание</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Обществознание · 11 класс</text>
 </svg>

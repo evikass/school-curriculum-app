@@ -1,31 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1B5E20"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF8F00"/>
-      <stop offset="100%" stop-color="#FF6F00"/>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F8E9"/>
     </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#1B5E20" flood-opacity="0.12"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF8F00" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF8F00" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF8F00" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#FF6F00" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF8F00" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#FF6F00" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FF8F00" text-anchor="middle">Анализ экономических ситуаций</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экономика - Урок 31</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#FF8F00" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FF8F00" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#FF6F00" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF8E1" opacity="0.5"/>
-  <path d="M150,220 L200,180 L250,200 L300,150 L350,170" fill="none" stroke="#FF8F00" stroke-width="2.5"/><line x1="130" y1="230" x2="370" y2="230" stroke="#FF8F00" stroke-width="1" opacity="0.4"/><text x="250" y="250" font-family="Arial,sans-serif" font-size="12" fill="#FF8F00" text-anchor="middle" opacity="0.5">GDP</text>
-  </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#FF8F00" text-anchor="middle" opacity="0.6">11 класс • Экономика</text>
+  <rect x="0" y="0" width="500" height="350" rx="12" ry="12" fill="#E8F5E9"/>
+  <rect x="1.5" y="1.5" width="497" height="347" rx="11" ry="11" fill="none" stroke="#1B5E20" stroke-width="2.5"/>
+  <rect x="3" y="3" width="494" height="52" rx="9" ry="9" fill="url(#hdr)"/>
+  <rect x="3" y="35" width="494" height="20" fill="url(#hdr)"/>
+  <text x="250" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" opacity="0.85">Экономика — Урок 31</text>
+  <text x="250" y="46" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">Анализ экономических ситуаций</text>
+  <line x1="40" y1="58" x2="460" y2="58" stroke="#C8E6C9" stroke-width="0.5" opacity="0.6"/>
+  <rect x="16" y="66" width="468" height="58" rx="6" ry="6" fill="url(#cardBg)" filter="url(#shadow)"/>
+  <rect x="16" y="66" width="5" height="58" rx="3" ry="0" fill="#1B5E20"/>
+  <rect x="18" y="66" width="3" height="58" fill="#1B5E20"/>
+  <circle cx="44" cy="82" r="11" fill="#1B5E20" opacity="0.12"/>
+  <circle cx="44" cy="82" r="11" fill="none" stroke="#1B5E20" stroke-width="1" opacity="0.4"/>
+  <text x="44" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1B5E20">1</text>
+  <text x="62" y="86" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0D3B0F">Рост цен на нефть</text>
+  <text x="62" y="104" font-family="Arial, sans-serif" font-size="11" fill="#4E6E4E">Улучшение торгового баланса, укрепление рубля</text>
+  <rect x="16" y="129" width="468" height="58" rx="6" ry="6" fill="url(#cardBg)" filter="url(#shadow)"/>
+  <rect x="16" y="129" width="5" height="58" rx="3" ry="0" fill="#1B5E20"/>
+  <rect x="18" y="129" width="3" height="58" fill="#1B5E20"/>
+  <circle cx="44" cy="145" r="11" fill="#1B5E20" opacity="0.12"/>
+  <circle cx="44" cy="145" r="11" fill="none" stroke="#1B5E20" stroke-width="1" opacity="0.4"/>
+  <text x="44" y="149" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1B5E20">2</text>
+  <text x="62" y="149" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0D3B0F">Повышение ключевой ставки</text>
+  <text x="62" y="167" font-family="Arial, sans-serif" font-size="11" fill="#4E6E4E">Снижение инфляции, рост стоимости кредитов</text>
+  <rect x="16" y="192" width="468" height="58" rx="6" ry="6" fill="url(#cardBg)" filter="url(#shadow)"/>
+  <rect x="16" y="192" width="5" height="58" rx="3" ry="0" fill="#1B5E20"/>
+  <rect x="18" y="192" width="3" height="58" fill="#1B5E20"/>
+  <circle cx="44" cy="208" r="11" fill="#1B5E20" opacity="0.12"/>
+  <circle cx="44" cy="208" r="11" fill="none" stroke="#1B5E20" stroke-width="1" opacity="0.4"/>
+  <text x="44" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1B5E20">3</text>
+  <text x="62" y="212" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0D3B0F">Девальвация</text>
+  <text x="62" y="230" font-family="Arial, sans-serif" font-size="11" fill="#4E6E4E">Удорожание импорта, стимулирование экспорта</text>
+  <rect x="16" y="255" width="468" height="58" rx="6" ry="6" fill="url(#cardBg)" filter="url(#shadow)"/>
+  <rect x="16" y="255" width="5" height="58" rx="3" ry="0" fill="#1B5E20"/>
+  <rect x="18" y="255" width="3" height="58" fill="#1B5E20"/>
+  <circle cx="44" cy="271" r="11" fill="#1B5E20" opacity="0.12"/>
+  <circle cx="44" cy="271" r="11" fill="none" stroke="#1B5E20" stroke-width="1" opacity="0.4"/>
+  <text x="44" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1B5E20">4</text>
+  <text x="62" y="275" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0D3B0F">Санкции</text>
+  <text x="62" y="293" font-family="Arial, sans-serif" font-size="11" fill="#4E6E4E">Редирект торговых потоков, импортозамещение</text>
+  <line x1="20" y1="330" x2="480" y2="330" stroke="#1B5E20" stroke-width="0.5" opacity="0.25"/>
+  <text x="250" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1B5E20" opacity="0.6">Экономика · 11 класс</text>
 </svg>

@@ -1,31 +1,146 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF8F00"/>
-      <stop offset="100%" stop-color="#FF6F00"/>
-    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#3E2723" flood-opacity="0.1"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF8F00" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF8F00" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF8F00" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#FF6F00" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF8F00" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#FF6F00" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FF8F00" text-anchor="middle">Урок 3: Россия в 1990-е годы</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">История - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#FF8F00" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FF8F00" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#FF6F00" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF8E1" opacity="0.5"/>
-  <rect x="190" y="130" width="120" height="90" fill="none" stroke="#FF8F00" stroke-width="2" rx="3"/><polygon points="190,130 250,110 310,130" fill="#FF6F00" opacity="0.2"/><rect x="220" y="160" width="60" height="60" fill="#FF8F00" opacity="0.1"/><text x="250" y="235" font-family="Arial,sans-serif" font-size="12" fill="#FF8F00" text-anchor="middle" opacity="0.5">🏛</text>
-  </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#FF8F00" text-anchor="middle" opacity="0.6">11 класс • История</text>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" rx="12" fill="#EFEBE9"/>
+  
+  <!-- Border -->
+  <rect x="5" y="5" width="490" height="340" rx="10" fill="none" stroke="#5D4037" stroke-width="2.5" opacity="0.7"/>
+  
+  <!-- Inner border accent -->
+  <rect x="8" y="8" width="484" height="334" rx="9" fill="none" stroke="#A1887F" stroke-width="0.5" opacity="0.3"/>
+  
+  
+    <!-- Header background -->
+    <rect x="10" y="10" width="480" height="52" rx="8" fill="#5D4037" opacity="0.95"/>
+    
+    <!-- Lesson number badge -->
+    <rect x="18" y="16" width="40" height="40" rx="8" fill="#FFFFFF" opacity="0.2"/>
+    <text x="38" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">3</text>
+    
+    <!-- Title -->
+    <text x="68" y="33" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">Россия в 1990-е годы</text>
+    <text x="68" y="50" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" opacity="0.85">История — Урок 3</text>
+    
+  
+  
+    <!-- Key Figures Section -->
+    <rect x="15" y="70" width="228" height="90" rx="6" fill="#FFFFFF" stroke="#A1887F" stroke-width="1"/>
+    <rect x="15" y="70" width="228" height="20" rx="6" fill="#8D6E63" opacity="0.3"/>
+    <rect x="15" y="84" width="228" height="6" fill="#FFFFFF"/>
+    <text x="22" y="85" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#5D4037">Ключевые фигуры</text>
+    
+        <circle cx="26" cy="100" r="3" fill="#8D6E63"/>
+        <text x="34" y="103" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">Б.Н. Ельцин</text>
+        
+        <circle cx="26" cy="116" r="3" fill="#8D6E63"/>
+        <text x="34" y="119" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">Е.Т. Гайдар</text>
+        
+        <circle cx="26" cy="132" r="3" fill="#8D6E63"/>
+        <text x="34" y="135" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">А.Б. Чубайс</text>
+        
+        <circle cx="26" cy="148" r="3" fill="#8D6E63"/>
+        <text x="34" y="151" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">В.С. Черномырдин</text>
+        
+  
+  
+    <!-- Events Timeline Section -->
+    <rect x="257" y="70" width="228" height="90" rx="6" fill="#FFFFFF" stroke="#A1887F" stroke-width="1"/>
+    <rect x="257" y="70" width="228" height="20" rx="6" fill="#8D6E63" opacity="0.3"/>
+    <rect x="257" y="84" width="228" height="6" fill="#FFFFFF"/>
+    <text x="264" y="85" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#5D4037">Хронология событий</text>
+    
+        <rect x="264" y="95" width="50" height="12" rx="3" fill="#D7CCC8" opacity="0.6"/>
+        <text x="270" y="103" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#5D4037">1992</text>
+        <text x="320" y="103" font-family="Arial, sans-serif" font-size="8.5" fill="#3E2723">Либерализация цен</text>
+        
+        <rect x="264" y="107" width="50" height="12" rx="3" fill="#D7CCC8" opacity="0.6"/>
+        <text x="270" y="115" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#5D4037">1993</text>
+        <text x="320" y="115" font-family="Arial, sans-serif" font-size="8.5" fill="#3E2723">Конституционный кризис</text>
+        
+        <rect x="264" y="119" width="50" height="12" rx="3" fill="#D7CCC8" opacity="0.6"/>
+        <text x="270" y="127" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#5D4037">1993</text>
+        <text x="320" y="127" font-family="Arial, sans-serif" font-size="8.5" fill="#3E2723">Принятие Конституции</text>
+        
+        <rect x="264" y="131" width="50" height="12" rx="3" fill="#D7CCC8" opacity="0.6"/>
+        <text x="270" y="139" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#5D4037">1994-96</text>
+        <text x="320" y="139" font-family="Arial, sans-serif" font-size="8.5" fill="#3E2723">Первая чеченская война</text>
+        
+        <rect x="264" y="143" width="50" height="12" rx="3" fill="#D7CCC8" opacity="0.6"/>
+        <text x="270" y="151" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#5D4037">1998</text>
+        <text x="320" y="151" font-family="Arial, sans-serif" font-size="8.5" fill="#3E2723">Дефолт</text>
+        
+  
+  
+    <!-- Concepts Section -->
+    <rect x="15" y="168" width="228" height="82" rx="6" fill="#FFFFFF" stroke="#A1887F" stroke-width="1"/>
+    <rect x="15" y="168" width="228" height="20" rx="6" fill="#8D6E63" opacity="0.3"/>
+    <rect x="15" y="182" width="228" height="6" fill="#FFFFFF"/>
+    <text x="22" y="183" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#5D4037">Ключевые понятия</text>
+    
+        <rect x="22" y="191" width="109.5" height="16" rx="4" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.5"/>
+        <text x="28" y="202" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">Шоковая терапия</text>
+        
+        <rect x="135.5" y="191" width="90.0" height="16" rx="4" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.5"/>
+        <text x="141.5" y="202" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">Ваучеризация</text>
+        
+        <rect x="22" y="211" width="90.0" height="16" rx="4" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.5"/>
+        <text x="28" y="222" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">Приватизация</text>
+        
+        <rect x="116.0" y="211" width="51.0" height="16" rx="4" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.5"/>
+        <text x="122.0" y="222" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">Дефолт</text>
+        
+        <rect x="22" y="231" width="70.5" height="16" rx="4" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.5"/>
+        <text x="28" y="242" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">Имpeчмент</text>
+        
+  
+  
+    <!-- Diagram Section -->
+    <rect x="257" y="168" width="228" height="82" rx="6" fill="#FFFFFF" stroke="#A1887F" stroke-width="1"/>
+    <rect x="257" y="168" width="228" height="20" rx="6" fill="#8D6E63" opacity="0.3"/>
+    <rect x="257" y="182" width="228" height="6" fill="#FFFFFF"/>
+    <text x="264" y="183" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#5D4037">Реформы 1990-х</text>
+    
+        <rect x="264" y="193" width="214" height="14" rx="3" fill="#D7CCC8" opacity="0.5"/>
+        <polygon points="264,200 269,197 269,203" fill="#5D4037"/>
+        <text x="275" y="202" font-family="Arial, sans-serif" font-size="9" fill="#3E2723">Цены → Рынок</text>
+        
+        <rect x="264" y="211" width="214" height="14" rx="3" fill="#D7CCC8" opacity="0.5"/>
+        <polygon points="264,218 269,215 269,221" fill="#5D4037"/>
+        <text x="275" y="220" font-family="Arial, sans-serif" font-size="9" fill="#3E2723">Собственность → Частная</text>
+        
+        <rect x="264" y="229" width="214" height="14" rx="3" fill="#D7CCC8" opacity="0.5"/>
+        <polygon points="264,236 269,233 269,239" fill="#5D4037"/>
+        <text x="275" y="238" font-family="Arial, sans-serif" font-size="9" fill="#3E2723">Политика → Демократия</text>
+        
+  
+  
+    <!-- Summary bar -->
+    <rect x="15" y="258" width="470" height="24" rx="5" fill="#5D4037" opacity="0.08"/>
+    <rect x="15" y="258" width="4" height="24" rx="2" fill="#5D4037"/>
+    <text x="28" y="274" font-family="Arial, sans-serif" font-size="9" fill="#5D4037" font-style="italic">💡 Изучение истории помогает понять настоящее и предвидеть будущее</text>
+    
+  
+  <!-- Decorative timeline line -->
+  <line x1="30" y1="295" x2="470" y2="295" stroke="#A1887F" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="15" cy="310" r="2" fill="#8D6E63" opacity="0.3"/>
+  <circle cx="485" cy="310" r="2" fill="#8D6E63" opacity="0.3"/>
+  <circle cx="250" cy="295" r="2" fill="#5D4037" opacity="0.3"/>
+  
+  <!-- Lesson-specific icon area -->
+  <rect x="200" y="290" width="100" height="30" rx="5" fill="#FFFFFF" stroke="#A1887F" stroke-width="0.8" filter="url(#shadow)"/>
+  <text x="250" y="309" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5D4037" font-weight="bold">УРОК 3 из 12</text>
+  
+  
+    <!-- Footer -->
+    <rect x="10" y="326" width="480" height="16" rx="4" fill="#D7CCC8" opacity="0.7"/>
+    <text x="250" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#8D6E63">История · 11 класс</text>
+    
 </svg>

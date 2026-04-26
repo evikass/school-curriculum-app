@@ -1,31 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FCE4EC"/>
+      <stop offset="0%" stop-color="#E8EAF6"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#E91E63"/>
-      <stop offset="100%" stop-color="#C2185B"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E91E63" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E91E63" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#E91E63" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#C2185B" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#E91E63" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#C2185B" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#E91E63" text-anchor="middle">Урок 3: Subjunctive Mood</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Английский язык - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#E91E63" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#E91E63" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FCE4EC" opacity="0.5"/>
-  <text x="250" y="170" font-family="Georgia,serif" font-size="36" fill="#E91E63" text-anchor="middle" opacity="0.5">Aa</text><line x1="180" y1="190" x2="320" y2="190" stroke="#E91E63" stroke-width="1" opacity="0.3"/><text x="250" y="215" font-family="Georgia,serif" font-size="14" fill="#C2185B" text-anchor="middle" opacity="0.4">Bb Cc</text>
-  </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#E91E63" text-anchor="middle" opacity="0.6">11 класс • Английский язык</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="2.5"/>
+  <text x="250" y="36" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#283593" text-anchor="middle">Subjunctive Mood</text>
+  <text x="250" y="54" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Английский язык — Урок 3</text>
+  <line x1="30" y1="62" x2="470" y2="62" stroke="#283593" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="70" width="460" height="30" rx="5" fill="#283593" opacity="0.10"/>
+  <text x="250" y="90" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="middle" font-weight="bold">Сослагательное наклонение выражает желание, предложение, требование или нереальную ситуацию</text>
+  <rect x="20" y="108" width="460" height="64" rx="5" fill="#283593" opacity="0.06"/>
+  <text x="30" y="124" font-family="Arial,sans-serif" font-size="11.5" fill="#283593" font-weight="bold">Present Subjunctive</text>
+  <text x="30" y="140" font-family="Arial,sans-serif" font-size="9.5" fill="#C62828">suggest / demand / insist + that + V₁</text>
+  <text x="30" y="155" font-family="Arial,sans-serif" font-size="9.5" fill="#333333" font-style="italic">The teacher insisted that he be present</text>
+  <text x="475" y="166" font-family="Arial,sans-serif" font-size="7.5" fill="#999999" text-anchor="end">Глагол без окончаний для всех лиц</text>
+  <rect x="20" y="178" width="460" height="64" rx="5" fill="#283593" opacity="0.04"/>
+  <text x="30" y="194" font-family="Arial,sans-serif" font-size="11.5" fill="#283593" font-weight="bold">Past Subjunctive</text>
+  <text x="30" y="210" font-family="Arial,sans-serif" font-size="9.5" fill="#C62828">If I were / I wish I were / as if I were</text>
+  <text x="30" y="225" font-family="Arial,sans-serif" font-size="9.5" fill="#333333" font-style="italic">I wish I were taller / If I were you</text>
+  <text x="475" y="236" font-family="Arial,sans-serif" font-size="7.5" fill="#999999" text-anchor="end">Were для всех лиц (формальный стиль)</text>
+  <rect x="20" y="248" width="460" height="64" rx="5" fill="#283593" opacity="0.06"/>
+  <text x="30" y="264" font-family="Arial,sans-serif" font-size="11.5" fill="#283593" font-weight="bold">Фразы с сослагательным</text>
+  <text x="30" y="280" font-family="Arial,sans-serif" font-size="9.5" fill="#C62828">It's time / It's high time + Past Simple</text>
+  <text x="30" y="295" font-family="Arial,sans-serif" font-size="9.5" fill="#333333" font-style="italic">It's high time we left the office</text>
+  <text x="475" y="306" font-family="Arial,sans-serif" font-size="7.5" fill="#999999" text-anchor="end">It's time выражает упрёк или срочность</text>
+  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#283593" opacity="0.06"/>
+  <text x="250" y="342" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="middle" font-style="italic">English · Grade 11</text>
 </svg>
