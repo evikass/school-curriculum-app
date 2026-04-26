@@ -1,31 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="0%" stop-color="#E3F2FD"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7B1FA2"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
     </linearGradient>
+    <marker id="arrowBlue" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#1565C0"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#E53935"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#4CAF50"/>
+    </marker>
+    <marker id="arrowDark" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#333"/>
+    </marker>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7B1FA2" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#7B1FA2" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Электромагнитная индукция</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 2</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#7B1FA2" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#7B1FA2" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.12" rx="1"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1565C0" text-anchor="middle">Электромагнитная индукция</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика — Урок 2</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  <path d="M150,170 Q200,120 250,170 Q300,220 350,170" fill="none" stroke="#7B1FA2" stroke-width="2.5"/><line x1="150" y1="170" x2="350" y2="170" stroke="#7B1FA2" stroke-width="1" opacity="0.3"/><text x="250" y="200" font-family="Arial,sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle" opacity="0.5">λ</text>
+    <rect x="15" y="85" width="470" height="215" fill="#E3F2FD" opacity="0.5"/>
+    <!-- Coil with changing flux -->
+    <rect x="30" y="95" width="130" height="90" rx="5" fill="white" opacity="0.7" stroke="#1565C0" stroke-width="1"/>
+    <text x="95" y="110" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">Катушка в магнитном поле</text>
+    <!-- Coil loops -->
+    <ellipse cx="70" cy="155" rx="15" ry="20" fill="none" stroke="#1565C0" stroke-width="2"/>
+    <ellipse cx="95" cy="155" rx="15" ry="20" fill="none" stroke="#1565C0" stroke-width="2"/>
+    <ellipse cx="120" cy="155" rx="15" ry="20" fill="none" stroke="#1565C0" stroke-width="2"/>
+    <!-- Arrow showing B -->
+    <line x1="45" y1="130" x2="145" y2="130" stroke="#E53935" stroke-width="2" marker-end="url(#arrowRed)"/>
+    <text x="100" y="128" font-family="Arial,sans-serif" font-size="10" fill="#E53935" text-anchor="middle">B →</text>
+    <!-- Galvanometer -->
+    <circle cx="250" cy="120" r="20" fill="white" stroke="#1565C0" stroke-width="2"/>
+    <text x="250" y="118" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" text-anchor="middle">G</text>
+    <line x1="250" y1="128" x2="255" y2="138" stroke="#E53935" stroke-width="2"/>
+    <line x1="150" y1="155" x2="230" y2="130" stroke="#1565C0" stroke-width="1.5"/>
+    <line x1="270" y1="120" x2="150" y2="165" stroke="#1565C0" stroke-width="1.5"/>
+    <!-- EMF graph -->
+    <rect x="300" y="95" width="170" height="90" rx="3" fill="white" opacity="0.7" stroke="#1565C0" stroke-width="1"/>
+    <text x="385" y="108" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">ЭДС индукции</text>
+    <line x1="315" y1="170" x2="455" y2="170" stroke="#0D47A1" stroke-width="1"/>
+    <line x1="315" y1="170" x2="315" y2="115" stroke="#0D47A1" stroke-width="1"/>
+    <path d="M320,155 Q340,115 360,155 Q380,195 400,155 Q420,115 440,155" fill="none" stroke="#E53935" stroke-width="2"/>
+    <text x="460" y="173" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1">t</text>
+    <text x="310" y="113" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1">ε</text>
+    <!-- Formulas box -->
+    <rect x="20" y="192" width="225" height="100" rx="5" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+    <text x="30" y="210" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Закон Фарадея:</text>
+    <text x="30" y="228" font-family="Arial,sans-serif" font-size="13" fill="#1565C0">ε = −dΦ/dt</text>
+    <text x="30" y="248" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Правило Ленца:</text>
+    <text x="30" y="265" font-family="Arial,sans-serif" font-size="10" fill="#444">Индукционный ток препятствует</text>
+    <text x="30" y="278" font-family="Arial,sans-serif" font-size="10" fill="#444">изменению магнитного потока</text>
+    <!-- Right box -->
+    <rect x="255" y="192" width="225" height="100" rx="5" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+    <text x="265" y="210" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">ЭДС движущегося проводника:</text>
+    <text x="265" y="228" font-family="Arial,sans-serif" font-size="12" fill="#1565C0">ε = B·L·v·sin(α)</text>
+    <text x="265" y="248" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Самоиндукция:</text>
+    <text x="265" y="265" font-family="Arial,sans-serif" font-size="12" fill="#1565C0">ε = −L·dI/dt</text>
+    <text x="265" y="283" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">[L] = Гн (генри)</text>
+    
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#7B1FA2" text-anchor="middle" opacity="0.6">11 класс • Физика</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика · 11 класс</text>
 </svg>

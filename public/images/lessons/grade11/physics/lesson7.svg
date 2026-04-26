@@ -1,31 +1,81 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="0%" stop-color="#E3F2FD"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7B1FA2"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
     </linearGradient>
+    <marker id="arrowBlue" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#1565C0"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#E53935"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#4CAF50"/>
+    </marker>
+    <marker id="arrowDark" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#333"/>
+    </marker>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7B1FA2" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#7B1FA2" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Фотоэффект</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#7B1FA2" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#7B1FA2" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.12" rx="1"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1565C0" text-anchor="middle">Фотоэффект</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика — Урок 7</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  <circle cx="250" cy="170" r="50" fill="none" stroke="#7B1FA2" stroke-width="2"/><circle cx="250" cy="170" r="30" fill="none" stroke="#6A1B9A" stroke-width="1.5" stroke-dasharray="4,4"/><line x1="250" y1="120" x2="250" y2="220" stroke="#7B1FA2" stroke-width="1.5"/><polygon points="250,120 245,130 255,130" fill="#7B1FA2"/><text x="250" y="245" font-family="Arial,sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle" opacity="0.5">B</text>
+    <rect x="15" y="85" width="470" height="215" fill="#E3F2FD" opacity="0.5"/>
+    <!-- Photoelectric experiment -->
+    <rect x="25" y="95" width="220" height="130" rx="5" fill="white" opacity="0.7" stroke="#1565C0" stroke-width="1"/>
+    <text x="135" y="110" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">Фотоэффект</text>
+    <!-- Vacuum tube -->
+    <ellipse cx="135" cy="160" rx="60" ry="35" fill="none" stroke="#0D47A1" stroke-width="2"/>
+    <!-- Cathode -->
+    <rect x="80" y="148" width="8" height="25" fill="#1565C0"/>
+    <text x="72" y="165" font-family="Arial,sans-serif" font-size="8" fill="#0D47A1">K</text>
+    <!-- Anode -->
+    <rect x="182" y="148" width="8" height="25" fill="#E53935"/>
+    <text x="196" y="165" font-family="Arial,sans-serif" font-size="8" fill="#E53935">A</text>
+    <!-- Incoming light (wavy arrows) -->
+    <path d="M35,140 Q45,135 55,140 Q65,145 75,140" fill="none" stroke="#FF9800" stroke-width="2"/>
+    <path d="M35,150 Q45,145 55,150 Q65,155 75,150" fill="none" stroke="#FF9800" stroke-width="2"/>
+    <text x="55" y="135" font-family="Arial,sans-serif" font-size="9" fill="#FF9800">hν</text>
+    <!-- Electrons flying -->
+    <circle cx="100" cy="155" r="2" fill="#4CAF50"/>
+    <line x1="102" y1="155" x2="115" y2="152" stroke="#4CAF50" stroke-width="1"/>
+    <circle cx="115" cy="152" r="2" fill="#4CAF50"/>
+    <line x1="117" y1="152" x2="130" y2="148" stroke="#4CAF50" stroke-width="1"/>
+    <circle cx="130" cy="148" r="2" fill="#4CAF50"/>
+    <text x="110" y="200" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50">e⁻</text>
+    <!-- Graph: I vs U -->
+    <rect x="260" y="95" width="215" height="130" rx="3" fill="white" opacity="0.7" stroke="#1565C0" stroke-width="1"/>
+    <text x="367" y="108" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">Вольт-амперная характеристика</text>
+    <line x1="280" y1="200" x2="460" y2="200" stroke="#0D47A1" stroke-width="1"/>
+    <line x1="280" y1="200" x2="280" y2="115" stroke="#0D47A1" stroke-width="1"/>
+    <text x="465" y="203" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1">U</text>
+    <text x="274" y="113" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1">I</text>
+    <!-- Saturation curve -->
+    <path d="M280,200 L295,175 L310,155 L330,142 L360,133 L400,128 L450,126" fill="none" stroke="#E53935" stroke-width="2"/>
+    <text x="420" y="122" font-family="Arial,sans-serif" font-size="8" fill="#E53935">I_нас</text>
+    <!-- Stopping voltage marker -->
+    <line x1="270" y1="180" x2="280" y2="180" stroke="#4CAF50" stroke-width="1"/>
+    <text x="255" y="183" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50">−U_з</text>
+    <!-- Formulas -->
+    <rect x="20" y="230" width="225" height="66" rx="5" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+    <text x="30" y="248" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Уравнение Эйнштейна:</text>
+    <text x="30" y="268" font-family="Arial,sans-serif" font-size="14" fill="#1565C0">hν = A_вых + E_k</text>
+    <text x="30" y="288" font-family="Arial,sans-serif" font-size="10" fill="#444">E_k = ½mv²_max = eU_з</text>
+    <!-- Right box -->
+    <rect x="255" y="230" width="225" height="66" rx="5" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+    <text x="265" y="248" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Красная граница:</text>
+    <text x="265" y="268" font-family="Arial,sans-serif" font-size="13" fill="#1565C0">ν_min = A_вых/h</text>
+    <text x="265" y="288" font-family="Arial,sans-serif" font-size="10" fill="#444">h = 6.63·10⁻³⁴ Дж·с</text>
+    
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#7B1FA2" text-anchor="middle" opacity="0.6">11 класс • Физика</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика · 11 класс</text>
 </svg>

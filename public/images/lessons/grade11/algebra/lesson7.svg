@@ -1,31 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#F3E5F5"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#3F51B5"/>
+      <stop offset="0%" stop-color="#6A1B9A"/>
+      <stop offset="100%" stop-color="#4A148C"/>
     </linearGradient>
+    <marker id="arrowBlue" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#6A1B9A"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#E53935"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#4CAF50"/>
+    </marker>
+    <marker id="arrowDark" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#333"/>
+    </marker>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#3F51B5" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Неравенства с модулем</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#6A1B9A" stroke-width="2.5"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Неравенства с модулем</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра — Урок 7</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#6A1B9A" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <path d="M150,200 C200,100 300,100 350,200" fill="none" stroke="#5C6BC0" stroke-width="2.5"/><path d="M150,200 C200,300 300,300 350,200" fill="none" stroke="#3F51B5" stroke-width="2" stroke-dasharray="5,5"/><text x="250" y="205" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" text-anchor="middle" opacity="0.5">≤, ≥</text>
+    <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
+    <!-- Number line for |x| < a -->
+    <rect x="25" y="95" width="220" height="80" rx="5" fill="white" opacity="0.7" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="135" y="110" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" text-anchor="middle" font-weight="bold">|x| &lt; a  (a &gt; 0)</text>
+    <line x1="40" y1="140" x2="230" y2="140" stroke="#4A148C" stroke-width="1.5"/>
+    <!-- Interval -->
+    <line x1="75" y1="140" x2="195" y2="140" stroke="#6A1B9A" stroke-width="4"/>
+    <circle cx="75" cy="140" r="4" fill="white" stroke="#6A1B9A" stroke-width="2"/>
+    <circle cx="195" cy="140" r="4" fill="white" stroke="#6A1B9A" stroke-width="2"/>
+    <text x="75" y="158" font-family="Arial,sans-serif" font-size="9" fill="#4A148C" text-anchor="middle">−a</text>
+    <text x="195" y="158" font-family="Arial,sans-serif" font-size="9" fill="#4A148C" text-anchor="middle">a</text>
+    <text x="135" y="158" font-family="Arial,sans-serif" font-size="9" fill="#6A1B9A" text-anchor="middle">x ∈ (−a; a)</text>
+    <!-- Number line for |x| > a -->
+    <rect x="25" y="180" width="220" height="60" rx="5" fill="white" opacity="0.7" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="135" y="195" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" text-anchor="middle" font-weight="bold">|x| &gt; a  (a &gt; 0)</text>
+    <line x1="40" y1="215" x2="230" y2="215" stroke="#4A148C" stroke-width="1.5"/>
+    <line x1="40" y1="215" x2="75" y2="215" stroke="#E53935" stroke-width="4"/>
+    <line x1="195" y1="215" x2="230" y2="215" stroke="#E53935" stroke-width="4"/>
+    <circle cx="75" cy="215" r="4" fill="#E53935" stroke="#E53935" stroke-width="2"/>
+    <circle cx="195" cy="215" r="4" fill="#E53935" stroke="#E53935" stroke-width="2"/>
+    <text x="75" y="230" font-family="Arial,sans-serif" font-size="9" fill="#4A148C" text-anchor="middle">−a</text>
+    <text x="195" y="230" font-family="Arial,sans-serif" font-size="9" fill="#4A148C" text-anchor="middle">a</text>
+    <text x="135" y="230" font-family="Arial,sans-serif" font-size="9" fill="#E53935" text-anchor="middle">x ∈ (−∞;−a)∪(a;+∞)</text>
+    <!-- Rules -->
+    <rect x="260" y="95" width="215" height="145" rx="3" fill="white" opacity="0.9" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="367" y="110" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" text-anchor="middle" font-weight="bold">Свойства модуля</text>
+    <text x="270" y="130" font-family="Arial,sans-serif" font-size="10" fill="#444">|a| ≥ 0</text>
+    <text x="270" y="145" font-family="Arial,sans-serif" font-size="10" fill="#444">|a·b| = |a|·|b|</text>
+    <text x="270" y="160" font-family="Arial,sans-serif" font-size="10" fill="#444">|a/b| = |a|/|b|</text>
+    <text x="270" y="175" font-family="Arial,sans-serif" font-size="10" fill="#444">|a|² = a²</text>
+    <text x="270" y="190" font-family="Arial,sans-serif" font-size="10" fill="#444">|a+b| ≤ |a|+|b|</text>
+    <text x="270" y="208" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" font-weight="bold">Методы:</text>
+    <text x="270" y="223" font-family="Arial,sans-serif" font-size="9" fill="#444">1. По определению (2 случая)</text>
+    <text x="270" y="236" font-family="Arial,sans-serif" font-size="9" fill="#444">2. Возведение в квадрат</text>
+    <!-- Example -->
+    <rect x="20" y="245" width="460" height="51" rx="5" fill="white" opacity="0.9" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="30" y="263" font-family="Arial,sans-serif" font-size="11" fill="#4A148C" font-weight="bold">Пример: |2x−3| ≤ 5</text>
+    <text x="30" y="279" font-family="Arial,sans-serif" font-size="10" fill="#444">−5 ≤ 2x−3 ≤ 5  →  −2 ≤ 2x ≤ 8  →  x ∈ [−1; 4]</text>
+    <text x="30" y="292" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A">Ответ: [−1; 4]</text>
+    
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#5C6BC0" text-anchor="middle" opacity="0.6">11 класс • Алгебра</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра · 11 класс</text>
 </svg>

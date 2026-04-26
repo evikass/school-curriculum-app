@@ -1,31 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#F3E5F5"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#3F51B5"/>
+      <stop offset="0%" stop-color="#6A1B9A"/>
+      <stop offset="100%" stop-color="#4A148C"/>
     </linearGradient>
+    <marker id="arrowBlue" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#6A1B9A"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#E53935"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#4CAF50"/>
+    </marker>
+    <marker id="arrowDark" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#333"/>
+    </marker>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#3F51B5" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Свойства тригонометрических функций</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 1</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#6A1B9A" stroke-width="2.5"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Свойства тригонометрических функций</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра — Урок 1</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#6A1B9A" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <path d="M100,180 Q150,120 200,180 Q250,240 300,180 Q350,120 400,180" fill="none" stroke="#5C6BC0" stroke-width="2.5"/><line x1="80" y1="180" x2="420" y2="180" stroke="#5C6BC0" stroke-width="1" opacity="0.4"/><text x="250" y="210" font-family="Arial,sans-serif" font-size="18" fill="#5C6BC0" text-anchor="middle" opacity="0.7">∫f(x)dx</text>
+    <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
+    <!-- Unit circle -->
+    <rect x="25" y="95" width="170" height="170" rx="5" fill="white" opacity="0.7" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="110" y="110" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" text-anchor="middle" font-weight="bold">Тригонометрический круг</text>
+    <circle cx="110" cy="185" r="55" fill="none" stroke="#6A1B9A" stroke-width="1.5"/>
+    <line x1="45" y1="185" x2="175" y2="185" stroke="#888" stroke-width="0.5"/>
+    <line x1="110" y1="120" x2="110" y2="250" stroke="#888" stroke-width="0.5"/>
+    <!-- Angle arc -->
+    <path d="M130,185 A20,20 0 0,0 125,168" fill="none" stroke="#E53935" stroke-width="1.5"/>
+    <text x="133" y="172" font-family="Arial,sans-serif" font-size="9" fill="#E53935">α</text>
+    <!-- Point on circle -->
+    <circle cx="148" cy="155" r="3" fill="#E53935"/>
+    <line x1="110" y1="185" x2="148" y2="155" stroke="#E53935" stroke-width="1.5"/>
+    <!-- cos projection -->
+    <line x1="148" y1="155" x2="148" y2="185" stroke="#4CAF50" stroke-width="1" stroke-dasharray="3,2"/>
+    <line x1="110" y1="185" x2="148" y2="185" stroke="#4CAF50" stroke-width="2"/>
+    <text x="130" y="198" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">cosα</text>
+    <!-- sin projection -->
+    <line x1="148" y1="155" x2="110" y2="155" stroke="#1565C0" stroke-width="2"/>
+    <text x="95" y="158" font-family="Arial,sans-serif" font-size="9" fill="#1565C0">sinα</text>
+    <!-- Properties box -->
+    <rect x="210" y="95" width="270" height="105" rx="5" fill="white" opacity="0.9" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="220" y="113" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" font-weight="bold">Основные свойства:</text>
+    <text x="220" y="130" font-family="Arial,sans-serif" font-size="10" fill="#444">• sin²α + cos²α = 1</text>
+    <text x="220" y="145" font-family="Arial,sans-serif" font-size="10" fill="#444">• tgα = sinα/cosα;  ctgα = cosα/sinα</text>
+    <text x="220" y="160" font-family="Arial,sans-serif" font-size="10" fill="#444">• 1 + tg²α = 1/cos²α</text>
+    <text x="220" y="175" font-family="Arial,sans-serif" font-size="10" fill="#444">• 1 + ctg²α = 1/sin²α</text>
+    <text x="220" y="192" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A">• Чётность: cos(−α)=cosα; sin(−α)=−sinα</text>
+    <!-- Periodicity and signs -->
+    <rect x="210" y="208" width="270" height="90" rx="5" fill="white" opacity="0.9" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="220" y="226" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" font-weight="bold">Периодичность:</text>
+    <text x="220" y="243" font-family="Arial,sans-serif" font-size="10" fill="#444">sin(x+2π) = sinx;  cos(x+2π) = cosx</text>
+    <text x="220" y="258" font-family="Arial,sans-serif" font-size="10" fill="#444">tg(x+π) = tgx;  ctg(x+π) = ctgx</text>
+    <text x="220" y="278" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" font-weight="bold">Формулы приведения:</text>
+    <text x="220" y="293" font-family="Arial,sans-serif" font-size="9" fill="#6A1B9A">Правило: « Horse rule » — знак и функция</text>
+    <!-- Left bottom -->
+    <rect x="25" y="272" width="170" height="26" rx="3" fill="white" opacity="0.8" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="110" y="289" font-family="Arial,sans-serif" font-size="9" fill="#4A148C" text-anchor="middle">Знаки по четвертям: + + / + − / − − / − +</text>
+    
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#5C6BC0" text-anchor="middle" opacity="0.6">11 класс • Алгебра</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра · 11 класс</text>
 </svg>
