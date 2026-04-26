@@ -1,33 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ECEFF1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#78909C"/>
-      <stop offset="100%" stop-color="#37474F"/>
-    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
+    </style>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#78909C" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#78909C" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#78909C" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#37474F" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#78909C" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#37474F" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#78909C" text-anchor="middle">Сложные модели</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Технология - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#78909C" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#78909C" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#37474F" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#ECEFF1" opacity="0.5"/>
-  <circle cx="250" cy="190" r="25" fill="none" stroke="#78909C" stroke-width="2"/><circle cx="250" cy="190" r="8" fill="#78909C" opacity="0.3"/><line x1="250" y1="165" x2="250" y2="155" stroke="#78909C" stroke-width="2.5"/><line x1="275" y1="190" x2="285" y2="190" stroke="#78909C" stroke-width="2.5"/><line x1="250" y1="215" x2="250" y2="225" stroke="#78909C" stroke-width="2.5"/><line x1="225" y1="190" x2="215" y2="190" stroke="#78909C" stroke-width="2.5"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#78909C" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#78909C" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Технология</text>
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" ry="12" fill="#ECEFF1" stroke="#37474F" stroke-width="2.5"/>
+
+  <!-- Header bar -->
+  <rect x="1" y="1" width="498" height="48" rx="12" ry="12" fill="#37474F"/>
+  <rect x="1" y="25" width="498" height="24" fill="#37474F"/>
+  <text x="250" y="20" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="600">Сложные модели</text>
+  <text x="250" y="40" text-anchor="middle" fill="#B0BEC5" font-size="10" font-weight="400">Технология — Урок 6</text>
+
+  <!-- Left: Modeling techniques -->
+  <rect x="30" y="60" width="210" height="145" rx="6" fill="#FFFFFF" stroke="#546E7A" stroke-width="1.5"/>
+  <text x="135" y="78" text-anchor="middle" fill="#37474F" font-size="11" font-weight="600">Методы моделирования</text>
+
+  <rect x="42" y="88" width="92" height="36" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="88" y="103" text-anchor="middle" fill="#1565C0" font-size="9" font-weight="600">Твердотельное</text>
+  <text x="88" y="116" text-anchor="middle" fill="#546E7A" font-size="7">CSG-операции</text>
+
+  <rect x="142" y="88" width="86" height="36" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="185" y="103" text-anchor="middle" fill="#E65100" font-size="9" font-weight="600">Поверхностное</text>
+  <text x="185" y="116" text-anchor="middle" fill="#546E7A" font-size="7">NURBS-кривые</text>
+
+  <rect x="42" y="132" width="92" height="36" rx="4" fill="#E0F2F1" stroke="#00897B" stroke-width="1"/>
+  <text x="88" y="147" text-anchor="middle" fill="#00897B" font-size="9" font-weight="600">Каркасное</text>
+  <text x="88" y="160" text-anchor="middle" fill="#546E7A" font-size="7">Рёбра + вершины</text>
+
+  <rect x="142" y="132" width="86" height="36" rx="4" fill="#ECEFF1" stroke="#546E7A" stroke-width="1"/>
+  <text x="185" y="147" text-anchor="middle" fill="#546E7A" font-size="9" font-weight="600">Сборка</text>
+  <text x="185" y="160" text-anchor="middle" fill="#546E7A" font-size="7">Компоненты</text>
+
+  <!-- CSG Operations -->
+  <rect x="42" y="176" width="186" height="20" rx="3" fill="#37474F" opacity="0.08"/>
+  <text x="135" y="190" text-anchor="middle" fill="#37474F" font-size="8">CSG: ∪ объединение · ∩ пересечение · − разность</text>
+
+  <!-- Right: Boolean operations illustration -->
+  <rect x="260" y="60" width="210" height="145" rx="6" fill="#FFFFFF" stroke="#546E7A" stroke-width="1.5"/>
+  <text x="365" y="78" text-anchor="middle" fill="#37474F" font-size="11" font-weight="600">Булевы операции</text>
+
+  <!-- Union -->
+  <circle cx="295" cy="105" r="18" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="315" cy="105" r="18" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5" opacity="0.5"/>
+  <text x="305" y="135" text-anchor="middle" fill="#1565C0" font-size="8" font-weight="600">∪ Объед.</text>
+
+  <!-- Intersection -->
+  <circle cx="380" cy="105" r="18" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="400" cy="105" r="18" fill="#E65100" stroke="#E65100" stroke-width="1.5" opacity="0.5"/>
+  <text x="390" y="135" text-anchor="middle" fill="#E65100" font-size="8" font-weight="600">∩ Пересеч.</text>
+
+  <!-- Difference -->
+  <circle cx="305" cy="170" r="18" fill="#00897B" stroke="#00897B" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="318" cy="170" r="14" fill="#FFFFFF" stroke="#00897B" stroke-width="1.5"/>
+  <text x="305" y="198" text-anchor="middle" fill="#00897B" font-size="8" font-weight="600">− Разность</text>
+
+  <!-- Bottom: Parametric design -->
+  <rect x="30" y="217" width="440" height="95" rx="6" fill="#FFFFFF" stroke="#546E7A" stroke-width="1.5"/>
+  <text x="250" y="236" text-anchor="middle" fill="#37474F" font-size="11" font-weight="600">Параметрическое проектирование</text>
+
+  <!-- Parametric chain -->
+  <rect x="45" y="248" width="90" height="50" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="90" y="266" text-anchor="middle" fill="#1565C0" font-size="8" font-weight="600">Параметры</text>
+  <text x="90" y="280" text-anchor="middle" fill="#546E7A" font-size="7">Длина = 50</text>
+  <text x="90" y="290" text-anchor="middle" fill="#546E7A" font-size="7">Ширина = 30</text>
+
+  <text x="146" y="276" text-anchor="middle" fill="#00897B" font-size="14">→</text>
+
+  <rect x="160" y="248" width="90" height="50" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="205" y="266" text-anchor="middle" fill="#E65100" font-size="8" font-weight="600">Ограничения</text>
+  <text x="205" y="280" text-anchor="middle" fill="#546E7A" font-size="7">Параллельность</text>
+  <text x="205" y="290" text-anchor="middle" fill="#546E7A" font-size="7">Симметрия</text>
+
+  <text x="261" y="276" text-anchor="middle" fill="#00897B" font-size="14">→</text>
+
+  <rect x="275" y="248" width="90" height="50" rx="4" fill="#E0F2F1" stroke="#00897B" stroke-width="1"/>
+  <text x="320" y="266" text-anchor="middle" fill="#00897B" font-size="8" font-weight="600">Операции</text>
+  <text x="320" y="280" text-anchor="middle" fill="#546E7A" font-size="7">Выдавливание</text>
+  <text x="320" y="290" text-anchor="middle" fill="#546E7A" font-size="7">Вращение</text>
+
+  <text x="376" y="276" text-anchor="middle" fill="#00897B" font-size="14">→</text>
+
+  <rect x="390" y="248" width="68" height="50" rx="4" fill="#37474F"/>
+  <text x="424" y="270" text-anchor="middle" fill="#FFFFFF" font-size="8" font-weight="600">Модель</text>
+  <text x="424" y="284" text-anchor="middle" fill="#B0BEC5" font-size="7">3D объект</text>
+
+  <!-- Footer -->
+  <rect x="1" y="322" width="498" height="27" rx="0" ry="0" fill="#37474F"/>
+  <rect x="1" y="322" width="498" height="27" rx="0" ry="0" fill="#37474F" opacity="0.9"/>
+  <text x="250" y="340" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="500">Технология · 10 класс</text>
 </svg>

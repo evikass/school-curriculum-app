@@ -1,33 +1,69 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FFB300"/>
-      <stop offset="100%" stop-color="#FF6F00"/>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#00000020"/>
+    </filter>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E65100"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FFB300" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FFB300" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FFB300" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#FF6F00" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FFB300" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#FF6F00" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FFB300" text-anchor="middle">Целевая аудитория</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Деловой язык - Урок 5</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#FFB300" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FFB300" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#FF6F00" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF8E1" opacity="0.5"/>
-  <rect x="215" y="160" width="70" height="60" rx="5" fill="none" stroke="#FFB300" stroke-width="2"/><line x1="215" y1="180" x2="285" y2="180" stroke="#FFB300" stroke-width="1" opacity="0.5"/><text x="250" y="205" font-family="Arial,sans-serif" font-size="12" fill="#FFB300" text-anchor="middle">BUSINESS</text>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FFB300" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FFB300" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Деловой язык</text>
+
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" ry="12" fill="#FFF8E1" stroke="#FF6F00" stroke-width="2.5"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="500" height="52" rx="12" ry="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="20" width="500" height="32" fill="url(#headerGrad)"/>
+
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Целевая аудитория</text>
+  <text x="250" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFE082">Бизнес — Урок 5</text>
+
+  <!-- Lesson number badge -->
+  <circle cx="30" cy="26" r="16" fill="#FFFFFF" opacity="0.25"/>
+  <text x="30" y="31" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">5</text>
+
+  <!-- Section: Сегментация аудитории -->
+  <text x="20" y="60" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FF6F00">Сегментация аудитории</text>
+  <rect x="20" y="65" width="105" height="55" rx="8" ry="8" fill="#FFFFFF" stroke="#E65100" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="20" y="65" width="105" height="18" rx="8" ry="8" fill="#E65100" opacity="0.2"/>
+  <rect x="20" y="75" width="105" height="8" fill="#E65100" opacity="0.2"/>
+  <text x="72" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#E65100">Демография</text>
+  <text x="72" y="93" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">Возраст, пол,</text>
+  <text x="72" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">доход, образование</text>
+  <rect x="137" y="65" width="105" height="55" rx="8" ry="8" fill="#FFFFFF" stroke="#FF8F00" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="137" y="65" width="105" height="18" rx="8" ry="8" fill="#FF8F00" opacity="0.2"/>
+  <rect x="137" y="75" width="105" height="8" fill="#FF8F00" opacity="0.2"/>
+  <text x="189" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FF8F00">География</text>
+  <text x="189" y="93" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">Страна, город,</text>
+  <text x="189" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">климат, плотность</text>
+  <rect x="20" y="128" width="105" height="55" rx="8" ry="8" fill="#FFFFFF" stroke="#FFB300" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="20" y="128" width="105" height="18" rx="8" ry="8" fill="#FFB300" opacity="0.2"/>
+  <rect x="20" y="138" width="105" height="8" fill="#FFB300" opacity="0.2"/>
+  <text x="72" y="141" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFB300">Поведение</text>
+  <text x="72" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">Привычки, частота</text>
+  <text x="72" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">покупок, лояльность</text>
+  <rect x="137" y="128" width="105" height="55" rx="8" ry="8" fill="#FFFFFF" stroke="#FFC107" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="137" y="128" width="105" height="18" rx="8" ry="8" fill="#FFC107" opacity="0.2"/>
+  <rect x="137" y="138" width="105" height="8" fill="#FFC107" opacity="0.2"/>
+  <text x="189" y="141" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFC107">Психографика</text>
+  <text x="189" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">Ценности, интересы,</text>
+  <text x="189" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5D4037">стиль жизни</text>
+  <!-- Section: Метод «Аватар клиента» -->
+  <text x="20" y="195" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FF6F00">Метод «Аватар клиента»</text>
+  <rect x="20" y="200" width="460" height="72" rx="10" ry="10" fill="#FFFFFF" stroke="#FFB300" stroke-width="1.2" filter="url(#shadow)"/>
+  <circle cx="55" cy="236" r="22" fill="#FFF3E0" stroke="#FFB300" stroke-width="1"/>
+  <text x="55" y="241" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#FF6F00">👤</text>
+  <text x="90" y="218" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">Имя: Анна, 25 лет</text>
+  <text x="290" y="218" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">Работает в IT, живёт в городе</text>
+  <text x="90" y="240" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">Ценит удобство и скорость</text>
+  <text x="290" y="240" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">Готова платить за качество</text>
+  <!-- Tip -->
+  <rect x="15" y="325" width="470" height="18" rx="9" ry="9" fill="#FF6F00" opacity="0.1"/>
+  <text x="250" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-style="italic" fill="#3E2723">Совет: «Все» — это не целевая аудитория. Сужай сегмент для эффективного маркетинга!</text>
+
+  <!-- Footer -->
+  <line x1="20" y1="343" x2="480" y2="343" stroke="#FFB300" stroke-width="0.5" opacity="0.5"/>
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5D4037" opacity="0.7">Бизнес · 10 класс</text>
 </svg>

@@ -1,33 +1,68 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FFB300"/>
-      <stop offset="100%" stop-color="#FF6F00"/>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#00000020"/>
+    </filter>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E65100"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FFB300" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FFB300" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FFB300" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#FF6F00" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FFB300" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#FF6F00" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FFB300" text-anchor="middle">Продукт</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Деловой язык - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#FFB300" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FFB300" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#FF6F00" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF8E1" opacity="0.5"/>
-  <rect x="215" y="160" width="70" height="60" rx="5" fill="none" stroke="#FFB300" stroke-width="2"/><line x1="215" y1="180" x2="285" y2="180" stroke="#FFB300" stroke-width="1" opacity="0.5"/><text x="250" y="205" font-family="Arial,sans-serif" font-size="12" fill="#FFB300" text-anchor="middle">BUSINESS</text>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FFB300" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FFB300" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Деловой язык</text>
+
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" ry="12" fill="#FFF8E1" stroke="#FF6F00" stroke-width="2.5"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="500" height="52" rx="12" ry="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="20" width="500" height="32" fill="url(#headerGrad)"/>
+
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Продукт</text>
+  <text x="250" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFE082">Бизнес — Урок 6</text>
+
+  <!-- Lesson number badge -->
+  <circle cx="30" cy="26" r="16" fill="#FFFFFF" opacity="0.25"/>
+  <text x="30" y="31" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">6</text>
+
+  <!-- Section: Уровни продукта -->
+  <text x="20" y="60" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FF6F00">Уровни продукта</text>
+  <rect x="80" y="68" width="340" height="24" rx="5" ry="5" fill="#E65100" opacity="0.25" stroke="#E65100" stroke-width="1"/>
+  <text x="90" y="84" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#3E2723">Основной</text>
+  <text x="410" y="84" text-anchor="end" font-family="Arial, sans-serif" font-size="8.5" fill="#5D4037">Какую проблему решает?</text>
+  <rect x="110" y="96" width="280" height="24" rx="5" ry="5" fill="#FF8F00" opacity="0.25" stroke="#FF8F00" stroke-width="1"/>
+  <text x="120" y="112" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#3E2723">Реальный</text>
+  <text x="380" y="112" text-anchor="end" font-family="Arial, sans-serif" font-size="8.5" fill="#5D4037">Характеристики и дизайн</text>
+  <rect x="140" y="124" width="220" height="24" rx="5" ry="5" fill="#FFB300" opacity="0.25" stroke="#FFB300" stroke-width="1"/>
+  <text x="150" y="140" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#3E2723">Расширенный</text>
+  <text x="350" y="140" text-anchor="end" font-family="Arial, sans-serif" font-size="8.5" fill="#5D4037">Сервис, гарантия, поддержка</text>
+  <!-- Section: Цикл создания MVP -->
+  <text x="20" y="156" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FF6F00">Цикл создания MVP</text>
+  <rect x="214" y="135" width="72" height="28" rx="6" ry="6" fill="#FFFFFF" stroke="#FFB300" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="250" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#3E2723">Идея →</text>
+  <line x1="272" y1="159" x2="280" y2="178" stroke="#FF6F00" stroke-width="1" opacity="0.4"/>
+  <polygon points="280,178 277,172 274,177" fill="#FF6F00" opacity="0.5"/>
+  <rect x="266" y="174" width="72" height="28" rx="6" ry="6" fill="#FFFFFF" stroke="#FFB300" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="302" y="193" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#3E2723">MVP →</text>
+  <line x1="294" y1="205" x2="290" y2="231" stroke="#FF6F00" stroke-width="1" opacity="0.4"/>
+  <polygon points="290,231 294,227 290,225" fill="#FF6F00" opacity="0.5"/>
+  <rect x="246" y="229" width="72" height="38" rx="6" ry="6" fill="#FFFFFF" stroke="#FFB300" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="282" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#3E2723">Обратная</text>
+  <text x="282" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#3E2723">связь →</text>
+  <line x1="254" y1="248" x2="246" y2="248" stroke="#FF6F00" stroke-width="1" opacity="0.4"/>
+  <polygon points="246,248 252,251 252,245" fill="#FF6F00" opacity="0.5"/>
+  <rect x="182" y="234" width="72" height="28" rx="6" ry="6" fill="#FFFFFF" stroke="#FFB300" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="218" y="253" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#3E2723">Улучшение →</text>
+  <line x1="210" y1="231" x2="206" y2="205" stroke="#FF6F00" stroke-width="1" opacity="0.4"/>
+  <polygon points="206,205 206,211 210,209" fill="#FF6F00" opacity="0.5"/>
+  <rect x="162" y="174" width="72" height="28" rx="6" ry="6" fill="#FFFFFF" stroke="#FFB300" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="198" y="193" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#3E2723">Идея</text>
+  <line x1="220" y1="178" x2="228" y2="159" stroke="#FF6F00" stroke-width="1" opacity="0.4"/>
+  <polygon points="228,159 222,160 225,165" fill="#FF6F00" opacity="0.5"/>
+  <!-- Tip -->
+  <rect x="15" y="325" width="470" height="18" rx="9" ry="9" fill="#FF6F00" opacity="0.1"/>
+  <text x="250" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-style="italic" fill="#3E2723">Совет: Не создавай идеальный продукт. Создай минимальный и улучшай по отзывам!</text>
+
+  <!-- Footer -->
+  <line x1="20" y1="343" x2="480" y2="343" stroke="#FFB300" stroke-width="0.5" opacity="0.5"/>
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5D4037" opacity="0.7">Бизнес · 10 класс</text>
 </svg>
