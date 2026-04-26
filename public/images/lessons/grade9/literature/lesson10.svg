@@ -1,38 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7B1FA2"/>
+      <stop offset="100%" stop-color="#AB47BC"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3E5F5"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#AB47BC" text-anchor="middle">М.А. Булгаков «Мастер и Маргарита»</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 10</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#AB47BC" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  
-    <rect x="225" y="155" width="50" height="70" rx="3" fill="none" stroke="#AB47BC" stroke-width="2"/>
-    <line x1="250" y1="155" x2="250" y2="225" stroke="#AB47BC" stroke-width="1.5" opacity="0.4"/>
-    <path d="M230,160 Q250,150 270,160" fill="none" stroke="#6A1B9A" stroke-width="1.5" opacity="0.6"/>
-    <line x1="230" y1="175" x2="248" y2="175" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-    <line x1="230" y1="185" x2="248" y2="185" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="8"/>
+  <rect width="500" height="44" fill="url(#hdr)" rx="8"/>
+  <rect y="36" width="500" height="8" fill="url(#hdr)"/>
+  <text x="250" y="18" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold" font-family="Arial">Урок 10. М.А. Булгаков «Мастер и Маргарита»</text>
+  <text x="250" y="34" text-anchor="middle" font-size="9" fill="#E1BEE7" font-family="Arial">Роман, 1928-1940 гг. • Опубликован в 1966-1967 гг.</text>
+  <!-- Author -->
+  <rect x="10" y="52" width="160" height="40" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="90" y="66" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Михаил Афанасьевич Булгаков</text>
+  <text x="90" y="78" font-size="7.5" fill="#757575" font-family="Arial">1891-1940 • «Рукописи не горят»</text>
+  <text x="90" y="88" font-size="7.5" fill="#757575" font-family="Arial">Врач, писатель, драматург</text>
+  <!-- Two storylines -->
+  <rect x="180" y="52" width="310" height="40" rx="5" fill="#E1BEE7" opacity="0.5"/>
+  <text x="335" y="66" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Два сюжетных слоя</text>
+  <text x="188" y="79" font-size="8" fill="#212121" font-family="Arial">Москва 1930-х + Ершалаим I века н.э.</text>
+  <text x="188" y="89" font-size="7.5" fill="#757575" font-family="Arial">Вечные вопросы: добро и зло, любовь и творчество</text>
+  <!-- Moscow line -->
+  <rect x="10" y="98" width="235" height="80" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <rect x="10" y="98" width="235" height="16" rx="5" fill="#7B1FA2"/>
+  <rect x="10" y="106" width="235" height="8" fill="#7B1FA2"/>
+  <text x="127" y="111" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="bold" font-family="Arial">Московская линия</text>
+  <text x="18" y="126" font-size="7.5" fill="#212121" font-family="Arial">Воланд и свита — испытание Москвы</text>
+  <text x="18" y="137" font-size="7.5" fill="#757575" font-family="Arial">  Коровьев, Азазелло, Бегемот, Гелла</text>
+  <text x="18" y="148" font-size="7.5" fill="#212121" font-family="Arial">Мастер — писатель, отвергнутый обществом</text>
+  <text x="18" y="159" font-size="7.5" fill="#212121" font-family="Arial">Маргарита — преданная любовь</text>
+  <text x="18" y="170" font-size="7.5" fill="#212121" font-family="Arial">Берлиоз, Лиходеев — советские мещане</text>
+  <!-- Jerusalem line -->
+  <rect x="255" y="98" width="235" height="80" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <rect x="255" y="98" width="235" height="16" rx="5" fill="#7B1FA2"/>
+  <rect x="255" y="106" width="235" height="8" fill="#7B1FA2"/>
+  <text x="372" y="111" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="bold" font-family="Arial">Ершалаимская линия</text>
+  <text x="263" y="126" font-size="7.5" fill="#212121" font-family="Arial">Понтий Пилат — прокуратор Иудеи</text>
+  <text x="263" y="137" font-size="7.5" fill="#757575" font-family="Arial">  Совесть vs долг — трусость как грех</text>
+  <text x="263" y="148" font-size="7.5" fill="#212121" font-family="Arial">Иешуа Га-Ноцри — бродячий философ</text>
+  <text x="263" y="159" font-size="7.5" fill="#757575" font-family="Arial">  «Злых людей нет на свете»</text>
+  <text x="263" y="170" font-size="7.5" fill="#212121" font-family="Arial">Левий Матвей — ученик Иешуа</text>
+  <!-- Woland -->
+  <rect x="10" y="184" width="235" height="58" rx="5" fill="#7B1FA2" opacity="0.1"/>
+  <text x="127" y="198" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Воланд — дух зла?</text>
+  <line x1="20" y1="201" x2="235" y2="201" stroke="#AB47BC" stroke-width="0.5"/>
+  <text x="18" y="212" font-size="7.5" fill="#212121" font-family="Arial">«Я — часть той силы, что вечно хочет</text>
+  <text x="18" y="223" font-size="7.5" fill="#212121" font-family="Arial">зла и вечно совершает благо» (Гёте)</text>
+  <text x="18" y="234" font-size="7.5" fill="#757575" font-family="Arial">Справедливость через зло: наказание пороков</text>
+  <!-- Love and art -->
+  <rect x="255" y="184" width="235" height="58" rx="5" fill="#E1BEE7" opacity="0.5"/>
+  <text x="372" y="198" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Любовь и творчество</text>
+  <line x1="265" y1="201" x2="480" y2="201" stroke="#AB47BC" stroke-width="0.5"/>
+  <text x="263" y="212" font-size="7.5" fill="#212121" font-family="Arial">Маргарита продаёт душу за любовь</text>
+  <text x="263" y="223" font-size="7.5" fill="#212121" font-family="Arial">Мастер — творец, сломленный критикой</text>
+  <text x="263" y="234" font-size="7.5" fill="#757575" font-family="Arial">«Рукописи не горят» — бессмертие искусства</text>
+  <!-- Key themes -->
+  <rect x="10" y="248" width="480" height="42" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="250" y="262" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Ключевые темы</text>
+  <line x1="20" y1="265" x2="480" y2="265" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="18" y="277" font-size="8" fill="#212121" font-family="Arial">Добро и зло — две стороны мироздания • Милосердие выше справедливости</text>
+  <text x="18" y="288" font-size="8" fill="#757575" font-family="Arial">Творец и власть • Верность и предательство • Трусость — страшный порок</text>
+  <!-- Pilat's redemption -->
+  <rect x="10" y="296" width="480" height="38" rx="5" fill="#7B1FA2" opacity="0.08"/>
+  <text x="250" y="310" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-style="italic" font-family="Arial">«Прощён тот, кто не написал ничего совершенного</text>
+  <text x="250" y="322" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-style="italic" font-family="Arial">в ночь, когда прощён» — прощение Пилата через роман Мастера</text>
+  <rect y="338" width="500" height="12" fill="#7B1FA2" rx="0"/>
+  <rect y="338" width="500" height="12" fill="url(#hdr)" rx="0"/>
+  <text x="250" y="348" text-anchor="middle" font-size="8" fill="#FFFFFF" font-family="Arial">Литература 9 класс</text>
+  <line x1="10" y1="296" x2="10" y2="296" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="300" x2="106" y2="300" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="304" x2="202" y2="304" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="308" x2="298" y2="308" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="312" x2="394" y2="312" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="316" x2="10" y2="316" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
 </svg>

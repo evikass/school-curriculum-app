@@ -1,38 +1,94 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7B1FA2"/>
+      <stop offset="100%" stop-color="#AB47BC"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3E5F5"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#AB47BC" text-anchor="middle">Жанры древнерусской литературы</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 2</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#AB47BC" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  
-    <rect x="225" y="155" width="50" height="70" rx="3" fill="none" stroke="#AB47BC" stroke-width="2"/>
-    <line x1="250" y1="155" x2="250" y2="225" stroke="#AB47BC" stroke-width="1.5" opacity="0.4"/>
-    <path d="M230,160 Q250,150 270,160" fill="none" stroke="#6A1B9A" stroke-width="1.5" opacity="0.6"/>
-    <line x1="230" y1="175" x2="248" y2="175" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-    <line x1="230" y1="185" x2="248" y2="185" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="8"/>
+  <rect width="500" height="44" fill="url(#hdr)" rx="8"/>
+  <rect y="36" width="500" height="8" fill="url(#hdr)"/>
+  <text x="250" y="18" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold" font-family="Arial">Урок 2. Жанры древнерусской литературы</text>
+  <text x="250" y="34" text-anchor="middle" font-size="9" fill="#E1BEE7" font-family="Arial">XI-XVII века: летописи, жития, поучения, повести</text>
+  <!-- Timeline bar -->
+  <rect x="10" y="50" width="480" height="22" rx="4" fill="#7B1FA2" opacity="0.12"/>
+  <line x1="20" y1="61" x2="480" y2="61" stroke="#AB47BC" stroke-width="2"/>
+  <circle cx="60" cy="61" r="5" fill="#7B1FA2"/>
+  <text x="60" y="56" text-anchor="middle" font-size="7" fill="#7B1FA2" font-family="Arial">XI в.</text>
+  <circle cx="160" cy="61" r="5" fill="#7B1FA2"/>
+  <text x="160" y="56" text-anchor="middle" font-size="7" fill="#7B1FA2" font-family="Arial">XII в.</text>
+  <circle cx="280" cy="61" r="5" fill="#7B1FA2"/>
+  <text x="280" y="56" text-anchor="middle" font-size="7" fill="#7B1FA2" font-family="Arial">XIV в.</text>
+  <circle cx="400" cy="61" r="5" fill="#7B1FA2"/>
+  <text x="400" y="56" text-anchor="middle" font-size="7" fill="#7B1FA2" font-family="Arial">XVII в.</text>
+  <!-- Genre 1: Летописи -->
+  <rect x="10" y="78" width="150" height="72" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <rect x="10" y="78" width="150" height="16" rx="5" fill="#7B1FA2"/>
+  <rect x="10" y="86" width="150" height="8" fill="#7B1FA2"/>
+  <text x="85" y="91" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="bold" font-family="Arial">Летописи</text>
+  <text x="18" y="106" font-size="7.5" fill="#212121" font-family="Arial">Хроника событий по годам</text>
+  <text x="18" y="117" font-size="7.5" fill="#212121" font-family="Arial">«Повесть временных лет»</text>
+  <text x="18" y="128" font-size="7.5" fill="#757575" font-family="Arial">Нестор-летописец, ~1113 г.</text>
+  <text x="18" y="140" font-size="7.5" fill="#7B1FA2" font-family="Arial">«Откуду есть пошла Руская земьля»</text>
+  <!-- Genre 2: Жития -->
+  <rect x="170" y="78" width="150" height="72" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <rect x="170" y="78" width="150" height="16" rx="5" fill="#7B1FA2"/>
+  <rect x="170" y="86" width="150" height="8" fill="#7B1FA2"/>
+  <text x="245" y="91" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="bold" font-family="Arial">Жития святых</text>
+  <text x="178" y="106" font-size="7.5" fill="#212121" font-family="Arial">Агиография — жизнь святого</text>
+  <text x="178" y="117" font-size="7.5" fill="#212121" font-family="Arial">«Житие Бориса и Глеба»</text>
+  <text x="178" y="128" font-size="7.5" fill="#757575" font-family="Arial">Канон: детство + подвиг + чудеса</text>
+  <text x="178" y="140" font-size="7.5" fill="#7B1FA2" font-family="Arial">Иларион: «Слово о законе и благодати»</text>
+  <!-- Genre 3: Поучения -->
+  <rect x="330" y="78" width="160" height="72" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <rect x="330" y="78" width="160" height="16" rx="5" fill="#7B1FA2"/>
+  <rect x="330" y="86" width="160" height="8" fill="#7B1FA2"/>
+  <text x="410" y="91" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="bold" font-family="Arial">Поучения / Слова</text>
+  <text x="338" y="106" font-size="7.5" fill="#212121" font-family="Arial">Наставление потомкам</text>
+  <text x="338" y="117" font-size="7.5" fill="#212121" font-family="Arial">«Поучение Владимира Мономаха»</text>
+  <text x="338" y="128" font-size="7.5" fill="#757575" font-family="Arial">3 заповеди: не лениться, молиться,</text>
+  <text x="338" y="140" font-size="7.5" fill="#757575" font-family="Arial">творить добро</text>
+  <!-- Genre 4: Воинские повести -->
+  <rect x="10" y="158" width="150" height="62" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <rect x="10" y="158" width="150" height="16" rx="5" fill="#7B1FA2"/>
+  <rect x="10" y="166" width="150" height="8" fill="#7B1FA2"/>
+  <text x="85" y="171" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="bold" font-family="Arial">Воинские повести</text>
+  <text x="18" y="186" font-size="7.5" fill="#212121" font-family="Arial">«Слово о полку Игореве»</text>
+  <text x="18" y="197" font-size="7.5" fill="#212121" font-family="Arial">«Задонщина» — Куликовская битва</text>
+  <text x="18" y="208" font-size="7.5" fill="#757575" font-family="Arial">«Повесть о разорении Рязани»</text>
+  <!-- Genre 5: Хождения -->
+  <rect x="170" y="158" width="150" height="62" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <rect x="170" y="158" width="150" height="16" rx="5" fill="#7B1FA2"/>
+  <rect x="170" y="166" width="150" height="8" fill="#7B1FA2"/>
+  <text x="245" y="171" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="bold" font-family="Arial">Хождения</text>
+  <text x="178" y="186" font-size="7.5" fill="#212121" font-family="Arial">Паломнические путешествия</text>
+  <text x="178" y="197" font-size="7.5" fill="#212121" font-family="Arial">«Хождение игумена Даниила»</text>
+  <text x="178" y="208" font-size="7.5" fill="#757575" font-family="Arial">Описание Святой земли</text>
+  <!-- Genre 6: Сатирические повести -->
+  <rect x="330" y="158" width="160" height="62" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <rect x="330" y="158" width="160" height="16" rx="5" fill="#7B1FA2"/>
+  <rect x="330" y="166" width="160" height="8" fill="#7B1FA2"/>
+  <text x="410" y="171" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="bold" font-family="Arial">Сатирические повести</text>
+  <text x="338" y="186" font-size="7.5" fill="#212121" font-family="Arial">«Повесть о Шемякином суде»</text>
+  <text x="338" y="197" font-size="7.5" fill="#212121" font-family="Arial">«Повесть о Ерше Ершовиче»</text>
+  <text x="338" y="208" font-size="7.5" fill="#757575" font-family="Arial">XVII век — демократическая сатира</text>
+  <!-- Features summary -->
+  <rect x="10" y="228" width="480" height="52" rx="5" fill="#E1BEE7" opacity="0.4"/>
+  <text x="250" y="242" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Общие черты древнерусской литературы</text>
+  <text x="18" y="256" font-size="8" fill="#212121" font-family="Arial">• Рукописный характер (до XVI в. — на пергамене) • Анонимность произведений</text>
+  <text x="18" y="268" font-size="8" fill="#212121" font-family="Arial">• Историзм: герой — участник реальных событий • Дидактизм • Связь с церковной культурой</text>
+  <!-- Evolution -->
+  <rect x="10" y="286" width="480" height="48" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="250" y="300" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Эволюция жанров</text>
+  <text x="18" y="314" font-size="8" fill="#212121" font-family="Arial">XI-XIII: летописи, жития, поучения</text>
+  <text x="18" y="326" font-size="8" fill="#757575" font-family="Arial">XIV-XV: воинские повести</text>
+  <text x="250" y="314" font-size="8" fill="#212121" font-family="Arial">XVI: публицистика</text>
+  <text x="250" y="326" font-size="8" fill="#757575" font-family="Arial">XVII: сатира, бытовая повесть (Новое время)</text>
+  <rect y="338" width="500" height="12" fill="#7B1FA2" rx="0"/>
+  <rect y="338" width="500" height="12" fill="url(#hdr)" rx="0"/>
+  <text x="250" y="348" text-anchor="middle" font-size="8" fill="#FFFFFF" font-family="Arial">Литература 9 класс</text>
 </svg>

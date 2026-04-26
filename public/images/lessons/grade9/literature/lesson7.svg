@@ -1,38 +1,81 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7B1FA2"/>
+      <stop offset="100%" stop-color="#AB47BC"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3E5F5"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#AB47BC" text-anchor="middle">М.Ю. Лермонтов «Герой нашего вре...</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#AB47BC" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  
-    <rect x="225" y="155" width="50" height="70" rx="3" fill="none" stroke="#AB47BC" stroke-width="2"/>
-    <line x1="250" y1="155" x2="250" y2="225" stroke="#AB47BC" stroke-width="1.5" opacity="0.4"/>
-    <path d="M230,160 Q250,150 270,160" fill="none" stroke="#6A1B9A" stroke-width="1.5" opacity="0.6"/>
-    <line x1="230" y1="175" x2="248" y2="175" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-    <line x1="230" y1="185" x2="248" y2="185" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="8"/>
+  <rect width="500" height="44" fill="url(#hdr)" rx="8"/>
+  <rect y="36" width="500" height="8" fill="url(#hdr)"/>
+  <text x="250" y="18" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold" font-family="Arial">Урок 7. М.Ю. Лермонтов «Герой нашего времени»</text>
+  <text x="250" y="34" text-anchor="middle" font-size="9" fill="#E1BEE7" font-family="Arial">Роман, 1840 г. — первый психологический роман в русской литературе</text>
+  <!-- Author -->
+  <rect x="10" y="52" width="160" height="40" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="90" y="66" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Михаил Юрьевич Лермонтов</text>
+  <text x="90" y="78" font-size="7.5" fill="#757575" font-family="Arial">1814-1841 • Поэт, прозаик, художник</text>
+  <text x="90" y="88" font-size="7.5" fill="#757575" font-family="Arial">Убит на дуэли с Мартыновым</text>
+  <!-- Pechorin -->
+  <rect x="180" y="52" width="310" height="40" rx="5" fill="#E1BEE7" opacity="0.5"/>
+  <text x="335" y="66" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Григорий Александрович Печорин</text>
+  <text x="188" y="79" font-size="8" fill="#212121" font-family="Arial">«Лишний человек» — умён, образован, но не находит применения силам</text>
+  <text x="188" y="89" font-size="7.5" fill="#757575" font-family="Arial">«Странный человек» — противоречивый, эгоистичный, но глубокий</text>
+  <!-- Novel structure -->
+  <rect x="10" y="98" width="480" height="56" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <text x="250" y="112" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Композиция романа (не хронологическая!)</text>
+  <rect x="18" y="118" width="70" height="14" rx="3" fill="#7B1FA2" opacity="0.2"/>
+  <text x="53" y="128" text-anchor="middle" font-size="7" fill="#212121" font-family="Arial">Бэла</text>
+  <text x="93" y="128" font-size="7" fill="#757575" font-family="Arial">&#8594;</text>
+  <rect x="102" y="118" width="70" height="14" rx="3" fill="#7B1FA2" opacity="0.2"/>
+  <text x="137" y="128" text-anchor="middle" font-size="7" fill="#212121" font-family="Arial">М. Максимыч</text>
+  <text x="177" y="128" font-size="7" fill="#757575" font-family="Arial">&#8594;</text>
+  <rect x="186" y="118" width="55" height="14" rx="3" fill="#7B1FA2" opacity="0.2"/>
+  <text x="213" y="128" text-anchor="middle" font-size="7" fill="#212121" font-family="Arial">Тамань</text>
+  <text x="246" y="128" font-size="7" fill="#757575" font-family="Arial">&#8594;</text>
+  <rect x="255" y="118" width="70" height="14" rx="3" fill="#7B1FA2" opacity="0.2"/>
+  <text x="290" y="128" text-anchor="middle" font-size="7" fill="#212121" font-family="Arial">Кн. Мери</text>
+  <text x="330" y="128" font-size="7" fill="#757575" font-family="Arial">&#8594;</text>
+  <rect x="339" y="118" width="70" height="14" rx="3" fill="#7B1FA2" opacity="0.2"/>
+  <text x="374" y="128" text-anchor="middle" font-size="7" fill="#212121" font-family="Arial">Фаталист</text>
+  <text x="18" y="148" font-size="7.5" fill="#757575" font-family="Arial">Хронология: Тамань &#8594; Кн. Мери &#8594; Бэла &#8594; Фаталист &#8594; М. Максимыч</text>
+  <!-- Pechorin's journal -->
+  <rect x="10" y="160" width="235" height="76" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="127" y="174" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Журнал Печорина</text>
+  <line x1="20" y1="177" x2="235" y2="177" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="18" y="189" font-size="7.5" fill="#212121" font-family="Arial">«Тамань» — столкновение с контрабандистами</text>
+  <text x="18" y="200" font-size="7.5" fill="#212121" font-family="Arial">«Княжна Мери» — дуэль с Грушницким</text>
+  <text x="18" y="211" font-size="7.5" fill="#757575" font-family="Arial">  Печорин &#8594; Мери, Вера</text>
+  <text x="18" y="222" font-size="7.5" fill="#212121" font-family="Arial">«Фаталист» — проблема предопределения</text>
+  <text x="18" y="233" font-size="7.5" fill="#757575" font-family="Arial">  Проверка судьбы: «любишь — не любишь»</text>
+  <!-- Women in Pechorin's life -->
+  <rect x="255" y="160" width="235" height="76" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="372" y="174" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Женщины в жизни Печорина</text>
+  <line x1="265" y1="177" x2="480" y2="177" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="263" y="189" font-size="7.5" fill="#212121" font-family="Arial">Бэла — горская княжна, трагическая любовь</text>
+  <text x="263" y="200" font-size="7.5" fill="#212121" font-family="Arial">Мери — княжна, игрушка для Печорина</text>
+  <text x="263" y="211" font-size="7.5" fill="#212121" font-family="Arial">Вера — единственная настоящая любовь</text>
+  <text x="263" y="222" font-size="7.5" fill="#757575" font-family="Arial">  «Я тебя люблю без памяти...»</text>
+  <text x="263" y="233" font-size="7.5" fill="#212121" font-family="Arial">Ундина — русалка-контрабандистка</text>
+  <!-- Superfluous man concept -->
+  <rect x="10" y="242" width="480" height="42" rx="5" fill="#E1BEE7" opacity="0.4"/>
+  <text x="250" y="256" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Тип «лишнего человека»</text>
+  <text x="18" y="270" font-size="8" fill="#212121" font-family="Arial">Онегин &#8594; Печорин &#8594; Бельтов &#8594; Рудин &#8594; Обломов — эволюция типа</text>
+  <text x="18" y="281" font-size="7.5" fill="#757575" font-family="Arial">Ум, талант, стремления, но бездеятельность и разочарование</text>
+  <!-- Fatalism + Quote -->
+  <rect x="10" y="290" width="235" height="42" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="127" y="304" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Проблема фатализма</text>
+  <text x="18" y="316" font-size="7.5" fill="#212121" font-family="Arial">Свобода воли или предопределение?</text>
+  <text x="18" y="327" font-size="7.5" fill="#757575" font-family="Arial">Печорин испытывает судьбу, но не верит</text>
+  <!-- Author's quote -->
+  <rect x="255" y="290" width="235" height="42" rx="5" fill="#7B1FA2" opacity="0.08"/>
+  <text x="372" y="304" text-anchor="middle" font-size="8" fill="#7B1FA2" font-style="italic" font-family="Arial">«Герой нашего времени... это портрет,</text>
+  <text x="372" y="316" text-anchor="middle" font-size="8" fill="#7B1FA2" font-style="italic" font-family="Arial">но не одного человека: это портрет</text>
+  <text x="372" y="328" text-anchor="middle" font-size="8" fill="#7B1FA2" font-style="italic" font-family="Arial">целого поколения»</text>
+  <rect y="338" width="500" height="12" fill="#7B1FA2" rx="0"/>
+  <rect y="338" width="500" height="12" fill="url(#hdr)" rx="0"/>
+  <text x="250" y="348" text-anchor="middle" font-size="8" fill="#FFFFFF" font-family="Arial">Литература 9 класс</text>
 </svg>
