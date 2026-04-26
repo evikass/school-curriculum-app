@@ -1,38 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#E3F2FD"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#1A237E"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1A237E" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Механические волны</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1A237E" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="40" fill="none" stroke="#5C6BC0" stroke-width="2"/>
-    <line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/>
-    <line x1="210" y1="190" x2="290" y2="190" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/>
-    <circle cx="250" cy="190" r="15" fill="#5C6BC0" opacity="0.15"/>
-    <text x="250" y="195" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" text-anchor="middle">F=ma</text>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#42A5F5" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#42A5F5" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#42A5F5" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#42A5F5" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#1565C0" opacity="0.12"/>
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#42A5F5" text-anchor="middle">Механические волны</text>
+  <text x="250" y="60" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Физика — Урок 7</text>
+  <line x1="30" y1="68" x2="470" y2="68" stroke="#42A5F5" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="75" width="460" height="40" rx="4" fill="#42A5F5" opacity="0.07"/>
+  <text x="30" y="92" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="start" font-weight="bold">Волна — распространение колебаний в среде</text>
+  <text x="280" y="92" font-family="Arial,sans-serif" font-size="10" fill="#E53935" text-anchor="start">не переносит вещество!</text>
+  <rect x="20" y="120" width="460" height="75" rx="4" fill="#42A5F5" opacity="0.05"/>
+  <text x="30" y="137" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="start" font-weight="bold">Поперечная волна:</text>
+  <path d="M30,170 Q60,145 90,170 Q120,195 150,170 Q180,145 210,170 Q240,195 270,170 Q300,145 330,170 Q360,195 390,170 Q420,145 450,170" fill="none" stroke="#42A5F5" stroke-width="2"/>
+  <line x1="30" y1="170" x2="460" y2="170" stroke="#888" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <line x1="90" y1="170" x2="90" y2="150" stroke="#E53935" stroke-width="1.5"/>
+  <line x1="150" y1="170" x2="150" y2="190" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="92" y="148" font-family="Arial,sans-serif" font-size="9" fill="#E53935" text-anchor="start">A</text>
+  <line x1="90" y1="150" x2="150" y2="150" stroke="#555" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="115" y="146" font-family="Arial,sans-serif" font-size="11" fill="#555" text-anchor="middle">λ</text>
+  <text x="400" y="155" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="start">← λ (длина волны)</text>
+  <rect x="20" y="202" width="460" height="55" rx="4" fill="#42A5F5" opacity="0.05"/>
+  <text x="30" y="218" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="start" font-weight="bold">Продольная волна:</text>
+  <circle cx="45" cy="238" r="4" fill="#BBDEFB" stroke="#42A5F5" stroke-width="1"/>
+  <circle cx="60" cy="238" r="3" fill="#BBDEFB" stroke="#42A5F5" stroke-width="1"/>
+  <circle cx="78" cy="238" r="5" fill="#42A5F5" stroke="#42A5F5" stroke-width="1"/>
+  <circle cx="100" cy="238" r="3" fill="#BBDEFB" stroke="#42A5F5" stroke-width="1"/>
+  <circle cx="120" cy="238" r="4" fill="#BBDEFB" stroke="#42A5F5" stroke-width="1"/>
+  <circle cx="143" cy="238" r="3" fill="#BBDEFB" stroke="#42A5F5" stroke-width="1"/>
+  <circle cx="165" cy="238" r="5" fill="#42A5F5" stroke="#42A5F5" stroke-width="1"/>
+  <text x="200" y="240" font-family="Arial,sans-serif" font-size="10" fill="#42A5F5" text-anchor="start">сжатие ↔ разрежение</text>
+  <rect x="20" y="264" width="460" height="32" rx="4" fill="#42A5F5" opacity="0.05"/>
+  <text x="30" y="280" font-family="Arial,sans-serif" font-size="13" fill="#1565C0" text-anchor="start" font-weight="bold">v = λ · ν    λ = v · T    v = λ / T</text>
+  <text x="30" y="294" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="start">v — скорость (м/с), λ — длина волны (м), ν — частота (Гц)</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Физика · Волны</text>
 </svg>

@@ -1,38 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#E3F2FD"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#1A237E"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1A237E" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Импульс тела. Закон сохранения и...</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1A237E" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="40" fill="none" stroke="#5C6BC0" stroke-width="2"/>
-    <line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/>
-    <line x1="210" y1="190" x2="290" y2="190" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/>
-    <circle cx="250" cy="190" r="15" fill="#5C6BC0" opacity="0.15"/>
-    <text x="250" y="195" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" text-anchor="middle">F=ma</text>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#42A5F5" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#42A5F5" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#42A5F5" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#42A5F5" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#1565C0" opacity="0.12"/>
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#42A5F5" text-anchor="middle">Импульс. Закон сохранения импульса</text>
+  <text x="250" y="60" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Физика — Урок 3</text>
+  <line x1="30" y1="68" x2="470" y2="68" stroke="#42A5F5" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="75" width="460" height="45" rx="4" fill="#42A5F5" opacity="0.07"/>
+  <text x="30" y="92" font-family="Arial,sans-serif" font-size="14" fill="#1565C0" text-anchor="start" font-weight="bold">Импульс тела: p = m · v  [кг·м/с]</text>
+  <text x="30" y="112" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="start">Векторная величина, направлена как скорость</text>
+  <rect x="20" y="125" width="460" height="55" rx="4" fill="#E53935" opacity="0.06"/>
+  <text x="30" y="143" font-family="Arial,sans-serif" font-size="13" fill="#E53935" text-anchor="start" font-weight="bold">Закон сохранения импульса:</text>
+  <text x="30" y="162" font-family="Arial,sans-serif" font-size="14" fill="#1565C0" text-anchor="start" font-weight="bold">m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'</text>
+  <text x="310" y="162" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="start">(замкнутая система)</text>
+  <rect x="20" y="188" width="220" height="105" rx="4" fill="#42A5F5" opacity="0.05"/>
+  <text x="30" y="205" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="start" font-weight="bold">До столкновения:</text>
+  <rect x="40" y="220" width="40" height="25" rx="3" fill="#BBDEFB" stroke="#42A5F5" stroke-width="1.5"/>
+  <line x1="80" y1="232" x2="110" y2="232" stroke="#42A5F5" stroke-width="2"/>
+  <text x="52" y="237" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="start" font-weight="bold">m₁</text>
+  <text x="90" y="228" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="start">v₁</text>
+  <rect x="140" y="220" width="40" height="25" rx="3" fill="#FFCDD2" stroke="#E53935" stroke-width="1.5"/>
+  <line x1="140" y1="232" x2="110" y2="232" stroke="#E53935" stroke-width="2"/>
+  <text x="152" y="237" font-family="Arial,sans-serif" font-size="9" fill="#E53935" text-anchor="start" font-weight="bold">m₂</text>
+  <text x="130" y="228" font-family="Arial,sans-serif" font-size="9" fill="#E53935" text-anchor="start">v₂</text>
+  <text x="30" y="265" font-family="Arial,sans-serif" font-size="11" fill="#42A5F5" text-anchor="start" font-weight="bold">p = m₁v₁ + m₂v₂</text>
+  <text x="30" y="282" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="start">p = const (замкнутая сист.)</text>
+  <rect x="260" y="188" width="220" height="105" rx="4" fill="#42A5F5" opacity="0.05"/>
+  <text x="270" y="205" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="start" font-weight="bold">После столкновения:</text>
+  <rect x="290" y="220" width="40" height="25" rx="3" fill="#BBDEFB" stroke="#42A5F5" stroke-width="1.5"/>
+  <rect x="340" y="220" width="40" height="25" rx="3" fill="#FFCDD2" stroke="#E53935" stroke-width="1.5"/>
+  <text x="302" y="237" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="start" font-weight="bold">m₁</text>
+  <text x="352" y="237" font-family="Arial,sans-serif" font-size="9" fill="#E53935" text-anchor="start" font-weight="bold">m₂</text>
+  <line x1="330" y1="232" x2="360" y2="232" stroke="#42A5F5" stroke-width="1.5"/>
+  <text x="335" y="228" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="start">v₁'</text>
+  <text x="365" y="228" font-family="Arial,sans-serif" font-size="9" fill="#E53935" text-anchor="start">v₂'</text>
+  <text x="270" y="265" font-family="Arial,sans-serif" font-size="10" fill="#42A5F5" text-anchor="start">Применение: реактивное</text>
+  <text x="270" y="280" font-family="Arial,sans-serif" font-size="10" fill="#42A5F5" text-anchor="start">движение, отдача оружия</text>
+  <text x="270" y="295" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="start">К.Э. Циолковский</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Физика · Импульс</text>
 </svg>

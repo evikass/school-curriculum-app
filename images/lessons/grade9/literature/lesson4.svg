@@ -1,38 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7B1FA2"/>
+      <stop offset="100%" stop-color="#AB47BC"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3E5F5"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#AB47BC" text-anchor="middle">Д.И. Фонвизин «Недоросль»</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 4</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#AB47BC" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  
-    <rect x="225" y="155" width="50" height="70" rx="3" fill="none" stroke="#AB47BC" stroke-width="2"/>
-    <line x1="250" y1="155" x2="250" y2="225" stroke="#AB47BC" stroke-width="1.5" opacity="0.4"/>
-    <path d="M230,160 Q250,150 270,160" fill="none" stroke="#6A1B9A" stroke-width="1.5" opacity="0.6"/>
-    <line x1="230" y1="175" x2="248" y2="175" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-    <line x1="230" y1="185" x2="248" y2="185" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="8"/>
+  <rect width="500" height="44" fill="url(#hdr)" rx="8"/>
+  <rect y="36" width="500" height="8" fill="url(#hdr)"/>
+  <text x="250" y="18" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold" font-family="Arial">Урок 4. Д.И. Фонвизин «Недоросль»</text>
+  <text x="250" y="34" text-anchor="middle" font-size="9" fill="#E1BEE7" font-family="Arial">Комедия, 1782 г. — первая русская социально-политическая комедия</text>
+  <!-- Author info -->
+  <rect x="10" y="52" width="160" height="44" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="90" y="66" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Денис Иванович Фонвизин</text>
+  <text x="90" y="78" font-size="7.5" fill="#757575" font-family="Arial">1744-1792 • Сатирик, драматург</text>
+  <text x="90" y="90" font-size="7.5" fill="#757575" font-family="Arial">«Бригадир» и «Недоросль»</text>
+  <!-- Main theme -->
+  <rect x="180" y="52" width="310" height="44" rx="5" fill="#E1BEE7" opacity="0.5"/>
+  <text x="335" y="66" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Главная тема: воспитание и просвещение</text>
+  <text x="188" y="79" font-size="8" fill="#212121" font-family="Arial">Критика невежества дворянства и произвола крепостников</text>
+  <text x="188" y="91" font-size="8" fill="#757575" font-family="Arial">«Злонравия достойные плоды» — смысл говорящих фамилий</text>
+  <!-- Prostakov family diagram -->
+  <rect x="10" y="102" width="240" height="105" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <text x="130" y="116" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Семья Простаковых</text>
+  <line x1="20" y1="119" x2="240" y2="119" stroke="#E1BEE7" stroke-width="1"/>
+  <rect x="30" y="124" width="90" height="18" rx="3" fill="#7B1FA2" opacity="0.2"/>
+  <text x="75" y="136" text-anchor="middle" font-size="7.5" fill="#212121" font-family="Arial">г-жа Простакова</text>
+  <rect x="130" y="124" width="100" height="18" rx="3" fill="#7B1FA2" opacity="0.15"/>
+  <text x="180" y="136" text-anchor="middle" font-size="7.5" fill="#212121" font-family="Arial">Простаков (муж)</text>
+  <line x1="75" y1="142" x2="75" y2="152" stroke="#757575" stroke-width="1"/>
+  <line x1="180" y1="142" x2="180" y2="152" stroke="#757575" stroke-width="1"/>
+  <rect x="25" y="152" width="100" height="18" rx="3" fill="#7B1FA2" opacity="0.3"/>
+  <text x="75" y="164" text-anchor="middle" font-size="7.5" fill="#212121" font-weight="bold" font-family="Arial">Митрофан (недоросль)</text>
+  <rect x="135" y="152" width="100" height="18" rx="3" fill="#7B1FA2" opacity="0.15"/>
+  <text x="185" y="164" text-anchor="middle" font-size="7.5" fill="#212121" font-family="Arial">Скотинин (брат)</text>
+  <text x="18" y="186" font-size="7" fill="#757575" font-family="Arial">«Не хочу учиться, хочу жениться»</text>
+  <text x="18" y="198" font-size="7" fill="#757575" font-family="Arial">Митрофан — лентяй, невежа, жесток</text>
+  <!-- Positive characters -->
+  <rect x="260" y="102" width="230" height="105" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <text x="375" y="116" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Положительные герои</text>
+  <line x1="270" y1="119" x2="480" y2="119" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="268" y="132" font-size="8" fill="#212121" font-family="Arial">Стародум — идеал просвещённого дворянина</text>
+  <text x="268" y="145" font-size="7.5" fill="#757575" font-family="Arial">  «Имей сердце, имей душу...»</text>
+  <text x="268" y="158" font-size="8" fill="#212121" font-family="Arial">Правдин — честный чиновник</text>
+  <text x="268" y="171" font-size="8" fill="#212121" font-family="Arial">Софья — добродетельная воспитанница</text>
+  <text x="268" y="184" font-size="8" fill="#212121" font-family="Arial">Милон — жених Софьи, офицер</text>
+  <text x="268" y="197" font-size="8" fill="#757575" font-family="Arial">  Царь-природа — кормилица</text>
+  <!-- Mitrofan's teachers -->
+  <rect x="10" y="213" width="235" height="55" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="127" y="227" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Учителя Митрофана</text>
+  <line x1="20" y1="230" x2="235" y2="230" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="18" y="242" font-size="7.5" fill="#212121" font-family="Arial">Кутейкин — дьячок (грамота) — невежда</text>
+  <text x="18" y="254" font-size="7.5" fill="#212121" font-family="Arial">Цыфиркин — солдат (арифметика) — честен</text>
+  <text x="18" y="266" font-size="7.5" fill="#212121" font-family="Arial">Вральман — немец (французский) — бывший кучер</text>
+  <!-- Speaking names -->
+  <rect x="255" y="213" width="235" height="55" rx="5" fill="#E1BEE7" opacity="0.4"/>
+  <text x="372" y="227" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Говорящие фамилии</text>
+  <line x1="265" y1="230" x2="480" y2="230" stroke="#AB47BC" stroke-width="0.5"/>
+  <text x="263" y="242" font-size="7.5" fill="#212121" font-family="Arial">Простакова — простота, грубость</text>
+  <text x="263" y="254" font-size="7.5" fill="#212121" font-family="Arial">Скотинин — скотское поведение</text>
+  <text x="263" y="266" font-size="7.5" fill="#212121" font-family="Arial">Стародум — старые (добрые) принципы</text>
+  <!-- Key ideas -->
+  <rect x="10" y="274" width="480" height="58" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="250" y="288" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Главные идеи комедии</text>
+  <line x1="20" y1="291" x2="480" y2="291" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="18" y="304" font-size="8" fill="#212121" font-family="Arial">• Воспитание — основа личности: без просвещения — дикарь</text>
+  <text x="18" y="316" font-size="8" fill="#212121" font-family="Arial">• Крепостное право развращает и помещиков, и крестьян</text>
+  <text x="18" y="328" font-size="8" fill="#757575" font-family="Arial">• Классицизм: правило трёх единств, говорящие имена, + и − персонажи</text>
+  <rect y="338" width="500" height="12" fill="#7B1FA2" rx="0"/>
+  <rect y="338" width="500" height="12" fill="url(#hdr)" rx="0"/>
+  <text x="250" y="348" text-anchor="middle" font-size="8" fill="#FFFFFF" font-family="Arial">Литература 9 класс</text>
+  <line x1="10" y1="296" x2="10" y2="296" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="300" x2="106" y2="300" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="304" x2="202" y2="304" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
 </svg>

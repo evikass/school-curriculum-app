@@ -1,36 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="headerGrad7" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7E57C2;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B39DDB;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#283593"/>
-    </linearGradient>
+    <filter id="shadow7" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000022"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#283593" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#283593" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Теорема синусов</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Геометрия - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#283593" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  
-    <polygon points="250,150 300,230 200,230" fill="none" stroke="#5C6BC0" stroke-width="2.5"/>
-    <circle cx="250" cy="205" r="20" fill="none" stroke="#283593" stroke-width="1.5" opacity="0.5"/>
-    <line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1" opacity="0.3" stroke-dasharray="4,3"/>
+  <!-- Background -->
+  <rect width="500" height="350" fill="#FAFAFA" rx="8"/>
+  <!-- Header bar -->
+  <rect width="500" height="52" fill="url(#headerGrad7)" rx="8"/>
+  <rect y="40" width="500" height="12" fill="url(#headerGrad7)"/>
+  <!-- Decorative elements -->
+  <circle cx="470" cy="26" r="15" fill="#FFFFFF" opacity="0.15"/>
+  <circle cx="445" cy="18" r="8" fill="#FFFFFF" opacity="0.1"/>
+  <circle cx="30" cy="26" r="12" fill="#FFFFFF" opacity="0.12"/>
+  <!-- Title -->
+  <text x="250" y="34" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Урок 7: Теорема синусов</text>
+  <!-- Triangle with circumscribed circle -->
+  <g transform="translate(20,62)">
+    <rect x="0" y="0" width="230" height="155" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow7)"/>
+    <text x="115" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">Теорема синусов</text>
+    <!-- Circumscribed circle -->
+    <circle cx="115" cy="85" r="55" fill="none" stroke="#D1C4E9" stroke-width="1" stroke-dasharray="4,3"/>
+    <!-- Triangle -->
+    <polygon points="115,35 55,125 175,125" fill="none" stroke="#7E57C2" stroke-width="2.5"/>
+    <!-- Vertices -->
+    <text x="115" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#FF7043">C</text>
+    <text x="40" y="138" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#FF7043">A</text>
+    <text x="180" y="138" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#FF7043">B</text>
+    <!-- Side labels -->
+    <text x="78" y="80" font-family="Arial,sans-serif" font-size="10" fill="#7E57C2">b</text>
+    <text x="150" y="80" font-family="Arial,sans-serif" font-size="10" fill="#7E57C2">a</text>
+    <text x="115" y="140" font-family="Arial,sans-serif" font-size="10" fill="#7E57C2">c</text>
+    <!-- Angle labels -->
+    <text x="60" y="122" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">∠A</text>
+    <text x="160" y="122" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">∠B</text>
+    <text x="118" y="50" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">∠C</text>
+    <!-- Center O -->
+    <circle cx="115" cy="85" r="2" fill="#757575"/>
+    <text x="120" y="88" font-family="Arial,sans-serif" font-size="8" fill="#757575">O</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Геометрия</text>
+  <!-- Formulas -->
+  <g transform="translate(265,62)">
+    <rect x="0" y="0" width="215" height="155" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow7)"/>
+    <text x="107" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">Формула теоремы</text>
+    <line x1="10" y1="24" x2="205" y2="24" stroke="#D1C4E9" stroke-width="1"/>
+    <!-- Main formula -->
+    <rect x="8" y="30" width="200" height="30" rx="4" fill="#EDE7F6"/>
+    <text x="108" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">a/sinA = b/sinB = c/sinC</text>
+    <text x="108" y="56" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FF7043">= 2R</text>
+    <!-- Corollaries -->
+    <text x="12" y="78" font-family="Arial,sans-serif" font-size="10" fill="#212121">Следствия:</text>
+    <text x="12" y="95" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50">• a/sinA = 2R</text>
+    <text x="12" y="112" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50">• b/sinB = 2R</text>
+    <text x="12" y="129" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50">• c/sinC = 2R</text>
+    <rect x="8" y="136" width="200" height="16" rx="3" fill="#FFF3E0"/>
+    <text x="108" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#E65100">R = a/(2sinA) = abc/(4S)</text>
+  </g>
+  <!-- Application examples -->
+  <g transform="translate(20,228)">
+    <rect x="0" y="0" width="460" height="105" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow7)"/>
+    <text x="230" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">Применение теоремы синусов</text>
+    <line x1="10" y1="24" x2="450" y2="24" stroke="#D1C4E9" stroke-width="1"/>
+    <!-- Finding side -->
+    <text x="115" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#7E57C2">Нахождение стороны</text>
+    <text x="115" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#212121">Дано: ∠A, сторона a, ∠B</text>
+    <rect x="20" y="64" width="190" height="18" rx="3" fill="#E8F5E9"/>
+    <text x="115" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">b = a · sinB / sinA</text>
+    <!-- Finding angle -->
+    <text x="345" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#7E57C2">Нахождение угла</text>
+    <text x="345" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#212121">Дано: a, b и ∠A</text>
+    <rect x="250" y="64" width="190" height="18" rx="3" fill="#FFF3E0"/>
+    <text x="345" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#E65100">sinB = b · sinA / a</text>
+    <!-- Example -->
+    <text x="230" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#757575">Пример: a=10, ∠A=30°, ∠B=45° → b = 10·sin45°/sin30° = 10·(√2/2)/(1/2) = 10√2 ≈ 14.1</text>
+  </g>
 </svg>

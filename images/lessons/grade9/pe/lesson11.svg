@@ -1,39 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#E8F5E9"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4CAF50"/>
-      <stop offset="100%" stop-color="#1B5E20"/>
-    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4CAF50" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#4CAF50" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1B5E20" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1B5E20" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#4CAF50" text-anchor="middle">Акробатические упражнения</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физкультура - Урок 11</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#4CAF50" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#4CAF50" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1B5E20" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  
-    <circle cx="250" cy="165" r="15" fill="none" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="180" x2="250" y2="215" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="195" x2="225" y2="210" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="195" x2="275" y2="210" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="215" x2="230" y2="245" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="215" x2="270" y2="245" stroke="#4CAF50" stroke-width="2"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#4CAF50" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#4CAF50" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физкультура</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="500" height="50" fill="#66BB6A" rx="12"/>
+  <rect x="0" y="25" width="500" height="25" fill="#66BB6A"/>
+  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 11. Акробатические упражнения</text>
+  <!-- Rolls -->
+  <rect x="15" y="60" width="230" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
+  <rect x="15" y="77" width="230" height="8" fill="#66BB6A"/>
+  <text x="130" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Кувырки и перекаты</text>
+  <!-- Roll sequence -->
+  <circle cx="45" cy="105" r="8" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+  <text x="45" y="108" text-anchor="middle" fill="#2E7D32" font-size="7" font-family="Arial,sans-serif">1</text>
+  <path d="M55,105 Q70,95 85,105" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
+  <circle cx="95" cy="105" r="8" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+  <text x="95" y="108" text-anchor="middle" fill="#2E7D32" font-size="7" font-family="Arial,sans-serif">2</text>
+  <path d="M105,105 Q120,95 135,105" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
+  <circle cx="145" cy="105" r="8" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+  <text x="145" y="108" text-anchor="middle" fill="#2E7D32" font-size="7" font-family="Arial,sans-serif">3</text>
+  <text x="25" y="130" fill="#333" font-size="9" font-family="Arial,sans-serif">• Кувырок вперёд</text>
+  <text x="25" y="143" fill="#333" font-size="9" font-family="Arial,sans-serif">• Кувырок назад</text>
+  <text x="25" y="156" fill="#333" font-size="9" font-family="Arial,sans-serif">• Перекат в сторону</text>
+  <text x="25" y="169" fill="#333" font-size="9" font-family="Arial,sans-serif">• Длинный кувырок</text>
+  <text x="25" y="185" fill="#2E7D32" font-size="8" font-weight="bold" font-family="Arial,sans-serif">Группировка: колени к груди!</text>
+
+  <!-- Stands -->
+  <rect x="255" y="60" width="230" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="255" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
+  <rect x="255" y="77" width="230" height="8" fill="#66BB6A"/>
+  <text x="370" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Стойки и равновесия</text>
+  <text x="265" y="100" fill="#333" font-size="9" font-family="Arial,sans-serif">• Стойка на лопатках</text>
+  <text x="265" y="113" fill="#333" font-size="9" font-family="Arial,sans-serif">• Стойка на голове (помощь!)</text>
+  <text x="265" y="126" fill="#333" font-size="9" font-family="Arial,sans-serif">• Стойка на руках (у стены)</text>
+  <text x="265" y="139" fill="#333" font-size="9" font-family="Arial,sans-serif">• «Мост» из положения лёжа</text>
+  <text x="265" y="155" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Равновесия:</text>
+  <text x="265" y="168" fill="#333" font-size="9" font-family="Arial,sans-serif">• На одной ноге (ласточка)</text>
+  <text x="265" y="181" fill="#333" font-size="9" font-family="Arial,sans-serif">• Шпагат (продольный, попер.)</text>
+  <text x="265" y="194" fill="#333" font-size="9" font-family="Arial,sans-serif">• Упор присев, упор лёжа</text>
+
+  <!-- Safety -->
+  <rect x="15" y="200" width="230" height="120" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="200" width="230" height="25" fill="#E53935" rx="8"/>
+  <rect x="15" y="217" width="230" height="8" fill="#E53935"/>
+  <text x="130" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">⚠ Безопасность</text>
+  <text x="25" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">• Маты обязательно!</text>
+  <text x="25" y="265" fill="#333" font-size="9" font-family="Arial,sans-serif">• Страховка партнёром</text>
+  <text x="25" y="278" fill="#333" font-size="9" font-family="Arial,sans-serif">• Разминка шеи и спины</text>
+  <text x="25" y="291" fill="#333" font-size="9" font-family="Arial,sans-serif">• Не выполнять без команды</text>
+  <text x="25" y="304" fill="#333" font-size="9" font-family="Arial,sans-serif">• Группировка при падении!</text>
+  <text x="25" y="317" fill="#333" font-size="9" font-family="Arial,sans-serif">• Очки и украшения снять</text>
+
+  <!-- Connection -->
+  <rect x="255" y="200" width="230" height="120" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="255" y="200" width="230" height="25" fill="#2E7D32" rx="8"/>
+  <rect x="255" y="217" width="230" height="8" fill="#2E7D32"/>
+  <text x="370" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Связки и комбинации</text>
+  <text x="265" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">• Кувырок вперёд → стойка</text>
+  <text x="265" y="265" fill="#333" font-size="9" font-family="Arial,sans-serif">• 2 кувырка вперёд подряд</text>
+  <text x="265" y="278" fill="#333" font-size="9" font-family="Arial,sans-serif">• Кувырок → мост → встать</text>
+  <text x="265" y="291" fill="#333" font-size="9" font-family="Arial,sans-serif">• Стойка → кувырок вперёд</text>
+  <text x="265" y="304" fill="#333" font-size="9" font-family="Arial,sans-serif">• «Колесо» (с помощью)</text>
+  <text x="265" y="317" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Плавность и точность!</text>
 </svg>

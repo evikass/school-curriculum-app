@@ -1,38 +1,100 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#66BB6A"/>
-      <stop offset="100%" stop-color="#2E7D32"/>
-    </linearGradient>
+    <filter id="shadow8" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000033"/>
+    </filter>
+    <marker id="arrow8" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C62828"/>
+    </marker>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#66BB6A" text-anchor="middle">Экологические факторы</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 8</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#66BB6A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#2E7D32" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="35" fill="none" stroke="#66BB6A" stroke-width="2"/>
-    <circle cx="250" cy="190" r="25" fill="none" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-    <circle cx="240" cy="180" r="8" fill="#66BB6A" opacity="0.5"/>
-    <circle cx="262" cy="198" r="6" fill="#2E7D32" opacity="0.4"/>
-    <ellipse cx="250" cy="190" rx="12" ry="35" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.4"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="#E8F5E9"/>
+  <rect x="0" y="0" width="500" height="52" rx="12" fill="#388E3C"/>
+  <rect x="0" y="20" width="500" height="32" fill="#388E3C"/>
+  <!-- Header -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="white">Урок 8: Экологические факторы</text>
+
+  <!-- Definition -->
+  <rect x="15" y="60" width="470" height="25" rx="6" fill="#66BB6A" opacity="0.2"/>
+  <text x="250" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Экологический фактор — элемент среды, воздействующий на организм</text>
+
+  <!-- Abiotic factors -->
+  <rect x="15" y="92" width="155" height="125" rx="8" fill="white" opacity="0.9" filter="url(#shadow8)"/>
+  <rect x="15" y="92" width="155" height="20" rx="8" fill="#1565C0" opacity="0.85"/>
+  <rect x="15" y="104" width="155" height="8" fill="#1565C0" opacity="0.85"/>
+  <text x="92" y="107" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white">Абиотические</text>
+  <!-- Sun icon -->
+  <circle cx="40" cy="130" r="8" fill="#FFD54F" stroke="#FF8F00" stroke-width="1"/>
+  <line x1="40" y1="118" x2="40" y2="121" stroke="#FF8F00" stroke-width="1"/>
+  <line x1="40" y1="139" x2="40" y2="142" stroke="#FF8F00" stroke-width="1"/>
+  <line x1="28" y1="130" x2="31" y2="130" stroke="#FF8F00" stroke-width="1"/>
+  <line x1="49" y1="130" x2="52" y2="130" stroke="#FF8F00" stroke-width="1"/>
+  <text x="60" y="127" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Свет</text>
+  <text x="60" y="139" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Температура</text>
+  <text x="25" y="155" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Влажность, осадки</text>
+  <text x="25" y="168" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Давление, ветер</text>
+  <text x="25" y="181" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• PH почвы, солёность</text>
+  <text x="25" y="194" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Рельеф, состав воды</text>
+  <text x="25" y="210" font-family="Arial,sans-serif" font-size="7.5" fill="#1565C0" font-style="italic">Климат — комплекс абиотич. факторов</text>
+
+  <!-- Biotic factors -->
+  <rect x="180" y="92" width="155" height="125" rx="8" fill="white" opacity="0.9" filter="url(#shadow8)"/>
+  <rect x="180" y="92" width="155" height="20" rx="8" fill="#388E3C" opacity="0.85"/>
+  <rect x="180" y="104" width="155" height="8" fill="#388E3C" opacity="0.85"/>
+  <text x="257" y="107" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white">Биотические</text>
+  <text x="190" y="127" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Взаимодействия организмов:</text>
+  <text x="190" y="142" font-family="Arial,sans-serif" font-size="8.5" fill="#2E7D32">+ + Мутуализм (симбиоз)</text>
+  <text x="190" y="155" font-family="Arial,sans-serif" font-size="8.5" fill="#FF8F00">+ 0 Комменсализм</text>
+  <text x="190" y="168" font-family="Arial,sans-serif" font-size="8.5" fill="#C62828">+ − Хищничество</text>
+  <text x="190" y="181" font-family="Arial,sans-serif" font-size="8.5" fill="#C62828">+ − Паразитизм</text>
+  <text x="190" y="194" font-family="Arial,sans-serif" font-size="8.5" fill="#C62828">− − Конкуренция</text>
+  <text x="190" y="207" font-family="Arial,sans-serif" font-size="8.5" fill="#1565C0">0 0 Нейтрализм</text>
+  <text x="190" y="214" font-family="Arial,sans-serif" font-size="7.5" fill="#388E3C" font-style="italic">Внутривидовая и межвидовая</text>
+
+  <!-- Anthropogenic factors -->
+  <rect x="345" y="92" width="140" height="125" rx="8" fill="white" opacity="0.9" filter="url(#shadow8)"/>
+  <rect x="345" y="92" width="140" height="20" rx="8" fill="#C62828" opacity="0.85"/>
+  <rect x="345" y="104" width="140" height="8" fill="#C62828" opacity="0.85"/>
+  <text x="415" y="107" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white">Антропогенные</text>
+  <text x="355" y="127" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Деятельность человека:</text>
+  <text x="355" y="142" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Вырубка лесов</text>
+  <text x="355" y="155" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Загрязнение среды</text>
+  <text x="355" y="168" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Осушение болот</text>
+  <text x="355" y="181" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Промышленность</text>
+  <text x="355" y="194" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Сельское хозяйство</text>
+  <text x="355" y="210" font-family="Arial,sans-serif" font-size="7.5" fill="#C62828" font-style="italic">Самый мощный фактор</text>
+
+  <!-- Limiting factor graph (Shelford's law) -->
+  <rect x="15" y="225" width="290" height="115" rx="8" fill="white" opacity="0.9" filter="url(#shadow8)"/>
+  <text x="160" y="243" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Закон толерантности Шелфорда</text>
+  <line x1="25" y1="330" x2="25" y2="255" stroke="#555" stroke-width="1"/>
+  <line x1="25" y1="330" x2="290" y2="330" stroke="#555" stroke-width="1"/>
+  <!-- Bell curve -->
+  <path d="M40,325 Q80,325 100,310 Q130,280 160,260 Q190,280 220,310 Q240,325 280,325" fill="none" stroke="#388E3C" stroke-width="2"/>
+  <path d="M40,325 Q80,325 100,310 Q130,280 160,260 Q190,280 220,310 Q240,325 280,325 Z" fill="#66BB6A" opacity="0.15"/>
+  <!-- Zone labels -->
+  <text x="55" y="318" font-family="Arial,sans-serif" font-size="7" fill="#C62828">Гибель</text>
+  <text x="95" y="322" font-family="Arial,sans-serif" font-size="7" fill="#FF8F00">Пессимум</text>
+  <text x="145" y="285" font-family="Arial,sans-serif" font-size="7.5" fill="#388E3C" font-weight="bold">Оптимум</text>
+  <text x="205" y="322" font-family="Arial,sans-serif" font-size="7" fill="#FF8F00">Пессимум</text>
+  <text x="245" y="318" font-family="Arial,sans-serif" font-size="7" fill="#C62828">Гибель</text>
+  <!-- Axis labels -->
+  <text x="15" y="252" font-family="Arial,sans-serif" font-size="7" fill="#555">Жизнь</text>
+  <text x="140" y="340" font-family="Arial,sans-serif" font-size="7" fill="#555">Сила фактора →</text>
+  <text x="25" y="335" font-family="Arial,sans-serif" font-size="7" fill="#555">min</text>
+  <text x="280" y="335" font-family="Arial,sans-serif" font-size="7" fill="#555">max</text>
+  <!-- Dashed lines for limits -->
+  <line x1="85" y1="255" x2="85" y2="330" stroke="#FF8F00" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="235" y1="255" x2="235" y2="330" stroke="#FF8F00" stroke-width="0.8" stroke-dasharray="3,2"/>
+
+  <!-- Limiting factor definition -->
+  <rect x="315" y="225" width="170" height="115" rx="8" fill="white" opacity="0.9" filter="url(#shadow8)"/>
+  <text x="400" y="243" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Лимитирующий фактор</text>
+  <line x1="325" y1="249" x2="475" y2="249" stroke="#A5D6A7" stroke-width="1"/>
+  <text x="325" y="265" font-family="Arial,sans-serif" font-size="9" fill="#333">Фактор, который больше</text>
+  <text x="325" y="278" font-family="Arial,sans-serif" font-size="9" fill="#333">всего ограничивает</text>
+  <text x="325" y="291" font-family="Arial,sans-serif" font-size="9" fill="#333">жизнедеятельность</text>
+  <text x="325" y="310" font-family="Arial,sans-serif" font-size="8.5" fill="#388E3C" font-weight="bold">Примеры:</text>
+  <text x="325" y="323" font-family="Arial,sans-serif" font-size="8" fill="#555">Свет для растений в глубине</text>
+  <text x="325" y="335" font-family="Arial,sans-serif" font-size="8" fill="#555">Вода в пустыне</text>
 </svg>

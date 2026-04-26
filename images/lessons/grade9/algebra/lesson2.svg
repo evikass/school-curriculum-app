@@ -8,29 +8,100 @@
       <stop offset="0%" stop-color="#5C6BC0"/>
       <stop offset="100%" stop-color="#3F51B5"/>
     </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7986CB"/>
+      <stop offset="100%" stop-color="#5C6BC0"/>
+    </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
   <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
+  <!-- Corner decorations -->
   <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.12"/>
   <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#3F51B5" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Функция y = ax² + bx + c</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 2</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  
-    <path d="M200,160 Q250,120 300,160 Q350,200 300,240 Q250,280 200,240 Q150,200 200,160" fill="none" stroke="#5C6BC0" stroke-width="2.5"/>
-    <line x1="180" y1="200" x2="320" y2="200" stroke="#5C6BC0" stroke-width="1" opacity="0.5"/>
-    <text x="250" y="208" font-family="Arial,sans-serif" font-size="16" fill="#5C6BC0" text-anchor="middle">ax²+bx+c</text>
-  </g>
+  <!-- Title -->
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Функция y = ax² + bx + c</text>
+  <text x="250" y="60" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Алгебра — Урок 2</text>
+  <line x1="30" y1="70" x2="470" y2="70" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="67" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
+  <rect x="410" y="67" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
+
+  <!-- Illustration area -->
+  <rect x="15" y="76" width="470" height="222" rx="6" fill="#E8EAF6" opacity="0.4"/>
+
+  <!-- Coordinate system -->
+  <line x1="40" y1="210" x2="285" y2="210" stroke="#555" stroke-width="1.2"/>
+  <line x1="160" y1="82" x2="160" y2="295" stroke="#555" stroke-width="1.2"/>
+  <polygon points="285,210 279,206 279,214" fill="#555"/>
+  <polygon points="160,82 156,88 164,88" fill="#555"/>
+  <text x="283" y="202" font-family="Arial,sans-serif" font-size="11" fill="#555">x</text>
+  <text x="167" y="92" font-family="Arial,sans-serif" font-size="11" fill="#555">y</text>
+
+  <!-- Grid -->
+  <line x1="190" y1="85" x2="190" y2="292" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="220" y1="85" x2="220" y2="292" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="250" y1="85" x2="250" y2="292" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="280" y1="85" x2="280" y2="292" stroke="#ddd" stroke-width="0.5"/>
+
+  <!-- Axis of symmetry (dashed) -->
+  <line x1="220" y1="85" x2="220" y2="295" stroke="#E91E63" stroke-width="1.2" stroke-dasharray="5,3"/>
+  <text x="225" y="95" font-family="Arial,sans-serif" font-size="9" fill="#E91E63">x₀=2</text>
+
+  <!-- Parabola -->
+  <polyline points="148.0,91.0 151.0,102.8 154.0,114.0 157.0,124.8 160.0,135.0 163.0,144.8 166.0,154.0 169.0,162.8 172.0,171.0 175.0,178.8 178.0,186.0 181.0,192.8 184.0,199.0 187.0,204.8 190.0,210.0 193.0,214.8 196.0,219.0 199.0,222.8 202.0,226.0 205.0,228.8 208.0,231.0 211.0,232.8 214.0,234.0 217.0,234.8 220.0,235.0 223.0,234.8 226.0,234.0 229.0,232.8 232.0,231.0 235.0,228.8 238.0,226.0 241.0,222.8 244.0,219.0 247.0,214.8 250.0,210.0 253.0,204.7 256.0,199.0 259.0,192.8 262.0,186.0 265.0,178.8 268.0,171.0 271.0,162.8 274.0,154.0 277.0,144.8 280.0,135.0 283.0,124.8 286.0,114.0 289.0,102.8" fill="none" stroke="#5C6BC0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Root points -->
+  <circle cx="190" cy="210" r="4" fill="#E91E63" stroke="white" stroke-width="1.5"/>
+  <circle cx="250" cy="210" r="4" fill="#E91E63" stroke="white" stroke-width="1.5"/>
+  <text x="190" y="228" font-family="Arial,sans-serif" font-size="9" fill="#E91E63" text-anchor="middle">x=1</text>
+  <text x="250" y="228" font-family="Arial,sans-serif" font-size="9" fill="#E91E63" text-anchor="middle">x=3</text>
+
+  <!-- Vertex point -->
+  <circle cx="220" cy="235" r="4" fill="#FF9800" stroke="white" stroke-width="1.5"/>
+  <text x="228" y="230" font-family="Arial,sans-serif" font-size="9" fill="#FF9800">(2;-1)</text>
+
+  <!-- Y-intercept point -->
+  <circle cx="160" cy="135" r="4" fill="#4CAF50" stroke="white" stroke-width="1.5"/>
+  <text x="168" y="139" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">(0;3)</text>
+
+  <!-- Tick marks -->
+  <line x1="190" y1="207" x2="190" y2="213" stroke="#555" stroke-width="0.8"/>
+  <line x1="220" y1="207" x2="220" y2="213" stroke="#555" stroke-width="0.8"/>
+  <line x1="250" y1="207" x2="250" y2="213" stroke="#555" stroke-width="0.8"/>
+  <line x1="280" y1="207" x2="280" y2="213" stroke="#555" stroke-width="0.8"/>
+  <text x="190" y="224" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">1</text>
+  <text x="220" y="224" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">2</text>
+  <text x="250" y="224" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">3</text>
+  <text x="280" y="224" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">4</text>
+
+  <!-- Formula box on right -->
+  <rect x="295" y="82" width="185" height="105" rx="5" fill="white" opacity="0.9" stroke="#5C6BC0" stroke-width="0.8"/>
+  <text x="387" y="100" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Формулы:</text>
+  <text x="305" y="118" font-family="Arial,sans-serif" font-size="11" fill="#333">x₀ = -b / (2a)</text>
+  <text x="305" y="134" font-family="Arial,sans-serif" font-size="11" fill="#333">y₀ = f(x₀)</text>
+  <line x1="305" y1="140" x2="470" y2="140" stroke="#5C6BC0" stroke-width="0.5" opacity="0.4"/>
+  <text x="305" y="155" font-family="Arial,sans-serif" font-size="10" fill="#555">D = b² - 4ac</text>
+  <text x="305" y="170" font-family="Arial,sans-serif" font-size="10" fill="#555">x = (-b ± √D) / 2a</text>
+  <text x="305" y="183" font-family="Arial,sans-serif" font-size="10" fill="#555">Y-пересечение: (0; c)</text>
+
+  <!-- Algorithm box on right -->
+  <rect x="295" y="195" width="185" height="100" rx="5" fill="white" opacity="0.9" stroke="#5C6BC0" stroke-width="0.8"/>
+  <text x="387" y="213" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Алгоритм:</text>
+  <text x="305" y="230" font-family="Arial,sans-serif" font-size="10" fill="#333">1. Найти вершину (x₀, y₀)</text>
+  <text x="305" y="244" font-family="Arial,sans-serif" font-size="10" fill="#333">2. Провести ось симм.</text>
+  <text x="305" y="258" font-family="Arial,sans-serif" font-size="10" fill="#333">3. Найти нули функции</text>
+  <text x="305" y="272" font-family="Arial,sans-serif" font-size="10" fill="#333">4. Найти (0; c)</text>
+  <text x="305" y="286" font-family="Arial,sans-serif" font-size="10" fill="#333">5. Построить параболу</text>
+
+  <!-- Example equation -->
+  <text x="30" y="290" font-family="Arial,sans-serif" font-size="10" fill="#5C6BC0" font-weight="bold">Пример: y = x² - 4x + 3</text>
+
+  <!-- Bottom panel -->
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
   <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра</text>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра — 9 класс</text>
 </svg>

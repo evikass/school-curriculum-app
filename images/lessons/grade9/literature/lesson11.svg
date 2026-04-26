@@ -1,38 +1,81 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7B1FA2"/>
+      <stop offset="100%" stop-color="#AB47BC"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3E5F5"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#AB47BC" text-anchor="middle">А.И. Солженицын</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 11</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#AB47BC" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  
-    <rect x="225" y="155" width="50" height="70" rx="3" fill="none" stroke="#AB47BC" stroke-width="2"/>
-    <line x1="250" y1="155" x2="250" y2="225" stroke="#AB47BC" stroke-width="1.5" opacity="0.4"/>
-    <path d="M230,160 Q250,150 270,160" fill="none" stroke="#6A1B9A" stroke-width="1.5" opacity="0.6"/>
-    <line x1="230" y1="175" x2="248" y2="175" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-    <line x1="230" y1="185" x2="248" y2="185" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="8"/>
+  <rect width="500" height="44" fill="url(#hdr)" rx="8"/>
+  <rect y="36" width="500" height="8" fill="url(#hdr)"/>
+  <text x="250" y="18" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold" font-family="Arial">Урок 11. А.И. Солженицын — правда о ГУЛАГе</text>
+  <text x="250" y="34" text-anchor="middle" font-size="9" fill="#E1BEE7" font-family="Arial">1918-2008 • «Одним словом правды весь мир победить можно»</text>
+  <!-- Author -->
+  <rect x="10" y="52" width="160" height="52" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <circle cx="40" cy="72" r="14" fill="#E1BEE7" stroke="#AB47BC" stroke-width="1"/>
+  <text x="40" y="77" text-anchor="middle" font-size="12" fill="#7B1FA2" font-family="Arial">&#9994;</text>
+  <text x="100" y="68" text-anchor="middle" font-size="8" fill="#7B1FA2" font-weight="bold" font-family="Arial">Александр Исаевич</text>
+  <text x="100" y="79" text-anchor="middle" font-size="8" fill="#7B1FA2" font-weight="bold" font-family="Arial">Солженицын</text>
+  <text x="100" y="90" font-size="7" fill="#757575" font-family="Arial">Нобелевская премия 1970 г.</text>
+  <text x="100" y="100" font-size="7" fill="#757575" font-family="Arial">Изгнание из СССР в 1974 г.</text>
+  <!-- One Day -->
+  <rect x="180" y="52" width="310" height="52" rx="5" fill="#E1BEE7" opacity="0.5"/>
+  <text x="335" y="66" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">«Один день Ивана Денисовича»</text>
+  <text x="188" y="79" font-size="8" fill="#212121" font-family="Arial">Повесть, 1962 г. — «Новый мир» (Твардовский)</text>
+  <text x="188" y="91" font-size="8" fill="#757575" font-family="Arial">Первое упоминание ГУЛАГа в советской печати</text>
+  <text x="188" y="101" font-size="8" fill="#212121" font-family="Arial">Прототип: Шухов &#8776; сам Солженицын (8 лет лагерей)</text>
+  <!-- Camp day structure -->
+  <rect x="10" y="110" width="480" height="56" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <text x="250" y="124" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Один день из жизни лагерника (подъём &#8594; отбой)</text>
+  <rect x="18" y="130" width="60" height="16" rx="3" fill="#7B1FA2" opacity="0.15"/>
+  <text x="48" y="141" text-anchor="middle" font-size="6.5" fill="#212121" font-family="Arial">Подъём</text>
+  <rect x="83" y="130" width="60" height="16" rx="3" fill="#7B1FA2" opacity="0.2"/>
+  <text x="113" y="141" text-anchor="middle" font-size="6.5" fill="#212121" font-family="Arial">Завтрак</text>
+  <rect x="148" y="130" width="60" height="16" rx="3" fill="#7B1FA2" opacity="0.3"/>
+  <text x="178" y="141" text-anchor="middle" font-size="6.5" fill="#212121" font-family="Arial">Работа</text>
+  <rect x="213" y="130" width="60" height="16" rx="3" fill="#7B1FA2" opacity="0.35"/>
+  <text x="243" y="141" text-anchor="middle" font-size="6.5" fill="#212121" font-family="Arial">Обед</text>
+  <rect x="278" y="130" width="60" height="16" rx="3" fill="#7B1FA2" opacity="0.3"/>
+  <text x="308" y="141" text-anchor="middle" font-size="6.5" fill="#212121" font-family="Arial">Работа</text>
+  <rect x="343" y="130" width="60" height="16" rx="3" fill="#7B1FA2" opacity="0.2"/>
+  <text x="373" y="141" text-anchor="middle" font-size="6.5" fill="#212121" font-family="Arial">Ужин</text>
+  <rect x="408" y="130" width="72" height="16" rx="3" fill="#7B1FA2" opacity="0.15"/>
+  <text x="444" y="141" text-anchor="middle" font-size="6.5" fill="#212121" font-family="Arial">Отбой</text>
+  <text x="250" y="160" text-anchor="middle" font-size="7.5" fill="#757575" font-family="Arial">«Почти счастливый день» — в лагере таких в году три</text>
+  <!-- Characters -->
+  <rect x="10" y="172" width="235" height="68" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="127" y="186" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Персонажи</text>
+  <line x1="20" y1="189" x2="235" y2="189" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="18" y="200" font-size="7.5" fill="#212121" font-family="Arial">Иван Денисович Шухов — крестьянин</text>
+  <text x="18" y="211" font-size="7.5" fill="#757575" font-family="Arial">  Осуждён за «измену» (побег из плена)</text>
+  <text x="18" y="222" font-size="7.5" fill="#212121" font-family="Arial">Алёшка-баптист — верующий</text>
+  <text x="18" y="233" font-size="7.5" fill="#212121" font-family="Arial">Цезарь — интеллигент-приспособленец</text>
+  <!-- Survival principles -->
+  <rect x="255" y="172" width="235" height="68" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="372" y="186" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Правила выживания Шухова</text>
+  <line x1="265" y1="189" x2="480" y2="189" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="263" y="200" font-size="7.5" fill="#212121" font-family="Arial">• Не заболеть — беречь здоровье</text>
+  <text x="263" y="211" font-size="7.5" fill="#212121" font-family="Arial">• Досыта поесть — главная цель дня</text>
+  <text x="263" y="222" font-size="7.5" fill="#212121" font-family="Arial">• Работать на совесть — в работе спасение</text>
+  <text x="263" y="233" font-size="7.5" fill="#212121" font-family="Arial">• Не доносить — сохранить достоинство</text>
+  <!-- GULAG info -->
+  <rect x="10" y="246" width="480" height="44" rx="5" fill="#7B1FA2" opacity="0.08"/>
+  <text x="250" y="260" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">ГУЛАГ — Государственное управление лагерей</text>
+  <text x="18" y="274" font-size="8" fill="#212121" font-family="Arial">Миллионы невинных: 58-я статья (контрреволюция) • Человек лишается имени — «Щ-854»</text>
+  <text x="18" y="286" font-size="8" fill="#757575" font-family="Arial">Статья 58-1б (измена родине) — 25 лет лагерей • Труд как наказание и «перевоспитание»</text>
+  <!-- Other works -->
+  <rect x="10" y="296" width="235" height="36" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="127" y="310" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Другие произведения</text>
+  <text x="18" y="324" font-size="7.5" fill="#212121" font-family="Arial">«Архипелаг ГУЛАГ» • «Матрёнин двор» • «В круге первом»</text>
+  <!-- Quote -->
+  <rect x="255" y="296" width="235" height="36" rx="5" fill="#7B1FA2" opacity="0.1"/>
+  <text x="372" y="310" text-anchor="middle" font-size="8" fill="#7B1FA2" font-style="italic" font-family="Arial">«Одним словом правды весь мир</text>
+  <text x="372" y="324" text-anchor="middle" font-size="8" fill="#7B1FA2" font-style="italic" font-family="Arial">победить можно» — девиз писателя</text>
+  <rect y="338" width="500" height="12" fill="#7B1FA2" rx="0"/>
+  <rect y="338" width="500" height="12" fill="url(#hdr)" rx="0"/>
+  <text x="250" y="348" text-anchor="middle" font-size="8" fill="#FFFFFF" font-family="Arial">Литература 9 класс</text>
 </svg>

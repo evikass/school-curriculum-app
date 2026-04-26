@@ -1,37 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E0F2F1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Сельское хозяйство и АПК</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 9</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/>
-    <ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
+  <!-- Lesson number badge -->
+  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
+  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">9</text>
+  <!-- Title -->
+  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Сельское хозяйство и АПК</text>
+  <!-- Decorative line -->
+  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- AПК definition -->
+  <rect x="15" y="62" width="470" height="30" rx="6" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+  <text x="25" y="77" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">АПК</text>
+  <text x="55" y="77" font-family="Arial,sans-serif" font-size="9" fill="#333">— агропромышленный комплекс: сельское хоз-во + переработка + обеспечение</text>
+  <text x="25" y="87" font-family="Arial,sans-serif" font-size="8" fill="#666">С/х даёт ~4% ВВП, но обеспечивает продовольственную безопасность страны</text>
+  <!-- Crop farming -->
+  <g transform="translate(15, 97)">
+    <rect x="0" y="0" width="235" height="130" rx="8" fill="#FFFFFF" stroke="#4CAF50" stroke-width="1"/>
+    <text x="117" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C" text-anchor="middle">РАСТЕНИЕВОДСТВО</text>
+    <!-- Map zones -->
+    <rect x="10" y="25" width="215" height="16" rx="3" fill="#FFF3E0"/>
+    <text x="117" y="36" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Тундра и лесотундра — оленеводство</text>
+    <rect x="10" y="43" width="215" height="16" rx="3" fill="#E8F5E9"/>
+    <text x="117" y="54" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Тайга — льноводство, картофель</text>
+    <rect x="10" y="61" width="215" height="16" rx="3" fill="#C8E6C9"/>
+    <text x="117" y="72" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Смешанные леса — зерновые, лён, картофель</text>
+    <rect x="10" y="79" width="215" height="16" rx="3" fill="#A5D6A7"/>
+    <text x="117" y="90" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Лесостепь и степь — пшеница, подсолнечник, сахарная свёкла</text>
+    <rect x="10" y="97" width="215" height="16" rx="3" fill="#FFECB3"/>
+    <text x="117" y="108" font-family="Arial,sans-serif" font-size="7" fill="#F57F17" text-anchor="middle">Сухие степи — пастбищное животноводство</text>
+    <rect x="10" y="115" width="215" height="12" rx="3" fill="#FFCCBC"/>
+    <text x="117" y="124" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" text-anchor="middle">Субтропики — чай, цитрусовые (Кавказ)</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
+  <!-- Animal husbandry -->
+  <g transform="translate(260, 97)">
+    <rect x="0" y="0" width="225" height="130" rx="8" fill="#FFFFFF" stroke="#795548" stroke-width="1"/>
+    <text x="112" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#5D4037" text-anchor="middle">ЖИВОТНОВОДСТВО</text>
+    <!-- Types -->
+    <rect x="10" y="25" width="100" height="30" rx="4" fill="#8D6E63" opacity="0.2"/>
+    <text x="60" y="38" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#5D4037" text-anchor="middle">Скотоводство</text>
+    <text x="60" y="50" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Молочное, мясное</text>
+    <rect x="115" y="25" width="100" height="30" rx="4" fill="#8D6E63" opacity="0.2"/>
+    <text x="165" y="38" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#5D4037" text-anchor="middle">Свиноводство</text>
+    <text x="165" y="50" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Зерновые районы</text>
+    <rect x="10" y="60" width="100" height="30" rx="4" fill="#8D6E63" opacity="0.2"/>
+    <text x="60" y="73" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#5D4037" text-anchor="middle">Овцеводство</text>
+    <text x="60" y="85" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Сухие степи, горы</text>
+    <rect x="115" y="60" width="100" height="30" rx="4" fill="#8D6E63" opacity="0.2"/>
+    <text x="165" y="73" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#5D4037" text-anchor="middle">Оленеводство</text>
+    <text x="165" y="85" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Тундра, Сибирь</text>
+    <!-- Production stats -->
+    <line x1="5" y1="95" x2="220" y2="95" stroke="#BCAAA4" stroke-width="0.5"/>
+    <text x="112" y="108" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#5D4037" text-anchor="middle">Достижения:</text>
+    <text x="112" y="120" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">№1 по экспорту пшеницы | №2 по мясу птицы</text>
+  </g>
+  <!-- Key facts -->
+  <rect x="15" y="233" width="470" height="107" rx="6" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
+  <text x="25" y="250" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">КЛЮЧЕВЫЕ ФАКТЫ:</text>
+  <text x="25" y="265" font-family="Arial,sans-serif" font-size="9" fill="#333">• Главная с/х зона: европейская часть (80% с/х продукции)</text>
+  <text x="25" y="279" font-family="Arial,sans-serif" font-size="9" fill="#333">• Зерновой пояс: Краснодар, Ставрополь, Поволжье, Алтай</text>
+  <text x="25" y="293" font-family="Arial,sans-serif" font-size="9" fill="#333">• Специализация по зонам: природно-климатические условия определяют отрасли</text>
+  <text x="25" y="307" font-family="Arial,sans-serif" font-size="9" fill="#333">• Мелиорация: орошение (Юг), осушение (Северо-Запад)</text>
+  <text x="25" y="321" font-family="Arial,sans-serif" font-size="9" fill="#333">• Проблемы: износ техники, зависимость от импорта семян, климатические риски</text>
+  <!-- AПК structure -->
+  <rect x="15" y="340" width="470" height="5" rx="2" fill="#26A69A" opacity="0.3"/>
+  <text x="250" y="348" font-family="Arial,sans-serif" font-size="7" fill="#00796B" text-anchor="middle">Звенья АПК: производство → переработка → хранение → транспортировка → реализация</text>
 </svg>

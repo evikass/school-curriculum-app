@@ -1,37 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E0F2F1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Топливно-энергетический комплекс</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/>
-    <ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
+  <!-- Lesson number badge -->
+  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
+  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">7</text>
+  <!-- Title -->
+  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Топливно-энергетический комплекс</text>
+  <!-- Decorative line -->
+  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- Definition -->
+  <rect x="15" y="62" width="470" height="30" rx="6" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+  <text x="25" y="77" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">ТЭК</text>
+  <text x="55" y="77" font-family="Arial,sans-serif" font-size="9" fill="#333">— комплекс отраслей по добыче, переработке и транспортировке топлива и энергии</text>
+  <text x="25" y="88" font-family="Arial,sans-serif" font-size="8" fill="#666">Обеспечивает ~30% экспортных доходов и ~25% ВВП России</text>
+  <!-- Oil section -->
+  <g transform="translate(15, 97)">
+    <rect x="0" y="0" width="150" height="105" rx="8" fill="#FFFFFF" stroke="#E65100" stroke-width="1"/>
+    <rect x="0" y="0" width="150" height="18" rx="8" fill="#E65100" opacity="0.15"/>
+    <rect x="0" y="10" width="150" height="8" fill="#E65100" opacity="0.15"/>
+    <text x="75" y="14" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">НЕФТЯНАЯ ПРОМЫШЛЕННОСТЬ</text>
+    <text x="10" y="33" font-family="Arial,sans-serif" font-size="8" fill="#333">Добыча: ~540 млн т/год</text>
+    <text x="10" y="45" font-family="Arial,sans-serif" font-size="8" fill="#333">Мировой лидер по добыче</text>
+    <text x="10" y="59" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#E65100">Районы добычи:</text>
+    <text x="10" y="70" font-family="Arial,sans-serif" font-size="7" fill="#333">• Зап.-Сибирский (ХМАО)</text>
+    <text x="10" y="80" font-family="Arial,sans-serif" font-size="7" fill="#333">• Волго-Уральский</text>
+    <text x="10" y="90" font-family="Arial,sans-serif" font-size="7" fill="#333">• Тимано-Печорский</text>
+    <text x="10" y="100" font-family="Arial,sans-serif" font-size="7" fill="#333">• Сахалинский шельф</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
+  <!-- Gas section -->
+  <g transform="translate(175, 97)">
+    <rect x="0" y="0" width="150" height="105" rx="8" fill="#FFFFFF" stroke="#1565C0" stroke-width="1"/>
+    <rect x="0" y="0" width="150" height="18" rx="8" fill="#1565C0" opacity="0.15"/>
+    <rect x="0" y="10" width="150" height="8" fill="#1565C0" opacity="0.15"/>
+    <text x="75" y="14" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">ГАЗОВАЯ ПРОМЫШЛЕННОСТЬ</text>
+    <text x="10" y="33" font-family="Arial,sans-serif" font-size="8" fill="#333">Добыча: ~700 млрд м³/год</text>
+    <text x="10" y="45" font-family="Arial,sans-serif" font-size="8" fill="#333">№1 в мире по запасам газа</text>
+    <text x="10" y="59" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1565C0">Крупнейшие месторождения:</text>
+    <text x="10" y="70" font-family="Arial,sans-serif" font-size="7" fill="#333">• Уренгойское</text>
+    <text x="10" y="80" font-family="Arial,sans-serif" font-size="7" fill="#333">• Ямбургское</text>
+    <text x="10" y="90" font-family="Arial,sans-serif" font-size="7" fill="#333">• Бованенковское</text>
+    <text x="10" y="100" font-family="Arial,sans-serif" font-size="7" fill="#333">• Штокмановское (шельф)</text>
+  </g>
+  <!-- Coal and Electricity -->
+  <g transform="translate(335, 97)">
+    <rect x="0" y="0" width="150" height="105" rx="8" fill="#FFFFFF" stroke="#424242" stroke-width="1"/>
+    <rect x="0" y="0" width="150" height="18" rx="8" fill="#424242" opacity="0.1"/>
+    <rect x="0" y="10" width="150" height="8" fill="#424242" opacity="0.1"/>
+    <text x="75" y="14" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#424242" text-anchor="middle">УГОЛЬ И ЭЛЕКТРОЭНЕРГИЯ</text>
+    <text x="10" y="33" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#424242">Уголь: ~440 млн т/год</text>
+    <text x="10" y="44" font-family="Arial,sans-serif" font-size="7" fill="#333">• Кузбасс (Кемерово)</text>
+    <text x="10" y="54" font-family="Arial,sans-serif" font-size="7" fill="#333">• Канско-Ачинский basin</text>
+    <text x="10" y="64" font-family="Arial,sans-serif" font-size="7" fill="#333">• Печорский (Воркута)</text>
+    <line x1="5" y1="69" x2="145" y2="69" stroke="#E0E0E0" stroke-width="0.5"/>
+    <text x="10" y="80" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#26A69A">Электроэнергетика:</text>
+    <text x="10" y="90" font-family="Arial,sans-serif" font-size="7" fill="#333">• ТЭС — 65% (газ, уголь)</text>
+    <text x="10" y="100" font-family="Arial,sans-serif" font-size="7" fill="#333">• ГЭС — 20% (Саяно-Шушен.)</text>
+  </g>
+  <!-- Energy mix and pipelines -->
+  <rect x="15" y="208" width="470" height="132" rx="6" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
+  <text x="250" y="225" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">ТРУБОПРОВОДНЫЙ ТРАНСПОРТ И ЭНЕРГОБАЛАНС</text>
+  <!-- Energy balance bars -->
+  <text x="25" y="242" font-family="Arial,sans-serif" font-size="8" fill="#333">Нефть</text>
+  <rect x="65" y="233" width="300" height="10" rx="3" fill="#EEEEEE"/>
+  <rect x="65" y="233" width="135" height="10" rx="3" fill="#E65100"/>
+  <text x="205" y="242" font-family="Arial,sans-serif" font-size="7" fill="#333">~35%</text>
+  <text x="25" y="256" font-family="Arial,sans-serif" font-size="8" fill="#333">Газ</text>
+  <rect x="65" y="247" width="300" height="10" rx="3" fill="#EEEEEE"/>
+  <rect x="65" y="247" width="150" height="10" rx="3" fill="#1565C0"/>
+  <text x="220" y="256" font-family="Arial,sans-serif" font-size="7" fill="#333">~37%</text>
+  <text x="25" y="270" font-family="Arial,sans-serif" font-size="8" fill="#333">Уголь</text>
+  <rect x="65" y="261" width="300" height="10" rx="3" fill="#EEEEEE"/>
+  <rect x="65" y="261" width="60" height="10" rx="3" fill="#424242"/>
+  <text x="130" y="270" font-family="Arial,sans-serif" font-size="7" fill="#333">~13%</text>
+  <text x="25" y="284" font-family="Arial,sans-serif" font-size="8" fill="#333">ГЭС</text>
+  <rect x="65" y="275" width="300" height="10" rx="3" fill="#EEEEEE"/>
+  <rect x="65" y="275" width="45" height="10" rx="3" fill="#42A5F5"/>
+  <text x="115" y="284" font-family="Arial,sans-serif" font-size="7" fill="#333">~8%</text>
+  <text x="25" y="298" font-family="Arial,sans-serif" font-size="8" fill="#333">АЭС</text>
+  <rect x="65" y="289" width="300" height="10" rx="3" fill="#EEEEEE"/>
+  <rect x="65" y="289" width="30" height="10" rx="3" fill="#7E57C2"/>
+  <text x="100" y="298" font-family="Arial,sans-serif" font-size="7" fill="#333">~7%</text>
+  <!-- Pipeline info -->
+  <text x="25" y="318" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">Трубопроводы:</text>
+  <text x="110" y="318" font-family="Arial,sans-serif" font-size="8" fill="#333">«Сила Сибири» (Китай) | «Северный поток» | «Турецкий поток»</text>
+  <text x="25" y="332" font-family="Arial,sans-serif" font-size="8" fill="#333">Длина трубопроводов РФ: ~250 тыс. км — крупнейшая система в мире</text>
 </svg>
