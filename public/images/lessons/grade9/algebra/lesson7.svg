@@ -8,29 +8,103 @@
       <stop offset="0%" stop-color="#5C6BC0"/>
       <stop offset="100%" stop-color="#3F51B5"/>
     </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7986CB"/>
+      <stop offset="100%" stop-color="#5C6BC0"/>
+    </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
   <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
+  <!-- Corner decorations -->
   <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.12"/>
   <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#3F51B5" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Комбинаторные задачи</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  
-    <path d="M200,160 Q250,120 300,160 Q350,200 300,240 Q250,280 200,240 Q150,200 200,160" fill="none" stroke="#5C6BC0" stroke-width="2.5"/>
-    <line x1="180" y1="200" x2="320" y2="200" stroke="#5C6BC0" stroke-width="1" opacity="0.5"/>
-    <text x="250" y="208" font-family="Arial,sans-serif" font-size="16" fill="#5C6BC0" text-anchor="middle">ax²+bx+c</text>
-  </g>
+  <!-- Title -->
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Комбинаторные задачи</text>
+  <text x="250" y="60" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Алгебра — Урок 7</text>
+  <line x1="30" y1="70" x2="470" y2="70" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="67" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
+  <rect x="410" y="67" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
+
+  <!-- Illustration area -->
+  <rect x="15" y="76" width="470" height="222" rx="6" fill="#E8EAF6" opacity="0.4"/>
+
+  <!-- Three main concepts side by side -->
+  <!-- Permutations (left) -->
+  <rect x="22" y="84" width="148" height="140" rx="6" fill="white" opacity="0.92" stroke="#E91E63" stroke-width="1.2"/>
+  <rect x="22" y="84" width="148" height="24" rx="6" fill="#E91E63" opacity="0.9"/>
+  <rect x="22" y="102" width="148" height="6" fill="#E91E63" opacity="0.9"/>
+  <text x="96" y="101" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Перестановки</text>
+  <text x="96" y="128" font-family="Arial,sans-serif" font-size="14" fill="#E91E63" text-anchor="middle" font-weight="bold">Pₙ = n!</text>
+  <line x1="35" y1="135" x2="157" y2="135" stroke="#E91E63" stroke-width="0.5" opacity="0.4"/>
+  <text x="96" y="152" font-family="Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">Все n элементов</text>
+  <text x="96" y="166" font-family="Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">Порядок важен</text>
+  <text x="96" y="184" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">P₅ = 5! = 120</text>
+  <text x="96" y="200" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">(5 книг на полке)</text>
+  <!-- Mini illustration: 3 colored dots in different arrangements -->
+  <circle cx="52" cy="213" r="4" fill="#E91E63"/>
+  <circle cx="64" cy="213" r="4" fill="#4CAF50"/>
+  <circle cx="76" cy="213" r="4" fill="#FF9800"/>
+  <text x="96" y="217" font-family="Arial,sans-serif" font-size="8" fill="#888">→</text>
+  <circle cx="108" cy="213" r="4" fill="#4CAF50"/>
+  <circle cx="120" cy="213" r="4" fill="#E91E63"/>
+  <circle cx="132" cy="213" r="4" fill="#FF9800"/>
+
+  <!-- Arrangements (center) -->
+  <rect x="178" y="84" width="148" height="140" rx="6" fill="white" opacity="0.92" stroke="#4CAF50" stroke-width="1.2"/>
+  <rect x="178" y="84" width="148" height="24" rx="6" fill="#4CAF50" opacity="0.9"/>
+  <rect x="178" y="102" width="148" height="6" fill="#4CAF50" opacity="0.9"/>
+  <text x="252" y="101" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Размещения</text>
+  <text x="252" y="128" font-family="Arial,sans-serif" font-size="13" fill="#4CAF50" text-anchor="middle" font-weight="bold">Aₙᵐ = n!/(n-m)!</text>
+  <line x1="191" y1="135" x2="313" y2="135" stroke="#4CAF50" stroke-width="0.5" opacity="0.4"/>
+  <text x="252" y="152" font-family="Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">m из n элементов</text>
+  <text x="252" y="166" font-family="Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">Порядок важен</text>
+  <text x="252" y="184" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">A²₀² = 20·19 = 380</text>
+  <text x="252" y="200" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">(староста + зам из 20)</text>
+  <!-- Mini illustration: choosing 2 from 4 with order -->
+  <circle cx="208" cy="213" r="4" fill="#4CAF50"/>
+  <circle cx="220" cy="213" r="4" fill="#4CAF50" opacity="0.4"/>
+  <circle cx="232" cy="213" r="4" fill="#4CAF50" opacity="0.4"/>
+  <circle cx="244" cy="213" r="4" fill="#4CAF50" opacity="0.4"/>
+  <text x="258" y="217" font-family="Arial,sans-serif" font-size="8" fill="#888">2 из 4</text>
+
+  <!-- Combinations (right) -->
+  <rect x="334" y="84" width="148" height="140" rx="6" fill="white" opacity="0.92" stroke="#FF9800" stroke-width="1.2"/>
+  <rect x="334" y="84" width="148" height="24" rx="6" fill="#FF9800" opacity="0.9"/>
+  <rect x="334" y="102" width="148" height="6" fill="#FF9800" opacity="0.9"/>
+  <text x="408" y="101" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Сочетания</text>
+  <text x="408" y="128" font-family="Arial,sans-serif" font-size="13" fill="#FF9800" text-anchor="middle" font-weight="bold">Cₙᵐ = n!/(m!(n-m)!)</text>
+  <line x1="347" y1="135" x2="469" y2="135" stroke="#FF9800" stroke-width="0.5" opacity="0.4"/>
+  <text x="408" y="152" font-family="Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">m из n элементов</text>
+  <text x="408" y="166" font-family="Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">Порядок НЕ важен</text>
+  <text x="408" y="184" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">C₁₅³ = 455</text>
+  <text x="408" y="200" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">(3 дежурных из 15)</text>
+  <!-- Mini illustration: choosing 2 from 4 without order -->
+  <circle cx="378" cy="213" r="4" fill="#FF9800"/>
+  <circle cx="390" cy="213" r="4" fill="#FF9800"/>
+  <circle cx="402" cy="213" r="4" fill="#FF9800" opacity="0.4"/>
+  <circle cx="414" cy="213" r="4" fill="#FF9800" opacity="0.4"/>
+
+  <!-- Factorial box at bottom -->
+  <rect x="22" y="232" width="225" height="60" rx="5" fill="white" opacity="0.92" stroke="#5C6BC0" stroke-width="1"/>
+  <text x="134" y="249" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Факториал: n!</text>
+  <text x="134" y="266" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">n! = 1 × 2 × 3 × ... × n</text>
+  <text x="134" y="282" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">0! = 1,  1! = 1,  5! = 120</text>
+
+  <!-- Rules box -->
+  <rect x="257" y="232" width="225" height="60" rx="5" fill="white" opacity="0.92" stroke="#5C6BC0" stroke-width="1"/>
+  <text x="369" y="249" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Правила:</text>
+  <text x="267" y="266" font-family="Arial,sans-serif" font-size="10" fill="#333">Умножения: m × n</text>
+  <text x="267" y="282" font-family="Arial,sans-serif" font-size="10" fill="#333">Сложения: m + n</text>
+  <text x="400" y="266" font-family="Arial,sans-serif" font-size="8" fill="#888">(выбор A и B)</text>
+  <text x="400" y="282" font-family="Arial,sans-serif" font-size="8" fill="#888">(выбор A или B)</text>
+
+  <!-- Bottom panel -->
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
   <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра</text>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра — 9 класс</text>
 </svg>

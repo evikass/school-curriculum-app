@@ -8,29 +8,104 @@
       <stop offset="0%" stop-color="#5C6BC0"/>
       <stop offset="100%" stop-color="#3F51B5"/>
     </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7986CB"/>
+      <stop offset="100%" stop-color="#5C6BC0"/>
+    </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
   <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
+  <!-- Corner decorations -->
   <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.12"/>
   <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#3F51B5" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Системы линейных уравнений</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  
-    <path d="M200,160 Q250,120 300,160 Q350,200 300,240 Q250,280 200,240 Q150,200 200,160" fill="none" stroke="#5C6BC0" stroke-width="2.5"/>
-    <line x1="180" y1="200" x2="320" y2="200" stroke="#5C6BC0" stroke-width="1" opacity="0.5"/>
-    <text x="250" y="208" font-family="Arial,sans-serif" font-size="16" fill="#5C6BC0" text-anchor="middle">ax²+bx+c</text>
-  </g>
+  <!-- Title -->
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Системы линейных уравнений</text>
+  <text x="250" y="60" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Алгебра — Урок 3</text>
+  <line x1="30" y1="70" x2="470" y2="70" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="67" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
+  <rect x="410" y="67" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
+
+  <!-- Illustration area -->
+  <rect x="15" y="76" width="470" height="222" rx="6" fill="#E8EAF6" opacity="0.4"/>
+
+  <!-- Coordinate system -->
+  <line x1="40" y1="200" x2="265" y2="200" stroke="#555" stroke-width="1.2"/>
+  <line x1="150" y1="85" x2="150" y2="292" stroke="#555" stroke-width="1.2"/>
+  <polygon points="265,200 259,196 259,204" fill="#555"/>
+  <polygon points="150,85 146,91 154,91" fill="#555"/>
+  <text x="262" y="192" font-family="Arial,sans-serif" font-size="11" fill="#555">x</text>
+  <text x="157" y="94" font-family="Arial,sans-serif" font-size="11" fill="#555">y</text>
+
+  <!-- Grid -->
+  <line x1="180" y1="88" x2="180" y2="290" stroke="#eee" stroke-width="0.5"/>
+  <line x1="210" y1="88" x2="210" y2="290" stroke="#eee" stroke-width="0.5"/>
+  <line x1="240" y1="88" x2="240" y2="290" stroke="#eee" stroke-width="0.5"/>
+  <line x1="120" y1="88" x2="120" y2="290" stroke="#eee" stroke-width="0.5"/>
+  <line x1="90" y1="88" x2="90" y2="290" stroke="#eee" stroke-width="0.5"/>
+  <line x1="60" y1="88" x2="60" y2="290" stroke="#eee" stroke-width="0.5"/>
+  <!-- Y grid -->
+  <line x1="42" y1="170" x2="262" y2="170" stroke="#eee" stroke-width="0.5"/>
+  <line x1="42" y1="140" x2="262" y2="140" stroke="#eee" stroke-width="0.5"/>
+  <line x1="42" y1="110" x2="262" y2="110" stroke="#eee" stroke-width="0.5"/>
+  <line x1="42" y1="230" x2="262" y2="230" stroke="#eee" stroke-width="0.5"/>
+
+  <!-- Tick marks -->
+  <line x1="180" y1="197" x2="180" y2="203" stroke="#555" stroke-width="0.8"/>
+  <line x1="210" y1="197" x2="210" y2="203" stroke="#555" stroke-width="0.8"/>
+  <line x1="240" y1="197" x2="240" y2="203" stroke="#555" stroke-width="0.8"/>
+  <line x1="120" y1="197" x2="120" y2="203" stroke="#555" stroke-width="0.8"/>
+  <line x1="90" y1="197" x2="90" y2="203" stroke="#555" stroke-width="0.8"/>
+  <text x="180" y="214" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">1</text>
+  <text x="210" y="214" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">2</text>
+  <text x="240" y="214" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">3</text>
+  <text x="120" y="214" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">-1</text>
+  <text x="90" y="214" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">-2</text>
+  <text x="144" y="174" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="end">1</text>
+  <text x="144" y="144" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="end">2</text>
+  <text x="144" y="114" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="end">3</text>
+
+  <!-- Line 1: y = x + 2 (from x=-3 to x=3) -->
+  <line x1="60" y1="230" x2="240" y2="50" stroke="#E91E63" stroke-width="2.2" opacity="0.9"/>
+  <!-- Line 2: y = -x + 4 (from x=-1 to x=5) -->
+  <line x1="120" y1="50" x2="300" y2="230" stroke="#4CAF50" stroke-width="2.2" opacity="0.9"/>
+
+  <!-- Intersection point (1, 3) -->
+  <circle cx="180" cy="110" r="5" fill="#FF9800" stroke="white" stroke-width="2"/>
+  <text x="188" y="104" font-family="Arial,sans-serif" font-size="10" fill="#FF9800" font-weight="bold">(1; 3)</text>
+
+  <!-- Line labels -->
+  <text x="50" y="120" font-family="Arial,sans-serif" font-size="10" fill="#E91E63">y = x + 2</text>
+  <text x="200" y="120" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50">y = -x + 4</text>
+
+  <!-- Right side: Methods -->
+  <rect x="278" y="82" width="205" height="72" rx="5" fill="white" opacity="0.9" stroke="#E91E63" stroke-width="0.8"/>
+  <text x="380" y="99" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#E91E63" text-anchor="middle">1. Подстановка:</text>
+  <text x="288" y="115" font-family="Arial,sans-serif" font-size="9.5" fill="#333">Выразить y из одного ур-я</text>
+  <text x="288" y="129" font-family="Arial,sans-serif" font-size="9.5" fill="#333">Подставить в другое</text>
+  <text x="288" y="143" font-family="Arial,sans-serif" font-size="9.5" fill="#333">Решить и найти обе перем.</text>
+
+  <rect x="278" y="160" width="205" height="72" rx="5" fill="white" opacity="0.9" stroke="#4CAF50" stroke-width="0.8"/>
+  <text x="380" y="177" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4CAF50" text-anchor="middle">2. Сложение:</text>
+  <text x="288" y="193" font-family="Arial,sans-serif" font-size="9.5" fill="#333">Уравнять коэфф. при перем.</text>
+  <text x="288" y="207" font-family="Arial,sans-serif" font-size="9.5" fill="#333">Сложить/вычесть уравнения</text>
+  <text x="288" y="221" font-family="Arial,sans-serif" font-size="9.5" fill="#333">Найти вторую переменную</text>
+
+  <rect x="278" y="238" width="205" height="55" rx="5" fill="white" opacity="0.9" stroke="#FF9800" stroke-width="0.8"/>
+  <text x="380" y="255" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FF9800" text-anchor="middle">3. Графический:</text>
+  <text x="288" y="271" font-family="Arial,sans-serif" font-size="9.5" fill="#333">Построить графики</text>
+  <text x="288" y="285" font-family="Arial,sans-serif" font-size="9.5" fill="#333">Точка пересеч. = решение</text>
+
+  <!-- Number of solutions -->
+  <text x="25" y="280" font-family="Arial,sans-serif" font-size="9" fill="#777">1 решение — пересекаются</text>
+  <text x="25" y="292" font-family="Arial,sans-serif" font-size="9" fill="#777">0 решений — параллельны</text>
+
+  <!-- Bottom panel -->
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
   <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра</text>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра — 9 класс</text>
 </svg>

@@ -1,38 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#E3F2FD"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#1A237E"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1A237E" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Механические колебания</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1A237E" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="40" fill="none" stroke="#5C6BC0" stroke-width="2"/>
-    <line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/>
-    <line x1="210" y1="190" x2="290" y2="190" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/>
-    <circle cx="250" cy="190" r="15" fill="#5C6BC0" opacity="0.15"/>
-    <text x="250" y="195" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" text-anchor="middle">F=ma</text>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#42A5F5" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#42A5F5" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#42A5F5" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#42A5F5" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#1565C0" opacity="0.12"/>
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#42A5F5" text-anchor="middle">Механические колебания</text>
+  <text x="250" y="60" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Физика — Урок 6</text>
+  <line x1="30" y1="68" x2="470" y2="68" stroke="#42A5F5" stroke-width="2" opacity="0.25"/>
+  <rect x="20" y="75" width="460" height="45" rx="4" fill="#42A5F5" opacity="0.07"/>
+  <text x="30" y="92" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="start" font-weight="bold">Колебание — повторяющееся движение</text>
+  <text x="30" y="110" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="start">вокруг положения равновесия</text>
+  <rect x="20" y="125" width="230" height="105" rx="4" fill="#42A5F5" opacity="0.05"/>
+  <text x="30" y="142" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="start" font-weight="bold">Нитяный маятник:</text>
+  <rect x="110" y="148" width="40" height="4" rx="2" fill="#555"/>
+  <line x1="130" y1="152" x2="130" y2="210" stroke="#42A5F5" stroke-width="1.5"/>
+  <circle cx="130" cy="215" r="8" fill="#BBDEFB" stroke="#42A5F5" stroke-width="1.5"/>
+  <line x1="130" y1="152" x2="85" y2="205" stroke="#42A5F5" stroke-width="1" stroke-dasharray="4,2"/>
+  <circle cx="85" cy="210" r="7" fill="none" stroke="#42A5F5" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="55" y="225" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="start">A — амплитуда</text>
+  <text x="30" y="250" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="start" font-weight="bold">T = 2π√(l/g)</text>
+  <text x="30" y="268" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="start">l — длина нити, g ≈ 9,8</text>
+  <rect x="260" y="125" width="220" height="105" rx="4" fill="#42A5F5" opacity="0.05"/>
+  <text x="270" y="142" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="start" font-weight="bold">Пружинный маятник:</text>
+  <rect x="270" y="185" width="30" height="35" rx="3" fill="#BBDEFB" stroke="#42A5F5" stroke-width="1.5"/>
+  <path d="M300,200 L310,195 L320,205 L330,195 L340,205 L350,195 L360,205 L370,195 L380,200" fill="none" stroke="#42A5F5" stroke-width="1.5"/>
+  <rect x="380" y="188" width="25" height="25" rx="3" fill="#FFCDD2" stroke="#E53935" stroke-width="1.5"/>
+  <text x="270" y="250" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="start" font-weight="bold">T = 2π√(m/k)</text>
+  <text x="270" y="268" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="start">m — масса, k — жёсткость</text>
+  <rect x="20" y="238" width="460" height="55" rx="4" fill="#42A5F5" opacity="0.05"/>
+  <text x="30" y="255" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="start" font-weight="bold">T — период (с)   ν — частота (Гц)</text>
+  <text x="30" y="272" font-family="Arial,sans-serif" font-size="12" fill="#42A5F5" text-anchor="start">T = 1/ν   ν = 1/T   T = t/N</text>
+  <text x="30" y="288" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="start">A — амплитуда (м) — максимальное отклонение</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Физика · Колебания</text>
 </svg>

@@ -1,36 +1,111 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="headerGrad6" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7E57C2;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B39DDB;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#283593"/>
-    </linearGradient>
+    <filter id="shadow6" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000022"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#283593" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#283593" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Синус, косинус, тангенс угла</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Геометрия - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#283593" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  
-    <polygon points="250,150 300,230 200,230" fill="none" stroke="#5C6BC0" stroke-width="2.5"/>
-    <circle cx="250" cy="205" r="20" fill="none" stroke="#283593" stroke-width="1.5" opacity="0.5"/>
-    <line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1" opacity="0.3" stroke-dasharray="4,3"/>
+  <!-- Background -->
+  <rect width="500" height="350" fill="#FAFAFA" rx="8"/>
+  <!-- Header bar -->
+  <rect width="500" height="52" fill="url(#headerGrad6)" rx="8"/>
+  <rect y="40" width="500" height="12" fill="url(#headerGrad6)"/>
+  <!-- Decorative elements -->
+  <circle cx="470" cy="26" r="15" fill="#FFFFFF" opacity="0.15"/>
+  <circle cx="445" cy="18" r="8" fill="#FFFFFF" opacity="0.1"/>
+  <circle cx="30" cy="26" r="12" fill="#FFFFFF" opacity="0.12"/>
+  <!-- Title -->
+  <text x="250" y="34" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">Урок 6: Синус, косинус, тангенс угла</text>
+  <!-- Right triangle -->
+  <g transform="translate(20,62)">
+    <rect x="0" y="0" width="230" height="150" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow6)"/>
+    <text x="115" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">Прямоугольный треугольник</text>
+    <!-- Triangle -->
+    <line x1="40" y1="130" x2="180" y2="130" stroke="#7E57C2" stroke-width="2"/>
+    <line x1="40" y1="130" x2="40" y2="45" stroke="#4CAF50" stroke-width="2"/>
+    <line x1="40" y1="45" x2="180" y2="130" stroke="#FF7043" stroke-width="2"/>
+    <!-- Right angle mark -->
+    <rect x="40" y="118" width="12" height="12" fill="none" stroke="#757575" stroke-width="1"/>
+    <!-- Angle alpha -->
+    <path d="M 70 130 A 30 30 0 0 0 62 115" fill="none" stroke="#7E57C2" stroke-width="1.5"/>
+    <text x="72" y="120" font-family="Arial,sans-serif" font-size="12" fill="#7E57C2">α</text>
+    <!-- Labels -->
+    <text x="105" y="145" font-family="Arial,sans-serif" font-size="10" fill="#7E57C2">прилежащий</text>
+    <text x="5" y="90" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50">против.</text>
+    <text x="120" y="80" font-family="Arial,sans-serif" font-size="10" fill="#FF7043">гипотенуза</text>
+    <!-- Formulas -->
+    <text x="115" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#7E57C2">cos α = прил./гип.</text>
+    <text x="115" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">sin α = против./гип.</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Геометрия</text>
+  <!-- Unit circle -->
+  <g transform="translate(265,62)">
+    <rect x="0" y="0" width="215" height="150" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow6)"/>
+    <text x="107" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">Единичная окружность</text>
+    <!-- Axes -->
+    <line x1="20" y1="85" x2="195" y2="85" stroke="#BDBDBD" stroke-width="1"/>
+    <line x1="107" y1="20" x2="107" y2="145" stroke="#BDBDBD" stroke-width="1"/>
+    <!-- Unit circle -->
+    <circle cx="107" cy="85" r="55" fill="none" stroke="#7E57C2" stroke-width="1.5"/>
+    <!-- Angle point -->
+    <line x1="107" y1="85" x2="152" y2="45" stroke="#FF7043" stroke-width="2"/>
+    <circle cx="152" cy="45" r="3" fill="#FF7043"/>
+    <!-- cos projection -->
+    <line x1="152" y1="45" x2="152" y2="85" stroke="#7E57C2" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <text x="155" y="68" font-family="Arial,sans-serif" font-size="8" fill="#7E57C2">sin α</text>
+    <!-- sin projection -->
+    <line x1="107" y1="85" x2="152" y2="85" stroke="#4CAF50" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <text x="122" y="82" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50">cos α</text>
+    <!-- Angle arc -->
+    <path d="M 127 85 A 20 20 0 0 0 121 70" fill="none" stroke="#FF7043" stroke-width="1.5"/>
+    <text x="128" y="76" font-family="Arial,sans-serif" font-size="9" fill="#FF7043">α</text>
+    <circle cx="107" cy="85" r="2" fill="#757575"/>
+  </g>
+  <!-- Values table -->
+  <g transform="translate(20,222)">
+    <rect x="0" y="0" width="260" height="112" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow6)"/>
+    <text x="130" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">Значения тригонометрических функций</text>
+    <line x1="10" y1="24" x2="250" y2="24" stroke="#D1C4E9" stroke-width="1"/>
+    <!-- Table header -->
+    <rect x="10" y="28" width="50" height="18" rx="2" fill="#7E57C2"/>
+    <text x="35" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#FFFFFF">α</text>
+    <rect x="62" y="28" width="60" height="18" rx="2" fill="#7E57C2"/>
+    <text x="92" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#FFFFFF">sin α</text>
+    <rect x="124" y="28" width="60" height="18" rx="2" fill="#7E57C2"/>
+    <text x="154" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#FFFFFF">cos α</text>
+    <rect x="186" y="28" width="60" height="18" rx="2" fill="#7E57C2"/>
+    <text x="216" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#FFFFFF">tg α</text>
+    <!-- Row 30 -->
+    <text x="35" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#212121">30°</text>
+    <text x="92" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">1/2</text>
+    <text x="154" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#7E57C2">√3/2</text>
+    <text x="216" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#FF7043">√3/3</text>
+    <!-- Row 45 -->
+    <text x="35" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#212121">45°</text>
+    <text x="92" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">√2/2</text>
+    <text x="154" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#7E57C2">√2/2</text>
+    <text x="216" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#FF7043">1</text>
+    <!-- Row 60 -->
+    <text x="35" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#212121">60°</text>
+    <text x="92" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">√3/2</text>
+    <text x="154" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#7E57C2">1/2</text>
+    <text x="216" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#FF7043">√3</text>
+    <!-- Identity -->
+    <rect x="10" y="96" width="240" height="12" rx="2" fill="#E8F5E9"/>
+    <text x="130" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32">sin²α + cos²α = 1</text>
+  </g>
+  <!-- Reduction formulas -->
+  <g transform="translate(290,222)">
+    <rect x="0" y="0" width="190" height="112" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow6)"/>
+    <text x="95" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">Формулы приведения</text>
+    <line x1="10" y1="24" x2="180" y2="24" stroke="#D1C4E9" stroke-width="1"/>
+    <text x="12" y="42" font-family="Arial,sans-serif" font-size="10" fill="#212121">sin(90°-α) = cos α</text>
+    <text x="12" y="58" font-family="Arial,sans-serif" font-size="10" fill="#212121">cos(90°-α) = sin α</text>
+    <text x="12" y="78" font-family="Arial,sans-serif" font-size="10" fill="#FF7043">sin(180°-α) = sin α</text>
+    <text x="12" y="94" font-family="Arial,sans-serif" font-size="10" fill="#FF7043">cos(180°-α) = -cos α</text>
+    <text x="12" y="112" font-family="Arial,sans-serif" font-size="10" fill="#7E57C2">tg α = sin α / cos α</text>
+  </g>
 </svg>
