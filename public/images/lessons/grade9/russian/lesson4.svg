@@ -8,29 +8,83 @@
       <stop offset="0%" stop-color="#EF5350"/>
       <stop offset="100%" stop-color="#C62828"/>
     </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EF9A9A"/>
+      <stop offset="100%" stop-color="#EF5350"/>
+    </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EF5350" stroke-width="3"/>
   <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EF5350" stroke-width="1" opacity="0.3"/>
+  <!-- Corner decorations -->
   <polygon points="10,10 30,10 10,30" fill="#EF5350" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#C62828" opacity="0.12"/>
   <polygon points="10,340 30,340 10,320" fill="#EF5350" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#C62828" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EF5350" text-anchor="middle">СПП: структура и виды придаточных</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Русский язык - Урок 4</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#EF5350" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#EF5350" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C62828" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFEBEE" opacity="0.5"/>
-  
-    <rect x="220" y="160" width="60" height="70" rx="5" fill="none" stroke="#EF5350" stroke-width="2"/>
-    <text x="250" y="205" font-family="Arial,sans-serif" font-size="28" fill="#EF5350" text-anchor="middle" font-weight="bold">Я</text>
-    <line x1="230" y1="215" x2="270" y2="215" stroke="#EF5350" stroke-width="1" opacity="0.4"/>
-  </g>
+  <!-- Title -->
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#EF5350" text-anchor="middle">СПП: структура и виды придаточных</text>
+  <text x="250" y="60" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Русский язык &#8212; Урок 4</text>
+  <line x1="30" y1="70" x2="470" y2="70" stroke="#EF5350" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="67" width="60" height="5" fill="#EF5350" opacity="0.18" rx="1"/>
+  <rect x="410" y="67" width="60" height="5" fill="#C62828" opacity="0.12" rx="1"/>
+
+  <!-- Illustration area -->
+  <rect x="15" y="76" width="470" height="222" rx="6" fill="#FFEBEE" opacity="0.4"/>
+
+  <!-- Structure diagram -->
+  <rect x="22" y="82" width="456" height="52" rx="5" fill="white" opacity="0.92" stroke="#EF5350" stroke-width="1"/>
+  <text x="250" y="100" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#EF5350" text-anchor="middle">Структура СПП</text>
+  <!-- Main clause box -->
+  <rect x="32" y="108" width="100" height="20" rx="3" fill="#EF5350" opacity="0.2"/>
+  <text x="82" y="122" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">Главное</text>
+  <!-- Arrow -->
+  <line x1="138" y1="118" x2="168" y2="118" stroke="#EF5350" stroke-width="2"/>
+  <polygon points="168,118 162,114 162,122" fill="#EF5350"/>
+  <text x="153" y="113" font-family="Arial,sans-serif" font-size="7" fill="#EF5350">вопр.</text>
+  <!-- Subordinate clause box -->
+  <rect x="172" y="108" width="110" height="20" rx="3" fill="#7B1FA2" opacity="0.2"/>
+  <text x="227" y="122" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Придаточное</text>
+  <!-- Union/word info -->
+  <text x="350" y="122" font-family="Arial,sans-serif" font-size="9" fill="#555">Союз / союзное слово</text>
+  <text x="350" y="108" font-family="Arial,sans-serif" font-size="8" fill="#888">связующее звено</text>
+
+  <!-- Types of subordinate clauses -->
+  <rect x="22" y="140" width="150" height="75" rx="5" fill="white" opacity="0.92" stroke="#E65100" stroke-width="1"/>
+  <rect x="22" y="140" width="150" height="18" rx="5" fill="#E65100" opacity="0.85"/>
+  <rect x="22" y="153" width="150" height="5" fill="#E65100" opacity="0.85"/>
+  <text x="97" y="154" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Определительные</text>
+  <text x="32" y="174" font-family="Arial,sans-serif" font-size="9" fill="#333">&#8226; Какой? Чей?</text>
+  <text x="32" y="188" font-family="Arial,sans-serif" font-size="9" fill="#333">&#8226; который, какой, чей,</text>
+  <text x="32" y="201" font-family="Arial,sans-serif" font-size="9" fill="#333">  где, куда, когда, что</text>
+
+  <rect x="180" y="140" width="150" height="75" rx="5" fill="white" opacity="0.92" stroke="#1565C0" stroke-width="1"/>
+  <rect x="180" y="140" width="150" height="18" rx="5" fill="#1565C0" opacity="0.85"/>
+  <rect x="180" y="153" width="150" height="5" fill="#1565C0" opacity="0.85"/>
+  <text x="255" y="154" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Изъяснительные</text>
+  <text x="190" y="174" font-family="Arial,sans-serif" font-size="9" fill="#333">&#8226; Падежные вопросы</text>
+  <text x="190" y="188" font-family="Arial,sans-serif" font-size="9" fill="#333">&#8226; что, чтобы, как, ли</text>
+  <text x="190" y="201" font-family="Arial,sans-serif" font-size="9" fill="#333">  кто, какой, сколько</text>
+
+  <rect x="338" y="140" width="140" height="75" rx="5" fill="white" opacity="0.92" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="338" y="140" width="140" height="18" rx="5" fill="#2E7D32" opacity="0.85"/>
+  <rect x="338" y="153" width="140" height="5" fill="#2E7D32" opacity="0.85"/>
+  <text x="408" y="154" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Обстоятельств.</text>
+  <text x="348" y="174" font-family="Arial,sans-serif" font-size="9" fill="#333">&#8226; Где? Куда? Когда?</text>
+  <text x="348" y="188" font-family="Arial,sans-serif" font-size="9" fill="#333">&#8226; Почему? Зачем?</text>
+  <text x="348" y="201" font-family="Arial,sans-serif" font-size="9" fill="#333">  Если, хотя, чтобы</text>
+
+  <!-- Example sentence with parsing -->
+  <rect x="22" y="222" width="456" height="72" rx="5" fill="white" opacity="0.92" stroke="#EF5350" stroke-width="0.8"/>
+  <text x="250" y="240" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#EF5350" text-anchor="middle">Пример разбора:</text>
+  <text x="250" y="258" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">[Книга, (которую я читал), была интересной.]</text>
+  <text x="60" y="276" font-family="Arial,sans-serif" font-size="9" fill="#C62828">[ ] &#8212; главное</text>
+  <text x="200" y="276" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2">( ) &#8212; придаточное определительное</text>
+  <text x="390" y="276" font-family="Arial,sans-serif" font-size="9" fill="#555">Вопрос: какую?</text>
+
+  <!-- Bottom panel -->
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
   <line x1="20" y1="308" x2="20" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
   <line x1="480" y1="308" x2="480" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык</text>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык &#8212; 9 класс</text>
 </svg>

@@ -8,29 +8,81 @@
       <stop offset="0%" stop-color="#EF5350"/>
       <stop offset="100%" stop-color="#C62828"/>
     </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EF9A9A"/>
+      <stop offset="100%" stop-color="#EF5350"/>
+    </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EF5350" stroke-width="3"/>
   <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EF5350" stroke-width="1" opacity="0.3"/>
+  <!-- Corner decorations -->
   <polygon points="10,10 30,10 10,30" fill="#EF5350" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#C62828" opacity="0.12"/>
   <polygon points="10,340 30,340 10,320" fill="#EF5350" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#C62828" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EF5350" text-anchor="middle">Понятие о сложном предложении</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Русский язык - Урок 1</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#EF5350" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#EF5350" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C62828" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFEBEE" opacity="0.5"/>
-  
-    <rect x="220" y="160" width="60" height="70" rx="5" fill="none" stroke="#EF5350" stroke-width="2"/>
-    <text x="250" y="205" font-family="Arial,sans-serif" font-size="28" fill="#EF5350" text-anchor="middle" font-weight="bold">Я</text>
-    <line x1="230" y1="215" x2="270" y2="215" stroke="#EF5350" stroke-width="1" opacity="0.4"/>
-  </g>
+  <!-- Title -->
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#EF5350" text-anchor="middle">Понятие о сложном предложении</text>
+  <text x="250" y="60" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Русский язык &#8212; Урок 1</text>
+  <line x1="30" y1="70" x2="470" y2="70" stroke="#EF5350" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="67" width="60" height="5" fill="#EF5350" opacity="0.18" rx="1"/>
+  <rect x="410" y="67" width="60" height="5" fill="#C62828" opacity="0.12" rx="1"/>
+
+  <!-- Illustration area -->
+  <rect x="15" y="76" width="470" height="222" rx="6" fill="#FFEBEE" opacity="0.4"/>
+
+  <!-- Definition box -->
+  <rect x="22" y="82" width="456" height="48" rx="5" fill="white" opacity="0.92" stroke="#EF5350" stroke-width="1"/>
+  <text x="250" y="100" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#EF5350" text-anchor="middle">Сложное предложение</text>
+  <text x="250" y="118" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">имеет две и более грамматических основ, связанных по смыслу и интонационно</text>
+
+  <!-- Types of connection diagram -->
+  <rect x="22" y="138" width="150" height="80" rx="5" fill="white" opacity="0.92" stroke="#7B1FA2" stroke-width="1.2"/>
+  <rect x="22" y="138" width="150" height="20" rx="5" fill="#7B1FA2" opacity="0.85"/>
+  <rect x="22" y="153" width="150" height="5" fill="#7B1FA2" opacity="0.85"/>
+  <text x="97" y="153" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Союзная связь</text>
+  <text x="32" y="176" font-family="Arial,sans-serif" font-size="9.5" fill="#333">&#8226; ССП (сложносочинённые)</text>
+  <text x="32" y="190" font-family="Arial,sans-serif" font-size="9.5" fill="#333">&#8226; СПП (сложноподчинённые)</text>
+  <text x="32" y="204" font-family="Arial,sans-serif" font-size="9" fill="#888">равноправные / подчинение</text>
+
+  <rect x="182" y="138" width="150" height="80" rx="5" fill="white" opacity="0.92" stroke="#1565C0" stroke-width="1.2"/>
+  <rect x="182" y="138" width="150" height="20" rx="5" fill="#1565C0" opacity="0.85"/>
+  <rect x="182" y="153" width="150" height="5" fill="#1565C0" opacity="0.85"/>
+  <text x="257" y="153" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Бессоюзная связь</text>
+  <text x="192" y="176" font-family="Arial,sans-serif" font-size="9.5" fill="#333">&#8226; Бессоюзные сложные</text>
+  <text x="192" y="190" font-family="Arial,sans-serif" font-size="9.5" fill="#333">&#8226; Только интонация</text>
+  <text x="192" y="204" font-family="Arial,sans-serif" font-size="9" fill="#888">запятая, ; , &#8212; , :</text>
+
+  <rect x="342" y="138" width="136" height="80" rx="5" fill="white" opacity="0.92" stroke="#2E7D32" stroke-width="1.2"/>
+  <rect x="342" y="138" width="136" height="20" rx="5" fill="#2E7D32" opacity="0.85"/>
+  <rect x="342" y="153" width="136" height="5" fill="#2E7D32" opacity="0.85"/>
+  <text x="410" y="153" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Смешанная связь</text>
+  <text x="352" y="176" font-family="Arial,sans-serif" font-size="9.5" fill="#333">&#8226; Союзная + бессоюзная</text>
+  <text x="352" y="190" font-family="Arial,sans-serif" font-size="9.5" fill="#333">&#8226; Разные виды связи</text>
+  <text x="352" y="204" font-family="Arial,sans-serif" font-size="9" fill="#888">в одном предложении</text>
+
+  <!-- Connecting arrows from main node -->
+  <circle cx="250" cy="140" r="4" fill="#EF5350"/>
+  <line x1="120" y1="142" x2="97" y2="138" stroke="#7B1FA2" stroke-width="1.5" opacity="0.6"/>
+  <line x1="250" y1="140" x2="257" y2="138" stroke="#1565C0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="380" y1="142" x2="410" y2="138" stroke="#2E7D32" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Sentence structure diagram -->
+  <rect x="22" y="226" width="456" height="68" rx="5" fill="white" opacity="0.92" stroke="#EF5350" stroke-width="0.8"/>
+  <text x="250" y="244" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#EF5350" text-anchor="middle">Схема сложного предложения:</text>
+  <line x1="32" y1="260" x2="468" y2="260" stroke="#ddd" stroke-width="0.5"/>
+  <text x="100" y="278" font-family="Arial,sans-serif" font-size="10" fill="#333">[Подлежащее + сказуемое]</text>
+  <text x="255" y="278" font-family="Arial,sans-serif" font-size="11" fill="#EF5350" font-weight="bold">, союз ,</text>
+  <text x="340" y="278" font-family="Arial,sans-serif" font-size="10" fill="#333">[Подлежащее + сказуемое]</text>
+
+  <!-- Example -->
+  <rect x="22" y="284" width="456" height="16" rx="3" fill="#EF5350" opacity="0.08"/>
+  <text x="250" y="296" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Пример: Ветер дул , и листья кружились в воздухе. (ССП)</text>
+
+  <!-- Bottom panel -->
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
   <line x1="20" y1="308" x2="20" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
   <line x1="480" y1="308" x2="480" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык</text>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык &#8212; 9 класс</text>
 </svg>

@@ -1,38 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7B1FA2"/>
+      <stop offset="100%" stop-color="#AB47BC"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3E5F5"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#AB47BC" text-anchor="middle">А.П. Чехов</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 9</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#AB47BC" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  
-    <rect x="225" y="155" width="50" height="70" rx="3" fill="none" stroke="#AB47BC" stroke-width="2"/>
-    <line x1="250" y1="155" x2="250" y2="225" stroke="#AB47BC" stroke-width="1.5" opacity="0.4"/>
-    <path d="M230,160 Q250,150 270,160" fill="none" stroke="#6A1B9A" stroke-width="1.5" opacity="0.6"/>
-    <line x1="230" y1="175" x2="248" y2="175" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-    <line x1="230" y1="185" x2="248" y2="185" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="8"/>
+  <rect width="500" height="44" fill="url(#hdr)" rx="8"/>
+  <rect y="36" width="500" height="8" fill="url(#hdr)"/>
+  <text x="250" y="18" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold" font-family="Arial">Урок 9. А.П. Чехов — рассказы и драматургия</text>
+  <text x="250" y="34" text-anchor="middle" font-size="9" fill="#E1BEE7" font-family="Arial">1860-1904 • Мастер короткого рассказа и новой драмы</text>
+  <!-- Author -->
+  <rect x="10" y="52" width="150" height="48" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <circle cx="40" cy="74" r="14" fill="#E1BEE7" stroke="#AB47BC" stroke-width="1"/>
+  <text x="40" y="79" text-anchor="middle" font-size="12" fill="#7B1FA2" font-family="Arial">&#9997;</text>
+  <text x="95" y="68" text-anchor="middle" font-size="8" fill="#7B1FA2" font-weight="bold" font-family="Arial">Антон Павлович Чехов</text>
+  <text x="95" y="79" text-anchor="middle" font-size="7" fill="#757575" font-family="Arial">1860-1904</text>
+  <text x="95" y="90" text-anchor="middle" font-size="7" fill="#757575" font-family="Arial">Врач, писатель, драматург</text>
+  <!-- Chekhov's gun -->
+  <rect x="170" y="52" width="320" height="48" rx="5" fill="#E1BEE7" opacity="0.5"/>
+  <text x="330" y="66" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">«Чеховское ружьё» — принцип драматургии</text>
+  <text x="178" y="79" font-size="8" fill="#212121" font-family="Arial">«Если в первом акте висит ружьё, в последнем оно должно выстрелить»</text>
+  <text x="178" y="91" font-size="7.5" fill="#757575" font-family="Arial">Каждая деталь текста должна работать на сюжет и смысл</text>
+  <!-- Short stories -->
+  <rect x="10" y="106" width="235" height="84" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <text x="127" y="120" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Рассказы</text>
+  <line x1="20" y1="123" x2="235" y2="123" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="18" y="135" font-size="7.5" fill="#212121" font-family="Arial">«Хамелеон» — сменяемость мнений</text>
+  <text x="18" y="146" font-size="7.5" fill="#212121" font-family="Arial">«Толстый и тонкий» — чинопочитание</text>
+  <text x="18" y="157" font-size="7.5" fill="#212121" font-family="Arial">«Смерть чиновника» — маленький человек</text>
+  <text x="18" y="168" font-size="7.5" fill="#212121" font-family="Arial">«Человек в футляре» — боязнь жизни</text>
+  <text x="18" y="179" font-size="7.5" fill="#212121" font-family="Arial">«Ионыч» — духовное оскудение</text>
+  <text x="18" y="190" font-size="7.5" fill="#7B1FA2" font-family="Arial">«Краткость — сестра таланта»</text>
+  <!-- Plays -->
+  <rect x="255" y="106" width="235" height="84" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <text x="372" y="120" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Пьесы (новая драма)</text>
+  <line x1="265" y1="123" x2="480" y2="123" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="263" y="135" font-size="7.5" fill="#212121" font-family="Arial">«Чайка» (1896) — творчество и любовь</text>
+  <text x="263" y="146" font-size="7.5" fill="#212121" font-family="Arial">«Дядя Ваня» (1899) — нереализованность</text>
+  <text x="263" y="157" font-size="7.5" fill="#212121" font-family="Arial">«Три сестры» (1901) — мечты и реальность</text>
+  <text x="263" y="168" font-size="7.5" fill="#212121" font-family="Arial">«Вишнёвый сад» (1904) — уходящий мир</text>
+  <text x="263" y="179" font-size="7.5" fill="#757575" font-family="Arial">Подтекст важнее текста (субтекст)</text>
+  <text x="263" y="190" font-size="7.5" fill="#7B1FA2" font-family="Arial">Комедия с трагическим подтекстом</text>
+  <!-- Humor and tragedy -->
+  <rect x="10" y="196" width="480" height="42" rx="5" fill="#7B1FA2" opacity="0.08"/>
+  <text x="250" y="210" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Смех сквозь слёзы</text>
+  <text x="18" y="224" font-size="8" fill="#212121" font-family="Arial">Ранние рассказы — юморески и сатира (Антоша Чехонте) &#8594; Поздние — психологизм</text>
+  <text x="18" y="234" font-size="7.5" fill="#757575" font-family="Arial">Смех обнажает трагизм повседневности: будничность зла страшнее катастроф</text>
+  <!-- Themes -->
+  <rect x="10" y="244" width="235" height="52" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="127" y="258" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Главные темы</text>
+  <line x1="20" y1="261" x2="235" y2="261" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="18" y="272" font-size="7.5" fill="#212121" font-family="Arial">• Футлярная жизнь (Беликов)</text>
+  <text x="18" y="283" font-size="7.5" fill="#212121" font-family="Arial">• Духовное перерождение (Ионыч)</text>
+  <text x="18" y="294" font-size="7.5" fill="#212121" font-family="Arial">• Равнодушие как главный грех</text>
+  <!-- Style features -->
+  <rect x="255" y="244" width="235" height="52" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="372" y="258" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Особенности стиля</text>
+  <line x1="265" y1="261" x2="480" y2="261" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="263" y="272" font-size="7.5" fill="#212121" font-family="Arial">• Подтекст (скрытый смысл в диалогах)</text>
+  <text x="263" y="283" font-size="7.5" fill="#212121" font-family="Arial">• Паузы и молчание (знаки препинания)</text>
+  <text x="263" y="294" font-size="7.5" fill="#212121" font-family="Arial">• Открытый финал (жизнь продолжается)</text>
+  <!-- Famous quote -->
+  <rect x="10" y="302" width="480" height="32" rx="5" fill="#7B1FA2" opacity="0.1"/>
+  <text x="250" y="316" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-style="italic" font-family="Arial">«В человеке должно быть всё прекрасно: и лицо, и одежда, и душа, и мысли»</text>
+  <text x="250" y="330" text-anchor="middle" font-size="7" fill="#757575" font-family="Arial">«Дядя Ваня»</text>
+  <rect y="338" width="500" height="12" fill="#7B1FA2" rx="0"/>
+  <rect y="338" width="500" height="12" fill="url(#hdr)" rx="0"/>
+  <text x="250" y="348" text-anchor="middle" font-size="8" fill="#FFFFFF" font-family="Arial">Литература 9 класс</text>
+  <line x1="10" y1="296" x2="10" y2="296" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="300" x2="106" y2="300" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="304" x2="202" y2="304" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="308" x2="298" y2="308" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="312" x2="394" y2="312" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
 </svg>

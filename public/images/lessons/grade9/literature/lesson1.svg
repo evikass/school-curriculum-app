@@ -1,38 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7B1FA2"/>
+      <stop offset="100%" stop-color="#AB47BC"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3E5F5"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#AB47BC" text-anchor="middle">«Слово о полку Игореве»</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 1</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#AB47BC" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  
-    <rect x="225" y="155" width="50" height="70" rx="3" fill="none" stroke="#AB47BC" stroke-width="2"/>
-    <line x1="250" y1="155" x2="250" y2="225" stroke="#AB47BC" stroke-width="1.5" opacity="0.4"/>
-    <path d="M230,160 Q250,150 270,160" fill="none" stroke="#6A1B9A" stroke-width="1.5" opacity="0.6"/>
-    <line x1="230" y1="175" x2="248" y2="175" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-    <line x1="230" y1="185" x2="248" y2="185" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="8"/>
+  <rect width="500" height="44" fill="url(#hdr)" rx="8"/>
+  <rect y="36" width="500" height="8" fill="url(#hdr)"/>
+  <text x="250" y="18" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold" font-family="Arial">Урок 1. «Слово о полку Игореве»</text>
+  <text x="250" y="34" text-anchor="middle" font-size="9" fill="#E1BEE7" font-family="Arial">Памятник древнерусской литературы XII века</text>
+  <!-- Historical context box -->
+  <rect x="10" y="52" width="235" height="68" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <text x="127" y="66" text-anchor="middle" font-size="10" fill="#7B1FA2" font-weight="bold" font-family="Arial">Исторический контекст</text>
+  <line x1="20" y1="70" x2="235" y2="70" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="18" y="80" font-size="8.5" fill="#212121" font-family="Arial">• Поход князя Игоря на половцев — 1185 г.</text>
+  <text x="18" y="92" font-size="8.5" fill="#212121" font-family="Arial">• Автор неизвестен, обнаружен в 1795 г.</text>
+  <text x="18" y="104" font-size="8.5" fill="#212121" font-family="Arial">• Единственный список сгорел в 1812 г.</text>
+  <text x="18" y="116" font-size="8.5" fill="#212121" font-family="Arial">• Первое издание — 1800 г. (Мусин-Пушкин)</text>
+  <!-- Composition box -->
+  <rect x="255" y="52" width="235" height="68" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
+  <text x="372" y="66" text-anchor="middle" font-size="10" fill="#7B1FA2" font-weight="bold" font-family="Arial">Композиция произведения</text>
+  <line x1="265" y1="70" x2="480" y2="70" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="263" y="80" font-size="8.5" fill="#212121" font-family="Arial">1. Вступление — прославление Бояна</text>
+  <text x="263" y="92" font-size="8.5" fill="#212121" font-family="Arial">2. Поход Игоря и битва на Каяле</text>
+  <text x="263" y="104" font-size="8.5" fill="#212121" font-family="Arial">3. Золотое слово Святослава</text>
+  <text x="263" y="116" font-size="8.5" fill="#212121" font-family="Arial">4. Плач Ярославны • Побег Игоря</text>
+  <!-- Solar eclipse symbol -->
+  <circle cx="80" cy="148" r="20" fill="none" stroke="#AB47BC" stroke-width="2"/>
+  <circle cx="80" cy="148" r="14" fill="#7B1FA2" opacity="0.25"/>
+  <text x="80" y="152" text-anchor="middle" font-size="11" fill="#7B1FA2" font-weight="bold" font-family="Arial">&#9728;</text>
+  <text x="110" y="140" font-size="8" fill="#212121" font-family="Arial">Затмение — дурное предзнаменование:</text>
+  <text x="110" y="152" font-size="8" fill="#757575" font-family="Arial">«Солнце ему тьмою путь заступаше»</text>
+  <text x="110" y="164" font-size="8" fill="#757575" font-family="Arial">Природа откликается на судьбу героя</text>
+  <!-- Key themes -->
+  <rect x="10" y="176" width="480" height="52" rx="5" fill="#E1BEE7" opacity="0.5"/>
+  <text x="250" y="190" text-anchor="middle" font-size="10" fill="#7B1FA2" font-weight="bold" font-family="Arial">Основные темы и идеи</text>
+  <line x1="20" y1="194" x2="480" y2="194" stroke="#AB47BC" stroke-width="0.5" opacity="0.4"/>
+  <text x="18" y="206" font-size="8.5" fill="#212121" font-family="Arial">• Призыв к единению русских князей перед внешней угрозой</text>
+  <text x="18" y="218" font-size="8.5" fill="#212121" font-family="Arial">• Трагедия раздробленности Руси • Судьба родины и личная судьба</text>
+  <!-- Characters -->
+  <rect x="10" y="234" width="235" height="55" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="127" y="248" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Персонажи</text>
+  <line x1="20" y1="252" x2="235" y2="252" stroke="#E1BEE7" stroke-width="1"/>
+  <text x="18" y="263" font-size="8" fill="#212121" font-family="Arial">Игорь Святославич — князь-воин</text>
+  <text x="18" y="274" font-size="8" fill="#212121" font-family="Arial">Ярославна — жена Игоря, верность</text>
+  <text x="18" y="285" font-size="8" fill="#212121" font-family="Arial">Святослав — великий киевский князь</text>
+  <!-- Key images -->
+  <rect x="255" y="234" width="235" height="55" rx="5" fill="#E1BEE7" opacity="0.6"/>
+  <text x="372" y="248" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Ключевые образы</text>
+  <line x1="265" y1="252" x2="480" y2="252" stroke="#AB47BC" stroke-width="0.5" opacity="0.4"/>
+  <text x="263" y="263" font-size="8" fill="#212121" font-family="Arial">Золотое слово Святослава</text>
+  <text x="263" y="274" font-size="8" fill="#212121" font-family="Arial">Плач Ярославны (лирич. отступление)</text>
+  <text x="263" y="285" font-size="8" fill="#212121" font-family="Arial">Река Каяла — символ поражения</text>
+  <!-- Genre features -->
+  <rect x="10" y="296" width="235" height="38" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="127" y="310" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Жанровые особенности</text>
+  <text x="18" y="324" font-size="7.5" fill="#757575" font-family="Arial">Эпос + лирика + публицистика</text>
+  <!-- Language features -->
+  <rect x="255" y="296" width="235" height="38" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
+  <text x="372" y="310" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Языковые особенности</text>
+  <text x="263" y="324" font-size="7.5" fill="#757575" font-family="Arial">Ритмическая проза, фольклор и христианство</text>
+  <rect y="338" width="500" height="12" fill="#7B1FA2" rx="0"/>
+  <rect y="338" width="500" height="12" fill="url(#hdr)" rx="0"/>
+  <text x="250" y="348" text-anchor="middle" font-size="8" fill="#FFFFFF" font-family="Arial">Литература 9 класс</text>
+  <line x1="10" y1="296" x2="10" y2="296" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="300" x2="106" y2="300" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="304" x2="202" y2="304" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="308" x2="298" y2="308" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="312" x2="394" y2="312" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="316" x2="10" y2="316" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="320" x2="106" y2="320" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="324" x2="202" y2="324" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <line x1="10" y1="328" x2="298" y2="328" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
 </svg>
