@@ -1,31 +1,78 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="0%" stop-color="#E3F2FD"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7B1FA2"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
     </linearGradient>
+    <marker id="arrowBlue" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#1565C0"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#E53935"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#4CAF50"/>
+    </marker>
+    <marker id="arrowDark" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#333"/>
+    </marker>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7B1FA2" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#7B1FA2" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Электромагнитные колебания</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 4</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#7B1FA2" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#7B1FA2" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.12" rx="1"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1565C0" text-anchor="middle">Электромагнитные колебания</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика — Урок 4</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  <circle cx="250" cy="170" r="50" fill="none" stroke="#7B1FA2" stroke-width="2"/><circle cx="250" cy="170" r="30" fill="none" stroke="#6A1B9A" stroke-width="1.5" stroke-dasharray="4,4"/><line x1="250" y1="120" x2="250" y2="220" stroke="#7B1FA2" stroke-width="1.5"/><polygon points="250,120 245,130 255,130" fill="#7B1FA2"/><text x="250" y="245" font-family="Arial,sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle" opacity="0.5">B</text>
+    <rect x="15" y="85" width="470" height="215" fill="#E3F2FD" opacity="0.5"/>
+    <!-- LC circuit -->
+    <rect x="25" y="95" width="220" height="130" rx="5" fill="white" opacity="0.7" stroke="#1565C0" stroke-width="1"/>
+    <text x="135" y="110" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">Колебательный контур (LC)</text>
+    <!-- Capacitor -->
+    <line x1="60" y1="135" x2="60" y2="175" stroke="#1565C0" stroke-width="3"/>
+    <line x1="75" y1="135" x2="75" y2="175" stroke="#1565C0" stroke-width="3"/>
+    <!-- Wires -->
+    <line x1="45" y1="130" x2="60" y2="155" stroke="#0D47A1" stroke-width="1.5"/>
+    <line x1="75" y1="155" x2="195" y2="155" stroke="#0D47A1" stroke-width="1.5"/>
+    <!-- Inductor coil -->
+    <path d="M195,155 Q200,135 210,155 Q220,135 230,155 Q240,135 250,155 Q260,135 270,155" fill="none" stroke="#1565C0" stroke-width="2"/>
+    <line x1="270" y1="155" x2="45" y2="155" stroke="none"/>
+    <line x1="270" y1="155" x2="230" y2="180" stroke="#0D47A1" stroke-width="1.5"/>
+    <line x1="45" y1="155" x2="45" y2="130" stroke="#0D47A1" stroke-width="1.5"/>
+    <line x1="45" y1="130" x2="60" y2="130" stroke="#0D47A1" stroke-width="1.5"/>
+    <line x1="75" y1="130" x2="45" y2="130" stroke="none"/>
+    <line x1="75" y1="130" x2="230" y2="130" stroke="#0D47A1" stroke-width="1.5"/>
+    <line x1="230" y1="130" x2="230" y2="155" stroke="#0D47A1" stroke-width="1.5"/>
+    <!-- Labels -->
+    <text x="68" y="195" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle">C</text>
+    <text x="230" y="170" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle">L</text>
+    <!-- Energy exchange diagram -->
+    <rect x="260" y="95" width="215" height="130" rx="3" fill="white" opacity="0.7" stroke="#1565C0" stroke-width="1"/>
+    <text x="367" y="110" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">Обмен энергией</text>
+    <rect x="275" y="120" width="80" height="20" rx="5" fill="#1565C0" opacity="0.8"/>
+    <text x="315" y="134" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">E_C = ½CU²</text>
+    <rect x="375" y="120" width="80" height="20" rx="5" fill="#E53935" opacity="0.8"/>
+    <text x="415" y="134" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">E_L = ½LI²</text>
+    <path d="M355,130 L370,130" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#arrowDark)"/>
+    <text x="362" y="125" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">⇄</text>
+    <text x="367" y="160" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" text-anchor="middle">E = E_C + E_L = const</text>
+    <text x="367" y="178" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">E = ½CU²_max = ½LI²_max</text>
+    <text x="367" y="200" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">(закон сохранения энергии)</text>
+    <!-- Formulas -->
+    <rect x="20" y="230" width="460" height="66" rx="5" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+    <text x="30" y="248" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Формула Томсона:</text>
+    <text x="30" y="268" font-family="Arial,sans-serif" font-size="14" fill="#1565C0">T = 2π√(LC)</text>
+    <text x="200" y="248" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Циклическая частота:</text>
+    <text x="200" y="268" font-family="Arial,sans-serif" font-size="14" fill="#1565C0">ω = 1/√(LC)</text>
+    <text x="370" y="248" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Добротность:</text>
+    <text x="370" y="268" font-family="Arial,sans-serif" font-size="12" fill="#1565C0">Q = ωL/R</text>
+    <text x="30" y="290" font-family="Arial,sans-serif" font-size="10" fill="#666">Уравнение: q = q₀·cos(ωt + φ₀);  I = q₀ω·sin(ωt + φ₀)</text>
+    
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#7B1FA2" text-anchor="middle" opacity="0.6">11 класс • Физика</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика · 11 класс</text>
 </svg>

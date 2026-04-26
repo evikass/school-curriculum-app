@@ -1,31 +1,98 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="0%" stop-color="#E3F2FD"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7B1FA2"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
     </linearGradient>
+    <marker id="arrowBlue" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#1565C0"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#E53935"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#4CAF50"/>
+    </marker>
+    <marker id="arrowDark" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#333"/>
+    </marker>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7B1FA2" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#7B1FA2" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Волновая оптика</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#7B1FA2" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#7B1FA2" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.12" rx="1"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1565C0" text-anchor="middle">Волновая оптика</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика — Урок 6</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  <circle cx="250" cy="170" r="30" fill="#6A1B9A" opacity="0.2"/><circle cx="250" cy="170" r="8" fill="#7B1FA2" opacity="0.4"/><line x1="250" y1="140" x2="250" y2="120" stroke="#7B1FA2" stroke-width="1.5"/><line x1="280" y1="170" x2="300" y2="170" stroke="#7B1FA2" stroke-width="1.5"/><text x="250" y="220" font-family="Arial,sans-serif" font-size="11" fill="#7B1FA2" text-anchor="middle" opacity="0.5">e⁻</text>
+    <rect x="15" y="85" width="470" height="215" fill="#E3F2FD" opacity="0.5"/>
+    <!-- Interference pattern -->
+    <rect x="25" y="95" width="220" height="125" rx="5" fill="white" opacity="0.7" stroke="#1565C0" stroke-width="1"/>
+    <text x="135" y="110" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">Интерференция</text>
+    <!-- Two slits -->
+    <rect x="40" y="130" width="5" height="65" fill="#555"/>
+    <rect x="40" y="120" width="5" height="10" fill="#555"/>
+    <rect x="40" y="195" width="5" height="5" fill="#555"/>
+    <!-- Slit openings -->
+    <rect x="40" y="140" width="5" height="5" fill="#E3F2FD"/>
+    <rect x="40" y="170" width="5" height="5" fill="#E3F2FD"/>
+    <!-- Wave fronts from slits -->
+    <circle cx="45" cy="142" r="15" fill="none" stroke="#1565C0" stroke-width="0.7" opacity="0.6"/>
+    <circle cx="45" cy="142" r="30" fill="none" stroke="#1565C0" stroke-width="0.7" opacity="0.5"/>
+    <circle cx="45" cy="142" r="45" fill="none" stroke="#1565C0" stroke-width="0.7" opacity="0.4"/>
+    <circle cx="45" cy="172" r="15" fill="none" stroke="#E53935" stroke-width="0.7" opacity="0.6"/>
+    <circle cx="45" cy="172" r="30" fill="none" stroke="#E53935" stroke-width="0.7" opacity="0.5"/>
+    <circle cx="45" cy="172" r="45" fill="none" stroke="#E53935" stroke-width="0.7" opacity="0.4"/>
+    <!-- Screen with interference bands -->
+    <rect x="210" y="120" width="5" height="80" fill="#333"/>
+    <!-- Bright and dark bands on screen -->
+    <rect x="216" y="122" width="12" height="4" fill="#1565C0" opacity="0.8"/>
+    <rect x="216" y="128" width="12" height="4" fill="#1565C0" opacity="0.3"/>
+    <rect x="216" y="134" width="12" height="4" fill="#1565C0" opacity="0.8"/>
+    <rect x="216" y="140" width="12" height="4" fill="#1565C0" opacity="0.3"/>
+    <rect x="216" y="146" width="12" height="4" fill="#1565C0" opacity="0.9"/>
+    <rect x="216" y="152" width="12" height="4" fill="#1565C0" opacity="0.3"/>
+    <rect x="216" y="158" width="12" height="4" fill="#1565C0" opacity="0.8"/>
+    <rect x="216" y="164" width="12" height="4" fill="#1565C0" opacity="0.3"/>
+    <rect x="216" y="170" width="12" height="4" fill="#1565C0" opacity="0.8"/>
+    <!-- Diffraction -->
+    <rect x="260" y="95" width="215" height="125" rx="3" fill="white" opacity="0.7" stroke="#1565C0" stroke-width="1"/>
+    <text x="367" y="110" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">Дифракционная решётка</text>
+    <!-- Grating -->
+    <rect x="280" y="125" width="8" height="75" fill="#555"/>
+    <line x1="280" y1="130" x2="288" y2="130" stroke="#888" stroke-width="1"/>
+    <line x1="280" y1="140" x2="288" y2="140" stroke="#888" stroke-width="1"/>
+    <line x1="280" y1="150" x2="288" y2="150" stroke="#888" stroke-width="1"/>
+    <line x1="280" y1="160" x2="288" y2="160" stroke="#888" stroke-width="1"/>
+    <line x1="280" y1="170" x2="288" y2="170" stroke="#888" stroke-width="1"/>
+    <line x1="280" y1="180" x2="288" y2="180" stroke="#888" stroke-width="1"/>
+    <line x1="280" y1="190" x2="288" y2="190" stroke="#888" stroke-width="1"/>
+    <!-- Diffraction pattern -->
+    <rect x="430" y="120" width="5" height="80" fill="#333"/>
+    <rect x="436" y="148" width="25" height="8" fill="#E53935" opacity="0.7"/>
+    <rect x="436" y="140" width="15" height="5" fill="#FF9800" opacity="0.5"/>
+    <rect x="436" y="158" width="15" height="5" fill="#FF9800" opacity="0.5"/>
+    <rect x="436" y="133" width="8" height="4" fill="#4CAF50" opacity="0.4"/>
+    <rect x="436" y="166" width="8" height="4" fill="#4CAF50" opacity="0.4"/>
+    <text x="448" y="155" font-family="Arial,sans-serif" font-size="8" fill="#E53935">max</text>
+    <text x="300" y="210" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1">d·sin(φ) = kλ</text>
+    <!-- Formulas -->
+    <rect x="20" y="226" width="225" height="70" rx="5" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+    <text x="30" y="244" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Условие max интерференции:</text>
+    <text x="30" y="262" font-family="Arial,sans-serif" font-size="12" fill="#1565C0">Δd = kλ  (k = 0,1,2...)</text>
+    <text x="30" y="280" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Условие min:</text>
+    <text x="30" y="293" font-family="Arial,sans-serif" font-size="12" fill="#1565C0">Δd = (2k+1)λ/2</text>
+    <!-- Right box -->
+    <rect x="255" y="226" width="225" height="70" rx="5" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+    <text x="265" y="244" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Дифракционная решётка:</text>
+    <text x="265" y="262" font-family="Arial,sans-serif" font-size="12" fill="#1565C0">d·sin(φ) = kλ</text>
+    <text x="265" y="280" font-family="Arial,sans-serif" font-size="10" fill="#444">d = 1/N — период решётки</text>
+    <text x="265" y="293" font-family="Arial,sans-serif" font-size="10" fill="#444">N — число штрихов на 1 мм</text>
+    
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#7B1FA2" text-anchor="middle" opacity="0.6">11 класс • Физика</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика · 11 класс</text>
 </svg>
