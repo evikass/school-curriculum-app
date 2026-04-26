@@ -1,39 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ECEFF1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#78909C"/>
-      <stop offset="100%" stop-color="#37474F"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF9800"/>
+      <stop offset="100%" stop-color="#E65100"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#78909C" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#78909C" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#78909C" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#37474F" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#78909C" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#37474F" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#78909C" text-anchor="middle">Обработка материалов</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Технология - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#78909C" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#78909C" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#37474F" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#ECEFF1" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="25" fill="none" stroke="#78909C" stroke-width="2"/>
-    <circle cx="250" cy="190" r="8" fill="#78909C" opacity="0.3"/>
-    <line x1="250" y1="165" x2="250" y2="155" stroke="#78909C" stroke-width="2.5"/>
-    <line x1="275" y1="190" x2="285" y2="190" stroke="#78909C" stroke-width="2.5"/>
-    <line x1="250" y1="215" x2="250" y2="225" stroke="#78909C" stroke-width="2.5"/>
-    <line x1="225" y1="190" x2="215" y2="190" stroke="#78909C" stroke-width="2.5"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#78909C" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#78909C" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Технология</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF9800" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF9800" stroke-width="1" opacity="0.3"/>
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#FF9800" text-anchor="middle">Обработка материалов</text>
+  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Технология — Урок 6</text>
+  <line x1="30" y1="66" x2="470" y2="66" stroke="#FF9800" stroke-width="2" opacity="0.25"/>
+  <rect x="15" y="72" width="235" height="225" rx="4" fill="#FF9800" opacity="0.05"/>
+  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#E65100" font-weight="bold">Обработка —</text>
+  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">изменение формы и свойств</text>
+  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#E65100" font-weight="bold">Резание:</text>
+  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Точение — на токарном станке</text>
+  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Фрезерование — фрезой</text>
+  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Сверление — сверлом</text>
+  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Пиление, строгание — ручные</text>
+  <rect x="255" y="72" width="230" height="225" rx="4" fill="#FF9800" opacity="0.05"/>
+  <text x="262" y="88" font-family="Arial,sans-serif" font-size="10" fill="#E65100" font-weight="bold">Сварка:</text>
+  <text x="325" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Электродуговая — электрод</text>
+  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Газовая — ацетилен + кислород</text>
+  <text x="262" y="128" font-family="Arial,sans-serif" font-size="10" fill="#E65100" font-weight="bold">Пайка:</text>
+  <text x="325" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Мягкий припой — до 450°С</text>
+  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Твёрдый припой — выше 450°С</text>
+  <text x="262" y="168" font-family="Arial,sans-serif" font-size="10" fill="#E65100" font-weight="bold">Безопасность:</text>
+  <text x="325" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Очки, перчатки, защитная одежда</text>
+  <rect x="15" y="280" width="235" height="18" rx="4" fill="#FF9800" opacity="0.06"/>
+  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">Станок — основа обработки</text>
+  <rect x="255" y="280" width="230" height="18" rx="4" fill="#FF9800" opacity="0.06"/>
+  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">ТБ — техника безопасности прежде всего</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Технология · Обработка материалов</text>
 </svg>
