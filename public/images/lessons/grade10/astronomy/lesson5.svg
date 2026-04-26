@@ -1,33 +1,101 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#EDE7F6"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1A237E"/>
-      <stop offset="100%" stop-color="#0D47A1"/>
+      <stop offset="0%" stop-color="#7E57C2"/>
+      <stop offset="100%" stop-color="#4527A0"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1A237E" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#1A237E" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#0D47A1" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#0D47A1" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#1A237E" text-anchor="middle">Солнце</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7E57C2" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#7E57C2" text-anchor="middle">Солнце</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Астрономия - Урок 5</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#1A237E" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#1A237E" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#0D47A1" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#7E57C2" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <circle cx="250" cy="190" r="40" fill="none" stroke="#1A237E" stroke-width="2"/><circle cx="250" cy="190" r="15" fill="#1A237E" opacity="0.3"/><ellipse cx="250" cy="190" rx="60" ry="12" fill="none" stroke="#0D47A1" stroke-width="1.5" opacity="0.5"/><circle cx="210" cy="160" r="3" fill="#1A237E" opacity="0.6"/><circle cx="290" cy="175" r="2" fill="#1A237E" opacity="0.4"/><circle cx="275" cy="220" r="2.5" fill="#0D47A1" opacity="0.5"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#FFF8E1" opacity="0.3"/>
+    
+    <!-- Sun structure diagram -->
+    <text x="165" y="100" font-family="Arial,sans-serif" font-size="13" fill="#4527A0" text-anchor="middle">Строение Солнца</text>
+    
+    <!-- Core -->
+    <circle cx="165" cy="200" r="25" fill="#FF6F00" stroke="#E65100" stroke-width="2"/>
+    <text x="165" y="204" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Ядро</text>
+    
+    <!-- Radiative zone -->
+    <circle cx="165" cy="200" r="45" fill="#FF8F00" stroke="#E65100" stroke-width="1.5"/>
+    <text x="165" y="170" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">Зона лучистого</text>
+    <text x="165" y="180" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">переноса</text>
+    
+    <!-- Convective zone -->
+    <circle cx="165" cy="200" r="65" fill="#FFA000" stroke="#E65100" stroke-width="1.5"/>
+    <text x="165" y="148" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">Конвективная</text>
+    <text x="165" y="158" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">зона</text>
+    
+    <!-- Photosphere -->
+    <circle cx="165" cy="200" r="78" fill="#FFB300" stroke="#E65100" stroke-width="1"/>
+    <text x="165" y="133" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Фотосфера</text>
+    
+    <!-- Chromosphere -->
+    <circle cx="165" cy="200" r="83" fill="none" stroke="#EF5350" stroke-width="1"/>
+    
+    <!-- Corona -->
+    <circle cx="165" cy="200" r="92" fill="none" stroke="#FFCC80" stroke-width="0.5"/>
+    
+    <!-- Sun rays/corona spikes -->
+    <line x1="165" y1="105" x2="165" y2="95" stroke="#FFCC80" stroke-width="1.5"/>
+    <line x1="230" y1="135" x2="240" y2="125" stroke="#FFCC80" stroke-width="1.5"/>
+    <line x1="260" y1="200" x2="272" y2="200" stroke="#FFCC80" stroke-width="1.5"/>
+    <line x1="230" y1="265" x2="240" y2="275" stroke="#FFCC80" stroke-width="1.5"/>
+    <line x1="165" y1="295" x2="165" y2="305" stroke="#FFCC80" stroke-width="1.5"/>
+    <line x1="100" y1="265" x2="90" y2="275" stroke="#FFCC80" stroke-width="1.5"/>
+    <line x1="70" y1="200" x2="58" y2="200" stroke="#FFCC80" stroke-width="1.5"/>
+    <line x1="100" y1="135" x2="90" y2="125" stroke="#FFCC80" stroke-width="1.5"/>
+    
+    <!-- Prominence -->
+    <path d="M200,120 C210,100 220,95 225,110 C230,125 220,135 215,120" fill="none" stroke="#EF5350" stroke-width="2"/>
+    
+    <!-- Sunspot -->
+    <ellipse cx="140" cy="190" rx="5" ry="4" fill="#5D4037"/>
+    
+    <!-- Labels for layers (right side) -->
+    <rect x="280" y="92" width="200" height="210" rx="4" fill="#FFF8E1" stroke="#7E57C2" stroke-width="1"/>
+    <text x="380" y="108" font-family="Arial,sans-serif" font-size="11" fill="#4527A0" text-anchor="middle">Слои Солнца</text>
+    
+    <!-- Core -->
+    <rect x="290" y="118" width="12" height="12" rx="2" fill="#FF6F00"/>
+    <text x="335" y="128" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Ядро: T=15 млн K</text>
+    <text x="335" y="139" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">Термояд. реакции: H-&gt;He</text>
+    
+    <!-- Radiative zone -->
+    <rect x="290" y="148" width="12" height="12" rx="2" fill="#FF8F00"/>
+    <text x="335" y="158" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Лучистый перенос:</text>
+    <text x="335" y="169" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">Фотоны движутся наружу</text>
+    
+    <!-- Convective zone -->
+    <rect x="290" y="178" width="12" height="12" rx="2" fill="#FFA000"/>
+    <text x="335" y="188" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Конвекция:</text>
+    <text x="335" y="199" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">Перемешивание вещества</text>
+    
+    <!-- Photosphere -->
+    <rect x="290" y="208" width="12" height="12" rx="2" fill="#FFB300"/>
+    <text x="335" y="218" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Фотосфера: T=5800 K</text>
+    <text x="335" y="229" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">Видимая поверхность</text>
+    
+    <!-- Chromosphere + Corona -->
+    <rect x="290" y="238" width="12" height="12" rx="2" fill="#EF5350"/>
+    <text x="335" y="248" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Хромосфера + Корона</text>
+    <text x="335" y="259" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">T короны &gt; 1 млн K</text>
+    
+    <!-- Sun facts -->
+    <text x="380" y="278" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Масса: 2x10^30 кг</text>
+    <text x="380" y="289" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">R = 696 000 км</text>
+    <text x="380" y="299" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Возраст: ~4.6 млрд лет</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#1A237E" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#1A237E" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Астрономия</text>
 </svg>

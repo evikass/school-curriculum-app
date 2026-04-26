@@ -6,28 +6,98 @@
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+      <stop offset="100%" stop-color="#00796B"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Численность и размещение населения</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#26A69A" text-anchor="middle">Численность и размещение населения</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 7</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/><ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/><line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/><path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+    
+<rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
+<text x="250" y="100" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#00796B" text-anchor="middle">Численность и размещение населения</text>
+
+<!-- Population density map concept -->
+<rect x="25" y="110" width="220" height="130" rx="5" fill="white" stroke="#00796B" stroke-width="1"/>
+<text x="135" y="124" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#00796B" text-anchor="middle">Плотность населения (чел./км2)</text>
+<!-- High density zones -->
+<rect x="80" y="128" width="30" height="20" rx="2" fill="#D32F2F" opacity="0.7"/>
+<rect x="110" y="133" width="25" height="15" rx="2" fill="#FF5722" opacity="0.7"/>
+<rect x="50" y="140" width="20" height="15" rx="2" fill="#FF9800" opacity="0.6"/>
+<rect x="150" y="128" width="20" height="18" rx="2" fill="#FF5722" opacity="0.7"/>
+<rect x="180" y="135" width="25" height="12" rx="2" fill="#D32F2F" opacity="0.7"/>
+<!-- Medium density -->
+<rect x="35" y="160" width="40" height="20" rx="2" fill="#FFC107" opacity="0.5"/>
+<rect x="120" y="155" width="35" height="20" rx="2" fill="#FFC107" opacity="0.5"/>
+<rect x="170" y="155" width="30" height="15" rx="2" fill="#FFC107" opacity="0.5"/>
+<!-- Low density -->
+<rect x="35" y="185" width="50" height="20" rx="2" fill="#4CAF50" opacity="0.3"/>
+<rect x="100" y="180" width="60" height="20" rx="2" fill="#4CAF50" opacity="0.3"/>
+<rect x="170" y="175" width="45" height="25" rx="2" fill="#4CAF50" opacity="0.3"/>
+<!-- Very low -->
+<rect x="40" y="210" width="80" height="20" rx="2" fill="#C8E6C9" opacity="0.5"/>
+<rect x="130" y="205" width="70" height="25" rx="2" fill="#C8E6C9" opacity="0.5"/>
+<!-- Labels -->
+<text x="95" y="141" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">Ю-В Азия</text>
+<text x="192" y="143" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">Вост. Азия</text>
+<text x="160" y="140" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">Европа</text>
+<text x="80" y="215" font-family="Arial,sans-serif" font-size="4" fill="#333" text-anchor="middle">Сибирь</text>
+
+<!-- Legend -->
+<rect x="30" y="233" width="8" height="8" fill="#D32F2F" opacity="0.7"/>
+<text x="42" y="240" font-family="Arial,sans-serif" font-size="5" fill="#333">&gt;100</text>
+<rect x="65" y="233" width="8" height="8" fill="#FF5722" opacity="0.7"/>
+<text x="77" y="240" font-family="Arial,sans-serif" font-size="5" fill="#333">50-100</text>
+<rect x="105" y="233" width="8" height="8" fill="#FFC107" opacity="0.5"/>
+<text x="117" y="240" font-family="Arial,sans-serif" font-size="5" fill="#333">25-50</text>
+<rect x="145" y="233" width="8" height="8" fill="#4CAF50" opacity="0.3"/>
+<text x="157" y="240" font-family="Arial,sans-serif" font-size="5" fill="#333">10-25</text>
+<rect x="185" y="233" width="8" height="8" fill="#C8E6C9" opacity="0.5"/>
+<text x="197" y="240" font-family="Arial,sans-serif" font-size="5" fill="#333">&lt;10</text>
+
+<!-- Right: Top populated countries -->
+<rect x="260" y="110" width="210" height="130" rx="5" fill="white" stroke="#00796B" stroke-width="1"/>
+<text x="365" y="124" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#00796B" text-anchor="middle">Самые населённые страны</text>
+<!-- Horizontal bars -->
+<text x="280" y="140" font-family="Arial,sans-serif" font-size="6" fill="#333">Китай</text>
+<rect x="310" y="134" width="130" height="9" rx="2" fill="#E53935"/>
+<text x="445" y="141" font-family="Arial,sans-serif" font-size="5" fill="#333">1.4млд</text>
+
+<text x="280" y="155" font-family="Arial,sans-serif" font-size="6" fill="#333">Индия</text>
+<rect x="310" y="149" width="125" height="9" rx="2" fill="#FF9800"/>
+<text x="440" y="156" font-family="Arial,sans-serif" font-size="5" fill="#333">1.4млд</text>
+
+<text x="280" y="170" font-family="Arial,sans-serif" font-size="6" fill="#333">США</text>
+<rect x="310" y="164" width="45" height="9" rx="2" fill="#1565C0"/>
+<text x="360" y="171" font-family="Arial,sans-serif" font-size="5" fill="#333">330млн</text>
+
+<text x="280" y="185" font-family="Arial,sans-serif" font-size="6" fill="#333">Индонез.</text>
+<rect x="310" y="179" width="38" height="9" rx="2" fill="#2E7D32"/>
+<text x="353" y="186" font-family="Arial,sans-serif" font-size="5" fill="#333">275млн</text>
+
+<text x="280" y="200" font-family="Arial,sans-serif" font-size="6" fill="#333">Бразилия</text>
+<rect x="310" y="194" width="30" height="9" rx="2" fill="#6A1B9A"/>
+<text x="345" y="201" font-family="Arial,sans-serif" font-size="5" fill="#333">215млн</text>
+
+<text x="280" y="215" font-family="Arial,sans-serif" font-size="6" fill="#333">Россия</text>
+<rect x="310" y="209" width="20" height="9" rx="2" fill="#00796B"/>
+<text x="335" y="216" font-family="Arial,sans-serif" font-size="5" fill="#333">146млн</text>
+
+<!-- Bottom stats -->
+<rect x="260" y="248" width="210" height="45" rx="5" fill="white" opacity="0.8" stroke="#00796B" stroke-width="0.5"/>
+<text x="365" y="262" font-family="Arial,sans-serif" font-size="6" fill="#00796B" text-anchor="middle">Мировое население: ~8 млрд</text>
+<text x="310" y="276" font-family="Arial,sans-serif" font-size="5" fill="#555">Городское: 56%</text>
+<text x="310" y="286" font-family="Arial,sans-serif" font-size="5" fill="#555">Сельское: 44%</text>
+<circle cx="395" cy="280" r="15" fill="none" stroke="#00796B" stroke-width="1"/>
+<path d="M395,280 L395,268" stroke="#E53935" stroke-width="2"/>
+<path d="M395,280 L410,280" stroke="#1565C0" stroke-width="2"/>
+<text x="393" y="267" font-family="Arial,sans-serif" font-size="4" fill="#E53935">гор.</text>
+<text x="412" y="283" font-family="Arial,sans-serif" font-size="4" fill="#1565C0">сел.</text>
+
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
 </svg>

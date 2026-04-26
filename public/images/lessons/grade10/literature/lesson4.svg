@@ -11,23 +11,63 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#7B1FA2" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#AB47BC" text-anchor="middle">И.С. Тургенев</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#AB47BC" text-anchor="middle">И.С. Тургенев</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 4</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#AB47BC" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#7B1FA2" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  <rect x="225" y="155" width="50" height="70" rx="3" fill="none" stroke="#AB47BC" stroke-width="2"/><line x1="250" y1="155" x2="250" y2="225" stroke="#AB47BC" stroke-width="1.5" opacity="0.4"/><path d="M230,160 Q250,150 270,160" fill="none" stroke="#7B1FA2" stroke-width="1.5" opacity="0.6"/>
+    <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
+    
+  <!-- Hunting scene with dog and forest -->
+  <!-- Forest background -->
+  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.3"/>
+  <!-- Trees -->
+  <path d="M50,250 L60,140 L70,250" fill="#66BB6A" opacity="0.2" stroke="#7B1FA2" stroke-width="1"/>
+  <path d="M42,180 L60,120 L78,180" fill="#66BB6A" opacity="0.15" stroke="#7B1FA2" stroke-width="0.8"/>
+  <path d="M90,250 L105,155 L120,250" fill="#66BB6A" opacity="0.2" stroke="#7B1FA2" stroke-width="1"/>
+  <path d="M82,190 L105,135 L128,190" fill="#66BB6A" opacity="0.15" stroke="#7B1FA2" stroke-width="0.8"/>
+  <path d="M430,250 L445,160 L460,250" fill="#66BB6A" opacity="0.2" stroke="#7B1FA2" stroke-width="1"/>
+  <path d="M422,195 L445,140 L468,195" fill="#66BB6A" opacity="0.15" stroke="#7B1FA2" stroke-width="0.8"/>
+  <!-- Hunter silhouette -->
+  <ellipse cx="220" cy="150" rx="14" ry="18" fill="#AB47BC" opacity="0.15" stroke="#7B1FA2" stroke-width="1.5"/>
+  <path d="M206,150 Q206,135 220,130 Q234,135 234,150" fill="none" stroke="#7B1FA2" stroke-width="1.5"/>
+  <line x1="220" y1="168" x2="220" y2="210" stroke="#7B1FA2" stroke-width="1.5"/>
+  <!-- Hat -->
+  <path d="M206,133 Q220,125 234,133" fill="none" stroke="#7B1FA2" stroke-width="1.5"/>
+  <line x1="200" y1="133" x2="240" y2="133" stroke="#7B1FA2" stroke-width="1.5"/>
+  <!-- Gun -->
+  <line x1="234" y1="155" x2="275" y2="140" stroke="#5D4037" stroke-width="2"/>
+  <line x1="270" y1="142" x2="278" y2="138" stroke="#333" stroke-width="2.5"/>
+  <!-- Legs -->
+  <line x1="215" y1="210" x2="210" y2="245" stroke="#7B1FA2" stroke-width="1.5"/>
+  <line x1="225" y1="210" x2="230" y2="245" stroke="#7B1FA2" stroke-width="1.5"/>
+  <!-- Hunting dog -->
+  <ellipse cx="300" cy="225" rx="22" ry="12" fill="#AB47BC" opacity="0.15" stroke="#7B1FA2" stroke-width="1.2"/>
+  <!-- Dog head -->
+  <ellipse cx="320" cy="218" rx="8" ry="7" fill="#AB47BC" opacity="0.15" stroke="#7B1FA2" stroke-width="1.2"/>
+  <!-- Dog ears -->
+  <path d="M315,212 Q312,205 316,210" fill="none" stroke="#7B1FA2" stroke-width="1"/>
+  <!-- Dog legs -->
+  <line x1="288" y1="237" x2="286" y2="250" stroke="#7B1FA2" stroke-width="1"/>
+  <line x1="296" y1="237" x2="294" y2="250" stroke="#7B1FA2" stroke-width="1"/>
+  <line x1="306" y1="237" x2="308" y2="250" stroke="#7B1FA2" stroke-width="1"/>
+  <line x1="314" y1="237" x2="316" y2="250" stroke="#7B1FA2" stroke-width="1"/>
+  <!-- Dog tail -->
+  <path d="M280,222 Q272,210 276,200" fill="none" stroke="#7B1FA2" stroke-width="1.2"/>
+  <!-- Ground -->
+  <path d="M30,250 Q250,240 470,250" fill="none" stroke="#7B1FA2" stroke-width="1" opacity="0.3"/>
+  <!-- Key works -->
+  <text x="250" y="105" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Отцы и дети</text>
+  <text x="250" y="123" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Записки охотника</text>
+  <text x="250" y="141" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Дворянское гнездо</text>
+  <text x="250" y="275" font-family="Arial,sans-serif" font-size="11" fill="#AB47BC" opacity="0.6">1818-1883</text>
+  <!-- Grass -->
+  <line x1="130" y1="248" x2="128" y2="240" stroke="#7B1FA2" stroke-width="0.8" opacity="0.3"/>
+  <line x1="135" y1="248" x2="137" y2="240" stroke="#7B1FA2" stroke-width="0.8" opacity="0.3"/>
+  <line x1="350" y1="248" x2="348" y2="240" stroke="#7B1FA2" stroke-width="0.8" opacity="0.3"/>
+  <line x1="355" y1="248" x2="357" y2="240" stroke="#7B1FA2" stroke-width="0.8" opacity="0.3"/>
+
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
 </svg>

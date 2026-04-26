@@ -11,23 +11,97 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#66BB6A" text-anchor="middle">Размножение организмов</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Размножение организмов</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 11</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#66BB6A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#2E7D32" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  <circle cx="250" cy="190" r="35" fill="none" stroke="#66BB6A" stroke-width="2"/><circle cx="250" cy="190" r="25" fill="none" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/><circle cx="240" cy="180" r="8" fill="#66BB6A" opacity="0.5"/><circle cx="262" cy="198" r="6" fill="#2E7D32" opacity="0.4"/><ellipse cx="250" cy="190" rx="12" ry="35" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.4"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
+    
+    <!-- Two types: Sexual and Asexual -->
+    <rect x="20" y="90" width="225" height="90" rx="4" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="132" y="108" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Бесполое размножение</text>
+    <text x="132" y="122" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Один родитель</text>
+    <text x="132" y="134" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Генетические копии (клоны)</text>
+    <!-- Types -->
+    <text x="70" y="150" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Деление</text>
+    <text x="130" y="150" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Споры</text>
+    <text x="195" y="150" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Вегетативное</text>
+    <!-- Icons -->
+    <circle cx="60" cy="168" r="8" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+    <line x1="68" y1="168" x2="80" y2="168" stroke="#2E7D32" stroke-width="1"/>
+    <circle cx="88" cy="168" r="8" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+    
+    <ellipse cx="130" cy="168" rx="5" ry="8" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
+    
+    <line x1="180" y1="162" x2="190" y2="172" stroke="#66BB6A" stroke-width="2"/>
+    <line x1="200" y1="162" x2="210" y2="172" stroke="#66BB6A" stroke-width="2"/>
+    <line x1="190" y1="172" x2="200" y2="162" stroke="#66BB6A" stroke-width="2"/>
+    
+    <rect x="255" y="90" width="225" height="90" rx="4" fill="#FCE4EC" stroke="#EF5350" stroke-width="1"/>
+    <text x="367" y="108" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="middle">Половое размножение</text>
+    <text x="367" y="122" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Два родителя</text>
+    <text x="367" y="134" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Генетическое разнообразие</text>
+    <text x="367" y="150" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Гаметы: сперматозоид + яйцеклетка</text>
+    <!-- Sperm and egg icons -->
+    <circle cx="310" cy="168" r="12" fill="#FFCDD2" stroke="#EF5350" stroke-width="1"/>
+    <line x1="305" y1="165" x2="298" y2="158" stroke="#EF5350" stroke-width="1"/>
+    <line x1="315" y1="165" x2="322" y2="158" stroke="#EF5350" stroke-width="1"/>
+    <circle cx="360" cy="168" r="9" fill="#EF5350" stroke="#C62828" stroke-width="1"/>
+    <line x1="369" y1="168" x2="385" y2="168" stroke="#C62828" stroke-width="1.5"/>
+    <line x1="382" y1="165" x2="385" y2="168" stroke="#C62828" stroke-width="1"/>
+    <line x1="382" y1="171" x2="385" y2="168" stroke="#C62828" stroke-width="1"/>
+    
+    <!-- Mitosis vs Meiosis comparison -->
+    <text x="140" y="195" font-family="Arial,sans-serif" font-size="12" fill="#66BB6A" text-anchor="middle">Митоз</text>
+    <text x="370" y="195" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle">Мейоз</text>
+    
+    <!-- Mitosis stages -->
+    <rect x="20" y="200" width="230" height="95" rx="3" fill="#F1F8E9" stroke="#66BB6A" stroke-width="1"/>
+    <!-- Cell dividing into 2 -->
+    <circle cx="60" cy="235" r="18" fill="#C8E6C9" stroke="#66BB6A" stroke-width="1.5"/>
+    <line x1="60" y1="217" x2="60" y2="253" stroke="#66BB6A" stroke-width="1"/>
+    <text x="60" y="260" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">1n</text>
+    
+    <line x1="85" y1="235" x2="105" y2="235" stroke="#555" stroke-width="1.5"/>
+    
+    <circle cx="130" cy="228" r="14" fill="#C8E6C9" stroke="#66BB6A" stroke-width="1.5"/>
+    <line x1="130" y1="214" x2="130" y2="242" stroke="#66BB6A" stroke-width="1"/>
+    <circle cx="130" cy="248" r="14" fill="#C8E6C9" stroke="#66BB6A" stroke-width="1.5"/>
+    <line x1="130" y1="234" x2="130" y2="262" stroke="#66BB6A" stroke-width="1"/>
+    <text x="130" y="272" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">2n=2n</text>
+    
+    <!-- Mitosis info -->
+    <text x="190" y="225" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Соматические клетки</text>
+    <text x="190" y="237" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">2n -&gt; 2n</text>
+    <text x="190" y="249" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Рост, регенерация</text>
+    <text x="190" y="261" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">1 деление</text>
+    <text x="190" y="273" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Нет кроссинговера</text>
+    <text x="190" y="285" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Идентичные копии</text>
+    
+    <!-- Meiosis stages -->
+    <rect x="260" y="200" width="230" height="95" rx="3" fill="#FFEBEE" stroke="#EF5350" stroke-width="1"/>
+    <!-- Cell dividing into 4 -->
+    <circle cx="300" cy="235" r="18" fill="#FFCDD2" stroke="#EF5350" stroke-width="1.5"/>
+    <line x1="300" y1="217" x2="300" y2="253" stroke="#EF5350" stroke-width="1"/>
+    
+    <line x1="325" y1="235" x2="345" y2="235" stroke="#555" stroke-width="1.5"/>
+    
+    <circle cx="365" cy="222" r="12" fill="#FFCDD2" stroke="#EF5350" stroke-width="1"/>
+    <circle cx="385" cy="222" r="12" fill="#FFCDD2" stroke="#EF5350" stroke-width="1"/>
+    <circle cx="365" cy="250" r="12" fill="#FFCDD2" stroke="#EF5350" stroke-width="1"/>
+    <circle cx="385" cy="250" r="12" fill="#FFCDD2" stroke="#EF5350" stroke-width="1"/>
+    <text x="375" y="272" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">2n -&gt; n</text>
+    
+    <!-- Meiosis info -->
+    <text x="440" y="225" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Половые клетки</text>
+    <text x="440" y="237" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">2n -&gt; n</text>
+    <text x="440" y="249" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Гаметогенез</text>
+    <text x="440" y="261" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">2 деления</text>
+    <text x="440" y="273" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Кроссинговер</text>
+    <text x="440" y="285" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Разнообразие</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
 </svg>

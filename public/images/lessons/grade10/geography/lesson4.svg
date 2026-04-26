@@ -6,28 +6,78 @@
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+      <stop offset="100%" stop-color="#00796B"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Мировое хозяйство и международно...</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#26A69A" text-anchor="middle">Мировое хозяйство и международное разделение труда</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 4</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/><ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/><line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/><path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+    
+<rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
+<!-- Title -->
+<text x="250" y="100" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#00796B" text-anchor="middle">Международное разделение труда</text>
+
+<!-- Center: Global trade hub -->
+<circle cx="250" cy="175" r="35" fill="white" stroke="#00796B" stroke-width="1.5"/>
+<text x="250" y="170" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#00796B" text-anchor="middle">Мировая</text>
+<text x="250" y="182" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#00796B" text-anchor="middle">торговля</text>
+
+<!-- Developed countries (top-left) -->
+<rect x="30" y="110" width="110" height="75" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="85" y="124" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Развитые страны</text>
+<text x="85" y="137" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">США, ЕС, Япония</text>
+<!-- High-tech icon -->
+<rect x="55" y="143" width="20" height="15" rx="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.7"/>
+<text x="65" y="153" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">IT</text>
+<!-- Finance icon -->
+<rect x="80" y="143" width="20" height="15" rx="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.7"/>
+<text x="90" y="153" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">$</text>
+<text x="85" y="172" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Экспорт: технологии, услуги</text>
+
+<!-- Developing countries (top-right) -->
+<rect x="360" y="110" width="110" height="75" rx="5" fill="#FFF3E0" stroke="#E65100" stroke-width="1.2"/>
+<text x="415" y="124" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">Развивающиеся</text>
+<text x="415" y="137" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Китай, Индия, Бразилия</text>
+<!-- Factory icon -->
+<rect x="385" y="143" width="20" height="15" rx="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.7"/>
+<text x="395" y="153" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Пром</text>
+<!-- Resources icon -->
+<rect x="410" y="143" width="20" height="15" rx="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.7"/>
+<text x="420" y="153" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Ресурс</text>
+<text x="415" y="172" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Экспорт: сырьё, труд</text>
+
+<!-- Raw material exporters (bottom-left) -->
+<rect x="30" y="215" width="110" height="70" rx="5" fill="#FBE9E7" stroke="#BF360C" stroke-width="1.2"/>
+<text x="85" y="230" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#BF360C" text-anchor="middle">Сырьевые экспортёры</text>
+<text x="85" y="243" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Нигерия, Сауд. Аравия</text>
+<text x="85" y="258" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Нефть, газ, минералы</text>
+<!-- Oil barrel icon -->
+<ellipse cx="65" cy="270" rx="8" ry="5" fill="#FFCCBC" stroke="#BF360C" stroke-width="0.7"/>
+<line x1="57" y1="270" x2="73" y2="270" stroke="#BF360C" stroke-width="0.7"/>
+
+<!-- NICs (bottom-right) -->
+<rect x="360" y="215" width="110" height="70" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.2"/>
+<text x="415" y="230" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#6A1B9A" text-anchor="middle">НИС</text>
+<text x="415" y="243" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Южная Корея, Сингапур</text>
+<text x="415" y="258" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">Электроника, авто, суда</text>
+
+<!-- Arrows showing trade flows -->
+<line x1="140" y1="140" x2="218" y2="165" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arrowG)"/>
+<line x1="360" y1="140" x2="282" y2="165" stroke="#E65100" stroke-width="1.5" marker-end="url(#arrowO)"/>
+<line x1="140" y1="245" x2="220" y2="200" stroke="#BF360C" stroke-width="1.2" stroke-dasharray="4,2"/>
+<line x1="360" y1="245" x2="280" y2="200" stroke="#6A1B9A" stroke-width="1.2" stroke-dasharray="4,2"/>
+
+<!-- Flow labels -->
+<text x="170" y="148" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">технологии</text>
+<text x="310" y="148" font-family="Arial,sans-serif" font-size="5" fill="#E65100">товары</text>
+<text x="165" y="228" font-family="Arial,sans-serif" font-size="5" fill="#BF360C">сырьё</text>
+<text x="305" y="228" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A">продукция</text>
+
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
 </svg>

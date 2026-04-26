@@ -11,23 +11,78 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#66BB6A" text-anchor="middle">Основы генетики</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Основы генетики</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 8</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#66BB6A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#2E7D32" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  <circle cx="250" cy="190" r="35" fill="none" stroke="#66BB6A" stroke-width="2"/><circle cx="250" cy="190" r="25" fill="none" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/><circle cx="240" cy="180" r="8" fill="#66BB6A" opacity="0.5"/><circle cx="262" cy="198" r="6" fill="#2E7D32" opacity="0.4"/><ellipse cx="250" cy="190" rx="12" ry="35" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.4"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
+    
+    <!-- Mendel portrait placeholder -->
+    <rect x="20" y="90" width="140" height="50" rx="4" fill="#F1F8E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="90" y="108" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">Г. Мендель (1865)</text>
+    <text x="90" y="122" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Законы наследования</text>
+    
+    <!-- First law -->
+    <rect x="20" y="145" width="145" height="45" rx="3" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="92" y="159" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">I закон</text>
+    <text x="92" y="170" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Единообразие F1</text>
+    <text x="92" y="182" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">AA x aa -&gt; Aa</text>
+    
+    <!-- Second law -->
+    <rect x="175" y="145" width="145" height="45" rx="3" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="247" y="159" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">II закон</text>
+    <text x="247" y="170" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Расщепление 3:1</text>
+    <text x="247" y="182" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Aa x Aa -&gt; 3A_:1aa</text>
+    
+    <!-- Third law -->
+    <rect x="330" y="145" width="145" height="45" rx="3" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="402" y="159" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">III закон</text>
+    <text x="402" y="170" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Независимое</text>
+    <text x="402" y="182" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">наследование</text>
+    
+    <!-- Punnett square -->
+    <text x="250" y="205" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Решетка Пеннета (Aa x Aa)</text>
+    
+    <!-- Grid -->
+    <rect x="170" y="210" width="160" height="80" fill="none" stroke="#2E7D32" stroke-width="1.5"/>
+    <line x1="210" y1="210" x2="210" y2="290" stroke="#66BB6A" stroke-width="1"/>
+    <line x1="250" y1="210" x2="250" y2="290" stroke="#66BB6A" stroke-width="1"/>
+    <line x1="290" y1="210" x2="290" y2="290" stroke="#66BB6A" stroke-width="1"/>
+    <line x1="170" y1="230" x2="330" y2="230" stroke="#66BB6A" stroke-width="1"/>
+    <line x1="170" y1="250" x2="330" y2="250" stroke="#66BB6A" stroke-width="1"/>
+    <line x1="170" y1="270" x2="330" y2="270" stroke="#66BB6A" stroke-width="1"/>
+    
+    <!-- Headers -->
+    <text x="190" y="223" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle"></text>
+    <text x="230" y="223" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">A</text>
+    <text x="270" y="223" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="middle">a</text>
+    <text x="310" y="223" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">A</text>
+    <text x="190" y="243" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">A</text>
+    <text x="230" y="243" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">AA</text>
+    <text x="270" y="243" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Aa</text>
+    <text x="310" y="243" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">AA</text>
+    <text x="190" y="263" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="middle">a</text>
+    <text x="230" y="263" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Aa</text>
+    <text x="270" y="263" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle">aa</text>
+    <text x="310" y="263" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Aa</text>
+    
+    <!-- Phenotype ratio -->
+    <rect x="340" y="215" width="140" height="70" rx="3" fill="#F1F8E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="410" y="230" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">Фенотип:</text>
+    <text x="410" y="243" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">3 доминантных</text>
+    <text x="410" y="255" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">1 рецессивный</text>
+    <text x="410" y="270" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">Расщепление 3:1</text>
+    
+    <!-- Dominant/Recessive labels -->
+    <rect x="20" y="215" width="140" height="70" rx="3" fill="#F1F8E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="90" y="230" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">A - доминантный</text>
+    <text x="90" y="243" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">a - рецессивный</text>
+    <text x="90" y="258" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">AA - гомозигота</text>
+    <text x="90" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Aa - гетерозигота</text>
+    <text x="90" y="282" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">aa - гомозигота</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
 </svg>

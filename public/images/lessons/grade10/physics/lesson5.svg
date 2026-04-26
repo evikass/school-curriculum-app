@@ -11,23 +11,62 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1A237E" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Импульс и закон сохранения импульса</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Импульс и закон сохранения импульса</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 5</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1A237E" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <circle cx="250" cy="190" r="40" fill="none" stroke="#5C6BC0" stroke-width="2"/><line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/><line x1="210" y1="190" x2="290" y2="190" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/><text x="250" y="195" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" text-anchor="middle">F=ma</text>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
+    <!-- Before collision -->
+    <text x="120" y="100" font-family="Arial,sans-serif" font-size="11" fill="#1A237E" font-weight="bold" text-anchor="middle">До столкновения</text>
+    <!-- Ball 1 -->
+    <circle cx="70" cy="140" r="18" fill="#E91E63" opacity="0.25" stroke="#E91E63" stroke-width="1.5"/>
+    <text x="70" y="144" font-family="Arial,sans-serif" font-size="9" fill="#E91E63" text-anchor="middle">m1</text>
+    <line x1="90" y1="140" x2="130" y2="140" stroke="#E91E63" stroke-width="2"/>
+    <polygon points="130,137 138,140 130,143" fill="#E91E63"/>
+    <text x="108" y="133" font-family="Arial,sans-serif" font-size="9" fill="#E91E63">v1</text>
+    <!-- Ball 2 -->
+    <circle cx="180" cy="140" r="14" fill="#4CAF50" opacity="0.25" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="180" y="144" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50" text-anchor="middle">m2</text>
+    <line x1="196" y1="140" x2="230" y2="140" stroke="#4CAF50" stroke-width="2"/>
+    <polygon points="230,137 238,140 230,143" fill="#4CAF50"/>
+    <text x="210" y="133" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">v2</text>
+    <!-- After collision -->
+    <text x="120" y="180" font-family="Arial,sans-serif" font-size="11" fill="#1A237E" font-weight="bold" text-anchor="middle">После столкновения</text>
+    <circle cx="70" cy="215" r="18" fill="#E91E63" opacity="0.25" stroke="#E91E63" stroke-width="1.5"/>
+    <text x="70" y="219" font-family="Arial,sans-serif" font-size="9" fill="#E91E63" text-anchor="middle">m1</text>
+    <line x1="50" y1="215" x2="20" y2="215" stroke="#E91E63" stroke-width="1.5"/>
+    <polygon points="20,212 12,215 20,218" fill="#E91E63"/>
+    <text x="30" y="209" font-family="Arial,sans-serif" font-size="9" fill="#E91E63">v1'</text>
+    <circle cx="170" cy="215" r="14" fill="#4CAF50" opacity="0.25" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="170" y="219" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50" text-anchor="middle">m2</text>
+    <line x1="186" y1="215" x2="230" y2="215" stroke="#4CAF50" stroke-width="2"/>
+    <polygon points="230,212 238,215 230,218" fill="#4CAF50"/>
+    <text x="210" y="209" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">v2'</text>
+    <!-- Conservation law -->
+    <rect x="260" y="90" width="225" height="100" rx="5" fill="white" opacity="0.85" stroke="#5C6BC0" stroke-width="1.5"/>
+    <text x="270" y="108" font-family="Arial,sans-serif" font-size="12" fill="#1A237E" font-weight="bold">Закон сохранения:</text>
+    <line x1="270" y1="113" x2="475" y2="113" stroke="#5C6BC0" stroke-width="0.5"/>
+    <rect x="270" y="118" width="205" height="25" rx="3" fill="#5C6BC0" opacity="0.1"/>
+    <text x="372" y="136" font-family="Arial,sans-serif" font-size="13" fill="#5C6BC0" text-anchor="middle" font-weight="bold">p1 + p2 = p1' + p2'</text>
+    <text x="270" y="155" font-family="Arial,sans-serif" font-size="11" fill="#444">m1*v1 + m2*v2 = const</text>
+    <text x="270" y="173" font-family="Arial,sans-serif" font-size="10" fill="#888">Если Fвнешн = 0 (замкнутая система)</text>
+    <text x="270" y="188" font-family="Arial,sans-serif" font-size="10" fill="#888">полный импульс сохраняется</text>
+    <!-- Impulse definition -->
+    <rect x="260" y="198" width="225" height="55" rx="5" fill="white" opacity="0.85" stroke="#5C6BC0" stroke-width="1"/>
+    <text x="270" y="216" font-family="Arial,sans-serif" font-size="12" fill="#1A237E" font-weight="bold">Импульс:</text>
+    <text x="270" y="234" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" font-weight="bold">p = m * v</text>
+    <text x="370" y="234" font-family="Arial,sans-serif" font-size="10" fill="#444">[p] = кг*м/с</text>
+    <text x="270" y="250" font-family="Arial,sans-serif" font-size="10" fill="#444">F*t = delta(p)  (импульс силы)</text>
+    <!-- Collision type -->
+    <rect x="25" y="260" width="225" height="38" rx="4" fill="#5C6BC0" opacity="0.08"/>
+    <text x="35" y="276" font-family="Arial,sans-serif" font-size="10" fill="#1A237E" font-weight="bold">Типы столкновений:</text>
+    <text x="35" y="292" font-family="Arial,sans-serif" font-size="9" fill="#444">Упругое: сохран. импульс + энергия</text>
+    <text x="250" y="276" font-family="Arial,sans-serif" font-size="9" fill="#444">Неупругое: только импульс</text>
+    <text x="250" y="292" font-family="Arial,sans-serif" font-size="9" fill="#444">(тела движутся вместе)</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика</text>
 </svg>

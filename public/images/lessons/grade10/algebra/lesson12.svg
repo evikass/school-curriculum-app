@@ -11,23 +11,62 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#3F51B5" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Применение производной</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Применение производной</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 12</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <path d="M200,160 Q250,120 300,160 Q350,200 300,240 Q250,280 200,240 Q150,200 200,160" fill="none" stroke="#5C6BC0" stroke-width="2.5"/><line x1="180" y1="200" x2="320" y2="200" stroke="#5C6BC0" stroke-width="1" opacity="0.5"/><text x="250" y="208" font-family="Arial,sans-serif" font-size="16" fill="#5C6BC0" text-anchor="middle">f(x)</text>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
+    <!-- Coordinate axes -->
+    <line x1="50" y1="250" x2="460" y2="250" stroke="#3F51B5" stroke-width="1"/>
+    <line x1="50" y1="250" x2="50" y2="92" stroke="#3F51B5" stroke-width="1"/>
+    <polygon points="460,247 468,250 460,253" fill="#3F51B5"/>
+    <polygon points="47,92 50,85 53,92" fill="#3F51B5"/>
+    <text x="465" y="245" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5">x</text>
+    <text x="42" y="90" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5">y</text>
+    <!-- Function curve with max/min -->
+    <path d="M60,220 Q100,200 140,170 Q170,150 200,120 Q215,108 230,110 Q245,112 255,130 Q275,165 295,190 Q310,205 325,210 Q340,213 355,200 Q380,175 400,140 Q420,110 445,100" fill="none" stroke="#5C6BC0" stroke-width="2.5"/>
+    <text x="440" y="97" font-family="Arial,sans-serif" font-size="11" fill="#5C6BC0" font-weight="bold">f(x)</text>
+    <!-- Maximum point -->
+    <circle cx="220" cy="108" r="4" fill="#E91E63"/>
+    <line x1="220" y1="108" x2="220" y2="250" stroke="#E91E63" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <text x="220" y="263" font-family="Arial,sans-serif" font-size="9" fill="#E91E63" text-anchor="middle">x max</text>
+    <text x="228" y="105" font-family="Arial,sans-serif" font-size="9" fill="#E91E63" font-weight="bold">max</text>
+    <!-- Minimum point -->
+    <circle cx="340" cy="210" r="4" fill="#4CAF50"/>
+    <line x1="340" y1="210" x2="340" y2="250" stroke="#4CAF50" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <text x="340" y="263" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50" text-anchor="middle">x min</text>
+    <text x="348" y="207" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50" font-weight="bold">min</text>
+    <!-- Increasing region arrow -->
+    <line x1="75" y1="232" x2="195" y2="232" stroke="#4CAF50" stroke-width="2"/>
+    <polygon points="195,229 203,232 195,235" fill="#4CAF50"/>
+    <text x="140" y="246" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50" text-anchor="middle">f'(x)&gt;0 возр.</text>
+    <!-- Decreasing region arrow -->
+    <line x1="240" y1="232" x2="320" y2="232" stroke="#E91E63" stroke-width="2"/>
+    <polygon points="320,229 328,232 320,235" fill="#E91E63"/>
+    <text x="280" y="246" font-family="Arial,sans-serif" font-size="9" fill="#E91E63" text-anchor="middle">f'(x)&lt;0 убыв.</text>
+    <!-- Increasing again -->
+    <line x1="360" y1="232" x2="430" y2="232" stroke="#4CAF50" stroke-width="2"/>
+    <polygon points="430,229 438,232 430,235" fill="#4CAF50"/>
+    <text x="395" y="246" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50" text-anchor="middle">f'(x)&gt;0 возр.</text>
+    <!-- Properties box -->
+    <rect x="25" y="90" width="165" height="68" rx="5" fill="white" opacity="0.9" stroke="#5C6BC0" stroke-width="1"/>
+    <text x="35" y="106" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5" font-weight="bold">Критические точки:</text>
+    <text x="35" y="122" font-family="Arial,sans-serif" font-size="10" fill="#444">f'(x) = 0 или</text>
+    <text x="35" y="136" font-family="Arial,sans-serif" font-size="10" fill="#444">f'(x) не существует</text>
+    <text x="35" y="153" font-family="Arial,sans-serif" font-size="9" fill="#888">max/min - экстремумы</text>
+    <!-- Tangent at max (horizontal) -->
+    <line x1="195" y1="108" x2="250" y2="108" stroke="#E91E63" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <text x="250" y="105" font-family="Arial,sans-serif" font-size="9" fill="#E91E63">f'=0</text>
+    <!-- Tangent at min (horizontal) -->
+    <line x1="310" y1="210" x2="370" y2="210" stroke="#4CAF50" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <text x="370" y="207" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">f'=0</text>
+    <!-- Summary -->
+    <rect x="25" y="270" width="460" height="28" rx="4" fill="#5C6BC0" opacity="0.08"/>
+    <text x="250" y="289" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5" text-anchor="middle">Достаточное условие: f'(x) меняет знак при переходе через критическую точку</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра</text>
 </svg>

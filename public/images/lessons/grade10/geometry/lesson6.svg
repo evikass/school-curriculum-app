@@ -1,33 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#E0F2F1"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#283593"/>
+      <stop offset="0%" stop-color="#00897B"/>
+      <stop offset="100%" stop-color="#00695C"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#283593" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#283593" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Сфера и шар</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00897B" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#00897B" text-anchor="middle">Сфера и шар</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Геометрия - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#283593" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#00897B" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <polygon points="250,150 300,230 200,230" fill="none" stroke="#5C6BC0" stroke-width="2.5"/><circle cx="250" cy="205" r="20" fill="none" stroke="#283593" stroke-width="1.5" opacity="0.5"/><line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1" opacity="0.3" stroke-dasharray="4,3"/>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
+    <!-- Sphere -->
+    <circle cx="155" cy="210" r="85" fill="#00897B" opacity="0.06" stroke="#00897B" stroke-width="2"/>
+    <!-- Great circle (equator) -->
+    <ellipse cx="155" cy="210" rx="85" ry="25" fill="none" stroke="#00897B" stroke-width="1.5" stroke-dasharray="5,3"/>
+    <!-- Meridian -->
+    <ellipse cx="155" cy="210" rx="30" ry="85" fill="none" stroke="#00897B" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+    <!-- Center -->
+    <circle cx="155" cy="210" r="3" fill="#E91E63"/>
+    <text x="160" y="220" font-family="Arial,sans-serif" font-size="11" fill="#E91E63" font-weight="bold">O</text>
+    <!-- Radius -->
+    <line x1="155" y1="210" x2="240" y2="210" stroke="#4CAF50" stroke-width="2"/>
+    <text x="195" y="205" font-family="Arial,sans-serif" font-size="12" fill="#4CAF50" font-weight="bold">R</text>
+    <!-- Diameter -->
+    <line x1="70" y1="210" x2="240" y2="210" stroke="#FF9800" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+    <!-- Axis -->
+    <line x1="155" y1="115" x2="155" y2="305" stroke="#888" stroke-width="0.8" stroke-dasharray="3,3"/>
+    <!-- Poles -->
+    <circle cx="155" cy="125" r="2" fill="#888"/>
+    <circle cx="155" cy="295" r="2" fill="#888"/>
+    <text x="160" y="122" font-family="Arial,sans-serif" font-size="9" fill="#888">N</text>
+    <text x="160" y="303" font-family="Arial,sans-serif" font-size="9" fill="#888">S</text>
+    <!-- Latitude circle -->
+    <ellipse cx="155" cy="175" rx="65" ry="16" fill="none" stroke="#4CAF50" stroke-width="1" opacity="0.5"/>
+    <text x="225" y="172" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">сечение</text>
+    <!-- Formulas -->
+    <rect x="270" y="90" width="210" height="205" rx="5" fill="white" opacity="0.85" stroke="#00897B" stroke-width="1"/>
+    <text x="280" y="108" font-family="Arial,sans-serif" font-size="12" fill="#00695C" font-weight="bold">Сфера и шар:</text>
+    <line x1="280" y1="113" x2="470" y2="113" stroke="#00897B" stroke-width="0.5"/>
+    <text x="280" y="130" font-family="Arial,sans-serif" font-size="11" fill="#444">Сфера - поверхность</text>
+    <text x="280" y="145" font-family="Arial,sans-serif" font-size="11" fill="#444">Шар - тело (+ внутренность)</text>
+    <line x1="280" y1="153" x2="470" y2="153" stroke="#00897B" stroke-width="0.5"/>
+    <rect x="280" y="158" width="190" height="22" rx="3" fill="#00897B" opacity="0.08"/>
+    <text x="375" y="174" font-family="Arial,sans-serif" font-size="12" fill="#00897B" text-anchor="middle" font-weight="bold">S = 4 * pi * R^2</text>
+    <rect x="280" y="185" width="190" height="22" rx="3" fill="#00897B" opacity="0.08"/>
+    <text x="375" y="201" font-family="Arial,sans-serif" font-size="12" fill="#00897B" text-anchor="middle" font-weight="bold">V = 4/3 * pi * R^3</text>
+    <line x1="280" y1="212" x2="470" y2="212" stroke="#00897B" stroke-width="0.5"/>
+    <text x="280" y="228" font-family="Arial,sans-serif" font-size="11" fill="#00695C" font-weight="bold">Сечение шара:</text>
+    <text x="280" y="246" font-family="Arial,sans-serif" font-size="11" fill="#444">Круг радиуса r</text>
+    <text x="280" y="264" font-family="Arial,sans-serif" font-size="11" fill="#444">r^2 = R^2 - d^2</text>
+    <text x="280" y="280" font-family="Arial,sans-serif" font-size="10" fill="#888">d - расст. от центра до</text>
+    <text x="280" y="294" font-family="Arial,sans-serif" font-size="10" fill="#888">плоскости сечения</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Геометрия</text>
 </svg>

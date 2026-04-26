@@ -11,23 +11,76 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF7043" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#D84315" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#D84315" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FF7043" text-anchor="middle">Арены</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#FF7043" text-anchor="middle">Арены</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 7</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#FF7043" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FF7043" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#D84315" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FBE9E7" opacity="0.5"/>
-  <path d="M225,155 L225,195 L210,230 L290,230 L275,195 L275,155 Z" fill="none" stroke="#FF7043" stroke-width="2"/><line x1="220" y1="155" x2="280" y2="155" stroke="#FF7043" stroke-width="2.5"/><circle cx="240" cy="210" r="6" fill="#FF7043" opacity="0.4"/><circle cx="260" cy="215" r="8" fill="#D84315" opacity="0.3"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#FFF8F0" opacity="0.5"/>
+    
+    <!-- Benzene ring - main illustration -->
+    <text x="140" y="105" font-family="Arial,sans-serif" font-size="13" fill="#D84315" text-anchor="middle">Бензол C6H6</text>
+    <!-- Hexagonal ring -->
+    <polygon points="120,130 155,115 190,130 190,165 155,180 120,165" fill="none" stroke="#333" stroke-width="2.5"/>
+    <!-- Inner circle for delocalized electrons -->
+    <circle cx="155" cy="147" r="18" fill="none" stroke="#FF7043" stroke-width="2" stroke-dasharray="4,2"/>
+    <!-- H atoms -->
+    <circle cx="100" cy="128" r="9" fill="#888" opacity="0.85"/>
+    <text x="100" y="133" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="109" y1="130" x2="120" y2="133" stroke="#555" stroke-width="2.5"/>
+    <circle cx="155" cy="98" r="9" fill="#888" opacity="0.85"/>
+    <text x="155" y="103" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="155" y1="107" x2="155" y2="115" stroke="#555" stroke-width="2.5"/>
+    <circle cx="210" cy="128" r="9" fill="#888" opacity="0.85"/>
+    <text x="210" y="133" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="201" y1="130" x2="190" y2="133" stroke="#555" stroke-width="2.5"/>
+    <circle cx="210" cy="167" r="9" fill="#888" opacity="0.85"/>
+    <text x="210" y="172" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="201" y1="165" x2="190" y2="162" stroke="#555" stroke-width="2.5"/>
+    <circle cx="155" cy="197" r="9" fill="#888" opacity="0.85"/>
+    <text x="155" y="202" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="155" y1="188" x2="155" y2="180" stroke="#555" stroke-width="2.5"/>
+    <circle cx="100" cy="167" r="9" fill="#888" opacity="0.85"/>
+    <text x="100" y="172" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="109" y1="165" x2="120" y2="162" stroke="#555" stroke-width="2.5"/>
+    
+    <!-- Delocalized electrons label -->
+    <rect x="90" y="206" width="130" height="22" rx="3" fill="#FFCCBC" stroke="#FF7043" stroke-width="1"/>
+    <text x="155" y="221" font-family="Arial,sans-serif" font-size="8" fill="#D84315" text-anchor="middle">Делокализ. электроны</text>
+    
+    <!-- Kekule structure (right) -->
+    <text x="370" y="105" font-family="Arial,sans-serif" font-size="11" fill="#D84315" text-anchor="middle">Структура Кекуле</text>
+    <polygon points="345,130 375,115 405,130 405,165 375,180 345,165" fill="none" stroke="#333" stroke-width="2"/>
+    <!-- Alternating double bonds -->
+    <line x1="348" y1="133" x2="372" y2="118" stroke="#FF7043" stroke-width="2"/>
+    <line x1="402" y1="133" x2="402" y2="162" stroke="#FF7043" stroke-width="2"/>
+    <line x1="372" y1="177" x2="348" y2="162" stroke="#FF7043" stroke-width="2"/>
+    
+    <!-- Toluene example -->
+    <text x="120" y="242" font-family="Arial,sans-serif" font-size="10" fill="#D84315" text-anchor="middle">Толуол C6H5CH3</text>
+    <polygon points="95,258 115,248 135,258 135,278 115,288 95,278" fill="none" stroke="#333" stroke-width="1.5"/>
+    <circle cx="115" cy="268" r="12" fill="none" stroke="#FF7043" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <circle cx="150" cy="268" r="13" fill="#E65100" opacity="0.85"/>
+    <text x="150" y="273" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">CH3</text>
+    <line x1="135" y1="268" x2="140" y2="268" stroke="#555" stroke-width="2.5"/>
+    
+    <!-- Styrene example -->
+    <text x="300" y="242" font-family="Arial,sans-serif" font-size="10" fill="#D84315" text-anchor="middle">Стирол C6H5CH=CH2</text>
+    <polygon points="275,258 295,248 315,258 315,278 295,288 275,278" fill="none" stroke="#333" stroke-width="1.5"/>
+    <circle cx="295" cy="268" r="12" fill="none" stroke="#FF7043" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <circle cx="330" cy="258" r="10" fill="#E65100" opacity="0.85"/>
+    <text x="330" y="263" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">CH</text>
+    <circle cx="355" cy="258" r="10" fill="#E65100" opacity="0.85"/>
+    <text x="355" y="263" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">CH2</text>
+    <line x1="340.0" y1="260.5" x2="345.0" y2="260.5" stroke="#555" stroke-width="2"/>
+    <line x1="340.0" y1="255.5" x2="345.0" y2="255.5" stroke="#555" stroke-width="2"/>
+    <line x1="315" y1="268" x2="322" y2="262" stroke="#555" stroke-width="2.5"/>
+    
+    <!-- Properties -->
+    <rect x="200" y="206" width="280" height="22" rx="3" fill="#FFF3E0" stroke="#FF7043" stroke-width="1"/>
+    <text x="340" y="220" font-family="Arial,sans-serif" font-size="9" fill="#D84315" text-anchor="middle">Резонанс: 6 pi-электронов в кольце</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FF7043" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FF7043" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Химия</text>
 </svg>

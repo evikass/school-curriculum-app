@@ -1,33 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFEBEE"/>
+      <stop offset="0%" stop-color="#E3F2FD"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EF5350"/>
-      <stop offset="100%" stop-color="#C62828"/>
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EF5350" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EF5350" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#EF5350" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#C62828" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EF5350" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#C62828" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EF5350" text-anchor="middle">Состав слова</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#42A5F5" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#42A5F5" text-anchor="middle">Состав слова</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Русский язык - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#EF5350" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#EF5350" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C62828" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#42A5F5" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFEBEE" opacity="0.5"/>
-  <rect x="220" y="160" width="60" height="70" rx="5" fill="none" stroke="#EF5350" stroke-width="2"/><text x="250" y="205" font-family="Arial,sans-serif" font-size="28" fill="#EF5350" text-anchor="middle" font-weight="bold">Я</text><line x1="230" y1="215" x2="270" y2="215" stroke="#EF5350" stroke-width="1" opacity="0.4"/>
+    <rect x="15" y="85" width="470" height="215" fill="#E3F2FD" opacity="0.5"/>
+    
+  <!-- Word breakdown diagram -->
+  <!-- Word: ПЕРЕПИСЧИК -->
+  <text x="250" y="115" font-family="Arial,sans-serif" font-size="14" fill="#1565C0" text-anchor="middle" font-weight="bold">Разбор слова по составу</text>
+  <!-- The word with color-coded parts -->
+  <rect x="100" y="125" rx="3" width="55" height="32" fill="#FF9800" opacity="0.15" stroke="#FF9800" stroke-width="1.2"/>
+  <rect x="155" y="125" rx="3" width="45" height="32" fill="#4CAF50" opacity="0.15" stroke="#4CAF50" stroke-width="1.2"/>
+  <rect x="200" y="125" rx="3" width="65" height="32" fill="#1565C0" opacity="0.15" stroke="#1565C0" stroke-width="1.2"/>
+  <rect x="265" y="125" rx="3" width="55" height="32" fill="#9C27B0" opacity="0.15" stroke="#9C27B0" stroke-width="1.2"/>
+  <rect x="320" y="125" rx="3" width="40" height="32" fill="#EF5350" opacity="0.15" stroke="#EF5350" stroke-width="1.2"/>
+  
+  <text x="127" y="147" font-family="Arial,sans-serif" font-size="16" fill="#E65100" text-anchor="middle" font-weight="bold">пере</text>
+  <text x="177" y="147" font-family="Arial,sans-serif" font-size="16" fill="#2E7D32" text-anchor="middle" font-weight="bold">пис</text>
+  <text x="232" y="147" font-family="Arial,sans-serif" font-size="16" fill="#1565C0" text-anchor="middle" font-weight="bold">ыв</text>
+  <text x="292" y="147" font-family="Arial,sans-serif" font-size="16" fill="#7B1FA2" text-anchor="middle" font-weight="bold">чик</text>
+  <text x="340" y="147" font-family="Arial,sans-serif" font-size="16" fill="#C62828" text-anchor="middle" font-weight="bold">а</text>
+  
+  <!-- Labels -->
+  <text x="127" y="175" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="middle">приставка</text>
+  <text x="177" y="175" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">корень</text>
+  <text x="232" y="175" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">суффикс</text>
+  <text x="292" y="175" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle">суффикс</text>
+  <text x="340" y="175" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle">оконч.</text>
+  
+  <!-- Legend -->
+  <rect x="30" y="195" rx="6" width="440" height="100" fill="#E3F2FD" opacity="0.3" stroke="#42A5F5" stroke-width="0.8"/>
+  <text x="250" y="215" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">Морфемы слова</text>
+  
+  <rect x="50" y="225" rx="3" width="14" height="14" fill="#4CAF50" opacity="0.3" stroke="#4CAF50" stroke-width="1"/>
+  <text x="70" y="236" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32">Корень - главная часть слова</text>
+  
+  <rect x="50" y="247" rx="3" width="14" height="14" fill="#FF9800" opacity="0.3" stroke="#FF9800" stroke-width="1"/>
+  <text x="70" y="258" font-family="Arial,sans-serif" font-size="11" fill="#E65100">Приставка - перед корнем</text>
+  
+  <rect x="260" y="225" rx="3" width="14" height="14" fill="#1565C0" opacity="0.3" stroke="#1565C0" stroke-width="1"/>
+  <text x="280" y="236" font-family="Arial,sans-serif" font-size="11" fill="#1565C0">Суффикс - после корня</text>
+  
+  <rect x="260" y="247" rx="3" width="14" height="14" fill="#EF5350" opacity="0.3" stroke="#EF5350" stroke-width="1"/>
+  <text x="280" y="258" font-family="Arial,sans-serif" font-size="11" fill="#C62828">Окончание - изменяемая часть</text>
+  
+  <text x="250" y="283" font-family="Arial,sans-serif" font-size="10" fill="#42A5F5" text-anchor="middle">Основа = приставка + корень + суффикс</text>
+
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык</text>
 </svg>

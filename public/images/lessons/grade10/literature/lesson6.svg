@@ -11,23 +11,60 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#7B1FA2" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#AB47BC" text-anchor="middle">М.А. Булгаков</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#AB47BC" text-anchor="middle">М.А. Булгаков</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 6</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#AB47BC" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#7B1FA2" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  <rect x="225" y="155" width="50" height="70" rx="3" fill="none" stroke="#AB47BC" stroke-width="2"/><line x1="250" y1="155" x2="250" y2="225" stroke="#AB47BC" stroke-width="1.5" opacity="0.4"/><path d="M230,160 Q250,150 270,160" fill="none" stroke="#7B1FA2" stroke-width="1.5" opacity="0.6"/>
+    <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
+    
+  <!-- Cat (Behemoth) silhouette -->
+  <ellipse cx="130" cy="200" rx="30" ry="25" fill="#AB47BC" opacity="0.12" stroke="#7B1FA2" stroke-width="1.5"/>
+  <!-- Cat ears -->
+  <path d="M105,180 L100,160 L115,175" fill="#AB47BC" opacity="0.12" stroke="#7B1FA2" stroke-width="1.5"/>
+  <path d="M155,180 L160,160 L145,175" fill="#AB47BC" opacity="0.12" stroke="#7B1FA2" stroke-width="1.5"/>
+  <!-- Cat eyes -->
+  <ellipse cx="120" cy="192" rx="5" ry="4" fill="#4CAF50" opacity="0.5"/>
+  <ellipse cx="140" cy="192" rx="5" ry="4" fill="#4CAF50" opacity="0.5"/>
+  <ellipse cx="120" cy="192" rx="2" ry="4" fill="#1B5E20" opacity="0.6"/>
+  <ellipse cx="140" cy="192" rx="2" ry="4" fill="#1B5E20" opacity="0.6"/>
+  <!-- Cat whiskers -->
+  <line x1="108" y1="198" x2="88" y2="195" stroke="#7B1FA2" stroke-width="0.8"/>
+  <line x1="108" y1="202" x2="88" y2="205" stroke="#7B1FA2" stroke-width="0.8"/>
+  <line x1="152" y1="198" x2="172" y2="195" stroke="#7B1FA2" stroke-width="0.8"/>
+  <line x1="152" y1="202" x2="172" y2="205" stroke="#7B1FA2" stroke-width="0.8"/>
+  <!-- Cat tail -->
+  <path d="M160,205 Q180,190 175,170 Q172,160 178,155" fill="none" stroke="#7B1FA2" stroke-width="2"/>
+  <!-- Primus stove (Behemoth's attribute) -->
+  <ellipse cx="130" cy="230" rx="15" ry="5" fill="#7B1FA2" opacity="0.15" stroke="#7B1FA2" stroke-width="1"/>
+  <rect x="122" y="220" width="16" height="10" fill="#AB47BC" opacity="0.15" stroke="#7B1FA2" stroke-width="1"/>
+  <!-- Flame -->
+  <path d="M128,220 Q130,210 132,220" fill="#FF7043" opacity="0.5"/>
+  <path d="M130,220 Q132,208 134,220" fill="#FFC107" opacity="0.4"/>
+  <!-- Tram -->
+  <rect x="280" y="165" rx="5" width="90" height="50" fill="#AB47BC" opacity="0.12" stroke="#7B1FA2" stroke-width="1.5"/>
+  <!-- Windows -->
+  <rect x="290" y="172" width="20" height="18" rx="2" fill="#FFF8E1" opacity="0.5" stroke="#7B1FA2" stroke-width="1"/>
+  <rect x="315" y="172" width="20" height="18" rx="2" fill="#FFF8E1" opacity="0.5" stroke="#7B1FA2" stroke-width="1"/>
+  <rect x="340" y="172" width="20" height="18" rx="2" fill="#FFF8E1" opacity="0.5" stroke="#7B1FA2" stroke-width="1"/>
+  <!-- Tram wheels -->
+  <circle cx="300" cy="218" r="6" fill="#7B1FA2" opacity="0.3" stroke="#7B1FA2" stroke-width="1"/>
+  <circle cx="350" cy="218" r="6" fill="#7B1FA2" opacity="0.3" stroke="#7B1FA2" stroke-width="1"/>
+  <!-- Pantograph -->
+  <line x1="325" y1="165" x2="325" y2="148" stroke="#7B1FA2" stroke-width="1.5"/>
+  <line x1="315" y1="148" x2="335" y2="148" stroke="#7B1FA2" stroke-width="1.5"/>
+  <!-- Tram number -->
+  <text x="325" y="205" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle">302</text>
+  <!-- Rails -->
+  <line x1="270" y1="224" x2="390" y2="224" stroke="#7B1FA2" stroke-width="1.5" opacity="0.4"/>
+  <line x1="270" y1="226" x2="390" y2="226" stroke="#7B1FA2" stroke-width="1.5" opacity="0.4"/>
+  <!-- Key works -->
+  <text x="250" y="100" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Мастер и Маргарита</text>
+  <text x="250" y="118" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Собачье сердце</text>
+  <text x="250" y="136" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Белая гвардия</text>
+  <text x="250" y="270" font-family="Arial,sans-serif" font-size="11" fill="#AB47BC" opacity="0.6">1891-1940</text>
+
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
 </svg>

@@ -11,23 +11,61 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1A237E" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Законы Ньютона</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Законы Ньютона</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 3</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1A237E" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <circle cx="250" cy="190" r="40" fill="none" stroke="#5C6BC0" stroke-width="2"/><line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/><line x1="210" y1="190" x2="290" y2="190" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/><text x="250" y="195" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" text-anchor="middle">F=ma</text>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
+    <!-- Law 1: Inertia -->
+    <rect x="25" y="90" width="150" height="100" rx="5" fill="white" opacity="0.8" stroke="#5C6BC0" stroke-width="1.5"/>
+    <text x="100" y="106" font-family="Arial,sans-serif" font-size="10" fill="#1A237E" font-weight="bold" text-anchor="middle">I закон</text>
+    <!-- Ball moving -->
+    <circle cx="60" cy="145" r="10" fill="#5C6BC0" opacity="0.3" stroke="#5C6BC0" stroke-width="1.5"/>
+    <line x1="72" y1="145" x2="130" y2="145" stroke="#5C6BC0" stroke-width="2"/>
+    <polygon points="130,142 138,145 130,148" fill="#5C6BC0"/>
+    <text x="100" y="178" font-family="Arial,sans-serif" font-size="9" fill="#444" text-anchor="middle">F=0: v=const</text>
+    <text x="100" y="190" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">Инерция</text>
+    <!-- Law 2: F=ma -->
+    <rect x="185" y="90" width="150" height="100" rx="5" fill="white" opacity="0.8" stroke="#5C6BC0" stroke-width="1.5"/>
+    <text x="260" y="106" font-family="Arial,sans-serif" font-size="10" fill="#1A237E" font-weight="bold" text-anchor="middle">II закон</text>
+    <!-- Block with force -->
+    <rect x="210" y="130" width="30" height="25" rx="2" fill="#4CAF50" opacity="0.3" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="225" y="147" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50" text-anchor="middle">m</text>
+    <line x1="242" y1="142" x2="300" y2="142" stroke="#E91E63" stroke-width="2.5"/>
+    <polygon points="300,139 308,142 300,145" fill="#E91E63"/>
+    <text x="265" y="137" font-family="Arial,sans-serif" font-size="10" fill="#E91E63" font-weight="bold">F</text>
+    <line x1="242" y1="155" x2="290" y2="155" stroke="#4CAF50" stroke-width="1.5"/>
+    <polygon points="290,152 298,155 290,158" fill="#4CAF50"/>
+    <text x="265" y="167" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">a</text>
+    <rect x="210" y="175" width="110" height="12" rx="2" fill="#5C6BC0" opacity="0.1"/>
+    <text x="265" y="185" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" text-anchor="middle" font-weight="bold">F = m*a</text>
+    <!-- Law 3: Action-Reaction -->
+    <rect x="345" y="90" width="140" height="100" rx="5" fill="white" opacity="0.8" stroke="#5C6BC0" stroke-width="1.5"/>
+    <text x="415" y="106" font-family="Arial,sans-serif" font-size="10" fill="#1A237E" font-weight="bold" text-anchor="middle">III закон</text>
+    <!-- Two blocks -->
+    <rect x="365" y="128" width="25" height="25" rx="2" fill="#E91E63" opacity="0.3" stroke="#E91E63" stroke-width="1.5"/>
+    <rect x="425" y="128" width="25" height="25" rx="2" fill="#4CAF50" opacity="0.3" stroke="#4CAF50" stroke-width="1.5"/>
+    <!-- Force arrows -->
+    <line x1="392" y1="140" x2="420" y2="140" stroke="#E91E63" stroke-width="2"/>
+    <polygon points="420,137 428,140 420,143" fill="#E91E63"/>
+    <text x="400" y="135" font-family="Arial,sans-serif" font-size="8" fill="#E91E63">F12</text>
+    <line x1="423" y1="145" x2="395" y2="145" stroke="#4CAF50" stroke-width="2"/>
+    <polygon points="395,142 387,145 395,148" fill="#4CAF50"/>
+    <text x="400" y="157" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50">F21</text>
+    <rect x="360" y="175" width="120" height="12" rx="2" fill="#5C6BC0" opacity="0.1"/>
+    <text x="420" y="185" font-family="Arial,sans-serif" font-size="10" fill="#5C6BC0" text-anchor="middle" font-weight="bold">F12 = -F21</text>
+    <!-- Summary -->
+    <rect x="25" y="198" width="460" height="100" rx="5" fill="white" opacity="0.85" stroke="#5C6BC0" stroke-width="1"/>
+    <text x="35" y="216" font-family="Arial,sans-serif" font-size="11" fill="#1A237E" font-weight="bold">Законы Ньютона - основа классической механики:</text>
+    <line x1="35" y1="221" x2="475" y2="221" stroke="#5C6BC0" stroke-width="0.5"/>
+    <text x="35" y="238" font-family="Arial,sans-serif" font-size="10" fill="#444">I: Тело сохраняет покой или равномерное движение, если F=0</text>
+    <text x="35" y="256" font-family="Arial,sans-serif" font-size="10" fill="#444">II: Ускорение тела прямо пропорционально силе и обратно пропорц. массе</text>
+    <text x="35" y="274" font-family="Arial,sans-serif" font-size="10" fill="#444">III: Сила действия равна силе противодействия (направлены противоп.)</text>
+    <text x="35" y="293" font-family="Arial,sans-serif" font-size="9" fill="#888">Инерциальные системы отсчёта (ИСО) - системы, где выполняются законы Ньютона</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика</text>
 </svg>

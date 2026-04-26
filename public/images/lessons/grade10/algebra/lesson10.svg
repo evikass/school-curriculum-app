@@ -11,23 +11,60 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#3F51B5" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Понятие производной</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Понятие производной</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 10</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <path d="M200,160 Q250,120 300,160 Q350,200 300,240 Q250,280 200,240 Q150,200 200,160" fill="none" stroke="#5C6BC0" stroke-width="2.5"/><line x1="180" y1="200" x2="320" y2="200" stroke="#5C6BC0" stroke-width="1" opacity="0.5"/><text x="250" y="208" font-family="Arial,sans-serif" font-size="16" fill="#5C6BC0" text-anchor="middle">f(x)</text>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
+    <!-- Curve f(x) -->
+    <path d="M50,270 Q100,260 140,230 Q170,210 200,190 Q230,172 260,155 Q290,142 320,130 Q350,122 380,118 Q410,116 440,120 Q460,124 480,130" fill="none" stroke="#5C6BC0" stroke-width="2.5"/>
+    <text x="465" y="128" font-family="Arial,sans-serif" font-size="11" fill="#5C6BC0" font-weight="bold">f(x)</text>
+    <!-- Axes -->
+    <line x1="40" y1="290" x2="485" y2="290" stroke="#3F51B5" stroke-width="1"/>
+    <line x1="40" y1="290" x2="40" y2="95" stroke="#3F51B5" stroke-width="1"/>
+    <polygon points="485,287 490,290 485,293" fill="#3F51B5"/>
+    <polygon points="37,95 40,90 43,95" fill="#3F51B5"/>
+    <text x="490" y="285" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5">x</text>
+    <text x="35" y="93" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5">y</text>
+    <!-- Point A on curve -->
+    <circle cx="200" cy="190" r="4" fill="#E91E63"/>
+    <text x="188" y="185" font-family="Arial,sans-serif" font-size="10" fill="#E91E63" font-weight="bold">A</text>
+    <!-- Point B on curve -->
+    <circle cx="320" cy="130" r="4" fill="#4CAF50"/>
+    <text x="308" y="125" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50" font-weight="bold">B</text>
+    <!-- Secant line through A and B -->
+    <line x1="150" y1="217" x2="370" y2="103" stroke="#4CAF50" stroke-width="1.5" stroke-dasharray="5,3"/>
+    <text x="370" y="98" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">Секущая</text>
+    <!-- Tangent line at A -->
+    <line x1="120" y1="226" x2="310" y2="132" stroke="#E91E63" stroke-width="2"/>
+    <text x="280" y="128" font-family="Arial,sans-serif" font-size="9" fill="#E91E63">Касательная</text>
+    <!-- Delta x and delta y arrows -->
+    <line x1="200" y1="240" x2="320" y2="240" stroke="#888" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="260" y="252" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">dx</text>
+    <line x1="320" y1="240" x2="320" y2="130" stroke="#888" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="335" y="190" font-family="Arial,sans-serif" font-size="10" fill="#888">dy</text>
+    <!-- Dashed projections from A -->
+    <line x1="200" y1="190" x2="200" y2="290" stroke="#aaa" stroke-width="0.5" stroke-dasharray="2,3"/>
+    <line x1="320" y1="130" x2="320" y2="290" stroke="#aaa" stroke-width="0.5" stroke-dasharray="2,3"/>
+    <text x="198" y="302" font-family="Arial,sans-serif" font-size="9" fill="#888">x0</text>
+    <text x="318" y="302" font-family="Arial,sans-serif" font-size="9" fill="#888">x0+dx</text>
+    <!-- Definition box -->
+    <rect x="25" y="90" width="200" height="72" rx="5" fill="white" opacity="0.9" stroke="#5C6BC0" stroke-width="1.5"/>
+    <text x="35" y="108" font-family="Arial,sans-serif" font-size="11" fill="#3F51B5" font-weight="bold">Определение:</text>
+    <text x="35" y="126" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" font-weight="bold">f'(x) = lim dy/dx</text>
+    <text x="35" y="145" font-family="Arial,sans-serif" font-size="10" fill="#888">при dx -> 0</text>
+    <text x="35" y="158" font-family="Arial,sans-serif" font-size="9" fill="#888">Секущая -> Касательная</text>
+    <!-- Slope = derivative -->
+    <rect x="25" y="258" width="160" height="40" rx="4" fill="#5C6BC0" opacity="0.1"/>
+    <text x="35" y="275" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5" font-weight="bold">f'(x0) = tg(alpha)</text>
+    <text x="35" y="292" font-family="Arial,sans-serif" font-size="9" fill="#888">угловой коэффициент</text>
+    <!-- Angle alpha -->
+    <path d="M220,230 A25,25 0 0,0 214,218" fill="none" stroke="#E91E63" stroke-width="1.5"/>
+    <text x="230" y="222" font-family="Arial,sans-serif" font-size="11" fill="#E91E63" font-weight="bold">a</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра</text>
 </svg>

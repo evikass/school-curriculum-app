@@ -1,33 +1,71 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#E0F2F1"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#283593"/>
+      <stop offset="0%" stop-color="#00897B"/>
+      <stop offset="100%" stop-color="#00695C"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#283593" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#283593" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Площади поверхностей многогранников</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00897B" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#00897B" text-anchor="middle">Площади поверхностей многогранников</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Геометрия - Урок 9</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#283593" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#00897B" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <polygon points="250,150 300,230 200,230" fill="none" stroke="#5C6BC0" stroke-width="2.5"/><circle cx="250" cy="205" r="20" fill="none" stroke="#283593" stroke-width="1.5" opacity="0.5"/><line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1" opacity="0.3" stroke-dasharray="4,3"/>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
+    <!-- Prism diagram -->
+    <polygon points="45,190 110,190 110,270 45,270" fill="#00897B" opacity="0.12" stroke="#00897B" stroke-width="1.5"/>
+    <polygon points="45,190 80,162 145,162 110,190" fill="#00897B" opacity="0.15" stroke="#00897B" stroke-width="1.5"/>
+    <polygon points="110,190 145,162 145,242 110,270" fill="#00897B" opacity="0.08" stroke="#00897B" stroke-width="1.5"/>
+    <line x1="45" y1="270" x2="80" y2="242" stroke="#00897B" stroke-width="1" stroke-dasharray="3,2" opacity="0.4"/>
+    <line x1="80" y1="242" x2="145" y2="242" stroke="#00897B" stroke-width="1.5"/>
+    <line x1="80" y1="242" x2="80" y2="162" stroke="#00897B" stroke-width="1.5"/>
+    <text x="80" y="285" font-family="Arial,sans-serif" font-size="9" fill="#00695C" text-anchor="middle">Призма</text>
+    <!-- Prism SA formulas -->
+    <rect x="30" y="110" width="140" height="55" rx="4" fill="white" opacity="0.85" stroke="#00897B" stroke-width="1"/>
+    <text x="40" y="126" font-family="Arial,sans-serif" font-size="10" fill="#00695C" font-weight="bold">Призма:</text>
+    <text x="40" y="142" font-family="Arial,sans-serif" font-size="10" fill="#00897B">Sбок = Pосн * H</text>
+    <text x="40" y="158" font-family="Arial,sans-serif" font-size="10" fill="#00897B">Sполн = Sбок + 2*Sосн</text>
+    <!-- Pyramid diagram -->
+    <polygon points="220,270 300,270 330,248 250,248" fill="#00897B" opacity="0.1" stroke="#00897B" stroke-width="1.5"/>
+    <polygon points="220,270 275,140 250,248" fill="#00897B" opacity="0.12" stroke="#00897B" stroke-width="1.5"/>
+    <polygon points="220,270 275,140 300,270" fill="#00897B" opacity="0.18" stroke="#00897B" stroke-width="1.5"/>
+    <polygon points="300,270 275,140 330,248" fill="#00897B" opacity="0.08" stroke="#00897B" stroke-width="1.5"/>
+    <circle cx="275" cy="140" r="2" fill="#E91E63"/>
+    <text x="260" y="285" font-family="Arial,sans-serif" font-size="9" fill="#00695C" text-anchor="middle">Пирамида</text>
+    <!-- Pyramid SA formulas -->
+    <rect x="215" y="110" width="140" height="55" rx="4" fill="white" opacity="0.85" stroke="#00897B" stroke-width="1"/>
+    <text x="225" y="126" font-family="Arial,sans-serif" font-size="10" fill="#00695C" font-weight="bold">Пирамида:</text>
+    <text x="225" y="142" font-family="Arial,sans-serif" font-size="10" fill="#00897B">Sбок = 1/2 * P * l</text>
+    <text x="225" y="158" font-family="Arial,sans-serif" font-size="10" fill="#00897B">Sполн = Sбок + Sосн</text>
+    <!-- Detailed formulas -->
+    <rect x="350" y="90" width="130" height="205" rx="5" fill="white" opacity="0.85" stroke="#00897B" stroke-width="1"/>
+    <text x="360" y="108" font-family="Arial,sans-serif" font-size="11" fill="#00695C" font-weight="bold">Формулы:</text>
+    <line x1="360" y1="113" x2="470" y2="113" stroke="#00897B" stroke-width="0.5"/>
+    <text x="360" y="128" font-family="Arial,sans-serif" font-size="9" fill="#444">Прям. парал-д:</text>
+    <text x="360" y="142" font-family="Arial,sans-serif" font-size="9" fill="#00897B">S=2(ab+bc+ac)</text>
+    <line x1="360" y1="148" x2="470" y2="148" stroke="#eee" stroke-width="0.5"/>
+    <text x="360" y="162" font-family="Arial,sans-serif" font-size="9" fill="#444">Куб:</text>
+    <text x="360" y="176" font-family="Arial,sans-serif" font-size="9" fill="#00897B">S = 6*a^2</text>
+    <line x1="360" y1="182" x2="470" y2="182" stroke="#eee" stroke-width="0.5"/>
+    <text x="360" y="196" font-family="Arial,sans-serif" font-size="9" fill="#444">Прав. пирамида:</text>
+    <text x="360" y="210" font-family="Arial,sans-serif" font-size="9" fill="#00897B">Sбок = 1/2*P*l</text>
+    <text x="360" y="224" font-family="Arial,sans-serif" font-size="9" fill="#444">l - апофема</text>
+    <line x1="360" y1="230" x2="470" y2="230" stroke="#eee" stroke-width="0.5"/>
+    <text x="360" y="244" font-family="Arial,sans-serif" font-size="9" fill="#444">Прав. призма:</text>
+    <text x="360" y="258" font-family="Arial,sans-serif" font-size="9" fill="#00897B">Sбок = Pосн*H</text>
+    <text x="360" y="276" font-family="Arial,sans-serif" font-size="9" fill="#444">Усеч. пирамида:</text>
+    <text x="360" y="290" font-family="Arial,sans-serif" font-size="9" fill="#00897B">Sбок=1/2*(P1+P2)*l</text>
+    <!-- Apothem label on pyramid -->
+    <line x1="275" y1="140" x2="260" y2="270" stroke="#E91E63" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="255" y="210" font-family="Arial,sans-serif" font-size="9" fill="#E91E63">l</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Геометрия</text>
 </svg>

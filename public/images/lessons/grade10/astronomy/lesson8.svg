@@ -1,33 +1,102 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#EDE7F6"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1A237E"/>
-      <stop offset="100%" stop-color="#0D47A1"/>
+      <stop offset="0%" stop-color="#7E57C2"/>
+      <stop offset="100%" stop-color="#4527A0"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1A237E" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#1A237E" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#0D47A1" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#0D47A1" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#1A237E" text-anchor="middle">Галактики</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7E57C2" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#7E57C2" text-anchor="middle">Галактики</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Астрономия - Урок 8</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#1A237E" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#1A237E" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#0D47A1" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#7E57C2" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <circle cx="250" cy="190" r="40" fill="none" stroke="#1A237E" stroke-width="2"/><circle cx="250" cy="190" r="15" fill="#1A237E" opacity="0.3"/><ellipse cx="250" cy="190" rx="60" ry="12" fill="none" stroke="#0D47A1" stroke-width="1.5" opacity="0.5"/><circle cx="210" cy="160" r="3" fill="#1A237E" opacity="0.6"/><circle cx="290" cy="175" r="2" fill="#1A237E" opacity="0.4"/><circle cx="275" cy="220" r="2.5" fill="#0D47A1" opacity="0.5"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.3"/>
+    
+    <!-- Three galaxy types -->
+    
+    <!-- Spiral galaxy -->
+    <rect x="20" y="90" width="150" height="105" rx="4" fill="#E8EAF6" stroke="#7E57C2" stroke-width="1"/>
+    <text x="95" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4527A0" text-anchor="middle">Спиральная</text>
+    <!-- Spiral arms -->
+    <circle cx="95" cy="148" r="8" fill="#FDD835" stroke="#F9A825" stroke-width="1"/>
+    <!-- Spiral arms as paths -->
+    <path d="M95,140 C85,125 65,130 60,145 C55,160 70,170 90,165 C110,160 120,140 110,125 C100,110 80,108 70,120" fill="none" stroke="#7E57C2" stroke-width="2" opacity="0.6"/>
+    <path d="M95,140 C105,125 125,130 130,145 C135,160 120,170 100,165 C80,160 70,140 80,125 C90,110 110,108 120,120" fill="none" stroke="#7E57C2" stroke-width="2" opacity="0.6"/>
+    <!-- Small dots for stars -->
+    <circle cx="60" cy="145" r="1" fill="white"/>
+    <circle cx="130" cy="145" r="1" fill="white"/>
+    <circle cx="80" cy="120" r="0.8" fill="white"/>
+    <circle cx="110" cy="120" r="0.8" fill="white"/>
+    <text x="95" y="182" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Млечный Путь</text>
+    <text x="95" y="192" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">Sb/c тип</text>
+    
+    <!-- Elliptical galaxy -->
+    <rect x="180" y="90" width="140" height="105" rx="4" fill="#E8EAF6" stroke="#7E57C2" stroke-width="1"/>
+    <text x="250" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4527A0" text-anchor="middle">Эллиптическая</text>
+    <ellipse cx="250" cy="150" rx="40" ry="25" fill="#D1C4E9" stroke="#7E57C2" stroke-width="1.5"/>
+    <!-- Star dots -->
+    <circle cx="235" cy="145" r="1.2" fill="#FDD835" opacity="0.7"/>
+    <circle cx="260" cy="155" r="1" fill="#FDD835" opacity="0.7"/>
+    <circle cx="250" cy="140" r="1.5" fill="#FDD835" opacity="0.6"/>
+    <circle cx="245" cy="160" r="1" fill="#FDD835" opacity="0.6"/>
+    <circle cx="265" cy="145" r="1.2" fill="#FDD835" opacity="0.5"/>
+    <circle cx="230" cy="152" r="0.8" fill="#FDD835" opacity="0.5"/>
+    <circle cx="270" cy="152" r="0.8" fill="#FDD835" opacity="0.5"/>
+    <text x="250" y="182" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Старые звёзды</text>
+    <text x="250" y="192" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">Мало газа и пыли</text>
+    
+    <!-- Irregular galaxy -->
+    <rect x="330" y="90" width="150" height="105" rx="4" fill="#E8EAF6" stroke="#7E57C2" stroke-width="1"/>
+    <text x="405" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4527A0" text-anchor="middle">Неправильная</text>
+    <path d="M375,135 C380,125 395,120 405,128 C415,136 420,150 410,158 C400,166 385,165 380,155 C375,145 370,140 375,135" fill="#E1BEE7" stroke="#7E57C2" stroke-width="1.5"/>
+    <circle cx="390" cy="140" r="1.5" fill="#42A5F5" opacity="0.7"/>
+    <circle cx="400" cy="148" r="1" fill="#FDD835" opacity="0.7"/>
+    <circle cx="395" cy="155" r="1.2" fill="#EF5350" opacity="0.7"/>
+    <text x="405" y="182" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Большое Магелл.</text>
+    <text x="405" y="192" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">Облако (LMC)</text>
+    
+    <!-- Milky Way info -->
+    <rect x="20" y="202" width="225" height="98" rx="3" fill="#F3E5F5" stroke="#7E57C2" stroke-width="1"/>
+    <text x="132" y="218" font-family="Arial,sans-serif" font-size="11" fill="#4527A0" text-anchor="middle">Млечный Путь</text>
+    <text x="132" y="233" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Тип: спиральная с перемычкой</text>
+    <text x="132" y="245" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Диаметр: ~100 000 св. лет</text>
+    <text x="132" y="257" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Звёзд: 200-400 млрд</text>
+    <text x="132" y="269" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Солнце: 26 000 св.л. от центра</text>
+    <text x="132" y="281" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Ядро: сверхмассивн. чёрн. дыра</text>
+    <text x="132" y="293" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Возраст: ~13.6 млрд лет</text>
+    
+    <!-- Galaxy classification -->
+    <rect x="255" y="202" width="225" height="98" rx="3" fill="#F3E5F5" stroke="#7E57C2" stroke-width="1"/>
+    <text x="367" y="218" font-family="Arial,sans-serif" font-size="10" fill="#4527A0" text-anchor="middle">Классификация Хаббла</text>
+    <!-- Tuning fork diagram simplified -->
+    <!-- Ellipticals -->
+    <ellipse cx="290" cy="240" rx="15" ry="10" fill="#D1C4E9" stroke="#7E57C2" stroke-width="0.8"/>
+    <text x="290" y="258" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">E0</text>
+    <ellipse cx="325" cy="240" rx="18" ry="8" fill="#D1C4E9" stroke="#7E57C2" stroke-width="0.8"/>
+    <text x="325" y="258" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">E7</text>
+    <!-- Spiral -->
+    <path d="M355,235 C365,228 375,235 370,245 C365,255 355,252 355,245" fill="none" stroke="#7E57C2" stroke-width="1.5"/>
+    <circle cx="363" cy="240" r="3" fill="#FDD835"/>
+    <text x="363" y="258" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Sa</text>
+    <!-- Barred spiral -->
+    <line x1="395" y1="240" x2="415" y2="240" stroke="#7E57C2" stroke-width="2"/>
+    <path d="M415,240 C420,230 425,235 420,240" fill="none" stroke="#7E57C2" stroke-width="1"/>
+    <path d="M395,240 C390,230 385,235 390,240" fill="none" stroke="#7E57C2" stroke-width="1"/>
+    <text x="405" y="258" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">SBa</text>
+    
+    <!-- Irregular note -->
+    <text x="440" y="240" font-family="Arial,sans-serif" font-size="8" fill="#4527A0" text-anchor="middle">Irr</text>
+    
+    <text x="367" y="278" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Hubble: E-S0-Sa-Sb-Sc</text>
+    <text x="367" y="290" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">SBa-SBb-SBc (с перемычкой)</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#1A237E" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#1A237E" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Астрономия</text>
 </svg>

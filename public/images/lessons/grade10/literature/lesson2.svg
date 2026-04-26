@@ -11,23 +11,47 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#7B1FA2" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#7B1FA2" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#AB47BC" text-anchor="middle">М.Ю. Лермонтов</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#AB47BC" text-anchor="middle">М.Ю. Лермонтов</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 2</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#AB47BC" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#7B1FA2" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
-  <rect x="225" y="155" width="50" height="70" rx="3" fill="none" stroke="#AB47BC" stroke-width="2"/><line x1="250" y1="155" x2="250" y2="225" stroke="#AB47BC" stroke-width="1.5" opacity="0.4"/><path d="M230,160 Q250,150 270,160" fill="none" stroke="#7B1FA2" stroke-width="1.5" opacity="0.6"/>
+    <rect x="15" y="85" width="470" height="215" fill="#F3E5F5" opacity="0.5"/>
+    
+  <!-- Mountain landscape (Caucasus) -->
+  <path d="M30,250 L100,140 L130,170 L180,110 L220,160 L260,120 L300,155 L350,100 L400,145 L440,130 L470,250 Z" fill="#7B1FA2" opacity="0.12"/>
+  <path d="M30,250 L80,180 L120,200 L160,165 L200,190 L240,155 L280,180 L330,140 L380,175 L420,160 L470,250 Z" fill="#AB47BC" opacity="0.1"/>
+  <!-- Snow caps -->
+  <path d="M175,115 L180,110 L185,115" fill="white" opacity="0.6"/>
+  <path d="M345,105 L350,100 L355,105" fill="white" opacity="0.6"/>
+  <path d="M256,125 L260,120 L264,125" fill="white" opacity="0.5"/>
+  <!-- Dagger -->
+  <line x1="70" y1="120" x2="70" y2="175" stroke="#5D4037" stroke-width="2.5"/>
+  <path d="M62,120 L70,100 L78,120" fill="#9E9E9E" stroke="#616161" stroke-width="1"/>
+  <line x1="60" y1="120" x2="80" y2="120" stroke="#5D4037" stroke-width="3"/>
+  <line x1="65" y1="140" x2="75" y2="140" stroke="#9E9E9E" stroke-width="0.5" opacity="0.5"/>
+  <line x1="65" y1="150" x2="75" y2="150" stroke="#9E9E9E" stroke-width="0.5" opacity="0.5"/>
+  <!-- Portrait silhouette -->
+  <ellipse cx="400" cy="140" rx="22" ry="28" fill="#AB47BC" opacity="0.12"/>
+  <path d="M378,140 Q378,115 400,110 Q422,115 422,140" fill="none" stroke="#AB47BC" stroke-width="1.8"/>
+  <line x1="400" y1="168" x2="400" y2="210" stroke="#AB47BC" stroke-width="1.8"/>
+  <!-- Military uniform collar -->
+  <path d="M388,168 L400,175 L412,168" fill="none" stroke="#7B1FA2" stroke-width="1.5"/>
+  <!-- Key works -->
+  <text x="250" y="100" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Мцыри</text>
+  <text x="250" y="118" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Герой нашего времени</text>
+  <text x="250" y="136" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Смерть поэта</text>
+  <text x="250" y="154" font-family="Georgia,serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-style="italic">Парус</text>
+  <!-- Clouds -->
+  <ellipse cx="150" cy="95" rx="25" ry="8" fill="#AB47BC" opacity="0.08"/>
+  <ellipse cx="300" cy="90" rx="20" ry="6" fill="#7B1FA2" opacity="0.08"/>
+  <text x="400" y="230" font-family="Arial,sans-serif" font-size="11" fill="#AB47BC" opacity="0.6">1814-1841</text>
+  <!-- Eagle -->
+  <path d="M330,190 Q340,180 350,185 Q360,180 370,190" fill="none" stroke="#7B1FA2" stroke-width="1.5"/>
+  <path d="M330,190 Q325,195 330,200" fill="none" stroke="#7B1FA2" stroke-width="1"/>
+  <path d="M370,190 Q375,195 370,200" fill="none" stroke="#7B1FA2" stroke-width="1"/>
+
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#AB47BC" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
 </svg>

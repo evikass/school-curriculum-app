@@ -11,23 +11,83 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF7043" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#D84315" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#D84315" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FF7043" text-anchor="middle">Теория строения органических сое...</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#FF7043" text-anchor="middle">Теория строения органических соединений</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 2</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#FF7043" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FF7043" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#D84315" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FBE9E7" opacity="0.5"/>
-  <path d="M225,155 L225,195 L210,230 L290,230 L275,195 L275,155 Z" fill="none" stroke="#FF7043" stroke-width="2"/><line x1="220" y1="155" x2="280" y2="155" stroke="#FF7043" stroke-width="2.5"/><circle cx="240" cy="210" r="6" fill="#FF7043" opacity="0.4"/><circle cx="260" cy="215" r="8" fill="#D84315" opacity="0.3"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#FFF8F0" opacity="0.5"/>
+    
+    <!-- Butlerov theory box -->
+    <rect x="20" y="90" width="460" height="32" rx="5" fill="#FFE0B2" stroke="#D84315" stroke-width="1"/>
+    <text x="250" y="110" font-family="Arial,sans-serif" font-size="13" fill="#D84315" text-anchor="middle">Теория А.М. Бутлерова (1861)</text>
+    
+    <!-- Three principles -->
+    <rect x="25" y="130" width="140" height="55" rx="4" fill="#FFCCBC" stroke="#FF7043" stroke-width="1"/>
+    <text x="95" y="148" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">Атомы в молекуле</text>
+    <text x="95" y="160" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">соединены в опред.</text>
+    <text x="95" y="172" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">порядке (структура)</text>
+    
+    <rect x="175" y="130" width="150" height="55" rx="4" fill="#FFCCBC" stroke="#FF7043" stroke-width="1"/>
+    <text x="250" y="148" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">Свойства зависят</text>
+    <text x="250" y="160" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">от химического</text>
+    <text x="250" y="172" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">строения</text>
+    
+    <rect x="335" y="130" width="140" height="55" rx="4" fill="#FFCCBC" stroke="#FF7043" stroke-width="1"/>
+    <text x="405" y="148" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">Изомерия: разное</text>
+    <text x="405" y="160" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">строение = разные</text>
+    <text x="405" y="172" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">свойства</text>
+    
+    <!-- Structural formulas - Butane vs Isobutane (Isomerism) -->
+    <text x="130" y="205" font-family="Arial,sans-serif" font-size="11" fill="#D84315" text-anchor="middle">Бутан (н-бутан)</text>
+    <text x="370" y="205" font-family="Arial,sans-serif" font-size="11" fill="#D84315" text-anchor="middle">Изобутан (2-метилпропан)</text>
+    
+    <!-- n-Butane: C-C-C-C straight chain -->
+    <circle cx="60" cy="235" r="13" fill="#333" opacity="0.85"/>
+    <text x="60" y="240" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <circle cx="105" cy="235" r="13" fill="#333" opacity="0.85"/>
+    <text x="105" y="240" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <circle cx="150" cy="235" r="13" fill="#333" opacity="0.85"/>
+    <text x="150" y="240" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <circle cx="195" cy="235" r="13" fill="#333" opacity="0.85"/>
+    <text x="195" y="240" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <line x1="73" y1="235" x2="92" y2="235" stroke="#555" stroke-width="2.5"/>
+    <line x1="118" y1="235" x2="137" y2="235" stroke="#555" stroke-width="2.5"/>
+    <line x1="163" y1="235" x2="182" y2="235" stroke="#555" stroke-width="2.5"/>
+    <!-- H labels -->
+    <text x="60" y="258" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">H3C</text>
+    <text x="105" y="258" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">CH2</text>
+    <text x="150" y="258" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">CH2</text>
+    <text x="195" y="258" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">CH3</text>
+    
+    <!-- Isobutane: branched chain -->
+    <circle cx="280" cy="235" r="13" fill="#333" opacity="0.85"/>
+    <text x="280" y="240" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <circle cx="325" cy="235" r="13" fill="#333" opacity="0.85"/>
+    <text x="325" y="240" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <circle cx="370" cy="235" r="13" fill="#333" opacity="0.85"/>
+    <text x="370" y="240" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <circle cx="325" cy="205" r="13" fill="#333" opacity="0.85"/>
+    <text x="325" y="210" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <line x1="293" y1="235" x2="312" y2="235" stroke="#555" stroke-width="2.5"/>
+    <line x1="338" y1="235" x2="357" y2="235" stroke="#555" stroke-width="2.5"/>
+    <line x1="325" y1="222" x2="325" y2="218" stroke="#555" stroke-width="2.5"/>
+    <text x="280" y="258" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">H3C</text>
+    <text x="325" y="258" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">CH</text>
+    <text x="370" y="258" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">CH3</text>
+    <text x="340" y="203" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">CH3</text>
+    
+    <!-- Equals / isomer sign -->
+    <text x="230" y="240" font-family="Arial,sans-serif" font-size="16" fill="#FF7043" text-anchor="middle">&lt;=&gt;</text>
+    <text x="230" y="255" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">C4H10</text>
+    
+    <!-- Bottom formula box -->
+    <rect x="50" y="273" width="180" height="22" rx="3" fill="#FFF3E0" stroke="#FF7043" stroke-width="1"/>
+    <text x="140" y="288" font-family="Arial,sans-serif" font-size="10" fill="#D84315" text-anchor="middle">Та же мол. формула!</text>
+    <rect x="270" y="273" width="180" height="22" rx="3" fill="#FFF3E0" stroke="#FF7043" stroke-width="1"/>
+    <text x="360" y="288" font-family="Arial,sans-serif" font-size="10" fill="#D84315" text-anchor="middle">Разное строение!</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FF7043" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FF7043" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Химия</text>
 </svg>

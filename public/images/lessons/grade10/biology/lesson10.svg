@@ -11,23 +11,117 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#66BB6A" text-anchor="middle">Генетика человека</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Генетика человека</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 10</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#66BB6A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#2E7D32" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  <circle cx="250" cy="190" r="35" fill="none" stroke="#66BB6A" stroke-width="2"/><circle cx="250" cy="190" r="25" fill="none" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/><circle cx="240" cy="180" r="8" fill="#66BB6A" opacity="0.5"/><circle cx="262" cy="198" r="6" fill="#2E7D32" opacity="0.4"/><ellipse cx="250" cy="190" rx="12" ry="35" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.4"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
+    
+    <!-- Human karyotype - simplified -->
+    <text x="140" y="100" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Кариотип человека 2n=46</text>
+    
+    <!-- 23 pairs of chromosomes (simplified representation) -->
+    <!-- Autosomes rows -->
+    <!-- Row 1: pairs 1-6 -->
+    <rect x="25" y="112" width="230" height="22" rx="2" fill="#E3F2FD"/>
+    <!-- Simple chromosome pair representations -->
+    <line x1="35" y1="118" x2="35" y2="128" stroke="#42A5F5" stroke-width="2.5"/>
+    <line x1="40" y1="118" x2="40" y2="128" stroke="#42A5F5" stroke-width="2.5"/>
+    <line x1="55" y1="119" x2="55" y2="127" stroke="#42A5F5" stroke-width="2.5"/>
+    <line x1="60" y1="119" x2="60" y2="127" stroke="#42A5F5" stroke-width="2.5"/>
+    <line x1="75" y1="120" x2="75" y2="126" stroke="#42A5F5" stroke-width="2"/>
+    <line x1="80" y1="120" x2="80" y2="126" stroke="#42A5F5" stroke-width="2"/>
+    <line x1="95" y1="120" x2="95" y2="125" stroke="#42A5F5" stroke-width="2"/>
+    <line x1="100" y1="120" x2="100" y2="125" stroke="#42A5F5" stroke-width="2"/>
+    <line x1="115" y1="121" x2="115" y2="125" stroke="#42A5F5" stroke-width="1.5"/>
+    <line x1="120" y1="121" x2="120" y2="125" stroke="#42A5F5" stroke-width="1.5"/>
+    <line x1="135" y1="121" x2="135" y2="124" stroke="#42A5F5" stroke-width="1.5"/>
+    <line x1="140" y1="121" x2="140" y2="124" stroke="#42A5F5" stroke-width="1.5"/>
+    
+    <!-- Row 2: pairs 7-12 -->
+    <rect x="25" y="138" width="230" height="22" rx="2" fill="#E8F5E9"/>
+    <line x1="35" y1="144" x2="35" y2="154" stroke="#66BB6A" stroke-width="2.5"/>
+    <line x1="40" y1="144" x2="40" y2="154" stroke="#66BB6A" stroke-width="2.5"/>
+    <line x1="55" y1="145" x2="55" y2="153" stroke="#66BB6A" stroke-width="2"/>
+    <line x1="60" y1="145" x2="60" y2="153" stroke="#66BB6A" stroke-width="2"/>
+    <line x1="75" y1="146" x2="75" y2="152" stroke="#66BB6A" stroke-width="2"/>
+    <line x1="80" y1="146" x2="80" y2="152" stroke="#66BB6A" stroke-width="2"/>
+    <line x1="95" y1="146" x2="95" y2="151" stroke="#66BB6A" stroke-width="1.5"/>
+    <line x1="100" y1="146" x2="100" y2="151" stroke="#66BB6A" stroke-width="1.5"/>
+    <line x1="115" y1="147" x2="115" y2="150" stroke="#66BB6A" stroke-width="1.5"/>
+    <line x1="120" y1="147" x2="120" y2="150" stroke="#66BB6A" stroke-width="1.5"/>
+    <line x1="135" y1="147" x2="135" y2="150" stroke="#66BB6A" stroke-width="1.5"/>
+    <line x1="140" y1="147" x2="140" y2="150" stroke="#66BB6A" stroke-width="1.5"/>
+    
+    <!-- Row 3: pairs 13-18 -->
+    <rect x="25" y="164" width="230" height="22" rx="2" fill="#FFF3E0"/>
+    <line x1="35" y1="170" x2="35" y2="180" stroke="#FFA726" stroke-width="2"/>
+    <line x1="40" y1="170" x2="40" y2="180" stroke="#FFA726" stroke-width="2"/>
+    <line x1="55" y1="171" x2="55" y2="179" stroke="#FFA726" stroke-width="2"/>
+    <line x1="60" y1="171" x2="60" y2="179" stroke="#FFA726" stroke-width="2"/>
+    <line x1="75" y1="172" x2="75" y2="178" stroke="#FFA726" stroke-width="1.5"/>
+    <line x1="80" y1="172" x2="80" y2="178" stroke="#FFA726" stroke-width="1.5"/>
+    <line x1="95" y1="172" x2="95" y2="177" stroke="#FFA726" stroke-width="1.5"/>
+    <line x1="100" y1="172" x2="100" y2="177" stroke="#FFA726" stroke-width="1.5"/>
+    <line x1="115" y1="173" x2="115" y2="176" stroke="#FFA726" stroke-width="1.5"/>
+    <line x1="120" y1="173" x2="120" y2="176" stroke="#FFA726" stroke-width="1.5"/>
+    <line x1="135" y1="173" x2="135" y2="176" stroke="#FFA726" stroke-width="1.5"/>
+    <line x1="140" y1="173" x2="140" y2="176" stroke="#FFA726" stroke-width="1.5"/>
+    
+    <!-- Row 4: pairs 19-22 + sex -->
+    <rect x="25" y="190" width="230" height="22" rx="2" fill="#F3E5F5"/>
+    <line x1="35" y1="196" x2="35" y2="206" stroke="#AB47BC" stroke-width="2"/>
+    <line x1="40" y1="196" x2="40" y2="206" stroke="#AB47BC" stroke-width="2"/>
+    <line x1="55" y1="197" x2="55" y2="205" stroke="#AB47BC" stroke-width="1.5"/>
+    <line x1="60" y1="197" x2="60" y2="205" stroke="#AB47BC" stroke-width="1.5"/>
+    <line x1="75" y1="198" x2="75" y2="204" stroke="#AB47BC" stroke-width="1.5"/>
+    <line x1="80" y1="198" x2="80" y2="204" stroke="#AB47BC" stroke-width="1.5"/>
+    <line x1="95" y1="198" x2="95" y2="203" stroke="#AB47BC" stroke-width="1.5"/>
+    <line x1="100" y1="198" x2="100" y2="203" stroke="#AB47BC" stroke-width="1.5"/>
+    <!-- Sex chromosomes XX -->
+    <line x1="130" y1="196" x2="130" y2="206" stroke="#EF5350" stroke-width="2.5"/>
+    <line x1="137" y1="196" x2="137" y2="206" stroke="#EF5350" stroke-width="2.5"/>
+    <text x="155" y="203" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle">XX</text>
+    
+    <!-- Sex determination (right) -->
+    <rect x="270" y="110" width="220" height="70" rx="4" fill="#F1F8E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="380" y="126" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Определение пола</text>
+    
+    <!-- Mother XX -->
+    <text x="310" y="148" font-family="Arial,sans-serif" font-size="10" fill="#EF5350" text-anchor="middle">XX</text>
+    <text x="310" y="160" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">мать</text>
+    <text x="340" y="152" font-family="Arial,sans-serif" font-size="11" fill="#555">x</text>
+    <!-- Father XY -->
+    <text x="370" y="148" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">XY</text>
+    <text x="370" y="160" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">отец</text>
+    
+    <!-- Offspring -->
+    <text x="440" y="138" font-family="Arial,sans-serif" font-size="9" fill="#EF5350" text-anchor="middle">XX</text>
+    <text x="440" y="150" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">XY</text>
+    <text x="440" y="163" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">1:1</text>
+    
+    <!-- Genetic diseases -->
+    <rect x="270" y="190" width="220" height="100" rx="4" fill="#FFEBEE" stroke="#EF5350" stroke-width="1"/>
+    <text x="380" y="206" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle">Генетические заболевания</text>
+    
+    <!-- Autosomal dominant -->
+    <rect x="280" y="215" width="200" height="18" rx="2" fill="#FFCDD2"/>
+    <text x="380" y="228" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Аутосомно-домин.: хондродистрофия</text>
+    
+    <!-- Autosomal recessive -->
+    <rect x="280" y="236" width="200" height="18" rx="2" fill="#FFCDD2"/>
+    <text x="380" y="249" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Аутосомно-рец.: фенилкетонурия</text>
+    
+    <!-- X-linked -->
+    <rect x="280" y="257" width="200" height="18" rx="2" fill="#FFCDD2"/>
+    <text x="380" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Сцепленные с X: дальтонизм, гемофилия</text>
+    
+    <!-- Chromosomal -->
+    <rect x="280" y="278" width="200" height="10" rx="2" fill="#FFCDD2"/>
+    <text x="380" y="287" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Хромосомные: синдр.Дауна (трисомия 21)</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
 </svg>
