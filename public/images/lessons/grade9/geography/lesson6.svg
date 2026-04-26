@@ -1,37 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E0F2F1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Отраслевая структура хозяйства</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/>
-    <ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
+  <!-- Lesson number badge -->
+  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
+  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">6</text>
+  <!-- Title -->
+  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Отраслевая структура хозяйства</text>
+  <!-- Decorative line -->
+  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- Definition -->
+  <rect x="15" y="62" width="470" height="30" rx="6" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+  <text x="25" y="77" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">ХОЗЯЙСТВО (ЭКОНОМИКА)</text>
+  <text x="185" y="77" font-family="Arial,sans-serif" font-size="9" fill="#333">— совокупность отраслей, обеспечивающих производство товаров и услуг</text>
+  <!-- Three sectors diagram -->
+  <g transform="translate(15, 97)">
+    <rect x="0" y="0" width="155" height="130" rx="8" fill="#FFFFFF" stroke="#4CAF50" stroke-width="1"/>
+    <rect x="0" y="0" width="155" height="20" rx="8" fill="#4CAF50" opacity="0.2"/>
+    <rect x="0" y="10" width="155" height="10" fill="#4CAF50" opacity="0.2"/>
+    <text x="77" y="15" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C" text-anchor="middle">I СЕКТОР</text>
+    <text x="77" y="33" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#388E3C" text-anchor="middle">Первичный</text>
+    <!-- Icons -->
+    <circle cx="35" cy="55" r="14" fill="#4CAF50" opacity="0.15"/>
+    <text x="35" y="59" font-family="Arial,sans-serif" font-size="11" fill="#388E3C" text-anchor="middle">⛏</text>
+    <text x="55" y="59" font-family="Arial,sans-serif" font-size="8" fill="#333">Добыча</text>
+    <circle cx="35" cy="80" r="14" fill="#4CAF50" opacity="0.15"/>
+    <text x="35" y="84" font-family="Arial,sans-serif" font-size="11" fill="#388E3C" text-anchor="middle">🌾</text>
+    <text x="55" y="84" font-family="Arial,sans-serif" font-size="8" fill="#333">С/хозяйство</text>
+    <circle cx="35" cy="105" r="14" fill="#4CAF50" opacity="0.15"/>
+    <text x="35" y="109" font-family="Arial,sans-serif" font-size="11" fill="#388E3C" text-anchor="middle">🌲</text>
+    <text x="55" y="109" font-family="Arial,sans-serif" font-size="8" fill="#333">Лесное хоз.</text>
+    <text x="77" y="126" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">~10% ВВП</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
+  <g transform="translate(175, 97)">
+    <rect x="0" y="0" width="155" height="130" rx="8" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+    <rect x="0" y="0" width="155" height="20" rx="8" fill="#1976D2" opacity="0.2"/>
+    <rect x="0" y="10" width="155" height="10" fill="#1976D2" opacity="0.2"/>
+    <text x="77" y="15" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle">II СЕКТОР</text>
+    <text x="77" y="33" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Вторичный</text>
+    <circle cx="35" cy="55" r="14" fill="#1976D2" opacity="0.15"/>
+    <text x="35" y="59" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle">🏭</text>
+    <text x="55" y="59" font-family="Arial,sans-serif" font-size="8" fill="#333">Обрабатыв.</text>
+    <circle cx="35" cy="80" r="14" fill="#1976D2" opacity="0.15"/>
+    <text x="35" y="84" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle">⚙</text>
+    <text x="55" y="84" font-family="Arial,sans-serif" font-size="8" fill="#333">Машиностр.</text>
+    <circle cx="35" cy="105" r="14" fill="#1976D2" opacity="0.15"/>
+    <text x="35" y="109" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle">⚡</text>
+    <text x="55" y="109" font-family="Arial,sans-serif" font-size="8" fill="#333">Энергетика</text>
+    <text x="77" y="126" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">~30% ВВП</text>
+  </g>
+  <g transform="translate(335, 97)">
+    <rect x="0" y="0" width="155" height="130" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+    <rect x="0" y="0" width="155" height="20" rx="8" fill="#26A69A" opacity="0.2"/>
+    <rect x="0" y="10" width="155" height="10" fill="#26A69A" opacity="0.2"/>
+    <text x="77" y="15" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#00796B" text-anchor="middle">III СЕКТОР</text>
+    <text x="77" y="33" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#00796B" text-anchor="middle">Третичный</text>
+    <circle cx="35" cy="55" r="14" fill="#26A69A" opacity="0.15"/>
+    <text x="35" y="59" font-family="Arial,sans-serif" font-size="11" fill="#00796B" text-anchor="middle">🏥</text>
+    <text x="55" y="59" font-family="Arial,sans-serif" font-size="8" fill="#333">Услуги</text>
+    <circle cx="35" cy="80" r="14" fill="#26A69A" opacity="0.15"/>
+    <text x="35" y="84" font-family="Arial,sans-serif" font-size="11" fill="#00796B" text-anchor="middle">🚂</text>
+    <text x="55" y="84" font-family="Arial,sans-serif" font-size="8" fill="#333">Транспорт</text>
+    <circle cx="35" cy="105" r="14" fill="#26A69A" opacity="0.15"/>
+    <text x="35" y="109" font-family="Arial,sans-serif" font-size="11" fill="#00796B" text-anchor="middle">💻</text>
+    <text x="55" y="109" font-family="Arial,sans-serif" font-size="8" fill="#333">Информатика</text>
+    <text x="77" y="126" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">~60% ВВП</text>
+  </g>
+  <!-- GDP structure pie -->
+  <rect x="15" y="233" width="230" height="107" rx="6" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
+  <text x="130" y="250" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">СТРУКТУРА ВВП РОССИИ</text>
+  <circle cx="80" cy="290" r="30" fill="#4CAF50" opacity="0.3"/>
+  <path d="M80,290 L80,260 A30,30 0 0,1 106,305 Z" fill="#1976D2" opacity="0.5"/>
+  <path d="M80,290 L106,305 A30,30 0 1,1 80,260 Z" fill="#26A69A" opacity="0.5"/>
+  <text x="75" y="282" font-family="Arial,sans-serif" font-size="8" fill="#333">I</text>
+  <text x="92" y="296" font-family="Arial,sans-serif" font-size="8" fill="#FFF">II</text>
+  <text x="65" y="302" font-family="Arial,sans-serif" font-size="8" fill="#FFF">III</text>
+  <!-- Legend -->
+  <rect x="125" y="264" width="8" height="8" rx="1" fill="#4CAF50" opacity="0.5"/>
+  <text x="138" y="272" font-family="Arial,sans-serif" font-size="8" fill="#333">I сектор ~10%</text>
+  <rect x="125" y="278" width="8" height="8" rx="1" fill="#1976D2" opacity="0.5"/>
+  <text x="138" y="286" font-family="Arial,sans-serif" font-size="8" fill="#333">II сектор ~30%</text>
+  <rect x="125" y="292" width="8" height="8" rx="1" fill="#26A69A" opacity="0.5"/>
+  <text x="138" y="300" font-family="Arial,sans-serif" font-size="8" fill="#333">III сектор ~60%</text>
+  <text x="130" y="318" font-family="Arial,sans-serif" font-size="7" fill="#666">Рост третичного сектора —</text>
+  <text x="130" y="328" font-family="Arial,sans-serif" font-size="7" fill="#666">признак постиндустриальной</text>
+  <text x="130" y="338" font-family="Arial,sans-serif" font-size="7" fill="#666">экономики</text>
+  <!-- Key points -->
+  <rect x="255" y="233" width="230" height="107" rx="6" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+  <text x="265" y="250" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">ОСОБЕННОСТИ РФ:</text>
+  <text x="265" y="265" font-family="Arial,sans-serif" font-size="8" fill="#333">• Сырьевая направленность</text>
+  <text x="265" y="278" font-family="Arial,sans-serif" font-size="8" fill="#333">• Топливно-энергетический</text>
+  <text x="275" y="289" font-family="Arial,sans-serif" font-size="8" fill="#333">комплекс — основа экспорта</text>
+  <text x="265" y="302" font-family="Arial,sans-serif" font-size="8" fill="#333">• Территориальное разделение</text>
+  <text x="275" y="313" font-family="Arial,sans-serif" font-size="8" fill="#333">труда между районами</text>
+  <text x="265" y="326" font-family="Arial,sans-serif" font-size="8" fill="#333">• Рост сферы услуг и IT</text>
+  <text x="265" y="339" font-family="Arial,sans-serif" font-size="8" fill="#333">• Необходимость модернизации</text>
 </svg>

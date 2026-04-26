@@ -1,37 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E0F2F1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Европейский Север и Юг</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 11</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/>
-    <ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
+  <!-- Lesson number badge -->
+  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
+  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">11</text>
+  <!-- Title -->
+  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Европейский Север и Юг</text>
+  <!-- Decorative line -->
+  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- European North -->
+  <g transform="translate(15, 62)">
+    <rect x="0" y="0" width="235" height="135" rx="8" fill="#FFFFFF" stroke="#1565C0" stroke-width="1"/>
+    <rect x="0" y="0" width="235" height="20" rx="8" fill="#1565C0" opacity="0.15"/>
+    <rect x="0" y="10" width="235" height="10" fill="#1565C0" opacity="0.15"/>
+    <text x="117" y="15" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle">ЕВРОПЕЙСКИЙ СЕВЕР</text>
+    <text x="10" y="33" font-family="Arial,sans-serif" font-size="8" fill="#333">Архангельская, Вологодская, Мурманская обл.,</text>
+    <text x="10" y="43" font-family="Arial,sans-serif" font-size="8" fill="#333">Республики: Карелия, Коми</text>
+    <text x="10" y="57" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0">Ресурсы:</text>
+    <text x="70" y="57" font-family="Arial,sans-serif" font-size="8" fill="#333">апатиты, нефть, лес, рыба</text>
+    <text x="10" y="70" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0">Отрасли:</text>
+    <text x="10" y="82" font-family="Arial,sans-serif" font-size="8" fill="#333">• Лесная и ЦБП (Архангельск)</text>
+    <text x="10" y="93" font-family="Arial,sans-serif" font-size="8" fill="#333">• Чёрная металлургия (Череповец)</text>
+    <text x="10" y="104" font-family="Arial,sans-serif" font-size="8" fill="#333">• Рыбная (Мурманск)</text>
+    <text x="10" y="115" font-family="Arial,sans-serif" font-size="8" fill="#333">• Нефтяная (Усинск, Воркута)</text>
+    <text x="10" y="128" font-family="Arial,sans-serif" font-size="7" fill="#999">Мурманск — незамерзающий порт, база СФ</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
+  <!-- European South -->
+  <g transform="translate(260, 62)">
+    <rect x="0" y="0" width="225" height="135" rx="8" fill="#FFFFFF" stroke="#E65100" stroke-width="1"/>
+    <rect x="0" y="0" width="225" height="20" rx="8" fill="#E65100" opacity="0.15"/>
+    <rect x="0" y="10" width="225" height="10" fill="#E65100" opacity="0.15"/>
+    <text x="112" y="15" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">ЕВРОПЕЙСКИЙ ЮГ</text>
+    <text x="10" y="33" font-family="Arial,sans-serif" font-size="8" fill="#333">Краснодарский и Ставропольский края,</text>
+    <text x="10" y="43" font-family="Arial,sans-serif" font-size="8" fill="#333">Ростовская обл., республики Сев. Кавказа</text>
+    <text x="10" y="57" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100">Ресурсы:</text>
+    <text x="70" y="57" font-family="Arial,sans-serif" font-size="8" fill="#333">агроклимат., рекреац., нефть</text>
+    <text x="10" y="70" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100">Отрасли:</text>
+    <text x="10" y="82" font-family="Arial,sans-serif" font-size="8" fill="#333">• АПК — житница России</text>
+    <text x="10" y="93" font-family="Arial,sans-serif" font-size="8" fill="#333">• Пшеница, подсолнечник, виноград</text>
+    <text x="10" y="104" font-family="Arial,sans-serif" font-size="8" fill="#333">• Машиностроение (Ростов-на-Дону)</text>
+    <text x="10" y="115" font-family="Arial,sans-serif" font-size="8" fill="#333">• Курорты (Сочи, КМВ)</text>
+    <text x="10" y="128" font-family="Arial,sans-serif" font-size="7" fill="#999">Многонациональность — особенность района</text>
+  </g>
+  <!-- Comparison -->
+  <rect x="15" y="203" width="470" height="137" rx="6" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
+  <text x="250" y="220" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">СРАВНИТЕЛЬНАЯ ХАРАКТЕРИСТИКА</text>
+  <!-- Comparison table -->
+  <line x1="250" y1="228" x2="250" y2="332" stroke="#80CBC4" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="132" y="240" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">СЕВЕР</text>
+  <text x="368" y="240" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">ЮГ</text>
+  <text x="25" y="255" font-family="Arial,sans-serif" font-size="8" fill="#333">Климат: суровый, долгая зима</text>
+  <text x="265" y="255" font-family="Arial,sans-serif" font-size="8" fill="#333">Климат: тёплый, короткая зима</text>
+  <text x="25" y="268" font-family="Arial,sans-serif" font-size="8" fill="#333">Плотность: 4 чел/км²</text>
+  <text x="265" y="268" font-family="Arial,sans-serif" font-size="8" fill="#333">Плотность: 50+ чел/км²</text>
+  <text x="25" y="281" font-family="Arial,sans-serif" font-size="8" fill="#333">Специализация: лес, металл, рыба</text>
+  <text x="265" y="281" font-family="Arial,sans-serif" font-size="8" fill="#333">Специализация: с/х, курорты</text>
+  <text x="25" y="294" font-family="Arial,sans-serif" font-size="8" fill="#333">Проблема: отток населения</text>
+  <text x="265" y="294" font-family="Arial,sans-serif" font-size="8" fill="#333">Проблема: безработица на Кавказе</text>
+  <text x="25" y="307" font-family="Arial,sans-serif" font-size="8" fill="#333">Порт: Мурманск (незамерзающий)</text>
+  <text x="265" y="307" font-family="Arial,sans-serif" font-size="8" fill="#333">Порты: Новороссийск, Сочи</text>
+  <text x="25" y="322" font-family="Arial,sans-serif" font-size="8" fill="#333">Транспорт: Северный морской путь</text>
+  <text x="265" y="322" font-family="Arial,sans-serif" font-size="8" fill="#333">Транспорт: трубопроводы к Чёрному морю</text>
+  <!-- Summary footer -->
+  <rect x="15" y="338" width="470" height="5" rx="2" fill="#26A69A" opacity="0.3"/>
+  <text x="250" y="346" font-family="Arial,sans-serif" font-size="7" fill="#00796B" text-anchor="middle">Контраст Севера и Юга — отражение широтной зональности и исторического развития</text>
 </svg>

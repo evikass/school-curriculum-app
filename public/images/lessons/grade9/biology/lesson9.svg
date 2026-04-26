@@ -1,38 +1,87 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#66BB6A"/>
-      <stop offset="100%" stop-color="#2E7D32"/>
+    <filter id="shadow9" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000033"/>
+    </filter>
+    <linearGradient id="bookGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EF5350"/>
+      <stop offset="100%" stop-color="#C62828"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#66BB6A" text-anchor="middle">Охрана природы и биоразнообразия</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 9</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#66BB6A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#2E7D32" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="35" fill="none" stroke="#66BB6A" stroke-width="2"/>
-    <circle cx="250" cy="190" r="25" fill="none" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-    <circle cx="240" cy="180" r="8" fill="#66BB6A" opacity="0.5"/>
-    <circle cx="262" cy="198" r="6" fill="#2E7D32" opacity="0.4"/>
-    <ellipse cx="250" cy="190" rx="12" ry="35" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.4"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="#E8F5E9"/>
+  <rect x="0" y="0" width="500" height="52" rx="12" fill="#388E3C"/>
+  <rect x="0" y="20" width="500" height="32" fill="#388E3C"/>
+  <!-- Header -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="white">Урок 9: Охрана природы и биоразнообразия</text>
+
+  <!-- Red Book -->
+  <rect x="15" y="60" width="155" height="140" rx="8" fill="white" opacity="0.9" filter="url(#shadow9)"/>
+  <text x="92" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#C62828">Красная книга</text>
+  <line x1="25" y1="84" x2="160" y2="84" stroke="#FFCDD2" stroke-width="1"/>
+  <!-- Book icon -->
+  <rect x="35" y="92" width="55" height="45" rx="4" fill="url(#bookGrad)" filter="url(#shadow9)"/>
+  <text x="62" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white">КРАСНАЯ</text>
+  <text x="62" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white">КНИГА</text>
+  <!-- Categories -->
+  <rect x="25" y="142" width="8" height="8" rx="1" fill="#000000"/>
+  <text x="38" y="150" font-family="Arial,sans-serif" font-size="8" fill="#333">Исчезающие</text>
+  <rect x="25" y="155" width="8" height="8" rx="1" fill="#FF0000"/>
+  <text x="38" y="163" font-family="Arial,sans-serif" font-size="8" fill="#333">Сокращающиеся</text>
+  <rect x="25" y="168" width="8" height="8" rx="1" fill="#FFA000"/>
+  <text x="38" y="176" font-family="Arial,sans-serif" font-size="8" fill="#333">Редкие виды</text>
+  <rect x="25" y="181" width="8" height="8" rx="1" fill="#FFD54F"/>
+  <text x="38" y="189" font-family="Arial,sans-serif" font-size="8" fill="#333">Неопределённые</text>
+  <rect x="25" y="194" width="8" height="8" rx="1" fill="#81C784"/>
+  <text x="38" y="202" font-family="Arial,sans-serif" font-size="8" fill="#333">Восстанавливаемые</text>
+
+  <!-- Biodiversity -->
+  <rect x="180" y="60" width="305" height="70" rx="8" fill="white" opacity="0.9" filter="url(#shadow9)"/>
+  <text x="332" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Биоразнообразие</text>
+  <line x1="190" y1="84" x2="475" y2="84" stroke="#A5D6A7" stroke-width="1"/>
+  <text x="190" y="99" font-family="Arial,sans-serif" font-size="9" fill="#333">Разнообразие жизни на всех уровнях:</text>
+  <text x="190" y="113" font-family="Arial,sans-serif" font-size="9" fill="#388E3C">• Генетическое — разнообразие генов</text>
+  <text x="190" y="126" font-family="Arial,sans-serif" font-size="9" fill="#388E3C">• Видовое — число видов организмов</text>
+  <text x="190" y="126" font-family="Arial,sans-serif" font-size="1" fill="transparent">.</text>
+
+  <!-- Protected areas -->
+  <rect x="180" y="138" width="305" height="62" rx="8" fill="white" opacity="0.9" filter="url(#shadow9)"/>
+  <text x="332" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Охраняемые территории</text>
+  <line x1="190" y1="161" x2="475" y2="161" stroke="#A5D6A7" stroke-width="1"/>
+  <!-- Types -->
+  <rect x="190" y="167" width="70" height="16" rx="3" fill="#2E7D32"/>
+  <text x="225" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="white">Заповедник</text>
+  <rect x="265" y="167" width="65" height="16" rx="3" fill="#43A047"/>
+  <text x="297" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="white">Заказник</text>
+  <rect x="335" y="167" width="60" height="16" rx="3" fill="#66BB6A"/>
+  <text x="365" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="white">Национальн. парк</text>
+  <rect x="400" y="167" width="75" height="16" rx="3" fill="#A5D6A7"/>
+  <text x="437" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Памятник прир.</text>
+  <text x="190" y="196" font-family="Arial,sans-serif" font-size="7.5" fill="#388E3C" font-style="italic">Заповедник — полный запрет хозяйственной деятельности</text>
+
+  <!-- Ecosystem diversity -->
+  <rect x="15" y="208" width="230" height="75" rx="8" fill="white" opacity="0.9" filter="url(#shadow9)"/>
+  <text x="130" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Экосистемное разнообразие</text>
+  <line x1="25" y1="231" x2="235" y2="231" stroke="#A5D6A7" stroke-width="1"/>
+  <text x="25" y="246" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Леса, степи, пустыни, тундра</text>
+  <text x="25" y="259" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Морские и пресноводные экосистемы</text>
+  <text x="25" y="272" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Болота, горы, коралловые рифы</text>
+  <text x="25" y="280" font-family="Arial,sans-serif" font-size="7.5" fill="#C62828" font-style="italic">Утрата местообитаний — главная угроза</text>
+
+  <!-- Environmental protection measures -->
+  <rect x="255" y="208" width="230" height="75" rx="8" fill="white" opacity="0.9" filter="url(#shadow9)"/>
+  <text x="370" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Меры охраны природы</text>
+  <line x1="265" y1="231" x2="475" y2="231" stroke="#A5D6A7" stroke-width="1"/>
+  <text x="265" y="246" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Создание ООПТ (особо охраняемые)</text>
+  <text x="265" y="259" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Красная книга РФ и МСОП</text>
+  <text x="265" y="272" font-family="Arial,sans-serif" font-size="8.5" fill="#333">• Банков генов, зоопарки, ботанич. сады</text>
+  <text x="265" y="280" font-family="Arial,sans-serif" font-size="7.5" fill="#2E7D32" font-style="italic">Конвенция о биоразнообразии (1992, Рио)</text>
+
+  <!-- Bottom bar: global significance -->
+  <rect x="15" y="290" width="470" height="52" rx="8" fill="white" opacity="0.9" filter="url(#shadow9)"/>
+  <text x="250" y="308" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828">Почему важно сохранять биоразнообразие?</text>
+  <line x1="25" y1="314" x2="475" y2="314" stroke="#FFCDD2" stroke-width="1"/>
+  <text x="25" y="328" font-family="Arial,sans-serif" font-size="8.5" fill="#333">1. Стабильность экосистем зависит от числа видов</text>
+  <text x="250" y="339" text-anchor="middle" font-family="Arial,sans-serif" font-size="8.5" fill="#333">2. Каждый вид уникален и невосполним</text>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="1" fill="transparent">.</text>
 </svg>

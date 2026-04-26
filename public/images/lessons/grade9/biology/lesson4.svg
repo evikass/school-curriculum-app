@@ -1,38 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#66BB6A"/>
-      <stop offset="100%" stop-color="#2E7D32"/>
-    </linearGradient>
+    <filter id="shadow4" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000033"/>
+    </filter>
+    <radialGradient id="geneGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A5D6A7"/>
+      <stop offset="100%" stop-color="#388E3C"/>
+    </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#66BB6A" text-anchor="middle">Основные понятия генетики</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 4</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#66BB6A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#2E7D32" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="35" fill="none" stroke="#66BB6A" stroke-width="2"/>
-    <circle cx="250" cy="190" r="25" fill="none" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-    <circle cx="240" cy="180" r="8" fill="#66BB6A" opacity="0.5"/>
-    <circle cx="262" cy="198" r="6" fill="#2E7D32" opacity="0.4"/>
-    <ellipse cx="250" cy="190" rx="12" ry="35" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.4"/>
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="#E8F5E9"/>
+  <rect x="0" y="0" width="500" height="52" rx="12" fill="#388E3C"/>
+  <rect x="0" y="20" width="500" height="32" fill="#388E3C"/>
+  <!-- Header -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="white">Урок 4: Основные понятия генетики</text>
+
+  <!-- DNA double helix diagram -->
+  <g transform="translate(80,120)">
+    <!-- Simplified DNA structure -->
+    <path d="M0,0 Q15,15 30,0 Q45,-15 60,0 Q75,15 90,0 Q105,-15 120,0" fill="none" stroke="#1B5E20" stroke-width="3"/>
+    <path d="M0,12 Q15,-3 30,12 Q45,27 60,12 Q75,-3 90,12 Q105,27 120,12" fill="none" stroke="#81C784" stroke-width="3"/>
+    <!-- Rungs connecting the strands -->
+    <line x1="15" y1="7" x2="15" y2="5" stroke="#FFC107" stroke-width="2"/>
+    <line x1="30" y1="2" x2="30" y2="10" stroke="#FF7043" stroke-width="2"/>
+    <line x1="45" y1="5" x2="45" y2="14" stroke="#42A5F5" stroke-width="2"/>
+    <line x1="60" y1="10" x2="60" y2="2" stroke="#AB47BC" stroke-width="2"/>
+    <line x1="75" y1="7" x2="75" y2="16" stroke="#FFC107" stroke-width="2"/>
+    <line x1="90" y1="2" x2="90" y2="10" stroke="#FF7043" stroke-width="2"/>
+    <line x1="105" y1="5" x2="105" y2="14" stroke="#42A5F5" stroke-width="2"/>
+    <!-- Labels -->
+    <text x="60" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#388E3C">ДНК — носитель генетич. информации</text>
+    <text x="0" y="-10" font-family="Arial,sans-serif" font-size="7" fill="#555">А-Т, Г-Ц (комплементарные пары)</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
+
+  <!-- Key terms panel -->
+  <rect x="15" y="165" width="155" height="105" rx="8" fill="white" opacity="0.9" filter="url(#shadow4)"/>
+  <text x="92" y="182" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Ключевые термины</text>
+  <line x1="25" y1="188" x2="160" y2="188" stroke="#A5D6A7" stroke-width="1"/>
+  <text x="25" y="202" font-family="Arial,sans-serif" font-size="8.5" fill="#333"><tspan font-weight="bold" fill="#388E3C">Ген</tspan> — участок ДНК</text>
+  <text x="25" y="215" font-family="Arial,sans-serif" font-size="8.5" fill="#333"><tspan font-weight="bold" fill="#388E3C">Аллель</tspan> — вариант гена</text>
+  <text x="25" y="228" font-family="Arial,sans-serif" font-size="8.5" fill="#333"><tspan font-weight="bold" fill="#388E3C">Генотип</tspan> — набор генов</text>
+  <text x="25" y="241" font-family="Arial,sans-serif" font-size="8.5" fill="#333"><tspan font-weight="bold" fill="#388E3C">Фенотип</tspan> — признаки</text>
+  <text x="25" y="254" font-family="Arial,sans-serif" font-size="8.5" fill="#333"><tspan font-weight="bold" fill="#388E3C">Локус</tspan> — место гена</text>
+  <text x="25" y="267" font-family="Arial,sans-serif" font-size="8.5" fill="#333"><tspan font-weight="bold" fill="#388E3C">Кариотип</tspan> — набор хромосом</text>
+
+  <!-- Dominance diagram -->
+  <rect x="180" y="165" width="305" height="105" rx="8" fill="white" opacity="0.9" filter="url(#shadow4)"/>
+  <text x="332" y="182" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Доминирование и рецессивность</text>
+  <line x1="190" y1="188" x2="475" y2="188" stroke="#A5D6A7" stroke-width="1"/>
+  <!-- Dominant allele -->
+  <rect x="195" y="195" width="70" height="30" rx="6" fill="#388E3C"/>
+  <text x="230" y="207" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">Доминантный</text>
+  <text x="230" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white">A</text>
+  <!-- Recessive allele -->
+  <rect x="275" y="195" width="70" height="30" rx="6" fill="#FFCC80" stroke="#F57F17" stroke-width="1"/>
+  <text x="310" y="207" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#E65100">Рецессивный</text>
+  <text x="310" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#E65100">a</text>
+  <!-- Genotype boxes -->
+  <rect x="195" y="233" width="55" height="30" rx="5" fill="#C8E6C9" stroke="#66BB6A" stroke-width="1"/>
+  <text x="222" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">AA</text>
+  <rect x="258" y="233" width="55" height="30" rx="5" fill="#C8E6C9" stroke="#66BB6A" stroke-width="1"/>
+  <text x="285" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Aa</text>
+  <rect x="321" y="233" width="55" height="30" rx="5" fill="#FFCC80" stroke="#F57F17" stroke-width="1"/>
+  <text x="348" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#E65100">aa</text>
+  <!-- Labels below -->
+  <text x="222" y="272" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="#388E3C">Гомозигота дом.</text>
+  <text x="285" y="272" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="#388E3C">Гетерозигота</text>
+  <text x="348" y="272" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="#E65100">Гомозигота рек.</text>
+  <!-- Phenotype labels -->
+  <text x="222" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="1" fill="transparent">.</text>
+  <!-- Phenotype = dominant for AA and Aa -->
+  <rect x="385" y="238" width="90" height="22" rx="4" fill="#66BB6A" opacity="0.2"/>
+  <text x="430" y="253" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#388E3C">Фенотип: домин.</text>
+  <rect x="385" y="240" width="90" height="22" rx="4" fill="#FFF3E0" opacity="0.8"/>
+  <text x="430" y="266" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#E65100">Фенотип: рецесс.</text>
+
+  <!-- Mendel info -->
+  <rect x="15" y="280" width="470" height="60" rx="8" fill="white" opacity="0.9" filter="url(#shadow4)"/>
+  <text x="250" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Г. Мендель — основоположник генетики (1865)</text>
+  <line x1="25" y1="304" x2="475" y2="304" stroke="#A5D6A7" stroke-width="1"/>
+  <text x="25" y="318" font-family="Arial,sans-serif" font-size="9" fill="#333">1-й закон: единообразие гибридов первого поколения (AA + aa → Aa — доминантный признак)</text>
+  <text x="25" y="331" font-family="Arial,sans-serif" font-size="9" fill="#333">2-й закон: расщепление во втором поколении (Aa × Aa → 1AA:2Aa:1aa, фенотип 3:1)</text>
 </svg>

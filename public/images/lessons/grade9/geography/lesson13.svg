@@ -1,37 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E0F2F1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Дальний Восток</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 13</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/>
-    <ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
+  <!-- Lesson number badge -->
+  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
+  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">13</text>
+  <!-- Title -->
+  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Дальний Восток</text>
+  <!-- Decorative line -->
+  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- Overview -->
+  <rect x="15" y="62" width="470" height="35" rx="6" fill="#1565C0" opacity="0.1"/>
+  <text x="250" y="78" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle">Дальневосточный ФО — 11 субъектов, центр — Владивосток</text>
+  <text x="250" y="90" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Самый большой округ (6,2 млн км²), но самый малонаселённый (8 млн чел.)</text>
+  <!-- Map scheme -->
+  <g transform="translate(15, 102)">
+    <rect x="0" y="0" width="230" height="125" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+    <text x="115" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">СУБЪЕКТЫ ОКРУГА</text>
+    <!-- Regions -->
+    <rect x="10" y="25" width="105" height="20" rx="3" fill="#26A69A" opacity="0.15"/>
+    <text x="62" y="38" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Приморский край</text>
+    <rect x="120" y="25" width="105" height="20" rx="3" fill="#26A69A" opacity="0.15"/>
+    <text x="172" y="38" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Хабаровский край</text>
+    <rect x="10" y="48" width="105" height="20" rx="3" fill="#26A69A" opacity="0.15"/>
+    <text x="62" y="61" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Амурская обл.</text>
+    <rect x="120" y="48" width="105" height="20" rx="3" fill="#26A69A" opacity="0.15"/>
+    <text x="172" y="61" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Камчатский край</text>
+    <rect x="10" y="71" width="105" height="20" rx="3" fill="#26A69A" opacity="0.15"/>
+    <text x="62" y="84" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Магаданская обл.</text>
+    <rect x="120" y="71" width="105" height="20" rx="3" fill="#26A69A" opacity="0.15"/>
+    <text x="172" y="84" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Сахалинская обл.</text>
+    <rect x="10" y="94" width="105" height="20" rx="3" fill="#26A69A" opacity="0.15"/>
+    <text x="62" y="107" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Якутия (Саха)</text>
+    <rect x="120" y="94" width="105" height="20" rx="3" fill="#26A69A" opacity="0.15"/>
+    <text x="172" y="107" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Чукотский АО</text>
+    <rect x="10" y="117" width="215" height="6" rx="2" fill="#26A69A" opacity="0.1"/>
+    <text x="115" y="123" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Еврейская АО | Охотское море | Тихий океан</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
+  <!-- Resources and economy -->
+  <g transform="translate(255, 102)">
+    <rect x="0" y="0" width="230" height="125" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+    <text x="115" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">РЕСУРСЫ И ХОЗЯЙСТВО</text>
+    <text x="10" y="33" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">Природные ресурсы:</text>
+    <text x="10" y="45" font-family="Arial,sans-serif" font-size="8" fill="#333">• Алмазы (Якутия — Мирный)</text>
+    <text x="10" y="56" font-family="Arial,sans-serif" font-size="8" fill="#333">• Золото (Колыма, Чукотка)</text>
+    <text x="10" y="67" font-family="Arial,sans-serif" font-size="8" fill="#333">• Нефть и газ (Сахалинский шельф)</text>
+    <text x="10" y="78" font-family="Arial,sans-serif" font-size="8" fill="#333">• Рыба (Охотское море)</text>
+    <text x="10" y="89" font-family="Arial,sans-serif" font-size="8" fill="#333">• Лес (хвойные породы)</text>
+    <text x="10" y="104" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">Специализация:</text>
+    <text x="10" y="115" font-family="Arial,sans-serif" font-size="8" fill="#333">Добыча и экспорт, рыболовство, ВПК</text>
+    <rect x="10" y="120" width="210" height="4" rx="2" fill="#26A69A" opacity="0.2"/>
+    <text x="115" y="131" font-family="Arial,sans-serif" font-size="6" fill="#00796B" text-anchor="middle">Владивосток — главный порт Тихоокеанского флота</text>
+  </g>
+  <!-- Key points -->
+  <rect x="15" y="233" width="470" height="107" rx="6" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
+  <text x="250" y="250" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">ОСОБЕННОСТИ И ПРОБЛЕМЫ</text>
+  <text x="25" y="266" font-family="Arial,sans-serif" font-size="9" fill="#333">• Сухопутные границы с Китаем, КНДР; морские — с Японией, США</text>
+  <text x="25" y="280" font-family="Arial,sans-serif" font-size="9" fill="#333">• Транспорт: Транссиб, БАМ, Северный морской путь, морские порты</text>
+  <text x="25" y="294" font-family="Arial,sans-serif" font-size="9" fill="#333">• Проблема: огромная территория при низкой плотности (1,3 чел/км²)</text>
+  <text x="25" y="308" font-family="Arial,sans-serif" font-size="9" fill="#333">• Опережающее развитие (ТОР) — льготы для инвесторов</text>
+  <text x="25" y="322" font-family="Arial,sans-serif" font-size="9" fill="#333">• Поворот к Азии: «Сила Сибири», мост на Сахалин, развитие портов</text>
+  <text x="25" y="336" font-family="Arial,sans-serif" font-size="8" fill="#00796B">• Ключевые порты: Владивосток, Находка, Ванино, Восточный</text>
+  <text x="25" y="348" font-family="Arial,sans-serif" font-size="8" fill="#00796B">• Свободный порт Владивосток — особый режим для бизнеса</text>
+  <!-- Summary footer -->
+  <rect x="15" y="355" width="470" height="2" rx="1" fill="#26A69A" opacity="0.3"/>
+  <text x="250" y="360" font-family="Arial,sans-serif" font-size="6" fill="#00796B" text-anchor="middle">Дальний Восток — ворота России в Азиатско-Тихоокеанский регион</text>
 </svg>

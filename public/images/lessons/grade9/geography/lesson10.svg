@@ -1,37 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E0F2F1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Центральная Россия</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 10</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/>
-    <ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
+  <!-- Lesson number badge -->
+  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
+  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">10</text>
+  <!-- Title -->
+  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Центральная Россия</text>
+  <!-- Decorative line -->
+  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- Overview -->
+  <rect x="15" y="62" width="470" height="35" rx="6" fill="#26A69A" opacity="0.15"/>
+  <text x="250" y="78" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">Центральный федеральный округ — 18 субъектов, центр — Москва</text>
+  <text x="250" y="90" font-family="Arial,sans-serif" font-size="8" fill="#00796B" text-anchor="middle">Историческое, политическое и экономическое ядро России</text>
+  <!-- Map diagram -->
+  <g transform="translate(15, 102)">
+    <rect x="0" y="0" width="230" height="130" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+    <text x="115" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">ОСОБЕННОСТИ РАЙОНА</text>
+    <text x="10" y="33" font-family="Arial,sans-serif" font-size="8" fill="#333">• Площадь: 650 тыс. км² (~3,8% РФ)</text>
+    <text x="10" y="45" font-family="Arial,sans-serif" font-size="8" fill="#333">• Население: ~40 млн чел. (27% РФ)</text>
+    <text x="10" y="57" font-family="Arial,sans-serif" font-size="8" fill="#333">• Максимальная плотность: 61 чел/км²</text>
+    <text x="10" y="69" font-family="Arial,sans-serif" font-size="8" fill="#333">• Городское население: ~82%</text>
+    <text x="10" y="84" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">Природные ресурсы:</text>
+    <text x="10" y="96" font-family="Arial,sans-serif" font-size="8" fill="#333">• Бедны полезными ископаемыми</text>
+    <text x="10" y="108" font-family="Arial,sans-serif" font-size="8" fill="#333">• КМА — железная руда (Курск)</text>
+    <text x="10" y="120" font-family="Arial,sans-serif" font-size="8" fill="#333">• Фосфориты, торф, стройматериалы</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
+  <!-- Economy structure -->
+  <g transform="translate(255, 102)">
+    <rect x="0" y="0" width="230" height="130" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+    <text x="115" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">ХОЗЯЙСТВО</text>
+    <!-- Industry sectors -->
+    <rect x="10" y="25" width="210" height="22" rx="4" fill="#26A69A" opacity="0.1"/>
+    <text x="15" y="37" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">Машиностроение:</text>
+    <text x="110" y="37" font-family="Arial,sans-serif" font-size="8" fill="#333">автомобили, станки, приборы</text>
+    <rect x="10" y="50" width="210" height="22" rx="4" fill="#26A69A" opacity="0.1"/>
+    <text x="15" y="62" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">Химическая:</text>
+    <text x="90" y="62" font-family="Arial,sans-serif" font-size="8" fill="#333">удобрения, пластмассы, лаки</text>
+    <rect x="10" y="75" width="210" height="22" rx="4" fill="#26A69A" opacity="0.1"/>
+    <text x="15" y="87" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">Лёгкая:</text>
+    <text x="60" y="87" font-family="Arial,sans-serif" font-size="8" fill="#333">текстиль (Иваново), обувь</text>
+    <rect x="10" y="100" width="210" height="22" rx="4" fill="#26A69A" opacity="0.1"/>
+    <text x="15" y="112" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">Пищевая:</text>
+    <text x="72" y="112" font-family="Arial,sans-serif" font-size="8" fill="#333">крупнейший потребитель</text>
+    <!-- Factor note -->
+    <text x="115" y="127" font-family="Arial,sans-serif" font-size="7" fill="#00796B" text-anchor="middle">Главный фактор: потребительский и научный</text>
+  </g>
+  <!-- Cities -->
+  <rect x="15" y="238" width="470" height="102" rx="6" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
+  <text x="250" y="255" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">КРУПНЕЙШИЕ ГОРОДА И ИХ СПЕЦИАЛИЗАЦИЯ</text>
+  <!-- City cards -->
+  <rect x="25" y="262" width="85" height="30" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
+  <text x="67" y="274" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">Москва</text>
+  <text x="67" y="286" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Машиностр., наука</text>
+  <rect x="118" y="262" width="85" height="30" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
+  <text x="160" y="274" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">С.-Петербург</text>
+  <text x="160" y="286" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Судостроен., оптика</text>
+  <rect x="211" y="262" width="85" height="30" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
+  <text x="253" y="274" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">Н. Новгород</text>
+  <text x="253" y="286" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Автомобилестроен.</text>
+  <rect x="304" y="262" width="85" height="30" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
+  <text x="346" y="274" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">Воронеж</text>
+  <text x="346" y="286" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Авиа, электроника</text>
+  <rect x="397" y="262" width="78" height="30" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
+  <text x="436" y="274" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">Ярославль</text>
+  <text x="436" y="286" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Моторостроен.</text>
+  <!-- Problems -->
+  <text x="25" y="308" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">ПРОБЛЕМЫ:</text>
+  <text x="90" y="308" font-family="Arial,sans-serif" font-size="8" fill="#333">Старение населения, экологическая нагрузка, транспортная перегруженность, дефицит ресурсов</text>
+  <text x="25" y="322" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">ПЕРСПЕКТИВЫ:</text>
+  <text x="100" y="322" font-family="Arial,sans-serif" font-size="8" fill="#333">Наукоёмкие производства, IT-кластеры, развитие транспортных хабов</text>
 </svg>

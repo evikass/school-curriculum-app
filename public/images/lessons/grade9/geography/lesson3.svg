@@ -1,37 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E0F2F1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Численность и размещение населения</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/>
-    <ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
+  <!-- Lesson number badge -->
+  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
+  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+  <!-- Title -->
+  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Численность и размещение населения</text>
+  <!-- Decorative line -->
+  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- Key stat -->
+  <rect x="15" y="62" width="470" height="30" rx="6" fill="#26A69A" opacity="0.15"/>
+  <text x="250" y="82" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#26A69A" text-anchor="middle">Население России: ~146 млн чел. (2024)</text>
+  <!-- Population density map concept -->
+  <g transform="translate(15, 98)">
+    <rect x="0" y="0" width="235" height="130" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+    <text x="117" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">ПЛОТНОСТЬ НАСЕЛЕНИЯ</text>
+    <!-- Density zones -->
+    <rect x="10" y="25" width="80" height="25" rx="4" fill="#26A69A" opacity="0.8"/>
+    <text x="50" y="38" font-family="Arial,sans-serif" font-size="7" fill="#FFF" text-anchor="middle">Европейская</text>
+    <text x="50" y="47" font-family="Arial,sans-serif" font-size="7" fill="#FFF" text-anchor="middle">часть</text>
+    <rect x="95" y="25" width="60" height="25" rx="4" fill="#80CBC4"/>
+    <text x="125" y="42" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Урал</text>
+    <rect x="160" y="25" width="65" height="25" rx="4" fill="#E0E0E0"/>
+    <text x="192" y="38" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Сибирь и</text>
+    <text x="192" y="47" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Д. Восток</text>
+    <!-- Density values -->
+    <text x="50" y="65" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#26A69A" text-anchor="middle">27 чел/км²</text>
+    <text x="125" y="65" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#00796B" text-anchor="middle">8 чел/км²</text>
+    <text x="192" y="65" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#999" text-anchor="middle">2 чел/км²</text>
+    <!-- Bar chart -->
+    <text x="117" y="85" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">Ср. плотность: 8,57 чел/км²</text>
+    <rect x="15" y="92" width="205" height="8" rx="3" fill="#EEEEEE"/>
+    <rect x="15" y="92" width="120" height="8" rx="3" fill="#26A69A" opacity="0.7"/>
+    <rect x="15" y="103" width="205" height="8" rx="3" fill="#EEEEEE"/>
+    <rect x="15" y="103" width="35" height="8" rx="3" fill="#80CBC4"/>
+    <rect x="15" y="114" width="205" height="8" rx="3" fill="#EEEEEE"/>
+    <rect x="15" y="114" width="9" height="8" rx="3" fill="#BDBDBD"/>
+    <text x="225" y="99" font-family="Arial,sans-serif" font-size="7" fill="#666">Европа</text>
+    <text x="225" y="110" font-family="Arial,sans-serif" font-size="7" fill="#666">Урал</text>
+    <text x="225" y="121" font-family="Arial,sans-serif" font-size="7" fill="#666">Азия</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
+  <!-- Urban vs Rural -->
+  <g transform="translate(260, 98)">
+    <rect x="0" y="0" width="225" height="130" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+    <text x="112" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">ГОРОДСКОЕ И СЕЛЬСКОЕ</text>
+    <!-- Pie chart approximation -->
+    <circle cx="80" cy="70" r="35" fill="#26A69A" opacity="0.2"/>
+    <path d="M80,70 L80,35 A35,35 0 0,1 108,90 Z" fill="#26A69A" opacity="0.8"/>
+    <text x="85" y="58" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#FFF" text-anchor="middle">74%</text>
+    <text x="70" y="82" font-family="Arial,sans-serif" font-size="9" fill="#00796B" text-anchor="middle">26%</text>
+    <!-- Legend -->
+    <rect x="130" y="42" width="12" height="10" rx="2" fill="#26A69A" opacity="0.8"/>
+    <text x="148" y="51" font-family="Arial,sans-serif" font-size="9" fill="#333">Городское</text>
+    <rect x="130" y="60" width="12" height="10" rx="2" fill="#26A69A" opacity="0.2"/>
+    <text x="148" y="69" font-family="Arial,sans-serif" font-size="9" fill="#333">Сельское</text>
+    <!-- Largest cities -->
+    <text x="112" y="100" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">Крупнейшие города:</text>
+    <text x="112" y="112" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Москва (13 млн) | С.-Петербург (5,6 млн)</text>
+    <text x="112" y="123" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Новосибирск (1,6 млн) | Екатеринбург (1,5 млн)</text>
+  </g>
+  <!-- Key facts -->
+  <rect x="15" y="236" width="470" height="104" rx="6" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
+  <text x="25" y="253" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">ЗАКОНОМЕРНОСТИ РАЗМЕЩЕНИЯ:</text>
+  <text x="25" y="269" font-family="Arial,sans-serif" font-size="9" fill="#333">• 80% населения живёт в европейской части (зона благоприятного климата)</text>
+  <text x="25" y="283" font-family="Arial,sans-serif" font-size="9" fill="#333">• Главная полоса расселения — треугольник Москва–Сочи–Омск</text>
+  <text x="25" y="297" font-family="Arial,sans-serif" font-size="9" fill="#333">• Естественная убыль компенсируется миграционным приростом</text>
+  <text x="25" y="311" font-family="Arial,sans-serif" font-size="9" fill="#333">• Демографический кризис: низкая рождаемость, старение населения</text>
+  <text x="25" y="325" font-family="Arial,sans-serif" font-size="9" fill="#333">• Коэффициент демографической нагрузки: ~60 зависимых на 100 трудоспособных</text>
 </svg>

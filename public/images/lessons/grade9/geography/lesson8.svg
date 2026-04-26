@@ -1,37 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E0F2F1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Металлургия и машиностроение</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 8</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/>
-    <ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
+  <!-- Lesson number badge -->
+  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
+  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">8</text>
+  <!-- Title -->
+  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Металлургия и машиностроение</text>
+  <!-- Decorative line -->
+  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- Ferrous metallurgy -->
+  <g transform="translate(15, 62)">
+    <rect x="0" y="0" width="235" height="125" rx="8" fill="#FFFFFF" stroke="#546E7A" stroke-width="1"/>
+    <rect x="0" y="0" width="235" height="20" rx="8" fill="#546E7A" opacity="0.15"/>
+    <rect x="0" y="10" width="235" height="10" fill="#546E7A" opacity="0.15"/>
+    <text x="117" y="15" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#37474F" text-anchor="middle">ЧЁРНАЯ МЕТАЛЛУРГИЯ</text>
+    <text x="10" y="35" font-family="Arial,sans-serif" font-size="8" fill="#333">Производство чугуна, стали, проката</text>
+    <text x="10" y="48" font-family="Arial,sans-serif" font-size="8" fill="#333">Россия — 5-й производитель стали в мире</text>
+    <text x="10" y="62" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#546E7A">Крупнейшие центры:</text>
+    <text x="10" y="74" font-family="Arial,sans-serif" font-size="8" fill="#333">• Череповец (Северсталь)</text>
+    <text x="10" y="85" font-family="Arial,sans-serif" font-size="8" fill="#333">• Магнитогорск (ММК)</text>
+    <text x="10" y="96" font-family="Arial,sans-serif" font-size="8" fill="#333">• Новокузнецк (Евраз)</text>
+    <text x="10" y="107" font-family="Arial,sans-serif" font-size="8" fill="#333">• Липецк (НЛМК)</text>
+    <text x="10" y="120" font-family="Arial,sans-serif" font-size="7" fill="#999">Факторы: сырьевой, топливный, потребительский</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
+  <!-- Non-ferrous metallurgy -->
+  <g transform="translate(260, 62)">
+    <rect x="0" y="0" width="225" height="125" rx="8" fill="#FFFFFF" stroke="#E65100" stroke-width="1"/>
+    <rect x="0" y="0" width="225" height="20" rx="8" fill="#E65100" opacity="0.15"/>
+    <rect x="0" y="10" width="225" height="10" fill="#E65100" opacity="0.15"/>
+    <text x="112" y="15" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">ЦВЕТНАЯ МЕТАЛЛУРГИЯ</text>
+    <text x="10" y="35" font-family="Arial,sans-serif" font-size="8" fill="#333">Алюминий, медь, никель, золото...</text>
+    <text x="10" y="48" font-family="Arial,sans-serif" font-size="8" fill="#333">Лидер по производству алюминия и никеля</text>
+    <text x="10" y="62" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100">Ключевые предприятия:</text>
+    <text x="10" y="74" font-family="Arial,sans-serif" font-size="8" fill="#333">• Норникель (Норильск) — Ni, Pd</text>
+    <text x="10" y="85" font-family="Arial,sans-serif" font-size="8" fill="#333">• РУСАЛ (Красноярск) — Al</text>
+    <text x="10" y="96" font-family="Arial,sans-serif" font-size="8" fill="#333">• Урал (Медногорск) — Cu</text>
+    <text x="10" y="107" font-family="Arial,sans-serif" font-size="8" fill="#333">• Полюс (Бодайбо) — Au</text>
+    <text x="10" y="120" font-family="Arial,sans-serif" font-size="7" fill="#999">Энергоёмкая отрасль — ГЭС (Сибирь)</text>
+  </g>
+  <!-- Machine building -->
+  <g transform="translate(15, 195)">
+    <rect x="0" y="0" width="470" height="145" rx="8" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
+    <text x="235" y="17" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#26A69A" text-anchor="middle">МАШИНОСТРОЕНИЕ</text>
+    <text x="235" y="30" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Ведущая отрасль обрабатывающей промышленности — ~20% промышленного производства</text>
+    <!-- Sub-sectors grid -->
+    <rect x="10" y="38" width="110" height="45" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
+    <text x="65" y="52" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">Тяжёлое</text>
+    <text x="65" y="63" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Станки, турбины,</text>
+    <text x="65" y="73" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">металлург. оборуд.</text>
+    <rect x="125" y="38" width="110" height="45" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
+    <text x="180" y="52" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">Транспортное</text>
+    <text x="180" y="63" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Автомобили, самолёты,</text>
+    <text x="180" y="73" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">судостроение, локомотивы</text>
+    <rect x="240" y="38" width="110" height="45" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
+    <text x="295" y="52" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">Электротехнич.</text>
+    <text x="295" y="63" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Приборы, электроника,</text>
+    <text x="295" y="73" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">оборудование связи</text>
+    <rect x="355" y="38" width="105" height="45" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
+    <text x="407" y="52" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">С/х машиностр.</text>
+    <text x="407" y="63" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Тракторы, комбайны,</text>
+    <text x="407" y="73" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">сельхозтехника</text>
+    <!-- Centers -->
+    <text x="10" y="98" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">ГЛАВНЫЕ ЦЕНТРЫ:</text>
+    <text x="10" y="111" font-family="Arial,sans-serif" font-size="8" fill="#333">Москва, С.-Петербург, Нижний Новгород, Екатеринбург, Новосибирск, Казань, Челябинск</text>
+    <text x="10" y="124" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">ПРОБЛЕМЫ:</text>
+    <text x="85" y="124" font-family="Arial,sans-serif" font-size="8" fill="#333">Устаревание оборудования, зависимость от импорта комплектующих, нехватка кадров</text>
+    <text x="10" y="137" font-family="Arial,sans-serif" font-size="8" fill="#333">Факторы размещения: научный, трудовой, транспортный, потребительский, военно-стратегический</text>
+  </g>
 </svg>
