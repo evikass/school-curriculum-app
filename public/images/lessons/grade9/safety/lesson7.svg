@@ -1,36 +1,113 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FBE9E7"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="hdr7" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C62828;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#EF5350;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF5722"/>
-      <stop offset="100%" stop-color="#BF360C"/>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFEBEE;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFCDD2;stop-opacity:1"/>
     </linearGradient>
+    <linearGradient id="card7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.85"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.65"/>
+    </linearGradient>
+    <filter id="sh7" x="-3%" y="-3%" width="106%" height="112%">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glow7" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF5722" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF5722" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF5722" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#BF360C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF5722" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#BF360C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FF5722" text-anchor="middle">Безопасность велосипедиста и ску...</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ОБЖ - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#FF5722" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FF5722" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#BF360C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FBE9E7" opacity="0.5"/>
-  
-    <polygon points="250,150 290,230 210,230" fill="none" stroke="#FF5722" stroke-width="2.5"/>
-    <text x="250" y="215" font-family="Arial,sans-serif" font-size="24" fill="#FF5722" text-anchor="middle" font-weight="bold">!</text>
-    <circle cx="250" cy="195" r="18" fill="none" stroke="#FF5722" stroke-width="1.5" opacity="0.4"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FF5722" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FF5722" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ОБЖ</text>
+<rect width="500" height="350" fill="url(#bg7)"/>
+<circle cx="0" cy="0" r="60" fill="#EF5350" opacity="0.04"/>
+<circle cx="500" cy="350" r="80" fill="#EF5350" opacity="0.04"/>
+<circle cx="500" cy="0" r="40" fill="#C62828" opacity="0.03"/>
+<rect x="2" y="2" width="496" height="346" rx="12" ry="12" fill="none" stroke="#EF5350" stroke-width="2.5" opacity="0.5"/>
+<rect x="3" y="3" width="494" height="44" rx="10" ry="10" fill="url(#hdr7)"/>
+<rect x="3" y="37" width="494" height="10" fill="url(#hdr7)"/>
+<circle cx="28" cy="25" r="15" fill="#FFFFFF" opacity="0.25"/>
+<circle cx="28" cy="25" r="12" fill="#FFFFFF" opacity="0.15"/>
+<text x="28" y="29" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">7</text>
+<text x="250" y="22" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Безопасность велосипедиста и скутериста</text>
+<text x="250" y="38" font-family="Arial,sans-serif" font-size="10" fill="#FFEBEE" text-anchor="middle">ОБЖ — Урок 7</text>
+<line x1="10" y1="50" x2="490" y2="50" stroke="#EF5350" stroke-width="0.5" opacity="0.3"/>
+<rect x="3" y="335" width="494" height="12" rx="0" ry="0" fill="#C62828" opacity="0.08"/>
+<text x="250" y="344" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" opacity="0.5">9 класс — Основы безопасности жизнедеятельности</text>
+<circle cx="462" cy="78" r="14" fill="none" stroke="#EF5350" stroke-width="2" opacity="0.4"/>
+<circle cx="462" cy="78" r="3" fill="#EF5350" opacity="0.4"/>
+<line x1="462" y1="78" x2="476.0" y2="78.0" stroke="#EF5350" stroke-width="1" opacity="0.25"/>
+<line x1="462" y1="78" x2="471.9" y2="87.9" stroke="#EF5350" stroke-width="1" opacity="0.25"/>
+<line x1="462" y1="78" x2="462.0" y2="92.0" stroke="#EF5350" stroke-width="1" opacity="0.25"/>
+<line x1="462" y1="78" x2="452.1" y2="87.9" stroke="#EF5350" stroke-width="1" opacity="0.25"/>
+<rect x="12" y="55" width="230" height="120" rx="8" ry="8" fill="url(#card7)" filter="url(#sh7)"/>
+<rect x="12" y="55" width="230" height="120" rx="8" ry="8" fill="none" stroke="#EF5350" stroke-width="0.5" opacity="0.2"/>
+<rect x="16" y="58" width="222" height="20" rx="4" ry="4" fill="#C62828" opacity="0.12"/>
+<text x="127" y="72" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Экипировка велосипедиста</text>
+<line x1="22" y1="80" x2="232" y2="80" stroke="#C62828" stroke-width="0.5" opacity="0.2"/>
+<circle cx="26" cy="89" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="92" font-family="Arial,sans-serif" font-size="9" fill="#333333">Шлем — обязателен всегда!</text>
+<circle cx="26" cy="104" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="107" font-family="Arial,sans-serif" font-size="9" fill="#333333">Перчатки для защиты рук при падении</text>
+<circle cx="26" cy="119" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="122" font-family="Arial,sans-serif" font-size="9" fill="#333333">Наколенники и налокотники</text>
+<circle cx="26" cy="134" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="137" font-family="Arial,sans-serif" font-size="9" fill="#333333">Светоотражающий жилет (тёмное время)</text>
+<circle cx="26" cy="149" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="152" font-family="Arial,sans-serif" font-size="9" fill="#333333">Фонарь спереди и катафоты сзади</text>
+<rect x="250" y="55" width="238" height="120" rx="8" ry="8" fill="url(#card7)" filter="url(#sh7)"/>
+<rect x="250" y="55" width="238" height="120" rx="8" ry="8" fill="none" stroke="#EF5350" stroke-width="0.5" opacity="0.2"/>
+<rect x="254" y="58" width="230" height="20" rx="4" ry="4" fill="#C62828" opacity="0.12"/>
+<text x="369" y="72" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Правила движения на велосипеде</text>
+<line x1="260" y1="80" x2="478" y2="80" stroke="#C62828" stroke-width="0.5" opacity="0.2"/>
+<circle cx="264" cy="89" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="92" font-family="Arial,sans-serif" font-size="9" fill="#333333">До 14 лет — только по тротуару!</text>
+<circle cx="264" cy="104" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="107" font-family="Arial,sans-serif" font-size="9" fill="#333333">14+ можно по велодорожке и обочине</text>
+<circle cx="264" cy="119" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="122" font-family="Arial,sans-serif" font-size="9" fill="#333333">Не более 1 человека на велосипеде</text>
+<circle cx="264" cy="134" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="137" font-family="Arial,sans-serif" font-size="9" fill="#333333">Сигнал поворота — вытянутой рукой</text>
+<circle cx="264" cy="149" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="152" font-family="Arial,sans-serif" font-size="9" fill="#333333">Держитесь правой стороны пути</text>
+<line x1="15" y1="180" x2="485" y2="180" stroke="#EF5350" stroke-width="0.4" opacity="0.15" stroke-dasharray="4,3"/>
+<rect x="12" y="188" width="230" height="140" rx="8" ry="8" fill="url(#card7)" filter="url(#sh7)"/>
+<rect x="12" y="188" width="230" height="140" rx="8" ry="8" fill="none" stroke="#EF5350" stroke-width="0.5" opacity="0.2"/>
+<rect x="16" y="191" width="222" height="20" rx="4" ry="4" fill="#C62828" opacity="0.12"/>
+<text x="127" y="205" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Скутер (мопед) — правила</text>
+<line x1="22" y1="213" x2="232" y2="213" stroke="#C62828" stroke-width="0.5" opacity="0.2"/>
+<circle cx="26" cy="222" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="225" font-family="Arial,sans-serif" font-size="9" fill="#333333">Мопед — с 16 лет (категория М)</text>
+<circle cx="26" cy="237" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="240" font-family="Arial,sans-serif" font-size="9" fill="#333333">Обязателен мотошлем — всегда!</text>
+<circle cx="26" cy="252" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="255" font-family="Arial,sans-serif" font-size="9" fill="#333333">Двигайтесь по правому краю проезжей</text>
+<circle cx="26" cy="267" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="270" font-family="Arial,sans-serif" font-size="9" fill="#333333">Не превышайте скорость 50 км/ч</text>
+<circle cx="26" cy="282" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="285" font-family="Arial,sans-serif" font-size="9" fill="#333333">Не перевозите пассажиров (до 18 лет)</text>
+<circle cx="26" cy="297" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="300" font-family="Arial,sans-serif" font-size="9" fill="#333333">Страхование ОСАГО — обязательно</text>
+<circle cx="26" cy="312" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="315" font-family="Arial,sans-serif" font-size="9" fill="#333333">Документы: водительское удостоверение</text>
+<rect x="250" y="188" width="238" height="140" rx="8" ry="8" fill="url(#card7)" filter="url(#sh7)"/>
+<rect x="250" y="188" width="238" height="140" rx="8" ry="8" fill="none" stroke="#EF5350" stroke-width="0.5" opacity="0.2"/>
+<rect x="254" y="191" width="230" height="20" rx="4" ry="4" fill="#C62828" opacity="0.12"/>
+<text x="369" y="205" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Запрещается!</text>
+<line x1="260" y1="213" x2="478" y2="213" stroke="#C62828" stroke-width="0.5" opacity="0.2"/>
+<circle cx="264" cy="222" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="225" font-family="Arial,sans-serif" font-size="9" fill="#333333">Ездить без рук на руле</text>
+<circle cx="264" cy="237" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="240" font-family="Arial,sans-serif" font-size="9" fill="#333333">Перевозить негабаритный груз</text>
+<circle cx="264" cy="252" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="255" font-family="Arial,sans-serif" font-size="9" fill="#333333">Ехать вдвоём на одном велосипеде</text>
+<circle cx="264" cy="267" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="270" font-family="Arial,sans-serif" font-size="9" fill="#333333">Двигаться по автомагистрали</text>
+<circle cx="264" cy="282" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="285" font-family="Arial,sans-serif" font-size="9" fill="#333333">Использовать телефон во время езды</text>
+<circle cx="264" cy="297" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="300" font-family="Arial,sans-serif" font-size="9" fill="#333333">Ездить в наушниках — нельзя!</text>
+<circle cx="264" cy="312" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="315" font-family="Arial,sans-serif" font-size="9" fill="#333333">Проезжать на красный сигнал светофора</text>
 </svg>

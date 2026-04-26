@@ -1,36 +1,106 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FBE9E7"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="hdr3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C62828;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#EF5350;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF5722"/>
-      <stop offset="100%" stop-color="#BF360C"/>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFEBEE;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFCDD2;stop-opacity:1"/>
     </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.85"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.65"/>
+    </linearGradient>
+    <filter id="sh3" x="-3%" y="-3%" width="106%" height="112%">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF5722" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF5722" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF5722" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#BF360C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF5722" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#BF360C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FF5722" text-anchor="middle">Безопасность на воде</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ОБЖ - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#FF5722" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FF5722" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#BF360C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FBE9E7" opacity="0.5"/>
-  
-    <polygon points="250,150 290,230 210,230" fill="none" stroke="#FF5722" stroke-width="2.5"/>
-    <text x="250" y="215" font-family="Arial,sans-serif" font-size="24" fill="#FF5722" text-anchor="middle" font-weight="bold">!</text>
-    <circle cx="250" cy="195" r="18" fill="none" stroke="#FF5722" stroke-width="1.5" opacity="0.4"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FF5722" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FF5722" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ОБЖ</text>
+<rect width="500" height="350" fill="url(#bg3)"/>
+<circle cx="0" cy="0" r="60" fill="#EF5350" opacity="0.04"/>
+<circle cx="500" cy="350" r="80" fill="#EF5350" opacity="0.04"/>
+<circle cx="500" cy="0" r="40" fill="#C62828" opacity="0.03"/>
+<rect x="2" y="2" width="496" height="346" rx="12" ry="12" fill="none" stroke="#EF5350" stroke-width="2.5" opacity="0.5"/>
+<rect x="3" y="3" width="494" height="44" rx="10" ry="10" fill="url(#hdr3)"/>
+<rect x="3" y="37" width="494" height="10" fill="url(#hdr3)"/>
+<circle cx="28" cy="25" r="15" fill="#FFFFFF" opacity="0.25"/>
+<circle cx="28" cy="25" r="12" fill="#FFFFFF" opacity="0.15"/>
+<text x="28" y="29" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="250" y="22" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Безопасность на воде</text>
+<text x="250" y="38" font-family="Arial,sans-serif" font-size="10" fill="#FFEBEE" text-anchor="middle">ОБЖ — Урок 3</text>
+<line x1="10" y1="50" x2="490" y2="50" stroke="#EF5350" stroke-width="0.5" opacity="0.3"/>
+<rect x="3" y="335" width="494" height="12" rx="0" ry="0" fill="#C62828" opacity="0.08"/>
+<text x="250" y="344" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" opacity="0.5">9 класс — Основы безопасности жизнедеятельности</text>
+<path d="M447,75 Q457,67 467,75 Q477,83 487,75" fill="none" stroke="#1565C0" stroke-width="2" opacity="0.5"/>
+<path d="M447,85 Q457,77 467,85 Q477,93 487,85" fill="none" stroke="#1565C0" stroke-width="2" opacity="0.35"/>
+<path d="M447,95 Q457,87 467,95 Q477,103 487,95" fill="none" stroke="#1565C0" stroke-width="2" opacity="0.2"/>
+<rect x="12" y="55" width="230" height="120" rx="8" ry="8" fill="url(#card3)" filter="url(#sh3)"/>
+<rect x="12" y="55" width="230" height="120" rx="8" ry="8" fill="none" stroke="#EF5350" stroke-width="0.5" opacity="0.2"/>
+<rect x="16" y="58" width="222" height="20" rx="4" ry="4" fill="#C62828" opacity="0.12"/>
+<text x="127" y="72" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Правила поведения на воде</text>
+<line x1="22" y1="80" x2="232" y2="80" stroke="#C62828" stroke-width="0.5" opacity="0.2"/>
+<circle cx="26" cy="89" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="92" font-family="Arial,sans-serif" font-size="9" fill="#333333">Купайтесь только в разрешённых местах</text>
+<circle cx="26" cy="104" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="107" font-family="Arial,sans-serif" font-size="9" fill="#333333">Не заплывайте за буйки!</text>
+<circle cx="26" cy="119" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="122" font-family="Arial,sans-serif" font-size="9" fill="#333333">Не плавайте на надувных матрасах</text>
+<circle cx="26" cy="134" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="137" font-family="Arial,sans-serif" font-size="9" fill="#333333">Не ныряйте в незнакомых местах</text>
+<circle cx="26" cy="149" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="152" font-family="Arial,sans-serif" font-size="9" fill="#333333">Не купайтесь в нетрезвом виде!</text>
+<rect x="250" y="55" width="238" height="120" rx="8" ry="8" fill="url(#card3)" filter="url(#sh3)"/>
+<rect x="250" y="55" width="238" height="120" rx="8" ry="8" fill="none" stroke="#EF5350" stroke-width="0.5" opacity="0.2"/>
+<rect x="254" y="58" width="230" height="20" rx="4" ry="4" fill="#C62828" opacity="0.12"/>
+<text x="369" y="72" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Спасение утопающего</text>
+<line x1="260" y1="80" x2="478" y2="80" stroke="#C62828" stroke-width="0.5" opacity="0.2"/>
+<circle cx="264" cy="89" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="92" font-family="Arial,sans-serif" font-size="9" fill="#333333">Бросьте спасательный круг или верёвку</text>
+<circle cx="264" cy="104" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="107" font-family="Arial,sans-serif" font-size="9" fill="#333333">Подайте шест, палку или полотенце</text>
+<circle cx="264" cy="119" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="122" font-family="Arial,sans-serif" font-size="9" fill="#333333">Плывите на помощь с осторожностью</text>
+<circle cx="264" cy="134" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="137" font-family="Arial,sans-serif" font-size="9" fill="#333333">Подносите пострадавшего со спины</text>
+<circle cx="264" cy="149" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="152" font-family="Arial,sans-serif" font-size="9" fill="#333333">Вызовите скорую помощь: 103</text>
+<line x1="15" y1="180" x2="485" y2="180" stroke="#EF5350" stroke-width="0.4" opacity="0.15" stroke-dasharray="4,3"/>
+<rect x="12" y="188" width="230" height="140" rx="8" ry="8" fill="url(#card3)" filter="url(#sh3)"/>
+<rect x="12" y="188" width="230" height="140" rx="8" ry="8" fill="none" stroke="#EF5350" stroke-width="0.5" opacity="0.2"/>
+<rect x="16" y="191" width="222" height="20" rx="4" ry="4" fill="#C62828" opacity="0.12"/>
+<text x="127" y="205" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Опасности на водоёмах</text>
+<line x1="22" y1="213" x2="232" y2="213" stroke="#C62828" stroke-width="0.5" opacity="0.2"/>
+<circle cx="26" cy="222" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="225" font-family="Arial,sans-serif" font-size="9" fill="#333333">Течения и водовороты на реках</text>
+<circle cx="26" cy="237" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="240" font-family="Arial,sans-serif" font-size="9" fill="#333333">Лёд весной — особенно опасен!</text>
+<circle cx="26" cy="252" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="255" font-family="Arial,sans-serif" font-size="9" fill="#333333">Заплыв на глубину — переоценка сил</text>
+<circle cx="26" cy="267" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="270" font-family="Arial,sans-serif" font-size="9" fill="#333333">Загрязнённая вода — риск инфекций</text>
+<circle cx="26" cy="282" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="285" font-family="Arial,sans-serif" font-size="9" fill="#333333">Волны и шторм на больших озёрах</text>
+<circle cx="26" cy="297" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="36" y="300" font-family="Arial,sans-serif" font-size="9" fill="#333333">Гроза над водой — смертельно опасно!</text>
+<rect x="250" y="188" width="238" height="140" rx="8" ry="8" fill="url(#card3)" filter="url(#sh3)"/>
+<rect x="250" y="188" width="238" height="140" rx="8" ry="8" fill="none" stroke="#EF5350" stroke-width="0.5" opacity="0.2"/>
+<rect x="254" y="191" width="230" height="20" rx="4" ry="4" fill="#C62828" opacity="0.12"/>
+<text x="369" y="205" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Первая помощь при утоплении</text>
+<line x1="260" y1="213" x2="478" y2="213" stroke="#C62828" stroke-width="0.5" opacity="0.2"/>
+<circle cx="264" cy="222" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="225" font-family="Arial,sans-serif" font-size="9" fill="#333333">Извлеките пострадавшего из воды</text>
+<circle cx="264" cy="237" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="240" font-family="Arial,sans-serif" font-size="9" fill="#333333">Очистите рот от песка и воды</text>
+<circle cx="264" cy="252" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="255" font-family="Arial,sans-serif" font-size="9" fill="#333333">При отсутствии дыхания — СЛР</text>
+<circle cx="264" cy="267" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="270" font-family="Arial,sans-serif" font-size="9" fill="#333333">Положите на бок для стока воды</text>
+<circle cx="264" cy="282" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="285" font-family="Arial,sans-serif" font-size="9" fill="#333333">Согрейте и укройте одеялом</text>
+<circle cx="264" cy="297" r="3" fill="#D32F2F" opacity="0.7"/>
+<text x="274" y="300" font-family="Arial,sans-serif" font-size="9" fill="#333333">Обязательно вызовите скорую: 103</text>
 </svg>
