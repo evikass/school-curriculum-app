@@ -1,31 +1,79 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="0%" stop-color="#F1F8E9"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4CAF50"/>
-      <stop offset="100%" stop-color="#388E3C"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#33691E"/>
+      <stop offset="100%" stop-color="#558B2F"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4CAF50" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#4CAF50" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#388E3C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#388E3C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#4CAF50" text-anchor="middle">Урок 10: Основы биотехнологии</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 10</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#4CAF50" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#4CAF50" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#388E3C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#33691E" stroke-width="2.5"/>
+  <text x="250" y="40" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#33691E" text-anchor="middle">Основы биотехнологии</text>
+  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#777" text-anchor="middle">Биология — Урок 10</text>
+  <line x1="30" y1="66" x2="470" y2="66" stroke="#33691E" stroke-width="2" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="72" width="470" height="230" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  <path d="M200,140 Q220,200 200,240" fill="none" stroke="#4CAF50" stroke-width="2"/><path d="M300,140 Q280,200 300,240" fill="none" stroke="#4CAF50" stroke-width="2"/><line x1="200" y1="140" x2="300" y2="140" stroke="#388E3C" stroke-width="1.5"/><text x="250" y="195" font-family="Arial,sans-serif" font-size="11" fill="#4CAF50" text-anchor="middle" opacity="0.6">DNA</text>
+    <rect x="15" y="72" width="470" height="230" fill="#F1F8E9" opacity="0.5"/>
+
+    <!-- Central DNA icon -->
+    <path d="M70,85 Q85,105 70,125 Q55,145 70,165 Q85,185 70,205" fill="none" stroke="#33691E" stroke-width="2.5" opacity="0.3"/>
+    <path d="M85,85 Q70,105 85,125 Q100,145 85,165 Q70,185 85,205" fill="none" stroke="#8BC34A" stroke-width="2.5" opacity="0.3"/>
+    <!-- Rungs -->
+    <line x1="72" y1="100" x2="83" y2="100" stroke="#33691E" stroke-width="1.2" opacity="0.3"/>
+    <line x1="67" y1="125" x2="88" y2="125" stroke="#33691E" stroke-width="1.2" opacity="0.3"/>
+    <line x1="72" y1="150" x2="83" y2="150" stroke="#33691E" stroke-width="1.2" opacity="0.3"/>
+    <line x1="67" y1="175" x2="88" y2="175" stroke="#33691E" stroke-width="1.2" opacity="0.3"/>
+    <line x1="72" y1="200" x2="83" y2="200" stroke="#33691E" stroke-width="1.2" opacity="0.3"/>
+
+    <!-- Four areas -->
+    <rect x="110" y="80" width="180" height="55" rx="6" fill="white" stroke="#33691E" stroke-width="1.2"/>
+    <rect x="110" y="80" width="180" height="14" rx="6" fill="#33691E" opacity="0.15"/>
+    <text x="200" y="91" font-family="Arial,sans-serif" font-size="8.5" font-weight="bold" fill="#33691E" text-anchor="middle">Генная инженерия</text>
+    <text x="120" y="108" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Рестрикция — разрезание ДНК</text>
+    <text x="120" y="119" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Лигирование — сшивание фрагментов</text>
+    <text x="120" y="130" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• ПЦР — копирование генов</text>
+
+    <rect x="305" y="80" width="175" height="55" rx="6" fill="white" stroke="#33691E" stroke-width="1.2"/>
+    <rect x="305" y="80" width="175" height="14" rx="6" fill="#33691E" opacity="0.15"/>
+    <text x="392" y="91" font-family="Arial,sans-serif" font-size="8.5" font-weight="bold" fill="#33691E" text-anchor="middle">Клеточная инженерия</text>
+    <text x="315" y="108" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Гибридизация клеток</text>
+    <text x="315" y="119" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Клонирование организмов</text>
+    <text x="315" y="130" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Культура тканей</text>
+
+    <rect x="110" y="145" width="180" height="55" rx="6" fill="white" stroke="#33691E" stroke-width="1.2"/>
+    <rect x="110" y="145" width="180" height="14" rx="6" fill="#33691E" opacity="0.15"/>
+    <text x="200" y="156" font-family="Arial,sans-serif" font-size="8.5" font-weight="bold" fill="#33691E" text-anchor="middle">Микробиологический синтез</text>
+    <text x="120" y="173" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Антибиотики (пенициллин)</text>
+    <text x="120" y="184" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Гормоны (инсулин)</text>
+    <text x="120" y="195" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Ферменты, витамины</text>
+
+    <rect x="305" y="145" width="175" height="55" rx="6" fill="white" stroke="#33691E" stroke-width="1.2"/>
+    <rect x="305" y="145" width="175" height="14" rx="6" fill="#33691E" opacity="0.15"/>
+    <text x="392" y="156" font-family="Arial,sans-serif" font-size="8.5" font-weight="bold" fill="#33691E" text-anchor="middle">Биоинженерия</text>
+    <text x="315" y="173" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• ГМО-организмы</text>
+    <text x="315" y="184" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Биореакторы</text>
+    <text x="315" y="195" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Биосенсоры</text>
+
+    <!-- CRISPR -->
+    <rect x="25" y="210" width="225" height="45" rx="5" fill="white" stroke="#33691E" stroke-width="1"/>
+    <text x="137" y="225" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">CRISPR-Cas9 — редактирование генома</text>
+    <text x="137" y="238" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">«Генетические ножницы» — точечное изменение ДНК</text>
+    <text x="137" y="250" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Нобелевская премия 2020 (Шарпантье, Дудна)</text>
+
+    <!-- Applications -->
+    <rect x="260" y="210" width="215" height="45" rx="5" fill="white" stroke="#33691E" stroke-width="1"/>
+    <text x="367" y="225" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">Применение</text>
+    <text x="270" y="238" font-family="Arial,sans-serif" font-size="7" fill="#33691E">🏥 Медицина — генотерапия, вакцины</text>
+    <text x="270" y="250" font-family="Arial,sans-serif" font-size="7" fill="#33691E">🌾 С/х — устойчивые сорта, биоудобрения</text>
+
+    <!-- Ethics -->
+    <rect x="25" y="262" width="450" height="28" rx="5" fill="#FFF3E0" stroke="#F57C00" stroke-width="1"/>
+    <text x="250" y="277" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">⚠️ Этические проблемы: клонирование человека, ГМО-продукты, генетическая дискриминация</text>
+    <text x="250" y="288" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" text-anchor="middle">Необходимость правового регулирования и биоэтики</text>
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#4CAF50" text-anchor="middle" opacity="0.6">11 класс • Биология</text>
+  <line x1="30" y1="308" x2="470" y2="308" stroke="#33691E" stroke-width="1.5" opacity="0.25"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="11" fill="#33691E" text-anchor="middle">Биология · 11 класс</text>
 </svg>

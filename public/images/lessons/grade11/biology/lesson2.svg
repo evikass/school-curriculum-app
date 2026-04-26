@@ -1,31 +1,99 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="0%" stop-color="#F1F8E9"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4CAF50"/>
-      <stop offset="100%" stop-color="#388E3C"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#33691E"/>
+      <stop offset="100%" stop-color="#558B2F"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4CAF50" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#4CAF50" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#388E3C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#388E3C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#4CAF50" text-anchor="middle">Урок 2: Доказательства эволюции</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 2</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#4CAF50" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#4CAF50" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#388E3C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#33691E" stroke-width="2.5"/>
+  <text x="250" y="40" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#33691E" text-anchor="middle">Доказательства эволюции</text>
+  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#777" text-anchor="middle">Биология — Урок 2</text>
+  <line x1="30" y1="66" x2="470" y2="66" stroke="#33691E" stroke-width="2" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="72" width="470" height="230" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  <path d="M200,140 Q220,200 200,240" fill="none" stroke="#4CAF50" stroke-width="2"/><path d="M300,140 Q280,200 300,240" fill="none" stroke="#4CAF50" stroke-width="2"/><line x1="200" y1="140" x2="300" y2="140" stroke="#388E3C" stroke-width="1.5"/><text x="250" y="195" font-family="Arial,sans-serif" font-size="11" fill="#4CAF50" text-anchor="middle" opacity="0.6">DNA</text>
+    <rect x="15" y="72" width="470" height="230" fill="#F1F8E9" opacity="0.5"/>
+
+    <!-- Four evidence boxes -->
+    <!-- 1. Paleontological -->
+    <rect x="25" y="80" width="105" height="80" rx="6" fill="white" stroke="#33691E" stroke-width="1.2"/>
+    <rect x="25" y="80" width="105" height="18" rx="6" fill="#33691E" opacity="0.15"/>
+    <text x="77" y="93" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">Палеонтологические</text>
+    <!-- Fossil icon -->
+    <ellipse cx="55" cy="120" rx="14" ry="10" fill="#F1F8E9" stroke="#33691E" stroke-width="1"/>
+    <path d="M45,118 Q50,112 55,118 Q60,124 65,118" fill="none" stroke="#1B5E20" stroke-width="1.2"/>
+    <path d="M47,125 Q52,119 57,125" fill="none" stroke="#1B5E20" stroke-width="1"/>
+    <text x="77" y="150" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">Ископаемые</text>
+    <text x="77" y="158" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">переходные формы</text>
+
+    <!-- 2. Comparative anatomical -->
+    <rect x="140" y="80" width="105" height="80" rx="6" fill="white" stroke="#33691E" stroke-width="1.2"/>
+    <rect x="140" y="80" width="105" height="18" rx="6" fill="#33691E" opacity="0.15"/>
+    <text x="192" y="93" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">Сравнит. анатомич.</text>
+    <!-- Homologous limbs -->
+    <line x1="160" y1="140" x2="180" y2="115" stroke="#1B5E20" stroke-width="2"/>
+    <line x1="180" y1="115" x2="185" y2="105" stroke="#1B5E20" stroke-width="1.5"/>
+    <line x1="180" y1="115" x2="192" y2="108" stroke="#1B5E20" stroke-width="1.5"/>
+    <line x1="192" y1="130" x2="210" y2="115" stroke="#8BC34A" stroke-width="2"/>
+    <line x1="210" y1="115" x2="215" y2="105" stroke="#8BC34A" stroke-width="1.5"/>
+    <line x1="210" y1="115" x2="222" y2="108" stroke="#8BC34A" stroke-width="1.5"/>
+    <text x="192" y="150" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">Гомологичные</text>
+    <text x="192" y="158" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">органы, рудименты</text>
+
+    <!-- 3. Embryological -->
+    <rect x="255" y="80" width="105" height="80" rx="6" fill="white" stroke="#33691E" stroke-width="1.2"/>
+    <rect x="255" y="80" width="105" height="18" rx="6" fill="#33691E" opacity="0.15"/>
+    <text x="307" y="93" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">Эмбриологические</text>
+    <!-- Embryo circles -->
+    <circle cx="280" cy="125" r="12" fill="#F1F8E9" stroke="#33691E" stroke-width="1"/>
+    <circle cx="280" cy="124" r="6" fill="#A5D6A7" stroke="#1B5E20" stroke-width="0.8"/>
+    <circle cx="307" cy="125" r="12" fill="#F1F8E9" stroke="#8BC34A" stroke-width="1"/>
+    <circle cx="307" cy="124" r="6" fill="#A5D6A7" stroke="#1B5E20" stroke-width="0.8"/>
+    <circle cx="334" cy="125" r="12" fill="#F1F8E9" stroke="#A5D6A7" stroke-width="1"/>
+    <circle cx="334" cy="124" r="6" fill="#A5D6A7" stroke="#1B5E20" stroke-width="0.8"/>
+    <text x="280" y="148" font-family="Arial,sans-serif" font-size="5.5" fill="#33691E" text-anchor="middle">рыба</text>
+    <text x="307" y="148" font-family="Arial,sans-serif" font-size="5.5" fill="#33691E" text-anchor="middle">салам.</text>
+    <text x="334" y="148" font-family="Arial,sans-serif" font-size="5.5" fill="#33691E" text-anchor="middle">человек</text>
+    <text x="307" y="158" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">Закон Геккеля</text>
+
+    <!-- 4. Molecular -->
+    <rect x="370" y="80" width="105" height="80" rx="6" fill="white" stroke="#33691E" stroke-width="1.2"/>
+    <rect x="370" y="80" width="105" height="18" rx="6" fill="#33691E" opacity="0.15"/>
+    <text x="422" y="93" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">Молекулярные</text>
+    <!-- DNA comparison bars -->
+    <rect x="385" y="108" width="75" height="6" rx="2" fill="#8BC34A" opacity="0.7"/>
+    <rect x="385" y="108" width="70" height="6" rx="2" fill="#1B5E20" opacity="0.5"/>
+    <rect x="385" y="118" width="75" height="6" rx="2" fill="#8BC34A" opacity="0.7"/>
+    <rect x="385" y="118" width="55" height="6" rx="2" fill="#1B5E20" opacity="0.5"/>
+    <rect x="385" y="128" width="75" height="6" rx="2" fill="#8BC34A" opacity="0.7"/>
+    <rect x="385" y="128" width="35" height="6" rx="2" fill="#1B5E20" opacity="0.5"/>
+    <text x="422" y="150" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">Сходство ДНК</text>
+    <text x="422" y="158" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">и белков</text>
+
+    <!-- Central statement -->
+    <rect x="30" y="170" width="440" height="30" rx="5" fill="#33691E" opacity="0.1"/>
+    <text x="250" y="189" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#33691E" text-anchor="middle">Все доказательства подтверждают единство происхождения живых организмов</text>
+
+    <!-- Example row -->
+    <rect x="30" y="210" width="210" height="48" rx="5" fill="white" stroke="#33691E" stroke-width="1" opacity="0.9"/>
+    <text x="135" y="225" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">Рудименты</text>
+    <text x="135" y="237" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Копчик, аппендикс, мышцы уха</text>
+    <text x="135" y="248" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">→ утратившие функцию органы</text>
+
+    <rect x="260" y="210" width="210" height="48" rx="5" fill="white" stroke="#33691E" stroke-width="1" opacity="0.9"/>
+    <text x="365" y="225" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">Атавизмы</text>
+    <text x="365" y="237" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Многососковость, хвост</text>
+    <text x="365" y="248" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">→ возврат к предкам</text>
+
+    <!-- Biogeographic note -->
+    <rect x="30" y="265" width="440" height="28" rx="5" fill="white" stroke="#33691E" stroke-width="1" opacity="0.9"/>
+    <text x="250" y="280" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">Биогеографические: уникальная фауна материков (Австралия → сумчатые)</text>
+    <text x="250" y="290" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Похожие условия → конвергентное сходство (кит и рыба)</text>
   </g>
-  <rect x="10" y="305" width="480" height="35" fill="url(#panel)" opacity="0.08" rx="5"/>
-  <text x="250" y="327" font-family="Arial,sans-serif" font-size="11" fill="#4CAF50" text-anchor="middle" opacity="0.6">11 класс • Биология</text>
+  <line x1="30" y1="308" x2="470" y2="308" stroke="#33691E" stroke-width="1.5" opacity="0.25"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="11" fill="#33691E" text-anchor="middle">Биология · 11 класс</text>
 </svg>
