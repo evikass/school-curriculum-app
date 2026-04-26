@@ -1,39 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+      <stop offset="0%" stop-color="#EFEBE9"/>
+      <stop offset="100%" stop-color="#FFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FFB300"/>
-      <stop offset="100%" stop-color="#FF6F00"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8D6E63"/>
+      <stop offset="100%" stop-color="#4E342E"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FFB300" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FFB300" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FFB300" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#FF6F00" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FFB300" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#FF6F00" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FFB300" text-anchor="middle">Социальная структура и стратифик...</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Обществознание - Урок 13</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#FFB300" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FFB300" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#FF6F00" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF8E1" opacity="0.5"/>
-  
-    <circle cx="250" cy="185" r="30" fill="none" stroke="#FFB300" stroke-width="2"/>
-    <circle cx="235" cy="180" r="8" fill="none" stroke="#FF6F00" stroke-width="1.5" opacity="0.5"/>
-    <circle cx="265" cy="180" r="8" fill="none" stroke="#FF6F00" stroke-width="1.5" opacity="0.5"/>
-    <circle cx="250" cy="200" r="8" fill="none" stroke="#FF6F00" stroke-width="1.5" opacity="0.5"/>
-    <line x1="235" y1="188" x2="250" y2="192" stroke="#FFB300" stroke-width="1" opacity="0.4"/>
-    <line x1="265" y1="188" x2="250" y2="192" stroke="#FFB300" stroke-width="1" opacity="0.4"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FFB300" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FFB300" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Обществознание</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#8D6E63" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#8D6E63" stroke-width="1" opacity="0.3"/>
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#8D6E63" text-anchor="middle">Социальная структура и стратификация</text>
+  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Обществознание — Урок 13</text>
+  <line x1="30" y1="66" x2="470" y2="66" stroke="#8D6E63" stroke-width="2" opacity="0.25"/>
+  <rect x="15" y="72" width="235" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
+  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Структура —</text>
+  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">деление общества на группы</text>
+  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Критерии:</text>
+  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Доход, образование, власть</text>
+  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Престиж профессии, образ жизни</text>
+  <text x="22" y="148" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Классы:</text>
+  <text x="85" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Высший — крупные собственники</text>
+  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Средний — специалисты, бизнес</text>
+  <rect x="255" y="72" width="230" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
+  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Низший — рабочие, малоимущие</text>
+  <text x="262" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Стратификация:</text>
+  <text x="325" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Расположение слоёв по вертикали</text>
+  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Социальная дистанция между слоями</text>
+  <text x="262" y="148" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Мобильность:</text>
+  <text x="325" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Восходящая — переход выше</text>
+  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Нисходящая — переход ниже</text>
+  <rect x="15" y="280" width="235" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
+  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Средний класс — основа стабильности</text>
+  <rect x="255" y="280" width="230" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
+  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Социальная мобильность — движение по лестнице</text>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Обществознание · Социальная структура</text>
 </svg>
