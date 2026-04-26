@@ -11,23 +11,65 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#3F51B5" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Показательная функция</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Показательная функция</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 3</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#3F51B5" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <path d="M200,160 Q250,120 300,160 Q350,200 300,240 Q250,280 200,240 Q150,200 200,160" fill="none" stroke="#5C6BC0" stroke-width="2.5"/><line x1="180" y1="200" x2="320" y2="200" stroke="#5C6BC0" stroke-width="1" opacity="0.5"/><text x="250" y="208" font-family="Arial,sans-serif" font-size="16" fill="#5C6BC0" text-anchor="middle">f(x)</text>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
+    <!-- Coordinate axes -->
+    <line x1="80" y1="290" x2="300" y2="290" stroke="#3F51B5" stroke-width="1.5"/>
+    <line x1="80" y1="290" x2="80" y2="95" stroke="#3F51B5" stroke-width="1.5"/>
+    <polygon points="300,287 308,290 300,293" fill="#3F51B5"/>
+    <polygon points="77,95 80,87 83,95" fill="#3F51B5"/>
+    <text x="305" y="295" font-family="Arial,sans-serif" font-size="11" fill="#3F51B5">x</text>
+    <text x="68" y="92" font-family="Arial,sans-serif" font-size="11" fill="#3F51B5">y</text>
+    <text x="82" y="302" font-family="Arial,sans-serif" font-size="10" fill="#666">0</text>
+    <!-- Grid lines -->
+    <line x1="80" y1="260" x2="295" y2="260" stroke="#ccc" stroke-width="0.5"/>
+    <line x1="80" y1="230" x2="295" y2="230" stroke="#ccc" stroke-width="0.5"/>
+    <line x1="80" y1="200" x2="295" y2="200" stroke="#ccc" stroke-width="0.5"/>
+    <line x1="80" y1="170" x2="295" y2="170" stroke="#ccc" stroke-width="0.5"/>
+    <line x1="80" y1="140" x2="295" y2="140" stroke="#ccc" stroke-width="0.5"/>
+    <line x1="80" y1="110" x2="295" y2="110" stroke="#ccc" stroke-width="0.5"/>
+    <!-- y-axis labels -->
+    <text x="70" y="263" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="end">1</text>
+    <text x="70" y="233" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="end">2</text>
+    <text x="70" y="203" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="end">3</text>
+    <text x="70" y="173" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="end">4</text>
+    <!-- y=2^x curve (a>1) -->
+    <path d="M80,260 Q110,258 140,255 Q170,248 190,235 Q210,218 230,195 Q250,165 270,130 Q280,112 295,92" fill="none" stroke="#5C6BC0" stroke-width="2.5"/>
+    <text x="285" y="92" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" font-weight="bold">y=2^x</text>
+    <!-- y=(1/2)^x curve (0<a<1) -->
+    <path d="M80,170 Q100,190 120,205 Q140,218 160,228 Q180,240 200,248 Q220,253 250,257 Q270,259 295,260" fill="none" stroke="#E91E63" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="280" y="252" font-family="Arial,sans-serif" font-size="11" fill="#E91E63">y=(1/2)^x</text>
+    <!-- Asymptote -->
+    <line x1="80" y1="260" x2="300" y2="260" stroke="#3F51B5" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+    <text x="185" y="275" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="middle">асимптота y=0</text>
+    <!-- Key point -->
+    <circle cx="80" cy="260" r="3.5" fill="#5C6BC0"/>
+    <text x="85" y="256" font-family="Arial,sans-serif" font-size="9" fill="#3F51B5">(0,1)</text>
+    <!-- Properties box -->
+    <rect x="310" y="90" width="170" height="195" rx="5" fill="white" opacity="0.85" stroke="#5C6BC0" stroke-width="1"/>
+    <text x="320" y="108" font-family="Arial,sans-serif" font-size="12" fill="#3F51B5" font-weight="bold">Свойства y=a^x:</text>
+    <line x1="320" y1="113" x2="470" y2="113" stroke="#5C6BC0" stroke-width="0.5"/>
+    <text x="320" y="130" font-family="Arial,sans-serif" font-size="10" fill="#444">1) D(f) = (-inf; +inf)</text>
+    <text x="320" y="148" font-family="Arial,sans-serif" font-size="10" fill="#444">2) E(f) = (0; +inf)</text>
+    <text x="320" y="166" font-family="Arial,sans-serif" font-size="10" fill="#444">3) a &gt; 1: возрастает</text>
+    <text x="320" y="184" font-family="Arial,sans-serif" font-size="10" fill="#444">   0 &lt; a &lt; 1: убывает</text>
+    <text x="320" y="202" font-family="Arial,sans-serif" font-size="10" fill="#444">4) a^0 = 1</text>
+    <text x="320" y="220" font-family="Arial,sans-serif" font-size="10" fill="#444">5) a^1 = a</text>
+    <text x="320" y="238" font-family="Arial,sans-serif" font-size="10" fill="#444">6) a^x &gt; 0 всегда</text>
+    <text x="320" y="256" font-family="Arial,sans-serif" font-size="10" fill="#444">7) Горизонт. асимптота</text>
+    <text x="320" y="272" font-family="Arial,sans-serif" font-size="10" fill="#444">   y = 0</text>
+    <!-- Title labels for curves -->
+    <rect x="100" y="95" width="85" height="20" rx="3" fill="#5C6BC0" opacity="0.1"/>
+    <text x="142" y="109" font-family="Arial,sans-serif" font-size="10" fill="#5C6BC0" text-anchor="middle">a &gt; 1</text>
+    <rect x="100" y="200" width="85" height="20" rx="3" fill="#E91E63" opacity="0.1"/>
+    <text x="142" y="214" font-family="Arial,sans-serif" font-size="10" fill="#E91E63" text-anchor="middle">0 &lt; a &lt; 1</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра</text>
 </svg>

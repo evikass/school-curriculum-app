@@ -1,33 +1,78 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#E0F2F1"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#283593"/>
+      <stop offset="0%" stop-color="#00897B"/>
+      <stop offset="100%" stop-color="#00695C"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#283593" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#283593" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Координаты точки и вектора</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00897B" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#00897B" text-anchor="middle">Координаты точки и вектора</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Геометрия - Урок 11</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#283593" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#00897B" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <polygon points="250,150 300,230 200,230" fill="none" stroke="#5C6BC0" stroke-width="2.5"/><circle cx="250" cy="205" r="20" fill="none" stroke="#283593" stroke-width="1.5" opacity="0.5"/><line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1" opacity="0.3" stroke-dasharray="4,3"/>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
+    <!-- 3D coordinate system -->
+    <!-- X axis -->
+    <line x1="130" y1="250" x2="260" y2="250" stroke="#00695C" stroke-width="1.5"/>
+    <polygon points="260,247 268,250 260,253" fill="#00695C"/>
+    <text x="270" y="254" font-family="Arial,sans-serif" font-size="12" fill="#E91E63" font-weight="bold">x</text>
+    <!-- Y axis -->
+    <line x1="130" y1="250" x2="60" y2="290" stroke="#00695C" stroke-width="1.5"/>
+    <polygon points="60,287 53,293 63,293" fill="#00695C"/>
+    <text x="45" y="298" font-family="Arial,sans-serif" font-size="12" fill="#4CAF50" font-weight="bold">y</text>
+    <!-- Z axis -->
+    <line x1="130" y1="250" x2="130" y2="105" stroke="#00695C" stroke-width="1.5"/>
+    <polygon points="127,105 130,95 133,105" fill="#00695C"/>
+    <text x="135" y="98" font-family="Arial,sans-serif" font-size="12" fill="#FF9800" font-weight="bold">z</text>
+    <!-- Origin -->
+    <circle cx="130" cy="250" r="2" fill="#00695C"/>
+    <text x="118" y="264" font-family="Arial,sans-serif" font-size="10" fill="#00695C" font-weight="bold">O</text>
+    <!-- Point M -->
+    <!-- Projections -->
+    <line x1="200" y1="210" x2="200" y2="250" stroke="#E91E63" stroke-width="1" stroke-dasharray="3,2"/>
+    <line x1="200" y1="250" x2="130" y2="250" stroke="#E91E63" stroke-width="1" stroke-dasharray="3,2"/>
+    <line x1="200" y1="250" x2="170" y2="268" stroke="#4CAF50" stroke-width="1" stroke-dasharray="3,2"/>
+    <line x1="200" y1="210" x2="200" y2="250" stroke="#FF9800" stroke-width="1" stroke-dasharray="3,2"/>
+    <!-- Box edges (dashed) -->
+    <line x1="200" y1="210" x2="130" y2="210" stroke="#aaa" stroke-width="0.5" stroke-dasharray="2,3"/>
+    <line x1="130" y1="210" x2="130" y2="250" stroke="#aaa" stroke-width="0.5" stroke-dasharray="2,3"/>
+    <!-- Point M -->
+    <circle cx="200" cy="210" r="3.5" fill="#00897B"/>
+    <text x="208" y="205" font-family="Arial,sans-serif" font-size="11" fill="#00897B" font-weight="bold">M(x,y,z)</text>
+    <!-- Vector OM -->
+    <line x1="130" y1="250" x2="200" y2="210" stroke="#00897B" stroke-width="2.5"/>
+    <polygon points="198,213 208,208 200,204" fill="#00897B"/>
+    <text x="155" y="222" font-family="Arial,sans-serif" font-size="10" fill="#00897B" font-weight="bold">OM</text>
+    <!-- Coordinate values -->
+    <text x="200" y="260" font-family="Arial,sans-serif" font-size="9" fill="#E91E63">x0</text>
+    <text x="150" y="278" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">y0</text>
+    <text x="118" y="228" font-family="Arial,sans-serif" font-size="9" fill="#FF9800">z0</text>
+    <!-- Formulas box -->
+    <rect x="290" y="90" width="190" height="205" rx="5" fill="white" opacity="0.85" stroke="#00897B" stroke-width="1"/>
+    <text x="300" y="108" font-family="Arial,sans-serif" font-size="11" fill="#00695C" font-weight="bold">Координаты:</text>
+    <line x1="300" y1="113" x2="470" y2="113" stroke="#00897B" stroke-width="0.5"/>
+    <text x="300" y="130" font-family="Arial,sans-serif" font-size="10" fill="#444">M(x0, y0, z0)</text>
+    <text x="300" y="148" font-family="Arial,sans-serif" font-size="10" fill="#444">Вектор OM = (x0, y0, z0)</text>
+    <line x1="300" y1="156" x2="470" y2="156" stroke="#00897B" stroke-width="0.5"/>
+    <text x="300" y="172" font-family="Arial,sans-serif" font-size="11" fill="#00695C" font-weight="bold">Длина вектора:</text>
+    <rect x="300" y="178" width="170" height="22" rx="3" fill="#00897B" opacity="0.08"/>
+    <text x="385" y="194" font-family="Arial,sans-serif" font-size="11" fill="#00897B" text-anchor="middle" font-weight="bold">|a| = sqrt(x^2+y^2+z^2)</text>
+    <line x1="300" y1="206" x2="470" y2="206" stroke="#00897B" stroke-width="0.5"/>
+    <text x="300" y="222" font-family="Arial,sans-serif" font-size="11" fill="#00695C" font-weight="bold">Расстояние:</text>
+    <rect x="300" y="228" width="170" height="22" rx="3" fill="#00897B" opacity="0.08"/>
+    <text x="385" y="244" font-family="Arial,sans-serif" font-size="10" fill="#00897B" text-anchor="middle" font-weight="bold">d=sqrt((x2-x1)^2+...)</text>
+    <line x1="300" y1="256" x2="470" y2="256" stroke="#00897B" stroke-width="0.5"/>
+    <text x="300" y="272" font-family="Arial,sans-serif" font-size="10" fill="#444">Середина отрезка:</text>
+    <text x="300" y="288" font-family="Arial,sans-serif" font-size="10" fill="#00897B">M = ((x1+x2)/2, ...)</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Геометрия</text>
 </svg>

@@ -11,23 +11,55 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1A237E" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Газовые законы</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Газовые законы</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 8</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1A237E" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <circle cx="250" cy="190" r="40" fill="none" stroke="#5C6BC0" stroke-width="2"/><line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/><line x1="210" y1="190" x2="290" y2="190" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/><text x="250" y="195" font-family="Arial,sans-serif" font-size="12" fill="#5C6BC0" text-anchor="middle">F=ma</text>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
+    <!-- PV diagram -->
+    <text x="135" y="98" font-family="Arial,sans-serif" font-size="11" fill="#1A237E" font-weight="bold">Диаграмма P-V</text>
+    <rect x="30" y="100" width="210" height="130" rx="3" fill="white" opacity="0.5"/>
+    <line x1="50" y1="220" x2="230" y2="220" stroke="#1A237E" stroke-width="1.5"/>
+    <line x1="50" y1="220" x2="50" y2="108" stroke="#1A237E" stroke-width="1.5"/>
+    <polygon points="230,217 238,220 230,223" fill="#1A237E"/>
+    <polygon points="47,108 50,100 53,108" fill="#1A237E"/>
+    <text x="232" y="215" font-family="Arial,sans-serif" font-size="10" fill="#1A237E">V</text>
+    <text x="40" y="105" font-family="Arial,sans-serif" font-size="10" fill="#1A237E">P</text>
+    <!-- Isotherm (hyperbola) -->
+    <path d="M60,120 Q80,130 100,150 Q130,175 160,190 Q190,205 225,215" fill="none" stroke="#E91E63" stroke-width="2.5"/>
+    <text x="70" y="118" font-family="Arial,sans-serif" font-size="9" fill="#E91E63" font-weight="bold">T1</text>
+    <path d="M60,155 Q80,162 100,175 Q130,192 160,203 Q190,212 225,218" fill="none" stroke="#E91E63" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="70" y="153" font-family="Arial,sans-serif" font-size="9" fill="#E91E63">T2&lt;T1</text>
+    <!-- Isobar (horizontal) -->
+    <line x1="55" y1="180" x2="210" y2="180" stroke="#4CAF50" stroke-width="2"/>
+    <text x="200" y="177" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50" font-weight="bold">P=const</text>
+    <!-- Isochore (vertical) -->
+    <line x1="140" y1="115" x2="140" y2="218" stroke="#FF9800" stroke-width="2"/>
+    <text x="145" y="130" font-family="Arial,sans-serif" font-size="9" fill="#FF9800" font-weight="bold">V=const</text>
+    <!-- Laws panel -->
+    <rect x="260" y="90" width="225" height="115" rx="5" fill="white" opacity="0.85" stroke="#5C6BC0" stroke-width="1"/>
+    <text x="270" y="108" font-family="Arial,sans-serif" font-size="12" fill="#1A237E" font-weight="bold">Газовые законы:</text>
+    <line x1="270" y1="113" x2="475" y2="113" stroke="#5C6BC0" stroke-width="0.5"/>
+    <rect x="270" y="118" width="4" height="18" rx="1" fill="#E91E63"/>
+    <text x="282" y="130" font-family="Arial,sans-serif" font-size="10" fill="#E91E63" font-weight="bold">Изотерма: PV = const</text>
+    <text x="282" y="143" font-family="Arial,sans-serif" font-size="9" fill="#444">P1*V1 = P2*V2  (Закон Бойля-Мариотта)</text>
+    <rect x="270" y="148" width="4" height="18" rx="1" fill="#4CAF50"/>
+    <text x="282" y="160" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50" font-weight="bold">Изобара: V/T = const</text>
+    <text x="282" y="173" font-family="Arial,sans-serif" font-size="9" fill="#444">V1/T1 = V2/T2  (Закон Гей-Люссака)</text>
+    <rect x="270" y="178" width="4" height="18" rx="1" fill="#FF9800"/>
+    <text x="282" y="190" font-family="Arial,sans-serif" font-size="10" fill="#FF9800" font-weight="bold">Изохора: P/T = const</text>
+    <text x="282" y="203" font-family="Arial,sans-serif" font-size="9" fill="#444">P1/T1 = P2/T2  (Закон Шарля)</text>
+    <!-- Ideal gas equation -->
+    <rect x="25" y="240" width="460" height="58" rx="5" fill="white" opacity="0.85" stroke="#5C6BC0" stroke-width="1.5"/>
+    <text x="35" y="258" font-family="Arial,sans-serif" font-size="12" fill="#1A237E" font-weight="bold">Уравнение Менделеева-Клапейрона:</text>
+    <rect x="35" y="264" width="300" height="25" rx="3" fill="#5C6BC0" opacity="0.08"/>
+    <text x="185" y="282" font-family="Arial,sans-serif" font-size="14" fill="#5C6BC0" text-anchor="middle" font-weight="bold">PV = m/M * R * T  =  nu * R * T</text>
+    <text x="350" y="275" font-family="Arial,sans-serif" font-size="10" fill="#444">R = 8.31 Дж/(моль*К)</text>
+    <text x="350" y="292" font-family="Arial,sans-serif" font-size="10" fill="#444">nu = m/M (кол-во вещества)</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика</text>
 </svg>

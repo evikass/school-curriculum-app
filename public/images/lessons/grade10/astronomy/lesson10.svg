@@ -1,33 +1,127 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#EDE7F6"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1A237E"/>
-      <stop offset="100%" stop-color="#0D47A1"/>
+      <stop offset="0%" stop-color="#7E57C2"/>
+      <stop offset="100%" stop-color="#4527A0"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1A237E" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#1A237E" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#0D47A1" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#0D47A1" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#1A237E" text-anchor="middle">Телескопы и наблюдения</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7E57C2" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#7E57C2" text-anchor="middle">Телескопы и наблюдения</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Астрономия - Урок 10</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#1A237E" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#1A237E" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#0D47A1" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#7E57C2" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <circle cx="250" cy="190" r="40" fill="none" stroke="#1A237E" stroke-width="2"/><circle cx="250" cy="190" r="15" fill="#1A237E" opacity="0.3"/><ellipse cx="250" cy="190" rx="60" ry="12" fill="none" stroke="#0D47A1" stroke-width="1.5" opacity="0.5"/><circle cx="210" cy="160" r="3" fill="#1A237E" opacity="0.6"/><circle cx="290" cy="175" r="2" fill="#1A237E" opacity="0.4"/><circle cx="275" cy="220" r="2.5" fill="#0D47A1" opacity="0.5"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.3"/>
+    
+    <!-- Refractor telescope -->
+    <rect x="20" y="90" width="225" height="105" rx="4" fill="#E8EAF6" stroke="#7E57C2" stroke-width="1"/>
+    <text x="132" y="108" font-family="Arial,sans-serif" font-size="12" fill="#4527A0" text-anchor="middle">Рефрактор</text>
+    
+    <!-- Lens (objective) -->
+    <ellipse cx="60" cy="150" rx="4" ry="20" fill="#B3E5FC" stroke="#1565C0" stroke-width="1.5"/>
+    <text x="50" y="120" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Объектив</text>
+    <text x="50" y="128" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">(линза)</text>
+    
+    <!-- Tube -->
+    <line x1="64" y1="135" x2="160" y2="142" stroke="#555" stroke-width="1.5"/>
+    <line x1="64" y1="165" x2="160" y2="158" stroke="#555" stroke-width="1.5"/>
+    
+    <!-- Light rays -->
+    <line x1="35" y1="130" x2="60" y2="138" stroke="#FDD835" stroke-width="0.8"/>
+    <line x1="35" y1="170" x2="60" y2="162" stroke="#FDD835" stroke-width="0.8"/>
+    <!-- Converging -->
+    <line x1="64" y1="138" x2="165" y2="149" stroke="#FDD835" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <line x1="64" y1="162" x2="165" y2="151" stroke="#FDD835" stroke-width="0.8" stroke-dasharray="3,2"/>
+    
+    <!-- Eyepiece -->
+    <ellipse cx="165" cy="150" rx="3" ry="12" fill="#B3E5FC" stroke="#1565C0" stroke-width="1"/>
+    <text x="178" y="140" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Окуляр</text>
+    
+    <!-- Focal point -->
+    <circle cx="130" cy="150" r="2" fill="#EF5350"/>
+    <text x="130" y="162" font-family="Arial,sans-serif" font-size="7" fill="#EF5350" text-anchor="middle">F</text>
+    
+    <text x="132" y="185" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Галилей, Кеплер</text>
+    
+    <!-- Reflector telescope -->
+    <rect x="255" y="90" width="225" height="105" rx="4" fill="#E8EAF6" stroke="#7E57C2" stroke-width="1"/>
+    <text x="367" y="108" font-family="Arial,sans-serif" font-size="12" fill="#4527A0" text-anchor="middle">Рефлектор</text>
+    
+    <!-- Mirror (primary) -->
+    <path d="M290,125 C285,150 285,160 290,180" fill="none" stroke="#78909C" stroke-width="3"/>
+    <text x="275" y="120" font-family="Arial,sans-serif" font-size="6" fill="#546E7A" text-anchor="middle">Главное</text>
+    <text x="275" y="128" font-family="Arial,sans-serif" font-size="6" fill="#546E7A" text-anchor="middle">зеркало</text>
+    
+    <!-- Tube -->
+    <line x1="290" y1="125" x2="440" y2="130" stroke="#555" stroke-width="1.5"/>
+    <line x1="290" y1="180" x2="440" y2="175" stroke="#555" stroke-width="1.5"/>
+    
+    <!-- Light rays in -->
+    <line x1="460" y1="132" x2="293" y2="140" stroke="#FDD835" stroke-width="0.8"/>
+    <line x1="460" y1="172" x2="293" y2="162" stroke="#FDD835" stroke-width="0.8"/>
+    <!-- Reflected to secondary -->
+    <line x1="293" y1="140" x2="380" y2="148" stroke="#FDD835" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <line x1="293" y1="162" x2="380" y2="156" stroke="#FDD835" stroke-width="0.8" stroke-dasharray="3,2"/>
+    
+    <!-- Secondary mirror -->
+    <line x1="375" y1="142" x2="385" y2="158" stroke="#78909C" stroke-width="2"/>
+    <text x="395" y="140" font-family="Arial,sans-serif" font-size="6" fill="#546E7A" text-anchor="middle">Вторичное</text>
+    <text x="395" y="148" font-family="Arial,sans-serif" font-size="6" fill="#546E7A" text-anchor="middle">зеркало</text>
+    
+    <!-- Eyepiece (side) -->
+    <line x1="380" y1="148" x2="380" y2="130" stroke="#FDD835" stroke-width="0.8" stroke-dasharray="2,2"/>
+    <ellipse cx="380" cy="126" rx="8" ry="3" fill="#B3E5FC" stroke="#1565C0" stroke-width="0.8"/>
+    <text x="380" y="118" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Окуляр</text>
+    
+    <text x="367" y="185" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Ньютон, Кассегрен</text>
+    
+    <!-- EM spectrum -->
+    <rect x="20" y="202" width="460" height="98" rx="3" fill="#F3E5F5" stroke="#7E57C2" stroke-width="1"/>
+    <text x="250" y="218" font-family="Arial,sans-serif" font-size="10" fill="#4527A0" text-anchor="middle">Электромагнитный спектр и телескопы</text>
+    
+    <!-- Spectrum bar -->
+    <rect x="40" y="228" width="40" height="12" fill="#7B1FA2"/>
+    <rect x="80" y="228" width="40" height="12" fill="#1565C0"/>
+    <rect x="120" y="228" width="40" height="12" fill="#42A5F5"/>
+    <rect x="160" y="228" width="40" height="12" fill="#66BB6A"/>
+    <rect x="200" y="228" width="40" height="12" fill="#FDD835"/>
+    <rect x="240" y="228" width="40" height="12" fill="#FF8A65"/>
+    <rect x="280" y="228" width="40" height="12" fill="#EF5350"/>
+    
+    <text x="60" y="250" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Радио</text>
+    <text x="100" y="250" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Микро</text>
+    <text x="140" y="250" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">ИК</text>
+    <text x="180" y="250" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Видимый</text>
+    <text x="220" y="250" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">УФ</text>
+    <text x="260" y="250" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Рентген</text>
+    <text x="300" y="250" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Гамма</text>
+    
+    <!-- Telescope types -->
+    <text x="60" y="268" font-family="Arial,sans-serif" font-size="6" fill="#4527A0" text-anchor="middle">Радио-</text>
+    <text x="60" y="277" font-family="Arial,sans-serif" font-size="6" fill="#4527A0" text-anchor="middle">телескоп</text>
+    <text x="180" y="268" font-family="Arial,sans-serif" font-size="6" fill="#4527A0" text-anchor="middle">Оптический</text>
+    <text x="180" y="277" font-family="Arial,sans-serif" font-size="6" fill="#4527A0" text-anchor="middle">телескоп</text>
+    <text x="300" y="268" font-family="Arial,sans-serif" font-size="6" fill="#4527A0" text-anchor="middle">Космический</text>
+    <text x="300" y="277" font-family="Arial,sans-serif" font-size="6" fill="#4527A0" text-anchor="middle">телескоп</text>
+    
+    <!-- Examples -->
+    <text x="60" y="290" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Аресибо</text>
+    <text x="180" y="290" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Хаббл</text>
+    <text x="300" y="290" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Джеймс Уэбб</text>
+    
+    <!-- Atmosphere window -->
+    <text x="400" y="240" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Атмосфера</text>
+    <text x="400" y="251" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">пропускает:</text>
+    <text x="400" y="263" font-family="Arial,sans-serif" font-size="6" fill="#66BB6A" text-anchor="middle">Видимый свет</text>
+    <text x="400" y="273" font-family="Arial,sans-serif" font-size="6" fill="#7B1FA2" text-anchor="middle">Радиоволны</text>
+    <text x="400" y="283" font-family="Arial,sans-serif" font-size="6" fill="#42A5F5" text-anchor="middle">Часть ИК</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#1A237E" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#1A237E" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Астрономия</text>
 </svg>

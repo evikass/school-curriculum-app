@@ -1,33 +1,79 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="0%" stop-color="#E0F2F1"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#283593"/>
+      <stop offset="0%" stop-color="#00897B"/>
+      <stop offset="100%" stop-color="#00695C"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#283593" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#283593" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Действия с векторами</text>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00897B" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#00897B" text-anchor="middle">Действия с векторами</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Геометрия - Урок 12</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#5C6BC0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#283593" opacity="0.12" rx="1"/>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#00897B" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-  <polygon points="250,150 300,230 200,230" fill="none" stroke="#5C6BC0" stroke-width="2.5"/><circle cx="250" cy="205" r="20" fill="none" stroke="#283593" stroke-width="1.5" opacity="0.5"/><line x1="250" y1="150" x2="250" y2="230" stroke="#5C6BC0" stroke-width="1" opacity="0.3" stroke-dasharray="4,3"/>
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
+    <!-- Vector addition (parallelogram rule) -->
+    <text x="130" y="103" font-family="Arial,sans-serif" font-size="11" fill="#00695C" font-weight="bold">Сложение векторов</text>
+    <!-- Vector a -->
+    <line x1="60" y1="210" x2="160" y2="160" stroke="#E91E63" stroke-width="2.5"/>
+    <polygon points="158,163 168,157 155,155" fill="#E91E63"/>
+    <text x="100" y="177" font-family="Arial,sans-serif" font-size="11" fill="#E91E63" font-weight="bold">a</text>
+    <!-- Vector b -->
+    <line x1="60" y1="210" x2="130" y2="240" stroke="#4CAF50" stroke-width="2.5"/>
+    <polygon points="128,237 138,244 127,244" fill="#4CAF50"/>
+    <text x="85" y="235" font-family="Arial,sans-serif" font-size="11" fill="#4CAF50" font-weight="bold">b</text>
+    <!-- Parallelogram -->
+    <line x1="160" y1="160" x2="230" y2="190" stroke="#4CAF50" stroke-width="1" stroke-dasharray="4,2"/>
+    <line x1="130" y1="240" x2="230" y2="190" stroke="#E91E63" stroke-width="1" stroke-dasharray="4,2"/>
+    <!-- Result vector a+b -->
+    <line x1="60" y1="210" x2="230" y2="190" stroke="#00897B" stroke-width="2.5"/>
+    <polygon points="228,193 238,189 229,186" fill="#00897B"/>
+    <text x="155" y="192" font-family="Arial,sans-serif" font-size="11" fill="#00897B" font-weight="bold">a+b</text>
+    <circle cx="60" cy="210" r="2" fill="#00695C"/>
+    <circle cx="230" cy="190" r="2" fill="#00897B"/>
+    <!-- Scalar multiplication -->
+    <text x="370" y="103" font-family="Arial,sans-serif" font-size="11" fill="#00695C" font-weight="bold">Умножение на число</text>
+    <line x1="310" y1="140" x2="360" y2="120" stroke="#00897B" stroke-width="2"/>
+    <polygon points="358,123 368,118 357,116" fill="#00897B"/>
+    <text x="330" y="123" font-family="Arial,sans-serif" font-size="10" fill="#00897B" font-weight="bold">a</text>
+    <line x1="310" y1="140" x2="410" y2="100" stroke="#E91E63" stroke-width="2.5"/>
+    <polygon points="408,103 418,98 407,96" fill="#E91E63"/>
+    <text x="360" y="112" font-family="Arial,sans-serif" font-size="10" fill="#E91E63" font-weight="bold">2a</text>
+    <line x1="310" y1="140" x2="285" y2="150" stroke="#4CAF50" stroke-width="2"/>
+    <polygon points="287,147 277,153 288,154" fill="#4CAF50"/>
+    <text x="280" y="145" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50" font-weight="bold">-0.5a</text>
+    <circle cx="310" cy="140" r="2" fill="#00695C"/>
+    <!-- Dot product section -->
+    <rect x="25" y="155" width="220" height="55" rx="5" fill="white" opacity="0.8" stroke="#00897B" stroke-width="1"/>
+    <text x="35" y="170" font-family="Arial,sans-serif" font-size="10" fill="#00695C" font-weight="bold">Скалярное произведение:</text>
+    <text x="35" y="186" font-family="Arial,sans-serif" font-size="11" fill="#00897B" font-weight="bold">a * b = |a|*|b|*cos(a)</text>
+    <text x="35" y="202" font-family="Arial,sans-serif" font-size="10" fill="#444">a * b = x1*x2 + y1*y2 + z1*z2</text>
+    <!-- Properties -->
+    <rect x="25" y="218" width="220" height="80" rx="5" fill="white" opacity="0.8" stroke="#00897B" stroke-width="1"/>
+    <text x="35" y="234" font-family="Arial,sans-serif" font-size="10" fill="#00695C" font-weight="bold">Свойства:</text>
+    <text x="35" y="250" font-family="Arial,sans-serif" font-size="10" fill="#444">1) a*b = b*a (коммутативность)</text>
+    <text x="35" y="266" font-family="Arial,sans-serif" font-size="10" fill="#444">2) a*a = |a|^2</text>
+    <text x="35" y="282" font-family="Arial,sans-serif" font-size="10" fill="#444">3) a _|_ b &lt;=&gt; a*b = 0</text>
+    <text x="35" y="296" font-family="Arial,sans-serif" font-size="10" fill="#444">4) (ka)*b = k*(a*b)</text>
+    <!-- Coordinate operations -->
+    <rect x="260" y="155" width="220" height="80" rx="5" fill="white" opacity="0.8" stroke="#00897B" stroke-width="1"/>
+    <text x="270" y="170" font-family="Arial,sans-serif" font-size="10" fill="#00695C" font-weight="bold">В координатах:</text>
+    <text x="270" y="186" font-family="Arial,sans-serif" font-size="10" fill="#444">a+b = (x1+x2, y1+y2, z1+z2)</text>
+    <text x="270" y="202" font-family="Arial,sans-serif" font-size="10" fill="#444">k*a = (k*x1, k*y1, k*z1)</text>
+    <text x="270" y="218" font-family="Arial,sans-serif" font-size="10" fill="#444">a-b = (x1-x2, y1-y2, z1-z2)</text>
+    <!-- Angle between vectors -->
+    <rect x="260" y="244" width="220" height="50" rx="5" fill="white" opacity="0.8" stroke="#00897B" stroke-width="1"/>
+    <text x="270" y="260" font-family="Arial,sans-serif" font-size="10" fill="#00695C" font-weight="bold">Угол между векторами:</text>
+    <text x="270" y="278" font-family="Arial,sans-serif" font-size="11" fill="#00897B" font-weight="bold">cos(a) = (a*b)/(|a|*|b|)</text>
+    <text x="270" y="292" font-family="Arial,sans-serif" font-size="9" fill="#888">Если cos=0, то векторы перпендикулярны</text>
+    
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#5C6BC0" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Геометрия</text>
 </svg>

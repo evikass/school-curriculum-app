@@ -11,23 +11,84 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF7043" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#D84315" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#D84315" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FF7043" text-anchor="middle">Типы химических реакций</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#FF7043" text-anchor="middle">Типы химических реакций</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 11</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#FF7043" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FF7043" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#D84315" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FBE9E7" opacity="0.5"/>
-  <path d="M225,155 L225,195 L210,230 L290,230 L275,195 L275,155 Z" fill="none" stroke="#FF7043" stroke-width="2"/><line x1="220" y1="155" x2="280" y2="155" stroke="#FF7043" stroke-width="2.5"/><circle cx="240" cy="210" r="6" fill="#FF7043" opacity="0.4"/><circle cx="260" cy="215" r="8" fill="#D84315" opacity="0.3"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#FFF8F0" opacity="0.5"/>
+    
+    <!-- 4 types in quadrants -->
+    <!-- 1. Substitution (Замещение) - top left -->
+    <rect x="20" y="90" width="225" height="95" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
+    <text x="132" y="106" font-family="Arial,sans-serif" font-size="12" fill="#D84315" text-anchor="middle">Замещение</text>
+    <text x="132" y="120" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">A-B + C -&gt; A-C + B</text>
+    <!-- CH4 + Cl2 -> CH3Cl + HCl -->
+    <circle cx="40" cy="145" r="11" fill="#333" opacity="0.85"/>
+    <text x="40" y="150" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">CH4</text>
+    <text x="72" y="148" font-family="Arial,sans-serif" font-size="11" fill="#555">+</text>
+    <circle cx="95" cy="145" r="11" fill="#4CAF50" opacity="0.85"/>
+    <text x="95" y="150" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Cl2</text>
+    <text x="120" y="148" font-family="Arial,sans-serif" font-size="11" fill="#FF7043">-&gt;</text>
+    <circle cx="148" cy="145" r="11" fill="#333" opacity="0.85"/>
+    <text x="148" y="150" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">CH3Cl</text>
+    <text x="180" y="148" font-family="Arial,sans-serif" font-size="11" fill="#555">+</text>
+    <circle cx="210" cy="145" r="11" fill="#4CAF50" opacity="0.85"/>
+    <text x="210" y="150" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">HCl</text>
+    
+    <!-- Arrow showing H replaced by Cl -->
+    <line x1="48" y1="155" x2="155" y2="155" stroke="#FF7043" stroke-width="1" stroke-dasharray="3,2"/>
+    
+    <!-- 2. Addition (Присоединение) - top right -->
+    <rect x="255" y="90" width="225" height="95" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
+    <text x="367" y="106" font-family="Arial,sans-serif" font-size="12" fill="#D84315" text-anchor="middle">Присоединение</text>
+    <text x="367" y="120" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">A=B + C -&gt; A-C-B</text>
+    <!-- C2H4 + H2 -> C2H6 -->
+    <circle cx="275" cy="145" r="11" fill="#333" opacity="0.85"/>
+    <text x="275" y="150" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C2H4</text>
+    <text x="307" y="148" font-family="Arial,sans-serif" font-size="11" fill="#555">+</text>
+    <circle cx="330" cy="145" r="11" fill="#888" opacity="0.85"/>
+    <text x="330" y="150" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H2</text>
+    <text x="352" y="148" font-family="Arial,sans-serif" font-size="11" fill="#FF7043">-&gt;</text>
+    <circle cx="380" cy="145" r="11" fill="#333" opacity="0.85"/>
+    <text x="380" y="150" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C2H6</text>
+    <!-- Note -->
+    <text x="440" y="145" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">C=C-&gt;C-C</text>
+    
+    <!-- 3. Elimination (Отщепление) - bottom left -->
+    <rect x="20" y="192" width="225" height="95" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
+    <text x="132" y="208" font-family="Arial,sans-serif" font-size="11" fill="#D84315" text-anchor="middle">Отщепление (элиминирование)</text>
+    <text x="132" y="222" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">A-B-C -&gt; A=B + C</text>
+    <!-- C2H5OH -> C2H4 + H2O -->
+    <circle cx="40" cy="248" r="10" fill="#333" opacity="0.85"/>
+    <text x="40" y="253" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C2H5OH</text>
+    <text x="82" y="251" font-family="Arial,sans-serif" font-size="11" fill="#FF7043">-&gt;</text>
+    <circle cx="115" cy="248" r="10" fill="#333" opacity="0.85"/>
+    <text x="115" y="253" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C2H4</text>
+    <text x="145" y="251" font-family="Arial,sans-serif" font-size="11" fill="#555">+</text>
+    <circle cx="175" cy="248" r="10" fill="#1565C0" opacity="0.85"/>
+    <text x="175" y="253" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H2O</text>
+    <text x="132" y="275" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">Дегидратация спиртов</text>
+    
+    <!-- 4. Polymerization (Полимеризация) - bottom right -->
+    <rect x="255" y="192" width="225" height="95" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
+    <text x="367" y="208" font-family="Arial,sans-serif" font-size="12" fill="#D84315" text-anchor="middle">Полимеризация</text>
+    <text x="367" y="222" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">nCH2=CH -&gt; (-CH2-CH-)n</text>
+    <!-- Visual: multiple monomers forming chain -->
+    <rect x="270" y="235" width="20" height="15" rx="2" fill="#FF8A65"/>
+    <rect x="295" y="235" width="20" height="15" rx="2" fill="#FF8A65"/>
+    <rect x="320" y="235" width="20" height="15" rx="2" fill="#FF8A65"/>
+    <line x1="290" y1="242" x2="295" y2="242" stroke="#333" stroke-width="1.5"/>
+    <line x1="315" y1="242" x2="320" y2="242" stroke="#333" stroke-width="1.5"/>
+    <!-- dots for continuation -->
+    <text x="345" y="247" font-family="Arial,sans-serif" font-size="12" fill="#888">...</text>
+    <!-- Arrow down to polymer -->
+    <line x1="305" y1="255" x2="305" y2="265" stroke="#FF7043" stroke-width="1.5"/>
+    <rect x="270" y="268" width="80" height="15" rx="3" fill="#D84315"/>
+    <text x="310" y="279" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">Полимер</text>
+    <text x="367" y="275" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">n - степень полимеризации</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FF7043" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FF7043" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Химия</text>
 </svg>

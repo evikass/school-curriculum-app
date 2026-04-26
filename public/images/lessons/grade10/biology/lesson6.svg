@@ -11,23 +11,93 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#66BB6A" text-anchor="middle">Энергетический обмен</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Энергетический обмен</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 6</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#66BB6A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#2E7D32" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  <circle cx="250" cy="190" r="35" fill="none" stroke="#66BB6A" stroke-width="2"/><circle cx="250" cy="190" r="25" fill="none" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/><circle cx="240" cy="180" r="8" fill="#66BB6A" opacity="0.5"/><circle cx="262" cy="198" r="6" fill="#2E7D32" opacity="0.4"/><ellipse cx="250" cy="190" rx="12" ry="35" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.4"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
+    
+    <!-- Three stages as flow -->
+    <text x="250" y="100" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle">Три этапа энергетического обмена</text>
+    
+    <!-- Stage 1: Подготовительный -->
+    <rect x="20" y="110" width="145" height="55" rx="4" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
+    <text x="92" y="126" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle">I Подготовительный</text>
+    <text x="92" y="140" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Белки -&gt; аминок-ты</text>
+    <text x="92" y="150" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Жиры -&gt; глиц.+ж.к.</text>
+    <text x="92" y="160" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Крахмал -&gt; глюкоза</text>
+    
+    <!-- Arrow -->
+    <line x1="165" y1="137" x2="180" y2="137" stroke="#555" stroke-width="2"/>
+    <polygon points="180,132 190,137 180,142" fill="#555"/>
+    
+    <!-- Stage 2: Гликолиз -->
+    <rect x="190" y="110" width="145" height="55" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
+    <text x="262" y="126" font-family="Arial,sans-serif" font-size="9" fill="#D84315" text-anchor="middle">II Гликолиз</text>
+    <text x="262" y="140" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">C6H12O6 -&gt; 2C3H4O3</text>
+    <text x="262" y="152" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">(2 ПВК + 2 АТФ)</text>
+    <text x="262" y="162" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">В цитоплазме, б/О2</text>
+    
+    <!-- Arrow -->
+    <line x1="335" y1="137" x2="350" y2="137" stroke="#555" stroke-width="2"/>
+    <polygon points="350,132 360,137 350,142" fill="#555"/>
+    
+    <!-- Stage 3: Клеточное дыхание -->
+    <rect x="360" y="110" width="120" height="55" rx="4" fill="#FFCDD2" stroke="#EF5350" stroke-width="1"/>
+    <text x="420" y="126" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle">III Дыхание</text>
+    <text x="420" y="140" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">ПВК + O2 -&gt;</text>
+    <text x="420" y="152" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">CO2 + H2O</text>
+    <text x="420" y="162" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">36 АТФ (мито.)</text>
+    
+    <!-- Krebs cycle diagram -->
+    <rect x="20" y="175" width="230" height="120" rx="4" fill="#F1F8E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="135" y="192" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">Цикл Кребса (митохондрия)</text>
+    
+    <!-- Circular representation -->
+    <ellipse cx="135" cy="245" rx="50" ry="35" fill="none" stroke="#66BB6A" stroke-width="2"/>
+    <!-- Cycle steps -->
+    <text x="135" y="220" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Ацетил-КоА</text>
+    <text x="185" y="235" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Цитрат</text>
+    <text x="175" y="260" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">a-КГ</text>
+    <text x="135" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Сукцинат</text>
+    <text x="95" y="260" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Фумарат</text>
+    <text x="85" y="235" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Малат</text>
+    <!-- CO2 and NADH outputs -->
+    <text x="135" y="290" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">2CO2 + 3NADH + FADH2 + АТФ</text>
+    
+    <!-- ETC -->
+    <rect x="260" y="175" width="220" height="120" rx="4" fill="#F1F8E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="370" y="192" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">Электрон-транспортная цепь</text>
+    
+    <!-- Membrane with complexes -->
+    <line x1="275" y1="215" x2="465" y2="215" stroke="#888" stroke-width="2"/>
+    <line x1="275" y1="245" x2="465" y2="245" stroke="#888" stroke-width="2"/>
+    
+    <!-- Complexes I-IV -->
+    <rect x="285" y="210" width="25" height="40" rx="2" fill="#42A5F5"/>
+    <text x="297" y="234" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">I</text>
+    <rect x="325" y="210" width="25" height="40" rx="2" fill="#66BB6A"/>
+    <text x="337" y="234" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">II</text>
+    <rect x="365" y="210" width="25" height="40" rx="2" fill="#FFA726"/>
+    <text x="377" y="234" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">III</text>
+    <rect x="405" y="210" width="25" height="40" rx="2" fill="#EF5350"/>
+    <text x="417" y="234" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">IV</text>
+    
+    <!-- H+ flow -->
+    <text x="445" y="225" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">H+</text>
+    <text x="445" y="238" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">-&gt;</text>
+    
+    <!-- ATP synthase -->
+    <rect x="440" y="210" width="20" height="40" rx="2" fill="#9C27B0"/>
+    <text x="450" y="234" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">V</text>
+    
+    <!-- Labels -->
+    <text x="370" y="262" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">NADH, FADH2 -&gt; H+ градиент -&gt; АТФ</text>
+    <text x="370" y="278" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">O2 + H+ -&gt; H2O (конечный акцептор)</text>
+    <text x="370" y="290" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Итого: 36 АТФ на 1 глюкозу</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
 </svg>

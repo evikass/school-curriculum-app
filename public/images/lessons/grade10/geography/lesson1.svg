@@ -6,28 +6,66 @@
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+      <stop offset="100%" stop-color="#00796B"/>
     </linearGradient>
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Государства на политической карт...</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#26A69A" text-anchor="middle">Государства на политической карте мира</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 1</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/><ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/><line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/><path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+    
+<rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
+<!-- Simplified world map continents -->
+<!-- North America -->
+<path d="M40,120 L55,105 L80,100 L105,108 L115,120 L110,140 L100,155 L85,165 L75,180 L60,185 L50,175 L40,155 L35,135 Z" fill="#80CBC4" stroke="#00796B" stroke-width="1.5"/>
+<!-- South America -->
+<path d="M80,195 L95,188 L105,195 L110,210 L108,230 L100,250 L90,270 L80,278 L72,265 L70,245 L72,225 L75,210 Z" fill="#80CBC4" stroke="#00796B" stroke-width="1.5"/>
+<!-- Europe -->
+<path d="M215,108 L230,100 L250,98 L265,105 L270,115 L260,125 L248,130 L235,128 L225,120 Z" fill="#80CBC4" stroke="#00796B" stroke-width="1.5"/>
+<!-- Africa -->
+<path d="M230,140 L250,135 L270,138 L280,150 L285,170 L280,195 L270,215 L260,235 L245,250 L235,255 L225,240 L220,215 L218,190 L220,165 Z" fill="#80CBC4" stroke="#00796B" stroke-width="1.5"/>
+<!-- Asia -->
+<path d="M270,100 L300,95 L330,98 L360,105 L385,115 L395,130 L390,150 L375,160 L350,165 L330,160 L310,155 L290,148 L275,135 L270,118 Z" fill="#80CBC4" stroke="#00796B" stroke-width="1.5"/>
+<!-- Australia -->
+<path d="M370,210 L395,205 L415,210 L420,225 L410,240 L390,245 L375,238 L368,225 Z" fill="#80CBC4" stroke="#00796B" stroke-width="1.5"/>
+<!-- Country labels -->
+<text x="70" y="145" font-family="Arial,sans-serif" font-size="7" fill="#004D40" text-anchor="middle">USA</text>
+<text x="75" y="155" font-family="Arial,sans-serif" font-size="6" fill="#004D40" text-anchor="middle">CAN</text>
+<text x="90" y="235" font-family="Arial,sans-serif" font-size="7" fill="#004D40" text-anchor="middle">BRA</text>
+<text x="245" y="115" font-family="Arial,sans-serif" font-size="7" fill="#004D40" text-anchor="middle">FRA</text>
+<text x="255" y="108" font-family="Arial,sans-serif" font-size="6" fill="#004D40" text-anchor="middle">DEU</text>
+<text x="250" y="195" font-family="Arial,sans-serif" font-size="7" fill="#004D40" text-anchor="middle">NGA</text>
+<text x="345" y="130" font-family="Arial,sans-serif" font-size="7" fill="#004D40" text-anchor="middle">CHN</text>
+<text x="310" y="125" font-family="Arial,sans-serif" font-size="6" fill="#004D40" text-anchor="middle">IND</text>
+<text x="380" y="125" font-family="Arial,sans-serif" font-size="6" fill="#004D40" text-anchor="middle">JPN</text>
+<text x="395" y="228" font-family="Arial,sans-serif" font-size="6" fill="#004D40" text-anchor="middle">AUS</text>
+<text x="240" y="155" font-family="Arial,sans-serif" font-size="6" fill="#004D40" text-anchor="middle">EGY</text>
+<text x="345" y="148" font-family="Arial,sans-serif" font-size="6" fill="#004D40" text-anchor="middle">RUS</text>
+<!-- Capital markers -->
+<circle cx="72" cy="140" r="2" fill="#D32F2F"/>
+<circle cx="88" cy="230" r="2" fill="#D32F2F"/>
+<circle cx="248" cy="112" r="2" fill="#D32F2F"/>
+<circle cx="345" cy="126" r="2" fill="#D32F2F"/>
+<circle cx="305" cy="121" r="2" fill="#D32F2F"/>
+<circle cx="250" cy="150" r="2" fill="#D32F2F"/>
+<!-- Legend -->
+<rect x="20" y="270" width="100" height="25" rx="3" fill="white" opacity="0.85" stroke="#00796B" stroke-width="0.5"/>
+<circle cx="30" cy="282" r="2" fill="#D32F2F"/>
+<text x="35" y="285" font-family="Arial,sans-serif" font-size="6" fill="#333">- столицы</text>
+<rect x="60" y="279" width="8" height="5" fill="#80CBC4" stroke="#00796B" stroke-width="0.5"/>
+<text x="72" y="285" font-family="Arial,sans-serif" font-size="6" fill="#333">- государства</text>
+<!-- Grid lines (latitude/longitude) -->
+<line x1="15" y1="135" x2="485" y2="135" stroke="#00796B" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.3"/>
+<line x1="15" y1="190" x2="485" y2="190" stroke="#00796B" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.3"/>
+<line x1="15" y1="245" x2="485" y2="245" stroke="#00796B" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.3"/>
+<text x="18" y="138" font-family="Arial,sans-serif" font-size="5" fill="#00796B" opacity="0.5">60°N</text>
+<text x="18" y="193" font-family="Arial,sans-serif" font-size="5" fill="#00796B" opacity="0.5">30°N</text>
+<text x="18" y="248" font-family="Arial,sans-serif" font-size="5" fill="#00796B" opacity="0.5">0°</text>
+
   </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
 </svg>

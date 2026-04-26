@@ -11,23 +11,88 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF7043" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#D84315" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#D84315" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FF7043" text-anchor="middle">Альдегиды и кетоны</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#FF7043" text-anchor="middle">Альдегиды и кетоны</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 9</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#FF7043" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#FF7043" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#D84315" opacity="0.12" rx="1"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FBE9E7" opacity="0.5"/>
-  <path d="M225,155 L225,195 L210,230 L290,230 L275,195 L275,155 Z" fill="none" stroke="#FF7043" stroke-width="2"/><line x1="220" y1="155" x2="280" y2="155" stroke="#FF7043" stroke-width="2.5"/><circle cx="240" cy="210" r="6" fill="#FF7043" opacity="0.4"/><circle cx="260" cy="215" r="8" fill="#D84315" opacity="0.3"/>
-  </g>
+
+    <rect x="15" y="85" width="470" height="215" fill="#FFF8F0" opacity="0.5"/>
+    
+    <!-- Carbonyl group -->
+    <rect x="20" y="90" width="200" height="28" rx="5" fill="#D84315"/>
+    <text x="120" y="109" font-family="Arial,sans-serif" font-size="12" fill="white" text-anchor="middle">Карбонильная: C=O</text>
+    
+    <!-- Aldehyde group -->
+    <text x="120" y="135" font-family="Arial,sans-serif" font-size="11" fill="#E53935" text-anchor="middle">Альдегидная группа</text>
+    <circle cx="60" cy="165" r="11" fill="#888" opacity="0.85"/>
+    <text x="60" y="170" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <circle cx="105" cy="165" r="14" fill="#333" opacity="0.85"/>
+    <text x="105" y="170" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <line x1="71" y1="165" x2="91" y2="165" stroke="#555" stroke-width="2.5"/>
+    <circle cx="105" cy="130" r="12" fill="#E53935" opacity="0.85"/>
+    <text x="105" y="135" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">O</text>
+    <line x1="107.5" y1="151.0" x2="107.5" y2="142.0" stroke="#555" stroke-width="2"/>
+    <line x1="102.5" y1="151.0" x2="102.5" y2="142.0" stroke="#555" stroke-width="2"/>
+    <text x="145" y="165" font-family="Arial,sans-serif" font-size="12" fill="#D84315" text-anchor="middle">-CHO</text>
+    
+    <!-- Formaldehyde -->
+    <text x="80" y="200" font-family="Arial,sans-serif" font-size="10" fill="#D84315" text-anchor="middle">Формальдегид HCHO</text>
+    <circle cx="40" cy="222" r="10" fill="#888" opacity="0.85"/>
+    <text x="40" y="227" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <circle cx="75" cy="222" r="12" fill="#333" opacity="0.85"/>
+    <text x="75" y="227" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <line x1="50" y1="222" x2="63" y2="222" stroke="#555" stroke-width="2.5"/>
+    <circle cx="75" cy="200" r="11" fill="#E53935" opacity="0.85"/>
+    <text x="75" y="205" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">O</text>
+    <line x1="77.5" y1="210.0" x2="77.5" y2="200.0" stroke="#555" stroke-width="2"/>
+    <line x1="72.5" y1="210.0" x2="72.5" y2="200.0" stroke="#555" stroke-width="2"/>
+    <circle cx="110" cy="222" r="10" fill="#888" opacity="0.85"/>
+    <text x="110" y="227" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="87" y1="222" x2="100" y2="222" stroke="#555" stroke-width="2.5"/>
+    
+    <!-- Ketone group -->
+    <text x="370" y="135" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle">Кетонная группа</text>
+    <circle cx="310" cy="165" r="12" fill="#888" opacity="0.85"/>
+    <text x="310" y="170" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">R</text>
+    <circle cx="355" cy="165" r="14" fill="#333" opacity="0.85"/>
+    <text x="355" y="170" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <line x1="322" y1="165" x2="341" y2="165" stroke="#555" stroke-width="2.5"/>
+    <circle cx="355" cy="130" r="12" fill="#1565C0" opacity="0.85"/>
+    <text x="355" y="135" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">O</text>
+    <line x1="357.5" y1="151.0" x2="357.5" y2="142.0" stroke="#555" stroke-width="2"/>
+    <line x1="352.5" y1="151.0" x2="352.5" y2="142.0" stroke="#555" stroke-width="2"/>
+    <circle cx="400" cy="165" r="12" fill="#888" opacity="0.85"/>
+    <text x="400" y="170" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">R'</text>
+    <line x1="369" y1="165" x2="388" y2="165" stroke="#555" stroke-width="2.5"/>
+    
+    <!-- Acetone -->
+    <text x="370" y="200" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">Ацетон CH3COCH3</text>
+    <circle cx="300" cy="225" r="12" fill="#333" opacity="0.85"/>
+    <text x="300" y="230" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">CH3</text>
+    <circle cx="350" cy="225" r="12" fill="#333" opacity="0.85"/>
+    <text x="350" y="230" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+    <line x1="312" y1="225" x2="338" y2="225" stroke="#555" stroke-width="2.5"/>
+    <circle cx="350" cy="202" r="11" fill="#1565C0" opacity="0.85"/>
+    <text x="350" y="207" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">O</text>
+    <line x1="352.5" y1="213.0" x2="352.5" y2="202.0" stroke="#555" stroke-width="2"/>
+    <line x1="347.5" y1="213.0" x2="347.5" y2="202.0" stroke="#555" stroke-width="2"/>
+    <circle cx="400" cy="225" r="12" fill="#333" opacity="0.85"/>
+    <text x="400" y="230" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">CH3</text>
+    <line x1="362" y1="225" x2="388" y2="225" stroke="#555" stroke-width="2.5"/>
+    
+    <!-- Silver mirror reaction -->
+    <rect x="20" y="245" width="220" height="50" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
+    <text x="130" y="260" font-family="Arial,sans-serif" font-size="9" fill="#D84315" text-anchor="middle">Реакция серебряного зеркала:</text>
+    <text x="130" y="273" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">RCHO + [Ag(NH3)2]+</text>
+    <text x="130" y="285" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">-&gt; RCOO- + Ag (осадок)</text>
+    
+    <!-- Properties comparison -->
+    <rect x="260" y="245" width="220" height="50" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
+    <text x="370" y="260" font-family="Arial,sans-serif" font-size="9" fill="#D84315" text-anchor="middle">Отличие:</text>
+    <text x="370" y="273" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Альдегид: C=O на конце цепи</text>
+    <text x="370" y="285" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Кетон: C=O в середине цепи</text>
+      </g>
   <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#FF7043" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#FF7043" stroke-width="1.5" opacity="0.6"/>
   <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Химия</text>
 </svg>
