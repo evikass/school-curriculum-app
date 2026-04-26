@@ -1,37 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#FCE4EC"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EC407A"/>
-      <stop offset="100%" stop-color="#C2185B"/>
-    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EC407A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EC407A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#EC407A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#C2185B" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EC407A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#C2185B" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EC407A" text-anchor="middle">Живопись, графика, скульптура</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ИЗО - Урок 1</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#EC407A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#EC407A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FCE4EC" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="50" fill="#FCE4EC" stroke="#EC407A" stroke-width="2"/>
-    <path d="M220,170 L250,210 L280,170" fill="none" stroke="#EC407A" stroke-width="2"/>
-    <circle cx="230" cy="175" r="8" fill="#EC407A" opacity="0.4"/>
-    <circle cx="270" cy="180" r="6" fill="#C2185B" opacity="0.5"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ИЗО</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="500" height="50" fill="#EC407A" rx="12"/>
+  <rect x="0" y="25" width="500" height="25" fill="#EC407A"/>
+  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 1. Живопись, графика, скульптура</text>
+  <rect x="15" y="60" width="150" height="270" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="60" width="150" height="25" fill="#EC407A" rx="8"/>
+  <rect x="15" y="77" width="150" height="8" fill="#EC407A"/>
+  <text x="90" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">🎨 Живопись</text>
+  <ellipse cx="90" cy="118" rx="25" ry="18" fill="#FCE4EC" stroke="#EC407A" stroke-width="1.5"/>
+  <circle cx="80" cy="112" r="3.5" fill="#E53935"/>
+  <circle cx="90" cy="106" r="3.5" fill="#1E88E5"/>
+  <circle cx="100" cy="112" r="3.5" fill="#FDD835"/>
+  <circle cx="95" cy="124" r="3.5" fill="#43A047"/>
+  <text x="25" y="148" fill="#AD1457" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Виды:</text>
+  <text x="25" y="162" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Станковая (картины)</text>
+  <text x="25" y="175" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Монументальная (стены)</text>
+  <text x="25" y="188" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Театр.-декорационная</text>
+  <text x="25" y="201" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Иконопись, миниатюра</text>
+  <text x="25" y="218" fill="#AD1457" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Материалы:</text>
+  <text x="25" y="232" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Масло, акварель, гуашь</text>
+  <text x="25" y="245" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Темпера, энкаустика</text>
+  <text x="25" y="258" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Акрил, аэрограф</text>
+  <text x="25" y="275" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Холст, бумага, дерево</text>
+  <text x="25" y="288" fill="#AD1457" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Основы:</text>
+  <text x="25" y="301" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Колорит, тон, мазок</text>
+  <text x="25" y="314" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Светотень, рефлекс</text>
+  <rect x="175" y="60" width="150" height="270" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="175" y="60" width="150" height="25" fill="#EC407A" rx="8"/>
+  <rect x="175" y="77" width="150" height="8" fill="#EC407A"/>
+  <text x="250" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">✏️ Графика</text>
+  <line x1="250" y1="98" x2="250" y2="125" stroke="#555" stroke-width="3"/>
+  <polygon points="247,125 253,125 250,132" fill="#FDD835"/>
+  <line x1="250" y1="98" x2="250" y2="103" stroke="#E53935" stroke-width="3"/>
+  <text x="185" y="148" fill="#AD1457" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Виды:</text>
+  <text x="185" y="162" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Рисунок, набросок</text>
+  <text x="185" y="175" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Станковая графика</text>
+  <text x="185" y="188" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Книжная (иллюстрация)</text>
+  <text x="185" y="201" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Плакат, афиша</text>
+  <text x="185" y="214" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Прикладная графика</text>
+  <text x="185" y="231" fill="#AD1457" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Техники:</text>
+  <text x="185" y="245" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Карандаш, уголь, соус</text>
+  <text x="185" y="258" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Сангина, пастель</text>
+  <text x="185" y="271" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Перо, тушь, акварель</text>
+  <text x="185" y="288" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Линогравюра, офорт</text>
+  <text x="185" y="301" fill="#AD1457" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Приёмы:</text>
+  <text x="185" y="314" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Штрих, штриховка, тон</text>
+  <rect x="335" y="60" width="150" height="270" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="335" y="60" width="150" height="25" fill="#EC407A" rx="8"/>
+  <rect x="335" y="77" width="150" height="8" fill="#EC407A"/>
+  <text x="410" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">🗿 Скульптура</text>
+  <ellipse cx="410" cy="115" rx="10" ry="13" fill="#FCE4EC" stroke="#EC407A" stroke-width="1.5"/>
+  <rect x="405" y="128" width="10" height="7" fill="#FCE4EC" stroke="#EC407A" stroke-width="1"/>
+  <rect x="398" y="135" width="24" height="3" fill="#EC407A" opacity="0.4" rx="1"/>
+  <text x="345" y="155" fill="#AD1457" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Виды:</text>
+  <text x="345" y="169" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Круглая (объёмная)</text>
+  <text x="345" y="182" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Рельеф (барельеф)</text>
+  <text x="345" y="195" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Горельеф, контррельеф</text>
+  <text x="345" y="208" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Станковая, монумент.</text>
+  <text x="345" y="225" fill="#AD1457" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Материалы:</text>
+  <text x="345" y="239" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Глина, пластилин</text>
+  <text x="345" y="252" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Мрамор, гранит, камень</text>
+  <text x="345" y="265" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Дерево, кость, металл</text>
+  <text x="345" y="278" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Бронза, гипс, стекло</text>
+  <text x="345" y="295" fill="#AD1457" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Способы:</text>
+  <text x="345" y="308" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Лепка, резьба, литьё</text>
+  <text x="345" y="321" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Ковка, чеканка, сборка</text>
 </svg>

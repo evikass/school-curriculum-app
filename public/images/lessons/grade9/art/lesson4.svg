@@ -1,37 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#FCE4EC"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EC407A"/>
-      <stop offset="100%" stop-color="#C2185B"/>
-    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EC407A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EC407A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#EC407A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#C2185B" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EC407A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#C2185B" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EC407A" text-anchor="middle">Искусство Возрождения</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ИЗО - Урок 4</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#EC407A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#EC407A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FCE4EC" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="50" fill="#FCE4EC" stroke="#EC407A" stroke-width="2"/>
-    <path d="M220,170 L250,210 L280,170" fill="none" stroke="#EC407A" stroke-width="2"/>
-    <circle cx="230" cy="175" r="8" fill="#EC407A" opacity="0.4"/>
-    <circle cx="270" cy="180" r="6" fill="#C2185B" opacity="0.5"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ИЗО</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="500" height="50" fill="#EC407A" rx="12"/>
+  <rect x="0" y="25" width="500" height="25" fill="#EC407A"/>
+  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 4. Искусство Возрождения</text>
+  <rect x="15" y="60" width="155" height="148" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="60" width="155" height="25" fill="#EC407A" rx="8"/>
+  <rect x="15" y="77" width="155" height="8" fill="#EC407A"/>
+  <text x="92" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Леонардо да Винчи</text>
+  <text x="25" y="98" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• «Мона Лиза» (1503)</text>
+  <text x="25" y="111" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• «Тайная вечеря» (1495)</text>
+  <text x="25" y="124" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• «Витрувианский чел.»</text>
+  <text x="25" y="137" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Сфумато — техника дымки</text>
+  <text x="25" y="153" fill="#AD1457" font-size="8" font-weight="bold" font-family="Arial,sans-serif">Учёный + художник</text>
+  <text x="25" y="166" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">1452–1519, Италия</text>
+  <text x="25" y="179" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Анатомия, оптика, механика</text>
+  <text x="25" y="192" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Воздушная перспектива</text>
+  <rect x="175" y="60" width="155" height="148" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="175" y="60" width="155" height="25" fill="#EC407A" rx="8"/>
+  <rect x="175" y="77" width="155" height="8" fill="#EC407A"/>
+  <text x="252" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Микеланджело</text>
+  <text x="185" y="98" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• «Давид» (1501–1504)</text>
+  <text x="185" y="111" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Сикстинская капелла</text>
+  <text x="185" y="124" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• «Пьета» (1499)</text>
+  <text x="185" y="137" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• «Сотворение Адама»</text>
+  <text x="185" y="153" fill="#AD1457" font-size="8" font-weight="bold" font-family="Arial,sans-serif">Скульптор + живописец</text>
+  <text x="185" y="166" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">1475–1564, Италия</text>
+  <text x="185" y="179" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Мрамор, фреска, терракота</text>
+  <text x="185" y="192" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Монументальность, динамика</text>
+  <rect x="335" y="60" width="150" height="148" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="335" y="60" width="150" height="25" fill="#EC407A" rx="8"/>
+  <rect x="335" y="77" width="150" height="8" fill="#EC407A"/>
+  <text x="410" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Рафаэль Санти</text>
+  <text x="345" y="98" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• «Сикстинская мадонна»</text>
+  <text x="345" y="111" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• «Афинская школа»</text>
+  <text x="345" y="124" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Станцы Ватикана</text>
+  <text x="345" y="137" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• 30+ мадонн</text>
+  <text x="345" y="153" fill="#AD1457" font-size="8" font-weight="bold" font-family="Arial,sans-serif">Мастер гармонии</text>
+  <text x="345" y="166" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">1483–1520, Италия</text>
+  <text x="345" y="179" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Идеал красоты, грация</text>
+  <text x="345" y="192" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Уравновешенность, ясность</text>
+  <rect x="15" y="218" width="230" height="112" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="218" width="230" height="25" fill="#AD1457" rx="8"/>
+  <rect x="15" y="235" width="230" height="8" fill="#AD1457"/>
+  <text x="130" y="235" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Новации Возрождения</text>
+  <text x="25" y="253" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Линейная перспектива (Брунеллески)</text>
+  <text x="25" y="266" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Воздушная перспектива</text>
+  <text x="25" y="279" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Анатомическая точность</text>
+  <text x="25" y="292" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Светотень (киароскуро)</text>
+  <text x="25" y="305" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Масляная живопись (Ван Эйк)</text>
+  <text x="25" y="318" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Антропоцентризм, гуманизм</text>
+  <rect x="255" y="218" width="230" height="112" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="255" y="218" width="230" height="25" fill="#AD1457" rx="8"/>
+  <rect x="255" y="235" width="230" height="8" fill="#AD1457"/>
+  <text x="370" y="235" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Периоды Возрождения</text>
+  <text x="265" y="253" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Проторенессанс (XIII–XIV вв.)</text>
+  <text x="265" y="266" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Раннее (XV — кватроченто)</text>
+  <text x="265" y="279" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Высокое (XVI — чинквеченто)</text>
+  <text x="265" y="292" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Позднее (маньеризм)</text>
+  <text x="265" y="308" fill="#AD1457" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Центр: Флоренция</text>
+  <text x="265" y="321" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Медичи — покровители иск.</text>
 </svg>

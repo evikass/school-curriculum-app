@@ -1,37 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#FCE4EC"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EC407A"/>
-      <stop offset="100%" stop-color="#C2185B"/>
-    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EC407A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EC407A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#EC407A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#C2185B" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EC407A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#C2185B" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EC407A" text-anchor="middle">Архитектура и дизайн</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ИЗО - Урок 2</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#EC407A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#EC407A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FCE4EC" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="50" fill="#FCE4EC" stroke="#EC407A" stroke-width="2"/>
-    <path d="M220,170 L250,210 L280,170" fill="none" stroke="#EC407A" stroke-width="2"/>
-    <circle cx="230" cy="175" r="8" fill="#EC407A" opacity="0.4"/>
-    <circle cx="270" cy="180" r="6" fill="#C2185B" opacity="0.5"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ИЗО</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="500" height="50" fill="#EC407A" rx="12"/>
+  <rect x="0" y="25" width="500" height="25" fill="#EC407A"/>
+  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 2. Архитектура и дизайн</text>
+  <rect x="15" y="60" width="230" height="140" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="60" width="230" height="25" fill="#EC407A" rx="8"/>
+  <rect x="15" y="77" width="230" height="8" fill="#EC407A"/>
+  <text x="130" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Стили архитектуры</text>
+  <polygon points="50,98 90,85 130,98" fill="#FCE4EC" stroke="#EC407A" stroke-width="1.5"/>
+  <rect x="58" y="98" width="4" height="18" fill="#EC407A" opacity="0.6"/>
+  <rect x="73" y="98" width="4" height="18" fill="#EC407A" opacity="0.6"/>
+  <rect x="88" y="98" width="4" height="18" fill="#EC407A" opacity="0.6"/>
+  <rect x="103" y="98" width="4" height="18" fill="#EC407A" opacity="0.6"/>
+  <rect x="118" y="98" width="4" height="18" fill="#EC407A" opacity="0.6"/>
+  <rect x="50" y="116" width="80" height="4" fill="#EC407A" opacity="0.4"/>
+  <text x="145" y="95" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Античность — ордер, колонны</text>
+  <text x="145" y="108" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Романский — арки, своды</text>
+  <text x="145" y="121" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Готика — витражи, шпили</text>
+  <text x="25" y="138" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Ренессанс — гармония, пропорции</text>
+  <text x="25" y="151" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Барокко — пышность, динамика</text>
+  <text x="25" y="164" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Классицизм — строгость, порядок</text>
+  <text x="25" y="177" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Модерн — плавность, растит.</text>
+  <text x="25" y="190" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Конструктивизм — функция</text>
+  <rect x="255" y="60" width="230" height="140" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="255" y="60" width="230" height="25" fill="#EC407A" rx="8"/>
+  <rect x="255" y="77" width="230" height="8" fill="#EC407A"/>
+  <text x="370" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Принципы дизайна</text>
+  <text x="265" y="95" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Единство и целостность</text>
+  <text x="265" y="108" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Баланс (симметрия / асимметрия)</text>
+  <text x="265" y="121" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Пропорции и масштабность</text>
+  <text x="265" y="134" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Ритм и повтор элементов</text>
+  <text x="265" y="147" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Контраст и нюанс</text>
+  <text x="265" y="160" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Доминанта — главный акцент</text>
+  <text x="265" y="173" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Функциональность формы</text>
+  <text x="265" y="186" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Иерархия визуальных элементов</text>
+  <text x="265" y="199" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Стилевое единство</text>
+  <rect x="15" y="210" width="230" height="120" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="210" width="230" height="25" fill="#AD1457" rx="8"/>
+  <rect x="15" y="227" width="230" height="8" fill="#AD1457"/>
+  <text x="130" y="227" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Элементы архитектуры</text>
+  <text x="25" y="245" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Фундамент, стены, перекрытия</text>
+  <text x="25" y="258" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Колонны, пилястры, капители</text>
+  <text x="25" y="271" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Арки, своды, купола, нефы</text>
+  <text x="25" y="284" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Фасад, портик, фронтон</text>
+  <text x="25" y="297" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Карниз, антаблемент, база</text>
+  <text x="25" y="310" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Витражи, розы, контрфорсы</text>
+  <text x="25" y="323" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Портал, апсида, трансепт</text>
+  <rect x="255" y="210" width="230" height="120" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="255" y="210" width="230" height="25" fill="#AD1457" rx="8"/>
+  <rect x="255" y="227" width="230" height="8" fill="#AD1457"/>
+  <text x="370" y="227" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Виды дизайна</text>
+  <text x="265" y="245" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Промышленный (предметный)</text>
+  <text x="265" y="258" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Графический дизайн</text>
+  <text x="265" y="271" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Интерьерный дизайн</text>
+  <text x="265" y="284" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Ландшафтный дизайн</text>
+  <text x="265" y="297" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Дизайн одежды и текстиля</text>
+  <text x="265" y="310" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Веб-дизайн, UX/UI</text>
+  <text x="265" y="323" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Средовой дизайн</text>
 </svg>

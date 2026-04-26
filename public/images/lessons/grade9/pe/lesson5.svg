@@ -1,39 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#E8F5E9"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4CAF50"/>
-      <stop offset="100%" stop-color="#1B5E20"/>
-    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4CAF50" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#4CAF50" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1B5E20" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1B5E20" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#4CAF50" text-anchor="middle">Прыжки в длину и высоту</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физкультура - Урок 5</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#4CAF50" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#4CAF50" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1B5E20" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  
-    <circle cx="250" cy="165" r="15" fill="none" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="180" x2="250" y2="215" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="195" x2="225" y2="210" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="195" x2="275" y2="210" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="215" x2="230" y2="245" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="215" x2="270" y2="245" stroke="#4CAF50" stroke-width="2"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#4CAF50" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#4CAF50" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физкультура</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="500" height="50" fill="#66BB6A" rx="12"/>
+  <rect x="0" y="25" width="500" height="25" fill="#66BB6A"/>
+  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 5. Прыжки в длину и высоту</text>
+  <!-- Long jump panel -->
+  <rect x="15" y="60" width="230" height="140" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
+  <rect x="15" y="77" width="230" height="8" fill="#66BB6A"/>
+  <text x="130" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Прыжок в длину</text>
+  <!-- Jump arc -->
+  <path d="M30,170 Q70,110 130,165" fill="none" stroke="#66BB6A" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="25" y1="170" x2="160" y2="170" stroke="#999" stroke-width="0.5"/>
+  <!-- Phases -->
+  <circle cx="30" cy="170" r="3" fill="#2E7D32"/>
+  <text x="25" y="183" fill="#666" font-size="7" font-family="Arial,sans-serif">отталк.</text>
+  <circle cx="80" cy="120" r="3" fill="#2E7D32"/>
+  <text x="72" y="115" fill="#666" font-size="7" font-family="Arial,sans-serif">полёт</text>
+  <circle cx="130" cy="165" r="3" fill="#2E7D32"/>
+  <text x="120" y="183" fill="#666" font-size="7" font-family="Arial,sans-serif">приземл.</text>
+  <text x="25" y="200" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Фазы прыжка:</text>
+  <text x="25" y="195" fill="#333" font-size="9" font-family="Arial,sans-serif">1. Разбег (15–20 м)</text>
+  <text x="130" y="195" fill="#333" font-size="9" font-family="Arial,sans-serif">2. Отталкивание</text>
+  <text x="25" y="208" fill="#333" font-size="9" font-family="Arial,sans-serif">3. Полёт (шаг/прогнувшись)</text>
+  <text x="25" y="221" fill="#333" font-size="9" font-family="Arial,sans-serif">4. Приземление (пятки→мост)</text>
+
+  <!-- High jump panel -->
+  <rect x="255" y="60" width="230" height="140" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="255" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
+  <rect x="255" y="77" width="230" height="8" fill="#66BB6A"/>
+  <text x="370" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Прыжок в высоту</text>
+  <!-- High jump arc (Fosbury flop) -->
+  <rect x="340" y="120" width="60" height="3" fill="#E53935"/>
+  <rect x="335" y="105" width="5" height="30" fill="#999"/>
+  <rect x="400" y="105" width="5" height="30" fill="#999"/>
+  <path d="M310,170 Q340,90 380,170" fill="none" stroke="#66BB6A" stroke-width="2"/>
+  <text x="310" y="185" fill="#666" font-size="7" font-family="Arial,sans-serif">разбег</text>
+  <text x="350" y="185" fill="#666" font-size="7" font-family="Arial,sans-serif">планку</text>
+  <text x="265" y="200" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Способ: фосбюри-флоп</text>
+  <text x="265" y="213" fill="#333" font-size="9" font-family="Arial,sans-serif">1. Разбег (дугой, 8–10 шагов)</text>
+  <text x="265" y="226" fill="#333" font-size="9" font-family="Arial,sans-serif">2. Отталкивание (дальн. нога)</text>
+  <text x="265" y="239" fill="#333" font-size="9" font-family="Arial,sans-serif">3. Переход спиной</text>
+  <text x="265" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">4. Приземление на спину</text>
+
+  <!-- Safety panel -->
+  <rect x="15" y="210" width="470" height="110" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="210" width="470" height="25" fill="#2E7D32" rx="8"/>
+  <rect x="15" y="227" width="470" height="8" fill="#2E7D32"/>
+  <text x="250" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Техника безопасности при прыжках</text>
+  <text x="25" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">• Яма с песком (длина) или маты (высота) — проверять перед прыжком!</text>
+  <text x="25" y="265" fill="#333" font-size="9" font-family="Arial,sans-serif">• Разминка: голеностоп, колено, тазобедренный сустав</text>
+  <text x="25" y="278" fill="#333" font-size="9" font-family="Arial,sans-serif">• Приземление на обе ноги (длина), на спину/мат (высота)</text>
+  <text x="25" y="291" fill="#333" font-size="9" font-family="Arial,sans-serif">• Очистка обуви от песка перед разбегом</text>
+  <text x="25" y="304" fill="#333" font-size="9" font-family="Arial,sans-serif">• Не пересекать сектор приземления! Ожидать команды преподавателя</text>
+  <text x="25" y="317" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Нормативы (9 кл.): длина — 4.40 м (м), 3.60 м (д); высота — 1.25 м (м), 1.05 м (д)</text>
 </svg>

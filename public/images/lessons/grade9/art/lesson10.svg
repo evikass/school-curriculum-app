@@ -1,37 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#FCE4EC"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EC407A"/>
-      <stop offset="100%" stop-color="#C2185B"/>
-    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EC407A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EC407A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#EC407A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#C2185B" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EC407A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#C2185B" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EC407A" text-anchor="middle">Направления XX-XXI веков</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ИЗО - Урок 10</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#EC407A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#EC407A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FCE4EC" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="50" fill="#FCE4EC" stroke="#EC407A" stroke-width="2"/>
-    <path d="M220,170 L250,210 L280,170" fill="none" stroke="#EC407A" stroke-width="2"/>
-    <circle cx="230" cy="175" r="8" fill="#EC407A" opacity="0.4"/>
-    <circle cx="270" cy="180" r="6" fill="#C2185B" opacity="0.5"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ИЗО</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="500" height="50" fill="#EC407A" rx="12"/>
+  <rect x="0" y="25" width="500" height="25" fill="#EC407A"/>
+  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 10. Направления XX–XXI веков</text>
+  <rect x="15" y="60" width="115" height="130" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="60" width="115" height="25" fill="#EC407A" rx="8"/>
+  <rect x="15" y="77" width="115" height="8" fill="#EC407A"/>
+  <text x="72" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Кубизм</text>
+  <polygon points="60,98 80,93 85,108 75,118 55,113" fill="none" stroke="#EC407A" stroke-width="1.5"/>
+  <line x1="60" y1="98" x2="75" y2="108" stroke="#EC407A" stroke-width="0.8"/>
+  <line x1="80" y1="93" x2="65" y2="113" stroke="#EC407A" stroke-width="0.8"/>
+  <text x="25" y="135" fill="#333" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Пикассо, Брак</text>
+  <text x="25" y="148" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">Геометрия форм</text>
+  <text x="25" y="160" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">Многогранность</text>
+  <text x="25" y="172" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">Разложение формы</text>
+  <text x="25" y="184" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">1907–1920</text>
+  <rect x="135" y="60" width="115" height="130" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="135" y="60" width="115" height="25" fill="#EC407A" rx="8"/>
+  <rect x="135" y="77" width="115" height="8" fill="#EC407A"/>
+  <text x="192" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Сюрреализм</text>
+  <ellipse cx="192" cy="103" rx="14" ry="9" fill="#FCE4EC" stroke="#EC407A" stroke-width="1.2"/>
+  <path d="M192,98 Q200,113 195,123" fill="none" stroke="#EC407A" stroke-width="1.5"/>
+  <text x="145" y="135" fill="#333" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Дали, Магритт</text>
+  <text x="145" y="148" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">Подсознание</text>
+  <text x="145" y="160" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">Сны, ирреальное</text>
+  <text x="145" y="172" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">Парадоксы</text>
+  <text x="145" y="184" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">1924–1960</text>
+  <rect x="255" y="60" width="115" height="130" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="255" y="60" width="115" height="25" fill="#EC407A" rx="8"/>
+  <rect x="255" y="77" width="115" height="8" fill="#EC407A"/>
+  <text x="312" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Абстракция</text>
+  <circle cx="295" cy="102" r="11" fill="#E53935" opacity="0.6"/>
+  <rect x="308" y="93" width="18" height="18" fill="#1E88E5" opacity="0.5" transform="rotate(15,317,102)"/>
+  <polygon points="300,116 310,108 320,116" fill="#FDD835" opacity="0.6"/>
+  <text x="265" y="135" fill="#333" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Кандинский, Мондриан</text>
+  <text x="265" y="148" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">Беспредметность</text>
+  <text x="265" y="160" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">Цвет и форма</text>
+  <text x="265" y="172" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">Чистая экспрессия</text>
+  <text x="265" y="184" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">1910–наст. время</text>
+  <rect x="375" y="60" width="110" height="130" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="375" y="60" width="110" height="25" fill="#EC407A" rx="8"/>
+  <rect x="375" y="77" width="110" height="8" fill="#EC407A"/>
+  <text x="430" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Поп-арт</text>
+  <circle cx="415" cy="100" r="5" fill="#E53935"/>
+  <circle cx="435" cy="100" r="5" fill="#FDD835"/>
+  <circle cx="455" cy="100" r="5" fill="#1E88E5"/>
+  <circle cx="415" cy="115" r="5" fill="#FDD835"/>
+  <circle cx="435" cy="115" r="5" fill="#43A047"/>
+  <circle cx="455" cy="115" r="5" fill="#E53935"/>
+  <text x="385" y="135" fill="#333" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Уорхол, Лихтенштейн</text>
+  <text x="385" y="148" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">Масс-культура</text>
+  <text x="385" y="160" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">Реклама, комикс</text>
+  <text x="385" y="172" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">Ирония, повтор</text>
+  <text x="385" y="184" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">1958–1975</text>
+  <rect x="15" y="200" width="235" height="120" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="200" width="235" height="25" fill="#AD1457" rx="8"/>
+  <rect x="15" y="217" width="235" height="8" fill="#AD1457"/>
+  <text x="132" y="217" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Другие направления</text>
+  <text x="25" y="235" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Экспрессионизм — эмоции, Мунк</text>
+  <text x="25" y="248" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Фовизм — дикий цвет, Матисс</text>
+  <text x="25" y="261" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Супрематизм — Малевич, «Чёрн. кв.»</text>
+  <text x="25" y="274" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Конструктивизм — Татлин, Родченко</text>
+  <text x="25" y="287" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Оп-арт — иллюзия движения</text>
+  <text x="25" y="300" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Минимализм — простота форм</text>
+  <text x="25" y="313" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Неоэкспрессионизм, трансаvantгард</text>
+  <rect x="260" y="200" width="225" height="120" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
+  <rect x="260" y="200" width="225" height="25" fill="#AD1457" rx="8"/>
+  <rect x="260" y="217" width="225" height="8" fill="#AD1457"/>
+  <text x="372" y="217" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Современное искусство</text>
+  <text x="270" y="235" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Инсталляция — пространство</text>
+  <text x="270" y="248" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Перформанс — действие</text>
+  <text x="270" y="261" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Концептуализм — идея важнее</text>
+  <text x="270" y="274" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Стрит-арт — Бэнкси, уличное</text>
+  <text x="270" y="287" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Медиа-арт — видео, звук</text>
+  <text x="270" y="300" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Био-арт — наука + искусство</text>
+  <text x="270" y="313" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">• ИИ-арт — алгоритмическое</text>
 </svg>

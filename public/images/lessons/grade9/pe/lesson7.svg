@@ -1,39 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#E8F5E9"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4CAF50"/>
-      <stop offset="100%" stop-color="#1B5E20"/>
-    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4CAF50" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#4CAF50" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1B5E20" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#4CAF50" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#1B5E20" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#4CAF50" text-anchor="middle">Баскетбол</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физкультура - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#4CAF50" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#4CAF50" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1B5E20" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  
-    <circle cx="250" cy="165" r="15" fill="none" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="180" x2="250" y2="215" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="195" x2="225" y2="210" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="195" x2="275" y2="210" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="215" x2="230" y2="245" stroke="#4CAF50" stroke-width="2"/>
-    <line x1="250" y1="215" x2="270" y2="245" stroke="#4CAF50" stroke-width="2"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#4CAF50" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#4CAF50" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физкультура</text>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="500" height="50" fill="#66BB6A" rx="12"/>
+  <rect x="0" y="25" width="500" height="25" fill="#66BB6A"/>
+  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 7. Баскетбол</text>
+  <!-- Rules panel -->
+  <rect x="15" y="60" width="155" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="60" width="155" height="25" fill="#66BB6A" rx="8"/>
+  <rect x="15" y="77" width="155" height="8" fill="#66BB6A"/>
+  <text x="92" y="78" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Правила игры</text>
+  <!-- Basketball icon -->
+  <circle cx="55" cy="110" r="18" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/>
+  <line x1="37" y1="110" x2="73" y2="110" stroke="#E65100" stroke-width="0.8"/>
+  <path d="M55,92 Q60,110 55,128" fill="none" stroke="#E65100" stroke-width="0.8"/>
+  <text x="25" y="142" fill="#333" font-size="8" font-family="Arial,sans-serif">• 5 игроков на площадке</text>
+  <text x="25" y="154" fill="#333" font-size="8" font-family="Arial,sans-serif">• 4 четверти по 10 мин</text>
+  <text x="25" y="166" fill="#333" font-size="8" font-family="Arial,sans-serif">• 3 очка (дальн.), 2, 1 (штр.)</text>
+  <text x="25" y="178" fill="#333" font-size="8" font-family="Arial,sans-serif">• 24 сек на атаку</text>
+  <text x="25" y="190" fill="#333" font-size="8" font-family="Arial,sans-serif">• Дриблинг, пас, бросок</text>
+
+  <!-- Dribbling and passing -->
+  <rect x="175" y="60" width="155" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="175" y="60" width="155" height="25" fill="#66BB6A" rx="8"/>
+  <rect x="175" y="77" width="155" height="8" fill="#66BB6A"/>
+  <text x="252" y="78" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Ведение и пасы</text>
+  <text x="185" y="100" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Дриблинг:</text>
+  <text x="185" y="113" fill="#333" font-size="8" font-family="Arial,sans-serif">• Кисть, пальцы (не ладонь)</text>
+  <text x="185" y="125" fill="#333" font-size="8" font-family="Arial,sans-serif">• Высота до пояса</text>
+  <text x="185" y="137" fill="#333" font-size="8" font-family="Arial,sans-serif">• Слабая рука — тоже!</text>
+  <text x="185" y="153" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Пасы:</text>
+  <text x="185" y="166" fill="#333" font-size="8" font-family="Arial,sans-serif">• Двумя от груди</text>
+  <text x="185" y="178" fill="#333" font-size="8" font-family="Arial,sans-serif">• Одной от плеча</text>
+  <text x="185" y="190" fill="#333" font-size="8" font-family="Arial,sans-serif">• Подкрутка, от пола</text>
+
+  <!-- Shooting -->
+  <rect x="335" y="60" width="150" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="335" y="60" width="150" height="25" fill="#66BB6A" rx="8"/>
+  <rect x="335" y="77" width="150" height="8" fill="#66BB6A"/>
+  <text x="410" y="78" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Броски</text>
+  <text x="345" y="100" fill="#333" font-size="8" font-family="Arial,sans-serif">• Двумя от груди</text>
+  <text x="345" y="112" fill="#333" font-size="8" font-family="Arial,sans-serif">• Одной рукой сверху</text>
+  <text x="345" y="124" fill="#333" font-size="8" font-family="Arial,sans-serif">• Крюком</text>
+  <text x="345" y="136" fill="#333" font-size="8" font-family="Arial,sans-serif">• В прыжке</text>
+  <text x="345" y="152" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Техника броска:</text>
+  <text x="345" y="164" fill="#333" font-size="8" font-family="Arial,sans-serif">1. Стойка, ноги согнуты</text>
+  <text x="345" y="176" fill="#333" font-size="8" font-family="Arial,sans-serif">2. Прыжок вверх</text>
+  <text x="345" y="188" fill="#333" font-size="8" font-family="Arial,sans-serif">3. Выпуск в высшей т.</text>
+
+  <!-- Defense and tactics -->
+  <rect x="15" y="200" width="230" height="120" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="200" width="230" height="25" fill="#2E7D32" rx="8"/>
+  <rect x="15" y="217" width="230" height="8" fill="#2E7D32"/>
+  <text x="130" y="218" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Защита и тактика</text>
+  <text x="25" y="242" fill="#333" font-size="9" font-family="Arial,sans-serif">• Личная опека (1 на 1)</text>
+  <text x="25" y="255" fill="#333" font-size="9" font-family="Arial,sans-serif">• Зонная защита (2-3, 3-2)</text>
+  <text x="25" y="268" fill="#333" font-size="9" font-family="Arial,sans-serif">• Перехват, блок-шот</text>
+  <text x="25" y="281" fill="#333" font-size="9" font-family="Arial,sans-serif">• Подбор на щите</text>
+  <text x="25" y="294" fill="#333" font-size="9" font-family="Arial,sans-serif">• Быстрый отрыв (фаст-брейк)</text>
+  <text x="25" y="310" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Нарушения: пробежка, двойн.</text>
+
+  <!-- Court diagram -->
+  <rect x="255" y="200" width="230" height="120" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="255" y="200" width="230" height="25" fill="#2E7D32" rx="8"/>
+  <rect x="255" y="217" width="230" height="8" fill="#2E7D32"/>
+  <text x="370" y="218" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Площадка</text>
+  <!-- Court outline -->
+  <rect x="270" y="235" width="200" height="75" fill="none" stroke="#66BB6A" stroke-width="1.5" rx="3"/>
+  <line x1="370" y1="235" x2="370" y2="310" stroke="#66BB6A" stroke-width="1"/>
+  <circle cx="370" cy="272" r="12" fill="none" stroke="#66BB6A" stroke-width="1"/>
+  <!-- Basket areas -->
+  <path d="M270,257 Q290,272 270,287" fill="none" stroke="#66BB6A" stroke-width="1"/>
+  <path d="M470,257 Q450,272 470,287" fill="none" stroke="#66BB6A" stroke-width="1"/>
+  <text x="370" y="325" text-anchor="middle" fill="#666" font-size="8" font-family="Arial,sans-serif">28 м × 15 м, корзина 3.05 м</text>
 </svg>
