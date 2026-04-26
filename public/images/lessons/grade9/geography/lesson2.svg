@@ -1,37 +1,96 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E0F2F1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#26A69A" text-anchor="middle">Административно-территориальное ...</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 2</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#26A69A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#00695C" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E0F2F1" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="45" fill="none" stroke="#26A69A" stroke-width="2"/>
-    <ellipse cx="250" cy="190" rx="20" ry="45" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <line x1="205" y1="190" x2="295" y2="190" stroke="#26A69A" stroke-width="1" opacity="0.5"/>
-    <path d="M230,175 Q250,165 270,180 Q260,200 240,195 Z" fill="#26A69A" opacity="0.2"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
+  <!-- Lesson number badge -->
+  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
+  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+  <!-- Title -->
+  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Административно-территориальное деление</text>
+  <!-- Decorative line -->
+  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- Definition -->
+  <rect x="15" y="62" width="470" height="35" rx="6" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+  <text x="25" y="78" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">ФЕДЕРАЛЬНЫЕ ОКРУГА:</text>
+  <text x="170" y="78" font-family="Arial,sans-serif" font-size="9" fill="#333333">8 округов — верхний уровень территориального деления РФ</text>
+  <!-- Federal districts table -->
+  <g transform="translate(15, 102)">
+    <rect x="0" y="0" width="300" height="155" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+    <text x="150" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">ФЕДЕРАЛЬНЫЕ ОКРУГА РФ</text>
+    <line x1="5" y1="22" x2="295" y2="22" stroke="#80CBC4" stroke-width="0.5"/>
+    <!-- Row headers -->
+    <text x="10" y="34" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">Округ</text>
+    <text x="170" y="34" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">Центр</text>
+    <text x="260" y="34" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">Субъектов</text>
+    <line x1="5" y1="38" x2="295" y2="38" stroke="#E0E0E0" stroke-width="0.5"/>
+    <!-- Data rows -->
+    <rect x="5" y="40" width="290" height="14" fill="#E0F2F1" opacity="0.5"/>
+    <text x="10" y="51" font-family="Arial,sans-serif" font-size="8" fill="#333">Центральный</text>
+    <text x="170" y="51" font-family="Arial,sans-serif" font-size="8" fill="#333">Москва</text>
+    <text x="270" y="51" font-family="Arial,sans-serif" font-size="8" fill="#333">18</text>
+    <text x="10" y="65" font-family="Arial,sans-serif" font-size="8" fill="#333">Северо-Западный</text>
+    <text x="170" y="65" font-family="Arial,sans-serif" font-size="8" fill="#333">С.-Петербург</text>
+    <text x="270" y="65" font-family="Arial,sans-serif" font-size="8" fill="#333">11</text>
+    <rect x="5" y="69" width="290" height="14" fill="#E0F2F1" opacity="0.5"/>
+    <text x="10" y="80" font-family="Arial,sans-serif" font-size="8" fill="#333">Южный</text>
+    <text x="170" y="80" font-family="Arial,sans-serif" font-size="8" fill="#333">Ростов-на-Дону</text>
+    <text x="270" y="80" font-family="Arial,sans-serif" font-size="8" fill="#333">8</text>
+    <text x="10" y="94" font-family="Arial,sans-serif" font-size="8" fill="#333">Приволжский</text>
+    <text x="170" y="94" font-family="Arial,sans-serif" font-size="8" fill="#333">Н.Новгород</text>
+    <text x="270" y="94" font-family="Arial,sans-serif" font-size="8" fill="#333">14</text>
+    <rect x="5" y="98" width="290" height="14" fill="#E0F2F1" opacity="0.5"/>
+    <text x="10" y="109" font-family="Arial,sans-serif" font-size="8" fill="#333">Уральский</text>
+    <text x="170" y="109" font-family="Arial,sans-serif" font-size="8" fill="#333">Екатеринбург</text>
+    <text x="270" y="109" font-family="Arial,sans-serif" font-size="8" fill="#333">6</text>
+    <text x="10" y="123" font-family="Arial,sans-serif" font-size="8" fill="#333">Сибирский</text>
+    <text x="170" y="123" font-family="Arial,sans-serif" font-size="8" fill="#333">Новосибирск</text>
+    <text x="270" y="123" font-family="Arial,sans-serif" font-size="8" fill="#333">10</text>
+    <rect x="5" y="127" width="290" height="14" fill="#E0F2F1" opacity="0.5"/>
+    <text x="10" y="138" font-family="Arial,sans-serif" font-size="8" fill="#333">Дальневосточный</text>
+    <text x="170" y="138" font-family="Arial,sans-serif" font-size="8" fill="#333">Владивосток</text>
+    <text x="270" y="138" font-family="Arial,sans-serif" font-size="8" fill="#333">11</text>
+    <text x="10" y="152" font-family="Arial,sans-serif" font-size="8" fill="#333">Северо-Кавказский</text>
+    <text x="170" y="152" font-family="Arial,sans-serif" font-size="8" fill="#333">Пятигорск</text>
+    <text x="270" y="152" font-family="Arial,sans-serif" font-size="8" fill="#333">7</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#26A69A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
+  <!-- Map diagram -->
+  <g transform="translate(325, 102)">
+    <rect x="0" y="0" width="160" height="155" rx="8" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
+    <text x="80" y="17" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#26A69A" text-anchor="middle">СХЕМА РАЗМЕЩЕНИЯ</text>
+    <!-- Simplified map blocks -->
+    <rect x="55" y="25" width="50" height="22" rx="4" fill="#26A69A" opacity="0.6"/>
+    <text x="80" y="39" font-family="Arial,sans-serif" font-size="7" fill="#FFF" text-anchor="middle">ЦФО</text>
+    <rect x="25" y="30" width="28" height="17" rx="3" fill="#7E57C2" opacity="0.6"/>
+    <text x="39" y="42" font-family="Arial,sans-serif" font-size="6" fill="#FFF" text-anchor="middle">СЗФО</text>
+    <rect x="55" y="50" width="30" height="17" rx="3" fill="#FF8A65" opacity="0.6"/>
+    <text x="70" y="62" font-family="Arial,sans-serif" font-size="6" fill="#FFF" text-anchor="middle">ЮФО</text>
+    <rect x="40" y="50" width="14" height="17" rx="2" fill="#E53935" opacity="0.6"/>
+    <text x="47" y="62" font-family="Arial,sans-serif" font-size="5" fill="#FFF" text-anchor="middle">СК</text>
+    <rect x="30" y="68" width="45" height="22" rx="4" fill="#FFB74D" opacity="0.7"/>
+    <text x="52" y="82" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">ПФО</text>
+    <rect x="78" y="68" width="35" height="22" rx="4" fill="#A1887F" opacity="0.6"/>
+    <text x="95" y="82" font-family="Arial,sans-serif" font-size="7" fill="#FFF" text-anchor="middle">УФО</text>
+    <rect x="78" y="93" width="45" height="22" rx="4" fill="#4DB6AC" opacity="0.7"/>
+    <text x="100" y="107" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">СФО</text>
+    <rect x="100" y="118" width="50" height="22" rx="4" fill="#42A5F5" opacity="0.6"/>
+    <text x="125" y="132" font-family="Arial,sans-serif" font-size="7" fill="#FFF" text-anchor="middle">ДВФО</text>
+  </g>
+  <!-- Key points -->
+  <rect x="15" y="265" width="470" height="75" rx="6" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
+  <text x="25" y="282" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">КЛЮЧЕВЫЕ ПОНЯТИЯ:</text>
+  <text x="25" y="297" font-family="Arial,sans-serif" font-size="9" fill="#333333">• Полпред Президента — представитель в федеральном округе</text>
+  <text x="25" y="311" font-family="Arial,sans-serif" font-size="9" fill="#333333">• Округа не являются конституционными единицами — административная форма</text>
+  <text x="25" y="325" font-family="Arial,sans-serif" font-size="9" fill="#333333">• Каждый субъект имеет свой устав/конституцию и законодательство</text>
 </svg>

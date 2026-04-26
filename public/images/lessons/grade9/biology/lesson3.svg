@@ -1,38 +1,88 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#66BB6A"/>
-      <stop offset="100%" stop-color="#2E7D32"/>
+    <filter id="shadow3" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000033"/>
+    </filter>
+    <linearGradient id="speciesGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A5D6A7"/>
+      <stop offset="100%" stop-color="#66BB6A"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#2E7D32" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#66BB6A" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#66BB6A" text-anchor="middle">Вид и его критерии</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#66BB6A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#2E7D32" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9" opacity="0.5"/>
-  
-    <circle cx="250" cy="190" r="35" fill="none" stroke="#66BB6A" stroke-width="2"/>
-    <circle cx="250" cy="190" r="25" fill="none" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-    <circle cx="240" cy="180" r="8" fill="#66BB6A" opacity="0.5"/>
-    <circle cx="262" cy="198" r="6" fill="#2E7D32" opacity="0.4"/>
-    <ellipse cx="250" cy="190" rx="12" ry="35" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.4"/>
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#66BB6A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="#E8F5E9"/>
+  <rect x="0" y="0" width="500" height="52" rx="12" fill="#388E3C"/>
+  <rect x="0" y="20" width="500" height="32" fill="#388E3C"/>
+  <!-- Header -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="white">Урок 3: Вид и его критерии</text>
+  <!-- Subtitle line -->
+  <line x1="80" y1="50" x2="420" y2="50" stroke="#A5D6A7" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Definition box -->
+  <rect x="15" y="58" width="470" height="32" rx="6" fill="#66BB6A" opacity="0.2"/>
+  <text x="250" y="73" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Вид — совокупность особей, сходных по строению,</text>
+  <text x="250" y="85" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">обитающих на одной территории и дающих плодовитое потомство</text>
+
+  <!-- 1. Morphological criterion -->
+  <rect x="15" y="96" width="230" height="72" rx="8" fill="white" opacity="0.9" filter="url(#shadow3)"/>
+  <rect x="15" y="96" width="230" height="18" rx="8" fill="#43A047" opacity="0.85"/>
+  <rect x="15" y="108" width="230" height="6" fill="#43A047" opacity="0.85"/>
+  <text x="130" y="111" text-anchor="middle" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="white">Морфологический</text>
+  <!-- Organism silhouette -->
+  <ellipse cx="40" cy="138" rx="12" ry="18" fill="url(#speciesGrad)" opacity="0.4"/>
+  <text x="60" y="130" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Сходство внешнего и внутреннего</text>
+  <text x="60" y="142" font-family="Arial,sans-serif" font-size="8.5" fill="#333">строения. Форма, размер, окраска</text>
+  <text x="25" y="157" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-style="italic">Но: виды-двойники (малярийный комар)</text>
+
+  <!-- 2. Genetic criterion -->
+  <rect x="255" y="96" width="230" height="72" rx="8" fill="white" opacity="0.9" filter="url(#shadow3)"/>
+  <rect x="255" y="96" width="230" height="18" rx="8" fill="#1565C0" opacity="0.85"/>
+  <rect x="255" y="108" width="230" height="6" fill="#1565C0" opacity="0.85"/>
+  <text x="370" y="111" text-anchor="middle" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="white">Генетический</text>
+  <!-- Chromosome icon -->
+  <path d="M275,130 Q280,138 275,146 M282,130 Q287,138 282,146" fill="none" stroke="#1565C0" stroke-width="2" stroke-linecap="round"/>
+  <text x="295" y="130" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Сходство набора хромосом</text>
+  <text x="295" y="142" font-family="Arial,sans-serif" font-size="8.5" fill="#333">и ДНК. Одинаковое 2n</text>
+  <text x="265" y="157" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" font-style="italic">Человек: 2n=46, Шимпанзе: 2n=48</text>
+
+  <!-- 3. Ecological criterion -->
+  <rect x="15" y="175" width="230" height="72" rx="8" fill="white" opacity="0.9" filter="url(#shadow3)"/>
+  <rect x="15" y="175" width="230" height="18" rx="8" fill="#FF8F00" opacity="0.85"/>
+  <rect x="15" y="187" width="230" height="6" fill="#FF8F00" opacity="0.85"/>
+  <text x="130" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="white">Экологический</text>
+  <!-- Niche icon -->
+  <circle cx="35" cy="218" r="8" fill="#FFF3E0" stroke="#FF8F00" stroke-width="1"/>
+  <text x="35" y="221" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#FF8F00">N</text>
+  <text x="50" y="210" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Занимаемая экологическая ниша</text>
+  <text x="50" y="222" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Приспособленность к условиям</text>
+  <text x="25" y="237" font-family="Arial,sans-serif" font-size="8" fill="#FF8F00" font-style="italic">Тип питания, местообитание, роль в экосистеме</text>
+
+  <!-- 4. Geographical criterion -->
+  <rect x="255" y="175" width="230" height="72" rx="8" fill="white" opacity="0.9" filter="url(#shadow3)"/>
+  <rect x="255" y="175" width="230" height="18" rx="8" fill="#6A1B9A" opacity="0.85"/>
+  <rect x="255" y="187" width="230" height="6" fill="#6A1B9A" opacity="0.85"/>
+  <text x="370" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="white">Географический</text>
+  <!-- Map pin icon -->
+  <path d="M275,210 C275,204 281,200 281,206 C281,210 275,220 275,220 C275,220 269,210 269,206 C269,200 275,204 275,210 Z" fill="#CE93D8" stroke="#6A1B9A" stroke-width="0.8"/>
+  <text x="290" y="210" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Определённый ареал обитания</text>
+  <text x="290" y="222" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Территория распространения вида</text>
+  <text x="265" y="237" font-family="Arial,sans-serif" font-size="8" fill="#6A1B9A" font-style="italic">Эндемики: только на одной территории</text>
+
+  <!-- 5. Physiological and 6. Biochemical -->
+  <rect x="15" y="254" width="230" height="55" rx="8" fill="white" opacity="0.9" filter="url(#shadow3)"/>
+  <rect x="15" y="254" width="115" height="18" rx="8" fill="#D84315" opacity="0.8"/>
+  <rect x="15" y="266" width="115" height="6" fill="#D84315" opacity="0.8"/>
+  <text x="72" y="269" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">Физиологический</text>
+  <text x="25" y="287" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Сходство процессов жизнедеятельности</text>
+  <text x="25" y="299" font-family="Arial,sans-serif" font-size="8" fill="#D84315" font-style="italic">Размножение, обмен веществ, ритмы</text>
+
+  <rect x="255" y="254" width="230" height="55" rx="8" fill="white" opacity="0.9" filter="url(#shadow3)"/>
+  <rect x="255" y="254" width="120" height="18" rx="8" fill="#00695C" opacity="0.8"/>
+  <rect x="255" y="266" width="120" height="6" fill="#00695C" opacity="0.8"/>
+  <text x="315" y="269" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">Биохимический</text>
+  <text x="265" y="287" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Сходство химического состава и белков</text>
+  <text x="265" y="299" font-family="Arial,sans-serif" font-size="8" fill="#00695C" font-style="italic">Структура ДНК, состав аминокислот</text>
+
+  <!-- Bottom rule -->
+  <rect x="15" y="315" width="470" height="28" rx="6" fill="#66BB6A" opacity="0.15"/>
+  <text x="250" y="333" text-anchor="middle" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#388E3C">Ни один критерий отдельно не определяет вид! Только их совокупность</text>
 </svg>
