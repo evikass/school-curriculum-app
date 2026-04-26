@@ -9,25 +9,81 @@
       <stop offset="100%" stop-color="#C2185B"/>
     </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EC407A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EC407A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#EC407A" opacity="0.12"/>
+  <!-- Border -->
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#880E4F" stroke-width="2.5"/>
+  <!-- Inner decorative border -->
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#880E4F" stroke-width="1" opacity="0.3"/>
+  <!-- Corner decorations -->
+  <polygon points="10,10 30,10 10,30" fill="#880E4F" opacity="0.12"/>
   <polygon points="490,10 470,10 490,30" fill="#C2185B" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EC407A" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#880E4F" opacity="0.12"/>
   <polygon points="490,340 470,340 490,320" fill="#C2185B" opacity="0.12"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#EC407A" text-anchor="middle">Современное искусство</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ИЗО - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#EC407A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#EC407A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <!-- Title -->
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#880E4F" text-anchor="middle">Современное искусство</text>
+  <!-- Subtitle -->
+  <text x="250" y="62" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Искусство — Урок 6</text>
+  <!-- Divider line -->
+  <line x1="30" y1="72" x2="470" y2="72" stroke="#880E4F" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="69" width="60" height="5" fill="#880E4F" opacity="0.18" rx="1"/>
+  <rect x="410" y="69" width="60" height="5" fill="#C2185B" opacity="0.12" rx="1"/>
+  <!-- Clip path for content area -->
+  <clipPath id="ill"><rect x="15" y="80" width="470" height="220" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FCE4EC" opacity="0.5"/>
-  <circle cx="250" cy="190" r="50" fill="#FCE4EC" stroke="#EC407A" stroke-width="2"/><path d="M220,170 L250,210 L280,170" fill="none" stroke="#EC407A" stroke-width="2"/><circle cx="230" cy="175" r="8" fill="#EC407A" opacity="0.4"/><circle cx="270" cy="180" r="6" fill="#C2185B" opacity="0.5"/>
+  <rect x="15" y="80" width="470" height="220" fill="#FCE4EC" opacity="0.4"/>
+    <!-- Pop Art -->
+    <rect x="25" y="95" width="145" height="85" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="97" y="112" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">Поп-арт</text>
+    <!-- Warhol-style repeated image -->
+    <rect x="42" y="120" width="22" height="22" fill="#880E4F" opacity="0.3" stroke="#880E4F" stroke-width="1"/>
+    <rect x="68" y="120" width="22" height="22" fill="#C2185B" opacity="0.3" stroke="#880E4F" stroke-width="1"/>
+    <rect x="94" y="120" width="22" height="22" fill="#EC407A" opacity="0.3" stroke="#880E4F" stroke-width="1"/>
+    <rect x="120" y="120" width="22" height="22" fill="#880E4F" opacity="0.5" stroke="#880E4F" stroke-width="1"/>
+    <!-- Soup can shape -->
+    <rect x="60" y="150" width="30" height="20" rx="3" fill="none" stroke="#880E4F" stroke-width="1.5"/>
+    <ellipse cx="75" cy="150" rx="15" ry="4" fill="none" stroke="#880E4F" stroke-width="1"/>
+    <text x="97" y="175" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Уорхол · Лихтенштейн</text>
+
+    <!-- Installation -->
+    <rect x="180" y="95" width="145" height="85" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="252" y="112" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">Инсталляция</text>
+    <!-- Room/box with objects -->
+    <rect x="210" y="125" width="50" height="40" fill="none" stroke="#880E4F" stroke-width="1.5"/>
+    <rect x="218" y="135" width="10" height="15" fill="#880E4F" opacity="0.3"/>
+    <circle cx="242" cy="140" r="7" fill="none" stroke="#C2185B" stroke-width="1.5"/>
+    <line x1="255" y1="140" x2="275" y2="130" stroke="#880E4F" stroke-width="1"/>
+    <line x1="255" y1="140" x2="275" y2="150" stroke="#880E4F" stroke-width="1"/>
+    <text x="252" y="175" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Бойс · Кабаков</text>
+
+    <!-- Performance / Conceptual -->
+    <rect x="335" y="95" width="140" height="85" rx="6" fill="#FCE4EC" stroke="#880E4F" stroke-width="1.5"/>
+    <text x="405" y="112" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#880E4F" text-anchor="middle">Концептуализм</text>
+    <!-- Idea bubble -->
+    <ellipse cx="405" cy="145" rx="25" ry="15" fill="none" stroke="#880E4F" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="405" y="148" font-family="Arial,sans-serif" font-size="10" fill="#880E4F" text-anchor="middle">идея</text>
+    <text x="405" y="175" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Дюшан · Кошут</text>
+
+    <!-- Key concepts -->
+    <rect x="25" y="190" width="220" height="50" rx="6" fill="white" stroke="#880E4F" stroke-width="1" opacity="0.9"/>
+    <text x="135" y="207" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#880E4F" text-anchor="middle">Формы современного искусства:</text>
+    <text x="135" y="220" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Перформанс · Хэппенинг · Видеоарт</text>
+    <text x="135" y="232" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Лэнд-арт · Боди-арт · Реди-мейд</text>
+
+    <!-- Features -->
+    <rect x="260" y="190" width="215" height="50" rx="6" fill="white" stroke="#880E4F" stroke-width="1" opacity="0.9"/>
+    <text x="367" y="207" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#880E4F" text-anchor="middle">Особенности:</text>
+    <text x="367" y="220" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Дематериализация объекта</text>
+    <text x="367" y="232" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Контекст важнее формы</text>
+
+    <!-- Works -->
+    <rect x="25" y="250" width="450" height="40" rx="6" fill="white" stroke="#880E4F" stroke-width="1" opacity="0.9"/>
+    <text x="250" y="266" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#880E4F" text-anchor="middle">Знаковые работы:</text>
+    <text x="250" y="280" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Фонтан Дюшана · Банки Уорхола · Установка Кабакова · Баллоны Кусамы</text>
   </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EC407A" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ИЗО</text>
+  <!-- Footer panel -->
+  <rect x="12" y="305" width="476" height="35" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="337" stroke="#880E4F" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="337" stroke="#880E4F" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="328" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Искусство · 10 класс</text>
 </svg>
