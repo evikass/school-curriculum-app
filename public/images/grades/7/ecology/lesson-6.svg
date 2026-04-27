@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#F7FEE7" rx="12" />
+  <rect x="2" y="2" width="796" height="596" fill="none" stroke="#84CC16" stroke-width="3" rx="12" />
+  <rect x="3" y="3" width="794" height="56" fill="#65A30D" rx="10" />
+  <text x="400" y="38" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Пищевые цепи и сети</text>
+  <text x="28" y="40" font-size="26">🌿</text>
+  <text x="752" y="40" font-size="26">🌿</text>
+  <text x="400" y="82" text-anchor="middle" fill="#166534" font-size="15" font-style="italic" font-family="Arial, sans-serif">Трофические уровни, поток энергии, экологические пирамиды</text>
+  <rect x="30" y="95" width="740" height="120" fill="#FFFFFF" stroke="#84CC16" stroke-width="2" rx="10" />
+  <text x="400" y="115" text-anchor="middle" fill="#166534" font-size="14" font-family="Arial, sans-serif" font-weight="bold">Пищевая цепь (цепь питания)</text>
+  <circle cx="145" cy="155" r="25" fill="#4D7C0F" />
+  <text x="145" y="163" text-anchor="middle" fill="#FFFFFF" font-size="22" font-family="Arial, sans-serif">🌿</text>
+  <text x="145" y="192" text-anchor="middle" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif" font-weight="bold">Трава</text>
+  <text x="145" y="206" text-anchor="middle" fill="#4D7C0F" font-size="10" font-family="Arial, sans-serif">Продуцент</text>
+  <line x1="173" y1="155" x2="230" y2="155" stroke="#65A30D" stroke-width="2" />
+  <polygon points="230,155 221.3397459621556,160.0 221.3397459621556,150.0" fill="#65A30D" />
+  <circle cx="315" cy="155" r="25" fill="#15803D" />
+  <text x="315" y="163" text-anchor="middle" fill="#FFFFFF" font-size="22" font-family="Arial, sans-serif">🐇</text>
+  <text x="315" y="192" text-anchor="middle" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif" font-weight="bold">Заяц</text>
+  <text x="315" y="206" text-anchor="middle" fill="#15803D" font-size="10" font-family="Arial, sans-serif">Консумент I</text>
+  <line x1="343" y1="155" x2="400" y2="155" stroke="#65A30D" stroke-width="2" />
+  <polygon points="400,155 391.33974596215563,160.0 391.33974596215563,150.0" fill="#65A30D" />
+  <circle cx="485" cy="155" r="25" fill="#EA580C" />
+  <text x="485" y="163" text-anchor="middle" fill="#FFFFFF" font-size="22" font-family="Arial, sans-serif">🦊</text>
+  <text x="485" y="192" text-anchor="middle" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif" font-weight="bold">Лиса</text>
+  <text x="485" y="206" text-anchor="middle" fill="#EA580C" font-size="10" font-family="Arial, sans-serif">Консумент II</text>
+  <line x1="513" y1="155" x2="570" y2="155" stroke="#65A30D" stroke-width="2" />
+  <polygon points="570,155 561.3397459621556,160.0 561.3397459621556,150.0" fill="#65A30D" />
+  <circle cx="655" cy="155" r="25" fill="#DC2626" />
+  <text x="655" y="163" text-anchor="middle" fill="#FFFFFF" font-size="22" font-family="Arial, sans-serif">🦅</text>
+  <text x="655" y="192" text-anchor="middle" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif" font-weight="bold">Орёл</text>
+  <text x="655" y="206" text-anchor="middle" fill="#DC2626" font-size="10" font-family="Arial, sans-serif">Консумент III</text>
+  <rect x="30" y="225" width="740" height="55" fill="#FEF9C3" stroke="#84CC16" stroke-width="2" rx="10" />
+  <text x="400" y="248" text-anchor="middle" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif">Поток энергии: Солнце → Продуценты → Консументы I → Консументы II → Консументы III → Редуценты</text>
+  <text x="400" y="268" text-anchor="middle" fill="#DC2626" font-size="11" font-family="Arial, sans-serif">На каждом уровне теряется ~90% энергии (правило 10%)</text>
+  <rect x="30" y="290" width="380" height="280" fill="#FFFFFF" stroke="#84CC16" stroke-width="2" rx="10" />
+  <text x="220" y="312" text-anchor="middle" fill="#166534" font-size="14" font-family="Arial, sans-serif" font-weight="bold">Пищевая сеть</text>
+  <rect x="80" y="336" width="80" height="28" fill="#65A30D" rx="10" />
+  <text x="120" y="355" text-anchor="middle" fill="#FFFFFF" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Растения</text>
+  <rect x="260" y="336" width="80" height="28" fill="#65A30D" rx="10" />
+  <text x="300" y="355" text-anchor="middle" fill="#FFFFFF" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Водоросли</text>
+  <rect x="40" y="396" width="80" height="28" fill="#15803D" rx="10" />
+  <text x="80" y="415" text-anchor="middle" fill="#FFFFFF" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Заяц</text>
+  <rect x="160" y="396" width="80" height="28" fill="#15803D" rx="10" />
+  <text x="200" y="415" text-anchor="middle" fill="#FFFFFF" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Мышь</text>
+  <rect x="280" y="396" width="80" height="28" fill="#15803D" rx="10" />
+  <text x="320" y="415" text-anchor="middle" fill="#FFFFFF" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Рыба</text>
+  <rect x="80" y="456" width="80" height="28" fill="#EA580C" rx="10" />
+  <text x="120" y="475" text-anchor="middle" fill="#FFFFFF" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Лиса</text>
+  <rect x="240" y="456" width="80" height="28" fill="#EA580C" rx="10" />
+  <text x="280" y="475" text-anchor="middle" fill="#FFFFFF" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Сова</text>
+  <rect x="160" y="516" width="80" height="28" fill="#DC2626" rx="10" />
+  <text x="200" y="535" text-anchor="middle" fill="#FFFFFF" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Орёл</text>
+  <line x1="120" y1="364" x2="80" y2="396" stroke="#D1D5DB" stroke-width="1" />
+  <line x1="120" y1="364" x2="200" y2="396" stroke="#D1D5DB" stroke-width="1" />
+  <line x1="300" y1="364" x2="320" y2="396" stroke="#D1D5DB" stroke-width="1" />
+  <line x1="300" y1="364" x2="200" y2="396" stroke="#D1D5DB" stroke-width="1" />
+  <line x1="80" y1="424" x2="120" y2="456" stroke="#D1D5DB" stroke-width="1" />
+  <line x1="200" y1="424" x2="120" y2="456" stroke="#D1D5DB" stroke-width="1" />
+  <line x1="200" y1="424" x2="280" y2="456" stroke="#D1D5DB" stroke-width="1" />
+  <line x1="320" y1="424" x2="280" y2="456" stroke="#D1D5DB" stroke-width="1" />
+  <line x1="120" y1="484" x2="200" y2="516" stroke="#D1D5DB" stroke-width="1" />
+  <line x1="280" y1="484" x2="200" y2="516" stroke="#D1D5DB" stroke-width="1" />
+  <rect x="420" y="290" width="360" height="280" fill="#FFFFFF" stroke="#84CC16" stroke-width="2" rx="10" />
+  <text x="600" y="312" text-anchor="middle" fill="#166534" font-size="14" font-family="Arial, sans-serif" font-weight="bold">Экологическая пирамида</text>
+  <rect x="480" y="330" width="240" height="40" fill="#FEF9C3" stroke="#15803D" stroke-width="2" rx="4" />
+  <text x="600" y="355" text-anchor="middle" fill="#15803D" font-size="9" font-family="Arial, sans-serif" font-weight="bold">Продуценты (1000 кДж)</text>
+  <rect x="510" y="375" width="180" height="40" fill="#FED7AA" stroke="#EA580C" stroke-width="2" rx="4" />
+  <text x="600" y="400" text-anchor="middle" fill="#EA580C" font-size="9" font-family="Arial, sans-serif" font-weight="bold">Консументы I (100 кДж)</text>
+  <rect x="540" y="420" width="120" height="40" fill="#FECACA" stroke="#DC2626" stroke-width="2" rx="4" />
+  <text x="600" y="445" text-anchor="middle" fill="#DC2626" font-size="9" font-family="Arial, sans-serif" font-weight="bold">Консументы II (10 кДж)</text>
+  <rect x="570" y="465" width="60" height="40" fill="#F3E8FF" stroke="#7C3AED" stroke-width="2" rx="4" />
+  <text x="600" y="490" text-anchor="middle" fill="#7C3AED" font-size="9" font-family="Arial, sans-serif" font-weight="bold">Конс. III (1 кДж)</text>
+  <text x="600" y="520" text-anchor="middle" fill="#365314" font-size="11" font-family="Arial, sans-serif">Правило 10%: на каждый</text>
+  <text x="600" y="535" text-anchor="middle" fill="#365314" font-size="11" font-family="Arial, sans-serif">следующий уровень переходит</text>
+  <text x="600" y="550" text-anchor="middle" fill="#365314" font-size="11" font-family="Arial, sans-serif">~10% энергии предыдущего</text>
+</svg>

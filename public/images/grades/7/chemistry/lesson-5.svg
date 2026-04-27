@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4C1D95;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6D28D9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.15);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0.05);stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  <!-- Decorative circles -->
+  <circle cx="50" cy="50" r="120" fill="#5B21B6" opacity="0.3"/>
+  <circle cx="750" cy="550" r="100" fill="#5B21B6" opacity="0.3"/>
+  <circle cx="700" cy="80" r="60" fill="#7C3AED" opacity="0.2"/>
+  <circle cx="100" cy="520" r="80" fill="#7C3AED" opacity="0.2"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0"/>
+  <rect x="0" y="68" width="800" height="3" fill="#A78BFA" opacity="0.6"/>
+  <text x="80" y="44" font-family="Arial, sans-serif" font-size="13" fill="#C4B5FD" font-weight="bold">УРОК 5</text>
+  <text x="160" y="44" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold">Типы химических реакций</text>
+  <text x="160" y="60" font-family="Arial, sans-serif" font-size="12" fill="#C4B5FD">Соединение, разложение, замещение, обмен</text>
+  <!-- Lesson number circle -->
+  <circle cx="40" cy="35" r="25" fill="#5B21B6" stroke="#A78BFA" stroke-width="2"/>
+  <text x="40" y="41" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold" text-anchor="middle">5</text>
+  <rect x="20" y="85" width="375" height="155" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <rect x="25" y="90" width="180" height="24" rx="6" fill="#3B82F6" opacity="0.3"/>
+  <text x="115" y="107" font-family="Arial, sans-serif" font-size="13" fill="#3B82F6" text-anchor="middle" font-weight="bold">РЕАКЦИЯ СОЕДИНЕНИЯ</text>
+  <text x="35" y="133" font-family="Arial, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="start" font-weight="bold">A + B = AB</text>
+  <text x="35" y="157" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">Два и более вещества → одно сложное</text>
+  <text x="35" y="180" font-family="Arial, sans-serif" font-size="11" fill="#3B82F6" text-anchor="start" font-weight="bold">Примеры:</text>
+  <text x="35" y="197" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="start" font-weight="bold">2Mg + O₂ = 2MgO</text>
+  <text x="35" y="217" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="start" font-weight="bold">4Al + 3O₂ = 2Al₂O₃</text>
+  <circle cx="320" cy="145" r="22" fill="#F59E0B" opacity="0.4" stroke="#F59E0B" stroke-width="1.5"/>
+  <circle cx="360" cy="145" r="18" fill="#FCD34D" opacity="0.4" stroke="#FCD34D" stroke-width="1.5"/>
+  <text x="340" y="133" font-family="Arial" font-size="10" fill="#FFFFFF">+</text>
+  <line x1="340" y1="170" x2="340" y2="185" stroke="#A78BFA" stroke-width="1.5"/>
+  <polygon points="340,185 336,178 344,178" fill="#A78BFA"/>
+  <circle cx="340" cy="205" r="28" fill="#8B5CF6" opacity="0.4" stroke="#A78BFA" stroke-width="1.5"/>
+  <rect x="405" y="85" width="375" height="155" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <rect x="410" y="90" width="180" height="24" rx="6" fill="#EF4444" opacity="0.3"/>
+  <text x="500" y="107" font-family="Arial, sans-serif" font-size="13" fill="#EF4444" text-anchor="middle" font-weight="bold">РЕАКЦИЯ РАЗЛОЖЕНИЯ</text>
+  <text x="420" y="133" font-family="Arial, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="start" font-weight="bold">AB = A + B</text>
+  <text x="420" y="157" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">Одно сложное → два и более простых</text>
+  <text x="420" y="180" font-family="Arial, sans-serif" font-size="11" fill="#EF4444" text-anchor="start" font-weight="bold">Примеры:</text>
+  <text x="420" y="197" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="start" font-weight="bold">2H₂O = 2H₂ + O₂</text>
+  <text x="420" y="217" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="start" font-weight="bold">CaCO₃ = CaO + CO₂</text>
+  <circle cx="725" cy="145" r="28" fill="#8B5CF6" opacity="0.4" stroke="#A78BFA" stroke-width="1.5"/>
+  <line x1="725" y1="177" x2="725" y2="190" stroke="#A78BFA" stroke-width="1.5"/>
+  <polygon points="725,190 721,183 729,183" fill="#A78BFA"/>
+  <circle cx="705" cy="210" r="18" fill="#FCD34D" opacity="0.4" stroke="#FCD34D" stroke-width="1.5"/>
+  <circle cx="745" cy="210" r="22" fill="#F59E0B" opacity="0.4" stroke="#F59E0B" stroke-width="1.5"/>
+  <rect x="20" y="255" width="375" height="155" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <rect x="25" y="260" width="220" height="24" rx="6" fill="#10B981" opacity="0.3"/>
+  <text x="135" y="277" font-family="Arial, sans-serif" font-size="13" fill="#10B981" text-anchor="middle" font-weight="bold">РЕАКЦИЯ ЗАМЕЩЕНИЯ</text>
+  <text x="35" y="303" font-family="Arial, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="start" font-weight="bold">A + BC = AC + B</text>
+  <text x="35" y="327" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">Простое вещ-во вытесняет</text>
+  <text x="35" y="343" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">элемент из сложного</text>
+  <text x="35" y="365" font-family="Arial, sans-serif" font-size="11" fill="#10B981" text-anchor="start" font-weight="bold">Примеры:</text>
+  <text x="35" y="382" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="start" font-weight="bold">Zn + 2HCl = ZnCl₂ + H₂</text>
+  <text x="35" y="402" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="start" font-weight="bold">Fe + CuSO₄ = FeSO₄ + Cu</text>
+  <circle cx="310" cy="315" r="16" fill="#F59E0B" opacity="0.5"/>
+  <rect x="330" y="303" width="35" height="24" rx="4" fill="#3B82F6" opacity="0.3"/>
+  <line x1="340" y1="335" x2="340" y2="350" stroke="#A78BFA" stroke-width="1.5"/>
+  <polygon points="340,350 336,343 344,343" fill="#A78BFA"/>
+  <rect x="300" y="355" width="35" height="24" rx="4" fill="#3B82F6" opacity="0.3"/>
+  <circle cx="360" cy="367" r="16" fill="#FCD34D" opacity="0.5"/>
+  <path d="M305,310 Q290,290 330,310" fill="none" stroke="#10B981" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <path d="M365,362 Q385,385 305,362" fill="none" stroke="#10B981" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <rect x="405" y="255" width="375" height="155" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <rect x="410" y="260" width="180" height="24" rx="6" fill="#EC4899" opacity="0.3"/>
+  <text x="500" y="277" font-family="Arial, sans-serif" font-size="13" fill="#EC4899" text-anchor="middle" font-weight="bold">РЕАКЦИЯ ОБМЕНА</text>
+  <text x="420" y="303" font-family="Arial, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="start" font-weight="bold">AB + CD = AD + CB</text>
+  <text x="420" y="327" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">Сложные вещества обмениваются</text>
+  <text x="420" y="343" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">составными частями</text>
+  <text x="420" y="365" font-family="Arial, sans-serif" font-size="11" fill="#EC4899" text-anchor="start" font-weight="bold">Примеры:</text>
+  <text x="420" y="382" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">NaOH + HCl = NaCl + H₂O</text>
+  <text x="420" y="402" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">AgNO₃ + NaCl = AgCl + NaNO₃</text>
+  <rect x="675" y="303" width="30" height="20" rx="3" fill="#3B82F6" opacity="0.3"/>
+  <rect x="715" y="303" width="30" height="20" rx="3" fill="#EF4444" opacity="0.3"/>
+  <rect x="675" y="333" width="30" height="20" rx="3" fill="#10B981" opacity="0.3"/>
+  <rect x="715" y="333" width="30" height="20" rx="3" fill="#F59E0B" opacity="0.3"/>
+  <line x1="690" y1="327" x2="690" y2="350" stroke="#A78BFA" stroke-width="1"/>
+  <line x1="730" y1="327" x2="730" y2="350" stroke="#A78BFA" stroke-width="1"/>
+  <text x="750" y="315" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="start" font-weight="normal">+</text>
+  <text x="750" y="345" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="start" font-weight="normal">+</text>
+  <rect x="20" y="425" width="760" height="140" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="14" fill="#A78BFA" text-anchor="middle" font-weight="bold">Классификация по числу и составу веществ</text>
+  <rect x="45" y="470" width="170" height="80" rx="8" fill="#3B82F6" opacity="0.1" stroke="#3B82F6" stroke-width="1"/>
+  <text x="130" y="488" font-family="Arial, sans-serif" font-size="13" fill="#3B82F6" text-anchor="middle" font-weight="bold">Соединение</text>
+  <text x="130" y="510" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">A + B → AB</text>
+  <text x="130" y="530" font-family="Arial, sans-serif" font-size="10" fill="#DDD6FE" text-anchor="middle" font-weight="normal">2H₂ + O₂ → 2H₂O</text>
+  <text x="130" y="545" font-family="Arial, sans-serif" font-size="9" fill="#A78BFA" text-anchor="middle" font-weight="normal">↑ нагрев / ∆t</text>
+  <rect x="230" y="470" width="170" height="80" rx="8" fill="#EF4444" opacity="0.1" stroke="#EF4444" stroke-width="1"/>
+  <text x="315" y="488" font-family="Arial, sans-serif" font-size="13" fill="#EF4444" text-anchor="middle" font-weight="bold">Разложение</text>
+  <text x="315" y="510" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">AB → A + B</text>
+  <text x="315" y="530" font-family="Arial, sans-serif" font-size="10" fill="#DDD6FE" text-anchor="middle" font-weight="normal">2H₂O → 2H₂ + O₂</text>
+  <text x="315" y="545" font-family="Arial, sans-serif" font-size="9" fill="#A78BFA" text-anchor="middle" font-weight="normal">↑ нагрев / ∆t</text>
+  <rect x="415" y="470" width="170" height="80" rx="8" fill="#10B981" opacity="0.1" stroke="#10B981" stroke-width="1"/>
+  <text x="500" y="488" font-family="Arial, sans-serif" font-size="13" fill="#10B981" text-anchor="middle" font-weight="bold">Замещение</text>
+  <text x="500" y="510" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">A + BC → AC + B</text>
+  <text x="500" y="530" font-family="Arial, sans-serif" font-size="10" fill="#DDD6FE" text-anchor="middle" font-weight="normal">Zn + CuCl₂ → ZnCl₂ + Cu</text>
+  <text x="500" y="545" font-family="Arial, sans-serif" font-size="9" fill="#A78BFA" text-anchor="middle" font-weight="normal">↑ нагрев / ∆t</text>
+  <rect x="600" y="470" width="170" height="80" rx="8" fill="#EC4899" opacity="0.1" stroke="#EC4899" stroke-width="1"/>
+  <text x="685" y="488" font-family="Arial, sans-serif" font-size="13" fill="#EC4899" text-anchor="middle" font-weight="bold">Обмен</text>
+  <text x="685" y="510" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">AB + CD → AD + CB</text>
+  <text x="685" y="530" font-family="Arial, sans-serif" font-size="10" fill="#DDD6FE" text-anchor="middle" font-weight="normal">NaOH + HCl → NaCl + H₂O</text>
+  <text x="685" y="545" font-family="Arial, sans-serif" font-size="9" fill="#A78BFA" text-anchor="middle" font-weight="normal">↑ нагрев / ∆t</text>
+
+  <rect x="0" y="575" width="800" height="25" fill="rgba(0,0,0,0.2)"/>
+  <text x="400" y="592" font-family="Arial, sans-serif" font-size="11" fill="#A78BFA" text-anchor="middle">Химия • 7 класс • ИнеШкола</text>
+</svg>

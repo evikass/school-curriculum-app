@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#3B82F6" /></marker></defs>
+<rect width="800" height="600" fill="#F3F4F6" rx="0" />
+<rect x="0" y="0" width="800" height="70" fill="#3B82F6" />
+<text x="400" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">Household Chores</text>
+<text x="400" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#BFDBFE">Домашние обязанности</text>
+<rect x="0" y="70" width="800" height="3" fill="#DC2626" /><text x="20" y="90" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#3B82F6" font-weight="bold">Модальные глаголы / Modal Verbs: HAVE TO &amp;amp; MUST</text>
+<line x1="20" y1="93" x2="428" y2="93" stroke="#3B82F6" stroke-width="1.5" /><rect x="20" y="108" width="370" height="36" fill="#FEF9C3" stroke="#3B82F6" stroke-width="2" rx="6" />
+<text x="205" y="131" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold"><tspan fill="#DC2626">S + </tspan><tspan fill="#3B82F6">have to / has to</tspan><tspan fill="#1E3A5F"> + V</tspan></text><rect x="410" y="108" width="370" height="36" fill="#FEF9C3" stroke="#3B82F6" stroke-width="2" rx="6" />
+<text x="595" y="131" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold"><tspan fill="#DC2626">S + </tspan><tspan fill="#3B82F6">must</tspan><tspan fill="#1E3A5F"> + V</tspan></text><rect x="20" y="152" width="370" height="36" fill="#FEF9C3" stroke="#3B82F6" stroke-width="2" rx="6" />
+<text x="205" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold"><tspan fill="#DC2626">S + </tspan><tspan fill="#3B82F6">don't/doesn't have to</tspan><tspan fill="#1E3A5F"> + V</tspan></text><rect x="410" y="152" width="370" height="36" fill="#FEF9C3" stroke="#3B82F6" stroke-width="2" rx="6" />
+<text x="595" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold"><tspan fill="#DC2626">S + </tspan><tspan fill="#DC2626">must not (mustn't)</tspan><tspan fill="#1E3A5F"> + V</tspan></text><text x="20" y="202" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#3B82F6" font-weight="bold">Разница / Difference: HAVE TO vs MUST</text>
+<line x1="20" y1="205" x2="316" y2="205" stroke="#3B82F6" stroke-width="1.5" /><rect x="20" y="220" width="370" height="70" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2" rx="6" />
+<text x="205" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#3B82F6" font-weight="bold">HAVE TO</text>
+<text x="30" y="256" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">Внешняя необходимость (по обстоятельствам)</text>
+<text x="30" y="272" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F">I have to wash the dishes. (Мама сказала)</text>
+<text x="30" y="285" text-anchor="start" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Don't have to = не обязательно</text><rect x="410" y="220" width="370" height="70" fill="#FEE2E2" stroke="#DC2626" stroke-width="2" rx="6" />
+<text x="595" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#DC2626" font-weight="bold">MUST</text>
+<text x="420" y="256" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">Внутренняя необходимость (личное решение)</text>
+<text x="420" y="272" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F">I must clean my room. (Я так решил)</text>
+<text x="420" y="285" text-anchor="start" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Mustn't = запрещено</text><text x="20" y="302" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#3B82F6" font-weight="bold">Повелительное наклонение / Imperative</text>
+<line x1="20" y1="305" x2="316" y2="305" stroke="#3B82F6" stroke-width="1.5" /><rect x="20" y="320" width="370" height="55" fill="#FEE2E2" stroke="#DC2626" stroke-width="2" rx="6" />
+<circle cx="38" cy="338" r="12" fill="#DC2626" />
+<text x="38" y="343" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold">!</text>
+<text x="58" y="342" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#DC2626" font-weight="bold">Утверждение</text>
+<text x="34" y="367" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">Wash the dishes! / Open the window!</text><rect x="410" y="320" width="370" height="55" fill="#FEE2E2" stroke="#DC2626" stroke-width="2" rx="6" />
+<circle cx="428" cy="338" r="12" fill="#DC2626" />
+<text x="428" y="343" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold">!</text>
+<text x="448" y="342" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#DC2626" font-weight="bold">Отрицание (Don't)</text>
+<text x="424" y="367" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">Don't leave your clothes on the floor!</text><text x="20" y="385" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#3B82F6" font-weight="bold">Словарь / Vocabulary: Chores</text>
+<line x1="20" y1="388" x2="244" y2="388" stroke="#3B82F6" stroke-width="1.5" /><text x="20" y="415" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">wash the dishes</tspan> — мыть посуду</text><text x="410" y="415" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">vacuum the carpet</tspan> — пылесосить</text><text x="20" y="435" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">clean the room</tspan> — убирать комнату</text><text x="410" y="435" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">do the laundry</tspan> — стирать</text><text x="20" y="455" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">take out the rubbish</tspan> — выносить мусор</text><text x="410" y="455" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">water the plants</tspan> — поливать растения</text><text x="20" y="475" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">make the bed</tspan> — заправлять кровать</text><text x="410" y="475" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">sweep the floor</tspan> — подметать пол</text><text x="20" y="493" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#3B82F6" font-weight="bold">Примеры / Examples</text>
+<line x1="20" y1="496" x2="164" y2="496" stroke="#3B82F6" stroke-width="1.5" /><circle cx="30" cy="509" r="9" fill="#3B82F6" />
+<text x="30" y="513" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">1</text>
+<text x="46" y="513" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#1E3A5F">I have to wash the dishes every day.</text>
+<text x="46" y="527" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#6B7280">Я должен мыть посуду каждый день.</text><circle cx="410" cy="509" r="9" fill="#3B82F6" />
+<text x="410" y="513" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">2</text>
+<text x="426" y="513" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#1E3A5F">You mustn't play near the road!</text>
+<text x="426" y="527" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#6B7280">Тебе нельзя играть у дороги!</text><circle cx="30" cy="547" r="9" fill="#3B82F6" />
+<text x="30" y="551" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">3</text>
+<text x="46" y="551" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#1E3A5F">She has to make her bed.</text>
+<text x="46" y="565" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#6B7280">Ей нужно заправлять кровать.</text><circle cx="410" cy="547" r="9" fill="#3B82F6" />
+<text x="410" y="551" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">4</text>
+<text x="426" y="551" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#1E3A5F">Don't leave your room messy!</text>
+<text x="426" y="565" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#6B7280">Не оставляй комнату в беспорядке!</text><rect x="0" y="570" width="800" height="30" fill="#1E3A5F" />
+<text x="20" y="590" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Grade 7 | English | Lesson 2</text>
+<text x="780" y="590" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Lesson 2/6</text>
+</svg>

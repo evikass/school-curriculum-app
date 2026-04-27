@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF7ED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFEDD5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EA580C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C2410C;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000033" />
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0" />
+  <rect x="0" y="0" width="800" height="80" fill="url(#headerGrad)" />
+  <g transform="translate(20, 15)">
+    <polygon points="25,5 5,45 45,45" fill="#FBBF24" stroke="#1C1917" stroke-width="2" />
+    <text x="25" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1C1917">!</text>
+  </g>
+  <rect x="70" y="18" width="36" height="36" rx="6" fill="#FFFFFF" opacity="0.9" />
+  <text x="88" y="44" text-anchor="middle" font-size="18" font-weight="bold" fill="#EA580C">3</text>
+  <text x="120" y="42" font-size="22" font-weight="bold" fill="#FFFFFF">Причины пожаров и их предотвращение</text>
+  <text x="120" y="64" font-size="13" fill="#FED7AA">Электричество, неосторожное обращение с огнём, профилактика</text>
+  <rect x="710" y="22" width="70" height="30" rx="15" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="1" />
+  <text x="745" y="43" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">ОБЖ</text>
+  <rect x="710" y="52" width="70" height="22" rx="11" fill="rgba(255,255,255,0.15)" />
+  <text x="745" y="67" text-anchor="middle" font-size="11" fill="#FED7AA">7 класс</text>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#EA580C" stroke-width="3" />
+  <rect x="20" y="98" width="4" height="18" rx="2" fill="#DC2626" />
+  <text x="30" y="112" font-size="14" font-weight="bold" fill="#DC2626">Основные причины пожаров</text>
+  <rect x="20" y="118" width="280" height="170" rx="10" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#shadow)" />
+  <rect x="20" y="118" width="280" height="6" rx="3" fill="#DC2626" />
+  <circle cx="44" cy="142" r="14" fill="#DC2626" />
+  <text x="44" y="148" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">🔥</text>
+  <text x="66" y="146" font-size="14" font-weight="bold" fill="#1C1917">Причины пожаров</text>
+  <circle cx="40" cy="164" r="3" fill="#DC2626" />
+  <text x="50" y="168" font-size="12" fill="#1C1917">Неосторожное обращение с огнём — 40%</text>
+  <circle cx="40" cy="184" r="3" fill="#DC2626" />
+  <text x="50" y="188" font-size="12" fill="#1C1917">Нарушение правил электробезопасности — 25%</text>
+  <circle cx="40" cy="204" r="3" fill="#DC2626" />
+  <text x="50" y="208" font-size="12" fill="#1C1917">Неисправность электрооборудования — 15%</text>
+  <circle cx="40" cy="224" r="3" fill="#DC2626" />
+  <text x="50" y="228" font-size="12" fill="#1C1917">Детские шалости с огнём — 10%</text>
+  <circle cx="40" cy="244" r="3" fill="#DC2626" />
+  <text x="50" y="248" font-size="12" fill="#1C1917">Нарушение правил пожарной безопасности — 10%</text>
+  <rect x="315" y="98" width="4" height="18" rx="2" fill="#EA580C" />
+  <text x="325" y="112" font-size="14" font-weight="bold" fill="#EA580C">Электробезопасность</text>
+  <rect x="315" y="118" width="230" height="170" rx="10" fill="#FFFFFF" stroke="#EA580C" stroke-width="2" filter="url(#shadow)" />
+  <rect x="315" y="118" width="230" height="6" rx="3" fill="#EA580C" />
+  <circle cx="339" cy="142" r="14" fill="#EA580C" />
+  <text x="339" y="148" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">⚡</text>
+  <text x="361" y="146" font-size="14" font-weight="bold" fill="#1C1917">Правила</text>
+  <circle cx="335" cy="164" r="3" fill="#EA580C" />
+  <text x="345" y="168" font-size="12" fill="#1C1917">Не перегружайте розетки</text>
+  <circle cx="335" cy="184" r="3" fill="#EA580C" />
+  <text x="345" y="188" font-size="12" fill="#1C1917">Не используйте повреждённые провода</text>
+  <circle cx="335" cy="204" r="3" fill="#EA580C" />
+  <text x="345" y="208" font-size="12" fill="#1C1917">Отключайте приборы уходя</text>
+  <circle cx="335" cy="224" r="3" fill="#EA580C" />
+  <text x="345" y="228" font-size="12" fill="#1C1917">Не оставляйте без присмотра</text>
+  <circle cx="335" cy="244" r="3" fill="#EA580C" />
+  <text x="345" y="248" font-size="12" fill="#1C1917">Заземляйте электроприборы</text>
+  <rect x="560" y="98" width="4" height="18" rx="2" fill="#16A34A" />
+  <text x="570" y="112" font-size="14" font-weight="bold" fill="#16A34A">Профилактика</text>
+  <rect x="560" y="118" width="220" height="170" rx="10" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" filter="url(#shadow)" />
+  <rect x="560" y="118" width="220" height="6" rx="3" fill="#16A34A" />
+  <circle cx="584" cy="142" r="14" fill="#16A34A" />
+  <text x="584" y="148" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">🛡</text>
+  <text x="606" y="146" font-size="14" font-weight="bold" fill="#1C1917">Меры</text>
+  <circle cx="580" cy="164" r="3" fill="#16A34A" />
+  <text x="590" y="168" font-size="12" fill="#1C1917">Датчики дыма в помещениях</text>
+  <circle cx="580" cy="184" r="3" fill="#16A34A" />
+  <text x="590" y="188" font-size="12" fill="#1C1917">Огнетушитель в доступном месте</text>
+  <circle cx="580" cy="204" r="3" fill="#16A34A" />
+  <text x="590" y="208" font-size="12" fill="#1C1917">План эвакуации на видном месте</text>
+  <circle cx="580" cy="224" r="3" fill="#16A34A" />
+  <text x="590" y="228" font-size="12" fill="#1C1917">Не курить в постели</text>
+  <circle cx="580" cy="244" r="3" fill="#16A34A" />
+  <text x="590" y="248" font-size="12" fill="#1C1917">Не оставлять плиту без присмотра</text>
+  <rect x="20" y="310" width="4" height="18" rx="2" fill="#EA580C" />
+  <text x="30" y="324" font-size="14" font-weight="bold" fill="#EA580C">Типы огнетушителей</text>
+  <rect x="20" y="332" width="245" height="65" rx="8" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5" />
+  <rect x="30" y="342" width="40" height="44" rx="6" fill="#2563EB" />
+  <text x="50" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">ОП</text>
+  <text x="80" y="360" font-size="12" font-weight="bold" fill="#1C1917">Порошковый</text>
+  <text x="80" y="377" font-size="10" fill="#78716C">Универсальный, для всех типов</text>
+  <rect x="275" y="332" width="245" height="65" rx="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.5" />
+  <rect x="285" y="342" width="40" height="44" rx="6" fill="#EA580C" />
+  <text x="305" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">ОУ</text>
+  <text x="335" y="360" font-size="12" font-weight="bold" fill="#1C1917">Углекислотный</text>
+  <text x="335" y="377" font-size="10" fill="#78716C">Для электроустановок</text>
+  <rect x="530" y="332" width="245" height="65" rx="8" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.5" />
+  <rect x="540" y="342" width="40" height="44" rx="6" fill="#16A34A" />
+  <text x="560" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">ОВ</text>
+  <text x="590" y="360" font-size="12" font-weight="bold" fill="#1C1917">Водный</text>
+  <text x="590" y="377" font-size="10" fill="#78716C">Для твердых материалов</text>
+  <rect x="20" y="420" width="4" height="18" rx="2" fill="#DC2626" />
+  <text x="30" y="434" font-size="14" font-weight="bold" fill="#DC2626">При пожаре: порядок действий</text>
+  <circle cx="34" cy="452" r="14" fill="#DC2626" />
+  <text x="34" y="457" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="56" y="457" font-size="12" fill="#1C1917">Вызовите пожарную охрану: 101 или 112</text>
+  <circle cx="34" cy="474" r="14" fill="#DC2626" />
+  <text x="34" y="479" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="56" y="479" font-size="12" fill="#1C1917">Выведите людей из помещения</text>
+  <circle cx="34" cy="496" r="14" fill="#DC2626" />
+  <text x="34" y="501" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="56" y="501" font-size="12" fill="#1C1917">Отключите электроэнергию и газ</text>
+  <circle cx="34" cy="518" r="14" fill="#DC2626" />
+  <text x="34" y="523" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="56" y="523" font-size="12" fill="#1C1917">Приступите к тушению огнетушителем</text>
+  <circle cx="34" cy="540" r="14" fill="#DC2626" />
+  <text x="34" y="545" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="56" y="545" font-size="12" fill="#1C1917">Не открывайте окна (приток кислорода)</text>
+  <circle cx="34" cy="562" r="14" fill="#DC2626" />
+  <text x="34" y="567" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">6</text>
+  <text x="56" y="567" font-size="12" fill="#1C1917">Если выйти нельзя — ждите спасателей у окна</text>
+  <rect x="0" y="570" width="800" height="30" fill="#1C1917" />
+  <text x="400" y="590" text-anchor="middle" font-size="11" fill="#D6D3D1">Основы безопасности жизнедеятельности | 7 класс</text>
+</svg>
