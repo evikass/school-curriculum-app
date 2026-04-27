@@ -301,7 +301,12 @@
             "just (только что) — She has just arrived at the airport."
           ],
           "correctAnswer": "Place to go",
-          "hint": "Where you're heading"
+          "hint": "Where you're heading",
+          "examples": [
+            "I have visited Paris twice — Present Perfect для описания опыта путешествий ✈️",
+            "Наречия Present Perfect: ever, never, already, yet, just, before",
+            "Backpacking — экономичный способ путешествовать с рюкзаком"
+          ]
         },
         {
           "type": "quiz",
@@ -314,7 +319,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "never",
-          "hint": "Negative experience"
+          "hint": "Negative experience",
+          "examples": [
+            "I have visited Paris twice — Present Perfect для описания опыта путешествий ✈️",
+            "Наречия Present Perfect: ever, never, already, yet, just, before",
+            "Backpacking — экономичный способ путешествовать с рюкзаком"
+          ],
+          "keyPoints": [
+            "Примеры использования — I have visited Paris twice",
+            "Наречия, часто используемые с Present Perfect — never (никогда) — I have never visited Australia",
+            "just (только что) — She has just arrived at the airport."
+          ]
         },
         {
           "type": "quiz",
@@ -327,7 +342,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Life experience",
-          "hint": "At any time in your life"
+          "hint": "At any time in your life",
+          "examples": [
+            "I have visited Paris twice — Present Perfect для описания опыта путешествий ✈️",
+            "Наречия Present Perfect: ever, never, already, yet, just, before",
+            "Backpacking — экономичный способ путешествовать с рюкзаком"
+          ],
+          "keyPoints": [
+            "Примеры использования — I have visited Paris twice",
+            "Наречия, часто используемые с Present Perfect — never (никогда) — I have never visited Australia",
+            "just (только что) — She has just arrived at the airport."
+          ]
         },
         {
           "type": "quiz",
@@ -340,7 +365,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "sights",
-          "hint": "Tourist attractions"
+          "hint": "Tourist attractions",
+          "examples": [
+            "I have visited Paris twice — Present Perfect для описания опыта путешествий ✈️",
+            "Наречия Present Perfect: ever, never, already, yet, just, before",
+            "Backpacking — экономичный способ путешествовать с рюкзаком"
+          ],
+          "keyPoints": [
+            "Примеры использования — I have visited Paris twice",
+            "Наречия, часто используемые с Present Perfect — never (никогда) — I have never visited Australia",
+            "just (только что) — She has just arrived at the airport."
+          ]
         },
         {
           "type": "quiz",
@@ -353,7 +388,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "journey",
-          "hint": "Going from one place to another"
+          "hint": "Going from one place to another",
+          "examples": [
+            "I have visited Paris twice — Present Perfect для описания опыта путешествий ✈️",
+            "Наречия Present Perfect: ever, never, already, yet, just, before",
+            "Backpacking — экономичный способ путешествовать с рюкзаком"
+          ],
+          "keyPoints": [
+            "Примеры использования — I have visited Paris twice",
+            "Наречия, часто используемые с Present Perfect — never (никогда) — I have never visited Australia",
+            "just (только что) — She has just arrived at the airport."
+          ]
         },
         {
           "type": "quiz",
@@ -366,7 +411,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "destination",
-          "hint": "Where I'm going"
+          "hint": "Where I'm going",
+          "examples": [
+            "I have visited Paris twice — Present Perfect для описания опыта путешествий ✈️",
+            "Наречия Present Perfect: ever, never, already, yet, just, before",
+            "Backpacking — экономичный способ путешествовать с рюкзаком"
+          ],
+          "keyPoints": [
+            "Примеры использования — I have visited Paris twice",
+            "Наречия, часто используемые с Present Perfect — never (никогда) — I have never visited Australia",
+            "just (только что) — She has just arrived at the airport."
+          ]
         },
         {
           "type": "quiz",
@@ -379,7 +434,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Place to stay",
-          "hint": "Where you sleep during travel"
+          "hint": "Where you sleep during travel",
+          "examples": [
+            "I have visited Paris twice — Present Perfect для описания опыта путешествий ✈️",
+            "Наречия Present Perfect: ever, never, already, yet, just, before",
+            "Backpacking — экономичный способ путешествовать с рюкзаком"
+          ],
+          "keyPoints": [
+            "Примеры использования — I have visited Paris twice",
+            "Наречия, часто используемые с Present Perfect — never (никогда) — I have never visited Australia",
+            "just (только что) — She has just arrived at the airport."
+          ]
         },
         {
           "type": "quiz",
@@ -392,7 +457,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "travelled",
-          "hint": "Past participle of travel"
+          "hint": "Past participle of travel",
+          "examples": [
+            "I have visited Paris twice — Present Perfect для описания опыта путешествий ✈️",
+            "Наречия Present Perfect: ever, never, already, yet, just, before",
+            "Backpacking — экономичный способ путешествовать с рюкзаком"
+          ],
+          "keyPoints": [
+            "Примеры использования — I have visited Paris twice",
+            "Наречия, часто используемые с Present Perfect — never (никогда) — I have never visited Australia",
+            "just (только что) — She has just arrived at the airport."
+          ]
         }
       ],
       "reward": {
@@ -422,7 +497,12 @@
             "Проблемные ситуации — My flight has been delayed/cancelled"
           ],
           "correctAnswer": "Boarding",
-          "hint": "Required for flight"
+          "hint": "Required for flight",
+          "examples": [
+            "I'd like to check in for flight BA123 to London — фраза на регистрации 🛫",
+            "Boarding pass — посадочный талон, duty-free — магазин беспошлинной торговли",
+            "This is the final boarding call — последнее объявление о посадке"
+          ]
         },
         {
           "type": "quiz",
@@ -435,7 +515,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Baggage claim",
-          "hint": "After arrival"
+          "hint": "After arrival",
+          "examples": [
+            "I'd like to check in for flight BA123 to London — фраза на регистрации 🛫",
+            "Boarding pass — посадочный талон, duty-free — магазин беспошлинной торговли",
+            "This is the final boarding call — последнее объявление о посадке"
+          ],
+          "keyPoints": [
+            "Полезные фразы в аэропорту — На регистрации:",
+            "На регистрации — Can I have a window/aisle seat",
+            "Проблемные ситуации — My flight has been delayed/cancelled"
+          ]
         },
         {
           "type": "quiz",
@@ -448,7 +538,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "delayed",
-          "hint": "Not on time"
+          "hint": "Not on time",
+          "examples": [
+            "I'd like to check in for flight BA123 to London — фраза на регистрации 🛫",
+            "Boarding pass — посадочный талон, duty-free — магазин беспошлинной торговли",
+            "This is the final boarding call — последнее объявление о посадке"
+          ],
+          "keyPoints": [
+            "Полезные фразы в аэропорту — На регистрации:",
+            "На регистрации — Can I have a window/aisle seat",
+            "Проблемные ситуации — My flight has been delayed/cancelled"
+          ]
         },
         {
           "type": "quiz",
@@ -461,7 +561,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Exit to board the plane",
-          "hint": "Boarding area"
+          "hint": "Boarding area",
+          "examples": [
+            "I'd like to check in for flight BA123 to London — фраза на регистрации 🛫",
+            "Boarding pass — посадочный талон, duty-free — магазин беспошлинной торговли",
+            "This is the final boarding call — последнее объявление о посадке"
+          ],
+          "keyPoints": [
+            "Полезные фразы в аэропорту — На регистрации:",
+            "На регистрации — Can I have a window/aisle seat",
+            "Проблемные ситуации — My flight has been delayed/cancelled"
+          ]
         },
         {
           "type": "quiz",
@@ -474,7 +584,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "window",
-          "hint": "You can see outside"
+          "hint": "You can see outside",
+          "examples": [
+            "I'd like to check in for flight BA123 to London — фраза на регистрации 🛫",
+            "Boarding pass — посадочный талон, duty-free — магазин беспошлинной торговли",
+            "This is the final boarding call — последнее объявление о посадке"
+          ],
+          "keyPoints": [
+            "Полезные фразы в аэропорту — На регистрации:",
+            "На регистрации — Can I have a window/aisle seat",
+            "Проблемные ситуации — My flight has been delayed/cancelled"
+          ]
         },
         {
           "type": "quiz",
@@ -487,7 +607,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Border control for goods",
-          "hint": "Checking what you bring"
+          "hint": "Checking what you bring",
+          "examples": [
+            "I'd like to check in for flight BA123 to London — фраза на регистрации 🛫",
+            "Boarding pass — посадочный талон, duty-free — магазин беспошлинной торговли",
+            "This is the final boarding call — последнее объявление о посадке"
+          ],
+          "keyPoints": [
+            "Полезные фразы в аэропорту — На регистрации:",
+            "На регистрации — Can I have a window/aisle seat",
+            "Проблемные ситуации — My flight has been delayed/cancelled"
+          ]
         },
         {
           "type": "quiz",
@@ -500,7 +630,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "counter",
-          "hint": "Desk for registration"
+          "hint": "Desk for registration",
+          "examples": [
+            "I'd like to check in for flight BA123 to London — фраза на регистрации 🛫",
+            "Boarding pass — посадочный талон, duty-free — магазин беспошлинной торговли",
+            "This is the final boarding call — последнее объявление о посадке"
+          ],
+          "keyPoints": [
+            "Полезные фразы в аэропорту — На регистрации:",
+            "На регистрации — Can I have a window/aisle seat",
+            "Проблемные ситуации — My flight has been delayed/cancelled"
+          ]
         },
         {
           "type": "quiz",
@@ -513,7 +653,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Wait for your flight",
-          "hint": "Before boarding"
+          "hint": "Before boarding",
+          "examples": [
+            "I'd like to check in for flight BA123 to London — фраза на регистрации 🛫",
+            "Boarding pass — посадочный талон, duty-free — магазин беспошлинной торговли",
+            "This is the final boarding call — последнее объявление о посадке"
+          ],
+          "keyPoints": [
+            "Полезные фразы в аэропорту — На регистрации:",
+            "На регистрации — Can I have a window/aisle seat",
+            "Проблемные ситуации — My flight has been delayed/cancelled"
+          ]
         }
       ],
       "reward": {
@@ -543,7 +693,12 @@
             "При заезде — I'd like to check in, please"
           ],
           "correctAnswer": "book",
-          "hint": "Make a reservation"
+          "hint": "Make a reservation",
+          "examples": [
+            "I'd like to book a room for two nights — бронирование номера на две ночи 🏨",
+            "Double room — одна большая кровать, twin room — две отдельные",
+            "The air conditioning isn't working — жалоба на неработающий кондиционер"
+          ]
         },
         {
           "type": "quiz",
@@ -556,7 +711,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Free of charge",
-          "hint": "Included at no cost"
+          "hint": "Included at no cost",
+          "examples": [
+            "I'd like to book a room for two nights — бронирование номера на две ночи 🏨",
+            "Double room — одна большая кровать, twin room — две отдельные",
+            "The air conditioning isn't working — жалоба на неработающий кондиционер"
+          ],
+          "keyPoints": [
+            "Фразы для бронирования номера — По телефону или онлайн:",
+            "По телефону или онлайн — What's the rate per night",
+            "При заезде — I'd like to check in, please"
+          ]
         },
         {
           "type": "quiz",
@@ -569,7 +734,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "included",
-          "hint": "Part of the deal"
+          "hint": "Part of the deal",
+          "examples": [
+            "I'd like to book a room for two nights — бронирование номера на две ночи 🏨",
+            "Double room — одна большая кровать, twin room — две отдельные",
+            "The air conditioning isn't working — жалоба на неработающий кондиционер"
+          ],
+          "keyPoints": [
+            "Фразы для бронирования номера — По телефону или онлайн:",
+            "По телефону или онлайн — What's the rate per night",
+            "При заезде — I'd like to check in, please"
+          ]
         },
         {
           "type": "quiz",
@@ -582,7 +757,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Leaving the hotel",
-          "hint": "End of stay"
+          "hint": "End of stay",
+          "examples": [
+            "I'd like to book a room for two nights — бронирование номера на две ночи 🏨",
+            "Double room — одна большая кровать, twin room — две отдельные",
+            "The air conditioning isn't working — жалоба на неработающий кондиционер"
+          ],
+          "keyPoints": [
+            "Фразы для бронирования номера — По телефону или онлайн:",
+            "По телефону или онлайн — What's the rate per night",
+            "При заезде — I'd like to check in, please"
+          ]
         },
         {
           "type": "quiz",
@@ -595,7 +780,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "vacancies",
-          "hint": "Empty rooms available"
+          "hint": "Empty rooms available",
+          "examples": [
+            "I'd like to book a room for two nights — бронирование номера на две ночи 🏨",
+            "Double room — одна большая кровать, twin room — две отдельные",
+            "The air conditioning isn't working — жалоба на неработающий кондиционер"
+          ],
+          "keyPoints": [
+            "Фразы для бронирования номера — По телефону или онлайн:",
+            "По телефону или онлайн — What's the rate per night",
+            "При заезде — I'd like to check in, please"
+          ]
         },
         {
           "type": "quiz",
@@ -608,7 +803,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Food delivered to your room",
-          "hint": "Ordering food to your door"
+          "hint": "Ordering food to your door",
+          "examples": [
+            "I'd like to book a room for two nights — бронирование номера на две ночи 🏨",
+            "Double room — одна большая кровать, twin room — две отдельные",
+            "The air conditioning isn't working — жалоба на неработающий кондиционер"
+          ],
+          "keyPoints": [
+            "Фразы для бронирования номера — По телефону или онлайн:",
+            "По телефону или онлайн — What's the rate per night",
+            "При заезде — I'd like to check in, please"
+          ]
         },
         {
           "type": "quiz",
@@ -621,7 +826,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "check-out",
-          "hint": "When you leave the hotel"
+          "hint": "When you leave the hotel",
+          "examples": [
+            "I'd like to book a room for two nights — бронирование номера на две ночи 🏨",
+            "Double room — одна большая кровать, twin room — две отдельные",
+            "The air conditioning isn't working — жалоба на неработающий кондиционер"
+          ],
+          "keyPoints": [
+            "Фразы для бронирования номера — По телефону или онлайн:",
+            "По телефону или онлайн — What's the rate per night",
+            "При заезде — I'd like to check in, please"
+          ]
         },
         {
           "type": "quiz",
@@ -634,7 +849,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Two separate beds",
-          "hint": "Not for couples"
+          "hint": "Not for couples",
+          "examples": [
+            "I'd like to book a room for two nights — бронирование номера на две ночи 🏨",
+            "Double room — одна большая кровать, twin room — две отдельные",
+            "The air conditioning isn't working — жалоба на неработающий кондиционер"
+          ],
+          "keyPoints": [
+            "Фразы для бронирования номера — По телефону или онлайн:",
+            "По телефону или онлайн — What's the rate per night",
+            "При заезде — I'd like to check in, please"
+          ]
         }
       ],
       "reward": {
@@ -664,7 +889,12 @@
             "Ключевое понятие: Мир профессий"
           ],
           "correctAnswer": "doctor",
-          "hint": "Medical professional"
+          "hint": "Medical professional",
+          "examples": [
+            "A software developer creates applications using programming languages 💼",
+            "Модальные глаголы: must (обязательно), should (рекомендуется), need to (необходимо)",
+            "AI specialist и cybersecurity analyst — профессии будущего"
+          ]
         },
         {
           "type": "quiz",
@@ -677,7 +907,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Architect",
-          "hint": "Construction plans"
+          "hint": "Construction plans",
+          "examples": [
+            "A software developer creates applications using programming languages 💼",
+            "Модальные глаголы: must (обязательно), should (рекомендуется), need to (необходимо)",
+            "AI specialist и cybersecurity analyst — профессии будущего"
+          ],
+          "keyPoints": [
+            "Вопросы о профессиях — What do you do",
+            "Ключевое понятие: Мир профессий",
+            "Ключевое понятие: Мир профессий"
+          ]
         },
         {
           "type": "quiz",
@@ -690,7 +930,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "developer",
-          "hint": "Creates programs"
+          "hint": "Creates programs",
+          "examples": [
+            "A software developer creates applications using programming languages 💼",
+            "Модальные глаголы: must (обязательно), should (рекомендуется), need to (необходимо)",
+            "AI specialist и cybersecurity analyst — профессии будущего"
+          ],
+          "keyPoints": [
+            "Вопросы о профессиях — What do you do",
+            "Ключевое понятие: Мир профессий",
+            "Ключевое понятие: Мир профессий"
+          ]
         },
         {
           "type": "quiz",
@@ -703,7 +953,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Obligation",
-          "hint": "Necessity"
+          "hint": "Necessity",
+          "examples": [
+            "A software developer creates applications using programming languages 💼",
+            "Модальные глаголы: must (обязательно), should (рекомендуется), need to (необходимо)",
+            "AI specialist и cybersecurity analyst — профессии будущего"
+          ],
+          "keyPoints": [
+            "Вопросы о профессиях — What do you do",
+            "Ключевое понятие: Мир профессий",
+            "Ключевое понятие: Мир профессий"
+          ]
         },
         {
           "type": "quiz",
@@ -716,7 +976,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "journalist",
-          "hint": "Media professional"
+          "hint": "Media professional",
+          "examples": [
+            "A software developer creates applications using programming languages 💼",
+            "Модальные глаголы: must (обязательно), should (рекомендуется), need to (необходимо)",
+            "AI specialist и cybersecurity analyst — профессии будущего"
+          ],
+          "keyPoints": [
+            "Вопросы о профессиях — What do you do",
+            "Ключевое понятие: Мир профессий",
+            "Ключевое понятие: Мир профессий"
+          ]
         },
         {
           "type": "quiz",
@@ -729,7 +999,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Manages finances",
-          "hint": "Numbers and money"
+          "hint": "Numbers and money",
+          "examples": [
+            "A software developer creates applications using programming languages 💼",
+            "Модальные глаголы: must (обязательно), should (рекомендуется), need to (необходимо)",
+            "AI specialist и cybersecurity analyst — профессии будущего"
+          ],
+          "keyPoints": [
+            "Вопросы о профессиях — What do you do",
+            "Ключевое понятие: Мир профессий",
+            "Ключевое понятие: Мир профессий"
+          ]
         },
         {
           "type": "quiz",
@@ -742,7 +1022,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "must",
-          "hint": "Requirement"
+          "hint": "Requirement",
+          "examples": [
+            "A software developer creates applications using programming languages 💼",
+            "Модальные глаголы: must (обязательно), should (рекомендуется), need to (необходимо)",
+            "AI specialist и cybersecurity analyst — профессии будущего"
+          ],
+          "keyPoints": [
+            "Вопросы о профессиях — What do you do",
+            "Ключевое понятие: Мир профессий",
+            "Ключевое понятие: Мир профессий"
+          ]
         },
         {
           "type": "quiz",
@@ -755,7 +1045,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Computer programs",
-          "hint": "IT professional"
+          "hint": "IT professional",
+          "examples": [
+            "A software developer creates applications using programming languages 💼",
+            "Модальные глаголы: must (обязательно), should (рекомендуется), need to (необходимо)",
+            "AI specialist и cybersecurity analyst — профессии будущего"
+          ],
+          "keyPoints": [
+            "Вопросы о профессиях — What do you do",
+            "Ключевое понятие: Мир профессий",
+            "Ключевое понятие: Мир профессий"
+          ]
         }
       ],
       "reward": {
@@ -785,7 +1085,12 @@
             "Структура сопроводительного письма — Приветствие: Dear Mr"
           ],
           "correctAnswer": "CV",
-          "hint": "Or resume"
+          "hint": "Or resume",
+          "examples": [
+            "CV (resume) — резюме, cover letter — сопроводительное письмо 📋",
+            "I am writing to apply for the position of... — начало сопроводительного письма",
+            "Objective — краткое описание карьерных целей в начале резюме"
+          ]
         },
         {
           "type": "quiz",
@@ -798,7 +1103,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Job meeting with employer",
-          "hint": "Face to face discussion"
+          "hint": "Face to face discussion",
+          "examples": [
+            "CV (resume) — резюме, cover letter — сопроводительное письмо 📋",
+            "I am writing to apply for the position of... — начало сопроводительного письма",
+            "Objective — краткое описание карьерных целей в начале резюме"
+          ],
+          "keyPoints": [
+            "Пример резюме (фрагменты) — Objective:",
+            "Сопроводительное письмо (Cover Letter) — Структура сопроводительного письма:",
+            "Структура сопроводительного письма — Приветствие: Dear Mr"
+          ]
         },
         {
           "type": "quiz",
@@ -811,7 +1126,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "attached",
-          "hint": "Included in email"
+          "hint": "Included in email",
+          "examples": [
+            "CV (resume) — резюме, cover letter — сопроводительное письмо 📋",
+            "I am writing to apply for the position of... — начало сопроводительного письма",
+            "Objective — краткое описание карьерных целей в начале резюме"
+          ],
+          "keyPoints": [
+            "Пример резюме (фрагменты) — Objective:",
+            "Сопроводительное письмо (Cover Letter) — Структура сопроводительного письма:",
+            "Структура сопроводительного письма — Приветствие: Dear Mr"
+          ]
         },
         {
           "type": "quiz",
@@ -824,7 +1149,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Strong points",
-          "hint": "Positive qualities"
+          "hint": "Positive qualities",
+          "examples": [
+            "CV (resume) — резюме, cover letter — сопроводительное письмо 📋",
+            "I am writing to apply for the position of... — начало сопроводительного письма",
+            "Objective — краткое описание карьерных целей в начале резюме"
+          ],
+          "keyPoints": [
+            "Пример резюме (фрагменты) — Objective:",
+            "Сопроводительное письмо (Cover Letter) — Структура сопроводительного письма:",
+            "Структура сопроводительного письма — Приветствие: Dear Mr"
+          ]
         },
         {
           "type": "quiz",
@@ -837,7 +1172,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "cover",
-          "hint": "Goes with CV"
+          "hint": "Goes with CV",
+          "examples": [
+            "CV (resume) — резюме, cover letter — сопроводительное письмо 📋",
+            "I am writing to apply for the position of... — начало сопроводительного письма",
+            "Objective — краткое описание карьерных целей в начале резюме"
+          ],
+          "keyPoints": [
+            "Пример резюме (фрагменты) — Objective:",
+            "Сопроводительное письмо (Cover Letter) — Структура сопроводительного письма:",
+            "Структура сопроводительного письма — Приветствие: Dear Mr"
+          ]
         },
         {
           "type": "quiz",
@@ -850,7 +1195,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "An open job position",
-          "hint": "Job opening"
+          "hint": "Job opening",
+          "examples": [
+            "CV (resume) — резюме, cover letter — сопроводительное письмо 📋",
+            "I am writing to apply for the position of... — начало сопроводительного письма",
+            "Objective — краткое описание карьерных целей в начале резюме"
+          ],
+          "keyPoints": [
+            "Пример резюме (фрагменты) — Objective:",
+            "Сопроводительное письмо (Cover Letter) — Структура сопроводительного письма:",
+            "Структура сопроводительного письма — Приветствие: Dear Mr"
+          ]
         },
         {
           "type": "quiz",
@@ -863,7 +1218,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "strengths",
-          "hint": "Positive qualities"
+          "hint": "Positive qualities",
+          "examples": [
+            "CV (resume) — резюме, cover letter — сопроводительное письмо 📋",
+            "I am writing to apply for the position of... — начало сопроводительного письма",
+            "Objective — краткое описание карьерных целей в начале резюме"
+          ],
+          "keyPoints": [
+            "Пример резюме (фрагменты) — Objective:",
+            "Сопроводительное письмо (Cover Letter) — Структура сопроводительного письма:",
+            "Структура сопроводительного письма — Приветствие: Dear Mr"
+          ]
         },
         {
           "type": "quiz",
@@ -876,7 +1241,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Person applying for a job",
-          "hint": "Job seeker"
+          "hint": "Job seeker",
+          "examples": [
+            "CV (resume) — резюме, cover letter — сопроводительное письмо 📋",
+            "I am writing to apply for the position of... — начало сопроводительного письма",
+            "Objective — краткое описание карьерных целей в начале резюме"
+          ],
+          "keyPoints": [
+            "Пример резюме (фрагменты) — Objective:",
+            "Сопроводительное письмо (Cover Letter) — Структура сопроводительного письма:",
+            "Структура сопроводительного письма — Приветствие: Dear Mr"
+          ]
         }
       ],
       "reward": {
@@ -906,7 +1281,12 @@
             "Завершение письма — I look forward to hearing from you"
           ],
           "correctAnswer": "deadline",
-          "hint": "Time limit"
+          "hint": "Time limit",
+          "examples": [
+            "I look forward to hearing from you — стандартное завершение делового письма 📧",
+            "Could I speak to Mr. Johnson, please? — просьба соединить по телефону",
+            "Good morning everyone. Today I'm going to talk about... — начало презентации"
+          ]
         },
         {
           "type": "quiz",
@@ -919,7 +1299,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "I am writing to...",
-          "hint": "Formal opening"
+          "hint": "Formal opening",
+          "examples": [
+            "I look forward to hearing from you — стандартное завершение делового письма 📧",
+            "Could I speak to Mr. Johnson, please? — просьба соединить по телефону",
+            "Good morning everyone. Today I'm going to talk about... — начало презентации"
+          ],
+          "keyPoints": [
+            "Деловая переписка — Типы деловых писем:",
+            "Полезные фразы для деловых писем — Начало письма:",
+            "Завершение письма — I look forward to hearing from you"
+          ]
         },
         {
           "type": "quiz",
@@ -932,7 +1322,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "hearing",
-          "hint": "Waiting for reply"
+          "hint": "Waiting for reply",
+          "examples": [
+            "I look forward to hearing from you — стандартное завершение делового письма 📧",
+            "Could I speak to Mr. Johnson, please? — просьба соединить по телефону",
+            "Good morning everyone. Today I'm going to talk about... — начало презентации"
+          ],
+          "keyPoints": [
+            "Деловая переписка — Типы деловых писем:",
+            "Полезные фразы для деловых писем — Начало письма:",
+            "Завершение письма — I look forward to hearing from you"
+          ]
         },
         {
           "type": "quiz",
@@ -945,7 +1345,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Discussion to reach agreement",
-          "hint": "Reaching a deal"
+          "hint": "Reaching a deal",
+          "examples": [
+            "I look forward to hearing from you — стандартное завершение делового письма 📧",
+            "Could I speak to Mr. Johnson, please? — просьба соединить по телефону",
+            "Good morning everyone. Today I'm going to talk about... — начало презентации"
+          ],
+          "keyPoints": [
+            "Деловая переписка — Типы деловых писем:",
+            "Полезные фразы для деловых писем — Начало письма:",
+            "Завершение письма — I look forward to hearing from you"
+          ]
         },
         {
           "type": "quiz",
@@ -958,7 +1368,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "attached",
-          "hint": "Included with email"
+          "hint": "Included with email",
+          "examples": [
+            "I look forward to hearing from you — стандартное завершение делового письма 📧",
+            "Could I speak to Mr. Johnson, please? — просьба соединить по телефону",
+            "Good morning everyone. Today I'm going to talk about... — начало презентации"
+          ],
+          "keyPoints": [
+            "Деловая переписка — Типы деловых писем:",
+            "Полезные фразы для деловых писем — Начало письма:",
+            "Завершение письма — I look forward to hearing from you"
+          ]
         },
         {
           "type": "quiz",
@@ -971,7 +1391,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "A formal suggestion",
-          "hint": "Business offer"
+          "hint": "Business offer",
+          "examples": [
+            "I look forward to hearing from you — стандартное завершение делового письма 📧",
+            "Could I speak to Mr. Johnson, please? — просьба соединить по телефону",
+            "Good morning everyone. Today I'm going to talk about... — начало презентации"
+          ],
+          "keyPoints": [
+            "Деловая переписка — Типы деловых писем:",
+            "Полезные фразы для деловых писем — Начало письма:",
+            "Завершение письма — I look forward to hearing from you"
+          ]
         },
         {
           "type": "quiz",
@@ -984,7 +1414,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "consideration",
-          "hint": "Reviewing my request"
+          "hint": "Reviewing my request",
+          "examples": [
+            "I look forward to hearing from you — стандартное завершение делового письма 📧",
+            "Could I speak to Mr. Johnson, please? — просьба соединить по телефону",
+            "Good morning everyone. Today I'm going to talk about... — начало презентации"
+          ],
+          "keyPoints": [
+            "Деловая переписка — Типы деловых писем:",
+            "Полезные фразы для деловых писем — Начало письма:",
+            "Завершение письма — I look forward to hearing from you"
+          ]
         },
         {
           "type": "quiz",
@@ -997,7 +1437,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "A gathering for discussion",
-          "hint": "Business gathering"
+          "hint": "Business gathering",
+          "examples": [
+            "I look forward to hearing from you — стандартное завершение делового письма 📧",
+            "Could I speak to Mr. Johnson, please? — просьба соединить по телефону",
+            "Good morning everyone. Today I'm going to talk about... — начало презентации"
+          ],
+          "keyPoints": [
+            "Деловая переписка — Типы деловых писем:",
+            "Полезные фразы для деловых писем — Начало письма:",
+            "Завершение письма — I look forward to hearing from you"
+          ]
         }
       ],
       "reward": {
@@ -1027,7 +1477,12 @@
             "Исчезновение видов — Причины:"
           ],
           "correctAnswer": "Greenhouse gases",
-          "hint": "Carbon dioxide, methane"
+          "hint": "Carbon dioxide, methane",
+          "examples": [
+            "Deforestation leads to habitat loss — вырубка лесов ведёт к потере среды обитания 🌍",
+            "Global warming causes rising sea levels and melting ice caps",
+            "Cause and effect: pollution causes health problems, cars contribute to air pollution"
+          ]
         },
         {
           "type": "quiz",
@@ -1040,7 +1495,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "Endangered",
-          "hint": "In danger"
+          "hint": "In danger",
+          "examples": [
+            "Deforestation leads to habitat loss — вырубка лесов ведёт к потере среды обитания 🌍",
+            "Global warming causes rising sea levels and melting ice caps",
+            "Cause and effect: pollution causes health problems, cars contribute to air pollution"
+          ],
+          "keyPoints": [
+            "Причины и последствия экологических проблем — Глобальное потепление:",
+            "Глобальное потепление — Причины (Causes):",
+            "Исчезновение видов — Причины:"
+          ]
         },
         {
           "type": "quiz",
@@ -1053,7 +1518,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Cutting down forests",
-          "hint": "Removing trees"
+          "hint": "Removing trees",
+          "examples": [
+            "Deforestation leads to habitat loss — вырубка лесов ведёт к потере среды обитания 🌍",
+            "Global warming causes rising sea levels and melting ice caps",
+            "Cause and effect: pollution causes health problems, cars contribute to air pollution"
+          ],
+          "keyPoints": [
+            "Причины и последствия экологических проблем — Глобальное потепление:",
+            "Глобальное потепление — Причины (Causes):",
+            "Исчезновение видов — Причины:"
+          ]
         },
         {
           "type": "quiz",
@@ -1066,7 +1541,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "problems",
-          "hint": "Negative effects"
+          "hint": "Negative effects",
+          "examples": [
+            "Deforestation leads to habitat loss — вырубка лесов ведёт к потере среды обитания 🌍",
+            "Global warming causes rising sea levels and melting ice caps",
+            "Cause and effect: pollution causes health problems, cars contribute to air pollution"
+          ],
+          "keyPoints": [
+            "Причины и последствия экологических проблем — Глобальное потепление:",
+            "Глобальное потепление — Причины (Causes):",
+            "Исчезновение видов — Причины:"
+          ]
         },
         {
           "type": "quiz",
@@ -1079,7 +1564,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Variety of life forms",
-          "hint": "Many different species"
+          "hint": "Many different species",
+          "examples": [
+            "Deforestation leads to habitat loss — вырубка лесов ведёт к потере среды обитания 🌍",
+            "Global warming causes rising sea levels and melting ice caps",
+            "Cause and effect: pollution causes health problems, cars contribute to air pollution"
+          ],
+          "keyPoints": [
+            "Причины и последствия экологических проблем — Глобальное потепление:",
+            "Глобальное потепление — Причины (Causes):",
+            "Исчезновение видов — Причины:"
+          ]
         },
         {
           "type": "quiz",
@@ -1092,7 +1587,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "loss",
-          "hint": "Destruction of natural homes"
+          "hint": "Destruction of natural homes",
+          "examples": [
+            "Deforestation leads to habitat loss — вырубка лесов ведёт к потере среды обитания 🌍",
+            "Global warming causes rising sea levels and melting ice caps",
+            "Cause and effect: pollution causes health problems, cars contribute to air pollution"
+          ],
+          "keyPoints": [
+            "Причины и последствия экологических проблем — Глобальное потепление:",
+            "Глобальное потепление — Причины (Causes):",
+            "Исчезновение видов — Причины:"
+          ]
         },
         {
           "type": "quiz",
@@ -1105,7 +1610,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Complete disappearance of a species",
-          "hint": "Gone forever"
+          "hint": "Gone forever",
+          "examples": [
+            "Deforestation leads to habitat loss — вырубка лесов ведёт к потере среды обитания 🌍",
+            "Global warming causes rising sea levels and melting ice caps",
+            "Cause and effect: pollution causes health problems, cars contribute to air pollution"
+          ],
+          "keyPoints": [
+            "Причины и последствия экологических проблем — Глобальное потепление:",
+            "Глобальное потепление — Причины (Causes):",
+            "Исчезновение видов — Причины:"
+          ]
         },
         {
           "type": "quiz",
@@ -1118,7 +1633,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "footprint",
-          "hint": "Your environmental impact"
+          "hint": "Your environmental impact",
+          "examples": [
+            "Deforestation leads to habitat loss — вырубка лесов ведёт к потере среды обитания 🌍",
+            "Global warming causes rising sea levels and melting ice caps",
+            "Cause and effect: pollution causes health problems, cars contribute to air pollution"
+          ],
+          "keyPoints": [
+            "Причины и последствия экологических проблем — Глобальное потепление:",
+            "Глобальное потепление — Причины (Causes):",
+            "Исчезновение видов — Причины:"
+          ]
         }
       ],
       "reward": {
@@ -1148,7 +1673,12 @@
             "Ключевое понятие: Защита окружающей среды"
           ],
           "correctAnswer": "recycle",
-          "hint": "Process for reuse"
+          "hint": "Process for reuse",
+          "examples": [
+            "Принципы 3R: Reduce (сократить), Reuse (использовать повторно), Recycle (переработать) ♻️",
+            "Renewable energy: solar power, wind energy, hydropower — чистая энергия",
+            "We should reduce, reuse, and recycle — modal verb should для рекомендаций"
+          ]
         },
         {
           "type": "quiz",
@@ -1161,7 +1691,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Reduce, Reuse, Recycle",
-          "hint": "Environmental principles"
+          "hint": "Environmental principles",
+          "examples": [
+            "Принципы 3R: Reduce (сократить), Reuse (использовать повторно), Recycle (переработать) ♻️",
+            "Renewable energy: solar power, wind energy, hydropower — чистая энергия",
+            "We should reduce, reuse, and recycle — modal verb should для рекомендаций"
+          ],
+          "keyPoints": [
+            "Действия для защиты окружающей среды — Индивидуальные действия:",
+            "Глобальные инициативы — Paris Agreement (Парижское соглашение)",
+            "Ключевое понятие: Защита окружающей среды"
+          ]
         },
         {
           "type": "quiz",
@@ -1174,7 +1714,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "Renewable",
-          "hint": "Can be replenished"
+          "hint": "Can be replenished",
+          "examples": [
+            "Принципы 3R: Reduce (сократить), Reuse (использовать повторно), Recycle (переработать) ♻️",
+            "Renewable energy: solar power, wind energy, hydropower — чистая энергия",
+            "We should reduce, reuse, and recycle — modal verb should для рекомендаций"
+          ],
+          "keyPoints": [
+            "Действия для защиты окружающей среды — Индивидуальные действия:",
+            "Глобальные инициативы — Paris Agreement (Парижское соглашение)",
+            "Ключевое понятие: Защита окружающей среды"
+          ]
         },
         {
           "type": "quiz",
@@ -1187,7 +1737,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Good for the environment",
-          "hint": "Environmentally safe"
+          "hint": "Environmentally safe",
+          "examples": [
+            "Принципы 3R: Reduce (сократить), Reuse (использовать повторно), Recycle (переработать) ♻️",
+            "Renewable energy: solar power, wind energy, hydropower — чистая энергия",
+            "We should reduce, reuse, and recycle — modal verb should для рекомендаций"
+          ],
+          "keyPoints": [
+            "Действия для защиты окружающей среды — Индивидуальные действия:",
+            "Глобальные инициативы — Paris Agreement (Парижское соглашение)",
+            "Ключевое понятие: Защита окружающей среды"
+          ]
         },
         {
           "type": "quiz",
@@ -1200,7 +1760,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "save",
-          "hint": "Use less"
+          "hint": "Use less",
+          "examples": [
+            "Принципы 3R: Reduce (сократить), Reuse (использовать повторно), Recycle (переработать) ♻️",
+            "Renewable energy: solar power, wind energy, hydropower — чистая энергия",
+            "We should reduce, reuse, and recycle — modal verb should для рекомендаций"
+          ],
+          "keyPoints": [
+            "Действия для защиты окружающей среды — Индивидуальные действия:",
+            "Глобальные инициативы — Paris Agreement (Парижское соглашение)",
+            "Ключевое понятие: Защита окружающей среды"
+          ]
         },
         {
           "type": "quiz",
@@ -1213,7 +1783,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Development that meets present needs without harming future",
-          "hint": "Long-term thinking"
+          "hint": "Long-term thinking",
+          "examples": [
+            "Принципы 3R: Reduce (сократить), Reuse (использовать повторно), Recycle (переработать) ♻️",
+            "Renewable energy: solar power, wind energy, hydropower — чистая энергия",
+            "We should reduce, reuse, and recycle — modal verb should для рекомендаций"
+          ],
+          "keyPoints": [
+            "Действия для защиты окружающей среды — Индивидуальные действия:",
+            "Глобальные инициативы — Paris Agreement (Парижское соглашение)",
+            "Ключевое понятие: Защита окружающей среды"
+          ]
         },
         {
           "type": "quiz",
@@ -1226,7 +1806,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "energy",
-          "hint": "Power from the sun"
+          "hint": "Power from the sun",
+          "examples": [
+            "Принципы 3R: Reduce (сократить), Reuse (использовать повторно), Recycle (переработать) ♻️",
+            "Renewable energy: solar power, wind energy, hydropower — чистая энергия",
+            "We should reduce, reuse, and recycle — modal verb should для рекомендаций"
+          ],
+          "keyPoints": [
+            "Действия для защиты окружающей среды — Индивидуальные действия:",
+            "Глобальные инициативы — Paris Agreement (Парижское соглашение)",
+            "Ключевое понятие: Защита окружающей среды"
+          ]
         },
         {
           "type": "quiz",
@@ -1239,7 +1829,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Protection and preservation",
-          "hint": "Saving natural resources"
+          "hint": "Saving natural resources",
+          "examples": [
+            "Принципы 3R: Reduce (сократить), Reuse (использовать повторно), Recycle (переработать) ♻️",
+            "Renewable energy: solar power, wind energy, hydropower — чистая энергия",
+            "We should reduce, reuse, and recycle — modal verb should для рекомендаций"
+          ],
+          "keyPoints": [
+            "Действия для защиты окружающей среды — Индивидуальные действия:",
+            "Глобальные инициативы — Paris Agreement (Парижское соглашение)",
+            "Ключевое понятие: Защита окружающей среды"
+          ]
         }
       ],
       "reward": {
@@ -1269,7 +1869,12 @@
             "Ключевое понятие: Типы СМИ"
           ],
           "correctAnswer": "newspaper",
-          "hint": "Print media"
+          "hint": "Print media",
+          "examples": [
+            "Types of media: newspapers, magazines, television, radio, online media 📺",
+            "Headline — заголовок статьи, article — статья, broadcast — трансляция",
+            "Fake news — ложные новости, важный навык критического мышления"
+          ]
         },
         {
           "type": "quiz",
@@ -1282,7 +1887,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Article title",
-          "hint": "Main title"
+          "hint": "Main title",
+          "examples": [
+            "Types of media: newspapers, magazines, television, radio, online media 📺",
+            "Headline — заголовок статьи, article — статья, broadcast — трансляция",
+            "Fake news — ложные новости, важный навык критического мышления"
+          ],
+          "keyPoints": [
+            "Критическое отношение к информации — При работе с информацией важно уметь её оценивать:",
+            "При работе с информацией важно уметь её оценивать — Check the source (проверяйте источник)",
+            "Ключевое понятие: Типы СМИ"
+          ]
         },
         {
           "type": "quiz",
@@ -1295,7 +1910,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "journalist",
-          "hint": "Media professional"
+          "hint": "Media professional",
+          "examples": [
+            "Types of media: newspapers, magazines, television, radio, online media 📺",
+            "Headline — заголовок статьи, article — статья, broadcast — трансляция",
+            "Fake news — ложные новости, важный навык критического мышления"
+          ],
+          "keyPoints": [
+            "Критическое отношение к информации — При работе с информацией важно уметь её оценивать:",
+            "При работе с информацией важно уметь её оценивать — Check the source (проверяйте источник)",
+            "Ключевое понятие: Типы СМИ"
+          ]
         },
         {
           "type": "quiz",
@@ -1308,7 +1933,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Transmit on TV/radio",
-          "hint": "Air transmission"
+          "hint": "Air transmission",
+          "examples": [
+            "Types of media: newspapers, magazines, television, radio, online media 📺",
+            "Headline — заголовок статьи, article — статья, broadcast — трансляция",
+            "Fake news — ложные новости, важный навык критического мышления"
+          ],
+          "keyPoints": [
+            "Критическое отношение к информации — При работе с информацией важно уметь её оценивать:",
+            "При работе с информацией важно уметь её оценивать — Check the source (проверяйте источник)",
+            "Ключевое понятие: Типы СМИ"
+          ]
         },
         {
           "type": "quiz",
@@ -1321,7 +1956,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "edits",
-          "hint": "Makes corrections"
+          "hint": "Makes corrections",
+          "examples": [
+            "Types of media: newspapers, magazines, television, radio, online media 📺",
+            "Headline — заголовок статьи, article — статья, broadcast — трансляция",
+            "Fake news — ложные новости, важный навык критического мышления"
+          ],
+          "keyPoints": [
+            "Критическое отношение к информации — При работе с информацией важно уметь её оценивать:",
+            "При работе с информацией важно уметь её оценивать — Check the source (проверяйте источник)",
+            "Ключевое понятие: Типы СМИ"
+          ]
         },
         {
           "type": "quiz",
@@ -1334,7 +1979,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Reports from a specific location",
-          "hint": "Field reporter"
+          "hint": "Field reporter",
+          "examples": [
+            "Types of media: newspapers, magazines, television, radio, online media 📺",
+            "Headline — заголовок статьи, article — статья, broadcast — трансляция",
+            "Fake news — ложные новости, важный навык критического мышления"
+          ],
+          "keyPoints": [
+            "Критическое отношение к информации — При работе с информацией важно уметь её оценивать:",
+            "При работе с информацией важно уметь её оценивать — Check the source (проверяйте источник)",
+            "Ключевое понятие: Типы СМИ"
+          ]
         },
         {
           "type": "quiz",
@@ -1347,7 +2002,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "coverage",
-          "hint": "Reporting of events"
+          "hint": "Reporting of events",
+          "examples": [
+            "Types of media: newspapers, magazines, television, radio, online media 📺",
+            "Headline — заголовок статьи, article — статья, broadcast — трансляция",
+            "Fake news — ложные новости, важный навык критического мышления"
+          ],
+          "keyPoints": [
+            "Критическое отношение к информации — При работе с информацией важно уметь её оценивать:",
+            "При работе с информацией важно уметь её оценивать — Check the source (проверяйте источник)",
+            "Ключевое понятие: Типы СМИ"
+          ]
         },
         {
           "type": "quiz",
@@ -1360,7 +2025,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "A periodic publication with articles and photos",
-          "hint": "Weekly or monthly"
+          "hint": "Weekly or monthly",
+          "examples": [
+            "Types of media: newspapers, magazines, television, radio, online media 📺",
+            "Headline — заголовок статьи, article — статья, broadcast — трансляция",
+            "Fake news — ложные новости, важный навык критического мышления"
+          ],
+          "keyPoints": [
+            "Критическое отношение к информации — При работе с информацией важно уметь её оценивать:",
+            "При работе с информацией важно уметь её оценивать — Check the source (проверяйте источник)",
+            "Ключевое понятие: Типы СМИ"
+          ]
         }
       ],
       "reward": {
@@ -1390,7 +2065,12 @@
             "Ключевое понятие: Социальные сети"
           ],
           "correctAnswer": "quickly",
-          "hint": "Becomes popular"
+          "hint": "Becomes popular",
+          "examples": [
+            "Social media — социальные сети, influencer — блогер, viral — ставший вирусным",
+            "Cyberbullying — кибербуллинг, phishing — фишинг, не делитесь личной информацией",
+            "Подростки проводят в соцсетях значительную часть дня — важна цифровая гигиена"
+          ]
         },
         {
           "type": "quiz",
@@ -1403,7 +2083,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Online harassment",
-          "hint": "Digital bullying"
+          "hint": "Digital bullying",
+          "examples": [
+            "Social media — социальные сети, influencer — блогер, viral — ставший вирусным",
+            "Cyberbullying — кибербуллинг, phishing — фишинг, не делитесь личной информацией",
+            "Подростки проводят в соцсетях значительную часть дня — важна цифровая гигиена"
+          ],
+          "keyPoints": [
+            "Преимущества и недостатки социальных сетей — Advantages (Преимущества):",
+            "Ключевое понятие: Социальные сети",
+            "Ключевое понятие: Социальные сети"
+          ]
         },
         {
           "type": "quiz",
@@ -1416,7 +2106,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "information",
-          "hint": "Private data"
+          "hint": "Private data",
+          "examples": [
+            "Social media — социальные сети, influencer — блогер, viral — ставший вирусным",
+            "Cyberbullying — кибербуллинг, phishing — фишинг, не делитесь личной информацией",
+            "Подростки проводят в соцсетях значительную часть дня — важна цифровая гигиена"
+          ],
+          "keyPoints": [
+            "Преимущества и недостатки социальных сетей — Advantages (Преимущества):",
+            "Ключевое понятие: Социальные сети",
+            "Ключевое понятие: Социальные сети"
+          ]
         },
         {
           "type": "quiz",
@@ -1429,7 +2129,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Someone who subscribes to your content",
-          "hint": "Social media connection"
+          "hint": "Social media connection",
+          "examples": [
+            "Social media — социальные сети, influencer — блогер, viral — ставший вирусным",
+            "Cyberbullying — кибербуллинг, phishing — фишинг, не делитесь личной информацией",
+            "Подростки проводят в соцсетях значительную часть дня — важна цифровая гигиена"
+          ],
+          "keyPoints": [
+            "Преимущества и недостатки социальных сетей — Advantages (Преимущества):",
+            "Ключевое понятие: Социальные сети",
+            "Ключевое понятие: Социальные сети"
+          ]
         },
         {
           "type": "quiz",
@@ -1442,7 +2152,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "influencer",
-          "hint": "Popular content creator"
+          "hint": "Popular content creator",
+          "examples": [
+            "Social media — социальные сети, influencer — блогер, viral — ставший вирусным",
+            "Cyberbullying — кибербуллинг, phishing — фишинг, не делитесь личной информацией",
+            "Подростки проводят в соцсетях значительную часть дня — важна цифровая гигиена"
+          ],
+          "keyPoints": [
+            "Преимущества и недостатки социальных сетей — Advantages (Преимущества):",
+            "Ключевое понятие: Социальные сети",
+            "Ключевое понятие: Социальные сети"
+          ]
         },
         {
           "type": "quiz",
@@ -1455,7 +2175,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "False information presented as news",
-          "hint": "Misinformation"
+          "hint": "Misinformation",
+          "examples": [
+            "Social media — социальные сети, influencer — блогер, viral — ставший вирусным",
+            "Cyberbullying — кибербуллинг, phishing — фишинг, не делитесь личной информацией",
+            "Подростки проводят в соцсетях значительную часть дня — важна цифровая гигиена"
+          ],
+          "keyPoints": [
+            "Преимущества и недостатки социальных сетей — Advantages (Преимущества):",
+            "Ключевое понятие: Социальные сети",
+            "Ключевое понятие: Социальные сети"
+          ]
         },
         {
           "type": "quiz",
@@ -1468,7 +2198,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "settings",
-          "hint": "Security options"
+          "hint": "Security options",
+          "examples": [
+            "Social media — социальные сети, influencer — блогер, viral — ставший вирусным",
+            "Cyberbullying — кибербуллинг, phishing — фишинг, не делитесь личной информацией",
+            "Подростки проводят в соцсетях значительную часть дня — важна цифровая гигиена"
+          ],
+          "keyPoints": [
+            "Преимущества и недостатки социальных сетей — Advantages (Преимущества):",
+            "Ключевое понятие: Социальные сети",
+            "Ключевое понятие: Социальные сети"
+          ]
         },
         {
           "type": "quiz",
@@ -1481,7 +2221,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "A label with # symbol",
-          "hint": "Categorizes content"
+          "hint": "Categorizes content",
+          "examples": [
+            "Social media — социальные сети, influencer — блогер, viral — ставший вирусным",
+            "Cyberbullying — кибербуллинг, phishing — фишинг, не делитесь личной информацией",
+            "Подростки проводят в соцсетях значительную часть дня — важна цифровая гигиена"
+          ],
+          "keyPoints": [
+            "Преимущества и недостатки социальных сетей — Advantages (Преимущества):",
+            "Ключевое понятие: Социальные сети",
+            "Ключевое понятие: Социальные сети"
+          ]
         }
       ],
       "reward": {
@@ -1511,7 +2261,12 @@
             "Ключевое понятие: Технологии будущего"
           ],
           "correctAnswer": "Intelligence",
-          "hint": "Smart machines"
+          "hint": "Smart machines",
+          "examples": [
+            "AI (artificial intelligence) — искусственный интеллект, machine learning — машинное обучение",
+            "VR (virtual reality) — виртуальная реальность, AR (augmented reality) — дополненная реальность",
+            "Self-driving cars, smart homes, medical robots — технологии, меняющие будущее"
+          ]
         },
         {
           "type": "quiz",
@@ -1524,7 +2279,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Computer-generated environment",
-          "hint": "VR technology"
+          "hint": "VR technology",
+          "examples": [
+            "AI (artificial intelligence) — искусственный интеллект, machine learning — машинное обучение",
+            "VR (virtual reality) — виртуальная реальность, AR (augmented reality) — дополненная реальность",
+            "Self-driving cars, smart homes, medical robots — технологии, меняющие будущее"
+          ],
+          "keyPoints": [
+            "Искусственный интеллект (AI) — Области применения ИИ:",
+            "Ключевое понятие: Технологии будущего",
+            "Ключевое понятие: Технологии будущего"
+          ]
         },
         {
           "type": "quiz",
@@ -1537,7 +2302,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "Self-driving",
-          "hint": "Or autonomous"
+          "hint": "Or autonomous",
+          "examples": [
+            "AI (artificial intelligence) — искусственный интеллект, machine learning — машинное обучение",
+            "VR (virtual reality) — виртуальная реальность, AR (augmented reality) — дополненная реальность",
+            "Self-driving cars, smart homes, medical robots — технологии, меняющие будущее"
+          ],
+          "keyPoints": [
+            "Искусственный интеллект (AI) — Области применения ИИ:",
+            "Ключевое понятие: Технологии будущего",
+            "Ключевое понятие: Технологии будущего"
+          ]
         },
         {
           "type": "quiz",
@@ -1550,7 +2325,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Machines doing work automatically",
-          "hint": "Automatic processes"
+          "hint": "Automatic processes",
+          "examples": [
+            "AI (artificial intelligence) — искусственный интеллект, machine learning — машинное обучение",
+            "VR (virtual reality) — виртуальная реальность, AR (augmented reality) — дополненная реальность",
+            "Self-driving cars, smart homes, medical robots — технологии, меняющие будущее"
+          ],
+          "keyPoints": [
+            "Искусственный интеллект (AI) — Области применения ИИ:",
+            "Ключевое понятие: Технологии будущего",
+            "Ключевое понятие: Технологии будущего"
+          ]
         },
         {
           "type": "quiz",
@@ -1563,7 +2348,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "learning",
-          "hint": "AI technology"
+          "hint": "AI technology",
+          "examples": [
+            "AI (artificial intelligence) — искусственный интеллект, machine learning — машинное обучение",
+            "VR (virtual reality) — виртуальная реальность, AR (augmented reality) — дополненная реальность",
+            "Self-driving cars, smart homes, medical robots — технологии, меняющие будущее"
+          ],
+          "keyPoints": [
+            "Искусственный интеллект (AI) — Области применения ИИ:",
+            "Ключевое понятие: Технологии будущего",
+            "Ключевое понятие: Технологии будущего"
+          ]
         },
         {
           "type": "quiz",
@@ -1576,7 +2371,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "A digital ledger technology",
-          "hint": "Secure record system"
+          "hint": "Secure record system",
+          "examples": [
+            "AI (artificial intelligence) — искусственный интеллект, machine learning — машинное обучение",
+            "VR (virtual reality) — виртуальная реальность, AR (augmented reality) — дополненная реальность",
+            "Self-driving cars, smart homes, medical robots — технологии, меняющие будущее"
+          ],
+          "keyPoints": [
+            "Искусственный интеллект (AI) — Области применения ИИ:",
+            "Ключевое понятие: Технологии будущего",
+            "Ключевое понятие: Технологии будущего"
+          ]
         },
         {
           "type": "quiz",
@@ -1589,7 +2394,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "homes",
-          "hint": "Connected living spaces"
+          "hint": "Connected living spaces",
+          "examples": [
+            "AI (artificial intelligence) — искусственный интеллект, machine learning — машинное обучение",
+            "VR (virtual reality) — виртуальная реальность, AR (augmented reality) — дополненная реальность",
+            "Self-driving cars, smart homes, medical robots — технологии, меняющие будущее"
+          ],
+          "keyPoints": [
+            "Искусственный интеллект (AI) — Области применения ИИ:",
+            "Ключевое понятие: Технологии будущего",
+            "Ключевое понятие: Технологии будущего"
+          ]
         },
         {
           "type": "quiz",
@@ -1602,7 +2417,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "A new idea or method",
-          "hint": "Creative solution"
+          "hint": "Creative solution",
+          "examples": [
+            "AI (artificial intelligence) — искусственный интеллект, machine learning — машинное обучение",
+            "VR (virtual reality) — виртуальная реальность, AR (augmented reality) — дополненная реальность",
+            "Self-driving cars, smart homes, medical robots — технологии, меняющие будущее"
+          ],
+          "keyPoints": [
+            "Искусственный интеллект (AI) — Области применения ИИ:",
+            "Ключевое понятие: Технологии будущего",
+            "Ключевое понятие: Технологии будущего"
+          ]
         }
       ],
       "reward": {
@@ -1632,9 +2457,9 @@
             "Цифровой след — это вся информация о вас в интернете. Она включает:"
           ],
           "examples": [
-            "При проектировании школьного стола: ТЗ должно содержать габариты, материал (древесина), нагрузку до 30 кг, бюджет 2000 ₽, срок выполнения — 2 недели",
-            "Метод морфологического анализа: переберите все комбинации материалов (дерево, металл, пластик) и форм (прямоугольная, круглая, угловая) для поиска оптимального решения",
-            "После создания прототипа проведите тестирование: проверьте прочность, удобство использования и соответствие техническому заданию"
+            "Phishing — фишинг, malware — вредоносное ПО, two-factor authentication — двухфакторная аутентификация",
+            "Use strong, unique passwords — используйте надёжные уникальные пароли для каждого аккаунта",
+            "Digital footprint — цифровой след, вся информация о вас в интернете может остаться навсегда"
           ],
           "correctAnswer": "passwords",
           "hint": "Security codes"
@@ -1650,7 +2475,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Fake emails to steal data",
-          "hint": "Online scam"
+          "hint": "Online scam",
+          "examples": [
+            "Phishing — фишинг, malware — вредоносное ПО, two-factor authentication — двухфакторная аутентификация",
+            "Use strong, unique passwords — используйте надёжные уникальные пароли для каждого аккаунта",
+            "Digital footprint — цифровой след, вся информация о вас в интернете может остаться навсегда"
+          ],
+          "keyPoints": [
+            "Правила цифровой безопасности — Онлайн-безопасность:",
+            "Цифровой след (Digital Footprint) — Цифровой след — это вся информация о вас в интернете",
+            "Цифровой след — это вся информация о вас в интернете. Она включает:"
+          ]
         },
         {
           "type": "quiz",
@@ -1663,7 +2498,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "backup",
-          "hint": "Extra copy"
+          "hint": "Extra copy",
+          "examples": [
+            "Phishing — фишинг, malware — вредоносное ПО, two-factor authentication — двухфакторная аутентификация",
+            "Use strong, unique passwords — используйте надёжные уникальные пароли для каждого аккаунта",
+            "Digital footprint — цифровой след, вся информация о вас в интернете может остаться навсегда"
+          ],
+          "keyPoints": [
+            "Правила цифровой безопасности — Онлайн-безопасность:",
+            "Цифровой след (Digital Footprint) — Цифровой след — это вся информация о вас в интернете",
+            "Цифровой след — это вся информация о вас в интернете. Она включает:"
+          ]
         },
         {
           "type": "quiz",
@@ -1676,7 +2521,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Coding data for security",
-          "hint": "Data protection"
+          "hint": "Data protection",
+          "examples": [
+            "Phishing — фишинг, malware — вредоносное ПО, two-factor authentication — двухфакторная аутентификация",
+            "Use strong, unique passwords — используйте надёжные уникальные пароли для каждого аккаунта",
+            "Digital footprint — цифровой след, вся информация о вас в интернете может остаться навсегда"
+          ],
+          "keyPoints": [
+            "Правила цифровой безопасности — Онлайн-безопасность:",
+            "Цифровой след (Digital Footprint) — Цифровой след — это вся информация о вас в интернете",
+            "Цифровой след — это вся информация о вас в интернете. Она включает:"
+          ]
         },
         {
           "type": "quiz",
@@ -1689,7 +2544,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "Malware",
-          "hint": "Viruses and trojans"
+          "hint": "Viruses and trojans",
+          "examples": [
+            "Phishing — фишинг, malware — вредоносное ПО, two-factor authentication — двухфакторная аутентификация",
+            "Use strong, unique passwords — используйте надёжные уникальные пароли для каждого аккаунта",
+            "Digital footprint — цифровой след, вся информация о вас в интернете может остаться навсегда"
+          ],
+          "keyPoints": [
+            "Правила цифровой безопасности — Онлайн-безопасность:",
+            "Цифровой след (Digital Footprint) — Цифровой след — это вся информация о вас в интернете",
+            "Цифровой след — это вся информация о вас в интернете. Она включает:"
+          ]
         },
         {
           "type": "quiz",
@@ -1702,7 +2567,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Extra security layer for login",
-          "hint": "Additional verification"
+          "hint": "Additional verification",
+          "examples": [
+            "Phishing — фишинг, malware — вредоносное ПО, two-factor authentication — двухфакторная аутентификация",
+            "Use strong, unique passwords — используйте надёжные уникальные пароли для каждого аккаунта",
+            "Digital footprint — цифровой след, вся информация о вас в интернете может остаться навсегда"
+          ],
+          "keyPoints": [
+            "Правила цифровой безопасности — Онлайн-безопасность:",
+            "Цифровой след (Digital Footprint) — Цифровой след — это вся информация о вас в интернете",
+            "Цифровой след — это вся информация о вас в интернете. Она включает:"
+          ]
         },
         {
           "type": "quiz",
@@ -1715,7 +2590,17 @@
             "Нет ответа"
           ],
           "correctAnswer": "footprint",
-          "hint": "Online presence"
+          "hint": "Online presence",
+          "examples": [
+            "Phishing — фишинг, malware — вредоносное ПО, two-factor authentication — двухфакторная аутентификация",
+            "Use strong, unique passwords — используйте надёжные уникальные пароли для каждого аккаунта",
+            "Digital footprint — цифровой след, вся информация о вас в интернете может остаться навсегда"
+          ],
+          "keyPoints": [
+            "Правила цифровой безопасности — Онлайн-безопасность:",
+            "Цифровой след (Digital Footprint) — Цифровой след — это вся информация о вас в интернете",
+            "Цифровой след — это вся информация о вас в интернете. Она включает:"
+          ]
         },
         {
           "type": "quiz",
@@ -1728,7 +2613,17 @@
             "Другой ответ"
           ],
           "correctAnswer": "Security system for networks",
-          "hint": "Network protection"
+          "hint": "Network protection",
+          "examples": [
+            "Phishing — фишинг, malware — вредоносное ПО, two-factor authentication — двухфакторная аутентификация",
+            "Use strong, unique passwords — используйте надёжные уникальные пароли для каждого аккаунта",
+            "Digital footprint — цифровой след, вся информация о вас в интернете может остаться навсегда"
+          ],
+          "keyPoints": [
+            "Правила цифровой безопасности — Онлайн-безопасность:",
+            "Цифровой след (Digital Footprint) — Цифровой след — это вся информация о вас в интернете",
+            "Цифровой след — это вся информация о вас в интернете. Она включает:"
+          ]
         }
       ],
       "reward": {
