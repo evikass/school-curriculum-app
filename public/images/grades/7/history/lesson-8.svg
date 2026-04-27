@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="72" rx="0" fill="#EF4444" />
+  <rect x="0" y="72" width="800" height="4" rx="0" fill="#B91C1C" />
+  <text x="400" y="36" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="sans-serif">Соборное уложение 1649 года</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="normal" font-family="sans-serif">Первый свод законов Русского государства</text>
+  <rect x="0" y="570" width="800" height="30" rx="0" fill="#FFF1F2" />
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#FCA5A5" stroke-width="1" />
+  <text x="400" y="590" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="normal" font-family="sans-serif">7 класс — История России — Урок 8</text>
+  <rect x="0" y="76" width="800" height="494" rx="0" fill="#FFF1F2" opacity="0.4" />
+  <rect x="150" y="90" width="500" height="50" rx="8" fill="#B91C1C" />
+  <text x="400" y="112" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold" font-family="sans-serif">Соборное уложение — кодекс законов</text>
+  <text x="400" y="130" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="normal" font-family="sans-serif">Принято Земским собором при царе Алексее Михайловиче</text>
+  <text x="400" y="165" text-anchor="middle" fill="#B91C1C" font-size="14" font-weight="bold" font-family="sans-serif">Структура Соборного уложения</text>
+  <rect x="50" y="180" width="235" height="26" rx="3" fill="#FFFFFF" stroke="#9F1239" stroke-width="1" />
+  <rect x="50" y="180" width="30" height="26" rx="3" fill="#9F1239" />
+  <rect x="76" y="180" width="4" height="26" rx="0" fill="#9F1239" />
+  <text x="65" y="197" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">1</text>
+  <text x="90" y="197" text-anchor="start" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">О blasphemи и церковном суде</text>
+  <rect x="295" y="180" width="235" height="26" rx="3" fill="#FFFFFF" stroke="#9F1239" stroke-width="1" />
+  <rect x="295" y="180" width="30" height="26" rx="3" fill="#9F1239" />
+  <rect x="321" y="180" width="4" height="26" rx="0" fill="#9F1239" />
+  <text x="310" y="197" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">2</text>
+  <text x="335" y="197" text-anchor="start" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">О государьской чести</text>
+  <rect x="540" y="180" width="235" height="26" rx="3" fill="#FFFFFF" stroke="#B91C1C" stroke-width="1" />
+  <rect x="540" y="180" width="30" height="26" rx="3" fill="#B91C1C" />
+  <rect x="566" y="180" width="4" height="26" rx="0" fill="#B91C1C" />
+  <text x="555" y="197" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">3</text>
+  <text x="580" y="197" text-anchor="start" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">О государевом дворе</text>
+  <rect x="50" y="210" width="235" height="26" rx="3" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="50" y="210" width="30" height="26" rx="3" fill="#EF4444" />
+  <rect x="76" y="210" width="4" height="26" rx="0" fill="#EF4444" />
+  <text x="65" y="227" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">4–7</text>
+  <text x="90" y="227" text-anchor="start" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">О служилых людях</text>
+  <rect x="295" y="210" width="235" height="26" rx="3" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="295" y="210" width="30" height="26" rx="3" fill="#EF4444" />
+  <rect x="321" y="210" width="4" height="26" rx="0" fill="#EF4444" />
+  <text x="310" y="227" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">8–10</text>
+  <text x="335" y="227" text-anchor="start" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">О правосудии</text>
+  <rect x="540" y="210" width="235" height="26" rx="3" fill="#FFFFFF" stroke="#B91C1C" stroke-width="1" />
+  <rect x="540" y="210" width="30" height="26" rx="3" fill="#B91C1C" />
+  <rect x="566" y="210" width="4" height="26" rx="0" fill="#B91C1C" />
+  <text x="555" y="227" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">11</text>
+  <text x="580" y="227" text-anchor="start" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">О крестьянах (заповедные годы)</text>
+  <rect x="50" y="240" width="235" height="26" rx="3" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="50" y="240" width="30" height="26" rx="3" fill="#EF4444" />
+  <rect x="76" y="240" width="4" height="26" rx="0" fill="#EF4444" />
+  <text x="65" y="257" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">12–14</text>
+  <text x="90" y="257" text-anchor="start" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">О суде и розыске</text>
+  <rect x="295" y="240" width="235" height="26" rx="3" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="295" y="240" width="30" height="26" rx="3" fill="#EF4444" />
+  <rect x="321" y="240" width="4" height="26" rx="0" fill="#EF4444" />
+  <text x="310" y="257" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">15–19</text>
+  <text x="335" y="257" text-anchor="start" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">О вотчинах и поместьях</text>
+  <rect x="540" y="240" width="235" height="26" rx="3" fill="#FFFFFF" stroke="#9F1239" stroke-width="1" />
+  <rect x="540" y="240" width="30" height="26" rx="3" fill="#9F1239" />
+  <rect x="566" y="240" width="4" height="26" rx="0" fill="#9F1239" />
+  <text x="555" y="257" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">20</text>
+  <text x="580" y="257" text-anchor="start" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">О холопах</text>
+  <text x="400" y="290" text-anchor="middle" fill="#B91C1C" font-size="14" font-weight="bold" font-family="sans-serif">Ключевые положения</text>
+  <rect x="30" y="308" width="246" height="150" rx="6" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="30" y="308" width="246" height="24" rx="6" fill="#EF4444" />
+  <rect x="30" y="328" width="246" height="4" rx="0" fill="#EF4444" />
+  <text x="153" y="324" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">Окончательное закрепощение крестьян</text>
+  <text x="44" y="348" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Бессрочный сыск беглых крестьян</text>
+  <text x="44" y="366" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Отмена «урочных лет»</text>
+  <text x="44" y="384" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Крестьянин — собственность феодала</text>
+  <text x="44" y="402" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Запрет перехода к другому помещику</text>
+  <rect x="288" y="308" width="246" height="150" rx="6" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="288" y="308" width="246" height="24" rx="6" fill="#EF4444" />
+  <rect x="288" y="328" width="246" height="4" rx="0" fill="#EF4444" />
+  <text x="411" y="324" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">Защита личности царя и государства</text>
+  <text x="302" y="348" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Смертная казнь за измену государю</text>
+  <text x="302" y="366" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Наказание за умысел против царя</text>
+  <text x="302" y="384" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Запрет перехода на службу к иноземцу</text>
+  <text x="302" y="402" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Охрана царского двора</text>
+  <rect x="546" y="308" width="246" height="150" rx="6" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="546" y="308" width="246" height="24" rx="6" fill="#EF4444" />
+  <rect x="546" y="328" width="246" height="4" rx="0" fill="#EF4444" />
+  <text x="669" y="324" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">Судебная реформа</text>
+  <text x="560" y="348" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Единые законы для всего государства</text>
+  <text x="560" y="366" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Отмена «обельных» привилегий</text>
+  <text x="560" y="384" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Состязательный суд и розыск</text>
+  <text x="560" y="402" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Регламентация пыток и наказаний</text>
+  <rect x="60" y="480" width="680" height="70" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="2" />
+  <rect x="60" y="480" width="5" height="70" rx="0" fill="#D97706" />
+  <text x="80" y="500" text-anchor="start" fill="#D97706" font-size="13" font-weight="bold" font-family="sans-serif">Историческое значение</text>
+  <text x="80" y="518" text-anchor="start" fill="#1F2937" font-size="11" font-weight="normal" font-family="sans-serif">Первый печатный свод законов. Действовало до 1832 года.</text>
+  <text x="80" y="534" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Юридически оформило крепостное право в России. Централизовало правовую систему.</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#78350F"/>
+    <stop offset="100%" style="stop-color:#B45309"/>
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#D97706"/>
+    <stop offset="100%" style="stop-color:#F59E0B"/>
+  </linearGradient>
+  <linearGradient id="pyramidGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" style="stop-color:#92400E"/>
+    <stop offset="50%" style="stop-color:#F59E0B"/>
+    <stop offset="100%" style="stop-color:#FBBF24"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+<rect x="0" y="0" width="800" height="70" fill="url(#bg)" rx="8"/>
+<circle cx="40" cy="35" r="22" fill="#D97706" stroke="#F59E0B" stroke-width="2"/>
+<text x="40" y="42" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="sans-serif" font-weight="bold">2</text>
+<text x="72" y="32" fill="#FFFFFF" font-size="22" text-anchor="start" font-family="sans-serif" font-weight="bold">Потребности человека</text>
+<text x="72" y="52" fill="#FCD34D" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="normal">Пирамида Маслоу, материальные, духовные, социальные</text>
+<rect x="0" y="68" width="800" height="2" fill="#F59E0B" rx="8"/>
+<rect x="20" y="80" width="380" height="490" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="35" y="102" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Пирамида потребностей Маслоу</text>
+<polygon points="140.0,440,280.0,440,320.0,340,100.0,340" fill="#F87171" stroke="#92400E" stroke-width="1.5" opacity="0.9"/>
+<text x="210" y="392.0" fill="#1C1917" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Физиологические</text>
+<text x="210" y="406.0" fill="#1C1917" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">Еда, вода, сон, тепло</text>
+<polygon points="120.0,380,300.0,380,312.0,290,108.0,290" fill="#FB923C" stroke="#92400E" stroke-width="1.5" opacity="0.9"/>
+<text x="210" y="337.0" fill="#1C1917" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Безопасность</text>
+<text x="210" y="351.0" fill="#1C1917" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">Защита, здоровье, порядок</text>
+<polygon points="96.0,320,324.0,320,312.0,230,108.0,230" fill="#FBBF24" stroke="#92400E" stroke-width="1.5" opacity="0.9"/>
+<text x="210" y="277.0" fill="#1C1917" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Социальные</text>
+<text x="210" y="291.0" fill="#1C1917" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">Общение, любовь, семья</text>
+<polygon points="72.0,260,348.0,260,312.0,170,108.0,170" fill="#4ADE80" stroke="#92400E" stroke-width="1.5" opacity="0.9"/>
+<text x="210" y="217.0" fill="#1C1917" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Престижные</text>
+<text x="210" y="231.0" fill="#1C1917" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">Уважение, статус, успех</text>
+<polygon points="48.0,200,372.0,200,312.0,110,108.0,110" fill="#60A5FA" stroke="#92400E" stroke-width="1.5" opacity="0.9"/>
+<text x="210" y="157.0" fill="#1C1917" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Духовные</text>
+<text x="210" y="171.0" fill="#1C1917" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">Самореализация, творчество</text>
+<line x1="375" y1="460" x2="375" y2="120" stroke="#FBBF24" stroke-width="2"/>
+<polygon points="375,120,379.0,128.0,371.0,128.0" fill="#FBBF24"/>
+<text x="378" y="140" fill="#FCD34D" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Высшие</text>
+<text x="378" y="450" fill="#FCD34D" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Базовые</text>
+<rect x="410" y="80" width="370" height="230" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="425" y="102" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Виды потребностей</text>
+<rect x="425" y="115" width="340" height="55" fill="#292524" rx="6" stroke="#FB923C" stroke-width="1"/>
+<text x="435" y="135" fill="#FB923C" font-size="12" text-anchor="start" font-family="sans-serif" font-weight="bold">Материальные</text>
+<text x="435" y="153" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Еда, одежда, жильё, транспорт</text>
+<rect x="425" y="178" width="340" height="55" fill="#292524" rx="6" stroke="#C084FC" stroke-width="1"/>
+<text x="435" y="198" fill="#C084FC" font-size="12" text-anchor="start" font-family="sans-serif" font-weight="bold">Духовные</text>
+<text x="435" y="216" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Познание, искусство, творчество</text>
+<rect x="425" y="241" width="340" height="55" fill="#292524" rx="6" stroke="#60A5FA" stroke-width="1"/>
+<text x="435" y="261" fill="#60A5FA" font-size="12" text-anchor="start" font-family="sans-serif" font-weight="bold">Социальные</text>
+<text x="435" y="279" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Общение, признание, принадлежность</text>
+<rect x="410" y="320" width="370" height="120" fill="#1C1917" rx="8" stroke="#FBBF24" stroke-width="1"/>
+<text x="425" y="342" fill="#FBBF24" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="bold">Ключевые идеи</text>
+<text x="425" y="362" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Потребности — нужда в чём-либо</text>
+<text x="425" y="378" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Потребности безграничны</text>
+<text x="425" y="394" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Ресурсы ограничены</text>
+<text x="425" y="410" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Это порождает проблему выбора</text>
+<text x="425" y="426" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Потребности развиваются с обществом</text>
+<rect x="410" y="450" width="370" height="120" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="425" y="472" fill="#F59E0B" font-size="12" text-anchor="start" font-family="sans-serif" font-weight="bold">Закон возвышения потребностей</text>
+<text x="425" y="492" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">По мере удовлетворения одних</text>
+<text x="425" y="506" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">потребностей возникают новые,</text>
+<text x="425" y="520" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">более сложные и разнообразные.</text>
+<text x="425" y="540" fill="#FBBF24" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="bold">Развитие потребностей — двигатель</text>
+<text x="425" y="554" fill="#FBBF24" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="bold">общественного прогресса</text>
+<rect x="0" y="570" width="800" height="30" fill="url(#bg)" rx="8"/>
+<text x="400.0" y="590" fill="#FCD34D" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Обществознание · 7 класс</text>
+</svg>

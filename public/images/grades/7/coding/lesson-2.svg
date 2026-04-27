@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#064E3B"/>
+    <stop offset="100%" style="stop-color:#059669"/>
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#10B981"/>
+    <stop offset="100%" style="stop-color:#14B8A6"/>
+  </linearGradient>
+  <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#064E3B"/>
+    <stop offset="100%" style="stop-color:#059669"/>
+  </linearGradient>
+  <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/>
+  </filter>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+<rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="8"/>
+<circle cx="40" cy="35" r="22" fill="#10B981" stroke="#14B8A6" stroke-width="2"/>
+<text x="40" y="42" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="sans-serif" font-weight="bold">2</text>
+<text x="72" y="32" fill="#FFFFFF" font-size="22" text-anchor="start" font-family="sans-serif" font-weight="bold">Первая программа</text>
+<text x="72" y="52" fill="#6EE7B7" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="normal">print(), input(), комментарии, IDE</text>
+<rect x="0" y="68" width="800" height="2" fill="#14B8A6" rx="8"/>
+<rect x="20" y="80" width="380" height="170" fill="#0F172A" rx="8" stroke="#10B981" stroke-width="1"/>
+<text x="35" y="102" fill="#14B8A6" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Функция print()</text>
+<text x="35" y="122" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">print() — выводит текст на экран</text>
+<rect x="35" y="135" width="350" height="108" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="35" y="135" width="350" height="24" fill="#1E293B" rx="6"/>
+<rect x="35" y="153" width="350" height="6" fill="#1E293B" rx="8"/>
+<text x="45" y="151" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">print_demo.py</text>
+<circle cx="345" cy="147" r="4" fill="#F87171"/>
+<circle cx="359" cy="147" r="4" fill="#FCD34D"/>
+<circle cx="373" cy="147" r="4" fill="#4ADE80"/>
+<text x="43" y="175" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="65" y="175" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">print(&quot;Привет!&quot;)</text>
+<text x="43" y="191" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="65" y="191" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">print(5 + 3)  # выведет 8</text>
+<text x="43" y="207" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="65" y="207" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">print(2, 4, 6)  # 2 4 6</text>
+<text x="43" y="223" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="65" y="223" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">print(&quot;a&quot;, &quot;b&quot;, sep=&quot;-&quot;)  # a-b</text>
+<rect x="410" y="80" width="370" height="170" fill="#0F172A" rx="8" stroke="#4ADE80" stroke-width="1"/>
+<text x="425" y="102" fill="#4ADE80" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Функция input()</text>
+<text x="425" y="122" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">input() — считывает ввод пользователя</text>
+<rect x="425" y="135" width="340" height="124" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="425" y="135" width="340" height="24" fill="#1E293B" rx="6"/>
+<rect x="425" y="153" width="340" height="6" fill="#1E293B" rx="8"/>
+<text x="435" y="151" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">input_demo.py</text>
+<circle cx="725" cy="147" r="4" fill="#F87171"/>
+<circle cx="739" cy="147" r="4" fill="#FCD34D"/>
+<circle cx="753" cy="147" r="4" fill="#4ADE80"/>
+<text x="433" y="175" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="455" y="175" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">name = input(&quot;Ваше имя: &quot;)</text>
+<text x="433" y="191" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="455" y="191" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">print(&quot;Привет, &quot; + name)</text>
+<text x="433" y="207" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="455" y="207" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="433" y="223" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="455" y="223" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal"># input() всегда возвращает str</text>
+<text x="433" y="239" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="455" y="239" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">age = input(&quot;Возраст: &quot;)</text>
+<rect x="20" y="260" width="250" height="100" fill="#0F172A" rx="8" stroke="#FCD34D" stroke-width="1"/>
+<text x="35" y="282" fill="#FCD34D" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Комментарии</text>
+<text x="35" y="302" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal"># — однострочный комментарий</text>
+<text x="35" y="320" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">&quot;&quot;&quot;...&quot;&quot;&quot; — многострочный</text>
+<text x="35" y="338" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Комментарии не выполняются!</text>
+<rect x="280" y="260" width="500" height="100" fill="#0F172A" rx="8" stroke="#22D3EE" stroke-width="1"/>
+<text x="295" y="282" fill="#22D3EE" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Среда разработки (IDE)</text>
+<text x="295" y="302" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">IDE — программа для написания кода</text>
+<rect x="295" y="312" width="44" height="20" fill="#4ADE80" rx="10"/>
+<text x="317.0" y="326" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">IDLE</text>
+<rect x="345" y="312" width="65" height="20" fill="#10B981" rx="10"/>
+<text x="377.5" y="326" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">PyCharm</text>
+<rect x="425" y="312" width="65" height="20" fill="#22D3EE" rx="10"/>
+<text x="457.5" y="326" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">VS Code</text>
+<rect x="505" y="312" width="58" height="20" fill="#FB923C" rx="10"/>
+<text x="534.0" y="326" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Thonny</text>
+<text x="295" y="345" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">IDLE поставляется вместе с Python</text>
+<rect x="20" y="370" width="760" height="200" fill="#0F172A" rx="8" stroke="#10B981" stroke-width="1"/>
+<text x="35" y="392" fill="#14B8A6" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Полная программа-диалог</text>
+<rect x="35" y="402" width="460" height="180" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="35" y="402" width="460" height="24" fill="#1E293B" rx="6"/>
+<rect x="35" y="420" width="460" height="6" fill="#1E293B" rx="8"/>
+<text x="45" y="418" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">greeting.py</text>
+<circle cx="455" cy="414" r="4" fill="#F87171"/>
+<circle cx="469" cy="414" r="4" fill="#FCD34D"/>
+<circle cx="483" cy="414" r="4" fill="#4ADE80"/>
+<text x="43" y="442" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="65" y="442" fill="#D1FAE5" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"># Программа-приветствие</text>
+<text x="43" y="459" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="65" y="459" fill="#D1FAE5" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">print(&quot;Привет! Я — Python!&quot;)</text>
+<text x="43" y="476" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="65" y="476" fill="#D1FAE5" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="43" y="493" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="65" y="493" fill="#D1FAE5" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">name = input(&quot;Как тебя зовут? &quot;)</text>
+<text x="43" y="510" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="65" y="510" fill="#D1FAE5" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">age = input(&quot;Сколько тебе лет? &quot;)</text>
+<text x="43" y="527" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">6</text>
+<text x="65" y="527" fill="#D1FAE5" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="43" y="544" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">7</text>
+<text x="65" y="544" fill="#D1FAE5" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">print(&quot;Привет, &quot; + name + &quot;!&quot;)</text>
+<text x="43" y="561" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">8</text>
+<text x="65" y="561" fill="#D1FAE5" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">print(&quot;Тебе &quot; + age + &quot; лет!&quot;)</text>
+<rect x="510" y="407" width="255" height="148" fill="#1E293B" rx="6" stroke="#4ADE80" stroke-width="1"/>
+<text x="520" y="425" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Консоль:</text>
+<text x="520" y="445" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">Привет! Я — Python!</text>
+<text x="520" y="462" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">Как тебя зовут? Анна</text>
+<text x="520" y="479" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">Сколько тебе лет? 13</text>
+<text x="520" y="500" fill="#4ADE80" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">Привет, Анна!</text>
+<text x="520" y="517" fill="#4ADE80" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">Тебе 13 лет!</text>
+<rect x="0" y="570" width="800" height="30" fill="url(#headerGrad)" rx="8"/>
+<text x="400.0" y="590" fill="#6EE7B7" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Программирование · 7 класс</text>
+</svg>

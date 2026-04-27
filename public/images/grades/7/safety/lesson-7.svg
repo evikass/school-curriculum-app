@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF7ED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFEDD5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EA580C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C2410C;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000033" />
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0" />
+  <rect x="0" y="0" width="800" height="80" fill="url(#headerGrad)" />
+  <g transform="translate(20, 15)">
+    <polygon points="25,5 5,45 45,45" fill="#FBBF24" stroke="#1C1917" stroke-width="2" />
+    <text x="25" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1C1917">!</text>
+  </g>
+  <rect x="70" y="18" width="36" height="36" rx="6" fill="#FFFFFF" opacity="0.9" />
+  <text x="88" y="44" text-anchor="middle" font-size="18" font-weight="bold" fill="#EA580C">7</text>
+  <text x="120" y="42" font-size="22" font-weight="bold" fill="#FFFFFF">Первая помощь при переломах и ожогах</text>
+  <text x="120" y="64" font-size="13" fill="#FED7AA">Иммобилизация, степени ожогов, порядок действий</text>
+  <rect x="710" y="22" width="70" height="30" rx="15" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="1" />
+  <text x="745" y="43" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">ОБЖ</text>
+  <rect x="710" y="52" width="70" height="22" rx="11" fill="rgba(255,255,255,0.15)" />
+  <text x="745" y="67" text-anchor="middle" font-size="11" fill="#FED7AA">7 класс</text>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#EA580C" stroke-width="3" />
+  <rect x="20" y="98" width="4" height="18" rx="2" fill="#DC2626" />
+  <text x="30" y="112" font-size="14" font-weight="bold" fill="#DC2626">Переломы костей</text>
+  <rect x="20" y="118" width="250" height="42" rx="8" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.5" />
+  <text x="32" y="136" font-size="12" font-weight="bold" fill="#1C1917">Закрытый перелом</text>
+  <text x="32" y="152" font-size="10" fill="#78716C">Кость сломана, кожа цела</text>
+  <rect x="20" y="168" width="250" height="42" rx="8" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.5" />
+  <text x="32" y="186" font-size="12" font-weight="bold" fill="#1C1917">Открытый перелом</text>
+  <text x="32" y="202" font-size="10" fill="#78716C">Кость видна в ране, кровотечение</text>
+  <rect x="20" y="228" width="4" height="18" rx="2" fill="#16A34A" />
+  <text x="30" y="242" font-size="14" font-weight="bold" fill="#16A34A">Первая помощь при переломах</text>
+  <circle cx="34" cy="258" r="14" fill="#16A34A" />
+  <text x="34" y="263" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="56" y="263" font-size="12" fill="#1C1917">Вызовите скорую помощь: 103 или 112</text>
+  <circle cx="34" cy="282" r="14" fill="#16A34A" />
+  <text x="34" y="287" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="56" y="287" font-size="12" fill="#1C1917">Обеспечьте неподвижность конечности</text>
+  <circle cx="34" cy="306" r="14" fill="#16A34A" />
+  <text x="34" y="311" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="56" y="311" font-size="12" fill="#1C1917">Наложите шину из подручных средств</text>
+  <circle cx="34" cy="330" r="14" fill="#16A34A" />
+  <text x="34" y="335" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="56" y="335" font-size="12" fill="#1C1917">Шина фиксирует 2 сустава выше и ниже</text>
+  <circle cx="34" cy="354" r="14" fill="#16A34A" />
+  <text x="34" y="359" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="56" y="359" font-size="12" fill="#1C1917">При открытом — остановите кровь</text>
+  <circle cx="34" cy="378" r="14" fill="#16A34A" />
+  <text x="34" y="383" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">6</text>
+  <text x="56" y="383" font-size="12" fill="#1C1917">Приложите холод к месту перелома</text>
+  <circle cx="34" cy="402" r="14" fill="#16A34A" />
+  <text x="34" y="407" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">7</text>
+  <text x="56" y="407" font-size="12" fill="#1C1917">Дайте обезболивающее</text>
+  <rect x="430" y="98" width="4" height="18" rx="2" fill="#EA580C" />
+  <text x="440" y="112" font-size="14" font-weight="bold" fill="#EA580C">Ожоги: степени</text>
+  <rect x="430" y="118" width="350" height="42" rx="8" fill="#FFFFFF" stroke="#FBBF24" stroke-width="1.5" />
+  <rect x="440" y="126" width="80" height="26" rx="6" fill="#FBBF24" />
+  <text x="480" y="144" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">I степень</text>
+  <text x="530" y="144" font-size="11" fill="#1C1917">Покраснение, боль, отёк</text>
+  <text x="760" y="144" text-anchor="end" font-size="10" fill="#FBBF24" font-weight="bold">Лёгкая</text>
+  <rect x="430" y="166" width="350" height="42" rx="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.5" />
+  <rect x="440" y="174" width="80" height="26" rx="6" fill="#EA580C" />
+  <text x="480" y="192" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">II степень</text>
+  <text x="530" y="192" font-size="11" fill="#1C1917">Пузыри с жидкостью, сильная боль</text>
+  <text x="760" y="192" text-anchor="end" font-size="10" fill="#EA580C" font-weight="bold">Средняя</text>
+  <rect x="430" y="214" width="350" height="42" rx="8" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.5" />
+  <rect x="440" y="222" width="80" height="26" rx="6" fill="#DC2626" />
+  <text x="480" y="240" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">III степень</text>
+  <text x="530" y="240" font-size="11" fill="#1C1917">Омертвение кожи, струпья</text>
+  <text x="760" y="240" text-anchor="end" font-size="10" fill="#DC2626" font-weight="bold">Тяжёлая</text>
+  <rect x="430" y="262" width="350" height="42" rx="8" fill="#FFFFFF" stroke="#1C1917" stroke-width="1.5" />
+  <rect x="440" y="270" width="80" height="26" rx="6" fill="#1C1917" />
+  <text x="480" y="288" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">IV степень</text>
+  <text x="530" y="288" font-size="11" fill="#1C1917">Обугливание тканей, костей</text>
+  <text x="760" y="288" text-anchor="end" font-size="10" fill="#1C1917" font-weight="bold">Крайне тяжёлая</text>
+  <rect x="430" y="320" width="4" height="18" rx="2" fill="#16A34A" />
+  <text x="440" y="334" font-size="14" font-weight="bold" fill="#16A34A">Первая помощь при ожогах</text>
+  <circle cx="444" cy="350" r="14" fill="#16A34A" />
+  <text x="444" y="355" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="466" y="355" font-size="12" fill="#1C1917">Уберите источник ожога</text>
+  <circle cx="444" cy="374" r="14" fill="#16A34A" />
+  <text x="444" y="379" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="466" y="379" font-size="12" fill="#1C1917">Охлаждайте ожог прохладной водой 10-20 мин</text>
+  <circle cx="444" cy="398" r="14" fill="#16A34A" />
+  <text x="444" y="403" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="466" y="403" font-size="12" fill="#1C1917">Наложите стерильную повязку</text>
+  <circle cx="444" cy="422" r="14" fill="#16A34A" />
+  <text x="444" y="427" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="466" y="427" font-size="12" fill="#1C1917">Дайте обезболивающее</text>
+  <circle cx="444" cy="446" r="14" fill="#16A34A" />
+  <text x="444" y="451" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="466" y="451" font-size="12" fill="#1C1917">При обширных ожогах — вызовите скорую</text>
+  <rect x="20" y="440" width="4" height="18" rx="2" fill="#DC2626" />
+  <text x="30" y="454" font-size="14" font-weight="bold" fill="#DC2626">Чего делать НЕЛЬЗЯ</text>
+  <circle cx="34" cy="468" r="8" fill="#DC2626" stroke="#1C1917" stroke-width="2" />
+  <circle cx="34" cy="468" r="3" fill="none" stroke="#FFFFFF" stroke-width="3" />
+  <line x1="34" y1="468" x2="34" y2="468" stroke="#FFFFFF" stroke-width="4" />
+  <text x="52" y="472" font-size="11" fill="#DC2626">НЕ вставляйте кость обратно при открытом переломе</text>
+  <circle cx="34" cy="488" r="8" fill="#DC2626" stroke="#1C1917" stroke-width="2" />
+  <circle cx="34" cy="488" r="3" fill="none" stroke="#FFFFFF" stroke-width="3" />
+  <line x1="34" y1="488" x2="34" y2="488" stroke="#FFFFFF" stroke-width="4" />
+  <text x="52" y="492" font-size="11" fill="#DC2626">НЕ снимайте одежду, прилипшую к ожогу</text>
+  <circle cx="34" cy="508" r="8" fill="#DC2626" stroke="#1C1917" stroke-width="2" />
+  <circle cx="34" cy="508" r="3" fill="none" stroke="#FFFFFF" stroke-width="3" />
+  <line x1="34" y1="508" x2="34" y2="508" stroke="#FFFFFF" stroke-width="4" />
+  <text x="52" y="512" font-size="11" fill="#DC2626">НЕ смазывайте ожог маслом или кремом</text>
+  <circle cx="34" cy="528" r="8" fill="#DC2626" stroke="#1C1917" stroke-width="2" />
+  <circle cx="34" cy="528" r="3" fill="none" stroke="#FFFFFF" stroke-width="3" />
+  <line x1="34" y1="528" x2="34" y2="528" stroke="#FFFFFF" stroke-width="4" />
+  <text x="52" y="532" font-size="11" fill="#DC2626">НЕ прикладывайте лёд напрямую к коже</text>
+  <circle cx="34" cy="548" r="8" fill="#DC2626" stroke="#1C1917" stroke-width="2" />
+  <circle cx="34" cy="548" r="3" fill="none" stroke="#FFFFFF" stroke-width="3" />
+  <line x1="34" y1="548" x2="34" y2="548" stroke="#FFFFFF" stroke-width="4" />
+  <text x="52" y="552" font-size="11" fill="#DC2626">НЕ вскрывайте пузыри при ожоге II степени</text>
+  <circle cx="34" cy="568" r="8" fill="#DC2626" stroke="#1C1917" stroke-width="2" />
+  <circle cx="34" cy="568" r="3" fill="none" stroke="#FFFFFF" stroke-width="3" />
+  <line x1="34" y1="568" x2="34" y2="568" stroke="#FFFFFF" stroke-width="4" />
+  <text x="52" y="572" font-size="11" fill="#DC2626">НЕ двигайте сломанную конечность без шины</text>
+  <rect x="430" y="470" width="350" height="70" rx="10" fill="#FEF2F2" stroke="#DC2626" stroke-width="2" />
+  <g>
+    <polygon points="460,487 442,517 478,517" fill="#FBBF24" stroke="#1C1917" stroke-width="2" />
+    <text x="460" y="509" text-anchor="middle" font-size="16" font-weight="bold" fill="#1C1917">!</text>
+  </g>
+  <text x="488" y="498" font-size="12" font-weight="bold" fill="#DC2626">Главное правило!</text>
+  <text x="488" y="518" font-size="11" fill="#1C1917">Не навредите! Неправильная помощь может усугубить</text>
+  <text x="488" y="533" font-size="11" fill="#1C1917">состояние пострадавшего. Вызывайте специалистов.</text>
+  <rect x="0" y="570" width="800" height="30" fill="#1C1917" />
+  <text x="400" y="590" text-anchor="middle" font-size="11" fill="#D6D3D1">Основы безопасности жизнедеятельности | 7 класс</text>
+</svg>

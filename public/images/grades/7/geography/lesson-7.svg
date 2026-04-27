@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="72" rx="0" fill="#059669" />
+  <rect x="0" y="72" width="800" height="4" rx="0" fill="#047857" />
+  <text x="400" y="36" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="sans-serif">Географическое положение и рельеф Африки</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="normal" font-family="sans-serif">Экватор, нагорья, форма материка</text>
+  <rect x="0" y="570" width="800" height="30" rx="0" fill="#ECFDF5" />
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#6EE7B7" stroke-width="1" />
+  <text x="400" y="590" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="normal" font-family="sans-serif">7 класс — География — Урок 7</text>
+  <rect x="0" y="76" width="800" height="494" rx="0" fill="#ECFDF5" opacity="0.4" />
+  <text x="220" y="98" text-anchor="middle" fill="#047857" font-size="14" font-weight="bold" font-family="sans-serif">Африка на карте мира</text>
+  <polygon points="180,120 220,110 260,115 280,130 290,155 285,185 275,210 270,240 280,270 275,300 265,330 250,355 235,370 215,365 200,345 190,320 180,290 175,260 170,230 168,200 165,170 170,140" fill="#D1FAE5" stroke="#059669" stroke-width="2" />
+  <line x1="140" y1="245" x2="300" y2="245" stroke="#DC2626" stroke-width="2" stroke-dasharray="6,3" />
+  <text x="310" y="249" text-anchor="start" fill="#DC2626" font-size="9" font-weight="bold" font-family="sans-serif">Экватор (0°)</text>
+  <line x1="160" y1="170" x2="290" y2="170" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4,3" />
+  <text x="310" y="174" text-anchor="start" fill="#F59E0B" font-size="7" font-weight="normal" font-family="sans-serif">Тропик Рака (23,5° с.ш.)</text>
+  <line x1="165" y1="320" x2="285" y2="320" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4,3" />
+  <text x="310" y="324" text-anchor="start" fill="#F59E0B" font-size="7" font-weight="normal" font-family="sans-serif">Тропик Козерога (23,5° ю.ш.)</text>
+  <line x1="220" y1="115" x2="220" y2="375" stroke="#6D28D9" stroke-width="1" stroke-dasharray="3,2" />
+  <text x="220" y="385" text-anchor="middle" fill="#6D28D9" font-size="7" font-weight="normal" font-family="sans-serif">0° (Гринвич)</text>
+  <circle cx="235" cy="370" r="3" fill="#DC2626" />
+  <text x="145" y="385" text-anchor="start" fill="#DC2626" font-size="7" font-weight="normal" font-family="sans-serif">Игольный мысе</text>
+  <text x="145" y="395" text-anchor="start" fill="#4B5563" font-size="6" font-weight="normal" font-family="sans-serif">(34° ю.ш. — крайняя ю. точка)</text>
+  <circle cx="280" cy="120" r="3" fill="#DC2626" />
+  <text x="310" y="125" text-anchor="start" fill="#DC2626" font-size="7" font-weight="normal" font-family="sans-serif">Рас-Энгела</text>
+  <text x="310" y="135" text-anchor="start" fill="#4B5563" font-size="6" font-weight="normal" font-family="sans-serif">(37° с.ш. — крайняя с. точка)</text>
+  <text x="130" y="230" text-anchor="middle" fill="#0284C7" font-size="7" font-weight="normal" font-family="sans-serif">Атл.</text>
+  <text x="290" y="230" text-anchor="middle" fill="#0284C7" font-size="7" font-weight="normal" font-family="sans-serif">Инд.</text>
+  <text x="220" y="415" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Пересекается экватором</text>
+  <text x="220" y="429" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Расположена в Сев. и Юж. полушариях</text>
+  <text x="220" y="443" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Омывается Атлантическим и</text>
+  <text x="220" y="457" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Индийским океанами</text>
+  <text x="220" y="471" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Площадь: 30,3 млн км²</text>
+  <text x="220" y="485" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">2-й по величине материк</text>
+  <text x="600" y="98" text-anchor="middle" fill="#047857" font-size="14" font-weight="bold" font-family="sans-serif">Рельеф Африки</text>
+  <rect x="420" y="120" width="340" height="140" rx="4" fill="#F0FDF4" stroke="#6EE7B7" stroke-width="1" />
+  <path d="M 430,240 L 460,220 L 500,190 L 540,170 L 580,200 L 620,180 L 660,210 L 700,225 L 740,240" fill="#86EFAC" stroke="#059669" stroke-width="2" />
+  <line x1="430" y1="245" x2="750" y2="245" stroke="#0284C7" stroke-width="1" stroke-dasharray="3,2" />
+  <text x="755" y="248" text-anchor="end" fill="#0284C7" font-size="7" font-weight="normal" font-family="sans-serif">Ур. моря</text>
+  <text x="540" y="165" text-anchor="middle" fill="#047857" font-size="7" font-weight="normal" font-family="sans-serif">Восточно-
+Африканское
+нагорье</text>
+  <text x="440" y="280" text-anchor="start" fill="#047857" font-size="10" font-weight="bold" font-family="sans-serif">Преобладает:</text>
+  <text x="440" y="295" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">  равнины высотой 200-1000 м</text>
+  <text x="440" y="310" text-anchor="start" fill="#047857" font-size="10" font-weight="bold" font-family="sans-serif">Горы:</text>
+  <text x="440" y="325" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">  Атласские (северо-запад)</text>
+  <text x="440" y="340" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">  Драконовы (юг)</text>
+  <text x="440" y="355" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">  Килиманджаро (5895 м)</text>
+  <text x="440" y="370" text-anchor="start" fill="#047857" font-size="10" font-weight="bold" font-family="sans-serif">Нагорья:</text>
+  <text x="440" y="385" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">  Эфиопское</text>
+  <text x="440" y="400" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">  Восточно-Африканское</text>
+  <text x="440" y="415" text-anchor="start" fill="#047857" font-size="10" font-weight="bold" font-family="sans-serif">Впадины:</text>
+  <text x="440" y="430" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">  Калахари, Конго</text>
+  <rect x="440" y="440" width="320" height="50" rx="4" fill="#FFFFFF" stroke="#059669" stroke-width="2" />
+  <rect x="440" y="440" width="5" height="50" rx="2" fill="#059669" />
+  <text x="460" y="458" text-anchor="start" fill="#059669" font-size="11" font-weight="bold" font-family="sans-serif">Высшая точка: г. Килиманджаро</text>
+  <text x="460" y="475" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">5895 м — потухший вулкан в Танзании</text>
+  <rect x="440" y="498" width="320" height="35" rx="4" fill="#FFFFFF" stroke="#B45309" stroke-width="1" />
+  <rect x="440" y="498" width="5" height="35" rx="2" fill="#B45309" />
+  <text x="460" y="515" text-anchor="start" fill="#B45309" font-size="10" font-weight="bold" font-family="sans-serif">Низшая точка: оз. Ассаль (-155 м)</text>
+  <rect x="440" y="540" width="320" height="25" rx="3" fill="#FFFFFF" stroke="#0E7490" stroke-width="1" />
+  <rect x="440" y="540" width="4" height="25" rx="2" fill="#0E7490" />
+  <text x="454" y="556" text-anchor="start" fill="#0E7490" font-size="10" font-weight="bold" font-family="sans-serif">Африка — самый высокий материк</text>
+</svg>

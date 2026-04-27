@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14532D;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#16A34A;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="ftrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#16A34A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14532D;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#DCFCE7;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" rx="14" ry="14" fill="#F0FDF4" stroke="#22C55E" stroke-width="2"/>
+  <rect x="0" y="0" width="800" height="62" rx="14" ry="14" fill="url(#hdrGrad)"/>
+  <rect x="0" y="36" width="800" height="26" fill="url(#hdrGrad)"/>
+  <rect x="16" y="12" width="38" height="38" rx="8" fill="#EF4444" opacity="0.9"/>
+  <text x="35" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#FFF">6</text>
+  <text x="68" y="34" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#FFF">Лыжные ходы</text>
+  <text x="68" y="52" font-family="Arial,sans-serif" font-size="11" fill="#86EFAC">Физкультура — 7 класс — Урок 6</text>
+  <line x1="20" y1="64" x2="780" y2="64" stroke="#86EFAC" stroke-width="1" opacity="0.5"/>
+  <rect x="16" y="72" width="245" height="155" rx="8" ry="8" fill="url(#cardGrad)" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="16" y="72" width="245" height="26" rx="8" ry="8" fill="#22C55E" opacity="0.88"/>
+  <rect x="16" y="86" width="245" height="12" fill="#22C55E" opacity="0.88"/>
+  <text x="138" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FFF">Классические ходы</text>
+  <text x="26" y="112" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Попеременный двухшажный</text>
+  <text x="26" y="127" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Попеременный четырёхшажный</text>
+  <text x="26" y="142" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Одновременный бесшажный</text>
+  <text x="26" y="157" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Одновременный одношажный</text>
+  <text x="26" y="172" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Одновременный двухшажный</text>
+  <rect x="271" y="72" width="245" height="155" rx="8" ry="8" fill="url(#cardGrad)" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="271" y="72" width="245" height="26" rx="8" ry="8" fill="#22C55E" opacity="0.88"/>
+  <rect x="271" y="86" width="245" height="12" fill="#22C55E" opacity="0.88"/>
+  <text x="393" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FFF">Коньковые ходы</text>
+  <text x="281" y="112" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Полуконьковый ход</text>
+  <text x="281" y="127" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Коньковый без палок</text>
+  <text x="281" y="142" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Коньковый одновременный</text>
+  <text x="281" y="157" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Коньковый попеременный</text>
+  <text x="281" y="172" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Перекрёстный (двухшажный)</text>
+  <rect x="526" y="72" width="258" height="155" rx="8" ry="8" fill="url(#cardGrad)" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="526" y="72" width="258" height="26" rx="8" ry="8" fill="#22C55E" opacity="0.88"/>
+  <rect x="526" y="86" width="258" height="12" fill="#22C55E" opacity="0.88"/>
+  <text x="655" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FFF">Выбор хода</text>
+  <text x="536" y="112" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Классика — лыжня, равнина</text>
+  <text x="536" y="127" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Конёк — без лыжни, подъём</text>
+  <text x="536" y="142" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Бесшажный — хороший скольз.</text>
+  <text x="536" y="157" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Попеременный — подъём в гору</text>
+  <text x="536" y="172" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Одношажный — ускорение</text>
+  <rect x="16" y="237" width="245" height="125" rx="8" ry="8" fill="url(#cardGrad)" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="16" y="237" width="245" height="26" rx="8" ry="8" fill="#22C55E" opacity="0.88"/>
+  <rect x="16" y="251" width="245" height="12" fill="#22C55E" opacity="0.88"/>
+  <text x="138" y="255" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FFF">Попеременный двухшажный</text>
+  <text x="26" y="277" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Правая нога + левая палка</text>
+  <text x="26" y="292" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Левая нога + правая палка</text>
+  <text x="26" y="307" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Скользящий шаг — основа</text>
+  <text x="26" y="322" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Толчок ногой назад-вверх</text>
+  <rect x="271" y="237" width="245" height="125" rx="8" ry="8" fill="url(#cardGrad)" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="271" y="237" width="245" height="26" rx="8" ry="8" fill="#22C55E" opacity="0.88"/>
+  <rect x="271" y="251" width="245" height="12" fill="#22C55E" opacity="0.88"/>
+  <text x="393" y="255" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FFF">Одновременный бесшажный</text>
+  <text x="281" y="277" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Толчок двумя палками сразу</text>
+  <text x="281" y="292" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Ноги не отталкиваются</text>
+  <text x="281" y="307" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Наклон туловища вперёд</text>
+  <text x="281" y="322" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Только при хорошем скольжении</text>
+  <rect x="526" y="237" width="258" height="125" rx="8" ry="8" fill="url(#cardGrad)" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="526" y="237" width="258" height="26" rx="8" ry="8" fill="#22C55E" opacity="0.88"/>
+  <rect x="526" y="251" width="258" height="12" fill="#22C55E" opacity="0.88"/>
+  <text x="655" y="255" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FFF">Подъёмы и спуски</text>
+  <text x="536" y="277" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• «Полуёлочкой» — косой подъём</text>
+  <text x="536" y="292" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• «Ёлочкой» — прямо в гору</text>
+  <text x="536" y="307" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• «Лесенкой» — крутой подъём</text>
+  <text x="536" y="322" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Спуск в основной стойке</text>
+  <rect x="16" y="372" width="385" height="192" rx="8" fill="#FFFFFF" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <text x="208" y="392" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#14532D">След лыжни: классический vs коньковый</text>
+  <text x="110" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#16A34A">Классический ход</text>
+  <line x1="50" y1="430" x2="66" y2="425" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="50" y1="446" x2="66" y2="441" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="66" y1="425" x2="82" y2="430" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="66" y1="441" x2="82" y2="446" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="82" y1="430" x2="98" y2="425" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="82" y1="446" x2="98" y2="441" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="98" y1="425" x2="114" y2="430" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="98" y1="441" x2="114" y2="446" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="114" y1="430" x2="130" y2="425" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="114" y1="446" x2="130" y2="441" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="130" y1="425" x2="146" y2="430" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="130" y1="441" x2="146" y2="446" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="146" y1="430" x2="162" y2="425" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="146" y1="446" x2="162" y2="441" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="162" y1="425" x2="178" y2="430" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="162" y1="441" x2="178" y2="446" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <text x="300" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#DC2626">Коньковый ход</text>
+  <line x1="230" y1="438" x2="236" y2="425" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="242" y1="438" x2="236" y2="425" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="252" y1="438" x2="258" y2="425" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="264" y1="438" x2="258" y2="425" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="274" y1="438" x2="280" y2="425" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="286" y1="438" x2="280" y2="425" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="296" y1="438" x2="302" y2="425" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="308" y1="438" x2="302" y2="425" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="318" y1="438" x2="324" y2="425" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="330" y1="438" x2="324" y2="425" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="340" y1="438" x2="346" y2="425" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="352" y1="438" x2="346" y2="425" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+  <g transform="translate(80,470) scale(0.7)" opacity="0.65">
+    <circle cx="0" cy="5" r="5" fill="none" stroke="#16A34A" stroke-width="2"/>
+    <line x1="0" y1="10" x2="2" y2="30" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="2" y1="30" x2="-4" y2="44" stroke="#16A34A" stroke-width="2"/>
+    <line x1="2" y1="30" x2="8" y2="44" stroke="#16A34A" stroke-width="2"/>
+    <line x1="-10" y1="44" x2="4" y2="44" stroke="#16A34A" stroke-width="3"/>
+    <line x1="2" y1="44" x2="14" y2="44" stroke="#16A34A" stroke-width="3"/>
+    <line x1="2" y1="15" x2="-12" y2="42" stroke="#16A34A" stroke-width="1.5"/>
+    <line x1="2" y1="15" x2="14" y2="40" stroke="#16A34A" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(290,470) scale(0.7)" opacity="0.65">
+    <circle cx="0" cy="5" r="5" fill="none" stroke="#DC2626" stroke-width="2"/>
+    <line x1="0" y1="10" x2="3" y2="30" stroke="#DC2626" stroke-width="2.5"/>
+    <line x1="3" y1="30" x2="-8" y2="44" stroke="#DC2626" stroke-width="2"/>
+    <line x1="3" y1="30" x2="14" y2="42" stroke="#DC2626" stroke-width="2"/>
+    <line x1="-14" y1="46" x2="0" y2="42" stroke="#DC2626" stroke-width="3"/>
+    <line x1="8" y1="42" x2="20" y2="46" stroke="#DC2626" stroke-width="3"/>
+    <line x1="3" y1="15" x2="-10" y2="42" stroke="#DC2626" stroke-width="1.5"/>
+    <line x1="3" y1="15" x2="16" y2="38" stroke="#DC2626" stroke-width="1.5"/>
+  </g>
+  <text x="80" y="530" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#16A34A">Параллельные лыжи</text>
+  <text x="290" y="530" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#DC2626">V-образный отталкивание</text>
+  <rect x="411" y="372" width="373" height="192" rx="8" fill="#FFFFFF" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <text x="597" y="392" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#14532D">Цикл попеременного двухшажного хода</text>
+  <g transform="translate(470,440) scale(0.5)" opacity="0.7">
+    <circle cx="0" cy="5" r="5" fill="none" stroke="#16A34A" stroke-width="2"/>
+    <line x1="0" y1="10" x2="3" y2="30" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="3" y1="30" x2="-4" y2="45" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="3" y1="30" x2="10" y2="44" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="3" y1="15" x2="-14" y2="42" stroke="#16A34A" stroke-width="1.5"/>
+    <line x1="3" y1="15" x2="16" y2="28" stroke="#16A34A" stroke-width="1.5"/>
+  </g>
+  <text x="475" y="478" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#16A34A">Правая + левая</text>
+  <line x1="510" y1="455" x2="545" y2="455" stroke="#6B7280" stroke-width="1.5"/>
+  <polygon points="545,451 555,455 545,459" fill="#6B7280"/>
+  <g transform="translate(590,440) scale(0.5)" opacity="0.7">
+    <circle cx="0" cy="5" r="5" fill="none" stroke="#16A34A" stroke-width="2"/>
+    <line x1="0" y1="10" x2="0" y2="32" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="0" y1="32" x2="-8" y2="45" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="0" y1="32" x2="8" y2="45" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="0" y1="18" x2="-10" y2="30" stroke="#16A34A" stroke-width="1.5"/>
+    <line x1="0" y1="18" x2="10" y2="30" stroke="#16A34A" stroke-width="1.5"/>
+  </g>
+  <text x="590" y="478" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#16A34A">Скольжение</text>
+  <line x1="625" y1="455" x2="660" y2="455" stroke="#6B7280" stroke-width="1.5"/>
+  <polygon points="660,451 670,455 660,459" fill="#6B7280"/>
+  <g transform="translate(705,440) scale(0.5)" opacity="0.7">
+    <circle cx="0" cy="5" r="5" fill="none" stroke="#DC2626" stroke-width="2"/>
+    <line x1="0" y1="10" x2="-3" y2="30" stroke="#DC2626" stroke-width="2.5"/>
+    <line x1="-3" y1="30" x2="-10" y2="44" stroke="#DC2626" stroke-width="2.5"/>
+    <line x1="-3" y1="30" x2="4" y2="45" stroke="#DC2626" stroke-width="2.5"/>
+    <line x1="-3" y1="15" x2="14" y2="42" stroke="#DC2626" stroke-width="1.5"/>
+    <line x1="-3" y1="15" x2="-16" y2="28" stroke="#DC2626" stroke-width="1.5"/>
+  </g>
+  <text x="705" y="478" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#DC2626">Левая + правая</text>
+  <rect x="430" y="492" width="340" height="60" rx="5" fill="#DCFCE7" stroke="#BBF7D0" stroke-width="1"/>
+  <text x="440" y="508" font-family="Arial,sans-serif" font-size="9" fill="#166534">Ключевые моменты:</text>
+  <text x="440" y="522" font-family="Arial,sans-serif" font-size="8.5" fill="#6B7280">• Толчок ногой — лыжа прижимается к снегу</text>
+  <text x="440" y="536" font-family="Arial,sans-serif" font-size="8.5" fill="#6B7280">• Палка ставится под углом 70–80°, рука прямая</text>
+  <text x="440" y="548" font-family="Arial,sans-serif" font-size="8.5" fill="#6B7280">• Наклон туловища 15–20°, взгляд вперёд</text>
+  <rect x="0" y="572" width="800" height="28" rx="0" fill="url(#ftrGrad)"/>
+  <rect x="0" y="586" width="800" height="14" rx="14" fill="url(#ftrGrad)"/>
+  <rect x="0" y="572" width="800" height="14" fill="url(#ftrGrad)"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#FFF">Физкультура · 7 класс</text>
+</svg>

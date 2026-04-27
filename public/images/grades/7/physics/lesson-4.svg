@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1917"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="amberV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FB923C"/>
+    </marker>
+    <marker id="arrowWhite" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FFFBEB"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4ADE80"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F87171"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#60A5FA"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="12"/>
+  <!-- Decorative top bar -->
+  <rect x="0" y="0" width="800" height="4" fill="url(#amberGrad)" rx="2"/>
+  <circle cx="40" cy="45" r="18" fill="#B45309" stroke="#F59E0B" stroke-width="2"/>
+  <text x="40" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFBEB">7</text>
+  <text x="68" y="52" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#F59E0B" filter="url(#glow)">Сила упругости и сила трения</text>
+  <text x="68" y="70" font-family="Arial, sans-serif" font-size="13" fill="#FDE68A">Закон Гука F = kx, сила трения, виды трения</text>
+  <line x1="20" y1="78" x2="780" y2="78" stroke="#92400E" stroke-width="1" stroke-dasharray="4,4"/>  <rect x="30" y="85" width="350" height="70" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <text x="205" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">Сила упругости</text>
+  <text x="205" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#FCD34D" filter="url(#glow)">F = k · x  (Закон Гука)</text>  <rect x="400" y="85" width="380" height="70" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <text x="590" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">Сила трения скольжения</text>
+  <text x="590" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FCD34D" filter="url(#glow)">Fтр = μ · N</text>
+  <!-- Spring / Hooke's Law diagram -->
+  <text x="60" y="185" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">Закон Гука: деформация пружины</text>
+  <rect x="30" y="195" width="350" height="200" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  
+  <!-- Undeformed spring -->
+  <text x="50" y="225" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Исходное состояние:</text>
+  <line x1="60" y1="240" x2="60" y2="240" stroke="#FFFBEB" stroke-width="1"/>
+  <!-- Wall -->
+  <rect x="50" y="230" width="10" height="30" fill="#44403C"/>
+  <!-- Spring (relaxed) -->
+  <path d="M 60,245 L 70,235 L 80,255 L 90,235 L 100,255 L 110,235 L 120,255 L 130,245" fill="none" stroke="#4ADE80" stroke-width="2"/>
+  <!-- Block relaxed -->
+  <rect x="130" y="232" width="30" height="26" rx="3" fill="#B45309" stroke="#4ADE80" stroke-width="1.5"/>
+  <text x="145" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFBEB">m</text>
+  
+  <!-- Deformed spring -->
+  <text x="50" y="290" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Растянутая пружина:</text>
+  <rect x="50" y="300" width="10" height="30" fill="#44403C"/>
+  <!-- Stretched spring -->
+  <path d="M 60,315 L 80,305 L 100,325 L 120,305 L 140,325 L 160,305 L 180,325 L 200,315" fill="none" stroke="#F87171" stroke-width="2"/>
+  <!-- Block stretched -->
+  <rect x="200" y="302" width="30" height="26" rx="3" fill="#B45309" stroke="#F87171" stroke-width="1.5"/>
+  <text x="215" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFBEB">m</text>
+  <!-- x displacement -->
+  <line x1="130" y1="345" x2="200" y2="345" stroke="#22D3EE" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+  <text x="155" y="360" font-family="Arial, sans-serif" font-size="11" fill="#22D3EE" text-anchor="middle">x</text>
+  <!-- Force arrow -->
+  <line x1="230" y1="315" x2="280" y2="315" stroke="#FB923C" stroke-width="2.5" marker-end="url(#arrowOrange)"/>
+  <text x="255" y="308" font-family="Arial, sans-serif" font-size="11" fill="#FB923C">F</text>
+  <!-- Fупр arrow back -->
+  <line x1="200" y1="325" x2="155" y2="325" stroke="#4ADE80" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="170" y="340" font-family="Arial, sans-serif" font-size="10" fill="#4ADE80">Fупр</text>
+
+  <!-- Friction types -->
+  <text x="430" y="185" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">Виды силы трения</text>
+  <rect x="400" y="195" width="380" height="200" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  
+  <!-- 1. Static friction -->
+  <text x="420" y="220" font-family="Arial, sans-serif" font-size="12" fill="#FB923C">1. Трение покоя</text>
+  <rect x="430" y="228" width="40" height="20" rx="3" fill="#B45309" stroke="#FB923C" stroke-width="1"/>
+  <line x1="420" y1="248" x2="490" y2="248" stroke="#92400E" stroke-width="2"/>
+  <line x1="475" y1="238" x2="500" y2="238" stroke="#F87171" stroke-width="1.5" marker-end="url(#arrowRed)"/>
+  <text x="510" y="242" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Тело не движется</text>
+  
+  <!-- 2. Sliding friction -->
+  <text x="420" y="275" font-family="Arial, sans-serif" font-size="12" fill="#FB923C">2. Трение скольжения</text>
+  <rect x="430" y="283" width="40" height="20" rx="3" fill="#B45309" stroke="#FB923C" stroke-width="1"/>
+  <line x1="420" y1="303" x2="490" y2="303" stroke="#92400E" stroke-width="2"/>
+  <line x1="470" y1="293" x2="500" y2="293" stroke="#F87171" stroke-width="1.5" marker-end="url(#arrowRed)"/>
+  <line x1="475" y1="293" x2="455" y2="293" stroke="#4ADE80" stroke-width="1.5" marker-end="url(#arrowGreen)"/>
+  <text x="510" y="297" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Тело скользит</text>
+  
+  <!-- 3. Rolling friction -->
+  <text x="420" y="330" font-family="Arial, sans-serif" font-size="12" fill="#FB923C">3. Трение качения</text>
+  <circle cx="450" cy="358" r="12" fill="none" stroke="#FB923C" stroke-width="2"/>
+  <line x1="438" y1="370" x2="462" y2="370" stroke="#FB923C" stroke-width="1.5"/>
+  <line x1="420" y1="370" x2="490" y2="370" stroke="#92400E" stroke-width="2"/>
+  <text x="510" y="362" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Колесо катится</text>
+  <text x="510" y="377" font-family="Arial, sans-serif" font-size="10" fill="#4ADE80">Fтр.кач &lt; Fтр.скольж</text>
+  <rect x="30" y="410" width="250" height="170" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="40" y="428" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Сила упругости</text>
+  <text x="40" y="440" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Закон Гука:</text>
+  <text x="40" y="457" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Fупр = k · x</text>
+  <text x="40" y="474" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">k — жёсткость [Н/м]</text>
+  <text x="40" y="491" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">x — удлинение [м]</text>
+  <text x="40" y="508" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="40" y="525" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Сила упругости направлена</text>
+  <text x="40" y="542" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">противоположно деформации.</text>
+  <text x="40" y="559" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>  <rect x="300" y="410" width="250" height="170" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="310" y="428" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Сила трения</text>
+  <text x="310" y="440" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Сила трения:</text>
+  <text x="310" y="457" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Fтр = μ · N</text>
+  <text x="310" y="474" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">μ — коэффициент трения</text>
+  <text x="310" y="491" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">N — сила нормальной реакции</text>
+  <text x="310" y="508" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="310" y="525" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Трение зависит от:</text>
+  <text x="310" y="542" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Материала поверхностей</text>
+  <text x="310" y="559" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Силы прижимания (N)</text>  <rect x="570" y="410" width="210" height="170" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="580" y="428" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Трение: + и −</text>
+  <text x="580" y="440" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Полезное трение:</text>
+  <text x="580" y="457" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Ходьба</text>
+  <text x="580" y="474" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Торможение</text>
+  <text x="580" y="491" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Движение колёс</text>
+  <text x="580" y="508" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="580" y="525" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Вредное трение:</text>
+  <text x="580" y="542" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Износ деталей</text>
+  <text x="580" y="559" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Нагрев механизмов</text>
+</svg>

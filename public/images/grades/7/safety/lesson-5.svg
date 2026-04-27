@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF7ED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFEDD5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EA580C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C2410C;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000033" />
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0" />
+  <rect x="0" y="0" width="800" height="80" fill="url(#headerGrad)" />
+  <g transform="translate(20, 15)">
+    <polygon points="25,5 5,45 45,45" fill="#FBBF24" stroke="#1C1917" stroke-width="2" />
+    <text x="25" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1C1917">!</text>
+  </g>
+  <rect x="70" y="18" width="36" height="36" rx="6" fill="#FFFFFF" opacity="0.9" />
+  <text x="88" y="44" text-anchor="middle" font-size="18" font-weight="bold" fill="#EA580C">5</text>
+  <text x="120" y="42" font-size="22" font-weight="bold" fill="#FFFFFF">Техногенные чрезвычайные ситуации</text>
+  <text x="120" y="64" font-size="13" fill="#FED7AA">Промышленные аварии, химическое и радиационное заражение</text>
+  <rect x="710" y="22" width="70" height="30" rx="15" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="1" />
+  <text x="745" y="43" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">ОБЖ</text>
+  <rect x="710" y="52" width="70" height="22" rx="11" fill="rgba(255,255,255,0.15)" />
+  <text x="745" y="67" text-anchor="middle" font-size="11" fill="#FED7AA">7 класс</text>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#EA580C" stroke-width="3" />
+  <rect x="20" y="98" width="4" height="18" rx="2" fill="#DC2626" />
+  <text x="30" y="112" font-size="14" font-weight="bold" fill="#DC2626">Виды техногенных ЧС</text>
+  <rect x="20" y="118" width="250" height="175" rx="10" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#shadow)" />
+  <rect x="20" y="118" width="250" height="6" rx="3" fill="#DC2626" />
+  <circle cx="44" cy="142" r="14" fill="#DC2626" />
+  <text x="44" y="148" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">🏭</text>
+  <text x="66" y="146" font-size="14" font-weight="bold" fill="#1C1917">Классификация</text>
+  <circle cx="40" cy="164" r="3" fill="#DC2626" />
+  <text x="50" y="168" font-size="12" fill="#1C1917">Аварии на химических предприятиях</text>
+  <circle cx="40" cy="184" r="3" fill="#DC2626" />
+  <text x="50" y="188" font-size="12" fill="#1C1917">Аварии на радиационных объектах</text>
+  <circle cx="40" cy="204" r="3" fill="#DC2626" />
+  <text x="50" y="208" font-size="12" fill="#1C1917">Взрывы и пожары на производстве</text>
+  <circle cx="40" cy="224" r="3" fill="#DC2626" />
+  <text x="50" y="228" font-size="12" fill="#1C1917">Аварии на электростанциях</text>
+  <circle cx="40" cy="244" r="3" fill="#DC2626" />
+  <text x="50" y="248" font-size="12" fill="#1C1917">Обрушения зданий и сооружений</text>
+  <circle cx="40" cy="264" r="3" fill="#DC2626" />
+  <text x="50" y="268" font-size="12" fill="#1C1917">Аварии на трубопроводах</text>
+  <rect x="285" y="98" width="4" height="18" rx="2" fill="#EA580C" />
+  <text x="295" y="112" font-size="14" font-weight="bold" fill="#EA580C">Химическая безопасность</text>
+  <rect x="285" y="118" width="240" height="175" rx="10" fill="#FFFFFF" stroke="#EA580C" stroke-width="2" filter="url(#shadow)" />
+  <rect x="285" y="118" width="240" height="6" rx="3" fill="#EA580C" />
+  <circle cx="309" cy="142" r="14" fill="#EA580C" />
+  <text x="309" y="148" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">⚗</text>
+  <text x="331" y="146" font-size="14" font-weight="bold" fill="#1C1917">При хим. аварии</text>
+  <circle cx="305" cy="164" r="3" fill="#EA580C" />
+  <text x="315" y="168" font-size="12" fill="#1C1917">Используйте противогаз или респиратор</text>
+  <circle cx="305" cy="184" r="3" fill="#EA580C" />
+  <text x="315" y="188" font-size="12" fill="#1C1917">Двигайтесь перпендикулярно ветру</text>
+  <circle cx="305" cy="204" r="3" fill="#EA580C" />
+  <text x="315" y="208" font-size="12" fill="#1C1917">Укройтесь в герметичном помещении</text>
+  <circle cx="305" cy="224" r="3" fill="#EA580C" />
+  <text x="315" y="228" font-size="12" fill="#1C1917">Закройте окна и вентиляцию</text>
+  <circle cx="305" cy="244" r="3" fill="#EA580C" />
+  <text x="315" y="248" font-size="12" fill="#1C1917">Пейте только бутилированную воду</text>
+  <rect x="540" y="98" width="4" height="18" rx="2" fill="#2563EB" />
+  <text x="550" y="112" font-size="14" font-weight="bold" fill="#2563EB">Радиационная безопасность</text>
+  <rect x="540" y="118" width="240" height="175" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" filter="url(#shadow)" />
+  <rect x="540" y="118" width="240" height="6" rx="3" fill="#2563EB" />
+  <circle cx="564" cy="142" r="14" fill="#2563EB" />
+  <text x="564" y="148" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">☢</text>
+  <text x="586" y="146" font-size="14" font-weight="bold" fill="#1C1917">При радиац. аварии</text>
+  <circle cx="560" cy="164" r="3" fill="#2563EB" />
+  <text x="570" y="168" font-size="12" fill="#1C1917">Укрытие в помещении (защита от облучения)</text>
+  <circle cx="560" cy="184" r="3" fill="#2563EB" />
+  <text x="570" y="188" font-size="12" fill="#1C1917">Герметизация окон и дверей</text>
+  <circle cx="560" cy="204" r="3" fill="#2563EB" />
+  <text x="570" y="208" font-size="12" fill="#1C1917">Приём йодистого калия</text>
+  <circle cx="560" cy="224" r="3" fill="#2563EB" />
+  <text x="570" y="228" font-size="12" fill="#1C1917">Защита органов дыхания</text>
+  <circle cx="560" cy="244" r="3" fill="#2563EB" />
+  <text x="570" y="248" font-size="12" fill="#1C1917">Не употребляйте загрязнённые продукты</text>
+  <rect x="20" y="318" width="4" height="18" rx="2" fill="#16A34A" />
+  <text x="30" y="332" font-size="14" font-weight="bold" fill="#16A34A">Порядок действий при техногенной ЧС</text>
+  <circle cx="34" cy="350" r="14" fill="#16A34A" />
+  <text x="34" y="355" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="56" y="355" font-size="12" fill="#1C1917">Услышали сирену — включите радио/ТВ</text>
+  <circle cx="34" cy="380" r="14" fill="#16A34A" />
+  <text x="34" y="385" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="56" y="385" font-size="12" fill="#1C1917">Узнайте характер опасности и зону поражения</text>
+  <circle cx="34" cy="410" r="14" fill="#16A34A" />
+  <text x="34" y="415" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="56" y="415" font-size="12" fill="#1C1917">Выполните рекомендации МЧС</text>
+  <circle cx="414" cy="350" r="14" fill="#16A34A" />
+  <text x="414" y="355" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="436" y="355" font-size="12" fill="#1C1917">Подготовьте документы и средства защиты</text>
+  <circle cx="414" cy="380" r="14" fill="#16A34A" />
+  <text x="414" y="385" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="436" y="385" font-size="12" fill="#1C1917">При эвакуации — следуйте по указанному маршруту</text>
+  <circle cx="414" cy="410" r="14" fill="#16A34A" />
+  <text x="414" y="415" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">6</text>
+  <text x="436" y="415" font-size="12" fill="#1C1917">Не возвращайтесь без разрешения властей</text>
+  <rect x="20" y="460" width="760" height="80" rx="10" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#shadow)" />
+  <rect x="35" y="470" width="220" height="55" rx="6" fill="#DC2626" opacity="0.15" />
+  <text x="45" y="492" font-size="14" font-weight="bold" fill="#DC2626">Зона А</text>
+  <text x="45" y="512" font-size="11" fill="#1C1917">Район чрезвычайной опасности</text>
+  <rect x="280" y="470" width="220" height="55" rx="6" fill="#EA580C" opacity="0.15" />
+  <text x="290" y="492" font-size="14" font-weight="bold" fill="#EA580C">Зона Б</text>
+  <text x="290" y="512" font-size="11" fill="#1C1917">Зона опасного заражения</text>
+  <rect x="525" y="470" width="220" height="55" rx="6" fill="#FBBF24" opacity="0.15" />
+  <text x="535" y="492" font-size="14" font-weight="bold" fill="#FBBF24">Зона В</text>
+  <text x="535" y="512" font-size="11" fill="#1C1917">Зона умеренного заражения</text>
+  <rect x="0" y="570" width="800" height="30" fill="#1C1917" />
+  <text x="400" y="590" text-anchor="middle" font-size="11" fill="#D6D3D1">Основы безопасности жизнедеятельности | 7 класс</text>
+</svg>

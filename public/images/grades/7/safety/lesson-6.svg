@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF7ED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFEDD5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EA580C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C2410C;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000033" />
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0" />
+  <rect x="0" y="0" width="800" height="80" fill="url(#headerGrad)" />
+  <g transform="translate(20, 15)">
+    <polygon points="25,5 5,45 45,45" fill="#FBBF24" stroke="#1C1917" stroke-width="2" />
+    <text x="25" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1C1917">!</text>
+  </g>
+  <rect x="70" y="18" width="36" height="36" rx="6" fill="#FFFFFF" opacity="0.9" />
+  <text x="88" y="44" text-anchor="middle" font-size="18" font-weight="bold" fill="#EA580C">6</text>
+  <text x="120" y="42" font-size="22" font-weight="bold" fill="#FFFFFF">Первая помощь при кровотечениях</text>
+  <text x="120" y="64" font-size="13" fill="#FED7AA">Виды кровотечений, жгут, давящая повязка, порядок действий</text>
+  <rect x="710" y="22" width="70" height="30" rx="15" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="1" />
+  <text x="745" y="43" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">ОБЖ</text>
+  <rect x="710" y="52" width="70" height="22" rx="11" fill="rgba(255,255,255,0.15)" />
+  <text x="745" y="67" text-anchor="middle" font-size="11" fill="#FED7AA">7 класс</text>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#EA580C" stroke-width="3" />
+  <rect x="20" y="98" width="4" height="18" rx="2" fill="#DC2626" />
+  <text x="30" y="112" font-size="14" font-weight="bold" fill="#DC2626">Виды кровотечений</text>
+  <rect x="20" y="118" width="250" height="80" rx="10" fill="#FFFFFF" stroke="#EA580C" stroke-width="2" filter="url(#shadow)" />
+  <rect x="20" y="118" width="250" height="6" rx="3" fill="#EA580C" />
+  <text x="32" y="140" font-size="14" font-weight="bold" fill="#EA580C">Капиллярное</text>
+  <text x="32" y="158" font-size="10" fill="#1C1917">Кровь сочится каплями,</text>
+  <text x="32" y="172" font-size="10" fill="#78716C">цвет — ярко-красный</text>
+  <rect x="200" y="130" width="58" height="18" rx="9" fill="#EA580C" />
+  <text x="229" y="143" text-anchor="middle" font-size="8" font-weight="bold" fill="#FFFFFF">Небольшая ра</text>
+  <rect x="280" y="118" width="250" height="80" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" filter="url(#shadow)" />
+  <rect x="280" y="118" width="250" height="6" rx="3" fill="#2563EB" />
+  <text x="292" y="140" font-size="14" font-weight="bold" fill="#2563EB">Венозное</text>
+  <text x="292" y="158" font-size="10" fill="#1C1917">Кровь тёмно-красная,</text>
+  <text x="292" y="172" font-size="10" fill="#78716C">течёт равномерно</text>
+  <rect x="460" y="130" width="58" height="18" rx="9" fill="#2563EB" />
+  <text x="489" y="143" text-anchor="middle" font-size="8" font-weight="bold" fill="#FFFFFF">Опасная поте</text>
+  <rect x="540" y="118" width="250" height="80" rx="10" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#shadow)" />
+  <rect x="540" y="118" width="250" height="6" rx="3" fill="#DC2626" />
+  <text x="552" y="140" font-size="14" font-weight="bold" fill="#DC2626">Артериальное</text>
+  <text x="552" y="158" font-size="10" fill="#1C1917">Кровь алая, пульсирует</text>
+  <text x="552" y="172" font-size="10" fill="#78716C">фонтаном</text>
+  <rect x="720" y="130" width="58" height="18" rx="9" fill="#DC2626" />
+  <text x="749" y="143" text-anchor="middle" font-size="8" font-weight="bold" fill="#FFFFFF">Угроза жизни</text>
+  <rect x="20" y="220" width="4" height="18" rx="2" fill="#16A34A" />
+  <text x="30" y="234" font-size="14" font-weight="bold" fill="#16A34A">Первая помощь: шаг за шагом</text>
+  <circle cx="34" cy="252" r="14" fill="#16A34A" />
+  <text x="34" y="257" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="56" y="257" font-size="12" fill="#1C1917">Вызовите скорую помощь: 103 или 112</text>
+  <circle cx="34" cy="280" r="14" fill="#16A34A" />
+  <text x="34" y="285" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="56" y="285" font-size="12" fill="#1C1917">Успокойте пострадавшего, уложите</text>
+  <circle cx="34" cy="308" r="14" fill="#16A34A" />
+  <text x="34" y="313" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="56" y="313" font-size="12" fill="#1C1917">Оцените вид кровотечения</text>
+  <circle cx="34" cy="336" r="14" fill="#16A34A" />
+  <text x="34" y="341" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="56" y="341" font-size="12" fill="#1C1917">При артериальном — наложите жгут</text>
+  <circle cx="34" cy="364" r="14" fill="#16A34A" />
+  <text x="34" y="369" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="56" y="369" font-size="12" fill="#1C1917">При венозном — давящая повязка</text>
+  <circle cx="34" cy="392" r="14" fill="#16A34A" />
+  <text x="34" y="397" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">6</text>
+  <text x="56" y="397" font-size="12" fill="#1C1917">При капиллярном — промойте и заклейте</text>
+  <rect x="430" y="220" width="4" height="18" rx="2" fill="#DC2626" />
+  <text x="440" y="234" font-size="14" font-weight="bold" fill="#DC2626">Наложение жгута</text>
+  <rect x="430" y="240" width="350" height="195" rx="10" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#shadow)" />
+  <rect x="430" y="240" width="350" height="6" rx="3" fill="#DC2626" />
+  <circle cx="454" cy="264" r="14" fill="#DC2626" />
+  <text x="454" y="270" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">🩹</text>
+  <text x="476" y="268" font-size="14" font-weight="bold" fill="#1C1917">Правила наложения жгута</text>
+  <circle cx="450" cy="286" r="3" fill="#DC2626" />
+  <text x="460" y="290" font-size="12" fill="#1C1917">Жгут — только при артериальном кровотечении!</text>
+  <circle cx="450" cy="306" r="3" fill="#DC2626" />
+  <text x="460" y="310" font-size="12" fill="#1C1917">Накладывается выше раны на 5-7 см</text>
+  <circle cx="450" cy="326" r="3" fill="#DC2626" />
+  <text x="460" y="330" font-size="12" fill="#1C1917">Под жгут — ткань (не на голую кожу)</text>
+  <circle cx="450" cy="346" r="3" fill="#DC2626" />
+  <text x="460" y="350" font-size="12" fill="#1C1917">Затягивайте до остановки кровотечения</text>
+  <circle cx="450" cy="366" r="3" fill="#DC2626" />
+  <text x="460" y="370" font-size="12" fill="#1C1917">Запишите время наложения жгута</text>
+  <circle cx="450" cy="386" r="3" fill="#DC2626" />
+  <text x="460" y="390" font-size="12" fill="#1C1917">Максимальное время летом — 2 часа</text>
+  <circle cx="450" cy="406" r="3" fill="#DC2626" />
+  <text x="460" y="410" font-size="12" fill="#1C1917">Максимальное время зимой — 1 час</text>
+  <circle cx="450" cy="426" r="3" fill="#DC2626" />
+  <text x="460" y="430" font-size="12" fill="#1C1917">Ослабляйте жгут каждые 30 минут</text>
+  <rect x="20" y="440" width="4" height="18" rx="2" fill="#EA580C" />
+  <text x="30" y="454" font-size="14" font-weight="bold" fill="#EA580C">Давящая повязка</text>
+  <circle cx="34" cy="470" r="14" fill="#EA580C" />
+  <text x="34" y="475" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="56" y="475" font-size="12" fill="#1C1917">Приложите стерильную салфетку к ране</text>
+  <circle cx="34" cy="494" r="14" fill="#EA580C" />
+  <text x="34" y="499" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="56" y="499" font-size="12" fill="#1C1917">Поверх — тугой валик из бинта</text>
+  <circle cx="34" cy="518" r="14" fill="#EA580C" />
+  <text x="34" y="523" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="56" y="523" font-size="12" fill="#1C1917">Плотно прибинтуйте валик к ране</text>
+  <circle cx="34" cy="542" r="14" fill="#EA580C" />
+  <text x="34" y="547" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="56" y="547" font-size="12" fill="#1C1917">Проверьте пульс ниже повязки</text>
+  <rect x="430" y="460" width="350" height="80" rx="10" fill="#FEF2F2" stroke="#DC2626" stroke-width="2" />
+  <g>
+    <polygon points="460,482 442,512 478,512" fill="#FBBF24" stroke="#1C1917" stroke-width="2" />
+    <text x="460" y="504" text-anchor="middle" font-size="16" font-weight="bold" fill="#1C1917">!</text>
+  </g>
+  <text x="488" y="488" font-size="12" font-weight="bold" fill="#DC2626">Запомните!</text>
+  <text x="488" y="508" font-size="11" fill="#1C1917">Жгут — крайняя мера! Сначала попробуйте</text>
+  <text x="488" y="524" font-size="11" fill="#1C1917">остановить кровь давящей повязкой или пальцевым прижатием.</text>
+  <rect x="0" y="570" width="800" height="30" fill="#1C1917" />
+  <text x="400" y="590" text-anchor="middle" font-size="11" fill="#D6D3D1">Основы безопасности жизнедеятельности | 7 класс</text>
+</svg>
