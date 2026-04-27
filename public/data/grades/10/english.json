@@ -320,7 +320,17 @@
             "Не знаю"
           ],
           "correctAnswer": "have/has + V3",
-          "hint": "Вспомогательный глагол have/has + причастие прошедшего времени"
+          "hint": "Вспомогательный глагол have/has + причастие прошедшего времени",
+          "examples": [
+            "I have finished. (Я закончил — результат)",
+            "She had left when I came. (Она ушла до моего прихода)",
+            "By 2025 I will have graduated. (К 2025 я закончу)"
+          ],
+          "keyPoints": [
+            "Present Perfect: have/has + V3 — связывает прошлое с настоящим",
+            "Past Perfect: had + V3 — действие завершилось до другого действия в прошлом",
+            "Future Perfect: will have + V3 — действие завершится к определённому моменту"
+          ]
         },
         {
           "type": "quiz",
@@ -333,7 +343,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Действие, завершившееся до другого действия в прошлом",
-          "hint": "Past Perfect — «предпрошедшее» время"
+          "hint": "Past Perfect — «предпрошедшее» время",
+          "examples": [
+            "I have finished. (Я закончил — результат)",
+            "She had left when I came. (Она ушла до моего прихода)",
+            "By 2025 I will have graduated. (К 2025 я закончу)"
+          ],
+          "keyPoints": [
+            "Present Perfect: have/has + V3 — связывает прошлое с настоящим",
+            "Past Perfect: had + V3 — действие завершилось до другого действия в прошлом",
+            "Future Perfect: will have + V3 — действие завершится к определённому моменту"
+          ]
         },
         {
           "type": "find",
@@ -352,7 +372,17 @@
             "ever",
             "never"
           ],
-          "hint": "Present Perfect не используется с указанием точного времени в прошлом"
+          "hint": "Present Perfect не используется с указанием точного времени в прошлом",
+          "examples": [
+            "I have finished. (Я закончил — результат)",
+            "She had left when I came. (Она ушла до моего прихода)",
+            "By 2025 I will have graduated. (К 2025 я закончу)"
+          ],
+          "keyPoints": [
+            "Present Perfect: have/has + V3 — связывает прошлое с настоящим",
+            "Past Perfect: had + V3 — действие завершилось до другого действия в прошлом",
+            "Future Perfect: will have + V3 — действие завершится к определённому моменту"
+          ]
         },
         {
           "type": "quiz",
@@ -365,7 +395,17 @@
             "Не знаю"
           ],
           "correctAnswer": "I have lost my key.",
-          "hint": "Present Perfect связывает прошлое с настоящим результатом"
+          "hint": "Present Perfect связывает прошлое с настоящим результатом",
+          "examples": [
+            "I have finished. (Я закончил — результат)",
+            "She had left when I came. (Она ушла до моего прихода)",
+            "By 2025 I will have graduated. (К 2025 я закончу)"
+          ],
+          "keyPoints": [
+            "Present Perfect: have/has + V3 — связывает прошлое с настоящим",
+            "Past Perfect: had + V3 — действие завершилось до другого действия в прошлом",
+            "Future Perfect: will have + V3 — действие завершится к определённому моменту"
+          ]
         },
         {
           "type": "find",
@@ -383,7 +423,17 @@
             "Past Perfect → had + V3",
             "Future Perfect → will have + V3"
           ],
-          "hint": "Все Perfect времена используют V3 (причастие прошедшего времени)"
+          "hint": "Все Perfect времена используют V3 (причастие прошедшего времени)",
+          "examples": [
+            "I have finished. (Я закончил — результат)",
+            "She had left when I came. (Она ушла до моего прихода)",
+            "By 2025 I will have graduated. (К 2025 я закончу)"
+          ],
+          "keyPoints": [
+            "Present Perfect: have/has + V3 — связывает прошлое с настоящим",
+            "Past Perfect: had + V3 — действие завершилось до другого действия в прошлом",
+            "Future Perfect: will have + V3 — действие завершится к определённому моменту"
+          ]
         }
       ],
       "reward": {
@@ -408,7 +458,17 @@
             "Не знаю"
           ],
           "correctAnswer": "be + V3",
-          "hint": "Страдательный залог: форма глагола to be + причастие прошедшего времени"
+          "hint": "Страдательный залог: форма глагола to be + причастие прошедшего времени",
+          "examples": [
+            "The book is written. (Книга написана)",
+            "The house was built in 1990. (Дом был построен)",
+            "English is spoken here. (Здесь говорят по-английски)"
+          ],
+          "keyPoints": [
+            "Страдательный залог: be + V3 (причастие прошедшего времени)",
+            "В Passive Voice неизвестно или неважно, кто совершает действие",
+            "Passive Voice часто используется в научных текстах и новостях"
+          ]
         },
         {
           "type": "quiz",
@@ -421,7 +481,17 @@
             "Не знаю"
           ],
           "correctAnswer": "by",
-          "hint": "The book was written BY Pushkin"
+          "hint": "The book was written BY Pushkin",
+          "examples": [
+            "The book is written. (Книга написана)",
+            "The house was built in 1990. (Дом был построен)",
+            "English is spoken here. (Здесь говорят по-английски)"
+          ],
+          "keyPoints": [
+            "Страдательный залог: be + V3 (причастие прошедшего времени)",
+            "В Passive Voice неизвестно или неважно, кто совершает действие",
+            "Passive Voice часто используется в научных текстах и новостях"
+          ]
         },
         {
           "type": "find",
@@ -440,7 +510,17 @@
             "В научных текстах",
             "В инструкциях"
           ],
-          "hint": "Passive используется, когда действие важнее деятеля"
+          "hint": "Passive используется, когда действие важнее деятеля",
+          "examples": [
+            "The book is written. (Книга написана)",
+            "The house was built in 1990. (Дом был построен)",
+            "English is spoken here. (Здесь говорят по-английски)"
+          ],
+          "keyPoints": [
+            "Страдательный залог: be + V3 (причастие прошедшего времени)",
+            "В Passive Voice неизвестно или неважно, кто совершает действие",
+            "Passive Voice часто используется в научных текстах и новостях"
+          ]
         },
         {
           "type": "quiz",
@@ -453,7 +533,17 @@
             "Не знаю"
           ],
           "correctAnswer": "The book was read.",
-          "hint": "Past Simple Passive: was/were + V3"
+          "hint": "Past Simple Passive: was/were + V3",
+          "examples": [
+            "The book is written. (Книга написана)",
+            "The house was built in 1990. (Дом был построен)",
+            "English is spoken here. (Здесь говорят по-английски)"
+          ],
+          "keyPoints": [
+            "Страдательный залог: be + V3 (причастие прошедшего времени)",
+            "В Passive Voice неизвестно или неважно, кто совершает действие",
+            "Passive Voice часто используется в научных текстах и новостях"
+          ]
         },
         {
           "type": "find",
@@ -474,7 +564,17 @@
             "Present Continuous: am/is/are being + V3",
             "Past Perfect: had been + V3"
           ],
-          "hint": "Формула Passive: be (в нужном времени) + V3"
+          "hint": "Формула Passive: be (в нужном времени) + V3",
+          "examples": [
+            "The book is written. (Книга написана)",
+            "The house was built in 1990. (Дом был построен)",
+            "English is spoken here. (Здесь говорят по-английски)"
+          ],
+          "keyPoints": [
+            "Страдательный залог: be + V3 (причастие прошедшего времени)",
+            "В Passive Voice неизвестно или неважно, кто совершает действие",
+            "Passive Voice часто используется в научных текстах и новостях"
+          ]
         }
       ],
       "reward": {
@@ -499,7 +599,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Нереальное условие в настоящем/будущем",
-          "hint": "If I had a million dollars, I would buy a house (но у меня нет)"
+          "hint": "If I had a million dollars, I would buy a house (но у меня нет)",
+          "examples": [
+            "If you heat ice, it melts. (0 — факт)",
+            "If it rains, I'll stay home. (I — реальное)",
+            "If I were rich, I would travel. (II — нереальное)"
+          ],
+          "keyPoints": [
+            "Zero Conditional: If + Present, Present — всегда истинные факты",
+            "First Conditional: If + Present, will + V — реальное будущее условие",
+            "Second Conditional: If + Past, would + V — нереальное условие"
+          ]
         },
         {
           "type": "quiz",
@@ -512,7 +622,17 @@
             "Не знаю"
           ],
           "correctAnswer": "If + Past Perfect, would have + V3",
-          "hint": "Third Conditional — сожаление о прошлом: If I had studied, I would have passed"
+          "hint": "Third Conditional — сожаление о прошлом: If I had studied, I would have passed",
+          "examples": [
+            "If you heat ice, it melts. (0 — факт)",
+            "If it rains, I'll stay home. (I — реальное)",
+            "If I were rich, I would travel. (II — нереальное)"
+          ],
+          "keyPoints": [
+            "Zero Conditional: If + Present, Present — всегда истинные факты",
+            "First Conditional: If + Present, will + V — реальное будущее условие",
+            "Second Conditional: If + Past, would + V — нереальное условие"
+          ]
         },
         {
           "type": "find",
@@ -530,7 +650,17 @@
             "First — If + Present, will + V (реальное будущее)",
             "Second — If + Past, would + V (нереальное настоящее)"
           ],
-          "hint": "Каждый тип условного имеет свою структуру и значение"
+          "hint": "Каждый тип условного имеет свою структуру и значение",
+          "examples": [
+            "If you heat ice, it melts. (0 — факт)",
+            "If it rains, I'll stay home. (I — реальное)",
+            "If I were rich, I would travel. (II — нереальное)"
+          ],
+          "keyPoints": [
+            "Zero Conditional: If + Present, Present — всегда истинные факты",
+            "First Conditional: If + Present, will + V — реальное будущее условие",
+            "Second Conditional: If + Past, would + V — нереальное условие"
+          ]
         },
         {
           "type": "quiz",
@@ -543,7 +673,17 @@
             "Не знаю"
           ],
           "correctAnswer": "were",
-          "hint": "If I were you... If he were rich..."
+          "hint": "If I were you... If he were rich...",
+          "examples": [
+            "If you heat ice, it melts. (0 — факт)",
+            "If it rains, I'll stay home. (I — реальное)",
+            "If I were rich, I would travel. (II — нереальное)"
+          ],
+          "keyPoints": [
+            "Zero Conditional: If + Present, Present — всегда истинные факты",
+            "First Conditional: If + Present, will + V — реальное будущее условие",
+            "Second Conditional: If + Past, would + V — нереальное условие"
+          ]
         },
         {
           "type": "find",
@@ -562,7 +702,17 @@
             "If I were you, I would accept. (II)",
             "If I had known, I would have come. (III)"
           ],
-          "hint": "Следите за соответствием формы и значения"
+          "hint": "Следите за соответствием формы и значения",
+          "examples": [
+            "If you heat ice, it melts. (0 — факт)",
+            "If it rains, I'll stay home. (I — реальное)",
+            "If I were rich, I would travel. (II — нереальное)"
+          ],
+          "keyPoints": [
+            "Zero Conditional: If + Present, Present — всегда истинные факты",
+            "First Conditional: If + Present, will + V — реальное будущее условие",
+            "Second Conditional: If + Past, would + V — нереальное условие"
+          ]
         }
       ],
       "reward": {
@@ -587,7 +737,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Они «сдвигаются назад»",
-          "hint": "Sequence of Tenses: Present → Past, Past → Past Perfect"
+          "hint": "Sequence of Tenses: Present → Past, Past → Past Perfect",
+          "examples": [
+            "\"I am happy.\" → He said he was happy.",
+            "\"Where do you live?\" → He asked where I lived.",
+            "\"Don't do it!\" → He told me not to do it."
+          ],
+          "keyPoints": [
+            "Косвенная речь передаёт чужие слова без прямой цитаты",
+            "При переводе в косвенную речь времена сдвигаются назад (Backshift)",
+            "Вопросы в косвенной речи становятся утверждениями с if/whether"
+          ]
         },
         {
           "type": "quiz",
@@ -600,7 +760,17 @@
             "Не знаю"
           ],
           "correctAnswer": "he would come.",
-          "hint": "will → would (сдвиг назад)"
+          "hint": "will → would (сдвиг назад)",
+          "examples": [
+            "\"I am happy.\" → He said he was happy.",
+            "\"Where do you live?\" → He asked where I lived.",
+            "\"Don't do it!\" → He told me not to do it."
+          ],
+          "keyPoints": [
+            "Косвенная речь передаёт чужие слова без прямой цитаты",
+            "При переводе в косвенную речь времена сдвигаются назад (Backshift)",
+            "Вопросы в косвенной речи становятся утверждениями с if/whether"
+          ]
         },
         {
           "type": "find",
@@ -620,7 +790,17 @@
             "can → could",
             "may → might"
           ],
-          "hint": "Backshift: времена и модальные глаголы сдвигаются назад"
+          "hint": "Backshift: времена и модальные глаголы сдвигаются назад",
+          "examples": [
+            "\"I am happy.\" → He said he was happy.",
+            "\"Where do you live?\" → He asked where I lived.",
+            "\"Don't do it!\" → He told me not to do it."
+          ],
+          "keyPoints": [
+            "Косвенная речь передаёт чужие слова без прямой цитаты",
+            "При переводе в косвенную речь времена сдвигаются назад (Backshift)",
+            "Вопросы в косвенной речи становятся утверждениями с if/whether"
+          ]
         },
         {
           "type": "quiz",
@@ -633,7 +813,17 @@
             "Не знаю"
           ],
           "correctAnswer": "if / whether",
-          "hint": "Общие вопросы (yes/no) передаются через if или whether"
+          "hint": "Общие вопросы (yes/no) передаются через if или whether",
+          "examples": [
+            "\"I am happy.\" → He said he was happy.",
+            "\"Where do you live?\" → He asked where I lived.",
+            "\"Don't do it!\" → He told me not to do it."
+          ],
+          "keyPoints": [
+            "Косвенная речь передаёт чужие слова без прямой цитаты",
+            "При переводе в косвенную речь времена сдвигаются назад (Backshift)",
+            "Вопросы в косвенной речи становятся утверждениями с if/whether"
+          ]
         },
         {
           "type": "find",
@@ -653,7 +843,17 @@
             "here → there",
             "this → that"
           ],
-          "hint": "Указательные местоимения и наречия времени/места меняются"
+          "hint": "Указательные местоимения и наречия времени/места меняются",
+          "examples": [
+            "\"I am happy.\" → He said he was happy.",
+            "\"Where do you live?\" → He asked where I lived.",
+            "\"Don't do it!\" → He told me not to do it."
+          ],
+          "keyPoints": [
+            "Косвенная речь передаёт чужие слова без прямой цитаты",
+            "При переводе в косвенную речь времена сдвигаются назад (Backshift)",
+            "Вопросы в косвенной речи становятся утверждениями с if/whether"
+          ]
         }
       ],
       "reward": {
@@ -678,7 +878,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Бросить, отказаться",
-          "hint": "I gave up smoking — я бросил курить"
+          "hint": "I gave up smoking — я бросил курить",
+          "examples": [
+            "give up — бросить; take up — начать",
+            "turn on/off — включить/выключить",
+            "find out — узнать; run out of — закончиться"
+          ],
+          "keyPoints": [
+            "Phrasal verb = глагол + предлог/наречие, значение часто не равно сумме частей",
+            "Разделяемые phrasal verbs: put on, take off (местоимение между глаголом и частицей)",
+            "Неразделяемые phrasal verbs: look after, run into"
+          ]
         },
         {
           "type": "quiz",
@@ -691,7 +901,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Закончиться (о запасах)",
-          "hint": "We ran out of milk — у нас закончилось молоко"
+          "hint": "We ran out of milk — у нас закончилось молоко",
+          "examples": [
+            "give up — бросить; take up — начать",
+            "turn on/off — включить/выключить",
+            "find out — узнать; run out of — закончиться"
+          ],
+          "keyPoints": [
+            "Phrasal verb = глагол + предлог/наречие, значение часто не равно сумме частей",
+            "Разделяемые phrasal verbs: put on, take off (местоимение между глаголом и частицей)",
+            "Неразделяемые phrasal verbs: look after, run into"
+          ]
         },
         {
           "type": "find",
@@ -710,7 +930,17 @@
             "look up — искать в словаре",
             "break down — сломаться"
           ],
-          "hint": "Значение фразового глагола часто не равно сумме значений его частей"
+          "hint": "Значение фразового глагола часто не равно сумме значений его частей",
+          "examples": [
+            "give up — бросить; take up — начать",
+            "turn on/off — включить/выключить",
+            "find out — узнать; run out of — закончиться"
+          ],
+          "keyPoints": [
+            "Phrasal verb = глагол + предлог/наречие, значение часто не равно сумме частей",
+            "Разделяемые phrasal verbs: put on, take off (местоимение между глаголом и частицей)",
+            "Неразделяемые phrasal verbs: look after, run into"
+          ]
         },
         {
           "type": "quiz",
@@ -723,7 +953,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Узнать, выяснить",
-          "hint": "I found out the truth — я узнал правду"
+          "hint": "I found out the truth — я узнал правду",
+          "examples": [
+            "give up — бросить; take up — начать",
+            "turn on/off — включить/выключить",
+            "find out — узнать; run out of — закончиться"
+          ],
+          "keyPoints": [
+            "Phrasal verb = глагол + предлог/наречие, значение часто не равно сумме частей",
+            "Разделяемые phrasal verbs: put on, take off (местоимение между глаголом и частицей)",
+            "Неразделяемые phrasal verbs: look after, run into"
+          ]
         },
         {
           "type": "find",
@@ -742,7 +982,17 @@
             "give up — бросить",
             "look up — искать в словаре"
           ],
-          "hint": "Частица up часто означает завершённость или увеличение"
+          "hint": "Частица up часто означает завершённость или увеличение",
+          "examples": [
+            "give up — бросить; take up — начать",
+            "turn on/off — включить/выключить",
+            "find out — узнать; run out of — закончиться"
+          ],
+          "keyPoints": [
+            "Phrasal verb = глагол + предлог/наречие, значение часто не равно сумме частей",
+            "Разделяемые phrasal verbs: put on, take off (местоимение между глаголом и частицей)",
+            "Неразделяемые phrasal verbs: look after, run into"
+          ]
         }
       ],
       "reward": {
@@ -767,7 +1017,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Ни пуха ни пера!",
-          "hint": "Эта идиома — пожелание удачи перед выступлением"
+          "hint": "Эта идиома — пожелание удачи перед выступлением",
+          "examples": [
+            "break a leg — ни пуха ни пера!",
+            "let the cat out of the bag — выдать секрет",
+            "once in a blue moon — очень редко"
+          ],
+          "keyPoints": [
+            "Идиома — устойчивое выражение, смысл которого не складывается из значений слов",
+            "Идиомы делают речь более естественной и выразительной",
+            "Не переводите идиомы дословно — используйте словари идиом"
+          ]
         },
         {
           "type": "quiz",
@@ -780,7 +1040,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Льёт как из ведра",
-          "hint": "Идиома описывает очень сильный дождь"
+          "hint": "Идиома описывает очень сильный дождь",
+          "examples": [
+            "break a leg — ни пуха ни пера!",
+            "let the cat out of the bag — выдать секрет",
+            "once in a blue moon — очень редко"
+          ],
+          "keyPoints": [
+            "Идиома — устойчивое выражение, смысл которого не складывается из значений слов",
+            "Идиомы делают речь более естественной и выразительной",
+            "Не переводите идиомы дословно — используйте словари идиом"
+          ]
         },
         {
           "type": "find",
@@ -799,7 +1069,17 @@
             "once in a blue moon — очень редко",
             "kill two birds with one stone — убить двух зайцев"
           ],
-          "hint": "Идиомы нельзя переводить дословно!"
+          "hint": "Идиомы нельзя переводить дословно!",
+          "examples": [
+            "break a leg — ни пуха ни пера!",
+            "let the cat out of the bag — выдать секрет",
+            "once in a blue moon — очень редко"
+          ],
+          "keyPoints": [
+            "Идиома — устойчивое выражение, смысл которого не складывается из значений слов",
+            "Идиомы делают речь более естественной и выразительной",
+            "Не переводите идиомы дословно — используйте словари идиом"
+          ]
         },
         {
           "type": "quiz",
@@ -812,7 +1092,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Когда рак на горе свистнет",
-          "hint": "Это выражение невозможности события"
+          "hint": "Это выражение невозможности события",
+          "examples": [
+            "break a leg — ни пуха ни пера!",
+            "let the cat out of the bag — выдать секрет",
+            "once in a blue moon — очень редко"
+          ],
+          "keyPoints": [
+            "Идиома — устойчивое выражение, смысл которого не складывается из значений слов",
+            "Идиомы делают речь более естественной и выразительной",
+            "Не переводите идиомы дословно — используйте словари идиом"
+          ]
         },
         {
           "type": "find",
@@ -832,7 +1122,17 @@
             "see eye to eye — соглашаться",
             "cost an arm and a leg — дорого"
           ],
-          "hint": "Английский язык богат идиомами с частями тела"
+          "hint": "Английский язык богат идиомами с частями тела",
+          "examples": [
+            "break a leg — ни пуха ни пера!",
+            "let the cat out of the bag — выдать секрет",
+            "once in a blue moon — очень редко"
+          ],
+          "keyPoints": [
+            "Идиома — устойчивое выражение, смысл которого не складывается из значений слов",
+            "Идиомы делают речь более естественной и выразительной",
+            "Не переводите идиомы дословно — используйте словари идиом"
+          ]
         }
       ],
       "reward": {
@@ -857,7 +1157,17 @@
             "Не знаю"
           ],
           "correctAnswer": "-er",
-          "hint": "teacher — тот, кто учит"
+          "hint": "teacher — тот, кто учит",
+          "examples": [
+            "un- = не- (unhappy); -ful = с качеством (useful)",
+            "-er = деятель (teacher); -tion = действие (education)",
+            "-less = без качества (useless, hopeless)"
+          ],
+          "keyPoints": [
+            "Суффиксы и приставки помогают образовывать новые слова",
+            "Negative prefixes: un-, in-, dis-, il-, ir-, im-",
+            "Части речи можно менять с помощью суффиксов: -tion, -ment, -ness, -able"
+          ]
         },
         {
           "type": "quiz",
@@ -870,7 +1180,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Не- (отрицание)",
-          "hint": "unhappy — несчастный, unusual — необычный"
+          "hint": "unhappy — несчастный, unusual — необычный",
+          "examples": [
+            "un- = не- (unhappy); -ful = с качеством (useful)",
+            "-er = деятель (teacher); -tion = действие (education)",
+            "-less = без качества (useless, hopeless)"
+          ],
+          "keyPoints": [
+            "Суффиксы и приставки помогают образовывать новые слова",
+            "Negative prefixes: un-, in-, dis-, il-, ir-, im-",
+            "Части речи можно менять с помощью суффиксов: -tion, -ment, -ness, -able"
+          ]
         },
         {
           "type": "find",
@@ -889,7 +1209,17 @@
             "-ous (dangerous)",
             "-able (comfortable)"
           ],
-          "hint": "Суффиксы прилагательных: -ful, -less, -ous, -able, -ive, -al"
+          "hint": "Суффиксы прилагательных: -ful, -less, -ous, -able, -ive, -al",
+          "examples": [
+            "un- = не- (unhappy); -ful = с качеством (useful)",
+            "-er = деятель (teacher); -tion = действие (education)",
+            "-less = без качества (useless, hopeless)"
+          ],
+          "keyPoints": [
+            "Суффиксы и приставки помогают образовывать новые слова",
+            "Negative prefixes: un-, in-, dis-, il-, ir-, im-",
+            "Части речи можно менять с помощью суффиксов: -tion, -ment, -ness, -able"
+          ]
         },
         {
           "type": "quiz",
@@ -902,7 +1232,17 @@
             "Не знаю"
           ],
           "correctAnswer": "-less",
-          "hint": "useless — бесполезный, hopeless — безнадёжный"
+          "hint": "useless — бесполезный, hopeless — безнадёжный",
+          "examples": [
+            "un- = не- (unhappy); -ful = с качеством (useful)",
+            "-er = деятель (teacher); -tion = действие (education)",
+            "-less = без качества (useless, hopeless)"
+          ],
+          "keyPoints": [
+            "Суффиксы и приставки помогают образовывать новые слова",
+            "Negative prefixes: un-, in-, dis-, il-, ir-, im-",
+            "Части речи можно менять с помощью суффиксов: -tion, -ment, -ness, -able"
+          ]
         },
         {
           "type": "find",
@@ -922,7 +1262,17 @@
             "happy → happiness (суффикс -ness)",
             "educate → education (суффикс -tion)"
           ],
-          "hint": "Префиксы меняют значение, суффиксы — часть речи"
+          "hint": "Префиксы меняют значение, суффиксы — часть речи",
+          "examples": [
+            "un- = не- (unhappy); -ful = с качеством (useful)",
+            "-er = деятель (teacher); -tion = действие (education)",
+            "-less = без качества (useless, hopeless)"
+          ],
+          "keyPoints": [
+            "Суффиксы и приставки помогают образовывать новые слова",
+            "Negative prefixes: un-, in-, dis-, il-, ir-, im-",
+            "Части речи можно менять с помощью суффиксов: -tion, -ment, -ness, -able"
+          ]
         }
       ],
       "reward": {
@@ -947,7 +1297,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Беглое чтение для понимания общего содержания",
-          "hint": "Skimming — «снятие сливок», быстрый просмотр текста"
+          "hint": "Skimming — «снятие сливок», быстрый просмотр текста",
+          "examples": [
+            "Skimming — общее понимание текста",
+            "Scanning — поиск конкретной информации",
+            "Не переводите каждое слово!"
+          ],
+          "keyPoints": [
+            "Skimming — быстрое чтение для понимания основной идеи",
+            "Scanning — поиск конкретной информации в тексте",
+            "Чтение с пониманием требует активной работы с текстом и словарём"
+          ]
         },
         {
           "type": "quiz",
@@ -960,7 +1320,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Scanning",
-          "hint": "Scanning — поисковое чтение для нахождения конкретных данных"
+          "hint": "Scanning — поисковое чтение для нахождения конкретных данных",
+          "examples": [
+            "Skimming — общее понимание текста",
+            "Scanning — поиск конкретной информации",
+            "Не переводите каждое слово!"
+          ],
+          "keyPoints": [
+            "Skimming — быстрое чтение для понимания основной идеи",
+            "Scanning — поиск конкретной информации в тексте",
+            "Чтение с пониманием требует активной работы с текстом и словарём"
+          ]
         },
         {
           "type": "find",
@@ -979,7 +1349,17 @@
             "Читать регулярно",
             "Выбирать тексты по уровню"
           ],
-          "hint": "Не нужно переводить каждое слово — развивайте языковую догадку"
+          "hint": "Не нужно переводить каждое слово — развивайте языковую догадку",
+          "examples": [
+            "Skimming — общее понимание текста",
+            "Scanning — поиск конкретной информации",
+            "Не переводите каждое слово!"
+          ],
+          "keyPoints": [
+            "Skimming — быстрое чтение для понимания основной идеи",
+            "Scanning — поиск конкретной информации в тексте",
+            "Чтение с пониманием требует активной работы с текстом и словарём"
+          ]
         },
         {
           "type": "quiz",
@@ -992,7 +1372,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Полное внимательное чтение для глубокого понимания",
-          "hint": "Intensive = интенсивное, подробное чтение с анализом"
+          "hint": "Intensive = интенсивное, подробное чтение с анализом",
+          "examples": [
+            "Skimming — общее понимание текста",
+            "Scanning — поиск конкретной информации",
+            "Не переводите каждое слово!"
+          ],
+          "keyPoints": [
+            "Skimming — быстрое чтение для понимания основной идеи",
+            "Scanning — поиск конкретной информации в тексте",
+            "Чтение с пониманием требует активной работы с текстом и словарём"
+          ]
         },
         {
           "type": "find",
@@ -1011,7 +1401,17 @@
             "Intensive — глубокое понимание",
             "Extensive — чтение для удовольствия"
           ],
-          "hint": "У каждой стратегии своя цель и техника"
+          "hint": "У каждой стратегии своя цель и техника",
+          "examples": [
+            "Skimming — общее понимание текста",
+            "Scanning — поиск конкретной информации",
+            "Не переводите каждое слово!"
+          ],
+          "keyPoints": [
+            "Skimming — быстрое чтение для понимания основной идеи",
+            "Scanning — поиск конкретной информации в тексте",
+            "Чтение с пониманием требует активной работы с текстом и словарём"
+          ]
         }
       ],
       "reward": {
@@ -1036,7 +1436,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Введение, основная часть, заключение",
-          "hint": "Introduction — Body — Conclusion"
+          "hint": "Introduction — Body — Conclusion",
+          "examples": [
+            "Moreover, however, therefore — связующие слова",
+            "Introduction — Body — Conclusion — структура текста",
+            "Тон может быть формальным, неформальным, ироничным"
+          ],
+          "keyPoints": [
+            "Структура текста: введение, основная часть, заключение",
+            "Ссылки и переходы (linking words) связывают предложения и абзацы",
+            "Определите главную тему, ключевые аргументы и вывод автора"
+          ]
         },
         {
           "type": "quiz",
@@ -1049,7 +1459,17 @@
             "Не знаю"
           ],
           "correctAnswer": "However",
-          "hint": "However = однако, тем не менее (противопоставление)"
+          "hint": "However = однако, тем не менее (противопоставление)",
+          "examples": [
+            "Moreover, however, therefore — связующие слова",
+            "Introduction — Body — Conclusion — структура текста",
+            "Тон может быть формальным, неформальным, ироничным"
+          ],
+          "keyPoints": [
+            "Структура текста: введение, основная часть, заключение",
+            "Ссылки и переходы (linking words) связывают предложения и абзацы",
+            "Определите главную тему, ключевые аргументы и вывод автора"
+          ]
         },
         {
           "type": "find",
@@ -1069,7 +1489,17 @@
             "For example — пример",
             "In conclusion — заключение"
           ],
-          "hint": "Связующие слова делают текст логичным и связным"
+          "hint": "Связующие слова делают текст логичным и связным",
+          "examples": [
+            "Moreover, however, therefore — связующие слова",
+            "Introduction — Body — Conclusion — структура текста",
+            "Тон может быть формальным, неформальным, ироничным"
+          ],
+          "keyPoints": [
+            "Структура текста: введение, основная часть, заключение",
+            "Ссылки и переходы (linking words) связывают предложения и абзацы",
+            "Определите главную тему, ключевые аргументы и вывод автора"
+          ]
         },
         {
           "type": "quiz",
@@ -1082,7 +1512,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Отношение автора к предмету",
-          "hint": "Тон может быть формальным, неформальным, ироничным, критическим"
+          "hint": "Тон может быть формальным, неформальным, ироничным, критическим",
+          "examples": [
+            "Moreover, however, therefore — связующие слова",
+            "Introduction — Body — Conclusion — структура текста",
+            "Тон может быть формальным, неформальным, ироничным"
+          ],
+          "keyPoints": [
+            "Структура текста: введение, основная часть, заключение",
+            "Ссылки и переходы (linking words) связывают предложения и абзацы",
+            "Определите главную тему, ключевые аргументы и вывод автора"
+          ]
         },
         {
           "type": "find",
@@ -1101,7 +1541,17 @@
             "Кто целевая аудитория?",
             "Какой тон использует автор?"
           ],
-          "hint": "Анализ текста — это понимание смысла, структуры и авторской позиции"
+          "hint": "Анализ текста — это понимание смысла, структуры и авторской позиции",
+          "examples": [
+            "Moreover, however, therefore — связующие слова",
+            "Introduction — Body — Conclusion — структура текста",
+            "Тон может быть формальным, неформальным, ироничным"
+          ],
+          "keyPoints": [
+            "Структура текста: введение, основная часть, заключение",
+            "Ссылки и переходы (linking words) связывают предложения и абзацы",
+            "Определите главную тему, ключевые аргументы и вывод автора"
+          ]
         }
       ],
       "reward": {
@@ -1126,7 +1576,17 @@
             "Не знаю"
           ],
           "correctAnswer": "I'm afraid I disagree.",
-          "hint": "В английской культуре важно быть вежливым при несогласии"
+          "hint": "В английской культуре важно быть вежливым при несогласии",
+          "examples": [
+            "In my opinion... — По моему мнению",
+            "I agree with you. / I'm afraid I disagree.",
+            "Firstly... Secondly... For example..."
+          ],
+          "keyPoints": [
+            "Фразы согласия: I agree, That is right, You have a point",
+            "Фразы несогласия: I am afraid I disagree, I see your point, but...",
+            "Умение слушать и аргументировать — ключевые навыки дискуссии"
+          ]
         },
         {
           "type": "quiz",
@@ -1139,7 +1599,17 @@
             "Не знаю"
           ],
           "correctAnswer": "In my opinion, ...",
-          "hint": "Также: From my point of view, I believe that..."
+          "hint": "Также: From my point of view, I believe that...",
+          "examples": [
+            "In my opinion... — По моему мнению",
+            "I agree with you. / I'm afraid I disagree.",
+            "Firstly... Secondly... For example..."
+          ],
+          "keyPoints": [
+            "Фразы согласия: I agree, That is right, You have a point",
+            "Фразы несогласия: I am afraid I disagree, I see your point, but...",
+            "Умение слушать и аргументировать — ключевые навыки дискуссии"
+          ]
         },
         {
           "type": "find",
@@ -1158,7 +1628,17 @@
             "That's a good point.",
             "Exactly!"
           ],
-          "hint": "Согласие можно выражать по-разному: от простого до восторженного"
+          "hint": "Согласие можно выражать по-разному: от простого до восторженного",
+          "examples": [
+            "In my opinion... — По моему мнению",
+            "I agree with you. / I'm afraid I disagree.",
+            "Firstly... Secondly... For example..."
+          ],
+          "keyPoints": [
+            "Фразы согласия: I agree, That is right, You have a point",
+            "Фразы несогласия: I am afraid I disagree, I see your point, but...",
+            "Умение слушать и аргументировать — ключевые навыки дискуссии"
+          ]
         },
         {
           "type": "quiz",
@@ -1171,7 +1651,17 @@
             "Не знаю"
           ],
           "correctAnswer": "Sorry to interrupt, but ...",
-          "hint": "Также: Excuse me, but... / Can I just say...? / If I may..."
+          "hint": "Также: Excuse me, but... / Can I just say...? / If I may...",
+          "examples": [
+            "In my opinion... — По моему мнению",
+            "I agree with you. / I'm afraid I disagree.",
+            "Firstly... Secondly... For example..."
+          ],
+          "keyPoints": [
+            "Фразы согласия: I agree, That is right, You have a point",
+            "Фразы несогласия: I am afraid I disagree, I see your point, but...",
+            "Умение слушать и аргументировать — ключевые навыки дискуссии"
+          ]
         },
         {
           "type": "find",
@@ -1190,7 +1680,17 @@
             "All in all, ...",
             "Taking everything into account, ..."
           ],
-          "hint": "Подведение итогов завершает дискуссию"
+          "hint": "Подведение итогов завершает дискуссию",
+          "examples": [
+            "In my opinion... — По моему мнению",
+            "I agree with you. / I'm afraid I disagree.",
+            "Firstly... Secondly... For example..."
+          ],
+          "keyPoints": [
+            "Фразы согласия: I agree, That is right, You have a point",
+            "Фразы несогласия: I am afraid I disagree, I see your point, but...",
+            "Умение слушать и аргументировать — ключевые навыки дискуссии"
+          ]
         }
       ],
       "reward": {
