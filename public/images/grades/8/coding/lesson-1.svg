@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+    <filter id="glow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#14B8A6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0" />
+  <rect x="0" y="70" width="800" height="3" fill="#34D399" />
+  <circle cx="45" cy="35" r="25" fill="#1E293B" stroke="#34D399" stroke-width="2" />
+  <text x="45" y="42" fill="#34D399" font-size="20" font-weight="bold" text-anchor="middle" font-family="monospace">1</text>
+  <text x="85" y="32" fill="white" font-size="22" font-weight="bold">Введение в Python</text>
+  <text x="85" y="54" fill="#CBD5E1" font-size="14">Что такое программирование, особенности Python, IDLE, первая программа</text>
+  <circle cx="760" cy="35" r="20" fill="#1E293B" stroke="#10B981" stroke-width="1.5" />
+  <text x="760" y="42" fill="#10B981" font-size="18" font-weight="bold" text-anchor="middle" font-family="monospace">Py</text>
+  <rect x="20" y="85" width="240" height="160" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="2" filter="url(#shadow)" />
+  <rect x="20" y="85" width="4" height="160" rx="2" fill="#10B981" />
+  <text x="36" y="107" fill="#10B981" font-size="14" font-weight="bold">Что такое программирование?</text>
+  <text x="36" y="125" fill="#CBD5E1" font-size="12">• Создание инструкций для компьютера</text>
+  <text x="36" y="143" fill="#CBD5E1" font-size="12">• Язык программирования — способ общения</text>
+  <text x="36" y="161" fill="#CBD5E1" font-size="12">• Python — один из самых популярных</text>
+  <text x="36" y="179" fill="#CBD5E1" font-size="12">• Простой и читаемый синтаксис</text>
+  <text x="36" y="197" fill="#CBD5E1" font-size="12">• Используется: веб, ИИ, игры, данные</text>
+  <rect x="275" y="85" width="245" height="160" rx="8" fill="#0F172A" stroke="#14B8A6" stroke-width="2" filter="url(#shadow)" />
+  <rect x="275" y="85" width="4" height="160" rx="2" fill="#14B8A6" />
+  <text x="291" y="107" fill="#14B8A6" font-size="14" font-weight="bold">Особенности Python</text>
+  <text x="291" y="125" fill="#CBD5E1" font-size="12">• Интерпретируемый язык</text>
+  <text x="291" y="143" fill="#CBD5E1" font-size="12">• Динамическая типизация</text>
+  <text x="291" y="161" fill="#CBD5E1" font-size="12">• Кроссплатформенный</text>
+  <text x="291" y="179" fill="#CBD5E1" font-size="12">• Огромная библиотека модулей</text>
+  <text x="291" y="197" fill="#CBD5E1" font-size="12">• Активное сообщество</text>
+  <rect x="535" y="85" width="245" height="160" rx="8" fill="#0F172A" stroke="#3B82F6" stroke-width="2" filter="url(#shadow)" />
+  <rect x="535" y="85" width="4" height="160" rx="2" fill="#3B82F6" />
+  <text x="551" y="107" fill="#3B82F6" font-size="14" font-weight="bold">Среда разработки IDLE</text>
+  <text x="551" y="125" fill="#CBD5E1" font-size="12">• IDLE — встроенная среда Python</text>
+  <text x="551" y="143" fill="#CBD5E1" font-size="12">• Режим интерпретатора (&amp;gt;&amp;gt;&amp;gt;)</text>
+  <text x="551" y="161" fill="#CBD5E1" font-size="12">• Редактор скриптов</text>
+  <text x="551" y="179" fill="#CBD5E1" font-size="12">• Запуск: F5</text>
+  <text x="551" y="197" fill="#CBD5E1" font-size="12">• Подсветка синтаксиса</text>
+  <rect x="20" y="260" width="370" height="200" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+  <rect x="20" y="260" width="370" height="28" rx="8" fill="#334155" />
+  <rect x="20" y="280" width="370" height="8" fill="#334155" />
+  <circle cx="36" cy="274" r="5" fill="#EF4444" />
+  <circle cx="56" cy="274" r="5" fill="#FBBF24" />
+  <circle cx="76" cy="274" r="5" fill="#10B981" />
+  <text x="205" y="279" fill="#94A3B8" font-size="11" text-anchor="middle" font-family="monospace">IDLE — Интерактивный режим</text>
+  <text x="34" y="304" fill="#64748B" font-size="13" font-family="monospace">&amp;gt;&amp;gt;&amp;gt; </text>
+  <text x="65.2" y="304" fill="#E2E8F0" font-size="13" font-family="monospace">print(</text>
+  <text x="112.0" y="304" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;Привет, мир!&amp;quot;</text>
+  <text x="221.2" y="304" fill="#E2E8F0" font-size="13" font-family="monospace">)</text>
+  <text x="34" y="324" fill="#E2E8F0" font-size="13" font-family="monospace">Привет, мир!</text>
+  <text x="34" y="344" fill="#E2E8F0" font-size="13" font-family="monospace" />
+  <text x="34" y="364" fill="#64748B" font-size="13" font-family="monospace">&amp;gt;&amp;gt;&amp;gt; </text>
+  <text x="65.2" y="364" fill="#E2E8F0" font-size="13" font-family="monospace">print(</text>
+  <text x="112.0" y="364" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;Я изучаю Python!&amp;quot;</text>
+  <text x="252.4" y="364" fill="#E2E8F0" font-size="13" font-family="monospace">)</text>
+  <text x="34" y="384" fill="#E2E8F0" font-size="13" font-family="monospace">Я изучаю Python!</text>
+  <text x="34" y="404" fill="#E2E8F0" font-size="13" font-family="monospace" />
+  <text x="34" y="424" fill="#64748B" font-size="13" font-family="monospace"># Первая программа</text>
+  <text x="34" y="444" fill="#E2E8F0" font-size="13" font-family="monospace">name = </text>
+  <text x="88.6" y="444" fill="#38BDF8" font-size="13" font-family="monospace">input</text>
+  <text x="127.6" y="444" fill="#E2E8F0" font-size="13" font-family="monospace">(</text>
+  <text x="135.4" y="444" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;Как тебя зовут? &amp;quot;</text>
+  <text x="275.8" y="444" fill="#E2E8F0" font-size="13" font-family="monospace">)</text>
+  <text x="34" y="464" fill="#E2E8F0" font-size="13" font-family="monospace">print(</text>
+  <text x="80.8" y="464" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;Привет, &amp;quot;</text>
+  <text x="158.8" y="464" fill="#E2E8F0" font-size="13" font-family="monospace">+ name)</text>
+  <text x="430" y="285" fill="#34D399" font-size="14" font-weight="bold">Как работает Python:</text>
+  <rect x="470" y="300" width="160" height="30" rx="8" fill="#334155" filter="url(#shadow)" />
+  <text x="550" y="320" fill="white" font-size="12" font-weight="normal" text-anchor="middle">Исходный код (.py)</text>
+  <rect x="470" y="360" width="160" height="30" rx="8" fill="#059669" filter="url(#shadow)" />
+  <text x="550" y="380" fill="white" font-size="12" font-weight="normal" text-anchor="middle">Интерпретатор Python</text>
+  <rect x="470" y="420" width="160" height="30" rx="8" fill="#0F172A" filter="url(#shadow)" />
+  <text x="550" y="440" fill="white" font-size="12" font-weight="normal" text-anchor="middle">Результат выполнения</text>
+  <rect x="470" y="480" width="160" height="30" rx="8" fill="#3B82F6" filter="url(#shadow)" />
+  <text x="550" y="500" fill="white" font-size="12" font-weight="normal" text-anchor="middle">Вывод на экран</text>
+  <line x1="550" y1="330" x2="550" y2="358" stroke="#34D399" stroke-width="2" marker-end="url(#arrowhead)" />
+  <polygon points="550,358 547.0,352.0 553.0,352.0" fill="#34D399" />
+  <line x1="550" y1="390" x2="550" y2="418" stroke="#34D399" stroke-width="2" marker-end="url(#arrowhead)" />
+  <polygon points="550,418 547.0,412.0 553.0,412.0" fill="#34D399" />
+  <line x1="550" y1="450" x2="550" y2="478" stroke="#34D399" stroke-width="2" marker-end="url(#arrowhead)" />
+  <polygon points="550,478 547.0,472.0 553.0,472.0" fill="#34D399" />
+  <text x="570" y="348" fill="#94A3B8" font-size="10" font-weight="normal">чтение</text>
+  <text x="570" y="410" fill="#94A3B8" font-size="10" font-weight="normal">выполнение</text>
+  <text x="570" y="468" fill="#94A3B8" font-size="10" font-weight="normal">вывод</text>
+  <rect x="640" y="260" width="140" height="200" rx="8" fill="#0F172A" stroke="#F59E0B" stroke-width="2" filter="url(#shadow)" />
+  <rect x="640" y="260" width="4" height="200" rx="2" fill="#F59E0B" />
+  <text x="656" y="282" fill="#F59E0B" font-size="14" font-weight="bold">Интересно!</text>
+  <text x="656" y="300" fill="#CBD5E1" font-size="12">• Python назван в честь комикта Monty Python</text>
+  <text x="656" y="318" fill="#CBD5E1" font-size="12">• Создан Гвидо ван Россумом в 1991</text>
+  <text x="656" y="336" fill="#CBD5E1" font-size="12">• Философия: import this</text>
+  <text x="656" y="354" fill="#CBD5E1" font-size="12">• Дзен Python: Красивое лучше уродливого</text>
+  <rect x="0" y="582" width="800" height="18" fill="#334155" rx="0" />
+  <text x="400" y="595" fill="#94A3B8" font-size="10" text-anchor="middle">8 класс • Кодирование • Python</text>
+</svg>

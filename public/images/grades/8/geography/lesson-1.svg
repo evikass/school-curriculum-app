@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ECFDF5" />
+      <stop offset="100%" stop-color="#F0FDF4" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#059669" />
+  <rect x="0" y="6" width="800" height="70" fill="#059669" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#065F46" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">1</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Россия на карте мира</text>
+  <text x="78" y="58" fill="#D1FAE5" font-size="13" font-family="Arial, sans-serif">Географическое положение, площадь, границы, часовые пояса</text>
+  <rect x="17" y="92" width="480" height="310" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="480" height="310" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="90" width="480" height="26" rx="8" fill="#059669" />
+  <rect x="15" y="108" width="480" height="8" fill="#059669" />
+  <text x="255" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Карта России</text>
+  <polygon points="43.8,247.5 52.6,226.3 61.4,207.8 74.6,189.2 87.8,173.3 105.4,157.4 123.0,146.8 145.0,141.5 175.8,136.2 202.2,130.9 233.0,128.2 263.8,125.6 290.2,128.2 312.2,133.6 334.2,141.5 351.8,136.2 369.4,146.8 387.0,154.8 404.6,149.4 422.2,162.7 439.8,157.4 453.0,173.3 461.8,189.2 475.0,199.8 466.2,189.2 457.4,199.8 444.2,210.4 431.0,202.4 417.8,215.7 404.6,207.8 387.0,221.0 369.4,215.7 351.8,226.3 334.2,236.9 316.6,247.5 299.0,258.1 281.4,263.4 263.8,268.7 246.2,274.0 228.6,279.3 211.0,284.6 193.4,279.3 175.8,274.0 158.2,279.3 140.6,284.6 123.0,289.9 105.4,295.2 87.8,289.9 79.0,279.3 70.2,263.4 57.0,252.8" fill="#D1FAE5" stroke="#059669" stroke-width="2" />
+  <circle cx="85" cy="230" r="3" fill="#EF4444" stroke="#1C1917" stroke-width="1" />
+  <text x="90" y="234" text-anchor="start" fill="#1C1917" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Москва</text>
+  <circle cx="420" cy="145" r="3" fill="#EF4444" stroke="#1C1917" stroke-width="1" />
+  <text x="425" y="149" text-anchor="start" fill="#1C1917" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Владивосток</text>
+  <circle cx="280" cy="165" r="3" fill="#EF4444" stroke="#1C1917" stroke-width="1" />
+  <text x="285" y="169" text-anchor="start" fill="#1C1917" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Новосибирск</text>
+  <circle cx="55" cy="210" r="3" fill="#EF4444" stroke="#1C1917" stroke-width="1" />
+  <text x="60" y="214" text-anchor="start" fill="#1C1917" font-size="9" font-weight="normal" font-family="Arial, sans-serif">С.-Петербург</text>
+  <circle cx="380" cy="180" r="3" fill="#EF4444" stroke="#1C1917" stroke-width="1" />
+  <text x="385" y="184" text-anchor="start" fill="#1C1917" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Якутск</text>
+  <circle cx="345" cy="260" r="3" fill="#EF4444" stroke="#1C1917" stroke-width="1" />
+  <text x="350" y="264" text-anchor="start" fill="#1C1917" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Иркутск</text>
+  <circle cx="460" cy="375" r="30" fill="none" stroke="#059669" stroke-width="1.5" />
+  <line x1="460" y1="350" x2="460" y2="370" stroke="#EF4444" stroke-width="2" />
+  <line x1="460" y1="380" x2="460" y2="400" stroke="#059669" stroke-width="2" />
+  <line x1="465" y1="375" x2="485" y2="375" stroke="#059669" stroke-width="2" />
+  <line x1="435" y1="375" x2="455" y2="375" stroke="#059669" stroke-width="2" />
+  <text x="460" y="341" text-anchor="middle" fill="#EF4444" font-size="10" font-weight="bold" font-family="Arial, sans-serif">С</text>
+  <text x="460" y="415" text-anchor="middle" fill="#059669" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Ю</text>
+  <text x="498" y="379" text-anchor="middle" fill="#059669" font-size="10" font-weight="bold" font-family="Arial, sans-serif">В</text>
+  <text x="422" y="379" text-anchor="middle" fill="#059669" font-size="10" font-weight="bold" font-family="Arial, sans-serif">З</text>
+  <rect x="512" y="92" width="275" height="310" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="510" y="90" width="275" height="310" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="510" y="90" width="275" height="26" rx="8" fill="#065F46" />
+  <rect x="510" y="108" width="275" height="8" fill="#065F46" />
+  <text x="647" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Ключевые факты</text>
+  <text x="525" y="130" text-anchor="start" fill="#78716C" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Площадь:</text>
+  <text x="525" y="144" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">17 125 000 км²</text>
+  <text x="525" y="162" text-anchor="start" fill="#78716C" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Место:</text>
+  <text x="525" y="176" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">1-е в мире</text>
+  <text x="525" y="194" text-anchor="start" fill="#78716C" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Население:</text>
+  <text x="525" y="208" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">~146 млн чел.</text>
+  <text x="525" y="226" text-anchor="start" fill="#78716C" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Столица:</text>
+  <text x="525" y="240" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Москва</text>
+  <text x="525" y="258" text-anchor="start" fill="#78716C" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Границы:</text>
+  <text x="525" y="272" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">с 18 странами</text>
+  <text x="525" y="290" text-anchor="start" fill="#78716C" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Сухопут.:</text>
+  <text x="525" y="304" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">14 500 км</text>
+  <text x="525" y="322" text-anchor="start" fill="#78716C" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Морские:</text>
+  <text x="525" y="336" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">38 000 км</text>
+  <text x="525" y="354" text-anchor="start" fill="#78716C" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Часовые пояса:</text>
+  <text x="525" y="368" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">11 (с UTC+2 до UTC+12)</text>
+  <rect x="17" y="412" width="770" height="105" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="410" width="770" height="105" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="410" width="770" height="26" rx="8" fill="#14B8A6" />
+  <rect x="15" y="428" width="770" height="8" fill="#14B8A6" />
+  <text x="400" y="428" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Часовые пояса России (11 зон)</text>
+  <rect x="40" y="450" width="58" height="30" fill="#1E3A5F" rx="4" />
+  <text x="69" y="470" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Кал-г</text>
+  <text x="69" y="498" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="bold" font-family="Arial, sans-serif">+2</text>
+  <rect x="107" y="450" width="58" height="30" fill="#3B82F6" rx="4" />
+  <text x="136" y="470" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Мск</text>
+  <text x="136" y="498" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="bold" font-family="Arial, sans-serif">+3</text>
+  <rect x="174" y="450" width="58" height="30" fill="#2563EB" rx="4" />
+  <text x="203" y="470" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Самра</text>
+  <text x="203" y="498" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="bold" font-family="Arial, sans-serif">+4</text>
+  <rect x="241" y="450" width="58" height="30" fill="#3B82F6" rx="4" />
+  <text x="270" y="470" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Екб</text>
+  <text x="270" y="498" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="bold" font-family="Arial, sans-serif">+5</text>
+  <rect x="308" y="450" width="58" height="30" fill="#0EA5E9" rx="4" />
+  <text x="337" y="470" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Омск</text>
+  <text x="337" y="498" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="bold" font-family="Arial, sans-serif">+6</text>
+  <rect x="375" y="450" width="58" height="30" fill="#14B8A6" rx="4" />
+  <text x="404" y="470" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Красн</text>
+  <text x="404" y="498" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="bold" font-family="Arial, sans-serif">+7</text>
+  <rect x="442" y="450" width="58" height="30" fill="#059669" rx="4" />
+  <text x="471" y="470" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Иркт</text>
+  <text x="471" y="498" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="bold" font-family="Arial, sans-serif">+8</text>
+  <rect x="509" y="450" width="58" height="30" fill="#16A34A" rx="4" />
+  <text x="538" y="470" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Якту</text>
+  <text x="538" y="498" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="bold" font-family="Arial, sans-serif">+9</text>
+  <rect x="576" y="450" width="58" height="30" fill="#22C55E" rx="4" />
+  <text x="605" y="470" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Влдв</text>
+  <text x="605" y="498" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="bold" font-family="Arial, sans-serif">+10</text>
+  <rect x="643" y="450" width="58" height="30" fill="#F59E0B" rx="4" />
+  <text x="672" y="470" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Магд</text>
+  <text x="672" y="498" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="bold" font-family="Arial, sans-serif">+11</text>
+  <rect x="710" y="450" width="58" height="30" fill="#F97316" rx="4" />
+  <text x="739" y="470" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Камч</text>
+  <text x="739" y="498" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="bold" font-family="Arial, sans-serif">+12</text>
+  <rect x="512" y="412" width="275" height="105" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="510" y="410" width="275" height="105" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="510" y="410" width="275" height="26" rx="8" fill="#059669" />
+  <rect x="510" y="428" width="275" height="8" fill="#059669" />
+  <text x="647" y="428" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Соседи России</text>
+  <text x="525" y="448" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Сухопутные: Норвегия, Финляндия,</text>
+  <text x="525" y="462" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Эстония, Латвия, Литва, Польша,</text>
+  <text x="525" y="476" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Беларусь, Украина, Грузия, Азер.,</text>
+  <text x="525" y="490" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Казахстан, Китай, Монголия, КНДР</text>
+  <text x="525" y="506" text-anchor="start" fill="#1E3A5F" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Морские: Япония, США</text>
+  <rect x="0" y="570" width="800" height="30" fill="#065F46" />
+  <text x="400" y="590" text-anchor="middle" fill="#D1FAE5" font-size="11" font-family="Arial, sans-serif">География • 8 класс • Интернет-Школа</text>
+</svg>

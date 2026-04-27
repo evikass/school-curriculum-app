@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F5F3FF" rx="0" />
+  <rect x="0" y="0" width="800" height="80" fill="#7C3AED" />
+  <rect x="0" y="80" width="800" height="4" fill="#5B21B6" />
+  <rect x="20" y="15" width="50" height="50" rx="12" fill="#5B21B6" />
+  <text x="45" y="50" text-anchor="middle" font-size="28" fill="#FFFFFF">♫</text>
+  <text x="85" y="42" font-size="24" font-weight="bold" fill="#FFFFFF">Симфоническая музыка</text>
+  <text x="85" y="64" font-size="13" fill="#EDE9FE">Оркестр, структура симфонии и знаменитые произведения</text>
+  <rect x="0" y="570" width="800" height="30" fill="#5B21B6" />
+  <text x="40" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♪</text>
+  <text x="120" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♫</text>
+  <text x="200" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♬</text>
+  <text x="280" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♩</text>
+  <text x="360" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♪</text>
+  <text x="440" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♫</text>
+  <text x="520" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♬</text>
+  <text x="600" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♩</text>
+  <text x="680" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♪</text>
+  <text x="760" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♫</text>
+  <text x="720" y="120" font-size="20" fill="#C4B5FD" opacity="0.5">♬</text>
+  <text x="750" y="180" font-size="16" fill="#C4B5FD" opacity="0.5">♪</text>
+  <text x="690" y="160" font-size="14" fill="#C4B5FD" opacity="0.5">♬</text>
+  <text x="30" y="530" font-size="18" fill="#C4B5FD" opacity="0.5">♪</text>
+  <text x="60" y="560" font-size="14" fill="#C4B5FD" opacity="0.5">♩</text>
+  <text x="400" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#7C3AED">Структура симфонии</text>
+  <rect x="12" y="112" width="185" height="110" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2" />
+  <rect x="17" y="117" width="175" height="24" rx="8" fill="#7C3AED" />
+  <text x="104" y="134" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">I часть: Allegro</text>
+  <text x="22" y="160" font-size="11" font-weight="bold" fill="#3B0764">Сонатная форма</text>
+  <text x="22" y="182" font-size="10" fill="#3B0764">Экспозиция — Разработка</text>
+  <text x="22" y="197" font-size="10" fill="#3B0764">— Реприза</text>
+  <rect x="205" y="112" width="185" height="110" rx="10" fill="#FFFFFF" stroke="#A78BFA" stroke-width="2" />
+  <rect x="210" y="117" width="175" height="24" rx="8" fill="#A78BFA" />
+  <text x="297" y="134" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">II часть: Andante</text>
+  <text x="215" y="160" font-size="11" font-weight="bold" fill="#3B0764">Медленная часть</text>
+  <text x="215" y="182" font-size="10" fill="#3B0764">Лирический центр,</text>
+  <text x="215" y="197" font-size="10" fill="#3B0764">раздумья</text>
+  <rect x="398" y="112" width="185" height="110" rx="10" fill="#FFFFFF" stroke="#F59E0B" stroke-width="2" />
+  <rect x="403" y="117" width="175" height="24" rx="8" fill="#F59E0B" />
+  <text x="490" y="134" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">III часть: Scherzo</text>
+  <text x="408" y="160" font-size="11" font-weight="bold" fill="#3B0764">Скерцо/Менуэт</text>
+  <text x="408" y="182" font-size="10" fill="#3B0764">Танцевальный характер</text>
+  <rect x="591" y="112" width="185" height="110" rx="10" fill="#FFFFFF" stroke="#10B981" stroke-width="2" />
+  <rect x="596" y="117" width="175" height="24" rx="8" fill="#10B981" />
+  <text x="683" y="134" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">IV часть: Finale</text>
+  <text x="601" y="160" font-size="11" font-weight="bold" fill="#3B0764">Финал</text>
+  <text x="601" y="182" font-size="10" fill="#3B0764">Торжественное завершение</text>
+  <text x="400" y="248" text-anchor="middle" font-size="15" font-weight="bold" fill="#7C3AED">Состав симфонического оркестра</text>
+  <rect x="12" y="260" width="185" height="100" rx="10" fill="#7C3AED" opacity="0.9" />
+  <text x="104" y="282" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">Струнные</text>
+  <text x="104" y="300" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">~60 музыкантов</text>
+  <text x="104" y="318" text-anchor="middle" font-size="10" fill="#FFFFFF">Скрипки, альты,</text>
+  <text x="104" y="333" text-anchor="middle" font-size="10" fill="#FFFFFF">виолончели, контрабасы</text>
+  <rect x="205" y="260" width="185" height="100" rx="10" fill="#0EA5E9" opacity="0.9" />
+  <text x="297" y="282" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">Деревянные духовые</text>
+  <text x="297" y="300" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">~16 музыкантов</text>
+  <text x="297" y="318" text-anchor="middle" font-size="10" fill="#FFFFFF">Флейты, гобои,</text>
+  <text x="297" y="333" text-anchor="middle" font-size="10" fill="#FFFFFF">кларнеты, фаготы</text>
+  <rect x="398" y="260" width="185" height="100" rx="10" fill="#F59E0B" opacity="0.9" />
+  <text x="490" y="282" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">Медные духовые</text>
+  <text x="490" y="300" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">~14 музыкантов</text>
+  <text x="490" y="318" text-anchor="middle" font-size="10" fill="#FFFFFF">Валторны, трубы,</text>
+  <text x="490" y="333" text-anchor="middle" font-size="10" fill="#FFFFFF">тромбоны, туба</text>
+  <rect x="591" y="260" width="185" height="100" rx="10" fill="#F97316" opacity="0.9" />
+  <text x="683" y="282" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">Ударные</text>
+  <text x="683" y="300" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">~4 музыканта</text>
+  <text x="683" y="318" text-anchor="middle" font-size="10" fill="#FFFFFF">Литавры, барабаны,</text>
+  <text x="683" y="333" text-anchor="middle" font-size="10" fill="#FFFFFF">тарелки, колокола</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" font-weight="bold" fill="#7C3AED">Знаменитые симфонии</text>
+  <rect x="20" y="392" width="245" height="48" rx="8" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2" />
+  <rect x="20" y="392" width="6" height="48" rx="3" fill="#7C3AED" />
+  <text x="36" y="411" font-size="11" font-weight="bold" fill="#3B0764">Бетховен: Симфония №5</text>
+  <text x="36" y="428" font-size="10" fill="#7C3AED">♫ Тема судьбы</text>
+  <rect x="275" y="392" width="245" height="48" rx="8" fill="#FFFFFF" stroke="#5B21B6" stroke-width="2" />
+  <rect x="275" y="392" width="6" height="48" rx="3" fill="#5B21B6" />
+  <text x="291" y="411" font-size="11" font-weight="bold" fill="#3B0764">Бетховен: Симфония №9</text>
+  <text x="291" y="428" font-size="10" fill="#5B21B6">♫ Ода к радости</text>
+  <rect x="530" y="392" width="245" height="48" rx="8" fill="#FFFFFF" stroke="#F43F5E" stroke-width="2" />
+  <rect x="530" y="392" width="6" height="48" rx="3" fill="#F43F5E" />
+  <text x="546" y="411" font-size="11" font-weight="bold" fill="#3B0764">Чайковский: Симфония №6</text>
+  <text x="546" y="428" font-size="10" fill="#F43F5E">♫ Патетическая</text>
+  <rect x="20" y="447" width="245" height="48" rx="8" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2" />
+  <rect x="20" y="447" width="6" height="48" rx="3" fill="#0EA5E9" />
+  <text x="36" y="466" font-size="11" font-weight="bold" fill="#3B0764">Моцарт: Симфония №40</text>
+  <text x="36" y="483" font-size="10" fill="#0EA5E9">♫ Соль минор</text>
+  <rect x="275" y="447" width="245" height="48" rx="8" fill="#FFFFFF" stroke="#10B981" stroke-width="2" />
+  <rect x="275" y="447" width="6" height="48" rx="3" fill="#10B981" />
+  <text x="291" y="466" font-size="11" font-weight="bold" fill="#3B0764">Дворжак: Симфония №9</text>
+  <text x="291" y="483" font-size="10" fill="#10B981">♫ Из Нового света</text>
+  <rect x="530" y="447" width="245" height="48" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="2" />
+  <rect x="530" y="447" width="6" height="48" rx="3" fill="#F59E0B" />
+  <text x="546" y="466" font-size="11" font-weight="bold" fill="#3B0764">Шостакович: Симфония №7</text>
+  <text x="546" y="483" font-size="10" fill="#F59E0B">♫ Ленинградская</text>
+  <g opacity="0.15">
+    <line x1="620" y1="98" x2="780" y2="98" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="620" y1="105" x2="780" y2="105" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="620" y1="112" x2="780" y2="112" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="620" y1="119" x2="780" y2="119" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="620" y1="126" x2="780" y2="126" stroke="#7C3AED" stroke-width="1.5" />
+  </g>
+</svg>

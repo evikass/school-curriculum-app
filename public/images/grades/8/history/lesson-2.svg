@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBFB" />
+      <stop offset="100%" stop-color="#FFF0F0" />
+    </linearGradient>
+  </defs>
+  <defs>
+    <filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000030" />
+    </filter>
+  </defs>
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBFB" />
+      <stop offset="100%" stop-color="#FFF5F5" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#bg2)" />
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B91C1C" />
+      <stop offset="100%" stop-color="#EF4444" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" />
+  <rect x="0" y="70" width="800" height="3" fill="#D4A017" />
+  <text x="400" y="32" font-size="22" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Северная война (1700-1721)</text>
+  <text x="400" y="55" font-size="13" fill="#FEE2E2" text-anchor="middle" font-family="sans-serif">Нарва, Полтава, Ништадтский мир, выход к Балтике</text>
+  <polygon points="21.799999999999997,43.8 21.799999999999997,30.6 28.4,37.2 35,24.0 41.6,37.2 48.2,30.6 48.2,43.8" fill="#D4A017" stroke="#8B6914" />
+  <circle cx="35" cy="28.4" r="2.2" fill="#EF4444" />
+  <circle cx="26.2" cy="33.9" r="1.6500000000000001" fill="#3B82F6" />
+  <circle cx="43.8" cy="33.9" r="1.6500000000000001" fill="#3B82F6" />
+  <rect x="20" y="95" width="760" height="52" fill="#FFFFFF" stroke="#FCA5A5" rx="8" ry="8" />
+  <line x1="40" y1="121" x2="760" y2="121" stroke="#EF4444" stroke-width="3" />
+  <circle cx="80" cy="121" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="80" y="89" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1700</text>
+  <text x="80" y="123" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="80" y="138" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Нарва</text>
+  <circle cx="195" cy="121" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="195" y="89" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1703</text>
+  <text x="195" y="123" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="195" y="138" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Основ.</text>
+  <text x="195" y="148" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">СПб</text>
+  <circle cx="310" cy="121" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="310" y="89" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1708</text>
+  <text x="310" y="123" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="310" y="138" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Лесная</text>
+  <circle cx="420" cy="121" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="420" y="89" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1709</text>
+  <text x="420" y="123" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="420" y="138" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Полтава</text>
+  <circle cx="530" cy="121" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="530" y="89" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1714</text>
+  <text x="530" y="123" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="530" y="138" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Гангут</text>
+  <circle cx="645" cy="121" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="645" y="89" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1720</text>
+  <text x="645" y="123" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="645" y="138" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Гренгам</text>
+  <circle cx="745" cy="121" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="745" y="89" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1721</text>
+  <text x="745" y="123" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="745" y="138" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Ништадт</text>
+  <rect x="25" y="160" width="245" height="140" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" rx="8" ry="8" filter="url(#shadow2)" />
+  <rect x="25" y="160" width="245" height="24" fill="#DC2626" rx="8" ry="8" />
+  <rect x="25" y="174" width="245" height="10" fill="#DC2626" />
+  <text x="147" y="177" font-size="12" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Битва при Нарве (1700)</text>
+  <text x="147" y="202" font-size="10" fill="#DC2626" text-anchor="middle" font-family="sans-serif" font-weight="bold">Поражение русской армии</text>
+  <text x="35" y="218" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Шведы: ~10 000 чел.  Карл XII</text>
+  <text x="35" y="232" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Русские: ~35 000 чел.</text>
+  <text x="35" y="246" font-size="9" fill="#374151" text-anchor="start" font-family="sans-serif" font-weight="bold">Причины поражения:</text>
+  <text x="35" y="260" font-size="9" fill="#374151" text-anchor="start" font-family="sans-serif">- Неопытность офицерского состава</text>
+  <text x="35" y="273" font-size="9" fill="#374151" text-anchor="start" font-family="sans-serif">- Слабая дисциплина</text>
+  <text x="35" y="286" font-size="9" fill="#374151" text-anchor="start" font-family="sans-serif">- Плохое снабжение</text>
+  <line x1="245" y1="249.0" x2="245" y2="273.0" stroke="#9CA3AF" stroke-width="2.4000000000000004" />
+  <line x1="238.6" y1="266.6" x2="251.4" y2="266.6" stroke="#D4A017" stroke-width="2.0" />
+  <circle cx="245" cy="276.2" r="2.4000000000000004" fill="#D4A017" />
+  <rect x="285" y="160" width="245" height="140" fill="#FFFFFF" stroke="#059669" stroke-width="2" rx="8" ry="8" filter="url(#shadow2)" />
+  <rect x="285" y="160" width="245" height="24" fill="#059669" rx="8" ry="8" />
+  <rect x="285" y="174" width="245" height="10" fill="#059669" />
+  <polygon points="300.0,164.0 298.1,169.4 292.4,169.5 297.0,173.0 295.3,178.5 300.0,175.2 304.7,178.5 303.0,173.0 307.6,169.5 301.9,169.4" fill="#D4A017" stroke="#8B6914" stroke-width="0.5" />
+  <text x="415" y="177" font-size="12" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Полтавская битва (1709)</text>
+  <text x="407" y="202" font-size="10" fill="#059669" text-anchor="middle" font-family="sans-serif" font-weight="bold">Решающая победа России!</text>
+  <text x="295" y="218" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Русские: ~42 000 чел.  Пётр I</text>
+  <text x="295" y="232" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Шведы: ~30 000 чел.  Карл XII</text>
+  <text x="295" y="246" font-size="9" fill="#374151" text-anchor="start" font-family="sans-serif">Потери шведов: ~9 000 убитых</text>
+  <text x="295" y="260" font-size="9" fill="#374151" text-anchor="start" font-family="sans-serif">Потери русских: ~1 345 убитых</text>
+  <text x="295" y="278" font-size="9" fill="#B91C1C" text-anchor="start" font-family="sans-serif" font-weight="bold">27 июня 1709 г. — перелом в войне</text>
+  <path d="M 492.4 250.6 L 517.6 250.6 L 517.6 268.6 L 505 281.2 L 492.4 268.6 Z" fill="#059669" stroke="#B91C1C" stroke-width="1.5" />
+  <rect x="545" y="160" width="235" height="140" fill="#FFFFFF" stroke="#D4A017" stroke-width="2" rx="8" ry="8" filter="url(#shadow2)" />
+  <rect x="545" y="160" width="235" height="24" fill="#D4A017" rx="8" ry="8" />
+  <rect x="545" y="174" width="235" height="10" fill="#D4A017" />
+  <text x="662" y="177" font-size="12" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Ништадтский мир (1721)</text>
+  <text x="662" y="202" font-size="10" fill="#D4A017" text-anchor="middle" font-family="sans-serif" font-weight="bold">Итоги войны:</text>
+  <text x="555" y="218" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif" font-weight="bold">Россия получила:</text>
+  <text x="555" y="232" font-size="9" fill="#374151" text-anchor="start" font-family="sans-serif">- Лифляндию, Эстляндию</text>
+  <text x="555" y="246" font-size="9" fill="#374151" text-anchor="start" font-family="sans-serif">- Ингрию, часть Карелии</text>
+  <text x="555" y="260" font-size="9" fill="#B91C1C" text-anchor="start" font-family="sans-serif" font-weight="bold">- Выход к Балтийскому морю</text>
+  <text x="555" y="278" font-size="9" fill="#EF4444" text-anchor="start" font-family="sans-serif" font-weight="bold">Россия стала великой державой!</text>
+  <polygon points="733.0,273.0 733.0,261.0 739.0,267.0 745,255.0 751.0,267.0 757.0,261.0 757.0,273.0" fill="#D4A017" stroke="#8B6914" />
+  <circle cx="745" cy="259.0" r="2.0" fill="#EF4444" />
+  <circle cx="737.0" cy="264.0" r="1.5" fill="#3B82F6" />
+  <circle cx="753.0" cy="264.0" r="1.5" fill="#3B82F6" />
+  <rect x="25" y="315" width="350" height="230" fill="#FFFFFF" stroke="#FCA5A5" rx="8" ry="8" filter="url(#shadow2)" />
+  <text x="200" y="333" font-size="12" fill="#B91C1C" text-anchor="middle" font-family="sans-serif" font-weight="bold">Выход к Балтийскому морю</text>
+  <ellipse cx="200" cy="440" rx="130" ry="70" fill="#BFDBFE" stroke="#3B82F6" stroke-width="2" />
+  <text x="200" y="443" font-size="11" fill="#1E40AF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Балтийское
+море</text>
+  <rect x="75" y="485" width="80" height="30" fill="#D1FAE5" stroke="#059669" rx="4" ry="4" />
+  <text x="115" y="503" font-size="8" fill="#065F46" text-anchor="middle" font-family="sans-serif">Лифляндия</text>
+  <rect x="165" y="490" width="65" height="28" fill="#D1FAE5" stroke="#059669" rx="4" ry="4" />
+  <text x="197" y="507" font-size="8" fill="#065F46" text-anchor="middle" font-family="sans-serif">Эстляндия</text>
+  <rect x="240" y="485" width="50" height="30" fill="#FEE2E2" stroke="#EF4444" rx="4" ry="4" />
+  <text x="265" y="503" font-size="8" fill="#B91C1C" text-anchor="middle" font-family="sans-serif">Ингрия</text>
+  <circle cx="250" cy="435" r="5" fill="#DC2626" stroke="#FFFFFF" stroke-width="2" />
+  <text x="250" y="425" font-size="9" fill="#DC2626" text-anchor="middle" font-family="sans-serif" font-weight="bold">СПб</text>
+  <rect x="275" y="510" width="80" height="28" fill="#FEE2E2" stroke="#EF4444" rx="4" ry="4" />
+  <text x="315" y="528" font-size="10" fill="#B91C1C" text-anchor="middle" font-family="sans-serif" font-weight="bold">Россия</text>
+  <line x1="275" y1="480" x2="225" y2="455" stroke="#059669" stroke-width="2" stroke-dasharray="5,3" />
+  <polygon points="220,447 230,452 223,457" fill="#059669" />
+  <line x1="345" y1="357.4" x2="345" y2="380.8" stroke="#3B82F6" stroke-width="2.25" />
+  <line x1="336.0" y1="364.6" x2="354.0" y2="364.6" stroke="#3B82F6" stroke-width="2.25" />
+  <circle cx="345" cy="354.7" r="3.6" fill="none" stroke="#3B82F6" stroke-width="1.8" />
+  <path d="M 343.2 380.8 Q 328.8 375.4 334.2 368.2" fill="none" stroke="#3B82F6" stroke-width="2.25" />
+  <path d="M 346.8 380.8 Q 361.2 375.4 355.8 368.2" fill="none" stroke="#3B82F6" stroke-width="2.25" />
+  <rect x="395" y="315" width="385" height="230" fill="#FFFFFF" stroke="#FCA5A5" rx="8" ry="8" filter="url(#shadow2)" />
+  <text x="587" y="333" font-size="12" fill="#B91C1C" text-anchor="middle" font-family="sans-serif" font-weight="bold">Этапы Северной войны</text>
+  <rect x="405" y="350" width="365" height="52" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.5" rx="6" ry="6" />
+  <rect x="405" y="350" width="8" height="52" fill="#DC2626" rx="4" ry="4" />
+  <text x="419" y="368" font-size="11" fill="#DC2626" text-anchor="start" font-family="sans-serif" font-weight="bold">I этап (1700-1706)</text>
+  <text x="419" y="386" font-size="10" fill="#374151" text-anchor="start" font-family="sans-serif">Неудачи и реорганизация армии</text>
+  <line x1="587" y1="404" x2="587" y2="422" stroke="#DC2626" stroke-width="2" />
+  <polygon points="582,419 587,428 592,419" fill="#DC2626" />
+  <rect x="405" y="410" width="365" height="52" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" rx="6" ry="6" />
+  <rect x="405" y="410" width="8" height="52" fill="#F59E0B" rx="4" ry="4" />
+  <text x="419" y="428" font-size="11" fill="#F59E0B" text-anchor="start" font-family="sans-serif" font-weight="bold">II этап (1707-1709)</text>
+  <text x="419" y="446" font-size="10" fill="#374151" text-anchor="start" font-family="sans-serif">Перелом: Полтавская победа</text>
+  <line x1="587" y1="464" x2="587" y2="482" stroke="#F59E0B" stroke-width="2" />
+  <polygon points="582,479 587,488 592,479" fill="#F59E0B" />
+  <rect x="405" y="470" width="365" height="52" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" rx="6" ry="6" />
+  <rect x="405" y="470" width="8" height="52" fill="#059669" rx="4" ry="4" />
+  <text x="419" y="488" font-size="11" fill="#059669" text-anchor="start" font-family="sans-serif" font-weight="bold">III этап (1710-1721)</text>
+  <text x="419" y="506" font-size="10" fill="#374151" text-anchor="start" font-family="sans-serif">Победы на море и мир</text>
+  <text x="587" y="527" font-size="9" fill="#1E40AF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Морские победы: Гангут (1714), Гренгам (1720)</text>
+  <rect x="0" y="570" width="800" height="30" fill="#B91C1C" opacity="0.15" />
+  <text x="400" y="590" font-size="10" fill="#6B7280" text-anchor="middle" font-family="sans-serif">Урок 2 | История России | 8 класс</text>
+</svg>

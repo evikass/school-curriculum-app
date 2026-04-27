@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDF2F8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FCE7F3;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#BE185D;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#FBCFE8;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#BE185D" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowSmall" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#1F2937" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0"/>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#EC4899"/>
+    </marker>
+  </defs>
+
+  <!-- Title Bar -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0"/>
+  <rect x="0" y="65" width="800" height="5" fill="#BE185D" opacity="0.3"/>
+  <text x="400" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Сложное предложение</text>
+  <text x="400" y="58" font-family="Arial, sans-serif" font-size="13" fill="#F9A8D4" text-anchor="middle">Виды сложных предложений и средства связи</text>
+
+  <circle cx="40" cy="35" r="22" fill="#FFFFFF" opacity="0.25"/>
+  <text x="40" y="41" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">8</text>
+
+  <rect x="15" y="82" width="770" height="65" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="400.0" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Что такое сложное предложение?</text>
+
+  <text x="30" y="106" font-family="Arial, sans-serif" font-size="12" fill="#1F2937">Сложное предложение — предложение, состоящее из двух и более грамматических основ,</text>
+  <text x="30" y="124" font-family="Arial, sans-serif" font-size="12" fill="#1F2937">объединённых по смыслу и интонации. Части могут быть связаны </text>
+  <text x="30" y="142" font-family="Arial, sans-serif" font-size="12" fill="#EC4899" font-weight="bold">союзами, союзными словами или только интонацией.</text>
+
+  <rect x="15" y="160" width="770" height="130" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="400.0" y="178" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Классификация сложных предложений</text>
+
+  <rect x="250" y="180" width="300" height="30" fill="#EC4899" rx="5"/>
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">СЛОЖНОЕ ПРЕДЛОЖЕНИЕ</text>
+  <!-- Branch lines -->
+  <line x1="320" y1="210" x2="200" y2="238" stroke="#EC4899" stroke-width="2"/>
+  <line x1="400" y1="210" x2="400" y2="238" stroke="#EC4899" stroke-width="2"/>
+  <line x1="480" y1="210" x2="600" y2="238" stroke="#EC4899" stroke-width="2"/>
+  <!-- Three types -->
+  <rect x="80" y="238" width="230" height="36" fill="#10B981" rx="5" opacity="0.15" stroke="#10B981" stroke-width="1.5"/>
+  <text x="195" y="261" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10B981" text-anchor="middle">Сложносочинённое (ССП)</text>
+  <rect x="320" y="238" width="160" height="36" fill="#3B82F6" rx="5" opacity="0.15" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="400" y="261" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3B82F6" text-anchor="middle">Сложноподчинённое (СПП)</text>
+  <rect x="490" y="238" width="230" height="36" fill="#F59E0B" rx="5" opacity="0.15" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="605" y="261" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F59E0B" text-anchor="middle">Бессоюзное (БСП)</text>
+  <!-- Labels -->
+  <text x="195" y="283" font-family="Arial, sans-serif" font-size="9" fill="#10B981" text-anchor="middle">Союзы: и, а, но, или</text>
+  <text x="400" y="283" font-family="Arial, sans-serif" font-size="9" fill="#3B82F6" text-anchor="middle">Союзы: что, чтобы, если...</text>
+  <text x="605" y="283" font-family="Arial, sans-serif" font-size="9" fill="#F59E0B" text-anchor="middle">Только интонация</text>
+
+  <rect x="15" y="305" width="380" height="140" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="205.0" y="323" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Сложносочинённое предложение (ССП)</text>
+
+  <text x="30" y="328" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Части равноправны, связаны сочинительными союзами:</text>
+  <rect x="30" y="336" width="350" height="18" fill="#10B981" rx="3" opacity="0.1"/>
+  <text x="35" y="349" font-family="Arial, sans-serif" font-size="9" fill="#10B981" font-weight="bold">Соединительные:</text>
+  <text x="140" y="349" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">и, да(=и), ни...ни, тоже, также</text>
+  <rect x="30" y="356" width="350" height="18" fill="#F59E0B" rx="3" opacity="0.1"/>
+  <text x="35" y="369" font-family="Arial, sans-serif" font-size="9" fill="#F59E0B" font-weight="bold">Противительные:</text>
+  <text x="145" y="369" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">а, но, да(=но), однако, зато</text>
+  <rect x="30" y="376" width="350" height="18" fill="#3B82F6" rx="3" opacity="0.1"/>
+  <text x="35" y="389" font-family="Arial, sans-serif" font-size="9" fill="#3B82F6" font-weight="bold">Разделительные:</text>
+  <text x="140" y="389" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">или, либо, то...то, не то...не то</text>
+  <line x1="30" y1="398" x2="380" y2="398" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="30" y="414" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"><tspan fill="#10B981">Ветер шумел</tspan>, <tspan fill="#FB7185" font-weight="bold">и</tspan> <tspan fill="#10B981">дождь стучал</tspan> в окно.</text>
+  <text x="30" y="432" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">[=], и [=]</text>
+  <text x="30" y="444" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"><tspan fill="#10B981">Он устал</tspan>, <tspan fill="#FB7185" font-weight="bold">но</tspan> <tspan fill="#10B981">не сдался</tspan>.</text>
+
+  <rect x="410" y="305" width="375" height="140" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="597.5" y="323" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Сложноподчинённое предложение (СПП)</text>
+
+  <text x="425" y="328" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Главное + придаточное (от него вопрос):</text>
+  <rect x="425" y="336" width="345" height="22" fill="#3B82F6" rx="3" opacity="0.1"/>
+  <text x="435" y="351" font-family="Arial, sans-serif" font-size="9" fill="#3B82F6" font-weight="bold">Союзы:</text>
+  <text x="490" y="351" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">что, чтобы, если, когда, хотя, потому что...</text>
+  <rect x="425" y="360" width="345" height="22" fill="#A855F7" rx="3" opacity="0.1"/>
+  <text x="435" y="375" font-family="Arial, sans-serif" font-size="9" fill="#A855F7" font-weight="bold">Союзные слова:</text>
+  <text x="540" y="375" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">кто, что, какой, где, куда, где, откуда...</text>
+  <line x1="425" y1="386" x2="770" y2="386" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="425" y="404" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"><tspan fill="#3B82F6">Я знаю</tspan>, <tspan fill="#FB7185" font-weight="bold">что</tspan> <tspan fill="#A855F7">он придёт</tspan>.</text>
+  <text x="425" y="420" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">[=], (что =)</text>
+  <text x="425" y="436" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"><tspan fill="#3B82F6">Мы ушли</tspan>, <tspan fill="#FB7185" font-weight="bold">потому что</tspan> <tspan fill="#A855F7">стемнело</tspan>.</text>
+
+  <rect x="15" y="460" width="380" height="125" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="205.0" y="478" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Бессоюзное предложение (БСП)</text>
+
+  <text x="30" y="484" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Части связаны только интонацией:</text>
+  <line x1="30" y1="492" x2="380" y2="492" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="30" y="510" font-family="Arial, sans-serif" font-size="10" fill="#F59E0B" font-weight="bold">Запятая — перечисление:</text>
+  <text x="30" y="526" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Светило солнце, птицы пели.</text>
+  <text x="30" y="544" font-family="Arial, sans-serif" font-size="10" fill="#F59E0B" font-weight="bold">Двоеточие — пояснение/причина:</text>
+  <text x="30" y="560" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Он не пришёл: заболел.</text>
+  <text x="30" y="578" font-family="Arial, sans-serif" font-size="10" fill="#F59E0B" font-weight="bold">Тире — противопоставление/время:</text>
+  <text x="220" y="578" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Лес рубят — щепки летят.</text>
+
+  <rect x="410" y="460" width="375" height="125" fill="#FFFFFF" rx="6" stroke="#FB7185" stroke-width="2" filter="url(#shadowSmall)"/>
+  <rect x="410" y="460" width="375" height="22" fill="#FB7185" rx="6"/>
+  <rect x="410" y="476" width="375" height="6" fill="#FB7185"/>
+  <text x="597.5" y="475" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Сравнение трёх типов</text>
+  <text x="418" y="498" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">ССП: равноправные части</text>
+  <text x="418" y="514" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Ветер шумел, и дождь стучал.</text>
+  <text x="418" y="530" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Схема: [...], и [...]</text>
+  <text x="418" y="546" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="562" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">СПП: главное + придаточное</text>
+  <text x="418" y="578" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Я знаю, что он придёт.</text>
+  <text x="418" y="594" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Схема: [...], (что ...)</text>
+  <text x="418" y="610" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="626" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">БСП: только интонация</text>
+  <text x="418" y="642" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Светило солнце; шёл дождь.</text>
+  <text x="418" y="658" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Схема: [...]; [...]</text>
+</svg>

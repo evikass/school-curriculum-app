@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#D97706" />
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#F59E0B" />
+  <rect x="0" y="6" width="800" height="70" fill="#D97706" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#92400E" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">8</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Правовое государство</text>
+  <text x="78" y="58" fill="#FEF3C7" font-size="13" font-family="Arial, sans-serif">Разделение властей, права и обязанности, конституция</text>
+  <rect x="17" y="92" width="500" height="280" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="500" height="280" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5" />
+  <rect x="15" y="90" width="500" height="26" rx="8" fill="#D97706" />
+  <rect x="15" y="108" width="500" height="8" fill="#D97706" />
+  <text x="265" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Разделение властей</text>
+  <rect x="195" y="125" width="140" height="35" rx="8" fill="#EF4444" stroke="#EF4444" stroke-width="2" />
+  <text x="265" y="147" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Законодательная</text>
+  <text x="265" y="175" text-anchor="middle" fill="#EF4444" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Парламент</text>
+  <text x="265" y="190" text-anchor="middle" fill="#78716C" font-size="9" font-weight="normal" font-family="Arial, sans-serif">(Федеральное Собрание)</text>
+  <rect x="40" y="280" width="140" height="35" rx="8" fill="#3B82F6" stroke="#3B82F6" stroke-width="2" />
+  <text x="110" y="302" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Исполнительная</text>
+  <text x="110" y="330" text-anchor="middle" fill="#3B82F6" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Правительство</text>
+  <rect x="350" y="280" width="140" height="35" rx="8" fill="#8B5CF6" stroke="#8B5CF6" stroke-width="2" />
+  <text x="420" y="302" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Судебная</text>
+  <text x="420" y="330" text-anchor="middle" fill="#8B5CF6" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Конституционный Суд</text>
+  <text x="420" y="345" text-anchor="middle" fill="#8B5CF6" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Верховный Суд</text>
+  <line x1="265" y1="160" x2="110" y2="280" stroke="#D97706" stroke-width="2" />
+  <line x1="265" y1="160" x2="420" y2="280" stroke="#D97706" stroke-width="2" />
+  <line x1="180" y1="295" x2="350" y2="295" stroke="#D97706" stroke-width="2" />
+  <text x="265" y="245" text-anchor="middle" fill="#92400E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Система сдержек</text>
+  <text x="265" y="260" text-anchor="middle" fill="#92400E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">и противовесов</text>
+  <text x="190" y="200" text-anchor="start" fill="#EF4444" font-size="14" font-weight="normal" font-family="Arial, sans-serif">↙</text>
+  <text x="340" y="200" text-anchor="start" fill="#3B82F6" font-size="14" font-weight="normal" font-family="Arial, sans-serif">↘</text>
+  <text x="265" y="280" text-anchor="start" fill="#8B5CF6" font-size="12" font-weight="normal" font-family="Arial, sans-serif">↓↑</text>
+  <rect x="532" y="92" width="255" height="155" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="530" y="90" width="255" height="155" rx="8" fill="#FFFFFF" stroke="#22C55E" stroke-width="1.5" />
+  <rect x="530" y="90" width="255" height="26" rx="8" fill="#22C55E" />
+  <rect x="530" y="108" width="255" height="8" fill="#22C55E" />
+  <text x="657" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Признаки правового гос-ва</text>
+  <text x="545" y="126" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Верховенство закона</text>
+  <text x="545" y="143" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Разделение властей</text>
+  <text x="545" y="160" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Взаимная ответственность</text>
+  <text x="545" y="177" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">  государства и личности</text>
+  <text x="545" y="194" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Права и свободы человека</text>
+  <text x="545" y="211" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Независимый суд</text>
+  <text x="545" y="228" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Гражданское общество</text>
+  <rect x="17" y="382" width="385" height="130" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="380" width="385" height="130" rx="8" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5" />
+  <rect x="15" y="380" width="385" height="26" rx="8" fill="#3B82F6" />
+  <rect x="15" y="398" width="385" height="8" fill="#3B82F6" />
+  <text x="207" y="398" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Права и обязанности гражданина</text>
+  <text x="30" y="415" text-anchor="start" fill="#3B82F6" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Права:</text>
+  <text x="30" y="433" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• На жизнь, свободу, личную неприкосновенность</text>
+  <text x="30" y="448" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• На образование, труд, отдых</text>
+  <text x="30" y="463" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Свобода слова, собраний, религии</text>
+  <text x="30" y="483" text-anchor="start" fill="#EF4444" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Обязанности:</text>
+  <text x="30" y="498" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Соблюдать законы, платить налоги,</text>
+  <text x="40" y="512" text-anchor="start" fill="#92400E" font-size="10" font-weight="normal" font-family="Arial, sans-serif">защищать Родину</text>
+  <rect x="417" y="382" width="370" height="130" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="380" width="370" height="130" rx="8" fill="#FFFFFF" stroke="#92400E" stroke-width="1.5" />
+  <rect x="415" y="380" width="370" height="26" rx="8" fill="#92400E" />
+  <rect x="415" y="398" width="370" height="8" fill="#92400E" />
+  <text x="600" y="398" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Конституция РФ</text>
+  <text x="430" y="418" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Конституция — Основной закон</text>
+  <text x="430" y="438" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">государства, обладающий высшей</text>
+  <text x="430" y="458" text-anchor="start" fill="#92400E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">юридической силой.</text>
+  <text x="430" y="483" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Принята 12 декабря 1993 г.</text>
+  <text x="430" y="500" text-anchor="start" fill="#92400E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">День Конституции — 12 декабря</text>
+  <rect x="0" y="570" width="800" height="30" fill="#92400E" />
+  <text x="400" y="590" text-anchor="middle" fill="#FEF3C7" font-size="11" font-family="Arial, sans-serif">Обществознание • 8 класс • Интернет-Школа</text>
+</svg>

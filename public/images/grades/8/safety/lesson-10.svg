@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EA580C" />
+      <stop offset="100%" style="stop-color:#DC2626" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000030" />
+    </filter>
+    <linearGradient id="dangerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC2626" />
+      <stop offset="100%" style="stop-color:#991B1B" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#F3F4F6" />
+  <rect width="800" height="70" fill="url(#headerGrad)" />
+  <text x="400" y="35" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Террористическая угроза</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FEE2E2" font-size="13" font-family="Arial, sans-serif">Правила поведения и порядок действий</text>
+  <rect x="10" y="8" width="50" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.3" />
+  <text x="35" y="25" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">ОБЖ</text>
+  <rect x="0" y="70" width="800" height="3" fill="#EAB308" />
+  <rect x="20" y="80" width="760" height="35" rx="6" fill="#DC2626" />
+  <g transform="translate(30,85)">
+    <polygon points="11,0 22,22 0,22" fill="#EAB308" stroke="#374151" stroke-width="1" />
+    <text x="11" y="18" text-anchor="middle" fill="#111827" font-size="11" font-weight="bold" font-family="Arial, sans-serif">!</text>
+  </g>
+  <text x="400" y="102" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Arial, sans-serif">При обнаружении подозрительного предмета — НЕ ТРОГАЙТЕ ЕГО!</text>
+  <text x="20" y="130" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Правила поведения при угрозе</text>
+  <line x1="20" y1="134" x2="244" y2="134" stroke="#EA580C" stroke-width="2" />
+  <circle cx="32" cy="157" r="12" fill="#DC2626" />
+  <text x="32" y="161" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">1</text>
+  <text x="50" y="161" fill="#374151" font-size="12" font-family="Arial, sans-serif">Не трогайте подозрительные предметы</text>
+  <circle cx="32" cy="183" r="12" fill="#DC2626" />
+  <text x="32" y="187" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">2</text>
+  <text x="50" y="187" fill="#374151" font-size="12" font-family="Arial, sans-serif">Немедленно сообщите в полицию: 102 или 112</text>
+  <circle cx="32" cy="209" r="12" fill="#DC2626" />
+  <text x="32" y="213" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">3</text>
+  <text x="50" y="213" fill="#374151" font-size="12" font-family="Arial, sans-serif">Отойдите на безопасное расстояние</text>
+  <circle cx="32" cy="235" r="12" fill="#EA580C" />
+  <text x="32" y="239" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">4</text>
+  <text x="50" y="239" fill="#374151" font-size="12" font-family="Arial, sans-serif">Не пользуйтесь мобильным телефоном рядом</text>
+  <circle cx="32" cy="261" r="12" fill="#EA580C" />
+  <text x="32" y="265" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">5</text>
+  <text x="50" y="265" fill="#374151" font-size="12" font-family="Arial, sans-serif">Эвакуируйтесь спокойно, без паники</text>
+  <circle cx="32" cy="287" r="12" fill="#EA580C" />
+  <text x="32" y="291" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">6</text>
+  <text x="50" y="291" fill="#374151" font-size="12" font-family="Arial, sans-serif">Не создавайте давку у выходов</text>
+  <circle cx="32" cy="313" r="12" fill="#EA580C" />
+  <text x="32" y="317" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">7</text>
+  <text x="50" y="317" fill="#374151" font-size="12" font-family="Arial, sans-serif">Помогите детям и пожилым людям</text>
+  <circle cx="32" cy="339" r="12" fill="#EA580C" />
+  <text x="32" y="343" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">8</text>
+  <text x="50" y="343" fill="#374151" font-size="12" font-family="Arial, sans-serif">Не возвращайтесь в опасную зону</text>
+  <text x="420" y="130" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Если вы захвачены в заложники</text>
+  <line x1="420" y1="134" x2="652" y2="134" stroke="#EA580C" stroke-width="2" />
+  <circle cx="437" cy="157" r="12" fill="#DC2626" />
+  <text x="437" y="161" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">1</text>
+  <text x="455" y="161" fill="#374151" font-size="12" font-family="Arial, sans-serif">Не сопротивляйтесь и не пытайтесь бежать</text>
+  <circle cx="437" cy="183" r="12" fill="#DC2626" />
+  <text x="437" y="187" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">2</text>
+  <text x="455" y="187" fill="#374151" font-size="12" font-family="Arial, sans-serif">Выполняйте требования террористов</text>
+  <circle cx="437" cy="209" r="12" fill="#DC2626" />
+  <text x="437" y="213" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">3</text>
+  <text x="455" y="213" fill="#374151" font-size="12" font-family="Arial, sans-serif">Не смотрите им в глаза, не спорьте</text>
+  <circle cx="437" cy="235" r="12" fill="#F59E0B" />
+  <text x="437" y="239" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">4</text>
+  <text x="455" y="239" fill="#374151" font-size="12" font-family="Arial, sans-serif">Спрашивайте разрешение на любые действия</text>
+  <circle cx="437" cy="261" r="12" fill="#F59E0B" />
+  <text x="437" y="265" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">5</text>
+  <text x="455" y="265" fill="#374151" font-size="12" font-family="Arial, sans-serif">Старайтесь запомнить приметы террористов</text>
+  <circle cx="437" cy="287" r="12" fill="#F59E0B" />
+  <text x="437" y="291" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">6</text>
+  <text x="455" y="291" fill="#374151" font-size="12" font-family="Arial, sans-serif">Не делайте резких движений</text>
+  <circle cx="437" cy="313" r="12" fill="#F59E0B" />
+  <text x="437" y="317" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">7</text>
+  <text x="455" y="317" fill="#374151" font-size="12" font-family="Arial, sans-serif">При штурме — лягте на пол, закройте голову</text>
+  <circle cx="437" cy="339" r="12" fill="#F59E0B" />
+  <text x="437" y="343" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">8</text>
+  <text x="455" y="343" fill="#374151" font-size="12" font-family="Arial, sans-serif">Не бегите навстречу спецназу</text>
+  <text x="20" y="375" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Подозрительные предметы</text>
+  <line x1="20" y1="379" x2="204" y2="379" stroke="#EA580C" stroke-width="2" />
+  <g>
+    <circle cx="32" cy="392" r="7" fill="#DC2626" />
+    <text x="32" y="397" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">X</text>
+  </g>
+  <text x="45" y="397" fill="#374151" font-size="11" font-family="Arial, sans-serif">Бесхозные сумки, пакеты, коробки</text>
+  <g>
+    <circle cx="32" cy="416" r="7" fill="#DC2626" />
+    <text x="32" y="421" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">X</text>
+  </g>
+  <text x="45" y="421" fill="#374151" font-size="11" font-family="Arial, sans-serif">Машину, оставленную в неположенном месте</text>
+  <g>
+    <circle cx="32" cy="440" r="7" fill="#DC2626" />
+    <text x="32" y="445" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">X</text>
+  </g>
+  <text x="45" y="445" fill="#374151" font-size="11" font-family="Arial, sans-serif">Провода, торчащие из предметов</text>
+  <g>
+    <circle cx="32" cy="464" r="7" fill="#DC2626" />
+    <text x="32" y="469" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">X</text>
+  </g>
+  <text x="45" y="469" fill="#374151" font-size="11" font-family="Arial, sans-serif">Предметы с запахом химикатов</text>
+  <g>
+    <circle cx="32" cy="488" r="7" fill="#DC2626" />
+    <text x="32" y="493" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">X</text>
+  </g>
+  <text x="45" y="493" fill="#374151" font-size="11" font-family="Arial, sans-serif">Письма/посылки с подозрительным содержимым</text>
+  <text x="420" y="375" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Как сообщить об угрозе</text>
+  <line x1="420" y1="379" x2="596" y2="379" stroke="#EA580C" stroke-width="2" />
+  <rect x="425" y="390" width="345" height="110" rx="8" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#shadow)" />
+  <text x="440" y="410" fill="#374151" font-size="11" font-family="Arial, sans-serif">1. Точный адрес и описание объекта</text>
+  <text x="440" y="427" fill="#374151" font-size="11" font-family="Arial, sans-serif">2. Время обнаружения</text>
+  <text x="440" y="444" fill="#374151" font-size="11" font-family="Arial, sans-serif">3. Описание подозрительного предмета</text>
+  <text x="440" y="461" fill="#374151" font-size="11" font-family="Arial, sans-serif">4. Есть ли люди рядом</text>
+  <text x="440" y="478" fill="#374151" font-size="11" font-family="Arial, sans-serif">5. Ваше имя и телефон</text>
+  <text x="440" y="495" fill="#374151" font-size="11" font-family="Arial, sans-serif">6. Ждите указаний диспетчера!</text>
+  <text x="20" y="515" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Телефоны</text>
+  <line x1="20" y1="519" x2="84" y2="519" stroke="#EA580C" stroke-width="2" />
+  <rect x="20" y="535" width="110" height="45" rx="8" fill="#DC2626" filter="url(#shadow)" />
+  <text x="75" y="557" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">112</text>
+  <text x="75" y="573" text-anchor="middle" fill="#FEE2E2" font-size="9" font-family="Arial, sans-serif">Единый номер</text>
+  <rect x="145" y="535" width="110" height="45" rx="8" fill="#DC2626" filter="url(#shadow)" />
+  <text x="200" y="557" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">102</text>
+  <text x="200" y="573" text-anchor="middle" fill="#FEE2E2" font-size="9" font-family="Arial, sans-serif">Полиция</text>
+  <rect x="270" y="535" width="110" height="45" rx="8" fill="#DC2626" filter="url(#shadow)" />
+  <text x="325" y="557" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">101</text>
+  <text x="325" y="573" text-anchor="middle" fill="#FEE2E2" font-size="9" font-family="Arial, sans-serif">МЧС/Пожарная</text>
+  <rect x="395" y="535" width="110" height="45" rx="8" fill="#DC2626" filter="url(#shadow)" />
+  <text x="450" y="557" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">103</text>
+  <text x="450" y="573" text-anchor="middle" fill="#FEE2E2" font-size="9" font-family="Arial, sans-serif">Скорая</text>
+  <rect x="530" y="530" width="240" height="50" rx="8" fill="#991B1B" filter="url(#shadow)" />
+  <text x="650" y="553" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Бдительность спасает жизни!</text>
+  <text x="650" y="570" text-anchor="middle" fill="#FEE2E2" font-size="10" font-family="Arial, sans-serif">Сообщайте о любых подозрениях</text>
+</svg>

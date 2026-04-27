@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ECFDF5" />
+      <stop offset="100%" stop-color="#F0FDF4" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#059669" />
+  <rect x="0" y="6" width="800" height="70" fill="#059669" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#065F46" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">9</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Природные зоны России</text>
+  <text x="78" y="58" fill="#D1FAE5" font-size="13" font-family="Arial, sans-serif">Тундра, тайга, степь, пустыня — от севера к югу</text>
+  <rect x="17" y="92" width="480" height="200" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="480" height="200" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="90" width="480" height="26" rx="8" fill="#059669" />
+  <rect x="15" y="108" width="480" height="8" fill="#059669" />
+  <text x="255" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Карта природных зон</text>
+  <rect x="30" y="120" width="450" height="18" fill="#EFF6FF" stroke="#059669" stroke-width="0.5" rx="2" />
+  <text x="255" y="133" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Арктическая пустыня</text>
+  <rect x="30" y="138" width="450" height="18" fill="#BFDBFE" stroke="#059669" stroke-width="0.5" rx="2" />
+  <text x="255" y="151" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Тундра</text>
+  <rect x="30" y="156" width="450" height="18" fill="#A7F3D0" stroke="#059669" stroke-width="0.5" rx="2" />
+  <text x="255" y="169" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Лесотундра</text>
+  <rect x="30" y="174" width="450" height="18" fill="#34D399" stroke="#059669" stroke-width="0.5" rx="2" />
+  <text x="255" y="187" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Тайга</text>
+  <rect x="30" y="192" width="450" height="18" fill="#86EFAC" stroke="#059669" stroke-width="0.5" rx="2" />
+  <text x="255" y="205" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Смешанные леса</text>
+  <rect x="30" y="210" width="450" height="18" fill="#BEF264" stroke="#059669" stroke-width="0.5" rx="2" />
+  <text x="255" y="223" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Лесостепь</text>
+  <rect x="30" y="228" width="450" height="18" fill="#FDE68A" stroke="#059669" stroke-width="0.5" rx="2" />
+  <text x="255" y="241" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Степь</text>
+  <rect x="30" y="246" width="450" height="18" fill="#FDE68A" stroke="#059669" stroke-width="0.5" rx="2" />
+  <text x="255" y="259" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Полупустыня</text>
+  <rect x="30" y="264" width="450" height="18" fill="#FDBA74" stroke="#059669" stroke-width="0.5" rx="2" />
+  <text x="255" y="277" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Пустыня</text>
+  <text x="485" y="200" text-anchor="middle" fill="#EF4444" font-size="12" font-weight="bold" font-family="Arial, sans-serif">С</text>
+  <line x1="485" y1="210" x2="485" y2="280" stroke="#1C1917" stroke-width="1.5" />
+  <text x="485" y="295" text-anchor="middle" fill="#059669" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Ю</text>
+  <rect x="512" y="92" width="275" height="200" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="510" y="90" width="275" height="200" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="510" y="90" width="275" height="26" rx="8" fill="#065F46" />
+  <rect x="510" y="108" width="275" height="8" fill="#065F46" />
+  <text x="647" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Характеристики зон</text>
+  <rect x="520" y="120" width="245" height="14" fill="#059669" rx="2" />
+  <text x="535" y="132" text-anchor="start" fill="#FFFFFF" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Зона</text>
+  <text x="610" y="132" text-anchor="middle" fill="#FFFFFF" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Янв.</text>
+  <text x="660" y="132" text-anchor="middle" fill="#FFFFFF" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Ос.</text>
+  <text x="730" y="132" text-anchor="middle" fill="#FFFFFF" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Раст.</text>
+  <rect x="520" y="140" width="245" height="18" fill="#D1FAE5" rx="2" />
+  <text x="535" y="150" text-anchor="start" fill="#065F46" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Аркт. пустыня</text>
+  <text x="610" y="150" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">-30°C</text>
+  <text x="660" y="150" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">200</text>
+  <text x="730" y="150" text-anchor="middle" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Лишайники</text>
+  <text x="535" y="170" text-anchor="start" fill="#065F46" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Тундра</text>
+  <text x="610" y="170" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">-15°C</text>
+  <text x="660" y="170" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">300</text>
+  <text x="730" y="170" text-anchor="middle" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Мхи, ягель</text>
+  <rect x="520" y="180" width="245" height="18" fill="#D1FAE5" rx="2" />
+  <text x="535" y="190" text-anchor="start" fill="#065F46" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Тайга</text>
+  <text x="610" y="190" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">-10°C</text>
+  <text x="660" y="190" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">600</text>
+  <text x="730" y="190" text-anchor="middle" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Хвойные леса</text>
+  <text x="535" y="210" text-anchor="start" fill="#065F46" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Смеш. леса</text>
+  <text x="610" y="210" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">-5°C</text>
+  <text x="660" y="210" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">700</text>
+  <text x="730" y="210" text-anchor="middle" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Хв.+лист.</text>
+  <rect x="520" y="220" width="245" height="18" fill="#D1FAE5" rx="2" />
+  <text x="535" y="230" text-anchor="start" fill="#065F46" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Степь</text>
+  <text x="610" y="230" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">-2°C</text>
+  <text x="660" y="230" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">400</text>
+  <text x="730" y="230" text-anchor="middle" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Травы</text>
+  <text x="535" y="250" text-anchor="start" fill="#065F46" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Пустыня</text>
+  <text x="610" y="250" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">+10°C</text>
+  <text x="660" y="250" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">150</text>
+  <text x="730" y="250" text-anchor="middle" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Саксаул</text>
+  <text x="535" y="278" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Осадки (мм/год)</text>
+  <rect x="17" y="302" width="380" height="130" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="300" width="380" height="130" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="300" width="380" height="26" rx="8" fill="#059669" />
+  <rect x="15" y="318" width="380" height="8" fill="#059669" />
+  <text x="205" y="318" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Закон широтной зональности</text>
+  <text x="30" y="335" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Смена природных зон от экватора</text>
+  <text x="30" y="352" text-anchor="start" fill="#065F46" font-size="12" font-weight="bold" font-family="Arial, sans-serif">к полюсам — широтная зональность.</text>
+  <text x="30" y="375" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Причина: изменение количества</text>
+  <text x="30" y="392" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">солнечной радиации с широтой.</text>
+  <text x="30" y="415" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Высотная поясность — смена зон</text>
+  <text x="30" y="432" text-anchor="start" fill="#065F46" font-size="11" font-weight="normal" font-family="Arial, sans-serif">в горах с высотой (аналог зональности).</text>
+  <rect x="412" y="302" width="375" height="130" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="410" y="300" width="375" height="130" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="410" y="300" width="375" height="26" rx="8" fill="#14B8A6" />
+  <rect x="410" y="318" width="375" height="8" fill="#14B8A6" />
+  <text x="597" y="318" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Высотная поясность (Кавказ)</text>
+  <polygon points="520,310 580,370 460,370" fill="#EFF6FF" stroke="#059669" stroke-width="1" />
+  <text x="520" y="345" text-anchor="middle" fill="#1E3A5F" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Ледники</text>
+  <polygon points="460,370 580,370 595,400 445,400" fill="#BFDBFE" stroke="#059669" stroke-width="0.5" />
+  <text x="520" y="390" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Альп. луга</text>
+  <polygon points="445,400 595,400 610,425 430,425" fill="#A7F3D0" stroke="#059669" stroke-width="0.5" />
+  <text x="520" y="417" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Субальп.</text>
+  <polygon points="430,425 610,425 625,445 415,445" fill="#34D399" stroke="#059669" stroke-width="0.5" />
+  <text x="520" y="440" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Лесной</text>
+  <polygon points="415,445 625,445 640,465 400,465" fill="#FDE68A" stroke="#059669" stroke-width="0.5" />
+  <text x="520" y="460" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Степной</text>
+  <text x="700" y="330" text-anchor="start" fill="#1E3A5F" font-size="8" font-weight="normal" font-family="Arial, sans-serif">5600 м</text>
+  <text x="700" y="380" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">3000 м</text>
+  <text x="700" y="410" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">2000 м</text>
+  <text x="700" y="440" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">1000 м</text>
+  <text x="700" y="460" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">0 м</text>
+  <rect x="17" y="442" width="770" height="90" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="440" width="770" height="90" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="440" width="770" height="26" rx="8" fill="#065F46" />
+  <rect x="15" y="458" width="770" height="8" fill="#065F46" />
+  <text x="400" y="458" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Главное о природных зонах</text>
+  <text x="400" y="470" text-anchor="middle" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">Природная зона — крупный природный комплекс со своими условиями</text>
+  <text x="400" y="490" text-anchor="middle" fill="#065F46" font-size="13" font-weight="normal" font-family="Arial, sans-serif">тепла и влаги, почвами, растительностью и животным миром</text>
+  <text x="400" y="510" text-anchor="middle" fill="#059669" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Тайга — крупнейшая природная зона России (~50% территории)</text>
+  <rect x="0" y="570" width="800" height="30" fill="#065F46" />
+  <text x="400" y="590" text-anchor="middle" fill="#D1FAE5" font-size="11" font-family="Arial, sans-serif">География • 8 класс • Интернет-Школа</text>
+</svg>

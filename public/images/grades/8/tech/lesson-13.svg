@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#92400E" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#B45309" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="800" height="4" fill="#B45309" rx="2"/>
+
+  <!-- Header -->
+  <rect x="20" y="15" width="760" height="60" rx="8" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="40" y="50" font-size="14" fill="#FCD34D" font-weight="bold">Урок 13</text>
+  <text x="130" y="50" font-size="20" fill="#FFFFFF" font-weight="bold">Профессии современного производства</text>
+    <text x="780" y="55" font-size="13" fill="#F59E0B" text-anchor="end" font-style="italic">Инженерия, IT, рабочие специальности</text>
+
+  <!-- Professional sectors - card layout -->
+  <!-- Engineering -->
+  <rect x="25" y="95" width="245" height="135" rx="8" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="25" y="95" width="245" height="30" rx="8" fill="#2563EB"/>
+  <rect x="25" y="119" width="245" height="6" fill="#2563EB"/>
+  <text x="147" y="116" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">🔧 Инженерные</text>
+  <text x="40" y="143" font-size="11" fill="#78350F">• Инженер-конструктор</text>
+  <text x="40" y="159" font-size="11" fill="#78350F">• Инженер-технолог</text>
+  <text x="40" y="175" font-size="11" fill="#78350F">• Инженер-программист ЧПУ</text>
+  <text x="40" y="191" font-size="11" fill="#78350F">• Инженер по качеству</text>
+  <text x="40" y="207" font-size="11" fill="#78350F">• Проектировщик CAD/CAM</text>
+  <text x="40" y="223" font-size="9" fill="#2563EB" font-style="italic">Зарплата: 60-150 тыс. ₽</text>
+  
+  <!-- IT -->
+  <rect x="285" y="95" width="245" height="135" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="285" y="95" width="245" height="30" rx="8" fill="#059669"/>
+  <rect x="285" y="119" width="245" height="6" fill="#059669"/>
+  <text x="407" y="116" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">💻 IT-специалисты</text>
+  <text x="300" y="143" font-size="11" fill="#78350F">• Программист / Разработчик</text>
+  <text x="300" y="159" font-size="11" fill="#78350F">• Специалист по ИИ и ML</text>
+  <text x="300" y="175" font-size="11" fill="#78350F">• Data Scientist / Аналитик</text>
+  <text x="300" y="191" font-size="11" fill="#78350F">• DevOps-инженер</text>
+  <text x="300" y="207" font-size="11" fill="#78350F">• Кибербезопасник</text>
+  <text x="300" y="223" font-size="9" fill="#059669" font-style="italic">Зарплата: 80-300 тыс. ₽</text>
+  
+  <!-- Skilled trades -->
+  <rect x="545" y="95" width="235" height="135" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="545" y="95" width="235" height="30" rx="8" fill="#F59E0B"/>
+  <rect x="545" y="119" width="235" height="6" fill="#F59E0B"/>
+  <text x="662" y="116" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">⚒ Рабочие специальности</text>
+  <text x="560" y="143" font-size="11" fill="#78350F">• Токарь-фрезеровщик ЧПУ</text>
+  <text x="560" y="159" font-size="11" fill="#78350F">• Оператор 3D-печати</text>
+  <text x="560" y="175" font-size="11" fill="#78350F">• Сварщик</text>
+  <text x="560" y="191" font-size="11" fill="#78350F">• Электромонтажник</text>
+  <text x="560" y="207" font-size="11" fill="#78350F">• Наладчик оборудования</text>
+  <text x="560" y="223" font-size="9" fill="#F59E0B" font-style="italic">Зарплата: 50-120 тыс. ₽</text>
+  
+  <!-- Skills needed -->
+    <rect x="25" y="248" width="250" height="145" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="248" width="250" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="268" width="250" height="6" fill="#B45309"/>
+  <text x="150" y="266" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Ключевые навыки будущего</text>
+  <text x="37" y="288" font-size="12" fill="#78350F">• Критическое мышление и логика</text>
+  <text x="37" y="308" font-size="12" fill="#78350F">• Программирование и алгоритмы</text>
+  <text x="37" y="328" font-size="12" fill="#78350F">• Работа с данными и аналитика</text>
+  <text x="37" y="348" font-size="12" fill="#78350F">• Креативность и инновации</text>
+  <text x="37" y="368" font-size="12" fill="#78350F">• Коммуникация и командная работа</text>
+  
+    <rect x="290" y="248" width="250" height="145" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="290" y="248" width="250" height="26" rx="6" fill="#059669"/>
+  <rect x="290" y="268" width="250" height="6" fill="#059669"/>
+  <text x="415" y="266" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Образование и обучение</text>
+  <text x="302" y="288" font-size="12" fill="#78350F">• Колледж — рабочая специальность</text>
+  <text x="302" y="308" font-size="12" fill="#78350F">• ВУЗ — инженерное образование</text>
+  <text x="302" y="328" font-size="12" fill="#78350F">• Курсы — переквалификация</text>
+  <text x="302" y="348" font-size="12" fill="#78350F">• Онлайн-обучение — новые навыки</text>
+  <text x="302" y="368" font-size="12" fill="#78350F">• Стажировки — практический опыт</text>
+  
+    <rect x="555" y="248" width="225" height="145" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="555" y="248" width="225" height="26" rx="6" fill="#F59E0B"/>
+  <rect x="555" y="268" width="225" height="6" fill="#F59E0B"/>
+  <text x="667" y="266" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Тренды рынка труда</text>
+  <text x="567" y="288" font-size="12" fill="#78350F">• Автоматизация рутины</text>
+  <text x="567" y="308" font-size="12" fill="#78350F">• Дистанционная работа</text>
+  <text x="567" y="328" font-size="12" fill="#78350F">• Междисциплинарность</text>
+  <text x="567" y="348" font-size="12" fill="#78350F">• Soft skills наравне с Hard</text>
+  <text x="567" y="368" font-size="12" fill="#78350F">• Дефицит инженеров</text>
+  
+    <rect x="25" y="410" width="750" height="50" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" filter="url(#shadow)"/>
+  <text x="37" y="430" font-size="12" fill="#78350F" font-weight="bold">🌟 Профессия будущего = технические знания + цифровые навыки + креативность</text>
+  <text x="37" y="448" font-size="12" fill="#78350F" font-weight="bold">Рабочие специальности с навыками ЧПУ и 3D-печати востребованы больше, чем когда-либо!</text>
+  
+  <!-- Career path -->
+    <rect x="25" y="478" width="375" height="105" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="478" width="375" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="498" width="375" height="6" fill="#B45309"/>
+  <text x="212" y="496" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Путь в профессию</text>
+  <text x="37" y="518" font-size="12" fill="#78350F">• 7-9 класс: кружки, олимпиады, профориентация</text>
+  <text x="37" y="538" font-size="12" fill="#78350F">• 10-11 класс: профильные предметы, курсы</text>
+  <text x="37" y="558" font-size="12" fill="#78350F">• Колледж: практические навыки, стажировки</text>
+  
+    <rect x="415" y="478" width="365" height="105" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="415" y="478" width="365" height="26" rx="6" fill="#B45309"/>
+  <rect x="415" y="498" width="365" height="6" fill="#B45309"/>
+  <text x="597" y="496" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Профессии в tecnologii (8 класс)</text>
+  <text x="427" y="518" font-size="12" fill="#78350F">• Столяр — обработка древесины</text>
+  <text x="427" y="538" font-size="12" fill="#78350F">• Слесарь — обработка металла</text>
+  <text x="427" y="558" font-size="12" fill="#78350F">• Электромонтёр — электрические сети</text>
+  </svg>

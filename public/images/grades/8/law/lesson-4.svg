@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs><linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#334155"/>
+  <stop offset="100%" stop-color="#475569"/>
+</linearGradient></defs>
+<rect x="0" y="0" width="800" height="70" rx="0" fill="url(#headerGrad)" opacity="1.0"/>
+<text x="400" y="35" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Конвенция о правах ребёнка</text>
+<text x="400" y="55" font-size="12" fill="#93c5fd" text-anchor="middle" font-weight="normal" font-family="sans-serif">Ключевые статьи, защита прав детей</text>
+<rect x="15" y="15" width="90" height="28" rx="14" fill="#3b82f6" opacity="1.0"/>
+<text x="60" y="34" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">8 класс</text>
+<rect x="700" y="15" width="85" height="28" rx="14" fill="#8b5cf6" opacity="1.0"/>
+<text x="743" y="34" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Право</text>
+<rect x="0" y="565" width="800" height="35" rx="0" fill="#334155" opacity="1.0"/>
+<text x="400" y="586" font-size="11" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Право · 8 класс · Образовательный курс</text>
+<rect x="0" y="70" width="800" height="495" rx="0" fill="#f8fafc" opacity="1.0"/>
+<rect x="20" y="80" width="760" height="55" rx="10" fill="#ffffff" opacity="1.0" stroke="#3b82f6" stroke-width="1.5"/>
+<rect x="20" y="80" width="6" height="55" rx="0" fill="#3b82f6" opacity="1.0"/>
+<text x="400" y="100" font-size="15" fill="#3b82f6" text-anchor="middle" font-weight="bold" font-family="sans-serif">Конвенция ООН о правах ребёнка (1989 г.)</text>
+<text x="400" y="118" font-size="11" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Ратифицирована РФ в 1990 г. · Ребёнок — лицо до 18 лет · 54 статьи</text>
+<circle cx="112" cy="200" r="50" fill="#ffffff" opacity="1.0" stroke="#8b5cf6" stroke-width="2"/>
+<circle cx="112" cy="200" r="38" fill="#8b5cf6" opacity="0.15"/>
+<text x="112" y="195" font-size="10" fill="#8b5cf6" text-anchor="middle" font-weight="bold" font-family="sans-serif">Недискриминация</text>
+<text x="112" y="220" font-size="8" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Равные права</text>
+<text x="112" y="231" font-size="8" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">для всех детей</text>
+<circle cx="282" cy="200" r="50" fill="#ffffff" opacity="1.0" stroke="#3b82f6" stroke-width="2"/>
+<circle cx="282" cy="200" r="38" fill="#3b82f6" opacity="0.15"/>
+<text x="282" y="188" font-size="10" fill="#3b82f6" text-anchor="middle" font-weight="bold" font-family="sans-serif">Наилучшие</text>
+<text x="282" y="202" font-size="10" fill="#3b82f6" text-anchor="middle" font-weight="bold" font-family="sans-serif">интересы</text>
+<text x="282" y="220" font-size="8" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Приоритет</text>
+<text x="282" y="231" font-size="8" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">интересов ребёнка</text>
+<circle cx="452" cy="200" r="50" fill="#ffffff" opacity="1.0" stroke="#10b981" stroke-width="2"/>
+<circle cx="452" cy="200" r="38" fill="#10b981" opacity="0.15"/>
+<text x="452" y="188" font-size="10" fill="#10b981" text-anchor="middle" font-weight="bold" font-family="sans-serif">Право на жизнь</text>
+<text x="452" y="202" font-size="10" fill="#10b981" text-anchor="middle" font-weight="bold" font-family="sans-serif">и развитие</text>
+<text x="452" y="220" font-size="8" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Гарантия</text>
+<text x="452" y="231" font-size="8" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">безопасности</text>
+<circle cx="622" cy="200" r="50" fill="#ffffff" opacity="1.0" stroke="#f59e0b" stroke-width="2"/>
+<circle cx="622" cy="200" r="38" fill="#f59e0b" opacity="0.15"/>
+<text x="622" y="188" font-size="10" fill="#f59e0b" text-anchor="middle" font-weight="bold" font-family="sans-serif">Уважение</text>
+<text x="622" y="202" font-size="10" fill="#f59e0b" text-anchor="middle" font-weight="bold" font-family="sans-serif">мнений</text>
+<text x="622" y="220" font-size="8" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Участие ребёнка</text>
+<text x="622" y="231" font-size="8" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">в решениях</text>
+<text x="400" y="278" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold" font-family="sans-serif">Основные права ребёнка по Конвенции</text>
+<rect x="20" y="295" width="170" height="58" rx="8" fill="#ffffff" opacity="1.0" stroke="#8b5cf6" stroke-width="1"/>
+<rect x="20" y="295" width="5" height="58" rx="0" fill="#8b5cf6" opacity="1.0"/>
+<text x="110" y="308" font-size="11" fill="#1e293b" text-anchor="middle" font-weight="bold" font-family="sans-serif">Право на имя</text>
+<text x="110" y="322" font-size="11" fill="#1e293b" text-anchor="middle" font-weight="bold" font-family="sans-serif">и гражданство</text>
+<text x="110" y="343" font-size="10" fill="#8b5cf6" text-anchor="middle" font-weight="bold" font-family="sans-serif">Ст. 7</text>
+<rect x="200" y="295" width="170" height="58" rx="8" fill="#ffffff" opacity="1.0" stroke="#3b82f6" stroke-width="1"/>
+<rect x="200" y="295" width="5" height="58" rx="0" fill="#3b82f6" opacity="1.0"/>
+<text x="290" y="308" font-size="11" fill="#1e293b" text-anchor="middle" font-weight="bold" font-family="sans-serif">Право на</text>
+<text x="290" y="322" font-size="11" fill="#1e293b" text-anchor="middle" font-weight="bold" font-family="sans-serif">образование</text>
+<text x="290" y="343" font-size="10" fill="#3b82f6" text-anchor="middle" font-weight="bold" font-family="sans-serif">Ст. 28</text>
+<rect x="380" y="295" width="170" height="58" rx="8" fill="#ffffff" opacity="1.0" stroke="#ef4444" stroke-width="1"/>
+<rect x="380" y="295" width="5" height="58" rx="0" fill="#ef4444" opacity="1.0"/>
+<text x="470" y="308" font-size="11" fill="#1e293b" text-anchor="middle" font-weight="bold" font-family="sans-serif">Защита от</text>
+<text x="470" y="322" font-size="11" fill="#1e293b" text-anchor="middle" font-weight="bold" font-family="sans-serif">насилия</text>
+<text x="470" y="343" font-size="10" fill="#ef4444" text-anchor="middle" font-weight="bold" font-family="sans-serif">Ст. 19</text>
+<rect x="560" y="295" width="170" height="58" rx="8" fill="#ffffff" opacity="1.0" stroke="#10b981" stroke-width="1"/>
+<rect x="560" y="295" width="5" height="58" rx="0" fill="#10b981" opacity="1.0"/>
+<text x="650" y="308" font-size="11" fill="#1e293b" text-anchor="middle" font-weight="bold" font-family="sans-serif">Право на</text>
+<text x="650" y="322" font-size="11" fill="#1e293b" text-anchor="middle" font-weight="bold" font-family="sans-serif">отдых и досуг</text>
+<text x="650" y="343" font-size="10" fill="#10b981" text-anchor="middle" font-weight="bold" font-family="sans-serif">Ст. 31</text>
+<text x="210" y="378" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold" font-family="sans-serif">Защита прав ребёнка в РФ</text>
+<rect x="20" y="395" width="170" height="50" rx="8" fill="#8b5cf6" opacity="1.0" stroke="#ffffff" stroke-width="1"/>
+<text x="105" y="410" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Уполномоченный</text>
+<text x="105" y="424" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">по правам ребёнка</text>
+<rect x="200" y="395" width="170" height="50" rx="8" fill="#3b82f6" opacity="1.0" stroke="#ffffff" stroke-width="1"/>
+<text x="285" y="410" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Органы опеки</text>
+<text x="285" y="424" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">и попечительства</text>
+<rect x="380" y="395" width="170" height="50" rx="8" fill="#475569" opacity="1.0" stroke="#ffffff" stroke-width="1"/>
+<text x="465" y="410" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Комиссии по делам</text>
+<text x="465" y="424" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">несовершеннолетних</text>
+<rect x="560" y="395" width="170" height="50" rx="8" fill="#10b981" opacity="1.0" stroke="#ffffff" stroke-width="1"/>
+<text x="645" y="410" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Социальная</text>
+<text x="645" y="424" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">защита</text>
+<rect x="20" y="460" width="760" height="80" rx="8" fill="#f1f5f9" opacity="1.0" stroke="#475569" stroke-width="1"/>
+<text x="400" y="483" font-size="12" fill="#475569" text-anchor="middle" font-weight="bold" font-family="sans-serif">Федеральный закон № 124-ФЗ «Об основных гарантиях прав ребёнка в РФ»</text>
+<text x="400" y="503" font-size="10" fill="#1e293b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Государство признаёт детство важным этапом жизни человека и гарантирует</text>
+<text x="400" y="518" font-size="10" fill="#1e293b" text-anchor="middle" font-weight="normal" font-family="sans-serif">права детей на образование, охрану здоровья, отдых и труд, социальную защиту</text>
+</svg>

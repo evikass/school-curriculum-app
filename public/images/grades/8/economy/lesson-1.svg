@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#15803D" />
+      <stop offset="100%" style="stop-color:#16A34A" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D97706" />
+      <stop offset="100%" style="stop-color:#F59E0B" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000020" />
+    </filter>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0FDF4" />
+      <stop offset="100%" style="stop-color:#DCFCE7" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFBEB" />
+      <stop offset="100%" style="stop-color:#FEF3C7" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <line x1="0" y1="0" x2="0" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="40" y1="0" x2="40" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="80" y1="0" x2="80" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="120" y1="0" x2="120" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="160" y1="0" x2="160" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="200" y1="0" x2="200" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="240" y1="0" x2="240" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="280" y1="0" x2="280" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="320" y1="0" x2="320" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="360" y1="0" x2="360" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="400" y1="0" x2="400" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="440" y1="0" x2="440" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="480" y1="0" x2="480" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="520" y1="0" x2="520" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="560" y1="0" x2="560" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="600" y1="0" x2="600" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="640" y1="0" x2="640" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="680" y1="0" x2="680" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="720" y1="0" x2="720" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="760" y1="0" x2="760" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="120" x2="800" y2="120" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="280" x2="800" y2="280" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="440" x2="800" y2="440" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="520" x2="800" y2="520" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#D1FAE5" stroke-width="0.5" />
+  <rect x="0" y="0" width="800" height="70" fill="url(#titleGrad)" />
+  <rect x="0" y="67" width="800" height="3" fill="url(#goldGrad)" />
+  <circle cx="40" cy="35" r="22" fill="#D97706" />
+  <text x="40" y="42" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold" font-family="Arial, sans-serif">1</text>
+  <text x="75" y="32" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Что такое экономика</text>
+  <text x="75" y="54" fill="#BBF7D0" font-size="13" font-family="Arial, sans-serif">Экономика • 8 класс</text>
+  <rect x="30" y="85" width="740" height="55" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.5" rx="10" filter="url(#shadow)" />
+  <text x="400" y="108" text-anchor="middle" fill="#15803D" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Экономика — наука о выборе при ограниченных ресурсах</text>
+  <text x="400" y="128" text-anchor="middle" fill="#64748B" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Экономика — система хозяйствования общества</text>
+  <rect x="30" y="155" width="230" height="150" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.5" rx="10" filter="url(#shadow)" />
+  <circle cx="145" cy="185" r="18" fill="#DC2626" />
+  <text x="145" y="191" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="Arial, sans-serif">Н</text>
+  <text x="145" y="215" text-anchor="middle" fill="#1E293B" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Потребности</text>
+  <text x="145" y="240" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Еда, одежда, жильё</text>
+  <text x="145" y="258" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Безопасность</text>
+  <text x="145" y="276" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Общение</text>
+  <text x="145" y="294" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Самореализация</text>
+  <rect x="285" y="155" width="230" height="150" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.5" rx="10" filter="url(#shadow)" />
+  <circle cx="400" cy="185" r="18" fill="#2563EB" />
+  <text x="400" y="191" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="Arial, sans-serif">Р</text>
+  <text x="400" y="215" text-anchor="middle" fill="#1E293B" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Ресурсы</text>
+  <text x="400" y="240" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Природные</text>
+  <text x="400" y="258" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Трудовые</text>
+  <text x="400" y="276" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Капитальные</text>
+  <text x="400" y="294" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Информационные</text>
+  <rect x="540" y="155" width="230" height="150" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.5" rx="10" filter="url(#shadow)" />
+  <circle cx="655" cy="185" r="18" fill="#D97706" />
+  <text x="655" y="191" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="Arial, sans-serif">О</text>
+  <text x="655" y="215" text-anchor="middle" fill="#1E293B" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Ограниченность</text>
+  <text x="655" y="240" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Ресурсы ограничены</text>
+  <text x="655" y="258" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Потребности безграничны</text>
+  <text x="655" y="276" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Противоречие</text>
+  <text x="655" y="294" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Необходим выбор</text>
+  <line x1="260" y1="230" x2="285" y2="230" stroke="#D97706" stroke-width="2" marker-end="url(#arrowhead)" />
+  <polygon points="285,230 277.6315120479769,233.1153467384692 277.6315120479769,226.8846532615308" fill="#D97706" />
+  <line x1="515" y1="230" x2="540" y2="230" stroke="#D97706" stroke-width="2" marker-end="url(#arrowhead)" />
+  <polygon points="540,230 532.6315120479769,233.1153467384692 532.6315120479769,226.8846532615308" fill="#D97706" />
+  <rect x="30" y="320" width="360" height="145" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.5" rx="10" filter="url(#shadow)" />
+  <text x="210" y="345" text-anchor="middle" fill="#15803D" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Экономический выбор</text>
+  <polygon points="210,365 140,445 280,445" fill="none" stroke="#16A34A" stroke-width="2" />
+  <text x="210" y="360" text-anchor="middle" fill="#16A34A" font-size="11" font-weight="bold" font-family="Arial, sans-serif">ЧТО</text>
+  <text x="155" y="460" text-anchor="middle" fill="#16A34A" font-size="11" font-weight="bold" font-family="Arial, sans-serif">КАК</text>
+  <text x="265" y="460" text-anchor="middle" fill="#16A34A" font-size="11" font-weight="bold" font-family="Arial, sans-serif">ДЛЯ КОГО</text>
+  <rect x="410" y="320" width="360" height="145" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.5" rx="10" filter="url(#shadow)" />
+  <text x="590" y="345" text-anchor="middle" fill="#15803D" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Пирамида потребностей</text>
+  <rect x="540" y="355" width="100" height="18" fill="#FEF3C7" stroke="#D97706" stroke-width="0.5" rx="3" />
+  <text x="590" y="368" text-anchor="middle" fill="#1E293B" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Самовыражение</text>
+  <rect x="525" y="373" width="130" height="18" fill="#FDE68A" stroke="#D97706" stroke-width="0.5" rx="3" />
+  <text x="590" y="386" text-anchor="middle" fill="#1E293B" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Уважение</text>
+  <rect x="510" y="391" width="160" height="18" fill="#FCD34D" stroke="#D97706" stroke-width="0.5" rx="3" />
+  <text x="590" y="404" text-anchor="middle" fill="#1E293B" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Социальные</text>
+  <rect x="495" y="409" width="190" height="18" fill="#FBBF24" stroke="#D97706" stroke-width="0.5" rx="3" />
+  <text x="590" y="422" text-anchor="middle" fill="#1E293B" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Безопасность</text>
+  <rect x="480" y="427" width="220" height="18" fill="#F59E0B" stroke="#D97706" stroke-width="0.5" rx="3" />
+  <text x="590" y="440" text-anchor="middle" fill="#1E293B" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Физиологические</text>
+  <rect x="30" y="480" width="740" height="50" fill="url(#accentGrad)" stroke="#D97706" stroke-width="2" rx="8" />
+  <text x="400" y="498" text-anchor="middle" fill="#D97706" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Главная проблема экономики</text>
+  <text x="400" y="515" text-anchor="middle" fill="#1E293B" font-size="18" font-weight="bold" font-family="Arial, sans-serif">Потребности &amp;gt; Ресурсы = Проблема выбора</text>
+  <text x="400" y="560" text-anchor="middle" fill="#64748B" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Экономика изучает: производство, распределение, обмен, потребление</text>
+</svg>

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs><linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#334155"/>
+  <stop offset="100%" stop-color="#475569"/>
+</linearGradient></defs>
+<rect x="0" y="0" width="800" height="70" rx="0" fill="url(#headerGrad)" opacity="1.0"/>
+<text x="400" y="35" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Защита прав граждан</text>
+<text x="400" y="55" font-size="12" fill="#93c5fd" text-anchor="middle" font-weight="normal" font-family="sans-serif">Суды, омбудсмен, юридическая помощь</text>
+<rect x="15" y="15" width="90" height="28" rx="14" fill="#3b82f6" opacity="1.0"/>
+<text x="60" y="34" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">8 класс</text>
+<rect x="700" y="15" width="85" height="28" rx="14" fill="#8b5cf6" opacity="1.0"/>
+<text x="743" y="34" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Право</text>
+<rect x="0" y="565" width="800" height="35" rx="0" fill="#334155" opacity="1.0"/>
+<text x="400" y="586" font-size="11" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Право · 8 класс · Образовательный курс</text>
+<rect x="0" y="70" width="800" height="495" rx="0" fill="#f8fafc" opacity="1.0"/>
+<rect x="20" y="80" width="760" height="45" rx="10" fill="#ffffff" opacity="1.0" stroke="#3b82f6" stroke-width="1.5"/>
+<rect x="20" y="80" width="6" height="45" rx="0" fill="#3b82f6" opacity="1.0"/>
+<text x="400" y="100" font-size="13" fill="#3b82f6" text-anchor="middle" font-weight="bold" font-family="sans-serif">Ст. 46 Конституции РФ: каждому гарантируется судебная защита прав и свобод</text>
+<text x="400" y="117" font-size="10" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Решения и действия органов власти могут быть обжалованы в суд</text>
+<text x="400" y="150" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" font-family="sans-serif">Механизмы защиты прав граждан</text>
+<rect x="20" y="165" width="245" height="230" rx="8" fill="#ffffff" opacity="1.0" stroke="#ef4444" stroke-width="1.5"/>
+<rect x="20" y="165" width="245" height="40" rx="8" fill="#ef4444" opacity="1.0"/>
+<rect x="20" y="195" width="245" height="10" rx="0" fill="#ef4444" opacity="1.0"/>
+<text x="142" y="190" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Судебная защита</text>
+<circle cx="38" cy="215" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="48" y="218" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Конституционный Суд РФ</text>
+<circle cx="38" cy="233" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="48" y="236" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Верховный Суд РФ</text>
+<circle cx="38" cy="251" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="48" y="254" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Суды общей юрисдикции</text>
+<circle cx="38" cy="269" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="48" y="272" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Арбитражные суды</text>
+<circle cx="38" cy="287" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="48" y="290" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Мировые судьи</text>
+<rect x="30" y="315" width="225" height="65" rx="5" fill="#f1f5f9" opacity="1.0"/>
+<text x="142" y="332" font-size="9" fill="#ef4444" text-anchor="middle" font-weight="bold" font-family="sans-serif">Порядок обращения:</text>
+<text x="142" y="348" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">1. Исковое заявление</text>
+<text x="142" y="362" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">2. Судебное разбирательство</text>
+<text x="142" y="376" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">3. Исполнение решения</text>
+<rect x="278" y="165" width="245" height="230" rx="8" fill="#ffffff" opacity="1.0" stroke="#8b5cf6" stroke-width="1.5"/>
+<rect x="278" y="165" width="245" height="40" rx="8" fill="#8b5cf6" opacity="1.0"/>
+<rect x="278" y="195" width="245" height="10" rx="0" fill="#8b5cf6" opacity="1.0"/>
+<text x="400" y="190" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Уполномоченный по правам</text>
+<circle cx="296" cy="215" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="306" y="218" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Уполномоченный по правам</text>
+<text x="306" y="230" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">человека в РФ</text>
+<circle cx="296" cy="245" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="306" y="248" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Уполномоченный по правам</text>
+<text x="306" y="260" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">ребёнка в РФ</text>
+<circle cx="296" cy="275" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="306" y="278" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Уполномоченные в субъектах</text>
+<circle cx="296" cy="293" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="306" y="296" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Рассмотрение жалоб граждан</text>
+<circle cx="296" cy="311" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="306" y="314" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Внесение рекомендаций</text>
+<rect x="288" y="315" width="225" height="65" rx="5" fill="#f1f5f9" opacity="1.0"/>
+<text x="400" y="332" font-size="9" fill="#8b5cf6" text-anchor="middle" font-weight="bold" font-family="sans-serif">Функции:</text>
+<text x="400" y="348" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Защита прав и свобод</text>
+<text x="400" y="362" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Контроль за деятельностью гос. органов</text>
+<text x="400" y="376" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Развитие правового просвещения</text>
+<rect x="535" y="165" width="245" height="230" rx="8" fill="#ffffff" opacity="1.0" stroke="#10b981" stroke-width="1.5"/>
+<rect x="535" y="165" width="245" height="40" rx="8" fill="#10b981" opacity="1.0"/>
+<rect x="535" y="195" width="245" height="10" rx="0" fill="#10b981" opacity="1.0"/>
+<text x="657" y="190" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Юридическая помощь</text>
+<circle cx="553" cy="215" r="3" fill="#10b981" opacity="1.0"/>
+<text x="563" y="218" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Бесплатная юридическая</text>
+<text x="563" y="230" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">помощь (ФЗ № 324)</text>
+<circle cx="553" cy="245" r="3" fill="#10b981" opacity="1.0"/>
+<text x="563" y="248" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Адвокатская помощь</text>
+<circle cx="553" cy="263" r="3" fill="#10b981" opacity="1.0"/>
+<text x="563" y="266" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Юридические консультации</text>
+<circle cx="553" cy="281" r="3" fill="#10b981" opacity="1.0"/>
+<text x="563" y="284" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Нотариальная помощь</text>
+<circle cx="553" cy="299" r="3" fill="#10b981" opacity="1.0"/>
+<text x="563" y="302" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Правовое просвещение</text>
+<rect x="545" y="315" width="225" height="65" rx="5" fill="#f1f5f9" opacity="1.0"/>
+<text x="657" y="332" font-size="9" fill="#10b981" text-anchor="middle" font-weight="bold" font-family="sans-serif">Категории граждан:</text>
+<text x="657" y="348" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Малоимущие, инвалиды</text>
+<text x="657" y="362" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Ветераны, дети-сироты</text>
+<text x="657" y="376" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Пенсионеры (по отдельным вопросам)</text>
+<text x="400" y="420" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold" font-family="sans-serif">Порядок защиты прав гражданина</text>
+<rect x="70" y="438" width="130" height="60" rx="8" fill="#ef4444" opacity="1.0" stroke="#ffffff" stroke-width="1"/>
+<circle cx="135" cy="455" r="10" fill="#ffffff" opacity="1.0"/>
+<text x="135" y="459" font-size="12" fill="#ef4444" text-anchor="middle" font-weight="bold" font-family="sans-serif">1</text>
+<text x="135" y="472" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Нарушение</text>
+<text x="135" y="484" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">права</text>
+<line x1="202" y1="468" x2="218" y2="468" stroke="#64748b" stroke-width="1.5"/><polygon points="210,463 210,473 218,468" fill="#64748b"/>
+<rect x="215" y="438" width="130" height="60" rx="8" fill="#f59e0b" opacity="1.0" stroke="#ffffff" stroke-width="1"/>
+<circle cx="280" cy="455" r="10" fill="#ffffff" opacity="1.0"/>
+<text x="280" y="459" font-size="12" fill="#f59e0b" text-anchor="middle" font-weight="bold" font-family="sans-serif">2</text>
+<text x="280" y="466" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Обращение</text>
+<text x="280" y="478" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">в компетентный</text>
+<text x="280" y="490" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">орган</text>
+<line x1="347" y1="468" x2="363" y2="468" stroke="#64748b" stroke-width="1.5"/><polygon points="355,463 355,473 363,468" fill="#64748b"/>
+<rect x="360" y="438" width="130" height="60" rx="8" fill="#3b82f6" opacity="1.0" stroke="#ffffff" stroke-width="1"/>
+<circle cx="425" cy="455" r="10" fill="#ffffff" opacity="1.0"/>
+<text x="425" y="459" font-size="12" fill="#3b82f6" text-anchor="middle" font-weight="bold" font-family="sans-serif">3</text>
+<text x="425" y="472" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Рассмотрение</text>
+<text x="425" y="484" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">обращения</text>
+<line x1="492" y1="468" x2="508" y2="468" stroke="#64748b" stroke-width="1.5"/><polygon points="500,463 500,473 508,468" fill="#64748b"/>
+<rect x="505" y="438" width="130" height="60" rx="8" fill="#10b981" opacity="1.0" stroke="#ffffff" stroke-width="1"/>
+<circle cx="570" cy="455" r="10" fill="#ffffff" opacity="1.0"/>
+<text x="570" y="459" font-size="12" fill="#10b981" text-anchor="middle" font-weight="bold" font-family="sans-serif">4</text>
+<text x="570" y="472" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Принятие</text>
+<text x="570" y="484" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">решения</text>
+<line x1="637" y1="468" x2="653" y2="468" stroke="#64748b" stroke-width="1.5"/><polygon points="645,463 645,473 653,468" fill="#64748b"/>
+<rect x="650" y="438" width="130" height="60" rx="8" fill="#8b5cf6" opacity="1.0" stroke="#ffffff" stroke-width="1"/>
+<circle cx="715" cy="455" r="10" fill="#ffffff" opacity="1.0"/>
+<text x="715" y="459" font-size="12" fill="#8b5cf6" text-anchor="middle" font-weight="bold" font-family="sans-serif">5</text>
+<text x="715" y="472" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Исполнение</text>
+<text x="715" y="484" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">решения</text>
+<rect x="20" y="510" width="760" height="40" rx="8" fill="#f1f5f9" opacity="1.0" stroke="#475569" stroke-width="1"/>
+<text x="400" y="527" font-size="11" fill="#475569" text-anchor="middle" font-weight="bold" font-family="sans-serif">Право на обращение в международные органы по защите прав (ст. 46 ч. 3 Конституции РФ)</text>
+<text x="400" y="542" font-size="9" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">ЕСПЧ — Европейский суд по правам человека</text>
+</svg>

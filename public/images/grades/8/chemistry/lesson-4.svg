@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EDE9FE;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F5F3FF;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5B21B6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#EDE9FE;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#5B21B6" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowSm" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#5B21B6" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0"/>
+  <!-- Decorative circles -->
+  <circle cx="750" cy="50" r="80" fill="#8B5CF6" opacity="0.05"/>
+  <circle cx="50" cy="550" r="60" fill="#8B5CF6" opacity="0.05"/>
+  <circle cx="400" cy="600" r="100" fill="#A78BFA" opacity="0.04"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="60" fill="url(#headerGrad)" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">Строение электронной оболочки</text>
+  <!-- Small decorative line under header -->
+  <rect x="300" y="54" width="200" height="3" fill="#C4B5FD" rx="1.5" opacity="0.7"/>
+  <rect x="20" y="75" width="380" height="200" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <text x="40" y="100" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#7C3AED">Правила заполнения</text>
+  <rect x="40" y="115" width="340" height="35" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1" rx="8"/>
+  <text x="55" y="130" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#7C3AED">1. Принцип наименьшей энергии:</text>
+  <text x="55" y="145" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">   электроны заполняют уровни от 1 к 7</text>
+  <rect x="40" y="155" width="340" height="35" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1" rx="8"/>
+  <text x="55" y="170" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#3B82F6">2. Правило Клечковского:</text>
+  <text x="55" y="185" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">   заполнение по (n+l), затем по n</text>
+  <rect x="40" y="195" width="340" height="35" fill="#D1FAE5" stroke="#6EE7B7" stroke-width="1" rx="8"/>
+  <text x="55" y="210" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#10B981">3. Правило Хунда:</text>
+  <text x="55" y="225" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">   электроны заполняют ячейки по одному</text>
+  <rect x="40" y="235" width="340" height="30" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1" rx="8"/>
+  <text x="55" y="250" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#F59E0B">4. Макс. электронов на уровне: 2n²</text>
+  <rect x="410" y="75" width="370" height="200" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <text x="430" y="100" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#7C3AED">Энергетические уровни</text>
+  <rect x="430" y="115" width="330" height="25" fill="#5B21B6" stroke="#5B21B6" stroke-width="1" rx="8"/>
+  <text x="445" y="132" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#FFFFFF">Уровень (n)</text>
+  <text x="555" y="132" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#FFFFFF">Подур.</text>
+  <text x="640" y="132" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#FFFFFF">Макс. e</text>
+  <rect x="430" y="145" width="330" height="19" fill="#ECFEFF" stroke="#06B6D4" stroke-width="1" rx="8"/>
+  <text x="445" y="159" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#06B6D4">1</text>
+  <text x="555" y="159" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#06B6D4">s</text>
+  <text x="640" y="159" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#06B6D4">2</text>
+  <rect x="430" y="164" width="330" height="19" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" rx="8"/>
+  <text x="445" y="178" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3B82F6">2</text>
+  <text x="555" y="178" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3B82F6">s, p</text>
+  <text x="640" y="178" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3B82F6">8</text>
+  <rect x="430" y="183" width="330" height="19" fill="#D1FAE5" stroke="#10B981" stroke-width="1" rx="8"/>
+  <text x="445" y="197" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10B981">3</text>
+  <text x="555" y="197" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10B981">s, p, d</text>
+  <text x="640" y="197" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10B981">18</text>
+  <rect x="430" y="202" width="330" height="19" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1" rx="8"/>
+  <text x="445" y="216" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#F59E0B">4</text>
+  <text x="555" y="216" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#F59E0B">s, p, d, f</text>
+  <text x="640" y="216" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#F59E0B">32</text>
+  <rect x="430" y="221" width="330" height="19" fill="#FEE2E2" stroke="#EF4444" stroke-width="1" rx="8"/>
+  <text x="445" y="235" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#EF4444">5</text>
+  <text x="555" y="235" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#EF4444">s, p, d, f</text>
+  <text x="640" y="235" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#EF4444">32</text>
+  <rect x="430" y="240" width="330" height="19" fill="#FCE7F3" stroke="#EC4899" stroke-width="1" rx="8"/>
+  <text x="445" y="254" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#EC4899">6</text>
+  <text x="555" y="254" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#EC4899">s, p, d</text>
+  <text x="640" y="254" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#EC4899">18</text>
+  <rect x="430" y="259" width="330" height="19" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1" rx="8"/>
+  <text x="445" y="273" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#7C3AED">7</text>
+  <text x="555" y="273" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#7C3AED">s, p</text>
+  <text x="640" y="273" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#7C3AED">8</text>
+  <rect x="20" y="285" width="760" height="145" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <text x="40" y="310" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#7C3AED">Примеры электронных конфигураций</text>
+  <rect x="40" y="325" width="175" height="45" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1" rx="8"/>
+  <text x="50" y="343" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#3B82F6">O (8)</text>
+  <text x="50" y="362" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="9" fill="#6B7280">1s² 2s² 2p⁴</text>
+  <rect x="225" y="325" width="175" height="45" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1" rx="8"/>
+  <text x="235" y="343" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#EF4444">Na (11)</text>
+  <text x="235" y="362" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="9" fill="#6B7280">1s² 2s² 2p⁶ 3s¹</text>
+  <rect x="410" y="325" width="175" height="45" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1" rx="8"/>
+  <text x="420" y="343" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#10B981">Cl (17)</text>
+  <text x="420" y="362" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="9" fill="#6B7280">1s² 2s² 2p⁶ 3s² 3p⁵</text>
+  <rect x="595" y="325" width="175" height="45" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1" rx="8"/>
+  <text x="605" y="343" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#F59E0B">Ca (20)</text>
+  <text x="605" y="362" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="9" fill="#6B7280">1s² 2s² 2p⁶ 3s² 3p⁶ 4s²</text>
+  <rect x="20" y="440" width="760" height="130" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <text x="40" y="465" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#7C3AED">Схема электронной оболочки O (кислород)</text>
+  <circle cx="400" cy="530" r="14" fill="#5B21B6" opacity="0.5"/>
+  <text x="400" y="534" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9" fill="#FFFFFF">+8</text>
+  <circle cx="400" cy="530" r="40" fill="none" stroke="#A78BFA" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="400" cy="490" r="5" fill="#06B6D4"/>
+  <circle cx="400" cy="570" r="5" fill="#06B6D4"/>
+  <text x="360" y="490" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#06B6D4">2e</text>
+  <circle cx="400" cy="530" r="80" fill="none" stroke="#A78BFA" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="480.0" cy="530.0" r="4" fill="#3B82F6"/>
+  <circle cx="440.0" cy="599.3" r="4" fill="#3B82F6"/>
+  <circle cx="360.0" cy="599.3" r="4" fill="#3B82F6"/>
+  <circle cx="320.0" cy="530.0" r="4" fill="#3B82F6"/>
+  <circle cx="360.0" cy="460.7" r="4" fill="#3B82F6"/>
+  <circle cx="440.0" cy="460.7" r="4" fill="#3B82F6"/>
+  <text x="440" y="470" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#3B82F6">6e</text>
+  <text x="140" y="510" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#5B21B6">O +8))</text>
+  <text x="100" y="535" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#06B6D4">2e на 1 уровне</text>
+  <text x="100" y="555" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3B82F6">6e на 2 уровне</text>
+  <rect x="620" y="475" width="150" height="70" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1" rx="8"/>
+  <text x="635" y="495" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#F59E0B">Всего электронов:</text>
+  <text x="695" y="525" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#F59E0B">2 + 6 = 8</text>
+  <!-- Footer -->
+  <rect x="0" y="580" width="800" height="20" fill="#7C3AED" opacity="0.1"/>
+  <text x="400" y="594" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#6B7280">Химия — 8 класс</text>
+</svg>

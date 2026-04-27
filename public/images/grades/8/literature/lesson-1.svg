@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="parchBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#FFFBF0" />
+      <stop offset="100%" stopColor="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#78350F" />
+      <stop offset="50%" stopColor="#92400E" />
+      <stop offset="100%" stopColor="#78350F" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#F59E0B" />
+      <stop offset="100%" stopColor="#D97706" />
+    </linearGradient>
+    <filter id="cardShadow" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" floodColor="#00000020" />
+    </filter>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" floodColor="#D9770660" />
+    </filter>
+    <pattern id="parchTex" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="none" />
+      <circle cx="10" cy="10" r="0.5" fill="#D4A01715" />
+    </pattern>
+    <pattern id="borderPat" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="none" />
+      <path d="M0,6 L6,0 L12,6 L6,12 Z" fill="none" stroke="#D9770630" strokeWidth="0.5" />
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#parchBg)" />
+  <rect x="0" y="0" width="800" height="600" fill="url(#parchTex)" />
+  <rect x="4" y="4" width="792" height="592" fill="none" stroke="#D97706" strokeWidth="2" rx="8" />
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#D9770640" strokeWidth="1" rx="6" />
+  <rect x="0" y="0" width="800" height="72" fill="url(#headerGrad)" rx="8" />
+  <rect x="0" y="70" width="800" height="3" fill="#D4A017" />
+  <line x1="20" y1="68" x2="780" y2="68" stroke="#D4A01760" strokeWidth="0.5" />
+  <text x="400" y="32" fontSize="21" fill="#FFFFFF" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Золотой век русской литературы</text>
+  <text x="400" y="56" fontSize="12" fill="#FEF3C7" textAnchor="middle" fontFamily="sans-serif">Пушкин · Лермонтов · Гоголь — великая классика XIX века</text>
+  <rect x="0" y="580" width="800" height="20" fill="#78350F" rx="0" />
+  <rect x="0" y="578" width="800" height="2" fill="#D4A017" />
+  <text x="400" y="594" fontSize="10" fill="#FEFCE8" textAnchor="middle" fontFamily="sans-serif">8 класс · Литература · Урок 1</text>
+  <rect x="20" y="82" width="760" height="48" fill="#FFFBEB" stroke="#D97706" strokeWidth="1" rx="6" />
+  <line x1="50" y1="106" x2="750" y2="106" stroke="#92400E" strokeWidth="2" />
+  <circle cx="100" cy="106" r="6" fill="#F59E0B" stroke="#92400E" strokeWidth="1.5" />
+  <text x="100" y="98" fontSize="9" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">1799</text>
+  <circle cx="250" cy="106" r="6" fill="#F59E0B" stroke="#92400E" strokeWidth="1.5" />
+  <text x="250" y="98" fontSize="9" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">1814</text>
+  <circle cx="400" cy="106" r="6" fill="#F59E0B" stroke="#92400E" strokeWidth="1.5" />
+  <text x="400" y="98" fontSize="9" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">1809</text>
+  <circle cx="550" cy="106" r="6" fill="#F59E0B" stroke="#92400E" strokeWidth="1.5" />
+  <text x="550" y="98" fontSize="9" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">1820-е</text>
+  <circle cx="700" cy="106" r="6" fill="#F59E0B" stroke="#92400E" strokeWidth="1.5" />
+  <text x="700" y="98" fontSize="9" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">1830-е</text>
+  <text x="50" y="122" fontSize="8" fill="#A16207" fontFamily="sans-serif">Рождение Пушкина</text>
+  <text x="200" y="122" fontSize="8" fill="#A16207" fontFamily="sans-serif">Рождение Лермонтова</text>
+  <text x="350" y="122" fontSize="8" fill="#A16207" fontFamily="sans-serif">Рождение Гоголя</text>
+  <text x="510" y="122" fontSize="8" fill="#A16207" fontFamily="sans-serif">Расцвет романтизма</text>
+  <text x="660" y="122" fontSize="8" fill="#A16207" fontFamily="sans-serif">Зрелый реализм</text>
+  <g>
+    <rect x="20" y="140" width="245" height="175" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="140" width="245" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="142" width="245" height="2" fill="url(#amberGrad)" />
+    <text x="32" y="158" fontSize="16" fill="#D97706" fontFamily="sans-serif">✎</text>
+    <text x="52" y="158" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">А.С. Пушкин (1799–1837)</text>
+    <text x="34" y="174" fontSize="11" fill="#78350F" fontFamily="sans-serif">Основоположник русского</text>
+    <text x="34" y="189" fontSize="11" fill="#78350F" fontFamily="sans-serif">литературного языка</text>
+    <text x="34" y="204" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="34" y="219" fontSize="11" fill="#78350F" fontFamily="sans-serif">Произведения:</text>
+    <text x="34" y="234" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Евгений Онегин»</text>
+    <text x="34" y="249" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Капитанская дочка»</text>
+    <text x="34" y="264" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Медный всадник»</text>
+    <text x="34" y="279" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Лирика: любовь, свобода</text>
+    <text x="34" y="294" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Сказки</text>
+  </g>
+  <g>
+    <rect x="278" y="140" width="245" height="175" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="278" y="140" width="245" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="278" y="142" width="245" height="2" fill="url(#amberGrad)" />
+    <text x="290" y="158" fontSize="16" fill="#D97706" fontFamily="sans-serif">✎</text>
+    <text x="310" y="158" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">М.Ю. Лермонтов (1814–1841)</text>
+    <text x="292" y="174" fontSize="11" fill="#78350F" fontFamily="sans-serif">Продолжатель пушкинских</text>
+    <text x="292" y="189" fontSize="11" fill="#78350F" fontFamily="sans-serif">традиций, бунтарь и мечтатель</text>
+    <text x="292" y="204" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="292" y="219" fontSize="11" fill="#78350F" fontFamily="sans-serif">Произведения:</text>
+    <text x="292" y="234" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Герой нашего времени»</text>
+    <text x="292" y="249" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Мцыри»</text>
+    <text x="292" y="264" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Песня про царя Ивана»</text>
+    <text x="292" y="279" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Смерть поэта»</text>
+    <text x="292" y="294" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Лирика: одиночество</text>
+  </g>
+  <g>
+    <rect x="536" y="140" width="245" height="175" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="536" y="140" width="245" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="536" y="142" width="245" height="2" fill="url(#amberGrad)" />
+    <text x="548" y="158" fontSize="16" fill="#D97706" fontFamily="sans-serif">✎</text>
+    <text x="568" y="158" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Н.В. Гоголь (1809–1852)</text>
+    <text x="550" y="174" fontSize="11" fill="#78350F" fontFamily="sans-serif">Мастер сатиры и гротеска,</text>
+    <text x="550" y="189" fontSize="11" fill="#78350F" fontFamily="sans-serif">гениальный юмор и грусть</text>
+    <text x="550" y="204" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="550" y="219" fontSize="11" fill="#78350F" fontFamily="sans-serif">Произведения:</text>
+    <text x="550" y="234" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Ревизор»</text>
+    <text x="550" y="249" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Мёртвые души»</text>
+    <text x="550" y="264" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Шинель»</text>
+    <text x="550" y="279" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Тарас Бульба»</text>
+    <text x="550" y="294" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Вечера на хуторе»</text>
+  </g>
+  <g>
+    <rect x="20" y="325" width="760" height="100" fill="#FEF3C7" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="325" width="760" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="327" width="760" height="2" fill="url(#amberGrad)" />
+    <text x="30" y="343" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Ключевые темы Золотого века</text>
+  </g>
+  <rect x="35" y="360" width="83" height="24" fill="#92400E" rx="12" />
+  <text x="76.5" y="376.0" fontSize="10" fill="#FFFFFF" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Свобода</text>
+  <rect x="126" y="360" width="74" height="24" fill="#D97706" rx="12" />
+  <text x="163.0" y="376.0" fontSize="10" fill="#FFFFFF" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Любовь</text>
+  <rect x="208" y="360" width="128" height="24" fill="#B45309" rx="12" />
+  <text x="272.0" y="376.0" fontSize="10" fill="#FFFFFF" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Долг и честь</text>
+  <rect x="344" y="360" width="119" height="24" fill="#F59E0B" rx="12" />
+  <text x="403.5" y="376.0" fontSize="10" fill="#FFFFFF" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Одиночество</text>
+  <rect x="471" y="360" width="146" height="24" fill="#92400E" rx="12" />
+  <text x="544.0" y="376.0" fontSize="10" fill="#FFFFFF" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Россия и народ</text>
+  <rect x="625" y="360" width="182" height="24" fill="#D97706" rx="12" />
+  <text x="716.0" y="376.0" fontSize="10" fill="#FFFFFF" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Человек и общество</text>
+  <rect x="35" y="360" width="74" height="24" fill="#B45309" rx="12" />
+  <text x="72.0" y="376.0" fontSize="10" fill="#FFFFFF" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Сатира</text>
+  <rect x="117" y="360" width="83" height="24" fill="#F59E0B" rx="12" />
+  <text x="158.5" y="376.0" fontSize="10" fill="#FFFFFF" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Реализм</text>
+  <text x="400" y="413" fontSize="10" fill="#A16207" textAnchor="middle" fontFamily="sans-serif">XIX век — эпоха, когда русская литература обрела мировое значение</text>
+  <g>
+    <rect x="20" y="435" width="370" height="135" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="435" width="370" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="437" width="370" height="2" fill="url(#amberGrad)" />
+    <text x="30" y="453" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Литературные направления</text>
+    <text x="34" y="469" fontSize="11" fill="#78350F" fontFamily="sans-serif">Сентиментализм → Романтизм → Реализм</text>
+    <text x="34" y="484" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="34" y="499" fontSize="11" fill="#78350F" fontFamily="sans-serif">Карамзин        Пушкин      Гоголь</text>
+    <text x="34" y="514" fontSize="11" fill="#78350F" fontFamily="sans-serif">                 Лермонтов   Пушкин</text>
+    <text x="34" y="529" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="34" y="544" fontSize="11" fill="#78350F" fontFamily="sans-serif">От чувств — к мечте — к правде жизни</text>
+  </g>
+  <g>
+    <rect x="400" y="435" width="380" height="135" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="400" y="435" width="380" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="400" y="437" width="380" height="2" fill="url(#amberGrad)" />
+    <text x="410" y="453" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Значение Золотого века</text>
+    <text x="414" y="469" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Формирование русского лит. языка</text>
+    <text x="414" y="484" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Мировое признание русской культуры</text>
+    <text x="414" y="499" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Создание национального эпоса</text>
+    <text x="414" y="514" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Глубокий психологизм и реализм</text>
+    <text x="414" y="529" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Влияние на всю мировую литературу</text>
+    <text x="414" y="544" fontSize="11" fill="#78350F" fontFamily="sans-serif">• «Умом Россию не понять...»</text>
+  </g>
+  <g transform="translate(740,545)">
+    <path d="M14.0,0 Q22.400000000000002,8.4 16.8,19.599999999999998 L14.0,28 L11.200000000000001,19.599999999999998 Q5.6000000000000005,8.4 14.0,0Z" fill="#78350F" opacity="0.7" />
+    <line x1="14.0" y1="16.8" x2="14.0" y2="28" stroke="#78350F" strokeWidth="1" />
+  </g>
+</svg>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0F9FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="800" height="56" fill="#0EA5E9" rx="0" />
+  <text x="400" y="38" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Урок 5: Алгоритмические конструкции</text>
+  <line x1="50" y1="52" x2="750" y2="52" stroke="#38BDF8" stroke-width="2" />
+  <rect x="20" y="64" width="240" height="28" fill="#0EA5E9" rx="14" />
+  <text x="140" y="83" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Следование</text>
+  <rect x="275" y="64" width="240" height="28" fill="#F59E0B" rx="14" />
+  <text x="395" y="83" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Ветвление</text>
+  <rect x="530" y="64" width="240" height="28" fill="#10B981" rx="14" />
+  <text x="650" y="83" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Цикл</text>
+  <rect x="22" y="98" width="240" height="150" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="20" y="96" width="240" height="150" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <text x="35" y="118" text-anchor="start" fill="#0284C7" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Следование (линейный)</text>
+  <rect x="30" y="128" width="220" height="108" fill="#1E293B" rx="6" />
+  <rect x="30" y="128" width="220" height="20" fill="#334155" rx="6" />
+  <rect x="30" y="142" width="220" height="6" fill="#334155" />
+  <circle cx="44" cy="138" r="4" fill="#EF4444" />
+  <circle cx="60" cy="138" r="4" fill="#F59E0B" />
+  <circle cx="76" cy="138" r="4" fill="#22C55E" />
+  <text x="42" y="162" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace">x = 5</text>
+  <text x="42" y="178" fill="#FACC15" font-size="12" font-family="Consolas, monospace">y = x * 2</text>
+  <text x="42" y="194" fill="#FACC15" font-size="12" font-family="Consolas, monospace">z = y + 3</text>
+  <text x="42" y="210" fill="#4ADE80" font-size="12" font-family="Consolas, monospace">print(z)  # 13</text>
+  <rect x="277" y="98" width="240" height="150" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="275" y="96" width="240" height="150" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <text x="290" y="118" text-anchor="start" fill="#92400E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Ветвление (if/else)</text>
+  <rect x="285" y="128" width="220" height="108" fill="#1E293B" rx="6" />
+  <rect x="285" y="128" width="220" height="20" fill="#334155" rx="6" />
+  <rect x="285" y="142" width="220" height="6" fill="#334155" />
+  <circle cx="299" cy="138" r="4" fill="#EF4444" />
+  <circle cx="315" cy="138" r="4" fill="#F59E0B" />
+  <circle cx="331" cy="138" r="4" fill="#22C55E" />
+  <text x="297" y="162" fill="#60A5FA" font-size="12" font-family="Consolas, monospace">age = int(input())</text>
+  <text x="297" y="178" fill="#F472B6" font-size="12" font-family="Consolas, monospace">if age &gt;= 18:</text>
+  <text x="297" y="194" fill="#FACC15" font-size="12" font-family="Consolas, monospace">    print('Взрослый')</text>
+  <text x="297" y="210" fill="#F472B6" font-size="12" font-family="Consolas, monospace">elif age &gt;= 14:</text>
+  <text x="297" y="226" fill="#FACC15" font-size="12" font-family="Consolas, monospace">    print('Подросток')</text>
+  <text x="297" y="242" fill="#F472B6" font-size="12" font-family="Consolas, monospace">else:</text>
+  <text x="297" y="258" fill="#FACC15" font-size="12" font-family="Consolas, monospace">    print('Ребёнок')</text>
+  <rect x="532" y="98" width="250" height="150" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="530" y="96" width="250" height="150" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <text x="545" y="118" text-anchor="start" fill="#065F46" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Циклы (for / while)</text>
+  <rect x="540" y="128" width="230" height="108" fill="#1E293B" rx="6" />
+  <rect x="540" y="128" width="230" height="20" fill="#334155" rx="6" />
+  <rect x="540" y="142" width="230" height="6" fill="#334155" />
+  <circle cx="554" cy="138" r="4" fill="#EF4444" />
+  <circle cx="570" cy="138" r="4" fill="#F59E0B" />
+  <circle cx="586" cy="138" r="4" fill="#22C55E" />
+  <text x="552" y="162" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Цикл for</text>
+  <text x="552" y="178" fill="#F472B6" font-size="12" font-family="Consolas, monospace">for i in range(5):</text>
+  <text x="552" y="194" fill="#FACC15" font-size="12" font-family="Consolas, monospace">    print(i)  # 0-4</text>
+  <text x="552" y="210" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace" />
+  <text x="552" y="226" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Цикл while</text>
+  <text x="552" y="242" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace">n = 1</text>
+  <text x="552" y="258" fill="#F472B6" font-size="12" font-family="Consolas, monospace">while n &amp;lt;= 10:</text>
+  <text x="552" y="274" fill="#FACC15" font-size="12" font-family="Consolas, monospace">    print(n)</text>
+  <text x="552" y="290" fill="#FB923C" font-size="12" font-family="Consolas, monospace">    n += 1</text>
+  <rect x="22" y="262" width="380" height="326" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="20" y="260" width="380" height="326" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="20" y="260" width="380" height="28" fill="#0284C7" rx="8" />
+  <rect x="20" y="280" width="380" height="8" fill="#0284C7" />
+  <text x="210" y="279" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Блок-схема: ветвление</text>
+  <rect x="145" y="296" width="90" height="24" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="12" />
+  <text x="190" y="313" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Начало</text>
+  <line x1="190" y1="320" x2="190" y2="332" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="190,332 186,325 194,325" fill="#0EA5E9" />
+  <polygon points="150,332 240,332 230,356 140,356" fill="#ECFDF5" stroke="#10B981" stroke-width="2" />
+  <text x="190" y="349" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Ввод x</text>
+  <line x1="190" y1="356" x2="190" y2="368" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="190,368 186,361 194,361" fill="#0EA5E9" />
+  <polygon points="190,368 250,384 190,400 130,384" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" />
+  <text x="190" y="389" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">x &gt; 0?</text>
+  <line x1="130" y1="384" x2="75" y2="384" stroke="#10B981" stroke-width="2" />
+  <polygon points="75,384 82,380 82,388" fill="#10B981" />
+  <text x="95" y="377" text-anchor="start" fill="#10B981" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Да</text>
+  <rect x="32" y="398" width="85" height="24" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="4" />
+  <text x="74" y="415" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">y = x * 2</text>
+  <line x1="250" y1="384" x2="305" y2="384" stroke="#EF4444" stroke-width="2" />
+  <polygon points="305,384 298,380 298,388" fill="#EF4444" />
+  <text x="270" y="377" text-anchor="start" fill="#EF4444" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Нет</text>
+  <rect x="268" y="398" width="85" height="24" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="4" />
+  <text x="310" y="415" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">y = -x</text>
+  <line x1="74" y1="422" x2="74" y2="442" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="74,442 70,435 78,435" fill="#0EA5E9" />
+  <line x1="310" y1="422" x2="310" y2="442" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="310,442 306,435 314,435" fill="#0EA5E9" />
+  <line x1="74" y1="442" x2="190" y2="442" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="190,442 183,438 183,446" fill="#0EA5E9" />
+  <line x1="310" y1="442" x2="190" y2="442" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="190,442 197,438 197,446" fill="#0EA5E9" />
+  <line x1="190" y1="442" x2="190" y2="450" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="190,450 186,443 194,443" fill="#0EA5E9" />
+  <polygon points="150,450 240,450 230,474 140,474" fill="#ECFDF5" stroke="#10B981" stroke-width="2" />
+  <text x="190" y="467" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Вывод y</text>
+  <line x1="190" y1="474" x2="190" y2="486" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="190,486 186,479 194,479" fill="#0EA5E9" />
+  <rect x="150" y="486" width="80" height="24" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="12" />
+  <text x="190" y="503" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Конец</text>
+  <rect x="412" y="262" width="370" height="326" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="410" y="260" width="370" height="326" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="410" y="260" width="370" height="28" fill="#0284C7" rx="8" />
+  <rect x="410" y="280" width="370" height="8" fill="#0284C7" />
+  <text x="595" y="279" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Блок-схема: цикл while</text>
+  <rect x="545" y="296" width="90" height="24" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="4" />
+  <text x="590" y="313" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">i = 1</text>
+  <line x1="590" y1="320" x2="590" y2="334" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="590,334 586,327 594,327" fill="#0EA5E9" />
+  <polygon points="590,334 650,352 590,370 530,352" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" />
+  <text x="590" y="357" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">i &amp;lt;= 5?</text>
+  <line x1="590" y1="370" x2="590" y2="384" stroke="#10B981" stroke-width="2" />
+  <polygon points="590,384 586,377 594,377" fill="#10B981" />
+  <text x="598" y="378" text-anchor="start" fill="#10B981" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Да</text>
+  <rect x="540" y="384" width="100" height="24" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="4" />
+  <text x="590" y="401" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">print(i)</text>
+  <line x1="590" y1="408" x2="590" y2="420" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="590,420 586,413 594,413" fill="#0EA5E9" />
+  <rect x="540" y="420" width="100" height="24" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="4" />
+  <text x="590" y="437" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">i = i + 1</text>
+  <line x1="540" y1="432" x2="480" y2="432" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="480,432 487,428 487,436" fill="#0EA5E9" />
+  <line x1="480" y1="432" x2="480" y2="352" stroke="#0EA5E9" stroke-width="2" />
+  <line x1="480" y1="352" x2="530" y2="352" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="530,352 523,348 523,356" fill="#0EA5E9" />
+  <line x1="650" y1="352" x2="720" y2="352" stroke="#EF4444" stroke-width="2" />
+  <polygon points="720,352 713,348 713,356" fill="#EF4444" />
+  <text x="668" y="345" text-anchor="start" fill="#EF4444" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Нет</text>
+  <rect x="700" y="340" width="70" height="24" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="12" />
+  <text x="735" y="357" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Конец</text>
+  <rect x="460" y="460" width="270" height="110" fill="#1E293B" rx="6" />
+  <rect x="460" y="460" width="270" height="20" fill="#334155" rx="6" />
+  <rect x="460" y="474" width="270" height="6" fill="#334155" />
+  <circle cx="474" cy="470" r="4" fill="#EF4444" />
+  <circle cx="490" cy="470" r="4" fill="#F59E0B" />
+  <circle cx="506" cy="470" r="4" fill="#22C55E" />
+  <text x="472" y="494" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace">i = 1</text>
+  <text x="472" y="510" fill="#F472B6" font-size="12" font-family="Consolas, monospace">while i &amp;lt;= 5:</text>
+  <text x="472" y="526" fill="#FACC15" font-size="12" font-family="Consolas, monospace">    print(i)</text>
+  <text x="472" y="542" fill="#FB923C" font-size="12" font-family="Consolas, monospace">    i += 1</text>
+  <text x="472" y="558" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Вывод: 1 2 3 4 5</text>
+</svg>

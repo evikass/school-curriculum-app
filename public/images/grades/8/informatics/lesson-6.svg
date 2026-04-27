@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0F9FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="800" height="56" fill="#0EA5E9" rx="0" />
+  <text x="400" y="38" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Урок 6: Обработка данных</text>
+  <line x1="50" y1="52" x2="750" y2="52" stroke="#38BDF8" stroke-width="2" />
+  <rect x="22" y="70" width="380" height="180" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="20" y="68" width="380" height="180" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="20" y="68" width="380" height="28" fill="#0284C7" rx="8" />
+  <rect x="20" y="88" width="380" height="8" fill="#0284C7" />
+  <text x="210" y="87" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Списки (list)</text>
+  <rect x="30" y="100" width="360" height="140" fill="#1E293B" rx="6" />
+  <rect x="30" y="100" width="360" height="20" fill="#334155" rx="6" />
+  <rect x="30" y="114" width="360" height="6" fill="#334155" />
+  <circle cx="44" cy="110" r="4" fill="#EF4444" />
+  <circle cx="60" cy="110" r="4" fill="#F59E0B" />
+  <circle cx="76" cy="110" r="4" fill="#22C55E" />
+  <text x="42" y="134" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Создание списка</text>
+  <text x="42" y="150" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace">numbers = [5, 3, 8, 1, 9]</text>
+  <text x="42" y="166" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace">names = ['Анна', 'Борис']</text>
+  <text x="42" y="182" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace" />
+  <text x="42" y="198" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Операции со списками</text>
+  <text x="42" y="214" fill="#FACC15" font-size="12" font-family="Consolas, monospace">numbers.append(7)   # добавить</text>
+  <text x="42" y="230" fill="#FACC15" font-size="12" font-family="Consolas, monospace">numbers.sort()      # сортировка</text>
+  <text x="42" y="246" fill="#FACC15" font-size="12" font-family="Consolas, monospace">numbers.reverse()   # реверс</text>
+  <text x="42" y="262" fill="#60A5FA" font-size="12" font-family="Consolas, monospace">len(numbers)        # длина</text>
+  <text x="42" y="278" fill="#F472B6" font-size="12" font-family="Consolas, monospace">numbers[0]          # 1-й элем.</text>
+  <rect x="412" y="70" width="370" height="180" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="410" y="68" width="370" height="180" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="410" y="68" width="370" height="28" fill="#0284C7" rx="8" />
+  <rect x="410" y="88" width="370" height="8" fill="#0284C7" />
+  <text x="595" y="87" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Таблицы данных</text>
+  <rect x="425" y="105" width="110" height="22" fill="#0284C7" />
+  <text x="480" y="120" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Имя</text>
+  <rect x="535" y="105" width="80" height="22" fill="#0284C7" />
+  <text x="575" y="120" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Оценка</text>
+  <rect x="615" y="105" width="130" height="22" fill="#0284C7" />
+  <text x="680" y="120" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Предмет</text>
+  <rect x="425" y="127" width="110" height="22" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1" />
+  <text x="480" y="142" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Алексей</text>
+  <rect x="535" y="127" width="80" height="22" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1" />
+  <text x="575" y="142" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">5</text>
+  <rect x="615" y="127" width="130" height="22" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1" />
+  <text x="680" y="142" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Информатика</text>
+  <rect x="425" y="149" width="110" height="22" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="1" />
+  <text x="480" y="164" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Мария</text>
+  <rect x="535" y="149" width="80" height="22" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="1" />
+  <text x="575" y="164" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">4</text>
+  <rect x="615" y="149" width="130" height="22" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="1" />
+  <text x="680" y="164" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Математика</text>
+  <rect x="425" y="171" width="110" height="22" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1" />
+  <text x="480" y="186" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Дмитрий</text>
+  <rect x="535" y="171" width="80" height="22" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1" />
+  <text x="575" y="186" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">5</text>
+  <rect x="615" y="171" width="130" height="22" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1" />
+  <text x="680" y="186" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Физика</text>
+  <text x="425" y="200" text-anchor="start" fill="#64748B" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Представление данных в виде таблиц</text>
+  <rect x="22" y="262" width="380" height="175" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="20" y="260" width="380" height="175" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="20" y="260" width="380" height="28" fill="#0284C7" rx="8" />
+  <rect x="20" y="280" width="380" height="8" fill="#0284C7" />
+  <text x="210" y="279" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Сортировка</text>
+  <rect x="30" y="292" width="360" height="135" fill="#1E293B" rx="6" />
+  <rect x="30" y="292" width="360" height="20" fill="#334155" rx="6" />
+  <rect x="30" y="306" width="360" height="6" fill="#334155" />
+  <circle cx="44" cy="302" r="4" fill="#EF4444" />
+  <circle cx="60" cy="302" r="4" fill="#F59E0B" />
+  <circle cx="76" cy="302" r="4" fill="#22C55E" />
+  <text x="42" y="326" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Сортировка пузырьком</text>
+  <text x="42" y="342" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace">arr = [64, 34, 25, 12, 22]</text>
+  <text x="42" y="358" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace">n = len(arr)</text>
+  <text x="42" y="374" fill="#F472B6" font-size="12" font-family="Consolas, monospace">for i in range(n):</text>
+  <text x="42" y="390" fill="#F472B6" font-size="12" font-family="Consolas, monospace">    for j in range(n-i-1):</text>
+  <text x="42" y="406" fill="#FACC15" font-size="12" font-family="Consolas, monospace">        if arr[j] &gt; arr[j+1]:</text>
+  <text x="42" y="422" fill="#FB923C" font-size="12" font-family="Consolas, monospace">            arr[j], arr[j+1] =</text>
+  <text x="42" y="438" fill="#FB923C" font-size="12" font-family="Consolas, monospace">                arr[j+1], arr[j]</text>
+  <text x="42" y="454" fill="#4ADE80" font-size="12" font-family="Consolas, monospace">print(arr)  # [12,22,25,34,64]</text>
+  <rect x="412" y="262" width="370" height="175" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="410" y="260" width="370" height="175" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="410" y="260" width="370" height="28" fill="#0284C7" rx="8" />
+  <rect x="410" y="280" width="370" height="8" fill="#0284C7" />
+  <text x="595" y="279" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Поиск</text>
+  <rect x="420" y="292" width="350" height="135" fill="#1E293B" rx="6" />
+  <rect x="420" y="292" width="350" height="20" fill="#334155" rx="6" />
+  <rect x="420" y="306" width="350" height="6" fill="#334155" />
+  <circle cx="434" cy="302" r="4" fill="#EF4444" />
+  <circle cx="450" cy="302" r="4" fill="#F59E0B" />
+  <circle cx="466" cy="302" r="4" fill="#22C55E" />
+  <text x="432" y="326" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Линейный поиск</text>
+  <text x="432" y="342" fill="#60A5FA" font-size="12" font-family="Consolas, monospace">def linear_search(arr, x):</text>
+  <text x="432" y="358" fill="#F472B6" font-size="12" font-family="Consolas, monospace">    for i in range(len(arr)):</text>
+  <text x="432" y="374" fill="#FACC15" font-size="12" font-family="Consolas, monospace">        if arr[i] == x:</text>
+  <text x="432" y="390" fill="#FB923C" font-size="12" font-family="Consolas, monospace">            return i</text>
+  <text x="432" y="406" fill="#FB923C" font-size="12" font-family="Consolas, monospace">    return -1</text>
+  <text x="432" y="422" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace" />
+  <text x="432" y="438" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Бинарный поиск</text>
+  <text x="432" y="454" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># (только для отсортированных)</text>
+  <text x="432" y="470" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Используйте bisect module</text>
+  <rect x="22" y="449" width="380" height="142" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="20" y="447" width="380" height="142" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="20" y="447" width="380" height="28" fill="#0284C7" rx="8" />
+  <rect x="20" y="467" width="380" height="8" fill="#0284C7" />
+  <text x="210" y="466" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Визуализация сортировки</text>
+  <rect x="45" y="552" width="40" height="16" fill="#BAE6FD" rx="3" />
+  <text x="65" y="547" text-anchor="middle" fill="#0C4A6E" font-size="10" font-weight="bold" font-family="Arial, sans-serif">12</text>
+  <text x="65" y="582" text-anchor="middle" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">[0]</text>
+  <rect x="100" y="538" width="40" height="30" fill="#7DD3FC" rx="3" />
+  <text x="120" y="533" text-anchor="middle" fill="#0C4A6E" font-size="10" font-weight="bold" font-family="Arial, sans-serif">22</text>
+  <text x="120" y="582" text-anchor="middle" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">[1]</text>
+  <rect x="155" y="533" width="40" height="35" fill="#38BDF8" rx="3" />
+  <text x="175" y="528" text-anchor="middle" fill="#0C4A6E" font-size="10" font-weight="bold" font-family="Arial, sans-serif">25</text>
+  <text x="175" y="582" text-anchor="middle" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">[2]</text>
+  <rect x="210" y="521" width="40" height="47" fill="#0EA5E9" rx="3" />
+  <text x="230" y="516" text-anchor="middle" fill="#0C4A6E" font-size="10" font-weight="bold" font-family="Arial, sans-serif">34</text>
+  <text x="230" y="582" text-anchor="middle" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">[3]</text>
+  <rect x="265" y="478" width="40" height="90" fill="#0284C7" rx="3" />
+  <text x="285" y="473" text-anchor="middle" fill="#0C4A6E" font-size="10" font-weight="bold" font-family="Arial, sans-serif">64</text>
+  <text x="285" y="582" text-anchor="middle" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">[4]</text>
+  <rect x="412" y="449" width="370" height="142" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="410" y="447" width="370" height="142" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="410" y="447" width="370" height="28" fill="#0284C7" rx="8" />
+  <rect x="410" y="467" width="370" height="8" fill="#0284C7" />
+  <text x="595" y="466" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Анализ данных</text>
+  <rect x="420" y="479" width="350" height="102" fill="#1E293B" rx="6" />
+  <rect x="420" y="479" width="350" height="20" fill="#334155" rx="6" />
+  <rect x="420" y="493" width="350" height="6" fill="#334155" />
+  <circle cx="434" cy="489" r="4" fill="#EF4444" />
+  <circle cx="450" cy="489" r="4" fill="#F59E0B" />
+  <circle cx="466" cy="489" r="4" fill="#22C55E" />
+  <text x="432" y="513" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace">data = [4, 8, 6, 5, 3, 9, 7]</text>
+  <text x="432" y="529" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace" />
+  <text x="432" y="545" fill="#4ADE80" font-size="12" font-family="Consolas, monospace">print(min(data))  # 3</text>
+  <text x="432" y="561" fill="#4ADE80" font-size="12" font-family="Consolas, monospace">print(max(data))  # 9</text>
+  <text x="432" y="577" fill="#4ADE80" font-size="12" font-family="Consolas, monospace">print(sum(data))  # 42</text>
+  <text x="432" y="593" fill="#FACC15" font-size="12" font-family="Consolas, monospace">avg = sum(data)/len(data)</text>
+  <text x="432" y="609" fill="#F472B6" font-size="12" font-family="Consolas, monospace">print(f'Среднее: {avg:.1f}')</text>
+  <text x="432" y="625" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Среднее: 6.0</text>
+</svg>

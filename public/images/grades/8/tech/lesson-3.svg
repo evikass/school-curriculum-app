@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#92400E" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#B45309" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="800" height="4" fill="#B45309" rx="2"/>
+
+  <!-- Header -->
+  <rect x="20" y="15" width="760" height="60" rx="8" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="40" y="50" font-size="14" fill="#FCD34D" font-weight="bold">Урок 3</text>
+  <text x="130" y="50" font-size="20" fill="#FFFFFF" font-weight="bold">Свойства и породы древесины</text>
+    <text x="780" y="55" font-size="13" fill="#F59E0B" text-anchor="end" font-style="italic">Хвойные и лиственные породы</text>
+
+  <!-- Tree cross-section -->
+  <circle cx="160" cy="240" r="100" fill="#DEB887" stroke="#92400E" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="160" cy="240" r="70" fill="#D2B48C" stroke="#92400E" stroke-width="1"/>
+  <circle cx="160" cy="240" r="40" fill="#C4A882" stroke="#92400E" stroke-width="1"/>
+  <circle cx="160" cy="240" r="15" fill="#8B7355" stroke="#92400E" stroke-width="1"/>
+  
+  <!-- Labels for cross-section -->
+  <line x1="160" y1="140" x2="160" y2="118" stroke="#78350F" stroke-width="1"/>
+  <text x="160" y="112" font-size="10" fill="#78350F" text-anchor="middle">Кора</text>
+  <line x1="230" y1="170" x2="260" y2="150" stroke="#78350F" stroke-width="1"/>
+  <text x="275" y="152" font-size="10" fill="#78350F">Луб</text>
+  <line x1="210" y1="240" x2="250" y2="240" stroke="#78350F" stroke-width="1"/>
+  <text x="280" y="244" font-size="10" fill="#78350F">Заболонь</text>
+  <line x1="200" y1="280" x2="245" y2="300" stroke="#78350F" stroke-width="1"/>
+  <text x="275" y="305" font-size="10" fill="#78350F">Ядро</text>
+  <text x="160" y="245" font-size="9" fill="#FFFFFF" text-anchor="middle">Сердцевина</text>
+  
+  <!-- Growth rings illustration -->
+  <ellipse cx="160" cy="210" rx="90" ry="8" fill="none" stroke="#A0845C" stroke-width="0.5" opacity="0.5"/>
+  <ellipse cx="160" cy="260" rx="85" ry="7" fill="none" stroke="#A0845C" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- Softwood info -->
+    <rect x="380" y="90" width="395" height="145" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="380" y="90" width="395" height="26" rx="6" fill="#B45309"/>
+  <rect x="380" y="110" width="395" height="6" fill="#B45309"/>
+  <text x="577" y="108" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Хвойные породы (мягкие)</text>
+  <text x="392" y="130" font-size="12" fill="#78350F">• Сосна — смолистая, прочная, строительная</text>
+  <text x="392" y="150" font-size="12" fill="#78350F">• Ель — менее смолистая, резонансная</text>
+  <text x="392" y="170" font-size="12" fill="#78350F">• Лиственница — плотная, влагостойкая</text>
+  <text x="392" y="190" font-size="12" fill="#78350F">• Кедр — мягкая, ароматная, для мебели</text>
+  <text x="392" y="210" font-size="12" fill="#78350F">• Пихта — мягкая, однородная</text>
+  
+  <!-- Hardwood info -->
+    <rect x="380" y="248" width="395" height="145" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="380" y="248" width="395" height="26" rx="6" fill="#D97706"/>
+  <rect x="380" y="268" width="395" height="6" fill="#D97706"/>
+  <text x="577" y="266" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Лиственные породы (твёрдые)</text>
+  <text x="392" y="288" font-size="12" fill="#78350F">• Дуб — прочный, долговечный, красивый</text>
+  <text x="392" y="308" font-size="12" fill="#78350F">• Берёза — однородная, лёгкая в обработке</text>
+  <text x="392" y="328" font-size="12" fill="#78350F">• Бук — твёрдый, хорошо гнётся</text>
+  <text x="392" y="348" font-size="12" fill="#78350F">• Ясень — упругий, для спортивного инвентаря</text>
+  <text x="392" y="368" font-size="12" fill="#78350F">• Липа — мягкая, для резьбы</text>
+  
+  <!-- Properties -->
+    <rect x="25" y="370" width="370" height="120" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="370" width="370" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="390" width="370" height="6" fill="#B45309"/>
+  <text x="210" y="388" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Физические свойства древесины</text>
+  <text x="37" y="410" font-size="12" fill="#78350F">• Плотность: лёгкая (&amp;lt;540) / средняя / тяжёлая (&amp;gt;740)</text>
+  <text x="37" y="430" font-size="12" fill="#78350F">• Влажность: свободная и связанная вода</text>
+  <text x="37" y="450" font-size="12" fill="#78350F">• Усушка: уменьшение размеров при высыхании</text>
+  <text x="37" y="470" font-size="12" fill="#78350F">• Разбухание: увеличение при увлажнении</text>
+  
+    <rect x="410" y="408" width="370" height="82" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="410" y="408" width="370" height="26" rx="6" fill="#B45309"/>
+  <rect x="410" y="428" width="370" height="6" fill="#B45309"/>
+  <text x="595" y="426" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Механические свойства</text>
+  <text x="422" y="448" font-size="12" fill="#78350F">• Прочность: сопротивление разрушению</text>
+  <text x="422" y="468" font-size="12" fill="#78350F">• Твёрдость: сопротивление вдавливанию</text>
+  
+    <rect x="25" y="505" width="750" height="40" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" filter="url(#shadow)"/>
+  <text x="37" y="525" font-size="12" fill="#78350F" font-weight="bold">🌲 Древесина — возобновляемый природный материал. Выбор породы зависит от назначения изделия!</text>
+  </svg>

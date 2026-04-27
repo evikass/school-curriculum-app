@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="parchBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#FFFBF0" />
+      <stop offset="100%" stopColor="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#78350F" />
+      <stop offset="50%" stopColor="#92400E" />
+      <stop offset="100%" stopColor="#78350F" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#F59E0B" />
+      <stop offset="100%" stopColor="#D97706" />
+    </linearGradient>
+    <filter id="cardShadow" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" floodColor="#00000020" />
+    </filter>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" floodColor="#D9770660" />
+    </filter>
+    <pattern id="parchTex" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="none" />
+      <circle cx="10" cy="10" r="0.5" fill="#D4A01715" />
+    </pattern>
+    <pattern id="borderPat" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="none" />
+      <path d="M0,6 L6,0 L12,6 L6,12 Z" fill="none" stroke="#D9770630" strokeWidth="0.5" />
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#parchBg)" />
+  <rect x="0" y="0" width="800" height="600" fill="url(#parchTex)" />
+  <rect x="4" y="4" width="792" height="592" fill="none" stroke="#D97706" strokeWidth="2" rx="8" />
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#D9770640" strokeWidth="1" rx="6" />
+  <rect x="0" y="0" width="800" height="72" fill="url(#headerGrad)" rx="8" />
+  <rect x="0" y="70" width="800" height="3" fill="#D4A017" />
+  <line x1="20" y1="68" x2="780" y2="68" stroke="#D4A01760" strokeWidth="0.5" />
+  <text x="400" y="32" fontSize="21" fill="#FFFFFF" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Поэма «Мёртвые души»</text>
+  <text x="400" y="56" fontSize="12" fill="#FEF3C7" textAnchor="middle" fontFamily="sans-serif">Н.В. Гоголь — русская душа и путь от смерти к возрождению</text>
+  <rect x="0" y="580" width="800" height="20" fill="#78350F" rx="0" />
+  <rect x="0" y="578" width="800" height="2" fill="#D4A017" />
+  <text x="400" y="594" fontSize="10" fill="#FEFCE8" textAnchor="middle" fontFamily="sans-serif">8 класс · Литература · Урок 5</text>
+  <g>
+    <rect x="20" y="82" width="760" height="195" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="82" width="760" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="84" width="760" height="2" fill="url(#amberGrad)" />
+    <text x="30" y="100" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Помещики — деградация личности (последовательность Чичикова)</text>
+  </g>
+  <rect x="70" y="118" width="120" height="80" fill="#FEF3C7" stroke="#D97706" strokeWidth="1" rx="6" />
+  <text x="130" y="138" fontSize="12" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Манилов</text>
+  <text x="130" y="155" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif">Сладость,</text>
+  <text x="130" y="169" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif">пустота</text>
+  <rect x="205" y="118" width="120" height="80" fill="#FEFCE8" stroke="#D97706" strokeWidth="1" rx="6" />
+  <text x="265" y="138" fontSize="12" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Коробочка</text>
+  <text x="265" y="155" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif">Мелочность,</text>
+  <text x="265" y="169" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif">накопительство</text>
+  <rect x="340" y="118" width="120" height="80" fill="#FDE68A" stroke="#D97706" strokeWidth="1" rx="6" />
+  <text x="400" y="138" fontSize="12" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Ноздрёв</text>
+  <text x="400" y="155" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif">Разгул,</text>
+  <text x="400" y="169" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif">бесцельность</text>
+  <rect x="475" y="118" width="120" height="80" fill="#FFFBEB" stroke="#D97706" strokeWidth="1" rx="6" />
+  <text x="535" y="138" fontSize="12" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Собакевич</text>
+  <text x="535" y="155" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif">Грубость,</text>
+  <text x="535" y="169" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif">кулак</text>
+  <rect x="610" y="118" width="120" height="80" fill="#FBBF2430" stroke="#D97706" strokeWidth="1" rx="6" />
+  <text x="670" y="138" fontSize="12" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Плюшкин</text>
+  <text x="670" y="155" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif">Омертвение,</text>
+  <text x="670" y="169" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif">скука</text>
+  <line x1="190" y1="155" x2="205" y2="155" stroke="#B45309" strokeWidth="2" />
+  <polygon points="205,155 197.0,159.0 197.0,151.0" fill="#B45309" />
+  <line x1="325" y1="155" x2="340" y2="155" stroke="#B45309" strokeWidth="2" />
+  <polygon points="340,155 332.0,159.0 332.0,151.0" fill="#B45309" />
+  <line x1="460" y1="155" x2="475" y2="155" stroke="#B45309" strokeWidth="2" />
+  <polygon points="475,155 467.0,159.0 467.0,151.0" fill="#B45309" />
+  <line x1="595" y1="155" x2="610" y2="155" stroke="#B45309" strokeWidth="2" />
+  <polygon points="610,155 602.0,159.0 602.0,151.0" fill="#B45309" />
+  <text x="400" y="216" fontSize="10" fill="#B91C1C" textAnchor="middle" fontFamily="sans-serif" fontStyle="italic">→ Деградация: от приятной пустоты к полному омертвению души →</text>
+  <ellipse cx="400" cy="255" rx="60" ry="18" fill="#FDE68A" stroke="#92400E" strokeWidth="1.5" />
+  <text x="400" y="259" fontSize="11" fill="#44260A" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Чичиков</text>
+  <g>
+    <rect x="20" y="285" width="250" height="160" fill="#FEFCE8" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="285" width="250" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="287" width="250" height="2" fill="url(#amberGrad)" />
+    <text x="30" y="303" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Основные темы</text>
+    <text x="34" y="319" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ «Мёртвые души» — живые ли?</text>
+    <text x="34" y="334" fontSize="11" fill="#78350F" fontFamily="sans-serif">   Мёртвая душа = живой мертвец</text>
+    <text x="34" y="349" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="34" y="364" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ Русская душа</text>
+    <text x="34" y="379" fontSize="11" fill="#78350F" fontFamily="sans-serif">   Путь от смерти к возрождению</text>
+    <text x="34" y="394" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="34" y="409" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ Общество и пороки</text>
+    <text x="34" y="424" fontSize="11" fill="#78350F" fontFamily="sans-serif">   Взятки, казнокрадство, чин</text>
+    <text x="34" y="439" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="34" y="454" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ Духовное возрождение</text>
+    <text x="34" y="469" fontSize="11" fill="#78350F" fontFamily="sans-serif">   2-й том — путь к свету</text>
+  </g>
+  <g>
+    <rect x="280" y="285" width="260" height="160" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="280" y="285" width="260" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="280" y="287" width="260" height="2" fill="url(#amberGrad)" />
+    <text x="290" y="303" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Схема Чичикова</text>
+    <text x="294" y="319" fontSize="11" fill="#78350F" fontFamily="sans-serif">План Чичикова:</text>
+    <text x="294" y="334" fontSize="11" fill="#78350F" fontFamily="sans-serif">1. Купить мёртвые души дёшево</text>
+    <text x="294" y="349" fontSize="11" fill="#78350F" fontFamily="sans-serif">2. Заложить их в Опекунский совет</text>
+    <text x="294" y="364" fontSize="11" fill="#78350F" fontFamily="sans-serif">3. Получить деньги за «живых»</text>
+    <text x="294" y="379" fontSize="11" fill="#78350F" fontFamily="sans-serif">4. Стать богатым помещиком</text>
+    <text x="294" y="394" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="294" y="409" fontSize="11" fill="#78350F" fontFamily="sans-serif">Афера строится на том, что</text>
+    <text x="294" y="424" fontSize="11" fill="#78350F" fontFamily="sans-serif">ревизские сказки ещё не обновлены,</text>
+    <text x="294" y="439" fontSize="11" fill="#78350F" fontFamily="sans-serif">и мёртвые числятся живыми.</text>
+  </g>
+  <g>
+    <rect x="550" y="285" width="230" height="160" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="550" y="285" width="230" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="550" y="287" width="230" height="2" fill="url(#amberGrad)" />
+    <text x="560" y="303" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Жанр: поэма</text>
+    <text x="564" y="319" fontSize="11" fill="#78350F" fontFamily="sans-serif">Почему Гоголь назвал это</text>
+    <text x="564" y="334" fontSize="11" fill="#78350F" fontFamily="sans-serif">«поэмой», а не романом?</text>
+    <text x="564" y="349" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="564" y="364" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Лирические отступления</text>
+    <text x="564" y="379" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Образ автора-повествователя</text>
+    <text x="564" y="394" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Философский масштаб</text>
+    <text x="564" y="409" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Русь-тройка — символ</text>
+    <text x="564" y="424" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Высокий пафос и смех</text>
+  </g>
+  <g>
+    <rect x="20" y="455" width="760" height="55" fill="#FEF3C7" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="455" width="760" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="457" width="760" height="2" fill="url(#amberGrad)" />
+  </g>
+  <text x="400" y="479" fontSize="13" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontStyle="italic" fontWeight="bold">«Русь, куда ж несёшься ты? Дай ответ. Не даёт ответа.»</text>
+  <text x="400" y="497" fontSize="10" fill="#A16207" textAnchor="middle" fontFamily="sans-serif">— Лирическое отступление о Руси-тройке (глава 11)</text>
+  <g>
+    <rect x="20" y="520" width="760" height="52" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="520" width="760" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="522" width="760" height="2" fill="url(#amberGrad)" />
+  </g>
+  <text x="400" y="540" fontSize="10" fill="#78350F" textAnchor="middle" fontFamily="sans-serif">Гоголь задумал три тома: 1 — пороки (ад), 2 — очищение (чистилище), 3 — возрождение (рай).</text>
+  <text x="400" y="555" fontSize="10" fill="#78350F" textAnchor="middle" fontFamily="sans-serif">Второй том был сожжён автором. «Мёртвые души» — одно из величайших произведений русской литературы.</text>
+  <g transform="translate(740,555)">
+    <path d="M11.0,0 Q17.6,6.6 13.2,15.399999999999999 L11.0,22 L8.8,15.399999999999999 Q4.4,6.6 11.0,0Z" fill="#78350F" opacity="0.7" />
+    <line x1="11.0" y1="13.2" x2="11.0" y2="22" stroke="#78350F" strokeWidth="1" />
+  </g>
+</svg>

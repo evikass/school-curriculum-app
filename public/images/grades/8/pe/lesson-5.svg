@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600"><rect width="800" height="600" fill="#F0FDF4" rx="12"/>
+  <rect x="0" y="0" width="800" height="60" fill="#22C55E" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">Баскетбол: техника и тактика</text>
+  <rect x="40" y="80" width="340" height="220" fill="#F59E0B" stroke="#1E293B" stroke-width="2" rx="4" opacity="0.3"/>
+  <rect x="40" y="80" width="340" height="220" fill="none" stroke="#1E293B" stroke-width="2" rx="4"/>
+  <line x1="210" y1="80" x2="210" y2="300" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="210" cy="190" r="30" fill="none" stroke="#1E293B" stroke-width="2"/>
+  <!-- 3-point arcs -->
+  <path d="M 40,140 Q 120,80 210,120 Q 300,80 380,140" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <path d="M 40,240 Q 120,300 210,260 Q 300,300 380,240" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <!-- Baskets -->
+  <rect x="36" y="178" width="8" height="24" fill="#EF4444" stroke="#1E293B" stroke-width="1"/>
+  <rect x="376" y="178" width="8" height="24" fill="#EF4444" stroke="#1E293B" stroke-width="1"/>
+  <!-- Free throw lines -->
+  <rect x="48" y="162" width="50" height="56" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="322" y="162" width="50" height="56" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="210" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">Схема баскетбольной площадки</text><circle cx="70" cy="190" r="12" fill="#16A34A" opacity="0.85"/><text x="70" y="194" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">РЗ</text><circle cx="150" cy="130" r="12" fill="#16A34A" opacity="0.85"/><text x="150" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">АЗ</text><circle cx="150" cy="250" r="12" fill="#16A34A" opacity="0.85"/><text x="150" y="254" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">ЛФ</text><circle cx="250" cy="130" r="12" fill="#16A34A" opacity="0.85"/><text x="250" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">ТФ</text><circle cx="300" cy="190" r="12" fill="#16A34A" opacity="0.85"/><text x="300" y="194" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">Ц</text><rect x="410" y="80" width="370" height="130" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="410" y="80" width="370" height="28" fill="#22C55E" rx="8"/>
+<rect x="410" y="100" width="370" height="8" fill="#22C55E"/>
+<text x="595" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Техника игры</text>
+<text x="422" y="124" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Ведение мяча (дриблинг)</text>
+<text x="422" y="142" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Передача — двумя руками от груди</text>
+<text x="422" y="160" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Бросок — двухтактный, трёхочковый</text>
+<text x="422" y="178" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Подбор мяча (ребаунд)</text><rect x="410" y="220" width="370" height="130" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="410" y="220" width="370" height="28" fill="#EF4444" rx="8"/>
+<rect x="410" y="240" width="370" height="8" fill="#EF4444"/>
+<text x="595" y="239" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Тактика игры</text>
+<text x="422" y="264" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Пик-н-ролл (заслон + проход)</text>
+<text x="422" y="282" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Изоляция (1 на 1)</text>
+<text x="422" y="300" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Быстрый отрыв (фаст-брейк)</text>
+<text x="422" y="318" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Зонная защита (2-3, 3-2)</text>
+  <rect x="20" y="360" width="760" height="36" fill="#16A34A" rx="8"/>
+  <text x="400" y="384" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Основные правила</text><rect x="20" y="410" width="245" height="140" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="20" y="410" width="245" height="28" fill="#22C55E" rx="8"/>
+<rect x="20" y="430" width="245" height="8" fill="#22C55E"/>
+<text x="142" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Размеры и время</text>
+<text x="32" y="454" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Площадка: 28 х 15 м</text>
+<text x="32" y="472" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Кольцо: 3,05 м высота</text>
+<text x="32" y="490" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Матч: 4 четверти по 10 мин</text>
+<text x="32" y="508" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Состав: 5 на площадке</text>
+<text x="32" y="526" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 24 сек — время на атаку</text>
+<text x="32" y="544" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 3 сек — в штрафной зоне</text><rect x="282" y="410" width="245" height="140" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="282" y="410" width="245" height="28" fill="#EF4444" rx="8"/>
+<rect x="282" y="430" width="245" height="8" fill="#EF4444"/>
+<text x="404" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Нарушения</text>
+<text x="294" y="454" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Пробежка — более 2 шагов</text>
+<text x="294" y="472" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Двойное ведение</text>
+<text x="294" y="490" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Нарушение 3/5/24 секунд</text>
+<text x="294" y="508" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Фол — толчок, блок</text>
+<text x="294" y="526" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Технический фол</text>
+<text x="294" y="544" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Дисквалифицирующий фол</text><rect x="543" y="410" width="245" height="140" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="543" y="410" width="245" height="28" fill="#22C55E" rx="8"/>
+<rect x="543" y="430" width="245" height="8" fill="#22C55E"/>
+<text x="665" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Знаменитые лиги</text>
+<text x="555" y="454" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• NBA — США (лучшие игроки)</text>
+<text x="555" y="472" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Евролига — лучший в Европе</text>
+<text x="555" y="490" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Единная лига ВТБ — Россия</text>
+<text x="555" y="508" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Чемпионат мира ФИБА</text>
+<text x="555" y="526" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Олимпийский турнир</text>
+<text x="555" y="544" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Джеймс, Джордан, Коби</text>
+  <rect x="0" y="568" width="800" height="32" fill="#16A34A"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">8 класс | Физкультура/ОБЖ | Урок 5</text></svg>

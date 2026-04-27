@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDF2F8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FCE7F3;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#BE185D;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#FBCFE8;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#BE185D" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowSmall" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#1F2937" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0"/>
+
+  <!-- Title Bar -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0"/>
+  <rect x="0" y="65" width="800" height="5" fill="#BE185D" opacity="0.3"/>
+  <text x="400" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Вводные слова и предложения</text>
+  <text x="400" y="58" font-family="Arial, sans-serif" font-size="13" fill="#F9A8D4" text-anchor="middle">Группы по значению и знаки препинания</text>
+
+  <circle cx="40" cy="35" r="22" fill="#FFFFFF" opacity="0.25"/>
+  <text x="40" y="41" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
+
+  <rect x="15" y="82" width="770" height="55" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="400.0" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Что такое вводные слова?</text>
+
+  <text x="30" y="104" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">Вводные слова — слова, не входящие в грамматическую основу, выражающие отношение говорящего к высказыванию.</text>
+  <text x="30" y="122" font-family="Arial, sans-serif" font-size="11" fill="#FB7185" font-weight="bold">Они не являются членами предложения и выделяются запятыми!</text>
+
+  <rect x="15" y="148" width="250" height="225" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="140.0" y="166" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Группы по значению (1)</text>
+
+  <rect x="25" y="170" width="230" height="42" fill="#FFFFFF" rx="4" stroke="#10B981" stroke-width="1"/>
+  <text x="35" y="186" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#10B981">Уверенность</text>
+  <text x="35" y="202" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">конечно, несомненно, безусловно, разумеется</text>
+
+  <rect x="25" y="220" width="230" height="42" fill="#FFFFFF" rx="4" stroke="#3B82F6" stroke-width="1"/>
+  <text x="35" y="236" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#3B82F6">Неуверенность</text>
+  <text x="35" y="252" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">кажется, вероятно, возможно, может быть</text>
+
+  <rect x="25" y="270" width="230" height="42" fill="#FFFFFF" rx="4" stroke="#FB7185" stroke-width="1"/>
+  <text x="35" y="286" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FB7185">Чувства</text>
+  <text x="35" y="302" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">к счастью, к сожалению, к ужасу, на радость</text>
+
+  <rect x="25" y="320" width="230" height="42" fill="#FFFFFF" rx="4" stroke="#A855F7" stroke-width="1"/>
+  <text x="35" y="336" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#A855F7">Источник</text>
+  <text x="35" y="352" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">по-моему, по словам, говорят, по сообщению</text>
+
+  <rect x="280" y="148" width="250" height="225" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="405.0" y="166" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Группы по значению (2)</text>
+
+  <rect x="290" y="170" width="230" height="42" fill="#FFFFFF" rx="4" stroke="#F59E0B" stroke-width="1"/>
+  <text x="300" y="186" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#F59E0B">Способ оформл.</text>
+  <text x="300" y="202" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">итак, таким образом, словом, наконец</text>
+
+  <rect x="290" y="220" width="230" height="42" fill="#FFFFFF" rx="4" stroke="#14B8A6" stroke-width="1"/>
+  <text x="300" y="236" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#14B8A6">Обращение к соб.</text>
+  <text x="300" y="252" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">видишь ли, понимаешь, скажем, пожалуйста</text>
+
+  <rect x="290" y="270" width="230" height="42" fill="#FFFFFF" rx="4" stroke="#EC4899" stroke-width="1"/>
+  <text x="300" y="286" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#EC4899">Порядок мыслей</text>
+  <text x="300" y="302" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">во-первых, во-вторых, с одной стороны</text>
+
+  <rect x="290" y="320" width="230" height="42" fill="#FFFFFF" rx="4" stroke="#BE185D" stroke-width="1"/>
+  <text x="300" y="336" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BE185D">Оценка меры</text>
+  <text x="300" y="352" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">без преувеличения, самое большее</text>
+
+  <rect x="545" y="148" width="240" height="225" fill="#FFFFFF" rx="6" stroke="#FB7185" stroke-width="2" filter="url(#shadowSmall)"/>
+  <rect x="545" y="148" width="240" height="22" fill="#FB7185" rx="6"/>
+  <rect x="545" y="164" width="240" height="6" fill="#FB7185"/>
+  <text x="665.0" y="163" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">НЕ являются вводными!</text>
+  <text x="553" y="186" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Якобы, будто, вряд ли, едва ли</text>
+  <text x="553" y="202" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">— частицы и наречия</text>
+  <text x="553" y="218" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="553" y="234" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Ведь, всё-таки, примерно</text>
+  <text x="553" y="250" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">— частицы</text>
+  <text x="553" y="266" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="553" y="282" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Может быть, должно быть</text>
+  <text x="553" y="298" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">— могут быть вводными</text>
+  <text x="553" y="314" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">И НЕ вводными (смотря по смыслу!)</text>
+  <text x="553" y="330" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="553" y="346" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Сравните:</text>
+  <text x="553" y="362" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Он, &lt;может быть&gt;, придёт. (вводн.)</text>
+  <text x="553" y="378" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Это &lt;может быть&gt; правдой. (сказ.)</text>
+
+  <rect x="15" y="386" width="380" height="200" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="205.0" y="404" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Примеры с вводными словами</text>
+  <rect x="25" y="410" width="360" height="26" fill="#FFFFFF" rx="3" stroke="#FB7185" stroke-width="1"/>
+  <text x="35" y="427" font-family="Arial, sans-serif" font-size="10" fill="#FB7185" font-weight="bold">К счастью,</text>
+  <text x="35" y="427" font-family="Arial, sans-serif" font-size="10" fill="#1F2937" dx="70"> день был тёплый и ясный.</text>
+  <text x="370" y="427" font-family="Arial, sans-serif" font-size="8" fill="#6B7280" text-anchor="end">(чувство)</text>
+  <rect x="25" y="444" width="360" height="26" fill="#FFFFFF" rx="3" stroke="#3B82F6" stroke-width="1"/>
+  <text x="35" y="461" font-family="Arial, sans-serif" font-size="10" fill="#3B82F6" font-weight="bold">Наверное,</text>
+  <text x="35" y="461" font-family="Arial, sans-serif" font-size="10" fill="#1F2937" dx="63"> завтра будет дождь.</text>
+  <text x="370" y="461" font-family="Arial, sans-serif" font-size="8" fill="#6B7280" text-anchor="end">(неуверенность)</text>
+  <rect x="25" y="478" width="360" height="26" fill="#FFFFFF" rx="3" stroke="#A855F7" stroke-width="1"/>
+  <text x="35" y="495" font-family="Arial, sans-serif" font-size="10" fill="#A855F7" font-weight="bold">По-моему,</text>
+  <text x="35" y="495" font-family="Arial, sans-serif" font-size="10" fill="#1F2937" dx="63"> это правильное решение.</text>
+  <text x="370" y="495" font-family="Arial, sans-serif" font-size="8" fill="#6B7280" text-anchor="end">(источник)</text>
+  <rect x="25" y="512" width="360" height="26" fill="#FFFFFF" rx="3" stroke="#F59E0B" stroke-width="1"/>
+  <text x="35" y="529" font-family="Arial, sans-serif" font-size="10" fill="#F59E0B" font-weight="bold">Итак,</text>
+  <text x="35" y="529" font-family="Arial, sans-serif" font-size="10" fill="#1F2937" dx="35"> подведём итоги.</text>
+  <text x="370" y="529" font-family="Arial, sans-serif" font-size="8" fill="#6B7280" text-anchor="end">(итог)</text>
+  <rect x="25" y="546" width="360" height="26" fill="#FFFFFF" rx="3" stroke="#EC4899" stroke-width="1"/>
+  <text x="35" y="563" font-family="Arial, sans-serif" font-size="10" fill="#EC4899" font-weight="bold">Во-первых,</text>
+  <text x="35" y="563" font-family="Arial, sans-serif" font-size="10" fill="#1F2937" dx="70"> это выгодно; во-вторых, удобно.</text>
+  <text x="370" y="563" font-family="Arial, sans-serif" font-size="8" fill="#6B7280" text-anchor="end">(порядок)</text>
+
+  <rect x="410" y="386" width="375" height="200" fill="#FFFFFF" rx="6" stroke="#FB7185" stroke-width="2" filter="url(#shadowSmall)"/>
+  <rect x="410" y="386" width="375" height="22" fill="#FB7185" rx="6"/>
+  <rect x="410" y="402" width="375" height="6" fill="#FB7185"/>
+  <text x="597.5" y="401" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Знаки препинания при вводных словах</text>
+  <text x="418" y="424" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">1. Запятые с двух сторон (в середине):</text>
+  <text x="418" y="440" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">   Он, к счастью, вернулся вовремя.</text>
+  <text x="418" y="456" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="472" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">2. Запятая перед (в начале):</text>
+  <text x="418" y="488" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">   Конечно, я согласен с тобой.</text>
+  <text x="418" y="504" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="520" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">3. Запятая после (в конце):</text>
+  <text x="418" y="536" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">   Я согласен, конечно.</text>
+  <text x="418" y="552" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="568" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">4. Тире вместо запятой (при паузе):</text>
+  <text x="418" y="584" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">   Он — к сожалению — опоздал.</text>
+  <text x="418" y="600" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="616" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">5. Вводное предложение:</text>
+  <text x="418" y="632" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">   Он, я думаю, скоро придёт.</text>
+</svg>

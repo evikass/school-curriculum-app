@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#92400E" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#B45309" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="800" height="4" fill="#B45309" rx="2"/>
+
+  <!-- Header -->
+  <rect x="20" y="15" width="760" height="60" rx="8" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="40" y="50" font-size="14" fill="#FCD34D" font-weight="bold">Урок 8</text>
+  <text x="130" y="50" font-size="20" fill="#FFFFFF" font-weight="bold">Основы электротехники</text>
+    <text x="780" y="55" font-size="13" fill="#F59E0B" text-anchor="end" font-style="italic">Напряжение, ток, сопротивление, цепи</text>
+
+  <!-- Ohm's Law triangle -->
+  <polygon points="400,110 300,280 500,280" fill="#FEF3C7" stroke="#B45309" stroke-width="2" filter="url(#shadow)"/>
+  <line x1="350" y1="195" x2="450" y2="195" stroke="#B45309" stroke-width="1.5"/>
+  <line x1="400" y1="195" x2="400" y2="280" stroke="#B45309" stroke-width="1.5"/>
+  <text x="400" y="175" font-size="22" fill="#92400E" text-anchor="middle" font-weight="bold">U</text>
+  <text x="350" y="250" font-size="18" fill="#B45309" text-anchor="middle" font-weight="bold">I</text>
+  <text x="450" y="250" font-size="18" fill="#B45309" text-anchor="middle" font-weight="bold">R</text>
+  <text x="400" y="300" font-size="13" fill="#78350F" text-anchor="middle" font-weight="bold">Закон Ома: U = I × R</text>
+  
+  <!-- Simple circuit diagram -->
+  <rect x="25" y="100" width="230" height="180" rx="6" fill="#FFFFFF" stroke="#B45309" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="140" y="120" font-size="12" fill="#92400E" text-anchor="middle" font-weight="bold">Простая электрическая цепь</text>
+  
+  <!-- Battery symbol -->
+  <line x1="50" y1="180" x2="50" y2="220" stroke="#78350F" stroke-width="2"/>
+  <line x1="40" y1="180" x2="60" y2="180" stroke="#78350F" stroke-width="2.5"/>
+  <line x1="44" y1="188" x2="56" y2="188" stroke="#78350F" stroke-width="1.5"/>
+  <line x1="40" y1="196" x2="60" y2="196" stroke="#78350F" stroke-width="2.5"/>
+  <line x1="44" y1="204" x2="56" y2="204" stroke="#78350F" stroke-width="1.5"/>
+  <line x1="40" y1="212" x2="60" y2="212" stroke="#78350F" stroke-width="2.5"/>
+  <line x1="50" y1="165" x2="50" y2="180" stroke="#78350F" stroke-width="2"/>
+  <text x="68" y="198" font-size="10" fill="#DC2626">+</text>
+  <text x="68" y="212" font-size="10" fill="#2563EB">−</text>
+  
+  <!-- Wires -->
+  <line x1="50" y1="165" x2="140" y2="165" stroke="#78350F" stroke-width="1.5"/>
+  <line x1="140" y1="165" x2="200" y2="165" stroke="#78350F" stroke-width="1.5"/>
+  <line x1="200" y1="165" x2="200" y2="220" stroke="#78350F" stroke-width="1.5"/>
+  <line x1="200" y1="220" x2="50" y2="220" stroke="#78350F" stroke-width="1.5"/>
+  
+  <!-- Switch symbol -->
+  <circle cx="140" cy="165" r="3" fill="#78350F"/>
+  <line x1="140" y1="165" x2="160" y2="152" stroke="#78350F" stroke-width="1.5"/>
+  <text x="140" y="145" font-size="9" fill="#2563EB" text-anchor="middle">Ключ</text>
+  
+  <!-- Lamp symbol -->
+  <circle cx="200" cy="192" r="12" fill="none" stroke="#78350F" stroke-width="1.5"/>
+  <line x1="192" y1="184" x2="208" y2="200" stroke="#78350F" stroke-width="1"/>
+  <line x1="208" y1="184" x2="192" y2="200" stroke="#78350F" stroke-width="1"/>
+  <text x="200" y="240" font-size="9" fill="#2563EB" text-anchor="middle">Лампа</text>
+  
+  <!-- Current direction -->
+  <text x="120" y="160" font-size="9" fill="#DC2626">→ I</text>
+  
+  <!-- Quantities -->
+    <rect x="545" y="100" width="230" height="130" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="545" y="100" width="230" height="26" rx="6" fill="#B45309"/>
+  <rect x="545" y="120" width="230" height="6" fill="#B45309"/>
+  <text x="660" y="118" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Электрические величины</text>
+  <text x="557" y="140" font-size="12" fill="#78350F">• U — напряжение (В, Вольт)</text>
+  <text x="557" y="160" font-size="12" fill="#78350F">• I — сила тока (А, Ампер)</text>
+  <text x="557" y="180" font-size="12" fill="#78350F">• R — сопротивление (Ом)</text>
+  <text x="557" y="200" font-size="12" fill="#78350F">• P — мощность (Вт, Ватт)</text>
+  <text x="557" y="220" font-size="12" fill="#78350F">• P = U × I = I²R = U²/R</text>
+  
+  <!-- Series vs Parallel -->
+    <rect x="25" y="320" width="370" height="145" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="320" width="370" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="340" width="370" height="6" fill="#B45309"/>
+  <text x="210" y="338" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Последовательное соединение</text>
+  <text x="37" y="360" font-size="12" fill="#78350F">• Проводники подключены друг за другом</text>
+  <text x="37" y="380" font-size="12" fill="#78350F">• I₁ = I₂ = I₃ (ток одинаков)</text>
+  <text x="37" y="400" font-size="12" fill="#78350F">• U = U₁ + U₂ + U₃ (напряжения складываются)</text>
+  <text x="37" y="420" font-size="12" fill="#78350F">• R = R₁ + R₂ + R₃ (сопротивления складываются)</text>
+  <text x="37" y="440" font-size="12" fill="#78350F">• Пример: ёлочная гирлянда</text>
+  
+    <rect x="410" y="320" width="365" height="145" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="410" y="320" width="365" height="26" rx="6" fill="#B45309"/>
+  <rect x="410" y="340" width="365" height="6" fill="#B45309"/>
+  <text x="592" y="338" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Параллельное соединение</text>
+  <text x="422" y="360" font-size="12" fill="#78350F">• Проводники подключены к одним точкам</text>
+  <text x="422" y="380" font-size="12" fill="#78350F">• U₁ = U₂ = U₃ (напряжение одинаково)</text>
+  <text x="422" y="400" font-size="12" fill="#78350F">• I = I₁ + I₂ + I₃ (токи складываются)</text>
+  <text x="422" y="420" font-size="12" fill="#78350F">• 1/R = 1/R₁ + 1/R₂ (общее сопр. меньше)</text>
+  <text x="422" y="440" font-size="12" fill="#78350F">• Пример: лампы в квартире</text>
+  
+    <rect x="25" y="480" width="750" height="55" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" filter="url(#shadow)"/>
+  <text x="37" y="500" font-size="12" fill="#78350F" font-weight="bold">⚡ Закон Ома — фундамент электротехники: I = U/R</text>
+  <text x="37" y="518" font-size="12" fill="#78350F" font-weight="bold">Короткое замыкание: R → 0, I → max — ОПАСНО! Плавкие предохранители защищают цепь</text>
+  
+    <rect x="25" y="548" width="750" height="35" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="548" width="750" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="568" width="750" height="6" fill="#B45309"/>
+  <text x="400" y="566" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold"></text>
+  </svg>

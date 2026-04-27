@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#D97706" />
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#F59E0B" />
+  <rect x="0" y="6" width="800" height="70" fill="#D97706" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#92400E" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">1</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Общество как динамическая система</text>
+  <text x="78" y="58" fill="#FEF3C7" font-size="13" font-family="Arial, sans-serif">Подсистемы общества: экономическая, политическая, социальная, духовная</text>
+  <circle cx="400" cy="260" r="60" fill="#D97706" stroke="#92400E" stroke-width="3" />
+  <text x="400" y="255" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Arial, sans-serif">ОБЩЕСТВО</text>
+  <text x="400" y="272" text-anchor="middle" fill="#FEF3C7" font-size="10" font-weight="normal" font-family="Arial, sans-serif">динамичная</text>
+  <text x="400" y="285" text-anchor="middle" fill="#FEF3C7" font-size="10" font-weight="normal" font-family="Arial, sans-serif">система</text>
+  <rect x="80" y="110" width="170" height="60" rx="10" fill="#3B82F6" stroke="#3B82F6" stroke-width="2" />
+  <text x="165" y="145" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Экономическая</text>
+  <text x="165" y="155" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">производство, обмен</text>
+  <line x1="250" y1="155" x2="345" y2="230" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowAmber)" />
+  <rect x="550" y="110" width="170" height="60" rx="10" fill="#EF4444" stroke="#EF4444" stroke-width="2" />
+  <text x="635" y="145" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Политическая</text>
+  <text x="635" y="155" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">власть, управление</text>
+  <line x1="550" y1="155" x2="455" y2="230" stroke="#EF4444" stroke-width="2" marker-end="url(#arrowAmber)" />
+  <rect x="80" y="350" width="170" height="60" rx="10" fill="#22C55E" stroke="#22C55E" stroke-width="2" />
+  <text x="165" y="385" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Социальная</text>
+  <text x="165" y="395" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">группы, слои</text>
+  <line x1="250" y1="370" x2="345" y2="290" stroke="#22C55E" stroke-width="2" marker-end="url(#arrowAmber)" />
+  <rect x="550" y="350" width="170" height="60" rx="10" fill="#8B5CF6" stroke="#8B5CF6" stroke-width="2" />
+  <text x="635" y="385" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Духовная</text>
+  <text x="635" y="395" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">культура, ценности</text>
+  <line x1="550" y1="370" x2="455" y2="290" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowAmber)" />
+  <rect x="17" y="432" width="185" height="120" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="430" width="185" height="120" rx="8" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5" />
+  <rect x="15" y="430" width="185" height="26" rx="8" fill="#3B82F6" />
+  <rect x="15" y="448" width="185" height="8" fill="#3B82F6" />
+  <text x="107" y="448" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Экономическая</text>
+  <text x="25" y="468" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Производство благ</text>
+  <text x="25" y="484" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Распределение</text>
+  <text x="25" y="500" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Обмен и потребление</text>
+  <text x="25" y="516" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Собственность</text>
+  <text x="25" y="532" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Рыночные отношения</text>
+  <rect x="212" y="432" width="185" height="120" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="210" y="430" width="185" height="120" rx="8" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5" />
+  <rect x="210" y="430" width="185" height="26" rx="8" fill="#EF4444" />
+  <rect x="210" y="448" width="185" height="8" fill="#EF4444" />
+  <text x="302" y="448" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Политическая</text>
+  <text x="220" y="468" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Государство и власть</text>
+  <text x="220" y="484" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Политические партии</text>
+  <text x="220" y="500" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Право и закон</text>
+  <text x="220" y="516" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Избирательная система</text>
+  <text x="220" y="532" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Гражданское общество</text>
+  <rect x="407" y="432" width="185" height="120" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="405" y="430" width="185" height="120" rx="8" fill="#FFFFFF" stroke="#22C55E" stroke-width="1.5" />
+  <rect x="405" y="430" width="185" height="26" rx="8" fill="#22C55E" />
+  <rect x="405" y="448" width="185" height="8" fill="#22C55E" />
+  <text x="497" y="448" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Социальная</text>
+  <text x="415" y="468" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Социальные группы</text>
+  <text x="415" y="484" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Классы и слои</text>
+  <text x="415" y="500" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Семья и быт</text>
+  <text x="415" y="516" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Социальная мобильность</text>
+  <text x="415" y="532" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Национальные отношения</text>
+  <rect x="602" y="432" width="185" height="120" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="600" y="430" width="185" height="120" rx="8" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5" />
+  <rect x="600" y="430" width="185" height="26" rx="8" fill="#8B5CF6" />
+  <rect x="600" y="448" width="185" height="8" fill="#8B5CF6" />
+  <text x="692" y="448" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Духовная</text>
+  <text x="610" y="468" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Мораль и ценности</text>
+  <text x="610" y="484" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Образование</text>
+  <text x="610" y="500" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Наука и искусство</text>
+  <text x="610" y="516" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Религия</text>
+  <text x="610" y="532" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Мировоззрение</text>
+  <text x="400" y="320" text-anchor="middle" fill="#92400E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Взаимосвязь</text>
+  <text x="400" y="335" text-anchor="middle" fill="#92400E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">подсистем</text>
+  <rect x="0" y="570" width="800" height="30" fill="#92400E" />
+  <text x="400" y="590" text-anchor="middle" fill="#FEF3C7" font-size="11" font-family="Arial, sans-serif">Обществознание • 8 класс • Интернет-Школа</text>
+</svg>

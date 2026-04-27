@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="parchBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#FFFBF0" />
+      <stop offset="100%" stopColor="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#78350F" />
+      <stop offset="50%" stopColor="#92400E" />
+      <stop offset="100%" stopColor="#78350F" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#F59E0B" />
+      <stop offset="100%" stopColor="#D97706" />
+    </linearGradient>
+    <filter id="cardShadow" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" floodColor="#00000020" />
+    </filter>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" floodColor="#D9770660" />
+    </filter>
+    <pattern id="parchTex" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="none" />
+      <circle cx="10" cy="10" r="0.5" fill="#D4A01715" />
+    </pattern>
+    <pattern id="borderPat" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="none" />
+      <path d="M0,6 L6,0 L12,6 L6,12 Z" fill="none" stroke="#D9770630" strokeWidth="0.5" />
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#parchBg)" />
+  <rect x="0" y="0" width="800" height="600" fill="url(#parchTex)" />
+  <rect x="4" y="4" width="792" height="592" fill="none" stroke="#D97706" strokeWidth="2" rx="8" />
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#D9770640" strokeWidth="1" rx="6" />
+  <rect x="0" y="0" width="800" height="72" fill="url(#headerGrad)" rx="8" />
+  <rect x="0" y="70" width="800" height="3" fill="#D4A017" />
+  <line x1="20" y1="68" x2="780" y2="68" stroke="#D4A01760" strokeWidth="0.5" />
+  <text x="400" y="32" fontSize="21" fill="#FFFFFF" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Роман «Герой нашего времени»</text>
+  <text x="400" y="56" fontSize="12" fill="#FEF3C7" textAnchor="middle" fontFamily="sans-serif">М.Ю. Лермонтов — психологический портрет поколения</text>
+  <rect x="0" y="580" width="800" height="20" fill="#78350F" rx="0" />
+  <rect x="0" y="578" width="800" height="2" fill="#D4A017" />
+  <text x="400" y="594" fontSize="10" fill="#FEFCE8" textAnchor="middle" fontFamily="sans-serif">8 класс · Литература · Урок 3</text>
+  <g>
+    <rect x="20" y="82" width="260" height="230" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="82" width="260" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="84" width="260" height="2" fill="url(#amberGrad)" />
+    <text x="30" y="100" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Печорин — «лишний человек»</text>
+  </g>
+  <ellipse cx="150" cy="118" rx="65" ry="22" fill="#FDE68A" stroke="#92400E" strokeWidth="1.5" />
+  <text x="150" y="122" fontSize="11" fill="#44260A" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Печорин</text>
+  <ellipse cx="50" cy="160" rx="50" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="50" y="164" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Скептицизм</text>
+  <line x1="150" y1="136" x2="50" y2="146" stroke="#D9770640" strokeWidth="0.8" strokeDasharray="3,3" />
+  <ellipse cx="150" cy="160" rx="50" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="150" y="164" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Жажда жизни</text>
+  <line x1="150" y1="136" x2="150" y2="146" stroke="#D9770640" strokeWidth="0.8" strokeDasharray="3,3" />
+  <ellipse cx="250" cy="160" rx="50" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="250" y="164" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Разочарование</text>
+  <line x1="150" y1="136" x2="250" y2="146" stroke="#D9770640" strokeWidth="0.8" strokeDasharray="3,3" />
+  <ellipse cx="50" cy="210" rx="50" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="50" y="214" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Эгоизм</text>
+  <line x1="150" y1="136" x2="50" y2="196" stroke="#D9770640" strokeWidth="0.8" strokeDasharray="3,3" />
+  <ellipse cx="150" cy="210" rx="50" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="150" y="214" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Рефлексия</text>
+  <line x1="150" y1="136" x2="150" y2="196" stroke="#D9770640" strokeWidth="0.8" strokeDasharray="3,3" />
+  <ellipse cx="250" cy="210" rx="50" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="250" y="214" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Гордость</text>
+  <line x1="150" y1="136" x2="250" y2="196" stroke="#D9770640" strokeWidth="0.8" strokeDasharray="3,3" />
+  <ellipse cx="100" cy="265" rx="50" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="100" y="269" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Страсть</text>
+  <line x1="150" y1="136" x2="100" y2="251" stroke="#D9770640" strokeWidth="0.8" strokeDasharray="3,3" />
+  <ellipse cx="200" cy="265" rx="50" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="200" y="269" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Одиночество</text>
+  <line x1="150" y1="136" x2="200" y2="251" stroke="#D9770640" strokeWidth="0.8" strokeDasharray="3,3" />
+  <g>
+    <rect x="295" y="82" width="240" height="230" fill="#FEFCE8" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="295" y="82" width="240" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="295" y="84" width="240" height="2" fill="url(#amberGrad)" />
+    <text x="305" y="100" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Структура романа</text>
+    <text x="309" y="116" fontSize="11" fill="#78350F" fontFamily="sans-serif">Нарушенная хронология:</text>
+    <text x="309" y="131" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="309" y="146" fontSize="11" fill="#78350F" fontFamily="sans-serif">1. «Бэла» — любовь горянки</text>
+    <text x="309" y="161" fontSize="11" fill="#78350F" fontFamily="sans-serif">2. «Максим Максимыч» —</text>
+    <text x="309" y="176" fontSize="11" fill="#78350F" fontFamily="sans-serif">    встреча спустя годы</text>
+    <text x="309" y="191" fontSize="11" fill="#78350F" fontFamily="sans-serif">3. «Тамань» — контрабандисты</text>
+    <text x="309" y="206" fontSize="11" fill="#78350F" fontFamily="sans-serif">4. «Княжна Мери» —</text>
+    <text x="309" y="221" fontSize="11" fill="#78350F" fontFamily="sans-serif">    светское общество, дуэль</text>
+    <text x="309" y="236" fontSize="11" fill="#78350F" fontFamily="sans-serif">5. «Фаталист» — предопределение</text>
+    <text x="309" y="251" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="309" y="266" fontSize="11" fill="#78350F" fontFamily="sans-serif">Хронологический порядок:</text>
+    <text x="309" y="281" fontSize="11" fill="#78350F" fontFamily="sans-serif">Тамань → Княжна Мери →</text>
+    <text x="309" y="296" fontSize="11" fill="#78350F" fontFamily="sans-serif">Бэла → Фаталист</text>
+  </g>
+  <g>
+    <rect x="550" y="82" width="230" height="230" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="550" y="82" width="230" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="550" y="84" width="230" height="2" fill="url(#amberGrad)" />
+    <text x="560" y="100" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Ключевые темы</text>
+    <text x="564" y="116" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ Лишний человек</text>
+    <text x="564" y="131" fontSize="11" fill="#78350F" fontFamily="sans-serif">  Непонятый, ненужный обществу</text>
+    <text x="564" y="146" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="564" y="161" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ Свобода и судьба</text>
+    <text x="564" y="176" fontSize="11" fill="#78350F" fontFamily="sans-serif">  Фатализм vs воля</text>
+    <text x="564" y="191" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="564" y="206" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ Любовь и разрушение</text>
+    <text x="564" y="221" fontSize="11" fill="#78350F" fontFamily="sans-serif">  Печорин губит тех,</text>
+    <text x="564" y="236" fontSize="11" fill="#78350F" fontFamily="sans-serif">  кого любит</text>
+    <text x="564" y="251" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="564" y="266" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ Маски и лицемерие</text>
+    <text x="564" y="281" fontSize="11" fill="#78350F" fontFamily="sans-serif">  Светское общество —</text>
+    <text x="564" y="296" fontSize="11" fill="#78350F" fontFamily="sans-serif">  театр притворства</text>
+  </g>
+  <g>
+    <rect x="20" y="322" width="760" height="55" fill="#FEF3C7" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="322" width="760" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="324" width="760" height="2" fill="url(#amberGrad)" />
+  </g>
+  <text x="400" y="346" fontSize="13" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontStyle="italic" fontWeight="bold">«Герой нашего времени... это портрет, но не одного человека»</text>
+  <text x="400" y="364" fontSize="10" fill="#A16207" textAnchor="middle" fontFamily="sans-serif">— М.Ю. Лермонтов, Предисловие к роману</text>
+  <g>
+    <rect x="20" y="387" width="380" height="95" fill="#FEFCE8" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="387" width="380" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="389" width="380" height="2" fill="url(#amberGrad)" />
+    <text x="30" y="405" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Любовь в романе</text>
+    <text x="34" y="421" fontSize="11" fill="#78350F" fontFamily="sans-serif">Бэла — искренняя, но погибшая любовь</text>
+    <text x="34" y="436" fontSize="11" fill="#78350F" fontFamily="sans-serif">Княжна Мери — игра в чувства, дуэль</text>
+    <text x="34" y="451" fontSize="11" fill="#78350F" fontFamily="sans-serif">Вера — единственная понятая им женщина</text>
+    <text x="34" y="466" fontSize="11" fill="#78350F" fontFamily="sans-serif">Каждая любовь — разочарование и боль</text>
+  </g>
+  <g>
+    <rect x="400" y="387" width="380" height="95" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="400" y="387" width="380" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="400" y="389" width="380" height="2" fill="url(#amberGrad)" />
+    <text x="410" y="405" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Печорин и общество</text>
+    <text x="414" y="421" fontSize="11" fill="#78350F" fontFamily="sans-serif">Максим Максимыч — доброта и простота</text>
+    <text x="414" y="436" fontSize="11" fill="#78350F" fontFamily="sans-serif">Грушницкий — карикатура на романтика</text>
+    <text x="414" y="451" fontSize="11" fill="#78350F" fontFamily="sans-serif">Доктор Вернер — циничный друг</text>
+    <text x="414" y="466" fontSize="11" fill="#78350F" fontFamily="sans-serif">Контрабандисты — свобода вне закона</text>
+  </g>
+  <g>
+    <rect x="20" y="492" width="760" height="80" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="492" width="760" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="494" width="760" height="2" fill="url(#amberGrad)" />
+    <text x="30" y="510" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Психологический метод Лермонтова</text>
+    <text x="34" y="526" fontSize="11" fill="#78350F" fontFamily="sans-serif">Лермонтов первым в русской литературе создал глубокий психологический портрет героя.</text>
+    <text x="34" y="541" fontSize="11" fill="#78350F" fontFamily="sans-serif">Роман раскрывает внутренний мир Печорина через его поступки, дневник и восприятие</text>
+    <text x="34" y="556" fontSize="11" fill="#78350F" fontFamily="sans-serif">окружающих. Герой анализирует себя, но не может измениться — трагедия рефлексии.</text>
+  </g>
+  <g transform="translate(740,548)">
+    <path d="M13.0,0 Q20.8,7.8 15.6,18.2 L13.0,26 L10.4,18.2 Q5.2,7.8 13.0,0Z" fill="#78350F" opacity="0.7" />
+    <line x1="13.0" y1="15.6" x2="13.0" y2="26" stroke="#78350F" strokeWidth="1" />
+  </g>
+</svg>

@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#0F172A" />
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.5" />
+    </pattern>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grid)" opacity="0.5" />
+  <rect width="800" height="200" fill="url(#topGrad)" />
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#38BDF8" />
+    </marker>
+  </defs>
+  <rect x="0" y="10" width="800" height="55" fill="#0369A1" opacity="0.9" />
+  <rect x="0" y="65" width="800" height="3" fill="#38BDF8" />
+  <text x="400" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#F8FAFC">Современные технологии в робототехнике</text>
+  <text x="400" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">Урок 8 — AI, компьютерное зрение, IoT, коботы</text>
+  <rect x="20" y="90" width="380" height="230" rx="8" ry="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="90" width="380" height="28" rx="8" ry="8" fill="#0369A1" />
+  <rect x="20" y="110" width="380" height="8" fill="#0369A1" />
+  <text x="210" y="109" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F8FAFC">Искусственный интеллект (AI)</text>
+  <circle cx="60" cy="140" r="10" fill="#0284C7" stroke="#38BDF8" stroke-width="1" />
+  <circle cx="60" cy="170" r="10" fill="#0284C7" stroke="#38BDF8" stroke-width="1" />
+  <circle cx="60" cy="200" r="10" fill="#0284C7" stroke="#38BDF8" stroke-width="1" />
+  <circle cx="60" cy="230" r="10" fill="#0284C7" stroke="#38BDF8" stroke-width="1" />
+  <circle cx="140" cy="125" r="10" fill="#A78BFA" stroke="#C4B5FD" stroke-width="1" />
+  <circle cx="140" cy="153" r="10" fill="#A78BFA" stroke="#C4B5FD" stroke-width="1" />
+  <circle cx="140" cy="181" r="10" fill="#A78BFA" stroke="#C4B5FD" stroke-width="1" />
+  <circle cx="140" cy="209" r="10" fill="#A78BFA" stroke="#C4B5FD" stroke-width="1" />
+  <circle cx="140" cy="237" r="10" fill="#A78BFA" stroke="#C4B5FD" stroke-width="1" />
+  <circle cx="220" cy="125" r="10" fill="#14B8A6" stroke="#5EEAD4" stroke-width="1" />
+  <circle cx="220" cy="153" r="10" fill="#14B8A6" stroke="#5EEAD4" stroke-width="1" />
+  <circle cx="220" cy="181" r="10" fill="#14B8A6" stroke="#5EEAD4" stroke-width="1" />
+  <circle cx="220" cy="209" r="10" fill="#14B8A6" stroke="#5EEAD4" stroke-width="1" />
+  <circle cx="220" cy="237" r="10" fill="#14B8A6" stroke="#5EEAD4" stroke-width="1" />
+  <circle cx="300" cy="155" r="10" fill="#22C55E" stroke="#86EFAC" stroke-width="1" />
+  <circle cx="300" cy="190" r="10" fill="#22C55E" stroke="#86EFAC" stroke-width="1" />
+  <circle cx="300" cy="225" r="10" fill="#22C55E" stroke="#86EFAC" stroke-width="1" />
+  <line x1="70" y1="140" x2="130" y2="125" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="140" x2="130" y2="153" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="140" x2="130" y2="181" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="140" x2="130" y2="209" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="140" x2="130" y2="237" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="170" x2="130" y2="125" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="170" x2="130" y2="153" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="170" x2="130" y2="181" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="170" x2="130" y2="209" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="170" x2="130" y2="237" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="200" x2="130" y2="125" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="200" x2="130" y2="153" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="200" x2="130" y2="181" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="200" x2="130" y2="209" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="200" x2="130" y2="237" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="230" x2="130" y2="125" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="230" x2="130" y2="153" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="230" x2="130" y2="181" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="230" x2="130" y2="209" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="70" y1="230" x2="130" y2="237" stroke="#334155" stroke-width="0.5" opacity="0.5" />
+  <line x1="150" y1="125" x2="210" y2="125" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="125" x2="210" y2="153" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="125" x2="210" y2="181" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="125" x2="210" y2="209" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="125" x2="210" y2="237" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="153" x2="210" y2="125" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="153" x2="210" y2="153" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="153" x2="210" y2="181" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="153" x2="210" y2="209" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="153" x2="210" y2="237" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="181" x2="210" y2="125" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="181" x2="210" y2="153" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="181" x2="210" y2="181" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="181" x2="210" y2="209" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="181" x2="210" y2="237" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="209" x2="210" y2="125" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="209" x2="210" y2="153" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="209" x2="210" y2="181" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="209" x2="210" y2="209" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="209" x2="210" y2="237" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="237" x2="210" y2="125" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="237" x2="210" y2="153" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="237" x2="210" y2="181" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="237" x2="210" y2="209" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="150" y1="237" x2="210" y2="237" stroke="#334155" stroke-width="0.3" opacity="0.3" />
+  <line x1="230" y1="125" x2="290" y2="155" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="125" x2="290" y2="190" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="125" x2="290" y2="225" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="153" x2="290" y2="155" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="153" x2="290" y2="190" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="153" x2="290" y2="225" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="181" x2="290" y2="155" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="181" x2="290" y2="190" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="181" x2="290" y2="225" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="209" x2="290" y2="155" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="209" x2="290" y2="190" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="209" x2="290" y2="225" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="237" x2="290" y2="155" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="237" x2="290" y2="190" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <line x1="230" y1="237" x2="290" y2="225" stroke="#334155" stroke-width="0.5" opacity="0.4" />
+  <text x="60" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#38BDF8">Вход</text>
+  <text x="140" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#C4B5FD">Скрытый 1</text>
+  <text x="220" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5EEAD4">Скрытый 2</text>
+  <text x="300" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#86EFAC">Выход</text>
+  <text x="35" y="278" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">→ Обучение с подкреплением — робот учится на ошибках</text>
+  <text x="35" y="292" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">→ Распознавание образов — идентификация объектов</text>
+  <text x="35" y="306" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">→ Планирование пути — оптимальные маршруты</text>
+  <text x="35" y="320" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">→ Адаптивное поведение — меняется по ситуации</text>
+  <rect x="420" y="90" width="360" height="230" rx="8" ry="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <rect x="420" y="90" width="360" height="28" rx="8" ry="8" fill="#0369A1" />
+  <rect x="420" y="110" width="360" height="8" fill="#0369A1" />
+  <text x="600" y="109" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F8FAFC">Компьютерное зрение</text>
+  <rect x="440" y="130" width="75" height="55" rx="6" fill="#38BDF8" opacity="0.2" stroke="#38BDF8" stroke-width="1" />
+  <text x="477" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#38BDF8">Камера</text>
+  <text x="477" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">Захват</text>
+  <text x="477" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">изображения</text>
+  <line x1="518" y1="157" x2="525" y2="157" stroke="#38BDF8" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="525" y="130" width="75" height="55" rx="6" fill="#06B6D4" opacity="0.2" stroke="#06B6D4" stroke-width="1" />
+  <text x="562" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#06B6D4">Предобработка</text>
+  <text x="562" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">Фильтрация</text>
+  <text x="562" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">масштабирование</text>
+  <line x1="603" y1="157" x2="610" y2="157" stroke="#38BDF8" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="610" y="130" width="75" height="55" rx="6" fill="#F59E0B" opacity="0.2" stroke="#F59E0B" stroke-width="1" />
+  <text x="647" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#F59E0B">Детекция</text>
+  <text x="647" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">Поиск</text>
+  <text x="647" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">объектов</text>
+  <line x1="688" y1="157" x2="695" y2="157" stroke="#38BDF8" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="695" y="130" width="75" height="55" rx="6" fill="#22C55E" opacity="0.2" stroke="#22C55E" stroke-width="1" />
+  <text x="732" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#22C55E">Распознавание</text>
+  <text x="732" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">Классифи-</text>
+  <text x="732" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">кация</text>
+  <rect x="435" y="191" width="340" height="18" rx="3" fill="#0D1117" />
+  <rect x="435" y="191" width="2" height="18" fill="#38BDF8" />
+  <text x="445" y="203" font-family="Consolas, monospace" font-size="9" fill="#38BDF8">OpenCV</text>
+  <text x="570" y="203" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Библиотека компьютерного зрения</text>
+  <rect x="435" y="213" width="340" height="18" rx="3" fill="#0D1117" />
+  <rect x="435" y="213" width="2" height="18" fill="#F59E0B" />
+  <text x="445" y="225" font-family="Consolas, monospace" font-size="9" fill="#F59E0B">YOLO</text>
+  <text x="570" y="225" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Детекция объектов в реальном времени</text>
+  <rect x="435" y="235" width="340" height="18" rx="3" fill="#0D1117" />
+  <rect x="435" y="235" width="2" height="18" fill="#22C55E" />
+  <text x="445" y="247" font-family="Consolas, monospace" font-size="9" fill="#22C55E">TensorFlow Lite</text>
+  <text x="570" y="247" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">ML на встраиваемых устройствах</text>
+  <rect x="435" y="257" width="340" height="18" rx="3" fill="#0D1117" />
+  <rect x="435" y="257" width="2" height="18" fill="#06B6D4" />
+  <text x="445" y="269" font-family="Consolas, monospace" font-size="9" fill="#06B6D4">Обработка изображений</text>
+  <text x="570" y="269" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Фильтры, контуры, гистограммы</text>
+  <rect x="20" y="335" width="260" height="240" rx="8" ry="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="335" width="260" height="28" rx="8" ry="8" fill="#0369A1" />
+  <rect x="20" y="355" width="260" height="8" fill="#0369A1" />
+  <text x="150" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F8FAFC">Интернет вещей (IoT)</text>
+  <line x1="90" y1="390" x2="150" y2="440" stroke="#334155" stroke-width="0.8" opacity="0.5" />
+  <line x1="90" y1="390" x2="50" y2="440" stroke="#334155" stroke-width="0.8" opacity="0.5" />
+  <line x1="90" y1="390" x2="150" y2="490" stroke="#334155" stroke-width="0.8" opacity="0.5" />
+  <line x1="90" y1="390" x2="90" y2="510" stroke="#334155" stroke-width="0.8" opacity="0.5" />
+  <line x1="150" y1="440" x2="50" y2="440" stroke="#334155" stroke-width="0.8" opacity="0.5" />
+  <line x1="150" y1="440" x2="150" y2="490" stroke="#334155" stroke-width="0.8" opacity="0.5" />
+  <line x1="150" y1="440" x2="90" y2="510" stroke="#334155" stroke-width="0.8" opacity="0.5" />
+  <line x1="50" y1="440" x2="150" y2="490" stroke="#334155" stroke-width="0.8" opacity="0.5" />
+  <line x1="50" y1="440" x2="90" y2="510" stroke="#334155" stroke-width="0.8" opacity="0.5" />
+  <line x1="150" y1="490" x2="90" y2="510" stroke="#334155" stroke-width="0.8" opacity="0.5" />
+  <circle cx="90" cy="390" r="16" fill="#38BDF8" opacity="0.3" stroke="#38BDF8" stroke-width="1.5" />
+  <text x="90" y="394" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#38BDF8">Робот</text>
+  <circle cx="150" cy="440" r="16" fill="#06B6D4" opacity="0.3" stroke="#06B6D4" stroke-width="1.5" />
+  <text x="150" y="444" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#06B6D4">Облако</text>
+  <circle cx="50" cy="440" r="16" fill="#F59E0B" opacity="0.3" stroke="#F59E0B" stroke-width="1.5" />
+  <text x="50" y="444" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#F59E0B">Телефон</text>
+  <circle cx="150" cy="490" r="16" fill="#22C55E" opacity="0.3" stroke="#22C55E" stroke-width="1.5" />
+  <text x="150" y="494" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#22C55E">Сервер</text>
+  <circle cx="90" cy="510" r="16" fill="#14B8A6" opacity="0.3" stroke="#14B8A6" stroke-width="1.5" />
+  <text x="90" y="514" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#14B8A6">Датчик</text>
+  <text x="35" y="530" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">• WiFi / Bluetooth подключение</text>
+  <text x="35" y="542" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">• MQTT — протокол сообщений</text>
+  <text x="35" y="554" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">• Удалённое управление</text>
+  <text x="35" y="566" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">• Сбор данных в облаке</text>
+  <rect x="300" y="335" width="250" height="240" rx="8" ry="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <rect x="300" y="335" width="250" height="28" rx="8" ry="8" fill="#0369A1" />
+  <rect x="300" y="355" width="250" height="8" fill="#0369A1" />
+  <text x="425" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F8FAFC">Коботы (Cobots)</text>
+  <rect x="310" y="380" width="230" height="40" rx="6" fill="#0D1117" stroke="#22C55E" stroke-width="0.5" />
+  <rect x="310" y="380" width="3" height="40" fill="#22C55E" />
+  <text x="320" y="396" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#22C55E">Безопасность</text>
+  <text x="320" y="408" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">Работают рядом с людьми</text>
+  <rect x="310" y="428" width="230" height="40" rx="6" fill="#0D1117" stroke="#38BDF8" stroke-width="0.5" />
+  <rect x="310" y="428" width="3" height="40" fill="#38BDF8" />
+  <text x="320" y="444" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#38BDF8">Обучение</text>
+  <text x="320" y="456" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">Программирование</text>
+  <text x="320" y="466" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">показом движений</text>
+  <rect x="310" y="476" width="230" height="40" rx="6" fill="#0D1117" stroke="#06B6D4" stroke-width="0.5" />
+  <rect x="310" y="476" width="3" height="40" fill="#06B6D4" />
+  <text x="320" y="492" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#06B6D4">Гибкость</text>
+  <text x="320" y="504" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">Быстрая переналадка</text>
+  <text x="320" y="514" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">на новые задачи</text>
+  <rect x="310" y="524" width="230" height="40" rx="6" fill="#0D1117" stroke="#F59E0B" stroke-width="0.5" />
+  <rect x="310" y="524" width="3" height="40" fill="#F59E0B" />
+  <text x="320" y="540" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#F59E0B">Датчики силы</text>
+  <text x="320" y="552" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">Реагируют на</text>
+  <text x="320" y="562" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">столкновения</text>
+  <rect x="570" y="335" width="210" height="240" rx="8" ry="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <rect x="570" y="335" width="210" height="28" rx="8" ry="8" fill="#0369A1" />
+  <rect x="570" y="355" width="210" height="8" fill="#0369A1" />
+  <text x="675" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F8FAFC">Тренды будущего</text>
+  <text x="585" y="380" font-size="14">🧬</text>
+  <text x="608" y="380" font-family="Arial, sans-serif" font-size="9" fill="#38BDF8">Мягкая робототехника</text>
+  <text x="585" y="410" font-size="14">🧠</text>
+  <text x="608" y="410" font-family="Arial, sans-serif" font-size="9" fill="#A78BFA">Нейроморфные чипы</text>
+  <text x="585" y="440" font-size="14">🤝</text>
+  <text x="608" y="440" font-family="Arial, sans-serif" font-size="9" fill="#06B6D4">Рой роботов</text>
+  <text x="585" y="470" font-size="14">🔬</text>
+  <text x="608" y="470" font-family="Arial, sans-serif" font-size="9" fill="#14B8A6">Нанороботы</text>
+  <text x="585" y="500" font-size="14">🚀</text>
+  <text x="608" y="500" font-family="Arial, sans-serif" font-size="9" fill="#F59E0B">Космические роботы</text>
+  <text x="585" y="530" font-size="14">🦾</text>
+  <text x="608" y="530" font-family="Arial, sans-serif" font-size="9" fill="#22C55E">Экзоскелеты</text>
+</svg>

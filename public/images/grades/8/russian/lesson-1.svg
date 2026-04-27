@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDF2F8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FCE7F3;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#BE185D;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#FBCFE8;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#BE185D" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowSmall" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#1F2937" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0"/>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#EC4899"/>
+    </marker>
+  </defs>
+
+  <!-- Title Bar -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0"/>
+  <rect x="0" y="65" width="800" height="5" fill="#BE185D" opacity="0.3"/>
+  <text x="400" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Синтаксис простого предложения</text>
+  <text x="400" y="58" font-family="Arial, sans-serif" font-size="13" fill="#F9A8D4" text-anchor="middle">Строение предложения: подлежащее и сказуемое</text>
+
+  <circle cx="40" cy="35" r="22" fill="#FFFFFF" opacity="0.25"/>
+  <text x="40" y="41" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+
+  <rect x="15" y="82" width="240" height="165" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="135.0" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Виды предложений по цели высказывания</text>
+  <rect x="25" y="106" width="220" height="38" fill="#FFFFFF" rx="5" stroke="#10B981" stroke-width="1.5"/>
+  <circle cx="42" cy="120" r="6" fill="#10B981"/>
+  <text x="55" y="124" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10B981">Повествовательное</text>
+  <text x="55" y="137" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Сообщает о чём-либо</text>
+  <rect x="25" y="152" width="220" height="38" fill="#FFFFFF" rx="5" stroke="#3B82F6" stroke-width="1.5"/>
+  <circle cx="42" cy="166" r="6" fill="#3B82F6"/>
+  <text x="55" y="170" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3B82F6">Вопросительное</text>
+  <text x="55" y="183" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Содержит вопрос</text>
+  <rect x="25" y="198" width="220" height="38" fill="#FFFFFF" rx="5" stroke="#F59E0B" stroke-width="1.5"/>
+  <circle cx="42" cy="212" r="6" fill="#F59E0B"/>
+  <text x="55" y="216" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F59E0B">Побудительное</text>
+  <text x="55" y="229" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Побуждает к действию</text>
+
+  <rect x="270" y="82" width="240" height="165" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="390.0" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Виды по интонации</text>
+
+  <rect x="280" y="104" width="105" height="55" fill="#FFFFFF" rx="5" stroke="#10B981" stroke-width="1.5"/>
+  <text x="332" y="126" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10B981" text-anchor="middle">Невосклиц.</text>
+  <text x="332" y="146" font-family="Arial, sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Спокойная речь</text>
+  <rect x="395" y="104" width="105" height="55" fill="#FFFFFF" rx="5" stroke="#FB7185" stroke-width="1.5"/>
+  <text x="447" y="126" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FB7185" text-anchor="middle">Восклицат.</text>
+  <text x="447" y="146" font-family="Arial, sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Эмоциональная!</text>
+  <text x="390" y="180" font-family="Arial, sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Примеры:</text>
+  <text x="390" y="194" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Мальчик читает книгу.</text>
+  <text x="390" y="208" font-family="Arial, sans-serif" font-size="9" fill="#FB7185">Какой прекрасный день!</text>
+  <text x="390" y="222" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Ты пойдёшь в кино?</text>
+  <text x="390" y="236" font-family="Arial, sans-serif" font-size="9" fill="#FB7185">Иди сюда скорее!</text>
+
+  <rect x="525" y="82" width="260" height="165" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="655.0" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Грамматическая основа предложения</text>
+
+  <rect x="545" y="108" width="220" height="40" fill="#FFFFFF" rx="5" stroke="#EC4899" stroke-width="2"/>
+  <text x="655" y="133" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#BE185D" text-anchor="middle">Грамматическая основа</text>
+  <line x1="580" y1="148" x2="580" y2="162" stroke="#EC4899" stroke-width="1.5"/>
+  <line x1="730" y1="148" x2="730" y2="162" stroke="#EC4899" stroke-width="1.5"/>
+  <rect x="545" y="162" width="100" height="35" fill="#10B981" rx="5" opacity="0.15" stroke="#10B981" stroke-width="1.5"/>
+  <text x="595" y="184" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#10B981" text-anchor="middle">Подлежащее</text>
+  <rect x="665" y="162" width="100" height="35" fill="#3B82F6" rx="5" opacity="0.15" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="715" y="184" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#3B82F6" text-anchor="middle">Сказуемое</text>
+  <text x="555" y="215" font-family="Arial, sans-serif" font-size="9" fill="#10B981">Кто? Что?</text>
+  <text x="675" y="215" font-family="Arial, sans-serif" font-size="9" fill="#3B82F6">Что делает? Что сделает?</text>
+  <text x="555" y="230" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Именительный падеж</text>
+  <text x="675" y="230" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Глагол / сущ. / прил.</text>
+
+  <rect x="15" y="260" width="490" height="150" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="260.0" y="278" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Разбор предложения: схема</text>
+
+  <text x="30" y="284" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">Пример:</text>
+  <text x="90" y="284" font-family="Arial, sans-serif" font-size="13">
+    <tspan fill="#10B981" font-weight="bold">Ветер</tspan>
+    <tspan fill="#1F2937"> </tspan>
+    <tspan fill="#3B82F6" font-weight="bold">гнал</tspan>
+    <tspan fill="#1F2937"> </tspan>
+    <tspan fill="#A855F7">по небу</tspan>
+    <tspan fill="#1F2937"> </tspan>
+    <tspan fill="#F59E0B">тяжёлые</tspan>
+    <tspan fill="#1F2937"> </tspan>
+    <tspan fill="#14B8A6">тучи</tspan>
+    <tspan fill="#1F2937">.</tspan>
+  </text>
+  <!-- Schema line -->
+  <line x1="30" y1="296" x2="490" y2="296" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="30" y="312" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1F2937">Схема:</text>
+  <rect x="30" y="320" width="60" height="24" fill="#10B981" rx="4" opacity="0.2"/>
+  <text x="60" y="337" font-family="Arial, sans-serif" font-size="10" fill="#10B981" text-anchor="middle" font-weight="bold">Ветер</text>
+  <text x="97" y="337" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">—</text>
+  <rect x="105" y="320" width="45" height="24" fill="#3B82F6" rx="4" opacity="0.2"/>
+  <text x="127" y="337" font-family="Arial, sans-serif" font-size="10" fill="#3B82F6" text-anchor="middle" font-weight="bold">гнал</text>
+  <rect x="160" y="320" width="80" height="24" fill="#F59E0B" rx="4" opacity="0.15"/>
+  <text x="200" y="337" font-family="Arial, sans-serif" font-size="10" fill="#F59E0B" text-anchor="middle" font-weight="bold">тяжёлые</text>
+  <rect x="250" y="320" width="55" height="24" fill="#14B8A6" rx="4" opacity="0.15"/>
+  <text x="277" y="337" font-family="Arial, sans-serif" font-size="10" fill="#14B8A6" text-anchor="middle" font-weight="bold">тучи</text>
+  <rect x="315" y="320" width="80" height="24" fill="#A855F7" rx="4" opacity="0.15"/>
+  <text x="355" y="337" font-family="Arial, sans-serif" font-size="10" fill="#A855F7" text-anchor="middle" font-weight="bold">по небу</text>
+  <!-- Under-sentence analysis -->
+  <text x="30" y="370" font-family="Arial, sans-serif" font-size="10" fill="#10B981">подлежащее</text>
+  <text x="105" y="370" font-family="Arial, sans-serif" font-size="10" fill="#3B82F6">сказуемое</text>
+  <text x="160" y="370" font-family="Arial, sans-serif" font-size="10" fill="#F59E0B">определение</text>
+  <text x="250" y="370" font-family="Arial, sans-serif" font-size="10" fill="#14B8A6">дополнение</text>
+  <text x="315" y="370" font-family="Arial, sans-serif" font-size="10" fill="#A855F7">обстоятельство</text>
+  <text x="30" y="395" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">[_ = - ~ _]</text>
+
+  <rect x="520" y="260" width="265" height="150" fill="#FFFFFF" rx="6" stroke="#FB7185" stroke-width="2" filter="url(#shadowSmall)"/>
+  <rect x="520" y="260" width="265" height="22" fill="#FB7185" rx="6"/>
+  <rect x="520" y="276" width="265" height="6" fill="#FB7185"/>
+  <text x="652.5" y="275" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Правила пунктуации</text>
+  <text x="528" y="298" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">1. Подлежащее и сказуемое</text>
+  <text x="528" y="314" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">   разделяются тире, если оба</text>
+  <text x="528" y="330" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">   выражены существительными</text>
+  <text x="528" y="346" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">   в им. падеже:</text>
+  <text x="528" y="362" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">   Москва — столица России.</text>
+  <text x="528" y="378" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">2. Запятая ставится перед</text>
+  <text x="528" y="394" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">   союзами а, но, да (=но).</text>
+
+  <rect x="15" y="425" width="380" height="160" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="205.0" y="443" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Типы простых предложений</text>
+
+  <rect x="25" y="448" width="170" height="55" fill="#FFFFFF" rx="5" stroke="#10B981" stroke-width="1.5"/>
+  <text x="110" y="468" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10B981" text-anchor="middle">Двусоставные</text>
+  <text x="110" y="484" font-family="Arial, sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Подлежащее + Сказуемое</text>
+  <text x="110" y="497" font-family="Arial, sans-serif" font-size="9" fill="#1F2937" text-anchor="middle">Солнце светит.</text>
+  <rect x="205" y="448" width="175" height="55" fill="#FFFFFF" rx="5" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="292" y="468" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3B82F6" text-anchor="middle">Односоставные</text>
+  <text x="292" y="484" font-family="Arial, sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Только один главный член</text>
+  <text x="292" y="497" font-family="Arial, sans-serif" font-size="9" fill="#1F2937" text-anchor="middle">Светает. Мне холодно.</text>
+  <!-- One-component types -->
+  <text x="25" y="520" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#3B82F6">Виды односоставных:</text>
+  <text x="25" y="534" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Определённо-личные: Люблю грозу в начале мая.</text>
+  <text x="25" y="548" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Неопределённо-личные: В дверь постучали.</text>
+  <text x="25" y="562" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Безличные: Уже стемнело. Мне весело.</text>
+  <text x="25" y="576" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Назывные: Зима. Мороз. Тишина.</text>
+
+  <rect x="410" y="425" width="375" height="160" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="597.5" y="443" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Распространённые / Нераспространённые</text>
+
+  <rect x="420" y="450" width="175" height="58" fill="#FFFFFF" rx="5" stroke="#A855F7" stroke-width="1.5"/>
+  <text x="507" y="470" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#A855F7" text-anchor="middle">Нераспространённое</text>
+  <text x="507" y="486" font-family="Arial, sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Только грамм. основа</text>
+  <text x="507" y="500" font-family="Arial, sans-serif" font-size="10" fill="#1F2937" text-anchor="middle">Ночь наступила.</text>
+  <rect x="605" y="450" width="170" height="58" fill="#FFFFFF" rx="5" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="690" y="470" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F59E0B" text-anchor="middle">Распространённое</text>
+  <text x="690" y="486" font-family="Arial, sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Есть второстеп. члены</text>
+  <text x="690" y="500" font-family="Arial, sans-serif" font-size="10" fill="#1F2937" text-anchor="middle">Тёмная ночь быстро наступила.</text>
+  <!-- Visual comparison -->
+  <text x="420" y="525" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#BE185D">Сравнение:</text>
+  <rect x="420" y="533" width="50" height="18" fill="#10B981" rx="3" opacity="0.2"/>
+  <rect x="475" y="533" width="50" height="18" fill="#3B82F6" rx="3" opacity="0.2"/>
+  <text x="530" y="546" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">= нераспространённое</text>
+  <rect x="420" y="556" width="50" height="18" fill="#10B981" rx="3" opacity="0.2"/>
+  <rect x="475" y="556" width="50" height="18" fill="#3B82F6" rx="3" opacity="0.2"/>
+  <rect x="530" y="556" width="40" height="18" fill="#F59E0B" rx="3" opacity="0.15"/>
+  <rect x="575" y="556" width="40" height="18" fill="#14B8A6" rx="3" opacity="0.15"/>
+  <rect x="620" y="556" width="50" height="18" fill="#A855F7" rx="3" opacity="0.15"/>
+  <text x="675" y="569" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">= распространённое</text>
+</svg>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFBEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FED7AA;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9A3412;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EA580C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EA580C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D97706;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" floodColor="#9A3412" floodOpacity="0.2" />
+    </filter>
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" floodColor="#000" floodOpacity="0.15" />
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#EA580C" strokeWidth="2" rx="8" />
+  <rect x="14" y="14" width="772" height="572" fill="none" stroke="#D97706" strokeWidth="1" rx="6" strokeDasharray="8,4" />
+  <rect x="20" y="16" width="760" height="60" fill="url(#titleGrad)" rx="6" filter="url(#shadow)" />
+  <text x="400" y="48" fill="white" fontSize="22" fontWeight="bold" textAnchor="middle" fontFamily="serif">Русские художники XIX века</text>
+  <text x="400" y="68" fill="#FED7AA" fontSize="12" textAnchor="middle" fontFamily="sans-serif">Передвижники, реализм, великие полотна</text>
+  <circle cx="35" cy="46" r="6" fill="#D97706" opacity="0.6" />
+  <circle cx="765" cy="46" r="6" fill="#D97706" opacity="0.6" />
+  <circle cx="52" cy="100" r="18" fill="#EA580C" filter="url(#softShadow)" />
+  <text x="52" y="106" fill="white" fontSize="16" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">10</text>
+  <rect x="30" y="90" width="240" height="145" fill="white" stroke="#EA580C" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="30" y="90" width="240" height="26" fill="#EA580C" rx="6" />
+  <rect x="30" y="108" width="240" height="8" fill="#EA580C" />
+  <text x="150" y="108" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Товарищество передвижников</text>
+  <circle cx="44" cy="124" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="128" fill="#78350F" fontSize="11" fontFamily="sans-serif">Основано в 1870 году</text>
+  <circle cx="44" cy="141" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="145" fill="#78350F" fontSize="11" fontFamily="sans-serif">Иван Крамской — идейный лидер</text>
+  <circle cx="44" cy="158" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="162" fill="#78350F" fontSize="11" fontFamily="sans-serif">Выставки по городам России</text>
+  <circle cx="44" cy="175" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="179" fill="#78350F" fontSize="11" fontFamily="sans-serif">Реализм и народная тема</text>
+  <circle cx="44" cy="192" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="196" fill="#78350F" fontSize="11" fontFamily="sans-serif">Против академизма</text>
+  <circle cx="44" cy="209" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="213" fill="#78350F" fontSize="11" fontFamily="sans-serif">17 выставок за 50 лет</text>
+  <rect x="290" y="90" width="240" height="145" fill="white" stroke="#D97706" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="290" y="90" width="240" height="26" fill="#D97706" rx="6" />
+  <rect x="290" y="108" width="240" height="8" fill="#D97706" />
+  <text x="410" y="108" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Великие художники</text>
+  <circle cx="304" cy="124" r="3" fill="#D97706" opacity="0.6" />
+  <text x="312" y="128" fill="#78350F" fontSize="11" fontFamily="sans-serif">И. Репин — мастер портрета</text>
+  <circle cx="304" cy="141" r="3" fill="#D97706" opacity="0.6" />
+  <text x="312" y="145" fill="#78350F" fontSize="11" fontFamily="sans-serif">В. Суриков — историч. картины</text>
+  <circle cx="304" cy="158" r="3" fill="#D97706" opacity="0.6" />
+  <text x="312" y="162" fill="#78350F" fontSize="11" fontFamily="sans-serif">И. Левитан — пейзажист</text>
+  <circle cx="304" cy="175" r="3" fill="#D97706" opacity="0.6" />
+  <text x="312" y="179" fill="#78350F" fontSize="11" fontFamily="sans-serif">И. Шишкин — лесной пейзаж</text>
+  <circle cx="304" cy="192" r="3" fill="#D97706" opacity="0.6" />
+  <text x="312" y="196" fill="#78350F" fontSize="11" fontFamily="sans-serif">В. Серов — портрет и жанр</text>
+  <circle cx="304" cy="209" r="3" fill="#D97706" opacity="0.6" />
+  <text x="312" y="213" fill="#78350F" fontSize="11" fontFamily="sans-serif">В. Васнецов — сказочные темы</text>
+  <rect x="540" y="90" width="230" height="145" fill="white" stroke="#B45309" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="540" y="90" width="230" height="26" fill="#B45309" rx="6" />
+  <rect x="540" y="108" width="230" height="8" fill="#B45309" />
+  <text x="655" y="108" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Знаменитые картины</text>
+  <circle cx="554" cy="124" r="3" fill="#B45309" opacity="0.6" />
+  <text x="562" y="128" fill="#78350F" fontSize="11" fontFamily="sans-serif">«Бурлаки на Волге» — Репин</text>
+  <circle cx="554" cy="141" r="3" fill="#B45309" opacity="0.6" />
+  <text x="562" y="145" fill="#78350F" fontSize="11" fontFamily="sans-serif">«Утро стрелецкой казни» — Суриков</text>
+  <circle cx="554" cy="158" r="3" fill="#B45309" opacity="0.6" />
+  <text x="562" y="162" fill="#78350F" fontSize="11" fontFamily="sans-serif">«Золотая осень» — Левитан</text>
+  <circle cx="554" cy="175" r="3" fill="#B45309" opacity="0.6" />
+  <text x="562" y="179" fill="#78350F" fontSize="11" fontFamily="sans-serif">«Утро в сосновом лесу» — Шишкин</text>
+  <circle cx="554" cy="192" r="3" fill="#B45309" opacity="0.6" />
+  <text x="562" y="196" fill="#78350F" fontSize="11" fontFamily="sans-serif">«Девочка с персиками» — Серов</text>
+  <circle cx="554" cy="209" r="3" fill="#B45309" opacity="0.6" />
+  <text x="562" y="213" fill="#78350F" fontSize="11" fontFamily="sans-serif">«Богатыри» — Васнецов</text>
+  <rect x="30" y="250" width="240" height="120" fill="white" stroke="#1E40AF" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="30" y="250" width="240" height="26" fill="#1E40AF" rx="6" />
+  <rect x="30" y="268" width="240" height="8" fill="#1E40AF" />
+  <text x="150" y="268" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Особенности живописи</text>
+  <circle cx="44" cy="284" r="3" fill="#1E40AF" opacity="0.6" />
+  <text x="52" y="288" fill="#78350F" fontSize="11" fontFamily="sans-serif">Реалистичное изображение</text>
+  <circle cx="44" cy="301" r="3" fill="#1E40AF" opacity="0.6" />
+  <text x="52" y="305" fill="#78350F" fontSize="11" fontFamily="sans-serif">Социальная тематика</text>
+  <circle cx="44" cy="318" r="3" fill="#1E40AF" opacity="0.6" />
+  <text x="52" y="322" fill="#78350F" fontSize="11" fontFamily="sans-serif">Жанровые сцены из жизни</text>
+  <circle cx="44" cy="335" r="3" fill="#1E40AF" opacity="0.6" />
+  <text x="52" y="339" fill="#78350F" fontSize="11" fontFamily="sans-serif">Психологизм портретов</text>
+  <circle cx="44" cy="352" r="3" fill="#1E40AF" opacity="0.6" />
+  <text x="52" y="356" fill="#78350F" fontSize="11" fontFamily="sans-serif">Эпический размах</text>
+  <rect x="290" y="250" width="240" height="120" fill="white" stroke="#166534" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="290" y="250" width="240" height="26" fill="#166534" rx="6" />
+  <rect x="290" y="268" width="240" height="8" fill="#166534" />
+  <text x="410" y="268" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Исторический контекст</text>
+  <circle cx="304" cy="284" r="3" fill="#166534" opacity="0.6" />
+  <text x="312" y="288" fill="#78350F" fontSize="11" fontFamily="sans-serif">Отмена крепостного права (1861)</text>
+  <circle cx="304" cy="301" r="3" fill="#166534" opacity="0.6" />
+  <text x="312" y="305" fill="#78350F" fontSize="11" fontFamily="sans-serif">Реформы Александра II</text>
+  <circle cx="304" cy="318" r="3" fill="#166534" opacity="0.6" />
+  <text x="312" y="322" fill="#78350F" fontSize="11" fontFamily="sans-serif">Развитие критич. реализма</text>
+  <circle cx="304" cy="335" r="3" fill="#166534" opacity="0.6" />
+  <text x="312" y="339" fill="#78350F" fontSize="11" fontFamily="sans-serif">Влияние В. Белинского</text>
+  <circle cx="304" cy="352" r="3" fill="#166534" opacity="0.6" />
+  <text x="312" y="356" fill="#78350F" fontSize="11" fontFamily="sans-serif">Журнал «Отечественные записки»</text>
+  <text x="400" y="410" fill="#9A3412" fontSize="13" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Хронология великих полотен</text>
+  <rect x="50" y="430" width="700" height="3" fill="#EA580C" opacity="0.4" />
+  <circle cx="80" cy="431" r="5" fill="#EA580C" />
+  <text x="80" y="420" fill="#9A3412" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1863</text>
+  <text x="80" y="452" fill="#78350F" fontSize="8" textAnchor="middle" fontFamily="sans-serif">Бунт 14-ти</text>
+  <circle cx="180" cy="431" r="5" fill="#EA580C" />
+  <text x="180" y="420" fill="#9A3412" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1870</text>
+  <text x="180" y="452" fill="#78350F" fontSize="8" textAnchor="middle" fontFamily="sans-serif">ТПХВ</text>
+  <circle cx="280" cy="431" r="5" fill="#EA580C" />
+  <text x="280" y="420" fill="#9A3412" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1873</text>
+  <text x="280" y="452" fill="#78350F" fontSize="8" textAnchor="middle" fontFamily="sans-serif">Бурлаки</text>
+  <circle cx="380" cy="431" r="5" fill="#EA580C" />
+  <text x="380" y="420" fill="#9A3412" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1880</text>
+  <text x="380" y="452" fill="#78350F" fontSize="8" textAnchor="middle" fontFamily="sans-serif">Кружевница</text>
+  <circle cx="480" cy="431" r="5" fill="#EA580C" />
+  <text x="480" y="420" fill="#9A3412" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1889</text>
+  <text x="480" y="452" fill="#78350F" fontSize="8" textAnchor="middle" fontFamily="sans-serif">Богатыри</text>
+  <circle cx="580" cy="431" r="5" fill="#EA580C" />
+  <text x="580" y="420" fill="#9A3412" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1895</text>
+  <text x="580" y="452" fill="#78350F" fontSize="8" textAnchor="middle" fontFamily="sans-serif">Зол. осень</text>
+  <circle cx="680" cy="431" r="5" fill="#EA580C" />
+  <text x="680" y="420" fill="#9A3412" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1899</text>
+  <text x="680" y="452" fill="#78350F" fontSize="8" textAnchor="middle" fontFamily="sans-serif">Девочка</text>
+  <rect x="100" y="475" width="600" height="70" fill="white" stroke="#EA580C" strokeWidth="1.5" rx="6" />
+  <text x="400" y="498" fill="#9A3412" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Главный принцип передвижников</text>
+  <text x="400" y="518" fill="#78350F" fontSize="11" textAnchor="middle" fontFamily="sans-serif">«Искусство должно служить народу, отражать правду жизни»</text>
+  <text x="400" y="535" fill="#78716C" fontSize="10" textAnchor="middle" fontFamily="sans-serif">Критический реализм — правда без прикрас, но с сочувствием</text>
+  <rect x="20" y="570" width="760" height="22" fill="#9A3412" rx="4" opacity="0.8" />
+  <text x="400" y="585" fill="#FED7AA" fontSize="11" textAnchor="middle" fontFamily="sans-serif">ИЗО · 8 класс</text>
+  <ellipse cx="48" cy="581" rx="8" ry="5.6" fill="#B45309" opacity="0.8" />
+  <circle cx="40" cy="578" r="3" fill="#EF4444" />
+  <circle cx="48" cy="574" r="3" fill="#3B82F6" />
+  <circle cx="56" cy="578" r="3" fill="#EAB308" />
+  <circle cx="43" cy="586" r="3" fill="#22C55E" />
+  <circle cx="53" cy="586" r="3" fill="#8B5CF6" />
+</svg>

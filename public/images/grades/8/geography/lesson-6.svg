@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ECFDF5" />
+      <stop offset="100%" stop-color="#F0FDF4" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#059669" />
+  <rect x="0" y="6" width="800" height="70" fill="#059669" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#065F46" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">6</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Температура и осадки</text>
+  <text x="78" y="58" fill="#D1FAE5" font-size="13" font-family="Arial, sans-serif">Климатические пояса, карты температур января и июля</text>
+  <rect x="17" y="92" width="380" height="200" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="380" height="200" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="90" width="380" height="26" rx="8" fill="#059669" />
+  <rect x="15" y="108" width="380" height="8" fill="#059669" />
+  <text x="205" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Температура января (°C)</text>
+  <rect x="30" y="120" width="350" height="155" fill="#DBEAFE" rx="3" />
+  <polygon points="65.5,181.0 74.8,167.0 87.2,153.0 96.5,146.0 112.0,139.0 143.0,136.2 174.0,133.4 205.0,132.0 236.0,134.8 267.0,139.0 298.0,141.8 329.0,146.0 344.5,153.0 353.8,160.0 360.0,167.0 353.8,174.0 344.5,167.0 335.2,174.0 322.8,167.0 313.5,174.0 304.2,169.8 291.8,178.2 273.2,183.8 260.8,188.0 251.5,192.2 236.0,197.8 220.5,202.0 205.0,206.2 189.5,209.0 174.0,211.8 158.5,209.0 143.0,206.2 127.5,209.0 112.0,211.8 96.5,216.0 87.2,211.8 81.0,206.2 74.8,197.8 65.5,192.2 59.3,186.6" fill="#FEF3C7" stroke="#059669" stroke-width="1.5" />
+  <path d="M60,150 Q180,170 330,155" stroke="#3B82F6" stroke-width="1.5" fill="none" />
+  <text x="340" y="152" text-anchor="start" fill="#3B82F6" font-size="9" font-weight="bold" font-family="Arial, sans-serif">0°C</text>
+  <path d="M60,175 Q180,190 330,175" stroke="#3B82F6" stroke-width="1.5" fill="none" />
+  <text x="340" y="172" text-anchor="start" fill="#3B82F6" font-size="9" font-weight="bold" font-family="Arial, sans-serif">-10°C</text>
+  <path d="M60,200 Q180,215 330,200" stroke="#1D4ED8" stroke-width="1.5" fill="none" />
+  <text x="340" y="197" text-anchor="start" fill="#1D4ED8" font-size="9" font-weight="bold" font-family="Arial, sans-serif">-20°C</text>
+  <path d="M60,225 Q180,240 330,225" stroke="#1E3A5F" stroke-width="1.5" fill="none" />
+  <text x="340" y="222" text-anchor="start" fill="#1E3A5F" font-size="9" font-weight="bold" font-family="Arial, sans-serif">-30°C</text>
+  <path d="M100,248 Q200,260 300,248" stroke="#1E3A5F" stroke-width="1.5" fill="none" />
+  <text x="310" y="248" text-anchor="start" fill="#1E3A5F" font-size="9" font-weight="bold" font-family="Arial, sans-serif">-40°C</text>
+  <circle cx="260" cy="240" r="4" fill="#EF4444" />
+  <text x="268" y="248" text-anchor="start" fill="#EF4444" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Оймякон -71°C</text>
+  <text x="205" y="268" text-anchor="start" fill="#EF4444" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Полюс холода: Оймякон и Верхоянск</text>
+  <rect x="412" y="92" width="375" height="200" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="410" y="90" width="375" height="200" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="410" y="90" width="375" height="26" rx="8" fill="#14B8A6" />
+  <rect x="410" y="108" width="375" height="8" fill="#14B8A6" />
+  <text x="597" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Температура июля (°C)</text>
+  <rect x="425" y="120" width="345" height="155" fill="#FEF3C7" rx="3" />
+  <polygon points="460.5,181.0 469.8,167.0 482.2,153.0 491.5,146.0 507.0,139.0 538.0,136.2 569.0,133.4 600.0,132.0 631.0,134.8 662.0,139.0 693.0,141.8 724.0,146.0 739.5,153.0 748.8,160.0 755.0,167.0 748.8,174.0 739.5,167.0 730.2,174.0 717.8,167.0 708.5,174.0 699.2,169.8 686.8,178.2 668.2,183.8 655.8,188.0 646.5,192.2 631.0,197.8 615.5,202.0 600.0,206.2 584.5,209.0 569.0,211.8 553.5,209.0 538.0,206.2 522.5,209.0 507.0,211.8 491.5,216.0 482.2,211.8 476.0,206.2 469.8,197.8 460.5,192.2 454.3,186.6" fill="#FDE68A" stroke="#059669" stroke-width="1.5" />
+  <path d="M455,150 Q570,145 740,155" stroke="#EF4444" stroke-width="1.5" fill="none" />
+  <text x="740" y="152" text-anchor="start" fill="#EF4444" font-size="9" font-weight="bold" font-family="Arial, sans-serif">+20°C</text>
+  <path d="M455,175 Q570,168 740,178" stroke="#F97316" stroke-width="1.5" fill="none" />
+  <text x="740" y="175" text-anchor="start" fill="#F97316" font-size="9" font-weight="bold" font-family="Arial, sans-serif">+15°C</text>
+  <path d="M455,200 Q570,195 740,205" stroke="#F59E0B" stroke-width="1.5" fill="none" />
+  <text x="740" y="202" text-anchor="start" fill="#F59E0B" font-size="9" font-weight="bold" font-family="Arial, sans-serif">+10°C</text>
+  <path d="M455,225 Q570,220 740,230" stroke="#CA8A04" stroke-width="1.5" fill="none" />
+  <text x="740" y="227" text-anchor="start" fill="#CA8A04" font-size="9" font-weight="bold" font-family="Arial, sans-serif">+5°C</text>
+  <text x="600" y="268" text-anchor="start" fill="#065F46" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Лето: тёплое на большей части</text>
+  <rect x="17" y="302" width="380" height="140" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="300" width="380" height="140" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="300" width="380" height="26" rx="8" fill="#059669" />
+  <rect x="15" y="318" width="380" height="8" fill="#059669" />
+  <text x="205" y="318" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Осадки (мм/год)</text>
+  <rect x="30" y="337" width="50" height="73" fill="#14B8A6" rx="3" />
+  <text x="55" y="425" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">1200</text>
+  <text x="55" y="435" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Черномор.</text>
+  <rect x="102" y="386" width="50" height="24" fill="#14B8A6" rx="3" />
+  <text x="127" y="425" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">400</text>
+  <text x="127" y="435" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Зап. Сибирь</text>
+  <rect x="174" y="392" width="50" height="18" fill="#14B8A6" rx="3" />
+  <text x="199" y="425" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">300</text>
+  <text x="199" y="435" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Центр. Сиб.</text>
+  <rect x="246" y="398" width="50" height="12" fill="#14B8A6" rx="3" />
+  <text x="271" y="425" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">200</text>
+  <text x="271" y="435" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Сев.-Вост.</text>
+  <rect x="318" y="367" width="50" height="43" fill="#14B8A6" rx="3" />
+  <text x="343" y="425" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">700</text>
+  <text x="343" y="435" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Дальн. Вост.</text>
+  <text x="195" y="435" text-anchor="middle" fill="#78716C" font-size="9" font-weight="normal" font-family="Arial, sans-serif">мм/год</text>
+  <rect x="412" y="302" width="375" height="140" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="410" y="300" width="375" height="140" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="410" y="300" width="375" height="26" rx="8" fill="#065F46" />
+  <rect x="410" y="318" width="375" height="8" fill="#065F46" />
+  <text x="597" y="318" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Климатические пояса</text>
+  <rect x="420" y="327" width="15" height="15" fill="#DBEAFE" stroke="#1C1917" stroke-width="1" rx="3" />
+  <text x="440" y="338" text-anchor="start" fill="#1C1917" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Арктический</text>
+  <text x="555" y="338" text-anchor="start" fill="#78716C" font-size="9" font-weight="normal" font-family="Arial, sans-serif">T &lt; 0°C, осадков мало</text>
+  <rect x="420" y="352" width="15" height="15" fill="#BFDBFE" stroke="#1C1917" stroke-width="1" rx="3" />
+  <text x="440" y="363" text-anchor="start" fill="#1C1917" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Субарктический</text>
+  <text x="555" y="363" text-anchor="start" fill="#78716C" font-size="9" font-weight="normal" font-family="Arial, sans-serif">T -10...-30°C (янв)</text>
+  <rect x="420" y="377" width="15" height="15" fill="#D1FAE5" stroke="#1C1917" stroke-width="1" rx="3" />
+  <text x="440" y="388" text-anchor="start" fill="#1C1917" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Умеренный</text>
+  <text x="555" y="388" text-anchor="start" fill="#78716C" font-size="9" font-weight="normal" font-family="Arial, sans-serif">T -5...-40°C (янв)</text>
+  <rect x="420" y="402" width="15" height="15" fill="#FDE68A" stroke="#1C1917" stroke-width="1" rx="3" />
+  <text x="440" y="413" text-anchor="start" fill="#1C1917" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Субтропический</text>
+  <text x="555" y="413" text-anchor="start" fill="#78716C" font-size="9" font-weight="normal" font-family="Arial, sans-serif">T +5...+10°C (янв)</text>
+  <rect x="17" y="452" width="770" height="80" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="450" width="770" height="80" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="450" width="770" height="26" rx="8" fill="#059669" />
+  <rect x="15" y="468" width="770" height="8" fill="#059669" />
+  <text x="400" y="468" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Континентальность климата</text>
+  <text x="30" y="478" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Амплитуда температур:</text>
+  <text x="30" y="498" text-anchor="start" fill="#3B82F6" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Мурманск: 13°C (морской)</text>
+  <text x="230" y="498" text-anchor="start" fill="#065F46" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Москва: 28°C (умер.-конт.)</text>
+  <text x="440" y="498" text-anchor="start" fill="#EF4444" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Верхоянск: 63°C (резко конт.)</text>
+  <text x="680" y="498" text-anchor="start" fill="#F97316" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Якутск: 62°C</text>
+  <text x="400" y="520" text-anchor="middle" fill="#065F46" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Чем дальше от океана — тем больше амплитуда и континентальнее климат</text>
+  <rect x="0" y="570" width="800" height="30" fill="#065F46" />
+  <text x="400" y="590" text-anchor="middle" fill="#D1FAE5" font-size="11" font-family="Arial, sans-serif">География • 8 класс • Интернет-Школа</text>
+</svg>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0FDFA" />
+      <stop offset="100%" stop-color="#ECFEFF" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0891B2" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="100%" />
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+    <clipPath id="ill12a">
+      <rect x="20" y="215" width="230" height="180" rx="8" />
+    </clipPath>
+    <clipPath id="ill12b">
+      <rect x="260" y="215" width="230" height="180" rx="8" />
+    </clipPath>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="12" />
+  <rect x="3" y="3" width="794" height="594" rx="10" fill="none" stroke="#06B6D4" stroke-width="2.5" />
+  <rect x="8" y="8" width="784" height="584" rx="8" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.2" />
+  <polygon points="12,12 42,12 12,42" fill="#06B6D4" opacity="0.08" />
+  <polygon points="788,12 758,12 788,42" fill="#06B6D4" opacity="0.08" />
+  <polygon points="12,588 42,588 12,558" fill="#06B6D4" opacity="0.08" />
+  <polygon points="788,588 758,588 788,558" fill="#06B6D4" opacity="0.08" />
+  <circle cx="740" cy="100" r="25" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.1" />
+  <polygon points="60,540 80,510 100,540" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.1" />
+  <rect x="70" y="80" width="18" height="18" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.08" transform="rotate(45, 79, 89)" />
+  <rect x="15" y="15" width="770" height="55" fill="url(#headerGrad)" rx="8" opacity="0.92" />
+  <rect x="25" y="22" width="50" height="38" fill="#FFFFFF" rx="6" opacity="0.25" />
+  <text x="50" y="49" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">12</text>
+  <text x="410" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Вписанная и описанная окружности</text>
+  <text x="760" y="35" font-family="Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="end" opacity="0.7">8 класс</text>
+  <text x="760" y="50" font-family="Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="end" opacity="0.7">Геометрия</text>
+  <line x1="20" y1="80" x2="780" y2="80" stroke="#06B6D4" stroke-width="2" opacity="0.25" />
+  <rect x="23" y="93" width="370" height="110" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="20" y="90" width="370" height="110" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="20" y="90" width="370" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="20" y="106" width="370" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="205" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Вписанная окружность</text>
+  <text x="32" y="130" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Вписанная окружность — окружность,</text>
+  <text x="32" y="147" font-family="Arial,sans-serif" font-size="12" fill="#37474F">касающаяся всех сторон многоугол.</text>
+  <text x="32" y="164" font-family="Arial,sans-serif" font-size="12" fill="#37474F" />
+  <text x="32" y="181" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Центр — точка пересечения</text>
+  <text x="32" y="198" font-family="Arial,sans-serif" font-size="12" fill="#37474F">биссектрис внутренних углов.</text>
+  <text x="32" y="215" font-family="Arial,sans-serif" font-size="12" fill="#37474F">r = S / p  (в треугольнике)</text>
+  <rect x="413" y="93" width="370" height="110" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="410" y="90" width="370" height="110" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="410" y="90" width="370" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="410" y="106" width="370" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="595" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Описанная окружность</text>
+  <text x="422" y="130" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Описанная окружность — окружность,</text>
+  <text x="422" y="147" font-family="Arial,sans-serif" font-size="12" fill="#37474F">проходящая через все вершины.</text>
+  <text x="422" y="164" font-family="Arial,sans-serif" font-size="12" fill="#37474F" />
+  <text x="422" y="181" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Центр — точка пересечения</text>
+  <text x="422" y="198" font-family="Arial,sans-serif" font-size="12" fill="#37474F">серединных перпендикуляров.</text>
+  <text x="422" y="215" font-family="Arial,sans-serif" font-size="12" fill="#37474F">R = abc / (4S)  (в треугольнике)</text>
+  <g clip-path="url(#ill12a)">
+    <rect x="20" y="215" width="230" height="180" fill="#F0FDFA" opacity="0.6" />
+    <rect x="20" y="215" width="230" height="180" fill="none" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.4" />
+    <polygon points="135,360 50,260 220,260" fill="#06B6D4" opacity="0.04" stroke="#06B6D4" stroke-width="2" />
+    <circle cx="135" cy="303" r="28" fill="#06B6D4" opacity="0.08" stroke="#06B6D4" stroke-width="1.5" />
+    <circle cx="135" cy="303" r="2.5" fill="#F59E0B" />
+    <text x="143" y="298" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">I</text>
+    <line x1="135" y1="303" x2="135" y2="331" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="3,2" />
+    <text x="145" y="319" font-family="Arial,sans-serif" font-size="11" fill="#F59E0B" font-style="italic">r</text>
+    <text x="135" y="387" font-family="Arial,sans-serif" font-size="10" fill="#06B6D4" text-anchor="middle" opacity="0.7">Вписанная окружность</text>
+  </g>
+  <g clip-path="url(#ill12b)">
+    <rect x="260" y="215" width="230" height="180" fill="#F0FDFA" opacity="0.6" />
+    <rect x="260" y="215" width="230" height="180" fill="none" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.4" />
+    <circle cx="375" cy="310" r="70" fill="#06B6D4" opacity="0.04" stroke="#06B6D4" stroke-width="2" />
+    <polygon points="375,240 314,345 435,345" fill="#06B6D4" opacity="0.06" stroke="#06B6D4" stroke-width="2" />
+    <circle cx="375" cy="310" r="2.5" fill="#EF4444" />
+    <text x="383" y="305" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#EF4444">O</text>
+    <line x1="375" y1="310" x2="435" y2="345" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="3,2" />
+    <text x="415" y="322" font-family="Arial,sans-serif" font-size="11" fill="#EF4444" font-style="italic">R</text>
+    <text x="375" y="387" font-family="Arial,sans-serif" font-size="10" fill="#06B6D4" text-anchor="middle" opacity="0.7">Описанная окружность</text>
+  </g>
+  <rect x="503" y="218" width="280" height="180" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="500" y="215" width="280" height="180" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="500" y="215" width="280" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="500" y="231" width="280" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="640" y="232" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Расположение центров</text>
+  <text x="512" y="255" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Δ остроугольный: O внутри Δ</text>
+  <text x="512" y="272" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Δ прямоугольный: O на середине</text>
+  <text x="512" y="289" font-family="Arial,sans-serif" font-size="12" fill="#37474F">  гипотенузы, R = c/2</text>
+  <text x="512" y="306" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Δ тупоугольный: O вне Δ</text>
+  <text x="512" y="323" font-family="Arial,sans-serif" font-size="12" fill="#37474F" />
+  <text x="512" y="340" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Впис. окружность Δ всегда внутри</text>
+  <text x="512" y="357" font-family="Arial,sans-serif" font-size="12" fill="#37474F" />
+  <text x="512" y="374" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Для прямоугольного Δ:</text>
+  <text x="512" y="391" font-family="Arial,sans-serif" font-size="12" fill="#37474F">  r = (a + b − c) / 2</text>
+  <text x="512" y="408" font-family="Arial,sans-serif" font-size="12" fill="#37474F">  R = c / 2</text>
+  <rect x="23" y="413" width="760" height="90" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="20" y="410" width="760" height="90" fill="#FFF7ED" rx="8" stroke="#F59E0B" stroke-width="2" opacity="0.95" />
+  <rect x="20" y="410" width="760" height="24" fill="#F59E0B" rx="8" opacity="0.2" />
+  <rect x="20" y="426" width="760" height="8" fill="#F59E0B" opacity="0.2" />
+  <text x="400" y="427" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#92400E" text-anchor="middle">Ключевые формулы</text>
+  <text x="32" y="450" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">r = S / p  (впис. в Δ)          |          R = abc / (4S)  (опис. около Δ)          |          R ≥ 2r  (неравенство Эйлера)</text>
+  <text x="32" y="468" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">Для прав. Δ: R = a/√3,  r = a/(2√3)     |     Для квадрата: R = a√2/2,  r = a/2     |     Для прав. 6-уг: R = a,  r = a√3/2</text>
+  <rect x="23" y="518" width="760" height="40" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="20" y="515" width="760" height="40" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="20" y="515" width="760" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="20" y="531" width="760" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="400" y="532" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Теорема: около любого треугольника можно описать и в любой треугольник вписать окружность</text>
+  <text x="32" y="555" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Для четырёхугольника: описанная ↔ сумма противоп. сторон равна (a+c=b+d) | вписанная ↔ сумма противоп. углов = 180°</text>
+  <rect x="15" y="560" width="770" height="28" fill="url(#panelGrad)" opacity="0.08" rx="6" />
+  <text x="400" y="578" font-family="Arial,sans-serif" font-size="11" fill="#06B6D4" text-anchor="middle" opacity="0.6">Геометрия · 8 класс</text>
+  <circle cx="35" cy="574" r="8" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.3" />
+  <circle cx="765" cy="574" r="8" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.3" />
+</svg>
