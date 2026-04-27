@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#F59E0B" />
+  <rect x="0" y="6" width="800" height="70" fill="#F59E0B" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#92400E" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">3</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Плавление и кристаллизация</text>
+  <text x="78" y="58" fill="#FEF3C7" font-size="13" font-family="Arial, sans-serif">Температурные графики, удельная теплота плавления</text>
+  <rect x="17" y="92" width="440" height="250" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="440" height="250" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="90" width="440" height="26" rx="8" fill="#F59E0B" />
+  <rect x="15" y="108" width="440" height="8" fill="#F59E0B" />
+  <text x="235" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">График плавления и кристаллизации</text>
+  <line x1="70" y1="310" x2="70" y2="110" stroke="#1C1917" stroke-width="2" />
+  <line x1="70" y1="310" x2="430" y2="310" stroke="#1C1917" stroke-width="2" />
+  <text x="45" y="210" text-anchor="middle" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">t,°C</text>
+  <text x="400" y="328" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">время</text>
+  <polyline points="70,280 140,230" stroke="#3B82F6" stroke-width="3" fill="none" />
+  <polyline points="140,230 230,230" stroke="#EF4444" stroke-width="3" fill="none" />
+  <polyline points="230,230 290,170" stroke="#3B82F6" stroke-width="3" fill="none" />
+  <polyline points="290,170 350,230" stroke="#14B8A6" stroke-width="3" fill="none" />
+  <polyline points="350,230 420,230" stroke="#8B5CF6" stroke-width="3" fill="none" />
+  <text x="90" y="268" text-anchor="start" fill="#3B82F6" font-size="10" font-weight="normal" font-family="Arial, sans-serif">нагрев</text>
+  <text x="170" y="222" text-anchor="start" fill="#EF4444" font-size="10" font-weight="bold" font-family="Arial, sans-serif">плавление</text>
+  <text x="250" y="165" text-anchor="start" fill="#3B82F6" font-size="10" font-weight="normal" font-family="Arial, sans-serif">нагрев</text>
+  <text x="300" y="165" text-anchor="start" fill="#14B8A6" font-size="10" font-weight="normal" font-family="Arial, sans-serif">жидк.</text>
+  <text x="370" y="222" text-anchor="start" fill="#8B5CF6" font-size="10" font-weight="bold" font-family="Arial, sans-serif">кристалл.</text>
+  <line x1="70" y1="230" x2="420" y2="230" stroke="#EF4444" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="432" y="234" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="Arial, sans-serif">tпл</text>
+  <text x="100" y="298" text-anchor="start" fill="#78716C" font-size="9" font-weight="normal" font-family="Arial, sans-serif">твёрдое</text>
+  <text x="190" y="244" text-anchor="start" fill="#78716C" font-size="9" font-weight="normal" font-family="Arial, sans-serif">тв.+жидк.</text>
+  <text x="260" y="298" text-anchor="start" fill="#78716C" font-size="9" font-weight="normal" font-family="Arial, sans-serif">жидкое</text>
+  <text x="380" y="244" text-anchor="start" fill="#78716C" font-size="9" font-weight="normal" font-family="Arial, sans-serif">ж.+тв.</text>
+  <rect x="472" y="92" width="315" height="250" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="470" y="90" width="315" height="250" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="470" y="90" width="315" height="26" rx="8" fill="#F59E0B" />
+  <rect x="470" y="108" width="315" height="8" fill="#F59E0B" />
+  <text x="627" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Формулы</text>
+  <text x="485" y="130" text-anchor="start" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Удельная теплота</text>
+  <text x="485" y="148" text-anchor="start" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">плавления:</text>
+  <text x="627" y="185" text-anchor="middle" fill="#92400E" font-size="24" font-weight="bold" font-family="Arial, sans-serif">Q = λ · m</text>
+  <line x1="573" y1="191" x2="681" y2="191" stroke="#F59E0B" stroke-width="2" opacity="0.4" />
+  <text x="485" y="210" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">λ (лямбда) — уд. теплота</text>
+  <text x="485" y="228" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">плавления [Дж/кг]</text>
+  <text x="485" y="256" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">При плавлении:</text>
+  <text x="485" y="274" text-anchor="start" fill="#EF4444" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Q &gt; 0 (тепло поглощается)</text>
+  <text x="485" y="296" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">При кристаллизации:</text>
+  <text x="485" y="314" text-anchor="start" fill="#3B82F6" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Q &lt; 0 (тепло выделяется)</text>
+  <rect x="17" y="352" width="385" height="115" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="350" width="385" height="115" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="350" width="385" height="26" rx="8" fill="#D97706" />
+  <rect x="15" y="368" width="385" height="8" fill="#D97706" />
+  <text x="207" y="368" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Температуры плавления</text>
+  <rect x="25" y="382" width="365" height="20" fill="#F59E0B" rx="3" />
+  <text x="40" y="397" text-anchor="start" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Вещество</text>
+  <text x="180" y="397" text-anchor="start" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">tпл, °C</text>
+  <text x="290" y="397" text-anchor="start" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">λ, кДж/кг</text>
+  <rect x="25" y="400" width="365" height="18" fill="#FEF3C7" rx="2" />
+  <text x="40" y="412" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Лёд</text>
+  <text x="180" y="412" text-anchor="start" fill="#92400E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">0</text>
+  <text x="290" y="412" text-anchor="start" fill="#92400E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">334</text>
+  <text x="40" y="430" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Железо</text>
+  <text x="180" y="430" text-anchor="start" fill="#92400E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">1539</text>
+  <text x="290" y="430" text-anchor="start" fill="#92400E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">270</text>
+  <rect x="25" y="436" width="365" height="18" fill="#FEF3C7" rx="2" />
+  <text x="40" y="448" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Свинец</text>
+  <text x="180" y="448" text-anchor="start" fill="#92400E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">327</text>
+  <text x="290" y="448" text-anchor="start" fill="#92400E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">25</text>
+  <text x="40" y="466" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Олово</text>
+  <text x="180" y="466" text-anchor="start" fill="#92400E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">232</text>
+  <text x="290" y="466" text-anchor="start" fill="#92400E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">59</text>
+  <rect x="417" y="352" width="370" height="115" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="350" width="370" height="115" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="415" y="350" width="370" height="26" rx="8" fill="#92400E" />
+  <rect x="415" y="368" width="370" height="8" fill="#92400E" />
+  <text x="600" y="368" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Ключевые моменты</text>
+  <text x="430" y="383" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">• При плавлении t = const</text>
+  <text x="430" y="403" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">• При кристаллизации t = const</text>
+  <text x="430" y="423" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">• Плавление и кристаллизация</text>
+  <text x="430" y="441" text-anchor="start" fill="#92400E" font-size="13" font-weight="bold" font-family="Arial, sans-serif">  происходят при одной tпл</text>
+  <rect x="17" y="477" width="770" height="55" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="475" width="770" height="55" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="475" width="770" height="26" rx="8" fill="#22C55E" />
+  <rect x="15" y="493" width="770" height="8" fill="#22C55E" />
+  <text x="400" y="493" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Пример</text>
+  <text x="30" y="500" text-anchor="start" fill="#92400E" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Расплавить 5 кг льда при 0°C: Q = 334 000 × 5 = 1 670 000 Дж = 1.67 МДж</text>
+  <text x="640" y="516" text-anchor="start" fill="#78716C" font-size="13" font-weight="normal" font-family="Arial, sans-serif">Q = λm</text>
+  <rect x="0" y="570" width="800" height="30" fill="#92400E" />
+  <text x="400" y="590" text-anchor="middle" fill="#FEF3C7" font-size="11" font-family="Arial, sans-serif">Физика • 8 класс • Интернет-Школа</text>
+</svg>

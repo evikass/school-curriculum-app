@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#92400E" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#B45309" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="800" height="4" fill="#B45309" rx="2"/>
+
+  <!-- Header -->
+  <rect x="20" y="15" width="760" height="60" rx="8" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="40" y="50" font-size="14" fill="#FCD34D" font-weight="bold">Урок 1</text>
+  <text x="130" y="50" font-size="20" fill="#FFFFFF" font-weight="bold">Свойства и пороки древесины</text>
+    <text x="780" y="55" font-size="13" fill="#F59E0B" text-anchor="end" font-style="italic">Физические, механические и технологические свойства</text>
+
+  <!-- Tree cross-section diagram -->
+  <circle cx="150" cy="215" r="90" fill="#DEB887" stroke="#92400E" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="150" cy="215" r="65" fill="#D2B48C" stroke="#92400E" stroke-width="1"/>
+  <circle cx="150" cy="215" r="38" fill="#C4A882" stroke="#92400E" stroke-width="1"/>
+  <circle cx="150" cy="215" r="14" fill="#8B7355" stroke="#92400E" stroke-width="1"/>
+
+  <!-- Growth rings -->
+  <ellipse cx="150" cy="190" rx="82" ry="7" fill="none" stroke="#A0845C" stroke-width="0.5" opacity="0.5"/>
+  <ellipse cx="150" cy="235" rx="78" ry="6" fill="none" stroke="#A0845C" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Labels with leader lines -->
+  <line x1="150" y1="125" x2="150" y2="108" stroke="#78350F" stroke-width="1"/>
+  <text x="150" y="102" font-size="10" fill="#78350F" text-anchor="middle" font-weight="bold">Кора</text>
+  <line x1="215" y1="160" x2="252" y2="145" stroke="#78350F" stroke-width="1"/>
+  <text x="265" y="148" font-size="10" fill="#78350F">Луб</text>
+  <line x1="215" y1="215" x2="260" y2="215" stroke="#78350F" stroke-width="1"/>
+  <text x="298" y="219" font-size="10" fill="#78350F">Заболонь</text>
+  <line x1="188" y1="245" x2="252" y2="268" stroke="#78350F" stroke-width="1"/>
+  <text x="280" y="272" font-size="10" fill="#78350F">Ядро</text>
+  <text x="150" y="219" font-size="8" fill="#FFFFFF" text-anchor="middle">Сердцевина</text>
+
+  <!-- Properties: Physical -->
+    <rect x="395" y="90" width="385" height="135" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="395" y="90" width="385" height="26" rx="6" fill="#B45309"/>
+  <rect x="395" y="110" width="385" height="6" fill="#B45309"/>
+  <text x="587" y="108" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Физические свойства</text>
+  <text x="407" y="130" font-size="12" fill="#78350F">&#8226; Плотность: лёгкая (&amp;lt;540 кг/м&amp;#179;), средняя, тяжёлая (&amp;gt;740)</text>
+  <text x="407" y="150" font-size="12" fill="#78350F">&#8226; Влажность: свободная и связанная вода</text>
+  <text x="407" y="170" font-size="12" fill="#78350F">&#8226; Усушка: уменьшение размеров при высыхании</text>
+  <text x="407" y="190" font-size="12" fill="#78350F">&#8226; Разбухание: увеличение объёма при увлажнении</text>
+  <text x="407" y="210" font-size="12" fill="#78350F">&#8226; Теплопроводность: низкая (хороший изолятор)</text>
+
+  <!-- Properties: Mechanical -->
+    <rect x="395" y="238" width="385" height="120" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="395" y="238" width="385" height="26" rx="6" fill="#D97706"/>
+  <rect x="395" y="258" width="385" height="6" fill="#D97706"/>
+  <text x="587" y="256" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Механические свойства</text>
+  <text x="407" y="278" font-size="12" fill="#78350F">&#8226; Прочность — сопротивление разрушению (сжатие, изгиб)</text>
+  <text x="407" y="298" font-size="12" fill="#78350F">&#8226; Твёрдость — сопротивление вдавливанию</text>
+  <text x="407" y="318" font-size="12" fill="#78350F">&#8226; Упругость — способность восстанавливать форму</text>
+  <text x="407" y="338" font-size="12" fill="#78350F">&#8226; Пластичность — изменение формы без разрушения</text>
+
+  <!-- Technological properties -->
+    <rect x="25" y="325" width="250" height="120" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="325" width="250" height="26" rx="6" fill="#F59E0B"/>
+  <rect x="25" y="345" width="250" height="6" fill="#F59E0B"/>
+  <text x="150" y="343" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Технологические свойства</text>
+  <text x="37" y="365" font-size="12" fill="#78350F">&#8226; Обрабатываемость резанием</text>
+  <text x="37" y="385" font-size="12" fill="#78350F">&#8226; Способность к гнутью</text>
+  <text x="37" y="405" font-size="12" fill="#78350F">&#8226; Склеиваемость</text>
+  <text x="37" y="425" font-size="12" fill="#78350F">&#8226; Способность к отделке</text>
+
+  <!-- Wood defects -->
+    <rect x="290" y="325" width="250" height="120" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="290" y="325" width="250" height="26" rx="6" fill="#DC2626"/>
+  <rect x="290" y="345" width="250" height="6" fill="#DC2626"/>
+  <text x="415" y="343" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Пороки древесины</text>
+  <text x="302" y="365" font-size="12" fill="#78350F">&#8226; Сучки — снижают прочность</text>
+  <text x="302" y="385" font-size="12" fill="#78350F">&#8226; Трещины — нарушают целостность</text>
+  <text x="302" y="405" font-size="12" fill="#78350F">&#8226; Смоляные кармашки</text>
+  <text x="302" y="425" font-size="12" fill="#78350F">&#8226; Гниль — разрушает структуру</text>
+
+  <!-- Defects continued -->
+    <rect x="555" y="325" width="225" height="120" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="555" y="325" width="225" height="26" rx="6" fill="#6B7280"/>
+  <rect x="555" y="345" width="225" height="6" fill="#6B7280"/>
+  <text x="667" y="343" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Влияние пороков</text>
+  <text x="567" y="365" font-size="12" fill="#78350F">&#8226; Сучки — ослабляют сечение</text>
+  <text x="567" y="385" font-size="12" fill="#78350F">&#8226; Трещины — снижают прочность</text>
+  <text x="567" y="405" font-size="12" fill="#78350F">&#8226; Гниль — делают непригодной</text>
+  <text x="567" y="425" font-size="12" fill="#78350F">&#8226; Косослой — коробление</text>
+
+  <!-- Bottom highlight -->
+    <rect x="25" y="460" width="750" height="50" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" filter="url(#shadow)"/>
+  <text x="37" y="480" font-size="12" fill="#78350F" font-weight="bold">Древесина — возобновляемый природный материал. Выбор породы зависит от назначения изделия!</text>
+  <text x="37" y="498" font-size="12" fill="#78350F" font-weight="bold">Пороки снижают качество: сучки ослабляют, трещины разрушают, гниль делает непригодной</text>
+
+  <!-- Comparison of wood types -->
+    <rect x="25" y="525" width="375" height="60" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="525" width="375" height="26" rx="6" fill="#92400E"/>
+  <rect x="25" y="545" width="375" height="6" fill="#92400E"/>
+  <text x="212" y="543" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Хвойные породы (мягкие)</text>
+  <text x="37" y="565" font-size="12" fill="#78350F">&#8226; Сосна, ель, лиственница, кедр — строительные и столярные изделия</text>
+
+    <rect x="415" y="525" width="360" height="60" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="415" y="525" width="360" height="26" rx="6" fill="#B45309"/>
+  <rect x="415" y="545" width="360" height="6" fill="#B45309"/>
+  <text x="595" y="543" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Лиственные породы (твёрдые)</text>
+  <text x="427" y="565" font-size="12" fill="#78350F">&#8226; Дуб, берёза, бук, ясень, липа — мебель, резьба, декор</text>
+</svg>

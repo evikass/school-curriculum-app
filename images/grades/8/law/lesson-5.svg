@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs><linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#334155"/>
+  <stop offset="100%" stop-color="#475569"/>
+</linearGradient></defs>
+<rect x="0" y="0" width="800" height="70" rx="0" fill="url(#headerGrad)" opacity="1.0"/>
+<text x="400" y="35" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Ответственность несовершеннолетних</text>
+<text x="400" y="55" font-size="12" fill="#93c5fd" text-anchor="middle" font-weight="normal" font-family="sans-serif">Возраст ответственности, виды ответственности</text>
+<rect x="15" y="15" width="90" height="28" rx="14" fill="#3b82f6" opacity="1.0"/>
+<text x="60" y="34" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">8 класс</text>
+<rect x="700" y="15" width="85" height="28" rx="14" fill="#8b5cf6" opacity="1.0"/>
+<text x="743" y="34" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Право</text>
+<rect x="0" y="565" width="800" height="35" rx="0" fill="#334155" opacity="1.0"/>
+<text x="400" y="586" font-size="11" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Право · 8 класс · Образовательный курс</text>
+<rect x="0" y="70" width="800" height="495" rx="0" fill="#f8fafc" opacity="1.0"/>
+<text x="400" y="100" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" font-family="sans-serif">Возраст привлечения к ответственности</text>
+<rect x="80" y="125" width="640" height="4" rx="2" fill="#64748b" opacity="1.0"/>
+<circle cx="80" cy="127" r="8" fill="#ef4444" opacity="1.0"/>
+<text x="80" y="117" font-size="12" fill="#ef4444" text-anchor="middle" font-weight="bold" font-family="sans-serif">14 лет</text>
+<text x="80" y="150" font-size="11" fill="#ef4444" text-anchor="middle" font-weight="bold" font-family="sans-serif">С 14 лет</text>
+<text x="80" y="166" font-size="9" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Уголовная</text>
+<text x="80" y="179" font-size="9" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">ответственность</text>
+<text x="80" y="192" font-size="9" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">(тяжкие преступления)</text>
+<circle cx="720" cy="127" r="8" fill="#f59e0b" opacity="1.0"/>
+<text x="720" y="117" font-size="12" fill="#f59e0b" text-anchor="middle" font-weight="bold" font-family="sans-serif">16 лет</text>
+<text x="720" y="150" font-size="11" fill="#f59e0b" text-anchor="middle" font-weight="bold" font-family="sans-serif">С 16 лет</text>
+<text x="720" y="166" font-size="9" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Полная уголовная</text>
+<text x="720" y="179" font-size="9" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">и административная</text>
+<text x="720" y="192" font-size="9" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">ответственность</text>
+<circle cx="1360" cy="127" r="8" fill="#3b82f6" opacity="1.0"/>
+<text x="1360" y="117" font-size="12" fill="#3b82f6" text-anchor="middle" font-weight="bold" font-family="sans-serif">18 лет</text>
+<text x="1360" y="150" font-size="11" fill="#3b82f6" text-anchor="middle" font-weight="bold" font-family="sans-serif">С 18 лет</text>
+<text x="1360" y="166" font-size="9" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Полная</text>
+<text x="1360" y="179" font-size="9" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">гражданско-правовая</text>
+<text x="1360" y="192" font-size="9" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">ответственность</text>
+<text x="400" y="218" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold" font-family="sans-serif">Виды ответственности несовершеннолетних</text>
+<rect x="20" y="235" width="185" height="190" rx="8" fill="#ffffff" opacity="1.0" stroke="#ef4444" stroke-width="1"/>
+<rect x="20" y="235" width="185" height="35" rx="8" fill="#ef4444" opacity="1.0"/>
+<rect x="20" y="260" width="185" height="10" rx="0" fill="#ef4444" opacity="1.0"/>
+<text x="112" y="258" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Уголовная</text>
+<circle cx="34" cy="279" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="44" y="282" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">С 14 лет — за тяжкие преступления</text>
+<circle cx="34" cy="301" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="44" y="304" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">С 16 лет — за все преступления</text>
+<circle cx="34" cy="323" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="44" y="326" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Макс. срок — 10 лет лишения свободы</text>
+<circle cx="34" cy="345" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="44" y="348" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Применяются принудительные меры</text>
+<rect x="212" y="235" width="185" height="190" rx="8" fill="#ffffff" opacity="1.0" stroke="#f59e0b" stroke-width="1"/>
+<rect x="212" y="235" width="185" height="35" rx="8" fill="#f59e0b" opacity="1.0"/>
+<rect x="212" y="260" width="185" height="10" rx="0" fill="#f59e0b" opacity="1.0"/>
+<text x="304" y="258" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Административная</text>
+<circle cx="226" cy="279" r="3" fill="#f59e0b" opacity="1.0"/>
+<text x="236" y="282" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">С 16 лет</text>
+<circle cx="226" cy="301" r="3" fill="#f59e0b" opacity="1.0"/>
+<text x="236" y="304" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Штраф, предупреждение</text>
+<circle cx="226" cy="323" r="3" fill="#f59e0b" opacity="1.0"/>
+<text x="236" y="326" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Доставление, задержание</text>
+<circle cx="226" cy="345" r="3" fill="#f59e0b" opacity="1.0"/>
+<text x="236" y="348" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Дело рассматривает КДН и ЗП</text>
+<rect x="404" y="235" width="185" height="190" rx="8" fill="#ffffff" opacity="1.0" stroke="#3b82f6" stroke-width="1"/>
+<rect x="404" y="235" width="185" height="35" rx="8" fill="#3b82f6" opacity="1.0"/>
+<rect x="404" y="260" width="185" height="10" rx="0" fill="#3b82f6" opacity="1.0"/>
+<text x="496" y="258" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Гражданско-правовая</text>
+<circle cx="418" cy="279" r="3" fill="#3b82f6" opacity="1.0"/>
+<text x="428" y="282" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Возмещение вреда</text>
+<circle cx="418" cy="301" r="3" fill="#3b82f6" opacity="1.0"/>
+<text x="428" y="304" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">С 14 лет — самостоятельная</text>
+<circle cx="418" cy="323" r="3" fill="#3b82f6" opacity="1.0"/>
+<text x="428" y="326" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">До 14 лет — отвечают родители</text>
+<circle cx="418" cy="345" r="3" fill="#3b82f6" opacity="1.0"/>
+<text x="428" y="348" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Моральный вред</text>
+<rect x="596" y="235" width="185" height="190" rx="8" fill="#ffffff" opacity="1.0" stroke="#8b5cf6" stroke-width="1"/>
+<rect x="596" y="235" width="185" height="35" rx="8" fill="#8b5cf6" opacity="1.0"/>
+<rect x="596" y="260" width="185" height="10" rx="0" fill="#8b5cf6" opacity="1.0"/>
+<text x="688" y="258" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Дисциплинарная</text>
+<circle cx="610" cy="279" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="620" y="282" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">В рамках трудовых отношений</text>
+<circle cx="610" cy="301" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="620" y="304" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">С 16 лет — по ТК РФ</text>
+<circle cx="610" cy="323" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="620" y="326" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Замечание, выговор, увольнение</text>
+<circle cx="610" cy="345" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="620" y="348" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Для школьников — по уставу</text>
+<rect x="20" y="440" width="760" height="95" rx="8" fill="#f1f5f9" opacity="1.0" stroke="#475569" stroke-width="1"/>
+<text x="400" y="463" font-size="13" fill="#475569" text-anchor="middle" font-weight="bold" font-family="sans-serif">Принципы ответственности несовершеннолетних</text>
+<circle cx="40" cy="479" r="3" fill="#3b82f6" opacity="1.0"/>
+<text x="52" y="482" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Гуманизм — воспитание, а не наказание — главная цель</text>
+<circle cx="40" cy="495" r="3" fill="#3b82f6" opacity="1.0"/>
+<text x="52" y="498" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Индивидуализация — учёт возраста, личности, обстоятельств</text>
+<circle cx="40" cy="511" r="3" fill="#3b82f6" opacity="1.0"/>
+<text x="52" y="514" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Участие родителей и законных представителей в процессе</text>
+<circle cx="40" cy="527" r="3" fill="#3b82f6" opacity="1.0"/>
+<text x="52" y="530" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Возможность исправления и реабилитации</text>
+</svg>

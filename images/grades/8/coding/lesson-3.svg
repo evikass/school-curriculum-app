@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+    <filter id="glow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#14B8A6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0" />
+  <rect x="0" y="70" width="800" height="3" fill="#34D399" />
+  <circle cx="45" cy="35" r="25" fill="#1E293B" stroke="#34D399" stroke-width="2" />
+  <text x="45" y="42" fill="#34D399" font-size="20" font-weight="bold" text-anchor="middle" font-family="monospace">3</text>
+  <text x="85" y="32" fill="white" font-size="22" font-weight="bold">Арифметические операции</text>
+  <text x="85" y="54" fill="#CBD5E1" font-size="14">+, -, *, /, //, %, ** — порядок операций</text>
+  <circle cx="760" cy="35" r="20" fill="#1E293B" stroke="#10B981" stroke-width="1.5" />
+  <text x="760" y="42" fill="#10B981" font-size="18" font-weight="bold" text-anchor="middle" font-family="monospace">Py</text>
+  <rect x="20" y="85" width="380" height="36" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="85" width="50" height="36" rx="6" fill="#10B981" />
+  <rect x="50" y="85" width="20" height="36" fill="#10B981" />
+  <text x="30" y="110" fill="white" font-size="16" font-weight="bold">+</text>
+  <text x="80" y="109" fill="#F8FAFC" font-size="13" font-weight="normal">Сложение</text>
+  <text x="280" y="109" fill="#C084FC" font-size="13" font-weight="bold">5 + 3 = 8</text>
+  <rect x="20" y="127" width="380" height="36" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="127" width="50" height="36" rx="6" fill="#3B82F6" />
+  <rect x="50" y="127" width="20" height="36" fill="#3B82F6" />
+  <text x="30" y="152" fill="white" font-size="16" font-weight="bold">-</text>
+  <text x="80" y="151" fill="#F8FAFC" font-size="13" font-weight="normal">Вычитание</text>
+  <text x="280" y="151" fill="#C084FC" font-size="13" font-weight="bold">10 - 4 = 6</text>
+  <rect x="20" y="169" width="380" height="36" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="169" width="50" height="36" rx="6" fill="#F59E0B" />
+  <rect x="50" y="169" width="20" height="36" fill="#F59E0B" />
+  <text x="30" y="194" fill="white" font-size="16" font-weight="bold">*</text>
+  <text x="80" y="193" fill="#F8FAFC" font-size="13" font-weight="normal">Умножение</text>
+  <text x="280" y="193" fill="#C084FC" font-size="13" font-weight="bold">6 * 7 = 42</text>
+  <rect x="20" y="211" width="380" height="36" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="211" width="50" height="36" rx="6" fill="#8B5CF6" />
+  <rect x="50" y="211" width="20" height="36" fill="#8B5CF6" />
+  <text x="30" y="236" fill="white" font-size="16" font-weight="bold">/</text>
+  <text x="80" y="235" fill="#F8FAFC" font-size="13" font-weight="normal">Деление</text>
+  <text x="280" y="235" fill="#C084FC" font-size="13" font-weight="bold">15 / 4 = 3.75</text>
+  <rect x="20" y="253" width="380" height="36" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="253" width="50" height="36" rx="6" fill="#14B8A6" />
+  <rect x="50" y="253" width="20" height="36" fill="#14B8A6" />
+  <text x="30" y="278" fill="white" font-size="16" font-weight="bold">//</text>
+  <text x="80" y="277" fill="#F8FAFC" font-size="13" font-weight="normal">Целое деление</text>
+  <text x="280" y="277" fill="#C084FC" font-size="13" font-weight="bold">15 // 4 = 3</text>
+  <rect x="20" y="295" width="380" height="36" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="295" width="50" height="36" rx="6" fill="#EC4899" />
+  <rect x="50" y="295" width="20" height="36" fill="#EC4899" />
+  <text x="30" y="320" fill="white" font-size="16" font-weight="bold">%</text>
+  <text x="80" y="319" fill="#F8FAFC" font-size="13" font-weight="normal">Остаток</text>
+  <text x="280" y="319" fill="#C084FC" font-size="13" font-weight="bold">15 % 4 = 3</text>
+  <rect x="20" y="337" width="380" height="36" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="337" width="50" height="36" rx="6" fill="#EF4444" />
+  <rect x="50" y="337" width="20" height="36" fill="#EF4444" />
+  <text x="30" y="362" fill="white" font-size="16" font-weight="bold">**</text>
+  <text x="80" y="361" fill="#F8FAFC" font-size="13" font-weight="normal">Степень</text>
+  <text x="280" y="361" fill="#C084FC" font-size="13" font-weight="bold">2 ** 10 = 1024</text>
+  <rect x="420" y="85" width="360" height="200" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+  <rect x="420" y="85" width="360" height="28" rx="8" fill="#334155" />
+  <rect x="420" y="105" width="360" height="8" fill="#334155" />
+  <circle cx="436" cy="99" r="5" fill="#EF4444" />
+  <circle cx="456" cy="99" r="5" fill="#FBBF24" />
+  <circle cx="476" cy="99" r="5" fill="#10B981" />
+  <text x="600" y="104" fill="#94A3B8" font-size="11" text-anchor="middle" font-family="monospace">Операции в коде</text>
+  <text x="434" y="129" fill="#64748B" font-size="13" font-family="monospace"># Арифметика в Python</text>
+  <text x="434" y="149" fill="#E2E8F0" font-size="13" font-family="monospace">a = </text>
+  <text x="465.2" y="149" fill="#C084FC" font-size="13" font-family="monospace">17</text>
+  <text x="434" y="169" fill="#E2E8F0" font-size="13" font-family="monospace">b = </text>
+  <text x="465.2" y="169" fill="#C084FC" font-size="13" font-family="monospace">5</text>
+  <text x="434" y="189" fill="#E2E8F0" font-size="13" font-family="monospace" />
+  <text x="434" y="209" fill="#38BDF8" font-size="13" font-family="monospace">print</text>
+  <text x="473.0" y="209" fill="#E2E8F0" font-size="13" font-family="monospace">(a + b)  </text>
+  <text x="543.2" y="209" fill="#64748B" font-size="13" font-family="monospace"># 22</text>
+  <text x="434" y="229" fill="#38BDF8" font-size="13" font-family="monospace">print</text>
+  <text x="473.0" y="229" fill="#E2E8F0" font-size="13" font-family="monospace">(a - b)  </text>
+  <text x="543.2" y="229" fill="#64748B" font-size="13" font-family="monospace"># 12</text>
+  <text x="434" y="249" fill="#38BDF8" font-size="13" font-family="monospace">print</text>
+  <text x="473.0" y="249" fill="#E2E8F0" font-size="13" font-family="monospace">(a * b)  </text>
+  <text x="543.2" y="249" fill="#64748B" font-size="13" font-family="monospace"># 85</text>
+  <text x="434" y="269" fill="#38BDF8" font-size="13" font-family="monospace">print</text>
+  <text x="473.0" y="269" fill="#E2E8F0" font-size="13" font-family="monospace">(a / b)  </text>
+  <text x="543.2" y="269" fill="#64748B" font-size="13" font-family="monospace"># 3.4</text>
+  <text x="434" y="289" fill="#38BDF8" font-size="13" font-family="monospace">print</text>
+  <text x="473.0" y="289" fill="#E2E8F0" font-size="13" font-family="monospace">(a // b) </text>
+  <text x="543.2" y="289" fill="#64748B" font-size="13" font-family="monospace"># 3</text>
+  <text x="434" y="309" fill="#38BDF8" font-size="13" font-family="monospace">print</text>
+  <text x="473.0" y="309" fill="#E2E8F0" font-size="13" font-family="monospace">(a % b)  </text>
+  <text x="543.2" y="309" fill="#64748B" font-size="13" font-family="monospace"># 2</text>
+  <rect x="420" y="300" width="360" height="160" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="2" filter="url(#shadow)" />
+  <rect x="420" y="300" width="4" height="160" rx="2" fill="#10B981" />
+  <text x="436" y="322" fill="#10B981" font-size="14" font-weight="bold">Приоритет операций</text>
+  <text x="436" y="340" fill="#CBD5E1" font-size="12">• 1. ** (степень) — высший</text>
+  <text x="436" y="358" fill="#CBD5E1" font-size="12">• 2. *, /, //, % (умножение/деление)</text>
+  <text x="436" y="376" fill="#CBD5E1" font-size="12">• 3. +, - (сложение/вычитание)</text>
+  <text x="436" y="394" fill="#CBD5E1" font-size="12">• 4. Скобки () меняют порядок</text>
+  <text x="436" y="412" fill="#CBD5E1" font-size="12">• 5. Одинаковый приоритет: слева направо</text>
+  <rect x="20" y="395" width="380" height="90" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+  <rect x="20" y="395" width="380" height="28" rx="8" fill="#334155" />
+  <rect x="20" y="415" width="380" height="8" fill="#334155" />
+  <circle cx="36" cy="409" r="5" fill="#EF4444" />
+  <circle cx="56" cy="409" r="5" fill="#FBBF24" />
+  <circle cx="76" cy="409" r="5" fill="#10B981" />
+  <text x="210" y="414" fill="#94A3B8" font-size="11" text-anchor="middle" font-family="monospace">Скобки меняют порядок!</text>
+  <text x="34" y="439" fill="#64748B" font-size="13" font-family="monospace"># Порядок операций</text>
+  <text x="34" y="459" fill="#E2E8F0" font-size="13" font-family="monospace">result = </text>
+  <text x="104.2" y="459" fill="#C084FC" font-size="13" font-family="monospace">2</text>
+  <text x="112.0" y="459" fill="#E2E8F0" font-size="13" font-family="monospace"> + </text>
+  <text x="135.4" y="459" fill="#C084FC" font-size="13" font-family="monospace">3</text>
+  <text x="143.20000000000002" y="459" fill="#E2E8F0" font-size="13" font-family="monospace"> * </text>
+  <text x="166.60000000000002" y="459" fill="#C084FC" font-size="13" font-family="monospace">4</text>
+  <text x="174.40000000000003" y="459" fill="#64748B" font-size="13" font-family="monospace">   # = 14, не 20</text>
+  <text x="34" y="479" fill="#E2E8F0" font-size="13" font-family="monospace">result = </text>
+  <text x="104.2" y="479" fill="#E2E8F0" font-size="13" font-family="monospace">(</text>
+  <text x="112.0" y="479" fill="#C084FC" font-size="13" font-family="monospace">2</text>
+  <text x="119.8" y="479" fill="#E2E8F0" font-size="13" font-family="monospace"> + </text>
+  <text x="143.2" y="479" fill="#C084FC" font-size="13" font-family="monospace">3</text>
+  <text x="151.0" y="479" fill="#E2E8F0" font-size="13" font-family="monospace">)</text>
+  <text x="158.8" y="479" fill="#E2E8F0" font-size="13" font-family="monospace"> * </text>
+  <text x="182.20000000000002" y="479" fill="#C084FC" font-size="13" font-family="monospace">4</text>
+  <text x="190.00000000000003" y="479" fill="#64748B" font-size="13" font-family="monospace">   # = 20</text>
+  <text x="20" y="510" fill="#34D399" font-size="14" font-weight="bold">Полезные формулы:</text>
+  <rect x="20" y="520" width="380" height="55" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+  <rect x="20" y="520" width="380" height="28" rx="8" fill="#334155" />
+  <rect x="20" y="540" width="380" height="8" fill="#334155" />
+  <circle cx="36" cy="534" r="5" fill="#EF4444" />
+  <circle cx="56" cy="534" r="5" fill="#FBBF24" />
+  <circle cx="76" cy="534" r="5" fill="#10B981" />
+  <text x="210" y="539" fill="#94A3B8" font-size="11" text-anchor="middle" font-family="monospace">Примеры</text>
+  <text x="34" y="564" fill="#E2E8F0" font-size="13" font-family="monospace">seconds = hours * </text>
+  <text x="174.4" y="564" fill="#C084FC" font-size="13" font-family="monospace">60</text>
+  <text x="190.0" y="564" fill="#E2E8F0" font-size="13" font-family="monospace"> * </text>
+  <text x="213.4" y="564" fill="#C084FC" font-size="13" font-family="monospace">60</text>
+  <text x="34" y="584" fill="#E2E8F0" font-size="13" font-family="monospace">avg = (a + b + c) / </text>
+  <text x="190.0" y="584" fill="#C084FC" font-size="13" font-family="monospace">3</text>
+  <rect x="0" y="582" width="800" height="18" fill="#334155" rx="0" />
+  <text x="400" y="595" fill="#94A3B8" font-size="10" text-anchor="middle">8 класс • Кодирование • Python</text>
+</svg>

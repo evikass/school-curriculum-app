@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#78350F"/>
+    <stop offset="100%" style="stop-color:#B45309"/>
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#D97706"/>
+    <stop offset="100%" style="stop-color:#F59E0B"/>
+  </linearGradient>
+  <linearGradient id="pyramidGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" style="stop-color:#92400E"/>
+    <stop offset="50%" style="stop-color:#F59E0B"/>
+    <stop offset="100%" style="stop-color:#FBBF24"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+<rect x="0" y="0" width="800" height="70" fill="url(#bg)" rx="8"/>
+<circle cx="40" cy="35" r="22" fill="#D97706" stroke="#F59E0B" stroke-width="2"/>
+<text x="40" y="42" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="sans-serif" font-weight="bold">5</text>
+<text x="72" y="32" fill="#FFFFFF" font-size="22" text-anchor="start" font-family="sans-serif" font-weight="bold">Трудовая деятельность</text>
+<text x="72" y="52" fill="#FCD34D" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="normal">Профессия, карьера, культура труда</text>
+<rect x="0" y="68" width="800" height="2" fill="#F59E0B" rx="8"/>
+<rect x="20" y="80" width="370" height="250" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="35" y="102" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Профессия и призвание</text>
+<circle cx="160" cy="210" r="65" fill="#FB923C" stroke="#FB923C" stroke-width="1.5" opacity="0.7"/>
+<circle cx="230" cy="210" r="65" fill="#60A5FA" stroke="#60A5FA" stroke-width="1.5" opacity="0.7"/>
+<text x="125" y="205" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Хочу</text>
+<text x="125" y="220" fill="#FCD34D" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">Интерес</text>
+<text x="265" y="205" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Могу</text>
+<text x="265" y="220" fill="#FCD34D" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">Способности</text>
+<text x="195" y="205" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Надо</text>
+<text x="195" y="222" fill="#FCD34D" font-size="8" text-anchor="middle" font-family="sans-serif" font-weight="normal">Потребность</text>
+<rect x="35" y="280" width="340" height="40" fill="#292524" rx="6" stroke="#FBBF24" stroke-width="1"/>
+<text x="205" y="304" fill="#FBBF24" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Профессия — на пересечении</text>
+<rect x="400" y="80" width="380" height="250" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="415" y="102" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Культура труда</text>
+<rect x="415" y="120" width="350" height="32" fill="#292524" rx="4" stroke="#F87171" stroke-width="1"/>
+<text x="425" y="134" fill="#F87171" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Дисциплина</text>
+<text x="540" y="134" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Соблюдение правил и режима</text>
+<rect x="415" y="158" width="350" height="32" fill="#292524" rx="4" stroke="#FB923C" stroke-width="1"/>
+<text x="425" y="172" fill="#FB923C" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Ответственность</text>
+<text x="540" y="172" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Добросовестное выполнение</text>
+<rect x="415" y="196" width="350" height="32" fill="#292524" rx="4" stroke="#4ADE80" stroke-width="1"/>
+<text x="425" y="210" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Профессионализм</text>
+<text x="540" y="210" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Мастерство и компетентность</text>
+<rect x="415" y="234" width="350" height="32" fill="#292524" rx="4" stroke="#60A5FA" stroke-width="1"/>
+<text x="425" y="248" fill="#60A5FA" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Творчество</text>
+<text x="540" y="248" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Инициатива и новаторство</text>
+<rect x="415" y="272" width="350" height="32" fill="#292524" rx="4" stroke="#C084FC" stroke-width="1"/>
+<text x="425" y="286" fill="#C084FC" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Сотрудничество</text>
+<text x="540" y="286" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Командная работа, уважение</text>
+<rect x="20" y="340" width="760" height="230" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="35" y="362" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Типы профессий (по Климову)</text>
+<rect x="35" y="385" width="360" height="42" fill="#292524" rx="6" stroke="#4ADE80" stroke-width="1"/>
+<text x="47" y="401" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Человек — Природа</text>
+<text x="47" y="417" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Агроном, ветеринар, биолог</text>
+<rect x="410" y="385" width="360" height="42" fill="#292524" rx="6" stroke="#FB923C" stroke-width="1"/>
+<text x="422" y="401" fill="#FB923C" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Человек — Техника</text>
+<text x="422" y="417" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Инженер, механик, программист</text>
+<rect x="35" y="435" width="360" height="42" fill="#292524" rx="6" stroke="#60A5FA" stroke-width="1"/>
+<text x="47" y="451" fill="#60A5FA" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Человек — Человек</text>
+<text x="47" y="467" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Учитель, врач, менеджер</text>
+<rect x="410" y="435" width="360" height="42" fill="#292524" rx="6" stroke="#C084FC" stroke-width="1"/>
+<text x="422" y="451" fill="#C084FC" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Человек — Знак</text>
+<text x="422" y="467" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Бухгалтер, переводчик, аналитик</text>
+<rect x="35" y="485" width="360" height="42" fill="#292524" rx="6" stroke="#F87171" stroke-width="1"/>
+<text x="47" y="501" fill="#F87171" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Человек — Искусство</text>
+<text x="47" y="517" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Художник, актёр, дизайнер</text>
+<rect x="35" y="540" width="730" height="22" fill="#292524" rx="4"/>
+<text x="400" y="555" fill="#FCD34D" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Правильный выбор профессии — залог успешной карьеры и удовлетворённости жизнью</text>
+<rect x="0" y="570" width="800" height="30" fill="url(#bg)" rx="8"/>
+<text x="400.0" y="590" fill="#FCD34D" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Обществознание · 7 класс</text>
+</svg>

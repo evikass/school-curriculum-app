@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs><linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#334155"/>
+  <stop offset="100%" stop-color="#475569"/>
+</linearGradient></defs>
+<rect x="0" y="0" width="800" height="70" rx="0" fill="url(#headerGrad)" opacity="1.0"/>
+<text x="400" y="35" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Права и свободы человека</text>
+<text x="400" y="55" font-size="12" fill="#93c5fd" text-anchor="middle" font-weight="normal" font-family="sans-serif">Всеобщая декларация прав человека, категории прав</text>
+<rect x="15" y="15" width="90" height="28" rx="14" fill="#3b82f6" opacity="1.0"/>
+<text x="60" y="34" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">8 класс</text>
+<rect x="700" y="15" width="85" height="28" rx="14" fill="#8b5cf6" opacity="1.0"/>
+<text x="743" y="34" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Право</text>
+<rect x="0" y="565" width="800" height="35" rx="0" fill="#334155" opacity="1.0"/>
+<text x="400" y="586" font-size="11" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Право · 8 класс · Образовательный курс</text>
+<rect x="0" y="70" width="800" height="495" rx="0" fill="#f8fafc" opacity="1.0"/>
+<rect x="20" y="80" width="760" height="60" rx="10" fill="#ffffff" opacity="1.0" stroke="#3b82f6" stroke-width="1.5"/>
+<rect x="20" y="80" width="6" height="60" rx="0" fill="#3b82f6" opacity="1.0"/>
+<text x="400" y="103" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="bold" font-family="sans-serif">Всеобщая декларация прав человека (1948 г.)</text>
+<text x="400" y="122" font-size="11" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Принята Генеральной Ассамблеей ООН · 30 статей · Основа международного права прав человека</text>
+<rect x="20" y="150" width="185" height="220" rx="8" fill="#ffffff" opacity="1.0" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="20" y="150" width="185" height="45" rx="8" fill="#ef4444" opacity="1.0"/>
+<rect x="20" y="180" width="185" height="15" rx="0" fill="#ef4444" opacity="1.0"/>
+<text x="112" y="162" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Личные (гражданские)</text>
+<text x="112" y="176" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">права</text>
+<circle cx="34" cy="207" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="44" y="210" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Право на жизнь</text>
+<circle cx="34" cy="229" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="44" y="232" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Свобода и личная</text>
+<text x="44" y="244" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">неприкосновенность</text>
+<circle cx="34" cy="265" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="44" y="268" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Свобода совести</text>
+<circle cx="34" cy="287" r="3" fill="#ef4444" opacity="1.0"/>
+<text x="44" y="290" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Неприкосновенность</text>
+<text x="44" y="302" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">жилища</text>
+<rect x="212" y="150" width="185" height="220" rx="8" fill="#ffffff" opacity="1.0" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="212" y="150" width="185" height="45" rx="8" fill="#3b82f6" opacity="1.0"/>
+<rect x="212" y="180" width="185" height="15" rx="0" fill="#3b82f6" opacity="1.0"/>
+<text x="304" y="162" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Политические</text>
+<text x="304" y="176" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">права</text>
+<circle cx="226" cy="207" r="3" fill="#3b82f6" opacity="1.0"/>
+<text x="236" y="210" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Свобода слова</text>
+<circle cx="226" cy="229" r="3" fill="#3b82f6" opacity="1.0"/>
+<text x="236" y="232" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Право на собрания</text>
+<circle cx="226" cy="251" r="3" fill="#3b82f6" opacity="1.0"/>
+<text x="236" y="254" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Избирательное право</text>
+<circle cx="226" cy="273" r="3" fill="#3b82f6" opacity="1.0"/>
+<text x="236" y="276" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Свобода союзов</text>
+<rect x="404" y="150" width="185" height="220" rx="8" fill="#ffffff" opacity="1.0" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="404" y="150" width="185" height="45" rx="8" fill="#10b981" opacity="1.0"/>
+<rect x="404" y="180" width="185" height="15" rx="0" fill="#10b981" opacity="1.0"/>
+<text x="496" y="162" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Социально-</text>
+<text x="496" y="176" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">экономические права</text>
+<circle cx="418" cy="207" r="3" fill="#10b981" opacity="1.0"/>
+<text x="428" y="210" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Право на труд</text>
+<circle cx="418" cy="229" r="3" fill="#10b981" opacity="1.0"/>
+<text x="428" y="232" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Право на отдых</text>
+<circle cx="418" cy="251" r="3" fill="#10b981" opacity="1.0"/>
+<text x="428" y="254" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Право на образование</text>
+<circle cx="418" cy="273" r="3" fill="#10b981" opacity="1.0"/>
+<text x="428" y="276" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Право на жилище</text>
+<rect x="596" y="150" width="185" height="220" rx="8" fill="#ffffff" opacity="1.0" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="596" y="150" width="185" height="45" rx="8" fill="#8b5cf6" opacity="1.0"/>
+<rect x="596" y="180" width="185" height="15" rx="0" fill="#8b5cf6" opacity="1.0"/>
+<text x="688" y="162" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Культурные</text>
+<text x="688" y="176" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">права</text>
+<circle cx="610" cy="207" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="620" y="210" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Свобода творчества</text>
+<circle cx="610" cy="229" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="620" y="232" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Право на участие</text>
+<text x="620" y="244" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">в культ. жизни</text>
+<circle cx="610" cy="265" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="620" y="268" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Право на образование</text>
+<circle cx="610" cy="287" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="620" y="290" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Академическая</text>
+<text x="620" y="302" font-size="9" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">свобода</text>
+<rect x="20" y="385" width="380" height="145" rx="8" fill="#ffffff" opacity="1.0" stroke="#475569" stroke-width="1"/>
+<rect x="20" y="385" width="380" height="5" rx="0" fill="#475569" opacity="1.0"/>
+<text x="210" y="406" font-size="13" fill="#475569" text-anchor="middle" font-weight="bold" font-family="sans-serif">Ключевые статьи Конституции РФ</text>
+<text x="35" y="424" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Ст. 17 — Права и свободы принадлежат от рождения</text>
+<text x="35" y="441" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Ст. 18 — Непосредственное действие прав</text>
+<text x="35" y="458" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Ст. 19 — Равенство перед законом</text>
+<text x="35" y="475" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Ст. 20 — Право на жизнь</text>
+<text x="35" y="492" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Ст. 21 — Достоинство личности охраняется государством</text>
+<text x="35" y="509" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Ст. 22 — Свобода и личная неприкосновенность</text>
+<rect x="410" y="385" width="370" height="145" rx="8" fill="#ffffff" opacity="1.0" stroke="#8b5cf6" stroke-width="1"/>
+<rect x="410" y="385" width="370" height="5" rx="0" fill="#8b5cf6" opacity="1.0"/>
+<text x="595" y="406" font-size="13" fill="#8b5cf6" text-anchor="middle" font-weight="bold" font-family="sans-serif">Обязанности человека и гражданина</text>
+<circle cx="424" cy="421" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="434" y="424" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Соблюдать Конституцию и законы</text>
+<circle cx="424" cy="438" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="434" y="441" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Платить законно установленные налоги</text>
+<circle cx="424" cy="455" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="434" y="458" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Сохранять природу и окружающую среду</text>
+<circle cx="424" cy="472" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="434" y="475" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Защищать Отечество</text>
+<circle cx="424" cy="489" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="434" y="492" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Получать основное общее образование</text>
+<circle cx="424" cy="506" r="3" fill="#8b5cf6" opacity="1.0"/>
+<text x="434" y="509" font-size="10" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Заботиться о нетрудоспособных родителях</text>
+</svg>

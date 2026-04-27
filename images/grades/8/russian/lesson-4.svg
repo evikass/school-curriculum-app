@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDF2F8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FCE7F3;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#BE185D;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#FBCFE8;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#BE185D" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowSmall" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#1F2937" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0"/>
+
+  <!-- Title Bar -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0"/>
+  <rect x="0" y="65" width="800" height="5" fill="#BE185D" opacity="0.3"/>
+  <text x="400" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Обособленные члены предложения</text>
+  <text x="400" y="58" font-family="Arial, sans-serif" font-size="13" fill="#F9A8D4" text-anchor="middle">Причастные и деепричастные обороты, приложения</text>
+
+  <circle cx="40" cy="35" r="22" fill="#FFFFFF" opacity="0.25"/>
+  <text x="40" y="41" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+
+  <rect x="15" y="82" width="380" height="80" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="205.0" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Что такое обособление?</text>
+
+  <text x="30" y="106" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">Обособление — выделение второстепенного</text>
+  <text x="30" y="122" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">члена предложения запятыми или тире для</text>
+  <text x="30" y="138" font-family="Arial, sans-serif" font-size="11" fill="#EC4899" font-weight="bold">придания ему большей самостоятельности.</text>
+  <text x="30" y="154" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Выделяются интонацией на письме запятыми.</text>
+
+  <rect x="410" y="82" width="375" height="80" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="597.5" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Причастный оборот</text>
+
+  <text x="425" y="106" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">Причастный оборот = причастие + зависимые слова</text>
+  <text x="425" y="124" font-family="Arial, sans-serif" font-size="11" fill="#FB7185" font-weight="bold">Обособляется запятыми:</text>
+  <text x="425" y="142" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Книга, <tspan fill="#F59E0B" font-weight="bold">лежащая на столе</tspan>, интересная.</text>
+  <text x="425" y="158" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">После определяемого слова — обособляется!</text>
+
+  <rect x="15" y="175" width="380" height="200" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="205.0" y="193" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Причастный оборот: правила</text>
+
+  <text x="30" y="198" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#BE185D">1. После определяемого слова — обособляется:</text>
+  <text x="30" y="216" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Мальчик, <tspan fill="#FB7185">читающий книгу</tspan>, сидел у окна.</text>
+  <text x="30" y="238" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#BE185D">2. Перед определяемым словом — НЕ обособляется:</text>
+  <text x="30" y="256" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"><tspan fill="#F59E0B">Читающий книгу</tspan> мальчик сидел у окна.</text>
+  <text x="30" y="278" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#BE185D">3. Всегда обособляется (любая позиция):</text>
+  <text x="30" y="296" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Его сестра, <tspan fill="#A855F7">учившаяся в Москве</tspan>, приехала.</text>
+  <text x="30" y="314" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">(относится к личному местоимению)</text>
+  <text x="30" y="334" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#BE185D">4. С союзом «как» — обособляется:</text>
+  <text x="30" y="352" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Студент, <tspan fill="#3B82F6">как отличник учёбы</tspan>, получил стипендию.</text>
+  <text x="30" y="368" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">(причина = значение «будучи»)</text>
+
+  <rect x="410" y="175" width="375" height="200" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="597.5" y="193" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Деепричастный оборот</text>
+
+  <text x="425" y="198" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">Деепричастный оборот = деепричастие + зав. сл.</text>
+  <rect x="425" y="208" width="350" height="26" fill="#FB7185" rx="4" opacity="0.15"/>
+  <text x="435" y="226" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FB7185">Обособляется ВСЕГДА, независимо от позиции!</text>
+  <text x="425" y="250" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#BE185D">Примеры:</text>
+  <text x="425" y="268" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"><tspan fill="#A855F7">Читая книгу</tspan>, мальчик сидел у окна.</text>
+  <text x="425" y="286" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Мальчик, <tspan fill="#A855F7">читая книгу</tspan>, сидел у окна.</text>
+  <text x="425" y="304" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Мальчик сидел у окна, <tspan fill="#A855F7">читая книгу</tspan>.</text>
+  <line x1="425" y1="314" x2="770" y2="314" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="425" y="332" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FB7185">Не обособляются:</text>
+  <text x="425" y="348" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Фразеологизмы: спустя рукава, засучив рукава</text>
+  <text x="425" y="364" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Одиночные деепричастия (нареч. знач.): молча, сидя</text>
+
+  <rect x="15" y="390" width="380" height="195" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="205.0" y="408" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Приложение</text>
+
+  <text x="30" y="414" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">Приложение — определение, выраженное сущ.,</text>
+  <text x="30" y="430" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">которое даёт предмету другое название.</text>
+  <line x1="30" y1="438" x2="380" y2="438" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="30" y="456" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BE185D">Обособляется запятыми:</text>
+  <text x="30" y="474" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Иван, <tspan fill="#3B82F6">мой брат</tspan>, учится в университете.</text>
+  <text x="30" y="492" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"><tspan fill="#3B82F6">Упрямый</tspan>, он не хотел уступать. (к местоимению)</text>
+  <text x="30" y="514" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BE185D">Обособляется дефисом (одиночное):</text>
+  <text x="30" y="532" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Девочка-подросток, город-герой, учёный-биолог</text>
+  <text x="30" y="554" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BE185D">С союзом «как» (причина):</text>
+  <text x="30" y="572" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Как <tspan fill="#F59E0B">истинный художник</tspan>, он видел красоту.</text>
+
+  <rect x="410" y="390" width="375" height="195" fill="#FFFFFF" rx="6" stroke="#FB7185" stroke-width="2" filter="url(#shadowSmall)"/>
+  <rect x="410" y="390" width="375" height="22" fill="#FB7185" rx="6"/>
+  <rect x="410" y="406" width="375" height="6" fill="#FB7185"/>
+  <text x="597.5" y="405" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Сводная таблица обособления</text>
+  <text x="418" y="428" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Причастный оборот:</text>
+  <text x="418" y="444" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  После опред. слова → запятые</text>
+  <text x="418" y="460" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Перед опред. словом → без запятых</text>
+  <text x="418" y="476" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  К местоимению → всегда запятые</text>
+  <text x="418" y="492" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="508" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Деепричастный оборот:</text>
+  <text x="418" y="524" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Всегда обособляется запятыми!</text>
+  <text x="418" y="540" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="556" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Приложение:</text>
+  <text x="418" y="572" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Распространённое → запятые</text>
+  <text x="418" y="588" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  К местоимению → запятые</text>
+  <text x="418" y="604" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Одиночное → дефис</text>
+  <text x="418" y="620" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  С «как» (причина) → запятые</text>
+</svg>

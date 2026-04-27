@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="72" rx="0" fill="#EF4444" />
+  <rect x="0" y="72" width="800" height="4" rx="0" fill="#B91C1C" />
+  <text x="400" y="36" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="sans-serif">Начало династии Романовых</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="normal" font-family="sans-serif">Земский собор 1613 года — Михаил Фёдорович</text>
+  <rect x="0" y="570" width="800" height="30" rx="0" fill="#FFF1F2" />
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#FCA5A5" stroke-width="1" />
+  <text x="400" y="590" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="normal" font-family="sans-serif">7 класс — История России — Урок 7</text>
+  <rect x="0" y="76" width="800" height="494" rx="0" fill="#FFF1F2" opacity="0.4" />
+  <rect x="200" y="90" width="400" height="70" rx="8" fill="#B91C1C" />
+  <text x="400" y="118" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="bold" font-family="sans-serif">Земский собор 1613 года</text>
+  <text x="400" y="143" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="normal" font-family="sans-serif">Избрание Михаила Фёдоровича Романова на царство</text>
+  <text x="400" y="190" text-anchor="middle" fill="#B91C1C" font-size="14" font-weight="bold" font-family="sans-serif">Почему Романовы?</text>
+  <rect x="100" y="208" width="600" height="32" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="100" y="208" width="4" height="32" rx="2" fill="#EF4444" />
+  <text x="116" y="222" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="sans-serif">Родство с Иваном IV</text>
+  <text x="330" y="222" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">— Анастасия Романовна — жена Ивана Грозного</text>
+  <rect x="100" y="244" width="600" height="32" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="100" y="244" width="4" height="32" rx="2" fill="#EF4444" />
+  <text x="116" y="258" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="sans-serif">Компромиссная фигура</text>
+  <text x="330" y="258" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">— Устраивал разные политические группы</text>
+  <rect x="100" y="280" width="600" height="32" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="100" y="280" width="4" height="32" rx="2" fill="#EF4444" />
+  <text x="116" y="294" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="sans-serif">Юность Михаила</text>
+  <text x="330" y="294" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">— 16 лет — легко управлять боярам</text>
+  <rect x="100" y="316" width="600" height="32" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="100" y="316" width="4" height="32" rx="2" fill="#EF4444" />
+  <text x="116" y="330" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="sans-serif">Незапятнанность</text>
+  <text x="330" y="330" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">— Не участвовал в интригах Смуты напрямую</text>
+  <text x="400" y="370" text-anchor="middle" fill="#B91C1C" font-size="14" font-weight="bold" font-family="sans-serif">Первые Романовы на русском престоле</text>
+  <line x1="80" y1="395" x2="720" y2="395" stroke="#EF4444" stroke-width="3" />
+  <circle cx="130" cy="395" r="8" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="130" y="381" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1613</text>
+  <text x="130" y="413" text-anchor="middle" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">Михаил</text>
+  <text x="130" y="426" text-anchor="middle" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">Фёдорович</text>
+  <circle cx="300" cy="395" r="8" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="300" y="381" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1645</text>
+  <text x="300" y="413" text-anchor="middle" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">Алексей</text>
+  <text x="300" y="426" text-anchor="middle" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">Михайлович</text>
+  <circle cx="470" cy="395" r="8" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="470" y="381" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1676</text>
+  <text x="470" y="413" text-anchor="middle" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">Фёдор</text>
+  <text x="470" y="426" text-anchor="middle" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">Алексеевич</text>
+  <circle cx="620" cy="395" r="8" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="620" y="381" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1682</text>
+  <text x="620" y="413" text-anchor="middle" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">Пётр I и</text>
+  <text x="620" y="426" text-anchor="middle" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">Иван V</text>
+  <text x="400" y="460" text-anchor="middle" fill="#B91C1C" font-size="13" font-weight="bold" font-family="sans-serif">Деятельность Михаила Фёдоровича (1613–1645)</text>
+  <rect x="30" y="480" width="246" height="75" rx="5" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="30" y="480" width="246" height="20" rx="5" fill="#EF4444" />
+  <rect x="30" y="496" width="246" height="4" rx="0" fill="#EF4444" />
+  <text x="153" y="494" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">Внешняя политика</text>
+  <text x="153" y="516" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Столбовский мир 1617 г. (Швеция)</text>
+  <text x="153" y="530" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Деулинское перемирие 1618 г. (Польша)</text>
+  <rect x="290" y="480" width="246" height="75" rx="5" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="290" y="480" width="246" height="20" rx="5" fill="#EF4444" />
+  <rect x="290" y="496" width="246" height="4" rx="0" fill="#EF4444" />
+  <text x="413" y="494" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">Внутренняя политика</text>
+  <text x="413" y="516" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Восстановление управления</text>
+  <text x="413" y="530" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Возврат пленных и беженцев</text>
+  <rect x="550" y="480" width="246" height="75" rx="5" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="550" y="480" width="246" height="20" rx="5" fill="#EF4444" />
+  <rect x="550" y="496" width="246" height="4" rx="0" fill="#EF4444" />
+  <text x="673" y="494" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">Экономика</text>
+  <text x="673" y="516" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Восстановление сельского хозяйства</text>
+  <text x="673" y="530" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Новые таможенные пошлины</text>
+</svg>

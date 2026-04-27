@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EDE9FE;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F5F3FF;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5B21B6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#EDE9FE;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#5B21B6" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowSm" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#5B21B6" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0"/>
+  <!-- Decorative circles -->
+  <circle cx="750" cy="50" r="80" fill="#8B5CF6" opacity="0.05"/>
+  <circle cx="50" cy="550" r="60" fill="#8B5CF6" opacity="0.05"/>
+  <circle cx="400" cy="600" r="100" fill="#A78BFA" opacity="0.04"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="60" fill="url(#headerGrad)" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">Типы химических реакций</text>
+  <!-- Small decorative line under header -->
+  <rect x="300" y="54" width="200" height="3" fill="#C4B5FD" rx="1.5" opacity="0.7"/>
+  <rect x="20" y="75" width="375" height="155" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <rect x="30" y="85" width="355" height="28" fill="#D1FAE5" stroke="#10B981" stroke-width="1" rx="8"/>
+  <text x="45" y="104" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#10B981">1. Реакция соединения</text>
+  <text x="40" y="128" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#6B7280">Два и более веществ → одно новое</text>
+  <text x="207" y="152" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#10B981">A + B → AB</text>
+  <text x="40" y="175" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">2Mg + O₂ → 2MgO</text>
+  <text x="40" y="192" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">2H₂ + O₂ → 2H₂O</text>
+  <text x="40" y="209" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">CaO + H₂O → Ca(OH)₂</text>
+  <rect x="405" y="75" width="375" height="155" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <rect x="415" y="85" width="355" height="28" fill="#FEE2E2" stroke="#EF4444" stroke-width="1" rx="8"/>
+  <text x="430" y="104" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#EF4444">2. Реакция разложения</text>
+  <text x="420" y="128" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#6B7280">Одно вещество → два и более</text>
+  <text x="592" y="152" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#EF4444">AB → A + B</text>
+  <text x="420" y="175" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">2H₂O → 2H₂ + O₂</text>
+  <text x="420" y="192" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">CaCO₃ → CaO + CO₂</text>
+  <text x="420" y="209" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">2KMnO₄ → K₂MnO₄ + MnO₂ + O₂</text>
+  <rect x="20" y="240" width="375" height="155" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <rect x="30" y="250" width="355" height="28" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" rx="8"/>
+  <text x="45" y="269" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#3B82F6">3. Реакция замещения</text>
+  <text x="40" y="293" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#6B7280">Атом замещает атом в соединении</text>
+  <text x="207" y="317" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#3B82F6">A + BC → AC + B</text>
+  <text x="40" y="340" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">Zn + 2HCl → ZnCl₂ + H₂</text>
+  <text x="40" y="357" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">Fe + CuSO₄ → FeSO₄ + Cu</text>
+  <text x="40" y="374" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">2Na + 2H₂O → 2NaOH + H₂</text>
+  <rect x="405" y="240" width="375" height="155" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <rect x="415" y="250" width="355" height="28" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1" rx="8"/>
+  <text x="430" y="269" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#F59E0B">4. Реакция обмена</text>
+  <text x="420" y="293" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#6B7280">Обмен составными частями</text>
+  <text x="592" y="317" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#F59E0B">AB + CD → AD + CB</text>
+  <text x="420" y="340" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">NaOH + HCl → NaCl + H₂O</text>
+  <text x="420" y="357" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">BaCl₂ + Na₂SO₄ → BaSO₄ + 2NaCl</text>
+  <text x="420" y="374" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">AgNO₃ + NaCl → AgCl + NaNO₃</text>
+  <rect x="20" y="405" width="760" height="165" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <text x="40" y="430" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#7C3AED">Классификация реакций</text>
+  <rect x="40" y="445" width="230" height="50" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1" rx="8"/>
+  <text x="55" y="462" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#7C3AED">По числу веществ:</text>
+  <text x="55" y="478" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#7C3AED">Обратимые ⇌</text>
+  <text x="55" y="492" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#7C3AED">Необратимые →</text>
+  <rect x="285" y="445" width="230" height="50" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1" rx="8"/>
+  <text x="300" y="462" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#EF4444">По тепловому эффекту:</text>
+  <text x="300" y="478" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#EF4444">Экзотермические (+Q)</text>
+  <text x="300" y="492" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3B82F6">Эндотермические (-Q)</text>
+  <rect x="530" y="445" width="230" height="50" fill="#D1FAE5" stroke="#6EE7B7" stroke-width="1" rx="8"/>
+  <text x="545" y="462" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#10B981">По фазовому составу:</text>
+  <text x="545" y="478" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10B981">Гомогенные (одна фаза)</text>
+  <text x="545" y="492" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10B981">Гетерогенные (неск. фаз)</text>
+  <rect x="40" y="505" width="350" height="50" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1" rx="8"/>
+  <text x="55" y="522" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#3B82F6">По участию катализатора:</text>
+  <text x="55" y="538" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3B82F6">Каталитические / Некаталитические</text>
+  <rect x="410" y="505" width="350" height="50" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1" rx="8"/>
+  <text x="425" y="522" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#F59E0B">По изменению степ. окисления:</text>
+  <text x="425" y="538" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#F59E0B">Окислительно-восстановительные / Без изменений</text>
+  <!-- Footer -->
+  <rect x="0" y="580" width="800" height="20" fill="#7C3AED" opacity="0.1"/>
+  <text x="400" y="594" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#6B7280">Химия — 8 класс</text>
+</svg>

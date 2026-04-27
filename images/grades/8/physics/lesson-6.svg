@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#F59E0B" />
+  <rect x="0" y="6" width="800" height="70" fill="#F59E0B" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#92400E" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">6</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Закон Ома</text>
+  <text x="78" y="58" fill="#FEF3C7" font-size="13" font-family="Arial, sans-serif">I = U/R, график, расчёты</text>
+  <rect x="17" y="92" width="385" height="130" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="385" height="130" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="90" width="385" height="26" rx="8" fill="#F59E0B" />
+  <rect x="15" y="108" width="385" height="8" fill="#F59E0B" />
+  <text x="207" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Закон Ома для участка цепи</text>
+  <text x="200" y="145" text-anchor="middle" fill="#92400E" font-size="34" font-weight="bold" font-family="Arial, sans-serif">I = U / R</text>
+  <line x1="124" y1="151" x2="276" y2="151" stroke="#F59E0B" stroke-width="2" opacity="0.4" />
+  <text x="30" y="175" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">Сила тока прямо пропорциональна</text>
+  <text x="30" y="193" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">напряжению и обратно пропорц.</text>
+  <text x="30" y="211" text-anchor="start" fill="#92400E" font-size="13" font-weight="bold" font-family="Arial, sans-serif">сопротивлению.</text>
+  <rect x="417" y="92" width="370" height="130" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="90" width="370" height="130" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="415" y="90" width="370" height="26" rx="8" fill="#D97706" />
+  <rect x="415" y="108" width="370" height="8" fill="#D97706" />
+  <text x="600" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Треугольник формул</text>
+  <path d="M600,120 L660,200 L540,200 Z" stroke="#F59E0B" stroke-width="3" fill="none" />
+  <text x="600" y="155" text-anchor="middle" fill="#92400E" font-size="18" font-weight="bold" font-family="Arial, sans-serif">U</text>
+  <text x="565" y="198" text-anchor="middle" fill="#1C1917" font-size="16" font-weight="bold" font-family="Arial, sans-serif">I</text>
+  <text x="635" y="198" text-anchor="middle" fill="#1C1917" font-size="16" font-weight="bold" font-family="Arial, sans-serif">R</text>
+  <text x="600" y="195" text-anchor="middle" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">×</text>
+  <text x="430" y="140" text-anchor="start" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">U = I · R</text>
+  <text x="430" y="160" text-anchor="start" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">I = U / R</text>
+  <text x="430" y="180" text-anchor="start" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">R = U / I</text>
+  <rect x="17" y="232" width="385" height="195" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="230" width="385" height="195" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="230" width="385" height="26" rx="8" fill="#F59E0B" />
+  <rect x="15" y="248" width="385" height="8" fill="#F59E0B" />
+  <text x="207" y="248" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">График зависимости I(U)</text>
+  <line x1="60" y1="400" x2="60" y2="250" stroke="#1C1917" stroke-width="2" />
+  <line x1="60" y1="400" x2="370" y2="400" stroke="#1C1917" stroke-width="2" />
+  <text x="40" y="325" text-anchor="middle" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">I</text>
+  <text x="350" y="418" text-anchor="start" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">U</text>
+  <line x1="60" y1="400" x2="340" y2="270" stroke="#3B82F6" stroke-width="2.5" />
+  <line x1="60" y1="400" x2="250" y2="280" stroke="#EF4444" stroke-width="2.5" />
+  <text x="345" y="268" text-anchor="start" fill="#3B82F6" font-size="11" font-weight="bold" font-family="Arial, sans-serif">R₁ (мало)</text>
+  <text x="255" y="278" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="Arial, sans-serif">R₂ (велико)</text>
+  <text x="100" y="420" text-anchor="start" fill="#92400E" font-size="12" font-weight="normal" font-family="Arial, sans-serif">I ∝ U при R = const</text>
+  <text x="52" y="415" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">0</text>
+  <rect x="417" y="232" width="370" height="195" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="230" width="370" height="195" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="415" y="230" width="370" height="26" rx="8" fill="#22C55E" />
+  <rect x="415" y="248" width="370" height="8" fill="#22C55E" />
+  <text x="600" y="248" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Примеры расчётов</text>
+  <text x="430" y="262" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">1) U = 12 В, R = 4 Ом</text>
+  <text x="430" y="282" text-anchor="start" fill="#92400E" font-size="13" font-weight="bold" font-family="Arial, sans-serif">   I = U/R = 12/4 = 3 А</text>
+  <text x="430" y="310" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">2) I = 2 А, R = 10 Ом</text>
+  <text x="430" y="330" text-anchor="start" fill="#92400E" font-size="13" font-weight="bold" font-family="Arial, sans-serif">   U = I·R = 2·10 = 20 В</text>
+  <text x="430" y="358" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">3) U = 220 В, I = 0.5 А</text>
+  <text x="430" y="378" text-anchor="start" fill="#92400E" font-size="13" font-weight="bold" font-family="Arial, sans-serif">   R = U/I = 220/0.5 = 440 Ом</text>
+  <text x="430" y="405" text-anchor="start" fill="#EF4444" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Short circuit: R → 0, I → ∞ !</text>
+  <rect x="17" y="437" width="770" height="55" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="435" width="770" height="55" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="435" width="770" height="26" rx="8" fill="#92400E" />
+  <rect x="15" y="453" width="770" height="8" fill="#92400E" />
+  <text x="400" y="453" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Важные закономерности</text>
+  <text x="30" y="460" text-anchor="start" fill="#3B82F6" font-size="13" font-weight="normal" font-family="Arial, sans-serif">U ↑ → I ↑ (прямая пропорц.)</text>
+  <text x="300" y="460" text-anchor="start" fill="#EF4444" font-size="13" font-weight="normal" font-family="Arial, sans-serif">R ↑ → I ↓ (обратная пропорц.)</text>
+  <text x="580" y="460" text-anchor="start" fill="#92400E" font-size="14" font-weight="bold" font-family="Arial, sans-serif">I ∝ 1/R</text>
+  <rect x="0" y="570" width="800" height="30" fill="#92400E" />
+  <text x="400" y="590" text-anchor="middle" fill="#FEF3C7" font-size="11" font-family="Arial, sans-serif">Физика • 8 класс • Интернет-Школа</text>
+</svg>

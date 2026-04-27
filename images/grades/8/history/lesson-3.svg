@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBFB" />
+      <stop offset="100%" stop-color="#FFF0F0" />
+    </linearGradient>
+  </defs>
+  <defs>
+    <filter id="shadow3" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000030" />
+    </filter>
+  </defs>
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBFB" />
+      <stop offset="100%" stop-color="#FFF5F5" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#bg3)" />
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B91C1C" />
+      <stop offset="100%" stop-color="#EF4444" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" />
+  <rect x="0" y="70" width="800" height="3" fill="#D4A017" />
+  <text x="400" y="32" font-size="22" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Дворцовые перевороты (1725-1762)</text>
+  <text x="400" y="55" font-size="13" fill="#FEE2E2" text-anchor="middle" font-family="sans-serif">Эпоха нестабильности, Елизавета, Анна, Екатерина I, Пётр III</text>
+  <polygon points="21.799999999999997,43.8 21.799999999999997,30.6 28.4,37.2 35,24.0 41.6,37.2 48.2,30.6 48.2,43.8" fill="#D4A017" stroke="#8B6914" />
+  <circle cx="35" cy="28.4" r="2.2" fill="#EF4444" />
+  <circle cx="26.2" cy="33.9" r="1.6500000000000001" fill="#3B82F6" />
+  <circle cx="43.8" cy="33.9" r="1.6500000000000001" fill="#3B82F6" />
+  <rect x="20" y="90" width="760" height="70" fill="#FFFFFF" stroke="#FCA5A5" rx="8" ry="8" />
+  <text x="400" y="104" font-size="11" fill="#B91C1C" text-anchor="middle" font-family="sans-serif" font-weight="bold">Хронология дворцовых переворотов</text>
+  <line x1="40" y1="130" x2="760" y2="130" stroke="#EF4444" stroke-width="3" />
+  <circle cx="80" cy="130" r="5" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="80" y="145" font-size="8" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1725</text>
+  <text x="80" y="156" font-size="7" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Екатери-</text>
+  <text x="80" y="165" font-size="7" fill="#1F2937" text-anchor="middle" font-family="sans-serif">на I</text>
+  <circle cx="190" cy="130" r="5" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="190" y="145" font-size="8" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1727</text>
+  <text x="190" y="156" font-size="7" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Пётр II</text>
+  <circle cx="300" cy="130" r="5" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="300" y="145" font-size="8" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1730</text>
+  <text x="300" y="156" font-size="7" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Анна</text>
+  <text x="300" y="165" font-size="7" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Иоанновна</text>
+  <circle cx="415" cy="130" r="5" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="415" y="145" font-size="8" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1740</text>
+  <text x="415" y="156" font-size="7" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Иван VI</text>
+  <text x="415" y="165" font-size="7" fill="#1F2937" text-anchor="middle" font-family="sans-serif">(Браунш.)</text>
+  <circle cx="530" cy="130" r="5" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="530" y="145" font-size="8" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1741</text>
+  <text x="530" y="156" font-size="7" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Елиза-</text>
+  <text x="530" y="165" font-size="7" fill="#1F2937" text-anchor="middle" font-family="sans-serif">вета</text>
+  <circle cx="645" cy="130" r="5" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="645" y="145" font-size="8" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1761</text>
+  <text x="645" y="156" font-size="7" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Пётр III</text>
+  <circle cx="740" cy="130" r="5" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="740" y="145" font-size="8" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1762</text>
+  <text x="740" y="156" font-size="7" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Екате-</text>
+  <text x="740" y="165" font-size="7" fill="#1F2937" text-anchor="middle" font-family="sans-serif">рина II</text>
+  <rect x="20" y="175" width="144" height="195" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="2" rx="8" ry="8" filter="url(#shadow3)" />
+  <rect x="20" y="175" width="144" height="35" fill="#8B5CF6" rx="8" ry="8" />
+  <rect x="20" y="200" width="144" height="10" fill="#8B5CF6" />
+  <text x="92" y="190" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Екатерина I</text>
+  <text x="92" y="205" font-size="9" fill="#FFFFFFCC" text-anchor="middle" font-family="sans-serif">1725-1727</text>
+  <polygon points="30.8,189.8 30.8,182.6 34.4,186.2 38,179.0 41.6,186.2 45.2,182.6 45.2,189.8" fill="#D4A017" stroke="#8B6914" />
+  <circle cx="38" cy="181.4" r="1.2" fill="#EF4444" />
+  <circle cx="33.2" cy="184.4" r="0.8999999999999999" fill="#3B82F6" />
+  <circle cx="42.8" cy="184.4" r="0.8999999999999999" fill="#3B82F6" />
+  <text x="92" y="225" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Вдова Петра I.</text>
+  <text x="92" y="239" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Правление через</text>
+  <text x="92" y="253" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Меньшикова.</text>
+  <text x="92" y="267" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Создан Верховный</text>
+  <text x="92" y="281" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">тайный совет.</text>
+  <rect x="170" y="175" width="144" height="195" fill="#FFFFFF" stroke="#6366F1" stroke-width="2" rx="8" ry="8" filter="url(#shadow3)" />
+  <rect x="170" y="175" width="144" height="35" fill="#6366F1" rx="8" ry="8" />
+  <rect x="170" y="200" width="144" height="10" fill="#6366F1" />
+  <text x="242" y="190" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Пётр II</text>
+  <text x="242" y="205" font-size="9" fill="#FFFFFFCC" text-anchor="middle" font-family="sans-serif">1727-1730</text>
+  <polygon points="180.8,189.8 180.8,182.6 184.4,186.2 188,179.0 191.6,186.2 195.2,182.6 195.2,189.8" fill="#D4A017" stroke="#8B6914" />
+  <circle cx="188" cy="181.4" r="1.2" fill="#EF4444" />
+  <circle cx="183.2" cy="184.4" r="0.8999999999999999" fill="#3B82F6" />
+  <circle cx="192.8" cy="184.4" r="0.8999999999999999" fill="#3B82F6" />
+  <text x="242" y="225" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Внук Петра I.</text>
+  <text x="242" y="239" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Влияние Долгоруких.</text>
+  <text x="242" y="253" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Перенёс двор</text>
+  <text x="242" y="267" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">в Москву.</text>
+  <text x="242" y="281" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Умер в 14 лет.</text>
+  <rect x="320" y="175" width="144" height="195" fill="#FFFFFF" stroke="#EC4899" stroke-width="2" rx="8" ry="8" filter="url(#shadow3)" />
+  <rect x="320" y="175" width="144" height="35" fill="#EC4899" rx="8" ry="8" />
+  <rect x="320" y="200" width="144" height="10" fill="#EC4899" />
+  <text x="392" y="190" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Анна Иоанновна</text>
+  <text x="392" y="205" font-size="9" fill="#FFFFFFCC" text-anchor="middle" font-family="sans-serif">1730-1740</text>
+  <polygon points="330.8,189.8 330.8,182.6 334.4,186.2 338,179.0 341.6,186.2 345.2,182.6 345.2,189.8" fill="#D4A017" stroke="#8B6914" />
+  <circle cx="338" cy="181.4" r="1.2" fill="#EF4444" />
+  <circle cx="333.2" cy="184.4" r="0.8999999999999999" fill="#3B82F6" />
+  <circle cx="342.8" cy="184.4" r="0.8999999999999999" fill="#3B82F6" />
+  <text x="392" y="225" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Племянница Петра I.</text>
+  <text x="392" y="239" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Бироновщина.</text>
+  <text x="392" y="253" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Кабинет министров.</text>
+  <text x="392" y="267" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Расходы на двор.</text>
+  <text x="392" y="281" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Тайная канцелярия.</text>
+  <rect x="470" y="175" width="144" height="195" fill="#FFFFFF" stroke="#059669" stroke-width="2" rx="8" ry="8" filter="url(#shadow3)" />
+  <rect x="470" y="175" width="144" height="35" fill="#059669" rx="8" ry="8" />
+  <rect x="470" y="200" width="144" height="10" fill="#059669" />
+  <text x="542" y="190" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Елизавета Петровна</text>
+  <text x="542" y="205" font-size="9" fill="#FFFFFFCC" text-anchor="middle" font-family="sans-serif">1741-1761</text>
+  <polygon points="480.8,189.8 480.8,182.6 484.4,186.2 488,179.0 491.6,186.2 495.2,182.6 495.2,189.8" fill="#D4A017" stroke="#8B6914" />
+  <circle cx="488" cy="181.4" r="1.2" fill="#EF4444" />
+  <circle cx="483.2" cy="184.4" r="0.8999999999999999" fill="#3B82F6" />
+  <circle cx="492.8" cy="184.4" r="0.8999999999999999" fill="#3B82F6" />
+  <text x="542" y="225" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Дочь Петра I.</text>
+  <text x="542" y="239" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Вернула традиции</text>
+  <text x="542" y="253" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">отца. Ломоносов.</text>
+  <text x="542" y="267" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">МГУ (1755).</text>
+  <text x="542" y="281" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Семилетняя война.</text>
+  <rect x="620" y="175" width="144" height="195" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" rx="8" ry="8" filter="url(#shadow3)" />
+  <rect x="620" y="175" width="144" height="35" fill="#DC2626" rx="8" ry="8" />
+  <rect x="620" y="200" width="144" height="10" fill="#DC2626" />
+  <text x="692" y="190" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Пётр III</text>
+  <text x="692" y="205" font-size="9" fill="#FFFFFFCC" text-anchor="middle" font-family="sans-serif">1761-1762</text>
+  <polygon points="630.8,189.8 630.8,182.6 634.4,186.2 638,179.0 641.6,186.2 645.2,182.6 645.2,189.8" fill="#D4A017" stroke="#8B6914" />
+  <circle cx="638" cy="181.4" r="1.2" fill="#EF4444" />
+  <circle cx="633.2" cy="184.4" r="0.8999999999999999" fill="#3B82F6" />
+  <circle cx="642.8" cy="184.4" r="0.8999999999999999" fill="#3B82F6" />
+  <text x="692" y="225" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Внук Петра I.</text>
+  <text x="692" y="239" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Манифест о вольности</text>
+  <text x="692" y="253" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">дворянства (1762).</text>
+  <text x="692" y="267" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Выход из войны.</text>
+  <text x="692" y="281" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Свергнут женой.</text>
+  <rect x="20" y="385" width="250" height="95" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5" rx="8" ry="8" />
+  <rect x="20" y="385" width="250" height="24" fill="#EF4444" rx="8" ry="8" />
+  <rect x="20" y="399" width="250" height="10" fill="#EF4444" />
+  <text x="145" y="402" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Указ о престолонаследии (1722)</text>
+  <text x="30" y="427" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Пётр I отменил обычный порядок</text>
+  <text x="30" y="441" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">наследования. Монарх сам назначает</text>
+  <text x="30" y="455" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">преемника. Это привело к эпохе</text>
+  <text x="30" y="469" font-size="9" fill="#B91C1C" text-anchor="start" font-family="sans-serif" font-weight="bold">дворцовых переворотов.</text>
+  <rect x="285" y="385" width="250" height="95" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5" rx="8" ry="8" />
+  <rect x="285" y="385" width="250" height="24" fill="#8B5CF6" rx="8" ry="8" />
+  <rect x="285" y="399" width="250" height="10" fill="#8B5CF6" />
+  <line x1="305" y1="383.0" x2="305" y2="401.0" stroke="#C4B5FD" stroke-width="1.7999999999999998" />
+  <line x1="300.2" y1="396.2" x2="309.8" y2="396.2" stroke="#D4A017" stroke-width="1.5" />
+  <circle cx="305" cy="403.4" r="1.7999999999999998" fill="#D4A017" />
+  <text x="420" y="402" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Гвардия — главная сила</text>
+  <text x="295" y="427" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Преображенский и Семёновский</text>
+  <text x="295" y="441" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">полки решали исход переворотов.</text>
+  <text x="295" y="455" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Гвардейцы возводили и свергали</text>
+  <text x="295" y="469" font-size="9" fill="#7C3AED" text-anchor="start" font-family="sans-serif" font-weight="bold">императоров по своей воле.</text>
+  <rect x="550" y="385" width="235" height="95" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" rx="8" ry="8" />
+  <rect x="550" y="385" width="235" height="24" fill="#059669" rx="8" ry="8" />
+  <rect x="550" y="399" width="235" height="10" fill="#059669" />
+  <text x="667" y="402" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Манифест 1762 г.</text>
+  <text x="560" y="427" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Освобождение дворян от</text>
+  <text x="560" y="441" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">обязательной службы. Пётр III</text>
+  <text x="560" y="455" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">подписал манифест. Дворяне</text>
+  <text x="560" y="469" font-size="9" fill="#065F46" text-anchor="start" font-family="sans-serif" font-weight="bold">могли не служить государству.</text>
+  <rect x="20" y="495" width="760" height="40" fill="#FEE2E2" stroke="#FCA5A5" rx="8" ry="8" />
+  <text x="400" y="512" font-size="11" fill="#B91C1C" text-anchor="middle" font-family="sans-serif" font-weight="bold">Эпоха дворцовых переворотов: 37 лет, 6 правителей, постоянная борьба за власть</text>
+  <text x="400" y="527" font-size="9" fill="#6B7280" text-anchor="middle" font-family="sans-serif" font-style="italic">«Дворцы да шептунов довольно, а войска мало» — современники об эпохе</text>
+  <rect x="0" y="570" width="800" height="30" fill="#B91C1C" opacity="0.15" />
+  <text x="400" y="590" font-size="10" fill="#6B7280" text-anchor="middle" font-family="sans-serif">Урок 3 | История России | 8 класс</text>
+</svg>

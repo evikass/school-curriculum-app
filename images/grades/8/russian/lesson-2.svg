@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDF2F8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FCE7F3;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#BE185D;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#FBCFE8;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#BE185D" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowSmall" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#1F2937" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0"/>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#EC4899"/>
+    </marker>
+  </defs>
+
+  <!-- Title Bar -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0"/>
+  <rect x="0" y="65" width="800" height="5" fill="#BE185D" opacity="0.3"/>
+  <text x="400" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Главные и второстепенные члены предложения</text>
+  <text x="400" y="58" font-family="Arial, sans-serif" font-size="13" fill="#F9A8D4" text-anchor="middle">Подлежащее, сказуемое, дополнение, обстоятельство, определение</text>
+
+  <circle cx="40" cy="35" r="22" fill="#FFFFFF" opacity="0.25"/>
+  <text x="40" y="41" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+
+  <rect x="15" y="82" width="370" height="175" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="200.0" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Главные члены предложения</text>
+
+  <rect x="25" y="106" width="170" height="72" fill="#FFFFFF" rx="5" stroke="#10B981" stroke-width="2"/>
+  <text x="110" y="125" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#10B981" text-anchor="middle">ПОДЛЕЖАЩЕЕ</text>
+  <text x="110" y="143" font-family="Arial, sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Кто? Что?</text>
+  <text x="110" y="158" font-family="Arial, sans-serif" font-size="9" fill="#1F2937" text-anchor="middle">Сущ. в им. п., мест.</text>
+  <text x="110" y="171" font-family="Arial, sans-serif" font-size="9" fill="#1F2937" text-anchor="middle">числ., инфинитив</text>
+  <rect x="205" y="106" width="170" height="72" fill="#FFFFFF" rx="5" stroke="#3B82F6" stroke-width="2"/>
+  <text x="290" y="125" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#3B82F6" text-anchor="middle">СКАЗУЕМОЕ</text>
+  <text x="290" y="143" font-family="Arial, sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Что делает? Что сделает?</text>
+  <text x="290" y="158" font-family="Arial, sans-serif" font-size="9" fill="#1F2937" text-anchor="middle">Глагол, сущ., прил.,</text>
+  <text x="290" y="171" font-family="Arial, sans-serif" font-size="9" fill="#1F2937" text-anchor="middle">кратк. прил., причастие</text>
+  <!-- Types of predicate -->
+  <text x="25" y="198" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#3B82F6">Виды сказуемых:</text>
+  <rect x="25" y="206" width="110" height="22" fill="#3B82F6" rx="3" opacity="0.12"/>
+  <text x="80" y="221" font-family="Arial, sans-serif" font-size="9" fill="#3B82F6" text-anchor="middle">Простое глагольное</text>
+  <rect x="140" y="206" width="110" height="22" fill="#A855F7" rx="3" opacity="0.12"/>
+  <text x="195" y="221" font-family="Arial, sans-serif" font-size="9" fill="#A855F7" text-anchor="middle">Составное глагольное</text>
+  <rect x="255" y="206" width="120" height="22" fill="#F59E0B" rx="3" opacity="0.12"/>
+  <text x="315" y="221" font-family="Arial, sans-serif" font-size="9" fill="#F59E0B" text-anchor="middle">Составное именное</text>
+  <text x="25" y="244" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Читаю | Начал читать | Был учителем</text>
+
+  <rect x="400" y="82" width="385" height="175" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="592.5" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Второстепенные члены предложения</text>
+
+  <rect x="410" y="108" width="365" height="42" fill="#FFFFFF" rx="5" stroke="#14B8A6" stroke-width="1.5"/>
+  <circle cx="430" cy="129" r="10" fill="#14B8A6" opacity="0.2"/>
+  <text x="430" y="133" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#14B8A6" text-anchor="middle">Д</text>
+  <text x="450" y="124" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#14B8A6">Дополнение</text>
+  <text x="450" y="139" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Кого? Чего? Кому? и др. | Сущ., мест. в косв. п.</text>
+
+  <rect x="410" y="156" width="365" height="42" fill="#FFFFFF" rx="5" stroke="#F59E0B" stroke-width="1.5"/>
+  <circle cx="430" cy="177" r="10" fill="#F59E0B" opacity="0.2"/>
+  <text x="430" y="181" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#F59E0B" text-anchor="middle">О</text>
+  <text x="450" y="172" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F59E0B">Определение</text>
+  <text x="450" y="187" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Какой? Чей? Каков? | Прил., причастие, сущ.</text>
+
+  <rect x="410" y="204" width="365" height="42" fill="#FFFFFF" rx="5" stroke="#A855F7" stroke-width="1.5"/>
+  <circle cx="430" cy="225" r="10" fill="#A855F7" opacity="0.2"/>
+  <text x="430" y="229" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#A855F7" text-anchor="middle">О</text>
+  <text x="450" y="220" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#A855F7">Обстоятельство</text>
+  <text x="450" y="235" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Где? Куда? Когда? Как? | Наречие, сущ. в косв. п.</text>
+
+  <rect x="15" y="270" width="770" height="140" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="400.0" y="288" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Полный разбор предложения</text>
+
+  <text x="30" y="296" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">Пример:</text>
+  <text x="30" y="316" font-family="Arial, sans-serif" font-size="14">
+    <tspan fill="#10B981" font-weight="bold">Старик</tspan>
+    <tspan fill="#1F2937"> </tspan>
+    <tspan fill="#3B82F6" font-weight="bold">ловил</tspan>
+    <tspan fill="#1F2937"> </tspan>
+    <tspan fill="#F59E0B" font-weight="bold">рыбу</tspan>
+    <tspan fill="#1F2937"> </tspan>
+    <tspan fill="#A855F7">в пустынном море</tspan>
+    <tspan fill="#1F2937">.</tspan>
+  </text>
+  <!-- Word-by-word analysis -->
+  <line x1="30" y1="328" x2="770" y2="328" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="30" y="348" font-family="Arial, sans-serif" font-size="10" fill="#10B981" font-weight="bold">Старик</text>
+  <text x="90" y="348" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">— подлежащее (сущ., им. п.)</text>
+  <text x="30" y="365" font-family="Arial, sans-serif" font-size="10" fill="#3B82F6" font-weight="bold">ловил</text>
+  <text x="90" y="365" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">— сказуемое (глагол, прош. вр.)</text>
+  <text x="30" y="382" font-family="Arial, sans-serif" font-size="10" fill="#F59E0B" font-weight="bold">рыбу</text>
+  <text x="90" y="382" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">— дополнение (сущ., В. п., прямое)</text>
+  <text x="400" y="348" font-family="Arial, sans-serif" font-size="10" fill="#A855F7" font-weight="bold">в море</text>
+  <text x="470" y="348" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">— обстоятельство места (сущ., П. п.)</text>
+  <text x="400" y="365" font-family="Arial, sans-serif" font-size="10" fill="#A855F7" font-weight="bold">пустынном</text>
+  <text x="490" y="365" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">— определение (прил., П. п.)</text>
+  <text x="400" y="385" font-family="Arial, sans-serif" font-size="10" fill="#BE185D" font-weight="bold">Схема:</text>
+  <text x="470" y="385" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">[= - ~ _]</text>
+
+  <rect x="15" y="425" width="380" height="160" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="205.0" y="443" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Схема связей в предложении</text>
+
+  <text x="200" y="448" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#BE185D" text-anchor="middle">Старик ловил рыбу</text>
+  <!-- Tree structure -->
+  <rect x="140" y="456" width="55" height="20" fill="#10B981" rx="3" opacity="0.2"/>
+  <text x="167" y="470" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#10B981" text-anchor="middle">Старик</text>
+  <rect x="210" y="456" width="45" height="20" fill="#3B82F6" rx="3" opacity="0.2"/>
+  <text x="232" y="470" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#3B82F6" text-anchor="middle">ловил</text>
+  <rect x="270" y="456" width="45" height="20" fill="#14B8A6" rx="3" opacity="0.15"/>
+  <text x="292" y="470" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#14B8A6" text-anchor="middle">рыбу</text>
+  <!-- Connection lines -->
+  <line x1="167" y1="476" x2="232" y2="476" stroke="#EC4899" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="232" y1="476" x2="292" y2="476" stroke="#EC4899" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Labels below -->
+  <text x="167" y="494" font-family="Arial, sans-serif" font-size="8" fill="#10B981" text-anchor="middle">подлеж.</text>
+  <text x="232" y="494" font-family="Arial, sans-serif" font-size="8" fill="#3B82F6" text-anchor="middle">сказ.</text>
+  <text x="292" y="494" font-family="Arial, sans-serif" font-size="8" fill="#14B8A6" text-anchor="middle">дополн.</text>
+  <!-- Question arrows -->
+  <text x="195" y="490" font-family="Arial, sans-serif" font-size="7" fill="#6B7280">кто?</text>
+  <text x="255" y="490" font-family="Arial, sans-serif" font-size="7" fill="#6B7280">что?</text>
+  <!-- Extended tree -->
+  <line x1="292" y1="476" x2="292" y2="510" stroke="#A855F7" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="292" y1="510" x2="200" y2="530" stroke="#A855F7" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="292" y1="510" x2="380" y2="530" stroke="#A855F7" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="155" y="528" width="90" height="18" fill="#F59E0B" rx="3" opacity="0.15"/>
+  <text x="200" y="541" font-family="Arial, sans-serif" font-size="8" fill="#F59E0B" text-anchor="middle">пустынном (опред.)</text>
+  <rect x="340" y="528" width="80" height="18" fill="#A855F7" rx="3" opacity="0.15"/>
+  <text x="380" y="541" font-family="Arial, sans-serif" font-size="8" fill="#A855F7" text-anchor="middle">в море (обст.)</text>
+  <text x="25" y="565" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Вопросы от сказуемого к второстепенным</text>
+  <text x="25" y="578" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">и от определяемого слова к определению</text>
+
+  <rect x="410" y="425" width="375" height="160" fill="#FFFFFF" rx="6" stroke="#FB7185" stroke-width="2" filter="url(#shadowSmall)"/>
+  <rect x="410" y="425" width="375" height="22" fill="#FB7185" rx="6"/>
+  <rect x="410" y="441" width="375" height="6" fill="#FB7185"/>
+  <text x="597.5" y="440" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Правило: Тире между подл. и сказ.</text>
+  <text x="418" y="463" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Тире ставится, если оба главных</text>
+  <text x="418" y="479" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">члена выражены одной формой:</text>
+  <text x="418" y="495" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="511" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Сущ. в им. п. — Сущ. в им. п.</text>
+  <text x="418" y="527" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Москва — столица России.</text>
+  <text x="418" y="543" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="559" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Числ. — Числ.</text>
+  <text x="418" y="575" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Дважды два — четыре.</text>
+  <text x="418" y="591" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="607" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Инфинитив — Инфинитив</text>
+  <text x="418" y="623" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Жить — Родине служить.</text>
+</svg>

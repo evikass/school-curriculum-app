@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="72" rx="0" fill="#EF4444" />
+  <rect x="0" y="72" width="800" height="4" rx="0" fill="#B91C1C" />
+  <text x="400" y="36" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="sans-serif">Церковный раскол</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="normal" font-family="sans-serif">Реформы патриарха Никона и старообрядчество</text>
+  <rect x="0" y="570" width="800" height="30" rx="0" fill="#FFF1F2" />
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#FCA5A5" stroke-width="1" />
+  <text x="400" y="590" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="normal" font-family="sans-serif">7 класс — История России — Урок 9</text>
+  <rect x="0" y="76" width="800" height="494" rx="0" fill="#FFF1F2" opacity="0.4" />
+  <rect x="170" y="90" width="460" height="50" rx="8" fill="#B91C1C" />
+  <text x="400" y="112" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="sans-serif">Раскол Русской православной церкви</text>
+  <text x="400" y="130" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="normal" font-family="sans-serif">1653–1667 гг. — реформы Никона и сопротивление старообрядцев</text>
+  <text x="200" y="170" text-anchor="middle" fill="#EF4444" font-size="14" font-weight="bold" font-family="sans-serif">Патриарх Никон</text>
+  <text x="600" y="170" text-anchor="middle" fill="#D97706" font-size="14" font-weight="bold" font-family="sans-serif">Старообрядцы</text>
+  <rect x="30" y="188" width="370" height="27" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="30" y="188" width="3" height="27" rx="0" fill="#EF4444" />
+  <text x="42" y="200" text-anchor="start" fill="#EF4444" font-size="10" font-weight="bold" font-family="sans-serif">Реформа богослужения</text>
+  <text x="42" y="211" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Исправление книг по греческим образцам</text>
+  <rect x="30" y="218" width="370" height="27" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="30" y="218" width="3" height="27" rx="0" fill="#EF4444" />
+  <text x="42" y="230" text-anchor="start" fill="#EF4444" font-size="10" font-weight="bold" font-family="sans-serif">Троеперстие</text>
+  <text x="42" y="241" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Замена двоеперстия на троеперстное крестное знамение</text>
+  <rect x="30" y="248" width="370" height="27" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="30" y="248" width="3" height="27" rx="0" fill="#EF4444" />
+  <text x="42" y="260" text-anchor="start" fill="#EF4444" font-size="10" font-weight="bold" font-family="sans-serif">Аллилуйя трижды</text>
+  <text x="42" y="271" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Вместо «аллилуйя» дважды — «трегубая аллилуйя»</text>
+  <rect x="30" y="278" width="370" height="27" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="30" y="278" width="3" height="27" rx="0" fill="#EF4444" />
+  <text x="42" y="290" text-anchor="start" fill="#EF4444" font-size="10" font-weight="bold" font-family="sans-serif">Имя Христа</text>
+  <text x="42" y="301" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">«Иисус» вместо «Исус» — лишняя буква</text>
+  <rect x="30" y="308" width="370" height="27" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="30" y="308" width="3" height="27" rx="0" fill="#EF4444" />
+  <text x="42" y="320" text-anchor="start" fill="#EF4444" font-size="10" font-weight="bold" font-family="sans-serif">Крестный ход</text>
+  <text x="42" y="331" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Против солнца → по солнцу (посолонь)</text>
+  <rect x="30" y="338" width="370" height="27" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="30" y="338" width="3" height="27" rx="0" fill="#EF4444" />
+  <text x="42" y="350" text-anchor="start" fill="#EF4444" font-size="10" font-weight="bold" font-family="sans-serif">Поклоны</text>
+  <text x="42" y="361" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Земные поклоны заменены поясными</text>
+  <rect x="410" y="188" width="370" height="27" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="410" y="188" width="3" height="27" rx="0" fill="#D97706" />
+  <text x="422" y="200" text-anchor="start" fill="#D97706" font-size="10" font-weight="bold" font-family="sans-serif">Аввакум Петрович</text>
+  <text x="422" y="211" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Лидер старообрядческого движения</text>
+  <rect x="410" y="218" width="370" height="27" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="410" y="218" width="3" height="27" rx="0" fill="#D97706" />
+  <text x="422" y="230" text-anchor="start" fill="#D97706" font-size="10" font-weight="bold" font-family="sans-serif">Двоеперстие</text>
+  <text x="422" y="241" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Старинная форма крестного знамения</text>
+  <rect x="410" y="248" width="370" height="27" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="410" y="248" width="3" height="27" rx="0" fill="#D97706" />
+  <text x="422" y="260" text-anchor="start" fill="#D97706" font-size="10" font-weight="bold" font-family="sans-serif">«Исус»</text>
+  <text x="422" y="271" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Древняя форма написания имени</text>
+  <rect x="410" y="278" width="370" height="27" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="410" y="278" width="3" height="27" rx="0" fill="#D97706" />
+  <text x="422" y="290" text-anchor="start" fill="#D97706" font-size="10" font-weight="bold" font-family="sans-serif">Сопротивление</text>
+  <text x="422" y="301" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">«Не приемлем новшеств латинских!»</text>
+  <rect x="410" y="308" width="370" height="27" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="410" y="308" width="3" height="27" rx="0" fill="#D97706" />
+  <text x="422" y="320" text-anchor="start" fill="#D97706" font-size="10" font-weight="bold" font-family="sans-serif">Гонения</text>
+  <text x="422" y="331" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Ссылки, казни, самосожжения</text>
+  <rect x="410" y="338" width="370" height="27" rx="3" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="410" y="338" width="3" height="27" rx="0" fill="#D97706" />
+  <text x="422" y="350" text-anchor="start" fill="#D97706" font-size="10" font-weight="bold" font-family="sans-serif">Соловецкое восстание</text>
+  <text x="422" y="361" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">1668–1676 гг. — монастырь против реформ</text>
+  <text x="400" y="385" text-anchor="middle" fill="#B91C1C" font-size="13" font-weight="bold" font-family="sans-serif">Хронология раскола</text>
+  <line x1="80" y1="405" x2="720" y2="405" stroke="#EF4444" stroke-width="2" />
+  <circle cx="120" cy="405" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="120" y="393" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1653</text>
+  <text x="120" y="421" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Начало</text>
+  <text x="120" y="433" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">реформ</text>
+  <circle cx="260" cy="405" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="260" y="393" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1654</text>
+  <text x="260" y="421" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Книжная</text>
+  <text x="260" y="433" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">справка</text>
+  <circle cx="400" cy="405" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="400" y="393" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1658</text>
+  <text x="400" y="421" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Разрыв Никона</text>
+  <text x="400" y="433" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">с царём</text>
+  <circle cx="540" cy="405" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="540" y="393" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1666</text>
+  <text x="540" y="421" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Собор,</text>
+  <text x="540" y="433" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">осуждение</text>
+  <circle cx="680" cy="405" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="680" y="393" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1667</text>
+  <text x="680" y="421" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Проклятие</text>
+  <text x="680" y="433" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">старообрядцев</text>
+  <rect x="60" y="460" width="680" height="85" rx="6" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="60" y="460" width="5" height="85" rx="0" fill="#EF4444" />
+  <text x="80" y="480" text-anchor="start" fill="#EF4444" font-size="13" font-weight="bold" font-family="sans-serif">Последствия раскола</text>
+  <text x="80" y="498" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Разделение русского общества на два лагеря — никониане и старообрядцы</text>
+  <text x="80" y="514" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Массовые самосожжения (гари) — до 20 000 погибших</text>
+  <text x="80" y="530" text-anchor="start" fill="#1F2937" font-size="10" font-weight="normal" font-family="sans-serif">• Формирование старообрядческой культуры, сохранённой до наших дней</text>
+</svg>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFFBEB;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#FED7AA;stop-opacity:1" />
+  </linearGradient>
+  <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#9A3412;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#EA580C;stop-opacity:1" />
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#EA580C;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+  </linearGradient>
+  <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#D97706;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+  </linearGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="2" dy="2" stdDeviation="3" floodColor="#9A3412" floodOpacity="0.2" />
+  </filter>
+  <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="1" dy="1" stdDeviation="2" floodColor="#000" floodOpacity="0.15" />
+  </filter>
+</defs>
+<rect width="800" height="600" fill="url(#bgGrad)" />
+<rect x="8" y="8" width="784" height="584" fill="none" stroke="#EA580C" stroke-width="2" rx="8" />
+<rect x="14" y="14" width="772" height="572" fill="none" stroke="#D97706" stroke-width="1" rx="6" stroke-dasharray="8,4" />
+<rect x="20" y="16" width="760" height="60" fill="url(#titleGrad)" rx="6" filter="url(#shadow)" />
+<text x="400" y="46" fill="#FFFFFF" font-size="22" font-weight="bold" text-anchor="middle" font-family="serif">Живопись, графика, скульптура</text>
+<text x="400" y="66" fill="#FED7AA" font-size="12" text-anchor="middle" font-family="sans-serif">Виды изобразительного искусства: определения, техники, материалы</text>
+<circle cx="35" cy="46" r="6" fill="#D97706" opacity="0.6" />
+<circle cx="765" cy="46" r="6" fill="#D97706" opacity="0.6" />
+<circle cx="400" cy="95" r="14" fill="#EA580C" filter="url(#softShadow)" />
+<text x="400" y="100" fill="#FFFFFF" font-size="14" font-weight="bold" text-anchor="middle" font-family="sans-serif">1</text>
+<rect x="30" y="115" width="230" height="280" fill="#FFF7ED" rx="6" stroke="#FDBA74" stroke-width="1" filter="url(#softShadow)" />
+<rect x="30" y="115" width="230" height="4" fill="#DC2626" rx="2" />
+<ellipse cx="140" cy="145" rx="50" ry="35" fill="#C2410C" opacity="0.15" />
+<circle cx="120" cy="138" r="6" fill="#DC2626" opacity="0.6" />
+<circle cx="135" cy="130" r="5" fill="#2563EB" opacity="0.6" />
+<circle cx="150" cy="133" r="5" fill="#16A34A" opacity="0.6" />
+<circle cx="160" cy="145" r="5" fill="#F59E0B" opacity="0.6" />
+<text x="145" y="142" fill="#9A3412" font-size="16" font-weight="bold" text-anchor="middle" font-family="serif">Живопись</text>
+<text x="145" y="158" fill="#A16207" font-size="10" text-anchor="middle" font-family="sans-serif">(от слова “живо” — живо писать)</text>
+<text x="42" y="178" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Определение:</text>
+<text x="42" y="194" fill="#7C2D12" font-size="10" font-family="sans-serif">Вид искусства, основанный на</text>
+<text x="42" y="207" fill="#7C2D12" font-size="10" font-family="sans-serif">использовании цвета (красок)</text>
+<text x="42" y="228" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Техники:</text>
+<text x="42" y="244" fill="#7C2D12" font-size="10" font-family="sans-serif">• Масляная живопись — масло, холст</text>
+<text x="42" y="257" fill="#7C2D12" font-size="10" font-family="sans-serif">• Акварель — вода, бумага</text>
+<text x="42" y="270" fill="#7C2D12" font-size="10" font-family="sans-serif">• Гуашь — непрозрачная краска</text>
+<text x="42" y="283" fill="#7C2D12" font-size="10" font-family="sans-serif">• Темпера — яичная основа</text>
+<text x="42" y="296" fill="#7C2D12" font-size="10" font-family="sans-serif">• Фреска — по сырой штукатурке</text>
+<text x="42" y="318" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Материалы:</text>
+<text x="42" y="334" fill="#7C2D12" font-size="10" font-family="sans-serif">Кисти, холст, бумага, палитра,</text>
+<text x="42" y="347" fill="#7C2D12" font-size="10" font-family="sans-serif">масляные/акварельные краски</text>
+<text x="42" y="370" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Примеры:</text>
+<text x="42" y="386" fill="#7C2D12" font-size="10" font-family="sans-serif">Левитан, Айвазовский, Репин</text>
+<rect x="280" y="115" width="230" height="280" fill="#FFF7ED" rx="6" stroke="#FDBA74" stroke-width="1" filter="url(#softShadow)" />
+<rect x="280" y="115" width="230" height="4" fill="#1C1917" rx="2" />
+<rect x="375" y="125" width="3" height="40" fill="#78350F" opacity="0.5" />
+<polygon points="375,165 378,165 376.5,175" fill="#44403C" opacity="0.5" />
+<text x="395" y="142" fill="#9A3412" font-size="16" font-weight="bold" text-anchor="middle" font-family="serif">Графика</text>
+<text x="395" y="158" fill="#A16207" font-size="10" text-anchor="middle" font-family="sans-serif">(от греч. “grapho” — пишу)</text>
+<text x="292" y="178" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Определение:</text>
+<text x="292" y="194" fill="#7C2D12" font-size="10" font-family="sans-serif">Вид искусства, использующий</text>
+<text x="292" y="207" fill="#7C2D12" font-size="10" font-family="sans-serif">линии, штрихи, точки (ч/б)</text>
+<text x="292" y="228" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Виды графики:</text>
+<text x="292" y="244" fill="#7C2D12" font-size="10" font-family="sans-serif">• Рисунок — основа графики</text>
+<text x="292" y="257" fill="#7C2D12" font-size="10" font-family="sans-serif">• Станковая — эстампы, литография</text>
+<text x="292" y="270" fill="#7C2D12" font-size="10" font-family="sans-serif">• Книжная — иллюстрации</text>
+<text x="292" y="283" fill="#7C2D12" font-size="10" font-family="sans-serif">• Прикладная — плакат, афиша</text>
+<text x="292" y="305" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Техники:</text>
+<text x="292" y="321" fill="#7C2D12" font-size="10" font-family="sans-serif">• Карандаш, уголь, сангина</text>
+<text x="292" y="334" fill="#7C2D12" font-size="10" font-family="sans-serif">• Перо и тушь, линогравюра</text>
+<text x="292" y="347" fill="#7C2D12" font-size="10" font-family="sans-serif">• Офорт, ксилография</text>
+<text x="292" y="370" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Примеры:</text>
+<text x="292" y="386" fill="#7C2D12" font-size="10" font-family="sans-serif">Врубель, Фаворский, Остроумова</text>
+<rect x="530" y="115" width="230" height="280" fill="#FFF7ED" rx="6" stroke="#FDBA74" stroke-width="1" filter="url(#softShadow)" />
+<rect x="530" y="115" width="230" height="4" fill="#D97706" rx="2" />
+<ellipse cx="655" cy="155" rx="25" ry="30" fill="#D97706" opacity="0.12" />
+<rect x="645" y="155" width="20" height="25" fill="#D97706" opacity="0.12" rx="3" />
+<rect x="640" y="180" width="30" height="5" fill="#D97706" opacity="0.12" rx="2" />
+<text x="645" y="142" fill="#9A3412" font-size="16" font-weight="bold" text-anchor="middle" font-family="serif">Скульптура</text>
+<text x="645" y="158" fill="#A16207" font-size="10" text-anchor="middle" font-family="sans-serif">(от лат. “sculpere” — вырезать)</text>
+<text x="542" y="178" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Определение:</text>
+<text x="542" y="194" fill="#7C2D12" font-size="10" font-family="sans-serif">Вид искусства, создающий</text>
+<text x="542" y="207" fill="#7C2D12" font-size="10" font-family="sans-serif">объёмные формы в реальном</text>
+<text x="542" y="220" fill="#7C2D12" font-size="10" font-family="sans-serif">пространстве</text>
+<text x="542" y="241" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Виды:</text>
+<text x="542" y="257" fill="#7C2D12" font-size="10" font-family="sans-serif">• Круглая — осмотр со всех сторон</text>
+<text x="542" y="270" fill="#7C2D12" font-size="10" font-family="sans-serif">• Рельеф — барельеф/горельеф</text>
+<text x="542" y="291" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Материалы:</text>
+<text x="542" y="307" fill="#7C2D12" font-size="10" font-family="sans-serif">• Камень, мрамор, гранит</text>
+<text x="542" y="320" fill="#7C2D12" font-size="10" font-family="sans-serif">• Дерево, глина, бронза</text>
+<text x="542" y="333" fill="#7C2D12" font-size="10" font-family="sans-serif">• Гипс, стекло, пластик</text>
+<text x="542" y="355" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Техники:</text>
+<text x="542" y="371" fill="#7C2D12" font-size="10" font-family="sans-serif">Лепка, высекание, отливка,</text>
+<text x="542" y="384" fill="#7C2D12" font-size="10" font-family="sans-serif">ковка, резьба</text>
+<rect x="30" y="410" width="730" height="170" fill="#FFF7ED" rx="6" stroke="#FDBA74" stroke-width="1" filter="url(#softShadow)" />
+<rect x="30" y="410" width="730" height="4" fill="url(#goldGrad)" rx="2" />
+<text x="400" y="435" fill="#9A3412" font-size="14" font-weight="bold" text-anchor="middle" font-family="serif">Сравнительная характеристика видов изобразительного искусства</text>
+<rect x="50" y="448" width="130" height="22" fill="#EA580C" rx="3" />
+<text x="115" y="463" fill="#FFFFFF" font-size="11" font-weight="bold" text-anchor="middle" font-family="sans-serif">Признак</text>
+<rect x="185" y="448" width="170" height="22" fill="#DC2626" rx="3" />
+<text x="270" y="463" fill="#FFFFFF" font-size="11" font-weight="bold" text-anchor="middle" font-family="sans-serif">Живопись</text>
+<rect x="360" y="448" width="170" height="22" fill="#44403C" rx="3" />
+<text x="445" y="463" fill="#FFFFFF" font-size="11" font-weight="bold" text-anchor="middle" font-family="sans-serif">Графика</text>
+<rect x="535" y="448" width="210" height="22" fill="#D97706" rx="3" />
+<text x="640" y="463" fill="#FFFFFF" font-size="11" font-weight="bold" text-anchor="middle" font-family="sans-serif">Скульптура</text>
+<text x="55" y="486" fill="#431407" font-size="10" font-weight="bold" font-family="sans-serif">Пространство</text>
+<text x="190" y="486" fill="#7C2D12" font-size="10" font-family="sans-serif">2D (плоскость)</text>
+<text x="365" y="486" fill="#7C2D12" font-size="10" font-family="sans-serif">2D (плоскость)</text>
+<text x="540" y="486" fill="#7C2D12" font-size="10" font-family="sans-serif">3D (объём)</text>
+<line x1="50" y1="492" x2="745" y2="492" stroke="#FDBA74" stroke-width="0.5" />
+<text x="55" y="503" fill="#431407" font-size="10" font-weight="bold" font-family="sans-serif">Глав. средство</text>
+<text x="190" y="503" fill="#7C2D12" font-size="10" font-family="sans-serif">Цвет, колорит</text>
+<text x="365" y="503" fill="#7C2D12" font-size="10" font-family="sans-serif">Линия, штрих, тон</text>
+<text x="540" y="503" fill="#7C2D12" font-size="10" font-family="sans-serif">Форма, объём</text>
+<line x1="50" y1="509" x2="745" y2="509" stroke="#FDBA74" stroke-width="0.5" />
+<text x="55" y="520" fill="#431407" font-size="10" font-weight="bold" font-family="sans-serif">Восприятие</text>
+<text x="190" y="520" fill="#7C2D12" font-size="10" font-family="sans-serif">Зрительное</text>
+<text x="365" y="520" fill="#7C2D12" font-size="10" font-family="sans-serif">Зрительное</text>
+<text x="540" y="520" fill="#7C2D12" font-size="10" font-family="sans-serif">Зрительно-осязательное</text>
+<line x1="50" y1="526" x2="745" y2="526" stroke="#FDBA74" stroke-width="0.5" />
+<text x="55" y="537" fill="#431407" font-size="10" font-weight="bold" font-family="sans-serif">Произведение</text>
+<text x="190" y="537" fill="#7C2D12" font-size="10" font-family="sans-serif">Картина, икона, фреска</text>
+<text x="365" y="537" fill="#7C2D12" font-size="10" font-family="sans-serif">Рисунок, гравюра</text>
+<text x="540" y="537" fill="#7C2D12" font-size="10" font-family="sans-serif">Статуя, рельеф, бюст</text>
+<line x1="50" y1="543" x2="745" y2="543" stroke="#FDBA74" stroke-width="0.5" />
+<text x="55" y="554" fill="#431407" font-size="10" font-weight="bold" font-family="sans-serif">Выразит-ть</text>
+<text x="190" y="554" fill="#7C2D12" font-size="10" font-family="sans-serif">Цвет, свет, тень</text>
+<text x="365" y="554" fill="#7C2D12" font-size="10" font-family="sans-serif">Контраст, ритм</text>
+<text x="540" y="554" fill="#7C2D12" font-size="10" font-family="sans-serif">Пластика, фактура</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#78350F"/>
+    <stop offset="100%" style="stop-color:#B45309"/>
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#D97706"/>
+    <stop offset="100%" style="stop-color:#F59E0B"/>
+  </linearGradient>
+  <linearGradient id="pyramidGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" style="stop-color:#92400E"/>
+    <stop offset="50%" style="stop-color:#F59E0B"/>
+    <stop offset="100%" style="stop-color:#FBBF24"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+<rect x="0" y="0" width="800" height="70" fill="url(#bg)" rx="8"/>
+<circle cx="40" cy="35" r="22" fill="#D97706" stroke="#F59E0B" stroke-width="2"/>
+<text x="40" y="42" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="sans-serif" font-weight="bold">1</text>
+<text x="72" y="32" fill="#FFFFFF" font-size="22" text-anchor="start" font-family="sans-serif" font-weight="bold">Что такое человек</text>
+<text x="72" y="52" fill="#FCD34D" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="normal">Биосоциальная природа, сознание, мышление</text>
+<rect x="0" y="68" width="800" height="2" fill="#F59E0B" rx="8"/>
+<rect x="20" y="80" width="370" height="260" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="35" y="102" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Биосоциальная природа человека</text>
+<rect x="35" y="115" width="160" height="95" fill="#292524" rx="6" stroke="#4ADE80" stroke-width="1"/>
+<text x="115" y="135" fill="#4ADE80" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Биологическое</text>
+<text x="45" y="155" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Анатомия</text>
+<text x="45" y="170" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Физиология</text>
+<text x="45" y="185" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Инстинкты</text>
+<text x="45" y="200" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Наследственность</text>
+<rect x="215" y="115" width="160" height="95" fill="#292524" rx="6" stroke="#60A5FA" stroke-width="1"/>
+<text x="295" y="135" fill="#60A5FA" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Социальное</text>
+<text x="225" y="155" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Сознание</text>
+<text x="225" y="170" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Мышление</text>
+<text x="225" y="185" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Речь</text>
+<text x="225" y="200" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Культура</text>
+<line x1="115" y1="212" x2="165" y2="228" stroke="#F59E0B" stroke-width="2"/>
+<polygon points="165,228,156.1615039139903,229.37149077196702,158.59970973082054,221.75209759437243" fill="#F59E0B"/>
+<line x1="295" y1="212" x2="245" y2="228" stroke="#F59E0B" stroke-width="2"/>
+<polygon points="245,228,251.40029026917946,221.75209759437243,253.8384960860097,229.37149077196702" fill="#F59E0B"/>
+<rect x="130" y="228" width="150" height="28" fill="#92400E" rx="14" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="205" y="246" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">ЧЕЛОВЕК</text>
+<rect x="35" y="268" width="340" height="60" fill="#292524" rx="6"/>
+<text x="45" y="288" fill="#FEF3C7" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">Человек — единство биологического</text>
+<text x="45" y="304" fill="#FEF3C7" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">и социального начал</text>
+<text x="45" y="320" fill="#FBBF24" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="bold">Биосоциальная природа — ключевая идея</text>
+<rect x="400" y="80" width="380" height="260" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="415" y="102" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Сознание и мышление</text>
+<rect x="415" y="115" width="350" height="55" fill="#292524" rx="6" stroke="#FBBF24" stroke-width="1"/>
+<text x="425" y="135" fill="#FBBF24" font-size="12" text-anchor="start" font-family="sans-serif" font-weight="bold">Сознание</text>
+<text x="425" y="155" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Способность отражать реальность и осознавать себя</text>
+<rect x="415" y="180" width="350" height="55" fill="#292524" rx="6" stroke="#FB923C" stroke-width="1"/>
+<text x="425" y="200" fill="#FB923C" font-size="12" text-anchor="start" font-family="sans-serif" font-weight="bold">Мышление</text>
+<text x="425" y="220" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Процесс опосредованного познания мира</text>
+<text x="415" y="252" fill="#FFFFFF" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Виды мышления:</text>
+<rect x="415" y="260" width="156" height="20" fill="#4ADE80" rx="10"/>
+<text x="493.0" y="274" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Наглядно-действенное</text>
+<rect x="415" y="286" width="135" height="20" fill="#60A5FA" rx="10"/>
+<text x="482.5" y="300" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Наглядно-образное</text>
+<rect x="415" y="312" width="149" height="20" fill="#C084FC" rx="10"/>
+<text x="489.5" y="326" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Словесно-логическое</text>
+<rect x="20" y="350" width="760" height="220" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="35" y="372" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Отличия человека от животных</text>
+<rect x="35" y="385" width="350" height="25" fill="#292524" rx="4" stroke="#D97706" stroke-width="1"/>
+<text x="210" y="402" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Человек</text>
+<rect x="390" y="385" width="370" height="25" fill="#292524" rx="4" stroke="#D97706" stroke-width="1"/>
+<text x="575" y="402" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Животное</text>
+<text x="45" y="427" fill="#4ADE80" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">✓ Сознание и самосознание</text>
+<text x="400" y="427" fill="#FCD34D" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Инстинкты и рефлексы</text>
+<text x="45" y="449" fill="#4ADE80" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">✓ Целенаправленная деятельность</text>
+<text x="400" y="449" fill="#FCD34D" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Приспособительное поведение</text>
+<text x="45" y="471" fill="#4ADE80" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">✓ Речь и язык</text>
+<text x="400" y="471" fill="#FCD34D" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Звуковые сигналы</text>
+<text x="45" y="493" fill="#4ADE80" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">✓ Создание культуры</text>
+<text x="400" y="493" fill="#FCD34D" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Использование природных объектов</text>
+<text x="45" y="515" fill="#4ADE80" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">✓ Социальная преемственность</text>
+<text x="400" y="515" fill="#FCD34D" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">• Генетическая передача</text>
+<rect x="35" y="530" width="225" height="30" fill="#92400E" rx="6" stroke="#F59E0B" stroke-width="1"/>
+<text x="147" y="549" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Антропогенез</text>
+<rect x="270" y="530" width="225" height="30" fill="#92400E" rx="6" stroke="#F59E0B" stroke-width="1"/>
+<text x="382" y="549" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Социогенез</text>
+<rect x="505" y="530" width="255" height="30" fill="#92400E" rx="6" stroke="#F59E0B" stroke-width="1"/>
+<text x="632" y="549" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Антропосоциогенез</text>
+<rect x="0" y="570" width="800" height="30" fill="url(#bg)" rx="8"/>
+<text x="400.0" y="590" fill="#FCD34D" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Обществознание · 7 класс</text>
+</svg>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1917"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="amberV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FB923C"/>
+    </marker>
+    <marker id="arrowWhite" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FFFBEB"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4ADE80"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F87171"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#60A5FA"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="12"/>
+  <!-- Decorative top bar -->
+  <rect x="0" y="0" width="800" height="4" fill="url(#amberGrad)" rx="2"/>
+  <circle cx="40" cy="45" r="18" fill="#B45309" stroke="#F59E0B" stroke-width="2"/>
+  <text x="40" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFBEB">7</text>
+  <text x="68" y="52" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#F59E0B" filter="url(#glow)">Давление жидкостей и газов</text>
+  <text x="68" y="70" font-family="Arial, sans-serif" font-size="13" fill="#FDE68A">Закон Паскаля, гидростатическое давление p = ρgh</text>
+  <line x1="20" y1="78" x2="780" y2="78" stroke="#92400E" stroke-width="1" stroke-dasharray="4,4"/>  <rect x="30" y="85" width="360" height="70" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <text x="210" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">Гидростатическое давление</text>
+  <text x="210" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#FCD34D" filter="url(#glow)">p = ρ · g · h</text>  <rect x="410" y="85" width="370" height="70" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <text x="595" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">Давление передаётся одинаково во все стороны</text>
+  <text x="595" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FCD34D" filter="url(#glow)">Закон Паскаля</text>
+  <!-- Pascal's Law -->
+  <text x="60" y="185" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">Закон Паскаля</text>
+  <rect x="30" y="195" width="260" height="200" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <!-- Container shape -->
+  <ellipse cx="160" cy="370" rx="100" ry="15" fill="none" stroke="#FB923C" stroke-width="1.5"/>
+  <path d="M 60,250 L 60,370" fill="none" stroke="#FB923C" stroke-width="1.5"/>
+  <path d="M 260,250 L 260,370" fill="none" stroke="#FB923C" stroke-width="1.5"/>
+  <ellipse cx="160" cy="250" rx="100" ry="15" fill="none" stroke="#FB923C" stroke-width="1.5"/>
+  <!-- Liquid fill -->
+  <ellipse cx="160" cy="320" rx="98" ry="14" fill="#60A5FA" opacity="0.2"/>
+  <rect x="62" y="320" width="196" height="50" fill="#60A5FA" opacity="0.2"/>
+  <!-- Pressure arrows from center point -->
+  <circle cx="160" cy="330" r="5" fill="#F59E0B"/>
+  <line x1="160" y1="330" x2="160" y2="280" stroke="#F87171" stroke-width="1.5" marker-end="url(#arrowRed)"/>
+  <line x1="160" y1="330" x2="210" y2="310" stroke="#F87171" stroke-width="1.5" marker-end="url(#arrowRed)"/>
+  <line x1="160" y1="330" x2="110" y2="310" stroke="#F87171" stroke-width="1.5" marker-end="url(#arrowRed)"/>
+  <line x1="160" y1="330" x2="210" y2="350" stroke="#F87171" stroke-width="1.5" marker-end="url(#arrowRed)"/>
+  <line x1="160" y1="330" x2="110" y2="350" stroke="#F87171" stroke-width="1.5" marker-end="url(#arrowRed)"/>
+  <text x="160" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Давление одинаково</text>
+  <text x="160" y="413" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">во всех направлениях</text>
+
+  <!-- Hydrostatic pressure -->
+  <text x="340" y="185" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">Гидростатическое давление</text>
+  <rect x="310" y="195" width="220" height="200" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <!-- Water column -->
+  <rect x="370" y="220" width="60" height="150" rx="3" fill="#60A5FA" opacity="0.25" stroke="#FB923C" stroke-width="1.5"/>
+  <!-- Water level marks -->
+  <line x1="440" y1="240" x2="455" y2="240" stroke="#92400E" stroke-width="1"/>
+  <text x="460" y="244" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">h₁</text>
+  <line x1="440" y1="300" x2="455" y2="300" stroke="#92400E" stroke-width="1"/>
+  <text x="460" y="304" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">h₂</text>
+  <line x1="440" y1="370" x2="455" y2="370" stroke="#92400E" stroke-width="1"/>
+  <text x="460" y="374" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">h₃</text>
+  <!-- Pressure arrows at different depths -->
+  <line x1="370" y1="240" x2="345" y2="240" stroke="#4ADE80" stroke-width="1.5" marker-end="url(#arrowGreen)"/>
+  <text x="320" y="244" font-family="Arial, sans-serif" font-size="9" fill="#4ADE80">p₁</text>
+  <line x1="370" y1="300" x2="330" y2="300" stroke="#FB923C" stroke-width="2" marker-end="url(#arrowOrange)"/>
+  <text x="310" y="304" font-family="Arial, sans-serif" font-size="9" fill="#FB923C">p₂</text>
+  <line x1="370" y1="370" x2="320" y2="370" stroke="#F87171" stroke-width="2.5" marker-end="url(#arrowRed)"/>
+  <text x="300" y="374" font-family="Arial, sans-serif" font-size="9" fill="#F87171">p₃</text>
+  <!-- Labels -->
+  <text x="390" y="260" font-family="Arial, sans-serif" font-size="10" fill="#92400E">мало</text>
+  <text x="390" y="340" font-family="Arial, sans-serif" font-size="10" fill="#F87171">велико</text>
+
+  <!-- Communicating vessels -->
+  <text x="600" y="185" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">Сообщающиеся сосуды</text>
+  <rect x="550" y="195" width="220" height="200" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <!-- U-tube -->
+  <path d="M 600,220 L 600,340 Q 600,370 630,370 L 700,370 Q 730,370 730,340 L 730,220" fill="none" stroke="#FB923C" stroke-width="2"/>
+  <!-- Water in U-tube -->
+  <path d="M 600,280 L 600,340 Q 600,365 630,365 L 700,365 Q 730,365 730,340 L 730,280" fill="#60A5FA" opacity="0.3" stroke="none"/>
+  <!-- Water level line -->
+  <line x1="590" y1="280" x2="740" y2="280" stroke="#22D3EE" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="660" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#22D3EE">Уровень одинаков</text>
+  <!-- Different density -->
+  <text x="660" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Однородная жидкость —</text>
+  <text x="660" y="423" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">уровни равны</text>
+  <rect x="30" y="420" width="250" height="160" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="40" y="438" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Закон Паскаля</text>
+  <text x="40" y="450" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Закон Паскаля:</text>
+  <text x="40" y="467" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Давление, производимое на</text>
+  <text x="40" y="484" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">жидкость или газ, передаётся</text>
+  <text x="40" y="501" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">без изменения в каждую</text>
+  <text x="40" y="518" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">точку объёма жидкости.</text>
+  <text x="40" y="535" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="40" y="552" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Применение:</text>
+  <text x="40" y="569" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Гидравлический пресс</text>  <rect x="300" y="420" width="250" height="160" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="310" y="438" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Гидростатика</text>
+  <text x="310" y="450" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">p = ρgh:</text>
+  <text x="310" y="467" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">ρ — плотность [кг/м³]</text>
+  <text x="310" y="484" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">g = 9,8 Н/кг</text>
+  <text x="310" y="501" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">h — глубина [м]</text>
+  <text x="310" y="518" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="310" y="535" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Пример (вода):</text>
+  <text x="310" y="552" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">ρ = 1000 кг/м³</text>
+  <text x="310" y="569" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">h = 10 м</text>  <rect x="570" y="420" width="210" height="160" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="580" y="438" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Атмосфера</text>
+  <text x="580" y="450" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Атмосферное давление:</text>
+  <text x="580" y="467" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Pатм ≈ 101 325 Па</text>
+  <text x="580" y="484" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">       ≈ 101,3 кПа</text>
+  <text x="580" y="501" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="580" y="518" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Опыт Торричелли:</text>
+  <text x="580" y="535" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">760 мм рт. ст.</text>
+  <text x="580" y="552" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">= 101 325 Па</text>
+  <text x="580" y="569" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+</svg>

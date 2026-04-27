@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFFBEB;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#FED7AA;stop-opacity:1" />
+  </linearGradient>
+  <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#9A3412;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#EA580C;stop-opacity:1" />
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#EA580C;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+  </linearGradient>
+  <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#D97706;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+  </linearGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="2" dy="2" stdDeviation="3" floodColor="#9A3412" floodOpacity="0.2" />
+  </filter>
+  <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="1" dy="1" stdDeviation="2" floodColor="#000" floodOpacity="0.15" />
+  </filter>
+</defs>
+<rect width="800" height="600" fill="url(#bgGrad)" />
+<rect x="8" y="8" width="784" height="584" fill="none" stroke="#EA580C" stroke-width="2" rx="8" />
+<rect x="14" y="14" width="772" height="572" fill="none" stroke="#D97706" stroke-width="1" rx="6" stroke-dasharray="8,4" />
+<rect x="20" y="16" width="760" height="60" fill="url(#titleGrad)" rx="6" filter="url(#shadow)" />
+<text x="400" y="46" fill="#FFFFFF" font-size="22" font-weight="bold" text-anchor="middle" font-family="serif">Портрет, пейзаж, натюрморт</text>
+<text x="400" y="66" fill="#FED7AA" font-size="12" text-anchor="middle" font-family="sans-serif">Жанры изобразительного искусства: характеристики и знаменитые примеры</text>
+<circle cx="35" cy="46" r="6" fill="#D97706" opacity="0.6" />
+<circle cx="765" cy="46" r="6" fill="#D97706" opacity="0.6" />
+<circle cx="400" cy="95" r="14" fill="#EA580C" filter="url(#softShadow)" />
+<text x="400" y="100" fill="#FFFFFF" font-size="14" font-weight="bold" text-anchor="middle" font-family="sans-serif">2</text>
+<rect x="30" y="115" width="230" height="340" fill="#FFF7ED" rx="6" stroke="#FDBA74" stroke-width="1" filter="url(#softShadow)" />
+<rect x="30" y="115" width="230" height="4" fill="#DC2626" rx="2" />
+<circle cx="145" cy="150" r="22" fill="#EA580C" opacity="0.15" />
+<circle cx="145" cy="145" r="14" fill="none" stroke="#EA580C" stroke-width="1.5" opacity="0.5" />
+<circle cx="139" cy="142" r="2" fill="#EA580C" opacity="0.5" />
+<circle cx="151" cy="142" r="2" fill="#EA580C" opacity="0.5" />
+<path d="M139,150 Q145,156 151,150" fill="none" stroke="#EA580C" stroke-width="1" opacity="0.5" />
+<text x="145" y="182" fill="#9A3412" font-size="16" font-weight="bold" text-anchor="middle" font-family="serif">Портрет</text>
+<text x="145" y="196" fill="#A16207" font-size="10" text-anchor="middle" font-family="sans-serif">(от фр. portrait — изображение)</text>
+<text x="42" y="216" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Характеристика:</text>
+<text x="42" y="232" fill="#7C2D12" font-size="10" font-family="sans-serif">Изображение человека или группы</text>
+<text x="42" y="245" fill="#7C2D12" font-size="10" font-family="sans-serif">людей. Передаёт внешнее сходство</text>
+<text x="42" y="258" fill="#7C2D12" font-size="10" font-family="sans-serif">и внутренний мир героя.</text>
+<text x="42" y="280" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Виды портрета:</text>
+<text x="42" y="296" fill="#7C2D12" font-size="10" font-family="sans-serif">• Парадный — торжественный</text>
+<text x="42" y="309" fill="#7C2D12" font-size="10" font-family="sans-serif">• Камерный — интимный</text>
+<text x="42" y="322" fill="#7C2D12" font-size="10" font-family="sans-serif">• Автопортрет — самого себя</text>
+<text x="42" y="335" fill="#7C2D12" font-size="10" font-family="sans-serif">• Психологический — характер</text>
+<text x="42" y="358" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Знаменитые примеры:</text>
+<text x="42" y="374" fill="#7C2D12" font-size="10" font-family="sans-serif">Репин “Не ждали”</text>
+<text x="42" y="387" fill="#7C2D12" font-size="10" font-family="sans-serif">Крамской “Неизвестная”</text>
+<text x="42" y="400" fill="#7C2D12" font-size="10" font-family="sans-serif">Серов “Девочка с персиками”</text>
+<text x="42" y="413" fill="#7C2D12" font-size="10" font-family="sans-serif">Леонардо “Мона Лиза”</text>
+<text x="42" y="426" fill="#7C2D12" font-size="10" font-family="sans-serif">Рембрандт — автопортреты</text>
+<rect x="280" y="115" width="230" height="340" fill="#FFF7ED" rx="6" stroke="#FDBA74" stroke-width="1" filter="url(#softShadow)" />
+<rect x="280" y="115" width="230" height="4" fill="#16A34A" rx="2" />
+<path d="M370,160 L385,130 L400,160 Z" fill="#16A34A" opacity="0.3" />
+<path d="M390,160 L405,135 L420,160 Z" fill="#15803D" opacity="0.3" />
+<line x1="350" y1="160" x2="430" y2="160" stroke="#16A34A" stroke-width="1" opacity="0.5" />
+<circle cx="425" cy="125" r="8" fill="#F59E0B" opacity="0.3" />
+<text x="395" y="182" fill="#9A3412" font-size="16" font-weight="bold" text-anchor="middle" font-family="serif">Пейзаж</text>
+<text x="395" y="196" fill="#A16207" font-size="10" text-anchor="middle" font-family="sans-serif">(от фр. pays — страна, местность)</text>
+<text x="292" y="216" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Характеристика:</text>
+<text x="292" y="232" fill="#7C2D12" font-size="10" font-family="sans-serif">Изображение природы, городской</text>
+<text x="292" y="245" fill="#7C2D12" font-size="10" font-family="sans-serif">или сельской среды. Главное —</text>
+<text x="292" y="258" fill="#7C2D12" font-size="10" font-family="sans-serif">пространство и световоздушная</text>
+<text x="292" y="271" fill="#7C2D12" font-size="10" font-family="sans-serif">среда.</text>
+<text x="292" y="293" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Виды пейзажа:</text>
+<text x="292" y="309" fill="#7C2D12" font-size="10" font-family="sans-serif">• Сельский — природа, деревня</text>
+<text x="292" y="322" fill="#7C2D12" font-size="10" font-family="sans-serif">• Городской — архитектура</text>
+<text x="292" y="335" fill="#7C2D12" font-size="10" font-family="sans-serif">• Марина — морской</text>
+<text x="292" y="348" fill="#7C2D12" font-size="10" font-family="sans-serif">• Промышленный — заводы</text>
+<text x="292" y="371" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Знаменитые примеры:</text>
+<text x="292" y="387" fill="#7C2D12" font-size="10" font-family="sans-serif">Левитан “Золотая осень”</text>
+<text x="292" y="400" fill="#7C2D12" font-size="10" font-family="sans-serif">Шишкин “Утро в сосновом лесу”</text>
+<text x="292" y="413" fill="#7C2D12" font-size="10" font-family="sans-serif">Айвазовский “Девятый вал”</text>
+<text x="292" y="426" fill="#7C2D12" font-size="10" font-family="sans-serif">Саврасов “Грачи прилетели”</text>
+<text x="292" y="439" fill="#7C2D12" font-size="10" font-family="sans-serif">Моне “Впечатление. Восход”</text>
+<rect x="530" y="115" width="230" height="340" fill="#FFF7ED" rx="6" stroke="#FDBA74" stroke-width="1" filter="url(#softShadow)" />
+<rect x="530" y="115" width="230" height="4" fill="#D97706" rx="2" />
+<ellipse cx="645" cy="160" rx="15" ry="5" fill="#D97706" opacity="0.2" />
+<path d="M638,155 Q640,135 645,130 Q650,135 652,155 Z" fill="#D97706" opacity="0.2" />
+<circle cx="635" cy="162" r="5" fill="#DC2626" opacity="0.3" />
+<circle cx="650" cy="163" r="4" fill="#F59E0B" opacity="0.3" />
+<text x="645" y="182" fill="#9A3412" font-size="16" font-weight="bold" text-anchor="middle" font-family="serif">Натюрморт</text>
+<text x="645" y="196" fill="#A16207" font-size="10" text-anchor="middle" font-family="sans-serif">(от фр. nature morte — мёртвая природа)</text>
+<text x="542" y="216" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Характеристика:</text>
+<text x="542" y="232" fill="#7C2D12" font-size="10" font-family="sans-serif">Изображение неодушевлённых</text>
+<text x="542" y="245" fill="#7C2D12" font-size="10" font-family="sans-serif">предметов: цветы, фрукты, посуда,</text>
+<text x="542" y="258" fill="#7C2D12" font-size="10" font-family="sans-serif">книги, музыкальные инструменты.</text>
+<text x="542" y="280" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Виды натюрморта:</text>
+<text x="542" y="296" fill="#7C2D12" font-size="10" font-family="sans-serif">• “Vanitas” — бренность бытия</text>
+<text x="542" y="309" fill="#7C2D12" font-size="10" font-family="sans-serif">• Цветочный — букеты</text>
+<text x="542" y="322" fill="#7C2D12" font-size="10" font-family="sans-serif">• Завтрак — посуда, еда</text>
+<text x="542" y="335" fill="#7C2D12" font-size="10" font-family="sans-serif">• Символический — атрибуты</text>
+<text x="542" y="358" fill="#EA580C" font-size="11" font-weight="bold" font-family="sans-serif">Знаменитые примеры:</text>
+<text x="542" y="374" fill="#7C2D12" font-size="10" font-family="sans-serif">Стожаров “Хлеб, соль, братина”</text>
+<text x="542" y="387" fill="#7C2D12" font-size="10" font-family="sans-serif">Класс “Натюрморт с шампиньонами”</text>
+<text x="542" y="400" fill="#7C2D12" font-size="10" font-family="sans-serif">Сезанн — натюрморты с яблоками</text>
+<text x="542" y="413" fill="#7C2D12" font-size="10" font-family="sans-serif">Ван Гог “Подсолнухи”</text>
+<text x="542" y="426" fill="#7C2D12" font-size="10" font-family="sans-serif">Петров-Водкин “Скрипка”</text>
+<rect x="30" y="470" width="730" height="110" fill="#FFF7ED" rx="6" stroke="#FDBA74" stroke-width="1" filter="url(#softShadow)" />
+<rect x="30" y="470" width="730" height="4" fill="url(#goldGrad)" rx="2" />
+<text x="400" y="495" fill="#9A3412" font-size="13" font-weight="bold" text-anchor="middle" font-family="serif">Ключевые отличия жанров</text>
+<text x="55" y="515" fill="#DC2626" font-size="11" font-weight="bold" font-family="sans-serif">Портрет:</text>
+<text x="115" y="515" fill="#7C2D12" font-size="10" font-family="sans-serif">главный объект — человек, его характер и эмоции</text>
+<text x="55" y="535" fill="#16A34A" font-size="11" font-weight="bold" font-family="sans-serif">Пейзаж:</text>
+<text x="120" y="535" fill="#7C2D12" font-size="10" font-family="sans-serif">главный объект — природа, пространство, атмосфера</text>
+<text x="55" y="555" fill="#D97706" font-size="11" font-weight="bold" font-family="sans-serif">Натюрморт:</text>
+<text x="135" y="555" fill="#7C2D12" font-size="10" font-family="sans-serif">главный объект — предметы, их форма, фактура, цвет, композиция</text>
+<text x="400" y="575" fill="#A16207" font-size="9" text-anchor="middle" font-family="sans-serif" font-style="italic">Жанр определяется тем, ЧТО является главным объектом изображения</text>
+</svg>

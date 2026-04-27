@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0FDFA" />
+      <stop offset="100%" stop-color="#ECFEFF" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0891B2" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="100%" />
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+    <clipPath id="ill3a">
+      <rect x="20" y="205" width="245" height="155" rx="8" />
+    </clipPath>
+    <clipPath id="ill3b">
+      <rect x="280" y="205" width="245" height="155" rx="8" />
+    </clipPath>
+    <clipPath id="ill3c">
+      <rect x="540" y="205" width="240" height="155" rx="8" />
+    </clipPath>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="12" />
+  <rect x="3" y="3" width="794" height="594" rx="10" fill="none" stroke="#06B6D4" stroke-width="2.5" />
+  <rect x="8" y="8" width="784" height="584" rx="8" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.2" />
+  <polygon points="12,12 42,12 12,42" fill="#06B6D4" opacity="0.08" />
+  <polygon points="788,12 758,12 788,42" fill="#06B6D4" opacity="0.08" />
+  <polygon points="12,588 42,588 12,558" fill="#06B6D4" opacity="0.08" />
+  <polygon points="788,588 758,588 788,558" fill="#06B6D4" opacity="0.08" />
+  <circle cx="740" cy="100" r="25" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.1" />
+  <polygon points="60,540 80,510 100,540" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.1" />
+  <rect x="70" y="80" width="18" height="18" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.08" transform="rotate(45, 79, 89)" />
+  <rect x="15" y="15" width="770" height="55" fill="url(#headerGrad)" rx="8" opacity="0.92" />
+  <rect x="25" y="22" width="50" height="38" fill="#FFFFFF" rx="6" opacity="0.25" />
+  <text x="50" y="49" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="410" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Прямоугольник, ромб, квадрат</text>
+  <text x="760" y="35" font-family="Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="end" opacity="0.7">8 класс</text>
+  <text x="760" y="50" font-family="Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="end" opacity="0.7">Геометрия</text>
+  <line x1="20" y1="80" x2="780" y2="80" stroke="#06B6D4" stroke-width="2" opacity="0.25" />
+  <rect x="23" y="93" width="245" height="100" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="20" y="90" width="245" height="100" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="20" y="90" width="245" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="20" y="106" width="245" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="142" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Прямоугольник</text>
+  <text x="32" y="130" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• Все углы = 90°</text>
+  <text x="32" y="147" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• Противоп. стороны равны</text>
+  <text x="32" y="164" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• Диагонали равны: d₁ = d₂</text>
+  <text x="32" y="181" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• Диагонали делятся пополам</text>
+  <text x="32" y="198" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• S = a · b</text>
+  <rect x="283" y="93" width="245" height="100" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="280" y="90" width="245" height="100" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="280" y="90" width="245" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="280" y="106" width="245" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="402" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Ромб</text>
+  <text x="292" y="130" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• Все стороны равны: a = b</text>
+  <text x="292" y="147" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• Диагонали ⊥ друг другу</text>
+  <text x="292" y="164" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• Диагонали — биссектрисы</text>
+  <text x="292" y="181" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• S = d₁ · d₂ / 2</text>
+  <text x="292" y="198" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• S = a² · sin(α)</text>
+  <rect x="543" y="93" width="240" height="100" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="540" y="90" width="240" height="100" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="540" y="90" width="240" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="540" y="106" width="240" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="660" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Квадрат</text>
+  <text x="552" y="130" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• Все стороны = a</text>
+  <text x="552" y="147" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• Все углы = 90°</text>
+  <text x="552" y="164" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• d = a√2</text>
+  <text x="552" y="181" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• S = a²</text>
+  <text x="552" y="198" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• Диагонали ⊥ и равны</text>
+  <g clip-path="url(#ill3a)">
+    <rect x="20" y="205" width="245" height="155" fill="#F0FDFA" opacity="0.6" />
+    <rect x="20" y="205" width="245" height="155" fill="none" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.4" />
+    <polygon points="80,240 220,240 220,310 80,310" fill="#06B6D4" opacity="0.08" stroke="#06B6D4" stroke-width="2" />
+    <line x1="80" y1="240" x2="220" y2="310" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4,3" />
+    <text x="150" y="269" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#F59E0B" text-anchor="middle" font-style="italic">d</text>
+    <line x1="220" y1="240" x2="80" y2="310" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4,3" />
+    <text x="150" y="269" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#F59E0B" text-anchor="middle" font-style="italic">d</text>
+    <text x="68" y="235" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490">A</text>
+    <text x="228" y="235" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490">B</text>
+    <text x="228" y="322" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490">C</text>
+    <text x="68" y="322" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490">D</text>
+    <text x="150" y="237" font-family="Arial,sans-serif" font-size="11" fill="#EF4444" text-anchor="middle" font-style="italic">a</text>
+    <text x="228" y="280" font-family="Arial,sans-serif" font-size="11" fill="#EF4444" font-style="italic">b</text>
+    <rect x="85" y="245" width="5" height="5" fill="none" stroke="#06B6D4" stroke-width="0.8" opacity="0.5" />
+    <rect x="210" y="245" width="5" height="5" fill="none" stroke="#06B6D4" stroke-width="0.8" opacity="0.5" />
+    <rect x="210" y="300" width="5" height="5" fill="none" stroke="#06B6D4" stroke-width="0.8" opacity="0.5" />
+    <rect x="85" y="300" width="5" height="5" fill="none" stroke="#06B6D4" stroke-width="0.8" opacity="0.5" />
+  </g>
+  <g clip-path="url(#ill3b)">
+    <rect x="280" y="205" width="245" height="155" fill="#F0FDFA" opacity="0.6" />
+    <rect x="280" y="205" width="245" height="155" fill="none" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.4" />
+    <polygon points="402,235 452,275 402,315 352,275" fill="#06B6D4" opacity="0.08" stroke="#06B6D4" stroke-width="2" />
+    <line x1="402" y1="235" x2="402" y2="315" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4,3" />
+    <text x="402" y="269" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#F59E0B" text-anchor="middle" font-style="italic">d₂</text>
+    <line x1="352" y1="275" x2="452" y2="275" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4,3" />
+    <text x="402" y="269" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#F59E0B" text-anchor="middle" font-style="italic">d₁</text>
+    <rect x="402" y="275" width="6" height="6" fill="none" stroke="#EF4444" stroke-width="1" />
+    <text x="392" y="227" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490">A</text>
+    <text x="460" y="279" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490">B</text>
+    <text x="392" y="329" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490">C</text>
+    <text x="336" y="279" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490">D</text>
+  </g>
+  <g clip-path="url(#ill3c)">
+    <rect x="540" y="205" width="240" height="155" fill="#F0FDFA" opacity="0.6" />
+    <rect x="540" y="205" width="240" height="155" fill="none" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.4" />
+    <polygon points="610,240 690,240 690,320 610,320" fill="#06B6D4" opacity="0.08" stroke="#06B6D4" stroke-width="2" />
+    <line x1="610" y1="240" x2="690" y2="320" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4,3" />
+    <text x="650" y="274" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#F59E0B" text-anchor="middle" font-style="italic">d</text>
+    <line x1="690" y1="240" x2="610" y2="320" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4,3" />
+    <text x="650" y="274" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#F59E0B" text-anchor="middle" font-style="italic">d</text>
+    <text x="650" y="237" font-family="Arial,sans-serif" font-size="11" fill="#EF4444" text-anchor="middle" font-style="italic">a</text>
+  </g>
+  <rect x="23" y="378" width="760" height="85" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="20" y="375" width="760" height="85" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="20" y="375" width="760" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="20" y="391" width="760" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="400" y="392" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Сравнительная таблица свойств</text>
+  <text x="32" y="415" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Свойство              | Прямоугольник | Ромб        | Квадрат</text>
+  <text x="32" y="432" font-family="Arial,sans-serif" font-size="12" fill="#37474F">⊥ диагонали           | —             | +           | +</text>
+  <text x="32" y="449" font-family="Arial,sans-serif" font-size="12" fill="#37474F">= диагонали           | +             | —           | +</text>
+  <text x="32" y="466" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Диаг. — биссектрисы   | —             | +           | +</text>
+  <text x="32" y="483" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Все стороны равны     | —             | +           | +</text>
+  <rect x="23" y="478" width="760" height="75" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="20" y="475" width="760" height="75" fill="#FFF7ED" rx="8" stroke="#F59E0B" stroke-width="2" opacity="0.95" />
+  <rect x="20" y="475" width="760" height="24" fill="#F59E0B" rx="8" opacity="0.2" />
+  <rect x="20" y="491" width="760" height="8" fill="#F59E0B" opacity="0.2" />
+  <text x="400" y="492" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#92400E" text-anchor="middle">Формулы площадей</text>
+  <text x="32" y="515" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">Прямоугольник: S = a · b        Ромб: S = d₁ · d₂ / 2 = a² · sin(α)        Квадрат: S = a² = d² / 2</text>
+  <rect x="15" y="560" width="770" height="28" fill="url(#panelGrad)" opacity="0.08" rx="6" />
+  <text x="400" y="578" font-family="Arial,sans-serif" font-size="11" fill="#06B6D4" text-anchor="middle" opacity="0.6">Геометрия · 8 класс</text>
+  <circle cx="35" cy="574" r="8" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.3" />
+  <circle cx="765" cy="574" r="8" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.3" />
+</svg>

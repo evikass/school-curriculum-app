@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="72" rx="0" fill="#EF4444" />
+  <rect x="0" y="72" width="800" height="4" rx="0" fill="#B91C1C" />
+  <text x="400" y="36" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="sans-serif">Культура XVI века</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="normal" font-family="sans-serif">Зодчество, книгопечатание, литература</text>
+  <rect x="0" y="570" width="800" height="30" rx="0" fill="#FFF1F2" />
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#FCA5A5" stroke-width="1" />
+  <text x="400" y="590" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="normal" font-family="sans-serif">7 класс — История России — Урок 4</text>
+  <rect x="0" y="76" width="800" height="494" rx="0" fill="#FFF1F2" opacity="0.4" />
+  <text x="400" y="98" text-anchor="middle" fill="#B91C1C" font-size="14" font-weight="bold" font-family="sans-serif">Культурные достижения XVI века</text>
+  <line x1="60" y1="126" x2="740" y2="126" stroke="#EF4444" stroke-width="3" />
+  <circle cx="100" cy="126" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="100" y="114" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1475</text>
+  <text x="100" y="140" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Строительство</text>
+  <text x="100" y="151" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Кремля</text>
+  <circle cx="230" cy="126" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="230" y="114" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1479</text>
+  <text x="230" y="140" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Успенский</text>
+  <text x="230" y="151" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">собор</text>
+  <circle cx="360" cy="126" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="360" y="114" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1554</text>
+  <text x="360" y="140" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Покровский</text>
+  <text x="360" y="151" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">собор</text>
+  <circle cx="490" cy="126" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="490" y="114" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1564</text>
+  <text x="490" y="140" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Первая</text>
+  <text x="490" y="151" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">книга</text>
+  <circle cx="620" cy="126" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="620" y="114" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1550-е</text>
+  <text x="620" y="140" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Летописные</text>
+  <text x="620" y="151" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">своды</text>
+  <circle cx="730" cy="126" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="730" y="114" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1580-е</text>
+  <text x="730" y="140" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Иконопись</text>
+  <rect x="30" y="165" width="246" height="210" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="2" />
+  <rect x="30" y="165" width="246" height="28" rx="6" fill="#D97706" />
+  <rect x="30" y="185" width="246" height="8" rx="0" fill="#D97706" />
+  <text x="153" y="184" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="sans-serif">Зодчество</text>
+  <text x="42" y="202" text-anchor="start" fill="#D97706" font-size="11" font-weight="bold" font-family="sans-serif">Кремлёвские стены и башни</text>
+  <text x="42" y="216" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Кирпич, 1475–1495 гг.</text>
+  <text x="42" y="244" text-anchor="start" fill="#D97706" font-size="11" font-weight="bold" font-family="sans-serif">Успенский собор</text>
+  <text x="42" y="258" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Главный храм Руси, Аристотель Фиораванти</text>
+  <text x="42" y="286" text-anchor="start" fill="#D97706" font-size="11" font-weight="bold" font-family="sans-serif">Покровский собор</text>
+  <text x="42" y="300" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Храм Василия Блаженного, 1555–1561</text>
+  <text x="42" y="328" text-anchor="start" fill="#D97706" font-size="11" font-weight="bold" font-family="sans-serif">Грановитая палата</text>
+  <text x="42" y="342" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Тронный зал Ивана III, 1487–1491</text>
+  <rect x="288" y="165" width="246" height="210" rx="6" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" />
+  <rect x="288" y="165" width="246" height="28" rx="6" fill="#EF4444" />
+  <rect x="288" y="185" width="246" height="8" rx="0" fill="#EF4444" />
+  <text x="411" y="184" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="sans-serif">Книгопечатание</text>
+  <text x="300" y="202" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="sans-serif">Иван Фёдоров</text>
+  <text x="300" y="216" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Первопечатник, диакон церкви</text>
+  <text x="300" y="244" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="sans-serif">«Апостол» — 1564 г.</text>
+  <text x="300" y="258" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Первая точно датированная книга</text>
+  <text x="300" y="286" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="sans-serif">Печатный двор</text>
+  <text x="300" y="300" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">В Москве, на Никольской улице</text>
+  <text x="300" y="328" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="sans-serif">«Часовник» — 1565 г.</text>
+  <text x="300" y="342" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Вторая печатная книга</text>
+  <rect x="546" y="165" width="246" height="210" rx="6" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2" />
+  <rect x="546" y="165" width="246" height="28" rx="6" fill="#1D4ED8" />
+  <rect x="546" y="185" width="246" height="8" rx="0" fill="#1D4ED8" />
+  <text x="669" y="184" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="sans-serif">Литература и живопись</text>
+  <text x="558" y="202" text-anchor="start" fill="#1D4ED8" font-size="11" font-weight="bold" font-family="sans-serif">«Домострой»</text>
+  <text x="558" y="216" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Свод правил жизни семьи</text>
+  <text x="558" y="244" text-anchor="start" fill="#1D4ED8" font-size="11" font-weight="bold" font-family="sans-serif">«Степенная книга»</text>
+  <text x="558" y="258" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">История Руси по «степеням»</text>
+  <text x="558" y="286" text-anchor="start" fill="#1D4ED8" font-size="11" font-weight="bold" font-family="sans-serif">«История о Казанском царстве»</text>
+  <text x="558" y="300" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Повесть о взятии Казани</text>
+  <text x="558" y="328" text-anchor="start" fill="#1D4ED8" font-size="11" font-weight="bold" font-family="sans-serif">Дионисий</text>
+  <text x="558" y="342" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Великий иконописец, фрески Ферапонтова мон.</text>
+  <text x="400" y="405" text-anchor="middle" fill="#B91C1C" font-size="13" font-weight="bold" font-family="sans-serif">Покровский собор (Храм Василия Блаженного)</text>
+  <line x1="100" y1="408" x2="700" y2="408" stroke="#FCA5A5" stroke-width="1" />
+  <rect x="300" y="505" width="200" height="50" rx="0" fill="#FCA5A5" stroke="#EF4444" stroke-width="1" />
+  <path d="M 370,505 Q 370,465 400,455 Q 430,465 430,505" fill="#EF4444" stroke="#EF4444" stroke-width="2" />
+  <circle cx="400" cy="450" r="6" fill="#EF4444" />
+  <path d="M 310,505 Q 310,480 330,473 Q 350,480 350,505" fill="#EF4444" stroke="#EF4444" stroke-width="2" />
+  <circle cx="330" cy="468" r="5" fill="#EF4444" />
+  <path d="M 450,505 Q 450,480 470,473 Q 490,480 490,505" fill="#EF4444" stroke="#EF4444" stroke-width="2" />
+  <circle cx="470" cy="468" r="5" fill="#EF4444" />
+  <path d="M 270,505 Q 270,487 285,483 Q 300,487 300,505" fill="#EF4444" stroke="#EF4444" stroke-width="2" />
+  <path d="M 500,505 Q 500,487 515,483 Q 530,487 530,505" fill="#EF4444" stroke="#EF4444" stroke-width="2" />
+  <text x="400" y="565" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">1555–1561 гг. — зодчие Барма и Постник</text>
+</svg>

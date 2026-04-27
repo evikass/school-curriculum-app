@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600"><rect width="800" height="600" fill="#F0FDF4" rx="12"/>
+  <rect x="0" y="0" width="800" height="60" fill="#22C55E" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">Здоровый образ жизни и его компоненты</text>
+  <circle cx="400" cy="200" r="55" fill="#22C55E" stroke="#16A34A" stroke-width="3"/>
+  <text x="400" y="193" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">Здоровый</text>
+  <text x="400" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">образ жизни</text><line x1="400" y1="200" x2="130" y2="130" stroke="#16A34A" stroke-width="2" stroke-dasharray="6,3"/><circle cx="130" cy="130" r="35" fill="#16A34A" opacity="0.15" stroke="#16A34A" stroke-width="2"/><text x="130" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16A34A">Питание</text><line x1="400" y1="200" x2="670" y2="130" stroke="#EF4444" stroke-width="2" stroke-dasharray="6,3"/><circle cx="670" cy="130" r="35" fill="#EF4444" opacity="0.15" stroke="#EF4444" stroke-width="2"/><text x="670" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#EF4444">Движение</text><line x1="400" y1="200" x2="130" y2="280" stroke="#DC2626" stroke-width="2" stroke-dasharray="6,3"/><circle cx="130" cy="280" r="35" fill="#DC2626" opacity="0.15" stroke="#DC2626" stroke-width="2"/><text x="130" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#DC2626">Сон/Отдых</text><line x1="400" y1="200" x2="670" y2="280" stroke="#22C55E" stroke-width="2" stroke-dasharray="6,3"/><circle cx="670" cy="280" r="35" fill="#22C55E" opacity="0.15" stroke="#22C55E" stroke-width="2"/><text x="670" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#22C55E">Гигиена</text><rect x="20" y="340" width="185" height="210" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="20" y="340" width="185" height="28" fill="#22C55E" rx="8"/>
+<rect x="20" y="360" width="185" height="8" fill="#22C55E"/>
+<text x="112" y="359" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Рациональное питание</text>
+<text x="32" y="384" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 3-5 приёмов пищи в день</text>
+<text x="32" y="402" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Белки, жиры, углеводы</text>
+<text x="32" y="420" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Витамины и минералы</text>
+<text x="32" y="438" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 1,5-2 л воды в день</text>
+<text x="32" y="456" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Овощи и фрукты</text>
+<text x="32" y="474" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Ограничить сахар и соль</text>
+<text x="32" y="492" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Не переедать перед сном</text>
+<text x="32" y="510" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Завтрак — обязательный приём</text><rect x="215" y="340" width="185" height="210" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="215" y="340" width="185" height="28" fill="#EF4444" rx="8"/>
+<rect x="215" y="360" width="185" height="8" fill="#EF4444"/>
+<text x="307" y="359" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Физическая активность</text>
+<text x="227" y="384" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 60 мин активности в день</text>
+<text x="227" y="402" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Утренняя гимнастика</text>
+<text x="227" y="420" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Спортивные секции 3 р/нед</text>
+<text x="227" y="438" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Прогулки на свежем воздухе</text>
+<text x="227" y="456" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Подвижные игры</text>
+<text x="227" y="474" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Чередование труда и отдыха</text>
+<text x="227" y="492" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Отказ от лифта — лестница</text>
+<text x="227" y="510" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Растяжка и разминка</text><rect x="410" y="340" width="185" height="210" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="410" y="340" width="185" height="28" fill="#22C55E" rx="8"/>
+<rect x="410" y="360" width="185" height="8" fill="#22C55E"/>
+<text x="502" y="359" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Сон и отдых</text>
+<text x="422" y="384" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 8-10 часов сна (подростки)</text>
+<text x="422" y="402" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Ложиться до 22:00</text>
+<text x="422" y="420" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Проветривание спальни</text>
+<text x="422" y="438" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Отказ от экранов перед сном</text>
+<text x="422" y="456" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Активный отдых на природе</text>
+<text x="422" y="474" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Чередование умственной и</text>
+<text x="422" y="492" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">  физической нагрузки</text>
+<text x="422" y="510" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Выходные без гаджетов</text><rect x="600" y="340" width="185" height="210" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="600" y="340" width="185" height="28" fill="#EF4444" rx="8"/>
+<rect x="600" y="360" width="185" height="8" fill="#EF4444"/>
+<text x="692" y="359" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Личная гигиена</text>
+<text x="612" y="384" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Ежедневный душ</text>
+<text x="612" y="402" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Чистка зубов 2 раза/день</text>
+<text x="612" y="420" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Смена нательного белья</text>
+<text x="612" y="438" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Мытьё рук перед едой</text>
+<text x="612" y="456" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Уход за ногтями и волосами</text>
+<text x="612" y="474" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Проветривание помещения</text>
+<text x="612" y="492" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Уборка рабочего места</text>
+<text x="612" y="510" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Спортивная форма — чистая</text>
+  <rect x="0" y="568" width="800" height="32" fill="#16A34A"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">8 класс | Физкультура/ОБЖ | Урок 10</text></svg>

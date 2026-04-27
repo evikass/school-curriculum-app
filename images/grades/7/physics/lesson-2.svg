@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1917"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="amberV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FB923C"/>
+    </marker>
+    <marker id="arrowWhite" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FFFBEB"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4ADE80"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F87171"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#60A5FA"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="12"/>
+  <!-- Decorative top bar -->
+  <rect x="0" y="0" width="800" height="4" fill="url(#amberGrad)" rx="2"/>
+  <circle cx="40" cy="45" r="18" fill="#B45309" stroke="#F59E0B" stroke-width="2"/>
+  <text x="40" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFBEB">7</text>
+  <text x="68" y="52" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#F59E0B" filter="url(#glow)">Расчёт пути и времени движения</text>
+  <text x="68" y="70" font-family="Arial, sans-serif" font-size="13" fill="#FDE68A">Равномерное и неравномерное движение, графики</text>
+  <line x1="20" y1="78" x2="780" y2="78" stroke="#92400E" stroke-width="1" stroke-dasharray="4,4"/>  <rect x="30" y="85" width="240" height="70" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <text x="150" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">Расчёт пути</text>
+  <text x="150" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#FCD34D" filter="url(#glow)">s = v · t</text>  <rect x="290" y="85" width="240" height="70" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <text x="410" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">Расчёт времени</text>
+  <text x="410" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#FCD34D" filter="url(#glow)">t = s / v</text>  <rect x="550" y="85" width="220" height="70" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <text x="660" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">Расчёт скорости</text>
+  <text x="660" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#FCD34D" filter="url(#glow)">v = s / t</text>
+  <!-- Graph s(t) -->
+  <text x="70" y="190" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">График пути s(t)</text>
+  <rect x="60" y="200" width="340" height="190" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <!-- Axes -->
+  <line x1="100" y1="370" x2="380" y2="370" stroke="#FFFBEB" stroke-width="1.5" marker-end="url(#arrowWhite)"/>
+  <line x1="100" y1="370" x2="100" y2="210" stroke="#FFFBEB" stroke-width="1.5" marker-end="url(#arrowWhite)"/>
+  <text x="375" y="388" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">t, с</text>
+  <text x="60" y="218" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">s, м</text>
+  <text x="93" y="385" font-family="Arial, sans-serif" font-size="10" fill="#92400E">0</text>
+  <!-- Grid lines -->
+  <line x1="100" y1="330" x2="370" y2="330" stroke="#44403C" stroke-width="0.5"/>
+  <line x1="100" y1="290" x2="370" y2="290" stroke="#44403C" stroke-width="0.5"/>
+  <line x1="100" y1="250" x2="370" y2="250" stroke="#44403C" stroke-width="0.5"/>
+  <line x1="170" y1="370" x2="170" y2="215" stroke="#44403C" stroke-width="0.5"/>
+  <line x1="240" y1="370" x2="240" y2="215" stroke="#44403C" stroke-width="0.5"/>
+  <line x1="310" y1="370" x2="310" y2="215" stroke="#44403C" stroke-width="0.5"/>
+  <!-- Line v₁ (steeper) -->
+  <line x1="100" y1="370" x2="310" y2="230" stroke="#4ADE80" stroke-width="2.5"/>
+  <text x="315" y="228" font-family="Arial, sans-serif" font-size="11" fill="#4ADE80">v₁</text>
+  <!-- Line v₂ (less steep) -->
+  <line x1="100" y1="370" x2="360" y2="290" stroke="#22D3EE" stroke-width="2.5"/>
+  <text x="365" y="288" font-family="Arial, sans-serif" font-size="11" fill="#22D3EE">v₂</text>
+  <text x="160" y="400" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">v₁ &gt; v₂ — крутой наклон</text>
+
+  <!-- Graph v(t) -->
+  <text x="460" y="190" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">График скорости v(t)</text>
+  <rect x="440" y="200" width="340" height="190" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <!-- Axes -->
+  <line x1="480" y1="370" x2="760" y2="370" stroke="#FFFBEB" stroke-width="1.5" marker-end="url(#arrowWhite)"/>
+  <line x1="480" y1="370" x2="480" y2="210" stroke="#FFFBEB" stroke-width="1.5" marker-end="url(#arrowWhite)"/>
+  <text x="755" y="388" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">t, с</text>
+  <text x="440" y="218" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">v, м/с</text>
+  <text x="473" y="385" font-family="Arial, sans-serif" font-size="10" fill="#92400E">0</text>
+  <!-- Horizontal line v=const (uniform) -->
+  <line x1="480" y1="270" x2="740" y2="270" stroke="#4ADE80" stroke-width="2.5"/>
+  <text x="745" y="275" font-family="Arial, sans-serif" font-size="11" fill="#4ADE80">равномерное</text>
+  <!-- Non-uniform (curve) -->
+  <path d="M 480,320 Q 560,310 640,250 Q 700,220 740,215" fill="none" stroke="#F87171" stroke-width="2.5"/>
+  <text x="745" y="215" font-family="Arial, sans-serif" font-size="11" fill="#F87171">неравномерн.</text>
+  <!-- Area under v(t) = path -->
+  <rect x="480" y="270" width="260" height="100" fill="#4ADE80" opacity="0.1" stroke="none"/>
+  <text x="580" y="340" font-family="Arial, sans-serif" font-size="10" fill="#4ADE80">S = площадь</text>
+  <rect x="30" y="410" width="250" height="170" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="40" y="428" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Сравнение видов движения</text>
+  <text x="40" y="440" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Равномерное движение:</text>
+  <text x="40" y="457" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• v = const (постоянна)</text>
+  <text x="40" y="474" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• s(t) — прямая линия</text>
+  <text x="40" y="491" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• v(t) — горизонтальная</text>
+  <text x="40" y="508" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="40" y="525" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Неравномерное движение:</text>
+  <text x="40" y="542" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• v меняется</text>
+  <text x="40" y="559" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• s(t) — кривая</text>  <rect x="300" y="410" width="240" height="170" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="310" y="428" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Примеры расчётов</text>
+  <text x="310" y="440" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Пример 1: s = v · t</text>
+  <text x="310" y="457" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Велосипедист едет со</text>
+  <text x="310" y="474" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">скоростью 5 м/с за 60 с:</text>
+  <text x="310" y="491" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">s = 5 · 60 = 300 м</text>
+  <text x="310" y="508" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="310" y="525" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Пример 2: t = s / v</text>
+  <text x="310" y="542" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Расстояние 150 м, v = 10 м/с:</text>
+  <text x="310" y="559" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">t = 150 / 10 = 15 с</text>  <rect x="560" y="410" width="220" height="170" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="570" y="428" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Важно!</text>
+  <text x="570" y="440" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Средняя скорость:</text>
+  <text x="570" y="457" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="570" y="474" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">v_ср = s_весь / t_всё</text>
+  <text x="570" y="491" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="570" y="508" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">НЕ среднее арифметическое!</text>
+  <text x="570" y="525" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="570" y="542" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Пример:</text>
+  <text x="570" y="559" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">s₁=100м v₁=10м/с</text>
+</svg>

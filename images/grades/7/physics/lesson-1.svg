@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1917"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="amberV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FB923C"/>
+    </marker>
+    <marker id="arrowWhite" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FFFBEB"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4ADE80"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F87171"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#60A5FA"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="12"/>
+  <!-- Decorative top bar -->
+  <rect x="0" y="0" width="800" height="4" fill="url(#amberGrad)" rx="2"/>
+  <circle cx="40" cy="45" r="18" fill="#B45309" stroke="#F59E0B" stroke-width="2"/>
+  <text x="40" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFBEB">7</text>
+  <text x="68" y="52" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#F59E0B" filter="url(#glow)">Механическое движение и его характеристики</text>
+  <text x="68" y="70" font-family="Arial, sans-serif" font-size="13" fill="#FDE68A">Траектория, путь, перемещение, скорость</text>
+  <line x1="20" y1="78" x2="780" y2="78" stroke="#92400E" stroke-width="1" stroke-dasharray="4,4"/>
+  <!-- Motion diagram -->
+  <text x="60" y="100" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">Траектория движения</text>
+  <!-- Dashed trajectory path -->
+  <path d="M 80,300 Q 150,180 250,250 Q 350,320 450,200" fill="none" stroke="#FB923C" stroke-width="2.5" stroke-dasharray="8,4" marker-end="url(#arrowOrange)"/>
+  <!-- Start point A -->
+  <circle cx="80" cy="300" r="6" fill="#4ADE80"/>
+  <text x="65" y="325" font-family="Arial, sans-serif" font-size="12" fill="#4ADE80" font-weight="bold">A</text>
+  <!-- End point B -->
+  <circle cx="445" cy="203" r="6" fill="#F87171"/>
+  <text x="455" y="200" font-family="Arial, sans-serif" font-size="12" fill="#F87171" font-weight="bold">B</text>
+  <!-- Path label (along curve) -->
+  <text x="160" y="220" font-family="Arial, sans-serif" font-size="12" fill="#FB923C">s — путь (длина траектории)</text>
+  <!-- Displacement (straight line) -->
+  <line x1="80" y1="300" x2="445" y2="203" stroke="#22D3EE" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrowBlue)"/>
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="12" fill="#22D3EE">Δr — перемещение</text>
+  
+  <!-- Moving object -->
+  <rect x="240" y="240" width="24" height="14" rx="3" fill="#B45309" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="270" y="250" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">тело</text>
+  <rect x="500" y="85" width="270" height="70" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <text x="635" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">Скорость равномерного движения</text>
+  <text x="635" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#FCD34D" filter="url(#glow)">v = s / t</text>  <rect x="500" y="170" width="270" height="60" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <text x="635" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">Единица скорости</text>
+  <text x="635" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FCD34D" filter="url(#glow)">[v] = м/с</text>  <rect x="30" y="350" width="230" height="220" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="40" y="368" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Ключевые понятия</text>
+  <text x="40" y="380" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Траектория — линия, вдоль</text>
+  <text x="40" y="397" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">которой движется тело.</text>
+  <text x="40" y="414" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="40" y="431" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Путь (s) — длина траектории.</text>
+  <text x="40" y="448" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Скалярная величина.</text>
+  <text x="40" y="465" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">[s] = м (метр)</text>
+  <text x="40" y="482" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="40" y="499" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Перемещение (Δr) — вектор</text>
+  <text x="40" y="516" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">от начальной точки к</text>
+  <text x="40" y="533" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">конечной. Векторная величина.</text>  <rect x="280" y="350" width="230" height="220" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="290" y="368" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Виды движения</text>
+  <text x="290" y="380" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Равномерное движение —</text>
+  <text x="290" y="397" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">тело за равные промежутки</text>
+  <text x="290" y="414" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">времени проходит равные</text>
+  <text x="290" y="431" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">расстояния.</text>
+  <text x="290" y="448" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="290" y="465" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Скорость постоянна: v = const</text>
+  <text x="290" y="482" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="290" y="499" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Неравномерное движение —</text>
+  <text x="290" y="516" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">скорость меняется со временем.</text>  <rect x="530" y="250" width="240" height="320" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="540" y="268" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Расчёты</text>
+  <text x="540" y="280" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Формулы:</text>
+  <text x="540" y="297" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="540" y="314" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">v = s / t  (скорость)</text>
+  <text x="540" y="331" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">s = v · t   (путь)</text>
+  <text x="540" y="348" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">t = s / v   (время)</text>
+  <text x="540" y="365" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="540" y="382" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Пример:</text>
+  <text x="540" y="399" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Автомобиль проехал 120 км</text>
+  <text x="540" y="416" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">за 2 часа.</text>
+  <text x="540" y="433" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">v = 120 / 2 = 60 км/ч</text>
+  <text x="540" y="450" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">       = 60/3,6 ≈ 16,7 м/с</text>
+  <text x="540" y="467" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="540" y="484" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Перевод: 1 км/ч = 1/3,6 м/с</text>
+  <circle cx="620" cy="155" r="30" fill="none" stroke="#92400E" stroke-width="2"/>
+  <path d="M 600,170 A 25,25 0 0 1 640,170" fill="none" stroke="#F59E0B" stroke-width="3"/>
+  <line x1="620" y1="155" x2="635" y2="165" stroke="#F87171" stroke-width="2"/>
+  <circle cx="620" cy="155" r="3" fill="#F87171"/>
+
+</svg>

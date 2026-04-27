@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#D97706" />
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#22C55E" />
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#F59E0B" />
+  <rect x="0" y="6" width="800" height="70" fill="#D97706" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#92400E" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">6</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Социальный конфликт и его решение</text>
+  <text x="78" y="58" fill="#FEF3C7" font-size="13" font-family="Arial, sans-serif">Виды, причины, стадии и методы разрешения</text>
+  <rect x="17" y="92" width="385" height="215" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="385" height="215" rx="8" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5" />
+  <rect x="15" y="90" width="385" height="26" rx="8" fill="#EF4444" />
+  <rect x="15" y="108" width="385" height="8" fill="#EF4444" />
+  <text x="207" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Стадии конфликта</text>
+  <rect x="30" y="108" width="130" height="24" rx="5" fill="#EF4444" stroke="#EF4444" stroke-width="1.5" />
+  <text x="95" y="124" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">1. Предпосылки</text>
+  <text x="170" y="124" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Накопление противоречий</text>
+  <rect x="30" y="143" width="130" height="24" rx="5" fill="#F59E0B" stroke="#F59E0B" stroke-width="1.5" />
+  <text x="95" y="159" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">2. Инцидент</text>
+  <text x="170" y="159" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Повод для начала конфликта</text>
+  <rect x="30" y="178" width="130" height="24" rx="5" fill="#D97706" stroke="#D97706" stroke-width="1.5" />
+  <text x="95" y="194" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">3. Эскалация</text>
+  <text x="170" y="194" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Нарастание напряжённости</text>
+  <rect x="30" y="213" width="130" height="24" rx="5" fill="#92400E" stroke="#92400E" stroke-width="1.5" />
+  <text x="95" y="229" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">4. Кульминация</text>
+  <text x="170" y="229" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Высшая точка конфликта</text>
+  <rect x="30" y="248" width="130" height="24" rx="5" fill="#22C55E" stroke="#22C55E" stroke-width="1.5" />
+  <text x="95" y="264" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">5. Разрешение</text>
+  <text x="170" y="264" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Выход из конфликта</text>
+  <line x1="95" y1="135" x2="95" y2="255" stroke="#D97706" stroke-width="2" marker-end="url(#arrowAmber)" />
+  <rect x="417" y="92" width="370" height="215" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="90" width="370" height="215" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5" />
+  <rect x="415" y="90" width="370" height="26" rx="8" fill="#D97706" />
+  <rect x="415" y="108" width="370" height="8" fill="#D97706" />
+  <text x="600" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Виды социальных конфликтов</text>
+  <circle cx="430" cy="125" r="5" fill="#3B82F6" />
+  <text x="442" y="128" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">• Политические</text>
+  <text x="600" y="128" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">борьба за власть</text>
+  <circle cx="430" cy="153" r="5" fill="#22C55E" />
+  <text x="442" y="156" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">• Экономические</text>
+  <text x="600" y="156" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">распределение ресурсов</text>
+  <circle cx="430" cy="181" r="5" fill="#8B5CF6" />
+  <text x="442" y="184" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">• Национальные</text>
+  <text x="600" y="184" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">межнациональные споры</text>
+  <circle cx="430" cy="209" r="5" fill="#6366F1" />
+  <text x="442" y="212" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">• Религиозные</text>
+  <text x="600" y="212" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">вероисповедные разногласия</text>
+  <circle cx="430" cy="237" r="5" fill="#EF4444" />
+  <text x="442" y="240" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">• Классовые</text>
+  <text x="600" y="240" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">классовые противоречия</text>
+  <circle cx="430" cy="265" r="5" fill="#EC4899" />
+  <text x="442" y="268" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">• Межличностные</text>
+  <text x="600" y="268" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">столкновение личностей</text>
+  <rect x="17" y="317" width="385" height="130" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="315" width="385" height="130" rx="8" fill="#FFFFFF" stroke="#92400E" stroke-width="1.5" />
+  <rect x="15" y="315" width="385" height="26" rx="8" fill="#92400E" />
+  <rect x="15" y="333" width="385" height="8" fill="#92400E" />
+  <text x="207" y="333" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Причины конфликтов</text>
+  <text x="30" y="353" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">• Неравенство в доходах и статусе</text>
+  <text x="30" y="373" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">• Неудовлетворённость потребностей</text>
+  <text x="30" y="393" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">• Ценностные разногласия</text>
+  <text x="30" y="413" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">• Борьба за ограниченные ресурсы</text>
+  <text x="30" y="433" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">• Необъективность законов и правил</text>
+  <rect x="417" y="317" width="370" height="130" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="315" width="370" height="130" rx="8" fill="#FFFFFF" stroke="#22C55E" stroke-width="1.5" />
+  <rect x="415" y="315" width="370" height="26" rx="8" fill="#22C55E" />
+  <rect x="415" y="333" width="370" height="8" fill="#22C55E" />
+  <text x="600" y="333" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Методы разрешения</text>
+  <text x="430" y="353" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">• Компромисс</text>
+  <text x="560" y="353" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">— взаимные уступки</text>
+  <text x="430" y="373" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">• Переговоры</text>
+  <text x="560" y="373" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">— поиск общего решения</text>
+  <text x="430" y="393" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">• Медиация</text>
+  <text x="560" y="393" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">— привлечение посредника</text>
+  <text x="430" y="413" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">• Арбитраж</text>
+  <text x="560" y="413" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">— решение третьей стороны</text>
+  <text x="430" y="433" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">• Сотрудничество</text>
+  <text x="560" y="433" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">— совместный поиск выхода</text>
+  <rect x="17" y="457" width="770" height="55" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="455" width="770" height="55" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5" />
+  <rect x="15" y="455" width="770" height="26" rx="8" fill="#92400E" />
+  <rect x="15" y="473" width="770" height="8" fill="#92400E" />
+  <text x="400" y="473" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Конструктивная роль конфликта</text>
+  <text x="400" y="480" text-anchor="middle" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">Конфликт не всегда вреден — он выявляет проблемы и стимулирует</text>
+  <text x="400" y="498" text-anchor="middle" fill="#22C55E" font-size="13" font-weight="bold" font-family="Arial, sans-serif">развитие общества при конструктивном разрешении</text>
+  <rect x="0" y="570" width="800" height="30" fill="#92400E" />
+  <text x="400" y="590" text-anchor="middle" fill="#FEF3C7" font-size="11" font-family="Arial, sans-serif">Обществознание • 8 класс • Интернет-Школа</text>
+</svg>

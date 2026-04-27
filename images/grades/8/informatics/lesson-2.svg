@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0F9FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="800" height="56" fill="#0EA5E9" rx="0" />
+  <text x="400" y="38" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Урок 2: Системы счисления</text>
+  <line x1="50" y1="52" x2="750" y2="52" stroke="#38BDF8" stroke-width="2" />
+  <rect x="22" y="70" width="370" height="120" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="20" y="68" width="370" height="120" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="20" y="68" width="370" height="28" fill="#0284C7" rx="8" />
+  <rect x="20" y="88" width="370" height="8" fill="#0284C7" />
+  <text x="205" y="87" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Основные системы счисления</text>
+  <text x="30" y="106" text-anchor="start" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Система</text>
+  <text x="120" y="106" text-anchor="start" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Осн.</text>
+  <text x="210" y="106" text-anchor="start" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Цифры</text>
+  <text x="300" y="106" text-anchor="start" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Пример</text>
+  <text x="30" y="124" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Двоичная</text>
+  <text x="120" y="124" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Consolas, monospace">2</text>
+  <text x="210" y="124" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Consolas, monospace">0, 1</text>
+  <text x="300" y="124" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Consolas, monospace">0b1010</text>
+  <text x="30" y="146" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Восьмеричная</text>
+  <text x="120" y="146" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Consolas, monospace">8</text>
+  <text x="210" y="146" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Consolas, monospace">0-7</text>
+  <text x="300" y="146" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Consolas, monospace">0o12</text>
+  <text x="30" y="168" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Десятичная</text>
+  <text x="120" y="168" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Consolas, monospace">10</text>
+  <text x="210" y="168" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Consolas, monospace">0-9</text>
+  <text x="300" y="168" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Consolas, monospace">10</text>
+  <text x="30" y="190" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Шестнадцатеричная</text>
+  <text x="120" y="190" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Consolas, monospace">16</text>
+  <text x="210" y="190" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Consolas, monospace">0-9, A-F</text>
+  <text x="300" y="190" text-anchor="start" fill="#0C4A6E" font-size="10" font-weight="normal" font-family="Consolas, monospace">0xA</text>
+  <rect x="22" y="202" width="370" height="185" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="20" y="200" width="370" height="185" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="20" y="200" width="370" height="28" fill="#0284C7" rx="8" />
+  <rect x="20" y="220" width="370" height="8" fill="#0284C7" />
+  <text x="205" y="219" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Перевод двоичного в десятичное</text>
+  <text x="35" y="240" text-anchor="start" fill="#0C4A6E" font-size="13" font-weight="bold" font-family="Consolas, monospace">Пример: 1011</text>
+  <text x="35" y="262" text-anchor="start" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Разряд:</text>
+  <rect x="120" y="250" width="50" height="50" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="1" rx="4" />
+  <text x="145" y="268" text-anchor="middle" fill="#0C4A6E" font-size="16" font-weight="bold" font-family="Consolas, monospace">1</text>
+  <text x="145" y="286" text-anchor="middle" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">2^3</text>
+  <text x="145" y="296" text-anchor="middle" fill="#0284C7" font-size="9" font-weight="normal" font-family="Arial, sans-serif">=8</text>
+  <rect x="182" y="250" width="50" height="50" fill="#F1F5F9" stroke="#0EA5E9" stroke-width="1" rx="4" />
+  <text x="207" y="268" text-anchor="middle" fill="#0C4A6E" font-size="16" font-weight="bold" font-family="Consolas, monospace">0</text>
+  <text x="207" y="286" text-anchor="middle" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">2^2</text>
+  <text x="207" y="296" text-anchor="middle" fill="#0284C7" font-size="9" font-weight="normal" font-family="Arial, sans-serif">=4</text>
+  <rect x="244" y="250" width="50" height="50" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="1" rx="4" />
+  <text x="269" y="268" text-anchor="middle" fill="#0C4A6E" font-size="16" font-weight="bold" font-family="Consolas, monospace">1</text>
+  <text x="269" y="286" text-anchor="middle" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">2^1</text>
+  <text x="269" y="296" text-anchor="middle" fill="#0284C7" font-size="9" font-weight="normal" font-family="Arial, sans-serif">=2</text>
+  <rect x="306" y="250" width="50" height="50" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="1" rx="4" />
+  <text x="331" y="268" text-anchor="middle" fill="#0C4A6E" font-size="16" font-weight="bold" font-family="Consolas, monospace">1</text>
+  <text x="331" y="286" text-anchor="middle" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">2^0</text>
+  <text x="331" y="296" text-anchor="middle" fill="#0284C7" font-size="9" font-weight="normal" font-family="Arial, sans-serif">=1</text>
+  <text x="35" y="320" text-anchor="start" fill="#0284C7" font-size="13" font-weight="bold" font-family="Consolas, monospace">1*8 + 0*4 + 1*2 + 1*1 = 11</text>
+  <text x="35" y="345" text-anchor="start" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Формула: sum(d[i] * 2^i)</text>
+  <rect x="22" y="399" width="370" height="190" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="20" y="397" width="370" height="190" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="20" y="397" width="370" height="28" fill="#0284C7" rx="8" />
+  <rect x="20" y="417" width="370" height="8" fill="#0284C7" />
+  <text x="205" y="416" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Перевод десятичного в двоичное</text>
+  <text x="35" y="435" text-anchor="start" fill="#0C4A6E" font-size="13" font-weight="bold" font-family="Consolas, monospace">Пример: 13 -&gt; ?</text>
+  <text x="40" y="458" text-anchor="start" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Consolas, monospace">13 / 2 = 6  остаток 1</text>
+  <text x="40" y="478" text-anchor="start" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Consolas, monospace"> 6 / 2 = 3  остаток 0</text>
+  <text x="40" y="498" text-anchor="start" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Consolas, monospace"> 3 / 2 = 1  остаток 1</text>
+  <text x="40" y="518" text-anchor="start" fill="#0C4A6E" font-size="11" font-weight="normal" font-family="Consolas, monospace"> 1 / 2 = 0  остаток 1</text>
+  <text x="35" y="540" text-anchor="start" fill="#0284C7" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Ответ: 1101 (снизу вверх)</text>
+  <rect x="412" y="70" width="370" height="225" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="410" y="68" width="370" height="225" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="410" y="68" width="370" height="28" fill="#0284C7" rx="8" />
+  <rect x="410" y="88" width="370" height="8" fill="#0284C7" />
+  <text x="595" y="87" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Python: перевод систем</text>
+  <rect x="420" y="100" width="350" height="185" fill="#1E293B" rx="6" />
+  <rect x="420" y="100" width="350" height="20" fill="#334155" rx="6" />
+  <rect x="420" y="114" width="350" height="6" fill="#334155" />
+  <circle cx="434" cy="110" r="4" fill="#EF4444" />
+  <circle cx="450" cy="110" r="4" fill="#F59E0B" />
+  <circle cx="466" cy="110" r="4" fill="#22C55E" />
+  <text x="432" y="134" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Двоичное в десятичное</text>
+  <text x="432" y="150" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace">binary = '1011'</text>
+  <text x="432" y="166" fill="#FACC15" font-size="12" font-family="Consolas, monospace">decimal = int(binary, 2)</text>
+  <text x="432" y="182" fill="#4ADE80" font-size="12" font-family="Consolas, monospace">print(decimal)  # 11</text>
+  <text x="432" y="198" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace" />
+  <text x="432" y="214" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Десятичное в двоичное</text>
+  <text x="432" y="230" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace">num = 13</text>
+  <text x="432" y="246" fill="#4ADE80" font-size="12" font-family="Consolas, monospace">print(bin(num))   # 0b1101</text>
+  <text x="432" y="262" fill="#E2E8F0" font-size="12" font-family="Consolas, monospace" />
+  <text x="432" y="278" fill="#4ADE80" font-size="12" font-family="Consolas, monospace"># Шестнадцатеричное</text>
+  <text x="432" y="294" fill="#4ADE80" font-size="12" font-family="Consolas, monospace">print(hex(255))  # 0xff</text>
+  <text x="432" y="310" fill="#4ADE80" font-size="12" font-family="Consolas, monospace">print(int('FF', 16))  # 255</text>
+  <rect x="412" y="310" width="370" height="279" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="410" y="308" width="370" height="279" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="410" y="308" width="370" height="28" fill="#0284C7" rx="8" />
+  <rect x="410" y="328" width="370" height="8" fill="#0284C7" />
+  <text x="595" y="327" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Схема перевода</text>
+  <circle cx="595" cy="430" r="30" fill="#0EA5E9" />
+  <text x="595" y="435" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold" font-family="Arial, sans-serif">10</text>
+  <circle cx="475" cy="365" r="22" fill="#38BDF8" />
+  <text x="475" y="370" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold" font-family="Arial, sans-serif">2</text>
+  <circle cx="715" cy="365" r="22" fill="#38BDF8" />
+  <text x="715" y="370" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold" font-family="Arial, sans-serif">8</text>
+  <circle cx="595" cy="530" r="22" fill="#38BDF8" />
+  <text x="595" y="535" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold" font-family="Arial, sans-serif">16</text>
+  <line x1="495" y1="380" x2="570" y2="410" stroke="#0284C7" stroke-width="2" />
+  <polygon points="570,410 566,403 574,403" fill="#0284C7" />
+  <line x1="695" y1="380" x2="620" y2="410" stroke="#0284C7" stroke-width="2" />
+  <polygon points="620,410 616,403 624,403" fill="#0284C7" />
+  <line x1="595" y1="460" x2="595" y2="508" stroke="#0284C7" stroke-width="2" />
+  <polygon points="595,508 591,501 599,501" fill="#0284C7" />
+  <text x="510" y="378" text-anchor="start" fill="#64748B" font-size="9" font-weight="normal" font-family="Consolas, monospace">bin()</text>
+  <text x="650" y="378" text-anchor="start" fill="#64748B" font-size="9" font-weight="normal" font-family="Consolas, monospace">oct()</text>
+  <text x="610" y="500" text-anchor="start" fill="#64748B" font-size="9" font-weight="normal" font-family="Consolas, monospace">hex()</text>
+</svg>

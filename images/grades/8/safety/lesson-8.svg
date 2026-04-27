@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EA580C" />
+      <stop offset="100%" style="stop-color:#DC2626" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000030" />
+    </filter>
+    <linearGradient id="dangerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC2626" />
+      <stop offset="100%" style="stop-color:#991B1B" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#F3F4F6" />
+  <rect width="800" height="70" fill="url(#headerGrad)" />
+  <text x="400" y="35" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Помощь утопающему</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FEE2E2" font-size="13" font-family="Arial, sans-serif">Спасательные техники и первая помощь</text>
+  <rect x="10" y="8" width="50" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.3" />
+  <text x="35" y="25" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">ОБЖ</text>
+  <rect x="0" y="70" width="800" height="3" fill="#EAB308" />
+  <rect x="20" y="80" width="760" height="40" rx="6" fill="#FEF2F2" stroke="#DC2626" stroke-width="2" />
+  <text x="400" y="105" text-anchor="middle" fill="#DC2626" font-size="14" font-weight="bold" font-family="Arial, sans-serif">ВАЖНО: Не прыгайте в воду, если не умеете плавать! Используйте подручные средства!</text>
+  <text x="20" y="140" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Порядок спасения утопающего</text>
+  <line x1="20" y1="144" x2="236" y2="144" stroke="#EA580C" stroke-width="2" />
+  <circle cx="32" cy="167" r="12" fill="#DC2626" />
+  <text x="32" y="171" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">1</text>
+  <text x="50" y="171" fill="#374151" font-size="12" font-family="Arial, sans-serif">Оцените ситуацию, позовите на помощь</text>
+  <circle cx="32" cy="195" r="12" fill="#DC2626" />
+  <text x="32" y="199" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">2</text>
+  <text x="50" y="199" fill="#374151" font-size="12" font-family="Arial, sans-serif">Бросьте утопающему плавательный предмет</text>
+  <circle cx="32" cy="223" r="12" fill="#2563EB" />
+  <text x="32" y="227" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">3</text>
+  <text x="50" y="227" fill="#374151" font-size="12" font-family="Arial, sans-serif">Используйте спасательный круг или шест</text>
+  <circle cx="32" cy="251" r="12" fill="#2563EB" />
+  <text x="32" y="255" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">4</text>
+  <text x="50" y="255" fill="#374151" font-size="12" font-family="Arial, sans-serif">Если плывёте — подплывайте сзади</text>
+  <circle cx="32" cy="279" r="12" fill="#2563EB" />
+  <text x="32" y="283" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">5</text>
+  <text x="50" y="283" fill="#374151" font-size="12" font-family="Arial, sans-serif">Обхватите утопающего под руки</text>
+  <circle cx="32" cy="307" r="12" fill="#2563EB" />
+  <text x="32" y="311" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">6</text>
+  <text x="50" y="311" fill="#374151" font-size="12" font-family="Arial, sans-serif">Плывите к берегу боком или на спине</text>
+  <text x="420" y="140" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Спасательные средства</text>
+  <line x1="420" y1="144" x2="588" y2="144" stroke="#EA580C" stroke-width="2" />
+  <rect x="425" y="155" width="345" height="42" rx="4" fill="#EA580C" fill-opacity="0.1" stroke="#EA580C" stroke-width="1" />
+  <text x="435" y="172" fill="#EA580C" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Спасательный круг</text>
+  <text x="435" y="188" fill="#374151" font-size="10" font-family="Arial, sans-serif">Бросить так, чтобы упал рядом</text>
+  <rect x="425" y="203" width="345" height="42" rx="4" fill="#2563EB" fill-opacity="0.1" stroke="#2563EB" stroke-width="1" />
+  <text x="435" y="220" fill="#2563EB" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Спасательный шест</text>
+  <text x="435" y="236" fill="#374151" font-size="10" font-family="Arial, sans-serif">Протянуть утопающему</text>
+  <rect x="425" y="251" width="345" height="42" rx="4" fill="#16A34A" fill-opacity="0.1" stroke="#16A34A" stroke-width="1" />
+  <text x="435" y="268" fill="#16A34A" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Верёвка с узлами</text>
+  <text x="435" y="284" fill="#374151" font-size="10" font-family="Arial, sans-serif">Бросить конец утопающему</text>
+  <rect x="425" y="299" width="345" height="42" rx="4" fill="#F59E0B" fill-opacity="0.1" stroke="#F59E0B" stroke-width="1" />
+  <text x="435" y="316" fill="#F59E0B" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Подручные средства</text>
+  <text x="435" y="332" fill="#374151" font-size="10" font-family="Arial, sans-serif">Бутылки, доски, брёвна</text>
+  <text x="20" y="340" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Первая помощь после извлечения</text>
+  <line x1="20" y1="344" x2="260" y2="344" stroke="#EA580C" stroke-width="2" />
+  <circle cx="32" cy="367" r="12" fill="#16A34A" />
+  <text x="32" y="371" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">1</text>
+  <text x="50" y="371" fill="#374151" font-size="12" font-family="Arial, sans-serif">Положите пострадавшего на живот, голову набок</text>
+  <circle cx="32" cy="395" r="12" fill="#16A34A" />
+  <text x="32" y="399" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">2</text>
+  <text x="50" y="399" fill="#374151" font-size="12" font-family="Arial, sans-serif">Очистите рот от воды и пены</text>
+  <circle cx="32" cy="423" r="12" fill="#DC2626" />
+  <text x="32" y="427" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">3</text>
+  <text x="50" y="427" fill="#374151" font-size="12" font-family="Arial, sans-serif">При отсутствии дыхания — начните СЛР</text>
+  <circle cx="32" cy="451" r="12" fill="#DC2626" />
+  <text x="32" y="455" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">4</text>
+  <text x="50" y="455" fill="#374151" font-size="12" font-family="Arial, sans-serif">30 нажатий на грудь : 2 вдоха</text>
+  <circle cx="32" cy="479" r="12" fill="#16A34A" />
+  <text x="32" y="483" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">5</text>
+  <text x="50" y="483" fill="#374151" font-size="12" font-family="Arial, sans-serif">Продолжайте до приезда скорой</text>
+  <circle cx="32" cy="507" r="12" fill="#16A34A" />
+  <text x="32" y="511" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">6</text>
+  <text x="50" y="511" fill="#374151" font-size="12" font-family="Arial, sans-serif">Согрейте пострадавшего, снимите мокрую одежду</text>
+  <text x="420" y="355" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Сердечно-лёгочная реанимация</text>
+  <line x1="420" y1="359" x2="644" y2="359" stroke="#EA580C" stroke-width="2" />
+  <rect x="425" y="370" width="345" height="130" rx="8" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#shadow)" />
+  <text x="445" y="400" fill="#DC2626" font-size="28" font-family="Arial, sans-serif">+</text>
+  <text x="480" y="395" fill="#374151" font-size="11" font-family="Arial, sans-serif">Соотношение: 30 нажатий : 2 вдоха</text>
+  <text x="480" y="415" fill="#374151" font-size="11" font-family="Arial, sans-serif">Глубина нажатий: 5-6 см</text>
+  <text x="480" y="435" fill="#374151" font-size="11" font-family="Arial, sans-serif">Частота: 100-120 нажатий/мин</text>
+  <text x="480" y="455" fill="#374151" font-size="11" font-family="Arial, sans-serif">Не прерывайте СЛР более чем на 10 сек</text>
+  <text x="480" y="475" fill="#374151" font-size="11" font-family="Arial, sans-serif">Продолжайте до прибытия медиков</text>
+  <rect x="20" y="530" width="750" height="46" rx="6" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5" />
+  <g>
+    <circle cx="33" cy="543" r="8" fill="#DC2626" />
+    <text x="33" y="548" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">X</text>
+  </g>
+  <text x="46" y="548" fill="#DC2626" font-size="11" font-weight="bold" font-family="Arial, sans-serif">ОПАСНО</text>
+  <text x="30" y="564" fill="#374151" font-size="11" font-family="Arial, sans-serif">НИКОГДА не прыгайте в воду за утопающим, если не уверены в своих силах! Лучше бросить плавсредство и вызвать помощь!</text>
+</svg>

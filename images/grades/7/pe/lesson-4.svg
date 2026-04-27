@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14532D;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#16A34A;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="ftrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#16A34A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14532D;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#DCFCE7;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" rx="14" ry="14" fill="#F0FDF4" stroke="#22C55E" stroke-width="2"/>
+  <rect x="0" y="0" width="800" height="62" rx="14" ry="14" fill="url(#hdrGrad)"/>
+  <rect x="0" y="36" width="800" height="26" fill="url(#hdrGrad)"/>
+  <rect x="16" y="12" width="38" height="38" rx="8" fill="#EF4444" opacity="0.9"/>
+  <text x="35" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#FFF">4</text>
+  <text x="68" y="34" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#FFF">Волейбол: техника и тактика</text>
+  <text x="68" y="52" font-family="Arial,sans-serif" font-size="11" fill="#86EFAC">Физкультура — 7 класс — Урок 4</text>
+  <line x1="20" y1="64" x2="780" y2="64" stroke="#86EFAC" stroke-width="1" opacity="0.5"/>
+  <rect x="16" y="72" width="245" height="135" rx="8" ry="8" fill="url(#cardGrad)" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="16" y="72" width="245" height="26" rx="8" ry="8" fill="#22C55E" opacity="0.88"/>
+  <rect x="16" y="86" width="245" height="12" fill="#22C55E" opacity="0.88"/>
+  <text x="138" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FFF">Подача мяча</text>
+  <text x="26" y="112" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Нижняя прямая подача</text>
+  <text x="26" y="127" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Верхняя прямая подача</text>
+  <text x="26" y="142" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Подача в прыжке (силовая)</text>
+  <text x="26" y="157" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Цель: слабый принимающий</text>
+  <rect x="271" y="72" width="245" height="135" rx="8" ry="8" fill="url(#cardGrad)" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="271" y="72" width="245" height="26" rx="8" ry="8" fill="#22C55E" opacity="0.88"/>
+  <rect x="271" y="86" width="245" height="12" fill="#22C55E" opacity="0.88"/>
+  <text x="393" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FFF">Приём и передача</text>
+  <text x="281" y="112" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Нижний приём — двумя руками</text>
+  <text x="281" y="127" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Верхняя передача — пальцы</text>
+  <text x="281" y="142" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Площадка рук «замок» снизу</text>
+  <text x="281" y="157" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Ноги согнуты, вес на стопах</text>
+  <rect x="526" y="72" width="258" height="135" rx="8" ry="8" fill="url(#cardGrad)" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="526" y="72" width="258" height="26" rx="8" ry="8" fill="#22C55E" opacity="0.88"/>
+  <rect x="526" y="86" width="258" height="12" fill="#22C55E" opacity="0.88"/>
+  <text x="655" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FFF">Нападающий удар</text>
+  <text x="536" y="112" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Разбег: 3 шага</text>
+  <text x="536" y="127" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Отталкивание двумя ногами</text>
+  <text x="536" y="142" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Мах обеими руками вверх</text>
+  <text x="536" y="157" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Удар ладонью по мячу сверху</text>
+  <rect x="16" y="217" width="245" height="125" rx="8" ry="8" fill="url(#cardGrad)" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="16" y="217" width="245" height="26" rx="8" ry="8" fill="#22C55E" opacity="0.88"/>
+  <rect x="16" y="231" width="245" height="12" fill="#22C55E" opacity="0.88"/>
+  <text x="138" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FFF">Блокирование</text>
+  <text x="26" y="257" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Одиночный и групповой блок</text>
+  <text x="26" y="272" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Руки вынесены над сеткой</text>
+  <text x="26" y="287" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Пальцы разведены широко</text>
+  <text x="26" y="302" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Перенос веса на пальцы</text>
+  <rect x="271" y="217" width="245" height="125" rx="8" ry="8" fill="url(#cardGrad)" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="271" y="217" width="245" height="26" rx="8" ry="8" fill="#22C55E" opacity="0.88"/>
+  <rect x="271" y="231" width="245" height="12" fill="#22C55E" opacity="0.88"/>
+  <text x="393" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FFF">Позиции (6 игроков)</text>
+  <text x="281" y="257" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• 1 — правый защитник</text>
+  <text x="281" y="272" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• 2 — правый нападающий</text>
+  <text x="281" y="287" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• 3 — центр. нападающий</text>
+  <text x="281" y="302" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• 4 — левый нападающий</text>
+  <rect x="526" y="217" width="258" height="125" rx="8" ry="8" fill="url(#cardGrad)" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="526" y="217" width="258" height="26" rx="8" ry="8" fill="#22C55E" opacity="0.88"/>
+  <rect x="526" y="231" width="258" height="12" fill="#22C55E" opacity="0.88"/>
+  <text x="655" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#FFF">Правила волейбола</text>
+  <text x="536" y="257" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• 5 партий до 25 очков</text>
+  <text x="536" y="272" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• 3 касания на свою сторону</text>
+  <text x="536" y="287" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Переход по часовой стрелке</text>
+  <text x="536" y="302" font-family="Arial,sans-serif" font-size="10.5" fill="#166534">• Либеро — только защита</text>
+  <rect x="16" y="352" width="385" height="212" rx="8" fill="#FFFFFF" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <text x="208" y="372" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#14532D">Расстановка 6 игроков</text>
+  <rect x="60" y="390" width="296" height="150" fill="#FEF3C7" stroke="#16A34A" stroke-width="1.5" rx="3"/>
+  <line x1="60" y1="465" x2="356" y2="465" stroke="#EF4444" stroke-width="3"/>
+  <text x="208" y="469" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#FFF" font-weight="bold">СЕТКА</text>
+  <circle cx="110" cy="440" r="12" fill="#22C55E" opacity="0.85"/>
+  <text x="110" y="444" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">4</text>
+  <circle cx="208" cy="440" r="12" fill="#22C55E" opacity="0.85"/>
+  <text x="208" y="444" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">3</text>
+  <circle cx="306" cy="440" r="12" fill="#22C55E" opacity="0.85"/>
+  <text x="306" y="444" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">2</text>
+  <circle cx="110" cy="495" r="12" fill="#EF4444" opacity="0.85"/>
+  <text x="110" y="499" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">5</text>
+  <circle cx="208" cy="495" r="12" fill="#EF4444" opacity="0.85"/>
+  <text x="208" y="499" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">6</text>
+  <circle cx="306" cy="495" r="12" fill="#EF4444" opacity="0.85"/>
+  <text x="306" y="499" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">1</text>
+  <text x="208" y="422" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#16A34A">Передняя линия</text>
+  <text x="208" y="523" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#DC2626">Задняя линия</text>
+  <rect x="411" y="352" width="373" height="212" rx="8" fill="#FFFFFF" stroke="#BBF7D0" stroke-width="1" filter="url(#shadow)"/>
+  <text x="597" y="372" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#14532D">Верхняя прямая подача</text>
+  <g transform="translate(470,400) scale(0.55)" opacity="0.7">
+    <circle cx="0" cy="6" r="6" fill="none" stroke="#16A34A" stroke-width="2"/>
+    <line x1="0" y1="12" x2="0" y2="34" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="0" y1="34" x2="-8" y2="48" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="0" y1="34" x2="8" y2="48" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="0" y1="18" x2="-12" y2="8" stroke="#16A34A" stroke-width="2"/>
+    <line x1="0" y1="18" x2="12" y2="28" stroke="#16A34A" stroke-width="2"/>
+  </g>
+  <circle cx="466" cy="388" r="6" fill="#EF4444" opacity="0.6"/>
+  <text x="480" y="442" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#166534">1. Бросок</text>
+  <g transform="translate(580,400) scale(0.55)" opacity="0.7">
+    <circle cx="0" cy="6" r="6" fill="none" stroke="#16A34A" stroke-width="2"/>
+    <line x1="0" y1="12" x2="0" y2="34" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="0" y1="34" x2="-8" y2="48" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="0" y1="34" x2="8" y2="48" stroke="#16A34A" stroke-width="2.5"/>
+    <line x1="0" y1="18" x2="-14" y2="4" stroke="#16A34A" stroke-width="2"/>
+    <line x1="0" y1="18" x2="14" y2="28" stroke="#16A34A" stroke-width="2"/>
+  </g>
+  <circle cx="590" cy="378" r="6" fill="#EF4444" opacity="0.6"/>
+  <text x="590" y="442" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#166534">2. Замах</text>
+  <g transform="translate(700,400) scale(0.55)" opacity="0.7">
+    <circle cx="0" cy="6" r="6" fill="none" stroke="#DC2626" stroke-width="2"/>
+    <line x1="0" y1="12" x2="0" y2="34" stroke="#DC2626" stroke-width="2.5"/>
+    <line x1="0" y1="34" x2="-8" y2="48" stroke="#DC2626" stroke-width="2.5"/>
+    <line x1="0" y1="34" x2="8" y2="48" stroke="#DC2626" stroke-width="2.5"/>
+    <line x1="0" y1="18" x2="-12" y2="28" stroke="#DC2626" stroke-width="2"/>
+    <line x1="0" y1="18" x2="14" y2="2" stroke="#DC2626" stroke-width="2.5"/>
+  </g>
+  <circle cx="714" cy="370" r="6" fill="#EF4444" opacity="0.8"/>
+  <line x1="714" y1="370" x2="730" y2="355" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="710" y="442" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#DC2626">3. Удар!</text>
+  <path d="M510,415 L550,415" fill="none" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M630,415 L665,415" fill="none" stroke="#6B7280" stroke-width="1.5"/>
+  <polygon points="665,411 675,415 665,419" fill="#6B7280"/>
+  <path d="M730,355 Q750,340 760,330" fill="none" stroke="#EF4444" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="0" y="572" width="800" height="28" rx="0" fill="url(#ftrGrad)"/>
+  <rect x="0" y="586" width="800" height="14" rx="14" fill="url(#ftrGrad)"/>
+  <rect x="0" y="572" width="800" height="14" fill="url(#ftrGrad)"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#FFF">Физкультура · 7 класс</text>
+</svg>

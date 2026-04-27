@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="72" rx="0" fill="#059669" />
+  <rect x="0" y="72" width="800" height="4" rx="0" fill="#047857" />
+  <text x="400" y="36" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="sans-serif">Литосфера и рельеф Земли</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="normal" font-family="sans-serif">Тектонические плиты, горы и равнины</text>
+  <rect x="0" y="570" width="800" height="30" rx="0" fill="#ECFDF5" />
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#6EE7B7" stroke-width="1" />
+  <text x="400" y="590" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="normal" font-family="sans-serif">7 класс — География — Урок 1</text>
+  <rect x="0" y="76" width="800" height="494" rx="0" fill="#ECFDF5" opacity="0.4" />
+  <text x="400" y="98" text-anchor="middle" fill="#047857" font-size="14" font-weight="bold" font-family="sans-serif">Крупнейшие литосферные плиты</text>
+  <rect x="60" y="110" width="440" height="200" rx="4" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1" />
+  <polygon points="140,130 200,120 280,125 350,130 400,140 420,160 380,170 350,180 300,175 250,180 200,170 150,160 130,145" fill="#D1FAE5" stroke="#059669" stroke-width="1" />
+  <polygon points="220,195 250,190 270,200 275,230 265,260 250,280 235,275 225,250 215,220 218,200" fill="#D1FAE5" stroke="#059669" stroke-width="1" />
+  <polygon points="80,130 110,120 130,125 135,145 130,160 120,175 105,180 90,170 75,155 72,140" fill="#D1FAE5" stroke="#059669" stroke-width="1" />
+  <polygon points="130,210 150,200 160,215 155,240 145,260 135,275 125,265 120,240 125,220" fill="#D1FAE5" stroke="#059669" stroke-width="1" />
+  <polygon points="390,240 420,235 440,245 440,260 425,270 400,265 388,255" fill="#D1FAE5" stroke="#059669" stroke-width="1" />
+  <polygon points="150,290 250,295 350,290 400,295 400,305 250,305 100,305" fill="#E0F2FE" stroke="#059669" stroke-width="1" />
+  <text x="280" y="150" text-anchor="middle" fill="#047857" font-size="9" font-weight="bold" font-family="sans-serif">Евразиатская</text>
+  <text x="100" y="150" text-anchor="middle" fill="#047857" font-size="8" font-weight="normal" font-family="sans-serif">Северо-
+американская</text>
+  <text x="240" y="240" text-anchor="middle" fill="#047857" font-size="8" font-weight="bold" font-family="sans-serif">Африканская</text>
+  <text x="140" y="240" text-anchor="middle" fill="#047857" font-size="8" font-weight="normal" font-family="sans-serif">Южно-
+американская</text>
+  <text x="415" y="255" text-anchor="middle" fill="#047857" font-size="7" font-weight="normal" font-family="sans-serif">Индо-
+австралийская</text>
+  <line x1="200" y1="130" x2="200" y2="300" stroke="#DC2626" stroke-width="1" stroke-dasharray="4,3" />
+  <line x1="320" y1="130" x2="320" y2="300" stroke="#DC2626" stroke-width="1" stroke-dasharray="4,3" />
+  <line x1="70" y1="190" x2="450" y2="190" stroke="#DC2626" stroke-width="1" stroke-dasharray="4,3" />
+  <text x="250" y="310" text-anchor="start" fill="#DC2626" font-size="8" font-weight="normal" font-family="sans-serif">— границы плит</text>
+  <text x="660" y="98" text-anchor="middle" fill="#047857" font-size="14" font-weight="bold" font-family="sans-serif">Строение Земли</text>
+  <circle cx="660" cy="220" r="80" fill="#F59E0B" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="660" cy="220" r="55" fill="#EF4444" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="660" cy="220" r="30" fill="#DC2626" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="660" cy="220" r="85" fill="none" stroke="#059669" stroke-width="3" />
+  <text x="660" y="128" text-anchor="middle" fill="#059669" font-size="9" font-weight="bold" font-family="sans-serif">Литосфера</text>
+  <text x="660" y="180" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="sans-serif">Мантия</text>
+  <text x="660" y="215" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="sans-serif">Ядро</text>
+  <text x="660" y="315" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Земная кора: 5-70 км</text>
+  <text x="660" y="330" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Мантия: ~2900 км</text>
+  <text x="660" y="345" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Ядро: ~3500 км</text>
+  <text x="400" y="345" text-anchor="middle" fill="#047857" font-size="14" font-weight="bold" font-family="sans-serif">Формы рельефа</text>
+  <line x1="80" y1="349" x2="720" y2="349" stroke="#6EE7B7" stroke-width="1" />
+  <text x="130" y="370" text-anchor="middle" fill="#059669" font-size="12" font-weight="bold" font-family="sans-serif">Горы</text>
+  <polygon points="40,490 70,400 90,430 120,370 150,420 170,380 200,440 220,490" fill="#A7F3D0" stroke="#059669" stroke-width="2" />
+  <polygon points="110,370 120,370 130,390 115,395" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1" />
+  <polygon points="160,380 170,380 180,395 165,400" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1" />
+  <text x="130" y="510" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Высшая точка:</text>
+  <text x="130" y="524" text-anchor="middle" fill="#047857" font-size="10" font-weight="bold" font-family="sans-serif">г. Джомолунгма</text>
+  <text x="130" y="538" text-anchor="middle" fill="#059669" font-size="10" font-weight="bold" font-family="sans-serif">8848 м</text>
+  <text x="400" y="370" text-anchor="middle" fill="#059669" font-size="12" font-weight="bold" font-family="sans-serif">Равнины</text>
+  <rect x="300" y="470" width="200" height="20" rx="0" fill="#86EFAC" stroke="#059669" stroke-width="1" />
+  <path d="M 300,470 Q 340,460 370,470 Q 400,475 430,465 Q 460,460 500,470" fill="#86EFAC" stroke="#059669" stroke-width="1" />
+  <rect x="300" y="490" width="200" height="30" rx="0" fill="#BBF7D0" stroke="#6EE7B7" stroke-width="1" />
+  <text x="400" y="510" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">низменности (0-200 м)</text>
+  <text x="400" y="465" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">возвышенности (200-500 м)</text>
+  <text x="400" y="540" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Низменности (0-200 м)</text>
+  <text x="400" y="554" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Возвышенности (200-500 м)</text>
+  <text x="400" y="568" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Плоскогорья (500-1000 м)</text>
+  <text x="660" y="370" text-anchor="middle" fill="#059669" font-size="12" font-weight="bold" font-family="sans-serif">Типы гор</text>
+  <rect x="540" y="390" width="240" height="52" rx="4" fill="#FFFFFF" stroke="#059669" stroke-width="1" />
+  <rect x="540" y="390" width="4" height="52" rx="2" fill="#059669" />
+  <text x="554" y="406" text-anchor="start" fill="#059669" font-size="11" font-weight="bold" font-family="sans-serif">Складчатые</text>
+  <text x="554" y="420" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Образуются при сжатии</text>
+  <text x="554" y="432" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">литосферных плит</text>
+  <rect x="540" y="448" width="240" height="52" rx="4" fill="#FFFFFF" stroke="#0E7490" stroke-width="1" />
+  <rect x="540" y="448" width="4" height="52" rx="2" fill="#0E7490" />
+  <text x="554" y="464" text-anchor="start" fill="#0E7490" font-size="11" font-weight="bold" font-family="sans-serif">Глыбовые</text>
+  <text x="554" y="478" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Образуются при разломах</text>
+  <text x="554" y="490" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">и поднятиях блоков</text>
+  <rect x="540" y="506" width="240" height="52" rx="4" fill="#FFFFFF" stroke="#B45309" stroke-width="1" />
+  <rect x="540" y="506" width="4" height="52" rx="2" fill="#B45309" />
+  <text x="554" y="522" text-anchor="start" fill="#B45309" font-size="11" font-weight="bold" font-family="sans-serif">Вулканические</text>
+  <text x="554" y="536" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Образуются из</text>
+  <text x="554" y="548" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">извержений магмы</text>
+</svg>

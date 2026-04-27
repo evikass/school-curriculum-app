@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+    <filter id="glow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#14B8A6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0" />
+  <rect x="0" y="70" width="800" height="3" fill="#34D399" />
+  <circle cx="45" cy="35" r="25" fill="#1E293B" stroke="#34D399" stroke-width="2" />
+  <text x="45" y="42" fill="#34D399" font-size="20" font-weight="bold" text-anchor="middle" font-family="monospace">12</text>
+  <text x="85" y="32" fill="white" font-size="22" font-weight="bold">Итоговый проект</text>
+  <text x="85" y="54" fill="#CBD5E1" font-size="14">Планирование, структура, обзор всех концепций</text>
+  <circle cx="760" cy="35" r="20" fill="#1E293B" stroke="#10B981" stroke-width="1.5" />
+  <text x="760" y="42" fill="#10B981" font-size="18" font-weight="bold" text-anchor="middle" font-family="monospace">Py</text>
+  <rect x="20" y="85" width="370" height="165" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="2" filter="url(#shadow)" />
+  <rect x="20" y="85" width="4" height="165" rx="2" fill="#10B981" />
+  <text x="36" y="107" fill="#10B981" font-size="14" font-weight="bold">Этапы проекта</text>
+  <text x="36" y="125" fill="#CBD5E1" font-size="12">• 1. Постановка задачи (что делаем?)</text>
+  <text x="36" y="143" fill="#CBD5E1" font-size="12">• 2. Проектирование (как делаем?)</text>
+  <text x="36" y="161" fill="#CBD5E1" font-size="12">• 3. Написание кода (кодим!)</text>
+  <text x="36" y="179" fill="#CBD5E1" font-size="12">• 4. Тестирование (ищем ошибки)</text>
+  <text x="36" y="197" fill="#CBD5E1" font-size="12">• 5. Рефакторинг (улучшаем код)</text>
+  <text x="36" y="215" fill="#CBD5E1" font-size="12">• 6. Документация (описываем)</text>
+  <rect x="20" y="265" width="370" height="195" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+  <rect x="20" y="265" width="370" height="28" rx="8" fill="#334155" />
+  <rect x="20" y="285" width="370" height="8" fill="#334155" />
+  <circle cx="36" cy="279" r="5" fill="#EF4444" />
+  <circle cx="56" cy="279" r="5" fill="#FBBF24" />
+  <circle cx="76" cy="279" r="5" fill="#10B981" />
+  <text x="205" y="284" fill="#94A3B8" font-size="11" text-anchor="middle" font-family="monospace">Проект: Викторина (начало)</text>
+  <text x="34" y="309" fill="#64748B" font-size="13" font-family="monospace"># Проект: Викторина</text>
+  <text x="34" y="329" fill="#E2E8F0" font-size="13" font-family="monospace" />
+  <text x="34" y="349" fill="#10B981" font-size="13" font-family="monospace">def</text>
+  <text x="57.4" y="349" fill="#60A5FA" font-size="13" font-family="monospace"> load_questions</text>
+  <text x="174.4" y="349" fill="#E2E8F0" font-size="13" font-family="monospace">(filename):</text>
+  <text x="34" y="369" fill="#E2E8F0" font-size="13" font-family="monospace">    questions = []</text>
+  <text x="34" y="389" fill="#10B981" font-size="13" font-family="monospace">    with</text>
+  <text x="96.4" y="389" fill="#38BDF8" font-size="13" font-family="monospace"> open</text>
+  <text x="135.4" y="389" fill="#E2E8F0" font-size="13" font-family="monospace">(filename) </text>
+  <text x="221.2" y="389" fill="#10B981" font-size="13" font-family="monospace">as</text>
+  <text x="236.79999999999998" y="389" fill="#E2E8F0" font-size="13" font-family="monospace"> f:</text>
+  <text x="34" y="409" fill="#10B981" font-size="13" font-family="monospace">        for</text>
+  <text x="119.8" y="409" fill="#E2E8F0" font-size="13" font-family="monospace"> line </text>
+  <text x="166.6" y="409" fill="#10B981" font-size="13" font-family="monospace">in</text>
+  <text x="182.2" y="409" fill="#E2E8F0" font-size="13" font-family="monospace"> f:</text>
+  <text x="34" y="429" fill="#E2E8F0" font-size="13" font-family="monospace">            parts = line.strip</text>
+  <text x="268.0" y="429" fill="#E2E8F0" font-size="13" font-family="monospace">().split</text>
+  <text x="330.4" y="429" fill="#E2E8F0" font-size="13" font-family="monospace">(</text>
+  <text x="338.2" y="429" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;|&amp;quot;</text>
+  <text x="361.59999999999997" y="429" fill="#E2E8F0" font-size="13" font-family="monospace">)</text>
+  <text x="34" y="449" fill="#E2E8F0" font-size="13" font-family="monospace">            questions.append</text>
+  <text x="252.4" y="449" fill="#E2E8F0" font-size="13" font-family="monospace">(parts)</text>
+  <text x="34" y="469" fill="#10B981" font-size="13" font-family="monospace">    return</text>
+  <text x="112.0" y="469" fill="#E2E8F0" font-size="13" font-family="monospace"> questions</text>
+  <text x="34" y="489" fill="#E2E8F0" font-size="13" font-family="monospace" />
+  <text x="34" y="509" fill="#10B981" font-size="13" font-family="monospace">def</text>
+  <text x="57.4" y="509" fill="#60A5FA" font-size="13" font-family="monospace"> play</text>
+  <text x="96.4" y="509" fill="#E2E8F0" font-size="13" font-family="monospace">(questions):</text>
+  <text x="34" y="529" fill="#E2E8F0" font-size="13" font-family="monospace">    score = </text>
+  <text x="127.6" y="529" fill="#C084FC" font-size="13" font-family="monospace">0</text>
+  <text x="420" y="95" fill="#34D399" font-size="14" font-weight="bold">Обзор всех концепций:</text>
+  <rect x="420" y="110" width="360" height="26" rx="5" fill="#0F172A" stroke="#10B981" stroke-width="1.5" />
+  <rect x="420" y="110" width="6" height="26" rx="3" fill="#10B981" />
+  <text x="435" y="128" fill="#10B981" font-size="12" font-weight="bold">Переменные</text>
+  <text x="550" y="128" fill="#CBD5E1" font-size="11" font-weight="normal">int, float, str, bool</text>
+  <rect x="420" y="142" width="360" height="26" rx="5" fill="#0F172A" stroke="#3B82F6" stroke-width="1.5" />
+  <rect x="420" y="142" width="6" height="26" rx="3" fill="#3B82F6" />
+  <text x="435" y="160" fill="#3B82F6" font-size="12" font-weight="bold">Операции</text>
+  <text x="550" y="160" fill="#CBD5E1" font-size="11" font-weight="normal">+ - * / // % **</text>
+  <rect x="420" y="174" width="360" height="26" rx="5" fill="#0F172A" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="420" y="174" width="6" height="26" rx="3" fill="#F59E0B" />
+  <text x="435" y="192" fill="#F59E0B" font-size="12" font-weight="bold">Условия</text>
+  <text x="550" y="192" fill="#CBD5E1" font-size="11" font-weight="normal">if / elif / else</text>
+  <rect x="420" y="206" width="360" height="26" rx="5" fill="#0F172A" stroke="#8B5CF6" stroke-width="1.5" />
+  <rect x="420" y="206" width="6" height="26" rx="3" fill="#8B5CF6" />
+  <text x="435" y="224" fill="#8B5CF6" font-size="12" font-weight="bold">Циклы</text>
+  <text x="550" y="224" fill="#CBD5E1" font-size="11" font-weight="normal">for, while, break</text>
+  <rect x="420" y="238" width="360" height="26" rx="5" fill="#0F172A" stroke="#EC4899" stroke-width="1.5" />
+  <rect x="420" y="238" width="6" height="26" rx="3" fill="#EC4899" />
+  <text x="435" y="256" fill="#EC4899" font-size="12" font-weight="bold">Строки</text>
+  <text x="550" y="256" fill="#CBD5E1" font-size="11" font-weight="normal">индексация, срезы, методы</text>
+  <rect x="420" y="270" width="360" height="26" rx="5" fill="#0F172A" stroke="#14B8A6" stroke-width="1.5" />
+  <rect x="420" y="270" width="6" height="26" rx="3" fill="#14B8A6" />
+  <text x="435" y="288" fill="#14B8A6" font-size="12" font-weight="bold">Списки</text>
+  <text x="550" y="288" fill="#CBD5E1" font-size="11" font-weight="normal">[], append, sort</text>
+  <rect x="420" y="302" width="360" height="26" rx="5" fill="#0F172A" stroke="#EF4444" stroke-width="1.5" />
+  <rect x="420" y="302" width="6" height="26" rx="3" fill="#EF4444" />
+  <text x="435" y="320" fill="#EF4444" font-size="12" font-weight="bold">Словари</text>
+  <text x="550" y="320" fill="#CBD5E1" font-size="11" font-weight="normal">{ключ: значение}</text>
+  <rect x="420" y="334" width="360" height="26" rx="5" fill="#0F172A" stroke="#FBBF24" stroke-width="1.5" />
+  <rect x="420" y="334" width="6" height="26" rx="3" fill="#FBBF24" />
+  <text x="435" y="352" fill="#FBBF24" font-size="12" font-weight="bold">Функции</text>
+  <text x="550" y="352" fill="#CBD5E1" font-size="11" font-weight="normal">def, return, scope</text>
+  <rect x="420" y="366" width="360" height="26" rx="5" fill="#0F172A" stroke="#94A3B8" stroke-width="1.5" />
+  <rect x="420" y="366" width="6" height="26" rx="3" fill="#94A3B8" />
+  <text x="435" y="384" fill="#94A3B8" font-size="12" font-weight="bold">Файлы</text>
+  <text x="550" y="384" fill="#CBD5E1" font-size="11" font-weight="normal">open, read, write, with</text>
+  <rect x="420" y="415" width="360" height="100" rx="8" fill="#0F172A" stroke="#F59E0B" stroke-width="2" filter="url(#shadow)" />
+  <rect x="420" y="415" width="4" height="100" rx="2" fill="#F59E0B" />
+  <text x="436" y="437" fill="#F59E0B" font-size="14" font-weight="bold">Советы для проекта</text>
+  <text x="436" y="455" fill="#CBD5E1" font-size="12">• Разбей задачу на подзадачи</text>
+  <text x="436" y="473" fill="#CBD5E1" font-size="12">• Пиши функции для каждой части</text>
+  <text x="436" y="491" fill="#CBD5E1" font-size="12">• Тестируй каждый шаг</text>
+  <text x="436" y="509" fill="#CBD5E1" font-size="12">• Используй git для версионности</text>
+  <text x="436" y="527" fill="#CBD5E1" font-size="12">• Добавляй комментарии и docstrings</text>
+  <rect x="20" y="475" width="370" height="100" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+  <rect x="20" y="475" width="370" height="28" rx="8" fill="#334155" />
+  <rect x="20" y="495" width="370" height="8" fill="#334155" />
+  <circle cx="36" cy="489" r="5" fill="#EF4444" />
+  <circle cx="56" cy="489" r="5" fill="#FBBF24" />
+  <circle cx="76" cy="489" r="5" fill="#10B981" />
+  <text x="205" y="494" fill="#94A3B8" font-size="11" text-anchor="middle" font-family="monospace">Викторина (продолжение)</text>
+  <text x="34" y="519" fill="#10B981" font-size="13" font-family="monospace">    for</text>
+  <text x="88.6" y="519" fill="#E2E8F0" font-size="13" font-family="monospace"> q </text>
+  <text x="112.0" y="519" fill="#10B981" font-size="13" font-family="monospace">in</text>
+  <text x="127.6" y="519" fill="#E2E8F0" font-size="13" font-family="monospace"> questions:</text>
+  <text x="34" y="539" fill="#E2E8F0" font-size="13" font-family="monospace">        answer = </text>
+  <text x="166.6" y="539" fill="#38BDF8" font-size="13" font-family="monospace">input</text>
+  <text x="205.6" y="539" fill="#C084FC" font-size="13" font-family="monospace">(q[</text>
+  <text x="229.0" y="539" fill="#C084FC" font-size="13" font-family="monospace">0</text>
+  <text x="236.8" y="539" fill="#E2E8F0" font-size="13" font-family="monospace">] + </text>
+  <text x="268.0" y="539" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot; &amp;quot;</text>
+  <text x="291.4" y="539" fill="#E2E8F0" font-size="13" font-family="monospace">)</text>
+  <text x="34" y="559" fill="#10B981" font-size="13" font-family="monospace">        if</text>
+  <text x="112.0" y="559" fill="#E2E8F0" font-size="13" font-family="monospace"> answer == q[</text>
+  <text x="213.39999999999998" y="559" fill="#C084FC" font-size="13" font-family="monospace">1</text>
+  <text x="221.2" y="559" fill="#E2E8F0" font-size="13" font-family="monospace">]:</text>
+  <text x="34" y="579" fill="#E2E8F0" font-size="13" font-family="monospace">            score += </text>
+  <text x="197.79999999999998" y="579" fill="#C084FC" font-size="13" font-family="monospace">1</text>
+  <text x="34" y="599" fill="#10B981" font-size="13" font-family="monospace">    return</text>
+  <text x="112.0" y="599" fill="#E2E8F0" font-size="13" font-family="monospace"> score</text>
+  <rect x="0" y="582" width="800" height="18" fill="#334155" rx="0" />
+  <text x="400" y="595" fill="#94A3B8" font-size="10" text-anchor="middle">8 класс • Кодирование • Python</text>
+</svg>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="72" rx="0" fill="#059669" />
+  <rect x="0" y="72" width="800" height="4" rx="0" fill="#047857" />
+  <text x="400" y="36" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="sans-serif">Атмосфера и климаты Земли</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="normal" font-family="sans-serif">Строение атмосферы, температура, давление, ветры</text>
+  <rect x="0" y="570" width="800" height="30" rx="0" fill="#ECFDF5" />
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#6EE7B7" stroke-width="1" />
+  <text x="400" y="590" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="normal" font-family="sans-serif">7 класс — География — Урок 2</text>
+  <rect x="0" y="76" width="800" height="494" rx="0" fill="#ECFDF5" opacity="0.4" />
+  <text x="170" y="98" text-anchor="middle" fill="#047857" font-size="14" font-weight="bold" font-family="sans-serif">Строение атмосферы</text>
+  <rect x="30" y="112" width="300" height="50" rx="4" fill="#86EFAC" stroke="#059669" stroke-width="1" opacity="0.7" />
+  <text x="45" y="130" text-anchor="start" fill="#1F2937" font-size="12" font-weight="bold" font-family="sans-serif">Тропосфера</text>
+  <text x="45" y="146" text-anchor="start" fill="#047857" font-size="10" font-weight="normal" font-family="sans-serif">0-12 км</text>
+  <text x="170" y="126" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">80% массы воздуха,</text>
+  <text x="170" y="138" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">образование облаков,</text>
+  <text x="170" y="150" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">осадки, погода</text>
+  <rect x="30" y="167" width="300" height="50" rx="4" fill="#6EE7B7" stroke="#059669" stroke-width="1" opacity="0.7" />
+  <text x="45" y="185" text-anchor="start" fill="#1F2937" font-size="12" font-weight="bold" font-family="sans-serif">Стратосфера</text>
+  <text x="45" y="201" text-anchor="start" fill="#047857" font-size="10" font-weight="normal" font-family="sans-serif">12-50 км</text>
+  <text x="170" y="181" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Озоновый слой,</text>
+  <text x="170" y="193" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">защита от УФ-лучей</text>
+  <rect x="30" y="222" width="300" height="50" rx="4" fill="#34D399" stroke="#059669" stroke-width="1" opacity="0.7" />
+  <text x="45" y="240" text-anchor="start" fill="#1F2937" font-size="12" font-weight="bold" font-family="sans-serif">Мезосфера</text>
+  <text x="45" y="256" text-anchor="start" fill="#047857" font-size="10" font-weight="normal" font-family="sans-serif">50-80 км</text>
+  <text x="170" y="236" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Метеоры сгорают,</text>
+  <text x="170" y="248" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">низкая температура</text>
+  <rect x="30" y="277" width="300" height="50" rx="4" fill="#10B981" stroke="#059669" stroke-width="1" opacity="0.7" />
+  <text x="45" y="295" text-anchor="start" fill="#1F2937" font-size="12" font-weight="bold" font-family="sans-serif">Термосфера</text>
+  <text x="45" y="311" text-anchor="start" fill="#047857" font-size="10" font-weight="normal" font-family="sans-serif">80-800 км</text>
+  <text x="170" y="291" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Ионосфера,</text>
+  <text x="170" y="303" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">полярные сияния</text>
+  <rect x="30" y="332" width="300" height="50" rx="4" fill="#059669" stroke="#059669" stroke-width="1" opacity="0.7" />
+  <text x="45" y="350" text-anchor="start" fill="#1F2937" font-size="12" font-weight="bold" font-family="sans-serif">Экзосфера</text>
+  <text x="45" y="366" text-anchor="start" fill="#047857" font-size="10" font-weight="normal" font-family="sans-serif">800+ км</text>
+  <text x="170" y="346" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Переход в космос,</text>
+  <text x="170" y="358" text-anchor="start" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">убегание газов</text>
+  <text x="580" y="98" text-anchor="middle" fill="#047857" font-size="14" font-weight="bold" font-family="sans-serif">Температура и давление</text>
+  <rect x="460" y="115" width="280" height="130" rx="4" fill="#FFFFFF" stroke="#6EE7B7" stroke-width="1" />
+  <line x1="490" y1="125" x2="490" y2="235" stroke="#9CA3AF" stroke-width="1" />
+  <line x1="490" y1="235" x2="730" y2="235" stroke="#9CA3AF" stroke-width="1" />
+  <path d="M 500,145 Q 550,205 600,225 Q 640,235 680,155 Q 700,135 720,130" fill="none" stroke="#DC2626" stroke-width="2" />
+  <text x="480" y="230" text-anchor="end" fill="#9CA3AF" font-size="8" font-weight="normal" font-family="sans-serif">0</text>
+  <text x="600" y="245" text-anchor="middle" fill="#4B5563" font-size="8" font-weight="normal" font-family="sans-serif">Высота, км</text>
+  <text x="500" y="230" text-anchor="middle" fill="#9CA3AF" font-size="7" font-weight="normal" font-family="sans-serif">0</text>
+  <text x="580" y="230" text-anchor="middle" fill="#9CA3AF" font-size="7" font-weight="normal" font-family="sans-serif">50</text>
+  <text x="660" y="230" text-anchor="middle" fill="#9CA3AF" font-size="7" font-weight="normal" font-family="sans-serif">100</text>
+  <text x="510" y="135" text-anchor="start" fill="#DC2626" font-size="8" font-weight="normal" font-family="sans-serif">t °C</text>
+  <text x="580" y="265" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold" font-family="sans-serif">Атмосферное давление</text>
+  <text x="580" y="282" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">760 мм рт. ст. — норма</text>
+  <text x="580" y="296" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Падает с высотой: ~1 мм на 10,5 м</text>
+  <text x="400" y="328" text-anchor="middle" fill="#047857" font-size="14" font-weight="bold" font-family="sans-serif">Климатические пояса и ветры</text>
+  <line x1="80" y1="332" x2="720" y2="332" stroke="#6EE7B7" stroke-width="1" />
+  <circle cx="400" cy="460" r="120" fill="#DBEAFE" stroke="#059669" stroke-width="1" />
+  <rect x="282" y="445" width="236" height="30" rx="0" fill="#FDE68A" opacity="0.7" />
+  <rect x="285" y="415" width="230" height="28" rx="0" fill="#FCD34D" opacity="0.5" />
+  <rect x="285" y="477" width="230" height="28" rx="0" fill="#FCD34D" opacity="0.5" />
+  <rect x="290" y="385" width="220" height="26" rx="0" fill="#FBBF24" opacity="0.4" />
+  <rect x="290" y="509" width="220" height="26" rx="0" fill="#FBBF24" opacity="0.4" />
+  <rect x="300" y="360" width="200" height="22" rx="0" fill="#A7F3D0" opacity="0.5" />
+  <rect x="300" y="538" width="200" height="22" rx="0" fill="#A7F3D0" opacity="0.5" />
+  <text x="400" y="460" text-anchor="middle" fill="#1F2937" font-size="8" font-weight="bold" font-family="sans-serif">Экваториальный</text>
+  <text x="400" y="427" text-anchor="middle" fill="#1F2937" font-size="7" font-weight="normal" font-family="sans-serif">Тропический</text>
+  <text x="400" y="493" text-anchor="middle" fill="#1F2937" font-size="7" font-weight="normal" font-family="sans-serif">Тропический</text>
+  <text x="400" y="397" text-anchor="middle" fill="#1F2937" font-size="7" font-weight="normal" font-family="sans-serif">Субтропический</text>
+  <text x="400" y="523" text-anchor="middle" fill="#1F2937" font-size="7" font-weight="normal" font-family="sans-serif">Субтропический</text>
+  <text x="400" y="370" text-anchor="middle" fill="#1F2937" font-size="6" font-weight="normal" font-family="sans-serif">Умеренный</text>
+  <text x="400" y="550" text-anchor="middle" fill="#1F2937" font-size="6" font-weight="normal" font-family="sans-serif">Умеренный</text>
+  <line x1="280" y1="460" x2="520" y2="460" stroke="#DC2626" stroke-width="1" stroke-dasharray="3,2" />
+  <text x="530" y="460" text-anchor="start" fill="#DC2626" font-size="8" font-weight="normal" font-family="sans-serif">Экватор</text>
+  <path d="M 340,405 Q 360,410 380,405" fill="none" stroke="#059669" stroke-width="1" />
+  <text x="360" y="415" text-anchor="middle" fill="#059669" font-size="6" font-weight="normal" font-family="sans-serif">Пассаты</text>
+  <path d="M 340,370 Q 360,375 380,370" fill="none" stroke="#0E7490" stroke-width="1" />
+  <text x="360" y="380" text-anchor="middle" fill="#0E7490" font-size="6" font-weight="normal" font-family="sans-serif">Зап. ветры</text>
+  <text x="80" y="355" text-anchor="start" fill="#047857" font-size="10" font-weight="bold" font-family="sans-serif">Основные типы воздушных масс:</text>
+  <text x="80" y="375" text-anchor="start" fill="#059669" font-size="9" font-weight="normal" font-family="sans-serif">  Пассаты — от 30° к экватору</text>
+  <text x="80" y="391" text-anchor="start" fill="#0E7490" font-size="9" font-weight="normal" font-family="sans-serif">  Западные ветры — от 30° к 60°</text>
+  <text x="80" y="407" text-anchor="start" fill="#6D28D9" font-size="9" font-weight="normal" font-family="sans-serif">  Полярные ветры — от полюсов к 60°</text>
+  <text x="660" y="360" text-anchor="start" fill="#047857" font-size="11" font-weight="bold" font-family="sans-serif">Главное:</text>
+  <text x="660" y="376" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Главный фактор —</text>
+  <text x="660" y="389" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">широта (угол падения</text>
+  <text x="660" y="402" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">солнечных лучей)</text>
+  <text x="660" y="415" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif" />
+  <text x="660" y="428" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">13 климатических поясов:</text>
+  <text x="660" y="441" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">7 основных + 6 переходных</text>
+  <text x="660" y="454" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif" />
+  <text x="660" y="467" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Климатообразующие</text>
+  <text x="660" y="480" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">факторы: широта,</text>
+  <text x="660" y="493" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">океанические течения,</text>
+  <text x="660" y="506" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">рельеф, расстояние</text>
+  <text x="660" y="519" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">от океана</text>
+</svg>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ECFDF5" />
+      <stop offset="100%" stop-color="#F0FDF4" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#059669" />
+  <rect x="0" y="6" width="800" height="70" fill="#059669" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#065F46" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">4</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Полезные ископаемые</text>
+  <text x="78" y="58" fill="#D1FAE5" font-size="13" font-family="Arial, sans-serif">Нефть, газ, уголь, руды — размещение и значение</text>
+  <rect x="17" y="92" width="480" height="290" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="480" height="290" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="90" width="480" height="26" rx="8" fill="#059669" />
+  <rect x="15" y="108" width="480" height="8" fill="#059669" />
+  <text x="255" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Карта полезных ископаемых</text>
+  <polygon points="43.8,240.0 52.6,220.0 61.4,202.5 74.6,185.0 87.8,170.0 105.4,155.0 123.0,145.0 145.0,140.0 175.8,135.0 202.2,130.0 233.0,127.5 263.8,125.0 290.2,127.5 312.2,132.5 334.2,140.0 351.8,135.0 369.4,145.0 387.0,152.5 404.6,147.5 422.2,160.0 439.8,155.0 453.0,170.0 461.8,185.0 475.0,195.0 466.2,185.0 457.4,195.0 444.2,205.0 431.0,197.5 417.8,210.0 404.6,202.5 387.0,215.0 369.4,210.0 351.8,220.0 334.2,230.0 316.6,240.0 299.0,250.0 281.4,255.0 263.8,260.0 246.2,265.0 228.6,270.0 211.0,275.0 193.4,270.0 175.8,265.0 158.2,270.0 140.6,275.0 123.0,280.0 105.4,285.0 87.8,280.0 79.0,270.0 70.2,255.0 57.0,245.0" fill="#FEF9C3" stroke="#059669" stroke-width="1.5" />
+  <circle cx="280" cy="220" r="8" fill="#1C1917" />
+  <text x="290" y="215" text-anchor="start" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Нефть</text>
+  <circle cx="260" cy="235" r="8" fill="#7C3AED" />
+  <text x="270" y="232" text-anchor="start" fill="#7C3AED" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Газ</text>
+  <circle cx="330" cy="230" r="8" fill="#374151" />
+  <text x="340" y="228" text-anchor="start" fill="#374151" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Уголь (Кузбасс)</text>
+  <circle cx="100" cy="230" r="8" fill="#B91C1C" />
+  <text x="110" y="228" text-anchor="start" fill="#B91C1C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Жел. руда (КМА)</text>
+  <circle cx="370" cy="200" r="8" fill="#CA8A04" />
+  <text x="380" y="197" text-anchor="start" fill="#CA8A04" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Золото</text>
+  <circle cx="395" cy="175" r="8" fill="#06B6D4" />
+  <text x="405" y="172" text-anchor="start" fill="#06B6D4" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Алмазы</text>
+  <circle cx="320" cy="155" r="8" fill="#6B7280" />
+  <text x="330" y="153" text-anchor="start" fill="#6B7280" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Никель</text>
+  <circle cx="140" cy="230" r="8" fill="#1C1917" />
+  <text x="85" y="243" text-anchor="start" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Нефть (Волго-Урал)</text>
+  <rect x="512" y="92" width="275" height="180" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="510" y="90" width="275" height="180" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="510" y="90" width="275" height="26" rx="8" fill="#065F46" />
+  <rect x="510" y="108" width="275" height="8" fill="#065F46" />
+  <text x="647" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Легенда</text>
+  <circle cx="530" cy="127" r="5" fill="#1C1917" />
+  <text x="542" y="130" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Нефть</text>
+  <circle cx="530" cy="145" r="5" fill="#7C3AED" />
+  <text x="542" y="148" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Природный газ</text>
+  <circle cx="530" cy="163" r="5" fill="#374151" />
+  <text x="542" y="166" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Уголь</text>
+  <circle cx="530" cy="181" r="5" fill="#B91C1C" />
+  <text x="542" y="184" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Железная руда</text>
+  <circle cx="530" cy="199" r="5" fill="#CA8A04" />
+  <text x="542" y="202" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Золото</text>
+  <circle cx="530" cy="217" r="5" fill="#06B6D4" />
+  <text x="542" y="220" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Алмазы</text>
+  <circle cx="530" cy="235" r="5" fill="#6B7280" />
+  <text x="542" y="238" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Цветные металлы</text>
+  <circle cx="530" cy="253" r="5" fill="#DC2626" />
+  <text x="542" y="256" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Алюминиевые руды</text>
+  <rect x="17" y="392" width="380" height="140" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="390" width="380" height="140" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="390" width="380" height="26" rx="8" fill="#14B8A6" />
+  <rect x="15" y="408" width="380" height="8" fill="#14B8A6" />
+  <text x="205" y="408" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Крупнейшие бассейны</text>
+  <text x="25" y="425" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Нефть</text>
+  <text x="105" y="425" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Зап.-Сибирский, Волго-Уральский</text>
+  <text x="25" y="442" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Газ</text>
+  <text x="105" y="442" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Зап.-Сибирский (Уренгой), Оренбург</text>
+  <text x="25" y="459" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Уголь</text>
+  <text x="105" y="459" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Кузбасс, Канско-Ачинский, Донбасс</text>
+  <text x="25" y="476" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Жел. руда</text>
+  <text x="105" y="476" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">КМА, Кольский п-ов, Урал</text>
+  <text x="25" y="493" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Алмазы</text>
+  <text x="105" y="493" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Якутия (Мирный)</text>
+  <text x="25" y="510" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Золото</text>
+  <text x="105" y="510" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Ленский р-н, Колыма, Алдан</text>
+  <rect x="412" y="392" width="375" height="140" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="410" y="390" width="375" height="140" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="410" y="390" width="375" height="26" rx="8" fill="#059669" />
+  <rect x="410" y="408" width="375" height="8" fill="#059669" />
+  <text x="597" y="408" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Мировые рейтинги России</text>
+  <text x="425" y="425" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Нефть</text>
+  <text x="650" y="425" text-anchor="end" fill="#065F46" font-size="12" font-weight="normal" font-family="Arial, sans-serif">2-е место</text>
+  <text x="425" y="442" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Природный газ</text>
+  <text x="650" y="442" text-anchor="end" fill="#EF4444" font-size="12" font-weight="bold" font-family="Arial, sans-serif">1-е место</text>
+  <text x="425" y="459" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Уголь</text>
+  <text x="650" y="459" text-anchor="end" fill="#065F46" font-size="12" font-weight="normal" font-family="Arial, sans-serif">6-е место</text>
+  <text x="425" y="476" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Железная руда</text>
+  <text x="650" y="476" text-anchor="end" fill="#065F46" font-size="12" font-weight="normal" font-family="Arial, sans-serif">4-е место</text>
+  <text x="425" y="493" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Алмазы</text>
+  <text x="650" y="493" text-anchor="end" fill="#EF4444" font-size="12" font-weight="bold" font-family="Arial, sans-serif">1-е место</text>
+  <text x="425" y="510" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Никель</text>
+  <text x="650" y="510" text-anchor="end" fill="#065F46" font-size="12" font-weight="normal" font-family="Arial, sans-serif">3-е место</text>
+  <rect x="0" y="570" width="800" height="30" fill="#065F46" />
+  <text x="400" y="590" text-anchor="middle" fill="#D1FAE5" font-size="11" font-family="Arial, sans-serif">География • 8 класс • Интернет-Школа</text>
+</svg>

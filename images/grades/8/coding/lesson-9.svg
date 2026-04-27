@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+    <filter id="glow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#14B8A6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0" />
+  <rect x="0" y="70" width="800" height="3" fill="#34D399" />
+  <circle cx="45" cy="35" r="25" fill="#1E293B" stroke="#34D399" stroke-width="2" />
+  <text x="45" y="42" fill="#34D399" font-size="20" font-weight="bold" text-anchor="middle" font-family="monospace">9</text>
+  <text x="85" y="32" fill="white" font-size="22" font-weight="bold">Словари</text>
+  <text x="85" y="54" fill="#CBD5E1" font-size="14">Ключ-значение, методы, итерация, практические примеры</text>
+  <circle cx="760" cy="35" r="20" fill="#1E293B" stroke="#10B981" stroke-width="1.5" />
+  <text x="760" y="42" fill="#10B981" font-size="18" font-weight="bold" text-anchor="middle" font-family="monospace">Py</text>
+  <rect x="20" y="85" width="380" height="170" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+  <rect x="20" y="85" width="380" height="28" rx="8" fill="#334155" />
+  <rect x="20" y="105" width="380" height="8" fill="#334155" />
+  <circle cx="36" cy="99" r="5" fill="#EF4444" />
+  <circle cx="56" cy="99" r="5" fill="#FBBF24" />
+  <circle cx="76" cy="99" r="5" fill="#10B981" />
+  <text x="210" y="104" fill="#94A3B8" font-size="11" text-anchor="middle" font-family="monospace">Словари в Python</text>
+  <text x="34" y="129" fill="#64748B" font-size="13" font-family="monospace"># Создание словаря</text>
+  <text x="34" y="149" fill="#E2E8F0" font-size="13" font-family="monospace">student = {</text>
+  <text x="34" y="169" fill="#E2E8F0" font-size="13" font-family="monospace">    </text>
+  <text x="65.2" y="169" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;имя&amp;quot;</text>
+  <text x="104.2" y="169" fill="#E2E8F0" font-size="13" font-family="monospace">: </text>
+  <text x="119.8" y="169" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;Алиса&amp;quot;</text>
+  <text x="174.4" y="169" fill="#E2E8F0" font-size="13" font-family="monospace">,</text>
+  <text x="34" y="189" fill="#E2E8F0" font-size="13" font-family="monospace">    </text>
+  <text x="65.2" y="189" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;возраст&amp;quot;</text>
+  <text x="135.4" y="189" fill="#E2E8F0" font-size="13" font-family="monospace">: </text>
+  <text x="151.0" y="189" fill="#C084FC" font-size="13" font-family="monospace">14</text>
+  <text x="166.6" y="189" fill="#E2E8F0" font-size="13" font-family="monospace">,</text>
+  <text x="34" y="209" fill="#E2E8F0" font-size="13" font-family="monospace">    </text>
+  <text x="65.2" y="209" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;класс&amp;quot;</text>
+  <text x="119.80000000000001" y="209" fill="#E2E8F0" font-size="13" font-family="monospace">: </text>
+  <text x="135.4" y="209" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;8А&amp;quot;</text>
+  <text x="166.6" y="209" fill="#E2E8F0" font-size="13" font-family="monospace">,</text>
+  <text x="34" y="229" fill="#E2E8F0" font-size="13" font-family="monospace">    </text>
+  <text x="65.2" y="229" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;оценки&amp;quot;</text>
+  <text x="127.6" y="229" fill="#E2E8F0" font-size="13" font-family="monospace">: [</text>
+  <text x="151.0" y="229" fill="#C084FC" font-size="13" font-family="monospace">5</text>
+  <text x="158.8" y="229" fill="#E2E8F0" font-size="13" font-family="monospace">, </text>
+  <text x="174.4" y="229" fill="#C084FC" font-size="13" font-family="monospace">4</text>
+  <text x="182.20000000000002" y="229" fill="#E2E8F0" font-size="13" font-family="monospace">, </text>
+  <text x="197.8" y="229" fill="#C084FC" font-size="13" font-family="monospace">5</text>
+  <text x="205.60000000000002" y="229" fill="#E2E8F0" font-size="13" font-family="monospace">]</text>
+  <text x="34" y="269" fill="#E2E8F0" font-size="13" font-family="monospace" />
+  <text x="34" y="289" fill="#38BDF8" font-size="13" font-family="monospace">print</text>
+  <text x="73.0" y="289" fill="#E2E8F0" font-size="13" font-family="monospace">(student[</text>
+  <text x="143.2" y="289" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;имя&amp;quot;</text>
+  <text x="182.2" y="289" fill="#E2E8F0" font-size="13" font-family="monospace">])  </text>
+  <text x="213.39999999999998" y="289" fill="#64748B" font-size="13" font-family="monospace"># &amp;apos;Алиса&amp;apos;</text>
+  <text x="420" y="100" fill="#34D399" font-size="13" font-weight="bold">Структура словаря:</text>
+  <rect x="420" y="115" width="90" height="28" rx="8" fill="#10B981" filter="url(#shadow)" />
+  <text x="465" y="134" fill="white" font-size="11" font-weight="bold" text-anchor="middle">имя</text>
+  <text x="515" y="134" fill="#94A3B8" font-size="16" font-weight="bold">→</text>
+  <rect x="535" y="115" width="120" height="28" rx="8" fill="#0F172A" filter="url(#shadow)" />
+  <text x="595" y="134" fill="#CBD5E1" font-size="11" font-weight="normal" text-anchor="middle">Алиса</text>
+  <rect x="420" y="151" width="90" height="28" rx="8" fill="#3B82F6" filter="url(#shadow)" />
+  <text x="465" y="170" fill="white" font-size="11" font-weight="bold" text-anchor="middle">возраст</text>
+  <text x="515" y="170" fill="#94A3B8" font-size="16" font-weight="bold">→</text>
+  <rect x="535" y="151" width="120" height="28" rx="8" fill="#0F172A" filter="url(#shadow)" />
+  <text x="595" y="170" fill="#CBD5E1" font-size="11" font-weight="normal" text-anchor="middle">14</text>
+  <rect x="420" y="187" width="90" height="28" rx="8" fill="#F59E0B" filter="url(#shadow)" />
+  <text x="465" y="206" fill="white" font-size="11" font-weight="bold" text-anchor="middle">класс</text>
+  <text x="515" y="206" fill="#94A3B8" font-size="16" font-weight="bold">→</text>
+  <rect x="535" y="187" width="120" height="28" rx="8" fill="#0F172A" filter="url(#shadow)" />
+  <text x="595" y="206" fill="#CBD5E1" font-size="11" font-weight="normal" text-anchor="middle">8А</text>
+  <rect x="420" y="223" width="90" height="28" rx="8" fill="#8B5CF6" filter="url(#shadow)" />
+  <text x="465" y="242" fill="white" font-size="11" font-weight="bold" text-anchor="middle">оценки</text>
+  <text x="515" y="242" fill="#94A3B8" font-size="16" font-weight="bold">→</text>
+  <rect x="535" y="223" width="120" height="28" rx="8" fill="#0F172A" filter="url(#shadow)" />
+  <text x="595" y="242" fill="#CBD5E1" font-size="11" font-weight="normal" text-anchor="middle">[5,4,5]</text>
+  <rect x="420" y="275" width="360" height="140" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="2" filter="url(#shadow)" />
+  <rect x="420" y="275" width="4" height="140" rx="2" fill="#10B981" />
+  <text x="436" y="297" fill="#10B981" font-size="14" font-weight="bold">Методы словарей</text>
+  <text x="436" y="315" fill="#CBD5E1" font-size="12">• .keys()     → все ключи</text>
+  <text x="436" y="333" fill="#CBD5E1" font-size="12">• .values()   → все значения</text>
+  <text x="436" y="351" fill="#CBD5E1" font-size="12">• .items()    → пары (ключ, значение)</text>
+  <text x="436" y="369" fill="#CBD5E1" font-size="12">• .get(k, d)  → значение или d по умолчанию</text>
+  <text x="436" y="387" fill="#CBD5E1" font-size="12">• .pop(k)     → удалить и вернуть</text>
+  <text x="436" y="405" fill="#CBD5E1" font-size="12">• &amp;quot;k&amp;quot; in dict  → проверка ключа</text>
+  <rect x="20" y="270" width="380" height="140" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+  <rect x="20" y="270" width="380" height="28" rx="8" fill="#334155" />
+  <rect x="20" y="290" width="380" height="8" fill="#334155" />
+  <circle cx="36" cy="284" r="5" fill="#EF4444" />
+  <circle cx="56" cy="284" r="5" fill="#FBBF24" />
+  <circle cx="76" cy="284" r="5" fill="#10B981" />
+  <text x="210" y="289" fill="#94A3B8" font-size="11" text-anchor="middle" font-family="monospace">Итерация по словарю</text>
+  <text x="34" y="314" fill="#64748B" font-size="13" font-family="monospace"># Итерация по словарю</text>
+  <text x="34" y="334" fill="#10B981" font-size="13" font-family="monospace">for</text>
+  <text x="57.4" y="334" fill="#E2E8F0" font-size="13" font-family="monospace"> key </text>
+  <text x="96.4" y="334" fill="#10B981" font-size="13" font-family="monospace">in</text>
+  <text x="112.0" y="334" fill="#E2E8F0" font-size="13" font-family="monospace"> student:</text>
+  <text x="34" y="354" fill="#38BDF8" font-size="13" font-family="monospace">    print</text>
+  <text x="104.2" y="354" fill="#E2E8F0" font-size="13" font-family="monospace">(key, student[key])</text>
+  <text x="34" y="374" fill="#E2E8F0" font-size="13" font-family="monospace" />
+  <text x="34" y="394" fill="#64748B" font-size="13" font-family="monospace"># Или через items()</text>
+  <text x="34" y="414" fill="#10B981" font-size="13" font-family="monospace">for</text>
+  <text x="57.4" y="414" fill="#E2E8F0" font-size="13" font-family="monospace"> key, value </text>
+  <text x="151.0" y="414" fill="#10B981" font-size="13" font-family="monospace">in</text>
+  <text x="166.6" y="414" fill="#E2E8F0" font-size="13" font-family="monospace"> student.items():</text>
+  <text x="34" y="434" fill="#38BDF8" font-size="13" font-family="monospace">    print</text>
+  <text x="104.2" y="434" fill="#E2E8F0" font-size="13" font-family="monospace">(</text>
+  <text x="112.0" y="434" fill="#F59E0B" font-size="13" font-family="monospace">f</text>
+  <text x="119.8" y="434" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;{key}: {value}&amp;quot;</text>
+  <text x="244.6" y="434" fill="#E2E8F0" font-size="13" font-family="monospace">)</text>
+  <rect x="20" y="425" width="380" height="150" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+  <rect x="20" y="425" width="380" height="28" rx="8" fill="#334155" />
+  <rect x="20" y="445" width="380" height="8" fill="#334155" />
+  <circle cx="36" cy="439" r="5" fill="#EF4444" />
+  <circle cx="56" cy="439" r="5" fill="#FBBF24" />
+  <circle cx="76" cy="439" r="5" fill="#10B981" />
+  <text x="210" y="444" fill="#94A3B8" font-size="11" text-anchor="middle" font-family="monospace">Практика: частотный словарь</text>
+  <text x="34" y="469" fill="#64748B" font-size="13" font-family="monospace"># Подсчёт частоты символов</text>
+  <text x="34" y="489" fill="#E2E8F0" font-size="13" font-family="monospace">text = </text>
+  <text x="88.6" y="489" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;привет мир&amp;quot;</text>
+  <text x="34" y="509" fill="#E2E8F0" font-size="13" font-family="monospace">freq = {}</text>
+  <text x="34" y="529" fill="#E2E8F0" font-size="13" font-family="monospace" />
+  <text x="34" y="549" fill="#10B981" font-size="13" font-family="monospace">for</text>
+  <text x="57.4" y="549" fill="#E2E8F0" font-size="13" font-family="monospace"> ch </text>
+  <text x="88.6" y="549" fill="#10B981" font-size="13" font-family="monospace">in</text>
+  <text x="104.19999999999999" y="549" fill="#E2E8F0" font-size="13" font-family="monospace"> text:</text>
+  <text x="34" y="569" fill="#10B981" font-size="13" font-family="monospace">    if</text>
+  <text x="80.8" y="569" fill="#E2E8F0" font-size="13" font-family="monospace"> ch </text>
+  <text x="112.0" y="569" fill="#10B981" font-size="13" font-family="monospace">in</text>
+  <text x="127.6" y="569" fill="#E2E8F0" font-size="13" font-family="monospace"> freq:</text>
+  <text x="34" y="589" fill="#E2E8F0" font-size="13" font-family="monospace">        freq[ch] += </text>
+  <text x="190.0" y="589" fill="#C084FC" font-size="13" font-family="monospace">1</text>
+  <text x="34" y="609" fill="#10B981" font-size="13" font-family="monospace">    else</text>
+  <text x="96.4" y="609" fill="#E2E8F0" font-size="13" font-family="monospace">:</text>
+  <text x="34" y="629" fill="#E2E8F0" font-size="13" font-family="monospace">        freq[ch] = </text>
+  <text x="182.2" y="629" fill="#C084FC" font-size="13" font-family="monospace">1</text>
+  <text x="34" y="649" fill="#E2E8F0" font-size="13" font-family="monospace" />
+  <text x="34" y="669" fill="#38BDF8" font-size="13" font-family="monospace">print</text>
+  <text x="73.0" y="669" fill="#E2E8F0" font-size="13" font-family="monospace">(freq)  </text>
+  <text x="135.4" y="669" fill="#64748B" font-size="13" font-family="monospace"># {&amp;apos;п&amp;apos;:1, &amp;apos;р&amp;apos;:2, ...}</text>
+  <rect x="420" y="430" width="360" height="80" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+  <rect x="420" y="430" width="360" height="28" rx="8" fill="#334155" />
+  <rect x="420" y="450" width="360" height="8" fill="#334155" />
+  <circle cx="436" cy="444" r="5" fill="#EF4444" />
+  <circle cx="456" cy="444" r="5" fill="#FBBF24" />
+  <circle cx="476" cy="444" r="5" fill="#10B981" />
+  <text x="600" y="449" fill="#94A3B8" font-size="11" text-anchor="middle" font-family="monospace">get() и добавление</text>
+  <text x="434" y="474" fill="#64748B" font-size="13" font-family="monospace"># Безопасное получение значения</text>
+  <text x="434" y="494" fill="#E2E8F0" font-size="13" font-family="monospace">email = student.get</text>
+  <text x="582.2" y="494" fill="#E2E8F0" font-size="13" font-family="monospace">(</text>
+  <text x="590.0" y="494" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;email&amp;quot;</text>
+  <text x="644.6" y="494" fill="#E2E8F0" font-size="13" font-family="monospace">, </text>
+  <text x="660.2" y="494" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;не указан&amp;quot;</text>
+  <text x="746.0" y="494" fill="#E2E8F0" font-size="13" font-family="monospace">)</text>
+  <text x="434" y="514" fill="#E2E8F0" font-size="13" font-family="monospace" />
+  <text x="434" y="534" fill="#64748B" font-size="13" font-family="monospace"># Добавление/обновление</text>
+  <text x="434" y="554" fill="#E2E8F0" font-size="13" font-family="monospace">student[</text>
+  <text x="496.4" y="554" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;телефон&amp;quot;</text>
+  <text x="566.6" y="554" fill="#E2E8F0" font-size="13" font-family="monospace">] = </text>
+  <text x="597.8000000000001" y="554" fill="#F59E0B" font-size="13" font-family="monospace">&amp;quot;+7-999...&amp;quot;</text>
+  <rect x="0" y="582" width="800" height="18" fill="#334155" rx="0" />
+  <text x="400" y="595" fill="#94A3B8" font-size="10" text-anchor="middle">8 класс • Кодирование • Python</text>
+</svg>

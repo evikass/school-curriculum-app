@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="72" rx="0" fill="#EF4444" />
+  <rect x="0" y="72" width="800" height="4" rx="0" fill="#B91C1C" />
+  <text x="400" y="36" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="sans-serif">Иван III и освобождение Руси</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="normal" font-family="sans-serif">Конец ордынского ига — 1480 год</text>
+  <rect x="0" y="570" width="800" height="30" rx="0" fill="#FFF1F2" />
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#FCA5A5" stroke-width="1" />
+  <text x="400" y="590" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="normal" font-family="sans-serif">7 класс — История России — Урок 2</text>
+  <rect x="0" y="76" width="800" height="494" rx="0" fill="#FFF1F2" opacity="0.4" />
+  <text x="400" y="98" text-anchor="middle" fill="#B91C1C" font-size="14" font-weight="bold" font-family="sans-serif">Ключевые даты правления Ивана III</text>
+  <line x1="60" y1="128" x2="740" y2="128" stroke="#EF4444" stroke-width="3" />
+  <circle cx="100" cy="128" r="7" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="100" y="114" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1440</text>
+  <text x="100" y="144" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Рождение</text>
+  <text x="100" y="156" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Ивана III</text>
+  <circle cx="220" cy="128" r="7" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="220" y="114" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1462</text>
+  <text x="220" y="144" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Начало</text>
+  <text x="220" y="156" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">правления</text>
+  <circle cx="370" cy="128" r="7" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="370" y="114" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1471</text>
+  <text x="370" y="144" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Поход на</text>
+  <text x="370" y="156" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Новгород</text>
+  <circle cx="500" cy="128" r="7" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="500" y="114" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1478</text>
+  <text x="500" y="144" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Присоедин.</text>
+  <text x="500" y="156" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Новгорода</text>
+  <circle cx="620" cy="128" r="7" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="620" y="114" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1480</text>
+  <text x="620" y="144" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Стояние</text>
+  <text x="620" y="156" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">на Угре</text>
+  <circle cx="730" cy="128" r="7" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="730" y="114" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1485</text>
+  <text x="730" y="144" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Тверь</text>
+  <text x="730" y="156" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">присоед.</text>
+  <rect x="30" y="178" width="240" height="120" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="30" y="178" width="5" height="120" rx="2" fill="#EF4444" />
+  <text x="46" y="198" text-anchor="start" fill="#EF4444" font-size="13" font-weight="bold" font-family="sans-serif">Стояние на реке Угре (1480)</text>
+  <text x="46" y="216" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Хан Ахмат подошёл к р. Угре</text>
+  <text x="46" y="232" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Иван III отвёл войска на Боровск</text>
+  <text x="46" y="248" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Ахмат не решился на сражение</text>
+  <text x="46" y="264" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Орда отступила — игу конец!</text>
+  <text x="46" y="280" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Без единого крупного сражения</text>
+  <rect x="290" y="178" width="230" height="120" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="290" y="178" width="5" height="120" rx="2" fill="#EF4444" />
+  <text x="306" y="198" text-anchor="start" fill="#EF4444" font-size="13" font-weight="bold" font-family="sans-serif">Государственные символы</text>
+  <text x="306" y="216" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Двуглавый орёл — герб (1497)</text>
+  <text x="306" y="232" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">«Государь всея Руси» — титул</text>
+  <text x="306" y="248" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Шапка Мономаха — регалия</text>
+  <text x="306" y="264" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Кремль — резиденция государя</text>
+  <text x="306" y="280" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">«Сводный судебник» — 1497 г.</text>
+  <rect x="540" y="178" width="230" height="120" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+  <rect x="540" y="178" width="5" height="120" rx="2" fill="#EF4444" />
+  <text x="556" y="198" text-anchor="start" fill="#EF4444" font-size="13" font-weight="bold" font-family="sans-serif">Расширение территории</text>
+  <text x="556" y="216" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Ярославль (1463 г.)</text>
+  <text x="556" y="232" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Ростов (1474 г.)</text>
+  <text x="556" y="248" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Новгород (1478 г.)</text>
+  <text x="556" y="264" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Тверь (1485 г.)</text>
+  <text x="556" y="280" text-anchor="start" fill="#4B5563" font-size="11" font-weight="normal" font-family="sans-serif">Вятка (1489 г.)</text>
+  <text x="400" y="330" text-anchor="middle" fill="#B91C1C" font-size="14" font-weight="bold" font-family="sans-serif">Русь до и после Ивана III</text>
+  <rect x="30" y="355" width="200" height="190" rx="8" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="1" />
+  <text x="130" y="373" text-anchor="middle" fill="#EF4444" font-size="12" font-weight="bold" font-family="sans-serif">До (раздробленность)</text>
+  <line x1="50" y1="383" x2="210" y2="383" stroke="#FCA5A5" stroke-width="1" />
+  <rect x="50" y="393" width="160" height="20" rx="3" fill="#FECDD3" />
+  <text x="130" y="407" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Московское княжество</text>
+  <rect x="50" y="417" width="160" height="20" rx="3" fill="#FECDD3" />
+  <text x="130" y="431" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Тверское княжество</text>
+  <rect x="50" y="441" width="160" height="20" rx="3" fill="#FECDD3" />
+  <text x="130" y="455" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Рязанское княжество</text>
+  <rect x="50" y="465" width="160" height="20" rx="3" fill="#FECDD3" />
+  <text x="130" y="479" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Новгородская республика</text>
+  <rect x="50" y="489" width="160" height="20" rx="3" fill="#FECDD3" />
+  <text x="130" y="503" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Псковская республика</text>
+  <rect x="50" y="513" width="160" height="20" rx="3" fill="#FECDD3" />
+  <text x="130" y="527" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Зависимость от Орды</text>
+  <text x="320" y="445" text-anchor="middle" fill="#EF4444" font-size="36" font-weight="bold" font-family="sans-serif">→</text>
+  <rect x="400" y="355" width="200" height="190" rx="8" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" />
+  <text x="500" y="373" text-anchor="middle" fill="#EF4444" font-size="12" font-weight="bold" font-family="sans-serif">После (единое государство)</text>
+  <line x1="420" y1="383" x2="580" y2="383" stroke="#EF4444" stroke-width="1" />
+  <rect x="420" y="393" width="160" height="20" rx="3" fill="#FCA5A5" />
+  <text x="500" y="407" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Единое Русское государство</text>
+  <rect x="420" y="417" width="160" height="20" rx="3" fill="#FCA5A5" />
+  <text x="500" y="431" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Освобождение от Орды</text>
+  <rect x="420" y="441" width="160" height="20" rx="3" fill="#FCA5A5" />
+  <text x="500" y="455" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Судебник 1497 г.</text>
+  <rect x="420" y="465" width="160" height="20" rx="3" fill="#FCA5A5" />
+  <text x="500" y="479" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Государственные символы</text>
+  <rect x="420" y="489" width="160" height="20" rx="3" fill="#FCA5A5" />
+  <text x="500" y="503" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Кирпичный Кремль</text>
+  <rect x="420" y="513" width="160" height="20" rx="3" fill="#FCA5A5" />
+  <text x="500" y="527" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Централизация власти</text>
+</svg>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#F59E0B" />
+  <rect x="0" y="6" width="800" height="70" fill="#F59E0B" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#92400E" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">7</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Работа и мощность тока</text>
+  <text x="78" y="58" fill="#FEF3C7" font-size="13" font-family="Arial, sans-serif">A = IUt, P = IU, Закон Джоуля-Ленца</text>
+  <rect x="17" y="92" width="385" height="130" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="385" height="130" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="90" width="385" height="26" rx="8" fill="#F59E0B" />
+  <rect x="15" y="108" width="385" height="8" fill="#F59E0B" />
+  <text x="207" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Работа электрического тока</text>
+  <text x="200" y="135" text-anchor="middle" fill="#92400E" font-size="28" font-weight="bold" font-family="Arial, sans-serif">A = I · U · t</text>
+  <line x1="109" y1="141" x2="291" y2="141" stroke="#F59E0B" stroke-width="2" opacity="0.4" />
+  <text x="30" y="160" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">A — работа тока [Дж]</text>
+  <text x="30" y="180" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">I — сила тока [А]</text>
+  <text x="30" y="200" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">U — напряжение [В], t — время [с]</text>
+  <text x="30" y="215" text-anchor="start" fill="#3B82F6" font-size="13" font-weight="bold" font-family="Arial, sans-serif">A = I²Rt = U²t/R</text>
+  <rect x="417" y="92" width="370" height="130" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="90" width="370" height="130" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="415" y="90" width="370" height="26" rx="8" fill="#F59E0B" />
+  <rect x="415" y="108" width="370" height="8" fill="#F59E0B" />
+  <text x="600" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Мощность тока</text>
+  <text x="600" y="135" text-anchor="middle" fill="#92400E" font-size="28" font-weight="bold" font-family="Arial, sans-serif">P = I · U</text>
+  <line x1="537" y1="141" x2="663" y2="141" stroke="#F59E0B" stroke-width="2" opacity="0.4" />
+  <text x="430" y="160" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">P — мощность [Вт] (Ватт)</text>
+  <text x="430" y="180" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">P = A / t</text>
+  <text x="430" y="200" text-anchor="start" fill="#92400E" font-size="13" font-weight="bold" font-family="Arial, sans-serif">1 Вт = 1 Дж/с = 1 В·А</text>
+  <text x="430" y="215" text-anchor="start" fill="#3B82F6" font-size="13" font-weight="bold" font-family="Arial, sans-serif">P = I²R = U²/R</text>
+  <rect x="17" y="232" width="500" height="150" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="230" width="500" height="150" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="230" width="500" height="26" rx="8" fill="#EF4444" />
+  <rect x="15" y="248" width="500" height="8" fill="#EF4444" />
+  <text x="265" y="248" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Закон Джоуля–Ленца</text>
+  <text x="265" y="280" text-anchor="middle" fill="#EF4444" font-size="28" font-weight="bold" font-family="Arial, sans-serif">Q = I² · R · t</text>
+  <line x1="167" y1="286" x2="363" y2="286" stroke="#F59E0B" stroke-width="2" opacity="0.4" />
+  <text x="30" y="310" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">Количество теплоты, выделяемое</text>
+  <text x="30" y="330" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">проводником с током, равно</text>
+  <text x="30" y="350" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">произведению квадрата силы тока,</text>
+  <text x="30" y="370" text-anchor="start" fill="#92400E" font-size="13" font-weight="bold" font-family="Arial, sans-serif">сопротивления и времени.</text>
+  <rect x="532" y="232" width="255" height="150" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="530" y="230" width="255" height="150" rx="8" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5" />
+  <rect x="530" y="230" width="255" height="26" rx="8" fill="#EF4444" />
+  <rect x="530" y="248" width="255" height="8" fill="#EF4444" />
+  <text x="657" y="248" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Нагревание</text>
+  <path d="M570,290 L590,275 L610,305 L630,275 L650,305 L670,275 L690,290" stroke="#EF4444" stroke-width="3" fill="none" />
+  <path d="M590,310 Q585,320 590,330" stroke="#F59E0B" stroke-width="1.5" fill="none" />
+  <path d="M620,310 Q615,320 620,330" stroke="#F59E0B" stroke-width="1.5" fill="none" />
+  <path d="M650,310 Q645,320 650,330" stroke="#F59E0B" stroke-width="1.5" fill="none" />
+  <text x="657" y="355" text-anchor="start" fill="#EF4444" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Q → тепло</text>
+  <text x="657" y="372" text-anchor="start" fill="#78716C" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Нихром, фехраль</text>
+  <rect x="17" y="392" width="385" height="100" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="390" width="385" height="100" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="390" width="385" height="26" rx="8" fill="#D97706" />
+  <rect x="15" y="408" width="385" height="8" fill="#D97706" />
+  <text x="207" y="408" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Практические единицы</text>
+  <text x="30" y="420" text-anchor="start" fill="#92400E" font-size="14" font-weight="bold" font-family="Arial, sans-serif">1 кВт·ч = 3 600 000 Дж</text>
+  <text x="30" y="445" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">Счётчик электрической энергии</text>
+  <text x="30" y="465" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">измеряет расход в кВт·ч</text>
+  <rect x="417" y="392" width="370" height="100" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="390" width="370" height="100" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="415" y="390" width="370" height="26" rx="8" fill="#22C55E" />
+  <rect x="415" y="408" width="370" height="8" fill="#22C55E" />
+  <text x="600" y="408" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Пример</text>
+  <text x="430" y="420" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">U=220В, I=5А, t=30мин</text>
+  <text x="430" y="442" text-anchor="start" fill="#92400E" font-size="13" font-weight="bold" font-family="Arial, sans-serif">A = 5·220·1800 = 1 980 000 Дж</text>
+  <text x="430" y="462" text-anchor="start" fill="#3B82F6" font-size="13" font-weight="bold" font-family="Arial, sans-serif">P = 5·220 = 1100 Вт = 1.1 кВт</text>
+  <text x="430" y="482" text-anchor="start" fill="#EF4444" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Q = 25·44·1800 = 1 980 000 Дж</text>
+  <rect x="17" y="502" width="770" height="30" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="500" width="770" height="30" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="500" width="770" height="26" rx="8" fill="#D97706" />
+  <rect x="15" y="518" width="770" height="8" fill="#D97706" />
+  <text x="400" y="518" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Мощности приборов</text>
+  <text x="30" y="521" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Лампа: 60-100 Вт</text>
+  <text x="200" y="521" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Утюг: 1000-2000 Вт</text>
+  <text x="400" y="521" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Чайник: 1500-2200 Вт</text>
+  <text x="600" y="521" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">СВЧ: 700-1200 Вт</text>
+  <rect x="0" y="570" width="800" height="30" fill="#92400E" />
+  <text x="400" y="590" text-anchor="middle" fill="#FEF3C7" font-size="11" font-family="Arial, sans-serif">Физика • 8 класс • Интернет-Школа</text>
+</svg>
