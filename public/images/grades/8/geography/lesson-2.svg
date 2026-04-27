@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ECFDF5" />
+      <stop offset="100%" stop-color="#F0FDF4" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#059669" />
+  <rect x="0" y="6" width="800" height="70" fill="#059669" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#065F46" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">2</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Моря и острова России</text>
+  <text x="78" y="58" fill="#D1FAE5" font-size="13" font-family="Arial, sans-serif">Моря трёх океанов, крупные острова</text>
+  <rect x="17" y="92" width="480" height="310" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="480" height="310" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="90" width="480" height="26" rx="8" fill="#059669" />
+  <rect x="15" y="108" width="480" height="8" fill="#059669" />
+  <text x="255" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Моря России на карте</text>
+  <rect x="25" y="120" width="460" height="270" fill="#DBEAFE" rx="4" />
+  <polygon points="67.6,250.0 75.2,230.8 82.8,214.0 94.2,197.2 105.6,182.8 120.8,168.4 136.0,158.8 155.0,154.0 181.6,149.2 204.4,144.4 231.0,142.0 257.6,139.6 280.4,142.0 299.4,146.8 318.4,154.0 333.6,149.2 348.8,158.8 364.0,166.0 379.2,161.2 394.4,173.2 409.6,168.4 421.0,182.8 428.6,197.2 440.0,206.8 432.4,197.2 424.8,206.8 413.4,216.4 402.0,209.2 390.6,221.2 379.2,214.0 364.0,226.0 348.8,221.2 333.6,230.8 318.4,240.4 303.2,250.0 288.0,259.6 272.8,264.4 257.6,269.2 242.4,274.0 227.2,278.8 212.0,283.6 196.8,278.8 181.6,274.0 166.4,278.8 151.2,283.6 136.0,288.4 120.8,293.2 105.6,288.4 98.0,278.8 90.4,264.4 79.0,254.8" fill="#D1FAE5" stroke="#059669" stroke-width="2" />
+  <text x="150" y="140" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Баренцево</text>
+  <text x="250" y="130" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Карское</text>
+  <text x="350" y="130" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Лаптевых</text>
+  <text x="420" y="140" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Вост.-Сиб.</text>
+  <text x="445" y="260" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Охотское</text>
+  <text x="440" y="320" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Японское</text>
+  <text x="455" y="190" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Берингово</text>
+  <text x="45" y="230" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Балтийское</text>
+  <text x="55" y="310" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Чёрное</text>
+  <text x="40" y="340" text-anchor="middle" fill="#1E3A5F" font-size="7" font-weight="bold" font-family="Arial, sans-serif">Азовское</text>
+  <circle cx="265" cy="155" r="3" fill="#F97316" />
+  <text x="265" y="150" text-anchor="middle" fill="#F97316" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Н.Земля</text>
+  <circle cx="385" cy="155" r="3" fill="#F97316" />
+  <text x="385" y="150" text-anchor="middle" fill="#F97316" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Новосиб.</text>
+  <circle cx="440" cy="290" r="3" fill="#F97316" />
+  <text x="448" y="288" text-anchor="start" fill="#F97316" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Сахалин</text>
+  <circle cx="450" cy="305" r="3" fill="#F97316" />
+  <text x="450" y="315" text-anchor="middle" fill="#F97316" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Курилы</text>
+  <rect x="512" y="92" width="275" height="155" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="510" y="90" width="275" height="155" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="510" y="90" width="275" height="26" rx="8" fill="#065F46" />
+  <rect x="510" y="108" width="275" height="8" fill="#065F46" />
+  <text x="647" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Моря по океанам</text>
+  <text x="525" y="128" text-anchor="start" fill="#1E3A5F" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Северный Ледовитый океан:</text>
+  <text x="530" y="144" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Баренцево</text>
+  <text x="530" y="157" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Белое</text>
+  <text x="530" y="170" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Карское</text>
+  <text x="530" y="183" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Лаптевых</text>
+  <text x="530" y="196" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Восточно-Сибирское</text>
+  <text x="530" y="209" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Чукотское</text>
+  <text x="525" y="224" text-anchor="start" fill="#1E3A5F" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Тихий океан:</text>
+  <text x="530" y="238" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Берингово</text>
+  <text x="530" y="251" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Охотское</text>
+  <text x="530" y="264" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Японское</text>
+  <rect x="512" y="257" width="275" height="145" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="510" y="255" width="275" height="145" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="510" y="255" width="275" height="26" rx="8" fill="#14B8A6" />
+  <rect x="510" y="273" width="275" height="8" fill="#14B8A6" />
+  <text x="647" y="273" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Крупнейшие острова</text>
+  <text x="525" y="290" text-anchor="start" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Остров</text>
+  <text x="680" y="290" text-anchor="end" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Площадь (км²)</text>
+  <rect x="520" y="278" width="250" height="16" fill="#059669" rx="2" />
+  <text x="525" y="306" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Сахалин</text>
+  <text x="680" y="306" text-anchor="end" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">76 400</text>
+  <text x="525" y="322" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Новая Земля</text>
+  <text x="680" y="322" text-anchor="end" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">82 600</text>
+  <text x="525" y="338" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Врангеля</text>
+  <text x="680" y="338" text-anchor="end" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">7 608</text>
+  <text x="525" y="354" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Курильские</text>
+  <text x="680" y="354" text-anchor="end" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">10 500</text>
+  <text x="525" y="370" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Новосибирские</text>
+  <text x="680" y="370" text-anchor="end" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">38 400</text>
+  <text x="525" y="386" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Земля Франца-И.</text>
+  <text x="680" y="386" text-anchor="end" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">16 100</text>
+  <rect x="17" y="412" width="480" height="105" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="410" width="480" height="105" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="410" width="480" height="26" rx="8" fill="#059669" />
+  <rect x="15" y="428" width="480" height="8" fill="#059669" />
+  <text x="255" y="428" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Особенности морей</text>
+  <text x="30" y="448" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">• Россия омывается 13 морями трёх океанов</text>
+  <text x="30" y="466" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">• Арктические моря замерзают на 6-9 месяцев</text>
+  <text x="30" y="484" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">• Северный морской путь — кратчайший маршрут</text>
+  <text x="30" y="502" text-anchor="start" fill="#1E3A5F" font-size="12" font-weight="normal" font-family="Arial, sans-serif">• Курильские о-ва — предмет спора с Японией</text>
+  <rect x="512" y="412" width="275" height="105" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="510" y="410" width="275" height="105" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="510" y="410" width="275" height="26" rx="8" fill="#F59E0B" />
+  <rect x="510" y="428" width="275" height="8" fill="#F59E0B" />
+  <text x="647" y="428" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Каспийское море</text>
+  <text x="525" y="448" text-anchor="start" fill="#92400E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Крупнейшее озеро мира!</text>
+  <text x="525" y="466" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Площадь: 371 000 км²</text>
+  <text x="525" y="482" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Глубина: до 1025 м</text>
+  <text x="525" y="498" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Омывает берега 5 стран</text>
+  <rect x="0" y="570" width="800" height="30" fill="#065F46" />
+  <text x="400" y="590" text-anchor="middle" fill="#D1FAE5" font-size="11" font-family="Arial, sans-serif">География • 8 класс • Интернет-Школа</text>
+</svg>

@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFBEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FED7AA;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9A3412;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EA580C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EA580C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D97706;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" floodColor="#9A3412" floodOpacity="0.2" />
+    </filter>
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" floodColor="#000" floodOpacity="0.15" />
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#EA580C" strokeWidth="2" rx="8" />
+  <rect x="14" y="14" width="772" height="572" fill="none" stroke="#D97706" strokeWidth="1" rx="6" strokeDasharray="8,4" />
+  <rect x="20" y="16" width="760" height="60" fill="url(#titleGrad)" rx="6" filter="url(#shadow)" />
+  <text x="400" y="48" fill="white" fontSize="22" fontWeight="bold" textAnchor="middle" fontFamily="serif">Портрет как жанр</text>
+  <text x="400" y="68" fill="#FED7AA" fontSize="12" textAnchor="middle" fontFamily="sans-serif">Виды портрета, техника, великие портретисты</text>
+  <circle cx="35" cy="46" r="6" fill="#D97706" opacity="0.6" />
+  <circle cx="765" cy="46" r="6" fill="#D97706" opacity="0.6" />
+  <circle cx="52" cy="100" r="18" fill="#EA580C" filter="url(#softShadow)" />
+  <text x="52" y="106" fill="white" fontSize="16" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">4</text>
+  <ellipse cx="650" cy="250" rx="65" ry="80" fill="#FEF3C7" stroke="#B45309" strokeWidth="2" />
+  <ellipse cx="630" cy="230" rx="10" ry="6" fill="none" stroke="#431407" strokeWidth="1.5" />
+  <ellipse cx="670" cy="230" rx="10" ry="6" fill="none" stroke="#431407" strokeWidth="1.5" />
+  <path d="M650,240 L645,260 L655,260" fill="none" stroke="#431407" strokeWidth="1" />
+  <path d="M638,272 Q650,280 662,272" fill="none" stroke="#B45309" strokeWidth="1.5" />
+  <line x1="585" y1="230" x2="560" y2="220" stroke="#EA580C" strokeWidth="1" strokeDasharray="3,2" />
+  <text x="520" y="218" fill="#9A3412" fontSize="9" textAnchor="end" fontFamily="sans-serif">Взгляд</text>
+  <line x1="715" y1="250" x2="740" y2="245" stroke="#EA580C" strokeWidth="1" strokeDasharray="3,2" />
+  <text x="745" y="248" fill="#9A3412" fontSize="9" fontFamily="sans-serif">Светотень</text>
+  <line x1="650" y1="170" x2="650" y2="155" stroke="#EA580C" strokeWidth="1" strokeDasharray="3,2" />
+  <text x="650" y="148" fill="#9A3412" fontSize="9" textAnchor="middle" fontFamily="sans-serif">Композиция</text>
+  <rect x="30" y="90" width="240" height="155" fill="white" stroke="#EA580C" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="30" y="90" width="240" height="26" fill="#EA580C" rx="6" />
+  <rect x="30" y="108" width="240" height="8" fill="#EA580C" />
+  <text x="150" y="108" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Виды портрета</text>
+  <circle cx="44" cy="124" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="128" fill="#78350F" fontSize="11" fontFamily="sans-serif">Парадный — торжественный</text>
+  <circle cx="44" cy="141" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="145" fill="#78350F" fontSize="11" fontFamily="sans-serif">Камерный — интимный, домашний</text>
+  <circle cx="44" cy="158" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="162" fill="#78350F" fontSize="11" fontFamily="sans-serif">Психологический — внутренний мир</text>
+  <circle cx="44" cy="175" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="179" fill="#78350F" fontSize="11" fontFamily="sans-serif">Автопортрет — изображение себя</text>
+  <circle cx="44" cy="192" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="196" fill="#78350F" fontSize="11" fontFamily="sans-serif">Групповой — несколько лиц</text>
+  <circle cx="44" cy="209" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="213" fill="#78350F" fontSize="11" fontFamily="sans-serif">Погрудный / поясной / в рост</text>
+  <rect x="30" y="260" width="240" height="130" fill="white" stroke="#D97706" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="30" y="260" width="240" height="26" fill="#D97706" rx="6" />
+  <rect x="30" y="278" width="240" height="8" fill="#D97706" />
+  <text x="150" y="278" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Великие портретисты</text>
+  <circle cx="44" cy="294" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="298" fill="#78350F" fontSize="11" fontFamily="sans-serif">Леонардо да Винчи (Мона Лиза)</text>
+  <circle cx="44" cy="311" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="315" fill="#78350F" fontSize="11" fontFamily="sans-serif">Рембрандт (Автопортреты)</text>
+  <circle cx="44" cy="328" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="332" fill="#78350F" fontSize="11" fontFamily="sans-serif">В. Серов (Девочка с персиками)</text>
+  <circle cx="44" cy="345" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="349" fill="#78350F" fontSize="11" fontFamily="sans-serif">И. Репин (Бурлаки на Волге)</text>
+  <circle cx="44" cy="362" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="366" fill="#78350F" fontSize="11" fontFamily="sans-serif">Ван Гог (Автопортреты)</text>
+  <rect x="300" y="90" width="240" height="155" fill="white" stroke="#B45309" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="300" y="90" width="240" height="26" fill="#B45309" rx="6" />
+  <rect x="300" y="108" width="240" height="8" fill="#B45309" />
+  <text x="420" y="108" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Техника портрета</text>
+  <circle cx="314" cy="124" r="3" fill="#B45309" opacity="0.6" />
+  <text x="322" y="128" fill="#78350F" fontSize="11" fontFamily="sans-serif">Пропорции лица (3 части)</text>
+  <circle cx="314" cy="141" r="3" fill="#B45309" opacity="0.6" />
+  <text x="322" y="145" fill="#78350F" fontSize="11" fontFamily="sans-serif">Светотеневая моделировка</text>
+  <circle cx="314" cy="158" r="3" fill="#B45309" opacity="0.6" />
+  <text x="322" y="162" fill="#78350F" fontSize="11" fontFamily="sans-serif">Цвет и колорит кожи</text>
+  <circle cx="314" cy="175" r="3" fill="#B45309" opacity="0.6" />
+  <text x="322" y="179" fill="#78350F" fontSize="11" fontFamily="sans-serif">Характерная поза и жест</text>
+  <circle cx="314" cy="192" r="3" fill="#B45309" opacity="0.6" />
+  <text x="322" y="196" fill="#78350F" fontSize="11" fontFamily="sans-serif">Выражение глаз — душа</text>
+  <circle cx="314" cy="209" r="3" fill="#B45309" opacity="0.6" />
+  <text x="322" y="213" fill="#78350F" fontSize="11" fontFamily="sans-serif">Фон и атрибуты</text>
+  <text x="400" y="420" fill="#9A3412" fontSize="13" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Пропорции лица</text>
+  <ellipse cx="400" cy="490" rx="40" ry="55" fill="none" stroke="#EA580C" strokeWidth="1.5" strokeDasharray="4,2" />
+  <line x1="360" y1="445" x2="440" y2="445" stroke="#C2410C" strokeWidth="0.5" strokeDasharray="2,2" />
+  <text x="450" y="449" fill="#78350F" fontSize="9" fontFamily="sans-serif">Волосы</text>
+  <line x1="360" y1="465" x2="440" y2="465" stroke="#C2410C" strokeWidth="0.5" strokeDasharray="2,2" />
+  <text x="450" y="469" fill="#78350F" fontSize="9" fontFamily="sans-serif">Брови</text>
+  <line x1="360" y1="485" x2="440" y2="485" stroke="#C2410C" strokeWidth="0.5" strokeDasharray="2,2" />
+  <text x="450" y="489" fill="#78350F" fontSize="9" fontFamily="sans-serif">Нос</text>
+  <line x1="360" y1="505" x2="440" y2="505" stroke="#C2410C" strokeWidth="0.5" strokeDasharray="2,2" />
+  <text x="450" y="509" fill="#78350F" fontSize="9" fontFamily="sans-serif">Рот</text>
+  <line x1="360" y1="525" x2="440" y2="525" stroke="#C2410C" strokeWidth="0.5" strokeDasharray="2,2" />
+  <text x="450" y="529" fill="#78350F" fontSize="9" fontFamily="sans-serif">Подбородок</text>
+  <rect x="560" y="280" width="210" height="90" fill="white" stroke="#6B21A8" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="560" y="280" width="210" height="26" fill="#6B21A8" rx="6" />
+  <rect x="560" y="298" width="210" height="8" fill="#6B21A8" />
+  <text x="665" y="298" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Ключевое</text>
+  <circle cx="574" cy="314" r="3" fill="#6B21A8" opacity="0.6" />
+  <text x="582" y="318" fill="#78350F" fontSize="11" fontFamily="sans-serif">Портрет — зеркало души</text>
+  <circle cx="574" cy="331" r="3" fill="#6B21A8" opacity="0.6" />
+  <text x="582" y="335" fill="#78350F" fontSize="11" fontFamily="sans-serif">Передаёт не только внешность,</text>
+  <circle cx="574" cy="348" r="3" fill="#6B21A8" opacity="0.6" />
+  <text x="582" y="352" fill="#78350F" fontSize="11" fontFamily="sans-serif">но и характер, настроение,</text>
+  <rect x="20" y="570" width="760" height="22" fill="#9A3412" rx="4" opacity="0.8" />
+  <text x="400" y="585" fill="#FED7AA" fontSize="11" textAnchor="middle" fontFamily="sans-serif">ИЗО · 8 класс</text>
+  <ellipse cx="48" cy="581" rx="8" ry="5.6" fill="#B45309" opacity="0.8" />
+  <circle cx="40" cy="578" r="3" fill="#EF4444" />
+  <circle cx="48" cy="574" r="3" fill="#3B82F6" />
+  <circle cx="56" cy="578" r="3" fill="#EAB308" />
+  <circle cx="43" cy="586" r="3" fill="#22C55E" />
+  <circle cx="53" cy="586" r="3" fill="#8B5CF6" />
+</svg>

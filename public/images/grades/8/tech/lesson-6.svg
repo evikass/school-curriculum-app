@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#92400E" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#B45309" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="800" height="4" fill="#B45309" rx="2"/>
+
+  <!-- Header -->
+  <rect x="20" y="15" width="760" height="60" rx="8" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="40" y="50" font-size="14" fill="#FCD34D" font-weight="bold">Урок 6</text>
+  <text x="130" y="50" font-size="20" fill="#FFFFFF" font-weight="bold">Свойства металлов и сплавов</text>
+    <text x="780" y="55" font-size="13" fill="#F59E0B" text-anchor="end" font-style="italic">Чёрные и цветные металлы, сталь</text>
+
+  <!-- Classification diagram - tree structure -->
+  <rect x="280" y="90" width="240" height="35" rx="6" fill="#92400E" filter="url(#shadow)"/>
+  <text x="400" y="113" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Металлы и сплавы</text>
+  
+  <!-- Branches -->
+  <line x1="330" y1="125" x2="200" y2="155" stroke="#B45309" stroke-width="2"/>
+  <line x1="470" y1="125" x2="600" y2="155" stroke="#B45309" stroke-width="2"/>
+  
+  <!-- Ferrous -->
+  <rect x="80" y="155" width="240" height="30" rx="5" fill="#6B7280" filter="url(#shadow)"/>
+  <text x="200" y="175" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Чёрные металлы</text>
+  
+  <line x1="140" y1="185" x2="100" y2="200" stroke="#6B7280" stroke-width="1.5"/>
+  <line x1="200" y1="185" x2="200" y2="200" stroke="#6B7280" stroke-width="1.5"/>
+  <line x1="260" y1="185" x2="300" y2="200" stroke="#6B7280" stroke-width="1.5"/>
+  
+  <rect x="30" y="200" width="130" height="25" rx="4" fill="#6B7280"/>
+  <text x="95" y="217" font-size="10" fill="#FFFFFF" text-anchor="middle">Чугун</text>
+  <rect x="170" y="200" width="130" height="25" rx="4" fill="#4B5563"/>
+  <text x="235" y="217" font-size="10" fill="#FFFFFF" text-anchor="middle">Сталь</text>
+  <rect x="270" y="200" width="80" height="25" rx="4" fill="#9CA3AF"/>
+  <text x="310" y="217" font-size="10" fill="#FFFFFF" text-anchor="middle">Феррит</text>
+  
+  <!-- Non-ferrous -->
+  <rect x="480" y="155" width="240" height="30" rx="5" fill="#F59E0B" filter="url(#shadow)"/>
+  <text x="600" y="175" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Цветные металлы</text>
+  
+  <line x1="530" y1="185" x2="490" y2="200" stroke="#F59E0B" stroke-width="1.5"/>
+  <line x1="600" y1="185" x2="600" y2="200" stroke="#F59E0B" stroke-width="1.5"/>
+  <line x1="670" y1="185" x2="710" y2="200" stroke="#F59E0B" stroke-width="1.5"/>
+  
+  <rect x="420" y="200" width="110" height="25" rx="4" fill="#D97706"/>
+  <text x="475" y="217" font-size="10" fill="#FFFFFF" text-anchor="middle">Медь</text>
+  <rect x="540" y="200" width="110" height="25" rx="4" fill="#B45309"/>
+  <text x="595" y="217" font-size="10" fill="#FFFFFF" text-anchor="middle">Алюминий</text>
+  <rect x="660" y="200" width="110" height="25" rx="4" fill="#92400E"/>
+  <text x="715" y="217" font-size="10" fill="#FFFFFF" text-anchor="middle">Цинк, Олово</text>
+  
+  <!-- Properties comparison -->
+    <rect x="25" y="245" width="245" height="165" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="245" width="245" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="265" width="245" height="6" fill="#B45309"/>
+  <text x="147" y="263" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Физические свойства</text>
+  <text x="37" y="285" font-size="12" fill="#78350F">• Плотность: Al(2.7) Fe(7.8) Cu(8.9)</text>
+  <text x="37" y="305" font-size="12" fill="#78350F">• Температура плавления:</text>
+  <text x="37" y="325" font-size="12" fill="#78350F">•   Al — 660°C, Cu — 1083°C</text>
+  <text x="37" y="345" font-size="12" fill="#78350F">•   Fe — 1538°C, Sn — 232°C</text>
+  <text x="37" y="365" font-size="12" fill="#78350F">• Электропроводность: Cu &amp;gt; Al &amp;gt; Fe</text>
+  <text x="37" y="385" font-size="12" fill="#78350F">• Теплопроводность: Cu &amp;gt; Al &amp;gt; Fe</text>
+  
+    <rect x="285" y="245" width="245" height="165" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="285" y="245" width="245" height="26" rx="6" fill="#B45309"/>
+  <rect x="285" y="265" width="245" height="6" fill="#B45309"/>
+  <text x="407" y="263" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Механические свойства</text>
+  <text x="297" y="285" font-size="12" fill="#78350F">• Прочность — сопротивление разрушению</text>
+  <text x="297" y="305" font-size="12" fill="#78350F">• Пластичность — изменение формы</text>
+  <text x="297" y="325" font-size="12" fill="#78350F">• Твёрдость — сопротивление вдавл.</text>
+  <text x="297" y="345" font-size="12" fill="#78350F">• Упругость — возврат формы</text>
+  <text x="297" y="365" font-size="12" fill="#78350F">• Хрупкость — разрушение без деф.</text>
+  <text x="297" y="385" font-size="12" fill="#78350F">• Вязкость — работа на разрушение</text>
+  
+    <rect x="545" y="245" width="235" height="165" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="545" y="245" width="235" height="26" rx="6" fill="#B45309"/>
+  <rect x="545" y="265" width="235" height="6" fill="#B45309"/>
+  <text x="662" y="263" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Сплавы и их применение</text>
+  <text x="557" y="285" font-size="12" fill="#78350F">• Сталь — конструкции, инструменты</text>
+  <text x="557" y="305" font-size="12" fill="#78350F">• Чугун — детали машин, трубы</text>
+  <text x="557" y="325" font-size="12" fill="#78350F">• Бронза — подшипники, скульптуры</text>
+  <text x="557" y="345" font-size="12" fill="#78350F">• Латунь — фурнитура, приборы</text>
+  <text x="557" y="365" font-size="12" fill="#78350F">• Дюралюминий — авиация, мебель</text>
+  <text x="557" y="385" font-size="12" fill="#78350F">• Припой — соединение деталей</text>
+  
+    <rect x="25" y="425" width="750" height="50" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" filter="url(#shadow)"/>
+  <text x="37" y="445" font-size="12" fill="#78350F" font-weight="bold">⚖ Сталь = железо + углерод (до 2%). Чем больше углерода — тем твёрже, но хрупче!</text>
+  <text x="37" y="463" font-size="12" fill="#78350F" font-weight="bold">Легирующие добавки (Cr, Ni, W) придают стали специальные свойства</text>
+  
+  <!-- Steel types -->
+    <rect x="25" y="490" width="370" height="90" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="490" width="370" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="510" width="370" height="6" fill="#B45309"/>
+  <text x="210" y="508" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Виды стали</text>
+  <text x="37" y="530" font-size="12" fill="#78350F">• Углеродистая: низко-, средне-, высокоуглеродистая</text>
+  <text x="37" y="550" font-size="12" fill="#78350F">• Легированная: хромистая, никелевая, вольфрамовая</text>
+  <text x="37" y="570" font-size="12" fill="#78350F">• Инструментальная: для резцов, свёрл, напильников</text>
+  
+    <rect x="410" y="490" width="365" height="90" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="410" y="490" width="365" height="26" rx="6" fill="#B45309"/>
+  <rect x="410" y="510" width="365" height="6" fill="#B45309"/>
+  <text x="592" y="508" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Обработка металлов</text>
+  <text x="422" y="530" font-size="12" fill="#78350F">• Механическая: резание, гибка, штамповка</text>
+  <text x="422" y="550" font-size="12" fill="#78350F">• Термическая: закалка, отпуск, отжиг</text>
+  <text x="422" y="570" font-size="12" fill="#78350F">• Термохимическая: цементация, азотирование</text>
+  </svg>

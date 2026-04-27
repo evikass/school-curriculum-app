@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F5F3FF" rx="0" />
+  <rect x="0" y="0" width="800" height="80" fill="#7C3AED" />
+  <rect x="0" y="80" width="800" height="4" fill="#5B21B6" />
+  <rect x="20" y="15" width="50" height="50" rx="12" fill="#5B21B6" />
+  <text x="45" y="50" text-anchor="middle" font-size="28" fill="#FFFFFF">♫</text>
+  <text x="85" y="42" font-size="24" font-weight="bold" fill="#FFFFFF">Музыкальные инструменты</text>
+  <text x="85" y="64" font-size="13" fill="#EDE9FE">Классификация и расположение в оркестре</text>
+  <rect x="0" y="570" width="800" height="30" fill="#5B21B6" />
+  <text x="40" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♪</text>
+  <text x="120" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♫</text>
+  <text x="200" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♬</text>
+  <text x="280" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♩</text>
+  <text x="360" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♪</text>
+  <text x="440" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♫</text>
+  <text x="520" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♬</text>
+  <text x="600" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♩</text>
+  <text x="680" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♪</text>
+  <text x="760" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♫</text>
+  <text x="720" y="120" font-size="20" fill="#C4B5FD" opacity="0.5">♬</text>
+  <text x="750" y="180" font-size="16" fill="#C4B5FD" opacity="0.5">♪</text>
+  <text x="690" y="160" font-size="14" fill="#C4B5FD" opacity="0.5">♬</text>
+  <text x="30" y="530" font-size="18" fill="#C4B5FD" opacity="0.5">♪</text>
+  <text x="60" y="560" font-size="14" fill="#C4B5FD" opacity="0.5">♩</text>
+  <rect x="20" y="98" width="180" height="160" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2" />
+  <rect x="20" y="98" width="180" height="32" rx="10" fill="#7C3AED" />
+  <rect x="20" y="120" width="180" height="10" fill="#7C3AED" />
+  <text x="110" y="121" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Струнные</text>
+  <text x="32" y="148" font-size="11" fill="#3B0764">♪ Скрипка</text>
+  <text x="32" y="168" font-size="11" fill="#3B0764">♪ Альт</text>
+  <text x="32" y="188" font-size="11" fill="#3B0764">♪ Виолончель</text>
+  <text x="32" y="208" font-size="11" fill="#3B0764">♪ Контрабас</text>
+  <text x="32" y="228" font-size="11" fill="#3B0764">♪ Арфа</text>
+  <rect x="213" y="98" width="180" height="160" rx="10" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2" />
+  <rect x="213" y="98" width="180" height="32" rx="10" fill="#0EA5E9" />
+  <rect x="213" y="120" width="180" height="10" fill="#0EA5E9" />
+  <text x="303" y="121" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Духовые</text>
+  <text x="225" y="148" font-size="11" fill="#3B0764">♪ Флейта</text>
+  <text x="225" y="168" font-size="11" fill="#3B0764">♪ Кларнет</text>
+  <text x="225" y="188" font-size="11" fill="#3B0764">♪ Гобой</text>
+  <text x="225" y="208" font-size="11" fill="#3B0764">♪ Фагот</text>
+  <text x="225" y="228" font-size="11" fill="#3B0764">♪ Труба</text>
+  <text x="225" y="248" font-size="11" fill="#3B0764">♪ Валторна</text>
+  <rect x="406" y="98" width="180" height="160" rx="10" fill="#FFFFFF" stroke="#F97316" stroke-width="2" />
+  <rect x="406" y="98" width="180" height="32" rx="10" fill="#F97316" />
+  <rect x="406" y="120" width="180" height="10" fill="#F97316" />
+  <text x="496" y="121" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Ударные</text>
+  <text x="418" y="148" font-size="11" fill="#3B0764">♪ Литавры</text>
+  <text x="418" y="168" font-size="11" fill="#3B0764">♪ Барабан</text>
+  <text x="418" y="188" font-size="11" fill="#3B0764">♪ Тарелки</text>
+  <text x="418" y="208" font-size="11" fill="#3B0764">♪ Ксилофон</text>
+  <text x="418" y="228" font-size="11" fill="#3B0764">♪ Треугольник</text>
+  <rect x="599" y="98" width="180" height="160" rx="10" fill="#FFFFFF" stroke="#10B981" stroke-width="2" />
+  <rect x="599" y="98" width="180" height="32" rx="10" fill="#10B981" />
+  <rect x="599" y="120" width="180" height="10" fill="#10B981" />
+  <text x="689" y="121" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Клавишные</text>
+  <text x="611" y="148" font-size="11" fill="#3B0764">♪ Фортепиано</text>
+  <text x="611" y="168" font-size="11" fill="#3B0764">♪ Орган</text>
+  <text x="611" y="188" font-size="11" fill="#3B0764">♪ Клавесин</text>
+  <text x="611" y="208" font-size="11" fill="#3B0764">♪ Аккордеон</text>
+  <text x="400" y="285" text-anchor="middle" font-size="16" font-weight="bold" fill="#7C3AED">Схема расположения симфонического оркестра</text>
+  <ellipse cx="400" cy="440" rx="340" ry="120" fill="#DDD6FE" stroke="#7C3AED" stroke-width="2" opacity="0.6" />
+  <circle cx="400" cy="370" r="15" fill="#7C3AED" />
+  <text x="400" y="375" text-anchor="middle" font-size="10" fill="#FFFFFF">♩</text>
+  <text x="400" y="395" text-anchor="middle" font-size="10" font-weight="bold" fill="#5B21B6">Дирижёр</text>
+  <rect x="160" y="398" width="80" height="26" rx="6" fill="#7C3AED" opacity="0.85" />
+  <text x="200" y="415" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">Струнные</text>
+  <rect x="280" y="403" width="80" height="26" rx="6" fill="#0EA5E9" opacity="0.85" />
+  <text x="320" y="420" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">Дерев. дух.</text>
+  <rect x="440" y="403" width="80" height="26" rx="6" fill="#F59E0B" opacity="0.85" />
+  <text x="480" y="420" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">Медн. дух.</text>
+  <rect x="560" y="398" width="80" height="26" rx="6" fill="#F97316" opacity="0.85" />
+  <text x="600" y="415" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">Ударные</text>
+  <rect x="360" y="428" width="80" height="26" rx="6" fill="#10B981" opacity="0.85" />
+  <text x="400" y="445" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">Клавишные</text>
+  <text x="400" y="530" text-anchor="middle" font-size="11" fill="#7C3AED">↓ Зрительный зал ↓</text>
+  <g opacity="0.15">
+    <line x1="620" y1="95" x2="780" y2="95" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="620" y1="102" x2="780" y2="102" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="620" y1="109" x2="780" y2="109" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="620" y1="116" x2="780" y2="116" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="620" y1="123" x2="780" y2="123" stroke="#7C3AED" stroke-width="1.5" />
+  </g>
+</svg>

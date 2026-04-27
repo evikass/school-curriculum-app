@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFBEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FED7AA;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9A3412;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EA580C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EA580C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D97706;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" floodColor="#9A3412" floodOpacity="0.2" />
+    </filter>
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" floodColor="#000" floodOpacity="0.15" />
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#EA580C" strokeWidth="2" rx="8" />
+  <rect x="14" y="14" width="772" height="572" fill="none" stroke="#D97706" strokeWidth="1" rx="6" strokeDasharray="8,4" />
+  <rect x="20" y="16" width="760" height="60" fill="url(#titleGrad)" rx="6" filter="url(#shadow)" />
+  <text x="400" y="48" fill="white" fontSize="22" fontWeight="bold" textAnchor="middle" fontFamily="serif">Архитектура</text>
+  <text x="400" y="68" fill="#FED7AA" fontSize="12" textAnchor="middle" fontFamily="sans-serif">Стили, элементы, великие здания</text>
+  <circle cx="35" cy="46" r="6" fill="#D97706" opacity="0.6" />
+  <circle cx="765" cy="46" r="6" fill="#D97706" opacity="0.6" />
+  <circle cx="52" cy="100" r="18" fill="#EA580C" filter="url(#softShadow)" />
+  <text x="52" y="106" fill="white" fontSize="16" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">8</text>
+  <rect x="580" y="160" width="40" height="130" fill="#D4C5A9" stroke="#78716C" strokeWidth="1" />
+  <rect x="572" y="150" width="56" height="12" fill="#E5E7EB" stroke="#78716C" strokeWidth="1" />
+  <rect x="572" y="290" width="56" height="10" fill="#E5E7EB" stroke="#78716C" strokeWidth="1" />
+  <rect x="565" y="140" width="70" height="10" fill="#D4C5A9" stroke="#78716C" strokeWidth="1" />
+  <polygon points="565,140 600,110 635,140" fill="#E5E7EB" stroke="#78716C" strokeWidth="1" />
+  <text x="600" y="320" fill="#78350F" fontSize="9" textAnchor="middle" fontFamily="sans-serif">Ордер</text>
+  <polygon points="680,120 660,290 700,290" fill="#A8A29E" stroke="#78716C" strokeWidth="1" />
+  <rect x="660" y="290" width="40" height="10" fill="#78716C" />
+  <polygon points="680,70 675,120 685,120" fill="#D4C5A9" stroke="#78716C" strokeWidth="0.5" />
+  <path d="M680,220 Q674,250 677,270 L683,270 Q686,250 680,220" fill="#7DD3FC" opacity="0.5" />
+  <text x="680" y="320" fill="#78350F" fontSize="9" textAnchor="middle" fontFamily="sans-serif">Готика</text>
+  <rect x="730" y="220" width="45" height="80" fill="#D4C5A9" stroke="#78716C" strokeWidth="1" />
+  <path d="M730,220 Q752,170 775,220" fill="#D97706" opacity="0.5" stroke="#78716C" strokeWidth="1" />
+  <text x="752" y="320" fill="#78350F" fontSize="9" textAnchor="middle" fontFamily="sans-serif">Купол</text>
+  <rect x="30" y="90" width="240" height="155" fill="white" stroke="#EA580C" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="30" y="90" width="240" height="26" fill="#EA580C" rx="6" />
+  <rect x="30" y="108" width="240" height="8" fill="#EA580C" />
+  <text x="150" y="108" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Архитектурные стили</text>
+  <circle cx="44" cy="124" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="128" fill="#78350F" fontSize="11" fontFamily="sans-serif">Античность — ордера, храмы</text>
+  <circle cx="44" cy="141" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="145" fill="#78350F" fontSize="11" fontFamily="sans-serif">Романский — массив, толщина</text>
+  <circle cx="44" cy="158" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="162" fill="#78350F" fontSize="11" fontFamily="sans-serif">Готика — стрельчатые арки</text>
+  <circle cx="44" cy="175" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="179" fill="#78350F" fontSize="11" fontFamily="sans-serif">Ренессанс — гармония, симметрия</text>
+  <circle cx="44" cy="192" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="196" fill="#78350F" fontSize="11" fontFamily="sans-serif">Барокко — пышность, динамика</text>
+  <circle cx="44" cy="209" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="213" fill="#78350F" fontSize="11" fontFamily="sans-serif">Классицизм — порядок, колонны</text>
+  <rect x="30" y="260" width="240" height="130" fill="white" stroke="#D97706" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="30" y="260" width="240" height="26" fill="#D97706" rx="6" />
+  <rect x="30" y="278" width="240" height="8" fill="#D97706" />
+  <text x="150" y="278" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Элементы здания</text>
+  <circle cx="44" cy="294" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="298" fill="#78350F" fontSize="11" fontFamily="sans-serif">Фундамент — основание</text>
+  <circle cx="44" cy="311" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="315" fill="#78350F" fontSize="11" fontFamily="sans-serif">Колонна — вертикальная опора</text>
+  <circle cx="44" cy="328" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="332" fill="#78350F" fontSize="11" fontFamily="sans-serif">Арка — криволинейное перекрытие</text>
+  <circle cx="44" cy="345" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="349" fill="#78350F" fontSize="11" fontFamily="sans-serif">Купол — сводчатое покрытие</text>
+  <circle cx="44" cy="362" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="366" fill="#78350F" fontSize="11" fontFamily="sans-serif">Фронтон — треугольная деталь</text>
+  <rect x="290" y="90" width="250" height="155" fill="white" stroke="#1E40AF" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="290" y="90" width="250" height="26" fill="#1E40AF" rx="6" />
+  <rect x="290" y="108" width="250" height="8" fill="#1E40AF" />
+  <text x="415" y="108" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Знаменитые здания</text>
+  <circle cx="304" cy="124" r="3" fill="#1E40AF" opacity="0.6" />
+  <text x="312" y="128" fill="#78350F" fontSize="11" fontFamily="sans-serif">Парфенон (Афины, 447 до н.э.)</text>
+  <circle cx="304" cy="141" r="3" fill="#1E40AF" opacity="0.6" />
+  <text x="312" y="145" fill="#78350F" fontSize="11" fontFamily="sans-serif">Колизей (Рим, 80 н.э.)</text>
+  <circle cx="304" cy="158" r="3" fill="#1E40AF" opacity="0.6" />
+  <text x="312" y="162" fill="#78350F" fontSize="11" fontFamily="sans-serif">Нотр-Дам (Париж, 1345)</text>
+  <circle cx="304" cy="175" r="3" fill="#1E40AF" opacity="0.6" />
+  <text x="312" y="179" fill="#78350F" fontSize="11" fontFamily="sans-serif">Собор Св. Петра (Рим, 1626)</text>
+  <circle cx="304" cy="192" r="3" fill="#1E40AF" opacity="0.6" />
+  <text x="312" y="196" fill="#78350F" fontSize="11" fontFamily="sans-serif">Тадж-Махал (Индия, 1653)</text>
+  <circle cx="304" cy="209" r="3" fill="#1E40AF" opacity="0.6" />
+  <text x="312" y="213" fill="#78350F" fontSize="11" fontFamily="sans-serif">Кремль (Москва, XV в.)</text>
+  <rect x="290" y="260" width="250" height="130" fill="white" stroke="#B45309" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="290" y="260" width="250" height="26" fill="#B45309" rx="6" />
+  <rect x="290" y="278" width="250" height="8" fill="#B45309" />
+  <text x="415" y="278" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Русская архитектура</text>
+  <circle cx="304" cy="294" r="3" fill="#B45309" opacity="0.6" />
+  <text x="312" y="298" fill="#78350F" fontSize="11" fontFamily="sans-serif">Белокаменное зодчество</text>
+  <circle cx="304" cy="311" r="3" fill="#B45309" opacity="0.6" />
+  <text x="312" y="315" fill="#78350F" fontSize="11" fontFamily="sans-serif">Шатровые храмы (XVI в.)</text>
+  <circle cx="304" cy="328" r="3" fill="#B45309" opacity="0.6" />
+  <text x="312" y="332" fill="#78350F" fontSize="11" fontFamily="sans-serif">Нарышкинское барокко</text>
+  <circle cx="304" cy="345" r="3" fill="#B45309" opacity="0.6" />
+  <text x="312" y="349" fill="#78350F" fontSize="11" fontFamily="sans-serif">Псевдорусский стиль (XIX в.)</text>
+  <circle cx="304" cy="362" r="3" fill="#B45309" opacity="0.6" />
+  <text x="312" y="366" fill="#78350F" fontSize="11" fontFamily="sans-serif">Конструктивизм (XX в.)</text>
+  <text x="400" y="420" fill="#9A3412" fontSize="13" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Хронология стилей</text>
+  <rect x="50" y="440" width="700" height="3" fill="#EA580C" opacity="0.4" />
+  <circle cx="80" cy="441" r="6" fill="#8B4513" />
+  <text x="80" y="462" fill="#431407" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Античн.</text>
+  <circle cx="200" cy="441" r="6" fill="#A0522D" />
+  <text x="200" y="462" fill="#431407" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Роман.</text>
+  <circle cx="310" cy="441" r="6" fill="#78350F" />
+  <text x="310" y="462" fill="#431407" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Готика</text>
+  <circle cx="420" cy="441" r="6" fill="#D97706" />
+  <text x="420" y="462" fill="#431407" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Ренесс.</text>
+  <circle cx="530" cy="441" r="6" fill="#B45309" />
+  <text x="530" y="462" fill="#431407" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Барокко</text>
+  <circle cx="640" cy="441" r="6" fill="#EA580C" />
+  <text x="640" y="462" fill="#431407" fontSize="9" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Класс.</text>
+  <rect x="100" y="480" width="600" height="55" fill="white" stroke="#D97706" strokeWidth="1.5" rx="6" />
+  <text x="400" y="500" fill="#9A3412" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Формула Витрувия: «Прочность, Польза, Красота»</text>
+  <text x="400" y="520" fill="#78350F" fontSize="10" textAnchor="middle" fontFamily="sans-serif">Firmitas, Utilitas, Venustas — три начала архитектуры</text>
+  <rect x="20" y="570" width="760" height="22" fill="#9A3412" rx="4" opacity="0.8" />
+  <text x="400" y="585" fill="#FED7AA" fontSize="11" textAnchor="middle" fontFamily="sans-serif">ИЗО · 8 класс</text>
+  <ellipse cx="48" cy="581" rx="8" ry="5.6" fill="#B45309" opacity="0.8" />
+  <circle cx="40" cy="578" r="3" fill="#EF4444" />
+  <circle cx="48" cy="574" r="3" fill="#3B82F6" />
+  <circle cx="56" cy="578" r="3" fill="#EAB308" />
+  <circle cx="43" cy="586" r="3" fill="#22C55E" />
+  <circle cx="53" cy="586" r="3" fill="#8B5CF6" />
+</svg>

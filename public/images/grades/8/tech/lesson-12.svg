@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#92400E" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#B45309" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="800" height="4" fill="#B45309" rx="2"/>
+
+  <!-- Header -->
+  <rect x="20" y="15" width="760" height="60" rx="8" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="40" y="50" font-size="14" fill="#FCD34D" font-weight="bold">Урок 12</text>
+  <text x="130" y="50" font-size="20" fill="#FFFFFF" font-weight="bold">Современные технологии в промышленности</text>
+    <text x="780" y="55" font-size="13" fill="#F59E0B" text-anchor="end" font-style="italic">ЧПУ, 3D-печать, автоматизация</text>
+
+  <!-- Technology icons - modern grid -->
+  <!-- CNC Machine -->
+  <rect x="30" y="95" width="180" height="130" rx="8" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="30" y="95" width="180" height="28" rx="8" fill="#2563EB"/>
+  <rect x="30" y="117" width="180" height="6" fill="#2563EB"/>
+  <text x="120" y="115" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ЧПУ-станок</text>
+  <!-- CNC illustration -->
+  <rect x="50" y="133" width="60" height="40" fill="#E5E7EB" stroke="#6B7280" stroke-width="1"/>
+  <rect x="60" y="138" width="40" height="30" fill="#D1D5DB" stroke="#6B7280" stroke-width="0.5"/>
+  <line x1="80" y1="143" x2="80" y2="163" stroke="#DC2626" stroke-width="1.5"/>
+  <circle cx="80" cy="143" r="3" fill="#DC2626"/>
+  <rect x="120" y="133" width="70" height="40" fill="#F3F4F6" stroke="#6B7280" stroke-width="0.5"/>
+  <text x="155" y="148" font-size="8" fill="#6B7280" text-anchor="middle">G-код</text>
+  <text x="155" y="160" font-size="7" fill="#6B7280" text-anchor="middle">X12 Y34 Z5</text>
+  <text x="50" y="192" font-size="9" fill="#78350F">Высокая точность</text>
+  <text x="50" y="204" font-size="9" fill="#78350F">до 0.01 мм</text>
+  
+  <!-- 3D Printing -->
+  <rect x="225" y="95" width="180" height="130" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="225" y="95" width="180" height="28" rx="8" fill="#059669"/>
+  <rect x="225" y="117" width="180" height="6" fill="#059669"/>
+  <text x="315" y="115" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3D-печать</text>
+  <!-- 3D printer illustration -->
+  <rect x="260" y="133" width="50" height="50" fill="none" stroke="#6B7280" stroke-width="1.5"/>
+  <rect x="270" y="165" width="30" height="5" fill="#86EFAC" stroke="#059669" stroke-width="0.5"/>
+  <rect x="268" y="158" width="34" height="8" fill="#86EFAC" stroke="#059669" stroke-width="0.5"/>
+  <line x1="285" y1="133" x2="285" y2="158" stroke="#6B7280" stroke-width="1"/>
+  <text x="325" y="152" font-size="8" fill="#6B7280">PLA/ABS</text>
+  <text x="325" y="164" font-size="8" fill="#6B7280">Слой за слоем</text>
+  <text x="245" y="192" font-size="9" fill="#78350F">Аддитивная технология</text>
+  <text x="245" y="204" font-size="9" fill="#78350F">Сложные формы</text>
+  
+  <!-- Laser cutting -->
+  <rect x="420" y="95" width="180" height="130" rx="8" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="420" y="95" width="180" height="28" rx="8" fill="#DC2626"/>
+  <rect x="420" y="117" width="180" height="6" fill="#DC2626"/>
+  <text x="510" y="115" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Лазерная резка</text>
+  <!-- Laser illustration -->
+  <rect x="445" y="140" width="60" height="40" fill="none" stroke="#6B7280" stroke-width="1"/>
+  <line x1="475" y1="140" x2="475" y2="170" stroke="#DC2626" stroke-width="1.5"/>
+  <circle cx="475" cy="175" r="3" fill="#DC2626" opacity="0.7"/>
+  <text x="515" y="152" font-size="8" fill="#6B7280">CO₂ лазер</text>
+  <text x="515" y="164" font-size="8" fill="#6B7280">10600 нм</text>
+  <text x="440" y="192" font-size="9" fill="#78350F">Точность 0.1 мм</text>
+  <text x="440" y="204" font-size="9" fill="#78350F">Листовой материал</text>
+  
+  <!-- Robotics -->
+  <rect x="615" y="95" width="165" height="130" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="615" y="95" width="165" height="28" rx="8" fill="#F59E0B"/>
+  <rect x="615" y="117" width="165" height="6" fill="#F59E0B"/>
+  <text x="697" y="115" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Робототехника</text>
+  <!-- Robot arm -->
+  <line x1="670" y1="180" x2="700" y2="155" stroke="#6B7280" stroke-width="3"/>
+  <line x1="700" y1="155" x2="730" y2="170" stroke="#6B7280" stroke-width="3"/>
+  <circle cx="670" cy="180" r="5" fill="#D97706"/>
+  <circle cx="700" cy="155" r="4" fill="#D97706"/>
+  <rect x="660" y="183" width="20" height="20" fill="#9CA3AF" stroke="#6B7280" stroke-width="1"/>
+  <text x="635" y="192" font-size="9" fill="#78350F">Автоматизация</text>
+  <text x="635" y="204" font-size="9" fill="#78350F">процессов</text>
+  
+  <!-- Detailed info -->
+    <rect x="25" y="240" width="250" height="140" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="240" width="250" height="26" rx="6" fill="#2563EB"/>
+  <rect x="25" y="260" width="250" height="6" fill="#2563EB"/>
+  <text x="150" y="258" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ЧПУ-обработка</text>
+  <text x="37" y="280" font-size="12" fill="#78350F">• CNC — Computer Numerical Control</text>
+  <text x="37" y="300" font-size="12" fill="#78350F">• Фрезерные, токарные, сверлильные</text>
+  <text x="37" y="320" font-size="12" fill="#78350F">• Управление через G-код</text>
+  <text x="37" y="340" font-size="12" fill="#78350F">• Точность до 0.01 мм</text>
+  <text x="37" y="360" font-size="12" fill="#78350F">• Повторяемость изделий</text>
+  
+    <rect x="290" y="240" width="250" height="140" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="290" y="240" width="250" height="26" rx="6" fill="#059669"/>
+  <rect x="290" y="260" width="250" height="6" fill="#059669"/>
+  <text x="415" y="258" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3D-печать: технологии</text>
+  <text x="302" y="280" font-size="12" fill="#78350F">• FDM — послойное наплавление</text>
+  <text x="302" y="300" font-size="12" fill="#78350F">• SLA — стереолитография (ультрафиолет)</text>
+  <text x="302" y="320" font-size="12" fill="#78350F">• SLS — селективное спекание</text>
+  <text x="302" y="340" font-size="12" fill="#78350F">• Материалы: PLA, ABS, нейлон</text>
+  <text x="302" y="360" font-size="12" fill="#78350F">• Металлическая печать (DMLS)</text>
+  
+    <rect x="555" y="240" width="225" height="140" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="555" y="240" width="225" height="26" rx="6" fill="#F59E0B"/>
+  <rect x="555" y="260" width="225" height="6" fill="#F59E0B"/>
+  <text x="667" y="258" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Индустрия 4.0</text>
+  <text x="567" y="280" font-size="12" fill="#78350F">• IoT — интернет вещей</text>
+  <text x="567" y="300" font-size="12" fill="#78350F">• ИИ — искусственный интеллект</text>
+  <text x="567" y="320" font-size="12" fill="#78350F">• Big Data — большие данные</text>
+  <text x="567" y="340" font-size="12" fill="#78350F">• Облачные вычисления</text>
+  <text x="567" y="360" font-size="12" fill="#78350F">• Цифровые двойники</text>
+  
+    <rect x="25" y="395" width="750" height="50" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" filter="url(#shadow)"/>
+  <text x="37" y="415" font-size="12" fill="#78350F" font-weight="bold">🏭 CAD (проектирование) → CAM (подготовка программы) → ЧПУ (изготовление) — цифровая цепочка</text>
+  <text x="37" y="433" font-size="12" fill="#78350F" font-weight="bold">Современное производство: от идеи до изделия без бумажных чертежей!</text>
+  
+  <!-- Industry comparison -->
+    <rect x="25" y="460" width="370" height="120" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="460" width="370" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="480" width="370" height="6" fill="#B45309"/>
+  <text x="210" y="478" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Эволюция производства</text>
+  <text x="37" y="500" font-size="12" fill="#78350F">• 1.0 — паровые машины (XVIII в.)</text>
+  <text x="37" y="520" font-size="12" fill="#78350F">• 2.0 — конвейер, электричество (XX в.)</text>
+  <text x="37" y="540" font-size="12" fill="#78350F">• 3.0 — компьютеры, автоматизация (1970-е)</text>
+  <text x="37" y="560" font-size="12" fill="#78350F">• 4.0 — IoT, ИИ, роботы (сейчас)</text>
+  
+    <rect x="410" y="460" width="365" height="120" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="410" y="460" width="365" height="26" rx="6" fill="#B45309"/>
+  <rect x="410" y="480" width="365" height="6" fill="#B45309"/>
+  <text x="592" y="478" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Преимущества современных технологий</text>
+  <text x="422" y="500" font-size="12" fill="#78350F">• Высокая точность и повторяемость</text>
+  <text x="422" y="520" font-size="12" fill="#78350F">• Сокращение отходов материала</text>
+  <text x="422" y="540" font-size="12" fill="#78350F">• Быстрое прототипирование</text>
+  <text x="422" y="560" font-size="12" fill="#78350F">• Гибкая настройка на новое изделие</text>
+  </svg>
