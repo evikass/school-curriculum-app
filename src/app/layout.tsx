@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Nunito } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import VKBridge from "@/components/VKBridge";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,15 +27,17 @@ export const metadata: Metadata = {
   description: "Интерактивная школьная программа для классов 0-11 с уроками и мини-играми по всем предметам.",
   keywords: ["школа", "уроки", "образование", "мини-игры", "учеба", "онлайн обучение", "ИНЕТШКОЛА"],
   authors: [{ name: "ИНЕТШКОЛА" }],
-  manifest: "/school-curriculum-app/manifest.json",
+  // Для GitHub Pages — basePath, для Capacitor — без префикса
+  // Next.js подставит basePath автоматически из next.config.ts
+  manifest: "/manifest.json",
   icons: {
     icon: [
-      { url: "/school-curriculum-app/favicon.png", sizes: "192x192", type: "image/png" },
-      { url: "/school-curriculum-app/icon-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/school-curriculum-app/icon-512.png", sizes: "512x512", type: "image/png" },
+      { url: "/favicon.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: [
-      { url: "/school-curriculum-app/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
     ],
   },
   openGraph: {
@@ -71,6 +74,7 @@ export default function RootLayout({
         {children}
         <Toaster />
         <VKBridge />
+        <Script src="/sw-register.js" strategy="afterInteractive" />
       </body>
     </html>
   );

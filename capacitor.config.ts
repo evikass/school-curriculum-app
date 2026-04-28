@@ -20,6 +20,7 @@ const config: CapacitorConfig = {
   },
   android: {
     allowMixedContent: true,
+    // Разрешаем загрузку контента с GitHub Pages для обновлений
   },
 };
 
