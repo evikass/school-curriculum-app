@@ -623,15 +623,58 @@ export function generateLessonQuiz(lessonTitle: string, lessonDescription: strin
   const descLower = lessonDescription.toLowerCase()
   const subjectLower = subjectTitle.toLowerCase()
 
+  // Предметы, для которых НЕ применяются определенные тесты
+  // (чтобы избежать ложных срабатываний: например, «письмо» в контексте живописи)
+  const subjectExclusions: Record<string, string[]> = {
+    'изо': ['письмо', 'подготовка к письму'],
+    'искусство': ['письмо', 'подготовка к письму'],
+    'живопись': ['письмо', 'подготовка к письму'],
+    'музыка': ['письмо', 'подготовка к письму'],
+    'литература': ['письмо', 'подготовка к письму'],
+    'история': ['письмо', 'подготовка к письму'],
+    'биология': ['письмо', 'подготовка к письму'],
+    'физика': ['письмо', 'подготовка к письму'],
+    'химия': ['письмо', 'подготовка к письму'],
+    'география': ['письмо', 'подготовка к письму'],
+    'математика': ['письмо', 'подготовка к письму'],
+    'алгебра': ['письмо', 'подготовка к письму'],
+    'геометрия': ['письмо', 'подготовка к письму'],
+    'информатика': ['письмо', 'подготовка к письму'],
+    'физкультура': ['письмо', 'подготовка к письму'],
+    'технология': ['письмо', 'подготовка к письму'],
+    'экология': ['письмо', 'подготовка к письму'],
+    'робототехника': ['письмо', 'подготовка к письму'],
+    'программирование': ['письмо', 'подготовка к письму'],
+    'астрономия': ['письмо', 'подготовка к письму'],
+    'экономика': ['письмо', 'подготовка к письму'],
+    'обществознание': ['письмо', 'подготовка к письму'],
+    'право': ['письмо', 'подготовка к письму'],
+    'офицер': ['письмо', 'подготовка к письму'],
+    'нвп': ['письмо', 'подготовка к письму'],
+    'обж': ['письмо', 'подготовка к письму'],
+    'психология': ['письмо', 'подготовка к письму'],
+    'профориентация': ['письмо', 'подготовка к письму'],
+  }
+
+  // Определяем исключения для текущего предмета
+  const excludedTopics: Set<string> = new Set()
+  for (const [subj, topics] of Object.entries(subjectExclusions)) {
+    if (subjectLower.includes(subj)) {
+      topics.forEach(t => excludedTopics.add(t))
+    }
+  }
+
   // Ищем подходящую тему в базе старших классов
   let matchingTasks: LessonTask[] | null = null
 
   for (const [topic, taskSets] of Object.entries(seniorQuizDatabase)) {
+    // Пропускаем если тема исключена для данного предмета
+    if (excludedTopics.has(topic)) continue
     const topicLower = topic.toLowerCase()
 
     // Проверяем совпадение по названию урока или описанию
     if (titleLower.includes(topicLower) || topicLower.includes(titleLower) ||
-        descLower.includes(topicLower) || subjectLower.includes(topicLower)) {
+        descLower.includes(topicLower)) {
       // Берём случайный набор вопросов
       matchingTasks = taskSets[Math.floor(Math.random() * taskSets.length)]
       break
@@ -641,10 +684,12 @@ export function generateLessonQuiz(lessonTitle: string, lessonDescription: strin
   // Если не нашли в старших - ищем в младших
   if (!matchingTasks) {
     for (const [topic, taskSets] of Object.entries(quizDatabase)) {
+      // Пропускаем если тема исключена для данного предмета
+      if (excludedTopics.has(topic)) continue
       const topicLower = topic.toLowerCase()
 
       if (titleLower.includes(topicLower) || topicLower.includes(titleLower) ||
-          descLower.includes(topicLower) || subjectLower.includes(topicLower)) {
+          descLower.includes(topicLower)) {
         matchingTasks = taskSets[Math.floor(Math.random() * taskSets.length)]
         break
       }
@@ -678,7 +723,8 @@ export function generateLessonQuiz(lessonTitle: string, lessonDescription: strin
       'слов': 'слова',
       'реч': 'развитие речи',
       'чита': 'чтение',
-      'письм': 'письмо',
+      'письменн': 'письмо',
+      'письмо ': 'письмо',
       'математик': 'математика',
       'сравн': 'сравнение',
       // Старшие классы
@@ -734,6 +780,9 @@ export function generateLessonQuiz(lessonTitle: string, lessonDescription: strin
     }
 
     for (const [keyword, topic] of Object.entries(keywords)) {
+      // Пропускаем если тема исключена для данного предмета
+      if (excludedTopics.has(topic)) continue
+
       if (titleLower.includes(keyword) || descLower.includes(keyword)) {
         // Сначала ищем в старших
         const seniorTaskSets = seniorQuizDatabase[topic]
