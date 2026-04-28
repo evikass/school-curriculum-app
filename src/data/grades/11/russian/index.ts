@@ -506,7 +506,7 @@ export const games: GameLesson[] = [
     icon: "BookOpen",
     color: "text-red-400",
     tasks: [
-      { type: 'quiz', question: "Ударение в слове «звонит»:", options: ["звОнит", "—", "—", "—", "—"], correctAnswer: "звонИт", hint: "Орфоэпическая норма" },
+      { type: 'quiz', question: "Ударение в слове «звонит»:", options: ["звОнит", "звонИт", "ЗвонИт", "ЗВОнит", "Не знаю"], correctAnswer: "звонИт", hint: "Орфоэпическая норма" },
       { type: 'quiz', question: "Ударение в слове «торты» — т__рты", options: ["А", "Е", "Ы", "О", "И"], correctAnswer: "О", hint: "Только тОрты!" },
       { type: 'quiz', question: "«Свободная вакансия» — это:", options: ["Правильно", "Плеоназм", "Тавтология", "Норма", "—"], correctAnswer: "Плеоназм", hint: "Вакансия = свободное место" },
       { type: 'quiz', question: "«Надеть» или «одеть» одежду?", options: ["Надеть", "Одетъ", "Оба верно", "—", "—"], correctAnswer: "Надеть", hint: "Надеть что-то, одеть кого-то" },

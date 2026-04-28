@@ -98,7 +98,7 @@ export const secondGradeGames: GameLesson[] = [
       { type: 'quiz', question: "6 ÷ 2 = ?", options: ["2", "3", "4", "1", "5"], correctAnswer: "3", hint: "6 разделить на 2 части" },
       { type: 'quiz', question: "10 ÷ 5 = ?", options: ["1", "2", "5", "3", "4"], correctAnswer: "2", hint: "10 разделить на 5" },
       { type: 'quiz', question: "8 ÷ 4 = ?", options: ["2", "3", "4", "1", "5"], correctAnswer: "2", hint: "8 разделить на 4" },
-      { type: 'quiz', question: "12 ÷  = 3", options: ["6", "3", "5", "2", "8"], correctAnswer: "4", hint: "На сколько разделить 12?" },
+      { type: 'quiz', question: "12 ÷ ? = 3", options: ["6", "3", "5", "2", "4"], correctAnswer: "4", hint: "На сколько разделить 12?" },
       { type: 'quiz', question: "9 ÷ 3 = ?", options: ["2", "3", "4", "1", "5"], correctAnswer: "3", hint: "9 разделить на 3" }
     ],
     reward: { stars: 3, message: "Замечательно! Ты изучаешь деление! ➗" }

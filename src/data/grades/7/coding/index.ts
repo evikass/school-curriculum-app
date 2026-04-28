@@ -807,7 +807,7 @@ export const games = [
         "break — выход из цикла, continue — пропуск итерации",
       ], correctAnswer: "Генерирует числа 0, 1, 2, 3, 4", hint: "От 0 до n-1" },
       { type: 'quiz', question: "Сколько чисел создаст range(1, 6)?", options: ["5", "6", "4", "7", "Другой ответ"], correctAnswer: "5", hint: "Числа: 1, 2, 3, 4, 5" },
-      { type: 'quiz', question: "Как перебрать символы строки в Python?", options: ["for letter in", "for i in len(str)", "for char of", "while True", "for i in range()"], correctAnswer: "for letter in 'Hello'", hint: "Цикл for с переменной и строкой" },
+      { type: 'quiz', question: "Как перебрать символы строки в Python?", options: ["for letter in", "for i in len(str)", "for char of", "while True", "for i in range()"], correctAnswer: "for letter in", hint: "Цикл for с переменной и строкой" },
       { type: 'quiz', question: "Что выведет цикл: for i in range(3): print(i)?", options: ["1, 2, 3", "0, 1, 2", "0, 1, 2, 3", "3, 2, 1", "Другой ответ"], correctAnswer: "0, 1, 2", hint: "range(3) даёт числа от 0 до 2" },
       { type: 'quiz', question: "Какие числа сгенерирует range(0, 10, 2)?", options: ["0, 1, 2, 3, 4, 5", "0, 2, 4, 6, 8", "2, 4, 6, 8, 10", "1, 3, 5, 7, 9", "Другой ответ"], correctAnswer: "0, 2, 4, 6, 8", hint: "Третий параметр — шаг" }
     ],

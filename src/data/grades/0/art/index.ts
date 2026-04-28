@@ -1134,7 +1134,7 @@ export const games: GameLesson[] = [
         type: 'quiz',
         question: "Чем разводят акварельные краски?",
         options: ["Маслом", "Водой", "Клеем", "Сахаром", "Не знаю"],
-        correctAnswer: "Вода",
+        correctAnswer: "Водой",
         hint: "Акварель разводят водой"
       },
       {
