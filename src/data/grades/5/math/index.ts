@@ -1900,10 +1900,10 @@ export const games: GameLesson[] = [
     color: "text-blue-400",
     tasks: [
       {
-        type: 'quiz',
+        type: 'order',
         question: "Расставь числа по возрастанию:",
         options: ["4567", "2345", "6789", "1234", "5678"],
-        correctAnswer: 'Правильный порядок',
+        correctAnswer: "1234, 2345, 4567, 5678, 6789",
         hint: "От меньшего к большему"
       },
       {
@@ -1951,10 +1951,10 @@ export const games: GameLesson[] = [
         hint: "Правильная: числитель < знаменателя"
       },
       {
-        type: 'quiz',
+        type: 'order',
         question: "Расставь дроби по возрастанию:",
         options: ["5/9", "2/9", "7/9", "3/9", "1/9"],
-        correctAnswer: 'Правильный порядок',
+        correctAnswer: "1/9, 2/9, 3/9, 5/9, 7/9",
         hint: "Сравнивай числители"
       }
     ],
