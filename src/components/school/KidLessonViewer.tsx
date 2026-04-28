@@ -504,7 +504,7 @@ export default function KidLessonViewer() {
         
         {showPeriodicTable && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm overflow-y-auto">
-            <div className="w-full max-w-7xl my-8 mt-20 sm:my-8 relative">
+            <div className="w-full max-w-7xl mt-28 sm:my-8 relative">
               <button
                 onClick={() => setShowPeriodicTable(false)}
                 className="absolute -top-2 -right-2 z-10 p-3 bg-red-500 hover:bg-red-600 rounded-full text-white shadow-lg"
