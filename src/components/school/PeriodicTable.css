@@ -1,0 +1,9 @@
+/* Hide scrollbars in PeriodicTable — touch/trackpad scroll is sufficient */
+.pt-no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.pt-no-scrollbar::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}

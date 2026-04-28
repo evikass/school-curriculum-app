@@ -1,5 +1,8 @@
 'use client'
 
+/* Hide scrollbars in PeriodicTable — touch scroll is enough on mobile */
+import './PeriodicTable.css'
+
 import { useState, useMemo, useRef, Suspense, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, Atom, FlaskConical, Zap, Globe, Clock, User, MapPin, Lightbulb, Sparkles, Gamepad2 } from 'lucide-react'
@@ -2112,7 +2115,7 @@ function PeriodicTableBuildGame({ onClose }: { onClose: () => void }) {
       </div>
 
       {/* ТАБЛИЦА (пустые ячейки кликабельны) */}
-      <div className="relative overflow-x-auto mb-4 sm:mb-6 -mx-2 px-2">
+      <div className="relative overflow-x-auto mb-4 sm:mb-6 -mx-2 px-2 pt-no-scrollbar">
         <div
           className="grid gap-0.5 sm:gap-1 text-center min-w-[600px] sm:min-w-[800px]"
           style={{ gridTemplateColumns: 'repeat(18, minmax(32px, 1fr))', gridTemplateRows: 'repeat(7, 40px)' }}
@@ -2395,7 +2398,7 @@ function PeriodicTableDetectiveGame({ onClose }: { onClose: () => void }) {
       </div>
 
       {/* Periodic Table Grid */}
-      <div className="relative overflow-x-auto -mx-2 px-2">
+      <div className="relative overflow-x-auto -mx-2 px-2 pt-no-scrollbar">
         <div
           className="grid gap-0.5 sm:gap-1 text-center min-w-[600px] sm:min-w-[700px]"
           style={{ gridTemplateColumns: 'repeat(18, minmax(28px, 1fr))', gridTemplateRows: 'repeat(7, 36px)' }}
@@ -2560,7 +2563,7 @@ export default function PeriodicTable({ onClose }: Props) {
       </div>
 
       {/* Periodic Table Grid */}
-      <div className="overflow-x-auto pb-4">
+      <div className="overflow-x-auto pb-4 pt-no-scrollbar">
         <div className="grid gap-0.5 min-w-[1200px]" style={{ gridTemplateColumns: 'repeat(18, minmax(48px, 1fr))', gridTemplateRows: 'repeat(10, auto)' }}>
           {elements.map((el) => {
             const pos = getElementPosition(el)
@@ -2596,7 +2599,7 @@ export default function PeriodicTable({ onClose }: Props) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-start justify-center bg-black/70 backdrop-blur-sm overflow-y-auto"
+            className="fixed inset-0 z-50 flex items-start justify-center bg-black/70 backdrop-blur-sm overflow-y-auto pt-no-scrollbar"
             onClick={() => setSelectedElement(null)}
             style={{ paddingTop: 'env(safe-area-inset-top, 10px)', paddingBottom: 'env(safe-area-inset-bottom, 10px)' }}
           >
@@ -2653,7 +2656,7 @@ export default function PeriodicTable({ onClose }: Props) {
               </div>
 
               {/* Content */}
-              <div className="p-3 sm:p-4 space-y-3 max-h-[50vh] overflow-y-auto">
+              <div className="p-3 sm:p-4 space-y-3 max-h-[50vh] overflow-y-auto pt-no-scrollbar">
                 {/* Discovery */}
                 {selectedElement.discoveredBy && (
                   <div className="bg-white/5 rounded-lg p-2 sm:p-3 border border-white/10">
@@ -2732,7 +2735,7 @@ export default function PeriodicTable({ onClose }: Props) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 overflow-y-auto bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900"
+            className="fixed inset-0 z-50 overflow-y-auto pt-no-scrollbar bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900"
             onClick={() => setShowGame(false)}
           >
             {/* Animated Background */}
@@ -2776,7 +2779,7 @@ export default function PeriodicTable({ onClose }: Props) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 overflow-y-auto bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900"
+            className="fixed inset-0 z-50 overflow-y-auto pt-no-scrollbar bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900"
             onClick={() => setShowMemoryGame(false)}
           >
             {/* Animated Background */}
@@ -2820,7 +2823,7 @@ export default function PeriodicTable({ onClose }: Props) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 overflow-y-auto bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900"
+            className="fixed inset-0 z-50 overflow-y-auto pt-no-scrollbar bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900"
             onClick={() => setShowBuildGame(false)}
           >
             {/* Animated Background */}
@@ -2864,7 +2867,7 @@ export default function PeriodicTable({ onClose }: Props) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 overflow-y-auto bg-gradient-to-br from-indigo-900 via-cyan-900 to-blue-900"
+            className="fixed inset-0 z-50 overflow-y-auto pt-no-scrollbar bg-gradient-to-br from-indigo-900 via-cyan-900 to-blue-900"
             onClick={() => setShowDetectiveGame(false)}
           >
             {/* Animated Background */}
