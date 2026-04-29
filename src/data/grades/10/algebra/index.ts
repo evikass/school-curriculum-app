@@ -790,7 +790,7 @@ export const games = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "³√125 = ?", options: ["3", "5", "25", "15", "—"],
+      { type: 'quiz', question: "³√125 = ?", options: ["3", "5", "25", "15", "0"],
       keyPoints: [
         "Корень n-й степени из a — число x, такое что x^n = a",
         "Арифметический корень чётной степени определён только для неотрицательных чисел",
@@ -802,9 +802,9 @@ export const games = [
         "(³√8)² = ³√(8²) = ³√64 = 4 — корень в степени равен корню из числа в этой степени",
         "√(x + 3) = 5, тогда x + 3 = 25 и x = 22 — решение иррационального уравнения",
       ], correctAnswer: "5", hint: "5³ = 125" },
-      { type: 'quiz', question: "⁴√81 = ?", options: ["3", "9", "27", "81", "—"], correctAnswer: "3", hint: "3⁴ = 81" },
+      { type: 'quiz', question: "⁴√81 = ?", options: ["3", "9", "27", "81", "4"], correctAnswer: "3", hint: "3⁴ = 81" },
       { type: 'quiz', question: "³√(27 × 8) = ³√27 × ³√8 = 2 × ?", options: ["2", "3", "4", "6", "9"], correctAnswer: "3", hint: "³√27 = ?" },
-      { type: 'quiz', question: "√(x - 2) = 3. x = ?", options: ["5", "7", "11", "9", "—"], correctAnswer: "11", hint: "x - 2 = 9" }
+      { type: 'quiz', question: "√(x - 2) = 3. x = ?", options: ["5", "7", "11", "9", "13"], correctAnswer: "11", hint: "x - 2 = 9" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь корни n-й степени! 🔢" }
   },
@@ -814,7 +814,7 @@ export const games = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "27^(2/3) = ?", options: ["3", "9", "27", "81", "—"],
+      { type: 'quiz', question: "27^(2/3) = ?", options: ["3", "9", "27", "81", "-1"],
       keyPoints: [
         "a^(m/n) = корень n-й степени из a^m",
         "Степени с рациональными показателями сохраняют все свойства целых степеней",
@@ -826,9 +826,9 @@ export const games = [
         "2^(1/2) × 2^(1/2) = 2^1 = 2 — при умножении показатели складываются",
         "16^(3/4) = ⁴√(16³) = ⁴√4096 = 8 — показатель 3/4 означает корень 4-й степени из куба",
       ], correctAnswer: "9", hint: "³√27² = 3² = 9" },
-      { type: 'quiz', question: "16^(-1/2) = ?", options: ["1/4", "-4", "4", "1/16", "—"], correctAnswer: "1/4", hint: "1/√16" },
+      { type: 'quiz', question: "16^(-1/2) = ?", options: ["1/4", "-4", "4", "1/16", "-1/4"], correctAnswer: "1/4", hint: "1/√16" },
       { type: 'quiz', question: "a^(1/3) × a^(2/3) = a^?", options: ["0", "1", "1/6", "2/3", "3"], correctAnswer: "1", hint: "Сложите показатели" },
-      { type: 'quiz', question: "Какое больше: 3^(1/2) или 3^(1/3)?", options: ["3^(1/2)", "3^(1/3)", "Равны", "Нельзя сравнить", "—"], correctAnswer: "3^(1/2)", hint: "При a > 1 больше степень с большим показателем" }
+      { type: 'quiz', question: "Какое больше: 3^(1/2) или 3^(1/3)?", options: ["3^(1/2)", "3^(1/3)", "Равны", "Нельзя сравнить", "3^(1/4)"], correctAnswer: "3^(1/2)", hint: "При a > 1 больше степень с большим показателем" }
     ],
     reward: { stars: 3, message: "Супер! Ты понимаешь рациональные степени! 📊" }
   },
@@ -838,7 +838,7 @@ export const games = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "3ˣ = 81. x = ?", options: ["2", "3", "4", "5", "—"],
+      { type: 'quiz', question: "3ˣ = 81. x = ?", options: ["2", "3", "4", "5", "1"],
       keyPoints: [
         "Показательная функция y = a^x при a > 0, a != 1 всегда проходит через точку (0, 1)",
         "При a > 1 функция возрастает, при 0 < a < 1 — убывает",
@@ -851,8 +851,8 @@ export const games = [
         "При x → +∞ для y = 2^x: y → +∞; при x → -∞: y → 0 — поведение на концах",
       ], correctAnswer: "4", hint: "3⁴ = 81" },
       { type: 'quiz', question: "2ˣ⁺¹ = 16. x = ?", options: ["2", "3", "4", "5", "6"], correctAnswer: "3", hint: "2³⁺¹ = 2⁴ = 16" },
-      { type: 'quiz', question: "5ˣ × 5ˣ⁻¹ = 125. x = ?", options: ["1", "2", "3", "4", "—"], correctAnswer: "2", hint: "5²ˣ⁻¹ = 5³" },
-      { type: 'quiz', question: "При каком a функция y = aˣ возрастает?", options: ["a > 1", "0 < a < 1", "a < 0", "a = 1", "—"], correctAnswer: "a > 1", hint: "Свойства показательной функции" }
+      { type: 'quiz', question: "5ˣ × 5ˣ⁻¹ = 125. x = ?", options: ["1", "2", "3", "4", "5"], correctAnswer: "2", hint: "5²ˣ⁻¹ = 5³" },
+      { type: 'quiz', question: "При каком a функция y = aˣ возрастает?", options: ["a > 1", "0 < a < 1", "a < 0", "a = 1", "a > 0"], correctAnswer: "a > 1", hint: "Свойства показательной функции" }
     ],
     reward: { stars: 3, message: "Круто! Ты знаешь показательную функцию! 📈" }
   },
@@ -862,7 +862,7 @@ export const games = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "2ˣ < 32. Решение:", options: ["x < 5", "x > 5", "x < 4", "x > 4", "—"],
+      { type: 'quiz', question: "2ˣ < 32. Решение:", options: ["x < 5", "x > 5", "x < 4", "x > 4", "∞"],
       keyPoints: [
         "При основании больше 1 знак неравенства сохраняется, при основании от 0 до 1 — меняется",
         "Решение показательных неравенств сводится к приведению к одному основанию",
@@ -874,9 +874,9 @@ export const games = [
         "3^(2x-1) >= 27 → 3^(2x-1) >= 3^3 → 2x - 1 >= 3 → x >= 2",
         "Система {2^x > 4, (1/2)^x < 8} даёт x > 2 — пересечение решений",
       ], correctAnswer: "x < 5", hint: "2ˣ < 2⁵, основание > 1" },
-      { type: 'quiz', question: "(1/2)ˣ > 4. Решение:", options: ["x > -2", "x < -2", "x > 2", "x < 2", "—"], correctAnswer: "x < -2", hint: "(1/2)ˣ > (1/2)⁻², основание < 1" },
+      { type: 'quiz', question: "(1/2)ˣ > 4. Решение:", options: ["x > -2", "x < -2", "x > 2", "x < 2", "x > 0"], correctAnswer: "x < -2", hint: "(1/2)ˣ > (1/2)⁻², основание < 1" },
       { type: 'quiz', question: "3ˣ⁻² ≥ 9. x ≥ ?", options: ["2", "3", "4", "5", "6"], correctAnswer: "4", hint: "3ˣ⁻² ≥ 3²" },
-      { type: 'quiz', question: "4ˣ ≤ 16. Решение:", options: ["x ≤ 2", "x ≥ 2", "x ≤ 4", "x ≥ 4", "—"], correctAnswer: "x ≤ 2", hint: "4ˣ ≤ 4²" }
+      { type: 'quiz', question: "4ˣ ≤ 16. Решение:", options: ["x ≤ 2", "x ≥ 2", "x ≤ 4", "x ≥ 4", "x ≥ 0"], correctAnswer: "x ≤ 2", hint: "4ˣ ≤ 4²" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь решать показательные неравенства! 💪" }
   },
@@ -886,7 +886,7 @@ export const games = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "log₂32 = ?", options: ["4", "5", "6", "16", "—"],
+      { type: 'quiz', question: "log₂32 = ?", options: ["4", "5", "6", "16", "2"],
       keyPoints: [
         "Логарифм — показатель степени, в которую нужно возвести основание, чтобы получить число",
         "Основание логарифма положительно и не равно 1, аргумент логарифма положителен",
@@ -899,8 +899,8 @@ export const games = [
         "3^(log₃7) = 7 — основное логарифмическое тождество",
       ], correctAnswer: "5", hint: "2⁵ = 32" },
       { type: 'quiz', question: "log₃(1/27) = ?", options: ["-3", "-2", "-1", "3", "9"], correctAnswer: "-3", hint: "3⁻³ = 1/27" },
-      { type: 'quiz', question: "log₁₀1000 = ?", options: ["2", "3", "10", "100", "—"], correctAnswer: "3", hint: "10³ = 1000" },
-      { type: 'quiz', question: "3^(log₃7) = ?", options: ["3", "7", "log₃7", "21", "—"], correctAnswer: "7", hint: "Основное логарифмическое тождество" }
+      { type: 'quiz', question: "log₁₀1000 = ?", options: ["2", "3", "10", "100", "1"], correctAnswer: "3", hint: "10³ = 1000" },
+      { type: 'quiz', question: "3^(log₃7) = ?", options: ["3", "7", "log₃7", "21", "3^7"], correctAnswer: "7", hint: "Основное логарифмическое тождество" }
     ],
     reward: { stars: 3, message: "Супер! Ты понимаешь логарифмы! 🔢" }
   },
@@ -910,7 +910,7 @@ export const games = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "log₂32 - log₂2 = ?", options: ["4", "5", "15", "16", "—"],
+      { type: 'quiz', question: "log₂32 - log₂2 = ?", options: ["4", "5", "15", "16", "10"],
       keyPoints: [
         "Логарифм произведения равен сумме логарифмов множителей",
         "Логарифм частного равен разности логарифмов",
@@ -923,8 +923,8 @@ export const games = [
         "(lg8 + lg18) / (2lg2 + lg3) = lg144 / lg12 = 2 — сложное выражение",
       ], correctAnswer: "4", hint: "log₂(32/2)" },
       { type: 'quiz', question: "log₅250 - log₅10 = log₅? = 2", options: ["10", "20", "25", "50", "240"], correctAnswer: "25", hint: "log₅(250/10)" },
-      { type: 'quiz', question: "2log₃6 - log₃4 = ?", options: ["1", "2", "3", "4", "—"], correctAnswer: "2", hint: "log₃36 - log₃4 = log₃9" },
-      { type: 'quiz', question: "logₐ(bc) = ?", options: ["logₐb + logₐc", "logₐb × logₐc", "logₐb - logₐc", "logₐ(b/c)", "—"], correctAnswer: "logₐb + logₐc", hint: "Логарифм произведения" }
+      { type: 'quiz', question: "2log₃6 - log₃4 = ?", options: ["1", "2", "3", "4", "log₃(6/4)"], correctAnswer: "2", hint: "log₃36 - log₃4 = log₃9" },
+      { type: 'quiz', question: "logₐ(bc) = ?", options: ["logₐb + logₐc", "logₐb × logₐc", "logₐb - logₐc", "logₐ(b/c)", "logₐ(b+c)"], correctAnswer: "logₐb + logₐc", hint: "Логарифм произведения" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь свойства логарифмов! 🧮" }
   },
@@ -946,8 +946,8 @@ export const games = [
         "log₂²x - 4log₂x + 3 = 0, пусть t = log₂x, тогда t² - 4t + 3 = 0, x = 2 или x = 8",
         "log₂(x - 1) + log₂(x + 1) = 3 → x² - 1 = 8 → x = 3 (x = -3 не подходит по ОДЗ)",
       ], correctAnswer: "9", hint: "3² = 9" },
-      { type: 'quiz', question: "log₂(x - 1) = 3. x = ?", options: ["7", "8", "9", "4", "—"], correctAnswer: "9", hint: "x - 1 = 2³ = 8" },
-      { type: 'quiz', question: "lg x + lg(x + 9) = 1. x = ?", options: ["1", "9", "10", "-10", "—"], correctAnswer: "1", hint: "lg(x(x+9)) = 1, x > 0" },
+      { type: 'quiz', question: "log₂(x - 1) = 3. x = ?", options: ["7", "8", "9", "4", "5"], correctAnswer: "9", hint: "x - 1 = 2³ = 8" },
+      { type: 'quiz', question: "lg x + lg(x + 9) = 1. x = ?", options: ["1", "9", "10", "-10", "0"], correctAnswer: "1", hint: "lg(x(x+9)) = 1, x > 0" },
       { type: 'quiz', question: "log₂²x - 3log₂x + 2 = 0. Меньший корень x = ?", options: ["1", "2", "4", "8", "16"], correctAnswer: "2", hint: "t² - 3t + 2 = 0, t = log₂x" }
     ],
     reward: { stars: 3, message: "Круто! Ты умеешь решать логарифмические уравнения! ✏️" }
@@ -970,8 +970,8 @@ export const games = [
         "1 + tan²a = 1/cos²a — связь тангенса с косинусом",
         "sin(pi/6) = 1/2, cos(pi/4) = sqrt(2)/2, tan(pi/3) = sqrt(3) — табличные значения",
       ], correctAnswer: "1", hint: "Основное тригонометрическое тождество" },
-      { type: 'quiz', question: "Найти cos α, если sin α = 0.8", options: ["0.6", "-0.6", "0.36", "0.64", "—"], correctAnswer: "0.6", hint: "cos²α = 1 - sin²α" },
-      { type: 'quiz', question: "tan α × cot α = ?", options: ["0", "1", "sin α", "cos α", "—"], correctAnswer: "1", hint: "Связь тангенса и котангенса" },
+      { type: 'quiz', question: "Найти cos α, если sin α = 0.8", options: ["0.6", "-0.6", "0.36", "0.64", "-0.8"], correctAnswer: "0.6", hint: "cos²α = 1 - sin²α" },
+      { type: 'quiz', question: "tan α × cot α = ?", options: ["0", "1", "sin α", "cos α", "tan²α"], correctAnswer: "1", hint: "Связь тангенса и котангенса" },
       { type: 'quiz', question: "tan α = sin α / ?", options: ["cos α", "sin α", "tan α", "cot α", "1"], correctAnswer: "cos α", hint: "Определение тангенса" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь тригонометрические тождества! 📐" }
@@ -982,7 +982,7 @@ export const games = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "sin(α + β) = ?", options: ["sin α cos β + cos α sin β", "sin α cos β - cos α sin β", "cos α cos β - sin α sin β", "cos α cos β + sin α sin β", "—"],
+      { type: 'quiz', question: "sin(α + β) = ?", options: ["sin α cos β + cos α sin β", "sin α cos β - cos α sin β", "cos α cos β - sin α sin β", "cos α cos β + sin α sin β", "0.5"],
       keyPoints: [
         "sin(a+b) = sin a cos b + cos a sin b",
         "cos(a+b) = cos a cos b - sin a sin b",
@@ -994,9 +994,9 @@ export const games = [
         "sin(a + b) + sin(a - b) = 2 sin a cos b — упрощение суммы",
         "tan(60° + 45°) = -(√3 + 1)² / 2 = -2 - √3 — тангенс суммы",
       ], correctAnswer: "sin α cos β + cos α sin β", hint: "Формула синуса суммы" },
-      { type: 'quiz', question: "cos(α - β) = ?", options: ["cos α cos β + sin α sin β", "cos α cos β - sin α sin β", "sin α cos β + cos α sin β", "sin α cos β - cos α sin β", "—"], correctAnswer: "cos α cos β + sin α sin β", hint: "Формула косинуса разности" },
+      { type: 'quiz', question: "cos(α - β) = ?", options: ["cos α cos β + sin α sin β", "cos α cos β - sin α sin β", "sin α cos β + cos α sin β", "sin α cos β - cos α sin β", "cos α sin β"], correctAnswer: "cos α cos β + sin α sin β", hint: "Формула косинуса разности" },
       { type: 'quiz', question: "sin 15° = sin(45° - ?°)", options: ["15", "20", "25", "30", "60"], correctAnswer: "30", hint: "15 = 45 - 30" },
-      { type: 'quiz', question: "cos(α + β) - cos(α - β) = ?", options: ["-2sin α sin β", "2sin α sin β", "-2cos α cos β", "2cos α cos β", "—"], correctAnswer: "-2sin α sin β", hint: "Примените формулы" }
+      { type: 'quiz', question: "cos(α + β) - cos(α - β) = ?", options: ["-2sin α sin β", "2sin α sin β", "-2cos α cos β", "2cos α cos β", "sin α cos β"], correctAnswer: "-2sin α sin β", hint: "Примените формулы" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь формулы сложения! 📊" }
   },
@@ -1006,7 +1006,7 @@ export const games = [
     icon: "Sigma",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "(x⁴)' = ?", options: ["4x³", "x³", "4x⁴", "3x³", "—"],
+      { type: 'quiz', question: "(x⁴)' = ?", options: ["4x³", "x³", "4x⁴", "3x³", "100"],
       keyPoints: [
         "Производная — предел отношения приращения функции к приращению аргумента",
         "Геометрический смысл: производная равна угловому коэффициенту касательной",
@@ -1019,8 +1019,8 @@ export const games = [
         "(ln x)' = 1/x — производная натурального логарифма",
       ], correctAnswer: "4x³", hint: "n·xⁿ⁻¹" },
       { type: 'quiz', question: "(3x² - 2x + 1)' = 6x - ?", options: ["1", "2", "3", "6", "-2"], correctAnswer: "2", hint: "(3x²)' = 6x, (-2x)' = -2" },
-      { type: 'quiz', question: "(√x)' = ?", options: ["1/(2√x)", "2√x", "1/√x", "√x/2", "—"], correctAnswer: "1/(2√x)", hint: "Таблица производных" },
-      { type: 'quiz', question: "(1/x)' = ?", options: ["-1/x²", "1/x²", "-1/x", "ln x", "—"], correctAnswer: "-1/x²", hint: "Таблица производных" }
+      { type: 'quiz', question: "(√x)' = ?", options: ["1/(2√x)", "2√x", "1/√x", "√x/2", "1/x"], correctAnswer: "1/(2√x)", hint: "Таблица производных" },
+      { type: 'quiz', question: "(1/x)' = ?", options: ["-1/x²", "1/x²", "-1/x", "ln x", "1/x"], correctAnswer: "-1/x²", hint: "Таблица производных" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь производные! 📈" }
   },
@@ -1042,9 +1042,9 @@ export const games = [
         "(sin 2x)' = cos 2x × 2 = 2cos 2x — цепное правило",
         "(e^(x²))' = e^(x²) × 2x = 2xe^(x²) — сложная функция с экспонентой",
       ], correctAnswer: "3", hint: "(x²)' = 2x, (3x)' = 3" },
-      { type: 'quiz', question: "(x × sin x)' = ?", options: ["sin x + x cos x", "x cos x", "sin x - x cos x", "cos x + sin x", "—"], correctAnswer: "sin x + x cos x", hint: "(f × g)' = f' × g + f × g'" },
+      { type: 'quiz', question: "(x × sin x)' = ?", options: ["sin x + x cos x", "x cos x", "sin x - x cos x", "cos x + sin x", "sin x / x"], correctAnswer: "sin x + x cos x", hint: "(f × g)' = f' × g + f × g'" },
       { type: 'quiz', question: "(ln 2x)' = 1/?", options: ["x", "2x", "x²", "2", "ln x"], correctAnswer: "x", hint: "(ln 2x)' = 2/(2x) = 1/x" },
-      { type: 'quiz', question: "(eˣ²)' = ?", options: ["2xeˣ²", "eˣ²", "xeˣ²", "2eˣ²", "—"], correctAnswer: "2xeˣ²", hint: "Цепное правило: eˣ² × 2x" }
+      { type: 'quiz', question: "(eˣ²)' = ?", options: ["2xeˣ²", "eˣ²", "xeˣ²", "2eˣ²", "x²eˣ²"], correctAnswer: "2xeˣ²", hint: "Цепное правило: eˣ² × 2x" }
     ],
     reward: { stars: 3, message: "Круто! Ты знаешь правила дифференцирования! 🎯" }
   },
@@ -1066,8 +1066,8 @@ export const games = [
         "f(x) = x² - 6x на [0; 5]: f(0) = 0, f(3) = -9 (мин), f(5) = -5 (максимум на отрезке)",
         "Если f'(x) меняет знак с - на + в точке, это точка минимума",
       ], correctAnswer: "-1", hint: "f'(x) = 3x² - 3 = 0" },
-      { type: 'quiz', question: "Если f'(x) > 0 на интервале, то функция:", options: ["Возрастает", "Убывает", "Постоянна", "Имеет экстремум", "—"], correctAnswer: "Возрастает", hint: "Знак производной и монотонность" },
-      { type: 'quiz', question: "В точке максимума производная меняет знак:", options: ["С + на -", "С - на +", "Не меняется", "С 0 на +", "—"], correctAnswer: "С + на -", hint: "Признак максимума" },
+      { type: 'quiz', question: "Если f'(x) > 0 на интервале, то функция:", options: ["Возрастает", "Убывает", "Постоянна", "Имеет экстремум", "Неопределена"], correctAnswer: "Возрастает", hint: "Знак производной и монотонность" },
+      { type: 'quiz', question: "В точке максимума производная меняет знак:", options: ["С + на -", "С - на +", "Не меняется", "С 0 на +", "С + на +"], correctAnswer: "С + на -", hint: "Признак максимума" },
       { type: 'quiz', question: "f(x) = x² - 6x на [0; 5]. Наименьшее значение при x = ?", options: ["0", "1", "3", "5", "6"], correctAnswer: "3", hint: "f'(x) = 2x - 6 = 0" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь применять производную! 🔬" }
