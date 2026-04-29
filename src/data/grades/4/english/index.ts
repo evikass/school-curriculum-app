@@ -1285,7 +1285,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «Доброе утро» in English?", options: ["Good night", "Good morning", "Good evening", "Good afternoon", "Hello"], correctAnswer: "Good morning", hint: "Morning — утро" },
       { type: 'quiz', question: "What does «Goodbye!» mean?", options: ["Здравствуйте", "Доброе утро", "До свидания", "Спокойной ночи", "Как дела"], correctAnswer: "До свидания", hint: "Goodbye — прощание" },
-      { type: 'quiz', question: "«Как дела?» по-английски: How (...)_ you?", options: ["are", "you", "английски", "дела", "how"], correctAnswer: "are", hint: "How are you? — Как дела?" },
+      { type: 'quiz', question: "«Как дела?» по-английски: How (...)_ you?", options: ["are", "you", "is", "дела", "how"], correctAnswer: "are", hint: "How are you? — Как дела?" },
       { type: 'quiz', question: "What does «See you!» mean?", options: ["До свидания", "Увидимся", "Привет", "Как дела", "Спасибо"], correctAnswer: "Увидимся", hint: "See you — увидимся позже" },
       { type: 'quiz', question: "How do you answer «How are you?»", options: ["My name is Tom", ",", "I", "Hello", "m fine, thanks!"], correctAnswer: "I'm fine, thanks!", hint: "Отвечаем: I'm fine, thanks!" }
     ],
@@ -1330,7 +1330,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "What does «Where?» mean?", options: ["Кто?", "Где? Куда?", "Когда?", "Почему?", "Что?"], correctAnswer: "Где? Куда?", hint: "Where — где / куда" },
       { type: 'quiz', question: "Which word asks «Когда?»?", options: ["What", "Where", "Who", "When", "How"], correctAnswer: "When", hint: "When — когда" },
-      { type: 'quiz', question: "«Почему?» по-английски: (...)_", options: ["нет", "не знаю", "почему", "английски", "Why"], correctAnswer: "Why", hint: "Why — почему" },
+      { type: 'quiz', question: "«Почему?» по-английски: (...)_", options: ["Where", "What", "почему", "How", "Why"], correctAnswer: "Why", hint: "Why — почему" },
       { type: 'quiz', question: "What does «Who?» mean?", options: ["Что?", "Где?", "Кто?", "Как?", "Когда?"], correctAnswer: "Кто?", hint: "Who — используется только про людей" },
       { type: 'quiz', question: "How do you ask «Что это?»?", options: ["Who is this?", "Where is this?", "When is this?", "What is this?", "How is this?"], correctAnswer: "What is this?", hint: "What — что / какой" }
     ],
@@ -1345,7 +1345,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «красный» in English?", options: ["Blue", "Green", "Red", "Yellow", "Black"], correctAnswer: "Red", hint: "Red — красный" },
       { type: 'quiz', question: "What colour is the grass?", options: ["Red", "Blue", "Yellow", "Green", "White"], correctAnswer: "Green", hint: "Трава зелёная — green" },
-      { type: 'quiz', question: "«Жёлтый» по-английски: (...)_", options: ["жёлтый", "нет", "не знаю", "yellow", "английски"], correctAnswer: "yellow", hint: "The sun is yellow." },
+      { type: 'quiz', question: "«Жёлтый» по-английски: (...)_", options: ["жёлтый", "yelou", "yelow", "yellow", "yello"], correctAnswer: "yellow", hint: "The sun is yellow." },
       { type: 'quiz', question: "What does «purple» mean?", options: ["Зелёный", "Оранжевый", "Фиолетовый", "Розовый", "Коричневый"], correctAnswer: "Фиолетовый", hint: "Purple — фиолетовый" },
       { type: 'quiz', question: "How do you ask «Какого это цвета?»?", options: ["What is it?", "What colour is it?", "How is it?", "Where is it?", "Who is it?"], correctAnswer: "What colour is it?", hint: "What colour — какой цвет" }
     ],
@@ -1375,7 +1375,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «голова» in English?", options: ["Hand", "Head", "Hair", "Heart", "Hat"], correctAnswer: "Head", hint: "Head — голова" },
       { type: 'quiz', question: "What does «eye» mean?", options: ["Ухо", "Нос", "Глаз", "Рот", "Рука"], correctAnswer: "Глаз", hint: "Eye — глаз (множественное: eyes)" },
-      { type: 'quiz', question: "«Нога» по-английски: (...)_", options: ["не знаю", "нет", "английски", "нога", "leg"], correctAnswer: "leg", hint: "Leg — нога (от бедра до стопы)" },
+      { type: 'quiz', question: "«Нога» по-английски: (...)_", options: ["foot", "lag", "lego", "нога", "leg"], correctAnswer: "leg", hint: "Leg — нога (от бедра до стопы)" },
       { type: 'quiz', question: "What is the plural of «tooth»?", options: ["Toothes", "Teeth", "Tooths", "Teeths", "Toothes"], correctAnswer: "Teeth", hint: "Tooth → teeth — неправильное множественное" },
       { type: 'quiz', question: "What does «nose» mean?", options: ["Глаз", "Ухо", "Нос", "Рот", "Шея"], correctAnswer: "Нос", hint: "Nose — нос" }
     ],
@@ -1390,7 +1390,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «футболка» in English?", options: ["Shirt", "T-shirt", "Dress", "Coat", "Sweater"], correctAnswer: "T-shirt", hint: "T-shirt — футболка" },
       { type: 'quiz', question: "What does «jacket» mean?", options: ["Шляпа", "Куртка", "Рубашка", "Юбка", "Платье"], correctAnswer: "Куртка", hint: "Jacket — куртка" },
-      { type: 'quiz', question: "«Брюки» по-английски: (...)_", options: ["trousers", "нет", "не знаю", "английски", "брюки"], correctAnswer: "trousers", hint: "Trousers — брюки (всегда множественное)" },
+      { type: 'quiz', question: "«Брюки» по-английски: (...)_", options: ["trousers", "jeans", "pant", "pants", "брюки"], correctAnswer: "trousers", hint: "Trousers — брюки (всегда множественное)" },
       { type: 'quiz', question: "What does «shoes» mean?", options: ["Шапка", "Шарф", "Обувь / ботинки", "Носки", "Перчатки"], correctAnswer: "Обувь / ботинки", hint: "Shoes — обувь" },
       { type: 'quiz', question: "How do you say «Я ношу красную футболку»?", options: ["I have a red T-shirt", "I'm wearing a red T-shirt", "I like red T-shirt", "Red is my T-shirt", "My T-shirt is red"], correctAnswer: "I'm wearing a red T-shirt", hint: "I'm wearing — я ношу" }
     ],
@@ -1405,7 +1405,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «ручка» in English?", options: ["Pencil", "Pen", "Paper", "Book", "Ruler"], correctAnswer: "Pen", hint: "Pen — ручка, pencil — карандаш" },
       { type: 'quiz', question: "What does «eraser» mean?", options: ["Карандаш", "Линейка", "Ластик", "Точилка", "Пенал"], correctAnswer: "Ластик", hint: "Eraser (амер.) = rubber (брит.)" },
-      { type: 'quiz', question: "«Линейка» по-английски: (...)_", options: ["нет", "ruler", "не знаю", "линейка", "английски"], correctAnswer: "ruler", hint: "Ruler — линейка" },
+      { type: 'quiz', question: "«Линейка» по-английски: (...)_", options: ["rule", "ruler", "ruller", "линейка", "rular"], correctAnswer: "ruler", hint: "Ruler — линейка" },
       { type: 'quiz', question: "What does «pencil case» mean?", options: ["Карандаш", "Ручка", "Ластик", "Пенал", "Сумка"], correctAnswer: "Пенал", hint: "Pencil case — чехол для карандашей = пенал" },
       { type: 'quiz', question: "How do you ask «Можно одолжить ручку?»?", options: ["Give me a pen", "I need a pen", "Can I borrow your pen?", "Where is my pen?", "Your pen is nice"], correctAnswer: "Can I borrow your pen?", hint: "Borrow — одолжить" }
     ],
@@ -1420,7 +1420,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «парта» in English?", options: ["Table", "Desk", "Chair", "Board", "Door"], correctAnswer: "Desk", hint: "Desk — школьная парта" },
       { type: 'quiz', question: "What does «board» mean?", options: ["Парта", "Стул", "Доска", "Окно", "Дверь"], correctAnswer: "Доска", hint: "Board — классная доска" },
-      { type: 'quiz', question: "«Встаньте!» по-английски: Stand (...)_!", options: ["up", "stand", "английски", "нет", "встаньте"], correctAnswer: "up", hint: "Stand up! — встаньте!" },
+      { type: 'quiz', question: "«Встаньте!» по-английски: Stand (...)_!", options: ["up", "stand", "down", "on", "встаньте"], correctAnswer: "up", hint: "Stand up! — встаньте!" },
       { type: 'quiz', question: "What does «Sit down!» mean?", options: ["Встаньте!", "Сядьте!", "Пишите!", "Читайте!", "Слушайте!"], correctAnswer: "Сядьте!", hint: "Sit down — сядьте" },
       { type: 'quiz', question: "What does «window» mean?", options: ["Дверь", "Стена", "Пол", "Окно", "Потолок"], correctAnswer: "Окно", hint: "Window — окно" }
     ],
@@ -1435,7 +1435,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «математика» in English?", options: ["Maths", "Music", "Art", "Science", "History"], correctAnswer: "Maths", hint: "Maths (брит.) / Math (амер.)" },
       { type: 'quiz', question: "What does «PE» stand for?", options: ["Primary English", "Physical Education", "Practical Exercise", "Public Exam", "Personal Education"], correctAnswer: "Physical Education", hint: "PE — физкультура" },
-      { type: 'quiz', question: "«Музыка» по-английски: (...)_", options: ["нет", "не знаю", "английски", "музыка", "Music"], correctAnswer: "Music", hint: "Music — музыка" },
+      { type: 'quiz', question: "«Музыка» по-английски: (...)_", options: ["melody", "song", "sound", "музыка", "Music"], correctAnswer: "Music", hint: "Music — музыка" },
       { type: 'quiz', question: "How do you say «Мой любимый предмет — ИЗО»?", options: ["I like Art", "My favourite subject is Art", "I have Art", "Art is good", "I do Art"], correctAnswer: "My favourite subject is Art", hint: "My favourite subject is..." },
       { type: 'quiz', question: "What does «Science» mean?", options: ["История", "География", "Окружающий мир / Естествознание", "Музыка", "Чтение"], correctAnswer: "Окружающий мир / Естествознание", hint: "Science — наука, окружающий мир" }
     ],
@@ -1465,7 +1465,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «бабушка» in English?", options: ["Mother", "Sister", "Grandmother", "Aunt", "Daughter"], correctAnswer: "Grandmother", hint: "Grandmother / grandma — бабушка" },
       { type: 'quiz', question: "What does «uncle» mean?", options: ["Дедушка", "Дядя", "Брат", "Папа", "Сын"], correctAnswer: "Дядя", hint: "Uncle — дядя" },
-      { type: 'quiz', question: "«Двоюродный брат/сестра» по-английски: (...)_", options: ["сестра", "английски", "cousin", "двоюродный", "брат"], correctAnswer: "cousin", hint: "Cousin — двоюродный брат или сестра" },
+      { type: 'quiz', question: "«Двоюродный брат/сестра» по-английски: (...)_", options: ["сестра", "kuzin", "cousin", "двоюродный", "брат"], correctAnswer: "cousin", hint: "Cousin — двоюродный брат или сестра" },
       { type: 'quiz', question: "What does «parents» mean?", options: ["Дети", "Бабушка и дедушка", "Мама и папа (родители)", "Брат и сестра", "Дядя и тётя"], correctAnswer: "Мама и папа (родители)", hint: "Parents = mother + father" },
       { type: 'quiz', question: "How do you say «У меня есть брат»?", options: ["I have a brother", "I am a brother", "My brother is", "I see a brother", "I like brother"], correctAnswer: "I have a brother", hint: "I have — у меня есть" }
     ],
@@ -1480,7 +1480,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «кухня» in English?", options: ["Bedroom", "Living room", "Kitchen", "Bathroom", "Hall"], correctAnswer: "Kitchen", hint: "Kitchen — кухня" },
       { type: 'quiz', question: "What does «living room» mean?", options: ["Спальня", "Кухня", "Гостиная", "Ванная", "Прихожая"], correctAnswer: "Гостиная", hint: "Living room — гостиная" },
-      { type: 'quiz', question: "«Спальня» по-английски: (...)_", options: ["не знаю", "английски", "спальня", "нет", "bedroom"], correctAnswer: "bedroom", hint: "Bedroom — спальня" },
+      { type: 'quiz', question: "«Спальня» по-английски: (...)_", options: ["bedrom", "sleeproom", "спальня", "bedchamber", "bedroom"], correctAnswer: "bedroom", hint: "Bedroom — спальня" },
       { type: 'quiz', question: "What does «garden» mean?", options: ["Гараж", "Сад", "Балкон", "Крыша", "Погреб"], correctAnswer: "Сад", hint: "Garden — сад" },
       { type: 'quiz', question: "How do you say «Я живу в большом доме»?", options: ["I live in a big house", "My big house is", "I have big house", "Big house I live", "I am big house"], correctAnswer: "I live in a big house", hint: "I live in — я живу в" }
     ],
@@ -1495,7 +1495,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «кровать» in English?", options: ["Desk", "Chair", "Bed", "Sofa", "Table"], correctAnswer: "Bed", hint: "Bed — кровать" },
       { type: 'quiz', question: "What does «next to the window» mean?", options: ["Под окном", "За окном", "Рядом с окном", "На окне", "Над окном"], correctAnswer: "Рядом с окном", hint: "Next to — рядом с" },
-      { type: 'quiz', question: "«Ковёр» по-английски: (...)_", options: ["carpet", "нет", "английски", "не знаю", "ковёр"], correctAnswer: "carpet", hint: "Carpet — ковёр" },
+      { type: 'quiz', question: "«Ковёр» по-английски: (...)_", options: ["carpet", "Hello", "Природа", "Природа", "ковёр"], correctAnswer: "carpet", hint: "Carpet — ковёр" },
       { type: 'quiz', question: "What does «under the bed» mean?", options: ["На кровати", "Рядом с кроватью", "Под кроватью", "За кроватью", "Над кроватью"], correctAnswer: "Под кроватью", hint: "Under — под" },
       { type: 'quiz', question: "How do you say «Книги на полке»?", options: ["Books in the shelf", "Books on the shelf", "Books under the shelf", "Books next to shelf", "The books shelf"], correctAnswer: "Books on the shelf", hint: "On the shelf — на полке" }
     ],
@@ -1510,7 +1510,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «делать уроки» in English?", options: ["Do homework", "Make homework", "Have homework", "Go homework", "Work homework"], correctAnswer: "Do homework", hint: "Do homework — делать домашнее задание" },
       { type: 'quiz', question: "What does «get up» mean?", options: ["Ложиться спать", "Вставать", "Завтракать", "Идти в школу", "Приходить домой"], correctAnswer: "Вставать", hint: "Get up — вставать (с кровати)" },
-      { type: 'quiz', question: "«Ложиться спать» по-английски: go to (...)_", options: ["go", "спать", "английски", "ложиться", "bed"], correctAnswer: "bed", hint: "Go to bed — ложиться спать" },
+      { type: 'quiz', question: "«Ложиться спать» по-английски: go to (...)_", options: ["go", "спать", "Hello", "ложиться", "bed"], correctAnswer: "bed", hint: "Go to bed — ложиться спать" },
       { type: 'quiz', question: "What does «have breakfast» mean?", options: ["Обедать", "Ужинать", "Завтракать", "Идти гулять", "Просыпаться"], correctAnswer: "Завтракать", hint: "Have breakfast — завтракать" },
       { type: 'quiz', question: "How do you say «Я встаю в 7 часов»?", options: ["I go to school at 7", "I get up at 7 o", ",", "clock", "—"], correctAnswer: "I get up at 7 o'clock", hint: "Get up — вставать, at 7 o'clock — в 7 часов" }
     ],
@@ -1525,7 +1525,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «хлеб» in English?", options: ["Butter", "Bread", "Cheese", "Meat", "Milk"], correctAnswer: "Bread", hint: "Bread — хлеб" },
       { type: 'quiz', question: "What does «cheese» mean?", options: ["Молоко", "Масло", "Сыр", "Мясо", "Рыба"], correctAnswer: "Сыр", hint: "Cheese — сыр" },
-      { type: 'quiz', question: "«Курица» по-английски: (...)_", options: ["chicken", "не знаю", "курица", "английски", "нет"], correctAnswer: "chicken", hint: "Chicken — курица" },
+      { type: 'quiz', question: "«Курица» по-английски: (...)_", options: ["chicken", "Hello", "курица", "Природа", "Природа"], correctAnswer: "chicken", hint: "Chicken — курица" },
       { type: 'quiz', question: "How do you say «Мне нравится пицца»?", options: ["I eat pizza", "I have pizza", "I like pizza", "I want pizza", "My pizza is good"], correctAnswer: "I like pizza", hint: "I like — мне нравится" },
       { type: 'quiz', question: "What does «butter» mean?", options: ["Хлеб", "Сыр", "Молоко", "Масло", "Яйцо"], correctAnswer: "Масло", hint: "Butter — сливочное масло" }
     ],
@@ -1540,7 +1540,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «сок» in English?", options: ["Water", "Milk", "Juice", "Tea", "Coffee"], correctAnswer: "Juice", hint: "Juice — сок" },
       { type: 'quiz', question: "What does «Would you like some tea?» mean?", options: ["Ты хочешь чаю?", "Где чай?", "Я люблю чай", "Чай вкусный", "Сколько стоит чай?"], correctAnswer: "Ты хочешь чаю?", hint: "Would you like — вежливое предложение" },
-      { type: 'quiz', question: "«Вода» по-английски: (...)_", options: ["вода", "water", "нет", "не знаю", "английски"], correctAnswer: "water", hint: "Water — вода" },
+      { type: 'quiz', question: "«Вода» по-английски: (...)_", options: ["вода", "water", "Hello", "Природа", "Природа"], correctAnswer: "water", hint: "Water — вода" },
       { type: 'quiz', question: "What does «a cup of tea» mean?", options: ["Стакан чая", "Чашка чая", "Бутылка чая", "Банка чая", "Чайник чая"], correctAnswer: "Чашка чая", hint: "A cup of — чашка" },
       { type: 'quiz', question: "How do you refuse politely? «Нет, ___»", options: ["Go away", "No, thank you", "I hate it", "Stop", "Never"], correctAnswer: "No, thank you", hint: "No, thank you — вежливый отказ" }
     ],
@@ -1555,7 +1555,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «яблоко» in English?", options: ["Banana", "Orange", "Apple", "Pear", "Grape"], correctAnswer: "Apple", hint: "Apple — яблоко (с an: an apple)" },
       { type: 'quiz', question: "What does «carrot» mean?", options: ["Картофель", "Капуста", "Морковь", "Огурец", "Помидор"], correctAnswer: "Морковь", hint: "Carrot — морковь" },
-      { type: 'quiz', question: "«Банан» по-английски: (...)_", options: ["нет", "banana", "английски", "не знаю", "банан"], correctAnswer: "banana", hint: "Banana — банан" },
+      { type: 'quiz', question: "«Банан» по-английски: (...)_", options: ["Hello", "banana", "Природа", "Природа", "банан"], correctAnswer: "banana", hint: "Banana — банан" },
       { type: 'quiz', question: "What does «tomato» mean?", options: ["Картофель", "Морковь", "Лук", "Помидор", "Огурец"], correctAnswer: "Помидор", hint: "Tomato — помидор" },
       { type: 'quiz', question: "How do you say «Овощи полезные»?", options: ["Vegetables are healthy", "Vegetables are tasty", "Vegetables are bad", "I like vegetables", "Eat vegetables"], correctAnswer: "Vegetables are healthy", hint: "Healthy — полезный" }
     ],
@@ -1570,7 +1570,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you order food politely? «___ I have a pizza?»", options: ["Do", "Can", "Am", "Is", "Are"], correctAnswer: "Can", hint: "Can I have...? — Можно мне...?" },
       { type: 'quiz', question: "What does «I'd like...» mean?", options: ["Я люблю", "Я хочу", "Я ем", "Я знаю", "Я вижу"], correctAnswer: "Я хочу", hint: "I'd like = I would like — я бы хотел" },
-      { type: 'quiz', question: "«Сколько это стоит?» по-английски: How (...)_ is it?", options: ["английски", "стоит", "how", "much", "is"], correctAnswer: "much", hint: "How much is it? — сколько стоит?" },
+      { type: 'quiz', question: "«Сколько это стоит?» по-английски: How (...)_ is it?", options: ["Hello", "стоит", "how", "much", "is"], correctAnswer: "much", hint: "How much is it? — сколько стоит?" },
       { type: 'quiz', question: "What does «menu» mean?", options: ["Еда", "Официант", "Меню", "Счёт", "Стол"], correctAnswer: "Меню", hint: "Menu — меню (перечень блюд)" },
       { type: 'quiz', question: "What does «Enjoy your meal!» mean?", options: ["До свидания", "Приятного аппетита!", "Спасибо", "Пожалуйста", "Как вкусно!"], correctAnswer: "Приятного аппетита!", hint: "Enjoy your meal — приятного аппетита" }
     ],
@@ -1585,7 +1585,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «автобус» in English?", options: ["Car", "Bus", "Train", "Bike", "Taxi"], correctAnswer: "Bus", hint: "Bus — автобус" },
       { type: 'quiz', question: "What does «underground» mean?", options: ["Поезд", "Самолёт", "Метро", "Трамвай", "Велосипед"], correctAnswer: "Метро", hint: "Underground (брит.) = Subway (амер.)" },
-      { type: 'quiz', question: "«Самолёт» по-английски: (...)_", options: ["plane", "не знаю", "нет", "самолёт", "английски"], correctAnswer: "plane", hint: "Plane — самолёт" },
+      { type: 'quiz', question: "«Самолёт» по-английски: (...)_", options: ["plane", "Hello", "Природа", "самолёт", "Природа"], correctAnswer: "plane", hint: "Plane — самолёт" },
       { type: 'quiz', question: "How do you say «Я еду в школу на автобусе»?", options: ["I go to school by car", "I go to school by bus", "I go to school by train", "I go to school by plane", "I go to school by bike"], correctAnswer: "I go to school by bus", hint: "By bus — на автобусе" },
       { type: 'quiz', question: "What does «ship» mean?", options: ["Машина", "Поезд", "Корабль", "Велосипед", "Трамвай"], correctAnswer: "Корабль", hint: "Ship — корабль" }
     ],
@@ -1600,7 +1600,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "How do you say «библиотека» in English?", options: ["Shop", "Hospital", "Library", "Museum", "School"], correctAnswer: "Library", hint: "Library — библиотека" },
       { type: 'quiz', question: "What does «museum» mean?", options: ["Школа", "Больница", "Парк", "Музей", "Магазин"], correctAnswer: "Музей", hint: "Museum — музей" },
-      { type: 'quiz', question: "«Больница» по-английски: (...)_", options: ["больница", "не знаю", "нет", "английски", "hospital"], correctAnswer: "hospital", hint: "Hospital — больница" },
+      { type: 'quiz', question: "«Больница» по-английски: (...)_", options: ["больница", "Hello", "Природа", "Природа", "hospital"], correctAnswer: "hospital", hint: "Hospital — больница" },
       { type: 'quiz', question: "How do you ask «Где банк?»?", options: ["What is the bank?", "Where is the bank?", "Who is the bank?", "How is the bank?", "Why is the bank?"], correctAnswer: "Where is the bank?", hint: "Where is...? — Где...?" },
       { type: 'quiz', question: "What does «park» mean?", options: ["Магазин", "Ресторан", "Парк", "Кинотеатр", "Банк"], correctAnswer: "Парк", hint: "Park — парк" }
     ],
@@ -1615,7 +1615,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "Where is Big Ben?", options: ["Paris", "Moscow", "London", "New York", "Rome"], correctAnswer: "London", hint: "Big Ben — знаменитая башня в Лондоне" },
       { type: 'quiz', question: "What does «castle» mean?", options: ["Церковь", "Мост", "Замок", "Башня", "Площадь"], correctAnswer: "Замок", hint: "Castle — замок" },
-      { type: 'quiz', question: "«Мост» по-английски: (...)_", options: ["нет", "мост", "bridge", "английски", "не знаю"], correctAnswer: "bridge", hint: "Bridge — мост" },
+      { type: 'quiz', question: "«Мост» по-английски: (...)_", options: ["Hello", "мост", "bridge", "Природа", "Природа"], correctAnswer: "bridge", hint: "Bridge — мост" },
       { type: 'quiz', question: "Where is the Eiffel Tower?", options: ["London", "Moscow", "Berlin", "Paris", "Rome"], correctAnswer: "Paris", hint: "Eiffel Tower — Эйфелева башня в Париже" },
       { type: 'quiz', question: "What does «square» mean?", options: ["Улица", "Мост", "Фонтан", "Площадь", "Памятник"], correctAnswer: "Площадь", hint: "Square — площадь" }
     ],
@@ -1630,7 +1630,7 @@ export const games: GameLesson[] = [
     tasks: [
       { type: 'quiz', question: "What is the capital of France?", options: ["London", "Berlin", "Paris", "Madrid", "Rome"], correctAnswer: "Paris", hint: "Столица Франции — Париж" },
       { type: 'quiz', question: "What nationality is someone from Germany?", options: ["French", "English", "Spanish", "German", "Italian"], correctAnswer: "German", hint: "Germany — German" },
-      { type: 'quiz', question: "«Япония» по-английски: (...)_", options: ["япония", "нет", "Japan", "английски", "не знаю"], correctAnswer: "Japan", hint: "Japan — Япония" },
+      { type: 'quiz', question: "«Япония» по-английски: (...)_", options: ["япония", "Hello", "Japan", "Природа", "Природа"], correctAnswer: "Japan", hint: "Japan — Япония" },
       { type: 'quiz', question: "How do you say «Россия — большая страна»?", options: ["Russia is small", "Russia is big", "Russia is old", "Russia is new", "Russia is beautiful"], correctAnswer: "Russia is big", hint: "Big — большой, страна — country" },
       { type: 'quiz', question: "What does «The USA» mean?", options: ["Англия", "Франция", "Германия", "США", "Испания"], correctAnswer: "США", hint: "The USA = The United States of America" }
     ],
