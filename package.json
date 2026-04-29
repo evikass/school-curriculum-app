@@ -10,7 +10,7 @@
     "lint": "next lint",
     "export": "next build",
     "prebuild": "node scripts/generate-version.cjs",
-    "cap:init": "npx cap init \u0418\u041d\u0415\u0422\u0428\u041a\u041e\u041b\u0410 ru.evika.inetshkola --web-dir out",
+    "cap:init": "npx cap init ИНЕТШКОЛА ru.evika.inetshkola --web-dir out",
     "cap:add:android": "npx cap add android",
     "cap:copy": "npx cap copy",
     "cap:sync": "npx cap sync",

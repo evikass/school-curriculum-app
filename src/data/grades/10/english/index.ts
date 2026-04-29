@@ -267,7 +267,7 @@ export const games: GameLesson[] = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: "Какое предлог нужно перед 'my opinion'?", options: ["In", "On", "At", "For", "To"], correctAnswer: "In", hint: "In my opinion..." },
-      { type: 'quiz', question: "I couldn't agree more означает:", options: ["Полностью согласен", "Не согласен", "Частично согласен", "Не знаю", "—"], correctAnswer: "Полностью согласен", hint: "Не могу не согласиться" },
+      { type: 'quiz', question: "I couldn't agree more означает:", options: ["Полностью согласен", "Не согласен", "Частично согласен", "Скорее согласен", "—"], correctAnswer: "Полностью согласен", hint: "Не могу не согласиться" },
       { type: 'quiz', question: "I'm ___ I disagree. — Боюсь, я не согласен.", options: ["afraid", "sure", "certain", "happy", "glad"], correctAnswer: "afraid", hint: "Вежливое несогласие" },
       { type: 'quiz', question: "Для вежливого прерывания используют:", options: ["Sorry to interrupt, but...", "Stop talking!", "Be quiet!", "Shut up!", "—"], correctAnswer: "Sorry to interrupt, but...", hint: "Извините, что перебиваю, но..." },
       { type: 'quiz', question: "To ___ up, ... — Подводя итог...", options: ["sum", "add", "give", "look", "come"], correctAnswer: "sum", hint: "To sum up, in conclusion" }

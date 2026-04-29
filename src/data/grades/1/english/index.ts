@@ -434,14 +434,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Как сказать «Привет» по-английски?",
-        options: ["Goodbye", "Hello", "Thanks", "Никто не знает", "Не знаю"],
+        options: ["Goodbye", "Hello", "Thanks", "Good day", "How are you"],
         correctAnswer: "Hello",
         hint: "Это самое популярное приветствие"
       },
       {
         type: 'quiz',
         question: "Как ещё можно поздороваться?",
-        options: ["Hi", "Bye", "No", "Никто не знает", "Не знаю"],
+        options: ["Hi", "Bye", "No", "Morning", "Hello there"],
         correctAnswer: "Hi",
         hint: "Это короткое приветствие"
       },
@@ -455,14 +455,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "What is your name? — это...",
-        options: ["Как дела?", "Как тебя зовут?", "Сколько тебе лет?", "Никто не знает", "Не знаю"],
+        options: ["Как дела?", "Как тебя зовут?", "Сколько тебе лет?", "Как твои дела?", "Ты кто?"],
         correctAnswer: "Как тебя зовут?",
         hint: "Name = имя"
       },
       {
         type: 'quiz',
         question: "Good morning — это...",
-        options: ["Добрый вечер", "Доброе утро", "Добрый день", "Никто не знает", "Не знаю"],
+        options: ["Добрый вечер", "Доброе утро", "Добрый день", "Утро доброе", "Доброе время суток"],
         correctAnswer: "Доброе утро",
         hint: "Говорим это утром"
       }
@@ -478,14 +478,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Red - это какой цвет?",
-        options: ["Синий", "Красный", "Зелёный", "Никто не знает", "Не знаю"],
+        options: ["Синий", "Красный", "Зелёный", "Оранжевый", "Фиолетовый"],
         correctAnswer: "Красный",
         hint: "Red = Красный"
       },
       {
         type: 'quiz',
         question: "Как будет «синий» по-английски?",
-        options: ["Red", "Blue", "Green", "Никто не знает", "Не знаю"],
+        options: ["Red", "Blue", "Green", "Purple", "Yellow"],
         correctAnswer: "Blue",
         hint: "Blue = Синий"
       },
@@ -499,14 +499,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Какого цвета трава?",
-        options: ["Red", "Blue", "Green", "Никто не знает", "Не знаю"],
+        options: ["Red", "Blue", "Green", "Brown", "Yellow"],
         correctAnswer: "Green",
         hint: "Трава зелёная"
       },
       {
         type: 'quiz',
         question: "Yellow - это какой цвет?",
-        options: ["Жёлтый", "Красный", "Синий", "Никто не знает", "Не знаю"],
+        options: ["Жёлтый", "Красный", "Синий", "Оранжевый", "Фиолетовый"],
         correctAnswer: "Жёлтый",
         hint: "Yellow = Жёлтый, как солнышко"
       }
@@ -522,14 +522,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "One - это какое число?",
-        options: ["Один", "Два", "Три", "Никто не знает", "Не знаю"],
+        options: ["Один", "Два", "Три", "Ноль", "Четыре"],
         correctAnswer: "Один",
         hint: "One = 1"
       },
       {
         type: 'quiz',
         question: "Как будет «пять» по-английски?",
-        options: ["Four", "Five", "Six", "Никто не знает", "Не знаю"],
+        options: ["Four", "Five", "Six", "Seven", "Three"],
         correctAnswer: "Five",
         hint: "Five = 5"
       },
@@ -543,14 +543,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Ten - это?",
-        options: ["8", "9", "10", "Никто не знает", "Не знаю"],
+        options: ["8", "9", "10", "eleven", "twelve"],
         correctAnswer: "10",
         hint: "Ten = 10"
       },
       {
         type: 'quiz',
         question: "Как будет «семь» по-английски?",
-        options: ["Six", "Seven", "Eight", "Никто не знает", "Не знаю"],
+        options: ["Six", "Seven", "Eight", "Sevenn", "Seveen"],
         correctAnswer: "Seven",
         hint: "Seven = 7"
       }
@@ -566,14 +566,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Cat - это?",
-        options: ["Собака", "Кошка", "Птица", "Никто не знает", "Не знаю"],
+        options: ["Собака", "Кошка", "Птица", "Кот", "Кошечка"],
         correctAnswer: "Кошка",
         hint: "Cat = Кошка"
       },
       {
         type: 'quiz',
         question: "Как будет «собака» по-английски?",
-        options: ["Cat", "Dog", "Bird", "Никто не знает", "Не знаю"],
+        options: ["Cat", "Dog", "Bird", "Dogg", "Doog"],
         correctAnswer: "Dog",
         hint: "Dog = Собака"
       },
@@ -587,14 +587,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Fish - это?",
-        options: ["Птица", "Рыба", "Кошка", "Никто не знает", "Не знаю"],
+        options: ["Птица", "Рыба", "Кошка", "Рыбка", "Рыбина"],
         correctAnswer: "Рыба",
         hint: "Fish живёт в воде"
       },
       {
         type: 'quiz',
         question: "Bird - это?",
-        options: ["Рыба", "Птица", "Собака", "Никто не знает", "Не знаю"],
+        options: ["Рыба", "Птица", "Собака", "Птичка", "Hello"],
         correctAnswer: "Птица",
         hint: "Bird летает в небе"
       }
@@ -610,14 +610,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Как сказать «Привет» по-английски?",
-        options: ["Bye", "Hello", "Thanks", "Никто не знает", "Не знаю"],
+        options: ["Bye", "Hello", "Thanks", "Hi", "Hey"],
         correctAnswer: "Hello",
         hint: "Приветствие"
       },
       {
         type: 'quiz',
         question: "Как сказать «До свидания» по-английски?",
-        options: ["Hello", "Goodbye", "Sorry", "Никто не знает", "Не знаю"],
+        options: ["Hello", "Goodbye", "Sorry", "Bye bye", "Good bye"],
         correctAnswer: "Goodbye",
         hint: "Прощание"
       },
@@ -638,7 +638,7 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "See you — это...",
-        options: ["Привет", "До свидания", "Спасибо", "Никто не знает", "Не знаю"],
+        options: ["Привет", "До свидания", "Спасибо", "Увидимся", "Пока"],
         correctAnswer: "До свидания",
         hint: "See you = Увидимся/До встречи"
       }
@@ -654,14 +654,14 @@ export const games: GameLesson[] = [
       {
         type: 'quiz',
         question: "Как будет «6» по-английски?",
-        options: ["Five", "Six", "Seven", "Никто не знает", "Не знаю"],
+        options: ["Five", "Six", "Seven", "Sixx", "Sic"],
         correctAnswer: "Six",
         hint: "Six = 6"
       },
       {
         type: 'quiz',
         question: "Как будет «8» по-английски?",
-        options: ["Seven", "Eight", "Nine", "Никто не знает", "Не знаю"],
+        options: ["Seven", "Eight", "Nine", "Five", "Ten"],
         correctAnswer: "Eight",
         hint: "Eight = 8"
       },
