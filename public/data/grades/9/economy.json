@@ -293,7 +293,7 @@
   },
   "games": [
     {
-      "title": "Экономика: основы",
+      "title": "Что такое экономика",
       "subject": "Экономика",
       "icon": "Banknote",
       "color": "text-emerald-400",
@@ -514,7 +514,7 @@
       }
     },
     {
-      "title": "Рынок и рыночное равновесие",
+      "title": "Рынок и его функции",
       "subject": "Экономика",
       "icon": "Banknote",
       "color": "text-emerald-400",
@@ -738,7 +738,7 @@
       }
     },
     {
-      "title": "Конкуренция и монополия",
+      "title": "Конкуренция",
       "subject": "Экономика",
       "icon": "Banknote",
       "color": "text-emerald-400",
@@ -1627,7 +1627,7 @@
       }
     },
     {
-      "title": "Финансовые цели и инвестиции",
+      "title": "Финансовые цели",
       "subject": "Экономика",
       "icon": "Banknote",
       "color": "text-emerald-400",
@@ -2073,7 +2073,7 @@
       }
     },
     {
-      "title": "Основы предпринимательства",
+      "title": "Что такое бизнес",
       "subject": "Экономика",
       "icon": "Banknote",
       "color": "text-emerald-400",
@@ -2297,7 +2297,7 @@
       }
     },
     {
-      "title": "Бизнес-планирование",
+      "title": "Бизнес-план",
       "subject": "Экономика",
       "icon": "Banknote",
       "color": "text-emerald-400",
@@ -2745,7 +2745,7 @@
       }
     },
     {
-      "title": "Итоговый тест по экономике",
+      "title": "Итоговый проект",
       "subject": "Экономика",
       "icon": "Banknote",
       "color": "text-emerald-400",

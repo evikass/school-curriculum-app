@@ -1318,7 +1318,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Земля как планета",
+    title: "Форма и размеры Земли",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1331,7 +1331,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь планету Земля! 🌍" }
   },
   {
-    title: "Гидросфера и атмосфера",
+    title: "Градусная сеть",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1344,7 +1344,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь гидросферу и атмосферу! 🌊" }
   },
   {
-    title: "Градусная сеть",
+    title: "Времена года и пояса освещённости",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1363,7 +1363,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты умеешь работать с координатами! 🗺️" }
   },
   {
-    title: "Времена года и пояса освещённости",
+    title: "Мировой океан",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1382,7 +1382,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты знаешь о временах года! ☀️" }
   },
   {
-    title: "Мировой океан",
+    title: "Движение вод океана",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1401,7 +1401,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь Мировой океан! 🌊" }
   },
   {
-    title: "Движение вод океана",
+    title: "Воды суши",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1420,7 +1420,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты знаешь о движении вод! 🌀" }
   },
   {
-    title: "Воды суши",
+    title: "Строение атмосферы",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",

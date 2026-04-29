@@ -860,7 +860,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Движения 🏃",
+    title: "Ходьба и бег",
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -904,7 +904,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь упражнения! 💪" }
   },
   {
-    title: "Игры 🎮",
+    title: "Прыжки",
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -948,7 +948,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты любишь игры! 🏃" }
   },
   {
-    title: "Гимнастика 🤸",
+    title: "Наклоны и повороты",
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -992,7 +992,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты готов к физкультуре! 🏆" }
   },
   {
-    title: "Спортивные правила 📋",
+    title: "Приседания",
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1036,7 +1036,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь правила! 🥇" }
   },
   {
-    title: "Ходьба и бег 🏃",
+    title: "Прятки",
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1080,7 +1080,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты умеешь ходить и бегать! 🏃" }
   },
   {
-    title: "Прыжки 🦘",
+    title: "Догонялки",
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1124,7 +1124,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь прыгать! 🦘" }
   },
   {
-    title: "Наклоны и повороты ↩️",
+    title: "Эстафета",
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1168,7 +1168,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты гибкий! ↩️" }
   },
   {
-    title: "Приседания 🏋️",
+    title: "Игры с мячом",
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1212,7 +1212,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты сильный! 🏋️" }
   },
   {
-    title: "Прятки 👀",
+    title: "Разминка",
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1256,7 +1256,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты умеешь играть в прятки! 👀" }
   },
   {
-    title: "Эстафета 🏁",
+    title: "Упражнения",
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1300,7 +1300,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты командный игрок! 🏁" }
   },
   {
-    title: "Игры с мячом ⚽",
+    title: "Равновесие",
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1344,7 +1344,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты умеешь играть с мячом! ⚽" }
   },
   {
-    title: "Равновесие и дыхание 🧘",
+    title: "Дыхание",
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",

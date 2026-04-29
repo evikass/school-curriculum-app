@@ -296,9 +296,9 @@
   },
   "games": [
     {
-      "title": "Продвинутая робототехника 🤖",
+      "title": "Продвинутая робототехника",
       "subject": "Технология",
-      "icon": "BookOpenText",
+      "icon": "Cpu",
       "color": "text-purple-400",
       "tasks": [
         {
@@ -449,9 +449,9 @@
       }
     },
     {
-      "title": "Программирование роботов 💻",
+      "title": "Программирование роботов",
       "subject": "Технология",
-      "icon": "BookOpenText",
+      "icon": "Cpu",
       "color": "text-purple-400",
       "tasks": [
         {
@@ -601,9 +601,9 @@
       }
     },
     {
-      "title": "Мехатроника ⚙️",
+      "title": "Мехатроника",
       "subject": "Технология",
-      "icon": "BookOpenText",
+      "icon": "Cpu",
       "color": "text-purple-400",
       "tasks": [
         {
@@ -754,9 +754,9 @@
       }
     },
     {
-      "title": "Проект «Умный дом» 🏠",
+      "title": "Проект \"Умный дом\"",
       "subject": "Технология",
-      "icon": "BookOpenText",
+      "icon": "Cpu",
       "color": "text-purple-400",
       "tasks": [
         {
@@ -910,9 +910,9 @@
       }
     },
     {
-      "title": "CAD-системы 🖥️",
+      "title": "CAD-системы",
       "subject": "Технология",
-      "icon": "BookOpenText",
+      "icon": "Cpu",
       "color": "text-purple-400",
       "tasks": [
         {
@@ -1063,9 +1063,9 @@
       }
     },
     {
-      "title": "Сложные 3D-модели 🎨",
+      "title": "Сложные модели",
       "subject": "Технология",
-      "icon": "BookOpenText",
+      "icon": "Cpu",
       "color": "text-purple-400",
       "tasks": [
         {
@@ -1215,9 +1215,9 @@
       }
     },
     {
-      "title": "Подготовка к 3D-печати 🖨️",
+      "title": "Подготовка к печати",
       "subject": "Технология",
-      "icon": "BookOpenText",
+      "icon": "Cpu",
       "color": "text-purple-400",
       "tasks": [
         {
@@ -1370,9 +1370,9 @@
       }
     },
     {
-      "title": "Проект «Функциональная модель» 🔧",
+      "title": "Проект \"Функциональная модель\"",
       "subject": "Технология",
-      "icon": "BookOpenText",
+      "icon": "Cpu",
       "color": "text-purple-400",
       "tasks": [
         {
@@ -1524,9 +1524,9 @@
       }
     },
     {
-      "title": "Управление проектами 📋",
+      "title": "Управление проектами",
       "subject": "Технология",
-      "icon": "BookOpenText",
+      "icon": "Cpu",
       "color": "text-purple-400",
       "tasks": [
         {
@@ -1614,9 +1614,9 @@
       }
     },
     {
-      "title": "Командная работа 🤝",
+      "title": "Командная работа",
       "subject": "Технология",
-      "icon": "BookOpenText",
+      "icon": "Cpu",
       "color": "text-purple-400",
       "tasks": [
         {
@@ -1767,9 +1767,9 @@
       }
     },
     {
-      "title": "Презентация проекта 🎤",
+      "title": "Презентация проекта",
       "subject": "Технология",
-      "icon": "BookOpenText",
+      "icon": "Cpu",
       "color": "text-purple-400",
       "tasks": [
         {
@@ -1856,9 +1856,9 @@
       }
     },
     {
-      "title": "Итоговый проект 🏆",
+      "title": "Итоговый проект",
       "subject": "Технология",
-      "icon": "BookOpenText",
+      "icon": "Cpu",
       "color": "text-purple-400",
       "tasks": [
         {

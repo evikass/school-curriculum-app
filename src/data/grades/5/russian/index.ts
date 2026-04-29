@@ -2130,7 +2130,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Фонетика и графика",
+    title: "Звуки и буквы",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2153,7 +2153,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь фонетику! 📚" }
   },
   {
-    title: "Состав слова",
+    title: "Гласные звуки и буквы",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2176,7 +2176,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь состав слова! ✏️" }
   },
   {
-    title: "Части речи",
+    title: "Согласные звуки",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2189,7 +2189,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь части речи! 📖" }
   },
   {
-    title: "Орфография",
+    title: "Твёрдые и мягкие согласные",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2208,7 +2208,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты знаешь орфографию! ✍️" }
   },
   {
-    title: "Синтаксис",
+    title: "Состав слова",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2221,7 +2221,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь синтаксис! 📝" }
   },
   {
-    title: "Урок 2: Гласные звуки и буквы",
+    title: "Корень слова",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2247,7 +2247,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь гласные звуки! 🔤" }
   },
   {
-    title: "Урок 3: Согласные звуки",
+    title: "Приставка и суффикс",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2275,7 +2275,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты разбираешься в согласных! 🗣️" }
   },
   {
-    title: "Урок 4: Твёрдые и мягкие согласные",
+    title: "Словообразование",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2301,7 +2301,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь твёрдые и мягкие согласные! ✅" }
   },
   {
-    title: "Урок 6: Корень слова",
+    title: "Части речи",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2327,7 +2327,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь корень слова! 🌳" }
   },
   {
-    title: "Урок 7: Приставка и суффикс",
+    title: "Имя существительное",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2353,7 +2353,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты знаешь приставки и суффиксы! 🔧" }
   },
   {
-    title: "Урок 8: Словообразование",
+    title: "Имя прилагательное",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2379,7 +2379,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь способы словообразования! 🧩" }
   },
   {
-    title: "Урок 10: Имя существительное",
+    title: "Глагол",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2405,7 +2405,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты знаешь имя существительное! 📗" }
   },
   {
-    title: "Урок 11: Имя прилагательное",
+    title: "Местоимение",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2431,7 +2431,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь прилагательные! 🌈" }
   },
   {
-    title: "Урок 12: Глагол",
+    title: "Наречие",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2458,7 +2458,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь глаголы! 🏃" }
   },
   {
-    title: "Урок 13: Местоимение",
+    title: "Безударные гласные в корне",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2484,7 +2484,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты знаешь местоимения! 👆" }
   },
   {
-    title: "Урок 14: Наречие",
+    title: "Правописание приставок",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2510,7 +2510,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь наречия! ⚡" }
   },
   {
-    title: "Урок 16: Правописание приставок",
+    title: "Корни с чередованием",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2536,7 +2536,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь приставки! 📝" }
   },
   {
-    title: "Урок 17: Корни с чередованием",
+    title: "Правописание суффиксов",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2562,7 +2562,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты знаешь чередования! 🔄" }
   },
   {
-    title: "Урок 18: Правописание суффиксов",
+    title: "Словосочетание",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2588,7 +2588,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь суффиксы! ✏️" }
   },
   {
-    title: "Урок 20: Предложение",
+    title: "Предложение",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2614,7 +2614,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь предложения! 📄" }
   },
   {
-    title: "Урок 21: Второстепенные члены предложения",
+    title: "Второстепенные члены предложения",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2640,7 +2640,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты знаешь второстепенные члены! 🏗️" }
   },
   {
-    title: "Урок 22: Однородные члены предложения",
+    title: "Однородные члены предложения",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2666,7 +2666,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь однородные члены! 📋" }
   },
   {
-    title: "Урок 23: Текст и его признаки",
+    title: "Текст и его признаки",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -2693,7 +2693,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты знаешь признаки текста! 📚" }
   },
   {
-    title: "Урок 24: Типы речи",
+    title: "Типы речи",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",

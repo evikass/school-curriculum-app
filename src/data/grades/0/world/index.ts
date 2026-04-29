@@ -574,7 +574,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Времена года 🍂",
+    title: "Времена года",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -618,7 +618,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты знаешь времена года! 🍂🌸" }
   },
   {
-    title: "Домашние животные 🐄",
+    title: "Домашние животные",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -662,7 +662,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь домашних животных! 🐄🐱🐕" }
   },
   {
-    title: "Дикие животные 🐻",
+    title: "Дикие животные",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -706,7 +706,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь лесных жителей! 🐻🦊🐺" }
   },
   {
-    title: "Части суток 🌅",
+    title: "Правила безопасности",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -750,7 +750,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь части суток! 🌅🌙" }
   },
   {
-    title: "Овощи и фрукты 🥕🍎",
+    title: "Части суток",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -794,7 +794,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты различаешь овощи и фрукты! 🥕🍎" }
   },
   {
-    title: "Правила безопасности 🚦",
+    title: "Овощи и фрукты",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -838,7 +838,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь правила безопасности! 🚦" }
   },
   {
-    title: "Птицы 🐦",
+    title: "Птицы",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -882,7 +882,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты знаешь птиц! 🐦🕊️🐤" }
   },
   {
-    title: "Деревья 🌳",
+    title: "Деревья",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",

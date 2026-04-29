@@ -414,7 +414,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Учим цифры 1-5 🔢",
+    title: "Счёт до 5",
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -428,7 +428,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты выучил цифры 1-5! 🌟" }
   },
   {
-    title: "Учим цифры 6-10 🔢",
+    title: "Счёт до 10",
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -442,7 +442,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь цифры до 10! 🎉" }
   },
   {
-    title: "Счёт предметов 🍎",
+    title: "Цифры 1-5",
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -456,7 +456,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Умница! Ты умеешь считать предметы! 🔢" }
   },
   {
-    title: "Сравниваем числа ⚖️",
+    title: "Цифры 6-9 и 0",
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -470,7 +470,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты умеешь сравнивать числа! ⚖️" }
   },
   {
-    title: "Геометрические фигуры 🔷",
+    title: "Сравнение групп",
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -484,7 +484,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Замечательно! Ты знаешь фигуры! 🔷🔶" }
   },
   {
-    title: "Соседи чисел 🏠",
+    title: "Геометрические фигуры",
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -498,7 +498,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь соседей чисел! 🏠" }
   },
   {
-    title: "Ноль и десять 0️⃣🔟",
+    title: "Счёт в пределах 10",
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -512,7 +512,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты понимаешь 0 и 10! ✨" }
   },
   {
-    title: "Повторение счёта 🔄",
+    title: "Повторение",
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",

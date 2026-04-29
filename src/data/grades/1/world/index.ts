@@ -569,7 +569,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
 {
-    title: "Что такое окружающий мир? 🌍",
+    title: "Что такое окружающий мир?",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -613,7 +613,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь, что такое окружающий мир! 🌍" }
   },
 {
-    title: "Времена года 🍂🌸",
+    title: "Живая и неживая природа",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -657,7 +657,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты знаешь времена года! 🍂🌸" }
   },
 {
-    title: "Живая и неживая природа 🌿",
+    title: "Времена года",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -701,7 +701,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты различаешь природу! 🌿" }
   },
 {
-    title: "Домашние животные 🐄🐱🐕",
+    title: "Растения",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -745,7 +745,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь домашних животных! 🐄🐱🐕" }
   },
 {
-    title: "Дикие животные 🐻🦊🐺",
+    title: "Домашние животные",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -789,7 +789,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь лесных жителей! 🐻🦊🐺" }
   },
 {
-    title: "Птицы 🐦🕊️",
+    title: "Дикие животные",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -833,7 +833,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты знаешь птиц! 🐦🕊️" }
   },
 {
-    title: "Растения 🌳🌸",
+    title: "Птицы",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -877,7 +877,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь растения! 🌳🌸" }
   },
 {
-    title: "Правила дорожного движения 🚦",
+    title: "Правила безопасности",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",

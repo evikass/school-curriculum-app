@@ -377,7 +377,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Материаловедение",
+    title: "Свойства и пороки древесины",
     image: "/school-curriculum-app/images/lessons/grade7/tech/lesson16.svg",
     subject: "Технология",
     icon: "Ruler",
@@ -392,7 +392,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь материалы! 🔧" }
   },
   {
-    title: "Технологии обработки",
+    title: "Ручная обработка древесины",
     image: "/school-curriculum-app/images/lessons/grade7/tech/lesson17.svg",
     subject: "Технология",
     icon: "Ruler",
@@ -407,7 +407,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты владеешь технологиями! ⚙️" }
   },
   {
-    title: "Обработка древесины",
+    title: "Свойства металлов и сплавов",
     image: "/school-curriculum-app/images/lessons/grade7/tech/lesson18.svg",
     subject: "Технология",
     icon: "Ruler",
@@ -428,7 +428,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь обработку древесины! 🪵" }
   },
   {
-    title: "Кулинария и проекты",
+    title: "Приготовление блюд из яиц и теста",
     image: "/school-curriculum-app/images/lessons/grade7/tech/lesson19.svg",
     subject: "Технология",
     icon: "Ruler",
@@ -443,7 +443,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь кулинарию и проекты! 🍳" }
   },
   {
-    title: "Свойства и пороки древесины",
+    title: "Этапы проекта",
     image: "/school-curriculum-app/images/lessons/grade7/tech/lesson20.svg",
     subject: "Технология",
     icon: "Ruler",

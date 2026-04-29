@@ -630,7 +630,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Физические качества",
+    title: "Гигиена и закаливание",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -643,7 +643,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь физические качества! 💪" }
   },
   {
-    title: "Спортивные игры",
+    title: "Строевые упражнения",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -656,7 +656,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь спортивные игры! 🏀" }
   },
   {
-    title: "Гигиена и закаливание",
+    title: "Развитие физических качеств",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -680,7 +680,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь гигиену и закаливание! 🛁" }
   },
   {
-    title: "Строевые упражнения",
+    title: "Акробатические упражнения",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -704,7 +704,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь строевые упражнения! 🫡" }
   },
   {
-    title: "Акробатические упражнения",
+    title: "Упражнения на равновесие",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -728,7 +728,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь акробатические упражнения! 🤸" }
   },
   {
-    title: "Упражнения на равновесие",
+    title: "Баскетбол",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",

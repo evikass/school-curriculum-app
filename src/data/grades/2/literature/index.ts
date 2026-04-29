@@ -577,7 +577,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Авторы и сказки 📚",
+    title: "Русские народные сказки",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -621,7 +621,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь авторов! 📚" }
   },
   {
-    title: "Герои русских сказок 🏰",
+    title: "Сказка «Колобок»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -665,7 +665,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь героев сказок! ✨" }
   },
   {
-    title: "Басни Крылова 🦊",
+    title: "Сказка «Теремок»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -709,7 +709,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты знаешь басни! 🦊" }
   },
   {
-    title: "Детские поэты 🎭",
+    title: "Пословицы и поговорки",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -753,7 +753,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь детских поэтов! 🎭" }
   },
   {
-    title: "Пословицы и поговорки 💬",
+    title: "А.С. Пушкин",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -797,7 +797,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь пословицы! 💬" }
   },
   {
-    title: "События сказок 📖",
+    title: "И.А. Крылов",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -841,7 +841,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты помнишь сюжет! 📖" }
   },
   {
-    title: "Зарубежные сказки 🌍",
+    title: "Л.Н. Толстой",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -885,7 +885,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь зарубежные сказки! 🌍" }
   },
   {
-    title: "Басни И.А. Крылова 🦊",
+    title: "К.И. Чуковский",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -929,7 +929,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь басни Крылова! 🦊" }
   },
   {
-    title: "Рассказы Л.Н. Толстого 📚",
+    title: "Шарль Перро",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -973,7 +973,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь рассказы Толстого! 📚" }
   },
   {
-    title: "Стихи К.И. Чуковского 🎭",
+    title: "Ганс Христиан Андерсен",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",

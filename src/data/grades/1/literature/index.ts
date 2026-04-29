@@ -879,7 +879,7 @@ export const lessons: SubjectData = {
 
 export const games = [
 {
-    title: "Сказка «Колобок» 📖",
+    title: "«Колобок»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -893,7 +893,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь сказку! 📖" }
   },
 {
-    title: "Сказка «Теремок» 🏠",
+    title: "«Теремок»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -907,7 +907,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты помнишь сказку! 🏠" }
   },
 {
-    title: "Сказка «Репка» 🥕",
+    title: "«Репка»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -921,7 +921,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Вместе — сила! 💪" }
   },
 {
-    title: "А.Л. Барто «Игрушки»",
+    title: "«Курочка Ряба»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -935,7 +935,7 @@ export const games = [
     reward: { stars: 3, message: "Замечательно! Ты знаешь стихи! 📚" }
   },
 {
-    title: "Доктор Айболит 👨‍⚕️",
+    title: "А.С. Пушкин «Сказка о рыбаке и рыбке»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -949,7 +949,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь Айболита! 🏥" }
   },
 {
-    title: "Сказка «Колобок» 🍞",
+    title: "К.И. Чуковский «Муха-Цокотуха»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -963,7 +963,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты знаешь Колобка! 🍞" }
   },
 {
-    title: "Стихи А.Л. Барто 🧸",
+    title: "К.И. Чуковский «Доктор Айболит»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -977,7 +977,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь стихи Барто! 🧸" }
   },
 {
-    title: "Стихи С.Я. Маршака 📚",
+    title: "А.Л. Барто «Игрушки»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -991,7 +991,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь Маршака! 📚" }
   },
 {
-    title: "Стихи С.В. Михалкова 📏",
+    title: "С.Я. Маршак «Детям»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1005,7 +1005,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь Михалкова! 📏" }
   },
 {
-    title: "Стихи о детстве 🌳",
+    title: "С.В. Михалков «Дети»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1018,5 +1018,41 @@ export const games = [
     ],
     reward: { stars: 3, message: "Прекрасно! Ты понимаешь стихи! 🌳" }
   }
-]
+,
+  {
+    title: "В.Д. Берестов «Первый в школе»",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-purple-400",
+    tasks: [
+      { type: 'quiz', question: "Рассказать о своём первом дне в школе", options: ["Тема", "Герой", "Сюжет", "🏫 В.Д. Берестов «Первый в школе»", "Автор"],
+        examples: [
+        "Портфель с книгами и тетрадями 🎒",
+        "Пенал с ручками и карандашами ✏️",
+        "Дневник для заданий 📋"
+        ], correctAnswer: "🏫 В.Д. Берестов «Первый в школе»", hint: "Вспомни урок" },
+      { type: 'quiz', question: "Назвать школьные принадлежности", options: ["Тема", "Сюжет", "Автор", "См. материал урока", "Герой"], correctAnswer: "См. материал урока", hint: "Вспомни ключевые моменты" },
+      { type: 'quiz', question: "Какое утверждение правильно?", options: ["Тема", "Герой", "Сюжет", "Автор", ""], correctAnswer: "", hint: "Вспомни формулы из урока" },
+      { type: 'quiz', question: "Что относится к теме \"🏫 В.Д. Берестов «Первый в школе»\"?", options: ["Герой", "Сюжет", "Тема", "🏫 В.Д. Берестов «Первый в школе»", "Автор"], correctAnswer: "🏫 В.Д. Берестов «Первый в школе»", hint: "Вспомни тему 🏫 в.д. берестов «первый в школе»" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь: В.Д. Берестов «Первый в школе»!" }
+  },
+  {
+    title: "И.А. Бунин «Детство»",
+    subject: "Литература",
+    icon: "BookOpenText",
+    color: "text-purple-400",
+    tasks: [
+      { type: 'quiz', question: "Прочитать стихотворение", options: ["🌳 И.А. Бунин «Детство»", "Тема", "Сюжет", "Автор", "Герой"],
+        examples: [
+        "Лето — каникулы, речка, ягоды ☀️",
+        "Зима — санки, снеговик, ёлка ❄️",
+        "Весна — ручьи, цветы, птицы 🌸"
+        ], correctAnswer: "🌳 И.А. Бунин «Детство»", hint: "Вспомни урок" },
+      { type: 'quiz', question: "Рассказать о любимом времени года", options: ["Сюжет", "Герой", "Автор", "Тема", "См. материал урока"], correctAnswer: "См. материал урока", hint: "Вспомни ключевые моменты" },
+      { type: 'quiz', question: "Какое утверждение правильно?", options: ["Герой", "Тема", "Автор", "Сюжет", ""], correctAnswer: "", hint: "Вспомни формулы из урока" },
+      { type: 'quiz', question: "Что относится к теме \"🌳 И.А. Бунин «Детство»\"?", options: ["🌳 И.А. Бунин «Детство»", "Автор", "Герой", "Сюжет", "Тема"], correctAnswer: "🌳 И.А. Бунин «Детство»", hint: "Вспомни тему 🌳 и.а. бунин «детство»" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь: И.А. Бунин «Детство»!" }
+  }]
 

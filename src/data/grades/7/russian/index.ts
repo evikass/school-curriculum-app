@@ -437,7 +437,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Причастие и деепричастие",
+    title: "Фонетика и графика",
     image: "/school-curriculum-app/images/lessons/grade7/russian/lesson16.svg",
     subject: "Русский язык",
     icon: "BookOpen",
@@ -452,7 +452,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь причастия и деепричастия! 📝" }
   },
   {
-    title: "Наречие",
+    title: "Состав слова",
     image: "/school-curriculum-app/images/lessons/grade7/russian/lesson17.svg",
     subject: "Русский язык",
     icon: "BookOpen",
@@ -467,7 +467,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь наречия! ✏️" }
   },
   {
-    title: "Фонетика и состав слова",
+    title: "Причастие как часть речи",
     image: "/school-curriculum-app/images/lessons/grade7/russian/lesson18.svg",
     subject: "Русский язык",
     icon: "BookOpen",
@@ -482,7 +482,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь фонетику и состав слова! 🗣️" }
   },
   {
-    title: "Наречие: правила и usage",
+    title: "Правописание причастий",
     image: "/school-curriculum-app/images/lessons/grade7/russian/lesson19.svg",
     subject: "Русский язык",
     icon: "BookOpen",
@@ -497,7 +497,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты освоил правила наречий! 📝" }
   },
   {
-    title: "Фонетика и графика",
+    title: "Деепричастие как часть речи",
     image: "/school-curriculum-app/images/lessons/grade7/russian/lesson20.svg",
     subject: "Русский язык",
     icon: "BookOpen",
@@ -522,7 +522,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь фонетику и графику! 🗣️" }
   },
   {
-    title: "Состав слова",
+    title: "Наречие как часть речи",
     image: "/school-curriculum-app/images/lessons/grade7/russian/lesson21.svg",
     subject: "Русский язык",
     icon: "BookOpen",
@@ -547,7 +547,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь состав слова! 📖" }
   },
   {
-    title: "Причастие как часть речи",
+    title: "Правописание наречий",
     image: "/school-curriculum-app/images/lessons/grade7/russian/lesson22.svg",
     subject: "Русский язык",
     icon: "BookOpen",

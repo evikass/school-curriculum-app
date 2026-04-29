@@ -2238,7 +2238,7 @@ export const games = [
     reward: { stars: 3, message: "Ты знаешь CSS! 🎨" }
   },
   {
-    title: "Flask: создание веб-приложения",
+    title: "создание веб-приложения",
     subject: "Программирование",
     icon: "Flame",
     color: "text-gray-400",
@@ -2482,7 +2482,7 @@ export const games = [
     reward: { stars: 3, message: "Ты умеешь обрабатывать ошибки! ⚠️" }
   },
   {
-    title: "Git: контроль версий",
+    title: "контроль версий",
     subject: "Программирование",
     icon: "GitBranch",
     color: "text-orange-500",

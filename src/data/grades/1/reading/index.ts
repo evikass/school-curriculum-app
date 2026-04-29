@@ -1094,7 +1094,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Гласные звуки 🔊",
+    title: "Упражнения для языка",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1138,7 +1138,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь гласные звуки! 🔊" }
   },
   {
-    title: "Согласные звуки 🔤",
+    title: "Упражнения для губ",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1182,7 +1182,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь согласные! 🔤" }
   },
   {
-    title: "Первый и последний звук 👂",
+    title: "Упражнения для щёк",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1226,7 +1226,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты слышишь звуки! 👂" }
   },
   {
-    title: "Скороговорки 🗣️",
+    title: "Гласные звуки",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1270,7 +1270,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты отлично говоришь скороговорки! 🗣️" }
   },
   {
-    title: "Слова-предметы 📦",
+    title: "Согласные звуки",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1314,7 +1314,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь слова-предметы! 📦" }
   },
   {
-    title: "Слова-действия 🏃",
+    title: "Первый и последний звук",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1358,7 +1358,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь слова-действия! 🏃" }
   },
   {
-    title: "Слова-признаки 🌈",
+    title: "Сколько звуков в слове?",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1402,7 +1402,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь слова-признаки! 🌈" }
   },
   {
-    title: "Предлоги 📍",
+    title: "Слова-предметы",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1446,7 +1446,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь предлоги! 📍" }
   },
   {
-    title: "Составляем рассказ по картинке",
+    title: "Слова-действия",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1490,7 +1490,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь составлять рассказы! 📖" }
   },
   {
-    title: "Сказка 🏰",
+    title: "Слова-признаки",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1534,7 +1534,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты любишь сказки! 🏰" }
   },
   {
-    title: "Буквы и звуки 🔤",
+    title: "Слова-помощники",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1560,7 +1560,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты различаешь буквы и звуки! 🔤" }
   },
   {
-    title: "Слоги 📖",
+    title: "Что такое рассказ?",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1586,7 +1586,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь слоги! 📖" }
   },
   {
-    title: "Слова и предложения 📝",
+    title: "Составляем рассказ по картинке",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1612,7 +1612,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь предложения! 📝" }
   },
   {
-    title: "Ударение ⚡",
+    title: "Рассказ из личного опыта",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1638,7 +1638,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь ударение! ⚡" }
   },
   {
-    title: "Речь и общение 💬",
+    title: "Придумываем сказку",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1664,7 +1664,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь общаться! 💬" }
   },
   {
-    title: "Сказки и их герои 🏰",
+    title: "Скороговорки для звуков С и З",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1690,7 +1690,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты любишь сказки! 🏰" }
   },
   {
-    title: "Скороговорки 🎭",
+    title: "Скороговорки для звуков Ш и Ж",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1716,7 +1716,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Круто! Ты знаешь скороговорки! 🎭" }
   },
   {
-    title: "Загадки 🧩",
+    title: "Скороговорки для звуков Р и Л",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1742,7 +1742,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты любишь загадки! 🧩" }
   },
   {
-    title: "Пословицы и поговорки 💬",
+    title: "Учим стихи",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1768,7 +1768,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь пословицы! 💬" }
   },
   {
-    title: "Рассказывание историй 📖",
+    title: "Читаем стихи выразительно",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",

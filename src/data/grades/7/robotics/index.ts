@@ -557,7 +557,7 @@ void loop() {
 
 export const games = [
   {
-    title: "Основы робототехники",
+    title: "Что такое робототехника",
     image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson25.svg",
     subject: "Робототехника",
     icon: "Cpu",
@@ -572,7 +572,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты освоил основы робототехники! 🤖" }
   },
   {
-    title: "Компоненты робота",
+    title: "Виды роботов",
     image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson26.svg",
     subject: "Робототехника",
     icon: "Settings",
@@ -587,7 +587,7 @@ export const games = [
     reward: { stars: 3, message: "Ты отлично разбираешься в компонентах робота! ⚙️" }
   },
   {
-    title: "Датчики и сенсоры",
+    title: "Основные компоненты робота",
     image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson27.svg",
     subject: "Робототехника",
     icon: "Radio",
@@ -602,7 +602,7 @@ export const games = [
     reward: { stars: 3, message: "Ты знаешь всё о датчиках! 📡" }
   },
   {
-    title: "Программирование Arduino",
+    title: "Arduino — платформа для роботов",
     image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson28.svg",
     subject: "Робототехника",
     icon: "Cpu",
@@ -627,7 +627,7 @@ export const games = [
     reward: { stars: 3, message: "Ты отлично освоил программирование Arduino! 🤖" }
   },
   {
-    title: "Что такое робототехника",
+    title: "Основы программирования Arduino",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -651,7 +651,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь основы робототехники! 🤖" }
   },
   {
-    title: "Виды роботов",
+    title: "Управление моторами",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -675,7 +675,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь виды роботов! 🏭" }
   },
   {
-    title: "Основные компоненты робота",
+    title: "Ультразвуковой датчик расстояния",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -699,7 +699,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь компоненты робота! ⚙️" }
   },
   {
-    title: "Arduino — платформа для роботов",
+    title: "Датчик линии и датчик света",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",

@@ -565,7 +565,7 @@ export const games = [
     reward: { stars: 3, message: "Ты знаешь противительные и разделительные союзы!" }
   },
   {
-    title: "СПП: структура и виды придаточных",
+    title: "структура и виды придаточных",
     subject: "Русский язык",
     icon: "GitBranch",
     color: "text-red-400",

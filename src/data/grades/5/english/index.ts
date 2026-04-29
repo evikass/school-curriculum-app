@@ -2319,7 +2319,7 @@ Will + подлежащее + глагол?
 
 export const games: GameLesson[] = [
   {
-    title: "Приветствие и знакомство",
+    title: "Приветствие и прощание",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2332,7 +2332,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Great! Ты умеешь знакомиться! 👋" }
   },
   {
-    title: "Погода и времена года",
+    title: "Личная информация",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2345,7 +2345,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Excellent! Ты говоришь о погоде! ☀️" }
   },
   {
-    title: "Семья и дом",
+    title: "Страны и национальности",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2358,7 +2358,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Wonderful! Ты говоришь о семье! 🏠" }
   },
   {
-    title: "Present Simple vs Present Continuous",
+    title: "Профессии",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2371,7 +2371,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Great! Ты знаешь времена! ⏰" }
   },
   {
-    title: "Past Simple - прошедшее время",
+    title: "Погода и времена года",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2384,7 +2384,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Excellent! Ты знаешь прошедшее время! 📅" }
   },
   {
-    title: "Личная информация",
+    title: "Природа и животные",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2398,7 +2398,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Great! Ты можешь рассказать о себе! ✨" }
   },
   {
-    title: "Страны и национальности",
+    title: "В городе",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2412,7 +2412,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь страны! 🗺️" }
   },
   {
-    title: "Профессии",
+    title: "Транспорт",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2426,7 +2426,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь профессии! 🎓" }
   },
   {
-    title: "Природа и животные",
+    title: "Члены семьи",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2440,7 +2440,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь животных! 🐾" }
   },
   {
-    title: "В городе",
+    title: "Внешность и характер",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2460,7 +2460,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты ориентируешься в городе! 🗺️" }
   },
   {
-    title: "Транспорт",
+    title: "Друзья",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2480,7 +2480,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь транспорт! 🚀" }
   },
   {
-    title: "Внешность и характер",
+    title: "Дом и быт",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2494,7 +2494,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты описываешь людей! 😊" }
   },
   {
-    title: "Друзья",
+    title: "Школьные предметы",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2508,7 +2508,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты говоришь о друзьях! 🤝" }
   },
   {
-    title: "Дом и быт",
+    title: "В классе",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2522,7 +2522,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты описываешь дом! 🏡" }
   },
   {
-    title: "Школьные предметы",
+    title: "Распорядок дня",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2542,7 +2542,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь предметы! ✏️" }
   },
   {
-    title: "В классе",
+    title: "Выходные и каникулы",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2562,7 +2562,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь классные фразы! ✨" }
   },
   {
-    title: "Распорядок дня",
+    title: "Продукты питания",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2576,7 +2576,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь режим дня! 🌅" }
   },
   {
-    title: "Выходные и каникулы",
+    title: "В кафе и ресторане",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2590,7 +2590,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты рассказываешь о выходных! 🌈" }
   },
   {
-    title: "Продукты питания",
+    title: "Покупки",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2604,7 +2604,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь продукты! 🛒" }
   },
   {
-    title: "В кафе и ресторане",
+    title: "Одежда",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2618,7 +2618,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь заказывать! 🥤" }
   },
   {
-    title: "Покупки",
+    title: "Present Simple",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2632,7 +2632,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты умеешь делать покупки! 💳" }
   },
   {
-    title: "Одежда",
+    title: "Present Continuous",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -2652,7 +2652,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь одежду! 👗" }
   },
   {
-    title: "Present Continuous",
+    title: "Past Simple",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",

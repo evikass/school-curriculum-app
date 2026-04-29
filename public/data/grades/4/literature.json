@@ -238,7 +238,7 @@
   },
   "games": [
     {
-      "title": "Русские народные сказки",
+      "title": "📖 Русские народные сказки",
       "subject": "Литературное чтение",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -348,7 +348,7 @@
       }
     },
     {
-      "title": "Волшебные сказки",
+      "title": "✨ Волшебные сказки",
       "subject": "Литературное чтение",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -430,7 +430,7 @@
       }
     },
     {
-      "title": "Бытовые сказки",
+      "title": "🎭 Бытовые сказки",
       "subject": "Литературное чтение",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -512,7 +512,7 @@
       }
     },
     {
-      "title": "Сказки о животных",
+      "title": "🐾 Сказки о животных",
       "subject": "Литературное чтение",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -620,7 +620,7 @@
       }
     },
     {
-      "title": "Л.Н. Толстой",
+      "title": "🛡️ Илья Муромец",
       "subject": "Литературное чтение",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -709,7 +709,7 @@
       }
     },
     {
-      "title": "Илья Муромец",
+      "title": "🏰 Добрыня Никитич",
       "subject": "Литературное чтение",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -791,7 +791,7 @@
       }
     },
     {
-      "title": "Добрыня Никитич",
+      "title": "🎯 Алёша Попович",
       "subject": "Литературное чтение",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -891,7 +891,7 @@
       }
     },
     {
-      "title": "Алёша Попович",
+      "title": "✍️ А.С. Пушкин",
       "subject": "Литературное чтение",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -973,7 +973,7 @@
       }
     },
     {
-      "title": "А.С. Пушкин",
+      "title": "📖 Л.Н. Толстой",
       "subject": "Литературное чтение",
       "icon": "BookOpenText",
       "color": "text-purple-400",

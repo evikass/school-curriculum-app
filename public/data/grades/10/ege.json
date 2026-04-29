@@ -304,7 +304,7 @@
   },
   "games": [
     {
-      "title": "Структура ЕГЭ",
+      "title": "Что такое ЕГЭ",
       "subject": "Подготовка к ЕГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -1208,7 +1208,7 @@
       }
     },
     {
-      "title": "Стратегии подготовки",
+      "title": "План подготовки",
       "subject": "Подготовка к ЕГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -1436,7 +1436,7 @@
       }
     },
     {
-      "title": "Сочинение ЕГЭ",
+      "title": "Работа с заданиями",
       "subject": "Подготовка к ЕГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -1665,7 +1665,7 @@
       }
     },
     {
-      "title": "Тайм-менеджмент",
+      "title": "Сочинение ЕГЭ",
       "subject": "Подготовка к ЕГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -2122,7 +2122,7 @@
       }
     },
     {
-      "title": "Пробные тестирования",
+      "title": "Пробное тестирование",
       "subject": "Подготовка к ЕГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -2350,7 +2350,7 @@
       }
     },
     {
-      "title": "Работа с ошибками",
+      "title": "Работа над ошибками",
       "subject": "Подготовка к ЕГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -2579,7 +2579,7 @@
       }
     },
     {
-      "title": "Оформление работ",
+      "title": "Полный пробный ЕГЭ",
       "subject": "Подготовка к ЕГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -2807,7 +2807,7 @@
       }
     },
     {
-      "title": "День экзамена",
+      "title": "Итоги подготовки",
       "subject": "Подготовка к ЕГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",

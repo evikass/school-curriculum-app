@@ -815,7 +815,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Гласные и согласные 🔤",
+    title: "Гласные и согласные звуки",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -859,7 +859,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь звуки! 🔊" }
   },
   {
-    title: "Твёрдые и мягкие 🔊",
+    title: "Звонкие и глухие согласные",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -903,7 +903,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты различаешь твёрдые и мягкие! 📝" }
   },
   {
-    title: "Звонкие и глухие 🔔",
+    title: "Твёрдые и мягкие согласные",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -947,7 +947,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь парные согласные! 🔔" }
   },
   {
-    title: "Слоги 📊",
+    title: "Деление слов на слоги",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -991,7 +991,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь делить на слоги! 📊" }
   },
   {
-    title: "Ударение ´",
+    title: "Слово и его значение",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1035,7 +1035,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты ставишь ударение! ´" }
   },
   {
-    title: "Перенос слов ➡️",
+    title: "Предложение",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1079,7 +1079,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь переносить слова! ➡️" }
   },
   {
-    title: "Предложение 📝",
+    title: "Большая буква в словах",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1123,7 +1123,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь предложения! ✍️" }
   },
   {
-    title: "ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ 📝",
+    title: "Правила ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1167,7 +1167,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь правила! 📝" }
   },
   {
-    title: "Большая буква 🅰️",
+    title: "Мягкий знак на конце слов",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1211,7 +1211,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь правила! 🅰️" }
   },
   {
-    title: "Правописание ЖИ-ШИ 🖊️",
+    title: "Перенос слов",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",

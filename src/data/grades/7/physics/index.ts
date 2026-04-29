@@ -618,7 +618,7 @@ N = A / t = 100 000 / 50 = 2000 Вт = 2 кВт
 
 export const games = [
   {
-    title: "Физические величины",
+    title: "Механическое движение и его характеристики",
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -632,7 +632,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь единицы! 📏" }
   },
   {
-    title: "Механическое движение",
+    title: "Расчёт пути и времени движения",
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -646,7 +646,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты решаешь задачи! 🚗" }
   },
   {
-    title: "Силы в природе",
+    title: "Сила тяжести и вес тела",
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -660,7 +660,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь силы! 💪" }
   },
   {
-    title: "Давление",
+    title: "Сила упругости и сила трения",
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -674,7 +674,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь давление! 📊" }
   },
   {
-    title: "Работа и мощность",
+    title: "Законы Ньютона",
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -688,7 +688,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь работу! ⚡" }
   },
   {
-    title: "Механическое движение и его характеристики",
+    title: "Давление и его единицы",
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -712,7 +712,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь механическое движение! 🚗" }
   },
   {
-    title: "Расчёт пути и времени движения",
+    title: "Давление жидкостей и газов",
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -736,7 +736,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты умеешь решать задачи на движение! 📏" }
   },
   {
-    title: "Сила тяжести и вес тела",
+    title: "Механическая работа",
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -760,7 +760,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь силы тяжести и вес! 🍎" }
   },
   {
-    title: "Сила упругости и сила трения",
+    title: "Мощность",
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",

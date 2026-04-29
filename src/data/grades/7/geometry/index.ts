@@ -374,7 +374,7 @@ P = AB + BC + AC
 
 export const games = [
   {
-    title: "Углы и треугольники",
+    title: "Точки, прямые, отрезки",
     image: "/school-curriculum-app/images/lessons/grade7/geometry/lesson16.svg",
     subject: "Геометрия",
     icon: "Shapes",
@@ -389,7 +389,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь геометрию! 📐" }
   },
   {
-    title: "Начальные сведения",
+    title: "Угол и его виды",
     image: "/school-curriculum-app/images/lessons/grade7/geometry/lesson17.svg",
     subject: "Геометрия",
     icon: "Shapes",
@@ -404,7 +404,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь основы геометрии! 📏" }
   },
   {
-    title: "Медианы, биссектрисы, высоты",
+    title: "Треугольник",
     image: "/school-curriculum-app/images/lessons/grade7/geometry/lesson18.svg",
     subject: "Геометрия",
     icon: "Shapes",
@@ -428,7 +428,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь элементы треугольника! 🔺" }
   },
   {
-    title: "Признаки равенства треугольников",
+    title: "Медианы, биссектрисы, высоты",
     image: "/school-curriculum-app/images/lessons/grade7/geometry/lesson19.svg",
     subject: "Геометрия",
     icon: "Shapes",
@@ -452,7 +452,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь признаки равенства! ⭐" }
   },
   {
-    title: "Параллельные прямые",
+    title: "Признаки равенства треугольников",
     image: "/school-curriculum-app/images/lessons/grade7/geometry/lesson20.svg",
     subject: "Геометрия",
     icon: "Shapes",
@@ -467,7 +467,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь параллельные прямые! ║" }
   },
   {
-    title: "Сумма углов треугольника",
+    title: "Признаки параллельности",
     image: "/school-curriculum-app/images/lessons/grade7/geometry/lesson21.svg",
     subject: "Геометрия",
     icon: "Shapes",
@@ -492,7 +492,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь углы треугольника! 📐" }
   },
   {
-    title: "Точки, прямые, отрезки",
+    title: "Сумма углов треугольника",
     image: "/school-curriculum-app/images/lessons/grade7/geometry/lesson22.svg",
     subject: "Геометрия",
     icon: "Shapes",

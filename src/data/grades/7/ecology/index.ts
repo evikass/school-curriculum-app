@@ -468,7 +468,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Экосистемы и пищевые цепи",
+    title: "Предмет экологии",
     image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson25.svg",
     subject: "Экология",
     icon: "Leaf",
@@ -483,7 +483,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь экосистемы! 🌿" }
   },
   {
-    title: "Круговорот веществ",
+    title: "Методы экологических исследований",
     image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson26.svg",
     subject: "Экология",
     icon: "Leaf",
@@ -498,7 +498,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты понимаешь круговорот веществ! 🌍" }
   },
   {
-    title: "Экология как наука",
+    title: "Классификация экологических факторов",
     image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson27.svg",
     subject: "Экология",
     icon: "Leaf",
@@ -513,7 +513,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь основы экологии! 🔬" }
   },
   {
-    title: "Экологические факторы",
+    title: "Свет и температура как факторы",
     image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson28.svg",
     subject: "Экология",
     icon: "Leaf",
@@ -538,7 +538,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты разбираешься в экологических факторах! 🌿" }
   },
   {
-    title: "Предмет экологии",
+    title: "Понятие экосистемы",
     image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson29.svg",
     subject: "Экология",
     icon: "Leaf",
@@ -562,7 +562,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь предмет экологии! 🏠" }
   },
   {
-    title: "Методы экологических исследований",
+    title: "Пищевые цепи и сети",
     image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson30.svg",
     subject: "Экология",
     icon: "Leaf",
@@ -586,7 +586,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь методы экологии! 🔬" }
   },
   {
-    title: "Классификация экологических факторов",
+    title: "Круговорот воды и углерода",
     image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson31.svg",
     subject: "Экология",
     icon: "Leaf",
@@ -610,7 +610,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь экологические факторы! 📊" }
   },
   {
-    title: "Свет и температура как факторы",
+    title: "Круговорот кислорода и азота",
     image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson32.svg",
     subject: "Экология",
     icon: "Leaf",

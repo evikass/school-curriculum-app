@@ -552,7 +552,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Человек и общество",
+    title: "Что такое человек",
     image: "/school-curriculum-app/images/lessons/grade7/social/lesson28.svg",
     subject: "Обществознание",
     icon: "Users",
@@ -567,7 +567,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь общество! 👥" }
   },
   {
-    title: "Политика и власть",
+    title: "Потребности человека",
     image: "/school-curriculum-app/images/lessons/grade7/social/lesson29.svg",
     subject: "Обществознание",
     icon: "Users",
@@ -582,7 +582,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь политику! 🏛️" }
   },
   {
-    title: "Деятельность человека",
+    title: "Общество как система",
     image: "/school-curriculum-app/images/lessons/grade7/social/lesson30.svg",
     subject: "Обществознание",
     icon: "Users",
@@ -609,7 +609,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь деятельность! 🎯" }
   },
   {
-    title: "Конфликты и общение",
+    title: "Что такое деятельность",
     image: "/school-curriculum-app/images/lessons/grade7/social/lesson31.svg",
     subject: "Обществознание",
     icon: "Users",
@@ -624,7 +624,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты умеешь решать конфликты! 🤝" }
   },
   {
-    title: "Что такое человек",
+    title: "Трудовая деятельность",
     image: "/school-curriculum-app/images/lessons/grade7/social/lesson32.svg",
     subject: "Обществознание",
     icon: "Users",
@@ -649,7 +649,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь, что такое человек! 👤" }
   },
   {
-    title: "Потребности человека",
+    title: "Общение и его виды",
     image: "/school-curriculum-app/images/lessons/grade7/social/lesson33.svg",
     subject: "Обществознание",
     icon: "Users",
@@ -674,7 +674,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь потребности человека! 🍎" }
   },
   {
-    title: "Общество как система",
+    title: "Конфликты и их решение",
     image: "/school-curriculum-app/images/lessons/grade7/social/lesson34.svg",
     subject: "Обществознание",
     icon: "Users",
@@ -699,7 +699,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь общество! 🏛️" }
   },
   {
-    title: "Что такое деятельность",
+    title: "Что такое политика",
     image: "/school-curriculum-app/images/lessons/grade7/social/lesson35.svg",
     subject: "Обществознание",
     icon: "Users",
@@ -724,7 +724,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь деятельность! 🎯" }
   },
   {
-    title: "Трудовая деятельность",
+    title: "Формы правления",
     image: "/school-curriculum-app/images/lessons/grade7/social/lesson36.svg",
     subject: "Обществознание",
     icon: "Users",

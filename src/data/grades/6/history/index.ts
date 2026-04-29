@@ -1411,7 +1411,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Русь в IX-XIII веках",
+    title: "политическое устройство",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -1424,7 +1424,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь историю Древней Руси! 🏰" }
   },
   {
-    title: "Монгольское нашествие",
+    title: "Культура Древней Руси",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -1437,7 +1437,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь историю монгольского периода! ⚔️" }
   },
   {
-    title: "Московское государство",
+    title: "Владимир Мономах и расцвет Руси",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -1450,7 +1450,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь историю образования Русского государства! 👑" }
   },
   {
-    title: "Культура Древней Руси",
+    title: "Причины раздробленности",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -1474,7 +1474,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь культуру Древней Руси! 🎨" }
   },
   {
-    title: "Владимир Мономах и расцвет Руси",
+    title: "Владимиро-Суздальское княжество",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -1498,7 +1498,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь историю Владимира Мономаха! 👑" }
   },
   {
-    title: "Причины раздробленности",
+    title: "Новгородская земля",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -1517,7 +1517,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь причины раздробленности! 🏰" }
   },
   {
-    title: "Владимиро-Суздальское княжество",
+    title: "Монгольское завоевание",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -1536,7 +1536,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь историю Владимиро-Суздальской земли! 🏛️" }
   },
   {
-    title: "Новгородская земля",
+    title: "Ордынское иго",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -1555,7 +1555,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь историю Великого Новгорода! 🏰" }
   },
   {
-    title: "Ордынское иго",
+    title: "Александр Невский",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -1574,7 +1574,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь историю ордынского ига! ⚔️" }
   },
   {
-    title: "Александр Невский",
+    title: "Возвышение Москвы",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",

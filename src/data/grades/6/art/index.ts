@@ -963,7 +963,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Виды искусства",
+    title: "Живопись, графика, скульптура",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -982,7 +982,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь виды искусства! 🎨" }
   },
   {
-    title: "Цвет и композиция",
+    title: "Декоративно-прикладное искусство",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -995,7 +995,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь цвет и композицию! 🖼️" }
   },
   {
-    title: "Декоративно-прикладное искусство",
+    title: "Основы композиции",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -1019,7 +1019,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь народные промыслы! 🏺" }
   },
   {
-    title: "Основы композиции",
+    title: "Композиционный центр",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -1043,7 +1043,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты освоил основы композиции! ⬛" }
   },
   {
-    title: "Композиционный центр",
+    title: "Цветовой круг",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",

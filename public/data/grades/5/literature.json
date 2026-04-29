@@ -456,7 +456,7 @@
       }
     },
     {
-      "title": "Фольклор: пословицы и загадки",
+      "title": "Подвиги Геракла",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -527,7 +527,7 @@
       }
     },
     {
-      "title": "Древнерусская литература",
+      "title": "Мифы о происхождении мира",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -599,7 +599,7 @@
       }
     },
     {
-      "title": "Русские писатели XIX века",
+      "title": "Легенды и предания",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -670,7 +670,7 @@
       }
     },
     {
-      "title": "Зарубежная литература",
+      "title": "Малые жанры фольклора",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -741,7 +741,7 @@
       }
     },
     {
-      "title": "Подвиги Геракла",
+      "title": "Сказки народов мира",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -833,7 +833,7 @@
       }
     },
     {
-      "title": "Мифы о происхождении мира",
+      "title": "Былины",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -915,7 +915,7 @@
       }
     },
     {
-      "title": "Легенды и предания",
+      "title": "«Повесть временных лет»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -997,7 +997,7 @@
       }
     },
     {
-      "title": "Сказки народов мира",
+      "title": "«Сказание о Борисе и Глебе»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1090,7 +1090,7 @@
       }
     },
     {
-      "title": "Былины",
+      "title": "«Слово о полку Игореве»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1180,7 +1180,7 @@
       }
     },
     {
-      "title": "Сказание о Борисе и Глебе",
+      "title": "И.А. Крылов «Волк на псарне»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1262,7 +1262,7 @@
       }
     },
     {
-      "title": "Слово о полку Игореве",
+      "title": "А.С. Пушкин «Руслан и Людмила»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1353,7 +1353,7 @@
       }
     },
     {
-      "title": "Руслан и Людмила",
+      "title": "М.Ю. Лермонтов «Бородино»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1435,7 +1435,7 @@
       }
     },
     {
-      "title": "Бородино",
+      "title": "Н.В. Гоголь «Заколдованное место»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1517,7 +1517,7 @@
       }
     },
     {
-      "title": "Заколдованное место",
+      "title": "Д. Дефо «Робинзон Крузо»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1599,7 +1599,7 @@
       }
     },
     {
-      "title": "Снежная королева",
+      "title": "Х.К. Андерсен «Снежная королева»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1681,7 +1681,7 @@
       }
     },
     {
-      "title": "Васюткино озеро",
+      "title": "В.П. Астафьев «Васюткино озеро»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1763,7 +1763,7 @@
       }
     },
     {
-      "title": "Уроки французского",
+      "title": "В.Г. Распутин «Уроки французского»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",

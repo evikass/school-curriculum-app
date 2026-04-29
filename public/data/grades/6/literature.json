@@ -372,7 +372,7 @@
       }
     },
     {
-      "title": "Русский фольклор",
+      "title": "Подвиги Геракла",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -457,7 +457,7 @@
       }
     },
     {
-      "title": "Русская классика",
+      "title": "Мифы о Прометее и Тесее",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -542,7 +542,7 @@
       }
     },
     {
-      "title": "Зарубежная литература",
+      "title": "Былины — русский героический эпос",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -627,7 +627,7 @@
       }
     },
     {
-      "title": "Подвиги Геракла",
+      "title": "Русские народные сказки",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -719,7 +719,7 @@
       }
     },
     {
-      "title": "Мифы о Прометее и Тесее",
+      "title": "Пословицы и поговорки",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -811,7 +811,7 @@
       }
     },
     {
-      "title": "Русские народные сказки",
+      "title": "А.С. Пушкин. Стихотворения",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -902,7 +902,7 @@
       }
     },
     {
-      "title": "Пословицы и поговорки",
+      "title": "М.Ю. Лермонтов. «Три пальмы»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -994,7 +994,7 @@
       }
     },
     {
-      "title": "М.Ю. Лермонтов. «Три пальмы»",
+      "title": "И.С. Тургенев. «Бежин луг»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1076,7 +1076,7 @@
       }
     },
     {
-      "title": "И.С. Тургенев. «Бежин луг»",
+      "title": "М. Твен. «Приключения Тома Сойера»",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",

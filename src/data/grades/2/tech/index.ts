@@ -434,7 +434,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Материалы и инструменты 🔧",
+    title: "Свойства бумаги",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -478,7 +478,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь материалы! 🔧" }
   },
   {
-    title: "Оригами 📄",
+    title: "Аппликация «Цветы»",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -522,7 +522,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь оригами! 📄" }
   },
   {
-    title: "Природный материал 🌿",
+    title: "Оригами «Голубь»",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -566,7 +566,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты работаешь с природой! 🌿" }
   },
   {
-    title: "Работа с бумагой 📄",
+    title: "Объёмные поделки",
     subject: "Технология",
     icon: "Scissors",
     color: "text-orange-400",
@@ -610,7 +610,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты работаешь с бумагой! 📄" }
   },
   {
-    title: "Оригами 🦢",
+    title: "Поделки из шишек",
     subject: "Технология",
     icon: "Scissors",
     color: "text-orange-400",
@@ -654,7 +654,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь оригами! 🦢" }
   },
   {
-    title: "Работа с пластилином 🎨",
+    title: "Аппликация из листьев",
     subject: "Технология",
     icon: "Scissors",
     color: "text-orange-400",

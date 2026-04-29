@@ -389,7 +389,7 @@ Love,
 
 export const games = [
   {
-    title: "Daily Life",
+    title: "Daily Routines and Habits",
     image: "/school-curriculum-app/images/lessons/grade7/english/lesson19.svg",
     subject: "Иностранный язык",
     icon: "Languages",
@@ -404,7 +404,7 @@ export const games = [
     reward: { stars: 3, message: "Excellent! You know daily routines! 🌟" }
   },
   {
-    title: "Travel and Environment",
+    title: "Household Chores",
     image: "/school-curriculum-app/images/lessons/grade7/english/lesson20.svg",
     subject: "Иностранный язык",
     icon: "Languages",
@@ -419,7 +419,7 @@ export const games = [
     reward: { stars: 3, message: "Great job! You're an English pro! 🎉" }
   },
   {
-    title: "Travel and Tourism",
+    title: "Planning a Trip",
     image: "/school-curriculum-app/images/lessons/grade7/english/lesson21.svg",
     subject: "Иностранный язык",
     icon: "Languages",
@@ -434,7 +434,7 @@ export const games = [
     reward: { stars: 3, message: "Amazing! You're ready to travel! ✈️" }
   },
   {
-    title: "Technology",
+    title: "Sightseeing and Activities",
     image: "/school-curriculum-app/images/lessons/grade7/english/lesson22.svg",
     subject: "Иностранный язык",
     icon: "Languages",
@@ -449,7 +449,7 @@ export const games = [
     reward: { stars: 3, message: "Great! You're a digital native! 💻" }
   },
   {
-    title: "Daily Routines and Habits",
+    title: "Environmental Problems",
     image: "/school-curriculum-app/images/lessons/grade7/english/lesson23.svg",
     subject: "Иностранный язык",
     icon: "Languages",
@@ -473,7 +473,7 @@ export const games = [
     reward: { stars: 3, message: "Great! You know daily routines! 🕐" }
   },
   {
-    title: "Household Chores",
+    title: "Digital World",
     image: "/school-curriculum-app/images/lessons/grade7/english/lesson24.svg",
     subject: "Иностранный язык",
     icon: "Languages",

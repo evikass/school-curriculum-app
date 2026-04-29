@@ -223,7 +223,7 @@
   },
   "games": [
     {
-      "title": "Периодическая система",
+      "title": "Периодический закон Д.И. Менделеева",
       "image": "/images/lessons/grade7/chemistry/lesson28.svg",
       "subject": "Химия",
       "icon": "FlaskConical",
@@ -309,7 +309,7 @@
       }
     },
     {
-      "title": "Химические реакции",
+      "title": "Структура периодической системы",
       "image": "/images/lessons/grade7/chemistry/lesson29.svg",
       "subject": "Химия",
       "icon": "FlaskConical",
@@ -395,7 +395,7 @@
       }
     },
     {
-      "title": "Вещества",
+      "title": "Металлы и неметаллы",
       "image": "/images/lessons/grade7/chemistry/lesson30.svg",
       "subject": "Химия",
       "icon": "FlaskConical",
@@ -481,7 +481,7 @@
       }
     },
     {
-      "title": "Химическая связь",
+      "title": "Типы химической связи",
       "image": "/images/lessons/grade7/chemistry/lesson31.svg",
       "subject": "Химия",
       "icon": "FlaskConical",
@@ -567,7 +567,7 @@
       }
     },
     {
-      "title": "Структура периодической системы",
+      "title": "Типы химических реакций",
       "image": "/images/lessons/grade7/chemistry/lesson32.svg",
       "subject": "Химия",
       "icon": "FlaskConical",
@@ -753,7 +753,7 @@
       }
     },
     {
-      "title": "Оксиды и соли",
+      "title": "Скорость химических реакций",
       "image": "/images/lessons/grade7/chemistry/lesson34.svg",
       "subject": "Химия",
       "icon": "FlaskConical",
@@ -846,7 +846,7 @@
       }
     },
     {
-      "title": "Металлы и неметаллы",
+      "title": "Кислоты и основания",
       "image": "/images/lessons/grade7/chemistry/lesson35.svg",
       "subject": "Химия",
       "icon": "FlaskConical",
@@ -939,7 +939,7 @@
       }
     },
     {
-      "title": "Скорость химических реакций",
+      "title": "Оксиды и соли",
       "image": "/images/lessons/grade7/chemistry/lesson36.svg",
       "subject": "Химия",
       "icon": "FlaskConical",

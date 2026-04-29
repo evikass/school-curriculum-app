@@ -1139,7 +1139,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
 {
-    title: "Числа 1-5 🎲",
+    title: "Число и цифра 1",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1153,7 +1153,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь числа 1-5! 🔢" }
   },
 {
-    title: "Числа 6-10 🎯",
+    title: "Число и цифра 2",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1167,7 +1167,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь числа до 10! 🎉" }
   },
 {
-    title: "Сложение чисел",
+    title: "Число и цифра 3",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1181,7 +1181,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь складывать! ➕" }
   },
 {
-    title: "Вычитание чисел",
+    title: "Знаки +, -, =",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1195,7 +1195,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты умеешь вычитать! ➖" }
   },
 {
-    title: "Сравнение чисел ⚖️",
+    title: "Числа 4 и 5",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1209,7 +1209,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты умеешь сравнивать! ⚖️" }
   },
 {
-    title: "Геометрические фигуры 🔷",
+    title: "Числа 6-10",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1223,7 +1223,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь фигуры! 🔷🔶" }
   },
 {
-    title: "Состав числа 🧮",
+    title: "Сложение чисел",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1237,7 +1237,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты знаешь состав чисел! 🧮" }
   },
 {
-    title: "Задачи на смекалку 🧩",
+    title: "Вычитание чисел",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1251,7 +1251,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Круто! Ты решил задачи! 🧩" }
   },
 {
-    title: "Числа 1-5 🔢",
+    title: "Прибавить и вычесть 1",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1265,7 +1265,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь числа 1-5! 🔢" }
   },
 {
-    title: "Числа 6-10 🔟",
+    title: "Прибавить и вычесть 2",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1279,7 +1279,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь числа 6-10! 🔟" }
   },
 {
-    title: "Сложение ➕",
+    title: "Прибавить и вычесть 3",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1293,7 +1293,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь складывать! ➕" }
   },
 {
-    title: "Вычитание ➖",
+    title: "Геометрические фигуры",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1307,7 +1307,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты умеешь вычитать! ➖" }
   },
 {
-    title: "Математические знаки ➕➖➗",
+    title: "Точка и линия",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",

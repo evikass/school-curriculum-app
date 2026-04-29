@@ -481,7 +481,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Дорожная безопасность",
+    title: "Правила дорожного движения для велосипедистов",
     image: "/school-curriculum-app/images/lessons/grade7/safety/lesson22.svg",
     subject: "ОБЖ",
     icon: "Shield",
@@ -508,7 +508,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь правила! 🚦" }
   },
   {
-    title: "Первая помощь",
+    title: "Причины ДТП и их предотвращение",
     image: "/school-curriculum-app/images/lessons/grade7/safety/lesson23.svg",
     subject: "ОБЖ",
     icon: "Shield",
@@ -528,7 +528,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты умеешь оказывать помощь! 🏥" }
   },
   {
-    title: "Пожарная безопасность",
+    title: "Причины пожаров и их предотвращение",
     image: "/school-curriculum-app/images/lessons/grade7/safety/lesson24.svg",
     subject: "ОБЖ",
     icon: "Shield",
@@ -549,7 +549,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь пожарную безопасность! 🔥" }
   },
   {
-    title: "Чрезвычайные ситуации",
+    title: "Природные ЧС",
     image: "/school-curriculum-app/images/lessons/grade7/safety/lesson25.svg",
     subject: "ОБЖ",
     icon: "Shield",
@@ -564,7 +564,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты готов к ЧС! ⚠️" }
   },
   {
-    title: "Правила дорожного движения для велосипедистов",
+    title: "Техногенные ЧС",
     image: "/school-curriculum-app/images/lessons/grade7/safety/lesson26.svg",
     subject: "ОБЖ",
     icon: "Shield",
@@ -589,7 +589,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь ПДД для велосипедистов! 🚲" }
   },
   {
-    title: "Причины ДТП и их предотвращение",
+    title: "Первая помощь при кровотечениях",
     image: "/school-curriculum-app/images/lessons/grade7/safety/lesson27.svg",
     subject: "ОБЖ",
     icon: "Shield",
@@ -614,7 +614,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь безопасность на дороге! 🚦" }
   },
   {
-    title: "Причины пожаров и их предотвращение",
+    title: "Первая помощь при переломах и ожогах",
     image: "/school-curriculum-app/images/lessons/grade7/safety/lesson28.svg",
     subject: "ОБЖ",
     icon: "Shield",

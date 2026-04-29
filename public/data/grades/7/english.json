@@ -710,6 +710,314 @@
         "stars": 3,
         "message": "Great! You're a digital citizen! 📱"
       }
+    },
+    {
+      "title": "Planning a Trip",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What does ",
+          "correctAnswer": "Посадочный талон",
+          "hint": "Document needed to board a plane",
+          "options": [
+            "Билет",
+            "Посадочный талон",
+            "Загранпаспорт",
+            "Регистрация",
+            "Past Simple"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Which phrase means ",
+          "correctAnswer": "I",
+          "hint": "Going to + infinitive for plans",
+          "options": [
+            "I will visit London",
+            "I",
+            ", ",
+            ", ",
+            ", "
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "What does ",
+          "correctAnswer": "Самолётом",
+          "hint": "Type of air transport",
+          "options": [
+            "На поезде",
+            "Самолётом",
+            "На машине",
+            "Пешком",
+            "Present Continuous"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "What does ",
+          "correctAnswer": "Заселиться",
+          "hint": "Arrival procedure",
+          "options": [
+            "Выселиться",
+            "Заселиться",
+            "Забронировать",
+            "Оплатить",
+            "Past Continuous"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "What",
+          "correctAnswer": "Journey = general trip, Voyage = sea journey",
+          "hint": "Voyage is specifically by ship",
+          "options": [
+            "They are the same",
+            "Journey = general trip, Voyage = sea journey",
+            "Journey = sea, Voyage = land",
+            "Journey = short, Voyage = long walk",
+            "Noun"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Great! You can plan a trip! ✈️"
+      }
+    },
+    {
+      "title": "Sightseeing and Activities",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What does ",
+          "correctAnswer": "Памятник",
+          "hint": "A structure commemorating a person or event",
+          "options": [
+            "Музей",
+            "Памятник",
+            "Площадь",
+            "Фонтан",
+            "Verb"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Which tense is used for travel stories?",
+          "correctAnswer": "Past Simple",
+          "hint": "I visited the Louvre last year",
+          "options": [
+            "Present Simple",
+            "Present Continuous",
+            "Past Simple",
+            "Future Simple",
+            "Adjective"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "How do you ask for directions to a museum?",
+          "correctAnswer": "How do I get to the museum?",
+          "hint": "Useful phrase for tourists",
+          "options": [
+            "What is a museum?",
+            "How do I get to the museum?",
+            "Where is the museum from?",
+            "Do you like museums?",
+            "Adverb"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "What does ",
+          "correctAnswer": "Древний",
+          "hint": "Adjective describing old places",
+          "options": [
+            "Современный",
+            "Древний",
+            "Красивый",
+            "Переполненный",
+            "Pronoun"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "What is the Past Simple of ",
+          "correctAnswer": "Saw",
+          "hint": "Irregular verb",
+          "options": [
+            "Seed",
+            "Saw",
+            "Seen",
+            "Seeing",
+            "Preposition"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Great! You"
+      }
+    },
+    {
+      "title": "Environmental Problems",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What does ",
+          "correctAnswer": "Глобальное потепление",
+          "hint": "Rising temperatures on Earth",
+          "options": [
+            "Глобальное потепление",
+            "Глобальное заморозка",
+            "Загрязнение воды",
+            "Вырубка лесов",
+            "Conjunction"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Which modal verb gives advice?",
+          "correctAnswer": "Should",
+          "hint": "We should recycle more",
+          "options": [
+            "Must",
+            "Should",
+            "Can",
+            "Will",
+            "Article"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "What does ",
+          "correctAnswer": "Вырубка лесов",
+          "hint": "Cutting down forests",
+          "options": [
+            "Посадка деревьев",
+            "Вырубка лесов",
+            "Загрязнение воздуха",
+            "Рекультивация",
+            "Modal verb"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Complete: If people recycle, there ___ less waste.",
+          "correctAnswer": "will be",
+          "hint": "First Conditional: If + present, will + infinitive",
+          "options": [
+            "is",
+            "will be",
+            "was",
+            "are",
+            "Phrasal verb"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "What does ",
+          "correctAnswer": "Исчезающие виды",
+          "hint": "Animals at risk of extinction",
+          "options": [
+            "Опасные животные",
+            "Исчезающие виды",
+            "Домашние питомцы",
+            "Водные организмы",
+            "Gerund"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Great! You care about the environment! 🌍"
+      }
+    },
+    {
+      "title": "Digital World",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What does ",
+          "correctAnswer": "Социальные сети",
+          "hint": "VK, Instagram, TikTok...",
+          "options": [
+            "Электронная почта",
+            "Социальные сети",
+            "Веб-сайт",
+            "Блог",
+            "Infinitive"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Which tense is used for experiences?",
+          "correctAnswer": "Present Perfect",
+          "hint": "I have already bought a new smartphone",
+          "options": [
+            "Past Simple",
+            "Present Simple",
+            "Present Perfect",
+            "Future Simple",
+            "Participle"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "What does ",
+          "correctAnswer": "Скачивать файлы",
+          "hint": "Getting files from the internet",
+          "options": [
+            "Загружать онлайн",
+            "Скачивать файлы",
+            "Удалять данные",
+            "Отправлять письмо",
+            "Weather"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Which is an important internet safety rule?",
+          "correctAnswer": "Don",
+          "hint": "Stay safe online",
+          "options": [
+            "Share your password with friends",
+            "Post personal information publicly",
+            "Don",
+            ", ",
+            ", "
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "What does ",
+          "correctAnswer": "Кибербуллинг — травля в интернете",
+          "hint": "Disadvantage of technology",
+          "options": [
+            "Онлайн-игры",
+            "Кибербуллинг — травля в интернете",
+            "Компьютерные вирусы",
+            "Социальные сети",
+            "Travel"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Great! You"
+      }
     }
   ]
 }

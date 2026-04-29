@@ -541,7 +541,7 @@ Na₂CO₃ + 2HCl = 2NaCl + H₂O + CO₂
 
 export const games = [
   {
-    title: "Периодическая система",
+    title: "Периодический закон Д.И. Менделеева",
     image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson28.svg",
     subject: "Химия",
     icon: "FlaskConical",
@@ -556,7 +556,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь таблицу Менделеева! 🧪" }
   },
   {
-    title: "Химические реакции",
+    title: "Структура периодической системы",
     image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson29.svg",
     subject: "Химия",
     icon: "FlaskConical",
@@ -571,7 +571,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты понимаешь реакции! ⚗️" }
   },
   {
-    title: "Вещества",
+    title: "Металлы и неметаллы",
     image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson30.svg",
     subject: "Химия",
     icon: "FlaskConical",
@@ -586,7 +586,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь вещества! 🔬" }
   },
   {
-    title: "Химическая связь",
+    title: "Типы химической связи",
     image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson31.svg",
     subject: "Химия",
     icon: "FlaskConical",
@@ -601,7 +601,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь химическую связь! ⚡" }
   },
   {
-    title: "Структура периодической системы",
+    title: "Типы химических реакций",
     image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson32.svg",
     subject: "Химия",
     icon: "FlaskConical",
@@ -649,7 +649,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты умеешь составлять уравнения! ⚖️" }
   },
   {
-    title: "Оксиды и соли",
+    title: "Скорость химических реакций",
     image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson34.svg",
     subject: "Химия",
     icon: "FlaskConical",
@@ -674,7 +674,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь оксиды и соли! 🔬" }
   },
   {
-    title: "Металлы и неметаллы",
+    title: "Кислоты и основания",
     image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson35.svg",
     subject: "Химия",
     icon: "FlaskConical",
@@ -698,7 +698,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты различаешь металлы и неметаллы! ⚡" }
   },
   {
-    title: "Скорость химических реакций",
+    title: "Оксиды и соли",
     image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson36.svg",
     subject: "Химия",
     icon: "FlaskConical",

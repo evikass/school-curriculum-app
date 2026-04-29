@@ -493,7 +493,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Фольклор и древнерусская литература",
+    title: "Былины. Илья Муромец и Соловей-разбойник",
     image: "/school-curriculum-app/images/lessons/grade7/literature/lesson16.svg",
     subject: "Литература",
     icon: "BookOpenText",
@@ -508,7 +508,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь фольклор! 📜" }
   },
   {
-    title: "Русская классика",
+    title: "Сказки народов мира",
     image: "/school-curriculum-app/images/lessons/grade7/literature/lesson17.svg",
     subject: "Литература",
     icon: "BookOpenText",
@@ -523,7 +523,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь русскую классику! 📚" }
   },
   {
-    title: "Устное народное творчество",
+    title: "«Повесть временных лет»",
     image: "/school-curriculum-app/images/lessons/grade7/literature/lesson18.svg",
     subject: "Литература",
     icon: "BookOpenText",
@@ -538,7 +538,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь устное народное творчество! 🎭" }
   },
   {
-    title: "Литература XX века",
+    title: "А.С. Пушкин. «Полтава»",
     image: "/school-curriculum-app/images/lessons/grade7/literature/lesson19.svg",
     subject: "Литература",
     icon: "BookOpenText",
@@ -553,7 +553,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь литературу XX века! 📖" }
   },
   {
-    title: "Былины. Илья Муромец и Соловей-разбойник",
+    title: "М.Ю. Лермонтов. «Песня про царя Ивана Васильевича»",
     image: "/school-curriculum-app/images/lessons/grade7/literature/lesson20.svg",
     subject: "Литература",
     icon: "BookOpenText",
@@ -581,7 +581,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь былины! ⚔️" }
   },
   {
-    title: "Сказки народов мира",
+    title: "Н.В. Гоголь. «Тарас Бульба»",
     image: "/school-curriculum-app/images/lessons/grade7/literature/lesson21.svg",
     subject: "Литература",
     icon: "BookOpenText",
@@ -609,7 +609,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь сказки! 🧚" }
   },
   {
-    title: "«Повесть временных лет»",
+    title: "А.П. Платонов. «Юшка»",
     image: "/school-curriculum-app/images/lessons/grade7/literature/lesson22.svg",
     subject: "Литература",
     icon: "BookOpenText",

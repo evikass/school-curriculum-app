@@ -358,7 +358,7 @@
   },
   "games": [
     {
-      "title": "Предмет органической химии 🧪",
+      "title": "Предмет органической химии",
       "subject": "Химия",
       "icon": "BookOpenText",
       "color": "text-emerald-400",
@@ -496,7 +496,7 @@
       }
     },
     {
-      "title": "Теория строения органических соединений 🧬",
+      "title": "Теория строения органических соединений",
       "subject": "Химия",
       "icon": "BookOpenText",
       "color": "text-emerald-400",
@@ -634,7 +634,7 @@
       }
     },
     {
-      "title": "Классификация и номенклатура 📋",
+      "title": "Классификация и номенклатура",
       "subject": "Химия",
       "icon": "BookOpenText",
       "color": "text-emerald-400",
@@ -773,7 +773,7 @@
       }
     },
     {
-      "title": "Алканы 🔥",
+      "title": "Алканы",
       "subject": "Химия",
       "icon": "BookOpenText",
       "color": "text-emerald-400",
@@ -911,7 +911,7 @@
       }
     },
     {
-      "title": "Алкены 💎",
+      "title": "Алкены",
       "subject": "Химия",
       "icon": "BookOpenText",
       "color": "text-emerald-400",
@@ -1051,7 +1051,7 @@
       }
     },
     {
-      "title": "Алкины ⚡",
+      "title": "Алкины",
       "subject": "Химия",
       "icon": "BookOpenText",
       "color": "text-emerald-400",
@@ -1190,7 +1190,7 @@
       }
     },
     {
-      "title": "Арены 🏛️",
+      "title": "Арены",
       "subject": "Химия",
       "icon": "BookOpenText",
       "color": "text-emerald-400",
@@ -1328,7 +1328,7 @@
       }
     },
     {
-      "title": "Спирты 🍷",
+      "title": "Спирты",
       "subject": "Химия",
       "icon": "BookOpenText",
       "color": "text-emerald-400",
@@ -1468,7 +1468,7 @@
       }
     },
     {
-      "title": "Альдегиды и кетоны 🌸",
+      "title": "Альдегиды и кетоны",
       "subject": "Химия",
       "icon": "BookOpenText",
       "color": "text-emerald-400",
@@ -1606,7 +1606,7 @@
       }
     },
     {
-      "title": "Карбоновые кислоты 🍋",
+      "title": "Карбоновые кислоты",
       "subject": "Химия",
       "icon": "BookOpenText",
       "color": "text-emerald-400",
@@ -1745,7 +1745,7 @@
       }
     },
     {
-      "title": "Типы химических реакций ⚗️",
+      "title": "Типы химических реакций",
       "subject": "Химия",
       "icon": "BookOpenText",
       "color": "text-emerald-400",
@@ -1880,7 +1880,7 @@
       }
     },
     {
-      "title": "Механизмы реакций 🔬",
+      "title": "Механизмы реакций",
       "subject": "Химия",
       "icon": "BookOpenText",
       "color": "text-emerald-400",

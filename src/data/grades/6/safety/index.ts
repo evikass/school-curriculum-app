@@ -894,7 +894,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Безопасность на дорогах",
+    title: "Правила дорожного движения для пешеходов",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -913,7 +913,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь правила дорожного движения! 🚦" }
   },
   {
-    title: "Пожарная безопасность",
+    title: "Безопасность велосипедиста",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -932,7 +932,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь пожарную безопасность! 🚒" }
   },
   {
-    title: "Безопасность в быту",
+    title: "Причины пожаров",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -953,7 +953,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь правила бытовой безопасности! 🏠" }
   },
   {
-    title: "Первая помощь",
+    title: "Действия при пожаре",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -971,7 +971,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты умеешь оказывать первую помощь! 🏥" }
   },
   {
-    title: "Экстремальные ситуации",
+    title: "Электробезопасность",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -984,7 +984,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты готов к чрезвычайным ситуациям! 🛡️" }
   },
   {
-    title: "Безопасность велосипедиста",
+    title: "Безопасность при обращении с газом",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -1003,7 +1003,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь правила велосипедиста! 🚲" }
   },
   {
-    title: "Действия при пожаре",
+    title: "Действия в чрезвычайных ситуациях",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -1022,7 +1022,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь, как действовать при пожаре! 🚒" }
   },
   {
-    title: "Безопасность при обращении с газом",
+    title: "Первая помощь",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",

@@ -533,7 +533,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Московское государство",
+    title: "Объединение русских земель",
     image: "/school-curriculum-app/images/lessons/grade7/history/lesson22.svg",
     subject: "История",
     icon: "Landmark",
@@ -548,7 +548,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь историю Московского государства! 👑" }
   },
   {
-    title: "Смутное время",
+    title: "Иван III и освобождение Руси",
     image: "/school-curriculum-app/images/lessons/grade7/history/lesson23.svg",
     subject: "История",
     icon: "Landmark",
@@ -562,7 +562,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь историю Смуты! ⚔️" }
   },
   {
-    title: "Объединение Руси",
+    title: "Иван IV Грозный",
     image: "/school-curriculum-app/images/lessons/grade7/history/lesson24.svg",
     subject: "История",
     icon: "Landmark",
@@ -576,7 +576,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь объединение Руси! 🏰" }
   },
   {
-    title: "Россия в XVII веке",
+    title: "Культура XVI века",
     image: "/school-curriculum-app/images/lessons/grade7/history/lesson25.svg",
     subject: "История",
     icon: "Landmark",
@@ -590,7 +590,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь XVII век! 📜" }
   },
   {
-    title: "Объединение русских земель",
+    title: "Причины и начало Смуты",
     image: "/school-curriculum-app/images/lessons/grade7/history/lesson26.svg",
     subject: "История",
     icon: "Landmark",
@@ -614,7 +614,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь объединение Руси! 🏰" }
   },
   {
-    title: "Иван III и освобождение Руси",
+    title: "Освобождение Москвы",
     image: "/school-curriculum-app/images/lessons/grade7/history/lesson27.svg",
     subject: "История",
     icon: "Landmark",
@@ -638,7 +638,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь Ивана III! 👑" }
   },
   {
-    title: "Иван IV Грозный",
+    title: "Начало династии Романовых",
     image: "/school-curriculum-app/images/lessons/grade7/history/lesson28.svg",
     subject: "История",
     icon: "Landmark",
@@ -662,7 +662,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь Ивана Грозного! ⚔️" }
   },
   {
-    title: "Культура XVI века",
+    title: "Соборное уложение 1649 года",
     image: "/school-curriculum-app/images/lessons/grade7/history/lesson29.svg",
     subject: "История",
     icon: "Landmark",
@@ -686,7 +686,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь культуру XVI века! ⛪" }
   },
   {
-    title: "Причины и начало Смуты",
+    title: "Церковный раскол",
     image: "/school-curriculum-app/images/lessons/grade7/history/lesson30.svg",
     subject: "История",
     icon: "Landmark",

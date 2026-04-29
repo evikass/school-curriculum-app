@@ -2092,7 +2092,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Древний Египет: Основы",
+    title: "Древний Египет — цивилизация на Ниле",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2122,7 +2122,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь Египет! 🏛️" }
   },
   {
-    title: "Древняя Греция",
+    title: "Древняя Греция — колыбель демократии",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2152,7 +2152,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь Грецию! 🏺" }
   },
   {
-    title: "Древний Рим",
+    title: "Древний Рим — от республики к империи",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2182,7 +2182,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь Рим! 🏛️" }
   },
   {
-    title: "Средние века",
+    title: "Культура Древнего мира",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2212,7 +2212,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь Средневековье! ⚔️" }
   },
   {
-    title: "История России: Киевская Русь",
+    title: "Раннее Средневековье — Великое переселение народов",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2242,7 +2242,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь Киевскую Русь! 📜" }
   },
   {
-    title: "История России: Монголы и Русь",
+    title: "Феодализм — рыцари и замки",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2272,7 +2272,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь историю Руси! 🛡️" }
   },
   {
-    title: "Великие люди истории",
+    title: "Средневековые города",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2302,7 +2302,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь великих людей! 👑" }
   },
   {
-    title: "Культура Древнего мира",
+    title: "Культура Средневековья",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2316,7 +2316,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь культуру древности! 🎨" }
   },
   {
-    title: "Раннее Средневековье — Великое переселение народов",
+    title: "Восточные славяне",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2330,7 +2330,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь раннее Средневековье! 🏰" }
   },
   {
-    title: "Средневековые города",
+    title: "Образование Древнерусского государства",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2344,7 +2344,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь средневековые города! 🏘️" }
   },
   {
-    title: "Культура Средневековья",
+    title: "Крещение Руси",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2358,7 +2358,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь культуру Средневековья! 🎨" }
   },
   {
-    title: "Восточные славяне",
+    title: "Расцвет Древней Руси",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2372,7 +2372,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь восточных славян! 🌲" }
   },
   {
-    title: "Крещение Руси",
+    title: "Монгольское нашествие",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -2386,7 +2386,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь историю крещения Руси! ✝️" }
   },
   {
-    title: "Расцвет Древней Руси",
+    title: "Русь и Орда",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",

@@ -901,7 +901,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Формы для лепки 🧸",
+    title: "Знакомство с пластилином",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -945,7 +945,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь формы для лепки! 🧸" }
   },
   {
-    title: "Материалы для поделок ✂️",
+    title: "Простые формы",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -989,7 +989,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь материалы! ✂️" }
   },
   {
-    title: "Инструменты 🧰",
+    title: "Животные из пластилина",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1033,7 +1033,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь инструменты! 🧰" }
   },
   {
-    title: "Природные материалы 🌿",
+    title: "Фрукты и овощи",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1077,7 +1077,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь природные материалы! 🌿" }
   },
   {
-    title: "Знакомство с пластилином",
+    title: "Первая аппликация",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1121,7 +1121,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты умеешь работать с пластилином! 🎨" }
   },
   {
-    title: "Животные из пластилина 🐛",
+    title: "Аппликация «Цветок»",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1165,7 +1165,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь лепить животных! 🐛" }
   },
   {
-    title: "Фрукты и овощи 🍎",
+    title: "Аппликация «Домик»",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1209,7 +1209,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты лепишь фрукты и овощи! 🍎" }
   },
   {
-    title: "Аппликации из бумаги ✂️",
+    title: "Аппликация «Дерево»",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1253,7 +1253,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь делать аппликации! ✂️" }
   },
   {
-    title: "Аппликация «Цветок» 🌸",
+    title: "Поделки из шишек",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1297,7 +1297,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты создал прекрасный цветок! 🌸" }
   },
   {
-    title: "Поделки из шишек 🦔",
+    title: "Поделки из желудей",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1341,7 +1341,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь работать с шишками! 🦔" }
   },
   {
-    title: "Поделки из желудей 🧑",
+    title: "Аппликация из листьев",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1385,7 +1385,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты создаёшь поделки из желудей! 🧑" }
   },
   {
-    title: "Поделки из камешков 🐞",
+    title: "Камешки и ракушки",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",

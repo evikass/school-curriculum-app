@@ -202,7 +202,7 @@
   },
   "games": [
     {
-      "title": "Бактерии и грибы",
+      "title": "Строение и жизнедеятельность бактерий",
       "image": "/images/lessons/grade7/biology/lesson19.svg",
       "subject": "Биология",
       "icon": "Leaf",
@@ -288,7 +288,7 @@
       }
     },
     {
-      "title": "Растения",
+      "title": "Роль бактерий в природе и жизни человека",
       "image": "/images/lessons/grade7/biology/lesson20.svg",
       "subject": "Биология",
       "icon": "Leaf",
@@ -374,7 +374,7 @@
       }
     },
     {
-      "title": "Строение цветковых растений",
+      "title": "Общая характеристика грибов",
       "image": "/images/lessons/grade7/biology/lesson21.svg",
       "subject": "Биология",
       "icon": "Leaf",
@@ -461,7 +461,7 @@
       }
     },
     {
-      "title": "Водоросли и мхи",
+      "title": "Значение грибов",
       "image": "/images/lessons/grade7/biology/lesson22.svg",
       "subject": "Биология",
       "icon": "Leaf",
@@ -547,7 +547,7 @@
       }
     },
     {
-      "title": "Роль бактерий в природе и жизни человека",
+      "title": "Водоросли",
       "image": "/images/lessons/grade7/biology/lesson23.svg",
       "subject": "Биология",
       "icon": "Leaf",
@@ -639,7 +639,7 @@
       }
     },
     {
-      "title": "Значение грибов",
+      "title": "Мхи, папоротники, голосеменные",
       "image": "/images/lessons/grade7/biology/lesson24.svg",
       "subject": "Биология",
       "icon": "Leaf",

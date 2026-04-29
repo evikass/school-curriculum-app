@@ -390,7 +390,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Музыкальные жанры",
+    title: "Жанры вокальной музыки",
     image: "/school-curriculum-app/images/lessons/grade7/music/lesson19.svg",
     subject: "Музыка",
     icon: "Music",
@@ -415,7 +415,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь музыкальные жанры! 🎵" }
   },
   {
-    title: "Композиторы",
+    title: "Инструментальные жанры",
     image: "/school-curriculum-app/images/lessons/grade7/music/lesson20.svg",
     subject: "Музыка",
     icon: "Music",
@@ -430,7 +430,7 @@ export const games = [
     reward: { stars: 3, message: "Браво! Ты знаешь композиторов! 🎼" }
   },
   {
-    title: "Зарубежная музыка",
+    title: "М.И. Глинка — основоположник русской классики",
     image: "/school-curriculum-app/images/lessons/grade7/music/lesson21.svg",
     subject: "Музыка",
     icon: "Music",
@@ -445,7 +445,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь зарубежную музыку! 🎹" }
   },
   {
-    title: "Современная музыка",
+    title: "«Могучая кучка» и П.И. Чайковский",
     image: "/school-curriculum-app/images/lessons/grade7/music/lesson22.svg",
     subject: "Музыка",
     icon: "Music",
@@ -460,7 +460,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь современную музыку! 🎸" }
   },
   {
-    title: "Жанры вокальной музыки",
+    title: "Венская классическая школа",
     image: "/school-curriculum-app/images/lessons/grade7/music/lesson23.svg",
     subject: "Музыка",
     icon: "Music",
@@ -485,7 +485,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь вокальные жанры! 🎤" }
   },
   {
-    title: "Инструментальные жанры",
+    title: "Джаз и рок-музыка",
     image: "/school-curriculum-app/images/lessons/grade7/music/lesson24.svg",
     subject: "Музыка",
     icon: "Music",

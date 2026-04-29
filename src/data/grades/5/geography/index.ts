@@ -1610,7 +1610,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Солнечная система",
+    title: "Вселенная и Солнечная система",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1623,7 +1623,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь Солнечную систему! 🌍" }
   },
   {
-    title: "План и карта",
+    title: "Планеты Солнечной системы",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1636,7 +1636,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты умеешь работать с картой! 🗺️" }
   },
   {
-    title: "Рельеф Земли",
+    title: "Земля — уникальная планета",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1649,7 +1649,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь рельеф Земли! ⛰️" }
   },
   {
-    title: "Гидросфера",
+    title: "Движения Земли",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1662,7 +1662,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь гидросферу! 🌊" }
   },
   {
-    title: "Атмосфера и климат",
+    title: "Изображения земной поверхности",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1675,7 +1675,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь атмосферу! ☁️" }
   },
   {
-    title: "Урок 2: Планеты Солнечной системы",
+    title: "Масштаб и его виды",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1701,7 +1701,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь все планеты! 🪐" }
   },
   {
-    title: "Урок 3: Земля — уникальная планета",
+    title: "Условные знаки",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1727,7 +1727,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь, чем уникальна Земля! 🌍" }
   },
   {
-    title: "Урок 4: Движения Земли",
+    title: "Ориентирование на местности",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1753,7 +1753,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь движения Земли! 🔄" }
   },
   {
-    title: "Урок 6: Масштаб и его виды",
+    title: "Градусная сетка и географические координаты",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1779,7 +1779,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь масштаб! 📏" }
   },
   {
-    title: "Урок 7: Условные знаки",
+    title: "Внутреннее строение Земли",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1805,7 +1805,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь условные знаки! 🔣" }
   },
   {
-    title: "Урок 8: Ориентирование на местности",
+    title: "Горные породы и минералы",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1831,7 +1831,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты умеешь ориентироваться! 🧭" }
   },
   {
-    title: "Урок 9: Градусная сетка и географические координаты",
+    title: "Рельеф Земли — горы и равнины",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1857,7 +1857,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь координаты! 🌐" }
   },
   {
-    title: "Урок 10: Внутреннее строение Земли",
+    title: "Движения земной коры",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1883,7 +1883,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь строение Земли! 🌍" }
   },
   {
-    title: "Урок 11: Горные породы и минералы",
+    title: "Мировой океан",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1909,7 +1909,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь горные породы! 🪨" }
   },
   {
-    title: "Урок 13: Движения земной коры",
+    title: "Воды суши",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1935,7 +1935,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь движения земной коры! 🌋" }
   },
   {
-    title: "Урок 15: Воды суши",
+    title: "Ледники и многолетняя мерзлота",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1961,7 +1961,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь воды суши! 💧" }
   },
   {
-    title: "Урок 16: Ледники и многолетняя мерзлота",
+    title: "Строение атмосферы",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1987,7 +1987,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь о ледниках и мерзлоте! 🧊" }
   },
   {
-    title: "Урок 18: Температура воздуха",
+    title: "Температура воздуха",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -2013,7 +2013,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь о температуре воздуха! 🌡️" }
   },
   {
-    title: "Урок 19: Атмосферное давление и ветер",
+    title: "Атмосферное давление и ветер",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -2039,7 +2039,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь о давлении и ветре! 💨" }
   },
   {
-    title: "Урок 20: Влага в атмосфере",
+    title: "Влага в атмосфере",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -2065,7 +2065,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь о влаге в атмосфере! 💧" }
   },
   {
-    title: "Урок 21: Биосфера — сфера жизни",
+    title: "Биосфера — сфера жизни",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -2091,7 +2091,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь о биосфере! 🌿" }
   },
   {
-    title: "Урок 22: Природные зоны",
+    title: "Природные зоны",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -2117,7 +2117,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь природные зоны! 🗺️" }
   },
   {
-    title: "Урок 23: Охрана природы",
+    title: "Охрана природы",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",

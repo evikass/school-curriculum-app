@@ -836,7 +836,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь признаки жизни! 🌱" }
   },
   {
-    title: "Строение клетки",
+    title: "Клетка",
     subject: "Биология",
     icon: "Atom",
     color: "text-green-400",
@@ -1000,7 +1000,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь фотосинтез! ☀️" }
   },
   {
-    title: "Группы животных",
+    title: "Размножение растений",
     subject: "Биология",
     icon: "Atom",
     color: "text-green-400",
@@ -1037,7 +1037,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь животных! 🦁" }
   },
   {
-    title: "Цепи питания",
+    title: "Беспозвоночные",
     subject: "Биология",
     icon: "Atom",
     color: "text-green-400",
@@ -1067,7 +1067,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь цепи питания! 🔗" }
   },
   {
-    title: "Размножение растений",
+    title: "Позвоночные",
     subject: "Биология",
     icon: "Atom",
     color: "text-green-400",

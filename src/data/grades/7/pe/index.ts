@@ -412,7 +412,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Физические качества",
+    title: "Развитие выносливости",
     image: "/school-curriculum-app/images/lessons/grade7/pe/lesson19.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
@@ -427,7 +427,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь физические качества! 💪" }
   },
   {
-    title: "Спортивные игры",
+    title: "Развитие силы и быстроты",
     image: "/school-curriculum-app/images/lessons/grade7/pe/lesson20.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
@@ -442,7 +442,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь спортивные игры! 🏀" }
   },
   {
-    title: "Гимнастика",
+    title: "техника и тактика",
     image: "/school-curriculum-app/images/lessons/grade7/pe/lesson21.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
@@ -457,7 +457,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь гимнастику! 🤸" }
   },
   {
-    title: "Лыжная подготовка",
+    title: "техника и тактика",
     image: "/school-curriculum-app/images/lessons/grade7/pe/lesson22.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
@@ -472,7 +472,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь лыжную подготовку! ⛷️" }
   },
   {
-    title: "Развитие выносливости",
+    title: "Акробатические упражнения",
     image: "/school-curriculum-app/images/lessons/grade7/pe/lesson23.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",
@@ -497,7 +497,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь, как развивать выносливость! 🏃" }
   },
   {
-    title: "Развитие силы и быстроты",
+    title: "Лыжные ходы",
     image: "/school-curriculum-app/images/lessons/grade7/pe/lesson24.svg",
     subject: "Физическая культура",
     icon: "Dumbbell",

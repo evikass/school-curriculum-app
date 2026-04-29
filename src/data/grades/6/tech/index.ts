@@ -1278,7 +1278,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Обработка материалов",
+    title: "Свойства и породы древесины",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1303,7 +1303,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь обработку материалов! 🔧" }
   },
   {
-    title: "Кулинария",
+    title: "Инструменты для обработки древесины",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1324,7 +1324,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь кулинарию! 👨‍🍳" }
   },
   {
-    title: "Проектная деятельность",
+    title: "Соединение деталей из древесины",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1337,7 +1337,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты готов к проектной деятельности! 📋" }
   },
   {
-    title: "Свойства и породы древесины",
+    title: "Свойства металлов",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1356,7 +1356,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь породы и свойства древесины! 🌳" }
   },
   {
-    title: "Инструменты для обработки древесины",
+    title: "Инструменты для обработки металла",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1375,7 +1375,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь столярные инструменты! 🪚" }
   },
   {
-    title: "Соединение деталей из древесины",
+    title: "Блюда из яиц",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1389,7 +1389,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь виды соединений древесины! 🪵" }
   },
   {
-    title: "Свойства металлов",
+    title: "Бутерброды и горячие напитки",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1403,7 +1403,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь свойства металлов! ⚙️" }
   },
   {
-    title: "Блюда из яиц",
+    title: "Творческий проект",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",

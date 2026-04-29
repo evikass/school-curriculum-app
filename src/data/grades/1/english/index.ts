@@ -426,7 +426,7 @@ Then I let it go again!
 
 export const games: GameLesson[] = [
   {
-    title: "Hello! Привет! 👋",
+    title: "Hello!",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -470,7 +470,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Great! Отлично! Ты знаешь приветствия! 👋" }
   },
   {
-    title: "Цвета по-английски 🎨",
+    title: "What is your name?",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -514,7 +514,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Wonderful! Ты знаешь цвета! 🎨" }
   },
   {
-    title: "Числа 1-10 🔢",
+    title: "Goodbye!",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -558,7 +558,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Excellent! Ты знаешь числа! 🔢" }
   },
   {
-    title: "Животные 🐱",
+    title: "Colours",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -602,7 +602,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Great job! Ты знаешь животных! 🐱" }
   },
   {
-    title: "Приветствие и прощание 👋",
+    title: "Numbers 1-5",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -646,7 +646,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Excellent! Ты умеешь здороваться! 👋" }
   },
   {
-    title: "Числа 6-10 🔢",
+    title: "Numbers 6-10",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",

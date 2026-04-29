@@ -1864,7 +1864,7 @@ t = 1 ÷ (5/12) = 12/5 = 2.4 ч = 2 ч 24 мин
 
 export const games: GameLesson[] = [
   {
-    title: "Натуральные числа: Разряды",
+    title: "Ряд натуральных чисел",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1894,7 +1894,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь разряды! 🔢" }
   },
   {
-    title: "Сравнение чисел",
+    title: "Цифры и десятичная запись",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1924,7 +1924,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты умеешь сравнивать! ⚖️" }
   },
   {
-    title: "Дроби: Основы",
+    title: "Сравнение натуральных чисел",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1961,7 +1961,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь дроби! 🍰" }
   },
   {
-    title: "Сложение дробей",
+    title: "Сложение натуральных чисел",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1991,7 +1991,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты складываешь дроби! ➕" }
   },
   {
-    title: "Единицы измерения",
+    title: "Вычитание натуральных чисел",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2028,7 +2028,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь единицы! 📏" }
   },
   {
-    title: "Углы и треугольники",
+    title: "Умножение натуральных чисел",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2058,7 +2058,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь геометрию! 📐" }
   },
   {
-    title: "Периметр и площадь",
+    title: "Деление натуральных чисел",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2088,7 +2088,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты умеешь вычислять! 🔢" }
   },
   {
-    title: "Римские цифры",
+    title: "Понятие дроби",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2118,7 +2118,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь римские цифры! 🏛️" }
   },
   {
-    title: "Сложение натуральных чисел",
+    title: "Правильные и неправильные дроби",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2132,7 +2132,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь складывать! ➕🎉" }
   },
   {
-    title: "Вычитание натуральных чисел",
+    title: "Сравнение дробей",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2146,7 +2146,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Вычитание mastered! ➖🎉" }
   },
   {
-    title: "Умножение натуральных чисел",
+    title: "Сложение и вычитание дробей",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2160,7 +2160,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Умножение — легко! ✖️🎉" }
   },
   {
-    title: "Деление натуральных чисел",
+    title: "Смешанные числа",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2174,7 +2174,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Деление освоено! ➗🎉" }
   },
   {
-    title: "Правильные и неправильные дроби",
+    title: "Отрезок, прямая, луч",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2188,7 +2188,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Дроби понятны! 🥧🎉" }
   },
   {
-    title: "Сравнение дробей",
+    title: "Угол. Виды углов",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2202,7 +2202,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Сравнение дробей освоено! ⚖️🎉" }
   },
   {
-    title: "Смешанные числа",
+    title: "Треугольник",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2216,7 +2216,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Смешанные числа — легко! 🔢🎉" }
   },
   {
-    title: "Отрезок, прямая, луч",
+    title: "Прямоугольник и квадрат",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2230,7 +2230,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь геометрию! 📐🎉" }
   },
   {
-    title: "Треугольник",
+    title: "Единицы длины",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",

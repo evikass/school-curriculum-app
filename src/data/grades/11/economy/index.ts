@@ -2518,7 +2518,7 @@ S = 100 000 × (1 + 0,12)² = 100 000 × 1,2544 = 125 440 руб.
 
 export const games: GameLesson[] = [
   {
-    title: "Мировое хозяйство 📚",
+    title: "Мировое хозяйство",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2532,7 +2532,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Сравнительные преимущества 📚",
+    title: "Сравнительные преимущества",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2546,7 +2546,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Теория Хекшера-Олина 📚",
+    title: "Теория Хекшера-Олина",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2560,7 +2560,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Международная мобильность факторов 📚",
+    title: "Международная мобильность факторов",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2574,7 +2574,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Торговая политика 📚",
+    title: "Торговая политика",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2588,7 +2588,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Таможенные союзы и интеграция 📚",
+    title: "Таможенные союзы и интеграция",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2602,7 +2602,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "ВТО и международные организации 📚",
+    title: "ВТО и международные организации",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2616,7 +2616,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Торговый баланс 📚",
+    title: "Торговый баланс",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2630,7 +2630,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Валютные курсы 📚",
+    title: "Валютные курсы",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2644,7 +2644,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Валютные режимы 📚",
+    title: "Валютные режимы",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2658,7 +2658,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Валютный рынок 📚",
+    title: "Валютный рынок",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2672,7 +2672,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Международные валютные системы 📚",
+    title: "Международные валютные системы",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2686,7 +2686,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Сущность глобализации 📚",
+    title: "Сущность глобализации",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2700,7 +2700,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Транснациональные корпорации 📚",
+    title: "Транснациональные корпорации",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2714,7 +2714,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Преимущества и недостатки глобализации 📚",
+    title: "Преимущества и недостатки глобализации",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2728,7 +2728,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Глобальные проблемы 📚",
+    title: "Глобальные проблемы",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2742,7 +2742,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Экономическая история России 📚",
+    title: "Экономическая история России",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2756,7 +2756,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Структура экономики России 📚",
+    title: "Структура экономики России",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2770,7 +2770,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Экономические реформы 📚",
+    title: "Экономические реформы",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2784,7 +2784,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Перспективы экономики России 📚",
+    title: "Перспективы экономики России",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2798,7 +2798,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Принципы налогообложения 📚",
+    title: "Принципы налогообложения",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2812,7 +2812,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Налоги в России 📚",
+    title: "Налоги в России",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2826,7 +2826,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Налоговое администрирование 📚",
+    title: "Налоговое администрирование",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2840,7 +2840,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Налоговая реформа 📚",
+    title: "Налоговая реформа",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2854,7 +2854,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Бюджетное устройство России 📚",
+    title: "Бюджетное устройство России",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2868,7 +2868,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Доходы и расходы бюджета 📚",
+    title: "Доходы и расходы бюджета",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2882,7 +2882,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Межбюджетные отношения 📚",
+    title: "Межбюджетные отношения",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2896,7 +2896,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Государственный долг 📚",
+    title: "Государственный долг",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2910,7 +2910,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Ключевые понятия экономики 📚",
+    title: "Ключевые понятия экономики",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2924,7 +2924,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Решение задач 📚",
+    title: "Решение задач",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2938,7 +2938,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Анализ экономических ситуаций 📚",
+    title: "Анализ экономических ситуаций",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",
@@ -2952,7 +2952,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты справился! 🎉" }
   },
   {
-    title: "Эссе по экономике 📚",
+    title: "Эссе по экономике",
     subject: "Экономика",
     icon: "TrendingUp",
     color: "text-amber-400",

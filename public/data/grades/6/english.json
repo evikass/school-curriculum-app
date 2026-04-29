@@ -226,7 +226,7 @@
   },
   "games": [
     {
-      "title": "Family and Appearance",
+      "title": "Family Members",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -312,7 +312,7 @@
       }
     },
     {
-      "title": "Time and Routine",
+      "title": "Describing People",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -398,7 +398,7 @@
       }
     },
     {
-      "title": "Hobbies and Abilities",
+      "title": "Time and Daily Activities",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -484,7 +484,7 @@
       }
     },
     {
-      "title": "Travelling",
+      "title": "Days of the Week and Prepositions",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -570,7 +570,7 @@
       }
     },
     {
-      "title": "Describing People",
+      "title": "Free Time Activities",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -661,7 +661,7 @@
       }
     },
     {
-      "title": "Days of the Week and Prepositions",
+      "title": "Can / Can't for Abilities",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -753,7 +753,7 @@
       }
     },
     {
-      "title": "Free Time Activities",
+      "title": "At the Airport",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",

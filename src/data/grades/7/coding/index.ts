@@ -583,7 +583,7 @@ while True:
 
 export const games = [
   {
-    title: "Основы Python",
+    title: "Что такое программирование",
     image: "/school-curriculum-app/images/lessons/grade7/coding/lesson25.svg",
     subject: "Основы программирования",
     icon: "Code",
@@ -598,7 +598,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь основы Python! 🐍" }
   },
   {
-    title: "Переменные и функции",
+    title: "Первая программа",
     image: "/school-curriculum-app/images/lessons/grade7/coding/lesson26.svg",
     subject: "Основы программирования",
     icon: "Code",
@@ -613,7 +613,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты понимаешь переменные! 🎯" }
   },
   {
-    title: "Циклы",
+    title: "Переменные в Python",
     image: "/school-curriculum-app/images/lessons/grade7/coding/lesson27.svg",
     subject: "Основы программирования",
     icon: "Code",
@@ -628,7 +628,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты знаешь циклы! 🚀" }
   },
   {
-    title: "Условия и ветвления",
+    title: "Типы данных",
     image: "/school-curriculum-app/images/lessons/grade7/coding/lesson28.svg",
     subject: "Основы программирования",
     icon: "Code",
@@ -653,7 +653,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты освоил условия и ветвления! 🔀" }
   },
   {
-    title: "Что такое программирование",
+    title: "Условный оператор if",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -676,7 +676,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь, что такое программирование! 💻" }
   },
   {
-    title: "Первая программа",
+    title: "Логические операторы",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -699,7 +699,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты написал первую программу! 🚀" }
   },
   {
-    title: "Переменные в Python",
+    title: "Цикл for",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -722,7 +722,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь переменные! 🎯" }
   },
   {
-    title: "Типы данных",
+    title: "Цикл while",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",

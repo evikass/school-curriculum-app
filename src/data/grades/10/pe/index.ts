@@ -656,7 +656,7 @@ export const games = [
     reward: { stars: 3, message: "Ты знаешь лёгкую атлетику!" }
   },
   {
-    title: "Баскетбол: техника и тактика",
+    title: "техника и тактика",
     subject: "Физическая культура",
     icon: "CircleDot",
     color: "text-orange-400",
@@ -680,7 +680,7 @@ export const games = [
     reward: { stars: 3, message: "Отличное знание баскетбола!" }
   },
   {
-    title: "Волейбол: техника и тактика",
+    title: "техника и тактика",
     subject: "Физическая культура",
     icon: "Target",
     color: "text-orange-400",
@@ -704,7 +704,7 @@ export const games = [
     reward: { stars: 3, message: "Ты знаешь волейбол!" }
   },
   {
-    title: "Футбол: техника и тактика",
+    title: "техника и тактика",
     subject: "Физическая культура",
     icon: "Target",
     color: "text-orange-400",

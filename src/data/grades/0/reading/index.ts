@@ -453,7 +453,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Звуки вокруг нас 🔊",
+    title: "Звуки речи",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -497,7 +497,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь звуки речи! 🔊" }
   },
   {
-    title: "Слоги в словах 👏",
+    title: "Слова и слоги",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -541,7 +541,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты понимаешь слоги! 👏" }
   },
   {
-    title: "Предложение 📝",
+    title: "Предложение",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -585,7 +585,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Замечательно! Ты знаешь правила предложения! 📖" }
   },
   {
-    title: "Гласные и согласные 🔤",
+    title: "Слушание сказок",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -629,7 +629,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты различаешь звуки! 🎵" }
   },
   {
-    title: "Слова-действия 🏃",
+    title: "Гласные и согласные",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -673,7 +673,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь слова-действия! 🎬" }
   },
   {
-    title: "Слова-признаки 🌈",
+    title: "Слова-предметы и слова-действия",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -717,7 +717,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты знаешь слова-признаки! 🎨" }
   },
   {
-    title: "Учимся рифмовать 🎭",
+    title: "Слова-признаки",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -761,7 +761,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты умеешь рифмовать! 🎭" }
   },
   {
-    title: "Развитие речи 🗣️",
+    title: "Рифма",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",

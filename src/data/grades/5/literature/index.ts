@@ -1749,7 +1749,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь греческие мифы! ⚡" }
   },
   {
-    title: "Фольклор: пословицы и загадки",
+    title: "Подвиги Геракла",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1762,7 +1762,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь фольклор! 📚" }
   },
   {
-    title: "Древнерусская литература",
+    title: "Мифы о происхождении мира",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1775,7 +1775,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь древнерусскую литературу! 📜" }
   },
   {
-    title: "Русские писатели XIX века",
+    title: "Легенды и предания",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1788,7 +1788,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь русскую классику! 📖" }
   },
   {
-    title: "Зарубежная литература",
+    title: "Малые жанры фольклора",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1801,7 +1801,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь зарубежную литературу! 🌍" }
   },
   {
-    title: "Подвиги Геракла",
+    title: "Сказки народов мира",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1825,7 +1825,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь подвиги Геракла! 💪" }
   },
   {
-    title: "Мифы о происхождении мира",
+    title: "Былины",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1839,7 +1839,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь мифы о творении мира! 🌍" }
   },
   {
-    title: "Легенды и предания",
+    title: "«Повесть временных лет»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1853,7 +1853,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь легенды и предания! 📜" }
   },
   {
-    title: "Сказки народов мира",
+    title: "«Сказание о Борисе и Глебе»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1880,7 +1880,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь сказки народов мира! 🏰" }
   },
   {
-    title: "Былины",
+    title: "«Слово о полку Игореве»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1902,7 +1902,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь былины! ⚔️" }
   },
   {
-    title: "Сказание о Борисе и Глебе",
+    title: "И.А. Крылов «Волк на псарне»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1916,7 +1916,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь сказание о Борисе и Глебе! ✝️" }
   },
   {
-    title: "Слово о полку Игореве",
+    title: "А.С. Пушкин «Руслан и Людмила»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1940,7 +1940,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь «Слово о полку Игореве»! ⚔️" }
   },
   {
-    title: "Руслан и Людмила",
+    title: "М.Ю. Лермонтов «Бородино»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1954,7 +1954,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь «Руслана и Людмилу»! 🎭" }
   },
   {
-    title: "Бородино",
+    title: "Н.В. Гоголь «Заколдованное место»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1968,7 +1968,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь стихотворение «Бородино»! ⚔️" }
   },
   {
-    title: "Заколдованное место",
+    title: "Д. Дефо «Робинзон Крузо»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1982,7 +1982,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь повесть Гоголя! 🌙" }
   },
   {
-    title: "Снежная королева",
+    title: "Х.К. Андерсен «Снежная королева»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1996,7 +1996,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь «Снежную королеву»! ❄️" }
   },
   {
-    title: "Васюткино озеро",
+    title: "В.П. Астафьев «Васюткино озеро»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -2010,7 +2010,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь рассказ Астафьева! 🌲" }
   },
   {
-    title: "Уроки французского",
+    title: "В.Г. Распутин «Уроки французского»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",

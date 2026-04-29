@@ -1085,7 +1085,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Лексика и фразеология",
+    title: "Слово и его значение",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1098,7 +1098,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь лексику! 📖" }
   },
   {
-    title: "Словообразование",
+    title: "Синонимы и антонимы",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1111,7 +1111,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь словообразование! ✏️" }
   },
   {
-    title: "Имя существительное",
+    title: "Исконно русские и заимствованные слова",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1124,7 +1124,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь имя существительное! 📝" }
   },
   {
-    title: "Слово и его значение",
+    title: "Фразеологизмы",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1148,7 +1148,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь лексическое значение слов! 📖" }
   },
   {
-    title: "Синонимы и антонимы",
+    title: "Использование фразеологизмов в речи",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1167,7 +1167,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь синонимы и антонимы! 📝" }
   },
   {
-    title: "Исконно русские и заимствованные слова",
+    title: "Способы словообразования",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1186,7 +1186,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь происхождение слов! 🌍" }
   },
   {
-    title: "Фразеологизмы",
+    title: "Морфемный разбор слова",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1205,7 +1205,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь фразеологизмы! 💬" }
   },
   {
-    title: "Использование фразеологизмов в речи",
+    title: "Имя существительное как часть речи",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1224,7 +1224,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты умеешь использовать фразеологизмы! 🎯" }
   },
   {
-    title: "Способы словообразования",
+    title: "Склонение имён существительных",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1243,7 +1243,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь способы словообразования! ✏️" }
   },
   {
-    title: "Морфемный разбор слова",
+    title: "Правописание падежных окончаний",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",

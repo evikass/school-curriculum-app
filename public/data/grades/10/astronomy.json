@@ -993,7 +993,7 @@
       }
     },
     {
-      "title": "Малые тела",
+      "title": "Малые тела Солнечной системы",
       "subject": "Астрономия",
       "icon": "Telescope",
       "color": "text-violet-400",
@@ -1222,7 +1222,7 @@
       }
     },
     {
-      "title": "Солнце — наша звезда",
+      "title": "Солнце",
       "subject": "Астрономия",
       "icon": "Telescope",
       "color": "text-violet-400",

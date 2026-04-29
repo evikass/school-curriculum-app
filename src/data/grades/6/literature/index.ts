@@ -1116,7 +1116,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь греческие мифы! 🏛️" }
   },
   {
-    title: "Русский фольклор",
+    title: "Подвиги Геракла",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1129,7 +1129,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь русский фольклор! 📜" }
   },
   {
-    title: "Русская классика",
+    title: "Мифы о Прометее и Тесее",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1142,7 +1142,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь русскую классику! 📚" }
   },
   {
-    title: "Зарубежная литература",
+    title: "Былины — русский героический эпос",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1155,7 +1155,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь зарубежную литературу! 🌍" }
   },
   {
-    title: "Подвиги Геракла",
+    title: "Русские народные сказки",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1179,7 +1179,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь подвиги Геракла! 💪" }
   },
   {
-    title: "Мифы о Прометее и Тесее",
+    title: "Пословицы и поговорки",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1203,7 +1203,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь мифы о Прометее и Тесее! 🏛️" }
   },
   {
-    title: "Русские народные сказки",
+    title: "А.С. Пушкин. Стихотворения",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1227,7 +1227,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь русские сказки! 📖" }
   },
   {
-    title: "Пословицы и поговорки",
+    title: "М.Ю. Лермонтов. «Три пальмы»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1251,7 +1251,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь пословицы и поговорки! 💬" }
   },
   {
-    title: "М.Ю. Лермонтов. «Три пальмы»",
+    title: "И.С. Тургенев. «Бежин луг»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1265,7 +1265,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь стихотворение Лермонтова! 🌴" }
   },
   {
-    title: "И.С. Тургенев. «Бежин луг»",
+    title: "М. Твен. «Приключения Тома Сойера»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",

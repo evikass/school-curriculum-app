@@ -490,7 +490,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь золотой век! 📚" }
   },
   {
-    title: "«Капитанская дочка»",
+    title: "Роман «Капитанская дочка»",
     subject: "Литература",
     icon: "BookOpen",
     color: "text-purple-400",
@@ -510,7 +510,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь «Капитанскую дочку»! 📖" }
   },
   {
-    title: "«Герой нашего времени»",
+    title: "Роман «Герой нашего времени»",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -530,7 +530,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь «Героя нашего времени»! 📚" }
   },
   {
-    title: "«Ревизор»",
+    title: "Комедия «Ревизор»",
     subject: "Литература",
     icon: "Theater",
     color: "text-purple-400",
@@ -550,7 +550,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь «Ревизора»! 🎭" }
   },
   {
-    title: "«Мёртвые души»",
+    title: "Поэма «Мёртвые души»",
     subject: "Литература",
     icon: "Skull",
     color: "text-purple-400",

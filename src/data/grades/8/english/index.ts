@@ -1039,7 +1039,7 @@ export const games = [
   },
   // Тема: Modal Verbs
   {
-    title: "Modal Verbs: Can, Could, Must",
+    title: "Can, Could, Must",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -1062,7 +1062,7 @@ export const games = [
     reward: { stars: 3, message: "Perfect! You understand Can, Could, Must! ✨" }
   },
   {
-    title: "Modal Verbs: Should, May, Might",
+    title: "Should, May, Might",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -1110,7 +1110,7 @@ export const games = [
   },
   // Тема: Conditionals
   {
-    title: "Conditionals: Zero and First",
+    title: "Zero and First",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -1133,7 +1133,7 @@ export const games = [
     reward: { stars: 3, message: "Great! You understand Zero and First Conditionals! 🔀" }
   },
   {
-    title: "Conditionals: Second and Third",
+    title: "Second and Third",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",

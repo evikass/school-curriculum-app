@@ -665,7 +665,7 @@
   },
   "games": [
     {
-      "title": "Приветствие и знакомство",
+      "title": "Приветствие и прощание",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -737,7 +737,7 @@
       }
     },
     {
-      "title": "Погода и времена года",
+      "title": "Личная информация",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -810,7 +810,7 @@
       }
     },
     {
-      "title": "Семья и дом",
+      "title": "Страны и национальности",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -883,7 +883,7 @@
       }
     },
     {
-      "title": "Present Simple vs Present Continuous",
+      "title": "Профессии",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -954,7 +954,7 @@
       }
     },
     {
-      "title": "Past Simple - прошедшее время",
+      "title": "Погода и времена года",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -1026,7 +1026,7 @@
       }
     },
     {
-      "title": "Личная информация",
+      "title": "Природа и животные",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -1108,7 +1108,7 @@
       }
     },
     {
-      "title": "Страны и национальности",
+      "title": "В городе",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -1190,7 +1190,7 @@
       }
     },
     {
-      "title": "Профессии",
+      "title": "Транспорт",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -1272,7 +1272,7 @@
       }
     },
     {
-      "title": "Природа и животные",
+      "title": "Члены семьи",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -1354,7 +1354,7 @@
       }
     },
     {
-      "title": "В городе",
+      "title": "Внешность и характер",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -1442,7 +1442,7 @@
       }
     },
     {
-      "title": "Транспорт",
+      "title": "Друзья",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -1530,7 +1530,7 @@
       }
     },
     {
-      "title": "Внешность и характер",
+      "title": "Дом и быт",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -1612,7 +1612,7 @@
       }
     },
     {
-      "title": "Друзья",
+      "title": "Школьные предметы",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -1694,7 +1694,7 @@
       }
     },
     {
-      "title": "Дом и быт",
+      "title": "В классе",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -1776,7 +1776,7 @@
       }
     },
     {
-      "title": "Школьные предметы",
+      "title": "Распорядок дня",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -1864,7 +1864,7 @@
       }
     },
     {
-      "title": "В классе",
+      "title": "Выходные и каникулы",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -1952,7 +1952,7 @@
       }
     },
     {
-      "title": "Распорядок дня",
+      "title": "Продукты питания",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -2034,7 +2034,7 @@
       }
     },
     {
-      "title": "Выходные и каникулы",
+      "title": "В кафе и ресторане",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -2116,7 +2116,7 @@
       }
     },
     {
-      "title": "Продукты питания",
+      "title": "Покупки",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -2198,7 +2198,7 @@
       }
     },
     {
-      "title": "В кафе и ресторане",
+      "title": "Одежда",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -2280,7 +2280,7 @@
       }
     },
     {
-      "title": "Покупки",
+      "title": "Present Simple",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -2362,7 +2362,7 @@
       }
     },
     {
-      "title": "Одежда",
+      "title": "Present Continuous",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",
@@ -2450,7 +2450,7 @@
       }
     },
     {
-      "title": "Present Continuous",
+      "title": "Past Simple",
       "subject": "Иностранный язык",
       "icon": "Languages",
       "color": "text-pink-400",

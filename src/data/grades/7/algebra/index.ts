@@ -608,7 +608,7 @@ x⁵ · x⁰ · x² = x⁵ · 1 · x² = x⁷
 
 export const games = [
   {
-    title: "Уравнения: Найди корень",
+    title: "Числовые выражения",
     image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson23.svg",
     subject: "Алгебра",
     icon: "Sigma",
@@ -623,7 +623,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты решаешь уравнения! 📐" }
   },
   {
-    title: "Степени: Вычисления",
+    title: "Выражения с переменными",
     image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson24.svg",
     subject: "Алгебра",
     icon: "Sigma",
@@ -638,7 +638,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты вычисляешь степени! 🔢" }
   },
   {
-    title: "Свойства степеней",
+    title: "Линейные уравнения",
     image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson25.svg",
     subject: "Алгебра",
     icon: "Sigma",
@@ -653,7 +653,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь свойства степеней! ⭐" }
   },
   {
-    title: "Линейная функция",
+    title: "Уравнения с модулями",
     image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson26.svg",
     subject: "Алгебра",
     icon: "Sigma",
@@ -677,7 +677,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь функции! 📈" }
   },
   {
-    title: "Многочлены",
+    title: "Что такое функция",
     image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson27.svg",
     subject: "Алгебра",
     icon: "Sigma",
@@ -692,7 +692,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты работаешь с многочленами! 📝" }
   },
   {
-    title: "Числовые выражения",
+    title: "Линейная функция",
     image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson28.svg",
     subject: "Алгебра",
     icon: "Sigma",
@@ -716,7 +716,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты вычисляешь числовые выражения! 🔢" }
   },
   {
-    title: "Выражения с переменными",
+    title: "Степень и её свойства",
     image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson29.svg",
     subject: "Алгебра",
     icon: "Sigma",
@@ -740,7 +740,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты работаешь с переменными! ✏️" }
   },
   {
-    title: "Уравнения с модулями",
+    title: "Степень с нулевым показателем",
     image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson30.svg",
     subject: "Алгебра",
     icon: "Sigma",
@@ -764,7 +764,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты решаешь уравнения с модулями! 📏" }
   },
   {
-    title: "Что такое функция",
+    title: "Одночлены и многочлены",
     image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson31.svg",
     subject: "Алгебра",
     icon: "Sigma",

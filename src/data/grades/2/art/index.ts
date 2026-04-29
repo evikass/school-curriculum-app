@@ -510,7 +510,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Жанры живописи 🎨",
+    title: "Что такое живопись?",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -560,7 +560,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь жанры живописи! 🎨" }
   },
   {
-    title: "Народные промыслы 🏺",
+    title: "Пейзаж",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -610,7 +610,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь народные промыслы! 🏺" }
   },
   {
-    title: "Цвета и оттенки 🌈",
+    title: "Натюрморт",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -660,7 +660,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь цвета! 🌈" }
   },
   {
-    title: "Что такое живопись 🖼️",
+    title: "Портрет",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -712,7 +712,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь живопись! 🖼️" }
   },
   {
-    title: "Дымковская игрушка 🏺",
+    title: "Дымковская игрушка",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -764,7 +764,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь дымковскую игрушку! 🏺" }
   },
   {
-    title: "Хохломская роспись 🥄",
+    title: "Хохломская роспись",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -814,7 +814,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь хохлому! 🥄" }
   },
   {
-    title: "Гжельская керамика 💙",
+    title: "Гжельская керамика",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -866,7 +866,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты знаешь гжель! 💙" }
   },
   {
-    title: "Городецкая роспись 🐴",
+    title: "Городецкая роспись",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",

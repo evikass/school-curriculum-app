@@ -512,7 +512,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Океаны",
+    title: "Литосфера и рельеф Земли",
     image: "/school-curriculum-app/images/lessons/grade7/geography/lesson21.svg",
     subject: "География",
     icon: "Map",
@@ -527,7 +527,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь океаны! 🌊" }
   },
   {
-    title: "Африка",
+    title: "Атмосфера и климаты Земли",
     image: "/school-curriculum-app/images/lessons/grade7/geography/lesson22.svg",
     subject: "География",
     icon: "Map",
@@ -554,7 +554,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь Африку! 🌍" }
   },
   {
-    title: "Литосфера и рельеф",
+    title: "Численность и размещение населения",
     image: "/school-curriculum-app/images/lessons/grade7/geography/lesson23.svg",
     subject: "География",
     icon: "Map",
@@ -569,7 +569,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь рельеф Земли! 🏔️" }
   },
   {
-    title: "Население Земли",
+    title: "Народы и религии мира",
     image: "/school-curriculum-app/images/lessons/grade7/geography/lesson24.svg",
     subject: "География",
     icon: "Map",
@@ -584,7 +584,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь население! 👥" }
   },
   {
-    title: "Литосфера и рельеф Земли",
+    title: "Тихий и Атлантический океаны",
     image: "/school-curriculum-app/images/lessons/grade7/geography/lesson25.svg",
     subject: "География",
     icon: "Map",
@@ -608,7 +608,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь литосферу и рельеф! 🏔️" }
   },
   {
-    title: "Атмосфера и климаты Земли",
+    title: "Индийский и Северный Ледовитый океаны",
     image: "/school-curriculum-app/images/lessons/grade7/geography/lesson26.svg",
     subject: "География",
     icon: "Map",
@@ -632,7 +632,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь атмосферу и климат! 🌡️" }
   },
   {
-    title: "Численность и размещение населения",
+    title: "Географическое положение и рельеф Африки",
     image: "/school-curriculum-app/images/lessons/grade7/geography/lesson27.svg",
     subject: "География",
     icon: "Map",
@@ -656,7 +656,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь население Земли! 👥" }
   },
   {
-    title: "Народы и религии мира",
+    title: "Природа Африки",
     image: "/school-curriculum-app/images/lessons/grade7/geography/lesson28.svg",
     subject: "География",
     icon: "Map",

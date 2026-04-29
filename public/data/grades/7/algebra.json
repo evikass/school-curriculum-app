@@ -251,7 +251,7 @@
   },
   "games": [
     {
-      "title": "Уравнения: Найди корень",
+      "title": "Числовые выражения",
       "image": "/images/lessons/grade7/algebra/lesson23.svg",
       "subject": "Алгебра",
       "icon": "Sigma",
@@ -334,7 +334,7 @@
       }
     },
     {
-      "title": "Степени: Вычисления",
+      "title": "Выражения с переменными",
       "image": "/images/lessons/grade7/algebra/lesson24.svg",
       "subject": "Алгебра",
       "icon": "Sigma",
@@ -417,7 +417,7 @@
       }
     },
     {
-      "title": "Свойства степеней",
+      "title": "Линейные уравнения",
       "image": "/images/lessons/grade7/algebra/lesson25.svg",
       "subject": "Алгебра",
       "icon": "Sigma",
@@ -500,7 +500,7 @@
       }
     },
     {
-      "title": "Линейная функция",
+      "title": "Уравнения с модулями",
       "image": "/images/lessons/grade7/algebra/lesson26.svg",
       "subject": "Алгебра",
       "icon": "Sigma",
@@ -592,7 +592,7 @@
       }
     },
     {
-      "title": "Многочлены",
+      "title": "Что такое функция",
       "image": "/images/lessons/grade7/algebra/lesson27.svg",
       "subject": "Алгебра",
       "icon": "Sigma",
@@ -675,7 +675,7 @@
       }
     },
     {
-      "title": "Числовые выражения",
+      "title": "Линейная функция",
       "image": "/images/lessons/grade7/algebra/lesson28.svg",
       "subject": "Алгебра",
       "icon": "Sigma",
@@ -767,7 +767,7 @@
       }
     },
     {
-      "title": "Выражения с переменными",
+      "title": "Степень и её свойства",
       "image": "/images/lessons/grade7/algebra/lesson29.svg",
       "subject": "Алгебра",
       "icon": "Sigma",
@@ -859,7 +859,7 @@
       }
     },
     {
-      "title": "Уравнения с модулями",
+      "title": "Степень с нулевым показателем",
       "image": "/images/lessons/grade7/algebra/lesson30.svg",
       "subject": "Алгебра",
       "icon": "Sigma",
@@ -952,7 +952,7 @@
       }
     },
     {
-      "title": "Что такое функция",
+      "title": "Одночлены и многочлены",
       "image": "/images/lessons/grade7/algebra/lesson31.svg",
       "subject": "Алгебра",
       "icon": "Sigma",

@@ -733,7 +733,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Звуки и музыка 🎵",
+    title: "Звуки вокруг нас",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -777,7 +777,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты слышишь звуки! 🎵" }
   },
   {
-    title: "Музыкальные инструменты 🥁",
+    title: "Громко и тихо",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -821,7 +821,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь инструменты! 🥁" }
   },
   {
-    title: "Песни 🎶",
+    title: "Быстро и медленно",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -865,7 +865,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь песни! 🎶" }
   },
   {
-    title: "Громко и тихо 🔊🔇",
+    title: "Высокие и низкие звуки",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -909,7 +909,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь динамику! 🔊🔇" }
   },
   {
-    title: "Быстро и медленно 🏃🐢",
+    title: "Песня «В лесу родилась ёлочка»",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -953,7 +953,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты чувствуешь темп! 🏃🐢" }
   },
   {
-    title: "Высокие и низкие звуки 🎵",
+    title: "Песня «Антошка»",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -997,7 +997,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты слышишь высоту! 🎵" }
   },
   {
-    title: "Звуки вокруг нас 🌍",
+    title: "Песня «Кузнечик»",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1041,7 +1041,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты слышишь звуки мира! 🌍" }
   },
   {
-    title: "Бубен и погремушка 🥁",
+    title: "Колыбельная",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1085,7 +1085,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь шумовые инструменты! 🥁" }
   },
   {
-    title: "Барабан 🥁",
+    title: "Бубен и погремушка",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1129,7 +1129,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь барабан! 🥁" }
   },
   {
-    title: "Песня «В лесу родилась ёлочка» 🎄",
+    title: "Барабан",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1173,7 +1173,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь песню про ёлочку! 🎄" }
   },
   {
-    title: "Песня «Кузнечик» 🦗",
+    title: "Колокольчик",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1217,7 +1217,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь песню про кузнечика! 🦗" }
   },
   {
-    title: "Оркестр 🎼",
+    title: "Оркестр",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",

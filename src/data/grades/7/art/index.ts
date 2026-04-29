@@ -387,7 +387,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Виды искусства",
+    title: "Живопись, графика, скульптура",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -407,7 +407,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь виды искусства! 🎨" }
   },
   {
-    title: "Жанры и художники",
+    title: "Портрет, пейзаж, натюрморт",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -421,7 +421,7 @@ export const games = [
     reward: { stars: 3, message: "Браво! Ты знаешь искусство! 🖼️" }
   },
   {
-    title: "Русское искусство",
+    title: "Исторический и бытовой жанры",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -435,7 +435,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь русское искусство! 🏛️" }
   },
   {
-    title: "Современное искусство",
+    title: "Передвижники",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -459,7 +459,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь современное искусство! 🎭" }
   },
   {
-    title: "Исторический и бытовой жанры",
+    title: "Направления XX-XXI века",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",

@@ -1149,7 +1149,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Музыкальные инструменты",
+    title: "Классификация инструментов",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1172,7 +1172,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь музыкальные инструменты! 🎻" }
   },
   {
-    title: "Русская музыка",
+    title: "Симфонический оркестр",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1185,7 +1185,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь русскую музыку! 🎼" }
   },
   {
-    title: "Симфонический оркестр",
+    title: "Вокальные жанры",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1204,7 +1204,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь симфонический оркестр! 🎻" }
   },
   {
-    title: "Вокальные жанры",
+    title: "Инструментальные жанры",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1223,7 +1223,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь вокальные жанры! 🎤" }
   },
   {
-    title: "Инструментальные жанры",
+    title: "М.И. Глинка — основоположник русской музыки",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1242,7 +1242,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь инструментальные жанры! 🎹" }
   },
   {
-    title: "М.И. Глинка",
+    title: "П.И. Чайковский",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",

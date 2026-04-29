@@ -781,7 +781,7 @@ nav a {
 
 export const games = [
   {
-    title: "Программирование",
+    title: "Введение в программирование",
     image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson34.svg",
     subject: "Информатика",
     icon: "Monitor",
@@ -796,7 +796,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты программируешь! 💻" }
   },
   {
-    title: "Веб-разработка",
+    title: "Переменные и типы данных",
     image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson35.svg",
     subject: "Информатика",
     icon: "Monitor",
@@ -811,7 +811,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Ты создаёшь сайты! 🌐" }
   },
   {
-    title: "Алгоритмы",
+    title: "Условия и ветвления",
     image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson36.svg",
     subject: "Информатика",
     icon: "Monitor",
@@ -826,7 +826,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь алгоритмы! 📋" }
   },
   {
-    title: "Компьютерная графика",
+    title: "Циклы в программировании",
     image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson37.svg",
     subject: "Информатика",
     icon: "Monitor",
@@ -841,7 +841,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь графику! 🎨" }
   },
   {
-    title: "Циклы в программировании",
+    title: "Основы HTML",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -865,7 +865,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты освоил циклы! 🔄" }
   },
   {
-    title: "Введение в программирование",
+    title: "Основы CSS",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -889,7 +889,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь основы программирования! 💻" }
   },
   {
-    title: "Переменные и типы данных",
+    title: "Создание веб-страницы",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -913,7 +913,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь переменные! 📝" }
   },
   {
-    title: "Условия и ветвления",
+    title: "Растровая и векторная графика",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -937,7 +937,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь условия! 🔀" }
   },
   {
-    title: "Основы HTML",
+    title: "Обработка изображений",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -961,7 +961,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь HTML! 🌐" }
   },
   {
-    title: "Основы CSS",
+    title: "Что такое алгоритм",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -985,7 +985,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь CSS! 🎨" }
   },
   {
-    title: "Создание веб-страницы",
+    title: "Исполнители алгоритмов",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",

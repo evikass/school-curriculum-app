@@ -358,7 +358,7 @@
   },
   "games": [
     {
-      "title": "Химический состав клетки 🧪",
+      "title": "Химический состав клетки",
       "subject": "Биология",
       "icon": "BookOpenText",
       "color": "text-green-400",
@@ -491,7 +491,7 @@
       }
     },
     {
-      "title": "Органические вещества клетки 🧬",
+      "title": "Органические вещества клетки",
       "subject": "Биология",
       "icon": "BookOpenText",
       "color": "text-green-400",
@@ -624,7 +624,7 @@
       }
     },
     {
-      "title": "Нуклеиновые кислоты 🔬",
+      "title": "Нуклеиновые кислоты",
       "subject": "Биология",
       "icon": "BookOpenText",
       "color": "text-green-400",
@@ -756,7 +756,7 @@
       }
     },
     {
-      "title": "АТФ — универсальный аккумулятор ⚡",
+      "title": "АТФ — универсальный аккумулятор",
       "subject": "Биология",
       "icon": "BookOpenText",
       "color": "text-green-400",
@@ -887,7 +887,7 @@
       }
     },
     {
-      "title": "Пластический и энергетический обмен 🔄",
+      "title": "Пластический и энергетический обмен",
       "subject": "Биология",
       "icon": "BookOpenText",
       "color": "text-green-400",
@@ -1019,7 +1019,7 @@
       }
     },
     {
-      "title": "Энергетический обмен 🔥",
+      "title": "Энергетический обмен",
       "subject": "Биология",
       "icon": "BookOpenText",
       "color": "text-green-400",
@@ -1146,7 +1146,7 @@
       }
     },
     {
-      "title": "Фотосинтез 🌿",
+      "title": "Фотосинтез",
       "subject": "Биология",
       "icon": "BookOpenText",
       "color": "text-green-400",
@@ -1278,7 +1278,7 @@
       }
     },
     {
-      "title": "Основы генетики 🧬",
+      "title": "Основы генетики",
       "subject": "Биология",
       "icon": "BookOpenText",
       "color": "text-green-400",
@@ -1410,7 +1410,7 @@
       }
     },
     {
-      "title": "Хромосомная теория 🔗",
+      "title": "Хромосомная теория",
       "subject": "Биология",
       "icon": "BookOpenText",
       "color": "text-green-400",
@@ -1537,7 +1537,7 @@
       }
     },
     {
-      "title": "Генетика человека 👤",
+      "title": "Генетика человека",
       "subject": "Биология",
       "icon": "BookOpenText",
       "color": "text-green-400",
@@ -1669,7 +1669,7 @@
       }
     },
     {
-      "title": "Размножение организмов 🌱",
+      "title": "Размножение организмов",
       "subject": "Биология",
       "icon": "BookOpenText",
       "color": "text-green-400",
@@ -1801,7 +1801,7 @@
       }
     },
     {
-      "title": "Индивидуальное развитие 🌱",
+      "title": "Индивидуальное развитие",
       "subject": "Биология",
       "icon": "BookOpenText",
       "color": "text-green-400",

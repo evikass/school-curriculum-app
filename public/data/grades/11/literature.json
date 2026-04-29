@@ -358,7 +358,7 @@
   },
   "games": [
     {
-      "title": "Бунин и Куприн",
+      "title": "И.А. Бунин",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -448,7 +448,7 @@
       }
     },
     {
-      "title": "Горький и Булгаков",
+      "title": "А.И. Куприн",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -538,7 +538,7 @@
       }
     },
     {
-      "title": "Шолохов: Тихий Дон",
+      "title": "М. Горький",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -628,7 +628,7 @@
       }
     },
     {
-      "title": "Твардовский: Василий Тёркин",
+      "title": "М.А. Булгаков",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -718,7 +718,7 @@
       }
     },
     {
-      "title": "Литература о войне",
+      "title": "М.А. Шолохов",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -808,7 +808,7 @@
       }
     },
     {
-      "title": "Солженицын",
+      "title": "А.Т. Твардовский",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -898,7 +898,7 @@
       }
     },
     {
-      "title": "Распутин: Прощание с Матёрой",
+      "title": "Б.Л. Васильев",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -988,7 +988,7 @@
       }
     },
     {
-      "title": "Мастер и Маргарита",
+      "title": "В. Быков",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1078,7 +1078,7 @@
       }
     },
     {
-      "title": "На дне",
+      "title": "А.И. Солженицын",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1168,7 +1168,7 @@
       }
     },
     {
-      "title": "Теория литературы",
+      "title": "В.Г. Распутин",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1258,7 +1258,7 @@
       }
     },
     {
-      "title": "Средства выразительности",
+      "title": "Теория литературы",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",
@@ -1348,7 +1348,7 @@
       }
     },
     {
-      "title": "ЕГЭ по литературе",
+      "title": "Итоговое повторение",
       "subject": "Литература",
       "icon": "BookOpenText",
       "color": "text-purple-400",

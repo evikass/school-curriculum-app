@@ -690,7 +690,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Family and Appearance",
+    title: "Family Members",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -703,7 +703,7 @@ export const games = [
     reward: { stars: 3, message: "Great! You know family vocabulary! 👨‍👩‍👧‍👦" }
   },
   {
-    title: "Time and Routine",
+    title: "Describing People",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -716,7 +716,7 @@ export const games = [
     reward: { stars: 3, message: "Great! You know daily routine! ⏰" }
   },
   {
-    title: "Hobbies and Abilities",
+    title: "Time and Daily Activities",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -729,7 +729,7 @@ export const games = [
     reward: { stars: 3, message: "Amazing! You know hobbies and abilities! 🎨" }
   },
   {
-    title: "Travelling",
+    title: "Days of the Week and Prepositions",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -742,7 +742,7 @@ export const games = [
     reward: { stars: 3, message: "Excellent! You're ready to travel! ✈️" }
   },
   {
-    title: "Describing People",
+    title: "Free Time Activities",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -766,7 +766,7 @@ export const games = [
     reward: { stars: 3, message: "Great job! You can describe people in English! 😊" }
   },
   {
-    title: "Days of the Week and Prepositions",
+    title: "At the Airport",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -790,7 +790,7 @@ export const games = [
     reward: { stars: 3, message: "Well done! You know prepositions and days! 📅" }
   },
   {
-    title: "Free Time Activities",
+    title: "Countries and Nationalities",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",

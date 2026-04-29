@@ -953,7 +953,7 @@
       }
     },
     {
-      "title": "План подготовки",
+      "title": "Предметы по выбору",
       "subject": "Подготовка к ОГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -1174,7 +1174,7 @@
       }
     },
     {
-      "title": "Тайм-менеджмент",
+      "title": "План подготовки",
       "subject": "Подготовка к ОГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -1395,7 +1395,7 @@
       }
     },
     {
-      "title": "Психологическая подготовка",
+      "title": "Работа с ошибками",
       "subject": "Подготовка к ОГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -1615,7 +1615,7 @@
       }
     },
     {
-      "title": "Предметы по выбору",
+      "title": "Тайм-менеджмент на экзамене",
       "subject": "Подготовка к ОГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -1833,7 +1833,7 @@
       }
     },
     {
-      "title": "Пробное тестирование (русский)",
+      "title": "Психологическая подготовка",
       "subject": "Подготовка к ОГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -2054,7 +2054,7 @@
       }
     },
     {
-      "title": "Пробное тестирование (математика)",
+      "title": "Пробное тестирование (русский)",
       "subject": "Подготовка к ОГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -2277,7 +2277,7 @@
       }
     },
     {
-      "title": "Полный пробный ОГЭ",
+      "title": "Пробное тестирование (математика)",
       "subject": "Подготовка к ОГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -2498,7 +2498,7 @@
       }
     },
     {
-      "title": "Пробные тестирования",
+      "title": "Полный пробный ОГЭ",
       "subject": "Подготовка к ОГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",
@@ -2718,7 +2718,7 @@
       }
     },
     {
-      "title": "Работа с ошибками",
+      "title": "Итоги подготовки",
       "subject": "Подготовка к ОГЭ",
       "icon": "GraduationCap",
       "color": "text-orange-400",

@@ -729,7 +729,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Цвета радуги 🌈",
+    title: "Цвета радуги",
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -773,7 +773,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Прекрасно! Ты знаешь цвета! 🎨" }
   },
   {
-    title: "Формы предметов ⬜",
+    title: "Красный, жёлтый, синий",
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -817,7 +817,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты видишь формы в предметах! 🎨" }
   },
   {
-    title: "Смешивание цветов 🎨",
+    title: "Смешивание цветов",
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -861,7 +861,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты понимаешь цвета! 🌈" }
   },
   {
-    title: "Геометрические фигуры 🔷",
+    title: "Тёплые и холодные цвета",
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -905,7 +905,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь геометрические фигуры! 🔷" }
   },
   {
-    title: "Круг и овал ⭕",
+    title: "Круг и овал",
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -949,7 +949,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты различаешь круг и овал! ⭕" }
   },
   {
-    title: "Квадрат и прямоугольник ⬜",
+    title: "Квадрат и прямоугольник",
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -993,7 +993,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь квадрат и прямоугольник! ⬜" }
   },
   {
-    title: "Треугольник 🔺",
+    title: "Треугольник",
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -1037,7 +1037,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь треугольник! 🔺" }
   },
   {
-    title: "Композиция из фигур 🏠",
+    title: "Композиция из фигур",
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -1081,7 +1081,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты умеешь составлять картинки! 🏠" }
   },
   {
-    title: "Листья деревьев 🍂",
+    title: "Листья деревьев",
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -1125,7 +1125,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь листья деревьев! 🍂" }
   },
   {
-    title: "Акварельные краски 🎨",
+    title: "Рисование красками",
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -1169,7 +1169,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты умеешь работать с акварелью! 🎨" }
   },
   {
-    title: "Пальчиковое рисование 👆",
+    title: "Пальчиковое рисование",
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -1213,7 +1213,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты любишь рисовать пальчиками! 👆" }
   },
   {
-    title: "Свободное творчество ✨",
+    title: "Свободное творчество",
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",

@@ -435,7 +435,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
 {
-    title: "Живая и неживая природа 🌿",
+    title: "Живая и неживая природа",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -479,7 +479,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты различаешь природу! 🌿" }
   },
 {
-    title: "Явления природы 🌦️",
+    title: "Явления природы",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -523,7 +523,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь явления природы! 🌦️" }
   },
 {
-    title: "Водоёмы 🌊",
+    title: "Водоёмы",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -567,7 +567,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь водоёмы! 🌊" }
   },
 {
-    title: "Полезные ископаемые ⛏️",
+    title: "Полезные ископаемые",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -611,7 +611,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь ископаемые! ⛏️" }
   },
 {
-    title: "Группы животных 🦁",
+    title: "Растения и их разнообразие",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -655,7 +655,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь группы животных! 🦁" }
   },
 {
-    title: "Растения и их разнообразие 🌱",
+    title: "Животные и их группы",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -699,7 +699,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь растения! 🌱" }
   },
 {
-    title: "Красная книга 📕",
+    title: "Красная книга",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -743,7 +743,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты знаешь Красную книгу! 📕" }
   },
 {
-    title: "Охрана природы 🌳",
+    title: "Охрана природы",
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",

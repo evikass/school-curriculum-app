@@ -1,10 +1,10 @@
 {
   "games": [
     {
-      "title": "Продвинутые алгоритмы 🧮",
+      "title": "Динамическое программирование",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "GitBranch",
+      "color": "text-blue-400",
       "tasks": [
         {
           "type": "quiz",
@@ -88,10 +88,10 @@
       }
     },
     {
-      "title": "Парадигмы программирования 🔧",
+      "title": "Графовые алгоритмы",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "GitMerge",
+      "color": "text-cyan-400",
       "tasks": [
         {
           "type": "quiz",
@@ -175,10 +175,10 @@
       }
     },
     {
-      "title": "Базы данных 🗄️",
+      "title": "Алгоритмы на строках",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "Type",
+      "color": "text-green-400",
       "tasks": [
         {
           "type": "quiz",
@@ -264,10 +264,10 @@
       }
     },
     {
-      "title": "Сетевое программирование 🌐",
+      "title": "Хеширование",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "Hash",
+      "color": "text-orange-400",
       "tasks": [
         {
           "type": "quiz",
@@ -353,10 +353,10 @@
       }
     },
     {
-      "title": "Машинное обучение 🤖",
+      "title": "Функциональное программирование",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "Lambda",
+      "color": "text-purple-400",
       "tasks": [
         {
           "type": "quiz",
@@ -442,10 +442,10 @@
       }
     },
     {
-      "title": "Безопасность 🔒",
+      "title": "Замыкания и декораторы",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "Box",
+      "color": "text-pink-400",
       "tasks": [
         {
           "type": "quiz",
@@ -530,10 +530,10 @@
       }
     },
     {
-      "title": "Архитектура ПО 🏗️",
+      "title": "Генераторы и итераторы",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "RefreshCw",
+      "color": "text-teal-400",
       "tasks": [
         {
           "type": "quiz",
@@ -620,10 +620,10 @@
       }
     },
     {
-      "title": "Итоговый проект 🚀",
+      "title": "Асинхронное программирование",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "Zap",
+      "color": "text-yellow-400",
       "tasks": [
         {
           "type": "quiz",
@@ -710,10 +710,10 @@
       }
     },
     {
-      "title": "Динамическое программирование 🧩",
+      "title": "Реляционные базы данных",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "Database",
+      "color": "text-indigo-400",
       "tasks": [
         {
           "type": "quiz",
@@ -797,10 +797,10 @@
       }
     },
     {
-      "title": "Графовые алгоритмы 🕸️",
+      "title": "SQL: сложные запросы",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "FileCode",
+      "color": "text-blue-400",
       "tasks": [
         {
           "type": "quiz",
@@ -884,9 +884,9 @@
       }
     },
     {
-      "title": "Алгоритмы на строках 📝",
+      "title": "NoSQL базы данных",
       "subject": "Программирование",
-      "icon": "BookOpenText",
+      "icon": "Layers",
       "color": "text-emerald-400",
       "tasks": [
         {
@@ -971,10 +971,10 @@
       }
     },
     {
-      "title": "Функциональное программирование λ",
+      "title": "ORM: SQLAlchemy",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "Link",
+      "color": "text-cyan-400",
       "tasks": [
         {
           "type": "quiz",
@@ -1058,10 +1058,10 @@
       }
     },
     {
-      "title": "SQL и проектирование БД 🗃️",
+      "title": "Протоколы TCP/IP",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "Network",
+      "color": "text-violet-400",
       "tasks": [
         {
           "type": "quiz",
@@ -1146,10 +1146,10 @@
       }
     },
     {
-      "title": "REST API и HTTP 🌐",
+      "title": "Сокеты в Python",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "Plug",
+      "color": "text-rose-400",
       "tasks": [
         {
           "type": "quiz",
@@ -1234,10 +1234,10 @@
       }
     },
     {
-      "title": "Нейронные сети и глубокое обучение 🧠",
+      "title": "HTTP и REST API",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "Globe",
+      "color": "text-amber-400",
       "tasks": [
         {
           "type": "quiz",
@@ -1321,10 +1321,10 @@
       }
     },
     {
-      "title": "DevOps и развертывание 🚀",
+      "title": "Веб-фреймворки: Django",
       "subject": "Программирование",
-      "icon": "BookOpenText",
-      "color": "text-emerald-400",
+      "icon": "Layout",
+      "color": "text-green-400",
       "tasks": [
         {
           "type": "quiz",
@@ -1406,6 +1406,1014 @@
       "reward": {
         "stars": 3,
         "message": "DevOps-инженер! 🚀"
+      }
+    },
+    {
+      "title": "Введение в машинное обучение",
+      "subject": "Программирование",
+      "icon": "Brain",
+      "color": "text-purple-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Какой тип ML использует размеченные данные?",
+          "correctAnswer": "Обучение с учителем",
+          "hint": "При обучении с учителем есть правильные ответы",
+          "options": [
+            "Обучение без учителя",
+            "Обучение с учителем",
+            "Обучение с подкреплением",
+            "Глубокое обучение",
+            "XGBoost"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Что такое признаки в ML?",
+          "correctAnswer": "Характеристики объектов",
+          "hint": "Признаки — входные данные для модели",
+          "options": [
+            "Правильные ответы",
+            "Характеристики объектов",
+            "Алгоритмы",
+            "Модели",
+            "XGBoost"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери библиотеки для ML:",
+          "hint": "Это библиотеки машинного обучения",
+          "options": [
+            "scikit-learn",
+            "TensorFlow",
+            "Django",
+            "PyTorch",
+            "Flask"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Датасет делится на обучающую и какую выборки?",
+          "correctAnswer": "Тестовую",
+          "hint": "Тестовая выборка используется для проверки",
+          "options": [
+            "Тестовую",
+            "Тренировочную",
+            "Вспомогательную",
+            "Рабочую",
+            "Валидационную"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "ML-энтузиаст! 🧠"
+      }
+    },
+    {
+      "title": "Линейная регрессия",
+      "subject": "Программирование",
+      "icon": "TrendingUp",
+      "color": "text-blue-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Что предсказывает линейная регрессия?",
+          "correctAnswer": "Непрерывное значение",
+          "hint": "Регрессия предсказывает числа",
+          "options": [
+            "Класс объекта",
+            "Непрерывное значение",
+            "Кластер",
+            "Вероятность",
+            "Polynomial"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Какой метод оптимизации используется?",
+          "correctAnswer": "Градиентный спуск",
+          "hint": "Градиентный спуск минимизирует ошибку",
+          "options": [
+            "Бинарный поиск",
+            "Градиентный спуск",
+            "Сортировка",
+            "Хеширование",
+            "PATCH"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери метрики регрессии:",
+          "hint": "Это метрики для регрессии",
+          "options": [
+            "MSE",
+            "Accuracy",
+            "MAE",
+            "R²",
+            "F1-score"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Как называется L1-регуляризация?",
+          "correctAnswer": "Lasso",
+          "hint": "Lasso зануляет незначимые веса",
+          "options": [
+            "Ridge",
+            "Batch Norm",
+            "Elastic Net",
+            "Lasso",
+            "Dropout"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Регрессионный аналитик! 📈"
+      }
+    },
+    {
+      "title": "Классификация",
+      "subject": "Программирование",
+      "icon": "Tags",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Что предсказывает классификация?",
+          "correctAnswer": "Класс объекта",
+          "hint": "Классификация распределяет по категориям",
+          "options": [
+            "Число",
+            "Класс объекта",
+            "Строку",
+            "Массив",
+            "Naive Bayes"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Какая метрика показывает долю правильных ответов?",
+          "correctAnswer": "Accuracy",
+          "hint": "Accuracy = правильные / всего",
+          "options": [
+            "Precision",
+            "Recall",
+            "Accuracy",
+            "F1",
+            "Log Loss"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери алгоритмы классификации:",
+          "hint": "Это алгоритмы классификации",
+          "options": [
+            "Random Forest",
+            "K-means",
+            "SVM",
+            "Decision Tree",
+            "PCA"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "ROC-кривая показывает зависимость TPR от чего?",
+          "correctAnswer": "FPR",
+          "hint": "FPR — False Positive Rate",
+          "options": [
+            "Recall",
+            "FPR",
+            "Precision",
+            "Accuracy",
+            "AUC"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Классификатор! 🏷️"
+      }
+    },
+    {
+      "title": "Кластеризация",
+      "subject": "Программирование",
+      "icon": "CircleDot",
+      "color": "text-teal-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Нужны ли метки для кластеризации?",
+          "correctAnswer": "Нет",
+          "hint": "Кластеризация — обучение без учителя",
+          "options": [
+            "Да",
+            "Нет",
+            "Объект",
+            "Зависит от алгоритма",
+            "Mean-shift"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Какой алгоритм разбивает на K кластеров?",
+          "correctAnswer": "K-means",
+          "hint": "K-means делит данные на K групп",
+          "options": [
+            "DBSCAN",
+            "K-means",
+            "Random Forest",
+            "SVM",
+            "Генетический"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери алгоритмы кластеризации:",
+          "hint": "Это алгоритмы кластеризации",
+          "options": [
+            "K-means",
+            "DBSCAN",
+            "Logistic Regression",
+            "Иерархическая",
+            "Linear Regression"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Какой метод помогает выбрать число кластеров?",
+          "correctAnswer": "Локтя",
+          "hint": "График инерции показывает оптимальное K",
+          "options": [
+            "Колена",
+            "Плато",
+            "Локтя",
+            "Склона",
+            "Пика"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Кластеризатор! 🎯"
+      }
+    },
+    {
+      "title": "SQL-инъекции",
+      "subject": "Программирование",
+      "icon": "ShieldAlert",
+      "color": "text-red-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Что такое SQL-инъекция?",
+          "correctAnswer": "Внедрение вредоносного SQL",
+          "hint": "Инъекция — атака через пользовательский ввод",
+          "options": [
+            "Оптимизация запросов",
+            "Внедрение вредоносного SQL",
+            "Шифрование данных",
+            "Резервное копирование",
+            "CROSS JOIN"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Как лучше защититься от SQL-инъекций?",
+          "correctAnswer": "Параметризованные запросы",
+          "hint": "Параметры отделены от SQL-кода",
+          "options": [
+            "Шифрование",
+            "Параметризованные запросы",
+            "Сжатие",
+            "Кэширование",
+            "CROSS JOIN"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери типы SQL-инъекций:",
+          "hint": "Это типы SQL-инъекций",
+          "options": [
+            "In-band",
+            "Out-of-band",
+            "Blind",
+            "Encrypted",
+            "Compressed"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "OWASP что — список основных уязвимостей?",
+          "correctAnswer": "Top 10",
+          "hint": "OWASP Top 10 — популярные уязвимости",
+          "options": [
+            "List 10",
+            "Safe 10",
+            "Top 10",
+            "Best 10",
+            "Secure 10"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Защитник от инъекций! 🛡️"
+      }
+    },
+    {
+      "title": "XSS и CSRF",
+      "subject": "Программирование",
+      "icon": "AlertTriangle",
+      "color": "text-orange-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Что такое XSS?",
+          "correctAnswer": "Внедрение JavaScript",
+          "hint": "XSS — Cross-Site Scripting",
+          "options": [
+            "Внедрение SQL",
+            "Внедрение JavaScript",
+            "Кража паролей",
+            "Фишинг",
+            "SQL Injection"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Как защититься от CSRF?",
+          "correctAnswer": "CSRF-токены",
+          "hint": "Токены проверяют подлинность запроса",
+          "options": [
+            "Шифрование",
+            "CSRF-токены",
+            "Сжатие",
+            "Кэширование",
+            "SQL Injection"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери типы XSS:",
+          "hint": "Это типы XSS-атак",
+          "options": [
+            "Reflected",
+            "Stored",
+            "Encrypted",
+            "DOM-based",
+            "Compressed"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Content Security что ограничивает источники скриптов?",
+          "correctAnswer": "Policy",
+          "hint": "CSP — заголовок безопасности",
+          "options": [
+            "Provider",
+            "Protocol",
+            "Platform",
+            "Portal",
+            "Policy"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Эксперт по безопасности! 🔒"
+      }
+    },
+    {
+      "title": "Хеширование паролей",
+      "subject": "Программирование",
+      "icon": "Key",
+      "color": "text-yellow-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Почему MD5 не подходит для паролей?",
+          "correctAnswer": "Слишком быстрый, уязвим к перебору",
+          "hint": "Быстрые хеши облегчают брутфорс",
+          "options": [
+            "Слишком медленный",
+            "Слишком быстрый, уязвим к перебору",
+            "Не работает",
+            "Слишком длинный",
+            "PBKDF2"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Какой алгоритм рекомендуется для паролей?",
+          "correctAnswer": "bcrypt",
+          "hint": "bcrypt специально создан для паролей",
+          "options": [
+            "MD5",
+            "SHA-1",
+            "bcrypt",
+            "CRC32",
+            "Генетический"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери алгоритмы для хеширования паролей:",
+          "hint": "Это медленные алгоритмы для паролей",
+          "options": [
+            "bcrypt",
+            "MD5",
+            "Argon2",
+            "SHA-256",
+            "scrypt"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Что такое случайная добавка для уникальности хешей?",
+          "correctAnswer": "Salt",
+          "hint": "Salt делает каждый хеш уникальным",
+          "options": [
+            "Nonce",
+            "Salt",
+            "Pepper",
+            "Seed",
+            "IV"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Хранитель паролей! 🔑"
+      }
+    },
+    {
+      "title": "HTTPS и сертификаты",
+      "subject": "Программирование",
+      "icon": "Lock",
+      "color": "text-green-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Какой протокол шифрует HTTPS-трафик?",
+          "correctAnswer": "TLS",
+          "hint": "TLS/SSL обеспечивает шифрование",
+          "options": [
+            "HTTP",
+            "FTP",
+            "TLS",
+            "SMTP",
+            "DNS"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Что подтверждает цифровой сертификат?",
+          "correctAnswer": "Подлинность сервера",
+          "hint": "Сертификат доказывает, кто вы",
+          "options": [
+            "Скорость соединения",
+            "Подлинность сервера",
+            "Размер данных",
+            "Формат файлов",
+            "Wildcard"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери компоненты HTTPS:",
+          "hint": "Это компоненты безопасного соединения",
+          "options": [
+            "Сертификат",
+            "CA",
+            "Шифрование",
+            "Компрессия",
+            "Кэширование"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Какие сертификаты выдаёт Let\\",
+          "correctAnswer": "Бесплатные",
+          "hint": "Let\\",
+          "options": [
+            "Бесплатные",
+            "Платные",
+            "Корпоративные",
+            "Премиум",
+            "Временные"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Мастер HTTPS! 🔐"
+      }
+    },
+    {
+      "title": "Принципы SOLID",
+      "subject": "Программирование",
+      "icon": "Box",
+      "color": "text-indigo-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Что означает S в SOLID?",
+          "correctAnswer": "Single Responsibility",
+          "hint": "Один класс — одна ответственность",
+          "options": [
+            "Simple",
+            "Single Responsibility",
+            "Secure",
+            "Static",
+            "Simple Interface"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Какой принцип говорит о закрытости для модификации?",
+          "correctAnswer": "Open/Closed",
+          "hint": "Открыт для расширения, закрыт для изменения",
+          "options": [
+            "Single Responsibility",
+            "Open/Closed",
+            "Liskov Substitution",
+            "Dependency Inversion",
+            "Метод"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери принципы SOLID:",
+          "hint": "SOLID — 5 принципов",
+          "options": [
+            "Single Responsibility",
+            "Open/Closed",
+            "Simple Code",
+            "Interface Segregation",
+            "Dependency Inversion"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "D в SOLID означает Dependency что?",
+          "correctAnswer": "Inversion",
+          "hint": "Зависимость от абстракций",
+          "options": [
+            "Implementation",
+            "Injection",
+            "Inheritance",
+            "Inversion",
+            "Integration"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "SOLID-архитектор! 📐"
+      }
+    },
+    {
+      "title": "Паттерны проектирования",
+      "subject": "Программирование",
+      "icon": "Puzzle",
+      "color": "text-purple-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Какой паттерн гарантирует один экземпляр?",
+          "correctAnswer": "Singleton",
+          "hint": "Singleton — единственный экземпляр",
+          "options": [
+            "Factory",
+            "Singleton",
+            "Observer",
+            "Strategy",
+            "Prototype"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Какой паттерн добавляет поведение динамически?",
+          "correctAnswer": "Decorator",
+          "hint": "Decorator оборачивает объект",
+          "options": [
+            "Adapter",
+            "Decorator",
+            "Facade",
+            "Proxy",
+            "Prototype"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери порождающие паттерны:",
+          "hint": "Порождающие паттерны создают объекты",
+          "options": [
+            "Singleton",
+            "Factory",
+            "Adapter",
+            "Builder",
+            "Observer"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Какой паттерн оповещает зависимые объекты об изменениях?",
+          "correctAnswer": "Observer",
+          "hint": "Observer — событийная модель",
+          "options": [
+            "Strategy",
+            "Decorator",
+            "Singleton",
+            "Observer",
+            "Factory"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Паттерн-мастер! 🧩"
+      }
+    },
+    {
+      "title": "Микросервисная архитектура",
+      "subject": "Программирование",
+      "icon": "Boxes",
+      "color": "text-cyan-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Что такое микросервис?",
+          "correctAnswer": "Маленький независимый сервис",
+          "hint": "Микросервис отвечает за одну функцию",
+          "options": [
+            "Большое приложение",
+            "Маленький независимый сервис",
+            "База данных",
+            "Фронтенд",
+            "Service Mesh"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Что такое API Gateway?",
+          "correctAnswer": "Единая точка входа",
+          "hint": "Gateway маршрутизирует запросы",
+          "options": [
+            "База данных",
+            "Единая точка входа",
+            "Кэш",
+            "Мониторинг",
+            "Свойство"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери преимущества микросервисов:",
+          "hint": "Это плюсы микросервисов",
+          "options": [
+            "Независимый деплой",
+            "Масштабируемость",
+            "Простота",
+            "Изоляция сбоев",
+            "Единая база данных"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Что используется для оркестрации контейнеров?",
+          "correctAnswer": "Kubernetes",
+          "hint": "Kubernetes управляет контейнерами",
+          "options": [
+            "Vagrant",
+            "Docker",
+            "Kubernetes",
+            "Jenkins",
+            "Ansible"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Микросервисный архитектор! 📦"
+      }
+    },
+    {
+      "title": "CI/CD и DevOps",
+      "subject": "Программирование",
+      "icon": "GitBranch",
+      "color": "text-amber-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Что означает CI?",
+          "correctAnswer": "Continuous Integration",
+          "hint": "CI — частая интеграция кода",
+          "options": [
+            "Code Integration",
+            "Continuous Integration",
+            "Central Interface",
+            "Common Infrastructure",
+            "TeamCity"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Какой инструмент CI/CD от GitHub?",
+          "correctAnswer": "GitHub Actions",
+          "hint": "Actions встроен в GitHub",
+          "options": [
+            "Jenkins",
+            "GitLab CI",
+            "GitHub Actions",
+            "CircleCI",
+            "TeamCity"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери инструменты CI/CD:",
+          "hint": "Это инструменты для автоматизации",
+          "options": [
+            "Jenkins",
+            "Docker",
+            "GitHub Actions",
+            "GitLab CI",
+            "Kubernetes"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Docker что описывает образ контейнера?",
+          "correctAnswer": "Dockerfile",
+          "hint": "Dockerfile — инструкция для образа",
+          "options": [
+            "Dockerfile.yaml",
+            "Dockerfile",
+            "Docker.ini",
+            "Docker.toml",
+            "Docker.xml"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "DevOps-инженер! 🚀"
+      }
+    },
+    {
+      "title": "Проектирование проекта",
+      "subject": "Программирование",
+      "icon": "FileText",
+      "color": "text-blue-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Что такое функциональные требования?",
+          "correctAnswer": "Что система делает",
+          "hint": "Функциональные требования описывают функции",
+          "options": [
+            "Как система работает",
+            "Что система делает",
+            "Сколько стоит",
+            "Кто разрабатывает",
+            "Каррирование"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Какая диаграмма показывает структуру БД?",
+          "correctAnswer": "ERD",
+          "hint": "ERD — Entity-Relationship Diagram",
+          "options": [
+            "UML",
+            "ERD",
+            "Flowchart",
+            "Mind map",
+            "Исключение"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери этапы проектирования:",
+          "hint": "Это этапы проектирования",
+          "options": [
+            "Сбор требований",
+            "Написание кода",
+            "Выбор стека",
+            "Тестирование",
+            "Проектирование архитектуры"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Техническое что описывает требования к проекту?",
+          "correctAnswer": "Задание",
+          "hint": "ТЗ документирует требования",
+          "options": [
+            "Условие",
+            "Задание",
+            "Решение",
+            "Соглашение",
+            "Описание"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Проектировщик! 📋"
+      }
+    },
+    {
+      "title": "Разработка MVP",
+      "subject": "Программирование",
+      "icon": "Rocket",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Что такое MVP?",
+          "correctAnswer": "Минимальный жизнеспособный продукт",
+          "hint": "MVP содержит только ключевую функциональность",
+          "options": [
+            "Максимальный продукт",
+            "Минимальный жизнеспособный продукт",
+            "Мобильная версия",
+            "Мультиплатформенный продукт",
+            "Maximum Viable Product"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Что такое TDD?",
+          "correctAnswer": "Test-Driven Development",
+          "hint": "TDD — сначала тесты, потом код",
+          "options": [
+            "Test-Driven Development",
+            "Total Design Document",
+            "Technical Data Definition",
+            "Target Development Design",
+            "Синтаксис"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери принципы MVP:",
+          "hint": "Это принципы MVP",
+          "options": [
+            "Фокус на главном",
+            "Максимум функций",
+            "Быстрая обратная связь",
+            "Итеративность",
+            "Идеальное качество"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Как называется улучшение структуры кода без изменения поведения?",
+          "correctAnswer": "Рефакторинг",
+          "hint": "Рефакторинг очищает код",
+          "options": [
+            "Дебаггинг",
+            "Оптимизация",
+            "Комментирование",
+            "Рефакторинг",
+            "Документирование"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "MVP-разработчик! 🚀"
+      }
+    },
+    {
+      "title": "Тестирование и отладка",
+      "subject": "Программирование",
+      "icon": "Bug",
+      "color": "text-red-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Какие тесты проверяют отдельные функции?",
+          "correctAnswer": "Unit",
+          "hint": "Unit-тесты изолированы и быстры",
+          "options": [
+            "E2E",
+            "Интеграционные",
+            "Unit",
+            "Нагрузочные",
+            "Регрессионные"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Что показывает пирамида тестирования?",
+          "correctAnswer": "Соотношение типов тестов",
+          "hint": "Много unit, меньше интеграции, мало E2E",
+          "options": [
+            "Стоимость тестов",
+            "Соотношение типов тестов",
+            "Сложность тестов",
+            "Время выполнения",
+            "Регрессионные"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери типы тестов:",
+          "hint": "Это типы тестирования",
+          "options": [
+            "Unit",
+            "Компиляция",
+            "Интеграционные",
+            "E2E",
+            "Деплой"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Code что — проверка кода другими разработчиками?",
+          "correctAnswer": "review",
+          "hint": "Review находит баги и улучшает код",
+          "options": [
+            "review",
+            "test",
+            "verify",
+            "scan",
+            "audit"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Тестировщик! 🐛"
+      }
+    },
+    {
+      "title": "Деплой и презентация",
+      "subject": "Программирование",
+      "icon": "Upload",
+      "color": "text-green-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Что такое деплой?",
+          "correctAnswer": "Развёртывание приложения",
+          "hint": "Деплой — выкладка на production",
+          "options": [
+            "Написание кода",
+            "Развёртывание приложения",
+            "Тестирование",
+            "Проектирование",
+            "Staging"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Какой сертификат выдаёт Let\\",
+          "correctAnswer": "Бесплатный SSL",
+          "hint": "Let\\",
+          "options": [
+            "Платный",
+            "Бесплатный SSL",
+            "Премиум",
+            "Корпоративный",
+            "Wildcard"
+          ]
+        },
+        {
+          "type": "find",
+          "question": "Выбери варианты хостинга:",
+          "hint": "Это способы размещения приложения",
+          "options": [
+            "VPS",
+            "PaaS",
+            "Облачные сервисы",
+            "Локальный сервер",
+            "Флешка"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Как называется процесс анализа завершённого проекта?",
+          "correctAnswer": "Рефлексия",
+          "hint": "Рефлексия помогает учиться на опыте",
+          "options": [
+            "Рефлексия",
+            "Дебрифинг",
+            "Ревью",
+            "Тестирование",
+            "Ретроспектива"
+          ]
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Проект успешно завершён! 🎓"
       }
     }
   ],

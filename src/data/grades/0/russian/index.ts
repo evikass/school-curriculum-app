@@ -477,7 +477,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Линии и фигуры ✏️",
+    title: "Знакомство с прописью",
     subject: "Подготовка к письму",
     icon: "Pencil",
     color: "text-purple-400",
@@ -524,7 +524,7 @@ export const games: GameLesson[] = [
     }
   },
   {
-    title: "Узоры по клеточкам 🎨",
+    title: "Обведение контуров",
     subject: "Подготовка к письму",
     icon: "Pencil",
     color: "text-purple-400",
@@ -571,7 +571,7 @@ export const games: GameLesson[] = [
     }
   },
   {
-    title: "Направления 🧭",
+    title: "Рисование линий",
     subject: "Подготовка к письму",
     icon: "Pencil",
     color: "text-purple-400",
@@ -618,7 +618,7 @@ export const games: GameLesson[] = [
     }
   },
   {
-    title: "Элементы букв 🔠",
+    title: "Графический диктант",
     subject: "Подготовка к письму",
     icon: "Pencil",
     color: "text-purple-400",
@@ -665,7 +665,7 @@ export const games: GameLesson[] = [
     }
   },
   {
-    title: "Графический диктант 📝",
+    title: "Рисование узоров",
     subject: "Подготовка к письму",
     icon: "Pencil",
     color: "text-purple-400",
@@ -712,7 +712,7 @@ export const games: GameLesson[] = [
     }
   },
   {
-    title: "Правила письма ✍️",
+    title: "Элементы букв",
     subject: "Подготовка к письму",
     icon: "Pencil",
     color: "text-purple-400",
@@ -759,7 +759,7 @@ export const games: GameLesson[] = [
     }
   },
   {
-    title: "Штриховка 🎨",
+    title: "Петли и овалы",
     subject: "Подготовка к письму",
     icon: "Pencil",
     color: "text-purple-400",
@@ -806,7 +806,7 @@ export const games: GameLesson[] = [
     }
   },
   {
-    title: "Подготовка к буквам 🔡",
+    title: "Письмо элементов",
     subject: "Подготовка к письму",
     icon: "Pencil",
     color: "text-purple-400",

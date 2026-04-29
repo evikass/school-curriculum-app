@@ -510,7 +510,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Бактерии и грибы",
+    title: "Строение и жизнедеятельность бактерий",
     image: "/school-curriculum-app/images/lessons/grade7/biology/lesson19.svg",
     subject: "Биология",
     icon: "Leaf",
@@ -525,7 +525,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь бактерии и грибы! 🍄" }
   },
   {
-    title: "Растения",
+    title: "Роль бактерий в природе и жизни человека",
     image: "/school-curriculum-app/images/lessons/grade7/biology/lesson20.svg",
     subject: "Биология",
     icon: "Leaf",
@@ -540,7 +540,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь растения! 🌿" }
   },
   {
-    title: "Строение цветковых растений",
+    title: "Общая характеристика грибов",
     image: "/school-curriculum-app/images/lessons/grade7/biology/lesson21.svg",
     subject: "Биология",
     icon: "Leaf",
@@ -555,7 +555,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь цветковые! 🌸" }
   },
   {
-    title: "Водоросли и мхи",
+    title: "Значение грибов",
     image: "/school-curriculum-app/images/lessons/grade7/biology/lesson22.svg",
     subject: "Биология",
     icon: "Leaf",
@@ -570,7 +570,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь низшие растения! 🌱" }
   },
   {
-    title: "Роль бактерий в природе и жизни человека",
+    title: "Водоросли",
     image: "/school-curriculum-app/images/lessons/grade7/biology/lesson23.svg",
     subject: "Биология",
     icon: "Leaf",
@@ -594,7 +594,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь роль бактерий! 🦠" }
   },
   {
-    title: "Значение грибов",
+    title: "Мхи, папоротники, голосеменные",
     image: "/school-curriculum-app/images/lessons/grade7/biology/lesson24.svg",
     subject: "Биология",
     icon: "Leaf",

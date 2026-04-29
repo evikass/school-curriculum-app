@@ -1804,7 +1804,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Гимнастика: виды и значение",
+    title: "виды и значение",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1822,7 +1822,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь виды гимнастики! 🤸" }
   },
   {
-    title: "Лёгкая атлетика: королева спорта",
+    title: "королева спорта",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1840,7 +1840,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь лёгкую атлетику! 🏃" }
   },
   {
-    title: "Спортивные игры: общая характеристика",
+    title: "общая характеристика",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1858,7 +1858,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь спортивные игры! 🏆" }
   },
   {
-    title: "Футбол: техника и тактика",
+    title: "техника и тактика",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1876,7 +1876,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь футбол! ⚽" }
   },
   {
-    title: "Баскетбол: техника и тактика",
+    title: "техника и тактика",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1899,7 +1899,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь баскетбол! 🏀" }
   },
   {
-    title: "Волейбол: техника и тактика",
+    title: "техника и тактика",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1922,7 +1922,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь волейбол! 🏐" }
   },
   {
-    title: "Плавание: способы и техника",
+    title: "способы и техника",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1940,7 +1940,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь плавание! 🏊" }
   },
   {
-    title: "Лыжная подготовка: ходы и техника",
+    title: "ходы и техника",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -2012,7 +2012,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты знаешь профилактику травм! 🏥" }
   },
   {
-    title: "Олимпийское движение: история и современность",
+    title: "история и современность",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",
