@@ -47,7 +47,7 @@ export default function ImageLightbox({ src, alt, isOpen, onClose }: ImageLightb
         <img
           src={src}
           alt={alt}
-          className="max-w-[95vw] max-h-[92vh] object-contain"
+          style={{ width: '95vw', maxHeight: '92vh', objectFit: 'contain' }}
           onClick={(e) => e.stopPropagation()}
         />
       </div>
