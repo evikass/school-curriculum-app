@@ -695,10 +695,10 @@ export const games = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "How do you say 'мама' in English?", options: ["Father", "Mother", "Sister", "Brother", "Другой ответ"], correctAnswer: "Mother", hint: "Female parent" },
+      { type: 'quiz', question: "How do you say 'мама' in English?", options: ["Father", "Mother", "Sister", "Brother", "Present Simple"], correctAnswer: "Mother", hint: "Female parent" },
       { type: 'find', question: "Choose family members:", options: ["Mother", "Teacher", "Father", "Doctor", "Sister", "Driver"], correctAnswer: ["Mother", "Father", "Sister"], hint: "People in a family" },
-      { type: 'quiz', question: "What does 'slim' mean?", options: ["Высокий", "Стройный", "Полный", "Низкий", "Другой ответ"], correctAnswer: "Стройный", hint: "Body type" },
-      { type: 'quiz', question: "How do you say 'у него голубые глаза'?", options: ["He has green eyes", "He has blue eyes", "He has brown eyes", "He has black eyes", "Другой ответ"], correctAnswer: "He has blue eyes", hint: "Eye color" }
+      { type: 'quiz', question: "What does 'slim' mean?", options: ["Высокий", "Стройный", "Полный", "Низкий", "Past Simple"], correctAnswer: "Стройный", hint: "Body type" },
+      { type: 'quiz', question: "How do you say 'у него голубые глаза'?", options: ["He has green eyes", "He has blue eyes", "He has brown eyes", "He has black eyes", "Future Simple"], correctAnswer: "He has blue eyes", hint: "Eye color" }
     ],
     reward: { stars: 3, message: "Great! You know family vocabulary! 👨‍👩‍👧‍👦" }
   },
@@ -708,10 +708,10 @@ export const games = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What time is 'half past seven'?", options: ["7:00", "7:15", "7:30", "7:45", "Другой ответ"], correctAnswer: "7:30", hint: "30 minutes after 7" },
+      { type: 'quiz', question: "What time is 'half past seven'?", options: ["7:00", "7:15", "7:30", "7:45", "Present Continuous"], correctAnswer: "7:30", hint: "30 minutes after 7" },
       { type: 'find', question: "Choose daily activities:", options: ["Wake up", "Play", "Have breakfast", "Sleep", "Go to school", "Run"], correctAnswer: ["Wake up", "Have breakfast", "Go to school"], hint: "Morning activities" },
-      { type: 'quiz', question: "Which preposition: '___ Monday'?", options: ["at", "on", "in", "to", "Другой ответ"], correctAnswer: "on", hint: "For days of the week" },
-      { type: 'quiz', question: "What does 'usually' mean?", options: ["Всегда", "Обычно", "Иногда", "Никогда", "Другой ответ"], correctAnswer: "Обычно", hint: "Adverb of frequency" }
+      { type: 'quiz', question: "Which preposition: '___ Monday'?", options: ["at", "on", "in", "to", "Past Continuous"], correctAnswer: "on", hint: "For days of the week" },
+      { type: 'quiz', question: "What does 'usually' mean?", options: ["Всегда", "Обычно", "Present Simple", "Никогда", "Noun"], correctAnswer: "Обычно", hint: "Adverb of frequency" }
     ],
     reward: { stars: 3, message: "Great! You know daily routine! ⏰" }
   },
@@ -721,10 +721,10 @@ export const games = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "How do you say 'играть на гитаре'?", options: ["play guitar", "play the guitar", "play a guitar", "playing guitar", "Другой ответ"], correctAnswer: "play the guitar", hint: "Use 'the' for instruments" },
+      { type: 'quiz', question: "How do you say 'играть на гитаре'?", options: ["play guitar", "play the guitar", "play a guitar", "playing guitar", "Verb"], correctAnswer: "play the guitar", hint: "Use 'the' for instruments" },
       { type: 'find', question: "Choose hobbies:", options: ["Reading", "Walking", "Swimming", "Sleeping", "Drawing", "Eating"], correctAnswer: ["Reading", "Swimming", "Drawing"], hint: "Activities people do for fun" },
-      { type: 'quiz', question: "Complete: 'She ___ play tennis.'", options: ["can", "cans", "can to", "is can", "Другой ответ"], correctAnswer: "can", hint: "Modal verb stays the same" },
-      { type: 'quiz', question: "What does 'can't' mean?", options: ["Могу", "Не могу", "Хочу", "Не хочу", "Другой ответ"], correctAnswer: "Не могу", hint: "Negative ability" }
+      { type: 'quiz', question: "Complete: 'She ___ play tennis.'", options: ["can", "cans", "can to", "is can", "Adjective"], correctAnswer: "can", hint: "Modal verb stays the same" },
+      { type: 'quiz', question: "What does 'can't' mean?", options: ["Могу", "Не могу", "Хочу", "Не хочу", "Adverb"], correctAnswer: "Не могу", hint: "Negative ability" }
     ],
     reward: { stars: 3, message: "Amazing! You know hobbies and abilities! 🎨" }
   },
@@ -734,10 +734,10 @@ export const games = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "How do you say 'паспорт' in English?", options: ["Ticket", "Passport", "Boarding pass", "Visa", "Другой ответ"], correctAnswer: "Passport", hint: "Travel document" },
+      { type: 'quiz', question: "How do you say 'паспорт' in English?", options: ["Ticket", "Passport", "Boarding pass", "Visa", "Pronoun"], correctAnswer: "Passport", hint: "Travel document" },
       { type: 'find', question: "Choose airport places:", options: ["Gate", "School", "Check-in desk", "Hospital", "Customs", "Park"], correctAnswer: ["Gate", "Check-in desk", "Customs"], hint: "Places at an airport" },
-      { type: 'quiz', question: "What nationality is from France?", options: ["French", "Francish", "France", "Franch", "Другой ответ"], correctAnswer: "French", hint: "People from France" },
-      { type: 'quiz', question: "Complete: 'I'm ___ Russia.'", options: ["from", "in", "at", "of", "Другой ответ"], correctAnswer: "from", hint: "Talking about origin" }
+      { type: 'quiz', question: "What nationality is from France?", options: ["French", "Francish", "France", "Franch", "Preposition"], correctAnswer: "French", hint: "People from France" },
+      { type: 'quiz', question: "Complete: 'I'm ___ Russia.'", options: ["from", "in", "at", "of", "Conjunction"], correctAnswer: "from", hint: "Talking about origin" }
     ],
     reward: { stars: 3, message: "Excellent! You're ready to travel! ✈️" }
   },
@@ -747,7 +747,7 @@ export const games = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What does 'slim' mean?", options: ["Высокий", "Стройный", "Полный", "Низкий", "Другой ответ"],
+      { type: 'quiz', question: "What does 'slim' mean?", options: ["Высокий", "Стройный", "Полный", "Низкий", "Article"],
       keyPoints: [
         "Adjectives describe appearance: tall, short, young, old, blonde, dark-haired",
         "Has got is used to describe physical features and possessions",
@@ -758,10 +758,10 @@ export const games = [
         "She goes to school at 8 and does her homework in the evening.",
         "We usually have dinner at 7 p.m.",
       ], correctAnswer: "Стройный", hint: "Body type — thin" },
-      { type: 'quiz', question: "How do you say 'у неё длинные кудрявые волосы'?", options: ["She has got long straight hair", "She has got long curly hair", "She has got short curly hair", "She has got long wavy hair", "Другой ответ"], correctAnswer: "She has got long curly hair", hint: "long + curly" },
-      { type: 'quiz', question: "Which structure describes character traits?", options: ["have got", "am / is / are", "there is / there are", "was / were", "Другой ответ"], correctAnswer: "am / is / are", hint: "She is kind and friendly" },
-      { type: 'quiz', question: "What does 'brave' mean?", options: ["Застенчивый", "Честный", "Храбрый", "Серьёзный", "Другой ответ"], correctAnswer: "Храбрый", hint: "Not afraid" },
-      { type: 'quiz', question: "Choose the correct sentence:", options: ["He has got blue eyes.", "He is got blue eyes.", "He have got blue eyes.", "He has get blue eyes.", "Другой ответ"], correctAnswer: "He has got blue eyes.", hint: "has got for he/she/it" }
+      { type: 'quiz', question: "How do you say 'у неё длинные кудрявые волосы'?", options: ["She has got long straight hair", "She has got long curly hair", "She has got short curly hair", "She has got long wavy hair", "Modal verb"], correctAnswer: "She has got long curly hair", hint: "long + curly" },
+      { type: 'quiz', question: "Which structure describes character traits?", options: ["have got", "am / is / are", "there is / there are", "was / were", "Phrasal verb"], correctAnswer: "am / is / are", hint: "She is kind and friendly" },
+      { type: 'quiz', question: "What does 'brave' mean?", options: ["Застенчивый", "Честный", "Храбрый", "Серьёзный", "Gerund"], correctAnswer: "Храбрый", hint: "Not afraid" },
+      { type: 'quiz', question: "Choose the correct sentence:", options: ["He has got blue eyes.", "He is got blue eyes.", "He have got blue eyes.", "He has get blue eyes.", "Infinitive"], correctAnswer: "He has got blue eyes.", hint: "has got for he/she/it" }
     ],
     reward: { stars: 3, message: "Great job! You can describe people in English! 😊" }
   },
@@ -771,7 +771,7 @@ export const games = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Which preposition: '___ Monday'?", options: ["at", "on", "in", "to", "Другой ответ"],
+      { type: 'quiz', question: "Which preposition: '___ Monday'?", options: ["at", "on", "in", "to", "Participle"],
       keyPoints: [
         "Days of the week: Monday through Sunday, always capitalised in English",
         "Prepositions of time: in (months/years), on (days), at (clock time)",
@@ -782,10 +782,10 @@ export const games = [
         "She is interested in music and dancing.",
         "He is good at swimming and riding a bike.",
       ], correctAnswer: "on", hint: "For days of the week" },
-      { type: 'quiz', question: "Which preposition: '___ September'?", options: ["at", "on", "in", "by", "Другой ответ"], correctAnswer: "in", hint: "For months and seasons" },
-      { type: 'quiz', question: "What does 'never' mean?", options: ["Всегда", "Обычно", "Иногда", "Никогда", "Другой ответ"], correctAnswer: "Никогда", hint: "0% frequency" },
-      { type: 'quiz', question: "Where do adverbs of frequency go in a sentence?", options: ["After the verb", "Before the main verb", "At the end", "At the beginning", "Другой ответ"], correctAnswer: "Before the main verb", hint: "I always go to school" },
-      { type: 'quiz', question: "Which preposition: '___ 8 o'clock'?", options: ["at", "on", "in", "for", "Другой ответ"], correctAnswer: "at", hint: "For exact time" }
+      { type: 'quiz', question: "Which preposition: '___ September'?", options: ["at", "on", "in", "by", "Weather"], correctAnswer: "in", hint: "For months and seasons" },
+      { type: 'quiz', question: "What does 'never' mean?", options: ["Всегда", "Обычно", "Past Simple", "Никогда", "Food"], correctAnswer: "Никогда", hint: "0% frequency" },
+      { type: 'quiz', question: "Where do adverbs of frequency go in a sentence?", options: ["After the verb", "Before the main verb", "At the end", "At the beginning", "Travel"], correctAnswer: "Before the main verb", hint: "I always go to school" },
+      { type: 'quiz', question: "Which preposition: '___ 8 o'clock'?", options: ["at", "on", "in", "for", "School"], correctAnswer: "at", hint: "For exact time" }
     ],
     reward: { stars: 3, message: "Well done! You know prepositions and days! 📅" }
   },
@@ -795,7 +795,7 @@ export const games = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Complete: 'I like ___ books.'", options: ["read", "reading", "to reading", "reads", "Другой ответ"],
+      { type: 'quiz', question: "Complete: 'I like ___ books.'", options: ["read", "reading", "to reading", "reads", "Sport"],
       keyPoints: [
         "Free time vocabulary: reading, swimming, playing sports, watching films",
         "Like + -ing: I like reading, She enjoys swimming",
@@ -806,10 +806,10 @@ export const games = [
         "She can play the piano very well.",
         "Can you help me with this task?",
       ], correctAnswer: "reading", hint: "like + -ing form" },
-      { type: 'quiz', question: "What does 'be good at' mean?", options: ["Интересоваться", "Быть хорошим в чём-то", "Устать от", "Бояться чего-то", "Другой ответ"], correctAnswer: "Быть хорошим в чём-то", hint: "She is good at playing tennis" },
-      { type: 'quiz', question: "How do you say 'играть на пианино'?", options: ["play piano", "play the piano", "play a piano", "playing piano", "Другой ответ"], correctAnswer: "play the piano", hint: "Use 'the' for musical instruments" },
-      { type: 'quiz', question: "How do you say 'играть в футбол'?", options: ["play the football", "play football", "play a football", "play at football", "Другой ответ"], correctAnswer: "play football", hint: "NO article for sports" },
-      { type: 'quiz', question: "Complete: 'She is interested ___ art.'", options: ["at", "in", "on", "for", "Другой ответ"], correctAnswer: "in", hint: "be interested in + something" }
+      { type: 'quiz', question: "What does 'be good at' mean?", options: ["Интересоваться", "Быть хорошим в чём-то", "Устать от", "Бояться чего-то", "Music"], correctAnswer: "Быть хорошим в чём-то", hint: "She is good at playing tennis" },
+      { type: 'quiz', question: "How do you say 'играть на пианино'?", options: ["play piano", "play the piano", "play a piano", "playing piano", "Family"], correctAnswer: "play the piano", hint: "Use 'the' for musical instruments" },
+      { type: 'quiz', question: "How do you say 'играть в футбол'?", options: ["play the football", "play football", "play a football", "play at football", "Hobby"], correctAnswer: "play football", hint: "NO article for sports" },
+      { type: 'quiz', question: "Complete: 'She is interested ___ art.'", options: ["at", "in", "on", "for", "Present Simple"], correctAnswer: "in", hint: "be interested in + something" }
     ],
     reward: { stars: 3, message: "Fantastic! You can talk about hobbies! 🎨⚽" }
   },
@@ -819,16 +819,16 @@ export const games = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What nationality is from Japan?", options: ["Japanish", "Japanese", "Japan", "Japanian", "Другой ответ"],
+      { type: 'quiz', question: "What nationality is from Japan?", options: ["Japanish", "Japanese", "Japan", "Japanian", "Past Simple"],
       keyPoints: [
         "Countries and nationalities: France — French, Japan — Japanese, Russia — Russian",
         "Languages: English, Spanish, Chinese, Arabic, German",
         "To be from / To come from for talking about origin",
       ], correctAnswer: "Japanese", hint: "People from Japan" },
-      { type: 'quiz', question: "What is the capital of France?", options: ["London", "Berlin", "Paris", "Rome", "Другой ответ"], correctAnswer: "Paris", hint: "City of Light" },
-      { type: 'quiz', question: "Complete: '___ the USA' (country with 'the')?", options: ["Другой ответ", "Both are correct", "m from the", "I", "Neither"], correctAnswer: "I'm from the", hint: "Use 'the' with 'States'" },
-      { type: 'quiz', question: "How do you ask about origin?", options: ["Where are you go?", "Where are you from?", "Where do you from?", "Where you from are?", "Другой ответ"], correctAnswer: "Where are you from?", hint: "be + from" },
-      { type: 'quiz', question: "What nationality is from Germany?", options: ["German", "Germany", "Germanian", "Germish", "Другой ответ"], correctAnswer: "German", hint: "People from Germany" }
+      { type: 'quiz', question: "What is the capital of France?", options: ["London", "Berlin", "Paris", "Rome", "Future Simple"], correctAnswer: "Paris", hint: "City of Light" },
+      { type: 'quiz', question: "Complete: '___ the USA' (country with 'the')?", options: ["Present Continuous", "Both are correct", "m from the", "I", "Neither"], correctAnswer: "I'm from the", hint: "Use 'the' with 'States'" },
+      { type: 'quiz', question: "How do you ask about origin?", options: ["Where are you go?", "Where are you from?", "Where do you from?", "Where you from are?", "Past Continuous"], correctAnswer: "Where are you from?", hint: "be + from" },
+      { type: 'quiz', question: "What nationality is from Germany?", options: ["German", "Germany", "Germanian", "Germish", "Noun"], correctAnswer: "German", hint: "People from Germany" }
     ],
     reward: { stars: 3, message: "Wonderful! You know countries and nationalities! 🌍" }
   }

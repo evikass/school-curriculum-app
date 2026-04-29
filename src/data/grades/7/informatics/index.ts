@@ -787,11 +787,11 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое переменная в программировании?", options: ["Именованная область памяти", "Команда", "Файл", "Функция", "Другой ответ"], correctAnswer: "Именованная область памяти", hint: "Хранит данные" },
-      { type: 'quiz', question: "Какой тип данных для целых чисел?", options: ["str", "float", "int", "bool", "Другой ответ"], correctAnswer: "int", hint: "Integer — целый" },
+      { type: 'quiz', question: "Что такое переменная в программировании?", options: ["Именованная область памяти", "Команда", "Файл", "Функция", "Алгоритм"], correctAnswer: "Именованная область памяти", hint: "Хранит данные" },
+      { type: 'quiz', question: "Какой тип данных для целых чисел?", options: ["str", "float", "int", "bool", "Программа"], correctAnswer: "int", hint: "Integer — целый" },
       { type: 'find', question: "Выбери типы данных Python:", options: ["int", "float", "str", "number", "bool", "text"], correctAnswer: ["int", "float", "str", "bool"], hint: "Основные типы Python" },
-      { type: 'quiz', question: "Какой оператор используется для условия?", options: ["for", "while", "if", "def", "Другой ответ"], correctAnswer: "if", hint: "Проверка условия" },
-      { type: 'quiz', question: "Как обозначается логическое И в Python?", options: ["&&", "and", "&", "AND", "Другой ответ"], correctAnswer: "and", hint: "Оба условия истинны" }
+      { type: 'quiz', question: "Какой оператор используется для условия?", options: ["for", "while", "if", "def", "Файл"], correctAnswer: "if", hint: "Проверка условия" },
+      { type: 'quiz', question: "Как обозначается логическое И в Python?", options: ["&&", "and", "&", "AND", "Папка"], correctAnswer: "and", hint: "Оба условия истинны" }
     ],
     reward: { stars: 3, message: "Отлично! Ты программируешь! 💻" }
   },
@@ -802,11 +802,11 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Какой язык создаёт структуру веб-страницы?", options: ["Python", "HTML", "JavaScript", "CSS", "Другой ответ"], correctAnswer: "HTML", hint: "HyperText Markup Language" },
-      { type: 'quiz', question: "Для чего нужен CSS?", options: ["Для программирования", "Для стилизации", "Для базы данных", "Для сервера", "Другой ответ"], correctAnswer: "Для стилизации", hint: "Каскадные таблицы стилей" },
+      { type: 'quiz', question: "Какой язык создаёт структуру веб-страницы?", options: ["Python", "HTML", "JavaScript", "CSS", "Система"], correctAnswer: "HTML", hint: "HyperText Markup Language" },
+      { type: 'quiz', question: "Для чего нужен CSS?", options: ["Для программирования", "Для стилизации", "Для базы данных", "Для сервера", "Сеть"], correctAnswer: "Для стилизации", hint: "Каскадные таблицы стилей" },
       { type: 'find', question: "Выбери теги HTML:", options: ["<p>", "<div>", "print()", "<img>", "<h1>"], correctAnswer: ["<p>", "<div>", "<img>", "<h1>"], hint: "Угловые скобки" },
-      { type: 'quiz', question: "Какой тег для ссылки?", options: ["<link>", "<a>", "<href>", "<url>", "Другой ответ"], correctAnswer: "<a>", hint: "Anchor — якорь" },
-      { type: 'quiz', question: "Какой тег создаёт заголовок в HTML?", options: ["<header>", "<h1>", "<title>", "<head>", "Другой ответ"], correctAnswer: "<h1>", hint: "Главный заголовок страницы" }
+      { type: 'quiz', question: "Какой тег для ссылки?", options: ["<link>", "<a>", "<href>", "<url>", "Браузер"], correctAnswer: "<a>", hint: "Anchor — якорь" },
+      { type: 'quiz', question: "Какой тег создаёт заголовок в HTML?", options: ["<header>", "<h1>", "<title>", "<head>", "Сервер"], correctAnswer: "<h1>", hint: "Главный заголовок страницы" }
     ],
     reward: { stars: 3, message: "Молодец! Ты создаёшь сайты! 🌐" }
   },
@@ -817,11 +817,11 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое алгоритм?", options: ["Программа", "Последовательность действий", "Данные", "Переменная", "Другой ответ"], correctAnswer: "Последовательность действий", hint: "Пошаговая инструкция" },
+      { type: 'quiz', question: "Что такое алгоритм?", options: ["Программа", "Последовательность действий", "Данные", "Переменная", "Целый"], correctAnswer: "Последовательность действий", hint: "Пошаговая инструкция" },
       { type: 'find', question: "Выбери свойства алгоритма:", options: ["Дискретность", "Определённость", "Скорость", "Результативность", "Массовость"], correctAnswer: ["Дискретность", "Определённость", "Результативность", "Массовость"], hint: "Основные свойства" },
-      { type: 'quiz', question: "Какая фигура в блок-схеме означает условие?", options: ["Овал", "Прямоугольник", "Ромб", "Параллелограмм", "Другой ответ"], correctAnswer: "Ромб", hint: "Ветвление" },
-      { type: 'quiz', question: "Что такое СКИ исполнителя?", options: ["Среда", "Система команд", "Скорость", "Счётчик", "Другой ответ"], correctAnswer: "Система команд", hint: "Доступные команды" },
-      { type: 'quiz', question: "Какая фигура в блок-схеме означает начало?", options: ["Прямоугольник", "Ромб", "Овал", "Параллелограмм", "Другой ответ"], correctAnswer: "Овал", hint: "Начало и конец алгоритма" }
+      { type: 'quiz', question: "Какая фигура в блок-схеме означает условие?", options: ["Овал", "Прямоугольник", "Ромб", "Параллелограмм", "Вещественный"], correctAnswer: "Ромб", hint: "Ветвление" },
+      { type: 'quiz', question: "Что такое СКИ исполнителя?", options: ["Среда", "Система команд", "Скорость", "Счётчик", "Строковый"], correctAnswer: "Система команд", hint: "Доступные команды" },
+      { type: 'quiz', question: "Какая фигура в блок-схеме означает начало?", options: ["Прямоугольник", "Ромб", "Овал", "Параллелограмм", "Логический"], correctAnswer: "Овал", hint: "Начало и конец алгоритма" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь алгоритмы! 📋" }
   },
@@ -832,11 +832,11 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Из чего состоит растровое изображение?", options: ["Векторы", "Пиксели", "Кривые", "Слои", "Другой ответ"], correctAnswer: "Пиксели", hint: "Точки разных цветов" },
-      { type: 'quiz', question: "Какой формат лучше для логотипов?", options: ["JPEG", "PNG", "SVG", "BMP", "Другой ответ"], correctAnswer: "SVG", hint: "Векторный формат" },
+      { type: 'quiz', question: "Из чего состоит растровое изображение?", options: ["Векторы", "Пиксели", "Кривые", "Слои", "Символьный"], correctAnswer: "Пиксели", hint: "Точки разных цветов" },
+      { type: 'quiz', question: "Какой формат лучше для логотипов?", options: ["JPEG", "PNG", "SVG", "BMP", "Массив"], correctAnswer: "SVG", hint: "Векторный формат" },
       { type: 'find', question: "Выбери растровые форматы:", options: ["JPEG", "SVG", "PNG", "GIF", "AI"], correctAnswer: ["JPEG", "PNG", "GIF"], hint: "Для фотографий" },
-      { type: 'quiz', question: "Что происходит с растром при увеличении?", options: ["Улучшается качество", "Теряется качество", "Не меняется", "Уменьшается размер", "Другой ответ"], correctAnswer: "Теряется качество", hint: "Пикселизация" },
-      { type: 'quiz', question: "Какой формат лучше для фотографий?", options: ["SVG", "JPEG", "PNG", "BMP", "Другой ответ"], correctAnswer: "JPEG", hint: "Сжатие с потерями" }
+      { type: 'quiz', question: "Что происходит с растром при увеличении?", options: ["Улучшается качество", "Теряется качество", "Не меняется", "Уменьшается размер", "Список"], correctAnswer: "Теряется качество", hint: "Пикселизация" },
+      { type: 'quiz', question: "Какой формат лучше для фотографий?", options: ["SVG", "JPEG", "PNG", "BMP", "Строка"], correctAnswer: "JPEG", hint: "Сжатие с потерями" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь графику! 🎨" }
   },
@@ -846,7 +846,7 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Какой цикл выполняется, пока условие истинно?", options: ["for", "while", "if", "else", "Другой ответ"],
+      { type: 'quiz', question: "Какой цикл выполняется, пока условие истинно?", options: ["for", "while", "if", "else", "Стек"],
       keyPoints: [
         "Цикл for — повторение блока кода заданное количество раз",
         "Цикл while — повторение, пока условие истинно",
@@ -857,10 +857,10 @@ export const games = [
         "<a href='https://example.com'>Ссылка</a> — гиперссылка",
         "<img src='photo.jpg' alt='Описание'> — изображение с альтернативным текстом",
       ], correctAnswer: "while", hint: "С предусловием" },
-      { type: 'quiz', question: "Что делает range(5)?", options: ["Числа 1-5", "Числа 0-4", "Числа 0-5", "Числа 1-4", "Другой ответ"], correctAnswer: "Числа 0-4", hint: "От 0 до n-1" },
+      { type: 'quiz', question: "Что делает range(5)?", options: ["Числа 1-5", "Числа 0-4", "Числа 0-5", "Числа 1-4", "Очередь"], correctAnswer: "Числа 0-4", hint: "От 0 до n-1" },
       { type: 'find', question: "Выбери операторы управления циклом:", options: ["break", "continue", "return", "stop", "next"], correctAnswer: ["break", "continue"], hint: "Выход и пропуск" },
-      { type: 'quiz', question: "Сколько раз выполнится: for i in range(3)?", options: ["2", "3", "4", "1", "Другой ответ"], correctAnswer: "3", hint: "i = 0, 1, 2" },
-      { type: 'quiz', question: "Что делает оператор continue в цикле?", options: ["Выходит из цикла", "Пропускает итерацию", "Останавливает программу", "Продолжает цикл", "Другой ответ"], correctAnswer: "Пропускает итерацию", hint: "Переходит к следующей итерации" }
+      { type: 'quiz', question: "Сколько раз выполнится: for i in range(3)?", options: ["2", "3", "4", "1", "Дерево"], correctAnswer: "3", hint: "i = 0, 1, 2" },
+      { type: 'quiz', question: "Что делает оператор continue в цикле?", options: ["Выходит из цикла", "Пропускает итерацию", "Останавливает программу", "Продолжает цикл", "Ветвление"], correctAnswer: "Пропускает итерацию", hint: "Переходит к следующей итерации" }
     ],
     reward: { stars: 3, message: "Отлично! Ты освоил циклы! 🔄" }
   },
@@ -870,7 +870,7 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое программа?", options: ["Файл с текстом", "Последовательность команд для компьютера", "Сайт в интернете", "Картинка", "Другой ответ"],
+      { type: 'quiz', question: "Что такое программа?", options: ["Файл с текстом", "Последовательность команд для компьютера", "Сайт в интернете", "Картинка", "Цикл"],
       keyPoints: [
         "Программирование — создание последовательности инструкций для компьютера",
         "Алгоритм — чёткая последовательность шагов для решения задачи",
@@ -881,10 +881,10 @@ export const games = [
         "x = 10 — переменная типа int (целое число)",
         "type(3.14) вернёт <class 'float'> — вещественное число",
       ], correctAnswer: "Последовательность команд для компьютера", hint: "Выполняется шаг за шагом" },
-      { type: 'quiz', question: "Какой язык программирования популярен для обучения?", options: ["Java", "Python", "Assembly", "Fortran", "Другой ответ"], correctAnswer: "Python", hint: "Простой и понятный синтаксис" },
-      { type: 'quiz', question: "Для чего нужна среда разработки (IDE)?", options: ["Для просмотра сайтов", "Для написания кода", "Для рисования", "Для прослушивания музыки", "Другой ответ"], correctAnswer: "Для написания кода", hint: "VS Code, PyCharm, IDLE" },
-      { type: 'quiz', question: "Что выводит команда print('Привет')?", options: ["Ошибка", "Слово Привет", "Число", "Ничего", "Другой ответ"], correctAnswer: "Слово Привет", hint: "Первая программа на Python" },
-      { type: 'quiz', question: "Какой язык используется для создания веб-сайтов?", options: ["Python", "C++", "JavaScript", "Pascal", "Другой ответ"], correctAnswer: "JavaScript", hint: "Работает в браузере" }
+      { type: 'quiz', question: "Какой язык программирования популярен для обучения?", options: ["Java", "Python", "Assembly", "Fortran", "Условие"], correctAnswer: "Python", hint: "Простой и понятный синтаксис" },
+      { type: 'quiz', question: "Для чего нужна среда разработки (IDE)?", options: ["Для просмотра сайтов", "Для написания кода", "Для рисования", "Для прослушивания музыки", "Функция"], correctAnswer: "Для написания кода", hint: "VS Code, PyCharm, IDLE" },
+      { type: 'quiz', question: "Что выводит команда print('Привет')?", options: ["Ошибка", "Слово Привет", "Число", "Переменная", "Константа"], correctAnswer: "Слово Привет", hint: "Первая программа на Python" },
+      { type: 'quiz', question: "Какой язык используется для создания веб-сайтов?", options: ["Python", "C++", "JavaScript", "Pascal", "Бит"], correctAnswer: "JavaScript", hint: "Работает в браузере" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь основы программирования! 💻" }
   },
@@ -894,7 +894,7 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое переменная?", options: ["Команда", "Именованная область памяти для хранения данных", "Функция", "Тип данных", "Другой ответ"],
+      { type: 'quiz', question: "Что такое переменная?", options: ["Команда", "Именованная область памяти для хранения данных", "Функция", "Тип данных", "Байт"],
       keyPoints: [
         "Переменная хранит данные; тип определяет, какие данные можно хранить",
         "Основные типы: int (целые числа), float (дробные), str (строки), bool (истина/ложь)",
@@ -905,10 +905,10 @@ export const games = [
         "and — логическое И (оба условия истинны), or — ИЛИ (хотя бы одно)",
         "Вложенные условия: if внутри if для сложных проверок",
       ], correctAnswer: "Именованная область памяти для хранения данных", hint: "Хранит значение" },
-      { type: 'quiz', question: "Какой тип данных используется для целых чисел?", options: ["str", "float", "int", "bool", "Другой ответ"], correctAnswer: "int", hint: "Integer — целый" },
-      { type: 'quiz', question: "Какой тип данных используется для строк текста?", options: ["int", "float", "bool", "str", "Другой ответ"], correctAnswer: "str", hint: "String — строка" },
-      { type: 'quiz', question: "Чему равно значение type(3.14)?", options: ["int", "float", "str", "bool", "Другой ответ"], correctAnswer: "float", hint: "Вещественное число" },
-      { type: 'quiz', question: "Как получить ввод от пользователя в Python?", options: ["read()", "input()", "get()", "scan()", "Другой ответ"], correctAnswer: "input()", hint: "Запрашивает данные с клавиатуры" }
+      { type: 'quiz', question: "Какой тип данных используется для целых чисел?", options: ["str", "float", "int", "bool", "Килобайт"], correctAnswer: "int", hint: "Integer — целый" },
+      { type: 'quiz', question: "Какой тип данных используется для строк текста?", options: ["int", "float", "bool", "str", "Алгоритм"], correctAnswer: "str", hint: "String — строка" },
+      { type: 'quiz', question: "Чему равно значение type(3.14)?", options: ["int", "float", "str", "bool", "Программа"], correctAnswer: "float", hint: "Вещественное число" },
+      { type: 'quiz', question: "Как получить ввод от пользователя в Python?", options: ["read()", "input()", "get()", "scan()", "Файл"], correctAnswer: "input()", hint: "Запрашивает данные с клавиатуры" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь переменные! 📝" }
   },
@@ -918,7 +918,7 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Какой оператор используется для проверки условия?", options: ["for", "while", "if", "print", "Другой ответ"],
+      { type: 'quiz', question: "Какой оператор используется для проверки условия?", options: ["for", "while", "if", "print", "Папка"],
       keyPoints: [
         "Условный оператор (if/else) позволяет программе выбирать действие",
         "Операторы сравнения: ==, !=, >, <, >=, <=",
@@ -929,10 +929,10 @@ export const games = [
         "while count < 5: — цикл выполняется, пока условие истинно",
         "break — выход из цикла, continue — переход к следующей итерации",
       ], correctAnswer: "if", hint: "Условный оператор" },
-      { type: 'quiz', question: "Что делает оператор elif?", options: ["Завершает программу", "Проверяет дополнительное условие", "Создаёт цикл", "Объявляет функцию", "Другой ответ"], correctAnswer: "Проверяет дополнительное условие", hint: "Множественные условия" },
-      { type: 'quiz', question: "Какой оператор означает логическое И в Python?", options: ["&&", "and", "&", "AND", "Другой ответ"], correctAnswer: "and", hint: "Оба условия истинны" },
-      { type: 'quiz', question: "Что означает оператор != ?", options: ["Равно", "Не равно", "Больше", "Меньше", "Другой ответ"], correctAnswer: "Не равно", hint: "Отрицание равенства" },
-      { type: 'quiz', question: "Какой оператор означает логическое ИЛИ?", options: ["and", "not", "or", "||", "Другой ответ"], correctAnswer: "or", hint: "Хотя бы одно условие истинно" }
+      { type: 'quiz', question: "Что делает оператор elif?", options: ["Завершает программу", "Проверяет дополнительное условие", "Создаёт цикл", "Объявляет функцию", "Система"], correctAnswer: "Проверяет дополнительное условие", hint: "Множественные условия" },
+      { type: 'quiz', question: "Какой оператор означает логическое И в Python?", options: ["&&", "and", "&", "AND", "Сеть"], correctAnswer: "and", hint: "Оба условия истинны" },
+      { type: 'quiz', question: "Что означает оператор != ?", options: ["Равно", "Не равно", "Больше", "Меньше", "Браузер"], correctAnswer: "Не равно", hint: "Отрицание равенства" },
+      { type: 'quiz', question: "Какой оператор означает логическое ИЛИ?", options: ["and", "not", "or", "||", "Сервер"], correctAnswer: "or", hint: "Хотя бы одно условие истинно" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь условия! 🔀" }
   },
@@ -942,7 +942,7 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что означает аббревиатура HTML?", options: ["HyperText Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "HyperText Machine Learning", "Другой ответ"],
+      { type: 'quiz', question: "Что означает аббревиатура HTML?", options: ["HyperText Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "HyperText Machine Learning", "Целый"],
       keyPoints: [
         "HTML (HyperText Markup Language) — язык разметки веб-страниц",
         "Основные теги: <html>, <head>, <body>, <h1>-<h6>, <p>, <a>, <img>",
@@ -953,10 +953,10 @@ export const games = [
         "#header { font-size: 24px; } — селектор по id",
         "margin — внешний отступ, padding — внутренний отступ",
       ], correctAnswer: "HyperText Markup Language", hint: "Язык разметки" },
-      { type: 'quiz', question: "Какой тег создаёт главный заголовок страницы?", options: ["<p>", "<title>", "<h1>", "<header>", "Другой ответ"], correctAnswer: "<h1>", hint: "Heading 1" },
-      { type: 'quiz', question: "Какой тег используется для создания ссылки?", options: ["<link>", "<a>", "<href>", "<url>", "Другой ответ"], correctAnswer: "<a>", hint: "Anchor — якорь" },
-      { type: 'quiz', question: "Какой атрибут тега <a> указывает адрес ссылки?", options: ["src", "link", "href", "url", "Другой ответ"], correctAnswer: "href", hint: "Hypertext Reference" },
-      { type: 'quiz', question: "Какой тег создаёт параграф текста?", options: ["<div>", "<text>", "<p>", "<br>", "Другой ответ"], correctAnswer: "<p>", hint: "Paragraph" }
+      { type: 'quiz', question: "Какой тег создаёт главный заголовок страницы?", options: ["<p>", "<title>", "<h1>", "<header>", "Вещественный"], correctAnswer: "<h1>", hint: "Heading 1" },
+      { type: 'quiz', question: "Какой тег используется для создания ссылки?", options: ["<link>", "<a>", "<href>", "<url>", "Строковый"], correctAnswer: "<a>", hint: "Anchor — якорь" },
+      { type: 'quiz', question: "Какой атрибут тега <a> указывает адрес ссылки?", options: ["src", "link", "href", "url", "Логический"], correctAnswer: "href", hint: "Hypertext Reference" },
+      { type: 'quiz', question: "Какой тег создаёт параграф текста?", options: ["<div>", "<text>", "<p>", "<br>", "Символьный"], correctAnswer: "<p>", hint: "Paragraph" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь HTML! 🌐" }
   },
@@ -966,7 +966,7 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что означает аббревиатура CSS?", options: ["Computer Style Sheets", "Cascading Style Sheets", "Creative Style System", "Colorful Style Sheets", "Другой ответ"],
+      { type: 'quiz', question: "Что означает аббревиатура CSS?", options: ["Computer Style Sheets", "Cascading Style Sheets", "Creative Style System", "Colorful Style Sheets", "Массив"],
       keyPoints: [
         "CSS (Cascading Style Sheets) — язык оформления веб-страниц",
         "Селектор { свойство: значение; } — основной синтаксис CSS",
@@ -977,10 +977,10 @@ export const games = [
         "<nav> — тег для навигации с ссылками",
         "body { max-width: 800px; margin: 0 auto; } — центрирование контента",
       ], correctAnswer: "Cascading Style Sheets", hint: "Каскадные таблицы стилей" },
-      { type: 'quiz', question: "Какое свойство CSS задает цвет текста?", options: ["font-color", "text-color", "color", "foreground", "Другой ответ"], correctAnswer: "color", hint: "Цвет текста элемента" },
-      { type: 'quiz', question: "Какой символ используется для селектора по классу?", options: ["#", ".", "@", "$", "Другой ответ"], correctAnswer: ".", hint: "Точка перед именем класса" },
-      { type: 'quiz', question: "Какое свойство задаёт внешний отступ элемента?", options: ["padding", "border", "margin", "spacing", "Другой ответ"], correctAnswer: "margin", hint: "Отступ со всех сторон" },
-      { type: 'quiz', question: "Какой символ используется для селектора по id?", options: [".", "#", "*", "&", "Другой ответ"], correctAnswer: "#", hint: "Решётка перед идентификатором" }
+      { type: 'quiz', question: "Какое свойство CSS задает цвет текста?", options: ["font-color", "text-color", "color", "foreground", "Список"], correctAnswer: "color", hint: "Цвет текста элемента" },
+      { type: 'quiz', question: "Какой символ используется для селектора по классу?", options: ["#", ".", "@", "$", "Строка"], correctAnswer: ".", hint: "Точка перед именем класса" },
+      { type: 'quiz', question: "Какое свойство задаёт внешний отступ элемента?", options: ["padding", "border", "margin", "spacing", "Стек"], correctAnswer: "margin", hint: "Отступ со всех сторон" },
+      { type: 'quiz', question: "Какой символ используется для селектора по id?", options: [".", "#", "*", "&", "Очередь"], correctAnswer: "#", hint: "Решётка перед идентификатором" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь CSS! 🎨" }
   },
@@ -990,7 +990,7 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Какой семантический тег используется для шапки сайта?", options: ["<top>", "<head>", "<header>", "<h1>", "Другой ответ"],
+      { type: 'quiz', question: "Какой семантический тег используется для шапки сайта?", options: ["<top>", "<head>", "<header>", "<h1>", "Дерево"],
       keyPoints: [
         "Веб-страница создается комбинацией HTML (структура) и CSS (оформление)",
         "Responsive дизайн делает страницу адаптивной для разных экранов",
@@ -1001,10 +1001,10 @@ export const games = [
         "SVG — векторный формат, не теряет качество при масштабировании",
         "1 мегапиксель = 1 000 000 пикселей",
       ], correctAnswer: "<header>", hint: "Верхняя часть страницы" },
-      { type: 'quiz', question: "Какой тег создаёт навигацию по сайту?", options: ["<menu>", "<nav>", "<link>", "<navigate>", "Другой ответ"], correctAnswer: "<nav>", hint: "Navigation" },
-      { type: 'quiz', question: "Какой тег используется для основной части контента?", options: ["<body>", "<main>", "<content>", "<section>", "Другой ответ"], correctAnswer: "<main>", hint: "Основное содержание" },
-      { type: 'quiz', question: "Какой тег создаёт подвал сайта?", options: ["<bottom>", "<footer>", "<end>", "<down>", "Другой ответ"], correctAnswer: "<footer>", hint: "Нижняя часть страницы" },
-      { type: 'quiz', question: "Как подключить внешний файл стилей в HTML?", options: ["href=", "<script src=", "<link rel=", "<style src=", "Другой ответ"], correctAnswer: "<link rel='stylesheet' href='...'>", hint: "Тег link в разделе head" }
+      { type: 'quiz', question: "Какой тег создаёт навигацию по сайту?", options: ["<menu>", "<nav>", "<link>", "<navigate>", "Ветвление"], correctAnswer: "<nav>", hint: "Navigation" },
+      { type: 'quiz', question: "Какой тег используется для основной части контента?", options: ["<body>", "<main>", "<content>", "<section>", "Цикл"], correctAnswer: "<main>", hint: "Основное содержание" },
+      { type: 'quiz', question: "Какой тег создаёт подвал сайта?", options: ["<bottom>", "<footer>", "<end>", "<down>", "Условие"], correctAnswer: "<footer>", hint: "Нижняя часть страницы" },
+      { type: 'quiz', question: "Как подключить внешний файл стилей в HTML?", options: ["href=", "<script src=", "<link rel=", "<style src=", "Функция"], correctAnswer: "<link rel='stylesheet' href='...'>", hint: "Тег link в разделе head" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь создавать сайты! 📄" }
   },
@@ -1014,7 +1014,7 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Из чего состоит растровое изображение?", options: ["Из кривых", "Из пикселей", "Из векторов", "Из слоёв", "Другой ответ"],
+      { type: 'quiz', question: "Из чего состоит растровое изображение?", options: ["Из кривых", "Из пикселей", "Из векторов", "Из слоёв", "Переменная"],
       keyPoints: [
         "Растровая графика — изображение из пикселей (фото, скриншоты)",
         "Векторная графика — изображение из математических объектов (логотипы, схемы)",
@@ -1025,10 +1025,10 @@ export const games = [
         "PNG поддерживает прозрачность — удобно для логотипов",
         "Слои в Photoshop позволяют комбинировать несколько изображений",
       ], correctAnswer: "Из пикселей", hint: "Маленькие точки разных цветов" },
-      { type: 'quiz', question: "Какой формат лучше для логотипов?", options: ["JPEG", "BMP", "SVG", "PNG", "Другой ответ"], correctAnswer: "SVG", hint: "Векторный формат" },
-      { type: 'quiz', question: "Что происходит с векторным изображением при увеличении?", options: ["Теряет качество", "Не теряет качество", "Размывается", "Исчезает", "Другой ответ"], correctAnswer: "Не теряет качество", hint: "Математические формулы" },
-      { type: 'quiz', question: "Какой формат растровой графики поддерживает анимацию?", options: ["JPEG", "PNG", "GIF", "BMP", "Другой ответ"], correctAnswer: "GIF", hint: "Кадры анимации" },
-      { type: 'quiz', question: "В какой программе работают с векторной графикой?", options: ["Photoshop", "GIMP", "Illustrator", "Paint", "Другой ответ"], correctAnswer: "Illustrator", hint: "Adobe Illustrator" }
+      { type: 'quiz', question: "Какой формат лучше для логотипов?", options: ["JPEG", "BMP", "SVG", "PNG", "Константа"], correctAnswer: "SVG", hint: "Векторный формат" },
+      { type: 'quiz', question: "Что происходит с векторным изображением при увеличении?", options: ["Теряет качество", "Не теряет качество", "Размывается", "Исчезает", "Бит"], correctAnswer: "Не теряет качество", hint: "Математические формулы" },
+      { type: 'quiz', question: "Какой формат растровой графики поддерживает анимацию?", options: ["JPEG", "PNG", "GIF", "BMP", "Байт"], correctAnswer: "GIF", hint: "Кадры анимации" },
+      { type: 'quiz', question: "В какой программе работают с векторной графикой?", options: ["Photoshop", "GIMP", "Illustrator", "Paint", "Килобайт"], correctAnswer: "Illustrator", hint: "Adobe Illustrator" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь виды графики! 🖼️" }
   },
@@ -1038,7 +1038,7 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое кадрирование изображения?", options: ["Изменение цвета", "Обрезка изображения", "Увеличение", "Поворот", "Другой ответ"],
+      { type: 'quiz', question: "Что такое кадрирование изображения?", options: ["Изменение цвета", "Обрезка изображения", "Увеличение", "Поворот", "Мегабайт"],
       keyPoints: [
         "Растровые редакторы: Paint, GIMP, Photoshop — работа с пикселями",
         "Инструменты: выделение, кисть, заливка, текст, штамп, ластик",
@@ -1049,10 +1049,10 @@ export const games = [
         "Овал — начало/конец, прямоугольник — действие, ромб — условие",
         "Алгоритм заварки чая: вскипятить воду → положить пакетик → залить → настоять",
       ], correctAnswer: "Обрезка изображения", hint: "Удаление лишних частей" },
-      { type: 'quiz', question: "Какой современный формат изображений обеспечивает маленький размер?", options: ["JPEG", "PNG", "WebP", "BMP", "Другой ответ"], correctAnswer: "WebP", hint: "Современный формат" },
-      { type: 'quiz', question: "Для чего нужны слои в графическом редакторе?", options: ["Для увеличения размера", "Для наложения изображений", "Для изменения формата", "Для печати", "Другой ответ"], correctAnswer: "Для наложения изображений", hint: "Работа с элементами по отдельности" },
-      { type: 'quiz', question: "Какой формат поддерживает прозрачность?", options: ["JPEG", "BMP", "PNG", "TIFF", "Другой ответ"], correctAnswer: "PNG", hint: "Удобно для логотипов" },
-      { type: 'quiz', question: "Что такое цветокоррекция изображения?", options: ["Изменение размера", "Настройка яркости, контраста, насыщенности", "Кадрирование", "Сжатие", "Другой ответ"], correctAnswer: "Настройка яркости, контраста, насыщенности", hint: "Улучшение визуального качества" }
+      { type: 'quiz', question: "Какой современный формат изображений обеспечивает маленький размер?", options: ["JPEG", "PNG", "WebP", "BMP", "Гигабайт"], correctAnswer: "WebP", hint: "Современный формат" },
+      { type: 'quiz', question: "Для чего нужны слои в графическом редакторе?", options: ["Для увеличения размера", "Для наложения изображений", "Для изменения формата", "Для печати", "Терабайт"], correctAnswer: "Для наложения изображений", hint: "Работа с элементами по отдельности" },
+      { type: 'quiz', question: "Какой формат поддерживает прозрачность?", options: ["JPEG", "BMP", "PNG", "TIFF", "Операционная система"], correctAnswer: "PNG", hint: "Удобно для логотипов" },
+      { type: 'quiz', question: "Что такое цветокоррекция изображения?", options: ["Изменение размера", "Настройка яркости, контраста, насыщенности", "Кадрирование", "Сжатие", "Процессор"], correctAnswer: "Настройка яркости, контраста, насыщенности", hint: "Улучшение визуального качества" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь обработку изображений! 🎨" }
   },
@@ -1062,7 +1062,7 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое алгоритм?", options: ["Любой текст", "Точное описание последовательности действий", "Программа", "Рисунок", "Другой ответ"],
+      { type: 'quiz', question: "Что такое алгоритм?", options: ["Любой текст", "Точное описание последовательности действий", "Программа", "Рисунок", "Память"],
       keyPoints: [
         "Алгоритм — конечная последовательность шагов, приводящая к результату",
         "Способы записи: словесный, блок-схема, псевдокод, программа",
@@ -1073,10 +1073,10 @@ export const games = [
         "Робот: команды — влево, вправо, вверх, вниз, закрасить",
         "Черепаха: вперёд(50), вправо(90) — рисует квадрат",
       ], correctAnswer: "Точное описание последовательности действий", hint: "Пошаговая инструкция" },
-      { type: 'quiz', question: "Какое свойство алгоритма означает разделение на шаги?", options: ["Массовость", "Дискретность", "Результативность", "Определённость", "Другой ответ"], correctAnswer: "Дискретность", hint: "Выполнение по порядку" },
-      { type: 'quiz', question: "Какая фигура в блок-схеме обозначает действие?", options: ["Овал", "Ромб", "Прямоугольник", "Параллелограмм", "Другой ответ"], correctAnswer: "Прямоугольник", hint: "Блок действий" },
-      { type: 'quiz', question: "Какое свойство алгоритма означает применимость к множеству данных?", options: ["Дискретность", "Определённость", "Массовость", "Результативность", "Другой ответ"], correctAnswer: "Массовость", hint: "Универсальность" },
-      { type: 'quiz', question: "Какая фигура в блок-схеме обозначает условие?", options: ["Прямоугольник", "Овал", "Ромб", "Круг", "Другой ответ"], correctAnswer: "Ромб", hint: "Ветвление алгоритма" }
+      { type: 'quiz', question: "Какое свойство алгоритма означает разделение на шаги?", options: ["Массовость", "Дискретность", "Результативность", "Определённость", "Жёсткий диск"], correctAnswer: "Дискретность", hint: "Выполнение по порядку" },
+      { type: 'quiz', question: "Какая фигура в блок-схеме обозначает действие?", options: ["Овал", "Ромб", "Прямоугольник", "Параллелограмм", "Видеокарта"], correctAnswer: "Прямоугольник", hint: "Блок действий" },
+      { type: 'quiz', question: "Какое свойство алгоритма означает применимость к множеству данных?", options: ["Дискретность", "Определённость", "Массовость", "Результативность", "Клавиатура"], correctAnswer: "Массовость", hint: "Универсальность" },
+      { type: 'quiz', question: "Какая фигура в блок-схеме обозначает условие?", options: ["Прямоугольник", "Овал", "Ромб", "Круг", "Мышь"], correctAnswer: "Ромб", hint: "Ветвление алгоритма" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь алгоритмы! 📋" }
   },
@@ -1086,7 +1086,7 @@ export const games = [
     icon: "Monitor",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Что такое исполнитель алгоритма?", options: ["Человек", "Объект, выполняющий алгоритм", "Компьютер", "Программа", "Другой ответ"],
+      { type: 'quiz', question: "Что такое исполнитель алгоритма?", options: ["Человек", "Объект, выполняющий алгоритм", "Компьютер", "Программа", "Монитор"],
       keyPoints: [
         "Исполнитель алгоритма — объект, способный выполнять команды",
         "Система команд исполнителя — набор команд, которые он понимает",
@@ -1097,10 +1097,10 @@ export const games = [
         "Односоставное безличное: Темнеет — нет и не может быть подлежащего, действие происходит само по себе",
         "Односоставное назывное: Ночь. Улица. Фонарь. Аптека. — только подлежащие, нет сказуемых",
       ], correctAnswer: "Объект, выполняющий алгоритм", hint: "Выполняет команды" },
-      { type: 'quiz', question: "Что такое СКИ исполнителя?", options: ["Скорость", "Система команд исполнителя", "Среда", "Счётчик", "Другой ответ"], correctAnswer: "Система команд исполнителя", hint: "Набор доступных команд" },
-      { type: 'quiz', question: "Какие команды есть у исполнителя Робот?", options: ["Влево, вправо, вверх, вниз, закрасить", "Вперёд, назад, прыгнуть", "Записать, стереть", "Нарисовать, закрасить", "Другой ответ"], correctAnswer: "Влево, вправо, вверх, вниз, закрасить", hint: "Клеточное поле" },
-      { type: 'quiz', question: "Что такое отказ исполнителя?", options: ["Завершение работы", "Команда не может быть выполнена", "Перезагрузка", "Остановка программы", "Другой ответ"], correctAnswer: "Команда не может быть выполнена", hint: "Выход за границы среды" },
-      { type: 'quiz', question: "В какой среде работает исполнитель Черепаха?", options: ["Клеточное поле", "Координатная плоскость", "Текстовый документ", "База данных", "Другой ответ"], correctAnswer: "Координатная плоскость", hint: "Плоскость с линиями" }
+      { type: 'quiz', question: "Что такое СКИ исполнителя?", options: ["Скорость", "Система команд исполнителя", "Среда", "Счётчик", "Принтер"], correctAnswer: "Система команд исполнителя", hint: "Набор доступных команд" },
+      { type: 'quiz', question: "Какие команды есть у исполнителя Робот?", options: ["Влево, вправо, вверх, вниз, закрасить", "Вперёд, назад, прыгнуть", "Записать, стереть", "Нарисовать, закрасить", "Сканер"], correctAnswer: "Влево, вправо, вверх, вниз, закрасить", hint: "Клеточное поле" },
+      { type: 'quiz', question: "Что такое отказ исполнителя?", options: ["Завершение работы", "Команда не может быть выполнена", "Перезагрузка", "Остановка программы", "Интернет"], correctAnswer: "Команда не может быть выполнена", hint: "Выход за границы среды" },
+      { type: 'quiz', question: "В какой среде работает исполнитель Черепаха?", options: ["Клеточное поле", "Координатная плоскость", "Текстовый документ", "База данных", "Сайт"], correctAnswer: "Координатная плоскость", hint: "Плоскость с линиями" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь исполнителей! 🤖" }
   }
