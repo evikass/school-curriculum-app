@@ -1189,7 +1189,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь предметы по выбору! 🎯" }
   },
   {
-    title: "Итоги подготовки",
+    title: "Стратегии подготовки",
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",

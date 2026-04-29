@@ -1077,7 +1077,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь природные материалы! 🌿" }
   },
   {
-    title: "Работа с пластилином 🎨",
+    title: "Знакомство с пластилином",
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",

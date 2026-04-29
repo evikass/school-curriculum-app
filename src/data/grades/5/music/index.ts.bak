@@ -1395,7 +1395,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Народные инструменты",
+    title: "Музыкальные инструменты",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",

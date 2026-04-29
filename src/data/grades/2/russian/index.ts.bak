@@ -1020,7 +1020,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты проверяешь согласные! 🎯" }
   },
   {
-    title: "Разделительный мягкий знак",
+    title: "Разделительный Ь ❄️",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",

@@ -15,13 +15,30 @@ import path from 'path';
 const GRADES_DIR = '/home/z/my-project/school-curriculum-app/src/data/grades';
 const FILLER_STRINGS = ['Никто не знает', 'Не знаю', 'никто не знает', 'не знаю'];
 
+// Additional filler patterns that are meaningless as quiz options
+const EXTRA_FILLER_STRINGS = ['запиши', 'Запиши', 'затрудняюсь', 'Затрудняюсь', 'другой', 'Другой', 'английски'];
+
+// Context-dependent fillers: only considered filler when NOT the correct answer
+const CONTEXT_FILLERS = ['нет', 'Нет'];
+
 function hasFiller(text) {
-  return FILLER_STRINGS.some(p => text.includes(p));
+  return FILLER_STRINGS.some(p => text.includes(p)) || EXTRA_FILLER_STRINGS.some(p => text.includes(p)) || CONTEXT_FILLERS.some(p => text.includes(p));
 }
 
 function isFillerOption(opt) {
   const trimmed = opt.trim();
-  return FILLER_STRINGS.includes(trimmed);
+  if (FILLER_STRINGS.includes(trimmed)) return true;
+  if (EXTRA_FILLER_STRINGS.includes(trimmed)) return true;
+  return false;
+}
+
+function isContextFiller(opt, correctAnswer) {
+  const trimmed = opt.trim();
+  // 'нет'/'Нет' is filler only when it's NOT the correct answer
+  if (CONTEXT_FILLERS.includes(trimmed) && trimmed.toLowerCase() !== correctAnswer.toLowerCase().trim()) {
+    return true;
+  }
+  return false;
 }
 
 function extractQuizzes(content) {
@@ -48,6 +65,7 @@ function extractQuizzes(content) {
       options.push(valMatch[1]);
     }
     
+    // First pass: check for standard fillers
     const fillerIndices = [];
     options.forEach((opt, idx) => {
       if (isFillerOption(opt)) {
@@ -57,8 +75,7 @@ function extractQuizzes(content) {
     
     if (fillerIndices.length === 0) continue;
     
-    // Now find the enclosing quiz object
-    // Search backwards from the options match to find the opening {
+    // Now find the enclosing quiz object to get correctAnswer for context fillers
     let objStart = optMatch.index;
     let braceCount = 0;
     for (let i = objStart; i >= 0; i--) {
@@ -104,6 +121,15 @@ function extractQuizzes(content) {
     if (!correctMatch) continue;
     const correctAnswer = correctMatch[1];
     
+    // Second pass: check for context-dependent fillers (like "нет" when it's not the correct answer)
+    options.forEach((opt, idx) => {
+      if (!fillerIndices.includes(idx) && isContextFiller(opt, correctAnswer)) {
+        fillerIndices.push(idx);
+      }
+    });
+    
+    if (fillerIndices.length === 0) continue;
+    
     // Extract the options array string for later replacement
     const optionsArrayMatch = quizBlock.match(/options:\s*\[[^\]]+\]/);
     if (!optionsArrayMatch) continue;
@@ -144,18 +170,26 @@ function generateFallback(quiz, idx, existingOpts, subject) {
     russian: ['Слово', 'Буква', 'Звук', 'Слог', 'Предложение', 'Текст', 'Речь', 'Ударение', 'Гласный', 'Согласный'],
     reading: ['Автор', 'Герой', 'Сказка', 'Рассказ', 'Стих', 'Книга', 'Страница', 'Глава', 'Заголовок', 'Писатель'],
     world: ['Природа', 'Земля', 'Вода', 'Воздух', 'Растение', 'Животное', 'Человек', 'Погода', 'Озеро', 'Лес'],
+    nature: ['Природа', 'Земля', 'Вода', 'Воздух', 'Растение', 'Животное', 'Человек', 'Погода', 'Озеро', 'Лес'],
     music: ['Песня', 'Танец', 'Ритм', 'Нота', 'Мелодия', 'Хор', 'Пианино', 'Громко', 'Тихо', 'Оркестр'],
     art: ['Краски', 'Кисть', 'Линия', 'Цвет', 'Рисунок', 'Холст', 'Палитра', 'Тень', 'Форма', 'Контур'],
     pe: ['Бег', 'Прыжок', 'Мяч', 'Спорт', 'Упражнение', 'Зарядка', 'Сила', 'Ловкость', 'Команда', 'Эстафета'],
     craft: ['Бумага', 'Клей', 'Ножницы', 'Карандаш', 'Краска', 'Линейка', 'Ластик', 'Пластилин', 'Картон', 'Объём'],
+    crafts: ['Бумага', 'Клей', 'Ножницы', 'Карандаш', 'Краска', 'Линейка', 'Ластик', 'Пластилин', 'Картон', 'Объём'],
     english: ['Hello', 'Yes', 'No', 'Good', 'Cat', 'Dog', 'Book', 'Apple', 'Red', 'Big'],
     literature: ['Поэмa', 'Роман', 'Стихотворение', 'Басня', 'Пьеса', 'Проза', 'Сказ', 'Очерк', 'Былина', 'Комедия'],
     tech: ['Инструмент', 'Деталь', 'Механизм', 'Материал', 'Чертёж', 'Модель', 'Конструкция', 'Схема', 'Сборка', 'Разметка'],
     projects: ['План', 'Идея', 'Цель', 'Задача', 'Результат', 'Команда', 'Презентация', 'Исследование', 'Гипотеза', 'Вывод'],
     informatics: ['Файл', 'Папка', 'Код', 'Программа', 'Экран', 'Клавиатура', 'Мышь', 'Данные', 'Сеть', 'Сайт'],
+    digital: ['Файл', 'Папка', 'Код', 'Программа', 'Экран', 'Клавиатура', 'Мышь', 'Данные', 'Сеть', 'Сайт'],
     robotics: ['Мотор', 'Датчик', 'Робот', 'Алгоритм', 'Цикл', 'Команда', 'Сборка', 'Контроллер', 'Сервопривод', 'Шестерёнка'],
     safety: ['Опасность', 'Правило', 'Знак', 'Осторожно', 'Пожар', 'Дорога', 'Телефон', 'Помощь', 'Эвакуация', 'Аптечка'],
     ethics: ['Добро', 'Зло', 'Совесть', 'Долг', 'Честь', 'Справедливость', 'Милосердие', 'Ответственность', 'Уважение', 'Терпение'],
+    religion: ['Вера', 'Молитва', 'Храм', 'Добро', 'Любовь', 'Милосердие', 'Заповедь', 'Притча', 'Духовность', 'Традиция'],
+    geography: ['Материк', 'Океан', 'Река', 'Гора', 'Страна', 'Город', 'Климат', 'Карта', 'Экватор', 'Полюс'],
+    history: ['Век', 'Эпоха', 'Царь', 'Война', 'Мир', 'Революция', 'Культура', 'Общество', 'Государство', 'Реформа'],
+    biology: ['Клетка', 'Орган', 'Ткань', 'Вид', 'Род', 'Семья', 'Царство', 'Мутация', 'Эволюция', 'Экология'],
+    finance: ['Доход', 'Расход', 'Бюджет', 'Налог', 'Прибыль', 'Вклад', 'Кредит', 'Инвестиция', 'Цена', 'Стоимость'],
   };
   
   const fallbacks = subjectFallbacks[subject] || subjectFallbacks.world;
@@ -190,13 +224,14 @@ async function generateReplacementsForBatch(zai, quizzes, subject, grade) {
    Нужно ${q.fillerIndices.length} НОВЫХ варианта`;
     }).join('\n\n');
     
-    const prompt = `Замени бессмысленные варианты ("Никто не знает", "Не знаю") в тестах для ${grade} класса по "${subject}".
+    const fillerDesc = batch[0]?.fillerIndices.map(i => `"${batch[0].options[i]}"`).join(', ') || '"не знаю", "нет"';
+    const prompt = `Замени бессмысленные варианты (${fillerDesc}) в тестах для ${grade} класса по "${subject}".
 
 СТРОГИЕ ПРАВИЛА:
 1. Каждый НОВЫЙ вариант УНИКАЛЕН — НЕ ПОВТОРЯТЬ уже существующие варианты
 2. Каждый НОВЫЙ вариант — НЕПРАВИЛЬНЫЙ (правильный уже есть)
 3. Каждый НОВЫЙ вариант тематически связан с вопросом и правдоподобен
-4. ЗАПРЕЩЕНО: "не знаю", "никто не знает", "другой", "-", "затрудняюсь"
+4. ЗАПРЕЩЕНО: "не знаю", "никто не знает", "нет", "Нет", "другой", "-", "затрудняюсь", "запиши"
 5. Все варианты в одном вопросе отличаются друг от друга
 
 ${questionsText}
@@ -386,7 +421,7 @@ async function main() {
   console.log('Initializing ZAI...');
   const zai = await ZAI.create();
   
-  const grades = targetGrade ? [targetGrade] : ['0', '1', '2', '3'];
+  const grades = targetGrade ? [targetGrade] : ['4', '5'];
   let totalFixed = 0;
   
   for (const grade of grades) {

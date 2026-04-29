@@ -545,7 +545,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты умеешь штриховать! ✏️" }
   },
 {
-    title: "Рисование красками",
+    title: "Работа красками 🖌️",
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",

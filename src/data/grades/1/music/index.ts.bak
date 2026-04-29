@@ -193,7 +193,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь народные песни! 🎵" }
   },
   {
-    title: "Ударные инструменты",
+    title: "Музыкальные инструменты 🎹",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -439,7 +439,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь композиторов! 🎼" }
   },
   {
-    title: "Музыка и движение",
+    title: "Музыка и настроение 😊",
     subject: "Музыка",
     icon: "Music",
     color: "text-pink-400",

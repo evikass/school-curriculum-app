@@ -369,7 +369,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Молодец! Ты работаешь безопасно! 👷" }
   },
   {
-    title: "Знакомство с бумагой",
+    title: "Работа с бумагой 📄",
     subject: "Технология",
     icon: "Scissors",
     color: "text-orange-400",

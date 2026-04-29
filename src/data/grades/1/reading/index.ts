@@ -1446,7 +1446,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь предлоги! 📍" }
   },
   {
-    title: "Составь рассказ 📖",
+    title: "Составляем рассказ по картинке",
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",

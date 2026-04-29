@@ -1167,7 +1167,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь числа до 10! 🎉" }
   },
 {
-    title: "Сложение до 10 ➕",
+    title: "Сложение чисел",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1181,7 +1181,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты умеешь складывать! ➕" }
   },
 {
-    title: "Вычитание до 10 ➖",
+    title: "Вычитание чисел",
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",

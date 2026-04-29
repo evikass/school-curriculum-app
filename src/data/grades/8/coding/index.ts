@@ -820,7 +820,7 @@ with open("output.txt", "w") as f:
 
 export const games = [
   {
-    title: "Основы Python",
+    title: "Введение в Python",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-cyan-400",
@@ -903,7 +903,7 @@ export const games = [
     reward: { stars: 3, message: "Ты знаешь типы данных! 📊" }
   },
   {
-    title: "Условия и ветвления",
+    title: "Условные операторы",
     subject: "Основы программирования",
     icon: "GitBranch",
     color: "text-yellow-400",
@@ -950,7 +950,7 @@ export const games = [
     reward: { stars: 3, message: "Ты умеешь создавать условия! 🔀" }
   },
   {
-    title: "Циклы",
+    title: "Цикл for",
     subject: "Основы программирования",
     icon: "Repeat",
     color: "text-purple-400",

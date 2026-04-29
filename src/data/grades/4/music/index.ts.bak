@@ -606,7 +606,7 @@ export const games: GameLesson[] = [
   },
 
   {
-    title: "Пётр Ильич Чайковский",
+    title: "П.И. Чайковский",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -626,7 +626,7 @@ export const games: GameLesson[] = [
   },
 
   {
-    title: "Николай Андреевич Римский-Корсаков",
+    title: "Н.А. Римский-Корсаков",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",

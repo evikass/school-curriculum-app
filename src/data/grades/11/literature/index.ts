@@ -143,7 +143,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Бунин и Куприн",
+    title: "И.А. Бунин",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -158,7 +158,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь Бунина и Куприна! 📚" }
   },
   {
-    title: "Горький и Булгаков",
+    title: "М. Горький",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -173,7 +173,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь Горького и Булгакова! 📖" }
   },
   {
-    title: "Шолохов: Тихий Дон",
+    title: "М.А. Шолохов",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -188,7 +188,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь «Тихий Дон»! 🌾" }
   },
   {
-    title: "Твардовский: Василий Тёркин",
+    title: "А.Т. Твардовский",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -203,7 +203,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь «Василия Тёркина»! ⭐" }
   },
   {
-    title: "Литература о войне",
+    title: "А.Т. Твардовский",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -233,7 +233,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь Солженицына! ✊" }
   },
   {
-    title: "Распутин: Прощание с Матёрой",
+    title: "В.Г. Распутин",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -248,7 +248,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь Распутина! 🏡" }
   },
   {
-    title: "Мастер и Маргарита",
+    title: "М.А. Булгаков",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -293,7 +293,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь теорию литературы! 📚" }
   },
   {
-    title: "Средства выразительности",
+    title: "Теория литературы",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -308,7 +308,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь средства выразительности! 🎨" }
   },
   {
-    title: "ЕГЭ по литературе",
+    title: "Теория литературы",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -323,7 +323,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты готов к ЕГЭ! 🎓" }
   },
   {
-    title: "Русская литература XX века",
+    title: "Теория литературы",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",

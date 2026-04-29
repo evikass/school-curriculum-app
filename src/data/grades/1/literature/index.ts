@@ -921,7 +921,7 @@ export const games = [
     reward: { stars: 3, message: "Молодец! Вместе — сила! 💪" }
   },
 {
-    title: "Стихи А.Л. Барто 📚",
+    title: "А.Л. Барто «Игрушки»",
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",

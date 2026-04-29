@@ -1548,7 +1548,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты готов к собеседованию! 🤝" }
   },
   {
-    title: "Тренировка собеседования",
+    title: "Практика собеседования",
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",

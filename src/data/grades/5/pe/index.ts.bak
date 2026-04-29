@@ -1411,7 +1411,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь физические качества! 💪" }
   },
   {
-    title: "Подвижные игры",
+    title: "⚽ Спортивные игры",
     subject: "Физическая культура",
     icon: "Dumbbell",
     color: "text-orange-400",

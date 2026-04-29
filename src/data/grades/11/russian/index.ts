@@ -143,7 +143,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Орфография",
+    title: "Правописание приставок",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -174,7 +174,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты знаешь пунктуацию! 📝" }
   },
   {
-    title: "Текст и стиль",
+    title: "Стили речи",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -189,7 +189,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты понимаешь текст! 📖" }
   },
   {
-    title: "Культура речи",
+    title: "Нормы литературного языка",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -204,7 +204,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты владеешь культурой речи! 🗣️" }
   },
   {
-    title: "Н и НН в частях речи",
+    title: "Н и НН в разных частях речи",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -220,7 +220,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь правописание Н и НН! 📚" }
   },
   {
-    title: "Приставки ПРЕ- и ПРИ-",
+    title: "Правописание приставок",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -235,7 +235,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты различаешь ПРЕ- и ПРИ-! 🔤" }
   },
   {
-    title: "Спряжения глаголов",
+    title: "Правописание глагольных форм",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -250,7 +250,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь спряжения! 📝" }
   },
   {
-    title: "Сложные предложения",
+    title: "Сложное предложение",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -265,7 +265,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты знаешь сложные предложения! 📖" }
   },
   {
-    title: "Изобразительные средства",
+    title: "Изобразительно-выразительные средства",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -295,7 +295,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь чужую речь! 💬" }
   },
   {
-    title: "Синтаксические фигуры",
+    title: "Изобразительно-выразительные средства",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -310,7 +310,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Супер! Ты владеешь синтаксисом! 📐" }
   },
   {
-    title: "Лексические нормы",
+    title: "Нормы литературного языка",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -340,7 +340,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Ты готов к ЕГЭ! 🎓" }
   },
   {
-    title: "Сочинение-рассуждение",
+    title: "Подготовка к сочинению",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",

@@ -2316,7 +2316,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь культуру древности! 🎨" }
   },
   {
-    title: "Раннее Средневековье: Переселение народов",
+    title: "Раннее Средневековье — Великое переселение народов",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",

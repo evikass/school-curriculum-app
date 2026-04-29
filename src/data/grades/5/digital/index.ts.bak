@@ -856,7 +856,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты безопасен в сети! 🔒" }
   },
   {
-    title: "Создание презентации",
+    title: "Документы и презентации",
     subject: "Цифровая грамотность",
     icon: "Smartphone",
     color: "text-indigo-400",

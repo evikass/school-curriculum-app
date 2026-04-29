@@ -610,7 +610,7 @@ z₁/z₂ = z₁·z̄₂/(|z₂|²)
 
 export const games = [
   {
-    title: "Тригонометрия",
+    title: "Свойства тригонометрических функций",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-indigo-400",
@@ -651,7 +651,7 @@ export const games = [
     reward: { stars: 3, message: "Превосходно! Ты освоил обратные тригонометрические функции! 🎯" }
   },
   {
-    title: "Интегралы",
+    title: "Первообразная и неопределённый интеграл",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-indigo-400",
@@ -770,7 +770,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты решаешь неравенства с модулем! |x|" }
   },
   {
-    title: "Комплексные числа",
+    title: "Комплексные числа и операции",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-indigo-400",

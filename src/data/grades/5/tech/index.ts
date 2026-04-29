@@ -1456,7 +1456,7 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Обработка древесины",
+    title: "Инструменты для обработки древесины",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1469,7 +1469,7 @@ export const games: GameLesson[] = [
     reward: { stars: 3, message: "Отлично! Ты знаешь обработку древесины! 🪵" }
   },
   {
-    title: "Обработка металла",
+    title: "Инструменты для обработки металла",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",

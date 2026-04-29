@@ -1,7 +1,7 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
 const createLesson = (title: string, description: string, tasks: string[], image?: string) => ({
-  title, description, tasks, image, image
+  title, description, tasks, image
 })
 
 export const lessons: SubjectData = {
@@ -19,28 +19,28 @@ export const lessons: SubjectData = {
           "Составить композицию",
           "Оформить коллаж"
         ],
-        "/school-curriculum-app/images/lessons/grade2/projects/lesson1.svg",
+        "/school-curriculum-app/images/lessons/grade2/projects/lesson1.svg"),
         createLesson("Урок 2: Мой питомец", "Проект о домашнем животном.", [
           "Нарисовать питомца",
           "Написать рассказ",
           "Подобрать фотографии",
           "Создать плакат"
         ],
-        "/school-curriculum-app/images/lessons/grade2/projects/lesson2.svg",
+        "/school-curriculum-app/images/lessons/grade2/projects/lesson2.svg"),
         createLesson("Урок 3: Времена года", "Коллаж о природе.", [
           "Выбрать сезон",
           "Найти иллюстрации",
           "Составить описание",
           "Оформить работу"
         ],
-        "/school-curriculum-app/images/lessons/grade2/projects/lesson3.svg",
+        "/school-curriculum-app/images/lessons/grade2/projects/lesson3.svg"),
         createLesson("Урок 4: Мой город", "Проект о родном городе.", [
           "Нарисовать достопримечательности",
           "Написать о городе",
           "Добавить фотографии",
           "Презентовать проект"
         ],
-        "/school-curriculum-app/images/lessons/grade2/projects/lesson4.svg"
+        "/school-curriculum-app/images/lessons/grade2/projects/lesson4.svg")
       ]
     },
     {
@@ -52,28 +52,28 @@ export const lessons: SubjectData = {
           "Сделать зарисовки",
           "Подготовить отчёт"
         ],
-        "/school-curriculum-app/images/lessons/grade2/projects/lesson5.svg",
+        "/school-curriculum-app/images/lessons/grade2/projects/lesson5.svg"),
         createLesson("Урок 6: Погода и природа", "Наблюдение за погодой.", [
           "Записывать температуру",
           "Отмечать осадки",
           "Рисовать облачность",
           "Делать выводы"
         ],
-        "/school-curriculum-app/images/lessons/grade2/projects/lesson6.svg",
+        "/school-curriculum-app/images/lessons/grade2/projects/lesson6.svg"),
         createLesson("Урок 7: Мир животных", "Исследование животных.", [
           "Выбрать животное",
           "Изучить повадки",
           "Собрать информацию",
           "Создать презентацию"
         ],
-        "/school-curriculum-app/images/lessons/grade2/projects/lesson7.svg",
+        "/school-curriculum-app/images/lessons/grade2/projects/lesson7.svg"),
         createLesson("Урок 8: Экологический проект", "Забота о природе.", [
           "Определить проблему",
           "Предложить решение",
           "Выполнить действия",
           "Рассказать о результатах"
         ],
-        "/school-curriculum-app/images/lessons/grade2/projects/lesson8.svg"
+        "/school-curriculum-app/images/lessons/grade2/projects/lesson8.svg")
       ]
     },
     {
@@ -85,28 +85,28 @@ export const lessons: SubjectData = {
           "Подготовить наглядность",
           "Потренироваться выступать"
         ],
-        "/school-curriculum-app/images/lessons/grade2/projects/lesson9.svg",
+        "/school-curriculum-app/images/lessons/grade2/projects/lesson9.svg"),
         createLesson("Урок 10: Наглядные материалы", "Создание плакатов.", [
           "Выбрать содержание",
           "Распределить материал",
           "Оформить плакат",
           "Добавить иллюстрации"
         ],
-        "/school-curriculum-app/images/lessons/grade2/projects/lesson10.svg",
+        "/school-curriculum-app/images/lessons/grade2/projects/lesson10.svg"),
         createLesson("Урок 11: Выступление", "Защита проекта.", [
           "Вступительное слово",
           "Основная часть",
           "Демонстрация работы",
           "Ответы на вопросы"
         ],
-        "/school-curriculum-app/images/lessons/grade2/projects/lesson11.svg",
+        "/school-curriculum-app/images/lessons/grade2/projects/lesson11.svg"),
         createLesson("Урок 12: Анализ проекта", "Подведение итогов.", [
           "Что получилось хорошо",
           "Что можно улучшить",
           "Чему научились",
           "Планы на будущее"
         ],
-        "/school-curriculum-app/images/lessons/grade2/projects/lesson12.svg"
+        "/school-curriculum-app/images/lessons/grade2/projects/lesson12.svg")
       ]
     }
   ]

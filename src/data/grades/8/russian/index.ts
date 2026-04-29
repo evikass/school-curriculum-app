@@ -454,7 +454,7 @@ export const lessons: SubjectData = {
 
 export const games = [
   {
-    title: "Синтаксис предложения",
+    title: "Синтаксис простого предложения",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -480,7 +480,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь пунктуацию! ✍️" }
   },
   {
-    title: "Однородные и обособленные члены",
+    title: "Однородные члены предложения",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -493,7 +493,7 @@ export const games = [
     reward: { stars: 3, message: "Отлично! Ты понимаешь обособление! ✅" }
   },
   {
-    title: "Вводные слова и обращения",
+    title: "Вводные слова и предложения",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -506,7 +506,7 @@ export const games = [
     reward: { stars: 3, message: "Супер! Ты знаешь вводные слова! 💬" }
   },
   {
-    title: "Сложные предложения",
+    title: "Сложное предложение",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
