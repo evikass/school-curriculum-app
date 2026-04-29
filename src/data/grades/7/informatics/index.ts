@@ -1004,7 +1004,7 @@ export const games = [
       { type: 'quiz', question: "Какой тег создаёт навигацию по сайту?", options: ["<menu>", "<nav>", "<link>", "<navigate>", "Ветвление"], correctAnswer: "<nav>", hint: "Navigation" },
       { type: 'quiz', question: "Какой тег используется для основной части контента?", options: ["<body>", "<main>", "<content>", "<section>", "Цикл"], correctAnswer: "<main>", hint: "Основное содержание" },
       { type: 'quiz', question: "Какой тег создаёт подвал сайта?", options: ["<bottom>", "<footer>", "<end>", "<down>", "Условие"], correctAnswer: "<footer>", hint: "Нижняя часть страницы" },
-      { type: 'quiz', question: "Как подключить внешний файл стилей в HTML?", options: ["href=", "<script src=", "<link rel=", "<style src=", "Функция"], correctAnswer: "<link rel='stylesheet' href='...'>", hint: "Тег link в разделе head" }
+      { type: 'quiz', question: "Как подключить внешний файл стилей в HTML?", options: ["<link rel='stylesheet' href='...'>", "<script src='style.css'>", "<style src='style.css'>", "<css href='style.css'>", "<import style='style.css'>"], correctAnswer: "<link rel='stylesheet' href='...'>", hint: "Тег link в разделе head" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь создавать сайты! 📄" }
   },

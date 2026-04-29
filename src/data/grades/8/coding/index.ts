@@ -828,14 +828,14 @@ export const games = [
       { 
         type: 'quiz', 
         question: 'Какая функция выводит текст на экран?', 
-        options: ['input()', 'print()', 'output()', 'display()', 'Другой ответ'], 
+        options: ['input()', 'print()', 'output()', 'display()', 'Синтаксис'], 
         correctAnswer: 'print()', 
         hint: 'Функция названа по аналогии с печатью' 
       },
       { 
         type: 'quiz', 
         question: 'Какой оператор используется для целочисленного деления?', 
-        options: ['/', '//', '%', '**', 'Другой ответ'], 
+        options: ['/', '//', '%', '**', 'Семантика'], 
         correctAnswer: '//', 
         hint: 'Это два символа обычного деления' 
       },
@@ -865,7 +865,7 @@ export const games = [
       { 
         type: 'quiz', 
         question: 'Какой тип данных у переменной x = 3.14?', 
-        options: ['int', 'float', 'str', 'bool', 'Другой ответ'],
+        options: ['int', 'float', 'str', 'bool', 'Лексема'],
         keyPoints: [
           "Типы данных в Python: int (целые), float (дробные), str (строки), bool (логические)",
           "type() определяет тип переменной",
@@ -888,7 +888,7 @@ export const games = [
       { 
         type: 'quiz', 
         question: 'Что вернёт type("Hello")?', 
-        options: ['<class str>', '<class string>', '<class text>', '<class char>', 'Другой ответ'], 
+        options: ['<class str>', '<class string>', '<class text>', '<class char>', 'Токен'], 
         correctAnswer: '<class str>', 
         hint: 'Строковый тип в Python называется str' 
       },
@@ -911,7 +911,7 @@ export const games = [
       { 
         type: 'quiz', 
         question: 'Какой оператор проверяет равенство в Python?', 
-        options: ['=', '==', '===', '!=', 'Другой ответ'],
+        options: ['=', '==', '===', '!=', 'Идентификатор'],
         keyPoints: [
           "Условный оператор (if/else) позволяет программе выбирать действие",
           "Операторы сравнения: ==, !=, >, <, >=, <=",
@@ -935,7 +935,7 @@ export const games = [
       { 
         type: 'quiz', 
         question: 'Что выведет: x = 5; print(x > 3 and x < 10)?', 
-        options: ['True', 'False', '5', 'Ошибка', 'Другой ответ'], 
+        options: ['True', 'False', '5', 'Ошибка', 'Литерал'], 
         correctAnswer: 'True', 
         hint: '5 > 3 И 5 < 10 — оба условия истинны' 
       },
@@ -958,7 +958,7 @@ export const games = [
       { 
         type: 'quiz', 
         question: 'Какой цикл выполняется, пока условие истинно?', 
-        options: ['for', 'while', 'if', 'loop', 'Другой ответ'], 
+        options: ['for', 'while', 'if', 'loop', 'Оператор'], 
         correctAnswer: 'while', 
         hint: 'Название цикла переводится как "пока"' 
       },
@@ -972,7 +972,7 @@ export const games = [
       { 
         type: 'quiz', 
         question: 'Что выведет: for i in range(3): print(i)?', 
-        options: ['0 1 2', '1 2 3', '0 1 2 3', '1 2', 'Другой ответ'], 
+        options: ['0 1 2', '1 2 3', '0 1 2 3', '1 2', 'Операнд'], 
         correctAnswer: '0 1 2', 
         hint: 'range(3) создаёт числа от 0 до 2' 
       },
@@ -995,7 +995,7 @@ export const games = [
       { 
         type: 'quiz', 
         question: 'Какой индекс у первого элемента списка?', 
-        options: ['0', '1', '-1', 'first', 'Другой ответ'], 
+        options: ['0', '1', '-1', 'first', 'Выражение'], 
         correctAnswer: '0', 
         hint: 'В Python нумерация начинается с нуля' 
       },
@@ -1009,7 +1009,7 @@ export const games = [
       { 
         type: 'quiz', 
         question: 'Что делает s[::-1] для строки s?', 
-        options: ['Удаляет символы', 'Разворачивает строку', 'Дублирует строку', 'Ошибка', 'Другой ответ'], 
+        options: ['Удаляет символы', 'Разворачивает строку', 'Дублирует строку', 'Ошибка', 'Условие'], 
         correctAnswer: 'Разворачивает строку', 
         hint: 'Отрицательный шаг идёт в обратном направлении' 
       },
@@ -1032,7 +1032,7 @@ export const games = [
       { 
         type: 'quiz', 
         question: 'Какое ключевое слово объявляет функцию?', 
-        options: ['function', 'func', 'def', 'define', 'Другой ответ'], 
+        options: ['function', 'func', 'def', 'define', 'Цикл'], 
         correctAnswer: 'def', 
         hint: 'Сокращение от define (определить)' 
       },
@@ -1046,7 +1046,7 @@ export const games = [
       { 
         type: 'quiz', 
         question: 'Что вернёт функция без return?', 
-        options: ['0', 'None', 'Пустую строку', 'Ошибка', 'Другой ответ'], 
+        options: ['0', 'None', 'Пустую строку', 'Ошибка', 'Функция'], 
         correctAnswer: 'None', 
         hint: 'Если нет return, функция возвращает None' 
       },

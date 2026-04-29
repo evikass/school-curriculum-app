@@ -826,7 +826,7 @@ export const games = [
         "To be from / To come from for talking about origin",
       ], correctAnswer: "Japanese", hint: "People from Japan" },
       { type: 'quiz', question: "What is the capital of France?", options: ["London", "Berlin", "Paris", "Rome", "Future Simple"], correctAnswer: "Paris", hint: "City of Light" },
-      { type: 'quiz', question: "Complete: '___ the USA' (country with 'the')?", options: ["Present Continuous", "Both are correct", "m from the", "I", "Neither"], correctAnswer: "I'm from the", hint: "Use 'the' with 'States'" },
+      { type: 'quiz', question: "Complete: '___ the USA' (country with 'the')?", options: ["Present Continuous", "Both are correct", "I'm from the", "The USA", "Neither"], correctAnswer: "I'm from the", hint: "Use 'the' with 'States'" },
       { type: 'quiz', question: "How do you ask about origin?", options: ["Where are you go?", "Where are you from?", "Where do you from?", "Where you from are?", "Past Continuous"], correctAnswer: "Where are you from?", hint: "be + from" },
       { type: 'quiz', question: "What nationality is from Germany?", options: ["German", "Germany", "Germanian", "Germish", "Noun"], correctAnswer: "German", hint: "People from Germany" }
     ],

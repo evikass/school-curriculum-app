@@ -1019,7 +1019,7 @@ export const games = [
     color: "text-blue-400",
     tasks: [
       { type: 'quiz', question: 'Какой принцип лежит в основе динамического программирования?', options: ['Принцип жадности', 'Принцип оптимальности Беллмана', 'Принцип деления пополам', 'Принцип рекурсии', 'Backtracking'], correctAnswer: 'Принцип оптимальности Беллмана', hint: 'Этот принцип говорит, что оптимальное решение содержит оптимальные решения подзадач' },
-      { type: 'quiz', question: 'Что такое мемоизация?', options: ['Удаление памяти', 'Запоминание результатов подзадач', 'Сортировка данных', 'Сжатие информации', 'Другой ответ'], correctAnswer: 'Запоминание результатов подзадач', hint: 'Мемоизация avoids повторных вычислений' },
+      { type: 'quiz', question: 'Что такое мемоизация?', options: ['Удаление памяти', 'Запоминание результатов подзадач', 'Сортировка данных', 'Сжатие информации', 'Оператор'], correctAnswer: 'Запоминание результатов подзадач', hint: 'Мемоизация avoids повторных вычислений' },
       { type: 'find', question: 'Выбери классические задачи динамического программирования:', options: ['Числа Фибоначчи', 'Быстрая сортировка', 'Задача о рюкзаке', 'Бинарный поиск', 'Редакционное расстояние'], correctAnswer: ['Числа Фибоначчи', 'Задача о рюкзаке', 'Редакционное расстояние'], hint: 'Это задачи, эффективно решаемые методом ДП' },
       { type: 'quiz', question: 'Динамическое программирование снижает сложность с экспоненциальной до какой?', options: ["Кубической", "Константной", "Квадратичной", "Полиномиальной", "Логарифмической"], correctAnswer: 'Полиномиальной', hint: 'Это значительное улучшение эффективности' }
     ],
@@ -1071,7 +1071,7 @@ export const games = [
     color: "text-purple-400",
     tasks: [
       { type: 'quiz', question: 'Что такое чистая функция?', options: ['Функция без аргументов', 'Функция без побочных эффектов', 'Функция с одним аргументом', 'Функция, возвращающая число', 'Каррирование'], correctAnswer: 'Функция без побочных эффектов', hint: 'Чистая функция всегда возвращает одинаковый результат для одинаковых входов' },
-      { type: 'quiz', question: 'Что означает иммутабельность?', options: ['Изменяемость данных', 'Неизменяемость данных', 'Удаление данных', 'Копирование данных', 'Другой ответ'], correctAnswer: 'Неизменяемость данных', hint: 'Иммутабельные данные нельзя изменить после создания' },
+      { type: 'quiz', question: 'Что означает иммутабельность?', options: ['Изменяемость данных', 'Неизменяемость данных', 'Удаление данных', 'Копирование данных', 'Операнд'], correctAnswer: 'Неизменяемость данных', hint: 'Иммутабельные данные нельзя изменить после создания' },
       { type: 'find', question: 'Выбери функции высшего порядка:', options: ['map', 'filter', 'reduce', 'print', 'input', 'len'], correctAnswer: ['map', 'filter', 'reduce'], hint: 'Они принимают или возвращают функции' },
       { type: 'quiz', question: 'Как называются анонимные функции в функциональном программировании?', options: ["Стрелочные функции", "Лямбда-выражения", "Генераторы", "Итераторы", "Коллбеки"], correctAnswer: 'Лямбда-выражения', hint: 'Они записываются без имени' }
     ],
@@ -1096,7 +1096,7 @@ export const games = [
     icon: "RefreshCw",
     color: "text-teal-400",
     tasks: [
-      { type: 'quiz', question: 'Что делает yield в Python?', options: ['Возвращает значение и завершает функцию', 'Возвращает значение и приостанавливает функцию', 'Удаляет переменную', 'Создаёт класс', 'Другой ответ'], correctAnswer: 'Возвращает значение и приостанавливает функцию', hint: 'yield превращает функцию в генератор' },
+      { type: 'quiz', question: 'Что делает yield в Python?', options: ['Возвращает значение и завершает функцию', 'Возвращает значение и приостанавливает функцию', 'Удаляет переменную', 'Создаёт класс', 'Выражение'], correctAnswer: 'Возвращает значение и приостанавливает функцию', hint: 'yield превращает функцию в генератор' },
       { type: 'quiz', question: 'Какой протокол должен реализовать итератор?', options: ['__iter__ и __next__', '__call__ и __return__', '__init__ и __del__', '__str__ и __repr__', 'SMTP'], correctAnswer: '__iter__ и __next__', hint: 'Эти методы определяют протокол итератора' },
       { type: 'find', question: 'Выбери преимущества генераторов:', options: ['Экономия памяти', 'Ленивые вычисления', 'Быстрый случайный доступ', 'Обработка бесконечных последовательностей', 'Простота индексации'], correctAnswer: ['Экономия памяти', 'Ленивые вычисления', 'Обработка бесконечных последовательностей'], hint: 'Генераторы эффективны для больших данных' },
       { type: 'quiz', question: 'Генераторы используют какие вычисления — элементы генерируются по требованию?', options: ["Ленивые", "Параллельные", "Рекурсивные", "Жадные", "Итеративные"], correctAnswer: 'Ленивые', hint: 'Элементы не вычисляются заранее' }
@@ -1110,7 +1110,7 @@ export const games = [
     color: "text-yellow-400",
     tasks: [
       { type: 'quiz', question: 'Какое ключевое слово создаёт асинхронную функцию?', options: ['await', 'async', 'yield', 'lambda', 'Каррирование'], correctAnswer: 'async', hint: 'async объявляет корутину' },
-      { type: 'quiz', question: 'Что такое event loop?', options: ['Цикл событий', 'Бесконечный цикл', 'Ошибка программы', 'Тип данных', 'Другой ответ'], correctAnswer: 'Цикл событий', hint: 'Event loop управляет выполнением асинхронных задач' },
+      { type: 'quiz', question: 'Что такое event loop?', options: ['Цикл событий', 'Бесконечный цикл', 'Ошибка программы', 'Тип данных', 'Условие'], correctAnswer: 'Цикл событий', hint: 'Event loop управляет выполнением асинхронных задач' },
       { type: 'find', question: 'Выбери преимущества асинхронного программирования:', options: ['Эффективность для I/O', 'Простота отладки', 'Масштабируемость', 'Быстрота CPU-задач', 'Низкие накладные расходы'], correctAnswer: ['Эффективность для I/O', 'Масштабируемость', 'Низкие накладные расходы'], hint: 'Асинхронность хороша для операций ввода-вывода' },
       { type: 'quiz', question: 'Какое ключевое слово приостанавливает корутину до завершения ожидаемой операции?', options: ["await", "break", "return", "async", "continue"], correctAnswer: 'await', hint: 'await ожидает результата асинхронной операции' }
     ],
@@ -1122,8 +1122,8 @@ export const games = [
     icon: "Database",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: 'Что такое первичный ключ?', options: ['Первый столбец таблицы', 'Уникальный идентификатор строки', 'Имя таблицы', 'Тип данных', 'Другой ответ'], correctAnswer: 'Уникальный идентификатор строки', hint: 'Первичный ключ однозначно идентифицирует каждую запись' },
-      { type: 'quiz', question: 'Что такое нормализация базы данных?', options: ['Увеличение размера БД', 'Устранение избыточности данных', 'Создание копий', 'Удаление таблиц', 'Другой ответ'], correctAnswer: 'Устранение избыточности данных', hint: 'Нормализация улучшает структуру БД' },
+      { type: 'quiz', question: 'Что такое первичный ключ?', options: ['Первый столбец таблицы', 'Уникальный идентификатор строки', 'Имя таблицы', 'Тип данных', 'Цикл'], correctAnswer: 'Уникальный идентификатор строки', hint: 'Первичный ключ однозначно идентифицирует каждую запись' },
+      { type: 'quiz', question: 'Что такое нормализация базы данных?', options: ['Увеличение размера БД', 'Устранение избыточности данных', 'Создание копий', 'Удаление таблиц', 'Функция'], correctAnswer: 'Устранение избыточности данных', hint: 'Нормализация улучшает структуру БД' },
       { type: 'find', question: 'Выбери типы JOIN:', options: ['INNER JOIN', 'LEFT JOIN', 'FAST JOIN', 'RIGHT JOIN', 'SUPER JOIN'], correctAnswer: ['INNER JOIN', 'LEFT JOIN', 'RIGHT JOIN'], hint: 'Это основные типы объединения таблиц' },
       { type: 'quiz', question: 'Какой ключ — это ссылка на первичный ключ другой таблицы?', options: ["Суррогатный", "Уникальный", "Вторичный", "Индексный", "Внешний"], correctAnswer: 'Внешний', hint: 'Внешний ключ создаёт связь между таблицами' }
     ],
@@ -1135,8 +1135,8 @@ export const games = [
     icon: "FileCode",
     color: "text-blue-400",
     tasks: [
-      { type: 'quiz', question: 'Для чего используется GROUP BY?', options: ['Сортировка данных', 'Группировка строк', 'Удаление дубликатов', 'Создание таблиц', 'Другой ответ'], correctAnswer: 'Группировка строк', hint: 'GROUP BY группирует строки с одинаковыми значениями' },
-      { type: 'quiz', question: 'Чем HAVING отличается от WHERE?', options: ['HAVING быстрее', 'HAVING фильтрует группы, WHERE — строки', 'Они одинаковы', 'WHERE фильтрует группы', 'Другой ответ'], correctAnswer: 'HAVING фильтрует группы, WHERE — строки', hint: 'HAVING применяется после GROUP BY' },
+      { type: 'quiz', question: 'Для чего используется GROUP BY?', options: ['Сортировка данных', 'Группировка строк', 'Удаление дубликатов', 'Создание таблиц', 'Процедура'], correctAnswer: 'Группировка строк', hint: 'GROUP BY группирует строки с одинаковыми значениями' },
+      { type: 'quiz', question: 'Чем HAVING отличается от WHERE?', options: ['HAVING быстрее', 'HAVING фильтрует группы, WHERE — строки', 'Они одинаковы', 'WHERE фильтрует группы', 'Модуль'], correctAnswer: 'HAVING фильтрует группы, WHERE — строки', hint: 'HAVING применяется после GROUP BY' },
       { type: 'find', question: 'Выбери агрегатные функции SQL:', options: ['COUNT', 'SORT', 'SUM', 'FILTER', 'AVG', 'MAX'], correctAnswer: ['COUNT', 'SUM', 'AVG', 'MAX'], hint: 'Агрегатные функции вычисляют значения по группам' },
       { type: 'quiz', question: 'Какое четвёртое свойство транзакций ACID: атомарность, согласованность, изолированность, ...?', options: ["Целостность", "Надёжность", "Согласованность", "Доступность", "Долговечность"], correctAnswer: 'Долговечность', hint: 'ACID — Atomicity, Consistency, Isolation, Durability' }
     ],
@@ -1201,7 +1201,7 @@ export const games = [
     color: "text-amber-400",
     tasks: [
       { type: 'quiz', question: 'Какой HTTP-метод используется для создания ресурса?', options: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'], correctAnswer: 'POST', hint: 'POST создаёт новый ресурс' },
-      { type: 'quiz', question: 'Что означает статус-код 404?', options: ['Успех', 'Перенаправление', 'Не найдено', 'Ошибка сервера', 'Другой ответ'], correctAnswer: 'Не найдено', hint: '404 — ресурс не существует' },
+      { type: 'quiz', question: 'Что означает статус-код 404?', options: ['Успех', 'Перенаправление', 'Не найдено', 'Ошибка сервера', 'Библиотека'], correctAnswer: 'Не найдено', hint: '404 — ресурс не существует' },
       { type: 'find', question: 'Выбери HTTP-методы:', options: ['GET', 'POST', 'SEND', 'DELETE', 'FETCH'], correctAnswer: ['GET', 'POST', 'DELETE'], hint: 'Это основные HTTP-методы' },
       { type: 'quiz', question: 'REST — это какой стиль для веб-сервисов?', options: ["Функциональный", "Объектный", "Архитектурный", "Модульный", "Процедурный"], correctAnswer: 'Архитектурный', hint: 'REST определяет принципы проектирования API' }
     ],
@@ -1214,7 +1214,7 @@ export const games = [
     color: "text-green-400",
     tasks: [
       { type: 'quiz', question: 'Что означает MVT в Django?', options: ['Model-View-Template', 'Model-View-Controller', 'Module-View-Template', 'Model-Value-Template', 'Controller'], correctAnswer: 'Model-View-Template', hint: 'MVT — архитектура Django' },
-      { type: 'quiz', question: 'В каком файле определяется маршрутизация?', options: ['models.py', 'views.py', 'urls.py', 'settings.py', 'Другой ответ'], correctAnswer: 'urls.py', hint: 'urls.py связывает URL с представлениями' },
+      { type: 'quiz', question: 'В каком файле определяется маршрутизация?', options: ['models.py', 'views.py', 'urls.py', 'settings.py', 'Класс'], correctAnswer: 'urls.py', hint: 'urls.py связывает URL с представлениями' },
       { type: 'find', question: 'Выбери компоненты Django:', options: ['ORM', 'Админка', 'Компилятор', 'Шаблоны', 'Интерпретатор'], correctAnswer: ['ORM', 'Админка', 'Шаблоны'], hint: 'Это встроенные возможности Django' },
       { type: 'quiz', question: 'Что автоматически генерирует интерфейс управления данными в Django?', options: ["Views", "Формы", "Админка", "Миграции", "Shell"], correctAnswer: 'Админка', hint: 'Django admin — готовый интерфейс CRUD' }
     ],
@@ -1265,7 +1265,7 @@ export const games = [
     icon: "CircleDot",
     color: "text-teal-400",
     tasks: [
-      { type: 'quiz', question: 'Нужны ли метки для кластеризации?', options: ['Да', 'Нет', 'Иногда', 'Зависит от алгоритма', 'Mean-shift'], correctAnswer: 'Нет', hint: 'Кластеризация — обучение без учителя' },
+      { type: 'quiz', question: 'Нужны ли метки для кластеризации?', options: ['Да', 'Нет', 'Объект', 'Зависит от алгоритма', 'Mean-shift'], correctAnswer: 'Нет', hint: 'Кластеризация — обучение без учителя' },
       { type: 'quiz', question: 'Какой алгоритм разбивает на K кластеров?', options: ['DBSCAN', 'K-means', 'Random Forest', 'SVM', 'Генетический'], correctAnswer: 'K-means', hint: 'K-means делит данные на K групп' },
       { type: 'find', question: 'Выбери алгоритмы кластеризации:', options: ['K-means', 'DBSCAN', 'Logistic Regression', 'Иерархическая', 'Linear Regression'], correctAnswer: ['K-means', 'DBSCAN', 'Иерархическая'], hint: 'Это алгоритмы кластеризации' },
       { type: 'quiz', question: 'Какой метод помогает выбрать число кластеров?', options: ["Колена", "Плато", "Локтя", "Склона", "Пика"], correctAnswer: 'Локтя', hint: 'График инерции показывает оптимальное K' }
@@ -1317,7 +1317,7 @@ export const games = [
     icon: "Lock",
     color: "text-green-400",
     tasks: [
-      { type: 'quiz', question: 'Какой протокол шифрует HTTPS-трафик?', options: ['HTTP', 'FTP', 'TLS', 'SMTP', 'SMTP'], correctAnswer: 'TLS', hint: 'TLS/SSL обеспечивает шифрование' },
+      { type: 'quiz', question: 'Какой протокол шифрует HTTPS-трафик?', options: ['HTTP', 'FTP', 'TLS', 'SMTP', 'DNS'], correctAnswer: 'TLS', hint: 'TLS/SSL обеспечивает шифрование' },
       { type: 'quiz', question: 'Что подтверждает цифровой сертификат?', options: ['Скорость соединения', 'Подлинность сервера', 'Размер данных', 'Формат файлов', 'Wildcard'], correctAnswer: 'Подлинность сервера', hint: 'Сертификат доказывает, кто вы' },
       { type: 'find', question: 'Выбери компоненты HTTPS:', options: ['Сертификат', 'CA', 'Шифрование', 'Компрессия', 'Кэширование'], correctAnswer: ['Сертификат', 'CA', 'Шифрование'], hint: 'Это компоненты безопасного соединения' },
       { type: 'quiz', question: 'Какие сертификаты выдаёт Let\'s Encrypt?', options: ["Бесплатные", "Платные", "Корпоративные", "Премиум", "Временные"], correctAnswer: 'Бесплатные', hint: 'Let\'s Encrypt — бесплатный CA' }
@@ -1331,7 +1331,7 @@ export const games = [
     color: "text-indigo-400",
     tasks: [
       { type: 'quiz', question: 'Что означает S в SOLID?', options: ['Simple', 'Single Responsibility', 'Secure', 'Static', 'Simple Interface'], correctAnswer: 'Single Responsibility', hint: 'Один класс — одна ответственность' },
-      { type: 'quiz', question: 'Какой принцип говорит о закрытости для модификации?', options: ['Single Responsibility', 'Open/Closed', 'Liskov Substitution', 'Dependency Inversion', 'Другой ответ'], correctAnswer: 'Open/Closed', hint: 'Открыт для расширения, закрыт для изменения' },
+      { type: 'quiz', question: 'Какой принцип говорит о закрытости для модификации?', options: ['Single Responsibility', 'Open/Closed', 'Liskov Substitution', 'Dependency Inversion', 'Метод'], correctAnswer: 'Open/Closed', hint: 'Открыт для расширения, закрыт для изменения' },
       { type: 'find', question: 'Выбери принципы SOLID:', options: ['Single Responsibility', 'Open/Closed', 'Simple Code', 'Interface Segregation', 'Dependency Inversion'], correctAnswer: ['Single Responsibility', 'Open/Closed', 'Interface Segregation', 'Dependency Inversion'], hint: 'SOLID — 5 принципов' },
       { type: 'quiz', question: 'D в SOLID означает Dependency что?', options: ["Implementation", "Injection", "Inheritance", "Inversion", "Integration"], correctAnswer: 'Inversion', hint: 'Зависимость от абстракций' }
     ],
@@ -1357,7 +1357,7 @@ export const games = [
     color: "text-cyan-400",
     tasks: [
       { type: 'quiz', question: 'Что такое микросервис?', options: ['Большое приложение', 'Маленький независимый сервис', 'База данных', 'Фронтенд', 'Service Mesh'], correctAnswer: 'Маленький независимый сервис', hint: 'Микросервис отвечает за одну функцию' },
-      { type: 'quiz', question: 'Что такое API Gateway?', options: ['База данных', 'Единая точка входа', 'Кэш', 'Мониторинг', 'Другой ответ'], correctAnswer: 'Единая точка входа', hint: 'Gateway маршрутизирует запросы' },
+      { type: 'quiz', question: 'Что такое API Gateway?', options: ['База данных', 'Единая точка входа', 'Кэш', 'Мониторинг', 'Свойство'], correctAnswer: 'Единая точка входа', hint: 'Gateway маршрутизирует запросы' },
       { type: 'find', question: 'Выбери преимущества микросервисов:', options: ['Независимый деплой', 'Масштабируемость', 'Простота', 'Изоляция сбоев', 'Единая база данных'], correctAnswer: ['Независимый деплой', 'Масштабируемость', 'Изоляция сбоев'], hint: 'Это плюсы микросервисов' },
       { type: 'quiz', question: 'Что используется для оркестрации контейнеров?', options: ["Vagrant", "Docker", "Kubernetes", "Jenkins", "Ansible"], correctAnswer: 'Kubernetes', hint: 'Kubernetes управляет контейнерами' }
     ],
@@ -1383,7 +1383,7 @@ export const games = [
     color: "text-blue-400",
     tasks: [
       { type: 'quiz', question: 'Что такое функциональные требования?', options: ['Как система работает', 'Что система делает', 'Сколько стоит', 'Кто разрабатывает', 'Каррирование'], correctAnswer: 'Что система делает', hint: 'Функциональные требования описывают функции' },
-      { type: 'quiz', question: 'Какая диаграмма показывает структуру БД?', options: ['UML', 'ERD', 'Flowchart', 'Mind map', 'Другой ответ'], correctAnswer: 'ERD', hint: 'ERD — Entity-Relationship Diagram' },
+      { type: 'quiz', question: 'Какая диаграмма показывает структуру БД?', options: ['UML', 'ERD', 'Flowchart', 'Mind map', 'Исключение'], correctAnswer: 'ERD', hint: 'ERD — Entity-Relationship Diagram' },
       { type: 'find', question: 'Выбери этапы проектирования:', options: ['Сбор требований', 'Написание кода', 'Выбор стека', 'Тестирование', 'Проектирование архитектуры'], correctAnswer: ['Сбор требований', 'Выбор стека', 'Проектирование архитектуры'], hint: 'Это этапы проектирования' },
       { type: 'quiz', question: 'Техническое что описывает требования к проекту?', options: ["Условие", "Задание", "Решение", "Соглашение", "Описание"], correctAnswer: 'Задание', hint: 'ТЗ документирует требования' }
     ],
@@ -1396,7 +1396,7 @@ export const games = [
     color: "text-pink-400",
     tasks: [
       { type: 'quiz', question: 'Что такое MVP?', options: ['Максимальный продукт', 'Минимальный жизнеспособный продукт', 'Мобильная версия', 'Мультиплатформенный продукт', 'Maximum Viable Product'], correctAnswer: 'Минимальный жизнеспособный продукт', hint: 'MVP содержит только ключевую функциональность' },
-      { type: 'quiz', question: 'Что такое TDD?', options: ['Test-Driven Development', 'Total Design Document', 'Technical Data Definition', 'Target Development Design', 'Другой ответ'], correctAnswer: 'Test-Driven Development', hint: 'TDD — сначала тесты, потом код' },
+      { type: 'quiz', question: 'Что такое TDD?', options: ['Test-Driven Development', 'Total Design Document', 'Technical Data Definition', 'Target Development Design', 'Синтаксис'], correctAnswer: 'Test-Driven Development', hint: 'TDD — сначала тесты, потом код' },
       { type: 'find', question: 'Выбери принципы MVP:', options: ['Фокус на главном', 'Максимум функций', 'Быстрая обратная связь', 'Итеративность', 'Идеальное качество'], correctAnswer: ['Фокус на главном', 'Быстрая обратная связь', 'Итеративность'], hint: 'Это принципы MVP' },
       { type: 'quiz', question: 'Как называется улучшение структуры кода без изменения поведения?', options: ["Дебаггинг", "Оптимизация", "Комментирование", "Рефакторинг", "Документирование"], correctAnswer: 'Рефакторинг', hint: 'Рефакторинг очищает код' }
     ],

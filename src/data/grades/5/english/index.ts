@@ -2324,10 +2324,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «Как тебя зовут?»", options: ["How old are you?", "What is your name?", "Where are you from?", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "What is your name?", hint: "Name = имя" },
-      { type: 'quiz', question: "Как ответить на «How are you?»?", options: ["I am 12", "I am fine", "I am from Russia", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "I am fine", hint: "Fine = хорошо" },
+      { type: 'quiz', question: "Как сказать «Как тебя зовут?»", options: ["How old are you?", "What is your name?", "Where are you from?", "What is your job?", "How are you?"], correctAnswer: "What is your name?", hint: "Name = имя" },
+      { type: 'quiz', question: "Как ответить на «How are you?»?", options: ["I am 12", "I am fine", "I am from Russia", "I am sorry", "I am happy"], correctAnswer: "I am fine", hint: "Fine = хорошо" },
       { type: 'find', question: "Выбери фразы приветствия:", options: ["Hello", "Goodbye", "Hi", "Good night", "Good morning", "See you"], correctAnswer: ["Hello", "Hi", "Good morning"], hint: "Hello, Hi, Good morning = приветствие" },
-      { type: 'quiz', question: "Nice to meet you = ?", options: ["До свидания", "Приятно познакомиться", "Как дела", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Приятно познакомиться", hint: "Meet = встречать, знакомиться" }
+      { type: 'quiz', question: "Nice to meet you = ?", options: ["До свидания", "Приятно познакомиться", "Как дела", "Доброе утро", "До встречи"], correctAnswer: "Приятно познакомиться", hint: "Meet = встречать, знакомиться" }
     ],
     reward: { stars: 3, message: "Great! Ты умеешь знакомиться! 👋" }
   },
@@ -2337,10 +2337,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «солнечно»?", options: ["Rainy", "Sunny", "Cloudy", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Sunny", hint: "Sun = солнце" },
+      { type: 'quiz', question: "Как сказать «солнечно»?", options: ["Rainy", "Sunny", "Cloudy", "Snowy", "Windy"], correctAnswer: "Sunny", hint: "Sun = солнце" },
       { type: 'find', question: "Выбери названия времён года:", options: ["Monday", "Winter", "Spring", "January", "Summer", "Autumn"], correctAnswer: ["Winter", "Spring", "Summer", "Autumn"], hint: "Seasons = времена года" },
-      { type: 'quiz', question: "What's the weather like? = ?", options: ["Который час?", "Какая погода?", "Как дела?", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Какая погода?", hint: "Weather = погода" },
-      { type: 'quiz', question: "Какая погода: It's raining?", options: ["Солнечно", "Дождливо", "Снежно", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Дождливо", hint: "Rain = дождь" }
+      { type: 'quiz', question: "What's the weather like? = ?", options: ["Который час?", "Какая погода?", "Как дела?", "Где ты живёшь?", "Сколько тебе лет?"], correctAnswer: "Какая погода?", hint: "Weather = погода" },
+      { type: 'quiz', question: "Какая погода: It's raining?", options: ["Солнечно", "Дождливо", "Снежно", "Ветрено", "Туманно"], correctAnswer: "Дождливо", hint: "Rain = дождь" }
     ],
     reward: { stars: 3, message: "Excellent! Ты говоришь о погоде! ☀️" }
   },
@@ -2350,10 +2350,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Mother - это?", options: ["Папа", "Мама", "Бабушка", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Мама", hint: "Mother = мама" },
+      { type: 'quiz', question: "Mother - это?", options: ["Папа", "Мама", "Бабушка", "Сестра", "Дядя"], correctAnswer: "Мама", hint: "Mother = мама" },
       { type: 'find', question: "Выбери названия комнат:", options: ["Kitchen", "Car", "Bedroom", "Garden", "Bathroom", "Living room"], correctAnswer: ["Kitchen", "Bedroom", "Bathroom", "Living room"], hint: "Rooms = комнаты" },
-      { type: 'quiz', question: "Как будет «семья»?", options: ["Friend", "Family", "House", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Family", hint: "Family = семья" },
-      { type: 'quiz', question: "Sister - это?", options: ["Сестра", "Брат", "Тётя", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Сестра", hint: "Sister = сестра" }
+      { type: 'quiz', question: "Как будет «семья»?", options: ["Friend", "Family", "House", "School", "Teacher"], correctAnswer: "Family", hint: "Family = семья" },
+      { type: 'quiz', question: "Sister - это?", options: ["Сестра", "Брат", "Тётя", "Дядя", "Кузина"], correctAnswer: "Сестра", hint: "Sister = сестра" }
     ],
     reward: { stars: 3, message: "Wonderful! Ты говоришь о семье! 🏠" }
   },
@@ -2363,10 +2363,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Когда используем Present Simple?", options: ["Для регулярных действий", "Для действий сейчас", "Для прошлого", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Для регулярных действий", hint: "Present Simple: I play tennis every day" },
-      { type: 'quiz', question: "Когда используем Present Continuous?", options: ["Для регулярных действий", "Для действий в данный момент", "Для будущего", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Для действий в данный момент", hint: "Present Continuous: I am playing now" },
+      { type: 'quiz', question: "Когда используем Present Simple?", options: ["Для регулярных действий", "Для действий сейчас", "Для прошлого", "Для будущего", "Для завершённых действий"], correctAnswer: "Для регулярных действий", hint: "Present Simple: I play tennis every day" },
+      { type: 'quiz', question: "Когда используем Present Continuous?", options: ["Для регулярных действий", "Для действий в данный момент", "Для будущего", "Для прошлого", "Для завершённых действий"], correctAnswer: "Для действий в данный момент", hint: "Present Continuous: I am playing now" },
       { type: 'find', question: "Выбери предложения в Present Continuous:", options: ["I am reading now", "She reads every day", "They are playing", "He works here", "We are watching TV"], correctAnswer: ["I am reading now", "They are playing", "We are watching TV"], hint: "Present Continuous = am/is/are + verb-ing" },
-      { type: 'quiz', question: "I ___ to school every day. (go)", options: ["am going", "go", "went", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "go", hint: "Present Simple для регулярных действий" }
+      { type: 'quiz', question: "I ___ to school every day. (go)", options: ["am going", "go", "went", "will go", "have gone"], correctAnswer: "go", hint: "Present Simple для регулярных действий" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь времена! ⏰" }
   },
@@ -2376,10 +2376,10 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Go в прошедшем времени = ?", options: ["goed", "went", "gone", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "went", hint: "Go - неправильный глагол: went" },
-      { type: 'quiz', question: "Play в прошедшем времени = ?", options: ["played", "plaied", "playd", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "played", hint: "Play - правильный глагол + ed" },
+      { type: 'quiz', question: "Go в прошедшем времени = ?", options: ["goed", "went", "gone", "going", "goes"], correctAnswer: "went", hint: "Go - неправильный глагол: went" },
+      { type: 'quiz', question: "Play в прошедшем времени = ?", options: ["played", "plaied", "playd", "playing", "plays"], correctAnswer: "played", hint: "Play - правильный глагол + ed" },
       { type: 'find', question: "Выбери глаголы в Past Simple:", options: ["Went", "Go", "Played", "Eat", "Visited", "See"], correctAnswer: ["Went", "Played", "Visited"], hint: "Past Simple = прошедшее время" },
-      { type: 'quiz', question: "I ___ to the cinema yesterday.", options: ["go", "went", "am going", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "went", hint: "Yesterday = вчера (прошедшее время)" }
+      { type: 'quiz', question: "I ___ to the cinema yesterday.", options: ["go", "went", "am going", "will go", "have gone"], correctAnswer: "went", hint: "Yesterday = вчера (прошедшее время)" }
     ],
     reward: { stars: 3, message: "Excellent! Ты знаешь прошедшее время! 📅" }
   },
@@ -2389,11 +2389,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «Сколько тебе лет?» по-английски?", options: ["What is your name?", "How old are you?", "Where are you from?", "Другой ответ", "Другой ответ"], correctAnswer: "How old are you?", hint: "Old = старый, о возрасте спрашивают How old" },
-      { type: 'quiz', question: "Как будет «двадцать» по-английски?", options: ["Twelve", "Twenty", "Thirty", "Другой ответ", "Другой ответ"], correctAnswer: "Twenty", hint: "Twenty = 20, twelve = 12" },
-      { type: 'quiz', question: "What does «I am from Russia» mean?", options: ["Я живу в Лондоне", "Я из России", "Я говорю по-русски", "Другой ответ", "Другой ответ"], correctAnswer: "Я из России", hint: "From = из, Russia = Россия" },
-      { type: 'quiz', question: "Как сказать «Мне ... лет» по-английски?", options: ["I have ... years", "I am ... years old", "My age is ...", "Другой ответ", "Другой ответ"], correctAnswer: "I am ... years old", hint: "I am + число + years old" },
-      { type: 'quiz', question: "Как будет «пятнадцать» по-английски?", options: ["Fiveteen", "Fifteen", "Fifty", "Другой ответ", "Другой ответ"], correctAnswer: "Fifteen", hint: "Fifteen = 15, fifty = 50" }
+      { type: 'quiz', question: "Как сказать «Сколько тебе лет?» по-английски?", options: ["What is your name?", "How old are you?", "Where are you from?", "What is your job?", "How are you today?"], correctAnswer: "How old are you?", hint: "Old = старый, о возрасте спрашивают How old" },
+      { type: 'quiz', question: "Как будет «двадцать» по-английски?", options: ["Twelve", "Twenty", "Thirty", "Fourteen", "Fifty"], correctAnswer: "Twenty", hint: "Twenty = 20, twelve = 12" },
+      { type: 'quiz', question: "What does «I am from Russia» mean?", options: ["Я живу в Лондоне", "Я из России", "Я говорю по-русски", "Я люблю Россию", "Я работаю в России"], correctAnswer: "Я из России", hint: "From = из, Russia = Россия" },
+      { type: 'quiz', question: "Как сказать «Мне ... лет» по-английски?", options: ["I have ... years", "I am ... years old", "My age is ...", "I have years", "I am of age"], correctAnswer: "I am ... years old", hint: "I am + число + years old" },
+      { type: 'quiz', question: "Как будет «пятнадцать» по-английски?", options: ["Fiveteen", "Fifteen", "Fifty", "Thirteen", "Sixteen"], correctAnswer: "Fifteen", hint: "Fifteen = 15, fifty = 50" }
     ],
     reward: { stars: 3, message: "Great! Ты можешь рассказать о себе! ✨" }
   },
@@ -2403,11 +2403,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «француз» по-английски?", options: ["France", "French", "Frank", "Другой ответ", "Другой ответ"], correctAnswer: "French", hint: "France = страна, French = национальность" },
-      { type: 'quiz', question: "Столица Великобритании — это...", options: ["Paris", "Berlin", "London", "Другой ответ", "Другой ответ"], correctAnswer: "London", hint: "London — столица Great Britain" },
-      { type: 'quiz', question: "Как сказать «Я русский» по-английски?", options: ["I am Russia", "I am Russian", "I am from Russian", "Другой ответ", "Другой ответ"], correctAnswer: "I am Russian", hint: "I am + национальность (без артикля)" },
-      { type: 'quiz', question: "Японец по-английски — это...", options: ["Japan", "Japanese", "Japaneese", "Другой ответ", "Другой ответ"], correctAnswer: "Japanese", hint: "Japan = страна, Japanese = национальность" },
-      { type: 'quiz', question: "Where are you from? = ?", options: ["Кем ты работаешь?", "Откуда ты?", "Сколько тебе лет?", "Другой ответ", "Другой ответ"], correctAnswer: "Откуда ты?", hint: "From = из, where = где/откуда" }
+      { type: 'quiz', question: "Как будет «француз» по-английски?", options: ["France", "French", "Frank", "Frenchman", "Francish"], correctAnswer: "French", hint: "France = страна, French = национальность" },
+      { type: 'quiz', question: "Столица Великобритании — это...", options: ["Paris", "Berlin", "London", "Washington", "Tokyo"], correctAnswer: "London", hint: "London — столица Great Britain" },
+      { type: 'quiz', question: "Как сказать «Я русский» по-английски?", options: ["I am Russia", "I am Russian", "I am from Russian", "I am Russish", "I am of Russia"], correctAnswer: "I am Russian", hint: "I am + национальность (без артикля)" },
+      { type: 'quiz', question: "Японец по-английски — это...", options: ["Japan", "Japanese", "Japaneese", "Japanish", "Japanee"], correctAnswer: "Japanese", hint: "Japan = страна, Japanese = национальность" },
+      { type: 'quiz', question: "Where are you from? = ?", options: ["Кем ты работаешь?", "Откуда ты?", "Сколько тебе лет?", "Как тебя зовут?", "Откуда ты родом?"], correctAnswer: "Откуда ты?", hint: "From = из, where = где/откуда" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь страны! 🗺️" }
   },
@@ -2417,11 +2417,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Какой артикль ставится перед словом «actor»?", options: ["a", "an", "the", "Другой ответ", "Другой ответ"], correctAnswer: "an", hint: "an ставится перед словами, начинающимися с гласной" },
-      { type: 'quiz', question: "Как будет «учитель» по-английски?", options: ["Teach", "Teacher", "Teatcher", "Другой ответ", "Другой ответ"], correctAnswer: "Teacher", hint: "Teacher = учитель, суффикс -er" },
-      { type: 'quiz', question: "What does your father do? = ?", options: ["Кем работает твой папа?", "Что делает твой папа сейчас?", "Где работает твой папа?", "Другой ответ", "Другой ответ"], correctAnswer: "Кем работает твой папа?", hint: "What does ... do? = Кем работает?" },
-      { type: 'quiz', question: "Какой суффикс у слова «scientist»?", options: ["-er", "-or", "-ist", "Другой ответ", "Другой ответ"], correctAnswer: "-ist", hint: "-ist = специалист (scientist, artist)" },
-      { type: 'quiz', question: "Как сказать «Я хочу быть врачом»?", options: ["I want be a doctor", "I want to be a doctor", "I want to being a doctor", "Другой ответ", "Другой ответ"], correctAnswer: "I want to be a doctor", hint: "want to be + профессия" }
+      { type: 'quiz', question: "Какой артикль ставится перед словом «actor»?", options: ["a", "an", "the", "no article", "some"], correctAnswer: "an", hint: "an ставится перед словами, начинающимися с гласной" },
+      { type: 'quiz', question: "Как будет «учитель» по-английски?", options: ["Teach", "Teacher", "Teatcher", "Teaching", "Learner"], correctAnswer: "Teacher", hint: "Teacher = учитель, суффикс -er" },
+      { type: 'quiz', question: "What does your father do? = ?", options: ["Кем работает твой папа?", "Что делает твой папа сейчас?", "Где работает твой папа?", "Сколько лет твоему папе?", "Где живёт твой папа?"], correctAnswer: "Кем работает твой папа?", hint: "What does ... do? = Кем работает?" },
+      { type: 'quiz', question: "Какой суффикс у слова «scientist»?", options: ["-er", "-or", "-ist", "-ment", "-tion"], correctAnswer: "-ist", hint: "-ist = специалист (scientist, artist)" },
+      { type: 'quiz', question: "Как сказать «Я хочу быть врачом»?", options: ["I want be a doctor", "I want to be a doctor", "I want to being a doctor", "I want be doctor", "I want being a doctor"], correctAnswer: "I want to be a doctor", hint: "want to be + профессия" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь профессии! 🎓" }
   },
@@ -2431,11 +2431,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «слон» по-английски?", options: ["Eliphant", "Elephant", "Elefent", "Другой ответ", "Другой ответ"], correctAnswer: "Elephant", hint: "Elephant = слон, с буквой ph" },
-      { type: 'quiz', question: "Какое животное живёт в джунглях?", options: ["Penguin", "Monkey", "Polar bear", "Другой ответ", "Другой ответ"], correctAnswer: "Monkey", hint: "Monkey = обезьяна, живёт в джунглях" },
-      { type: 'quiz', question: "What does «It has got four legs» mean?", options: ["Оно умеет бегать", "У него четыре лапы", "Оно живёт в лесу", "Другой ответ", "Другой ответ"], correctAnswer: "У него четыре лапы", hint: "has got = имеет, legs = лапы/ноги" },
-      { type: 'quiz', question: "Какое из этих животных домашнее?", options: ["Tiger", "Lion", "Sheep", "Другой ответ", "Другой ответ"], correctAnswer: "Sheep", hint: "Sheep = овца, домашнее животное" },
-      { type: 'quiz', question: "Как будет «быстрый» по-английски?", options: ["Slow", "Strong", "Fast", "Другой ответ", "Другой ответ"], correctAnswer: "Fast", hint: "Fast = быстрый, slow = медленный" }
+      { type: 'quiz', question: "Как будет «слон» по-английски?", options: ["Eliphant", "Elephant", "Elefent", "Elifant", "Elefunt"], correctAnswer: "Elephant", hint: "Elephant = слон, с буквой ph" },
+      { type: 'quiz', question: "Какое животное живёт в джунглях?", options: ["Penguin", "Monkey", "Polar bear", "Camel", "Bear"], correctAnswer: "Monkey", hint: "Monkey = обезьяна, живёт в джунглях" },
+      { type: 'quiz', question: "What does «It has got four legs» mean?", options: ["Оно умеет бегать", "У него четыре лапы", "Оно живёт в лесу", "У него длинный хвост", "Оно ест мясо"], correctAnswer: "У него четыре лапы", hint: "has got = имеет, legs = лапы/ноги" },
+      { type: 'quiz', question: "Какое из этих животных домашнее?", options: ["Tiger", "Lion", "Sheep", "Wolf", "Fox"], correctAnswer: "Sheep", hint: "Sheep = овца, домашнее животное" },
+      { type: 'quiz', question: "Как будет «быстрый» по-английски?", options: ["Slow", "Strong", "Fast", "Quickly", "Swiftly"], correctAnswer: "Fast", hint: "Fast = быстрый, slow = медленный" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь животных! 🐾" }
   },
@@ -2445,17 +2445,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «Где библиотека?» по-английски?", options: ["What is the library?", "Where is the library?", "How is the library?", "Другой ответ", "Другой ответ"],
+      { type: 'quiz', question: "Как сказать «Где библиотека?» по-английски?", options: ["What is the library?", "Where is the library?", "How is the library?", "When is the library?", "Who is in the library?"],
       keyPoints: [
         "Тема урока: В городе (английскому языку)",
       ],
       examples: [
         "How do you say библиотека in English?",
       ], correctAnswer: "Where is the library?", hint: "Where = где, library = библиотека" },
-      { type: 'quiz', question: "Turn left = ?", options: ["Идите прямо", "Поверните налево", "Поверните направо", "Другой ответ", "Другой ответ"], correctAnswer: "Поверните налево", hint: "Left = лево, right = право" },
-      { type: 'quiz', question: "Как будет «аэропорт» по-английски?", options: ["Airplain", "Airport", "Airpot", "Другой ответ", "Другой ответ"], correctAnswer: "Airport", hint: "Airport = аэропорт" },
-      { type: 'quiz', question: "What does «next to» mean?", options: ["Напротив", "Рядом с", "За", "Другой ответ", "Другой ответ"], correctAnswer: "Рядом с", hint: "Next to = рядом с, opposite = напротив" },
-      { type: 'quiz', question: "Как обратиться с вопросом на улице?", options: ["Hello me!", "Excuse me!", "Sorry me!", "Другой ответ", "Другой ответ"], correctAnswer: "Excuse me!", hint: "Excuse me = извините (для привлечения внимания)" }
+      { type: 'quiz', question: "Turn left = ?", options: ["Идите прямо", "Поверните налево", "Поверните направо", "Поверните назад", "Остановитесь"], correctAnswer: "Поверните налево", hint: "Left = лево, right = право" },
+      { type: 'quiz', question: "Как будет «аэропорт» по-английски?", options: ["Airplain", "Airport", "Airpot", "Airshow", "Airfield"], correctAnswer: "Airport", hint: "Airport = аэропорт" },
+      { type: 'quiz', question: "What does «next to» mean?", options: ["Напротив", "Рядом с", "За", "Вдали от", "Внутри"], correctAnswer: "Рядом с", hint: "Next to = рядом с, opposite = напротив" },
+      { type: 'quiz', question: "Как обратиться с вопросом на улице?", options: ["Hello me!", "Excuse me!", "Sorry me!", "Watch out!", "Look here!"], correctAnswer: "Excuse me!", hint: "Excuse me = извините (для привлечения внимания)" }
     ],
     reward: { stars: 3, message: "Отлично! Ты ориентируешься в городе! 🗺️" }
   },
@@ -2465,17 +2465,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «пешком» по-английски?", options: ["By foot", "On foot", "With foot", "Другой ответ", "Другой ответ"],
+      { type: 'quiz', question: "Как сказать «пешком» по-английски?", options: ["By foot", "On foot", "With foot", "On step", "By walk"],
       keyPoints: [
         "Тема урока: Транспорт (английскому языку)",
       ],
       examples: [
         "How do you say автобус in English?",
       ], correctAnswer: "On foot", hint: "On foot = пешком (не by foot!)" },
-      { type: 'quiz', question: "Какой глагол используется с «на автобусе»?", options: ["take a bus", "go a bus", "ride a bus", "Другой ответ", "Другой ответ"], correctAnswer: "take a bus", hint: "take a bus = сесть на автобус" },
-      { type: 'quiz', question: "Как будет «велосипед» по-английски?", options: ["Bicycle", "Motocycle", "Bicykle", "Другой ответ", "Другой ответ"], correctAnswer: "Bicycle", hint: "Bicycle / bike = велосипед" },
-      { type: 'quiz', question: "How do you get to school? = ?", options: ["Где твоя школа?", "Как ты добираешься до школы?", "Когда ты идёшь в школу?", "Другой ответ", "Другой ответ"], correctAnswer: "Как ты добираешься до школы?", hint: "Get to = добраться до" },
-      { type: 'quiz', question: "Какой транспорт самый быстрый?", options: ["Bicycle", "Train", "Plane", "Другой ответ", "Другой ответ"], correctAnswer: "Plane", hint: "Plane = самолёт, самый быстрый транспорт" }
+      { type: 'quiz', question: "Какой глагол используется с «на автобусе»?", options: ["take a bus", "go a bus", "ride a bus", "drive a bus", "sit a bus"], correctAnswer: "take a bus", hint: "take a bus = сесть на автобус" },
+      { type: 'quiz', question: "Как будет «велосипед» по-английски?", options: ["Bicycle", "Motocycle", "Bicykle", "Motorcycle", "Scooter"], correctAnswer: "Bicycle", hint: "Bicycle / bike = велосипед" },
+      { type: 'quiz', question: "How do you get to school? = ?", options: ["Где твоя школа?", "Как ты добираешься до школы?", "Когда ты идёшь в школу?", "Зачем ты идёшь в школу?", "С кем ты идёшь в школу?"], correctAnswer: "Как ты добираешься до школы?", hint: "Get to = добраться до" },
+      { type: 'quiz', question: "Какой транспорт самый быстрый?", options: ["Bicycle", "Train", "Plane", "Ship", "Bus"], correctAnswer: "Plane", hint: "Plane = самолёт, самый быстрый транспорт" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь транспорт! 🚀" }
   },
@@ -2485,11 +2485,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «курчавые волосы» по-английски?", options: ["Straight hair", "Curly hair", "Wavy hair", "Другой ответ", "Другой ответ"], correctAnswer: "Curly hair", hint: "Curly = кудрявый, straight = прямой" },
-      { type: 'quiz', question: "Какое прилагательное означает «добрый»?", options: ["Funny", "Kind", "Shy", "Другой ответ", "Другой ответ"], correctAnswer: "Kind", hint: "Kind = добрый, funny = весёлый" },
-      { type: 'quiz', question: "He has got blue eyes. = ?", options: ["У него голубые глаза", "У него голубые волосы", "Он носит очки", "Другой ответ", "Другой ответ"], correctAnswer: "У него голубые глаза", hint: "Has got = имеет/у него есть, eyes = глаза" },
-      { type: 'quiz', question: "Как сказать «высокий» по-английски?", options: ["Short", "Tall", "Long", "Другой ответ", "Другой ответ"], correctAnswer: "Tall", hint: "Tall = высокий (о росте), short = низкий" },
-      { type: 'quiz', question: "Какая конструкция используется для описания характера?", options: ["He has got...", "He is...", "He can...", "Другой ответ", "Другой ответ"], correctAnswer: "He is...", hint: "He/She is + прилагательное (для характера)" }
+      { type: 'quiz', question: "Как будет «курчавые волосы» по-английски?", options: ["Straight hair", "Curly hair", "Wavy hair", "Bald hair", "Thick hair"], correctAnswer: "Curly hair", hint: "Curly = кудрявый, straight = прямой" },
+      { type: 'quiz', question: "Какое прилагательное означает «добрый»?", options: ["Funny", "Kind", "Shy", "Polite", "Gentle"], correctAnswer: "Kind", hint: "Kind = добрый, funny = весёлый" },
+      { type: 'quiz', question: "He has got blue eyes. = ?", options: ["У него голубые глаза", "У него голубые волосы", "Он носит очки", "У него большие уши", "У него тёмные волосы"], correctAnswer: "У него голубые глаза", hint: "Has got = имеет/у него есть, eyes = глаза" },
+      { type: 'quiz', question: "Как сказать «высокий» по-английски?", options: ["Short", "Tall", "Long", "Big", "High"], correctAnswer: "Tall", hint: "Tall = высокий (о росте), short = низкий" },
+      { type: 'quiz', question: "Какая конструкция используется для описания характера?", options: ["He has got...", "He is...", "He can...", "He does...", "He likes..."], correctAnswer: "He is...", hint: "He/She is + прилагательное (для характера)" }
     ],
     reward: { stars: 3, message: "Супер! Ты описываешь людей! 😊" }
   },
@@ -2499,11 +2499,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «лучший друг» по-английски?", options: ["Good friend", "Best friend", "Nice friend", "Другой ответ", "Другой ответ"], correctAnswer: "Best friend", hint: "Best = лучший, best friend = лучший друг" },
-      { type: 'quiz', question: "Какое качество друга означает «честный»?", options: ["Funny", "Honest", "Lazy", "Другой ответ", "Другой ответ"], correctAnswer: "Honest", hint: "Honest = честный" },
-      { type: 'quiz', question: "What does «each other» mean?", options: ["Вместе", "Друг друга", "Иногда", "Другой ответ", "Другой ответ"], correctAnswer: "Друг друга", hint: "Each other = друг друга (help each other)" },
-      { type: 'quiz', question: "Как будет «одноклассник» по-английски?", options: ["Schoolmate", "Classmate", "Deskmate", "Другой ответ", "Другой ответ"], correctAnswer: "Classmate", hint: "Class = класс, classmate = одноклассник" },
-      { type: 'quiz', question: "Why is she your best friend? = ?", options: ["Где твой друг?", "Почему она твой лучший друг?", "Сколько у тебя друзей?", "Другой ответ", "Другой ответ"], correctAnswer: "Почему она твой лучший друг?", hint: "Why = почему, best friend = лучший друг" }
+      { type: 'quiz', question: "Как будет «лучший друг» по-английски?", options: ["Good friend", "Best friend", "Nice friend", "Close friend", "Old friend"], correctAnswer: "Best friend", hint: "Best = лучший, best friend = лучший друг" },
+      { type: 'quiz', question: "Какое качество друга означает «честный»?", options: ["Funny", "Honest", "Lazy", "Polite", "Quiet"], correctAnswer: "Honest", hint: "Honest = честный" },
+      { type: 'quiz', question: "What does «each other» mean?", options: ["Вместе", "Друг друга", "Постоянно", "По очереди", "Никогда"], correctAnswer: "Друг друга", hint: "Each other = друг друга (help each other)" },
+      { type: 'quiz', question: "Как будет «одноклассник» по-английски?", options: ["Schoolmate", "Classmate", "Deskmate", "Roommate", "Teammate"], correctAnswer: "Classmate", hint: "Class = класс, classmate = одноклассник" },
+      { type: 'quiz', question: "Why is she your best friend? = ?", options: ["Где твой друг?", "Почему она твой лучший друг?", "Сколько у тебя друзей?", "Когда вы познакомились?", "Как долго вы дружите?"], correctAnswer: "Почему она твой лучший друг?", hint: "Why = почему, best friend = лучший друг" }
     ],
     reward: { stars: 3, message: "Отлично! Ты говоришь о друзьях! 🤝" }
   },
@@ -2513,11 +2513,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Какая конструкция используется для одного предмета в комнате?", options: ["There are", "There is", "Is there", "Другой ответ", "Другой ответ"], correctAnswer: "There is", hint: "There is = есть (единственное число)" },
-      { type: 'quiz', question: "Как будет «спальня» по-английски?", options: ["Living room", "Bedroom", "Bathroom", "Другой ответ", "Другой ответ"], correctAnswer: "Bedroom", hint: "Bed = кровать, bedroom = спальня" },
-      { type: 'quiz', question: "What does «There are two chairs in the room» mean?", options: ["В комнате два стула", "В комнате одна кровать", "В комнате нет стульев", "Другой ответ", "Другой ответ"], correctAnswer: "В комнате два стула", hint: "There are = есть (множественное число)" },
-      { type: 'quiz', question: "Какой предлог означает «под»?", options: ["On", "In", "Under", "Другой ответ", "Другой ответ"], correctAnswer: "Under", hint: "Under = под, on = на, in = в" },
-      { type: 'quiz', question: "Как будет «квартира» по-английски?", options: ["House", "Flat", "Home", "Другой ответ", "Другой ответ"], correctAnswer: "Flat", hint: "Flat / apartment = квартира" }
+      { type: 'quiz', question: "Какая конструкция используется для одного предмета в комнате?", options: ["There are", "There is", "Is there", "Have got", "There was"], correctAnswer: "There is", hint: "There is = есть (единственное число)" },
+      { type: 'quiz', question: "Как будет «спальня» по-английски?", options: ["Living room", "Bedroom", "Bathroom", "Playroom", "Hallway"], correctAnswer: "Bedroom", hint: "Bed = кровать, bedroom = спальня" },
+      { type: 'quiz', question: "What does «There are two chairs in the room» mean?", options: ["В комнате два стула", "В комнате одна кровать", "В комнате нет стульев", "В комнате один стул", "Стульев нет в комнате"], correctAnswer: "В комнате два стула", hint: "There are = есть (множественное число)" },
+      { type: 'quiz', question: "Какой предлог означает «под»?", options: ["On", "In", "Under", "Behind", "Between"], correctAnswer: "Under", hint: "Under = под, on = на, in = в" },
+      { type: 'quiz', question: "Как будет «квартира» по-английски?", options: ["House", "Flat", "Home", "Building", "Cottage"], correctAnswer: "Flat", hint: "Flat / apartment = квартира" }
     ],
     reward: { stars: 3, message: "Супер! Ты описываешь дом! 🏡" }
   },
@@ -2527,17 +2527,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «физкультура» по-английски?", options: ["Physical Education", "Physics", "Philosophy", "Другой ответ", "Другой ответ"],
+      { type: 'quiz', question: "Как будет «физкультура» по-английски?", options: ["Physical Education", "Physics", "Philosophy", "Phonetics", "Photography"],
       keyPoints: [
         "Тема урока: Школьные предметы (английскому языку)",
       ],
       examples: [
         "How do you say математика in English?",
       ], correctAnswer: "Physical Education", hint: "PE = Physical Education = физкультура" },
-      { type: 'quiz', question: "How to say «Мне не нравится математика»?", options: ["I like Maths", "I don't like Maths", "I love Maths", "Другой ответ", "Другой ответ"], correctAnswer: "I don't like Maths", hint: "don't like = не нравится" },
-      { type: 'quiz', question: "What's your favourite subject? = ?", options: ["Какой твой любимый предмет?", "Какая твоя школа?", "Сколько уроков?", "Другой ответ", "Другой ответ"], correctAnswer: "Какой твой любимый предмет?", hint: "Favourite = любимый, subject = предмет" },
-      { type: 'quiz', question: "Как будет «информатика» по-английски?", options: ["Information Technology", "International Trade", "Inner Technology", "Другой ответ", "Другой ответ"], correctAnswer: "Information Technology", hint: "IT = Information Technology = информатика" },
-      { type: 'quiz', question: "Какое прилагательное означает «скучный»?", options: ["Interesting", "Boring", "Difficult", "Другой ответ", "Другой ответ"], correctAnswer: "Boring", hint: "Boring = скучный, interesting = интересный" }
+      { type: 'quiz', question: "How to say «Мне не нравится математика»?", options: ["I like Maths", "I don't like Maths", "I love Maths", "I hate Maths", "I skip Maths"], correctAnswer: "I don't like Maths", hint: "don't like = не нравится" },
+      { type: 'quiz', question: "What's your favourite subject? = ?", options: ["Какой твой любимый предмет?", "Какая твоя школа?", "Сколько уроков?", "Какой урок первый?", "Кто твой любимый учитель?"], correctAnswer: "Какой твой любимый предмет?", hint: "Favourite = любимый, subject = предмет" },
+      { type: 'quiz', question: "Как будет «информатика» по-английски?", options: ["Information Technology", "International Trade", "Inner Technology", "Internet Technology", "Integrated Technology"], correctAnswer: "Information Technology", hint: "IT = Information Technology = информатика" },
+      { type: 'quiz', question: "Какое прилагательное означает «скучный»?", options: ["Interesting", "Boring", "Difficult", "Hard", "Easy"], correctAnswer: "Boring", hint: "Boring = скучный, interesting = интересный" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь предметы! ✏️" }
   },
@@ -2547,17 +2547,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «ластик» по-английски?", options: ["Rubber", "Ruler", "Pencil", "Другой ответ", "Другой ответ"],
+      { type: 'quiz', question: "Как будет «ластик» по-английски?", options: ["Rubber", "Ruler", "Pencil", "Sharpener", "Compass"],
       keyPoints: [
         "Тема урока: В классе (английскому языку)",
       ],
       examples: [
         "How do you say парта in English?",
       ], correctAnswer: "Rubber", hint: "Rubber / eraser = ластик" },
-      { type: 'quiz', question: "Как попросить повторить по-английски?", options: ["Can you help me?", "Can you repeat, please?", "Can I go out?", "Другой ответ", "Другой ответ"], correctAnswer: "Can you repeat, please?", hint: "Repeat = повторить" },
-      { type: 'quiz', question: "What does «Open your books» mean?", options: ["Закройте книги", "Откройте книги", "Возьмите книги", "Другой ответ", "Другой ответ"], correctAnswer: "Откройте книги", hint: "Open = открыть, close = закрыть" },
-      { type: 'quiz', question: "Как будет «учебник» по-английски?", options: ["Exercise book", "Textbook", "Notebook", "Другой ответ", "Другой ответ"], correctAnswer: "Textbook", hint: "Text = текст, textbook = учебник" },
-      { type: 'quiz', question: "What does «I don't understand» mean?", options: ["Я не знаю", "Я не понимаю", "Я не слышу", "Другой ответ", "Другой ответ"], correctAnswer: "Я не понимаю", hint: "Understand = понимать" }
+      { type: 'quiz', question: "Как попросить повторить по-английски?", options: ["Can you help me?", "Can you repeat, please?", "Can I go out?", "Can you write it?", "Can you speak slowly?"], correctAnswer: "Can you repeat, please?", hint: "Repeat = повторить" },
+      { type: 'quiz', question: "What does «Open your books» mean?", options: ["Закройте книги", "Откройте книги", "Возьмите книги", "Прочитайте книги", "Напишите в книгах"], correctAnswer: "Откройте книги", hint: "Open = открыть, close = закрыть" },
+      { type: 'quiz', question: "Как будет «учебник» по-английски?", options: ["Exercise book", "Textbook", "Notebook", "Dictionary", "Workbook"], correctAnswer: "Textbook", hint: "Text = текст, textbook = учебник" },
+      { type: 'quiz', question: "What does «I don't understand» mean?", options: ["Я не знаю", "Я не понимаю", "Я не слышу", "Я не согласен", "Я не могу"], correctAnswer: "Я не понимаю", hint: "Understand = понимать" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь классные фразы! ✨" }
   },
@@ -2567,11 +2567,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «половина восьмого» по-английски?", options: ["It", ",", "s half past seven", "—", "—"], correctAnswer: "It's half past seven", hint: "Half past = половина следующего часа" },
-      { type: 'quiz', question: "Какое наречие частотности означает «всегда»?", options: ["Usually", "Often", "Always", "Другой ответ", "Другой ответ"], correctAnswer: "Always", hint: "Always = всегда (100%)" },
-      { type: 'quiz', question: "wake up = ?", options: ["Вставать", "Просыпаться", "Одеваться", "Другой ответ", "Другой ответ"], correctAnswer: "Просыпаться", hint: "Wake up = просыпаться, get up = вставать" },
-      { type: 'quiz', question: "В каком времени говорится: «I go to school every day»?", options: ["Past Simple", "Present Continuous", "Present Simple", "Другой ответ", "Другой ответ"], correctAnswer: "Present Simple", hint: "Every day = каждый день → Present Simple" },
-      { type: 'quiz', question: "Какой предлог используется с часами?", options: ["in", "on", "at", "Другой ответ", "Другой ответ"], correctAnswer: "at", hint: "at 7 o'clock — предлог at с конкретным временем" }
+      { type: 'quiz', question: "Как сказать «половина восьмого» по-английски?", options: ["It's half past seven", "It half past seven", "It is seven half", "Seven and half", "Half to seven"], correctAnswer: "It's half past seven", hint: "Half past = половина следующего часа" },
+      { type: 'quiz', question: "Какое наречие частотности означает «всегда»?", options: ["Usually", "Often", "Always", "Sometimes", "Seldom"], correctAnswer: "Always", hint: "Always = всегда (100%)" },
+      { type: 'quiz', question: "wake up = ?", options: ["Вставать", "Просыпаться", "Одеваться", "Умываться", "Завтракать"], correctAnswer: "Просыпаться", hint: "Wake up = просыпаться, get up = вставать" },
+      { type: 'quiz', question: "В каком времени говорится: «I go to school every day»?", options: ["Past Simple", "Present Continuous", "Present Simple", "Future Simple", "Present Perfect"], correctAnswer: "Present Simple", hint: "Every day = каждый день → Present Simple" },
+      { type: 'quiz', question: "Какой предлог используется с часами?", options: ["in", "on", "at", "by", "to"], correctAnswer: "at", hint: "at 7 o'clock — предлог at с конкретным временем" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь режим дня! 🌅" }
   },
@@ -2581,11 +2581,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «воскресенье» по-английски?", options: ["Saturday", "Sunday", "Friday", "Другой ответ", "Другой ответ"], correctAnswer: "Sunday", hint: "Sunday = воскресенье, Saturday = суббота" },
-      { type: 'quiz', question: "Какие дни недели — выходные (weekend)?", options: ["Friday and Saturday", "Saturday and Sunday", "Sunday and Monday", "Другой ответ", "Другой ответ"], correctAnswer: "Saturday and Sunday", hint: "Weekend = выходные (Saturday + Sunday)" },
-      { type: 'quiz', question: "Как будет «среда» по-английски?", options: ["Wensday", "Wednesday", "Wensnday", "Другой ответ", "Другой ответ"], correctAnswer: "Wednesday", hint: "Wednesday = среда, пишется через d" },
-      { type: 'quiz', question: "Как сказать «прошлым летом» по-английски?", options: ["This summer", "Next summer", "Last summer", "Другой ответ", "Другой ответ"], correctAnswer: "Last summer", hint: "Last = прошлый, next = следующий" },
-      { type: 'quiz', question: "go shopping = ?", options: ["Идти в школу", "Идти за покупками", "Идти гулять", "Другой ответ", "Другой ответ"], correctAnswer: "Идти за покупками", hint: "Shopping = покупки, шопинг" }
+      { type: 'quiz', question: "Как будет «воскресенье» по-английски?", options: ["Saturday", "Sunday", "Friday", "Monday", "Thursday"], correctAnswer: "Sunday", hint: "Sunday = воскресенье, Saturday = суббота" },
+      { type: 'quiz', question: "Какие дни недели — выходные (weekend)?", options: ["Friday and Saturday", "Saturday and Sunday", "Sunday and Monday", "Monday and Tuesday", "Thursday and Friday"], correctAnswer: "Saturday and Sunday", hint: "Weekend = выходные (Saturday + Sunday)" },
+      { type: 'quiz', question: "Как будет «среда» по-английски?", options: ["Wensday", "Wednesday", "Wensnday", "Wednsday", "Wendsday"], correctAnswer: "Wednesday", hint: "Wednesday = среда, пишется через d" },
+      { type: 'quiz', question: "Как сказать «прошлым летом» по-английски?", options: ["This summer", "Next summer", "Last summer", "Every summer", "Previous summer"], correctAnswer: "Last summer", hint: "Last = прошлый, next = следующий" },
+      { type: 'quiz', question: "go shopping = ?", options: ["Идти в школу", "Идти за покупками", "Идти гулять", "Идти домой", "Идти на работу"], correctAnswer: "Идти за покупками", hint: "Shopping = покупки, шопинг" }
     ],
     reward: { stars: 3, message: "Отлично! Ты рассказываешь о выходных! 🌈" }
   },
@@ -2595,11 +2595,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «морковь» по-английски?", options: ["Cabbage", "Carrot", "Cucumber", "Другой ответ", "Другой ответ"], correctAnswer: "Carrot", hint: "Carrot = морковь" },
-      { type: 'quiz', question: "Какой продукт относится к молочным?", options: ["Bread", "Cheese", "Apple", "Другой ответ", "Другой ответ"], correctAnswer: "Cheese", hint: "Cheese = сыр, молочный продукт" },
-      { type: 'quiz', question: "How to say «апельсиновый сок»?", options: ["Apple juice", "Orange juice", "Banana juice", "Другой ответ", "Другой ответ"], correctAnswer: "Orange juice", hint: "Orange = апельсин, juice = сок" },
-      { type: 'quiz', question: "Как будет «завтрак» по-английски?", options: ["Lunch", "Dinner", "Breakfast", "Другой ответ", "Другой ответ"], correctAnswer: "Breakfast", hint: "Breakfast = завтрак, dinner = ужин" },
-      { type: 'quiz', question: "What does «delicious» mean?", options: ["Вкусно", "Дорого", "Долго", "Другой ответ", "Другой ответ"], correctAnswer: "Вкусно", hint: "Delicious = вкусно, очень вкусно" }
+      { type: 'quiz', question: "Как будет «морковь» по-английски?", options: ["Cabbage", "Carrot", "Cucumber", "Onion", "Pepper"], correctAnswer: "Carrot", hint: "Carrot = морковь" },
+      { type: 'quiz', question: "Какой продукт относится к молочным?", options: ["Bread", "Cheese", "Apple", "Butter", "Yoghurt"], correctAnswer: "Cheese", hint: "Cheese = сыр, молочный продукт" },
+      { type: 'quiz', question: "How to say «апельсиновый сок»?", options: ["Apple juice", "Orange juice", "Banana juice", "Lemon juice", "Grape juice"], correctAnswer: "Orange juice", hint: "Orange = апельсин, juice = сок" },
+      { type: 'quiz', question: "Как будет «завтрак» по-английски?", options: ["Lunch", "Dinner", "Breakfast", "Supper", "Meal"], correctAnswer: "Breakfast", hint: "Breakfast = завтрак, dinner = ужин" },
+      { type: 'quiz', question: "What does «delicious» mean?", options: ["Вкусно", "Дорого", "Долго", "Тяжело", "Редко"], correctAnswer: "Вкусно", hint: "Delicious = вкусно, очень вкусно" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь продукты! 🛒" }
   },
@@ -2609,11 +2609,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как попросить счёт по-английски?", options: ["Can I have the menu?", "Can I have the bill, please?", "Can I go out?", "Другой ответ", "Другой ответ"], correctAnswer: "Can I have the bill, please?", hint: "Bill = счёт" },
-      { type: 'quiz', question: "What does «I would like a hamburger» mean?", options: ["Я хочу гамбургер", "Мне нравится гамбургер", "Я ем гамбургер", "Другой ответ", "Другой ответ"], correctAnswer: "Я хочу гамбургер", hint: "I would like = я хотел бы (вежливая форма заказа)" },
-      { type: 'quiz', question: "Как официант спрашивает «Что-нибудь ещё?»?", options: ["Here you are", "Anything else?", "That's all", "Другой ответ", "Другой ответ"], correctAnswer: "Anything else?", hint: "Anything else? = что-нибудь ещё?" },
-      { type: 'quiz', question: "Как сказать «Сколько это стоит?» по-английски?", options: ["How much is it?", "How many is it?", "How old is it?", "Другой ответ", "Другой ответ"], correctAnswer: "How much is it?", hint: "How much = сколько (о цене)" },
-      { type: 'quiz', question: "What does «It's delicious» mean?", options: ["Это дорого", "Это вкусно", "Это далеко", "Другой ответ", "Другой ответ"], correctAnswer: "Это вкусно", hint: "Delicious = вкусный, восхитительный" }
+      { type: 'quiz', question: "Как попросить счёт по-английски?", options: ["Can I have the menu?", "Can I have the bill, please?", "Can I go out?", "Can I have some water?", "Can I pay by card?"], correctAnswer: "Can I have the bill, please?", hint: "Bill = счёт" },
+      { type: 'quiz', question: "What does «I would like a hamburger» mean?", options: ["Я хочу гамбургер", "Мне нравится гамбургер", "Я ем гамбургер", "Я приготовлю гамбургер", "Я вижу гамбургер"], correctAnswer: "Я хочу гамбургер", hint: "I would like = я хотел бы (вежливая форма заказа)" },
+      { type: 'quiz', question: "Как официант спрашивает «Что-нибудь ещё?»?", options: ["Here you are", "Anything else?", "That's all", "Enjoy your meal!", "Here you are!"], correctAnswer: "Anything else?", hint: "Anything else? = что-нибудь ещё?" },
+      { type: 'quiz', question: "Как сказать «Сколько это стоит?» по-английски?", options: ["How much is it?", "How many is it?", "How old is it?", "What time is it?", "Where is it?"], correctAnswer: "How much is it?", hint: "How much = сколько (о цене)" },
+      { type: 'quiz', question: "What does «It's delicious» mean?", options: ["Это дорого", "Это вкусно", "Это далеко", "Это сложно", "Это рано"], correctAnswer: "Это вкусно", hint: "Delicious = вкусный, восхитительный" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь заказывать! 🥤" }
   },
@@ -2623,11 +2623,11 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «Можно примерить?» по-английски?", options: ["Can I buy it?", "Can I try it on?", "Can I take it?", "Другой ответ", "Другой ответ"], correctAnswer: "Can I try it on?", hint: "Try on = примерить" },
-      { type: 'quiz', question: "Как будет «книжный магазин» по-английски?", options: ["Bookshop", "Library", "Bookcase", "Другой ответ", "Другой ответ"], correctAnswer: "Bookshop", hint: "Book + shop = книжный магазин" },
-      { type: 'quiz', question: "I'll take it = ?", options: ["Я примерю это", "Я возьму это", "Я верну это", "Другой ответ", "Другой ответ"], correctAnswer: "Я возьму это", hint: "I'll take it = решение о покупке" },
-      { type: 'quiz', question: "Какое слово означает «дешёвый»?", options: ["Expensive", "Cheap", "Free", "Другой ответ", "Другой ответ"], correctAnswer: "Cheap", hint: "Cheap = дешёвый, expensive = дорогой" },
-      { type: 'quiz', question: "What does «I'm looking for a T-shirt» mean?", options: ["Я купил футболку", "Я ищу футболку", "Я примеряю футболку", "Другой ответ", "Другой ответ"], correctAnswer: "Я ищу футболку", hint: "Look for = искать" }
+      { type: 'quiz', question: "Как сказать «Можно примерить?» по-английски?", options: ["Can I buy it?", "Can I try it on?", "Can I take it?", "Can I pay for it?", "Can I see it?"], correctAnswer: "Can I try it on?", hint: "Try on = примерить" },
+      { type: 'quiz', question: "Как будет «книжный магазин» по-английски?", options: ["Bookshop", "Library", "Bookcase", "Bookshelf", "Booklet"], correctAnswer: "Bookshop", hint: "Book + shop = книжный магазин" },
+      { type: 'quiz', question: "I'll take it = ?", options: ["Я примерю это", "Я возьму это", "Я верну это", "Я подумаю", "Я оставлю это"], correctAnswer: "Я возьму это", hint: "I'll take it = решение о покупке" },
+      { type: 'quiz', question: "Какое слово означает «дешёвый»?", options: ["Expensive", "Cheap", "Free", "Low", "Small"], correctAnswer: "Cheap", hint: "Cheap = дешёвый, expensive = дорогой" },
+      { type: 'quiz', question: "What does «I'm looking for a T-shirt» mean?", options: ["Я купил футболку", "Я ищу футболку", "Я примеряю футболку", "Я ношу футболку", "Я стираю футболку"], correctAnswer: "Я ищу футболку", hint: "Look for = искать" }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь делать покупки! 💳" }
   },
@@ -2637,17 +2637,17 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как будет «пальто» по-английски?", options: ["Jacket", "Coat", "Shirt", "Другой ответ", "Другой ответ"],
+      { type: 'quiz', question: "Как будет «пальто» по-английски?", options: ["Jacket", "Coat", "Shirt", "Dress", "Suit"],
       keyPoints: [
         "Тема урока: Одежда (английскому языку)",
       ],
       examples: [
         "How do you say футболка in English?",
       ], correctAnswer: "Coat", hint: "Coat = пальто, jacket = куртка" },
-      { type: 'quiz', question: "Как сказать «Я надеваю...» по-английски?", options: ["I take off...", "I put on...", "I try on...", "Другой ответ", "Другой ответ"], correctAnswer: "I put on...", hint: "Put on = надевать, take off = снимать" },
-      { type: 'quiz', question: "Какой размер между S и L?", options: ["XS", "M", "XL", "Другой ответ", "Другой ответ"], correctAnswer: "M", hint: "S = small, M = medium, L = large" },
-      { type: 'quiz', question: "Как будет «кроссовки» по-английски?", options: ["Shoes", "Boots", "Trainers", "Другой ответ", "Другой ответ"], correctAnswer: "Trainers", hint: "Trainers = кроссовки" },
-      { type: 'quiz', question: "What does «She is wearing a blue dress» mean?", options: ["Она покупает синее платье", "На ней синее платье", "Она шьёт синее платье", "Другой ответ", "Другой ответ"], correctAnswer: "На ней синее платье", hint: "Wear = носить (одежду)" }
+      { type: 'quiz', question: "Как сказать «Я надеваю...» по-английски?", options: ["I take off...", "I put on...", "I try on...", "I wear...", "I dress..."], correctAnswer: "I put on...", hint: "Put on = надевать, take off = снимать" },
+      { type: 'quiz', question: "Какой размер между S и L?", options: ["XS", "M", "XL", "XXL", "SML"], correctAnswer: "M", hint: "S = small, M = medium, L = large" },
+      { type: 'quiz', question: "Как будет «кроссовки» по-английски?", options: ["Shoes", "Boots", "Trainers", "Sandals", "Slippers"], correctAnswer: "Trainers", hint: "Trainers = кроссовки" },
+      { type: 'quiz', question: "What does «She is wearing a blue dress» mean?", options: ["Она покупает синее платье", "На ней синее платье", "Она шьёт синее платье", "Она возвращает синее платье", "Она выбирает синее платье"], correctAnswer: "На ней синее платье", hint: "Wear = носить (одежду)" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь одежду! 👗" }
   },
@@ -2657,7 +2657,7 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Какая формула Present Continuous?", options: ["do + глагол", "am/is/are + глагол + -ing", "did + глагол", "Другой ответ", "Другой ответ"],
+      { type: 'quiz', question: "Какая формула Present Continuous?", options: ["do + глагол", "am/is/are + глагол + -ing", "did + глагол", "will + глагол", "have + глагол"],
       keyPoints: [
         "Основные случаи употребления — Действие в момент речи: I am reading a book now",
         "Правила правописания — work → working",
@@ -2668,10 +2668,10 @@ export const games: GameLesson[] = [
         "She has lived in Moscow for 10 years. — Она живёт в Москве 10 лет. (Предлог for — период времени)",
         "Have you ever been to St. Petersburg? — Ты когда-нибудь бывал в Санкт-Петербурге? (Опыт)",
       ], correctAnswer: "am/is/are + глагол + -ing", hint: "Present Continuous = am/is/are + verb-ing" },
-      { type: 'quiz', question: "Какое слово-маркер указывает на Present Continuous?", options: ["Every day", "Yesterday", "Now", "Другой ответ", "Другой ответ"], correctAnswer: "Now", hint: "Now = сейчас → Present Continuous" },
-      { type: 'quiz', question: "She ___ TV at the moment. (watch)", options: ["watches", "is watching", "watched", "Другой ответ", "Другой ответ"], correctAnswer: "is watching", hint: "At the moment = в данный момент → is + -ing" },
-      { type: 'quiz', question: "Как образуется отрицание в Present Continuous?", options: ["am/is/are + not + глагол + -ing", "don", ",", "t + глагол", "Другой ответ"], correctAnswer: "am/is/are + not + глагол + -ing", hint: "I am not reading. She isn't watching." },
-      { type: 'quiz', question: "Как написать глагол write в форме -ing?", options: ["writeing", "writing", "writting", "Другой ответ", "Другой ответ"], correctAnswer: "writing", hint: "Убираем конечную -e и добавляем -ing" }
+      { type: 'quiz', question: "Какое слово-маркер указывает на Present Continuous?", options: ["Every day", "Yesterday", "Now", "Tomorrow", "Last week"], correctAnswer: "Now", hint: "Now = сейчас → Present Continuous" },
+      { type: 'quiz', question: "She ___ TV at the moment. (watch)", options: ["watches", "is watching", "watched", "will watch", "has watched"], correctAnswer: "is watching", hint: "At the moment = в данный момент → is + -ing" },
+      { type: 'quiz', question: "Как образуется отрицание в Present Continuous?", options: ["am/is/are + not + глагол + -ing", "don't + глагол", "didn't + глагол", "doesn't + глагол", "won't + глагол"], correctAnswer: "am/is/are + not + глагол + -ing", hint: "I am not reading. She isn't watching." },
+      { type: 'quiz', question: "Как написать глагол write в форме -ing?", options: ["writeing", "writing", "writting", "writying", "writed"], correctAnswer: "writing", hint: "Убираем конечную -e и добавляем -ing" }
     ],
     reward: { stars: 3, message: "Great! Ты знаешь Present Continuous! 🎯" }
   },
@@ -2681,7 +2681,7 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Какая формула Future Simple?", options: ["am/is/are + глагол + -ing", "did + глагол", "will + глагол", "Другой ответ", "Другой ответ"],
+      { type: 'quiz', question: "Какая формула Future Simple?", options: ["am/is/are + глагол + -ing", "did + глагол", "will + глагол", "do + глагол", "have + глагол"],
       keyPoints: [
         "Основные случаи употребления — Мгновенные решения: It's cold",
         "I'll help you. — мгновенное решение",
@@ -2692,10 +2692,10 @@ export const games: GameLesson[] = [
         "Look at those clouds! It is going to rain. — Посмотри на тучи! Собирается дождь. (Признаки)",
         "They are going to move to a new flat. — Они собираются переехать в новую квартиру. (Намерение)",
       ], correctAnswer: "will + глагол", hint: "Future Simple = will + глагол (без to)" },
-      { type: 'quiz', question: "Как будет сокращение «I will»?", options: ["I", ",", "ll", "—", "—"], correctAnswer: "I'll", hint: "I'll = I will" },
-      { type: 'quiz', question: "Какое слово-маркер указывает на будущее?", options: ["Yesterday", "Now", "Tomorrow", "Другой ответ", "Другой ответ"], correctAnswer: "Tomorrow", hint: "Tomorrow = завтра → будущее время" },
-      { type: 'quiz', question: "Как образуется отрицание в Future Simple?", options: ["don", ",", "t + глагол", "won", "—"], correctAnswer: "won't + глагол", hint: "won't = will not" },
-      { type: 'quiz', question: "В чём разница между will и going to?", options: ["Нет разницы", "Will — решение сейчас, going to — план", "Going to — только для прошлого", "Другой ответ", "Другой ответ"], correctAnswer: "Will — решение сейчас, going to — план", hint: "Will = мгновенное решение, going to = запланированное действие" }
+      { type: 'quiz', question: "Как будет сокращение «I will»?", options: ["I'll", "I'm", "I'd", "I've", "I"], correctAnswer: "I'll", hint: "I'll = I will" },
+      { type: 'quiz', question: "Какое слово-маркер указывает на будущее?", options: ["Yesterday", "Now", "Tomorrow", "Last week", "Right now"], correctAnswer: "Tomorrow", hint: "Tomorrow = завтра → будущее время" },
+      { type: 'quiz', question: "Как образуется отрицание в Future Simple?", options: ["won't + глагол", "don't + глагол", "doesn't + глагол", "didn't + глагол", "isn't + глагол"], correctAnswer: "won't + глагол", hint: "won't = will not" },
+      { type: 'quiz', question: "В чём разница между will и going to?", options: ["Нет разницы", "Will — решение сейчас, going to — план", "Going to — только для прошлого", "Will — для прошлого, going to — для будущего", "Going to — более формальный"], correctAnswer: "Will — решение сейчас, going to — план", hint: "Will = мгновенное решение, going to = запланированное действие" }
     ],
     reward: { stars: 3, message: "Отлично! Ты говоришь о будущем! 🚀" }
   }

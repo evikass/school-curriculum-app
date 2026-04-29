@@ -807,7 +807,7 @@ export const games = [
         "break — выход из цикла, continue — пропуск итерации",
       ], correctAnswer: "Генерирует числа 0, 1, 2, 3, 4", hint: "От 0 до n-1" },
       { type: 'quiz', question: "Сколько чисел создаст range(1, 6)?", options: ["5", "6", "4", "7", "Аргумент"], correctAnswer: "5", hint: "Числа: 1, 2, 3, 4, 5" },
-      { type: 'quiz', question: "Как перебрать символы строки в Python?", options: ["for letter in", "for i in len(str)", "for char of", "while True", "for i in range()"], correctAnswer: "for letter in 'Hello'", hint: "Цикл for с переменной и строкой" },
+      { type: 'quiz', question: "Как перебрать символы строки в Python?", options: ["for letter in 'Hello'", "for i in len(str)", "for char of str", "while True", "for i in range()"], correctAnswer: "for letter in 'Hello'", hint: "Цикл for с переменной и строкой" },
       { type: 'quiz', question: "Что выведет цикл: for i in range(3): print(i)?", options: ["1, 2, 3", "0, 1, 2", "0, 1, 2, 3", "3, 2, 1", "Возвращаемое значение"], correctAnswer: "0, 1, 2", hint: "range(3) даёт числа от 0 до 2" },
       { type: 'quiz', question: "Какие числа сгенерирует range(0, 10, 2)?", options: ["0, 1, 2, 3, 4, 5", "0, 2, 4, 6, 8", "2, 4, 6, 8, 10", "1, 3, 5, 7, 9", "Синтаксис"], correctAnswer: "0, 2, 4, 6, 8", hint: "Третий параметр — шаг" }
     ],
@@ -832,7 +832,7 @@ export const games = [
       ], correctAnswer: "Когда условие становится ложным", hint: "Цикл выполняется, пока условие истинно" },
       { type: 'quiz', question: "Что делает оператор break?", options: ["Пропускает итерацию", "Выходит из цикла", "Продолжает цикл", "Останавливает программу", "Лексема"], correctAnswer: "Выходит из цикла", hint: "Прерывает выполнение цикла" },
       { type: 'quiz', question: "Что делает оператор continue?", options: ["Выходит из цикла", "Пропускает текущую итерацию", "Начинает программу заново", "Останавливает программу", "Токен"], correctAnswer: "Пропускает текущую итерацию", hint: "Переходит к следующей итерации" },
-      { type: 'quiz', question: "Какой цикл может быть бесконечным?", options: ["while True", "for i in range(10)", "for letter in", "for x in list", "while x > 0"], correctAnswer: "while True", hint: "Условие всегда истинно" },
+      { type: 'quiz', question: "Какой цикл может быть бесконечным?", options: ["while True", "for i in range(10)", "for letter in str", "for x in list", "while x > 0"], correctAnswer: "while True", hint: "Условие всегда истинно" },
       { type: 'quiz', question: "Чем цикл for отличается от while?", options: ["for — с предусловием", "for — перебор последовательности, while — пока условие истинно", "while — перебор", "Они полностью одинаковы", "Ключевое слово"], correctAnswer: "for — перебор последовательности, while — пока условие истинно", hint: "for используется для перебора, while для условия" }
     ],
     reward: { stars: 3, message: "Отлично! Ты освоил цикл while! ⏱️" }

@@ -962,7 +962,7 @@ export const games = [
         "While he was reading, his brother was playing. — Пока он читал, его брат играл. (Одновременные действия)",
       ], correctAnswer: "went", hint: "Yesterday = Past Simple" },
       { type: 'quiz', question: "Did she ___ (come) to the party?", options: ["comes", "came", "has come", "come", "coming"], correctAnswer: "come", hint: "Did + base form" },
-      { type: 'quiz', question: "He ___ his homework last night.", options: ["doesn", ",", "t do", "didn", "—"], correctAnswer: "didn't do", hint: "didn't + base form" },
+      { type: 'quiz', question: "He ___ his homework last night.", options: ["doesn't do", "don't do", "didn't do", "hasn't done", "won't do"], correctAnswer: "didn't do", hint: "didn't + base form" },
       { type: 'quiz', question: "They were ___ home yesterday.", options: ["at", "in", "on", "to", "Preposition"], correctAnswer: "at", hint: "at home" }
     ],
     reward: { stars: 3, message: "Great job! You understand Past Simple! ⏮️" }
@@ -1044,7 +1044,7 @@ export const games = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "You ___ smoke here. It's forbidden.", options: ["mustn", "can", "Travel", "t", ","],
+      { type: 'quiz', question: "You ___ smoke here. It's forbidden.", options: ["mustn't", "can't", "shouldn't", "don't have to", "needn't"],
       keyPoints: [
         "CAN — физическая возможность, умение:",
         "COULD — вежливая просьба, возможность в прошлом:",
