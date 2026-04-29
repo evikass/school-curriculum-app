@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { 
   X, BookOpen, Star, CheckCircle, 
-  Lightbulb, Target, Clock, Award, Gamepad2, Atom, ZoomIn
+  Lightbulb, Target, Clock, Award, Gamepad2, Atom
 } from 'lucide-react'
 import LessonContent from './LessonContent'
 import LessonAnimatedSVG from './LessonAnimatedSVG'
@@ -169,21 +169,14 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                     {/* Изображение урока */}
                     {lesson.image && (
                       <div 
-                        className="relative rounded-2xl overflow-hidden border-2 border-purple-400/30 mb-4 shadow-lg cursor-pointer group"
+                        className="rounded-2xl overflow-hidden border-2 border-purple-400/30 mb-4 shadow-lg cursor-pointer hover:border-purple-400/60 transition-colors"
                         onClick={() => setLightboxOpen(true)}
                       >
                         <img 
                           src={lesson.image} 
                           alt={lesson.title}
-                          className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                          className="w-full h-auto object-cover"
                         />
-                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300
-                                        flex items-center justify-center">
-                          <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300
-                                          bg-white/20 backdrop-blur-sm rounded-xl p-3">
-                            <ZoomIn className="w-8 h-8 text-white" />
-                          </div>
-                        </div>
                       </div>
                     )}
                     <div className="bg-white/5 rounded-2xl p-5 border border-white/10">

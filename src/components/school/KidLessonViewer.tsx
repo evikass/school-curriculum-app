@@ -7,7 +7,7 @@ import {
   Calculator, Palette, Music, Dumbbell, Globe, BookOpenText,
   Languages, Ruler, Shield, Map, Leaf, Atom, FlaskConical, Sigma, Shapes,
   Landmark, Users, Monitor, Hammer, HeartHandshake, Lightbulb, Cpu, Brush,
-  MapPin, Blocks, MessageSquare, Wallet, Smartphone, Bug, Pencil, MessageCircle, Code, X, ZoomIn
+  MapPin, Blocks, MessageSquare, Wallet, Smartphone, Bug, Pencil, MessageCircle, Code, X
 } from 'lucide-react'
 import { generateLessonQuiz } from '@/lib/lessonQuizGenerator'
 import LessonAnimatedSVG from './LessonAnimatedSVG'
@@ -340,7 +340,7 @@ export default function KidLessonViewer() {
             {'image' in selectedLesson && selectedLesson.image ? (
               <div className="flex justify-center mb-6">
                 <div 
-                  className="relative rounded-3xl overflow-hidden border-4 border-purple-400/30 shadow-2xl max-w-2xl w-full cursor-pointer group"
+                  className="rounded-3xl overflow-hidden border-4 border-purple-400/30 shadow-2xl max-w-2xl w-full cursor-pointer hover:border-purple-400/60 transition-colors"
                   onClick={() => {
                     setLightboxSrc(selectedLesson.image as string)
                     setLightboxAlt(selectedLesson.title)
@@ -350,19 +350,12 @@ export default function KidLessonViewer() {
                   <img 
                     src={selectedLesson.image as string} 
                     alt={selectedLesson.title}
-                    className="w-full h-auto transition-transform duration-300 group-hover:scale-[1.02]"
+                    className="w-full h-auto"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       target.style.display = 'none';
                     }}
                   />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300
-                                  flex items-center justify-center">
-                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300
-                                    bg-white/20 backdrop-blur-sm rounded-xl p-3">
-                      <ZoomIn className="w-8 h-8 text-white" />
-                    </div>
-                  </div>
                 </div>
               </div>
             ) : (
