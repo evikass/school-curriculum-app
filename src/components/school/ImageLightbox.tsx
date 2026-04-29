@@ -47,8 +47,8 @@ export default function ImageLightbox({ src, alt, isOpen, onClose }: ImageLightb
         <img
           src={src}
           alt={alt}
-          style={{ width: '95vw', maxHeight: '92vh', objectFit: 'contain' }}
-          onClick={(e) => e.stopPropagation()}
+          style={{ width: '95vw', maxHeight: '92vh', objectFit: 'contain', cursor: 'pointer' }}
+          onClick={onClose}
         />
       </div>
     ) : null,
