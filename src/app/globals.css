@@ -283,23 +283,31 @@ html {
   font-family: inherit;
 }
 
-/* Custom scrollbar */
+/* Scrollbar - minimal, non-intrusive */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #a855f7, #ec4899);
-  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #9333ea, #db2777);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* Hide vertical scrollbar but keep horizontal */
+.hide-vertical-scrollbar::-webkit-scrollbar:vertical {
+  display: none;
+}
+.hide-vertical-scrollbar {
+  scrollbar-width: none;
 }
 
 /* Shimmer effect for progress bars */
