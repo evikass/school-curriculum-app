@@ -9,10 +9,10 @@ import {
   Landmark, Users, Monitor, Hammer, HeartHandshake, Lightbulb, Cpu, Brush,
   MapPin, Blocks, MessageSquare, Wallet, Smartphone, Bug, Pencil, MessageCircle, Code, X, ZoomIn
 } from 'lucide-react'
-import { generateLessonQuiz } from '@/lib/lessonQuizGenerator'
 import LessonAnimatedSVG from './LessonAnimatedSVG'
 import PeriodicTable from './PeriodicTable'
 import ImageLightbox from './ImageLightbox'
+import LessonQuiz from './LessonQuiz'
 import { LessonTopic, LessonItem, GameLesson } from '@/data/types'
 
 // Helper function для получения имени игры (поддерживает name и title)
@@ -280,12 +280,13 @@ interface Lesson {
 }
 
 export default function KidLessonViewer() {
-  const { selectedSubject, goBack, completeTopic, addPoints, selectGame, selectGameFromLesson, games: contextGames, selectedLesson, selectLesson, isLessonTestCompleted } = useSchool()
+  const { selectedSubject, goBack, completeTopic, addPoints, selectGame, games: contextGames, selectedLesson, selectLesson, isLessonTestCompleted, markLessonTestCompleted } = useSchool()
   const [selectedTopicIndex, setSelectedTopicIndex] = useState<number | null>(null)
   const [showGames, setShowGames] = useState(false)
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(new Set())
   const [showPeriodicTable, setShowPeriodicTable] = useState(false)
   const [lightboxSrc, setLightboxSrc] = useState<string | null>(null)
+  const [showLessonQuiz, setShowLessonQuiz] = useState(false)
 
   const getEmoji = (title: string) => subjectEmojis[title] || '📖'
   
@@ -423,31 +424,9 @@ export default function KidLessonViewer() {
 
             {/* Кнопки действий */}
             <div className="mt-8 flex gap-4 justify-center flex-wrap">
-              {/* Кнопка Тест - всегда видна */}
+              {/* Кнопка Тест — 1 урок = 1 тест */}
               <button
-                onClick={() => {
-                  const subjectGames = games.filter(g =>
-                    g.subject === selectedSubject.title ||
-                    selectedSubject.title.toLowerCase().includes(g.subject.toLowerCase()) ||
-                    g.subject.toLowerCase().includes(selectedSubject.title.toLowerCase())
-                  )
-                  if (subjectGames.length > 0) {
-                    const randomGame = subjectGames[Math.floor(Math.random() * subjectGames.length)]
-                    selectGameFromLesson(randomGame)
-                  } else {
-                    const generatedGame = generateLessonQuiz(
-                      selectedLesson.title,
-                      selectedLesson.description,
-                      selectedSubject.title
-                    )
-                    if (generatedGame) {
-                      selectGameFromLesson(generatedGame)
-                    } else if (games.length > 0) {
-                      const randomGame = games[Math.floor(Math.random() * games.length)]
-                      selectGameFromLesson(randomGame)
-                    }
-                  }
-                }}
+                onClick={() => setShowLessonQuiz(true)}
                 className="px-8 py-4 text-xl font-bold 
                            bg-gradient-to-r from-purple-500 to-indigo-500 
                            hover:from-purple-400 hover:to-indigo-400
@@ -458,26 +437,13 @@ export default function KidLessonViewer() {
               </button>
 
               {/* Статус теста */}
-              {isLessonTestCompleted(selectedLesson.title) ? (
-                <button
-                  disabled
-                  className="px-8 py-4 text-xl font-bold 
+              {isLessonTestCompleted(selectedLesson.title) && (
+                <span className="px-8 py-4 text-xl font-bold 
                              bg-gradient-to-r from-green-500 to-emerald-500 
                              text-white rounded-2xl 
-                             flex items-center gap-3 shadow-xl cursor-default"
-                >
+                             flex items-center gap-3 shadow-xl cursor-default">
                   ✅ Пройдено!
-                </button>
-              ) : (
-                <button
-                  disabled
-                  className="px-8 py-4 text-xl font-bold 
-                             bg-gray-500/50 
-                             text-white/70 rounded-2xl 
-                             flex items-center gap-3 shadow-xl cursor-default"
-                >
-                  🔒 Не пройдено
-                </button>
+                </span>
               )}
 
               {/* Кнопка Понял */}
@@ -514,6 +480,17 @@ export default function KidLessonViewer() {
           alt={selectedLesson?.title || ''}
           isOpen={!!lightboxSrc}
           onClose={() => setLightboxSrc(null)}
+        />
+        
+        {/* Тест урока — 1 урок = 1 тест */}
+        <LessonQuiz
+          lessonTitle={selectedLesson.title}
+          lessonDescription={selectedLesson.description || selectedLesson.content || ''}
+          isOpen={showLessonQuiz}
+          onClose={() => setShowLessonQuiz(false)}
+          onComplete={() => {
+            markLessonTestCompleted(selectedLesson.title)
+          }}
         />
         
         {showPeriodicTable && (

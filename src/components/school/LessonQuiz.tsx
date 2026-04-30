@@ -1,11 +1,13 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import { createPortal } from 'react-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { 
   X, CheckCircle, XCircle, Trophy, Star, Sparkles, 
   RotateCcw, ChevronRight, HelpCircle
 } from 'lucide-react'
+import { generateLessonQuiz } from '@/lib/lessonQuizGenerator'
 
 interface LessonQuizProps {
   lessonTitle: string
@@ -17,43 +19,41 @@ interface LessonQuizProps {
 
 // Генерация вопросов на основе урока
 function generateQuestions(title: string, description: string) {
-  // Базовые вопросы на основе названия и описания
   const questions = []
   
-  // Вопрос 1: Основной термин из названия
+  // Извлечь ключевые термины из заголовка
   const keyTerms = title.match(/([А-ЯЁ][а-яё]+(?:\s+[а-яё]+)?)/g) || []
+  
+  // Вопрос 1: Ключевой термин
   if (keyTerms.length > 0) {
     questions.push({
-      type: 'understanding',
-      question: `Что означает термин "${keyTerms[0]}" в контексте данного урока?`,
+      question: `Что означает "${keyTerms[0]}" в данном уроке?`,
       options: [
         description.slice(0, 50) + '...',
-        'Научное понятие из учебника',
-        'Непонятное слово',
-        'Простое выражение'
+        'Не связано с уроком',
+        'Просто слово',
+        'Ошибка в тексте'
       ],
       correct: 0,
-      hint: 'Внимательно прочитай описание урока'
+      hint: 'Ответ в описании урока'
     })
   }
   
   // Вопрос 2: Проверка понимания
   questions.push({
-    type: 'comprehension',
     question: `Какое утверждение правильно описывает тему "${title}"?`,
     options: [
       description.slice(0, 60) + '...',
-      'Это сложная тема для взрослых',
       'Это не важно для изучения',
+      'Это сложная тема для взрослых',
       'Это просто теория без практики'
     ],
     correct: 0,
-    hint: 'Ответ находится в описании урока'
+    hint: 'Ответ в описании урока'
   })
   
-  // Вопрос 3: Применение знаний
+  // Вопрос 3: Применение
   questions.push({
-    type: 'application',
     question: 'Для чего нужно изучать эту тему?',
     options: [
       'Чтобы лучше понимать мир вокруг',
@@ -62,13 +62,12 @@ function generateQuestions(title: string, description: string) {
       'Чтобы получить хорошую оценку'
     ],
     correct: 0,
-    hint: 'Знания помогают нам развиваться'
+    hint: 'Знания помогают развиваться'
   })
   
   // Вопрос 4: Верно/неверно
   questions.push({
-    type: 'truefalse',
-    question: `Верно ли, что "${title}" является важной темой для изучения?`,
+    question: `Верно ли, что "${title}" — важная тема для изучения?`,
     options: ['Верно', 'Неверно'],
     correct: 0,
     hint: 'Все темы в учебнике важны'
@@ -91,10 +90,21 @@ export default function LessonQuiz({
   const [isComplete, setIsComplete] = useState(false)
   const [wrongAnswers, setWrongAnswers] = useState<number[]>([])
   
-  const questions = useMemo(() => 
-    generateQuestions(lessonTitle, lessonDescription), 
-    [lessonTitle, lessonDescription]
-  )
+  // Пробуем найти предметный тест из базы, иначе генерируем из описания
+  const questions = useMemo(() => {
+    // Сначала пробуем базу предметных вопросов
+    const gameLesson = generateLessonQuiz(lessonTitle, lessonDescription, '')
+    if (gameLesson && gameLesson.tasks.length > 0) {
+      return gameLesson.tasks.map(task => ({
+        question: task.question,
+        options: task.options,
+        correct: task.options.indexOf(task.correctAnswer as string),
+        hint: task.hint || ''
+      })).filter(q => q.correct >= 0)
+    }
+    // Иначе генерируем из описания урока
+    return generateQuestions(lessonTitle, lessonDescription)
+  }, [lessonTitle, lessonDescription])
   
   const handleAnswer = (answerIndex: number) => {
     if (showResult) return
@@ -116,8 +126,9 @@ export default function LessonQuiz({
       setSelectedAnswer(null)
       setShowResult(false)
     } else {
+      const finalScore = score + (selectedAnswer === questions[currentQuestion].correct ? 1 : 0)
       setIsComplete(true)
-      onComplete(score + (selectedAnswer === questions[currentQuestion].correct ? 1 : 0))
+      onComplete(finalScore)
     }
   }
   
@@ -130,15 +141,6 @@ export default function LessonQuiz({
     setWrongAnswers([])
   }
   
-  const getScoreMessage = () => {
-    const percentage = (score / questions.length) * 100
-    if (percentage >= 100) return { message: '🏆 Пройдено!', color: 'text-yellow-400' }
-    if (percentage >= 80) return { message: '🎉 Отлично!', color: 'text-green-400' }
-    if (percentage >= 60) return { message: '👍 Хорошо!', color: 'text-blue-400' }
-    if (percentage >= 40) return { message: '📝 Неплохо', color: 'text-orange-400' }
-    return { message: '💪 Попробуй ещё!', color: 'text-red-400' }
-  }
-  
   const getStars = () => {
     const percentage = (score / questions.length) * 100
     if (percentage >= 100) return 5
@@ -148,23 +150,32 @@ export default function LessonQuiz({
     return 1
   }
   
+  const getScoreMessage = () => {
+    const stars = getStars()
+    if (stars === 5) return { message: 'Пройдено!', color: 'text-yellow-400' }
+    if (stars === 4) return { message: 'Отлично!', color: 'text-green-400' }
+    if (stars === 3) return { message: 'Хорошо', color: 'text-blue-400' }
+    if (stars === 2) return { message: 'Неплохо', color: 'text-orange-400' }
+    return { message: 'Попробуй ещё', color: 'text-red-400' }
+  }
+
   if (!isOpen) return null
-  
-  return (
+
+  return createPortal(
     <AnimatePresence>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="fixed inset-0 z-50 flex items-center justify-center p-4
-                   bg-black/70 backdrop-blur-sm"
+        className="fixed inset-0 z-[100] flex items-center justify-center p-4
+                   bg-black/80 backdrop-blur-sm"
         onClick={(e) => e.target === e.currentTarget && onClose()}
       >
         <motion.div
           initial={{ scale: 0.8, opacity: 0, y: 50 }}
           animate={{ scale: 1, opacity: 1, y: 0 }}
           exit={{ scale: 0.8, opacity: 0, y: 50 }}
-          className="bg-gradient-to-br from-blue-900 to-indigo-900
+          className="bg-gradient-to-br from-indigo-900 to-purple-900
                      rounded-3xl max-w-lg w-full max-h-[85vh] overflow-hidden
                      shadow-2xl border-2 border-white/10 flex flex-col"
         >
@@ -172,13 +183,13 @@ export default function LessonQuiz({
           <div className="p-4 border-b border-white/10">
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-3">
-                <div className="p-2 bg-blue-500/30 rounded-xl">
-                  <HelpCircle className="w-5 h-5 text-blue-300" />
+                <div className="p-2 bg-purple-500/30 rounded-xl">
+                  <HelpCircle className="w-5 h-5 text-purple-300" />
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-white">Тест: {lessonTitle}</h3>
                   {!isComplete && (
-                    <p className="text-blue-300 text-sm">
+                    <p className="text-purple-300 text-sm">
                       Вопрос {currentQuestion + 1} из {questions.length}
                     </p>
                   )}
@@ -193,7 +204,7 @@ export default function LessonQuiz({
             {!isComplete && (
               <div className="mt-3 h-2 bg-white/10 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-blue-500 to-cyan-500"
+                  className="h-full bg-gradient-to-r from-purple-500 to-pink-500"
                   initial={{ width: 0 }}
                   animate={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
                 />
@@ -260,13 +271,13 @@ export default function LessonQuiz({
                 </div>
                 
                 {/* Hint */}
-                {showResult && (
+                {showResult && questions[currentQuestion].hint && (
                   <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="bg-blue-500/10 border border-blue-500/30 rounded-xl p-4"
+                    className="bg-purple-500/10 border border-purple-500/30 rounded-xl p-4"
                   >
-                    <p className="text-blue-300 text-sm">
+                    <p className="text-purple-300 text-sm">
                       💡 {questions[currentQuestion].hint}
                     </p>
                   </motion.div>
@@ -280,24 +291,24 @@ export default function LessonQuiz({
                 className="text-center py-8"
               >
                 <motion.div
-                  animate={{ rotate: [0, 360] }}
-                  transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
+                  animate={getStars() === 5 ? { rotate: [0, 360] } : {}}
+                  transition={{ duration: 2, repeat: getStars() === 5 ? Infinity : 0, ease: 'linear' }}
                   className="inline-block mb-4"
                 >
                   <Trophy className={`w-20 h-20 ${
-                    score === questions.length ? 'text-yellow-400' : 'text-blue-400'
+                    getStars() === 5 ? 'text-yellow-400' : 'text-purple-400'
                   }`} />
                 </motion.div>
                 
                 <h4 className="text-2xl font-bold text-white mb-2">
-                  Результат: {score} из {questions.length}
+                  {score} из {questions.length}
                 </h4>
                 
-                <p className={`text-lg mb-6 ${getScoreMessage().color}`}>
+                <p className={`text-lg mb-4 ${getScoreMessage().color}`}>
                   {getScoreMessage().message}
                 </p>
                 
-                {/* 5-star school grading system */}
+                {/* 5-star system */}
                 <div className="flex items-center justify-center gap-2 mb-6">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <Star
@@ -354,8 +365,8 @@ export default function LessonQuiz({
             <div className="p-4 border-t border-white/10">
               <button
                 onClick={nextQuestion}
-                className="w-full py-3 bg-gradient-to-r from-blue-500 to-cyan-500 
-                          hover:from-blue-600 hover:to-cyan-600
+                className="w-full py-3 bg-gradient-to-r from-purple-500 to-pink-500 
+                          hover:from-purple-600 hover:to-pink-600
                           text-white rounded-xl font-medium transition-colors
                           flex items-center justify-center gap-2"
               >
@@ -375,6 +386,7 @@ export default function LessonQuiz({
           )}
         </motion.div>
       </motion.div>
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   )
 }
