@@ -362,13 +362,14 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm overflow-y-auto"
+            className="fixed inset-0 z-[60] flex items-start justify-center bg-black/80 backdrop-blur-sm overflow-y-auto"
+            style={{ paddingTop: '6rem' }}
           >
             <motion.div
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
-              className="w-full max-w-7xl my-8"
+              className="w-full max-w-7xl mx-4 mb-8"
             >
               <PeriodicTable onClose={() => setShowPeriodicTable(false)} />
             </motion.div>
