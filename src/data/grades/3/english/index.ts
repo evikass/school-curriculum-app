@@ -1335,6 +1335,7 @@ Head, shoulders, knees and toes, knees and toes!»
 export const games: GameLesson[] = [
   {
     title: "Numbers in English",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23db2777%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3ENumbers%20in%20English%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3EABC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -1345,9 +1346,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какое число «seventeen»?", options: ["16", "17", "18", "Никто не знает", "Не знаю"], correctAnswer: "17", hint: "Seven + teen = seventeen" }
     ],
     reward: { stars: 3, message: "Great! You know numbers! 🔢" }
+    keyPoints: ['Основные понятия темы «Numbers in English»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Numbers in English — practice English skills', 'Практическое задание по теме «Numbers in English»'],
   },
   {
     title: "Colors in English",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23db2777%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3EColors%20in%20English%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3EABC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -1358,9 +1362,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как будет «оранжевый»?", options: ["orange", "purple", "pink", "Никто не знает", "Не знаю"], correctAnswer: "orange", hint: "Orange fruit is orange!" }
     ],
     reward: { stars: 3, message: "Excellent! You know colors! 🎨" }
+    keyPoints: ['Основные понятия темы «Colors in English»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Colors in English — practice English skills', 'Практическое задание по теме «Colors in English»'],
   },
   {
     title: "Family Members",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23db2777%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3EFamily%20Members%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3EABC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -1371,9 +1378,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "«Father» — это:", options: ["отец", "дедушка", "брат", "Никто не знает", "Не знаю"], correctAnswer: "отец", hint: "Father = папа, отец" }
     ],
     reward: { stars: 3, message: "Great! You know family! 👨‍👩‍👧‍👦" }
+    keyPoints: ['Основные понятия темы «Family Members»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Family Members — practice English skills', 'Практическое задание по теме «Family Members»'],
   },
   {
     title: "Animals in English",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23db2777%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3EAnimals%20in%20English%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3EABC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -1384,9 +1394,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Elephant — это __", options: ["зебра", "медведь", "лев", "слон", "обезьяна"], correctAnswer: "слон", hint: "Big grey animal with a trunk 🐘" }
     ],
     reward: { stars: 3, message: "Super! You know animals! 🐾" }
+    keyPoints: ['Основные понятия темы «Animals in English»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Animals in English — practice English skills', 'Практическое задание по теме «Animals in English»'],
   },
   {
     title: "Food and Drinks",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23db2777%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3EFood%20and%20Drinks%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3EABC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -1397,9 +1410,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Banana — это __", options: ["груша", "апельсин", "арбуз", "виноград", "банан"], correctAnswer: "банан", hint: "Yellow fruit 🍌" }
     ],
     reward: { stars: 3, message: "Excellent! You know food! 🍎" }
+    keyPoints: ['Основные понятия темы «Food and Drinks»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Food and Drinks — practice English skills', 'Практическое задание по теме «Food and Drinks»'],
   },
   {
     title: "Days and Months",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23db2777%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3EDays%20and%20Months%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3EABC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -1410,9 +1426,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как будет «лето»?", options: ["spring", "summer", "winter", "Никто не знает", "Не знаю"], correctAnswer: "summer", hint: "Hot season with holidays ☀️" }
     ],
     reward: { stars: 3, message: "Great! You know calendar! 📅" }
+    keyPoints: ['Основные понятия темы «Days and Months»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Days and Months — practice English skills', 'Практическое задание по теме «Days and Months»'],
   },
   {
     title: "Body Parts",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23db2777%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3EBody%20Parts%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3EABC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -1423,9 +1442,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "«Hands» — это:", options: ["ноги", "руки", "уши", "Никто не знает", "Не знаю"], correctAnswer: "руки", hint: "You write with your hands ✋" }
     ],
     reward: { stars: 3, message: "Super! You know body parts! 🫀" }
+    keyPoints: ['Основные понятия темы «Body Parts»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Body Parts — practice English skills', 'Практическое задание по теме «Body Parts»'],
   },
   {
     title: "Basic Phrases",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23db2777%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3EBasic%20Phrases%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3EABC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -1436,5 +1458,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "«Как дела?» — How __ you?", options: ["do", "am", "have", "are", "is"], correctAnswer: "are", hint: "How are you?" }
     ],
     reward: { stars: 3, message: "Excellent! You know phrases! 💬" }
+    keyPoints: ['Основные понятия темы «Basic Phrases»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Basic Phrases — practice English skills', 'Практическое задание по теме «Basic Phrases»'],
   }
 ]

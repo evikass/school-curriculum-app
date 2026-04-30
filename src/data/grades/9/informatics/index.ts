@@ -14,13 +14,19 @@ const lessons: SubjectData = {
     'Коммуникационные технологии',
     'Информационное моделирование'
   ],
+          examples: [
+            'Пример: Информатика'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Информатика'
+          ],
   detailedTopics: [
     {
       topic: 'Информация и информационные процессы',
       lessons: [
         {
           title: 'Информационный объём',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson1.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BE%D0%B1%D1%8A%D1%91%D0%BC%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Информационный объём — количество информации**
 
 **Информационный объём** — это количество информации, содержащейся в сообщении. Измеряется в битах, байтах, Кбайтах и т.д.
@@ -106,7 +112,7 @@ const lessons: SubjectData = {
         },
         {
           title: 'Кодирование информации',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson2.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Кодирование — преобразование информации**
 
 **Кодирование** — это процесс преобразования информации из одной формы представления в другую с помощью определённого кода.
@@ -209,7 +215,7 @@ I = f × i × t × k
       lessons: [
         {
           title: 'Электронные таблицы: основы',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson3.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8B%3A%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Электронные таблицы — инструмент для работы с данными**
 
 **Электронные таблицы** — это программы для обработки числовых данных в табличной форме. Примеры: Microsoft Excel, LibreOffice Calc, Google Sheets.
@@ -292,7 +298,7 @@ I = f × i × t × k
         },
         {
           title: 'Функции в электронных таблицах',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson4.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B2%20%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%D1%85%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Функции — готовые формулы**
 
 **Функция** — это заранее определённая формула, которая выполняет вычисления по заданным значениям (аргументам).
@@ -378,7 +384,7 @@ I = f × i × t × k
         },
         {
           title: 'Диаграммы и графики',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson5.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B8%20%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Диаграмма — графическое представление данных**
 
 **Диаграмма** — это графическое изображение, показывающее соотношение между данными. Диаграммы делают информацию наглядной и понятной.
@@ -496,7 +502,7 @@ I = f × i × t × k
       lessons: [
         {
           title: 'Массивы: основы',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson6.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%9C%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D1%8B%3A%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Массив — упорядоченный набор данных**
 
 **Массив** — это упорядоченная совокупность однотипных данных, доступ к которым осуществляется по индексу.
@@ -608,7 +614,7 @@ end.
         },
         {
           title: 'Алгоритмы обработки массивов',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson7.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%BE%D0%B2%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Основные алгоритмы работы с массивами**
 
 ---
@@ -758,7 +764,7 @@ for i := 1 to n-1 do
         },
         {
           title: 'Строки и символы',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson8.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%A1%D1%82%D1%80%D0%BE%D0%BA%D0%B8%20%D0%B8%20%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D1%8B%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Строка — последовательность символов**
 
 **Строка** — это упорядоченная последовательность символов. В Паскале строки имеют тип \`string\`.
@@ -884,7 +890,7 @@ end;
         },
         {
           title: 'Подпрограммы: процедуры и функции',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson9.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%9F%D0%BE%D0%B4%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%3A%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%B4%D1%83%D1%80%D1%8B%20%D0%B8%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Подпрограммы — повторно используемый код**
 
 **Подпрограмма** — это именованный, логически законченный фрагмент программы, который можно многократно вызывать из разных мест программы.
@@ -1038,7 +1044,7 @@ end.
       lessons: [
         {
           title: 'Модели и моделирование',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson10.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%20%D0%B8%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Модель — упрощённое подобие объекта**
 
 **Модель** — это объект-заместитель, который отражает существенные свойства оригинала.
@@ -1136,7 +1142,7 @@ end.
         },
         {
           title: 'Графические модели: графы',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson11.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%3A%20%D0%B3%D1%80%D0%B0%D1%84%D1%8B%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Граф — модель системы связей**
 
 **Граф** — это совокупность вершин (узлов), соединённых рёбрами (линиями). Графы используются для моделирования связей и отношений.
@@ -1255,7 +1261,7 @@ AB, AC, BC, BD
       lessons: [
         {
           title: 'Интернет-технологии',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson12.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Интернет — глобальная сеть**
 
 **Интернет** — это всемирная система объединённых компьютерных сетей, использующая протоколы TCP/IP для передачи данных.
@@ -1376,7 +1382,7 @@ AB, AC, BC, BD
       lessons: [
         {
           title: 'Архитектура компьютера',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson13.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B0%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Компьютер — универсальное устройство обработки информации**
 
 **Компьютер** — это универсальное техническое устройство для работы с информацией. Он может обрабатывать данные любого вида: текст, изображения, звук, видео.
@@ -1477,7 +1483,7 @@ AB, AC, BC, BD
       lessons: [
         {
           title: 'Текстовый редактор',
-          image: "/school-curriculum-app/images/lessons/grade9/informatics/lesson14.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%A2%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `**Текстовый редактор — программа для работы с текстом**
 
 **Текстовый редактор** — это программа для создания, редактирования и форматирования текстовых документов.
@@ -1567,6 +1573,7 @@ AB, AC, BC, BD
 export const games = [
   {
     title: 'Информационный объём',
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230284c7%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BE%D0%B1%D1%8A%D1%91%D0%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: 'Информатика',
     icon: 'HardDrive',
     color: 'text-blue-400',
@@ -1577,10 +1584,17 @@ export const games = [
       { type: 'quiz', question: '1 Кбайт = 1024 байт', options: ['1024', '1024ing', '1024ed', '1024s', 'un1024'], correctAnswer: '1024', hint: '2¹⁰' },
       { type: 'quiz', question: 'Сообщение из 50 символов при 8 битах на символ занимает:', options: ['50 бит', '400 бит', '50 байт', '400 байт', 'Другой ответ'], correctAnswer: '400 бит', hint: 'I = K × i' }
     ],
+          examples: [
+            'Пример: Информационный объём'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Информационный объём'
+          ],
     reward: { stars: 3, message: 'Ты понимаешь информационный объём! 💾' }
   },
   {
     title: 'Кодирование информации',
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230284c7%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: 'Информатика',
     icon: 'Code',
     color: 'text-green-400',
@@ -1591,10 +1605,17 @@ export const games = [
       { type: 'quiz', question: 'Сколько байт занимает изображение 10×10 пикселей с глубиной цвета 24 бита?', options: ['100 байт', '240 байт', '300 байт', '2400 байт', 'Другой ответ'], correctAnswer: '300 байт', hint: 'I = K × i / 8' },
       { type: 'quiz', question: 'ASCII кодирует 128 символов.', options: ['128', '128ing', '128ed', '128s', 'un128'], correctAnswer: '128', hint: '7 бит на символ' }
     ],
+          examples: [
+            'Пример: Кодирование информации'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Кодирование информации'
+          ],
     reward: { stars: 3, message: 'Ты понимаешь кодирование! 🔢' }
   },
   {
     title: 'Электронные таблицы: основы',
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230284c7%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8B%3A%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: 'Информатика',
     icon: 'Table',
     color: 'text-emerald-400',
@@ -1605,10 +1626,17 @@ export const games = [
       { type: 'quiz', question: 'Как записать абсолютную ссылку на ячейку A1?', options: ['A1', '$A$1', 'A$1', '$A1', 'Другой ответ'], correctAnswer: '$A$1', hint: 'Знаки $ перед буквой и числом' },
       { type: 'quiz', question: 'Диапазон ячеек от A1 до B5 записывается как A1:B5 .', options: ['A1:B5', 'A1:B5ing', 'A1:B5ed', 'A1:B5s', 'unA1:B5'], correctAnswer: 'A1:B5', hint: 'Двоеточие' }
     ],
+          examples: [
+            'Пример: Электронные таблицы: основы'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Электронные таблицы: основы'
+          ],
     reward: { stars: 3, message: 'Ты понимаешь электронные таблицы! 📊' }
   },
   {
     title: 'Функции в электронных таблицах',
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230284c7%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B2%20%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%D1%85%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: 'Информатика',
     icon: 'FunctionSquare',
     color: 'text-purple-400',
@@ -1619,10 +1647,17 @@ export const games = [
       { type: 'quiz', question: 'Формула =ЕСЛИ(A1>5; "да"; "нет") при A1=3 вернёт:', options: ['да', 'нет', '3', 'ошибка', 'Другой ответ'], correctAnswer: 'нет', hint: '3 < 5' },
       { type: 'quiz', question: 'Функция СЧЁТЕСЛИ подсчитывает количество ячеек по условию.', options: ['СЧЁТЕСЛИ', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'СЧЁТЕСЛИ', hint: 'COUNTIF' }
     ],
+          examples: [
+            'Пример: Функции в электронных таблицах'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Функции в электронных таблицах'
+          ],
     reward: { stars: 3, message: 'Ты понимаешь функции! ⚙️' }
   },
   {
     title: 'Диаграммы и графики',
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230284c7%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B8%20%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: 'Информатика',
     icon: 'BarChart',
     color: 'text-orange-400',
@@ -1633,10 +1668,17 @@ export const games = [
       { type: 'quiz', question: 'Для отображения динамики во времени используют:', options: ['Круговую диаграмму', 'Линейный график', 'Точечную диаграмму', 'Гистограмму', 'Другой ответ'], correctAnswer: 'Линейный график', hint: 'Кривая линия' },
       { type: 'quiz', question: 'Сумма секторов круговой диаграммы равна 100%.', options: ['100', '100ing', '100ed', '100s', 'un100'], correctAnswer: '100', hint: 'Целое' }
     ],
+          examples: [
+            'Пример: Диаграммы и графики'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Диаграммы и графики'
+          ],
     reward: { stars: 3, message: 'Ты понимаешь диаграммы! 📈' }
   },
   {
     title: 'Массивы: основы',
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230284c7%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D1%8B%3A%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: 'Информатика',
     icon: 'Brackets',
     color: 'text-cyan-400',
@@ -1647,10 +1689,17 @@ export const games = [
       { type: 'quiz', question: 'a[3] — это:', options: ['Третий элемент массива a', 'Массив из 3 элементов', 'Три массива a', 'Имя массива', 'Другой ответ'], correctAnswer: 'Третий элемент массива a', hint: 'Индекс в квадратных скобках' },
       { type: 'quiz', question: 'Все элементы массива имеют один и тот же тип .', options: ['тип', 'типing', 'типed', 'типs', 'unтип'], correctAnswer: 'тип', hint: 'Целый, вещественный...' }
     ],
+          examples: [
+            'Пример: Массивы: основы'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Массивы: основы'
+          ],
     reward: { stars: 3, message: 'Ты понимаешь массивы! 📋' }
   },
   {
     title: 'Алгоритмы обработки массивов',
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230284c7%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%BE%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: 'Информатика',
     icon: 'Cpu',
     color: 'text-red-400',
@@ -1661,10 +1710,17 @@ export const games = [
       { type: 'quiz', question: 'Для подсчёта элементов по условию используют:', options: ['Переменную-счётчик', 'Массив', 'Строку', 'Файл', 'Другой ответ'], correctAnswer: 'Переменную-счётчик', hint: 'k := k + 1' },
       { type: 'quiz', question: 'Начальное значение при поиске произведения — 1 .', options: ['1', '1ing', '1ed', '1s', 'un1'], correctAnswer: '1', hint: 'Нейтральный элемент умножения' }
     ],
+          examples: [
+            'Пример: Алгоритмы обработки массивов'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Алгоритмы обработки массивов'
+          ],
     reward: { stars: 3, message: 'Ты понимаешь алгоритмы! 🔄' }
   },
   {
     title: 'Строки и символы',
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230284c7%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D1%80%D0%BE%D0%BA%D0%B8%20%D0%B8%20%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: 'Информатика',
     icon: 'Type',
     color: 'text-pink-400',
@@ -1675,10 +1731,17 @@ export const games = [
       { type: 'quiz', question: 'copy(s, 2, 3) копирует:', options: ['2 и 3 символ', '3 символа начиная со 2-го', '2 символа начиная с 3-го', 'Символы 2-5', 'Другой ответ'], correctAnswer: '3 символа начиная со 2-го', hint: 'copy(строка, позиция, количество)' },
       { type: 'quiz', question: 'Процедура delete удаляет символы из строки.', options: ['delete', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'delete', hint: 'Удаление' }
     ],
+          examples: [
+            'Пример: Строки и символы'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Строки и символы'
+          ],
     reward: { stars: 3, message: 'Ты понимаешь строки! 🔤' }
   },
   {
     title: 'Подпрограммы',
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230284c7%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D0%B4%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: 'Информатика',
     icon: 'Box',
     color: 'text-violet-400',
@@ -1689,10 +1752,17 @@ export const games = [
       { type: 'quiz', question: 'Переменные, описанные внутри подпрограммы:', options: ['Глобальные', 'Локальные', 'Статические', 'Динамические', 'Другой ответ'], correctAnswer: 'Локальные', hint: 'Доступны только внутри' },
       { type: 'quiz', question: 'Параметры в заголовке подпрограммы — формальные параметры.', options: ['формальные', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'формальные', hint: 'При описании' }
     ],
+          examples: [
+            'Пример: Подпрограммы'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Подпрограммы'
+          ],
     reward: { stars: 3, message: 'Ты понимаешь подпрограммы! 📦' }
   },
   {
     title: 'Модели и моделирование',
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230284c7%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%20%D0%B8%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: 'Информатика',
     icon: 'Layers',
     color: 'text-amber-400',
@@ -1703,10 +1773,17 @@ export const games = [
       { type: 'quiz', question: 'Процесс построения информационных моделей:', options: ['Моделирование', 'Формализация', 'Алгоритмизация', 'Программирование', 'Другой ответ'], correctAnswer: 'Формализация', hint: 'Формальный язык' },
       { type: 'quiz', question: 'Соответствие модели реальному объекту — адекватность .', options: ['адекватность', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'адекватность', hint: 'Точность модели' }
     ],
+          examples: [
+            'Пример: Модели и моделирование'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Модели и моделирование'
+          ],
     reward: { stars: 3, message: 'Ты понимаешь моделирование! 🧱' }
   },
   {
     title: 'Графические модели: графы',
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230284c7%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%3A%20%D0%B3%D1%80%D0%B0%D1%84%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: 'Информатика',
     icon: 'Share2',
     color: 'text-teal-400',
@@ -1717,10 +1794,17 @@ export const games = [
       { type: 'quiz', question: 'Генеалогическое древо — это пример:', options: ['Сети', 'Дерева', 'Цикла', 'Графа с петлями', 'Другой ответ'], correctAnswer: 'Дерева', hint: 'Иерархическая структура' },
       { type: 'quiz', question: 'Вершины графа соединяются рёбрами .', options: ['рёбрами', 'Другой вариант', 'Неверно', 'Не подходит', 'Нет ответа'], correctAnswer: 'рёбрами', hint: 'Линии связи' }
     ],
+          examples: [
+            'Пример: Графические модели: графы'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Графические модели: графы'
+          ],
     reward: { stars: 3, message: 'Ты понимаешь графы! 🔗' }
   },
   {
     title: 'Интернет-технологии',
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230284c7%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: 'Информатика',
     icon: 'Globe',
     color: 'text-blue-500',
@@ -1732,8 +1816,16 @@ export const games = [
       { type: 'quiz', question: 'Домен верхнего уровня для России — .ru .', options: ['.ru', '.ruing', '.rued', '.rus', 'un.ru'], correctAnswer: '.ru', hint: 'Код страны' }
     ],
     reward: { stars: 3, message: 'Ты понимаешь Интернет! 🌐' }
+    keyPoints: ['Основные понятия темы «Интернет-технологии»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Интернет-технологии — работа с информацией', 'Практическое задание по теме «Интернет-технологии»'],
   }
-]
+],
+          examples: [
+            'Пример: Интернет-технологии'
+          ],
+          keyPoints: [
+            'Ключевое понятие: Интернет-технологии'
+          ]
 
 export { lessons }
 

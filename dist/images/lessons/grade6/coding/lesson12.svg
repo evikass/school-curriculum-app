@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/><rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/><polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/><polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/><polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/><polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/><circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/><circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/><text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Функции и модули</text><text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Основы программирования - Урок 12</text><line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/><rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/><rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<!-- Function Machine -->
+<g transform="translate(40,105)">
+  <!-- Machine body -->
+  <rect x="0" y="20" width="160" height="120" rx="8" fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/>
+  <!-- Funnel input -->
+  <polygon points="30,20 90,20 75,-15 45,-15" fill="#90CAF9" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="60" y="-2" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">ВХОД</text>
+  <!-- Input value -->
+  <circle cx="60" cy="-25" r="14" fill="#FF8F00" stroke="#E65100" stroke-width="1.5"/>
+  <text x="60" y="-21" font-family="Arial,sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">5</text>
+  <!-- Gear inside machine -->
+  <g transform="translate(80,80)" opacity="0.3">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#1565C0" stroke-width="2"/>
+    <circle cx="0" cy="0" r="6" fill="#1565C0"/>
+    <line x1="0" y1="-18" x2="0" y2="-22" stroke="#1565C0" stroke-width="3"/>
+    <line x1="0" y1="18" x2="0" y2="22" stroke="#1565C0" stroke-width="3"/>
+    <line x1="-18" y1="0" x2="-22" y2="0" stroke="#1565C0" stroke-width="3"/>
+    <line x1="18" y1="0" x2="22" y2="0" stroke="#1565C0" stroke-width="3"/>
+    <line x1="-13" y1="-13" x2="-16" y2="-16" stroke="#1565C0" stroke-width="3"/>
+    <line x1="13" y1="13" x2="16" y2="16" stroke="#1565C0" stroke-width="3"/>
+    <line x1="-13" y1="13" x2="-16" y2="16" stroke="#1565C0" stroke-width="3"/>
+    <line x1="13" y1="-13" x2="16" y2="-16" stroke="#1565C0" stroke-width="3"/>
+  </g>
+  <!-- Machine label -->
+  <text x="80" y="55" font-family="Arial,sans-serif" font-size="12" fill="#0D47A1" text-anchor="middle" font-weight="bold">умножь(x, 2)</text>
+  <text x="80" y="115" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" opacity="0.6">x * 2 = результат</text>
+  <!-- Output pipe -->
+  <rect x="130" y="70" width="40" height="20" rx="3" fill="#90CAF9" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="150" y="84" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">ВЫХОД</text>
+  <!-- Output value -->
+  <circle cx="195" cy="80" r="16" fill="#2E7D32" stroke="#1B5E20" stroke-width="1.5"/>
+  <text x="195" y="85" font-family="Arial,sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">10</text>
+</g>
+<!-- Modules/Puzzle pieces -->
+<g transform="translate(280,92)">
+  <rect x="0" y="0" width="195" height="28" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="97" y="18" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle" font-weight="bold">Модули - части программы</text>
+</g>
+<!-- Module 1: Movement -->
+<g transform="translate(280,128)">
+  <rect x="0" y="0" width="90" height="55" rx="6" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+  <!-- Puzzle nub top -->
+  <rect x="35" y="-6" width="20" height="12" rx="6" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+  <rect x="37" y="-3" width="16" height="6" rx="3" fill="#E3F2FD"/>
+  <!-- Puzzle nub right -->
+  <rect x="84" y="18" width="12" height="20" rx="6" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+  <rect x="87" y="21" width="6" height="14" rx="3" fill="#E3F2FD"/>
+  <!-- Icon -->
+  <polygon points="45,20 55,12 50,12 50,8 40,8 40,12 35,12" fill="#42A5F5" opacity="0.6"/>
+  <text x="45" y="42" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">Движение</text>
+</g>
+<!-- Module 2: Graphics -->
+<g transform="translate(383,128)">
+  <rect x="0" y="0" width="90" height="55" rx="6" fill="#F3E5F5" stroke="#9C27B0" stroke-width="1.5"/>
+  <!-- Puzzle nub top -->
+  <rect x="35" y="-6" width="20" height="12" rx="6" fill="#F3E5F5" stroke="#9C27B0" stroke-width="1.5"/>
+  <rect x="37" y="-3" width="16" height="6" rx="3" fill="#F3E5F5"/>
+  <!-- Icon -->
+  <circle cx="45" cy="22" r="10" fill="#CE93D8" opacity="0.4"/>
+  <rect x="38" y="15" width="14" height="14" rx="2" fill="#9C27B0" opacity="0.4"/>
+  <text x="45" y="42" font-family="Arial,sans-serif" font-size="9" fill="#9C27B0" text-anchor="middle" font-weight="bold">Графика</text>
+</g>
+<!-- Module 3: Sound -->
+<g transform="translate(280,195)">
+  <rect x="0" y="0" width="90" height="55" rx="6" fill="#FFF3E0" stroke="#FF8F00" stroke-width="1.5"/>
+  <!-- Puzzle nub right -->
+  <rect x="84" y="18" width="12" height="20" rx="6" fill="#FFF3E0" stroke="#FF8F00" stroke-width="1.5"/>
+  <rect x="87" y="21" width="6" height="14" rx="3" fill="#FFF3E0"/>
+  <!-- Icon - music note -->
+  <circle cx="40" cy="30" r="5" fill="#FF8F00" opacity="0.5"/>
+  <line x1="45" y1="30" x2="45" y2="15" stroke="#FF8F00" stroke-width="1.5"/>
+  <circle cx="40" cy="30" r="5" fill="none" stroke="#FF8F00" stroke-width="1"/>
+  <text x="45" y="48" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">Звук</text>
+</g>
+<!-- Module 4: Logic -->
+<g transform="translate(383,195)">
+  <rect x="0" y="0" width="90" height="55" rx="6" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+  <!-- Icon - gears -->
+  <circle cx="40" cy="20" r="8" fill="none" stroke="#C62828" stroke-width="1.2" opacity="0.5"/>
+  <circle cx="55" cy="25" r="6" fill="none" stroke="#C62828" stroke-width="1.2" opacity="0.5"/>
+  <text x="45" y="48" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">Логика</text>
+</g>
+<!-- "My Blocks" definition -->
+<g transform="translate(280,260)">
+  <rect x="0" y="0" width="195" height="38" rx="5" fill="#FFC107" stroke="#FF8F00" stroke-width="1"/>
+  <text x="97" y="14" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Определи: прыгни(высота)</text>
+  <!-- Inner blocks -->
+  <rect x="10" y="20" width="175" height="14" rx="3" fill="#4FC3F7" opacity="0.7"/>
+  <text x="97" y="30" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">сдвинься на (высота) шагов</text>
+</g>
+<!-- Connection lines from modules -->
+<path d="M280,80 Q270,90 250,92" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="3,2" opacity="0.4"/>
+<rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/><text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Функции и модули</text></svg>

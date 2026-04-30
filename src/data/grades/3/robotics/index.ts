@@ -552,6 +552,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Тест: Урок 1: 📋 Детали Lego",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%81%D1%82%3A%20%D0%A3%D1%80%D0%BE%D0%BA%201%3A%20%F0%9F%93%8B%20%D0%94%D0%B5%D1%82%D0%B0%D0%BB%D0%B8%20Lego%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -562,9 +563,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Зубчатое колесо передаёт __ движение', options: ["прямолинейное", "случайное", "поступательное", "колебательное", "вращательное"], correctAnswer: 'вращательное', hint: 'Колесо вращается!' }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь детали Lego! 🤖" }
+    keyPoints: ['Основные понятия темы «Тест: Урок 1: 📋 Детали Lego»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Тест: Урок 1: 📋 Детали Lego — конструирование и программирование', 'Практическое задание по теме «Тест: Урок 1: 📋 Детали Lego»'],
   },
   {
     title: "Тест: Урок 2: 📋 Соединения деталей",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%81%D1%82%3A%20%D0%A3%D1%80%D0%BE%D0%BA%202%3A%20%F0%9F%93%8B%20%D0%A1%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D0%B5%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -575,9 +579,12 @@ export const games: GameLesson[] = [
       { type: 'find', question: 'Выбери типы соединений деталей:', options: ['Жёсткое', 'Подвижное', 'Шарнирное', 'Магнитное', 'Клеевое'], correctAnswer: ['Жёсткое', 'Подвижное', 'Шарнирное'], hint: 'В Lego используются три основных типа соединений' }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь конструировать! 🔧" }
+    keyPoints: ['Основные понятия темы «Тест: Урок 2: 📋 Соединения деталей»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Тест: Урок 2: 📋 Соединения деталей — конструирование и программирование', 'Практическое задание по теме «Тест: Урок 2: 📋 Соединения деталей»'],
   },
   {
     title: "Тест: Урок 3: 📋 Базовые конструкции",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%81%D1%82%3A%20%D0%A3%D1%80%D0%BE%D0%BA%203%3A%20%F0%9F%93%8B%20%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -588,9 +595,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Где должен находиться центр тяжести для устойчивости?', options: ['Высоко', 'Низко', 'Сбоку', 'Неважно', 'Не знаю'], correctAnswer: 'Низко', hint: 'Низкий центр тяжести — устойчивее робот' }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь основы конструирования! 🏗️" }
+    keyPoints: ['Основные понятия темы «Тест: Урок 3: 📋 Базовые конструкции»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Тест: Урок 3: 📋 Базовые конструкции — конструирование и программирование', 'Практическое задание по теме «Тест: Урок 3: 📋 Базовые конструкции»'],
   },
   {
     title: "Тест: Урок 4: 📋 Простые машины",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%81%D1%82%3A%20%D0%A3%D1%80%D0%BE%D0%BA%204%3A%20%F0%9F%93%8B%20%D0%9F%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%B5%20%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -601,9 +611,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Какой этап создания проекта должен быть первым?', options: ['Выбрать проект', 'Собрать конструкцию', 'Протестировать', 'Презентовать', 'Не знаю'], correctAnswer: 'Выбрать проект', hint: 'Сначала выбери, потом собирай!' }
     ],
     reward: { stars: 3, message: "Супер! Ты создаёшь простые машины! 🚗" }
+    keyPoints: ['Основные понятия темы «Тест: Урок 4: 📋 Простые машины»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Тест: Урок 4: 📋 Простые машины — конструирование и программирование', 'Практическое задание по теме «Тест: Урок 4: 📋 Простые машины»'],
   },
   {
     title: "Тест: Урок 5: 📋 Зубчатые передачи",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%81%D1%82%3A%20%D0%A3%D1%80%D0%BE%D0%BA%205%3A%20%F0%9F%93%8B%20%D0%97%D1%83%D0%B1%D1%87%D0%B0%D1%82%D1%8B%D0%B5%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -614,9 +627,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Шестерни передают __ от одной оси к другой', options: ["движение", "вращение", "силу", "скорость", "энергию"], correctAnswer: 'вращение', hint: 'Зубья зацепляются друг с другом' }
     ],
     reward: { stars: 3, message: "Супер! Ты понимаешь механизмы! ⚙️" }
+    keyPoints: ['Основные понятия темы «Тест: Урок 5: 📋 Зубчатые передачи»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Тест: Урок 5: 📋 Зубчатые передачи — конструирование и программирование', 'Практическое задание по теме «Тест: Урок 5: 📋 Зубчатые передачи»'],
   },
   {
     title: "Тест: Урок 6: 📋 Рычаги и баланс",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%81%D1%82%3A%20%D0%A3%D1%80%D0%BE%D0%BA%206%3A%20%F0%9F%93%8B%20%D0%A0%D1%8B%D1%87%D0%B0%D0%B3%D0%B8%20%D0%B8%20%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -627,9 +643,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Где находится точка опоры у качелей?', options: ['Сбоку', 'Посередине', 'Снизу', 'Сверху', 'Не знаю'], correctAnswer: 'Посередине', hint: 'Качели балансируют на центральной опоре' }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь принцип рычага! ⚖️" }
+    keyPoints: ['Основные понятия темы «Тест: Урок 6: 📋 Рычаги и баланс»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Тест: Урок 6: 📋 Рычаги и баланс — конструирование и программирование', 'Практическое задание по теме «Тест: Урок 6: 📋 Рычаги и баланс»'],
   },
   {
     title: "Тест: Урок 7: 📋 Колёсные механизмы",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%81%D1%82%3A%20%D0%A3%D1%80%D0%BE%D0%BA%207%3A%20%F0%9F%93%8B%20%D0%9A%D0%BE%D0%BB%D1%91%D1%81%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%B7%D0%BC%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -640,9 +659,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Колесо уменьшает __ при движении', options: ["объём", "скорость", "трение", "размер", "вес"], correctAnswer: 'трение', hint: 'Катить легче, чем скользить' }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь работу колёс! 🛞" }
+    keyPoints: ['Основные понятия темы «Тест: Урок 7: 📋 Колёсные механизмы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Тест: Урок 7: 📋 Колёсные механизмы — конструирование и программирование', 'Практическое задание по теме «Тест: Урок 7: 📋 Колёсные механизмы»'],
   },
   {
     title: "Тест: Урок 8: 📋 Кулачковые механизмы",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%81%D1%82%3A%20%D0%A3%D1%80%D0%BE%D0%BA%208%3A%20%F0%9F%93%8B%20%D0%9A%D1%83%D0%BB%D0%B0%D1%87%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%B7%D0%BC%E2%80%A6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -653,9 +675,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'От чего зависит характер движения толкателя?', options: ['От цвета кулачка', 'От формы кулачка', 'От размера мотора', 'От скорости', 'Не знаю'], correctAnswer: 'От формы кулачка', hint: 'Разные формы — разные движения' }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь кулачковые механизмы! 🔄" }
+    keyPoints: ['Основные понятия темы «Тест: Урок 8: 📋 Кулачковые механизмы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Тест: Урок 8: 📋 Кулачковые механизмы — конструирование и программирование', 'Практическое задание по теме «Тест: Урок 8: 📋 Кулачковые механизмы»'],
   },
   {
     title: "Тест: Урок 9: 📋 Введение в программирование",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%81%D1%82%3A%20%D0%A3%D1%80%D0%BE%D0%BA%209%3A%20%F0%9F%93%8B%20%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%E2%80%A6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -666,9 +691,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Программа — это алгоритм, записанный на __ языке', options: ["программирования", "естественном", "английском", "иностранном", "формальном"], correctAnswer: 'программирования', hint: 'Язык, понятный роботу' }
     ],
     reward: { stars: 3, message: "Отлично! Ты начинаешь программировать! 💻" }
+    keyPoints: ['Основные понятия темы «Тест: Урок 9: 📋 Введение в программирование»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Тест: Урок 9: 📋 Введение в программирование — конструирование и программирование', 'Практическое задание по теме «Тест: Урок 9: 📋 Введение в программирование»'],
   },
   {
     title: "Тест: Урок 10: 📋 Управление двигателем",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%81%D1%82%3A%20%D0%A3%D1%80%D0%BE%D0%BA%2010%3A%20%F0%9F%93%8B%20%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%B5%E2%80%A6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -679,9 +707,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Какое направление вращения мотора?', options: ['Только вперёд', 'Только назад', 'Вперёд и назад', 'Мотор не вращается', 'Не знаю'], correctAnswer: 'Вперёд и назад', hint: 'Мотор может вращаться в обе стороны' }
     ],
     reward: { stars: 3, message: "Отлично! Ты управляешь моторами! 🎛️" }
+    keyPoints: ['Основные понятия темы «Тест: Урок 10: 📋 Управление двигателем»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Тест: Урок 10: 📋 Управление двигателем — конструирование и программирование', 'Практическое задание по теме «Тест: Урок 10: 📋 Управление двигателем»'],
   },
   {
     title: "Тест: Урок 11: 📋 Движение робота",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%81%D1%82%3A%20%D0%A3%D1%80%D0%BE%D0%BA%2011%3A%20%F0%9F%93%8B%20%D0%94%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -692,9 +723,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Как сделать поворот на месте?', options: ['Один мотор вперёд, другой назад', 'Оба мотора вперёд', 'Оба мотора назад', 'Остановить робота', 'Не знаю'], correctAnswer: 'Один мотор вперёд, другой назад', hint: 'Моторы вращаются в разные стороны' }
     ],
     reward: { stars: 3, message: "Отлично! Ты программируешь движение! 🤖" }
+    keyPoints: ['Основные понятия темы «Тест: Урок 11: 📋 Движение робота»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Тест: Урок 11: 📋 Движение робота — конструирование и программирование', 'Практическое задание по теме «Тест: Урок 11: 📋 Движение робота»'],
   },
   {
     title: "Тест: Урок 12: 📋 Итоговый проект",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%81%D1%82%3A%20%D0%A3%D1%80%D0%BE%D0%BA%2012%3A%20%F0%9F%93%8B%20%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -705,5 +739,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'После сборки робота нужно его __', options: ["протестировать", "спрятать", "подарить", "продать", "покрасить"], correctAnswer: 'протестировать', hint: 'Проверить, что всё работает' }
     ],
     reward: { stars: 3, message: "Поздравляю! Ты завершил курс робототехники! 🏆" }
+    keyPoints: ['Основные понятия темы «Тест: Урок 12: 📋 Итоговый проект»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Тест: Урок 12: 📋 Итоговый проект — конструирование и программирование', 'Практическое задание по теме «Тест: Урок 12: 📋 Итоговый проект»'],
   }
 ]

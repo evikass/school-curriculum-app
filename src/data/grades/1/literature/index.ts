@@ -880,6 +880,7 @@ export const lessons: SubjectData = {
 export const games = [
 {
     title: "Сказка «Колобок» 📖",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%20%C2%AB%D0%9A%D0%BE%D0%BB%D0%BE%D0%B1%D0%BE%D0%BA%C2%BB%20%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -891,9 +892,12 @@ export const games = [
       { type: 'quiz', question: "Из чего сделали Колобка?", options: ["Из теста", "Из глины", "Из снега", "Никто не знает", "Не знаю"], correctAnswer: "Из теста", hint: "Его испекли в печи" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь сказку! 📖" }
+    keyPoints: ['Основные понятия темы «Сказка «Колобок» 📖»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Сказка «Колобок» 📖 — анализ литературного произведения', 'Практическое задание по теме «Сказка «Колобок» 📖»'],
   },
 {
     title: "Сказка «Теремок» 🏠",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%20%C2%AB%D0%A2%D0%B5%D1%80%D0%B5%D0%BC%D0%BE%D0%BA%C2%BB%20%F0%9F%8F%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -905,9 +909,12 @@ export const games = [
       { type: 'quiz', question: "Сколько зверей жило в теремке до прихода медведя?", options: ["Три", "Четыре", "Пять", "Никто не знает", "Не знаю"], correctAnswer: "Пять", hint: "Посчитай всех жителей теремка" }
     ],
     reward: { stars: 3, message: "Отлично! Ты помнишь сказку! 🏠" }
+    keyPoints: ['Основные понятия темы «Сказка «Теремок» 🏠»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Сказка «Теремок» 🏠 — анализ литературного произведения', 'Практическое задание по теме «Сказка «Теремок» 🏠»'],
   },
 {
     title: "Сказка «Репка» 🥕",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%20%C2%AB%D0%A0%D0%B5%D0%BF%D0%BA%D0%B0%C2%BB%20%F0%9F%A5%95%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -919,9 +926,12 @@ export const games = [
       { type: 'quiz', question: "Кто пришёл тянуть репку последним?", options: ["Кошка", "Мышка", "Внучка", "Никто не знает", "Не знаю"], correctAnswer: "Мышка", hint: "Самый маленький помощник" }
     ],
     reward: { stars: 3, message: "Молодец! Вместе — сила! 💪" }
+    keyPoints: ['Основные понятия темы «Сказка «Репка» 🥕»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Сказка «Репка» 🥕 — анализ литературного произведения', 'Практическое задание по теме «Сказка «Репка» 🥕»'],
   },
 {
     title: "Стихи А.Л. Барто 📚",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D0%B8%D1%85%D0%B8%20%D0%90.%D0%9B.%20%D0%91%D0%B0%D1%80%D1%82%D0%BE%20%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -933,9 +943,12 @@ export const games = [
       { type: 'quiz', question: "Что уронила Таня в стихах Барто?", options: ["Куклу", "Мячик", "Зайку", "Никто не знает", "Не знаю"], correctAnswer: "Мячик", hint: "Наша Таня громко плачет" }
     ],
     reward: { stars: 3, message: "Замечательно! Ты знаешь стихи! 📚" }
+    keyPoints: ['Основные понятия темы «Стихи А.Л. Барто 📚»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Стихи А.Л. Барто 📚 — анализ литературного произведения', 'Практическое задание по теме «Стихи А.Л. Барто 📚»'],
   },
 {
     title: "Доктор Айболит 👨‍⚕️",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80%20%D0%90%D0%B9%D0%B1%D0%BE%D0%BB%D0%B8%D1%82%20%F0%9F%91%A8%E2%80%8D%E2%9A%95%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -947,9 +960,12 @@ export const games = [
       { type: 'quiz', question: "Что носил Айболит?", options: ["Халат и шапочку", "Костюм", "Форму", "Никто не знает", "Не знаю"], correctAnswer: "Халат и шапочку", hint: "Как у врача" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь Айболита! 🏥" }
+    keyPoints: ['Основные понятия темы «Доктор Айболит 👨‍⚕️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Доктор Айболит 👨‍⚕️ — анализ литературного произведения', 'Практическое задание по теме «Доктор Айболит 👨‍⚕️»'],
   },
 {
     title: "Сказка «Колобок» 🍞",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%20%C2%AB%D0%9A%D0%BE%D0%BB%D0%BE%D0%B1%D0%BE%D0%BA%C2%BB%20%F0%9F%8D%9E%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -961,9 +977,12 @@ export const games = [
       { type: 'quiz', question: "Какую песенку пел Колобок?", options: ["Весёлую", "Грустную", "Колыбельную", "Никто не знает", "Не знаю"], correctAnswer: "Весёлую", hint: "Он катился и пел" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь Колобка! 🍞" }
+    keyPoints: ['Основные понятия темы «Сказка «Колобок» 🍞»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Сказка «Колобок» 🍞 — анализ литературного произведения', 'Практическое задание по теме «Сказка «Колобок» 🍞»'],
   },
 {
     title: "Стихи А.Л. Барто 🧸",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D0%B8%D1%85%D0%B8%20%D0%90.%D0%9B.%20%D0%91%D0%B0%D1%80%D1%82%D0%BE%20%F0%9F%A7%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -975,9 +994,12 @@ export const games = [
       { type: 'quiz', question: "Кто из животных есть в стихах Барто?", options: ["Кот", "Собака", "Бычок", "Никто не знает", "Не знаю"], correctAnswer: "Бычок", hint: "Бычок качается" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь стихи Барто! 🧸" }
+    keyPoints: ['Основные понятия темы «Стихи А.Л. Барто 🧸»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Стихи А.Л. Барто 🧸 — анализ литературного произведения', 'Практическое задание по теме «Стихи А.Л. Барто 🧸»'],
   },
 {
     title: "Стихи С.Я. Маршака 📚",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D0%B8%D1%85%D0%B8%20%D0%A1.%D0%AF.%20%D0%9C%D0%B0%D1%80%D1%88%D0%B0%D0%BA%D0%B0%20%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -989,9 +1011,12 @@ export const games = [
       { type: 'quiz', question: "Сколько месяцев в сказке Маршака?", options: ["10", "11", "12", "Никто не знает", "Не знаю"], correctAnswer: "12", hint: "Как в году" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь Маршака! 📚" }
+    keyPoints: ['Основные понятия темы «Стихи С.Я. Маршака 📚»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Стихи С.Я. Маршака 📚 — анализ литературного произведения', 'Практическое задание по теме «Стихи С.Я. Маршака 📚»'],
   },
 {
     title: "Стихи С.В. Михалкова 📏",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D0%B8%D1%85%D0%B8%20%D0%A1.%D0%92.%20%D0%9C%D0%B8%D1%85%D0%B0%D0%BB%D0%BA%D0%BE%D0%B2%D0%B0%20%F0%9F%93%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1003,9 +1028,12 @@ export const games = [
       { type: 'quiz', question: "Как зовут Дядю Стёпу по фамилии?", options: ["Иванов", "Степанов", "Орлов", "Никто не знает", "Не знаю"], correctAnswer: "Степанов", hint: "Дядя Стёпа — Степан Степанов" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь Михалкова! 📏" }
+    keyPoints: ['Основные понятия темы «Стихи С.В. Михалкова 📏»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Стихи С.В. Михалкова 📏 — анализ литературного произведения', 'Практическое задание по теме «Стихи С.В. Михалкова 📏»'],
   },
 {
     title: "Стихи о детстве 🌳",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D0%B8%D1%85%D0%B8%20%D0%BE%20%D0%B4%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%20%F0%9F%8C%B3%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -1017,6 +1045,8 @@ export const games = [
       { type: 'quiz', question: "Какие чувства вызывают стихи о детстве?", options: ["Грусть", "Радость", "Ностальгию", "Никто не знает", "Не знаю"], correctAnswer: "Радость", hint: "Детство — счастливая пора" }
     ],
     reward: { stars: 3, message: "Прекрасно! Ты понимаешь стихи! 🌳" }
+    keyPoints: ['Основные понятия темы «Стихи о детстве 🌳»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Стихи о детстве 🌳 — анализ литературного произведения', 'Практическое задание по теме «Стихи о детстве 🌳»'],
   }
 ]
 

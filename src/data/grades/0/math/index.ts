@@ -415,6 +415,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Учим цифры 1-5 🔢",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%87%D0%B8%D0%BC%20%D1%86%D0%B8%D1%84%D1%80%D1%8B%201-5%20%F0%9F%94%A2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -426,9 +427,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какая цифра самая большая из 1, 2, 3, 4, 5?", options: ["1", "2", "3", "4", "5"], correctAnswer: "5", hint: "Посчитай от 1 до 5 — последнее число самое большое" }
     ],
     reward: { stars: 3, message: "Молодец! Ты выучил цифры 1-5! 🌟" }
+    keyPoints: ['Основные понятия темы «Учим цифры 1-5 🔢»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Учим цифры 1-5 🔢 — решаем задачи step by step', 'Практическое задание по теме «Учим цифры 1-5 🔢»'],
   },
   {
     title: "Учим цифры 6-10 🔢",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%87%D0%B8%D0%BC%20%D1%86%D0%B8%D1%84%D1%80%D1%8B%206-10%20%F0%9F%94%A2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -440,9 +444,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какое число идёт перед 10?", options: ["8", "9", "7", "Никто не знает", "Не знаю"], correctAnswer: "9", hint: "Посчитай: ...8, 9, 10" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь цифры до 10! 🎉" }
+    keyPoints: ['Основные понятия темы «Учим цифры 6-10 🔢»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Учим цифры 6-10 🔢 — решаем задачи step by step', 'Практическое задание по теме «Учим цифры 6-10 🔢»'],
   },
   {
     title: "Счёт предметов 🍎",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%87%D1%91%D1%82%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%BE%D0%B2%20%F0%9F%8D%8E%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -454,9 +461,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько звёздочек? ⭐⭐⭐⭐⭐⭐⭐", options: ["5", "6", "7", "Никто не знает", "Не знаю"], correctAnswer: "7", hint: "Посчитай все звёздочки по порядку" }
     ],
     reward: { stars: 3, message: "Умница! Ты умеешь считать предметы! 🔢" }
+    keyPoints: ['Основные понятия темы «Счёт предметов 🍎»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Счёт предметов 🍎 — решаем задачи step by step', 'Практическое задание по теме «Счёт предметов 🍎»'],
   },
   {
     title: "Сравниваем числа ⚖️",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%B2%D0%B0%D0%B5%D0%BC%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%20%E2%9A%96%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -468,9 +478,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой знак нужен: 7 __ 9?", options: [">", "<", "=", "Никто не знает", "Не знаю"], correctAnswer: "<", hint: "7 меньше 9, значит клювик открыт направо" }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь сравнивать числа! ⚖️" }
+    keyPoints: ['Основные понятия темы «Сравниваем числа ⚖️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Сравниваем числа ⚖️ — решаем задачи step by step', 'Практическое задание по теме «Сравниваем числа ⚖️»'],
   },
   {
     title: "Геометрические фигуры 🔷",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B8%D0%B3%D1%83%D1%80%D1%8B%20%F0%9F%94%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -482,9 +495,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько углов у треугольника?", options: ["2", "3", "4", "Никто не знает", "Не знаю"], correctAnswer: "3", hint: "Треугольник имеет три угла" }
     ],
     reward: { stars: 3, message: "Замечательно! Ты знаешь фигуры! 🔷🔶" }
+    keyPoints: ['Основные понятия темы «Геометрические фигуры 🔷»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Геометрические фигуры 🔷 — решаем задачи step by step', 'Практическое задание по теме «Геометрические фигуры 🔷»'],
   },
   {
     title: "Соседи чисел 🏠",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BE%D1%81%D0%B5%D0%B4%D0%B8%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB%20%F0%9F%8F%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -496,9 +512,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какое число стоит перед 3?", options: ["1", "2", "4", "Никто не знает", "Не знаю"], correctAnswer: "2", hint: "Посчитай: ...2, 3" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь соседей чисел! 🏠" }
+    keyPoints: ['Основные понятия темы «Соседи чисел 🏠»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Соседи чисел 🏠 — решаем задачи step by step', 'Практическое задание по теме «Соседи чисел 🏠»'],
   },
   {
     title: "Ноль и десять 0️⃣🔟",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%BE%D0%BB%D1%8C%20%D0%B8%20%D0%B4%D0%B5%D1%81%D1%8F%D1%82%D1%8C%200%EF%B8%8F%E2%83%A3%F0%9F%94%9F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -510,9 +529,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько будет 10 - 0?", options: ["0", "5", "10", "Никто не знает", "Не знаю"], correctAnswer: "10", hint: "Если ничего не отнять, число не изменится" }
     ],
     reward: { stars: 3, message: "Прекрасно! Ты понимаешь 0 и 10! ✨" }
+    keyPoints: ['Основные понятия темы «Ноль и десять 0️⃣🔟»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Ноль и десять 0️⃣🔟 — решаем задачи step by step', 'Практическое задание по теме «Ноль и десять 0️⃣🔟»'],
   },
   {
     title: "Повторение счёта 🔄",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D1%87%D1%91%D1%82%D0%B0%20%F0%9F%94%84%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы счёта",
     icon: "Calculator",
     color: "text-blue-400",
@@ -524,5 +546,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько будет 3 + 1?", options: ["2", "3", "4", "Никто не знает", "Не знаю"], correctAnswer: "4", hint: "Три и один вместе будет четыре" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь счёт! 🔄" }
+    keyPoints: ['Основные понятия темы «Повторение счёта 🔄»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Повторение счёта 🔄 — решаем задачи step by step', 'Практическое задание по теме «Повторение счёта 🔄»'],
   }
 ]

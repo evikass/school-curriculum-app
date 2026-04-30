@@ -713,6 +713,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Части речи 📚",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A7%D0%B0%D1%81%D1%82%D0%B8%20%D1%80%D0%B5%D1%87%D0%B8%20%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -723,6 +724,8 @@ export const games: GameLesson[] = [
         options: ["Стол", "Бежать", "Красивый", "Книга", "Весёлый"],
         correctAnswer: ["Существительное", "Глагол", "Прилагательное", "Существительное", "Прилагательное"],
         hint: "Предмет - существительное, действие - глагол, признак - прилагательное"
+        keyPoints: ['Основные понятия темы «Части речи 📚»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Части речи 📚 — анализ языковых явлений', 'Практическое задание по теме «Части речи 📚»'],
       },
       {
         type: 'find',
@@ -757,6 +760,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Существительные 🎨",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -767,6 +771,8 @@ export const games: GameLesson[] = [
         options: ["Мальчик", "Стол", "Дерево", "Учитель", "Камень", "Кошка"],
         correctAnswer: ["Мальчик", "Учитель", "Кошка"],
         hint: "Одушевлённые - живые существа"
+        keyPoints: ['Основные понятия темы «Существительные 🎨»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Существительные 🎨 — анализ языковых явлений', 'Практическое задание по теме «Существительные 🎨»'],
       },
       {
         type: 'find',
@@ -801,6 +807,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Прилагательные 🌈",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%F0%9F%8C%88%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -811,6 +818,8 @@ export const games: GameLesson[] = [
         options: ["Красный", "Сладкое", "Умный", "Зелёная", "Быстрый"],
         correctAnswer: ["шар", "яблоко", "ученик", "трава", "заяц"],
         hint: "Какой предмет?"
+        keyPoints: ['Основные понятия темы «Прилагательные 🌈»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Прилагательные 🌈 — анализ языковых явлений', 'Практическое задание по теме «Прилагательные 🌈»'],
       },
       {
         type: 'quiz',
@@ -845,6 +854,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Глаголы 🏃",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D1%8B%20%F0%9F%8F%83%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -855,6 +865,8 @@ export const games: GameLesson[] = [
         options: ["Бежать", "Стол", "Читать", "Красивый", "Писать", "Дом"],
         correctAnswer: ["Бежать", "Читать", "Писать"],
         hint: "Глагол обозначает действие"
+        keyPoints: ['Основные понятия темы «Глаголы 🏃»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Глаголы 🏃 — анализ языковых явлений', 'Практическое задание по теме «Глаголы 🏃»'],
       },
       {
         type: 'match',
@@ -889,6 +901,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ 📝",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%96%D0%98-%D0%A8%D0%98%2C%20%D0%A7%D0%90-%D0%A9%D0%90%2C%20%D0%A7%D0%A3-%D0%A9%D0%A3%20%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -899,6 +912,8 @@ export const games: GameLesson[] = [
         options: ["Жизнь", "Чаша", "Чудо", "Шина", "Щука", "Роща"],
         correctAnswer: ["ЖИ-ШИ", "ЧА-ЩА", "ЧУ-ЩУ", "ЖИ-ШИ", "ЧУ-ЩУ", "ЧА-ЩА"],
         hint: "ЖИ-ШИ пиши с И, ЧА-ЩА с А, ЧУ-ЩУ с У"
+        keyPoints: ['Основные понятия темы «ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ 📝»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ 📝 — анализ языковых явлений', 'Практическое задание по теме «ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ 📝»'],
       },
       {
         type: 'find',
@@ -933,6 +948,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Безударные гласные 🔍",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D0%B5%D0%B7%D1%83%D0%B4%D0%B0%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B3%D0%BB%D0%B0%D1%81%D0%BD%D1%8B%D0%B5%20%F0%9F%94%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -943,6 +959,8 @@ export const games: GameLesson[] = [
         options: ["Вода", "Трава", "Лесной", "Столы", "Гроза"],
         correctAnswer: ["Воды", "Травка", "Лес", "Стол", "Грозы"],
         hint: "Подбери проверочное слово"
+        keyPoints: ['Основные понятия темы «Безударные гласные 🔍»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Безударные гласные 🔍 — анализ языковых явлений', 'Практическое задание по теме «Безударные гласные 🔍»'],
       },
       {
         type: 'find',
@@ -977,6 +995,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Парные согласные 🎯",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B0%D1%80%D0%BD%D1%8B%D0%B5%20%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%BD%D1%8B%D0%B5%20%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -987,6 +1006,8 @@ export const games: GameLesson[] = [
         options: ["Дуб", "Мороз", "Коза", "Сад", "Арбуз"],
         correctAnswer: ["Дубы", "Морозы", "Козы", "Сады", "Арбузы"],
         hint: "Добавь гласную после согласной"
+        keyPoints: ['Основные понятия темы «Парные согласные 🎯»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Парные согласные 🎯 — анализ языковых явлений', 'Практическое задание по теме «Парные согласные 🎯»'],
       },
       {
         type: 'find',
@@ -1021,6 +1042,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Разделительный Ь ❄️",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%AC%20%E2%9D%84%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1031,6 +1053,8 @@ export const games: GameLesson[] = [
         options: ["Семья", "Конь", "Пальто", "Листья", "День"],
         correctAnswer: ["Семья", "Листья"],
         hint: "Разделительный Ь перед Е, Ё, Ю, Я, И"
+        keyPoints: ['Основные понятия темы «Разделительный Ь ❄️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Разделительный Ь ❄️ — анализ языковых явлений', 'Практическое задание по теме «Разделительный Ь ❄️»'],
       },
       {
         type: 'match',
@@ -1065,6 +1089,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Правописание приставок 📝",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B0%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BE%D0%BA%20%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1075,6 +1100,8 @@ export const games: GameLesson[] = [
         options: ["В конце", "Перед корнем", "После корня", "Никто не знает", "Не знаю"],
         correctAnswer: "Перед корнем",
         hint: "Приставка — в начале слова"
+        keyPoints: ['Основные понятия темы «Правописание приставок 📝»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Правописание приставок 📝 — анализ языковых явлений', 'Практическое задание по теме «Правописание приставок 📝»'],
       },
       {
         type: 'find',
@@ -1109,6 +1136,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Правописание суффиксов ✏️",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B0%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%81%D1%83%D1%84%D1%84%D0%B8%D0%BA%D1%81%D0%BE%D0%B2%20%E2%9C%8F%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1119,6 +1147,8 @@ export const games: GameLesson[] = [
         options: ["В начале", "После корня", "В конце", "Никто не знает", "Не знаю"],
         correctAnswer: "После корня",
         hint: "Суффикс после корня"
+        keyPoints: ['Основные понятия темы «Правописание суффиксов ✏️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Правописание суффиксов ✏️ — анализ языковых явлений', 'Практическое задание по теме «Правописание суффиксов ✏️»'],
       },
       {
         type: 'find',

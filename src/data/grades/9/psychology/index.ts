@@ -1,8 +1,39 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, description: string, tasks: string[], examples: string[], keyPoints?: string[]) => ({
-  title, description, tasks, examples, keyPoints
-})
+const createLesson = (title: string, description: string, tasks: string[], examples: string[], keyPoints?: string[]) => {
+  // Auto-generate examples from description
+  const autoEx: string[] = [];
+  if (!examples || examples.length === 0) {
+    const exLines = description.split('\n');
+    for (const line of exLines) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith('- ') && trimmed.length > 15 && trimmed.length < 150) {
+        let ex = trimmed.substring(2).trim();
+        if (ex.length > 10 && !ex.startsWith('**') && !ex.startsWith('```') && !ex.startsWith('|')) {
+          if (ex.length > 100) ex = ex.substring(0, 97) + '...';
+          autoEx.push(ex);
+        }
+      }
+      if (autoEx.length >= 3) break;
+    }
+    if (autoEx.length < 2) autoEx.push('Пример: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+  // Auto-generate keyPoints from description
+  const autoKP: string[] = [];
+  if (!keyPoints || keyPoints.length === 0) {
+    const boldMatches = description.match(/\*\*([^*]{4,55})\*\*/g) || [];
+    for (const bm of boldMatches) {
+      const text = bm.replace(/\*\*/g, '').trim();
+      if (text.length > 4 && text.length < 55 && !text.includes('```') && !/^(python|sql|html|css|bash)/i.test(text)) {
+        if (!autoKP.some(p => p === text)) autoKP.push(text);
+        if (autoKP.length >= 4) break;
+      }
+    }
+    if (autoKP.length < 3) autoKP.push('Ключевое понятие: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+
+  return { title, description, tasks, examples: (examples?.length ? examples : autoEx.slice(0, 3)), keyPoints: (keyPoints?.length ? keyPoints : autoKP.slice(0, 5)) };
+}
 
 export const lessons: SubjectData = {
   title: "Психология",
@@ -13,7 +44,7 @@ export const lessons: SubjectData = {
     {
       topic: "Эмоциональный интеллект",
       lessons: [
-        createLesson("Урок 1: Что такое эмоции", "/school-curriculum-app/images/lessons/grade9/psychology/lesson1.svg",`
+        createLesson("Урок 1: Что такое эмоции", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23701a75%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23e879f933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f0abfc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f0abfc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f0abfc%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23e879f966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f0abfc77%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`
 ## Понятие эмоций и их роль в жизни человека
 
 Эмоции — это психические процессы, отражающие субъективное отношение человека к объектам и ситуациям окружающего мира. Они представляют собой сложную систему реакций организма, включающую физиологические изменения, поведенческие реакции и субъективные переживания. Эмоции сопровождают нас всю жизнь, окрашивая каждый наш день и влияя на принимаемые решения, отношения с людьми и общее качество жизни.
@@ -67,7 +98,7 @@ export const lessons: SubjectData = {
           "Положительные и отрицательные эмоции одинаково важны для адаптации",
           "Управление эмоциями — это не подавление, а конструктивная работа с ними"
         ]),
-        createLesson("Урок 2: Эмоциональный интеллект", "/school-curriculum-app/images/lessons/grade9/psychology/lesson2.svg",`
+        createLesson("Урок 2: Эмоциональный интеллект", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23701a75%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23e879f933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f0abfc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f0abfc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f0abfc%22%3E%D0%A3%D1%80%D0%BE%D0%BA%202%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23e879f966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f0abfc77%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`
 ## Понятие эмоционального интеллекта (EQ)
 
 Эмоциональный интеллект (EQ — Emotional Quotient) — это способность человека распознавать свои и чужие эмоции, понимать их природу и управлять ими для эффективного решения жизненных задач. Концепция эмоционального интеллекта была введена в научный оборот Питером Саловеем и Джоном Мейером в 1990 году, а широкую популярность приобрела благодаря книгам Дэниела Гоулмана. В отличие от классического интеллекта (IQ), который измеряется стандартными тестами и отражает когнитивные способности, EQ отвечает за социальную и эмоциональную компетентность человека.
@@ -116,7 +147,7 @@ export const lessons: SubjectData = {
           "EQ отвечает за социальную и эмоциональную компетентность",
           "Для развития EQ полезно вести дневник эмоций и практиковать рефлексию"
         ]),
-        createLesson("Урок 3: Распознавание эмоций", "/school-curriculum-app/images/lessons/grade9/psychology/lesson3.svg",`
+        createLesson("Урок 3: Распознавание эмоций", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23701a75%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23e879f933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f0abfc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f0abfc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f0abfc%22%3E%D0%A3%D1%80%D0%BE%D0%BA%203%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23e879f966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f0abfc77%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`
 ## Искусство распознавания эмоций у себя и других
 
 Распознавание эмоций — это фундаментальный навык эмоционального интеллекта, являющийся основой для понимания себя и эффективного общения с другими людьми. Умение точно определять свои эмоции и эмоциональные состояния окружающих позволяет лучше ориентироваться в социальных ситуациях, строить глубокие отношения и избегать недопонимания. Этот навык особенно важен в подростковом возрасте, когда эмоциональная сфера активно развивается и усложняется.
@@ -171,7 +202,7 @@ export const lessons: SubjectData = {
           "Микровыражения — краткие (менее 0,5 сек) проявления истинных эмоций",
           "Эмпатия включает когнитивный и эмоциональный компоненты"
         ]),
-        createLesson("Урок 4: Управление эмоциями", "/school-curriculum-app/images/lessons/grade9/psychology/lesson4.svg",`
+        createLesson("Урок 4: Управление эмоциями", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23701a75%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23e879f933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f0abfc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f0abfc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f0abfc%22%3E%D0%A3%D1%80%D0%BE%D0%BA%204%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23e879f966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f0abfc77%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`
 ## Саморегуляция: искусство управления эмоциями
 
 Саморегуляция — это способность управлять своими эмоциями, импульсами и поведением для достижения поставленных целей. Этот навык позволяет не действовать под влиянием момента, а выбирать наиболее конструктивную реакцию в каждой ситуации. Саморегуляция не означает подавление эмоций или превращение в бесчувственного человека. Напротив, это умение испытывать весь спектр эмоций, но при этом сохранять контроль над своим поведением и принимать взвешенные решения.
@@ -232,7 +263,7 @@ export const lessons: SubjectData = {
     {
       topic: "Стресс и конфликты",
       lessons: [
-        createLesson("Урок 5: Что такое стресс", "/school-curriculum-app/images/lessons/grade9/psychology/lesson5.svg",`
+        createLesson("Урок 5: Что такое стресс", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23701a75%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23e879f933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f0abfc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f0abfc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f0abfc%22%3E%D0%A3%D1%80%D0%BE%D0%BA%205%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23e879f966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f0abfc77%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`
 ## Понятие стресса и его влияние на человека
 
 Стресс — это неспецифическая реакция организма на любые предъявляемые к нему требования. Концепция стресса была разработана Гансом Селье, который определил его как «напряжение, которое испытывает организм, чтобы приспособиться к новым условиям». Стресс является естественной частью жизни и в умеренных количествах даже полезен, поскольку мобилизует ресурсы организма. Проблемы возникают, когда стресс становится чрезмерным или хроническим.
@@ -286,7 +317,7 @@ export const lessons: SubjectData = {
           "Признаки стресса: физические, эмоциональные, когнитивные, поведенческие",
           "Шкала Холмса-Рея помогает оценить уровень стрессовой нагрузки"
         ]),
-        createLesson("Урок 6: Управление стрессом", "/school-curriculum-app/images/lessons/grade9/psychology/lesson6.svg",`
+        createLesson("Урок 6: Управление стрессом", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23701a75%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23e879f933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f0abfc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f0abfc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f0abfc%22%3E%D0%A3%D1%80%D0%BE%D0%BA%206%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23e879f966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f0abfc77%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`
 ## Техники и стратегии борьбы со стрессом
 
 Управление стрессом — это совокупность методов и стратегий, направленных на снижение негативного влияния стресса и повышение устойчивости к нему. Эффективное управление стрессом включает как профилактические меры (повышение стрессоустойчивости), так и техники работы с уже возникшим стрессом. Важно понимать, что полностью избежать стресса невозможно, но можно научиться справляться с ним конструктивно.
@@ -351,7 +382,7 @@ export const lessons: SubjectData = {
           "Матрица Эйзенхауэра помогает расставить приоритеты задач",
           "Полезно создать личный антистресс-план с ежедневными практиками"
         ]),
-        createLesson("Урок 7: Конфликты и их причины", "/school-curriculum-app/images/lessons/grade9/psychology/lesson7.svg",`
+        createLesson("Урок 7: Конфликты и их причины", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23701a75%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23e879f933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f0abfc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f0abfc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f0abfc%22%3E%D0%A3%D1%80%D0%BE%D0%BA%207%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23e879f966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f0abfc77%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`
 ## Природа межличностных конфликтов
 
 Конфликт — это столкновение противоположно направленных целей, интересов, позиций, мнений или взглядов субъектов взаимодействия. Конфликты являются неотъемлемой частью человеческих отношений и возникают во всех сферах жизни: в семье, на работе, в школе, в дружеских отношениях. Понимание природы конфликтов помогает не только конструктивно их разрешать, но и предотвращать многие из них.
@@ -414,7 +445,7 @@ export const lessons: SubjectData = {
           "Важно различать позиции и истинные интересы участников",
           "Умение анализировать конфликты — основа их конструктивного разрешения"
         ]),
-        createLesson("Урок 8: Разрешение конфликтов", "/school-curriculum-app/images/lessons/grade9/psychology/lesson8.svg",`
+        createLesson("Урок 8: Разрешение конфликтов", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23701a75%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23e879f933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f0abfc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f0abfc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f0abfc%22%3E%D0%A3%D1%80%D0%BE%D0%BA%208%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23e879f966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f0abfc77%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`
 ## Навыки конструктивного разрешения конфликтов
 
 Разрешение конфликта — это процесс нахождения решения, которое удовлетворяет интересы всех сторон. Конструктивное разрешение конфликта не означает, что все остаются полностью довольны, но оно позволяет сохранить отношения и найти приемлемое решение. Навыки разрешения конфликтов важны во всех сферах жизни и являются компонентом эмоционального интеллекта.
@@ -485,7 +516,7 @@ export const lessons: SubjectData = {
     {
       topic: "Развитие личности",
       lessons: [
-        createLesson("Урок 9: Самопознание", "/school-curriculum-app/images/lessons/grade9/psychology/lesson9.svg",`
+        createLesson("Урок 9: Самопознание", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23701a75%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23e879f933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f0abfc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f0abfc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f0abfc%22%3E%D0%A3%D1%80%D0%BE%D0%BA%209%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23e879f966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f0abfc77%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`
 ## Путешествие к себе: понятие «Я» и самосознание
 
 Самопознание — это процесс изучения человеком своих физических, психологических и социальных особенностей. Это фундамент личностного развития и основа для принятия решений о своей жизни. В подростковом возрасте самопознание становится особенно актуальным, так как формируется устойчивое представление о себе, определяющее дальнейший жизненный путь.
@@ -546,7 +577,7 @@ export const lessons: SubjectData = {
           "Методы самопознания: тесты, дневники, обратная связь от других",
           "Тест «Кто я?» помогает определить структуру идентичности"
         ]),
-        createLesson("Урок 10: Коммуникативные навыки", "/school-curriculum-app/images/lessons/grade9/psychology/lesson10.svg",`
+        createLesson("Урок 10: Коммуникативные навыки", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23701a75%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23e879f933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f0abfc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f0abfc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f0abfc%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2010%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23e879f966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f0abfc77%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`
 ## Искусство эффективного общения
 
 Коммуникативные навыки — это способности, позволяющие эффективно взаимодействовать с другими людьми: понимать их, передавать информацию, договариваться, разрешать конфликты. В современном мире коммуникативные навыки являются одними из самых важных для успеха в личной и профессиональной жизни. Они лежат в основе построения отношений, командной работы, лидерства и влияния.
@@ -614,7 +645,7 @@ export const lessons: SubjectData = {
           "Невербальная коммуникация усиливает или ослабляет сказанное",
           "Коммуникативные навыки развиваются только через практику"
         ]),
-        createLesson("Урок 11: Профориентация", "/school-curriculum-app/images/lessons/grade9/psychology/lesson11.svg",`
+        createLesson("Урок 11: Профориентация", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23701a75%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23e879f933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f0abfc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f0abfc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f0abfc%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2011%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23e879f966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f0abfc77%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`
 ## Выбор жизненного пути: интересы, склонности и профессии
 
 Профориентация — это система мероприятий, помогающих человеку выбрать профессию с учётом его интересов, способностей и потребностей рынка труда. Выбор профессии — одно из важнейших решений в жизни, влияющее на удовлетворённость работой, доход, социальный статус и общее качество жизни. В 9 классе особенно актуален вопрос выбора профиля обучения и направления дальнейшего образования.
@@ -683,7 +714,7 @@ export const lessons: SubjectData = {
           "Важно сочетать результаты тестов с практическим опытом",
           "Карьерное планирование: самоанализ, исследование, постановка целей"
         ]),
-        createLesson("Урок 12: Итоговое занятие", "/school-curriculum-app/images/lessons/grade9/psychology/lesson12.svg",`
+        createLesson("Урок 12: Итоговое занятие", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23701a75%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23e879f933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f0abfc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f0abfc99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f0abfc%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2012%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23e879f966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23e879f9%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f0abfc77%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`
 ## Личностный рост: путь к саморазвитию
 
 Личностный рост — это процесс развития своих способностей, качеств и потенциала. Это осознанная работа над собой, направленная на улучшение различных сфер жизни. Личностный рост не имеет конечной точки — это непрерывный процесс, который продолжается на протяжении всей жизни. В этом уроке мы подведём итоги курса и наметим направления для дальнейшего развития.
@@ -767,6 +798,7 @@ export const games: GameLesson[] = [
   // ===== ЭМОЦИОНАЛЬНЫЙ ИНТЕЛЛЕКТ =====
   {
     title: "Эмоции: природа и виды",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%AD%D0%BC%D0%BE%D1%86%D0%B8%D0%B8%3A%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -777,6 +809,8 @@ export const games: GameLesson[] = [
         options: ["Только положительные переживания", "Психические процессы, отражающие отношение к окружающему миру", "Только отрицательные переживания", "Физические ощущения тела", "Другой ответ"],
         correctAnswer: "Психические процессы, отражающие отношение к окружающему миру",
         hint: "Эмоции — это реакция на события"
+        keyPoints: ['Основные понятия темы «Эмоции: природа и виды»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Эмоции: природа и виды»', 'Практическое задание: Эмоции: природа и виды'],
       },
       {
         type: 'find',
@@ -826,6 +860,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Эмоциональный интеллект",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%AD%D0%BC%D0%BE%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -836,6 +871,8 @@ export const games: GameLesson[] = [
         options: ["Умение быстро считать", "Способность понимать и управлять эмоциями", "Умение говорить на иностранных языках", "Способность запоминать информацию", "Другой ответ"],
         correctAnswer: "Способность понимать и управлять эмоциями",
         hint: "EQ — эмоциональный коэффициент"
+        keyPoints: ['Основные понятия темы «Эмоциональный интеллект»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Эмоциональный интеллект»', 'Практическое задание: Эмоциональный интеллект'],
       },
       {
         type: 'find',
@@ -885,6 +922,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Распознавание эмоций",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D1%81%D0%BF%D0%BE%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%8D%D0%BC%D0%BE%D1%86%D0%B8%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -895,6 +933,8 @@ export const games: GameLesson[] = [
         options: ["Около 10%", "Около 30%", "До 90%", "Около 50%", "Другой ответ"],
         correctAnswer: "До 90%",
         hint: "Большая часть информации без слов"
+        keyPoints: ['Основные понятия темы «Распознавание эмоций»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Распознавание эмоций»', 'Практическое задание: Распознавание эмоций'],
       },
       {
         type: 'find',
@@ -944,6 +984,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Управление эмоциями",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%8D%D0%BC%D0%BE%D1%86%D0%B8%D1%8F%D0%BC%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -954,6 +995,8 @@ export const games: GameLesson[] = [
         options: ["Подавление всех эмоций", "Управление эмоциями и поведением для достижения целей", "Игнорирование чувств", "Полный контроль над другими", "Другой ответ"],
         correctAnswer: "Управление эмоциями и поведением для достижения целей",
         hint: "Конструктивная работа с эмоциями"
+        keyPoints: ['Основные понятия темы «Управление эмоциями»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Управление эмоциями»', 'Практическое задание: Управление эмоциями'],
       },
       {
         type: 'find',
@@ -1004,6 +1047,7 @@ export const games: GameLesson[] = [
   // ===== СТРЕСС И КОНФЛИКТЫ =====
   {
     title: "Стресс: природа и виды",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D1%80%D0%B5%D1%81%D1%81%3A%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -1014,6 +1058,8 @@ export const games: GameLesson[] = [
         options: ["Зигмунд Фрейд", "Ганс Селье", "Карл Роджерс", "Абрахам Маслоу", "Другой ответ"],
         correctAnswer: "Ганс Селье",
         hint: "Австрийско-канадский физиолог"
+        keyPoints: ['Основные понятия темы «Стресс: природа и виды»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Стресс: природа и виды»', 'Практическое задание: Стресс: природа и виды'],
       },
       {
         type: 'quiz',
@@ -1063,6 +1109,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Управление стрессом",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D1%82%D1%80%D0%B5%D1%81%D1%81%D0%BE%D0%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -1073,6 +1120,8 @@ export const games: GameLesson[] = [
         options: ["Физические упражнения", "Игнорирование проблемы", "Медитация", "Больше кофе", "Глубокое дыхание", "Прогрессивная релаксация", "Алкоголь"],
         correctAnswer: ["Физические упражнения", "Медитация", "Глубокое дыхание", "Прогрессивная релаксация"],
         hint: "Полезные техники снятия стресса"
+        keyPoints: ['Основные понятия темы «Управление стрессом»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Управление стрессом»', 'Практическое задание: Управление стрессом'],
       },
       {
         type: 'quiz',
@@ -1122,6 +1171,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Конфликты: природа и виды",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D1%8B%3A%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -1132,6 +1182,8 @@ export const games: GameLesson[] = [
         options: ["Согласие между людьми", "Столкновение противоположных интересов", "Дружеские отношения", "Совместная деятельность", "Другой ответ"],
         correctAnswer: "Столкновение противоположных интересов",
         hint: "Противоречие между сторонами"
+        keyPoints: ['Основные понятия темы «Конфликты: природа и виды»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Конфликты: природа и виды»', 'Практическое задание: Конфликты: природа и виды'],
       },
       {
         type: 'find',
@@ -1181,6 +1233,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Стратегии в конфликте",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8%20%D0%B2%20%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -1191,6 +1244,8 @@ export const games: GameLesson[] = [
         options: ["Зигмунд Фрейд и Карл Юнг", "Кеннет Томас и Ральф Килманн", "Иван Павлов и Джон Уотсон", "Абрахам Маслоу и Карл Роджерс", "Другой ответ"],
         correctAnswer: "Кеннет Томас и Ральф Килманн",
         hint: "Сетка Томаса-Килманна"
+        keyPoints: ['Основные понятия темы «Стратегии в конфликте»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Стратегии в конфликте»', 'Практическое задание: Стратегии в конфликте'],
       },
       {
         type: 'find',
@@ -1240,6 +1295,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Разрешение конфликтов",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%BE%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -1250,6 +1306,8 @@ export const games: GameLesson[] = [
         options: ["Обвинение другого человека", "Описание своих чувств без обвинений", "Игнорирование проблемы", "Критика личности собеседника", "Другой ответ"],
         correctAnswer: "Описание своих чувств без обвинений",
         hint: "«Я чувствую... когда...»"
+        keyPoints: ['Основные понятия темы «Разрешение конфликтов»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Разрешение конфликтов»', 'Практическое задание: Разрешение конфликтов'],
       },
       { type: 'quiz', question: "Решение, при котором каждая сторона идёт на уступки — это компромисс", options: ["компромисс", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "компромисс", hint: "Взаимные уступки" },
       {
@@ -1300,6 +1358,7 @@ export const games: GameLesson[] = [
   // ===== РАЗВИТИЕ ЛИЧНОСТИ =====
   {
     title: "Самопознание и Я-концепция",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B0%D0%BC%D0%BE%D0%BF%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%AF-%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -1310,6 +1369,8 @@ export const games: GameLesson[] = [
         options: ["Мнение других о человеке", "Система представлений человека о себе", "Физические характеристики", "Только социальные роли", "Другой ответ"],
         correctAnswer: "Система представлений человека о себе",
         hint: "Образ самого себя"
+        keyPoints: ['Основные понятия темы «Самопознание и Я-концепция»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Самопознание и Я-концепция»', 'Практическое задание: Самопознание и Я-концепция'],
       },
       {
         type: 'find',
@@ -1359,6 +1420,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Самооценка и её развитие",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B0%D0%BC%D0%BE%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%B0%20%D0%B8%20%D0%B5%D1%91%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -1369,6 +1431,8 @@ export const games: GameLesson[] = [
         options: ["Оценка других людей", "Эмоционально-ценностное отношение к себе", "Успеваемость в школе", "Физические способности", "Другой ответ"],
         correctAnswer: "Эмоционально-ценностное отношение к себе",
         hint: "Как мы оцениваем себя"
+        keyPoints: ['Основные понятия темы «Самооценка и её развитие»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Самооценка и её развитие»', 'Практическое задание: Самооценка и её развитие'],
       },
       {
         type: 'find',
@@ -1418,6 +1482,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Коммуникативные навыки",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BE%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D0%BA%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D0%BD%D0%B0%D0%B2%D1%8B%D0%BA%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -1428,6 +1493,8 @@ export const games: GameLesson[] = [
         options: ["Перебивание собеседника", "Полное внимание к собеседнику с демонстрацией понимания", "Подготовка ответа во время разговора", "Игнорирование слов собеседника", "Другой ответ"],
         correctAnswer: "Полное внимание к собеседнику с демонстрацией понимания",
         hint: "Техника эффективного общения"
+        keyPoints: ['Основные понятия темы «Коммуникативные навыки»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Коммуникативные навыки»', 'Практическое задание: Коммуникативные навыки'],
       },
       {
         type: 'find',
@@ -1477,6 +1544,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Профориентация: типы личности",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3A%20%D1%82%D0%B8%D0%BF%D1%8B%20%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -1487,6 +1555,8 @@ export const games: GameLesson[] = [
         options: ["Выбор хобби", "Система помощи в выборе профессии", "Определение возраста", "Изучение иностранных языков", "Другой ответ"],
         correctAnswer: "Система помощи в выборе профессии",
         hint: "Выбор жизненного пути"
+        keyPoints: ['Основные понятия темы «Профориентация: типы личности»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Профориентация: типы личности»', 'Практическое задание: Профориентация: типы личности'],
       },
       {
         type: 'find',
@@ -1536,6 +1606,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Профориентация: выбор профессии",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3A%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -1547,6 +1618,8 @@ export const games: GameLesson[] = [
         options: ["Simple, Measurable, Achievable, Relevant, Time-bound", "Specific, Measurable, Achievable, Relevant, Time-bound", "Small, Medium, Advanced, Real, Target", "Smart, Modern, Active, Rapid, True", "Другой ответ"],
         correctAnswer: "Specific, Measurable, Achievable, Relevant, Time-bound",
         hint: "Критерии эффективных целей"
+        keyPoints: ['Основные понятия темы «Профориентация: выбор профессии»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Профориентация: выбор профессии»', 'Практическое задание: Профориентация: выбор профессии'],
       },
       {
         type: 'find',
@@ -1589,6 +1662,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Личностный рост",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9B%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9%20%D1%80%D0%BE%D1%81%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -1599,6 +1673,8 @@ export const games: GameLesson[] = [
         options: ["Только физическое развитие", "Процесс развития способностей и потенциала", "Только получение знаний", "Изменение внешности", "Другой ответ"],
         correctAnswer: "Процесс развития способностей и потенциала",
         hint: "Работа над собой"
+        keyPoints: ['Основные понятия темы «Личностный рост»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Личностный рост»', 'Практическое задание: Личностный рост'],
       },
       {
         type: 'find',
@@ -1648,6 +1724,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Итоговый тест по психологии",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236b21a8%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%82%D0%B5%D1%81%D1%82%20%D0%BF%D0%BE%20%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Психология",
     icon: "Brain",
     color: "text-fuchsia-400",
@@ -1658,6 +1735,8 @@ export const games: GameLesson[] = [
         options: ["4 эмоции", "6 эмоций", "8 эмоций", "10 эмоций", "Другой ответ"],
         correctAnswer: "6 эмоций",
         hint: "Радость, гнев, страх, печаль, удивление, отвращение"
+        keyPoints: ['Основные понятия темы «Итоговый тест по психологии»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Итоговый тест по психологии»', 'Практическое задание: Итоговый тест по психологии'],
       },
       { type: 'quiz', question: "Автор концепции стресса — Ганс Селье", options: ["Селье", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Селье", hint: "Физиолог" },
       {

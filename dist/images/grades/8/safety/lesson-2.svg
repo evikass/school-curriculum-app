@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EA580C" />
+      <stop offset="100%" style="stop-color:#DC2626" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000030" />
+    </filter>
+    <linearGradient id="dangerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC2626" />
+      <stop offset="100%" style="stop-color:#991B1B" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#F3F4F6" />
+  <rect width="800" height="70" fill="url(#headerGrad)" />
+  <text x="400" y="35" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Безопасность при общении с незнакомцами</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FEE2E2" font-size="13" font-family="Arial, sans-serif">Правила поведения и опасные ситуации</text>
+  <rect x="10" y="8" width="50" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.3" />
+  <text x="35" y="25" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">ОБЖ</text>
+  <rect x="0" y="70" width="800" height="3" fill="#EAB308" />
+  <text x="20" y="95" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Главные правила</text>
+  <line x1="20" y1="99" x2="140" y2="99" stroke="#EA580C" stroke-width="2" />
+  <circle cx="32" cy="120" r="12" fill="#EA580C" />
+  <text x="32" y="124" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">1</text>
+  <text x="50" y="124" fill="#374151" font-size="12" font-family="Arial, sans-serif">Никогда не уходи с незнакомым человеком</text>
+  <circle cx="32" cy="148" r="12" fill="#EA580C" />
+  <text x="32" y="152" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">2</text>
+  <text x="50" y="152" fill="#374151" font-size="12" font-family="Arial, sans-serif">Не садись в машину к незнакомцу</text>
+  <circle cx="32" cy="176" r="12" fill="#EA580C" />
+  <text x="32" y="180" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">3</text>
+  <text x="50" y="180" fill="#374151" font-size="12" font-family="Arial, sans-serif">Не открывай дверь незнакомым людям</text>
+  <circle cx="32" cy="204" r="12" fill="#EA580C" />
+  <text x="32" y="208" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">4</text>
+  <text x="50" y="208" fill="#374151" font-size="12" font-family="Arial, sans-serif">Не бери угощения от незнакомых</text>
+  <circle cx="32" cy="232" r="12" fill="#EA580C" />
+  <text x="32" y="236" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">5</text>
+  <text x="50" y="236" fill="#374151" font-size="12" font-family="Arial, sans-serif">Сообщай родителям о подозрительных людях</text>
+  <circle cx="32" cy="260" r="12" fill="#EA580C" />
+  <text x="32" y="264" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">6</text>
+  <text x="50" y="264" fill="#374151" font-size="12" font-family="Arial, sans-serif">Зови на помощь, если тебе угрожают</text>
+  <text x="380" y="95" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Опасные ситуации</text>
+  <line x1="380" y1="99" x2="508" y2="99" stroke="#EA580C" stroke-width="2" />
+  <g>
+    <circle cx="394" cy="117" r="9" fill="#DC2626" />
+    <text x="394" y="122" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Arial, sans-serif">X</text>
+  </g>
+  <text x="410" y="122" fill="#DC2626" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Просьба о помощи</text>
+  <text x="410" y="138" fill="#374151" font-size="10" font-family="Arial, sans-serif">Взрослый просит ребёнка о помощи — это ловушка!</text>
+  <g>
+    <circle cx="394" cy="177" r="9" fill="#DC2626" />
+    <text x="394" y="182" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Arial, sans-serif">X</text>
+  </g>
+  <text x="410" y="182" fill="#DC2626" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Предложение подарка</text>
+  <text x="410" y="198" fill="#374151" font-size="10" font-family="Arial, sans-serif">Незнакомец предлагает конфеты, игрушки — отказывайся!</text>
+  <g>
+    <circle cx="394" cy="237" r="9" fill="#DC2626" />
+    <text x="394" y="242" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Arial, sans-serif">X</text>
+  </g>
+  <text x="410" y="242" fill="#DC2626" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Просьба показать дорогу</text>
+  <text x="410" y="258" fill="#374151" font-size="10" font-family="Arial, sans-serif">Не ходи показывать дорогу — отправь к другим взрослым</text>
+  <g>
+    <circle cx="394" cy="297" r="9" fill="#DC2626" />
+    <text x="394" y="302" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Arial, sans-serif">X</text>
+  </g>
+  <text x="410" y="302" fill="#DC2626" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Сообщение о беде</text>
+  <text x="410" y="318" fill="#374151" font-size="10" font-family="Arial, sans-serif">Скажи: &amp;quot;Я позвоню родителям и проверю&amp;quot;</text>
+  <text x="380" y="360" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Правильное поведение</text>
+  <line x1="380" y1="364" x2="540" y2="364" stroke="#EA580C" stroke-width="2" />
+  <circle cx="397" cy="385" r="12" fill="#16A34A" />
+  <text x="397" y="389" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">1</text>
+  <text x="415" y="389" fill="#374151" font-size="12" font-family="Arial, sans-serif">Громко скажи: &amp;quot;Я вас не знаю!&amp;quot;</text>
+  <circle cx="397" cy="413" r="12" fill="#16A34A" />
+  <text x="397" y="417" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">2</text>
+  <text x="415" y="417" fill="#374151" font-size="12" font-family="Arial, sans-serif">Беги в безопасное место (магазин, школа)</text>
+  <circle cx="397" cy="441" r="12" fill="#16A34A" />
+  <text x="397" y="445" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">3</text>
+  <text x="415" y="445" fill="#374151" font-size="12" font-family="Arial, sans-serif">Звони родителям или 112</text>
+  <circle cx="397" cy="469" r="12" fill="#16A34A" />
+  <text x="397" y="473" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Arial, sans-serif">4</text>
+  <text x="415" y="473" fill="#374151" font-size="12" font-family="Arial, sans-serif">Обратись к полицейскому или охраннику</text>
+  <text x="20" y="490" fill="#EA580C" font-size="15" font-weight="bold" font-family="Arial, sans-serif">К кому можно обратиться за помощью</text>
+  <line x1="20" y1="494" x2="292" y2="494" stroke="#EA580C" stroke-width="2" />
+  <circle cx="45" cy="510" r="10" fill="#2563EB" />
+  <line x1="45" y1="520" x2="45" y2="540" stroke="#2563EB" stroke-width="3" />
+  <text x="65" y="525" fill="#2563EB" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Полицейский</text>
+  <circle cx="235" cy="510" r="10" fill="#16A34A" />
+  <line x1="235" y1="520" x2="235" y2="540" stroke="#16A34A" stroke-width="3" />
+  <text x="255" y="525" fill="#16A34A" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Охранник магазина</text>
+  <circle cx="425" cy="510" r="10" fill="#EA580C" />
+  <line x1="425" y1="520" x2="425" y2="540" stroke="#EA580C" stroke-width="3" />
+  <text x="445" y="525" fill="#EA580C" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Семья с детьми</text>
+  <circle cx="615" cy="510" r="10" fill="#F59E0B" />
+  <line x1="615" y1="520" x2="615" y2="540" stroke="#F59E0B" stroke-width="3" />
+  <text x="635" y="525" fill="#F59E0B" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Учитель</text>
+  <rect x="580" y="490" width="195" height="50" rx="8" fill="#DC2626" filter="url(#shadow)" />
+  <text x="677" y="513" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">112</text>
+  <text x="677" y="532" text-anchor="middle" fill="#FEE2E2" font-size="11" font-family="Arial, sans-serif">Единый номер экстренного вызова</text>
+  <rect x="20" y="555" width="750" height="46" rx="6" fill="#F0FDF4" stroke="#16A34A" stroke-width="1.5" />
+  <g>
+    <circle cx="33" cy="568" r="8" fill="#16A34A" />
+    <text x="33" y="573" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">+</text>
+  </g>
+  <text x="46" y="573" fill="#16A34A" font-size="11" font-weight="bold" font-family="Arial, sans-serif">ПРАВИЛЬНО</text>
+  <text x="30" y="589" fill="#374151" font-size="11" font-family="Arial, sans-serif">Договоритесь с семьёй о &amp;quot;пароле безопасности&amp;quot; — если незнакомец говорит, что его прислали родители, он должен знать пароль!</text>
+</svg>

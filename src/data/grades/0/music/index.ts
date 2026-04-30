@@ -734,6 +734,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Звуки и музыка 🎵",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B2%D1%83%D0%BA%D0%B8%20%D0%B8%20%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%20%F0%9F%8E%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -744,6 +745,8 @@ export const games: GameLesson[] = [
         options: ["Дзынь-дзынь", "Тук-тук-тук", "Чик-чирик", "Никто не знает", "Не знаю"],
         correctAnswer: "Тук-тук-тук",
         hint: "Дятел стучит клювом по дереву"
+        keyPoints: ['Основные понятия темы «Звуки и музыка 🎵»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Звуки и музыка 🎵»', 'Практическое задание: Звуки и музыка 🎵'],
       },
       {
         type: 'quiz',
@@ -778,6 +781,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Музыкальные инструменты 🥁",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%F0%9F%A5%81%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -788,6 +792,8 @@ export const games: GameLesson[] = [
         options: ["Рукой", "Палочками", "Кисточкой", "Никто не знает", "Не знаю"],
         correctAnswer: "Палочками",
         hint: "Барабанные палочки стучат по барабану"
+        keyPoints: ['Основные понятия темы «Музыкальные инструменты 🥁»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Музыкальные инструменты 🥁»', 'Практическое задание: Музыкальные инструменты 🥁'],
       },
       {
         type: 'quiz',
@@ -822,6 +828,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Песни 🎶",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B5%D1%81%D0%BD%D0%B8%20%F0%9F%8E%B6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -832,6 +839,8 @@ export const games: GameLesson[] = [
         options: ["Летом", "Зимой", "Осенью", "Никто не знает", "Не знаю"],
         correctAnswer: "Зимой",
         hint: "Ёлочка - символ Нового года"
+        keyPoints: ['Основные понятия темы «Песни 🎶»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Песни 🎶»', 'Практическое задание: Песни 🎶'],
       },
       {
         type: 'quiz',
@@ -866,6 +875,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Громко и тихо 🔊🔇",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D1%80%D0%BE%D0%BC%D0%BA%D0%BE%20%D0%B8%20%D1%82%D0%B8%D1%85%D0%BE%20%F0%9F%94%8A%F0%9F%94%87%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -876,6 +886,8 @@ export const games: GameLesson[] = [
         options: ["Шёпот", "Крик", "Одинаково", "Никто не знает", "Не знаю"],
         correctAnswer: "Крик",
         hint: "Крик слышно лучше"
+        keyPoints: ['Основные понятия темы «Громко и тихо 🔊🔇»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Громко и тихо 🔊🔇»', 'Практическое задание: Громко и тихо 🔊🔇'],
       },
       {
         type: 'find',
@@ -910,6 +922,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Быстро и медленно 🏃🐢",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D1%8B%D1%81%D1%82%D1%80%D0%BE%20%D0%B8%20%D0%BC%D0%B5%D0%B4%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%20%F0%9F%8F%83%F0%9F%90%A2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -920,6 +933,8 @@ export const games: GameLesson[] = [
         options: ["Быстро", "Медленно", "Очень быстро", "Никто не знает", "Не знаю"],
         correctAnswer: "Медленно",
         hint: "Колыбельная успокаивает"
+        keyPoints: ['Основные понятия темы «Быстро и медленно 🏃🐢»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Быстро и медленно 🏃🐢»', 'Практическое задание: Быстро и медленно 🏃🐢'],
       },
       {
         type: 'quiz',
@@ -954,6 +969,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Высокие и низкие звуки 🎵",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D1%8B%D1%81%D0%BE%D0%BA%D0%B8%D0%B5%20%D0%B8%20%D0%BD%D0%B8%D0%B7%D0%BA%D0%B8%D0%B5%20%D0%B7%D0%B2%D1%83%D0%BA%D0%B8%20%F0%9F%8E%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -964,6 +980,8 @@ export const games: GameLesson[] = [
         options: ["Медведь", "Птичка", "Лев", "Никто не знает", "Не знаю"],
         correctAnswer: "Птичка",
         hint: "Птички поют тоненько"
+        keyPoints: ['Основные понятия темы «Высокие и низкие звуки 🎵»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Высокие и низкие звуки 🎵»', 'Практическое задание: Высокие и низкие звуки 🎵'],
       },
       {
         type: 'quiz',
@@ -998,6 +1016,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Звуки вокруг нас 🌍",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B2%D1%83%D0%BA%D0%B8%20%D0%B2%D0%BE%D0%BA%D1%80%D1%83%D0%B3%20%D0%BD%D0%B0%D1%81%20%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1008,6 +1027,8 @@ export const games: GameLesson[] = [
         options: ["Мяу-мяу", "Гав-гав", "Ку-ку", "Никто не знает", "Не знаю"],
         correctAnswer: "Гав-гав",
         hint: "Собака лает"
+        keyPoints: ['Основные понятия темы «Звуки вокруг нас 🌍»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Звуки вокруг нас 🌍»', 'Практическое задание: Звуки вокруг нас 🌍'],
       },
       {
         type: 'quiz',
@@ -1042,6 +1063,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Бубен и погремушка 🥁",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D1%83%D0%B1%D0%B5%D0%BD%20%D0%B8%20%D0%BF%D0%BE%D0%B3%D1%80%D0%B5%D0%BC%D1%83%D1%88%D0%BA%D0%B0%20%F0%9F%A5%81%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1052,6 +1074,8 @@ export const games: GameLesson[] = [
         options: ["Барабан", "Бубен", "Колокольчик", "Никто не знает", "Не знаю"],
         correctAnswer: "Бубен",
         hint: "Бубен имеет бубенчики по краям"
+        keyPoints: ['Основные понятия темы «Бубен и погремушка 🥁»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Бубен и погремушка 🥁»', 'Практическое задание: Бубен и погремушка 🥁'],
       },
       {
         type: 'quiz',
@@ -1086,6 +1110,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Барабан 🥁",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D0%B0%D1%80%D0%B0%D0%B1%D0%B0%D0%BD%20%F0%9F%A5%81%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1096,6 +1121,8 @@ export const games: GameLesson[] = [
         options: ["Круглый", "Цилиндрический", "Треугольный", "Никто не знает", "Не знаю"],
         correctAnswer: "Цилиндрический",
         hint: "Барабан похож на цилиндр"
+        keyPoints: ['Основные понятия темы «Барабан 🥁»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Барабан 🥁»', 'Практическое задание: Барабан 🥁'],
       },
       {
         type: 'quiz',
@@ -1130,6 +1157,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Песня «В лесу родилась ёлочка» 🎄",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B5%D1%81%D0%BD%D1%8F%20%C2%AB%D0%92%20%D0%BB%D0%B5%D1%81%D1%83%20%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B0%D1%81%D1%8C%20%D1%91%D0%BB%D0%BE%D1%87%D0%BA%D0%B0%C2%BB%20%F0%9F%8E%84%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1140,6 +1168,8 @@ export const games: GameLesson[] = [
         options: ["В городе", "В лесу", "В доме", "Никто не знает", "Не знаю"],
         correctAnswer: "В лесу",
         hint: "В лесу родилась ёлочка"
+        keyPoints: ['Основные понятия темы «Песня «В лесу родилась ёлочка» 🎄»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Песня «В лесу родилась ёлочка» 🎄»', 'Практическое задание: Песня «В лесу родилась ёлочка» 🎄'],
       },
       {
         type: 'quiz',
@@ -1174,6 +1204,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Песня «Кузнечик» 🦗",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B5%D1%81%D0%BD%D1%8F%20%C2%AB%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%B8%D0%BA%C2%BB%20%F0%9F%A6%97%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1184,6 +1215,8 @@ export const games: GameLesson[] = [
         options: ["На дереве", "В траве", "На цветке", "Никто не знает", "Не знаю"],
         correctAnswer: "В траве",
         hint: "В траве сидел кузнечик"
+        keyPoints: ['Основные понятия темы «Песня «Кузнечик» 🦗»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Песня «Кузнечик» 🦗»', 'Практическое задание: Песня «Кузнечик» 🦗'],
       },
       {
         type: 'quiz',
@@ -1218,6 +1251,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Оркестр 🎼",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80%20%F0%9F%8E%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -1228,6 +1262,8 @@ export const games: GameLesson[] = [
         options: ["Музыкант", "Дирижёр", "Певец", "Никто не знает", "Не знаю"],
         correctAnswer: "Дирижёр",
         hint: "Дирижёр показывает музыкантам, когда играть"
+        keyPoints: ['Основные понятия темы «Оркестр 🎼»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Оркестр 🎼»', 'Практическое задание: Оркестр 🎼'],
       },
       {
         type: 'quiz',

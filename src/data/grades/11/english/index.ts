@@ -1,8 +1,14 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[]) => ({ 
-  title, description, tasks, content, examples, facts, keyPoints
-})
+const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[], image?: string) => {
+  let finalImage = image;
+  if (!finalImage) {
+    const shortTitle = title.replace(/^Урок \d+:\s*/, '').substring(0, 35);
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#831843"/><stop offset="100%" style="stop-color:#f472b633"/></linearGradient></defs><rect width="400" height="250" rx="16" fill="url(#bg)"/><rect x="16" y="16" width="368" height="218" rx="8" fill="none" stroke="#f9a8d433" stroke-width="1"/><text x="200" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#f9a8d499">11 класс · Английский язык</text><text x="200" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#f9a8d4">${shortTitle}</text><line x1="100" y1="180" x2="300" y2="180" stroke="#f472b666" stroke-width="2"/><circle cx="80" cy="220" r="4" fill="#f472b6"/><circle cx="320" cy="220" r="4" fill="#f472b6"/><text x="200" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f9a8d477">Английский язык</text></svg>`;
+    finalImage = 'data:image/svg+xml,' + encodeURIComponent(svg);
+  }
+  return { title, description, tasks, content, examples, facts, keyPoints, image: finalImage };
+}
 
 export const lessons: SubjectData = {
   title: "Английский язык",
@@ -171,7 +177,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Урок 1: Mixed Conditionals",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson1.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23831843%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23f472b633%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d433%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f9a8d499%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f9a8d4%22%3EMixed%20Conditionals%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23f472b666%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f9a8d477%22%3E%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -182,10 +188,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Were I rich... — это:", options: ["Past Simple", "Инверсия (без if)", "Present Simple", "—", "—"], correctAnswer: "Инверсия (без if)", hint: "Were I = If I were" }
     ],
     reward: { stars: 3, message: "Excellent! You know Mixed Conditionals! 🎓" }
+    keyPoints: ['Основные понятия темы «Урок 1: Mixed Conditionals»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Урок 1: Mixed Conditionals — practice English skills', 'Практическое задание по теме «Урок 1: Mixed Conditionals»'],
   },
   {
     title: "Урок 2: Inversion",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson2.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23831843%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23f472b633%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d433%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f9a8d499%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f9a8d4%22%3EInversion%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23f472b666%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f9a8d477%22%3E%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -196,10 +204,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "She likes coffee. So __ I.", options: ["do", "am", "like", "—", "—"], correctAnswer: "do", hint: "So do I = Я тоже" }
     ],
     reward: { stars: 3, message: "Great! You know Inversion! 📚" }
+    keyPoints: ['Основные понятия темы «Урок 2: Inversion»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Урок 2: Inversion — practice English skills', 'Практическое задание по теме «Урок 2: Inversion»'],
   },
   {
     title: "Урок 3: Subjunctive Mood",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson3.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23831843%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23f472b633%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d433%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f9a8d499%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f9a8d4%22%3ESubjunctive%20Mood%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23f472b666%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f9a8d477%22%3E%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -210,10 +220,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "You ____ better study. (совет)", options: ["had", "would", "should", "—", "—"], correctAnswer: "had", hint: "Had better = тебе лучше" }
     ],
     reward: { stars: 3, message: "Perfect! You know Subjunctive Mood! ✨" }
+    keyPoints: ['Основные понятия темы «Урок 3: Subjunctive Mood»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Урок 3: Subjunctive Mood — practice English skills', 'Практическое задание по теме «Урок 3: Subjunctive Mood»'],
   },
   {
     title: "Урок 4: Complex Structures",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson4.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23831843%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23f472b633%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d433%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f9a8d499%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f9a8d4%22%3EComplex%20Structures%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23f472b666%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f9a8d477%22%3E%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -224,10 +236,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "He is ____ young to drive.", options: ["too", "so", "very", "—", "—"], correctAnswer: "too", hint: "Too... to = слишком... чтобы" }
     ],
     reward: { stars: 3, message: "Excellent! You know Complex Structures! 🏗️" }
+    keyPoints: ['Основные понятия темы «Урок 4: Complex Structures»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Урок 4: Complex Structures — practice English skills', 'Практическое задание по теме «Урок 4: Complex Structures»'],
   },
   {
     title: "Урок 5: Academic Vocabulary",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson5.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23831843%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23f472b633%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d433%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f9a8d499%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f9a8d4%22%3EAcademic%20Vocabulary%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23f472b666%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f9a8d477%22%3E%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -238,10 +252,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "В заключение — In ____.", options: ["end", "conclusion", "finish", "—", "—"], correctAnswer: "conclusion", hint: "In conclusion" }
     ],
     reward: { stars: 3, message: "Super! You know Academic Vocabulary! ✍️" }
+    keyPoints: ['Основные понятия темы «Урок 5: Academic Vocabulary»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Урок 5: Academic Vocabulary — practice English skills', 'Практическое задание по теме «Урок 5: Academic Vocabulary»'],
   },
   {
     title: "Урок 6: Essay Writing",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson6.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23831843%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23f472b633%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d433%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f9a8d499%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f9a8d4%22%3EEssay%20Writing%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23f472b666%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f9a8d477%22%3E%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -252,10 +268,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Заключение эссе должно:", options: ["Вводить новые идеи", "Обобщать основные пункты", "Быть самым длинным", "—", "—"], correctAnswer: "Обобщать основные пункты", hint: "Заключение = summary" }
     ],
     reward: { stars: 3, message: "Great! You know Essay Writing! 📝" }
+    keyPoints: ['Основные понятия темы «Урок 6: Essay Writing»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Урок 6: Essay Writing — practice English skills', 'Практическое задание по теме «Урок 6: Essay Writing»'],
   },
   {
     title: "Урок 7: Debating Skills",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson7.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23831843%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23f472b633%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d433%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f9a8d499%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f9a8d4%22%3EDebating%20Skills%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23f472b666%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f9a8d477%22%3E%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -266,10 +284,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "«Или ты с нами, или против нас» — это:", options: ["Straw Man", "False Dichotomy", "Slippery Slope", "—", "—"], correctAnswer: "False Dichotomy", hint: "Ложная дилемма" }
     ],
     reward: { stars: 3, message: "Excellent! You know Debating Skills! 🎤" }
+    keyPoints: ['Основные понятия темы «Урок 7: Debating Skills»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Урок 7: Debating Skills — practice English skills', 'Практическое задание по теме «Урок 7: Debating Skills»'],
   },
   {
     title: "Урок 8: Business English",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson8.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23831843%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23f472b633%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d433%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f9a8d499%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f9a8d4%22%3EBusiness%20English%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23f472b666%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f9a8d477%22%3E%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -280,10 +300,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "I look forward ____ from you.", options: ["hear", "to hear", "to hearing", "—", "—"], correctAnswer: "to hearing", hint: "look forward to + -ing" }
     ],
     reward: { stars: 3, message: "Excellent! You know Business English! 💼" }
+    keyPoints: ['Основные понятия темы «Урок 8: Business English»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Урок 8: Business English — practice English skills', 'Практическое задание по теме «Урок 8: Business English»'],
   },
   {
     title: "Урок 9: Job Interview",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson9.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23831843%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23f472b633%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d433%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f9a8d499%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f9a8d4%22%3EJob%20Interview%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23f472b666%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f9a8d477%22%3E%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -294,10 +316,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Спасибо за интервью — Thank you email отправить:", options: ["В тот же день", "В течение 24 часов", "Через неделю", "—", "—"], correctAnswer: "В течение 24 часов", hint: "Thank you email — в течение 24 часов" }
     ],
     reward: { stars: 3, message: "Perfect! You're ready for Job Interview! 💪" }
+    keyPoints: ['Основные понятия темы «Урок 9: Job Interview»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Урок 9: Job Interview — practice English skills', 'Практическое задание по теме «Урок 9: Job Interview»'],
   },
   {
     title: "Урок 10: Presentation Skills",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson10.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23831843%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23f472b633%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d433%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23f9a8d499%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23f9a8d4%22%3EPresentation%20Skills%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23f472b666%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23f472b6%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23f9a8d477%22%3E%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -308,5 +332,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "I'd be happy to ____ any questions.", options: ["answer", "reply", "respond", "—", "—"], correctAnswer: "answer", hint: "answer questions = отвечать на вопросы" }
     ],
     reward: { stars: 3, message: "Excellent! You know Presentation Skills! 🎯" }
+    keyPoints: ['Основные понятия темы «Урок 10: Presentation Skills»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Урок 10: Presentation Skills — practice English skills', 'Практическое задание по теме «Урок 10: Presentation Skills»'],
   }
 ]

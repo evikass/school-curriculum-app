@@ -346,6 +346,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Работа с бумагой 📄",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D1%81%20%D0%B1%D1%83%D0%BC%D0%B0%D0%B3%D0%BE%D0%B9%20%F0%9F%93%84%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -355,9 +356,12 @@ export const games = [
       { type: 'quiz', question: "Как передают ножницы?", options: ["Остриём вперёд", "Кольцами вперёд", "Любым способом", "Никто не знает", "Не знаю"], correctAnswer: "Кольцами вперёд", hint: "Безопасное правило" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь работу с бумагой! 📄" }
+    keyPoints: ['Основные понятия темы «Работа с бумагой 📄»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Работа с бумагой 📄»', 'Практическое задание: Работа с бумагой 📄'],
   },
   {
     title: "Аппликация 🎨",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D0%BF%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -367,9 +371,12 @@ export const games = [
       { type: 'quiz', question: "Как правильно наносить клей?", options: ["На всю бумагу", "Только по краям", "От центра к краям", "Никто не знает", "Не знаю"], correctAnswer: "От центра к краям", hint: "Равномерное нанесение" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь аппликацию! 🎨" }
+    keyPoints: ['Основные понятия темы «Аппликация 🎨»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Аппликация 🎨»', 'Практическое задание: Аппликация 🎨'],
   },
   {
     title: "Лепка 🧸",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9B%D0%B5%D0%BF%D0%BA%D0%B0%20%F0%9F%A7%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -379,9 +386,12 @@ export const games = [
       { type: 'quiz', question: "Какой цвет при смешивании красного и жёлтого?", options: ["Зелёный", "Оранжевый", "Фиолетовый", "Никто не знает", "Не знаю"], correctAnswer: "Оранжевый", hint: "Цвет апельсина" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь лепку! 🧸" }
+    keyPoints: ['Основные понятия темы «Лепка 🧸»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Лепка 🧸»', 'Практическое задание: Лепка 🧸'],
   },
   {
     title: "Оригами и моделирование 🦢",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D1%80%D0%B8%D0%B3%D0%B0%D0%BC%D0%B8%20%D0%B8%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%F0%9F%A6%A2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -392,6 +402,8 @@ export const games = [
       { type: 'quiz', question: "Символ оригами — __", options: ["голубь", "кораблик", "самолёт", "журавлик", "лягушка"], correctAnswer: "журавлик", hint: "1000 журавликов исполняют желание" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь оригами! 🦢" }
+    keyPoints: ['Основные понятия темы «Оригами и моделирование 🦢»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Оригами и моделирование 🦢»', 'Практическое задание: Оригами и моделирование 🦢'],
   }
 ]
 

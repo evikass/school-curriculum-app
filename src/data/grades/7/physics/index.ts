@@ -619,6 +619,7 @@ N = A / t = 100 000 / 50 = 2000 Вт = 2 кВт
 export const games = [
   {
     title: "Физические величины",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -630,9 +631,12 @@ export const games = [
       { type: 'quiz', question: "Какая единица измерения пути?", options: ["Метр", "Секунда", "Ньютон", "Ватт", "Другой ответ"], correctAnswer: "Метр", hint: "Единица длины" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь единицы! 📏" }
+    keyPoints: ['Основные понятия темы «Физические величины»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Физические величины — решение физических задач', 'Практическое задание по теме «Физические величины»'],
   },
   {
     title: "Механическое движение",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%20%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -644,9 +648,12 @@ export const games = [
       { type: 'quiz', question: "Что такое скорость?", options: ["Путь за единицу времени", "Время движения", "Расстояние", "Сила", "Другой ответ"], correctAnswer: "Путь за единицу времени", hint: "Быстрота движения" }
     ],
     reward: { stars: 3, message: "Отлично! Ты решаешь задачи! 🚗" }
+    keyPoints: ['Основные понятия темы «Механическое движение»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Механическое движение — решение физических задач', 'Практическое задание по теме «Механическое движение»'],
   },
   {
     title: "Силы в природе",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B8%D0%BB%D1%8B%20%D0%B2%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -658,9 +665,12 @@ export const games = [
       { type: 'quiz', question: "Что такое вес тела?", options: ["Масса тела", "Сила давления на опору", "Сила тяжести", "Объём тела", "Другой ответ"], correctAnswer: "Сила давления на опору", hint: "Приложен к опоре" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь силы! 💪" }
+    keyPoints: ['Основные понятия темы «Силы в природе»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Силы в природе — решение физических задач', 'Практическое задание по теме «Силы в природе»'],
   },
   {
     title: "Давление",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -672,9 +682,12 @@ export const games = [
       { type: 'quiz', question: "Формула давления:", options: ["p = F/S", "p = m/V", "p = F·S", "p = S/F", "Другой ответ"], correctAnswer: "p = F/S", hint: "Сила делить на площадь" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь давление! 📊" }
+    keyPoints: ['Основные понятия темы «Давление»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Давление — решение физических задач', 'Практическое задание по теме «Давление»'],
   },
   {
     title: "Работа и мощность",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B8%20%D0%BC%D0%BE%D1%89%D0%BD%D0%BE%D1%81%D1%82%D1%8C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -686,9 +699,12 @@ export const games = [
       { type: 'quiz', question: "Формула работы:", options: ["A = F + S", "A = F · S", "A = F / S", "A = S / F", "Другой ответ"], correctAnswer: "A = F · S", hint: "Сила на перемещение" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь работу! ⚡" }
+    keyPoints: ['Основные понятия темы «Работа и мощность»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Работа и мощность — решение физических задач', 'Практическое задание по теме «Работа и мощность»'],
   },
   {
     title: "Механическое движение и его характеристики",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%20%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D1%85%D0%B0%D1%80%D0%B0%D0%BA%D1%82%D0%B5%E2%80%A6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -713,6 +729,7 @@ export const games = [
   },
   {
     title: "Расчёт пути и времени движения",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D1%81%D1%87%D1%91%D1%82%20%D0%BF%D1%83%D1%82%D0%B8%20%D0%B8%20%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -737,6 +754,7 @@ export const games = [
   },
   {
     title: "Сила тяжести и вес тела",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B8%D0%BB%D0%B0%20%D1%82%D1%8F%D0%B6%D0%B5%D1%81%D1%82%D0%B8%20%D0%B8%20%D0%B2%D0%B5%D1%81%20%D1%82%D0%B5%D0%BB%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -761,6 +779,7 @@ export const games = [
   },
   {
     title: "Сила упругости и сила трения",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B8%D0%BB%D0%B0%20%D1%83%D0%BF%D1%80%D1%83%D0%B3%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%20%D1%81%D0%B8%D0%BB%D0%B0%20%D1%82%D1%80%D0%B5%D0%BD%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -785,6 +804,7 @@ export const games = [
   },
   {
     title: "Законы Ньютона",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B%20%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -809,6 +829,7 @@ export const games = [
   },
   {
     title: "Давление и его единицы",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -833,6 +854,7 @@ export const games = [
   },
   {
     title: "Давление жидкостей и газов",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B6%D0%B8%D0%B4%D0%BA%D0%BE%D1%81%D1%82%D0%B5%D0%B9%20%D0%B8%20%D0%B3%D0%B0%D0%B7%D0%BE%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -857,6 +879,7 @@ export const games = [
   },
   {
     title: "Механическая работа",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",
@@ -881,6 +904,7 @@ export const games = [
   },
   {
     title: "Мощность",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%BE%D1%89%D0%BD%D0%BE%D1%81%D1%82%D1%8C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E7%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физика",
     icon: "Atom",
     color: "text-purple-400",

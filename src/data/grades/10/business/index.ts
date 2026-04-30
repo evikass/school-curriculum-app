@@ -1,6 +1,39 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => ({ title, description, tasks, examples, keyPoints })
+const createLesson = (title: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => {
+  // Auto-generate examples from description
+  const autoEx: string[] = [];
+  if (!examples || examples.length === 0) {
+    const exLines = description.split('\n');
+    for (const line of exLines) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith('- ') && trimmed.length > 15 && trimmed.length < 150) {
+        let ex = trimmed.substring(2).trim();
+        if (ex.length > 10 && !ex.startsWith('**') && !ex.startsWith('```') && !ex.startsWith('|')) {
+          if (ex.length > 100) ex = ex.substring(0, 97) + '...';
+          autoEx.push(ex);
+        }
+      }
+      if (autoEx.length >= 3) break;
+    }
+    if (autoEx.length < 2) autoEx.push('Пример: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+  // Auto-generate keyPoints from description
+  const autoKP: string[] = [];
+  if (!keyPoints || keyPoints.length === 0) {
+    const boldMatches = description.match(/\*\*([^*]{4,55})\*\*/g) || [];
+    for (const bm of boldMatches) {
+      const text = bm.replace(/\*\*/g, '').trim();
+      if (text.length > 4 && text.length < 55 && !text.includes('```') && !/^(python|sql|html|css|bash)/i.test(text)) {
+        if (!autoKP.some(p => p === text)) autoKP.push(text);
+        if (autoKP.length >= 4) break;
+      }
+    }
+    if (autoKP.length < 3) autoKP.push('Ключевое понятие: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+
+  return { title, description, tasks, examples: (examples?.length ? examples : autoEx.slice(0, 3)), keyPoints: (keyPoints?.length ? keyPoints : autoKP.slice(0, 5)) };
+}
 
 export const lessons: SubjectData = {
   title: "Основы предпринимательства",
@@ -11,7 +44,7 @@ export const lessons: SubjectData = {
     {
       topic: "Бизнес-планирование",
       lessons: [
-        createLesson("Урок 1: Предпринимательство", "/school-curriculum-app/images/lessons/grade10/business/lesson1.svg",`**Предпринимательство** — самостоятельная экономическая деятельность, направленная на получение прибыли через производство, продажу товаров или оказание услуг.
+        createLesson("Урок 1: Предпринимательство", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23065f46%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2334d39933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%236ee7b733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%236ee7b799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%236ee7b7%22%3E%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2334d39966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%236ee7b777%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3C%2Fsvg%3E",`**Предпринимательство** — самостоятельная экономическая деятельность, направленная на получение прибыли через производство, продажу товаров или оказание услуг.
 
 **Кто такой предприниматель:**
 Предприниматель — это человек, который создаёт бизнес, берёт на себя риски и ответственность за его результаты. Он выявляет потребности рынка и предлагает решения. Это не просто владелец бизнеса, а лидер, способный видеть возможности там, где другие видят проблемы.
@@ -72,7 +105,7 @@ export const lessons: SubjectData = {
                   'Риски предпринимательства: финансовые потери, конкуренция, изменение спроса, юридические проблемы'
                 ]
       ),
-        createLesson("Урок 2: Бизнес-идея", "/school-curriculum-app/images/lessons/grade10/business/lesson2.svg",`**Бизнес-идея** — это концепция нового бизнеса, основанная на выявленной потребности рынка и способе её удовлетворения.
+        createLesson("Урок 2: Бизнес-идея", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23065f46%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2334d39933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%236ee7b733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%236ee7b799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%236ee7b7%22%3E%D0%A3%D1%80%D0%BE%D0%BA%202%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2334d39966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%236ee7b777%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3C%2Fsvg%3E",`**Бизнес-идея** — это концепция нового бизнеса, основанная на выявленной потребности рынка и способе её удовлетворения.
 
 **Источники бизнес-идей:**
 
@@ -150,7 +183,7 @@ export const lessons: SubjectData = {
                   'Критерии оценки идеи: востребованность, реалистичность, масштабируемость, конкурентоспособность'
                 ]
       ),
-        createLesson("Урок 3: Бизнес-план", "/school-curriculum-app/images/lessons/grade10/business/lesson3.svg",`**Бизнес-план** — документ, описывающий цели бизнеса, стратегии их достижения, ресурсы и ожидаемые результаты.
+        createLesson("Урок 3: Бизнес-план", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23065f46%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2334d39933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%236ee7b733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%236ee7b799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%236ee7b7%22%3E%D0%A3%D1%80%D0%BE%D0%BA%203%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2334d39966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%236ee7b777%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3C%2Fsvg%3E",`**Бизнес-план** — документ, описывающий цели бизнеса, стратегии их достижения, ресурсы и ожидаемые результаты.
 
 **Структура бизнес-плана:**
 
@@ -244,7 +277,7 @@ export const lessons: SubjectData = {
                   'Формула точки безубыточности: T = Постоянные расходы / (Цена − Переменные расходы)'
                 ]
       ),
-        createLesson("Урок 4: Юридические основы", "/school-curriculum-app/images/lessons/grade10/business/lesson4.svg",`**Формы бизнеса в России:**
+        createLesson("Урок 4: Юридические основы", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23065f46%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2334d39933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%236ee7b733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%236ee7b799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%236ee7b7%22%3E%D0%A3%D1%80%D0%BE%D0%BA%204%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2334d39966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%236ee7b777%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3C%2Fsvg%3E",`**Формы бизнеса в России:**
 
 | Форма | Владельцы | Ответственность | Когда подходит |
 |-------|-----------|-----------------|----------------|
@@ -332,7 +365,7 @@ export const lessons: SubjectData = {
     {
       topic: "Маркетинг и продажи",
       lessons: [
-        createLesson("Урок 5: Целевая аудитория", "/school-curriculum-app/images/lessons/grade10/business/lesson5.svg",`**Целевая аудитория (ЦА)** — группа людей, которые являются потенциальными покупателями вашего продукта или услуги.
+        createLesson("Урок 5: Целевая аудитория", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23065f46%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2334d39933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%236ee7b733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%236ee7b799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%236ee7b7%22%3E%D0%A3%D1%80%D0%BE%D0%BA%205%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2334d39966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%236ee7b777%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3C%2Fsvg%3E",`**Целевая аудитория (ЦА)** — группа людей, которые являются потенциальными покупателями вашего продукта или услуги.
 
 **Сегментация рынка:**
 
@@ -420,7 +453,7 @@ export const lessons: SubjectData = {
                   'Пирамида Маслоу: от физиологических потребностей к самореализации'
                 ]
       ),
-        createLesson("Урок 6: Продукт", "/school-curriculum-app/images/lessons/grade10/business/lesson6.svg",`**Продукт** — это всё, что предлагается рынку для удовлетворения потребности: товары, услуги, идеи, опыт.
+        createLesson("Урок 6: Продукт", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23065f46%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2334d39933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%236ee7b733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%236ee7b799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%236ee7b7%22%3E%D0%A3%D1%80%D0%BE%D0%BA%206%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2334d39966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%236ee7b777%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3C%2Fsvg%3E",`**Продукт** — это всё, что предлагается рынку для удовлетворения потребности: товары, услуги, идеи, опыт.
 
 **Три уровня продукта:**
 
@@ -507,7 +540,7 @@ export const lessons: SubjectData = {
                   'Жизненный цикл продукта: внедрение → рост → зрелость → спад'
                 ]
       ),
-        createLesson("Урок 7: Продвижение", "/school-curriculum-app/images/lessons/grade10/business/lesson7.svg",`**Продвижение** — комплекс мер по информированию, привлечению и удержанию клиентов.
+        createLesson("Урок 7: Продвижение", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23065f46%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2334d39933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%236ee7b733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%236ee7b799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%236ee7b7%22%3E%D0%A3%D1%80%D0%BE%D0%BA%207%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2334d39966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%236ee7b777%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3C%2Fsvg%3E",`**Продвижение** — комплекс мер по информированию, привлечению и удержанию клиентов.
 
 **Каналы маркетинга:**
 
@@ -591,7 +624,7 @@ export const lessons: SubjectData = {
                   'Контент-план — расписание публикаций на неделю/месяц'
                 ]
       ),
-        createLesson("Урок 8: Продажи", "/school-curriculum-app/images/lessons/grade10/business/lesson8.svg",`**Продажи** — процесс обмена товара или услуги на деньги, включающий работу с клиентом от первого контакта до закрытия сделки.
+        createLesson("Урок 8: Продажи", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23065f46%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2334d39933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%236ee7b733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%236ee7b799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%236ee7b7%22%3E%D0%A3%D1%80%D0%BE%D0%BA%208%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2334d39966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%236ee7b777%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3C%2Fsvg%3E",`**Продажи** — процесс обмена товара или услуги на деньги, включающий работу с клиентом от первого контакта до закрытия сделки.
 
 **Воронка продаж:**
 
@@ -692,7 +725,7 @@ export const lessons: SubjectData = {
     {
       topic: "Управление и финансы",
       lessons: [
-        createLesson("Урок 9: Финансовые расчёты", "/school-curriculum-app/images/lessons/grade10/business/lesson9.svg",`**Финансы в бизнесе** — система управления денежными потоками для обеспечения прибыльности и устойчивости.
+        createLesson("Урок 9: Финансовые расчёты", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23065f46%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2334d39933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%236ee7b733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%236ee7b799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%236ee7b7%22%3E%D0%A3%D1%80%D0%BE%D0%BA%209%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2334d39966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%236ee7b777%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3C%2Fsvg%3E",`**Финансы в бизнесе** — система управления денежными потоками для обеспечения прибыльности и устойчивости.
 
 **Основные финансовые понятия:**
 
@@ -794,7 +827,7 @@ export const lessons: SubjectData = {
                   'Кэш-флоу — движение реальных денег, а не бумажная прибыль'
                 ]
       ),
-        createLesson("Урок 10: Команда", "/school-curriculum-app/images/lessons/grade10/business/lesson10.svg",`**Команда** — группа людей, объединённых общей целью, дополняющих друг друга компетенциями и работающих вместе над достижением результата.
+        createLesson("Урок 10: Команда", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23065f46%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2334d39933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%236ee7b733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%236ee7b799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%236ee7b7%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2010%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2334d39966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%236ee7b777%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3C%2Fsvg%3E",`**Команда** — группа людей, объединённых общей целью, дополняющих друг друга компетенциями и работающих вместе над достижением результата.
 
 **Этапы подбора команды:**
 
@@ -891,7 +924,7 @@ export const lessons: SubjectData = {
                   'Эффективная команда дополняет друг друга компетенциями и разделяет общие цели'
                 ]
       ),
-        createLesson("Урок 11: Масштабирование", "/school-curriculum-app/images/lessons/grade10/business/lesson11.svg",`**Масштабирование** — процесс роста бизнеса с увеличением выручки без пропорционального роста затрат.
+        createLesson("Урок 11: Масштабирование", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23065f46%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2334d39933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%236ee7b733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%236ee7b799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%236ee7b7%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2011%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2334d39966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%236ee7b777%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3C%2Fsvg%3E",`**Масштабирование** — процесс роста бизнеса с увеличением выручки без пропорционального роста затрат.
 
 **Стратегии роста:**
 
@@ -976,7 +1009,7 @@ export const lessons: SubjectData = {
           "Сравните 3 источника финансирования для вашего бизнеса: плюсы, минусы, условия.",
           "Составьте структуру питч-дека для вашего проекта (10 слайдов с кратким содержанием)."
         ]),
-        createLesson("Урок 12: Защита бизнес-плана", "/school-curriculum-app/images/lessons/grade10/business/lesson12.svg",`**Защита бизнес-плана** — финальная презентация проекта перед аудиторией (инвесторы, эксперты, жюри).
+        createLesson("Урок 12: Защита бизнес-плана", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23065f46%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2334d39933%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%236ee7b733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%236ee7b799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%236ee7b7%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2012%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2334d39966%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2334d399%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%236ee7b777%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C%2Ftext%3E%3C%2Fsvg%3E",`**Защита бизнес-плана** — финальная презентация проекта перед аудиторией (инвесторы, эксперты, жюри).
 
 **Структура презентации:**
 
@@ -1071,6 +1104,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Введение в предпринимательство",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23854d0e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы предпринимательства",
     icon: "Rocket",
     color: "text-amber-400",
@@ -1081,6 +1115,8 @@ export const games: GameLesson[] = [
         options: ["Хобби", "Экономическая деятельность ради прибыли", "Государственная служба", "Благотворительность", "Общественная деятельность"],
         correctAnswer: "Экономическая деятельность ради прибыли",
         hint: "Связано с бизнесом и доходом"
+        keyPoints: ['Основные понятия темы «Введение в предпринимательство»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Введение в предпринимательство»', 'Практическое задание: Введение в предпринимательство'],
       },
       {
         type: 'find',
@@ -1136,6 +1172,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Генерация и оценка идей",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23854d0e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%20%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%B0%20%D0%B8%D0%B4%D0%B5%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы предпринимательства",
     icon: "Rocket",
     color: "text-amber-400",
@@ -1146,6 +1183,8 @@ export const games: GameLesson[] = [
         options: ["Мозговой штурм", "SCAMPER", "Бенчмаркинг", "Фокус-группа", "Наблюдение"],
         correctAnswer: "SCAMPER",
         hint: "7 техник трансформации"
+        keyPoints: ['Основные понятия темы «Генерация и оценка идей»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Генерация и оценка идей»', 'Практическое задание: Генерация и оценка идей'],
       },
       {
         type: 'find',
@@ -1201,6 +1240,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Бизнес-планирование",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23854d0e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы предпринимательства",
     icon: "Rocket",
     color: "text-amber-400",
@@ -1211,6 +1251,8 @@ export const games: GameLesson[] = [
         options: ["Счёт за услуги", "Документ с планом развития бизнеса", "Рекламный буклет", "Финансовый отчёт", "Договор с клиентом"],
         correctAnswer: "Документ с планом развития бизнеса",
         hint: "Стратегия и расчёты"
+        keyPoints: ['Основные понятия темы «Бизнес-планирование»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Бизнес-планирование»', 'Практическое задание: Бизнес-планирование'],
       },
       {
         type: 'find',
@@ -1266,6 +1308,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Юридические основы бизнеса",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23854d0e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы предпринимательства",
     icon: "Rocket",
     color: "text-amber-400",
@@ -1276,6 +1319,8 @@ export const games: GameLesson[] = [
         options: ["Инвестиционный проект", "Индивидуальный предприниматель", "Инженерный проект", "Исполнительный приказ", "Инновационный план"],
         correctAnswer: "Индивидуальный предприниматель",
         hint: "Форма бизнеса с одним владельцем"
+        keyPoints: ['Основные понятия темы «Юридические основы бизнеса»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Юридические основы бизнеса»', 'Практическое задание: Юридические основы бизнеса'],
       },
       {
         type: 'find',
@@ -1331,6 +1376,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Целевая аудитория",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23854d0e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A6%D0%B5%D0%BB%D0%B5%D0%B2%D0%B0%D1%8F%20%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы предпринимательства",
     icon: "Rocket",
     color: "text-amber-400",
@@ -1341,6 +1387,8 @@ export const games: GameLesson[] = [
         options: ["Все люди", "Потенциальные клиенты", "Конкуренты", "Поставщики", "Партнёры"],
         correctAnswer: "Потенциальные клиенты",
         hint: "Для кого ваш продукт"
+        keyPoints: ['Основные понятия темы «Целевая аудитория»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Целевая аудитория»', 'Практическое задание: Целевая аудитория'],
       },
       {
         type: 'find',
@@ -1396,6 +1444,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Продукт и ценообразование",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23854d0e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%20%D0%B8%20%D1%86%D0%B5%D0%BD%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы предпринимательства",
     icon: "Rocket",
     color: "text-amber-400",
@@ -1406,6 +1455,8 @@ export const games: GameLesson[] = [
         options: ["Его цена", "Польза для клиента", "Качество упаковки", "Бренд производителя", "Количество отзывов"],
         correctAnswer: "Польза для клиента",
         hint: "Почему покупают"
+        keyPoints: ['Основные понятия темы «Продукт и ценообразование»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Продукт и ценообразование»', 'Практическое задание: Продукт и ценообразование'],
       },
       {
         type: 'find',
@@ -1461,6 +1512,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Продвижение и маркетинг",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23854d0e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%B8%D0%BD%D0%B3%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы предпринимательства",
     icon: "Rocket",
     color: "text-amber-400",
@@ -1471,6 +1523,8 @@ export const games: GameLesson[] = [
         options: ["Реклама платная, PR — формирование репутации", "Реклама бесплатная", "PR продаёт товары", "Реклама — это только ТВ", "PR работает только в интернете"],
         correctAnswer: "Реклама платная, PR — формирование репутации",
         hint: "Разные цели"
+        keyPoints: ['Основные понятия темы «Продвижение и маркетинг»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Продвижение и маркетинг»', 'Практическое задание: Продвижение и маркетинг'],
       },
       {
         type: 'find',
@@ -1526,6 +1580,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Продажи и работа с клиентами",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23854d0e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B8%20%D0%B8%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D1%81%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D0%BC%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы предпринимательства",
     icon: "Rocket",
     color: "text-amber-400",
@@ -1536,6 +1591,8 @@ export const games: GameLesson[] = [
         options: ["Производство товаров", "Привлечение потенциальных клиентов", "Работа с персоналом", "Финансовый учёт", "Разработка продукта"],
         correctAnswer: "Привлечение потенциальных клиентов",
         hint: "Начало воронки продаж"
+        keyPoints: ['Основные понятия темы «Продажи и работа с клиентами»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Продажи и работа с клиентами»', 'Практическое задание: Продажи и работа с клиентами'],
       },
       {
         type: 'find',
@@ -1591,6 +1648,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Финансовые расчёты",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23854d0e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A4%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%80%D0%B0%D1%81%D1%87%D1%91%D1%82%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы предпринимательства",
     icon: "Rocket",
     color: "text-amber-400",
@@ -1601,6 +1659,8 @@ export const games: GameLesson[] = [
         options: ["Убыток", "Прибыль", "Инвестиции", "Выручка", "Доход"],
         correctAnswer: "Прибыль",
         hint: "Заработанные деньги"
+        keyPoints: ['Основные понятия темы «Финансовые расчёты»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Финансовые расчёты»', 'Практическое задание: Финансовые расчёты'],
       },
       {
         type: 'find',
@@ -1656,6 +1716,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Управление командой",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23854d0e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BE%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы предпринимательства",
     icon: "Rocket",
     color: "text-amber-400",
@@ -1666,6 +1727,8 @@ export const games: GameLesson[] = [
         options: ["Технологии", "Видение и стратегию", "Финансы", "Маркетинг", "Операции"],
         correctAnswer: "Видение и стратегию",
         hint: "Главный руководитель"
+        keyPoints: ['Основные понятия темы «Управление командой»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Управление командой»', 'Практическое задание: Управление командой'],
       },
       {
         type: 'find',
@@ -1721,6 +1784,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Масштабирование бизнеса",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23854d0e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы предпринимательства",
     icon: "Rocket",
     color: "text-amber-400",
@@ -1731,6 +1795,8 @@ export const games: GameLesson[] = [
         options: ["Закрытие бизнеса", "Рост без пропорционального роста затрат", "Снижение цен", "Увеличение штата", "Выход на новый рынок"],
         correctAnswer: "Рост без пропорционального роста затрат",
         hint: "Эффективный рост"
+        keyPoints: ['Основные понятия темы «Масштабирование бизнеса»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Масштабирование бизнеса»', 'Практическое задание: Масштабирование бизнеса'],
       },
       {
         type: 'find',
@@ -1786,6 +1852,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Защита бизнес-плана",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23854d0e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D0%BB%D0%B0%D0%BD%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%92%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы предпринимательства",
     icon: "Rocket",
     color: "text-amber-400",
@@ -1796,6 +1863,8 @@ export const games: GameLesson[] = [
         options: ["10 слайдов, 20 минут, шрифт от 30", "10 минут, 20 слайдов, 30 слов", "10 инвесторов, 20 идей, 30 дней", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "10 слайдов, 20 минут, шрифт от 30",
         hint: "Правило презентации"
+        keyPoints: ['Основные понятия темы «Защита бизнес-плана»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Защита бизнес-плана»', 'Практическое задание: Защита бизнес-плана'],
       },
       {
         type: 'find',

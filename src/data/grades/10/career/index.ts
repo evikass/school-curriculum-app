@@ -1,6 +1,39 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => ({ title, description, tasks, examples, keyPoints })
+const createLesson = (title: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => {
+  // Auto-generate examples from description
+  const autoEx: string[] = [];
+  if (!examples || examples.length === 0) {
+    const exLines = description.split('\n');
+    for (const line of exLines) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith('- ') && trimmed.length > 15 && trimmed.length < 150) {
+        let ex = trimmed.substring(2).trim();
+        if (ex.length > 10 && !ex.startsWith('**') && !ex.startsWith('```') && !ex.startsWith('|')) {
+          if (ex.length > 100) ex = ex.substring(0, 97) + '...';
+          autoEx.push(ex);
+        }
+      }
+      if (autoEx.length >= 3) break;
+    }
+    if (autoEx.length < 2) autoEx.push('Пример: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+  // Auto-generate keyPoints from description
+  const autoKP: string[] = [];
+  if (!keyPoints || keyPoints.length === 0) {
+    const boldMatches = description.match(/\*\*([^*]{4,55})\*\*/g) || [];
+    for (const bm of boldMatches) {
+      const text = bm.replace(/\*\*/g, '').trim();
+      if (text.length > 4 && text.length < 55 && !text.includes('```') && !/^(python|sql|html|css|bash)/i.test(text)) {
+        if (!autoKP.some(p => p === text)) autoKP.push(text);
+        if (autoKP.length >= 4) break;
+      }
+    }
+    if (autoKP.length < 3) autoKP.push('Ключевое понятие: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+
+  return { title, description, tasks, examples: (examples?.length ? examples : autoEx.slice(0, 3)), keyPoints: (keyPoints?.length ? keyPoints : autoKP.slice(0, 5)) };
+}
 
 export const lessons: SubjectData = {
   title: "Профориентация",
@@ -11,7 +44,7 @@ export const lessons: SubjectData = {
     {
       topic: "Выбор профессии",
       lessons: [
-        createLesson("Урок 1: Самоопределение", "/school-curriculum-app/images/lessons/grade10/career/lesson1.svg",`**Самоопределение** — процесс осознания своих интересов, способностей, ценностей и выбора жизненного и профессионального пути.
+        createLesson("Урок 1: Самоопределение", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Самоопределение** — процесс осознания своих интересов, способностей, ценностей и выбора жизненного и профессионального пути.
 
 **Кто я и чего хочу?**
 Выбор профессии начинается с честного разговора с самим собой. Это фундамент всей карьеры — понять свои сильные стороны, интересы и мотивацию.
@@ -83,7 +116,7 @@ export const lessons: SubjectData = {
                   'SWOT-анализ себя помогает выявить сильные/слабые стороны и возможности/угрозы'
                 ]
       ),
-        createLesson("Урок 2: Мир профессий", "/school-curriculum-app/images/lessons/grade10/career/lesson2.svg",`**Мир профессий** — постоянно меняющаяся система специальностей, реагирующая на технологические и социальные изменения.
+        createLesson("Урок 2: Мир профессий", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%202%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Мир профессий** — постоянно меняющаяся система специальностей, реагирующая на технологические и социальные изменения.
 
 **Отрасли экономики:**
 
@@ -169,7 +202,7 @@ export const lessons: SubjectData = {
                   'Анализ рынка труда: hh.ru, SuperJob, Росстат, Атлас новых профессий'
                 ]
       ),
-        createLesson("Урок 3: Образовательные пути", "/school-curriculum-app/images/lessons/grade10/career/lesson3.svg",`**Образование** — ключевой этап профессионального становления, но не единственный путь к карьере.
+        createLesson("Урок 3: Образовательные пути", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%203%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Образование** — ключевой этап профессионального становления, но не единственный путь к карьере.
 
 **Сравнение образовательных путей:**
 
@@ -251,7 +284,7 @@ export const lessons: SubjectData = {
                   'Стратегия выбора: цель → требования работодателей → подходящий путь → ресурсы → план'
                 ]
       ),
-        createLesson("Урок 4: Принятие решения", "/school-curriculum-app/images/lessons/grade10/career/lesson4.svg",`**Принятие решения** — финальный этап выбора профессии, требующий взвешенного анализа всех факторов.
+        createLesson("Урок 4: Принятие решения", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%204%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Принятие решения** — финальный этап выбора профессии, требующий взвешенного анализа всех факторов.
 
 **Матрица принятия решений:**
 
@@ -339,7 +372,7 @@ export const lessons: SubjectData = {
     {
       topic: "Подготовка к трудоустройству",
       lessons: [
-        createLesson("Урок 5: Резюме студента", "/school-curriculum-app/images/lessons/grade10/career/lesson5.svg",`**Резюме** — маркетинговый документ, продающий ваши навыки и опыт работодателю. Его цель — получить приглашение на собеседование.
+        createLesson("Урок 5: Резюме студента", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%205%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Резюме** — маркетинговый документ, продающий ваши навыки и опыт работодателю. Его цель — получить приглашение на собеседование.
 
 **Структура резюме:**
 
@@ -419,7 +452,7 @@ export const lessons: SubjectData = {
                   'Hard skills — профессиональные навыки, soft skills — коммуникабельность, работа в команде'
                 ]
       ),
-        createLesson("Урок 6: Мотивационное письмо", "/school-curriculum-app/images/lessons/grade10/career/lesson6.svg",`**Мотивационное письмо** — эссе, объясняющее работодателю или приёмной комиссии, почему вы — идеальный кандидат.
+        createLesson("Урок 6: Мотивационное письмо", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%206%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Мотивационное письмо** — эссе, объясняющее работодателю или приёмной комиссии, почему вы — идеальный кандидат.
 
 **Зачем нужно мотивационное письмо:**
 
@@ -508,7 +541,7 @@ export const lessons: SubjectData = {
                   'Максимум 1 страница, никаких шаблонных фраз, конкретные примеры'
                 ]
       ),
-        createLesson("Урок 7: Подготовка к собеседованию", "/school-curriculum-app/images/lessons/grade10/career/lesson7.svg",`**Собеседование** — ключевая встреча с работодателем, где оценивают вашу пригодность для позиции.
+        createLesson("Урок 7: Подготовка к собеседованию", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%207%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Собеседование** — ключевая встреча с работодателем, где оценивают вашу пригодность для позиции.
 
 **Типы собеседований:**
 
@@ -596,7 +629,7 @@ export const lessons: SubjectData = {
                   'Всегда готовить вопросы работодателю — это показывает интерес к позиции'
                 ]
       ),
-        createLesson("Урок 8: Тренировка собеседования", "/school-curriculum-app/images/lessons/grade10/career/lesson8.svg",`**Практика собеседования** — ключевой элемент подготовки, превращающий теорию в навык.
+        createLesson("Урок 8: Тренировка собеседования", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%208%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Практика собеседования** — ключевой элемент подготовки, превращающий теорию в навык.
 
 **Mock-интервью (пробное собеседование):**
 
@@ -695,7 +728,7 @@ export const lessons: SubjectData = {
     {
       topic: "Карьерное планирование",
       lessons: [
-        createLesson("Урок 9: Карьерный план", "/school-curriculum-app/images/lessons/grade10/career/lesson9.svg",`**Карьерный план** — стратегия вашего профессионального развития на годы вперёд.
+        createLesson("Урок 9: Карьерный план", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%209%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Карьерный план** — стратегия вашего профессионального развития на годы вперёд.
 
 **Типы карьеры:**
 
@@ -779,7 +812,7 @@ export const lessons: SubjectData = {
                   'План гибкий — пересматривается раз в квартал, адаптируется к изменениям'
                 ]
       ),
-        createLesson("Урок 10: Личный бренд", "/school-curriculum-app/images/lessons/grade10/career/lesson10.svg",`**Личный бренд** — репутация и образ, которые вы создаёте в профессиональной среде.
+        createLesson("Урок 10: Личный бренд", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2010%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Личный бренд** — репутация и образ, которые вы создаёте в профессиональной среде.
 
 **Компоненты личного бренда:**
 
@@ -854,7 +887,7 @@ export const lessons: SubjectData = {
           "Определите свою уникальность: чем вы отличаетесь от других специалистов?",
           "Составьте контент-план на месяц: какие 4-8 постов опубликуете в профессиональной сети?"
         ]),
-        createLesson("Урок 11: Нетворкинг", "/school-curriculum-app/images/lessons/grade10/career/lesson11.svg",`**Нетворкинг** — создание и поддержание профессиональных связей, открывающих новые возможности.
+        createLesson("Урок 11: Нетворкинг", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2011%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Нетворкинг** — создание и поддержание профессиональных связей, открывающих новые возможности.
 
 **Значение нетворкинга:**
 
@@ -947,7 +980,7 @@ export const lessons: SubjectData = {
           "Напишите и отрепетируйте свой elevator pitch (не более 30 секунд).",
           "Выберите 3 профессиональных мероприятия для посещения в ближайшие полгода."
         ]),
-        createLesson("Урок 12: Итоговый проект", "/school-curriculum-app/images/lessons/grade10/career/lesson12.svg",`**Итоговый проект** — интеграция всех знаний и навыков в личный карьерный план.
+        createLesson("Урок 12: Итоговый проект", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2012%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Итоговый проект** — интеграция всех знаний и навыков в личный карьерный план.
 
 **Структура итогового проекта:**
 
@@ -1047,6 +1080,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Самоопределение и выбор профессии",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230f766e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B0%D0%BC%D0%BE%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",
@@ -1057,6 +1091,8 @@ export const games: GameLesson[] = [
         options: ["Зарплата друзей", "Интерес и способности", "Мнение родителей", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Интерес и способности",
         hint: "Долгосрочное удовлетворение от работы"
+        keyPoints: ['Основные понятия темы «Самоопределение и выбор профессии»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Самоопределение и выбор профессии»', 'Практическое задание: Самоопределение и выбор профессии'],
       },
       {
         type: 'find',
@@ -1118,6 +1154,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Мир профессий",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230f766e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B8%D1%80%20%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",
@@ -1133,6 +1170,7 @@ export const games: GameLesson[] = [
         ],
         correctAnswer: "5",
         hint: "Человек и объект труда"
+        examples: ['Пример по теме «Мир профессий»', 'Практическое задание: Мир профессий'],
       },
       {
         type: 'find',
@@ -1194,6 +1232,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Образовательные пути",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230f766e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%83%D1%82%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",
@@ -1204,6 +1243,8 @@ export const games: GameLesson[] = [
         options: ["3 года", "4 года", "5 лет", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "4 года",
         hint: "Базовое высшее образование"
+        keyPoints: ['Основные понятия темы «Образовательные пути»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Образовательные пути»', 'Практическое задание: Образовательные пути'],
       },
       {
         type: 'find',
@@ -1265,6 +1306,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Принятие решения",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230f766e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B8%D0%BD%D1%8F%D1%82%D0%B8%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",
@@ -1275,6 +1317,8 @@ export const games: GameLesson[] = [
         options: ["Не нужен", "На случай неудачи с планом А", "Чтобы показать друзьям", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "На случай неудачи с планом А",
         hint: "Альтернативный вариант"
+        keyPoints: ['Основные понятия темы «Принятие решения»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Принятие решения»', 'Практическое задание: Принятие решения'],
       },
       {
         type: 'find',
@@ -1336,6 +1380,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Составление резюме",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230f766e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",
@@ -1346,6 +1391,8 @@ export const games: GameLesson[] = [
         options: ["Рассказать о себе", "Получить приглашение на собеседование", "Показать диплом", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Получить приглашение на собеседование",
         hint: "Маркетинговый документ"
+        keyPoints: ['Основные понятия темы «Составление резюме»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Составление резюме»', 'Практическое задание: Составление резюме'],
       },
       {
         type: 'find',
@@ -1407,6 +1454,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Мотивационное письмо",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230f766e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",
@@ -1417,6 +1465,8 @@ export const games: GameLesson[] = [
         options: ["Что вы умеете?", "Почему вы?", "Сколько вы хотите?", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Почему вы?",
         hint: "Отличие от резюме"
+        keyPoints: ['Основные понятия темы «Мотивационное письмо»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Мотивационное письмо»', 'Практическое задание: Мотивационное письмо'],
       },
       {
         type: 'find',
@@ -1478,6 +1528,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Подготовка к собеседованию",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230f766e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BA%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",
@@ -1488,6 +1539,8 @@ export const games: GameLesson[] = [
         options: ["Экзамен", "Встреча для оценки кандидата", "Знакомство с коллективом", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Встреча для оценки кандидата",
         hint: "Двусторонний процесс"
+        keyPoints: ['Основные понятия темы «Подготовка к собеседованию»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Подготовка к собеседованию»', 'Практическое задание: Подготовка к собеседованию'],
       },
       {
         type: 'find',
@@ -1549,6 +1602,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Практика собеседования",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230f766e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",
@@ -1559,6 +1613,8 @@ export const games: GameLesson[] = [
         options: ["Настоящее собеседование", "Пробное собеседование", "Групповое собеседование", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Пробное собеседование",
         hint: "Тренировка"
+        keyPoints: ['Основные понятия темы «Практика собеседования»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Практика собеседования»', 'Практическое задание: Практика собеседования'],
       },
       {
         type: 'find',
@@ -1620,6 +1676,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Карьерный план",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230f766e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%B0%D1%80%D1%8C%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%BB%D0%B0%D0%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",
@@ -1630,6 +1687,8 @@ export const games: GameLesson[] = [
         options: ["Только рост по должности", "Профессиональный путь", "Зарплата", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Профессиональный путь",
         hint: "Может быть разным"
+        keyPoints: ['Основные понятия темы «Карьерный план»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Карьерный план»', 'Практическое задание: Карьерный план'],
       },
       {
         type: 'find',
@@ -1691,6 +1750,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Личный бренд",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230f766e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9B%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%B1%D1%80%D0%B5%D0%BD%D0%B4%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",
@@ -1701,6 +1761,8 @@ export const games: GameLesson[] = [
         options: ["Логотип", "Репутация и образ в профессиональной среде", "Имя", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Репутация и образ в профессиональной среде",
         hint: "Ваше профессиональное «Я»"
+        keyPoints: ['Основные понятия темы «Личный бренд»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Личный бренд»', 'Практическое задание: Личный бренд'],
       },
       {
         type: 'find',
@@ -1762,6 +1824,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Нетворкинг",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230f766e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%B5%D1%82%D0%B2%D0%BE%D1%80%D0%BA%D0%B8%D0%BD%D0%B3%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",
@@ -1772,6 +1835,8 @@ export const games: GameLesson[] = [
         options: ["Работа в сети", "Создание профессиональных связей", "Компьютерная сеть", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Создание профессиональных связей",
         hint: "Network = сеть"
+        keyPoints: ['Основные понятия темы «Нетворкинг»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Нетворкинг»', 'Практическое задание: Нетворкинг'],
       },
       {
         type: 'find',
@@ -1833,6 +1898,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Итоговый проект",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230f766e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%AF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Профориентация",
     icon: "Briefcase",
     color: "text-emerald-400",
@@ -1843,6 +1909,8 @@ export const games: GameLesson[] = [
         options: ["Только резюме", "Самоанализ, выбор профессии, карьерный план", "Только карьерный план", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Самоанализ, выбор профессии, карьерный план",
         hint: "Комплексный документ"
+        keyPoints: ['Основные понятия темы «Итоговый проект»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Итоговый проект»', 'Практическое задание: Итоговый проект'],
       },
       {
         type: 'find',

@@ -1,12 +1,10 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, description: string, tasks: string[]) => ({
-  title, description, tasks,
-  theory: description
-})
+const createLesson = (title: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[], image?: string) => ({ title, description, tasks, theory: description, examples: examples || [], keyPoints: keyPoints || [], image: image || '' })
 
 export const lessons: SubjectData = {
   title: "Биология",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg01%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2322C55E%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2310B981%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg01)%22%20stroke%3D%22%2322C55E%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2310B981%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E01%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%23F59E0B%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
   icon: "Atom",
   color: "text-green-400",
   topics: ["Клетка", "Бактерии", "Грибы", "Растения", "Животные"],
@@ -1011,6 +1009,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Строение клетки 🔬",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2315803d%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%BB%D0%B5%D1%82%D0%BA%D0%B8%20%F0%9F%94%AC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%AC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Биология",
     icon: "Atom",
     color: "text-green-400",
@@ -1021,9 +1020,12 @@ export const games = [
       { type: 'quiz', question: "Кто открыл клетку?", options: ["Дарвин", "Гук", "Пастер", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Гук", hint: "Роберт Гук увидел клетки в 1665 году" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь строение клетки! 🔬" }
+    keyPoints: ['Основные понятия темы «Строение клетки 🔬»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Строение клетки 🔬 — изучение живых организмов', 'Практическое задание по теме «Строение клетки 🔬»'],
   },
   {
     title: "Бактерии и грибы 🍄",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2315803d%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D0%B0%D0%BA%D1%82%D0%B5%D1%80%D0%B8%D0%B8%20%D0%B8%20%D0%B3%D1%80%D0%B8%D0%B1%D1%8B%20%F0%9F%8D%84%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%AC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Биология",
     icon: "Atom",
     color: "text-green-400",
@@ -1034,9 +1036,12 @@ export const games = [
       { type: 'quiz', question: "Какой гриб самый ядовитый?", options: ["Мухомор", "Бледная поганка", "Ложный опёнок", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Бледная поганка", hint: "Бледная поганка смертельно опасна" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь бактерии и грибы! 🍄" }
+    keyPoints: ['Основные понятия темы «Бактерии и грибы 🍄»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Бактерии и грибы 🍄 — изучение живых организмов', 'Практическое задание по теме «Бактерии и грибы 🍄»'],
   },
   {
     title: "Строение растений 🌿",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2315803d%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D0%B9%20%F0%9F%8C%BF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%AC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Биология",
     icon: "Atom",
     color: "text-green-400",
@@ -1047,9 +1052,12 @@ export const games = [
       { type: 'quiz', question: "Что необходимо для фотосинтеза?", options: ["Кислород", "Свет", "Азот", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Свет", hint: "Фотосинтез происходит на свету" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь растения! 🌿" }
+    keyPoints: ['Основные понятия темы «Строение растений 🌿»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Строение растений 🌿 — изучение живых организмов', 'Практическое задание по теме «Строение растений 🌿»'],
   },
   {
     title: "Животные 🦋",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2315803d%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%96%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D0%B5%20%F0%9F%A6%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%AC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Биология",
     icon: "Atom",
     color: "text-green-400",
@@ -1060,9 +1068,12 @@ export const games = [
       { type: 'quiz', question: "Какое животное имеет раковину?", options: ["Осьминог", "Улитка", "Кальмар", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Улитка", hint: "Моллюски часто имеют раковину для защиты" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь животных! 🦋" }
+    keyPoints: ['Основные понятия темы «Животные 🦋»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Животные 🦋 — изучение живых организмов', 'Практическое задание по теме «Животные 🦋»'],
   },
   {
     title: "Охрана природы 🌍",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2315803d%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D1%85%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D1%8B%20%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%AC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Биология",
     icon: "Atom",
     color: "text-green-400",
@@ -1073,9 +1084,12 @@ export const games = [
       { type: 'quiz', question: "Какой заповедник самый известный в России?", options: ["Байкальский", "Баргузинский", "Лосиный остров", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Баргузинский", hint: "Баргузинский заповедник — первый в России" }
     ],
     reward: { stars: 3, message: "Отлично! Ты защитник природы! 🌍" }
+    keyPoints: ['Основные понятия темы «Охрана природы 🌍»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Охрана природы 🌍 — изучение живых организмов', 'Практическое задание по теме «Охрана природы 🌍»'],
   },
   {
     title: "Царства живой природы 🔬",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2315803d%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A6%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0%20%D0%B6%D0%B8%D0%B2%D0%BE%D0%B9%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D1%8B%20%F0%9F%94%AC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A7%AC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Биология",
     icon: "Atom",
     color: "text-green-400",
@@ -1086,6 +1100,8 @@ export const games = [
       { type: 'quiz', question: "Какое царство самое многочисленное?", options: ["Бактерии", "Животные", "Растения", "Другой ответ 1", "Другой ответ 2"], correctAnswer: "Животные", hint: "Животных более 2 миллионов видов" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь царства природы! 🔬" }
+    keyPoints: ['Основные понятия темы «Царства живой природы 🔬»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Царства живой природы 🔬 — изучение живых организмов', 'Практическое задание по теме «Царства живой природы 🔬»'],
   }
 ]
 

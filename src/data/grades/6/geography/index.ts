@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Форма и размеры Земли",
-          image: "/school-curriculum-app/images/lessons/grade6/geography/lesson1.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg01%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2322C55E%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg01)%22%20stroke%3D%22%2322C55E%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E01%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Форма и размеры Земли
 
 :- **Геоид** — фигура Земли, близкая к шару, но сплюснутая у полюсов.
@@ -83,7 +83,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Градусная сеть",
-          image: "/school-curriculum-app/images/lessons/grade6/geography/lesson2.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg01%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2322C55E%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg01)%22%20stroke%3D%22%2322C55E%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E01%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Градусная сеть
 
 :- **Градусная сеть** — система меридианов и параллелей на глобусе и географических картах.
@@ -180,7 +180,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Времена года и пояса освещённости",
-          image: "/school-curriculum-app/images/lessons/grade6/geography/lesson3.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg02%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2322C55E%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg02)%22%20stroke%3D%22%2322C55E%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E02%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Времена года и пояса освещённости
 
 :- **Годовое движение Земли** — вращение Земли вокруг Солнца.
@@ -289,7 +289,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Мировой океан",
-          image: "/school-curriculum-app/images/lessons/grade6/geography/lesson4.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg03%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2322C55E%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg03)%22%20stroke%3D%22%2322C55E%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E03%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Мировой океан
 
 :- **Гидросфера** — водная оболочка Земли, включающая все воды на планете.
@@ -398,7 +398,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Движение вод океана",
-          image: "/school-curriculum-app/images/lessons/grade6/geography/lesson5.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg04%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2322C55E%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg04)%22%20stroke%3D%22%2322C55E%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E04%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Движение вод океана
 
 :- **Движение вод океана** — перемещение водных масс в океане под воздействием различных сил.
@@ -497,7 +497,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Воды суши",
-          image: "/school-curriculum-app/images/lessons/grade6/geography/lesson6.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg05%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2322C55E%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg05)%22%20stroke%3D%22%2322C55E%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E05%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Воды суши
 
 :- **Воды суши** — воды, расположенные на поверхности континентов или в их недрах.
@@ -629,7 +629,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Строение атмосферы",
-          image: "/school-curriculum-app/images/lessons/grade6/geography/lesson7.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg06%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2322C55E%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg06)%22%20stroke%3D%22%2322C55E%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E06%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Строение атмосферы
 
 :- **Атмосфера** — воздушная оболочка Земли, удерживаемая силой тяжести.
@@ -740,7 +740,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Температура воздуха",
-          image: "/school-curriculum-app/images/lessons/grade6/geography/lesson8.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg07%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2322C55E%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg07)%22%20stroke%3D%22%2322C55E%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E07%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Температура воздуха
 
 :- **Температура воздуха** — степень нагретости воздуха, измеряемая в градусах.
@@ -852,7 +852,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Ветер и атмосферные осадки",
-          image: "/school-curriculum-app/images/lessons/grade6/geography/lesson9.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg08%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2322C55E%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg08)%22%20stroke%3D%22%2322C55E%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E08%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Ветер и атмосферные осадки
 
 :- **Ветер** — движение воздуха в горизонтальном направлении.
@@ -1009,7 +1009,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Биосфера — живая оболочка Земли",
-          image: "/school-curriculum-app/images/lessons/grade6/geography/lesson10.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg09%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2322C55E%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg09)%22%20stroke%3D%22%2322C55E%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E09%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Биосфера — живая оболочка Земли
 
 :- **Биосфера** — оболочка Земли, населённая живыми организмами.
@@ -1154,7 +1154,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Природные зоны",
-          image: "/school-curriculum-app/images/lessons/grade6/geography/lesson11.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg10%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2322C55E%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg10)%22%20stroke%3D%22%2322C55E%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E10%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%2322C55E%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Природные зоны
 
 :- **Природная зона** — крупный природный комплекс с однородными климатическими условиями, почвами, растительностью и животным миром.
@@ -1319,6 +1319,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Земля как планета",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230369a1%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B5%D0%BC%D0%BB%D1%8F%20%D0%BA%D0%B0%D0%BA%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%97%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1329,9 +1330,12 @@ export const games = [
       { type: 'quiz', question: "Сколько поясов освещённости на Земле?", options: ["3", "5", "4", "6", "Другой ответ"], correctAnswer: "5", hint: "Жаркий, 2 умеренных, 2 холодных" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь планету Земля! 🌍" }
+    keyPoints: ['Основные понятия темы «Земля как планета»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Земля как планета — географический анализ', 'Практическое задание по теме «Земля как планета»'],
   },
   {
     title: "Гидросфера и атмосфера",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230369a1%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%B8%D0%B4%D1%80%D0%BE%D1%81%D1%84%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%B0%D1%82%D0%BC%D0%BE%D1%81%D1%84%D0%B5%D1%80%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%97%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1342,9 +1346,12 @@ export const games = [
       { type: 'quiz', question: "Какой газ составляет 78% атмосферы?", options: ["Кислород", "Углекислый газ", "Азот", "Аргон", "Другой ответ"], correctAnswer: "Азот", hint: "Самый распространённый газ в воздухе" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь гидросферу и атмосферу! 🌊" }
+    keyPoints: ['Основные понятия темы «Гидросфера и атмосфера»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Гидросфера и атмосфера — географический анализ', 'Практическое задание по теме «Гидросфера и атмосфера»'],
   },
   {
     title: "Градусная сеть",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230369a1%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81%D0%BD%D0%B0%D1%8F%20%D1%81%D0%B5%D1%82%D1%8C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%97%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1361,9 +1368,11 @@ export const games = [
       { type: 'quiz', question: "Каковы координаты Москвы (приблизительно)?", options: ["55,5° с.ш., 37,5° в.д.", "60° с.ш., 30° в.д.", "50° с.ш., 40° в.д.", "55,5° ю.ш., 37,5° з.д.", "Другой ответ"], correctAnswer: "55,5° с.ш., 37,5° в.д.", hint: "Столица России" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь работать с координатами! 🗺️" }
+    examples: ['Пример: Градусная сеть — географический анализ', 'Практическое задание по теме «Градусная сеть»'],
   },
   {
     title: "Времена года и пояса освещённости",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230369a1%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0%20%D0%B3%D0%BE%D0%B4%D0%B0%20%D0%B8%20%D0%BF%D0%BE%D1%8F%D1%81%D0%B0%20%D0%BE%D1%81%D0%B2%D0%B5%D1%89%D1%91%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%97%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1380,9 +1389,11 @@ export const games = [
       { type: 'quiz', question: "Что происходит 21 марта?", options: ["Летнее солнцестояние", "Зимнее солнцестояние", "Весеннее равноденствие", "Осеннее равноденствие", "Другой ответ"], correctAnswer: "Весеннее равноденствие", hint: "День равен ночи" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь о временах года! ☀️" }
+    examples: ['Пример: Времена года и пояса освещённости — географический анализ', 'Практическое задание по теме «Времена года и пояса освещённости»'],
   },
   {
     title: "Мировой океан",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230369a1%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B8%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BE%D0%BA%D0%B5%D0%B0%D0%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%97%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1399,9 +1410,11 @@ export const games = [
       { type: 'quiz', question: "Какой океан самый маленький?", options: ["Индийский", "Атлантический", "Тихий", "Северный Ледовитый", "Другой ответ"], correctAnswer: "Северный Ледовитый", hint: "Расположен в Арктике" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь Мировой океан! 🌊" }
+    examples: ['Пример: Мировой океан — географический анализ', 'Практическое задание по теме «Мировой океан»'],
   },
   {
     title: "Движение вод океана",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230369a1%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%D0%BE%D0%B4%20%D0%BE%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%97%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1418,9 +1431,11 @@ export const games = [
       { type: 'quiz', question: "Чем вызваны приливы и отливы?", options: ["Ветром", "Притяжением Луны и Солнца", "Вращением Земли", "Морскими течениями", "Другой ответ"], correctAnswer: "Притяжением Луны и Солнца", hint: "Гравитационное притяжение" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь о движении вод! 🌀" }
+    examples: ['Пример: Движение вод океана — географический анализ', 'Практическое задание по теме «Движение вод океана»'],
   },
   {
     title: "Воды суши",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230369a1%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D0%BE%D0%B4%D1%8B%20%D1%81%D1%83%D1%88%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%97%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1437,9 +1452,11 @@ export const games = [
       { type: 'quiz', question: "Какой процент мировых запасов пресной воды содержит Байкал?", options: ["5%", "10%", "20%", "50%", "Другой ответ"], correctAnswer: "20%", hint: "Пятая часть всех пресных вод" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь воды суши! 💧" }
+    examples: ['Пример: Воды суши — географический анализ', 'Практическое задание по теме «Воды суши»'],
   },
   {
     title: "Температура воздуха",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230369a1%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%20%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%97%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1456,9 +1473,11 @@ export const games = [
       { type: 'quiz', question: "Почему температура падает с высотой?", options: ["Воздух становится плотнее", "Земля нагревает воздух снизу", "Солнце меньше светит", "Ветер усиливается", "Другой ответ"], correctAnswer: "Земля нагревает воздух снизу", hint: "Основной источник тепла — поверхность" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь о температуре воздуха! 🌡️" }
+    examples: ['Пример: Температура воздуха — географический анализ', 'Практическое задание по теме «Температура воздуха»'],
   },
   {
     title: "Ветер и атмосферные осадки",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230369a1%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D0%B5%D1%82%D0%B5%D1%80%20%D0%B8%20%D0%B0%D1%82%D0%BC%D0%BE%D1%81%D1%84%D0%B5%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BE%D1%81%D0%B0%D0%B4%D0%BA%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%97%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1475,9 +1494,11 @@ export const games = [
       { type: 'quiz', question: "Какие облака приносят грозы и ливни?", options: ["Перистые", "Слоистые", "Кучевые", "Кучево-дождевые", "Другой ответ"], correctAnswer: "Кучево-дождевые", hint: "Самые мощные облака" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь о ветре и осадках! 🌧️" }
+    examples: ['Пример: Ветер и атмосферные осадки — географический анализ', 'Практическое задание по теме «Ветер и атмосферные осадки»'],
   },
   {
     title: "Биосфера — живая оболочка Земли",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230369a1%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D0%B8%D0%BE%D1%81%D1%84%D0%B5%D1%80%D0%B0%20%E2%80%94%20%D0%B6%D0%B8%D0%B2%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BE%D0%BB%D0%BE%D1%87%D0%BA%D0%B0%20%D0%97%D0%B5%D0%BC%D0%BB%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%97%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1494,9 +1515,11 @@ export const games = [
       { type: 'quiz', question: "Что такое круговорот веществ?", options: ["Движение планет", "Повторяющиеся процессы превращения веществ", "Образование гор", "Движение тектонических плит", "Другой ответ"], correctAnswer: "Повторяющиеся процессы превращения веществ", hint: "Вода, углерод, кислород циркулируют" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь о биосфере! 🌿" }
+    examples: ['Пример: Биосфера — живая оболочка Земли — географический анализ', 'Практическое задание по теме «Биосфера — живая оболочка Земли»'],
   },
   {
     title: "Природные зоны",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230369a1%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%B7%D0%BE%D0%BD%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%97%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -1508,6 +1531,8 @@ export const games = [
       { type: 'quiz', question: "Сколько осадков в год выпадает в пустыне?", options: ["Более 1000 мм", "500-1000 мм", "250-500 мм", "Менее 250 мм", "Другой ответ"], correctAnswer: "Менее 250 мм", hint: "Очень сухой климат" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь природные зоны! 🌍" }
+    keyPoints: ['Основные понятия темы «Природные зоны»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Природные зоны — географический анализ', 'Практическое задание по теме «Природные зоны»'],
   }
 ]
 

@@ -7,6 +7,7 @@ const L = (title: string, description: string, tasks: string[], examples?: strin
 
 export const lessons: SubjectData = {
   title: 'Основы программирования',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg01%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg01)%22%20stroke%3D%22%233B82F6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%233B82F6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E01%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%233B82F6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
   icon: 'Code',
   color: 'text-sky-400',
   topics: ['Язык Scratch', 'Создание игр', 'Логические задачи'],
@@ -863,7 +864,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Блоки Scratch",
-    image: "/school-curriculum-app/images/lessons/grade6/coding/lesson1.svg",
+    image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg01%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg01)%22%20stroke%3D%22%233B82F6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%233B82F6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E01%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%233B82F6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3EScratch%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-sky-400",
@@ -874,10 +875,12 @@ export const games: GameLesson[] = [
       { type: 'find', question: 'Выбери категории блоков Scratch:', options: ['Движение', 'Внешность', 'Звук', 'Прыжок', 'События'], correctAnswer: ['Движение', 'Внешность', 'Звук', 'События'], hint: 'Категории в левой части экрана' }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь Scratch! 🎮" }
+    keyPoints: ['Основные понятия темы «Блоки Scratch»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Блоки Scratch — написание кода', 'Практическое задание по теме «Блоки Scratch»'],
   },
   {
     title: "Переменные и условия",
-    image: "/school-curriculum-app/images/lessons/grade6/coding/lesson2.svg",
+    image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg02%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg02)%22%20stroke%3D%22%233B82F6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%233B82F6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E02%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%233B82F6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-sky-400",
@@ -888,10 +891,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Условие "если-иначе" называется ветвлением', options: ['ветвлением', 'Неверно', 'Другой ответ', 'Не подходит', 'Нет ответа'], correctAnswer: 'ветвлением', hint: 'Ветвление выбирает путь' }
     ],
     reward: { stars: 3, message: "Супер! Ты понимаешь переменные! 📊" }
+    keyPoints: ['Основные понятия темы «Переменные и условия»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Переменные и условия — написание кода', 'Практическое задание по теме «Переменные и условия»'],
   },
   {
     title: "Циклы и алгоритмы",
-    image: "/school-curriculum-app/images/lessons/grade6/coding/lesson3.svg",
+    image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg03%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg03)%22%20stroke%3D%22%233B82F6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%233B82F6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E03%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%233B82F6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-sky-400",
@@ -902,10 +907,12 @@ export const games: GameLesson[] = [
       { type: 'find', question: 'Выбери правильные утверждения о циклах:', options: ['Цикл повторяет код', 'Цикл экономит время', 'Циклы бывают вложенными', 'Цикл всегда бесконечен'], correctAnswer: ['Цикл повторяет код', 'Цикл экономит время', 'Циклы бывают вложенными'], hint: 'Циклы — мощный инструмент' }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь циклы! 🔄" }
+    keyPoints: ['Основные понятия темы «Циклы и алгоритмы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Циклы и алгоритмы — написание кода', 'Практическое задание по теме «Циклы и алгоритмы»'],
   },
   {
     title: "Создание игр",
-    image: "/school-curriculum-app/images/lessons/grade6/coding/lesson4.svg",
+    image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg04%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%233B82F6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%233B82F6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg04)%22%20stroke%3D%22%233B82F6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%233B82F6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E04%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%233B82F6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-sky-400",
@@ -916,5 +923,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Победа в игре определяется условием', options: ['условием', 'Неверно', 'Другой ответ', 'Не подходит', 'Нет ответа'], correctAnswer: 'условием', hint: 'Условие проверяет победу' }
     ],
     reward: { stars: 3, message: "Круто! Ты создаёшь игры! 🎯" }
+    keyPoints: ['Основные понятия темы «Создание игр»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Создание игр — написание кода', 'Практическое задание по теме «Создание игр»'],
   }
 ]

@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Живопись, графика, скульптура",
-          image: "/school-curriculum-app/images/lessons/grade6/art/lesson1.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg01%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23FF6B6B%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ECDC4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%23FF6B6B%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg01)%22%20stroke%3D%22%23FF6B6B%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%234ECDC4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E01%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2345B7D1%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Живопись, графика, скульптура
 
 :- **Изобразительное искусство** — вид художественного творчества, целью которого является создание художественных образов с помощью визуальных средств.
@@ -102,7 +102,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Декоративно-прикладное искусство",
-          image: "/school-curriculum-app/images/lessons/grade6/art/lesson2.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg01%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23FF6B6B%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ECDC4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%23FF6B6B%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg01)%22%20stroke%3D%22%23FF6B6B%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%234ECDC4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E01%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2345B7D1%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Декоративно-прикладное искусство
 
 :- **Декоративно-прикладное искусство** — создание предметов быта, имеющих художественную ценность.
@@ -202,7 +202,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Основы композиции",
-          image: "/school-curriculum-app/images/lessons/grade6/art/lesson3.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg02%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23FF6B6B%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ECDC4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%23FF6B6B%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg02)%22%20stroke%3D%22%23FF6B6B%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%234ECDC4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E02%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2345B7D1%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Основы композиции
 
 :- **Композиция** — построение художественного произведения, расположение его элементов в определённой системе.
@@ -316,7 +316,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Композиционный центр",
-          image: "/school-curriculum-app/images/lessons/grade6/art/lesson4.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg03%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23FF6B6B%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ECDC4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%23FF6B6B%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg03)%22%20stroke%3D%22%23FF6B6B%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%234ECDC4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E03%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2345B7D1%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Композиционный центр
 
 :- **Композиционный центр** — главный элемент произведения, на котором фокусируется внимание зрителя.
@@ -441,7 +441,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Цветовой круг",
-          image: "/school-curriculum-app/images/lessons/grade6/art/lesson5.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg04%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23FF6B6B%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ECDC4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%23FF6B6B%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg04)%22%20stroke%3D%22%23FF6B6B%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%234ECDC4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E04%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2345B7D1%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Цветовой круг
 
 :- **Цвет** — главное средство выразительности в живописи, ощущение, возникающее при восприятии световых лучей определённой длины.
@@ -581,7 +581,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Колорит",
-          image: "/school-curriculum-app/images/lessons/grade6/art/lesson6.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg05%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23FF6B6B%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ECDC4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%23FF6B6B%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg05)%22%20stroke%3D%22%23FF6B6B%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%234ECDC4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E05%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2345B7D1%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Колорит
 
 :- **Колорит** — система цветовых сочетаний в произведении, создающая определённое настроение.
@@ -721,7 +721,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Древнерусское искусство",
-          image: "/school-curriculum-app/images/lessons/grade6/art/lesson7.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg06%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23FF6B6B%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ECDC4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%23FF6B6B%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg06)%22%20stroke%3D%22%23FF6B6B%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%234ECDC4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E06%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2345B7D1%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Древнерусское искусство
 
 :- **Древнерусское искусство** — искусство Древней Руси X–XVII веков, тесно связанное с православной культурой.
@@ -834,7 +834,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Русская живопись XIX века",
-          image: "/school-curriculum-app/images/lessons/grade6/art/lesson8.svg",
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg07%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23FF6B6B%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ECDC4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%23FF6B6B%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg07)%22%20stroke%3D%22%23FF6B6B%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%234ECDC4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E07%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2345B7D1%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%23FF6B6B%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3EXIX%3C%2Ftext%3E%3C%2Fsvg%3E",
           description: `## Русская живопись XIX века
 
 :- **XIX век** — «золотой век» русской живописи, время расцвета реализма и национальной школы.
@@ -964,6 +964,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Виды искусства",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D0%B8%D0%B4%D1%8B%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -983,6 +984,7 @@ export const games = [
   },
   {
     title: "Цвет и композиция",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A6%D0%B2%D0%B5%D1%82%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -993,9 +995,12 @@ export const games = [
       { type: 'quiz', question: "Что такое композиционный центр?", options: ["Фон картины", "Главный элемент", "Рама", "Название", "Другой ответ"], correctAnswer: "Главный элемент", hint: "На чём фокусируется внимание" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь цвет и композицию! 🖼️" }
+    keyPoints: ['Основные понятия темы «Цвет и композиция»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Цвет и композиция»', 'Практическое задание: Цвет и композиция'],
   },
   {
     title: "Декоративно-прикладное искусство",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE-%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -1020,6 +1025,7 @@ export const games = [
   },
   {
     title: "Основы композиции",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -1044,6 +1050,7 @@ export const games = [
   },
   {
     title: "Композиционный центр",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%86%D0%B5%D0%BD%D1%82%D1%80%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -1060,9 +1067,11 @@ export const games = [
       { type: 'quiz', question: "Что влияет на визуальный вес элемента в композиции?", options: ["Только размер", "Размер, цвет, положение, детализация", "Только яркость", "Только текстура", "Другой ответ"], correctAnswer: "Размер, цвет, положение, детализация", hint: "Тёплые и тёмные цвета визуально тяжелее" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь выделять центр композиции! 🎯" }
+    examples: ['Пример по теме «Композиционный центр»', 'Практическое задание: Композиционный центр'],
   },
   {
     title: "Колорит",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BE%D0%BB%D0%BE%D1%80%D0%B8%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -1079,9 +1088,11 @@ export const games = [
       { type: 'quiz', question: "Для какого колорита характерны плавные переходы между близкими тонами?", options: ["Контрастный", "Нюансный", "Тёмный", "Тёплый", "Другой ответ"], correctAnswer: "Нюансный", hint: "Мягкость и нежность, как утренний туман" }
     ],
     reward: { stars: 3, message: "Отлично! Ты разбираешься в колорите! 🌈" }
+    examples: ['Пример по теме «Колорит»', 'Практическое задание: Колорит'],
   },
   {
     title: "Древнерусское искусство",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -1098,9 +1109,11 @@ export const games = [
       { type: 'quiz', question: "Что такое зодчество в Древней Руси?", options: ["Иконопись", "Искусство проектирования и строительства зданий", "Резьба по дереву", "Вышивка", "Другой ответ"], correctAnswer: "Искусство проектирования и строительства зданий", hint: "Софийский собор, храм Покрова на Нерли" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь древнерусское искусство! ⛪" }
+    examples: ['Пример по теме «Древнерусское искусство»', 'Практическое задание: Древнерусское искусство'],
   },
   {
     title: "Русская живопись XIX века",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F%20%D0%B6%D0%B8%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D1%8C%20XIX%20%D0%B2%D0%B5%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -1117,6 +1130,7 @@ export const games = [
       { type: 'quiz', question: "Кто мастер исторических картин «Утро стрелецкой казни» и «Боярыня Морозова»?", options: ["Репин", "Левитан", "Васнецов", "Суриков", "Другой ответ"], correctAnswer: "Суриков", hint: "Показывал драматические моменты русской истории" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь русскую живопись! 🖼️" }
+    examples: ['Пример по теме «Русская живопись XIX века»', 'Практическое задание: Русская живопись XIX века'],
   }
 ]
 

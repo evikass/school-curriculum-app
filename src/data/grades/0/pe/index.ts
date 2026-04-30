@@ -861,6 +861,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Движения 🏃",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2316a34a%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%F0%9F%8F%83%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -871,6 +872,8 @@ export const games: GameLesson[] = [
         options: ["Приседание", "Прыжок", "Ходьба", "Никто не знает", "Не знаю"],
         correctAnswer: "Приседание",
         hint: "Приседание делается на месте"
+        keyPoints: ['Основные понятия темы «Движения 🏃»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Движения 🏃»', 'Практическое задание: Движения 🏃'],
       },
       {
         type: 'quiz',
@@ -905,6 +908,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Игры 🎮",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2316a34a%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D0%B3%D1%80%D1%8B%20%F0%9F%8E%AE%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -915,6 +919,8 @@ export const games: GameLesson[] = [
         options: ["Прятки", "Догонялки", "Шахматы", "Никто не знает", "Не знаю"],
         correctAnswer: "Догонялки",
         hint: "В догонялки нужно бегать"
+        keyPoints: ['Основные понятия темы «Игры 🎮»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Игры 🎮»', 'Практическое задание: Игры 🎮'],
       },
       {
         type: 'quiz',
@@ -949,6 +955,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Гимнастика 🤸",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2316a34a%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%B8%D0%BC%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0%20%F0%9F%A4%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -959,6 +966,8 @@ export const games: GameLesson[] = [
         options: ["С игры", "С разминки", "С отдыха", "Никто не знает", "Не знаю"],
         correctAnswer: "С разминки",
         hint: "Разминка готовит тело"
+        keyPoints: ['Основные понятия темы «Гимнастика 🤸»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Гимнастика 🤸»', 'Практическое задание: Гимнастика 🤸'],
       },
       {
         type: 'quiz',
@@ -993,6 +1002,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Спортивные правила 📋",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2316a34a%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1003,6 +1013,8 @@ export const games: GameLesson[] = [
         options: ["Через рот", "Через нос", "Задержать дыхание", "Никто не знает", "Не знаю"],
         correctAnswer: "Через нос",
         hint: "Нос очищает и согревает воздух"
+        keyPoints: ['Основные понятия темы «Спортивные правила 📋»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Спортивные правила 📋»', 'Практическое задание: Спортивные правила 📋'],
       },
       {
         type: 'quiz',
@@ -1037,6 +1049,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Ходьба и бег 🏃",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2316a34a%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A5%D0%BE%D0%B4%D1%8C%D0%B1%D0%B0%20%D0%B8%20%D0%B1%D0%B5%D0%B3%20%F0%9F%8F%83%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1047,6 +1060,8 @@ export const games: GameLesson[] = [
         options: ["Громко", "Тихо, как кошечка", "Быстро", "Никто не знает", "Не знаю"],
         correctAnswer: "Тихо, как кошечка",
         hint: "На носочках шагают тихо"
+        keyPoints: ['Основные понятия темы «Ходьба и бег 🏃»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Ходьба и бег 🏃»', 'Практическое задание: Ходьба и бег 🏃'],
       },
       {
         type: 'quiz',
@@ -1081,6 +1096,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Прыжки 🦘",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2316a34a%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D1%8B%D0%B6%D0%BA%D0%B8%20%F0%9F%A6%98%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1091,6 +1107,8 @@ export const games: GameLesson[] = [
         options: ["На пятки", "На носочки", "На всю стопу", "Никто не знает", "Не знаю"],
         correctAnswer: "На носочки",
         hint: "Приземление на носочки мягкое"
+        keyPoints: ['Основные понятия темы «Прыжки 🦘»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Прыжки 🦘»', 'Практическое задание: Прыжки 🦘'],
       },
       {
         type: 'quiz',
@@ -1125,6 +1143,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Наклоны и повороты ↩️",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2316a34a%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%B0%D0%BA%D0%BB%D0%BE%D0%BD%D1%8B%20%D0%B8%20%D0%BF%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D1%8B%20%E2%86%A9%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1135,6 +1154,8 @@ export const games: GameLesson[] = [
         options: ["Силу", "Гибкость", "Скорость", "Никто не знает", "Не знаю"],
         correctAnswer: "Гибкость",
         hint: "Наклоны делают тело гибким"
+        keyPoints: ['Основные понятия темы «Наклоны и повороты ↩️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Наклоны и повороты ↩️»', 'Практическое задание: Наклоны и повороты ↩️'],
       },
       {
         type: 'quiz',
@@ -1169,6 +1190,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Приседания 🏋️",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2316a34a%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B8%D1%81%D0%B5%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F%20%F0%9F%8F%8B%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1179,6 +1201,8 @@ export const games: GameLesson[] = [
         options: ["Руки", "Ноги", "Голову", "Никто не знает", "Не знаю"],
         correctAnswer: "Ноги",
         hint: "Приседания для сильных ног"
+        keyPoints: ['Основные понятия темы «Приседания 🏋️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Приседания 🏋️»', 'Практическое задание: Приседания 🏋️'],
       },
       {
         type: 'quiz',
@@ -1213,6 +1237,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Прятки 👀",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2316a34a%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D1%8F%D1%82%D0%BA%D0%B8%20%F0%9F%91%80%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1223,6 +1248,8 @@ export const games: GameLesson[] = [
         options: ["Прячется", "Считает и ищет", "Убегает", "Никто не знает", "Не знаю"],
         correctAnswer: "Считает и ищет",
         hint: "Водящий ищет спрятавшихся"
+        keyPoints: ['Основные понятия темы «Прятки 👀»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Прятки 👀»', 'Практическое задание: Прятки 👀'],
       },
       {
         type: 'quiz',
@@ -1257,6 +1284,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Эстафета 🏁",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2316a34a%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%AD%D1%81%D1%82%D0%B0%D1%84%D0%B5%D1%82%D0%B0%20%F0%9F%8F%81%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1267,6 +1295,8 @@ export const games: GameLesson[] = [
         options: ["Бросают", "Из рук в руки", "Кладут на землю", "Никто не знает", "Не знаю"],
         correctAnswer: "Из рук в руки",
         hint: "Эстафету передают лично"
+        keyPoints: ['Основные понятия темы «Эстафета 🏁»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Эстафета 🏁»', 'Практическое задание: Эстафета 🏁'],
       },
       {
         type: 'quiz',
@@ -1301,6 +1331,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Игры с мячом ⚽",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2316a34a%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D0%B3%D1%80%D1%8B%20%D1%81%20%D0%BC%D1%8F%D1%87%D0%BE%D0%BC%20%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1311,6 +1342,8 @@ export const games: GameLesson[] = [
         options: ["Одной рукой", "Двумя руками", "Ногами", "Никто не знает", "Не знаю"],
         correctAnswer: "Двумя руками",
         hint: "Двумя руками ловить надёжнее"
+        keyPoints: ['Основные понятия темы «Игры с мячом ⚽»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Игры с мячом ⚽»', 'Практическое задание: Игры с мячом ⚽'],
       },
       {
         type: 'quiz',
@@ -1345,6 +1378,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Равновесие и дыхание 🧘",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2316a34a%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%81%D0%B8%D0%B5%20%D0%B8%20%D0%B4%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D0%B5%20%F0%9F%A7%98%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9A%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A4%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Физкультура",
     icon: "Dumbbell",
     color: "text-orange-400",
@@ -1355,6 +1389,8 @@ export const games: GameLesson[] = [
         options: ["На двух ногах", "На одной ноге", "На коленях", "Никто не знает", "Не знаю"],
         correctAnswer: "На одной ноге",
         hint: "Равновесие тренируют на одной ноге"
+        keyPoints: ['Основные понятия темы «Равновесие и дыхание 🧘»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Равновесие и дыхание 🧘»', 'Практическое задание: Равновесие и дыхание 🧘'],
       },
       {
         type: 'quiz',

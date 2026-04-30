@@ -1095,6 +1095,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Гласные звуки 🔊",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%BB%D0%B0%D1%81%D0%BD%D1%8B%D0%B5%20%D0%B7%D0%B2%D1%83%D0%BA%D0%B8%20%F0%9F%94%8A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1105,6 +1106,8 @@ export const games: GameLesson[] = [
         options: ["А", "Б", "О", "К", "У", "М", "И"],
         correctAnswer: ["А", "О", "У", "И"],
         hint: "Гласные можно пропеть: а-а-а!"
+        keyPoints: ['Основные понятия темы «Гласные звуки 🔊»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Гласные звуки 🔊»', 'Практическое задание: Гласные звуки 🔊'],
       },
       {
         type: 'quiz',
@@ -1139,6 +1142,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Согласные звуки 🔤",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%BD%D1%8B%D0%B5%20%D0%B7%D0%B2%D1%83%D0%BA%D0%B8%20%F0%9F%94%A4%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1149,6 +1153,8 @@ export const games: GameLesson[] = [
         options: ["А", "Б", "О", "К", "У", "М"],
         correctAnswer: ["Б", "К", "М"],
         hint: "Согласные нельзя пропеть"
+        keyPoints: ['Основные понятия темы «Согласные звуки 🔤»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Согласные звуки 🔤»', 'Практическое задание: Согласные звуки 🔤'],
       },
       {
         type: 'quiz',
@@ -1183,6 +1189,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Первый и последний звук 👂",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D0%B8%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9%20%D0%B7%D0%B2%D1%83%D0%BA%20%F0%9F%91%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1193,6 +1200,8 @@ export const games: GameLesson[] = [
         options: ["А", "М", "О", "Никто не знает", "Не знаю"],
         correctAnswer: "М",
         hint: "Произнеси слово: [М]ама"
+        keyPoints: ['Основные понятия темы «Первый и последний звук 👂»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Первый и последний звук 👂»', 'Практическое задание: Первый и последний звук 👂'],
       },
       {
         type: 'quiz',
@@ -1227,6 +1236,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Скороговорки 🗣️",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BA%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%BA%D0%B8%20%F0%9F%97%A3%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1237,6 +1247,8 @@ export const games: GameLesson[] = [
         options: ["С", "Ш", "М", "Никто не знает", "Не знаю"],
         correctAnswer: "Ш",
         hint: "Найди повторяющийся звук"
+        keyPoints: ['Основные понятия темы «Скороговорки 🗣️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Скороговорки 🗣️»', 'Практическое задание: Скороговорки 🗣️'],
       },
       {
         type: 'quiz',
@@ -1271,6 +1283,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Слова-предметы 📦",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0-%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D1%8B%20%F0%9F%93%A6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1281,6 +1294,8 @@ export const games: GameLesson[] = [
         options: ["Бежать", "Стол", "Красный", "Кот", "Спать"],
         correctAnswer: ["Стол", "Кот"],
         hint: "Слова-предметы отвечают на вопросы КТО? ЧТО?"
+        keyPoints: ['Основные понятия темы «Слова-предметы 📦»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Слова-предметы 📦»', 'Практическое задание: Слова-предметы 📦'],
       },
       {
         type: 'quiz',
@@ -1315,6 +1330,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Слова-действия 🏃",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0-%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%F0%9F%8F%83%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1325,6 +1341,8 @@ export const games: GameLesson[] = [
         options: ["Бежать", "Стол", "Прыгать", "Кот", "Спать"],
         correctAnswer: ["Бежать", "Прыгать", "Спать"],
         hint: "Слова-действия отвечают на вопрос ЧТО ДЕЛАЕТ?"
+        keyPoints: ['Основные понятия темы «Слова-действия 🏃»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Слова-действия 🏃»', 'Практическое задание: Слова-действия 🏃'],
       },
       {
         type: 'match',
@@ -1359,6 +1377,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Слова-признаки 🌈",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0-%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BA%D0%B8%20%F0%9F%8C%88%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1369,6 +1388,8 @@ export const games: GameLesson[] = [
         options: ["БОЛЬШОЙ", "БЕЖАТЬ", "КРАСНЫЙ", "ДОМ", "МЯГКИЙ"],
         correctAnswer: ["БОЛЬШОЙ", "КРАСНЫЙ", "МЯГКИЙ"],
         hint: "Они отвечают на вопрос КАКОЙ?"
+        keyPoints: ['Основные понятия темы «Слова-признаки 🌈»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Слова-признаки 🌈»', 'Практическое задание: Слова-признаки 🌈'],
       },
       {
         type: 'match',
@@ -1403,6 +1424,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Предлоги 📍",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B3%D0%B8%20%F0%9F%93%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1413,6 +1435,8 @@ export const games: GameLesson[] = [
         options: ["НА", "КРАСИВЫЙ", "В", "БЕЖАТЬ", "ПОД"],
         correctAnswer: ["НА", "В", "ПОД"],
         hint: "Предлоги — это маленькие слова-помощники"
+        keyPoints: ['Основные понятия темы «Предлоги 📍»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Предлоги 📍»', 'Практическое задание: Предлоги 📍'],
       },
       {
         type: 'match',
@@ -1447,6 +1471,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Составь рассказ 📖",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%8C%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%20%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1457,6 +1482,8 @@ export const games: GameLesson[] = [
         options: ["Начало", "Середина", "Конец", "Заголовок", "Не знаю"],
         correctAnswer: "Начало",
         hint: "У каждого рассказа есть начало, середина и конец"
+        keyPoints: ['Основные понятия темы «Составь рассказ 📖»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Составь рассказ 📖»', 'Практическое задание: Составь рассказ 📖'],
       },
       {
         type: 'find',
@@ -1491,6 +1518,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Сказка 🏰",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%20%F0%9F%8F%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1501,6 +1529,8 @@ export const games: GameLesson[] = [
         options: ["Герой", "Волшебство", "Песня", "Приключение", "Добро побеждает зло"],
         correctAnswer: ["Герой", "Волшебство", "Приключение", "Добро побеждает зло"],
         hint: "Из чего состоит сказка?"
+        keyPoints: ['Основные понятия темы «Сказка 🏰»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Сказка 🏰»', 'Практическое задание: Сказка 🏰'],
       },
       {
         type: 'quiz',
@@ -1535,6 +1565,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Буквы и звуки 🔤",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D1%83%D0%BA%D0%B2%D1%8B%20%D0%B8%20%D0%B7%D0%B2%D1%83%D0%BA%D0%B8%20%F0%9F%94%A4%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1548,6 +1579,8 @@ export const games: GameLesson[] = [
         options: ["21", "33", "10", "Никто не знает", "Не знаю"],
         correctAnswer: "33",
         hint: "В русском алфавите 33 буквы"
+        keyPoints: ['Основные понятия темы «Буквы и звуки 🔤»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Буквы и звуки 🔤»', 'Практическое задание: Буквы и звуки 🔤'],
       },
       {
         type: 'match',
@@ -1561,6 +1594,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Слоги 📖",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BB%D0%BE%D0%B3%D0%B8%20%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1574,6 +1608,8 @@ export const games: GameLesson[] = [
         options: ["1", "2", "3", "Никто не знает", "Не знаю"],
         correctAnswer: "2",
         hint: "Ли-са — два слога"
+        keyPoints: ['Основные понятия темы «Слоги 📖»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Слоги 📖»', 'Практическое задание: Слоги 📖'],
       },
       {
         type: 'match',
@@ -1587,6 +1623,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Слова и предложения 📝",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%20%D0%B8%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1600,6 +1637,8 @@ export const games: GameLesson[] = [
         options: ["Запятой", "Точкой", "Пробелом", "Никто не знает", "Не знаю"],
         correctAnswer: "Точкой",
         hint: "В конце предложения стоит точка"
+        keyPoints: ['Основные понятия темы «Слова и предложения 📝»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Слова и предложения 📝»', 'Практическое задание: Слова и предложения 📝'],
       },
       {
         type: 'find',
@@ -1613,6 +1652,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Ударение ⚡",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D0%B4%D0%B0%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%9A%A1%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1626,6 +1666,8 @@ export const games: GameLesson[] = [
         options: ["Первый", "Второй", "Третий", "Никто не знает", "Не знаю"],
         correctAnswer: "Второй",
         hint: "Шко-ЛА — ударение на второй слог"
+        keyPoints: ['Основные понятия темы «Ударение ⚡»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Ударение ⚡»', 'Практическое задание: Ударение ⚡'],
       },
       {
         type: 'match',
@@ -1639,6 +1681,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Речь и общение 💬",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B5%D1%87%D1%8C%20%D0%B8%20%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%20%F0%9F%92%AC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1652,6 +1695,8 @@ export const games: GameLesson[] = [
         options: ["Устную", "Письменную", "Никакую", "Никто не знает", "Не знаю"],
         correctAnswer: "Письменную",
         hint: "В книге написано — это письменная речь"
+        keyPoints: ['Основные понятия темы «Речь и общение 💬»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Речь и общение 💬»', 'Практическое задание: Речь и общение 💬'],
       },
       {
         type: 'match',
@@ -1665,6 +1710,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Сказки и их герои 🏰",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%B8%20%D0%B8%D1%85%20%D0%B3%D0%B5%D1%80%D0%BE%D0%B8%20%F0%9F%8F%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1678,6 +1724,8 @@ export const games: GameLesson[] = [
         options: ["Пушкин", "Чуковский", "Никто не знает", "Не знаю", "Народ"],
         correctAnswer: "Пушкин",
         hint: "Это сказка А.С. Пушкина"
+        keyPoints: ['Основные понятия темы «Сказки и их герои 🏰»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Сказки и их герои 🏰»', 'Практическое задание: Сказки и их герои 🏰'],
       },
       {
         type: 'match',
@@ -1691,6 +1739,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Скороговорки 🎭",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BA%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%BA%D0%B8%20%F0%9F%8E%AD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1704,6 +1753,8 @@ export const games: GameLesson[] = [
         options: ["С", "Ш", "Р", "Никто не знает", "Не знаю"],
         correctAnswer: "Ш",
         hint: "Шла, Саша, шоссе — звук Ш"
+        keyPoints: ['Основные понятия темы «Скороговорки 🎭»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Скороговорки 🎭»', 'Практическое задание: Скороговорки 🎭'],
       },
       {
         type: 'match',
@@ -1717,6 +1768,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Загадки 🧩",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B0%D0%B3%D0%B0%D0%B4%D0%BA%D0%B8%20%F0%9F%A7%A9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1730,6 +1782,8 @@ export const games: GameLesson[] = [
         options: ["Кот", "Замок", "Собака", "Никто не знает", "Не знаю"],
         correctAnswer: "Замок",
         hint: "Подумай, что охраняет дом"
+        keyPoints: ['Основные понятия темы «Загадки 🧩»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Загадки 🧩»', 'Практическое задание: Загадки 🧩'],
       },
       {
         type: 'match',
@@ -1743,6 +1797,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Пословицы и поговорки 💬",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%86%D1%8B%20%D0%B8%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%BA%D0%B8%20%F0%9F%92%AC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1756,6 +1811,8 @@ export const games: GameLesson[] = [
         options: ["Нужно терпеть", "Труд помогает достичь цели", "Не нужно работать", "Никто не знает", "Не знаю"],
         correctAnswer: "Труд помогает достичь цели",
         hint: "Труд и терпение ведут к успеху"
+        keyPoints: ['Основные понятия темы «Пословицы и поговорки 💬»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Пословицы и поговорки 💬»', 'Практическое задание: Пословицы и поговорки 💬'],
       },
       {
         type: 'match',
@@ -1769,6 +1826,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Рассказывание историй 📖",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9%20%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1782,6 +1840,8 @@ export const games: GameLesson[] = [
         options: ["Музыка", "Слова-связки", "Картинки", "Никто не знает", "Не знаю"],
         correctAnswer: "Слова-связки",
         hint: "Потом, вдруг, затем — слова-связки"
+        keyPoints: ['Основные понятия темы «Рассказывание историй 📖»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Рассказывание историй 📖»', 'Практическое задание: Рассказывание историй 📖'],
       },
       {
         type: 'match',
@@ -1795,6 +1855,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Вежливые слова 🙏",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%239333ea%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D0%B5%D0%B6%D0%BB%D0%B8%D0%B2%D1%8B%D0%B5%20%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%20%F0%9F%99%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3C/svg%3E',
     subject: "Развитие речи",
     icon: "MessageCircle",
     color: "text-teal-400",
@@ -1808,6 +1869,8 @@ export const games: GameLesson[] = [
         options: ["Спасибо", "Пожалуйста", "Извините", "Никто не знает", "Не знаю"],
         correctAnswer: "Пожалуйста",
         hint: "Пожалуйста, помоги мне"
+        keyPoints: ['Основные понятия темы «Вежливые слова 🙏»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Вежливые слова 🙏»', 'Практическое задание: Вежливые слова 🙏'],
       },
       {
         type: 'match',

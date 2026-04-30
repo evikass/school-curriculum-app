@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="500" height="50" fill="#66BB6A" rx="12"/>
+  <rect x="0" y="25" width="500" height="25" fill="#66BB6A"/>
+  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 1. Физическая культура в жизни человека</text>
+  <!-- Role of PE panel -->
+  <rect x="15" y="60" width="230" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
+  <rect x="15" y="77" width="230" height="8" fill="#66BB6A"/>
+  <text x="130" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Роль физкультуры</text>
+  <!-- Heart icon -->
+  <path d="M60,105 C60,95 75,90 75,102 C75,90 90,95 90,105 C90,120 75,130 75,130 C75,130 60,120 60,105Z" fill="#66BB6A" opacity="0.3" stroke="#66BB6A" stroke-width="1.5"/>
+  <text x="100" y="102" fill="#333" font-size="9" font-family="Arial,sans-serif">• Укрепление здоровья</text>
+  <text x="100" y="115" fill="#333" font-size="9" font-family="Arial,sans-serif">• Развитие силы и выносл.</text>
+  <text x="100" y="128" fill="#333" font-size="9" font-family="Arial,sans-serif">• Формирование характера</text>
+  <text x="25" y="148" fill="#333" font-size="9" font-family="Arial,sans-serif">• Профилактика заболеваний</text>
+  <text x="25" y="161" fill="#333" font-size="9" font-family="Arial,sans-serif">• Улучшение настроения</text>
+  <text x="25" y="174" fill="#333" font-size="9" font-family="Arial,sans-serif">• Дисциплина и воля</text>
+  <text x="25" y="187" fill="#333" font-size="9" font-family="Arial,sans-serif">• Социализация, командность</text>
+
+  <!-- Health benefits panel -->
+  <rect x="255" y="60" width="230" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="255" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
+  <rect x="255" y="77" width="230" height="8" fill="#66BB6A"/>
+  <text x="370" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Польза для здоровья</text>
+  <text x="265" y="100" fill="#333" font-size="9" font-family="Arial,sans-serif">• Сердце: ЧСС в норме</text>
+  <text x="265" y="113" fill="#333" font-size="9" font-family="Arial,sans-serif">• Лёгкие: ЖЁЛ увеличивается</text>
+  <text x="265" y="126" fill="#333" font-size="9" font-family="Arial,sans-serif">• Мышцы: сила и тонус</text>
+  <text x="265" y="139" fill="#333" font-size="9" font-family="Arial,sans-serif">• Осанка: правильная</text>
+  <text x="265" y="152" fill="#333" font-size="9" font-family="Arial,sans-serif">• Иммунитет: укрепление</text>
+  <text x="265" y="165" fill="#333" font-size="9" font-family="Arial,sans-serif">• Метаболизм: ускорение</text>
+  <text x="265" y="178" fill="#333" font-size="9" font-family="Arial,sans-serif">• Стрессоустойчивость</text>
+
+  <!-- WHO recommendations -->
+  <rect x="15" y="200" width="230" height="120" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="200" width="230" height="25" fill="#2E7D32" rx="8"/>
+  <rect x="15" y="217" width="230" height="8" fill="#2E7D32"/>
+  <text x="130" y="218" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Нормы ВОЗ для подростков</text>
+  <text x="25" y="242" fill="#333" font-size="9" font-family="Arial,sans-serif">• 60 мин/день умер. активности</text>
+  <text x="25" y="255" fill="#333" font-size="9" font-family="Arial,sans-serif">• 3 раза/неделю — силовые</text>
+  <text x="25" y="268" fill="#333" font-size="9" font-family="Arial,sans-serif">• Ограничить сидение до 2 ч/день</text>
+  <text x="25" y="281" fill="#333" font-size="9" font-family="Arial,sans-serif">• Аэробные: бег, плавание, велос.</text>
+  <text x="25" y="294" fill="#333" font-size="9" font-family="Arial,sans-serif">• Растяжка: гибкость, координация</text>
+  <text x="25" y="310" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Движение — жизнь!</text>
+
+  <!-- Physical qualities -->
+  <rect x="255" y="200" width="230" height="120" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="255" y="200" width="230" height="25" fill="#2E7D32" rx="8"/>
+  <rect x="255" y="217" width="230" height="8" fill="#2E7D32"/>
+  <text x="370" y="218" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Физические качества</text>
+  <text x="265" y="242" fill="#333" font-size="9" font-family="Arial,sans-serif">💪 Сила — преодоление сопротивл.</text>
+  <text x="265" y="255" fill="#333" font-size="9" font-family="Arial,sans-serif">⚡ Быстрота — скорость реакции</text>
+  <text x="265" y="268" fill="#333" font-size="9" font-family="Arial,sans-serif">🏃 Выносливость — длит. работа</text>
+  <text x="265" y="281" fill="#333" font-size="9" font-family="Arial,sans-serif">🤸 Гибкость — амплитуда движ.</text>
+  <text x="265" y="294" fill="#333" font-size="9" font-family="Arial,sans-serif">🎯 Ловкость — координация</text>
+  <text x="265" y="310" fill="#333" font-size="9" font-family="Arial,sans-serif">⚖ Равновесие — баланс тела</text>
+</svg>

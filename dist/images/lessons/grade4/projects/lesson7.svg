@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <!-- Thin gold line under accent -->
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Сборка и отделка</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Создание макетов</text>
+  <!-- Illustration area -->
+  <rect x="180" y="160" width="140" height="90" rx="3" fill="#ddd" stroke="#999" stroke-width="2"/><rect x="195" y="175" width="50" height="35" rx="2" fill="#b0a080" stroke="#8a7a60" stroke-width="1.5"/><polygon points="270,175 295,210 245,210" fill="#87CEEB" stroke="#4a8ab5" stroke-width="1.5"/><rect x="200" y="220" width="40" height="20" rx="2" fill="#90EE90" stroke="#228B22" stroke-width="1"/><!-- Floating pieces --><rect x="115" y="130" width="30" height="25" rx="2" fill="#b0a080" stroke="#8a7a60" stroke-width="1" stroke-dasharray="3,2"/><line x1="145" y1="142" x2="195" y2="170" stroke="#C41E3A" stroke-width="1" stroke-dasharray="4,2"/><polygon points="360,120 385,155 335,155" fill="#87CEEB" stroke="#4a8ab5" stroke-width="1" stroke-dasharray="3,2"/><line x1="335" y1="140" x2="290" y2="175" stroke="#C41E3A" stroke-width="1" stroke-dasharray="4,2"/><text x="250" y="280" text-anchor="middle" font-size="11" fill="#1a1a1a" font-weight="bold" font-family="Arial">От крупного к мелкому</text><text x="250" y="298" text-anchor="middle" font-size="10" fill="#C41E3A" font-family="Arial">Проверь прочность!</text>
+  <!-- Bottom dark bar -->
+  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
+  <!-- Gold line above bottom bar -->
+  <rect y="313" width="500" height="2" fill="#D4A843"/>
+  <!-- Subject name -->
+  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Проектная деятельность</text>
+</svg>

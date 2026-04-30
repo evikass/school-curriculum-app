@@ -18,6 +18,8 @@ const lessons: SubjectData = {
         {
           id: 'robotics-6-1-1',
           title: 'Проектирование робота',
+          description: 'Познакомишься с этапами создания робота: от постановки задачи до тестирования.',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg14%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2306B6D4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg14)%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2306B6D4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E14%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           content: `## Проектирование робота
 
 :- Проектирование — процесс создания плана или чертежа будущего робота.
@@ -73,6 +75,8 @@ const lessons: SubjectData = {
         {
           id: 'robotics-6-1-2',
           title: 'Механические передачи',
+          description: 'Изучишь виды механических передач: зубчатую, ремённую, цепную и червячную.',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg13%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2306B6D4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg13)%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2306B6D4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E13%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           content: `## Механические передачи
 
 :- Механическая передача — устройство для передачи механической энергии от двигателя к рабочему органу.
@@ -135,6 +139,8 @@ const lessons: SubjectData = {
         {
           id: 'robotics-6-1-3',
           title: 'Мобильные роботы',
+          description: 'Узнаешь о типах мобильных роботов: колёсных, гусеничных и шагающих.',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg12%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2306B6D4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg12)%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2306B6D4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E12%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           content: `## Мобильные роботы
 
 :- Мобильный робот — робот, способный перемещаться в пространстве.
@@ -207,6 +213,8 @@ const lessons: SubjectData = {
         {
           id: 'robotics-6-1-4',
           title: 'Манипуляторы',
+          description: 'Познакомишься с манипуляторами: степенями свободы и типами схватов.',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg11%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2306B6D4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg11)%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2306B6D4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E11%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           content: `## Манипуляторы
 
 :- Манипулятор — робот или механизм для захватывания и перемещения предметов.
@@ -285,6 +293,8 @@ const lessons: SubjectData = {
         {
           id: 'robotics-6-2-1',
           title: 'Двигатели в робототехнике',
+          description: 'Изучишь типы двигателей: постоянного тока, серводвигатели и шаговые.',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg09%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2306B6D4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg09)%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2306B6D4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E09%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           content: `## Двигатели в робототехнике
 
 :- Двигатель — устройство, преобразующее энергию в механическое движение.
@@ -359,6 +369,8 @@ const lessons: SubjectData = {
         {
           id: 'robotics-6-2-2',
           title: 'Электрические схемы',
+          description: 'Научишься собирать электрические схемы и подключать компоненты робота.',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg08%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2306B6D4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg08)%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2306B6D4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E08%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           content: `## Электрические схемы
 
 :- Электрическая схема — графическое изображение электрических соединений.
@@ -430,6 +442,8 @@ const lessons: SubjectData = {
         {
           id: 'robotics-6-2-3',
           title: 'Датчики',
+          description: 'Узнаешь о видах датчиков и их роли в работе робота.',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg07%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2306B6D4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg07)%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2306B6D4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E07%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           content: `## Датчики
 
 :- Датчик — устройство, которое измеряет физическую величину и преобразует её в сигнал.
@@ -522,6 +536,8 @@ const lessons: SubjectData = {
         {
           id: 'robotics-6-2-4',
           title: 'Механические узлы',
+          description: 'Освоишь сборку механических узлов и соединений для робота.',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg06%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2306B6D4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg06)%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2306B6D4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E06%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           content: `## Механические узлы
 
 :- Механический узел — соединение деталей, обеспечивающее их взаимодействие.
@@ -614,6 +630,8 @@ const lessons: SubjectData = {
         {
           id: 'robotics-6-3-1',
           title: 'Среда программирования',
+          description: 'Познакомишься со средой программирования для управления роботом.',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg04%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2306B6D4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg04)%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2306B6D4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E04%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           content: `## Среда программирования
 
 :- Среда программирования — программа для создания и загрузки кода в робота.
@@ -690,6 +708,8 @@ const lessons: SubjectData = {
         {
           id: 'robotics-6-3-2',
           title: 'Работа с моторами',
+          description: 'Научишься программировать моторы: управлять скоростью и направлением.',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg03%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2306B6D4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg03)%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2306B6D4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E03%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           content: `## Работа с моторами
 
 :- Мотор (двигатель) — устройство, преобразующее энергию в движение.
@@ -783,6 +803,8 @@ const lessons: SubjectData = {
         {
           id: 'robotics-6-3-3',
           title: 'Работа с датчиками',
+          description: 'Освоишь программирование датчиков для реакции робота на обстановку.',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg02%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2306B6D4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg02)%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2306B6D4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E02%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           content: `## Работа с датчиками
 
 :- Показание датчика — числовое значение, которое возвращает датчик.
@@ -882,6 +904,8 @@ const lessons: SubjectData = {
         {
           id: 'robotics-6-3-4',
           title: 'Автономный робот',
+          description: 'Соберёшь и запрограммируешь автономного робота, действующего без управления.',
+          image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20150%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg01%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%238B5CF6%3Bstop-opacity%3A0.15%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2306B6D4%3Bstop-opacity%3A0.1%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%22150%22%20rx%3D%2212%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.08%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22url(%23bg01)%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.3%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2255%22%20r%3D%2230%22%20fill%3D%22%2306B6D4%22%20opacity%3D%220.15%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%2262%22%20text-anchor%3D%22middle%22%20font-size%3D%2222%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22bold%22%20font-family%3D%22Arial%22%3E01%3C%2Ftext%3E%3Crect%20x%3D%2220%22%20y%3D%2295%22%20width%3D%22160%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22%2310B981%22%20opacity%3D%220.12%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22118%22%20text-anchor%3D%22middle%22%20font-size%3D%2210%22%20fill%3D%22%238B5CF6%22%20font-weight%3D%22600%22%20font-family%3D%22Arial%22%3E%3C%2Ftext%3E%3C%2Fsvg%3E",
           content: `## Автономный робот
 
 :- Автономный робот — робот, способный выполнять задачи без вмешательства человека.
@@ -991,6 +1015,7 @@ const lessons: SubjectData = {
 export const games = [
   {
     title: "Механические передачи",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -1006,9 +1031,11 @@ export const games = [
       { type: 'quiz', question: "Передача, в которой используются зубчатые колёса, называется зубчатая.", options: ["зубчатая", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "зубчатая", hint: "Зубья колёс сцепляются друг с другом" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь механические передачи! ⚙️" }
+    examples: ['Пример: Механические передачи — конструирование и программирование', 'Практическое задание по теме «Механические передачи»'],
   },
   {
     title: "Датчики и двигатели",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B8%20%D0%B8%20%D0%B4%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -1019,9 +1046,12 @@ export const games = [
       { type: 'quiz', question: "Серводвигатель поворачивается на заданный угол и удерживает позицию.", options: ["Серводвигатель", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Серводвигатель", hint: "Используется в манипуляторах" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь компоненты робота! 🤖" }
+    keyPoints: ['Основные понятия темы «Датчики и двигатели»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Датчики и двигатели — конструирование и программирование', 'Практическое задание по теме «Датчики и двигатели»'],
   },
   {
     title: "Создание робота",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%236d28d9%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%A4%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E6%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -1032,6 +1062,8 @@ export const games = [
       { type: 'quiz', question: "Контроллер — это устройство, которое управляет работой робота.", options: ["Контроллер", "Неверно", "Другой ответ", "Не подходит", "Нет ответа"], correctAnswer: "Контроллер", hint: "Это «мозг» робота" }
     ],
     reward: { stars: 3, message: "Молодец! Ты готов создавать роботов! 🎉" }
+    keyPoints: ['Основные понятия темы «Создание робота»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Создание робота — конструирование и программирование', 'Практическое задание по теме «Создание робота»'],
   }
 ]
 

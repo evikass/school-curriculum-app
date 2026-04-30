@@ -715,6 +715,7 @@ export const games: GameLesson[] = [
   // ========== ИСТОРИЯ РОССИИ (25–36) ==========
   {
     title: "Истоки Руси",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D1%81%D1%82%D0%BE%D0%BA%D0%B8%20%D0%A0%D1%83%D1%81%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История России",
     icon: "Landmark",
     color: "text-amber-400",
@@ -726,10 +727,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Кто жил к востоку от славян?", options: ["Варяги", "Византийцы", "Хазары и печенеги", "Римляне", "Франки"], correctAnswer: "Хазары и печенеги", hint: "Хазары и печенеги — восточные соседи славян" }
     ],
     reward: { stars: 3, message: "Здорово! Ты знаешь истоки Руси! 🏛️" }
+    keyPoints: ['Основные понятия темы «Истоки Руси»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Истоки Руси — исторический анализ', 'Практическое задание по теме «Истоки Руси»'],
   },
 
   {
     title: "Первые князья",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История России",
     icon: "Landmark",
     color: "text-amber-400",
@@ -741,10 +745,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Куда вёл Путь из варяг в греки?", options: ["В Индию", "В Царьград (Константинополь)", "В Рим", "В Париж", "В Лондон"], correctAnswer: "В Царьград (Константинополь)", hint: "Торговый путь в Византийскую империю" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь первых князей! 👑" }
+    keyPoints: ['Основные понятия темы «Первые князья»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Первые князья — исторический анализ', 'Практическое задание по теме «Первые князья»'],
   },
 
   {
     title: "Князь Игорь и Ольга",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BD%D1%8F%D0%B7%D1%8C%20%D0%98%D0%B3%D0%BE%D1%80%D1%8C%20%D0%B8%20%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История России",
     icon: "Landmark",
     color: "text-amber-400",
@@ -756,10 +763,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Кем была Ольга для князя Игоря?", options: ["Сестрой", "Матерью", "Женой", "Дочерью", "Соседкой"], correctAnswer: "Женой", hint: "Ольга стала княгиней после гибели мужа" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь историю Ольги! ⚔️" }
+    keyPoints: ['Основные понятия темы «Князь Игорь и Ольга»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Князь Игорь и Ольга — исторический анализ', 'Практическое задание по теме «Князь Игорь и Ольга»'],
   },
 
   {
     title: "Святослав",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История России",
     icon: "Landmark",
     color: "text-amber-400",
@@ -771,10 +781,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Кем приходился Святослав Игорю и Ольге?", options: ["Братом Игоря", "Сыном Игоря и Ольги", "Внуком Ольги", "Племянником", "Дружинником"], correctAnswer: "Сыном Игоря и Ольги", hint: "Святослав — сын князя Игоря и княгини Ольги" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь о князе-воине! 🗡️" }
+    keyPoints: ['Основные понятия темы «Святослав»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Святослав — исторический анализ', 'Практическое задание по теме «Святослав»'],
   },
 
   {
     title: "Князь Владимир",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BD%D1%8F%D0%B7%D1%8C%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История России",
     icon: "Landmark",
     color: "text-amber-400",
@@ -786,10 +799,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как прозвали князя Владимира?", options: ["Мудрый", "Донской", "Красное Солнышко", "Долгорукий", "Несчастный"], correctAnswer: "Красное Солнышко", hint: "Владимир Красное Солнышко — креститель Руси" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь о Крещении Руси! ✝️" }
+    keyPoints: ['Основные понятия темы «Князь Владимир»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Князь Владимир — исторический анализ', 'Практическое задание по теме «Князь Владимир»'],
   },
 
   {
     title: "Распространение христианства",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D1%81%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История России",
     icon: "Landmark",
     color: "text-amber-400",
@@ -801,10 +817,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой монастырь стал центром русской культуры?", options: ["Соловецкий", "Киево-Печерский", "Троице-Сергиев", "Валаамский", "Оптина пустынь"], correctAnswer: "Киево-Печерский", hint: "Киево-Печерская лавра — центр культуры и летописания" }
     ],
     reward: { stars: 3, message: "Здорово! Ты знаешь культуру Руси! 📖" }
+    keyPoints: ['Основные понятия темы «Распространение христианства»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Распространение христианства — исторический анализ', 'Практическое задание по теме «Распространение христианства»'],
   },
 
   {
     title: "Ярослав Мудрый",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%20%D0%9C%D1%83%D0%B4%D1%80%D1%8B%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История России",
     icon: "Landmark",
     color: "text-amber-400",
@@ -816,10 +835,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Почему Ярослава прозвали Мудрым?", options: ["За силу", "За рост", "За ум и образование", "За храбрость", "За богатство"], correctAnswer: "За ум и образование", hint: "Ярослав был образован и мудр" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь о Ярославе Мудром! 👑" }
+    keyPoints: ['Основные понятия темы «Ярослав Мудрый»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Ярослав Мудрый — исторический анализ', 'Практическое задание по теме «Ярослав Мудрый»'],
   },
 
   {
     title: "Культура Древней Руси",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%20%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B9%20%D0%A0%D1%83%D1%81%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История России",
     icon: "Landmark",
     color: "text-amber-400",
@@ -845,6 +867,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Нашествие монголов",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%B0%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%D0%BC%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История России",
     icon: "Landmark",
     color: "text-amber-400",
@@ -856,10 +879,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Почему Русь проиграла монголам?", options: ["Не было воинов", "Раздробленность княжеств", "Плохое оружие", "Мало крепостей", "Не было лошадей"], correctAnswer: "Раздробленность княжеств", hint: "Княжества не объединились против врага" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь историю нашествия! ⚔️" }
+    keyPoints: ['Основные понятия темы «Нашествие монголов»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Нашествие монголов — исторический анализ', 'Практическое задание по теме «Нашествие монголов»'],
   },
 
   {
     title: "Борьба с игом",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D0%BE%D1%80%D1%8C%D0%B1%D0%B0%20%D1%81%20%D0%B8%D0%B3%D0%BE%D0%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История России",
     icon: "Landmark",
     color: "text-amber-400",
@@ -871,10 +897,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что сохранилось во время ига?", options: ["Города", "Русская православная церковь", "Ремёсла", "Торговля", "Крепости"], correctAnswer: "Русская православная церковь", hint: "Церковь стала духовным центром народа" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь о борьбе с игом! 🏰" }
+    keyPoints: ['Основные понятия темы «Борьба с игом»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Борьба с игом — исторический анализ', 'Практическое задание по теме «Борьба с игом»'],
   },
 
   {
     title: "Куликовская битва",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%20%D0%B1%D0%B8%D1%82%D0%B2%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История России",
     icon: "Landmark",
     color: "text-amber-400",
@@ -891,10 +920,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какие воины сражались в поединке перед битвой?", options: ["Дмитрий и Мамай", "Пересвет и Челубей", "Олег и Игорь", "Рюрик и Олег", "Иван и Ахмат"], correctAnswer: "Пересвет и Челубей", hint: "Русский богатырь и ордынский воин" }
     ],
     reward: { stars: 3, message: "Здорово! Ты знаешь о Куликовской битве! ⚔️" }
+    examples: ['Пример: Куликовская битва — исторический анализ', 'Практическое задание по теме «Куликовская битва»'],
   },
 
   {
     title: "Освобождение от ига",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%82%20%D0%B8%D0%B3%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История России",
     icon: "Landmark",
     color: "text-amber-400",
@@ -906,5 +937,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой титул принял Иван III?", options: ["Царь", "Император", "Государь всея Руси", "Князь", "Хан"], correctAnswer: "Государь всея Руси", hint: "Иван III назвал себя «Государь всея Руси»" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь историю освобождения! 🗡️" }
+    keyPoints: ['Основные понятия темы «Освобождение от ига»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Освобождение от ига — исторический анализ', 'Практическое задание по теме «Освобождение от ига»'],
   }
 ]

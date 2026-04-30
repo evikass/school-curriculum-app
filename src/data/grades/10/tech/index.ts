@@ -1,8 +1,46 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, image: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => ({
-  title, image, description, tasks, examples, keyPoints
-})
+const createLesson = (title: string, image: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => {
+  // Auto-generate examples from description
+  const autoEx: string[] = [];
+  if (!examples || examples.length === 0) {
+    const exLines = description.split('\n');
+    for (const line of exLines) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith('- ') && trimmed.length > 15 && trimmed.length < 150) {
+        let ex = trimmed.substring(2).trim();
+        if (ex.length > 10 && !ex.startsWith('**') && !ex.startsWith('```') && !ex.startsWith('|')) {
+          if (ex.length > 100) ex = ex.substring(0, 97) + '...';
+          autoEx.push(ex);
+        }
+      }
+      if (autoEx.length >= 3) break;
+    }
+    if (autoEx.length < 2) autoEx.push('Пример: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+  // Auto-generate keyPoints from description
+  const autoKP: string[] = [];
+  if (!keyPoints || keyPoints.length === 0) {
+    const boldMatches = description.match(/\*\*([^*]{4,55})\*\*/g) || [];
+    for (const bm of boldMatches) {
+      const text = bm.replace(/\*\*/g, '').trim();
+      if (text.length > 4 && text.length < 55 && !text.includes('```') && !/^(python|sql|html|css|bash)/i.test(text)) {
+        if (!autoKP.some(p => p === text)) autoKP.push(text);
+        if (autoKP.length >= 4) break;
+      }
+    }
+    if (autoKP.length < 3) autoKP.push('Ключевое понятие: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+
+  // Generate SVG image if path-based or missing
+  let finalImage = image;
+  if (!image || image.startsWith('/school-curriculum-app/')) {
+    const shortTitle = title.replace(/^Урок \d+:\s*/, '').substring(0, 35);
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#854d0e"/><stop offset="100%" style="stop-color:#facc1533"/></linearGradient></defs><rect width="400" height="250" rx="16" fill="url(#bg)"/><rect x="16" y="16" width="368" height="218" rx="8" fill="none" stroke="#fde04733" stroke-width="1"/><text x="200" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#fde04799">10 класс · Технология</text><text x="200" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#fde047">${shortTitle}</text><line x1="100" y1="180" x2="300" y2="180" stroke="#facc1566" stroke-width="2"/><circle cx="80" cy="220" r="4" fill="#facc15"/><circle cx="320" cy="220" r="4" fill="#facc15"/><text x="200" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#fde04777">Технология</text></svg>`;
+    finalImage = 'data:image/svg+xml,' + encodeURIComponent(svg);
+  }
+  return { title, image: finalImage, description, tasks, examples: (examples?.length ? examples : autoEx.slice(0, 3)), keyPoints: (keyPoints?.length ? keyPoints : autoKP.slice(0, 5)) };
+}
 
 export const lessons: SubjectData = {
   title: "Технология",
@@ -13,7 +51,7 @@ export const lessons: SubjectData = {
     {
       topic: "Робототехника",
       lessons: [
-        createLesson("Урок 1: Продвинутая робототехника", "/school-curriculum-app/images/lessons/grade10/tech/lesson1.svg",`**Робототехника** — наука о создании и применении роботов.
+        createLesson("Урок 1: Продвинутая робототехника", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23854d0e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23facc1533%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fde04733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fde04799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fde047%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23facc1566%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fde04777%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Робототехника** — наука о создании и применении роботов.
 
 **Современные роботы:**
 Роботы проникли во все сферы жизни — от промышленности до домашнего быта. Промышленные роботы на заводах выполняют сварку, покраску и сборку с точностью, недоступной человеку. Сервисные роботы помогают в медицине, логистике и даже в домашних делах.
@@ -47,7 +85,7 @@ export const lessons: SubjectData = {
           "Raspberry Pi 4 — одноплатный компьютер для управления роботом",
           "Беспилотный автомобиль Tesla использует камеры и нейросети для навигации"
         ]),
-        createLesson("Урок 2: Программирование роботов", "/school-curriculum-app/images/lessons/grade10/tech/lesson2.svg",`**Алгоритмы навигации:**
+        createLesson("Урок 2: Программирование роботов", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23854d0e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23facc1533%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fde04733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fde04799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fde047%22%3E%D0%A3%D1%80%D0%BE%D0%BA%202%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23facc1566%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fde04777%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Алгоритмы навигации:**
 Навигация — ключевая задача для мобильных роботов. Существует несколько подходов: реактивная навигация (реакция на текущие данные датчиков), навигация по карте (планирование маршрута на основе известной карты) и SLAM (одновременная локализация и картографирование). Каждый метод имеет свои преимущества и ограничения.
 
 **Машинное зрение:**
@@ -79,7 +117,7 @@ export const lessons: SubjectData = {
           "Конечный автомат: «ждёт сигнал» → «движется» → «останавливается»",
           "Python + Arduino: скрипт управляет сервоприводом через последовательный порт"
         ]),
-        createLesson("Урок 3: Мехатроника", "/school-curriculum-app/images/lessons/grade10/tech/lesson3.svg",`**Мехатроника** — интеграция механики, электроники и программирования.
+        createLesson("Урок 3: Мехатроника", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23854d0e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23facc1533%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fde04733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fde04799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fde047%22%3E%D0%A3%D1%80%D0%BE%D0%BA%203%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23facc1566%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fde04777%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Мехатроника** — интеграция механики, электроники и программирования.
 
 **Механические системы:**
 Механическая часть робота включает корпус, приводы, передачи и рабочие органы. Корпус обеспечивает жёсткость конструкции. Приводы (двигатели, сервоприводы, пневмо- и гидроцилиндры) создают движение. Передачи (зубчатые, ремённые, цепные) преобразуют и передают движение. Рабочие органы (захваты, инструменты) непосредственно взаимодействуют с объектами.
@@ -157,7 +195,7 @@ export const lessons: SubjectData = {
     {
       topic: "3D-моделирование",
       lessons: [
-        createLesson("Урок 5: CAD-системы", "/school-curriculum-app/images/lessons/grade10/tech/lesson4.svg",`**CAD** (Computer-Aided Design) — автоматизированное проектирование.
+        createLesson("Урок 5: CAD-системы", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23854d0e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23facc1533%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fde04733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fde04799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fde047%22%3E%D0%A3%D1%80%D0%BE%D0%BA%204%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23facc1566%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fde04777%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**CAD** (Computer-Aided Design) — автоматизированное проектирование.
 
 **Что такое CAD-системы:**
 CAD-системы — программное обеспечение для создания чертежей, 3D-моделей и проектной документации. Они заменили кульманы и карандаши на компьютеры и принтеры. Современные CAD-системы позволяют создавать сложные модели с высокой точностью.
@@ -194,7 +232,7 @@ CAD-системы — программное обеспечение для со
           "Сопряжение в сборке: оси двух отверстий → тип «концентричность»",
           "Чертёж по ГОСТ: главный вид, вид сверху, разрез А-А, допуски"
         ]),
-        createLesson("Урок 6: Сложные модели", "/school-curriculum-app/images/lessons/grade10/tech/lesson5.svg",`**Продвинутые техники 3D-моделирования.**
+        createLesson("Урок 6: Сложные модели", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23854d0e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23facc1533%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fde04733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fde04799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fde047%22%3E%D0%A3%D1%80%D0%BE%D0%BA%205%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23facc1566%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fde04777%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Продвинутые техники 3D-моделирования.**
 
 **Сложные поверхности:**
 Поверхностное моделирование применяется для создания объектов со сложными криволинейными формами: корпуса автомобилей, элементы дизайна, органические формы. Поверхности строятся по кривым (сплайнам) с помощью операций лофтинга, протяжки, вращения. В отличие от твёрдотельного моделирования, поверхности могут быть разомкнутыми.
@@ -228,7 +266,7 @@ CAD-системы — программное обеспечение для со
           "Retopology: 100 000 полигонов → 5 000 полигонов без потери формы",
           "LOD: дальняя камера — 500 полигонов, ближняя — 50 000 полигонов"
         ]),
-        createLesson("Урок 7: Подготовка к печати", "/school-curriculum-app/images/lessons/grade10/tech/lesson6.svg",`**3D-печать** — создание физических объектов по цифровой модели.
+        createLesson("Урок 7: Подготовка к печати", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23854d0e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23facc1533%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fde04733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fde04799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fde047%22%3E%D0%A3%D1%80%D0%BE%D0%BA%206%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23facc1566%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fde04777%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**3D-печать** — создание физических объектов по цифровой модели.
 
 **Технологии 3D-печати:**
 - **FDM (Fused Deposition Modeling)** — послойное наплавление пластика. Самая доступная технология.
@@ -311,7 +349,7 @@ CAD-системы — программное обеспечение для со
     {
       topic: "Проектная деятельность",
       lessons: [
-        createLesson("Урок 9: Управление проектами", "/school-curriculum-app/images/lessons/grade10/tech/lesson7.svg",`**Проект** — временное предприятие для создания уникального продукта.
+        createLesson("Урок 9: Управление проектами", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23854d0e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23facc1533%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fde04733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fde04799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fde047%22%3E%D0%A3%D1%80%D0%BE%D0%BA%207%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23facc1566%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fde04777%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Проект** — временное предприятие для создания уникального продукта.
 
 **Этапы проекта:**
 Проект проходит через несколько последовательных этапов. Инициация определяет цели, задачи и границы проекта. Планирование расписывает работы, ресурсы и сроки. Исполнение — непосредственная работа над проектом. Контроль отслеживает прогресс и корректирует план. Завершение подводит итоги и документирует результаты.
@@ -347,7 +385,7 @@ CAD-системы — программное обеспечение для со
           "Риск: «Нет подходящих деталей» → стратегия: заказать заранее",
           "Scrum: спринт 2 недели, daily standup 15 минут"
         ]]),
-        createLesson("Урок 10: Командная работа", "/school-curriculum-app/images/lessons/grade10/tech/lesson8.svg",`**Команда** — группа людей, работающих над общей целью.
+        createLesson("Урок 10: Командная работа", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23854d0e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23facc1533%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fde04733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fde04799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fde047%22%3E%D0%A3%D1%80%D0%BE%D0%BA%208%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23facc1566%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fde04777%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Команда** — группа людей, работающих над общей целью.
 
 **Распределение ролей:**
 В команде каждый выполняет свою роль. Руководитель проекта координирует работу и принимает решения. Технический специалист отвечает за техническую часть. Дизайнер создаёт визуальные решения. Тестировщик проверяет качество. Чёткое распределение ролей предотвращает дублирование работы и конфликты.
@@ -381,7 +419,7 @@ CAD-системы — программное обеспечение для со
           "Инструменты: Trello (канбан-доска), Slack (чат), Notion (документы)",
           "Ретроспектива: что прошло хорошо, что улучшить, действия на спринт"
         ]),
-        createLesson("Урок 11: Презентация проекта", "/school-curriculum-app/images/lessons/grade10/tech/lesson9.svg",`**Презентация** — публичное представление проекта.
+        createLesson("Урок 11: Презентация проекта", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23854d0e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23facc1533%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fde04733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fde04799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fde047%22%3E%D0%A3%D1%80%D0%BE%D0%BA%209%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23facc1566%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fde04777%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Презентация** — публичное представление проекта.
 
 **Структура презентации:**
 Хорошая презентация следует логичной структуре. Введение представляет команду и проблему. Основная часть описывает решение, процесс работы и результаты. Заключение подводит итоги и отвечает на вопросы «Что дальше?». Каждая часть должна быть сбалансирована по времени.
@@ -417,7 +455,7 @@ CAD-системы — программное обеспечение для со
           "Прототип: печатка из PLA для проверки формы",
           "Финальная версия: печать из ABS или PETG"
         ]]),
-        createLesson("Урок 12: Итоговый проект", "/school-curriculum-app/images/lessons/grade10/tech/lesson10.svg",`**Итоговый проект** — завершающая работа по курсу технологии.
+        createLesson("Урок 12: Итоговый проект", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23854d0e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23facc1533%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fde04733%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fde04799%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fde047%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2010%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23facc1566%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23facc15%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fde04777%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",`**Итоговый проект** — завершающая работа по курсу технологии.
 
 **Выбор темы:**
 Тема проекта должна быть актуальной, интересной и посильной. Проект решает реальную проблему или создаёт полезный продукт. При выборе учитывайте: доступные ресурсы, сроки, компетенции команды, практическую значимость результата.
@@ -458,6 +496,7 @@ CAD-системы — программное обеспечение для со
 export const games = [
   {
     title: "Урок 1: Продвинутая робототехника",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%80%D0%BE%D0%BA%201%3A%20%D0%9F%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -468,6 +507,8 @@ export const games = [
         options: ["Механическая часть робота", "Контроллер, обрабатывающий информацию", "Источники питания", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Контроллер, обрабатывающий информацию",
         hint: "«Сердце» робота"
+        keyPoints: ['Основные понятия темы «Урок 1: Продвинутая робототехника»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Урок 1: Продвинутая робототехника»', 'Практическое задание: Урок 1: Продвинутая робототехника'],
       },
       {
         type: 'find',
@@ -495,6 +536,7 @@ export const games = [
   },
   {
     title: "Урок 2: Программирование роботов",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%80%D0%BE%D0%BA%202%3A%20%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -505,6 +547,8 @@ export const games = [
         options: ["Язык программирования", "Одновременная локализация и картографирование", "Тип датчика", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Одновременная локализация и картографирование",
         hint: "Навигация робота"
+        keyPoints: ['Основные понятия темы «Урок 2: Программирование роботов»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Урок 2: Программирование роботов»', 'Практическое задание: Урок 2: Программирование роботов'],
       },
       {
         type: 'find',
@@ -532,6 +576,7 @@ export const games = [
   },
   {
     title: "Урок 3: Мехатроника",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%80%D0%BE%D0%BA%203%3A%20%D0%9C%D0%B5%D1%85%D0%B0%D1%82%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -542,6 +587,8 @@ export const games = [
         options: ["Только механика", "Интеграция механики, электроники и программирования", "Только электроника", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Интеграция механики, электроники и программирования",
         hint: "Комплексная дисциплина"
+        keyPoints: ['Основные понятия темы «Урок 3: Мехатроника»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Урок 3: Мехатроника»', 'Практическое задание: Урок 3: Мехатроника'],
       },
       {
         type: 'find',
@@ -572,6 +619,7 @@ export const games = [
   },
   {
     title: "Урок 4: Проект \"Умный дом\"",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%80%D0%BE%D0%BA%204%3A%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%5C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -582,6 +630,8 @@ export const games = [
         options: ["Датчик движения", "Центральный контроллер", "Выключатель", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Центральный контроллер",
         hint: "Координирует все устройства"
+        keyPoints: ['Основные понятия темы «Урок 4: Проект \»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Урок 4: Проект \»', 'Практическое задание: Урок 4: Проект \'],
       },
       {
         type: 'find',
@@ -609,6 +659,7 @@ export const games = [
   },
   {
     title: "Урок 5: CAD-системы",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%80%D0%BE%D0%BA%205%3A%20CAD-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -619,6 +670,8 @@ export const games = [
         options: ["Computer-Aided Design", "Computer Animation Design", "Creative Art Design", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Computer-Aided Design",
         hint: "Компьютерное проектирование"
+        keyPoints: ['Основные понятия темы «Урок 5: CAD-системы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Урок 5: CAD-системы»', 'Практическое задание: Урок 5: CAD-системы'],
       },
       {
         type: 'find',
@@ -646,6 +699,7 @@ export const games = [
   },
   {
     title: "Урок 6: Сложные модели",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%80%D0%BE%D0%BA%206%3A%20%D0%A1%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -656,6 +710,8 @@ export const games = [
         options: ["Для простых форм", "Для сложных криволинейных объектов", "Для чертежей", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Для сложных криволинейных объектов",
         hint: "Корпуса автомобилей, дизайн"
+        keyPoints: ['Основные понятия темы «Урок 6: Сложные модели»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Урок 6: Сложные модели»', 'Практическое задание: Урок 6: Сложные модели'],
       },
       {
         type: 'find',
@@ -683,6 +739,7 @@ export const games = [
   },
   {
     title: "Урок 7: Подготовка к печати",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%80%D0%BE%D0%BA%207%3A%20%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BA%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -693,6 +750,8 @@ export const games = [
         options: ["SLA", "FDM", "SLS", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "FDM",
         hint: "Послойное наплавление пластика"
+        keyPoints: ['Основные понятия темы «Урок 7: Подготовка к печати»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Урок 7: Подготовка к печати»', 'Практическое задание: Урок 7: Подготовка к печати'],
       },
       {
         type: 'find',
@@ -720,6 +779,7 @@ export const games = [
   },
   {
     title: "Урок 8: Проект \"Функциональная модель\"",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%80%D0%BE%D0%BA%208%3A%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%5C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -730,6 +790,8 @@ export const games = [
         options: ["С печати", "С идеи и требований", "С постобработки", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "С идеи и требований",
         hint: "Первый этап"
+        keyPoints: ['Основные понятия темы «Урок 8: Проект \»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Урок 8: Проект \»', 'Практическое задание: Урок 8: Проект \'],
       },
       {
         type: 'find',
@@ -757,6 +819,7 @@ export const games = [
   },
   {
     title: "Урок 9: Управление проектами",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%80%D0%BE%D0%BA%209%3A%20%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%D0%BC%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -767,6 +830,8 @@ export const games = [
         options: ["Постоянная работа", "Временное предприятие для уникального продукта", "Повторяющаяся задача", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Временное предприятие для уникального продукта",
         hint: "Есть начало и конец"
+        keyPoints: ['Основные понятия темы «Урок 9: Управление проектами»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Урок 9: Управление проектами»', 'Практическое задание: Урок 9: Управление проектами'],
       },
       {
         type: 'find',
@@ -794,6 +859,7 @@ export const games = [
   },
   {
     title: "Урок 10: Командная работа",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2010%3A%20%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -804,6 +870,8 @@ export const games = [
         options: ["Случайный выбор", "По способностям", "Не распределять", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "По способностям",
         hint: "Эффективное использование талантов"
+        keyPoints: ['Основные понятия темы «Урок 10: Командная работа»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Урок 10: Командная работа»', 'Практическое задание: Урок 10: Командная работа'],
       },
       {
         type: 'find',
@@ -831,6 +899,7 @@ export const games = [
   },
   {
     title: "Урок 11: Презентация проекта",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2011%3A%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",
@@ -841,6 +910,8 @@ export const games = [
         options: ["С решения", "С проблемы", "С команды", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "С проблемы",
         hint: "Заинтересовать аудиторию"
+        keyPoints: ['Основные понятия темы «Урок 11: Презентация проекта»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Урок 11: Презентация проекта»', 'Практическое задание: Урок 11: Презентация проекта'],
       },
       {
         type: 'find',
@@ -868,6 +939,7 @@ export const games = [
   },
   {
     title: "Урок 12: Итоговый проект",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2012%3A%20%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Cpu",
     color: "text-purple-400",

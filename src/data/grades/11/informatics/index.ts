@@ -1,8 +1,14 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[]) => ({ 
-  title, description, tasks, content, examples, facts, keyPoints
-})
+const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[], image?: string) => {
+  let finalImage = image;
+  if (!finalImage) {
+    const shortTitle = title.replace(/^Урок \d+:\s*/, '').substring(0, 35);
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0c4a6e"/><stop offset="100%" style="stop-color:#38bdf833"/></linearGradient></defs><rect width="400" height="250" rx="16" fill="url(#bg)"/><rect x="16" y="16" width="368" height="218" rx="8" fill="none" stroke="#7dd3fc33" stroke-width="1"/><text x="200" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#7dd3fc99">11 класс · Информатика</text><text x="200" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#7dd3fc">${shortTitle}</text><line x1="100" y1="180" x2="300" y2="180" stroke="#38bdf866" stroke-width="2"/><circle cx="80" cy="220" r="4" fill="#38bdf8"/><circle cx="320" cy="220" r="4" fill="#38bdf8"/><text x="200" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#7dd3fc77">Информатика</text></svg>`;
+    finalImage = 'data:image/svg+xml,' + encodeURIComponent(svg);
+  }
+  return { title, description, tasks, content, examples, facts, keyPoints, image: finalImage };
+}
 
 export const lessons: SubjectData = {
   title: "Информатика",
@@ -41,6 +47,8 @@ export const lessons: SubjectData = {
         ["ДП: оптимальная подструктура + пересекающиеся подзадачи", "Мемоизация: сверху вниз, табуляция: снизу вверх", "Задача кузнечика = числа Фибоначчи"],
         ["ДП — один из важнейших методов в программировании", "Задачи ДП часто встречаются на олимпиадах", "Мемоизация проще, табуляция эффективнее"], ["ДП решает задачи с пересекающимися подзадачами", "Табуляция эффективнее мемоизации по памяти", "Задача о рюкзаке — классическая задача ДП"]),
       ]
+      keyPoints: ['Основные понятия темы «Информатика»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+      examples: ['Пример: Информатика — работа с информацией', 'Практическое задание по теме «Информатика»'],
     },
     {
       topic: "Информационные технологии",
@@ -144,7 +152,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Урок 1: Сложность алгоритмов",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson1.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%A1%D0%BB%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%BE%D0%B2%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -155,10 +163,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Вложенные циклы: сложность:", options: ["Складывается", "Умножается", "Вычитается", "Делится", "—"], correctAnswer: "Умножается", hint: "O(f) × O(g)" }
     ],
     reward: { stars: 3, message: "Ты понимаешь сложность алгоритмов! 📊" }
+    keyPoints: ['Основные понятия темы «Урок 1: Сложность алгоритмов»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 1: Сложность алгоритмов — работа с информацией', 'Практическое задание по теме «Урок 1: Сложность алгоритмов»'],
   },
   {
     title: "Урок 2: Рекурсия",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson2.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%A0%D0%B5%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8F%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -169,10 +179,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "fib(n) = fib(n-1) + fib(n-2) без оптимизации:", options: ["O(n)", "O(n²)", "O(2ⁿ)", "O(log n)", "—"], correctAnswer: "O(2ⁿ)", hint: "Экспоненциальная сложность" }
     ],
     reward: { stars: 3, message: "Ты понимаешь рекурсию! 🔄" }
+    keyPoints: ['Основные понятия темы «Урок 2: Рекурсия»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 2: Рекурсия — работа с информацией', 'Практическое задание по теме «Урок 2: Рекурсия»'],
   },
   {
     title: "Урок 3: Динамическое программирование",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson3.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -183,10 +195,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Задача кузнечика сводится к:", options: ["Сортировке", "Числам Фибоначчи", "Поиску", "Графам", "—"], correctAnswer: "Числам Фибоначчи", hint: "dp[i] = dp[i-1] + dp[i-2]" }
     ],
     reward: { stars: 3, message: "Ты владеешь динамическим программированием! 💡" }
+    keyPoints: ['Основные понятия темы «Урок 3: Динамическое программирование»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 3: Динамическое программирование — работа с информацией', 'Практическое задание по теме «Урок 3: Динамическое программирование»'],
   },
   {
     title: "Урок 4: Базы данных",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson4.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%91%D0%B0%D0%B7%D1%8B%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -197,10 +211,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "1НФ требует:", options: ["Сложные значения", "Атомарные значения", "Дубликаты", "NULL везде", "—"], correctAnswer: "Атомарные значения", hint: "Все значения неделимы" }
     ],
     reward: { stars: 3, message: "Ты знаешь базы данных! 🗄️" }
+    keyPoints: ['Основные понятия темы «Урок 4: Базы данных»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 4: Базы данных — работа с информацией', 'Практическое задание по теме «Урок 4: Базы данных»'],
   },
   {
     title: "Урок 5: Компьютерные сети",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson5.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B5%D1%82%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -211,10 +227,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "DNS использует порт:", options: ["22", "53", "80", "443", "—"], correctAnswer: "53", hint: "DNS — 53" }
     ],
     reward: { stars: 3, message: "Ты понимаешь компьютерные сети! 🌐" }
+    keyPoints: ['Основные понятия темы «Урок 5: Компьютерные сети»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 5: Компьютерные сети — работа с информацией', 'Практическое задание по теме «Урок 5: Компьютерные сети»'],
   },
   {
     title: "Урок 6: Веб-технологии",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson6.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%92%D0%B5%D0%B1-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -225,10 +243,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Frontend — это:", options: ["Серверная часть", "Клиентская часть", "База данных", "Сеть", "—"], correctAnswer: "Клиентская часть", hint: "То, что видит пользователь" }
     ],
     reward: { stars: 3, message: "Ты знаешь веб-технологии! 🌍" }
+    keyPoints: ['Основные понятия темы «Урок 6: Веб-технологии»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 6: Веб-технологии — работа с информацией', 'Практическое задание по теме «Урок 6: Веб-технологии»'],
   },
   {
     title: "Урок 7: Криптография",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson7.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -239,10 +259,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Открытый ключ используется для:", options: ["Расшифрования", "Шифрования", "Удаления", "Копирования", "—"], correctAnswer: "Шифрования", hint: "Закрытый — для расшифрования" }
     ],
     reward: { stars: 3, message: "Ты понимаешь криптографию! 🔐" }
+    keyPoints: ['Основные понятия темы «Урок 7: Криптография»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 7: Криптография — работа с информацией', 'Практическое задание по теме «Урок 7: Криптография»'],
   },
   {
     title: "Урок 8: Защита информации",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson8.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -253,10 +275,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "2FA — это:", options: ["Антивирус", "Двухфакторная аутентификация", "Файрвол", "Шифрование", "—"], correctAnswer: "Двухфакторная аутентификация", hint: "Два способа подтверждения" }
     ],
     reward: { stars: 3, message: "Ты знаешь защиту информации! 🛡️" }
+    keyPoints: ['Основные понятия темы «Урок 8: Защита информации»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 8: Защита информации — работа с информацией', 'Практическое задание по теме «Урок 8: Защита информации»'],
   },
   {
     title: "Урок 9: Задания на системы счисления",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson9.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%BD%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D1%81%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -267,10 +291,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "10₈ в десятичной системе:", options: ["8", "10", "16", "2", "—"], correctAnswer: "8", hint: "1×8 + 0 = 8" }
     ],
     reward: { stars: 3, message: "Ты знаешь системы счисления! 🔢" }
+    keyPoints: ['Основные понятия темы «Урок 9: Задания на системы счисления»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 9: Задания на системы счисления — работа с информацией', 'Практическое задание по теме «Урок 9: Задания на системы счисления»'],
   },
   {
     title: "Урок 10: Задания на алгебру логики",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson10.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%BD%D0%B0%20%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D1%83%20%D0%BB%D0%BE%D0%B3%D0%B8%D0%BA%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -281,10 +307,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "A ⊕ A =", options: ["0", "1", "A", "¬A", "—"], correctAnswer: "0", hint: "XOR: A ⊕ A всегда 0" }
     ],
     reward: { stars: 3, message: "Ты знаешь логику! 🧠" }
+    keyPoints: ['Основные понятия темы «Урок 10: Задания на алгебру логики»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 10: Задания на алгебру логики — работа с информацией', 'Практическое задание по теме «Урок 10: Задания на алгебру логики»'],
   },
   {
     title: "Урок 11: Программирование в ЕГЭ",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson11.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -295,10 +323,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Задание 25 в ЕГЭ — это:", options: ["Строки", "Делители", "Массивы", "Графы", "—"], correctAnswer: "Делители", hint: "Поиск делителей чисел" }
     ],
     reward: { stars: 3, message: "Ты готов к ЕГЭ по программированию! 💻" }
+    keyPoints: ['Основные понятия темы «Урок 11: Программирование в ЕГЭ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 11: Программирование в ЕГЭ — работа с информацией', 'Практическое задание по теме «Урок 11: Программирование в ЕГЭ»'],
   },
   {
     title: "Урок 12: Итоговое повторение",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson12.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%230c4a6e%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2338bdf833%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%237dd3fc33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%237dd3fc99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%237dd3fc%22%3E%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2338bdf866%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%237dd3fc77%22%3E%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -309,5 +339,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Лучший язык для ЕГЭ:", options: ["C++", "Java", "Python", "Pascal", "—"], correctAnswer: "Python", hint: "Простой и популярный" }
     ],
     reward: { stars: 3, message: "Ты готов к экзамену! 🎓" }
+    keyPoints: ['Основные понятия темы «Урок 12: Итоговое повторение»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 12: Итоговое повторение — работа с информацией', 'Практическое задание по теме «Урок 12: Итоговое повторение»'],
   }
 ]

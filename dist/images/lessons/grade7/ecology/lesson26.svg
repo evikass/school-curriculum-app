@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Круговорот веществ</text>
+<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экология - Урок 26</text>
+<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32" text-anchor="middle" font-weight="bold">Круговорот веществ</text>
+  <!-- Ecosystem -->
+  <rect x="35" y="130" width="200" height="100" rx="4" fill="#E8F5E9" opacity="0.5"/>
+  <!-- Sun -->
+  <circle cx="65" cy="148" r="12" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="65" y1="133" x2="65" y2="138" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="65" y1="158" x2="65" y2="163" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="50" y1="148" x2="55" y2="148" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="75" y1="148" x2="80" y2="148" stroke="#F9A825" stroke-width="1.5"/>
+  <!-- Plants -->
+  <rect x="100" y="175" width="6" height="30" fill="#795548"/>
+  <circle cx="103" cy="165" r="15" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="140" y="180" width="5" height="25" fill="#795548"/>
+  <circle cx="142" cy="172" r="12" fill="#66BB6A" stroke="#2E7D32" stroke-width="1"/>
+  <!-- Rabbit -->
+  <ellipse cx="190" cy="195" rx="10" ry="7" fill="#BDBDBD" stroke="#888" stroke-width="0.8"/>
+  <circle cx="195" cy="188" r="6" fill="#BDBDBD"/>
+  <ellipse cx="193" cy="180" rx="2" ry="5" fill="#BDBDBD"/>
+  <ellipse cx="198" cy="180" rx="2" ry="5" fill="#BDBDBD"/>
+  <circle cx="197" cy="187" r="1.5" fill="#333"/>
+  <!-- Fox -->
+  <ellipse cx="170" cy="200" rx="12" ry="8" fill="#FF8A65" stroke="#E65100" stroke-width="0.8"/>
+  <circle cx="180" cy="193" r="7" fill="#FF8A65"/>
+  <polygon points="177,187 180,182 183,187" fill="#FF8A65"/>
+  <circle cx="182" cy="192" r="1.5" fill="#333"/>
+  <!-- Food chain arrows -->
+  <line x1="155" y1="155" x2="175" y2="145" stroke="#C62828" stroke-width="1"/>
+  <line x1="175" y1="145" x2="190" y2="138" stroke="#C62828" stroke-width="1"/>
+  <text x="135" y="245" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">пищевая цепь</text>
+  <text x="135" y="265" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">круговорот веществ</text>
+
+  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
+  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">Экологические факторы</text>
+  <!-- Factors -->
+  <rect x="280" y="128" width="95" height="40" rx="4" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
+  <circle cx="298" cy="145" r="8" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
+  <text x="298" y="148" font-family="Arial,sans-serif" font-size="6" fill="#F9A825" text-anchor="middle">T</text>
+  <text x="345" y="143" font-family="Arial,sans-serif" font-size="7" fill="#F9A825" text-anchor="middle">Абиотические</text>
+  <text x="345" y="155" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">свет, вода, t</text>
+  <rect x="380" y="128" width="85" height="40" rx="4" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="422" y="143" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Биотические</text>
+  <text x="422" y="155" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">живые</text>
+  <!-- Cycle -->
+  <text x="367" y="195" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Круговорот воды</text>
+  <circle cx="330" cy="225" r="10" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="330" y="228" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">H2O</text>
+  <path d="M345,220 L360,210 L375,220 L390,210 L405,220" stroke="#42A5F5" stroke-width="1.5" fill="none"/>
+  <path d="M345,230 L360,240 L375,230 L390,240 L405,230" stroke="#42A5F5" stroke-width="1.5" fill="none"/>
+  <text x="367" y="260" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">испарение - осадки</text>
+  <text x="367" y="275" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">экосистема = среда + организмы</text>
+<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Экология</text>
+</svg>

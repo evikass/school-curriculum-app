@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <text x="250" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Основы цвета</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#D4A843">Цвет в изобразительном искусстве</text>
+  <line x1="50" y1="82" x2="450" y2="82" stroke="#D4A843" stroke-width="0.5"/>
+  
+  <!-- color wheel center at 250,190, radius 75 -->
+  <!-- main segments (6 colors) -->
+  <!-- Red -->
+  <path d="M250,190 L250,115 A75,75 0 0,1 315,150 Z" fill="#C41E3A" opacity="0.7"/>
+  <!-- Orange -->
+  <path d="M250,190 L315,150 A75,75 0 0,1 325,220 Z" fill="#FF8C00" opacity="0.7"/>
+  <!-- Yellow -->
+  <path d="M250,190 L325,220 A75,75 0 0,1 250,265 Z" fill="#FFD700" opacity="0.7"/>
+  <!-- Green -->
+  <path d="M250,190 L250,265 A75,75 0 0,1 175,220 Z" fill="#2E7D32" opacity="0.7"/>
+  <!-- Blue -->
+  <path d="M250,190 L175,220 A75,75 0 0,1 175,160 Z" fill="#2B4C7E" opacity="0.7"/>
+  <!-- Purple -->
+  <path d="M250,190 L175,160 A75,75 0 0,1 250,115 Z" fill="#8B008B" opacity="0.7"/>
+  <!-- white lines between -->
+  <line x1="250" y1="190" x2="250" y2="115" stroke="#FFFFFF" stroke-width="0.5"/>
+  <line x1="250" y1="190" x2="315" y2="150" stroke="#FFFFFF" stroke-width="0.5"/>
+  <line x1="250" y1="190" x2="325" y2="220" stroke="#FFFFFF" stroke-width="0.5"/>
+  <line x1="250" y1="190" x2="250" y2="265" stroke="#FFFFFF" stroke-width="0.5"/>
+  <line x1="250" y1="190" x2="175" y2="220" stroke="#FFFFFF" stroke-width="0.5"/>
+  <line x1="250" y1="190" x2="175" y2="160" stroke="#FFFFFF" stroke-width="0.5"/>
+  <!-- center circle -->
+  <circle cx="250" cy="190" r="18" fill="{CREAM}" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- labels -->
+  <text x="260" y="135" font-family="Arial" font-size="8" fill="#1a1a1a" font-weight="bold">Красный</text>
+  <text x="310" y="165" font-family="Arial" font-size="8" fill="#1a1a1a" font-weight="bold">Оранж.</text>
+  <text x="290" y="240" font-family="Arial" font-size="8" fill="#1a1a1a" font-weight="bold">Жёлтый</text>
+  <text x="160" y="240" font-family="Arial" font-size="8" fill="#1a1a1a" font-weight="bold">Зелёный</text>
+  <text x="130" y="195" font-family="Arial" font-size="8" fill="#1a1a1a" font-weight="bold">Синий</text>
+  <text x="175" y="135" font-family="Arial" font-size="8" fill="#1a1a1a" font-weight="bold">Фиол.</text>
+  <!-- warm/cool labels -->
+  <text x="100" y="115" font-family="Arial" font-size="10" fill="#C41E3A">Тёплые</text>
+  <line x1="100" y1="118" x2="170" y2="118" stroke="#C41E3A" stroke-width="1" opacity="0.4"/>
+  <text x="350" y="115" font-family="Arial" font-size="10" fill="#2B4C7E">Холодные</text>
+  <line x1="350" y1="118" x2="420" y2="118" stroke="#2B4C7E" stroke-width="1" opacity="0.4"/>
+  <rect y="310" width="500" height="40" fill="#1a1a1a"/>
+  <rect y="308" width="500" height="2" fill="#C41E3A"/>
+  <text x="250" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#D4A843">Изобразительное искусство</text>
+</svg>

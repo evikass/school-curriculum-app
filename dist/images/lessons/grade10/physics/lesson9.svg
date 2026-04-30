@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5C6BC0"/>
+      <stop offset="100%" stop-color="#1A237E"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Закон Кулона</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 9</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    
+    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
+    <!-- Two charges -->
+    <circle cx="120" cy="200" r="22" fill="#E91E63" opacity="0.2" stroke="#E91E63" stroke-width="2"/>
+    <text x="120" y="196" font-family="Arial,sans-serif" font-size="16" fill="#E91E63" text-anchor="middle" font-weight="bold">+</text>
+    <text x="120" y="212" font-family="Arial,sans-serif" font-size="9" fill="#E91E63" text-anchor="middle">q1</text>
+    <circle cx="300" cy="200" r="22" fill="#4CAF50" opacity="0.2" stroke="#4CAF50" stroke-width="2"/>
+    <text x="300" y="196" font-family="Arial,sans-serif" font-size="16" fill="#4CAF50" text-anchor="middle" font-weight="bold">-</text>
+    <text x="300" y="212" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50" text-anchor="middle">q2</text>
+    <!-- Force arrows -->
+    <line x1="143" y1="200" x2="175" y2="200" stroke="#E91E63" stroke-width="2.5"/>
+    <polygon points="175,197 183,200 175,203" fill="#E91E63"/>
+    <text x="152" y="192" font-family="Arial,sans-serif" font-size="10" fill="#E91E63" font-weight="bold">F1</text>
+    <line x1="277" y1="200" x2="245" y2="200" stroke="#4CAF50" stroke-width="2.5"/>
+    <polygon points="245,197 237,200 245,203" fill="#4CAF50"/>
+    <text x="252" y="192" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50" font-weight="bold">F2</text>
+    <!-- Distance -->
+    <line x1="120" y1="235" x2="300" y2="235" stroke="#1A237E" stroke-width="1.5"/>
+    <polygon points="120,232 120,238" fill="#1A237E"/>
+    <polygon points="300,232 300,238" fill="#1A237E"/>
+    <text x="210" y="248" font-family="Arial,sans-serif" font-size="12" fill="#1A237E" text-anchor="middle" font-weight="bold">r</text>
+    <!-- Electric field lines -->
+    <path d="M140,185 Q200,160 280,185" fill="none" stroke="#FF9800" stroke-width="0.8" opacity="0.5"/>
+    <path d="M140,215 Q200,240 280,215" fill="none" stroke="#FF9800" stroke-width="0.8" opacity="0.5"/>
+    <path d="M140,180 Q200,145 280,180" fill="none" stroke="#FF9800" stroke-width="0.6" opacity="0.3"/>
+    <path d="M140,220 Q200,255 280,220" fill="none" stroke="#FF9800" stroke-width="0.6" opacity="0.3"/>
+    <!-- Coulomb's Law -->
+    <rect x="25" y="90" width="230" height="85" rx="5" fill="white" opacity="0.9" stroke="#5C6BC0" stroke-width="1.5"/>
+    <text x="35" y="108" font-family="Arial,sans-serif" font-size="12" fill="#1A237E" font-weight="bold">Закон Кулона:</text>
+    <rect x="35" y="115" width="210" height="28" rx="3" fill="#5C6BC0" opacity="0.08"/>
+    <text x="140" y="134" font-family="Arial,sans-serif" font-size="14" fill="#5C6BC0" text-anchor="middle" font-weight="bold">F = k*|q1|*|q2|/r^2</text>
+    <text x="35" y="157" font-family="Arial,sans-serif" font-size="10" fill="#444">k = 9*10^9 Н*м^2/Кл^2</text>
+    <text x="35" y="171" font-family="Arial,sans-serif" font-size="10" fill="#444">k = 1/(4*pi*epsilon0)</text>
+    <!-- Properties -->
+    <rect x="270" y="90" width="215" height="85" rx="5" fill="white" opacity="0.9" stroke="#5C6BC0" stroke-width="1"/>
+    <text x="280" y="108" font-family="Arial,sans-serif" font-size="11" fill="#1A237E" font-weight="bold">Свойства:</text>
+    <text x="280" y="126" font-family="Arial,sans-serif" font-size="10" fill="#444">+ и - : притягиваются</text>
+    <text x="280" y="142" font-family="Arial,sans-serif" font-size="10" fill="#444">+ и + : отталкиваются</text>
+    <text x="280" y="158" font-family="Arial,sans-serif" font-size="10" fill="#444">F ~ 1/r^2 (обратный квадрат)</text>
+    <text x="280" y="174" font-family="Arial,sans-serif" font-size="10" fill="#444">F1 = F2 (III закон Ньютона)</text>
+    <!-- Inverse square diagram -->
+    <rect x="25" y="260" width="460" height="38" rx="4" fill="white" opacity="0.8" stroke="#5C6BC0" stroke-width="1"/>
+    <text x="35" y="277" font-family="Arial,sans-serif" font-size="10" fill="#1A237E" font-weight="bold">Зависимость от r:</text>
+    <text x="150" y="277" font-family="Arial,sans-serif" font-size="10" fill="#444">r -&gt; 2r: F уменьшается в 4 раза</text>
+    <text x="330" y="277" font-family="Arial,sans-serif" font-size="10" fill="#444">r -&gt; 3r: F уменьшается в 9 раз</text>
+    <text x="35" y="293" font-family="Arial,sans-serif" font-size="9" fill="#888">Закон справедлив для точечных зарядов (размер много меньше расстояния)</text>
+    
+  </g>
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика</text>
+</svg>

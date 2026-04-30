@@ -1,8 +1,46 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, image: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => ({
-  title, image, description, tasks, examples, keyPoints
-})
+const createLesson = (title: string, image: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => {
+  // Auto-generate examples from description
+  const autoEx: string[] = [];
+  if (!examples || examples.length === 0) {
+    const exLines = description.split('\n');
+    for (const line of exLines) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith('- ') && trimmed.length > 15 && trimmed.length < 150) {
+        let ex = trimmed.substring(2).trim();
+        if (ex.length > 10 && !ex.startsWith('**') && !ex.startsWith('```') && !ex.startsWith('|')) {
+          if (ex.length > 100) ex = ex.substring(0, 97) + '...';
+          autoEx.push(ex);
+        }
+      }
+      if (autoEx.length >= 3) break;
+    }
+    if (autoEx.length < 2) autoEx.push('Пример: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+  // Auto-generate keyPoints from description
+  const autoKP: string[] = [];
+  if (!keyPoints || keyPoints.length === 0) {
+    const boldMatches = description.match(/\*\*([^*]{4,55})\*\*/g) || [];
+    for (const bm of boldMatches) {
+      const text = bm.replace(/\*\*/g, '').trim();
+      if (text.length > 4 && text.length < 55 && !text.includes('```') && !/^(python|sql|html|css|bash)/i.test(text)) {
+        if (!autoKP.some(p => p === text)) autoKP.push(text);
+        if (autoKP.length >= 4) break;
+      }
+    }
+    if (autoKP.length < 3) autoKP.push('Ключевое понятие: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+
+  // Generate SVG image if path-based or missing
+  let finalImage = image;
+  if (!image || image.startsWith('/school-curriculum-app/')) {
+    const shortTitle = title.replace(/^Урок \d+:\s*/, '').substring(0, 35);
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#1e3a5f"/><stop offset="100%" style="stop-color:#60a5fa33"/></linearGradient></defs><rect width="400" height="250" rx="16" fill="url(#bg)"/><rect x="16" y="16" width="368" height="218" rx="8" fill="none" stroke="#93c5fd33" stroke-width="1"/><text x="200" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#93c5fd99">10 класс · ЕГЭ</text><text x="200" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#93c5fd">${shortTitle}</text><line x1="100" y1="180" x2="300" y2="180" stroke="#60a5fa66" stroke-width="2"/><circle cx="80" cy="220" r="4" fill="#60a5fa"/><circle cx="320" cy="220" r="4" fill="#60a5fa"/><text x="200" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#93c5fd77">ЕГЭ</text></svg>`;
+    finalImage = 'data:image/svg+xml,' + encodeURIComponent(svg);
+  }
+  return { title, image: finalImage, description, tasks, examples: (examples?.length ? examples : autoEx.slice(0, 3)), keyPoints: (keyPoints?.length ? keyPoints : autoKP.slice(0, 5)) };
+}
 
 export const lessons: SubjectData = {
   title: "Подготовка к ЕГЭ",
@@ -13,7 +51,7 @@ export const lessons: SubjectData = {
     {
       topic: "Структура ЕГЭ",
       lessons: [
-        createLesson("Урок 1: Что такое ЕГЭ", "/school-curriculum-app/images/lessons/grade10/ege/lesson1.svg",`Единый государственный экзамен (ЕГЭ) — это форма государственной итоговой аттестации выпускников 11-х классов общеобразовательных школ. ЕГЭ одновременно служит выпускным экзаменом в школе и вступительным экзаменом в высшие учебные заведения. Система действует с 2009 года и обеспечивает единые стандарты оценки знаний по всей стране.
+        createLesson("Урок 1: Что такое ЕГЭ", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BA%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Единый государственный экзамен (ЕГЭ) — это форма государственной итоговой аттестации выпускников 11-х классов общеобразовательных школ. ЕГЭ одновременно служит выпускным экзаменом в школе и вступительным экзаменом в высшие учебные заведения. Система действует с 2009 года и обеспечивает единые стандарты оценки знаний по всей стране.
 
 ## Система проведения ЕГЭ
 
@@ -71,7 +109,7 @@ export const lessons: SubjectData = {
           "Баллы действительны 4 года",
           "Пересдача возможна в резервные сроки"
         ]),
-        createLesson("Урок 2: Русский язык ЕГЭ", "/school-curriculum-app/images/lessons/grade10/ege/lesson2.svg",`ЕГЭ по русскому языку — обязательный экзамен для всех выпускников. Он проверяет орфографическую и пунктуационную грамотность, владение нормами литературного языка, умение анализировать текст и создавать собственное высказывание. Экзамен состоит из двух частей: тестовой (27 заданий) и сочинения.
+        createLesson("Урок 2: Русский язык ЕГЭ", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%202%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`ЕГЭ по русскому языку — обязательный экзамен для всех выпускников. Он проверяет орфографическую и пунктуационную грамотность, владение нормами литературного языка, умение анализировать текст и создавать собственное высказывание. Экзамен состоит из двух частей: тестовой (27 заданий) и сочинения.
 
 ## Структура экзамена по русскому языку
 
@@ -137,7 +175,7 @@ export const lessons: SubjectData = {
           "Минимум 150 слов",
           "Проверяйте речевые и грамматические ошибки"
         ]),
-        createLesson("Урок 3: Математика ЕГЭ", "/school-curriculum-app/images/lessons/grade10/ege/lesson3.svg",`ЕГЭ по математике представлен в двух уровнях сложности. Базовый уровень предназначен для выпускников, которым математика не нужна для поступления — достаточно для получения аттестата. Профильный уровень сдают те, кто планирует поступать на технические, экономические и естественно-научные специальности.
+        createLesson("Урок 3: Математика ЕГЭ", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%203%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`ЕГЭ по математике представлен в двух уровнях сложности. Базовый уровень предназначен для выпускников, которым математика не нужна для поступления — достаточно для получения аттестата. Профильный уровень сдают те, кто планирует поступать на технические, экономические и естественно-научные специальности.
 
 ## Базовый уровень
 
@@ -204,7 +242,7 @@ export const lessons: SubjectData = {
           "Проверяйте вычисления — простые ошибки стоят баллов",
           "Начните с лёгких заданий, потом переходите к сложным"
         ]),
-        createLesson("Урок 4: Предметы по выбору", "/school-curriculum-app/images/lessons/grade10/ege/lesson4.svg",`Выбор предметов для сдачи ЕГЭ — важнейшее решение, определяющее возможности поступления. Необходимо заранее изучить требования вузов к предметам на интересующие специальности и оценить свои силы в каждом предмете.
+        createLesson("Урок 4: Предметы по выбору", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%204%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Выбор предметов для сдачи ЕГЭ — важнейшее решение, определяющее возможности поступления. Необходимо заранее изучить требования вузов к предметам на интересующие специальности и оценить свои силы в каждом предмете.
 
 ## Обществознание
 
@@ -290,7 +328,7 @@ export const lessons: SubjectData = {
     {
       topic: "Стратегии подготовки",
       lessons: [
-        createLesson("Урок 5: План подготовки", "/school-curriculum-app/images/lessons/grade10/ege/lesson5.svg",`Эффективная подготовка к ЕГЭ требует системного подхода, грамотного планирования и дисциплины. Исследования показывают, что регулярные занятия в течение года дают результат на 30-40% выше, чем интенсивная подготовка в последние месяцы.
+        createLesson("Урок 5: План подготовки", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%205%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Эффективная подготовка к ЕГЭ требует системного подхода, грамотного планирования и дисциплины. Исследования показывают, что регулярные занятия в течение года дают результат на 30-40% выше, чем интенсивная подготовка в последние месяцы.
 
 ## Этапы подготовки к ЕГЭ
 
@@ -357,7 +395,7 @@ export const lessons: SubjectData = {
           "Ведите дневник ошибок для системной работы",
           "Пробники — раз в 2-4 недели"
         ]),
-        createLesson("Урок 6: Работа с заданиями", "/school-curriculum-app/images/lessons/grade10/ege/lesson6.svg",`Успешная сдача ЕГЭ зависит от умения работать с различными типами заданий. Каждый тип требует своего подхода и стратегии решения. Понимание структуры заданий позволяет оптимизировать время и повысить результат.
+        createLesson("Урок 6: Работа с заданиями", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%206%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Успешная сдача ЕГЭ зависит от умения работать с различными типами заданий. Каждый тип требует своего подхода и стратегии решения. Понимание структуры заданий позволяет оптимизировать время и повысить результат.
 
 ## Типы заданий ЕГЭ
 
@@ -429,7 +467,7 @@ export const lessons: SubjectData = {
           "ФИПИ (fipi.ru) — официальный банк заданий",
           "Решу ЕГЭ (reshuege.ru) — ресурс для практики"
         ]),
-        createLesson("Урок 7: Сочинение ЕГЭ", "/school-curriculum-app/images/lessons/grade10/ege/lesson7.svg",`Сочинение по прочитанному тексту — важнейшая часть ЕГЭ по русскому языку, на которую приходится около 40% баллов экзамена. Успешное написание сочинения требует понимания структуры, критериев оценки и умения анализировать текст.
+        createLesson("Урок 7: Сочинение ЕГЭ", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%207%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Сочинение по прочитанному тексту — важнейшая часть ЕГЭ по русскому языку, на которую приходится около 40% баллов экзамена. Успешное написание сочинения требует понимания структуры, критериев оценки и умения анализировать текст.
 
 ## Структура сочинения
 
@@ -508,7 +546,7 @@ export const lessons: SubjectData = {
           "Минимум 150 слов, оптимально 200-250",
           "Проверяйте речевые и грамматические ошибки"
         ]),
-        createLesson("Урок 8: Психологическая подготовка", "/school-curriculum-app/images/lessons/grade10/ege/lesson8.svg",`Психологическое состояние выпускника — важный фактор успеха на ЕГЭ. Стресс и волнение — естественные реакции на важное событие, но чрезмерное волнение может снизить результаты. Техники управления стрессом помогают сохранить ясность мышления и показать лучший результат.
+        createLesson("Урок 8: Психологическая подготовка", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%208%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Психологическое состояние выпускника — важный фактор успеха на ЕГЭ. Стресс и волнение — естественные реакции на важное событие, но чрезмерное волнение может снизить результаты. Техники управления стрессом помогают сохранить ясность мышления и показать лучший результат.
 
 ## Причины стресса перед ЕГЭ
 
@@ -593,7 +631,7 @@ export const lessons: SubjectData = {
     {
       topic: "Практика",
       lessons: [
-        createLesson("Урок 9: Пробное тестирование", "/school-curriculum-app/images/lessons/grade10/ege/lesson9.svg",`Пробное тестирование — ключевой элемент подготовки к ЕГЭ. Оно позволяет оценить реальный уровень знаний, привыкнуть к формату экзамена, отработать стратегию распределения времени и снизить уровень стресса перед реальным экзаменом.
+        createLesson("Урок 9: Пробное тестирование", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%209%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Пробное тестирование — ключевой элемент подготовки к ЕГЭ. Оно позволяет оценить реальный уровень знаний, привыкнуть к формату экзамена, отработать стратегию распределения времени и снизить уровень стресса перед реальным экзаменом.
 
 ## Цели пробного тестирования
 
@@ -675,7 +713,7 @@ export const lessons: SubjectData = {
           "Анализируйте ошибки по категориям",
           "Частота — раз в 2-4 недели"
         ]),
-        createLesson("Урок 10: Работа над ошибками", "/school-curriculum-app/images/lessons/grade10/ege/lesson10.svg",`Работа над ошибками — важнейший этап подготовки, который отличает успешных выпускников от тех, кто не достигает целей. Каждая ошибка — это указатель на конкретный пробел в знаниях, который необходимо устранить.
+        createLesson("Урок 10: Работа над ошибками", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2010%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Работа над ошибками — важнейший этап подготовки, который отличает успешных выпускников от тех, кто не достигает целей. Каждая ошибка — это указатель на конкретный пробел в знаниях, который необходимо устранить.
 
 ## Категории ошибок на ЕГЭ
 
@@ -745,7 +783,7 @@ export const lessons: SubjectData = {
           "Интервальное повторение: 3 дня → 7 дней → 14 дней",
           "Дневник ошибок — главный инструмент системной работы"
         ]),
-        createLesson("Урок 11: Полный пробный ЕГЭ", "/school-curriculum-app/images/lessons/grade10/ege/lesson11.svg",`Полный пробный ЕГЭ — это симуляция реального экзамена в максимально приближённых условиях. Цель — отработать стратегию поведения на экзамене, привыкнуть к нагрузке и психологически подготовиться к реальному испытанию.
+        createLesson("Урок 11: Полный пробный ЕГЭ", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2011%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Полный пробный ЕГЭ — это симуляция реального экзамена в максимально приближённых условиях. Цель — отработать стратегию поведения на экзамене, привыкнуть к нагрузке и психологически подготовиться к реальному испытанию.
 
 ## Подготовка к полному пробнику
 
@@ -830,7 +868,7 @@ export const lessons: SubjectData = {
           "Анализ полного пробника выявляет слабые места",
           "Начинайте с простых для уверенности"
         ]),
-        createLesson("Урок 12: Итоги подготовки", "/school-curriculum-app/images/lessons/grade10/ege/lesson12.svg",`Заключительный этап подготовки — систематизация знаний, повторение ключевых тем и психологическая настройка на успешную сдачу. Этот период критически важен для закрепления результатов и входа в экзамен в оптимальном состоянии.
+        createLesson("Урок 12: Итоги подготовки", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2012%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%95%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Заключительный этап подготовки — систематизация знаний, повторение ключевых тем и психологическая настройка на успешную сдачу. Этот период критически важен для закрепления результатов и входа в экзамен в оптимальном состоянии.
 
 ## Главные рекомендации
 
@@ -930,6 +968,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Структура ЕГЭ",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -940,6 +979,8 @@ export const games: GameLesson[] = [
         options: ["Школьная контрольная работа", "Единый государственный экзамен для выпускников 11 класса", "Олимпиада для старшеклассников", "Вступительный экзамен в колледж", "Тестирование для перевода в другой класс"],
         correctAnswer: "Единый государственный экзамен для выпускников 11 класса",
         hint: "Государственная итоговая аттестация"
+        keyPoints: ['Основные понятия темы «Структура ЕГЭ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Структура ЕГЭ»', 'Практическое задание: Структура ЕГЭ'],
       },
       {
         type: 'find',
@@ -995,6 +1036,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Русский язык ЕГЭ",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1005,6 +1047,8 @@ export const games: GameLesson[] = [
         options: ["20 заданий", "27 заданий", "30 заданий", "25 заданий", "32 задания"],
         correctAnswer: "27 заданий",
         hint: "Проверка орфографии, пунктуации, грамматики"
+        keyPoints: ['Основные понятия темы «Русский язык ЕГЭ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Русский язык ЕГЭ»', 'Практическое задание: Русский язык ЕГЭ'],
       },
       {
         type: 'find',
@@ -1060,6 +1104,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Математика ЕГЭ",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1070,6 +1115,8 @@ export const games: GameLesson[] = [
         options: ["18 заданий", "21 задание", "25 заданий", "15 заданий", "20 заданий"],
         correctAnswer: "21 задание",
         hint: "Все с кратким ответом"
+        keyPoints: ['Основные понятия темы «Математика ЕГЭ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Математика ЕГЭ»', 'Практическое задание: Математика ЕГЭ'],
       },
       {
         type: 'find',
@@ -1125,6 +1172,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Предметы по выбору",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D1%8B%20%D0%BF%D0%BE%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D1%83%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1135,6 +1183,8 @@ export const games: GameLesson[] = [
         options: ["Физика", "Обществознание", "Информатика", "Биология", "История"],
         correctAnswer: "Обществознание",
         hint: "Его выбирают около 65% выпускников"
+        keyPoints: ['Основные понятия темы «Предметы по выбору»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Предметы по выбору»', 'Практическое задание: Предметы по выбору'],
       },
       {
         type: 'find',
@@ -1190,6 +1240,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Стратегии подготовки",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1200,6 +1251,8 @@ export const games: GameLesson[] = [
         options: ["За неделю до экзамена", "За месяц до экзамена", "Заранее, в течение года", "За полгода", "В день экзамена"],
         correctAnswer: "Заранее, в течение года",
         hint: "Регулярность важнее интенсивности"
+        keyPoints: ['Основные понятия темы «Стратегии подготовки»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Стратегии подготовки»', 'Практическое задание: Стратегии подготовки'],
       },
       {
         type: 'find',
@@ -1255,6 +1308,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Сочинение ЕГЭ",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BE%D1%87%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1265,6 +1319,8 @@ export const games: GameLesson[] = [
         options: ["Как утверждение", "Как вопрос", "Как цитата", "Как тезис", "Как вывод"],
         correctAnswer: "Как вопрос",
         hint: "Над чем размышляет автор"
+        keyPoints: ['Основные понятия темы «Сочинение ЕГЭ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Сочинение ЕГЭ»', 'Практическое задание: Сочинение ЕГЭ'],
       },
       {
         type: 'find',
@@ -1320,6 +1376,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Тайм-менеджмент",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B0%D0%B9%D0%BC-%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%BC%D0%B5%D0%BD%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1330,6 +1387,8 @@ export const games: GameLesson[] = [
         options: ["С самых сложных", "С лёгких и знакомых", "По порядку номеров", "С конца", "С заданий на выбор"],
         correctAnswer: "С лёгких и знакомых",
         hint: "Набрать баллы и создать настрой"
+        keyPoints: ['Основные понятия темы «Тайм-менеджмент»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Тайм-менеджмент»', 'Практическое задание: Тайм-менеджмент'],
       },
       {
         type: 'find',
@@ -1385,6 +1444,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Психологическая подготовка",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1395,6 +1455,8 @@ export const games: GameLesson[] = [
         options: ["Да, это естественно", "Нет, нужно быть спокойным", "Только для неуспевающих", "Только для отличников", "Волнение вредно"],
         correctAnswer: "Да, это естественно",
         hint: "Стресс — нормальная реакция"
+        keyPoints: ['Основные понятия темы «Психологическая подготовка»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Психологическая подготовка»', 'Практическое задание: Психологическая подготовка'],
       },
       {
         type: 'find',
@@ -1450,6 +1512,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Пробные тестирования",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%BE%D0%B1%D0%BD%D1%8B%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1460,6 +1523,8 @@ export const games: GameLesson[] = [
         options: ["Чтобы запугать", "Оценить уровень и привыкнуть к формату", "Потратить время", "Получить оценку", "Для статистики"],
         correctAnswer: "Оценить уровень и привыкнуть к формату",
         hint: "Практика — путь к успеху"
+        keyPoints: ['Основные понятия темы «Пробные тестирования»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Пробные тестирования»', 'Практическое задание: Пробные тестирования'],
       },
       {
         type: 'find',
@@ -1515,6 +1580,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Работа с ошибками",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D1%81%20%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0%D0%BC%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1525,6 +1591,8 @@ export const games: GameLesson[] = [
         options: ["Дневник настроения", "Записи ошибок для анализа", "Дневник успехов", "Личный дневник", "Ежедневник"],
         correctAnswer: "Записи ошибок для анализа",
         hint: "Инструмент для работы"
+        keyPoints: ['Основные понятия темы «Работа с ошибками»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Работа с ошибками»', 'Практическое задание: Работа с ошибками'],
       },
       {
         type: 'find',
@@ -1580,6 +1648,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Оформление работ",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1590,6 +1659,8 @@ export const games: GameLesson[] = [
         options: ["Синей гелевой", "Чёрной гелевой", "Любой", "Чёрной капиллярной", "Синей шариковой"],
         correctAnswer: "Чёрной гелевой",
         hint: "Строго по правилам"
+        keyPoints: ['Основные понятия темы «Оформление работ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Оформление работ»', 'Практическое задание: Оформление работ'],
       },
       {
         type: 'find',
@@ -1645,6 +1716,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "День экзамена",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B5%D0%BD%D1%8C%20%D1%8D%D0%BA%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1655,6 +1727,8 @@ export const games: GameLesson[] = [
         options: ["Телефон", "Паспорт и пропуск", "Учебники", "Справочники", "Калькулятор"],
         correctAnswer: "Паспорт и пропуск",
         hint: "Без них не допустят"
+        keyPoints: ['Основные понятия темы «День экзамена»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «День экзамена»', 'Практическое задание: День экзамена'],
       },
       {
         type: 'find',
@@ -1710,6 +1784,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Итоговая проверка",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23991b1b%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%95%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ЕГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1720,6 +1795,8 @@ export const games: GameLesson[] = [
         options: ["1 предмет", "2 предмета", "3 предмета", "4 предмета", "Нет обязательных"],
         correctAnswer: "2 предмета",
         hint: "Русский язык и математика"
+        keyPoints: ['Основные понятия темы «Итоговая проверка»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Итоговая проверка»', 'Практическое задание: Итоговая проверка'],
       },
       {
         type: 'find',

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="sky7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E1F5FE;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#B3E5FC;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#sky7)"/>
+  <rect width="500" height="350" fill="#FAFAFA" opacity="0.3"/>
+  
+  <!-- Sun -->
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0277BD" text-anchor="middle">📝 Именительный падеж</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#03A9F4" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#81D4FA" opacity="0.5"/>
+  
+  <!-- Main info box -->
+  <g transform="translate(50, 70)">
+    <rect x="0" y="0" width="180" height="100" fill="#E1F5FE" rx="10" stroke="#03A9F4"/>
+    <text x="90" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#01579B" text-anchor="middle">КТО? ЧТО?</text>
+    <text x="90" y="50" font-family="Arial, sans-serif" font-size="12" fill="#0277BD" text-anchor="middle">Начальная форма</text>
+    <text x="90" y="70" font-family="Arial, sans-serif" font-size="12" fill="#0277BD" text-anchor="middle">Падеж подлежащего</text>
+    <text x="90" y="90" font-family="Arial, sans-serif" font-size="12" fill="#0277BD" text-anchor="middle">Без предлога</text>
+  </g>
+  
+  <!-- Subject examples -->
+  <g transform="translate(270, 70)">
+    <rect x="0" y="0" width="180" height="100" fill="#FFF8E1" rx="10" stroke="#FFC107"/>
+    <text x="90" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF6F00" text-anchor="middle">Подлежащее</text>
+    <text x="90" y="50" font-family="Arial, sans-serif" font-size="12" fill="#FF8F00" text-anchor="middle">Кошка спит.</text>
+    <text x="90" y="70" font-family="Arial, sans-serif" font-size="12" fill="#FF8F00" text-anchor="middle">Мальчик читает.</text>
+    <text x="90" y="90" font-family="Arial, sans-serif" font-size="12" fill="#FF8F00" text-anchor="middle">Дерево растёт.</text>
+  </g>
+  
+  <!-- Endings -->
+  <g transform="translate(50, 190)" font-family="Arial, sans-serif">
+    <text x="200" y="0" font-size="14" font-weight="bold" fill="#0277BD" text-anchor="middle">Окончания И.п.</text>
+    
+    <rect x="20" y="15" width="110" height="50" fill="#B3E5FC" rx="5"/>
+    <text x="75" y="35" font-size="12" fill="#01579B" text-anchor="middle">Мужской род</text>
+    <text x="75" y="55" font-size="11" fill="#0277BD" text-anchor="middle">стол, дом (∅)</text>
+    
+    <rect x="145" y="15" width="110" height="50" fill="#B3E5FC" rx="5"/>
+    <text x="200" y="35" font-size="12" fill="#01579B" text-anchor="middle">Женский род</text>
+    <text x="200" y="55" font-size="11" fill="#0277BD" text-anchor="middle">стен-а, земл-я</text>
+    
+    <rect x="270" y="15" width="110" height="50" fill="#B3E5FC" rx="5"/>
+    <text x="325" y="35" font-size="12" fill="#01579B" text-anchor="middle">Средний род</text>
+    <text x="325" y="55" font-size="11" fill="#0277BD" text-anchor="middle">окн-о, пол-е</text>
+  </g>
+  
+  <!-- Important note -->
+  <g transform="translate(100, 280)">
+    <rect x="0" y="0" width="300" height="30" fill="#C8E6C9" rx="5" stroke="#4CAF50"/>
+    <text x="150" y="22" font-family="Arial, sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle">💡 Подлежащее — всегда в И.п.!</text>
+  </g>
+  
+  <!-- Flowers -->
+  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
+  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+  
+  <!-- Sparkles -->
+  <circle cx="140" cy="120" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="360" cy="120" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+</svg>

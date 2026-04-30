@@ -873,6 +873,7 @@ export const games: GameLesson[] = [
   // ==================== ТЕХНОЛОГИЯ (20 тестов) ====================
   {
     title: "Свойства бумаги",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20%D0%B1%D1%83%D0%BC%D0%B0%D0%B3%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -884,10 +885,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какое свойство бумаги описывается как «рвётся или нет»?", options: ["Цвет", "Толщина", "Прочность", "Гибкость", "Впитываемость"], correctAnswer: "Прочность", hint: "Прочность — рвётся бумага или нет" }
     ],
     reward: { stars: 3, message: "Бережно! Ты знаешь бумагу! 📜" }
+    keyPoints: ['Основные понятия темы «Свойства бумаги»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Свойства бумаги»', 'Практическое задание: Свойства бумаги'],
   },
 
   {
     title: "Разметка деталей",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D0%B5%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -899,10 +903,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как нужно вести линию разметки?", options: ["Прерывисто", "Твёрдо, одним движением", "Толстой линией", "Дважды", "Пунктиром"], correctAnswer: "Твёрдо, одним движением", hint: "Линию ведут твёрдо, одним движением" }
     ],
     reward: { stars: 3, message: "Точно! Ты умеешь размечать! ✏️" }
+    keyPoints: ['Основные понятия темы «Разметка деталей»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Разметка деталей»', 'Практическое задание: Разметка деталей'],
   },
 
   {
     title: "Вырезание деталей",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D1%8B%D1%80%D0%B5%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D0%B5%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -914,10 +921,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Где хранят ножницы?", options: ["На столе", "На полу", "В чехле", "В кармане", "На полке"], correctAnswer: "В чехле", hint: "Ножницы хранят закрытыми в чехле" }
     ],
     reward: { stars: 3, message: "Аккуратно! Ты умеешь вырезать! ✂️" }
+    keyPoints: ['Основные понятия темы «Вырезание деталей»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Вырезание деталей»', 'Практическое задание: Вырезание деталей'],
   },
 
   {
     title: "Аппликация",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D0%BF%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -929,10 +939,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Где должен быть главный объект в композиции?", options: ["На краю", "В центре или на переднем плане", "В углу", "Сзади", "Сверху"], correctAnswer: "В центре или на переднем плане", hint: "Главный объект выделяют размером или цветом" }
     ],
     reward: { stars: 3, message: "Красиво! Ты создаёшь аппликации! 🎨" }
+    keyPoints: ['Основные понятия темы «Аппликация»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Аппликация»', 'Практическое задание: Аппликация'],
   },
 
   {
     title: "Свойства ткани",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20%D1%82%D0%BA%D0%B0%D0%BD%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -944,10 +957,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какие ткани не мнутся?", options: ["Хлопковые", "Льняные", "Шерстяные", "Синтетические", "Шёлковые"], correctAnswer: "Синтетические", hint: "Синтетические ткани прочные и не мнутся" }
     ],
     reward: { stars: 3, message: "Тканево! Ты знаешь ткани! 🧶" }
+    keyPoints: ['Основные понятия темы «Свойства ткани»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Свойства ткани»', 'Практическое задание: Свойства ткани'],
   },
 
   {
     title: "Ручные швы",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D1%83%D1%87%D0%BD%D1%8B%D0%B5%20%D1%88%D0%B2%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -959,10 +975,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Где нужно хранить иглу?", options: ["На столе", "В игольнице", "В кармане", "На полу", "В книге"], correctAnswer: "В игольнице", hint: "Иглу хранят в игольнице" }
     ],
     reward: { stars: 3, message: "Стежок! Ты умеешь шить! 🪡" }
+    keyPoints: ['Основные понятия темы «Ручные швы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Ручные швы»', 'Практическое задание: Ручные швы'],
   },
 
   {
     title: "Пришивание пуговиц",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B8%D1%88%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%83%D0%B3%D0%BE%D0%B2%D0%B8%D1%86%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -974,10 +993,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Зачем оставляют «ножку» из ниток для толстой ткани?", options: ["Для красоты", "Чтобы пуговица не плотно прилегала", "Для прочности", "Для скорости", "Для цвета"], correctAnswer: "Чтобы пуговица не плотно прилегала", hint: "Для толстой ткани нужна «ножка» из ниток" }
     ],
     reward: { stars: 3, message: "Крепко! Ты пришиваешь пуговицы! 🔘" }
+    keyPoints: ['Основные понятия темы «Пришивание пуговиц»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Пришивание пуговиц»', 'Практическое задание: Пришивание пуговиц'],
   },
 
   {
     title: "Изготовление игрушки",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D0%B7%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%D0%B3%D1%80%D1%83%D1%88%D0%BA%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -989,10 +1011,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Когда был создан Мишка Тедди?", options: ["1880", "1895", "1902", "1910", "1920"], correctAnswer: "1902", hint: "Мишка Тедди создан в 1902 году" }
     ],
     reward: { stars: 3, message: "Мягко! Ты создаёшь игрушки! 🧸" }
+    keyPoints: ['Основные понятия темы «Изготовление игрушки»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Изготовление игрушки»', 'Практическое задание: Изготовление игрушки'],
   },
 
   {
     title: "Оригами",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D1%80%D0%B8%D0%B3%D0%B0%D0%BC%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1004,10 +1029,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько моделей оригами существует в мире?", options: ["1000", "10 000", "50 000", "Более 100 000", "1 миллион"], correctAnswer: "Более 100 000", hint: "В мире более 100 000 моделей оригами" }
     ],
     reward: { stars: 3, message: "Складно! Ты знаешь оригами! 🦢" }
+    keyPoints: ['Основные понятия темы «Оригами»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Оригами»', 'Практическое задание: Оригами'],
   },
 
   {
     title: "Модели из природного материала",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%20%D0%B8%D0%B7%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1019,10 +1047,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какова высота самой большой поделки из шишек?", options: ["1 метр", "2 метра", "3 метра", "5 метров", "10 метров"], correctAnswer: "3 метра", hint: "Самая большая поделка из шишек — 3 метра" }
     ],
     reward: { stars: 3, message: "Природно! Ты создаёшь из природы! 🌰" }
+    keyPoints: ['Основные понятия темы «Модели из природного материала»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Модели из природного материала»', 'Практическое задание: Модели из природного материала'],
   },
 
   {
     title: "Технические модели",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1034,10 +1065,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "К какому виду транспорта относится вертолёт?", options: ["Наземный", "Водный", "Воздушный", "Подземный", "Космический"], correctAnswer: "Воздушный", hint: "Вертолёт — воздушный транспорт" }
     ],
     reward: { stars: 3, message: "Конструкторски! Ты строишь модели! 🚗" }
+    keyPoints: ['Основные понятия темы «Технические модели»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Технические модели»', 'Практическое задание: Технические модели'],
   },
 
   {
     title: "Архитектурные модели",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1049,10 +1083,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какова высота самого большого макета здания?", options: ["1 метр", "3 метра", "5 метров", "10 метров", "20 метров"], correctAnswer: "10 метров", hint: "Самая высокая модель здания — 10 метров" }
     ],
     reward: { stars: 3, message: "Архитектурно! Ты строишь здания! 🏛️" }
+    keyPoints: ['Основные понятия темы «Архитектурные модели»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Архитектурные модели»', 'Практическое задание: Архитектурные модели'],
   },
 
   {
     title: "Пластилин",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BB%D0%B8%D0%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1064,10 +1101,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой приём лепки используют для соединения деталей?", options: ["Оттягивание", "Сглаживание", "Прищипывание", "Сплющивание", "Раскатывание"], correctAnswer: "Сглаживание", hint: "Сглаживание — соединение деталей" }
     ],
     reward: { stars: 3, message: "Мягко! Ты лепишь из пластилина! 🟡" }
+    keyPoints: ['Основные понятия темы «Пластилин»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Пластилин»', 'Практическое задание: Пластилин'],
   },
 
   {
     title: "Солёное тесто",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BE%D0%BB%D1%91%D0%BD%D0%BE%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%BE%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1079,10 +1119,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Чем покрывают высушенное изделие из теста?", options: ["Водой", "Маслом", "Лаком", "Клеем", "Солью"], correctAnswer: "Лаком", hint: "После раскрашивания покрывают лаком" }
     ],
     reward: { stars: 3, message: "Вкусно! Ты работаешь с тестом! 🍞" }
+    keyPoints: ['Основные понятия темы «Солёное тесто»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Солёное тесто»', 'Практическое задание: Солёное тесто'],
   },
 
   {
     title: "Глина",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%BB%D0%B8%D0%BD%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1094,10 +1137,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как называется лепка из «колбасок» глины?", options: ["Из куска", "Из пластин", "Из жгутов", "Из пласта", "На круге"], correctAnswer: "Из жгутов", hint: "Лепка из жгутов — сворачивание из «колбасок»" }
     ],
     reward: { stars: 3, message: "Керамично! Ты работаешь с глиной! 🏺" }
+    keyPoints: ['Основные понятия темы «Глина»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Глина»', 'Практическое задание: Глина'],
   },
 
   {
     title: "Проект «Подарок маме»",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%C2%AB%D0%9F%D0%BE%D0%B4%D0%B0%D1%80%D0%BE%D0%BA%20%D0%BC%D0%B0%D0%BC%D0%B5%C2%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1109,10 +1155,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Когда люди начали делать подарки?", options: ["1000 лет назад", "5000 лет назад", "10 000 лет назад", "100 000 лет назад", "1 миллион лет назад"], correctAnswer: "100 000 лет назад", hint: "Первые подарки — 100 000 лет назад" }
     ],
     reward: { stars: 3, message: "С любовью! Твой подарок готов! 🎁" }
+    keyPoints: ['Основные понятия темы «Проект «Подарок маме»»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Проект «Подарок маме»»', 'Практическое задание: Проект «Подарок маме»'],
   },
 
   {
     title: "Новогодняя игрушка",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F%D1%8F%20%D0%B8%D0%B3%D1%80%D1%83%D1%88%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1124,10 +1173,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько лет традиции наряжать ёлку?", options: ["100", "200", "300", "500", "1000"], correctAnswer: "500", hint: "Традиция наряжать ёлку — 500 лет" }
     ],
     reward: { stars: 3, message: "Снежно! Твоя игрушка готова! 🎄" }
+    keyPoints: ['Основные понятия темы «Новогодняя игрушка»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Новогодняя игрушка»', 'Практическое задание: Новогодняя игрушка'],
   },
 
   {
     title: "Макет моей комнаты",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B0%D0%BA%D0%B5%D1%82%20%D0%BC%D0%BE%D0%B5%D0%B9%20%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1139,10 +1191,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какова площадь самого маленького дома в мире?", options: ["0,5 м²", "1 м²", "5 м²", "10 м²", "20 м²"], correctAnswer: "1 м²", hint: "Самый маленький дом — 1 м²" }
     ],
     reward: { stars: 3, message: "Уютно! Твой макет комнаты готов! 🏠" }
+    keyPoints: ['Основные понятия темы «Макет моей комнаты»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Макет моей комнаты»', 'Практическое задание: Макет моей комнаты'],
   },
 
   {
     title: "Поделка для школы",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%88%D0%BA%D0%BE%D0%BB%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1154,10 +1209,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Для чего нужен дежурный уголок в классе?", options: ["Для украшения", "Для указания дежурства", "Для рисования", "Для хранения книг", "Для отдыха"], correctAnswer: "Для указания дежурства", hint: "Дежурный уголок — полезная поделка для класса" }
     ],
     reward: { stars: 3, message: "Полезно! Твоя поделка готова! 📎" }
+    keyPoints: ['Основные понятия темы «Поделка для школы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Поделка для школы»', 'Практическое задание: Поделка для школы'],
   },
 
   {
     title: "Итоговая выставка",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -1169,5 +1227,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что такое экскурсия на выставке?", options: ["Просто осмотр", "Рассказ о выставке для гостей", "Покупка работ", "Уборка", "Раздача призов"], correctAnswer: "Рассказ о выставке для гостей", hint: "Экскурсия — рассказ о выставке с ответами на вопросы" }
     ],
     reward: { stars: 3, message: "Выставка! Твои работы — лучшие! 🏆" }
+    keyPoints: ['Основные понятия темы «Итоговая выставка»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Итоговая выставка»', 'Практическое задание: Итоговая выставка'],
   }
 ]

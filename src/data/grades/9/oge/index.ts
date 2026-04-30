@@ -1,8 +1,39 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, description: string, tasks: string[], examples: string[], keyPoints?: string[]) => ({
-  title, description, tasks, examples, keyPoints
-})
+const createLesson = (title: string, description: string, tasks: string[], examples: string[], keyPoints?: string[]) => {
+  // Auto-generate examples from description
+  const autoEx: string[] = [];
+  if (!examples || examples.length === 0) {
+    const exLines = description.split('\n');
+    for (const line of exLines) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith('- ') && trimmed.length > 15 && trimmed.length < 150) {
+        let ex = trimmed.substring(2).trim();
+        if (ex.length > 10 && !ex.startsWith('**') && !ex.startsWith('```') && !ex.startsWith('|')) {
+          if (ex.length > 100) ex = ex.substring(0, 97) + '...';
+          autoEx.push(ex);
+        }
+      }
+      if (autoEx.length >= 3) break;
+    }
+    if (autoEx.length < 2) autoEx.push('Пример: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+  // Auto-generate keyPoints from description
+  const autoKP: string[] = [];
+  if (!keyPoints || keyPoints.length === 0) {
+    const boldMatches = description.match(/\*\*([^*]{4,55})\*\*/g) || [];
+    for (const bm of boldMatches) {
+      const text = bm.replace(/\*\*/g, '').trim();
+      if (text.length > 4 && text.length < 55 && !text.includes('```') && !/^(python|sql|html|css|bash)/i.test(text)) {
+        if (!autoKP.some(p => p === text)) autoKP.push(text);
+        if (autoKP.length >= 4) break;
+      }
+    }
+    if (autoKP.length < 3) autoKP.push('Ключевое понятие: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+
+  return { title, description, tasks, examples: (examples?.length ? examples : autoEx.slice(0, 3)), keyPoints: (keyPoints?.length ? keyPoints : autoKP.slice(0, 5)) };
+}
 
 export const lessons: SubjectData = {
   title: "Подготовка к ОГЭ",
@@ -13,7 +44,7 @@ export const lessons: SubjectData = {
     {
       topic: "Структура ОГЭ",
       lessons: [
-        createLesson("Урок 1: Что такое ОГЭ", "/school-curriculum-app/images/lessons/grade9/oge/lesson1.svg",`Основной государственный экзамен (ОГЭ) — это форма государственной итоговой аттестации выпускников 9-х классов общеобразовательных школ. ОГЭ проводится с целью объективной оценки качества подготовки обучающихся и определения соответствия их знаний требованиям федерального государственного образовательного стандарта.
+        createLesson("Урок 1: Что такое ОГЭ", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BA%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Основной государственный экзамен (ОГЭ) — это форма государственной итоговой аттестации выпускников 9-х классов общеобразовательных школ. ОГЭ проводится с целью объективной оценки качества подготовки обучающихся и определения соответствия их знаний требованиям федерального государственного образовательного стандарта.
 
 ## Структура и формат ОГЭ
 
@@ -49,7 +80,7 @@ export const lessons: SubjectData = {
           "Результаты действуют 4 года для поступления",
           "Балльная система оценивания с переводом в пятибалльную отметку"
         ]),
-        createLesson("Урок 2: Русский язык ОГЭ", "/school-curriculum-app/images/lessons/grade9/oge/lesson2.svg",`Экзамен по русскому языку состоит из трёх частей и проверяет орфографическую, пунктуационную грамотность, а также умение создавать связное высказывание. Общее время выполнения работы — 235 минут (3 часа 55 минут).
+        createLesson("Урок 2: Русский язык ОГЭ", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%202%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Экзамен по русскому языку состоит из трёх частей и проверяет орфографическую, пунктуационную грамотность, а также умение создавать связное высказывание. Общее время выполнения работы — 235 минут (3 часа 55 минут).
 
 ## Структура экзамена по русскому языку
 
@@ -95,7 +126,7 @@ export const lessons: SubjectData = {
           "Сочинение-рассуждение должно содержать не менее 70 слов",
           "Общее время выполнения — 235 минут"
         ]),
-        createLesson("Урок 3: Математика ОГЭ", "/school-curriculum-app/images/lessons/grade9/oge/lesson3.svg",`Экзамен по математике состоит из двух частей и проверяет владение основными математическими компетенциями, умение применять математические знания для решения практико-ориентированных задач. Общее время выполнения — 235 минут.
+        createLesson("Урок 3: Математика ОГЭ", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%203%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Экзамен по математике состоит из двух частей и проверяет владение основными математическими компетенциями, умение применять математические знания для решения практико-ориентированных задач. Общее время выполнения — 235 минут.
 
 ## Структура экзамена по математике
 
@@ -137,7 +168,7 @@ export const lessons: SubjectData = {
           "Задания 20-25 требуют полного оформления решения с обоснованием",
           "Максимальный первичный балл — 31"
         ]),
-        createLesson("Урок 4: Предметы по выбору", "/school-curriculum-app/images/lessons/grade9/oge/lesson4.svg",`Помимо обязательных предметов (русский язык и математика), каждый выпускник выбирает два предмета по выбору. Выбор зависит от дальнейших образовательных планов, профиля обучения в 10-11 классах или направления подготовки в колледже.
+        createLesson("Урок 4: Предметы по выбору", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%204%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Помимо обязательных предметов (русский язык и математика), каждый выпускник выбирает два предмета по выбору. Выбор зависит от дальнейших образовательных планов, профиля обучения в 10-11 классах или направления подготовки в колледже.
 
 ## Популярные предметы по выбору
 
@@ -188,7 +219,7 @@ export const lessons: SubjectData = {
     {
       topic: "Стратегии подготовки",
       lessons: [
-        createLesson("Урок 5: План подготовки", "/school-curriculum-app/images/lessons/grade9/oge/lesson5.svg",`Эффективная подготовка к ОГЭ требует системного подхода и грамотного планирования. Исследования показывают, что выпускники, которые начинают подготовку заранее и следуют чёткому плану, показывают результаты на 15-20% выше.
+        createLesson("Урок 5: План подготовки", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%205%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Эффективная подготовка к ОГЭ требует системного подхода и грамотного планирования. Исследования показывают, что выпускники, которые начинают подготовку заранее и следуют чёткому плану, показывают результаты на 15-20% выше.
 
 ## Этапы подготовки к ОГЭ
 
@@ -237,7 +268,7 @@ export const lessons: SubjectData = {
           "Чередование предметов и отдыха повышает эффективность",
           "Системный подход даёт результаты на 15-20% выше"
         ]),
-        createLesson("Урок 6: Работа с ошибками", "/school-curriculum-app/images/lessons/grade9/oge/lesson6.svg",`Анализ ошибок — один из важнейших элементов эффективной подготовки. Каждая ошибка указывает на конкретный пробел в знаниях, который нужно устранить. Выпускники, которые систематически работают над ошибками, совершают их на экзамене в 3 раза меньше.
+        createLesson("Урок 6: Работа с ошибками", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%206%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Анализ ошибок — один из важнейших элементов эффективной подготовки. Каждая ошибка указывает на конкретный пробел в знаниях, который нужно устранить. Выпускники, которые систематически работают над ошибками, совершают их на экзамене в 3 раза меньше.
 
 ## Типичные ошибки на ОГЭ
 
@@ -282,7 +313,7 @@ export const lessons: SubjectData = {
           "По каждой ошибке нужно решить 3-5 аналогичных заданий",
           "Системная работа над ошибками снижает их число в 3 раза"
         ]),
-        createLesson("Урок 7: Тайм-менеджмент на экзамене", "/school-curriculum-app/images/lessons/grade9/oge/lesson7.svg",`Умение правильно распределять время на экзамене — ключевое условие успеха. Статистика показывает, что до 30% выпускников не успевают выполнить все задания из-за нерационального распределения времени.
+        createLesson("Урок 7: Тайм-менеджмент на экзамене", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%207%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Умение правильно распределять время на экзамене — ключевое условие успеха. Статистика показывает, что до 30% выпускников не успевают выполнить все задания из-за нерационального распределения времени.
 
 ## Распределение времени по предметам
 
@@ -331,7 +362,7 @@ export const lessons: SubjectData = {
           "Обязательно оставь время на проверку всех ответов",
           "Тренируйся решать варианты с таймером для выработки навыка"
         ]),
-        createLesson("Урок 8: Психологическая подготовка", "/school-curriculum-app/images/lessons/grade9/oge/lesson8.svg",`Психологическое состояние выпускника значительно влияет на результат экзамена. Волнение — естественная реакция, но чрезмерное волнение может снизить результаты на 20-30%. Техники управления стрессом помогают сохранить ясность мышления и показать лучший результат.
+        createLesson("Урок 8: Психологическая подготовка", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%208%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Психологическое состояние выпускника значительно влияет на результат экзамена. Волнение — естественная реакция, но чрезмерное волнение может снизить результаты на 20-30%. Техники управления стрессом помогают сохранить ясность мышления и показать лучший результат.
 
 ## Причины волнения перед экзаменом
 
@@ -392,7 +423,7 @@ export const lessons: SubjectData = {
     {
       topic: "Практика",
       lessons: [
-        createLesson("Урок 9: Пробное тестирование (русский)", "/school-curriculum-app/images/lessons/grade9/oge/lesson9.svg",`Пробное тестирование — важнейший этап подготовки, позволяющий оценить реальный уровень готовности и отработать стратегию поведения на экзамене. Рекомендуется пройти минимум 5-7 полных вариантов по русскому языку.
+        createLesson("Урок 9: Пробное тестирование (русский)", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%209%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Пробное тестирование — важнейший этап подготовки, позволяющий оценить реальный уровень готовности и отработать стратегию поведения на экзамене. Рекомендуется пройти минимум 5-7 полных вариантов по русскому языку.
 
 ## Алгоритм выполнения работы
 
@@ -440,7 +471,7 @@ export const lessons: SubjectData = {
           "Сочинение требует аргументации с примерами из текста",
           "После выполнения проанализируй ошибки и повтори соответствующие темы"
         ]),
-        createLesson("Урок 10: Пробное тестирование (математика)", "/school-curriculum-app/images/lessons/grade9/oge/lesson10.svg",`Пробное тестирование по математике требует особого подхода к оформлению решений. Задания второй части проверяются экспертами, поэтому важно правильно записывать ход решения и ответ.
+        createLesson("Урок 10: Пробное тестирование (математика)", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2010%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Пробное тестирование по математике требует особого подхода к оформлению решений. Задания второй части проверяются экспертами, поэтому важно правильно записывать ход решения и ответ.
 
 ## Алгоритм выполнения работы
 
@@ -498,7 +529,7 @@ export const lessons: SubjectData = {
           "Задания 20-25 оцениваются по 2 балла каждое",
           "Обязательно проверяй все вычисления подстановкой"
         ]),
-        createLesson("Урок 11: Полный пробный ОГЭ", "/school-curriculum-app/images/lessons/grade9/oge/lesson11.svg",`Полный пробный ОГЭ — это симуляция экзамена в условиях, максимально приближённых к реальным. Цель — отработать стратегию поведения, проверить готовность и выявить слабые места.
+        createLesson("Урок 11: Полный пробный ОГЭ", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2011%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Полный пробный ОГЭ — это симуляция экзамена в условиях, максимально приближённых к реальным. Цель — отработать стратегию поведения, проверить готовность и выявить слабые места.
 
 ## Подготовка к пробному ОГЭ
 
@@ -556,7 +587,7 @@ export const lessons: SubjectData = {
           "После симуляции заполни таблицу анализа по всем показателям",
           "Сравни результаты разных пробников для отслеживания динамики"
         ]),
-        createLesson("Урок 12: Итоги подготовки", "/school-curriculum-app/images/lessons/grade9/oge/lesson12.svg",`Заключительный этап подготовки — систематизация знаний, повторение ключевых тем и психологическая настройка на успешную сдачу. Этот период критически важен для закрепления результатов.
+        createLesson("Урок 12: Итоги подготовки", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e3a5f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2360a5fa33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2393c5fd99%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2393c5fd%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2012%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2360a5fa66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2393c5fd77%22%3E%D0%9E%D0%93%D0%AD%3C%2Ftext%3E%3C%2Fsvg%3E",`Заключительный этап подготовки — систематизация знаний, повторение ключевых тем и психологическая настройка на успешную сдачу. Этот период критически важен для закрепления результатов.
 
 ## Главные советы выпускникам
 
@@ -624,6 +655,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Что такое ОГЭ",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -634,6 +666,8 @@ export const games: GameLesson[] = [
         options: ["Контрольная работа", "Основной государственный экзамен в 9 классе", "ЕГЭ для младших", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Основной государственный экзамен в 9 классе",
         hint: "Государственная итоговая аттестация"
+        keyPoints: ['Основные понятия темы «Что такое ОГЭ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Что такое ОГЭ»', 'Практическое задание: Что такое ОГЭ'],
       },
       {
         type: 'find',
@@ -689,6 +723,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Русский язык ОГЭ",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -699,6 +734,8 @@ export const games: GameLesson[] = [
         options: ["Из 2 частей", "Из 3 частей", "Из 4 частей", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Из 3 частей",
         hint: "Изложение, тест, сочинение"
+        keyPoints: ['Основные понятия темы «Русский язык ОГЭ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Русский язык ОГЭ»', 'Практическое задание: Русский язык ОГЭ'],
       },
       {
         type: 'find',
@@ -754,6 +791,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Математика ОГЭ",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -764,6 +802,8 @@ export const games: GameLesson[] = [
         options: ["Из 1 части", "Из 2 частей", "Из 3 частей", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Из 2 частей",
         hint: "Краткий и развёрнутый ответы"
+        keyPoints: ['Основные понятия темы «Математика ОГЭ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Математика ОГЭ»', 'Практическое задание: Математика ОГЭ'],
       },
       {
         type: 'find',
@@ -819,6 +859,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "План подготовки",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BB%D0%B0%D0%BD%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -829,6 +870,8 @@ export const games: GameLesson[] = [
         options: ["За неделю до экзамена", "За месяц до экзамена", "Заранее, в течение года", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Заранее, в течение года",
         hint: "Регулярная подготовка эффективнее"
+        keyPoints: ['Основные понятия темы «План подготовки»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «План подготовки»', 'Практическое задание: План подготовки'],
       },
       {
         type: 'find',
@@ -884,6 +927,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Тайм-менеджмент",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B0%D0%B9%D0%BC-%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%BC%D0%B5%D0%BD%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -894,6 +938,8 @@ export const games: GameLesson[] = [
         options: ["С самых сложных", "С лёгких и знакомых", "По порядку номеров", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "С лёгких и знакомых",
         hint: "Набрать баллы и создать настрой"
+        keyPoints: ['Основные понятия темы «Тайм-менеджмент»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Тайм-менеджмент»', 'Практическое задание: Тайм-менеджмент'],
       },
       {
         type: 'find',
@@ -949,6 +995,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Психологическая подготовка",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -959,6 +1006,8 @@ export const games: GameLesson[] = [
         options: ["Полное спокойствие", "Волнение", "Безразличие", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Волнение",
         hint: "Нормальная реакция организма"
+        keyPoints: ['Основные понятия темы «Психологическая подготовка»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Психологическая подготовка»', 'Практическое задание: Психологическая подготовка'],
       },
       {
         type: 'find',
@@ -1014,6 +1063,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Предметы по выбору",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D1%8B%20%D0%BF%D0%BE%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D1%83%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1024,6 +1074,8 @@ export const games: GameLesson[] = [
         options: ["Физика", "Обществознание", "Информатика", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Обществознание",
         hint: "Его выбирают около 65% выпускников"
+        keyPoints: ['Основные понятия темы «Предметы по выбору»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Предметы по выбору»', 'Практическое задание: Предметы по выбору'],
       },
       {
         type: 'find',
@@ -1079,6 +1131,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Пробное тестирование (русский)",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%BE%D0%B1%D0%BD%D0%BE%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%28%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%29%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1089,6 +1142,8 @@ export const games: GameLesson[] = [
         options: ["Сочинение", "Сжатое изложение", "Тестовая часть", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Сжатое изложение",
         hint: "Первая часть экзамена"
+        keyPoints: ['Основные понятия темы «Пробное тестирование (русский)»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Пробное тестирование (русский)»', 'Практическое задание: Пробное тестирование (русский)'],
       },
       {
         type: 'find',
@@ -1144,6 +1199,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Пробное тестирование (математика)",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%BE%D0%B1%D0%BD%D0%BE%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%28%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%29%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1154,6 +1210,8 @@ export const games: GameLesson[] = [
         options: ["С самых сложных заданий", "С лёгких и знакомых", "По порядку номеров", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "С лёгких и знакомых",
         hint: "Набрать баллы"
+        keyPoints: ['Основные понятия темы «Пробное тестирование (математика)»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Пробное тестирование (математика)»', 'Практическое задание: Пробное тестирование (математика)'],
       },
       {
         type: 'find',
@@ -1209,6 +1267,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Полный пробный ОГЭ",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B1%D0%BD%D1%8B%D0%B9%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1219,6 +1278,8 @@ export const games: GameLesson[] = [
         options: ["Только ручку", "Место, бланки, таймер", "Учебники и справочники", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Место, бланки, таймер",
         hint: "Реалистичные условия"
+        keyPoints: ['Основные понятия темы «Полный пробный ОГЭ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Полный пробный ОГЭ»', 'Практическое задание: Полный пробный ОГЭ'],
       },
       {
         type: 'find',
@@ -1274,6 +1335,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Пробные тестирования",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%BE%D0%B1%D0%BD%D1%8B%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1284,6 +1346,8 @@ export const games: GameLesson[] = [
         options: ["Чтобы запугать учеников", "Отработать стратегию и выявить пробелы", "Потратить время", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Отработать стратегию и выявить пробелы",
         hint: "Практика — путь к успеху"
+        keyPoints: ['Основные понятия темы «Пробные тестирования»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Пробные тестирования»', 'Практическое задание: Пробные тестирования'],
       },
       {
         type: 'find',
@@ -1339,6 +1403,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Работа с ошибками",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D1%81%20%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0%D0%BC%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1349,6 +1414,8 @@ export const games: GameLesson[] = [
         options: ["Дневник настроения", "Записи ошибок для анализа", "Дневник успехов", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Записи ошибок для анализа",
         hint: "Инструмент для работы над ошибками"
+        keyPoints: ['Основные понятия темы «Работа с ошибками»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Работа с ошибками»', 'Практическое задание: Работа с ошибками'],
       },
       {
         type: 'find',
@@ -1404,6 +1471,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Оформление работ",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1414,6 +1482,8 @@ export const games: GameLesson[] = [
         options: ["Дробью", "В виде целого числа или десятичной дроби", "Словами", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "В виде целого числа или десятичной дроби",
         hint: "Формат ответа в КИМ"
+        keyPoints: ['Основные понятия темы «Оформление работ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Оформление работ»', 'Практическое задание: Оформление работ'],
       },
       {
         type: 'find',
@@ -1469,6 +1539,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "День экзамена",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B5%D0%BD%D1%8C%20%D1%8D%D0%BA%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1479,6 +1550,8 @@ export const games: GameLesson[] = [
         options: ["Телефон", "Паспорт и ручки", "Учебники", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Паспорт и ручки",
         hint: "Разрешённые предметы"
+        keyPoints: ['Основные понятия темы «День экзамена»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «День экзамена»', 'Практическое задание: День экзамена'],
       },
       {
         type: 'find',
@@ -1534,6 +1607,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Результаты и апелляция",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B%20%D0%B8%20%D0%B0%D0%BF%D0%B5%D0%BB%D0%BB%D1%8F%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1544,6 +1618,8 @@ export const games: GameLesson[] = [
         options: ["1 день", "2 рабочих дня", "Неделю", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "2 рабочих дня",
         hint: "После объявления результатов"
+        keyPoints: ['Основные понятия темы «Результаты и апелляция»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Результаты и апелляция»', 'Практическое задание: Результаты и апелляция'],
       },
       {
         type: 'find',
@@ -1599,6 +1675,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Итоговая проверка знаний",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1609,6 +1686,8 @@ export const games: GameLesson[] = [
         options: ["2 предмета", "3 предмета", "4 предмета", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "2 предмета",
         hint: "Русский язык и математика"
+        keyPoints: ['Основные понятия темы «Итоговая проверка знаний»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Итоговая проверка знаний»', 'Практическое задание: Итоговая проверка знаний'],
       },
       {
         type: 'find',
@@ -1664,6 +1743,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Итоги подготовки",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%231e40af%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D1%82%D0%BE%D0%B3%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%93%D0%AD%3C/text%3E%0A%3C/svg%3E',
     subject: "Подготовка к ОГЭ",
     icon: "GraduationCap",
     color: "text-orange-400",
@@ -1674,6 +1754,8 @@ export const games: GameLesson[] = [
         options: ["Зубрить новый материал", "Сократить интенсивность подготовки", "Не готовиться совсем", "Другой ответ 1", "Другой ответ 2"],
         correctAnswer: "Сократить интенсивность подготовки",
         hint: "Лёгкое повторение и отдых"
+        keyPoints: ['Основные понятия темы «Итоги подготовки»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Итоги подготовки»', 'Практическое задание: Итоги подготовки'],
       },
       {
         type: 'find',

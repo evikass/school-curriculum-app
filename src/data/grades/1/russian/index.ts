@@ -816,6 +816,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Гласные и согласные 🔤",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%BB%D0%B0%D1%81%D0%BD%D1%8B%D0%B5%20%D0%B8%20%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%BD%D1%8B%D0%B5%20%F0%9F%94%A4%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -826,6 +827,8 @@ export const games: GameLesson[] = [
         options: ["А", "Б", "О", "К", "У", "М", "И"],
         correctAnswer: ["А", "О", "У", "И"],
         hint: "Гласные можно пропеть: а-а-а!"
+        keyPoints: ['Основные понятия темы «Гласные и согласные 🔤»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Гласные и согласные 🔤 — анализ языковых явлений', 'Практическое задание по теме «Гласные и согласные 🔤»'],
       },
       {
         type: 'quiz',
@@ -860,6 +863,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Твёрдые и мягкие 🔊",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B2%D1%91%D1%80%D0%B4%D1%8B%D0%B5%20%D0%B8%20%D0%BC%D1%8F%D0%B3%D0%BA%D0%B8%D0%B5%20%F0%9F%94%8A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -870,6 +874,8 @@ export const games: GameLesson[] = [
         options: ["ж", "ш", "ц", "ч", "щ"],
         correctAnswer: ["ж", "ш", "ц"],
         hint: "Они никогда не смягчаются"
+        keyPoints: ['Основные понятия темы «Твёрдые и мягкие 🔊»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Твёрдые и мягкие 🔊 — анализ языковых явлений', 'Практическое задание по теме «Твёрдые и мягкие 🔊»'],
       },
       {
         type: 'find',
@@ -904,6 +910,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Звонкие и глухие 🔔",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B2%D0%BE%D0%BD%D0%BA%D0%B8%D0%B5%20%D0%B8%20%D0%B3%D0%BB%D1%83%D1%85%D0%B8%D0%B5%20%F0%9F%94%94%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -914,6 +921,8 @@ export const games: GameLesson[] = [
         options: ["Б", "В", "Г", "Д", "З"],
         correctAnswer: ["П", "Ф", "К", "Т", "С"],
         hint: "Б-П, В-Ф, Г-К, Д-Т, З-С"
+        keyPoints: ['Основные понятия темы «Звонкие и глухие 🔔»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Звонкие и глухие 🔔 — анализ языковых явлений', 'Практическое задание по теме «Звонкие и глухие 🔔»'],
       },
       {
         type: 'quiz',
@@ -948,6 +957,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Слоги 📊",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BB%D0%BE%D0%B3%D0%B8%20%F0%9F%93%8A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -958,6 +968,8 @@ export const games: GameLesson[] = [
         options: ["2", "3", "4", "Никто не знает", "Не знаю"],
         correctAnswer: "3",
         hint: "Ма-ши-на"
+        keyPoints: ['Основные понятия темы «Слоги 📊»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Слоги 📊 — анализ языковых явлений', 'Практическое задание по теме «Слоги 📊»'],
       },
       {
         type: 'match',
@@ -992,6 +1004,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Ударение ´",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D0%B4%D0%B0%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%20%C2%B4%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1002,6 +1015,8 @@ export const games: GameLesson[] = [
         options: ["Тише", "Сильнее", "Быстрее", "Никто не знает", "Не знаю"],
         correctAnswer: "Сильнее",
         hint: "Выделяется голосом"
+        keyPoints: ['Основные понятия темы «Ударение ´»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Ударение ´ — анализ языковых явлений', 'Практическое задание по теме «Ударение ´»'],
       },
       {
         type: 'find',
@@ -1036,6 +1051,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Перенос слов ➡️",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B5%D1%80%D0%B5%D0%BD%D0%BE%D1%81%20%D1%81%D0%BB%D0%BE%D0%B2%20%E2%9E%A1%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1046,6 +1062,8 @@ export const games: GameLesson[] = [
         options: ["ма-йка", "май-ка", "м-айка", "Никто не знает", "Не знаю"],
         correctAnswer: "май-ка",
         hint: "Й не переносится!"
+        keyPoints: ['Основные понятия темы «Перенос слов ➡️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Перенос слов ➡️ — анализ языковых явлений', 'Практическое задание по теме «Перенос слов ➡️»'],
       },
       {
         type: 'find',
@@ -1080,6 +1098,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Предложение 📝",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1090,6 +1109,8 @@ export const games: GameLesson[] = [
         options: ["С маленькой буквы", "С большой буквы", "Как угодно", "Никто не знает", "Не знаю"],
         correctAnswer: "С большой буквы",
         hint: "Правило русского языка"
+        keyPoints: ['Основные понятия темы «Предложение 📝»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Предложение 📝 — анализ языковых явлений', 'Практическое задание по теме «Предложение 📝»'],
       },
       {
         type: 'find',
@@ -1124,6 +1145,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ 📝",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%96%D0%98-%D0%A8%D0%98%2C%20%D0%A7%D0%90-%D0%A9%D0%90%2C%20%D0%A7%D0%A3-%D0%A9%D0%A3%20%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1134,6 +1156,8 @@ export const games: GameLesson[] = [
         options: ["Жизнь", "Чаша", "Чудо", "Шина", "Щука"],
         correctAnswer: ["ЖИ (не ШЫ)", "ЩА (не ЩЯ)", "ЧУ (не ЧЮ)", "ШИ (не ШЫ)", "ЩУ (не ЩЮ)"],
         hint: "ЖИ-ШИ пиши с И, ЧА-ЩА с А, ЧУ-ЩУ с У"
+        keyPoints: ['Основные понятия темы «ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ 📝»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ 📝 — анализ языковых явлений', 'Практическое задание по теме «ЖИ-ШИ, ЧА-ЩА, ЧУ-ЩУ 📝»'],
       },
       {
         type: 'find',
@@ -1168,6 +1192,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Большая буква 🅰️",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F%20%D0%B1%D1%83%D0%BA%D0%B2%D0%B0%20%F0%9F%85%B0%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1178,6 +1203,8 @@ export const games: GameLesson[] = [
         options: ["Москва", "город", "Иван", "мальчик", "Россия", "страна"],
         correctAnswer: ["Москва", "Иван", "Россия"],
         hint: "Имена, названия городов и стран"
+        keyPoints: ['Основные понятия темы «Большая буква 🅰️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Большая буква 🅰️ — анализ языковых явлений', 'Практическое задание по теме «Большая буква 🅰️»'],
       },
       {
         type: 'quiz',
@@ -1212,6 +1239,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Правописание ЖИ-ШИ 🖊️",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23dc2626%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B0%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%96%D0%98-%D0%A8%D0%98%20%F0%9F%96%8A%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%D0%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%3C/text%3E%0A%3C/svg%3E',
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -1223,5 +1251,7 @@ export const games: GameLesson[] = [
       { type: 'find', question: "Найди слова с ШИ:", options: ["Шина", "Жизнь", "Шило", "Карандаши", "Лыжи"], correctAnswer: ["Шина", "Шило", "Карандаши"], hint: "Слова с сочетанием ШИ" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь ЖИ-ШИ! 🖊️" }
+    keyPoints: ['Основные понятия темы «Правописание ЖИ-ШИ 🖊️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Правописание ЖИ-ШИ 🖊️ — анализ языковых явлений', 'Практическое задание по теме «Правописание ЖИ-ШИ 🖊️»'],
   }
 ]

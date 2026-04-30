@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="72" rx="0" fill="#059669" />
+  <rect x="0" y="72" width="800" height="4" rx="0" fill="#047857" />
+  <text x="400" y="36" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="sans-serif">Тихий и Атлантический океаны</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="normal" font-family="sans-serif">Особенности, течения, ресурсы</text>
+  <rect x="0" y="570" width="800" height="30" rx="0" fill="#ECFDF5" />
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#6EE7B7" stroke-width="1" />
+  <text x="400" y="590" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="normal" font-family="sans-serif">7 класс — География — Урок 5</text>
+  <rect x="0" y="76" width="800" height="494" rx="0" fill="#ECFDF5" opacity="0.4" />
+  <text x="200" y="98" text-anchor="middle" fill="#047857" font-size="15" font-weight="bold" font-family="sans-serif">Тихий океан</text>
+  <ellipse cx="200" cy="260" rx="150" ry="120" fill="#0EA5E9" stroke="#0284C7" stroke-width="2" />
+  <line x1="180" y1="200" x2="180" y2="210" stroke="#DC2626" stroke-width="2" />
+  <text x="180" y="195" text-anchor="middle" fill="#DC2626" font-size="7" font-weight="bold" font-family="sans-serif">Марианский жёлоб</text>
+  <text x="180" y="215" text-anchor="middle" fill="#DC2626" font-size="7" font-weight="normal" font-family="sans-serif">11 022 м</text>
+  <path d="M 130,200 Q 100,240 130,280" fill="none" stroke="#DC2626" stroke-width="1" />
+  <text x="90" y="240" text-anchor="middle" fill="#DC2626" font-size="6" font-weight="normal" font-family="sans-serif">Курильское</text>
+  <path d="M 270,200 Q 300,240 270,280" fill="none" stroke="#DC2626" stroke-width="1" />
+  <text x="305" y="240" text-anchor="middle" fill="#DC2626" font-size="6" font-weight="normal" font-family="sans-serif">Куросио</text>
+  <text x="200" y="395" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Площадь: 178,6 млн км²</text>
+  <text x="200" y="410" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Средняя глубина: 3 976 м</text>
+  <text x="200" y="425" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Наибольшая глубина: 11 022 м</text>
+  <text x="200" y="440" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Омывает 5 материков</text>
+  <text x="200" y="455" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Тихоокеанское огненное кольцо</text>
+  <text x="200" y="470" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Богат рыбными ресурсами</text>
+  <rect x="50" y="380" width="300" height="25" rx="3" fill="#FFFFFF" stroke="#059669" stroke-width="1" />
+  <rect x="50" y="380" width="4" height="25" rx="2" fill="#059669" />
+  <text x="62" y="397" text-anchor="start" fill="#059669" font-size="10" font-weight="bold" font-family="sans-serif">Самый большой и глубокий океан Земли</text>
+  <text x="600" y="98" text-anchor="middle" fill="#047857" font-size="15" font-weight="bold" font-family="sans-serif">Атлантический океан</text>
+  <ellipse cx="600" cy="260" rx="100" ry="130" fill="#0EA5E9" stroke="#0284C7" stroke-width="2" />
+  <line x1="600" y1="160" x2="600" y2="360" stroke="#F59E0B" stroke-width="2" stroke-dasharray="5,3" />
+  <text x="620" y="200" text-anchor="start" fill="#F59E0B" font-size="6" font-weight="normal" font-family="sans-serif">Срединно-
+Атлантический
+хребет</text>
+  <path d="M 570,180 Q 560,220 575,260 Q 585,290 570,320" fill="none" stroke="#DC2626" stroke-width="2" />
+  <text x="540" y="230" text-anchor="middle" fill="#DC2626" font-size="7" font-weight="normal" font-family="sans-serif">Гольфстрим</text>
+  <text x="600" y="395" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Площадь: 91,6 млн км²</text>
+  <text x="600" y="410" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Средняя глубина: 3 604 м</text>
+  <text x="600" y="425" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Наибольшая глубина: 8 742 м</text>
+  <text x="600" y="440" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">S-образная форма</text>
+  <text x="600" y="455" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Срединный хребет — 18 000 км</text>
+  <text x="600" y="470" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Гольфстрим влияет на климат Европы</text>
+  <rect x="450" y="380" width="300" height="25" rx="3" fill="#FFFFFF" stroke="#0284C7" stroke-width="1" />
+  <rect x="450" y="380" width="4" height="25" rx="2" fill="#0284C7" />
+  <text x="462" y="397" text-anchor="start" fill="#0284C7" font-size="10" font-weight="bold" font-family="sans-serif">Второй по величине океан</text>
+  <text x="400" y="498" text-anchor="middle" fill="#047857" font-size="13" font-weight="bold" font-family="sans-serif">Сравнительная характеристика</text>
+  <line x1="80" y1="502" x2="720" y2="502" stroke="#6EE7B7" stroke-width="1" />
+  <rect x="80" y="510" width="640" height="20" rx="3" fill="#059669" />
+  <text x="170" y="524" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">Показатель</text>
+  <text x="400" y="524" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">Тихий океан</text>
+  <text x="600" y="524" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">Атлантический океан</text>
+  <rect x="80" y="532" width="640" height="18" rx="0" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="0.5" />
+  <text x="170" y="545" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Площадь</text>
+  <text x="400" y="545" text-anchor="middle" fill="#047857" font-size="9" font-weight="bold" font-family="sans-serif">178,6 млн км²</text>
+  <text x="600" y="545" text-anchor="middle" fill="#0284C7" font-size="9" font-weight="bold" font-family="sans-serif">91,6 млн км²</text>
+  <rect x="80" y="550" width="640" height="18" rx="0" fill="#ECFDF5" stroke="#E5E7EB" stroke-width="0.5" />
+  <text x="170" y="563" text-anchor="middle" fill="#1F2937" font-size="9" font-weight="normal" font-family="sans-serif">Макс. глубина</text>
+  <text x="400" y="563" text-anchor="middle" fill="#047857" font-size="9" font-weight="bold" font-family="sans-serif">11 022 м</text>
+  <text x="600" y="563" text-anchor="middle" fill="#0284C7" font-size="9" font-weight="bold" font-family="sans-serif">8 742 м</text>
+</svg>

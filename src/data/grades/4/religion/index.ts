@@ -520,6 +520,7 @@ export const games: GameLesson[] = [
   // ==================== ОСНОВЫ РЕЛИГИОЗНЫХ КУЛЬТУР (12 тестов) ====================
   {
     title: "Что такое религия",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20%D1%80%D0%B5%D0%BB%D0%B8%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20religion%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы религиозных культур",
     icon: "HeartHandshake",
     color: "text-amber-400",
@@ -531,10 +532,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что гарантирует Конституция России по отношению к религии?", options: ["Одну религию", "Свободу вероисповедания", "Запрет религий", "Только православие", "Только ислам"], correctAnswer: "Свободу вероисповедания", hint: "Каждый может выбирать свою веру" }
     ],
     reward: { stars: 3, message: "Просветлённо! Ты знаешь основы религий! 🌍" }
+    keyPoints: ['Основные понятия темы «Что такое религия»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Что такое религия»', 'Практическое задание: Что такое религия'],
   },
 
   {
     title: "Православие в России",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B0%D0%B2%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%B8%D0%B5%20%D0%B2%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20religion%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы религиозных культур",
     icon: "HeartHandshake",
     color: "text-amber-400",
@@ -546,10 +550,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько православных храмов в России?", options: ["10 000", "20 000", "30 000", "40 000", "50 000"], correctAnswer: "40 000", hint: "В России более 40 000 православных храмов" }
     ],
     reward: { stars: 3, message: "Светло! Ты знаешь историю православия! ✝️" }
+    keyPoints: ['Основные понятия темы «Православие в России»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Православие в России»', 'Практическое задание: Православие в России'],
   },
 
   {
     title: "Ислам и другие религии",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D1%81%D0%BB%D0%B0%D0%BC%20%D0%B8%20%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BB%D0%B8%D0%B3%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20religion%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы религиозных культур",
     icon: "HeartHandshake",
     color: "text-amber-400",
@@ -561,10 +568,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой месяц — пост у мусульман?", options: ["Рамадан", "Шабан", "Раджаб", "Мухаррам", "Зуль-хиджа"], correctAnswer: "Рамадан", hint: "Пост в месяц Рамадан" }
     ],
     reward: { stars: 3, message: "Уважительно! Ты знаешь разные религии! 🕌" }
+    keyPoints: ['Основные понятия темы «Ислам и другие религии»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Ислам и другие религии»', 'Практическое задание: Ислам и другие религии'],
   },
 
   {
     title: "Священные книги",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B2%D1%8F%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20religion%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы религиозных культур",
     icon: "HeartHandshake",
     color: "text-amber-400",
@@ -576,10 +586,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что содержится в Новом Завете?", options: ["История создания мира", "Жизнь и учение Иисуса Христа", "Правила иудеев", "Учение Будды", "Откровения Мухаммеда"], correctAnswer: "Жизнь и учение Иисуса Христа", hint: "Новый Завет — о жизни Иисуса Христа" }
     ],
     reward: { stars: 3, message: "Книжно! Ты знаешь священные книги! 📖" }
+    keyPoints: ['Основные понятия темы «Священные книги»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Священные книги»', 'Практическое задание: Священные книги'],
   },
 
   {
     title: "Православный храм",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B0%D0%B2%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D1%85%D1%80%D0%B0%D0%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20religion%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы религиозных культур",
     icon: "HeartHandshake",
     color: "text-amber-400",
@@ -591,10 +604,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как нужно входить в храм?", options: ["Бегом", "С поклоном", "С криком", "Назад", "Боком"], correctAnswer: "С поклоном", hint: "Входи в храм с поклоном" }
     ],
     reward: { stars: 3, message: "Благоговейно! Ты знаешь храмы! ⛪" }
+    keyPoints: ['Основные понятия темы «Православный храм»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Православный храм»', 'Практическое задание: Православный храм'],
   },
 
   {
     title: "Молитва и богослужение",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B0%20%D0%B8%20%D0%B1%D0%BE%D0%B3%D0%BE%D1%81%D0%BB%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20religion%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы религиозных культур",
     icon: "HeartHandshake",
     color: "text-amber-400",
@@ -606,10 +622,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько лет известна молитва «Отче наш»?", options: ["500", "1000", "1500", "2000", "2500"], correctAnswer: "2000", hint: "Молитва «Отче наш» известна 2000 лет" }
     ],
     reward: { stars: 3, message: "Молитвенно! Ты знаешь богослужение! 🙏" }
+    keyPoints: ['Основные понятия темы «Молитва и богослужение»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Молитва и богослужение»', 'Практическое задание: Молитва и богослужение'],
   },
 
   {
     title: "Православные праздники",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B0%D0%B2%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20religion%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы религиозных культур",
     icon: "HeartHandshake",
     color: "text-amber-400",
@@ -621,10 +640,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какое пасхальное приветствие?", options: ["Здравствуй!", "С праздником!", "Христос воскресе!", "Добрый день!", "Слава Богу!"], correctAnswer: "Христос воскресе!", hint: "«Христос воскресе!» — «Воистину воскресе!»" }
     ],
     reward: { stars: 3, message: "Празднично! Ты знаешь православные праздники! 🎄" }
+    keyPoints: ['Основные понятия темы «Православные праздники»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Православные праздники»', 'Практическое задание: Православные праздники'],
   },
 
   {
     title: "Пост и традиции",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D1%81%D1%82%20%D0%B8%20%D1%82%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20religion%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы религиозных культур",
     icon: "HeartHandshake",
     color: "text-amber-400",
@@ -636,10 +658,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что такое пост?", options: ["Праздник", "Период воздержания", "Утренняя молитва", "Вечерняя служба", "Праздничный обед"], correctAnswer: "Период воздержания", hint: "Пост — период воздержания от определённой еды и развлечений" }
     ],
     reward: { stars: 3, message: "Духовно! Ты знаешь пост и традиции! 🚶" }
+    keyPoints: ['Основные понятия темы «Пост и традиции»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Пост и традиции»', 'Практическое задание: Пост и традиции'],
   },
 
   {
     title: "Добро и зло",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%BE%D0%B1%D1%80%D0%BE%20%D0%B8%20%D0%B7%D0%BB%D0%BE%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20religion%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы религиозных культур",
     icon: "HeartHandshake",
     color: "text-amber-400",
@@ -651,10 +676,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что доказали учёные о добрых людях?", options: ["Они беднее", "Они живут дольше", "Они медленнее", "Они слабее", "Они тише"], correctAnswer: "Они живут дольше", hint: "Добрые люди живут дольше — доказано наукой" }
     ],
     reward: { stars: 3, message: "Добротой! Ты выбираешь добро! 💝" }
+    keyPoints: ['Основные понятия темы «Добро и зло»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Добро и зло»', 'Практическое задание: Добро и зло'],
   },
 
   {
     title: "Десять заповедей",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B5%D1%81%D1%8F%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20religion%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы религиозных культур",
     icon: "HeartHandshake",
     color: "text-amber-400",
@@ -666,10 +694,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Шестая заповедь запрещает:", options: ["Воровать", "Лгать", "Убивать", "Завидовать", "Ругаться"], correctAnswer: "Убивать", hint: "Шестая заповедь: «Не убивай»" }
     ],
     reward: { stars: 3, message: "Нравственно! Ты знаешь заповеди! 📜" }
+    keyPoints: ['Основные понятия темы «Десять заповедей»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Десять заповедей»', 'Практическое задание: Десять заповедей'],
   },
 
   {
     title: "Милосердие и помощь",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B8%D0%BB%D0%BE%D1%81%D0%B5%D1%80%D0%B4%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20religion%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы религиозных культур",
     icon: "HeartHandshake",
     color: "text-amber-400",
@@ -681,10 +712,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что является маленьким проявлением милосердия?", options: ["Только большие поступки", "Уступить место в транспорте", "Только деньги", "Только работа", "Только путешествия"], correctAnswer: "Уступить место в транспорте", hint: "Маленькое доброе дело — тоже милосердие" }
     ],
     reward: { stars: 3, message: "Сердечно! Ты проявляешь милосердие! 🤝" }
+    keyPoints: ['Основные понятия темы «Милосердие и помощь»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Милосердие и помощь»', 'Практическое задание: Милосердие и помощь'],
   },
 
   {
     title: "Семья и традиции",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B5%D0%BC%D1%8C%D1%8F%20%D0%B8%20%D1%82%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20religion%3C/text%3E%0A%3C/svg%3E',
     subject: "Основы религиозных культур",
     icon: "HeartHandshake",
     color: "text-amber-400",
@@ -696,5 +730,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько детей в самой большой семье в мире?", options: ["50", "100", "150", "190", "250"], correctAnswer: "190", hint: "Самая большая семья — 190 детей" }
     ],
     reward: { stars: 3, message: "Семейно! Ты ценишь семью! 👨‍👩‍👧‍👦" }
+    keyPoints: ['Основные понятия темы «Семья и традиции»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Семья и традиции»', 'Практическое задание: Семья и традиции'],
   }
 ]

@@ -27,7 +27,7 @@ export const lessons: SubjectData = {
           "Гласность — свобода слова и отмена цензуры",
           "Новое политическое мышление — конец Холодной войны"
         ],
-  "/school-curriculum-app/images/lessons/grade11/history/lesson1.svg"),
+  "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2378350f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23fbbf2433%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fcd34d33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fcd34d99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fcd34d%22%3E%D0%A3%D1%80%D0%BE%D0%BA%201%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23fbbf2466%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fcd34d77%22%3E%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E"),
         L("Урок 2: Распад СССР", "Кризис и распад Советского Союза.", [
           "Национальный вопрос",
           "«Парад суверенитетов»",
@@ -42,7 +42,7 @@ export const lessons: SubjectData = {
           "ГКЧП (август 1991) — провал путча",
           "На месте СССР образовалось 15 независимых государств"
         ],
-  "/school-curriculum-app/images/lessons/grade11/history/lesson2.svg"),
+  "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2378350f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23fbbf2433%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fcd34d33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fcd34d99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fcd34d%22%3E%D0%A3%D1%80%D0%BE%D0%BA%202%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23fbbf2466%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fcd34d77%22%3E%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E"),
         L("Урок 3: Россия в 1990-е годы", "Становление новой России.", [
           "Экономические реформы",
           "Политический кризис 1993",
@@ -57,7 +57,7 @@ export const lessons: SubjectData = {
           "Конституция РФ принята 12 декабря 1993 года",
           "Дефолт 17 августа 1998 года"
         ],
-  "/school-curriculum-app/images/lessons/grade11/history/lesson3.svg"),
+  "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2378350f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23fbbf2433%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fcd34d33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fcd34d99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fcd34d%22%3E%D0%A3%D1%80%D0%BE%D0%BA%203%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23fbbf2466%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fcd34d77%22%3E%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E"),
         L("Урок 4: Россия в 2000-е годы", "Стабилизация и рост.", [
           "Приход В.В. Путина к власти",
           "Вторая чеченская война",
@@ -72,7 +72,7 @@ export const lessons: SubjectData = {
           "Экономический рост благодаря высоким ценам на нефть",
           "Плоская шкала НДФЛ 13%"
         ],
-  "/school-curriculum-app/images/lessons/grade11/history/lesson4.svg"),
+  "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2378350f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23fbbf2433%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fcd34d33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fcd34d99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fcd34d%22%3E%D0%A3%D1%80%D0%BE%D0%BA%204%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23fbbf2466%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fcd34d77%22%3E%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E"),
       ]
     },
     {
@@ -92,7 +92,7 @@ export const lessons: SubjectData = {
           "Санкции и политика импортозамещения",
           "Военная операция в Сирии — с 2015 года"
         ],
-  "/school-curriculum-app/images/lessons/grade11/history/lesson5.svg"),
+  "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2378350f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23fbbf2433%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fcd34d33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fcd34d99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fcd34d%22%3E%D0%A3%D1%80%D0%BE%D0%BA%205%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23fbbf2466%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fcd34d77%22%3E%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E"),
         L("Урок 6: Конституция РФ", "Основной закон страны.", [
           "Принятие Конституции",
           "Структура Конституции",
@@ -107,7 +107,7 @@ export const lessons: SubjectData = {
           "Человек, его права и свободы — высшая ценность",
           "Поправки 2020: приоритет Конституции над международным правом"
         ],
-  "/school-curriculum-app/images/lessons/grade11/history/lesson6.svg"),
+  "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2378350f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23fbbf2433%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fcd34d33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fcd34d99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fcd34d%22%3E%D0%A3%D1%80%D0%BE%D0%BA%206%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23fbbf2466%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fcd34d77%22%3E%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E"),
         L("Урок 7: Государственные символы России", "Герб, флаг, гимн.", [
           "Государственный герб",
           "Государственный флаг",
@@ -122,7 +122,7 @@ export const lessons: SubjectData = {
           "Флаг: белый, синий, красный",
           "Гимн: музыка Александрова, слова Михалкова"
         ],
-  "/school-curriculum-app/images/lessons/grade11/history/lesson7.svg"),
+  "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2378350f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23fbbf2433%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fcd34d33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fcd34d99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fcd34d%22%3E%D0%A3%D1%80%D0%BE%D0%BA%207%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23fbbf2466%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fcd34d77%22%3E%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E"),
       ]
     },
     {
@@ -142,7 +142,7 @@ export const lessons: SubjectData = {
           "ООН — главная международная организация",
           "Глобальные проблемы: экология, бедность, терроризм"
         ],
-  "/school-curriculum-app/images/lessons/grade11/history/lesson8.svg"),
+  "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2378350f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23fbbf2433%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fcd34d33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fcd34d99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fcd34d%22%3E%D0%A3%D1%80%D0%BE%D0%BA%208%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23fbbf2466%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fcd34d77%22%3E%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E"),
         L("Урок 9: Международные отношения", "Мировая политика.", [
           "Система международных отношений",
           "Россия и международные организации",
@@ -157,7 +157,7 @@ export const lessons: SubjectData = {
           "Принципы: суверенитет, невмешательство",
           "Региональные конфликты: Сирия, Украина, Карабах"
         ],
-  "/school-curriculum-app/images/lessons/grade11/history/lesson9.svg"),
+  "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2378350f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23fbbf2433%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fcd34d33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fcd34d99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fcd34d%22%3E%D0%A3%D1%80%D0%BE%D0%BA%209%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23fbbf2466%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fcd34d77%22%3E%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E"),
       ]
     },
     {
@@ -177,7 +177,7 @@ export const lessons: SubjectData = {
           "Гагарин — первый человек в космосе (1961)",
           "Интернет — главное изобретение конца XX века"
         ],
-  "/school-curriculum-app/images/lessons/grade11/history/lesson10.svg"),
+  "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2378350f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23fbbf2433%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fcd34d33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fcd34d99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fcd34d%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2010%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23fbbf2466%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fcd34d77%22%3E%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E"),
         L("Урок 11: Россия в современном мире", "Место России.", [
           "Геополитическое положение",
           "Экономический потенциал",
@@ -192,7 +192,7 @@ export const lessons: SubjectData = {
           "Россия: ядерная держава, член СБ ООН",
           "Вызовы: диверсификация экономики, демография"
         ],
-  "/school-curriculum-app/images/lessons/grade11/history/lesson11.svg"),
+  "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2378350f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23fbbf2433%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fcd34d33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fcd34d99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fcd34d%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2011%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23fbbf2466%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fcd34d77%22%3E%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E"),
         L("Урок 12: Уроки истории", "Значение исторического опыта.", [
           "Историческая память",
           "Уроки войн и конфликтов",
@@ -207,7 +207,7 @@ export const lessons: SubjectData = {
           "Уроки войн: мир ценен, фашизм опасен",
           "Изучение истории помогает понять настоящее"
         ],
-  "/school-curriculum-app/images/lessons/grade11/history/lesson12.svg"),
+  "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%2378350f%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23fbbf2433%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23fcd34d33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23fcd34d99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23fcd34d%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2012%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23fbbf2466%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23fbbf24%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23fcd34d77%22%3E%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E"),
       ]
     }
   ]
@@ -216,6 +216,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Перестройка",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -228,9 +229,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Новое политическое мышление — это:", options: ["Усиление Холодной войны", "Прекращение Холодной войны", "Расширение НАТО", "Создание ОВД", "—"], correctAnswer: "Прекращение Холодной войны", hint: "Внешнеполитическая доктрина Горбачёва" }
     ],
     reward: { stars: 3, message: "Ты знаешь перестройку! 📜" }
+    keyPoints: ['Основные понятия темы «Перестройка»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Перестройка — исторический анализ', 'Практическое задание по теме «Перестройка»'],
   },
   {
     title: "Распад СССР",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D1%81%D0%BF%D0%B0%D0%B4%20%D0%A1%D0%A1%D0%A1%D0%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -243,9 +247,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "СССР просуществовал:", options: ["50 лет", "69 лет", "74 года", "80 лет", "—"], correctAnswer: "69 лет", hint: "1922-1991" }
     ],
     reward: { stars: 3, message: "Ты знаешь историю распада СССР! 🗺️" }
+    keyPoints: ['Основные понятия темы «Распад СССР»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Распад СССР — исторический анализ', 'Практическое задание по теме «Распад СССР»'],
   },
   {
     title: "Россия в 1990-е",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%D0%B2%201990-%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -258,9 +265,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Первая чеченская война:", options: ["1992-1994", "1994-1996", "1996-1999", "1999-2001", "—"], correctAnswer: "1994-1996", hint: "Завершилась Хасавюртовскими соглашениями" }
     ],
     reward: { stars: 3, message: "Ты знаешь 1990-е! 🇷🇺" }
+    keyPoints: ['Основные понятия темы «Россия в 1990-е»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Россия в 1990-е — исторический анализ', 'Практическое задание по теме «Россия в 1990-е»'],
   },
   {
     title: "Россия в 2000-е",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%D0%B2%202000-%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -273,9 +283,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Срок президента увеличен до 6 лет в:", options: ["2004", "2006", "2008", "2010", "—"], correctAnswer: "2008", hint: "Поправки к Конституции" }
     ],
     reward: { stars: 3, message: "Ты знаешь 2000-е! 📈" }
+    keyPoints: ['Основные понятия темы «Россия в 2000-е»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Россия в 2000-е — исторический анализ', 'Практическое задание по теме «Россия в 2000-е»'],
   },
   {
     title: "Россия в 2010-е",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%D0%B2%202010-%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -288,9 +301,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Политика импортозамещения началась из-за:", options: ["Кризиса 2008", "Санкций 2014", "Падения цен на нефть", "Пандемии", "—"], correctAnswer: "Санкций 2014", hint: "Ответ на западные санкции" }
     ],
     reward: { stars: 3, message: "Ты знаешь 2010-е! 🔷" }
+    keyPoints: ['Основные понятия темы «Россия в 2010-е»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Россия в 2010-е — исторический анализ', 'Практическое задание по теме «Россия в 2010-е»'],
   },
   {
     title: "Конституция РФ",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%86%D0%B8%D1%8F%20%D0%A0%D0%A4%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -303,9 +319,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Право на жизнь — это:", options: ["Личное право", "Политическое право", "Экономическое право", "Социальное право", "—"], correctAnswer: "Личное право", hint: "Статья 20" }
     ],
     reward: { stars: 3, message: "Ты знаешь Конституцию! ⚖️" }
+    keyPoints: ['Основные понятия темы «Конституция РФ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Конституция РФ — исторический анализ', 'Практическое задание по теме «Конституция РФ»'],
   },
   {
     title: "Государственные символы России",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D1%8B%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -318,9 +337,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Современный флаг восстановлен в:", options: ["1990", "1991", "1993", "2000", "—"], correctAnswer: "1991", hint: "После распада СССР" }
     ],
     reward: { stars: 3, message: "Ты знаешь символы России! 🦅" }
+    keyPoints: ['Основные понятия темы «Государственные символы России»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Государственные символы России — исторический анализ', 'Практическое задание по теме «Государственные символы России»'],
   },
   {
     title: "Глобализация",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -333,9 +355,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Позитив глобализации:", options: ["Утрата идентичности", "Доступ к технологиям", "Неравенство стран", "Экологические проблемы", "—"], correctAnswer: "Доступ к технологиям", hint: "Плюсы глобализации" }
     ],
     reward: { stars: 3, message: "Ты понимаешь глобализацию! 🌐" }
+    keyPoints: ['Основные понятия темы «Глобализация»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Глобализация — исторический анализ', 'Практическое задание по теме «Глобализация»'],
   },
   {
     title: "Международные отношения",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -348,9 +373,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "СНГ создано на месте:", options: ["Российской империи", "СССР", "Варшавского договора", "СЭВ", "—"], correctAnswer: "СССР", hint: "Содружество Независимых Государств" }
     ],
     reward: { stars: 3, message: "Ты понимаешь мировую политику! 🌍" }
+    keyPoints: ['Основные понятия темы «Международные отношения»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Международные отношения — исторический анализ', 'Практическое задание по теме «Международные отношения»'],
   },
   {
     title: "Итоги XX века",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D1%82%D0%BE%D0%B3%D0%B8%20XX%20%D0%B2%D0%B5%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -363,9 +391,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Главное изобретение конца XX века:", options: ["Телевизор", "Компьютер", "Интернет", "Телефон", "—"], correctAnswer: "Интернет", hint: "Глобальная сеть" }
     ],
     reward: { stars: 3, message: "Ты знаешь итоги XX века! 📊" }
+    keyPoints: ['Основные понятия темы «Итоги XX века»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Итоги XX века — исторический анализ', 'Практическое задание по теме «Итоги XX века»'],
   },
   {
     title: "Россия в современном мире",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%2392400e%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%D0%B2%20%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC%20%D0%BC%D0%B8%D1%80%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -378,5 +409,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Вызов для России:", options: ["Рост населения", "Демографические проблемы", "Избыток ресурсов", "Миграция в страну", "—"], correctAnswer: "Демографические проблемы", hint: "Низкая рождаемость, старение" }
     ],
     reward: { stars: 3, message: "Ты знаешь место России в мире! 🗺️" }
+    keyPoints: ['Основные понятия темы «Россия в современном мире»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Россия в современном мире — исторический анализ', 'Практическое задание по теме «Россия в современном мире»'],
   }
 ]

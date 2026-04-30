@@ -791,6 +791,7 @@ export const games: GameLesson[] = [
   // ========== ИЗОБРАЗИТЕЛЬНОЕ ИСКУССТВО (1–12) ==========
   {
     title: "Жанры живописи",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%96%D0%B0%D0%BD%D1%80%D1%8B%20%D0%B6%D0%B8%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -802,10 +803,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Морской пейзаж называется:", options: ["Лесной", "Городской", "Марина", "Батальный", "Сельский"], correctAnswer: "Марина", hint: "Марина — от латинского «море»" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь жанры живописи! 🖼️" }
+    keyPoints: ['Основные понятия темы «Жанры живописи»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Жанры живописи»', 'Практическое задание: Жанры живописи'],
   },
 
   {
     title: "Натюрморт",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%B0%D1%82%D1%8E%D1%80%D0%BC%D0%BE%D1%80%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -831,6 +835,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Портрет",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -842,10 +847,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Где находится картина «Девочка с персиками»?", options: ["В Эрмитаже", "В Русском музее", "В Третьяковской галерее", "В Пушкинском музее", "В школе"], correctAnswer: "В Третьяковской галерее", hint: "Третьяковка хранит русское искусство" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь всё о портрете! 👤" }
+    keyPoints: ['Основные понятия темы «Портрет»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Портрет»', 'Практическое задание: Портрет'],
   },
 
   {
     title: "Пейзаж",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B5%D0%B9%D0%B7%D0%B0%D0%B6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -857,10 +865,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Из какого языка пришло слово «пейзаж»?", options: ["Английского", "Немецкого", "Французского", "Итальянского", "Латинского"], correctAnswer: "Французского", hint: "Paysage — страна, местность" }
     ],
     reward: { stars: 3, message: "Здорово! Ты знаешь пейзажи! 🌳" }
+    keyPoints: ['Основные понятия темы «Пейзаж»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Пейзаж»', 'Практическое задание: Пейзаж'],
   },
 
   {
     title: "Русские художники",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5%20%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%BD%D0%B8%D0%BA%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -872,10 +883,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Кто написал «Девушку, освещённую солнцем»?", options: ["Репин", "Шишкин", "Левитан", "Серов", "Васнецов"], correctAnswer: "Серов", hint: "Валентин Серов — мастер портрета" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь русских художников! 🎨" }
+    keyPoints: ['Основные понятия темы «Русские художники»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Русские художники»', 'Практическое задание: Русские художники'],
   },
 
   {
     title: "Музеи России",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D1%83%D0%B7%D0%B5%D0%B8%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -887,10 +901,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "В каком музее хранится картина «Девятый вал» Айвазовского?", options: ["В Эрмитаже", "В Третьяковской галерее", "В Русском музее", "В Пушкинском музее", "В Кремле"], correctAnswer: "В Русском музее", hint: "Русский музей — в Санкт-Петербурге" }
     ],
     reward: { stars: 3, message: "Прекрасно! Ты знаешь музеи! 🏛️" }
+    keyPoints: ['Основные понятия темы «Музеи России»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Музеи России»', 'Практическое задание: Музеи России'],
   },
 
   {
     title: "Рисунок и графика",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA%20%D0%B8%20%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -902,10 +919,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что такое штриховка?", options: ["Размазывание краски", "Нанесение линий для создания тени", "Рисование кругов", "Украшение картины", "Стирание рисунка"], correctAnswer: "Нанесение линий для создания тени", hint: "Штриховка — параллельные линии для объёма" }
     ],
     reward: { stars: 3, message: "Супер! Ты разбираешься в графике! ✏️" }
+    keyPoints: ['Основные понятия темы «Рисунок и графика»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Рисунок и графика»', 'Практическое задание: Рисунок и графика'],
   },
 
   {
     title: "Народное искусство",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -917,10 +937,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что рисуют в Городецкой росписи?", options: ["Только цветы", "Коней, птиц, цветы", "Только корабли", "Только людей", "Только дома"], correctAnswer: "Коней, птиц, цветы", hint: "Городецкая роспись — кони, птицы, цветы" }
     ],
     reward: { stars: 3, message: "Здорово! Ты знаешь народные промыслы! 🏺" }
+    keyPoints: ['Основные понятия темы «Народное искусство»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Народное искусство»', 'Практическое задание: Народное искусство'],
   },
 
   {
     title: "Основы цвета",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20%D1%86%D0%B2%D0%B5%D1%82%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -932,10 +955,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Кто придумал цветовой круг?", options: ["Леонардо да Винчи", "Ньютон", "Пушкин", "Репин", "Менделеев"], correctAnswer: "Ньютон", hint: "Исаак Ньютон открыл спектр и создал цветовой круг" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь цвета! 🖌️" }
+    keyPoints: ['Основные понятия темы «Основы цвета»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Основы цвета»', 'Практическое задание: Основы цвета'],
   },
 
   {
     title: "Композиция",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -947,10 +973,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как выделить центр композиции?", options: ["Сделать его маленьким", "Сделать его крупнее и ярче", "Убрать его", "Затемнить", "Размыть"], correctAnswer: "Сделать его крупнее и ярче", hint: "Центр выделяют размером, цветом и положением" }
     ],
     reward: { stars: 3, message: "Молодец! Ты понимаешь композицию! 📐" }
+    keyPoints: ['Основные понятия темы «Композиция»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Композиция»', 'Практическое задание: Композиция'],
   },
 
   {
     title: "Свет и тень",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B2%D0%B5%D1%82%20%D0%B8%20%D1%82%D0%B5%D0%BD%D1%8C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -962,10 +991,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как сделать штриховку темнее?", options: ["Линии дальше друг от друга", "Линии ближе друг к другу", "Использовать белый цвет", "Убрать линии", "Нарисовать меньше штрихов"], correctAnswer: "Линии ближе друг к другу", hint: "Чем ближе штрихи, тем темнее" }
     ],
     reward: { stars: 3, message: "Супер! Ты передаёшь объём! 💡" }
+    keyPoints: ['Основные понятия темы «Свет и тень»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Свет и тень»', 'Практическое задание: Свет и тень'],
   },
 
   {
     title: "Творческий проект",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B2%D0%BE%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Изобразительное искусство",
     icon: "Palette",
     color: "text-rose-400",
@@ -977,5 +1009,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какие бывают идеи для пейзажа?", options: ["Только город", "Мой край, любимое время года, закат", "Только космос", "Только подводный мир", "Только пустыня"], correctAnswer: "Мой край, любимое время года, закат", hint: "Пейзаж можно рисовать по разным темам" }
     ],
     reward: { stars: 3, message: "Ты настоящий творец! 🎭" }
+    keyPoints: ['Основные понятия темы «Творческий проект»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Творческий проект»', 'Практическое задание: Творческий проект'],
   }
 ]

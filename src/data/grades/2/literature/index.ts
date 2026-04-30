@@ -578,6 +578,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Авторы и сказки 📚",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D0%B2%D1%82%D0%BE%D1%80%D1%8B%20%D0%B8%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -588,6 +589,8 @@ export const games: GameLesson[] = [
         options: ["Пушкин", "Перро", "Андерсен", "Чуковский", "Барто"],
         correctAnswer: ["Сказка о рыбаке и рыбке", "Золушка", "Дюймовочка", "Мойдодыр", "Игрушки"],
         hint: "Вспомни, кто написал каждую сказку"
+        keyPoints: ['Основные понятия темы «Авторы и сказки 📚»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Авторы и сказки 📚 — анализ литературного произведения', 'Практическое задание по теме «Авторы и сказки 📚»'],
       },
       {
         type: 'match',
@@ -622,6 +625,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Герои русских сказок 🏰",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%B5%D1%80%D0%BE%D0%B8%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D1%85%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BE%D0%BA%20%F0%9F%8F%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -632,6 +636,8 @@ export const games: GameLesson[] = [
         options: ["Волк 🐺", "Лиса 🦊", "Медведь 🐻", "Заяц 🐰", "Не знаю"],
         correctAnswer: "Лиса 🦊",
         hint: "Хитрый зверь обманул Колобка"
+        keyPoints: ['Основные понятия темы «Герои русских сказок 🏰»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Герои русских сказок 🏰 — анализ литературного произведения', 'Практическое задание по теме «Герои русских сказок 🏰»'],
       },
       {
         type: 'quiz',
@@ -666,6 +672,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Басни Крылова 🦊",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D0%B0%D1%81%D0%BD%D0%B8%20%D0%9A%D1%80%D1%8B%D0%BB%D0%BE%D0%B2%D0%B0%20%F0%9F%A6%8A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -676,6 +683,8 @@ export const games: GameLesson[] = [
         options: ["Ворона и Лисица", "Мартышка и Очки", "Стрекоза и Муравей", "Квартет", "Лебедь, Щука и Рак"],
         correctAnswer: ["Ворона, Лисица", "Мартышка", "Стрекоза, Муравей", "Музыканты", "Не могут сдвинуть воз"],
         hint: "Вспомни персонажей басен"
+        keyPoints: ['Основные понятия темы «Басни Крылова 🦊»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Басни Крылова 🦊 — анализ литературного произведения', 'Практическое задание по теме «Басни Крылова 🦊»'],
       },
       {
         type: 'quiz',
@@ -710,6 +719,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Детские поэты 🎭",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BF%D0%BE%D1%8D%D1%82%D1%8B%20%F0%9F%8E%AD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -720,6 +730,8 @@ export const games: GameLesson[] = [
         options: ["Чуковский", "Барто", "Маршак", "Михалков", "Пушкин"],
         correctAnswer: ["Мойдодыр", "Игрушки", "Двенадцать месяцев", "Дядя Стёпа", "Сказка о рыбаке и рыбке"],
         hint: "Кто что написал?"
+        keyPoints: ['Основные понятия темы «Детские поэты 🎭»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Детские поэты 🎭 — анализ литературного произведения', 'Практическое задание по теме «Детские поэты 🎭»'],
       },
       {
         type: 'quiz',
@@ -754,6 +766,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Пословицы и поговорки 💬",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%86%D1%8B%20%D0%B8%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%BA%D0%B8%20%F0%9F%92%AC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -764,6 +777,8 @@ export const games: GameLesson[] = [
         options: ["Терпение и труд", "Без труда не вытащишь", "Семь раз отмерь", "Делу время", "Век живи"],
         correctAnswer: ["всё перетрут", "рыбку из пруда", "один раз отрежь", "потехе час", "век учись"],
         hint: "Вспомни народную мудрость"
+        keyPoints: ['Основные понятия темы «Пословицы и поговорки 💬»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Пословицы и поговорки 💬 — анализ литературного произведения', 'Практическое задание по теме «Пословицы и поговорки 💬»'],
       },
       {
         type: 'find',
@@ -798,6 +813,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "События сказок 📖",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BE%D0%BA%20%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -808,6 +824,8 @@ export const games: GameLesson[] = [
         options: ["Старуха стала царицей", "Старик поймал рыбку", "Старуха захотела быть владычицей", "Старуха осталась у разбитого корыта", "Не знаю"],
         correctAnswer: "Старик поймал рыбку",
         hint: "Вспомни начало сказки"
+        keyPoints: ['Основные понятия темы «События сказок 📖»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: События сказок 📖 — анализ литературного произведения', 'Практическое задание по теме «События сказок 📖»'],
       },
       {
         type: 'quiz',
@@ -842,6 +860,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Зарубежные сказки 🌍",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B0%D1%80%D1%83%D0%B1%D0%B5%D0%B6%D0%BD%D1%8B%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -852,6 +871,8 @@ export const games: GameLesson[] = [
         options: ["Золушка", "Дюймовочка", "Красная Шапочка", "Русалочка", "Снежная королева"],
         correctAnswer: ["Шарль Перро", "Андерсен", "Шарль Перро", "Андерсен", "Андерсен"],
         hint: "Кто написал про этих героев?"
+        keyPoints: ['Основные понятия темы «Зарубежные сказки 🌍»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Зарубежные сказки 🌍 — анализ литературного произведения', 'Практическое задание по теме «Зарубежные сказки 🌍»'],
       },
       {
         type: 'quiz',
@@ -886,6 +907,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Басни И.А. Крылова 🦊",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D0%B0%D1%81%D0%BD%D0%B8%20%D0%98.%D0%90.%20%D0%9A%D1%80%D1%8B%D0%BB%D0%BE%D0%B2%D0%B0%20%F0%9F%A6%8A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -896,6 +918,8 @@ export const games: GameLesson[] = [
         options: ["Пушкин", "Крылов", "Толстой", "Никто не знает", "Не знаю"],
         correctAnswer: "Крылов",
         hint: "Иван Андреевич Крылов"
+        keyPoints: ['Основные понятия темы «Басни И.А. Крылова 🦊»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Басни И.А. Крылова 🦊 — анализ литературного произведения', 'Практическое задание по теме «Басни И.А. Крылова 🦊»'],
       },
       {
         type: 'find',
@@ -930,6 +954,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Рассказы Л.Н. Толстого 📚",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%20%D0%9B.%D0%9D.%20%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B3%D0%BE%20%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -940,6 +965,8 @@ export const games: GameLesson[] = [
         options: ["Пушкин", "Толстой", "Крылов", "Никто не знает", "Не знаю"],
         correctAnswer: "Толстой",
         hint: "Лев Николаевич Толстой"
+        keyPoints: ['Основные понятия темы «Рассказы Л.Н. Толстого 📚»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Рассказы Л.Н. Толстого 📚 — анализ литературного произведения', 'Практическое задание по теме «Рассказы Л.Н. Толстого 📚»'],
       },
       {
         type: 'find',
@@ -974,6 +1001,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Стихи К.И. Чуковского 🎭",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D0%B8%D1%85%D0%B8%20%D0%9A.%D0%98.%20%D0%A7%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%F0%9F%8E%AD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -984,6 +1012,8 @@ export const games: GameLesson[] = [
         options: ["Барто", "Чуковский", "Михалков", "Никто не знает", "Не знаю"],
         correctAnswer: "Чуковский",
         hint: "Корней Иванович Чуковский"
+        keyPoints: ['Основные понятия темы «Стихи К.И. Чуковского 🎭»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример: Стихи К.И. Чуковского 🎭 — анализ литературного произведения', 'Практическое задание по теме «Стихи К.И. Чуковского 🎭»'],
       },
       {
         type: 'find',

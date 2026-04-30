@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Позвоночные</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 8</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Fish card -->
+  <rect x="20" y="88" width="85" height="120" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="62" y="103" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" font-weight="bold" text-anchor="middle">РЫБЫ</text>
+  <!-- Fish body -->
+  <ellipse cx="62" cy="145" rx="25" ry="14" fill="#90CAF9" stroke="#1565C0" stroke-width="1.5"/>
+  <!-- Tail -->
+  <polygon points="85,145 100,132 100,158" fill="#64B5F6" stroke="#1565C0" stroke-width="1"/>
+  <!-- Dorsal fin -->
+  <path d="M55,132 Q62,122 70,132" fill="#64B5F6" stroke="#1565C0" stroke-width="0.8"/>
+  <!-- Pectoral fin -->
+  <path d="M55,148 Q48,155 52,158" fill="#64B5F6" stroke="#1565C0" stroke-width="0.6"/>
+  <!-- Eye -->
+  <circle cx="45" cy="143" r="4" fill="white"/>
+  <circle cx="45" cy="143" r="2" fill="#0D47A1"/>
+  <!-- Mouth -->
+  <path d="M37,148 Q35,150 37,152" stroke="#0D47A1" stroke-width="1" fill="none"/>
+  <!-- Gill -->
+  <path d="M50,138 Q52,145 50,152" stroke="#42A5F5" stroke-width="0.8" fill="none"/>
+  <!-- Scales -->
+  <path d="M55,140 Q60,138 65,140" stroke="#64B5F6" stroke-width="0.5" fill="none"/>
+  <path d="M60,145 Q65,143 70,145" stroke="#64B5F6" stroke-width="0.5" fill="none"/>
+  <path d="M55,150 Q60,148 65,150" stroke="#64B5F6" stroke-width="0.5" fill="none"/>
+  <!-- Water bubbles -->
+  <circle cx="35" cy="135" r="2" fill="none" stroke="#90CAF9" stroke-width="0.5"/>
+  <circle cx="32" cy="128" r="1.5" fill="none" stroke="#90CAF9" stroke-width="0.5"/>
+  <circle cx="30" cy="122" r="1" fill="none" stroke="#90CAF9" stroke-width="0.5"/>
+  <text x="62" y="178" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">жабры, чешуя</text>
+  <text x="62" y="188" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">плавники</text>
+  <!-- Water wave -->
+  <path d="M30,170 Q42,166 55,170 Q68,174 82,170" stroke="#1565C0" stroke-width="0.5" fill="none" opacity="0.4"/>
+
+  <!-- Amphibian card -->
+  <rect x="112" y="88" width="85" height="120" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="155" y="103" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" font-weight="bold" text-anchor="middle">ЗЕМНОВОДНЫЕ</text>
+  <!-- Frog -->
+  <!-- Body -->
+  <ellipse cx="155" cy="150" rx="22" ry="16" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
+  <!-- Head -->
+  <ellipse cx="140" cy="140" rx="14" ry="11" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1.2"/>
+  <!-- Eyes (bulging) -->
+  <circle cx="133" cy="133" r="5" fill="white" stroke="#2E7D32" stroke-width="0.8"/>
+  <circle cx="133" cy="133" r="2.5" fill="#333"/>
+  <circle cx="145" cy="133" r="5" fill="white" stroke="#2E7D32" stroke-width="0.8"/>
+  <circle cx="145" cy="133" r="2.5" fill="#333"/>
+  <!-- Mouth -->
+  <path d="M128,142 Q140,148 155,142" stroke="#2E7D32" stroke-width="1" fill="none"/>
+  <!-- Front legs -->
+  <path d="M138,162 Q132,170 126,175" stroke="#2E7D32" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M126,175 L120,178" stroke="#2E7D32" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M126,175 L122,172" stroke="#2E7D32" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M168,162 Q174,170 180,175" stroke="#2E7D32" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M180,175 L186,178" stroke="#2E7D32" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M180,175 L184,172" stroke="#2E7D32" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Back legs (folded) -->
+  <path d="M170,158 Q180,165 186,160 Q192,155 188,148" stroke="#2E7D32" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Back spots -->
+  <circle cx="150" cy="148" r="2" fill="#66BB6A" opacity="0.5"/>
+  <circle cx="158" cy="152" r="2" fill="#66BB6A" opacity="0.5"/>
+  <circle cx="165" cy="148" r="2" fill="#66BB6A" opacity="0.5"/>
+  <text x="155" y="193" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">лягушки, жабы</text>
+  <text x="155" y="202" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">метаморфоз</text>
+
+  <!-- Reptile card -->
+  <rect x="204" y="88" width="85" height="120" rx="6" fill="white" stroke="#795548" stroke-width="1.5" opacity="0.9"/>
+  <text x="247" y="103" font-family="Arial,sans-serif" font-size="7" fill="#795548" font-weight="bold" text-anchor="middle">ПРЕСМЫКАЮЩ.</text>
+  <!-- Lizard/gecko -->
+  <!-- Body -->
+  <ellipse cx="247" cy="148" rx="20" ry="8" fill="#A1887F" stroke="#5D4037" stroke-width="1.2"/>
+  <!-- Head -->
+  <ellipse cx="222" cy="145" rx="10" ry="7" fill="#BCAAA4" stroke="#5D4037" stroke-width="1"/>
+  <!-- Eye -->
+  <circle cx="216" cy="143" r="2.5" fill="white"/>
+  <circle cx="216" cy="143" r="1.5" fill="#333"/>
+  <!-- Nostril -->
+  <circle cx="214" cy="145" r="0.8" fill="#5D4037"/>
+  <!-- Mouth -->
+  <path d="M213,148 L222,148" stroke="#5D4037" stroke-width="0.6"/>
+  <!-- Legs -->
+  <line x1="238" y1="155" x2="230" y2="168" stroke="#5D4037" stroke-width="1.5"/>
+  <line x1="230" y1="168" x2="222" y2="172" stroke="#5D4037" stroke-width="1"/>
+  <line x1="230" y1="168" x2="232" y2="174" stroke="#5D4037" stroke-width="1"/>
+  <line x1="256" y1="155" x2="264" y2="168" stroke="#5D4037" stroke-width="1.5"/>
+  <line x1="264" y1="168" x2="272" y2="172" stroke="#5D4037" stroke-width="1"/>
+  <line x1="264" y1="168" x2="262" y2="174" stroke="#5D4037" stroke-width="1"/>
+  <!-- Tail -->
+  <path d="M267,148 Q280,150 290,145 Q295,142 298,145" stroke="#A1887F" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M298,145 Q300,148 298,150" stroke="#A1887F" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Scales pattern -->
+  <path d="M235,145 Q238,143 241,145" stroke="#8D6E63" stroke-width="0.5" fill="none"/>
+  <path d="M242,145 Q245,143 248,145" stroke="#8D6E63" stroke-width="0.5" fill="none"/>
+  <path d="M249,145 Q252,143 255,145" stroke="#8D6E63" stroke-width="0.5" fill="none"/>
+  <path d="M235,150 Q238,148 241,150" stroke="#8D6E63" stroke-width="0.5" fill="none"/>
+  <path d="M242,150 Q245,148 248,150" stroke="#8D6E63" stroke-width="0.5" fill="none"/>
+  <!-- Toe pads -->
+  <circle cx="220" cy="173" r="1" fill="#5D4037"/>
+  <circle cx="270" cy="173" r="1" fill="#5D4037"/>
+  <text x="247" y="188" font-family="Arial,sans-serif" font-size="6" fill="#795548" text-anchor="middle">ящерицы, змеи</text>
+  <text x="247" y="198" font-family="Arial,sans-serif" font-size="6" fill="#795548" text-anchor="middle">черепахи</text>
+  <!-- Ground line -->
+  <line x1="215" y1="175" x2="280" y2="175" stroke="#BCAAA4" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+  <!-- Bird card -->
+  <rect x="296" y="88" width="85" height="120" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="338" y="103" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" font-weight="bold" text-anchor="middle">ПТИЦЫ</text>
+  <!-- Bird (geometric/simplified) -->
+  <!-- Body -->
+  <ellipse cx="335" cy="150" rx="18" ry="12" fill="#42A5F5" stroke="#1565C0" stroke-width="1.2"/>
+  <!-- Head -->
+  <circle cx="318" cy="138" r="9" fill="#64B5F6" stroke="#1565C0" stroke-width="1"/>
+  <!-- Eye -->
+  <circle cx="315" cy="136" r="2.5" fill="white"/>
+  <circle cx="315" cy="136" r="1.5" fill="#333"/>
+  <!-- Beak -->
+  <polygon points="310,138 302,140 310,142" fill="#FF8F00" stroke="#E65100" stroke-width="0.5"/>
+  <!-- Wing -->
+  <path d="M325,140 Q340,130 355,138 Q345,148 330,148" fill="#1E88E5" stroke="#1565C0" stroke-width="0.8"/>
+  <!-- Wing feather lines -->
+  <line x1="335" y1="138" x2="348" y2="138" stroke="#1565C0" stroke-width="0.4"/>
+  <line x1="330" y1="142" x2="345" y2="142" stroke="#1565C0" stroke-width="0.4"/>
+  <!-- Tail -->
+  <polygon points="353,150 370,145 370,158" fill="#1E88E5" stroke="#1565C0" stroke-width="0.8"/>
+  <!-- Legs -->
+  <line x1="330" y1="162" x2="328" y2="175" stroke="#FF8F00" stroke-width="1.2"/>
+  <line x1="340" y1="162" x2="338" y2="175" stroke="#FF8F00" stroke-width="1.2"/>
+  <!-- Feet -->
+  <path d="M325,175 L328,175 L331,175" stroke="#FF8F00" stroke-width="1"/>
+  <path d="M335,175 L338,175 L341,175" stroke="#FF8F00" stroke-width="1"/>
+  <!-- Breast -->
+  <ellipse cx="325" cy="152" rx="10" ry="8" fill="#BBDEFB" opacity="0.5"/>
+  <text x="338" y="188" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">перья, клюв</text>
+  <text x="338" y="198" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">лёгкие, полёт</text>
+  <!-- Branch -->
+  <line x1="310" y1="176" x2="370" y2="176" stroke="#8D6E63" stroke-width="1.5"/>
+  <circle cx="370" cy="172" r="4" fill="#66BB6A" opacity="0.6"/>
+
+  <!-- Mammal card -->
+  <rect x="388" y="88" width="92" height="120" rx="6" fill="white" stroke="#E65100" stroke-width="1.5" opacity="0.9"/>
+  <text x="434" y="103" font-family="Arial,sans-serif" font-size="7" fill="#E65100" font-weight="bold" text-anchor="middle">МЛЕКОПИТАЮЩ.</text>
+  <!-- Wolf/cat silhouette - simplified geometric -->
+  <!-- Body -->
+  <ellipse cx="435" cy="155" rx="22" ry="12" fill="#8D6E63" stroke="#5D4037" stroke-width="1.2"/>
+  <!-- Head -->
+  <ellipse cx="408" cy="142" rx="12" ry="10" fill="#A1887F" stroke="#5D4037" stroke-width="1"/>
+  <!-- Ears -->
+  <polygon points="400,135 396,122 404,130" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+  <polygon points="414,135 418,122 410,130" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+  <!-- Eye -->
+  <circle cx="403" cy="140" r="2" fill="#FFD54F"/>
+  <circle cx="403" cy="140" r="1" fill="#333"/>
+  <!-- Nose -->
+  <circle cx="397" cy="143" r="1.5" fill="#333"/>
+  <!-- Mouth -->
+  <path d="M397,145 Q403,148 408,145" stroke="#5D4037" stroke-width="0.6" fill="none"/>
+  <!-- Legs -->
+  <line x1="420" y1="166" x2="418" y2="182" stroke="#5D4037" stroke-width="2.5"/>
+  <line x1="428" y1="166" x2="426" y2="182" stroke="#5D4037" stroke-width="2.5"/>
+  <line x1="442" y1="166" x2="444" y2="182" stroke="#5D4037" stroke-width="2.5"/>
+  <line x1="450" y1="166" x2="452" y2="182" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Paws -->
+  <ellipse cx="418" cy="183" rx="3" ry="1.5" fill="#8D6E63"/>
+  <ellipse cx="426" cy="183" rx="3" ry="1.5" fill="#8D6E63"/>
+  <ellipse cx="444" cy="183" rx="3" ry="1.5" fill="#8D6E63"/>
+  <ellipse cx="452" cy="183" rx="3" ry="1.5" fill="#8D6E63"/>
+  <!-- Tail -->
+  <path d="M457,150 Q470,142 468,132 Q466,128 462,130" stroke="#8D6E63" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Fur texture -->
+  <path d="M415,148 Q418,146 421,148" stroke="#A1887F" stroke-width="0.4" fill="none"/>
+  <path d="M425,150 Q428,148 431,150" stroke="#A1887F" stroke-width="0.4" fill="none"/>
+  <path d="M435,152 Q438,150 441,152" stroke="#A1887F" stroke-width="0.4" fill="none"/>
+  <text x="434" y="195" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">мех, молоко</text>
+  <text x="434" y="204" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">живорождение</text>
+
+  <!-- Bottom info strip - classification -->
+  <rect x="20" y="216" width="460" height="82" rx="6" fill="white" stroke="#C62828" stroke-width="1" opacity="0.85"/>
+  <text x="250" y="232" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-weight="bold" text-anchor="middle">ОБЩИЕ ПРИЗНАКИ ПОЗВОНОЧНЫХ</text>
+
+  <!-- Vertebral column icon -->
+  <text x="55" y="258" font-family="Arial,sans-serif" font-size="7" fill="#5D4037" font-weight="bold">Позвоночник</text>
+  <!-- Spine bones -->
+  <rect x="38" y="262" width="10" height="5" rx="2" fill="#E0E0E0" stroke="#999" stroke-width="0.5"/>
+  <rect x="50" y="262" width="10" height="5" rx="2" fill="#E0E0E0" stroke="#999" stroke-width="0.5"/>
+  <rect x="62" y="262" width="10" height="5" rx="2" fill="#E0E0E0" stroke="#999" stroke-width="0.5"/>
+  <rect x="74" y="262" width="10" height="5" rx="2" fill="#E0E0E0" stroke="#999" stroke-width="0.5"/>
+  <line x1="43" y1="270" x2="43" y2="278" stroke="#999" stroke-width="0.5"/>
+  <line x1="55" y1="270" x2="55" y2="278" stroke="#999" stroke-width="0.5"/>
+  <line x1="67" y1="270" x2="67" y2="278" stroke="#999" stroke-width="0.5"/>
+  <line x1="79" y1="270" x2="79" y2="278" stroke="#999" stroke-width="0.5"/>
+
+  <!-- Brain icon -->
+  <text x="155" y="258" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">Головной мозг</text>
+  <path d="M145,265 Q140,262 142,268 Q144,274 150,272 Q156,274 158,268 Q160,262 155,265" fill="#FFCDD2" stroke="#E53935" stroke-width="0.8"/>
+  <path d="M148,264 L150,270" stroke="#E53935" stroke-width="0.4"/>
+  <path d="M153,264 L152,270" stroke="#E53935" stroke-width="0.4"/>
+
+  <!-- Heart icon -->
+  <text x="255" y="258" font-family="Arial,sans-serif" font-size="7" fill="#E53935" font-weight="bold">Сердце (кровеносная)</text>
+  <path d="M248,270 Q244,264 248,262 Q252,260 255,265 Q258,260 262,262 Q266,264 262,270 L255,278 Z" fill="#FFCDD2" stroke="#E53935" stroke-width="0.8"/>
+
+  <!-- Lungs icon -->
+  <text x="365" y="258" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" font-weight="bold">Лёгкие (дыхание)</text>
+  <ellipse cx="358" cy="272" rx="8" ry="10" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8"/>
+  <ellipse cx="372" cy="272" rx="8" ry="10" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8"/>
+  <rect x="362" y="264" width="6" height="12" rx="1" fill="#90CAF9" stroke="#1565C0" stroke-width="0.5"/>
+
+  <!-- Nervous system lines connecting icons -->
+  <line x1="85" y1="265" x2="140" y2="268" stroke="#C62828" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.4"/>
+  <line x1="162" y1="268" x2="245" y2="268" stroke="#C62828" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.4"/>
+  <line x1="268" y1="268" x2="348" y2="268" stroke="#C62828" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.4"/>
+
+  <!-- Key classes count -->
+  <rect x="420" y="248" width="50" height="42" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="0.8"/>
+  <text x="445" y="262" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">5 классов</text>
+  <circle cx="435" cy="274" r="3" fill="#1565C0" opacity="0.6"/>
+  <circle cx="445" cy="274" r="3" fill="#2E7D32" opacity="0.6"/>
+  <circle cx="455" cy="274" r="3" fill="#795548" opacity="0.6"/>
+  <circle cx="435" cy="284" r="3" fill="#1565C0" opacity="0.6"/>
+  <circle cx="445" cy="284" r="3" fill="#E65100" opacity="0.6"/>
+  <text x="460" y="287" font-family="Arial,sans-serif" font-size="5" fill="#999"></text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Позвоночные</text>
+</svg>

@@ -41,6 +41,8 @@ export const lessons: SubjectData = {
           "Выступить на празднике"
         ], "/school-curriculum-app/images/lessons/grade1/music/lesson4-holiday-songs.svg")
       ]
+      keyPoints: ['Основные понятия темы «Музыка»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+      examples: ['Пример по теме «Музыка»', 'Практическое задание: Музыка'],
     },
     {
       topic: "Музыкальные инструменты",
@@ -106,6 +108,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Детские песни 🎶",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BF%D0%B5%D1%81%D0%BD%D0%B8%20%F0%9F%8E%B6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -116,6 +119,8 @@ export const games: GameLesson[] = [
         options: ["В траве сидел кузнечик 🦗", "Антошка 👨‍🌾", "Чунга-чанга 🏝️", "Никто не знает", "Не знаю"],
         correctAnswer: "В траве сидел кузнечик 🦗",
         hint: "Кузнечик сидел в траве"
+        keyPoints: ['Основные понятия темы «Детские песни 🎶»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Детские песни 🎶»', 'Практическое задание: Детские песни 🎶'],
       },
       {
         type: 'quiz',
@@ -150,6 +155,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Народные песни 🎵",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B5%D1%81%D0%BD%D0%B8%20%F0%9F%8E%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -160,6 +166,8 @@ export const games: GameLesson[] = [
         options: ["Сорока-ворона 🐦", "Ладушки 👏", "Во саду ли, в огороде 🌳", "Никто не знает", "Не знаю"],
         correctAnswer: "Сорока-ворона 🐦",
         hint: "Сорока — это птица"
+        keyPoints: ['Основные понятия темы «Народные песни 🎵»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Народные песни 🎵»', 'Практическое задание: Народные песни 🎵'],
       },
       {
         type: 'find',
@@ -194,6 +202,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Музыкальные инструменты 🎹",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%F0%9F%8E%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -204,6 +213,8 @@ export const games: GameLesson[] = [
         options: ["Скрипка 🎻", "Барабан 🥁", "Пианино 🎹", "Никто не знает", "Не знаю"],
         correctAnswer: "Барабан 🥁",
         hint: "Барабан бьют палочками"
+        keyPoints: ['Основные понятия темы «Музыкальные инструменты 🎹»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Музыкальные инструменты 🎹»', 'Практическое задание: Музыкальные инструменты 🎹'],
       },
       {
         type: 'quiz',
@@ -238,6 +249,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Духовые инструменты 🎺",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D1%83%D1%85%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%F0%9F%8E%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -248,6 +260,8 @@ export const games: GameLesson[] = [
         options: ["Скрипка 🎻", "Труба 🎺", "Пианино 🎹", "Никто не знает", "Не знаю"],
         correctAnswer: "Труба 🎺",
         hint: "В трубу дуют"
+        keyPoints: ['Основные понятия темы «Духовые инструменты 🎺»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Духовые инструменты 🎺»', 'Практическое задание: Духовые инструменты 🎺'],
       },
       {
         type: 'find',
@@ -282,6 +296,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Ритм и темп 🥁",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B8%D1%82%D0%BC%20%D0%B8%20%D1%82%D0%B5%D0%BC%D0%BF%20%F0%9F%A5%81%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -292,6 +307,8 @@ export const games: GameLesson[] = [
         options: ["Цвет 🎨", "Чередование звуков 🎵", "Запах 👃", "Никто не знает", "Не знаю"],
         correctAnswer: "Чередование звуков 🎵",
         hint: "Ритм — это тук-тук-тук"
+        keyPoints: ['Основные понятия темы «Ритм и темп 🥁»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Ритм и темп 🥁»', 'Практическое задание: Ритм и темп 🥁'],
       },
       {
         type: 'quiz',
@@ -326,6 +343,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Громкость и динамика 🔊",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D1%80%D0%BE%D0%BC%D0%BA%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%20%F0%9F%94%8A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -336,6 +354,8 @@ export const games: GameLesson[] = [
         options: ["Громко 🔊", "Тихо 🔇", "Очень громко 🔊🔊", "Никто не знает", "Не знаю"],
         correctAnswer: "Тихо 🔇",
         hint: "Колыбельную поют тихо"
+        keyPoints: ['Основные понятия темы «Громкость и динамика 🔊»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Громкость и динамика 🔊»', 'Практическое задание: Громкость и динамика 🔊'],
       },
       {
         type: 'find',
@@ -370,6 +390,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Песня, танец, марш 🎵",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B5%D1%81%D0%BD%D1%8F%2C%20%D1%82%D0%B0%D0%BD%D0%B5%D1%86%2C%20%D0%BC%D0%B0%D1%80%D1%88%20%F0%9F%8E%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-pink-400",
@@ -381,9 +402,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой танец кружится?", options: ["Марш 🥁", "Вальс 💃", "Песня 🎤", "Никто не знает", "Не знаю"], correctAnswer: "Вальс 💃", hint: "Вальс — это кружащийся танец" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь жанры! 🎵" }
+    keyPoints: ['Основные понятия темы «Песня, танец, марш 🎵»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Песня, танец, марш 🎵»', 'Практическое задание: Песня, танец, марш 🎵'],
   },
   {
     title: "Музыкальные инструменты для детей 🎻",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B5%D1%82%D0%B5%D0%B9%20%F0%9F%8E%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-pink-400",
@@ -395,9 +419,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой инструмент звенит?", options: ["Барабан 🥁", "Треугольник 🔔", "Маракасы 🎇", "Никто не знает", "Не знаю"], correctAnswer: "Треугольник 🔔", hint: "Дзинь-дзинь!" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь инструменты! 🎻" }
+    keyPoints: ['Основные понятия темы «Музыкальные инструменты для детей 🎻»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Музыкальные инструменты для детей 🎻»', 'Практическое задание: Музыкальные инструменты для детей 🎻'],
   },
   {
     title: "Русские народные песни 🎶",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B5%D1%81%D0%BD%D0%B8%20%F0%9F%8E%B6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-pink-400",
@@ -409,9 +436,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что такое хоровод?", options: ["Танец в кругу 💃", "Песня соло 🎤", "Марш 🥁", "Никто не знает", "Не знаю"], correctAnswer: "Танец в кругу 💃", hint: "Хоровод водят по кругу" }
     ],
     reward: { stars: 3, message: "Прекрасно! Ты любишь народные песни! 🎶" }
+    keyPoints: ['Основные понятия темы «Русские народные песни 🎶»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Русские народные песни 🎶»', 'Практическое задание: Русские народные песни 🎶'],
   },
   {
     title: "Музыка в сказках 🏰",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%20%D0%B2%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%D1%85%20%F0%9F%8F%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-pink-400",
@@ -423,9 +453,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какая музыка в сказке о Золушке?", options: ["Грустная 😢", "Волшебная ✨", "Страшная 😱", "Никто не знает", "Не знаю"], correctAnswer: "Волшебная ✨", hint: "Золушка — волшебная сказка" }
     ],
     reward: { stars: 3, message: "Круто! Ты понимаешь музыку в сказках! 🏰" }
+    keyPoints: ['Основные понятия темы «Музыка в сказках 🏰»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Музыка в сказках 🏰»', 'Практическое задание: Музыка в сказках 🏰'],
   },
   {
     title: "Композиторы для детей 🎼",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B5%D1%82%D0%B5%D0%B9%20%F0%9F%8E%BC%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-pink-400",
@@ -437,9 +470,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Кто сочиняет музыку?", options: ["Певец 🎤", "Композитор 🎼", "Танцор 💃", "Никто не знает", "Не знаю"], correctAnswer: "Композитор 🎼", hint: "Композитор пишет музыку" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь композиторов! 🎼" }
+    keyPoints: ['Основные понятия темы «Композиторы для детей 🎼»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Композиторы для детей 🎼»', 'Практическое задание: Композиторы для детей 🎼'],
   },
   {
     title: "Музыка и настроение 😊",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%20%D0%B8%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5%20%F0%9F%98%8A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-pink-400",
@@ -451,5 +487,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какая музыка поднимает настроение?", options: ["Грустная 😢", "Весёлая 😊", "Страшная 😱", "Никто не знает", "Не знаю"], correctAnswer: "Весёлая 😊", hint: "Весёлая музыка радует" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь настроение музыки! 😊" }
+    keyPoints: ['Основные понятия темы «Музыка и настроение 😊»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Музыка и настроение 😊»', 'Практическое задание: Музыка и настроение 😊'],
   }
 ]

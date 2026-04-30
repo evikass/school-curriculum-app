@@ -1,8 +1,14 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[]) => ({ 
-  title, description, tasks, content, examples, facts, keyPoints
-})
+const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[], image?: string) => {
+  let finalImage = image;
+  if (!finalImage) {
+    const shortTitle = title.replace(/^Урок \d+:\s*/, '').substring(0, 35);
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#581c87"/><stop offset="100%" style="stop-color:#c084fc33"/></linearGradient></defs><rect width="400" height="250" rx="16" fill="url(#bg)"/><rect x="16" y="16" width="368" height="218" rx="8" fill="none" stroke="#d8b4fe33" stroke-width="1"/><text x="200" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#d8b4fe99">11 класс · Литература</text><text x="200" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#d8b4fe">${shortTitle}</text><line x1="100" y1="180" x2="300" y2="180" stroke="#c084fc66" stroke-width="2"/><circle cx="80" cy="220" r="4" fill="#c084fc"/><circle cx="320" cy="220" r="4" fill="#c084fc"/><text x="200" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#d8b4fe77">Литература</text></svg>`;
+    finalImage = 'data:image/svg+xml,' + encodeURIComponent(svg);
+  }
+  return { title, description, tasks, content, examples, facts, keyPoints, image: finalImage };
+}
 
 export const lessons: SubjectData = {
   title: "Литература",
@@ -41,6 +47,8 @@ export const lessons: SubjectData = {
         ["Ларра — гордыня, Данко — самопожертвование", "«На дне» — правда против жалости", "«Человек — это звучит гордо!» — Сатин"],
         ["Горький — основоположник соцреализма", "«На дне» — самая известная пьеса Горького", "Горький был несколько раз номинирован на Нобелевскую премию"], ["Ларра и Данко — противоположные образы", "«Человек — это звучит гордо!» — ключевой мотив пьесы", "Проблема правды и жалости — центральная в «На дне»"]),
       ]
+      keyPoints: ['Основные понятия темы «Литература»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+      examples: ['Пример: Литература — анализ литературного произведения', 'Практическое задание по теме «Литература»'],
     },
     {
       topic: "Русская литература советского периода",
@@ -144,6 +152,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Бунин и Куприн",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D1%83%D0%BD%D0%B8%D0%BD%20%D0%B8%20%D0%9A%D1%83%D0%BF%D1%80%D0%B8%D0%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -156,9 +165,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Желтков в «Гранатовом браслете» — маленький __", options: ["чиновник", "офицер", "купец", "мещанин", "дворянин"], correctAnswer: "чиновник", hint: "Его социальный статус" }
     ],
     reward: { stars: 3, message: "Ты знаешь Бунина и Куприна! 📚" }
+    keyPoints: ['Основные понятия темы «Бунин и Куприн»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Бунин и Куприн — анализ литературного произведения', 'Практическое задание по теме «Бунин и Куприн»'],
   },
   {
     title: "Горький и Булгаков",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%BE%D1%80%D1%8C%D0%BA%D0%B8%D0%B9%20%D0%B8%20%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D0%BA%D0%BE%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -171,9 +183,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "В «На дне» Лука — странник, а Сатин — __", options: ["слесарь", "шулер", "крючник", "вор", "сапожник"], correctAnswer: "шулер", hint: "Профессия героя" }
     ],
     reward: { stars: 3, message: "Ты знаешь Горького и Булгакова! 📖" }
+    keyPoints: ['Основные понятия темы «Горький и Булгаков»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Горький и Булгаков — анализ литературного произведения', 'Практическое задание по теме «Горький и Булгаков»'],
   },
   {
     title: "Шолохов: Тихий Дон",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A8%D0%BE%D0%BB%D0%BE%D1%85%D0%BE%D0%B2%3A%20%D0%A2%D0%B8%D1%85%D0%B8%D0%B9%20%D0%94%D0%BE%D0%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -186,9 +201,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "«Тихий Дон» описывает гражданскую __", options: ["смуту", "эпоху", "катастрофу", "революцию", "войну"], correctAnswer: "войну", hint: "Братоубийственная война" }
     ],
     reward: { stars: 3, message: "Ты знаешь «Тихий Дон»! 🌾" }
+    keyPoints: ['Основные понятия темы «Шолохов: Тихий Дон»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Шолохов: Тихий Дон — анализ литературного произведения', 'Практическое задание по теме «Шолохов: Тихий Дон»'],
   },
   {
     title: "Твардовский: Василий Тёркин",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B2%D0%B0%D1%80%D0%B4%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%3A%20%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9%20%D0%A2%D1%91%D1%80%D0%BA%D0%B8%D0%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -201,9 +219,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Тёркин — жизнелюб и мастер на все __", options: ["ремёсла", "науки", "искусства", "руки", "дела"], correctAnswer: "руки", hint: "Умелец" }
     ],
     reward: { stars: 3, message: "Ты знаешь «Василия Тёркина»! ⭐" }
+    keyPoints: ['Основные понятия темы «Твардовский: Василий Тёркин»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Твардовский: Василий Тёркин — анализ литературного произведения', 'Практическое задание по теме «Твардовский: Василий Тёркин»'],
   },
   {
     title: "Литература о войне",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%20%D0%BE%20%D0%B2%D0%BE%D0%B9%D0%BD%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -216,9 +237,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сотников выбирает:", options: ["Предательство", "Мученическую смерть", "Побег", "Сотрудничество", "—"], correctAnswer: "Мученическую смерть", hint: "Не предаёт" }
     ],
     reward: { stars: 3, message: "Ты знаешь военную прозу! 🎖️" }
+    keyPoints: ['Основные понятия темы «Литература о войне»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Литература о войне — анализ литературного произведения', 'Практическое задание по теме «Литература о войне»'],
   },
   {
     title: "Солженицын",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD%D0%B8%D1%86%D1%8B%D0%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -231,9 +255,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Рассказ опубликован в журнале «Новый __»", options: ["мир", "век", "путь", "дом", "день"], correctAnswer: "мир", hint: "Твардовский был редактором" }
     ],
     reward: { stars: 3, message: "Ты знаешь Солженицына! ✊" }
+    keyPoints: ['Основные понятия темы «Солженицын»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Солженицын — анализ литературного произведения', 'Практическое задание по теме «Солженицын»'],
   },
   {
     title: "Распутин: Прощание с Матёрой",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D1%81%D0%BF%D1%83%D1%82%D0%B8%D0%BD%3A%20%D0%9F%D1%80%D0%BE%D1%89%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%81%20%D0%9C%D0%B0%D1%82%D1%91%D1%80%D0%BE%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -246,9 +273,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Матёра — это символ:", options: ["Города", "Уходящей России", "Прогресса", "Молодости", "—"], correctAnswer: "Уходящей России", hint: "Традиционный уклад" }
     ],
     reward: { stars: 3, message: "Ты знаешь Распутина! 🏡" }
+    keyPoints: ['Основные понятия темы «Распутин: Прощание с Матёрой»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Распутин: Прощание с Матёрой — анализ литературного произведения', 'Практическое задание по теме «Распутин: Прощание с Матёрой»'],
   },
   {
     title: "Мастер и Маргарита",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%20%D0%B8%20%D0%9C%D0%B0%D1%80%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -261,9 +291,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Роман был опубликован при жизни автора:", options: ["Да", "Нет", "Частично", "За границей", "—"], correctAnswer: "Нет", hint: "Опубликовано в 1966-67" }
     ],
     reward: { stars: 3, message: "Ты знаешь «Мастера и Маргариту»! 😈" }
+    keyPoints: ['Основные понятия темы «Мастер и Маргарита»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Мастер и Маргарита — анализ литературного произведения', 'Практическое задание по теме «Мастер и Маргарита»'],
   },
   {
     title: "На дне",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%B0%20%D0%B4%D0%BD%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -276,9 +309,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Лука в конце пьесы:", options: ["Остаётся", "Уходит", "Умирает", "Арестован", "—"], correctAnswer: "Уходит", hint: "Исчезает" }
     ],
     reward: { stars: 3, message: "Ты знаешь «На дне»! 🎭" }
+    keyPoints: ['Основные понятия темы «На дне»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: На дне — анализ литературного произведения', 'Практическое задание по теме «На дне»'],
   },
   {
     title: "Теория литературы",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F%20%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -291,9 +327,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Метафора — это:", options: ["Явное сравнение", "Скрытое сравнение", "Преувеличение", "Противопоставление", "—"], correctAnswer: "Скрытое сравнение", hint: "Без союзов как, словно" }
     ],
     reward: { stars: 3, message: "Ты знаешь теорию литературы! 📚" }
+    keyPoints: ['Основные понятия темы «Теория литературы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Теория литературы — анализ литературного произведения', 'Практическое задание по теме «Теория литературы»'],
   },
   {
     title: "Средства выразительности",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%20%D0%B2%D1%8B%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -306,9 +345,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Олицетворение — наделяет предметы:", options: ["Цветом", "Свойствами человека", "Запахом", "Звуком", "—"], correctAnswer: "Свойствами человека", hint: "Ветер воет" }
     ],
     reward: { stars: 3, message: "Ты знаешь средства выразительности! 🎨" }
+    keyPoints: ['Основные понятия темы «Средства выразительности»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Средства выразительности — анализ литературного произведения', 'Практическое задание по теме «Средства выразительности»'],
   },
   {
     title: "ЕГЭ по литературе",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%95%D0%93%D0%AD%20%D0%BF%D0%BE%20%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -321,9 +363,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "При анализе прозы нужно рассмотреть:", options: ["Только сюжет", "Героев, сюжет, идею", "Только героев", "Только идею", "—"], correctAnswer: "Героев, сюжет, идею", hint: "Комплексный анализ" }
     ],
     reward: { stars: 3, message: "Ты готов к ЕГЭ! 🎓" }
+    keyPoints: ['Основные понятия темы «ЕГЭ по литературе»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: ЕГЭ по литературе — анализ литературного произведения', 'Практическое задание по теме «ЕГЭ по литературе»'],
   },
   {
     title: "Русская литература XX века",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%20XX%20%D0%B2%D0%B5%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -336,11 +381,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Военная проза описывает:", options: ["Великая Отечественную войну", "Мирную жизнь", "Великую Отечественную войну", "Гражданскую войну", "Все войны"], correctAnswer: "Великая Отечественную войну", hint: "Васильев, Быков" }
     ],
     reward: { stars: 3, message: "Ты знаешь литературу XX века! 📖" }
+    keyPoints: ['Основные понятия темы «Русская литература XX века»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Русская литература XX века — анализ литературного произведения', 'Практическое задание по теме «Русская литература XX века»'],
   },
   // ========== ТЕСТЫ К УРОКАМ ==========
   {
     title: "Урок 1: И.А. Бунин",
-        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson1.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%98.%D0%90.%20%D0%91%D1%83%D0%BD%D0%B8%D0%BD%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -353,10 +400,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "«Господин из Сан-Франциско» критикует:", options: ["Войну", "Бездуховность", "Революцию", "Бедность", "—"], correctAnswer: "Бездуховность", hint: "Жизнь без смысла" }
     ],
     reward: { stars: 3, message: "Ты знаешь творчество Бунина! 📖" }
+    keyPoints: ['Основные понятия темы «Урок 1: И.А. Бунин»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 1: И.А. Бунин — анализ литературного произведения', 'Практическое задание по теме «Урок 1: И.А. Бунин»'],
   },
   {
     title: "Урок 2: А.И. Куприн",
-        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson2.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%90.%D0%98.%20%D0%9A%D1%83%D0%BF%D1%80%D0%B8%D0%BD%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -369,10 +418,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "«Олеся» — о конфликте:", options: ["Любви и долга", "Цивилизации и природы", "Богатых и бедных", "Отцов и детей", "—"], correctAnswer: "Цивилизации и природы", hint: "Естественный человек" }
     ],
     reward: { stars: 3, message: "Ты знаешь творчество Куприна! 💕" }
+    keyPoints: ['Основные понятия темы «Урок 2: А.И. Куприн»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 2: А.И. Куприн — анализ литературного произведения', 'Практическое задание по теме «Урок 2: А.И. Куприн»'],
   },
   {
     title: "Урок 3: М. Горький",
-        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson3.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%9C.%20%D0%93%D0%BE%D1%80%D1%8C%D0%BA%D0%B8%D0%B9%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -385,10 +436,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Лука в «На дне» — это:", options: ["Шулер", "Странник", "Вор", "Сапожник", "—"], correctAnswer: "Странник", hint: "Утешитель" }
     ],
     reward: { stars: 3, message: "Ты знаешь творчество Горького! 🔥" }
+    keyPoints: ['Основные понятия темы «Урок 3: М. Горький»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 3: М. Горький — анализ литературного произведения', 'Практическое задание по теме «Урок 3: М. Горький»'],
   },
   {
     title: "Урок 4: М.А. Булгаков",
-        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson4.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%9C.%D0%90.%20%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D0%BA%D0%BE%D0%B2%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -401,10 +454,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Ершалаим — это:", options: ["Москва", "Древний Иерусалим", "Петербург", "Рим", "—"], correctAnswer: "Древний Иерусалим", hint: "I век н.э." }
     ],
     reward: { stars: 3, message: "Ты знаешь творчество Булгакова! 😈" }
+    keyPoints: ['Основные понятия темы «Урок 4: М.А. Булгаков»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 4: М.А. Булгаков — анализ литературного произведения', 'Практическое задание по теме «Урок 4: М.А. Булгаков»'],
   },
   {
     title: "Урок 5: М.А. Шолохов",
-        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson5.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%9C.%D0%90.%20%D0%A8%D0%BE%D0%BB%D0%BE%D1%85%D0%BE%D0%B2%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -417,10 +472,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Роман писался:", options: ["5 лет", "8 лет", "12 лет", "20 лет", "—"], correctAnswer: "12 лет", hint: "Долгая работа" }
     ],
     reward: { stars: 3, message: "Ты знаешь «Тихий Дон»! 🌾" }
+    keyPoints: ['Основные понятия темы «Урок 5: М.А. Шолохов»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 5: М.А. Шолохов — анализ литературного произведения', 'Практическое задание по теме «Урок 5: М.А. Шолохов»'],
   },
   {
     title: "Урок 6: А.Т. Твардовский",
-        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson6.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%90.%D0%A2.%20%D0%A2%D0%B2%D0%B0%D1%80%D0%B4%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -433,10 +490,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Тёркин — это:", options: ["Герой с пафосом", "Простой солдат", "Генерал", "Партизан", "—"], correctAnswer: "Простой солдат", hint: "Жизнелюб" }
     ],
     reward: { stars: 3, message: "Ты знаешь «Василия Тёркина»! ⭐" }
+    keyPoints: ['Основные понятия темы «Урок 6: А.Т. Твардовский»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 6: А.Т. Твардовский — анализ литературного произведения', 'Практическое задание по теме «Урок 6: А.Т. Твардовский»'],
   },
   {
     title: "Урок 7: Б.Л. Васильев",
-        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson7.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%91.%D0%9B.%20%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -449,10 +508,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Главная идея:", options: ["Война — мужское дело", "Женский подвиг на войне", "Любовь на войне", "Предательство", "—"], correctAnswer: "Женский подвиг на войне", hint: "Война — не женское дело" }
     ],
     reward: { stars: 3, message: "Ты знаешь «А зори здесь тихие»! 🌅" }
+    keyPoints: ['Основные понятия темы «Урок 7: Б.Л. Васильев»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 7: Б.Л. Васильев — анализ литературного произведения', 'Практическое задание по теме «Урок 7: Б.Л. Васильев»'],
   },
   {
     title: "Урок 8: В. Быков",
-        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson8.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%92.%20%D0%91%D1%8B%D0%BA%D0%BE%D0%B2%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -465,10 +526,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Быкова называли:", options: ["Писателем войны", "Писателем одной темы", "Писателем любви", "Писателем природы", "—"], correctAnswer: "Писателем одной темы", hint: "Нравственный выбор" }
     ],
     reward: { stars: 3, message: "Ты знаешь творчество Быкова! ✊" }
+    keyPoints: ['Основные понятия темы «Урок 8: В. Быков»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 8: В. Быков — анализ литературного произведения', 'Практическое задание по теме «Урок 8: В. Быков»'],
   },
   {
     title: "Урок 9: А.И. Солженицын",
-        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson9.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%90.%D0%98.%20%D0%A1%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD%D0%B8%D1%86%D1%8B%D0%BD%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -481,10 +544,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Главная тема рассказа:", options: ["Война", "ГУЛАГ", "Коллективизация", "Любовь", "—"], correctAnswer: "ГУЛАГ", hint: "Первое легальное произведение" }
     ],
     reward: { stars: 3, message: "Ты знаешь творчество Солженицына! 📖" }
+    keyPoints: ['Основные понятия темы «Урок 9: А.И. Солженицын»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 9: А.И. Солженицын — анализ литературного произведения', 'Практическое задание по теме «Урок 9: А.И. Солженицын»'],
   },
   {
     title: "Урок 10: В.Г. Распутин",
-        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson10.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%92.%D0%93.%20%D0%A0%D0%B0%D1%81%D0%BF%D1%83%D1%82%D0%B8%D0%BD%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -497,10 +562,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Распутин родился в:", options: ["Подмосковье", "Иркутской области", "Краснодарском крае", "Сибири", "—"], correctAnswer: "Иркутской области", hint: "Сибирь" }
     ],
     reward: { stars: 3, message: "Ты знаешь творчество Распутина! 🏡" }
+    keyPoints: ['Основные понятия темы «Урок 10: В.Г. Распутин»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 10: В.Г. Распутин — анализ литературного произведения', 'Практическое задание по теме «Урок 10: В.Г. Распутин»'],
   },
   {
     title: "Урок 11: Теория литературы",
-        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson11.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F%20%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D1%8B%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -513,10 +580,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Метафора — это:", options: ["Явное сравнение", "Скрытое сравнение", "Преувеличение", "Противопоставление", "—"], correctAnswer: "Скрытое сравнение", hint: "Без «как»" }
     ],
     reward: { stars: 3, message: "Ты знаешь теорию литературы! 📚" }
+    keyPoints: ['Основные понятия темы «Урок 11: Теория литературы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 11: Теория литературы — анализ литературного произведения', 'Практическое задание по теме «Урок 11: Теория литературы»'],
   },
   {
     title: "Урок 12: Итоговое повторение",
-        image: "/school-curriculum-app/images/lessons/grade11/literature/lesson12.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -529,5 +598,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Военная проза — это:", options: ["Горький", "Васильев, Быков", "Бунин", "Куприн", "—"], correctAnswer: "Васильев, Быков", hint: "Великая Отечественная" }
     ],
     reward: { stars: 3, message: "Ты готов к экзамену! 🎓" }
+    keyPoints: ['Основные понятия темы «Урок 12: Итоговое повторение»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 12: Итоговое повторение — анализ литературного произведения', 'Практическое задание по теме «Урок 12: Итоговое повторение»'],
   }
 ]

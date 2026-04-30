@@ -402,6 +402,8 @@ export const games = [
       { type: 'quiz', question: "What's the Russian for 'frequency adverb'?", options: ["Глагол", "Наречие частотности", "Прилагательное", "Существительное", "Другой ответ"], correctAnswer: "Наречие частотности", hint: "Always, often, never" }
     ],
     reward: { stars: 3, message: "Excellent! You know daily routines! 🌟" }
+    keyPoints: ['Основные понятия темы «Daily Life»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Daily Life — practice English skills', 'Практическое задание по теме «Daily Life»'],
   },
   {
     title: "Travel and Environment",
@@ -417,6 +419,8 @@ export const games = [
       { type: 'quiz', question: "What's the Past Simple of 'go'?", options: ["goed", "went", "gone", "going", "Другой ответ"], correctAnswer: "went", hint: "Irregular verb" }
     ],
     reward: { stars: 3, message: "Great job! You're an English pro! 🎉" }
+    keyPoints: ['Основные понятия темы «Travel and Environment»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Travel and Environment — practice English skills', 'Практическое задание по теме «Travel and Environment»'],
   },
   {
     title: "Travel and Tourism",
@@ -432,6 +436,8 @@ export const games = [
       { type: 'quiz', question: "How do you ask for directions to a museum?", options: ["What is a museum?", "How do I get to the museum?", "Where is the museum from?", "Do you like museums?", "Другой ответ"], correctAnswer: "How do I get to the museum?", hint: "Useful phrase for tourists" }
     ],
     reward: { stars: 3, message: "Amazing! You're ready to travel! ✈️" }
+    keyPoints: ['Основные понятия темы «Travel and Tourism»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Travel and Tourism — practice English skills', 'Практическое задание по теме «Travel and Tourism»'],
   },
   {
     title: "Technology",
@@ -447,6 +453,8 @@ export const games = [
       { type: 'quiz', question: "Have you ever ___ this app?", options: ["use", "uses", "using", "used", "Другой ответ"], correctAnswer: "used", hint: "Present Perfect: have/has + Past Participle" }
     ],
     reward: { stars: 3, message: "Great! You're a digital native! 💻" }
+    keyPoints: ['Основные понятия темы «Technology»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Example: Technology — practice English skills', 'Практическое задание по теме «Technology»'],
   },
   {
     title: "Daily Routines and Habits",

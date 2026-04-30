@@ -1611,6 +1611,7 @@ export const games: GameLesson[] = [
   // ========== МАТЕМАТИКА (18 тестов) ==========
   {
     title: "Класс единиц и класс тысяч",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BB%D0%B0%D1%81%D1%81%20%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%20%D0%B8%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%D1%82%D1%8B%D1%81%D1%8F%D1%87%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1622,10 +1623,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какие разряды входят в класс единиц?", options: ["Единицы, десятки, сотни", "Единицы тысяч, десятки тысяч", "Только единицы", "Сотни тысяч, десятки тысяч", "Только десятки"], correctAnswer: "Единицы, десятки, сотни", hint: "Класс единиц: 1-й, 2-й и 3-й разряды" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь классы и разряды! 🏛️" }
+    keyPoints: ['Основные понятия темы «Класс единиц и класс тысяч»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Класс единиц и класс тысяч — решаем задачи step by step', 'Практическое задание по теме «Класс единиц и класс тысяч»'],
   },
 
   {
     title: "Чтение и запись многозначных чисел",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%B7%D0%BD%D0%B0%D1%87%D0%BD%D1%8B%D1%85%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1637,10 +1641,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "В числе 50 007 — сколько единиц тысяч?", options: ["50", "5", "500", "7", "50 007"], correctAnswer: "50", hint: "50 007 = 50 тысяч и 7 единиц" }
     ],
     reward: { stars: 3, message: "Супер! Ты читаешь многозначные числа! 📖" }
+    keyPoints: ['Основные понятия темы «Чтение и запись многозначных чисел»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Чтение и запись многозначных чисел — решаем задачи step by step', 'Практическое задание по теме «Чтение и запись многозначных чисел»'],
   },
 
   {
     title: "Увеличение и уменьшение чисел",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D1%83%D0%BC%D0%B5%D0%BD%D1%8C%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1652,10 +1659,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Чему равно 230 ÷ 10?", options: ["23", "2300", "230", "23 000", "20"], correctAnswer: "23", hint: "Убери один ноль справа" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь увеличивать и уменьшать числа! ⬆️" }
+    keyPoints: ['Основные понятия темы «Увеличение и уменьшение чисел»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Увеличение и уменьшение чисел — решаем задачи step by step', 'Практическое задание по теме «Увеличение и уменьшение чисел»'],
   },
 
   {
     title: "Сложение многозначных чисел",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%B7%D0%BD%D0%B0%D1%87%D0%BD%D1%8B%D1%85%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1667,10 +1677,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "56 300 + 23 700 = ?", options: ["80 000", "79 000", "80 100", "79 100", "81 000"], correctAnswer: "80 000", hint: "56 300 + 23 700 = 80 000" }
     ],
     reward: { stars: 3, message: "Молодец! Ты складываешь многозначные числа! ➕" }
+    keyPoints: ['Основные понятия темы «Сложение многозначных чисел»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Сложение многозначных чисел — решаем задачи step by step', 'Практическое задание по теме «Сложение многозначных чисел»'],
   },
 
   {
     title: "Вычитание многозначных чисел",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D1%8B%D1%87%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%B7%D0%BD%D0%B0%D1%87%D0%BD%D1%8B%D1%85%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1682,10 +1695,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "82 400 − 45 600 = ?", options: ["37 800", "36 800", "37 700", "36 700", "38 800"], correctAnswer: "36 800", hint: "82 400 − 45 600 = 36 800" }
     ],
     reward: { stars: 3, message: "Супер! Ты вычитаешь многозначные числа! ➖" }
+    keyPoints: ['Основные понятия темы «Вычитание многозначных чисел»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Вычитание многозначных чисел — решаем задачи step by step', 'Практическое задание по теме «Вычитание многозначных чисел»'],
   },
 
   {
     title: "Умножение на однозначное число",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%BE%D0%B4%D0%BD%D0%BE%D0%B7%D0%BD%D0%B0%D1%87%D0%BD%D0%BE%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%BE%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1697,10 +1713,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "345 × 2 = ?", options: ["680", "690", "700", "660", "670"], correctAnswer: "690", hint: "300×2 + 40×2 + 5×2 = 690" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умножаешь столбиком! ✖️" }
+    keyPoints: ['Основные понятия темы «Умножение на однозначное число»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Умножение на однозначное число — решаем задачи step by step', 'Практическое задание по теме «Умножение на однозначное число»'],
   },
 
   {
     title: "Деление на однозначное число",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%BE%D0%B4%D0%BD%D0%BE%D0%B7%D0%BD%D0%B0%D1%87%D0%BD%D0%BE%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%BE%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1712,10 +1731,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "На ноль делить:", options: ["Можно", "Нельзя", "Получится 0", "Получится 1", "Зависит от числа"], correctAnswer: "Нельзя", hint: "На ноль делить нельзя!" }
     ],
     reward: { stars: 3, message: "Молодец! Ты делишь уголком! ➗" }
+    keyPoints: ['Основные понятия темы «Деление на однозначное число»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Деление на однозначное число — решаем задачи step by step', 'Практическое задание по теме «Деление на однозначное число»'],
   },
 
   {
     title: "Умножение на числа с нулями",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%20%D1%81%20%D0%BD%D1%83%D0%BB%D1%8F%D0%BC%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1727,10 +1749,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Чтобы умножить на 10, нужно:", options: ["Убрать ноль", "Приписать ноль", "Умножить на 2", "Разделить на 10", "Прибавить 10"], correctAnswer: "Приписать ноль", hint: "Умножение на 10 = приписать один ноль" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь умножать на круглые числа! ⭕" }
+    keyPoints: ['Основные понятия темы «Умножение на числа с нулями»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Умножение на числа с нулями — решаем задачи step by step', 'Практическое задание по теме «Умножение на числа с нулями»'],
   },
 
   {
     title: "Деление на числа с нулями",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%20%D1%81%20%D0%BD%D1%83%D0%BB%D1%8F%D0%BC%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1742,10 +1767,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Чтобы разделить на 100, нужно:", options: ["Приписать нули", "Убрать два нуля", "Умножить на 100", "Прибавить 100", "Разделить на 10"], correctAnswer: "Убрать два нуля", hint: "Деление на 100 = убрать два нуля" }
     ],
     reward: { stars: 3, message: "Супер! Ты делишь на круглые числа! 🔘" }
+    keyPoints: ['Основные понятия темы «Деление на числа с нулями»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Деление на числа с нулями — решаем задачи step by step', 'Практическое задание по теме «Деление на числа с нулями»'],
   },
 
   {
     title: "Доли и дроби",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%BE%D0%BB%D0%B8%20%D0%B8%20%D0%B4%D1%80%D0%BE%D0%B1%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1757,10 +1785,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как читается дробь 3/8?", options: ["Три восемь", "Три восьмых", "Трёхвосьмая", "Восемь третьих", "Третья восьмая"], correctAnswer: "Три восьмых", hint: "Числитель — количественное, знаменатель — порядковое" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь дроби! 🥧" }
+    keyPoints: ['Основные понятия темы «Доли и дроби»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Доли и дроби — решаем задачи step by step', 'Практическое задание по теме «Доли и дроби»'],
   },
 
   {
     title: "Сравнение дробей",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D1%80%D0%BE%D0%B1%D0%B5%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1772,10 +1803,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "7/10 и 4/10 — какая больше?", options: ["7/10", "4/10", "Они равны", "Нельзя сравнить", "10/10"], correctAnswer: "7/10", hint: "Знаменатели одинаковые, 7 > 4" }
     ],
     reward: { stars: 3, message: "Молодец! Ты умеешь сравнивать дроби! ⚖️" }
+    keyPoints: ['Основные понятия темы «Сравнение дробей»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Сравнение дробей — решаем задачи step by step', 'Практическое задание по теме «Сравнение дробей»'],
   },
 
   {
     title: "Сложение дробей",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D1%80%D0%BE%D0%B1%D0%B5%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1787,10 +1821,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "2/6 + 1/6 (после сокращения) = ?", options: ["3/6 = 1/2", "3/6", "2/6", "1/6", "3/12"], correctAnswer: "3/6 = 1/2", hint: "(2+1)/6 = 3/6, сократим: 1/2" }
     ],
     reward: { stars: 3, message: "Супер! Ты складываешь дроби! ➕" }
+    keyPoints: ['Основные понятия темы «Сложение дробей»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Сложение дробей — решаем задачи step by step', 'Практическое задание по теме «Сложение дробей»'],
   },
 
   {
     title: "Вычитание дробей",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D1%8B%D1%87%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B4%D1%80%D0%BE%D0%B1%D0%B5%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1802,10 +1839,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Из меньшей дроби можно вычесть большую?", options: ["Да", "Нет", "Иногда", "Только если целые", "Только с нулём"], correctAnswer: "Нет", hint: "Например, из 1/4 нельзя вычесть 3/4" }
     ],
     reward: { stars: 3, message: "Отлично! Ты вычитаешь дроби! ➖" }
+    keyPoints: ['Основные понятия темы «Вычитание дробей»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Вычитание дробей — решаем задачи step by step', 'Практическое задание по теме «Вычитание дробей»'],
   },
 
   {
     title: "Нахождение части числа",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%B0%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%87%D0%B0%D1%81%D1%82%D0%B8%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1817,10 +1857,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "В классе 28 учеников. 3/7 из них — девочки. Сколько?", options: ["12", "14", "10", "16", "8"], correctAnswer: "12", hint: "28 ÷ 7 × 3 = 4 × 3 = 12" }
     ],
     reward: { stars: 3, message: "Молодец! Ты находишь часть числа! 🔍" }
+    keyPoints: ['Основные понятия темы «Нахождение части числа»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Нахождение части числа — решаем задачи step by step', 'Практическое задание по теме «Нахождение части числа»'],
   },
 
   {
     title: "Нахождение числа по его части",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%B0%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%20%D0%BF%D0%BE%20%D0%B5%D0%B3%D0%BE%20%D1%87%D0%B0%D1%81%D1%82%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1832,10 +1875,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Продали 2/3 яблок, что составило 40 кг. Сколько всего?", options: ["60", "80", "40", "50", "70"], correctAnswer: "60", hint: "40 ÷ 2 × 3 = 20 × 3 = 60" }
     ],
     reward: { stars: 3, message: "Супер! Ты находишь число по части! 🔎" }
+    keyPoints: ['Основные понятия темы «Нахождение числа по его части»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Нахождение числа по его части — решаем задачи step by step', 'Практическое задание по теме «Нахождение числа по его части»'],
   },
 
   {
     title: "Единицы площади",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%95%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1847,10 +1893,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько см² в 5 м²?", options: ["50 000", "5000", "500", "50", "500 000"], correctAnswer: "50 000", hint: "5 м² = 500 дм² = 50 000 см²" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь единицы площади! 📊" }
+    keyPoints: ['Основные понятия темы «Единицы площади»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Единицы площади — решаем задачи step by step', 'Практическое задание по теме «Единицы площади»'],
   },
 
   {
     title: "Геометрические тела",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%82%D0%B5%D0%BB%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1862,10 +1911,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько рёбер у куба?", options: ["6", "8", "10", "12", "16"], correctAnswer: "12", hint: "У куба 12 рёбер" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь геометрические тела! 🔷" }
+    keyPoints: ['Основные понятия темы «Геометрические тела»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Геометрические тела — решаем задачи step by step', 'Практическое задание по теме «Геометрические тела»'],
   },
 
   {
     title: "Единицы длины",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%95%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B%20%D0%B4%D0%BB%D0%B8%D0%BD%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1877,10 +1929,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько сантиметров в 3 метрах?", options: ["30", "300", "3000", "3", "300 000"], correctAnswer: "300", hint: "1 м = 100 см, 3 м = 300 см" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь единицы длины! 📏" }
+    keyPoints: ['Основные понятия темы «Единицы длины»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Единицы длины — решаем задачи step by step', 'Практическое задание по теме «Единицы длины»'],
   },
 
   {
     title: "Нумерация чисел от 1 до 1000",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D1%83%D0%BC%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB%20%D0%BE%D1%82%201%20%D0%B4%D0%BE%201000%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1892,10 +1947,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Предыдущее число для 1000 — это (...)", options: ["999", "2997", "1099", "1004", "1000"], correctAnswer: "999", hint: "Предыдущее число на 1 меньше: 1000 − 1 = 999" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь нумерацию до 1000! 📚" }
+    keyPoints: ['Основные понятия темы «Нумерация чисел от 1 до 1000»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Нумерация чисел от 1 до 1000 — решаем задачи step by step', 'Практическое задание по теме «Нумерация чисел от 1 до 1000»'],
   },
 
   {
     title: "Геометрические фигуры",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B8%D0%B3%D1%83%D1%80%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1907,10 +1965,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Периметр треугольника со сторонами 4, 5 и 6 см равен:", options: ["11 см", "12 см", "15 см", "16 см", "20 см"], correctAnswer: "15 см", hint: "P = a + b + c = 4 + 5 + 6 = 15 см" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь геометрические фигуры! 📐" }
+    keyPoints: ['Основные понятия темы «Геометрические фигуры»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Геометрические фигуры — решаем задачи step by step', 'Практическое задание по теме «Геометрические фигуры»'],
   },
 
   {
     title: "Площадь прямоугольника",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C%20%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1932,6 +1993,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Единицы массы",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%95%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B%20%D0%BC%D0%B0%D1%81%D1%81%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1943,10 +2005,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "5000 г = ? кг", options: ["50", "5", "500", "0,5", "5000"], correctAnswer: "5", hint: "1 кг = 1000 г, поэтому 5000 г = 5 кг" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь единицы массы! ⚖️" }
+    keyPoints: ['Основные понятия темы «Единицы массы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Единицы массы — решаем задачи step by step', 'Практическое задание по теме «Единицы массы»'],
   },
 
   {
     title: "Единицы времени",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%95%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B%20%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1958,10 +2023,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько лет в 1 веке?", options: ["10", "50", "100", "1000", "365"], correctAnswer: "100", hint: "1 век (столетие) = 100 лет" }
     ],
     reward: { stars: 3, message: "Молодец! Ты знаешь единицы времени! ⏰" }
+    keyPoints: ['Основные понятия темы «Единицы времени»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Единицы времени — решаем задачи step by step', 'Практическое задание по теме «Единицы времени»'],
   },
 
   {
     title: "Действия с величинами",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D1%81%20%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1973,10 +2041,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "3 км = (...) м", options: ["0300", "3100", "2900", "3002", "3000"], correctAnswer: "3000", hint: "1 км = 1000 м, 3 × 1000 = 3000 м" }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь выполнять действия с величинами! 🔢" }
+    keyPoints: ['Основные понятия темы «Действия с величинами»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Действия с величинами — решаем задачи step by step', 'Практическое задание по теме «Действия с величинами»'],
   },
 
   {
     title: "Задачи на движение",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%20%D0%BD%D0%B0%20%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -1988,10 +2059,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Пешеход шёл 2 часа со скоростью 5 км/ч. Он прошёл (...) км", options: ["10", "100", "8", "1010", "30"], correctAnswer: "10", hint: "S = v × t = 5 × 2 = 10 км" }
     ],
     reward: { stars: 3, message: "Отлично! Ты решаешь задачи на движение! 🚗" }
+    keyPoints: ['Основные понятия темы «Задачи на движение»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Задачи на движение — решаем задачи step by step', 'Практическое задание по теме «Задачи на движение»'],
   },
 
   {
     title: "Задачи на противоположное движение",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2003,10 +2077,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Из одного пункта в противоположных направлениях выехали велосипедист (15 км/ч) и пешеход (5 км/ч). Через 2 часа расстояние между ними будет (...) км", options: ["04", "1040", "40", "30", "50"], correctAnswer: "40", hint: "Скорость удаления = 15 + 5 = 20 км/ч, S = 20 × 2 = 40 км" }
     ],
     reward: { stars: 3, message: "Молодец! Ты решаешь задачи на движение! 🏃" }
+    keyPoints: ['Основные понятия темы «Задачи на противоположное движение»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Задачи на противоположное движение — решаем задачи step by step', 'Практическое задание по теме «Задачи на противоположное движение»'],
   },
 
   {
     title: "Задачи на работу",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%20%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2018,10 +2095,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Плотник делает 4 табуретки в час. Ему нужно сделать 24 табуретки. Это займёт (...) часов", options: ["60", "18", "7", "6", "1006"], correctAnswer: "6", hint: "Время = A ÷ производительность = 24 ÷ 4 = 6 часов" }
     ],
     reward: { stars: 3, message: "Супер! Ты решаешь задачи на работу! 🔧" }
+    keyPoints: ['Основные понятия темы «Задачи на работу»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Задачи на работу — решаем задачи step by step', 'Практическое задание по теме «Задачи на работу»'],
   },
 
   {
     title: "Задачи на цену, количество, стоимость",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%20%D0%BD%D0%B0%20%D1%86%D0%B5%D0%BD%D1%83%2C%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%2C%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%E2%80%A6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -2033,5 +2113,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Купили 6 кг яблок по 45 рублей за кг. Стоимость покупки — (...) рублей", options: ["170", "271", "810", "265", "270"], correctAnswer: "270", hint: "C = a × n = 45 × 6 = 270 рублей" }
     ],
     reward: { stars: 3, message: "Отлично! Ты решаешь задачи на покупку! 💰" }
+    keyPoints: ['Основные понятия темы «Задачи на цену, количество, стоимость»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Задачи на цену, количество, стоимость — решаем задачи step by step', 'Практическое задание по теме «Задачи на цену, количество, стоимость»'],
   }
 ]

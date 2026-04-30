@@ -506,6 +506,7 @@ export const games: GameLesson[] = [
   // ==================== ПРОЕКТНАЯ ДЕЯТЕЛЬНОСТЬ (12 тестов) ====================
   {
     title: "Выбор темы исследования",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D1%8B%D0%B1%D0%BE%D1%80%20%D1%82%D0%B5%D0%BC%D1%8B%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная деятельность",
     icon: "Lightbulb",
     color: "text-emerald-400",
@@ -517,10 +518,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Тема проекта должна быть:", options: ["Очень сложной", "Посильной по времени и ресурсам", "Очень длинной", "Скучной", "Неинтересной"], correctAnswer: "Посильной по времени и ресурсам", hint: "Тема должна быть посильной по времени и ресурсам" }
     ],
     reward: { stars: 3, message: "Идеально! Ты умеешь выбирать тему! 💡" }
+    keyPoints: ['Основные понятия темы «Выбор темы исследования»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Выбор темы исследования»', 'Практическое задание: Выбор темы исследования'],
   },
 
   {
     title: "Сбор информации",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B1%D0%BE%D1%80%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная деятельность",
     icon: "Lightbulb",
     color: "text-emerald-400",
@@ -532,10 +536,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько книг публикуется в мире за год?", options: ["500 тысяч", "1 миллион", "2,5 миллиона", "5 миллионов", "10 миллионов"], correctAnswer: "2,5 миллиона", hint: "В мире публикуется 2,5 миллиона книг в год" }
     ],
     reward: { stars: 3, message: "Информированно! Ты умеешь искать информацию! 📚" }
+    keyPoints: ['Основные понятия темы «Сбор информации»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Сбор информации»', 'Практическое задание: Сбор информации'],
   },
 
   {
     title: "Методы исследования",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная деятельность",
     icon: "Lightbulb",
     color: "text-emerald-400",
@@ -547,10 +554,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой метод лучше всего показывает мнение людей?", options: ["Наблюдение", "Эксперимент", "Опрос", "Измерение", "Взвешивание"], correctAnswer: "Опрос", hint: "Опрос показывает мнение людей" }
     ],
     reward: { stars: 3, message: "Исследовательно! Ты знаешь методы! 🔬" }
+    keyPoints: ['Основные понятия темы «Методы исследования»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Методы исследования»', 'Практическое задание: Методы исследования'],
   },
 
   {
     title: "Анализ и выводы",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B8%20%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная деятельность",
     icon: "Lightbulb",
     color: "text-emerald-400",
@@ -562,10 +572,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Во сколько раз быстрее мозг обрабатывает визуальную информацию?", options: ["В 100 раз", "В 1000 раз", "В 10 000 раз", "В 60 000 раз", "В 100 000 раз"], correctAnswer: "В 60 000 раз", hint: "Мозг обрабатывает визуальную информацию в 60 000 раз быстрее" }
     ],
     reward: { stars: 3, message: "Аналитично! Ты умеешь делать выводы! 📊" }
+    keyPoints: ['Основные понятия темы «Анализ и выводы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Анализ и выводы»', 'Практическое задание: Анализ и выводы'],
   },
 
   {
     title: "Проектирование макета",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная деятельность",
     icon: "Lightbulb",
     color: "text-emerald-400",
@@ -577,10 +590,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько лет назад появились первые чертежи?", options: ["1000", "2000", "3000", "5000", "10 000"], correctAnswer: "5000", hint: "Первые чертежи появились 5000 лет назад" }
     ],
     reward: { stars: 3, message: "Точно! Ты умеешь проектировать! 📐" }
+    keyPoints: ['Основные понятия темы «Проектирование макета»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Проектирование макета»', 'Практическое задание: Проектирование макета'],
   },
 
   {
     title: "Работа с материалами",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D1%81%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B0%D0%BC%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная деятельность",
     icon: "Lightbulb",
     color: "text-emerald-400",
@@ -592,10 +608,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой материал лёгкий и легко режется для объёмных форм?", options: ["Дерево", "Металл", "Пенопласт", "Камень", "Стекло"], correctAnswer: "Пенопласт", hint: "Пенопласт — лёгкий, легко режется" }
     ],
     reward: { stars: 3, message: "Мастерски! Ты умеешь работать с материалами! 🧰" }
+    keyPoints: ['Основные понятия темы «Работа с материалами»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Работа с материалами»', 'Практическое задание: Работа с материалами'],
   },
 
   {
     title: "Сборка и отделка макета",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B1%D0%BE%D1%80%D0%BA%D0%B0%20%D0%B8%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная деятельность",
     icon: "Lightbulb",
     color: "text-emerald-400",
@@ -607,10 +626,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что нужно добавить на готовый макет?", options: ["Ничего", "Подписи и пояснения", "Больше деталей", "Краску", "Клей"], correctAnswer: "Подписи и пояснения", hint: "Подписи помогают понять макет" }
     ],
     reward: { stars: 3, message: "Красиво! Твой макет готов! 🎨" }
+    keyPoints: ['Основные понятия темы «Сборка и отделка макета»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Сборка и отделка макета»', 'Практическое задание: Сборка и отделка макета'],
   },
 
   {
     title: "Макеты природных объектов",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B0%D0%BA%D0%B5%D1%82%D1%8B%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D1%85%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная деятельность",
     icon: "Lightbulb",
     color: "text-emerald-400",
@@ -622,10 +644,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько планет в Солнечной системе?", options: ["7", "8", "9", "10", "12"], correctAnswer: "8", hint: "В Солнечной системе 8 планет" }
     ],
     reward: { stars: 3, message: "Вулкан! Ты создаёшь модели природы! 🌍" }
+    keyPoints: ['Основные понятия темы «Макеты природных объектов»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Макеты природных объектов»', 'Практическое задание: Макеты природных объектов'],
   },
 
   {
     title: "Структура презентации",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная деятельность",
     icon: "Lightbulb",
     color: "text-emerald-400",
@@ -637,10 +662,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что не нужно делать во время презентации?", options: ["Смотреть на аудиторию", "Читать по бумажке", "Улыбаться", "Делать паузы", "Менять интонацию"], correctAnswer: "Читать по бумажке", hint: "Не читай по бумажке — говори своими словами" }
     ],
     reward: { stars: 3, message: "Презентабельно! Ты умеешь выступать! 📋" }
+    keyPoints: ['Основные понятия темы «Структура презентации»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Структура презентации»', 'Практическое задание: Структура презентации'],
   },
 
   {
     title: "Создание слайдов",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%81%D0%BB%D0%B0%D0%B9%D0%B4%D0%BE%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная деятельность",
     icon: "Lightbulb",
     color: "text-emerald-400",
@@ -652,10 +680,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько процентов увиденного запоминают люди?", options: ["10%", "25%", "45%", "65%", "80%"], correctAnswer: "65%", hint: "Люди запоминают 10% услышанного и 65% увиденного" }
     ],
     reward: { stars: 3, message: "Дизайнерски! Ты создаёшь слайды! 🖥️" }
+    keyPoints: ['Основные понятия темы «Создание слайдов»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Создание слайдов»', 'Практическое задание: Создание слайдов'],
   },
 
   {
     title: "Выступление перед аудиторией",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D1%8B%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%20%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B5%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная деятельность",
     icon: "Lightbulb",
     color: "text-emerald-400",
@@ -667,10 +698,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что делать, если не знаешь ответ на вопрос?", options: ["Придумать", "Честно признаться", "Убежать", "Помолчать", "Сменить тему"], correctAnswer: "Честно признаться", hint: "Если не знаешь — честно признай" }
     ],
     reward: { stars: 3, message: "Ораторски! Ты умеешь выступать! 🎤" }
+    keyPoints: ['Основные понятия темы «Выступление перед аудиторией»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Выступление перед аудиторией»', 'Практическое задание: Выступление перед аудиторией'],
   },
 
   {
     title: "Классная конференция",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная деятельность",
     icon: "Lightbulb",
     color: "text-emerald-400",
@@ -682,5 +716,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какая конференция — самая известная научная?", options: ["Конференция в школе", "Нобелевская", "Олимпийская", "Космическая", "Медицинская"], correctAnswer: "Нобелевская", hint: "Нобелевская конференция — самая известная" }
     ],
     reward: { stars: 3, message: "Победа! Ты защитил проект! 🏆" }
+    keyPoints: ['Основные понятия темы «Классная конференция»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Классная конференция»', 'Практическое задание: Классная конференция'],
   }
 ]

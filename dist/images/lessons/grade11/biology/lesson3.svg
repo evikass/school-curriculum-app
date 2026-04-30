@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F1F8E9"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#33691E"/>
+      <stop offset="100%" stop-color="#558B2F"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#33691E" stroke-width="2.5"/>
+  <text x="250" y="40" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#33691E" text-anchor="middle">Микроэволюция</text>
+  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#777" text-anchor="middle">Биология — Урок 3</text>
+  <line x1="30" y1="66" x2="470" y2="66" stroke="#33691E" stroke-width="2" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="72" width="470" height="230" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    <rect x="15" y="72" width="470" height="230" fill="#F1F8E9" opacity="0.5"/>
+
+    <!-- Central concept -->
+    <ellipse cx="250" cy="110" rx="80" ry="22" fill="#33691E" opacity="0.12" stroke="#33691E" stroke-width="1.2"/>
+    <text x="250" y="114" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#33691E" text-anchor="middle">Микроэволюция</text>
+
+    <!-- Arrows to three pillars -->
+    <line x1="190" y1="125" x2="105" y2="150" stroke="#33691E" stroke-width="1.2"/>
+    <line x1="250" y1="132" x2="250" y2="150" stroke="#33691E" stroke-width="1.2"/>
+    <line x1="310" y1="125" x2="395" y2="150" stroke="#33691E" stroke-width="1.2"/>
+
+    <!-- Three pillars -->
+    <rect x="30" y="150" width="145" height="55" rx="5" fill="white" stroke="#33691E" stroke-width="1.2"/>
+    <text x="102" y="166" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#33691E" text-anchor="middle">Мутации</text>
+    <text x="102" y="178" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Генерация нового</text>
+    <text x="102" y="188" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">генетического материала</text>
+    <text x="102" y="200" font-family="Arial,sans-serif" font-size="6.5" fill="#8BC34A" text-anchor="middle">Случайный характер</text>
+
+    <rect x="185" y="150" width="130" height="55" rx="5" fill="white" stroke="#33691E" stroke-width="1.2"/>
+    <text x="250" y="166" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#33691E" text-anchor="middle">Дрейф генов</text>
+    <text x="250" y="178" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Случайное изменение</text>
+    <text x="250" y="188" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">частот аллелей</text>
+    <text x="250" y="200" font-family="Arial,sans-serif" font-size="6.5" fill="#8BC34A" text-anchor="middle">Эффект бутылочного горлышка</text>
+
+    <rect x="325" y="150" width="145" height="55" rx="5" fill="white" stroke="#33691E" stroke-width="1.2"/>
+    <text x="397" y="166" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#33691E" text-anchor="middle">Естеств. отбор</text>
+    <text x="397" y="178" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Направленный процесс</text>
+    <text x="397" y="188" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">сохранения адаптаций</text>
+    <text x="397" y="200" font-family="Arial,sans-serif" font-size="6.5" fill="#8BC34A" text-anchor="middle">Движущий, стабилиз., дизруптивный</text>
+
+    <!-- Result arrow -->
+    <path d="M250,208 L250,222" stroke="#1B5E20" stroke-width="2" marker-end="url(#arr3)"/>
+    <defs><marker id="arr3" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <polygon points="0 0, 7 2.5, 0 5" fill="#1B5E20"/>
+    </marker></defs>
+
+    <!-- Population change diagram -->
+    <rect x="40" y="225" width="420" height="35" rx="5" fill="#33691E" opacity="0.08"/>
+    <text x="250" y="240" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#33691E" text-anchor="middle">Изменение генофонда популяции → Новый вид</text>
+    <text x="250" y="254" font-family="Arial,sans-serif" font-size="7.5" fill="#33691E" text-anchor="middle">Видообразование: аллопатрическое, симпатрическое, парапатрическое</text>
+
+    <!-- Forms of selection -->
+    <rect x="30" y="268" width="135" height="30" rx="4" fill="white" stroke="#33691E" stroke-width="1"/>
+    <text x="97" y="280" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#33691E" text-anchor="middle">Движущий отбор</text>
+    <text x="97" y="292" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">→ сдвиг нормы реакции</text>
+
+    <rect x="175" y="268" width="135" height="30" rx="4" fill="white" stroke="#33691E" stroke-width="1"/>
+    <text x="242" y="280" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#33691E" text-anchor="middle">Стабилизирующий</text>
+    <text x="242" y="292" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">→ сохранение нормы</text>
+
+    <rect x="320" y="268" width="135" height="30" rx="4" fill="white" stroke="#33691E" stroke-width="1"/>
+    <text x="387" y="280" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#33691E" text-anchor="middle">Дизруптивный</text>
+    <text x="387" y="292" font-family="Arial,sans-serif" font-size="6.5" fill="#33691E" text-anchor="middle">→ разрыв на две формы</text>
+  </g>
+  <line x1="30" y1="308" x2="470" y2="308" stroke="#33691E" stroke-width="1.5" opacity="0.25"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="11" fill="#33691E" text-anchor="middle">Биология · 11 класс</text>
+</svg>

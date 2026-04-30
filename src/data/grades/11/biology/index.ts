@@ -1,8 +1,14 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[]) => ({ 
-  title, description, tasks, content, examples, facts, keyPoints
-})
+const L = (title: string, description: string, tasks: string[], content?: string, examples?: string[], facts?: string[], keyPoints?: string[], image?: string) => {
+  let finalImage = image;
+  if (!finalImage) {
+    const shortTitle = title.replace(/^Урок \d+:\s*/, '').substring(0, 35);
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#166534"/><stop offset="100%" style="stop-color:#4ade8033"/></linearGradient></defs><rect width="400" height="250" rx="16" fill="url(#bg)"/><rect x="16" y="16" width="368" height="218" rx="8" fill="none" stroke="#86efac33" stroke-width="1"/><text x="200" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#86efac99">11 класс · Биология</text><text x="200" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#86efac">${shortTitle}</text><line x1="100" y1="180" x2="300" y2="180" stroke="#4ade8066" stroke-width="2"/><circle cx="80" cy="220" r="4" fill="#4ade80"/><circle cx="320" cy="220" r="4" fill="#4ade80"/><text x="200" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#86efac77">Биология</text></svg>`;
+    finalImage = 'data:image/svg+xml,' + encodeURIComponent(svg);
+  }
+  return { title, description, tasks, content, examples, facts, keyPoints, image: finalImage };
+}
 
 export const lessons: SubjectData = {
   title: "Биология",
@@ -171,7 +177,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Урок 1: Развитие эволюционных идей",
-        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson1.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23166534%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ade8033%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2386efac33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2386efac99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2386efac%22%3E%D0%A0%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5%20%D1%8D%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D0%B8%D0%B4%D0%B5%D0%B9%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%234ade8066%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2386efac77%22%3E%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -182,10 +188,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Кто верил в неизменность видов?", options: ["Дарвин", "Ламарк", "Линней", "Вернадский", "—"], correctAnswer: "Линней", hint: "Создал классификацию, но верил в креационизм" }
     ],
     reward: { stars: 3, message: "Ты знаешь историю эволюционного учения! 🧬" }
+    keyPoints: ['Основные понятия темы «Урок 1: Развитие эволюционных идей»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 1: Развитие эволюционных идей — изучение живых организмов', 'Практическое задание по теме «Урок 1: Развитие эволюционных идей»'],
   },
   {
     title: "Урок 2: Доказательства эволюции",
-        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson2.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23166534%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ade8033%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2386efac33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2386efac99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2386efac%22%3E%D0%94%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0%20%D1%8D%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%234ade8066%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2386efac77%22%3E%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -196,10 +204,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Зародыши позвоночных похожи — это доказательство:", options: ["Палеонтологическое", "Эмбриологическое", "Анатомическое", "Генетическое", "—"], correctAnswer: "Эмбриологическое", hint: "Зародыши на ранних стадиях похожи" }
     ],
     reward: { stars: 3, message: "Ты знаешь доказательства эволюции! 🔍" }
+    keyPoints: ['Основные понятия темы «Урок 2: Доказательства эволюции»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 2: Доказательства эволюции — изучение живых организмов', 'Практическое задание по теме «Урок 2: Доказательства эволюции»'],
   },
   {
     title: "Урок 3: Микроэволюция",
-        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson3.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23166534%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ade8033%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2386efac33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2386efac99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2386efac%22%3E%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D1%8D%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%234ade8066%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2386efac77%22%3E%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -210,10 +220,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Географическая изоляция — это:", options: ["Разные местообитания", "Разделение территорией", "Невозможность скрещивания", "Разные сроки размножения", "—"], correctAnswer: "Разделение территорией", hint: "Разделение ареала" }
     ],
     reward: { stars: 3, message: "Ты понимаешь микроэволюцию! 🦠" }
+    keyPoints: ['Основные понятия темы «Урок 3: Микроэволюция»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 3: Микроэволюция — изучение живых организмов', 'Практическое задание по теме «Урок 3: Микроэволюция»'],
   },
   {
     title: "Урок 4: Макроэволюция",
-        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson4.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23166534%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ade8033%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2386efac33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2386efac99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2386efac%22%3E%D0%9C%D0%B0%D0%BA%D1%80%D0%BE%D1%8D%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%234ade8066%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2386efac77%22%3E%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -224,10 +236,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Правило Долло гласит:", options: ["Эволюция необратима", "Эволюция повторяется", "Эволюция случайна", "Эволюция направлена", "—"], correctAnswer: "Эволюция необратима", hint: "Вернуться к прежнему состоянию невозможно" }
     ],
     reward: { stars: 3, message: "Ты понимаешь макроэволюцию! 🦎" }
+    keyPoints: ['Основные понятия темы «Урок 4: Макроэволюция»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 4: Макроэволюция — изучение живых организмов', 'Практическое задание по теме «Урок 4: Макроэволюция»'],
   },
   {
     title: "Урок 5: Экологические факторы",
-        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson5.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23166534%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ade8033%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2386efac33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2386efac99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2386efac%22%3E%D0%AD%D0%BA%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%234ade8066%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2386efac77%22%3E%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -238,10 +252,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Вырубка лесов — фактор:", options: ["Абиотический", "Биотический", "Антропогенный", "Климатический", "—"], correctAnswer: "Антропогенный", hint: "Влияние человека" }
     ],
     reward: { stars: 3, message: "Ты знаешь экологические факторы! 🌡️" }
+    keyPoints: ['Основные понятия темы «Урок 5: Экологические факторы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 5: Экологические факторы — изучение живых организмов', 'Практическое задание по теме «Урок 5: Экологические факторы»'],
   },
   {
     title: "Урок 6: Популяции и сообщества",
-        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson6.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23166534%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ade8033%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2386efac33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2386efac99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2386efac%22%3E%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%86%D0%B8%D0%B8%20%D0%B8%20%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%234ade8066%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2386efac77%22%3E%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -252,10 +268,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Растения в биоценозе — это:", options: ["Продуценты", "Консументы", "Редуценты", "Деструкторы", "—"], correctAnswer: "Продуценты", hint: "Производители органики" }
     ],
     reward: { stars: 3, message: "Ты понимаешь структуру популяций! 🌿" }
+    keyPoints: ['Основные понятия темы «Урок 6: Популяции и сообщества»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 6: Популяции и сообщества — изучение живых организмов', 'Практическое задание по теме «Урок 6: Популяции и сообщества»'],
   },
   {
     title: "Урок 7: Экосистемы",
-        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson7.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23166534%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ade8033%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2386efac33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2386efac99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2386efac%22%3E%D0%AD%D0%BA%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%234ade8066%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2386efac77%22%3E%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -266,10 +284,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Пищевые цепи обычно не длиннее:", options: ["2-3 звеньев", "4-5 звеньев", "7-8 звеньев", "10 звеньев", "—"], correctAnswer: "4-5 звеньев", hint: "На каждом уровне теряется 90% энергии" }
     ],
     reward: { stars: 3, message: "Ты понимаешь экосистемы! 🌳" }
+    keyPoints: ['Основные понятия темы «Урок 7: Экосистемы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 7: Экосистемы — изучение живых организмов', 'Практическое задание по теме «Урок 7: Экосистемы»'],
   },
   {
     title: "Урок 8: Биосфера",
-        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson8.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23166534%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ade8033%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2386efac33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2386efac99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2386efac%22%3E%D0%91%D0%B8%D0%BE%D1%81%D1%84%D0%B5%D1%80%D0%B0%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%234ade8066%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2386efac77%22%3E%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -280,10 +300,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Фотосинтез создаёт:", options: ["CO2", "O2", "N2", "CH4", "—"], correctAnswer: "O2", hint: "6CO2 + 6H2O → C6H12O6 + 6O2" }
     ],
     reward: { stars: 3, message: "Ты знаешь биосферу! 🌍" }
+    keyPoints: ['Основные понятия темы «Урок 8: Биосфера»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 8: Биосфера — изучение живых организмов', 'Практическое задание по теме «Урок 8: Биосфера»'],
   },
   {
     title: "Урок 9: Человек и биосфера",
-        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson9.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23166534%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ade8033%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2386efac33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2386efac99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2386efac%22%3E%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%20%D0%B8%20%D0%B1%D0%B8%D0%BE%D1%81%D1%84%D0%B5%D1%80%D0%B0%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%234ade8066%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2386efac77%22%3E%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -294,10 +316,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Принцип устойчивого развития:", options: ["Максимальное потребление", "Без ущерба будущим поколениям", "Прекращение развития", "Только охрана природы", "—"], correctAnswer: "Без ущерба будущим поколениям", hint: "Рациональное использование ресурсов" }
     ],
     reward: { stars: 3, message: "Ты понимаешь влияние человека на биосферу! ♻️" }
+    keyPoints: ['Основные понятия темы «Урок 9: Человек и биосфера»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 9: Человек и биосфера — изучение живых организмов', 'Практическое задание по теме «Урок 9: Человек и биосфера»'],
   },
   {
     title: "Урок 10: Основы биотехнологии",
-        image: "/school-curriculum-app/images/lessons/grade11/biology/lesson10.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23166534%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%234ade8033%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2386efac33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2386efac99%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2386efac%22%3E%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20%D0%B1%D0%B8%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%234ade8066%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%234ade80%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2386efac77%22%3E%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -308,5 +332,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "ГМО — это:", options: ["Генетически модифицированные организмы", "Генно-мутантные организмы", "Гибридные модифицированные организмы", "Генетически мутирующие организмы", "—"], correctAnswer: "Генетически модифицированные организмы", hint: "Организмы с изменённым геномом" }
     ],
     reward: { stars: 3, message: "Ты знаешь биотехнологию! 🔬" }
+    keyPoints: ['Основные понятия темы «Урок 10: Основы биотехнологии»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Урок 10: Основы биотехнологии — изучение живых организмов', 'Практическое задание по теме «Урок 10: Основы биотехнологии»'],
   }
 ]

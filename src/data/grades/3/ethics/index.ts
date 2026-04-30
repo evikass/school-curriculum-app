@@ -841,6 +841,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Вежливые слова",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23be185d%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D0%B5%D0%B6%D0%BB%D0%B8%D0%B2%D1%8B%D0%B5%20%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9D%A4%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%AD%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Этика и общение",
     icon: "HeartHandshake",
     color: "text-pink-400",
@@ -851,9 +852,12 @@ export const games: GameLesson[] = [
       { type: 'match', question: 'Соедини слово с ситуацией:', options: ['Здравствуйте', 'Спасибо', 'Извините', 'До свидания', 'При встрече', 'За подарок', 'Если задел', 'При уходе'], correctAnswer: ['Здравствуйте→При встрече', 'Спасибо→За подарок', 'Извините→Если задел', 'До свидания→При уходе'], hint: 'Каждое слово — своя ситуация' }
     ],
     reward: { stars: 3, message: "Отлично! Ты вежливый человек! 🌟" }
+    keyPoints: ['Основные понятия темы «Вежливые слова»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Вежливые слова»', 'Практическое задание: Вежливые слова'],
   },
   {
     title: "Культура речи",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23be185d%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%20%D1%80%D0%B5%D1%87%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9D%A4%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%AD%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Этика и общение",
     icon: "HeartHandshake",
     color: "text-pink-400",
@@ -864,9 +868,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Какой тон голоса лучше для разговора?', options: ['Громкий', 'Спокойный', 'Тихий', 'Быстрый', 'Не знаю'], correctAnswer: 'Спокойный', hint: 'Спокойный тон располагает к общению' }
     ],
     reward: { stars: 3, message: "Супер! Ты владеешь культурой речи! 🗣️" }
+    keyPoints: ['Основные понятия темы «Культура речи»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Культура речи»', 'Практическое задание: Культура речи'],
   },
   {
     title: "Работа в команде",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23be185d%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B2%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9D%A4%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%AD%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Этика и общение",
     icon: "HeartHandshake",
     color: "text-pink-400",
@@ -877,9 +884,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Компромисс — это __ решение', options: ["сложное", "выгодное", "простое", "невыгодное", "общее"], correctAnswer: 'общее', hint: 'Компромисс устраивает всех' }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь работать в команде! 🤝" }
+    keyPoints: ['Основные понятия темы «Работа в команде»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Работа в команде»', 'Практическое задание: Работа в команде'],
   },
   {
     title: "Решение конфликтов",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23be185d%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%BE%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%9D%A4%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%AD%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Этика и общение",
     icon: "HeartHandshake",
     color: "text-pink-400",
@@ -890,5 +900,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: 'Конфликт лучше __, чем начинать', options: ["предотвратить", "забыть", "продолжить", "завершить", "выиграть"], correctAnswer: 'предотвратить', hint: 'Лучше не ссориться' }
     ],
     reward: { stars: 3, message: "Круто! Ты умеешь мириться! ✌️" }
+    keyPoints: ['Основные понятия темы «Решение конфликтов»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Решение конфликтов»', 'Практическое задание: Решение конфликтов'],
   }
 ]

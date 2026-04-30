@@ -813,6 +813,7 @@ P = 3 + 4 + 5 = 12 см
 export const games: GameLesson[] = [
   {
     title: "Таблица умножения на 2 ✖️",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%20%D1%83%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BD%D0%B0%202%20%E2%9C%96%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -824,9 +825,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "2 × 8 = ?", options: ["14", "16", "18", "Никто не знает", "Не знаю"], correctAnswer: "16", hint: "2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 = ?" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь таблицу на 2! ✖️" }
+    keyPoints: ['Основные понятия темы «Таблица умножения на 2 ✖️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Таблица умножения на 2 ✖️ — решаем задачи step by step', 'Практическое задание по теме «Таблица умножения на 2 ✖️»'],
   },
   {
     title: "Таблица умножения на 3 ✖️",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%20%D1%83%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BD%D0%B0%203%20%E2%9C%96%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -838,9 +842,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "3 × 9 = ?", options: ["24", "27", "30", "Никто не знает", "Не знаю"], correctAnswer: "27", hint: "3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 = ?" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь таблицу на 3! 🎯" }
+    keyPoints: ['Основные понятия темы «Таблица умножения на 3 ✖️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Таблица умножения на 3 ✖️ — решаем задачи step by step', 'Практическое задание по теме «Таблица умножения на 3 ✖️»'],
   },
   {
     title: "Деление на 2 и 3 ➗",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%202%20%D0%B8%203%20%E2%9E%97%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -852,9 +859,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "21 : 3 = ?", options: ["6", "7", "8", "Никто не знает", "Не знаю"], correctAnswer: "7", hint: "Сколько раз 3 помещается в 21?" }
     ],
     reward: { stars: 3, message: "Прекрасно! Ты понимаешь деление! ➗" }
+    keyPoints: ['Основные понятия темы «Деление на 2 и 3 ➗»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Деление на 2 и 3 ➗ — решаем задачи step by step', 'Практическое задание по теме «Деление на 2 и 3 ➗»'],
   },
   {
     title: "Сложение до 100 ➕",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%BE%20100%20%E2%9E%95%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -866,9 +876,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "56 + 28 = ?", options: ["74", "84", "94", "Никто не знает", "Не знаю"], correctAnswer: "84", hint: "56 + 28 = 56 + 20 + 8" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь складывать! ➕" }
+    keyPoints: ['Основные понятия темы «Сложение до 100 ➕»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Сложение до 100 ➕ — решаем задачи step by step', 'Практическое задание по теме «Сложение до 100 ➕»'],
   },
   {
     title: "Вычитание до 100 ➖",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D1%8B%D1%87%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%BE%20100%20%E2%9E%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -880,9 +893,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "95 - 47 = ?", options: ["38", "48", "58", "Никто не знает", "Не знаю"], correctAnswer: "48", hint: "95 - 47 = 95 - 40 - 7" }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь вычитать! ➖" }
+    keyPoints: ['Основные понятия темы «Вычитание до 100 ➖»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Вычитание до 100 ➖ — решаем задачи step by step', 'Практическое задание по теме «Вычитание до 100 ➖»'],
   },
   {
     title: "Сравнение чисел ⚖️",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB%20%E2%9A%96%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -894,9 +910,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какое число меньше: 47 или 74?", options: ["47", "74", "Они равны", "Никто не знает", "Не знаю"], correctAnswer: "47", hint: "Сравни десятки" }
     ],
     reward: { stars: 3, message: "Отлично! Ты умеешь сравнивать числа! ⚖️" }
+    keyPoints: ['Основные понятия темы «Сравнение чисел ⚖️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Сравнение чисел ⚖️ — решаем задачи step by step', 'Практическое задание по теме «Сравнение чисел ⚖️»'],
   },
   {
     title: "Периметр фигур 📐",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D1%82%D1%80%20%D1%84%D0%B8%D0%B3%D1%83%D1%80%20%F0%9F%93%90%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -908,9 +927,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Чему равен периметр квадрата со стороной 6 см?", options: ["18 см", "24 см", "30 см", "Никто не знает", "Не знаю"], correctAnswer: "24 см", hint: "6 + 6 + 6 + 6 = ?" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь геометрию! 📐" }
+    keyPoints: ['Основные понятия темы «Периметр фигур 📐»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Периметр фигур 📐 — решаем задачи step by step', 'Практическое задание по теме «Периметр фигур 📐»'],
   },
   {
     title: "Числовые цепочки 🔗",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A7%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%86%D0%B5%D0%BF%D0%BE%D1%87%D0%BA%D0%B8%20%F0%9F%94%97%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -922,9 +944,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Продолжи ряд: 10, 20, 30, 40, ... Какое следующее число?", options: ["45", "50", "60", "Никто не знает", "Не знаю"], correctAnswer: "50", hint: "Прибавляй 10" }
     ],
     reward: { stars: 3, message: "Прекрасно! Ты видишь закономерности! 🔗" }
+    keyPoints: ['Основные понятия темы «Числовые цепочки 🔗»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Числовые цепочки 🔗 — решаем задачи step by step', 'Практическое задание по теме «Числовые цепочки 🔗»'],
   },
   {
     title: "Числа от 10 до 20 🔢",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A7%D0%B8%D1%81%D0%BB%D0%B0%20%D0%BE%D1%82%2010%20%D0%B4%D0%BE%2020%20%F0%9F%94%A2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -936,9 +961,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какое число состоит из 1 десятка и 4 единиц?", options: ["12", "13", "14", "Никто не знает", "Не знаю"], correctAnswer: "14", hint: "10 + 4 = ?" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь числа до 20! 🔢" }
+    keyPoints: ['Основные понятия темы «Числа от 10 до 20 🔢»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Числа от 10 до 20 🔢 — решаем задачи step by step', 'Практическое задание по теме «Числа от 10 до 20 🔢»'],
   },
   {
     title: "Двузначные числа и разряды 📊",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B2%D1%83%D0%B7%D0%BD%D0%B0%D1%87%D0%BD%D1%8B%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%20%D0%B8%20%D1%80%D0%B0%D0%B7%D1%80%D1%8F%D0%B4%D1%8B%20%F0%9F%93%8A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -950,9 +978,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько единиц в числе 72?", options: ["2", "7", "70", "Никто не знает", "Не знаю"], correctAnswer: "2", hint: "Вторая цифра — единицы" }
     ],
     reward: { stars: 3, message: "Супер! Ты понимаешь разряды! 📊" }
+    keyPoints: ['Основные понятия темы «Двузначные числа и разряды 📊»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Двузначные числа и разряды 📊 — решаем задачи step by step', 'Практическое задание по теме «Двузначные числа и разряды 📊»'],
   },
   {
     title: "Что такое умножение? ✖️",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20%D1%83%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%3F%20%E2%9C%96%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -964,9 +995,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой переместительный закон умножения?", options: ["3 × 4 = 4 × 3", "3 × 4 = 3 + 4", "3 × 4 = 12", "Никто не знает", "Не знаю"], correctAnswer: "3 × 4 = 4 × 3", hint: "От перестановки множителей произведение не меняется" }
     ],
     reward: { stars: 3, message: "Отлично! Ты понимаешь умножение! ✖️" }
+    keyPoints: ['Основные понятия темы «Что такое умножение? ✖️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Что такое умножение? ✖️ — решаем задачи step by step', 'Практическое задание по теме «Что такое умножение? ✖️»'],
   },
   {
     title: "Решение задач 📝",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%232563eb%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%20%F0%9F%93%9D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%C3%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E2%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Математика",
     icon: "Calculator",
     color: "text-blue-400",
@@ -978,5 +1012,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "20 яиц разложили в 4 коробки поровну. Сколько яиц в каждой коробке?", options: ["4", "5", "6", "Никто не знает", "Не знаю"], correctAnswer: "5", hint: "20 : 4 = ?" }
     ],
     reward: { stars: 3, message: "Молодец! Ты умеешь решать задачи! 📝" }
+    keyPoints: ['Основные понятия темы «Решение задач 📝»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Решение задач 📝 — решаем задачи step by step', 'Практическое задание по теме «Решение задач 📝»'],
   }
 ]

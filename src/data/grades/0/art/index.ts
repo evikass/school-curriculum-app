@@ -730,6 +730,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Цвета радуги 🌈",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A6%D0%B2%D0%B5%D1%82%D0%B0%20%D1%80%D0%B0%D0%B4%D1%83%D0%B3%D0%B8%20%F0%9F%8C%88%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -740,6 +741,8 @@ export const games: GameLesson[] = [
         options: ["Синее", "Жёлтое", "Зелёное", "Никто не знает", "Не знаю"],
         correctAnswer: "Жёлтое",
         hint: "Солнце светит жёлтым светом"
+        keyPoints: ['Основные понятия темы «Цвета радуги 🌈»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Цвета радуги 🌈»', 'Практическое задание: Цвета радуги 🌈'],
       },
       {
         type: 'quiz',
@@ -774,6 +777,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Формы предметов ⬜",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A4%D0%BE%D1%80%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%BE%D0%B2%20%E2%AC%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -784,6 +788,8 @@ export const games: GameLesson[] = [
         options: ["Квадрат", "Круг", "Треугольник", "Никто не знает", "Не знаю"],
         correctAnswer: "Круг",
         hint: "Тарелка круглая"
+        keyPoints: ['Основные понятия темы «Формы предметов ⬜»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Формы предметов ⬜»', 'Практическое задание: Формы предметов ⬜'],
       },
       {
         type: 'quiz',
@@ -818,6 +824,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Смешивание цветов 🎨",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%BC%D0%B5%D1%88%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2%20%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -828,6 +835,8 @@ export const games: GameLesson[] = [
         options: ["Зелёный", "Оранжевый", "Фиолетовый", "Никто не знает", "Не знаю"],
         correctAnswer: "Оранжевый",
         hint: "Подумай об апельсине"
+        keyPoints: ['Основные понятия темы «Смешивание цветов 🎨»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Смешивание цветов 🎨»', 'Практическое задание: Смешивание цветов 🎨'],
       },
       {
         type: 'quiz',
@@ -862,6 +871,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Геометрические фигуры 🔷",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B8%D0%B3%D1%83%D1%80%D1%8B%20%F0%9F%94%B7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -872,6 +882,8 @@ export const games: GameLesson[] = [
         options: ["3", "4", "5", "Никто не знает", "Не знаю"],
         correctAnswer: "4",
         hint: "Квадрат имеет 4 угла"
+        keyPoints: ['Основные понятия темы «Геометрические фигуры 🔷»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Геометрические фигуры 🔷»', 'Практическое задание: Геометрические фигуры 🔷'],
       },
       {
         type: 'quiz',
@@ -906,6 +918,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Круг и овал ⭕",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D1%80%D1%83%D0%B3%20%D0%B8%20%D0%BE%D0%B2%D0%B0%D0%BB%20%E2%AD%95%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -916,6 +929,8 @@ export const games: GameLesson[] = [
         options: ["Круг", "Овал", "Квадрат", "Треугольник", "Не знаю"],
         correctAnswer: "Овал",
         hint: "Яйцо вытянутое, как овал"
+        keyPoints: ['Основные понятия темы «Круг и овал ⭕»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Круг и овал ⭕»', 'Практическое задание: Круг и овал ⭕'],
       },
       {
         type: 'quiz',
@@ -950,6 +965,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Квадрат и прямоугольник ⬜",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%20%D0%B8%20%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%20%E2%AC%9C%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -960,6 +976,8 @@ export const games: GameLesson[] = [
         options: ["Круг", "Квадрат", "Прямоугольник", "Треугольник", "Не знаю"],
         correctAnswer: "Прямоугольник",
         hint: "Дверь вытянутая вверх"
+        keyPoints: ['Основные понятия темы «Квадрат и прямоугольник ⬜»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Квадрат и прямоугольник ⬜»', 'Практическое задание: Квадрат и прямоугольник ⬜'],
       },
       {
         type: 'quiz',
@@ -994,6 +1012,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Треугольник 🔺",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D1%80%D0%B5%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%20%F0%9F%94%BA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -1004,6 +1023,8 @@ export const games: GameLesson[] = [
         options: ["2", "3", "4", "5", "Не знаю"],
         correctAnswer: "3",
         hint: "Треугольник — три угла"
+        keyPoints: ['Основные понятия темы «Треугольник 🔺»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Треугольник 🔺»', 'Практическое задание: Треугольник 🔺'],
       },
       {
         type: 'quiz',
@@ -1038,6 +1059,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Композиция из фигур 🏠",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F%20%D0%B8%D0%B7%20%D1%84%D0%B8%D0%B3%D1%83%D1%80%20%F0%9F%8F%A0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -1048,6 +1070,8 @@ export const games: GameLesson[] = [
         options: ["Круг и овал", "Квадрат и треугольник", "Только круги", "Только квадраты", "Не знаю"],
         correctAnswer: "Квадрат и треугольник",
         hint: "Основа дома — квадрат, крыша — треугольник"
+        keyPoints: ['Основные понятия темы «Композиция из фигур 🏠»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Композиция из фигур 🏠»', 'Практическое задание: Композиция из фигур 🏠'],
       },
       {
         type: 'quiz',
@@ -1082,6 +1106,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Листья деревьев 🍂",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9B%D0%B8%D1%81%D1%82%D1%8C%D1%8F%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D1%8C%D0%B5%D0%B2%20%F0%9F%8D%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -1092,6 +1117,8 @@ export const games: GameLesson[] = [
         options: ["Круглый", "Как звёздочка", "Овальный", "Треугольный", "Не знаю"],
         correctAnswer: "Как звёздочка",
         hint: "Кленовый лист похож на звёздочку с 5 лучами"
+        keyPoints: ['Основные понятия темы «Листья деревьев 🍂»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Листья деревьев 🍂»', 'Практическое задание: Листья деревьев 🍂'],
       },
       {
         type: 'quiz',
@@ -1126,6 +1153,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Акварельные краски 🎨",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D0%BA%D0%B2%D0%B0%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B8%20%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -1136,6 +1164,8 @@ export const games: GameLesson[] = [
         options: ["Маслом", "Водой", "Клеем", "Сахаром", "Не знаю"],
         correctAnswer: "Вода",
         hint: "Акварель разводят водой"
+        keyPoints: ['Основные понятия темы «Акварельные краски 🎨»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Акварельные краски 🎨»', 'Практическое задание: Акварельные краски 🎨'],
       },
       {
         type: 'quiz',
@@ -1170,6 +1200,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Пальчиковое рисование 👆",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B0%D0%BB%D1%8C%D1%87%D0%B8%D0%BA%D0%BE%D0%B2%D0%BE%D0%B5%20%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%F0%9F%91%86%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -1180,6 +1211,8 @@ export const games: GameLesson[] = [
         options: ["Кисточкой", "Карандашом", "Пальчиками", "Фломастером", "Не знаю"],
         correctAnswer: "Пальчиками",
         hint: "Рисуют прямо пальчиками без инструментов"
+        keyPoints: ['Основные понятия темы «Пальчиковое рисование 👆»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Пальчиковое рисование 👆»', 'Практическое задание: Пальчиковое рисование 👆'],
       },
       {
         type: 'quiz',
@@ -1214,6 +1247,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Свободное творчество ✨",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ea580c%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%82%D0%B2%D0%BE%D1%80%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%E2%9C%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3C/svg%3E',
     subject: "Рисование",
     icon: "Palette",
     color: "text-pink-400",
@@ -1224,6 +1258,8 @@ export const games: GameLesson[] = [
         options: ["Рисовать как все", "Фантазия и удовольствие", "Рисовать быстро", "Использовать много краски", "Не знаю"],
         correctAnswer: "Фантазия и удовольствие",
         hint: "Главное — фантазировать и получать удовольствие"
+        keyPoints: ['Основные понятия темы «Свободное творчество ✨»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Свободное творчество ✨»', 'Практическое задание: Свободное творчество ✨'],
       },
       {
         type: 'quiz',

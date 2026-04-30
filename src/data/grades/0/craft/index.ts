@@ -902,6 +902,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Формы для лепки 🧸",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A4%D0%BE%D1%80%D0%BC%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BB%D0%B5%D0%BF%D0%BA%D0%B8%20%F0%9F%A7%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20craft%3C/text%3E%0A%3C/svg%3E',
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -912,6 +913,8 @@ export const games: GameLesson[] = [
         options: ["Шар", "Квадрат", "Пирамида", "Никто не знает", "Не знаю"],
         correctAnswer: "Шар",
         hint: "Шар лепится круговыми движениями"
+        keyPoints: ['Основные понятия темы «Формы для лепки 🧸»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Формы для лепки 🧸»', 'Практическое задание: Формы для лепки 🧸'],
       },
       {
         type: 'quiz',
@@ -946,6 +949,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Материалы для поделок ✂️",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BE%D0%B4%D0%B5%D0%BB%D0%BE%D0%BA%20%E2%9C%82%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20craft%3C/text%3E%0A%3C/svg%3E',
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -956,6 +960,8 @@ export const games: GameLesson[] = [
         options: ["Из бумаги", "Из камня", "Из воды", "Никто не знает", "Не знаю"],
         correctAnswer: "Из бумаги",
         hint: "Аппликации вырезают и наклеивают"
+        keyPoints: ['Основные понятия темы «Материалы для поделок ✂️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Материалы для поделок ✂️»', 'Практическое задание: Материалы для поделок ✂️'],
       },
       {
         type: 'quiz',
@@ -990,6 +996,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Инструменты 🧰",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%F0%9F%A7%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20craft%3C/text%3E%0A%3C/svg%3E',
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1000,6 +1007,8 @@ export const games: GameLesson[] = [
         options: ["Кисточкой", "Ножницами", "Карандашом", "Никто не знает", "Не знаю"],
         correctAnswer: "Ножницами",
         hint: "Ножницы режут бумагу"
+        keyPoints: ['Основные понятия темы «Инструменты 🧰»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Инструменты 🧰»', 'Практическое задание: Инструменты 🧰'],
       },
       {
         type: 'quiz',
@@ -1034,6 +1043,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Природные материалы 🌿",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%F0%9F%8C%BF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20craft%3C/text%3E%0A%3C/svg%3E',
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1044,6 +1054,8 @@ export const games: GameLesson[] = [
         options: ["С сосны", "С дуба", "С берёзы", "Никто не знает", "Не знаю"],
         correctAnswer: "С дуба",
         hint: "Жёлуди — плоды дуба"
+        keyPoints: ['Основные понятия темы «Природные материалы 🌿»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Природные материалы 🌿»', 'Практическое задание: Природные материалы 🌿'],
       },
       {
         type: 'quiz',
@@ -1078,6 +1090,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Работа с пластилином 🎨",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D1%81%20%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BB%D0%B8%D0%BD%D0%BE%D0%BC%20%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20craft%3C/text%3E%0A%3C/svg%3E',
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1088,6 +1101,8 @@ export const games: GameLesson[] = [
         options: ["Положить в холодильник", "Размять в руках", "Порезать ножом", "Смочить водой", "Не знаю"],
         correctAnswer: "Размять в руках",
         hint: "Пластилин нужно размять, чтобы стал мягким"
+        keyPoints: ['Основные понятия темы «Работа с пластилином 🎨»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Работа с пластилином 🎨»', 'Практическое задание: Работа с пластилином 🎨'],
       },
       {
         type: 'quiz',
@@ -1122,6 +1137,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Животные из пластилина 🐛",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%96%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D0%B5%20%D0%B8%D0%B7%20%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BB%D0%B8%D0%BD%D0%B0%20%F0%9F%90%9B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20craft%3C/text%3E%0A%3C/svg%3E',
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1132,6 +1148,8 @@ export const games: GameLesson[] = [
         options: ["Из одного шара", "Из нескольких шариков", "Из кубиков", "Из треугольников", "Не знаю"],
         correctAnswer: "Из нескольких шариков",
         hint: "Гусеница — цепочка из шариков"
+        keyPoints: ['Основные понятия темы «Животные из пластилина 🐛»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Животные из пластилина 🐛»', 'Практическое задание: Животные из пластилина 🐛'],
       },
       {
         type: 'quiz',
@@ -1166,6 +1184,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Фрукты и овощи 🍎",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A4%D1%80%D1%83%D0%BA%D1%82%D1%8B%20%D0%B8%20%D0%BE%D0%B2%D0%BE%D1%89%D0%B8%20%F0%9F%8D%8E%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20craft%3C/text%3E%0A%3C/svg%3E',
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1176,6 +1195,8 @@ export const games: GameLesson[] = [
         options: ["Овальной", "Круглой", "Треугольной", "Квадратной", "Не знаю"],
         correctAnswer: "Круглой",
         hint: "Яблоко — круглый фрукт"
+        keyPoints: ['Основные понятия темы «Фрукты и овощи 🍎»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Фрукты и овощи 🍎»', 'Практическое задание: Фрукты и овощи 🍎'],
       },
       {
         type: 'quiz',
@@ -1210,6 +1231,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Аппликации из бумаги ✂️",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D0%BF%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B8%D0%B7%20%D0%B1%D1%83%D0%BC%D0%B0%D0%B3%D0%B8%20%E2%9C%82%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20craft%3C/text%3E%0A%3C/svg%3E',
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1220,6 +1242,8 @@ export const games: GameLesson[] = [
         options: ["Рисунок красками", "Картинка из наклеенных фигур", "Лепка из пластилина", "Раскрашивание", "Не знаю"],
         correctAnswer: "Картинка из наклеенных фигур",
         hint: "Аппликация — это наклеивание вырезанных фигур"
+        keyPoints: ['Основные понятия темы «Аппликации из бумаги ✂️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Аппликации из бумаги ✂️»', 'Практическое задание: Аппликации из бумаги ✂️'],
       },
       {
         type: 'quiz',
@@ -1254,6 +1278,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Аппликация «Цветок» 🌸",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D0%BF%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%C2%AB%D0%A6%D0%B2%D0%B5%D1%82%D0%BE%D0%BA%C2%BB%20%F0%9F%8C%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20craft%3C/text%3E%0A%3C/svg%3E',
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1264,6 +1289,8 @@ export const games: GameLesson[] = [
         options: ["Квадратной", "Овальной", "Треугольной", "Круглой", "Не знаю"],
         correctAnswer: "Овальной",
         hint: "Лепестки вытянутые, овальные"
+        keyPoints: ['Основные понятия темы «Аппликация «Цветок» 🌸»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Аппликация «Цветок» 🌸»', 'Практическое задание: Аппликация «Цветок» 🌸'],
       },
       {
         type: 'quiz',
@@ -1298,6 +1325,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Поделки из шишек 🦔",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D0%B4%D0%B5%D0%BB%D0%BA%D0%B8%20%D0%B8%D0%B7%20%D1%88%D0%B8%D1%88%D0%B5%D0%BA%20%F0%9F%A6%94%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20craft%3C/text%3E%0A%3C/svg%3E',
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1308,6 +1336,8 @@ export const games: GameLesson[] = [
         options: ["Весной", "Осенью", "Зимой", "Летом", "Не знаю"],
         correctAnswer: "Осенью",
         hint: "Осенью шишки сухие и раскрывшиеся"
+        keyPoints: ['Основные понятия темы «Поделки из шишек 🦔»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Поделки из шишек 🦔»', 'Практическое задание: Поделки из шишек 🦔'],
       },
       {
         type: 'quiz',
@@ -1342,6 +1372,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Поделки из желудей 🧑",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D0%B4%D0%B5%D0%BB%D0%BA%D0%B8%20%D0%B8%D0%B7%20%D0%B6%D0%B5%D0%BB%D1%83%D0%B4%D0%B5%D0%B9%20%F0%9F%A7%91%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20craft%3C/text%3E%0A%3C/svg%3E',
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1352,6 +1383,8 @@ export const games: GameLesson[] = [
         options: ["С берёзы", "С дуба", "С сосны", "С клёна", "Не знаю"],
         correctAnswer: "С дуба",
         hint: "Жёлуди — это плоды дуба"
+        keyPoints: ['Основные понятия темы «Поделки из желудей 🧑»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Поделки из желудей 🧑»', 'Практическое задание: Поделки из желудей 🧑'],
       },
       {
         type: 'quiz',
@@ -1386,6 +1419,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Поделки из камешков 🐞",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D0%B4%D0%B5%D0%BB%D0%BA%D0%B8%20%D0%B8%D0%B7%20%D0%BA%D0%B0%D0%BC%D0%B5%D1%88%D0%BA%D0%BE%D0%B2%20%F0%9F%90%9E%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20craft%3C/text%3E%0A%3C/svg%3E',
     subject: "Лепка и поделки",
     icon: "Circle",
     color: "text-amber-400",
@@ -1396,6 +1430,8 @@ export const games: GameLesson[] = [
         options: ["Острые", "Гладкие", "Очень большие", "Грязные", "Не знаю"],
         correctAnswer: "Гладкие",
         hint: "Гладкие камешки удобнее раскрашивать"
+        keyPoints: ['Основные понятия темы «Поделки из камешков 🐞»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Поделки из камешков 🐞»', 'Практическое задание: Поделки из камешков 🐞'],
       },
       {
         type: 'quiz',

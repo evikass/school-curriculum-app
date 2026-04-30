@@ -144,7 +144,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Урок 1: Безопасность в быту",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson1.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e293b%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2364748b33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b833%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2394a3b899%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2394a3b8%22%3E%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%20%D0%B1%D1%8B%D1%82%D1%83%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2364748b66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b877%22%3E%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -155,10 +155,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Огнетушитель ОП содержит:", options: ["Воду", "Порошок", "Пену", "Газ", "—"], correctAnswer: "Порошок", hint: "ОП = огнетушитель порошковый" }
     ],
     reward: { stars: 3, message: "Ты знаешь правила безопасности дома! 🏠" }
+    keyPoints: ['Основные понятия темы «Урок 1: Безопасность в быту»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Урок 1: Безопасность в быту»', 'Практическое задание: Урок 1: Безопасность в быту'],
   },
   {
     title: "Урок 2: Безопасность на дорогах",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson2.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e293b%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2364748b33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b833%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2394a3b899%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2394a3b8%22%3E%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B0%D1%85%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2364748b66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b877%22%3E%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -169,10 +171,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "С какого возраста можно ездить на велосипеде по дорогам?", options: ["С 10 лет", "С 12 лет", "С 14 лет", "С 16 лет", "—"], correctAnswer: "С 14 лет", hint: "По дорогам общего пользования — с 14 лет" }
     ],
     reward: { stars: 3, message: "Ты знаешь правила дорожного движения! 🚦" }
+    keyPoints: ['Основные понятия темы «Урок 2: Безопасность на дорогах»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Урок 2: Безопасность на дорогах»', 'Практическое задание: Урок 2: Безопасность на дорогах'],
   },
   {
     title: "Урок 3: Безопасность на воде",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson3.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e293b%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2364748b33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b833%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2394a3b899%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2394a3b8%22%3E%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%B2%D0%BE%D0%B4%D0%B5%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2364748b66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b877%22%3E%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -183,10 +187,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Утопление происходит:", options: ["С громким криком", "Тихо, без крика и брызг", "С большим всплеском", "С сигналом рукой", "—"], correctAnswer: "Тихо, без крика и брызг", hint: "Утопление — тихая опасность" }
     ],
     reward: { stars: 3, message: "Ты знаешь правила безопасности на воде! 🌊" }
+    keyPoints: ['Основные понятия темы «Урок 3: Безопасность на воде»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Урок 3: Безопасность на воде»', 'Практическое задание: Урок 3: Безопасность на воде'],
   },
   {
     title: "Урок 4: Криминальная безопасность",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson4.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e293b%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2364748b33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b833%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2394a3b899%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2394a3b8%22%3E%D0%9A%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2364748b66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b877%22%3E%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -197,10 +203,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "При угрозе жизни от преступника нужно:", options: ["Сопротивляться", "Выполнять требования и запоминать приметы", "Бежать", "Кричать", "—"], correctAnswer: "Выполнять требования и запоминать приметы", hint: "Жизнь важнее имущества" }
     ],
     reward: { stars: 3, message: "Ты знаешь правила криминальной безопасности! 🛡️" }
+    keyPoints: ['Основные понятия темы «Урок 4: Криминальная безопасность»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Урок 4: Криминальная безопасность»', 'Практическое задание: Урок 4: Криминальная безопасность'],
   },
   {
     title: "Урок 5: Природные чрезвычайные ситуации",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson5.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e293b%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2364748b33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b833%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2394a3b899%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2394a3b8%22%3E%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D1%87%D1%80%D0%B5%D0%B7%D0%B2%D1%8B%D1%87%D0%B0%D0%B9%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%82%D1%83%D0%B0%D1%86%D0%B8%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2364748b66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b877%22%3E%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -211,10 +219,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Единый номер экстренных служб:", options: ["101", "102", "103", "112", "—"], correctAnswer: "112", hint: "112 — единый номер для всех служб" }
     ],
     reward: { stars: 3, message: "Ты готов к природным ЧС! 🌋" }
+    keyPoints: ['Основные понятия темы «Урок 5: Природные чрезвычайные ситуации»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Урок 5: Природные чрезвычайные ситуации»', 'Практическое задание: Урок 5: Природные чрезвычайные ситуации'],
   },
   {
     title: "Урок 6: Техногенные чрезвычайные ситуации",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson6.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e293b%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2364748b33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b833%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2394a3b899%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2394a3b8%22%3E%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%B3%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%87%D1%80%D0%B5%D0%B7%D0%B2%D1%8B%D1%87%D0%B0%D0%B9%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%82%D1%83%D0%B0%D1%86%D0%B8%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2364748b66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b877%22%3E%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -225,10 +235,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Гамма-излучение задерживается:", options: ["Бумагой", "Стеклом", "Свинцом", "Тканью", "—"], correctAnswer: "Свинцом", hint: "Свинец — самый эффективный защитный материал" }
     ],
     reward: { stars: 3, message: "Ты знаешь действия при техногенных ЧС! ☢️" }
+    keyPoints: ['Основные понятия темы «Урок 6: Техногенные чрезвычайные ситуации»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Урок 6: Техногенные чрезвычайные ситуации»', 'Практическое задание: Урок 6: Техногенные чрезвычайные ситуации'],
   },
   {
     title: "Урок 7: Терроризм и его последствия",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson7.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e293b%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2364748b33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b833%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2394a3b899%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2394a3b8%22%3E%D0%A2%D0%B5%D1%80%D1%80%D0%BE%D1%80%D0%B8%D0%B7%D0%BC%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B8%D1%8F%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2364748b66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b877%22%3E%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -239,10 +251,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Рядом с подозрительным предметом нельзя:", options: ["Стоять", "Пользоваться телефоном", "Сидеть", "Говорить", "—"], correctAnswer: "Пользоваться телефоном", hint: "Радиосигнал может спровоцировать взрыв" }
     ],
     reward: { stars: 3, message: "Ты знаешь правила антитеррора! 🚨" }
+    keyPoints: ['Основные понятия темы «Урок 7: Терроризм и его последствия»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Урок 7: Терроризм и его последствия»', 'Практическое задание: Урок 7: Терроризм и его последствия'],
   },
   {
     title: "Урок 8: Первая помощь",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson8.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e293b%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2364748b33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b833%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2394a3b899%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2394a3b8%22%3E%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2364748b66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b877%22%3E%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -253,10 +267,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "При переломе нужно:", options: ["Вправить кость", "Сделать шину", "Двигать конечность", "Массировать место", "—"], correctAnswer: "Сделать шину", hint: "Иммобилизация — обездвиживание" }
     ],
     reward: { stars: 3, message: "Ты умеешь оказывать первую помощь! 🏥" }
+    keyPoints: ['Основные понятия темы «Урок 8: Первая помощь»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Урок 8: Первая помощь»', 'Практическое задание: Урок 8: Первая помощь'],
   },
   {
     title: "Урок 9: Сигналы гражданской обороны",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson9.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e293b%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2364748b33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b833%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2394a3b899%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2394a3b8%22%3E%D0%A1%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D1%8B%20%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D0%BD%D1%8B%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2364748b66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b877%22%3E%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -267,10 +283,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "При радиационной опасности нужно принять:", options: ["Антибиотики", "Йодосодержащие препараты", "Обезболивающие", "Витамины", "—"], correctAnswer: "Йодосодержащие препараты", hint: "Йод защищает щитовидную железу" }
     ],
     reward: { stars: 3, message: "Ты знаешь сигналы гражданской обороны! 📢" }
+    keyPoints: ['Основные понятия темы «Урок 9: Сигналы гражданской обороны»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Урок 9: Сигналы гражданской обороны»', 'Практическое задание: Урок 9: Сигналы гражданской обороны'],
   },
   {
     title: "Урок 10: Защитные сооружения",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson10.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e293b%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2364748b33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b833%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2394a3b899%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2394a3b8%22%3E%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D1%8B%D0%B5%20%D1%81%D0%BE%D0%BE%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2364748b66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b877%22%3E%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -281,10 +299,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Простейшее укрытие:", options: ["Убежище", "Щель или траншея", "ПРУ", "Метро", "—"], correctAnswer: "Щель или траншея", hint: "Щель — простейшее укрытие, которое можно вырыть" }
     ],
     reward: { stars: 3, message: "Ты знаешь защитные сооружения! 🏢" }
+    keyPoints: ['Основные понятия темы «Урок 10: Защитные сооружения»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Урок 10: Защитные сооружения»', 'Практическое задание: Урок 10: Защитные сооружения'],
   },
   {
     title: "Урок 11: Здоровый образ жизни",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson11.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e293b%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2364748b33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b833%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2394a3b899%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2394a3b8%22%3E%D0%97%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2364748b66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b877%22%3E%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -295,10 +315,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Минимальная физическая нагрузка в неделю:", options: ["30 минут", "60 минут", "150 минут", "300 минут", "—"], correctAnswer: "150 минут", hint: "ВОЗ рекомендует 150 минут умеренной нагрузки" }
     ],
     reward: { stars: 3, message: "Ты приверженец здорового образа жизни! 💪" }
+    keyPoints: ['Основные понятия темы «Урок 11: Здоровый образ жизни»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Урок 11: Здоровый образ жизни»', 'Практическое задание: Урок 11: Здоровый образ жизни'],
   },
   {
     title: "Урок 12: Вредные привычки",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson12.svg",
+        image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%231e293b%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%2364748b33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2394a3b833%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2394a3b899%22%3E11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%2394a3b8%22%3E%D0%92%D1%80%D0%B5%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B8%D0%B2%D1%8B%D1%87%D0%BA%D0%B8%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%2364748b66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%2364748b%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b877%22%3E%D0%9E%D0%91%D0%96%3C%2Ftext%3E%3C%2Fsvg%3E",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -309,5 +331,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Лечение наркомании эффективно в:", options: ["80% случаев", "50% случаев", "10-20% случаев", "5% случаев", "—"], correctAnswer: "10-20% случаев", hint: "Лучше не начинать — лечение сложное" }
     ],
     reward: { stars: 3, message: "Ты знаешь о вреде вредных привычек! 🚭" }
+    keyPoints: ['Основные понятия темы «Урок 12: Вредные привычки»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Урок 12: Вредные привычки»', 'Практическое задание: Урок 12: Вредные привычки'],
   }
 ]

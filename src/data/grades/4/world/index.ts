@@ -679,6 +679,7 @@ export const games: GameLesson[] = [
   // ═══════════════════════════════════════════════
   {
     title: "Арктика и тундра",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B0%20%D0%B8%20%D1%82%D1%83%D0%BD%D0%B4%D1%80%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -689,6 +690,8 @@ export const games: GameLesson[] = [
         options: ["До -10°C", "До -50°C", "До -20°C", "До -30°C", "До -5°C"],
         correctAnswer: "До -50°C",
         hint: "В Арктике очень холодные зимы."
+        keyPoints: ['Основные понятия темы «Арктика и тундра»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Арктика и тундра»', 'Практическое задание: Арктика и тундра'],
       },
       {
         type: "quiz",
@@ -723,6 +726,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Леса России",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9B%D0%B5%D1%81%D0%B0%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -733,6 +737,8 @@ export const games: GameLesson[] = [
         options: ["Степь", "Тундра", "Тайга", "Смешанные леса", "Пустыня"],
         correctAnswer: "Тайга",
         hint: "Это зона хвойных лесов."
+        keyPoints: ['Основные понятия темы «Леса России»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Леса России»', 'Практическое задание: Леса России'],
       },
       {
         type: "quiz",
@@ -767,6 +773,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Степи и пустыни",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D0%B5%D0%BF%D0%B8%20%D0%B8%20%D0%BF%D1%83%D1%81%D1%82%D1%8B%D0%BD%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -777,6 +784,8 @@ export const games: GameLesson[] = [
         options: ["Песчаная", "Глинистая", "Чернозём", "Торфяная", "Каменистая"],
         correctAnswer: "Чернозём",
         hint: "Это самая плодородная почва."
+        keyPoints: ['Основные понятия темы «Степи и пустыни»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Степи и пустыни»', 'Практическое задание: Степи и пустыни'],
       },
       {
         type: "quiz",
@@ -811,6 +820,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Древние славяне",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B8%D0%B5%20%D1%81%D0%BB%D0%B0%D0%B2%D1%8F%D0%BD%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -821,6 +831,8 @@ export const games: GameLesson[] = [
         options: ["Из камня", "Из глины", "Из брёвен", "Изо льда", "Из песка"],
         correctAnswer: "Из брёвен",
         hint: "Славяне строили деревянные дома."
+        keyPoints: ['Основные понятия темы «Древние славяне»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Древние славяне»', 'Практическое задание: Древние славяне'],
       },
       {
         type: "quiz",
@@ -855,6 +867,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Крещение Руси",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%A0%D1%83%D1%81%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -865,6 +878,8 @@ export const games: GameLesson[] = [
         options: ["862", "988", "1019", "1240", "1147"],
         correctAnswer: "988",
         hint: "Это произошло в конце X века."
+        keyPoints: ['Основные понятия темы «Крещение Руси»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Крещение Руси»', 'Практическое задание: Крещение Руси'],
       },
       {
         type: "quiz",
@@ -899,6 +914,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Великие князья Руси",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B5%20%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C%D1%8F%20%D0%A0%D1%83%D1%81%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -909,6 +925,8 @@ export const games: GameLesson[] = [
         options: ["Судебник", "Русская Правда", "Соборное уложение", "Табель о рангах", "Стоглав"],
         correctAnswer: "Русская Правда",
         hint: "Название говорит о справедливости законов."
+        keyPoints: ['Основные понятия темы «Великие князья Руси»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Великие князья Руси»', 'Практическое задание: Великие князья Руси'],
       },
       {
         type: "quiz",
@@ -943,6 +961,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Пищеварение",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B8%D1%89%D0%B5%D0%B2%D0%B0%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -953,6 +972,8 @@ export const games: GameLesson[] = [
         options: ["С желудка", "С кишечника", "Со рта", "С пищевода", "С печени"],
         correctAnswer: "Со рта",
         hint: "Пища сначала попадает в рот, где измельчается зубами."
+        keyPoints: ['Основные понятия темы «Пищеварение»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Пищеварение»', 'Практическое задание: Пищеварение'],
       },
       {
         type: "quiz",
@@ -987,6 +1008,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Дыхание",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -997,6 +1019,8 @@ export const games: GameLesson[] = [
         options: ["Углекислый газ", "Азот", "Кислород", "Водород", "Гелий"],
         correctAnswer: "Кислород",
         hint: "Без этого газа мы не смогли бы жить."
+        keyPoints: ['Основные понятия темы «Дыхание»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Дыхание»', 'Практическое задание: Дыхание'],
       },
       {
         type: "quiz",
@@ -1031,6 +1055,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Кровообращение",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D1%80%D0%BE%D0%B2%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -1085,6 +1110,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Вода и воздух",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D0%BE%D0%B4%D0%B0%20%D0%B8%20%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -1095,6 +1121,8 @@ export const games: GameLesson[] = [
         options: ["50%", "60%", "71%", "80%", "90%"],
         correctAnswer: "71%",
         hint: "Большую часть планеты занимает Мировой океан."
+        keyPoints: ['Основные понятия темы «Вода и воздух»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Вода и воздух»', 'Практическое задание: Вода и воздух'],
       },
       {
         type: "quiz",
@@ -1129,6 +1157,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Полезные ископаемые",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5%20%D0%B8%D1%81%D0%BA%D0%BE%D0%BF%D0%B0%D0%B5%D0%BC%D1%8B%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -1183,6 +1212,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Почва",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D1%87%D0%B2%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -1193,6 +1223,8 @@ export const games: GameLesson[] = [
         options: ["1 год", "10 лет", "100-300 лет", "500 лет", "1000 лет"],
         correctAnswer: "100-300 лет",
         hint: "Почва образуется очень медленно."
+        keyPoints: ['Основные понятия темы «Почва»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Почва»', 'Практическое задание: Почва'],
       },
       {
         type: "quiz",
@@ -1227,6 +1259,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Растения и животные",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -1237,6 +1270,8 @@ export const games: GameLesson[] = [
         options: ["Белка", "Заяц", "Соболь", "Лиса", "Волк"],
         correctAnswer: "Соболь",
         hint: "Это ценный пушной зверёк из семейства куньих."
+        keyPoints: ['Основные понятия темы «Растения и животные»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Растения и животные»', 'Практическое задание: Растения и животные'],
       },
       {
         type: "quiz",
@@ -1271,6 +1306,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Красная книга и заповедники",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0%20%D0%B8%20%D0%B7%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -1281,6 +1317,8 @@ export const games: GameLesson[] = [
         options: ["Красоту природы", "Сигнал опасности", "Цвет птиц", "Цвет крови", "Любовь к животным"],
         correctAnswer: "Сигнал опасности",
         hint: "Красный цвет предупреждает об угрозе."
+        keyPoints: ['Основные понятия темы «Красная книга и заповедники»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Красная книга и заповедники»', 'Практическое задание: Красная книга и заповедники'],
       },
       {
         type: "quiz",
@@ -1314,6 +1352,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Карта природных зон",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D1%85%20%D0%B7%D0%BE%D0%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -1324,6 +1363,8 @@ export const games: GameLesson[] = [
         options: ["С юга на север", "С севера на юг", "С запада на восток", "С востока на запад", "Хаотично"],
         correctAnswer: "С севера на юг",
         hint: "Чем дальше на юг, тем больше тепла и влаги."
+        keyPoints: ['Основные понятия темы «Карта природных зон»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Карта природных зон»', 'Практическое задание: Карта природных зон'],
       },
       {
         type: "quiz",
@@ -1357,6 +1398,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Крещение Руси",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%A0%D1%83%D1%81%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -1367,6 +1409,8 @@ export const games: GameLesson[] = [
         options: ["862", "988", "1019", "1147", "1240"],
         correctAnswer: "988",
         hint: "Это произошло в конце X века при князе Владимире."
+        keyPoints: ['Основные понятия темы «Крещение Руси»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Крещение Руси»', 'Практическое задание: Крещение Руси'],
       },
       {
         type: "quiz",
@@ -1399,6 +1443,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Князья Руси",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BD%D1%8F%D0%B7%D1%8C%D1%8F%20%D0%A0%D1%83%D1%81%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -1409,6 +1454,8 @@ export const games: GameLesson[] = [
         options: ["Владимир Мономах", "Ярослав Мудрый", "Александр Невский", "Дмитрий Донской", "Рюрик"],
         correctAnswer: "Ярослав Мудрый",
         hint: "Этот князь правил с 1019 по 1054 год."
+        keyPoints: ['Основные понятия темы «Князья Руси»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Князья Руси»', 'Практическое задание: Князья Руси'],
       },
       {
         type: "quiz",
@@ -1442,6 +1489,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Строение тела человека",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%82%D0%B5%D0%BB%D0%B0%20%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -1493,6 +1541,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Заповедники России",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -1503,6 +1552,8 @@ export const games: GameLesson[] = [
         options: ["Парк для отдыха", "Территория, где природа полностью охраняется", "Зоопарк", "Ботанический сад", "Лесопарк"],
         correctAnswer: "Территория, где природа полностью охраняется",
         hint: "Там запрещена охота, рыбалка и сбор растений."
+        keyPoints: ['Основные понятия темы «Заповедники России»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Заповедники России»', 'Практическое задание: Заповедники России'],
       },
       {
         type: "quiz",
@@ -1536,6 +1587,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Экологически чистый мир",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%AD%D0%BA%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%20%D1%87%D0%B8%D1%81%D1%82%D1%8B%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -1546,6 +1598,8 @@ export const games: GameLesson[] = [
         options: ["Наука о животных", "Наука о доме и окружающей среде", "Наука о космосе", "Наука о погоде", "Наука о растениях"],
         correctAnswer: "Наука о доме и окружающей среде",
         hint: "Слово «экология» происходит от греческого слова «ойкос» — дом."
+        keyPoints: ['Основные понятия темы «Экологически чистый мир»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Экологически чистый мир»', 'Практическое задание: Экологически чистый мир'],
       },
       {
         type: "quiz",

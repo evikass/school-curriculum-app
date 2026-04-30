@@ -527,6 +527,7 @@ export const games: GameLesson[] = [
   // ==================== МУЗЫКА (12 тестов) ====================
   {
     title: "Музыкальные инструменты",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -552,6 +553,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Нотная грамота",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%BE%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -577,6 +579,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Тембр и регистр",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A2%D0%B5%D0%BC%D0%B1%D1%80%20%D0%B8%20%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -588,10 +591,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой инструмент имеет серебристый тембр?", options: ["Виолончель", "Труба", "Флейта", "Контрабас", "Барабан"], correctAnswer: "Флейта", hint: "Флейта — серебристый, воздушный звук" }
     ],
     reward: { stars: 3, message: "Прекрасно! Ты чувствуешь музыку! 🎭" }
+    keyPoints: ['Основные понятия темы «Тембр и регистр»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Тембр и регистр»', 'Практическое задание: Тембр и регистр'],
   },
 
   {
     title: "М.И. Глинка",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C.%D0%98.%20%D0%93%D0%BB%D0%B8%D0%BD%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -603,10 +609,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько иностранных языков знал Глинка?", options: ["3", "4", "5", "6", "7"], correctAnswer: "6", hint: "Глинка знал 6 иностранных языков" }
     ],
     reward: { stars: 3, message: "Браво! Ты знаешь Глинку! 🎻" }
+    keyPoints: ['Основные понятия темы «М.И. Глинка»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «М.И. Глинка»', 'Практическое задание: М.И. Глинка'],
   },
 
   {
     title: "П.И. Чайковский",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F.%D0%98.%20%D0%A7%D0%B0%D0%B9%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -623,10 +632,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как называется фортепианный цикл Чайковского из 12 пьес?", options: ["Времена года", "Детская музыка", "Времена дня", "Времена суток", "Сезоны"], correctAnswer: "Времена года", hint: "«Времена года» — фортепианный цикл из 12 пьес" }
     ],
     reward: { stars: 3, message: "Великолепно! Ты знаешь Чайковского! 🎹" }
+    examples: ['Пример по теме «П.И. Чайковский»', 'Практическое задание: П.И. Чайковский'],
   },
 
   {
     title: "Н.А. Римский-Корсаков",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D.%D0%90.%20%D0%A0%D0%B8%D0%BC%D1%81%D0%BA%D0%B8%D0%B9-%D0%9A%D0%BE%D1%80%D1%81%D0%B0%D0%BA%D0%BE%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -638,10 +649,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько опер написал Римский-Корсаков?", options: ["5", "10", "15", "20", "25"], correctAnswer: "15", hint: "Римский-Корсаков написал 15 опер" }
     ],
     reward: { stars: 3, message: "Сказочно! Ты знаешь Римского-Корсакова! 🎪" }
+    keyPoints: ['Основные понятия темы «Н.А. Римский-Корсаков»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Н.А. Римский-Корсаков»', 'Практическое задание: Н.А. Римский-Корсаков'],
   },
 
   {
     title: "С.С. Прокофьев",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1.%D0%A1.%20%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D1%84%D1%8C%D0%B5%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -653,10 +667,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "На скольких языках переведён «Петя и волк»?", options: ["10", "20", "30", "40", "50"], correctAnswer: "40", hint: "«Петя и волк» переведён на 40 языков" }
     ],
     reward: { stars: 3, message: "Динамично! Ты знаешь Прокофьева! 🌟" }
+    keyPoints: ['Основные понятия темы «С.С. Прокофьев»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «С.С. Прокофьев»', 'Практическое задание: С.С. Прокофьев'],
   },
 
   {
     title: "Опера и балет",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%B1%D0%B0%D0%BB%D0%B5%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -668,10 +685,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой театр — один из лучших в мире?", options: ["Малый театр", "Большой театр", "Театр на Таганке", "МХТ", "Ленком"], correctAnswer: "Большой театр", hint: "Большой театр (Москва) — один из лучших в мире" }
     ],
     reward: { stars: 3, message: "Феерично! Ты знаешь музыкальный театр! 🎭" }
+    keyPoints: ['Основные понятия темы «Опера и балет»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Опера и балет»', 'Практическое задание: Опера и балет'],
   },
 
   {
     title: "Концерт и симфония",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D1%80%D1%82%20%D0%B8%20%D1%81%D0%B8%D0%BC%D1%84%D0%BE%D0%BD%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -683,10 +703,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какая часть симфонии — быстрая, торжественная?", options: ["Первая", "Вторая", "Третья", "Финал", "Увертюра"], correctAnswer: "Финал", hint: "Финал — быстрая, торжественная часть симфонии" }
     ],
     reward: { stars: 3, message: "Симфонично! Ты знаешь концертные жанры! 🎵" }
+    keyPoints: ['Основные понятия темы «Концерт и симфония»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Концерт и симфония»', 'Практическое задание: Концерт и симфония'],
   },
 
   {
     title: "Песня и романс",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%B5%D1%81%D0%BD%D1%8F%20%D0%B8%20%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%81%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -698,10 +721,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько романсов написал Глинка?", options: ["Около 30", "Около 50", "Около 80", "Около 100", "Около 120"], correctAnswer: "Около 80", hint: "Глинка написал около 80 романсов" }
     ],
     reward: { stars: 3, message: "Мелодично! Ты знаешь вокальные жанры! 🎤" }
+    keyPoints: ['Основные понятия темы «Песня и романс»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Песня и романс»', 'Практическое задание: Песня и романс'],
   },
 
   {
     title: "Русские народные инструменты",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -713,10 +739,13 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой инструмент является ударным народным инструментом?", options: ["Балалайка", "Гармонь", "Гусли", "Ложки", "Баян"], correctAnswer: "Ложки", hint: "Ложки — ударный инструмент!" }
     ],
     reward: { stars: 3, message: "Народно! Ты знаешь русские инструменты! 🪗" }
+    keyPoints: ['Основные понятия темы «Русские народные инструменты»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Русские народные инструменты»', 'Практическое задание: Русские народные инструменты'],
   },
 
   {
     title: "Русские народные песни",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234f46e5%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B5%D1%81%D0%BD%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%E2%99%AA%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -728,5 +757,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "На скольких языках переведена «Катюша»?", options: ["50", "75", "100", "150", "200"], correctAnswer: "100", hint: "«Катюша» переведена на 100 языков" }
     ],
     reward: { stars: 3, message: "Голосисто! Ты знаешь народные песни! 🎵" }
+    keyPoints: ['Основные понятия темы «Русские народные песни»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Русские народные песни»', 'Практическое задание: Русские народные песни'],
   }
 ]

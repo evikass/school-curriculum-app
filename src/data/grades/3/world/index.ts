@@ -874,6 +874,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Природные сообщества",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -884,9 +885,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какие животные живут в водоёме?", options: ["Медведи", "Рыбы и лягушки", "Волки", "Никто не знает", "Не знаю"], correctAnswer: "Рыбы и лягушки", hint: "В водоёме живут водные животные" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь природные сообщества! 🌿" }
+    keyPoints: ['Основные понятия темы «Природные сообщества»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Природные сообщества»', 'Практическое задание: Природные сообщества'],
   },
   {
     title: "Организм человека",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%BC%20%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -897,9 +901,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Сколько костей в теле человека?", options: ["Около 100", "Около 200", "Около 300", "Никто не знает", "Не знаю"], correctAnswer: "Около 200", hint: "У взрослого человека около 206 костей" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь свой организм! 🫀" }
+    keyPoints: ['Основные понятия темы «Организм человека»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Организм человека»', 'Практическое задание: Организм человека'],
   },
   {
     title: "Полезные ископаемые",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5%20%D0%B8%D1%81%D0%BA%D0%BE%D0%BF%D0%B0%D0%B5%D0%BC%D1%8B%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -910,9 +917,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Что делают из глины?", options: ["Бумагу", "Кирпичи", "Ткань", "Никто не знает", "Не знаю"], correctAnswer: "Кирпичи", hint: "Глина — материал для стройки" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь ископаемые! ⛏️" }
+    keyPoints: ['Основные понятия темы «Полезные ископаемые»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Полезные ископаемые»', 'Практическое задание: Полезные ископаемые'],
   },
   {
     title: "Экология и охрана",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%AD%D0%BA%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%20%D0%B8%20%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -923,9 +933,12 @@ export const games: GameLesson[] = [
       { type: 'find', question: "Как можно беречь природу?", options: ["Сортировать мусор", "Сжигать листья", "Экономить воду", "Бросать мусор", "Сажать деревья"], correctAnswer: ["Сортировать мусор", "Экономить воду", "Сажать деревья"], hint: "Каждый может помочь природе" }
     ],
     reward: { stars: 3, message: "Молодец! Ты защитник природы! 🌍" }
+    keyPoints: ['Основные понятия темы «Экология и охрана»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Экология и охрана»', 'Практическое задание: Экология и охрана'],
   },
   {
     title: "Ярусы леса",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%AF%D1%80%D1%83%D1%81%D1%8B%20%D0%BB%D0%B5%D1%81%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -936,9 +949,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Где в лесу растут грибы?", options: ["На деревьях", "В почвенном ярусе", "На кустах", "Никто не знает", "Не знаю"], correctAnswer: "В почвенном ярусе", hint: "Грибы растут на почве" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь лес! 🌲" }
+    keyPoints: ['Основные понятия темы «Ярусы леса»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Ярусы леса»', 'Практическое задание: Ярусы леса'],
   },
   {
     title: "Животные сообществ",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%96%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D0%B5%20%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -949,5 +965,7 @@ export const games: GameLesson[] = [
       { type: 'find', question: "Выбери насекомых:", options: ["Пчела", "Паук", "Бабочка", "Червяк", "Муравей", "Улитка"], correctAnswer: ["Пчела", "Бабочка", "Муравей"], hint: "Насекомые имеют 6 ног" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь животных! 🦊" }
+    keyPoints: ['Основные понятия темы «Животные сообществ»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Животные сообществ»', 'Практическое задание: Животные сообществ'],
   }
 ]

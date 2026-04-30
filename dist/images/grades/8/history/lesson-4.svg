@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBFB" />
+      <stop offset="100%" stop-color="#FFF0F0" />
+    </linearGradient>
+  </defs>
+  <defs>
+    <filter id="shadow4" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000030" />
+    </filter>
+  </defs>
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBFB" />
+      <stop offset="100%" stop-color="#FFF5F5" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#bg4)" />
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B91C1C" />
+      <stop offset="100%" stop-color="#EF4444" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" />
+  <rect x="0" y="70" width="800" height="3" fill="#D4A017" />
+  <text x="400" y="32" font-size="22" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Екатерина II — просвещённый абсолютизм</text>
+  <text x="400" y="55" font-size="13" fill="#FEE2E2" text-anchor="middle" font-family="sans-serif">Реформы, Пугачёв, территориальное расширение (1762-1796)</text>
+  <polygon points="21.799999999999997,43.8 21.799999999999997,30.6 28.4,37.2 35,24.0 41.6,37.2 48.2,30.6 48.2,43.8" fill="#D4A017" stroke="#8B6914" />
+  <circle cx="35" cy="28.4" r="2.2" fill="#EF4444" />
+  <circle cx="26.2" cy="33.9" r="1.6500000000000001" fill="#3B82F6" />
+  <circle cx="43.8" cy="33.9" r="1.6500000000000001" fill="#3B82F6" />
+  <rect x="20" y="90" width="760" height="52" fill="#FFFFFF" stroke="#FCA5A5" rx="8" ry="8" />
+  <line x1="40" y1="116" x2="760" y2="116" stroke="#EF4444" stroke-width="3" />
+  <circle cx="80" cy="116" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="80" y="84" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1762</text>
+  <text x="80" y="118" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="80" y="133" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Восст.</text>
+  <text x="80" y="143" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">на трон</text>
+  <circle cx="180" cy="116" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="180" y="84" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1767</text>
+  <text x="180" y="118" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="180" y="133" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Уложен.</text>
+  <text x="180" y="143" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">комиссия</text>
+  <circle cx="290" cy="116" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="290" y="84" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1773-75</text>
+  <text x="290" y="118" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="290" y="133" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Пугачёв</text>
+  <circle cx="400" cy="116" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="400" y="84" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1783</text>
+  <text x="400" y="118" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="400" y="133" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Крым</text>
+  <circle cx="500" cy="116" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="500" y="84" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1785</text>
+  <text x="500" y="118" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="500" y="133" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Жалов.</text>
+  <text x="500" y="143" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">грамоты</text>
+  <circle cx="610" cy="116" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="610" y="84" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1787-91</text>
+  <text x="610" y="118" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="610" y="133" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Русско-</text>
+  <text x="610" y="143" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">турецкая</text>
+  <circle cx="720" cy="116" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="720" y="84" font-size="10" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">1793-95</text>
+  <text x="720" y="118" font-size="9" fill="#1F2937" text-anchor="middle" font-family="sans-serif" />
+  <text x="720" y="133" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Разделы</text>
+  <text x="720" y="143" font-size="8" fill="#1F2937" text-anchor="middle" font-family="sans-serif">Польши</text>
+  <rect x="25" y="155" width="265" height="155" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.5" rx="8" ry="8" filter="url(#shadow4)" />
+  <rect x="25" y="155" width="265" height="24" fill="#7C3AED" rx="8" ry="8" />
+  <rect x="25" y="169" width="265" height="10" fill="#7C3AED" />
+  <text x="157" y="172" font-size="11" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Просвещённый абсолютизм</text>
+  <text x="37" y="195" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Следование идеям Просвещения</text>
+  <text x="37" y="210" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Переписка с Вольтером, Дидро</text>
+  <text x="37" y="225" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Уложенная комиссия (1767)</text>
+  <text x="37" y="240" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Наказ Екатерины II</text>
+  <text x="37" y="255" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">Жалованные грамоты (1785):</text>
+  <text x="37" y="270" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">  - Дворянству (свободы, привилегии)</text>
+  <text x="37" y="285" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">  - Городам (самоуправление)</text>
+  <polygon points="261.6,172.6 261.6,164.2 265.8,168.4 270,160.0 274.2,168.4 278.4,164.2 278.4,172.6" fill="#D4A017" stroke="#8B6914" />
+  <circle cx="270" cy="162.8" r="1.4" fill="#EF4444" />
+  <circle cx="264.4" cy="166.3" r="1.0499999999999998" fill="#3B82F6" />
+  <circle cx="275.6" cy="166.3" r="1.0499999999999998" fill="#3B82F6" />
+  <rect x="305" y="155" width="250" height="155" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8" ry="8" filter="url(#shadow4)" />
+  <rect x="305" y="155" width="250" height="24" fill="#EF4444" rx="8" ry="8" />
+  <rect x="305" y="169" width="250" height="10" fill="#EF4444" />
+  <line x1="315.4" y1="153.8" x2="315.4" y2="174.8" stroke="#374151" stroke-width="1.75" />
+  <polygon points="315.4,153.8 330.8,158.0 315.4,163.6" fill="#FFFFFF" stroke="#B91C1C" />
+  <text x="440" y="172" font-size="11" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Восстание Пугачёва (1773-75)</text>
+  <text x="430" y="195" font-size="10" fill="#B91C1C" text-anchor="middle" font-family="sans-serif" font-weight="bold">Емельян Пугачёв</text>
+  <text x="430" y="211" font-size="9" fill="#374151" text-anchor="middle" font-family="sans-serif">Выдавал себя за Петра III</text>
+  <circle cx="325" cy="223" r="4" fill="#F59E0B" />
+  <text x="335" y="227" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">1773-74 — Осада Оренбурга</text>
+  <circle cx="325" cy="247" r="4" fill="#DC2626" />
+  <text x="335" y="251" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">1774 — Поход на Москву</text>
+  <circle cx="325" cy="271" r="4" fill="#6B7280" />
+  <text x="335" y="275" font-size="9" fill="#1F2937" text-anchor="start" font-family="sans-serif">1774-75 — Подавление, казнь</text>
+  <text x="430" y="297" font-size="8" fill="#EF4444" text-anchor="middle" font-family="sans-serif" font-weight="bold">Крупнейшее восстание в истории России</text>
+  <rect x="570" y="155" width="215" height="155" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" rx="8" ry="8" filter="url(#shadow4)" />
+  <rect x="570" y="155" width="215" height="24" fill="#059669" rx="8" ry="8" />
+  <rect x="570" y="169" width="215" height="10" fill="#059669" />
+  <text x="677" y="172" font-size="11" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">Территориальное расширение</text>
+  <text x="580" y="193" font-size="8" fill="#059669" text-anchor="start" font-family="sans-serif" font-weight="bold">1783 г.</text>
+  <text x="630" y="193" font-size="8" fill="#1F2937" text-anchor="start" font-family="sans-serif">Присоединение Крыма</text>
+  <text x="580" y="211" font-size="8" fill="#059669" text-anchor="start" font-family="sans-serif" font-weight="bold">1774 г.</text>
+  <text x="630" y="211" font-size="8" fill="#1F2937" text-anchor="start" font-family="sans-serif">Кючук-Кайнарджийский мир</text>
+  <text x="580" y="229" font-size="8" fill="#7C3AED" text-anchor="start" font-family="sans-serif" font-weight="bold">1783 г.</text>
+  <text x="630" y="229" font-size="8" fill="#1F2937" text-anchor="start" font-family="sans-serif">Георгиевский трактат</text>
+  <text x="580" y="247" font-size="8" fill="#DC2626" text-anchor="start" font-family="sans-serif" font-weight="bold">1793 г.</text>
+  <text x="630" y="247" font-size="8" fill="#1F2937" text-anchor="start" font-family="sans-serif">2-й раздел Польши</text>
+  <text x="580" y="265" font-size="8" fill="#DC2626" text-anchor="start" font-family="sans-serif" font-weight="bold">1795 г.</text>
+  <text x="630" y="265" font-size="8" fill="#1F2937" text-anchor="start" font-family="sans-serif">3-й раздел Польши</text>
+  <text x="580" y="283" font-size="8" fill="#059669" text-anchor="start" font-family="sans-serif" font-weight="bold">1791 г.</text>
+  <text x="630" y="283" font-size="8" fill="#1F2937" text-anchor="start" font-family="sans-serif">Ясский мир</text>
+  <rect x="25" y="325" width="370" height="200" fill="#FFFFFF" stroke="#FCA5A5" rx="8" ry="8" filter="url(#shadow4)" />
+  <text x="210" y="343" font-size="11" fill="#B91C1C" text-anchor="middle" font-family="sans-serif" font-weight="bold">Расширение территории при Екатерине II</text>
+  <path d="M 60 365 L 100 360 L 160 363 L 220 357 L 280 370 L 320 380 L 350 395 L 360 415 L 350 435 L 330 450 L 300 465 L 260 480 L 200 490 L 140 485 L 80 475 L 50 455 L 40 425 L 45 390 Z" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5" />
+  <ellipse cx="100" cy="485" rx="25" ry="15" fill="#D1FAE5" stroke="#059669" stroke-width="1.5" />
+  <text x="100" y="487" font-size="7" fill="#065F46" text-anchor="middle" font-family="sans-serif" font-weight="bold">Крым</text>
+  <rect x="220" y="395" width="40" height="35" fill="#FEE2E2" stroke="#DC2626" rx="3" ry="3" />
+  <text x="240" y="415" font-size="7" fill="#DC2626" text-anchor="middle" font-family="sans-serif">Польша</text>
+  <ellipse cx="110" cy="500" rx="50" ry="15" fill="#BFDBFE" stroke="#3B82F6" />
+  <text x="110" y="503" font-size="7" fill="#1E40AF" text-anchor="middle" font-family="sans-serif">Чёрное м.</text>
+  <text x="200" y="380" font-size="12" fill="#B91C1C" text-anchor="middle" font-family="sans-serif" font-weight="bold">Россия</text>
+  <rect x="410" y="325" width="375" height="200" fill="#FFFFFF" stroke="#FCA5A5" rx="8" ry="8" filter="url(#shadow4)" />
+  <text x="597" y="343" font-size="11" fill="#B91C1C" text-anchor="middle" font-family="sans-serif" font-weight="bold">Достижения эпохи Екатерины II</text>
+  <rect x="420" y="357" width="8" height="26" fill="#7C3AED" rx="4" ry="4" />
+  <text x="435" y="367" font-size="10" fill="#7C3AED" text-anchor="start" font-family="sans-serif" font-weight="bold">Образование</text>
+  <text x="435" y="379" font-size="8" fill="#374151" text-anchor="start" font-family="sans-serif">Московский университет,</text>
+  <text x="435" y="390" font-size="8" fill="#374151" text-anchor="start" font-family="sans-serif">Смольный институт (1764)</text>
+  <rect x="420" y="390" width="8" height="26" fill="#059669" rx="4" ry="4" />
+  <text x="435" y="400" font-size="10" fill="#059669" text-anchor="start" font-family="sans-serif" font-weight="bold">Медицина</text>
+  <text x="435" y="412" font-size="8" fill="#374151" text-anchor="start" font-family="sans-serif">Медицинская коллегия,</text>
+  <text x="435" y="423" font-size="8" fill="#374151" text-anchor="start" font-family="sans-serif">больницы, оспопрививание</text>
+  <rect x="420" y="423" width="8" height="26" fill="#F59E0B" rx="4" ry="4" />
+  <text x="435" y="433" font-size="10" fill="#F59E0B" text-anchor="start" font-family="sans-serif" font-weight="bold">Экономика</text>
+  <text x="435" y="445" font-size="8" fill="#374151" text-anchor="start" font-family="sans-serif">Рост мануфактур,</text>
+  <text x="435" y="456" font-size="8" fill="#374151" text-anchor="start" font-family="sans-serif">свободная торговля (1775)</text>
+  <rect x="420" y="456" width="8" height="26" fill="#DC2626" rx="4" ry="4" />
+  <text x="435" y="466" font-size="10" fill="#DC2626" text-anchor="start" font-family="sans-serif" font-weight="bold">Культура</text>
+  <text x="435" y="478" font-size="8" fill="#374151" text-anchor="start" font-family="sans-serif">Эрмитаж, Академия наук,</text>
+  <text x="435" y="489" font-size="8" fill="#374151" text-anchor="start" font-family="sans-serif">литература и искусство</text>
+  <rect x="420" y="489" width="8" height="26" fill="#1E40AF" rx="4" ry="4" />
+  <text x="435" y="499" font-size="10" fill="#1E40AF" text-anchor="start" font-family="sans-serif" font-weight="bold">Внешняя политика</text>
+  <text x="435" y="511" font-size="8" fill="#374151" text-anchor="start" font-family="sans-serif">Выход к Чёрному морю,</text>
+  <text x="435" y="522" font-size="8" fill="#374151" text-anchor="start" font-family="sans-serif">страна стала империей №1</text>
+  <rect x="25" y="535" width="750" height="28" fill="#FEE2E2" stroke="#FCA5A5" rx="6" ry="6" />
+  <text x="400" y="553" font-size="10" fill="#B91C1C" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-style="italic">«Я хочу повелевать людьми и делать их счастливыми» — Екатерина II</text>
+  <rect x="0" y="570" width="800" height="30" fill="#B91C1C" opacity="0.15" />
+  <text x="400" y="590" font-size="10" fill="#6B7280" text-anchor="middle" font-family="sans-serif">Урок 4 | История России | 8 класс</text>
+</svg>

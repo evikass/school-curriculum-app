@@ -575,6 +575,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Времена года 🍂",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0%20%D0%B3%D0%BE%D0%B4%D0%B0%20%F0%9F%8D%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -585,6 +586,8 @@ export const games: GameLesson[] = [
         options: ["Весна 🌸", "Лето ☀️", "Осень 🍂", "Зима ❄️", "Не знаю"],
         correctAnswer: "Осень 🍂",
         hint: "Листья желтеют и падают осенью"
+        keyPoints: ['Основные понятия темы «Времена года 🍂»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Времена года 🍂»', 'Практическое задание: Времена года 🍂'],
       },
       {
         type: 'quiz',
@@ -619,6 +622,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Домашние животные 🐄",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B5%20%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D0%B5%20%F0%9F%90%84%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -629,6 +633,8 @@ export const games: GameLesson[] = [
         options: ["Волк 🐺", "Корова 🐄", "Лиса 🦊", "Кошка 🐱", "Медведь 🐻", "Собака 🐕"],
         correctAnswer: ["Корова 🐄", "Кошка 🐱", "Собака 🐕"],
         hint: "Домашние животные живут с людьми"
+        keyPoints: ['Основные понятия темы «Домашние животные 🐄»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Домашние животные 🐄»', 'Практическое задание: Домашние животные 🐄'],
       },
       {
         type: 'quiz',
@@ -663,6 +669,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Дикие животные 🐻",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B8%D0%BA%D0%B8%D0%B5%20%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D0%B5%20%F0%9F%90%BB%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -673,6 +680,8 @@ export const games: GameLesson[] = [
         options: ["Медведь 🐻", "Корова 🐄", "Заяц 🐰", "Кошка 🐱", "Лиса 🦊", "Волк 🐺"],
         correctAnswer: ["Медведь 🐻", "Заяц 🐰", "Лиса 🦊", "Волк 🐺"],
         hint: "Дикие животные живут в лесу"
+        keyPoints: ['Основные понятия темы «Дикие животные 🐻»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Дикие животные 🐻»', 'Практическое задание: Дикие животные 🐻'],
       },
       {
         type: 'quiz',
@@ -707,6 +716,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Части суток 🌅",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A7%D0%B0%D1%81%D1%82%D0%B8%20%D1%81%D1%83%D1%82%D0%BE%D0%BA%20%F0%9F%8C%85%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -717,6 +727,8 @@ export const games: GameLesson[] = [
         options: ["Утром 🌅", "Днём ☀️", "Вечером 🌆", "Никто не знает", "Не знаю"],
         correctAnswer: "Утром 🌅",
         hint: "Завтрак - утренний приём пищи"
+        keyPoints: ['Основные понятия темы «Части суток 🌅»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Части суток 🌅»', 'Практическое задание: Части суток 🌅'],
       },
       {
         type: 'quiz',
@@ -751,6 +763,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Овощи и фрукты 🥕🍎",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D0%B2%D0%BE%D1%89%D0%B8%20%D0%B8%20%D1%84%D1%80%D1%83%D0%BA%D1%82%D1%8B%20%F0%9F%A5%95%F0%9F%8D%8E%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -761,6 +774,8 @@ export const games: GameLesson[] = [
         options: ["Яблоко 🍎", "Морковь 🥕", "Груша 🍐", "Огурец 🥒", "Помидор 🍅"],
         correctAnswer: ["Морковь 🥕", "Огурец 🥒", "Помидор 🍅"],
         hint: "Овощи растут на грядке"
+        keyPoints: ['Основные понятия темы «Овощи и фрукты 🥕🍎»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Овощи и фрукты 🥕🍎»', 'Практическое задание: Овощи и фрукты 🥕🍎'],
       },
       {
         type: 'find',
@@ -795,6 +810,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Правила безопасности 🚦",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%F0%9F%9A%A6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -805,6 +821,8 @@ export const games: GameLesson[] = [
         options: ["Зелёный 🟢", "Жёлтый 🟡", "Красный 🔴", "Никто не знает", "Не знаю"],
         correctAnswer: "Красный 🔴",
         hint: "Красный - стоп!"
+        keyPoints: ['Основные понятия темы «Правила безопасности 🚦»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Правила безопасности 🚦»', 'Практическое задание: Правила безопасности 🚦'],
       },
       {
         type: 'quiz',
@@ -839,6 +857,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Птицы 🐦",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%82%D0%B8%D1%86%D1%8B%20%F0%9F%90%A6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -849,6 +868,8 @@ export const games: GameLesson[] = [
         options: ["Воробей 🐦", "Бабочка 🦋", "Голубь 🕊️", "Пчела 🐝", "Синица 🐤"],
         correctAnswer: ["Воробей 🐦", "Голубь 🕊️", "Синица 🐤"],
         hint: "У птиц есть перья и крылья"
+        keyPoints: ['Основные понятия темы «Птицы 🐦»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Птицы 🐦»', 'Практическое задание: Птицы 🐦'],
       },
       {
         type: 'quiz',
@@ -883,6 +904,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Деревья 🌳",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23059669%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D1%8C%D1%8F%20%F0%9F%8C%B3%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%8C%8D%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9E%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%3C/text%3E%0A%3C/svg%3E',
     subject: "Окружающий мир",
     icon: "Globe",
     color: "text-green-400",
@@ -893,6 +915,8 @@ export const games: GameLesson[] = [
         options: ["Дуб", "Берёза", "Сосна", "Никто не знает", "Не знаю"],
         correctAnswer: "Берёза",
         hint: "Белый ствол с чёрными пятнами"
+        keyPoints: ['Основные понятия темы «Деревья 🌳»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Деревья 🌳»', 'Практическое задание: Деревья 🌳'],
       },
       {
         type: 'find',

@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#064E3B"/>
+    <stop offset="100%" style="stop-color:#059669"/>
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#10B981"/>
+    <stop offset="100%" style="stop-color:#14B8A6"/>
+  </linearGradient>
+  <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#064E3B"/>
+    <stop offset="100%" style="stop-color:#059669"/>
+  </linearGradient>
+  <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/>
+  </filter>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+<rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="8"/>
+<circle cx="40" cy="35" r="22" fill="#10B981" stroke="#14B8A6" stroke-width="2"/>
+<text x="40" y="42" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="sans-serif" font-weight="bold">8</text>
+<text x="72" y="32" fill="#FFFFFF" font-size="22" text-anchor="start" font-family="sans-serif" font-weight="bold">Цикл while</text>
+<text x="72" y="52" fill="#6EE7B7" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="normal">Условия, бесконечные циклы, узоры</text>
+<rect x="0" y="68" width="800" height="2" fill="#14B8A6" rx="8"/>
+<rect x="20" y="80" width="380" height="135" fill="#0F172A" rx="8" stroke="#10B981" stroke-width="1"/>
+<text x="35" y="102" fill="#14B8A6" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Синтаксис while</text>
+<rect x="35" y="112" width="350" height="172" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="35" y="112" width="350" height="24" fill="#1E293B" rx="6"/>
+<rect x="35" y="130" width="350" height="6" fill="#1E293B" rx="8"/>
+<text x="45" y="128" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">while_syntax.py</text>
+<circle cx="345" cy="124" r="4" fill="#F87171"/>
+<circle cx="359" cy="124" r="4" fill="#FCD34D"/>
+<circle cx="373" cy="124" r="4" fill="#4ADE80"/>
+<text x="43" y="152" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="65" y="152" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">while условие:</text>
+<text x="43" y="168" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="65" y="168" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">    тело_цикла</text>
+<text x="43" y="184" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="65" y="184" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="43" y="200" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="65" y="200" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal"># Пример:</text>
+<text x="43" y="216" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="65" y="216" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">count = 0</text>
+<text x="43" y="232" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">6</text>
+<text x="65" y="232" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">while count &lt; 5:</text>
+<text x="43" y="248" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">7</text>
+<text x="65" y="248" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">    print(count)</text>
+<text x="43" y="264" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">8</text>
+<text x="65" y="264" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">    count += 1</text>
+<rect x="410" y="80" width="370" height="135" fill="#0F172A" rx="8" stroke="#FB923C" stroke-width="1"/>
+<text x="425" y="102" fill="#FB923C" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Блок-ссхема while</text>
+<rect x="530" y="112" width="100" height="24" fill="#065F46" rx="6" stroke="#10B981" stroke-width="1.5"/>
+<text x="580.0" y="129.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Начало</text>
+<line x1="580" y1="136" x2="580" y2="148" stroke="#14B8A6" stroke-width="2"/>
+<polygon points="580,148,576.0,140.0,584.0,140.0" fill="#14B8A6"/>
+<polygon points="580.0,148,645,169.0,580.0,190,515,169.0" fill="#0F172A" stroke="#10B981" stroke-width="1.5"/>
+<text x="580.0" y="174.0" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Условие?</text>
+<text x="583" y="168" fill="#4ADE80" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Да</text>
+<line x1="580" y1="190" x2="580" y2="200" stroke="#4ADE80" stroke-width="2"/>
+<polygon points="580,200,576.0,192.0,584.0,192.0" fill="#4ADE80"/>
+<rect x="520" y="200" width="120" height="22" fill="#1E293B" rx="6" stroke="#10B981" stroke-width="1.5"/>
+<text x="580.0" y="216.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Тело цикла</text>
+<line x1="520" y1="211" x2="480" y2="211" stroke="#14B8A6" stroke-width="2"/>
+<polygon points="480,211,488.0,207.0,488.0,215.0" fill="#14B8A6"/>
+<line x1="480" y1="211" x2="480" y2="169" stroke="#14B8A6" stroke-width="2"/>
+<polygon points="480,169,484.0,177.0,476.0,177.0" fill="#14B8A6"/>
+<line x1="480" y1="169" x2="515" y2="169" stroke="#14B8A6" stroke-width="2"/>
+<polygon points="515,169,507.0,173.0,507.0,165.0" fill="#14B8A6"/>
+<text x="645" y="168" fill="#F87171" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Нет</text>
+<line x1="645" y1="169" x2="680" y2="169" stroke="#F87171" stroke-width="2"/>
+<polygon points="680,169,672.0,173.0,672.0,165.0" fill="#F87171"/>
+<rect x="660" y="185" width="90" height="22" fill="#065F46" rx="6" stroke="#10B981" stroke-width="1.5"/>
+<text x="705.0" y="201.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Конец</text>
+<rect x="20" y="225" width="380" height="175" fill="#0F172A" rx="8" stroke="#F87171" stroke-width="1"/>
+<text x="35" y="247" fill="#F87171" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Бесконечный цикл</text>
+<text x="35" y="267" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">Если условие всегда True,</text>
+<text x="35" y="283" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">цикл не завершится!</text>
+<rect x="35" y="295" width="350" height="170" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="35" y="295" width="350" height="24" fill="#1E293B" rx="6"/>
+<rect x="35" y="313" width="350" height="6" fill="#1E293B" rx="8"/>
+<text x="45" y="311" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">infinite.py</text>
+<circle cx="345" cy="307" r="4" fill="#F87171"/>
+<circle cx="359" cy="307" r="4" fill="#FCD34D"/>
+<circle cx="373" cy="307" r="4" fill="#4ADE80"/>
+<text x="43" y="335" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="65" y="335" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal"># Бесконечный цикл!</text>
+<text x="43" y="349" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="65" y="349" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">while True:</text>
+<text x="43" y="363" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="65" y="363" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">    print(&quot;Бесконечно...&quot;)</text>
+<text x="43" y="377" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="65" y="377" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="43" y="391" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="65" y="391" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal"># Стоп через break</text>
+<text x="43" y="405" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">6</text>
+<text x="65" y="405" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">while True:</text>
+<text x="43" y="419" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">7</text>
+<text x="65" y="419" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">    cmd = input(&quot;&gt;&gt; &quot;)</text>
+<text x="43" y="433" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">8</text>
+<text x="65" y="433" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">    if cmd == &quot;exit&quot;:</text>
+<text x="43" y="447" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">9</text>
+<text x="65" y="447" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">        break</text>
+<rect x="410" y="225" width="370" height="175" fill="#0F172A" rx="8" stroke="#4ADE80" stroke-width="1"/>
+<text x="425" y="247" fill="#4ADE80" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Практические примеры</text>
+<rect x="425" y="257" width="340" height="212" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="425" y="257" width="340" height="24" fill="#1E293B" rx="6"/>
+<rect x="425" y="275" width="340" height="6" fill="#1E293B" rx="8"/>
+<text x="435" y="273" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">practical.py</text>
+<circle cx="725" cy="269" r="4" fill="#F87171"/>
+<circle cx="739" cy="269" r="4" fill="#FCD34D"/>
+<circle cx="753" cy="269" r="4" fill="#4ADE80"/>
+<text x="433" y="297" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="455" y="297" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal"># Ввод до стоп-слова</text>
+<text x="433" y="311" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="455" y="311" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">word = &quot;&quot;</text>
+<text x="433" y="325" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="455" y="325" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">while word != &quot;стоп&quot;:</text>
+<text x="433" y="339" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="455" y="339" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">    word = input(&quot;Слово: &quot;)</text>
+<text x="433" y="353" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="455" y="353" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">print(&quot;Конец!&quot;)</text>
+<text x="433" y="367" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">6</text>
+<text x="455" y="367" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="433" y="381" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">7</text>
+<text x="455" y="381" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal"># Подсчёт суммы</text>
+<text x="433" y="395" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">8</text>
+<text x="455" y="395" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">total = 0</text>
+<text x="433" y="409" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">9</text>
+<text x="455" y="409" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">num = 1</text>
+<text x="433" y="423" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">10</text>
+<text x="455" y="423" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">while num != 0:</text>
+<text x="433" y="437" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">11</text>
+<text x="455" y="437" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">    num = int(input(&quot;Число: &quot;))</text>
+<text x="433" y="451" fill="#475569" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">12</text>
+<text x="455" y="451" fill="#D1FAE5" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">    total += num</text>
+<rect x="20" y="410" width="760" height="160" fill="#0F172A" rx="8" stroke="#10B981" stroke-width="1"/>
+<text x="35" y="432" fill="#14B8A6" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Рисуем узоры с помощью while</text>
+<rect x="35" y="442" width="360" height="164" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="35" y="442" width="360" height="24" fill="#1E293B" rx="6"/>
+<rect x="35" y="460" width="360" height="6" fill="#1E293B" rx="8"/>
+<text x="45" y="458" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">pattern.py</text>
+<circle cx="355" cy="454" r="4" fill="#F87171"/>
+<circle cx="369" cy="454" r="4" fill="#FCD34D"/>
+<circle cx="383" cy="454" r="4" fill="#4ADE80"/>
+<text x="43" y="482" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="65" y="482" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal"># Узор — треугольник</text>
+<text x="43" y="497" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="65" y="497" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">n = int(input(&quot;Высота: &quot;))</text>
+<text x="43" y="512" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="65" y="512" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">i = 1</text>
+<text x="43" y="527" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="65" y="527" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">while i &lt;= n:</text>
+<text x="43" y="542" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="65" y="542" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">    spaces = &quot; &quot; * (n - i)</text>
+<text x="43" y="557" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">6</text>
+<text x="65" y="557" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">    stars = &quot;*&quot; * (2 * i - 1)</text>
+<text x="43" y="572" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">7</text>
+<text x="65" y="572" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">    print(spaces + stars)</text>
+<text x="43" y="587" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">8</text>
+<text x="65" y="587" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">    i += 1</text>
+<rect x="410" y="447" width="355" height="110" fill="#1E293B" rx="6" stroke="#4ADE80" stroke-width="1"/>
+<text x="420" y="465" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Результат (n=5):</text>
+<text x="500" y="482" fill="#D1FAE5" font-size="12" text-anchor="middle" font-family="monospace" font-weight="normal">*</text>
+<text x="500" y="496" fill="#D1FAE5" font-size="12" text-anchor="middle" font-family="monospace" font-weight="normal">***</text>
+<text x="500" y="510" fill="#D1FAE5" font-size="12" text-anchor="middle" font-family="monospace" font-weight="normal">*****</text>
+<text x="500" y="524" fill="#D1FAE5" font-size="12" text-anchor="middle" font-family="monospace" font-weight="normal">*******</text>
+<text x="500" y="538" fill="#D1FAE5" font-size="12" text-anchor="middle" font-family="monospace" font-weight="normal">*********</text>
+<rect x="0" y="570" width="800" height="30" fill="url(#headerGrad)" rx="8"/>
+<text x="400.0" y="590" fill="#6EE7B7" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Программирование · 7 класс</text>
+</svg>

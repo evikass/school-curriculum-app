@@ -756,6 +756,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Русские народные сказки",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -766,9 +767,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Илья Муромец — русский __", options: ["богатырь", "князь", "песня", "сказка", "святой"], correctAnswer: "богатырь", hint: "Герой русских былин" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь сказки! 📚" }
+    keyPoints: ['Основные понятия темы «Русские народные сказки»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Русские народные сказки — анализ литературного произведения', 'Практическое задание по теме «Русские народные сказки»'],
   },
   {
     title: "А.С. Пушкин",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90.%D0%A1.%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -779,9 +783,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Пушкин родился в городе __", options: ["Петербурге", "Москве", "Новгороде", "Казани", "Киеве"], correctAnswer: "Москве", hint: "Москва — родина Пушкина" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь Пушкина! ✨" }
+    keyPoints: ['Основные понятия темы «А.С. Пушкин»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: А.С. Пушкин — анализ литературного произведения', 'Практическое задание по теме «А.С. Пушкин»'],
   },
   {
     title: "Басни Крылова",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D0%B0%D1%81%D0%BD%D0%B8%20%D0%9A%D1%80%D1%8B%D0%BB%D0%BE%D0%B2%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -792,9 +799,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Ворона держала в роту __", options: ["рыбу", "пирог", "хлеб", "мясо", "сыр"], correctAnswer: "сыр", hint: "Лисица хотела получить сыр" }
     ],
     reward: { stars: 3, message: "Молодец! Ты понимаешь басни! 🦊" }
+    keyPoints: ['Основные понятия темы «Басни Крылова»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Басни Крылова — анализ литературного произведения', 'Практическое задание по теме «Басни Крылова»'],
   },
   {
     title: "Русские писатели о природе и детях",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D0%B8%20%D0%BE%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B5%20%D0%B8%20%D0%B4%D0%B5%D1%82%D1%8F%D1%85%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -805,9 +815,12 @@ export const games: GameLesson[] = [
       { type: 'find', question: "Выбери рассказы Толстого для детей:", options: ["Филипок", "Котёнок", "Сказка о рыбаке", "Акула", "Ворона и Лисица"], correctAnswer: ["Филипок", "Котёнок", "Акула"], hint: "Лев Толстой писал рассказы о детях и животных" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь русских писателей! 📚" }
+    keyPoints: ['Основные понятия темы «Русские писатели о природе и детях»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Русские писатели о природе и детях — анализ литературного произведения', 'Практическое задание по теме «Русские писатели о природе и детях»'],
   },
   {
     title: "Зарубежные сказки",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%97%D0%B0%D1%80%D1%83%D0%B1%D0%B5%D0%B6%D0%BD%D1%8B%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -818,9 +831,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Кто написал «Золушку»?", options: ["Андерсен", "Братья Гримм", "Перро", "Никто не знает", "Не знаю"], correctAnswer: "Перро", hint: "Шарль Перро — французский сказочник" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь зарубежные сказки! 🌍" }
+    keyPoints: ['Основные понятия темы «Зарубежные сказки»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Зарубежные сказки — анализ литературного произведения', 'Практическое задание по теме «Зарубежные сказки»'],
   },
   {
     title: "Поэзия о природе",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D1%8D%D0%B7%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -831,9 +847,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Фет — русский __", options: ["писатель", "поэт", "режиссёр", "художник", "композитор"], correctAnswer: "поэт", hint: "Афанасий Афанасьевич Фет" }
     ],
     reward: { stars: 3, message: "Прекрасно! Ты любишь поэзию! 🌸" }
+    keyPoints: ['Основные понятия темы «Поэзия о природе»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Поэзия о природе — анализ литературного произведения', 'Практическое задание по теме «Поэзия о природе»'],
   },
   {
     title: "Детские писатели",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%237c3aed%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%96%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E3%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0%3C/text%3E%0A%3C/svg%3E',
     subject: "Литературное чтение",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -844,5 +863,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Кто написал «Двенадцать месяцев»?", options: ["Маршак", "Чуковский", "Михалков", "Никто не знает", "Не знаю"], correctAnswer: "Маршак", hint: "Самуил Яковлевич Маршак" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь детских писателей! 📖" }
+    keyPoints: ['Основные понятия темы «Детские писатели»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример: Детские писатели — анализ литературного произведения', 'Практическое задание по теме «Детские писатели»'],
   }
 ]

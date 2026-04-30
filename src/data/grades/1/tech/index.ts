@@ -41,6 +41,8 @@ export const lessons: SubjectData = {
           "Дать просохнуть"
         ], "/school-curriculum-app/images/lessons/grade1/tech/lesson4-gluing.svg")
       ]
+      keyPoints: ['Основные понятия темы «Технология»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+      examples: ['Пример по теме «Технология»', 'Практическое задание: Технология'],
     },
     {
       topic: "Аппликации",
@@ -106,6 +108,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Бумага и её свойства 📄",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D1%83%D0%BC%D0%B0%D0%B3%D0%B0%20%D0%B8%20%D0%B5%D1%91%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20%F0%9F%93%84%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -116,6 +119,8 @@ export const games: GameLesson[] = [
         options: ["Согнуть", "Съесть", "Разорвать", "Никто не знает", "Не знаю"],
         correctAnswer: "Согнуть",
         hint: "Бумагу можно сгибать"
+        keyPoints: ['Основные понятия темы «Бумага и её свойства 📄»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Бумага и её свойства 📄»', 'Практическое задание: Бумага и её свойства 📄'],
       },
       {
         type: 'find',
@@ -150,6 +155,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Инструменты ✂️",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%E2%9C%82%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -160,6 +166,8 @@ export const games: GameLesson[] = [
         options: ["Карандашом ✏️", "Ножницами ✂️", "Кисточкой 🖌️", "Никто не знает", "Не знаю"],
         correctAnswer: "Ножницами ✂️",
         hint: "Ножницы режут бумагу"
+        keyPoints: ['Основные понятия темы «Инструменты ✂️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Инструменты ✂️»', 'Практическое задание: Инструменты ✂️'],
       },
       {
         type: 'quiz',
@@ -194,6 +202,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Аппликации 🎨",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D0%BF%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%20%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -204,6 +213,8 @@ export const games: GameLesson[] = [
         options: ["Рисунок ✏️", "Наклеивание фигур 📎", "Лепка 🗿", "Никто не знает", "Не знаю"],
         correctAnswer: "Наклеивание фигур 📎",
         hint: "Аппликация — это наклеивание вырезанных фигур"
+        keyPoints: ['Основные понятия темы «Аппликации 🎨»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Аппликации 🎨»', 'Практическое задание: Аппликации 🎨'],
       },
       {
         type: 'quiz',
@@ -238,6 +249,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Геометрические фигуры в аппликации 🔷",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B8%D0%B3%D1%83%D1%80%D1%8B%20%D0%B2%20%D0%B0%D0%BF%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%20%E2%80%A6%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -248,6 +260,8 @@ export const games: GameLesson[] = [
         options: ["Круг ⭕", "Квадрат ⬜", "Треугольник 🔺", "Никто не знает", "Не знаю"],
         correctAnswer: "Квадрат ⬜",
         hint: "Стена квадратная"
+        keyPoints: ['Основные понятия темы «Геометрические фигуры в аппликации 🔷»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Геометрические фигуры в аппликации 🔷»', 'Практическое задание: Геометрические фигуры в аппликации 🔷'],
       },
       {
         type: 'find',
@@ -282,6 +296,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Поделки 🎁",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D0%B4%D0%B5%D0%BB%D0%BA%D0%B8%20%F0%9F%8E%81%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -292,6 +307,8 @@ export const games: GameLesson[] = [
         options: ["Книга", "Сложенный лист с поздравлением", "Картина", "Никто не знает", "Не знаю"],
         correctAnswer: "Сложенный лист с поздравлением",
         hint: "Открытку дарят на праздник"
+        keyPoints: ['Основные понятия темы «Поделки 🎁»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Поделки 🎁»', 'Практическое задание: Поделки 🎁'],
       },
       {
         type: 'find',
@@ -326,6 +343,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Безопасность при работе ⚠️",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%BF%D1%80%D0%B8%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5%20%E2%9A%A0%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
@@ -336,6 +354,8 @@ export const games: GameLesson[] = [
         options: ["Кольцами вперёд", "Кольцами к себе", "Раскрывать", "Никто не знает", "Не знаю"],
         correctAnswer: "Кольцами вперёд",
         hint: "Ножницы передают кольцами к другому человеку"
+        keyPoints: ['Основные понятия темы «Безопасность при работе ⚠️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Безопасность при работе ⚠️»', 'Практическое задание: Безопасность при работе ⚠️'],
       },
       {
         type: 'quiz',
@@ -370,6 +390,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Работа с бумагой 📄",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D1%81%20%D0%B1%D1%83%D0%BC%D0%B0%D0%B3%D0%BE%D0%B9%20%F0%9F%93%84%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Scissors",
     color: "text-orange-400",
@@ -381,9 +402,12 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой стороной клеить бумагу?", options: ["Сухой", "Клееной", "Любой", "Никто не знает", "Не знаю"], correctAnswer: "Клееной", hint: "Клей наносят на ту сторону, которую клеят" }
     ],
     reward: { stars: 3, message: "Отлично! Ты работаешь с бумагой! 📄" }
+    keyPoints: ['Основные понятия темы «Работа с бумагой 📄»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Работа с бумагой 📄»', 'Практическое задание: Работа с бумагой 📄'],
   },
   {
     title: "Оригами 🦢",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D1%80%D0%B8%D0%B3%D0%B0%D0%BC%D0%B8%20%F0%9F%A6%A2%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Scissors",
     color: "text-orange-400",
@@ -395,9 +419,12 @@ export const games: GameLesson[] = [
       { type: 'match', question: "Соедини фигуру с названием:", options: ["Журавлик", "Кораблик", "Лягушка", "Самолётик", "Цветок"], correctAnswer: ["Птица 🐦", "Плавает 💧", "Прыгает 🐸", "Летит ✈️", "Растёт 🌸"], hint: "Что умеет каждая фигура?" }
     ],
     reward: { stars: 3, message: "Супер! Ты знаешь оригами! 🦢" }
+    keyPoints: ['Основные понятия темы «Оригами 🦢»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Оригами 🦢»', 'Практическое задание: Оригами 🦢'],
   },
   {
     title: "Лепка из пластилина 🎨",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9B%D0%B5%D0%BF%D0%BA%D0%B0%20%D0%B8%D0%B7%20%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BB%D0%B8%D0%BD%D0%B0%20%F0%9F%8E%A8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Scissors",
     color: "text-orange-400",
@@ -409,9 +436,12 @@ export const games: GameLesson[] = [
       { type: 'find', question: "Какие цвета есть у пластилина?", options: ["Красный ❤️", "Синий 💙", "Прозрачный", "Зелёный 💚", "Жёлтый 💛"], correctAnswer: ["Красный ❤️", "Синий 💙", "Зелёный 💚", "Жёлтый 💛"], hint: "Пластилин бывает разных цветов" }
     ],
     reward: { stars: 3, message: "Круто! Ты умеешь лепить! 🎨" }
+    keyPoints: ['Основные понятия темы «Лепка из пластилина 🎨»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Лепка из пластилина 🎨»', 'Практическое задание: Лепка из пластилина 🎨'],
   },
   {
     title: "Природные материалы 🌿",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%F0%9F%8C%BF%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Scissors",
     color: "text-orange-400",
@@ -423,9 +453,12 @@ export const games: GameLesson[] = [
       { type: 'find', question: "Что собирают осенью для поделок?", options: ["Листья 🍂", "Шишки 🌲", "Снег ❄️", "Жёлуди 🌰", "Леденцы 🍬"], correctAnswer: ["Листья 🍂", "Шишки 🌲", "Жёлуди 🌰"], hint: "Осенние дары природы" }
     ],
     reward: { stars: 3, message: "Отлично! Ты работаешь с природой! 🌿" }
+    keyPoints: ['Основные понятия темы «Природные материалы 🌿»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Природные материалы 🌿»', 'Практическое задание: Природные материалы 🌿'],
   },
   {
     title: "Аппликация ✂️",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D0%BF%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%E2%9C%82%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Scissors",
     color: "text-orange-400",
@@ -437,9 +470,12 @@ export const games: GameLesson[] = [
       { type: 'match', question: "Соедини материал с действием:", options: ["Бумага", "Клей", "Ножницы", "Кисть", "Линейка"], correctAnswer: ["Вырезать", "Склеить", "Резать", "Наносить", "Чертить"], hint: "Для чего каждый материал?" }
     ],
     reward: { stars: 3, message: "Супер! Ты делаешь аппликации! ✂️" }
+    keyPoints: ['Основные понятия темы «Аппликация ✂️»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Аппликация ✂️»', 'Практическое задание: Аппликация ✂️'],
   },
   {
     title: "Инструменты для труда 🔧",
+    image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%230891b2%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%82%D1%80%D1%83%D0%B4%D0%B0%20%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%94%A7%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E1%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%3C/text%3E%0A%3C/svg%3E',
     subject: "Технология",
     icon: "Scissors",
     color: "text-orange-400",
@@ -451,5 +487,7 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Какой инструмент делает ровный срез?", options: ["Карандаш", "Линейка с ножницами", "Кисть", "Никто не знает", "Не знаю"], correctAnswer: "Линейка с ножницами", hint: "Линейка помогает резать ровно" }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь инструменты! 🔧" }
+    keyPoints: ['Основные понятия темы «Инструменты для труда 🔧»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+    examples: ['Пример по теме «Инструменты для труда 🔧»', 'Практическое задание: Инструменты для труда 🔧'],
   }
 ]

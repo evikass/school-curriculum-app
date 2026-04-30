@@ -1,8 +1,46 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, image: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => ({
-  title, image, description, tasks, examples, keyPoints
-})
+const createLesson = (title: string, image: string, description: string, tasks: string[], examples?: string[], keyPoints?: string[]) => {
+  // Auto-generate examples from description
+  const autoEx: string[] = [];
+  if (!examples || examples.length === 0) {
+    const exLines = description.split('\n');
+    for (const line of exLines) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith('- ') && trimmed.length > 15 && trimmed.length < 150) {
+        let ex = trimmed.substring(2).trim();
+        if (ex.length > 10 && !ex.startsWith('**') && !ex.startsWith('```') && !ex.startsWith('|')) {
+          if (ex.length > 100) ex = ex.substring(0, 97) + '...';
+          autoEx.push(ex);
+        }
+      }
+      if (autoEx.length >= 3) break;
+    }
+    if (autoEx.length < 2) autoEx.push('Пример: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+  // Auto-generate keyPoints from description
+  const autoKP: string[] = [];
+  if (!keyPoints || keyPoints.length === 0) {
+    const boldMatches = description.match(/\*\*([^*]{4,55})\*\*/g) || [];
+    for (const bm of boldMatches) {
+      const text = bm.replace(/\*\*/g, '').trim();
+      if (text.length > 4 && text.length < 55 && !text.includes('```') && !/^(python|sql|html|css|bash)/i.test(text)) {
+        if (!autoKP.some(p => p === text)) autoKP.push(text);
+        if (autoKP.length >= 4) break;
+      }
+    }
+    if (autoKP.length < 3) autoKP.push('Ключевое понятие: ' + title.replace(/^Урок \d+:\s*/, ''));
+  }
+
+  // Generate SVG image if path-based or missing
+  let finalImage = image;
+  if (!image || image.startsWith('/school-curriculum-app/')) {
+    const shortTitle = title.replace(/^Урок \d+:\s*/, '').substring(0, 35);
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#581c87"/><stop offset="100%" style="stop-color:#c084fc33"/></linearGradient></defs><rect width="400" height="250" rx="16" fill="url(#bg)"/><rect x="16" y="16" width="368" height="218" rx="8" fill="none" stroke="#d8b4fe33" stroke-width="1"/><text x="200" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#d8b4fe99">10 класс · Проекты</text><text x="200" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#d8b4fe">${shortTitle}</text><line x1="100" y1="180" x2="300" y2="180" stroke="#c084fc66" stroke-width="2"/><circle cx="80" cy="220" r="4" fill="#c084fc"/><circle cx="320" cy="220" r="4" fill="#c084fc"/><text x="200" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#d8b4fe77">Проекты</text></svg>`;
+    finalImage = 'data:image/svg+xml,' + encodeURIComponent(svg);
+  }
+  return { title, image: finalImage, description, tasks, examples: (examples?.length ? examples : autoEx.slice(0, 3)), keyPoints: (keyPoints?.length ? keyPoints : autoKP.slice(0, 5)) };
+}
 
 export const lessons: SubjectData = {
   title: "Проектная работа",
@@ -13,7 +51,7 @@ export const lessons: SubjectData = {
     {
       topic: "Исследовательские методы",
       lessons: [
-        createLesson("Урок 1: Введение в исследования", "/school-curriculum-app/images/lessons/grade10/projects/lesson1.svg",`Научное познание — это систематический процесс получения объективных знаний о мире, основанный на доказательствах и воспроизводимости результатов. В отличие от обыденного познания, научное исследование характеризуется строгой методологией, проверяемостью и стремлением к объективной истине.
+        createLesson("Урок 1: Введение в исследования", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3C%2Fsvg%3E",`Научное познание — это систематический процесс получения объективных знаний о мире, основанный на доказательствах и воспроизводимости результатов. В отличие от обыденного познания, научное исследование характеризуется строгой методологией, проверяемостью и стремлением к объективной истине.
 
 ## Виды научных исследований
 
@@ -82,7 +120,7 @@ export const lessons: SubjectData = {
           "Гипотеза — научное предположение, требующее проверки",
           "Цель — желаемый результат, задачи — конкретные шаги к цели"
         ]),
-        createLesson("Урок 2: Постановка проблемы и гипотезы", "/school-curriculum-app/images/lessons/grade10/projects/lesson2.svg",`Проблема исследования — это отправная точка любой научной работы. Правильно сформулированная проблема определяет направление всего исследования и служит ориентиром на всех последующих этапах. Проблема представляет собой противоречие между знанием и незнанием, между потребностью и возможностью её удовлетворения.
+        createLesson("Урок 2: Постановка проблемы и гипотезы", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%A3%D1%80%D0%BE%D0%BA%202%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3C%2Fsvg%3E",`Проблема исследования — это отправная точка любой научной работы. Правильно сформулированная проблема определяет направление всего исследования и служит ориентиром на всех последующих этапах. Проблема представляет собой противоречие между знанием и незнанием, между потребностью и возможностью её удовлетворения.
 
 ## Формулировка проблемы
 
@@ -169,7 +207,7 @@ export const lessons: SubjectData = {
           "Формула: проблема → гипотеза → цель → задачи",
         ]
         ),
-        createLesson("Урок 3: Методы исследования", "/school-curriculum-app/images/lessons/grade10/projects/lesson3.svg",`Методы исследования — это способы получения научного знания. Выбор методов зависит от цели исследования, его предмета и характера ожидаемых результатов. Комплексное использование различных методов повышает надёжность и достоверность результатов.
+        createLesson("Урок 3: Методы исследования", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%A3%D1%80%D0%BE%D0%BA%203%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3C%2Fsvg%3E",`Методы исследования — это способы получения научного знания. Выбор методов зависит от цели исследования, его предмета и характера ожидаемых результатов. Комплексное использование различных методов повышает надёжность и достоверность результатов.
 
 ## Теоретические методы
 
@@ -275,7 +313,7 @@ export const lessons: SubjectData = {
           "Комплексное использование методов повышает достоверность",
         ]
         ),
-        createLesson("Урок 4: Работа с источниками информации", "/school-curriculum-app/images/lessons/grade10/projects/lesson4.svg",`Работа с источниками информации — обязательный этап любого исследования. Качественный анализ литературы позволяет понять состояние проблемы, выявить пробелы в знаниях и определить место своего исследования в общей картине научного знания.
+        createLesson("Урок 4: Работа с источниками информации", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%A3%D1%80%D0%BE%D0%BA%204%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3C%2Fsvg%3E",`Работа с источниками информации — обязательный этап любого исследования. Качественный анализ литературы позволяет понять состояние проблемы, выявить пробелы в знаниях и определить место своего исследования в общей картине научного знания.
 
 ## Типы научных источников
 
@@ -378,7 +416,7 @@ export const lessons: SubjectData = {
     {
       topic: "Научное руководство",
       lessons: [
-        createLesson("Урок 5: Работа с научным руководителем", "/school-curriculum-app/images/lessons/grade10/projects/lesson5.svg",`Научный руководитель — это опытный исследователь, который направляет работу над проектом. Эффективное сотрудничество с руководителем — важный фактор успешного завершения исследования. Руководитель не делает работу за ученика, но помогает двигаться в правильном направлении.
+        createLesson("Урок 5: Работа с научным руководителем", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%A3%D1%80%D0%BE%D0%BA%205%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3C%2Fsvg%3E",`Научный руководитель — это опытный исследователь, который направляет работу над проектом. Эффективное сотрудничество с руководителем — важный фактор успешного завершения исследования. Руководитель не делает работу за ученика, но помогает двигаться в правильном направлении.
 
 ## Роль научного руководителя
 
@@ -465,7 +503,7 @@ export const lessons: SubjectData = {
           "Этика отношений: уважение времени, коммуникация, выполнение договорённостей",
         ]
         ),
-        createLesson("Урок 6: Академическое письмо", "/school-curriculum-app/images/lessons/grade10/projects/lesson6.svg",`Академическое письмо — это особый стиль письменной речи, используемый в научных работах. Он характеризуется объективностью, точностью, логичностью и отсутствием эмоциональности. Владение академическим письмом — обязательный навык для исследователя.
+        createLesson("Урок 6: Академическое письмо", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%A3%D1%80%D0%BE%D0%BA%206%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3C%2Fsvg%3E",`Академическое письмо — это особый стиль письменной речи, используемый в научных работах. Он характеризуется объективностью, точностью, логичностью и отсутствием эмоциональности. Владение академическим письмом — обязательный навык для исследователя.
 
 ## Структура научной работы
 
@@ -564,7 +602,7 @@ export const lessons: SubjectData = {
           "Требования ГОСТ к оформлению текста",
         ]
         ),
-        createLesson("Урок 7: Сбор и обработка данных", "/school-curriculum-app/images/lessons/grade10/projects/lesson7.svg",`Сбор и обработка данных — центральный этап исследования. От качества этого этапа зависит достоверность результатов. Необходимо тщательно планировать сбор данных, использовать надёжные инструменты и правильно обрабатывать полученную информацию.
+        createLesson("Урок 7: Сбор и обработка данных", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%A3%D1%80%D0%BE%D0%BA%207%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3C%2Fsvg%3E",`Сбор и обработка данных — центральный этап исследования. От качества этого этапа зависит достоверность результатов. Необходимо тщательно планировать сбор данных, использовать надёжные инструменты и правильно обрабатывать полученную информацию.
 
 ## Планирование сбора данных
 
@@ -671,7 +709,7 @@ export const lessons: SubjectData = {
           "Инструменты: Excel, Google Forms, SPSS — для обработки данных",
         ]
         ),
-        createLesson("Урок 8: Выводы и заключение", "/school-curriculum-app/images/lessons/grade10/projects/lesson8.svg",`Выводы и заключение — итоговая часть исследования, где подводятся результаты работы. Это ответ на вопрос, который был поставлен в начале исследования. Чёткие, обоснованные выводы — показатель качества исследовательской работы.
+        createLesson("Урок 8: Выводы и заключение", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%A3%D1%80%D0%BE%D0%BA%208%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3C%2Fsvg%3E",`Выводы и заключение — итоговая часть исследования, где подводятся результаты работы. Это ответ на вопрос, который был поставлен в начале исследования. Чёткие, обоснованные выводы — показатель качества исследовательской работы.
 
 ## Интерпретация результатов
 
@@ -773,7 +811,7 @@ export const lessons: SubjectData = {
     {
       topic: "Защита проектов",
       lessons: [
-        createLesson("Урок 9: Подготовка презентации", "/school-curriculum-app/images/lessons/grade10/projects/lesson9.svg",`Презентация — визуальное сопровождение защиты проекта. Хорошая презентация помогает аудитории понять суть исследования и запомнить ключевые результаты. Презентация не должна дублировать текст работы, а выделять главное.
+        createLesson("Урок 9: Подготовка презентации", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%A3%D1%80%D0%BE%D0%BA%209%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3C%2Fsvg%3E",`Презентация — визуальное сопровождение защиты проекта. Хорошая презентация помогает аудитории понять суть исследования и запомнить ключевые результаты. Презентация не должна дублировать текст работы, а выделять главное.
 
 ## Структура презентации
 
@@ -867,7 +905,7 @@ export const lessons: SubjectData = {
           "Практика: провести тестовую презентацию с таймером",
         ]
         ),
-        createLesson("Урок 10: Подготовка устного доклада", "/school-curriculum-app/images/lessons/grade10/projects/lesson10.svg",`Устный доклад — это выступление перед аудиторией с изложением результатов исследования. Успех защиты зависит не только от качества работы, но и от умения presentera донести информацию до слушателей.
+        createLesson("Урок 10: Подготовка устного доклада", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2010%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3C%2Fsvg%3E",`Устный доклад — это выступление перед аудиторией с изложением результатов исследования. Успех защиты зависит не только от качества работы, но и от умения presentera донести информацию до слушателей.
 
 ## Структура доклада
 
@@ -965,7 +1003,7 @@ export const lessons: SubjectData = {
           "Тренировка: минимум 3-5 полных прогонов с таймером",
         ]
         ),
-        createLesson("Урок 11: Ответы на вопросы и дискуссия", "/school-curriculum-app/images/lessons/grade10/projects/lesson11.svg",`После доклада обычно следует этап вопросов и ответов. Это возможность продемонстрировать глубину понимания темы и умение вести научную дискуссию. Грамотные ответы на вопросы усиливают впечатление от выступления.
+        createLesson("Урок 11: Ответы на вопросы и дискуссия", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2011%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3C%2Fsvg%3E",`После доклада обычно следует этап вопросов и ответов. Это возможность продемонстрировать глубину понимания темы и умение вести научную дискуссию. Грамотные ответы на вопросы усиливают впечатление от выступления.
 
 ## Типичные вопросы на защите
 
@@ -1063,7 +1101,7 @@ export const lessons: SubjectData = {
           "Умение задавать уточняющие вопросы, если вопрос непонятен",
           "Уверенность и спокойствие — залог успешной дискуссии"
         ]),
-        createLesson("Урок 12: Защита проекта и рефлексия", "/school-curriculum-app/images/lessons/grade10/projects/lesson12.svg",`Защита проекта — финальный этап исследовательской работы. Это возможность представить результаты своего труда научному сообществу и получить признание. После защиты наступает время рефлексии — анализа проделанной работы и определения дальнейших путей развития.
+        createLesson("Урок 12: Защита проекта и рефлексия", "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22250%22%20viewBox%3D%220%200%20400%20250%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20style%3D%22stop-color%3A%23581c87%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20style%3D%22stop-color%3A%23c084fc33%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22250%22%20rx%3D%2216%22%20fill%3D%22url(%23bg)%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2216%22%20width%3D%22368%22%20height%3D%22218%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23d8b4fe33%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23d8b4fe99%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22125%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22bold%22%20fill%3D%22%23d8b4fe%22%3E%D0%A3%D1%80%D0%BE%D0%BA%2012%3C%2Ftext%3E%3Cline%20x1%3D%22100%22%20y1%3D%22180%22%20x2%3D%22300%22%20y2%3D%22180%22%20stroke%3D%22%23c084fc66%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22220%22%20r%3D%224%22%20fill%3D%22%23c084fc%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22225%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2210%22%20fill%3D%22%23d8b4fe77%22%3E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C%2Ftext%3E%3C%2Fsvg%3E",`Защита проекта — финальный этап исследовательской работы. Это возможность представить результаты своего труда научному сообществу и получить признание. После защиты наступает время рефлексии — анализа проделанной работы и определения дальнейших путей развития.
 
 ## Форматы защиты проекта
 
@@ -1195,6 +1233,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Введение в исследования",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная работа",
     icon: "Lightbulb",
     color: "text-sky-400",
@@ -1205,6 +1244,8 @@ export const games: GameLesson[] = [
         options: ["Системность и доказательность", "Скорость получения знаний", "Использование интернета", "Экспериментальные данные", "Мнения авторитетов"],
         correctAnswer: "Системность и доказательность",
         hint: "Научное исследование методично и обосновано"
+        keyPoints: ['Основные понятия темы «Введение в исследования»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Введение в исследования»', 'Практическое задание: Введение в исследования'],
       },
       {
         type: 'find',
@@ -1266,6 +1307,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Проблема и гипотеза",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0%20%D0%B8%20%D0%B3%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%B7%D0%B0%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная работа",
     icon: "Lightbulb",
     color: "text-sky-400",
@@ -1276,6 +1318,8 @@ export const games: GameLesson[] = [
         options: ["Цель работы", "Противоречие, требующее решения", "Метод исследования", "Гипотеза исследования", "Объект исследования"],
         correctAnswer: "Противоречие, требующее решения",
         hint: "Отправная точка исследования"
+        keyPoints: ['Основные понятия темы «Проблема и гипотеза»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Проблема и гипотеза»', 'Практическое задание: Проблема и гипотеза'],
       },
       {
         type: 'find',
@@ -1337,6 +1381,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Методы исследования",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная工作",
     icon: "Lightbulb",
     color: "text-sky-400",
@@ -1347,6 +1392,8 @@ export const games: GameLesson[] = [
         options: ["Эмпирические", "Теоретические", "Практические", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Теоретические",
         hint: "Работа с информацией и концепциями"
+        keyPoints: ['Основные понятия темы «Методы исследования»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Методы исследования»', 'Практическое задание: Методы исследования'],
       },
       {
         type: 'find',
@@ -1408,6 +1455,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Работа с источниками",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D1%81%20%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная работа",
     icon: "Lightbulb",
     color: "text-sky-400",
@@ -1418,6 +1466,8 @@ export const games: GameLesson[] = [
         options: ["Статья в Википедии", "Статья в рецензируемом журнале", "Блог", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Статья в рецензируемом журнале",
         hint: "Прошла проверку экспертами"
+        keyPoints: ['Основные понятия темы «Работа с источниками»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Работа с источниками»', 'Практическое задание: Работа с источниками'],
       },
       {
         type: 'find',
@@ -1479,6 +1529,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Научное руководство",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9D%D0%B0%D1%83%D1%87%D0%BD%D0%BE%D0%B5%20%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная работа",
     icon: "Lightbulb",
     color: "text-sky-400",
@@ -1489,6 +1540,8 @@ export const games: GameLesson[] = [
         options: ["Научный руководитель", "Автор работы", "Организация", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Автор работы",
         hint: "Руководитель только консультирует"
+        keyPoints: ['Основные понятия темы «Научное руководство»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Научное руководство»', 'Практическое задание: Научное руководство'],
       },
       {
         type: 'find',
@@ -1550,6 +1603,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Академическое письмо",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%20%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная работа",
     icon: "Lightbulb",
     color: "text-sky-400",
@@ -1560,6 +1614,8 @@ export const games: GameLesson[] = [
         options: ["Arial 12", "Times New Roman 14", "Calibri 14", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Times New Roman 14",
         hint: "Стандарт оформления"
+        keyPoints: ['Основные понятия темы «Академическое письмо»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Академическое письмо»', 'Практическое задание: Академическое письмо'],
       },
       {
         type: 'find',
@@ -1621,6 +1677,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Сбор и обработка данных",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A1%D0%B1%D0%BE%D1%80%20%D0%B8%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная работа",
     icon: "Lightbulb",
     color: "text-sky-400",
@@ -1631,6 +1688,8 @@ export const games: GameLesson[] = [
         options: ["Все объекты исследования", "Часть генеральной совокупности", "Метод исследования", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Часть генеральной совокупности",
         hint: "Участники исследования"
+        keyPoints: ['Основные понятия темы «Сбор и обработка данных»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Сбор и обработка данных»', 'Практическое задание: Сбор и обработка данных'],
       },
       {
         type: 'find',
@@ -1692,6 +1751,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Выводы и заключение",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%92%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B%20%D0%B8%20%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная работа",
     icon: "Lightbulb",
     color: "text-sky-400",
@@ -1702,6 +1762,8 @@ export const games: GameLesson[] = [
         options: ["Скрывать результат", "Честно описать в выводах", "Изменить гипотезу", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Честно описать в выводах",
         hint: "Отрицательный результат тоже результат"
+        keyPoints: ['Основные понятия темы «Выводы и заключение»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Выводы и заключение»', 'Практическое задание: Выводы и заключение'],
       },
       {
         type: 'find',
@@ -1763,6 +1825,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Подготовка презентации",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная работа",
     icon: "Lightbulb",
     color: "text-sky-400",
@@ -1773,6 +1836,8 @@ export const games: GameLesson[] = [
         options: ["12 пт", "18 пт", "24 пт", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "24 пт",
         hint: "Текст должен быть виден издалека"
+        keyPoints: ['Основные понятия темы «Подготовка презентации»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Подготовка презентации»', 'Практическое задание: Подготовка презентации'],
       },
       {
         type: 'find',
@@ -1834,6 +1899,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Устный доклад",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%A3%D1%81%D1%82%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная работа",
     icon: "Lightbulb",
     color: "text-sky-400",
@@ -1844,6 +1910,8 @@ export const games: GameLesson[] = [
         options: ["2-3 минуты", "5-7 минут", "15-20 минут", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "5-7 минут",
         hint: "Стандартный регламент"
+        keyPoints: ['Основные понятия темы «Устный доклад»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Устный доклад»', 'Практическое задание: Устный доклад'],
       },
       {
         type: 'find',
@@ -1905,6 +1973,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Ответы на вопросы",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%9E%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная работа",
     icon: "Lightbulb",
     color: "text-sky-400",
@@ -1915,6 +1984,8 @@ export const games: GameLesson[] = [
         options: ["Молчать", "Честно признать", "Придумать ответ", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "Честно признать",
         hint: "Честность — лучшая политика"
+        keyPoints: ['Основные понятия темы «Ответы на вопросы»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Ответы на вопросы»', 'Практическое задание: Ответы на вопросы'],
       },
       {
         type: 'find',
@@ -1976,6 +2047,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Итоговый тест",
+        image: 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%234338ca%22/%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22360%22%20height%3D%2260%22%20rx%3D%2210%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.15%29%22/%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2258%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20font-family%3D%22sans-serif%22%3E%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%82%D0%B5%D1%81%D1%82%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22190%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.7%29%22%20font-size%3D%2256%22%20font-family%3D%22sans-serif%22%3E%F0%9F%93%8B%3C/text%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22rgba%28255%2C255%2C255%2C0.5%29%22%20font-size%3D%2214%22%20font-family%3D%22sans-serif%22%3E10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%C2%B7%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%3C/text%3E%0A%3C/svg%3E',
     subject: "Проектная работа",
     icon: "Lightbulb",
     color: "text-sky-400",
@@ -1986,6 +2058,8 @@ export const games: GameLesson[] = [
         options: ["С написания текста", "С выбора темы и постановки проблемы", "С защиты", "Все перечисленное", "Ни один из вариантов"],
         correctAnswer: "С выбора темы и постановки проблемы",
         hint: "Первые этапы работы"
+        keyPoints: ['Основные понятия темы «Итоговый тест»', 'Ключевые правила и определения', 'Применение знаний на практике'],
+        examples: ['Пример по теме «Итоговый тест»', 'Практическое задание: Итоговый тест'],
       },
       {
         type: 'find',
