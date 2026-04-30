@@ -190,8 +190,8 @@ export default function Gameplay() {
     
     recordGameResult(score, totalTasks, selectedGame.subject)
     
-    // Если игра запущена из урока и пройдена хотя бы на 50%, помечаем тест как пройденный
-    if (gameFromLesson && selectedLesson && score >= totalTasks * 0.5) {
+    // Если игра запущена из урока и пройдена на 100%, помечаем тест как пройденный
+    if (gameFromLesson && selectedLesson && score === totalTasks) {
       markLessonTestCompleted(selectedLesson.title)
     }
     
@@ -221,12 +221,12 @@ export default function Gameplay() {
 
     return (
       <>
-        {finalScore >= totalTasks * 0.5 && <Confetti />}
+        {finalScore === totalTasks && <Confetti />}
         <div className="w-full max-w-2xl mx-auto">
           <div className="text-center p-8 rounded-3xl bg-gradient-to-br from-purple-600/60 to-pink-600/60 border-4 border-white/20 animate-bounceIn">
             <Trophy className="w-20 h-20 text-yellow-400 mx-auto mb-6 animate-float" />
             <h2 className="text-4xl font-black text-white mb-4">
-              {percentage === 100 ? '🏆 Идеально!' : percentage >= 80 ? '🎉 Отлично!' : percentage >= 50 ? '👍 Хорошо!' : '💪 Попробуй ещё!'}
+              {percentage === 100 ? '🏆 Идеально! 5/5' : percentage >= 80 ? '🎉 Хорошо! 4/5' : percentage >= 60 ? '👍 Удовл. 3/5' : percentage >= 40 ? '😐 Не очень 2/5' : '💪 Попробуй ещё! 1/5'}
             </h2>
           
             <div className="flex justify-center gap-8 mb-8">
@@ -245,13 +245,16 @@ export default function Gameplay() {
             </div>
 
             <div className="flex justify-center gap-2 mb-6">
-              {Array.from({ length: selectedGame.reward?.stars || 0 }).map((_, i) => (
-                <Star key={i} className={`w-10 h-10 text-yellow-400 fill-yellow-400 ${i < finalScore ? 'animate-bounce' : 'opacity-30'}`} 
-                  style={{ animationDelay: `${i * 0.1}s` }} />
-              ))}
+              {[1, 2, 3, 4, 5].map((i) => {
+                const earnedStars = percentage === 100 ? 5 : percentage >= 80 ? 4 : percentage >= 60 ? 3 : percentage >= 40 ? 2 : 1
+                return (
+                  <Star key={i} className={`w-10 h-10 transition-all duration-300 ${i <= earnedStars ? 'text-yellow-400 fill-yellow-400' : 'opacity-30 text-slate-500'}`} 
+                    style={{ animationDelay: `${i * 0.1}s` }} />
+                )
+              })}
             </div>
 
-            {percentage >= 50 && (
+            {percentage >= 40 && (
               <p className="text-xl text-white/90 mb-8">{selectedGame.reward?.message || 'Отлично!'}</p>
             )}
 

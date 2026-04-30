@@ -197,7 +197,9 @@ export default function GamePlayer({ game, onBack, onComplete }: GamePlayerProps
       }
     } else {
       setGameFinished(true)
-      const stars = score >= game.tasks.length * 0.9 ? 3 : score >= game.tasks.length * 0.6 ? 2 : 1
+      // 5-балльная система: 100%=5, 80%=4, 60%=3, 40%=2, <40%=1
+      const pct = game.tasks.length > 0 ? score / game.tasks.length : 0
+      const stars = pct >= 1 ? 5 : pct >= 0.8 ? 4 : pct >= 0.6 ? 3 : pct >= 0.4 ? 2 : 1
       onComplete(stars)
     }
   }
@@ -221,7 +223,9 @@ export default function GamePlayer({ game, onBack, onComplete }: GamePlayerProps
 
   // Game finished screen
   if (gameFinished) {
-    const stars = score >= game.tasks.length * 0.9 ? 3 : score >= game.tasks.length * 0.6 ? 2 : 1
+    // 5-балльная система
+    const pct = game.tasks.length > 0 ? score / game.tasks.length : 0
+    const stars = pct >= 1 ? 5 : pct >= 0.8 ? 4 : pct >= 0.6 ? 3 : pct >= 0.4 ? 2 : 1
     return (
       <div className="min-h-[60vh] flex items-center justify-center">
         <div className="bg-slate-800/80 backdrop-blur-xl rounded-3xl p-8 text-center max-w-md w-full border border-slate-700/50 shadow-2xl">
@@ -230,11 +234,11 @@ export default function GamePlayer({ game, onBack, onComplete }: GamePlayerProps
           </div>
           
           <h2 className="text-3xl font-bold text-white mb-4">
-            {stars === 3 ? 'Отлично!' : stars === 2 ? 'Хорошо!' : 'Попробуй ещё!'}
+            {stars === 5 ? 'Отлично! 5/5' : stars === 4 ? 'Хорошо! 4/5' : stars === 3 ? 'Удовлетворительно 3/5' : stars === 2 ? 'Не очень 2/5' : 'Попробуй ещё! 1/5'}
           </h2>
           
           <div className="flex justify-center gap-2 mb-6">
-            {[1, 2, 3].map((star) => (
+            {[1, 2, 3, 4, 5].map((star) => (
               <Star 
                 key={star}
                 className={`w-12 h-12 transition-all duration-300 ${
