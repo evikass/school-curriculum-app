@@ -358,34 +358,27 @@ function AtomVisualization({ atomicNumber, category }: {
   )
 }
 
-// Отображение протонов в ядре — красные шарики
+// Отображение протонов в ядре — красные шарики в стиле электронов
 function ProtonDisplay({ atomicNumber }: { atomicNumber: number }) {
-  // Для визуализации ограничиваем количество шариков, чтобы не переполнять
-  const maxVisual = 30
-  const showCount = Math.min(atomicNumber, maxVisual)
-  const showEllipsis = atomicNumber > maxVisual
-  
   return (
     <div className="bg-black/30 rounded-lg p-2 sm:p-3 backdrop-blur-sm border border-red-500/20">
       <div className="text-[10px] sm:text-xs text-white/60 mb-1.5 text-center font-medium">Протоны в ядре</div>
-      <div className="flex flex-wrap gap-0.5 justify-center">
-        {Array.from({ length: showCount }).map((_, i) => (
-          <motion.div
-            key={i}
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ delay: i * 0.02, duration: 0.2 }}
-            className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-gradient-to-br from-red-400 to-red-600 shadow-sm shadow-red-500/50"
-          />
-        ))}
-        {showEllipsis && (
-          <span className="text-red-400 font-bold text-xs sm:text-sm ml-1 self-center">+{atomicNumber - maxVisual}</span>
-        )}
-      </div>
-      <div className="mt-1.5 pt-1.5 border-t border-red-500/20 text-center">
-        <span className="text-white/80 text-[10px] sm:text-xs">Всего: </span>
-        <span className="text-red-400 font-bold text-xs sm:text-sm">{atomicNumber}</span>
-        <span className="text-white/60 text-[10px] sm:text-xs"> p⁺</span>
+      <div className="flex items-center gap-2">
+        <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center text-white text-[10px] sm:text-xs font-bold shadow-lg flex-shrink-0">
+          P⁺
+        </div>
+        <div className="flex-1 flex items-center gap-0.5 flex-wrap">
+          {Array.from({ length: atomicNumber }).map((_, i) => (
+            <motion.div
+              key={i}
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ delay: i * 0.02, duration: 0.2 }}
+              className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-gradient-to-br from-red-400 to-red-600 shadow-sm"
+            />
+          ))}
+        </div>
+        <div className="text-white font-bold text-xs sm:text-sm w-5 sm:w-6 text-right flex-shrink-0">{atomicNumber}</div>
       </div>
     </div>
   )
