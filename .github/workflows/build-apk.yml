@@ -90,18 +90,13 @@ jobs:
       - name: Install ImageMagick
         run: sudo apt-get update && sudo apt-get install -y imagemagick
 
-      - name: Copy app icons
+      - name: Copy app icons (replace all icon resources including adaptive)
         run: |
-          for dir in mipmap-mdpi mipmap-hdpi mipmap-xhdpi mipmap-xxhdpi mipmap-xxxhdpi; do
-            mkdir -p android/app/src/main/res/$dir
-          done
-
+          ICON_SRC=""
           if [ -f "public/icon-512.png" ]; then
             ICON_SRC="public/icon-512.png"
           elif [ -f "public/favicon.png" ]; then
             ICON_SRC="public/favicon.png"
-          else
-            ICON_SRC=""
           fi
 
           if [ -n "$ICON_SRC" ]; then
@@ -110,11 +105,25 @@ jobs:
             for dpi in mdpi hdpi xhdpi xxhdpi xxxhdpi; do
               SIZE=${SIZES[$dpi]}
               DIR="android/app/src/main/res/mipmap-$dpi"
+              mkdir -p "$DIR"
 
-              # Иконка на весь квадрат — точно как фавикон, без рамки
+              # Legacy icons (Android < 8) — полная иконка на весь квадрат
               convert "$ICON_SRC" -resize ${SIZE}x${SIZE} "$DIR/ic_launcher.png"
               cp "$DIR/ic_launcher.png" "$DIR/ic_launcher_round.png"
+
+              # Adaptive icon foreground — иконка по центру на прозрачном фоне
+              LOGO_SIZE=$(python3 -c "print(int($SIZE * 0.72))")
+              OFFSET=$(python3 -c "print(int(($SIZE - $LOGO_SIZE) / 2))")
+              convert -size ${SIZE}x${SIZE} xc:none \
+                \( "$ICON_SRC" -resize ${LOGO_SIZE}x${LOGO_SIZE} \) \
+                -geometry +${OFFSET}+${OFFSET} -composite "$DIR/ic_launcher_foreground.png"
+
+              # Adaptive icon background — фиолетовый фон
+              convert -size ${SIZE}x${SIZE} xc:"#8B1AD3" "$DIR/ic_launcher_background.png"
             done
+
+            # Удалить XML adaptive icons от Capacitor — используем PNG
+            rm -rf android/app/src/main/res/mipmap-anydpi-v26/
           fi
 
       - name: Build APK
