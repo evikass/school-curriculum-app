@@ -74,12 +74,16 @@ function getElectronConfiguration(atomicNumber: number): number[] {
   return shells
 }
 
-// 3D ядро атома с настоящими сферами
-function Nucleus({ atomicNumber, color, symbol }: { atomicNumber: number; color: string; symbol: string }) {
+// 3D ядро атома с настоящими сферами протонов
+function Nucleus({ atomicNumber, color }: { atomicNumber: number; color: string }) {
   const groupRef = useRef<THREE.Group>(null)
   
-  // Количество протонов и нейтронов для визуализации
-  const nucleonCount = Math.min(Math.ceil(atomicNumber / 2), 20)
+  // Количество протонов для визуализации (показываем все для малых, ограничиваем для больших)
+  const protonCount = Math.min(atomicNumber, 40)
+  // Размер сферы протона зависит от их количества — чем больше, тем мельче
+  const protonSize = protonCount <= 10 ? 0.09 : protonCount <= 20 ? 0.07 : protonCount <= 30 ? 0.06 : 0.05
+  // Радиус распределения протонов внутри ядра
+  const spreadRadius = protonCount <= 10 ? 0.22 : protonCount <= 20 ? 0.28 : protonCount <= 30 ? 0.32 : 0.35
   
   useFrame((state) => {
     if (groupRef.current) {
@@ -110,38 +114,32 @@ function Nucleus({ atomicNumber, color, symbol }: { atomicNumber: number; color:
         />
       </Sphere>
       
-      {/* Протоны и нейтроны внутри ядра */}
-      {Array.from({ length: nucleonCount }).map((_, i) => {
-        const phi = Math.acos(-1 + (2 * i) / nucleonCount)
-        const theta = Math.sqrt(nucleonCount * Math.PI) * phi
-        const radius = 0.25 + Math.random() * 0.15
+      {/* Протоны (красные сферы) внутри ядра */}
+      {Array.from({ length: protonCount }).map((_, i) => {
+        const phi = Math.acos(-1 + (2 * i + 1) / protonCount)
+        const theta = Math.sqrt(protonCount * Math.PI) * phi
+        const r = spreadRadius + (Math.sin(i * 1.618) * 0.05)
         
         return (
           <mesh
             key={i}
             position={[
-              radius * Math.sin(phi) * Math.cos(theta),
-              radius * Math.sin(phi) * Math.sin(theta),
-              radius * Math.cos(phi)
+              r * Math.sin(phi) * Math.cos(theta),
+              r * Math.sin(phi) * Math.sin(theta),
+              r * Math.cos(phi)
             ]}
           >
-            <sphereGeometry args={[0.06, 16, 16]} />
+            <sphereGeometry args={[protonSize, 12, 12]} />
             <meshStandardMaterial
-              color={i % 2 === 0 ? '#ff6b6b' : '#4dabf7'}
-              emissive={i % 2 === 0 ? '#ff6b6b' : '#4dabf7'}
-              emissiveIntensity={0.3}
+              color="#ff4444"
+              emissive="#ff4444"
+              emissiveIntensity={0.6}
+              metalness={0.2}
+              roughness={0.5}
             />
           </mesh>
         )
       })}
-      
-      {/* Символ элемента */}
-      <Html center>
-        <div className="text-white font-black text-2xl pointer-events-none select-none"
-             style={{ textShadow: '0 0 10px rgba(255,255,255,0.5)' }}>
-          {symbol}
-        </div>
-      </Html>
     </group>
   )
 }
@@ -286,10 +284,9 @@ function OrbitingElectron({ radius, initialAngle, speed, color }: {
 }
 
 // Полная 3D сцена атома
-function AtomScene({ atomicNumber, category, symbol }: { 
+function AtomScene({ atomicNumber, category }: { 
   atomicNumber: number
   category: string
-  symbol: string 
 }) {
   const shells = useMemo(() => getElectronConfiguration(atomicNumber), [atomicNumber])
   const color = categoryHexColors[category] || '#6b7280'
@@ -304,7 +301,7 @@ function AtomScene({ atomicNumber, category, symbol }: {
       
       {/* Ядро */}
       <Float speed={2} rotationIntensity={0.2} floatIntensity={0.3}>
-        <Nucleus atomicNumber={atomicNumber} color={color} symbol={symbol} />
+        <Nucleus atomicNumber={atomicNumber} color={color} />
       </Float>
       
       {/* Электронные оболочки */}
@@ -331,26 +328,34 @@ function AtomScene({ atomicNumber, category, symbol }: {
 }
 
 // 3D визуализация атома с Canvas
-function AtomVisualization({ atomicNumber, category, symbol }: { 
+function AtomVisualization({ atomicNumber, category }: { 
   atomicNumber: number
   category: string
-  symbol: string 
 }) {
   return (
-    <div className="w-full h-32 sm:h-40 md:h-48 mx-auto">
-      <Canvas
-        camera={{ position: [0, 0, 4], fov: 50 }}
-        gl={{ antialias: true, alpha: true }}
-        style={{ background: 'transparent' }}
-      >
-        <Suspense fallback={null}>
-          <AtomScene 
-            atomicNumber={atomicNumber} 
-            category={category} 
-            symbol={symbol} 
-          />
-        </Suspense>
-      </Canvas>
+    <div className="w-full mx-auto">
+      <div className="h-32 sm:h-40 md:h-48">
+        <Canvas
+          camera={{ position: [0, 0, 4], fov: 50 }}
+          gl={{ antialias: true, alpha: true }}
+          style={{ background: 'transparent' }}
+        >
+          <Suspense fallback={null}>
+            <AtomScene 
+              atomicNumber={atomicNumber} 
+              category={category} 
+            />
+          </Suspense>
+        </Canvas>
+      </div>
+      {/* Подпись с количеством протонов */}
+      <div className="text-center mt-1">
+        <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-red-500/20 border border-red-500/30 rounded-full">
+          <span className="w-2.5 h-2.5 rounded-full bg-red-500 shadow-sm shadow-red-500/50" />
+          <span className="text-white/80 text-xs font-medium">Протоны в ядре: </span>
+          <span className="text-red-400 font-bold text-sm">{atomicNumber}</span>
+        </span>
+      </div>
     </div>
   )
 }
@@ -2560,7 +2565,7 @@ export default function PeriodicTable({ onClose }: Props) {
       </div>
 
       {/* Periodic Table Grid */}
-      <div className="overflow-x-auto pb-4">
+      <div className="overflow-x-auto overflow-y-hidden pb-4">
         <div className="grid gap-0.5 min-w-[1200px]" style={{ gridTemplateColumns: 'repeat(18, minmax(48px, 1fr))', gridTemplateRows: 'repeat(10, auto)' }}>
           {elements.map((el) => {
             const pos = getElementPosition(el)
@@ -2642,7 +2647,6 @@ export default function PeriodicTable({ onClose }: Props) {
                   <AtomVisualization 
                     atomicNumber={selectedElement.atomicNumber}
                     category={selectedElement.category}
-                    symbol={selectedElement.symbol}
                   />
                 </div>
                 

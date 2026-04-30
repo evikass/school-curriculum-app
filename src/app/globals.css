@@ -307,7 +307,7 @@ html {
   display: none;
 }
 .hide-vertical-scrollbar {
-  scrollbar-width: none;
+  scrollbar-width: thin;
 }
 
 /* Shimmer effect for progress bars */
