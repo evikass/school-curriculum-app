@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       version_name:
-        description: 'Version name (e.g. v3.677)'
+        description: 'Version name (e.g. v3.727)'
         required: false
         default: ''
 
@@ -53,6 +53,31 @@ jobs:
         run: |
           npx cap add android
           npx cap sync android
+
+      - name: Determine version
+        id: version
+        run: |
+          if [ -n "${{ github.event.inputs.version_name }}" ]; then
+            VNAME="${{ github.event.inputs.version_name }}"
+            VNUM=$(echo "$VNAME" | sed 's/v//')
+          else
+            VNUM=$(node -p "require('./package.json').version")
+            VNAME="v${VNUM}"
+          fi
+          # versionCode: убираем точку → 3.726 → 3726 (всегда больше предыдущей)
+          VCODE=$(echo "$VNUM" | sed 's/\.//g')
+          echo "name=$VNAME" >> $GITHUB_OUTPUT
+          echo "num=$VNUM" >> $GITHUB_OUTPUT
+          echo "code=$VCODE" >> $GITHUB_OUTPUT
+          echo "Version: $VNAME, versionName: $VNUM, versionCode: $VCODE"
+
+      - name: Set Android versionCode and versionName
+        run: |
+          # Заменить versionCode и versionName в build.gradle
+          sed -i "s/versionCode [0-9]*/versionCode ${{ steps.version.outputs.code }}/" android/app/build.gradle
+          sed -i "s/versionName \"[^\"]*\"/versionName \"${{ steps.version.outputs.num }}\"/" android/app/build.gradle
+          # Проверка
+          grep -E "versionCode|versionName" android/app/build.gradle
 
       - name: Add Kotlin version resolution strategy
         run: |
@@ -132,18 +157,6 @@ jobs:
           chmod +x gradlew
           ./gradlew assembleRelease
 
-      - name: Determine version
-        id: version
-        run: |
-          if [ -n "${{ github.event.inputs.version_name }}" ]; then
-            echo "name=${{ github.event.inputs.version_name }}" >> $GITHUB_OUTPUT
-            echo "num=${{ github.event.inputs.version_name }}" | sed 's/v//' >> $GITHUB_OUTPUT
-          else
-            PKG_VERSION=$(node -p "require('./package.json').version")
-            echo "name=v${PKG_VERSION}" >> $GITHUB_OUTPUT
-            echo "num=${PKG_VERSION}" >> $GITHUB_OUTPUT
-          fi
-
       - name: Rename APK
         run: |
           mv android/app/build/outputs/apk/release/app-release.apk \
@@ -153,18 +166,23 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.name }}
-          name: ${{ steps.version.outputs.name }}
+          name: ${{ steps.version.outputs.name }} — Версия для RuStore
           files: android/app/build/outputs/apk/release/inetshkola-${{ steps.version.outputs.num }}-rustore.apk
           body: |
-            ## ИНЕТШКОЛА ${{ steps.version.outputs.name }}
+            ## ИНЕТШКОЛА ${{ steps.version.outputs.name }} — APK для RuStore
 
-            Android APK для установки на телефон.
+            ### Файлы
+            - `inetshkola-${{ steps.version.outputs.num }}-rustore.apk` — подписанный release APK для загрузки в RuStore
 
-            ### Установка:
-            1. Скачайте файл `inetshkola-${{ steps.version.outputs.num }}-rustore.apk`
-            2. Откройте на телефоне
-            3. Разрешите установку из неизвестных источников
-            4. Установите
+            ### Установка
+            1. Скачайте `inetshkola-${{ steps.version.outputs.num }}-rustore.apk` на Android-устройство
+            2. Разрешите установку из неизвестных источников
+            3. Установите APK
+
+            ### Публикация в RuStore
+            Загрузите `inetshkola-${{ steps.version.outputs.num }}-rustore.apk` на https://rustore.ru/
+
+            ⚠️ **Keystore пароль**: `inetshkola2024`, alias: `inetshkola`. Сохраните keystore файл — без него невозможно обновлять приложение!
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
