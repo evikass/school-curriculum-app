@@ -2644,7 +2644,7 @@ export default function PeriodicTable({ onClose }: Props) {
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-50 flex items-start justify-center bg-black/70 backdrop-blur-sm overflow-y-auto"
             onClick={() => setSelectedElement(null)}
-            style={{ paddingBottom: 'env(safe-area-inset-bottom, 10px)' }}
+            style={{ paddingTop: '1.5rem', paddingBottom: 'env(safe-area-inset-bottom, 10px)' }}
           >
             <motion.div
               initial={{ scale: 0.9, y: 20 }}

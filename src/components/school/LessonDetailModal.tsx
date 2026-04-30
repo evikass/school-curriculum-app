@@ -363,7 +363,7 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-[60] flex items-start justify-center bg-black/80 backdrop-blur-sm overflow-y-auto"
-            style={{ paddingTop: '6rem' }}
+            style={{ paddingTop: '3rem' }}
           >
             <motion.div
               initial={{ scale: 0.9, opacity: 0 }}
