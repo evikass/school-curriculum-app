@@ -494,7 +494,7 @@ export default function KidLessonViewer() {
         />
         
         {showPeriodicTable && (
-          <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/80 backdrop-blur-sm overflow-y-auto" style={{ paddingTop: '3rem' }}>
+          <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/80 backdrop-blur-sm overflow-y-auto" style={{ paddingTop: '1.5rem' }}>
             <div className="w-full max-w-7xl mx-4 mb-8">
               <PeriodicTable onClose={() => setShowPeriodicTable(false)} />
             </div>
