@@ -191,7 +191,7 @@ export default function Gameplay() {
     recordGameResult(score, totalTasks, selectedGame.subject)
     
     // Если игра запущена из урока и пройдена хотя бы на 50%, помечаем тест как пройденный
-    if (gameFromLesson && selectedLesson && score >= totalTasks * 0.5) {
+    if (gameFromLesson && selectedLesson && score >= totalTasks) {
       markLessonTestCompleted(selectedLesson.title)
     }
     
@@ -221,12 +221,12 @@ export default function Gameplay() {
 
     return (
       <>
-        {finalScore >= totalTasks * 0.5 && <Confetti />}
+        {percentage === 100 && <Confetti />}
         <div className="w-full max-w-2xl mx-auto">
           <div className="text-center p-8 rounded-3xl bg-gradient-to-br from-purple-600/60 to-pink-600/60 border-4 border-white/20 animate-bounceIn">
             <Trophy className="w-20 h-20 text-yellow-400 mx-auto mb-6 animate-float" />
             <h2 className="text-4xl font-black text-white mb-4">
-              {percentage === 100 ? '🏆 Идеально!' : percentage >= 80 ? '🎉 Отлично!' : percentage >= 50 ? '👍 Хорошо!' : '💪 Попробуй ещё!'}
+              {percentage === 100 ? '🏆 Пройдено!' : percentage >= 80 ? '🎉 Отлично!' : percentage >= 60 ? '👍 Хорошо!' : percentage >= 40 ? '📝 Неплохо' : '💪 Попробуй ещё!'}
             </h2>
           
             <div className="flex justify-center gap-8 mb-8">
@@ -245,9 +245,9 @@ export default function Gameplay() {
             </div>
 
             <div className="flex justify-center gap-2 mb-6">
-              {Array.from({ length: selectedGame.reward?.stars || 0 }).map((_, i) => (
-                <Star key={i} className={`w-10 h-10 text-yellow-400 fill-yellow-400 ${i < finalScore ? 'animate-bounce' : 'opacity-30'}`} 
-                  style={{ animationDelay: `${i * 0.1}s` }} />
+              {[1, 2, 3, 4, 5].map((star) => (
+                <Star key={star} className={`w-10 h-10 transition-all duration-300 ${star <= (percentage >= 100 ? 5 : percentage >= 80 ? 4 : percentage >= 60 ? 3 : percentage >= 40 ? 2 : 1) ? 'text-yellow-400 fill-yellow-400 scale-110 animate-bounce' : 'text-slate-600 opacity-30'}`}
+                  style={{ animationDelay: `${star * 0.15}s` }} />
               ))}
             </div>
 

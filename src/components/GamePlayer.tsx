@@ -197,7 +197,8 @@ export default function GamePlayer({ game, onBack, onComplete }: GamePlayerProps
       }
     } else {
       setGameFinished(true)
-      const stars = score >= game.tasks.length * 0.9 ? 3 : score >= game.tasks.length * 0.6 ? 2 : 1
+      const pct = score / game.tasks.length
+      const stars = pct >= 1 ? 5 : pct >= 0.8 ? 4 : pct >= 0.6 ? 3 : pct >= 0.4 ? 2 : 1
       onComplete(stars)
     }
   }
@@ -221,7 +222,9 @@ export default function GamePlayer({ game, onBack, onComplete }: GamePlayerProps
 
   // Game finished screen
   if (gameFinished) {
-    const stars = score >= game.tasks.length * 0.9 ? 3 : score >= game.tasks.length * 0.6 ? 2 : 1
+    const pct = score / game.tasks.length
+    const stars = pct >= 1 ? 5 : pct >= 0.8 ? 4 : pct >= 0.6 ? 3 : pct >= 0.4 ? 2 : 1
+    const passed = pct >= 1
     return (
       <div className="min-h-[60vh] flex items-center justify-center">
         <div className="bg-slate-800/80 backdrop-blur-xl rounded-3xl p-8 text-center max-w-md w-full border border-slate-700/50 shadow-2xl">
@@ -230,19 +233,19 @@ export default function GamePlayer({ game, onBack, onComplete }: GamePlayerProps
           </div>
           
           <h2 className="text-3xl font-bold text-white mb-4">
-            {stars === 3 ? 'Отлично!' : stars === 2 ? 'Хорошо!' : 'Попробуй ещё!'}
+            {passed ? '🏆 Пройдено!' : stars >= 4 ? 'Отлично!' : stars >= 3 ? 'Хорошо!' : stars >= 2 ? 'Неплохо' : 'Попробуй ещё!'}
           </h2>
           
           <div className="flex justify-center gap-2 mb-6">
-            {[1, 2, 3].map((star) => (
+            {[1, 2, 3, 4, 5].map((star) => (
               <Star 
                 key={star}
-                className={`w-12 h-12 transition-all duration-300 ${
+                className={`w-10 h-10 transition-all duration-300 ${
                   star <= stars 
                     ? 'text-yellow-400 fill-yellow-400 scale-110' 
                     : 'text-slate-600'
                 }`}
-                style={{ animationDelay: `${star * 0.2}s` }}
+                style={{ animationDelay: `${star * 0.15}s` }}
               />
             ))}
           </div>
