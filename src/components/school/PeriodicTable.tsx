@@ -94,23 +94,27 @@ function Nucleus({ atomicNumber, color }: { atomicNumber: number; color: string 
 
   return (
     <group ref={groupRef}>
-      {/* Основное ядро - светящаяся сфера */}
-      <Sphere args={[0.5, 32, 32]}>
+      {/* Полупрозрачное ядро — оболочка чтобы протоны были видны внутри */}
+      <Sphere args={[0.45, 32, 32]}>
         <meshStandardMaterial
           color={color}
           emissive={color}
-          emissiveIntensity={0.5}
-          metalness={0.3}
-          roughness={0.4}
+          emissiveIntensity={0.3}
+          transparent
+          opacity={0.18}
+          metalness={0.1}
+          roughness={0.6}
+          depthWrite={false}
         />
       </Sphere>
       
-      {/* Внутренняя светящаяся сфера */}
-      <Sphere args={[0.52, 32, 32]}>
+      {/* Внешняя светящаяся сфера */}
+      <Sphere args={[0.55, 32, 32]}>
         <meshBasicMaterial
           color={color}
           transparent
-          opacity={0.3}
+          opacity={0.15}
+          depthWrite={false}
         />
       </Sphere>
       
@@ -133,7 +137,7 @@ function Nucleus({ atomicNumber, color }: { atomicNumber: number; color: string 
             <meshStandardMaterial
               color="#ff4444"
               emissive="#ff4444"
-              emissiveIntensity={0.6}
+              emissiveIntensity={0.8}
               metalness={0.2}
               roughness={0.5}
             />
@@ -348,13 +352,40 @@ function AtomVisualization({ atomicNumber, category }: {
           </Suspense>
         </Canvas>
       </div>
-      {/* Подпись с количеством протонов */}
-      <div className="text-center mt-1">
-        <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-red-500/20 border border-red-500/30 rounded-full">
-          <span className="w-2.5 h-2.5 rounded-full bg-red-500 shadow-sm shadow-red-500/50" />
-          <span className="text-white/80 text-xs font-medium">Протоны в ядре: </span>
-          <span className="text-red-400 font-bold text-sm">{atomicNumber}</span>
-        </span>
+      {/* Протоны в ядре — визуальное отображение шариками */}
+      <ProtonDisplay atomicNumber={atomicNumber} />
+    </div>
+  )
+}
+
+// Отображение протонов в ядре — красные шарики
+function ProtonDisplay({ atomicNumber }: { atomicNumber: number }) {
+  // Для визуализации ограничиваем количество шариков, чтобы не переполнять
+  const maxVisual = 30
+  const showCount = Math.min(atomicNumber, maxVisual)
+  const showEllipsis = atomicNumber > maxVisual
+  
+  return (
+    <div className="bg-black/30 rounded-lg p-2 sm:p-3 backdrop-blur-sm border border-red-500/20">
+      <div className="text-[10px] sm:text-xs text-white/60 mb-1.5 text-center font-medium">Протоны в ядре</div>
+      <div className="flex flex-wrap gap-0.5 justify-center">
+        {Array.from({ length: showCount }).map((_, i) => (
+          <motion.div
+            key={i}
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ delay: i * 0.02, duration: 0.2 }}
+            className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-gradient-to-br from-red-400 to-red-600 shadow-sm shadow-red-500/50"
+          />
+        ))}
+        {showEllipsis && (
+          <span className="text-red-400 font-bold text-xs sm:text-sm ml-1 self-center">+{atomicNumber - maxVisual}</span>
+        )}
+      </div>
+      <div className="mt-1.5 pt-1.5 border-t border-red-500/20 text-center">
+        <span className="text-white/80 text-[10px] sm:text-xs">Всего: </span>
+        <span className="text-red-400 font-bold text-xs sm:text-sm">{atomicNumber}</span>
+        <span className="text-white/60 text-[10px] sm:text-xs"> p⁺</span>
       </div>
     </div>
   )
