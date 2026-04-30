@@ -310,6 +310,15 @@ html {
   scrollbar-width: thin;
 }
 
+/* Hide all scrollbar but keep scrolling */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* Shimmer effect for progress bars */
 @keyframes shimmer {
   0% {
