@@ -137,24 +137,31 @@ jobs:
         run: |
           if [ -n "${{ github.event.inputs.version_name }}" ]; then
             echo "name=${{ github.event.inputs.version_name }}" >> $GITHUB_OUTPUT
+            echo "num=${{ github.event.inputs.version_name }}" | sed 's/v//' >> $GITHUB_OUTPUT
           else
             PKG_VERSION=$(node -p "require('./package.json').version")
             echo "name=v${PKG_VERSION}" >> $GITHUB_OUTPUT
+            echo "num=${PKG_VERSION}" >> $GITHUB_OUTPUT
           fi
+
+      - name: Rename APK
+        run: |
+          mv android/app/build/outputs/apk/release/app-release.apk \
+             android/app/build/outputs/apk/release/inetshkola-${{ steps.version.outputs.num }}-rustore.apk
 
       - name: Upload APK to Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.name }}
           name: ${{ steps.version.outputs.name }}
-          files: android/app/build/outputs/apk/release/app-release.apk
+          files: android/app/build/outputs/apk/release/inetshkola-${{ steps.version.outputs.num }}-rustore.apk
           body: |
             ## ИНЕТШКОЛА ${{ steps.version.outputs.name }}
 
             Android APK для установки на телефон.
 
             ### Установка:
-            1. Скачайте файл `app-release.apk`
+            1. Скачайте файл `inetshkola-${{ steps.version.outputs.num }}-rustore.apk`
             2. Откройте на телефоне
             3. Разрешите установку из неизвестных источников
             4. Установите
@@ -165,4 +172,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: inetshkola-apk
-          path: android/app/build/outputs/apk/release/app-release.apk
+          path: android/app/build/outputs/apk/release/inetshkola-${{ steps.version.outputs.num }}-rustore.apk
