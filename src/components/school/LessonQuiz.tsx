@@ -132,10 +132,20 @@ export default function LessonQuiz({
   
   const getScoreMessage = () => {
     const percentage = (score / questions.length) * 100
-    if (percentage >= 100) return { message: 'Превосходно! Идеальный результат! 🎉', color: 'text-yellow-400' }
-    if (percentage >= 75) return { message: 'Отлично! Ты хорошо усвоил материал! 🌟', color: 'text-green-400' }
-    if (percentage >= 50) return { message: 'Хорошо! Но есть над чем поработать! 💪', color: 'text-blue-400' }
-    return { message: 'Попробуй ещё раз! Ты справишься! 📚', color: 'text-orange-400' }
+    if (percentage >= 100) return { message: '🏆 Пройдено!', color: 'text-yellow-400' }
+    if (percentage >= 80) return { message: '🎉 Отлично!', color: 'text-green-400' }
+    if (percentage >= 60) return { message: '👍 Хорошо!', color: 'text-blue-400' }
+    if (percentage >= 40) return { message: '📝 Неплохо', color: 'text-orange-400' }
+    return { message: '💪 Попробуй ещё!', color: 'text-red-400' }
+  }
+  
+  const getStars = () => {
+    const percentage = (score / questions.length) * 100
+    if (percentage >= 100) return 5
+    if (percentage >= 80) return 4
+    if (percentage >= 60) return 3
+    if (percentage >= 40) return 2
+    return 1
   }
   
   if (!isOpen) return null
@@ -287,14 +297,14 @@ export default function LessonQuiz({
                   {getScoreMessage().message}
                 </p>
                 
-                {/* Stars earned */}
+                {/* 5-star school grading system */}
                 <div className="flex items-center justify-center gap-2 mb-6">
-                  {[...Array(questions.length)].map((_, idx) => (
+                  {[1, 2, 3, 4, 5].map((star) => (
                     <Star
-                      key={idx}
-                      className={`w-8 h-8 ${
-                        idx < score 
-                          ? 'text-yellow-400 fill-yellow-400' 
+                      key={star}
+                      className={`w-10 h-10 transition-all duration-300 ${
+                        star <= getStars()
+                          ? 'text-yellow-400 fill-yellow-400 scale-110'
                           : 'text-white/20'
                       }`}
                     />

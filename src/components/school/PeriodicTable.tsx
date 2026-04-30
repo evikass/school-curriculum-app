@@ -90,7 +90,7 @@ function Nucleus({ atomicNumber, color, symbol }: { atomicNumber: number; color:
 
   return (
     <group ref={groupRef}>
-      {/* Основное ядро - светящаяся сфера */}
+      {/* Основное ядро - полупрозрачная светящаяся сфера (протоны видны внутри) */}
       <Sphere args={[0.5, 32, 32]}>
         <meshStandardMaterial
           color={color}
@@ -98,6 +98,8 @@ function Nucleus({ atomicNumber, color, symbol }: { atomicNumber: number; color:
           emissiveIntensity={0.5}
           metalness={0.3}
           roughness={0.4}
+          transparent
+          opacity={0.18}
         />
       </Sphere>
       
@@ -106,7 +108,7 @@ function Nucleus({ atomicNumber, color, symbol }: { atomicNumber: number; color:
         <meshBasicMaterial
           color={color}
           transparent
-          opacity={0.3}
+          opacity={0.15}
         />
       </Sphere>
       
@@ -397,6 +399,50 @@ function ElectronConfigDisplay({ atomicNumber }: { atomicNumber: number }) {
         <span className="text-white/80 text-[10px] sm:text-xs">Всего: </span>
         <span className="text-white font-bold text-xs sm:text-sm">{atomicNumber}</span>
         <span className="text-white/60 text-[10px] sm:text-xs"> e⁻</span>
+      </div>
+    </div>
+  )
+}
+
+// Отображение протонов в ядре (в стиле ElectronConfigDisplay)
+function ProtonDisplay({ atomicNumber }: { atomicNumber: number }) {
+  // Протоны и нейтроны группируем по парам (протон + нейтрон)
+  const neutronCount = Math.round(atomicNumber * 2.1) - atomicNumber // примерное число нейтронов
+  const protonRows: { label: string; count: number; color: string }[] = [
+    { label: 'p⁺', count: atomicNumber, color: 'from-red-400 to-red-600' },
+    { label: 'n⁰', count: neutronCount, color: 'from-blue-400 to-blue-600' },
+  ]
+
+  return (
+    <div className="bg-black/30 rounded-lg p-2 sm:p-3 backdrop-blur-sm border border-white/10">
+      <div className="text-[10px] sm:text-xs text-white/60 mb-1.5 text-center font-medium">Протоны и нейтроны в ядре</div>
+      <div className="space-y-1.5">
+        {protonRows.map((row, idx) => (
+          <div key={idx} className="flex items-center gap-2">
+            <div className={`w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-gradient-to-br ${row.color} flex items-center justify-center text-white text-[8px] sm:text-[10px] font-bold shadow-lg flex-shrink-0`}>
+              {row.label}
+            </div>
+            <div className="flex-1 flex items-center gap-0.5 flex-wrap">
+              {Array.from({ length: Math.min(row.count, 20) }).map((_, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  transition={{ delay: idx * 0.1 + i * 0.02, duration: 0.2 }}
+                  className={`w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-gradient-to-br ${row.color} shadow-sm`}
+                />
+              ))}
+              {row.count > 20 && (
+                <span className="text-white/50 text-[10px] ml-1">+{row.count - 20}</span>
+              )}
+            </div>
+            <div className="text-white font-bold text-xs sm:text-sm w-5 sm:w-6 text-right flex-shrink-0">{row.count}</div>
+          </div>
+        ))}
+      </div>
+      <div className="mt-1.5 pt-1.5 border-t border-white/10 text-center">
+        <span className="text-white/80 text-[10px] sm:text-xs">Массовое число: </span>
+        <span className="text-white font-bold text-xs sm:text-sm">{atomicNumber + neutronCount}</span>
       </div>
     </div>
   )
@@ -2598,7 +2644,7 @@ export default function PeriodicTable({ onClose }: Props) {
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-50 flex items-start justify-center bg-black/70 backdrop-blur-sm overflow-y-auto"
             onClick={() => setSelectedElement(null)}
-            style={{ paddingTop: 'env(safe-area-inset-top, 10px)', paddingBottom: 'env(safe-area-inset-bottom, 10px)' }}
+            style={{ paddingTop: '8rem', paddingBottom: 'env(safe-area-inset-bottom, 10px)' }}
           >
             <motion.div
               initial={{ scale: 0.9, y: 20 }}
@@ -2650,10 +2696,15 @@ export default function PeriodicTable({ onClose }: Props) {
                 <div className="mt-2">
                   <ElectronConfigDisplay atomicNumber={selectedElement.atomicNumber} />
                 </div>
+                
+                {/* Proton Display - same style as electrons */}
+                <div className="mt-2">
+                  <ProtonDisplay atomicNumber={selectedElement.atomicNumber} />
+                </div>
               </div>
 
               {/* Content */}
-              <div className="p-3 sm:p-4 space-y-3 max-h-[50vh] overflow-y-auto">
+              <div className="p-3 sm:p-4 space-y-3">
                 {/* Discovery */}
                 {selectedElement.discoveredBy && (
                   <div className="bg-white/5 rounded-lg p-2 sm:p-3 border border-white/10">
