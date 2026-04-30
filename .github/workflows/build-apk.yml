@@ -111,20 +111,8 @@ jobs:
               SIZE=${SIZES[$dpi]}
               DIR="android/app/src/main/res/mipmap-$dpi"
 
-              convert -size ${SIZE}x${SIZE} xc:"#1e1b4b" "$DIR/ic_launcher_background.png"
-
-              FOREGROUND_SIZE=$SIZE
-              LOGO_SIZE=$(python3 -c "print(int($SIZE * 0.66))")
-              OFFSET=$(python3 -c "print(int(($SIZE - $LOGO_SIZE) / 2))")
-
-              convert -size ${FOREGROUND_SIZE}x${FOREGROUND_SIZE} xc:none \
-                \( "$ICON_SRC" -resize ${LOGO_SIZE}x${LOGO_SIZE} \) \
-                -geometry +${OFFSET}+${OFFSET} -composite "$DIR/ic_launcher_foreground.png"
-
-              convert "$DIR/ic_launcher_background.png" \
-                \( "$ICON_SRC" -resize ${LOGO_SIZE}x${LOGO_SIZE} \) \
-                -geometry +${OFFSET}+${OFFSET} -composite "$DIR/ic_launcher.png"
-
+              # Иконка на весь квадрат — точно как фавикон, без рамки
+              convert "$ICON_SRC" -resize ${SIZE}x${SIZE} "$DIR/ic_launcher.png"
               cp "$DIR/ic_launcher.png" "$DIR/ic_launcher_round.png"
             done
           fi
