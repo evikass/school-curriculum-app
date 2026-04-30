@@ -2681,7 +2681,7 @@ export default function PeriodicTable({ onClose }: Props) {
               </div>
 
               {/* Content */}
-              <div className="p-3 sm:p-4 space-y-3 max-h-[50vh] overflow-y-auto hide-scrollbar" style={{ scrollbarWidth: 'none' }}>
+              <div className="p-3 sm:p-4 space-y-3">
                 {/* Discovery */}
                 {selectedElement.discoveredBy && (
                   <div className="bg-white/5 rounded-lg p-2 sm:p-3 border border-white/10">
