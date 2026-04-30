@@ -4,11 +4,12 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { 
   X, BookOpen, Star, CheckCircle, 
-  Lightbulb, Target, Clock, Award, Gamepad2, Atom
+  Lightbulb, Target, Clock, Award, Gamepad2, Atom, ZoomIn
 } from 'lucide-react'
 import LessonContent from './LessonContent'
 import LessonAnimatedSVG from './LessonAnimatedSVG'
 import PeriodicTable from './PeriodicTable'
+import ImageLightbox from './ImageLightbox'
 
 interface LessonDetail {
   title: string
@@ -34,6 +35,7 @@ interface Props {
 export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete, onStartQuiz, isTestCompleted }: Props) {
   const [currentSection, setCurrentSection] = useState(0)
   const [showPeriodicTable, setShowPeriodicTable] = useState(false)
+  const [lightboxSrc, setLightboxSrc] = useState<string | null>(null)
   
   // Определяем, нужно ли показывать кнопку таблицы Менделеева
   const isChemistryOrPhysics = lesson && (
@@ -166,12 +168,16 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                     
                     {/* Изображение урока */}
                     {lesson.image && (
-                      <div className="relative rounded-2xl overflow-hidden border-2 border-purple-400/30 mb-4 shadow-lg">
+                      <div className="relative rounded-2xl overflow-hidden border-2 border-purple-400/30 mb-4 shadow-lg cursor-pointer"
+                           onClick={() => setLightboxSrc(lesson.image!)}>
                         <img 
                           src={lesson.image} 
                           alt={lesson.title}
-                          className="w-full h-auto object-cover"
+                          className="w-full h-auto object-cover hover:opacity-90 transition-opacity"
                         />
+                        <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-black/20">
+                          <ZoomIn className="w-10 h-10 text-white/80" />
+                        </div>
                       </div>
                     )}
                     <div className="bg-white/5 rounded-2xl p-5 border border-white/10">
@@ -341,6 +347,14 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
         </motion.div>
       )}
       
+      {/* Image Lightbox */}
+      <ImageLightbox
+        src={lightboxSrc || ''}
+        alt={lesson.title}
+        isOpen={!!lightboxSrc}
+        onClose={() => setLightboxSrc(null)}
+      />
+
       {/* Periodic Table Modal */}
       <AnimatePresence>
         {showPeriodicTable && (

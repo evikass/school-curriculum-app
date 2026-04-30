@@ -7,11 +7,12 @@ import {
   Calculator, Palette, Music, Dumbbell, Globe, BookOpenText,
   Languages, Ruler, Shield, Map, Leaf, Atom, FlaskConical, Sigma, Shapes,
   Landmark, Users, Monitor, Hammer, HeartHandshake, Lightbulb, Cpu, Brush,
-  MapPin, Blocks, MessageSquare, Wallet, Smartphone, Bug, Pencil, MessageCircle, Code, X
+  MapPin, Blocks, MessageSquare, Wallet, Smartphone, Bug, Pencil, MessageCircle, Code, X, ZoomIn
 } from 'lucide-react'
 import { generateLessonQuiz } from '@/lib/lessonQuizGenerator'
 import LessonAnimatedSVG from './LessonAnimatedSVG'
 import PeriodicTable from './PeriodicTable'
+import ImageLightbox from './ImageLightbox'
 import { LessonTopic, LessonItem, GameLesson } from '@/data/types'
 
 // Helper function для получения имени игры (поддерживает name и title)
@@ -284,6 +285,7 @@ export default function KidLessonViewer() {
   const [showGames, setShowGames] = useState(false)
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(new Set())
   const [showPeriodicTable, setShowPeriodicTable] = useState(false)
+  const [lightboxSrc, setLightboxSrc] = useState<string | null>(null)
 
   const getEmoji = (title: string) => subjectEmojis[title] || '📖'
   
@@ -335,16 +337,20 @@ export default function KidLessonViewer() {
             {/* Изображение урока из SVG файла (приоритет) */}
             {'image' in selectedLesson && selectedLesson.image ? (
               <div className="flex justify-center mb-6">
-                <div className="relative rounded-3xl overflow-hidden border-4 border-purple-400/30 shadow-2xl max-w-2xl w-full">
+                <div className="relative rounded-3xl overflow-hidden border-4 border-purple-400/30 shadow-2xl max-w-2xl w-full cursor-pointer"
+                     onClick={() => setLightboxSrc(selectedLesson.image as string)}>
                   <img 
                     src={selectedLesson.image as string} 
                     alt={selectedLesson.title}
-                    className="w-full h-auto"
+                    className="w-full h-auto hover:opacity-90 transition-opacity"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       target.style.display = 'none';
                     }}
                   />
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-black/20">
+                    <ZoomIn className="w-10 h-10 text-white/80" />
+                  </div>
                 </div>
               </div>
             ) : (
@@ -501,6 +507,14 @@ export default function KidLessonViewer() {
             </div>
           </div>
         </div>
+        
+        {/* Image Lightbox */}
+        <ImageLightbox
+          src={lightboxSrc || ''}
+          alt={selectedLesson?.title || ''}
+          isOpen={!!lightboxSrc}
+          onClose={() => setLightboxSrc(null)}
+        />
         
         {showPeriodicTable && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm overflow-y-auto">
