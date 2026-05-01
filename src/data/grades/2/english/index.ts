@@ -693,9 +693,9 @@ export const lessons: SubjectData = {
   ]
 }
 
-export const games = [
+export const games: GameLesson[] = [
   {
-    title: "Соедини слово и перевод",
+    title: "Члены семьи 👨‍👩‍👧",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -708,82 +708,258 @@ export const games = [
         hint: "Семья = Family"
       },
       {
-        type: 'match',
-        question: "Соедини слово с переводом:",
-        options: ["Cat", "Dog", "Bird", "Fish", "Rabbit"],
-        correctAnswer: ["Кошка", "Собака", "Птица", "Рыба", "Кролик"],
-        hint: "Animals = животные"
+        type: 'find',
+        question: "Как переводится Grandfather?",
+        options: ["Бабушка", "Дедушка", "Дядя", "Тётя", "Кузен"],
+        correctAnswer: "Дедушка",
+        hint: "Grandfather = дедушка"
+      },
+      {
+        type: 'quiz',
+        question: "Как сказать «У меня есть сестра» по-английски?",
+        options: ["I have a brother", "I have a sister", "I have a mother", "I have a father", "I have a family"],
+        correctAnswer: "I have a sister",
+        hint: "Sister = сестра"
+      },
+      {
+        type: 'find',
+        question: "Найди притяжательные местоимения:",
+        options: ["My", "Mother", "Your", "Sister", "His"],
+        correctAnswer: ["My", "Your", "His"],
+        hint: "Притяжательные местоимения: мой, твой, его"
       },
       {
         type: 'match',
-        question: "Соедини слово с переводом:",
+        question: "Соедини местоимение с переводом:",
+        options: ["My", "Your", "His", "Her", "Our"],
+        correctAnswer: ["Мой/моя", "Твой/твоя", "Его", "Её", "Наш/наша"],
+        hint: "Чьё? — притяжательные местоимения"
+      }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь семью! 👨‍👩‍👧" }
+  },
+  {
+    title: "Описание семьи 📝",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'match',
+        question: "Соедини описание с переводом:",
+        options: ["tall", "short", "kind", "beautiful", "funny"],
+        correctAnswer: ["Высокий", "Низкий", "Добрый", "Красивый", "Смешной"],
+        hint: "Описываем внешность и характер"
+      },
+      {
+        type: 'quiz',
+        question: "Как сказать «Моя мама добрая»?",
+        options: ["My mother is tall", "My mother is kind", "My mother is funny", "My mother is old", "My mother is young"],
+        correctAnswer: "My mother is kind",
+        hint: "Kind = добрый"
+      },
+      {
+        type: 'find',
+        question: "Найди формы глагола to be (быть):",
+        options: ["am", "is", "like", "are", "have"],
+        correctAnswer: ["am", "is", "are"],
+        hint: "Глагол to be: am, is, are"
+      },
+      {
+        type: 'quiz',
+        question: "Как спросить «Сколько лет твоему папе?»?",
+        options: ["What is your father?", "How old is your father?", "Where is your father?", "Who is your father?", "How is your father?"],
+        correctAnswer: "How old is your father?",
+        hint: "How old = сколько лет"
+      },
+      {
+        type: 'match',
+        question: "Соедини вопрос с ответом:",
+        options: ["Do you have a sister?", "How old are you?", "What is her name?", "Is he tall?", "Are you kind?"],
+        correctAnswer: ["Yes, I do", "I am 8", "Her name is Kate", "Yes, he is", "Yes, I am"],
+        hint: "Вопросы и ответы о семье"
+      }
+    ],
+    reward: { stars: 3, message: "Супер! Ты умеешь описывать семью! 📝" }
+  },
+  {
+    title: "Фрукты и овощи 🍎",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'match',
+        question: "Соедини фрукт с переводом:",
         options: ["Apple", "Banana", "Orange", "Lemon", "Pear"],
         correctAnswer: ["Яблоко", "Банан", "Апельсин", "Лимон", "Груша"],
         hint: "Fruits = фрукты"
       },
       {
         type: 'match',
-        question: "Соедини слово с переводом:",
-        options: ["Red", "Blue", "Green", "Yellow", "White"],
-        correctAnswer: ["Красный", "Синий", "Зелёный", "Жёлтый", "Белый"],
-        hint: "Colors = цвета"
+        question: "Соедини овощ с переводом:",
+        options: ["Carrot", "Potato", "Tomato", "Cucumber", "Onion"],
+        correctAnswer: ["Морковь", "Картофель", "Помидор", "Огурец", "Лук"],
+        hint: "Vegetables = овощи"
       },
       {
-        type: 'match',
-        question: "Соедини слово с переводом:",
-        options: ["Water", "Milk", "Juice", "Tea", "Coffee"],
-        correctAnswer: ["Вода", "Молоко", "Сок", "Чай", "Кофе"],
-        hint: "Drinks = напитки"
+        type: 'quiz',
+        question: "Какой артикль используется перед Apple?",
+        options: ["a", "an", "the", "no article", "any"],
+        correctAnswer: "an",
+        hint: "Перед гласной — an"
+      },
+      {
+        type: 'find',
+        question: "Найди слова для описания вкуса:",
+        options: ["sweet", "sour", "tall", "tasty", "funny"],
+        correctAnswer: ["sweet", "sour", "tasty"],
+        hint: "Вкус: сладкий, кислый, вкусный"
+      },
+      {
+        type: 'quiz',
+        question: "Как сказать «Я люблю яблоки»?",
+        options: ["I like apples", "I like bananas", "I don't like apples", "I want apples", "I have apples"],
+        correctAnswer: "I like apples",
+        hint: "I like = я люблю"
       }
     ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь слова! 📚" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь фрукты и овощи! 🍎" }
   },
   {
-    title: "Найди правильный перевод",
+    title: "Напитки и еда 🥛",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
       {
-        type: 'find',
-        question: "Что означает Apple?",
-        options: ["Груша", "Яблоко", "Апельсин", "Банан", "Виноград"],
-        correctAnswer: "Яблоко",
-        hint: "Apple = яблоко"
+        type: 'match',
+        question: "Соедини напиток с переводом:",
+        options: ["Water", "Milk", "Juice", "Tea", "Coffee"],
+        correctAnswer: ["Вода", "Молоко", "Сок", "Чай", "Кофе"],
+        hint: "Drinks = напитки"
       },
       {
         type: 'find',
-        question: "Что означает Milk?",
-        options: ["Вода", "Сок", "Молоко", "Чай", "Кофе"],
-        correctAnswer: "Молоко",
-        hint: "Milk = молоко"
+        question: "Найди продукты питания:",
+        options: ["Bread", "Cheese", "Butter", "Kind", "Egg"],
+        correctAnswer: ["Bread", "Cheese", "Butter", "Egg"],
+        hint: "Food = еда"
       },
       {
-        type: 'find',
-        question: "Что означает Bread?",
-        options: ["Молоко", "Хлеб", "Сыр", "Масло", "Яйцо"],
-        correctAnswer: "Хлеб",
-        hint: "Bread = хлеб"
+        type: 'quiz',
+        question: "Как сказать «Можно мне...?» по-английски?",
+        options: ["I want...", "Can I have...?", "Give me...", "I need...", "I like..."],
+        correctAnswer: "Can I have...?",
+        hint: "Вежливая просьба в кафе"
       },
       {
-        type: 'find',
-        question: "Что означает Water?",
-        options: ["Вода", "Молоко", "Сок", "Чай", "Кофе"],
-        correctAnswer: "Вода",
-        hint: "Water = вода"
+        type: 'quiz',
+        question: "Что означает «I'm hungry»?",
+        options: ["Я хочу пить", "Я голоден", "Я устал", "Я рад", "Я болен"],
+        correctAnswer: "Я голоден",
+        hint: "Hungry = голодный"
       },
       {
-        type: 'find',
-        question: "Что означает Cheese?",
-        options: ["Хлеб", "Масло", "Сыр", "Яйцо", "Мясо"],
-        correctAnswer: "Сыр",
-        hint: "Cheese = сыр"
+        type: 'match',
+        question: "Соедини фразу с переводом:",
+        options: ["I'm thirsty", "Here you are", "Thank you", "You're welcome", "How much is it?"],
+        correctAnswer: ["Я хочу пить", "Вот, пожалуйста", "Спасибо", "Пожалуйста", "Сколько это стоит?"],
+        hint: "Фразы в кафе"
       }
     ],
-    reward: { stars: 3, message: "Супер! Ты знаешь еду! 🍎" }
+    reward: { stars: 3, message: "Супер! Ты знаешь еду и напитки! 🥛" }
   },
   {
-    title: "Цвета по-английски",
+    title: "Домашние животные 🐱",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'match',
+        question: "Соедини питомца с переводом:",
+        options: ["Cat", "Dog", "Fish", "Hamster", "Rabbit"],
+        correctAnswer: ["Кошка", "Собака", "Рыбка", "Хомяк", "Кролик"],
+        hint: "Pets = домашние животные"
+      },
+      {
+        type: 'find',
+        question: "Найди слова для описания характера питомца:",
+        options: ["cute", "funny", "friendly", "forest", "lazy"],
+        correctAnswer: ["cute", "funny", "friendly", "lazy"],
+        hint: "Характер: милый, смешной, дружелюбный, ленивый"
+      },
+      {
+        type: 'quiz',
+        question: "Как сказать «У меня есть кошка»?",
+        options: ["I have a dog", "I have a cat", "I am a cat", "I like cat", "I see cat"],
+        correctAnswer: "I have a cat",
+        hint: "I have = у меня есть"
+      },
+      {
+        type: 'find',
+        question: "Найди части тела животных:",
+        options: ["tail", "ear", "paw", "fur", "kind"],
+        correctAnswer: ["tail", "ear", "paw", "fur"],
+        hint: "Хвост, ухо, лапа, шерсть"
+      },
+      {
+        type: 'quiz',
+        question: "Какой питомец — Guinea pig?",
+        options: ["Морская свинка", "Морская свинья", "Гвинейская мышь", "Хомяк", "Кролик"],
+        correctAnswer: "Морская свинка",
+        hint: "Guinea pig = морская свинка"
+      }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь питомцев! 🐱" }
+  },
+  {
+    title: "Дикие животные 🦁",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'match',
+        question: "Соедини животное с переводом:",
+        options: ["Lion", "Tiger", "Bear", "Elephant", "Monkey"],
+        correctAnswer: ["Лев", "Тигр", "Медведь", "Слон", "Обезьяна"],
+        hint: "Wild animals = дикие животные"
+      },
+      {
+        type: 'find',
+        question: "Найди места обитания животных:",
+        options: ["forest", "jungle", "savanna", "kind", "Africa"],
+        correctAnswer: ["forest", "jungle", "savanna", "Africa"],
+        hint: "Где живут дикие животные"
+      },
+      {
+        type: 'quiz',
+        question: "Как сказать «Львы живут в Африке»?",
+        options: ["Lions live in Africa", "Lions eat Africa", "Lions run Africa", "Lions like Africa", "Lions see Africa"],
+        correctAnswer: "Lions live in Africa",
+        hint: "Live in = жить в"
+      },
+      {
+        type: 'find',
+        question: "Найди глаголы движения:",
+        options: ["run", "jump", "kind", "climb", "swim"],
+        correctAnswer: ["run", "jump", "climb", "swim"],
+        hint: "Бегать, прыгать, лазить, плавать"
+      },
+      {
+        type: 'quiz',
+        question: "Что едят слоны?",
+        options: ["Meat", "Grass", "Fish", "Fruit", "Bread"],
+        correctAnswer: "Grass",
+        hint: "Elephants eat grass"
+      }
+    ],
+    reward: { stars: 3, message: "Супер! Ты знаешь диких животных! 🦁" }
+  },
+  {
+    title: "Цвета по-английски 🌈",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -797,48 +973,41 @@ export const games = [
       },
       {
         type: 'find',
-        question: "Какой цвет означает Black?",
-        options: ["Белый", "Чёрный", "Серый", "Коричневый", "Синий"],
-        correctAnswer: "Чёрный",
-        hint: "Black = чёрный"
+        question: "Найди название цветов по-английски:",
+        options: ["Black", "White", "Pink", "Big", "Brown"],
+        correctAnswer: ["Black", "White", "Pink", "Brown"],
+        hint: "Чёрный, белый, розовый, коричневый"
       },
       {
-        type: 'find',
-        question: "Какой цвет означает White?",
-        options: ["Белый", "Чёрный", "Серый", "Жёлтый", "Красный"],
-        correctAnswer: "Белый",
-        hint: "White = белый"
+        type: 'quiz',
+        question: "Как спросить «Какого это цвета?»?",
+        options: ["What is it?", "What colour is it?", "How is it?", "Where is it?", "Who is it?"],
+        correctAnswer: "What colour is it?",
+        hint: "Colour = цвет"
       },
       {
-        type: 'find',
-        question: "Какой цвет означает Green?",
-        options: ["Красный", "Синий", "Зелёный", "Жёлтый", "Оранжевый"],
-        correctAnswer: "Зелёный",
-        hint: "Green = зелёный"
+        type: 'quiz',
+        question: "Какое слово означает и цвет, и фрукт?",
+        options: ["Red", "Apple", "Orange", "Yellow", "Pink"],
+        correctAnswer: "Orange",
+        hint: "Оранжевый = апельсин"
       },
       {
-        type: 'find',
-        question: "Какой цвет означает Pink?",
-        options: ["Розовый", "Красный", "Оранжевый", "Фиолетовый", "Жёлтый"],
-        correctAnswer: "Розовый",
-        hint: "Pink = розовый"
+        type: 'match',
+        question: "Соедини цвет с предметом природы:",
+        options: ["The sun", "The sky", "The grass", "Snow", "The night"],
+        correctAnswer: ["Yellow", "Blue", "Green", "White", "Black"],
+        hint: "Цвета в природе"
       }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь цвета! 🌈" }
   },
   {
-    title: "Числа по-английски",
+    title: "Числа по-английски 🔢",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      {
-        type: 'quiz',
-        question: "Какое число идёт после Three?",
-        options: ["One", "Two", "Four", "Five", "Six"],
-        correctAnswer: "Four",
-        hint: "Один, два, три, четыре..."
-      },
       {
         type: 'match',
         question: "Соедини число с переводом:",
@@ -848,71 +1017,34 @@ export const games = [
       },
       {
         type: 'find',
-        question: "Какое число означает Seven?",
-        options: ["5", "6", "7", "8", "9"],
-        correctAnswer: "7",
-        hint: "Seven = 7"
+        question: "Найди числа от 11 до 20:",
+        options: ["Eleven", "Twelve", "Thirteen", "Two", "Fifteen"],
+        correctAnswer: ["Eleven", "Twelve", "Thirteen", "Fifteen"],
+        hint: "Числа 11-20 называются teen numbers"
       },
       {
-        type: 'find',
-        question: "Какое число означает Ten?",
-        options: ["7", "8", "9", "10", "11"],
-        correctAnswer: "10",
-        hint: "Ten = 10"
+        type: 'quiz',
+        question: "Какое число идёт после Three?",
+        options: ["One", "Two", "Four", "Five", "Six"],
+        correctAnswer: "Four",
+        hint: "Один, два, три, четыре..."
       },
       {
-        type: 'find',
-        question: "Какое число означает Five?",
-        options: ["3", "4", "5", "6", "7"],
-        correctAnswer: "5",
-        hint: "Five = 5"
+        type: 'quiz',
+        question: "Как спросить «Сколько?» по-английски?",
+        options: ["What?", "How many?", "How old?", "Where?", "Who?"],
+        correctAnswer: "How many?",
+        hint: "How many = сколько"
+      },
+      {
+        type: 'match',
+        question: "Соедини пример с ответом:",
+        options: ["2 + 3", "7 - 2", "4 + 4", "10 - 5", "6 + 4"],
+        correctAnswer: ["Five", "Five", "Eight", "Five", "Ten"],
+        hint: "Математика по-английски"
       }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь считать! 🔢" }
-  },
-  {
-    title: "Животные",
-    subject: "Иностранный язык",
-    icon: "Languages",
-    color: "text-pink-400",
-    tasks: [
-      {
-        type: 'find',
-        question: "Какое животное означает Cat?",
-        options: ["Собака", "Кошка", "Птица", "Рыба", "Лошадь"],
-        correctAnswer: "Кошка",
-        hint: "Cat = кошка"
-      },
-      {
-        type: 'find',
-        question: "Какое животное означает Dog?",
-        options: ["Кошка", "Собака", "Птица", "Лошадь", "Корова"],
-        correctAnswer: "Собака",
-        hint: "Dog = собака"
-      },
-      {
-        type: 'find',
-        question: "Найди домашнее животное:",
-        options: ["Tiger", "Lion", "Cat", "Wolf", "Bear"],
-        correctAnswer: "Cat",
-        hint: "Pet = домашнее животное"
-      },
-      {
-        type: 'find',
-        question: "Найди дикое животное:",
-        options: ["Cat", "Dog", "Tiger", "Fish", "Mouse"],
-        correctAnswer: "Tiger",
-        hint: "Wild = дикий"
-      },
-      {
-        type: 'find',
-        question: "Какое животное означает Bird?",
-        options: ["Кошка", "Собака", "Птица", "Рыба", "Лошадь"],
-        correctAnswer: "Птица",
-        hint: "Bird = птица"
-      }
-    ],
-    reward: { stars: 3, message: "Отлично! Ты знаешь животных! 🐱🐶" }
   }
 ]
 
