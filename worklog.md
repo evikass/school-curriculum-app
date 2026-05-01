@@ -318,3 +318,30 @@ Stage Summary:
 - Всего добавлено ~212 новых тестов и удалено ~13 лишних
 - Все 7 классов теперь имеют точное соответствие 1 урок = 1 тест
 - Правило: 1 урок = 1 тест (NOT keyword matching)
+---
+Task ID: grade0-1to1-mapping
+Agent: main
+Task: Ensure 1:1 lesson-to-quiz mapping for grade 0 (подготовительный класс)
+
+Work Log:
+- Analyzed all 8 subjects in grade 0: math, russian, reading, world, art, craft, music, PE
+- Found 4 subjects with 8 lessons (already had 8 games but misaligned) and 4 subjects with 12 lessons (had only 3-5 games, needed 9+ more)
+- Processed all 8 subjects in parallel using subagents
+- Replaced games arrays in all subject files with 1:1 mapping (each lesson gets exactly one dedicated test)
+- All game titles start with "Тест: " followed by the lesson topic
+- Removed all "Никто не знает" / "Не знаю" options, replaced with plausible alternatives
+- Each game has exactly 5 tasks
+- Build verified successfully
+
+Stage Summary:
+- Grade 0 fully processed with 1:1 lesson-to-quiz mapping
+- Total: 8 subjects, 80 lessons, 80 dedicated tests
+- Math: 8 lessons → 8 tests ✓
+- Russian: 8 lessons → 8 tests ✓
+- Reading: 8 lessons → 8 tests ✓
+- World: 8 lessons → 8 tests ✓
+- Art: 12 lessons → 12 tests ✓
+- Craft: 12 lessons → 12 tests ✓
+- Music: 12 lessons → 12 tests ✓
+- PE: 12 lessons → 12 tests ✓
+- Build passes successfully

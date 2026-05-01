@@ -1342,7 +1342,8 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как будет «5» на английском?", options: ["four", "five", "six", "Никто не знает", "Не знаю"], correctAnswer: "five", hint: "1-one, 2-two, 3-three, 4-four, 5-?" },
       { type: 'quiz', question: "Как будет «12» на английском?", options: ["twelve", "twenty", "two", "Никто не знает", "Не знаю"], correctAnswer: "twelve", hint: "11-eleven, 12-?" },
       { type: 'quiz', question: "«25» по-английски: twenty-__", options: ["eight", "six", "seven", "five", "nine"], correctAnswer: "five", hint: "25 = twenty-five" },
-      { type: 'quiz', question: "Какое число «seventeen»?", options: ["16", "17", "18", "Никто не знает", "Не знаю"], correctAnswer: "17", hint: "Seven + teen = seventeen" }
+      { type: 'quiz', question: "Какое число «seventeen»?", options: ["16", "17", "18", "Никто не знает", "Не знаю"], correctAnswer: "17", hint: "Seven + teen = seventeen" },
+      { type: 'find', question: "Выбери числа на английском:", options: ["One", "Cat", "Three", "Five", "Dog", "Ten"], correctAnswer: ["One", "Three", "Five", "Ten"], hint: "Числа — это не животные!" }
     ],
     reward: { stars: 3, message: "Great! You know numbers! 🔢" }
   },
@@ -1355,7 +1356,8 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как будет «красный» на английском?", options: ["red", "blue", "green", "Никто не знает", "Не знаю"], correctAnswer: "red", hint: "Apple is red" },
       { type: 'quiz', question: "Какой цвет «yellow»?", options: ["жёлтый", "зелёный", "синий", "Никто не знает", "Не знаю"], correctAnswer: "жёлтый", hint: "Sun is yellow" },
       { type: 'find', question: "Выбери названия цветов:", options: ["Red", "Cat", "Blue", "Green", "Dog", "Yellow"], correctAnswer: ["Red", "Blue", "Green", "Yellow"], hint: "Colors are: red, blue, green, yellow..." },
-      { type: 'quiz', question: "Как будет «оранжевый»?", options: ["orange", "purple", "pink", "Никто не знает", "Не знаю"], correctAnswer: "orange", hint: "Orange fruit is orange!" }
+      { type: 'quiz', question: "Как будет «оранжевый»?", options: ["orange", "purple", "pink", "Никто не знает", "Не знаю"], correctAnswer: "orange", hint: "Orange fruit is orange!" },
+      { type: 'quiz', question: "Какой цвет «brown»?", options: ["чёрный", "коричневый", "синий", "белый", "серый"], correctAnswer: "коричневый", hint: "Brown = коричневый" }
     ],
     reward: { stars: 3, message: "Excellent! You know colors! 🎨" }
   },
@@ -1368,7 +1370,8 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "«Mother» — это:", options: ["папа", "мама", "сестра", "Никто не знает", "Не знаю"], correctAnswer: "мама", hint: "Mother = мама" },
       { type: 'quiz', question: "Как будет «бабушка» на английском?", options: ["grandmother", "grandfather", "mother", "Никто не знает", "Не знаю"], correctAnswer: "grandmother", hint: "Grand + mother = grandmother" },
       { type: 'quiz', question: "Brother — это __", options: ["сестра", "дедушка", "мать", "отец", "брат"], correctAnswer: "брат", hint: "Brother = брат, Sister = сестра" },
-      { type: 'quiz', question: "«Father» — это:", options: ["отец", "дедушка", "брат", "Никто не знает", "Не знаю"], correctAnswer: "отец", hint: "Father = папа, отец" }
+      { type: 'quiz', question: "«Father» — это:", options: ["отец", "дедушка", "брат", "Никто не знает", "Не знаю"], correctAnswer: "отец", hint: "Father = папа, отец" },
+      { type: 'quiz', question: "Как будет «бабушка» на английском?", options: ["grandmother", "grandfather", "sister", "mother", "aunt"], correctAnswer: "grandmother", hint: "Grand + mother = grandmother" }
     ],
     reward: { stars: 3, message: "Great! You know family! 👨‍👩‍👧‍👦" }
   },
@@ -1381,7 +1384,8 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как будет «кошка» на английском?", options: ["dog", "cat", "bird", "Никто не знает", "Не знаю"], correctAnswer: "cat", hint: "Meow! 🐱" },
       { type: 'quiz', question: "«Dog» — это:", options: ["собака", "кошка", "лошадь", "Никто не знает", "Не знаю"], correctAnswer: "собака", hint: "Woof! 🐕" },
       { type: 'quiz', question: "Как будет «лев»?", options: ["tiger", "lion", "bear", "Никто не знает", "Не знаю"], correctAnswer: "lion", hint: "King of the jungle 🦁" },
-      { type: 'quiz', question: "Elephant — это __", options: ["зебра", "медведь", "лев", "слон", "обезьяна"], correctAnswer: "слон", hint: "Big grey animal with a trunk 🐘" }
+      { type: 'quiz', question: "Elephant — это __", options: ["зебра", "медведь", "лев", "слон", "обезьяна"], correctAnswer: "слон", hint: "Big grey animal with a trunk 🐘" },
+      { type: 'find', question: "Выбери названия животных:", options: ["Cat", "Red", "Dog", "Blue", "Bear", "Green"], correctAnswer: ["Cat", "Dog", "Bear"], hint: "Животные — это не цвета!" }
     ],
     reward: { stars: 3, message: "Super! You know animals! 🐾" }
   },
@@ -1394,7 +1398,8 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "«Apple» — это:", options: ["апельсин", "яблоко", "банан", "Никто не знает", "Не знаю"], correctAnswer: "яблоко", hint: "Red or green fruit 🍎" },
       { type: 'quiz', question: "Как будет «хлеб» на английском?", options: ["bread", "water", "milk", "Никто не знает", "Не знаю"], correctAnswer: "bread", hint: "Bread 🍞" },
       { type: 'quiz', question: "«Water» — это:", options: ["молоко", "вода", "сок", "Никто не знает", "Не знаю"], correctAnswer: "вода", hint: "We drink water 💧" },
-      { type: 'quiz', question: "Banana — это __", options: ["груша", "апельсин", "арбуз", "виноград", "банан"], correctAnswer: "банан", hint: "Yellow fruit 🍌" }
+      { type: 'quiz', question: "Banana — это __", options: ["груша", "апельсин", "арбуз", "виноград", "банан"], correctAnswer: "банан", hint: "Yellow fruit 🍌" },
+      { type: 'quiz', question: "Как будет «сыр» на английском?", options: ["bread", "cheese", "meat", "fish", "egg"], correctAnswer: "cheese", hint: "Cheese = сыр 🧀" }
     ],
     reward: { stars: 3, message: "Excellent! You know food! 🍎" }
   },
@@ -1407,7 +1412,8 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "Как будет «понедельник»?", options: ["Monday", "Sunday", "Friday", "Никто не знает", "Не знаю"], correctAnswer: "Monday", hint: "First day of the week" },
       { type: 'quiz', question: "«Sunday» — это:", options: ["суббота", "воскресенье", "понедельник", "Никто не знает", "Не знаю"], correctAnswer: "воскресенье", hint: "Last day of the week" },
       { type: 'quiz', question: "Какой месяц «January»?", options: ["февраль", "январь", "март", "Никто не знает", "Не знаю"], correctAnswer: "январь", hint: "First month of the year" },
-      { type: 'quiz', question: "Как будет «лето»?", options: ["spring", "summer", "winter", "Никто не знает", "Не знаю"], correctAnswer: "summer", hint: "Hot season with holidays ☀️" }
+      { type: 'quiz', question: "Как будет «лето»?", options: ["spring", "summer", "winter", "Никто не знает", "Не знаю"], correctAnswer: "summer", hint: "Hot season with holidays ☀️" },
+      { type: 'find', question: "Выбери названия дней недели:", options: ["Monday", "January", "Friday", "Summer", "Sunday", "Winter"], correctAnswer: ["Monday", "Friday", "Sunday"], hint: "Дни недели, не месяцы и не сезоны" }
     ],
     reward: { stars: 3, message: "Great! You know calendar! 📅" }
   },
@@ -1420,7 +1426,8 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "«Head» — это:", options: ["рука", "голова", "нога", "Никто не знает", "Не знаю"], correctAnswer: "голова", hint: "On your shoulders" },
       { type: 'quiz', question: "Как будет «глаза»?", options: ["ears", "eyes", "nose", "Никто не знает", "Не знаю"], correctAnswer: "eyes", hint: "Two eyes to see 👀" },
       { type: 'quiz', question: "Nose — это __", options: ["рот", "глаз", "ухо", "голова", "нос"], correctAnswer: "нос", hint: "On your face, you breathe with it 👃" },
-      { type: 'quiz', question: "«Hands» — это:", options: ["ноги", "руки", "уши", "Никто не знает", "Не знаю"], correctAnswer: "руки", hint: "You write with your hands ✋" }
+      { type: 'quiz', question: "«Hands» — это:", options: ["ноги", "руки", "уши", "Никто не знает", "Не знаю"], correctAnswer: "руки", hint: "You write with your hands ✋" },
+      { type: 'quiz', question: "Как будет «нога» на английском?", options: ["arm", "leg", "hand", "foot", "head"], correctAnswer: "leg", hint: "Leg = нога" }
     ],
     reward: { stars: 3, message: "Super! You know body parts! 🫀" }
   },
@@ -1433,8 +1440,233 @@ export const games: GameLesson[] = [
       { type: 'quiz', question: "«Hello» — это:", options: ["пока", "привет", "спасибо", "Никто не знает", "Не знаю"], correctAnswer: "привет", hint: "Greeting" },
       { type: 'quiz', question: "Как сказать «спасибо»?", options: ["Please", "Thank you", "Sorry", "Никто не знает", "Не знаю"], correctAnswer: "Thank you", hint: "When someone helps you" },
       { type: 'quiz', question: "«Goodbye» — это:", options: ["здравствуйте", "до свидания", "извините", "Никто не знает", "Не знаю"], correctAnswer: "до свидания", hint: "When you leave" },
-      { type: 'quiz', question: "«Как дела?» — How __ you?", options: ["do", "am", "have", "are", "is"], correctAnswer: "are", hint: "How are you?" }
+      { type: 'quiz', question: "«Как дела?» — How __ you?", options: ["do", "am", "have", "are", "is"], correctAnswer: "are", hint: "How are you?" },
+      { type: 'quiz', question: "Как сказать «извините»?", options: ["Thank you", "Sorry", "Hello", "Goodbye", "Please"], correctAnswer: "Sorry", hint: "Sorry = извините" }
     ],
     reward: { stars: 3, message: "Excellent! You know phrases! 💬" }
+  },
+  {
+    title: "Урок 1: English Alphabet",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Сколько букв в английском алфавите?", options: ["26", "33", "28", "30", "24"], correctAnswer: "26", hint: "Это меньше, чем в русском!" },
+      { type: 'quiz', question: "Какая буква звучит как «эй»?", options: ["B", "A", "C", "D", "E"], correctAnswer: "A", hint: "Первая буква алфавита" },
+      { type: 'find', question: "Выбери буквы, которых нет в русском алфавите:", options: ["A", "Б", "W", "Ъ", "X"], correctAnswer: ["A", "W", "X"], hint: "Английские буквы, не похожие на русские" },
+      { type: 'quiz', question: "Какая буква самая частая в английском языке?", options: ["A", "T", "E", "S", "O"], correctAnswer: "E", hint: "Эта гласная встречается чаще всего" },
+      { type: 'quiz', question: "Как произносится буква Z в Британии?", options: ["зи", "зед", "зэт", "зай", "зё"], correctAnswer: "зед", hint: "В США — «зи», а в Британии — ?" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь английский алфавит! 🔤" }
+  },
+  {
+    title: "Урок 2: Vowels and Consonants",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'find', question: "Выбери все гласные буквы английского алфавита:", options: ["A", "B", "E", "I", "K", "O", "U"], correctAnswer: ["A", "E", "I", "O", "U"], hint: "Гласных всего 5 (или 6 с Y)" },
+      { type: 'quiz', question: "В каком слове Y — гласная?", options: ["yes", "my", "you", "yellow", "yesterday"], correctAnswer: "my", hint: "Y гласная в конце слова" },
+      { type: 'quiz', question: "Сколько согласных букв в английском алфавите?", options: ["20-21", "26", "5", "10", "33"], correctAnswer: "20-21", hint: "Гласных 5-6, всего 26" },
+      { type: 'quiz', question: "Какой звук у буквы A в слове «cat»?", options: ["[æ] краткий", "[eɪ] долгий", "[iː]", "[ɒ]", "[ʌ]"], correctAnswer: "[æ] краткий", hint: "Cat — закрытый слог, звук краткий" },
+      { type: 'quiz', question: "Какой звук у буквы I в слове «like»?", options: ["[ɪ] краткий", "[aɪ] долгий", "[e]", "[ɒ]", "[ʌ]"], correctAnswer: "[aɪ] долгий", hint: "Like — открытый слог, звук как в алфавите" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь гласные и согласные! 🗣️" }
+  },
+  {
+    title: "Урок 3: Reading Rules",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Слово «name» — какой тип слога?", options: ["Открытый", "Закрытый", "Сложный", "Двойной", "Нет такого"], correctAnswer: "Открытый", hint: "Слог заканчивается на гласную" },
+      { type: 'quiz', question: "В слове «cat» буква A читается как:", options: ["эй", "э", "а", "и", "оу"], correctAnswer: "э", hint: "Закрытый слог — краткий звук" },
+      { type: 'quiz', question: "В слове «like» буква I читается как:", options: ["и", "ай", "э", "оу", "а"], correctAnswer: "ай", hint: "Открытый слог — звук как в алфавите" },
+      { type: 'find', question: "Выбери слова с открытым слогом:", options: ["name", "cat", "like", "dog", "go", "pen"], correctAnswer: ["name", "like", "go"], hint: "Гласная читается как в алфавите" },
+      { type: 'quiz', question: "Как читается буква O в слове «dog»?", options: ["оу", "о", "а", "э", "и"], correctAnswer: "о", hint: "Закрытый слог — краткий звук" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь правила чтения! 📖" }
+  },
+  {
+    title: "Урок 6: Numbers 20-100",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Как будет «40» на английском?", options: ["fourty", "forty", "fourteen", "fifty", "thirty"], correctAnswer: "forty", hint: "40 пишется без 'u'!" },
+      { type: 'quiz', question: "Как будет «100» на английском?", options: ["one thousand", "one hundred", "ten tens", "ninety", "two fifty"], correctAnswer: "one hundred", hint: "100 = one hundred" },
+      { type: 'quiz', question: "25 по-английски — это:", options: ["twenty five", "twenty-five", "twofive", "twenty and five", "five twenty"], correctAnswer: "twenty-five", hint: "Десятки и единицы через дефис" },
+      { type: 'find', question: "Выбери правильные названия десятков:", options: ["twenty", "thirty", "threety", "fifty", "sixty", "seventeen"], correctAnswer: ["twenty", "thirty", "fifty", "sixty"], hint: "Десятки оканчиваются на -ty" },
+      { type: 'quiz', question: "5 + 3 = 8. Как это сказать по-английски?", options: ["Five and three is eight", "Five plus three equals eight", "Five add three makes eight", "Five with three gets eight", "Five together three eight"], correctAnswer: "Five plus three equals eight", hint: "plus = плюс, equals = равно" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь числа от 20 до 100! 🔢" }
+  },
+  {
+    title: "Урок 8: Shapes",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Как будет «круг» на английском?", options: ["square", "circle", "triangle", "rectangle", "oval"], correctAnswer: "circle", hint: "Фигура без углов" },
+      { type: 'quiz', question: "Сколько сторон у triangle?", options: ["2", "3", "4", "5", "6"], correctAnswer: "3", hint: "Tri = три" },
+      { type: 'find', question: "Выбери названия фигур:", options: ["Circle", "Dog", "Square", "Red", "Triangle", "Milk"], correctAnswer: ["Circle", "Square", "Triangle"], hint: "Геометрические фигуры" },
+      { type: 'quiz', question: "«A circle has no __» — чего нет у круга?", options: ["sides", "corners", "colors", "size", "name"], correctAnswer: "corners", hint: "Круг катится — у него нет углов" },
+      { type: 'quiz', question: "Какое слово означает и «ромб», и «алмаз»?", options: ["star", "heart", "diamond", "square", "oval"], correctAnswer: "diamond", hint: "Diamond ring — кольцо с алмазом" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь геометрические фигуры! 📐" }
+  },
+  {
+    title: "Урок 10: Describing People",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Как сказать «высокий» по-английски?", options: ["short", "tall", "old", "young", "big"], correctAnswer: "tall", hint: "He is tall — он высокий" },
+      { type: 'quiz', question: "Как по-английски «кудрявые волосы»?", options: ["straight hair", "curly hair", "long hair", "dark hair", "short hair"], correctAnswer: "curly hair", hint: "Кудри = curls" },
+      { type: 'find', question: "Выбери прилагательные для описания внешности:", options: ["Tall", "Blue eyes", "Happy", "Short", "Curly hair"], correctAnswer: ["Tall", "Short", "Curly hair"], hint: "Описание роста и волос" },
+      { type: 'quiz', question: "«She __ long hair» — какой глагол нужен?", options: ["have", "has", "is", "are", "am"], correctAnswer: "has", hint: "He/She + has (не have!)" },
+      { type: 'quiz', question: "Как сказать «карие глаза»?", options: ["blue eyes", "green eyes", "brown eyes", "grey eyes", "dark eyes"], correctAnswer: "brown eyes", hint: "Brown = коричневый" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты умеешь описывать людей! 👤" }
+  },
+  {
+    title: "Урок 12: Clothes",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Как будет «платье» на английском?", options: ["skirt", "dress", "shirt", "coat", "jacket"], correctAnswer: "dress", hint: "She is wearing a red dress" },
+      { type: 'find', question: "Выбери слова, которые всегда во множественном числе:", options: ["Pants", "Shirt", "Jeans", "Dress", "Shorts"], correctAnswer: ["Pants", "Jeans", "Shorts"], hint: "Две штанины = множественное число" },
+      { type: 'quiz', question: "Как сказать «надень шапку»?", options: ["Take off your hat", "Put on your hat", "Wear your hat", "Have your hat", "Give your hat"], correctAnswer: "Put on your hat", hint: "Put on = надеть" },
+      { type: 'quiz', question: "«I am wearing a T-shirt» означает:", options: ["Я ношу футболку", "Я покупаю футболку", "Я вижу футболку", "Я стираю футболку", "Я шью футболку"], correctAnswer: "Я ношу футболку", hint: "Am wearing = сейчас ношу" },
+      { type: 'quiz', question: "Sneakers — это:", options: ["ботинки", "носки", "кроссовки", "сандалии", "туфли"], correctAnswer: "кроссовки", hint: "Для бега и спорта" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь одежду! 👕" }
+  },
+  {
+    title: "Урок 13: Pets",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Как будет «хомяк» на английском?", options: ["hamster", "rabbit", "turtle", "parrot", "guinea pig"], correctAnswer: "hamster", hint: "Маленький пушистый питомец" },
+      { type: 'find', question: "Выбери названия питомцев:", options: ["Cat", "Lion", "Dog", "Elephant", "Hamster", "Tiger"], correctAnswer: ["Cat", "Dog", "Hamster"], hint: "Домашние питомцы, не дикие" },
+      { type: 'quiz', question: "Какой звук говорит кошка по-английски?", options: ["Woof!", "Meow!", "Quack!", "Tweet!", "Oink!"], correctAnswer: "Meow!", hint: "Кошка говорит мяу" },
+      { type: 'quiz', question: "Как спросить «У тебя есть питомец?»", options: ["Do you have a pet?", "Are you a pet?", "Is pet your?", "Have you pet?", "You pet have?"], correctAnswer: "Do you have a pet?", hint: "Do you have...?" },
+      { type: 'quiz', question: "Guinea pig — это:", options: ["свинья", "морская свинка", "мышь", "крыса", "хомяк"], correctAnswer: "морская свинка", hint: "Guinea pig — не настоящая свинка!" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь домашних питомцев! 🐱" }
+  },
+  {
+    title: "Урок 15: Farm Animals",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Что даёт корова?", options: ["eggs", "milk", "wool", "meat only", "nothing"], correctAnswer: "milk", hint: "Cows give milk" },
+      { type: 'quiz', question: "Как будет «лошадь» на английском?", options: ["cow", "horse", "sheep", "goat", "pig"], correctAnswer: "horse", hint: "Horses can run fast" },
+      { type: 'find', question: "Выбери продукты, которые дают фермерские животные:", options: ["Milk", "Eggs", "Bread", "Wool", "Cheese"], correctAnswer: ["Milk", "Eggs", "Wool"], hint: "Что дают животные на ферме" },
+      { type: 'quiz', question: "Какой звук говорит утка по-английски?", options: ["Moo!", "Oink!", "Quack!", "Neigh!", "Baa!"], correctAnswer: "Quack!", hint: "Duck says Quack!" },
+      { type: 'quiz', question: "Множественное число от goose — это:", options: ["gooses", "geese", "goose", "geeses", "goosen"], correctAnswer: "geese", hint: "Goose → Geese (исключение)" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь домашних животных! 🐄" }
+  },
+  {
+    title: "Урок 16: Weather",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Как будет «солнечно» на английском?", options: ["rainy", "sunny", "cloudy", "snowy", "windy"], correctAnswer: "sunny", hint: "Sun + y = sunny" },
+      { type: 'quiz', question: "Как спросить «Какая сегодня погода?»", options: ["What is the weather like today?", "How is weather?", "What weather is?", "Is weather today?", "Weather what like?"], correctAnswer: "What is the weather like today?", hint: "Стандартный вопрос о погоде" },
+      { type: 'find', question: "Выбери слова, относящиеся к погоде:", options: ["Sunny", "Rainy", "Dog", "Cloudy", "Cat", "Windy"], correctAnswer: ["Sunny", "Rainy", "Cloudy", "Windy"], hint: "Слова о погоде" },
+      { type: 'quiz', question: "Какое время года «Winter»?", options: ["весна", "лето", "осень", "зима", "межсезонье"], correctAnswer: "зима", hint: "Winter = зима, холодно и снежно" },
+      { type: 'quiz', question: "Что надевают в дождливую погоду?", options: ["T-shirt и sunglasses", "Raincoat и umbrella", "Swimsuit", "Warm jacket и boots", "Shorts"], correctAnswer: "Raincoat и umbrella", hint: "Raincoat = дождевик, umbrella = зонт" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь слова о погоде! 🌤️" }
+  },
+  {
+    title: "Урок 17: Fruits and Vegetables",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Как будет «клубника» на английском?", options: ["strawberry", "blueberry", "raspberry", "blackberry", "cherry"], correctAnswer: "strawberry", hint: "Straw + berry = strawberry" },
+      { type: 'find', question: "Выбери названия фруктов:", options: ["Apple", "Carrot", "Banana", "Potato", "Orange", "Onion"], correctAnswer: ["Apple", "Banana", "Orange"], hint: "Фрукты — сладкие и сочные" },
+      { type: 'quiz', question: "Как сказать «Я не люблю морковь»?", options: ["I like carrots", "I don't like carrots", "I no like carrots", "I not like carrot", "I dislike carrots"], correctAnswer: "I don't like carrots", hint: "I don't like = я не люблю" },
+      { type: 'quiz', question: "Какой фрукт и овощ одновременно — tomato?", options: ["Яблоко", "Банан", "Помидор", "Морковь", "Огурец"], correctAnswer: "Помидор", hint: "Tomato научно — фрукт!" },
+      { type: 'quiz', question: "Как будет «огурец» на английском?", options: ["cabbage", "cucumber", "carrot", "onion", "potato"], correctAnswer: "cucumber", hint: "Зелёный и длинный овощ" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь фрукты и овощи! 🍎" }
+  },
+  {
+    title: "Урок 19: Drinks",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Как будет «молоко» на английском?", options: ["water", "milk", "juice", "tea", "coffee"], correctAnswer: "milk", hint: "White drink from a cow" },
+      { type: 'quiz', question: "Как вежливо попросить чай?", options: ["Give me tea!", "Tea now!", "Would you like some tea?", "Can I have some tea?", "I want tea!"], correctAnswer: "Can I have some tea?", hint: "Вежливая просьба: Can I have...?" },
+      { type: 'find', question: "Выбери названия напитков:", options: ["Water", "Bread", "Juice", "Meat", "Tea", "Cheese"], correctAnswer: ["Water", "Juice", "Tea"], hint: "Напитки — то, что пьют" },
+      { type: 'quiz', question: "Как сказать «Я хочу пить»?", options: ["I'm hungry", "I'm thirsty", "I'm tired", "I'm cold", "I'm hot"], correctAnswer: "I'm thirsty", hint: "Thirsty = хочу пить" },
+      { type: 'quiz', question: "Orange juice — это:", options: ["яблочный сок", "томатный сок", "апельсиновый сок", "виноградный сок", "ананасовый сок"], correctAnswer: "апельсиновый сок", hint: "Orange = апельсин" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь напитки! 🥤" }
+  },
+  {
+    title: "Урок 20: At the Cafe",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Как вежливо заказать еду в кафе?", options: ["Give me pizza!", "Can I have a pizza, please?", "I want pizza now!", "Pizza here!", "Bring pizza!"], correctAnswer: "Can I have a pizza, please?", hint: "Can I have... please? = Можно мне..., пожалуйста?" },
+      { type: 'quiz', question: "Как спросить «Сколько стоит?»", options: ["What price?", "How much is it?", "How many money?", "What cost?", "How price?"], correctAnswer: "How much is it?", hint: "How much = сколько" },
+      { type: 'find', question: "Выбери вежливые фразы для кафе:", options: ["Please", "Give me!", "Thank you", "You're welcome", "Now!"], correctAnswer: ["Please", "Thank you", "You're welcome"], hint: "Вежливые слова при заказе" },
+      { type: 'quiz', question: "«Here you are» означает:", options: ["Вы здесь", "Вот, пожалуйста", "Вы пришли", "Здесь есть", "Идите сюда"], correctAnswer: "Вот, пожалуйста", hint: "Официант приносит еду и говорит: Here you are" },
+      { type: 'quiz', question: "Как попросить счёт в кафе?", options: ["The money, please", "The bill, please", "How much to pay?", "Give check!", "I pay now"], correctAnswer: "The bill, please", hint: "Bill = счёт" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты можешь заказать еду в кафе! 🍽️" }
+  },
+  {
+    title: "Урок 21: Time",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Как спросить «Сколько времени?»", options: ["What hour?", "What time is it?", "How much time?", "What clock?", "Which time?"], correctAnswer: "What time is it?", hint: "What time is it? = Сколько времени?" },
+      { type: 'quiz', question: "«It's three o'clock» означает:", options: ["Три минуты", "Три часа", "Тридцать", "Тринадцать", "Третье"], correctAnswer: "Три часа", hint: "O'clock = ровно час" },
+      { type: 'quiz', question: "«Half past one» — это:", options: ["1:00", "1:15", "1:30", "1:45", "2:00"], correctAnswer: "1:30", hint: "Half = половина, past = после" },
+      { type: 'find', question: "Выбери фразы для указания времени:", options: ["O'clock", "Half past", "Big", "Quarter past", "Quarter to"], correctAnswer: ["O'clock", "Half past", "Quarter past", "Quarter to"], hint: "Фразы, связанные со временем" },
+      { type: 'quiz', question: "«Quarter to three» — это:", options: ["3:00", "3:15", "2:45", "2:15", "3:45"], correctAnswer: "2:45", hint: "Quarter to = без четверти, до трёх" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты умеешь говорить о времени! ⏰" }
+  },
+  {
+    title: "Урок 22: Daily Activities",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Как будет «проснуться» на английском?", options: ["go to sleep", "wake up", "get up", "have breakfast", "wash"], correctAnswer: "wake up", hint: "Wake up = проснуться" },
+      { type: 'quiz', question: "«Have breakfast» означает:", options: ["ужинать", "завтракать", "обедать", "готовить", "мыть посуду"], correctAnswer: "завтракать", hint: "Breakfast = завтрак" },
+      { type: 'find', question: "Выбери ежедневные дела:", options: ["Wake up", "Fly", "Go to school", "Swim in ocean", "Have breakfast", "Climb mountain"], correctAnswer: ["Wake up", "Go to school", "Have breakfast"], hint: "Что ты делаешь каждый день?" },
+      { type: 'quiz', question: "Как сказать «ложиться спать»?", options: ["go to bed", "go to sleep", "get up", "sit down", "wake up"], correctAnswer: "go to bed", hint: "Go to bed = ложиться спать" },
+      { type: 'quiz', question: "«Get up» означает:", options: ["ложиться спать", "вставать", "садиться", "прыгать", "бежать"], correctAnswer: "вставать", hint: "Get up = вставать (с кровати)" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь ежедневные дела! 📋" }
+  },
+  {
+    title: "Урок 24: Months and Seasons",
+    subject: "Английский язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      { type: 'quiz', question: "Как будет «январь» на английском?", options: ["February", "January", "March", "April", "June"], correctAnswer: "January", hint: "Первый месяц года" },
+      { type: 'find', question: "Выбери названия сезонов:", options: ["Winter", "January", "Spring", "Summer", "Monday", "Autumn"], correctAnswer: ["Winter", "Spring", "Summer", "Autumn"], hint: "4 сезона = 4 времени года" },
+      { type: 'quiz', question: "Какой месяц «December»?", options: ["октябрь", "ноябрь", "декабрь", "сентябрь", "август"], correctAnswer: "декабрь", hint: "Последний месяц года" },
+      { type: 'quiz', question: "Как по-английски «осень»?", options: ["Spring", "Summer", "Autumn / Fall", "Winter", "Season"], correctAnswer: "Autumn / Fall", hint: "Autumn (Британия) / Fall (США)" },
+      { type: 'quiz', question: "В каком месяце начинается учебный год в России?", options: ["August", "September", "October", "July", "June"], correctAnswer: "September", hint: "1 сентября — День знаний" }
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь месяцы и сезоны! 📅" }
   }
 ]
