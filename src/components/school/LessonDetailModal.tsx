@@ -354,7 +354,7 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
-              className="w-full max-w-7xl my-8"
+              className="w-full max-w-7xl mt-28 sm:my-8"
             >
               <PeriodicTable onClose={() => setShowPeriodicTable(false)} />
             </motion.div>

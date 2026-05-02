@@ -1624,7 +1624,7 @@ function PeriodicTableGame({ onClose }: { onClose: () => void }) {
     <div className="p-3 sm:p-6 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl sm:rounded-3xl border border-white/10">
       {/* Close button - centered at top */}
       <div className="flex justify-center mb-4">
-        <button onClick={onClose} className="px-4 py-1.5 bg-white/10 hover:bg-white/20 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-medium">
+        <button onClick={onClose} className="px-5 py-2 bg-red-500/80 hover:bg-red-500 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-bold shadow-lg backdrop-blur-sm">
           <X className="w-4 h-4" />
           <span>Закрыть</span>
         </button>
@@ -1811,7 +1811,7 @@ function PeriodicTableMemoryGame({ onClose }: { onClose: () => void }) {
     <div className="p-3 sm:p-6 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl sm:rounded-3xl border border-white/10">
       {/* Close button - centered at top */}
       <div className="flex justify-center mb-4">
-        <button onClick={onClose} className="px-4 py-1.5 bg-white/10 hover:bg-white/20 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-medium">
+        <button onClick={onClose} className="px-5 py-2 bg-red-500/80 hover:bg-red-500 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-bold shadow-lg backdrop-blur-sm">
           <X className="w-4 h-4" />
           <span>Закрыть</span>
         </button>
@@ -2090,7 +2090,7 @@ function PeriodicTableBuildGame({ onClose }: { onClose: () => void }) {
     <div className="p-3 sm:p-6 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl sm:rounded-3xl border border-white/10">
       {/* Close button - centered at top */}
       <div className="flex justify-center mb-4">
-        <button onClick={onClose} className="px-4 py-1.5 bg-white/10 hover:bg-white/20 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-medium">
+        <button onClick={onClose} className="px-5 py-2 bg-red-500/80 hover:bg-red-500 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-bold shadow-lg backdrop-blur-sm">
           <X className="w-4 h-4" />
           <span>Закрыть</span>
         </button>
@@ -2370,7 +2370,7 @@ function PeriodicTableDetectiveGame({ onClose }: { onClose: () => void }) {
     <div className="p-3 sm:p-4 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl border border-white/10">
       {/* Close button */}
       <div className="flex justify-center mb-4">
-        <button onClick={onClose} className="px-4 py-1.5 bg-white/10 hover:bg-white/20 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-medium">
+        <button onClick={onClose} className="px-5 py-2 bg-red-500/80 hover:bg-red-500 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-bold shadow-lg backdrop-blur-sm">
           <X className="w-4 h-4" />
           <span>Закрыть</span>
         </button>
@@ -2497,12 +2497,12 @@ export default function PeriodicTable({ onClose }: Props) {
 
   return (
     <div className="relative w-full">
-      {/* Close button - centered at top */}
+      {/* Close button - centered at top, with safe-area padding for smartphones */}
       {onClose && (
-        <div className="flex justify-center mb-4">
+        <div className="flex justify-center mb-4" style={{ paddingTop: 'max(7rem, env(safe-area-inset-top, 0px) + 7rem)' }}>
           <button
             onClick={onClose}
-            className="px-6 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors flex items-center gap-2 text-white font-medium"
+            className="px-6 py-2.5 bg-red-500/80 hover:bg-red-500 rounded-full transition-colors flex items-center gap-2 text-white font-bold shadow-lg backdrop-blur-sm"
           >
             <X className="w-5 h-5" />
             <span>Закрыть</span>
@@ -2598,7 +2598,7 @@ export default function PeriodicTable({ onClose }: Props) {
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-50 flex items-start justify-center bg-black/70 backdrop-blur-sm overflow-y-auto"
             onClick={() => setSelectedElement(null)}
-            style={{ paddingTop: 'env(safe-area-inset-top, 10px)', paddingBottom: 'env(safe-area-inset-bottom, 10px)' }}
+            style={{ paddingTop: 'max(8rem, env(safe-area-inset-top, 0px) + 8rem)', paddingBottom: 'env(safe-area-inset-bottom, 10px)' }}
           >
             <motion.div
               initial={{ scale: 0.9, y: 20 }}
@@ -2613,11 +2613,11 @@ export default function PeriodicTable({ onClose }: Props) {
             >
               {/* Header with close button inside */}
               <div className={`relative p-3 sm:p-4 ${categoryColors[selectedElement.category]}`}>
-                {/* Close button - centered at top inside header */}
+                {/* Close button - centered at top inside header, more visible on smartphones */}
                 <div className="flex justify-center -mt-1 mb-2">
                   <button
                     onClick={() => setSelectedElement(null)}
-                    className="px-4 py-1.5 bg-black/30 hover:bg-black/50 backdrop-blur-sm border border-white/10 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-medium"
+                    className="px-5 py-2 bg-red-500/80 hover:bg-red-500 backdrop-blur-sm rounded-full transition-colors flex items-center gap-2 text-white text-sm font-bold shadow-lg"
                   >
                     <X className="w-4 h-4" />
                     <span>Закрыть</span>
