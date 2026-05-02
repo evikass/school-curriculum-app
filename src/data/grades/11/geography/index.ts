@@ -204,7 +204,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Урок 1: Государства мира",
-        image: "/school-curriculum-app/images/lessons/grade11/geography/lesson1.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/geography/lesson1.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -218,7 +218,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 2: Международные отношения",
-        image: "/school-curriculum-app/images/lessons/grade11/geography/lesson2.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/geography/lesson2.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -232,7 +232,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 3: Численность населения",
-        image: "/school-curriculum-app/images/lessons/grade11/geography/lesson3.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/geography/lesson3.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -246,7 +246,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 4: Размещение и миграции",
-        image: "/school-curriculum-app/images/lessons/grade11/geography/lesson4.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/geography/lesson4.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -260,7 +260,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 5: Этнический состав",
-        image: "/school-curriculum-app/images/lessons/grade11/geography/lesson5.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/geography/lesson5.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -274,7 +274,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 6: Мировое хозяйство",
-        image: "/school-curriculum-app/images/lessons/grade11/geography/lesson6.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/geography/lesson6.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -288,7 +288,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 7: Промышленность мира",
-        image: "/school-curriculum-app/images/lessons/grade11/geography/lesson7.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/geography/lesson7.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -302,7 +302,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 8: Сельское хозяйство и транспорт",
-        image: "/school-curriculum-app/images/lessons/grade11/geography/lesson8.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/geography/lesson8.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -316,7 +316,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 9: Экологические проблемы",
-        image: "/school-curriculum-app/images/lessons/grade11/geography/lesson9.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/geography/lesson9.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -330,7 +330,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 10: Россия в современном мире",
-        image: "/school-curriculum-app/images/lessons/grade11/geography/lesson10.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/geography/lesson10.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -344,7 +344,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 11: Глобальные проблемы человечества",
-        image: "/school-curriculum-app/images/lessons/grade11/geography/lesson11.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/geography/lesson11.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -358,7 +358,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 12: Итоговое обобщение",
-        image: "/school-curriculum-app/images/lessons/grade11/geography/lesson12.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/geography/lesson12.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",

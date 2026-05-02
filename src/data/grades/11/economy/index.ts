@@ -20,7 +20,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Мировое хозяйство",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson1.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson1.svg",
           description: `**Мировое хозяйство** — совокупность национальных экономик, связанных между собой международными экономическими отношениями.
 
 **Основные характеристики:**
@@ -79,7 +79,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Сравнительные преимущества",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson2.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson2.svg",
           description: `**Теория сравнительных преимуществ** разработана Давидом Рикардо (1817 г.).
 
 **Абсолютное преимущество** — способность страны производить больше товара при тех же затратах ресурсов.
@@ -136,7 +136,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Теория Хекшера-Олина",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson3.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson3.svg",
           description: `**Теория Хекшера-Олина** (1930-е гг.) объясняет торговлю различиями в обеспеченности факторами производства.
 
 **Основной принцип:** Страны экспортируют товары, в производстве которых интенсивно используются избыточные факторы, и импортируют товары, требующие дефицитных факторов.
@@ -191,7 +191,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Международная мобильность факторов",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson4.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson4.svg",
           description: `**Международная мобильность факторов** — способность факторов производства перемещаться между странами.
 
 **Миграция рабочей силы:**
@@ -268,7 +268,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Торговая политика",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson5.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson5.svg",
           description: `**Торговая политика** — деятельность государства по регулированию внешней торговли.
 
 **Два направления:**
@@ -344,7 +344,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Таможенные союзы и интеграция",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson6.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson6.svg",
           description: `**Экономическая интеграция** — процесс сближения экономик стран, создание наднациональных структур.
 
 **Уровни интеграции:**
@@ -414,7 +414,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "ВТО и международные организации",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson7.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson7.svg",
           description: `**Всемирная торговая организация (ВТО)** — международная организация, регулирующая правила торговли между странами.
 
 **Основана:** 1995 год (преемница ГАТТ)
@@ -491,7 +491,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Торговый баланс",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson8.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson8.svg",
           description: `**Торговый баланс** — разница между экспортом и импортом товаров за определённый период.
 
 **Формула:**
@@ -572,7 +572,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Валютные курсы",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson9.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson9.svg",
           description: `**Валютный курс** — цена одной валюты, выраженная в единицах другой валюты.
 
 **Виды котировок:**
@@ -643,7 +643,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Валютные режимы",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson10.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson10.svg",
           description: `**Валютный режим** — способ установления валютного курса государством.
 
 **Основные типы:**
@@ -725,7 +725,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Валютный рынок",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson11.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson11.svg",
           description: `**Валютный рынок** — рынок, на котором покупаются и продаются валюты.
 
 **Участники:**
@@ -799,7 +799,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Международные валютные системы",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson12.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson12.svg",
           description: `**Международная валютная система** — совокупность правил и институтов, регулирующих валютные отношения.
 
 **Эволюция валютных систем:**
@@ -883,7 +883,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
       lessons: [
         {
           title: "Сущность глобализации",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson13.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson13.svg",
           description: `**Глобализация** — процесс интеграции стран в единую мировую систему через экономические, политические и культурные связи.
 
 **Измерения глобализации:**
@@ -955,7 +955,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Транснациональные корпорации",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson14.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson14.svg",
           description: `**Транснациональная корпорация (ТНК)** — компания, осуществляющая деятельность в нескольких странах через сеть филиалов и дочерних предприятий.
 
 **Критерии ТНК:**
@@ -1032,7 +1032,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Преимущества и недостатки глобализации",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson15.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson15.svg",
           description: `**Преимущества глобализации:**
 
 **1. Экономический рост:**
@@ -1113,7 +1113,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Глобальные проблемы",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson16.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson16.svg",
           description: `**Глобальные проблемы** — проблемы, затрагивающие всё человечество и требующие международного сотрудничества.
 
 **1. Экологический кризис:**
@@ -1206,7 +1206,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
       lessons: [
         {
           title: "Экономическая история России",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson17.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson17.svg",
           description: `**Плановая экономика СССР (1917-1991):**
 
 **Характеристики:**
@@ -1286,7 +1286,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Структура экономики России",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson18.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson18.svg",
           description: `**Сырьевая ориентация:**
 
 **Экспорт России (основные товары):**
@@ -1361,7 +1361,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Экономические реформы",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson19.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson19.svg",
           description: `**Национальные проекты (с 2018):**
 
 Основные направления:
@@ -1445,7 +1445,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Перспективы экономики России",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson20.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson20.svg",
           description: `**Основные вызовы:**
 
 **1. Демографический:**
@@ -1541,7 +1541,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
       lessons: [
         {
           title: "Принципы налогообложения",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson21.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson21.svg",
           description: `**Налог** — обязательный, безвозмездный платёж в бюджет государства.
 
 **Принципы налогообложения (по А. Смиту):**
@@ -1619,7 +1619,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Налоги в России",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson22.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson22.svg",
           description: `**Налоговая система России:**
 
 **Федеральные налоги:**
@@ -1702,7 +1702,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Налоговое администрирование",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson23.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson23.svg",
           description: `**Федеральная налоговая служба (ФНС)** — орган, осуществляющий контроль за соблюдением налогового законодательства.
 
 **Функции ФНС:**
@@ -1783,7 +1783,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Налоговая реформа",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson24.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson24.svg",
           description: `**Направления налоговой реформы:**
 
 **1. Прогрессивная шкала НДФЛ (с 2021):**
@@ -1867,7 +1867,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
       lessons: [
         {
           title: "Бюджетное устройство России",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson25.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson25.svg",
           description: `**Бюджет** — финансовый план государства на определённый период.
 
 **Бюджетная система России — трёхуровневая:**
@@ -1940,7 +1940,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Доходы и расходы бюджета",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson26.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson26.svg",
           description: `**Доходы бюджета:**
 
 **1. Налоговые доходы (85%):**
@@ -2020,7 +2020,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Межбюджетные отношения",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson27.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson27.svg",
           description: `**Межбюджетные отношения** — отношения между органами власти разных уровней по поводу распределения доходов и расходов.
 
 **Цель:** Выравнивание бюджетной обеспеченности регионов.
@@ -2094,7 +2094,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Государственный долг",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson28.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson28.svg",
           description: `**Государственный долг** — накопленная сумма дефицитов бюджета за вычетом профицитов.
 
 **Виды долга:**
@@ -2179,7 +2179,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
       lessons: [
         {
           title: "Ключевые понятия экономики",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson29.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson29.svg",
           description: `**Основные экономические понятия:**
 
 **1. Альтернативные издержки** — ценность лучшей отвергнутой альтернативы.
@@ -2262,7 +2262,7 @@ E_реал = E_ном × (P_заруб / P_внутр)
         },
         {
           title: "Решение задач",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson30.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson30.svg",
           description: `**Типы задач ЕГЭ по экономике:**
 
 **1. Задачи на спрос и предложение:**
@@ -2356,7 +2356,7 @@ S = 100 000 × (1 + 0,12)² = 100 000 × 1,2544 = 125 440 руб.
         },
         {
           title: "Анализ экономических ситуаций",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson31.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson31.svg",
           description: `**Типы аналитических заданий:**
 
 **1. Анализ графиков:**
@@ -2440,7 +2440,7 @@ S = 100 000 × (1 + 0,12)² = 100 000 × 1,2544 = 125 440 руб.
         },
         {
           title: "Эссе по экономике",
-        image: "/school-curriculum-app/images/lessons/grade11/economy/lesson32.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/economy/lesson32.svg",
           description: `**Структура эссе:**
 
 **1. Введение (10-15% текста):**

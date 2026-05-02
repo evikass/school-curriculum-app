@@ -144,7 +144,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Урок 1: Сложность алгоритмов",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson1.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson1.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -158,7 +158,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 2: Рекурсия",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson2.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson2.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -172,7 +172,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 3: Динамическое программирование",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson3.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson3.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -186,7 +186,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 4: Базы данных",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson4.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson4.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -200,7 +200,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 5: Компьютерные сети",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson5.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson5.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -214,7 +214,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 6: Веб-технологии",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson6.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson6.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -228,7 +228,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 7: Криптография",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson7.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson7.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -242,7 +242,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 8: Защита информации",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson8.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson8.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -256,7 +256,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 9: Задания на системы счисления",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson9.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson9.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -270,7 +270,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 10: Задания на алгебру логики",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson10.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson10.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -284,7 +284,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 11: Программирование в ЕГЭ",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson11.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson11.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
@@ -298,7 +298,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 12: Итоговое повторение",
-        image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson12.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/informatics/lesson12.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-sky-400",
