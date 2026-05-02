@@ -345,3 +345,28 @@ Stage Summary:
 - Music: 12 lessons → 12 tests ✓
 - PE: 12 lessons → 12 tests ✓
 - Build passes successfully
+
+---
+Task ID: 1:1-mapping-all-grades
+Agent: Super Z (main)
+Task: Ensure 1:1 lesson-to-quiz mapping across ALL grades (0-11)
+
+Work Log:
+- Analyzed all 214 subject data files across 12 grades
+- Identified subjects with missing games in grades 3, 5, 6, 8, 9, 10
+- Grade 3: Added ~94 missing quiz games across 11 subjects
+- Grade 5: Added ~121 missing quiz games across 11 subjects
+- Grade 6: Added 37 missing games (chemistry: 10, coding: 8, crafts: 10, physics: 9, ecology: 9, math: 4)
+- Grade 8: Added 9 missing games (coding: 6, russian: 3)
+- Grade 9: Added 2 missing games (informatics: 2)
+- Grade 10: Added 29 missing games (economy: 27, lab: 2, philosophy: 2)
+- Fixed existing games with fewer than 5 tasks
+- Verified all grades have at least 1:1 mapping
+- Build passes successfully
+- Version bumped to 3.734
+
+Stage Summary:
+- Total: 2354 lessons, 2556 games across all 12 grades
+- Every lesson now has at least one dedicated test (1 урок = 1 тест)
+- 47 files changed, 6805 insertions, 1655 deletions
+- Version 3.734 pushed to main
