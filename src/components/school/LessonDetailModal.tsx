@@ -8,6 +8,7 @@ import {
 } from 'lucide-react'
 import LessonContent from './LessonContent'
 import LessonAnimatedSVG from './LessonAnimatedSVG'
+import ImageLightbox from './ImageLightbox'
 import PeriodicTable from './PeriodicTable'
 
 interface LessonDetail {
@@ -34,6 +35,7 @@ interface Props {
 export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete, onStartQuiz, isTestCompleted }: Props) {
   const [currentSection, setCurrentSection] = useState(0)
   const [showPeriodicTable, setShowPeriodicTable] = useState(false)
+  const [lightboxSrc, setLightboxSrc] = useState<string | null>(null)
   
   // Определяем, нужно ли показывать кнопку таблицы Менделеева
   const isChemistryOrPhysics = lesson && (
@@ -166,12 +168,20 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                     
                     {/* Изображение урока */}
                     {lesson.image && (
-                      <div className="relative rounded-2xl overflow-hidden border-2 border-purple-400/30 mb-4 shadow-lg">
+                      <div 
+                        className="relative rounded-2xl overflow-hidden border-2 border-purple-400/30 mb-4 shadow-lg cursor-pointer"
+                        onClick={() => setLightboxSrc(lesson.image || null)}
+                      >
                         <img 
                           src={lesson.image} 
                           alt={lesson.title}
-                          className="w-full h-auto object-cover"
+                          className="w-full h-auto object-cover hover:opacity-90 transition-opacity"
                         />
+                        <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity bg-black/20 flex items-center justify-center">
+                          <svg className="w-10 h-10 text-white/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                          </svg>
+                        </div>
                       </div>
                     )}
                     <div className="bg-white/5 rounded-2xl p-5 border border-white/10">
@@ -341,6 +351,14 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
         </motion.div>
       )}
       
+      {/* Image Lightbox */}
+      <ImageLightbox 
+        src={lightboxSrc || ''} 
+        alt={lesson?.title || ''} 
+        isOpen={!!lightboxSrc} 
+        onClose={() => setLightboxSrc(null)} 
+      />
+
       {/* Periodic Table Modal */}
       <AnimatePresence>
         {showPeriodicTable && (
