@@ -420,15 +420,36 @@ export default function KidLessonViewer() {
               {/* Кнопка Тест - всегда видна */}
               <button
                 onClick={() => {
+                  const lessonTitleLower = selectedLesson.title.toLowerCase()
+                  const subjectLower = selectedSubject.title.toLowerCase()
+                  
+                  // TIER 1: Найти игру, соответствующую конкретному уроку (1 урок = 1 тест)
                   const subjectGames = games.filter(g =>
                     g.subject === selectedSubject.title ||
-                    selectedSubject.title.toLowerCase().includes(g.subject.toLowerCase()) ||
-                    g.subject.toLowerCase().includes(selectedSubject.title.toLowerCase())
+                    subjectLower.includes(g.subject.toLowerCase()) ||
+                    g.subject.toLowerCase().includes(subjectLower)
                   )
-                  if (subjectGames.length > 0) {
+                  
+                  // Сначала ищем игру по совпадению названия с названием урока
+                  const lessonMatchGame = subjectGames.find(g => {
+                    const gameTitleLower = g.title.toLowerCase()
+                    return gameTitleLower === lessonTitleLower ||
+                           gameTitleLower.includes(lessonTitleLower) ||
+                           lessonTitleLower.includes(gameTitleLower) ||
+                           // Совпадение по ключевым словам из названия урока
+                           lessonTitleLower.split(/[,;\s]+/).filter(w => w.length > 3).some(word =>
+                             gameTitleLower.includes(word)
+                           )
+                  })
+                  
+                  if (lessonMatchGame) {
+                    selectGameFromLesson(lessonMatchGame)
+                  } else if (subjectGames.length > 0) {
+                    // Fallback: случайная игра из предмета
                     const randomGame = subjectGames[Math.floor(Math.random() * subjectGames.length)]
                     selectGameFromLesson(randomGame)
                   } else {
+                    // TIER 2: Генератор тестов
                     const generatedGame = generateLessonQuiz(
                       selectedLesson.title,
                       selectedLesson.description,
@@ -437,6 +458,7 @@ export default function KidLessonViewer() {
                     if (generatedGame) {
                       selectGameFromLesson(generatedGame)
                     } else if (games.length > 0) {
+                      // TIER 3: Любая случайная игра из класса
                       const randomGame = games[Math.floor(Math.random() * games.length)]
                       selectGameFromLesson(randomGame)
                     }
