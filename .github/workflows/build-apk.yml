@@ -129,6 +129,15 @@ jobs:
             done
           fi
 
+      - name: Set Android version
+        run: |
+          PKG_VERSION=$(node -p "require('./package.json').version")
+          # versionCode: 3.735 → 3735 (integer, must increase with each release)
+          VERSION_CODE=$(echo "$PKG_VERSION" | tr -d '.')
+          echo "Setting versionName=$PKG_VERSION versionCode=$VERSION_CODE"
+          sed -i "s/versionCode [0-9]*/versionCode $VERSION_CODE/" android/app/build.gradle
+          sed -i "s/versionName \"[^\"]*\"/versionName \"$PKG_VERSION\"/" android/app/build.gradle
+
       - name: Build APK
         working-directory: android
         run: |
