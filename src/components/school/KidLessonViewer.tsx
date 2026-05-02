@@ -446,10 +446,13 @@ export default function KidLessonViewer() {
                     return gameTitleLower === lessonTitleLower ||
                            gameTitleLower.includes(lessonTitleLower) ||
                            lessonTitleLower.includes(gameTitleLower) ||
-                           // Совпадение по ключевым словам из названия урока
-                           lessonTitleLower.split(/[,;\s]+/).filter(w => w.length > 3).some(word =>
-                             gameTitleLower.includes(word)
-                           )
+                           // Совпадение по ключевым словам из названия урока (с поддержкой русской морфологии)
+                           lessonTitleLower.split(/[,;\s]+/).filter(w => w.length > 3).some(word => {
+                             // Убираем окончания прилагательных для совпадения: периодический/периодическая
+                             const stem = word.replace(/(ий|ая|ое|ые|ий|яя|ее|ие)$/, '')
+                             return gameTitleLower.includes(word) || 
+                                    (stem.length > 3 && gameTitleLower.includes(stem))
+                           })
                   })
                   
                   if (lessonMatchGame) {
