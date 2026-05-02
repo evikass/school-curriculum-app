@@ -171,7 +171,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Урок 1: Mixed Conditionals",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson1.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/english/lesson1.svg",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -185,7 +185,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 2: Inversion",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson2.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/english/lesson2.svg",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -199,7 +199,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 3: Subjunctive Mood",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson3.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/english/lesson3.svg",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -213,7 +213,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 4: Complex Structures",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson4.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/english/lesson4.svg",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -227,7 +227,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 5: Academic Vocabulary",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson5.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/english/lesson5.svg",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -241,7 +241,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 6: Essay Writing",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson6.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/english/lesson6.svg",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -255,7 +255,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 7: Debating Skills",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson7.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/english/lesson7.svg",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -269,7 +269,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 8: Business English",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson8.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/english/lesson8.svg",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -283,7 +283,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 9: Job Interview",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson9.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/english/lesson9.svg",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -297,7 +297,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 10: Presentation Skills",
-        image: "/school-curriculum-app/images/lessons/grade11/english/lesson10.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/english/lesson10.svg",
     subject: "Английский язык",
     icon: "Languages",
     color: "text-pink-400",

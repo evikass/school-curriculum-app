@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Строевые упражнения",
-        image: "/school-curriculum-app/images/lessons/grade2/pe/lesson1.svg",
+          image: "/school-curriculum-app/images/lessons/grade2/pe/lesson1.svg",
           description: `**Строевые упражнения**
 
 Строевые упражнения — это упражнения для организации занимающихся в строй.
@@ -74,7 +74,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Общеразвивающие упражнения",
-        image: "/school-curriculum-app/images/lessons/grade2/pe/lesson2.svg",
+          image: "/school-curriculum-app/images/lessons/grade2/pe/lesson2.svg",
           description: `**Общеразвивающие упражнения**
 
 Общеразвивающие упражнения (ОРУ) развивают мышцы, гибкость и координацию.
@@ -141,7 +141,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Акробатические упражнения",
-        image: "/school-curriculum-app/images/lessons/grade2/pe/lesson3.svg",
+          image: "/school-curriculum-app/images/lessons/grade2/pe/lesson3.svg",
           description: `**Акробатические упражнения**
 
 Акробатика — это упражнения на гибкость, ловкость и координацию.
@@ -217,7 +217,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Упражнения на равновесие",
-        image: "/school-curriculum-app/images/lessons/grade2/pe/lesson4.svg",
+          image: "/school-curriculum-app/images/lessons/grade2/pe/lesson4.svg",
           description: `**Упражнения на равновесие**
 
 Равновесие — это способность сохранять устойчивое положение тела.
@@ -296,7 +296,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Беговые упражнения",
-        image: "/school-curriculum-app/images/lessons/grade2/pe/lesson5.svg",
+          image: "/school-curriculum-app/images/lessons/grade2/pe/lesson5.svg",
           description: `**Беговые упражнения**
 
 Бег — это естественное движение человека. Бег развивает выносливость и скорость.
@@ -367,7 +367,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Прыжки",
-        image: "/school-curriculum-app/images/lessons/grade2/pe/lesson6.svg",
+          image: "/school-curriculum-app/images/lessons/grade2/pe/lesson6.svg",
           description: `**Прыжки**
 
 Прыжки развивают силу ног, координацию и ловкость.
@@ -432,7 +432,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Метание",
-        image: "/school-curriculum-app/images/lessons/grade2/pe/lesson7.svg",
+          image: "/school-curriculum-app/images/lessons/grade2/pe/lesson7.svg",
           description: `**Метание**
 
 Метание развивает силу, точность и координацию движений.
@@ -503,7 +503,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 8: Игры с бегом",
-        image: "/school-curriculum-app/images/lessons/grade2/pe/lesson8.svg",
+          image: "/school-curriculum-app/images/lessons/grade2/pe/lesson8.svg",
           description: `**Подвижные игры с бегом**
 
 Подвижные игры развивают быстроту, ловкость и умение играть в команде.

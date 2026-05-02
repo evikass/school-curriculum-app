@@ -17,7 +17,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Свойства тригонометрических функций",
-        image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson1.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson1.svg",
           description: `**Функция y = sin x:**
 - Область определения: x ∈ R
 - Область значений: y ∈ [-1; 1]
@@ -79,7 +79,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Обратные тригонометрические функции",
-        image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson2.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson2.svg",
           description: `**Арксинус:**
 arcsin x — это число α из [-π/2; π/2], такое что sin α = x.
 
@@ -159,7 +159,7 @@ x = π/3 + πn`,
       lessons: [
         {
           title: "Первообразная и неопределённый интеграл",
-        image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson3.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson3.svg",
           description: `**Первообразная:**
 Функция F(x) называется первообразной для f(x), если F'(x) = f(x).
 
@@ -227,7 +227,7 @@ x = π/3 + πn`,
         },
         {
           title: "Определённый интеграл",
-        image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson4.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson4.svg",
           description: `**Формула Ньютона-Лейбница:**
 ∫[a;b] f(x)dx = F(b) - F(a)
 
@@ -302,7 +302,7 @@ S = ∫[1;2] x²dx = x³/3 |[1;2] = 8/3 - 1/3 = 7/3`,
       lessons: [
         {
           title: "Иррациональные уравнения",
-        image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson5.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson5.svg",
           description: `**Иррациональное уравнение** — уравнение, содержащее переменную под знаком корня.
 
 **Методы решения:**
@@ -371,7 +371,7 @@ x = 2 (удовлетворяет ОДЗ)
         },
         {
           title: "Системы уравнений",
-        image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson6.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson6.svg",
           description: `**Методы решения систем:**
 
 **1. Метод подстановки:**
@@ -456,7 +456,7 @@ b = 0, a = 1
         },
         {
           title: "Неравенства с модулем",
-        image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson7.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson7.svg",
           description: `**Модуль числа:**
 |x| = x, если x ≥ 0
 |x| = -x, если x < 0
@@ -533,7 +533,7 @@ x ≤ -a или x ≥ a
       lessons: [
         {
           title: "Комплексные числа и операции",
-        image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson8.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/algebra/lesson8.svg",
           description: `**Комплексное число:**
 z = a + bi
 

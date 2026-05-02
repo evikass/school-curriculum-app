@@ -144,7 +144,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Урок 1: Безопасность в быту",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson1.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/safety/lesson1.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -158,7 +158,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 2: Безопасность на дорогах",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson2.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/safety/lesson2.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -172,7 +172,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 3: Безопасность на воде",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson3.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/safety/lesson3.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -186,7 +186,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 4: Криминальная безопасность",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson4.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/safety/lesson4.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -200,7 +200,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 5: Природные чрезвычайные ситуации",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson5.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/safety/lesson5.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -214,7 +214,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 6: Техногенные чрезвычайные ситуации",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson6.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/safety/lesson6.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -228,7 +228,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 7: Терроризм и его последствия",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson7.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/safety/lesson7.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -242,7 +242,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 8: Первая помощь",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson8.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/safety/lesson8.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -256,7 +256,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 9: Сигналы гражданской обороны",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson9.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/safety/lesson9.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -270,7 +270,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 10: Защитные сооружения",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson10.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/safety/lesson10.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -284,7 +284,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 11: Здоровый образ жизни",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson11.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/safety/lesson11.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",
@@ -298,7 +298,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 12: Вредные привычки",
-        image: "/school-curriculum-app/images/lessons/grade11/safety/lesson12.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/safety/lesson12.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-slate-400",

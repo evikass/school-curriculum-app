@@ -20,7 +20,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Позиционные системы счисления",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson1.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson1.svg",
           description: `**Позиционная система счисления** — система, где значение цифры зависит от её позиции в числе.
 
 **Основные понятия:**
@@ -88,7 +88,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Арифметика в разных системах",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson2.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson2.svg",
           description: `**Сложение в двоичной системе:**
 
 **Правила:**
@@ -184,7 +184,7 @@ F + A = 15 + 10 = 25 = 16 + 9 (9 пишем, 1 переносим)
         },
         {
           title: "Представление чисел в компьютере",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson3.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson3.svg",
           description: `**Целые числа без знака:**
 Все биты используются для представления числа.
 8 бит: от 0 до 255 (2⁸ - 1)
@@ -262,7 +262,7 @@ F + A = 15 + 10 = 25 = 16 + 9 (9 пишем, 1 переносим)
         },
         {
           title: "Кодирование текста и изображений",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson4.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson4.svg",
           description: `**Кодирование текста:**
 
 **ASCII (American Standard Code for Information Interchange):**
@@ -347,7 +347,7 @@ V = 1920 × 1080 × 24 бит
       lessons: [
         {
           title: "Логические операции",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson5.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson5.svg",
           description: `**Основные логические операции:**
 
 **1. Инверсия (НЕ, NOT, ¬)**
@@ -440,7 +440,7 @@ V = 1920 × 1080 × 24 бит
         },
         {
           title: "Законы алгебры логики",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson6.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson6.svg",
           description: `**Основные законы:**
 
 **1. Переместительный (коммутативный):**
@@ -511,7 +511,7 @@ A ∧ ¬A = 0
         },
         {
           title: "Логические схемы",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson7.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson7.svg",
           description: `**Логические вентили** — базовые элементы логических схем.
 
 **Основные вентили:**
@@ -589,7 +589,7 @@ C ───────┘
         },
         {
           title: "Решение логических задач",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson8.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson8.svg",
           description: `**Методы решения логических задач:**
 
 **1. Метод рассуждений:**
@@ -670,7 +670,7 @@ IP: 192.168.1.10
       lessons: [
         {
           title: "Анализ алгоритмов",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson9.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson9.svg",
           description: `**Сложность алгоритма** — оценка ресурсов (времени, памяти) при росте входных данных.
 
 **Временная сложность** — количество операций.
@@ -739,7 +739,7 @@ for i in range(n):
         },
         {
           title: "Рекурсивные алгоритмы",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson10.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson10.svg",
           description: `**Рекурсия** — вызов функцией самой себя.
 
 **Структура рекурсивной функции:**
@@ -825,7 +825,7 @@ def binary_search(arr, target, left=0, right=None):
         },
         {
           title: "Динамическое программирование",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson11.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson11.svg",
           description: `**Динамическое программирование (ДП)** — метод решения задач путём разбиения на подзадачи.
 
 **Условия применимости:**
@@ -899,7 +899,7 @@ def knapsack(weights, values, capacity):
         },
         {
           title: "Графы и деревья",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson12.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson12.svg",
           description: `**Граф** — множество вершин и рёбер.
 
 **Способы представления:**
@@ -992,7 +992,7 @@ def dijkstra(graph, start):
       lessons: [
         {
           title: "Моделирование",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson13.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson13.svg",
           description: `**Модель** — упрощённое представление реального объекта или процесса.
 
 **Цели моделирования:**
@@ -1056,7 +1056,7 @@ def dijkstra(graph, start):
         },
         {
           title: "Графические модели",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson14.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson14.svg",
           description: `**Граф** — множество вершин (узлов) и рёбер (связей).
 
 **Виды графов:**
@@ -1123,7 +1123,7 @@ def dijkstra(graph, start):
         },
         {
           title: "Табличные модели",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson15.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson15.svg",
           description: `**Типы таблиц:**
 
 **1. Таблица «объект-свойство»:**
@@ -1202,7 +1202,7 @@ def dijkstra(graph, start):
         },
         {
           title: "Математические модели",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson16.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson16.svg",
           description: `**Математическая модель** — описание объекта на языке математики.
 
 **Виды математических моделей:**
@@ -1287,7 +1287,7 @@ def population_growth(P0, r, K, years):
       lessons: [
         {
           title: "Модели сетей",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson17.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson17.svg",
           description: `**Модель OSI (Open Systems Interconnection):**
 
 7 уровней (снизу вверх):
@@ -1356,7 +1356,7 @@ def population_growth(P0, r, K, years):
         },
         {
           title: "IP-адресация",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson18.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson18.svg",
           description: `**IPv4-адрес:**
 32 бита = 4 октета (по 8 бит)
 Запись: 192.168.1.1
@@ -1426,7 +1426,7 @@ def population_growth(P0, r, K, years):
         },
         {
           title: "Протоколы Интернета",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson19.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson19.svg",
           description: `**TCP (Transmission Control Protocol):**
 - Надёжная доставка
 - Установление соединения (handshake)
@@ -1505,7 +1505,7 @@ def population_growth(P0, r, K, years):
         },
         {
           title: "Сетевое оборудование",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson20.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson20.svg",
           description: `**Основные устройства:**
 
 **1. Сетевая карта (NIC):**
@@ -1589,7 +1589,7 @@ def population_growth(P0, r, K, years):
       lessons: [
         {
           title: "Угрозы информационной безопасности",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson21.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson21.svg",
           description: `**Виды угроз:**
 
 **1. Вредоносное ПО:**
@@ -1654,7 +1654,7 @@ def population_growth(P0, r, K, years):
         },
         {
           title: "Методы защиты",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson22.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson22.svg",
           description: `**Многоуровневая защита:**
 
 **1. Антивирусное ПО:**
@@ -1719,7 +1719,7 @@ def population_growth(P0, r, K, years):
         },
         {
           title: "Криптография",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson23.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson23.svg",
           description: `**Симметричное шифрование:**
 Один ключ для шифрования и расшифрования.
 
@@ -1789,7 +1789,7 @@ A→D, B→E, ... при N=3
         },
         {
           title: "Правовые аспекты",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson24.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson24.svg",
           description: `**Федеральный закон «О персональных данных» (152-ФЗ):**
 
 **Основные положения:**
@@ -1862,7 +1862,7 @@ A→D, B→E, ... при N=3
       lessons: [
         {
           title: "Измерение информации",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson25.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson25.svg",
           description: `**Содержательный подход:**
 Информация — снятая неопределённость.
 
@@ -1931,7 +1931,7 @@ I = -(0.7×log₂(0.7) + 0.3×log₂(0.3))
         },
         {
           title: "Кодирование информации",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson26.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson26.svg",
           description: `**Равномерное кодирование:**
 Все символы — одинаковое количество бит.
 
@@ -2006,7 +2006,7 @@ AAAAAABBC → 6A2BC
         },
         {
           title: "Передача информации",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson27.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson27.svg",
           description: `**Модель канала связи:**
 
 \`\`\`
@@ -2075,7 +2075,7 @@ t = 800 Мбит / 10 Мбит/с = 80 с = 1 мин 20 с
         },
         {
           title: "Хранение и обработка информации",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson28.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson28.svg",
           description: `**Иерархия памяти:**
 
 | Уровень | Объём | Скорость | Цена |
@@ -2140,7 +2140,7 @@ t = 800 Мбит / 10 Мбит/с = 80 с = 1 мин 20 с
       lessons: [
         {
           title: "Структура ЕГЭ по информатике",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson29.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson29.svg",
           description: `**Общая информация:**
 - Время: 3 часа 55 минут
 - Компьютерная форма (КЕГЭ)
@@ -2207,7 +2207,7 @@ t = 800 Мбит / 10 Мбит/с = 80 с = 1 мин 20 с
         },
         {
           title: "Типовые задания",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson30.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson30.svg",
           description: `**Задание 1: Системы счисления**
 
 **Пример:** Сколько значащих нулей в двоичной записи числа 2⁴⁰ + 2³⁵ + 2²⁰?
@@ -2284,7 +2284,7 @@ print(max_len)
         },
         {
           title: "Программирование в ЕГЭ",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson31.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson31.svg",
           description: `**Задание 24: Обработка строк**
 
 **Типичные задачи:**
@@ -2375,7 +2375,7 @@ print(count)
         },
         {
           title: "Стратегия подготовки",
-        image: "/school-curriculum-app/images/lessons/grade11/coding/lesson32.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/coding/lesson32.svg",
           description: `**Этапы подготовки:**
 
 **1. Диагностика (1-2 дня):**

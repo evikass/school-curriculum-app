@@ -144,7 +144,7 @@ export const lessons: SubjectData = {
 export const games: GameLesson[] = [
   {
     title: "Урок 1: Человек как биосоциальное существо",
-        image: "/school-curriculum-app/images/lessons/grade11/social/lesson1.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/social/lesson1.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -158,7 +158,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 2: Познание",
-        image: "/school-curriculum-app/images/lessons/grade11/social/lesson2.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/social/lesson2.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -172,7 +172,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 3: Общество",
-        image: "/school-curriculum-app/images/lessons/grade11/social/lesson3.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/social/lesson3.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -186,7 +186,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 4: Экономика и её роль",
-        image: "/school-curriculum-app/images/lessons/grade11/social/lesson4.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/social/lesson4.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -200,7 +200,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 5: Государство и экономика",
-        image: "/school-curriculum-app/images/lessons/grade11/social/lesson5.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/social/lesson5.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -214,7 +214,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 6: Социальная структура",
-        image: "/school-curriculum-app/images/lessons/grade11/social/lesson6.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/social/lesson6.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -228,7 +228,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 7: Социальные институты",
-        image: "/school-curriculum-app/images/lessons/grade11/social/lesson7.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/social/lesson7.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -242,7 +242,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 8: Политика и власть",
-        image: "/school-curriculum-app/images/lessons/grade11/social/lesson8.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/social/lesson8.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -256,7 +256,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 9: Право",
-        image: "/school-curriculum-app/images/lessons/grade11/social/lesson9.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/social/lesson9.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -270,7 +270,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 10: Права человека",
-        image: "/school-curriculum-app/images/lessons/grade11/social/lesson10.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/social/lesson10.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -284,7 +284,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 11: Правонарушение и ответственность",
-        image: "/school-curriculum-app/images/lessons/grade11/social/lesson11.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/social/lesson11.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -298,7 +298,7 @@ export const games: GameLesson[] = [
   },
   {
     title: "Урок 12: Избирательное право",
-        image: "/school-curriculum-app/images/lessons/grade11/social/lesson12.svg",
+          image: "/school-curriculum-app/images/lessons/grade11/social/lesson12.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
