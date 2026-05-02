@@ -1624,7 +1624,7 @@ function PeriodicTableGame({ onClose }: { onClose: () => void }) {
     <div className="p-3 sm:p-6 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl sm:rounded-3xl border border-white/10">
       {/* Close button - centered at top */}
       <div className="flex justify-center mb-4">
-        <button onClick={onClose} className="px-5 py-2 bg-red-500/80 hover:bg-red-500 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-bold shadow-lg backdrop-blur-sm">
+        <button onClick={onClose} className="px-4 py-1.5 bg-white/10 hover:bg-white/20 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-medium">
           <X className="w-4 h-4" />
           <span>Закрыть</span>
         </button>
@@ -1811,7 +1811,7 @@ function PeriodicTableMemoryGame({ onClose }: { onClose: () => void }) {
     <div className="p-3 sm:p-6 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl sm:rounded-3xl border border-white/10">
       {/* Close button - centered at top */}
       <div className="flex justify-center mb-4">
-        <button onClick={onClose} className="px-5 py-2 bg-red-500/80 hover:bg-red-500 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-bold shadow-lg backdrop-blur-sm">
+        <button onClick={onClose} className="px-4 py-1.5 bg-white/10 hover:bg-white/20 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-medium">
           <X className="w-4 h-4" />
           <span>Закрыть</span>
         </button>
@@ -2090,7 +2090,7 @@ function PeriodicTableBuildGame({ onClose }: { onClose: () => void }) {
     <div className="p-3 sm:p-6 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl sm:rounded-3xl border border-white/10">
       {/* Close button - centered at top */}
       <div className="flex justify-center mb-4">
-        <button onClick={onClose} className="px-5 py-2 bg-red-500/80 hover:bg-red-500 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-bold shadow-lg backdrop-blur-sm">
+        <button onClick={onClose} className="px-4 py-1.5 bg-white/10 hover:bg-white/20 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-medium">
           <X className="w-4 h-4" />
           <span>Закрыть</span>
         </button>
@@ -2370,7 +2370,7 @@ function PeriodicTableDetectiveGame({ onClose }: { onClose: () => void }) {
     <div className="p-3 sm:p-4 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl border border-white/10">
       {/* Close button */}
       <div className="flex justify-center mb-4">
-        <button onClick={onClose} className="px-5 py-2 bg-red-500/80 hover:bg-red-500 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-bold shadow-lg backdrop-blur-sm">
+        <button onClick={onClose} className="px-4 py-1.5 bg-white/10 hover:bg-white/20 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-medium">
           <X className="w-4 h-4" />
           <span>Закрыть</span>
         </button>
@@ -2502,7 +2502,7 @@ export default function PeriodicTable({ onClose }: Props) {
         <div className="flex justify-center mb-4" style={{ paddingTop: 'max(7rem, env(safe-area-inset-top, 0px) + 7rem)' }}>
           <button
             onClick={onClose}
-            className="px-6 py-2.5 bg-red-500/80 hover:bg-red-500 rounded-full transition-colors flex items-center gap-2 text-white font-bold shadow-lg backdrop-blur-sm"
+            className="px-6 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors flex items-center gap-2 text-white font-medium"
           >
             <X className="w-5 h-5" />
             <span>Закрыть</span>
@@ -2617,7 +2617,7 @@ export default function PeriodicTable({ onClose }: Props) {
                 <div className="flex justify-center -mt-1 mb-2">
                   <button
                     onClick={() => setSelectedElement(null)}
-                    className="px-5 py-2 bg-red-500/80 hover:bg-red-500 backdrop-blur-sm rounded-full transition-colors flex items-center gap-2 text-white text-sm font-bold shadow-lg"
+                    className="px-4 py-1.5 bg-black/30 hover:bg-black/50 backdrop-blur-sm border border-white/10 rounded-full transition-colors flex items-center gap-2 text-white text-sm font-medium"
                   >
                     <X className="w-4 h-4" />
                     <span>Закрыть</span>
