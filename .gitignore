@@ -50,3 +50,11 @@ server.log
 # Skills directory
 /skills/android/
 *.apk
+android/.gradle-home/
+android/.gradle/
+android/app/build/
+android/local.properties
+android/.gradle-home/
+android/.gradle/
+android/app/build/
+android/local.properties
