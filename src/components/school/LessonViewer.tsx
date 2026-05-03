@@ -218,7 +218,7 @@ export default function LessonViewer() {
                              hover:bg-white/5 transition-colors"
                 >
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-500 
+                    <div className="w-12 h-12 min-w-12 min-h-12 rounded-2xl shrink-0 bg-gradient-to-br from-cyan-500 to-blue-500 
                                     flex items-center justify-center text-white font-black text-xl">
                       {topicIndex + 1}
                     </div>
@@ -242,7 +242,7 @@ export default function LessonViewer() {
                       topicBlock.subtopics.map((subtopic: TopicSection, subtopicIndex: number) => (
                         <div key={subtopicIndex} className="mt-4">
                           <h4 className="text-lg font-bold text-cyan-300 mb-4 flex items-center gap-3">
-                            <span className="w-8 h-8 rounded-xl bg-cyan-500/20 flex items-center justify-center text-cyan-300">
+                            <span className="w-8 h-8 min-w-8 min-h-8 rounded-xl shrink-0 bg-cyan-500/20 flex items-center justify-center text-cyan-300">
                               {subtopicIndex + 1}
                             </span>
                             {subtopic.title}

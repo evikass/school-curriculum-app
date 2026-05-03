@@ -36,7 +36,7 @@ export default function SubjectProgress({
         className="w-full p-4 flex items-center justify-between hover:bg-white/5 transition-colors"
       >
         <div className="flex items-center gap-3">
-          <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${subjectColor} flex items-center justify-center`}>
+          <div className={`w-10 h-10 min-w-10 min-h-10 rounded-xl shrink-0 bg-gradient-to-br ${subjectColor} flex items-center justify-center`}>
             <span className="text-xl">{subjectIcon}</span>
           </div>
           <div className="text-left">

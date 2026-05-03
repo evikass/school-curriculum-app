@@ -668,7 +668,7 @@ export default function KidLessonViewer() {
                            hover:bg-white/5 transition-colors"
               >
                 <div className="flex items-center gap-4">
-                  <div className="w-14 h-14 rounded-2xl 
+                  <div className="w-14 h-14 min-w-14 min-h-14 rounded-2xl shrink-0
                                   bg-gradient-to-br from-yellow-400 to-orange-500 
                                   flex items-center justify-center text-white font-black text-2xl shadow-lg">
                     {topicIndex + 1}
@@ -707,7 +707,7 @@ export default function KidLessonViewer() {
                                    }`}
                       >
                         <div className="flex items-center gap-4">
-                          <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-2xl
+                          <div className={`w-12 h-12 min-w-12 min-h-12 rounded-xl shrink-0 flex items-center justify-center text-2xl
                                           ${isCompleted ? 'bg-green-500' : 'bg-gradient-to-br from-purple-400 to-pink-400'}`}>
                             {isCompleted ? '✅' : '📖'}
                           </div>
