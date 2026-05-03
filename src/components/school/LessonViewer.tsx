@@ -336,7 +336,7 @@ export default function LessonViewer() {
               </div>
               <div className="flex items-center gap-2 text-yellow-400">
                 <Star className="w-5 h-5 fill-yellow-400" />
-                <span className="font-medium">{game.reward.stars} звёзд</span>
+                <span className="font-medium">5 звёзд</span>
                 <Play className="w-5 h-5 ml-auto group-hover:scale-110 transition-transform" />
               </div>
             </button>
