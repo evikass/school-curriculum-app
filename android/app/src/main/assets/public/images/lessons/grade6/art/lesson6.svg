@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus geometric corner accents -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles top -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Колорит</text>
+  <text x="250" y="66" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ИЗО - Урок 6</text>
+  <line x1="30" y1="76" x2="470" y2="76" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <!-- Bauhaus stripe accent -->
+  <rect x="30" y="73" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="73" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Color mood panels -->
+  <!-- Warm palette -->
+  <rect x="35" y="92" width="105" height="100" rx="6" fill="white" stroke="#E53935" stroke-width="1.5" opacity="0.9"/>
+  <rect x="48" y="102" width="80" height="50" rx="3" fill="#FFF3E0"/>
+  <!-- Warm landscape -->
+  <circle cx="105" cy="112" r="10" fill="#FDD835" opacity="0.6"/>
+  <rect x="48" y="132" width="80" height="20" rx="0" fill="#FF8A65" opacity="0.5"/>
+  <path d="M55,132 L70,115 L85,132" fill="#BF360C" opacity="0.3"/>
+  <path d="M75,132 L92,110 L109,132" fill="#E65100" opacity="0.25"/>
+  <text x="88" y="165" font-family="Arial,sans-serif" font-size="10" fill="#E53935" font-weight="bold" text-anchor="middle">ТЁПЛЫЙ</text>
+  <text x="88" y="178" font-family="Arial,sans-serif" font-size="6" fill="#777" text-anchor="middle">радость, энергия</text>
+  <text x="88" y="188" font-family="Arial,sans-serif" font-size="6" fill="#777" text-anchor="middle">огонь, солнце</text>
+
+  <!-- Cold palette -->
+  <rect x="150" y="92" width="105" height="100" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <rect x="163" y="102" width="80" height="50" rx="3" fill="#E3F2FD"/>
+  <!-- Cold landscape -->
+  <circle cx="200" cy="112" r="8" fill="#90CAF9" opacity="0.5"/>
+  <path d="M163,135 Q180,125 200,132 Q215,138 230,130" fill="none" stroke="#1565C0" stroke-width="1" opacity="0.4"/>
+  <path d="M163,142 Q190,138 215,142 Q225,145 230,140" fill="none" stroke="#1565C0" stroke-width="0.5" opacity="0.3"/>
+  <rect x="163" y="130" width="80" height="22" rx="0" fill="#BBDEFB" opacity="0.4"/>
+  <text x="203" y="165" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold" text-anchor="middle">ХОЛОДНЫЙ</text>
+  <text x="203" y="178" font-family="Arial,sans-serif" font-size="6" fill="#777" text-anchor="middle">покой, печаль</text>
+  <text x="203" y="188" font-family="Arial,sans-serif" font-size="6" fill="#777" text-anchor="middle">лёд, вода</text>
+
+  <!-- Contrast palette -->
+  <rect x="265" y="92" width="105" height="100" rx="6" fill="white" stroke="#F57F17" stroke-width="1.5" opacity="0.9"/>
+  <rect x="278" y="102" width="80" height="50" rx="3">
+  </rect>
+  <!-- Half warm half cold -->
+  <rect x="278" y="102" width="40" height="50" rx="3 0 0 3" fill="#FFCCBC"/>
+  <rect x="318" y="102" width="40" height="50" rx="0 3 3 0" fill="#BBDEFB"/>
+  <circle cx="300" cy="120" r="8" fill="#E53935" opacity="0.5"/>
+  <circle cx="340" cy="130" r="8" fill="#1E88E5" opacity="0.5"/>
+  <line x1="318" y1="105" x2="318" y2="147" stroke="#FFF" stroke-width="2"/>
+  <text x="318" y="165" font-family="Arial,sans-serif" font-size="10" fill="#F57F17" font-weight="bold" text-anchor="middle">КОНТРАСТНЫЙ</text>
+  <text x="318" y="178" font-family="Arial,sans-serif" font-size="6" fill="#777" text-anchor="middle">напряжение</text>
+  <text x="318" y="188" font-family="Arial,sans-serif" font-size="6" fill="#777" text-anchor="middle">динамика</text>
+
+  <!-- Nuanced palette -->
+  <rect x="380" y="92" width="85" height="100" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <rect x="393" y="102" width="60" height="50" rx="3" fill="#E8F5E9"/>
+  <!-- Subtle color transitions -->
+  <rect x="393" y="102" width="60" height="10" rx="3 3 0 0" fill="#C8E6C9"/>
+  <rect x="393" y="112" width="60" height="10" fill="#A5D6A7"/>
+  <rect x="393" y="122" width="60" height="10" fill="#81C784"/>
+  <rect x="393" y="132" width="60" height="10" fill="#A5D6A7"/>
+  <rect x="393" y="142" width="60" height="10" rx="0 0 3 3" fill="#C8E6C9"/>
+  <text x="423" y="165" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" font-weight="bold" text-anchor="middle">НЮАНСНЫЙ</text>
+  <text x="423" y="178" font-family="Arial,sans-serif" font-size="6" fill="#777" text-anchor="middle">плавные</text>
+  <text x="423" y="188" font-family="Arial,sans-serif" font-size="6" fill="#777" text-anchor="middle">переходы</text>
+
+  <!-- Famous paintings references -->
+  <rect x="35" y="200" width="140" height="92" rx="6" fill="white" stroke="#C62828" stroke-width="1.5" opacity="0.9"/>
+  <!-- "Golden Autumn" mini -->
+  <rect x="48" y="208" width="50" height="35" rx="2" fill="#FFF8E1"/>
+  <circle cx="90" cy="218" r="6" fill="#FFF176" opacity="0.5"/>
+  <path d="M48,228 Q60,220 75,225 Q85,228 98,222" fill="#FFB74D" opacity="0.5"/>
+  <path d="M55,243 L65,228 L75,243" fill="#E65100" opacity="0.3"/>
+  <path d="M70,243 L82,225 L94,243" fill="#BF360C" opacity="0.25"/>
+  <text x="115" y="222" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">Левитан</text>
+  <text x="115" y="233" font-family="Arial,sans-serif" font-size="6" fill="#555">Золотая осень</text>
+  <text x="115" y="244" font-family="Arial,sans-serif" font-size="6" fill="#777">тёплый колорит</text>
+  <text x="115" y="255" font-family="Arial,sans-serif" font-size="6" fill="#777">оранжево-золотой</text>
+
+  <rect x="185" y="200" width="140" height="92" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <!-- "Above Eternal Peace" mini -->
+  <rect x="198" y="208" width="50" height="35" rx="2" fill="#ECEFF1"/>
+  <circle cx="238" cy="218" r="5" fill="#B0BEC5" opacity="0.5"/>
+  <path d="M198,230 L220,222 L240,230" fill="#546E7A" opacity="0.3"/>
+  <rect x="205" y="232" width="35" height="11" rx="0" fill="#37474F" opacity="0.2"/>
+  <text x="265" y="222" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" font-weight="bold">Левитан</text>
+  <text x="265" y="233" font-family="Arial,sans-serif" font-size="6" fill="#555">Над вечным покоем</text>
+  <text x="265" y="244" font-family="Arial,sans-serif" font-size="6" fill="#777">холодный колорит</text>
+  <text x="265" y="255" font-family="Arial,sans-serif" font-size="6" fill="#777">сине-серый</text>
+
+  <rect x="335" y="200" width="130" height="92" rx="6" fill="white" stroke="#F57F17" stroke-width="1.5" opacity="0.9"/>
+  <text x="400" y="220" font-family="Arial,sans-serif" font-size="10" fill="#F57F17" font-weight="bold" text-anchor="middle">СВОЙСТВА</text>
+  <text x="400" y="235" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Настроение</text>
+  <text x="400" y="248" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Эмоции</text>
+  <text x="400" y="261" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Время суток</text>
+  <text x="400" y="274" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Характер персонажа</text>
+  <text x="400" y="287" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Пространство</text>
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Колорит</text>
+</svg>

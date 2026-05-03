@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <text x="250" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Баскетбол</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#D4A843">Осваиваем основы игры в баскетбол</text>
+  <line x1="50" y1="82" x2="450" y2="82" stroke="#D4A843" stroke-width="0.5"/>
+  
+  <!-- backboard -->
+  <rect x="340" y="110" width="8" height="70" fill="#1a1a1a" opacity="0.6"/>
+  <rect x="310" y="105" width="45" height="35" stroke="#1a1a1a" stroke-width="2" fill="none"/>
+  <!-- rim -->
+  <ellipse cx="305" cy="140" rx="22" ry="5" stroke="#C41E3A" stroke-width="2.5" fill="none"/>
+  <!-- net -->
+  <path d="M285,142 L290,175" stroke="#FFFFFF" stroke-width="1" opacity="0.7"/>
+  <path d="M295,145 L298,175" stroke="#FFFFFF" stroke-width="1" opacity="0.7"/>
+  <path d="M305,146 L305,178" stroke="#FFFFFF" stroke-width="1" opacity="0.7"/>
+  <path d="M315,145 L312,175" stroke="#FFFFFF" stroke-width="1" opacity="0.7"/>
+  <path d="M323,142 L320,175" stroke="#FFFFFF" stroke-width="1" opacity="0.7"/>
+  <!-- player shooting -->
+  <circle cx="220" cy="150" r="11" fill="#C41E3A"/>
+  <line x1="220" y1="161" x2="220" y2="210" stroke="#C41E3A" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="220" y1="172" x2="200" y2="162" stroke="#C41E3A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="220" y1="170" x2="250" y2="120" stroke="#C41E3A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="220" y1="210" x2="205" y2="240" stroke="#C41E3A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="220" y1="210" x2="235" y2="238" stroke="#C41E3A" stroke-width="3" stroke-linecap="round"/>
+  <!-- basketball -->
+  <circle cx="270" cy="115" r="10" fill="#D4A843"/>
+  <path d="M264,110 L270,105 L276,110" stroke="#1a1a1a" stroke-width="0.8" fill="none"/>
+  <path d="M265,118 L270,123 L275,118" stroke="#1a1a1a" stroke-width="0.8" fill="none"/>
+  <!-- court line -->
+  <line x1="80" y1="250" x2="420" y2="250" stroke="#D4A843" stroke-width="1.5"/>
+  <!-- three point arc -->
+  <path d="M130,250 Q250,190 370,250" stroke="#C41E3A" stroke-width="1" fill="none" opacity="0.4"/>
+  <rect y="310" width="500" height="40" fill="#1a1a1a"/>
+  <rect y="308" width="500" height="2" fill="#C41E3A"/>
+  <text x="250" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#D4A843">Физическая культура</text>
+</svg>

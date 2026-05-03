@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#E0F7FA;stop-opacity:0.4"/>
+    </linearGradient>
+    <linearGradient id="groundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8BC34A;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#4CAF50;stop-opacity:0.5"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="500" height="350" fill="url(#skyGradient)"/>
+  <rect width="500" height="350" fill="#FFFDE7" opacity="0.3"/>
+  
+  <!-- Sun -->
+  <circle cx="420" cy="60" r="30" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="28;32;28" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="420" cy="60" r="20" fill="#FFEB3B" opacity="0.5"/>
+  
+  <!-- Clouds -->
+  <g opacity="0.6">
+    <ellipse cx="80" cy="45" rx="25" ry="12" fill="#FFF"/>
+    <ellipse cx="60" cy="50" rx="18" ry="10" fill="#FFF"/>
+    <ellipse cx="100" cy="50" rx="15" ry="8" fill="#FFF"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;15,0;0,0" dur="10s" repeatCount="indefinite"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#5D4037" text-anchor="middle">🌳 Корень слова</text>
+  <rect x="100" y="42" width="300" height="2" rx="1" fill="#8D6E63" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="50" fill="url(#groundGradient)"/>
+  
+  <!-- Trees representing word families -->
+  <!-- Main tree (корень "лес") -->
+  <g transform="translate(250, 180)">
+    <rect x="-15" y="60" width="30" height="80" fill="#8D6E63"/>
+    <polygon points="-60,60 0,-40 60,60" fill="#4CAF50"/>
+    <polygon points="-45,30 0,-20 45,30" fill="#66BB6A"/>
+    <polygon points="-30,0 0,-30 30,0" fill="#81C784"/>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFF" text-anchor="middle">ЛЕС</text>
+    <animateTransform attributeName="transform" type="translate" values="250,180;250,175;250,180" dur="4s" repeatCount="indefinite"/>
+  </g>
+  
+  <!-- Side trees (related words) -->
+  <g transform="translate(100, 220)">
+    <rect x="-10" y="40" width="20" height="50" fill="#8D6E63"/>
+    <polygon points="-35,40 0,-20 35,40" fill="#66BB6A"/>
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="11" fill="#FFF" text-anchor="middle">лесник</text>
+  </g>
+  
+  <g transform="translate(400, 220)">
+    <rect x="-10" y="40" width="20" height="50" fill="#8D6E63"/>
+    <polygon points="-35,40 0,-20 35,40" fill="#66BB6A"/>
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="11" fill="#FFF" text-anchor="middle">лесной</text>
+  </g>
+  
+  <!-- Roots underground -->
+  <g opacity="0.7">
+    <path d="M250,260 Q230,290 200,310" stroke="#8D6E63" stroke-width="8" fill="none"/>
+    <path d="M250,260 Q270,290 300,310" stroke="#8D6E63" stroke-width="8" fill="none"/>
+    <path d="M250,260 Q250,290 250,320" stroke="#8D6E63" stroke-width="8" fill="none"/>
+  </g>
+  
+  <!-- Underground root highlight -->
+  <g>
+    <ellipse cx="250" cy="280" rx="60" ry="15" fill="#A1887F" opacity="0.6" stroke="#5D4037" stroke-width="2" stroke-dasharray="5,3">
+      <animate attributeName="stroke-dashoffset" values="0;8" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="250" y="285" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4E342E" text-anchor="middle">КОРЕНЬ</text>
+  </g>
+  
+  <!-- Flowers -->
+  <g>
+    <circle cx="50" cy="300" r="6" fill="#E91E63"/>
+    <circle cx="45" cy="295" r="5" fill="#F48FB1"/>
+    <circle cx="55" cy="295" r="5" fill="#F48FB1"/>
+    <circle cx="450" cy="305" r="6" fill="#E91E63"/>
+    <circle cx="445" cy="300" r="5" fill="#F48FB1"/>
+    <circle cx="455" cy="300" r="5" fill="#F48FB1"/>
+  </g>
+  
+  <!-- Word connection lines -->
+  <g stroke="#4CAF50" stroke-width="2" stroke-dasharray="4,2" opacity="0.6">
+    <line x1="150" y1="250" x2="200" y2="260"/>
+    <line x1="350" y1="250" x2="300" y2="260"/>
+  </g>
+  
+  <!-- Sparkles -->
+  <circle cx="230" cy="150" r="3" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="270" cy="160" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="250" cy="130" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+</svg>

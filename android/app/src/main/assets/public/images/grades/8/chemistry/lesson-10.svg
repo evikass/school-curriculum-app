@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EDE9FE;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F5F3FF;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5B21B6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#EDE9FE;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#5B21B6" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowSm" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#5B21B6" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0"/>
+  <!-- Decorative circles -->
+  <circle cx="750" cy="50" r="80" fill="#8B5CF6" opacity="0.05"/>
+  <circle cx="50" cy="550" r="60" fill="#8B5CF6" opacity="0.05"/>
+  <circle cx="400" cy="600" r="100" fill="#A78BFA" opacity="0.04"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="60" fill="url(#headerGrad)" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">Кислоты, основания, соли</text>
+  <!-- Small decorative line under header -->
+  <rect x="300" y="54" width="200" height="3" fill="#C4B5FD" rx="1.5" opacity="0.7"/>
+  <rect x="20" y="75" width="245" height="280" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <rect x="30" y="85" width="225" height="28" fill="#FEE2E2" stroke="#EF4444" stroke-width="1" rx="8"/>
+  <text x="55" y="103" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#EF4444">КИСЛОТЫ</text>
+  <text x="35" y="128" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">Содержат H⁺ и кислотный остаток</text>
+  <text x="142" y="150" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#EF4444">Общ. ф-ла: HₙA</text>
+  <rect x="35" y="162" width="215" height="120" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1" rx="8"/>
+  <text x="45" y="180" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#EF4444">HCl — соляная</text>
+  <text x="45" y="198" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#EF4444">H₂SO₄ — серная</text>
+  <text x="45" y="216" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#EF4444">HNO₃ — азотная</text>
+  <text x="45" y="234" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#EF4444">H₃PO₄ — фосфорная</text>
+  <text x="45" y="252" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#EF4444">H₂CO₃ — угольная</text>
+  <text x="45" y="270" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#EF4444">CH₃COOH — уксусная</text>
+  <text x="35" y="295" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#EF4444">pH &lt; 7, лакмус → красный</text>
+  <text x="35" y="312" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#EF4444">Me + кислота → соль + H₂</text>
+  <text x="35" y="329" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#EF4444">осн. оксид + к-та → соль + H₂O</text>
+  <rect x="275" y="75" width="245" height="280" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <rect x="285" y="85" width="225" height="28" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" rx="8"/>
+  <text x="310" y="103" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#3B82F6">ОСНОВАНИЯ</text>
+  <text x="285" y="128" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">Содержат Meⁿ⁺ и OH⁻ (гидроксид)</text>
+  <text x="397" y="150" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#3B82F6">Общ. ф-ла: Me(OH)ₙ</text>
+  <rect x="285" y="162" width="215" height="100" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1" rx="8"/>
+  <text x="295" y="180" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3B82F6">NaOH — гидроксид натрия</text>
+  <text x="295" y="198" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3B82F6">Ca(OH)₂ — гашёная известь</text>
+  <text x="295" y="216" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3B82F6">KOH — гидроксид калия</text>
+  <text x="295" y="234" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3B82F6">Fe(OH)₃ — нерастворимое</text>
+  <text x="285" y="256" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#10B981">Растворимые (щёлочи): NaOH, KOH</text>
+  <text x="285" y="272" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#F59E0B">Нерастворимые: Cu(OH)₂, Fe(OH)₃</text>
+  <text x="285" y="295" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3B82F6">pH &gt; 7, лакмус → синий</text>
+  <text x="285" y="312" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#3B82F6">к-та + основание → соль + H₂O</text>
+  <text x="285" y="329" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#3B82F6">осн. оксид + H₂O → основание</text>
+  <rect x="530" y="75" width="250" height="280" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <rect x="540" y="85" width="230" height="28" fill="#D1FAE5" stroke="#10B981" stroke-width="1" rx="8"/>
+  <text x="565" y="103" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#10B981">СОЛИ</text>
+  <text x="535" y="128" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">Meⁿ⁺ + кислотный остаток</text>
+  <text x="655" y="150" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#10B981">Общ. ф-ла: MeₙAₘ</text>
+  <rect x="535" y="162" width="230" height="120" fill="#D1FAE5" stroke="#6EE7B7" stroke-width="1" rx="8"/>
+  <text x="545" y="180" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10B981">NaCl — поваренная соль</text>
+  <text x="545" y="198" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10B981">CaCO₃ — мел, мрамор</text>
+  <text x="545" y="216" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10B981">CuSO₄ — медный купорос</text>
+  <text x="545" y="234" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10B981">Na₂SO₄ — сульфат натрия</text>
+  <text x="545" y="252" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10B981">KNO₃ — селитра</text>
+  <text x="545" y="270" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10B981">Ca₃(PO₄)₂ — фосфат кальция</text>
+  <text x="535" y="295" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#10B981">Средние: Na₂SO₄</text>
+  <text x="535" y="312" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#10B981">Кислые: NaHSO₄</text>
+  <text x="535" y="329" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#10B981">Основные: (CuOH)₂CO₃</text>
+  <rect x="20" y="365" width="760" height="80" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <text x="40" y="390" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#7C3AED">Шкала pH</text>
+  <rect x="60" y="405" width="46" height="22" fill="#ef4444" rx="3"/>
+  <text x="83" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#ef4444">0</text>
+  <rect x="110" y="405" width="46" height="22" fill="#ef4444" rx="3"/>
+  <text x="133" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#ef4444">1</text>
+  <rect x="160" y="405" width="46" height="22" fill="#ef4444" rx="3"/>
+  <text x="183" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#ef4444">2</text>
+  <rect x="210" y="405" width="46" height="22" fill="#ef4444" rx="3"/>
+  <text x="233" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#ef4444">3</text>
+  <rect x="260" y="405" width="46" height="22" fill="#f59e0b" rx="3"/>
+  <text x="283" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#f59e0b">4</text>
+  <rect x="310" y="405" width="46" height="22" fill="#f59e0b" rx="3"/>
+  <text x="333" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#f59e0b">5</text>
+  <rect x="360" y="405" width="46" height="22" fill="#3b82f6" rx="3"/>
+  <text x="383" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3b82f6">6</text>
+  <rect x="410" y="405" width="46" height="22" fill="#10b981" rx="3"/>
+  <text x="433" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10b981">7</text>
+  <rect x="460" y="405" width="46" height="22" fill="#3b82f6" rx="3"/>
+  <text x="483" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3b82f6">8</text>
+  <rect x="510" y="405" width="46" height="22" fill="#3b82f6" rx="3"/>
+  <text x="533" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3b82f6">9</text>
+  <rect x="560" y="405" width="46" height="22" fill="#6d28d9" rx="3"/>
+  <text x="583" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6d28d9">10</text>
+  <rect x="610" y="405" width="46" height="22" fill="#6d28d9" rx="3"/>
+  <text x="633" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6d28d9">11</text>
+  <rect x="660" y="405" width="46" height="22" fill="#6d28d9" rx="3"/>
+  <text x="683" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6d28d9">12</text>
+  <rect x="710" y="405" width="46" height="22" fill="#6d28d9" rx="3"/>
+  <text x="733" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6d28d9">13</text>
+  <text x="80" y="398" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#EF4444">Кислая среда</text>
+  <text x="410" y="398" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#10B981">Нейтральная</text>
+  <text x="700" y="398" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#3B82F6">Щелочная</text>
+  <rect x="20" y="455" width="760" height="115" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <text x="40" y="480" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#7C3AED">Взаимосвязь: Кислоты ↔ Основания ↔ Соли</text>
+  <rect x="40" y="495" width="230" height="30" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1" rx="8"/>
+  <text x="55" y="515" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#EF4444">Кислота + Основание → Соль + H₂O</text>
+  <rect x="280" y="495" width="230" height="30" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1" rx="8"/>
+  <text x="295" y="515" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#3B82F6">Основание + Кисл. оксид → Соль + H₂O</text>
+  <rect x="520" y="495" width="240" height="30" fill="#D1FAE5" stroke="#6EE7B7" stroke-width="1" rx="8"/>
+  <text x="535" y="515" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#10B981">Кислота + Основн. оксид → Соль + H₂O</text>
+  <rect x="40" y="535" width="720" height="30" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1" rx="8"/>
+  <text x="400" y="555" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#F59E0B">Реакция нейтрализации: HCl + NaOH → NaCl + H₂O</text>
+  <!-- Footer -->
+  <rect x="0" y="580" width="800" height="20" fill="#7C3AED" opacity="0.1"/>
+  <text x="400" y="594" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#6B7280">Химия — 8 класс</text>
+</svg>

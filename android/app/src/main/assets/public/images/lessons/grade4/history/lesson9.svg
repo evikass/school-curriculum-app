@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="500" height="85" fill="#F5E6C8" opacity="0.9"/>
+  <line x1="0" y1="85" x2="500" y2="85" stroke="#C41E3A" stroke-width="3"/>
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Нашествие монголов</text>
+  <text x="250" y="70" font-family="Arial, sans-serif" font-size="12" fill="#1a1a1a" text-anchor="middle">Батыево нашествие на Русь</text>
+
+  <!-- Bottom panel -->
+  <rect x="0" y="315" width="500" height="35" fill="#C41E3A" opacity="0.85"/>
+  <text x="250" y="337" font-family="Arial, sans-serif" font-size="15" fill="#F5E6C8" text-anchor="middle" font-weight="bold">История России - 4 класс</text>
+
+  <!-- Background -->
+  <rect x="0" y="85" width="500" height="230" fill="#F5E6C8"/>
+
+  <!-- Dark dramatic sky -->
+  <rect x="0" y="85" width="500" height="100" fill="#1a1a1a" opacity="0.08"/>
+  <rect x="0" y="85" width="500" height="50" fill="#1a1a1a" opacity="0.05"/>
+
+  <!-- Burning city (left side) -->
+  <!-- Destroyed walls -->
+  <rect x="30" y="170" width="80" height="90" fill="#8B6914" opacity="0.5" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Broken wall top -->
+  <polygon points="30,170 45,155 55,170 65,150 75,170 85,158 95,170 110,165 110,170" fill="#8B6914" opacity="0.5" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Flames on city -->
+  <polygon points="50,170 55,130 60,170" fill="#C41E3A" opacity="0.8"/>
+  <polygon points="45,170 53,140 61,170" fill="#D4A843" opacity="0.7"/>
+  <polygon points="75,170 80,135 85,170" fill="#C41E3A" opacity="0.7"/>
+  <polygon points="70,170 78,145 86,170" fill="#E85D75" opacity="0.6"/>
+  <polygon points="95,170 100,140 105,170" fill="#D4A843" opacity="0.6"/>
+  <!-- Smoke -->
+  <path d="M55,130 Q50,110 60,100" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.2"/>
+  <path d="M80,135 Q75,115 85,105" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.2"/>
+  <path d="M100,140 Q95,125 105,115" fill="none" stroke="#1a1a1a" stroke-width="1.5" opacity="0.15"/>
+
+  <!-- Mongol horsemen (right, charging) -->
+  <!-- Horse 1 -->
+  <ellipse cx="300" cy="220" rx="50" ry="22" fill="#1a1a1a" opacity="0.7"/>
+  <path d="M340,210 Q355,185 350,170" fill="none" stroke="#1a1a1a" stroke-width="15" opacity="0.7"/>
+  <ellipse cx="352" cy="167" rx="14" ry="8" fill="#1a1a1a" opacity="0.7"/>
+  <!-- Legs -->
+  <line x1="262" y1="238" x2="258" y2="270" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="275" y1="240" x2="272" y2="270" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="322" y1="240" x2="326" y2="270" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="335" y1="238" x2="340" y2="270" stroke="#1a1a1a" stroke-width="3"/>
+  <!-- Rider 1 -->
+  <circle cx="315" cy="190" r="12" fill="#DCC9A3" stroke="#1a1a1a" stroke-width="1"/>
+  <path d="M303,195 L295,198 L295,220 L335,220 L335,198 L327,195" fill="#C41E3A" opacity="0.7"/>
+  <!-- Bow -->
+  <path d="M330,185 Q345,200 330,215" fill="none" stroke="#8B6914" stroke-width="2"/>
+  <line x1="330" y1="200" x2="340" y2="200" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Arrow -->
+  <line x1="340" y1="200" x2="280" y2="180" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="280,180 286,176 285,184" fill="#1a1a1a"/>
+
+  <!-- Horse 2 (behind) -->
+  <ellipse cx="400" cy="225" rx="45" ry="20" fill="#1a1a1a" opacity="0.5"/>
+  <path d="M435,216 Q448,195 445,182" fill="none" stroke="#1a1a1a" stroke-width="12" opacity="0.5"/>
+  <ellipse cx="446" cy="179" rx="12" ry="7" fill="#1a1a1a" opacity="0.5"/>
+  <line x1="370" y1="242" x2="367" y2="270" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="382" y1="243" x2="380" y2="270" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="418" y1="243" x2="420" y2="270" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="428" y1="242" x2="432" y2="270" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- Rider 2 -->
+  <circle cx="410" cy="200" r="10" fill="#DCC9A3" stroke="#1a1a1a" stroke-width="0.8"/>
+  <rect x="402" y="210" width="16" height="20" fill="#C41E3A" opacity="0.5"/>
+
+  <!-- Yurt (far right) -->
+  <path d="M440,270 Q470,230 500,270" fill="#DCC9A3" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="435" y="270" width="70" height="20" fill="#DCC9A3" stroke="#1a1a1a" stroke-width="1"/>
+  <circle cx="470" cy="240" r="5" fill="#C41E3A" opacity="0.5"/>
+
+  <!-- Ground -->
+  <rect x="0" y="270" width="500" height="45" fill="#DCC9A3" opacity="0.4"/>
+
+  <!-- Flying arrows (multiple) -->
+  <line x1="250" y1="140" x2="190" y2="170" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="190,170 196,166 196,174" fill="#1a1a1a"/>
+  <line x1="280" y1="120" x2="210" y2="155" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="210,155 216,151 216,159" fill="#1a1a1a"/>
+  <line x1="260" y1="105" x2="195" y2="145" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="195,145 201,141 201,149" fill="#1a1a1a"/>
+
+  <!-- Year banner -->
+  <rect x="175" y="290" width="150" height="22" fill="#C41E3A" opacity="0.85" rx="3"/>
+  <text x="250" y="305" font-family="Arial, sans-serif" font-size="12" fill="#F5E6C8" text-anchor="middle" font-weight="bold">1237 - Нашествие Батыя</text>
+
+</svg>

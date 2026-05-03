@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#064E3B"/>
+    <stop offset="100%" style="stop-color:#059669"/>
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#10B981"/>
+    <stop offset="100%" style="stop-color:#14B8A6"/>
+  </linearGradient>
+  <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#064E3B"/>
+    <stop offset="100%" style="stop-color:#059669"/>
+  </linearGradient>
+  <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/>
+  </filter>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+<rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="8"/>
+<circle cx="40" cy="35" r="22" fill="#10B981" stroke="#14B8A6" stroke-width="2"/>
+<text x="40" y="42" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="sans-serif" font-weight="bold">1</text>
+<text x="72" y="32" fill="#FFFFFF" font-size="22" text-anchor="start" font-family="sans-serif" font-weight="bold">Что такое программирование</text>
+<text x="72" y="52" fill="#6EE7B7" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="normal">Алгоритм, языки, знакомство с Python</text>
+<rect x="0" y="68" width="800" height="2" fill="#14B8A6" rx="8"/>
+<rect x="20" y="80" width="370" height="230" fill="#0F172A" rx="8" stroke="#10B981" stroke-width="1"/>
+<text x="35" y="102" fill="#14B8A6" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Что такое алгоритм?</text>
+<text x="35" y="122" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">Алгоритм — чёткая последовательность</text>
+<text x="35" y="138" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">действий для решения задачи.</text>
+<rect x="130" y="155" width="140" height="28" fill="#065F46" rx="6" stroke="#10B981" stroke-width="1.5"/>
+<text x="200.0" y="174.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Начало</text>
+<line x1="200" y1="183" x2="200" y2="195" stroke="#14B8A6" stroke-width="2"/>
+<polygon points="200,195,196.0,187.0,204.0,187.0" fill="#14B8A6"/>
+<rect x="120" y="195" width="160" height="28" fill="#1E293B" rx="6" stroke="#10B981" stroke-width="1.5"/>
+<text x="200.0" y="214.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Взять чайник</text>
+<line x1="200" y1="223" x2="200" y2="235" stroke="#14B8A6" stroke-width="2"/>
+<polygon points="200,235,196.0,227.0,204.0,227.0" fill="#14B8A6"/>
+<rect x="120" y="235" width="160" height="28" fill="#1E293B" rx="6" stroke="#10B981" stroke-width="1.5"/>
+<text x="200.0" y="254.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Налить воду</text>
+<line x1="200" y1="263" x2="200" y2="275" stroke="#14B8A6" stroke-width="2"/>
+<polygon points="200,275,196.0,267.0,204.0,267.0" fill="#14B8A6"/>
+<rect x="120" y="275" width="160" height="28" fill="#1E293B" rx="6" stroke="#10B981" stroke-width="1.5"/>
+<text x="200.0" y="294.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Включить плиту</text>
+<rect x="400" y="80" width="380" height="230" fill="#0F172A" rx="8" stroke="#10B981" stroke-width="1"/>
+<text x="415" y="102" fill="#14B8A6" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Что такое программирование?</text>
+<text x="415" y="122" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">Программирование — процесс создания</text>
+<text x="415" y="138" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">программ для компьютера.</text>
+<rect x="375" y="155" width="80" height="35" fill="#1E293B" rx="6" stroke="#FCD34D" stroke-width="1.5"/>
+<text x="415" y="177" fill="#FCD34D" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Идея</text>
+<rect x="475" y="155" width="80" height="35" fill="#1E293B" rx="6" stroke="#22D3EE" stroke-width="1.5"/>
+<text x="515" y="177" fill="#22D3EE" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Алгоритм</text>
+<rect x="575" y="155" width="80" height="35" fill="#1E293B" rx="6" stroke="#4ADE80" stroke-width="1.5"/>
+<text x="615" y="177" fill="#4ADE80" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Код</text>
+<rect x="660" y="155" width="80" height="35" fill="#1E293B" rx="6" stroke="#10B981" stroke-width="1.5"/>
+<text x="700" y="177" fill="#10B981" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Программа</text>
+<line x1="475" y1="172" x2="515" y2="172" stroke="#14B8A6" stroke-width="2"/>
+<polygon points="515,172,507.0,176.0,507.0,168.0" fill="#14B8A6"/>
+<line x1="575" y1="172" x2="615" y2="172" stroke="#14B8A6" stroke-width="2"/>
+<polygon points="615,172,607.0,176.0,607.0,168.0" fill="#14B8A6"/>
+<line x1="675" y1="172" x2="700" y2="172" stroke="#14B8A6" stroke-width="2"/>
+<polygon points="700,172,692.0,176.0,692.0,168.0" fill="#14B8A6"/>
+<text x="415" y="215" fill="#FFFFFF" font-size="12" text-anchor="start" font-family="sans-serif" font-weight="bold">Языки программирования:</text>
+<rect x="415" y="228" width="58" height="20" fill="#10B981" rx="10"/>
+<text x="444.0" y="242" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Python</text>
+<rect x="495" y="228" width="86" height="20" fill="#EAB308" rx="10"/>
+<text x="538.0" y="242" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">JavaScript</text>
+<rect x="595" y="228" width="44" height="20" fill="#FB923C" rx="10"/>
+<text x="617.0" y="242" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Java</text>
+<rect x="660" y="228" width="37" height="20" fill="#C084FC" rx="10"/>
+<text x="678.5" y="242" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">C++</text>
+<rect x="415" y="254" width="30" height="20" fill="#4ADE80" rx="10"/>
+<text x="430.0" y="268" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">C#</text>
+<rect x="470" y="254" width="30" height="20" fill="#22D3EE" rx="10"/>
+<text x="485.0" y="268" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Go</text>
+<rect x="520" y="254" width="51" height="20" fill="#FB923C" rx="10"/>
+<text x="545.5" y="268" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Swift</text>
+<rect x="585" y="254" width="58" height="20" fill="#F472B6" rx="10"/>
+<text x="614.0" y="268" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Kotlin</text>
+<text x="415" y="292" fill="#FCD34D" font-size="12" text-anchor="start" font-family="sans-serif" font-weight="bold">Мы будем учить Python! 🐍</text>
+<rect x="20" y="320" width="380" height="120" fill="#0F172A" rx="8" stroke="#4ADE80" stroke-width="1"/>
+<text x="35" y="342" fill="#4ADE80" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Почему Python?</text>
+<text x="40" y="360" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">✓ Простой синтаксис</text>
+<text x="40" y="378" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">✓ Понятный для начинающих</text>
+<text x="40" y="396" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">✓ Огромное сообщество</text>
+<text x="40" y="414" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">✓ Используется везде: AI, web, games</text>
+<rect x="410" y="320" width="370" height="120" fill="#0F172A" rx="8" stroke="#FB923C" stroke-width="1"/>
+<text x="425" y="342" fill="#FB923C" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Трансляторы</text>
+<rect x="425" y="355" width="160" height="55" fill="#1E293B" rx="6" stroke="#4ADE80" stroke-width="1"/>
+<text x="505" y="375" fill="#4ADE80" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Интерпретатор</text>
+<text x="505" y="395" fill="#6EE7B7" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">Python, JavaScript</text>
+<rect x="605" y="355" width="160" height="55" fill="#1E293B" rx="6" stroke="#FB923C" stroke-width="1"/>
+<text x="685" y="375" fill="#FB923C" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Компилятор</text>
+<text x="685" y="395" fill="#6EE7B7" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">C++, Go, Rust</text>
+<text x="425" y="428" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Код → транслятор → машинный код</text>
+<rect x="20" y="450" width="760" height="120" fill="#0F172A" rx="8" stroke="#10B981" stroke-width="1"/>
+<text x="35" y="472" fill="#14B8A6" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Первый взгляд на Python</text>
+<rect x="35" y="482" width="460" height="116" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="35" y="482" width="460" height="24" fill="#1E293B" rx="6"/>
+<rect x="35" y="500" width="460" height="6" fill="#1E293B" rx="8"/>
+<text x="45" y="498" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">hello.py</text>
+<circle cx="455" cy="494" r="4" fill="#F87171"/>
+<circle cx="469" cy="494" r="4" fill="#FCD34D"/>
+<circle cx="483" cy="494" r="4" fill="#4ADE80"/>
+<text x="43" y="522" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="65" y="522" fill="#D1FAE5" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">print(&quot;Привет, мир!&quot;)</text>
+<text x="43" y="540" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="65" y="540" fill="#D1FAE5" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"># Это комментарий</text>
+<text x="43" y="558" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="65" y="558" fill="#D1FAE5" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">name = input(&quot;Как тебя зовут? &quot;)</text>
+<text x="43" y="576" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="65" y="576" fill="#D1FAE5" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">print(&quot;Привет, &quot; + name)</text>
+<rect x="510" y="487" width="255" height="75" fill="#1E293B" rx="6"/>
+<text x="520" y="505" fill="#FFFFFF" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Результат:</text>
+<text x="520" y="523" fill="#4ADE80" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">&gt;&gt;&gt; Привет, мир!</text>
+<text x="520" y="541" fill="#4ADE80" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">&gt;&gt;&gt; Привет, Анна!</text>
+<rect x="0" y="570" width="800" height="30" fill="url(#headerGrad)" rx="8"/>
+<text x="400.0" y="590" fill="#6EE7B7" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Программирование · 7 класс</text>
+</svg>

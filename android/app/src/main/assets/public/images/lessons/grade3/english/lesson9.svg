@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="grad9" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E1BEE7"/>
+      <stop offset="100%" style="stop-color:#CE93D8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#grad9)"/>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#6A1B9A" text-anchor="middle">👕 Clothes</text>
+  <rect x="100" y="45" width="300" height="2" rx="1" fill="#9C27B0" opacity="0.6"/>
+  
+  <!-- Clothes items -->
+  <g font-family="Arial, sans-serif">
+    <!-- T-shirt -->
+    <rect x="20" y="65" width="110" height="90" fill="#FFEBEE" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M45 90 L75 80 L105 90 L100 145 L50 145 Z" fill="#E53935"/>
+    <path d="M45 90 L30 100 L40 120 L50 110 Z" fill="#E53935"/>
+    <path d="M105 90 L120 100 L110 120 L100 110 Z" fill="#E53935"/>
+    <ellipse cx="75" cy="82" rx="15" ry="5" fill="#FFCCBC"/>
+    <text x="75" y="160" font-size="13" fill="#C62828" text-anchor="middle" font-weight="bold">T-shirt</text>
+    
+    <!-- Dress -->
+    <rect x="140" y="65" width="110" height="90" fill="#F3E5F5" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M175 85 L195 75 L215 85 L210 95 L220 150 L170 150 L180 95 Z" fill="#9C27B0"/>
+    <ellipse cx="195" cy="77" rx="12" ry="5" fill="#FFCCBC"/>
+    <line x1="195" y1="95" x2="195" y2="145" stroke="#7B1FA2" stroke-width="2"/>
+    <text x="195" y="160" font-size="13" fill="#6A1B9A" text-anchor="middle" font-weight="bold">dress</text>
+    
+    <!-- Jacket -->
+    <rect x="260" y="65" width="110" height="90" fill="#E3F2FD" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M280 85 L315 75 L350 85 L355 150 L275 150 Z" fill="#1976D2"/>
+    <rect x="305" y="85" width="20" height="65" fill="#1565C0"/>
+    <circle cx="315" cy="100" r="4" fill="#FFD54F"/>
+    <circle cx="315" cy="120" r="4" fill="#FFD54F"/>
+    <circle cx="315" cy="140" r="4" fill="#FFD54F"/>
+    <path d="M280 85 L265 95 L275 145 L285 145 Z" fill="#1976D2"/>
+    <path d="M350 85 L365 95 L355 145 L345 145 Z" fill="#1976D2"/>
+    <text x="315" y="160" font-size="13" fill="#0D47A1" text-anchor="middle" font-weight="bold">jacket</text>
+    
+    <!-- Hat -->
+    <rect x="380" y="65" width="100" height="90" fill="#FFF8E1" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="430" cy="120" rx="35" ry="8" fill="#5D4037"/>
+    <path d="M400 120 Q400 85 430 80 Q460 85 460 120" fill="#795548"/>
+    <rect x="400" y="110" width="60" height="10" fill="#FF5722"/>
+    <text x="430" y="160" font-size="13" fill="#4E342E" text-anchor="middle" font-weight="bold">hat</text>
+    
+    <!-- Shoes -->
+    <rect x="20" y="175" width="110" height="90" fill="#FFECB3" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="55" cy="225" rx="22" ry="12" fill="#5D4037"/>
+    <rect x="38" y="210" width="35" height="20" fill="#795548" rx="3"/>
+    <ellipse cx="100" cy="225" rx="22" ry="12" fill="#5D4037"/>
+    <rect x="83" y="210" width="35" height="20" fill="#795548" rx="3"/>
+    <text x="75" y="260" font-size="13" fill="#4E342E" text-anchor="middle" font-weight="bold">shoes</text>
+    
+    <!-- Socks -->
+    <rect x="140" y="175" width="110" height="90" fill="#E8F5E9" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.7s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M175 195 L175 235 Q175 250 190 250 Q205 250 205 235 L205 195 Z" fill="#4CAF50"/>
+    <rect x="175" y="195" width="30" height="10" fill="#81C784"/>
+    <path d="M215 195 L215 235 Q215 250 230 250 Q245 250 245 235 L245 195 Z" fill="#4CAF50"/>
+    <rect x="215" y="195" width="30" height="10" fill="#81C784"/>
+    <text x="195" y="270" font-size="13" fill="#2E7D32" text-anchor="middle" font-weight="bold">socks</text>
+    
+    <!-- Trousers -->
+    <rect x="260" y="175" width="110" height="90" fill="#BBDEFB" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M290 195 L290 260 L320 260 L320 195 L315 195 L315 260 L345 260 L345 195 Z" fill="#1565C0"/>
+    <rect x="290" y="195" width="55" height="15" fill="#1976D2"/>
+    <text x="315" y="270" font-size="13" fill="#0D47A1" text-anchor="middle" font-weight="bold">trousers</text>
+    
+    <!-- Scarf -->
+    <rect x="380" y="175" width="100" height="90" fill="#FFCDD2" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.7s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M400 200 Q430 210 460 200 Q460 220 430 230 Q400 220 400 200" fill="#E53935"/>
+    <rect x="420" y="230" width="20" height="35" fill="#EF5350"/>
+    <rect x="420" y="240" width="20" height="3" fill="#FFCDD2"/>
+    <rect x="420" y="250" width="20" height="3" fill="#FFCDD2"/>
+    <text x="430" y="270" font-size="13" fill="#C62828" text-anchor="middle" font-weight="bold">scarf</text>
+  </g>
+  
+  <!-- Lesson number -->
+  <circle cx="470" cy="320" r="20" fill="#9C27B0" opacity="0.9"/>
+  <text x="470" y="326" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">9</text>
+</svg>

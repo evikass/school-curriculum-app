@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#0C4A6E"/>
+    <stop offset="100%" style="stop-color:#0284C7"/>
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#0EA5E9"/>
+    <stop offset="100%" style="stop-color:#38BDF8"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+<rect x="0" y="0" width="800" height="70" fill="url(#bg)" rx="8"/>
+<circle cx="40" cy="35" r="22" fill="#0EA5E9" stroke="#38BDF8" stroke-width="2"/>
+<text x="40" y="42" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="sans-serif" font-weight="bold">6</text>
+<text x="72" y="32" fill="#FFFFFF" font-size="22" text-anchor="start" font-family="sans-serif" font-weight="bold">Основы CSS</text>
+<text x="72" y="52" fill="#7DD3FC" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="normal">Селекторы, свойства, цвета, шрифты</text>
+<rect x="0" y="68" width="800" height="2" fill="#38BDF8" rx="8"/>
+<rect x="20" y="80" width="380" height="150" fill="#0F172A" rx="8" stroke="#0EA5E9" stroke-width="1"/>
+<text x="35" y="102" fill="#38BDF8" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Синтаксис CSS</text>
+<rect x="35" y="112" width="350" height="40" fill="#1E293B" rx="6"/>
+<text x="45" y="130" fill="#4ADE80" font-size="13" text-anchor="start" font-family="monospace" font-weight="bold">h1</text>
+<text x="65" y="130" fill="#7DD3FC" font-size="13" text-anchor="start" font-family="monospace" font-weight="normal">{</text>
+<text x="75" y="148" fill="#38BDF8" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">  color</text>
+<text x="120" y="148" fill="#7DD3FC" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">:</text>
+<text x="128" y="148" fill="#FB923C" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"> blue</text>
+<text x="155" y="148" fill="#7DD3FC" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">;</text>
+<text x="165" y="148" fill="#38BDF8" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">  font-size</text>
+<text x="240" y="148" fill="#7DD3FC" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">:</text>
+<text x="248" y="148" fill="#FB923C" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"> 24px</text>
+<text x="285" y="148" fill="#7DD3FC" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">;</text>
+<text x="345" y="130" fill="#7DD3FC" font-size="13" text-anchor="start" font-family="monospace" font-weight="normal">}</text>
+<text x="50" y="175" fill="#4ADE80" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">селектор</text>
+<text x="120" y="175" fill="#38BDF8" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">свойство</text>
+<text x="210" y="175" fill="#FB923C" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">значение</text>
+<rect x="410" y="80" width="370" height="150" fill="#0F172A" rx="8" stroke="#0EA5E9" stroke-width="1"/>
+<text x="425" y="102" fill="#38BDF8" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Селекторы CSS</text>
+<text x="425" y="126" fill="#4ADE80" font-size="11" text-anchor="start" font-family="monospace" font-weight="bold">h1</text>
+<text x="510" y="126" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">По тегу</text>
+<text x="425" y="148" fill="#FACC15" font-size="11" text-anchor="start" font-family="monospace" font-weight="bold">.intro</text>
+<text x="510" y="148" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">По классу</text>
+<text x="425" y="170" fill="#FB923C" font-size="11" text-anchor="start" font-family="monospace" font-weight="bold">#main</text>
+<text x="510" y="170" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">По id</text>
+<text x="425" y="192" fill="#C084FC" font-size="11" text-anchor="start" font-family="monospace" font-weight="bold">div p</text>
+<text x="510" y="192" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Вложенный</text>
+<text x="425" y="214" fill="#F87171" font-size="11" text-anchor="start" font-family="monospace" font-weight="bold">a:hover</text>
+<text x="510" y="214" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Псевдокласс</text>
+<rect x="20" y="240" width="380" height="220" fill="#0F172A" rx="8" stroke="#0EA5E9" stroke-width="1"/>
+<text x="35" y="262" fill="#38BDF8" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Пример CSS</text>
+<rect x="35" y="272" width="350" height="296" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="35" y="272" width="350" height="24" fill="#1E293B" rx="6"/>
+<rect x="35" y="290" width="350" height="6" fill="#1E293B" rx="8"/>
+<text x="45" y="288" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">style.css</text>
+<circle cx="345" cy="284" r="4" fill="#F87171"/>
+<circle cx="359" cy="284" r="4" fill="#FACC15"/>
+<circle cx="373" cy="284" r="4" fill="#4ADE80"/>
+<text x="43" y="312" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="65" y="312" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">/* Стили для страницы */</text>
+<text x="43" y="330" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="65" y="330" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">body {</text>
+<text x="43" y="348" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="65" y="348" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">  background: #f0f0f0;</text>
+<text x="43" y="366" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="65" y="366" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">  font-family: Arial;</text>
+<text x="43" y="384" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="65" y="384" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">}</text>
+<text x="43" y="402" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">6</text>
+<text x="65" y="402" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="43" y="420" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">7</text>
+<text x="65" y="420" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">h1 {</text>
+<text x="43" y="438" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">8</text>
+<text x="65" y="438" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">  color: #0EA5E9;</text>
+<text x="43" y="456" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">9</text>
+<text x="65" y="456" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">  font-size: 24px;</text>
+<text x="43" y="474" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">10</text>
+<text x="65" y="474" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">}</text>
+<text x="43" y="492" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">11</text>
+<text x="65" y="492" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="43" y="510" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">12</text>
+<text x="65" y="510" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">.highlight {</text>
+<text x="43" y="528" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">13</text>
+<text x="65" y="528" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">  background: yellow;</text>
+<text x="43" y="546" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">14</text>
+<text x="65" y="546" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">}</text>
+<rect x="410" y="240" width="370" height="220" fill="#0F172A" rx="8" stroke="#0EA5E9" stroke-width="1"/>
+<text x="425" y="262" fill="#38BDF8" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Цвета и единицы</text>
+<rect x="425" y="275" width="30" height="30" fill="#FF0000" rx="4"/>
+<text x="460" y="287" fill="#E0F2FE" font-size="9" text-anchor="start" font-family="monospace" font-weight="normal">#FF0000</text>
+<text x="460" y="300" fill="#7DD3FC" font-size="8" text-anchor="start" font-family="monospace" font-weight="normal">red</text>
+<rect x="545" y="275" width="30" height="30" fill="#00FF00" rx="4"/>
+<text x="580" y="287" fill="#E0F2FE" font-size="9" text-anchor="start" font-family="monospace" font-weight="normal">#00FF00</text>
+<text x="580" y="300" fill="#7DD3FC" font-size="8" text-anchor="start" font-family="monospace" font-weight="normal">green</text>
+<rect x="665" y="275" width="30" height="30" fill="#0000FF" rx="4"/>
+<text x="700" y="287" fill="#E0F2FE" font-size="9" text-anchor="start" font-family="monospace" font-weight="normal">#0000FF</text>
+<text x="700" y="300" fill="#7DD3FC" font-size="8" text-anchor="start" font-family="monospace" font-weight="normal">blue</text>
+<rect x="425" y="320" width="30" height="30" fill="#0EA5E9" rx="4"/>
+<text x="460" y="332" fill="#E0F2FE" font-size="9" text-anchor="start" font-family="monospace" font-weight="normal">#0EA5E9</text>
+<text x="460" y="345" fill="#7DD3FC" font-size="8" text-anchor="start" font-family="monospace" font-weight="normal">sky</text>
+<rect x="545" y="320" width="30" height="30" fill="#FACC15" rx="4"/>
+<text x="580" y="332" fill="#E0F2FE" font-size="9" text-anchor="start" font-family="monospace" font-weight="normal">#FACC15</text>
+<text x="580" y="345" fill="#7DD3FC" font-size="8" text-anchor="start" font-family="monospace" font-weight="normal">yellow</text>
+<rect x="665" y="320" width="30" height="30" fill="#4ADE80" rx="4"/>
+<text x="700" y="332" fill="#E0F2FE" font-size="9" text-anchor="start" font-family="monospace" font-weight="normal">#4ADE80</text>
+<text x="700" y="345" fill="#7DD3FC" font-size="8" text-anchor="start" font-family="monospace" font-weight="normal">lime</text>
+<text x="425" y="380" fill="#FFFFFF" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Единицы измерения:</text>
+<text x="425" y="395" fill="#FACC15" font-size="11" text-anchor="start" font-family="monospace" font-weight="bold">px</text>
+<text x="465" y="395" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">пиксели</text>
+<text x="425" y="413" fill="#FACC15" font-size="11" text-anchor="start" font-family="monospace" font-weight="bold">em</text>
+<text x="465" y="413" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">относительно шрифта</text>
+<text x="425" y="431" fill="#FACC15" font-size="11" text-anchor="start" font-family="monospace" font-weight="bold">%</text>
+<text x="465" y="431" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">проценты</text>
+<text x="425" y="449" fill="#FACC15" font-size="11" text-anchor="start" font-family="monospace" font-weight="bold">vh/vw</text>
+<text x="465" y="449" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">относительно экрана</text>
+<rect x="20" y="470" width="760" height="100" fill="#0F172A" rx="8" stroke="#0EA5E9" stroke-width="1"/>
+<text x="35" y="492" fill="#38BDF8" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Блочная модель CSS</text>
+<rect x="280" y="482" width="200" height="70" fill="#1E293B" rx="4" stroke="#7DD3FC" stroke-width="1"/>
+<text x="380" y="498" fill="#7DD3FC" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">margin</text>
+<rect x="300" y="492" width="160" height="50" fill="#1a3a5c" rx="3" stroke="#38BDF8" stroke-width="1"/>
+<text x="380" y="508" fill="#38BDF8" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">padding</text>
+<rect x="320" y="502" width="120" height="30" fill="#0369A1" rx="2" stroke="#FACC15" stroke-width="1"/>
+<text x="380" y="522" fill="#FACC15" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">content</text>
+<text x="520" y="498" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">margin — внешний отступ</text>
+<text x="520" y="514" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">padding — внутренний отступ</text>
+<text x="520" y="530" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">border — граница</text>
+<text x="520" y="546" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">content — содержимое</text>
+<rect x="0" y="570" width="800" height="30" fill="url(#bg)" rx="8"/>
+<text x="400.0" y="590" fill="#7DD3FC" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Информатика · 7 класс</text>
+</svg>

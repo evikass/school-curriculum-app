@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+    <linearGradient id="ocean4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Мировой океан</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 4</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Large world map card -->
+  <rect x="30" y="92" width="440" height="145" rx="6" fill="#E3F2FD" stroke="#E0E0E0" stroke-width="1"/>
+  <!-- Ocean background -->
+  <rect x="35" y="97" width="430" height="135" rx="4" fill="url(#ocean4)" opacity="0.2"/>
+  <!-- Simplified continents -->
+  <!-- North America -->
+  <path d="M80,120 Q90,110 110,112 Q120,108 125,115 Q130,120 128,130 Q130,140 120,145 Q110,150 105,148 Q95,150 85,145 Q75,140 78,130 Z" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <!-- South America -->
+  <path d="M120,160 Q125,155 132,158 Q138,162 140,172 Q142,185 138,195 Q132,205 125,200 Q118,195 115,185 Q113,175 115,165 Z" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <!-- Europe -->
+  <path d="M220,115 Q230,110 242,112 Q248,115 250,120 Q248,128 240,130 Q232,132 225,128 Q218,125 220,115 Z" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <!-- Africa -->
+  <path d="M225,140 Q235,135 245,138 Q255,142 260,155 Q262,170 258,185 Q250,198 242,200 Q232,198 225,190 Q218,178 220,165 Q220,150 225,140 Z" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <!-- Asia -->
+  <path d="M260,108 Q275,102 295,105 Q315,100 335,108 Q350,112 355,120 Q358,130 350,140 Q340,148 325,145 Q310,142 295,145 Q280,148 268,145 Q258,140 255,130 Q252,118 260,108 Z" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <!-- Australia -->
+  <path d="M360,165 Q370,160 380,162 Q390,165 392,175 Q393,185 385,190 Q375,193 365,188 Q358,182 358,175 Z" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <!-- Antarctica hint -->
+  <path d="M100,225 Q150,218 200,222 Q300,218 400,225 L400,230 Q300,226 200,228 Q150,226 100,230 Z" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="0.5"/>
+
+  <!-- Ocean labels -->
+  <text x="150" y="135" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1" font-weight="bold" text-anchor="middle">Тихий</text>
+  <text x="150" y="145" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">океан</text>
+  <text x="185" y="185" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1" font-weight="bold" text-anchor="middle">Атлантический</text>
+  <text x="185" y="195" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">океан</text>
+  <text x="305" y="185" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1" font-weight="bold" text-anchor="middle">Индийский</text>
+  <text x="305" y="195" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">океан</text>
+  <text x="240" y="105" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1" font-weight="bold" text-anchor="middle">Северный Ледовитый</text>
+  <text x="240" y="115" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">океан</text>
+
+  <!-- Four stat cards at bottom -->
+  <rect x="30" y="245" width="100" height="48" rx="5" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="30" y="245" width="100" height="4" rx="2" fill="#1565C0"/>
+  <text x="80" y="266" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle" font-weight="bold">Тихий океан</text>
+  <text x="80" y="280" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">178,7 млн км2</text>
+
+  <rect x="140" y="245" width="100" height="48" rx="5" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="140" y="245" width="100" height="4" rx="2" fill="#1976D2"/>
+  <text x="190" y="266" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle" font-weight="bold">Атлантический</text>
+  <text x="190" y="280" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">91,6 млн км2</text>
+
+  <rect x="250" y="245" width="100" height="48" rx="5" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="250" y="245" width="100" height="4" rx="2" fill="#2196F3"/>
+  <text x="300" y="266" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle" font-weight="bold">Индийский</text>
+  <text x="300" y="280" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">76,2 млн км2</text>
+
+  <rect x="360" y="245" width="110" height="48" rx="5" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="360" y="245" width="110" height="4" rx="2" fill="#64B5F6"/>
+  <text x="415" y="266" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle" font-weight="bold">Сев. Ледовитый</text>
+  <text x="415" y="280" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">14,8 млн км2</text>
+
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Мировой океан</text>
+</svg>

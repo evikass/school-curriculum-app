@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#92400E" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#B45309" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="800" height="4" fill="#B45309" rx="2"/>
+
+  <!-- Header -->
+  <rect x="20" y="15" width="760" height="60" rx="8" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="40" y="50" font-size="14" fill="#FCD34D" font-weight="bold">Урок 11</text>
+  <text x="130" y="50" font-size="20" fill="#FFFFFF" font-weight="bold">Приготовление блюд</text>
+    <text x="780" y="55" font-size="13" fill="#F59E0B" text-anchor="end" font-style="italic">Рецепты, техники, планирование</text>
+
+  <!-- Recipe card -->
+  <rect x="25" y="95" width="280" height="250" rx="8" fill="#FFFFFF" stroke="#B45309" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="25" y="95" width="280" height="35" rx="8" fill="#B45309"/>
+  <rect x="25" y="122" width="280" height="8" fill="#B45309"/>
+  <text x="165" y="118" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Рецепт: Каша рисовая</text>
+  
+  <text x="40" y="155" font-size="12" fill="#92400E" font-weight="bold">Ингредиенты:</text>
+  <text x="40" y="172" font-size="11" fill="#78350F">• Рис — 1 стакан (200 г)</text>
+  <text x="40" y="188" font-size="11" fill="#78350F">• Молоко — 2 стакана (500 мл)</text>
+  <text x="40" y="204" font-size="11" fill="#78350F">• Вода — 1 стакан (250 мл)</text>
+  <text x="40" y="220" font-size="11" fill="#78350F">• Масло сливочное — 30 г</text>
+  <text x="40" y="236" font-size="11" fill="#78350F">• Сахар — 2 ст. ложки</text>
+  <text x="40" y="252" font-size="11" fill="#78350F">• Соль — 0,5 ч. ложки</text>
+  
+  <text x="40" y="275" font-size="12" fill="#92400E" font-weight="bold">Технология:</text>
+  <text x="40" y="292" font-size="11" fill="#78350F">1. Промыть рис, залить водой</text>
+  <text x="40" y="308" font-size="11" fill="#78350F">2. Варить до полуготовности</text>
+  <text x="40" y="324" font-size="11" fill="#78350F">3. Добавить молоко, варить 15 мин</text>
+  <text x="40" y="340" font-size="11" fill="#78350F">4. Добавить масло и сахар</text>
+  
+  <!-- Cooking techniques -->
+    <rect x="320" y="95" width="455" height="130" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="320" y="95" width="455" height="26" rx="6" fill="#B45309"/>
+  <rect x="320" y="115" width="455" height="6" fill="#B45309"/>
+  <text x="547" y="113" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Основные техники приготовления</text>
+  <text x="332" y="135" font-size="12" fill="#78350F">• Варка — нагревание в жидкой среде (100°C)</text>
+  <text x="332" y="155" font-size="12" fill="#78350F">• Припускание — варка в малом количестве воды</text>
+  <text x="332" y="175" font-size="12" fill="#78350F">• Жарка — нагревание с жиром (150-200°C)</text>
+  <text x="332" y="195" font-size="12" fill="#78350F">• Тушение — обжарка + варка в соусе</text>
+  <text x="332" y="215" font-size="12" fill="#78350F">• Запекание — приготовление в духовке</text>
+  
+  <!-- Meal planning -->
+    <rect x="320" y="240" width="455" height="120" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="320" y="240" width="455" height="26" rx="6" fill="#B45309"/>
+  <rect x="320" y="260" width="455" height="6" fill="#B45309"/>
+  <text x="547" y="258" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Планирование меню</text>
+  <text x="332" y="280" font-size="12" fill="#78350F">• Завтрак: каши, яичница, бутерброды, чай</text>
+  <text x="332" y="300" font-size="12" fill="#78350F">• Обед: суп, второе блюдо, салат, компот</text>
+  <text x="332" y="320" font-size="12" fill="#78350F">• Полдник: фрукты, выпечка, кефир</text>
+  <text x="332" y="340" font-size="12" fill="#78350F">• Ужин: лёгкое блюдо за 3 часа до сна</text>
+  
+  <!-- Kitchen safety during cooking -->
+    <rect x="25" y="360" width="370" height="120" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="360" width="370" height="26" rx="6" fill="#DC2626"/>
+  <rect x="25" y="380" width="370" height="6" fill="#DC2626"/>
+  <text x="210" y="378" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Безопасность при готовке</text>
+  <text x="37" y="400" font-size="12" fill="#78350F">• Осторожно с кипящей водой и маслом!</text>
+  <text x="37" y="420" font-size="12" fill="#78350F">• Ручки сковород — от себя</text>
+  <text x="37" y="440" font-size="12" fill="#78350F">• Не наливай масло на раскалённую сковороду</text>
+  <text x="37" y="460" font-size="12" fill="#78350F">• Снимай крышку от себя (пар обжигает!)</text>
+  
+  <!-- Nutrition basics -->
+    <rect x="410" y="375" width="365" height="105" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="410" y="375" width="365" height="26" rx="6" fill="#059669"/>
+  <rect x="410" y="395" width="365" height="6" fill="#059669"/>
+  <text x="592" y="393" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Пищевая ценность продуктов</text>
+  <text x="422" y="415" font-size="12" fill="#78350F">• Белки — «строительный материал» (мясо, рыба)</text>
+  <text x="422" y="435" font-size="12" fill="#78350F">• Жиры — энергетический запас (масло, орехи)</text>
+  <text x="422" y="455" font-size="12" fill="#78350F">• Углеводы — основной источник энергии</text>
+  
+    <rect x="25" y="495" width="750" height="55" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" filter="url(#shadow)"/>
+  <text x="37" y="515" font-size="12" fill="#78350F" font-weight="bold">📖 Правило рецепта: строго соблюдай пропорции и последовательность операций!</text>
+  <text x="37" y="533" font-size="12" fill="#78350F" font-weight="bold">Время и температура — ключевые параметры. Термометр для мяса — гарантия безопасности!</text>
+  </svg>

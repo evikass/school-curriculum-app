@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0FDFA" />
+      <stop offset="100%" stop-color="#ECFEFF" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0891B2" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="100%" />
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+    <clipPath id="ill10">
+      <rect x="20" y="215" width="480" height="190" rx="8" />
+    </clipPath>
+    <clipPath id="ill10b">
+      <rect x="510" y="215" width="270" height="190" rx="8" />
+    </clipPath>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="12" />
+  <rect x="3" y="3" width="794" height="594" rx="10" fill="none" stroke="#06B6D4" stroke-width="2.5" />
+  <rect x="8" y="8" width="784" height="584" rx="8" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.2" />
+  <polygon points="12,12 42,12 12,42" fill="#06B6D4" opacity="0.08" />
+  <polygon points="788,12 758,12 788,42" fill="#06B6D4" opacity="0.08" />
+  <polygon points="12,588 42,588 12,558" fill="#06B6D4" opacity="0.08" />
+  <polygon points="788,588 758,588 788,558" fill="#06B6D4" opacity="0.08" />
+  <circle cx="740" cy="100" r="25" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.1" />
+  <polygon points="60,540 80,510 100,540" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.1" />
+  <rect x="70" y="80" width="18" height="18" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.08" transform="rotate(45, 79, 89)" />
+  <rect x="15" y="15" width="770" height="55" fill="url(#headerGrad)" rx="8" opacity="0.92" />
+  <rect x="25" y="22" width="50" height="38" fill="#FFFFFF" rx="6" opacity="0.25" />
+  <text x="50" y="49" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">10</text>
+  <text x="410" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Касательная к окружности</text>
+  <text x="760" y="35" font-family="Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="end" opacity="0.7">8 класс</text>
+  <text x="760" y="50" font-family="Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="end" opacity="0.7">Геометрия</text>
+  <line x1="20" y1="80" x2="780" y2="80" stroke="#06B6D4" stroke-width="2" opacity="0.25" />
+  <rect x="23" y="93" width="370" height="110" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="20" y="90" width="370" height="110" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="20" y="90" width="370" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="20" y="106" width="370" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="205" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Определение</text>
+  <text x="32" y="130" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Касательная к окружности — прямая,</text>
+  <text x="32" y="147" font-family="Arial,sans-serif" font-size="12" fill="#37474F">имеющая с окружностью ровно</text>
+  <text x="32" y="164" font-family="Arial,sans-serif" font-size="12" fill="#37474F">одну общую точку (точку касания).</text>
+  <text x="32" y="181" font-family="Arial,sans-serif" font-size="12" fill="#37474F" />
+  <text x="32" y="198" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Прямая a — касательная</text>
+  <text x="32" y="215" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Точка K — точка касания</text>
+  <rect x="413" y="93" width="370" height="110" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="410" y="90" width="370" height="110" fill="#FFF7ED" rx="8" stroke="#F59E0B" stroke-width="2" opacity="0.95" />
+  <rect x="410" y="90" width="370" height="24" fill="#F59E0B" rx="8" opacity="0.2" />
+  <rect x="410" y="106" width="370" height="8" fill="#F59E0B" opacity="0.2" />
+  <text x="595" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#92400E" text-anchor="middle">Свойства касательной</text>
+  <text x="422" y="130" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">1. Касательная ⊥ радиусу в точке</text>
+  <text x="422" y="148" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">   касания: a ⊥ OK</text>
+  <text x="422" y="166" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold" />
+  <text x="422" y="184" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">2. Отрезки касательных, проведённых</text>
+  <text x="422" y="202" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">   из одной точки, равны:</text>
+  <text x="422" y="220" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">   AM = AN</text>
+  <g clip-path="url(#ill10)">
+    <rect x="20" y="215" width="480" height="190" fill="#F0FDFA" opacity="0.6" />
+    <rect x="20" y="215" width="480" height="190" fill="none" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.4" />
+    <circle cx="260" cy="320" r="70" fill="#06B6D4" opacity="0.06" stroke="#06B6D4" stroke-width="2.5" />
+    <circle cx="260" cy="320" r="3" fill="#F59E0B" />
+    <text x="254" y="312" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">O</text>
+    <line x1="260" y1="320" x2="320" y2="285" stroke="#F59E0B" stroke-width="2" />
+    <text x="290" y="296" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#F59E0B" text-anchor="middle" font-style="italic">r</text>
+    <line x1="279" y1="215" x2="360" y2="354" stroke="#EF4444" stroke-width="2.5" />
+    <circle cx="320" cy="285" r="4" fill="#EF4444" />
+    <text x="330" y="279" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#EF4444">K</text>
+    <polygon points="320,285 328,279 333,287 325,293" fill="none" stroke="#EF4444" stroke-width="1" />
+    <text x="360" y="348" font-family="Arial,sans-serif" font-size="12" fill="#EF4444" font-style="italic">a</text>
+  </g>
+  <g clip-path="url(#ill10b)">
+    <rect x="510" y="215" width="270" height="190" fill="#F0FDFA" opacity="0.6" />
+    <rect x="510" y="215" width="270" height="190" fill="none" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.4" />
+    <circle cx="640" cy="330" r="50" fill="#06B6D4" opacity="0.06" stroke="#06B6D4" stroke-width="2" />
+    <circle cx="540" cy="250" r="3" fill="#EF4444" />
+    <line x1="540" y1="250" x2="616" y2="286" stroke="#EF4444" stroke-width="2" />
+    <line x1="540" y1="250" x2="591" y2="316" stroke="#EF4444" stroke-width="2" />
+    <text x="530" y="242" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#EF4444">A</text>
+    <text x="606" y="290" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#06B6D4">M</text>
+    <text x="597" y="320" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#06B6D4">N</text>
+    <text x="640" y="260" font-family="Arial,sans-serif" font-size="12" fill="#EF4444" font-weight="bold" text-anchor="middle">AM = AN</text>
+  </g>
+  <rect x="23" y="423" width="760" height="80" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="20" y="420" width="760" height="80" fill="#FFF7ED" rx="8" stroke="#F59E0B" stroke-width="2" opacity="0.95" />
+  <rect x="20" y="420" width="760" height="24" fill="#F59E0B" rx="8" opacity="0.2" />
+  <rect x="20" y="436" width="760" height="8" fill="#F59E0B" opacity="0.2" />
+  <text x="400" y="437" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#92400E" text-anchor="middle">Ключевые свойства</text>
+  <text x="32" y="460" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">1. Касательная ⊥ радиусу: OK ⊥ a     2. AM = AN (отрезки из одной точки)     3. OM ⊥ AM, ON ⊥ AN</text>
+  <rect x="23" y="518" width="760" height="40" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="20" y="515" width="760" height="40" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="20" y="515" width="760" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="20" y="531" width="760" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="400" y="532" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Признак касательной</text>
+  <text x="32" y="555" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Если прямая проходит через точку окружности и перпендикулярна радиусу, проведённому в эту точку, то она — касательная.</text>
+  <rect x="15" y="560" width="770" height="28" fill="url(#panelGrad)" opacity="0.08" rx="6" />
+  <text x="400" y="578" font-family="Arial,sans-serif" font-size="11" fill="#06B6D4" text-anchor="middle" opacity="0.6">Геометрия · 8 класс</text>
+  <circle cx="35" cy="574" r="8" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.3" />
+  <circle cx="765" cy="574" r="8" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.3" />
+</svg>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#F7FEE7" rx="12" />
+  <rect x="2" y="2" width="796" height="596" fill="none" stroke="#84CC16" stroke-width="3" rx="12" />
+  <rect x="3" y="3" width="794" height="56" fill="#65A30D" rx="10" />
+  <text x="400" y="38" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Круговорот воды и углерода</text>
+  <text x="28" y="40" font-size="26">🌿</text>
+  <text x="752" y="40" font-size="26">🌿</text>
+  <text x="400" y="82" text-anchor="middle" fill="#166534" font-size="15" font-style="italic" font-family="Arial, sans-serif">Глобальные циклы веществ в биосфере</text>
+  <rect x="25" y="92" width="380" height="495" fill="#FFFFFF" stroke="#3B82F6" stroke-width="2" rx="10" />
+  <text x="215" y="112" text-anchor="middle" fill="#1E40AF" font-size="14" font-family="Arial, sans-serif" font-weight="bold">💧 Круговорот воды</text>
+  <path d="M60,450 Q60,350 100,300 Q140,250 180,280 Q220,310 250,350 Q280,380 300,450" fill="none" stroke="#84CC16" stroke-width="2" />
+  <rect x="50" y="450" width="330" height="100" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2" rx="0" />
+  <text x="215" y="490" text-anchor="middle" fill="#1E40AF" font-size="14" font-family="Arial, sans-serif" font-weight="bold">🌊 Океан</text>
+  <line x1="200" y1="450" x2="200" y2="350" stroke="#3B82F6" stroke-width="2" />
+  <polygon points="200,350 205.0,358.66025403784437 195.0,358.66025403784437" fill="#3B82F6" />
+  <text x="150" y="400" text-anchor="end" fill="#3B82F6" font-size="10" font-family="Arial, sans-serif">Испарение</text>
+  <ellipse cx="200" cy="320" rx="50" ry="25" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+  <ellipse cx="185" cy="325" rx="30" ry="20" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+  <ellipse cx="220" cy="325" rx="35" ry="22" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+  <text x="200" y="298" text-anchor="middle" fill="#475569" font-size="10" font-family="Arial, sans-serif">☁ Облако</text>
+  <line x1="130" y1="345" x2="100" y2="400" stroke="#3B82F6" stroke-width="2" />
+  <polygon points="100,400 99.7575032336849,390.0029406664596 108.53645896282875,394.79146197326537" fill="#3B82F6" />
+  <text x="80" y="380" text-anchor="end" fill="#3B82F6" font-size="10" font-family="Arial, sans-serif">Осадки</text>
+  <line x1="300" y1="450" x2="320" y2="500" stroke="#3B82F6" stroke-width="1" />
+  <polygon points="320,500 312.1412789410603,493.8161093704871 321.4260458499129,490.10220260694604" fill="#3B82F6" />
+  <text x="340" y="480" text-anchor="start" fill="#3B82F6" font-size="9" font-family="Arial, sans-serif">Инфильтрация</text>
+  <line x1="100" y1="400" x2="150" y2="450" stroke="#3B82F6" stroke-width="2" />
+  <polygon points="150,450 140.3407417371093,447.4118095489748 147.4118095489748,440.34074173710934" fill="#3B82F6" />
+  <text x="80" y="430" text-anchor="end" fill="#3B82F6" font-size="10" font-family="Arial, sans-serif">Сток</text>
+  <line x1="280" y1="380" x2="280" y2="320" stroke="#22C55E" stroke-width="2" />
+  <polygon points="280,320 285.0,328.66025403784437 275.0,328.66025403784437" fill="#22C55E" />
+  <text x="300" y="350" text-anchor="start" fill="#22C55E" font-size="9" font-family="Arial, sans-serif">Транспирация</text>
+  <rect x="260" y="380" width="30" height="70" fill="#92400E" stroke="none" stroke-width="2" rx="0" />
+  <circle cx="275" cy="360" r="25" fill="#22C55E" stroke="#15803D" stroke-width="2" />
+  <text x="215" y="530" text-anchor="middle" fill="#3B82F6" font-size="10" font-family="Arial, sans-serif">💧 Подземные воды</text>
+  <rect x="35" y="540" width="360" height="38" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2" rx="6" />
+  <text x="215" y="563" text-anchor="middle" fill="#1E40AF" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Испарение → Конденсация → Осадки → Сток</text>
+  <rect x="415" y="92" width="365" height="495" fill="#FFFFFF" stroke="#65A30D" stroke-width="2" rx="10" />
+  <text x="597" y="112" text-anchor="middle" fill="#4D7C0F" font-size="14" font-family="Arial, sans-serif" font-weight="bold">☣ Круговорот углерода</text>
+  <ellipse cx="597" cy="175" rx="90" ry="40" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2" />
+  <text x="597" y="172" text-anchor="middle" fill="#1E40AF" font-size="11" font-family="Arial, sans-serif" font-weight="bold">CO₂ в атмосфере</text>
+  <line x1="555" y1="215" x2="510" y2="260" stroke="#22C55E" stroke-width="2" />
+  <polygon points="510,260 512.5881904510252,250.3407417371093 519.6592582628907,257.4118095489748" fill="#22C55E" />
+  <text x="510" y="240" text-anchor="end" fill="#22C55E" font-size="9" font-family="Arial, sans-serif">Фотосинтез</text>
+  <circle cx="500" cy="290" r="30" fill="#86EFAC" stroke="#22C55E" stroke-width="2" />
+  <text x="500" y="294" text-anchor="middle" fill="#FFFFFF" font-size="22" font-family="Arial, sans-serif">🌿</text>
+  <text x="500" y="330" text-anchor="middle" fill="#15803D" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Растения</text>
+  <line x1="530" y1="270" x2="560" y2="210" stroke="#EA580C" stroke-width="2" />
+  <polygon points="560,210 560.5991526087921,219.9820346699146 551.654880698793,215.50989871491504" fill="#EA580C" />
+  <text x="565" y="245" text-anchor="start" fill="#EA580C" font-size="9" font-family="Arial, sans-serif">Дыхание</text>
+  <line x1="535" y1="290" x2="600" y2="290" stroke="#65A30D" stroke-width="2" />
+  <polygon points="600,290 591.3397459621556,295.0 591.3397459621556,285.0" fill="#65A30D" />
+  <text x="570" y="282" text-anchor="middle" fill="#365314" font-size="9" font-family="Arial, sans-serif">Поедание</text>
+  <circle cx="650" cy="290" r="30" fill="#FED7AA" stroke="#EA580C" stroke-width="2" />
+  <text x="650" y="295" text-anchor="middle" fill="#FFFFFF" font-size="22" font-family="Arial, sans-serif">🐾</text>
+  <text x="650" y="330" text-anchor="middle" fill="#EA580C" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Животные</text>
+  <line x1="640" y1="260" x2="610" y2="210" stroke="#EA580C" stroke-width="2" />
+  <polygon points="610,210 618.7431285719578,214.85362779518744 610.1681993148323,219.9985853494627" fill="#EA580C" />
+  <text x="635" y="230" text-anchor="end" fill="#EA580C" font-size="9" font-family="Arial, sans-serif">Дыхание</text>
+  <line x1="650" y1="320" x2="660" y2="380" stroke="#991B1B" stroke-width="2" />
+  <polygon points="660,380 653.6442933872105,372.2795729747543 663.508232625532,370.6355831017007" fill="#991B1B" />
+  <text x="680" y="350" text-anchor="start" fill="#991B1B" font-size="9" font-family="Arial, sans-serif">Отмирание</text>
+  <ellipse cx="600" cy="410" rx="70" ry="30" fill="#FEE2E2" stroke="#991B1B" stroke-width="2" />
+  <text x="600" y="414" text-anchor="middle" fill="#991B1B" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Редуценты</text>
+  <line x1="560" y1="400" x2="540" y2="215" stroke="#991B1B" stroke-width="2" />
+  <polygon points="540,215 545.9018553024925,223.07267638323503 535.959784826834,224.14749481303596" fill="#991B1B" />
+  <text x="530" y="310" text-anchor="end" fill="#991B1B" font-size="9" font-family="Arial, sans-serif">Разложение</text>
+  <rect x="520" y="460" width="140" height="50" fill="#78350F" stroke="#78350F" stroke-width="2" rx="8" />
+  <text x="590" y="480" text-anchor="middle" fill="#FFFFFF" font-size="10" font-family="Arial, sans-serif" font-weight="bold">⛽ Ископаемое</text>
+  <text x="590" y="495" text-anchor="middle" fill="#FFFFFF" font-size="10" font-family="Arial, sans-serif">топливо</text>
+  <line x1="600" y1="460" x2="597" y2="220" stroke="#DC2626" stroke-width="2" />
+  <polygon points="597,220 602.1078541399551,228.59708241701472 592.1086352984142,228.722072652534" fill="#DC2626" />
+  <text x="625" y="370" text-anchor="start" fill="#DC2626" font-size="9" font-family="Arial, sans-serif">Сжигание</text>
+  <rect x="425" y="540" width="345" height="38" fill="#F0FDF4" stroke="#65A30D" stroke-width="2" rx="6" />
+  <text x="597" y="563" text-anchor="middle" fill="#4D7C0F" font-size="10" font-family="Arial, sans-serif" font-weight="bold">Фотосинтез → Дыхание → Разложение → Сжигание</text>
+</svg>

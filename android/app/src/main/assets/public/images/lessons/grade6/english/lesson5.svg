@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Free Time Activities</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Иностранный язык - Урок 5</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Reading Book -->
+  <g transform="translate(25, 90)">
+    <rect x="0" y="0" width="85" height="70" rx="6" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.2"/>
+    <!-- Open book -->
+    <rect x="18" y="15" width="24" height="30" rx="1" fill="#FFF8E1" stroke="#8D6E63" stroke-width="1" transform="rotate(-5, 30, 30)"/>
+    <rect x="42" y="15" width="24" height="30" rx="1" fill="#FFFDE7" stroke="#8D6E63" stroke-width="1" transform="rotate(5, 54, 30)"/>
+    <!-- Text lines on pages -->
+    <line x1="22" y1="22" x2="38" y2="22" stroke="#BDBDBD" stroke-width="0.5"/>
+    <line x1="22" y1="26" x2="36" y2="26" stroke="#BDBDBD" stroke-width="0.5"/>
+    <line x1="22" y1="30" x2="38" y2="30" stroke="#BDBDBD" stroke-width="0.5"/>
+    <line x1="22" y1="34" x2="34" y2="34" stroke="#BDBDBD" stroke-width="0.5"/>
+    <line x1="46" y1="22" x2="62" y2="22" stroke="#BDBDBD" stroke-width="0.5"/>
+    <line x1="46" y1="26" x2="60" y2="26" stroke="#BDBDBD" stroke-width="0.5"/>
+    <line x1="46" y1="30" x2="62" y2="30" stroke="#BDBDBD" stroke-width="0.5"/>
+    <line x1="46" y1="34" x2="58" y2="34" stroke="#BDBDBD" stroke-width="0.5"/>
+    <!-- Reading person silhouette -->
+    <circle cx="42" y="55" r="5" fill="#FFCC80" cy="55"/>
+    <rect x="38" y="60" width="8" height="8" rx="2" fill="#2E7D32"/>
+    <text x="42" y="15" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" opacity="0.5"></text>
+  </g>
+  <text x="67" y="172" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">reading</text>
+
+  <!-- Playing Football -->
+  <g transform="translate(122, 90)">
+    <rect x="0" y="0" width="85" height="70" rx="6" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.2"/>
+    <!-- Football -->
+    <circle cx="60" cy="40" r="10" fill="white" stroke="#333" stroke-width="1"/>
+    <path d="M55,33 L60,36 L55,39 L58,35 Z" fill="#333" opacity="0.5"/>
+    <path d="M65,33 L60,36 L65,39 L62,35 Z" fill="#333" opacity="0.5"/>
+    <path d="M53,40 L57,38 L58,42 L54,43 Z" fill="#333" opacity="0.3"/>
+    <!-- Kicking figure -->
+    <circle cx="30" cy="28" r="6" fill="#FFCC80"/>
+    <rect x="26" y="34" width="8" height="14" rx="2" fill="#1565C0"/>
+    <!-- Legs in kicking pose -->
+    <line x1="28" y1="48" x2="20" y2="56" stroke="#37474F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="32" y1="48" x2="48" y2="38" stroke="#37474F" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="164" y="172" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">football</text>
+
+  <!-- Cycling -->
+  <g transform="translate(219, 90)">
+    <rect x="0" y="0" width="85" height="70" rx="6" fill="#FFF3E0" stroke="#E65100" stroke-width="1.2"/>
+    <!-- Bicycle wheels -->
+    <circle cx="25" cy="48" r="12" fill="none" stroke="#555" stroke-width="1.5"/>
+    <circle cx="25" cy="48" r="2" fill="#555"/>
+    <circle cx="60" cy="48" r="12" fill="none" stroke="#555" stroke-width="1.5"/>
+    <circle cx="60" cy="48" r="2" fill="#555"/>
+    <!-- Frame -->
+    <line x1="25" y1="48" x2="42" y2="30" stroke="#E65100" stroke-width="2"/>
+    <line x1="42" y1="30" x2="60" y2="48" stroke="#E65100" stroke-width="2"/>
+    <line x1="25" y1="48" x2="42" y2="48" stroke="#E65100" stroke-width="1.5"/>
+    <line x1="42" y1="48" x2="60" y2="48" stroke="#E65100" stroke-width="1.5"/>
+    <!-- Handlebars -->
+    <line x1="42" y1="30" x2="48" y2="26" stroke="#555" stroke-width="1.5"/>
+    <line x1="44" y1="24" x2="52" y2="24" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+    <!-- Seat -->
+    <line x1="42" y1="30" x2="38" y2="26" stroke="#555" stroke-width="1.5"/>
+    <ellipse cx="36" cy="25" rx="5" ry="2" fill="#555"/>
+    <!-- Rider -->
+    <circle cx="36" cy="17" r="5" fill="#FFCC80"/>
+    <line x1="36" y1="22" x2="36" y2="25" stroke="#C62828" stroke-width="2"/>
+    <line x1="36" y1="25" x2="48" y2="24" stroke="#C62828" stroke-width="1.5"/>
+    <line x1="36" y1="27" x2="28" y2="40" stroke="#C62828" stroke-width="1.5"/>
+    <line x1="36" y1="27" x2="50" y2="38" stroke="#C62828" stroke-width="1.5"/>
+  </g>
+  <text x="261" y="172" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">cycling</text>
+
+  <!-- Guitar -->
+  <g transform="translate(316, 90)">
+    <rect x="0" y="0" width="85" height="70" rx="6" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1.2"/>
+    <!-- Guitar body -->
+    <ellipse cx="40" cy="45" rx="18" ry="16" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1.5"/>
+    <ellipse cx="40" cy="33" rx="12" ry="10" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1.5"/>
+    <!-- Sound hole -->
+    <circle cx="40" cy="47" r="5" fill="#5D4037"/>
+    <!-- Neck -->
+    <rect x="37" y="10" width="6" height="25" rx="1" fill="#8D6E63" stroke="#6D4C41" stroke-width="0.5"/>
+    <!-- Strings -->
+    <line x1="38" y1="12" x2="38" y2="55" stroke="#999" stroke-width="0.4"/>
+    <line x1="40" y1="12" x2="40" y2="55" stroke="#999" stroke-width="0.4"/>
+    <line x1="42" y1="12" x2="42" y2="55" stroke="#999" stroke-width="0.4"/>
+    <!-- Tuning pegs -->
+    <circle cx="36" cy="11" r="2" fill="#FDD835"/>
+    <circle cx="44" cy="11" r="2" fill="#FDD835"/>
+    <!-- Headstock -->
+    <rect x="35" y="6" width="10" height="7" rx="2" fill="#6D4C41"/>
+    <!-- Music notes -->
+    <text x="62" y="18" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" opacity="0.4">&#9834;</text>
+    <text x="68" y="28" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" opacity="0.3">&#9834;</text>
+    <text x="60" y="35" font-family="Arial,sans-serif" font-size="12" fill="#7B1FA2" opacity="0.3">&#9835;</text>
+  </g>
+  <text x="358" y="172" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" text-anchor="middle" font-weight="bold">guitar</text>
+
+  <!-- Painting -->
+  <g transform="translate(413, 90)">
+    <rect x="0" y="0" width="70" height="70" rx="6" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.2"/>
+    <!-- Canvas -->
+    <rect x="15" y="10" width="38" height="30" rx="1" fill="white" stroke="#8D6E63" stroke-width="1"/>
+    <!-- Easel legs -->
+    <line x1="15" y1="40" x2="10" y2="58" stroke="#8D6E63" stroke-width="1.5"/>
+    <line x1="53" y1="40" x2="58" y2="58" stroke="#8D6E63" stroke-width="1.5"/>
+    <line x1="34" y1="40" x2="34" y2="58" stroke="#8D6E63" stroke-width="1"/>
+    <!-- Painting on canvas -->
+    <circle cx="28" cy="22" r="5" fill="#FDD835"/>
+    <path d="M20,32 L30,22 L40,32 Z" fill="#4CAF50"/>
+    <rect x="22" y="15" width="18" height="2" fill="#42A5F5"/>
+    <!-- Paintbrush -->
+    <line x1="55" y1="20" x2="62" y2="50" stroke="#8D6E63" stroke-width="2"/>
+    <rect x="59" y="48" width="6" height="8" rx="1" fill="#C62828"/>
+  </g>
+  <text x="448" y="172" font-family="Arial,sans-serif" font-size="9" fill="#F9A825" text-anchor="middle" font-weight="bold">painting</text>
+
+  <!-- Swimming -->
+  <g transform="translate(195, 182)">
+    <rect x="0" y="0" width="110" height="65" rx="6" fill="#E0F7FA" stroke="#00838F" stroke-width="1.2"/>
+    <!-- Water waves -->
+    <path d="M5,35 Q15,30 25,35 Q35,40 45,35 Q55,30 65,35 Q75,40 85,35 Q95,30 105,35" fill="none" stroke="#4DD0E1" stroke-width="1.5"/>
+    <path d="M5,42 Q15,37 25,42 Q35,47 45,42 Q55,37 65,42 Q75,47 85,42 Q95,37 105,42" fill="none" stroke="#4DD0E1" stroke-width="1" opacity="0.6"/>
+    <path d="M5,49 Q15,44 25,49 Q35,54 45,49 Q55,44 65,49 Q75,54 85,49 Q95,44 105,49" fill="none" stroke="#4DD0E1" stroke-width="0.8" opacity="0.4"/>
+    <!-- Swimmer -->
+    <circle cx="40" cy="25" r="5" fill="#FFCC80"/>
+    <line x1="45" y1="25" x2="58" y2="22" stroke="#00838F" stroke-width="2"/>
+    <path d="M35,30 L45,25" stroke="#00838F" stroke-width="2"/>
+    <line x1="45" y1="25" x2="50" y2="33" stroke="#37474F" stroke-width="1.5"/>
+  </g>
+  <text x="250" y="260" font-family="Arial,sans-serif" font-size="9" fill="#00838F" text-anchor="middle" font-weight="bold">swimming</text>
+
+  <!-- Speech Bubbles: I like / I don't like -->
+  <g transform="translate(30, 188)">
+    <!-- I Like bubble -->
+    <rect x="0" y="0" width="80" height="28" rx="14" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+    <circle cx="8" cy="28" r="4" fill="#E8F5E9"/>
+    <text x="40" y="18" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle" font-weight="bold">I like</text>
+  </g>
+  <g transform="translate(340, 188)">
+    <!-- I don't like bubble -->
+    <rect x="0" y="0" width="115" height="28" rx="14" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+    <circle cx="108" cy="28" r="4" fill="#FFEBEE"/>
+    <text x="57" y="18" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">I don't like</text>
+  </g>
+
+  <!-- Hobby phrases at bottom -->
+  <g transform="translate(35, 272)">
+    <rect x="0" y="0" width="62" height="16" rx="8" fill="#7B1FA2" opacity="0.1"/>
+    <text x="31" y="12" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle" font-weight="bold">My hobby is</text>
+  </g>
+  <g transform="translate(108, 272)">
+    <rect x="0" y="0" width="72" height="16" rx="8" fill="#E65100" opacity="0.1"/>
+    <text x="36" y="12" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">I enjoy reading</text>
+  </g>
+  <g transform="translate(190, 272)">
+    <rect x="0" y="0" width="75" height="16" rx="8" fill="#00838F" opacity="0.1"/>
+    <text x="37" y="12" font-family="Arial,sans-serif" font-size="8" fill="#00838F" text-anchor="middle" font-weight="bold">I love swimming</text>
+  </g>
+  <g transform="translate(275, 272)">
+    <rect x="0" y="0" width="80" height="16" rx="8" fill="#F9A825" opacity="0.1"/>
+    <text x="40" y="12" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" text-anchor="middle" font-weight="bold">I'm good at music</text>
+  </g>
+  <g transform="translate(365, 272)">
+    <rect x="0" y="0" width="85" height="16" rx="8" fill="#C62828" opacity="0.1"/>
+    <text x="42" y="12" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">In my free time...</text>
+  </g>
+
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Free Time Activities</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <rect y="8" width="500" height="2" fill="#D4A843" opacity="0.6"/>
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Бытовые сказки</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1a1a1a" text-anchor="middle" opacity="0.7">Юмор и поучение в повседневной жизни</text>
+  <!-- Gold decorative line under subtitle -->
+  <line x1="120" y1="78" x2="380" y2="78" stroke="#D4A843" stroke-width="1.5" opacity="0.5"/>
+  <!-- Bottom bar -->
+  <rect y="320" width="500" height="30" fill="#1a1a1a"/>
+  <rect y="318" width="500" height="2" fill="#D4A843" opacity="0.4"/>
+  <text x="250" y="340" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#F5E6C8" text-anchor="middle" letter-spacing="1">Литературное чтение — 4 класс</text>
+  <!-- Bauhaus background shapes -->
+  <rect x="20" y="90" width="100" height="220" fill="#6A1B9A" opacity="0.06" transform="rotate(-5 70 200)"/>
+  <rect x="380" y="85" width="100" height="225" fill="#C41E3A" opacity="0.06" transform="rotate(5 430 200)"/>
+  <!-- Large cauldron/pot (center) -->
+  <ellipse cx="250" cy="230" rx="65" ry="50" fill="#A0826D"/>
+  <ellipse cx="250" cy="180" rx="65" ry="18" fill="#B8956F"/>
+  <ellipse cx="250" cy="180" rx="55" ry="14" fill="#8B6F55"/>
+  <ellipse cx="250" cy="180" rx="65" ry="18" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M185,190 Q170,185 170,195 Q170,205 185,200" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <path d="M315,190 Q330,185 330,195 Q330,205 315,200" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- Axe sticking in cauldron -->
+  <line x1="250" y1="130" x2="250" y2="195" stroke="#8B6F55" stroke-width="5"/>
+  <path d="M238,130 L250,115 L262,130 L258,140 L242,140Z" fill="#888" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="242" y1="135" x2="258" y2="135" stroke="#1a1a1a" stroke-width="0.5" opacity="0.5"/>
+  <path d="M230,165 Q225,150 230,140" fill="none" stroke="#1a1a1a" stroke-width="1.5" opacity="0.2"/>
+  <path d="M250,162 Q245,145 250,132" fill="none" stroke="#1a1a1a" stroke-width="1.5" opacity="0.2"/>
+  <path d="M270,165 Q275,150 270,140" fill="none" stroke="#1a1a1a" stroke-width="1.5" opacity="0.2"/>
+  <!-- Soldier figure (left) -->
+  <rect x="72" y="180" width="36" height="60" rx="3" fill="#C41E3A" opacity="0.85"/>
+  <rect x="72" y="215" width="36" height="5" fill="#1a1a1a"/>
+  <rect x="78" y="240" width="10" height="40" fill="#555"/>
+  <rect x="94" y="240" width="10" height="40" fill="#555"/>
+  <rect x="75" y="275" width="14" height="8" rx="2" fill="#333"/>
+  <rect x="93" y="275" width="14" height="8" rx="2" fill="#333"/>
+  <circle cx="90" cy="168" r="16" fill="#F5D5B8"/>
+  <path d="M74,165 Q90,148 106,165 L104,158 Q90,145 76,158Z" fill="#1a1a1a"/>
+  <circle cx="84" cy="166" r="2" fill="#1a1a1a"/>
+  <circle cx="96" cy="166" r="2" fill="#1a1a1a"/>
+  <path d="M85,173 Q90,178 95,173" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <line x1="108" y1="195" x2="140" y2="185" stroke="#F5D5B8" stroke-width="6" stroke-linecap="round"/>
+  <!-- Woman figure (right) -->
+  <path d="M380,190 L370,280 L430,280 L420,190Z" fill="#6A1B9A" opacity="0.6"/>
+  <circle cx="400" cy="175" r="16" fill="#F5D5B8"/>
+  <path d="M384,172 Q400,155 416,172 L420,185 L380,185Z" fill="#C41E3A" opacity="0.7"/>
+  <circle cx="394" cy="173" r="2" fill="#1a1a1a"/>
+  <circle cx="406" cy="173" r="2" fill="#1a1a1a"/>
+  <ellipse cx="400" cy="181" rx="4" ry="3" fill="#1a1a1a" opacity="0.3"/>
+  <line x1="370" y1="205" x2="395" y2="220" stroke="#F5D5B8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="430" y1="205" x2="405" y2="220" stroke="#F5D5B8" stroke-width="6" stroke-linecap="round"/>
+  <!-- Speech bubble from soldier -->
+  <ellipse cx="155" cy="160" rx="30" ry="15" fill="#F5E6C8" stroke="#1a1a1a" stroke-width="1" opacity="0.9"/>
+  <circle cx="140" cy="170" r="4" fill="#F5E6C8" stroke="#1a1a1a" stroke-width="0.5" opacity="0.7"/>
+  <text x="155" y="164" font-family="Arial" font-size="10" fill="#1a1a1a" text-anchor="middle">Каша!</text>
+  <!-- Table under pot -->
+  <rect x="175" y="275" width="150" height="8" fill="#8B6F55" rx="2"/>
+  <rect x="185" y="283" width="8" height="30" fill="#8B6F55"/>
+  <rect x="307" y="283" width="8" height="30" fill="#8B6F55"/>
+</svg>

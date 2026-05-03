@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0"/>
+      <stop offset="100%" style="stop-color:#FFE0B2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#grad5)"/>
+  <rect width="500" height="350" fill="#E8F5E9" opacity="0.2"/>
+  
+  <!-- Sun -->
+  <circle cx="450" cy="50" r="30" fill="#FFD54F">
+    <animate attributeName="r" values="28;35;28" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <g stroke="#FFD54F" stroke-width="3">
+    <line x1="450" y1="10" x2="450" y2="0">
+      <animate attributeName="y2" values="0;5;0" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="480" y1="20" x2="490" y2="10"/>
+    <line x1="420" y1="20" x2="410" y2="10"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#E65100" text-anchor="middle">🐱 Animals</text>
+  <rect x="100" y="45" width="300" height="2" rx="1" fill="#FF9800" opacity="0.6"/>
+  
+  <!-- Animals grid -->
+  <g font-family="Arial, sans-serif">
+    <!-- Cat -->
+    <rect x="20" y="65" width="110" height="85" fill="#FFECB3" rx="10">
+      <animate attributeName="fill" values="#FFECB3;#FFF8E1;#FFECB3" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="75" cy="110" rx="28" ry="22" fill="#FF7043"/>
+    <polygon points="52,95 58,75 68,95" fill="#FF7043"/>
+    <polygon points="82,95 92,75 98,95" fill="#FF7043"/>
+    <circle cx="65" cy="105" r="3" fill="#333"/>
+    <circle cx="85" cy="105" r="3" fill="#333"/>
+    <ellipse cx="75" cy="115" rx="4" ry="3" fill="#FF5722"/>
+    <text x="75" y="145" font-size="13" fill="#BF360C" text-anchor="middle" font-weight="bold">cat</text>
+    
+    <!-- Dog -->
+    <rect x="140" y="65" width="110" height="85" fill="#C8E6C9" rx="10">
+      <animate attributeName="fill" values="#C8E6C9;#E8F5E9;#C8E6C9" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="195" cy="110" rx="28" ry="20" fill="#8D6E63"/>
+    <ellipse cx="175" cy="90" rx="15" ry="18" fill="#8D6E63"/>
+    <ellipse cx="215" cy="90" rx="15" ry="18" fill="#8D6E63"/>
+    <circle cx="185" cy="105" r="3" fill="#333"/>
+    <circle cx="205" cy="105" r="3" fill="#333"/>
+    <ellipse cx="195" cy="118" rx="6" ry="4" fill="#333"/>
+    <text x="195" y="145" font-size="13" fill="#3E2723" text-anchor="middle" font-weight="bold">dog</text>
+    
+    <!-- Bird -->
+    <rect x="260" y="65" width="110" height="85" fill="#B3E5FC" rx="10">
+      <animate attributeName="fill" values="#B3E5FC;#E1F5FE;#B3E5FC" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="315" cy="110" rx="22" ry="18" fill="#42A5F5"/>
+    <circle cx="305" cy="100" r="10" fill="#42A5F5"/>
+    <polygon points="295,100 280,105 295,110" fill="#FF9800"/>
+    <circle cx="302" cy="98" r="2" fill="#333"/>
+    <path d="M325 100 Q340 90 335 110" stroke="#1E88E5" fill="none" stroke-width="2"/>
+    <text x="315" y="145" font-size="13" fill="#0D47A1" text-anchor="middle" font-weight="bold">bird</text>
+    
+    <!-- Fish -->
+    <rect x="380" y="65" width="100" height="85" fill="#E0F7FA" rx="10">
+      <animate attributeName="fill" values="#E0F7FA;#B2EBF2;#E0F7FA" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="425" cy="110" rx="25" ry="15" fill="#FF8A65"/>
+    <polygon points="450,110 470,95 470,125" fill="#FF7043"/>
+    <circle cx="410" cy="107" r="3" fill="#333"/>
+    <ellipse cx="430" cy="110" rx="3" ry="5" fill="#FFCCBC"/>
+    <text x="425" y="145" font-size="13" fill="#BF360C" text-anchor="middle" font-weight="bold">fish</text>
+    
+    <!-- Rabbit -->
+    <rect x="20" y="160" width="110" height="85" fill="#F3E5F5" rx="10">
+      <animate attributeName="fill" values="#F3E5F5;#FCE4EC;#F3E5F5" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="75" cy="210" rx="22" ry="18" fill="#E0E0E0"/>
+    <ellipse cx="62" cy="180" rx="6" ry="18" fill="#E0E0E0"/>
+    <ellipse cx="88" cy="180" rx="6" ry="18" fill="#E0E0E0"/>
+    <ellipse cx="68" cy="180" rx="4" ry="14" fill="#FFCDD2"/>
+    <ellipse cx="92" cy="180" rx="4" ry="14" fill="#FFCDD2"/>
+    <circle cx="68" cy="205" r="2" fill="#333"/>
+    <circle cx="82" cy="205" r="2" fill="#333"/>
+    <ellipse cx="75" cy="215" rx="4" ry="3" fill="#FFCDD2"/>
+    <text x="75" y="240" font-size="13" fill="#616161" text-anchor="middle" font-weight="bold">rabbit</text>
+    
+    <!-- Mouse -->
+    <rect x="140" y="160" width="110" height="85" fill="#ECEFF1" rx="10">
+      <animate attributeName="fill" values="#ECEFF1;#FAFAFA;#ECEFF1" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="195" cy="210" rx="20" ry="15" fill="#90A4AE"/>
+    <circle cx="185" cy="195" r="8" fill="#90A4AE"/>
+    <circle cx="182" cy="193" r="5" fill="#FFCDD2"/>
+    <circle cx="188" cy="193" r="5" fill="#FFCDD2"/>
+    <circle cx="183" cy="195" r="2" fill="#333"/>
+    <line x1="175" y1="200" x2="160" y2="195" stroke="#78909C" stroke-width="1"/>
+    <line x1="175" y1="205" x2="160" y2="210" stroke="#78909C" stroke-width="1"/>
+    <text x="195" y="240" font-size="13" fill="#37474F" text-anchor="middle" font-weight="bold">mouse</text>
+    
+    <!-- Cow -->
+    <rect x="260" y="160" width="110" height="85" fill="#FFF8E1" rx="10">
+      <animate attributeName="fill" values="#FFF8E1;#FFFDE7;#FFF8E1" dur="5.8s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="315" cy="205" rx="30" ry="22" fill="#FAFAFA"/>
+    <ellipse cx="315" cy="205" rx="8" ry="8" fill="#424242"/>
+    <ellipse cx="300" cy="195" rx="5" ry="5" fill="#424242"/>
+    <ellipse cx="330" cy="215" rx="5" ry="5" fill="#424242"/>
+    <ellipse cx="315" cy="215" rx="10" ry="6" fill="#FFCDD2"/>
+    <circle cx="305" cy="195" r="3" fill="#333"/>
+    <circle cx="325" cy="195" r="3" fill="#333"/>
+    <text x="315" y="240" font-size="13" fill="#424242" text-anchor="middle" font-weight="bold">cow</text>
+    
+    <!-- Pig -->
+    <rect x="380" y="160" width="100" height="85" fill="#FCE4EC" rx="10">
+      <animate attributeName="fill" values="#FCE4EC;#F8BBD9;#FCE4EC" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="425" cy="205" rx="25" ry="20" fill="#F48FB1"/>
+    <ellipse cx="425" cy="210" rx="10" ry="7" fill="#EC407A"/>
+    <circle cx="420" cy="208" r="2" fill="#C2185B"/>
+    <circle cx="430" cy="208" r="2" fill="#C2185B"/>
+    <circle cx="415" cy="195" r="3" fill="#333"/>
+    <circle cx="435" cy="195" r="3" fill="#333"/>
+    <ellipse cx="410" cy="190" rx="8" ry="10" fill="#F48FB1"/>
+    <ellipse cx="440" cy="190" rx="8" ry="10" fill="#F48FB1"/>
+    <text x="425" y="240" font-size="13" fill="#880E4F" text-anchor="middle" font-weight="bold">pig</text>
+  </g>
+  
+  <!-- Lesson number -->
+  <circle cx="30" cy="320" r="20" fill="#FF9800" opacity="0.9"/>
+  <text x="30" y="326" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">5</text>
+</svg>

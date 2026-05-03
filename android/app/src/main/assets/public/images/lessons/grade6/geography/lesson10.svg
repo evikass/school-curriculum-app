@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Биосфера - живая оболочка Земли</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 10</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Card 1: Circle of Life diagram -->
+  <rect x="30" y="92" width="155" height="200" rx="6" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="107" y="108" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle" font-weight="bold">Круговорот жизни</text>
+  <!-- Sun -->
+  <circle cx="107" cy="145" r="12" fill="#FDD835" stroke="#F9A825" stroke-width="1"/>
+  <line x1="107" y1="129" x2="107" y2="125" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="95" y1="133" x2="92" y2="130" stroke="#F9A825" stroke-width="1"/>
+  <line x1="119" y1="133" x2="122" y2="130" stroke="#F9A825" stroke-width="1"/>
+  <line x1="91" y1="145" x2="87" y2="145" stroke="#F9A825" stroke-width="1"/>
+  <line x1="123" y1="145" x2="127" y2="145" stroke="#F9A825" stroke-width="1"/>
+  <!-- Arrow down to plants -->
+  <line x1="107" y1="160" x2="107" y2="172" stroke="#F9A825" stroke-width="1.5"/>
+  <polygon points="107,172 103,167 111,167" fill="#F9A825"/>
+  <text x="118" y="168" font-family="Arial,sans-serif" font-size="6" fill="#F9A825">свет</text>
+  <!-- Plants -->
+  <path d="M90,200 Q95,185 100,175 Q105,185 107,200" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+  <path d="M100,200 Q105,188 110,178 Q115,188 120,200" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+  <line x1="105" y1="200" x2="105" y2="210" stroke="#5D4037" stroke-width="1.5"/>
+  <text x="107" y="220" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Растения</text>
+  <!-- Arrow to herbivores -->
+  <line x1="120" y1="210" x2="132" y2="218" stroke="#FF8F00" stroke-width="1"/>
+  <polygon points="132,218 126,214 128,221" fill="#FF8F00"/>
+  <!-- Herbivore -->
+  <ellipse cx="142" cy="225" rx="10" ry="6" fill="#A1887F" stroke="#5D4037" stroke-width="0.8"/>
+  <circle cx="150" cy="220" r="5" fill="#A1887F" stroke="#5D4037" stroke-width="0.8"/>
+  <circle cx="152" cy="219" r="1" fill="#333"/>
+  <text x="142" y="240" font-family="Arial,sans-serif" font-size="7" fill="#5D4037" text-anchor="middle">Травоядные</text>
+  <!-- Arrow to predator -->
+  <line x1="142" y1="248" x2="107" y2="258" stroke="#C62828" stroke-width="1"/>
+  <polygon points="107,258 112,253 114,260" fill="#C62828"/>
+  <!-- Predator -->
+  <path d="M95,260 Q107,255 120,260" fill="#EF5350" stroke="#C62828" stroke-width="0.8"/>
+  <path d="M100,260 Q107,252 114,260" fill="#EF5350" stroke="#C62828" stroke-width="0.8"/>
+  <text x="107" y="274" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Хищники</text>
+  <!-- Decomposer arrow back -->
+  <path d="M85,272 Q50,260 50,220 Q50,180 85,172" fill="none" stroke="#8D6E63" stroke-width="1" stroke-dasharray="3,2"/>
+  <polygon points="85,172 80,178 87,176" fill="#8D6E63"/>
+  <text x="48" y="220" font-family="Arial,sans-serif" font-size="6" fill="#8D6E63" transform="rotate(-90,48,220)">Разлагатели</text>
+
+  <!-- Card 2: Forest ecosystem -->
+  <rect x="195" y="92" width="145" height="95" rx="6" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="195" y="92" width="145" height="4" rx="2" fill="#2E7D32"/>
+  <!-- Sky -->
+  <rect x="200" y="100" width="135" height="40" rx="2" fill="#E3F2FD"/>
+  <!-- Sun in corner -->
+  <circle cx="320" cy="112" r="8" fill="#FDD835" opacity="0.7"/>
+  <!-- Trees -->
+  <polygon points="220,135 228,115 236,135" fill="#2E7D32"/>
+  <polygon points="225,135 230,120 235,135" fill="#388E3C"/>
+  <rect x="227" y="135" width="4" height="15" fill="#5D4037"/>
+  <polygon points="260,130 270,105 280,130" fill="#1B5E20"/>
+  <polygon points="263,130 270,112 277,130" fill="#2E7D32"/>
+  <rect x="268" y="130" width="4" height="20" fill="#5D4037"/>
+  <polygon points="300,135 307,118 314,135" fill="#388E3C"/>
+  <rect x="305" y="135" width="3" height="15" fill="#5D4037"/>
+  <!-- Ground -->
+  <rect x="200" y="150" width="135" height="30" rx="2" fill="#8D6E63" opacity="0.2"/>
+  <rect x="200" y="148" width="135" height="5" rx="1" fill="#66BB6A" opacity="0.4"/>
+  <!-- Animals -->
+  <circle cx="235" cy="158" r="4" fill="#A1887F"/>
+  <circle cx="238" cy="156" r="2.5" fill="#A1887F"/>
+  <circle cx="280" cy="160" r="3" fill="#8D6E63"/>
+  <circle cx="283" cy="158" r="2" fill="#8D6E63"/>
+  <!-- Birds -->
+  <path d="M245,108 Q248,104 251,108" fill="none" stroke="#555" stroke-width="0.8"/>
+  <path d="M255,112 Q258,108 261,112" fill="none" stroke="#555" stroke-width="0.8"/>
+  <text x="267" y="178" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">Лесная экосистема</text>
+
+  <!-- Card 3: Ocean ecosystem -->
+  <rect x="195" y="195" width="145" height="97" rx="6" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="195" y="195" width="145" height="4" rx="2" fill="#1565C0"/>
+  <!-- Water -->
+  <rect x="200" y="202" width="135" height="82" rx="2" fill="#E3F2FD"/>
+  <rect x="200" y="230" width="135" height="54" rx="2" fill="#BBDEFB" opacity="0.5"/>
+  <rect x="200" y="260" width="135" height="24" rx="2" fill="#90CAF9" opacity="0.3"/>
+  <!-- Waves -->
+  <path d="M200,205 Q215,200 230,205 Q245,200 260,205 Q275,200 335,205" fill="none" stroke="#42A5F5" stroke-width="1"/>
+  <!-- Fish -->
+  <ellipse cx="240" cy="230" rx="10" ry="5" fill="#FF8F00" stroke="#E65100" stroke-width="0.5"/>
+  <polygon points="230,230 224,226 224,234" fill="#FF8F00"/>
+  <circle cx="247" cy="228" r="1.5" fill="#333"/>
+  <ellipse cx="290" cy="250" rx="8" ry="4" fill="#EF5350" stroke="#C62828" stroke-width="0.5"/>
+  <polygon points="282,250 277,247 277,253" fill="#EF5350"/>
+  <circle cx="296" cy="249" r="1" fill="#333"/>
+  <!-- Seaweed -->
+  <path d="M215,280 Q212,265 215,255 Q218,265 215,280" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+  <path d="M320,280 Q317,260 320,248 Q323,260 320,280" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+  <!-- Bubble -->
+  <circle cx="235" cy="218" r="2" fill="none" stroke="#90CAF9" stroke-width="0.5"/>
+  <circle cx="238" cy="212" r="1.5" fill="none" stroke="#90CAF9" stroke-width="0.5"/>
+  <text x="267" y="280" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">Океанская экосистема</text>
+
+  <!-- Card 4: Grassland ecosystem -->
+  <rect x="350" y="92" width="120" height="200" rx="6" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="350" y="92" width="120" height="4" rx="2" fill="#F9A825"/>
+  <!-- Sky -->
+  <rect x="355" y="100" width="110" height="50" rx="2" fill="#E3F2FD"/>
+  <!-- Sun -->
+  <circle cx="445" cy="115" r="10" fill="#FDD835" opacity="0.7"/>
+  <!-- Grass -->
+  <rect x="355" y="150" width="110" height="130" rx="2" fill="#F1F8E9"/>
+  <!-- Grass blades -->
+  <path d="M360,180 Q362,160 365,180" fill="#66BB6A" stroke="none"/>
+  <path d="M370,178 Q373,155 376,178" fill="#81C784" stroke="none"/>
+  <path d="M385,180 Q388,158 391,180" fill="#66BB6A" stroke="none"/>
+  <path d="M400,175 Q403,150 406,175" fill="#81C784" stroke="none"/>
+  <path d="M420,178 Q423,155 426,178" fill="#66BB6A" stroke="none"/>
+  <path d="M440,180 Q443,158 446,180" fill="#81C784" stroke="none"/>
+  <path d="M455,175 Q458,152 461,175" fill="#66BB6A" stroke="none"/>
+  <!-- More grass below -->
+  <path d="M355,195 Q358,175 361,195" fill="#81C784" stroke="none"/>
+  <path d="M375,192 Q378,170 381,192" fill="#66BB6A" stroke="none"/>
+  <path d="M395,195 Q398,172 401,195" fill="#81C784" stroke="none"/>
+  <path d="M415,190 Q418,168 421,190" fill="#66BB6A" stroke="none"/>
+  <path d="M435,195 Q438,172 441,195" fill="#81C784" stroke="none"/>
+  <path d="M455,192 Q458,170 461,192" fill="#66BB6A" stroke="none"/>
+  <!-- Tree -->
+  <rect x="410" y="140" width="5" height="25" fill="#5D4037"/>
+  <circle cx="412" cy="132" r="12" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+  <!-- Animals -->
+  <ellipse cx="380" cy="208" rx="8" ry="5" fill="#A1887F"/>
+  <ellipse cx="395" cy="210" rx="8" ry="5" fill="#8D6E63"/>
+  <ellipse cx="430" cy="205" rx="8" ry="5" fill="#A1887F"/>
+  <ellipse cx="445" cy="207" rx="8" ry="5" fill="#BCAAA4"/>
+  <!-- Butterfly -->
+  <path d="M370,120 Q373,115 376,120 Q373,125 370,120" fill="#FDD835"/>
+  <text x="410" y="230" font-family="Arial,sans-serif" font-size="8" fill="#F9A825" text-anchor="middle" font-weight="bold">Степная</text>
+  <text x="410" y="242" font-family="Arial,sans-serif" font-size="8" fill="#F9A825" text-anchor="middle" font-weight="bold">экосистема</text>
+  <!-- Facts -->
+  <text x="410" y="260" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">Биосфера включает</text>
+  <text x="410" y="272" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">все живые организмы</text>
+  <text x="410" y="284" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">на Земле</text>
+
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биосфера - живая оболочка Земли</text>
+</svg>

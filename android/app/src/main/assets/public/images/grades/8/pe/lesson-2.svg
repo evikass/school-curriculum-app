@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600"><rect width="800" height="600" fill="#F0FDF4" rx="12"/>
+  <rect x="0" y="0" width="800" height="60" fill="#22C55E" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">Лёгкая атлетика: королева спорта</text><rect x="20" y="80" width="245" height="180" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="20" y="80" width="245" height="28" fill="#22C55E" rx="8"/>
+<rect x="20" y="100" width="245" height="8" fill="#22C55E"/>
+<text x="142" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Бег</text>
+<text x="32" y="124" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Спринт (60м, 100м, 200м)</text>
+<text x="32" y="142" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Средние дистанции (800м, 1500м)</text>
+<text x="32" y="160" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Длинные дистанции (5000м, 10000м)</text>
+<text x="32" y="178" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Эстафета (4х100м, 4х400м)</text>
+<text x="32" y="196" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Барьерный бег</text>
+<text x="32" y="214" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Марафон (42 195 м)</text><rect x="277" y="80" width="245" height="180" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="277" y="80" width="245" height="28" fill="#EF4444" rx="8"/>
+<rect x="277" y="100" width="245" height="8" fill="#EF4444"/>
+<text x="399" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Прыжки</text>
+<text x="289" y="124" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Прыжок в длину с разбега</text>
+<text x="289" y="142" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Тройной прыжок</text>
+<text x="289" y="160" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Прыжок в высоту</text>
+<text x="289" y="178" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Прыжок с шестом</text>
+<text x="289" y="196" font-family="Arial, sans-serif" font-size="12" fill="#1E293B"></text>
+<text x="289" y="214" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">Фаза: разбег -&gt; толчок -&gt;</text>
+<text x="289" y="232" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">  полёт -&gt; приземление</text><rect x="535" y="80" width="245" height="180" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="535" y="80" width="245" height="28" fill="#22C55E" rx="8"/>
+<rect x="535" y="100" width="245" height="8" fill="#22C55E"/>
+<text x="657" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Метания</text>
+<text x="547" y="124" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Толкание ядра</text>
+<text x="547" y="142" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Метание копья</text>
+<text x="547" y="160" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Метание диска</text>
+<text x="547" y="178" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Метание молота</text>
+<text x="547" y="196" font-family="Arial, sans-serif" font-size="12" fill="#1E293B"></text>
+<text x="547" y="214" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">Техника: хват -&gt; разбег -&gt;</text>
+<text x="547" y="232" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">  финальное усилие -&gt; выпуск</text>
+  <rect x="20" y="275" width="760" height="36" fill="#16A34A" rx="8"/>
+  <text x="400" y="299" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Беговая дорожка — схема</text>
+  <ellipse cx="400" cy="370" rx="280" ry="60" fill="none" stroke="#22C55E" stroke-width="3"/>
+  <ellipse cx="400" cy="370" rx="230" ry="40" fill="none" stroke="#16A34A" stroke-width="2" stroke-dasharray="8,4"/>
+  <line x1="120" y1="370" x2="120" y2="310" stroke="#EF4444" stroke-width="3"/>
+  <text x="122" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#EF4444" font-weight="bold">СТАРТ</text>
+  <line x1="680" y1="370" x2="680" y2="310" stroke="#EF4444" stroke-width="3"/>
+  <text x="678" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#EF4444" font-weight="bold">ФИНИШ</text><circle cx="300" cy="328.0" r="8.0" fill="none" stroke="#DC2626" stroke-width="2.0"/>
+<line x1="300" y1="336.0" x2="303.0" y2="368.0" stroke="#DC2626" stroke-width="2.0"/>
+<line x1="302.0" y1="346.0" x2="286.0" y2="354.0" stroke="#DC2626" stroke-width="2.0"/>
+<line x1="302.0" y1="346.0" x2="318.0" y2="340.0" stroke="#DC2626" stroke-width="2.0"/>
+<line x1="303.0" y1="368.0" x2="290.0" y2="388.0" stroke="#DC2626" stroke-width="2.0"/>
+<line x1="303.0" y1="368.0" x2="316.0" y2="384.0" stroke="#DC2626" stroke-width="2.0"/><rect x="20" y="440" width="370" height="110" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="20" y="440" width="370" height="28" fill="#EF4444" rx="8"/>
+<rect x="20" y="460" width="370" height="8" fill="#EF4444"/>
+<text x="205" y="459" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Почему «королева спорта»?</text>
+<text x="32" y="484" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Самый древний вид соревнований</text>
+<text x="32" y="502" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Входит в программу Олимпиад с 776 г. до н.э.</text>
+<text x="32" y="520" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Наиболее массовый вид спорта</text>
+<text x="32" y="538" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Базовая подготовка для всех видов</text><rect x="410" y="440" width="370" height="110" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="410" y="440" width="370" height="28" fill="#22C55E" rx="8"/>
+<rect x="410" y="460" width="370" height="8" fill="#22C55E"/>
+<text x="595" y="459" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Мировые рекорды (муж.)</text>
+<text x="422" y="484" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 100 м — 9,58 с (У. Болт)</text>
+<text x="422" y="502" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 200 м — 19,19 с (У. Болт)</text>
+<text x="422" y="520" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Прыжок в длину — 8,95 м</text>
+<text x="422" y="538" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Прыжок в высоту — 2,45 м</text>
+  <rect x="0" y="568" width="800" height="32" fill="#16A34A"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">8 класс | Физкультура/ОБЖ | Урок 2</text></svg>

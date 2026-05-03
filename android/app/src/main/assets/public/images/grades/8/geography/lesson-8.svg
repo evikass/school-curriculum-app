@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ECFDF5" />
+      <stop offset="100%" stop-color="#F0FDF4" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#059669" />
+  <rect x="0" y="6" width="800" height="70" fill="#059669" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#065F46" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">8</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Озёра и водохранилища</text>
+  <text x="78" y="58" fill="#D1FAE5" font-size="13" font-family="Arial, sans-serif">Байкал, Ладога, Онега — крупнейшие озёра</text>
+  <rect x="17" y="92" width="480" height="240" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="480" height="240" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="90" width="480" height="26" rx="8" fill="#059669" />
+  <rect x="15" y="108" width="480" height="8" fill="#059669" />
+  <text x="255" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Крупнейшие озёра России</text>
+  <polygon points="38.8,215.0 47.6,198.2 56.4,183.5 69.6,168.8 82.8,156.2 100.4,143.6 118.0,135.2 140.0,131.0 170.8,126.8 197.2,122.6 228.0,120.5 258.8,118.4 285.2,120.5 307.2,124.7 329.2,131.0 346.8,126.8 364.4,135.2 382.0,141.5 399.6,137.3 417.2,147.8 434.8,143.6 448.0,156.2 456.8,168.8 470.0,177.2 461.2,168.8 452.4,177.2 439.2,185.6 426.0,179.3 412.8,189.8 399.6,183.5 382.0,194.0 364.4,189.8 346.8,198.2 329.2,206.6 311.6,215.0 294.0,223.4 276.4,227.6 258.8,231.8 241.2,236.0 223.6,240.2 206.0,244.4 188.4,240.2 170.8,236.0 153.2,240.2 135.6,244.4 118.0,248.6 100.4,252.8 82.8,248.6 74.0,240.2 65.2,227.6 52.0,219.2" fill="#E0F2FE" stroke="#059669" stroke-width="1.5" />
+  <ellipse cx="82" cy="205" rx="8" ry="5" fill="#3B82F6" stroke="#3B82F6" stroke-width="1.5" />
+  <text x="82" y="196" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Ладога</text>
+  <ellipse cx="78" cy="195" rx="8" ry="5" fill="#3B82F6" stroke="#3B82F6" stroke-width="1.5" />
+  <text x="78" y="186" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Онега</text>
+  <ellipse cx="200" cy="170" rx="8" ry="5" fill="#3B82F6" stroke="#3B82F6" stroke-width="1.5" />
+  <text x="200" y="161" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Байкал</text>
+  <ellipse cx="55" cy="240" rx="8" ry="5" fill="#3B82F6" stroke="#3B82F6" stroke-width="1.5" />
+  <text x="55" y="231" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Чудское</text>
+  <ellipse cx="100" cy="230" rx="8" ry="5" fill="#3B82F6" stroke="#3B82F6" stroke-width="1.5" />
+  <text x="100" y="221" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Ильмень</text>
+  <ellipse cx="260" cy="140" rx="8" ry="5" fill="#3B82F6" stroke="#3B82F6" stroke-width="1.5" />
+  <text x="260" y="131" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Таймыр</text>
+  <ellipse cx="130" cy="290" rx="8" ry="5" fill="#3B82F6" stroke="#3B82F6" stroke-width="1.5" />
+  <text x="130" y="281" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Каспийское</text>
+  <ellipse cx="350" cy="155" rx="8" ry="5" fill="#3B82F6" stroke="#3B82F6" stroke-width="1.5" />
+  <text x="350" y="146" text-anchor="middle" fill="#1E3A5F" font-size="8" font-weight="bold" font-family="Arial, sans-serif">Ханка</text>
+  <rect x="512" y="92" width="275" height="240" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="510" y="90" width="275" height="240" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="510" y="90" width="275" height="26" rx="8" fill="#065F46" />
+  <rect x="510" y="108" width="275" height="8" fill="#065F46" />
+  <text x="647" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Озеро Байкал</text>
+  <ellipse cx="647" cy="180" rx="35" ry="90" fill="#3B82F6" stroke="#3B82F6" stroke-width="2" />
+  <text x="647" y="180" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Байкал</text>
+  <text x="525" y="125" text-anchor="start" fill="#78716C" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Глубина:</text>
+  <text x="610" y="125" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">1642 м (1-е в мире)</text>
+  <text x="525" y="142" text-anchor="start" fill="#78716C" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Объём:</text>
+  <text x="610" y="142" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">23 615 км³ (20% пресн.)</text>
+  <text x="525" y="159" text-anchor="start" fill="#78716C" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Длина:</text>
+  <text x="610" y="159" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">636 км</text>
+  <text x="525" y="176" text-anchor="start" fill="#78716C" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Возраст:</text>
+  <text x="610" y="176" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">~25 млн лет</text>
+  <text x="525" y="193" text-anchor="start" fill="#78716C" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Видов:</text>
+  <text x="610" y="193" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">&gt;3500 (80% эндем.)</text>
+  <text x="525" y="210" text-anchor="start" fill="#78716C" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Прозрачность:</text>
+  <text x="610" y="210" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">до 40 м</text>
+  <text x="525" y="227" text-anchor="start" fill="#78716C" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Толщина льда:</text>
+  <text x="610" y="227" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">до 1.5 м</text>
+  <text x="647" y="250" text-anchor="middle" fill="#3B82F6" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Жемчужина Сибири!</text>
+  <rect x="17" y="342" width="380" height="120" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="340" width="380" height="120" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="340" width="380" height="26" rx="8" fill="#14B8A6" />
+  <rect x="15" y="358" width="380" height="8" fill="#14B8A6" />
+  <text x="205" y="358" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Типы озёрных котловин</text>
+  <text x="25" y="370" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Тектонические</text>
+  <text x="155" y="370" text-anchor="start" fill="#1C1917" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Байкал, Телецкое</text>
+  <text x="310" y="370" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Глубокие, вытянутые</text>
+  <text x="25" y="388" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Ледниковые</text>
+  <text x="155" y="388" text-anchor="start" fill="#1C1917" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Ладога, Онега</text>
+  <text x="310" y="388" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Крупные, на севере</text>
+  <text x="25" y="406" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Вулканические</text>
+  <text x="155" y="406" text-anchor="start" fill="#1C1917" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Кроноцкое</text>
+  <text x="310" y="406" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">В кратерах вулканов</text>
+  <text x="25" y="424" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Старицы</text>
+  <text x="155" y="424" text-anchor="start" fill="#1C1917" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Мелкие, пойменные</text>
+  <text x="310" y="424" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Пожилые русла рек</text>
+  <text x="25" y="442" text-anchor="start" fill="#065F46" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Карстовые</text>
+  <text x="155" y="442" text-anchor="start" fill="#1C1917" font-size="9" font-weight="normal" font-family="Arial, sans-serif">На юге России</text>
+  <text x="310" y="442" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">В растворимых породах</text>
+  <rect x="412" y="342" width="375" height="120" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="410" y="340" width="375" height="120" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="410" y="340" width="375" height="26" rx="8" fill="#059669" />
+  <rect x="410" y="358" width="375" height="8" fill="#059669" />
+  <text x="597" y="358" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Крупнейшие озёра</text>
+  <rect x="420" y="372" width="355" height="16" fill="#059669" rx="3" />
+  <text x="435" y="385" text-anchor="start" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Озеро</text>
+  <text x="530" y="385" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Площадь</text>
+  <text x="620" y="385" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Глубина</text>
+  <text x="710" y="385" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Тип</text>
+  <rect x="420" y="392" width="355" height="14" fill="#D1FAE5" rx="2" />
+  <text x="435" y="402" text-anchor="start" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Каспийское</text>
+  <text x="530" y="402" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">371 000</text>
+  <text x="620" y="402" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">1025</text>
+  <text x="710" y="402" text-anchor="middle" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Тект.</text>
+  <text x="435" y="416" text-anchor="start" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Байкал</text>
+  <text x="530" y="416" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">31 500</text>
+  <text x="620" y="416" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">1642</text>
+  <text x="710" y="416" text-anchor="middle" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Тект.</text>
+  <rect x="420" y="420" width="355" height="14" fill="#D1FAE5" rx="2" />
+  <text x="435" y="430" text-anchor="start" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Ладога</text>
+  <text x="530" y="430" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">17 700</text>
+  <text x="620" y="430" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">230</text>
+  <text x="710" y="430" text-anchor="middle" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Ледн.</text>
+  <text x="435" y="444" text-anchor="start" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Онега</text>
+  <text x="530" y="444" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">9 700</text>
+  <text x="620" y="444" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">127</text>
+  <text x="710" y="444" text-anchor="middle" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Ледн.</text>
+  <rect x="420" y="448" width="355" height="14" fill="#D1FAE5" rx="2" />
+  <text x="435" y="458" text-anchor="start" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Таймыр</text>
+  <text x="530" y="458" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">4 560</text>
+  <text x="620" y="458" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">26</text>
+  <text x="710" y="458" text-anchor="middle" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Ледн.</text>
+  <text x="435" y="472" text-anchor="start" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Ханка</text>
+  <text x="530" y="472" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">4 190</text>
+  <text x="620" y="472" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">10.6</text>
+  <text x="710" y="472" text-anchor="middle" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Тект.</text>
+  <rect x="17" y="472" width="770" height="60" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="470" width="770" height="60" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="470" width="770" height="26" rx="8" fill="#065F46" />
+  <rect x="15" y="488" width="770" height="8" fill="#065F46" />
+  <text x="400" y="488" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Водохранилища</text>
+  <text x="30" y="495" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Водохранилища — искусственные водоёмы для ГЭС, водоснабжения, судоходства</text>
+  <text x="30" y="512" text-anchor="start" fill="#065F46" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Крупнейшие: Куйбышевское, Рыбинское, Братское, Волгоградское, Красноярское</text>
+  <text x="630" y="512" text-anchor="start" fill="#14B8A6" font-size="10" font-weight="bold" font-family="Arial, sans-serif">ГЭС → энергия</text>
+  <rect x="0" y="570" width="800" height="30" fill="#065F46" />
+  <text x="400" y="590" text-anchor="middle" fill="#D1FAE5" font-size="11" font-family="Arial, sans-serif">География • 8 класс • Интернет-Школа</text>
+</svg>

@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">НОД и НОК</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Математика - Урок 4</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Card 1: GCD with Venn diagram -->
+  <rect x="20" y="88" width="230" height="130" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="135" y="104" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">НОД(12, 18) = 6</text>
+  <line x1="28" y1="108" x2="242" y2="108" stroke="#E0E0E0" stroke-width="1"/>
+  <!-- Venn diagram for divisors of 12 and 18 -->
+  <circle cx="95" cy="158" r="42" fill="#1565C0" opacity="0.08" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="165" cy="158" r="42" fill="#C62828" opacity="0.08" stroke="#C62828" stroke-width="1.5"/>
+  <!-- Divisors of 12 (left) -->
+  <text x="72" y="136" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">1</text>
+  <text x="72" y="150" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">2</text>
+  <text x="72" y="164" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">4</text>
+  <text x="72" y="178" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">12</text>
+  <!-- Common divisors (intersection) -->
+  <rect x="113" y="140" width="24" height="36" rx="4" fill="#F9A825" opacity="0.2"/>
+  <text x="125" y="153" font-family="Arial,sans-serif" font-size="9" fill="#F9A825" text-anchor="middle" font-weight="bold">3</text>
+  <text x="125" y="170" font-family="Arial,sans-serif" font-size="10" fill="#F9A825" text-anchor="middle" font-weight="bold">6</text>
+  <!-- Divisors of 18 (right) -->
+  <text x="190" y="136" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">1</text>
+  <text x="190" y="150" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">9</text>
+  <text x="190" y="164" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">18</text>
+  <text x="135" y="108" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle"></text>
+  <!-- Labels -->
+  <text x="72" y="200" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Д(12)</text>
+  <text x="190" y="200" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Д(18)</text>
+  <text x="125" y="212" font-family="Arial,sans-serif" font-size="8" fill="#F9A825" text-anchor="middle" font-weight="bold">НОД = 6</text>
+
+  <!-- Card 2: LCM explanation -->
+  <rect x="258" y="88" width="223" height="130" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
+  <text x="370" y="104" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">НОК(4, 6) = 12</text>
+  <line x1="266" y1="108" x2="473" y2="108" stroke="#E0E0E0" stroke-width="1"/>
+  <!-- Number line showing multiples -->
+  <line x1="275" y1="140" x2="465" y2="140" stroke="#555" stroke-width="1.5"/>
+  <!-- Multiples of 4 -->
+  <text x="268" y="133" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">x4</text>
+  <circle cx="295" cy="140" r="5" fill="#1565C0" opacity="0.3" stroke="#1565C0" stroke-width="1"/>
+  <text x="295" y="156" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">4</text>
+  <circle cx="355" cy="140" r="5" fill="#1565C0" opacity="0.3" stroke="#1565C0" stroke-width="1"/>
+  <text x="355" y="156" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">8</text>
+  <circle cx="415" cy="140" r="8" fill="#F9A825" opacity="0.3" stroke="#F9A825" stroke-width="1.5"/>
+  <text x="415" y="157" font-family="Arial,sans-serif" font-size="9" fill="#F9A825" text-anchor="middle" font-weight="bold">12</text>
+  <circle cx="455" cy="140" r="5" fill="#1565C0" opacity="0.3" stroke="#1565C0" stroke-width="1"/>
+  <text x="455" y="156" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">16</text>
+  <!-- Multiples of 6 -->
+  <text x="268" y="175" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">x6</text>
+  <circle cx="325" cy="170" r="5" fill="#C62828" opacity="0.3" stroke="#C62828" stroke-width="1"/>
+  <text x="325" y="186" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">6</text>
+  <circle cx="415" cy="170" r="8" fill="#F9A825" opacity="0.3" stroke="#F9A825" stroke-width="1.5"/>
+  <text x="415" y="186" font-family="Arial,sans-serif" font-size="9" fill="#F9A825" text-anchor="middle" font-weight="bold">12</text>
+  <!-- Arrow pointing to LCM -->
+  <line x1="415" y1="195" x2="415" y2="205" stroke="#F9A825" stroke-width="1.5"/>
+  <text x="415" y="214" font-family="Arial,sans-serif" font-size="9" fill="#F9A825" text-anchor="middle" font-weight="bold">НОК = 12</text>
+
+  <!-- Card 3: Euclidean algorithm steps -->
+  <rect x="20" y="224" width="230" height="76" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="135" y="242" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">Алгоритм Евклида для НОД(48, 18)</text>
+  <line x1="28" y1="246" x2="242" y2="246" stroke="#E0E0E0" stroke-width="1"/>
+  <!-- Steps -->
+  <rect x="30" y="252" width="200" height="14" rx="3" fill="#2E7D32" opacity="0.06"/>
+  <text x="35" y="263" font-family="Arial,sans-serif" font-size="9" fill="#555">1. 48 = 18 x 2 + <tspan font-weight="bold" fill="#2E7D32">12</tspan></text>
+  <rect x="30" y="268" width="200" height="14" rx="3" fill="#2E7D32" opacity="0.06"/>
+  <text x="35" y="279" font-family="Arial,sans-serif" font-size="9" fill="#555">2. 18 = 12 x 1 + <tspan font-weight="bold" fill="#2E7D32">6</tspan></text>
+  <rect x="30" y="284" width="200" height="14" rx="3" fill="#F9A825" opacity="0.1"/>
+  <text x="35" y="295" font-family="Arial,sans-serif" font-size="9" fill="#555">3. 12 = 6 x 2 + <tspan font-weight="bold" fill="#F9A825">0</tspan>  => <tspan font-weight="bold" fill="#C62828">НОД = 6</tspan></text>
+
+  <!-- Card 4: Factor tree method for LCM -->
+  <rect x="258" y="224" width="223" height="76" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
+  <text x="370" y="242" font-family="Arial,sans-serif" font-size="10" fill="#F9A825" text-anchor="middle" font-weight="bold">НОК через разложение (12, 15)</text>
+  <line x1="266" y1="246" x2="473" y2="246" stroke="#E0E0E0" stroke-width="1"/>
+  <!-- Factor trees -->
+  <text x="310" y="260" font-family="Arial,sans-serif" font-size="9" fill="#555">12 =</text>
+  <rect x="335" y="250" width="16" height="14" rx="2" fill="#1565C0" opacity="0.12"/>
+  <text x="343" y="261" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">2</text>
+  <text x="355" y="261" font-family="Arial,sans-serif" font-size="9" fill="#555">x</text>
+  <rect x="362" y="250" width="16" height="14" rx="2" fill="#1565C0" opacity="0.12"/>
+  <text x="370" y="261" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">2</text>
+  <text x="382" y="261" font-family="Arial,sans-serif" font-size="9" fill="#555">x</text>
+  <rect x="389" y="250" width="16" height="14" rx="2" fill="#2E7D32" opacity="0.12"/>
+  <text x="397" y="261" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">3</text>
+  <text x="310" y="280" font-family="Arial,sans-serif" font-size="9" fill="#555">15 =</text>
+  <rect x="335" y="270" width="16" height="14" rx="2" fill="#2E7D32" opacity="0.12"/>
+  <text x="343" y="281" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">3</text>
+  <text x="355" y="281" font-family="Arial,sans-serif" font-size="9" fill="#555">x</text>
+  <rect x="362" y="270" width="16" height="14" rx="2" fill="#C62828" opacity="0.12"/>
+  <text x="370" y="281" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">5</text>
+  <!-- Result -->
+  <line x1="266" y1="288" x2="473" y2="288" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="370" y="300" font-family="Arial,sans-serif" font-size="9" fill="#F9A825" text-anchor="middle" font-weight="bold">НОК = 2 x 2 x 3 x 5 = 60</text>
+
+  <!-- Bottom panel -->
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">НОД и НОК</text>
+</svg>

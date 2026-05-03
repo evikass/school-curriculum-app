@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#92400E" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#B45309" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="800" height="4" fill="#B45309" rx="2"/>
+
+  <!-- Header -->
+  <rect x="20" y="15" width="760" height="60" rx="8" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="40" y="50" font-size="14" fill="#FCD34D" font-weight="bold">Урок 7</text>
+  <text x="130" y="50" font-size="20" fill="#FFFFFF" font-weight="bold">Ручная обработка металла</text>
+    <text x="780" y="55" font-size="13" fill="#F59E0B" text-anchor="end" font-style="italic">Резание, опиливание, гибка, сверление</text>
+
+  <!-- Cutting illustration -->
+  <rect x="40" y="105" width="160" height="12" fill="#9CA3AF" stroke="#6B7280" stroke-width="1"/>
+  <polygon points="55,105 60,95 65,105" fill="#4B5563" stroke="#374151" stroke-width="1"/>
+  <polygon points="85,105 90,95 95,105" fill="#4B5563" stroke="#374151" stroke-width="1"/>
+  <polygon points="115,105 120,95 125,105" fill="#4B5563" stroke="#374151" stroke-width="1"/>
+  <polygon points="145,105 150,95 155,105" fill="#4B5563" stroke="#374151" stroke-width="1"/>
+  <polygon points="175,105 180,95 185,105" fill="#4B5563" stroke="#374151" stroke-width="1"/>
+  <line x1="40" y1="122" x2="200" y2="122" stroke="#DC2626" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="120" y="138" font-size="11" fill="#78350F" text-anchor="middle" font-weight="bold">Резание ножовкой</text>
+  
+  <!-- Filing illustration -->
+  <rect x="250" y="105" width="160" height="12" fill="#9CA3AF" stroke="#6B7280" stroke-width="1"/>
+  <rect x="280" y="88" width="100" height="17" rx="2" fill="#6B7280" stroke="#4B5563" stroke-width="1"/>
+  <rect x="370" y="85" width="40" height="23" rx="3" fill="#8B7355" stroke="#92400E" stroke-width="1"/>
+  <!-- File teeth marks -->
+  <line x1="283" y1="103" x2="285" y2="100" stroke="#374151" stroke-width="0.5"/>
+  <line x1="288" y1="103" x2="290" y2="100" stroke="#374151" stroke-width="0.5"/>
+  <line x1="293" y1="103" x2="295" y2="100" stroke="#374151" stroke-width="0.5"/>
+  <line x1="298" y1="103" x2="300" y2="100" stroke="#374151" stroke-width="0.5"/>
+  <line x1="303" y1="103" x2="305" y2="100" stroke="#374151" stroke-width="0.5"/>
+  <text x="330" y="138" font-size="11" fill="#78350F" text-anchor="middle" font-weight="bold">Опиливание</text>
+  
+  <!-- Bending illustration -->
+  <polyline points="40,170 90,170 105,200 160,200" fill="none" stroke="#9CA3AF" stroke-width="5" stroke-linecap="round"/>
+  <polyline points="40,170 90,170 105,200 160,200" fill="none" stroke="#6B7280" stroke-width="3" stroke-linecap="round"/>
+  <text x="100" y="225" font-size="11" fill="#78350F" text-anchor="middle" font-weight="bold">Гибка</text>
+  
+  <!-- Drilling illustration -->
+  <polygon points="300,160 305,195 295,195" fill="#6B7280" stroke="#4B5563" stroke-width="1"/>
+  <rect x="295" y="195" width="10" height="15" fill="#9CA3AF" stroke="#6B7280" stroke-width="1"/>
+  <rect x="280" y="210" width="40" height="10" fill="#9CA3AF" stroke="#6B7280" stroke-width="1"/>
+  <circle cx="300" cy="215" r="4" fill="#4B5563"/>
+  <text x="300" y="240" font-size="11" fill="#78350F" text-anchor="middle" font-weight="bold">Сверление</text>
+  
+  <!-- Operations detail -->
+    <rect x="430" y="95" width="345" height="165" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="430" y="95" width="345" height="26" rx="6" fill="#B45309"/>
+  <rect x="430" y="115" width="345" height="6" fill="#B45309"/>
+  <text x="602" y="113" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Операции обработки металла</text>
+  <text x="442" y="135" font-size="12" fill="#78350F">• Резание — ножовкой по металлу</text>
+  <text x="442" y="155" font-size="12" fill="#78350F">• Опиливание — напильниками разных типов</text>
+  <text x="442" y="175" font-size="12" fill="#78350F">• Гибка — в тисках или на оправке</text>
+  <text x="442" y="195" font-size="12" fill="#78350F">• Сверление — ручной или электрической дрелью</text>
+  <text x="442" y="215" font-size="12" fill="#78350F">• Нарезание резьбы — метчиками и плашками</text>
+  <text x="442" y="235" font-size="12" fill="#78350F">• Рубка — зубилом и киянкой</text>
+  
+    <rect x="25" y="258" width="370" height="140" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="258" width="370" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="278" width="370" height="6" fill="#B45309"/>
+  <text x="210" y="276" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Напильники: типы насечки</text>
+  <text x="37" y="298" font-size="12" fill="#78350F">• Драчёвый — грубое снятие (0.5-1.0 мм)</text>
+  <text x="37" y="318" font-size="12" fill="#78350F">• Личный — средняя обработка (0.2-0.5 мм)</text>
+  <text x="37" y="338" font-size="12" fill="#78350F">• Бархатный — чистовая (0.05-0.2 мм)</text>
+  <text x="37" y="358" font-size="12" fill="#78350F">• Плоский — для плоских поверхностей</text>
+  <text x="37" y="378" font-size="12" fill="#78350F">• Круглый — для отверстий и закруглений</text>
+  
+    <rect x="410" y="275" width="365" height="123" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="410" y="275" width="365" height="26" rx="6" fill="#DC2626"/>
+  <rect x="410" y="295" width="365" height="6" fill="#DC2626"/>
+  <text x="592" y="293" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Правила безопасной работы</text>
+  <text x="422" y="315" font-size="12" fill="#78350F">• Закрепи заготовку в тисках надёжно!</text>
+  <text x="422" y="335" font-size="12" fill="#78350F">• Ножовку веди ровно, без перекосов</text>
+  <text x="422" y="355" font-size="12" fill="#78350F">• Опиливай движением «от себя»</text>
+  <text x="422" y="375" font-size="12" fill="#78350F">• Сверло прижимай равномерно</text>
+  
+    <rect x="25" y="415" width="750" height="50" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" filter="url(#shadow)"/>
+  <text x="37" y="435" font-size="12" fill="#78350F" font-weight="bold">🔧 Последовательность: разметка → закрепление → резание → опиливание → сверление → гибка → зачистка</text>
+  <text x="37" y="453" font-size="12" fill="#78350F" font-weight="bold">Качество обработки зависит от правильного выбора инструмента!</text>
+  
+  <!-- Threading info -->
+    <rect x="25" y="480" width="370" height="100" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="480" width="370" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="500" width="370" height="6" fill="#B45309"/>
+  <text x="210" y="498" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Нарезание резьбы</text>
+  <text x="37" y="520" font-size="12" fill="#78350F">• Метчик — внутренняя резьба (в отверстии)</text>
+  <text x="37" y="540" font-size="12" fill="#78350F">• Плашка — наружная резьба (на стержне)</text>
+  <text x="37" y="560" font-size="12" fill="#78350F">• М4, М5, М6, М8 — размеры метрической резьбы</text>
+  
+    <rect x="410" y="415" width="365" height="80" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="410" y="415" width="365" height="26" rx="6" fill="#B45309"/>
+  <rect x="410" y="435" width="365" height="6" fill="#B45309"/>
+  <text x="592" y="433" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Шабрение и притирка</text>
+  <text x="422" y="455" font-size="12" fill="#78350F">• Шабрение — снятие тонких слоев шабером</text>
+  <text x="422" y="475" font-size="12" fill="#78350F">• Притирка — доводка до высокой точности</text>
+  
+    <rect x="410" y="508" width="365" height="72" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="410" y="508" width="365" height="26" rx="6" fill="#B45309"/>
+  <rect x="410" y="528" width="365" height="6" fill="#B45309"/>
+  <text x="592" y="526" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Маркировка сталей</text>
+  <text x="422" y="548" font-size="12" fill="#78350F">• Ст3 — конструкционная, 45 — среднеуглерод.</text>
+  <text x="422" y="568" font-size="12" fill="#78350F">• У8 — инструментальная углеродистая</text>
+  </svg>

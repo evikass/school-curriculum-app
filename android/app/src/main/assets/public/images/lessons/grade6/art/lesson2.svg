@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus geometric corner accents -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles top -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Декоративно-прикладное искусство</text>
+  <text x="250" y="66" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ИЗО - Урок 2</text>
+  <line x1="30" y1="76" x2="470" y2="76" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <!-- Bauhaus stripe accent -->
+  <rect x="30" y="73" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="73" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Khokhloma wooden spoon -->
+  <rect x="35" y="92" width="140" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5" opacity="0.9"/>
+  <!-- Wooden spoon shape -->
+  <ellipse cx="105" cy="125" rx="28" ry="20" fill="#4E342E" stroke="#3E2723" stroke-width="1"/>
+  <ellipse cx="105" cy="125" rx="20" ry="14" fill="#5D4037"/>
+  <!-- Khokhloma curl pattern on spoon -->
+  <path d="M92,118 Q88,112 93,108 Q98,104 102,110" stroke="#E53935" stroke-width="1.5" fill="none"/>
+  <path d="M100,115 Q96,109 101,105 Q106,101 110,107" stroke="#FDD835" stroke-width="1.2" fill="none"/>
+  <path d="M108,118 Q104,112 109,108" stroke="#E53935" stroke-width="1.2" fill="none"/>
+  <circle cx="98" cy="130" r="2" fill="#FDD835"/>
+  <circle cx="112" cy="128" r="1.5" fill="#E53935"/>
+  <!-- Handle -->
+  <rect x="99" y="144" width="12" height="55" rx="3" fill="#5D4037" stroke="#4E342E" stroke-width="0.5"/>
+  <!-- Khokhloma grass pattern on handle -->
+  <path d="M100,155 Q105,148 110,155" stroke="#FDD835" stroke-width="1.2" fill="none"/>
+  <path d="M100,165 Q105,158 110,165" stroke="#E53935" stroke-width="1" fill="none"/>
+  <path d="M100,175 Q105,168 110,175" stroke="#FDD835" stroke-width="1" fill="none"/>
+  <path d="M100,185 Q105,178 110,185" stroke="#E53935" stroke-width="1" fill="none"/>
+  <!-- Gold berries -->
+  <circle cx="98" cy="155" r="2.5" fill="#FDD835" stroke="#F57F17" stroke-width="0.5"/>
+  <circle cx="112" cy="165" r="2" fill="#FDD835" stroke="#F57F17" stroke-width="0.5"/>
+  <circle cx="98" cy="175" r="2" fill="#E53935"/>
+  <text x="105" y="218" font-family="Arial,sans-serif" font-size="10" fill="#C62828" font-weight="bold" text-anchor="middle">ХОХЛОМА</text>
+  <text x="105" y="230" font-family="Arial,sans-serif" font-size="7" fill="#777" text-anchor="middle">золотая травка</text>
+  <text x="105" y="242" font-family="Arial,sans-serif" font-size="7" fill="#777" text-anchor="middle">на дереве</text>
+  <!-- Decorative border -->
+  <line x1="50" y1="250" x2="160" y2="250" stroke="#FDD835" stroke-width="1" opacity="0.5"/>
+  <path d="M60,260 Q70,252 80,260 Q90,268 100,260 Q110,252 120,260 Q130,268 140,260" stroke="#E53935" stroke-width="1" fill="none" opacity="0.5"/>
+
+  <!-- Gzhel plate -->
+  <rect x="190" y="92" width="140" height="100" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <!-- Plate shape -->
+  <ellipse cx="260" cy="135" rx="45" ry="18" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+  <ellipse cx="260" cy="135" rx="38" ry="14" fill="white" stroke="#1565C0" stroke-width="0.5"/>
+  <!-- Blue flower pattern -->
+  <circle cx="260" cy="133" r="4" fill="#1565C0" opacity="0.6"/>
+  <ellipse cx="252" cy="128" rx="5" ry="3" fill="#1565C0" opacity="0.3" transform="rotate(-30,252,128)"/>
+  <ellipse cx="268" cy="128" rx="5" ry="3" fill="#1565C0" opacity="0.3" transform="rotate(30,268,128)"/>
+  <ellipse cx="254" cy="139" rx="5" ry="3" fill="#1565C0" opacity="0.3" transform="rotate(20,254,139)"/>
+  <ellipse cx="266" cy="139" rx="5" ry="3" fill="#1565C0" opacity="0.3" transform="rotate(-20,266,139)"/>
+  <!-- Leaves -->
+  <path d="M248,133 Q240,128 243,122" stroke="#1565C0" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M272,133 Q280,128 277,122" stroke="#1565C0" stroke-width="1" fill="none" opacity="0.4"/>
+  <text x="260" y="168" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold" text-anchor="middle">ГЖЕЛЬ</text>
+  <text x="260" y="180" font-family="Arial,sans-serif" font-size="7" fill="#777" text-anchor="middle">бело-синий узор</text>
+
+  <!-- Dymkovo toy -->
+  <rect x="190" y="200" width="140" height="92" rx="6" fill="white" stroke="#C62828" stroke-width="1.5" opacity="0.9"/>
+  <!-- Simple horse figure -->
+  <ellipse cx="260" cy="248" rx="18" ry="10" fill="#FFF9C4" stroke="#E53935" stroke-width="1.5"/>
+  <!-- Head -->
+  <circle cx="243" cy="238" r="8" fill="#FFF9C4" stroke="#E53935" stroke-width="1.5"/>
+  <!-- Eye -->
+  <circle cx="240" cy="236" r="1.5" fill="#E53935"/>
+  <!-- Ear -->
+  <polygon points="238,230 242,224 246,230" fill="#FFF9C4" stroke="#E53935" stroke-width="1"/>
+  <!-- Legs -->
+  <line x1="248" y1="257" x2="246" y2="275" stroke="#E53935" stroke-width="2" stroke-linecap="round"/>
+  <line x1="255" y1="257" x2="253" y2="275" stroke="#E53935" stroke-width="2" stroke-linecap="round"/>
+  <line x1="265" y1="257" x2="267" y2="275" stroke="#E53935" stroke-width="2" stroke-linecap="round"/>
+  <line x1="272" y1="257" x2="274" y2="275" stroke="#E53935" stroke-width="2" stroke-linecap="round"/>
+  <!-- Tail -->
+  <path d="M278,245 Q290,240 288,250" stroke="#E53935" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Spots -->
+  <circle cx="255" cy="245" r="3" fill="#E53935" opacity="0.3"/>
+  <circle cx="268" cy="250" r="2" fill="#1565C0" opacity="0.3"/>
+  <text x="260" y="290" font-family="Arial,sans-serif" font-size="7" fill="#777" text-anchor="middle">ДЫМКОВСКАЯ ИГРУШКА</text>
+
+  <!-- Folk crafts grid -->
+  <rect x="345" y="92" width="120" height="100" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5" opacity="0.9"/>
+  <!-- Pavlov scarf pattern -->
+  <rect x="360" y="102" width="50" height="70" rx="3" fill="#FFEBEE" stroke="#E53935" stroke-width="0.5"/>
+  <!-- Flower bouquet pattern -->
+  <circle cx="385" cy="118" r="6" fill="#E53935" opacity="0.6"/>
+  <circle cx="378" cy="115" r="4" fill="#F48FB1" opacity="0.6"/>
+  <circle cx="392" cy="115" r="4" fill="#F48FB1" opacity="0.6"/>
+  <circle cx="385" cy="128" r="5" fill="#F48FB1" opacity="0.5"/>
+  <line x1="385" y1="135" x2="385" y2="158" stroke="#43A047" stroke-width="1.5"/>
+  <path d="M380,145 Q375,140 378,135" stroke="#43A047" stroke-width="1" fill="none"/>
+  <path d="M390,148 Q395,143 392,138" stroke="#43A047" stroke-width="1" fill="none"/>
+  <!-- Border pattern -->
+  <line x1="362" y1="162" x2="408" y2="162" stroke="#E53935" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="405" y="125" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">ПАВЛОВСКИЙ</text>
+  <text x="405" y="135" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">ПЛАТОК</text>
+  <text x="405" y="148" font-family="Arial,sans-serif" font-size="6" fill="#777">цветочный</text>
+  <text x="405" y="158" font-family="Arial,sans-serif" font-size="6" fill="#777">узор</text>
+
+  <rect x="345" y="200" width="120" height="92" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <!-- Matryoshka -->
+  <ellipse cx="405" cy="250" rx="16" ry="22" fill="#E53935" stroke="#B71C1C" stroke-width="1"/>
+  <circle cx="405" cy="228" r="10" fill="#FFCDD2"/>
+  <!-- Face -->
+  <circle cx="402" cy="226" r="1.2" fill="#333"/>
+  <circle cx="408" cy="226" r="1.2" fill="#333"/>
+  <path d="M401,231 Q405,234 409,231" stroke="#C62828" stroke-width="0.8" fill="none"/>
+  <!-- Shawl -->
+  <path d="M395,222 Q405,218 415,222" stroke="#FDD835" stroke-width="2" fill="none"/>
+  <!-- Apron pattern -->
+  <ellipse cx="405" cy="252" rx="10" ry="12" fill="#FFCDD2" stroke="#E53935" stroke-width="0.5"/>
+  <circle cx="405" cy="250" r="2" fill="#FDD835"/>
+  <path d="M399,248 Q405,244 411,248" stroke="#E53935" stroke-width="0.5" fill="none"/>
+  <path d="M399,254 Q405,250 411,254" stroke="#E53935" stroke-width="0.5" fill="none"/>
+  <!-- Small matryoshka behind -->
+  <ellipse cx="428" cy="260" rx="8" ry="12" fill="#1565C0" stroke="#0D47A1" stroke-width="0.8"/>
+  <circle cx="428" cy="248" r="6" fill="#BBDEFB"/>
+  <circle cx="426" cy="247" r="0.8" fill="#333"/>
+  <circle cx="430" cy="247" r="0.8" fill="#333"/>
+  <text x="405" y="286" font-family="Arial,sans-serif" font-size="7" fill="#777" text-anchor="middle">МАТРЁШКА</text>
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Декоративно-прикладное искусство</text>
+</svg>

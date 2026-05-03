@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/><rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/><polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/><polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/><polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/><polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/><circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/><circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/><text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Циклы и повторения</text><text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Основы программирования - Урок 10</text><line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/><rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/><rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<!-- Repeat loop visualization -->
+<!-- Outer repeat block (C-shape) -->
+<rect x="50" y="95" width="170" height="24" rx="4" fill="#FFC107" stroke="#FF8F00" stroke-width="1.2"/>
+<text x="135" y="111" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle" font-weight="bold">повтори 10 раз</text>
+<rect x="50" y="119" width="170" height="4" fill="#FFC107"/>
+<!-- Left side of C -->
+<rect x="50" y="119" width="6" height="100" fill="#FFC107"/>
+<!-- Bottom of C -->
+<rect x="50" y="215" width="170" height="6" fill="#FFC107"/>
+<!-- Right cap bottom -->
+<rect x="214" y="215" width="6" height="6" fill="#FFC107"/>
+<!-- Inner blocks -->
+<rect x="60" y="132" width="150" height="22" rx="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+<polygon points="60,132 68,132 60,140" fill="#4FC3F7"/>
+<text x="135" y="147" font-family="Arial,sans-serif" font-size="10" fill="white" text-anchor="middle">сдвинься на 10 шагов</text>
+<rect x="60" y="162" width="150" height="22" rx="4" fill="#66BB6A" stroke="#388E3C" stroke-width="0.8"/>
+<polygon points="60,162 68,162 60,170" fill="#66BB6A"/>
+<text x="135" y="177" font-family="Arial,sans-serif" font-size="10" fill="white" text-anchor="middle">поверни на 36 градусов</text>
+<rect x="60" y="192" width="150" height="18" rx="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8" opacity="0.5"/>
+<text x="135" y="205" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.7">...</text>
+<!-- Circular arrow to show loop -->
+<g transform="translate(135,165)">
+  <path d="M-40,-55 A55,55 0 1,1 40,-55" fill="none" stroke="#C62828" stroke-width="2.5" opacity="0.6"/>
+  <polygon points="40,-55 32,-62 34,-52" fill="#C62828" opacity="0.6"/>
+  <text x="0" y="-58" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle" opacity="0.7">x10</text>
+</g>
+<!-- Result: shape drawn -->
+<g transform="translate(370,165)">
+  <text x="0" y="-60" font-family="Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">Результат:</text>
+  <!-- Decagon approximated -->
+  <polygon points="0,-45 14,-41 26,-32 33,-18 34,-2 29,14 18,27 4,34 -11,34 -25,27 -33,16 -36,0 -33,-16 -24,-30 -11,-40" fill="none" stroke="#F5A623" stroke-width="2.5"/>
+  <circle cx="0" cy="0" r="3" fill="#F5A623"/>
+</g>
+<!-- Forever loop on the right side -->
+<rect x="280" y="92" width="170" height="210" rx="5" fill="#F3E5F5" stroke="#9C27B0" stroke-width="1.2"/>
+<text x="365" y="108" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Бесконечный цикл</text>
+<!-- Forever block (infinity shape) -->
+<rect x="295" y="118" width="140" height="24" rx="4" fill="#FFC107" stroke="#FF8F00" stroke-width="1"/>
+<text x="365" y="134" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle" font-weight="bold">всегда</text>
+<rect x="295" y="142" width="140" height="4" fill="#FFC107"/>
+<!-- Infinity loop arrow -->
+<path d="M345,120 Q320,90 300,120 Q280,150 305,150 Q330,150 350,120 Q370,90 395,120 Q420,150 395,150 Q370,150 345,120" fill="none" stroke="#9C27B0" stroke-width="1.5" opacity="0.4"/>
+<!-- Nested blocks inside forever -->
+<rect x="305" y="154" width="120" height="20" rx="4" fill="#9C27B0" stroke="#6A1B9A" stroke-width="0.8"/>
+<text x="365" y="168" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">если кнопка нажата</text>
+<rect x="315" y="182" width="100" height="20" rx="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+<polygon points="315,182 323,182 315,190" fill="#4FC3F7"/>
+<text x="365" y="196" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">сдвинься на 5</text>
+<!-- Repeat inside forever -->
+<rect x="305" y="212" width="120" height="20" rx="4" fill="#FFC107" stroke="#FF8F00" stroke-width="0.8"/>
+<text x="365" y="226" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">повтори 4 раз</text>
+<rect x="305" y="232" width="120" height="3" fill="#FFC107"/>
+<rect x="305" y="232" width="4" height="25" fill="#FFC107"/>
+<rect x="305" y="254" width="120" height="3" fill="#FFC107"/>
+<rect x="315" y="241" width="100" height="12" rx="3" fill="#66BB6A" stroke="#388E3C" stroke-width="0.5"/>
+<text x="365" y="251" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">следующий костюм</text>
+<!-- Loop counter visual -->
+<text x="365" y="282" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle" opacity="0.6">работает бесконечно</text>
+<rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/><text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Циклы и повторения</text></svg>

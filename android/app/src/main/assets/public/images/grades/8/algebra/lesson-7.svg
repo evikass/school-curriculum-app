@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EEF2FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E0E7FF;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3730A3;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#4F46E5;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#F5F3FF;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#3730A3" flood-opacity="0.15"/>
+    </filter>
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0"/>
+  <rect x="0" y="0" width="800" height="80" fill="url(#headerGrad)" rx="0"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#818CF8" stroke-width="2" opacity="0.5"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">Неполные квадратные уравнения</text>
+  <text x="400" y="62" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#C7D2FE" opacity="0.9">Три типа неполных уравнений и их решения</text>
+  <circle cx="45" cy="40" r="22" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="45" cy="40" r="20" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  <text x="45" y="41" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">7</text>
+  <circle cx="0" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="0" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="0" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="0" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="0" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="0" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="0" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="0" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="0" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="0" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="0" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="0" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="0" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="40" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="80" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="120" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="160" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="200" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="240" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="280" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="320" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="360" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="400" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="440" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="480" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="520" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="560" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="600" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="640" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="680" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="720" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="90" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="130" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="170" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="210" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="250" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="290" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="330" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="370" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="410" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="450" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="490" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="530" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <circle cx="760" cy="570" r="0.7" fill="#C7D2FE" opacity="0.15"/>
+  <text x="720" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#C7D2FE" opacity="0.3">∑</text>
+  <text x="50" y="550" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#C7D2FE" opacity="0.3">∫</text>
+  <text x="750" y="480" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#C7D2FE" opacity="0.3">√</text>
+  <text x="680" y="560" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#C7D2FE" opacity="0.3">π</text>
+  <text x="30" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#C7D2FE" opacity="0.3">∞</text>
+  <text x="760" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#C7D2FE" opacity="0.3">Δ</text>
+  <text x="20" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#C7D2FE" opacity="0.3">±</text>
+  <text x="60" y="480" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#C7D2FE" opacity="0.3">≈</text>
+  <rect x="30" y="95" width="740" height="50" fill="url(#cardGrad)" rx="10" filter="url(#shadow)" stroke="#A5B4FC" stroke-width="0.5"/>
+  <text x="50" y="118" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1E1B4B">Общий вид квадратного уравнения:</text>
+  <rect x="370" y="100" width="390" height="38" fill="#F5F3FF" rx="8" stroke="#818CF8" stroke-width="1.5" filter="url(#softShadow)"/>
+  <text x="565" y="120" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#3730A3">ax² + bx + c = 0,  a ≠ 0</text>
+  <rect x="30" y="160" width="240" height="155" fill="url(#cardGrad)" rx="10" filter="url(#shadow)" stroke="#A5B4FC" stroke-width="0.5"/>
+  <rect x="30" y="160" width="240" height="28" rx="10" fill="#4F46E5" opacity="0.1"/>
+  <text x="60" y="178" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#4F46E5">Тип 1: ax² + c = 0</text>
+  <text x="50" y="205" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4338CA">bx = 0, c ≠ 0</text>
+  <text x="50" y="225" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1E1B4B">ax² = −c</text>
+  <text x="50" y="245" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1E1B4B">x² = −c/a</text>
+  <text x="50" y="270" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4338CA">Если −c/a &gt; 0:</text>
+  <text x="50" y="288" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#10B981">x = ±√(−c/a)</text>
+  <text x="50" y="308" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#DC2626">Если −c/a &lt; 0: нет корней</text>
+  <rect x="280" y="160" width="240" height="155" fill="url(#cardGrad)" rx="10" filter="url(#shadow)" stroke="#A5B4FC" stroke-width="0.5"/>
+  <rect x="280" y="160" width="240" height="28" rx="10" fill="#4F46E5" opacity="0.1"/>
+  <text x="310" y="178" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#4F46E5">Тип 2: ax² + bx = 0</text>
+  <text x="300" y="205" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4338CA">c = 0</text>
+  <text x="300" y="225" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1E1B4B">x(ax + b) = 0</text>
+  <text x="300" y="252" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#10B981">x = 0</text>
+  <text x="300" y="278" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1E1B4B">ax + b = 0 → x = −b/a</text>
+  <text x="300" y="308" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#4F46E5">Два корня всегда!</text>
+  <rect x="530" y="160" width="240" height="155" fill="url(#cardGrad)" rx="10" filter="url(#shadow)" stroke="#A5B4FC" stroke-width="0.5"/>
+  <rect x="530" y="160" width="240" height="28" rx="10" fill="#4F46E5" opacity="0.1"/>
+  <text x="560" y="178" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#4F46E5">Тип 3: ax² = 0</text>
+  <text x="550" y="205" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4338CA">b = 0, c = 0</text>
+  <text x="550" y="225" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1E1B4B">x² = 0/a = 0</text>
+  <text x="550" y="260" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#10B981">x = 0</text>
+  <text x="550" y="290" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#4F46E5">Один корень</text>
+  <text x="550" y="308" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#4338CA">(двойной корень)</text>
+  <rect x="30" y="330" width="240" height="145" fill="url(#cardGrad)" rx="10" filter="url(#shadow)" stroke="#A5B4FC" stroke-width="0.5"/>
+  <rect x="50" y="350" width="4" height="18" fill="#4F46E5" rx="2"/>
+  <text x="62" y="364" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#4F46E5">Пример 1</text>
+  <text x="50" y="375" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#1E1B4B">2x² − 18 = 0</text>
+  <text x="50" y="398" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4338CA">2x² = 18</text>
+  <text x="50" y="418" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4338CA">x² = 9</text>
+  <text x="50" y="445" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#10B981">x = ±3</text>
+  <text x="50" y="468" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4F46E5">Ответ: −3; 3</text>
+  <rect x="280" y="330" width="240" height="145" fill="url(#cardGrad)" rx="10" filter="url(#shadow)" stroke="#A5B4FC" stroke-width="0.5"/>
+  <rect x="300" y="350" width="4" height="18" fill="#4F46E5" rx="2"/>
+  <text x="312" y="364" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#4F46E5">Пример 2</text>
+  <text x="300" y="375" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#1E1B4B">3x² + 6x = 0</text>
+  <text x="300" y="398" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4338CA">3x(x + 2) = 0</text>
+  <text x="300" y="418" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4338CA">x = 0 или x+2 = 0</text>
+  <text x="300" y="445" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#10B981">x₁=0, x₂=−2</text>
+  <text x="300" y="468" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4F46E5">Ответ: −2; 0</text>
+  <rect x="530" y="330" width="240" height="145" fill="url(#cardGrad)" rx="10" filter="url(#shadow)" stroke="#A5B4FC" stroke-width="0.5"/>
+  <rect x="550" y="350" width="4" height="18" fill="#4F46E5" rx="2"/>
+  <text x="562" y="364" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#4F46E5">Пример 3</text>
+  <text x="550" y="375" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#1E1B4B">5x² = 0</text>
+  <text x="550" y="398" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4338CA">x² = 0</text>
+  <text x="550" y="425" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#10B981">x = 0</text>
+  <text x="550" y="455" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4F46E5">Ответ: 0</text>
+  <rect x="30" y="490" width="740" height="75" fill="url(#cardGrad)" rx="10" filter="url(#shadow)" stroke="#A5B4FC" stroke-width="0.5"/>
+  <rect x="50" y="510" width="4" height="18" fill="#4F46E5" rx="2"/>
+  <text x="62" y="524" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#4F46E5">Алгоритм решения</text>
+  <text x="50" y="533" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1E1B4B">1. Определить тип неполного уравнения  →  2. Применить формулу  →  3. Записать ответ</text>
+  <text x="50" y="555" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#4F46E5">Неполные уравнения решаются БЕЗ дискриминанта!</text>
+  <rect x="0" y="575" width="800" height="25" fill="#3730A3" opacity="0.05"/>
+  <text x="400" y="592" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#818CF8" opacity="0.7">Алгебра · 8 класс</text>
+</svg>
