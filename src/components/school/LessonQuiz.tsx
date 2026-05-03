@@ -287,18 +287,21 @@ export default function LessonQuiz({
                   {getScoreMessage().message}
                 </p>
                 
-                {/* Stars earned */}
+                {/* Stars earned — 5-star rating */}
                 <div className="flex items-center justify-center gap-2 mb-6">
-                  {[...Array(questions.length)].map((_, idx) => (
-                    <Star
-                      key={idx}
-                      className={`w-8 h-8 ${
-                        idx < score 
-                          ? 'text-yellow-400 fill-yellow-400' 
-                          : 'text-white/20'
-                      }`}
-                    />
-                  ))}
+                  {[0, 1, 2, 3, 4].map((idx) => {
+                    const starsEarned = Math.round((score / questions.length) * 5)
+                    return (
+                      <Star
+                        key={idx}
+                        className={`w-8 h-8 ${
+                          idx < starsEarned 
+                            ? 'text-yellow-400 fill-yellow-400' 
+                            : 'text-white/20'
+                        }`}
+                      />
+                    )
+                  })}
                 </div>
                 
                 {/* Wrong answers review */}

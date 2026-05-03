@@ -245,10 +245,13 @@ export default function Gameplay() {
             </div>
 
             <div className="flex justify-center gap-2 mb-6">
-              {Array.from({ length: selectedGame.reward?.stars || 0 }).map((_, i) => (
-                <Star key={i} className={`w-10 h-10 text-yellow-400 fill-yellow-400 ${i < finalScore ? 'animate-bounce' : 'opacity-30'}`} 
-                  style={{ animationDelay: `${i * 0.1}s` }} />
-              ))}
+              {[0, 1, 2, 3, 4].map((i) => {
+                const starsEarned = Math.round((finalScore / totalTasks) * 5)
+                return (
+                  <Star key={i} className={`w-10 h-10 ${i < starsEarned ? 'text-yellow-400 fill-yellow-400 animate-bounce' : 'text-white/20'}`} 
+                    style={{ animationDelay: `${i * 0.1}s` }} />
+                )
+              })}
             </div>
 
             {percentage >= 50 && (

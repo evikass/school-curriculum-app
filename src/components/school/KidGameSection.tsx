@@ -285,7 +285,7 @@ export default function KidGameSection() {
                   </span>
                   <span className="flex items-center gap-1 text-sm text-yellow-400">
                     <Star className="w-4 h-4 fill-yellow-400" />
-                    {game.reward?.stars || 0}
+                    5
                   </span>
                 </div>
               </button>

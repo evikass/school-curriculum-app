@@ -880,7 +880,7 @@ export function generateLessonQuiz(lessonTitle: string, lessonDescription: strin
     color: 'text-purple-400',
     tasks: matchingTasks,
     reward: {
-      stars: 3,
+      stars: 5,
       message: `Отлично! Ты прошёл тест по уроку "${lessonTitle}"! 🎉`
     }
   }
