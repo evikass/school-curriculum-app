@@ -17,7 +17,7 @@ const createLesson = (
 })
 
 export const lessons: SubjectData = {
-  title: "История России",
+  title: "История",
   icon: "Landmark",
   color: "text-amber-400",
   topics: ["Древняя Русь", "Крещение Руси", "Монгольское иго", "Князья"],
@@ -715,7 +715,7 @@ export const games: GameLesson[] = [
   // ========== ИСТОРИЯ РОССИИ (25–36) ==========
   {
     title: "Истоки Руси",
-    subject: "История России",
+    subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
@@ -730,7 +730,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Первые князья",
-    subject: "История России",
+    subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
@@ -745,7 +745,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Князь Игорь и Ольга",
-    subject: "История России",
+    subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
@@ -760,7 +760,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Святослав",
-    subject: "История России",
+    subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
@@ -775,7 +775,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Князь Владимир",
-    subject: "История России",
+    subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
@@ -790,7 +790,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Распространение христианства",
-    subject: "История России",
+    subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
@@ -805,7 +805,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Ярослав Мудрый",
-    subject: "История России",
+    subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
@@ -820,7 +820,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Культура Древней Руси",
-    subject: "История России",
+    subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
@@ -845,7 +845,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Нашествие монголов",
-    subject: "История России",
+    subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
@@ -860,7 +860,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Борьба с игом",
-    subject: "История России",
+    subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
@@ -875,7 +875,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Куликовская битва",
-    subject: "История России",
+    subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [
@@ -894,8 +894,8 @@ export const games: GameLesson[] = [
   },
 
   {
-    title: "Освобождение от ига",
-    subject: "История России",
+    title: "Освобождение",
+    subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
     tasks: [

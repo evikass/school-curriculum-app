@@ -837,7 +837,7 @@ export const games: GameLesson[] = [
   },
 
   {
-    title: "Бактерии",
+    title: "Царство бактерий",
     subject: "Природоведение",
     icon: "Leaf",
     color: "text-green-400",
@@ -881,7 +881,7 @@ export const games: GameLesson[] = [
   },
 
   {
-    title: "Грибы",
+    title: "Царство грибов",
     subject: "Природоведение",
     icon: "Leaf",
     color: "text-green-400",
@@ -925,7 +925,7 @@ export const games: GameLesson[] = [
   },
 
   {
-    title: "Растения",
+    title: "Царство растений",
     subject: "Природоведение",
     icon: "Leaf",
     color: "text-green-400",
@@ -969,7 +969,7 @@ export const games: GameLesson[] = [
   },
 
   {
-    title: "Животные",
+    title: "Царство животных",
     subject: "Природоведение",
     icon: "Leaf",
     color: "text-green-400",

@@ -17,7 +17,7 @@ const createLesson = (
 })
 
 export const lessons: SubjectData = {
-  title: "География: Россия",
+  title: "География",
   icon: "Map",
   color: "text-teal-400",
   topics: ["Федеративное устройство", "Реки и озёра", "Природные зоны", "Полезные ископаемые"],
@@ -787,7 +787,7 @@ export const games: GameLesson[] = [
   // ========== ГЕОГРАФИЯ: РОССИЯ (13–24) ==========
   {
     title: "Россия на карте",
-    subject: "География: Россия",
+    subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
@@ -802,7 +802,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Субъекты России",
-    subject: "География: Россия",
+    subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
@@ -817,7 +817,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Столица России",
-    subject: "География: Россия",
+    subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
@@ -832,7 +832,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Города-миллионники",
-    subject: "География: Россия",
+    subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
@@ -847,7 +847,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Реки России",
-    subject: "География: Россия",
+    subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
@@ -872,7 +872,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Озёра России",
-    subject: "География: Россия",
+    subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
@@ -887,7 +887,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Моря России",
-    subject: "География: Россия",
+    subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
@@ -902,7 +902,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Водные ресурсы",
-    subject: "География: Россия",
+    subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
@@ -917,7 +917,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Природные зоны России",
-    subject: "География: Россия",
+    subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
@@ -942,7 +942,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Животный мир природных зон",
-    subject: "География: Россия",
+    subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
@@ -957,7 +957,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Полезные ископаемые",
-    subject: "География: Россия",
+    subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [
@@ -982,7 +982,7 @@ export const games: GameLesson[] = [
 
   {
     title: "Охрана природы России",
-    subject: "География: Россия",
+    subject: "География",
     icon: "Map",
     color: "text-teal-400",
     tasks: [

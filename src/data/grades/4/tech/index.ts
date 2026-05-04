@@ -992,7 +992,7 @@ export const games: GameLesson[] = [
   },
 
   {
-    title: "Оригами",
+    title: "Объёмные модели из бумаги",
     subject: "Технология",
     icon: "Ruler",
     color: "text-yellow-400",
