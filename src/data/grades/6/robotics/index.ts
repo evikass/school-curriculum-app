@@ -12,7 +12,7 @@ const lessons: SubjectData = {
   detailedTopics: [
     {
       id: 'robotics-6-1',
-      title: 'Сборка моделей',
+      topic: 'Сборка моделей',
       description: 'Конструирование робототехнических моделей',
       lessons: [
         {
@@ -279,7 +279,7 @@ const lessons: SubjectData = {
     },
     {
       id: 'robotics-6-2',
-      title: 'Основы механики',
+      topic: 'Основы механики',
       description: 'Механические основы робототехники',
       lessons: [
         {
@@ -608,7 +608,7 @@ const lessons: SubjectData = {
     },
     {
       id: 'robotics-6-3',
-      title: 'Программирование',
+      topic: 'Программирование',
       description: 'Программирование роботов',
       lessons: [
         {

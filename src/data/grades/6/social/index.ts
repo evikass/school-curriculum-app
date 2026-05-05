@@ -12,7 +12,7 @@ const lessons: SubjectData = {
   detailedTopics: [
     {
       id: 'social-6-1',
-      title: 'Социальные институты',
+      topic: 'Социальные институты',
       description: 'Понятие о социальных институтах общества',
       lessons: [
         {
@@ -365,7 +365,7 @@ const lessons: SubjectData = {
     },
     {
       id: 'social-6-2',
-      title: 'Государственное устройство',
+      topic: 'Государственное устройство',
       description: 'Основы государственного устройства России',
       lessons: [
         {
@@ -747,7 +747,7 @@ const lessons: SubjectData = {
     },
     {
       id: 'social-6-3',
-      title: 'Права человека',
+      topic: 'Права человека',
       description: 'Основы прав человека и гражданина',
       lessons: [
         {

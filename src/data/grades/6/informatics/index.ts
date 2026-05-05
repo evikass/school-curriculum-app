@@ -12,7 +12,7 @@ const lessons: SubjectData = {
   detailedTopics: [
     {
       id: 'informatics-6-1',
-      title: 'Алгоритмы',
+      topic: 'Алгоритмы',
       description: 'Основы алгоритмизации и программирования',
       lessons: [
         {
@@ -336,7 +336,7 @@ const lessons: SubjectData = {
     },
     {
       id: 'informatics-6-2',
-      title: 'Текстовые редакторы',
+      topic: 'Текстовые редакторы',
       description: 'Работа с текстовыми документами',
       lessons: [
         {
@@ -687,7 +687,7 @@ const lessons: SubjectData = {
     },
     {
       id: 'informatics-6-3',
-      title: 'Графический дизайн',
+      topic: 'Графический дизайн',
       description: 'Основы компьютерной графики',
       lessons: [
         {
