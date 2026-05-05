@@ -185,7 +185,7 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                       </div>
                     )}
                     <div className="bg-white/5 rounded-2xl p-5 border border-white/10">
-                      <LessonContent content={String(lesson.content || currentContent.content || '')} />
+                      <LessonContent content={String(currentContent.content || lesson.content || '')} />
                     </div>
                     
                     {/* Интересные факты */}
