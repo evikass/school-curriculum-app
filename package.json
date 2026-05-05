@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next build",
-    "prebuild": "node scripts/generate-version.cjs",
+    "prebuild": "echo skip",
     "cap:init": "npx cap init ИНЕТШКОЛА ru.evika.inetshkola --web-dir out",
     "cap:add:android": "npx cap add android",
     "cap:copy": "npx cap copy",
