@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Механическое движение и его характеристики",
-          image: "/school-curriculum-app/images/lessons/physics/motion.svg",
+          image: "/images/lessons/grade7/physics/lesson1.svg",
           description: `**Механическое движение** — изменение положения тела относительно других тел с течением времени.
 
 **Основные понятия:**
@@ -75,7 +75,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Расчёт пути и времени движения",
-          image: "/school-curriculum-app/images/lessons/physics/speed-motion.svg",
+          image: "/images/lessons/grade7/physics/lesson2.svg",
           description: `**Формулы равномерного движения:**
 
 **Скорость:**
@@ -146,7 +146,7 @@ t = 30 мин = 0,5 ч v = 3 / 0,5 = 6 км/ч
       lessons: [
         {
           title: "Сила тяжести и вес тела",
-          image: "/school-curriculum-app/images/lessons/physics/forces.svg",
+          image: "/images/lessons/grade7/physics/lesson3.svg",
           description: `**Сила** — векторная величина, мера взаимодействия тел.
 
 **Обозначение:** F
@@ -214,6 +214,7 @@ P = m · g
         },
         {
           title: "Сила упругости и сила трения",
+          image: "/images/lessons/grade7/physics/lesson4.svg",
           description: `**Сила упругости:**
 
 **Определение:**
@@ -288,7 +289,7 @@ Fтр = μ · N
         },
         {
           title: "Законы Ньютона",
-          image: "/school-curriculum-app/images/lessons/physics/newton-laws.svg",
+          image: "/images/lessons/grade7/physics/lesson5.svg",
           description: `**Первый закон Ньютона (закон инерции):**
 
 **Формулировка:**
@@ -357,7 +358,7 @@ F₁ = -F₂
       lessons: [
         {
           title: "Давление и его единицы",
-          image: "/school-curriculum-app/images/lessons/physics/pressure.svg",
+          image: "/images/lessons/grade7/physics/lesson6.svg",
           description: `**Давление** — физическая величина, равная отношению силы к площади поверхности.
 
 **Формула:**
@@ -420,6 +421,7 @@ p = 500 / 10 = 50 Па
         },
         {
           title: "Давление жидкостей и газов",
+          image: "/images/lessons/grade7/physics/lesson7.svg",
           description: `**Закон Паскаля:**
 Давление, производимое на жидкость или газ, передаётся в любую точку без изменений во всех направлениях.
 
@@ -487,7 +489,7 @@ p = 1000 · 10 · 10 = 100 000 Па = 100 кПа
       lessons: [
         {
           title: "Механическая работа",
-          image: "/school-curriculum-app/images/lessons/physics/work-power.svg",
+          image: "/images/lessons/grade7/physics/lesson8.svg",
           description: `**Механическая работа** — физическая величина, равная произведению силы на перемещение.
 
 **Формула:**
@@ -547,7 +549,7 @@ A = 50 · 10 = 500 Дж
         },
         {
           title: "Мощность",
-          image: "/school-curriculum-app/images/lessons/physics/work-power.svg",
+          image: "/images/lessons/grade7/physics/lesson9.svg",
           description: `**Мощность** — физическая величина, равная отношению работы ко времени.
 
 **Формула:**
