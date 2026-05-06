@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="parchBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#FFFBF0" />
+      <stop offset="100%" stopColor="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#78350F" />
+      <stop offset="50%" stopColor="#92400E" />
+      <stop offset="100%" stopColor="#78350F" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#F59E0B" />
+      <stop offset="100%" stopColor="#D97706" />
+    </linearGradient>
+    <filter id="cardShadow" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" floodColor="#00000020" />
+    </filter>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" floodColor="#D9770660" />
+    </filter>
+    <pattern id="parchTex" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="none" />
+      <circle cx="10" cy="10" r="0.5" fill="#D4A01715" />
+    </pattern>
+    <pattern id="borderPat" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="none" />
+      <path d="M0,6 L6,0 L12,6 L6,12 Z" fill="none" stroke="#D9770630" strokeWidth="0.5" />
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#parchBg)" />
+  <rect x="0" y="0" width="800" height="600" fill="url(#parchTex)" />
+  <rect x="4" y="4" width="792" height="592" fill="none" stroke="#D97706" strokeWidth="2" rx="8" />
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#D9770640" strokeWidth="1" rx="6" />
+  <rect x="0" y="0" width="800" height="72" fill="url(#headerGrad)" rx="8" />
+  <rect x="0" y="70" width="800" height="3" fill="#D4A017" />
+  <line x1="20" y1="68" x2="780" y2="68" stroke="#D4A01760" strokeWidth="0.5" />
+  <text x="400" y="32" fontSize="21" fill="#FFFFFF" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Комедия «Ревизор»</text>
+  <text x="400" y="56" fontSize="12" fill="#FEF3C7" textAnchor="middle" fontFamily="sans-serif">Н.В. Гоголь — сатира на чиновничество и общественные пороки</text>
+  <rect x="0" y="580" width="800" height="20" fill="#78350F" rx="0" />
+  <rect x="0" y="578" width="800" height="2" fill="#D4A017" />
+  <text x="400" y="594" fontSize="10" fill="#FEFCE8" textAnchor="middle" fontFamily="sans-serif">8 класс · Литература · Урок 4</text>
+  <g>
+    <rect x="20" y="82" width="500" height="210" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="82" width="500" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="84" width="500" height="2" fill="url(#amberGrad)" />
+    <text x="30" y="100" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Система персонажей</text>
+  </g>
+  <ellipse cx="270" cy="115" rx="60" ry="22" fill="#FDE68A" stroke="#92400E" strokeWidth="1.5" />
+  <text x="270" y="119" fontSize="11" fill="#44260A" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Городничий</text>
+  <ellipse cx="270" cy="165" rx="55" ry="22" fill="#FFFBEB" stroke="#B91C1C" strokeWidth="1.5" />
+  <text x="270" y="169" fontSize="11" fill="#44260A" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Хлестаков</text>
+  <ellipse cx="80" cy="130" rx="60" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="80" y="134" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Анна Андреевна</text>
+  <ellipse cx="80" cy="175" rx="60" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="80" y="179" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Марья Антоновна</text>
+  <ellipse cx="460" cy="130" rx="60" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="460" y="134" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Ляпкин-Тяпкин</text>
+  <ellipse cx="460" cy="175" rx="60" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="460" y="179" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Земляника</text>
+  <ellipse cx="80" cy="230" rx="60" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="80" y="234" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Бобчинский</text>
+  <ellipse cx="170" cy="230" rx="60" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="170" y="234" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Добчинский</text>
+  <ellipse cx="370" cy="230" rx="60" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="370" y="234" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Шпекин</text>
+  <ellipse cx="460" cy="230" rx="60" ry="16" fill="#FEFCE8" stroke="#D97706" strokeWidth="1.5" />
+  <text x="460" y="234" fontSize="9" fill="#78350F" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">Уховертов</text>
+  <line x1="270" y1="116" x2="80" y2="116" stroke="#D9770630" strokeWidth="0.7" strokeDasharray="2,3" />
+  <line x1="270" y1="161" x2="80" y2="161" stroke="#D9770630" strokeWidth="0.7" strokeDasharray="2,3" />
+  <line x1="270" y1="116" x2="460" y2="116" stroke="#D9770630" strokeWidth="0.7" strokeDasharray="2,3" />
+  <line x1="270" y1="161" x2="460" y2="161" stroke="#D9770630" strokeWidth="0.7" strokeDasharray="2,3" />
+  <line x1="270" y1="216" x2="80" y2="216" stroke="#D9770630" strokeWidth="0.7" strokeDasharray="2,3" />
+  <line x1="270" y1="216" x2="170" y2="216" stroke="#D9770630" strokeWidth="0.7" strokeDasharray="2,3" />
+  <line x1="270" y1="216" x2="370" y2="216" stroke="#D9770630" strokeWidth="0.7" strokeDasharray="2,3" />
+  <line x1="270" y1="216" x2="460" y2="216" stroke="#D9770630" strokeWidth="0.7" strokeDasharray="2,3" />
+  <line x1="270" y1="135" x2="270" y2="145" stroke="#92400E" strokeWidth="1.5" />
+  <polygon points="270,145 266.0,137.0 274.0,137.0" fill="#92400E" />
+  <text x="290" y="150" fontSize="8" fill="#B91C1C" fontFamily="sans-serif">страх</text>
+  <g>
+    <rect x="535" y="82" width="245" height="210" fill="#FEFCE8" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="535" y="82" width="245" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="535" y="84" width="245" height="2" fill="url(#amberGrad)" />
+    <text x="545" y="100" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Основные темы</text>
+    <text x="549" y="116" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ Чиновничий произвол</text>
+    <text x="549" y="131" fontSize="11" fill="#78350F" fontFamily="sans-serif">  Взятки, казнокрадство</text>
+    <text x="549" y="146" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="549" y="161" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ Страх перед властью</text>
+    <text x="549" y="176" fontSize="11" fill="#78350F" fontFamily="sans-serif">  Городничий боится ревизора</text>
+    <text x="549" y="191" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="549" y="206" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ Хлестаковщина</text>
+    <text x="549" y="221" fontSize="11" fill="#78350F" fontFamily="sans-serif">  Враньё как образ жизни</text>
+    <text x="549" y="236" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="549" y="251" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ Чинопочитание</text>
+    <text x="549" y="266" fontSize="11" fill="#78350F" fontFamily="sans-serif">  Рабская психология</text>
+    <text x="549" y="281" fontSize="11" fill="#78350F" fontFamily="sans-serif" />
+    <text x="549" y="296" fontSize="11" fill="#78350F" fontFamily="sans-serif">♦ Смех сквозь слёзы</text>
+  </g>
+  <g>
+    <rect x="20" y="302" width="380" height="130" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="302" width="380" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="304" width="380" height="2" fill="url(#amberGrad)" />
+    <text x="30" y="320" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Хлестаков и «хлестаковщина»</text>
+    <text x="34" y="336" fontSize="11" fill="#78350F" fontFamily="sans-serif">Хлестаков — мелкий чиновник, принятый за ревизора.</text>
+    <text x="34" y="351" fontSize="11" fill="#78350F" fontFamily="sans-serif">Суть «хлестаковщины»:</text>
+    <text x="34" y="366" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Мнимая значительность без оснований</text>
+    <text x="34" y="381" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Болтливость и самовосхваление</text>
+    <text x="34" y="396" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Лёгкость и поверхностность</text>
+    <text x="34" y="411" fontSize="11" fill="#78350F" fontFamily="sans-serif">• Способность увлечь окружающих враньём</text>
+    <text x="34" y="426" fontSize="11" fill="#78350F" fontFamily="sans-serif">«Лёгкость в мыслях необыкновенная»</text>
+  </g>
+  <g>
+    <rect x="400" y="302" width="380" height="130" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="400" y="302" width="380" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="400" y="304" width="380" height="2" fill="url(#amberGrad)" />
+    <text x="410" y="320" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Развитие действия</text>
+    <text x="414" y="336" fontSize="11" fill="#78350F" fontFamily="sans-serif">1. Известие о ревизоре — паника</text>
+    <text x="414" y="351" fontSize="11" fill="#78350F" fontFamily="sans-serif">2. Ошибка: Хлестаков = ревизор</text>
+    <text x="414" y="366" fontSize="11" fill="#78350F" fontFamily="sans-serif">3. Враньё Хлестакова растёт</text>
+    <text x="414" y="381" fontSize="11" fill="#78350F" fontFamily="sans-serif">4. Сватовство к Марье Антоновне</text>
+    <text x="414" y="396" fontSize="11" fill="#78350F" fontFamily="sans-serif">5. Бегство Хлестакова</text>
+    <text x="414" y="411" fontSize="11" fill="#78350F" fontFamily="sans-serif">6. Чтение письма — разоблачение</text>
+    <text x="414" y="426" fontSize="11" fill="#78350F" fontFamily="sans-serif">7. Немая сцена — настоящий ревизор!</text>
+  </g>
+  <g>
+    <rect x="20" y="442" width="760" height="55" fill="#FEF3C7" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="442" width="760" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="444" width="760" height="2" fill="url(#amberGrad)" />
+  </g>
+  <text x="400" y="466" fontSize="14" fill="#92400E" textAnchor="middle" fontFamily="sans-serif" fontStyle="italic" fontWeight="bold">«На зеркало неча пенять, коли рожа крива»</text>
+  <text x="400" y="484" fontSize="10" fill="#A16207" textAnchor="middle" fontFamily="sans-serif">— Эпиграф к комедии (народная пословица)</text>
+  <g>
+    <rect x="20" y="507" width="380" height="65" fill="#FEFCE8" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="20" y="507" width="380" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="20" y="509" width="380" height="2" fill="url(#amberGrad)" />
+    <text x="30" y="525" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Немая сцена</text>
+    <text x="34" y="541" fontSize="11" fill="#78350F" fontFamily="sans-serif">Финал — окаменение всех персонажей.</text>
+    <text x="34" y="556" fontSize="11" fill="#78350F" fontFamily="sans-serif">Метафора застывшего общества.</text>
+  </g>
+  <g>
+    <rect x="400" y="507" width="380" height="65" fill="#FFF7ED" stroke="#D97706" strokeWidth="1" rx="6" filter="url(#cardShadow)" />
+    <rect x="400" y="507" width="380" height="4" fill="url(#amberGrad)" rx="6" />
+    <rect x="400" y="509" width="380" height="2" fill="url(#amberGrad)" />
+    <text x="410" y="525" fontSize="13" fill="#92400E" fontFamily="sans-serif" fontWeight="bold">Значение комедии</text>
+    <text x="414" y="541" fontSize="11" fill="#78350F" fontFamily="sans-serif">Гоголь обличил пороки всей России.</text>
+    <text x="414" y="556" fontSize="11" fill="#78350F" fontFamily="sans-serif">«Ревизор» — зеркало русского общества.</text>
+  </g>
+  <g transform="translate(748,548)">
+    <rect x="0" y="2.2" width="17.6" height="17.6" fill="#78350F" rx="2" />
+    <rect x="2.2" y="0" width="17.6" height="17.6" fill="#D97706" rx="2" />
+    <line x1="11.0" y1="0" x2="11.0" y2="17.6" stroke="#FFFFFF" strokeWidth="1" />
+    <line x1="4.4" y1="5.5" x2="9.9" y2="5.5" stroke="#FFFFFF" strokeWidth="0.8" />
+    <line x1="12.100000000000001" y1="5.5" x2="17.6" y2="5.5" stroke="#FFFFFF" strokeWidth="0.8" />
+  </g>
+</svg>

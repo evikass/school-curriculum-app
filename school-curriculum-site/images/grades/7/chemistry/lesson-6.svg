@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4C1D95;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6D28D9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.15);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0.05);stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  <!-- Decorative circles -->
+  <circle cx="50" cy="50" r="120" fill="#5B21B6" opacity="0.3"/>
+  <circle cx="750" cy="550" r="100" fill="#5B21B6" opacity="0.3"/>
+  <circle cx="700" cy="80" r="60" fill="#7C3AED" opacity="0.2"/>
+  <circle cx="100" cy="520" r="80" fill="#7C3AED" opacity="0.2"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0"/>
+  <rect x="0" y="68" width="800" height="3" fill="#A78BFA" opacity="0.6"/>
+  <text x="80" y="44" font-family="Arial, sans-serif" font-size="13" fill="#C4B5FD" font-weight="bold">УРОК 6</text>
+  <text x="160" y="44" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold">Уравнения химических реакций</text>
+  <text x="160" y="60" font-family="Arial, sans-serif" font-size="12" fill="#C4B5FD">Закон сохранения массы, балансировка</text>
+  <!-- Lesson number circle -->
+  <circle cx="40" cy="35" r="25" fill="#5B21B6" stroke="#A78BFA" stroke-width="2"/>
+  <text x="40" y="41" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold" text-anchor="middle">6</text>
+  <rect x="20" y="85" width="380" height="200" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="210" y="112" font-family="Arial, sans-serif" font-size="15" fill="#A78BFA" text-anchor="middle" font-weight="bold">Закон сохранения массы</text>
+  <text x="210" y="138" font-family="Arial, sans-serif" font-size="12" fill="#C4B5FD" text-anchor="middle" font-weight="normal">М.В. Ломоносов, 1748 г.</text>
+  <text x="35" y="170" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="normal">Масса веществ, вступивших</text>
+  <text x="35" y="188" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="normal">в реакцию, равна массе</text>
+  <text x="35" y="206" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="normal">веществ, получившихся</text>
+  <text x="35" y="224" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="normal">в результате реакции.</text>
+  <line x1="120" y1="255" x2="300" y2="255" stroke="#A78BFA" stroke-width="2"/>
+  <polygon points="210,248 205,258 215,258" fill="#A78BFA"/>
+  <rect x="90" y="238" width="60" height="20" rx="4" fill="#3B82F6" opacity="0.3" stroke="#3B82F6" stroke-width="1"/>
+  <text x="120" y="252" font-family="Arial, sans-serif" font-size="10" fill="#3B82F6" text-anchor="middle" font-weight="normal">Реаг.</text>
+  <rect x="270" y="238" width="60" height="20" rx="4" fill="#10B981" opacity="0.3" stroke="#10B981" stroke-width="1"/>
+  <text x="300" y="252" font-family="Arial, sans-serif" font-size="10" fill="#10B981" text-anchor="middle" font-weight="normal">Прод.</text>
+  <text x="120" y="275" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">m = m</text>
+  <text x="160" y="270" font-family="Arial, sans-serif" font-size="10" fill="#3B82F6" text-anchor="start" font-weight="normal">реаг</text>
+  <text x="300" y="275" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">m</text>
+  <text x="310" y="270" font-family="Arial, sans-serif" font-size="10" fill="#10B981" text-anchor="start" font-weight="normal">прод</text>
+  <rect x="410" y="85" width="370" height="200" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="595" y="112" font-family="Arial, sans-serif" font-size="15" fill="#A78BFA" text-anchor="middle" font-weight="bold">Правила расстановки</text>
+  <text x="595" y="132" font-family="Arial, sans-serif" font-size="15" fill="#A78BFA" text-anchor="middle" font-weight="bold">коэффициентов</text>
+  <text x="425" y="158" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="normal">1. Подсчитать атомы каждого</text>
+  <text x="425" y="175" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="normal">   элемента слева и справа</text>
+  <text x="425" y="192" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="normal">2. Начать с элемента с</text>
+  <text x="425" y="209" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="normal">   наибольшим числом атомов</text>
+  <text x="425" y="226" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="normal">3. Ставить коэффициенты</text>
+  <text x="425" y="243" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="normal">   ПЕРЕД формулами</text>
+  <text x="425" y="260" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="normal">4. Проверить баланс каждого</text>
+  <text x="425" y="277" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="normal">   элемента</text>
+  <rect x="20" y="300" width="760" height="265" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="400" y="325" font-family="Arial, sans-serif" font-size="15" fill="#A78BFA" text-anchor="middle" font-weight="bold">Пример: Уравнивание реакции</text>
+  <text x="35" y="355" font-family="Arial, sans-serif" font-size="12" fill="#C4B5FD" text-anchor="start" font-weight="bold">Шаг 1: Незаписанная реакция</text>
+  <text x="35" y="378" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF" text-anchor="start" font-weight="bold">Fe + O₂ → Fe₂O₃</text>
+  <text x="35" y="408" font-family="Arial, sans-serif" font-size="12" fill="#C4B5FD" text-anchor="start" font-weight="bold">Шаг 2: Подсчёт атомов</text>
+  <text x="60" y="430" font-family="Arial, sans-serif" font-size="12" fill="#A78BFA" text-anchor="start" font-weight="bold">Элемент</text>
+  <text x="180" y="430" font-family="Arial, sans-serif" font-size="12" fill="#A78BFA" text-anchor="start" font-weight="bold">Слева</text>
+  <text x="280" y="430" font-family="Arial, sans-serif" font-size="12" fill="#A78BFA" text-anchor="start" font-weight="bold">Справа</text>
+  <line x1="40" y1="435" x2="350" y2="435" stroke="#7C3AED" stroke-width="0.5"/>
+  <text x="60" y="450" font-family="Arial, sans-serif" font-size="13" fill="#F59E0B" text-anchor="start" font-weight="bold">Fe</text>
+  <text x="180" y="450" font-family="Arial, sans-serif" font-size="13" fill="#EF4444" text-anchor="start" font-weight="bold">1</text>
+  <text x="280" y="450" font-family="Arial, sans-serif" font-size="13" fill="#10B981" text-anchor="start" font-weight="bold">2</text>
+  <text x="60" y="468" font-family="Arial, sans-serif" font-size="13" fill="#06B6D4" text-anchor="start" font-weight="bold">O</text>
+  <text x="180" y="468" font-family="Arial, sans-serif" font-size="13" fill="#EF4444" text-anchor="start" font-weight="bold">2</text>
+  <text x="280" y="468" font-family="Arial, sans-serif" font-size="13" fill="#EF4444" text-anchor="start" font-weight="bold">3</text>
+  <text x="35" y="498" font-family="Arial, sans-serif" font-size="12" fill="#C4B5FD" text-anchor="start" font-weight="bold">Шаг 3: Расставляем коэффициенты</text>
+  <text x="35" y="522" font-family="Arial, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="start" font-weight="bold">4Fe + 3O₂ → 2Fe₂O₃</text>
+  <rect x="30" y="506" width="280" height="28" rx="5" fill="#10B981" opacity="0.1" stroke="#10B981" stroke-width="1"/>
+  <text x="370" y="498" font-family="Arial, sans-serif" font-size="12" fill="#10B981" text-anchor="start" font-weight="bold">Проверка:</text>
+  <text x="370" y="518" font-family="Arial, sans-serif" font-size="13" fill="#10B981" text-anchor="start" font-weight="normal">Fe: 4=2·2=4 ✓</text>
+  <text x="370" y="536" font-family="Arial, sans-serif" font-size="13" fill="#10B981" text-anchor="start" font-weight="normal">O:  3·2=6=2·3=6 ✓</text>
+  <rect x="550" y="340" width="220" height="210" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="660" y="362" font-family="Arial, sans-serif" font-size="13" fill="#A78BFA" text-anchor="middle" font-weight="bold">Ещё примеры</text>
+  <text x="565" y="390" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="start" font-weight="bold">H₂ + Cl₂ = 2HCl</text>
+  <text x="565" y="418" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">2Na + 2H₂O =</text>
+  <text x="575" y="436" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">2NaOH + H₂</text>
+  <text x="565" y="462" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">CH₄ + 2O₂ =</text>
+  <text x="575" y="480" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">CO₂ + 2H₂O</text>
+  <text x="565" y="510" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="bold">Al₂O₃ + 6HCl =</text>
+  <text x="575" y="528" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="bold">2AlCl₃ + 3H₂O</text>
+
+  <rect x="0" y="575" width="800" height="25" fill="rgba(0,0,0,0.2)"/>
+  <text x="400" y="592" font-family="Arial, sans-serif" font-size="11" fill="#A78BFA" text-anchor="middle">Химия • 7 класс • ИнеШкола</text>
+</svg>

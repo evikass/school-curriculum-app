@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#C62828" text-anchor="middle">Ж. Верн. Таинственный остров</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 11</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Card 1: Desert island with volcano (main scene) -->
+  <rect x="25" y="90" width="310" height="200" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="180" y="104" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-weight="bold" text-anchor="middle">ТАИНСТВЕННЫЙ ОСТРОВ</text>
+  <!-- Ocean -->
+  <rect x="30" y="108" width="300" height="100" fill="#E3F2FD" opacity="0.5" rx="3"/>
+  <!-- Waves -->
+  <path d="M30,145 Q50,140 70,145 Q90,140 110,145 Q130,140 150,145 Q170,140 190,145 Q210,140 230,145 Q250,140 270,145 Q290,140 330,145" stroke="#1565C0" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M30,165 Q50,160 70,165 Q90,160 110,165 Q130,160 150,165 Q170,160 190,165 Q210,160 230,165 Q250,160 270,165 Q290,160 330,165" stroke="#1565C0" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M30,185 Q50,180 70,185 Q90,180 110,185 Q130,180 150,185 Q170,180 190,185 Q210,180 230,185 Q250,180 270,185 Q290,180 330,185" stroke="#1565C0" stroke-width="1" fill="none" opacity="0.3"/>
+  <!-- Island base -->
+  <ellipse cx="180" cy="210" rx="120" ry="30" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <!-- Beach ring -->
+  <ellipse cx="180" cy="212" rx="125" ry="28" fill="#FFCC80" stroke="#F9A825" stroke-width="0.5" opacity="0.5"/>
+  <!-- Island interior -->
+  <ellipse cx="180" cy="208" rx="115" ry="22" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.8"/>
+  <!-- Volcano -->
+  <path d="M155,208 L175,120 L195,208 Z" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Volcano texture -->
+  <line x1="165" y1="185" x2="162" y2="200" stroke="#6D4C41" stroke-width="0.5" opacity="0.5"/>
+  <line x1="185" y1="185" x2="188" y2="200" stroke="#6D4C41" stroke-width="0.5" opacity="0.5"/>
+  <!-- Crater -->
+  <ellipse cx="175" cy="122" rx="15" ry="5" fill="#5D4037" stroke="#4E342E" stroke-width="1"/>
+  <!-- Smoke/steam -->
+  <path d="M170,118 Q165,105 172,95" stroke="#9E9E9E" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M175,116 Q178,100 173,90" stroke="#9E9E9E" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <path d="M180,118 Q183,108 178,98" stroke="#9E9E9E" stroke-width="1" fill="none" opacity="0.35"/>
+  <!-- Palm trees on island -->
+  <!-- Left palm -->
+  <line x1="80" y1="208" x2="82" y2="172" stroke="#8D6E63" stroke-width="3" stroke-linecap="round"/>
+  <path d="M82,172 Q65,165 55,170 Q65,172 72,176 Q60,175 52,182 Q64,177 73,175 Q62,180 58,190 Q68,182 76,176 Q73,182 72,192 Q77,182 80,175" fill="#2E7D32" stroke="#1B5E20" stroke-width="0.6"/>
+  <path d="M82,172 Q98,164 108,168 Q97,172 92,176 Q104,173 112,180 Q100,175 92,174 Q104,178 110,188 Q100,180 86,175 Q90,180 92,190 Q87,180 84,174" fill="#388E3C" stroke="#1B5E20" stroke-width="0.6"/>
+  <!-- Right palm -->
+  <line x1="280" y1="205" x2="278" y2="168" stroke="#8D6E63" stroke-width="3" stroke-linecap="round"/>
+  <path d="M278,168 Q262,162 252,166 Q262,168 268,172 Q258,170 250,178 Q260,173 268,171 Q258,176 254,185 Q262,177 272,171 Q268,178 267,186 Q272,177 276,170" fill="#2E7D32" stroke="#1B5E20" stroke-width="0.6"/>
+  <path d="M278,168 Q294,160 304,164 Q293,168 288,172 Q298,169 306,176 Q296,171 288,170 Q298,174 304,184 Q294,176 282,170 Q286,176 288,186 Q283,176 280,170" fill="#388E3C" stroke="#1B5E20" stroke-width="0.6"/>
+  <!-- Small hut/shelter on island -->
+  <rect x="120" y="198" width="20" height="14" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+  <polygon points="117,198 130,188 143,198" fill="#2E7D32" stroke="#1B5E20" stroke-width="0.8"/>
+  <!-- Figures (colonists) -->
+  <circle cx="155" cy="194" r="4" fill="#FFCC80" stroke="#C62828" stroke-width="0.5"/>
+  <line x1="155" y1="198" x2="155" y2="208" stroke="#C62828" stroke-width="1.2"/>
+  <circle cx="222" cy="196" r="4" fill="#FFCC80" stroke="#C62828" stroke-width="0.5"/>
+  <line x1="222" y1="200" x2="222" y2="210" stroke="#C62828" stroke-width="1.2"/>
+  <!-- Birds -->
+  <path d="M60,115 Q55,110 50,113 Q55,115 56,118 Q53,117 52,120 Q55,118 60,120 Z" fill="#5D4037" opacity="0.5"/>
+  <path d="M310,120 Q305,115 300,118 Q305,120 306,123 Q303,122 302,125 Q305,123 310,125 Z" fill="#5D4037" opacity="0.5"/>
+  <!-- Wrecked ship on rocks -->
+  <rect x="40" y="180" width="30" height="8" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8" transform="rotate(-15,55,184)"/>
+  <line x1="55" y1="172" x2="55" y2="184" stroke="#8D6E63" stroke-width="1.5"/>
+  <!-- Broken mast -->
+  <line x1="55" y1="172" x2="48" y2="155" stroke="#8D6E63" stroke-width="1.5"/>
+  <!-- Tattered sail -->
+  <polygon points="48,155 55,158 52,170" fill="white" stroke="#9E9E9E" stroke-width="0.5" opacity="0.6"/>
+  <polygon points="48,155 42,162 52,170" fill="white" stroke="#9E9E9E" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Card 2: Hot air balloon -->
+  <rect x="347" y="90" width="128" height="130" rx="6" fill="white" stroke="#C62828" stroke-width="1.5" opacity="0.9"/>
+  <text x="411" y="104" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-weight="bold" text-anchor="middle">ВОЗДУШНЫЙ ШАР</text>
+  <!-- Sky -->
+  <rect x="352" y="108" width="118" height="40" fill="#E3F2FD" opacity="0.4" rx="2"/>
+  <!-- Clouds -->
+  <ellipse cx="380" cy="120" rx="12" ry="5" fill="white" opacity="0.7"/>
+  <ellipse cx="440" cy="125" rx="10" ry="4" fill="white" opacity="0.6"/>
+  <!-- Balloon envelope -->
+  <path d="M395,195 Q388,175 388,155 Q388,130 411,118 Q434,130 434,155 Q434,175 427,195 Z" fill="#C62828" stroke="#8D6E63" stroke-width="1"/>
+  <!-- Balloon stripes -->
+  <path d="M395,195 Q393,175 393,155 Q393,132 411,120" stroke="#FDD835" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M411,195 Q411,175 411,155 Q411,130 411,120" stroke="#FDD835" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M427,195 Q429,175 429,155 Q429,132 411,120" stroke="#FDD835" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Sandbags -->
+  <line x1="400" y1="195" x2="398" y2="210" stroke="#9E9E9E" stroke-width="0.8"/>
+  <rect x="394" y="208" width="8" height="6" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <line x1="422" y1="195" x2="424" y2="210" stroke="#9E9E9E" stroke-width="0.8"/>
+  <rect x="420" y="208" width="8" height="6" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <!-- Basket -->
+  <rect x="398" y="210" width="26" height="12" rx="2" fill="#D4A574" stroke="#8D6E63" stroke-width="1"/>
+  <!-- Basket weave -->
+  <line x1="398" y1="214" x2="424" y2="214" stroke="#8D6E63" stroke-width="0.5"/>
+  <line x1="406" y1="210" x2="406" y2="222" stroke="#8D6E63" stroke-width="0.5"/>
+  <line x1="414" y1="210" x2="414" y2="222" stroke="#8D6E63" stroke-width="0.5"/>
+  <!-- Passengers in basket -->
+  <circle cx="407" cy="208" r="3" fill="#FFCC80" stroke="#C62828" stroke-width="0.5"/>
+  <circle cx="416" cy="208" r="3" fill="#FFCC80" stroke="#C62828" stroke-width="0.5"/>
+  <!-- Ropes from balloon to basket -->
+  <line x1="395" y1="195" x2="398" y2="210" stroke="#9E9E9E" stroke-width="0.8"/>
+  <line x1="427" y1="195" x2="424" y2="210" stroke="#9E9E9E" stroke-width="0.8"/>
+  <!-- Ocean below -->
+  <path d="M352,225 Q370,222 388,225 Q406,222 424,225 Q442,222 460,225" stroke="#1565C0" stroke-width="0.8" fill="none" opacity="0.3"/>
+  <text x="411" y="215" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">побег с острова</text>
+
+  <!-- Card 3: Inventions & Exploration -->
+  <rect x="347" y="228" width="128" height="62" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="411" y="242" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" font-weight="bold" text-anchor="middle">ИЗОБРЕТЕНИЯ КОЛОНИСТОВ</text>
+  <!-- Telescope -->
+  <line x1="365" y1="260" x2="390" y2="250" stroke="#8D6E63" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="392" cy="249" r="5" fill="#E3F2FD" stroke="#8D6E63" stroke-width="1"/>
+  <circle cx="392" cy="249" r="2.5" fill="#BBDEFB"/>
+  <!-- Blueprint/paper -->
+  <rect x="400" y="252" width="30" height="22" rx="1" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+  <!-- Blueprint lines -->
+  <line x1="405" y1="258" x2="425" y2="258" stroke="#1565C0" stroke-width="0.5" opacity="0.5"/>
+  <line x1="405" y1="262" x2="422" y2="262" stroke="#1565C0" stroke-width="0.5" opacity="0.5"/>
+  <line x1="405" y1="266" x2="425" y2="266" stroke="#1565C0" stroke-width="0.5" opacity="0.5"/>
+  <line x1="405" y1="270" x2="418" y2="270" stroke="#1565C0" stroke-width="0.5" opacity="0.5"/>
+  <!-- Gear/cogwheel -->
+  <circle cx="448" cy="268" r="8" fill="none" stroke="#9E9E9E" stroke-width="1.5"/>
+  <circle cx="448" cy="268" r="3" fill="#9E9E9E"/>
+  <!-- Gear teeth -->
+  <rect x="446" y="258" width="4" height="4" fill="#9E9E9E"/>
+  <rect x="446" y="274" width="4" height="4" fill="#9E9E9E"/>
+  <rect x="438" y="266" width="4" height="4" fill="#9E9E9E"/>
+  <rect x="454" y="266" width="4" height="4" fill="#9E9E9E"/>
+  <rect x="440" y="260" width="4" height="4" fill="#9E9E9E" transform="rotate(45,442,262)"/>
+  <rect x="452" y="272" width="4" height="4" fill="#9E9E9E" transform="rotate(45,454,274)"/>
+  <rect x="452" y="260" width="4" height="4" fill="#9E9E9E" transform="rotate(-45,454,262)"/>
+  <rect x="440" y="272" width="4" height="4" fill="#9E9E9E" transform="rotate(-45,442,274)"/>
+  <!-- Small pickaxe -->
+  <line x1="365" y1="278" x2="380" y2="285" stroke="#8D6E63" stroke-width="2"/>
+  <path d="M380,282 L388,280 L385,286 Z" fill="#9E9E9E"/>
+
+  <!-- Card 4: Main characters -->
+  <rect x="25" y="228" width="150" height="62" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5" opacity="0.9"/>
+  <text x="100" y="242" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" font-weight="bold" text-anchor="middle">КОЛОНИСТЫ</text>
+  <!-- Engineer Cyrus -->
+  <circle cx="52" cy="262" r="6" fill="#FFCC80" stroke="#C62828" stroke-width="0.6"/>
+  <rect x="47" y="256" width="10" height="3" fill="#9E9E9E"/>
+  <path d="M48,268 Q50,278 49,286 L55,286 Q54,278 56,268 Z" fill="#1565C0"/>
+  <text x="52" y="296" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Сайрус</text>
+  <!-- Reporter Gédéon -->
+  <circle cx="82" cy="262" r="6" fill="#FFCC80" stroke="#C62828" stroke-width="0.6"/>
+  <path d="M76,258 Q79,253 82,252 Q85,253 88,258" fill="#5D4037"/>
+  <path d="M78,268 Q80,278 79,286 L85,286 Q84,278 86,268 Z" fill="white" stroke="#C62828" stroke-width="0.3"/>
+  <text x="82" y="296" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">Жедеон</text>
+  <!-- Sailor Pencroff -->
+  <circle cx="112" cy="262" r="6" fill="#FFCC80" stroke="#C62828" stroke-width="0.6"/>
+  <path d="M106,258 Q109,253 112,252 Q115,253 118,258" fill="#8D6E63"/>
+  <path d="M108,268 Q110,278 109,286 L115,286 Q114,278 116,268 Z" fill="#2E7D32"/>
+  <text x="112" y="296" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Пенкроф</text>
+  <!-- Neb -->
+  <circle cx="142" cy="262" r="6" fill="#FFCC80" stroke="#C62828" stroke-width="0.6"/>
+  <path d="M136,258 Q139,253 142,252 Q145,253 148,258" fill="#5D4037"/>
+  <path d="M138,268 Q140,278 139,286 L145,286 Q144,278 146,268 Z" fill="#FFCC80" stroke="#C62828" stroke-width="0.3"/>
+  <text x="142" y="296" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Неб</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="white" font-weight="bold">Ж. Верн. Таинственный остров</text>
+</svg>

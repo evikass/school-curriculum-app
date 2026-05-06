@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0C1B2A" />
+      <stop offset="100%" stop-color="#0F2744" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)" />
+  <line x1="0" y1="0" x2="0" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="40" y1="0" x2="40" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="80" y1="0" x2="80" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="120" y1="0" x2="120" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="160" y1="0" x2="160" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="200" y1="0" x2="200" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="240" y1="0" x2="240" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="280" y1="0" x2="280" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="320" y1="0" x2="320" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="360" y1="0" x2="360" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="400" y1="0" x2="400" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="440" y1="0" x2="440" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="480" y1="0" x2="480" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="520" y1="0" x2="520" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="560" y1="0" x2="560" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="600" y1="0" x2="600" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="640" y1="0" x2="640" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="680" y1="0" x2="680" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="720" y1="0" x2="720" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="760" y1="0" x2="760" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="800" y1="0" x2="800" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="120" x2="800" y2="120" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="280" x2="800" y2="280" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="440" x2="800" y2="440" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="520" x2="800" y2="520" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <rect x="0" y="0" width="800" height="70" fill="#0284C7" opacity="0.92" />
+  <rect x="16" y="12" width="46" height="46" rx="8" fill="#0C1B2A" />
+  <text x="39" y="44" text-anchor="middle" fill="#06B6D4" font-size="22" font-weight="bold" font-family="monospace">1</text>
+  <text x="76" y="38" fill="#E0F2FE" font-size="22" font-weight="bold" font-family="sans-serif">Что такое робототехника</text>
+  <text x="76" y="58" fill="#7DD3FC" font-size="13" font-family="sans-serif">Введение, история и законы Азимова</text>
+  <line x1="0" y1="70" x2="800" y2="70" stroke="#06B6D4" stroke-width="2" opacity="0.6" />
+  <rect x="16" y="82" width="370" height="140" rx="8" fill="#0D2137" stroke="#1E5A8A" stroke-width="1" />
+  <text x="28" y="104" fill="#38BDF8" font-size="14" font-weight="bold" font-family="sans-serif">Определение</text>
+  <text x="28" y="112" fill="#E0F2FE" font-size="13" font-family="sans-serif" text-anchor="start">Робототехника — наука о создании</text>
+  <text x="28" y="130" fill="#E0F2FE" font-size="13" font-family="sans-serif" text-anchor="start">и применении роботов, автоматических</text>
+  <text x="28" y="148" fill="#E0F2FE" font-size="13" font-family="sans-serif" text-anchor="start">устройств для выполнения задач.</text>
+  <text x="28" y="172" fill="#7DD3FC" font-size="13" font-family="sans-serif" text-anchor="start">Слово «робот» — от чешского</text>
+  <text x="28" y="190" fill="#7DD3FC" font-size="13" font-family="sans-serif" text-anchor="start">«robota» (работа), Карел Чапек, 1920</text>
+  <rect x="400" y="82" width="384" height="140" rx="8" fill="#0D2137" stroke="#1E5A8A" stroke-width="1" />
+  <text x="412" y="104" fill="#38BDF8" font-size="14" font-weight="bold" font-family="sans-serif">История робототехники</text>
+  <text x="412" y="114" fill="#06B6D4" font-size="12" font-family="monospace" text-anchor="start" font-weight="bold">1920</text>
+  <text x="456" y="114" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">Чапек придумал слово «робот»</text>
+  <text x="412" y="132" fill="#06B6D4" font-size="12" font-family="monospace" text-anchor="start" font-weight="bold">1942</text>
+  <text x="456" y="132" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">Азимов сформулировал 3 закона</text>
+  <text x="412" y="150" fill="#06B6D4" font-size="12" font-family="monospace" text-anchor="start" font-weight="bold">1954</text>
+  <text x="456" y="150" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">Первый промышленный робот</text>
+  <text x="412" y="168" fill="#06B6D4" font-size="12" font-family="monospace" text-anchor="start" font-weight="bold">1969</text>
+  <text x="456" y="168" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">Робот Shakey (Stanford)</text>
+  <text x="412" y="186" fill="#06B6D4" font-size="12" font-family="monospace" text-anchor="start" font-weight="bold">2000</text>
+  <text x="456" y="186" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">ASIMO — гуманоид Honda</text>
+  <text x="412" y="204" fill="#06B6D4" font-size="12" font-family="monospace" text-anchor="start" font-weight="bold">2020</text>
+  <text x="456" y="204" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">Роботы-курьеры, дроны</text>
+  <rect x="16" y="236" width="370" height="200" rx="8" fill="#0D2137" stroke="#1E5A8A" stroke-width="1" />
+  <text x="28" y="258" fill="#38BDF8" font-size="14" font-weight="bold" font-family="sans-serif">Три закона робототехники (Азимов)</text>
+  <circle cx="38" cy="266" r="14" fill="#EF4444" opacity="0.25" stroke="#EF4444" stroke-width="1.5" />
+  <text x="38" y="271" fill="#EF4444" font-size="16" font-family="monospace" text-anchor="middle" font-weight="bold">1</text>
+  <text x="60" y="262" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">Робот не может причинить вред</text>
+  <text x="60" y="278" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">человеку или бездействовать, если</text>
+  <text x="60" y="294" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">человеку угрожает опасность.</text>
+  <circle cx="38" cy="322" r="14" fill="#F59E0B" opacity="0.25" stroke="#F59E0B" stroke-width="1.5" />
+  <text x="38" y="327" fill="#F59E0B" font-size="16" font-family="monospace" text-anchor="middle" font-weight="bold">2</text>
+  <text x="60" y="318" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">Робот должен подчиняться командам</text>
+  <text x="60" y="334" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">человека, если они не противоречат</text>
+  <text x="60" y="350" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">Первому закону.</text>
+  <circle cx="38" cy="378" r="14" fill="#22C55E" opacity="0.25" stroke="#22C55E" stroke-width="1.5" />
+  <text x="38" y="383" fill="#22C55E" font-size="16" font-family="monospace" text-anchor="middle" font-weight="bold">3</text>
+  <text x="60" y="374" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">Робот должен защищать себя, если</text>
+  <text x="60" y="390" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">это не противоречит Первому и</text>
+  <text x="60" y="406" fill="#E0F2FE" font-size="12" font-family="sans-serif" text-anchor="start">Второму законам.</text>
+  <rect x="400" y="236" width="384" height="200" rx="8" fill="#0D2137" stroke="#1E5A8A" stroke-width="1" />
+  <text x="412" y="258" fill="#38BDF8" font-size="14" font-weight="bold" font-family="sans-serif">Робот — основные признаки</text>
+  <rect x="555" y="270" width="60" height="45" rx="8" fill="none" stroke="#06B6D4" stroke-width="2" />
+  <circle cx="573" cy="290" r="6" fill="#38BDF8" />
+  <circle cx="597" cy="290" r="6" fill="#38BDF8" />
+  <line x1="585" y1="270" x2="585" y2="258" stroke="#06B6D4" stroke-width="2" />
+  <circle cx="585" cy="255" r="4" fill="#06B6D4" />
+  <rect x="545" y="320" width="80" height="55" rx="6" fill="none" stroke="#06B6D4" stroke-width="2" />
+  <line x1="545" y1="330" x2="525" y2="355" stroke="#06B6D4" stroke-width="2" />
+  <line x1="625" y1="330" x2="645" y2="355" stroke="#06B6D4" stroke-width="2" />
+  <line x1="565" y1="375" x2="565" y2="405" stroke="#06B6D4" stroke-width="2" />
+  <line x1="605" y1="375" x2="605" y2="405" stroke="#06B6D4" stroke-width="2" />
+  <text x="420" y="280" fill="#22C55E" font-size="11" font-family="sans-serif" text-anchor="start" font-weight="bold">Датчики</text>
+  <text x="420" y="296" fill="#7DD3FC" font-size="10" font-family="sans-serif" text-anchor="start">(глаза, уши)</text>
+  <text x="420" y="330" fill="#F59E0B" font-size="11" font-family="sans-serif" text-anchor="start" font-weight="bold">Контроллер</text>
+  <text x="420" y="346" fill="#7DD3FC" font-size="10" font-family="sans-serif" text-anchor="start">(мозг)</text>
+  <text x="420" y="370" fill="#EF4444" font-size="11" font-family="sans-serif" text-anchor="start" font-weight="bold">Приводы</text>
+  <text x="420" y="386" fill="#7DD3FC" font-size="10" font-family="sans-serif" text-anchor="start">(руки, ноги)</text>
+  <rect x="16" y="450" width="768" height="60" rx="8" fill="#0D2137" stroke="#06B6D4" stroke-width="1" />
+  <text x="28" y="474" fill="#38BDF8" font-size="14" font-family="sans-serif" text-anchor="start" font-weight="bold">"Любая достаточно развитая технология неотличима от магии."</text>
+  <text x="28" y="496" fill="#7DD3FC" font-size="12" font-family="sans-serif" text-anchor="start">— Артур Кларк</text>
+  <circle cx="760" cy="90" r="2" fill="#06B6D4" />
+  <circle cx="770" cy="550" r="2" fill="#06B6D4" />
+  <circle cx="30" cy="550" r="2" fill="#06B6D4" />
+  <circle cx="770" cy="82" r="2" fill="#06B6D4" />
+  <text x="400" y="530" fill="#7DD3FC" font-size="11" font-family="sans-serif" text-anchor="middle">7 класс | Робототехника | Урок 1</text>
+</svg>

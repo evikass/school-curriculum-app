@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#0F172A" />
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.5" />
+    </pattern>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grid)" opacity="0.5" />
+  <rect width="800" height="200" fill="url(#topGrad)" />
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#38BDF8" />
+    </marker>
+  </defs>
+  <rect x="0" y="10" width="800" height="55" fill="#0369A1" opacity="0.9" />
+  <rect x="0" y="65" width="800" height="3" fill="#38BDF8" />
+  <text x="400" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#F8FAFC">Процесс создания робота</text>
+  <text x="400" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">Урок 7 — От идеи до работающего робота</text>
+  <line x1="105" y1="130" x2="180" y2="130" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.5" />
+  <line x1="260" y1="130" x2="335" y2="130" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.5" />
+  <line x1="415" y1="130" x2="490" y2="130" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.5" />
+  <line x1="570" y1="130" x2="645" y2="130" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.5" />
+  <circle cx="75" cy="130" r="28" fill="#1E293B" stroke="#38BDF8" stroke-width="2.5" />
+  <text x="75" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#38BDF8">1</text>
+  <text x="75" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#38BDF8">Идея и</text>
+  <text x="75" y="187" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#38BDF8">проектирование</text>
+  <text x="75" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Определить задачу</text>
+  <text x="75" y="216" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Нарисовать схему</text>
+  <text x="75" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Выбрать компоненты</text>
+  <circle cx="230" cy="130" r="28" fill="#1E293B" stroke="#14B8A6" stroke-width="2.5" />
+  <text x="230" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#14B8A6">2</text>
+  <text x="230" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#14B8A6">Сборка</text>
+  <text x="230" y="187" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#14B8A6">механики</text>
+  <text x="230" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Рама и шасси</text>
+  <text x="230" y="216" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Колёса/гусеницы</text>
+  <text x="230" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Крепёж моторов</text>
+  <circle cx="385" cy="130" r="28" fill="#1E293B" stroke="#F59E0B" stroke-width="2.5" />
+  <text x="385" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#F59E0B">3</text>
+  <text x="385" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#F59E0B">Электроника</text>
+  <text x="385" y="187" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#F59E0B">и подключение</text>
+  <text x="385" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Плата контроллера</text>
+  <text x="385" y="216" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Датчики и моторы</text>
+  <text x="385" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Провода и питание</text>
+  <circle cx="540" cy="130" r="28" fill="#1E293B" stroke="#A78BFA" stroke-width="2.5" />
+  <text x="540" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#A78BFA">4</text>
+  <text x="540" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#A78BFA">Программи-</text>
+  <text x="540" y="187" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#A78BFA">рование</text>
+  <text x="540" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Алгоритм движения</text>
+  <text x="540" y="216" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Обработка датчиков</text>
+  <text x="540" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Отладка кода</text>
+  <circle cx="695" cy="130" r="28" fill="#1E293B" stroke="#22C55E" stroke-width="2.5" />
+  <text x="695" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#22C55E">5</text>
+  <text x="695" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#22C55E">Тестирование</text>
+  <text x="695" y="187" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#22C55E">и доработка</text>
+  <text x="695" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Проверка функций</text>
+  <text x="695" y="216" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Исправление ошибок</text>
+  <text x="695" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Оптимизация</text>
+  <rect x="20" y="200" width="380" height="180" rx="8" ry="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="200" width="380" height="28" rx="8" ry="8" fill="#0369A1" />
+  <rect x="20" y="220" width="380" height="8" fill="#0369A1" />
+  <text x="210" y="219" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F8FAFC">Проектирование — ключевой этап</text>
+  <rect x="30" y="230" width="360" height="22" rx="4" fill="#0D1117" />
+  <rect x="30" y="230" width="3" height="22" fill="#38BDF8" />
+  <text x="40" y="244" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#38BDF8">Постановка задачи</text>
+  <text x="220" y="244" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Какую проблему решает робот?</text>
+  <rect x="30" y="256" width="360" height="22" rx="4" fill="#0D1117" />
+  <rect x="30" y="256" width="3" height="22" fill="#06B6D4" />
+  <text x="40" y="270" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#06B6D4">Функциональные требования</text>
+  <text x="220" y="270" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Что должен делать робот?</text>
+  <rect x="30" y="282" width="360" height="22" rx="4" fill="#0D1117" />
+  <rect x="30" y="282" width="3" height="22" fill="#F59E0B" />
+  <text x="40" y="296" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#F59E0B">Выбор компонентов</text>
+  <text x="220" y="296" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Контроллер, датчики, моторы</text>
+  <rect x="30" y="308" width="360" height="22" rx="4" fill="#0D1117" />
+  <rect x="30" y="308" width="3" height="22" fill="#A78BFA" />
+  <text x="40" y="322" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#A78BFA">Электрическая схема</text>
+  <text x="220" y="322" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Схема подключений (Fritzing)</text>
+  <rect x="30" y="334" width="360" height="22" rx="4" fill="#0D1117" />
+  <rect x="30" y="334" width="3" height="22" fill="#14B8A6" />
+  <text x="40" y="348" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#14B8A6">3D модель / чертеж</text>
+  <text x="220" y="348" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Корпус, крепления, размеры</text>
+  <rect x="420" y="200" width="360" height="180" rx="8" ry="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <rect x="420" y="200" width="360" height="28" rx="8" ry="8" fill="#0369A1" />
+  <rect x="420" y="220" width="360" height="8" fill="#0369A1" />
+  <text x="600" y="219" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F8FAFC">Программирование — логика робота</text>
+  <rect x="430" y="235" width="340" height="135" rx="4" ry="4" fill="#0D1117" stroke="#334155" stroke-width="1" />
+  <rect x="430" y="235" width="340" height="20" rx="4" ry="4" fill="#161B22" />
+  <rect x="430" y="251" width="340" height="4" fill="#161B22" />
+  <circle cx="444" cy="245" r="4" fill="#EF4444" />
+  <circle cx="460" cy="245" r="4" fill="#F59E0B" />
+  <circle cx="476" cy="245" r="4" fill="#22C55E" />
+  <text x="442" y="269" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">// Основной алгоритм робота</text>
+  <text x="442" y="284" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">void loop() {</text>
+  <text x="442" y="299" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  // 1. Чтение датчиков</text>
+  <text x="442" y="314" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  int dist = readUltrasonic();</text>
+  <text x="442" y="329" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  int light = analogRead(A0);</text>
+  <text x="442" y="344" font-family="Consolas, monospace" font-size="10" fill="#06B6D4" />
+  <text x="442" y="359" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  // 2. Принятие решения</text>
+  <text x="442" y="374" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  if (dist &amp;lt; 20) {</text>
+  <text x="442" y="389" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">    turnRight();  // Объезд</text>
+  <text x="442" y="404" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  } else {</text>
+  <text x="442" y="419" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">    moveForward();</text>
+  <text x="442" y="434" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  }</text>
+  <text x="442" y="449" font-family="Consolas, monospace" font-size="10" fill="#06B6D4" />
+  <text x="442" y="464" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  // 3. Действие</text>
+  <text x="442" y="479" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  delay(50);</text>
+  <text x="442" y="494" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">}</text>
+  <rect x="20" y="395" width="760" height="180" rx="8" ry="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="395" width="760" height="28" rx="8" ry="8" fill="#0369A1" />
+  <rect x="20" y="415" width="760" height="8" fill="#0369A1" />
+  <text x="400" y="414" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F8FAFC">Инструменты и ресурсы</text>
+  <rect x="40" y="435" width="170" height="24" rx="4" fill="#38BDF8" opacity="0.2" />
+  <text x="125" y="451" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#38BDF8">Проектирование</text>
+  <rect x="45" y="465" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="52" y="478" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">Fritzing</text>
+  <rect x="45" y="487" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="52" y="500" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">Tinkercad</text>
+  <rect x="45" y="509" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="52" y="522" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">Autodesk Fusion</text>
+  <rect x="45" y="531" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="52" y="544" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">SolidWorks</text>
+  <rect x="230" y="435" width="170" height="24" rx="4" fill="#06B6D4" opacity="0.2" />
+  <text x="315" y="451" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#06B6D4">Программирование</text>
+  <rect x="235" y="465" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="242" y="478" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">Arduino IDE</text>
+  <rect x="235" y="487" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="242" y="500" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">VS Code</text>
+  <rect x="235" y="509" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="242" y="522" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">PlatformIO</text>
+  <rect x="235" y="531" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="242" y="544" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">Scratch/Blockly</text>
+  <rect x="420" y="435" width="170" height="24" rx="4" fill="#F59E0B" opacity="0.2" />
+  <text x="505" y="451" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#F59E0B">Прототипирование</text>
+  <rect x="425" y="465" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="432" y="478" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">3D-печать</text>
+  <rect x="425" y="487" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="432" y="500" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">Лазерная резка</text>
+  <rect x="425" y="509" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="432" y="522" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">Пайка</text>
+  <rect x="425" y="531" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="432" y="544" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">Breadboard</text>
+  <rect x="610" y="435" width="170" height="24" rx="4" fill="#22C55E" opacity="0.2" />
+  <text x="695" y="451" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#22C55E">Тестирование</text>
+  <rect x="615" y="465" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="622" y="478" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">Мультиметр</text>
+  <rect x="615" y="487" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="622" y="500" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">Осциллограф</text>
+  <rect x="615" y="509" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="622" y="522" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">Serial Monitor</text>
+  <rect x="615" y="531" width="160" height="18" rx="3" fill="#0D1117" />
+  <text x="622" y="544" font-family="Arial, sans-serif" font-size="9" fill="#CBD5E1">Логика</text>
+</svg>

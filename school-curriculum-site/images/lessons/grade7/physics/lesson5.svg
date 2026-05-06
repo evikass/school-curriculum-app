@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Законы Ньютона</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 5</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- 1st law -->
+  <rect x="25" y="90" width="150" height="120" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
+  <text x="100" y="106" font-family="Arial,sans-serif" font-size="9" fill="#C62828" font-weight="bold" text-anchor="middle">I закон</text>
+  <!-- Ball at rest -->
+  <circle cx="70" cy="160" r="15" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+  <text x="70" y="164" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">v=0</text>
+  <line x1="70" y1="175" x2="70" y2="195" stroke="#888" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="100" y="195" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">инерция</text>
+
+  <!-- 2nd law -->
+  <rect x="185" y="90" width="150" height="120" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="260" y="106" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" font-weight="bold" text-anchor="middle">II закон</text>
+  <rect x="225" y="135" width="30" height="20" rx="5" fill="#42A5F5" stroke="#1565C0" stroke-width="1"/>
+  <line x1="225" y1="145" x2="205" y2="145" stroke="#C62828" stroke-width="2"/>
+  <polygon points="207,142 205,145 207,148" fill="#C62828"/>
+  <text x="260" y="175" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">F = m x a</text>
+  <text x="260" y="195" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">ускорение</text>
+
+  <!-- 3rd law -->
+  <rect x="345" y="90" width="130" height="120" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="410" y="106" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" font-weight="bold" text-anchor="middle">III закон</text>
+  <rect x="380" y="135" width="20" height="15" rx="3" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <line x1="380" y1="142" x2="365" y2="142" stroke="#C62828" stroke-width="2"/>
+  <rect x="420" y="135" width="20" height="15" rx="3" fill="#BBDEFB" stroke="#1565C0" stroke-width="1"/>
+  <line x1="440" y1="142" x2="455" y2="142" stroke="#1565C0" stroke-width="2"/>
+  <text x="410" y="175" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">F1 = -F2</text>
+  <text x="410" y="195" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">действие</text>
+
+  <!-- Examples -->
+  <rect x="25" y="220" width="450" height="70" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
+  <text x="250" y="245" font-family="Arial,sans-serif" font-size="10" fill="#F9A825" font-weight="bold" text-anchor="middle">Примеры сил</text>
+  <circle cx="80" cy="268" r="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="80" y="272" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">mg</text>
+  <circle cx="170" cy="268" r="12" fill="#FFEBEE" stroke="#C62828" stroke-width="1"/>
+  <text x="170" y="272" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Fтр</text>
+  <circle cx="260" cy="268" r="12" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="260" y="272" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Fупр</text>
+  <circle cx="350" cy="268" r="12" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="350" y="272" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Fтяж</text>
+  <circle cx="440" cy="268" r="12" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1"/>
+  <text x="440" y="272" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2" text-anchor="middle">FАрх</text>
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика</text>
+</svg>

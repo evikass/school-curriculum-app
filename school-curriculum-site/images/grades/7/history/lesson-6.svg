@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="72" rx="0" fill="#EF4444" />
+  <rect x="0" y="72" width="800" height="4" rx="0" fill="#B91C1C" />
+  <text x="400" y="36" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="sans-serif">Освобождение Москвы</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="normal" font-family="sans-serif">Минин и Пожарский — 1612 год</text>
+  <rect x="0" y="570" width="800" height="30" rx="0" fill="#FFF1F2" />
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#FCA5A5" stroke-width="1" />
+  <text x="400" y="590" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="normal" font-family="sans-serif">7 класс — История России — Урок 6</text>
+  <rect x="0" y="76" width="800" height="494" rx="0" fill="#FFF1F2" opacity="0.4" />
+  <rect x="180" y="90" width="440" height="60" rx="8" fill="#B91C1C" />
+  <text x="400" y="115" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="sans-serif">Освобождение Москвы от поляков</text>
+  <text x="400" y="138" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="normal" font-family="sans-serif">4 ноября 1612 года (22 октября по ст. стилю)</text>
+  <text x="400" y="175" text-anchor="middle" fill="#B91C1C" font-size="14" font-weight="bold" font-family="sans-serif">Организаторы второго земского ополчения</text>
+  <rect x="30" y="190" width="340" height="120" rx="6" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" />
+  <rect x="30" y="190" width="340" height="30" rx="6" fill="#EF4444" />
+  <rect x="30" y="214" width="340" height="6" rx="0" fill="#EF4444" />
+  <text x="200" y="208" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="sans-serif">Кузьма Минин</text>
+  <rect x="120" y="228" width="160" height="16" rx="3" fill="#FECDD3" />
+  <text x="200" y="240" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="normal" font-family="sans-serif">Нижегородский староста</text>
+  <text x="200" y="264" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Призыв к сбору средств</text>
+  <text x="200" y="278" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">«Денеги отдадим, жён и детей продадим!»</text>
+  <text x="200" y="292" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Организатор финансирования</text>
+  <text x="200" y="306" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Выбран «делом и разумом»</text>
+  <rect x="430" y="190" width="340" height="120" rx="6" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" />
+  <rect x="430" y="190" width="340" height="30" rx="6" fill="#EF4444" />
+  <rect x="430" y="214" width="340" height="6" rx="0" fill="#EF4444" />
+  <text x="600" y="208" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="sans-serif">Князь Дмитрий Пожарский</text>
+  <rect x="520" y="228" width="160" height="16" rx="3" fill="#FECDD3" />
+  <text x="600" y="240" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="normal" font-family="sans-serif">Военный руководитель</text>
+  <text x="600" y="264" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Опытный воевода</text>
+  <text x="600" y="278" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Не запятнал себя сотрудничеством</text>
+  <text x="600" y="292" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Руководил военными действиями</text>
+  <text x="600" y="306" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Возглавил поход на Москву</text>
+  <text x="400" y="340" text-anchor="middle" fill="#B91C1C" font-size="14" font-weight="bold" font-family="sans-serif">Ход освобождения Москвы</text>
+  <circle cx="100" cy="370" r="16" fill="#EF4444" />
+  <text x="100" y="375" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="sans-serif">1</text>
+  <rect x="35" y="392" width="130" height="18" rx="3" fill="#FECDD3" />
+  <text x="100" y="404" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">Сентябрь 1611</text>
+  <text x="100" y="426" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Сбор ополчения</text>
+  <text x="100" y="439" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">в Нижнем Новгороде</text>
+  <circle cx="270" cy="370" r="16" fill="#EF4444" />
+  <text x="270" y="375" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="sans-serif">2</text>
+  <rect x="205" y="392" width="130" height="18" rx="3" fill="#FECDD3" />
+  <text x="270" y="404" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">Март 1612</text>
+  <text x="270" y="426" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Выступление</text>
+  <text x="270" y="439" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">ополчения в поход</text>
+  <circle cx="440" cy="370" r="16" fill="#EF4444" />
+  <text x="440" y="375" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="sans-serif">3</text>
+  <rect x="375" y="392" width="130" height="18" rx="3" fill="#FECDD3" />
+  <text x="440" y="404" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">Август 1612</text>
+  <text x="440" y="426" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Подход к Москве,</text>
+  <text x="440" y="439" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">битва с гетманом Ходкевичем</text>
+  <circle cx="610" cy="370" r="16" fill="#EF4444" />
+  <text x="610" y="375" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="sans-serif">4</text>
+  <rect x="545" y="392" width="130" height="18" rx="3" fill="#FECDD3" />
+  <text x="610" y="404" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">Октябрь 1612</text>
+  <text x="610" y="426" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Капитуляция</text>
+  <text x="610" y="439" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">польского гарнизона</text>
+  <line x1="120" y1="370" x2="250" y2="370" stroke="#FCA5A5" stroke-width="2" stroke-dasharray="4,3" />
+  <line x1="290" y1="370" x2="420" y2="370" stroke="#FCA5A5" stroke-width="2" stroke-dasharray="4,3" />
+  <line x1="460" y1="370" x2="590" y2="370" stroke="#FCA5A5" stroke-width="2" stroke-dasharray="4,3" />
+  <rect x="60" y="500" width="680" height="55" rx="6" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="60" y="500" width="5" height="55" rx="0" fill="#EF4444" />
+  <text x="80" y="518" text-anchor="start" fill="#EF4444" font-size="12" font-weight="bold" font-family="sans-serif">Значение:</text>
+  <text x="80" y="534" text-anchor="start" fill="#1F2937" font-size="11" font-weight="normal" font-family="sans-serif">Конец польско-литовской интервенции. 4 ноября — День народного единства.</text>
+  <text x="80" y="548" text-anchor="start" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Победа ополчения открыла путь к восстановлению государственности.</text>
+</svg>

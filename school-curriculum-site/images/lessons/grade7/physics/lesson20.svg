@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Сила упругости и сила трения 📚</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 20</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
+  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#C62828" text-anchor="middle" font-weight="bold">Сила упругости и сила трения 📚</text>
+  <!-- Spring scale -->
+  <rect x="55" y="135" width="60" height="70" rx="4" fill="#E8EAF6" stroke="#7986CB" stroke-width="1.5"/>
+  <line x1="85" y1="130" x2="85" y2="135" stroke="#555" stroke-width="2"/>
+  <rect x="80" y="125" width="10" height="8" rx="2" fill="#7986CB"/>
+  <!-- Spring -->
+  <path d="M80,145 L90,150 L70,160 L90,170 L70,180 L90,190 L80,195" stroke="#C62828" stroke-width="1.5" fill="none"/>
+  <rect x="70" y="195" width="30" height="8" rx="2" fill="#B0BEC5"/>
+  <!-- Hook -->
+  <path d="M85,203 Q85,210 80,210 Q75,210 75,207" stroke="#555" stroke-width="1.5" fill="none"/>
+  <!-- Weight hanging -->
+  <rect x="72" y="210" width="26" height="20" rx="3" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+  <text x="85" y="224" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">m</text>
+  <text x="135" y="250" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">F = m x g</text>
+  <text x="135" y="270" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">Н (ньютон)</text>
+
+  <!-- Forces diagram -->
+  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle" font-weight="bold">Виды сил</text>
+  <!-- Gravity -->
+  <circle cx="310" cy="150" r="18" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+  <line x1="310" y1="160" x2="310" y2="175" stroke="#C62828" stroke-width="2"/>
+  <polygon points="307,173 310,178 313,173" fill="#C62828"/>
+  <text x="310" y="153" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">mg</text>
+  <!-- Friction -->
+  <rect x="380" y="140" width="40" height="20" rx="3" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+  <line x1="380" y1="150" x2="370" y2="150" stroke="#FF9800" stroke-width="2"/>
+  <polygon points="372,147 370,150 372,153" fill="#FF9800"/>
+  <line x1="375" y1="160" x2="425" y2="160" stroke="#888" stroke-width="1"/>
+  <text x="400" y="135" font-family="Arial,sans-serif" font-size="7" fill="#FF9800" text-anchor="middle">Fтр</text>
+  <!-- Elastic -->
+  <line x1="300" y1="210" x2="340" y2="210" stroke="#1565C0" stroke-width="1.5"/>
+  <path d="M300,210 L305,205 L315,215 L325,205 L335,215 L340,210" stroke="#1565C0" stroke-width="1.5" fill="none"/>
+  <rect x="340" y="205" width="15" height="10" rx="2" fill="#B0BEC5"/>
+  <text x="320" y="230" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">Fупр</text>
+  <!-- Archimedes -->
+  <rect x="385" y="200" width="50" height="40" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <rect x="395" y="210" width="30" height="20" rx="3" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+  <line x1="410" y1="200" x2="410" y2="192" stroke="#2E7D32" stroke-width="2"/>
+  <polygon points="407,194 410,189 413,194" fill="#2E7D32"/>
+  <text x="410" y="260" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Fарх</text>
+  <text x="367" y="280" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Силы в природе</text>
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика</text>
+</svg>

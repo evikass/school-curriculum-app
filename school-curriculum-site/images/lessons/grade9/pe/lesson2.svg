@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="500" height="50" fill="#66BB6A" rx="12"/>
+  <rect x="0" y="25" width="500" height="25" fill="#66BB6A"/>
+  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 2. Гигиена физкультурных занятий</text>
+  <!-- Hygiene rules -->
+  <rect x="15" y="60" width="230" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
+  <rect x="15" y="77" width="230" height="8" fill="#66BB6A"/>
+  <text x="130" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Правила гигиены</text>
+  <text x="25" y="100" fill="#333" font-size="9" font-family="Arial,sans-serif">• Душ до и после тренировки</text>
+  <text x="25" y="113" fill="#333" font-size="9" font-family="Arial,sans-serif">• Чистая спортивная форма</text>
+  <text x="25" y="126" fill="#333" font-size="9" font-family="Arial,sans-serif">• Индивидуальное полотенце</text>
+  <text x="25" y="139" fill="#333" font-size="9" font-family="Arial,sans-serif">• Обувь по размеру, фиксация</text>
+  <text x="25" y="152" fill="#333" font-size="9" font-family="Arial,sans-serif">• Стриженые ногти, без украш.</text>
+  <text x="25" y="165" fill="#333" font-size="9" font-family="Arial,sans-serif">• Волосы убраны</text>
+  <text x="25" y="178" fill="#333" font-size="9" font-family="Arial,sans-serif">• Проветренный зал, чистота</text>
+
+  <!-- Clothing panel -->
+  <rect x="255" y="60" width="230" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="255" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
+  <rect x="255" y="77" width="230" height="8" fill="#66BB6A"/>
+  <text x="370" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Одежда и обувь</text>
+  <text x="265" y="100" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Требования к форме:</text>
+  <text x="265" y="113" fill="#333" font-size="9" font-family="Arial,sans-serif">• Не стесняет движения</text>
+  <text x="265" y="126" fill="#333" font-size="9" font-family="Arial,sans-serif">• Гигроскопичная ткань</text>
+  <text x="265" y="139" fill="#333" font-size="9" font-family="Arial,sans-serif">• По размеру, не велика</text>
+  <text x="265" y="152" fill="#333" font-size="9" font-family="Arial,sans-serif">• Кроссовки с амортизацией</text>
+  <text x="265" y="165" fill="#333" font-size="9" font-family="Arial,sans-serif">• Носквич — нескользкая подошва</text>
+  <text x="265" y="178" fill="#333" font-size="9" font-family="Arial,sans-serif">• По погоде (на улице)</text>
+
+  <!-- Timing and nutrition -->
+  <rect x="15" y="200" width="230" height="120" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="15" y="200" width="230" height="25" fill="#2E7D32" rx="8"/>
+  <rect x="15" y="217" width="230" height="8" fill="#2E7D32"/>
+  <text x="130" y="218" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Режим и питание</text>
+  <text x="25" y="242" fill="#333" font-size="9" font-family="Arial,sans-serif">• Есть за 1.5–2 ч до занятия</text>
+  <text x="25" y="255" fill="#333" font-size="9" font-family="Arial,sans-serif">• Пить воду до и после</text>
+  <text x="25" y="268" fill="#333" font-size="9" font-family="Arial,sans-serif">• Разминка обязательна!</text>
+  <text x="25" y="281" fill="#333" font-size="9" font-family="Arial,sans-serif">• Заминка (растяжка) после</text>
+  <text x="25" y="294" fill="#333" font-size="9" font-family="Arial,sans-serif">• Отдых между подходами</text>
+  <text x="25" y="310" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Золотое правило: регулярность!</text>
+
+  <!-- Venue hygiene -->
+  <rect x="255" y="200" width="230" height="120" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
+  <rect x="255" y="200" width="230" height="25" fill="#2E7D32" rx="8"/>
+  <rect x="255" y="217" width="230" height="8" fill="#2E7D32"/>
+  <text x="370" y="218" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Гигиена мест занятий</text>
+  <text x="265" y="242" fill="#333" font-size="9" font-family="Arial,sans-serif">• Вентиляция, проветривание</text>
+  <text x="265" y="255" fill="#333" font-size="9" font-family="Arial,sans-serif">• Температура 16–18°C</text>
+  <text x="265" y="268" fill="#333" font-size="9" font-family="Arial,sans-serif">• Влажность 40–60%</text>
+  <text x="265" y="281" fill="#333" font-size="9" font-family="Arial,sans-serif">• Чистый инвентарь</text>
+  <text x="265" y="294" fill="#333" font-size="9" font-family="Arial,sans-serif">• Освещённость достаточная</text>
+  <text x="265" y="310" fill="#333" font-size="9" font-family="Arial,sans-serif">• Покрытие пола безопасное</text>
+</svg>

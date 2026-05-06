@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Red top accent bar -->
+  <rect x="0" y="0" width="500" height="8" fill="#C41E3A"/>
+  <!-- Gold accent line -->
+  <rect x="0" y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Cream background -->
+  <rect x="0" y="10" width="500" height="325" fill="#F5E6C8"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Экологически чистый мир</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#555">Переработка и будущее планеты</text>
+  <!-- Decorative line under title -->
+  <line x1="150" y1="78" x2="350" y2="78" stroke="#C41E3A" stroke-width="1.5" opacity="0.6"/>
+  <!-- Bottom dark bar -->
+  <rect x="0" y="318" width="500" height="32" fill="#1a1a1a"/>
+  <!-- Gold accent on bottom bar -->
+  <rect x="0" y="316" width="500" height="2" fill="#D4A843"/>
+  <!-- Bottom text -->
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#F5E6C8">Окружающий мир — 4 класс</text>
+  <!-- Earth globe (center) -->
+  <circle cx="250" cy="170" r="55" fill="#7AADD0" opacity="0.4" stroke="#2B4C7E" stroke-width="1"/>
+  <!-- Continents (simplified) -->
+  <ellipse cx="230" cy="155" rx="18" ry="22" fill="#2E7D32" opacity="0.4"/>
+  <ellipse cx="270" cy="150" rx="12" ry="15" fill="#2E7D32" opacity="0.4"/>
+  <ellipse cx="260" cy="185" rx="8" ry="12" fill="#2E7D32" opacity="0.4"/>
+  <ellipse cx="225" cy="190" rx="15" ry="8" fill="#2E7D32" opacity="0.4"/>
+  <!-- Recycle symbol around Earth -->
+  <!-- Arrow 1 -->
+  <path d="M250,112 A55,55 0 0,1 303,140" stroke="#2E7D32" stroke-width="3" fill="none"/>
+  <polygon points="303,140 310,132 296,134" fill="#2E7D32"/>
+  <!-- Arrow 2 -->
+  <path d="M303,200 A55,55 0 0,1 230,222" stroke="#2E7D32" stroke-width="3" fill="none"/>
+  <polygon points="230,222 238,228 234,214" fill="#2E7D32"/>
+  <!-- Arrow 3 -->
+  <path d="M210,175 A55,55 0 0,1 240,115" stroke="#2E7D32" stroke-width="3" fill="none"/>
+  <polygon points="240,115 234,107 228,120" fill="#2E7D32"/>
+
+  <!-- Recycling bins (bottom row) -->
+  <!-- Blue bin (paper) -->
+  <rect x="55" y="255" width="40" height="50" rx="3" fill="#2B4C7E" opacity="0.6" stroke="#2B4C7E" stroke-width="1"/>
+  <rect x="50" y="250" width="50" height="8" rx="2" fill="#2B4C7E" opacity="0.8"/>
+  <text x="75" y="285" font-family="Arial" font-size="7" fill="white" text-anchor="middle">Бумага</text>
+  <!-- Paper icon -->
+  <rect x="67" y="260" width="16" height="14" fill="white" opacity="0.4" rx="1"/>
+
+  <!-- Yellow bin (plastic) -->
+  <rect x="140" y="255" width="40" height="50" rx="3" fill="#D4A843" opacity="0.6" stroke="#B09030" stroke-width="1"/>
+  <rect x="135" y="250" width="50" height="8" rx="2" fill="#D4A843" opacity="0.8"/>
+  <text x="160" y="285" font-family="Arial" font-size="7" fill="#1a1a1a" text-anchor="middle">Пластик</text>
+  <!-- Bottle icon -->
+  <rect x="152" y="260" width="10" height="5" fill="white" opacity="0.4" rx="2"/>
+  <rect x="154" y="257" width="6" height="4" fill="white" opacity="0.4"/>
+
+  <!-- Green bin (glass) -->
+  <rect x="225" y="255" width="40" height="50" rx="3" fill="#2E7D32" opacity="0.6" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="220" y="250" width="50" height="8" rx="2" fill="#2E7D32" opacity="0.8"/>
+  <text x="245" y="285" font-family="Arial" font-size="7" fill="white" text-anchor="middle">Стекло</text>
+
+  <!-- Red bin (metal) -->
+  <rect x="310" y="255" width="40" height="50" rx="3" fill="#C41E3A" opacity="0.6" stroke="#C41E3A" stroke-width="1"/>
+  <rect x="305" y="250" width="50" height="8" rx="2" fill="#C41E3A" opacity="0.8"/>
+  <text x="330" y="285" font-family="Arial" font-size="7" fill="white" text-anchor="middle">Металл</text>
+
+  <!-- Compost bin -->
+  <rect x="395" y="255" width="40" height="50" rx="3" fill="#6B4226" opacity="0.5" stroke="#6B4226" stroke-width="1"/>
+  <rect x="390" y="250" width="50" height="8" rx="2" fill="#6B4226" opacity="0.7"/>
+  <text x="415" y="285" font-family="Arial" font-size="7" fill="white" text-anchor="middle">Орг. отходы</text>
+  <!-- Leaf on compost -->
+  <ellipse cx="415" cy="268" rx="6" ry="4" fill="#2E7D32" opacity="0.5" transform="rotate(-30,415,268)"/>
+
+  <!-- Arrows from bins to Earth -->
+  <path d="M75,250 Q120,230 195,200" stroke="#2B4C7E" stroke-width="1" fill="none" stroke-dasharray="3,2" opacity="0.3"/>
+  <path d="M415,250 Q370,230 305,200" stroke="#2E7D32" stroke-width="1" fill="none" stroke-dasharray="3,2" opacity="0.3"/>
+
+  <!-- Stat -->
+  <rect x="350" y="95" width="100" height="30" rx="4" fill="#2E7D32" opacity="0.1"/>
+  <text x="400" y="113" font-family="Arial" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle">400 кг/год</text>
+  <text x="400" y="123" font-family="Arial" font-size="6" fill="#888" text-anchor="middle">мусора на человека</text>
+</svg>

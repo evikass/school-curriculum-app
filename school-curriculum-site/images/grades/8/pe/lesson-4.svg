@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600"><rect width="800" height="600" fill="#F0FDF4" rx="12"/>
+  <rect x="0" y="0" width="800" height="60" fill="#22C55E" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">Футбол: техника и тактика</text>
+  <rect x="40" y="80" width="340" height="220" fill="#4ADE80" stroke="#1E293B" stroke-width="2" rx="4"/>
+  <line x1="210" y1="80" x2="210" y2="300" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="210" cy="190" r="35" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="210" cy="190" r="3" fill="#FFFFFF"/>
+  <!-- Penalty areas -->
+  <rect x="40" y="135" width="60" height="110" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="320" y="135" width="60" height="110" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Goal areas -->
+  <rect x="40" y="160" width="25" height="60" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  <rect x="355" y="160" width="25" height="60" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="210" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">Схема футбольного поля</text><circle cx="100" cy="265" r="10" fill="#16A34A" opacity="0.8"/><text x="100" y="269" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" font-weight="bold">ВР</text><circle cx="100" cy="220" r="10" fill="#16A34A" opacity="0.8"/><text x="100" y="224" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" font-weight="bold">ЦЗ</text><circle cx="100" cy="160" r="10" fill="#16A34A" opacity="0.8"/><text x="100" y="164" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" font-weight="bold">ЦЗ</text><circle cx="80" cy="245" r="10" fill="#16A34A" opacity="0.8"/><text x="80" y="249" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" font-weight="bold">ЛЗ</text><circle cx="120" cy="135" r="10" fill="#16A34A" opacity="0.8"/><text x="120" y="139" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" font-weight="bold">ПЗ</text><circle cx="170" cy="220" r="10" fill="#16A34A" opacity="0.8"/><text x="170" y="224" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" font-weight="bold">ЦП</text><circle cx="170" cy="160" r="10" fill="#16A34A" opacity="0.8"/><text x="170" y="164" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" font-weight="bold">ЦП</text><circle cx="140" cy="250" r="10" fill="#16A34A" opacity="0.8"/><text x="140" y="254" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" font-weight="bold">ЛП</text><circle cx="200" cy="130" r="10" fill="#16A34A" opacity="0.8"/><text x="200" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" font-weight="bold">ПП</text><circle cx="250" cy="220" r="10" fill="#16A34A" opacity="0.8"/><text x="250" y="224" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" font-weight="bold">ЦН</text><circle cx="250" cy="160" r="10" fill="#16A34A" opacity="0.8"/><text x="250" y="164" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" font-weight="bold">ЦН</text><rect x="410" y="80" width="370" height="130" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="410" y="80" width="370" height="28" fill="#22C55E" rx="8"/>
+<rect x="410" y="100" width="370" height="8" fill="#22C55E"/>
+<text x="595" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Техника владения мячом</text>
+<text x="422" y="124" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Ведение мяча (дриблинг)</text>
+<text x="422" y="142" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Приём мяча (остановка)</text>
+<text x="422" y="160" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Передача (пас) — короткий, длинный</text>
+<text x="422" y="178" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Удар по мячу — внутренней стороной, подъёмом</text><rect x="410" y="220" width="370" height="130" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="410" y="220" width="370" height="28" fill="#EF4444" rx="8"/>
+<rect x="410" y="240" width="370" height="8" fill="#EF4444"/>
+<text x="595" y="239" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Тактические схемы</text>
+<text x="422" y="264" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 4-4-2 — классическая расстановка</text>
+<text x="422" y="282" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 4-3-3 — атакующий футбол</text>
+<text x="422" y="300" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 3-5-2 — контроль центра</text>
+<text x="422" y="318" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Прессинг и контратака</text>
+  <rect x="20" y="360" width="760" height="36" fill="#16A34A" rx="8"/>
+  <text x="400" y="384" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Основные правила</text><rect x="20" y="410" width="245" height="140" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="20" y="410" width="245" height="28" fill="#22C55E" rx="8"/>
+<rect x="20" y="430" width="245" height="8" fill="#22C55E"/>
+<text x="142" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Размеры и время</text>
+<text x="32" y="454" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Поле: 90-120 х 45-90 м</text>
+<text x="32" y="472" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Матч: 2 тайма по 45 мин</text>
+<text x="32" y="490" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Состав: 11 игроков</text>
+<text x="32" y="508" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Замены: до 5 за матч</text>
+<text x="32" y="526" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Офсайд — вне игры</text>
+<text x="32" y="544" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Пенальти — 11 м</text><rect x="282" y="410" width="245" height="140" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="282" y="410" width="245" height="28" fill="#EF4444" rx="8"/>
+<rect x="282" y="430" width="245" height="8" fill="#EF4444"/>
+<text x="404" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Нарушения и штрафы</text>
+<text x="294" y="454" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Жёлтая карточка — предупреждение</text>
+<text x="294" y="472" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Красная карточка — удаление</text>
+<text x="294" y="490" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Штрафной удар (прямой/непрямой)</text>
+<text x="294" y="508" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Угловой удар</text>
+<text x="294" y="526" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Свободный удар</text>
+<text x="294" y="544" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Пенальти за фол в штрафной</text><rect x="543" y="410" width="245" height="140" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="543" y="410" width="245" height="28" fill="#22C55E" rx="8"/>
+<rect x="543" y="430" width="245" height="8" fill="#22C55E"/>
+<text x="665" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Кубки и турниры</text>
+<text x="555" y="454" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Чемпионат мира (FIFA)</text>
+<text x="555" y="472" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Лига чемпионов УЕФА</text>
+<text x="555" y="490" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Евро (чемпионат Европы)</text>
+<text x="555" y="508" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• РФПЛ — чемпионат России</text>
+<text x="555" y="526" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Кубок России</text>
+<text x="555" y="544" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Олимпийский турнир</text>
+  <rect x="0" y="568" width="800" height="32" fill="#16A34A"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">8 класс | Физкультура/ОБЖ | Урок 4</text></svg>

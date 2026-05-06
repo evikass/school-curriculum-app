@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#92400E" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#B45309" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="800" height="4" fill="#B45309" rx="2"/>
+
+  <!-- Header -->
+  <rect x="20" y="15" width="760" height="60" rx="8" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="40" y="50" font-size="14" fill="#FCD34D" font-weight="bold">Урок 5</text>
+  <text x="130" y="50" font-size="20" fill="#FFFFFF" font-weight="bold">Этапы проекта</text>
+    <text x="780" y="55" font-size="13" fill="#F59E0B" text-anchor="end" font-style="italic">От замысла до оценки результата</text>
+  <polygon points="30,90 165,90 175,109 165,128 30,128 40,109" fill="#92400E" stroke="#92400E" stroke-width="1"/>
+  <text x="102" y="114" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Замысел</text>  <polygon points="182,90 317,90 327,109 317,128 182,128 192,109" fill="#B45309" stroke="#92400E" stroke-width="1"/>
+  <text x="254" y="114" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Исследование</text>  <polygon points="334,90 469,90 479,109 469,128 334,128 344,109" fill="#F59E0B" stroke="#92400E" stroke-width="1"/>
+  <text x="406" y="114" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Проектирование</text>  <polygon points="486,90 621,90 631,109 621,128 486,128 496,109" fill="#D97706" stroke="#92400E" stroke-width="1"/>
+  <text x="558" y="114" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Изготовление</text>  <polygon points="638,90 773,90 783,109 773,128 638,128 648,109" fill="#059669" stroke="#92400E" stroke-width="1"/>
+  <text x="710" y="114" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Оценка</text>
+  <!-- Stage 1: Problem definition -->
+    <rect x="25" y="148" width="240" height="130" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="148" width="240" height="26" rx="6" fill="#92400E"/>
+  <rect x="25" y="168" width="240" height="6" fill="#92400E"/>
+  <text x="145" y="166" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1. Определение проблемы</text>
+  <text x="37" y="188" font-size="12" fill="#78350F">&#8226; Выявить потребность или проблему</text>
+  <text x="37" y="208" font-size="12" fill="#78350F">&#8226; Сформулировать цель проекта</text>
+  <text x="37" y="228" font-size="12" fill="#78350F">&#8226; Определить задачи и ограничения</text>
+  <text x="37" y="248" font-size="12" fill="#78350F">&#8226; Выбрать объект проектирования</text>
+  <text x="37" y="268" font-size="12" fill="#78350F">&#8226; Обозначить критерии оценки</text>
+
+  <!-- Stage 2: Research -->
+    <rect x="280" y="148" width="240" height="130" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="280" y="148" width="240" height="26" rx="6" fill="#B45309"/>
+  <rect x="280" y="168" width="240" height="6" fill="#B45309"/>
+  <text x="400" y="166" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2. Исследование</text>
+  <text x="292" y="188" font-size="12" fill="#78350F">&#8226; Сбор информации об объекте</text>
+  <text x="292" y="208" font-size="12" fill="#78350F">&#8226; Изучение аналогов и прототипов</text>
+  <text x="292" y="228" font-size="12" fill="#78350F">&#8226; Анализ материалов и технологий</text>
+  <text x="292" y="248" font-size="12" fill="#78350F">&#8226; Определение ресурсов и сроков</text>
+  <text x="292" y="268" font-size="12" fill="#78350F">&#8226; Формирование банка идей</text>
+
+  <!-- Stage 3: Design -->
+    <rect x="535" y="148" width="245" height="130" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="535" y="148" width="245" height="26" rx="6" fill="#F59E0B"/>
+  <rect x="535" y="168" width="245" height="6" fill="#F59E0B"/>
+  <text x="657" y="166" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3. Проектирование</text>
+  <text x="547" y="188" font-size="12" fill="#78350F">&#8226; Разработка вариантов решения</text>
+  <text x="547" y="208" font-size="12" fill="#78350F">&#8226; Выбор оптимального варианта</text>
+  <text x="547" y="228" font-size="12" fill="#78350F">&#8226; Создание эскиза и чертежа</text>
+  <text x="547" y="248" font-size="12" fill="#78350F">&#8226; Составление тех. карты</text>
+  <text x="547" y="268" font-size="12" fill="#78350F">&#8226; Планирование последовательности</text>
+
+  <!-- Stage 4: Production -->
+    <rect x="25" y="295" width="375" height="130" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="295" width="375" height="26" rx="6" fill="#D97706"/>
+  <rect x="25" y="315" width="375" height="6" fill="#D97706"/>
+  <text x="212" y="313" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4. Изготовление изделия</text>
+  <text x="37" y="335" font-size="12" fill="#78350F">&#8226; Подготовка материалов и инструментов</text>
+  <text x="37" y="355" font-size="12" fill="#78350F">&#8226; Выполнение технологических операций</text>
+  <text x="37" y="375" font-size="12" fill="#78350F">&#8226; Соблюдение техники безопасности</text>
+  <text x="37" y="395" font-size="12" fill="#78350F">&#8226; Пооперационный контроль качества</text>
+  <text x="37" y="415" font-size="12" fill="#78350F">&#8226; Сборка и отделка изделия</text>
+
+  <!-- Stage 5: Evaluation -->
+    <rect x="415" y="295" width="365" height="130" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="415" y="295" width="365" height="26" rx="6" fill="#059669"/>
+  <rect x="415" y="315" width="365" height="6" fill="#059669"/>
+  <text x="597" y="313" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">5. Оценка и защита</text>
+  <text x="427" y="335" font-size="12" fill="#78350F">&#8226; Проверка соответствия критериям</text>
+  <text x="427" y="355" font-size="12" fill="#78350F">&#8226; Тестирование изделия в работе</text>
+  <text x="427" y="375" font-size="12" fill="#78350F">&#8226; Экономическая оценка проекта</text>
+  <text x="427" y="395" font-size="12" fill="#78350F">&#8226; Экологическая экспертиза</text>
+  <text x="427" y="415" font-size="12" fill="#78350F">&#8226; Презентация и защита проекта</text>
+
+  <!-- Project documents -->
+    <rect x="25" y="445" width="375" height="120" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="445" width="375" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="465" width="375" height="6" fill="#B45309"/>
+  <text x="212" y="463" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Документы проекта</text>
+  <text x="37" y="485" font-size="12" fill="#78350F">&#8226; Паспорт проекта: тема, цель, задачи, сроки</text>
+  <text x="37" y="505" font-size="12" fill="#78350F">&#8226; Техническое задание: требования к изделию</text>
+  <text x="37" y="525" font-size="12" fill="#78350F">&#8226; Технологическая карта: последовательность</text>
+  <text x="37" y="545" font-size="12" fill="#78350F">&#8226; Эскиз и чертёж: графическое представление</text>
+
+  <!-- Key principles -->
+    <rect x="415" y="445" width="365" height="120" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="415" y="445" width="365" height="26" rx="6" fill="#B45309"/>
+  <rect x="415" y="465" width="365" height="6" fill="#B45309"/>
+  <text x="597" y="463" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Принципы проектирования</text>
+  <text x="427" y="485" font-size="12" fill="#78350F">&#8226; Системность — целостный подход к проекту</text>
+  <text x="427" y="505" font-size="12" fill="#78350F">&#8226; Ресурсоёмкость — учёт материалов и времени</text>
+  <text x="427" y="525" font-size="12" fill="#78350F">&#8226; Безопасность — соблюдение правил ТБ</text>
+  <text x="427" y="545" font-size="12" fill="#78350F">&#8226; Экологичность — минимальный вред природе</text>
+
+  <!-- Bottom highlight -->
+  
+  <!-- Bottom highlight -->
+    <rect x="25" y="578" width="750" height="16" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" filter="url(#shadow)"/>
+  <text x="37" y="598" font-size="12" fill="#78350F" font-weight="bold">Проект начинается с проблемы, а заканчивается результатом и его оценкой!</text>
+</svg>

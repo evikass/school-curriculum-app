@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDF2F8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FCE7F3;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#BE185D;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#FBCFE8;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#BE185D" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowSmall" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#1F2937" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0"/>
+
+  <!-- Title Bar -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0"/>
+  <rect x="0" y="65" width="800" height="5" fill="#BE185D" opacity="0.3"/>
+  <text x="400" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Однородные члены предложения</text>
+  <text x="400" y="58" font-family="Arial, sans-serif" font-size="13" fill="#F9A8D4" text-anchor="middle">Союзы и знаки препинания при однородных членах</text>
+
+  <circle cx="40" cy="35" r="22" fill="#FFFFFF" opacity="0.25"/>
+  <text x="40" y="41" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+
+  <rect x="15" y="82" width="380" height="95" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="205.0" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Определение</text>
+
+  <text x="30" y="106" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">Однородные члены — это члены</text>
+  <text x="30" y="122" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">предложения, которые:</text>
+  <text x="30" y="142" font-family="Arial, sans-serif" font-size="11" fill="#10B981" font-weight="bold">1. Отвечают на один вопрос</text>
+  <text x="30" y="158" font-family="Arial, sans-serif" font-size="11" fill="#3B82F6" font-weight="bold">2. Являются одним и тем же членом предл.</text>
+  <text x="30" y="174" font-family="Arial, sans-serif" font-size="11" fill="#A855F7" font-weight="bold">3. Связаны сочинительной связью</text>
+
+  <rect x="410" y="82" width="375" height="95" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="597.5" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Союзы при однородных членах</text>
+
+  <rect x="420" y="106" width="170" height="28" fill="#10B981" rx="4" opacity="0.15"/>
+  <text x="505" y="124" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#10B981" text-anchor="middle">Соединительные: и, да(=и), ни...ни</text>
+  <rect x="420" y="138" width="170" height="28" fill="#F59E0B" rx="4" opacity="0.15"/>
+  <text x="505" y="156" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#F59E0B" text-anchor="middle">Противительные: а, но, да(=но), однако</text>
+  <rect x="600" y="106" width="175" height="28" fill="#3B82F6" rx="4" opacity="0.15"/>
+  <text x="687" y="124" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#3B82F6" text-anchor="middle">Разделительные: или, либо, то...то</text>
+  <rect x="600" y="138" width="175" height="28" fill="#A855F7" rx="4" opacity="0.15"/>
+  <text x="687" y="156" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#A855F7" text-anchor="middle">Пояснительные: то есть, а именно</text>
+
+  <rect x="15" y="190" width="380" height="200" fill="#FFFFFF" rx="6" stroke="#FB7185" stroke-width="2" filter="url(#shadowSmall)"/>
+  <rect x="15" y="190" width="380" height="22" fill="#FB7185" rx="6"/>
+  <rect x="15" y="206" width="380" height="6" fill="#FB7185"/>
+  <text x="205.0" y="205" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Знаки препинания при однородных членах</text>
+  <text x="23" y="228" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">БЕЗ союза — запятая:</text>
+  <text x="23" y="244" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Ветер, дождь, снег бушевали.</text>
+  <text x="23" y="260" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="23" y="276" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Союз И (одиночный) — БЕЗ запятой:</text>
+  <text x="23" y="292" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Ветер и дождь бушевали.</text>
+  <text x="23" y="308" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="23" y="324" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Союз И (повторяющийся) — запятая:</text>
+  <text x="23" y="340" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  И ветер, и дождь бушевали.</text>
+  <text x="23" y="356" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="23" y="372" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Союз А, НО — запятая:</text>
+  <text x="23" y="388" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Не ветер, а дождь бушевал.</text>
+  <text x="23" y="404" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="23" y="420" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Парные союзы — запятая + запятая:</text>
+  <text x="23" y="436" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Как ветер, так и дождь бушевали.</text>
+
+  <rect x="410" y="190" width="375" height="200" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="597.5" y="208" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Примеры</text>
+  <rect x="420" y="216" width="355" height="34" fill="#FFFFFF" rx="4" stroke="#14B8A6" stroke-width="1"/>
+  <text x="430" y="237" font-family="Arial, sans-serif" font-size="10">В саду росли <tspan fill="#14B8A6" font-weight="bold">яблони, груши, вишни</tspan> и сливы</text>
+  <rect x="420" y="258" width="355" height="34" fill="#FFFFFF" rx="4" stroke="#3B82F6" stroke-width="1"/>
+  <text x="430" y="279" font-family="Arial, sans-serif" font-size="10">Он читал <tspan fill="#3B82F6" font-weight="bold">и думал, и мечтал</tspan> </text>
+  <rect x="420" y="300" width="355" height="34" fill="#FFFFFF" rx="4" stroke="#F59E0B" stroke-width="1"/>
+  <text x="430" y="321" font-family="Arial, sans-serif" font-size="10">Не рыба, а мясо <tspan fill="#F59E0B" font-weight="bold">было на столе</tspan> </text>
+  <rect x="420" y="342" width="355" height="34" fill="#FFFFFF" rx="4" stroke="#A855F7" stroke-width="1"/>
+  <text x="430" y="363" font-family="Arial, sans-serif" font-size="10">Мы были <tspan fill="#A855F7" font-weight="bold">и рады, и удивлены</tspan> одновременно</text>
+
+  <rect x="15" y="405" width="380" height="180" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="205.0" y="423" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Схема предложения с однородными</text>
+
+  <text x="30" y="430" font-family="Arial, sans-serif" font-size="12" fill="#1F2937">
+    <tspan fill="#10B981" font-weight="bold">Мальчик</tspan>
+    <tspan fill="#1F2937"> </tspan>
+    <tspan fill="#3B82F6" font-weight="bold">читал</tspan>
+    <tspan fill="#1F2937"> </tspan>
+    <tspan fill="#F59E0B" font-weight="bold">книги, журналы</tspan>
+    <tspan fill="#1F2937"> </tspan>
+    <tspan fill="#6B7280">и</tspan>
+    <tspan fill="#1F2937"> </tspan>
+    <tspan fill="#F59E0B" font-weight="bold">газеты</tspan>
+    <tspan fill="#1F2937">.</tspan>
+  </text>
+  <!-- Schema diagram -->
+  <rect x="30" y="445" width="70" height="22" fill="#10B981" rx="3" opacity="0.2"/>
+  <text x="65" y="460" font-family="Arial, sans-serif" font-size="9" fill="#10B981" text-anchor="middle">подлежащее</text>
+  <rect x="110" y="445" width="55" height="22" fill="#3B82F6" rx="3" opacity="0.2"/>
+  <text x="137" y="460" font-family="Arial, sans-serif" font-size="9" fill="#3B82F6" text-anchor="middle">сказуемое</text>
+  <!-- Homogeneous members -->
+  <rect x="30" y="478" width="60" height="22" fill="#F59E0B" rx="3" opacity="0.2"/>
+  <text x="60" y="493" font-family="Arial, sans-serif" font-size="9" fill="#F59E0B" text-anchor="middle">книги</text>
+  <text x="95" y="493" font-family="Arial, sans-serif" font-size="9" fill="#FB7185">,</text>
+  <rect x="105" y="478" width="65" height="22" fill="#F59E0B" rx="3" opacity="0.2"/>
+  <text x="137" y="493" font-family="Arial, sans-serif" font-size="9" fill="#F59E0B" text-anchor="middle">журналы</text>
+  <text x="175" y="493" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">и</text>
+  <rect x="190" y="478" width="65" height="22" fill="#F59E0B" rx="3" opacity="0.2"/>
+  <text x="222" y="493" font-family="Arial, sans-serif" font-size="9" fill="#F59E0B" text-anchor="middle">газеты</text>
+  <!-- Arrow showing they answer same question -->
+  <line x1="60" y1="500" x2="60" y2="512" stroke="#F59E0B" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="137" y1="500" x2="137" y2="512" stroke="#F59E0B" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="222" y1="500" x2="222" y2="512" stroke="#F59E0B" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="60" y1="512" x2="222" y2="512" stroke="#F59E0B" stroke-width="1"/>
+  <text x="140" y="526" font-family="Arial, sans-serif" font-size="9" fill="#F59E0B" text-anchor="middle">всё — дополнения (что?)</text>
+  <!-- Formula -->
+  <text x="30" y="555" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BE185D">Формула:</text>
+  <text x="30" y="572" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">[= -, -, и -]</text>
+
+  <rect x="410" y="405" width="375" height="180" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="597.5" y="423" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Обобщающие слова при однородных членах</text>
+
+  <text x="425" y="428" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BE185D">Обобщающее слово = то же, что однородные</text>
+  <line x1="425" y1="436" x2="770" y2="436" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="425" y="454" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Если обобщ. слово ПЕРЕД однородными:</text>
+  <text x="425" y="470" font-family="Arial, sans-serif" font-size="10" fill="#FB7185" font-weight="bold">Двоеточие</text>
+  <text x="500" y="470" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">после обобщ. слова</text>
+  <text x="425" y="486" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Весенние цветы: нарциссы, тюльпаны, гиацинты.</text>
+  <line x1="425" y1="496" x2="770" y2="496" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="425" y="514" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Если обобщ. слово ПОСЛЕ однородных:</text>
+  <text x="425" y="530" font-family="Arial, sans-serif" font-size="10" fill="#FB7185" font-weight="bold">Тире</text>
+  <text x="470" y="530" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">перед обобщ. словом</text>
+  <text x="425" y="546" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Нарциссы, тюльпаны, гиацинты — весенние цветы.</text>
+  <line x1="425" y1="556" x2="770" y2="556" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="425" y="574" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Если предложение продолжается:</text>
+  <text x="425" y="590" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Цветы: нарциссы, тюльпаны — росли в саду.</text>
+</svg>

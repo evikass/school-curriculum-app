@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="500" height="85" fill="#F5E6C8" opacity="0.9"/>
+  <line x1="0" y1="85" x2="500" y2="85" stroke="#C41E3A" stroke-width="3"/>
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Святослав</text>
+  <text x="250" y="70" font-family="Arial, sans-serif" font-size="12" fill="#1a1a1a" text-anchor="middle">Князь-воин: походы и завоевания</text>
+
+  <!-- Bottom panel -->
+  <rect x="0" y="315" width="500" height="35" fill="#C41E3A" opacity="0.85"/>
+  <text x="250" y="337" font-family="Arial, sans-serif" font-size="15" fill="#F5E6C8" text-anchor="middle" font-weight="bold">История России - 4 класс</text>
+
+  <!-- Background -->
+  <rect x="0" y="85" width="500" height="230" fill="#F5E6C8"/>
+
+  <!-- Ground/horizon -->
+  <rect x="0" y="250" width="500" height="65" fill="#DCC9A3" opacity="0.5"/>
+
+  <!-- Horse (center, stylized) -->
+  <!-- Body -->
+  <ellipse cx="250" cy="210" rx="65" ry="30" fill="#8B6914" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- Neck -->
+  <path d="M300,200 Q320,170 315,150" fill="none" stroke="#8B6914" stroke-width="20"/>
+  <!-- Head -->
+  <ellipse cx="318" cy="145" rx="18" ry="10" fill="#8B6914" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Eye -->
+  <circle cx="325" cy="142" r="2" fill="#1a1a1a"/>
+  <!-- Ear -->
+  <polygon points="310,135 315,122 320,135" fill="#8B6914" stroke="#1a1a1a" stroke-width="0.5"/>
+  <!-- Legs -->
+  <line x1="200" y1="230" x2="195" y2="280" stroke="#1a1a1a" stroke-width="4"/>
+  <line x1="215" y1="232" x2="210" y2="280" stroke="#1a1a1a" stroke-width="4"/>
+  <line x1="280" y1="232" x2="285" y2="280" stroke="#1a1a1a" stroke-width="4"/>
+  <line x1="295" y1="230" x2="300" y2="280" stroke="#1a1a1a" stroke-width="4"/>
+  <!-- Hooves -->
+  <rect x="190" y="277" width="10" height="5" fill="#1a1a1a"/>
+  <rect x="205" y="277" width="10" height="5" fill="#1a1a1a"/>
+  <rect x="280" y="277" width="10" height="5" fill="#1a1a1a"/>
+  <rect x="295" y="277" width="10" height="5" fill="#1a1a1a"/>
+  <!-- Tail -->
+  <path d="M185,200 Q160,195 155,220 Q150,235 160,240" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+
+  <!-- Rider (Svyatoslav) -->
+  <!-- Body -->
+  <rect x="230" y="160" width="35" height="40" fill="#C41E3A" rx="3" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Head -->
+  <circle cx="250" cy="140" r="16" fill="#DCC9A3" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- Helmet -->
+  <path d="M234,136 Q250,115 266,136" fill="#2B4C7E" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="250" y1="115" x2="250" y2="110" stroke="#D4A843" stroke-width="2"/>
+  <!-- Arms -->
+  <line x1="230" y1="170" x2="205" y2="190" stroke="#1a1a1a" stroke-width="4"/>
+  <line x1="265" y1="170" x2="310" y2="150" stroke="#1a1a1a" stroke-width="4"/>
+  <!-- Sword (raised) -->
+  <line x1="310" y1="150" x2="335" y2="105" stroke="#1a1a1a" stroke-width="3"/>
+  <rect x="304" y="147" width="14" height="4" fill="#D4A843"/>
+  <!-- Shield (on left arm) -->
+  <ellipse cx="200" cy="195" rx="18" ry="22" fill="#2B4C7E" stroke="#D4A843" stroke-width="2"/>
+  <circle cx="200" cy="195" r="6" fill="#D4A843"/>
+
+  <!-- Saddle -->
+  <rect x="225" y="195" width="45" height="8" fill="#8B1528" rx="2"/>
+
+  <!-- Banner/flag behind -->
+  <line x1="340" y1="100" x2="340" y2="260" stroke="#1a1a1a" stroke-width="2.5"/>
+  <polygon points="340,100 390,110 340,125" fill="#C41E3A" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Flying arrows (left) -->
+  <line x1="60" y1="160" x2="100" y2="170" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="100,170 94,165 94,175" fill="#1a1a1a"/>
+  <line x1="40" y1="180" x2="85" y2="185" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="85,185 79,180 79,190" fill="#1a1a1a"/>
+  <line x1="70" y1="140" x2="110" y2="155" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="110,155 104,150 104,160" fill="#1a1a1a"/>
+
+  <!-- Quote banner -->
+  <rect x="130" y="280" width="240" height="25" fill="#C41E3A" opacity="0.85" rx="3"/>
+  <text x="250" y="297" font-family="Arial, sans-serif" font-size="13" fill="#F5E6C8" text-anchor="middle" font-weight="bold">Иду на вы!</text>
+
+  <!-- Decorative corner triangles -->
+  <polygon points="10,90 25,90 10,105" fill="#C41E3A" opacity="0.4"/>
+  <polygon points="490,90 475,90 490,105" fill="#C41E3A" opacity="0.4"/>
+
+</svg>

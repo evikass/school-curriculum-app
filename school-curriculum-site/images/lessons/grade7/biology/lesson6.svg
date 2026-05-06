@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Мхи, папоротники, голосеменные</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 6</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Moss -->
+  <rect x="25" y="90" width="150" height="200" rx="6" fill="white" stroke="#4CAF50" stroke-width="1.5"/>
+  <text x="100" y="106" font-family="Arial,sans-serif" font-size="10" fill="#4CAF50" font-weight="bold" text-anchor="middle">Мхи</text>
+  <!-- Ground -->
+  <rect x="35" y="240" width="130" height="20" rx="2" fill="#A5D6A7" opacity="0.5"/>
+  <!-- Moss plants -->
+  <line x1="60" y1="240" x2="60" y2="200" stroke="#2E7D32" stroke-width="1.5"/>
+  <ellipse cx="60" cy="195" rx="4" ry="8" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+  <line x1="60" y1="240" x2="60" y2="205" stroke="#2E7D32" stroke-width="1.5"/>
+  <line x1="80" y1="240" x2="78" y2="210" stroke="#2E7D32" stroke-width="1.5"/>
+  <ellipse cx="78" cy="205" rx="4" ry="8" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+  <line x1="80" y1="240" x2="82" y2="215" stroke="#2E7D32" stroke-width="1.5"/>
+  <ellipse cx="82" cy="210" rx="3" ry="7" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+  <line x1="100" y1="240" x2="100" y2="195" stroke="#2E7D32" stroke-width="1.5"/>
+  <ellipse cx="100" cy="190" rx="4" ry="9" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+  <line x1="100" y1="240" x2="100" y2="200" stroke="#2E7D32" stroke-width="1.5"/>
+  <line x1="120" y1="240" x2="118" y2="208" stroke="#2E7D32" stroke-width="1.5"/>
+  <ellipse cx="118" cy="203" rx="4" ry="8" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+  <line x1="120" y1="240" x2="122" y2="212" stroke="#2E7D32" stroke-width="1.5"/>
+  <!-- Sporangium -->
+  <line x1="80" y1="215" x2="80" y2="225" stroke="#8D6E63" stroke-width="1"/>
+  <ellipse cx="80" cy="227" rx="3" ry="4" fill="#A1887F"/>
+  <line x1="120" y1="212" x2="122" y2="222" stroke="#8D6E63" stroke-width="1"/>
+  <ellipse cx="122" cy="224" rx="3" ry="4" fill="#A1887F"/>
+  <text x="100" y="160" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">спорофит</text>
+  <text x="100" y="275" font-family="Arial,sans-serif" font-size="7" fill="#4CAF50" text-anchor="middle">нет сосудов</text>
+
+  <!-- Fern -->
+  <rect x="185" y="90" width="150" height="95" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="260" y="106" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" font-weight="bold" text-anchor="middle">Папоротники</text>
+  <!-- Fern leaf -->
+  <path d="M260,170 Q255,140 260,120" stroke="#2E7D32" stroke-width="2" fill="none"/>
+  <path d="M258,160 L240,150 M258,150 L242,140 M258,140 L244,132 M262,155 L278,145 M262,145 L280,135 M262,135 L282,127" stroke="#4CAF50" stroke-width="1.5" fill="none"/>
+  <!-- Spores on back -->
+  <circle cx="240" cy="150" r="1.5" fill="#C62828"/><circle cx="242" cy="140" r="1.5" fill="#C62828"/>
+  <circle cx="278" cy="145" r="1.5" fill="#C62828"/><circle cx="280" cy="135" r="1.5" fill="#C62828"/>
+  <text x="260" y="180" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">споры на листьях</text>
+
+  <!-- Gymnosperms -->
+  <rect x="185" y="200" width="150" height="90" rx="6" fill="white" stroke="#1B5E20" stroke-width="1.5"/>
+  <text x="260" y="216" font-family="Arial,sans-serif" font-size="10" fill="#1B5E20" font-weight="bold" text-anchor="middle">Голосеменные</text>
+  <!-- Pine tree -->
+  <rect x="256" y="265" width="8" height="18" fill="#795548"/>
+  <polygon points="260,225 240,260 280,260" fill="#2E7D32"/>
+  <polygon points="260,240 238,265 282,265" fill="#388E3C"/>
+  <polygon points="260,252 236,275 284,275" fill="#2E7D32"/>
+  <!-- Cone -->
+  <ellipse cx="260" cy="283" rx="5" ry="4" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+  <text x="260" y="275" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">хвоя</text>
+
+  <!-- Comparison -->
+  <rect x="345" y="90" width="130" height="200" rx="6" fill="white" stroke="#FF9800" stroke-width="1.5"/>
+  <text x="410" y="106" font-family="Arial,sans-serif" font-size="10" fill="#FF9800" font-weight="bold" text-anchor="middle">Сравнение</text>
+  <text x="410" y="130" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Мхи</text>
+  <text x="410" y="143" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">- нет корней</text>
+  <text x="410" y="155" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">- споры</text>
+  <line x1="365" y1="165" x2="455" y2="165" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="410" y="182" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Папоротники</text>
+  <text x="410" y="195" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">- корневище</text>
+  <text x="410" y="207" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">- споры</text>
+  <line x1="365" y1="217" x2="455" y2="217" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="410" y="234" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Голосеменные</text>
+  <text x="410" y="247" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">- корни, стебель</text>
+  <text x="410" y="259" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">- хвоинки</text>
+  <text x="410" y="271" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">- шишки (семена)</text>
+  <text x="410" y="286" font-family="Arial,sans-serif" font-size="7" fill="#F9A825" text-anchor="middle">эволюция растений</text>
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
+</svg>

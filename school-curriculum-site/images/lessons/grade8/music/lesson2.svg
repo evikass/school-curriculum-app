@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B71C1C"/>
+      <stop offset="100%" stop-color="#C62828"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corner accents -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
+  <!-- Title -->
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Музыкальные инструменты</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Музыка - Урок 2</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#6A1B9A" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.18" rx="1"/>
+  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
+  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+  <rect x="15" y="85" width="470" height="215" fill="#FFF8E1"/><g transform="translate(160,180) scale(1.5)"><rect x="-35" y="-15" width="70" height="35" rx="2" fill="#212121"/><rect x="-33" y="-12" width="7" height="29" fill="white" rx="1"/><rect x="-24" y="-12" width="7" height="29" fill="white" rx="1"/><rect x="-15" y="-12" width="7" height="29" fill="white" rx="1"/><rect x="-6" y="-12" width="7" height="29" fill="white" rx="1"/><rect x="3" y="-12" width="7" height="29" fill="white" rx="1"/><rect x="12" y="-12" width="7" height="29" fill="white" rx="1"/><rect x="21" y="-12" width="7" height="29" fill="white" rx="1"/><rect x="30" y="-12" width="7" height="29" fill="white" rx="1"/><rect x="-29" y="-12" width="5" height="18" fill="#212121" rx="1"/><rect x="-20" y="-12" width="5" height="18" fill="#212121" rx="1"/><rect x="-2" y="-12" width="5" height="18" fill="#212121" rx="1"/><rect x="7" y="-12" width="5" height="18" fill="#212121" rx="1"/><rect x="16" y="-12" width="5" height="18" fill="#212121" rx="1"/></g><g transform="translate(320,170) scale(1.5)">
+      <ellipse cx="0" cy="12" rx="15" ry="12" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-5" rx="12" ry="10" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+      <circle cx="0" cy="14" r="4" fill="#5D4037"/>
+      <rect x="-3" y="-30" width="6" height="25" fill="#8D6E63"/>
+      <rect x="-8" y="-32" width="16" height="5" rx="2" fill="#5D4037"/>
+      <line x1="-2" y1="5" x2="-2" y2="22" stroke="#E65100" stroke-width="0.5"/>
+      <line x1="2" y1="5" x2="2" y2="22" stroke="#E65100" stroke-width="0.5"/>
+      <line x1="-1" y1="-28" x2="3" y2="22" stroke="#BDBDBD" stroke-width="0.3"/>
+      <line x1="0" y1="-28" x2="4" y2="22" stroke="#BDBDBD" stroke-width="0.3"/>
+    </g><circle cx="420" cy="200" r="18" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/><circle cx="420" cy="200" r="3" fill="white"/><text x="420" y="230" font-family="Arial" font-size="8" fill="#E65100" text-anchor="middle">Барабан</text><text x="250" y="270" font-family="Arial,sans-serif" font-size="13" fill="#333" text-anchor="middle" font-weight="bold">Инструменты</text>
+  </g>
+  <!-- Bottom panel -->
+  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
+  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
+  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
+  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Музыка</text>
+</svg>

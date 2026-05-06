@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <filter id="shadow7" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000033"/>
+    </filter>
+    <marker id="arrow7" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#388E3C"/>
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="#E8F5E9"/>
+  <rect x="0" y="0" width="500" height="52" rx="12" fill="#388E3C"/>
+  <rect x="0" y="20" width="500" height="32" fill="#388E3C"/>
+  <!-- Header -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="white">Урок 7: Структура экосистемы</text>
+
+  <!-- Definition -->
+  <rect x="15" y="60" width="470" height="25" rx="6" fill="#66BB6A" opacity="0.2"/>
+  <text x="250" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Экосистема — природный комплекс из живых и неживых компонентов</text>
+
+  <!-- Producers -->
+  <rect x="15" y="92" width="150" height="72" rx="8" fill="white" opacity="0.9" filter="url(#shadow7)"/>
+  <rect x="15" y="92" width="150" height="18" rx="8" fill="#2E7D32" opacity="0.9"/>
+  <rect x="15" y="104" width="150" height="6" fill="#2E7D32" opacity="0.9"/>
+  <text x="90" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="white">Продуценты</text>
+  <!-- Plant icon -->
+  <line x1="50" y1="145" x2="50" y2="125" stroke="#4CAF50" stroke-width="2"/>
+  <circle cx="45" cy="122" r="6" fill="#66BB6A"/>
+  <circle cx="55" cy="120" r="6" fill="#81C784"/>
+  <circle cx="50" cy="116" r="6" fill="#4CAF50"/>
+  <text x="70" y="125" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Автотрофы</text>
+  <text x="70" y="137" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Фотосинтез</text>
+  <text x="70" y="149" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-style="italic">Растения, водоросли</text>
+  <text x="25" y="160" font-family="Arial,sans-serif" font-size="7" fill="#555">6CO₂+6H₂O→C₆H₁₂O₆</text>
+
+  <!-- Consumers -->
+  <rect x="175" y="92" width="150" height="72" rx="8" fill="white" opacity="0.9" filter="url(#shadow7)"/>
+  <rect x="175" y="92" width="150" height="18" rx="8" fill="#E65100" opacity="0.85"/>
+  <rect x="175" y="104" width="150" height="6" fill="#E65100" opacity="0.85"/>
+  <text x="250" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="white">Консументы</text>
+  <!-- Animal icon -->
+  <ellipse cx="210" cy="130" rx="12" ry="8" fill="#FF8A65" stroke="#E65100" stroke-width="1"/>
+  <circle cx="220" cy="126" r="4" fill="#FFAB91" stroke="#E65100" stroke-width="0.8"/>
+  <text x="235" y="125" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Гетеротрофы</text>
+  <text x="235" y="137" font-family="Arial,sans-serif" font-size="8.5" fill="#333">1 порядка: травоядные</text>
+  <text x="235" y="149" font-family="Arial,sans-serif" font-size="8.5" fill="#333">2 порядка: хищники</text>
+  <text x="185" y="160" font-family="Arial,sans-serif" font-size="7" fill="#E65100" font-style="italic">3 порядка: сверххищники</text>
+
+  <!-- Decomposers -->
+  <rect x="335" y="92" width="150" height="72" rx="8" fill="white" opacity="0.9" filter="url(#shadow7)"/>
+  <rect x="335" y="92" width="150" height="18" rx="8" fill="#5D4037" opacity="0.85"/>
+  <rect x="335" y="104" width="150" height="6" fill="#5D4037" opacity="0.85"/>
+  <text x="410" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="white">Редуценты</text>
+  <!-- Mushroom icon -->
+  <ellipse cx="375" cy="130" rx="10" ry="6" fill="#BCAAA4" stroke="#5D4037" stroke-width="1"/>
+  <rect x="373" y="136" width="4" height="10" fill="#8D6E63"/>
+  <text x="395" y="125" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Гетеротрофы</text>
+  <text x="395" y="137" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Разлагают органику</text>
+  <text x="395" y="149" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Минерализация</text>
+  <text x="345" y="160" font-family="Arial,sans-serif" font-size="7" fill="#5D4037" font-style="italic">Бактерии, грибы</text>
+
+  <!-- Food chain diagram -->
+  <rect x="15" y="172" width="470" height="55" rx="8" fill="white" opacity="0.9" filter="url(#shadow7)"/>
+  <text x="250" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Цепь питания (трофическая цепь)</text>
+  <!-- Chain: plant → herbivore → predator → top predator -->
+  <rect x="30" y="198" width="65" height="22" rx="4" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="62" y="213" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32">Растение</text>
+  <line x1="97" y1="209" x2="112" y2="209" stroke="#388E3C" stroke-width="1.5" marker-end="url(#arrow7)"/>
+  <rect x="115" y="198" width="70" height="22" rx="4" fill="#FFE0B2" stroke="#E65100" stroke-width="1"/>
+  <text x="150" y="213" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#E65100">Травоядное</text>
+  <line x1="187" y1="209" x2="202" y2="209" stroke="#388E3C" stroke-width="1.5" marker-end="url(#arrow7)"/>
+  <rect x="205" y="198" width="60" height="22" rx="4" fill="#FFCCBC" stroke="#BF360C" stroke-width="1"/>
+  <text x="235" y="213" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#BF360C">Хищник</text>
+  <line x1="267" y1="209" x2="282" y2="209" stroke="#388E3C" stroke-width="1.5" marker-end="url(#arrow7)"/>
+  <rect x="285" y="198" width="80" height="22" rx="4" fill="#EF9A9A" stroke="#C62828" stroke-width="1"/>
+  <text x="325" y="213" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#C62828">Сверххищник</text>
+  <line x1="367" y1="209" x2="382" y2="209" stroke="#388E3C" stroke-width="1.5" marker-end="url(#arrow7)"/>
+  <rect x="385" y="198" width="80" height="22" rx="4" fill="#D7CCC8" stroke="#5D4037" stroke-width="1"/>
+  <text x="425" y="213" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#5D4037">Редуценты</text>
+  <text x="250" y="224" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="#666">Клевер → Заяц → Лиса → Волк → Бактерии</text>
+
+  <!-- Ecological pyramid -->
+  <rect x="15" y="235" width="200" height="105" rx="8" fill="white" opacity="0.9" filter="url(#shadow7)"/>
+  <text x="115" y="252" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Экологическая пирамида</text>
+  <!-- Pyramid levels -->
+  <polygon points="115,260 85,300 145,300" fill="#EF5350" opacity="0.7"/>
+  <text x="115" y="292" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">Хищники</text>
+  <polygon points="115,268 70,315 160,315" fill="#FF9800" opacity="0.5"/>
+  <text x="115" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#E65100">Травоядные</text>
+  <polygon points="115,276 50,332 180,332" fill="#4CAF50" opacity="0.4"/>
+  <text x="115" y="327" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">Продуценты</text>
+  <text x="60" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555">Энергия ↓</text>
+  <text x="145" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555">Число ↓</text>
+  <text x="60" y="340" font-family="Arial,sans-serif" font-size="7" fill="#388E3C" font-style="italic">Правило 10%: каждый уровень ~10% энергии</text>
+
+  <!-- Abiotic components -->
+  <rect x="225" y="235" width="260" height="105" rx="8" fill="white" opacity="0.9" filter="url(#shadow7)"/>
+  <text x="355" y="252" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Компоненты экосистемы</text>
+  <line x1="235" y1="258" x2="475" y2="258" stroke="#A5D6A7" stroke-width="1"/>
+  <!-- Biotic -->
+  <text x="245" y="273" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#388E3C">Биотические (живые):</text>
+  <text x="255" y="286" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Продуценты, консументы, редуценты</text>
+  <!-- Abiotic -->
+  <text x="245" y="301" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0">Абиотические (неживые):</text>
+  <text x="255" y="314" font-family="Arial,sans-serif" font-size="8.5" fill="#333">Свет, температура, вода, почва, воздух</text>
+  <text x="245" y="330" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-style="italic">Круговорот веществ — основа устойчивости</text>
+  <text x="245" y="340" font-family="Arial,sans-serif" font-size="7.5" fill="#2E7D32" font-style="italic">Саморегуляция: правило экологической пирамиды</text>
+</svg>

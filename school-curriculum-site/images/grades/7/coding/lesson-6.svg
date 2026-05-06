@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#064E3B"/>
+    <stop offset="100%" style="stop-color:#059669"/>
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#10B981"/>
+    <stop offset="100%" style="stop-color:#14B8A6"/>
+  </linearGradient>
+  <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#064E3B"/>
+    <stop offset="100%" style="stop-color:#059669"/>
+  </linearGradient>
+  <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/>
+  </filter>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+<rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="8"/>
+<circle cx="40" cy="35" r="22" fill="#10B981" stroke="#14B8A6" stroke-width="2"/>
+<text x="40" y="42" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="sans-serif" font-weight="bold">6</text>
+<text x="72" y="32" fill="#FFFFFF" font-size="22" text-anchor="start" font-family="sans-serif" font-weight="bold">Логические операторы</text>
+<text x="72" y="52" fill="#6EE7B7" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="normal">and, or, not, таблицы истинности</text>
+<rect x="0" y="68" width="800" height="2" fill="#14B8A6" rx="8"/>
+<rect x="20" y="80" width="245" height="140" fill="#0F172A" rx="8" stroke="#4ADE80" stroke-width="1.5"/>
+<text x="142" y="102" fill="#4ADE80" font-size="20" text-anchor="middle" font-family="monospace" font-weight="bold">and</text>
+<text x="142" y="125" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="normal">Логическое И</text>
+<text x="142" y="143" fill="#6EE7B7" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Оба условия True</text>
+<text x="142" y="160" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">True and True → True</text>
+<text x="142" y="175" fill="#F87171" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">True and False → False</text>
+<rect x="275" y="80" width="245" height="140" fill="#0F172A" rx="8" stroke="#FB923C" stroke-width="1.5"/>
+<text x="397" y="102" fill="#FB923C" font-size="20" text-anchor="middle" font-family="monospace" font-weight="bold">or</text>
+<text x="397" y="125" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="normal">Логическое ИЛИ</text>
+<text x="397" y="143" fill="#6EE7B7" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Хотя бы одно True</text>
+<text x="397" y="160" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">True or False → True</text>
+<text x="397" y="175" fill="#F87171" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">False or False → False</text>
+<rect x="530" y="80" width="250" height="140" fill="#0F172A" rx="8" stroke="#C084FC" stroke-width="1.5"/>
+<text x="655" y="102" fill="#C084FC" font-size="20" text-anchor="middle" font-family="monospace" font-weight="bold">not</text>
+<text x="655" y="125" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="normal">Логическое НЕ</text>
+<text x="655" y="143" fill="#6EE7B7" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Инвертирует значение</text>
+<text x="655" y="160" fill="#F87171" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">not True → False</text>
+<text x="655" y="175" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">not False → True</text>
+<rect x="20" y="230" width="380" height="165" fill="#0F172A" rx="8" stroke="#10B981" stroke-width="1"/>
+<text x="35" y="252" fill="#14B8A6" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="bold">Таблица истинности (and)</text>
+<rect x="35" y="265" width="80" height="22" fill="#1E293B" rx="4" stroke="#10B981" stroke-width="1"/>
+<text x="75" y="281" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">A</text>
+<rect x="120" y="265" width="80" height="22" fill="#1E293B" rx="4" stroke="#10B981" stroke-width="1"/>
+<text x="160" y="281" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">B</text>
+<rect x="205" y="265" width="100" height="22" fill="#1E293B" rx="4" stroke="#4ADE80" stroke-width="1"/>
+<text x="255" y="281" fill="#4ADE80" font-size="11" text-anchor="middle" font-family="monospace" font-weight="bold">A and B</text>
+<rect x="310" y="265" width="80" height="22" fill="#1E293B" rx="4" stroke="#FB923C" stroke-width="1"/>
+<text x="350" y="281" fill="#FB923C" font-size="11" text-anchor="middle" font-family="monospace" font-weight="bold">A or B</text>
+<text x="75" y="303" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">True</text>
+<text x="160" y="303" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">True</text>
+<text x="255" y="303" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">True</text>
+<text x="350" y="303" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">True</text>
+<text x="75" y="323" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">True</text>
+<text x="160" y="323" fill="#F87171" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">False</text>
+<text x="255" y="323" fill="#F87171" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">False</text>
+<text x="350" y="323" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">True</text>
+<text x="75" y="343" fill="#F87171" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">False</text>
+<text x="160" y="343" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">True</text>
+<text x="255" y="343" fill="#F87171" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">False</text>
+<text x="350" y="343" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">True</text>
+<text x="75" y="363" fill="#F87171" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">False</text>
+<text x="160" y="363" fill="#F87171" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">False</text>
+<text x="255" y="363" fill="#F87171" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">False</text>
+<text x="350" y="363" fill="#F87171" font-size="10" text-anchor="middle" font-family="monospace" font-weight="normal">False</text>
+<rect x="410" y="230" width="370" height="165" fill="#0F172A" rx="8" stroke="#FCD34D" stroke-width="1"/>
+<text x="425" y="252" fill="#FCD34D" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="bold">Приоритет операторов</text>
+<text x="425" y="281" fill="#6EE7B7" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">1.</text>
+<text x="450" y="281" fill="#C084FC" font-size="12" text-anchor="start" font-family="monospace" font-weight="bold">not</text>
+<text x="510" y="281" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">самый высокий</text>
+<text x="425" y="303" fill="#6EE7B7" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">2.</text>
+<text x="450" y="303" fill="#4ADE80" font-size="12" text-anchor="start" font-family="monospace" font-weight="bold">and</text>
+<text x="510" y="303" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">средний</text>
+<text x="425" y="325" fill="#6EE7B7" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">3.</text>
+<text x="450" y="325" fill="#FB923C" font-size="12" text-anchor="start" font-family="monospace" font-weight="bold">or</text>
+<text x="510" y="325" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">самый низкий</text>
+<text x="425" y="348" fill="#FFFFFF" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Пример:</text>
+<text x="425" y="366" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">True or False and False</text>
+<text x="425" y="382" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">= True or (False and False)</text>
+<text x="425" y="396" fill="#4ADE80" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">= True or False = True</text>
+<rect x="20" y="405" width="760" height="165" fill="#0F172A" rx="8" stroke="#10B981" stroke-width="1"/>
+<text x="35" y="427" fill="#14B8A6" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Примеры в коде</text>
+<rect x="35" y="437" width="360" height="179" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="35" y="437" width="360" height="24" fill="#1E293B" rx="6"/>
+<rect x="35" y="455" width="360" height="6" fill="#1E293B" rx="8"/>
+<text x="45" y="453" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">logic.py</text>
+<circle cx="355" cy="449" r="4" fill="#F87171"/>
+<circle cx="369" cy="449" r="4" fill="#FCD34D"/>
+<circle cx="383" cy="449" r="4" fill="#4ADE80"/>
+<text x="43" y="477" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="65" y="477" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal"># Проверка диапазона</text>
+<text x="43" y="492" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="65" y="492" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">age = 15</text>
+<text x="43" y="507" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="65" y="507" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">if age &gt;= 6 and age &lt;= 17:</text>
+<text x="43" y="522" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="65" y="522" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">    print(&quot;Школьник&quot;)</text>
+<text x="43" y="537" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="65" y="537" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="43" y="552" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">6</text>
+<text x="65" y="552" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal"># Любое условие</text>
+<text x="43" y="567" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">7</text>
+<text x="65" y="567" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">day = &quot;суббота&quot;</text>
+<text x="43" y="582" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">8</text>
+<text x="65" y="582" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">if day == &quot;суббота&quot; or day == &quot;воскресенье&quot;:</text>
+<text x="43" y="597" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">9</text>
+<text x="65" y="597" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">    print(&quot;Выходной!&quot;)</text>
+<rect x="410" y="437" width="355" height="179" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="410" y="437" width="355" height="24" fill="#1E293B" rx="6"/>
+<rect x="410" y="455" width="355" height="6" fill="#1E293B" rx="8"/>
+<text x="420" y="453" fill="#6EE7B7" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">not_example.py</text>
+<circle cx="725" cy="449" r="4" fill="#F87171"/>
+<circle cx="739" cy="449" r="4" fill="#FCD34D"/>
+<circle cx="753" cy="449" r="4" fill="#4ADE80"/>
+<text x="418" y="477" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="440" y="477" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal"># Отрицание</text>
+<text x="418" y="492" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="440" y="492" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">is_rain = False</text>
+<text x="418" y="507" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="440" y="507" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">if not is_rain:</text>
+<text x="418" y="522" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="440" y="522" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">    print(&quot;Идём гулять!&quot;)</text>
+<text x="418" y="537" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="440" y="537" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="418" y="552" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">6</text>
+<text x="440" y="552" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal"># Комбинация</text>
+<text x="418" y="567" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">7</text>
+<text x="440" y="567" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">x = 10</text>
+<text x="418" y="582" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">8</text>
+<text x="440" y="582" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">if x &gt; 0 and not x &gt; 100:</text>
+<text x="418" y="597" fill="#475569" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">9</text>
+<text x="440" y="597" fill="#D1FAE5" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">    print(&quot;От 1 до 100&quot;)</text>
+<rect x="0" y="570" width="800" height="30" fill="url(#headerGrad)" rx="8"/>
+<text x="400.0" y="590" fill="#6EE7B7" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Программирование · 7 класс</text>
+</svg>

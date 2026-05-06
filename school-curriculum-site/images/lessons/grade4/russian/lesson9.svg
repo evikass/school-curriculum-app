@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <rect x="0" y="0" width="500" height="6" fill="#C41E3A"/>
+  <rect x="0" y="310" width="500" height="4" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Глагол</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1a1a1a">Часть речи, обозначающая действие (что делать?)</text>
+  <!-- Action question badge -->
+  <rect x="165" y="82" width="170" height="26" rx="13" fill="#C41E3A"/>
+  <text x="250" y="100" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#FFFFFF">Что делать? Что сделать?</text>
+  <!-- Running figure - past tense -->
+  <circle cx="80" cy="140" r="14" fill="#E8C090" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="72" y="156" width="16" height="30" rx="3" fill="#2B4C7E" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="72" y1="162" x2="58" y2="175" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="88" y1="162" x2="102" y2="148" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="76" y1="186" x2="66" y2="205" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="84" y1="186" x2="96" y2="205" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Motion lines -->
+  <line x1="110" y1="135" x2="125" y2="135" stroke="#C41E3A" stroke-width="2"/>
+  <line x1="112" y1="145" x2="127" y2="145" stroke="#C41E3A" stroke-width="2"/>
+  <line x1="110" y1="155" x2="122" y2="155" stroke="#C41E3A" stroke-width="2"/>
+  <!-- Time panels -->
+  <!-- Past -->
+  <rect x="30" y="215" width="130" height="70" rx="5" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="2"/>
+  <rect x="30" y="215" width="130" height="24" rx="5" fill="#2B4C7E"/>
+  <rect x="30" y="231" width="130" height="8" fill="#2B4C7E"/>
+  <text x="95" y="233" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">Прошедшее</text>
+  <text x="95" y="258" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#1a1a1a">читал</text>
+  <text x="95" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2B4C7E">что делал?</text>
+  <!-- Present -->
+  <rect x="185" y="215" width="130" height="70" rx="5" fill="#FFFFFF" stroke="#C41E3A" stroke-width="2"/>
+  <rect x="185" y="215" width="130" height="24" rx="5" fill="#C41E3A"/>
+  <rect x="185" y="231" width="130" height="8" fill="#C41E3A"/>
+  <text x="250" y="233" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">Настоящее</text>
+  <text x="250" y="258" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#1a1a1a">читает</text>
+  <text x="250" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#C41E3A">что делает?</text>
+  <!-- Future -->
+  <rect x="340" y="215" width="130" height="70" rx="5" fill="#FFFFFF" stroke="#D4A843" stroke-width="2"/>
+  <rect x="340" y="215" width="130" height="24" rx="5" fill="#D4A843"/>
+  <rect x="340" y="231" width="130" height="8" fill="#D4A843"/>
+  <text x="405" y="233" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1a1a1a">Будущее</text>
+  <text x="405" y="258" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#1a1a1a">будет читать</text>
+  <text x="405" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#D4A843">что будет делать?</text>
+  <!-- Arrows between time panels -->
+  <polygon points="163,250 175,244 175,256" fill="#1a1a1a"/>
+  <polygon points="318,250 330,244 330,256" fill="#1a1a1a"/>
+  <!-- Reading figure on right -->
+  <circle cx="390" cy="140" r="14" fill="#E8C090" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="380" y="156" width="20" height="30" rx="3" fill="#C41E3A" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- Small book in hands -->
+  <rect x="372" y="160" width="20" height="15" rx="1" fill="#D4A843" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="382" y1="160" x2="382" y2="175" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Legs -->
+  <line x1="386" y1="186" x2="380" y2="205" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="394" y1="186" x2="400" y2="205" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Subject name -->
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1a1a1a">Русский язык -- 4 класс</text>
+</svg>

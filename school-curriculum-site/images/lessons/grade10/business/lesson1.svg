@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#00000020"/>
+    </filter>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E65100"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" ry="12" fill="#FFF8E1" stroke="#FF6F00" stroke-width="2.5"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="500" height="52" rx="12" ry="12" fill="url(#headerGrad)"/>
+  <rect x="0" y="20" width="500" height="32" fill="url(#headerGrad)"/>
+
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Предпринимательство</text>
+  <text x="250" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFE082">Бизнес — Урок 1</text>
+
+  <!-- Lesson number badge -->
+  <circle cx="30" cy="26" r="16" fill="#FFFFFF" opacity="0.25"/>
+  <text x="30" y="31" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">1</text>
+
+  <!-- Section: Ключевые понятия -->
+  <text x="20" y="60" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FF6F00">Ключевые понятия</text>
+  <rect x="20" y="65" width="148" height="68" rx="8" ry="8" fill="#FFFFFF" stroke="#FFB300" stroke-width="1.2" filter="url(#shadow)"/>
+  <rect x="20" y="65" width="148" height="20" rx="8" ry="8" fill="#FFB300" opacity="0.2"/>
+  <rect x="20" y="77" width="148" height="8" fill="#FFB300" opacity="0.2"/>
+  <text x="94" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#3E2723">Предприниматель</text>
+  <text x="94" y="97" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#5D4037">Человек, который</text>
+  <text x="94" y="109" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#5D4037">создаёт бизнес</text>
+  <text x="94" y="121" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#5D4037">и берёт на себя риски</text>
+  <rect x="176" y="65" width="148" height="68" rx="8" ry="8" fill="#FFFFFF" stroke="#FFB300" stroke-width="1.2" filter="url(#shadow)"/>
+  <rect x="176" y="65" width="148" height="20" rx="8" ry="8" fill="#FFB300" opacity="0.2"/>
+  <rect x="176" y="77" width="148" height="8" fill="#FFB300" opacity="0.2"/>
+  <text x="250" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#3E2723">Стартап</text>
+  <text x="250" y="97" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#5D4037">Молодой проект,</text>
+  <text x="250" y="109" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#5D4037">ищущий масштабную</text>
+  <text x="250" y="121" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#5D4037">бизнес-модель</text>
+  <rect x="332" y="65" width="148" height="68" rx="8" ry="8" fill="#FFFFFF" stroke="#FFB300" stroke-width="1.2" filter="url(#shadow)"/>
+  <rect x="332" y="65" width="148" height="20" rx="8" ry="8" fill="#FFB300" opacity="0.2"/>
+  <rect x="332" y="77" width="148" height="8" fill="#FFB300" opacity="0.2"/>
+  <text x="406" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#3E2723">Прибыль</text>
+  <text x="406" y="97" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#5D4037">Доход минус расходы:</text>
+  <text x="406" y="109" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#5D4037">цель любого бизнеса</text>
+  <!-- Section: Путь предпринимателя -->
+  <text x="20" y="141" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FF6F00">Путь предпринимателя</text>
+  <rect x="25" y="140" width="450" height="18" rx="4" ry="4" fill="#FFB300" opacity="0.12"/>
+  <text x="35" y="149" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">1. Замечаешь проблему</text>
+  <rect x="25" y="161" width="450" height="18" rx="4" ry="4" fill="#FFB300" opacity="0.16999999999999998"/>
+  <text x="35" y="170" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">2. Рождаешь идею</text>
+  <rect x="25" y="182" width="450" height="18" rx="4" ry="4" fill="#FFB300" opacity="0.22"/>
+  <text x="35" y="191" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">3. Проверяешь гипотезы</text>
+  <rect x="25" y="203" width="450" height="18" rx="4" ry="4" fill="#FFB300" opacity="0.27"/>
+  <text x="35" y="212" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">4. Создаёшь MVP</text>
+  <rect x="25" y="224" width="450" height="18" rx="4" ry="4" fill="#FFB300" opacity="0.32"/>
+  <text x="35" y="233" font-family="Arial, sans-serif" font-size="9.5" fill="#3E2723">5. Масштабируешь</text>
+  <!-- Tip -->
+  <rect x="15" y="325" width="470" height="18" rx="9" ry="9" fill="#FF6F00" opacity="0.1"/>
+  <text x="250" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-style="italic" fill="#3E2723">Совет: Настоящий предприниматель видит возможности там, где другие видят проблемы!</text>
+
+  <!-- Footer -->
+  <line x1="20" y1="343" x2="480" y2="343" stroke="#FFB300" stroke-width="0.5" opacity="0.5"/>
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5D4037" opacity="0.7">Бизнес · 10 класс</text>
+</svg>

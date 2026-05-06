@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#0C4A6E"/>
+    <stop offset="100%" style="stop-color:#0284C7"/>
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#0EA5E9"/>
+    <stop offset="100%" style="stop-color:#38BDF8"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+<rect x="0" y="0" width="800" height="70" fill="url(#bg)" rx="8"/>
+<circle cx="40" cy="35" r="22" fill="#0EA5E9" stroke="#38BDF8" stroke-width="2"/>
+<text x="40" y="42" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="sans-serif" font-weight="bold">2</text>
+<text x="72" y="32" fill="#FFFFFF" font-size="22" text-anchor="start" font-family="sans-serif" font-weight="bold">Переменные и типы данных</text>
+<text x="72" y="52" fill="#7DD3FC" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="normal">int, float, str, bool, правила именования</text>
+<rect x="0" y="68" width="800" height="2" fill="#38BDF8" rx="8"/>
+<rect x="20" y="80" width="370" height="155" fill="#0F172A" rx="8" stroke="#0EA5E9" stroke-width="1"/>
+<text x="35" y="102" fill="#38BDF8" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Что такое переменная?</text>
+<text x="35" y="122" fill="#E0F2FE" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">Переменная — именованная ячейка памяти,</text>
+<text x="35" y="138" fill="#E0F2FE" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">в которой хранится значение.</text>
+<rect x="35" y="150" width="90" height="40" fill="#1E293B" rx="4" stroke="#0EA5E9" stroke-width="1.5"/>
+<text x="80" y="163" fill="#FACC15" font-size="11" text-anchor="middle" font-family="monospace" font-weight="bold">name</text>
+<text x="80" y="183" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="monospace" font-weight="normal">&quot;Анна&quot;</text>
+<rect x="145" y="150" width="70" height="40" fill="#1E293B" rx="4" stroke="#4ADE80" stroke-width="1.5"/>
+<text x="180" y="163" fill="#4ADE80" font-size="11" text-anchor="middle" font-family="monospace" font-weight="bold">age</text>
+<text x="180" y="183" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="monospace" font-weight="normal">13</text>
+<rect x="235" y="150" width="80" height="40" fill="#1E293B" rx="4" stroke="#FB923C" stroke-width="1.5"/>
+<text x="275" y="163" fill="#FB923C" font-size="11" text-anchor="middle" font-family="monospace" font-weight="bold">height</text>
+<text x="275" y="183" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="monospace" font-weight="normal">1.58</text>
+<rect x="335" y="150" width="40" height="40" fill="#1E293B" rx="4" stroke="#C084FC" stroke-width="1.5"/>
+<text x="355" y="163" fill="#C084FC" font-size="11" text-anchor="middle" font-family="monospace" font-weight="bold">ok</text>
+<text x="355" y="183" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="monospace" font-weight="normal">T</text>
+<rect x="400" y="80" width="380" height="155" fill="#0F172A" rx="8" stroke="#0EA5E9" stroke-width="1"/>
+<text x="415" y="102" fill="#38BDF8" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Типы данных Python</text>
+<rect x="415" y="112" width="170" height="50" fill="#1E293B" rx="6" stroke="#4ADE80" stroke-width="1"/>
+<text x="425" y="130" fill="#4ADE80" font-size="12" text-anchor="start" font-family="monospace" font-weight="bold">int</text>
+<text x="425" y="150" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Целые числа: 13, -5, 0</text>
+<rect x="595" y="112" width="170" height="50" fill="#1E293B" rx="6" stroke="#FB923C" stroke-width="1"/>
+<text x="605" y="130" fill="#FB923C" font-size="12" text-anchor="start" font-family="monospace" font-weight="bold">float</text>
+<text x="605" y="150" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Вещественные: 3.14, -0.5</text>
+<rect x="415" y="172" width="170" height="50" fill="#1E293B" rx="6" stroke="#FACC15" stroke-width="1"/>
+<text x="425" y="190" fill="#FACC15" font-size="12" text-anchor="start" font-family="monospace" font-weight="bold">str</text>
+<text x="425" y="210" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Строки: &quot;Привет&quot;, &quot;123&quot;</text>
+<rect x="595" y="172" width="170" height="50" fill="#1E293B" rx="6" stroke="#C084FC" stroke-width="1"/>
+<text x="605" y="190" fill="#C084FC" font-size="12" text-anchor="start" font-family="monospace" font-weight="bold">bool</text>
+<text x="605" y="210" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Логический: True / False</text>
+<rect x="20" y="245" width="480" height="200" fill="#0F172A" rx="8" stroke="#0EA5E9" stroke-width="1"/>
+<text x="35" y="267" fill="#38BDF8" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Примеры работы с переменными</text>
+<rect x="35" y="278" width="450" height="278" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="35" y="278" width="450" height="24" fill="#1E293B" rx="6"/>
+<rect x="35" y="296" width="450" height="6" fill="#1E293B" rx="8"/>
+<text x="45" y="294" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">variables.py</text>
+<circle cx="445" cy="290" r="4" fill="#F87171"/>
+<circle cx="459" cy="290" r="4" fill="#FACC15"/>
+<circle cx="473" cy="290" r="4" fill="#4ADE80"/>
+<text x="43" y="318" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="65" y="318" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"># Целое число</text>
+<text x="43" y="336" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="65" y="336" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">age = 13</text>
+<text x="43" y="354" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="65" y="354" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">x = -7</text>
+<text x="43" y="372" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="65" y="372" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="43" y="390" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="65" y="390" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"># Вещественное число</text>
+<text x="43" y="408" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">6</text>
+<text x="65" y="408" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">pi = 3.14</text>
+<text x="43" y="426" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">7</text>
+<text x="65" y="426" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">temp = -2.5</text>
+<text x="43" y="444" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">8</text>
+<text x="65" y="444" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="43" y="462" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">9</text>
+<text x="65" y="462" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"># Строка</text>
+<text x="43" y="480" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">10</text>
+<text x="65" y="480" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">name = &quot;Анна&quot;</text>
+<text x="43" y="498" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">11</text>
+<text x="65" y="498" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"></text>
+<text x="43" y="516" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">12</text>
+<text x="65" y="516" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal"># Логический тип</text>
+<text x="43" y="534" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">13</text>
+<text x="65" y="534" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">is_student = True</text>
+<rect x="510" y="245" width="270" height="200" fill="#0F172A" rx="8" stroke="#FACC15" stroke-width="1"/>
+<text x="525" y="267" fill="#FACC15" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Правила именования</text>
+<text x="525" y="292" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">✓ my_name, age, x1</text>
+<text x="525" y="314" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">✓ Буквы, цифры, _</text>
+<text x="525" y="336" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">✓ lowercase_with_underscore</text>
+<text x="525" y="362" fill="#F87171" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">✗ 1name (цифра первой)</text>
+<text x="525" y="384" fill="#F87171" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">✗ my-name (дефис)</text>
+<text x="525" y="406" fill="#F87171" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">✗ class, for (ключ. слова)</text>
+<text x="525" y="432" fill="#38BDF8" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">type() — узнать тип переменной</text>
+<rect x="20" y="455" width="760" height="115" fill="#0F172A" rx="8" stroke="#0EA5E9" stroke-width="1"/>
+<text x="35" y="477" fill="#38BDF8" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Функция type() и преобразование типов</text>
+<rect x="35" y="488" width="380" height="134" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="35" y="488" width="380" height="24" fill="#1E293B" rx="6"/>
+<rect x="35" y="506" width="380" height="6" fill="#1E293B" rx="8"/>
+<text x="45" y="504" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">types.py</text>
+<circle cx="375" cy="500" r="4" fill="#F87171"/>
+<circle cx="389" cy="500" r="4" fill="#FACC15"/>
+<circle cx="403" cy="500" r="4" fill="#4ADE80"/>
+<text x="43" y="528" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="65" y="528" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">x = 42</text>
+<text x="43" y="546" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="65" y="546" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">print(type(x))  # &lt;class 'int'&gt;</text>
+<text x="43" y="564" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="65" y="564" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">y = str(x)  # '42'</text>
+<text x="43" y="582" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="65" y="582" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">z = int('5')  # 5</text>
+<text x="43" y="600" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="65" y="600" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">w = float('3.2')  # 3.2</text>
+<rect x="430" y="493" width="340" height="65" fill="#1E293B" rx="6"/>
+<text x="445" y="512" fill="#FFFFFF" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Преобразование типов:</text>
+<text x="445" y="530" fill="#4ADE80" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">int() — в целое число</text>
+<text x="445" y="548" fill="#FB923C" font-size="11" text-anchor="start" font-family="monospace" font-weight="normal">float() — в вещественное</text>
+<rect x="0" y="570" width="800" height="30" fill="url(#bg)" rx="8"/>
+<text x="400.0" y="590" fill="#7DD3FC" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Информатика · 7 класс</text>
+</svg>

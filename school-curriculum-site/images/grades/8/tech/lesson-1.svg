@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#92400E" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#B45309" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="800" height="4" fill="#B45309" rx="2"/>
+
+  <!-- Header -->
+  <rect x="20" y="15" width="760" height="60" rx="8" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="40" y="50" font-size="14" fill="#FCD34D" font-weight="bold">Урок 1</text>
+  <text x="130" y="50" font-size="20" fill="#FFFFFF" font-weight="bold">Основы проектной деятельности</text>
+    <text x="780" y="55" font-size="13" fill="#F59E0B" text-anchor="end" font-style="italic">Фундамент проектной работы</text>
+  <polygon points="40,95 170,95 180,115 170,135 40,135 50,115" fill="#92400E" stroke="#92400E" stroke-width="1"/>
+  <text x="110" y="120" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Замысел</text>  <polygon points="188,95 318,95 328,115 318,135 188,135 198,115" fill="#B45309" stroke="#92400E" stroke-width="1"/>
+  <text x="258" y="120" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Исследование</text>  <polygon points="336,95 466,95 476,115 466,135 336,135 346,115" fill="#F59E0B" stroke="#92400E" stroke-width="1"/>
+  <text x="406" y="120" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Проектирование</text>  <polygon points="484,95 614,95 624,115 614,135 484,135 494,115" fill="#D97706" stroke="#92400E" stroke-width="1"/>
+  <text x="554" y="120" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Изготовление</text>  <polygon points="632,95 762,95 772,115 762,135 632,135 642,115" fill="#059669" stroke="#92400E" stroke-width="1"/>
+  <text x="702" y="120" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Оценка</text>
+  <!-- Left: Project lifecycle detail -->
+    <rect x="25" y="155" width="350" height="230" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="155" width="350" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="175" width="350" height="6" fill="#B45309"/>
+  <text x="200" y="173" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Этапы проектной деятельности</text>
+  <text x="37" y="195" font-size="12" fill="#78350F">• 1. Определение проблемы и цели</text>
+  <text x="37" y="215" font-size="12" fill="#78350F">• 2. Сбор и анализ информации</text>
+  <text x="37" y="235" font-size="12" fill="#78350F">• 3. Разработка вариантов решения</text>
+  <text x="37" y="255" font-size="12" fill="#78350F">• 4. Выбор оптимального решения</text>
+  <text x="37" y="275" font-size="12" fill="#78350F">• 5. Планирование работы</text>
+  <text x="37" y="295" font-size="12" fill="#78350F">• 6. Выполнение проекта</text>
+  <text x="37" y="315" font-size="12" fill="#78350F">• 7. Тестирование и оценка</text>
+  <text x="37" y="335" font-size="12" fill="#78350F">• 8. Защита и презентация</text>
+  <text x="37" y="355" font-size="12" fill="#78350F">• 9. Рефлексия и выводы</text>
+  
+  <!-- Right: Key principles -->
+    <rect x="395" y="155" width="380" height="120" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="395" y="155" width="380" height="26" rx="6" fill="#B45309"/>
+  <rect x="395" y="175" width="380" height="6" fill="#B45309"/>
+  <text x="585" y="173" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Принципы проектирования</text>
+  <text x="407" y="195" font-size="12" fill="#78350F">• Системность — целостный подход к проекту</text>
+  <text x="407" y="215" font-size="12" fill="#78350F">• Ресурсоёмкость — учёт материалов и времени</text>
+  <text x="407" y="235" font-size="12" fill="#78350F">• Безопасность — соблюдение правил ТБ</text>
+  <text x="407" y="255" font-size="12" fill="#78350F">• Экологичность — минимальный вред природе</text>
+  
+  <!-- Right bottom: Project types -->
+    <rect x="395" y="290" width="380" height="95" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="395" y="290" width="380" height="26" rx="6" fill="#B45309"/>
+  <rect x="395" y="310" width="380" height="6" fill="#B45309"/>
+  <text x="585" y="308" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Типы проектов</text>
+  <text x="407" y="330" font-size="12" fill="#78350F">• Информационный — сбор и анализ данных</text>
+  <text x="407" y="350" font-size="12" fill="#78350F">• Практико-ориентированный — создание изделия</text>
+  <text x="407" y="370" font-size="12" fill="#78350F">• Исследовательский — изучение явлений</text>
+  
+  <!-- Bottom highlight -->
+    <rect x="25" y="400" width="750" height="55" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" filter="url(#shadow)"/>
+  <text x="37" y="420" font-size="12" fill="#78350F" font-weight="bold">⚡ Важно: Проект начинается с проблемы, а заканчивается результатом!</text>
+  <text x="37" y="438" font-size="12" fill="#78350F" font-weight="bold">Каждый этап имеет критерии оценки и конкретные продукты деятельности</text>
+  
+  <!-- Decorative gear icons -->
+  <circle cx="60" cy="490" r="30" fill="none" stroke="#F59E0B" stroke-width="2" opacity="0.3"/>
+  <circle cx="60" cy="490" r="15" fill="none" stroke="#F59E0B" stroke-width="1.5" opacity="0.3"/>
+  <line x1="60" y1="458" x2="60" y2="465" stroke="#F59E0B" stroke-width="2" opacity="0.3"/>
+  <line x1="60" y1="515" x2="60" y2="522" stroke="#F59E0B" stroke-width="2" opacity="0.3"/>
+  <line x1="28" y1="490" x2="35" y2="490" stroke="#F59E0B" stroke-width="2" opacity="0.3"/>
+  <line x1="85" y1="490" x2="92" y2="490" stroke="#F59E0B" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Bottom info -->
+    <rect x="110" y="470" width="665" height="110" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="110" y="470" width="665" height="26" rx="6" fill="#B45309"/>
+  <rect x="110" y="490" width="665" height="6" fill="#B45309"/>
+  <text x="442" y="488" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Документы проекта</text>
+  <text x="122" y="510" font-size="12" fill="#78350F">• Паспорт проекта: тема, цель, задачи, сроки, ресурсы</text>
+  <text x="122" y="530" font-size="12" fill="#78350F">• Техническое задание: требования к изделию</text>
+  <text x="122" y="550" font-size="12" fill="#78350F">• Технологическая карта: последовательность операций</text>
+  <text x="122" y="570" font-size="12" fill="#78350F">• Эскиз и чертёж: графическое представление изделия</text>
+  </svg>
