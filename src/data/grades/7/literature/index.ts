@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Былины. Илья Муромец и Соловей-разбойник",
-          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson1.svg",
+          image: "/images/lessons/grade7/literature/lesson1.svg",
           description: `**Былина** — жанр русского фольклора, героическая песня.
 
 **Особенности былин:**
@@ -78,7 +78,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Сказки народов мира",
-          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson2.svg",
+          image: "/images/lessons/grade7/literature/lesson2.svg",
           description: `**Сказка** — жанр фольклора с фантастическим сюжетом.
 
 **Виды сказок:**
@@ -145,7 +145,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "«Повесть временных лет»",
-          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson3.svg",
+          image: "/images/lessons/grade7/literature/lesson3.svg",
           description: `**«Повесть временных лет»** — древнейшая русская летопись.
 
 **Автор:**
@@ -207,6 +207,72 @@ export const lessons: SubjectData = {
             "Сравнение «Повести временных лет» с «Словом о полку Игореве» — оба памятника древнерусской литературы",
             "Феврония мудростью и добротой побеждает болезнь Петра — чудо как элемент жития"
           ]
+        },
+        {
+          title: "«Поучение Владимира Мономаха»",
+          image: "/images/lessons/grade7/literature/lesson8.svg",
+          description: `**«Поучение Владимира Мономаха»** — один из важнейших памятников древнерусской литературы, написанный великим князем Владимиром Всеволодовичем Мономахом около 1117 года.
+
+**Владимир Мономах (1053–1125):**
+- Великий князь киевский
+- Выдающийся полководец и государственный деятель
+- Один из самых образованных людей своего времени
+- Автор первого известного поучения на Руси
+
+**Жанр поучения:**
+- **Поучение** — жанр древнерусской литературы, наставление потомкам
+- Сочетает элементы автобиографии, завещания и нравоучения
+- Обращено к детям князя
+
+**Главные идеи поучения:**
+
+**1. Благочестие (богобоязненность):**
+- «Прежде всего, Бога ради и души своей, страх имейте Божий в сердце своём»
+- Регулярная молитва и церковное благочестие
+- Уважение к священникам и монахам
+
+**2. Трудолюбие:**
+- «Всё, что можете, делайте сами»
+- Осуждение лени и праздности
+- Личный пример князя: он сам работал, не поручал другим
+- Мономах описывает свои 83 похода и труды
+
+**3. Милосердие и сострадание:**
+- «Больного навестите, покойника проводите»
+- Помощь бедным и слабым
+- Гостеприимство
+- Не оставляйте «нищего без утешения»
+
+**Литературные особенности:**
+- Простота и искренность изложения
+- Личный опыт как аргумент
+- Отсутствие риторических украшений
+- Искренний тон заботливого отца
+- Сочетание христианской морали и практических советов
+
+**Значение произведения:**
+- Первое авторское произведение на Руси
+- Источник сведений о жизни князя
+- Образец христианской нравственности
+- Памятник самосознания русской литературы`,
+          tasks: [
+            "Кто такой Владимир Мономах и когда он написал поучение?",
+            "Какие три главные идеи содержатся в поучении?",
+            "Что Мономах говорит о трудолюбии? Приведите пример.",
+            "В чём заключается литературное значение поучения?"
+          ],
+          examples: [
+            "«Прежде всего, Бога ради и души своей, страх имейте Божий» — главная заповедь Мономаха о благочестии",
+            "Мономах описывает 83 своих похода — личный пример трудолюбия и отваги как аргумент в наставлении",
+            "«Больного навестите, покойника проводите» — призыв к милосердию и состраданию к ближним"
+          ],
+          keyPoints: [
+            "«Поучение Владимира Мономаха» — первый известный авторский текст на Руси (около 1117 г.)",
+            "Три главные идеи: благочестие, трудолюбие, милосердие и сострадание",
+            "Мономах подкрепляет наставления личным примером — описывает свои походы и труды",
+            "Жанр поучения — наставление потомкам, сочетает автобиографию и нравоучение",
+            "Литературные особенности: простота, искренность, отсутствие риторических украшений"
+          ]
         }
       ]
     },
@@ -215,7 +281,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "А.С. Пушкин. «Полтава»",
-          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson4.svg",
+          image: "/images/lessons/grade7/literature/lesson4.svg",
           description: `**Александр Сергеевич Пушкин** (1799-1837)
 
 **Поэма «Полтава» (1828):**
@@ -282,7 +348,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "М.Ю. Лермонтов. «Песня про царя Ивана Васильевича»",
-          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson5.svg",
+          image: "/images/lessons/grade7/literature/lesson5.svg",
           description: `**Михаил Юрьевич Лермонтов** (1814-1841)
 
 **«Песня про царя Ивана Васильевича...» (1837):**
@@ -349,7 +415,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Н.В. Гоголь. «Тарас Бульба»",
-          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson6.svg",
+          image: "/images/lessons/grade7/literature/lesson6.svg",
           description: `**Николай Васильевич Гоголь** (1809-1852)
 
 **Повесть «Тарас Бульба» (1835-1842):**
@@ -421,7 +487,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "А.П. Платонов. «Юшка»",
-          image: "/school-curriculum-app/images/lessons/grade7/literature/lesson7.svg",
+          image: "/images/lessons/grade7/literature/lesson7.svg",
           description: `**Андрей Платонович Платонов** (1899-1951)
 
 **Рассказ «Юшка» (1936):**
@@ -485,6 +551,69 @@ export const lessons: SubjectData = {
             "Сравнение Юшки с «Преступлением и наказанием» Достоевского: тема милосердия и страдания",
             "«Человек в человеке» — философская мысль Платонова: в каждом есть доброе начало"
           ]
+        },
+        {
+          title: "М.А. Шолохов. «Судьба человека»",
+          image: "/images/lessons/grade7/literature/lesson9.svg",
+          description: `**Михаил Александрович Шолохов** (1905–1984) — выдающийся русский писатель, лауреат Нобелевской премии по литературе (1965).
+
+**Рассказ «Судьба человека» (1956–1957):**
+
+**Жанр:**
+- Рассказ-эпопея
+- Сочетает черты рассказа и эпического повествования
+- Устная форма — исповедь героя
+
+**Главный герой — Андрей Соколов:**
+- Простой советский человек, шофёр
+- До войны — счастливая семья, трое детей
+- Потерял жену и дочерей при бомбёжке
+- Сын Анатолий погиб в последний день войны
+- Прошёл через концлагерь и лишения
+
+**Сюжет:**
+
+1. **Мирная жизнь:** Андрей работает шофёром, счастлив в браке, растит детей
+2. **Война:** Уходит на фронт, ранен, попадает в плен
+3. **Концлагерь:** Выдерживает мучения, не теряет человеческого достоинства
+4. **Побег:** Вырывается из плена, но узнаёт о гибели семьи
+5. **Гибель сына:** Анатолий погиб 9 мая 1945 года — в День Победы
+6. **Встреча с Ванюшкой:** Усыновляет мальчика-сироту, обретает новый смысл жизни
+
+**Темы произведения:**
+- **Мужество и стойкость** — способность выдержать невыносимые испытания
+- **Человечность** — сохранение души после трагедий
+- **Судьба народа** — история одного человека как отражение судьбы страны
+- **Добро и любовь** — усыновление Ванюшки как победа жизни над смертью
+
+**Художественные особенности:**
+- Рассказ в рассказе (исповедь Андрея)
+- Скупой, сдержанный стиль
+- Деталь как средство характеристики
+- Символический финал: «И хотелось бы думать, что этот русский человек... устоит»
+
+**Значение:**
+- Памятник человеческому духу
+- Тема Великой Отечественной войны
+- Утверждение жизни вопреки всему`,
+          tasks: [
+            "Какие испытания выпали на долю Андрея Соколова?",
+            "Почему Андрей усыновил Ванюшку? В чём смысл этого поступка?",
+            "Как в рассказе раскрывается тема мужества и человечности?",
+            "Что символизирует финальная фраза рассказа?"
+          ],
+          examples: [
+            "Андрей Соколов теряет всю семью, но находит силы усыновить сироту — победа жизни над смертью",
+            "Сцена в концлагере: Андрей не соглашается выпить за победу Германии — проявление человеческого достоинства",
+            "Финал: «И хотелось бы думать, что этот русский человек... устоит» — вера в непобедимость народа"
+          ],
+          keyPoints: [
+            "М.А. Шолохов — нобелевский лауреат, автор «Тихого Дона» и «Судьбы человека»",
+            "Андрей Соколов — русский солдат, прошедший плен и потерявший всю семью, но сохранивший человечность",
+            "Усыновление Ванюшки — символ победы добра, любви и жизни над смертью и горем",
+            "Тема мужества: способность не сломаться перед лицом невыносимых испытаний",
+            "Рассказ-эпопея: судьба одного человека отражает судьбу всего народа"
+          ]
         }
       ]
     }
@@ -494,7 +623,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Фольклор и древнерусская литература",
-    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson16.svg",
+    image: "/images/lessons/grade7/literature/lesson16.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -509,7 +638,7 @@ export const games = [
   },
   {
     title: "Русская классика",
-    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson17.svg",
+    image: "/images/lessons/grade7/literature/lesson17.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -524,7 +653,7 @@ export const games = [
   },
   {
     title: "Устное народное творчество",
-    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson18.svg",
+    image: "/images/lessons/grade7/literature/lesson18.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -539,7 +668,7 @@ export const games = [
   },
   {
     title: "Литература XX века",
-    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson19.svg",
+    image: "/images/lessons/grade7/literature/lesson19.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -554,7 +683,7 @@ export const games = [
   },
   {
     title: "Былины. Илья Муромец и Соловей-разбойник",
-    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson20.svg",
+    image: "/images/lessons/grade7/literature/lesson20.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -582,7 +711,7 @@ export const games = [
   },
   {
     title: "Сказки народов мира",
-    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson21.svg",
+    image: "/images/lessons/grade7/literature/lesson21.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -610,7 +739,7 @@ export const games = [
   },
   {
     title: "«Повесть временных лет»",
-    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson22.svg",
+    image: "/images/lessons/grade7/literature/lesson22.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -625,7 +754,7 @@ export const games = [
   },
   {
     title: "А.С. Пушкин. «Полтава»",
-    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson23.svg",
+    image: "/images/lessons/grade7/literature/lesson23.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -640,7 +769,7 @@ export const games = [
   },
   {
     title: "М.Ю. Лермонтов. «Песня про царя Ивана Васильевича»",
-    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson24.svg",
+    image: "/images/lessons/grade7/literature/lesson24.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -655,7 +784,7 @@ export const games = [
   },
   {
     title: "Н.В. Гоголь. «Тарас Бульба»",
-    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson25.svg",
+    image: "/images/lessons/grade7/literature/lesson25.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",
@@ -670,7 +799,7 @@ export const games = [
   },
   {
     title: "А.П. Платонов. «Юшка»",
-    image: "/school-curriculum-app/images/lessons/grade7/literature/lesson26.svg",
+    image: "/images/lessons/grade7/literature/lesson26.svg",
     subject: "Литература",
     icon: "BookOpenText",
     color: "text-purple-400",

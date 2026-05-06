@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Что такое программирование",
-          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson1.svg",
+          image: "/images/lessons/grade7/coding/lesson1.svg",
           description: `**Программирование** — процесс создания инструкций для компьютера.
 
 **Основные понятия:**
@@ -75,7 +75,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Первая программа",
-          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson2.svg",
+          image: "/images/lessons/grade7/coding/lesson2.svg",
           description: `**Первая программа на Python:**
 
 **Hello World:**
@@ -146,7 +146,7 @@ print("Привет")  # Тоже комментарий
       lessons: [
         {
           title: "Переменные в Python",
-          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson3.svg",
+          image: "/images/lessons/grade7/coding/lesson3.svg",
           description: `**Переменная** — именованная область памяти для хранения данных.
 
 **Создание переменной:**
@@ -205,7 +205,7 @@ x = y = z = 0
         },
         {
           title: "Типы данных",
-          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson4.svg",
+          image: "/images/lessons/grade7/coding/lesson4.svg",
           description: `**Основные типы данных в Python:**
 
 **Целые числа (int):**
@@ -287,7 +287,7 @@ length = len(full)  # 10
       lessons: [
         {
           title: "Условный оператор if",
-          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson5.svg",
+          image: "/images/lessons/grade7/coding/lesson5.svg",
           description: `**Условный оператор** — выполняет код при выполнении условия.
 
 **Базовый синтаксис:**
@@ -357,7 +357,7 @@ else:
         },
         {
           title: "Логические операторы",
-          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson6.svg",
+          image: "/images/lessons/grade7/coding/lesson6.svg",
           description: `**Логические операторы:**
 
 **and (И):**
@@ -438,7 +438,7 @@ if age >= 18 and has_license:
       lessons: [
         {
           title: "Цикл for",
-          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson7.svg",
+          image: "/images/lessons/grade7/coding/lesson7.svg",
           description: `**Цикл for** — перебор последовательности.
 
 **Синтаксис:**
@@ -502,7 +502,7 @@ print(total)  # 5050
         },
         {
           title: "Цикл while",
-          image: "/school-curriculum-app/images/lessons/grade7/coding/lesson8.svg",
+          image: "/images/lessons/grade7/coding/lesson8.svg",
           description: `**Цикл while** — выполняется, пока условие истинно.
 
 **Синтаксис:**
@@ -584,7 +584,7 @@ while True:
 export const games = [
   {
     title: "Основы Python",
-    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson25.svg",
+    image: "/images/lessons/grade7/coding/lesson25.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -599,7 +599,7 @@ export const games = [
   },
   {
     title: "Переменные и функции",
-    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson26.svg",
+    image: "/images/lessons/grade7/coding/lesson26.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -614,7 +614,7 @@ export const games = [
   },
   {
     title: "Циклы",
-    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson27.svg",
+    image: "/images/lessons/grade7/coding/lesson27.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",
@@ -629,7 +629,7 @@ export const games = [
   },
   {
     title: "Условия и ветвления",
-    image: "/school-curriculum-app/images/lessons/grade7/coding/lesson28.svg",
+    image: "/images/lessons/grade7/coding/lesson28.svg",
     subject: "Основы программирования",
     icon: "Code",
     color: "text-emerald-400",

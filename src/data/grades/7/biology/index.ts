@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Строение и жизнедеятельность бактерий",
-          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson1.svg",
+          image: "/images/lessons/grade7/biology/lesson1.svg",
           description: `**Бактерии** — одноклеточные организмы без оформленного ядра.
 
 **Особенности строения:**
@@ -65,7 +65,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Роль бактерий в природе и жизни человека",
-          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson2.svg",
+          image: "/images/lessons/grade7/biology/lesson2.svg",
           description: `**Положительная роль:**
 
 **В природе:**
@@ -131,7 +131,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Общая характеристика грибов",
-          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson3.svg",
+          image: "/images/lessons/grade7/biology/lesson3.svg",
           description: `**Грибы** — отдельное царство организмов.
 
 **Особенности грибов:**
@@ -196,7 +196,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Значение грибов",
-          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson4.svg",
+          image: "/images/lessons/grade7/biology/lesson4.svg",
           description: `**Положительное значение:**
 
 **Пищевое:**
@@ -263,7 +263,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Водоросли",
-          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson5.svg",
+          image: "/images/lessons/grade7/biology/lesson5.svg",
           description: `**Водоросли** — низшие растения, живущие в воде.
 
 **Особенности:**
@@ -323,7 +323,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Мхи, папоротники, голосеменные",
-          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson6.svg",
+          image: "/images/lessons/grade7/biology/lesson6.svg",
           description: `**Мхи:**
 - Высшие споровые растения
 - Нет корней (ризоиды)
@@ -385,7 +385,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Корень и побег",
-          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson7.svg",
+          image: "/images/lessons/grade7/biology/lesson7.svg",
           description: `**Корень:**
 
 **Функции:**
@@ -444,7 +444,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Лист и его функции",
-          image: "/school-curriculum-app/images/lessons/grade7/biology/lesson8.svg",
+          image: "/images/lessons/grade7/biology/lesson8.svg",
           description: `**Лист** — боковой орган побега.
 
 **Функции:**
@@ -511,7 +511,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Бактерии и грибы",
-    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson19.svg",
+    image: "/images/lessons/grade7/biology/lesson19.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -526,7 +526,7 @@ export const games = [
   },
   {
     title: "Растения",
-    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson20.svg",
+    image: "/images/lessons/grade7/biology/lesson20.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -541,7 +541,7 @@ export const games = [
   },
   {
     title: "Строение цветковых растений",
-    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson21.svg",
+    image: "/images/lessons/grade7/biology/lesson21.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -556,7 +556,7 @@ export const games = [
   },
   {
     title: "Водоросли и мхи",
-    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson22.svg",
+    image: "/images/lessons/grade7/biology/lesson22.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -571,7 +571,7 @@ export const games = [
   },
   {
     title: "Роль бактерий в природе и жизни человека",
-    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson23.svg",
+    image: "/images/lessons/grade7/biology/lesson23.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -595,7 +595,7 @@ export const games = [
   },
   {
     title: "Значение грибов",
-    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson24.svg",
+    image: "/images/lessons/grade7/biology/lesson24.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -619,7 +619,7 @@ export const games = [
   },
   {
     title: "Корень и побег",
-    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson25.svg",
+    image: "/images/lessons/grade7/biology/lesson25.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",
@@ -643,7 +643,7 @@ export const games = [
   },
   {
     title: "Лист и его функции",
-    image: "/school-curriculum-app/images/lessons/grade7/biology/lesson26.svg",
+    image: "/images/lessons/grade7/biology/lesson26.svg",
     subject: "Биология",
     icon: "Leaf",
     color: "text-green-400",

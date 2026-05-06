@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Правила дорожного движения для велосипедистов",
-          image: "/school-curriculum-app/images/lessons/grade7/safety/lesson1.svg",
+          image: "/images/lessons/grade7/safety/lesson1.svg",
           description: `**Велосипед** — транспортное средство.
 
 **Возрастные ограничения:**
@@ -65,7 +65,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Причины ДТП и их предотвращение",
-          image: "/school-curriculum-app/images/lessons/grade7/safety/lesson2.svg",
+          image: "/images/lessons/grade7/safety/lesson2.svg",
           description: `**Основные причины ДТП:**
 
 **По вине пешеходов:**
@@ -133,7 +133,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Причины пожаров и их предотвращение",
-          image: "/school-curriculum-app/images/lessons/grade7/safety/lesson3.svg",
+          image: "/images/lessons/grade7/safety/lesson3.svg",
           description: `**Пожар** — неконтролируемое горение.
 
 **Причины пожаров:**
@@ -202,6 +202,99 @@ export const lessons: SubjectData = {
             "Правила безопасности: не оставляйте включённые приборы, не курите в постели",
             "Первичные средства тушения: огнетушитель, вода (для обычных пожаров), песок"
           ]
+        },
+        {
+          title: "Действия при пожаре",
+          image: "/images/lessons/grade7/safety/lesson8.svg",
+          description: `**Действия при пожаре** — чёткий алгоритм поведения, который может спасти жизнь.
+
+**При обнаружении пожара:**
+
+**Порядок действий:**
+1. Оцените обстановку — что горит, где, насколько сильно
+2. Позвоните в пожарную охрану: **101** или единый номер **112**
+3. Предупредите окружающих о пожаре
+4. Помогите эвакуироваться детям, пожилым и инвалидам
+5. Попытайтесь потушить пожар подручными средствами (если это безопасно)
+6. Эвакуируйтесь сами, если потушить невозможно
+
+**Звонок в пожарную охрану:**
+- Назовите точный адрес
+- Скажите, что горит
+- Сообщите, есть ли люди в здании
+- Назовите своё имя и фамилию
+- Не вешайте трубку первыми!
+
+**Правила эвакуации:**
+
+**В здании:**
+1. Не паникуйте — паника опаснее огня
+2. Двигайтесь к ближайшему выходу по плану эвакуации
+3. Не пользуйтесь лифтом — он может застрять
+4. Не открывайте окна — кислород усиливает горение
+5. При сильном задымлении двигайтесь пригнувшись или ползком
+6. Дышите через влажную ткань
+7. Ориентируйтесь по стене, чтобы найти выход
+8. Закрывайте за собой двери — это замедлит распространение огня
+
+**На лестнице:**
+- Держитесь за перила
+- Идте вдоль стены
+- Не бегите — можно упасть
+
+**Если путь отрезан огнём:**
+1. Вернитесь в комнату
+2. Закройте дверь и заткните щели мокрой тканью
+3. Выйдите на балкон (закрыв дверь)
+4. Кричите и машите тканью, привлекая внимание
+5. Не прыгайте из окна (если выше 2-го этажа)
+6. Ждите спасателей
+
+**Первая помощь при ожогах:**
+
+**Степени ожогов:**
+- I степень — покраснение кожи
+- II степень — появление пузырей
+- III–IV степени — тяжёлые поражения
+
+**Первая помощь:**
+1. Устраните источник ожога
+2. Охладите обожжённое место прохладной водой 15–20 минут
+3. Наложите стерильную повязку
+4. **НЕ** прокалывайте пузыри
+5. **НЕ** мазайте маслом, кремом или жиром
+6. Дайте обезболивающее
+7. Вызовите скорую (103) при обширных ожогах
+
+**При ожогах дыхательных путей:**
+- Дайте доступ свежего воздуха
+- Вызовите скорую немедленно
+- Не давайте есть и пить
+
+**Запомните номера:**
+- **101** — пожарная охрана
+- **102** — полиция
+- **103** — скорая помощь
+- **104** — газовая служба
+- **112** — единый номер экстренных служб`,
+          tasks: [
+            "По какому номеру нужно звонить при пожаре? Что нужно сообщить?",
+            "Как правильно эвакуироваться из задымлённого здания?",
+            "Что делать, если путь к выходу отрезан огнём?",
+            "Какую первую помощь нужно оказать при ожогах?"
+          ],
+          examples: [
+            "При пожаре звоните 101 или 112 — назовите адрес, что горит и есть ли люди",
+            "При задымлении двигайтесь пригнувшись, дышите через влажную ткань — дым поднимается вверх",
+            "При ожоге охладите водой 15–20 минут, НЕ мазайте маслом — масло задерживает тепло"
+          ],
+          keyPoints: [
+            "При пожаре: оцените обстановку → звоните 101/112 → предупредите людей → эвакуируйтесь",
+            "НЕ пользуйтесь лифтом, НЕ открывайте окна, НЕ паникуйте при пожаре",
+            "Если путь отрезан: закройте дверь, заткните щели мокрой тканью, ждите спасателей",
+            "При ожогах: охладить водой, наложить стерильную повязку, НЕ прокалывать пузыри, НЕ мазать маслом",
+            "Единый номер экстренных служб — 112 (работает даже без SIM-карты)"
+          ]
         }
       ]
     },
@@ -210,7 +303,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Природные ЧС",
-          image: "/school-curriculum-app/images/lessons/grade7/safety/lesson4.svg",
+          image: "/images/lessons/grade7/safety/lesson4.svg",
           description: `**Чрезвычайная ситуация (ЧС)** — обстановка на определённой территории.
 
 **Виды природных ЧС:**
@@ -275,7 +368,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Техногенные ЧС",
-          image: "/school-curriculum-app/images/lessons/grade7/safety/lesson5.svg",
+          image: "/images/lessons/grade7/safety/lesson5.svg",
           description: `**Техногенные ЧС** — аварии на производстве и транспорте.
 
 **Виды техногенных ЧС:**
@@ -346,7 +439,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Первая помощь при кровотечениях",
-          image: "/school-curriculum-app/images/lessons/grade7/safety/lesson6.svg",
+          image: "/images/lessons/grade7/safety/lesson6.svg",
           description: `**Виды кровотечений:**
 
 **Капиллярное:**
@@ -411,7 +504,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Первая помощь при переломах и ожогах",
-          image: "/school-curriculum-app/images/lessons/grade7/safety/lesson7.svg",
+          image: "/images/lessons/grade7/safety/lesson7.svg",
           description: `**Переломы:**
 
 **Признаки:**
@@ -482,7 +575,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Дорожная безопасность",
-    image: "/school-curriculum-app/images/lessons/grade7/safety/lesson22.svg",
+    image: "/images/lessons/grade7/safety/lesson22.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-red-400",
@@ -509,7 +602,7 @@ export const games = [
   },
   {
     title: "Первая помощь",
-    image: "/school-curriculum-app/images/lessons/grade7/safety/lesson23.svg",
+    image: "/images/lessons/grade7/safety/lesson23.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-red-400",
@@ -529,7 +622,7 @@ export const games = [
   },
   {
     title: "Пожарная безопасность",
-    image: "/school-curriculum-app/images/lessons/grade7/safety/lesson24.svg",
+    image: "/images/lessons/grade7/safety/lesson24.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-red-400",
@@ -550,7 +643,7 @@ export const games = [
   },
   {
     title: "Чрезвычайные ситуации",
-    image: "/school-curriculum-app/images/lessons/grade7/safety/lesson25.svg",
+    image: "/images/lessons/grade7/safety/lesson25.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-red-400",
@@ -565,7 +658,7 @@ export const games = [
   },
   {
     title: "Правила дорожного движения для велосипедистов",
-    image: "/school-curriculum-app/images/lessons/grade7/safety/lesson26.svg",
+    image: "/images/lessons/grade7/safety/lesson26.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-red-400",
@@ -590,7 +683,7 @@ export const games = [
   },
   {
     title: "Причины ДТП и их предотвращение",
-    image: "/school-curriculum-app/images/lessons/grade7/safety/lesson27.svg",
+    image: "/images/lessons/grade7/safety/lesson27.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-red-400",
@@ -615,7 +708,7 @@ export const games = [
   },
   {
     title: "Причины пожаров и их предотвращение",
-    image: "/school-curriculum-app/images/lessons/grade7/safety/lesson28.svg",
+    image: "/images/lessons/grade7/safety/lesson28.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-red-400",
@@ -640,7 +733,7 @@ export const games = [
   },
   {
     title: "Природные ЧС",
-    image: "/school-curriculum-app/images/lessons/grade7/safety/lesson29.svg",
+    image: "/images/lessons/grade7/safety/lesson29.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-red-400",
@@ -665,7 +758,7 @@ export const games = [
   },
   {
     title: "Техногенные ЧС",
-    image: "/school-curriculum-app/images/lessons/grade7/safety/lesson30.svg",
+    image: "/images/lessons/grade7/safety/lesson30.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-red-400",
@@ -690,7 +783,7 @@ export const games = [
   },
   {
     title: "Первая помощь при кровотечениях",
-    image: "/school-curriculum-app/images/lessons/grade7/safety/lesson31.svg",
+    image: "/images/lessons/grade7/safety/lesson31.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-red-400",
@@ -715,7 +808,7 @@ export const games = [
   },
   {
     title: "Первая помощь при переломах и ожогах",
-    image: "/school-curriculum-app/images/lessons/grade7/safety/lesson32.svg",
+    image: "/images/lessons/grade7/safety/lesson32.svg",
     subject: "ОБЖ",
     icon: "Shield",
     color: "text-red-400",

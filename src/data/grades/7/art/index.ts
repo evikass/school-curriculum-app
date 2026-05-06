@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Живопись и её виды",
-          image: "/school-curriculum-app/images/lessons/grade7/art/lesson1.svg",
+          image: "/images/lessons/grade7/art/lesson1.svg",
           description: `## Живопись и её виды
 
 :- **Живопись** — вид изобразительного искусства, в котором цвет и краски являются главным средством создания художественного образа на плоскости.
@@ -94,7 +94,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Графика и скульптура",
-          image: "/school-curriculum-app/images/lessons/grade7/art/lesson2.svg",
+          image: "/images/lessons/grade7/art/lesson2.svg",
           description: `## Графика и скульптура
 
 :- **Графика** — вид изобразительного искусства, основанный на рисунке линии, штриха и пятна.
@@ -204,7 +204,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Портрет и пейзаж",
-          image: "/school-curriculum-app/images/lessons/grade7/art/lesson3.svg",
+          image: "/images/lessons/grade7/art/lesson3.svg",
           description: `## Портрет и пейзаж
 
 :- **Жанр** — исторически сложившийся вид произведения по содержанию и тематике.
@@ -292,7 +292,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Натюрморт и другие жанры",
-          image: "/school-curriculum-app/images/lessons/grade7/art/lesson4.svg",
+          image: "/images/lessons/grade7/art/lesson4.svg",
           description: `## Натюрморт и другие жанры
 
 :- **Натюрморт** — жанр живописи, изображающий неодушевлённые предметы: цветы, фрукты, посуду, книги, музыкальные инструменты.
@@ -389,7 +389,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Древнерусское искусство и иконопись",
-          image: "/school-curriculum-app/images/lessons/grade7/art/lesson5.svg",
+          image: "/images/lessons/grade7/art/lesson5.svg",
           description: `## Древнерусское искусство и иконопись
 
 :- **Иконопись** — вид древнерусской живописи, создание икон — священных изображений.
@@ -471,7 +471,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Передвижники",
-          image: "/school-curriculum-app/images/lessons/grade7/art/lesson6.svg",
+          image: "/images/lessons/grade7/art/lesson6.svg",
           description: `## Передвижники
 
 :- **Товарищество передвижных художественных выставок (ТПХВ)** — объединение русских художников-реалистов (1870–1923), организовывавшее передвижные выставки по городам России.
@@ -567,7 +567,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Импрессионизм и постимпрессионизм",
-          image: "/school-curriculum-app/images/lessons/grade7/art/lesson7.svg",
+          image: "/images/lessons/grade7/art/lesson7.svg",
           description: `## Импрессионизм и постимпрессионизм
 
 :- **Импрессионизм** — направление в живописи, стремящееся передать мимолётное впечатление, мгновенное ощущение от окружающего мира.
@@ -657,7 +657,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Авангард и современное искусство",
-          image: "/school-curriculum-app/images/lessons/grade7/art/lesson8.svg",
+          image: "/images/lessons/grade7/art/lesson8.svg",
           description: `## Авангард и современное искусство
 
 :- **Авангард** — совокупность радикальных художественных направлений XX века, порвавших с традициями реалистического искусства.

@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Жанры вокальной музыки",
-          image: "/school-curriculum-app/images/lessons/grade7/music/lesson1.svg",
+          image: "/images/lessons/grade7/music/lesson1.svg",
           description: `**Вокальная музыка** — музыка для голоса.
 
 **Основные жанры:**
@@ -69,7 +69,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Инструментальные жанры",
-          image: "/school-curriculum-app/images/lessons/grade7/music/lesson2.svg",
+          image: "/images/lessons/grade7/music/lesson2.svg",
           description: `**Инструментальная музыка** — музыка для инструментов.
 
 **Крупные жанры:**
@@ -134,7 +134,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "М.И. Глинка — основоположник русской классики",
-          image: "/school-curriculum-app/images/lessons/grade7/music/lesson3.svg",
+          image: "/images/lessons/grade7/music/lesson3.svg",
           description: `**Михаил Иванович Глинка** (1804-1857)
 
 **Значение:**
@@ -190,7 +190,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "«Могучая кучка» и П.И. Чайковский",
-          image: "/school-curriculum-app/images/lessons/grade7/music/lesson4.svg",
+          image: "/images/lessons/grade7/music/lesson4.svg",
           description: `**«Могучая кучка» (Балакиревский кружок):**
 - М.А. Балакирев — руководитель
 - М.П. Мусоргский
@@ -246,7 +246,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Венская классическая школа",
-          image: "/school-curriculum-app/images/lessons/grade7/music/lesson5.svg",
+          image: "/images/lessons/grade7/music/lesson5.svg",
           description: `**Венская классическая школа:**
 - Й. Гайдн
 - В.А. Моцарт
@@ -307,6 +307,77 @@ export const lessons: SubjectData = {
             "Симфонический жанр был создан композиторами Венской классической школы",
             "Сонатная форма — основная форма классической музыки"
           ]
+        },
+        {
+          title: "Романтизм в музыке",
+          image: "/images/lessons/grade7/music/lesson7.svg",
+          description: `**Романтизм** — художественное направление в музыке, сложившееся в первой половине XIX века как реакция на рационализм классицизма.
+
+**Особенности музыкального романтизма:**
+- Стремление к выражению глубоких чувств и переживаний
+- Интерес к фантастике, легендам, народным преданиям
+- Индивидуализация музыкального языка
+- Расширение состава оркестра
+- Свободная трактовка классических форм
+- Программная музыка — музыка, передающая конкретный сюжет
+
+**Великие композиторы-романтики:**
+
+**Фридерик Шопен (1810–1849):**
+- Польский композитор, «поэт фортепиано»
+- Ноктюрны, вальсы, полонезы, баллады
+- Меланхолия и утончённость звучания
+- Произведения: Ноктюрн ми-бемоль мажор, Полонез ля-мажор, Баллада №1
+
+**Ференц Лист (1811–1886):**
+- Венгерский композитор и пианист-виртуоз
+- Создатель симфонической поэмы
+- Поразительная техника игры
+- Произведения: «Венгерские рапсодии», «Кампанелла», Симфоническая поэма «Прелюды»
+
+**Франц Шуберт (1797–1828):**
+- Австрийский композитор, мастер песни (Lied)
+- Более 600 песен, симфонии, камерная музыка
+- Произведения: «Неоконченная симфония», «Лесной царь», «Серенада», «Ave Maria»
+
+**Рихард Вагнер (1813–1883):**
+- Немецкий композитор, реформатор оперы
+- Создатель музыкальной драмы
+- Лейтмотив — характерная тема для каждого персонажа
+- Произведения: «Кольцо нибелунга», «Тристан и Изольда», «Полет валькирий»
+
+**Сравнение классицизма и романтизма:**
+
+| Классицизм | Романтизм |
+|---|---|
+| Строгость формы | Свобода формы |
+| Объективность | Субъективность |
+| Рациональность | Эмоциональность |
+| Уравновешенность | Контрастность |
+| Симметрия | Асимметрия |
+
+**Значение романтизма:**
+- Обогащение музыкального языка
+- Новые жанры: ноктюрн, симфоническая поэма
+- Внимание к национальным корням`,
+          tasks: [
+            "В чём отличия романтизма от классицизма в музыке?",
+            "Какой вклад внёс Ференц Лист в музыкальное искусство?",
+            "Какие жанры стали особенно популярны в эпоху романтизма?",
+            "Что такое программная музыка и лейтмотив?"
+          ],
+          examples: [
+            "Шопен — «поэт фортепиано»: его ноктюрны передают глубочайшие душевные переживания",
+            "Шуберт написал более 600 песен, среди которых «Лесной царь» и «Ave Maria» — мастер вокальной лирики",
+            "Вагнер создал систему лейтмотивов в «Кольце нибелунга» — каждая тема соответствует персонажу или идее"
+          ],
+          keyPoints: [
+            "Романтизм в музыке — направление, акцентирующее эмоции, фантастику и индивидуальность",
+            "Главные композиторы-романтики: Шопен, Лист, Шуберт, Вагнер",
+            "Новаторство романтизма: симфоническая поэма, лейтмотив, расширение оркестра",
+            "Классицизм — строгая форма и рациональность; романтизм — свобода и эмоциональность",
+            "Программная музыка — музыка, передающая конкретный сюжет или образ"
+          ]
         }
       ]
     },
@@ -315,7 +386,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Джаз и рок-музыка",
-          image: "/school-curriculum-app/images/lessons/grade7/music/lesson6.svg",
+          image: "/images/lessons/grade7/music/lesson6.svg",
           description: `**Джаз:**
 
 **Происхождение:**
@@ -382,6 +453,82 @@ export const lessons: SubjectData = {
             "Рок-музыка появилась в 1950-е, сочетает ритм-энд-блюз, кантри и поп",
             "Современная музыка включает электронную, рэп, хип-хоп и другие жанры"
           ]
+        },
+        {
+          title: "Электронная и популярная музыка",
+          image: "/images/lessons/grade7/music/lesson8.svg",
+          description: `**Электронная музыка** — музыка, созданная с помощью электронных технологий и инструментов.
+
+**История электронной музыки:**
+
+**Предыстория:**
+- 1920 год — Терменвокс (Лев Термен, русский изобретатель)
+- 1940-е — магнитофонные эксперименты
+- 1950-е — первые синтезаторы
+
+**Развитие:**
+- 1960-е — Moog-синтезатор, первые электронные группы
+- 1970-е — Kraftwerk — пионеры электронной музыки
+- 1980-е — развитие синтезаторной поп-музыки
+- 1990-е — techno, house, trance, drum and bass
+- 2000-е — dubstep, EDM (Electronic Dance Music)
+- 2010-е и далее — интеграция электроники во все жанры
+
+**Основные электронные жанры:**
+
+1. **Techno** — ритмичная электронная музыка, детройтское происхождение
+2. **House** — танцевальная музыка с ровным битом
+3. **Trance** — мелодичная, гипнотическая электроника
+4. **Dubstep** — мощный бас, синкопированный ритм
+5. **Ambient** — атмосферная, медленная электронная музыка
+6. **Drum and Bass** — быстрый темп, ломаный ритм
+
+**Популярная музыка (поп-музыка):**
+
+**Особенности поп-музыки:**
+- Простая, запоминающаяся мелодия
+- Куплетно-припевная форма
+- Длительность 3–4 минуты
+- Акцент на вокале
+- Клипы и шоу — важная часть
+
+**Современные жанры:**
+- Pop — популярная музыка
+- R&B — ритм-энд-блюз
+- Hip-Hop — рэп и бит
+- K-Pop — корейская поп-музыка
+- Latin pop — латиноамериканская поп-музыка
+
+**Технологии в музыке:**
+- Синтезаторы и сэмплеры
+- DAW (Digital Audio Workstation) — программы для записи
+- Auto-Tune — коррекция высоты звука
+- Streaming (Spotify, Apple Music) — распространение музыки
+- Искусственный интеллект в создании музыки
+
+**Влияние технологий на музыку:**
+- Демократизация: любой может создать музыку дома
+- Изменение способов прослушивания (стриминг вместо дисков)
+- Новые звуки и эффекты
+- Виртуальные концерты и голограммы`,
+          tasks: [
+            "Как развивалась электронная музыка? Назовите ключевые этапы.",
+            "Чем отличаются жанры techno и house?",
+            "Какие технологии используются в современной музыке?",
+            "Как стриминг изменил музыкальную индустрию?"
+          ],
+          examples: [
+            "Kraftwerk — пионеры электронной музыки, использовали синтезаторы вместо традиционных инструментов",
+            "DAW (например, FL Studio, Ableton) позволяет создавать музыку на компьютере без студии",
+            "Стриминг (Spotify, Apple Music) заменил CD и пластинки — музыка доступна в любое время"
+          ],
+          keyPoints: [
+            "Электронная музыка создаётся с помощью синтезаторов, компьютеров и цифровых технологий",
+            "Основные жанры: techno, house, trance, dubstep, ambient, drum and bass",
+            "Поп-музыка — самый массовый жанр, акцент на мелодии и вокале",
+            "Технологии (DAW, Auto-Tune, стриминг) кардинально изменили создание и распространение музыки",
+            "Терменвокс (1920) — первый электронный инструмент, изобретён русским учёным Львом Терменом"
+          ]
         }
       ]
     }
@@ -391,7 +538,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Музыкальные жанры",
-    image: "/school-curriculum-app/images/lessons/grade7/music/lesson19.svg",
+    image: "/images/lessons/grade7/music/lesson19.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -416,7 +563,7 @@ export const games = [
   },
   {
     title: "Композиторы",
-    image: "/school-curriculum-app/images/lessons/grade7/music/lesson20.svg",
+    image: "/images/lessons/grade7/music/lesson20.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -431,7 +578,7 @@ export const games = [
   },
   {
     title: "Зарубежная музыка",
-    image: "/school-curriculum-app/images/lessons/grade7/music/lesson21.svg",
+    image: "/images/lessons/grade7/music/lesson21.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -446,7 +593,7 @@ export const games = [
   },
   {
     title: "Современная музыка",
-    image: "/school-curriculum-app/images/lessons/grade7/music/lesson22.svg",
+    image: "/images/lessons/grade7/music/lesson22.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -461,7 +608,7 @@ export const games = [
   },
   {
     title: "Жанры вокальной музыки",
-    image: "/school-curriculum-app/images/lessons/grade7/music/lesson23.svg",
+    image: "/images/lessons/grade7/music/lesson23.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -486,7 +633,7 @@ export const games = [
   },
   {
     title: "Инструментальные жанры",
-    image: "/school-curriculum-app/images/lessons/grade7/music/lesson24.svg",
+    image: "/images/lessons/grade7/music/lesson24.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -506,7 +653,7 @@ export const games = [
   },
   {
     title: "М.И. Глинка — основоположник русской классики",
-    image: "/school-curriculum-app/images/lessons/grade7/music/lesson25.svg",
+    image: "/images/lessons/grade7/music/lesson25.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -531,7 +678,7 @@ export const games = [
   },
   {
     title: "«Могучая кучка» и П.И. Чайковский",
-    image: "/school-curriculum-app/images/lessons/grade7/music/lesson26.svg",
+    image: "/images/lessons/grade7/music/lesson26.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -546,7 +693,7 @@ export const games = [
   },
   {
     title: "Венская классическая школа",
-    image: "/school-curriculum-app/images/lessons/grade7/music/lesson27.svg",
+    image: "/images/lessons/grade7/music/lesson27.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",
@@ -571,7 +718,7 @@ export const games = [
   },
   {
     title: "Джаз и рок-музыка",
-    image: "/school-curriculum-app/images/lessons/grade7/music/lesson28.svg",
+    image: "/images/lessons/grade7/music/lesson28.svg",
     subject: "Музыка",
     icon: "Music",
     color: "text-cyan-400",

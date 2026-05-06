@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Daily Routines and Habits",
-          image: "/school-curriculum-app/images/lessons/grade7/english/lesson1.svg",
+          image: "/images/lessons/grade7/english/lesson1.svg",
           description: `**Daily Routines** — повседневные дела и привычки.
 
 **Present Simple for Routines:**
@@ -65,7 +65,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Household Chores",
-          image: "/school-curriculum-app/images/lessons/grade7/english/lesson2.svg",
+          image: "/images/lessons/grade7/english/lesson2.svg",
           description: `**Household Chores** — домашние обязанности.
 
 **Common Chores:**
@@ -126,7 +126,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Planning a Trip",
-          image: "/school-curriculum-app/images/lessons/grade7/english/lesson3.svg",
+          image: "/images/lessons/grade7/english/lesson3.svg",
           description: `**Travel Vocabulary:**
 - Journey — путешествие
 - Trip — поездка
@@ -185,7 +185,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Sightseeing and Activities",
-          image: "/school-curriculum-app/images/lessons/grade7/english/lesson4.svg",
+          image: "/images/lessons/grade7/english/lesson4.svg",
           description: `**Places to Visit:**
 - Museum — музей
 - Gallery — галерея
@@ -252,7 +252,7 @@ Love,
       lessons: [
         {
           title: "Environmental Problems",
-          image: "/school-curriculum-app/images/lessons/grade7/english/lesson5.svg",
+          image: "/images/lessons/grade7/english/lesson5.svg",
           description: `**Environmental Issues:**
 - Pollution — загрязнение
 - Air pollution — загрязнение воздуха
@@ -312,6 +312,89 @@ Love,
             "Should / shouldn't for advice: We should recycle paper and plastic",
             "Passive voice: The air is polluted by factories"
           ]
+        },
+        {
+          title: "Protecting Nature",
+          image: "/images/lessons/grade7/english/lesson7.svg",
+          description: `**Protecting Nature** — защита и охрана окружающей среды.
+
+**Key Vocabulary (Ключевая лексика):**
+- Protect — защищать
+- Conservation — охрана природы
+- Recycling — переработка (мусора)
+- Reuse — использовать повторно
+- Reduce — уменьшать (потребление)
+- Renewable energy — возобновляемая энергия
+- Solar power — солнечная энергия
+- Wind power — энергия ветра
+- Organic — органический
+- Ecosystem — экосистема
+- Biodiversity — биоразнообразие
+- Sustainable — устойчивый, экологичный
+
+**The 3 Rs — Три принципи переработки:**
+
+1. **Reduce** — уменьшай потребление
+   - Buy only what you need
+   - Don't waste water and electricity
+   - Choose products with less packaging
+
+2. **Reuse** — используй повторно
+   - Use a reusable water bottle
+   - Give old clothes to charity
+   - Use both sides of paper
+
+3. **Recycle** — перерабатывай
+   - Sort your rubbish (paper, plastic, glass, metal)
+   - Put recycling in the correct bin
+   - Buy products made from recycled materials
+
+**Modal Verbs for Suggestions and Obligation:**
+
+**Should (следует) — совет:**
+- You should recycle your plastic bottles.
+- We should turn off the lights when we leave.
+- People shouldn't use too much plastic.
+
+**Must (должен) — обязательство:**
+- We must protect endangered animals.
+- Everyone must sort their rubbish.
+- You mustn't drop litter in the park.
+
+**Have to (нуждаться, вынужден) — необходимость:**
+- We have to reduce our carbon footprint.
+- People have to use public transport more.
+- She has to bring her own shopping bag.
+
+**Reading: Recycling and Conservation:**
+
+Recycling is one of the easiest ways to help the environment. When we recycle, old materials are turned into new products instead of being thrown away. In many countries, people sort their rubbish into different categories: paper, plastic, glass and metal. 
+
+Conservation means protecting natural resources and wildlife. National parks and nature reserves are created to preserve ecosystems. Everyone can help by saving water, using less energy, planting trees and respecting nature.
+
+**Useful Phrases:**
+- We should / must / have to protect nature.
+- Don't waste water / electricity.
+- Sort your rubbish and recycle.
+- Plant trees and flowers.
+- Use public transport or ride a bike.`,
+          tasks: [
+            "What are the 3 Rs? Explain each one in English.",
+            "Make 3 sentences using 'should', 'must' and 'have to' about protecting nature.",
+            "Translate: Мы должны сортировать мусор и перерабатывать пластик.",
+            "Why is conservation important? Write 3 reasons."
+          ],
+          examples: [
+            "You should use a reusable water bottle instead of buying plastic ones — совет",
+            "We must protect endangered animals — обязательство, долг",
+            "People have to sort their rubbish into paper, plastic, glass and metal — необходимость"
+          ],
+          keyPoints: [
+            "The 3 Rs: Reduce (уменьшай), Reuse (используй повторно), Recycle (перерабатывай)",
+            "Should = совет; Must = сильное обязательство; Have to = вынужденная необходимость",
+            "Recycling turns old materials into new products; conservation protects nature and wildlife",
+            "Key vocabulary: protect, conservation, renewable energy, ecosystem, biodiversity"
+          ]
         }
       ]
     },
@@ -320,7 +403,7 @@ Love,
       lessons: [
         {
           title: "Digital World",
-          image: "/school-curriculum-app/images/lessons/grade7/english/lesson6.svg",
+          image: "/images/lessons/grade7/english/lesson6.svg",
           description: `**Technology Vocabulary:**
 - Computer — компьютер
 - Laptop — ноутбук
@@ -381,6 +464,92 @@ Love,
             "Present Perfect for experiences: I have already sent the email",
             "Online safety: never share your password with strangers"
           ]
+        },
+        {
+          title: "Internet Safety",
+          image: "/images/lessons/grade7/english/lesson8.svg",
+          description: `**Internet Safety** — безопасность в интернете (безопасное поведение онлайн).
+
+**Key Vocabulary (Ключевая лексика):**
+- Privacy — конфиденциальность, приватность
+- Personal data — личные данные
+- Password — пароль
+- Username — имя пользователя
+- Cyberbullying — кибербуллинг (травля в интернете)
+- Phishing — фишинг (мошенничество для кражи данных)
+- Malware — вредоносная программа
+- Block — блокировать
+- Report — пожаловаться
+- Stranger — незнакомец
+- Online predator — онлайн-хищник
+- Screen time — время перед экраном
+- Digital footprint — цифровой след
+
+**First Conditional — Первое условное:**
+
+**Structure (Структура):** If + Present Simple, will + infinitive
+
+**Examples:**
+- If you share your password, someone will steal your account.
+- If you click on a strange link, you will get a virus.
+- If you don't tell your parents, the problem will get worse.
+- If you see cyberbullying, you should report it.
+
+**Advice Phrases — Фразы для совета:**
+
+**If you..., you should... — Если ты..., тебе следует...:**
+- If you feel unsafe online, you should tell an adult.
+- If someone sends you a bad message, you should block them.
+- If you get a strange email, you shouldn't open it.
+
+**Other advice structures:**
+- You'd better (тебе лучше) + infinitive: You'd better change your password.
+- It's important to (важно) + infinitive: It's important to protect your privacy.
+- Never (никогда) + imperative: Never share your address online.
+- Always (всегда) + imperative: Always log out of your account.
+
+**Online Privacy Rules:**
+
+1. **Keep your password secret** — никому не давай свой пароль
+2. **Don't share personal information** — не делись адресом, телефоном, названием школы
+3. **Use strong passwords** — используй сложные пароли (буквы + цифры + символы)
+4. **Don't post photos with location** — не выкладывай фото с геолокацией
+5. **Check privacy settings** — проверяй настройки приватности
+
+**What is Cyberbullying?**
+- Cyberbullying — when someone uses the internet to hurt, threaten or embarrass another person
+- Types: mean messages, spreading rumours, posting embarrassing photos, exclusion from groups
+- **What to do if you are cyberbullied:**
+  1. Don't respond to the bully
+  2. Save the evidence (screenshots)
+  3. Block the person
+  4. Tell a parent or teacher
+  5. Report the account
+
+**Safe Internet Rules for Teens:**
+- Think before you post — everything online leaves a digital footprint
+- Be kind online — treat others with respect
+- Don't meet online friends in person without telling parents
+- Limit screen time — 2 hours a day maximum
+- Ask parents before downloading apps or making purchases`,
+          tasks: [
+            "What is cyberbullying and what should you do if it happens to you?",
+            "Complete the First Conditional: If you (click) on a strange link, you (get) a virus.",
+            "Give 3 advice phrases using 'If you..., you should...' about internet safety.",
+            "Translate: Если ты чувствуешь себя небезопасно онлайн, тебе следует рассказать взрослому."
+          ],
+          examples: [
+            "First Conditional: If you share your password, someone will steal your account — условие + результат",
+            "Advice: If you see cyberbullying, you should report it and block the person",
+            "Privacy rule: Never share your address, phone number or school name online — защита личных данных"
+          ],
+          keyPoints: [
+            "First Conditional: If + Present Simple, will + infinitive — условие в будущем",
+            "Advice phrases: If you..., you should...; You'd better...; Never...; Always...",
+            "Cyberbullying — травля в интернете: не отвечай, сохрани доказательства, блокируй, расскажи взрослым",
+            "Online privacy: keep passwords secret, don't share personal data, use strong passwords",
+            "Digital footprint — цифровой след: всё, что ты публикуешь онлайн, остаётся навсегда"
+          ]
         }
       ]
     }
@@ -390,7 +559,7 @@ Love,
 export const games = [
   {
     title: "Daily Life",
-    image: "/school-curriculum-app/images/lessons/grade7/english/lesson19.svg",
+    image: "/images/lessons/grade7/english/lesson19.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -405,7 +574,7 @@ export const games = [
   },
   {
     title: "Travel and Environment",
-    image: "/school-curriculum-app/images/lessons/grade7/english/lesson20.svg",
+    image: "/images/lessons/grade7/english/lesson20.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -420,7 +589,7 @@ export const games = [
   },
   {
     title: "Travel and Tourism",
-    image: "/school-curriculum-app/images/lessons/grade7/english/lesson21.svg",
+    image: "/images/lessons/grade7/english/lesson21.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -435,7 +604,7 @@ export const games = [
   },
   {
     title: "Technology",
-    image: "/school-curriculum-app/images/lessons/grade7/english/lesson22.svg",
+    image: "/images/lessons/grade7/english/lesson22.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -450,7 +619,7 @@ export const games = [
   },
   {
     title: "Daily Routines and Habits",
-    image: "/school-curriculum-app/images/lessons/grade7/english/lesson23.svg",
+    image: "/images/lessons/grade7/english/lesson23.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -474,7 +643,7 @@ export const games = [
   },
   {
     title: "Household Chores",
-    image: "/school-curriculum-app/images/lessons/grade7/english/lesson24.svg",
+    image: "/images/lessons/grade7/english/lesson24.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -498,7 +667,7 @@ export const games = [
   },
   {
     title: "Planning a Trip",
-    image: "/school-curriculum-app/images/lessons/grade7/english/lesson25.svg",
+    image: "/images/lessons/grade7/english/lesson25.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -522,7 +691,7 @@ export const games = [
   },
   {
     title: "Sightseeing and Activities",
-    image: "/school-curriculum-app/images/lessons/grade7/english/lesson26.svg",
+    image: "/images/lessons/grade7/english/lesson26.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -546,7 +715,7 @@ export const games = [
   },
   {
     title: "Environmental Problems",
-    image: "/school-curriculum-app/images/lessons/grade7/english/lesson27.svg",
+    image: "/images/lessons/grade7/english/lesson27.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
@@ -570,7 +739,7 @@ export const games = [
   },
   {
     title: "Digital World",
-    image: "/school-curriculum-app/images/lessons/grade7/english/lesson28.svg",
+    image: "/images/lessons/grade7/english/lesson28.svg",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",

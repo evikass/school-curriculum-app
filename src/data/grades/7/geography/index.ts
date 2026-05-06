@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Литосфера и рельеф Земли",
-          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson1.svg",
+          image: "/images/lessons/grade7/geography/lesson1.svg",
           description: `**Литосфера** — твёрдая оболочка Земли.
 
 **Строение Земли:**
@@ -72,7 +72,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Атмосфера и климаты Земли",
-          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson2.svg",
+          image: "/images/lessons/grade7/geography/lesson2.svg",
           description: `**Климатообразующие факторы:**
 
 **1. Географическая широта:**
@@ -139,7 +139,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Численность и размещение населения",
-          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson3.svg",
+          image: "/images/lessons/grade7/geography/lesson3.svg",
           description: `**Население Земли:**
 - Более 8 млрд человек (2023)
 - Быстрый рост с XX века
@@ -191,7 +191,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Народы и религии мира",
-          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson4.svg",
+          image: "/images/lessons/grade7/geography/lesson4.svg",
           description: `**Народы мира:**
 
 **По численности:**
@@ -257,7 +257,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Тихий и Атлантический океаны",
-          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson5.svg",
+          image: "/images/lessons/grade7/geography/lesson5.svg",
           description: `**Тихий океан:**
 
 **Характеристика:**
@@ -315,7 +315,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Индийский и Северный Ледовитый океаны",
-          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson6.svg",
+          image: "/images/lessons/grade7/geography/lesson6.svg",
           description: `**Индийский океан:**
 
 **Характеристика:**
@@ -384,7 +384,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Географическое положение и рельеф Африки",
-          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson7.svg",
+          image: "/images/lessons/grade7/geography/lesson7.svg",
           description: `**Африка** — второй по размеру материк.
 
 **Географическое положение:**
@@ -441,7 +441,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Природа Африки",
-          image: "/school-curriculum-app/images/lessons/grade7/geography/lesson8.svg",
+          image: "/images/lessons/grade7/geography/lesson8.svg",
           description: `**Климат Африки:**
 
 **Особенности:**
@@ -513,7 +513,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Океаны",
-    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson21.svg",
+    image: "/images/lessons/grade7/geography/lesson21.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -528,7 +528,7 @@ export const games = [
   },
   {
     title: "Африка",
-    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson22.svg",
+    image: "/images/lessons/grade7/geography/lesson22.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -555,7 +555,7 @@ export const games = [
   },
   {
     title: "Литосфера и рельеф",
-    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson23.svg",
+    image: "/images/lessons/grade7/geography/lesson23.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -570,7 +570,7 @@ export const games = [
   },
   {
     title: "Население Земли",
-    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson24.svg",
+    image: "/images/lessons/grade7/geography/lesson24.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -585,7 +585,7 @@ export const games = [
   },
   {
     title: "Литосфера и рельеф Земли",
-    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson25.svg",
+    image: "/images/lessons/grade7/geography/lesson25.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -609,7 +609,7 @@ export const games = [
   },
   {
     title: "Атмосфера и климаты Земли",
-    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson26.svg",
+    image: "/images/lessons/grade7/geography/lesson26.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -633,7 +633,7 @@ export const games = [
   },
   {
     title: "Численность и размещение населения",
-    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson27.svg",
+    image: "/images/lessons/grade7/geography/lesson27.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -657,7 +657,7 @@ export const games = [
   },
   {
     title: "Народы и религии мира",
-    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson28.svg",
+    image: "/images/lessons/grade7/geography/lesson28.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -681,7 +681,7 @@ export const games = [
   },
   {
     title: "Тихий и Атлантический океаны",
-    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson29.svg",
+    image: "/images/lessons/grade7/geography/lesson29.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -705,7 +705,7 @@ export const games = [
   },
   {
     title: "Индийский и Северный Ледовитый океаны",
-    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson30.svg",
+    image: "/images/lessons/grade7/geography/lesson30.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -729,7 +729,7 @@ export const games = [
   },
   {
     title: "Географическое положение и рельеф Африки",
-    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson31.svg",
+    image: "/images/lessons/grade7/geography/lesson31.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",
@@ -753,7 +753,7 @@ export const games = [
   },
   {
     title: "Природа Африки",
-    image: "/school-curriculum-app/images/lessons/grade7/geography/lesson32.svg",
+    image: "/images/lessons/grade7/geography/lesson32.svg",
     subject: "География",
     icon: "Map",
     color: "text-teal-400",

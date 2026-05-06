@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Объединение русских земель",
-          image: "/school-curriculum-app/images/lessons/grade7/history/lesson1.svg",
+          image: "/images/lessons/grade7/history/lesson1.svg",
           description: `**Объединение земель вокруг Москвы** — процесс создания единого государства.
 
 **Причины объединения:**
@@ -63,7 +63,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Иван III и освобождение Руси",
-          image: "/school-curriculum-app/images/lessons/grade7/history/lesson2.svg",
+          image: "/images/lessons/grade7/history/lesson2.svg",
           description: `**Иван III Васильевич** (1462-1505) — собиратель земель Руси.
 
 **Внутренняя политика:**
@@ -124,7 +124,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Иван IV Грозный",
-          image: "/school-curriculum-app/images/lessons/grade7/history/lesson3.svg",
+          image: "/images/lessons/grade7/history/lesson3.svg",
           description: `**Иван IV Васильевич Грозный** (1533-1584) — первый русский царь.
 
 **Детство:**
@@ -182,7 +182,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Культура XVI века",
-          image: "/school-curriculum-app/images/lessons/grade7/history/lesson4.svg",
+          image: "/images/lessons/grade7/history/lesson4.svg",
           description: `**Культура Московского государства:**
 
 **Летописание:**
@@ -246,7 +246,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Причины и начало Смуты",
-          image: "/school-curriculum-app/images/lessons/grade7/history/lesson5.svg",
+          image: "/images/lessons/grade7/history/lesson5.svg",
           description: `**Смутное время** (1598-1613) — период кризиса государства.
 
 **Причины Смуты:**
@@ -305,7 +305,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Освобождение Москвы",
-          image: "/school-curriculum-app/images/lessons/grade7/history/lesson6.svg",
+          image: "/images/lessons/grade7/history/lesson6.svg",
           description: `**Кульминация Смуты:**
 
 **Лжедмитрий II:**
@@ -360,7 +360,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Начало династии Романовых",
-          image: "/school-curriculum-app/images/lessons/grade7/history/lesson7.svg",
+          image: "/images/lessons/grade7/history/lesson7.svg",
           description: `**Земский собор 1613 года:**
 - Выбор нового царя
 - Михаил Фёдорович Романов
@@ -421,7 +421,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Соборное уложение 1649 года",
-          image: "/school-curriculum-app/images/lessons/grade7/history/lesson8.svg",
+          image: "/images/lessons/grade7/history/lesson8.svg",
           description: `**Соборное уложение** — свод законов, принятый при Алексее Михайловиче.
 
 **Причины создания:**
@@ -475,7 +475,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Церковный раскол",
-          image: "/school-curriculum-app/images/lessons/grade7/history/lesson9.svg",
+          image: "/images/lessons/grade7/history/lesson9.svg",
           description: `**Раскол** — разделение церкви на никониан и старообрядцев.
 
 **Причины:**
@@ -534,7 +534,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Московское государство",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson22.svg",
+    image: "/images/lessons/grade7/history/lesson22.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -549,7 +549,7 @@ export const games = [
   },
   {
     title: "Смутное время",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson23.svg",
+    image: "/images/lessons/grade7/history/lesson23.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -563,7 +563,7 @@ export const games = [
   },
   {
     title: "Объединение Руси",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson24.svg",
+    image: "/images/lessons/grade7/history/lesson24.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -577,7 +577,7 @@ export const games = [
   },
   {
     title: "Россия в XVII веке",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson25.svg",
+    image: "/images/lessons/grade7/history/lesson25.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -591,7 +591,7 @@ export const games = [
   },
   {
     title: "Объединение русских земель",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson26.svg",
+    image: "/images/lessons/grade7/history/lesson26.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -615,7 +615,7 @@ export const games = [
   },
   {
     title: "Иван III и освобождение Руси",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson27.svg",
+    image: "/images/lessons/grade7/history/lesson27.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -639,7 +639,7 @@ export const games = [
   },
   {
     title: "Иван IV Грозный",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson28.svg",
+    image: "/images/lessons/grade7/history/lesson28.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -663,7 +663,7 @@ export const games = [
   },
   {
     title: "Культура XVI века",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson29.svg",
+    image: "/images/lessons/grade7/history/lesson29.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -687,7 +687,7 @@ export const games = [
   },
   {
     title: "Причины и начало Смуты",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson30.svg",
+    image: "/images/lessons/grade7/history/lesson30.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -711,7 +711,7 @@ export const games = [
   },
   {
     title: "Освобождение Москвы",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson31.svg",
+    image: "/images/lessons/grade7/history/lesson31.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -735,7 +735,7 @@ export const games = [
   },
   {
     title: "Начало династии Романовых",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson32.svg",
+    image: "/images/lessons/grade7/history/lesson32.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -759,7 +759,7 @@ export const games = [
   },
   {
     title: "Соборное уложение 1649 года",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson33.svg",
+    image: "/images/lessons/grade7/history/lesson33.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",
@@ -783,7 +783,7 @@ export const games = [
   },
   {
     title: "Церковный раскол",
-    image: "/school-curriculum-app/images/lessons/grade7/history/lesson34.svg",
+    image: "/images/lessons/grade7/history/lesson34.svg",
     subject: "История",
     icon: "Landmark",
     color: "text-amber-400",

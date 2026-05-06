@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Фонетика и графика",
-          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson1.svg",
+          image: "/images/lessons/grade7/russian/lesson1.svg",
           description: `**Фонетика** — раздел языка о звуках речи.
 
 **Гласные звуки:**
@@ -67,7 +67,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Состав слова",
-          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson2.svg",
+          image: "/images/lessons/grade7/russian/lesson2.svg",
           description: `**Морфемика** — раздел о значимых частях слова.
 
 **Морфемы:**
@@ -130,7 +130,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Причастие как часть речи",
-          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson3.svg",
+          image: "/images/lessons/grade7/russian/lesson3.svg",
           description: `**Причастие** — часть речи, обозначающая признак предмета по действию.
 
 **Вопросы:**
@@ -191,7 +191,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Правописание причастий",
-          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson4.svg",
+          image: "/images/lessons/grade7/russian/lesson4.svg",
           description: `**Н и НН в причастиях:**
 
 **НН пишется:**
@@ -250,7 +250,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Деепричастие как часть речи",
-          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson5.svg",
+          image: "/images/lessons/grade7/russian/lesson5.svg",
           description: `**Деепричастие** — самостоятельная часть речи, обозначающая добавочное действие.
 
 **Вопросы:**
@@ -308,6 +308,82 @@ export const lessons: SubjectData = {
             "Деепричастие отвечает на вопросы что делая? что сделав?",
             "Деепричастный оборот выделяется запятыми"
           ]
+        },
+        {
+          title: "Деепричастный оборот",
+          image: "/images/lessons/grade7/russian/lesson8.svg",
+          description: `**Деепричастный оборот** — деепричастие с зависимыми словами.
+
+**Определение:**
+Деепричастный оборот — это синтаксическая конструкция, состоящая из деепричастия и зависимых от него слов. В предложении деепричастный оборот выполняет роль обособленного обстоятельства.
+
+**Примеры деепричастных оборотов:**
+- Читая книгу, он делал заметки. (деепричастный оборот: «читая книгу»)
+- Прочитав роман, ученик написал сочинение. (деепричастный оборот: «прочитав роман»)
+- Мальчик, весело напевая песенку, шёл по улице. (деепричастный оборот: «весело напевая песенку»)
+
+**Запятые при деепричастном обороте:**
+
+**Правило 1: Обособление деепричастного оборота**
+Деепричастный оборот всегда выделяется запятыми, независимо от его места в предложении.
+
+1. **В начале предложения:**
+   , деепричастный оборот , основная часть.
+   Пример: Глядя на небо, мальчик мечтал о полётах.
+
+2. **В середине предложения:**
+   основная часть , деепричастный оборот , продолжение.
+   Пример: Мальчик, глядя на небо, мечтал о полётах.
+
+3. **В конце предложения:**
+   основная часть , деепричастный оборот.
+   Пример: Мальчик мечтал о полётах, глядя на небо.
+
+**Правило 2: Одиночное деепричастие**
+Одиночное деепричастие тоже обособляется, если сохраняет значение добавочного действия:
+- Он шёл, насвистывая.
+- Улыбаясь, она вошла в комнату.
+
+**Не обособляются:**
+- Деепричастия, перешедшие в наречия (утвердительно кивнул, молча ушёл)
+- Фразеологизмы с деепричастиями (спустя рукава, засучив рукава — пишутся слитно)
+
+**Позиция деепричастного оборота в предложении:**
+
+1. **Перед сказуемым** — добавочное действие происходит одновременно с основным или предшествует ему:
+   Выходя из дома, он забыл ключи. (сначала выходил, потом забыл)
+
+2. **После сказуемого** — добавочное действие поясняет основное:
+   Он говорил, волнуясь и краснея. (как говорил?)
+
+3. **В середине предложения** — уточняет обстоятельства:
+   Ученик, решив задачу, сдал тетрадь.
+
+**Важное правило подлежащего:**
+Деепричастный оборот и сказуемое должны относиться к одному и тому же подлежащему!
+
+Правильно: Читая книгу, я делал заметки. (я читал и я делал)
+Неправильно: Читая книгу, заметки были полезны. (кто читал? не заметки!)
+
+**Примеры ошибок и исправлений:**
+❌ Подъезжая к станции, шляпа слетела с головы. (шляпа не подъезжала)
+✅ Когда я подъезжал к станции, шляпа слетела с головы.`,
+          tasks: [
+            "Что такое деепричастный оборот?",
+            "Как выделяется деепричастный оборот на письме?",
+            "Обособляется ли одиночное деепричастие?",
+            "Найдите ошибку: «Гуляя по парку, пошёл дождь»"
+          ],
+          examples: [
+            "Читая книгу, он делал заметки — деепричастный оборот «читая книгу» стоит в начале 📝",
+            "Он, улыбаясь, вошёл в класс — деепричастный оборот «улыбаясь» в середине предложения",
+            "❌ «Подъезжая к городу, пошёл дождь» — ошибка: дождь не подъезжал. ✅ «Когда мы подъезжали к городу, пошёл дождь»"
+          ],
+          keyPoints: [
+            "Деепричастный оборот — деепричастие с зависимыми словами, всегда выделяется запятыми",
+            "Деепричастный оборот может стоять в начале, середине или конце предложения — запятые ставятся всегда",
+            "Деепричастный оборот и сказуемое должны относиться к одному подлежащему — нарушение этого правила является ошибкой"
+          ]
         }
       ]
     },
@@ -316,7 +392,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Наречие как часть речи",
-          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson6.svg",
+          image: "/images/lessons/grade7/russian/lesson6.svg",
           description: `**Наречие** — часть речи, обозначающая признак действия или признака.
 
 **Вопросы:**
@@ -379,7 +455,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Правописание наречий",
-          image: "/school-curriculum-app/images/lessons/grade7/russian/lesson7.svg",
+          image: "/images/lessons/grade7/russian/lesson7.svg",
           description: `**Слитное написание:**
 - Приставка + наречие: досыта, наверху
 - Приставки в-, на-, за- + -о: вправо, направо
@@ -438,7 +514,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Причастие и деепричастие",
-    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson16.svg",
+    image: "/images/lessons/grade7/russian/lesson16.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -453,7 +529,7 @@ export const games = [
   },
   {
     title: "Наречие",
-    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson17.svg",
+    image: "/images/lessons/grade7/russian/lesson17.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -468,7 +544,7 @@ export const games = [
   },
   {
     title: "Фонетика и состав слова",
-    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson18.svg",
+    image: "/images/lessons/grade7/russian/lesson18.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -483,7 +559,7 @@ export const games = [
   },
   {
     title: "Наречие: правила и usage",
-    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson19.svg",
+    image: "/images/lessons/grade7/russian/lesson19.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -498,7 +574,7 @@ export const games = [
   },
   {
     title: "Фонетика и графика",
-    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson20.svg",
+    image: "/images/lessons/grade7/russian/lesson20.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -523,7 +599,7 @@ export const games = [
   },
   {
     title: "Состав слова",
-    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson21.svg",
+    image: "/images/lessons/grade7/russian/lesson21.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -548,7 +624,7 @@ export const games = [
   },
   {
     title: "Причастие как часть речи",
-    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson22.svg",
+    image: "/images/lessons/grade7/russian/lesson22.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -573,7 +649,7 @@ export const games = [
   },
   {
     title: "Правописание причастий",
-    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson23.svg",
+    image: "/images/lessons/grade7/russian/lesson23.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",
@@ -598,7 +674,7 @@ export const games = [
   },
   {
     title: "Деепричастие как часть речи",
-    image: "/school-curriculum-app/images/lessons/grade7/russian/lesson24.svg",
+    image: "/images/lessons/grade7/russian/lesson24.svg",
     subject: "Русский язык",
     icon: "BookOpen",
     color: "text-red-400",

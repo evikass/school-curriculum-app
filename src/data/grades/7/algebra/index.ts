@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Числовые выражения",
-          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson1.svg",
+          image: "/images/lessons/grade7/algebra/lesson1.svg",
           description: `**Числовое выражение** — запись из чисел, знаков действий и скобок.
 
 **Примеры:**
@@ -61,7 +61,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Выражения с переменными",
-          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson2.svg",
+          image: "/images/lessons/grade7/algebra/lesson2.svg",
           description: `**Выражение с переменной** — содержит буквы (переменные).
 
 **Примеры:**
@@ -115,7 +115,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Линейные уравнения",
-          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson3.svg",
+          image: "/images/lessons/grade7/algebra/lesson3.svg",
           description: `**Уравнение** — равенство с переменной.
 
 **Линейное уравнение:**
@@ -174,7 +174,7 @@ x = -5
         },
         {
           title: "Уравнения с модулями",
-          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson4.svg",
+          image: "/images/lessons/grade7/algebra/lesson4.svg",
           description: `**Модуль числа** — расстояние от числа до нуля на координатной прямой.
 
 **Определение:**
@@ -238,7 +238,7 @@ x = 2 или x = -3
       lessons: [
         {
           title: "Что такое функция",
-          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson5.svg",
+          image: "/images/lessons/grade7/algebra/lesson5.svg",
           description: `**Функция** — зависимость одной переменной от другой.
 
 **Определение:**
@@ -294,7 +294,7 @@ f(4) = 3 · 4 - 2 = 10
         },
         {
           title: "Линейная функция",
-          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson6.svg",
+          image: "/images/lessons/grade7/algebra/lesson6.svg",
           description: `**Линейная функция** — функция вида y = kx + b.
 
 **где:**
@@ -359,7 +359,7 @@ f(4) = 3 · 4 - 2 = 10
       lessons: [
         {
           title: "Степень и её свойства",
-          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson7.svg",
+          image: "/images/lessons/grade7/algebra/lesson7.svg",
           description: `**Степень** — произведение одинаковых множителей.
 
 **Определение:**
@@ -415,7 +415,7 @@ f(4) = 3 · 4 - 2 = 10
         },
         {
           title: "Степень с нулевым показателем",
-          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson8.svg",
+          image: "/images/lessons/grade7/algebra/lesson8.svg",
           description: `**Нулевая степень:**
 
 **Определение:**
@@ -477,7 +477,7 @@ x⁵ · x⁰ · x² = x⁵ · 1 · x² = x⁷
       lessons: [
         {
           title: "Одночлены и многочлены",
-          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson9.svg",
+          image: "/images/lessons/grade7/algebra/lesson9.svg",
           description: `**Одночлен** — произведение чисел, переменных и их степеней.
 
 **Примеры:**
@@ -532,7 +532,7 @@ x⁵ · x⁰ · x² = x⁵ · 1 · x² = x⁷
         },
         {
           title: "Сложение и вычитание многочленов",
-          image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson10.svg",
+          image: "/images/lessons/grade7/algebra/lesson10.svg",
           description: `**Сложение многочленов:**
 
 **Правило:**
@@ -609,7 +609,7 @@ x⁵ · x⁰ · x² = x⁵ · 1 · x² = x⁷
 export const games = [
   {
     title: "Уравнения: Найди корень",
-    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson23.svg",
+    image: "/images/lessons/grade7/algebra/lesson23.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -624,7 +624,7 @@ export const games = [
   },
   {
     title: "Степени: Вычисления",
-    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson24.svg",
+    image: "/images/lessons/grade7/algebra/lesson24.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -639,7 +639,7 @@ export const games = [
   },
   {
     title: "Свойства степеней",
-    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson25.svg",
+    image: "/images/lessons/grade7/algebra/lesson25.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -654,7 +654,7 @@ export const games = [
   },
   {
     title: "Линейная функция",
-    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson26.svg",
+    image: "/images/lessons/grade7/algebra/lesson26.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -678,7 +678,7 @@ export const games = [
   },
   {
     title: "Многочлены",
-    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson27.svg",
+    image: "/images/lessons/grade7/algebra/lesson27.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -693,7 +693,7 @@ export const games = [
   },
   {
     title: "Числовые выражения",
-    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson28.svg",
+    image: "/images/lessons/grade7/algebra/lesson28.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -717,7 +717,7 @@ export const games = [
   },
   {
     title: "Выражения с переменными",
-    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson29.svg",
+    image: "/images/lessons/grade7/algebra/lesson29.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -741,7 +741,7 @@ export const games = [
   },
   {
     title: "Уравнения с модулями",
-    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson30.svg",
+    image: "/images/lessons/grade7/algebra/lesson30.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -765,7 +765,7 @@ export const games = [
   },
   {
     title: "Что такое функция",
-    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson31.svg",
+    image: "/images/lessons/grade7/algebra/lesson31.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",
@@ -789,7 +789,7 @@ export const games = [
   },
   {
     title: "Сложение и вычитание многочленов",
-    image: "/school-curriculum-app/images/lessons/grade7/algebra/lesson32.svg",
+    image: "/images/lessons/grade7/algebra/lesson32.svg",
     subject: "Алгебра",
     icon: "Sigma",
     color: "text-blue-400",

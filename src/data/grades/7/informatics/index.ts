@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Введение в программирование",
-          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson1.svg",
+          image: "/images/lessons/grade7/informatics/lesson1.svg",
           description: `**Программирование** — процесс создания программ для компьютера.
 
 **Что такое программа:**
@@ -70,7 +70,7 @@ print("Привет, мир!")
         },
         {
           title: "Переменные и типы данных",
-          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson2.svg",
+          image: "/images/lessons/grade7/informatics/lesson2.svg",
           description: `**Переменная** — именованная область памяти для хранения данных.
 
 **Создание переменной:**
@@ -137,7 +137,7 @@ age = int(input("Введите возраст: "))
         },
         {
           title: "Условия и ветвления",
-          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson3.svg",
+          image: "/images/lessons/grade7/informatics/lesson3.svg",
           description: `**Условный оператор if** — выполняет код при выполнении условия.
 
 **Базовый синтаксис:**
@@ -207,7 +207,7 @@ if age >= 18:
         },
         {
           title: "Циклы в программировании",
-          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson4.svg",
+          image: "/images/lessons/grade7/informatics/lesson4.svg",
           description: `**Цикл** — повторение действий определённое количество раз.
 
 **Цикл for:**
@@ -278,7 +278,7 @@ for i in range(3):
       lessons: [
         {
           title: "Основы HTML",
-          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson5.svg",
+          image: "/images/lessons/grade7/informatics/lesson5.svg",
           description: `**HTML** (HyperText Markup Language) — язык разметки веб-страниц.
 
 **Структура HTML-документа:**
@@ -346,7 +346,7 @@ for i in range(3):
         },
         {
           title: "Основы CSS",
-          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson6.svg",
+          image: "/images/lessons/grade7/informatics/lesson6.svg",
           description: `**CSS** (Cascading Style Sheets) — язык стилей для оформления.
 
 **Способы подключения:**
@@ -422,7 +422,7 @@ p { color: blue; }
         },
         {
           title: "Создание веб-страницы",
-          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson7.svg",
+          image: "/images/lessons/grade7/informatics/lesson7.svg",
           description: `**Этапы создания сайта:**
 
 **1. Планирование:**
@@ -509,7 +509,7 @@ nav a {
       lessons: [
         {
           title: "Растровая и векторная графика",
-          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson8.svg",
+          image: "/images/lessons/grade7/informatics/lesson8.svg",
           description: `**Виды компьютерной графики:**
 
 **Растровая графика:**
@@ -573,7 +573,7 @@ nav a {
         },
         {
           title: "Обработка изображений",
-          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson9.svg",
+          image: "/images/lessons/grade7/informatics/lesson9.svg",
           description: `**Основные операции обработки:**
 
 **Кадрирование:**
@@ -638,7 +638,7 @@ nav a {
       lessons: [
         {
           title: "Что такое алгоритм",
-          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson10.svg",
+          image: "/images/lessons/grade7/informatics/lesson10.svg",
           description: `**Алгоритм** — точное описание последовательности действий.
 
 **Свойства алгоритма:**
@@ -706,7 +706,7 @@ nav a {
         },
         {
           title: "Исполнители алгоритмов",
-          image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson11.svg",
+          image: "/images/lessons/grade7/informatics/lesson11.svg",
           description: `**Исполнитель** — объект, выполняющий алгоритм.
 
 **Характеристики исполнителя:**
@@ -782,7 +782,7 @@ nav a {
 export const games = [
   {
     title: "Программирование",
-    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson34.svg",
+    image: "/images/lessons/grade7/informatics/lesson34.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -797,7 +797,7 @@ export const games = [
   },
   {
     title: "Веб-разработка",
-    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson35.svg",
+    image: "/images/lessons/grade7/informatics/lesson35.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -812,7 +812,7 @@ export const games = [
   },
   {
     title: "Алгоритмы",
-    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson36.svg",
+    image: "/images/lessons/grade7/informatics/lesson36.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",
@@ -827,7 +827,7 @@ export const games = [
   },
   {
     title: "Компьютерная графика",
-    image: "/school-curriculum-app/images/lessons/grade7/informatics/lesson37.svg",
+    image: "/images/lessons/grade7/informatics/lesson37.svg",
     subject: "Информатика",
     icon: "Monitor",
     color: "text-indigo-400",

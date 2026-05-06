@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Что такое робототехника",
-          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson1.svg",
+          image: "/images/lessons/grade7/robotics/lesson1.svg",
           description: `**Робототехника** — наука о создании и применении роботов.
 
 **Робот** — машина, способная выполнять действия человека.
@@ -58,7 +58,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Виды роботов",
-          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson2.svg",
+          image: "/images/lessons/grade7/robotics/lesson2.svg",
           description: `**Классификация роботов:**
 
 **По сфере применения:**
@@ -132,7 +132,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Основные компоненты робота",
-          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson3.svg",
+          image: "/images/lessons/grade7/robotics/lesson3.svg",
           description: `**Структура робота:**
 
 **Механическая часть:**
@@ -194,7 +194,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Arduino — платформа для роботов",
-          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson4.svg",
+          image: "/images/lessons/grade7/robotics/lesson4.svg",
           description: `**Arduino** — популярная платформа для создания роботов.
 
 **Особенности:**
@@ -269,7 +269,7 @@ void loop() {
       lessons: [
         {
           title: "Основы программирования Arduino",
-          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson5.svg",
+          image: "/images/lessons/grade7/robotics/lesson5.svg",
           description: `**Язык программирования:**
 - Основан на C/C++
 - Упрощён для начинающих
@@ -339,7 +339,7 @@ void blink(int pin, int duration) {
         },
         {
           title: "Управление моторами",
-          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson6.svg",
+          image: "/images/lessons/grade7/robotics/lesson6.svg",
           description: `**Подключение DC-мотора:**
 
 **Прямое подключение (не рекомендуется):**
@@ -413,7 +413,7 @@ void backward(int speed) {
       lessons: [
         {
           title: "Ультразвуковой датчик расстояния",
-          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson7.svg",
+          image: "/images/lessons/grade7/robotics/lesson7.svg",
           description: `**HC-SR04** — популярный датчик расстояния.
 
 **Принцип работы:**
@@ -485,7 +485,7 @@ void loop() {
         },
         {
           title: "Датчик линии и датчик света",
-          image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson8.svg",
+          image: "/images/lessons/grade7/robotics/lesson8.svg",
           description: `**Датчик линии:**
 
 **Принцип работы:**
@@ -558,7 +558,7 @@ void loop() {
 export const games = [
   {
     title: "Основы робототехники",
-    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson25.svg",
+    image: "/images/lessons/grade7/robotics/lesson25.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",
@@ -573,7 +573,7 @@ export const games = [
   },
   {
     title: "Компоненты робота",
-    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson26.svg",
+    image: "/images/lessons/grade7/robotics/lesson26.svg",
     subject: "Робототехника",
     icon: "Settings",
     color: "text-blue-400",
@@ -588,7 +588,7 @@ export const games = [
   },
   {
     title: "Датчики и сенсоры",
-    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson27.svg",
+    image: "/images/lessons/grade7/robotics/lesson27.svg",
     subject: "Робототехника",
     icon: "Radio",
     color: "text-yellow-400",
@@ -603,7 +603,7 @@ export const games = [
   },
   {
     title: "Программирование Arduino",
-    image: "/school-curriculum-app/images/lessons/grade7/robotics/lesson28.svg",
+    image: "/images/lessons/grade7/robotics/lesson28.svg",
     subject: "Робототехника",
     icon: "Cpu",
     color: "text-purple-400",

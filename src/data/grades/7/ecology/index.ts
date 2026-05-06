@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Предмет экологии",
-          image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson1.svg",
+          image: "/images/lessons/grade7/ecology/lesson1.svg",
           description: `**Экология** — наука о взаимоотношениях организмов между собой и с окружающей средой.
 
 **История:**
@@ -54,7 +54,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Методы экологических исследований",
-          image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson2.svg",
+          image: "/images/lessons/grade7/ecology/lesson2.svg",
           description: `**Методы изучения экологии:**
 
 **Наблюдение:**
@@ -109,7 +109,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Классификация экологических факторов",
-          image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson3.svg",
+          image: "/images/lessons/grade7/ecology/lesson3.svg",
           description: `**Экологический фактор** — элемент среды, влияющий на организм.
 
 **Группы факторов:**
@@ -162,7 +162,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Свет и температура как факторы",
-          image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson4.svg",
+          image: "/images/lessons/grade7/ecology/lesson4.svg",
           description: `**Свет как экологический фактор:**
 
 **Значение света:**
@@ -225,7 +225,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Понятие экосистемы",
-          image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson5.svg",
+          image: "/images/lessons/grade7/ecology/lesson5.svg",
           description: `**Экосистема** — совокупность организмов и среды их обитания.
 
 **Компоненты экосистемы:**
@@ -276,7 +276,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Пищевые цепи и сети",
-          image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson6.svg",
+          image: "/images/lessons/grade7/ecology/lesson6.svg",
           description: `**Пищевая цепь** — последовательность организмов, в которой каждый предыдущий служит пищей следующему.
 
 **Структура пищевой цепи:**
@@ -336,7 +336,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Круговорот воды и углерода",
-          image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson7.svg",
+          image: "/images/lessons/grade7/ecology/lesson7.svg",
           description: `**Круговорот воды в природе:**
 
 **Процессы:**
@@ -398,7 +398,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Круговорот кислорода и азота",
-          image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson8.svg",
+          image: "/images/lessons/grade7/ecology/lesson8.svg",
           description: `**Круговорот кислорода:**
 
 **Источники кислорода:**
@@ -469,7 +469,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Экосистемы и пищевые цепи",
-    image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson25.svg",
+    image: "/images/lessons/grade7/ecology/lesson25.svg",
     subject: "Экология",
     icon: "Leaf",
     color: "text-green-400",
@@ -484,7 +484,7 @@ export const games = [
   },
   {
     title: "Круговорот веществ",
-    image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson26.svg",
+    image: "/images/lessons/grade7/ecology/lesson26.svg",
     subject: "Экология",
     icon: "Leaf",
     color: "text-green-400",
@@ -499,7 +499,7 @@ export const games = [
   },
   {
     title: "Экология как наука",
-    image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson27.svg",
+    image: "/images/lessons/grade7/ecology/lesson27.svg",
     subject: "Экология",
     icon: "Leaf",
     color: "text-green-400",
@@ -514,7 +514,7 @@ export const games = [
   },
   {
     title: "Экологические факторы",
-    image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson28.svg",
+    image: "/images/lessons/grade7/ecology/lesson28.svg",
     subject: "Экология",
     icon: "Leaf",
     color: "text-green-400",
@@ -539,7 +539,7 @@ export const games = [
   },
   {
     title: "Предмет экологии",
-    image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson29.svg",
+    image: "/images/lessons/grade7/ecology/lesson29.svg",
     subject: "Экология",
     icon: "Leaf",
     color: "text-green-400",
@@ -563,7 +563,7 @@ export const games = [
   },
   {
     title: "Методы экологических исследований",
-    image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson30.svg",
+    image: "/images/lessons/grade7/ecology/lesson30.svg",
     subject: "Экология",
     icon: "Leaf",
     color: "text-green-400",
@@ -587,7 +587,7 @@ export const games = [
   },
   {
     title: "Классификация экологических факторов",
-    image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson31.svg",
+    image: "/images/lessons/grade7/ecology/lesson31.svg",
     subject: "Экология",
     icon: "Leaf",
     color: "text-green-400",
@@ -611,7 +611,7 @@ export const games = [
   },
   {
     title: "Свет и температура как факторы",
-    image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson32.svg",
+    image: "/images/lessons/grade7/ecology/lesson32.svg",
     subject: "Экология",
     icon: "Leaf",
     color: "text-green-400",
@@ -635,7 +635,7 @@ export const games = [
   },
   {
     title: "Понятие экосистемы",
-    image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson33.svg",
+    image: "/images/lessons/grade7/ecology/lesson33.svg",
     subject: "Экология",
     icon: "Leaf",
     color: "text-green-400",
@@ -659,7 +659,7 @@ export const games = [
   },
   {
     title: "Пищевые цепи и сети",
-    image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson34.svg",
+    image: "/images/lessons/grade7/ecology/lesson34.svg",
     subject: "Экология",
     icon: "Leaf",
     color: "text-green-400",
@@ -683,7 +683,7 @@ export const games = [
   },
   {
     title: "Круговорот воды и углерода",
-    image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson35.svg",
+    image: "/images/lessons/grade7/ecology/lesson35.svg",
     subject: "Экология",
     icon: "Leaf",
     color: "text-green-400",
@@ -707,7 +707,7 @@ export const games = [
   },
   {
     title: "Круговорот кислорода и азота",
-    image: "/school-curriculum-app/images/lessons/grade7/ecology/lesson36.svg",
+    image: "/images/lessons/grade7/ecology/lesson36.svg",
     subject: "Экология",
     icon: "Leaf",
     color: "text-green-400",

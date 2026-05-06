@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Периодический закон Д.И. Менделеева",
-          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson1.svg",
+          image: "/images/lessons/grade7/chemistry/lesson1.svg",
           description: `**Периодический закон** — фундаментальный закон химии.
 
 **Открытие:**
@@ -60,7 +60,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Структура периодической системы",
-          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson2.svg",
+          image: "/images/lessons/grade7/chemistry/lesson2.svg",
           description: `**Структура таблицы Менделеева:**
 
 **Периоды:**
@@ -114,7 +114,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Металлы и неметаллы",
-          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson3.svg",
+          image: "/images/lessons/grade7/chemistry/lesson3.svg",
           description: `**Металлы** — элементы с металлическими свойствами.
 
 **Характерные свойства металлов:**
@@ -179,7 +179,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Типы химической связи",
-          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson4.svg",
+          image: "/images/lessons/grade7/chemistry/lesson4.svg",
           description: `**Химическая связь** — взаимодействие атомов.
 
 **Ионная связь:**
@@ -239,6 +239,75 @@ Na⁺ + Cl⁻ → NaCl
             "Ковалентная связь образуется при обобществлении электронных пар",
             "Металлическая связь характерна для металлов — электроны свободны"
           ]
+        },
+        {
+          title: "Электроотрицательность и ионная связь",
+          image: "/images/lessons/grade7/chemistry/lesson10.svg",
+          description: `**Электроотрицательность** — способность атома притягивать к себе общую электронную пару.
+
+**Шкала электроотрицательности (Полинг):**
+- Фтор (F) — самый электроотрицательный элемент (4,0)
+- Кислород (O) — 3,5
+- Азот (N) — 3,0
+- Хлор (Cl) — 3,0
+- Углерод (C) — 2,5
+- Водород (H) — 2,1
+- Натрий (Na) — 0,9
+
+**Закономерности:**
+- Электроотрицательность увеличивается слева направо в периоде
+- Электроотрицательность уменьшается сверху вниз в группе
+- Чем больше разность электроотрицательностей, тем более полярна связь
+
+**Ионная связь — подробно:**
+
+**Условия образования:**
+1. Большая разность электроотрицательностей (ΔЭО > 1,7)
+2. Атом металла отдаёт электроны → становится катионом (+)
+3. Атом неметалла принимает электроны → становится анионом (−)
+4. Катионы и анионы притягиваются за счёт электростатических сил
+
+**Примеры ионных соединений:**
+- NaCl: Na⁺ + Cl⁻ (ΔЭО = 2,1)
+- CaO: Ca²⁺ + O²⁻ (ΔЭО = 2,5)
+- KBr: K⁺ + Br⁻ (ΔЭО = 1,7)
+
+**Кристаллические решётки ионных соединений:**
+
+**Ионная кристаллическая решётка:**
+- В узлах решётки — ионы
+- Прочные электростатические связи
+- Высокие температуры плавления и кипения
+- Твёрдые и хрупкие вещества
+- Хорошо растворимы в воде
+- Расплавы проводят электрический ток
+
+**Примеры:**
+- NaCl (поваренная соль) — tпл = 801°C
+- CaO (негашёная известь) — tпл = 2572°C
+- KNO₃ (нитрат калия) — tпл = 334°C
+
+**Сравнение типов кристаллических решёток:**
+- Ионная: NaCl, CaO — высокие tпл, хрупкие, растворимые
+- Молекулярная: H₂O, CO₂ — низкие tпл, летучие
+- Атомная: алмаз, SiO₂ — очень высокие tпл, твёрдые
+- Металлическая: Fe, Cu — ковкие, проводят ток`,
+          tasks: [
+            "Что такое электроотрицательность?",
+            "Какой элемент самый электроотрицательный?",
+            "При какой разности ЭО образуется ионная связь?",
+            "Какие свойства у веществ с ионной кристаллической решёткой?"
+          ],
+          examples: [
+            "NaCl образуется при передаче электрона от Na к Cl: Na → Na⁺ + e⁻, Cl + e⁻ → Cl⁻ 🔗",
+            "Фтор — самый электроотрицательный элемент (4,0), натрий — один из наименее (0,9)",
+            "Ионные вещества имеют высокие температуры плавления: NaCl плавится при 801°C"
+          ],
+          keyPoints: [
+            "Электроотрицательность — способность атома притягивать электронную пару, увеличивается слева направо и снизу вверх",
+            "Ионная связь образуется при разности электроотрицательностей больше 1,7 между металлом и неметаллом",
+            "Ионная кристаллическая решётка: высокие температуры плавления, хрупкость, растворимость в воде, проводимость расплавов"
+          ]
         }
       ]
     },
@@ -247,7 +316,7 @@ Na⁺ + Cl⁻ → NaCl
       lessons: [
         {
           title: "Типы химических реакций",
-          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson5.svg",
+          image: "/images/lessons/grade7/chemistry/lesson5.svg",
           description: `**Химическая реакция** — превращение одних веществ в другие.
 
 **Признаки химических реакций:**
@@ -301,7 +370,7 @@ Na⁺ + Cl⁻ → NaCl
         },
         {
           title: "Уравнения химических реакций",
-          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson6.svg",
+          image: "/images/lessons/grade7/chemistry/lesson6.svg",
           description: `**Химическое уравнение** — запись реакции с помощью формул.
 
 **Закон сохранения массы:**
@@ -362,7 +431,7 @@ CaCO₃ = CaO + CO₂
         },
         {
           title: "Скорость химических реакций",
-          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson7.svg",
+          image: "/images/lessons/grade7/chemistry/lesson7.svg",
           description: `**Скорость реакции** — изменение концентрации веществ в единицу времени.
 
 **Факторы, влияющие на скорость:**
@@ -419,7 +488,7 @@ CaCO₃ = CaO + CO₂
       lessons: [
         {
           title: "Кислоты и основания",
-          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson8.svg",
+          image: "/images/lessons/grade7/chemistry/lesson8.svg",
           description: `**Кислоты** — сложные вещества, содержащие атомы водорода.
 
 **Характерные свойства:**
@@ -475,7 +544,7 @@ HCl + NaOH = NaCl + H₂O
         },
         {
           title: "Оксиды и соли",
-          image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson9.svg",
+          image: "/images/lessons/grade7/chemistry/lesson9.svg",
           description: `**Оксиды** — сложные вещества из двух элементов, один из которых кислород.
 
 **Классификация оксидов:**
@@ -542,7 +611,7 @@ Na₂CO₃ + 2HCl = 2NaCl + H₂O + CO₂
 export const games = [
   {
     title: "Периодическая система",
-    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson28.svg",
+    image: "/images/lessons/grade7/chemistry/lesson28.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -557,7 +626,7 @@ export const games = [
   },
   {
     title: "Химические реакции",
-    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson29.svg",
+    image: "/images/lessons/grade7/chemistry/lesson29.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -572,7 +641,7 @@ export const games = [
   },
   {
     title: "Вещества",
-    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson30.svg",
+    image: "/images/lessons/grade7/chemistry/lesson30.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -587,7 +656,7 @@ export const games = [
   },
   {
     title: "Химическая связь",
-    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson31.svg",
+    image: "/images/lessons/grade7/chemistry/lesson31.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -602,7 +671,7 @@ export const games = [
   },
   {
     title: "Структура периодической системы",
-    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson32.svg",
+    image: "/images/lessons/grade7/chemistry/lesson32.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -626,7 +695,7 @@ export const games = [
   },
   {
     title: "Уравнения химических реакций",
-    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson33.svg",
+    image: "/images/lessons/grade7/chemistry/lesson33.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -650,7 +719,7 @@ export const games = [
   },
   {
     title: "Оксиды и соли",
-    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson34.svg",
+    image: "/images/lessons/grade7/chemistry/lesson34.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -675,7 +744,7 @@ export const games = [
   },
   {
     title: "Металлы и неметаллы",
-    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson35.svg",
+    image: "/images/lessons/grade7/chemistry/lesson35.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",
@@ -699,7 +768,7 @@ export const games = [
   },
   {
     title: "Скорость химических реакций",
-    image: "/school-curriculum-app/images/lessons/grade7/chemistry/lesson36.svg",
+    image: "/images/lessons/grade7/chemistry/lesson36.svg",
     subject: "Химия",
     icon: "FlaskConical",
     color: "text-cyan-400",

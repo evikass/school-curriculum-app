@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background - snowy sky -->
+  <rect width="800" height="500" fill="#D6EAF8" rx="12"/>
+  
+  <!-- Snowy slope -->
+  <polygon points="0,200 800,350 800,500 0,500" fill="#F0F6FC"/>
+  <polygon points="0,220 800,370 800,500 0,500" fill="#E8EFF7"/>
+  
+  <!-- Snow surface texture -->
+  <line x1="50" y1="300" x2="120" y2="308" stroke="#D4E3F1" stroke-width="1.5"/>
+  <line x1="300" y1="350" x2="380" y2="358" stroke="#D4E3F1" stroke-width="1.5"/>
+  <line x1="550" y1="390" x2="620" y2="395" stroke="#D4E3F1" stroke-width="1.5"/>
+  
+  <!-- Snowflakes -->
+  <circle cx="100" cy="50" r="3" fill="white" opacity="0.8"/>
+  <circle cx="250" cy="80" r="2.5" fill="white" opacity="0.7"/>
+  <circle cx="400" cy="30" r="3.5" fill="white" opacity="0.6"/>
+  <circle cx="550" cy="70" r="2" fill="white" opacity="0.8"/>
+  <circle cx="700" cy="45" r="3" fill="white" opacity="0.7"/>
+  <circle cx="150" cy="120" r="2" fill="white" opacity="0.6"/>
+  <circle cx="350" cy="100" r="2.5" fill="white" opacity="0.7"/>
+  <circle cx="600" cy="110" r="3" fill="white" opacity="0.5"/>
+  <circle cx="50" cy="160" r="2" fill="white" opacity="0.6"/>
+  <circle cx="750" cy="130" r="2.5" fill="white" opacity="0.7"/>
+  
+  <!-- Trees in background -->
+  <polygon points="80,200 95,130 110,200" fill="#5B9BD5" opacity="0.3"/>
+  <rect x="92" y="200" width="6" height="15" fill="#7A6B52" opacity="0.3"/>
+  <polygon points="720,230 735,160 750,230" fill="#5B9BD5" opacity="0.3"/>
+  <rect x="732" y="230" width="6" height="15" fill="#7A6B52" opacity="0.3"/>
+  
+  <!-- Ski tracks - main turning path (S-curves down the slope) -->
+  <path d="M 350,220 C 350,240 280,260 280,280 C 280,300 350,320 350,340 C 350,360 280,380 280,400 C 280,420 350,440 350,460" 
+        fill="none" stroke="#4A90C4" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 370,220 C 370,240 300,260 300,280 C 300,300 370,320 370,340 C 370,360 300,380 300,400 C 300,420 370,440 370,460" 
+        fill="none" stroke="#4A90C4" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Snowplow/Plow stop pattern (V-shape tracks spreading apart) -->
+  <path d="M 550,280 L 520,320 L 490,360 L 450,400 L 400,440" 
+        fill="none" stroke="#2E6DA4" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 570,280 L 600,320 L 630,360 L 670,400 L 720,440" 
+        fill="none" stroke="#2E6DA4" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Skier doing snowplow stop -->
+  <!-- Body -->
+  <circle cx="560" cy="245" r="14" fill="none" stroke="#2E6DA4" stroke-width="2.5"/>
+  <line x1="560" y1="259" x2="560" y2="300" stroke="#2E6DA4" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Arms with poles -->
+  <line x1="560" y1="272" x2="530" y2="295" stroke="#2E6DA4" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="560" y1="272" x2="590" y2="295" stroke="#2E6DA4" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Poles -->
+  <line x1="530" y1="295" x2="520" y2="330" stroke="#2E6DA4" stroke-width="1.5"/>
+  <line x1="590" y1="295" x2="600" y2="330" stroke="#2E6DA4" stroke-width="1.5"/>
+  <!-- Legs in V (snowplow stance) -->
+  <line x1="560" y1="300" x2="540" y2="320" stroke="#2E6DA4" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="560" y1="300" x2="580" y2="320" stroke="#2E6DA4" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Skis -->
+  <line x1="520" y1="323" x2="540" y2="323" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/>
+  <line x1="580" y1="323" x2="600" y2="323" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Skier doing turn (on the S-curve track) -->
+  <circle cx="315" cy="290" r="12" fill="none" stroke="#2E6DA4" stroke-width="2" opacity="0.6"/>
+  <line x1="315" y1="302" x2="315" y2="335" stroke="#2E6DA4" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="315" y1="312" x2="295" y2="330" stroke="#2E6DA4" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="315" y1="312" x2="335" y2="330" stroke="#2E6DA4" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="315" y1="335" x2="305" y2="350" stroke="#2E6DA4" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="315" y1="335" x2="325" y2="350" stroke="#2E6DA4" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <!-- Skis parallel (carving turn) -->
+  <line x1="300" y1="353" x2="310" y2="353" stroke="#F5A623" stroke-width="2.5" opacity="0.6"/>
+  <line x1="320" y1="353" x2="330" y2="353" stroke="#F5A623" stroke-width="2.5" opacity="0.6"/>
+
+  <!-- Snow spray from plow stop -->
+  <circle cx="430" cy="430" r="4" fill="white" opacity="0.7"/>
+  <circle cx="445" cy="440" r="3" fill="white" opacity="0.6"/>
+  <circle cx="415" cy="435" r="3.5" fill="white" opacity="0.7"/>
+  <circle cx="690" cy="430" r="4" fill="white" opacity="0.7"/>
+  <circle cx="705" cy="440" r="3" fill="white" opacity="0.6"/>
+  <circle cx="675" cy="435" r="3.5" fill="white" opacity="0.7"/>
+  
+  <!-- Direction arrows on slope -->
+  <path d="M 140,250 L 140,290" fill="none" stroke="#A0BFD4" stroke-width="2" opacity="0.5"/>
+  <polygon points="135,288 140,298 145,288" fill="#A0BFD4" opacity="0.5"/>
+  
+  <path d="M 680,250 L 680,290" fill="none" stroke="#A0BFD4" stroke-width="2" opacity="0.5"/>
+  <polygon points="675,288 680,298 685,288" fill="#A0BFD4" opacity="0.5"/>
+</svg>

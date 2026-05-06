@@ -11,7 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Что такое человек",
-          image: "/school-curriculum-app/images/lessons/grade7/social/lesson1.svg",
+          image: "/images/lessons/grade7/social/lesson1.svg",
           description: `**Человек** — биосоциальное существо, обладающее сознанием, речью и способностью к труду.
 
 **Биологическая природа человека:**
@@ -62,7 +62,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Потребности человека",
-          image: "/school-curriculum-app/images/lessons/grade7/social/lesson2.svg",
+          image: "/images/lessons/grade7/social/lesson2.svg",
           description: `**Потребность** — нужда в чём-либо необходимом.
 
 **Виды потребностей:**
@@ -125,7 +125,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Общество как система",
-          image: "/school-curriculum-app/images/lessons/grade7/social/lesson3.svg",
+          image: "/images/lessons/grade7/social/lesson3.svg",
           description: `**Общество** — совокупность людей, объединённых различными связями.
 
 **Признаки общества:**
@@ -189,7 +189,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Что такое деятельность",
-          image: "/school-curriculum-app/images/lessons/grade7/social/lesson4.svg",
+          image: "/images/lessons/grade7/social/lesson4.svg",
           description: `**Деятельность** — активность человека, направленная на достижение цели.
 
 **Структура деятельности:**
@@ -254,7 +254,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Трудовая деятельность",
-          image: "/school-curriculum-app/images/lessons/grade7/social/lesson5.svg",
+          image: "/images/lessons/grade7/social/lesson5.svg",
           description: `**Труд** — деятельность, создающая материальные и духовные блага.
 
 **Виды труда:**
@@ -313,7 +313,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Общение и его виды",
-          image: "/school-curriculum-app/images/lessons/grade7/social/lesson6.svg",
+          image: "/images/lessons/grade7/social/lesson6.svg",
           description: `**Общение** — процесс обмена информацией между людьми.
 
 **Функции общения:**
@@ -368,7 +368,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Конфликты и их решение",
-          image: "/school-curriculum-app/images/lessons/grade7/social/lesson7.svg",
+          image: "/images/lessons/grade7/social/lesson7.svg",
           description: `**Конфликт** — столкновение противоположных интересов.
 
 **Причины конфликтов:**
@@ -435,7 +435,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Что такое политика",
-          image: "/school-curriculum-app/images/lessons/grade7/social/lesson8.svg",
+          image: "/images/lessons/grade7/social/lesson8.svg",
           description: `**Политика** — деятельность, связанная с властью.
 
 **Власть** — способность влиять на поведение людей.
@@ -488,7 +488,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Формы правления",
-          image: "/school-curriculum-app/images/lessons/grade7/social/lesson9.svg",
+          image: "/images/lessons/grade7/social/lesson9.svg",
           description: `**Форма правления** — способ организации власти.
 
 **Монархия:**
@@ -553,7 +553,7 @@ export const lessons: SubjectData = {
 export const games = [
   {
     title: "Человек и общество",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson28.svg",
+    image: "/images/lessons/grade7/social/lesson28.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -568,7 +568,7 @@ export const games = [
   },
   {
     title: "Политика и власть",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson29.svg",
+    image: "/images/lessons/grade7/social/lesson29.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -583,7 +583,7 @@ export const games = [
   },
   {
     title: "Деятельность человека",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson30.svg",
+    image: "/images/lessons/grade7/social/lesson30.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -610,7 +610,7 @@ export const games = [
   },
   {
     title: "Конфликты и общение",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson31.svg",
+    image: "/images/lessons/grade7/social/lesson31.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -625,7 +625,7 @@ export const games = [
   },
   {
     title: "Что такое человек",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson32.svg",
+    image: "/images/lessons/grade7/social/lesson32.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -650,7 +650,7 @@ export const games = [
   },
   {
     title: "Потребности человека",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson33.svg",
+    image: "/images/lessons/grade7/social/lesson33.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -675,7 +675,7 @@ export const games = [
   },
   {
     title: "Общество как система",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson34.svg",
+    image: "/images/lessons/grade7/social/lesson34.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -700,7 +700,7 @@ export const games = [
   },
   {
     title: "Что такое деятельность",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson35.svg",
+    image: "/images/lessons/grade7/social/lesson35.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -725,7 +725,7 @@ export const games = [
   },
   {
     title: "Трудовая деятельность",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson36.svg",
+    image: "/images/lessons/grade7/social/lesson36.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -750,7 +750,7 @@ export const games = [
   },
   {
     title: "Общение и его виды",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson37.svg",
+    image: "/images/lessons/grade7/social/lesson37.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -775,7 +775,7 @@ export const games = [
   },
   {
     title: "Конфликты и их решение",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson38.svg",
+    image: "/images/lessons/grade7/social/lesson38.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -800,7 +800,7 @@ export const games = [
   },
   {
     title: "Что такое политика",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson39.svg",
+    image: "/images/lessons/grade7/social/lesson39.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -825,7 +825,7 @@ export const games = [
   },
   {
     title: "Формы правления",
-    image: "/school-curriculum-app/images/lessons/grade7/social/lesson40.svg",
+    image: "/images/lessons/grade7/social/lesson40.svg",
     subject: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
