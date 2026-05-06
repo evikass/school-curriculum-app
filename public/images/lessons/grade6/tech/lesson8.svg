@@ -169,7 +169,7 @@
   <text x="365" y="271" font-family="Arial,sans-serif" font-size="7" fill="#424242">Оформление</text>
 
   <!-- Process flow arrows -->
-  <path d="M132" y1="135" d="M132,135 L145,135" fill="none" stroke="#1565C0" stroke-width="1" marker-end="url(#arrow)"/>
+  <path d="M132,135 L145,135" fill="none" stroke="#1565C0" stroke-width="1" marker-end="url(#arrow)"/>
 
   <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
   <text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Творческий проект</text>
