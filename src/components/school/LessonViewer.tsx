@@ -122,7 +122,8 @@ export default function LessonViewer() {
     const generatedGame = generateLessonQuiz(
       lesson.title,
       lesson.description,
-      selectedSubject.title
+      selectedSubject.title,
+      selectedClass ?? undefined
     )
 
     if (generatedGame) {

@@ -280,7 +280,7 @@ interface Lesson {
 }
 
 export default function KidLessonViewer() {
-  const { selectedSubject, goBack, completeTopic, addPoints, selectGame, selectGameFromLesson, games: contextGames, selectedLesson, selectLesson, isLessonTestCompleted } = useSchool()
+  const { selectedSubject, goBack, completeTopic, addPoints, selectGame, selectGameFromLesson, games: contextGames, selectedLesson, selectLesson, isLessonTestCompleted, selectedClass } = useSchool()
   const [selectedTopicIndex, setSelectedTopicIndex] = useState<number | null>(null)
   const [showGames, setShowGames] = useState(false)
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(new Set())
@@ -466,7 +466,8 @@ export default function KidLessonViewer() {
                     const generatedGame = generateLessonQuiz(
                       selectedLesson.title,
                       selectedLesson.description,
-                      selectedSubject.title
+                      selectedSubject.title,
+                      selectedClass ?? undefined
                     )
                     if (generatedGame) {
                       selectGameFromLesson(generatedGame)
