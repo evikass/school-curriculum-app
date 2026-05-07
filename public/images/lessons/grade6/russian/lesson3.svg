@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+      <stop offset="0%" stop-color="#FFEBEE"/>
+      <stop offset="100%" stop-color="#FFCDD2"/>
     </linearGradient>
   </defs>
   <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#D32F2F" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#D32F2F" stroke-width="1" opacity="0.3"/>
   <!-- Bauhaus corners -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <polygon points="10,10 30,10 10,30" fill="#D32F2F" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#E53935" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#EF5350" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#EF9A9A" opacity="0.08"/>
   <!-- Bauhaus circles -->
-  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="70" cy="15" r="4" fill="#D32F2F" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#E53935" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#EF5350" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#D32F2F" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#E53935" opacity="0.1"/>
   <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
   <!-- Title (two lines to fit) -->
   <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#C62828" text-anchor="middle">Исконно русские и</text>
@@ -64,7 +64,7 @@
   <ellipse cx="342" cy="148" rx="8" ry="28" fill="none" stroke="#1565C0" stroke-width="0.5"/>
   <!-- Arrows from languages -->
   <line x1="300" y1="128" x2="278" y2="114" stroke="#C62828" stroke-width="1.2"/>
-  <polygon points="275,112 272,118 279,116" fill="#C62828"/>
+  <polygon points="275,112 272,118 279,116" fill="#D32F2F"/>
   <text x="253" y="112" font-family="Arial,sans-serif" font-size="6" fill="#C62828">латынь</text>
   <line x1="358" y1="126" x2="388" y2="112" stroke="#F9A825" stroke-width="1.2"/>
   <polygon points="391,110 394,116 388,115" fill="#F9A825"/>
@@ -113,6 +113,8 @@
   <text x="422" y="275" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">дача, сметана</text>
 
   <!-- Bottom bar -->
-  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#D32F2F" opacity="0.85"/>
   <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Исконно русские и заимствованные слова</text>
+  <text x="435" y="130" font-family="serif" font-size="24" fill="#D32F2F" opacity="0.1">Аа</text>
+  <line x1="435" y1="140" x2="475" y2="140" stroke="#EF5350" stroke-width="1" opacity="0.08"/>
 </svg>

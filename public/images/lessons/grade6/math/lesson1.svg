@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#BBDEFB"/>
     </linearGradient>
   </defs>
   <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#1565C0" stroke-width="1" opacity="0.3"/>
   <!-- Bauhaus corners -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <polygon points="10,10 30,10 10,30" fill="#0D47A1" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#0D47A1" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#1976D2" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#42A5F5" opacity="0.08"/>
   <!-- Bauhaus circles -->
-  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="70" cy="15" r="4" fill="#0D47A1" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#0D47A1" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#1976D2" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#0D47A1" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#0D47A1" opacity="0.1"/>
   <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
   <!-- Title -->
   <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Делители и кратные</text>
@@ -33,7 +33,7 @@
   <text x="92" y="104" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">Делители числа 12</text>
   <line x1="28" y1="108" x2="157" y2="108" stroke="#E0E0E0" stroke-width="1"/>
   <!-- 12 as dots in groups -->
-  <circle cx="38" cy="122" r="3.5" fill="#C62828"/><circle cx="50" cy="122" r="3.5" fill="#C62828"/><circle cx="62" cy="122" r="3.5" fill="#C62828"/>
+  <circle cx="38" cy="122" r="3.5" fill="#1565C0"/><circle cx="50" cy="122" r="3.5" fill="#1565C0"/><circle cx="62" cy="122" r="3.5" fill="#1565C0"/>
   <circle cx="74" cy="122" r="3.5" fill="#1565C0"/><circle cx="86" cy="122" r="3.5" fill="#1565C0"/><circle cx="98" cy="122" r="3.5" fill="#1565C0"/>
   <circle cx="110" cy="122" r="3.5" fill="#2E7D32"/><circle cx="122" cy="122" r="3.5" fill="#2E7D32"/><circle cx="134" cy="122" r="3.5" fill="#2E7D32"/>
   <circle cx="146" cy="122" r="3.5" fill="#F9A825"/>
@@ -111,6 +111,11 @@
   <line x1="247" y1="228" x2="247" y2="282" stroke="#F9A825" stroke-width="1.5" stroke-dasharray="3,3"/>
 
   <!-- Bottom panel -->
-  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#1565C0" opacity="0.85"/>
   <text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Делители и кратные</text>
+  <line x1="430" y1="100" x2="480" y2="100" stroke="#1565C0" stroke-width="0.5" opacity="0.15"/>
+  <line x1="430" y1="120" x2="480" y2="120" stroke="#1565C0" stroke-width="0.5" opacity="0.15"/>
+  <line x1="430" y1="140" x2="480" y2="140" stroke="#1565C0" stroke-width="0.5" opacity="0.15"/>
+  <line x1="445" y1="90" x2="445" y2="150" stroke="#1565C0" stroke-width="0.5" opacity="0.15"/>
+  <line x1="460" y1="90" x2="460" y2="150" stroke="#1565C0" stroke-width="0.5" opacity="0.15"/>
 </svg>

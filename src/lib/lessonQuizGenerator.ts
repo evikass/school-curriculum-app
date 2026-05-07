@@ -1691,8 +1691,8 @@ export function generateLessonQuiz(lessonTitle: string, lessonDescription: strin
     }
   }
 
-  // Если не нашли в старших - ищем в младших
-  if (!matchingTasks) {
+  // Если не нашли в старших - ищем в младших (ТОЛЬКО для классов 0-2)
+  if (!matchingTasks && (grade === undefined || grade === null || grade <= 2)) {
     for (const [topic, taskSets] of Object.entries(quizDatabase)) {
       const topicLower = topic.toLowerCase()
 
@@ -2116,11 +2116,13 @@ export function generateLessonQuiz(lessonTitle: string, lessonDescription: strin
           matchingTasks = seniorTaskSets[Math.floor(Math.random() * seniorTaskSets.length)]
           break
         }
-        // Потом в младших
-        const taskSets = quizDatabase[topic]
-        if (taskSets) {
-          matchingTasks = taskSets[Math.floor(Math.random() * taskSets.length)]
-          break
+        // Потом в младших (ТОЛЬКО для классов 0-2)
+        if (grade === undefined || grade === null || grade <= 2) {
+          const taskSets = quizDatabase[topic]
+          if (taskSets) {
+            matchingTasks = taskSets[Math.floor(Math.random() * taskSets.length)]
+            break
+          }
         }
       }
     }

@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+      <stop offset="0%" stop-color="#EFEBE9"/>
+      <stop offset="100%" stop-color="#D7CCC8"/>
     </linearGradient>
   </defs>
   <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5D4037" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5D4037" stroke-width="1" opacity="0.3"/>
   <!-- Bauhaus corners -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <polygon points="10,10 30,10 10,30" fill="#5D4037" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#795548" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#8D6E63" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#A1887F" opacity="0.08"/>
   <!-- Bauhaus circles -->
-  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="70" cy="15" r="4" fill="#5D4037" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#795548" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#8D6E63" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#5D4037" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#795548" opacity="0.1"/>
   <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
   <!-- Title -->
   <text x="250" y="50" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#C62828" text-anchor="middle">Русские народные сказки</text>
@@ -67,8 +67,8 @@
   <rect x="81" y="191" width="10" height="8" fill="#F9A825" opacity="0.3"/>
   <!-- Skull above door -->
   <circle cx="130" cy="215" r="5" fill="white" stroke="#4E342E" stroke-width="0.8"/>
-  <circle cx="128" cy="214" r="1.2" fill="#C62828"/>
-  <circle cx="132" cy="214" r="1.2" fill="#C62828"/>
+  <circle cx="128" cy="214" r="1.2" fill="#5D4037"/>
+  <circle cx="132" cy="214" r="1.2" fill="#5D4037"/>
   <polygon points="129,217 130,219 131,217" fill="#4E342E"/>
   <!-- Chicken legs -->
   <!-- Left leg -->
@@ -98,7 +98,7 @@
   <!-- Crest -->
   <path d="M310,140 L308,128 L315,135 L312,125 L320,134" stroke="#C62828" stroke-width="1.5" fill="#C62828" opacity="0.6"/>
   <!-- Eye -->
-  <circle cx="312" cy="146" r="2" fill="#C62828"/>
+  <circle cx="312" cy="146" r="2" fill="#5D4037"/>
   <circle cx="312" cy="145.5" r="0.8" fill="white"/>
   <!-- Beak -->
   <polygon points="305,148 298,150 305,152" fill="#E65100"/>
@@ -127,9 +127,9 @@
   <circle cx="309" cy="220" r="10" fill="#FFCC80" stroke="#C62828" stroke-width="1"/>
   <!-- Crown -->
   <path d="M299,214 Q302,205 309,203 Q316,205 319,214" fill="#F9A825" stroke="#E65100" stroke-width="1"/>
-  <circle cx="302" cy="210" r="2" fill="#C62828"/>
-  <circle cx="309" cy="206" r="2.5" fill="#C62828"/>
-  <circle cx="316" cy="210" r="2" fill="#C62828"/>
+  <circle cx="302" cy="210" r="2" fill="#5D4037"/>
+  <circle cx="309" cy="206" r="2.5" fill="#5D4037"/>
+  <circle cx="316" cy="210" r="2" fill="#5D4037"/>
   <!-- Eyes -->
   <circle cx="306" cy="219" r="1.5" fill="#1565C0"/>
   <circle cx="312" cy="219" r="1.5" fill="#1565C0"/>
@@ -161,6 +161,10 @@
   <text x="420" y="292" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Скатерть</text>
 
   <!-- Bottom bar -->
-  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#5D4037" opacity="0.85"/>
   <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русские народные сказки</text>
+  <rect x="435" y="108" width="25" height="35" rx="2" fill="#5D4037" opacity="0.08"/>
+  <line x1="447" y1="108" x2="447" y2="143" stroke="#8D6E63" stroke-width="0.8" opacity="0.12"/>
+  <rect x="438" y="112" width="8" height="2" fill="#A1887F" opacity="0.1"/>
+  <rect x="438" y="118" width="8" height="2" fill="#A1887F" opacity="0.1"/>
 </svg>

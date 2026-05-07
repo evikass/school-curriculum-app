@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+      <stop offset="0%" stop-color="#EFEBE9"/>
+      <stop offset="100%" stop-color="#D7CCC8"/>
     </linearGradient>
   </defs>
   <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5D4037" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5D4037" stroke-width="1" opacity="0.3"/>
   <!-- Bauhaus corners -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <polygon points="10,10 30,10 10,30" fill="#5D4037" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#795548" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#8D6E63" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#A1887F" opacity="0.08"/>
   <!-- Bauhaus circles -->
-  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="70" cy="15" r="4" fill="#5D4037" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#795548" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#8D6E63" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#5D4037" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#795548" opacity="0.1"/>
   <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
   <!-- Title -->
   <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Подвиги Геракла</text>
@@ -46,8 +46,8 @@
   <!-- Lion mane -->
   <path d="M80,122 Q78,110 85,108 Q92,105 97,107 Q102,105 109,108 Q116,110 114,122" fill="#D4A574" stroke="#8D6E63" stroke-width="0.8" opacity="0.7"/>
   <!-- Eyes -->
-  <circle cx="92" cy="122" r="2" fill="#C62828"/>
-  <circle cx="102" cy="122" r="2" fill="#C62828"/>
+  <circle cx="92" cy="122" r="2" fill="#5D4037"/>
+  <circle cx="102" cy="122" r="2" fill="#5D4037"/>
   <!-- Mouth (determined) -->
   <line x1="92" y1="129" x2="102" y2="129" stroke="#C62828" stroke-width="1.2"/>
   <!-- Arms - left with club -->
@@ -77,29 +77,29 @@
   <!-- Neck 1 (center) -->
   <path d="M254,157 Q254,145 254,135" stroke="#2E7D32" stroke-width="5" fill="none"/>
   <circle cx="254" cy="130" r="8" fill="#81C784" stroke="#2E7D32" stroke-width="1.2"/>
-  <circle cx="251" cy="128" r="2" fill="#C62828"/>
-  <circle cx="257" cy="128" r="2" fill="#C62828"/>
-  <polygon points="250,133 254,137 258,133" fill="#C62828"/>
+  <circle cx="251" cy="128" r="2" fill="#5D4037"/>
+  <circle cx="257" cy="128" r="2" fill="#5D4037"/>
+  <polygon points="250,133 254,137 258,133" fill="#5D4037"/>
   <!-- Neck 2 (left) -->
   <path d="M238,157 Q228,145 218,135" stroke="#2E7D32" stroke-width="4" fill="none"/>
   <circle cx="215" cy="130" r="7" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.2"/>
-  <circle cx="212" cy="128" r="1.5" fill="#C62828"/>
-  <circle cx="218" cy="128" r="1.5" fill="#C62828"/>
+  <circle cx="212" cy="128" r="1.5" fill="#5D4037"/>
+  <circle cx="218" cy="128" r="1.5" fill="#5D4037"/>
   <!-- Neck 3 (right) -->
   <path d="M270,157 Q280,145 290,135" stroke="#2E7D32" stroke-width="4" fill="none"/>
   <circle cx="293" cy="130" r="7" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.2"/>
-  <circle cx="290" cy="128" r="1.5" fill="#C62828"/>
-  <circle cx="296" cy="128" r="1.5" fill="#C62828"/>
+  <circle cx="290" cy="128" r="1.5" fill="#5D4037"/>
+  <circle cx="296" cy="128" r="1.5" fill="#5D4037"/>
   <!-- Neck 4 (far left) -->
   <path d="M225,160 Q210,155 200,145" stroke="#2E7D32" stroke-width="3.5" fill="none"/>
   <circle cx="197" cy="140" r="6" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
-  <circle cx="195" cy="138" r="1.5" fill="#C62828"/>
-  <circle cx="200" cy="138" r="1.5" fill="#C62828"/>
+  <circle cx="195" cy="138" r="1.5" fill="#5D4037"/>
+  <circle cx="200" cy="138" r="1.5" fill="#5D4037"/>
   <!-- Neck 5 (far right) -->
   <path d="M283,160 Q298,155 308,145" stroke="#2E7D32" stroke-width="3.5" fill="none"/>
   <circle cx="311" cy="140" r="6" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
-  <circle cx="309" cy="138" r="1.5" fill="#C62828"/>
-  <circle cx="314" cy="138" r="1.5" fill="#C62828"/>
+  <circle cx="309" cy="138" r="1.5" fill="#5D4037"/>
+  <circle cx="314" cy="138" r="1.5" fill="#5D4037"/>
   <!-- Stump of cut neck -->
   <line x1="240" y1="162" x2="244" y2="162" stroke="#C62828" stroke-width="2"/>
   <!-- Fire torch -->
@@ -114,7 +114,7 @@
   <!-- Grid of labor symbols -->
   <!-- 1. Nemean Lion -->
   <circle cx="370" cy="122" r="8" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
-  <circle cx="370" cy="120" r="2" fill="#C62828"/>
+  <circle cx="370" cy="120" r="2" fill="#5D4037"/>
   <text x="370" y="135" font-family="Arial,sans-serif" font-size="5" fill="#777" text-anchor="middle">1</text>
   <!-- 2. Hydra -->
   <circle cx="406" cy="122" r="8" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.8"/>
@@ -133,7 +133,7 @@
   <!-- 5. Augean Stables -->
   <circle cx="406" cy="150" r="8" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
   <rect x="401" y="147" width="10" height="6" fill="#8D6E63"/>
-  <path d="M403,147 L403,144 L409,144 L409,147" fill="#C62828"/>
+  <path d="M403,147 L403,144 L409,144 L409,147" fill="#5D4037"/>
   <text x="406" y="163" font-family="Arial,sans-serif" font-size="5" fill="#777" text-anchor="middle">5</text>
   <!-- 6. Stymphalian Birds -->
   <circle cx="442" cy="150" r="8" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
@@ -154,7 +154,7 @@
   <!-- 9. Belt of Hippolyta -->
   <circle cx="442" cy="178" r="8" fill="#FCE4EC" stroke="#C62828" stroke-width="0.8"/>
   <rect x="437" y="175" width="10" height="3" rx="1" fill="#F9A825" stroke="#C62828" stroke-width="0.5"/>
-  <circle cx="442" cy="177" r="1.5" fill="#C62828"/>
+  <circle cx="442" cy="177" r="1.5" fill="#5D4037"/>
   <text x="442" y="191" font-family="Arial,sans-serif" font-size="5" fill="#777" text-anchor="middle">9</text>
   <!-- 10. Cattle of Geryon -->
   <circle cx="370" cy="206" r="8" fill="#FFCC80" stroke="#8D6E63" stroke-width="0.8"/>
@@ -174,6 +174,10 @@
   <text x="442" y="219" font-family="Arial,sans-serif" font-size="5" fill="#777" text-anchor="middle">12</text>
 
   <!-- Bottom bar -->
-  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#5D4037" opacity="0.85"/>
   <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Подвиги Геракла</text>
+  <rect x="435" y="108" width="25" height="35" rx="2" fill="#5D4037" opacity="0.08"/>
+  <line x1="447" y1="108" x2="447" y2="143" stroke="#8D6E63" stroke-width="0.8" opacity="0.12"/>
+  <rect x="438" y="112" width="8" height="2" fill="#A1887F" opacity="0.1"/>
+  <rect x="438" y="118" width="8" height="2" fill="#A1887F" opacity="0.1"/>
 </svg>

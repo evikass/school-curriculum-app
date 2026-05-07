@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+      <stop offset="0%" stop-color="#EFEBE9"/>
+      <stop offset="100%" stop-color="#D7CCC8"/>
     </linearGradient>
   </defs>
   <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5D4037" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5D4037" stroke-width="1" opacity="0.3"/>
   <!-- Bauhaus corners -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <polygon points="10,10 30,10 10,30" fill="#5D4037" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#795548" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#8D6E63" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#A1887F" opacity="0.08"/>
   <!-- Bauhaus circles -->
-  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="70" cy="15" r="4" fill="#5D4037" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#795548" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#8D6E63" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#5D4037" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#795548" opacity="0.1"/>
   <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
   <!-- Title -->
   <text x="250" y="50" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#C62828" text-anchor="middle">И.С. Тургенев. Бежин луг</text>
@@ -83,8 +83,8 @@
   <path d="M103,221 Q107,214 110,213 Q113,214 117,221" fill="#C62828" stroke="#8D6E63" stroke-width="0.5"/>
   <line x1="110" y1="213" x2="110" y2="210" stroke="#C62828" stroke-width="1.5"/>
   <!-- Eyes -->
-  <circle cx="107" cy="224" r="1" fill="#C62828"/>
-  <circle cx="113" cy="224" r="1" fill="#C62828"/>
+  <circle cx="107" cy="224" r="1" fill="#5D4037"/>
+  <circle cx="113" cy="224" r="1" fill="#5D4037"/>
   <!-- Body -->
   <path d="M105,232 Q103,245 102,260 L118,260 Q117,245 115,232 Z" fill="#1565C0" stroke="#0D47A1" stroke-width="0.5"/>
   <!-- Arms on knees -->
@@ -99,8 +99,8 @@
   <circle cx="145" cy="228" r="7" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
   <!-- Hair -->
   <path d="M138,224 Q142,218 145,217 Q148,218 152,224" fill="#5D4037"/>
-  <circle cx="142" cy="226" r="1" fill="#C62828"/>
-  <circle cx="148" cy="226" r="1" fill="#C62828"/>
+  <circle cx="142" cy="226" r="1" fill="#5D4037"/>
+  <circle cx="148" cy="226" r="1" fill="#5D4037"/>
   <path d="M140,234 Q145,238 150,234" stroke="#C62828" stroke-width="0.6" fill="none"/>
   <path d="M140,230 Q145,235 150,230" stroke="#1565C0" stroke-width="1.5" fill="none"/>
   <path d="M140,234 Q138,248 137,262 L153,262 Q152,248 150,234 Z" fill="white" stroke="#C62828" stroke-width="0.5"/>
@@ -114,8 +114,8 @@
   <!-- Wide-brimmed hat -->
   <path d="M205,224 Q210,216 215,214 Q220,216 225,224" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
   <rect x="202" y="223" width="26" height="3" rx="1" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
-  <circle cx="211" cy="223" r="1.2" fill="#C62828"/>
-  <circle cx="219" cy="223" r="1.2" fill="#C62828"/>
+  <circle cx="211" cy="223" r="1.2" fill="#5D4037"/>
+  <circle cx="219" cy="223" r="1.2" fill="#5D4037"/>
   <line x1="212" y1="228" x2="218" y2="228" stroke="#C62828" stroke-width="0.8"/>
   <path d="M208,234 Q215,240 222,234 Z" fill="#5D4037" opacity="0.4"/>
   <path d="M208,232 Q206,248 204,262 L226,262 Q224,248 222,232 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="0.5"/>
@@ -130,8 +130,8 @@
   <!-- Boy 4 (rightmost) - lying down -->
   <circle cx="265" cy="248" r="7" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
   <path d="M258,244 Q262,238 265,237 Q268,238 272,244" fill="#5D4037"/>
-  <circle cx="262" cy="246" r="1" fill="#C62828"/>
-  <circle cx="268" cy="246" r="1" fill="#C62828"/>
+  <circle cx="262" cy="246" r="1" fill="#5D4037"/>
+  <circle cx="268" cy="246" r="1" fill="#5D4037"/>
   <!-- Lying body -->
   <path d="M260,255 Q265,260 280,262 L290,260 L290,268 L258,268 Z" fill="#F9A825" stroke="#E65100" stroke-width="0.5"/>
   <!-- Arms behind head -->
@@ -174,6 +174,10 @@
   <text x="411" y="293" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">тихая ночная природа</text>
 
   <!-- Bottom bar -->
-  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#5D4037" opacity="0.85"/>
   <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">И.С. Тургенев. Бежин луг</text>
+  <rect x="435" y="108" width="25" height="35" rx="2" fill="#5D4037" opacity="0.08"/>
+  <line x1="447" y1="108" x2="447" y2="143" stroke="#8D6E63" stroke-width="0.8" opacity="0.12"/>
+  <rect x="438" y="112" width="8" height="2" fill="#A1887F" opacity="0.1"/>
+  <rect x="438" y="118" width="8" height="2" fill="#A1887F" opacity="0.1"/>
 </svg>

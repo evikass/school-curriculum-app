@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
     </linearGradient>
     <linearGradient id="bone" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#FFECB3"/>
@@ -102,4 +102,7 @@
   <!-- Bottom info -->
   <rect x="130" y="332" width="240" height="14" rx="7" fill="#FFCC80" opacity="0.4"/>
   <text x="250" y="343" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#8D6E63">Кости • Мышцы • Суставы • Связки</text>
+  <ellipse cx="450" cy="125" rx="20" ry="15" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="460" cy="140" r="8" fill="#8BC34A" opacity="0.06"/>
+  <circle cx="440" cy="140" r="6" fill="#689F38" opacity="0.06"/>
 </svg>
