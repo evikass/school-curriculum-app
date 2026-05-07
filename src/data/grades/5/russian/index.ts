@@ -11,6 +11,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 1: Звуки и буквы",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson1.svg",
           description: `## Звуки и буквы
 
 :- **Звуки и буквы** — это разные вещи!
@@ -89,6 +90,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 2: Гласные звуки и буквы",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson2.svg",
           description: `## 6 гласных звуков
 
 \`\`\`
@@ -167,6 +169,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 3: Согласные звуки",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson3.svg",
           description: `## Звонкие и глухие согласные
 
 ### Парные согласные
@@ -243,6 +246,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 4: Твёрдые и мягкие согласные",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson4.svg",
           description: `## Способы обозначения мягкости
 
 ### 1. Гласные я, ё, ю, е, и после согласного
@@ -328,6 +332,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 5: Состав слова",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson5.svg",
           description: `## Морфемы — это значимые части слова
 
 ---
@@ -437,6 +442,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 6: Корень слова",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson6.svg",
           description: `## Корень — главная значимая часть слова
 
 В корне заключено общее лексическое значение всех однокоренных слов.
@@ -516,6 +522,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 7: Приставка и суффикс",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson7.svg",
           description: `## Приставка — морфема перед корнем
 
 ---
@@ -594,6 +601,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 8: Словообразование",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson8.svg",
           description: `## Словообразование — образование новых слов
 
 ---
@@ -694,6 +702,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 9: Части речи",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson9.svg",
           description: `## Части речи — группы слов с общим грамматическим значением
 
 ---
@@ -779,6 +788,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 10: Имя существительное",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson10.svg",
           description: `## Имя существительное — часть речи, обозначающая предмет
 
 Отвечает на вопросы: **кто? что?**
@@ -871,6 +881,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 11: Имя прилагательное",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson11.svg",
           description: `## Имя прилагательное — часть речи, обозначающая признак предмета
 
 Отвечает на вопросы: **какой? чей?**
@@ -965,6 +976,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 12: Глагол",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson12.svg",
           description: `## Глагол — часть речи, обозначающая действие или состояние
 
 Отвечает на вопросы: **что делать? что сделать?**
@@ -1064,6 +1076,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 13: Местоимение",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson13.svg",
           description: `## Местоимение — часть речи, указывающая на предметы, признаки, количества
 
 ---
@@ -1144,6 +1157,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 14: Наречие",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson14.svg",
           description: `## Наречие — часть речи, обозначающая признак действия
 
 Отвечает на вопросы: **как? где? когда? куда? откуда? зачем? почему?**
@@ -1240,6 +1254,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 15: Безударные гласные в корне",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson15.svg",
           description: `## Безударная гласная — гласная, которая произносится без ударения
 
 ---
@@ -1327,6 +1342,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 16: Правописание приставок",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson16.svg",
           description: `## Три группы приставок
 
 ---
@@ -1409,6 +1425,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 17: Корни с чередованием",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson17.svg",
           description: `## Корни с чередующимися гласными
 
 Эти корни нельзя проверить ударением!
@@ -1496,6 +1513,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 18: Правописание суффиксов",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson18.svg",
           description: `## Суффиксы существительных
 
 ---
@@ -1577,6 +1595,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 19: Словосочетание",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson19.svg",
           description: `## Словосочетание — соединение двух или более самостоятельных слов
 
 Слова в словосочетании связаны по смыслу и грамматически.
@@ -1671,6 +1690,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 20: Предложение",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson20.svg",
           description: `## Предложение — основная единица синтаксиса
 
 Предложение выражает законченную мысль, имеет грамматическую основу.
@@ -1754,6 +1774,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 21: Второстепенные члены предложения",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson21.svg",
           description: `## Второстепенные члены предложения
 
 Второстепенные члены поясняют главные или другие второстепенные члены.
@@ -1848,6 +1869,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 22: Однородные члены предложения",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson22.svg",
           description: `## Однородные члены предложения
 
 :- **Однородные члены** — это члены предложения, которые:
@@ -1947,6 +1969,7 @@ export const lessons: SubjectData = {
       lessons: [
         {
           title: "Урок 23: Текст и его признаки",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson23.svg",
           description: `## Текст — это связное высказывание
 
 Текст состоит из одного или нескольких предложений, объединённых общей темой и основной мыслью.
@@ -2024,6 +2047,7 @@ export const lessons: SubjectData = {
         },
         {
           title: "Урок 24: Типы речи",
+          image: "/school-curriculum-app/images/lessons/grade5/russian/lesson24.svg",
           description: `## Типы речи
 
 ---

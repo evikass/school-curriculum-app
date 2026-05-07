@@ -1,10 +1,13 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (title: string, description: string, tasks: string[]) => ({
-  title, description, tasks, theory: description
-})
+function createLessons(): SubjectData {
+  let _lessonNum = 0
+  const createLesson = (title: string, description: string, tasks: string[]) => {
+    _lessonNum++
+    return { title, description, tasks, theory: description, image: `/school-curriculum-app/images/lessons/grade5/informatics/lesson${_lessonNum}.svg` }
+  }
 
-export const lessons: SubjectData = {
+  return {
   title: "Информатика",
   icon: "Monitor",
   color: "text-indigo-400",
@@ -748,7 +751,10 @@ export const lessons: SubjectData = {
       ]
     }
   ]
+  }
 }
+
+export const lessons: SubjectData = createLessons()
 
 export const games = [
   {

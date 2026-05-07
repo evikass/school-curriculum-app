@@ -1,21 +1,27 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const createLesson = (
-  title: string, 
-  description: string, 
-  tasks: string[],
-  practicalTasks?: string[],
-  facts?: string[]
-) => ({ 
-  title, 
-  description, 
-  tasks,
-  theory: description, // description содержит всю теорию в markdown
-  examples: practicalTasks || [], // практические задания
-  facts: facts || []
-})
+function createLessons(): SubjectData {
+  let _lessonNum = 0
+  const createLesson = (
+    title: string,
+    description: string,
+    tasks: string[],
+    practicalTasks?: string[],
+    facts?: string[]
+  ) => {
+    _lessonNum++
+    return {
+      title,
+      description,
+      tasks,
+      theory: description, // description содержит всю теорию в markdown
+      examples: practicalTasks || [], // практические задания
+      facts: facts || [],
+      image: `/school-curriculum-app/images/lessons/grade5/music/lesson${_lessonNum}.svg`
+    }
+  }
 
-export const lessons: SubjectData = {
+  return {
   title: "Музыка",
   icon: "Music",
   color: "text-cyan-400",
@@ -1391,7 +1397,10 @@ export const lessons: SubjectData = {
       ]
     }
   ]
+  }
 }
+
+export const lessons: SubjectData = createLessons()
 
 export const games: GameLesson[] = [
   {

@@ -1,8 +1,13 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const L = (title: string, description: string, tasks: string[]) => ({ title, description, tasks, theory: description })
+function createLessons(): SubjectData {
+  let _lessonNum = 0
+  const L = (title: string, description: string, tasks: string[]) => {
+    _lessonNum++
+    return { title, description, tasks, theory: description, image: `/school-curriculum-app/images/lessons/grade5/art/lesson${_lessonNum}.svg` }
+  }
 
-export const lessons: SubjectData = {
+  return {
   title: "Изобразительное искусство",
   icon: "Palette",
   color: "text-rose-400",
@@ -1392,7 +1397,10 @@ XIX век — «Золотой век» русской живописи.
       ]
     }
   ]
+  }
 }
+
+export const lessons: SubjectData = createLessons()
 
 export const games: GameLesson[] = [
   {

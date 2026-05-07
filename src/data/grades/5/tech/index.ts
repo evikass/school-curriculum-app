@@ -1,8 +1,13 @@
 import { SubjectData, GameLesson } from '@/data/types'
 
-const L = (title: string, description: string, tasks: string[]) => ({ title, description, tasks, theory: description })
+function createLessons(): SubjectData {
+  let _lessonNum = 0
+  const L = (title: string, description: string, tasks: string[]) => {
+    _lessonNum++
+    return { title, description, tasks, theory: description, image: `/school-curriculum-app/images/lessons/grade5/tech/lesson${_lessonNum}.svg` }
+  }
 
-export const lessons: SubjectData = {
+  return {
   title: "Технология",
   icon: "Ruler",
   color: "text-yellow-400",
@@ -1452,7 +1457,10 @@ export const lessons: SubjectData = {
       ]
     }
   ]
+  }
 }
+
+export const lessons: SubjectData = createLessons()
 
 export const games: GameLesson[] = [
   {
