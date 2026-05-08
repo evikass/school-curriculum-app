@@ -1,37 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:0.7"/><stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:0.4"/>
-  </linearGradient></defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="14"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5" opacity="0.35"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.15"/>
-<text x="250" y="52" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#E65100" text-anchor="middle">Восточные славяне</text>
-  <text x="250" y="72" font-family="Arial,sans-serif" font-size="11" fill="#555" text-anchor="middle">История - Урок 9</text>
-  <line x1="30" y1="82" x2="470" y2="82" stroke="#E65100" stroke-width="2" opacity="0.3"/>
-  <rect x="40" y="74" width="100" height="5" rx="2.5" fill="#E65100" opacity="0.15"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#BF360C" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#BF360C" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#FF9800" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#FFB74D" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#BF360C" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#F57C00" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#FF9800" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#BF360C" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#F57C00" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#FFB74D" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100" text-anchor="middle">Восточные славяне</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">История - Урок 9</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#E65100" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#FF9800" opacity="0.12" rx="1"/>
 
-  <rect x="25" y="95" width="215" height="90" rx="8" fill="white" stroke="#E65100" stroke-width="2.5"/>
-  <text x="133" y="135" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">🌳</text>
-  <text x="133" y="163" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#212121" font-weight="bold">Славяне</text>
-  <text x="133" y="178" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">племена</text>
-  <rect x="260" y="95" width="215" height="90" rx="8" fill="white" stroke="#E65100" stroke-width="2.5"/>
-  <text x="368" y="135" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">🎣</text>
-  <text x="368" y="163" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#212121" font-weight="bold">Промыслы</text>
-  <text x="368" y="178" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">охота, рыбалка</text>
-  <rect x="25" y="200" width="215" height="90" rx="8" fill="white" stroke="#E65100" stroke-width="2.5"/>
-  <text x="133" y="240" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">⚡</text>
-  <text x="133" y="268" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#212121" font-weight="bold">Язычество</text>
-  <text x="133" y="283" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">боги</text>
-  <rect x="260" y="200" width="215" height="90" rx="8" fill="white" stroke="#E65100" stroke-width="2.5"/>
-  <text x="368" y="240" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">👥</text>
-  <text x="368" y="268" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#212121" font-weight="bold">Вече</text>
-  <text x="368" y="283" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">народное собр.</text>
+  <rect x="20" y="88" width="460" height="105" rx="6" fill="white" stroke="#E65100" stroke-width="1.5" opacity="0.95"/>
+  <line x1="35" y1="105" x2="465" y2="105" stroke="#FF9800" stroke-width="2"/>
+  <circle cx="60" cy="105" r="5" fill="#E65100"/>
+  <circle cx="150" cy="105" r="5" fill="#F57C00"/>
+  <circle cx="250" cy="105" r="5" fill="#FF9800"/>
+  <circle cx="350" cy="105" r="5" fill="#FFB74D"/>
+  <circle cx="440" cy="105" r="5" fill="#E65100"/>
+  <rect x="35" y="115" width="80" height="18" rx="3" fill="#BF360C" opacity="0.12"/>
+  <text x="75" y="128" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">Начало</text>
+  <rect x="123" y="115" width="80" height="18" rx="3" fill="#F57C00" opacity="0.12"/>
+  <text x="163" y="128" font-family="Arial,sans-serif" font-size="8" fill="#F57C00" text-anchor="middle" font-weight="bold">Развитие</text>
+  <rect x="211" y="115" width="80" height="18" rx="3" fill="#FF9800" opacity="0.12"/>
+  <text x="251" y="128" font-family="Arial,sans-serif" font-size="8" fill="#FF9800" text-anchor="middle" font-weight="bold">Расцвет</text>
+  <rect x="299" y="115" width="80" height="18" rx="3" fill="#FFB74D" opacity="0.12"/>
+  <text x="339" y="128" font-family="Arial,sans-serif" font-size="8" fill="#FFB74D" text-anchor="middle" font-weight="bold">Упадок</text>
+  <rect x="387" y="115" width="80" height="18" rx="3" fill="#BF360C" opacity="0.12"/>
+  <text x="427" y="128" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">Наследие</text>
+  <rect x="20" y="200" width="220" height="100" rx="6" fill="white" stroke="#F57C00" stroke-width="1.5" opacity="0.95"/>
+  <text x="130" y="217" font-family="Arial,sans-serif" font-size="10" fill="#F57C00" text-anchor="middle" font-weight="bold">Ключевые факты</text>
+  <line x1="28" y1="222" x2="232" y2="222" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="28" y="228" width="8" height="8" rx="1" fill="#E65100" opacity="0.3"/>
+  <text x="42" y="236" font-family="Arial,sans-serif" font-size="8" fill="#555">Важные даты и события</text>
+  <rect x="28" y="242" width="8" height="8" rx="1" fill="#F57C00" opacity="0.3"/>
+  <text x="42" y="250" font-family="Arial,sans-serif" font-size="8" fill="#555">Исторические деятели</text>
+  <rect x="28" y="256" width="8" height="8" rx="1" fill="#FF9800" opacity="0.3"/>
+  <text x="42" y="264" font-family="Arial,sans-serif" font-size="8" fill="#555">Культура и быт</text>
+  <rect x="28" y="270" width="8" height="8" rx="1" fill="#FFB74D" opacity="0.3"/>
+  <text x="42" y="278" font-family="Arial,sans-serif" font-size="8" fill="#555">Причины и следствия</text>
+  <rect x="260" y="200" width="220" height="100" rx="6" fill="white" stroke="#FF9800" stroke-width="1.5" opacity="0.95"/>
+  <text x="370" y="217" font-family="Arial,sans-serif" font-size="10" fill="#FF9800" text-anchor="middle" font-weight="bold">Карта / Схема</text>
+  <line x1="268" y1="222" x2="472" y2="222" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="275" y="230" width="190" height="60" rx="4" fill="#FFF3E0" opacity="0.5"/>
+  <path d="M300,250 Q340,235 380,250 Q400,260 420,255" fill="none" stroke="#E65100" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="320" cy="255" r="4" fill="#E65100" opacity="0.5"/>
+  <circle cx="370" cy="248" r="3" fill="#FF9800" opacity="0.5"/>
+  <circle cx="400" cy="260" r="3" fill="#FFB74D" opacity="0.5"/>
+  <!-- Bottom panel -->
   <rect x="15" y="308" width="470" height="30" rx="4" fill="#E65100" opacity="0.85"/>
   <text x="250" y="329" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Восточные славяне</text>
-    <!-- History: scroll -->
-    <rect x="440" y="100" width="14" height="42" rx="4" fill="#E65100" opacity="0.1"/>
-    <rect x="458" y="105" width="14" height="37" rx="4" fill="#FF9800" opacity="0.08"/>
-    <rect x="476" y="102" width="10" height="32" rx="3" fill="#FFB74D" opacity="0.06"/>
-    <line x1="445" y1="112" x2="482" y2="112" stroke="#E65100" stroke-width="0.5" opacity="0.08"/>
-  <text x="20" y="335" font-size="22" opacity="0.06">📜</text>
+  <rect x="440" y="105" width="12" height="40" rx="3" fill="#E65100" opacity="0.1"/>
+  <rect x="458" y="110" width="12" height="35" rx="3" fill="#FF9800" opacity="0.08"/>
+  <rect x="476" y="108" width="8" height="30" rx="2" fill="#FFB74D" opacity="0.06"/>
 </svg>

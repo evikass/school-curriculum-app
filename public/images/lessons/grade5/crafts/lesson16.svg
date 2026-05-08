@@ -1,37 +1,76 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#EFEBE9;stop-opacity:0.7"/><stop offset="100%" style="stop-color:#D7CCC8;stop-opacity:0.4"/>
-  </linearGradient></defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="14"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#6D4C41" stroke-width="2.5" opacity="0.35"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#6D4C41" stroke-width="1" opacity="0.15"/>
-<text x="250" y="52" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#6D4C41" text-anchor="middle">Филимоново</text>
-  <text x="250" y="72" font-family="Arial,sans-serif" font-size="11" fill="#555" text-anchor="middle">Технология (рукоделие) - Урок 16</text>
-  <line x1="30" y1="82" x2="470" y2="82" stroke="#6D4C41" stroke-width="2" opacity="0.3"/>
-  <rect x="40" y="74" width="100" height="5" rx="2.5" fill="#6D4C41" opacity="0.15"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFEBE9"/>
+      <stop offset="100%" stop-color="#D7CCC8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#6D4C41" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#6D4C41" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#4E342E" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#4E342E" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#A1887F" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#BCAAA4" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#4E342E" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#8D6E63" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#A1887F" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#4E342E" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#8D6E63" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#BCAAA4" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#6D4C41" text-anchor="middle">Филимоново</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Художественные ремёсла - Урок 16</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#6D4C41" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#6D4C41" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#A1887F" opacity="0.12" rx="1"/>
 
-  <rect x="25" y="95" width="215" height="90" rx="8" fill="white" stroke="#6D4C41" stroke-width="2.5"/>
-  <text x="133" y="135" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">📅</text>
-  <text x="133" y="163" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#212121" font-weight="bold">Итоги</text>
-  <text x="133" y="178" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">год</text>
-  <rect x="260" y="95" width="215" height="90" rx="8" fill="white" stroke="#6D4C41" stroke-width="2.5"/>
-  <text x="368" y="135" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">✅</text>
-  <text x="368" y="163" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#212121" font-weight="bold">Навыки</text>
-  <text x="368" y="178" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">освоены</text>
-  <rect x="25" y="200" width="215" height="90" rx="8" fill="white" stroke="#6D4C41" stroke-width="2.5"/>
-  <text x="133" y="240" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">🏆</text>
-  <text x="133" y="268" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#212121" font-weight="bold">Достижения</text>
-  <text x="133" y="283" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">работы</text>
-  <rect x="260" y="200" width="215" height="90" rx="8" fill="white" stroke="#6D4C41" stroke-width="2.5"/>
-  <text x="368" y="240" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">🎯</text>
-  <text x="368" y="268" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#212121" font-weight="bold">Планы</text>
-  <text x="368" y="283" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">далее</text>
+  <rect x="20" y="88" width="220" height="100" rx="6" fill="white" stroke="#6D4C41" stroke-width="1.5" opacity="0.95"/>
+  <rect x="20" y="88" width="220" height="24" rx="6" fill="#6D4C41" opacity="0.9"/>
+  <rect x="20" y="100" width="220" height="12" fill="#6D4C41" opacity="0.9"/>
+  <text x="130" y="105" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Определение</text>
+  <rect x="30" y="120" width="5" height="5" rx="1" fill="#6D4C41" opacity="0.3"/>
+  <text x="42" y="124" font-family="Arial,sans-serif" font-size="8" fill="#555">Основные положения темы</text>
+  <rect x="30" y="138" width="5" height="5" rx="1" fill="#6D4C41" opacity="0.3"/>
+  <text x="42" y="142" font-family="Arial,sans-serif" font-size="8" fill="#555">Важные характеристики</text>
+  <rect x="30" y="156" width="5" height="5" rx="1" fill="#6D4C41" opacity="0.3"/>
+  <text x="42" y="160" font-family="Arial,sans-serif" font-size="8" fill="#555">Связь с другими понятиями</text>
+  <rect x="260" y="88" width="220" height="100" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.5" opacity="0.95"/>
+  <rect x="260" y="88" width="220" height="24" rx="6" fill="#8D6E63" opacity="0.9"/>
+  <rect x="260" y="100" width="220" height="12" fill="#8D6E63" opacity="0.9"/>
+  <text x="370" y="105" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Ключевые свойства</text>
+  <rect x="270" y="120" width="5" height="5" rx="1" fill="#8D6E63" opacity="0.3"/>
+  <text x="282" y="124" font-family="Arial,sans-serif" font-size="8" fill="#555">Основные положения темы</text>
+  <rect x="270" y="138" width="5" height="5" rx="1" fill="#8D6E63" opacity="0.3"/>
+  <text x="282" y="142" font-family="Arial,sans-serif" font-size="8" fill="#555">Важные характеристики</text>
+  <rect x="270" y="156" width="5" height="5" rx="1" fill="#8D6E63" opacity="0.3"/>
+  <text x="282" y="160" font-family="Arial,sans-serif" font-size="8" fill="#555">Связь с другими понятиями</text>
+  <rect x="20" y="196" width="220" height="100" rx="6" fill="white" stroke="#A1887F" stroke-width="1.5" opacity="0.95"/>
+  <rect x="20" y="196" width="220" height="24" rx="6" fill="#A1887F" opacity="0.9"/>
+  <rect x="20" y="208" width="220" height="12" fill="#A1887F" opacity="0.9"/>
+  <text x="130" y="213" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Примеры</text>
+  <rect x="30" y="228" width="5" height="5" rx="1" fill="#A1887F" opacity="0.3"/>
+  <text x="42" y="232" font-family="Arial,sans-serif" font-size="8" fill="#555">Основные положения темы</text>
+  <rect x="30" y="246" width="5" height="5" rx="1" fill="#A1887F" opacity="0.3"/>
+  <text x="42" y="250" font-family="Arial,sans-serif" font-size="8" fill="#555">Важные характеристики</text>
+  <rect x="30" y="264" width="5" height="5" rx="1" fill="#A1887F" opacity="0.3"/>
+  <text x="42" y="268" font-family="Arial,sans-serif" font-size="8" fill="#555">Связь с другими понятиями</text>
+  <rect x="260" y="196" width="220" height="100" rx="6" fill="white" stroke="#BCAAA4" stroke-width="1.5" opacity="0.95"/>
+  <rect x="260" y="196" width="220" height="24" rx="6" fill="#BCAAA4" opacity="0.9"/>
+  <rect x="260" y="208" width="220" height="12" fill="#BCAAA4" opacity="0.9"/>
+  <text x="370" y="213" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Применение</text>
+  <rect x="270" y="228" width="5" height="5" rx="1" fill="#BCAAA4" opacity="0.3"/>
+  <text x="282" y="232" font-family="Arial,sans-serif" font-size="8" fill="#555">Основные положения темы</text>
+  <rect x="270" y="246" width="5" height="5" rx="1" fill="#BCAAA4" opacity="0.3"/>
+  <text x="282" y="250" font-family="Arial,sans-serif" font-size="8" fill="#555">Важные характеристики</text>
+  <rect x="270" y="264" width="5" height="5" rx="1" fill="#BCAAA4" opacity="0.3"/>
+  <text x="282" y="268" font-family="Arial,sans-serif" font-size="8" fill="#555">Связь с другими понятиями</text>
+  <!-- Bottom panel -->
   <rect x="15" y="308" width="470" height="30" rx="4" fill="#6D4C41" opacity="0.85"/>
   <text x="250" y="329" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Филимоново</text>
-    <!-- Crafts: weave -->
-    <line x1="435" y1="100" x2="480" y2="145" stroke="#6D4C41" stroke-width="1" opacity="0.1"/>
-    <line x1="480" y1="100" x2="435" y2="145" stroke="#A1887F" stroke-width="1" opacity="0.08"/>
-    <line x1="458" y1="95" x2="458" y2="150" stroke="#BCAAA4" stroke-width="0.5" opacity="0.1"/>
-    <line x1="430" y1="122" x2="485" y2="122" stroke="#6D4C41" stroke-width="0.5" opacity="0.08"/>
-  <text x="20" y="335" font-size="22" opacity="0.06">🧶</text>
+  <line x1="435" y1="100" x2="480" y2="145" stroke="#6D4C41" stroke-width="1" opacity="0.1"/>
+  <line x1="480" y1="100" x2="435" y2="145" stroke="#8D6E63" stroke-width="1" opacity="0.08"/>
 </svg>

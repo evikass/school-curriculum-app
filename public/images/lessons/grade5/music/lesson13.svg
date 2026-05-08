@@ -1,38 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#FCE4EC;stop-opacity:0.7"/><stop offset="100%" style="stop-color:#F8BBD0;stop-opacity:0.4"/>
-  </linearGradient></defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="14"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AD1457" stroke-width="2.5" opacity="0.35"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AD1457" stroke-width="1" opacity="0.15"/>
-<text x="250" y="52" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#AD1457" text-anchor="middle">Музыка в нашей жизни</text>
-  <text x="250" y="72" font-family="Arial,sans-serif" font-size="11" fill="#555" text-anchor="middle">Музыка - Урок 13</text>
-  <line x1="30" y1="82" x2="470" y2="82" stroke="#AD1457" stroke-width="2" opacity="0.3"/>
-  <rect x="40" y="74" width="100" height="5" rx="2.5" fill="#AD1457" opacity="0.15"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FCE4EC"/>
+      <stop offset="100%" stop-color="#F8BBD0"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AD1457" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AD1457" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#880E4F" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#880E4F" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#EC407A" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#F48FB1" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#880E4F" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#E91E63" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#EC407A" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#880E4F" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#E91E63" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F48FB1" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#AD1457" text-anchor="middle">Музыка в нашей жизни</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Музыка - Урок 13</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#AD1457" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#AD1457" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#EC407A" opacity="0.12" rx="1"/>
 
-  <rect x="25" y="95" width="215" height="90" rx="8" fill="white" stroke="#AD1457" stroke-width="2.5"/>
-  <text x="133" y="135" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">🎼</text>
-  <text x="133" y="163" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#212121" font-weight="bold">Классика</text>
-  <text x="133" y="178" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">жанры</text>
-  <rect x="260" y="95" width="215" height="90" rx="8" fill="white" stroke="#AD1457" stroke-width="2.5"/>
-  <text x="368" y="135" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">🎧</text>
-  <text x="368" y="163" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#212121" font-weight="bold">Современная</text>
-  <text x="368" y="178" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">музыка</text>
-  <rect x="25" y="200" width="215" height="90" rx="8" fill="white" stroke="#AD1457" stroke-width="2.5"/>
-  <text x="133" y="240" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">🎵</text>
-  <text x="133" y="268" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#212121" font-weight="bold">Фольклор</text>
-  <text x="133" y="283" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">народная</text>
-  <rect x="260" y="200" width="215" height="90" rx="8" fill="white" stroke="#AD1457" stroke-width="2.5"/>
-  <text x="368" y="240" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">🎬</text>
-  <text x="368" y="268" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#212121" font-weight="bold">Музыка</text>
-  <text x="368" y="283" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">в кино</text>
+  <rect x="20" y="88" width="460" height="105" rx="6" fill="white" stroke="#AD1457" stroke-width="1.5" opacity="0.95"/>
+  <text x="250" y="105" font-family="Arial,sans-serif" font-size="10" fill="#AD1457" text-anchor="middle" font-weight="bold">Основные понятия</text>
+  <line x1="28" y1="110" x2="472" y2="110" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="35" y="118" width="140" height="65" rx="4" fill="#AD1457" opacity="0.06"/>
+  <text x="105" y="140" font-family="Arial,sans-serif" font-size="12" fill="#AD1457" text-anchor="middle" font-weight="bold">Ритм</text>
+  <text x="105" y="158" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Пульс музыки</text>
+  <line x1="45" y1="168" x2="165" y2="168" stroke="#AD1457" stroke-width="0.5" opacity="0.3"/>
+  <rect x="190" y="118" width="140" height="65" rx="4" fill="#E91E63" opacity="0.06"/>
+  <text x="260" y="140" font-family="Arial,sans-serif" font-size="12" fill="#E91E63" text-anchor="middle" font-weight="bold">Мелодия</text>
+  <text x="260" y="158" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Главная тема</text>
+  <line x1="200" y1="168" x2="320" y2="168" stroke="#E91E63" stroke-width="0.5" opacity="0.3"/>
+  <rect x="345" y="118" width="140" height="65" rx="4" fill="#EC407A" opacity="0.06"/>
+  <text x="415" y="140" font-family="Arial,sans-serif" font-size="12" fill="#EC407A" text-anchor="middle" font-weight="bold">Гармония</text>
+  <text x="415" y="158" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Созвучие</text>
+  <line x1="355" y1="168" x2="475" y2="168" stroke="#EC407A" stroke-width="0.5" opacity="0.3"/>
+  <rect x="20" y="200" width="225" height="100" rx="6" fill="white" stroke="#E91E63" stroke-width="1.5" opacity="0.95"/>
+  <text x="132" y="217" font-family="Arial,sans-serif" font-size="10" fill="#E91E63" text-anchor="middle" font-weight="bold">Музыкальные примеры</text>
+  <line x1="28" y1="222" x2="237" y2="222" stroke="#E0E0E0" stroke-width="1"/>
+  <circle cx="55" cy="252" r="7" fill="#E91E63" opacity="0.2"/>
+  <line x1="62" y1="252" x2="62" y2="228" stroke="#E91E63" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="85" cy="245" r="7" fill="#EC407A" opacity="0.2"/>
+  <line x1="92" y1="245" x2="92" y2="221" stroke="#EC407A" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="115" cy="248" r="7" fill="#F48FB1" opacity="0.2"/>
+  <line x1="122" y1="248" x2="122" y2="224" stroke="#F48FB1" stroke-width="1.5" opacity="0.3"/>
+  <text x="185" y="250" font-family="Arial,sans-serif" font-size="8" fill="#555">Прослушайте</text>
+  <text x="185" y="263" font-family="Arial,sans-serif" font-size="8" fill="#555">примеры в классе</text>
+  <rect x="260" y="200" width="220" height="100" rx="6" fill="white" stroke="#F48FB1" stroke-width="1.5" opacity="0.95"/>
+  <text x="370" y="217" font-family="Arial,sans-serif" font-size="10" fill="#F48FB1" text-anchor="middle" font-weight="bold">Композиторы</text>
+  <line x1="268" y1="222" x2="472" y2="222" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="275" y="236" width="190" height="16" rx="3" fill="#E91E63" opacity="0.08"/>
+  <text x="370" y="248" font-family="Arial,sans-serif" font-size="9" fill="#E91E63" text-anchor="middle">М.И. Глинка</text>
+  <rect x="275" y="256" width="190" height="16" rx="3" fill="#EC407A" opacity="0.08"/>
+  <text x="370" y="268" font-family="Arial,sans-serif" font-size="9" fill="#EC407A" text-anchor="middle">П.И. Чайковский</text>
+  <rect x="275" y="276" width="190" height="16" rx="3" fill="#F48FB1" opacity="0.08"/>
+  <text x="370" y="288" font-family="Arial,sans-serif" font-size="9" fill="#F48FB1" text-anchor="middle">М.П. Мусоргский</text>
+  <!-- Bottom panel -->
   <rect x="15" y="308" width="470" height="30" rx="4" fill="#AD1457" opacity="0.85"/>
   <text x="250" y="329" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Музыка в нашей жизни</text>
-    <!-- Music: notes -->
-    <circle cx="445" cy="130" r="6" fill="#AD1457" opacity="0.15"/>
-    <line x1="451" y1="130" x2="451" y2="100" stroke="#AD1457" stroke-width="1.5" opacity="0.12"/>
-    <circle cx="467" cy="122" r="6" fill="#EC407A" opacity="0.12"/>
-    <line x1="473" y1="122" x2="473" y2="92" stroke="#EC407A" stroke-width="1.5" opacity="0.1"/>
-    <line x1="451" y1="100" x2="473" y2="92" stroke="#F48FB1" stroke-width="2" opacity="0.08"/>
-  <text x="20" y="335" font-size="22" opacity="0.06">🎵</text>
+  <circle cx="445" cy="130" r="5" fill="#AD1457" opacity="0.12"/>
+  <line x1="450" y1="130" x2="450" y2="105" stroke="#AD1457" stroke-width="1" opacity="0.12"/>
+  <circle cx="465" cy="125" r="5" fill="#EC407A" opacity="0.1"/>
+  <line x1="470" y1="125" x2="470" y2="100" stroke="#EC407A" stroke-width="1" opacity="0.1"/>
 </svg>
