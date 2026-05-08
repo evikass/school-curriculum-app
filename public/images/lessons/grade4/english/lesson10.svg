@@ -1,53 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <!-- Background -->
-  <rect width="500" height="350" fill="#F5E6C8"/>
-  <!-- Top red accent bar -->
-  <rect width="500" height="6" fill="#C41E3A"/>
-  <!-- Gold line under red bar -->
-  <rect y="6" width="500" height="2" fill="#D4A843" opacity="0.6"/>
-
-  <!-- Title -->
-  <text x="250" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Урок 10:  В классе</text>
-  <!-- Subtitle -->
-  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#2B4C7E" text-anchor="middle">In the classroom</text>
-
-  
-  <!-- Back wall -->
-  <rect x="80" y="100" width="340" height="200" rx="2" fill="#EDE0CC" stroke="#1a1a1a" stroke-width="1"/>
-  <!-- Blackboard -->
-  <rect x="140" y="110" width="180" height="100" rx="3" fill="#2E7D32" stroke="#795548" stroke-width="4"/>
-  <text x="230" y="150" font-family="Arial" font-size="18" fill="#FFFFFF" text-anchor="middle">Hello class!</text>
-  <line x1="160" y1="165" x2="300" y2="165" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
-  <text x="230" y="185" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">Open your books</text>
-  <text x="230" y="200" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">at page 10</text>
-  <!-- Teacher desk -->
-  <rect x="190" y="215" width="80" height="10" rx="2" fill="#795548" stroke="#1a1a1a" stroke-width="1"/>
-  <rect x="200" y="225" width="8" height="40" fill="#795548" stroke="#1a1a1a" stroke-width="1"/>
-  <rect x="252" y="225" width="8" height="40" fill="#795548" stroke="#1a1a1a" stroke-width="1"/>
-  <!-- Teacher figure -->
-  <circle cx="230" cy="240" r="10" fill="#2B4C7E"/>
-  <rect x="222" y="250" width="16" height="20" rx="2" fill="#2B4C7E"/>
-  <!-- Student desks -->
-  <rect x="100" y="260" width="60" height="8" rx="2" fill="#A1887F" stroke="#1a1a1a" stroke-width="1"/>
-  <rect x="180" y="275" width="60" height="8" rx="2" fill="#A1887F" stroke="#1a1a1a" stroke-width="1"/>
-  <rect x="280" y="260" width="60" height="8" rx="2" fill="#A1887F" stroke="#1a1a1a" stroke-width="1"/>
-  <rect x="340" y="275" width="60" height="8" rx="2" fill="#A1887F" stroke="#1a1a1a" stroke-width="1"/>
-  <!-- Student heads -->
-  <circle cx="130" cy="248" r="8" fill="#C41E3A" opacity="0.6"/>
-  <circle cx="210" cy="263" r="8" fill="#C41E3A" opacity="0.6"/>
-  <circle cx="310" cy="248" r="8" fill="#C41E3A" opacity="0.6"/>
-  <circle cx="370" cy="263" r="8" fill="#C41E3A" opacity="0.6"/>
-  <!-- Window -->
-  <rect x="345" y="115" width="60" height="55" rx="2" fill="#B3E5FC" stroke="#1a1a1a" stroke-width="2"/>
-  <line x1="375" y1="115" x2="375" y2="170" stroke="#1a1a1a" stroke-width="1.5"/>
-  <line x1="345" y1="142" x2="405" y2="142" stroke="#1a1a1a" stroke-width="1.5"/>
-  <!-- Labels -->
-  <text x="130" y="305" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">desk</text>
-  <text x="375" y="182" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">window</text>
-  <text x="230" y="210" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">board</text>
-
-  <!-- Bottom dark bar -->
-  <rect y="318" width="500" height="32" fill="#1a1a1a"/>
-  <rect y="318" width="500" height="2" fill="#D4A843" opacity="0.5"/>
-  <text x="250" y="339" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#F5E6C8" text-anchor="middle" letter-spacing="1">Иностранный язык — 4 класс</text>
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#283593"/>
+    <stop offset="100%" style="stop-color:#5C6BC0"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
+    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
+  </linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)"/>
+<circle cx="30" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="30" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="30" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="30" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="95" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="95" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="95" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="95" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="160" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="160" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="160" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="160" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="225" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="225" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="225" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="225" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="290" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="290" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="290" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="290" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="355" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="355" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="355" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="355" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="420" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="420" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="420" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="420" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="485" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="485" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="485" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="485" cy="290" r="3" fill="white" opacity="0.08"/>
+<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
+<rect x="30" y="60" width="auto" height="24" rx="12" fill="#283593" opacity="0.9"/>
+<rect x="30" y="60" width="148" height="24" rx="12" fill="#283593" opacity="0.9"/>
+<text x="104" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Иностранный язык</text>
+<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#283593" font-weight="bold">Урок 2</text>
+<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Представление</text>
+<line x1="40" y1="115" x2="460" y2="115" stroke="#C5CAE9" stroke-width="2"/>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Introducing yourself — как представиться и узнать имя собесе...</text>
+<text x="40" y="155" font-family="Arial,sans-serif" font-size="11" fill="#283593" font-weight="bold">Задания:</text>
+<circle cx="48" cy="177" r="3" fill="#283593"/>
+<text x="58" y="181" font-family="Arial,sans-serif" font-size="11" fill="#444">Назвать своё имя</text>
+<circle cx="48" cy="197" r="3" fill="#283593"/>
+<text x="58" y="201" font-family="Arial,sans-serif" font-size="11" fill="#444">Сказать, откуда ты</text>
+<line x1="40" y1="218" x2="460" y2="218" stroke="#C5CAE9" stroke-width="1"/>
+<text x="40" y="230" font-family="Arial,sans-serif" font-size="11" fill="#283593" font-weight="bold">Факты:</text>
+<text x="50" y="246" font-family="Arial,sans-serif" font-size="10" fill="#555">💡 Nice to meet you говорят при знакомстве</text>
+<text x="50" y="264" font-family="Arial,sans-serif" font-size="10" fill="#555">💡 В английском имя называют сразу после приветс...</text>
+<circle cx="460" cy="310" r="25" fill="#283593" opacity="0.15"/>
+<circle cx="460" cy="310" r="15" fill="#283593" opacity="0.1"/>
 </svg>

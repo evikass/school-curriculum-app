@@ -1,20 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <!-- Background -->
-  <rect width="500" height="350" fill="#F5E6C8"/>
-  <!-- Top red accent bar -->
-  <rect width="500" height="8" fill="#C41E3A"/>
-  <!-- Thin gold line under accent -->
-  <rect y="8" width="500" height="2" fill="#D4A843"/>
-  <!-- Title -->
-  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Выступление перед аудиторией</text>
-  <!-- Subtitle -->
-  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Презентация и защита</text>
-  <!-- Illustration area -->
-  <rect x="180" y="180" width="140" height="90" rx="3" fill="#8B4513" stroke="#1a1a1a" stroke-width="2"/><rect x="180" y="175" width="140" height="12" rx="2" fill="#6B3410"/><rect x="160" y="270" width="180" height="8" rx="2" fill="#666"/><rect x="300" y="170" width="6" height="100" fill="#888" stroke="#666" stroke-width="1"/><rect x="285" y="150" width="36" height="25" rx="5" fill="#333" stroke="#222" stroke-width="1.5"/><ellipse cx="303" cy="147" rx="18" ry="12" fill="#444" stroke="#333" stroke-width="1"/><ellipse cx="303" cy="144" rx="5" ry="3" fill="#666"/><text x="200" y="240" text-anchor="middle" font-size="18" fill="#D4A843" font-family="Arial" font-weight="bold">:)</text><text x="250" y="300" text-anchor="middle" font-size="11" fill="#C41E3A" font-weight="bold" font-family="Arial">Говори уверенно!</text>
-  <!-- Bottom dark bar -->
-  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
-  <!-- Gold line above bottom bar -->
-  <rect y="313" width="500" height="2" fill="#D4A843"/>
-  <!-- Subject name -->
-  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Проектная деятельность</text>
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#F57F17"/>
+    <stop offset="100%" style="stop-color:#FFD54F"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
+    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
+  </linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)"/>
+<circle cx="80" cy="60" r="20" fill="white" opacity="0.08"/>
+<line x1="75" y1="80" x2="75" y2="90" stroke="white" stroke-width="1.5" opacity="0.08"/>
+<line x1="85" y1="80" x2="85" y2="90" stroke="white" stroke-width="1.5" opacity="0.08"/>
+<circle cx="200" cy="240" r="20" fill="white" opacity="0.08"/>
+<line x1="195" y1="260" x2="195" y2="270" stroke="white" stroke-width="1.5" opacity="0.08"/>
+<line x1="205" y1="260" x2="205" y2="270" stroke="white" stroke-width="1.5" opacity="0.08"/>
+<circle cx="320" cy="60" r="20" fill="white" opacity="0.08"/>
+<line x1="315" y1="80" x2="315" y2="90" stroke="white" stroke-width="1.5" opacity="0.08"/>
+<line x1="325" y1="80" x2="325" y2="90" stroke="white" stroke-width="1.5" opacity="0.08"/>
+<circle cx="440" cy="240" r="20" fill="white" opacity="0.08"/>
+<line x1="435" y1="260" x2="435" y2="270" stroke="white" stroke-width="1.5" opacity="0.08"/>
+<line x1="445" y1="260" x2="445" y2="270" stroke="white" stroke-width="1.5" opacity="0.08"/>
+<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
+<rect x="30" y="60" width="auto" height="24" rx="12" fill="#F57F17" opacity="0.9"/>
+<rect x="30" y="60" width="196" height="24" rx="12" fill="#F57F17" opacity="0.9"/>
+<text x="128" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Проектная деятельность</text>
+<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#F57F17" font-weight="bold">Урок 3</text>
+<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Методы исследования</text>
+<line x1="40" y1="115" x2="460" y2="115" stroke="#FFF9C4" stroke-width="2"/>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Осваиваем способы изучения явлений.</text>
+<text x="40" y="155" font-family="Arial,sans-serif" font-size="11" fill="#F57F17" font-weight="bold">Ключевые темы:</text>
+<circle cx="48" cy="175" r="9" fill="#F57F17" opacity="0.15"/>
+<text x="48" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#F57F17" font-weight="bold">1</text>
+<text x="64" y="179" font-family="Arial,sans-serif" font-size="11" fill="#444">Провести наблюдение</text>
+<circle cx="48" cy="199" r="9" fill="#F57F17" opacity="0.15"/>
+<text x="48" y="203" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#F57F17" font-weight="bold">2</text>
+<text x="64" y="203" font-family="Arial,sans-serif" font-size="11" fill="#444">Организовать эксперимент</text>
+<circle cx="48" cy="223" r="9" fill="#F57F17" opacity="0.15"/>
+<text x="48" y="227" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#F57F17" font-weight="bold">3</text>
+<text x="64" y="227" font-family="Arial,sans-serif" font-size="11" fill="#444">Провести опрос</text>
+<circle cx="460" cy="310" r="25" fill="#F57F17" opacity="0.15"/>
+<circle cx="460" cy="310" r="15" fill="#F57F17" opacity="0.1"/>
 </svg>

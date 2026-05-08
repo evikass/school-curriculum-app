@@ -1,20 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <!-- Background -->
-  <rect width="500" height="350" fill="#F5E6C8"/>
-  <!-- Top red accent bar -->
-  <rect width="500" height="8" fill="#C41E3A"/>
-  <!-- Thin gold line under accent -->
-  <rect y="8" width="500" height="2" fill="#D4A843"/>
-  <!-- Title -->
-  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Русская и английская раскладка</text>
-  <!-- Subtitle -->
-  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Работа с клавиатурой</text>
-  <!-- Illustration area -->
-  <text x="170" y="120" text-anchor="middle" font-size="13" fill="#2B4C7E" font-weight="bold" font-family="Arial">РУС</text><rect x="120" y="128" width="24" height="24" rx="3" fill="#1a1a1a"/><text x="132" y="145" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">Ф</text><rect x="148" y="128" width="24" height="24" rx="3" fill="#1a1a1a"/><text x="160" y="145" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">Ы</text><rect x="176" y="128" width="24" height="24" rx="3" fill="#1a1a1a"/><text x="188" y="145" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">В</text><rect x="204" y="128" width="24" height="24" rx="3" fill="#1a1a1a"/><text x="216" y="145" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">А</text><rect x="232" y="128" width="24" height="24" rx="3" fill="#1a1a1a"/><text x="244" y="145" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">П</text><rect x="260" y="128" width="24" height="24" rx="3" fill="#1a1a1a"/><text x="272" y="145" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">Р</text><rect x="288" y="128" width="24" height="24" rx="3" fill="#1a1a1a"/><text x="300" y="145" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">О</text><rect x="316" y="128" width="24" height="24" rx="3" fill="#1a1a1a"/><text x="328" y="145" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">Л</text><rect x="344" y="128" width="24" height="24" rx="3" fill="#1a1a1a"/><text x="356" y="145" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">Д</text><rect x="372" y="128" width="24" height="24" rx="3" fill="#1a1a1a"/><text x="384" y="145" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">Ж</text><rect x="400" y="128" width="24" height="24" rx="3" fill="#1a1a1a"/><text x="412" y="145" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">Э</text><text x="170" y="190" text-anchor="middle" font-size="13" fill="#C41E3A" font-weight="bold" font-family="Arial">ENG</text><rect x="120" y="198" width="24" height="24" rx="3" fill="#555"/><text x="132" y="215" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">A</text><rect x="148" y="198" width="24" height="24" rx="3" fill="#555"/><text x="160" y="215" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">S</text><rect x="176" y="198" width="24" height="24" rx="3" fill="#555"/><text x="188" y="215" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">D</text><rect x="204" y="198" width="24" height="24" rx="3" fill="#555"/><text x="216" y="215" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">F</text><rect x="232" y="198" width="24" height="24" rx="3" fill="#555"/><text x="244" y="215" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">G</text><rect x="260" y="198" width="24" height="24" rx="3" fill="#555"/><text x="272" y="215" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">H</text><rect x="288" y="198" width="24" height="24" rx="3" fill="#555"/><text x="300" y="215" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">J</text><rect x="316" y="198" width="24" height="24" rx="3" fill="#555"/><text x="328" y="215" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">K</text><rect x="344" y="198" width="24" height="24" rx="3" fill="#555"/><text x="356" y="215" text-anchor="middle" font-size="11" fill="#F5E6C8" font-family="Arial">L</text><text x="250" y="260" text-anchor="middle" font-size="12" fill="#D4A843" font-weight="bold" font-family="Arial">Alt + Shift</text><polygon points="250,270 270,295 230,295" fill="#C41E3A" stroke="none" opacity="0.7"/><polygon points="250,300 270,275 230,275" fill="#2B4C7E" stroke="none" opacity="0.7"/>
-  <!-- Bottom dark bar -->
-  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
-  <!-- Gold line above bottom bar -->
-  <rect y="313" width="500" height="2" fill="#D4A843"/>
-  <!-- Subject name -->
-  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Информатика</text>
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#1A237E"/>
+    <stop offset="100%" style="stop-color:#42A5F5"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
+    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
+  </linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)"/>
+<line x1="0" y1="0" x2="0" y2="350" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<line x1="80" y1="0" x2="80" y2="350" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<line x1="160" y1="0" x2="160" y2="350" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<line x1="240" y1="0" x2="240" y2="350" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<line x1="320" y1="0" x2="320" y2="350" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<line x1="400" y1="0" x2="400" y2="350" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<line x1="480" y1="0" x2="480" y2="350" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="0" x2="500" y2="0" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="80" x2="500" y2="80" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="160" x2="500" y2="160" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="240" x2="500" y2="240" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="320" x2="500" y2="320" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
+<rect x="30" y="60" width="auto" height="24" rx="12" fill="#1A237E" opacity="0.9"/>
+<rect x="30" y="60" width="108" height="24" rx="12" fill="#1A237E" opacity="0.9"/>
+<text x="84" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Информатика</text>
+<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#1A237E" font-weight="bold">Урок 7</text>
+<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Геометрические фигуры</text>
+<line x1="40" y1="115" x2="460" y2="115" stroke="#BBDEFB" stroke-width="2"/>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Рисуем фигуры в графическом редакторе.</text>
+<text x="40" y="155" font-family="Arial,sans-serif" font-size="11" fill="#1A237E" font-weight="bold">Ключевые темы:</text>
+<circle cx="48" cy="175" r="9" fill="#1A237E" opacity="0.15"/>
+<text x="48" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#1A237E" font-weight="bold">1</text>
+<text x="64" y="179" font-family="Arial,sans-serif" font-size="11" fill="#444">Нарисовать прямоугольник</text>
+<circle cx="48" cy="199" r="9" fill="#1A237E" opacity="0.15"/>
+<text x="48" y="203" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#1A237E" font-weight="bold">2</text>
+<text x="64" y="203" font-family="Arial,sans-serif" font-size="11" fill="#444">Создать круг и овал</text>
+<circle cx="48" cy="223" r="9" fill="#1A237E" opacity="0.15"/>
+<text x="48" y="227" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#1A237E" font-weight="bold">3</text>
+<text x="64" y="227" font-family="Arial,sans-serif" font-size="11" fill="#444">Использовать заливку цветом</text>
+<circle cx="460" cy="310" r="25" fill="#1A237E" opacity="0.15"/>
+<circle cx="460" cy="310" r="15" fill="#1A237E" opacity="0.1"/>
 </svg>

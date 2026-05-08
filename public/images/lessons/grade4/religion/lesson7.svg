@@ -1,20 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <!-- Background -->
-  <rect width="500" height="350" fill="#F5E6C8"/>
-  <!-- Top red accent bar -->
-  <rect width="500" height="8" fill="#C41E3A"/>
-  <!-- Thin gold line under accent -->
-  <rect y="8" width="500" height="2" fill="#D4A843"/>
-  <!-- Title -->
-  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Православные праздники</text>
-  <!-- Subtitle -->
-  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Православная культура</text>
-  <!-- Illustration area -->
-  <ellipse cx="200" cy="190" rx="35" ry="45" fill="#DC143C" stroke="#1a1a1a" stroke-width="2"/><ellipse cx="200" cy="190" rx="25" ry="35" fill="none" stroke="#D4A843" stroke-width="1.5"/><line x1="200" y1="155" x2="200" y2="145" stroke="#8B6914" stroke-width="2"/><line x1="200" y1="145" x2="195" y2="150" stroke="#8B6914" stroke-width="1.5"/><line x1="200" y1="145" x2="205" y2="150" stroke="#8B6914" stroke-width="1.5"/><!-- Kulich --><rect x="280" y="175" width="50" height="60" rx="8" fill="#DEB887" stroke="#1a1a1a" stroke-width="1.5"/><rect x="275" y="170" width="60" height="15" rx="5" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="305" y="210" text-anchor="middle" font-size="10" fill="#C41E3A" font-family="Arial" font-weight="bold">ХВ</text><text x="250" y="268" text-anchor="middle" font-size="11" fill="#D4A843" font-weight="bold" font-family="Arial">Христос воскресе!</text><text x="250" y="290" text-anchor="middle" font-size="11" fill="#1a1a1a" font-family="Arial">Воистину воскресе!</text>
-  <!-- Bottom dark bar -->
-  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
-  <!-- Gold line above bottom bar -->
-  <rect y="313" width="500" height="2" fill="#D4A843"/>
-  <!-- Subject name -->
-  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Основы духовной культуры</text>
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#6A1B9A"/>
+    <stop offset="100%" style="stop-color:#BA68C8"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
+    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
+  </linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)"/>
+<circle cx="50" cy="30" r="25" fill="none" stroke="white" stroke-width="1" opacity="0.08"/>
+<circle cx="50" cy="30" r="15" fill="none" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<circle cx="160" cy="310" r="25" fill="none" stroke="white" stroke-width="1" opacity="0.08"/>
+<circle cx="160" cy="310" r="15" fill="none" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<circle cx="270" cy="30" r="25" fill="none" stroke="white" stroke-width="1" opacity="0.08"/>
+<circle cx="270" cy="30" r="15" fill="none" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<circle cx="380" cy="310" r="25" fill="none" stroke="white" stroke-width="1" opacity="0.08"/>
+<circle cx="380" cy="310" r="15" fill="none" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<circle cx="490" cy="30" r="25" fill="none" stroke="white" stroke-width="1" opacity="0.08"/>
+<circle cx="490" cy="30" r="15" fill="none" stroke="white" stroke-width="0.5" opacity="0.08"/>
+<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
+<rect x="30" y="60" width="auto" height="24" rx="12" fill="#6A1B9A" opacity="0.9"/>
+<rect x="30" y="60" width="228" height="24" rx="12" fill="#6A1B9A" opacity="0.9"/>
+<text x="144" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Основы религиозных культур</text>
+<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6A1B9A" font-weight="bold">Урок 10</text>
+<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Десять заповедей</text>
+<line x1="40" y1="115" x2="460" y2="115" stroke="#E1BEE7" stroke-width="2"/>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Изучаем основные правила нравственности.</text>
+<text x="40" y="155" font-family="Arial,sans-serif" font-size="11" fill="#6A1B9A" font-weight="bold">Задания:</text>
+<circle cx="48" cy="177" r="3" fill="#6A1B9A"/>
+<text x="58" y="181" font-family="Arial,sans-serif" font-size="11" fill="#444">Узнать о заповедях</text>
+<circle cx="48" cy="197" r="3" fill="#6A1B9A"/>
+<text x="58" y="201" font-family="Arial,sans-serif" font-size="11" fill="#444">Понять их значение</text>
+<line x1="40" y1="218" x2="460" y2="218" stroke="#E1BEE7" stroke-width="1"/>
+<text x="40" y="230" font-family="Arial,sans-serif" font-size="11" fill="#6A1B9A" font-weight="bold">Факты:</text>
+<text x="50" y="246" font-family="Arial,sans-serif" font-size="10" fill="#555">💡 Заповеди были даны около 3500 лет назад</text>
+<text x="50" y="264" font-family="Arial,sans-serif" font-size="10" fill="#555">💡 Они записаны в Библии, в книге Исход</text>
+<circle cx="460" cy="310" r="25" fill="#6A1B9A" opacity="0.15"/>
+<circle cx="460" cy="310" r="15" fill="#6A1B9A" opacity="0.1"/>
 </svg>

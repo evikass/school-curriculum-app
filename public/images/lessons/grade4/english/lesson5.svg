@@ -1,42 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <!-- Background -->
-  <rect width="500" height="350" fill="#F5E6C8"/>
-  <!-- Top red accent bar -->
-  <rect width="500" height="6" fill="#C41E3A"/>
-  <!-- Gold line under red bar -->
-  <rect y="6" width="500" height="2" fill="#D4A843" opacity="0.6"/>
-
-  <!-- Title -->
-  <text x="250" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Урок 5:  Цвета</text>
-  <!-- Subtitle -->
-  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#2B4C7E" text-anchor="middle">Colours</text>
-
-    <rect x="70" y="100" width="70" height="50" rx="6" fill="#E53935" stroke="#1a1a1a" stroke-width="1.5"/>
-  <text x="105" y="130" font-family="Arial" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">RED</text>
-  <rect x="170" y="100" width="70" height="50" rx="6" fill="#FB8C00" stroke="#1a1a1a" stroke-width="1.5"/>
-  <text x="205" y="130" font-family="Arial" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">ORANGE</text>
-  <rect x="270" y="100" width="70" height="50" rx="6" fill="#FDD835" stroke="#1a1a1a" stroke-width="1.5"/>
-  <text x="305" y="130" font-family="Arial" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">YELLOW</text>
-  <rect x="370" y="100" width="70" height="50" rx="6" fill="#43A047" stroke="#1a1a1a" stroke-width="1.5"/>
-  <text x="405" y="130" font-family="Arial" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GREEN</text>
-  <rect x="70" y="175" width="70" height="50" rx="6" fill="#1E88E5" stroke="#1a1a1a" stroke-width="1.5"/>
-  <text x="105" y="205" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">BLUE</text>
-  <rect x="170" y="175" width="70" height="50" rx="6" fill="#8E24AA" stroke="#1a1a1a" stroke-width="1.5"/>
-  <text x="205" y="205" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">PURPLE</text>
-  <rect x="270" y="175" width="70" height="50" rx="6" fill="#EC407A" stroke="#1a1a1a" stroke-width="1.5"/>
-  <text x="305" y="205" font-family="Arial" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PINK</text>
-  <rect x="370" y="175" width="70" height="50" rx="6" fill="#795548" stroke="#1a1a1a" stroke-width="1.5"/>
-  <text x="405" y="205" font-family="Arial" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">BROWN</text>
-  <rect x="70" y="250" width="70" height="50" rx="6" fill="#212121" stroke="#1a1a1a" stroke-width="1.5"/>
-  <text x="105" y="280" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">BLACK</text>
-  <rect x="170" y="250" width="70" height="50" rx="6" fill="#9E9E9E" stroke="#1a1a1a" stroke-width="1.5"/>
-  <text x="205" y="280" font-family="Arial" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GREY</text>
-  <rect x="270" y="250" width="70" height="50" rx="6" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="1.5"/>
-  <text x="305" y="280" font-family="Arial" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">WHITE</text>
-
-
-  <!-- Bottom dark bar -->
-  <rect y="318" width="500" height="32" fill="#1a1a1a"/>
-  <rect y="318" width="500" height="2" fill="#D4A843" opacity="0.5"/>
-  <text x="250" y="339" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#F5E6C8" text-anchor="middle" letter-spacing="1">Иностранный язык — 4 класс</text>
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#283593"/>
+    <stop offset="100%" style="stop-color:#5C6BC0"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
+    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
+  </linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)"/>
+<circle cx="30" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="30" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="30" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="30" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="95" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="95" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="95" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="95" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="160" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="160" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="160" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="160" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="225" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="225" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="225" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="225" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="290" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="290" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="290" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="290" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="355" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="355" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="355" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="355" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="420" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="420" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="420" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="420" cy="290" r="3" fill="white" opacity="0.08"/>
+<circle cx="485" cy="20" r="3" fill="white" opacity="0.08"/>
+<circle cx="485" cy="110" r="3" fill="white" opacity="0.08"/>
+<circle cx="485" cy="200" r="3" fill="white" opacity="0.08"/>
+<circle cx="485" cy="290" r="3" fill="white" opacity="0.08"/>
+<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
+<rect x="30" y="60" width="auto" height="24" rx="12" fill="#283593" opacity="0.9"/>
+<rect x="30" y="60" width="148" height="24" rx="12" fill="#283593" opacity="0.9"/>
+<text x="104" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Иностранный язык</text>
+<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#283593" font-weight="bold">Урок 20</text>
+<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">☕ В кафе</text>
+<line x1="40" y1="115" x2="460" y2="115" stroke="#C5CAE9" stroke-width="2"/>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">At the café — диалоги в кафе.</text>
+<circle cx="50" cy="160" r="4" fill="#283593"/>
+<text x="62" y="165" font-family="Arial,sans-serif" font-size="12" fill="#333">Делать заказ</text>
+<circle cx="50" cy="185" r="4" fill="#283593"/>
+<text x="62" y="190" font-family="Arial,sans-serif" font-size="12" fill="#333">Спрашивать о меню</text>
+<circle cx="50" cy="210" r="4" fill="#283593"/>
+<text x="62" y="215" font-family="Arial,sans-serif" font-size="12" fill="#333">Платить за заказ</text>
+<circle cx="50" cy="235" r="4" fill="#283593"/>
+<text x="62" y="240" font-family="Arial,sans-serif" font-size="12" fill="#333">Благодарить</text>
+<rect x="40" y="260" width="70" height="18" rx="9" fill="#283593" opacity="0.15"/>
+<text x="75" y="273" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#283593" font-weight="bold">4 заданий</text>
+<circle cx="460" cy="310" r="25" fill="#283593" opacity="0.15"/>
+<circle cx="460" cy="310" r="15" fill="#283593" opacity="0.1"/>
 </svg>

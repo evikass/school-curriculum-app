@@ -1,54 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      text { font-family: 'Arial', 'Helvetica', sans-serif; }
-    </style>
-  </defs>
-  <!-- Background -->
-  <rect width="500" height="350" fill="#F5E6C8" />
-  <!-- Top decorative line -->
-  <rect x="0" y="0" width="500" height="4" fill="#C41E3A" />
-  <!-- Bottom decorative line -->
-  <rect x="0" y="316" width="500" height="4" fill="#C41E3A" />
-  <!-- Bottom panel -->
-  <rect x="0" y="316" width="500" height="34" fill="#1a1a1a" />
-  <!-- Title -->
-  <text x="250" y="45" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">Чтение и запись многозначных чисел</text>
-  <!-- Subtitle -->
-  <text x="250" y="70" text-anchor="middle" fill="#1a1a1a" font-size="12">Как читать и записывать числа до миллиона</text>
-  <!-- Separator -->
-  <line x1="50" y1="80" x2="450" y2="80" stroke="#C41E3A" stroke-width="2" />
-  <!-- Book/open book shape -->
-  <rect x="150" y="90" width="200" height="10" fill="#1a1a1a" rx="2" />
-  <rect x="155" y="100" width="95" height="80" fill="#F5E6C8" stroke="#1a1a1a" stroke-width="2" rx="0" />
-  <rect x="250" y="100" width="95" height="80" fill="#F5E6C8" stroke="#1a1a1a" stroke-width="2" rx="0" />
-  <line x1="250" y1="100" x2="250" y2="180" stroke="#1a1a1a" stroke-width="2" />
-  
-  <!-- Numbers on pages -->
-  <text x="200" y="130" text-anchor="middle" fill="#1a1a1a" font-size="11">12 305</text>
-  <text x="200" y="150" text-anchor="middle" fill="#1a1a1a" font-size="9" fill-opacity="0.7">двенадцать</text>
-  <text x="200" y="165" text-anchor="middle" fill="#1a1a1a" font-size="9" fill-opacity="0.7">тысяч триста</text>
-  <text x="200" y="178" text-anchor="middle" fill="#1a1a1a" font-size="9" fill-opacity="0.7">пять</text>
-  
-  <text x="300" y="130" text-anchor="middle" fill="#1a1a1a" font-size="11">350 724</text>
-  <text x="300" y="150" text-anchor="middle" fill="#1a1a1a" font-size="9" fill-opacity="0.7">триста пятьдесят</text>
-  <text x="300" y="165" text-anchor="middle" fill="#1a1a1a" font-size="9" fill-opacity="0.7">тысяч семьсот</text>
-  <text x="300" y="178" text-anchor="middle" fill="#1a1a1a" font-size="9" fill-opacity="0.7">двадцать четыре</text>
-  
-  <!-- Previous / Next arrows -->
-  <text x="100" y="220" text-anchor="middle" fill="#C41E3A" font-size="40" font-weight="bold">&lt;</text>
-  <text x="175" y="222" text-anchor="middle" fill="#1a1a1a" font-size="16" font-weight="bold">999</text>
-  <text x="240" y="222" text-anchor="middle" fill="#2B4C7E" font-size="16" font-weight="bold">1000</text>
-  <text x="325" y="222" text-anchor="middle" fill="#1a1a1a" font-size="16" font-weight="bold">1001</text>
-  <text x="400" y="220" text-anchor="middle" fill="#C41E3A" font-size="40" font-weight="bold">&gt;</text>
-  
-  <text x="175" y="242" text-anchor="middle" fill="#1a1a1a" font-size="9">пред.</text>
-  <text x="325" y="242" text-anchor="middle" fill="#1a1a1a" font-size="9">след.</text>
-  
-  <!-- Reading rule box -->
-  <rect x="60" y="260" width="380" height="45" fill="#C41E3A" opacity="0.08" rx="6" />
-  <text x="250" y="280" text-anchor="middle" fill="#1a1a1a" font-size="12" font-weight="bold">Правило чтения: разбей на классы по 3 цифры</text>
-  <text x="250" y="296" text-anchor="middle" fill="#1a1a1a" font-size="10">справа налево, читай слева направо</text>
-  <!-- Bottom panel text -->
-  <text x="250" y="335" text-anchor="middle" fill="#F5E6C8" font-size="13" font-weight="bold">Математика</text>
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#1565C0"/>
+    <stop offset="100%" style="stop-color:#64B5F6"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
+    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
+  </linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)"/>
+<text x="40" y="50" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">7</text>
+<text x="160" y="50" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">3</text>
+<text x="280" y="50" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">5</text>
+<text x="400" y="50" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">9</text>
+<text x="40" y="200" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">2</text>
+<text x="160" y="200" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">4</text>
+<text x="280" y="200" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">8</text>
+<text x="400" y="200" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">6</text>
+<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
+<rect x="30" y="60" width="auto" height="24" rx="12" fill="#1565C0" opacity="0.9"/>
+<rect x="30" y="60" width="100" height="24" rx="12" fill="#1565C0" opacity="0.9"/>
+<text x="80" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Математика</text>
+<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" font-weight="bold">Урок 22</text>
+<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">⚖ Единицы массы</text>
+<line x1="40" y1="115" x2="460" y2="115" stroke="#BBDEFB" stroke-width="2"/>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Измерение массы: г, кг, ц, т.</text>
+<text x="40" y="155" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" font-weight="bold">Задания:</text>
+<circle cx="48" cy="177" r="3" fill="#1565C0"/>
+<text x="58" y="181" font-family="Arial,sans-serif" font-size="11" fill="#444">Называть единицы массы</text>
+<circle cx="48" cy="197" r="3" fill="#1565C0"/>
+<text x="58" y="201" font-family="Arial,sans-serif" font-size="11" fill="#444">Переводить единицы</text>
+<line x1="40" y1="218" x2="460" y2="218" stroke="#BBDEFB" stroke-width="1"/>
+<text x="40" y="230" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" font-weight="bold">Факты:</text>
+<text x="50" y="246" font-family="Arial,sans-serif" font-size="10" fill="#555">💡 ⚖️ Эталон килограмма хранится в Париже</text>
+<text x="50" y="264" font-family="Arial,sans-serif" font-size="10" fill="#555">💡 ⚖️ Масса Земли ≈ 6 секстиллионов кг</text>
+<circle cx="460" cy="310" r="25" fill="#1565C0" opacity="0.15"/>
+<circle cx="460" cy="310" r="15" fill="#1565C0" opacity="0.1"/>
 </svg>

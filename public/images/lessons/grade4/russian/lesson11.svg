@@ -1,48 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <rect width="500" height="350" fill="#F5E6C8"/>
-  <rect x="0" y="0" width="500" height="6" fill="#C41E3A"/>
-  <rect x="0" y="310" width="500" height="4" fill="#D4A843"/>
-  <!-- Title -->
-  <text x="250" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Безударные гласные в корне</text>
-  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1a1a1a">Проверяемые и непроверяемые гласные</text>
-  <!-- Magnifying glass -->
-  <circle cx="100" cy="130" r="35" fill="none" stroke="#1a1a1a" stroke-width="4"/>
-  <circle cx="100" cy="130" r="30" fill="#E8F0FF" stroke="none"/>
-  <line x1="126" y1="156" x2="155" y2="185" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round"/>
-  <!-- Accent mark inside magnifying glass -->
-  <line x1="93" y1="118" x2="100" y2="135" stroke="#C41E3A" stroke-width="3" stroke-linecap="round"/>
-  <!-- Word pairs with stress arrows -->
-  <!-- Pair 1: вода -->
-  <rect x="190" y="90" width="130" height="35" rx="4" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="1.5"/>
-  <text x="255" y="113" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1a1a">в<tspan fill="#C41E3A" font-weight="bold" text-decoration="underline">о</tspan>да</text>
-  <!-- Arrow -->
-  <line x1="320" y1="107" x2="355" y2="107" stroke="#D4A843" stroke-width="2"/>
-  <polygon points="353,102 363,107 353,112" fill="#D4A843"/>
-  <text x="337" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#D4A843">проверка</text>
-  <rect x="365" y="90" width="90" height="35" rx="4" fill="#E8D5A0"/>
-  <text x="410" y="113" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1a1a1a">в<tspan fill="#C41E3A">О</tspan>ды</text>
-  <!-- Pair 2: трава -->
-  <rect x="190" y="140" width="130" height="35" rx="4" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="1.5"/>
-  <text x="255" y="163" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1a1a">тр<tspan fill="#C41E3A" font-weight="bold" text-decoration="underline">а</tspan>ва</text>
-  <line x1="320" y1="157" x2="355" y2="157" stroke="#D4A843" stroke-width="2"/>
-  <polygon points="353,152 363,157 353,162" fill="#D4A843"/>
-  <text x="337" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#D4A843">проверка</text>
-  <rect x="365" y="140" width="90" height="35" rx="4" fill="#E8D5A0"/>
-  <text x="410" y="163" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1a1a1a">тр<tspan fill="#C41E3A">А</tspan>вы</text>
-  <!-- Pair 3: леса -->
-  <rect x="190" y="190" width="130" height="35" rx="4" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="1.5"/>
-  <text x="255" y="213" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1a1a">л<tspan fill="#C41E3A" font-weight="bold" text-decoration="underline">е</tspan>са</text>
-  <line x1="320" y1="207" x2="355" y2="207" stroke="#D4A843" stroke-width="2"/>
-  <polygon points="353,202 363,207 353,212" fill="#D4A843"/>
-  <text x="337" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#D4A843">проверка</text>
-  <rect x="365" y="190" width="90" height="35" rx="4" fill="#E8D5A0"/>
-  <text x="410" y="213" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1a1a1a">л<tspan fill="#C41E3A">Е</tspan>с</text>
-  <!-- Algorithm steps -->
-  <rect x="40" y="240" width="420" height="55" rx="5" fill="#FFFFFF" stroke="#C41E3A" stroke-width="1.5"/>
-  <text x="250" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#C41E3A">Алгоритм проверки:</text>
-  <text x="250" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1a1a1a">1. Поставь ударение  2. Найди безударную гласную  3. Подбери проверочное слово</text>
-  <text x="250" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1a1a1a">4. Гласная под ударением показывает нужную букву</text>
-  <!-- Subject name -->
-  <text x="250" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1a1a1a">Русский язык -- 4 класс</text>
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#C62828"/>
+    <stop offset="100%" style="stop-color:#EF5350"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
+    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
+  </linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)"/>
+<text x="30" y="40" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">А</text>
+<text x="160" y="40" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">Б</text>
+<text x="290" y="40" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">В</text>
+<text x="420" y="40" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">Г</text>
+<text x="30" y="200" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">Д</text>
+<text x="160" y="200" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">Е</text>
+<text x="290" y="200" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">Ё</text>
+<text x="420" y="200" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">Ж</text>
+<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
+<rect x="30" y="60" width="auto" height="24" rx="12" fill="#C62828" opacity="0.9"/>
+<rect x="30" y="60" width="116" height="24" rx="12" fill="#C62828" opacity="0.9"/>
+<text x="88" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Русский язык</text>
+<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold">Урок 3</text>
+<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Второстепенные члены предложения</text>
+<line x1="40" y1="115" x2="460" y2="115" stroke="#FFCDD2" stroke-width="2"/>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Дополнение, определение, обстоятельство.</text>
+<text x="40" y="155" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold">Ключевые темы:</text>
+<circle cx="48" cy="175" r="9" fill="#C62828" opacity="0.15"/>
+<text x="48" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#C62828" font-weight="bold">1</text>
+<text x="64" y="179" font-family="Arial,sans-serif" font-size="11" fill="#444">Находить в предложении</text>
+<circle cx="48" cy="199" r="9" fill="#C62828" opacity="0.15"/>
+<text x="48" y="203" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#C62828" font-weight="bold">2</text>
+<text x="64" y="203" font-family="Arial,sans-serif" font-size="11" fill="#444">Роль в предложении</text>
+<circle cx="48" cy="223" r="9" fill="#C62828" opacity="0.15"/>
+<text x="48" y="227" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#C62828" font-weight="bold">3</text>
+<text x="64" y="227" font-family="Arial,sans-serif" font-size="11" fill="#444">Разбор предложения</text>
+<circle cx="460" cy="310" r="25" fill="#C62828" opacity="0.15"/>
+<circle cx="460" cy="310" r="15" fill="#C62828" opacity="0.1"/>
 </svg>

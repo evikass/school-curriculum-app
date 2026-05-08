@@ -1,65 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      text { font-family: 'Arial', 'Helvetica', sans-serif; }
-    </style>
-  </defs>
-  <!-- Background -->
-  <rect width="500" height="350" fill="#F5E6C8" />
-  <!-- Top decorative line -->
-  <rect x="0" y="0" width="500" height="4" fill="#C41E3A" />
-  <!-- Bottom decorative line -->
-  <rect x="0" y="316" width="500" height="4" fill="#C41E3A" />
-  <!-- Bottom panel -->
-  <rect x="0" y="316" width="500" height="34" fill="#1a1a1a" />
-  <!-- Title -->
-  <text x="250" y="45" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">Площадь прямоугольника</text>
-  <!-- Subtitle -->
-  <text x="250" y="70" text-anchor="middle" fill="#1a1a1a" font-size="12">Вычисление площади прямоугольника</text>
-  <!-- Separator -->
-  <line x1="50" y1="80" x2="450" y2="80" stroke="#C41E3A" stroke-width="2" />
-  <!-- Grid rectangle -->
-  <rect x="100" y="100" width="200" height="150" fill="#2B4C7E" opacity="0.1" stroke="#1a1a1a" stroke-width="2" />
-  
-  <!-- Grid lines vertical (5 cols = 200px, 40px each) -->
-  <line x1="140" y1="100" x2="140" y2="250" stroke="#2B4C7E" stroke-width="1" opacity="0.4" />
-  <line x1="180" y1="100" x2="180" y2="250" stroke="#2B4C7E" stroke-width="1" opacity="0.4" />
-  <line x1="220" y1="100" x2="220" y2="250" stroke="#2B4C7E" stroke-width="1" opacity="0.4" />
-  <line x1="260" y1="100" x2="260" y2="250" stroke="#2B4C7E" stroke-width="1" opacity="0.4" />
-  
-  <!-- Grid lines horizontal (4 rows = 150px, ~37px each) -->
-  <line x1="100" y1="137" x2="300" y2="137" stroke="#2B4C7E" stroke-width="1" opacity="0.4" />
-  <line x1="100" y1="175" x2="300" y2="175" stroke="#2B4C7E" stroke-width="1" opacity="0.4" />
-  <line x1="100" y1="212" x2="300" y2="212" stroke="#2B4C7E" stroke-width="1" opacity="0.4" />
-  
-  <!-- Dimensions -->
-  <!-- Width arrow -->
-  <line x1="100" y1="265" x2="300" y2="265" stroke="#C41E3A" stroke-width="2" />
-  <polygon points="100,265 110,260 110,270" fill="#C41E3A" />
-  <polygon points="300,265 290,260 290,270" fill="#C41E3A" />
-  <text x="200" y="282" text-anchor="middle" fill="#C41E3A" font-size="14" font-weight="bold">a = 5 см</text>
-  
-  <!-- Height arrow -->
-  <line x1="80" y1="100" x2="80" y2="250" stroke="#C41E3A" stroke-width="2" />
-  <polygon points="80,100 75,110 85,110" fill="#C41E3A" />
-  <polygon points="80,250 75,240 85,240" fill="#C41E3A" />
-  <text x="65" y="180" text-anchor="middle" fill="#C41E3A" font-size="14" font-weight="bold" transform="rotate(-90, 65, 180)">b = 4 см</text>
-  
-  <!-- Count squares label -->
-  <text x="200" y="170" text-anchor="middle" fill="#1a1a1a" font-size="12">5 x 4 = 20</text>
-  <text x="200" y="190" text-anchor="middle" fill="#1a1a1a" font-size="12">квадратов</text>
-  
-  <!-- Formula box -->
-  <rect x="340" y="100" width="140" height="80" fill="#C41E3A" opacity="0.1" rx="6" stroke="#C41E3A" stroke-width="1" />
-  <text x="410" y="130" text-anchor="middle" fill="#C41E3A" font-size="14" font-weight="bold">S = a x b</text>
-  <text x="410" y="155" text-anchor="middle" fill="#1a1a1a" font-size="12">S = 5 x 4</text>
-  <text x="410" y="175" text-anchor="middle" fill="#C41E3A" font-size="16" font-weight="bold">S = 20 кв.см</text>
-  
-  <!-- Squares label -->
-  <rect x="340" y="200" width="140" height="60" fill="#D4A843" opacity="0.15" rx="6" />
-  <text x="410" y="225" text-anchor="middle" fill="#1a1a1a" font-size="11">Квадрат: S = a x a</text>
-  <text x="410" y="248" text-anchor="middle" fill="#1a1a1a" font-size="11">Треугольник:</text>
-  <text x="410" y="260" text-anchor="middle" fill="#1a1a1a" font-size="11">S = a x b : 2</text>
-  <!-- Bottom panel text -->
-  <text x="250" y="335" text-anchor="middle" fill="#F5E6C8" font-size="13" font-weight="bold">Математика</text>
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#1565C0"/>
+    <stop offset="100%" style="stop-color:#64B5F6"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
+    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
+  </linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)"/>
+<text x="40" y="50" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">7</text>
+<text x="160" y="50" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">3</text>
+<text x="280" y="50" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">5</text>
+<text x="400" y="50" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">9</text>
+<text x="40" y="200" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">2</text>
+<text x="160" y="200" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">4</text>
+<text x="280" y="200" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">8</text>
+<text x="400" y="200" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">6</text>
+<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
+<rect x="30" y="60" width="auto" height="24" rx="12" fill="#1565C0" opacity="0.9"/>
+<rect x="30" y="60" width="100" height="24" rx="12" fill="#1565C0" opacity="0.9"/>
+<text x="80" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Математика</text>
+<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" font-weight="bold">Урок 10</text>
+<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Деление на числа с нулями</text>
+<line x1="40" y1="115" x2="460" y2="115" stroke="#BBDEFB" stroke-width="2"/>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Особые случаи деления на 10, 100, 1000.</text>
+<text x="40" y="155" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" font-weight="bold">Задания:</text>
+<circle cx="48" cy="177" r="3" fill="#1565C0"/>
+<text x="58" y="181" font-family="Arial,sans-serif" font-size="11" fill="#444">Делить на 10, 100, 1000</text>
+<circle cx="48" cy="197" r="3" fill="#1565C0"/>
+<text x="58" y="201" font-family="Arial,sans-serif" font-size="11" fill="#444">Делить круглые числа</text>
+<line x1="40" y1="218" x2="460" y2="218" stroke="#BBDEFB" stroke-width="1"/>
+<text x="40" y="230" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" font-weight="bold">Факты:</text>
+<text x="50" y="246" font-family="Arial,sans-serif" font-size="10" fill="#555">💡 Деление на 10 сдвигает число на разряд вправо</text>
+<text x="50" y="264" font-family="Arial,sans-serif" font-size="10" fill="#555">💡 При делении нуля на число получается 0</text>
+<circle cx="460" cy="310" r="25" fill="#1565C0" opacity="0.15"/>
+<circle cx="460" cy="310" r="15" fill="#1565C0" opacity="0.1"/>
 </svg>

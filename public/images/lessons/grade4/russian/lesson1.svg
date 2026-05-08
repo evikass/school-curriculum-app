@@ -1,65 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <!-- Background -->
-  <rect width="500" height="350" fill="#F5E6C8"/>
-  <!-- Top decorative band -->
-  <rect x="0" y="0" width="500" height="6" fill="#C41E3A"/>
-  <!-- Bottom decorative band -->
-  <rect x="0" y="310" width="500" height="4" fill="#D4A843"/>
-  <!-- Red accent lines top left -->
-  <rect x="15" y="85" width="4" height="60" fill="#C41E3A"/>
-  <rect x="15" y="85" width="30" height="4" fill="#C41E3A"/>
-  <!-- Title -->
-  <text x="250" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Что такое предложение</text>
-  <!-- Subtitle -->
-  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1a1a1a">Законченная мысль, выраженная словами</text>
-  <!-- Large book in center -->
-  <rect x="170" y="100" width="160" height="120" rx="4" fill="#2B4C7E" stroke="#1a1a1a" stroke-width="2"/>
-  <rect x="170" y="100" width="80" height="120" rx="4" fill="#3A5C8E" stroke="#1a1a1a" stroke-width="2"/>
-  <line x1="250" y1="100" x2="250" y2="220" stroke="#1a1a1a" stroke-width="2"/>
-  <!-- Book spine -->
-  <rect x="164" y="100" width="8" height="120" rx="2" fill="#1a1a1a"/>
-  <!-- Text lines on left page -->
-  <line x1="185" y1="125" x2="235" y2="125" stroke="#F5E6C8" stroke-width="2"/>
-  <line x1="185" y1="140" x2="230" y2="140" stroke="#F5E6C8" stroke-width="2"/>
-  <line x1="185" y1="155" x2="220" y2="155" stroke="#F5E6C8" stroke-width="2"/>
-  <line x1="185" y1="170" x2="233" y2="170" stroke="#F5E6C8" stroke-width="2"/>
-  <line x1="185" y1="185" x2="225" y2="185" stroke="#F5E6C8" stroke-width="2"/>
-  <!-- Text lines on right page -->
-  <line x1="265" y1="125" x2="315" y2="125" stroke="#F5E6C8" stroke-width="2"/>
-  <line x1="265" y1="140" x2="310" y2="140" stroke="#F5E6C8" stroke-width="2"/>
-  <line x1="265" y1="155" x2="300" y2="155" stroke="#F5E6C8" stroke-width="2"/>
-  <line x1="265" y1="170" x2="308" y2="170" stroke="#F5E6C8" stroke-width="2"/>
-  <line x1="265" y1="185" x2="312" y2="185" stroke="#F5E6C8" stroke-width="2"/>
-  <!-- Punctuation marks floating around -->
-  <!-- Period -->
-  <circle cx="80" cy="130" r="22" fill="#C41E3A"/>
-  <text x="80" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#FFFFFF">.</text>
-  <!-- Question mark -->
-  <circle cx="420" cy="130" r="22" fill="#D4A843"/>
-  <text x="420" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#1a1a1a">?</text>
-  <!-- Exclamation mark -->
-  <circle cx="80" cy="195" r="22" fill="#2B4C7E"/>
-  <text x="80" y="206" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#FFFFFF">!</text>
-  <!-- Three dots (ellipsis) -->
-  <circle cx="420" cy="195" r="22" fill="#E8D5A0"/>
-  <text x="420" y="201" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1a1a1a">...</text>
-  <!-- Connecting arrows from punctuation to book -->
-  <line x1="102" y1="130" x2="165" y2="145" stroke="#C41E3A" stroke-width="2" stroke-dasharray="4,3"/>
-  <line x1="398" y1="130" x2="335" y2="145" stroke="#D4A843" stroke-width="2" stroke-dasharray="4,3"/>
-  <line x1="102" y1="195" x2="165" y2="175" stroke="#2B4C7E" stroke-width="2" stroke-dasharray="4,3"/>
-  <line x1="398" y1="195" x2="335" y2="175" stroke="#E8D5A0" stroke-width="2" stroke-dasharray="4,3"/>
-  <!-- Sentence types labels -->
-  <rect x="55" y="245" width="130" height="24" rx="4" fill="#C41E3A" opacity="0.9"/>
-  <text x="120" y="261" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">Повествовательное</text>
-  <rect x="200" y="245" width="110" height="24" rx="4" fill="#2B4C7E" opacity="0.9"/>
-  <text x="255" y="261" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">Вопросительное</text>
-  <rect x="325" y="245" width="120" height="24" rx="4" fill="#D4A843" opacity="0.9"/>
-  <text x="385" y="261" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">Побудительное</text>
-  <!-- Small sentences example -->
-  <text x="120" y="289" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#1a1a1a" font-style="italic">Сегодня хорошая погода.</text>
-  <text x="255" y="289" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#1a1a1a" font-style="italic">Ты пойдёшь гулять?</text>
-  <text x="385" y="289" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#1a1a1a" font-style="italic">Открой окно!</text>
-  <!-- Subject name -->
-  <text x="250" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1a1a1a">Русский язык -- 4 класс</text>
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#C62828"/>
+    <stop offset="100%" style="stop-color:#EF5350"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
+    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
+  </linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)"/>
+<text x="30" y="40" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">А</text>
+<text x="160" y="40" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">Б</text>
+<text x="290" y="40" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">В</text>
+<text x="420" y="40" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">Г</text>
+<text x="30" y="200" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">Д</text>
+<text x="160" y="200" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">Е</text>
+<text x="290" y="200" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">Ё</text>
+<text x="420" y="200" font-family="Arial" font-size="45" fill="white" opacity="0.08" font-weight="bold">Ж</text>
+<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
+<rect x="30" y="60" width="auto" height="24" rx="12" fill="#C62828" opacity="0.9"/>
+<rect x="30" y="60" width="116" height="24" rx="12" fill="#C62828" opacity="0.9"/>
+<text x="88" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Русский язык</text>
+<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold">Урок 1</text>
+<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Что такое предложение</text>
+<line x1="40" y1="115" x2="460" y2="115" stroke="#FFCDD2" stroke-width="2"/>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Предложение — это слово или группа слов, выражающих закончен...</text>
+<rect x="40" y="155" width="420" height="30" rx="6" fill="#C62828" opacity="0.08"/>
+<text x="50" y="175" font-family="Arial,sans-serif" font-size="11" fill="#444">✍️ В русском языке самое длинное предложение — 130...</text>
+<rect x="40" y="191" width="420" height="30" rx="6" fill="#C62828" opacity="0.08"/>
+<text x="50" y="211" font-family="Arial,sans-serif" font-size="11" fill="#444">✍️ Знаки препинания придумали в Древней Греции</text>
+<rect x="40" y="227" width="420" height="30" rx="6" fill="#C62828" opacity="0.08"/>
+<text x="50" y="247" font-family="Arial,sans-serif" font-size="11" fill="#444">✍️ Предложение всегда начинается с большой буквы</text>
+<circle cx="460" cy="310" r="25" fill="#C62828" opacity="0.15"/>
+<circle cx="460" cy="310" r="15" fill="#C62828" opacity="0.1"/>
 </svg>

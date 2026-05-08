@@ -1,41 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <rect width="500" height="350" fill="#F5E6C8"/>
-  <rect width="500" height="8" fill="#C41E3A"/>
-  <rect y="8" width="500" height="2" fill="#D4A843"/>
-  <text x="250" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Катание на коньках</text>
-  <text x="250" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#D4A843">Осваиваем катание на коньках</text>
-  <line x1="50" y1="82" x2="450" y2="82" stroke="#D4A843" stroke-width="0.5"/>
-  
-  <!-- ice rink surface -->
-  <rect x="100" y="240" width="300" height="15" rx="3" fill="#2B4C7E" opacity="0.15"/>
-  <!-- skater figure -->
-  <circle cx="250" cy="140" r="11" fill="#C41E3A"/>
-  <!-- body -->
-  <line x1="250" y1="151" x2="255" y2="200" stroke="#C41E3A" stroke-width="3.5" stroke-linecap="round"/>
-  <!-- arms extended -->
-  <line x1="250" y1="168" x2="215" y2="155" stroke="#C41E3A" stroke-width="3" stroke-linecap="round"/>
-  <line x1="253" y1="168" x2="290" y2="155" stroke="#C41E3A" stroke-width="3" stroke-linecap="round"/>
-  <!-- legs -->
-  <line x1="255" y1="200" x2="235" y2="235" stroke="#C41E3A" stroke-width="3" stroke-linecap="round"/>
-  <line x1="255" y1="200" x2="275" y2="230" stroke="#C41E3A" stroke-width="3" stroke-linecap="round"/>
-  <!-- ice skates -->
-  <line x1="228" y1="235" x2="242" y2="237" stroke="#D4A843" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="272" y1="232" x2="285" y2="235" stroke="#D4A843" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- ice scratches -->
-  <path d="M160,248 Q200,244 240,248 Q280,252 340,246" stroke="#1a1a1a" stroke-width="0.5" fill="none" opacity="0.2"/>
-  <path d="M150,252 Q210,248 260,252 Q310,256 370,250" stroke="#1a1a1a" stroke-width="0.5" fill="none" opacity="0.2"/>
-  <!-- second small skater -->
-  <circle cx="380" cy="195" r="7" fill="#2B4C7E"/>
-  <line x1="380" y1="202" x2="380" y2="230" stroke="#2B4C7E" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="380" y1="212" x2="370" y2="205" stroke="#2B4C7E" stroke-width="2" stroke-linecap="round"/>
-  <line x1="380" y1="212" x2="392" y2="205" stroke="#2B4C7E" stroke-width="2" stroke-linecap="round"/>
-  <line x1="380" y1="230" x2="375" y2="245" stroke="#2B4C7E" stroke-width="2" stroke-linecap="round"/>
-  <line x1="380" y1="230" x2="388" y2="245" stroke="#2B4C7E" stroke-width="2" stroke-linecap="round"/>
-  <!-- snowflakes -->
-  <text x="140" y="130" font-size="12" fill="#2B4C7E" opacity="0.5">*</text>
-  <text x="350" y="120" font-size="10" fill="#2B4C7E" opacity="0.4">*</text>
-  <text x="180" y="110" font-size="8" fill="#2B4C7E" opacity="0.3">*</text>
-  <rect y="310" width="500" height="40" fill="#1a1a1a"/>
-  <rect y="308" width="500" height="2" fill="#C41E3A"/>
-  <text x="250" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#D4A843">Физическая культура</text>
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#C62828"/>
+    <stop offset="100%" style="stop-color:#EF5350"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
+    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
+  </linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)"/>
+<line x1="20" y1="30" x2="80" y2="30" stroke="white" stroke-width="3" opacity="0.08" stroke-linecap="round"/>
+<line x1="190" y1="90" x2="250" y2="90" stroke="white" stroke-width="3" opacity="0.08" stroke-linecap="round"/>
+<line x1="360" y1="150" x2="420" y2="150" stroke="white" stroke-width="3" opacity="0.08" stroke-linecap="round"/>
+<line x1="20" y1="210" x2="80" y2="210" stroke="white" stroke-width="3" opacity="0.08" stroke-linecap="round"/>
+<line x1="190" y1="270" x2="250" y2="270" stroke="white" stroke-width="3" opacity="0.08" stroke-linecap="round"/>
+<line x1="360" y1="330" x2="420" y2="330" stroke="white" stroke-width="3" opacity="0.08" stroke-linecap="round"/>
+<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
+<rect x="30" y="60" width="auto" height="24" rx="12" fill="#C62828" opacity="0.9"/>
+<rect x="30" y="60" width="172" height="24" rx="12" fill="#C62828" opacity="0.9"/>
+<text x="116" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Физическая культура</text>
+<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold">Урок 3</text>
+<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Упражнения с предметами</text>
+<line x1="40" y1="115" x2="460" y2="115" stroke="#FFCDD2" stroke-width="2"/>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Осваиваем работу с гимнастическими предметами.</text>
+<text x="40" y="155" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold">Ключевые темы:</text>
+<circle cx="48" cy="175" r="9" fill="#C62828" opacity="0.15"/>
+<text x="48" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#C62828" font-weight="bold">1</text>
+<text x="64" y="179" font-family="Arial,sans-serif" font-size="11" fill="#444">Упражняться с мячом</text>
+<circle cx="48" cy="199" r="9" fill="#C62828" opacity="0.15"/>
+<text x="48" y="203" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#C62828" font-weight="bold">2</text>
+<text x="64" y="203" font-family="Arial,sans-serif" font-size="11" fill="#444">Освоить скакалку</text>
+<circle cx="48" cy="223" r="9" fill="#C62828" opacity="0.15"/>
+<text x="48" y="227" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#C62828" font-weight="bold">3</text>
+<text x="64" y="227" font-family="Arial,sans-serif" font-size="11" fill="#444">Работать с обручем</text>
+<circle cx="460" cy="310" r="25" fill="#C62828" opacity="0.15"/>
+<circle cx="460" cy="310" r="15" fill="#C62828" opacity="0.1"/>
 </svg>

@@ -1,43 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <rect width="500" height="350" fill="#F5E6C8"/>
-  <rect width="500" height="8" fill="#C41E3A"/>
-  <rect y="8" width="500" height="2" fill="#D4A843"/>
-  <text x="250" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Натюрморт</text>
-  <text x="250" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#D4A843">Искусство изображения предметов</text>
-  <line x1="50" y1="82" x2="450" y2="82" stroke="#D4A843" stroke-width="0.5"/>
-  
-  <!-- table -->
-  <rect x="100" y="220" width="300" height="8" rx="2" fill="#D4A843" opacity="0.5"/>
-  <!-- tablecloth pattern -->
-  <line x1="100" y1="228" x2="100" y2="250" stroke="#C41E3A" stroke-width="1" opacity="0.3"/>
-  <line x1="200" y1="228" x2="200" y2="250" stroke="#C41E3A" stroke-width="1" opacity="0.3"/>
-  <line x1="300" y1="228" x2="300" y2="250" stroke="#C41E3A" stroke-width="1" opacity="0.3"/>
-  <line x1="400" y1="228" x2="400" y2="250" stroke="#C41E3A" stroke-width="1" opacity="0.3"/>
-  <!-- vase -->
-  <path d="M230,220 L225,180 Q225,165 240,160 L260,160 Q275,165 275,180 L270,220 Z" fill="#2B4C7E" opacity="0.6" stroke="#1a1a1a" stroke-width="1.5"/>
-  <ellipse cx="250" cy="160" rx="18" ry="5" fill="#2B4C7E" opacity="0.7" stroke="#1a1a1a" stroke-width="1"/>
-  <!-- flowers -->
-  <!-- stem 1 -->
-  <line x1="240" y1="160" x2="225" y2="110" stroke="#2E7D32" stroke-width="2"/>
-  <circle cx="225" cy="108" r="10" fill="#C41E3A"/>
-  <circle cx="225" cy="108" r="4" fill="#D4A843"/>
-  <!-- stem 2 -->
-  <line x1="250" y1="160" x2="255" y2="100" stroke="#2E7D32" stroke-width="2"/>
-  <circle cx="255" cy="98" r="10" fill="#D4A843"/>
-  <circle cx="255" cy="98" r="4" fill="#C41E3A"/>
-  <!-- stem 3 -->
-  <line x1="260" y1="160" x2="280" y2="115" stroke="#2E7D32" stroke-width="2"/>
-  <circle cx="280" cy="113" r="8" fill="#C41E3A" opacity="0.7"/>
-  <circle cx="280" cy="113" r="3" fill="#D4A843"/>
-  <!-- leaves -->
-  <ellipse cx="233" cy="135" rx="8" ry="4" fill="#2E7D32" opacity="0.5" transform="rotate(-30,233,135)"/>
-  <ellipse cx="265" cy="130" rx="8" ry="4" fill="#2E7D32" opacity="0.5" transform="rotate(25,265,130)"/>
-  <!-- apples -->
-  <circle cx="160" cy="208" r="14" fill="#C41E3A" opacity="0.7"/>
-  <line x1="160" y1="194" x2="158" y2="188" stroke="#2E7D32" stroke-width="1.5"/>
-  <circle cx="340" cy="210" r="12" fill="#D4A843" opacity="0.6"/>
-  <line x1="340" y1="198" x2="338" y2="192" stroke="#2E7D32" stroke-width="1.5"/>
-  <rect y="310" width="500" height="40" fill="#1a1a1a"/>
-  <rect y="308" width="500" height="2" fill="#C41E3A"/>
-  <text x="250" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#D4A843">Изобразительное искусство</text>
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#8E24AA"/>
+    <stop offset="100%" style="stop-color:#CE93D8"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
+    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
+  </linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)"/>
+<circle cx="50" cy="30" r="40" fill="white" opacity="0.08"/>
+<circle cx="160" cy="150" r="40" fill="white" opacity="0.08"/>
+<circle cx="270" cy="270" r="40" fill="white" opacity="0.08"/>
+<circle cx="380" cy="30" r="40" fill="white" opacity="0.08"/>
+<circle cx="490" cy="150" r="40" fill="white" opacity="0.08"/>
+<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
+<rect x="30" y="60" width="auto" height="24" rx="12" fill="#8E24AA" opacity="0.9"/>
+<rect x="30" y="60" width="220" height="24" rx="12" fill="#8E24AA" opacity="0.9"/>
+<text x="140" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Изобразительное искусство</text>
+<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#8E24AA" font-weight="bold">Урок 5</text>
+<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Русские художники</text>
+<line x1="40" y1="115" x2="460" y2="115" stroke="#E1BEE7" stroke-width="2"/>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Известные русские живописцы.</text>
+<rect x="40" y="155" width="420" height="30" rx="6" fill="#8E24AA" opacity="0.08"/>
+<text x="50" y="175" font-family="Arial,sans-serif" font-size="11" fill="#444">«Девочка с персиками» — в Третьяковке</text>
+<rect x="40" y="191" width="420" height="30" rx="6" fill="#8E24AA" opacity="0.08"/>
+<text x="50" y="211" font-family="Arial,sans-serif" font-size="11" fill="#444">Репин учился в Академии художеств</text>
+<rect x="40" y="227" width="420" height="30" rx="6" fill="#8E24AA" opacity="0.08"/>
+<text x="50" y="247" font-family="Arial,sans-serif" font-size="11" fill="#444">Левитан родился в бедной семье</text>
+<circle cx="460" cy="310" r="25" fill="#8E24AA" opacity="0.15"/>
+<circle cx="460" cy="310" r="15" fill="#8E24AA" opacity="0.1"/>
 </svg>
