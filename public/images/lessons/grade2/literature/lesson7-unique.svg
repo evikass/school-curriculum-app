@@ -1,32 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes write{0%,100%{transform:translateX(0)}50%{transform:translateX(3px)}}.pen{animation:write 2s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#FFF3E0"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#BF360C">Л.Н. Толстой</text>
-  <!-- Info card -->
-  <rect x="30" y="50" width="160" height="130" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
-  <text x="110" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#BF360C">1828-1910</text>
-  <g class="pen" transform="translate(60,85)">
-    <rect x="30" y="0" width="40" height="60" fill="#795548" rx="3"/>
-    <polygon points="30,60 50,80 70,60" fill="#5D4037"/>
-    <rect x="35" y="5" width="30" height="8" fill="#FFB74D" rx="2"/>
-  </g>
-  <text x="110" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#BF360C">Великий русский писатель</text>
-  <!-- Works -->
-  <rect x="210" y="50" width="260" height="130" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
-  <text x="340" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#BF360C">Произведения для детей</text>
-  <g font-family="Arial,sans-serif" font-size="11" fill="#333">
-    <text x="225" y="95">Филипок</text>
-    <text x="225" y="112">Котёнок</text>
-    <text x="225" y="129">Лев и собачка</text>
-    <text x="225" y="146">Два товарища</text>
-    <text x="225" y="163">Акула</text>
-  </g>
-  <!-- School -->
-  <rect x="30" y="200" width="440" height="140" fill="#FFF3E0" rx="10"/>
-  <text x="250" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#BF360C">Толстой и дети</text>
-  <text x="250" y="245" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Открыл школу для крестьянских детей в Ясной Поляне</text>
-  <text x="250" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Сам писал учебники и азбуки для обучения</text>
-  <text x="250" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#BF360C">Рассказы Толстого учат доброте и честности</text>
-  <text x="250" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">«Каждый сам своей судьбы хозяин»</text>
-  <text x="250" y="332" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Главные ценности: добро, труд, справедливость</text>
+<style>.p{animation:t 5s ease-in-out infinite}@keyframes t{0%,100%{transform:rotate(0)}50%{transform:rotate(-2deg)}}</style>
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#87ceeb"/><stop offset="60%" stop-color="#b3e5fc"/><stop offset="100%" stop-color="#e8f5e9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#s)"/>
+<text x="250" y="22" text-anchor="middle" font-size="16" fill="#33691e" font-family="serif">Л.Н. Толстой</text>
+<rect x="0" y="270" width="500" height="80" fill="#7cb342"/>
+<g opacity=".5"><rect x="90" y="160" width="8" height="110" fill="#e8e0d0"/><ellipse cx="94" cy="150" rx="18" ry="25" fill="#66bb6a"/></g>
+<g opacity=".6"><rect x="120" y="140" width="9" height="130" fill="#e8e0d0"/><ellipse cx="124" cy="128" rx="20" ry="28" fill="#66bb6a"/></g>
+<g opacity=".6"><rect x="360" y="140" width="9" height="130" fill="#e8e0d0"/><ellipse cx="364" cy="128" rx="20" ry="28" fill="#66bb6a"/></g>
+<g opacity=".5"><rect x="390" y="160" width="8" height="110" fill="#e8e0d0"/><ellipse cx="394" cy="150" rx="18" ry="25" fill="#66bb6a"/></g>
+<g transform="translate(50,0)"><rect y="100" width="14" height="170" rx="2" fill="#f5f0e0"/><rect x="2" y="120" width="5" height="2" fill="#3e2723" opacity=".4"/><rect x="6" y="145" width="4" height="2" fill="#3e2723" opacity=".4"/><rect x="3" y="175" width="5" height="2" fill="#3e2723" opacity=".4"/><ellipse cx="7" cy="85" rx="28" ry="35" fill="#81c784"/><ellipse cx="-8" cy="95" rx="18" ry="22" fill="#a5d6a7"/><ellipse cx="7" cy="70" rx="22" ry="25" fill="#8bc34a"/></g>
+<g transform="translate(435,0)"><rect y="100" width="14" height="170" rx="2" fill="#f5f0e0"/><rect x="2" y="115" width="5" height="2" fill="#3e2723" opacity=".4"/><rect x="6" y="150" width="4" height="2" fill="#3e2723" opacity=".4"/><ellipse cx="7" cy="85" rx="28" ry="35" fill="#81c784"/><ellipse cx="22" cy="90" rx="16" ry="20" fill="#a5d6a7"/><ellipse cx="7" cy="70" rx="22" ry="25" fill="#8bc34a"/></g>
+<g transform="translate(230,250)"><rect x="-40" y="0" width="80" height="6" rx="2" fill="#8d6e63"/><rect x="-38" y="-25" width="76" height="4" rx="1" fill="#8d6e63"/><rect x="-38" y="-15" width="76" height="4" rx="1" fill="#8d6e63"/><rect x="-35" y="6" width="4" height="18" fill="#6d4c41"/><rect x="31" y="6" width="4" height="18" fill="#6d4c41"/><rect x="-35" y="-25" width="4" height="31" fill="#6d4c41"/><rect x="31" y="-25" width="4" height="31" fill="#6d4c41"/></g>
+<g class="p" transform="translate(250,245)"><path d="M-18,2 Q-10,-3 0,0 Q10,-3 18,2 Q10,6 0,4 Q-10,6 -18,2Z" fill="#fff8e1" stroke="#bdbdbd" stroke-width=".5"/><line x2="4" y2="0" y1="0" stroke="#bdbdbd" stroke-width=".8"/></g>
+<g transform="translate(160,225)"><ellipse cx="-5" cy="-3" rx="6" ry="4" fill="#ffab40" transform="rotate(-20,-5,-3)"/><ellipse cx="5" cy="-3" rx="6" ry="4" fill="#ffab40" transform="rotate(20,5,-3)"/><ellipse cx="-3" cy="2" rx="4" ry="3" fill="#ffd740" transform="rotate(-15,-3,2)"/><ellipse cx="3" cy="2" rx="4" ry="3" fill="#ffd740" transform="rotate(15,3,2)"/><line y1="-3" y2="4" stroke="#5d4037" stroke-width="1"/></g>
 </svg>

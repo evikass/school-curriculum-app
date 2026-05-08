@@ -1,29 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes rain{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}.weather{animation:rain 1.5s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#E3F2FD"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#0D47A1">Явления природы</text>
-  <!-- Phenomena grid -->
-  <rect x="30" y="50" width="440" height="130" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
-  <g font-family="Arial,sans-serif" font-size="12">
-    <rect x="50" y="62" width="120" height="30" fill="#FFF9C4" rx="5"/><text x="110" y="82" text-anchor="middle" fill="#F57F17">Дождь</text>
-    <rect x="185" y="62" width="120" height="30" fill="#E3F2FD" rx="5"/><text x="245" y="82" text-anchor="middle" fill="#1565C0">Снег</text>
-    <rect x="320" y="62" width="130" height="30" fill="#BBDEFB" rx="5"/><text x="385" y="82" text-anchor="middle" fill="#0D47A1">Град</text>
-    <rect x="50" y="100" width="120" height="30" fill="#FFECB3" rx="5"/><text x="110" y="120" text-anchor="middle" fill="#E65100">Ветер</text>
-    <rect x="185" y="100" width="120" height="30" fill="#C8E6C9" rx="5"/><text x="245" y="120" text-anchor="middle" fill="#2E7D32">Туман</text>
-    <rect x="320" y="100" width="130" height="30" fill="#F8BBD0" rx="5"/><text x="385" y="120" text-anchor="middle" fill="#C2185B">Радуга</text>
-    <rect x="50" y="140" width="120" height="30" fill="#FFCDD2" rx="5"/><text x="110" y="160" text-anchor="middle" fill="#C62828">Гроза</text>
-    <rect x="185" y="140" width="120" height="30" fill="#E1BEE7" rx="5"/><text x="245" y="160" text-anchor="middle" fill="#6A1B9A">Молния</text>
-    <rect x="320" y="140" width="130" height="30" fill="#DCEDC8" rx="5"/><text x="385" y="160" text-anchor="middle" fill="#33691E">Роса</text>
-  </g>
-  <!-- Seasons -->
-  <rect x="30" y="200" width="440" height="140" fill="#E3F2FD" rx="10"/>
-  <text x="250" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Явления по сезонам</text>
-  <g font-family="Arial,sans-serif" font-size="11">
-    <rect x="50" y="235" width="90" height="40" fill="#C8E6C9" rx="5"/><text x="95" y="252" text-anchor="middle" fill="#2E7D32">Весна</text><text x="95" y="268" text-anchor="middle" fill="#555">половодье</text>
-    <rect x="155" y="235" width="90" height="40" fill="#FFF9C4" rx="5"/><text x="200" y="252" text-anchor="middle" fill="#F57F17">Лето</text><text x="200" y="268" text-anchor="middle" fill="#555">жара, гроза</text>
-    <rect x="260" y="235" width="90" height="40" fill="#FFECB3" rx="5"/><text x="305" y="252" text-anchor="middle" fill="#E65100">Осень</text><text x="305" y="268" text-anchor="middle" fill="#555">листопад</text>
-    <rect x="365" y="235" width="90" height="40" fill="#BBDEFB" rx="5"/><text x="410" y="252" text-anchor="middle" fill="#1565C0">Зима</text><text x="410" y="268" text-anchor="middle" fill="#555">метель</text>
-  </g>
-  <text x="250" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#0D47A1">Явления природы — это изменения, которые происходят в природе</text>
-  <text x="250" y="325" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">За изменениями природы люди наблюдают с давних времён</text>
+<rect width="500" height="350" fill="#B3E5FC" rx="12"/>
+<text x="250" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#01579B">Явления природы</text>
+<circle cx="100" cy="70" r="24" fill="#78909C"/>
+<circle cx="124" cy="62" r="28" fill="#90A4AE"/>
+<circle cx="148" cy="70" r="20" fill="#78909C"/>
+<line x1="95" y1="95" x2="90" y2="115" stroke="#42A5F5" stroke-width="2" stroke-linecap="round"/>
+<line x1="115" y1="90" x2="110" y2="110" stroke="#42A5F5" stroke-width="2" stroke-linecap="round"/>
+<line x1="135" y1="95" x2="130" y2="115" stroke="#42A5F5" stroke-width="2" stroke-linecap="round"/>
+<line x1="155" y1="90" x2="150" y2="110" stroke="#42A5F5" stroke-width="2" stroke-linecap="round"/>
+<text x="120" y="135" text-anchor="middle" font-size="11" fill="#01579B" font-family="sans-serif">Дождь</text>
+<g transform="translate(350,60)">
+<path d="M-75,78 A75,75 0 0,1 75,78" fill="none" stroke="#F44336" stroke-width="5"/>
+<path d="M-65,78 A65,65 0 0,1 65,78" fill="none" stroke="#FF9800" stroke-width="5"/>
+<path d="M-55,78 A55,55 0 0,1 55,78" fill="none" stroke="#FFEB3B" stroke-width="5"/>
+<path d="M-45,78 A45,45 0 0,1 45,78" fill="none" stroke="#4CAF50" stroke-width="5"/>
+<path d="M-35,78 A35,35 0 0,1 35,78" fill="none" stroke="#2196F3" stroke-width="5"/>
+<path d="M-25,78 A25,25 0 0,1 25,78" fill="none" stroke="#9C27B0" stroke-width="5"/>
+</g>
+<text x="350" y="155" text-anchor="middle" font-size="11" fill="#01579B" font-family="sans-serif">Радуга</text>
+<path d="M0,0 Q30,-5 60,0 Q90,5 120,0" stroke="#81D4FA" stroke-width="2.5" fill="none" transform="translate(100,200)"/>
+<path d="M10,12 Q40,7 70,12 Q100,17 130,12" stroke="#81D4FA" stroke-width="2" fill="none" transform="translate(100,200)"/>
+<path d="M70,-5 Q80,-15 90,-5 Q80,5 70,-5Z" fill="#FF9800" stroke="#E65100" stroke-width="1" transform="translate(100,200)"/>
+<path d="M90,15 Q100,5 110,15 Q100,25 90,15Z" fill="#F44336" stroke="#C62828" stroke-width="1" transform="translate(100,200)"/>
+<text x="150" y="240" text-anchor="middle" font-size="11" fill="#01579B" font-family="sans-serif">Ветер</text>
+<circle cx="340" cy="195" r="14" fill="#CFD8DC"/>
+<circle cx="356" cy="190" r="16" fill="#ECEFF1"/>
+<circle cx="370" cy="195" r="12" fill="#CFD8DC"/>
+<text x="345" y="218" font-size="10" fill="#B3E5FC">❄</text>
+<text x="360" y="228" font-size="12" fill="#B3E5FC">❄</text>
+<text x="350" y="240" font-size="8" fill="#B3E5FC">❄</text>
+<text x="370" y="235" font-size="10" fill="#B3E5FC">❄</text>
+<text x="370" y="270" text-anchor="middle" font-size="11" fill="#01579B" font-family="sans-serif">Снег</text>
+<path d="M0,310 Q100,300 200,310 Q300,320 400,310 Q450,305 500,310 L500,350 L0,350Z" fill="#A5D6A7" opacity="0.4"/>
+<text x="250" y="340" text-anchor="middle" font-size="10" fill="#01579B" font-family="sans-serif">Явления природы — изменения в природе</text>
 </svg>

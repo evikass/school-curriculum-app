@@ -1,55 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      @keyframes multiply { 0%,100%{transform:scale(1)} 50%{transform:scale(1.05)} }
-      .grow { animation: multiply 2s ease-in-out infinite; }
-    </style>
-  </defs>
-  <rect width="500" height="350" fill="#E0F2F1"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#00695C">Что такое умножение?</text>
-  <!-- Visual: groups of objects -->
-  <g transform="translate(30,50)">
-    <rect x="0" y="0" width="200" height="100" fill="white" rx="10" stroke="#80CBC4" stroke-width="2"/>
-    <text x="100" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#00695C">3 группы по 4 яблока</text>
-    <!-- Group 1 -->
-    <g transform="translate(10,30)">
-      <circle cx="10" cy="15" r="10" fill="#F44336"/><circle cx="35" cy="15" r="10" fill="#F44336"/>
-      <circle cx="60" cy="15" r="10" fill="#F44336"/><circle cx="85" cy="15" r="10" fill="#F44336"/>
-    </g>
-    <!-- Group 2 -->
-    <g transform="translate(10,55)">
-      <circle cx="10" cy="15" r="10" fill="#FF9800"/><circle cx="35" cy="15" r="10" fill="#FF9800"/>
-      <circle cx="60" cy="15" r="10" fill="#FF9800"/><circle cx="85" cy="15" r="10" fill="#FF9800"/>
-    </g>
-    <!-- Group 3 -->
-    <g transform="translate(10,80)">
-      <circle cx="10" cy="15" r="10" fill="#FFC107"/><circle cx="35" cy="15" r="10" fill="#FFC107"/>
-      <circle cx="60" cy="15" r="10" fill="#FFC107"/><circle cx="85" cy="15" r="10" fill="#FFC107"/>
-    </g>
+  <title>Что такое умножение?</title>
+  <rect width="500" height="350" fill="#FFF8E1" rx="8"/>
+  <text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" font-weight="bold" fill="#E65100">Что такое умножение?</text>
+  <!-- Counter -->
+  <rect x="0" y="265" width="500" height="85" fill="#BCAAA4"/>
+  <rect x="0" y="260" width="500" height="8" fill="#8D6E63"/>
+  <rect x="0" y="200" width="500" height="60" fill="#FFE0B2"/>
+  <g stroke="#FFCC80" stroke-width="1"><line x1="0" y1="230" x2="500" y2="230"/><line x1="100" y1="200" x2="100" y2="260"/><line x1="200" y1="200" x2="200" y2="260"/><line x1="300" y1="200" x2="300" y2="260"/><line x1="400" y1="200" x2="400" y2="260"/></g>
+  <!-- Cookie function -->
+  <defs><g id="ck"><circle r="13" fill="#D4A054" stroke="#A1887F" stroke-width="1"/><circle cx="-3" cy="-3" r="2" fill="#5D4037"/><circle cx="4" cy="2" r="1.5" fill="#5D4037"/><circle cx="-2" cy="5" r="1.5" fill="#5D4037"/></g></defs>
+  <!-- Plate 1 -->
+  <g transform="translate(70,170)">
+    <ellipse cx="0" cy="30" rx="50" ry="12" fill="#E0E0E0"/>
+    <ellipse cx="0" cy="22" rx="50" ry="18" fill="#F5F5F5" stroke="#BDBDBD" stroke-width="1"/>
+    <use href="#ck" x="-20" y="12"/><use href="#ck" x="0" y="12"/><use href="#ck" x="20" y="12"/>
+    <use href="#ck" x="-10" y="26"/><use href="#ck" x="10" y="26"/>
+    <text x="0" y="62" text-anchor="middle" font-size="12" font-weight="bold" fill="#E65100">4</text>
   </g>
-  <!-- Equation -->
-  <g class="grow" transform="translate(260,70)">
-    <rect x="0" y="0" width="210" height="80" fill="#B2DFDB" rx="10" stroke="#00695C" stroke-width="2"/>
-    <text x="105" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#00695C">4 + 4 + 4 = 12</text>
-    <text x="105" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#00695C">4 x 3 = 12</text>
+  <!-- Plate 2 -->
+  <g transform="translate(220,170)">
+    <ellipse cx="0" cy="30" rx="50" ry="12" fill="#E0E0E0"/>
+    <ellipse cx="0" cy="22" rx="50" ry="18" fill="#F5F5F5" stroke="#BDBDBD" stroke-width="1"/>
+    <use href="#ck" x="-20" y="12"/><use href="#ck" x="0" y="12"/><use href="#ck" x="20" y="12"/>
+    <use href="#ck" x="-10" y="26"/><use href="#ck" x="10" y="26"/>
+    <text x="0" y="62" text-anchor="middle" font-size="12" font-weight="bold" fill="#E65100">4</text>
   </g>
-  <!-- Definition -->
-  <rect x="30" y="170" width="440" height="60" fill="white" rx="10" stroke="#80CBC4" stroke-width="2"/>
-  <text x="250" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#00695C">Умножение — это сложение одинаковых слагаемых</text>
-  <text x="250" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Первый множитель — число в группе, второй — количество групп</text>
-  <!-- Terminology -->
-  <rect x="30" y="245" width="440" height="95" fill="#E0F2F1" rx="10"/>
-  <text x="250" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#00695C">Названия компонентов</text>
-  <g font-family="Arial,sans-serif" font-size="14" text-anchor="middle">
-    <text x="130" y="295" fill="#00695C" font-weight="bold">4</text>
-    <text x="175" y="295" fill="#555">x</text>
-    <text x="220" y="295" fill="#00695C" font-weight="bold">3</text>
-    <text x="265" y="295" fill="#555">=</text>
-    <text x="310" y="295" fill="#00695C" font-weight="bold">12</text>
+  <!-- Plate 3 -->
+  <g transform="translate(370,170)">
+    <ellipse cx="0" cy="30" rx="50" ry="12" fill="#E0E0E0"/>
+    <ellipse cx="0" cy="22" rx="50" ry="18" fill="#F5F5F5" stroke="#BDBDBD" stroke-width="1"/>
+    <use href="#ck" x="-20" y="12"/><use href="#ck" x="0" y="12"/><use href="#ck" x="20" y="12"/>
+    <use href="#ck" x="-10" y="26"/><use href="#ck" x="10" y="26"/>
+    <text x="0" y="62" text-anchor="middle" font-size="12" font-weight="bold" fill="#E65100">4</text>
   </g>
-  <g font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">
-    <text x="130" y="315">множитель</text>
-    <text x="220" y="315">множитель</text>
-    <text x="310" y="315">произведение</text>
-  </g>
+  <!-- Bracket -->
+  <path d="M30,130 Q25,120 25,130 L25,118 Q220,95 415,118 L415,130 Q415,120 410,130" fill="none" stroke="#E53935" stroke-width="2"/>
+  <text x="220" y="95" text-anchor="middle" font-size="16" font-weight="bold" fill="#E53935">3 тарелки</text>
+  <text x="250" y="320" text-anchor="middle" font-size="22" font-weight="bold" fill="#E65100">3 × 4 = 12 печений</text>
 </svg>

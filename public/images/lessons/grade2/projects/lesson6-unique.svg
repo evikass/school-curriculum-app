@@ -1,20 +1,57 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <rect width="500" height="350" fill="#E3F2FD"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#0D47A1">Погода и природа</text>
-  <rect x="30" y="50" width="440" height="130" fill="white" rx="10" stroke="#0D47A1" stroke-width="2" opacity="0.9"/>
-  <text x="250" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#0D47A1">Что сделать в проекте</text>
-  <g font-family="Arial,sans-serif" font-size="13" fill="#333">
-    <text x="50" y="100">1. Записывай погоду каждый день</text>
-    <text x="50" y="125">2. Облачность, осадки, ветер</text>
-    <text x="50" y="150">3. Нарисуй диаграмму погоды</text>
-  </g>
-  <rect x="30" y="195" width="440" height="140" fill="#E3F2FD" rx="10"/>
-  <text x="250" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Этапы работы над проектом</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="242">1. Выбери тему и поставь цель</text>
-    <text x="50" y="262">2. Собери информацию</text>
-    <text x="50" y="282">3. Создай продукт (постер, презентацию)</text>
-    <text x="50" y="302">4. Подготовь выступление</text>
-    <text x="50" y="322" fill="#0D47A1">5. Представь проект классу!</text>
-  </g>
+<style>.lt{animation:f 3s ease-in-out infinite}@keyframes f{0%,90%,100%{opacity:0}95%{opacity:1}}</style>
+<rect width="500" height="350" fill="#E8EAF6"/>
+<text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#283593" font-weight="bold">Погода и природа</text>
+<rect x="10" y="35" width="480" height="200" rx="10" fill="#90CAF9"/>
+<circle cx="80" cy="80" r="30" fill="#FFD54F"/>
+<line x1="80" y1="42" x2="80" y2="35" stroke="#FFC107" stroke-width="3"/>
+<line x1="80" y1="118" x2="80" y2="125" stroke="#FFC107" stroke-width="3"/>
+<line x1="42" y1="80" x2="35" y2="80" stroke="#FFC107" stroke-width="3"/>
+<line x1="118" y1="80" x2="125" y2="80" stroke="#FFC107" stroke-width="3"/>
+<line x1="53" y1="53" x2="48" y2="48" stroke="#FFC107" stroke-width="2.5"/>
+<line x1="107" y1="53" x2="112" y2="48" stroke="#FFC107" stroke-width="2.5"/>
+<ellipse cx="220" cy="80" rx="35" ry="18" fill="#B0BEC5"/>
+<ellipse cx="205" cy="78" rx="20" ry="14" fill="#CFD8DC"/>
+<ellipse cx="210" cy="108" rx="2" ry="5" fill="#42A5F5"/>
+<ellipse cx="220" cy="112" rx="2" ry="5" fill="#42A5F5"/>
+<ellipse cx="230" cy="108" rx="2" ry="5" fill="#42A5F5"/>
+<ellipse cx="215" cy="120" rx="2" ry="5" fill="#42A5F5"/>
+<!-- Snowflake -->
+<g transform="translate(350,90)">
+<line x1="0" y1="-15" x2="0" y2="15" stroke="#B3E5FC" stroke-width="2"/>
+<line x1="-13" y1="-7.5" x2="13" y2="7.5" stroke="#B3E5FC" stroke-width="2"/>
+<line x1="-13" y1="7.5" x2="13" y2="-7.5" stroke="#B3E5FC" stroke-width="2"/>
+<line x1="0" y1="-15" x2="-4" y2="-10" stroke="#B3E5FC" stroke-width="1.5"/>
+<line x1="0" y1="-15" x2="4" y2="-10" stroke="#B3E5FC" stroke-width="1.5"/>
+<line x1="0" y1="15" x2="-4" y2="10" stroke="#B3E5FC" stroke-width="1.5"/>
+<line x1="0" y1="15" x2="4" y2="10" stroke="#B3E5FC" stroke-width="1.5"/>
+</g>
+<!-- Lightning -->
+<g class="lt"><polygon points="440,60 425,95 438,95 420,130 450,88 435,88" fill="#FFD54F" stroke="#FFC107" stroke-width="1"/></g>
+<ellipse cx="440" cy="55" rx="30" ry="15" fill="#78909C"/>
+<ellipse cx="425" cy="52" rx="18" ry="12" fill="#90A4AE"/>
+<!-- Rainbow -->
+<path d="M100,200Q200,100 300,200" fill="none" stroke="#E53935" stroke-width="5"/>
+<path d="M110,200Q200,110 290,200" fill="none" stroke="#FF8F00" stroke-width="5"/>
+<path d="M120,200Q200,120 280,200" fill="none" stroke="#FFD54F" stroke-width="5"/>
+<path d="M130,200Q200,130 270,200" fill="none" stroke="#66BB6A" stroke-width="5"/>
+<path d="M140,200Q200,140 260,200" fill="none" stroke="#42A5F5" stroke-width="5"/>
+<path d="M150,200Q200,150 250,200" fill="none" stroke="#7E57C2" stroke-width="5"/>
+<!-- Ground -->
+<rect x="10" y="235" width="480" height="105" rx="10" fill="#C8E6C9"/>
+<!-- Thermometer -->
+<rect x="460" y="120" width="12" height="80" rx="6" fill="white" stroke="#E53935" stroke-width="2"/>
+<rect x="463" y="150" width="6" height="45" rx="3" fill="#E53935"/>
+<circle cx="466" cy="205" r="10" fill="#E53935" stroke="#C62828" stroke-width="1.5"/>
+<!-- Weather vane -->
+<line x1="30" y1="240" x2="30" y2="190" stroke="#78909C" stroke-width="3"/>
+<polygon points="30,188 20,200 40,200" fill="#E53935"/>
+<rect x="25" y="200" width="10" height="5" rx="1" fill="#42A5F5"/>
+<!-- Wind -->
+<path d="M380,150Q400,145 420,150Q435,155 440,148" fill="none" stroke="#90CAF9" stroke-width="2"/>
+<path d="M390,165Q410,160 430,165" fill="none" stroke="#90CAF9" stroke-width="1.5"/>
+<ellipse cx="120" cy="290" rx="80" ry="25" fill="#A5D6A7"/>
+<ellipse cx="350" cy="300" rx="100" ry="20" fill="#81C784"/>
+<circle cx="80" cy="270" r="4" fill="#F48FB1"/><circle cx="80" cy="270" r="1.5" fill="#FFD54F"/>
+<circle cx="300" cy="275" r="4" fill="#CE93D8"/><circle cx="300" cy="275" r="1.5" fill="#FFD54F"/>
 </svg>

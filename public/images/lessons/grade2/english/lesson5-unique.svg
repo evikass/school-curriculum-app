@@ -1,26 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes tail{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}.wag{animation:tail 1s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#FFF8E1"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Pets / Domestic Animals</text>
-  <!-- Pets -->
-  <rect x="30" y="50" width="440" height="120" fill="white" rx="10" stroke="#FFE082" stroke-width="2"/>
-  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Pets</text>
-  <g font-family="Arial,sans-serif" font-size="12">
-    <rect x="50" y="82" width="100" height="25" fill="#FFF9C4" rx="5"/><text x="100" y="100" text-anchor="middle" fill="#E65100">cat - кошка</text>
-    <rect x="165" y="82" width="100" height="25" fill="#FFECB3" rx="5"/><text x="215" y="100" text-anchor="middle" fill="#E65100">dog - собака</text>
-    <rect x="280" y="82" width="100" height="25" fill="#FFF9C4" rx="5"/><text x="330" y="100" text-anchor="middle" fill="#E65100">fish - рыбка</text>
-    <rect x="50" y="115" width="100" height="25" fill="#FFECB3" rx="5"/><text x="100" y="133" text-anchor="middle" fill="#E65100">bird - птица</text>
-    <rect x="165" y="115" width="120" height="25" fill="#FFF9C4" rx="5"/><text x="225" y="133" text-anchor="middle" fill="#E65100">hamster - хомяк</text>
-    <rect x="300" y="115" width="140" height="25" fill="#FFECB3" rx="5"/><text x="370" y="133" text-anchor="middle" fill="#E65100">guinea pig - морская свинка</text>
-  </g>
-  <!-- Phrases -->
-  <rect x="30" y="185" width="440" height="150" fill="#FFF8E1" rx="10"/>
-  <text x="250" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Talking about pets</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="232">I have got a cat. - У меня есть кошка.</text>
-    <text x="50" y="252">My cat is fluffy. - Моя кошка пушистая.</text>
-    <text x="50" y="272">It can run and jump. - Она умеет бегать и прыгать.</text>
-    <text x="50" y="292">I feed my pet every day. - Я кормлю питомца каждый день.</text>
-    <text x="50" y="312">Pets are our friends! - Питомцы — наши друзья!</text>
-  </g>
+  <style>@keyframes t{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(12deg)}}.t{animation:t .8s ease-in-out infinite;transform-origin:205px 175px}</style>
+  <rect width="500" height="350" fill="#F3E5F5"/>
+  <text x="250" y="24" text-anchor="middle" font-size="17" font-family="Arial" font-weight="bold" fill="#2C3E50">Pets / Domestic Animals</text>
+  <rect x="0" y="255" width="500" height="95" fill="#D7CCC8"/>
+  <rect x="0" y="250" width="500" height="7" fill="#8D6E63"/>
+  <!-- Cat -->
+  <ellipse cx="80" cy="235" rx="18" ry="14" fill="#FF9800"/>
+  <circle cx="80" cy="214" r="12" fill="#FF9800"/>
+  <polygon points="70,207 73,196 77,208" fill="#F57C00"/><polygon points="90,207 87,196 83,208" fill="#F57C00"/>
+  <circle cx="75" cy="212" r="2" fill="#2C3E50"/><circle cx="85" cy="212" r="2" fill="#2C3E50"/>
+  <ellipse cx="80" cy="216" rx="1.6" ry="1.2" fill="#E91E63"/>
+  <path d="M96 235Q112 224 109 210" stroke="#FF9800" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <text x="80" y="264" text-anchor="middle" font-size="11" font-family="Arial" fill="#2C3E50" font-weight="bold">cat</text>
+  <!-- Dog -->
+  <ellipse cx="200" cy="215" rx="22" ry="16" fill="#8D6E63"/>
+  <circle cx="224" cy="195" r="13" fill="#A1887F"/>
+  <ellipse cx="226" cy="192" rx="6" ry="5" fill="#8D6E63"/>
+  <circle cx="222" cy="190" r="2" fill="#2C3E50"/><circle cx="231" cy="190" r="2" fill="#2C3E50"/>
+  <ellipse cx="226" cy="196" rx="2.5" ry="1.8" fill="#2C3E50"/>
+  <ellipse cx="216" cy="182" rx="4" ry="7" fill="#8D6E63" transform="rotate(-15 216 182)"/>
+  <ellipse cx="236" cy="182" rx="4" ry="7" fill="#8D6E63" transform="rotate(15 236 182)"/>
+  <path d="M185 230V248M198 230V248M210 228V246" stroke="#8D6E63" stroke-width="5" stroke-linecap="round"/>
+  <path d="M178 210Q162 198 166 186" stroke="#8D6E63" stroke-width="4" fill="none" stroke-linecap="round" class="t"/>
+  <text x="200" y="264" text-anchor="middle" font-size="11" font-family="Arial" fill="#2C3E50" font-weight="bold">dog</text>
+  <!-- Fish bowl -->
+  <circle cx="330" cy="205" r="26" fill="#81D4FA" opacity=".35" stroke="#90CAF9" stroke-width="1.5"/>
+  <ellipse cx="325" cy="209" rx="9" ry="5" fill="#FF9800"/>
+  <polygon points="334,209 340,205 340,213" fill="#FF9800"/>
+  <circle cx="322" cy="207" r="1.5" fill="#2C3E50"/>
+  <ellipse cx="320" cy="228" rx="3" ry="1.5" fill="#BCAAA4"/>
+  <path d="M346 230Q350 220 348 212" stroke="#4CAF50" stroke-width="1.5" fill="none"/>
+  <text x="330" y="264" text-anchor="middle" font-size="11" font-family="Arial" fill="#2C3E50" font-weight="bold">fish</text>
+  <!-- Hamster -->
+  <ellipse cx="430" cy="230" rx="14" ry="10" fill="#FFCC80"/>
+  <circle cx="430" cy="216" r="9" fill="#FFCC80"/>
+  <circle cx="425" cy="214" r="2" fill="#2C3E50"/><circle cx="435" cy="214" r="2" fill="#2C3E50"/>
+  <circle cx="425" cy="218" r="3" fill="#FFE0B2"/><circle cx="435" cy="218" r="3" fill="#FFE0B2"/>
+  <circle cx="422" cy="208" r="3.5" fill="#FFCC80"/><circle cx="438" cy="208" r="3.5" fill="#FFCC80"/>
+  <text x="430" y="264" text-anchor="middle" font-size="11" font-family="Arial" fill="#2C3E50" font-weight="bold">hamster</text>
+  <!-- Parrot on perch -->
+  <line x1="58" y1="135" x2="142" y2="135" stroke="#795548" stroke-width="4" stroke-linecap="round"/>
+  <line x1="100" y1="135" x2="100" y2="252" stroke="#795548" stroke-width="4"/>
+  <ellipse cx="100" cy="115" rx="10" ry="13" fill="#4CAF50"/>
+  <circle cx="100" cy="98" r="8" fill="#4CAF50"/>
+  <circle cx="96" cy="96" r="1.8" fill="#2C3E50"/><circle cx="104" cy="96" r="1.8" fill="#2C3E50"/>
+  <polygon points="100,100 97,104 103,104" fill="#FF9800"/>
+  <path d="M98 90Q95 82 100 83Q105 82 102 90" fill="#E74C3C"/>
+  <path d="M90 108Q80 106 83 118Q86 122 90 115" fill="#2196F3"/>
+  <path d="M95 126L92 143L108 143L105 126" fill="#E74C3C"/>
+  <text x="100" y="155" text-anchor="middle" font-size="11" font-family="Arial" fill="#2C3E50" font-weight="bold">parrot</text>
 </svg>

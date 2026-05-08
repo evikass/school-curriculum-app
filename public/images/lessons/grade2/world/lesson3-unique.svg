@@ -1,25 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes wave{0%,100%{transform:translateX(0)}50%{transform:translateX(3px)}}.water{animation:wave 2s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#E3F2FD"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#0D47A1">Водоёмы</text>
-  <!-- Types -->
-  <rect x="30" y="50" width="440" height="160" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
-  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#0D47A1">Виды водоёмов</text>
-  <g font-family="Arial,sans-serif" font-size="12">
-    <rect x="50" y="82" width="190" height="30" fill="#BBDEFB" rx="5"/><text x="145" y="102" text-anchor="middle" fill="#0D47A1">Океан — самый большой</text>
-    <rect x="260" y="82" width="190" height="30" fill="#90CAF9" rx="5"/><text x="355" y="102" text-anchor="middle" fill="#0D47A1">Море — часть океана</text>
-    <rect x="50" y="120" width="190" height="30" fill="#64B5F6" rx="5"/><text x="145" y="140" text-anchor="middle" fill="#0D47A1">Озеро — замкнутый</text>
-    <rect x="260" y="120" width="190" height="30" fill="#42A5F5" rx="5"/><text x="355" y="140" text-anchor="middle" fill="white">Река — течёт</text>
-    <rect x="50" y="158" width="190" height="30" fill="#2196F3" rx="5"/><text x="145" y="178" text-anchor="middle" fill="white">Ручей — маленькая речка</text>
-    <rect x="260" y="158" width="190" height="30" fill="#1976D2" rx="5"/><text x="355" y="178" text-anchor="middle" fill="white">Пруд — искусственный</text>
+  <rect width="500" height="350" fill="#E1F5FE" rx="12"/>
+  <text x="250" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#01579B">Водоёмы</text>
+  <!-- Sky -->
+  <rect x="0" y="40" width="500" height="120" fill="#B3E5FC" rx="0"/>
+  <!-- Sun -->
+  <circle cx="440" cy="80" r="25" fill="#FFD54F" stroke="#FF8F00" stroke-width="2"/>
+  <!-- Clouds -->
+  <circle cx="80" cy="65" r="15" fill="#fff" opacity="0.8"/>
+  <circle cx="95" cy="60" r="18" fill="#fff" opacity="0.8"/>
+  <circle cx="110" cy="65" r="14" fill="#fff" opacity="0.8"/>
+  <!-- Mountains in background -->
+  <polygon points="0,160 80,80 160,160" fill="#78909C" stroke="#546E7A" stroke-width="1.5"/>
+  <polygon points="100,160 180,90 260,160" fill="#90A4AE" stroke="#607D8B" stroke-width="1.5"/>
+  <polygon points="350,160 420,85 490,160" fill="#78909C" stroke="#546E7A" stroke-width="1.5"/>
+  <!-- River -->
+  <path d="M80,160 Q100,180 120,170 Q140,160 160,175 Q180,190 200,180 Q220,170 240,185 Q260,200 280,190 Q300,180 320,195 Q340,210 360,200 Q380,190 400,205 Q420,220 440,210" stroke="#42A5F5" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M80,160 Q100,180 120,170 Q140,160 160,175 Q180,190 200,180 Q220,170 240,185 Q260,200 280,190 Q300,180 320,195 Q340,210 360,200 Q380,190 400,205 Q420,220 440,210" stroke="#90CAF9" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <text x="250" y="195" text-anchor="middle" font-size="11" fill="#0D47A1" font-family="sans-serif">Река</text>
+  <!-- Lake -->
+  <ellipse cx="120" cy="270" rx="70" ry="28" fill="#42A5F5" stroke="#1E88E5" stroke-width="2"/>
+  <ellipse cx="120" cy="268" rx="50" ry="15" fill="#64B5F6" opacity="0.5"/>
+  <text x="120" y="275" text-anchor="middle" font-size="11" fill="#0D47A1" font-family="sans-serif">Озеро</text>
+  <!-- Sea -->
+  <path d="M250,260 Q270,250 290,260 Q310,270 330,260 Q350,250 370,260 Q390,270 410,260 Q430,250 450,260 L500,260 L500,320 L250,320Z" fill="#1E88E5" stroke="#1565C0" stroke-width="2"/>
+  <!-- Waves -->
+  <path d="M260,275 Q280,268 300,275 Q320,282 340,275" stroke="#64B5F6" stroke-width="2" fill="none"/>
+  <path d="M300,290 Q320,283 340,290 Q360,297 380,290" stroke="#64B5F6" stroke-width="2" fill="none"/>
+  <path d="M270,300 Q290,293 310,300 Q330,307 350,300" stroke="#64B5F6" stroke-width="1.5" fill="none"/>
+  <text x="380" y="280" text-anchor="middle" font-size="11" fill="#fff" font-family="sans-serif">Море</text>
+  <!-- Cross-section diagram (small) -->
+  <g transform="translate(20,240)">
+    <rect x="0" y="0" width="50" height="40" fill="none" stroke="#546E7A" stroke-width="1.5" rx="2"/>
+    <rect x="0" y="0" width="50" height="12" fill="#90CAF9"/>
+    <rect x="0" y="12" width="50" height="10" fill="#42A5F5"/>
+    <rect x="0" y="22" width="50" height="10" fill="#1E88E5"/>
+    <rect x="0" y="32" width="50" height="8" fill="#0D47A1"/>
+    <text x="55" y="10" font-size="7" fill="#546E7A" font-family="sans-serif">поверхность</text>
+    <text x="55" y="20" font-size="7" fill="#546E7A" font-family="sans-serif">мелко</text>
+    <text x="55" y="30" font-size="7" fill="#546E7A" font-family="sans-serif">глубоко</text>
+    <text x="55" y="38" font-size="7" fill="#546E7A" font-family="sans-serif">дно</text>
   </g>
-  <!-- Water properties -->
-  <rect x="30" y="225" width="440" height="110" fill="#E3F2FD" rx="10"/>
-  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Свойства воды</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="270">Прозрачная, без цвета, без запаха, без вкуса</text>
-    <text x="50" y="290">Текёт, принимает форму сосуда</text>
-    <text x="50" y="310">Может быть твёрдой (лёд), жидкой, газом (пар)</text>
-    <text x="50" y="330">Вода — самое важное вещество для жизни на Земле</text>
-  </g>
+  <text x="250" y="340" text-anchor="middle" font-size="10" fill="#01579B" font-family="sans-serif">Водоёмы — хранилища воды на Земле</text>
 </svg>

@@ -1,25 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes stretch{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.05)}}.exercise{animation:stretch 2s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#FFF3E0"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Общеразвивающие упражнения</text>
-  <!-- Exercises -->
-  <rect x="30" y="50" width="440" height="170" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
-  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Виды упражнений</text>
-  <g font-family="Arial,sans-serif" font-size="11">
-    <rect x="50" y="82" width="130" height="40" fill="#FFCCBC" rx="5"/><text x="115" y="100" text-anchor="middle" fill="#BF360C" font-weight="bold">Для рук</text><text x="115" y="115" text-anchor="middle" fill="#555">вращения, махи</text>
-    <rect x="195" y="82" width="130" height="40" fill="#FFE0B2" rx="5"/><text x="260" y="100" text-anchor="middle" fill="#E65100" font-weight="bold">Для ног</text><text x="260" y="115" text-anchor="middle" fill="#555">приседания, выпады</text>
-    <rect x="340" y="82" width="110" height="40" fill="#FFF9C4" rx="5"/><text x="395" y="100" text-anchor="middle" fill="#F57F17" font-weight="bold">Для спины</text><text x="395" y="115" text-anchor="middle" fill="#555">наклоны</text>
-    <rect x="50" y="132" width="130" height="40" fill="#C8E6C9" rx="5"/><text x="115" y="150" text-anchor="middle" fill="#2E7D32" font-weight="bold">Для пресса</text><text x="115" y="165" text-anchor="middle" fill="#555">скручивания</text>
-    <rect x="195" y="132" width="130" height="40" fill="#BBDEFB" rx="5"/><text x="260" y="150" text-anchor="middle" fill="#1565C0" font-weight="bold">Прыжки</text><text x="260" y="165" text-anchor="middle" fill="#555">на месте, в длину</text>
-    <rect x="340" y="132" width="110" height="40" fill="#E1BEE7" rx="5"/><text x="395" y="150" text-anchor="middle" fill="#6A1B9A" font-weight="bold">Для шеи</text><text x="395" y="165" text-anchor="middle" fill="#555">повороты</text>
+  <defs><style>.t{font:bold 17px sans-serif;fill:#fff;@keyframes jump{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}.j{animation:jump 1s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" rx="12" fill="#00695c"/>
+  <rect x="4" y="4" width="492" height="342" rx="10" fill="none" stroke="#4db6ac" stroke-width="1.5"/>
+  <text x="250" y="26" text-anchor="middle" class="t">Общеразвивающие упражнения</text>
+  <!-- Gym floor -->
+  <rect x="20" y="240" width="460" height="8" rx="2" fill="#5d4037"/>
+  <rect x="20" y="248" width="460" height="100" rx="0" fill="#8d6e63" opacity="0.3"/>
+  <!-- Jumping jacks figure -->
+  <g class="j">
+    <circle cx="100" cy="120" r="16" fill="#ffccbc"/>
+    <path d="M90,108 Q100,95 110,108" fill="#333"/>
+    <line x1="100" y1="136" x2="100" y2="195" stroke="#e53935" stroke-width="4" stroke-linecap="round"/>
+    <!-- Arms up and out -->
+    <line x1="100" y1="155" x2="65" y2="115" stroke="#e53935" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="100" y1="155" x2="135" y2="115" stroke="#e53935" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Legs apart -->
+    <line x1="100" y1="195" x2="70" y2="238" stroke="#1565c0" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="100" y1="195" x2="130" y2="238" stroke="#1565c0" stroke-width="3.5" stroke-linecap="round"/>
   </g>
-  <!-- Rules -->
-  <rect x="30" y="235" width="440" height="100" fill="#FFF3E0" rx="10"/>
-  <text x="250" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Правила выполнения</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="278">Начинай с разминки</text>
-    <text x="50" y="296">Делай плавно, без рывков</text>
-    <text x="50" y="314">Дыши ровно: усилие — выдох</text>
-    <text x="50" y="332" fill="#E65100">Упражнения развивают силу и гибкость!</text>
-  </g>
+  <text x="100" y="265" text-anchor="middle" font-size="10" fill="#e0f2f1">Прыжки</text>
+  <!-- Arm circles figure -->
+  <circle cx="250" cy="135" r="16" fill="#ffe0b2"/>
+  <path d="M240,123 Q250,110 260,123" fill="#333"/>
+  <line x1="250" y1="151" x2="250" y2="210" stroke="#1e88e5" stroke-width="4" stroke-linecap="round"/>
+  <!-- Arms to sides (circling) -->
+  <line x1="250" y1="165" x2="195" y2="155" stroke="#1e88e5" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="250" y1="165" x2="305" y2="155" stroke="#1e88e5" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Circle path for arm rotation -->
+  <ellipse cx="250" cy="155" rx="58" ry="25" fill="none" stroke="#4db6ac" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+  <path d="M195,155 Q195,130 250,130 Q305,130 305,155" stroke="#4db6ac" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+  <!-- Legs together -->
+  <line x1="250" y1="210" x2="240" y2="238" stroke="#333" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="250" y1="210" x2="260" y2="238" stroke="#333" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="250" y="265" text-anchor="middle" font-size="10" fill="#e0f2f1">Вращения</text>
+  <!-- Toe touches figure -->
+  <circle cx="400" cy="110" r="16" fill="#ffccbc"/>
+  <path d="M390,98 Q400,85 410,98" fill="#333"/>
+  <line x1="400" y1="126" x2="400" y2="185" stroke="#43a047" stroke-width="4" stroke-linecap="round"/>
+  <!-- Arms reaching down to toes -->
+  <path d="M400,155 Q370,190 380,230" stroke="#43a047" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M400,155 Q430,190 420,230" stroke="#43a047" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Legs straight -->
+  <line x1="400" y1="185" x2="385" y2="238" stroke="#333" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="400" y1="185" x2="415" y2="238" stroke="#333" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="400" y="265" text-anchor="middle" font-size="10" fill="#e0f2f1">Наклоны</text>
+  <!-- Small motivational stars -->
+  <polygon points="60,90 62,95 67,95 63,98 64,103 60,100 56,103 57,98 53,95 58,95" fill="#ffd54f" opacity="0.7"/>
+  <polygon points="220,80 222,85 227,85 223,88 224,93 220,90 216,93 217,88 213,85 218,85" fill="#ffd54f" opacity="0.7"/>
+  <polygon points="440,75 442,80 447,80 443,83 444,88 440,85 436,88 437,83 433,80 438,80" fill="#ffd54f" opacity="0.7"/>
 </svg>

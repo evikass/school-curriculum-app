@@ -1,36 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes snow{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}.flake{animation:snow 2s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#E3F2FD"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#0D47A1">Ганс Христиан Андерсен</text>
-  <!-- Snowflake -->
-  <g transform="translate(30,50)">
-    <rect x="0" y="0" width="180" height="130" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
-    <text x="90" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0D47A1">1805-1875</text>
-    <g class="flake" transform="translate(60,45)">
-      <line x1="30" y1="10" x2="30" y2="70" stroke="#90CAF9" stroke-width="2"/>
-      <line x1="0" y1="40" x2="60" y2="40" stroke="#90CAF9" stroke-width="2"/>
-      <line x1="10" y1="20" x2="50" y2="60" stroke="#90CAF9" stroke-width="2"/>
-      <line x1="50" y1="20" x2="10" y2="60" stroke="#90CAF9" stroke-width="2"/>
-      <circle cx="30" cy="40" r="5" fill="#BBDEFB"/>
-    </g>
-  </g>
-  <!-- Works -->
-  <rect x="230" y="50" width="240" height="130" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
-  <text x="350" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Сказки Андерсена</text>
-  <g font-family="Arial,sans-serif" font-size="11" fill="#333">
-    <text x="245" y="95">Снежная королева</text>
-    <text x="245" y="112">Гадкий утёнок</text>
-    <text x="245" y="129">Дюймовочка</text>
-    <text x="245" y="146">Русалочка</text>
-    <text x="245" y="163">Стойкий оловянный солдатик</text>
-    <text x="245" y="180">Огниво</text>
-  </g>
-  <!-- Themes -->
-  <rect x="30" y="200" width="440" height="140" fill="#E3F2FD" rx="10"/>
-  <text x="250" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Главные темы сказок Андерсена</text>
-  <text x="250" y="245" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Доброта и сострадание побеждают зло</text>
-  <text x="250" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Настоящая красота — внутри, а не снаружи</text>
-  <text x="250" y="285" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0D47A1">Гадкий утёнок стал прекрасным лебедем</text>
-  <text x="250" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Датский сказочник, его сказки переведены на 125 языков</text>
-  <text x="250" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1">Сказки Андерсена — грустные и добрые одновременно</text>
+<defs><linearGradient id="k" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ff8a65"/><stop offset="40%" stop-color="#ffcc80"/><stop offset="100%" stop-color="#ffe0b2"/></linearGradient><linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1565c0"/><stop offset="100%" stop-color="#0d47a1"/></linearGradient></defs>
+<rect width="500" height="220" fill="url(#k)"/>
+<text x="250" y="22" text-anchor="middle" font-size="16" fill="#0d47a1" font-family="serif">Г.Х. Андерсен</text>
+<circle cx="400" cy="80" r="35" fill="#ff6f00" opacity=".8"/><circle cx="400" cy="80" r="28" fill="#ff8f00"/>
+<ellipse cx="100" cy="60" rx="30" ry="10" fill="#fff" opacity=".5"/>
+<g transform="translate(350,70)" opacity=".6"><path d="M-12,0 L-8,-15 L8,-15 L12,0Z" fill="#5d4037"/><rect x="-1" y="-30" width="2" height="18" fill="#5d4037"/><path d="M1,-30 L1,-12 L18,-12Z" fill="#fff8e1"/></g>
+<rect x="0" y="200" width="500" height="150" fill="url(#w)"/>
+<path d="M0,210 Q50,200 100,210 Q150,220 200,210 Q250,200 300,210 Q350,220 400,210 Q450,200 500,210 L500,220 L0,220Z" fill="#1976d2" opacity=".7"/>
+<path d="M0,218 Q50,210 100,218 Q150,226 200,218 Q250,210 300,218 Q350,226 400,218 Q450,210 500,218 L500,228 L0,228Z" fill="#1565c0" opacity=".5"/>
+<path d="M180,200 Q170,180 175,165 Q180,150 200,140 Q220,135 240,140 Q260,150 265,165 Q270,180 260,200 Q240,210 200,210Z" fill="#607d8b"/>
+<path d="M190,200 Q180,185 185,170 Q190,158 205,150 Q215,148 225,152 Q235,160 238,172 Q242,185 235,200Z" fill="#78909c"/>
+<path d="M195,170 Q205,158 215,162" stroke="#90a4ae" stroke-width="1.5" fill="none"/>
+<g transform="translate(210,110)"><path d="M0,50 Q5,65 -5,80 Q-10,90 -20,95 Q-15,85 -10,75 Q-5,65 0,55" fill="#26a69a"/><path d="M5,50 Q10,65 15,80 Q20,90 30,88 Q22,82 18,72 Q12,60 8,50" fill="#26a69a"/><path d="M-20,95 Q-30,100 -35,92 Q-25,88 -20,95Z" fill="#4db6ac"/><path d="M30,88 Q40,92 38,82 Q32,85 30,88Z" fill="#4db6ac"/><path d="M-3,25 Q-8,35 -5,48 L8,48 Q10,35 5,25Z" fill="#ffccbc"/><path d="M-8,30 Q-20,25 -25,18" stroke="#ffccbc" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M10,30 Q20,22 28,25" stroke="#ffccbc" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M-10,8 Q-15,0 -12,-8 Q-8,-15 0,-16 Q8,-15 12,-8 Q15,0 10,8Z" fill="#e65100"/><path d="M10,8 Q18,12 22,22" fill="#e65100"/><path d="M-10,8 Q-18,15 -22,28" fill="#e65100"/><circle cy="0" r="10" fill="#ffccbc"/><circle cx="-4" cy="-1" r="1.8" fill="#fff"/><circle cx="-4" cy="-1" r="1" fill="#0d47a1"/><circle cx="4" cy="-1" r="1.8" fill="#fff"/><circle cx="4" cy="-1" r="1" fill="#0d47a1"/><path d="M-3,5 Q0,7 3,5" stroke="#e57373" stroke-width=".8" fill="none"/></g>
+<g transform="translate(80,260)"><path d="M0,0 Q-8,-20 -3,-40" stroke="#2e7d32" stroke-width="2.5" fill="none"/><path d="M5,0 Q12,-18 8,-35" stroke="#388e3c" stroke-width="2" fill="none"/></g>
+<g transform="translate(400,270)"><path d="M0,0 Q-5,-20 0,-38" stroke="#2e7d32" stroke-width="2.5" fill="none"/></g>
+<g transform="translate(130,290)"><ellipse rx="10" ry="6" fill="#ff7043"/><polygon points="10,0 18,-5 18,5" fill="#ff7043"/><circle cx="-5" cy="-2" r="1.5" fill="#fff"/><circle cx="-5" cy="-2" r=".8" fill="#1a1a1a"/></g>
+<g transform="translate(350,300)"><ellipse rx="8" ry="5" fill="#ffd740"/><polygon points="8,0 14,-4 14,4" fill="#ffd740"/><circle cx="-4" cy="-1" r="1.2" fill="#fff"/><circle cx="-4" cy="-1" r=".7" fill="#1a1a1a"/></g>
+<path d="M0,-8 L2,-2 L8,-2 L3,2 L5,8 L0,4 L-5,8 L-3,2 L-8,-2 L-2,-2Z" fill="#ffab40" transform="translate(280,310)"/>
+<circle cx="230" cy="230" r="3" fill="none" stroke="#b3e5fc" stroke-width=".8"/><circle cx="240" cy="245" r="2" fill="none" stroke="#b3e5fc" stroke-width=".8"/>
 </svg>

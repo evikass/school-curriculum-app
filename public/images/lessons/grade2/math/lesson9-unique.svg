@@ -1,52 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      @keyframes divide { 0%,100%{transform:scale(1)} 50%{transform:scale(1.05)} }
-      .grow { animation: divide 2s ease-in-out infinite; }
-    </style>
-  </defs>
-  <rect width="500" height="350" fill="#E8EAF6"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#283593">Что такое деление?</text>
-  <!-- Visual: sharing -->
-  <rect x="30" y="50" width="440" height="100" fill="white" rx="10" stroke="#9FA8DA" stroke-width="2"/>
-  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#283593">12 яблок разделили на 3 тарелки поровну</text>
-  <!-- Plate 1 -->
-  <g transform="translate(60,85)">
-    <ellipse cx="50" cy="25" rx="45" ry="18" fill="#E8EAF6" stroke="#283593" stroke-width="2"/>
-    <circle cx="35" cy="20" r="8" fill="#F44336"/><circle cx="50" cy="20" r="8" fill="#F44336"/><circle cx="65" cy="20" r="8" fill="#F44336"/><circle cx="80" cy="20" r="8" fill="#F44336"/>
-    <text x="50" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#283593">4 яблока</text>
+  <title>Что такое деление?</title>
+  <defs><style>@keyframes s{0%,100%{transform:rotate(0)}50%{transform:rotate(5deg)}}.ps{animation:s 3s ease-in-out infinite;transform-origin:0 -20px}</style></defs>
+  <rect width="500" height="350" fill="#FFF3E0" rx="8"/>
+  <text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" font-weight="bold" fill="#BF360C">Что такое деление?</text>
+  <!-- Tablecloth -->
+  <rect x="20" y="50" width="460" height="230" rx="10" fill="#FFE0B2"/>
+  <!-- Whole pizza -->
+  <g transform="translate(100,165)">
+    <circle r="55" fill="#FFB74D" stroke="#E65100" stroke-width="2"/>
+    <circle r="45" fill="#FF9800"/>
+    <circle r="45" fill="#FFC107" opacity="0.4"/>
+    <circle cx="-12" cy="-12" r="6" fill="#D32F2F"/><circle cx="12" cy="-8" r="5.5" fill="#D32F2F"/>
+    <circle cx="-4" cy="16" r="6" fill="#D32F2F"/><circle cx="20" cy="12" r="5" fill="#D32F2F"/>
+    <circle cx="-20" cy="6" r="5" fill="#D32F2F"/>
+    <line x1="0" y1="-45" x2="0" y2="45" stroke="#E65100" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="-45" y1="0" x2="45" y2="0" stroke="#E65100" stroke-width="1.5" stroke-dasharray="4,3"/>
   </g>
-  <!-- Plate 2 -->
-  <g transform="translate(195,85)">
-    <ellipse cx="50" cy="25" rx="45" ry="18" fill="#E8EAF6" stroke="#283593" stroke-width="2"/>
-    <circle cx="35" cy="20" r="8" fill="#FF9800"/><circle cx="50" cy="20" r="8" fill="#FF9800"/><circle cx="65" cy="20" r="8" fill="#FF9800"/><circle cx="80" cy="20" r="8" fill="#FF9800"/>
-    <text x="50" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#283593">4 яблока</text>
+  <text x="100" y="240" text-anchor="middle" font-size="13" font-weight="bold" fill="#E65100">Целая пицца</text>
+  <!-- Arrow -->
+  <path d="M170,165 L220,165" stroke="#BF360C" stroke-width="3" fill="none"/>
+  <polygon points="225,165 215,160 215,170" fill="#BF360C"/>
+  <!-- 4 friends with slices -->
+  <defs><g id="f"><circle cy="30" r="7" fill="#FFCC80"/><circle cx="-2" cy="28" r="1.2" fill="#333"/><circle cx="2" cy="28" r="1.2" fill="#333"/><path d="M-2,33 Q0,36 2,33" fill="none" stroke="#333" stroke-width="1"/><line x1="0" y1="37" x2="0" y2="55" stroke-width="2"/><line x1="-6" y1="44" x2="6" y2="44" stroke-width="2"/><line x1="0" y1="55" x2="-4" y2="66" stroke-width="1.5"/><line x1="0" y1="55" x2="4" y2="66" stroke-width="1.5"/></g></defs>
+  <!-- Friend 1 -->
+  <g transform="translate(280,95)">
+    <g class="ps"><path d="M0,-25 L12,8 L-12,8 Z" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/><circle cy="-3" r="3.5" fill="#D32F2F"/></g>
+    <use href="#f" stroke="#F57C00" fill="#F57C00"/>
   </g>
-  <!-- Plate 3 -->
-  <g transform="translate(330,85)">
-    <ellipse cx="50" cy="25" rx="45" ry="18" fill="#E8EAF6" stroke="#283593" stroke-width="2"/>
-    <circle cx="35" cy="20" r="8" fill="#FFC107"/><circle cx="50" cy="20" r="8" fill="#FFC107"/><circle cx="65" cy="20" r="8" fill="#FFC107"/><circle cx="80" cy="20" r="8" fill="#FFC107"/>
-    <text x="50" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#283593">4 яблока</text>
+  <!-- Friend 2 -->
+  <g transform="translate(370,95)">
+    <g class="ps" style="animation-delay:.5s"><path d="M0,-25 L12,8 L-12,8 Z" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/><circle cy="-3" r="3.5" fill="#D32F2F"/></g>
+    <use href="#f" stroke="#1565C0" fill="#1565C0"/>
   </g>
-  <!-- Equation -->
-  <g class="grow" transform="translate(100,170)">
-    <rect x="0" y="0" width="300" height="50" fill="#C5CAE9" rx="10" stroke="#283593" stroke-width="2"/>
-    <text x="150" y="33" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#283593">12 : 3 = 4</text>
+  <!-- Friend 3 -->
+  <g transform="translate(300,195)">
+    <g class="ps" style="animation-delay:1s"><path d="M0,-20 L10,6 L-10,6 Z" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/><circle cy="-2" r="3" fill="#D32F2F"/></g>
+    <use href="#f" stroke="#2E7D32" fill="#2E7D32"/>
   </g>
-  <!-- Terminology -->
-  <rect x="30" y="240" width="440" height="95" fill="white" rx="10" stroke="#9FA8DA" stroke-width="2"/>
-  <text x="250" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#283593">Названия компонентов</text>
-  <g font-family="Arial,sans-serif" font-size="14" text-anchor="middle">
-    <text x="130" y="290" fill="#283593" font-weight="bold">12</text>
-    <text x="190" y="290" fill="#555">:</text>
-    <text x="230" y="290" fill="#283593" font-weight="bold">3</text>
-    <text x="280" y="290" fill="#555">=</text>
-    <text x="330" y="290" fill="#283593" font-weight="bold">4</text>
+  <!-- Friend 4 -->
+  <g transform="translate(395,195)">
+    <g class="ps" style="animation-delay:1.5s"><path d="M0,-20 L10,6 L-10,6 Z" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/><circle cy="-2" r="3" fill="#D32F2F"/></g>
+    <use href="#f" stroke="#7B1FA2" fill="#7B1FA2"/>
   </g>
-  <g font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">
-    <text x="130" y="310">делимое</text>
-    <text x="230" y="310">делитель</text>
-    <text x="330" y="310">частное</text>
-  </g>
-  <text x="250" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#283593">Деление — обратная операция умножению: 4 x 3 = 12</text>
+  <text x="250" y="320" text-anchor="middle" font-size="18" font-weight="bold" fill="#BF360C">4 ÷ 4 = 1 (каждому по 1 куску)</text>
 </svg>

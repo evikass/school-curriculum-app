@@ -1,70 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      @keyframes pop { 0%,100%{transform:scale(1)} 50%{transform:scale(1.08)} }
-      @keyframes slide { 0%{transform:translateX(-5px)} 50%{transform:translateX(5px)} 100%{transform:translateX(-5px)} }
-      .num { animation: pop 2s ease-in-out infinite; }
-      .arrow { animation: slide 1.5s ease-in-out infinite; }
-    </style>
-  </defs>
-  <rect width="500" height="350" fill="#E8F5E9"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#2E7D32">Образование чисел от 10 до 20</text>
-  <!-- Number line 10-20 -->
-  <line x1="30" y1="80" x2="470" y2="80" stroke="#2E7D32" stroke-width="3"/>
-  <g font-family="Arial,sans-serif" font-size="14" fill="#1B5E20" text-anchor="middle">
-    <circle cx="50" cy="80" r="16" fill="#C8E6C9" stroke="#2E7D32" stroke-width="2"/>
-    <text x="50" y="85">10</text>
-    <circle cx="90" cy="80" r="16" fill="#A5D6A7" stroke="#2E7D32" stroke-width="2"/>
-    <text x="90" y="85">11</text>
-    <circle cx="130" cy="80" r="16" fill="#81C784" stroke="#2E7D32" stroke-width="2"/>
-    <text x="130" y="85">12</text>
-    <circle cx="170" cy="80" r="16" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
-    <text x="170" y="85">13</text>
-    <circle cx="210" cy="80" r="16" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
-    <text x="210" y="85">14</text>
-    <circle cx="250" cy="80" r="16" fill="#43A047" stroke="#2E7D32" stroke-width="2"/>
-    <text x="250" y="85">15</text>
-    <circle cx="290" cy="80" r="16" fill="#388E3C" stroke="#2E7D32" stroke-width="2"/>
-    <text x="290" y="85">16</text>
-    <circle cx="330" cy="80" r="16" fill="#2E7D32" stroke="#1B5E20" stroke-width="2"/>
-    <text x="330" y="85" fill="white">17</text>
-    <circle cx="370" cy="80" r="16" fill="#1B5E20" stroke="#0D3B0F" stroke-width="2"/>
-    <text x="370" y="85" fill="white">18</text>
-    <circle cx="410" cy="80" r="16" fill="#1B5E20" stroke="#0D3B0F" stroke-width="2"/>
-    <text x="410" y="85" fill="white">19</text>
-    <circle cx="450" cy="80" r="16" fill="#0D3B0F" stroke="#0D3B0F" stroke-width="2"/>
-    <text x="450" y="85" fill="white">20</text>
+  <title>Образование чисел от 10 до 20</title>
+  <defs><style>@keyframes w{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}.b{animation:w 2s ease-in-out infinite;transform-origin:155px 195px}</style></defs>
+  <rect width="500" height="350" fill="#FFF8E1" rx="8"/>
+  <text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" font-weight="bold" fill="#5D4037">Образование чисел от 10 до 20</text>
+  <ellipse cx="250" cy="330" rx="240" ry="20" fill="#C8E6C9"/>
+  <g transform="translate(20,60)">
+    <g stroke="#8D6E63" stroke-width="5" stroke-linecap="round">
+      <line x1="30" y1="40" x2="30" y2="210"/><line x1="42" y1="40" x2="42" y2="210"/>
+      <line x1="54" y1="40" x2="54" y2="210"/><line x1="66" y1="40" x2="66" y2="210"/>
+      <line x1="78" y1="40" x2="78" y2="210"/><line x1="90" y1="40" x2="90" y2="210"/>
+      <line x1="102" y1="40" x2="102" y2="210"/><line x1="114" y1="40" x2="114" y2="210"/>
+      <line x1="126" y1="40" x2="126" y2="210"/><line x1="138" y1="40" x2="138" y2="210"/>
+    </g>
+    <rect x="22" y="110" width="124" height="14" rx="4" fill="#E53935" opacity="0.85"/>
+    <g class="b"><path d="M84,117 C70,95 55,100 65,117 C55,100 70,95 84,117" fill="#E53935"/><path d="M84,117 C98,95 113,100 103,117 C113,100 98,95 84,117" fill="#C62828"/><circle cx="84" cy="117" r="4" fill="#FFEB3B"/></g>
+    <text x="84" y="240" text-anchor="middle" font-size="22" font-weight="bold" fill="#E53935">10</text>
   </g>
-  <!-- Ten sticks + ones -->
-  <g class="num" transform="translate(60,120)">
-    <rect x="0" y="0" width="60" height="50" fill="#FFF9C4" rx="8" stroke="#F9A825" stroke-width="2"/>
-    <text x="30" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#E65100">1 десяток</text>
-    <text x="30" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#F57F17">10</text>
+  <text x="230" y="170" text-anchor="middle" font-size="40" font-weight="bold" fill="#FF6F00">+</text>
+  <g transform="translate(260,60)">
+    <g stroke="#8D6E63" stroke-width="5" stroke-linecap="round">
+      <line x1="20" y1="80" x2="20" y2="210"/><line x1="50" y1="80" x2="50" y2="210"/><line x1="80" y1="80" x2="80" y2="210"/>
+    </g>
+    <text x="50" y="240" text-anchor="middle" font-size="22" font-weight="bold" fill="#1565C0">3</text>
   </g>
-  <g class="arrow">
-    <text x="140" y="150" font-family="Arial,sans-serif" font-size="28" fill="#FF8F00">+</text>
+  <text x="385" y="170" text-anchor="middle" font-size="40" font-weight="bold" fill="#FF6F00">=</text>
+  <g transform="translate(410,80)">
+    <g stroke="#8D6E63" stroke-width="4" stroke-linecap="round">
+      <line x1="15" y1="40" x2="15" y2="80"/><line x1="27" y1="40" x2="27" y2="80"/>
+      <line x1="39" y1="40" x2="39" y2="80"/><line x1="51" y1="40" x2="51" y2="80"/>
+      <line x1="63" y1="40" x2="63" y2="80"/><line x1="15" y1="90" x2="15" y2="130"/>
+      <line x1="27" y1="90" x2="27" y2="130"/><line x1="39" y1="90" x2="39" y2="130"/>
+      <line x1="51" y1="90" x2="51" y2="130"/><line x1="63" y1="90" x2="63" y2="130"/>
+      <line x1="20" y1="150" x2="20" y2="190"/><line x1="38" y1="150" x2="38" y2="190"/><line x1="56" y1="150" x2="56" y2="190"/>
+    </g>
+    <rect x="8" y="70" width="62" height="10" rx="3" fill="#E53935" opacity="0.7"/>
+    <text x="40" y="220" text-anchor="middle" font-size="26" font-weight="bold" fill="#2E7D32">13</text>
   </g>
-  <g class="num" transform="translate(160,120)">
-    <rect x="0" y="0" width="60" height="50" fill="#FFECB3" rx="8" stroke="#F9A825" stroke-width="2"/>
-    <text x="30" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#E65100">3 единицы</text>
-    <text x="30" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#F57F17">3</text>
-  </g>
-  <g class="arrow">
-    <text x="240" y="150" font-family="Arial,sans-serif" font-size="28" fill="#2E7D32">=</text>
-  </g>
-  <g class="num" transform="translate(260,120)">
-    <rect x="0" y="0" width="70" height="50" fill="#C8E6C9" rx="8" stroke="#2E7D32" stroke-width="2"/>
-    <text x="35" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#1B5E20">Тринадцать</text>
-    <text x="35" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#2E7D32">13</text>
-  </g>
-  <!-- Counting blocks -->
-  <g transform="translate(50,200)">
-    <rect x="0" y="0" width="400" height="60" fill="white" rx="10" stroke="#E0E0E0" stroke-width="1"/>
-    <text x="200" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#555">10 + 1 = 11   10 + 5 = 15   10 + 9 = 19</text>
-    <text x="200" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32">Десять и ещё несколько единиц</text>
-  </g>
-  <!-- Decorative -->
-  <rect x="30" y="280" width="440" height="55" fill="#FFF8E1" rx="10"/>
-  <text x="250" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Как образуются числа?</text>
-  <text x="250" y="325" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#795548">10 + N = 1N (одиннадцать, двенадцать, ..., девятнадцать)</text>
+  <circle cx="470" cy="300" r="18" fill="#FFCC80"/>
+  <circle cx="464" cy="296" r="2.5" fill="#333"/><circle cx="476" cy="296" r="2.5" fill="#333"/>
+  <path d="M463,306 Q470,314 477,306" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
 </svg>

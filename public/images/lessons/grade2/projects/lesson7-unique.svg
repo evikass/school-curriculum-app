@@ -1,20 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <rect width="500" height="350" fill="#FFF8E1"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Мир животных</text>
-  <rect x="30" y="50" width="440" height="130" fill="white" rx="10" stroke="#E65100" stroke-width="2" opacity="0.9"/>
-  <text x="250" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Что сделать в проекте</text>
-  <g font-family="Arial,sans-serif" font-size="13" fill="#333">
-    <text x="50" y="100">1. Выбери группу животных</text>
-    <text x="50" y="125">2. Подготовь факты и фото</text>
-    <text x="50" y="150">3. Сделай мини-доклад</text>
-  </g>
-  <rect x="30" y="195" width="440" height="140" fill="#FFF8E1" rx="10"/>
-  <text x="250" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Этапы работы над проектом</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="242">1. Выбери тему и поставь цель</text>
-    <text x="50" y="262">2. Собери информацию</text>
-    <text x="50" y="282">3. Создай продукт (постер, презентацию)</text>
-    <text x="50" y="302">4. Подготовь выступление</text>
-    <text x="50" y="322" fill="#E65100">5. Представь проект классу!</text>
-  </g>
+<style>.fi{animation:sw 3s ease-in-out infinite}@keyframes sw{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}</style>
+<rect width="500" height="350" fill="#E0F7FA"/>
+<text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#004D40" font-weight="bold">Мир животных</text>
+<rect x="0" y="30" width="500" height="130" fill="#B3E5FC"/>
+<rect x="0" y="250" width="500" height="100" fill="#8D6E63"/>
+<path d="M0,160Q60,150 120,160Q180,170 240,160L240,250L0,250Z" fill="#4FC3F7" fill-opacity=".6"/>
+<rect x="0" y="155" width="500" height="10" fill="#66BB6A"/>
+<rect x="240" y="155" width="260" height="95" fill="#C8E6C9"/>
+<rect x="350" y="100" width="10" height="60" fill="#795548"/>
+<circle cx="355" cy="85" r="25" fill="#66BB6A"/>
+<circle cx="342" cy="90" r="18" fill="#81C784"/>
+<circle cx="370" cy="88" r="16" fill="#4CAF50"/>
+<ellipse cx="355" cy="75" rx="10" ry="7" fill="#FF8A65" stroke="#E64A19" stroke-width=".5"/>
+<circle cx="350" cy="73" r="2" fill="#5D4037"/>
+<polygon points="342,75 338,74 342,77" fill="#FF8F00"/>
+<path d="M365,73L370,69L368,77Z" fill="#FF8A65"/>
+<line x1="352" y1="82" x2="350" y2="87" stroke="#FF8F00" stroke-width="1"/>
+<line x1="358" y1="82" x2="360" y2="87" stroke="#FF8F00" stroke-width="1"/>
+<ellipse cx="300" cy="195" rx="18" ry="14" fill="white" stroke="#BDBDBD" stroke-width="1"/>
+<circle cx="290" cy="183" r="10" fill="white" stroke="#BDBDBD" stroke-width="1"/>
+<ellipse cx="284" cy="172" rx="4" ry="10" fill="white" stroke="#BDBDBD" stroke-width=".5"/>
+<ellipse cx="296" cy="172" rx="4" ry="10" fill="white" stroke="#BDBDBD" stroke-width=".5"/>
+<ellipse cx="284" cy="172" rx="2.5" ry="7" fill="#FFCDD2"/>
+<ellipse cx="296" cy="172" rx="2.5" ry="7" fill="#FFCDD2"/>
+<circle cx="287" cy="181" r="1.5" fill="#E91E63"/><circle cx="293" cy="181" r="1.5" fill="#E91E63"/>
+<ellipse cx="290" cy="185" rx="2" ry="1.5" fill="#FF80AB"/>
+<circle cx="302" cy="196" r="4" fill="white" stroke="#BDBDBD" stroke-width=".5"/>
+<g class="fi">
+<ellipse cx="90" cy="210" rx="18" ry="10" fill="#FF8A65" stroke="#E64A19" stroke-width="1"/>
+<polygon points="108,210 120,200 120,220" fill="#FF8A65" stroke="#E64A19" stroke-width=".5"/>
+<circle cx="82" cy="207" r="2.5" fill="white"/><circle cx="82" cy="207" r="1.5" fill="#5D4037"/>
+<circle cx="68" cy="200" r="3" fill="none" stroke="#B3E5FC" stroke-width="1"/>
+<circle cx="62" cy="195" r="2" fill="none" stroke="#B3E5FC" stroke-width=".5"/>
+</g>
+<path d="M20,250Q18,230 25,215" fill="none" stroke="#66BB6A" stroke-width="2"/>
+<path d="M30,250Q35,225 28,210" fill="none" stroke="#81C784" stroke-width="2"/>
+<path d="M200,250Q195,235 205,220" fill="none" stroke="#66BB6A" stroke-width="2"/>
+<ellipse cx="170" cy="230" rx="12" ry="7" fill="#FFD54F" stroke="#F9A825" stroke-width="1"/>
+<polygon points="182,230 190,224 190,236" fill="#FFD54F" stroke="#F9A825" stroke-width=".5"/>
+<circle cx="164" cy="228" r="1.5" fill="#5D4037"/>
+<ellipse cx="350" cy="290" rx="16" ry="12" fill="#795548" stroke="#5D4037" stroke-width="1"/>
+<circle cx="344" cy="286" r="2" fill="#5D4037"/><circle cx="356" cy="286" r="2" fill="#5D4037"/>
+<ellipse cx="350" cy="291" rx="4" ry="2.5" fill="#FF80AB"/>
+<ellipse cx="335" cy="295" rx="5" ry="3" fill="#8D6E63" transform="rotate(-20,335,295)"/>
+<ellipse cx="365" cy="295" rx="5" ry="3" fill="#8D6E63" transform="rotate(20,365,295)"/>
+<ellipse cx="350" cy="298" rx="22" ry="8" fill="#6D4C41"/>
+<path d="M180,300Q185,290 190,295Q195,300 200,292" fill="none" stroke="#EF9A9A" stroke-width="3" stroke-linecap="round"/>
+<path d="M355,160Q360,190 350,220Q345,240 355,250" fill="none" stroke="#A1887F" stroke-width="2"/>
+<path d="M355,180Q370,200 380,230" fill="none" stroke="#BCAAA4" stroke-width="1.5"/>
+<ellipse cx="120" cy="310" rx="12" ry="8" fill="#9E9E9E"/>
+<circle cx="60" cy="60" r="20" fill="#FFD54F"/>
+<ellipse cx="180" cy="55" rx="25" ry="12" fill="white"/>
 </svg>

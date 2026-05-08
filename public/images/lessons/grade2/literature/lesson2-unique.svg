@@ -1,32 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes roll{0%{transform:translateX(0)}100%{transform:translateX(10px)}50%{transform:translateX(0)}}.rolling{animation:roll 2s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#FFF8E1"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Сказка «Колобок»</text>
-  <!-- Kolobok character -->
-  <g class="rolling" transform="translate(50,60)">
-    <circle cx="50" cy="50" r="45" fill="#FFB74D" stroke="#E65100" stroke-width="3"/>
-    <circle cx="35" cy="40" r="6" fill="#333"/><circle cx="65" cy="40" r="6" fill="#333"/>
-    <path d="M 30 60 Q 50 75 70 60" fill="none" stroke="#333" stroke-width="3"/>
-    <circle cx="25" cy="55" r="7" fill="#FF8A65"/>
-    <circle cx="75" cy="55" r="7" fill="#FF8A65"/>
-  </g>
-  <!-- Characters path -->
-  <rect x="180" y="55" width="290" height="130" fill="white" rx="10" stroke="#FFB74D" stroke-width="2"/>
-  <text x="325" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Кого встретил Колобок?</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="200" y="100">1. Зайца</text>
-    <text x="200" y="118">2. Волка</text>
-    <text x="200" y="136">3. Медведя</text>
-    <text x="200" y="154">4. Лису (съела Колобка)</text>
-  </g>
-  <text x="325" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#E65100">Каждому пел песенку: «Я Колобок, Колобок...»</text>
-  <!-- Song -->
-  <rect x="30" y="200" width="440" height="65" fill="#FFF3E0" rx="10"/>
-  <text x="250" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#E65100">Песенка Колобка</text>
-  <text x="250" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">«Я Колобок, Колобок! По амбару метён, по сусекам скребён,</text>
-  <text x="250" y="255" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">на сметане мешён, в печку сажён, на окошке стужён!»</text>
-  <!-- Moral -->
-  <rect x="30" y="280" width="440" height="55" fill="white" rx="10" stroke="#FFB74D" stroke-width="2"/>
-  <text x="250" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Чему учит сказка?</text>
-  <text x="250" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Нельзя доверять незнакомцам и хвастаться</text>
+<style>.roll{animation:m 4s ease-in-out infinite}@keyframes m{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}</style>
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#87ceeb"/><stop offset="100%" stop-color="#c8e6f0"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#s)"/>
+<text x="250" y="22" text-anchor="middle" font-size="16" fill="#5a3210" font-family="serif">Сказка «Колобок»</text>
+<circle cx="430" cy="55" r="28" fill="#ffd700"/>
+<g stroke="#ffd700" stroke-width="2.5" stroke-linecap="round"><line x1="430" y1="20" x2="430" y2="10"/><line x1="430" y1="90" x2="430" y2="100"/><line x1="395" y1="55" x2="385" y2="55"/><line x1="465" y1="55" x2="475" y2="55"/></g>
+<rect x="0" y="260" width="500" height="90" fill="#7cb342"/>
+<path d="M0,310 Q120,280 250,290 Q380,300 500,285" stroke="#d4a460" stroke-width="35" fill="none" stroke-linecap="round"/>
+<path d="M0,310 Q120,280 250,290 Q380,300 500,285" stroke="#c9944f" stroke-width="28" fill="none" stroke-linecap="round"/>
+<g transform="translate(380,180)"><rect x="-8" y="30" width="16" height="55" rx="3" fill="#6d4c2a"/><ellipse cx="0" cy="15" rx="35" ry="40" fill="#2e7d32"/><ellipse cx="-15" cy="25" rx="22" ry="25" fill="#388e3c"/></g>
+<ellipse cx="100" cy="265" rx="30" ry="18" fill="#43a047"/><ellipse cx="320" cy="270" rx="25" ry="15" fill="#43a047"/>
+<g transform="translate(395,195)"><ellipse cx="0" cy="30" rx="18" ry="12" fill="#e65100"/><path d="M15,25 Q35,15 30,35 Q25,45 15,35" fill="#e65100"/><path d="M22,28 Q30,22 28,35 Q25,40 20,33" fill="#fff8e1"/><ellipse cx="-5" cy="15" rx="12" ry="10" fill="#e65100"/><polygon points="-12,8 -15,-2 -8,5" fill="#e65100"/><polygon points="2,6 5,-4 8,4" fill="#e65100"/><circle cx="-8" cy="13" r="2.5" fill="#fff"/><circle cx="-8" cy="13" r="1.5" fill="#1a1a1a"/><ellipse cx="-12" cy="18" rx="5" ry="4" fill="#fff8e1"/></g>
+<g class="roll" transform="translate(220,278)"><circle r="22" fill="#ffa726" stroke="#e68900" stroke-width="1.5"/><ellipse cx="-12" cy="5" rx="5" ry="3" fill="#ff8a80" opacity=".5"/><ellipse cx="12" cy="5" rx="5" ry="3" fill="#ff8a80" opacity=".5"/><circle cx="-7" cy="-4" r="3" fill="#fff"/><circle cx="7" cy="-4" r="3" fill="#fff"/><circle cx="-6" cy="-4" r="2" fill="#1a1a1a"/><circle cx="8" cy="-4" r="2" fill="#1a1a1a"/><path d="M-8,4 Q0,12 8,4" stroke="#5d3a1a" stroke-width="1.5" fill="none" stroke-linecap="round"/></g>
 </svg>

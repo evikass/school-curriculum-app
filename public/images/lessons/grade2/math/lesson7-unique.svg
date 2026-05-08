@@ -1,36 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <style>
-      @keyframes twotimes { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-5px)} }
-      .bounce { animation: twotimes 1.5s ease-in-out infinite; }
-    </style>
-  </defs>
-  <rect width="500" height="350" fill="#FCE4EC"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#880E4F">Таблица умножения на 2</text>
-  <!-- Table of 2 -->
-  <rect x="30" y="50" width="440" height="250" fill="white" rx="10" stroke="#F48FB1" stroke-width="2"/>
-  <text x="250" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#880E4F">Умножение на 2 — это удвоение!</text>
-  <g font-family="Arial,sans-serif" font-size="16" fill="#880E4F">
-    <text x="80" y="105">2 x 1 = 2</text>
-    <text x="280" y="105">2 x 6 = 12</text>
-    <text x="80" y="130">2 x 2 = 4</text>
-    <text x="280" y="130">2 x 7 = 14</text>
-    <text x="80" y="155">2 x 3 = 6</text>
-    <text x="280" y="155">2 x 8 = 16</text>
-    <text x="80" y="180">2 x 4 = 8</text>
-    <text x="280" y="180">2 x 9 = 18</text>
-    <text x="80" y="205">2 x 5 = 10</text>
-    <text x="280" y="205">2 x 10 = 20</text>
-  </g>
-  <!-- Visual: pairs -->
-  <g class="bounce" transform="translate(60,225)">
-    <circle cx="0" cy="15" r="12" fill="#F48FB1"/><circle cx="30" cy="15" r="12" fill="#F48FB1"/>
-    <text x="55" y="22" font-family="Arial,sans-serif" font-size="12" fill="#880E4F">2 x 1 = 2</text>
-    <circle cx="130" cy="15" r="12" fill="#EC407A"/><circle cx="160" cy="15" r="12" fill="#EC407A"/>
-    <circle cx="190" cy="15" r="12" fill="#EC407A"/><circle cx="220" cy="15" r="12" fill="#EC407A"/>
-    <text x="245" y="22" font-family="Arial,sans-serif" font-size="12" fill="#880E4F">2 x 2 = 4</text>
-  </g>
-  <!-- Tip -->
-  <rect x="50" y="270" width="400" height="30" fill="#FCE4EC" rx="8"/>
-  <text x="250" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#880E4F">Каждый ответ больше предыдущего на 2</text>
+  <title>Таблица умножения на 2</title>
+  <defs><style>@keyframes s{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}.sw{animation:s 3s ease-in-out infinite;transform-origin:top center}</style></defs>
+  <rect width="500" height="350" fill="#E8F5E9" rx="8"/>
+  <text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" font-weight="bold" fill="#1B5E20">Таблица умножения на 2</text>
+  <rect x="0" y="30" width="500" height="200" fill="#B3E5FC"/>
+  <circle cx="440" cy="70" r="22" fill="#FFD600"/>
+  <rect x="30" y="55" width="8" height="220" rx="2" fill="#795548"/>
+  <rect x="462" y="55" width="8" height="220" rx="2" fill="#795548"/>
+  <path d="M38,65 Q250,95 462,65" fill="none" stroke="#9E9E9E" stroke-width="2.5"/>
+  <rect x="0" y="275" width="500" height="75" fill="#81C784"/>
+  <!-- Sock pair function -->
+  <defs><g id="sp"><path d="M-10,0 L-10,40 Q-10,50 0,50 L5,50 Q10,50 10,40 L10,20 L-2,20 L-2,0 Z" stroke-width="1"/><path d="M2,0 L2,40 Q2,50 12,50 L17,50 Q22,50 22,40 L22,20 L10,20 L10,0 Z" stroke-width="1"/><rect x="-12" y="-2" width="22" height="6" rx="2"/></g></defs>
+  <!-- Pair 1 -->
+  <g class="sw" transform="translate(70,82)"><use href="#sp" fill="#E53935" stroke="#C62828"/><circle cx="0" cy="30" r="2" fill="#FFEB3B"/><circle cx="16" cy="30" r="2" fill="#FFEB3B"/></g>
+  <text x="80" y="170" text-anchor="middle" font-size="13" font-weight="bold" fill="#C62828">1×2=2</text>
+  <!-- Pair 2 -->
+  <g class="sw" style="animation-delay:.5s" transform="translate(155,87)"><use href="#sp" fill="#1565C0" stroke="#0D47A1"/><circle cx="0" cy="30" r="2" fill="#fff"/><circle cx="16" cy="30" r="2" fill="#fff"/></g>
+  <text x="165" y="175" text-anchor="middle" font-size="13" font-weight="bold" fill="#0D47A1">2×2=4</text>
+  <!-- Pair 3 -->
+  <g class="sw" style="animation-delay:1s" transform="translate(240,92)"><use href="#sp" fill="#2E7D32" stroke="#1B5E20"/><circle cx="0" cy="30" r="2" fill="#FFEB3B"/><circle cx="16" cy="30" r="2" fill="#FFEB3B"/></g>
+  <text x="250" y="180" text-anchor="middle" font-size="13" font-weight="bold" fill="#1B5E20">3×2=6</text>
+  <!-- Pair 4 -->
+  <g class="sw" style="animation-delay:1.5s" transform="translate(325,89)"><use href="#sp" fill="#FF6F00" stroke="#E65100"/><circle cx="0" cy="30" r="2" fill="#fff"/><circle cx="16" cy="30" r="2" fill="#fff"/></g>
+  <text x="335" y="178" text-anchor="middle" font-size="13" font-weight="bold" fill="#E65100">4×2=8</text>
+  <!-- Pair 5 -->
+  <g class="sw" style="animation-delay:2s" transform="translate(410,84)"><use href="#sp" fill="#7B1FA2" stroke="#4A148C"/><circle cx="0" cy="30" r="2" fill="#FFEB3B"/><circle cx="16" cy="30" r="2" fill="#FFEB3B"/></g>
+  <text x="420" y="175" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A148C">5×2=10</text>
+  <text x="250" y="310" text-anchor="middle" font-size="20" font-weight="bold" fill="#1B5E20">Пары — это ×2!</text>
 </svg>

@@ -1,29 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes rainbow{0%,100%{opacity:1}50%{opacity:0.8}}.colorful{animation:rainbow 3s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#FFF8E1"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Colours / Colors</text>
-  <!-- Color palette -->
-  <rect x="30" y="50" width="440" height="140" fill="white" rx="10" stroke="#FFE082" stroke-width="2"/>
-  <g class="colorful">
-    <rect x="50" y="65" width="60" height="40" fill="#F44336" rx="5"/><text x="80" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#C62828">red</text>
-    <rect x="120" y="65" width="60" height="40" fill="#FF9800" rx="5"/><text x="150" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#E65100">orange</text>
-    <rect x="190" y="65" width="60" height="40" fill="#FFC107" rx="5"/><text x="220" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#F57F17">yellow</text>
-    <rect x="260" y="65" width="60" height="40" fill="#4CAF50" rx="5"/><text x="290" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">green</text>
-    <rect x="330" y="65" width="60" height="40" fill="#2196F3" rx="5"/><text x="360" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">blue</text>
-    <rect x="400" y="65" width="60" height="40" fill="#9C27B0" rx="5"/><text x="430" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A">purple</text>
-    <rect x="50" y="130" width="60" height="40" fill="#E91E63" rx="5"/><text x="80" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#AD1457">pink</text>
-    <rect x="120" y="130" width="60" height="40" fill="#795548" rx="5"/><text x="150" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4E342E">brown</text>
-    <rect x="190" y="130" width="60" height="40" fill="#212121" rx="5"/><text x="220" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#212121">black</text>
-    <rect x="260" y="130" width="60" height="40" fill="#F5F5F5" rx="5" stroke="#E0E0E0"/><text x="290" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#616161">white</text>
-    <rect x="330" y="130" width="60" height="40" fill="#9E9E9E" rx="5"/><text x="360" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#424242">grey</text>
+  <defs>
+    <style>
+      @keyframes sparkle { 0%,100%{opacity:.3;r:2} 50%{opacity:1;r:4} }
+      .spark { animation: sparkle 1.5s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#F3E5F5"/>
+  <text x="250" y="24" text-anchor="middle" font-size="17" font-family="Arial,sans-serif" font-weight="bold" fill="#2C3E50">Colours</text>
+  <!-- clouds -->
+  <ellipse cx="60" cy="70" rx="35" ry="18" fill="#fff" opacity=".85"/>
+  <ellipse cx="90" cy="65" rx="28" ry="15" fill="#fff" opacity=".8"/>
+  <ellipse cx="440" cy="75" rx="32" ry="16" fill="#fff" opacity=".85"/>
+  <ellipse cx="465" cy="70" rx="25" ry="13" fill="#fff" opacity=".8"/>
+  <!-- RAINBOW -->
+  <path d="M60 280 Q60 80 250 80 Q440 80 440 280" fill="none" stroke="#E74C3C" stroke-width="14"/>
+  <path d="M74 280 Q74 94 250 94 Q426 94 426 280" fill="none" stroke="#FF9800" stroke-width="14"/>
+  <path d="M88 280 Q88 108 250 108 Q412 108 412 280" fill="none" stroke="#FFD93D" stroke-width="14"/>
+  <path d="M102 280 Q102 122 250 122 Q398 122 398 280" fill="none" stroke="#4CAF50" stroke-width="14"/>
+  <path d="M116 280 Q116 136 250 136 Q384 136 384 280" fill="none" stroke="#2196F3" stroke-width="14"/>
+  <path d="M130 280 Q130 150 250 150 Q370 150 370 280" fill="none" stroke="#9C27B0" stroke-width="14"/>
+  <path d="M144 280 Q144 164 250 164 Q356 164 356 280" fill="none" stroke="#E91E63" stroke-width="14"/>
+  <!-- green hills -->
+  <ellipse cx="120" cy="310" rx="120" ry="40" fill="#81C784"/>
+  <ellipse cx="380" cy="310" rx="120" ry="40" fill="#81C784"/>
+  <ellipse cx="250" cy="315" rx="140" ry="35" fill="#66BB6A"/>
+  <!-- PAINT PALETTE -->
+  <ellipse cx="250" cy="260" rx="70" ry="35" fill="#8D6E63"/>
+  <ellipse cx="250" cy="260" rx="70" ry="35" fill="none" stroke="#5D4037" stroke-width="2"/>
+  <!-- thumb hole -->
+  <ellipse cx="280" cy="272" rx="10" ry="7" fill="#66BB6A"/>
+  <!-- paint blobs on palette -->
+  <circle cx="220" cy="248" r="8" fill="#E74C3C"/><circle cx="240" cy="242" r="7" fill="#FF9800"/>
+  <circle cx="260" cy="243" r="7" fill="#FFD93D"/><circle cx="222" cy="265" r="7" fill="#4CAF50"/>
+  <circle cx="242" cy="268" r="7" fill="#2196F3"/><circle cx="262" cy="265" r="7" fill="#9C27B0"/>
+  <circle cx="205" cy="255" r="6" fill="#E91E63"/>
+  <!-- PAINTBRUSH -->
+  <rect x="295" y="230" width="5" height="45" rx="2" fill="#A1887F" transform="rotate(25 297 252)"/>
+  <rect x="293" y="223" width="9" height="12" rx="1" fill="#FFCC80" transform="rotate(25 297 229)"/>
+  <path d="M290 220 Q293 210 297 220" fill="#E74C3C" transform="rotate(25 293 215)"/>
+  <path d="M294 220 Q297 212 301 220" fill="#E74C3C" transform="rotate(25 297 216)"/>
+  <!-- color labels on blobs below palette -->
+  <g font-size="9" font-family="Arial" font-weight="bold">
+    <circle cx="72" cy="300" r="6" fill="#E74C3C"/><text x="72" y="318" text-anchor="middle" fill="#C62828">red</text>
+    <circle cx="120" cy="300" r="6" fill="#FF9800"/><text x="120" y="318" text-anchor="middle" fill="#E65100">orange</text>
+    <circle cx="178" cy="300" r="6" fill="#FFD93D"/><text x="178" y="318" text-anchor="middle" fill="#F57F17">yellow</text>
+    <circle cx="238" cy="300" r="6" fill="#4CAF50"/><text x="238" y="318" text-anchor="middle" fill="#2E7D32">green</text>
+    <circle cx="295" cy="300" r="6" fill="#2196F3"/><text x="295" y="318" text-anchor="middle" fill="#1565C0">blue</text>
+    <circle cx="355" cy="300" r="6" fill="#9C27B0"/><text x="355" y="318" text-anchor="middle" fill="#6A1B9A">purple</text>
+    <circle cx="418" cy="300" r="6" fill="#E91E63"/><text x="418" y="318" text-anchor="middle" fill="#AD1457">pink</text>
   </g>
-  <!-- Phrases -->
-  <rect x="30" y="205" width="440" height="130" fill="#FFF8E1" rx="10"/>
-  <text x="250" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Describing colours</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="252">The apple is red. - Яблоко красное.</text>
-    <text x="50" y="272">The sky is blue. - Небо голубое.</text>
-    <text x="50" y="292">What colour is it? - Какого это цвета?</text>
-    <text x="50" y="312">It is green. - Оно зелёное.</text>
-  </g>
+  <!-- sparkles -->
+  <circle cx="170" cy="100" r="3" fill="#FFD93D" class="spark"/>
+  <circle cx="330" cy="90" r="2" fill="#FFD93D" class="spark" style="animation-delay:.5s"/>
+  <circle cx="250" cy="60" r="2" fill="#fff" class="spark" style="animation-delay:1s"/>
 </svg>

@@ -1,25 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes leaf{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}.nature{animation:leaf 3s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#E8F5E9"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1B5E20">Охрана природы</text>
-  <!-- Rules -->
-  <rect x="30" y="50" width="440" height="160" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
-  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20">Правила охраны природы</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="95">1. Не мусорить в лесу, парке, у реки</text>
-    <text x="50" y="115">2. Не разжигать костры без разрешения</text>
-    <text x="50" y="135">3. Не ломать ветки и не рвать цветы</text>
-    <text x="50" y="155">4. Не разорять птичьи гнёзда</text>
-    <text x="50" y="175">5. Не ловить диких животных</text>
-    <text x="50" y="195">6. Бережно относиться к воде</text>
-  </g>
-  <!-- Why protect -->
-  <rect x="30" y="225" width="440" height="110" fill="#E8F5E9" rx="10"/>
-  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Почему важно беречь природу?</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="270">Природа — наш дом</text>
-    <text x="50" y="290">Загрязнение вредно для всех живых существ</text>
-    <text x="50" y="310">Исчезновение одного вида нарушает равновесие</text>
-    <text x="50" y="330" fill="#1B5E20" font-weight="bold">Природу нужно беречь для будущих поколений!</text>
-  </g>
+<rect width="500" height="350" fill="#E0F2F1" rx="12"/>
+<text x="250" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#004D40">Охрана природы</text>
+<rect x="0" y="40" width="500" height="120" fill="#81D4FA"/>
+<circle cx="100" cy="70" r="16" fill="#fff" opacity="0.8"/>
+<circle cx="116" cy="65" r="20" fill="#fff" opacity="0.8"/>
+<circle cx="132" cy="70" r="14" fill="#fff" opacity="0.8"/>
+<circle cx="440" cy="65" r="20" fill="#FFD54F" stroke="#FF8F00" stroke-width="2"/>
+<line x1="440" y1="42" x2="440" y2="34" stroke="#FF8F00" stroke-width="2"/>
+<line x1="458" y1="50" x2="464" y2="44" stroke="#FF8F00" stroke-width="2"/>
+<path d="M0,160 Q80,130 160,155 Q250,120 340,150 Q420,135 500,155 L500,195 L0,195Z" fill="#66BB6A"/>
+<rect x="0" y="195" width="500" height="155" fill="#4CAF50"/>
+<path d="M160,218 Q142,208 138,192 Q134,178 142,174 Q150,172 154,182 Q156,174 162,172 Q170,171 170,182 Q172,174 178,174 Q186,176 184,188 Q190,182 196,185 Q200,192 192,200 Q188,208 185,218" fill="#FFCC80" stroke="#E65100" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M340,218 Q358,208 362,192 Q366,178 358,174 Q350,172 346,182 Q344,174 338,172 Q330,171 330,182 Q328,174 322,174 Q314,176 316,188 Q310,182 304,185 Q300,192 308,200 Q312,208 315,218" fill="#FFCC80" stroke="#E65100" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="246" y="150" width="8" height="65" fill="#795548" stroke="#5D4037" stroke-width="1.5" rx="2"/>
+<ellipse cx="250" cy="135" rx="32" ry="28" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+<ellipse cx="235" cy="142" rx="18" ry="15" fill="#66BB6A" stroke="#388E3C" stroke-width="1.5"/>
+<ellipse cx="265" cy="140" rx="20" ry="17" fill="#43A047" stroke="#2E7D32" stroke-width="1.5"/>
+<path d="M50,225 Q75,220 100,225 Q125,230 150,225" stroke="#42A5F5" stroke-width="5" fill="none" stroke-linecap="round"/>
+<g transform="translate(75,105)">
+<path d="M0,-22 L16,-14 L16,8 Q16,22 0,28 Q-16,22 -16,8 L-16,-14Z" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2"/>
+<rect x="-3" y="2" width="6" height="15" fill="#795548" rx="1"/>
+<circle cx="0" cy="-4" r="8" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+</g>
+<ellipse cx="400" cy="138" rx="10" ry="7" fill="#42A5F5" stroke="#1565C0" stroke-width="1.5"/>
+<circle cx="408" cy="133" r="5" fill="#42A5F5" stroke="#1565C0" stroke-width="1.5"/>
+<polygon points="413,132 418,130 413,128" fill="#FF9800"/>
+<text x="250" y="280" text-anchor="middle" font-size="13" font-weight="bold" fill="#004D40" font-family="sans-serif">Береги природу!</text>
+<text x="250" y="300" text-anchor="middle" font-size="10" fill="#2E7D32" font-family="sans-serif">Не рви цветы, не ломай деревья</text>
+<text x="250" y="315" text-anchor="middle" font-size="10" fill="#2E7D32" font-family="sans-serif">не загрязняй воду и воздух</text>
 </svg>

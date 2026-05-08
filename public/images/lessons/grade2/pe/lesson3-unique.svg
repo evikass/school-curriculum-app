@@ -1,26 +1,59 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes flip{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}}.acro{animation:flip 2s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#E3F2FD"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#0D47A1">Акробатические упражнения</text>
-  <!-- Acrobatic elements -->
-  <rect x="30" y="50" width="440" height="120" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
-  <g font-family="Arial,sans-serif" font-size="12">
-    <rect x="50" y="60" width="120" height="40" fill="#BBDEFB" rx="5"/><text x="110" y="78" text-anchor="middle" fill="#0D47A1" font-weight="bold">Кувырок</text><text x="110" y="95" text-anchor="middle" fill="#555" font-size="10">вперёд и назад</text>
-    <rect x="185" y="60" width="120" height="40" fill="#90CAF9" rx="5"/><text x="245" y="78" text-anchor="middle" fill="#0D47A1" font-weight="bold">Стойка</text><text x="245" y="95" text-anchor="middle" fill="#555" font-size="10">на лопатках</text>
-    <rect x="320" y="60" width="130" height="40" fill="#64B5F6" rx="5"/><text x="385" y="78" text-anchor="middle" fill="white" font-weight="bold">Мост</text><text x="385" y="95" text-anchor="middle" fill="white" font-size="10">из положения лёжа</text>
-    <rect x="50" y="115" width="120" height="40" fill="#42A5F5" rx="5"/><text x="110" y="133" text-anchor="middle" fill="white" font-weight="bold">Берёзка</text><text x="110" y="148" text-anchor="middle" fill="white" font-size="10">стойка на плечах</text>
-    <rect x="185" y="115" width="120" height="40" fill="#BBDEFB" rx="5"/><text x="245" y="133" text-anchor="middle" fill="#0D47A1" font-weight="bold">Ласточка</text><text x="245" y="148" text-anchor="middle" fill="#555" font-size="10">равновесие</text>
-    <rect x="320" y="115" width="130" height="40" fill="#90CAF9" rx="5"/><text x="385" y="133" text-anchor="middle" fill="#0D47A1" font-weight="bold">Колесо</text><text x="385" y="148" text-anchor="middle" fill="#555" font-size="10">боковой переворот</text>
+  <defs><style>.t{font:bold 17px sans-serif;fill:#fff;@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}</style></defs>
+  <rect width="500" height="350" rx="12" fill="#4a148c"/>
+  <rect x="4" y="4" width="492" height="342" rx="10" fill="none" stroke="#ea80fc" stroke-width="1.5"/>
+  <text x="250" y="26" text-anchor="middle" class="t">Акробатические упражнения</text>
+  <!-- Gym mat -->
+  <rect x="40" y="230" width="420" height="20" rx="4" fill="#4caf50"/>
+  <rect x="45" y="233" width="410" height="14" rx="3" fill="#66bb6a"/>
+  <line x1="100" y1="233" x2="100" y2="247" stroke="#43a047" stroke-width="1"/>
+  <line x1="200" y1="233" x2="200" y2="247" stroke="#43a047" stroke-width="1"/>
+  <line x1="300" y1="233" x2="300" y2="247" stroke="#43a047" stroke-width="1"/>
+  <line x1="400" y1="233" x2="400" y2="247" stroke="#43a047" stroke-width="1"/>
+  <!-- Cartwheel figure -->
+  <g>
+    <!-- Body at angle -->
+    <line x1="130" y1="180" x2="180" y2="150" stroke="#ff9800" stroke-width="4" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="125" cy="185" r="14" fill="#ffccbc"/>
+    <path d="M115,173 Q125,162 135,173" fill="#333"/>
+    <ellipse cx="120" cy="183" rx="2" ry="2" fill="#333"/>
+    <ellipse cx="131" cy="183" rx="2" ry="2" fill="#333"/>
+    <!-- Top arm (on ground) -->
+    <line x1="180" y1="150" x2="195" y2="228" stroke="#ff9800" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Bottom arm (up) -->
+    <line x1="130" y1="180" x2="110" y2="130" stroke="#ff9800" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Top leg (on ground) -->
+    <line x1="175" y1="152" x2="200" y2="230" stroke="#1565c0" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Bottom leg (up) -->
+    <line x1="135" y1="175" x2="100" y2="120" stroke="#1565c0" stroke-width="3.5" stroke-linecap="round"/>
   </g>
-  <!-- Safety -->
-  <rect x="30" y="185" width="440" height="155" fill="#E3F2FD" rx="10"/>
-  <text x="250" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Техника безопасности</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="230">Делать только на мате!</text>
-    <text x="50" y="250">Учитель должен быть рядом</text>
-    <text x="50" y="270">Не спешить, осваивать постепенно</text>
-    <text x="50" y="290">При кувырке подбородок к груди</text>
-    <text x="50" y="310">При мосте — опираться на руки и ноги</text>
-    <text x="50" y="330" fill="#0D47A1">Акробатика развивает ловкость и координацию!</text>
+  <!-- Motion arc for cartwheel -->
+  <path d="M110,230 Q90,140 200,110 Q270,95 280,230" stroke="#ea80fc" stroke-width="1.5" fill="none" stroke-dasharray="5,4" opacity="0.6"/>
+  <text x="155" y="270" text-anchor="middle" font-size="10" fill="#ea80fc">Колесо</text>
+  <!-- Somersault figure -->
+  <g>
+    <!-- Curled up body -->
+    <circle cx="360" cy="195" r="14" fill="#ffe0b2"/>
+    <path d="M350,183 Q360,172 370,183" fill="#333"/>
+    <ellipse cx="355" cy="193" rx="2" ry="2" fill="#333"/>
+    <ellipse cx="366" cy="193" rx="2" ry="2" fill="#333"/>
+    <!-- Curled body -->
+    <path d="M360,209 Q340,225 350,235 Q370,245 380,225 Q390,210 370,200" stroke="#e53935" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <!-- Arms hugging knees -->
+    <path d="M355,205 Q345,215 355,220" stroke="#e53935" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M370,205 Q380,215 370,220" stroke="#e53935" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Feet -->
+    <circle cx="350" cy="238" r="5" fill="#333"/>
   </g>
+  <!-- Roll arrows -->
+  <path d="M320,210 Q330,180 350,175 Q370,170 390,180 Q400,190 390,200" stroke="#ea80fc" stroke-width="1.5" fill="none" stroke-dasharray="5,4" opacity="0.6"/>
+  <text x="360" y="270" text-anchor="middle" font-size="10" fill="#ea80fc">Кувырок</text>
+  <!-- Achievement stars -->
+  <polygon points="60,70 63,80 73,80 65,86 68,96 60,90 52,96 55,86 47,80 57,80" fill="#ffd700"/>
+  <polygon points="440,55 443,65 453,65 445,71 448,81 440,75 432,81 435,71 427,65 437,65" fill="#ffd700"/>
+  <polygon points="250,50 252,56 258,56 253,60 255,66 250,62 245,66 247,60 242,56 248,56" fill="#ffd700" opacity="0.7"/>
+  <!-- Small sparkle -->
+  <polygon points="150,55 151,58 154,58 152,60 153,63 150,61 147,63 148,60 146,58 149,58" fill="#ffd700" opacity="0.5"/>
+  <polygon points="320,45 321,48 324,48 322,50 323,53 320,51 317,53 318,50 316,48 319,48" fill="#ffd700" opacity="0.5"/>
 </svg>

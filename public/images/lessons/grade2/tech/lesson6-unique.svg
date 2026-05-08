@@ -1,37 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes fall{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}.leaf{animation:fall 3s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#FFF8E1"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Аппликация из листьев</text>
-  <!-- Leaf art -->
-  <g class="leaf" transform="translate(30,55)">
-    <rect x="0" y="0" width="180" height="130" fill="white" rx="10" stroke="#FFE082" stroke-width="2"/>
-    <!-- Fish from leaves -->
-    <ellipse cx="90" cy="65" rx="40" ry="25" fill="#FF9800"/>
-    <polygon points="130,65 155,45 155,85" fill="#F44336"/>
-    <circle cx="70" cy="58" r="5" fill="#333"/>
-    <!-- Leaf veins -->
-    <line x1="60" y1="65" x2="120" y2="65" stroke="#E65100" stroke-width="1"/>
-    <line x1="70" y1="55" x2="90" y2="65" stroke="#E65100" stroke-width="0.5"/>
-    <line x1="70" y1="75" x2="90" y2="65" stroke="#E65100" stroke-width="0.5"/>
+  <rect width="500" height="350" fill="#FFF3E0" rx="12"/>
+  <text x="250" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#E65100">Аппликация из листьев</text>
+  <!-- Background paper -->
+  <rect x="60" y="50" width="380" height="260" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5" rx="3"/>
+  <!-- Fish body from leaves -->
+  <!-- Tail leaf (red) -->
+  <g transform="translate(120,170) rotate(-30)">
+    <path d="M0,0 Q20,-35 0,-70 Q-20,-35 0,0Z" fill="#D32F2F" stroke="#B71C1C" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="-70" stroke="#B71C1C" stroke-width="0.8"/>
+    <path d="M-5,-15 Q0,-20 5,-15" stroke="#B71C1C" stroke-width="0.5" fill="none"/>
+    <path d="M-5,-30 Q0,-35 5,-30" stroke="#B71C1C" stroke-width="0.5" fill="none"/>
+    <path d="M-5,-45 Q0,-50 5,-45" stroke="#B71C1C" stroke-width="0.5" fill="none"/>
   </g>
-  <!-- How to -->
-  <rect x="230" y="55" width="240" height="130" fill="white" rx="10" stroke="#FFE082" stroke-width="2"/>
-  <text x="350" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Как сделать аппликацию</text>
-  <g font-family="Arial,sans-serif" font-size="11" fill="#333">
-    <text x="245" y="98">1. Собрать листья осенью</text>
-    <text x="245" y="115">2. Высушить между страниц книг</text>
-    <text x="245" y="132">3. Подобрать по форме и цвету</text>
-    <text x="245" y="149">4. Разложить рисунок на бумаге</text>
-    <text x="245" y="166">5. Аккуратно приклеить</text>
+  <!-- Body leaf (orange, large) -->
+  <g transform="translate(210,165) rotate(-5)">
+    <path d="M0,0 Q30,-45 0,-90 Q-30,-45 0,0Z" fill="#FF6F00" stroke="#E65100" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="-90" stroke="#E65100" stroke-width="1"/>
+    <path d="M-8,-20 Q0,-26 8,-20" stroke="#E65100" stroke-width="0.6" fill="none"/>
+    <path d="M-10,-40 Q0,-46 10,-40" stroke="#E65100" stroke-width="0.6" fill="none"/>
+    <path d="M-8,-60 Q0,-66 8,-60" stroke="#E65100" stroke-width="0.6" fill="none"/>
+    <path d="M-5,-75 Q0,-80 5,-75" stroke="#E65100" stroke-width="0.6" fill="none"/>
   </g>
-  <!-- Ideas -->
-  <rect x="30" y="200" width="440" height="135" fill="#FFF8E1" rx="10"/>
-  <text x="250" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Идеи из листьев</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="245">Рыбка (овальный лист + хвост)</text>
-    <text x="50" y="265">Бабочка (два листа крыльями)</text>
-    <text x="50" y="285">Ёжик (дубовый лист + иголки)</text>
-    <text x="50" y="305">Павлин (листья как хвост)</text>
-    <text x="50" y="325" fill="#E65100">Осенние листья — бесплатный материал для творчества!</text>
+  <!-- Top fin leaf (yellow) -->
+  <g transform="translate(230,130) rotate(-70)">
+    <path d="M0,0 Q15,-28 0,-55 Q-15,-28 0,0Z" fill="#FFB300" stroke="#FF8F00" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="-55" stroke="#FF8F00" stroke-width="0.8"/>
   </g>
+  <!-- Bottom fin leaf (brown) -->
+  <g transform="translate(225,210) rotate(60)">
+    <path d="M0,0 Q12,-22 0,-45 Q-12,-22 0,0Z" fill="#795548" stroke="#4E342E" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="-45" stroke="#4E342E" stroke-width="0.8"/>
+  </g>
+  <!-- Head area leaf (greenish-yellow) -->
+  <g transform="translate(290,160) rotate(15)">
+    <path d="M0,0 Q18,-32 0,-65 Q-18,-32 0,0Z" fill="#F9A825" stroke="#F57F17" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="-65" stroke="#F57F17" stroke-width="0.8"/>
+  </g>
+  <!-- Fish eye -->
+  <circle cx="310" cy="158" r="8" fill="#fff" stroke="#37474F" stroke-width="1.5"/>
+  <circle cx="312" cy="157" r="4" fill="#1A237E"/>
+  <circle cx="313" cy="155" r="1.5" fill="#fff"/>
+  <!-- Fish mouth -->
+  <path d="M330,168 Q335,172 330,176" stroke="#E65100" stroke-width="1.5" fill="none"/>
+  <!-- Bubbles -->
+  <circle cx="345" cy="155" r="4" fill="none" stroke="#81D4FA" stroke-width="1.5"/>
+  <circle cx="355" cy="142" r="3" fill="none" stroke="#81D4FA" stroke-width="1.5"/>
+  <circle cx="350" cy="130" r="2" fill="none" stroke="#81D4FA" stroke-width="1.5"/>
+  <!-- Scattered extra leaves -->
+  <g transform="translate(90,90) rotate(40)">
+    <path d="M0,0 Q10,-18 0,-35 Q-10,-18 0,0Z" fill="#FF8F00" stroke="#E65100" stroke-width="1"/>
+  </g>
+  <g transform="translate(400,240) rotate(-10)">
+    <path d="M0,0 Q10,-18 0,-35 Q-10,-18 0,0Z" fill="#D32F2F" stroke="#B71C1C" stroke-width="1"/>
+  </g>
+  <g transform="translate(390,85) rotate(25)">
+    <path d="M0,0 Q8,-15 0,-30 Q-8,-15 0,0Z" fill="#FFB300" stroke="#FF8F00" stroke-width="1"/>
+  </g>
+  <!-- Glue -->
+  <g transform="translate(420,50)">
+    <rect x="-8" y="0" width="16" height="35" fill="#42A5F5" stroke="#1565C0" stroke-width="1.5" rx="3"/>
+    <rect x="-6" y="-5" width="12" height="7" fill="#BDBDBD" stroke="#9E9E9E" stroke-width="1" rx="2"/>
+  </g>
+  <text x="250" y="335" text-anchor="middle" font-size="11" fill="#E65100" font-family="sans-serif">Собери фигурку из осенних листьев</text>
 </svg>

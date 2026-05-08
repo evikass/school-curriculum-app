@@ -1,20 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <rect width="500" height="350" fill="#FCE4EC"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#880E4F">Выступление</text>
-  <rect x="30" y="50" width="440" height="130" fill="white" rx="10" stroke="#880E4F" stroke-width="2" opacity="0.9"/>
-  <text x="250" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#880E4F">Что сделать в проекте</text>
-  <g font-family="Arial,sans-serif" font-size="13" fill="#333">
-    <text x="50" y="100">1. Говори громко и чётко</text>
-    <text x="50" y="125">2. Смотри на слушателей</text>
-    <text x="50" y="150">3. Отвечай на вопросы</text>
-  </g>
-  <rect x="30" y="195" width="440" height="140" fill="#FCE4EC" rx="10"/>
-  <text x="250" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#880E4F">Этапы работы над проектом</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="242">1. Выбери тему и поставь цель</text>
-    <text x="50" y="262">2. Собери информацию</text>
-    <text x="50" y="282">3. Создай продукт (постер, презентацию)</text>
-    <text x="50" y="302">4. Подготовь выступление</text>
-    <text x="50" y="322" fill="#880E4F">5. Представь проект классу!</text>
-  </g>
+<style>.sl{animation:sp 3s ease-in-out infinite}@keyframes sp{0%,100%{opacity:.3}50%{opacity:.6}}</style>
+<rect width="500" height="350" fill="#263238"/>
+<text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#FFD54F" font-weight="bold">Выступление</text>
+<rect x="0" y="250" width="500" height="100" fill="#5D4037"/>
+<rect x="0" y="250" width="500" height="8" fill="#8D6E63"/>
+<!-- Curtains -->
+<path d="M0,35Q15,35 20,50Q10,100 25,150Q15,200 20,250L0,250Z" fill="#C62828"/>
+<path d="M20,35Q35,40 30,60Q40,110 35,150Q45,200 30,250L20,250Z" fill="#D32F2F"/>
+<path d="M500,35Q485,35 480,50Q490,100 475,150Q485,200 480,250L500,250Z" fill="#C62828"/>
+<path d="M480,35Q465,40 470,60Q460,110 465,150Q455,200 470,250L480,250Z" fill="#D32F2F"/>
+<path d="M0,35Q100,50 250,40Q400,50 500,35Z" fill="#B71C1C"/>
+<path d="M0,30Q50,40 100,30Q150,20 200,30Q250,40 300,30Q350,20 400,30Q450,40 500,30" fill="none" stroke="#D32F2F" stroke-width="8"/>
+<polygon class="sl" points="220,35 170,250 270,250" fill="#FFF9C4" opacity=".15"/>
+<polygon class="sl" points="280,35 230,250 330,250" fill="#FFF9C4" opacity=".1"/>
+<circle cx="250" cy="38" r="6" fill="#FFD54F"/>
+<rect x="242" y="30" width="16" height="10" rx="2" fill="#78909C"/>
+<!-- Child -->
+<ellipse cx="250" cy="240" rx="16" ry="22" fill="#42A5F5"/>
+<circle cx="250" cy="212" r="14" fill="#FFCCBC" stroke="#8D6E63" stroke-width="1"/>
+<circle cx="245" cy="210" r="2" fill="#5D4037"/><circle cx="255" cy="210" r="2" fill="#5D4037"/>
+<path d="M247,215Q250,218 253,215" fill="none" stroke="#5D4037" stroke-width="1"/>
+<path d="M240,206Q250,198 260,206" fill="#5D4037"/>
+<path d="M235,230L220,215" stroke="#FFCCBC" stroke-width="4" stroke-linecap="round"/>
+<path d="M265,230L280,215" stroke="#FFCCBC" stroke-width="4" stroke-linecap="round"/>
+<!-- Mic -->
+<circle cx="280" cy="197" r="7" fill="#546E7A" stroke="#37474F" stroke-width="1.5"/>
+<line x1="280" y1="204" x2="280" y2="250" stroke="#546E7A" stroke-width="3"/>
+<ellipse cx="280" cy="250" rx="12" ry="3" fill="#546E7A"/>
+<!-- Audience -->
+<circle cx="100" cy="285" r="8" fill="#FFCCBC"/>
+<line x1="100" y1="293" x2="100" y2="312" stroke="#E53935" stroke-width="2"/>
+<line x1="92" y1="300" x2="86" y2="292" stroke="#FFCCBC" stroke-width="2"/>
+<line x1="108" y1="300" x2="114" y2="292" stroke="#FFCCBC" stroke-width="2"/>
+<circle cx="160" cy="282" r="8" fill="#FFCCBC"/>
+<line x1="160" y1="290" x2="160" y2="309" stroke="#42A5F5" stroke-width="2"/>
+<line x1="152" y1="297" x2="146" y2="289" stroke="#FFCCBC" stroke-width="2"/>
+<line x1="168" y1="297" x2="174" y2="289" stroke="#FFCCBC" stroke-width="2"/>
+<circle cx="210" cy="285" r="8" fill="#FFCCBC"/>
+<line x1="210" y1="293" x2="210" y2="312" stroke="#66BB6A" stroke-width="2"/>
+<line x1="202" y1="300" x2="196" y2="292" stroke="#FFCCBC" stroke-width="2"/>
+<line x1="218" y1="300" x2="224" y2="292" stroke="#FFCCBC" stroke-width="2"/>
+<circle cx="310" cy="284" r="8" fill="#FFCCBC"/>
+<line x1="310" y1="292" x2="310" y2="311" stroke="#FF8A65" stroke-width="2"/>
+<line x1="302" y1="299" x2="296" y2="291" stroke="#FFCCBC" stroke-width="2"/>
+<line x1="318" y1="299" x2="324" y2="291" stroke="#FFCCBC" stroke-width="2"/>
+<circle cx="365" cy="286" r="8" fill="#FFCCBC"/>
+<line x1="365" y1="294" x2="365" y2="313" stroke="#CE93D8" stroke-width="2"/>
+<line x1="357" y1="301" x2="351" y2="293" stroke="#FFCCBC" stroke-width="2"/>
+<line x1="373" y1="301" x2="379" y2="293" stroke="#FFCCBC" stroke-width="2"/>
+<circle cx="420" cy="284" r="8" fill="#FFCCBC"/>
+<line x1="420" y1="292" x2="420" y2="311" stroke="#FFD54F" stroke-width="2"/>
+<line x1="412" y1="299" x2="406" y2="291" stroke="#FFCCBC" stroke-width="2"/>
+<line x1="428" y1="299" x2="434" y2="291" stroke="#FFCCBC" stroke-width="2"/>
 </svg>

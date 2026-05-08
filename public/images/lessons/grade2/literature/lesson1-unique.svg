@@ -1,40 +1,59 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes pageTurn{0%,100%{transform:rotateY(0)}50%{transform:rotateY(5deg)}}.book{animation:pageTurn 3s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#FCE4EC"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#880E4F">Русские народные сказки</text>
-  <!-- Book -->
-  <g class="book" transform="translate(30,50)">
-    <rect x="0" y="0" width="180" height="130" fill="#880E4F" rx="5"/>
-    <rect x="5" y="5" width="170" height="120" fill="#FCE4EC" rx="3"/>
-    <text x="90" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#880E4F">СКАЗКИ</text>
-    <line x1="20" y1="45" x2="160" y2="45" stroke="#880E4F" stroke-width="1"/>
-    <text x="90" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#880E4F">Колобок</text>
-    <text x="90" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#880E4F">Теремок</text>
-    <text x="90" y="99" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#880E4F">Репка</text>
-    <text x="90" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#880E4F">Курочка Ряба</text>
+  <style>.glow{animation:pulse 3s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}</style>
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="60%"><stop offset="0%" stop-color="#ffe680"/><stop offset="100%" stop-color="#1a0a3e"/></radialGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0d1b3e"/><stop offset="100%" stop-color="#1a0a3e"/></linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#sky)"/>
+  <text x="250" y="22" text-anchor="middle" font-size="16" fill="#ffd700" font-family="serif">Русские народные сказки</text>
+  <!-- stars -->
+  <circle cx="60" cy="50" r="1.5" fill="#fff"/><circle cx="120" cy="35" r="1" fill="#fff"/>
+  <circle cx="200" cy="55" r="1.5" fill="#fff"/><circle cx="350" cy="40" r="1" fill="#fff"/>
+  <circle cx="420" cy="60" r="1.5" fill="#fff"/><circle cx="460" cy="30" r="1" fill="#fff"/>
+  <circle cx="80" cy="90" r="1" fill="#fff"/><circle cx="380" cy="80" r="1.5" fill="#fff"/>
+  <!-- moon -->
+  <circle cx="400" cy="70" r="25" fill="#ffeebb"/>
+  <circle cx="410" cy="65" r="22" fill="url(#sky)"/>
+  <!-- hut on chicken legs -->
+  <g transform="translate(350,180)">
+    <!-- legs -->
+    <path d="M-15,60 L-25,90 M15,60 L25,90" stroke="#c9a050" stroke-width="5" stroke-linecap="round"/>
+    <!-- foot left -->
+    <path d="M-30,88 L-25,90 L-18,86" stroke="#c9a050" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- foot right -->
+    <path d="M20,86 L25,90 L32,88" stroke="#c9a050" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- body -->
+    <rect x="-25" y="10" width="50" height="50" rx="3" fill="#8B4513"/>
+    <rect x="-28" y="5" width="56" height="10" rx="2" fill="#a0522d"/>
+    <!-- roof -->
+    <polygon points="-32,8 0,-25 32,8" fill="#b22222"/>
+    <!-- window -->
+    <rect x="-10" y="22" width="20" height="18" rx="2" fill="#ffcc44"/>
+    <line x1="0" y1="22" x2="0" y2="40" stroke="#8B4513" stroke-width="1.5"/>
+    <line x1="-10" y1="31" x2="10" y2="31" stroke="#8B4513" stroke-width="1.5"/>
   </g>
-  <!-- Features -->
-  <rect x="230" y="50" width="240" height="130" fill="white" rx="10" stroke="#F48FB1" stroke-width="2"/>
-  <text x="350" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#880E4F">Особенности сказок</text>
-  <text x="250" y="95" font-family="Arial,sans-serif" font-size="11" fill="#333">Зачин: «В некотором царстве...»</text>
-  <text x="250" y="112" font-family="Arial,sans-serif" font-size="11" fill="#333">Волшебные события</text>
-  <text x="250" y="129" font-family="Arial,sans-serif" font-size="11" fill="#333">Борьба добра и зла</text>
-  <text x="250" y="146" font-family="Arial,sans-serif" font-size="11" fill="#333">Повторы: «За лесами, за горами...»</text>
-  <text x="250" y="163" font-family="Arial,sans-serif" font-size="11" fill="#333">Концовка: «И стали жить-поживать...»</text>
-  <!-- Types -->
-  <rect x="30" y="200" width="440" height="140" fill="#FCE4EC" rx="10"/>
-  <text x="250" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#880E4F">Виды русских народных сказок</text>
-  <g font-family="Arial,sans-serif" font-size="11">
-    <rect x="50" y="235" width="120" height="45" fill="white" rx="5" stroke="#F48FB1"/>
-    <text x="110" y="255" text-anchor="middle" fill="#880E4F" font-weight="bold">Волшебные</text>
-    <text x="110" y="272" text-anchor="middle" fill="#555">Гуси-лебеди</text>
-    <rect x="190" y="235" width="120" height="45" fill="white" rx="5" stroke="#F48FB1"/>
-    <text x="250" y="255" text-anchor="middle" fill="#880E4F" font-weight="bold">О животных</text>
-    <text x="250" y="272" text-anchor="middle" fill="#555">Лиса и волк</text>
-    <rect x="330" y="235" width="120" height="45" fill="white" rx="5" stroke="#F48FB1"/>
-    <text x="390" y="255" text-anchor="middle" fill="#880E4F" font-weight="bold">Бытовые</text>
-    <text x="390" y="272" text-anchor="middle" fill="#555">Каша из топора</text>
+  <!-- ground -->
+  <ellipse cx="250" cy="320" rx="250" ry="40" fill="#1a3a1a"/>
+  <!-- forest trees -->
+  <path d="M30,320 L45,200 L60,320Z" fill="#0d3d0d"/><path d="M70,320 L90,210 L110,320Z" fill="#145214"/>
+  <path d="M430,320 L445,220 L460,320Z" fill="#0d3d0d"/>
+  <!-- open book -->
+  <g transform="translate(200,230)">
+    <path d="M-80,20 Q-40,-30 0,-10 Q40,-30 80,20 Q40,40 0,25 Q-40,40 -80,20Z" fill="#fff8e7" stroke="#8B6914" stroke-width="1.5"/>
+    <line x1="0" y1="-10" x2="0" y2="25" stroke="#8B6914" stroke-width="2"/>
+    <!-- page lines left -->
+    <line x1="-55" y1="5" x2="-15" y2="0" stroke="#ccc" stroke-width=".8"/>
+    <line x1="-50" y1="12" x2="-15" y2="7" stroke="#ccc" stroke-width=".8"/>
+    <!-- page lines right -->
+    <line x1="15" y1="0" x2="55" y2="5" stroke="#ccc" stroke-width=".8"/>
+    <line x1="15" y1="7" x2="50" y2="12" stroke="#ccc" stroke-width=".8"/>
   </g>
-  <text x="250" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#880E4F">Сказки передавались из уст в уста, от поколения к поколению</text>
-  <text x="250" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">У каждой сказки есть мораль — добро побеждает зло</text>
+  <!-- magical glow from book -->
+  <ellipse cx="200" cy="220" rx="60" ry="50" fill="#ffe680" opacity=".3" class="glow"/>
+  <!-- sparkles -->
+  <g fill="#ffd700" class="glow">
+    <polygon points="170,190 172,185 174,190 179,192 174,194 172,199 170,194 165,192"/>
+    <polygon points="230,195 232,190 234,195 239,197 234,199 232,204 230,199 225,197"/>
+    <polygon points="195,170 197,165 199,170 204,172 199,174 197,179 195,174 190,172"/>
+  </g>
 </svg>

@@ -1,34 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes grow{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}.fruit{animation:grow 2s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#E8F5E9"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#2E7D32">Fruits and Vegetables</text>
-  <!-- Fruits -->
-  <rect x="30" y="50" width="210" height="140" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
-  <text x="135" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#C62828">Fruits</text>
-  <g class="fruit" font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="95">apple - яблоко</text>
-    <text x="50" y="112">banana - банан</text>
-    <text x="50" y="129">orange - апельсин</text>
-    <text x="50" y="146">grape - виноград</text>
-    <text x="50" y="163">pear - груша</text>
-  </g>
-  <!-- Vegetables -->
-  <rect x="260" y="50" width="210" height="140" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
-  <text x="365" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32">Vegetables</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="275" y="95">carrot - морковь</text>
-    <text x="275" y="112">potato - картофель</text>
-    <text x="275" y="129">tomato - помидор</text>
-    <text x="275" y="146">cucumber - огурец</text>
-    <text x="275" y="163">cabbage - капуста</text>
-  </g>
-  <!-- Phrases -->
-  <rect x="30" y="205" width="440" height="130" fill="#E8F5E9" rx="10"/>
-  <text x="250" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#2E7D32">Useful Phrases</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="252">I like apples. - Я люблю яблоки.</text>
-    <text x="50" y="272">Do you like bananas? - Ты любишь бананы?</text>
-    <text x="50" y="292">I don't like cabbage. - Я не люблю капусту.</text>
-    <text x="50" y="312">An apple a day keeps the doctor away!</text>
-  </g>
+  <style>@keyframes b{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}.b{animation:b 1.5s ease-in-out infinite}</style>
+  <rect width="500" height="350" fill="#FFFDE7"/>
+  <text x="250" y="24" text-anchor="middle" font-size="17" font-family="Arial" font-weight="bold" fill="#2C3E50">Fruits and Vegetables</text>
+  <path d="M30 70 L470 70 L470 88 Q400 96 250 92 Q100 96 30 88 Z" fill="#E74C3C"/>
+  <path d="M30 70 L470 70 L470 78 Q250 84 30 78 Z" fill="#C0392B"/>
+  <rect x="80" y="70" width="35" height="20" fill="#fff" opacity=".25"/>
+  <rect x="170" y="70" width="35" height="20" fill="#fff" opacity=".25"/>
+  <rect x="265" y="70" width="35" height="20" fill="#fff" opacity=".25"/>
+  <rect x="355" y="70" width="35" height="20" fill="#fff" opacity=".25"/>
+  <line x1="50" y1="70" x2="50" y2="310" stroke="#795548" stroke-width="5"/>
+  <line x1="450" y1="70" x2="450" y2="310" stroke="#795548" stroke-width="5"/>
+  <rect x="50" y="248" width="400" height="8" rx="2" fill="#8D6E63"/>
+  <rect x="60" y="256" width="7" height="55" fill="#795548"/>
+  <rect x="433" y="256" width="7" height="55" fill="#795548"/>
+  <g class="b"><circle cx="90" cy="228" r="15" fill="#E74C3C"/>
+  <path d="M90 213 Q93 206 96 210" stroke="#5D4037" stroke-width="2" fill="none"/>
+  <ellipse cx="97" cy="214" rx="4" ry="2.5" fill="#27AE60" transform="rotate(-20 97 214)"/>
+  <text x="90" y="272" text-anchor="middle" font-size="10" font-family="Arial" fill="#2C3E50" font-weight="bold">apple</text></g>
+  <g><circle cx="148" cy="230" r="14" fill="#FF9800"/>
+  <circle cx="148" cy="216" r="3" fill="#27AE60"/>
+  <text x="148" y="272" text-anchor="middle" font-size="10" font-family="Arial" fill="#2C3E50" font-weight="bold">orange</text></g>
+  <g><path d="M183 238 Q198 212 216 223" stroke="#FFD93D" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <text x="199" y="272" text-anchor="middle" font-size="10" font-family="Arial" fill="#2C3E50" font-weight="bold">banana</text></g>
+  <g><circle cx="265" cy="222" r="6" fill="#9B59B6"/><circle cx="255" cy="232" r="6" fill="#8E44AD"/>
+  <circle cx="275" cy="232" r="6" fill="#8E44AD"/><circle cx="260" cy="241" r="6" fill="#7D3C98"/>
+  <circle cx="270" cy="241" r="6" fill="#7D3C98"/><circle cx="265" cy="249" r="5.5" fill="#6C3483"/>
+  <line x1="265" y1="216" x2="265" y2="207" stroke="#27AE60" stroke-width="2"/>
+  <text x="265" y="272" text-anchor="middle" font-size="10" font-family="Arial" fill="#2C3E50" font-weight="bold">grapes</text></g>
+  <g><path d="M320 218 L330 253 L310 253 Z" fill="#FF9800"/>
+  <path d="M318 213 Q320 205 323 213" fill="#27AE60"/>
+  <path d="M324 215 Q327 208 329 216" fill="#27AE60"/>
+  <text x="320" y="272" text-anchor="middle" font-size="10" font-family="Arial" fill="#2C3E50" font-weight="bold">carrot</text></g>
+  <g><circle cx="378" cy="232" r="13" fill="#E74C3C"/>
+  <ellipse cx="378" cy="220" rx="7" ry="2.5" fill="#27AE60"/>
+  <text x="378" y="272" text-anchor="middle" font-size="10" font-family="Arial" fill="#2C3E50" font-weight="bold">tomato</text></g>
+  <g><ellipse cx="428" cy="233" rx="18" ry="7" fill="#27AE60" stroke="#1B5E20" stroke-width="1"/>
+  <text x="428" y="272" text-anchor="middle" font-size="9" font-family="Arial" fill="#2C3E50" font-weight="bold">cucumber</text></g>
+  <g><rect x="66" y="173" width="6" height="20" rx="2" fill="#388E3C"/>
+  <circle cx="58" cy="170" r="7" fill="#4CAF50"/><circle cx="69" cy="167" r="8" fill="#4CAF50"/>
+  <circle cx="79" cy="170" r="7" fill="#4CAF50"/><circle cx="69" cy="161" r="6" fill="#66BB6A"/>
+  <text x="69" y="208" text-anchor="middle" font-size="10" font-family="Arial" fill="#2C3E50" font-weight="bold">broccoli</text></g>
+  <rect x="195" y="100" width="110" height="24" rx="5" fill="#FFF9C4" stroke="#FFA000" stroke-width="1.5"/>
+  <text x="250" y="117" text-anchor="middle" font-size="12" font-family="Arial" fill="#E65100" font-weight="bold">Fruit Market</text>
 </svg>

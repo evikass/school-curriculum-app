@@ -1,40 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes hop{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}.jump{animation:hop 1.5s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#E8F5E9"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1B5E20">И.А. Крылов</text>
-  <!-- Stylized animals -->
-  <g transform="translate(30,50)">
-    <rect x="0" y="0" width="160" height="130" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
-    <text x="80" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#1B5E20">1769-1844</text>
-    <!-- Crow and Fox -->
-    <g class="jump" transform="translate(20,35)">
-      <circle cx="30" cy="40" r="15" fill="#333"/>
-      <circle cx="35" cy="35" r="12" fill="#444"/>
-      <polygon points="45,35 55,32 45,38" fill="#FF9800"/>
-    </g>
-    <g transform="translate(70,50)">
-      <ellipse cx="30" cy="35" rx="25" ry="15" fill="#FF9800"/>
-      <circle cx="15" cy="28" r="10" fill="#FFB74D"/>
-      <polygon points="5,28 0,25 5,30" fill="#333"/>
-    </g>
-    <text x="80" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#1B5E20">Великий баснописец</text>
-  </g>
-  <!-- Fables list -->
-  <rect x="210" y="50" width="260" height="130" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
-  <text x="340" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Известные басни</text>
-  <g font-family="Arial,sans-serif" font-size="11" fill="#333">
-    <text x="225" y="95">Ворона и Лисица</text>
-    <text x="225" y="112">Стрекоза и Муравей</text>
-    <text x="225" y="129">Лебедь, Щука и Рак</text>
-    <text x="225" y="146">Мартышка и Очки</text>
-    <text x="225" y="163">Квартет</text>
-  </g>
-  <!-- Moral -->
-  <rect x="30" y="200" width="440" height="140" fill="#E8F5E9" rx="10"/>
-  <text x="250" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Что такое басня?</text>
-  <text x="250" y="243" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Короткий рассказ в стихах, где действуют животные</text>
-  <text x="250" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Животные — это люди с их пороками</text>
-  <text x="250" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#1B5E20">Мораль — поучение в конце басни</text>
-  <text x="250" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#1B5E20">«У сильного всегда бессильный виноват»</text>
-  <text x="250" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">«А вы, друзья, как ни садитесь, всё в музыканты не годитесь»</text>
+<style>.lk{animation:g 4s ease-in-out infinite}@keyframes g{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}</style>
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#81d4fa"/><stop offset="100%" stop-color="#e1f5fe"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#s)"/>
+<text x="250" y="22" text-anchor="middle" font-size="16" fill="#37474f" font-family="serif">И.А. Крылов</text>
+<ellipse cx="100" cy="50" rx="35" ry="14" fill="#fff" opacity=".7"/>
+<rect x="0" y="290" width="500" height="60" fill="#66bb6a"/>
+<rect x="185" y="100" width="20" height="190" rx="4" fill="#5d4037"/>
+<ellipse cx="195" cy="90" rx="55" ry="45" fill="#2e7d32"/><ellipse cx="170" cy="100" rx="35" ry="30" fill="#388e3c"/><ellipse cx="225" cy="95" rx="30" ry="28" fill="#388e3c"/>
+<path d="M200,140 Q230,135 260,130 Q280,128 300,135" stroke="#5d4037" stroke-width="5" fill="none" stroke-linecap="round"/>
+<g class="lk" transform="translate(270,105)"><ellipse cy="15" rx="18" ry="14" fill="#1a1a1a"/><circle cx="-5" r="11" fill="#1a1a1a"/><path d="M-16,-2 L-24,0 L-16,3Z" fill="#ff8f00"/><circle cx="-9" cy="-2" r="3" fill="#fff"/><circle cx="-10" cy="-2" r="1.8" fill="#1a1a1a"/><path d="M5,8 Q20,5 25,15 Q20,22 8,20Z" fill="#2a2a2a"/><path d="M15,15 Q30,10 28,22 Q25,28 12,22Z" fill="#1a1a1a"/><path d="M-5,28 L-8,35 M5,28 L2,35" stroke="#ff8f00" stroke-width="1.5" fill="none"/><path d="M-20,-1 L-24,5 L-16,5Z" fill="#ffc107"/><circle cx="-21" cy="2" r="1.5" fill="#ff9800"/></g>
+<g transform="translate(240,245)"><ellipse cy="20" rx="28" ry="18" fill="#e65100"/><path d="M25,15 Q50,5 45,25 Q40,38 25,30" fill="#e65100"/><path d="M35,20 Q45,14 43,25 Q40,32 30,27" fill="#fff8e1"/><path d="M-10,10 Q-15,-5 -10,-15" fill="#e65100"/><ellipse cx="-8" cy="-12" rx="12" ry="10" fill="#e65100"/><polygon points="-15,-18 -20,-30 -10,-20" fill="#e65100"/><polygon points="-2,-20 0,-32 5,-20" fill="#e65100"/><ellipse cx="-10" cy="-8" rx="7" ry="6" fill="#fff8e1"/><circle cx="-12" cy="-15" r="2.5" fill="#fff"/><circle cx="-12" cy="-16" r="1.5" fill="#1a1a1a"/><circle cx="-6" cy="-15" r="2.5" fill="#fff"/><circle cx="-6" cy="-16" r="1.5" fill="#1a1a1a"/><ellipse cx="-10" cy="-5" rx="2" ry="1.5" fill="#1a1a1a"/><path d="M-14,-3 Q-10,0 -6,-3" stroke="#1a1a1a" stroke-width="1" fill="#c62828"/></g>
 </svg>

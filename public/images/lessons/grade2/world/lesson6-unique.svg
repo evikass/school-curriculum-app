@@ -1,25 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><style>@keyframes move{0%,100%{transform:translateX(0)}50%{transform:translateX(3px)}}.animal{animation:move 2s ease-in-out infinite}</style></defs>
-  <rect width="500" height="350" fill="#FFF3E0"/>
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#BF360C">Животные и их группы</text>
-  <!-- Animal groups -->
-  <rect x="30" y="50" width="440" height="160" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
-  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#BF360C">Группы животных</text>
-  <g class="animal" font-family="Arial,sans-serif" font-size="11">
-    <rect x="50" y="82" width="120" height="35" fill="#FFCCBC" rx="5"/><text x="110" y="97" text-anchor="middle" fill="#BF360C" font-weight="bold">Млекопитающие</text><text x="110" y="112" text-anchor="middle" fill="#555">кормят молоком</text>
-    <rect x="185" y="82" width="120" height="35" fill="#FFE0B2" rx="5"/><text x="245" y="97" text-anchor="middle" fill="#E65100" font-weight="bold">Птицы</text><text x="245" y="112" text-anchor="middle" fill="#555">имеют перья</text>
-    <rect x="320" y="82" width="120" height="35" fill="#FFF9C4" rx="5"/><text x="380" y="97" text-anchor="middle" fill="#F57F17" font-weight="bold">Рыбы</text><text x="380" y="112" text-anchor="middle" fill="#555">живут в воде</text>
-    <rect x="50" y="128" width="120" height="35" fill="#C8E6C9" rx="5"/><text x="110" y="143" text-anchor="middle" fill="#2E7D32" font-weight="bold">Земноводные</text><text x="110" y="158" text-anchor="middle" fill="#555">лягушки, тритоны</text>
-    <rect x="185" y="128" width="120" height="35" fill="#BBDEFB" rx="5"/><text x="245" y="143" text-anchor="middle" fill="#1565C0" font-weight="bold">Пресмыкающиеся</text><text x="245" y="158" text-anchor="middle" fill="#555">ящерицы, змеи</text>
-    <rect x="320" y="128" width="120" height="35" fill="#E1BEE7" rx="5"/><text x="380" y="143" text-anchor="middle" fill="#6A1B9A" font-weight="bold">Насекомые</text><text x="380" y="158" text-anchor="middle" fill="#555">6 ног, жуки, бабочки</text>
-  </g>
-  <!-- Features -->
-  <rect x="30" y="225" width="440" height="110" fill="#FFF3E0" rx="10"/>
-  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#BF360C">Чем различаются группы</text>
-  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
-    <text x="50" y="270">Покров тела: шерсть, перья, чешуя, кожа</text>
-    <text x="50" y="290">Количество ног: 0, 4, 6, 8</text>
-    <text x="50" y="310">Где живут: вода, земля, воздух</text>
-    <text x="50" y="330">Чем питаются: растения, другие животные</text>
-  </g>
+<rect width="500" height="350" fill="#FFF3E0" rx="12"/>
+<text x="250" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#BF360C">Животные и их группы</text>
+<rect x="15" y="45" width="88" height="110" fill="#FFCCBC" stroke="#E64A19" stroke-width="1.5" rx="8"/>
+<ellipse cx="59" cy="120" rx="20" ry="14" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+<circle cx="59" cy="104" r="12" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+<circle cx="54" cy="103" r="1.5" fill="#1A1A1A"/><circle cx="64" cy="103" r="1.5" fill="#1A1A1A"/>
+<text x="59" y="148" text-anchor="middle" font-size="7" font-weight="bold" fill="#BF360C" font-family="sans-serif">Млекопитающие</text>
+<rect x="113" y="45" width="88" height="110" fill="#B3E5FC" stroke="#0277BD" stroke-width="1.5" rx="8"/>
+<ellipse cx="157" cy="120" rx="15" ry="10" fill="#5D4037" stroke="#3E2723" stroke-width="1.5"/>
+<circle cx="157" cy="108" r="8" fill="#fff" stroke="#3E2723" stroke-width="1.5"/>
+<polygon points="165,106 172,105 165,103" fill="#FF9800"/>
+<path d="M142,116 Q132,110 130,116" fill="#795548"/>
+<text x="157" y="148" text-anchor="middle" font-size="7" font-weight="bold" fill="#0277BD" font-family="sans-serif">Птицы</text>
+<rect x="211" y="45" width="88" height="110" fill="#B2DFDB" stroke="#00695C" stroke-width="1.5" rx="8"/>
+<ellipse cx="255" cy="112" rx="20" ry="11" fill="#FF8A65" stroke="#D84315" stroke-width="2"/>
+<polygon points="235,112 224,104 224,120" fill="#FF7043" stroke="#D84315" stroke-width="1.5"/>
+<circle cx="264" cy="109" r="2" fill="#fff" stroke="#37474F" stroke-width="1"/>
+<text x="255" y="148" text-anchor="middle" font-size="7" font-weight="bold" fill="#00695C" font-family="sans-serif">Рыбы</text>
+<rect x="309" y="45" width="88" height="110" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1.5" rx="8"/>
+<ellipse cx="353" cy="112" rx="2.5" ry="8" fill="#4E342E"/>
+<ellipse cx="344" cy="107" rx="10" ry="6" fill="#CE93D8" stroke="#9C27B0" stroke-width="1.5"/>
+<ellipse cx="362" cy="107" rx="10" ry="6" fill="#BA68C8" stroke="#9C27B0" stroke-width="1.5"/>
+<ellipse cx="344" cy="117" rx="6" ry="4" fill="#AB47BC" stroke="#7B1FA2" stroke-width="1"/>
+<ellipse cx="362" cy="117" rx="6" ry="4" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+<text x="353" y="148" text-anchor="middle" font-size="7" font-weight="bold" fill="#7B1FA2" font-family="sans-serif">Насекомые</text>
+<rect x="407" y="45" width="78" height="110" fill="#DCEDC8" stroke="#33691E" stroke-width="1.5" rx="8"/>
+<path d="M425,112 Q432,100 442,112 Q452,124 462,112 Q467,104 464,98" stroke="#4CAF50" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M425,112 Q432,100 442,112 Q452,124 462,112 Q467,104 464,98" stroke="#66BB6A" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="446" y="148" text-anchor="middle" font-size="7" font-weight="bold" fill="#33691E" font-family="sans-serif">Пресмыкающиеся</text>
+<rect x="30" y="180" width="440" height="120" fill="#FFF8E1" stroke="#FFB74D" stroke-width="1.5" rx="10"/>
+<text x="250" y="205" text-anchor="middle" font-size="12" font-weight="bold" fill="#E65100" font-family="sans-serif">Признаки групп</text>
+<circle cx="80" cy="240" r="8" fill="#795548"/>
+<text x="80" y="258" text-anchor="middle" font-size="7" fill="#4E342E">4 ноги, шерсть</text>
+<circle cx="170" cy="240" r="8" fill="#5D4037"/>
+<text x="170" y="258" text-anchor="middle" font-size="7" fill="#3E2723">перья, 2 ноги</text>
+<circle cx="260" cy="240" r="8" fill="#FF8A65"/>
+<text x="260" y="258" text-anchor="middle" font-size="7" fill="#BF360C">жабры, плавники</text>
+<circle cx="350" cy="240" r="8" fill="#CE93D8"/>
+<text x="350" y="258" text-anchor="middle" font-size="7" fill="#7B1FA2">6 ног, крылья</text>
+<circle cx="430" cy="240" r="8" fill="#4CAF50"/>
+<text x="430" y="258" text-anchor="middle" font-size="7" fill="#2E7D32">чешуя, ползает</text>
 </svg>
