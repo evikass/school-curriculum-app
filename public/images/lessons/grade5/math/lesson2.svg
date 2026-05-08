@@ -5,77 +5,41 @@
       <stop offset="100%" stop-color="#BBDEFB"/>
     </linearGradient>
   </defs>
-  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="3"/>
   <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#1565C0" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corners -->
   <polygon points="10,10 30,10 10,30" fill="#0D47A1" opacity="0.08"/>
   <polygon points="490,10 470,10 490,30" fill="#0D47A1" opacity="0.08"/>
   <polygon points="10,340 30,340 10,320" fill="#42A5F5" opacity="0.08"/>
   <polygon points="490,340 470,340 490,320" fill="#64B5F6" opacity="0.08"/>
-  <!-- Bauhaus circles -->
   <circle cx="70" cy="15" r="4" fill="#0D47A1" opacity="0.1"/>
-  <circle cx="82" cy="15" r="4" fill="#1976D2" opacity="0.1"/>
-  <circle cx="94" cy="15" r="4" fill="#42A5F5" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#1976D2" opacity="0.1"/>
   <circle cx="406" cy="15" r="4" fill="#0D47A1" opacity="0.1"/>
-  <circle cx="418" cy="15" r="4" fill="#1976D2" opacity="0.1"/>
-  <circle cx="430" cy="15" r="4" fill="#64B5F6" opacity="0.1"/>
-  <!-- Title -->
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#1976D2" opacity="0.1"/>
   <text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1565C0" text-anchor="middle">Цифры и десятичная запись</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Математика - Урок 2</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
   <rect x="30" y="75" width="60" height="6" fill="#1565C0" opacity="0.15" rx="1"/>
   <rect x="410" y="75" width="60" height="6" fill="#42A5F5" opacity="0.12" rx="1"/>
-
   <rect x="20" y="88" width="220" height="100" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.95"/>
-  <text x="130" y="105" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">Арабские цифры</text>
+  <text x="130" y="104" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">Определение</text>
   <line x1="28" y1="110" x2="232" y2="110" stroke="#E0E0E0" stroke-width="1"/>
-<g transform="translate(20,88)">
-    <text x="125" y="115" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle" font-weight="bold">0 1 2 3 4 5 6 7 8 9</text>
-    <text x="125" y="135" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle" font-weight="normal">10 символов для записи</text>
-    <text x="125" y="150" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle" font-weight="normal">любого числа</text>
-  </g>
-  <rect x="260" y="88" width="220" height="100" rx="6" fill="white" stroke="#1976D2" stroke-width="1.5" opacity="0.95"/>
-  <text x="370" y="105" font-family="Arial,sans-serif" font-size="10" fill="#1976D2" text-anchor="middle" font-weight="bold">Позиционность</text>
+  <rect x="260" y="88" width="220" height="100" rx="6" fill="white" stroke="#0D47A1" stroke-width="1.5" opacity="0.95"/>
+  <text x="370" y="104" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">Правило</text>
   <line x1="268" y1="110" x2="472" y2="110" stroke="#E0E0E0" stroke-width="1"/>
-<g transform="translate(260,88)">
-    <rect x="45" y="108" width="55" height="18" rx="3" fill="#1565C0" opacity="0.15"/>
-<text x="72" y="121" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">5 = 5</text>
-    <rect x="110" y="108" width="55" height="18" rx="3" fill="#1976D2" opacity="0.15"/>
-<text x="137" y="121" font-family="Arial,sans-serif" font-size="9" fill="#1976D2" text-anchor="middle" font-weight="bold">50 = 5×10</text>
-    <rect x="175" y="108" width="55" height="18" rx="3" fill="#42A5F5" opacity="0.15"/>
-<text x="202" y="121" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="middle" font-weight="bold">500 = 5×100</text>
-    <text x="125" y="145" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle" font-weight="normal">Цифра 5 в разных разрядах</text>
-  </g>
-  <rect x="20" y="196" width="220" height="100" rx="6" fill="white" stroke="#8B6914" stroke-width="1.5" opacity="0.95"/>
-  <text x="130" y="213" font-family="Arial,sans-serif" font-size="10" fill="#8B6914" text-anchor="middle" font-weight="bold">Римские цифры</text>
+  <rect x="20" y="196" width="220" height="100" rx="6" fill="white" stroke="#1976D2" stroke-width="1.5" opacity="0.95"/>
+  <text x="130" y="212" font-family="Arial,sans-serif" font-size="10" fill="#1976D2" text-anchor="middle" font-weight="bold">Пример</text>
   <line x1="28" y1="218" x2="232" y2="218" stroke="#E0E0E0" stroke-width="1"/>
-<g transform="translate(20,196)">
-    <text x="125" y="112" font-family="Arial,sans-serif" font-size="10" fill="#8B6914" text-anchor="middle" font-weight="bold">I V X L C D M</text>
-    <text x="125" y="128" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle" font-weight="normal">I=1 V=5 X=10 L=50</text>
-    <text x="125" y="142" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle" font-weight="normal">C=100 D=500 M=1000</text>
-    <text x="125" y="160" font-family="Arial,sans-serif" font-size="9" fill="#8B6914" text-anchor="middle" font-weight="bold">XIV = 14</text>
-  </g>
   <rect x="260" y="196" width="220" height="100" rx="6" fill="white" stroke="#42A5F5" stroke-width="1.5" opacity="0.95"/>
-  <text x="370" y="213" font-family="Arial,sans-serif" font-size="10" fill="#42A5F5" text-anchor="middle" font-weight="bold">Запись числа</text>
+  <text x="370" y="212" font-family="Arial,sans-serif" font-size="10" fill="#42A5F5" text-anchor="middle" font-weight="bold">Свойство</text>
   <line x1="268" y1="218" x2="472" y2="218" stroke="#E0E0E0" stroke-width="1"/>
-<g transform="translate(260,196)">
-    <text x="125" y="110" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">385 = 3×100 + 8×10 + 5</text>
-    <rect x="45" y="125" width="50" height="18" rx="3" fill="#0D47A1" opacity="0.15"/>
-<text x="70" y="138" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1" text-anchor="middle" font-weight="bold">3 сот.</text>
-    <rect x="100" y="125" width="50" height="18" rx="3" fill="#1976D2" opacity="0.15"/>
-<text x="125" y="138" font-family="Arial,sans-serif" font-size="9" fill="#1976D2" text-anchor="middle" font-weight="bold">8 дес.</text>
-    <rect x="155" y="125" width="50" height="18" rx="3" fill="#42A5F5" opacity="0.15"/>
-<text x="180" y="138" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="middle" font-weight="bold">5 ед.</text>
-    <text x="125" y="165" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle" font-weight="normal">Сумма разрядных слагаемых</text>
-  </g>
-  <!-- Bottom panel -->
-  <rect x="15" y="308" width="470" height="30" rx="4" fill="#1565C0" opacity="0.85"/>
-  <text x="250" y="329" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Цифры и десятичная запись</text>
   <line x1="430" y1="100" x2="480" y2="100" stroke="#1565C0" stroke-width="0.5" opacity="0.15"/>
   <line x1="430" y1="120" x2="480" y2="120" stroke="#1565C0" stroke-width="0.5" opacity="0.15"/>
   <line x1="430" y1="140" x2="480" y2="140" stroke="#1565C0" stroke-width="0.5" opacity="0.15"/>
   <line x1="445" y1="90" x2="445" y2="150" stroke="#1565C0" stroke-width="0.5" opacity="0.15"/>
   <line x1="460" y1="90" x2="460" y2="150" stroke="#1565C0" stroke-width="0.5" opacity="0.15"/>
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#1565C0" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Цифры и десятичная запись</text>
 </svg>

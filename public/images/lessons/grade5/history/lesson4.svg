@@ -5,69 +5,63 @@
       <stop offset="100%" stop-color="#FFE0B2"/>
     </linearGradient>
   </defs>
-  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
   <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corners -->
   <polygon points="10,10 30,10 10,30" fill="#BF360C" opacity="0.08"/>
   <polygon points="490,10 470,10 490,30" fill="#BF360C" opacity="0.08"/>
   <polygon points="10,340 30,340 10,320" fill="#FF9800" opacity="0.08"/>
   <polygon points="490,340 470,340 490,320" fill="#FFB74D" opacity="0.08"/>
-  <!-- Bauhaus circles -->
   <circle cx="70" cy="15" r="4" fill="#BF360C" opacity="0.1"/>
-  <circle cx="82" cy="15" r="4" fill="#F57C00" opacity="0.1"/>
-  <circle cx="94" cy="15" r="4" fill="#FF9800" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#E65100" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F57C00" opacity="0.1"/>
   <circle cx="406" cy="15" r="4" fill="#BF360C" opacity="0.1"/>
-  <circle cx="418" cy="15" r="4" fill="#F57C00" opacity="0.1"/>
-  <circle cx="430" cy="15" r="4" fill="#FFB74D" opacity="0.1"/>
-  <!-- Title -->
+  <circle cx="418" cy="15" r="4" fill="#E65100" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F57C00" opacity="0.1"/>
   <text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100" text-anchor="middle">Культура Древнего мира</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">История - Урок 4</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
   <rect x="30" y="75" width="60" height="6" fill="#E65100" opacity="0.15" rx="1"/>
   <rect x="410" y="75" width="60" height="6" fill="#FF9800" opacity="0.12" rx="1"/>
-
-  <rect x="20" y="88" width="460" height="105" rx="6" fill="white" stroke="#E65100" stroke-width="1.5" opacity="0.95"/>
-  <line x1="35" y1="105" x2="465" y2="105" stroke="#FF9800" stroke-width="2"/>
-  <circle cx="60" cy="105" r="5" fill="#E65100"/>
-  <circle cx="150" cy="105" r="5" fill="#F57C00"/>
-  <circle cx="250" cy="105" r="5" fill="#FF9800"/>
-  <circle cx="350" cy="105" r="5" fill="#FFB74D"/>
-  <circle cx="440" cy="105" r="5" fill="#E65100"/>
-  <rect x="35" y="115" width="80" height="18" rx="3" fill="#BF360C" opacity="0.12"/>
-  <text x="75" y="128" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">Начало</text>
-  <rect x="123" y="115" width="80" height="18" rx="3" fill="#F57C00" opacity="0.12"/>
-  <text x="163" y="128" font-family="Arial,sans-serif" font-size="8" fill="#F57C00" text-anchor="middle" font-weight="bold">Развитие</text>
-  <rect x="211" y="115" width="80" height="18" rx="3" fill="#FF9800" opacity="0.12"/>
-  <text x="251" y="128" font-family="Arial,sans-serif" font-size="8" fill="#FF9800" text-anchor="middle" font-weight="bold">Расцвет</text>
-  <rect x="299" y="115" width="80" height="18" rx="3" fill="#FFB74D" opacity="0.12"/>
-  <text x="339" y="128" font-family="Arial,sans-serif" font-size="8" fill="#FFB74D" text-anchor="middle" font-weight="bold">Упадок</text>
-  <rect x="387" y="115" width="80" height="18" rx="3" fill="#BF360C" opacity="0.12"/>
-  <text x="427" y="128" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">Наследие</text>
-  <rect x="20" y="200" width="220" height="100" rx="6" fill="white" stroke="#F57C00" stroke-width="1.5" opacity="0.95"/>
-  <text x="130" y="217" font-family="Arial,sans-serif" font-size="10" fill="#F57C00" text-anchor="middle" font-weight="bold">Ключевые факты</text>
-  <line x1="28" y1="222" x2="232" y2="222" stroke="#E0E0E0" stroke-width="1"/>
-  <rect x="28" y="228" width="8" height="8" rx="1" fill="#E65100" opacity="0.3"/>
-  <text x="42" y="236" font-family="Arial,sans-serif" font-size="8" fill="#555">Важные даты и события</text>
-  <rect x="28" y="242" width="8" height="8" rx="1" fill="#F57C00" opacity="0.3"/>
-  <text x="42" y="250" font-family="Arial,sans-serif" font-size="8" fill="#555">Исторические деятели</text>
-  <rect x="28" y="256" width="8" height="8" rx="1" fill="#FF9800" opacity="0.3"/>
-  <text x="42" y="264" font-family="Arial,sans-serif" font-size="8" fill="#555">Культура и быт</text>
-  <rect x="28" y="270" width="8" height="8" rx="1" fill="#FFB74D" opacity="0.3"/>
-  <text x="42" y="278" font-family="Arial,sans-serif" font-size="8" fill="#555">Причины и следствия</text>
-  <rect x="260" y="200" width="220" height="100" rx="6" fill="white" stroke="#FF9800" stroke-width="1.5" opacity="0.95"/>
-  <text x="370" y="217" font-family="Arial,sans-serif" font-size="10" fill="#FF9800" text-anchor="middle" font-weight="bold">Карта / Схема</text>
-  <line x1="268" y1="222" x2="472" y2="222" stroke="#E0E0E0" stroke-width="1"/>
-  <rect x="275" y="230" width="190" height="60" rx="4" fill="#FFF3E0" opacity="0.5"/>
-  <path d="M300,250 Q340,235 380,250 Q400,260 420,255" fill="none" stroke="#E65100" stroke-width="1.5" opacity="0.3"/>
-  <circle cx="320" cy="255" r="4" fill="#E65100" opacity="0.5"/>
-  <circle cx="370" cy="248" r="3" fill="#FF9800" opacity="0.5"/>
-  <circle cx="400" cy="260" r="3" fill="#FFB74D" opacity="0.5"/>
-  <!-- Bottom panel -->
+  <rect x="20" y="88" width="460" height="80" rx="6" fill="white" stroke="#E65100" stroke-width="1.5" opacity="0.95"/>
+  <line x1="35" y1="120" x2="465" y2="120" stroke="#E65100" stroke-width="2"/>
+  <circle cx="60" cy="120" r="5" fill="#E65100"/>
+  <rect x="28" y="130" width="64" height="18" rx="9" fill="#E65100" opacity="0.15"/>
+  <text x="60" y="142" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">Начало</text>
+  <circle cx="150" cy="120" r="5" fill="#BF360C"/>
+  <rect x="118" y="130" width="64" height="18" rx="9" fill="#BF360C" opacity="0.15"/>
+  <text x="150" y="142" font-family="Arial,sans-serif" font-size="9" fill="#BF360C" text-anchor="middle" font-weight="bold">Развитие</text>
+  <circle cx="240" cy="120" r="5" fill="#F57C00"/>
+  <rect x="208" y="130" width="64" height="18" rx="9" fill="#F57C00" opacity="0.15"/>
+  <text x="240" y="142" font-family="Arial,sans-serif" font-size="9" fill="#F57C00" text-anchor="middle" font-weight="bold">Расцвет</text>
+  <circle cx="330" cy="120" r="5" fill="#FF9800"/>
+  <rect x="298" y="130" width="64" height="18" rx="9" fill="#FF9800" opacity="0.15"/>
+  <text x="330" y="142" font-family="Arial,sans-serif" font-size="9" fill="#FF9800" text-anchor="middle" font-weight="bold">Упадок</text>
+  <circle cx="420" cy="120" r="5" fill="#FFB74D"/>
+  <rect x="388" y="130" width="64" height="18" rx="9" fill="#FFB74D" opacity="0.15"/>
+  <text x="420" y="142" font-family="Arial,sans-serif" font-size="9" fill="#FFB74D" text-anchor="middle" font-weight="bold">Наследие</text>
+  <rect x="20" y="178" width="220" height="120" rx="6" fill="white" stroke="#BF360C" stroke-width="1.5" opacity="0.95"/>
+  <rect x="20" y="178" width="220" height="24" rx="6" fill="#BF360C" opacity="0.9"/>
+  <rect x="20" y="194" width="220" height="8" fill="#BF360C" opacity="0.9"/>
+  <text x="130" y="195" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">КАРТА / ТЕРРИТОРИЯ</text>
+  <rect x="40" y="210" width="180" height="75" rx="4" fill="#E8F5E9" opacity="0.5"/>
+  <path d="M60,225 L160,220 L190,245 L175,275 L90,280 L45,260 Z" fill="#E65100" opacity="0.1" stroke="#E65100" stroke-width="1"/>
+  <path d="M80,220 Q100,250 120,275" stroke="#1565C0" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <circle cx="110" cy="245" r="4" fill="#E65100"/>
+  <circle cx="150" cy="250" r="3" fill="#1565C0"/>
+  <rect x="260" y="178" width="220" height="120" rx="6" fill="white" stroke="#F57C00" stroke-width="1.5" opacity="0.95"/>
+  <rect x="260" y="178" width="220" height="24" rx="6" fill="#F57C00" opacity="0.9"/>
+  <rect x="260" y="194" width="220" height="8" fill="#F57C00" opacity="0.9"/>
+  <text x="370" y="195" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">КЛЮЧЕВЫЕ ФАКТЫ</text>
+  <rect x="270" y="212" width="8" height="8" rx="1" fill="#E65100" opacity="0.3"/>
+  <text x="284" y="220" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="start">Важные даты</text>
+  <rect x="270" y="234" width="8" height="8" rx="1" fill="#F57C00" opacity="0.3"/>
+  <text x="284" y="242" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="start">Исторические деятели</text>
+  <rect x="270" y="256" width="8" height="8" rx="1" fill="#1565C0" opacity="0.3"/>
+  <text x="284" y="264" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="start">Культура и быт</text>
+  <rect x="270" y="278" width="8" height="8" rx="1" fill="#BF360C" opacity="0.3"/>
+  <text x="284" y="286" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="start">Причины и следствия</text>
+  <path d="M10,300 Q15,295 20,300 Q25,305 30,300" fill="none" stroke="#E65100" stroke-width="1" opacity="0.15"/>
   <rect x="15" y="308" width="470" height="30" rx="4" fill="#E65100" opacity="0.85"/>
   <text x="250" y="329" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Культура Древнего мира</text>
-  <rect x="440" y="105" width="12" height="40" rx="3" fill="#E65100" opacity="0.1"/>
-  <rect x="458" y="110" width="12" height="35" rx="3" fill="#FF9800" opacity="0.08"/>
-  <rect x="476" y="108" width="8" height="30" rx="2" fill="#FFB74D" opacity="0.06"/>
 </svg>

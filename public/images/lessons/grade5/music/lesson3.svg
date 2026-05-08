@@ -5,69 +5,65 @@
       <stop offset="100%" stop-color="#F8BBD0"/>
     </linearGradient>
   </defs>
-  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AD1457" stroke-width="3"/>
   <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AD1457" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corners -->
   <polygon points="10,10 30,10 10,30" fill="#880E4F" opacity="0.08"/>
   <polygon points="490,10 470,10 490,30" fill="#880E4F" opacity="0.08"/>
-  <polygon points="10,340 30,340 10,320" fill="#EC407A" opacity="0.08"/>
-  <polygon points="490,340 470,340 490,320" fill="#F48FB1" opacity="0.08"/>
-  <!-- Bauhaus circles -->
+  <polygon points="10,340 30,340 10,320" fill="#E91E63" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#EC407A" opacity="0.08"/>
   <circle cx="70" cy="15" r="4" fill="#880E4F" opacity="0.1"/>
-  <circle cx="82" cy="15" r="4" fill="#E91E63" opacity="0.1"/>
-  <circle cx="94" cy="15" r="4" fill="#EC407A" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#AD1457" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#C2185B" opacity="0.1"/>
   <circle cx="406" cy="15" r="4" fill="#880E4F" opacity="0.1"/>
-  <circle cx="418" cy="15" r="4" fill="#E91E63" opacity="0.1"/>
-  <circle cx="430" cy="15" r="4" fill="#F48FB1" opacity="0.1"/>
-  <!-- Title -->
+  <circle cx="418" cy="15" r="4" fill="#AD1457" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#C2185B" opacity="0.1"/>
   <text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#AD1457" text-anchor="middle">Симфонический оркестр</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Музыка - Урок 3</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#AD1457" stroke-width="2" opacity="0.25"/>
   <rect x="30" y="75" width="60" height="6" fill="#AD1457" opacity="0.15" rx="1"/>
-  <rect x="410" y="75" width="60" height="6" fill="#EC407A" opacity="0.12" rx="1"/>
-
-  <rect x="20" y="88" width="460" height="105" rx="6" fill="white" stroke="#AD1457" stroke-width="1.5" opacity="0.95"/>
-  <text x="250" y="105" font-family="Arial,sans-serif" font-size="10" fill="#AD1457" text-anchor="middle" font-weight="bold">Основные понятия</text>
-  <line x1="28" y1="110" x2="472" y2="110" stroke="#E0E0E0" stroke-width="1"/>
-  <rect x="35" y="118" width="140" height="65" rx="4" fill="#AD1457" opacity="0.06"/>
-  <text x="105" y="140" font-family="Arial,sans-serif" font-size="12" fill="#AD1457" text-anchor="middle" font-weight="bold">Ритм</text>
-  <text x="105" y="158" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Пульс музыки</text>
-  <line x1="45" y1="168" x2="165" y2="168" stroke="#AD1457" stroke-width="0.5" opacity="0.3"/>
-  <rect x="190" y="118" width="140" height="65" rx="4" fill="#E91E63" opacity="0.06"/>
-  <text x="260" y="140" font-family="Arial,sans-serif" font-size="12" fill="#E91E63" text-anchor="middle" font-weight="bold">Мелодия</text>
-  <text x="260" y="158" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Главная тема</text>
-  <line x1="200" y1="168" x2="320" y2="168" stroke="#E91E63" stroke-width="0.5" opacity="0.3"/>
-  <rect x="345" y="118" width="140" height="65" rx="4" fill="#EC407A" opacity="0.06"/>
-  <text x="415" y="140" font-family="Arial,sans-serif" font-size="12" fill="#EC407A" text-anchor="middle" font-weight="bold">Гармония</text>
-  <text x="415" y="158" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Созвучие</text>
-  <line x1="355" y1="168" x2="475" y2="168" stroke="#EC407A" stroke-width="0.5" opacity="0.3"/>
-  <rect x="20" y="200" width="225" height="100" rx="6" fill="white" stroke="#E91E63" stroke-width="1.5" opacity="0.95"/>
-  <text x="132" y="217" font-family="Arial,sans-serif" font-size="10" fill="#E91E63" text-anchor="middle" font-weight="bold">Музыкальные примеры</text>
-  <line x1="28" y1="222" x2="237" y2="222" stroke="#E0E0E0" stroke-width="1"/>
-  <circle cx="55" cy="252" r="7" fill="#E91E63" opacity="0.2"/>
-  <line x1="62" y1="252" x2="62" y2="228" stroke="#E91E63" stroke-width="1.5" opacity="0.3"/>
-  <circle cx="85" cy="245" r="7" fill="#EC407A" opacity="0.2"/>
-  <line x1="92" y1="245" x2="92" y2="221" stroke="#EC407A" stroke-width="1.5" opacity="0.3"/>
-  <circle cx="115" cy="248" r="7" fill="#F48FB1" opacity="0.2"/>
-  <line x1="122" y1="248" x2="122" y2="224" stroke="#F48FB1" stroke-width="1.5" opacity="0.3"/>
-  <text x="185" y="250" font-family="Arial,sans-serif" font-size="8" fill="#555">Прослушайте</text>
-  <text x="185" y="263" font-family="Arial,sans-serif" font-size="8" fill="#555">примеры в классе</text>
-  <rect x="260" y="200" width="220" height="100" rx="6" fill="white" stroke="#F48FB1" stroke-width="1.5" opacity="0.95"/>
-  <text x="370" y="217" font-family="Arial,sans-serif" font-size="10" fill="#F48FB1" text-anchor="middle" font-weight="bold">Композиторы</text>
-  <line x1="268" y1="222" x2="472" y2="222" stroke="#E0E0E0" stroke-width="1"/>
-  <rect x="275" y="236" width="190" height="16" rx="3" fill="#E91E63" opacity="0.08"/>
-  <text x="370" y="248" font-family="Arial,sans-serif" font-size="9" fill="#E91E63" text-anchor="middle">М.И. Глинка</text>
-  <rect x="275" y="256" width="190" height="16" rx="3" fill="#EC407A" opacity="0.08"/>
-  <text x="370" y="268" font-family="Arial,sans-serif" font-size="9" fill="#EC407A" text-anchor="middle">П.И. Чайковский</text>
-  <rect x="275" y="276" width="190" height="16" rx="3" fill="#F48FB1" opacity="0.08"/>
-  <text x="370" y="288" font-family="Arial,sans-serif" font-size="9" fill="#F48FB1" text-anchor="middle">М.П. Мусоргский</text>
-  <!-- Bottom panel -->
+  <rect x="410" y="75" width="60" height="6" fill="#E91E63" opacity="0.12" rx="1"/>
+  <rect x="20" y="88" width="460" height="55" rx="6" fill="white" stroke="#AD1457" stroke-width="1.5" opacity="0.95"/>
+  <line x1="30" y1="110" x2="470" y2="110" stroke="#AD1457" stroke-width="0.8" opacity="0.2"/>
+  <line x1="30" y1="116" x2="470" y2="116" stroke="#AD1457" stroke-width="0.8" opacity="0.2"/>
+  <line x1="30" y1="122" x2="470" y2="122" stroke="#AD1457" stroke-width="0.8" opacity="0.2"/>
+  <line x1="30" y1="128" x2="470" y2="128" stroke="#AD1457" stroke-width="0.8" opacity="0.2"/>
+  <line x1="30" y1="134" x2="470" y2="134" stroke="#AD1457" stroke-width="0.8" opacity="0.2"/>
+  <ellipse cx="60" cy="116" rx="5" ry="4" fill="#AD1457" opacity="0.4"/>
+  <line x1="65" y1="116" x2="65" y2="98" stroke="#AD1457" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="120" cy="120" rx="5" ry="4" fill="#880E4F" opacity="0.4"/>
+  <line x1="125" y1="120" x2="125" y2="102" stroke="#880E4F" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="180" cy="124" rx="5" ry="4" fill="#C2185B" opacity="0.4"/>
+  <line x1="185" y1="124" x2="185" y2="106" stroke="#C2185B" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="240" cy="116" rx="5" ry="4" fill="#E91E63" opacity="0.4"/>
+  <line x1="245" y1="116" x2="245" y2="98" stroke="#E91E63" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="300" cy="120" rx="5" ry="4" fill="#EC407A" opacity="0.4"/>
+  <line x1="305" y1="120" x2="305" y2="102" stroke="#EC407A" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="360" cy="124" rx="5" ry="4" fill="#AD1457" opacity="0.4"/>
+  <line x1="365" y1="124" x2="365" y2="106" stroke="#AD1457" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="420" cy="116" rx="5" ry="4" fill="#880E4F" opacity="0.4"/>
+  <line x1="425" y1="116" x2="425" y2="98" stroke="#880E4F" stroke-width="1" opacity="0.4"/>
+  <rect x="20" y="152" width="150" height="145" rx="6" fill="white" stroke="#AD1457" stroke-width="1.5" opacity="0.95"/>
+  <rect x="20" y="152" width="150" height="24" rx="6" fill="#AD1457" opacity="0.9"/>
+  <rect x="20" y="168" width="150" height="8" fill="#AD1457" opacity="0.9"/>
+  <text x="95" y="169" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">СТРУННЫЕ</text>
+  <ellipse cx="95" cy="215" rx="15" ry="20" fill="#D2691E" opacity="0.6"/>
+  <ellipse cx="95" cy="190" rx="12" ry="15" fill="#D2691E" opacity="0.6"/>
+  <text x="95" y="260" font-family="Arial,sans-serif" font-size="9" fill="#AD1457" text-anchor="middle" font-weight="bold">Скрипка</text>
+  <rect x="180" y="152" width="150" height="145" rx="6" fill="white" stroke="#880E4F" stroke-width="1.5" opacity="0.95"/>
+  <rect x="180" y="152" width="150" height="24" rx="6" fill="#880E4F" opacity="0.9"/>
+  <rect x="180" y="168" width="150" height="8" fill="#880E4F" opacity="0.9"/>
+  <text x="255" y="169" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">ДУХОВЫЕ</text>
+  <rect x="251" y="210" width="8" height="50" rx="3" fill="#FFD54F" opacity="0.5"/>
+  <circle cx="255" cy="205" r="10" fill="#FFD54F" opacity="0.4"/>
+  <text x="255" y="260" font-family="Arial,sans-serif" font-size="9" fill="#880E4F" text-anchor="middle" font-weight="bold">Флейта</text>
+  <rect x="340" y="152" width="150" height="145" rx="6" fill="white" stroke="#C2185B" stroke-width="1.5" opacity="0.95"/>
+  <rect x="340" y="152" width="150" height="24" rx="6" fill="#C2185B" opacity="0.9"/>
+  <rect x="340" y="168" width="150" height="8" fill="#C2185B" opacity="0.9"/>
+  <text x="415" y="169" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">УДАРНЫЕ</text>
+  <ellipse cx="415" cy="220" rx="25" ry="12" fill="#FFAB91" opacity="0.4" stroke="#C2185B" stroke-width="1"/>
+  <text x="415" y="260" font-family="Arial,sans-serif" font-size="9" fill="#C2185B" text-anchor="middle" font-weight="bold">Барабан</text>
+  <ellipse cx="475" cy="290" rx="5" ry="4" fill="#AD1457" opacity="0.1"/>
   <rect x="15" y="308" width="470" height="30" rx="4" fill="#AD1457" opacity="0.85"/>
   <text x="250" y="329" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Симфонический оркестр</text>
-  <circle cx="445" cy="130" r="5" fill="#AD1457" opacity="0.12"/>
-  <line x1="450" y1="130" x2="450" y2="105" stroke="#AD1457" stroke-width="1" opacity="0.12"/>
-  <circle cx="465" cy="125" r="5" fill="#EC407A" opacity="0.1"/>
-  <line x1="470" y1="125" x2="470" y2="100" stroke="#EC407A" stroke-width="1" opacity="0.1"/>
 </svg>

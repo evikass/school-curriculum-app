@@ -5,72 +5,54 @@
       <stop offset="100%" stop-color="#CFD8DC"/>
     </linearGradient>
   </defs>
-  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#37474F" stroke-width="3"/>
   <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#37474F" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corners -->
   <polygon points="10,10 30,10 10,30" fill="#263238" opacity="0.08"/>
   <polygon points="490,10 470,10 490,30" fill="#263238" opacity="0.08"/>
-  <polygon points="10,340 30,340 10,320" fill="#607D8B" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#546E7A" opacity="0.08"/>
   <polygon points="490,340 470,340 490,320" fill="#78909C" opacity="0.08"/>
-  <!-- Bauhaus circles -->
   <circle cx="70" cy="15" r="4" fill="#263238" opacity="0.1"/>
-  <circle cx="82" cy="15" r="4" fill="#546E7A" opacity="0.1"/>
-  <circle cx="94" cy="15" r="4" fill="#607D8B" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#37474F" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#455A64" opacity="0.1"/>
   <circle cx="406" cy="15" r="4" fill="#263238" opacity="0.1"/>
-  <circle cx="418" cy="15" r="4" fill="#546E7A" opacity="0.1"/>
-  <circle cx="430" cy="15" r="4" fill="#78909C" opacity="0.1"/>
-  <!-- Title -->
+  <circle cx="418" cy="15" r="4" fill="#37474F" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#455A64" opacity="0.1"/>
   <text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#37474F" text-anchor="middle">Моторы и движение</text>
   <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Робототехника - Урок 7</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#37474F" stroke-width="2" opacity="0.25"/>
   <rect x="30" y="75" width="60" height="6" fill="#37474F" opacity="0.15" rx="1"/>
-  <rect x="410" y="75" width="60" height="6" fill="#607D8B" opacity="0.12" rx="1"/>
-
-  <rect x="20" y="88" width="220" height="100" rx="6" fill="white" stroke="#37474F" stroke-width="1.5" opacity="0.95"/>
+  <rect x="410" y="75" width="60" height="6" fill="#546E7A" opacity="0.12" rx="1"/>
+  <rect x="20" y="88" width="220" height="200" rx="6" fill="white" stroke="#37474F" stroke-width="1.5" opacity="0.95"/>
   <rect x="20" y="88" width="220" height="24" rx="6" fill="#37474F" opacity="0.9"/>
-  <rect x="20" y="100" width="220" height="12" fill="#37474F" opacity="0.9"/>
-  <text x="130" y="105" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Определение</text>
-  <rect x="30" y="120" width="5" height="5" rx="1" fill="#37474F" opacity="0.3"/>
-  <text x="42" y="124" font-family="Arial,sans-serif" font-size="8" fill="#555">Основные положения темы</text>
-  <rect x="30" y="138" width="5" height="5" rx="1" fill="#37474F" opacity="0.3"/>
-  <text x="42" y="142" font-family="Arial,sans-serif" font-size="8" fill="#555">Важные характеристики</text>
-  <rect x="30" y="156" width="5" height="5" rx="1" fill="#37474F" opacity="0.3"/>
-  <text x="42" y="160" font-family="Arial,sans-serif" font-size="8" fill="#555">Связь с другими понятиями</text>
-  <rect x="260" y="88" width="220" height="100" rx="6" fill="white" stroke="#546E7A" stroke-width="1.5" opacity="0.95"/>
-  <rect x="260" y="88" width="220" height="24" rx="6" fill="#546E7A" opacity="0.9"/>
-  <rect x="260" y="100" width="220" height="12" fill="#546E7A" opacity="0.9"/>
-  <text x="370" y="105" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Ключевые свойства</text>
-  <rect x="270" y="120" width="5" height="5" rx="1" fill="#546E7A" opacity="0.3"/>
-  <text x="282" y="124" font-family="Arial,sans-serif" font-size="8" fill="#555">Основные положения темы</text>
-  <rect x="270" y="138" width="5" height="5" rx="1" fill="#546E7A" opacity="0.3"/>
-  <text x="282" y="142" font-family="Arial,sans-serif" font-size="8" fill="#555">Важные характеристики</text>
-  <rect x="270" y="156" width="5" height="5" rx="1" fill="#546E7A" opacity="0.3"/>
-  <text x="282" y="160" font-family="Arial,sans-serif" font-size="8" fill="#555">Связь с другими понятиями</text>
-  <rect x="20" y="196" width="220" height="100" rx="6" fill="white" stroke="#607D8B" stroke-width="1.5" opacity="0.95"/>
-  <rect x="20" y="196" width="220" height="24" rx="6" fill="#607D8B" opacity="0.9"/>
-  <rect x="20" y="208" width="220" height="12" fill="#607D8B" opacity="0.9"/>
-  <text x="130" y="213" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Примеры</text>
-  <rect x="30" y="228" width="5" height="5" rx="1" fill="#607D8B" opacity="0.3"/>
-  <text x="42" y="232" font-family="Arial,sans-serif" font-size="8" fill="#555">Основные положения темы</text>
-  <rect x="30" y="246" width="5" height="5" rx="1" fill="#607D8B" opacity="0.3"/>
-  <text x="42" y="250" font-family="Arial,sans-serif" font-size="8" fill="#555">Важные характеристики</text>
-  <rect x="30" y="264" width="5" height="5" rx="1" fill="#607D8B" opacity="0.3"/>
-  <text x="42" y="268" font-family="Arial,sans-serif" font-size="8" fill="#555">Связь с другими понятиями</text>
-  <rect x="260" y="196" width="220" height="100" rx="6" fill="white" stroke="#78909C" stroke-width="1.5" opacity="0.95"/>
-  <rect x="260" y="196" width="220" height="24" rx="6" fill="#78909C" opacity="0.9"/>
-  <rect x="260" y="208" width="220" height="12" fill="#78909C" opacity="0.9"/>
-  <text x="370" y="213" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Применение</text>
-  <rect x="270" y="228" width="5" height="5" rx="1" fill="#78909C" opacity="0.3"/>
-  <text x="282" y="232" font-family="Arial,sans-serif" font-size="8" fill="#555">Основные положения темы</text>
-  <rect x="270" y="246" width="5" height="5" rx="1" fill="#78909C" opacity="0.3"/>
-  <text x="282" y="250" font-family="Arial,sans-serif" font-size="8" fill="#555">Важные характеристики</text>
-  <rect x="270" y="264" width="5" height="5" rx="1" fill="#78909C" opacity="0.3"/>
-  <text x="282" y="268" font-family="Arial,sans-serif" font-size="8" fill="#555">Связь с другими понятиями</text>
-  <!-- Bottom panel -->
+  <rect x="20" y="104" width="220" height="8" fill="#37474F" opacity="0.9"/>
+  <text x="130" y="105" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">РОБОТ</text>
+  <rect x="105" y="145" width="50" height="40" rx="5" fill="#37474F" opacity="0.15" stroke="#37474F" stroke-width="1.5"/>
+  <rect x="110" y="120" width="40" height="25" rx="5" fill="#263238" opacity="0.15" stroke="#263238" stroke-width="1.5"/>
+  <circle cx="122" cy="132" r="5" fill="#F9A825" opacity="0.4"/>
+  <circle cx="138" cy="132" r="5" fill="#F9A825" opacity="0.4"/>
+  <rect x="85" y="150" width="18" height="8" rx="3" fill="#37474F" opacity="0.1"/>
+  <rect x="157" y="150" width="18" height="8" rx="3" fill="#37474F" opacity="0.1"/>
+  <rect x="260" y="88" width="220" height="95" rx="6" fill="white" stroke="#263238" stroke-width="1.5" opacity="0.95"/>
+  <rect x="260" y="88" width="220" height="24" rx="6" fill="#263238" opacity="0.9"/>
+  <rect x="260" y="104" width="220" height="8" fill="#263238" opacity="0.9"/>
+  <text x="370" y="105" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">КОМПОНЕНТЫ</text>
+  <rect x="270" y="118" width="95" height="22" rx="11" fill="#37474F" opacity="0.15"/>
+  <text x="317" y="133" font-family="Arial,sans-serif" font-size="9" fill="#37474F" text-anchor="middle" font-weight="bold">Мотор</text>
+  <rect x="375" y="118" width="95" height="22" rx="11" fill="#F9A825" opacity="0.15"/>
+  <text x="422" y="133" font-family="Arial,sans-serif" font-size="9" fill="#F9A825" text-anchor="middle" font-weight="bold">Датчик</text>
+  <rect x="270" y="146" width="95" height="22" rx="11" fill="#263238" opacity="0.15"/>
+  <text x="317" y="161" font-family="Arial,sans-serif" font-size="9" fill="#263238" text-anchor="middle" font-weight="bold">Контроллер</text>
+  <rect x="375" y="146" width="95" height="22" rx="11" fill="#455A64" opacity="0.15"/>
+  <text x="422" y="161" font-family="Arial,sans-serif" font-size="9" fill="#455A64" text-anchor="middle" font-weight="bold">Шестерёнка</text>
+  <rect x="260" y="195" width="220" height="93" rx="6" fill="white" stroke="#455A64" stroke-width="1.5" opacity="0.95"/>
+  <rect x="260" y="195" width="220" height="24" rx="6" fill="#455A64" opacity="0.9"/>
+  <rect x="260" y="211" width="220" height="8" fill="#455A64" opacity="0.9"/>
+  <text x="370" y="212" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">АЛГОРИТМ</text>
+  <text x="280" y="222" font-family="Arial,sans-serif" font-size="9" fill="#37474F" text-anchor="start">1. Начало</text>
+  <text x="280" y="238" font-family="Arial,sans-serif" font-size="9" fill="#37474F" text-anchor="start">2. Действие</text>
+  <text x="280" y="254" font-family="Arial,sans-serif" font-size="9" fill="#37474F" text-anchor="start">3. Условие</text>
+  <text x="280" y="270" font-family="Arial,sans-serif" font-size="9" fill="#37474F" text-anchor="start">4. Конец</text>
   <rect x="15" y="308" width="470" height="30" rx="4" fill="#37474F" opacity="0.85"/>
   <text x="250" y="329" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Моторы и движение</text>
-  <circle cx="450" cy="118" r="14" fill="none" stroke="#37474F" stroke-width="1.5" opacity="0.12"/>
-  <circle cx="450" cy="118" r="5" fill="none" stroke="#546E7A" stroke-width="1" opacity="0.1"/>
 </svg>
