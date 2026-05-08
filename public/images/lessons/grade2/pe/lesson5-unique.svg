@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes run{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}.sprint{animation:run 0.8s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E8F5E9"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1B5E20">Беговые упражнения</text>
+  <!-- Running track -->
+  <rect x="30" y="50" width="440" height="80" fill="#FFECB3" rx="10"/>
+  <line x1="30" y1="60" x2="470" y2="60" stroke="#F9A825" stroke-width="2" stroke-dasharray="10,5"/>
+  <line x1="30" y1="80" x2="470" y2="80" stroke="#F9A825" stroke-width="2" stroke-dasharray="10,5"/>
+  <line x1="30" y1="100" x2="470" y2="100" stroke="#F9A825" stroke-width="2" stroke-dasharray="10,5"/>
+  <line x1="30" y1="120" x2="470" y2="120" stroke="#F9A825" stroke-width="2"/>
+  <g class="sprint" font-family="Arial,sans-serif" font-size="20" fill="#1B5E20">
+    <text x="100" y="85">&#127939;</text>
+    <text x="250" y="85">&#127939;</text>
+    <text x="380" y="85">&#127939;</text>
+  </g>
+  <!-- Types -->
+  <rect x="30" y="145" width="440" height="100" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
+  <text x="250" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Виды бега</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="190">Обычный бег — спокойный темп</text>
+    <text x="50" y="208">Бег с высоким подниманием бедра</text>
+    <text x="50" y="226">Бег с захлёстом голени</text>
+    <text x="50" y="244">Челночный бег — туда-обратно</text>
+  </g>
+  <!-- Rules -->
+  <rect x="30" y="260" width="440" height="75" fill="#E8F5E9" rx="10"/>
+  <text x="250" y="283" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Правила бега</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="303">Дыши: вдох через нос, выдох через рот</text>
+    <text x="50" y="323">Руки согнуты, работают вдоль тела</text>
+  </g>
+</svg>

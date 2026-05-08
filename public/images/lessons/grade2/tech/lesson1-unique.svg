@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes fold{0%,100%{transform:scaleX(1)}50%{transform:scaleX(0.97)}}.paper{animation:fold 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E3F2FD"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#0D47A1">Свойства бумаги</text>
+  <!-- Paper types -->
+  <rect x="30" y="50" width="440" height="120" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#0D47A1">Виды бумаги</text>
+  <g font-family="Arial,sans-serif" font-size="11">
+    <rect x="50" y="82" width="100" height="35" fill="#FFECB3" rx="5"/><text x="100" y="100" text-anchor="middle" fill="#E65100">Писчая</text><text x="100" y="112" text-anchor="middle" fill="#555" font-size="9">тетради</text>
+    <rect x="165" y="82" width="100" height="35" fill="#FFCDD2" rx="5"/><text x="215" y="100" text-anchor="middle" fill="#C62828">Картон</text><text x="215" y="112" text-anchor="middle" fill="#555" font-size="9">коробки</text>
+    <rect x="280" y="82" width="100" height="35" fill="#C8E6C9" rx="5"/><text x="330" y="100" text-anchor="middle" fill="#2E7D32">Гофрированная</text><text x="330" y="112" text-anchor="middle" fill="#555" font-size="9">упаковка</text>
+    <rect x="50" y="128" width="100" height="35" fill="#BBDEFB" rx="5"/><text x="100" y="146" text-anchor="middle" fill="#1565C0">Копирка</text><text x="100" y="158" text-anchor="middle" fill="#555" font-size="9">перевод</text>
+    <rect x="165" y="128" width="100" height="35" fill="#E1BEE7" rx="5"/><text x="215" y="146" text-anchor="middle" fill="#6A1B9A">Бархатная</text><text x="215" y="158" text-anchor="middle" fill="#555" font-size="9">открытки</text>
+    <rect x="280" y="128" width="100" height="35" fill="#FFF9C4" rx="5"/><text x="330" y="146" text-anchor="middle" fill="#F57F17">Цветная</text><text x="330" y="158" text-anchor="middle" fill="#555" font-size="9">аппликации</text>
+  </g>
+  <!-- Properties -->
+  <rect x="30" y="185" width="440" height="155" fill="#E3F2FD" rx="10"/>
+  <text x="250" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Свойства бумаги</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="230">Легко режется ножницами</text>
+    <text x="50" y="250">Сгибается и складывается</text>
+    <text x="50" y="270">Склеивается клеем</text>
+    <text x="50" y="290">Пропускает свет (прозрачная)</text>
+    <text x="50" y="310">Намокает от воды</text>
+    <text x="50" y="330" fill="#0D47A1">Бумагу делают из древесины — береги лес!</text>
+  </g>
+</svg>

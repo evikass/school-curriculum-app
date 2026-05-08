@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#E8EAF6"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#283593">Анализ проекта</text>
+  <rect x="30" y="50" width="440" height="130" fill="white" rx="10" stroke="#283593" stroke-width="2" opacity="0.9"/>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#283593">Что сделать в проекте</text>
+  <g font-family="Arial,sans-serif" font-size="13" fill="#333">
+    <text x="50" y="100">1. Что получилось хорошо?</text>
+    <text x="50" y="125">2. Что можно улучшить?</text>
+    <text x="50" y="150">3. Чему ты научился?</text>
+  </g>
+  <rect x="30" y="195" width="440" height="140" fill="#E8EAF6" rx="10"/>
+  <text x="250" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#283593">Этапы работы над проектом</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="242">1. Выбери тему и поставь цель</text>
+    <text x="50" y="262">2. Собери информацию</text>
+    <text x="50" y="282">3. Создай продукт (постер, презентацию)</text>
+    <text x="50" y="302">4. Подготовь выступление</text>
+    <text x="50" y="322" fill="#283593">5. Представь проект классу!</text>
+  </g>
+</svg>

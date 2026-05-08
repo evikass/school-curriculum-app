@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes note{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}.music{animation:note 1s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#EDE7F6"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#4527A0">Песня, танец, марш</text>
+  <!-- Three genres -->
+  <g class="music" transform="translate(30,50)">
+    <rect x="0" y="0" width="130" height="140" fill="white" rx="10" stroke="#CE93D8" stroke-width="2"/>
+    <text x="65" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#C2185B">Песня</text>
+    <text x="65" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#C2185B">&#9835;</text>
+    <text x="65" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#333">Поём слова</text>
+    <text x="65" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#333">Мелодия + текст</text>
+    <text x="65" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">Колыбельная,</text>
+    <text x="65" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">гимн, частушка</text>
+  </g>
+  <g transform="translate(180,50)">
+    <rect x="0" y="0" width="130" height="140" fill="white" rx="10" stroke="#CE93D8" stroke-width="2"/>
+    <text x="65" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Танец</text>
+    <text x="65" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#E65100">&#9834;</text>
+    <text x="65" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#333">Движение</text>
+    <text x="65" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#333">Ритм + пластика</text>
+    <text x="65" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">Вальс, полька,</text>
+    <text x="65" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">хоровод</text>
+  </g>
+  <g transform="translate(330,50)">
+    <rect x="0" y="0" width="130" height="140" fill="white" rx="10" stroke="#CE93D8" stroke-width="2"/>
+    <text x="65" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32">Марш</text>
+    <text x="65" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#2E7D32">&#9833;</text>
+    <text x="65" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#333">Шагаем</text>
+    <text x="65" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#333">Чёткий ритм</text>
+    <text x="65" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">Военный марш,</text>
+    <text x="65" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">спортивный марш</text>
+  </g>
+  <!-- Common features -->
+  <rect x="30" y="210" width="440" height="125" fill="#EDE7F6" rx="10"/>
+  <text x="250" y="233" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#4527A0">Что общего?</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="255">Все три жанра — основа музыки</text>
+    <text x="50" y="275">Песня — мелодия и слова</text>
+    <text x="50" y="295">Танец — музыка для движения</text>
+    <text x="50" y="315">Марш — музыка для шага</text>
+    <text x="50" y="335" fill="#4527A0">Многие произведения сочетают эти жанры</text>
+  </g>
+</svg>

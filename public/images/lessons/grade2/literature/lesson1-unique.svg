@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes pageTurn{0%,100%{transform:rotateY(0)}50%{transform:rotateY(5deg)}}.book{animation:pageTurn 3s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FCE4EC"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#880E4F">Русские народные сказки</text>
+  <!-- Book -->
+  <g class="book" transform="translate(30,50)">
+    <rect x="0" y="0" width="180" height="130" fill="#880E4F" rx="5"/>
+    <rect x="5" y="5" width="170" height="120" fill="#FCE4EC" rx="3"/>
+    <text x="90" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#880E4F">СКАЗКИ</text>
+    <line x1="20" y1="45" x2="160" y2="45" stroke="#880E4F" stroke-width="1"/>
+    <text x="90" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#880E4F">Колобок</text>
+    <text x="90" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#880E4F">Теремок</text>
+    <text x="90" y="99" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#880E4F">Репка</text>
+    <text x="90" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#880E4F">Курочка Ряба</text>
+  </g>
+  <!-- Features -->
+  <rect x="230" y="50" width="240" height="130" fill="white" rx="10" stroke="#F48FB1" stroke-width="2"/>
+  <text x="350" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#880E4F">Особенности сказок</text>
+  <text x="250" y="95" font-family="Arial,sans-serif" font-size="11" fill="#333">Зачин: «В некотором царстве...»</text>
+  <text x="250" y="112" font-family="Arial,sans-serif" font-size="11" fill="#333">Волшебные события</text>
+  <text x="250" y="129" font-family="Arial,sans-serif" font-size="11" fill="#333">Борьба добра и зла</text>
+  <text x="250" y="146" font-family="Arial,sans-serif" font-size="11" fill="#333">Повторы: «За лесами, за горами...»</text>
+  <text x="250" y="163" font-family="Arial,sans-serif" font-size="11" fill="#333">Концовка: «И стали жить-поживать...»</text>
+  <!-- Types -->
+  <rect x="30" y="200" width="440" height="140" fill="#FCE4EC" rx="10"/>
+  <text x="250" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#880E4F">Виды русских народных сказок</text>
+  <g font-family="Arial,sans-serif" font-size="11">
+    <rect x="50" y="235" width="120" height="45" fill="white" rx="5" stroke="#F48FB1"/>
+    <text x="110" y="255" text-anchor="middle" fill="#880E4F" font-weight="bold">Волшебные</text>
+    <text x="110" y="272" text-anchor="middle" fill="#555">Гуси-лебеди</text>
+    <rect x="190" y="235" width="120" height="45" fill="white" rx="5" stroke="#F48FB1"/>
+    <text x="250" y="255" text-anchor="middle" fill="#880E4F" font-weight="bold">О животных</text>
+    <text x="250" y="272" text-anchor="middle" fill="#555">Лиса и волк</text>
+    <rect x="330" y="235" width="120" height="45" fill="white" rx="5" stroke="#F48FB1"/>
+    <text x="390" y="255" text-anchor="middle" fill="#880E4F" font-weight="bold">Бытовые</text>
+    <text x="390" y="272" text-anchor="middle" fill="#555">Каша из топора</text>
+  </g>
+  <text x="250" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#880E4F">Сказки передавались из уст в уста, от поколения к поколению</text>
+  <text x="250" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">У каждой сказки есть мораль — добро побеждает зло</text>
+</svg>

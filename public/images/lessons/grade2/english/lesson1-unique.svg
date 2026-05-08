@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes wave{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}.hand{animation:wave 1s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E3F2FD"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#0D47A1">Family Members</text>
+  <!-- Family tree -->
+  <rect x="30" y="50" width="440" height="140" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#0D47A1">My Family</text>
+  <g font-family="Arial,sans-serif" font-size="12" text-anchor="middle">
+    <rect x="170" y="82" width="160" height="28" fill="#BBDEFB" rx="5"/>
+    <text x="250" y="101" fill="#0D47A1">grandfather / grandmother</text>
+    <rect x="120" y="118" width="120" height="28" fill="#C8E6C9" rx="5"/>
+    <text x="180" y="137" fill="#2E7D32">father (dad)</text>
+    <rect x="260" y="118" width="120" height="28" fill="#F8BBD0" rx="5"/>
+    <text x="320" y="137" fill="#C2185B">mother (mum)</text>
+    <rect x="80" y="155" width="80" height="25" fill="#FFF9C4" rx="5"/>
+    <text x="120" y="173" fill="#F57F17">brother</text>
+    <rect x="170" y="155" width="70" height="25" fill="#FFCDD2" rx="5"/>
+    <text x="205" y="173" fill="#C62828">sister</text>
+    <rect x="250" y="155" width="80" height="25" fill="#E1BEE7" rx="5"/>
+    <text x="290" y="173" fill="#6A1B9A">baby</text>
+    <rect x="340" y="155" width="80" height="25" fill="#FFECB3" rx="5"/>
+    <text x="380" y="173" fill="#E65100">me!</text>
+  </g>
+  <!-- Phrases -->
+  <rect x="30" y="205" width="440" height="130" fill="#E3F2FD" rx="10"/>
+  <text x="250" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Useful Phrases</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="252">This is my mother. - Это моя мама.</text>
+    <text x="50" y="272">I have got a brother. - У меня есть брат.</text>
+    <text x="50" y="292">My family is big/small. - Моя семья большая/маленькая.</text>
+    <text x="50" y="312">I love my family! - Я люблю свою семью!</text>
+  </g>
+</svg>

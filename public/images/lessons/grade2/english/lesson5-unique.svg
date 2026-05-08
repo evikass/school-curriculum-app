@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes tail{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}.wag{animation:tail 1s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Pets / Domestic Animals</text>
+  <!-- Pets -->
+  <rect x="30" y="50" width="440" height="120" fill="white" rx="10" stroke="#FFE082" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Pets</text>
+  <g font-family="Arial,sans-serif" font-size="12">
+    <rect x="50" y="82" width="100" height="25" fill="#FFF9C4" rx="5"/><text x="100" y="100" text-anchor="middle" fill="#E65100">cat - кошка</text>
+    <rect x="165" y="82" width="100" height="25" fill="#FFECB3" rx="5"/><text x="215" y="100" text-anchor="middle" fill="#E65100">dog - собака</text>
+    <rect x="280" y="82" width="100" height="25" fill="#FFF9C4" rx="5"/><text x="330" y="100" text-anchor="middle" fill="#E65100">fish - рыбка</text>
+    <rect x="50" y="115" width="100" height="25" fill="#FFECB3" rx="5"/><text x="100" y="133" text-anchor="middle" fill="#E65100">bird - птица</text>
+    <rect x="165" y="115" width="120" height="25" fill="#FFF9C4" rx="5"/><text x="225" y="133" text-anchor="middle" fill="#E65100">hamster - хомяк</text>
+    <rect x="300" y="115" width="140" height="25" fill="#FFECB3" rx="5"/><text x="370" y="133" text-anchor="middle" fill="#E65100">guinea pig - морская свинка</text>
+  </g>
+  <!-- Phrases -->
+  <rect x="30" y="185" width="440" height="150" fill="#FFF8E1" rx="10"/>
+  <text x="250" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Talking about pets</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="232">I have got a cat. - У меня есть кошка.</text>
+    <text x="50" y="252">My cat is fluffy. - Моя кошка пушистая.</text>
+    <text x="50" y="272">It can run and jump. - Она умеет бегать и прыгать.</text>
+    <text x="50" y="292">I feed my pet every day. - Я кормлю питомца каждый день.</text>
+    <text x="50" y="312">Pets are our friends! - Питомцы — наши друзья!</text>
+  </g>
+</svg>

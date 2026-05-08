@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes roam{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}.wild{animation:roam 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E8F5E9"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1B5E20">Wild Animals</text>
+  <!-- Animals grid -->
+  <rect x="30" y="50" width="440" height="120" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
+  <g class="wild" font-family="Arial,sans-serif" font-size="12">
+    <rect x="50" y="60" width="100" height="25" fill="#C8E6C9" rx="5"/><text x="100" y="78" text-anchor="middle" fill="#1B5E20">bear - медведь</text>
+    <rect x="165" y="60" width="100" height="25" fill="#E8F5E9" rx="5"/><text x="215" y="78" text-anchor="middle" fill="#1B5E20">wolf - волк</text>
+    <rect x="280" y="60" width="100" height="25" fill="#C8E6C9" rx="5"/><text x="330" y="78" text-anchor="middle" fill="#1B5E20">fox - лиса</text>
+    <rect x="50" y="95" width="100" height="25" fill="#E8F5E9" rx="5"/><text x="100" y="113" text-anchor="middle" fill="#1B5E20">deer - олень</text>
+    <rect x="165" y="95" width="100" height="25" fill="#C8E6C9" rx="5"/><text x="215" y="113" text-anchor="middle" fill="#1B5E20">hare - заяц</text>
+    <rect x="280" y="95" width="100" height="25" fill="#E8F5E9" rx="5"/><text x="330" y="113" text-anchor="middle" fill="#1B5E20">snake - змея</text>
+    <rect x="390" y="60" width="70" height="60" fill="#DCEDC8" rx="5"/><text x="425" y="85" text-anchor="middle" fill="#1B5E20">lion</text><text x="425" y="100" text-anchor="middle" fill="#1B5E20">лев</text>
+  </g>
+  <!-- Phrases -->
+  <rect x="30" y="185" width="440" height="150" fill="#E8F5E9" rx="10"/>
+  <text x="250" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Talking about wild animals</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="232">Wild animals live in the forest. - Дикие животные живут в лесу.</text>
+    <text x="50" y="252">The bear is big and strong. - Медведь большой и сильный.</text>
+    <text x="50" y="272">The fox is clever. - Лиса хитрая.</text>
+    <text x="50" y="292">Wild animals hunt for food. - Дикие животные добывают пищу.</text>
+    <text x="50" y="312">We must protect wild animals! - Мы должны беречь диких животных!</text>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes cone{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}.pine{animation:cone 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E8F5E9"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1B5E20">Поделки из шишек</text>
+  <!-- Pine cone craft -->
+  <g class="pine" transform="translate(30,55)">
+    <rect x="0" y="0" width="180" height="130" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
+    <!-- Pine cone body -->
+    <ellipse cx="90" cy="65" rx="35" ry="45" fill="#8D6E63"/>
+    <ellipse cx="90" cy="65" rx="30" ry="40" fill="#795548"/>
+    <!-- Eyes -->
+    <circle cx="80" cy="50" r="5" fill="white"/><circle cx="80" cy="50" r="2.5" fill="#333"/>
+    <circle cx="100" cy="50" r="5" fill="white"/><circle cx="100" cy="50" r="2.5" fill="#333"/>
+    <!-- Beak -->
+    <polygon points="90,58 85,62 90,66 95,62" fill="#FF9800"/>
+    <!-- Wings -->
+    <ellipse cx="55" cy="65" rx="18" ry="25" fill="#A5D6A7" transform="rotate(15,55,65)"/>
+    <ellipse cx="125" cy="65" rx="18" ry="25" fill="#A5D6A7" transform="rotate(-15,125,65)"/>
+  </g>
+  <!-- Materials and steps -->
+  <rect x="230" y="55" width="240" height="130" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
+  <text x="350" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Что понадобится</text>
+  <g font-family="Arial,sans-serif" font-size="11" fill="#333">
+    <text x="245" y="98">Шишки (сосновые, еловые)</text>
+    <text x="245" y="115">Пластилин для соединения</text>
+    <text x="245" y="132">Жёлуди, листья, веточки</text>
+    <text x="245" y="149">Клей, ножницы</text>
+    <text x="245" y="166">Фантазия и терпение!</text>
+  </g>
+  <!-- Ideas -->
+  <rect x="30" y="200" width="440" height="135" fill="#E8F5E9" rx="10"/>
+  <text x="250" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Идеи поделок из шишек</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="245">Ёжик (шишка + пластилин)</text>
+    <text x="50" y="265">Совёнок (шишка + вата)</text>
+    <text x="50" y="285">Олень (шишки + веточки)</text>
+    <text x="50" y="305">Ёлочка (шишки + краска)</text>
+    <text x="50" y="325" fill="#1B5E20">Природные материалы — экологичные и красивые!</text>
+  </g>
+</svg>

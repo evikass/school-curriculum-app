@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes hop{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}.jump{animation:hop 1.5s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E8F5E9"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1B5E20">И.А. Крылов</text>
+  <!-- Stylized animals -->
+  <g transform="translate(30,50)">
+    <rect x="0" y="0" width="160" height="130" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
+    <text x="80" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#1B5E20">1769-1844</text>
+    <!-- Crow and Fox -->
+    <g class="jump" transform="translate(20,35)">
+      <circle cx="30" cy="40" r="15" fill="#333"/>
+      <circle cx="35" cy="35" r="12" fill="#444"/>
+      <polygon points="45,35 55,32 45,38" fill="#FF9800"/>
+    </g>
+    <g transform="translate(70,50)">
+      <ellipse cx="30" cy="35" rx="25" ry="15" fill="#FF9800"/>
+      <circle cx="15" cy="28" r="10" fill="#FFB74D"/>
+      <polygon points="5,28 0,25 5,30" fill="#333"/>
+    </g>
+    <text x="80" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#1B5E20">Великий баснописец</text>
+  </g>
+  <!-- Fables list -->
+  <rect x="210" y="50" width="260" height="130" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
+  <text x="340" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Известные басни</text>
+  <g font-family="Arial,sans-serif" font-size="11" fill="#333">
+    <text x="225" y="95">Ворона и Лисица</text>
+    <text x="225" y="112">Стрекоза и Муравей</text>
+    <text x="225" y="129">Лебедь, Щука и Рак</text>
+    <text x="225" y="146">Мартышка и Очки</text>
+    <text x="225" y="163">Квартет</text>
+  </g>
+  <!-- Moral -->
+  <rect x="30" y="200" width="440" height="140" fill="#E8F5E9" rx="10"/>
+  <text x="250" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Что такое басня?</text>
+  <text x="250" y="243" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Короткий рассказ в стихах, где действуют животные</text>
+  <text x="250" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Животные — это люди с их пороками</text>
+  <text x="250" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#1B5E20">Мораль — поучение в конце басни</text>
+  <text x="250" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#1B5E20">«У сильного всегда бессильный виноват»</text>
+  <text x="250" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">«А вы, друзья, как ни садитесь, всё в музыканты не годитесь»</text>
+</svg>

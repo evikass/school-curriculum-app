@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes golden{0%,100%{opacity:1}50%{opacity:0.8}}.khohloma{animation:golden 3s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Хохломская роспись</text>
+  <!-- Khokhloma bowl -->
+  <g class="golden" transform="translate(30,55)">
+    <ellipse cx="100" cy="80" rx="80" ry="30" fill="#FFD54F"/>
+    <path d="M20,80 Q20,130 40,150 Q60,170 100,170 Q140,170 160,150 Q180,130 180,80" fill="#C62828" stroke="#FFD54F" stroke-width="2"/>
+    <!-- Pattern -->
+    <path d="M50,100 Q70,85 90,100 Q110,115 130,100 Q150,85 170,100" fill="none" stroke="#FFD54F" stroke-width="3"/>
+    <circle cx="70" cy="120" r="5" fill="#4CAF50"/><circle cx="100" cy="130" r="6" fill="#FFD54F"/>
+    <circle cx="130" cy="120" r="5" fill="#4CAF50"/>
+    <!-- Berry -->
+    <circle cx="90" cy="110" r="4" fill="#C62828"/><circle cx="110" cy="110" r="4" fill="#C62828"/>
+  </g>
+  <!-- Info -->
+  <rect x="230" y="55" width="240" height="155" fill="white" rx="10" stroke="#FFB74D" stroke-width="2"/>
+  <text x="350" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Хохломская роспись</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="245" y="100">Родина: Нижегородская область</text>
+    <text x="245" y="118">Фон: чёрный, красный, золотой</text>
+    <text x="245" y="136">Узоры: травка, ягодка, листочек</text>
+    <text x="245" y="154">Предметы: посуда, ложки,</text>
+    <text x="245" y="172">стаканы, шкатулки</text>
+  </g>
+  <!-- Colors and technique -->
+  <rect x="30" y="225" width="440" height="110" fill="#FFF8E1" rx="10"/>
+  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Секрет «золотой» Хохломы</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="270">1. Деревянную посуду грунтуют</text>
+    <text x="50" y="290">2. Покрывают оловянным порошком</text>
+    <text x="50" y="310">3. Расписывают красками</text>
+    <text x="50" y="330" fill="#E65100">4. Лакируют и запекают — появляется золотой блеск!</text>
+  </g>
+</svg>

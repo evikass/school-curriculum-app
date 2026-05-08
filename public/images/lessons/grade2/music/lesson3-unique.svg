@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes speed{0%{transform:translateX(0)}100%{transform:translateX(5px)}50%{transform:translateX(0)}}.tempo{animation:speed 1s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Темп и динамика</text>
+  <!-- Tempo -->
+  <rect x="30" y="50" width="210" height="150" fill="white" rx="10" stroke="#FFE082" stroke-width="2"/>
+  <text x="135" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Темп</text>
+  <text x="135" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Скорость музыки</text>
+  <g font-family="Arial,sans-serif" font-size="12">
+    <rect x="50" y="100" width="170" height="25" fill="#BBDEFB" rx="5"/><text x="135" y="118" text-anchor="middle" fill="#1565C0">Медленно (адажио)</text>
+    <rect x="50" y="130" width="170" height="25" fill="#C8E6C9" rx="5"/><text x="135" y="148" text-anchor="middle" fill="#2E7D32">Умеренно (анданте)</text>
+    <rect x="50" y="160" width="170" height="25" fill="#FFCDD2" rx="5"/><text x="135" y="178" text-anchor="middle" fill="#C62828">Быстро (аллегро)</text>
+  </g>
+  <!-- Dynamics -->
+  <rect x="260" y="50" width="210" height="150" fill="white" rx="10" stroke="#FFE082" stroke-width="2"/>
+  <text x="365" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Динамика</text>
+  <text x="365" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Громкость музыки</text>
+  <g font-family="Arial,sans-serif" font-size="12">
+    <rect x="280" y="100" width="170" height="22" fill="#E3F2FD" rx="5"/><text x="365" y="116" text-anchor="middle" fill="#1565C0">Тихо (пиано)</text>
+    <rect x="280" y="128" width="170" height="22" fill="#FFF9C4" rx="5"/><text x="365" y="144" text-anchor="middle" fill="#F57F17">Средне (меццо)</text>
+    <rect x="280" y="156" width="170" height="22" fill="#FFCDD2" rx="5"/><text x="365" y="172" text-anchor="middle" fill="#C62828">Громко (форте)</text>
+  </g>
+  <!-- Examples -->
+  <rect x="30" y="215" width="440" height="120" fill="#FFF8E1" rx="10"/>
+  <text x="250" y="238" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Примеры в музыке</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="260">Колыбельная — медленно и тихо</text>
+    <text x="50" y="280">Марш — умеренно и громко</text>
+    <text x="50" y="300">Гроза в музыке — быстро и громко</text>
+    <text x="50" y="320" fill="#E65100">Темп и динамика создают настроение!</text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes wave{0%,100%{transform:translateX(0)}50%{transform:translateX(3px)}}.water{animation:wave 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E3F2FD"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#0D47A1">Водоёмы</text>
+  <!-- Types -->
+  <rect x="30" y="50" width="440" height="160" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#0D47A1">Виды водоёмов</text>
+  <g font-family="Arial,sans-serif" font-size="12">
+    <rect x="50" y="82" width="190" height="30" fill="#BBDEFB" rx="5"/><text x="145" y="102" text-anchor="middle" fill="#0D47A1">Океан — самый большой</text>
+    <rect x="260" y="82" width="190" height="30" fill="#90CAF9" rx="5"/><text x="355" y="102" text-anchor="middle" fill="#0D47A1">Море — часть океана</text>
+    <rect x="50" y="120" width="190" height="30" fill="#64B5F6" rx="5"/><text x="145" y="140" text-anchor="middle" fill="#0D47A1">Озеро — замкнутый</text>
+    <rect x="260" y="120" width="190" height="30" fill="#42A5F5" rx="5"/><text x="355" y="140" text-anchor="middle" fill="white">Река — течёт</text>
+    <rect x="50" y="158" width="190" height="30" fill="#2196F3" rx="5"/><text x="145" y="178" text-anchor="middle" fill="white">Ручей — маленькая речка</text>
+    <rect x="260" y="158" width="190" height="30" fill="#1976D2" rx="5"/><text x="355" y="178" text-anchor="middle" fill="white">Пруд — искусственный</text>
+  </g>
+  <!-- Water properties -->
+  <rect x="30" y="225" width="440" height="110" fill="#E3F2FD" rx="10"/>
+  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Свойства воды</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="270">Прозрачная, без цвета, без запаха, без вкуса</text>
+    <text x="50" y="290">Текёт, принимает форму сосуда</text>
+    <text x="50" y="310">Может быть твёрдой (лёд), жидкой, газом (пар)</text>
+    <text x="50" y="330">Вода — самое важное вещество для жизни на Земле</text>
+  </g>
+</svg>

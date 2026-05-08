@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes stress{0%,100%{fill:#F44336}50%{fill:#E57373}}.stress{animation:stress 1.5s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FFEBEE"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#B71C1C">Безударные гласные в корне</text>
+  <rect x="30" y="50" width="440" height="60" fill="white" rx="10" stroke="#EF9A9A" stroke-width="2"/>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#B71C1C">Чтобы написать правильно — подбирай проверочное слово!</text>
+  <text x="250" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#333">Проверочное слово — где гласная под ударением</text>
+  <!-- Examples -->
+  <g transform="translate(30,125)" font-family="Arial,sans-serif">
+    <rect x="0" y="0" width="200" height="55" fill="#FFCDD2" rx="8" stroke="#EF5350" stroke-width="1"/>
+    <text x="100" y="20" text-anchor="middle" font-size="14">тр<span class="stress">а</span>ва</text>
+    <text x="100" y="42" text-anchor="middle" font-size="12" fill="#B71C1C">проверка: тр<span fill="#F44336" font-weight="bold">а</span>вы</text>
+    <rect x="220" y="0" width="220" height="55" fill="#FFCDD2" rx="8" stroke="#EF5350" stroke-width="1"/>
+    <text x="330" y="20" text-anchor="middle" font-size="14">д<span class="stress">о</span>ма</text>
+    <text x="330" y="42" text-anchor="middle" font-size="12" fill="#B71C1C">проверка: д<span fill="#F44336" font-weight="bold">о</span>м</text>
+  </g>
+  <g transform="translate(30,190)" font-family="Arial,sans-serif">
+    <rect x="0" y="0" width="200" height="55" fill="#FFCDD2" rx="8" stroke="#EF5350" stroke-width="1"/>
+    <text x="100" y="20" text-anchor="middle" font-size="14">л<span class="stress">и</span>са</text>
+    <text x="100" y="42" text-anchor="middle" font-size="12" fill="#B71C1C">проверка: л<span fill="#F44336" font-weight="bold">и</span>сы</text>
+    <rect x="220" y="0" width="220" height="55" fill="#FFCDD2" rx="8" stroke="#EF5350" stroke-width="1"/>
+    <text x="330" y="20" text-anchor="middle" font-size="14">зв<span class="stress">е</span>ри</text>
+    <text x="330" y="42" text-anchor="middle" font-size="12" fill="#B71C1C">проверка: зв<span fill="#F44336" font-weight="bold">е</span>рь</text>
+  </g>
+  <!-- Algorithm -->
+  <rect x="30" y="260" width="440" height="75" fill="#FFEBEE" rx="10"/>
+  <text x="250" y="282" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#B71C1C">Алгоритм проверки</text>
+  <text x="250" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">1. Прочитай слово 2. Найди безударную гласную</text>
+  <text x="250" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">3. Подбери проверочное слово 4. Напиши правильно</text>
+</svg>

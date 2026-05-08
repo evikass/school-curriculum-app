@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes cloud{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}.sky{animation:cloud 3s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E3F2FD"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#0D47A1">Пейзаж</text>
+  <!-- Landscape scene -->
+  <rect x="30" y="50" width="440" height="160" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
+  <!-- Sky -->
+  <rect x="35" y="55" width="430" height="100" fill="#BBDEFB" rx="8"/>
+  <!-- Sun -->
+  <circle cx="400" cy="80" r="25" fill="#FFC107"/>
+  <!-- Clouds -->
+  <g class="sky">
+    <ellipse cx="120" cy="75" rx="30" ry="15" fill="white"/>
+    <ellipse cx="140" cy="70" rx="25" ry="15" fill="white"/>
+    <ellipse cx="155" cy="78" rx="20" ry="12" fill="white"/>
+  </g>
+  <!-- Mountains -->
+  <polygon points="35,155 130,80 225,155" fill="#81C784"/>
+  <polygon points="150,155 260,70 370,155" fill="#66BB6A"/>
+  <polygon points="280,155 380,90 465,155" fill="#4CAF50"/>
+  <!-- Lake -->
+  <ellipse cx="250" cy="170" rx="100" ry="15" fill="#64B5F6"/>
+  <!-- Trees -->
+  <rect x="70" y="135" width="5" height="20" fill="#5D4037"/>
+  <circle cx="72" cy="128" r="12" fill="#388E3C"/>
+  <rect x="420" y="130" width="5" height="25" fill="#5D4037"/>
+  <circle cx="422" cy="123" r="14" fill="#2E7D32"/>
+  <!-- Definition -->
+  <rect x="30" y="225" width="440" height="110" fill="#E3F2FD" rx="10"/>
+  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#0D47A1">Пейзаж — картина природы</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="272">Изображает: леса, горы, реки, поля</text>
+    <text x="50" y="292">Передаёт настроение и красоту природы</text>
+    <text x="50" y="312">Меняется по сезонам: зимний, весенний, летний, осенний</text>
+    <text x="50" y="332" fill="#0D47A1">Известные художники-пейзажисты: Левитан, Шишкин, Саврасов</text>
+  </g>
+</svg>

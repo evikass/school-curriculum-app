@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.toy{animation:spin 8s linear infinite;transform-origin:80px 130px}</style></defs>
+  <rect width="500" height="350" fill="#FFF3E0"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#BF360C">Дымковская игрушка</text>
+  <!-- Dymkovo toy -->
+  <g class="toy" transform="translate(30,55)">
+    <ellipse cx="80" cy="160" rx="40" ry="15" fill="#FFC107"/>
+    <rect x="65" y="90" width="30" height="70" fill="white" stroke="#E65100" stroke-width="2" rx="5"/>
+    <circle cx="80" cy="70" r="30" fill="white" stroke="#E65100" stroke-width="2"/>
+    <circle cx="72" cy="65" r="4" fill="#F44336"/><circle cx="88" cy="65" r="4" fill="#F44336"/>
+    <circle cx="80" cy="75" r="3" fill="#2196F3"/>
+    <!-- Decorative circles -->
+    <circle cx="70" cy="100" r="5" fill="#F44336"/><circle cx="90" cy="100" r="5" fill="#4CAF50"/>
+    <circle cx="70" cy="120" r="5" fill="#2196F3"/><circle cx="90" cy="120" r="5" fill="#FFC107"/>
+    <circle cx="80" cy="140" r="5" fill="#E91E63"/>
+  </g>
+  <!-- Info -->
+  <rect x="170" y="55" width="300" height="155" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
+  <text x="320" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#BF360C">Дымковская игрушка</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="185" y="100">Родина: слобода Дымково, г. Вятка</text>
+    <text x="185" y="118">Материал: глина</text>
+    <text x="185" y="136">Раскраска: яркая, узорная</text>
+    <text x="185" y="154">Узоры: круги, ромбы, точки</text>
+    <text x="185" y="172">Цвета: красный, жёлтый, синий,</text>
+    <text x="185" y="190">зелёный, белый фон</text>
+  </g>
+  <!-- Features -->
+  <rect x="30" y="225" width="440" height="110" fill="#FFF3E0" rx="10"/>
+  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#BF360C">Особенности промысла</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="270">Лепят из глины вручную</text>
+    <text x="50" y="290">Обжигают в печи</text>
+    <text x="50" y="310">Белят мелом и расписывают</text>
+    <text x="50" y="330" fill="#BF360C">Барышни, кони, птицы, олени</text>
+  </g>
+</svg>

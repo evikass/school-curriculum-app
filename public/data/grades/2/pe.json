@@ -34,7 +34,7 @@
               "По команде Кругом! повернуться на 180 градусов",
               "Интервал — расстояние между детьми в шеренге"
             ],
-            "image": "/images/lessons/grade2/pe/lesson1.svg"
+            "image": "/images/lessons/grade2/pe/lesson1-unique.svg"
           },
           {
             "title": "Урок 2: Общеразвивающие упражнения",
@@ -57,7 +57,7 @@
               "Упражнение для ног: приседания 6-10 раз",
               "Ласточка — стойка на одной ноге, руки в стороны"
             ],
-            "image": "/images/lessons/grade2/pe/lesson2.svg"
+            "image": "/images/lessons/grade2/pe/lesson2-unique.svg"
           },
           {
             "title": "Урок 3: Акробатические упражнения",
@@ -80,7 +80,7 @@
               "Берёзка: лечь, поднять ноги, упереться локтями в пол",
               "Мост: лечь, поставить руки у головы, прогнуться"
             ],
-            "image": "/images/lessons/grade2/pe/lesson3.svg"
+            "image": "/images/lessons/grade2/pe/lesson3-unique.svg"
           },
           {
             "title": "Урок 4: Упражнения на равновесие",
@@ -103,7 +103,7 @@
               "Ходьба по скамейке: руки в стороны, идти обычным шагом",
               "Цапля: стоять на одной ноге, руки подняты вверх"
             ],
-            "image": "/images/lessons/grade2/pe/lesson4.svg"
+            "image": "/images/lessons/grade2/pe/lesson4-unique.svg"
           }
         ]
       },
@@ -131,7 +131,7 @@
               "Челночный бег 3×10 м: добежать, коснуться, вернуться",
               "Эстафета: передать палочку из руки в руку при беге"
             ],
-            "image": "/images/lessons/grade2/pe/lesson5.svg"
+            "image": "/images/lessons/grade2/pe/lesson5-unique.svg"
           },
           {
             "title": "Урок 6: Прыжки",
@@ -154,7 +154,7 @@
               "Приземление всегда на носки, колени чуть согнуты",
               "Классики и резиночка — подвижные игры с прыжками"
             ],
-            "image": "/images/lessons/grade2/pe/lesson6.svg"
+            "image": "/images/lessons/grade2/pe/lesson6-unique.svg"
           },
           {
             "title": "Урок 7: Метание",
@@ -177,7 +177,7 @@
               "Толкание набивного мяча: прижать к груди, вытолкнуть вперёд-вверх",
               "Метание в цель: бросать в щит или обруч на расстоянии"
             ],
-            "image": "/images/lessons/grade2/pe/lesson7.svg"
+            "image": "/images/lessons/grade2/pe/lesson7-unique.svg"
           }
         ]
       },
@@ -205,7 +205,7 @@
               "Два мороза: два водящих ловят перебегающих на другую сторону",
               "Парашютисты: по команде все приседают, кто не успел — выбывает"
             ],
-            "image": "/images/lessons/grade2/pe/lesson8.svg"
+            "image": "/images/lessons/grade2/pe/lesson8-unique.svg"
           }
         ]
       }

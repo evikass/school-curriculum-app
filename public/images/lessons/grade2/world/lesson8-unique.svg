@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes leaf{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}.nature{animation:leaf 3s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E8F5E9"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1B5E20">Охрана природы</text>
+  <!-- Rules -->
+  <rect x="30" y="50" width="440" height="160" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20">Правила охраны природы</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="95">1. Не мусорить в лесу, парке, у реки</text>
+    <text x="50" y="115">2. Не разжигать костры без разрешения</text>
+    <text x="50" y="135">3. Не ломать ветки и не рвать цветы</text>
+    <text x="50" y="155">4. Не разорять птичьи гнёзда</text>
+    <text x="50" y="175">5. Не ловить диких животных</text>
+    <text x="50" y="195">6. Бережно относиться к воде</text>
+  </g>
+  <!-- Why protect -->
+  <rect x="30" y="225" width="440" height="110" fill="#E8F5E9" rx="10"/>
+  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Почему важно беречь природу?</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="270">Природа — наш дом</text>
+    <text x="50" y="290">Загрязнение вредно для всех живых существ</text>
+    <text x="50" y="310">Исчезновение одного вида нарушает равновесие</text>
+    <text x="50" y="330" fill="#1B5E20" font-weight="bold">Природу нужно беречь для будущих поколений!</text>
+  </g>
+</svg>

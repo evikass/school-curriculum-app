@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes compose{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}.note{animation:compose 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E8EAF6"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#283593">Композиторы России</text>
+  <!-- Composers -->
+  <rect x="30" y="50" width="440" height="150" fill="white" rx="10" stroke="#9FA8DA" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#283593">Великие русские композиторы</text>
+  <g font-family="Arial,sans-serif" font-size="11">
+    <rect x="50" y="82" width="200" height="30" fill="#C5CAE9" rx="5"/><text x="150" y="102" text-anchor="middle" fill="#283593" font-weight="bold">М.И. Глинка (1804-1857)</text>
+    <rect x="260" y="82" width="200" height="30" fill="#E8EAF6" rx="5"/><text x="360" y="102" text-anchor="middle" fill="#283593" font-weight="bold">П.И. Чайковский (1840-1893)</text>
+    <rect x="50" y="120" width="200" height="30" fill="#E8EAF6" rx="5"/><text x="150" y="140" text-anchor="middle" fill="#283593" font-weight="bold">Н.А. Римский-Корсаков</text>
+    <rect x="260" y="120" width="200" height="30" fill="#C5CAE9" rx="5"/><text x="360" y="140" text-anchor="middle" fill="#283593" font-weight="bold">С.В. Рахманинов</text>
+    <rect x="50" y="158" width="200" height="30" fill="#C5CAE9" rx="5"/><text x="150" y="178" text-anchor="middle" fill="#283593" font-weight="bold">М.П. Мусоргский</text>
+    <rect x="260" y="158" width="200" height="30" fill="#E8EAF6" rx="5"/><text x="360" y="178" text-anchor="middle" fill="#283593" font-weight="bold">Д.Д. Шостакович</text>
+  </g>
+  <!-- Famous works -->
+  <rect x="30" y="215" width="440" height="120" fill="#E8EAF6" rx="10"/>
+  <text x="250" y="238" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#283593">Известные произведения</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="260">Глинка — опера «Руслан и Людмила»</text>
+    <text x="50" y="280">Чайковский — балет «Щелкунчик»</text>
+    <text x="50" y="300">Римский-Корсаков — «Полет шмеля»</text>
+    <text x="50" y="320" fill="#283593">Русская музыка — одна из величайших в мире!</text>
+  </g>
+</svg>

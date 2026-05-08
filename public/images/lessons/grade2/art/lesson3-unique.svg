@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes still{0%,100%{opacity:1}50%{opacity:0.8}}.fruit{animation:still 3s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Натюрморт</text>
+  <!-- Still life scene -->
+  <rect x="30" y="50" width="440" height="160" fill="white" rx="10" stroke="#FFE082" stroke-width="2"/>
+  <!-- Table -->
+  <rect x="40" y="160" width="420" height="15" fill="#8D6E63" rx="2"/>
+  <!-- Vase -->
+  <path d="M200,160 Q190,130 195,110 Q200,90 220,85 Q240,90 245,110 Q250,130 240,160Z" fill="#1565C0" stroke="#0D47A1" stroke-width="1"/>
+  <ellipse cx="220" cy="160" rx="20" ry="5" fill="#0D47A1"/>
+  <!-- Flowers in vase -->
+  <line x1="210" y1="85" x2="200" y2="55" stroke="#4CAF50" stroke-width="2"/>
+  <circle cx="200" cy="50" r="8" fill="#F44336"/>
+  <line x1="220" y1="85" x2="220" y2="50" stroke="#4CAF50" stroke-width="2"/>
+  <circle cx="220" cy="45" r="8" fill="#FFC107"/>
+  <line x1="230" y1="85" x2="240" y2="55" stroke="#4CAF50" stroke-width="2"/>
+  <circle cx="240" cy="50" r="8" fill="#E91E63"/>
+  <!-- Fruits -->
+  <g class="fruit">
+    <circle cx="130" cy="148" r="15" fill="#F44336"/>
+    <circle cx="155" cy="152" r="12" fill="#FF9800"/>
+    <circle cx="170" cy="145" r="13" fill="#FFC107"/>
+  </g>
+  <!-- Pitcher -->
+  <path d="M320,160 Q310,140 315,120 Q320,100 340,95 Q355,95 360,110 L360,160Z" fill="#FFECB3" stroke="#E65100" stroke-width="1"/>
+  <ellipse cx="340" cy="95" rx="22" ry="5" fill="#FFE082" stroke="#E65100" stroke-width="1"/>
+  <!-- Info -->
+  <rect x="30" y="225" width="440" height="110" fill="#FFF8E1" rx="10"/>
+  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Натюрморт — изображение неживых предметов</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="272">Фрукты, цветы, посуда, книги</text>
+    <text x="50" y="292">Предметы располагают на столе</text>
+    <text x="50" y="312">Важно передать форму, цвет, свет и тень</text>
+    <text x="50" y="332" fill="#E65100">Натюрморт в переводе с французского — «мёртвая природа»</text>
+  </g>
+</svg>

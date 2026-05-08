@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes soft{0%,100%{opacity:1}50%{opacity:0.6}}.sign{animation:soft 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E8EAF6"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#283593">Разделительный мягкий знак</text>
+  <rect x="30" y="50" width="440" height="60" fill="white" rx="10" stroke="#9FA8DA" stroke-width="2"/>
+  <text x="250" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#283593">Мягкий знак (Ь) разделяет согласную и гласную</text>
+  <text x="250" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Пишется перед Е, Ё, Ю, Я, И</text>
+  <!-- Examples -->
+  <g transform="translate(30,125)" font-family="Arial,sans-serif">
+    <rect x="0" y="0" width="130" height="65" fill="#C5CAE9" rx="8" stroke="#283593" stroke-width="1"/>
+    <text x="65" y="25" text-anchor="middle" font-size="20" font-weight="bold" fill="#283593">дерев<span class="sign" fill="#3F51B5">ь</span>я</text>
+    <text x="65" y="48" text-anchor="middle" font-size="10" fill="#555">без Ь: дерева</text>
+    <text x="65" y="60" text-anchor="middle" font-size="10" fill="#283593">с Ь: деревья</text>
+    <rect x="145" y="0" width="130" height="65" fill="#C5CAE9" rx="8" stroke="#283593" stroke-width="1"/>
+    <text x="210" y="25" text-anchor="middle" font-size="20" font-weight="bold" fill="#283593">в<span class="sign" fill="#3F51B5">ь</span>юга</text>
+    <text x="210" y="48" text-anchor="middle" font-size="10" fill="#555">без Ь: вюга (нет)</text>
+    <text x="210" y="60" text-anchor="middle" font-size="10" fill="#283593">с Ь: вьюга</text>
+    <rect x="290" y="0" width="130" height="65" fill="#C5CAE9" rx="8" stroke="#283593" stroke-width="1"/>
+    <text x="355" y="25" text-anchor="middle" font-size="20" font-weight="bold" fill="#283593">п<span class="sign" fill="#3F51B5">ь</span>еса</text>
+    <text x="355" y="48" text-anchor="middle" font-size="10" fill="#555">без Ь: песа (нет)</text>
+    <text x="355" y="60" text-anchor="middle" font-size="10" fill="#283593">с Ь: пьеса</text>
+  </g>
+  <!-- More words -->
+  <rect x="30" y="205" width="440" height="55" fill="#E8EAF6" rx="10"/>
+  <text x="250" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#283593">листья, ручьи, семья, платье, крылья, соловьи</text>
+  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Ь показывает, что согласный звук произносится мягко</text>
+  <!-- Compare -->
+  <rect x="30" y="270" width="210" height="65" fill="white" rx="8" stroke="#9FA8DA"/>
+  <text x="135" y="292" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#C62828">полю</text>
+  <text x="135" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Ь — показатель мягкости</text>
+  <rect x="260" y="270" width="210" height="65" fill="white" rx="8" stroke="#9FA8DA"/>
+  <text x="365" y="292" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#283593">полью</text>
+  <text x="365" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Ь — разделительный</text>
+</svg>

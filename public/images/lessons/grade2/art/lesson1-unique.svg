@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes paint{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}.brush{animation:paint 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FFF3E0"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#BF360C">Что такое живопись?</text>
+  <!-- Palette -->
+  <g class="brush" transform="translate(30,50)">
+    <ellipse cx="80" cy="80" rx="70" ry="50" fill="#795548"/>
+    <circle cx="50" cy="65" r="10" fill="#F44336"/><circle cx="75" cy="55" r="10" fill="#FF9800"/>
+    <circle cx="105" cy="55" r="10" fill="#FFC107"/><circle cx="125" cy="70" r="10" fill="#4CAF50"/>
+    <circle cx="50" cy="90" r="10" fill="#2196F3"/><circle cx="80" cy="95" r="10" fill="#9C27B0"/>
+    <ellipse cx="100" cy="90" rx="12" ry="10" fill="#795548"/>
+  </g>
+  <!-- Definition -->
+  <rect x="200" y="55" width="270" height="120" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
+  <text x="335" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#BF360C">Живопись</text>
+  <text x="335" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#333">— вид изобразительного искусства</text>
+  <text x="335" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#333">произведения создаются красками</text>
+  <text x="335" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#333">на холсте, бумаге, дереве</text>
+  <text x="335" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#BF360C">Живопись = «живо писать» (изображать)</text>
+  <!-- Materials -->
+  <rect x="30" y="195" width="440" height="65" fill="#FFF3E0" rx="10"/>
+  <text x="250" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#BF360C">Материалы художника</text>
+  <g font-family="Arial,sans-serif" font-size="11" fill="#333">
+    <rect x="50" y="228" width="70" height="22" fill="#FFCCBC" rx="3"/><text x="85" y="244" text-anchor="middle">Краски</text>
+    <rect x="130" y="228" width="70" height="22" fill="#FFE0B2" rx="3"/><text x="165" y="244" text-anchor="middle">Кисти</text>
+    <rect x="210" y="228" width="70" height="22" fill="#FFF9C4" rx="3"/><text x="245" y="244" text-anchor="middle">Холст</text>
+    <rect x="290" y="228" width="70" height="22" fill="#C8E6C9" rx="3"/><text x="325" y="244" text-anchor="middle">Палитра</text>
+    <rect x="370" y="228" width="80" height="22" fill="#BBDEFB" rx="3"/><text x="410" y="244" text-anchor="middle">Карандаши</text>
+  </g>
+  <!-- Genres -->
+  <rect x="30" y="270" width="440" height="65" fill="white" rx="10" stroke="#FFAB91" stroke-width="1"/>
+  <text x="250" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#BF360C">Жанры живописи</text>
+  <text x="250" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Пейзаж, натюрморт, портрет, историческая картина</text>
+  <text x="250" y="328" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Каждый жанр изображает свой мир</text>
+</svg>

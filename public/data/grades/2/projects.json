@@ -33,7 +33,7 @@
               "Составить композицию",
               "Оформить коллаж, расположив фотографии и подписи гармонично"
             ],
-            "image": "/images/lessons/grade2/projects/lesson1.svg"
+            "image": "/images/lessons/grade2/projects/lesson1-unique.svg"
           },
           {
             "title": "Урок 2: Мой питомец",
@@ -55,7 +55,7 @@
               "Подобрать фотографии",
               "Создать плакат с рисунком питомца и кратким описанием его повадок"
             ],
-            "image": "/images/lessons/grade2/projects/lesson2.svg"
+            "image": "/images/lessons/grade2/projects/lesson2-unique.svg"
           },
           {
             "title": "Урок 3: Времена года",
@@ -77,7 +77,7 @@
               "Составить описание из 4-5 предложений о выбранном времени года",
               "Оформить работу, аккуратно расположив иллюстрации и текст на листе"
             ],
-            "image": "/images/lessons/grade2/projects/lesson3.svg"
+            "image": "/images/lessons/grade2/projects/lesson3-unique.svg"
           },
           {
             "title": "Урок 4: Мой город",
@@ -99,7 +99,7 @@
               "Добавить 3-5 фотографий или рисунков достопримечательностей города",
               "Подготовить и провести презентацию проекта перед классом"
             ],
-            "image": "/images/lessons/grade2/projects/lesson4.svg"
+            "image": "/images/lessons/grade2/projects/lesson4-unique.svg"
           }
         ]
       },
@@ -126,7 +126,7 @@
               "Сделать зарисовки растения в дневник наблюдений",
               "Подготовить отчёт о наблюдениях в виде рисунка и подписей"
             ],
-            "image": "/images/lessons/grade2/projects/lesson5.svg"
+            "image": "/images/lessons/grade2/projects/lesson5-unique.svg"
           },
           {
             "title": "Урок 6: Погода и природа",
@@ -148,7 +148,7 @@
               "Зарисовывать форму облаков и определять их тип",
               "Сделать выводы о том, как погода менялась за неделю наблюдений"
             ],
-            "image": "/images/lessons/grade2/projects/lesson6.svg"
+            "image": "/images/lessons/grade2/projects/lesson6-unique.svg"
           },
           {
             "title": "Урок 7: Мир животных",
@@ -170,7 +170,7 @@
               "Собрать информацию о животном из 2-3 источников",
               "Создать презентацию о животном с рисунками и подписями"
             ],
-            "image": "/images/lessons/grade2/projects/lesson7.svg"
+            "image": "/images/lessons/grade2/projects/lesson7-unique.svg"
           },
           {
             "title": "Урок 8: Экологический проект",
@@ -192,7 +192,7 @@
               "Выполнить практические действия по решению проблемы",
               "Рассказать о результатах"
             ],
-            "image": "/images/lessons/grade2/projects/lesson8.svg"
+            "image": "/images/lessons/grade2/projects/lesson8-unique.svg"
           }
         ]
       },
@@ -219,7 +219,7 @@
               "Подготовить наглядность",
               "Потренироваться выступать"
             ],
-            "image": "/images/lessons/grade2/projects/lesson9.svg"
+            "image": "/images/lessons/grade2/projects/lesson9-unique.svg"
           },
           {
             "title": "Урок 10: Наглядные материалы",
@@ -241,7 +241,7 @@
               "Оформить плакат с заголовком, текстом и иллюстрациями",
               "Добавить иллюстрации"
             ],
-            "image": "/images/lessons/grade2/projects/lesson10.svg"
+            "image": "/images/lessons/grade2/projects/lesson10-unique.svg"
           },
           {
             "title": "Урок 11: Выступление",
@@ -263,7 +263,7 @@
               "Показать готовый продукт проекта и объяснить его назначение",
               "Ответить на вопросы одноклассников и учителя о проекте"
             ],
-            "image": "/images/lessons/grade2/projects/lesson11.svg"
+            "image": "/images/lessons/grade2/projects/lesson11-unique.svg"
           },
           {
             "title": "Урок 12: Анализ проекта",
@@ -285,7 +285,7 @@
               "Рассказать, какие новые знания и умения получил при работе над проектом",
               "Составить план, что хотел бы сделать в следующем проекте"
             ],
-            "image": "/images/lessons/grade2/projects/lesson12.svg"
+            "image": "/images/lessons/grade2/projects/lesson12-unique.svg"
           }
         ]
       }

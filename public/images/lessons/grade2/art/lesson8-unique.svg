@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes bloom{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}.flower{animation:bloom 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FFF3E0"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#BF360C">Городецкая роспись</text>
+  <!-- Gorodets board -->
+  <g transform="translate(30,55)">
+    <rect x="0" y="0" width="200" height="155" fill="#FFECB3" rx="8" stroke="#E65100" stroke-width="2"/>
+    <!-- Horse -->
+    <ellipse cx="100" cy="80" rx="40" ry="25" fill="#C62828"/>
+    <circle cx="70" cy="65" r="15" fill="#C62828"/>
+    <rect x="60" y="55" width="8" height="20" fill="#C62828" rx="2"/>
+    <rect x="76" y="55" width="8" height="20" fill="#C62828" rx="2"/>
+    <rect x="130" y="65" width="25" height="4" fill="#C62828" rx="1"/>
+    <!-- Decorative flower -->
+    <g class="flower" transform="translate(140,30)">
+      <circle cx="0" cy="0" r="12" fill="#FFC107"/>
+      <circle cx="0" cy="-15" r="8" fill="#4CAF50"/>
+      <circle cx="14" cy="-5" r="8" fill="#4CAF50"/>
+      <circle cx="9" cy="12" r="8" fill="#4CAF50"/>
+      <circle cx="-9" cy="12" r="8" fill="#4CAF50"/>
+      <circle cx="-14" cy="-5" r="8" fill="#4CAF50"/>
+    </g>
+  </g>
+  <!-- Info -->
+  <rect x="250" y="55" width="220" height="155" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
+  <text x="360" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#BF360C">Городецкая роспись</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="265" y="100">Родина: г. Городец</text>
+    <text x="265" y="118">Цвета: красный, чёрный,</text>
+    <text x="265" y="136">зелёный, жёлтый</text>
+    <text x="265" y="154">Мотивы: кони, птицы,</text>
+    <text x="265" y="172">цветы, всадники</text>
+    <text x="265" y="190">Предметы: прялки, доски</text>
+  </g>
+  <!-- Technique -->
+  <rect x="30" y="225" width="440" height="110" fill="#FFF3E0" rx="10"/>
+  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#BF360C">Особенности городецкой росписи</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="270">Яркие, сочные цвета</text>
+    <text x="50" y="290">Конь — символ благополучия</text>
+    <text x="50" y="310">Птица — символ счастья</text>
+    <text x="50" y="330" fill="#BF360C">Розан и купавка — главные цветы</text>
+  </g>
+</svg>

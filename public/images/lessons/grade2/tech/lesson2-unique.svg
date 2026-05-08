@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes bloom{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}.flower{animation:bloom 3s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FCE4EC"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#880E4F">Аппликация «Цветы»</text>
+  <!-- Flower -->
+  <g class="flower" transform="translate(30,55)">
+    <rect x="0" y="0" width="180" height="145" fill="white" rx="10" stroke="#F48FB1" stroke-width="2"/>
+    <circle cx="90" cy="60" r="25" fill="#FFC107"/>
+    <circle cx="90" cy="30" r="18" fill="#F44336"/>
+    <circle cx="115" cy="45" r="18" fill="#E91E63"/>
+    <circle cx="115" cy="75" r="18" fill="#FF5722"/>
+    <circle cx="90" cy="90" r="18" fill="#F44336"/>
+    <circle cx="65" cy="75" r="18" fill="#E91E63"/>
+    <circle cx="65" cy="45" r="18" fill="#FF5722"/>
+    <rect x="85" y="90" width="10" height="45" fill="#4CAF50"/>
+    <ellipse cx="60" cy="120" rx="20" ry="8" fill="#66BB6A" transform="rotate(-30,60,120)"/>
+  </g>
+  <!-- Steps -->
+  <rect x="230" y="55" width="240" height="145" fill="white" rx="10" stroke="#F48FB1" stroke-width="2"/>
+  <text x="350" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#880E4F">Этапы работы</text>
+  <g font-family="Arial,sans-serif" font-size="11" fill="#333">
+    <text x="245" y="98">1. Подготовить цветную бумагу</text>
+    <text x="245" y="115">2. Нарисовать детали цветка</text>
+    <text x="245" y="132">3. Вырезать лепестки, стебель</text>
+    <text x="245" y="149">4. Разложить на основе</text>
+    <text x="245" y="166">5. Приклеить по порядку</text>
+    <text x="245" y="183">6. Украсить дополнительно</text>
+  </g>
+  <!-- Tips -->
+  <rect x="30" y="215" width="440" height="120" fill="#FCE4EC" rx="10"/>
+  <text x="250" y="238" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#880E4F">Советы по аппликации</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="260">Клей наносить тонким слоем</text>
+    <text x="50" y="280">Сначала крупные детали, потом мелкие</text>
+    <text x="50" y="300">Лепестки можно наклеивать внахлёст</text>
+    <text x="50" y="320" fill="#880E4F">Аппликация — вырезание и наклеивание фигур</text>
+  </g>
+</svg>

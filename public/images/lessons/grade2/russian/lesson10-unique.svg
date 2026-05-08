@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes step{0%,100%{opacity:1}50%{opacity:0.7}}.highlight{animation:step 1.5s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">План текста</text>
+  <!-- Steps -->
+  <rect x="30" y="50" width="440" height="60" fill="white" rx="10" stroke="#FFE082" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#E65100">План — это краткая запись содержания текста</text>
+  <text x="250" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Помогает понять и пересказать текст</text>
+  <!-- Plan example -->
+  <g transform="translate(30,125)">
+    <rect x="0" y="0" width="440" height="130" fill="#FFF8E1" rx="10" stroke="#FFE082" stroke-width="2"/>
+    <text x="220" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">План рассказа «Весна пришла»</text>
+    <g class="highlight" font-family="Arial,sans-serif" font-size="12">
+      <rect x="20" y="35" width="400" height="22" fill="#FFECB3" rx="3"/>
+      <text x="30" y="51" fill="#E65100">1. Последние дни зимы.</text>
+      <rect x="20" y="62" width="400" height="22" fill="#FFF9C4" rx="3"/>
+      <text x="30" y="78" fill="#E65100">2. Первые признаки весны.</text>
+      <rect x="20" y="89" width="400" height="22" fill="#FFECB3" rx="3"/>
+      <text x="30" y="105" fill="#E65100">3. Весёлые ручьи и птицы.</text>
+    </g>
+  </g>
+  <!-- How to make a plan -->
+  <rect x="30" y="270" width="440" height="65" fill="white" rx="10" stroke="#FFE082" stroke-width="2"/>
+  <text x="250" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Как составить план</text>
+  <text x="250" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">1. Прочитай текст 2. Раздели на части 3. Озаглавь каждую часть</text>
+  <text x="250" y="325" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">4. Запиши пункты плана по порядку</text>
+</svg>

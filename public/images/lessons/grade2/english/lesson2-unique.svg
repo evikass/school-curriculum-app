@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes heart{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}.love{animation:heart 1.5s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FCE4EC"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#880E4F">Describing Family</text>
+  <!-- Description bubbles -->
+  <rect x="30" y="50" width="440" height="120" fill="white" rx="10" stroke="#F48FB1" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#880E4F">How to describe your family</text>
+  <g font-family="Arial,sans-serif" font-size="12">
+    <rect x="50" y="82" width="130" height="25" fill="#F8BBD0" rx="5"/>
+    <text x="115" y="100" text-anchor="middle" fill="#880E4F">tall / short</text>
+    <rect x="195" y="82" width="130" height="25" fill="#F8BBD0" rx="5"/>
+    <text x="260" y="100" text-anchor="middle" fill="#880E4F">kind / strict</text>
+    <rect x="340" y="82" width="110" height="25" fill="#F8BBD0" rx="5"/>
+    <text x="395" y="100" text-anchor="middle" fill="#880E4F">young / old</text>
+    <rect x="50" y="115" width="150" height="25" fill="#E1BEE7" rx="5"/>
+    <text x="125" y="133" text-anchor="middle" fill="#6A1B9A">beautiful / handsome</text>
+    <rect x="215" y="115" width="120" height="25" fill="#E1BEE7" rx="5"/>
+    <text x="275" y="133" text-anchor="middle" fill="#6A1B9A">funny / serious</text>
+  </g>
+  <!-- Sentences -->
+  <rect x="30" y="185" width="440" height="155" fill="#FCE4EC" rx="10"/>
+  <text x="250" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#880E4F">Example Sentences</text>
+  <g font-family="Arial,sans-serif" font-size="11" fill="#333">
+    <text x="50" y="232">My mother is kind and beautiful.</text>
+    <text x="50" y="250">My father is tall and strong.</text>
+    <text x="50" y="268">My sister is funny and clever.</text>
+    <text x="50" y="286">My brother is young and active.</text>
+    <text x="50" y="304">My grandmother is wise and caring.</text>
+    <text x="50" y="322">My grandfather is old but kind.</text>
+  </g>
+</svg>

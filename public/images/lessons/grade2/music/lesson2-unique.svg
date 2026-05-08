@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes melody{0%,100%{transform:translateX(0)}50%{transform:translateX(3px)}}.wave{animation:melody 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#F3E5F5"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#6A1B9A">Мелодия и ритм</text>
+  <!-- Melody wave -->
+  <rect x="30" y="50" width="440" height="120" fill="white" rx="10" stroke="#CE93D8" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#6A1B9A">Мелодия — душа музыки</text>
+  <g class="wave">
+    <path d="M50,110 Q80,80 110,100 Q140,120 170,90 Q200,60 230,85 Q260,110 290,80 Q320,50 350,75 Q380,100 410,90 L440,95" fill="none" stroke="#9C27B0" stroke-width="3"/>
+  </g>
+  <text x="250" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Последовательность звуков разной высоты</text>
+  <!-- Rhythm -->
+  <rect x="30" y="185" width="440" height="80" fill="#F3E5F5" rx="10"/>
+  <text x="250" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#6A1B9A">Ритм — пульс музыки</text>
+  <g font-family="Arial,sans-serif" font-size="20" fill="#6A1B9A" text-anchor="middle">
+    <text x="70" y="240">&#9833;</text><text x="110" y="240">&#9833;</text>
+    <text x="150" y="240">&#9834;</text><text x="210" y="240">&#9833;</text>
+    <text x="250" y="240">&#9833;</text><text x="290" y="240">&#9834;</text>
+    <text x="350" y="240">&#9833;</text><text x="390" y="240">&#9834;</text>
+    <text x="430" y="240">&#9834;</text>
+  </g>
+  <!-- Comparison -->
+  <rect x="30" y="280" width="210" height="55" fill="white" rx="8" stroke="#CE93D8"/>
+  <text x="135" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#6A1B9A">Мелодия</text>
+  <text x="135" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Высота звуков, их порядок</text>
+  <rect x="260" y="280" width="210" height="55" fill="white" rx="8" stroke="#CE93D8"/>
+  <text x="365" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#6A1B9A">Ритм</text>
+  <text x="365" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Длительность звуков, их чередование</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes highlight { 0%,100%{fill:#FFF9C4} 50%{fill:#FFECB3} }
+      .tens-box { animation: highlight 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FFF3E0"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Двузначные числа и их разряды</text>
+  <!-- Place value chart -->
+  <rect x="80" y="50" width="340" height="90" fill="white" rx="10" stroke="#E65100" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Разрядная таблица</text>
+  <!-- Tens column -->
+  <rect x="100" y="80" width="130" height="45" class="tens-box" rx="8" stroke="#FF8F00" stroke-width="2"/>
+  <text x="165" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#E65100">Десятки</text>
+  <text x="165" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FF8F00">3</text>
+  <!-- Ones column -->
+  <rect x="270" y="80" width="130" height="45" fill="#E8F5E9" rx="8" stroke="#2E7D32" stroke-width="2"/>
+  <text x="335" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32">Единицы</text>
+  <text x="335" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#2E7D32">7</text>
+  <!-- Arrow to number -->
+  <text x="250" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#555">3 десятка + 7 единиц =</text>
+  <text x="250" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="36" font-weight="bold" fill="#E65100">37</text>
+  <!-- More examples -->
+  <g transform="translate(30,215)">
+    <rect x="0" y="0" width="140" height="55" fill="white" rx="8" stroke="#BBDEFB" stroke-width="1"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#1565C0">5 дес. + 2 ед.</text>
+    <text x="70" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#1565C0">52</text>
+  </g>
+  <g transform="translate(180,215)">
+    <rect x="0" y="0" width="140" height="55" fill="white" rx="8" stroke="#F8BBD0" stroke-width="1"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#C2185B">8 дес. + 4 ед.</text>
+    <text x="70" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#C2185B">84</text>
+  </g>
+  <g transform="translate(330,215)">
+    <rect x="0" y="0" width="140" height="55" fill="white" rx="8" stroke="#C8E6C9" stroke-width="1"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32">9 дес. + 0 ед.</text>
+    <text x="70" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#2E7D32">90</text>
+  </g>
+  <!-- Rule -->
+  <rect x="30" y="285" width="440" height="55" fill="#FFF8E1" rx="10"/>
+  <text x="250" y="308" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Двузначное число = десятки + единицы</text>
+  <text x="250" y="328" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#795548">Первая цифра слева — десятки, вторая — единицы</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes fly{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}.bird{animation:fly 1.5s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E3F2FD"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#0D47A1">Оригами «Голубь»</text>
+  <!-- Origami dove -->
+  <g class="bird" transform="translate(30,55)">
+    <rect x="0" y="0" width="180" height="130" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
+    <!-- Stylized origami bird -->
+    <polygon points="90,20 60,60 90,50" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+    <polygon points="90,20 120,60 90,50" fill="#90CAF9" stroke="#1565C0" stroke-width="1.5"/>
+    <polygon points="60,60 90,50 50,80" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+    <polygon points="120,60 90,50 130,80" fill="#90CAF9" stroke="#1565C0" stroke-width="1.5"/>
+    <polygon points="90,50 90,100 75,110" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+    <polygon points="90,50 90,100 105,110" fill="#90CAF9" stroke="#1565C0" stroke-width="1.5"/>
+    <circle cx="82" cy="38" r="2" fill="#0D47A1"/>
+  </g>
+  <!-- Steps -->
+  <rect x="230" y="55" width="240" height="130" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
+  <text x="350" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Что такое оригами?</text>
+  <g font-family="Arial,sans-serif" font-size="11" fill="#333">
+    <text x="245" y="98">Оригами — японское искусство</text>
+    <text x="245" y="115">складывания фигурок из бумаги</text>
+    <text x="245" y="135">Нужен только квадратный лист!</text>
+    <text x="245" y="155">Без клея и ножниц</text>
+    <text x="245" y="175" fill="#0D47A1">Голубь — символ мира</text>
+  </g>
+  <!-- Folding tips -->
+  <rect x="30" y="200" width="440" height="135" fill="#E3F2FD" rx="10"/>
+  <text x="250" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Правила складывания</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="245">Сгибай аккуратно, проглаживай линию</text>
+    <text x="50" y="265">Совмещай углы точно</text>
+    <text x="50" y="285">Делай сгибы в одном направлении</text>
+    <text x="50" y="305">Следуй инструкции шаг за шагом</text>
+    <text x="50" y="325" fill="#0D47A1">Оригами развивает терпение и мелкую моторику!</text>
+  </g>
+</svg>

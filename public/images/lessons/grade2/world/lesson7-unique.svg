@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes protect{0%,100%{transform:scale(1)}50%{transform:scale(1.02)}}.book{animation:protect 3s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FFEBEE"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#B71C1C">Красная книга</text>
+  <!-- Red book -->
+  <g class="book" transform="translate(30,50)">
+    <rect x="0" y="0" width="160" height="130" fill="#C62828" rx="5"/>
+    <rect x="5" y="5" width="150" height="120" fill="#FFCDD2" rx="3"/>
+    <text x="80" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#B71C1C">КРАСНАЯ</text>
+    <text x="80" y="60" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#B71C1C">КНИГА</text>
+    <line x1="20" y1="70" x2="140" y2="70" stroke="#B71C1C" stroke-width="1"/>
+    <text x="80" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#B71C1C">Редкие и исчезающие</text>
+    <text x="80" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#B71C1C">виды животных</text>
+    <text x="80" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#B71C1C">и растений</text>
+  </g>
+  <!-- Categories -->
+  <rect x="210" y="50" width="260" height="130" fill="white" rx="10" stroke="#EF9A9A" stroke-width="2"/>
+  <text x="340" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#B71C1C">Категории</text>
+  <g font-family="Arial,sans-serif" font-size="11" fill="#333">
+    <rect x="225" y="80" width="100" height="22" fill="#FFCDD2" rx="3"/><text x="275" y="96" text-anchor="middle" fill="#C62828">Исчезающие</text>
+    <rect x="335" y="80" width="120" height="22" fill="#FFECB3" rx="3"/><text x="395" y="96" text-anchor="middle" fill="#E65100">Сокращающиеся</text>
+    <rect x="225" y="110" width="100" height="22" fill="#FFF9C4" rx="3"/><text x="275" y="126" text-anchor="middle" fill="#F57F17">Редкие</text>
+    <rect x="335" y="110" width="120" height="22" fill="#C8E6C9" rx="3"/><text x="395" y="126" text-anchor="middle" fill="#2E7D32">Восстанавливаемые</text>
+  </g>
+  <text x="340" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#B71C1C">Амурский тигр, белый медведь, лотос</text>
+  <text x="340" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">Зубр, снежный барс, журавль</text>
+  <!-- How to help -->
+  <rect x="30" y="200" width="440" height="135" fill="#FFEBEE" rx="10"/>
+  <text x="250" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#B71C1C">Как мы можем помочь?</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="245">Не рвать редкие цветы</text>
+    <text x="50" y="265">Не разорять гнёзда и муравейники</text>
+    <text x="50" y="285">Не мусорить в лесу и у водоёмов</text>
+    <text x="50" y="305">Беречь природу и животных</text>
+    <text x="50" y="325" fill="#B71C1C" font-weight="bold">Красная книга — сигнал тревоги!</text>
+  </g>
+</svg>

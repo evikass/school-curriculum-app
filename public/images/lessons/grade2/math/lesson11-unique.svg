@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes think { 0%,100%{transform:rotate(-3deg)} 50%{transform:rotate(3deg)} }
+      .wobble { animation: think 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FFF3E0"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#BF360C">Решение задач</text>
+  <!-- Problem card -->
+  <rect x="30" y="50" width="440" height="90" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
+  <text x="50" y="75" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#BF360C">Задача:</text>
+  <text x="50" y="95" font-family="Arial,sans-serif" font-size="13" fill="#333">В корзине 8 яблок, а груш на 3 больше.</text>
+  <text x="50" y="115" font-family="Arial,sans-serif" font-size="13" fill="#333">Сколько груш в корзине?</text>
+  <!-- Steps -->
+  <g transform="translate(30,155)">
+    <rect x="0" y="0" width="105" height="55" fill="#FFCCBC" rx="8" stroke="#BF360C" stroke-width="1"/>
+    <text x="52" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#BF360C">1. Условие</text>
+    <text x="52" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">Яб. - 8</text>
+    <text x="52" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">Гр. - ? на 3 б.</text>
+  </g>
+  <g class="wobble" transform="translate(145,155)">
+    <rect x="0" y="0" width="105" height="55" fill="#FFE0B2" rx="8" stroke="#BF360C" stroke-width="1"/>
+    <text x="52" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#BF360C">2. Вопрос</text>
+    <text x="52" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">Сколько груш?</text>
+  </g>
+  <g transform="translate(260,155)">
+    <rect x="0" y="0" width="105" height="55" fill="#FFF9C4" rx="8" stroke="#BF360C" stroke-width="1"/>
+    <text x="52" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#BF360C">3. Решение</text>
+    <text x="52" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#333">8 + 3 = 11</text>
+  </g>
+  <g transform="translate(375,155)">
+    <rect x="0" y="0" width="95" height="55" fill="#C8E6C9" rx="8" stroke="#2E7D32" stroke-width="1"/>
+    <text x="47" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#2E7D32">4. Ответ</text>
+    <text x="47" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32">11 груш</text>
+  </g>
+  <!-- Types -->
+  <rect x="30" y="225" width="440" height="110" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
+  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#BF360C">Типы задач</text>
+  <g font-family="Arial,sans-serif" font-size="12">
+    <rect x="50" y="258" width="120" height="28" fill="#FFCCBC" rx="5"/>
+    <text x="110" y="277" text-anchor="middle" fill="#BF360C">На сложение</text>
+    <rect x="185" y="258" width="120" height="28" fill="#BBDEFB" rx="5"/>
+    <text x="245" y="277" text-anchor="middle" fill="#1565C0">На вычитание</text>
+    <rect x="320" y="258" width="130" height="28" fill="#C8E6C9" rx="5"/>
+    <text x="385" y="277" text-anchor="middle" fill="#2E7D32">На умножение</text>
+  </g>
+  <text x="250" y="318" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Внимательно читай условие, выдели вопрос, запиши решение!</text>
+</svg>

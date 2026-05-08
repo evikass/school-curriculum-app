@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes link{0%,100%{stroke-width:3}50%{stroke-width:5}}.chain{animation:link 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E8F5E9"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1B5E20">Связь слов в предложении</text>
+  <!-- Sentence diagram -->
+  <rect x="30" y="50" width="440" height="60" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#1B5E20">Маленькая девочка читает интересную книгу.</text>
+  <text x="250" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">Слова связаны по смыслу и грамматически</text>
+  <!-- Word connections -->
+  <g transform="translate(30,125)">
+    <rect x="0" y="0" width="440" height="100" fill="#E8F5E9" rx="10"/>
+    <text x="80" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#1B5E20">девочка</text>
+    <line x1="80" y1="30" x2="80" y2="55" class="chain" stroke="#4CAF50"/>
+    <text x="80" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32">читает</text>
+    <line x1="110" y1="25" x2="240" y2="25" stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="270" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#1B5E20">книгу</text>
+    <line x1="270" y1="30" x2="270" y2="55" stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="270" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32">интересную</text>
+    <line x1="50" y1="25" x2="20" y2="25" stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="20" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32">маленькая</text>
+  </g>
+  <!-- Types -->
+  <rect x="30" y="240" width="210" height="95" fill="white" rx="10" stroke="#A5D6A7" stroke-width="1"/>
+  <text x="135" y="262" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#1B5E20">Согласование</text>
+  <text x="135" y="282" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">маленькая девочка</text>
+  <text x="135" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">род, число, падеж</text>
+  <text x="135" y="318" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">совпадают</text>
+  <rect x="260" y="240" width="210" height="95" fill="white" rx="10" stroke="#A5D6A7" stroke-width="1"/>
+  <text x="365" y="262" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#1B5E20">Управление</text>
+  <text x="365" y="282" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">читает книгу</text>
+  <text x="365" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">глагол требует</text>
+  <text x="365" y="318" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">определённый падеж</text>
+</svg>

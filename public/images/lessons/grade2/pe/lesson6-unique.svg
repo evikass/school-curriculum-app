@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes jump{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}.leap{animation:jump 1s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FFF3E0"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Прыжки</text>
+  <!-- Jump types -->
+  <rect x="30" y="50" width="440" height="140" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Виды прыжков</text>
+  <g font-family="Arial,sans-serif" font-size="12">
+    <rect x="50" y="82" width="130" height="35" fill="#FFCCBC" rx="5"/><text x="115" y="100" text-anchor="middle" fill="#BF360C" font-weight="bold">В длину</text><text x="115" y="114" text-anchor="middle" fill="#555" font-size="10">с места и с разбега</text>
+    <rect x="195" y="82" width="130" height="35" fill="#FFE0B2" rx="5"/><text x="260" y="100" text-anchor="middle" fill="#E65100" font-weight="bold">В высоту</text><text x="260" y="114" text-anchor="middle" fill="#555" font-size="10">перешагивание</text>
+    <rect x="340" y="82" width="110" height="35" fill="#FFF9C4" rx="5"/><text x="395" y="100" text-anchor="middle" fill="#F57F17" font-weight="bold">На месте</text><text x="395" y="114" text-anchor="middle" fill="#555" font-size="10">на двух ногах</text>
+    <rect x="50" y="130" width="130" height="35" fill="#C8E6C9" rx="5"/><text x="115" y="148" text-anchor="middle" fill="#2E7D32" font-weight="bold">Со скакалкой</text><text x="115" y="162" text-anchor="middle" fill="#555" font-size="10">на двух, на одной</text>
+    <rect x="195" y="130" width="130" height="35" fill="#BBDEFB" rx="5"/><text x="260" y="148" text-anchor="middle" fill="#1565C0" font-weight="bold">Через гимн.</text><text x="260" y="162" text-anchor="middle" fill="#555" font-size="10">козла</text>
+  </g>
+  <!-- Technique -->
+  <rect x="30" y="205" width="440" height="130" fill="#FFF3E0" rx="10"/>
+  <text x="250" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Техника прыжка в длину с места</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="250">1. Встать на линию, ноги на ширине плеч</text>
+    <text x="50" y="270">2. Отвести руки назад, присесть</text>
+    <text x="50" y="290">3. Оттолкнуться обеими ногами</text>
+    <text x="50" y="310">4. Махнуть руками вперёд-вверх</text>
+    <text x="50" y="330" fill="#E65100">5. Приземлиться на обе ноги, согнув колени</text>
+  </g>
+</svg>

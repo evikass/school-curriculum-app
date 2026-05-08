@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes balance{0%,100%{transform:rotate(-1deg)}50%{transform:rotate(1deg)}}.beam{animation:balance 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FBE9E7"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#BF360C">Упражнения на равновесие</text>
+  <!-- Balance beam -->
+  <g class="beam" transform="translate(30,50)">
+    <rect x="0" y="100" width="440" height="8" fill="#8D6E63" rx="3"/>
+    <rect x="0" y="108" width="440" height="5" fill="#5D4037" rx="2"/>
+    <!-- Figure on beam -->
+    <circle cx="220" cy="70" r="15" fill="#FFAB91" stroke="#BF360C" stroke-width="2"/>
+    <rect x="210" y="85" width="20" height="15" fill="#BF360C" rx="3"/>
+  </g>
+  <!-- Exercises -->
+  <rect x="30" y="175" width="440" height="165" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
+  <text x="250" y="198" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#BF360C">Упражнения на равновесие</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="220">Стойка на одной ноге</text>
+    <text x="50" y="240">Ходьба по гимнастической скамейке</text>
+    <text x="50" y="260">Поза «ласточка»</text>
+    <text x="50" y="280">Ходьба по линии с закрытыми глазами</text>
+    <text x="50" y="300">Кружение на месте (5-10 раз)</text>
+    <text x="50" y="320" fill="#BF360C">Равновесие развивает координацию и вестибулярный аппарат</text>
+  </g>
+</svg>

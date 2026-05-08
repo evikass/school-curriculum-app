@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes throw{0%,100%{transform:rotate(0deg)}50%{transform:rotate(10deg)}}.ball{animation:throw 1.5s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E3F2FD"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#0D47A1">Метание</text>
+  <!-- Throwing types -->
+  <rect x="30" y="50" width="440" height="120" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#0D47A1">Виды метания</text>
+  <g font-family="Arial,sans-serif" font-size="12">
+    <rect x="50" y="82" width="180" height="35" fill="#BBDEFB" rx="5"/><text x="140" y="100" text-anchor="middle" fill="#0D47A1" font-weight="bold">Метание вдаль</text><text x="140" y="114" text-anchor="middle" fill="#555" font-size="10">мяча на дальность</text>
+    <rect x="245" y="82" width="200" height="35" fill="#90CAF9" rx="5"/><text x="345" y="100" text-anchor="middle" fill="#0D47A1" font-weight="bold">Метание в цель</text><text x="345" y="114" text-anchor="middle" fill="#555" font-size="10">попасть в мишень</text>
+    <rect x="50" y="128" width="180" height="35" fill="#64B5F6" rx="5"/><text x="140" y="146" text-anchor="middle" fill="white" font-weight="bold">Метание снизу</text><text x="140" y="158" text-anchor="middle" fill="white" font-size="10">как в игре «цирки»</text>
+    <rect x="245" y="128" width="200" height="35" fill="#42A5F5" rx="5"/><text x="345" y="146" text-anchor="middle" fill="white" font-weight="bold">Метание сверху</text><text x="345" y="158" text-anchor="middle" fill="white" font-size="10">как в игре «вышибалы»</text>
+  </g>
+  <!-- Technique -->
+  <rect x="30" y="185" width="440" height="150" fill="#E3F2FD" rx="10"/>
+  <text x="250" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Техника метания мяча вдаль</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="230">1. Встать боком к направлению</text>
+    <text x="50" y="250">2. Замахнуть руку назад</text>
+    <text x="50" y="270">3. Перенести вес на толчковую ногу</text>
+    <text x="50" y="290">4. Бросить мяч, выпрямив руку</text>
+    <text x="50" y="310">5. Отпустить мяч в высшей точке</text>
+    <text x="50" y="330" fill="#0D47A1">Метание развивает силу рук и глазомер!</text>
+  </g>
+</svg>

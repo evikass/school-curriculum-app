@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes ring{0%,100%{stroke-width:2}50%{stroke-width:4}}.pair{animation:ring 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#F1F8E9"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1B5E20">Парные согласные в корне</text>
+  <!-- Pairs -->
+  <rect x="30" y="50" width="440" height="100" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Парные согласные звуки</text>
+  <g font-family="Arial,sans-serif" font-size="18" font-weight="bold" text-anchor="middle">
+    <rect x="55" y="82" width="50" height="30" fill="#C8E6C9" rx="5"/><text x="80" y="104" fill="#2E7D32">Б</text>
+    <text x="118" y="104" fill="#1B5E20">-</text>
+    <rect x="130" y="82" width="50" height="30" fill="#FFCDD2" rx="5"/><text x="155" y="104" fill="#C62828">П</text>
+    <rect x="210" y="82" width="50" height="30" fill="#C8E6C9" rx="5"/><text x="235" y="104" fill="#2E7D32">В</text>
+    <text x="273" y="104" fill="#1B5E20">-</text>
+    <rect x="285" y="82" width="50" height="30" fill="#FFCDD2" rx="5"/><text x="310" y="104" fill="#C62828">Ф</text>
+    <rect x="365" y="82" width="50" height="30" fill="#C8E6C9" rx="5"/><text x="390" y="104" fill="#2E7D32">Г</text>
+    <text x="428" y="104" fill="#1B5E20">-</text>
+    <rect x="440" y="82" width="50" height="30" fill="#FFCDD2" rx="5"/><text x="465" y="104" fill="#C62828">К</text>
+  </g>
+  <!-- Check examples -->
+  <g transform="translate(30,165)" font-family="Arial,sans-serif">
+    <rect x="0" y="0" width="210" height="55" fill="#E8F5E9" rx="8" stroke="#A5D6A7"/>
+    <text x="105" y="22" text-anchor="middle" font-size="14">ду<span class="pair" stroke="#2E7D32">б</span></text>
+    <text x="105" y="45" text-anchor="middle" font-size="12" fill="#1B5E20">проверка: ду<span fill="#2E7D32" font-weight="bold">б</span>ы</text>
+    <rect x="230" y="0" width="210" height="55" fill="#E8F5E9" rx="8" stroke="#A5D6A7"/>
+    <text x="335" y="22" text-anchor="middle" font-size="14">ша<span class="pair" stroke="#2E7D32">б</span></text>
+    <text x="335" y="45" text-anchor="middle" font-size="12" fill="#1B5E20">проверка: ша<span fill="#2E7D32" font-weight="bold">б</span>ка (нет)</text>
+  </g>
+  <!-- Rule -->
+  <rect x="30" y="235" width="440" height="100" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
+  <text x="250" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Как проверить парную согласную?</text>
+  <text x="250" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Измени слово так, чтобы после согласной стояла гласная</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#1B5E20" text-anchor="middle">
+    <text x="130" y="305">ду<b>б</b> - ду<b>б</b>ы</text>
+    <text x="370" y="305">сне<b>г</b> - сне<b>г</b>а</text>
+  </g>
+  <text x="250" y="328" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#555">лодка - лодочки, медведь - медведи</text>
+</svg>

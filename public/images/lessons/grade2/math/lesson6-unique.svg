@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes multiply { 0%,100%{transform:scale(1)} 50%{transform:scale(1.05)} }
+      .grow { animation: multiply 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#E0F2F1"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#00695C">Что такое умножение?</text>
+  <!-- Visual: groups of objects -->
+  <g transform="translate(30,50)">
+    <rect x="0" y="0" width="200" height="100" fill="white" rx="10" stroke="#80CBC4" stroke-width="2"/>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#00695C">3 группы по 4 яблока</text>
+    <!-- Group 1 -->
+    <g transform="translate(10,30)">
+      <circle cx="10" cy="15" r="10" fill="#F44336"/><circle cx="35" cy="15" r="10" fill="#F44336"/>
+      <circle cx="60" cy="15" r="10" fill="#F44336"/><circle cx="85" cy="15" r="10" fill="#F44336"/>
+    </g>
+    <!-- Group 2 -->
+    <g transform="translate(10,55)">
+      <circle cx="10" cy="15" r="10" fill="#FF9800"/><circle cx="35" cy="15" r="10" fill="#FF9800"/>
+      <circle cx="60" cy="15" r="10" fill="#FF9800"/><circle cx="85" cy="15" r="10" fill="#FF9800"/>
+    </g>
+    <!-- Group 3 -->
+    <g transform="translate(10,80)">
+      <circle cx="10" cy="15" r="10" fill="#FFC107"/><circle cx="35" cy="15" r="10" fill="#FFC107"/>
+      <circle cx="60" cy="15" r="10" fill="#FFC107"/><circle cx="85" cy="15" r="10" fill="#FFC107"/>
+    </g>
+  </g>
+  <!-- Equation -->
+  <g class="grow" transform="translate(260,70)">
+    <rect x="0" y="0" width="210" height="80" fill="#B2DFDB" rx="10" stroke="#00695C" stroke-width="2"/>
+    <text x="105" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#00695C">4 + 4 + 4 = 12</text>
+    <text x="105" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#00695C">4 x 3 = 12</text>
+  </g>
+  <!-- Definition -->
+  <rect x="30" y="170" width="440" height="60" fill="white" rx="10" stroke="#80CBC4" stroke-width="2"/>
+  <text x="250" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#00695C">Умножение — это сложение одинаковых слагаемых</text>
+  <text x="250" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#555">Первый множитель — число в группе, второй — количество групп</text>
+  <!-- Terminology -->
+  <rect x="30" y="245" width="440" height="95" fill="#E0F2F1" rx="10"/>
+  <text x="250" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#00695C">Названия компонентов</text>
+  <g font-family="Arial,sans-serif" font-size="14" text-anchor="middle">
+    <text x="130" y="295" fill="#00695C" font-weight="bold">4</text>
+    <text x="175" y="295" fill="#555">x</text>
+    <text x="220" y="295" fill="#00695C" font-weight="bold">3</text>
+    <text x="265" y="295" fill="#555">=</text>
+    <text x="310" y="295" fill="#00695C" font-weight="bold">12</text>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    <text x="130" y="315">множитель</text>
+    <text x="220" y="315">множитель</text>
+    <text x="310" y="315">произведение</text>
+  </g>
+</svg>

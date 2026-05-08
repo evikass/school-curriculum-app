@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes blue{0%,100%{opacity:1}50%{opacity:0.85}}.gzhel{animation:blue 3s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E3F2FD"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#0D47A1">Гжельская керамика</text>
+  <!-- Gzhel vase -->
+  <g class="gzhel" transform="translate(30,55)">
+    <path d="M80,30 Q60,60 55,100 Q50,140 60,170 Q70,190 100,190 Q130,190 140,170 Q150,140 145,100 Q140,60 120,30Z" fill="white" stroke="#1565C0" stroke-width="2"/>
+    <ellipse cx="100" cy="30" rx="22" ry="6" fill="white" stroke="#1565C0" stroke-width="2"/>
+    <!-- Blue pattern -->
+    <path d="M70,70 Q85,55 100,70 Q115,85 130,70" fill="none" stroke="#1565C0" stroke-width="2"/>
+    <path d="M70,100 Q85,85 100,100 Q115,115 130,100" fill="none" stroke="#0D47A1" stroke-width="2"/>
+    <circle cx="80" cy="140" r="6" fill="#1565C0"/><circle cx="100" cy="145" r="4" fill="#42A5F5"/>
+    <circle cx="120" cy="140" r="6" fill="#1565C0"/>
+    <path d="M70,160 Q85,150 100,160 Q115,170 130,160" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+  </g>
+  <!-- Info -->
+  <rect x="200" y="55" width="270" height="155" fill="white" rx="10" stroke="#90CAF9" stroke-width="2"/>
+  <text x="335" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#0D47A1">Гжельская керамика</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="215" y="100">Родина: посёлок Гжель, Подмосковье</text>
+    <text x="215" y="118">Цвета: белый + синий</text>
+    <text x="215" y="136">Узоры: розы, птицы, сказочные</text>
+    <text x="215" y="154">сюжеты в сине-белых тонах</text>
+    <text x="215" y="172">Предметы: посуда, фигурки,</text>
+    <text x="215" y="190">кувшины, часы</text>
+  </g>
+  <!-- Technique -->
+  <rect x="30" y="225" width="440" height="110" fill="#E3F2FD" rx="10"/>
+  <text x="250" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1">Особенности гжельской росписи</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="270">Роспись делается от руки кистью</text>
+    <text x="50" y="290">Один мазок — от тёмного к светлому</text>
+    <text x="50" y="310">«Теневой мазок» — главная техника</text>
+    <text x="50" y="330" fill="#0D47A1">Синий цвет на белом — символ Гжели</text>
+  </g>
+</svg>

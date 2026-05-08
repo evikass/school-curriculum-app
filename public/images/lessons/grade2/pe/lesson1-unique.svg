@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes stand{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}.march{animation:stand 1.5s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#E8F5E9"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1B5E20">Строевые упражнения</text>
+  <!-- Figure doing drill -->
+  <g class="march" transform="translate(60,55)">
+    <circle cx="50" cy="20" r="18" fill="#C8E6C9" stroke="#2E7D32" stroke-width="2"/>
+    <rect x="35" y="40" width="30" height="45" fill="#2E7D32" rx="5"/>
+    <rect x="20" y="45" width="15" height="5" fill="#2E7D32" rx="2"/>
+    <rect x="65" y="45" width="15" height="5" fill="#2E7D32" rx="2"/>
+    <rect x="38" y="85" width="10" height="40" fill="#1B5E20" rx="3"/>
+    <rect x="52" y="85" width="10" height="40" fill="#1B5E20" rx="3"/>
+  </g>
+  <!-- Commands -->
+  <rect x="180" y="55" width="290" height="120" fill="white" rx="10" stroke="#A5D6A7" stroke-width="2"/>
+  <text x="325" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20">Строевые команды</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="195" y="100">«Становись!» — построение</text>
+    <text x="195" y="118">«Равняйсь!» — выровняться</text>
+    <text x="195" y="136">«Смирно!» — стойка прямо</text>
+    <text x="195" y="154">«Вольно!» — расслабиться</text>
+  </g>
+  <!-- Formations -->
+  <rect x="30" y="190" width="440" height="145" fill="#E8F5E9" rx="10"/>
+  <text x="250" y="213" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20">Построения</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="235">Шеренга — в один ряд</text>
+    <text x="50" y="255">Колонна — друг за другом</text>
+    <text x="50" y="275">Круг — по окружности</text>
+    <text x="50" y="295">Две шеренги — в два ряда</text>
+    <text x="50" y="315" fill="#1B5E20">Строевые упражнения учат дисциплине</text>
+    <text x="50" y="332" fill="#555">и согласованности действий</text>
+  </g>
+</svg>

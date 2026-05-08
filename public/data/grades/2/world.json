@@ -24,7 +24,7 @@
               "Привести примеры связи живой и неживой природы",
               "Объяснить, почему человек — часть живой природы"
             ],
-            "image": "/images/lessons/grade2/world/lesson1.svg"
+            "image": "/images/lessons/grade2/world/lesson1-unique.svg"
           },
           {
             "title": "Урок 2: Явления природы",
@@ -35,7 +35,7 @@
               "Объяснить, почему происходит листопад",
               "Описать явления каждого сезона"
             ],
-            "image": "/images/lessons/grade2/world/lesson2.svg"
+            "image": "/images/lessons/grade2/world/lesson2-unique.svg"
           },
           {
             "title": "Урок 3: Водоёмы",
@@ -46,7 +46,7 @@
               "Назвать и показать на схеме части реки: исток, русло, притоки, устье",
               "Рассказать, как охранять водоёмы"
             ],
-            "image": "/images/lessons/grade2/world/lesson3.svg"
+            "image": "/images/lessons/grade2/world/lesson3-unique.svg"
           },
           {
             "title": "Урок 4: Полезные ископаемые",
@@ -57,7 +57,7 @@
               "Назвать способы добычи ископаемых",
               "Рассказать об охране недр"
             ],
-            "image": "/images/lessons/grade2/world/lesson4.svg"
+            "image": "/images/lessons/grade2/world/lesson4-unique.svg"
           }
         ]
       },
@@ -73,7 +73,7 @@
               "Перечислить значение растений",
               "Рассказать об охране растений"
             ],
-            "image": "/images/lessons/grade2/world/lesson5.svg"
+            "image": "/images/lessons/grade2/world/lesson5-unique.svg"
           },
           {
             "title": "Урок 6: Животные и их группы",
@@ -84,7 +84,7 @@
               "Привести примеры животных каждой группы",
               "Сравнить птиц и насекомых"
             ],
-            "image": "/images/lessons/grade2/world/lesson6.svg"
+            "image": "/images/lessons/grade2/world/lesson6-unique.svg"
           },
           {
             "title": "Урок 7: Красная книга",
@@ -95,7 +95,7 @@
               "Перечислить причины исчезновения видов",
               "Рассказать, как помочь природе"
             ],
-            "image": "/images/lessons/grade2/world/lesson7.svg"
+            "image": "/images/lessons/grade2/world/lesson7-unique.svg"
           },
           {
             "title": "Урок 8: Охрана природы",
@@ -106,7 +106,7 @@
               "Объяснить, как сортировать мусор",
               "Рассказать, что может сделать каждый"
             ],
-            "image": "/images/lessons/grade2/world/lesson8.svg"
+            "image": "/images/lessons/grade2/world/lesson8-unique.svg"
           }
         ]
       }

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes pour{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.03)}}.drink{animation:pour 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" fill="#FFF3E0"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100">Drinks and Food</text>
+  <!-- Drinks -->
+  <rect x="30" y="50" width="210" height="140" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
+  <text x="135" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1565C0">Drinks</text>
+  <g class="drink" font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="95">water - вода</text>
+    <text x="50" y="112">milk - молоко</text>
+    <text x="50" y="129">juice - сок</text>
+    <text x="50" y="146">tea - чай</text>
+    <text x="50" y="163">lemonade - лимонад</text>
+  </g>
+  <!-- Food -->
+  <rect x="260" y="50" width="210" height="140" fill="white" rx="10" stroke="#FFAB91" stroke-width="2"/>
+  <text x="365" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100">Food</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="275" y="95">bread - хлеб</text>
+    <text x="275" y="112">cheese - сыр</text>
+    <text x="275" y="129">soup - суп</text>
+    <text x="275" y="146">sandwich - бутерброд</text>
+    <text x="275" y="163">cake - торт</text>
+  </g>
+  <!-- Phrases -->
+  <rect x="30" y="205" width="440" height="130" fill="#FFF3E0" rx="10"/>
+  <text x="250" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100">Useful Phrases</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#333">
+    <text x="50" y="252">I am hungry. - Я голоден.</text>
+    <text x="50" y="272">I am thirsty. - Я хочу пить.</text>
+    <text x="50" y="292">Can I have some water, please?</text>
+    <text x="50" y="312">Would you like some tea? - Хочешь чаю?</text>
+  </g>
+</svg>
