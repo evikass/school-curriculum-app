@@ -20,10 +20,10 @@
             "title": "Урок 1: English Alphabet",
             "description": "Английский алфавит.",
             "tasks": [
-              "26 букв в алфавите",
-              "A B C D E F G...",
-              "Спеть песенку ABC",
-              "Запомнить порядок букв"
+              "Выучить все 26 букв английского алфавита и их правильное произношение",
+              "Назвать буквы по порядку от A до Z без подглядывания",
+              "Спеть песенку ABC Song, соблюдая ритм и произношение",
+              "Записать буквы алфавита по памяти и проверить по образцу"
             ],
             "theory": "Английский алфавит.",
             "image": "/images/lessons/grade3/english/lesson1.svg",
@@ -43,10 +43,10 @@
             "title": "Урок 2: Vowels and Consonants",
             "description": "Гласные и согласные.",
             "tasks": [
-              "Гласные: A, E, I, O, U",
-              "Y иногда гласная",
-              "Произношение звуков",
-              "Прочитать слова"
+              "Перечислить 5 гласных букв: A, E, I, O, U и объяснить, чем они отличаются",
+              "Объяснить, почему Y иногда считается гласной (sky, my, happy)",
+              "Произнести гласные звуки правильно: долгие и краткие, привести примеры слов",
+              "Прочитать 10 слов и определить, какие гласные в них встречаются"
             ],
             "theory": "Гласные и согласные.",
             "image": "/images/lessons/grade3/english/lesson2.svg",
@@ -66,10 +66,10 @@
             "title": "Урок 3: Reading Rules",
             "description": "Правила чтения.",
             "tasks": [
-              "Open syllable: name, like",
-              "Closed syllable: cat, dog",
-              "Прочитать слова",
-              "Найти различия"
+              "Прочитать слова с открытым слогом: name, like, home — объяснить правило",
+              "Прочитать слова с закрытым слогом: cat, dog, sit — объяснить правило",
+              "Разделить 8 слов на две группы: открытый и закрытый слог",
+              "Найти различия в чтении: hat vs hate, pin vs pine, hop vs hope"
             ],
             "theory": "Правила чтения.",
             "image": "/images/lessons/grade3/english/lesson3.svg",
@@ -89,10 +89,10 @@
             "title": "Урок 4: Common Words",
             "description": "Частые слова.",
             "tasks": [
-              "the, and, is, it, to",
-              "Прочитать предложения",
-              "Составить фразы",
-              "Использовать в речи"
+              "Выучить 10 самых частых слов: the, and, is, it, to, in, on, at, we, you",
+              "Прочитать 5 простых предложений и перевести их на русский",
+              "Составить 3 короткие фразы из выученных слов: It is a cat",
+              "Использовать 5 частых слов в устной речи: составить мини-диалог"
             ],
             "theory": "Частые слова.",
             "image": "/images/lessons/grade3/english/lesson4.svg",
@@ -117,10 +117,10 @@
             "title": "Урок 5: Numbers 1-20",
             "description": "Числа от 1 до 20.",
             "tasks": [
-              "One, two, three, four...",
-              "Eleven, twelve, thirteen...",
-              "Посчитать предметы",
-              "Назвать возраст"
+              "Выучить числа от 1 до 10: one, two, three, four, five, six, seven, eight, nine, ten",
+              "Выучить числа от 11 до 20: eleven, twelve, thirteen, fourteen, fifteen и т.д.",
+              "Посчитать предметы в классе: 5 книг, 3 ручки, 12 карандашей",
+              "Назвать свой возраст по-английски и спросить «How old are you?»"
             ],
             "theory": "Числа от 1 до 20.",
             "image": "/images/lessons/grade3/english/lesson5.svg",
@@ -140,10 +140,10 @@
             "title": "Урок 6: Numbers 20-100",
             "description": "Десятки до ста.",
             "tasks": [
-              "Twenty, thirty, forty...",
-              "25 = twenty-five",
-              "Назвать числа",
-              "Решить примеры"
+              "Выучить десятки: twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety",
+              "Составить числа 25, 37, 48, 62, 99 по правилу: twenty-five, thirty-seven",
+              "Назвать числа на карточках от 20 до 100 без подглядывания",
+              "Решить 5 примеров по-английски: 20+5, 30+7, 40+3, 50+9, 60+2"
             ],
             "theory": "Десятки до ста.",
             "image": "/images/lessons/grade3/english/lesson6.svg",
@@ -163,10 +163,10 @@
             "title": "Урок 7: Colors",
             "description": "Цвета.",
             "tasks": [
-              "Red, blue, green, yellow",
-              "Orange, purple, pink, brown",
-              "Описать предметы",
-              "Назвать любимый цвет"
+              "Выучить 6 основных цветов: red, blue, green, yellow, orange, purple",
+              "Выучить дополнительные цвета: pink, brown, grey, black, white",
+              "Описать 5 предметов в классе, называя их цвет: a red pen, a green book",
+              "Рассказать о своём любимом цвете: My favourite colour is..."
             ],
             "theory": "Цвета.",
             "image": "/images/lessons/grade3/english/lesson7.svg",
@@ -186,10 +186,10 @@
             "title": "Урок 8: Shapes",
             "description": "Фигуры.",
             "tasks": [
-              "Circle, square, triangle",
-              "Rectangle, oval",
-              "Найти фигуры",
-              "Нарисовать фигуры"
+              "Выучить 4 основные фигуры: circle, square, triangle, rectangle",
+              "Назвать дополнительные фигуры: rectangle, oval и описать их отличия",
+              "Найти 5 предметов в классе и назвать их форму: The clock is a circle",
+              "Нарисовать дом из геометрических фигур и подписать каждую по-английски"
             ],
             "theory": "Фигуры.",
             "image": "/images/lessons/grade3/english/lesson8.svg",
@@ -214,10 +214,10 @@
             "title": "Урок 9: Family Members",
             "description": "Члены семьи.",
             "tasks": [
-              "Mother, father, sister, brother",
-              "Grandmother, grandfather",
-              "Описать семью",
-              "Нарисовать семейное дерево"
+              "Выучить слова: mother, father, sister, brother, grandmother, grandfather",
+              "Написать по-английски: бабушка, дедушка, мама, папа, сестра, брат",
+              "Описать свою семью из 4-5 человек: This is my mother, her name is...",
+              "Нарисовать семейное дерево и подписать каждого члена семьи по-английски"
             ],
             "theory": "Члены семьи.",
             "image": "/images/lessons/grade3/english/lesson9.svg",
@@ -237,10 +237,10 @@
             "title": "Урок 10: Describing People",
             "description": "Описание людей.",
             "tasks": [
-              "Tall, short, young, old",
-              "Hair: long, short, curly",
-              "Eyes: blue, brown, green",
-              "Описать друга"
+              "Выучить прилагательные: tall, short, young, old, strong, kind",
+              "Описать внешность: hair — long, short, curly, straight; eyes — blue, brown",
+              "Составить описание человека: She has got long brown hair and blue eyes",
+              "Описать своего друга или одноклассника, не называя имени — класс угадывает"
             ],
             "theory": "Описание людей.",
             "image": "/images/lessons/grade3/english/lesson10.svg",
@@ -260,10 +260,10 @@
             "title": "Урок 11: Body Parts",
             "description": "Части тела.",
             "tasks": [
-              "Head, shoulders, knees, toes",
-              "Eyes, ears, nose, mouth",
-              "Спеть песенку",
-              "Показать на себе"
+              "Выучить части тела: head, shoulders, knees, toes, arms, legs, hands, feet",
+              "Назвать части лица: eyes, ears, nose, mouth, teeth, hair",
+              "Спеть песенку «Head, Shoulders, Knees and Toes» с движениями",
+              "Показать и назвать части тела на себе: Touch your nose, Show your ears"
             ],
             "theory": "Части тела.",
             "image": "/images/lessons/grade3/english/lesson11.svg",
@@ -283,10 +283,10 @@
             "title": "Урок 12: Clothes",
             "description": "Одежда.",
             "tasks": [
-              "Shirt, dress, pants, skirt",
-              "Hat, coat, shoes, socks",
-              "Описать одежду",
-              "Что ты носишь?"
+              "Выучить одежду: shirt, dress, pants, skirt, T-shirt, jacket, coat",
+              "Назвать аксессуары и обувь: hat, scarf, shoes, socks, boots, gloves",
+              "Описать, что надето на однокласснике: He is wearing a blue shirt and black pants",
+              "Ответить: What are you wearing today? — описать свою одежду по-английски"
             ],
             "theory": "Одежда.",
             "image": "/images/lessons/grade3/english/lesson12.svg",
@@ -311,10 +311,10 @@
             "title": "Урок 13: Pets",
             "description": "Домашние питомцы.",
             "tasks": [
-              "Cat, dog, fish, hamster",
-              "Bird, rabbit, turtle",
-              "Описать питомца",
-              "У кого есть питомец?"
+              "Выучить домашних питомцев: cat, dog, fish, hamster, parrot, guinea pig",
+              "Назвать редких питомцев: turtle, rabbit, canary, chinchilla",
+              "Описать своего питомца или мечту о нём: I have got a cat. It is fluffy.",
+              "Спросить одноклассников: Have you got a pet? What is it?"
             ],
             "theory": "Домашние питомцы.",
             "image": "/images/lessons/grade3/english/lesson13.svg",
@@ -334,10 +334,10 @@
             "title": "Урок 14: Wild Animals",
             "description": "Дикие животные.",
             "tasks": [
-              "Lion, tiger, elephant, bear",
-              "Monkey, giraffe, zebra",
-              "Где они живут?",
-              "Описать животное"
+              "Выучить диких животных: lion, tiger, elephant, bear, wolf, fox",
+              "Назвать экзотических животных: monkey, giraffe, zebra, crocodile, kangaroo",
+              "Рассказать, где живут дикие животные: Lions live in Africa, bears live in forests",
+              "Описать одно животное: его внешний вид, где живёт, чем питается"
             ],
             "theory": "Дикие животные.",
             "image": "/images/lessons/grade3/english/lesson14.svg",
@@ -357,10 +357,10 @@
             "title": "Урок 15: Farm Animals",
             "description": "Домашние животные.",
             "tasks": [
-              "Cow, pig, sheep, horse",
-              "Chicken, duck, goat",
-              "Что они дают?",
-              "Звуки животных"
+              "Выучить домашних животных: cow, pig, sheep, horse, chicken, duck, goat",
+              "Рассказать, что дают фермерские животные: cows give milk, hens give eggs",
+              "Ответить: What do farm animals give us? — назвать 5 продуктов",
+              "Изобразить звуки животных по-английски: moo, oink, baa, neigh, cluck"
             ],
             "theory": "Домашние животные.",
             "image": "/images/lessons/grade3/english/lesson15.svg",
@@ -380,10 +380,10 @@
             "title": "Урок 16: Weather",
             "description": "Погода.",
             "tasks": [
-              "Sunny, rainy, cloudy, windy",
-              "Snowy, hot, cold, warm",
-              "Какая сегодня погода?",
-              "Одежда по погоде"
+              "Выучить погодные явления: sunny, rainy, cloudy, windy, snowy, foggy",
+              "Назвать температурные слова: hot, cold, warm, cool, freezing",
+              "Ответить на вопрос: What is the weather like today? — It is cloudy and cool",
+              "Подобрать одежду для разной погоды: rainy — umbrella and raincoat"
             ],
             "theory": "Погода.",
             "image": "/images/lessons/grade3/english/lesson16.svg",
@@ -408,10 +408,10 @@
             "title": "Урок 17: Fruits and Vegetables",
             "description": "Фрукты и овощи.",
             "tasks": [
-              "Apple, banana, orange",
-              "Carrot, potato, tomato",
-              "Что ты любишь?",
-              "I like... / I don't like..."
+              "Выучить фрукты: apple, banana, orange, pear, peach, grapes, strawberry",
+              "Выучить овощи: carrot, potato, tomato, cucumber, onion, pepper, cabbage",
+              "Рассказать, какие фрукты и овощи ты любишь: I like apples. I don't like onions.",
+              "Составить предложение: I like bananas, but I don't like cabbage"
             ],
             "theory": "Фрукты и овощи.",
             "image": "/images/lessons/grade3/english/lesson17.svg",
@@ -431,10 +431,10 @@
             "title": "Урок 18: Food",
             "description": "Еда.",
             "tasks": [
-              "Bread, cheese, meat, fish",
-              "Rice, pasta, soup, salad",
-              "Что на обед?",
-              "Составить меню"
+              "Выучить продукты: bread, cheese, meat, fish, rice, pasta, soup, salad",
+              "Назвать приёмы пищи: breakfast, lunch, dinner и что едят на каждый",
+              "Ответить: What do you have for lunch? — I have soup and bread for lunch",
+              "Составить меню на один день: завтрак, обед и ужин по-английски"
             ],
             "theory": "Еда.",
             "image": "/images/lessons/grade3/english/lesson18.svg",
@@ -454,10 +454,10 @@
             "title": "Урок 19: Drinks",
             "description": "Напитки.",
             "tasks": [
-              "Water, milk, juice, tea",
-              "Coffee, soda",
-              "Что ты пьёшь?",
-              "В кафе"
+              "Выучить напитки: water, milk, juice, tea, coffee, lemonade, cocoa",
+              "Сказать, что ты пьёшь обычно: I drink milk for breakfast, water at school",
+              "Ответить: Would you like some juice? — Yes, please / No, thank you",
+              "Разыграть диалог в кафе: заказать напиток и оплатить"
             ],
             "theory": "Напитки.",
             "image": "/images/lessons/grade3/english/lesson19.svg",
@@ -477,10 +477,10 @@
             "title": "Урок 20: At the Cafe",
             "description": "В кафе.",
             "tasks": [
-              "Can I have...?",
-              "Here you are",
-              "Thank you",
-              "Диалог в кафе"
+              "Научиться заказывать: Can I have a sandwich and juice, please?",
+              "Ответить на заказ: Here you are. — Thank you. — You are welcome.",
+              "Поблагодарить и попрощаться: Thank you! Have a nice day!",
+              "Разыграть полный диалог в кафе: приветствие, заказ, оплата, прощание"
             ],
             "theory": "В кафе.",
             "image": "/images/lessons/grade3/english/lesson20.svg",
@@ -505,10 +505,10 @@
             "title": "Урок 21: Time",
             "description": "Время.",
             "tasks": [
-              "What time is it?",
-              "o'clock, half past",
-              "It's 3 o'clock",
-              "Режим дня"
+              "Научиться спрашивать время: What time is it? — It is three o'clock",
+              "Выучить: o'clock (ровно), half past (половина), quarter past/to (четверть)",
+              "Сказать время по-английски: It is half past three, It is quarter to five",
+              "Описать свой режим дня по часам: I get up at 7 o'clock, I go to school at 8"
             ],
             "theory": "Время.",
             "image": "/images/lessons/grade3/english/lesson21.svg",
@@ -528,10 +528,10 @@
             "title": "Урок 22: Daily Activities",
             "description": "Ежедневные дела.",
             "tasks": [
-              "Wake up, get up, wash",
-              "Have breakfast, go to school",
-              "Describe your day",
-              "Приёмы пищи"
+              "Выучить утренние действия: wake up, get up, wash, brush teeth, have breakfast",
+              "Назвать дневные занятия: go to school, have lunch, do homework, play",
+              "Рассказать о своём дне: I wake up at 7, I have breakfast at 7:30",
+              "Назвать 3 приёма пищи по-английски: breakfast, lunch, dinner и что ты ешь"
             ],
             "theory": "Ежедневные дела.",
             "image": "/images/lessons/grade3/english/lesson22.svg",
@@ -551,10 +551,10 @@
             "title": "Урок 23: Days of Week",
             "description": "Дни недели.",
             "tasks": [
-              "Monday, Tuesday, Wednesday...",
-              "Sunday is the first day",
-              "Что ты делаешь в...?",
-              "Расписание"
+              "Выучить дни недели: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+              "Объяснить, почему Sunday — первый день недели в английском календаре",
+              "Составить 3 предложения: On Monday I go to school. On Saturday I play.",
+              "Написать расписание на неделю: какие занятия в какие дни"
             ],
             "theory": "Дни недели.",
             "image": "/images/lessons/grade3/english/lesson23.svg",
@@ -574,10 +574,10 @@
             "title": "Урок 24: Months and Seasons",
             "description": "Месяцы и сезоны.",
             "tasks": [
-              "January, February, March...",
-              "Winter, spring, summer, autumn",
-              "Какой сейчас месяц?",
-              "Любимое время года"
+              "Выучить месяцы: January, February, March, April, May, June, July, August",
+              "Назвать сезоны: winter, spring, summer, autumn и месяцы в каждом",
+              "Ответить: What month is it now? What season is it? What is your favourite season?",
+              "Рассказать о любимом времени года: почему нравится, что делаешь в это время"
             ],
             "theory": "Месяцы и сезоны.",
             "image": "/images/lessons/grade3/english/lesson24.svg",
@@ -619,18 +619,25 @@
           "hint": "1-one, 2-two, 3-three, 4-four, 5-?"
         },
         {
-          "type": "quiz",
-          "question": "Как будет «12» на английском?",
+          "type": "match",
+          "question": "Соедини букву с её произношением:",
           "options": [
-            "twelve",
-            "twenty",
-            "two",
-            "zero",
-            "Yesterday",
-            "Tomorrow"
+            "A",
+            "B",
+            "C",
+            "D",
+            "эй",
+            "би",
+            "си",
+            "ди"
           ],
-          "correctAnswer": "twelve",
-          "hint": "11-eleven, 12-?"
+          "correctAnswer": [
+            "A→эй",
+            "B→би",
+            "C→си",
+            "D→ди"
+          ],
+          "hint": "Вспомни, как произносятся буквы алфавита"
         },
         {
           "type": "quiz",
@@ -952,18 +959,25 @@
           "hint": "Red or green fruit 🍎"
         },
         {
-          "type": "quiz",
-          "question": "Как будет «хлеб» на английском?",
+          "type": "match",
+          "question": "Соедини число с английским словом:",
           "options": [
-            "bread",
-            "water",
-            "milk",
-            "cake",
-            "Yesterday",
-            "Tomorrow"
+            "1",
+            "3",
+            "5",
+            "10",
+            "one",
+            "three",
+            "five",
+            "ten"
           ],
-          "correctAnswer": "bread",
-          "hint": "Bread 🍞"
+          "correctAnswer": [
+            "1→one",
+            "3→three",
+            "5→five",
+            "10→ten"
+          ],
+          "hint": "Вспомни числа от 1 до 10 по-английски"
         },
         {
           "type": "quiz",
@@ -1034,18 +1048,25 @@
           "hint": "First day of the week"
         },
         {
-          "type": "quiz",
-          "question": "«Sunday» — это:",
+          "type": "match",
+          "question": "Соедини число с английским словом:",
           "options": [
-            "суббота",
-            "воскресенье",
-            "понедельник",
-            "Yesterday",
-            "Tomorrow",
-            "Always"
+            "20",
+            "30",
+            "50",
+            "80",
+            "twenty",
+            "thirty",
+            "fifty",
+            "eighty"
           ],
-          "correctAnswer": "воскресенье",
-          "hint": "Last day of the week"
+          "correctAnswer": [
+            "20→twenty",
+            "30→thirty",
+            "50→fifty",
+            "80→eighty"
+          ],
+          "hint": "Десятки образуются от -ty"
         },
         {
           "type": "quiz",
@@ -1116,18 +1137,25 @@
           "hint": "On your shoulders"
         },
         {
-          "type": "quiz",
-          "question": "Как будет «глаза»?",
+          "type": "match",
+          "question": "Соедини цвет с английским словом:",
           "options": [
-            "ears",
-            "eyes",
-            "nose",
-            "Yesterday",
-            "Tomorrow",
-            "Always"
+            "красный",
+            "синий",
+            "зелёный",
+            "жёлтый",
+            "red",
+            "blue",
+            "green",
+            "yellow"
           ],
-          "correctAnswer": "eyes",
-          "hint": "У нас их два, чтобы видеть 👀"
+          "correctAnswer": [
+            "красный→red",
+            "синий→blue",
+            "зелёный→green",
+            "жёлтый→yellow"
+          ],
+          "hint": "Вспомни основные цвета по-английски"
         },
         {
           "type": "quiz",
@@ -1198,18 +1226,25 @@
           "hint": "Greeting"
         },
         {
-          "type": "quiz",
-          "question": "Как сказать «спасибо»?",
+          "type": "match",
+          "question": "Соедини фигуру с английским словом:",
           "options": [
-            "Please",
-            "Thank you",
-            "Sorry",
-            "Yesterday",
-            "Tomorrow",
-            "Always"
+            "круг",
+            "квадрат",
+            "треугольник",
+            "прямоугольник",
+            "circle",
+            "square",
+            "triangle",
+            "rectangle"
           ],
-          "correctAnswer": "Thank you",
-          "hint": "When someone helps you"
+          "correctAnswer": [
+            "круг→circle",
+            "квадрат→square",
+            "треугольник→triangle",
+            "прямоугольник→rectangle"
+          ],
+          "hint": "Вспомни названия геометрических фигур"
         },
         {
           "type": "quiz",
@@ -1279,25 +1314,25 @@
           "hint": "A, E, I, O, U"
         },
         {
-          "type": "find",
-          "question": "Выбери все гласные буквы:",
+          "type": "match",
+          "question": "Соедини члена семьи с английским словом:",
           "options": [
-            "A",
-            "B",
-            "E",
-            "K",
-            "I",
-            "O",
-            "U"
+            "мама",
+            "папа",
+            "сестра",
+            "брат",
+            "mother",
+            "father",
+            "sister",
+            "brother"
           ],
           "correctAnswer": [
-            "A",
-            "E",
-            "I",
-            "O",
-            "U"
+            "мама→mother",
+            "папа→father",
+            "сестра→sister",
+            "брат→brother"
           ],
-          "hint": "Гласных всего 5"
+          "hint": "Вспомни названия членов семьи"
         },
         {
           "type": "quiz",
@@ -1636,22 +1671,25 @@
           "hint": "Самое большое наземное животное"
         },
         {
-          "type": "find",
-          "question": "Выбери домашних питомцев (pets):",
+          "type": "match",
+          "question": "Соедини животное с английским словом:",
           "options": [
-            "cat",
-            "lion",
-            "dog",
-            "tiger",
-            "hamster",
-            "bear"
-          ],
-          "correctAnswer": [
+            "кошка",
+            "собака",
+            "рыбка",
+            "хомяк",
             "cat",
             "dog",
+            "fish",
             "hamster"
           ],
-          "hint": "Питомцы живут дома"
+          "correctAnswer": [
+            "кошка→cat",
+            "собака→dog",
+            "рыбка→fish",
+            "хомяк→hamster"
+          ],
+          "hint": "Вспомни названия домашних питомцев"
         },
         {
           "type": "quiz",
@@ -1724,22 +1762,25 @@
           "hint": "Break + fast = прервать голод"
         },
         {
-          "type": "find",
-          "question": "Выбери фрукты:",
+          "type": "match",
+          "question": "Соедини животное с английским словом:",
           "options": [
-            "apple",
-            "carrot",
-            "banana",
-            "potato",
-            "orange",
-            "onion"
+            "лев",
+            "тигр",
+            "слон",
+            "медведь",
+            "lion",
+            "tiger",
+            "elephant",
+            "bear"
           ],
           "correctAnswer": [
-            "apple",
-            "banana",
-            "orange"
+            "лев→lion",
+            "тигр→tiger",
+            "слон→elephant",
+            "медведь→bear"
           ],
-          "hint": "Фрукты сладкие и растут на деревьях"
+          "hint": "Вспомни названия диких животных"
         },
         {
           "type": "quiz",
@@ -1900,22 +1941,25 @@
           "hint": "At + время для часов"
         },
         {
-          "type": "find",
-          "question": "Выбери приёмы пищи:",
+          "type": "match",
+          "question": "Соедини погоду с английским словом:",
           "options": [
-            "breakfast",
-            "morning",
-            "lunch",
-            "evening",
-            "dinner",
-            "night"
+            "солнечно",
+            "дождливо",
+            "облачно",
+            "снежно",
+            "sunny",
+            "rainy",
+            "cloudy",
+            "snowy"
           ],
           "correctAnswer": [
-            "breakfast",
-            "lunch",
-            "dinner"
+            "солнечно→sunny",
+            "дождливо→rainy",
+            "облачно→cloudy",
+            "снежно→snowy"
           ],
-          "hint": "Завтрак, обед и ужин"
+          "hint": "Вспомни названия погодных явлений"
         },
         {
           "type": "quiz",
@@ -2504,18 +2548,25 @@
           "hint": "Monday is the first school day"
         },
         {
-          "type": "quiz",
-          "question": "How do you say «суббота» in English?",
+          "type": "match",
+          "question": "Соедини день недели с английским словом:",
           "options": [
-            "Saturday",
-            "Sunday",
+            "понедельник",
+            "среда",
+            "пятница",
+            "воскресенье",
             "Monday",
-            "Tuesday",
             "Wednesday",
-            "Thursday"
+            "Friday",
+            "Sunday"
           ],
-          "correctAnswer": "Saturday",
-          "hint": "S-A-T-U-R-D-A-Y"
+          "correctAnswer": [
+            "понедельник→Monday",
+            "среда→Wednesday",
+            "пятница→Friday",
+            "воскресенье→Sunday"
+          ],
+          "hint": "Вспомни дни недели по-английски"
         },
         {
           "type": "find",
