@@ -11,48 +11,60 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Фотосинтез и хемосинтез</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 17</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Прокариоты и эукариоты</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 14</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
     <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
 
-    <!-- Sun -->
-    <circle cx="80" cy="120" r="25" fill="#FFEE58" stroke="#F9A825" stroke-width="2"/>
-    <line x1="80" y1="90" x2="80" y2="80" stroke="#FFEE58" stroke-width="2"/>
-    <line x1="55" y1="95" x2="48" y2="88" stroke="#FFEE58" stroke-width="2"/>
-    <line x1="105" y1="95" x2="112" y2="88" stroke="#FFEE58" stroke-width="2"/>
-    <line x1="50" y1="120" x2="40" y2="120" stroke="#FFEE58" stroke-width="2"/>
-    <line x1="110" y1="120" x2="120" y2="120" stroke="#FFEE58" stroke-width="2"/>
-    <text x="80" y="124" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle">Свет</text>
+    <!-- Left: Prokaryote -->
+    <rect x="20" y="90" width="215" height="200" rx="6" fill="#E3F2FD" opacity="0.4"/>
+    <text x="127" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#1565C0" text-anchor="middle">Прокариоты</text>
     
-    <!-- Chloroplast -->
-    <ellipse cx="250" cy="170" rx="90" ry="55" fill="#A5D6A7" stroke="#2E7D32" stroke-width="2"/>
-    <!-- Thylakoids -->
-    <ellipse cx="220" cy="160" rx="20" ry="10" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
-    <ellipse cx="260" cy="155" rx="22" ry="10" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
-    <ellipse cx="280" cy="175" rx="18" ry="8" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
-    <text x="250" y="200" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Хлоропласт</text>
+    <!-- Bacterium shape -->
+    <ellipse cx="127" cy="175" rx="65" ry="40" fill="#BBDEFB" stroke="#42A5F5" stroke-width="2"/>
+    <!-- Cell wall -->
+    <ellipse cx="127" cy="175" rx="65" ry="40" fill="none" stroke="#1565C0" stroke-width="1" stroke-dasharray="4,2"/>
+    <!-- Nucleoid -->
+    <ellipse cx="127" cy="175" rx="22" ry="15" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+    <text x="127" y="178" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">ДНК</text>
+    <!-- Ribosomes -->
+    <circle cx="100" cy="195" r="3" fill="#64B5F6"/>
+    <circle cx="155" cy="190" r="3" fill="#64B5F6"/>
+    <circle cx="140" cy="200" r="3" fill="#64B5F6"/>
+    <!-- Flagellum -->
+    <path d="M192,175 Q210,170 220,180 Q230,190 240,185" fill="none" stroke="#42A5F5" stroke-width="1.5"/>
+    <!-- Plasmid -->
+    <circle cx="95" cy="165" r="8" fill="none" stroke="#1565C0" stroke-width="1"/>
+    <text x="127" y="230" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Нет ядра, 70S рибосомы</text>
+    <text x="127" y="242" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Кольцевая ДНК, плазмиды</text>
+    <text x="127" y="254" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">0,5-5 мкм</text>
     
-    <!-- Arrow from sun -->
-    <line x1="110" y1="130" x2="170" y2="155" stroke="#FFA726" stroke-width="2" marker-end="url(#arr)"/>
+    <!-- Right: Eukaryote -->
+    <rect x="265" y="90" width="215" height="200" rx="6" fill="#E8F5E9" opacity="0.4"/>
+    <text x="372" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#2E7D32" text-anchor="middle">Эукариоты</text>
     
-    <!-- Equation -->
-    <rect x="100" y="240" width="300" height="50" rx="5" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
-    <text x="250" y="258" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">6CO2 + 6H2O + свет &#x2192; C6H12O6 + 6O2</text>
-    <text x="250" y="275" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Световая и темновая фазы</text>
+    <!-- Eukaryotic cell -->
+    <ellipse cx="372" cy="180" rx="75" ry="50" fill="#C8E6C9" stroke="#66BB6A" stroke-width="2"/>
+    <!-- Nucleus -->
+    <ellipse cx="372" cy="175" rx="25" ry="20" fill="#A5D6A7" stroke="#2E7D32" stroke-width="2"/>
+    <text x="372" y="178" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Ядро</text>
+    <!-- Mitochondria -->
+    <ellipse cx="330" cy="160" rx="18" ry="8" fill="#81C784" stroke="#2E7D32" stroke-width="1" transform="rotate(-15,330,160)"/>
+    <!-- ER -->
+    <path d="M400,150 Q415,155 400,160 Q415,165 400,170" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
+    <!-- Golgi -->
+    <path d="M340,210 Q355,207 370,210 Q355,213 340,210" fill="none" stroke="#43A047" stroke-width="1.5"/>
+    <path d="M342,215 Q355,212 368,215" fill="none" stroke="#43A047" stroke-width="1.5"/>
     
-    <!-- CO2 and H2O inputs -->
-    <text x="30" y="180" font-family="Arial,sans-serif" font-size="9" fill="#78909C" text-anchor="middle">CO2</text>
-    <line x1="50" y1="180" x2="160" y2="170" stroke="#78909C" stroke-width="1.5"/>
-    <text x="30" y="200" font-family="Arial,sans-serif" font-size="9" fill="#42A5F5" text-anchor="middle">H2O</text>
-    <line x1="50" y1="200" x2="160" y2="185" stroke="#42A5F5" stroke-width="1.5"/>
+    <text x="372" y="230" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Есть ядро, 80S рибосомы</text>
+    <text x="372" y="242" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Мембранные органеллы</text>
+    <text x="372" y="254" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">10-100 мкм</text>
     
-    <!-- O2 output -->
-    <text x="410" y="150" font-family="Arial,sans-serif" font-size="9" fill="#66BB6A" text-anchor="middle">O2</text>
-    <line x1="340" y1="160" x2="400" y2="150" stroke="#66BB6A" stroke-width="1.5"/>
+    <!-- VS -->
+    <text x="250" y="180" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FF7043" text-anchor="middle">VS</text>
 
   </g>
-  <text x="250" y="325" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Превращение энергии в живых системах</text>
+  <text x="250" y="325" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Сравнение типов клеток</text>
 </svg>

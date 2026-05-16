@@ -11,60 +11,54 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Прокариоты и эукариоты</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 14</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Органоиды клетки</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 13</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
     <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
 
-    <!-- Left: Prokaryote -->
-    <rect x="20" y="90" width="215" height="200" rx="6" fill="#E3F2FD" opacity="0.4"/>
-    <text x="127" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#1565C0" text-anchor="middle">Прокариоты</text>
+    <!-- Eukaryotic cell with organelles -->
+    <ellipse cx="250" cy="195" rx="220" ry="95" fill="#E8F5E9" stroke="#66BB6A" stroke-width="2"/>
     
-    <!-- Bacterium shape -->
-    <ellipse cx="127" cy="175" rx="65" ry="40" fill="#BBDEFB" stroke="#42A5F5" stroke-width="2"/>
-    <!-- Cell wall -->
-    <ellipse cx="127" cy="175" rx="65" ry="40" fill="none" stroke="#1565C0" stroke-width="1" stroke-dasharray="4,2"/>
-    <!-- Nucleoid -->
-    <ellipse cx="127" cy="175" rx="22" ry="15" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
-    <text x="127" y="178" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">ДНК</text>
-    <!-- Ribosomes -->
-    <circle cx="100" cy="195" r="3" fill="#64B5F6"/>
-    <circle cx="155" cy="190" r="3" fill="#64B5F6"/>
-    <circle cx="140" cy="200" r="3" fill="#64B5F6"/>
-    <!-- Flagellum -->
-    <path d="M192,175 Q210,170 220,180 Q230,190 240,185" fill="none" stroke="#42A5F5" stroke-width="1.5"/>
-    <!-- Plasmid -->
-    <circle cx="95" cy="165" r="8" fill="none" stroke="#1565C0" stroke-width="1"/>
-    <text x="127" y="230" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Нет ядра, 70S рибосомы</text>
-    <text x="127" y="242" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Кольцевая ДНК, плазмиды</text>
-    <text x="127" y="254" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">0,5-5 мкм</text>
-    
-    <!-- Right: Eukaryote -->
-    <rect x="265" y="90" width="215" height="200" rx="6" fill="#E8F5E9" opacity="0.4"/>
-    <text x="372" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#2E7D32" text-anchor="middle">Эукариоты</text>
-    
-    <!-- Eukaryotic cell -->
-    <ellipse cx="372" cy="180" rx="75" ry="50" fill="#C8E6C9" stroke="#66BB6A" stroke-width="2"/>
     <!-- Nucleus -->
-    <ellipse cx="372" cy="175" rx="25" ry="20" fill="#A5D6A7" stroke="#2E7D32" stroke-width="2"/>
-    <text x="372" y="178" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Ядро</text>
+    <ellipse cx="250" cy="195" rx="55" ry="45" fill="#A5D6A7" stroke="#2E7D32" stroke-width="2"/>
+    <ellipse cx="250" cy="195" rx="18" ry="13" fill="#66BB6A" stroke="#2E7D32" stroke-width="1"/>
+    <text x="250" y="198" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Ядрышко</text>
+    <text x="250" y="225" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">Ядро</text>
+    
     <!-- Mitochondria -->
-    <ellipse cx="330" cy="160" rx="18" ry="8" fill="#81C784" stroke="#2E7D32" stroke-width="1" transform="rotate(-15,330,160)"/>
-    <!-- ER -->
-    <path d="M400,150 Q415,155 400,160 Q415,165 400,170" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
+    <ellipse cx="120" cy="160" rx="30" ry="14" fill="#81C784" stroke="#2E7D32" stroke-width="1.5" transform="rotate(-20,120,160)"/>
+    <path d="M100,158 Q110,152 120,158 Q130,164 140,158" fill="none" stroke="#2E7D32" stroke-width="1"/>
+    <text x="120" y="143" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Митохондрия</text>
+    
+    <!-- ER (rough) -->
+    <path d="M330,140 Q360,150 330,160 Q360,170 330,180" fill="none" stroke="#66BB6A" stroke-width="2"/>
+    <circle cx="325" cy="148" r="3" fill="#4CAF50"/>
+    <circle cx="335" cy="158" r="3" fill="#4CAF50"/>
+    <circle cx="325" cy="168" r="3" fill="#4CAF50"/>
+    <text x="365" y="163" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">ЭПС</text>
+    
     <!-- Golgi -->
-    <path d="M340,210 Q355,207 370,210 Q355,213 340,210" fill="none" stroke="#43A047" stroke-width="1.5"/>
-    <path d="M342,215 Q355,212 368,215" fill="none" stroke="#43A047" stroke-width="1.5"/>
+    <path d="M370,210 Q390,205 410,210 Q390,215 370,210" fill="none" stroke="#43A047" stroke-width="2"/>
+    <path d="M372,218 Q390,213 408,218 Q390,223 372,218" fill="none" stroke="#43A047" stroke-width="2"/>
+    <path d="M374,226 Q390,221 406,226 Q390,231 374,226" fill="none" stroke="#43A047" stroke-width="2"/>
+    <text x="390" y="240" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Гольджи</text>
     
-    <text x="372" y="230" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Есть ядро, 80S рибосомы</text>
-    <text x="372" y="242" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Мембранные органеллы</text>
-    <text x="372" y="254" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">10-100 мкм</text>
+    <!-- Ribosomes -->
+    <circle cx="140" cy="230" r="5" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.5"/>
+    <circle cx="155" cy="235" r="5" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.5"/>
+    <circle cx="170" cy="230" r="5" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.5"/>
+    <text x="155" y="252" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Рибосомы</text>
     
-    <!-- VS -->
-    <text x="250" y="180" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FF7043" text-anchor="middle">VS</text>
+    <!-- Lysosome -->
+    <circle cx="100" cy="200" r="14" fill="#C8E6C9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="100" y="203" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Лиз</text>
+    
+    <!-- Cytoskeleton lines -->
+    <line x1="180" y1="130" x2="200" y2="150" stroke="#A5D6A7" stroke-width="1" stroke-dasharray="3,2"/>
+    <line x1="310" y1="240" x2="330" y2="260" stroke="#A5D6A7" stroke-width="1" stroke-dasharray="3,2"/>
 
   </g>
-  <text x="250" y="325" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Сравнение типов клеток</text>
+  <text x="250" y="325" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Клеточный уровень организации</text>
 </svg>

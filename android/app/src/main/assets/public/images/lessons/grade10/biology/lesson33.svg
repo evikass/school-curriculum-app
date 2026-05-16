@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Эмбриональное развитие</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 28</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
+
+    <!-- Embryonic stages -->
+    <text x="250" y="103" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">Стадии эмбриогенеза</text>
+    
+    <!-- Stage 1: Zygote -->
+    <rect x="20" y="115" width="85" height="175" rx="5" fill="#E3F2FD" stroke="#42A5F5" stroke-width="1"/>
+    <text x="62" y="132" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">Зигота</text>
+    <circle cx="62" cy="175" r="25" fill="#BBDEFB" stroke="#42A5F5" stroke-width="1.5"/>
+    <circle cx="62" cy="175" r="8" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+    <text x="62" y="215" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">Оплодотворённая</text>
+    <text x="62" y="227" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">яйцеклетка</text>
+    <text x="62" y="245" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">2n — диплоидная</text>
+    
+    <!-- Arrow -->
+    <text x="118" y="180" font-family="Arial,sans-serif" font-size="14" fill="#66BB6A" text-anchor="middle">&#x2192;</text>
+    
+    <!-- Stage 2: Blastula -->
+    <rect x="130" y="115" width="85" height="175" rx="5" fill="#FFF3E0" stroke="#FFA726" stroke-width="1"/>
+    <text x="172" y="132" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">Бластула</text>
+    <circle cx="172" cy="175" r="25" fill="#FFE0B2" stroke="#FFA726" stroke-width="1.5"/>
+    <!-- Hollow sphere with cells -->
+    <circle cx="152" cy="165" r="5" fill="#FFA726"/>
+    <circle cx="165" cy="155" r="5" fill="#FFA726"/>
+    <circle cx="182" cy="155" r="5" fill="#FFA726"/>
+    <circle cx="193" cy="165" r="5" fill="#FFA726"/>
+    <circle cx="152" cy="185" r="5" fill="#FFA726"/>
+    <circle cx="193" cy="185" r="5" fill="#FFA726"/>
+    <text x="172" y="215" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Дробление</text>
+    <text x="172" y="227" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Полость</text>
+    <text x="172" y="245" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Однослойная</text>
+    
+    <!-- Arrow -->
+    <text x="228" y="180" font-family="Arial,sans-serif" font-size="14" fill="#66BB6A" text-anchor="middle">&#x2192;</text>
+    
+    <!-- Stage 3: Gastrula -->
+    <rect x="240" y="115" width="85" height="175" rx="5" fill="#FCE4EC" stroke="#EF5350" stroke-width="1"/>
+    <text x="282" y="132" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#C62828" text-anchor="middle">Гаструла</text>
+    <ellipse cx="282" cy="175" rx="28" ry="22" fill="#FFCDD2" stroke="#EF5350" stroke-width="1.5"/>
+    <!-- Two layers -->
+    <path d="M260,165 Q270,170 260,180" fill="none" stroke="#C62828" stroke-width="1.5"/>
+    <path d="M300,165 Q290,170 300,180" fill="none" stroke="#C62828" stroke-width="1.5"/>
+    <!-- Blastopore -->
+    <ellipse cx="282" cy="170" rx="6" ry="4" fill="#EF5350"/>
+    <text x="282" y="215" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Два слоя</text>
+    <text x="282" y="227" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Эктодерма</text>
+    <text x="282" y="239" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Энтодерма</text>
+    <text x="282" y="255" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">+ Первичный рот</text>
+    
+    <!-- Arrow -->
+    <text x="338" y="180" font-family="Arial,sans-serif" font-size="14" fill="#66BB6A" text-anchor="middle">&#x2192;</text>
+    
+    <!-- Stage 4: Neurula -->
+    <rect x="350" y="115" width="130" height="175" rx="5" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="415" y="132" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Нейрула</text>
+    <ellipse cx="415" cy="175" rx="30" ry="22" fill="#C8E6C9" stroke="#66BB6A" stroke-width="1.5"/>
+    <!-- Neural tube -->
+    <rect x="407" y="160" width="16" height="30" rx="3" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+    <!-- Mesoderm -->
+    <path d="M390,170 L400,175 L390,180" fill="none" stroke="#FFA726" stroke-width="1"/>
+    <path d="M440,170 L430,175 L440,180" fill="none" stroke="#FFA726" stroke-width="1"/>
+    <text x="415" y="215" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">3 зародышевых листка:</text>
+    <text x="415" y="228" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Эктодерма</text>
+    <text x="415" y="240" font-family="Arial,sans-serif" font-size="7" fill="#FFA726" text-anchor="middle">Мезодерма</text>
+    <text x="415" y="252" font-family="Arial,sans-serif" font-size="7" fill="#EF5350" text-anchor="middle">Энтодерма</text>
+
+  </g>
+  <text x="250" y="325" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Стадии эмбриогенеза</text>
+</svg>

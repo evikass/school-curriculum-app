@@ -11,53 +11,47 @@
   </defs>
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Биосинтез белка</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 18</text>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Пластический и энергетический обмен</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 15</text>
   <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
   <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
   <g clip-path="url(#ill)">
     <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
 
-    <!-- DNA strand left -->
-    <text x="100" y="100" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">Транскрипция</text>
+    <!-- Central: Metabolism -->
+    <rect x="170" y="90" width="160" height="28" rx="5" fill="#2E7D32"/>
+    <text x="250" y="109" font-family="Arial,sans-serif" font-size="13" fill="white" text-anchor="middle">Обмен веществ</text>
     
-    <!-- DNA double helix simplified -->
-    <rect x="30" y="110" width="140" height="40" rx="4" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
-    <text x="100" y="128" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">ДНК (ген)</text>
-    <text x="100" y="142" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">A-T-G-C...</text>
+    <!-- Left: Anabolism -->
+    <line x1="200" y1="118" x2="120" y2="140" stroke="#66BB6A" stroke-width="2"/>
+    <rect x="25" y="140" width="195" height="150" rx="5" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="122" y="158" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">Ассимиляция</text>
+    <text x="122" y="172" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">(Пластический обмен)</text>
     
-    <!-- Arrow down -->
-    <line x1="100" y1="155" x2="100" y2="175" stroke="#66BB6A" stroke-width="2"/>
-    <text x="115" y="168" font-family="Arial,sans-serif" font-size="7" fill="#66BB6A">РНК-полимераза</text>
+    <rect x="35" y="182" width="175" height="18" rx="3" fill="#C8E6C9"/>
+    <text x="122" y="195" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Простые &#x2192; Сложные</text>
+    <rect x="35" y="205" width="175" height="18" rx="3" fill="#C8E6C9"/>
+    <text x="122" y="218" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Энергия поглощается</text>
+    <rect x="35" y="228" width="175" height="18" rx="3" fill="#C8E6C9"/>
+    <text x="122" y="241" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">АТФ расходуется</text>
+    <text x="122" y="262" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Фотосинтез, синтез белка</text>
+    <text x="122" y="275" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Синтез липидов, гликогена</text>
     
-    <!-- mRNA -->
-    <rect x="45" y="178" width="110" height="25" rx="4" fill="#C8E6C9" stroke="#66BB6A" stroke-width="1"/>
-    <text x="100" y="195" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">иРНК</text>
+    <!-- Right: Catabolism -->
+    <line x1="300" y1="118" x2="380" y2="140" stroke="#EF5350" stroke-width="2"/>
+    <rect x="280" y="140" width="195" height="150" rx="5" fill="#FFEBEE" stroke="#EF5350" stroke-width="1"/>
+    <text x="377" y="158" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#C62828" text-anchor="middle">Диссимиляция</text>
+    <text x="377" y="172" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">(Энергетический обмен)</text>
     
-    <!-- Arrow to ribosome -->
-    <line x1="155" y1="190" x2="210" y2="210" stroke="#66BB6A" stroke-width="2"/>
-    
-    <!-- Ribosome in center -->
-    <text x="290" y="100" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">Трансляция</text>
-    
-    <ellipse cx="290" cy="215" rx="50" ry="25" fill="#A5D6A7" stroke="#2E7D32" stroke-width="2"/>
-    <text x="290" y="212" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Рибосома</text>
-    <text x="290" y="222" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">(80S)</text>
-    
-    <!-- tRNA bringing amino acids -->
-    <text x="390" y="160" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">тРНК</text>
-    <path d="M380,165 L360,195" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
-    <circle cx="385" cy="160" r="8" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
-    <text x="385" y="163" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">АК</text>
-    
-    <!-- Growing polypeptide -->
-    <line x1="290" y1="240" x2="290" y2="270" stroke="#2E7D32" stroke-width="2"/>
-    <text x="290" y="260" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">АК-АК-АК...</text>
-    
-    <!-- Final protein -->
-    <rect x="240" y="275" width="100" height="20" rx="10" fill="#66BB6A"/>
-    <text x="290" y="289" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Белок</text>
+    <rect x="290" y="182" width="175" height="18" rx="3" fill="#FFCDD2"/>
+    <text x="377" y="195" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Сложные &#x2192; Простые</text>
+    <rect x="290" y="205" width="175" height="18" rx="3" fill="#FFCDD2"/>
+    <text x="377" y="218" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Энергия выделяется</text>
+    <rect x="290" y="228" width="175" height="18" rx="3" fill="#FFCDD2"/>
+    <text x="377" y="241" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">АТФ синтезируется</text>
+    <text x="377" y="262" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Дыхание, гликолиз</text>
+    <text x="377" y="275" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Брожение</text>
 
   </g>
-  <text x="250" y="325" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Транскрипция и трансляция</text>
+  <text x="250" y="325" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Обмен веществ (метаболизм)</text>
 </svg>
