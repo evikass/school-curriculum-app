@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Клетка и организм</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 31</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
+
+    <!-- Summary diagram -->
+    <text x="250" y="103" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">Основные темы курса</text>
+    
+    <!-- Central circle -->
+    <circle cx="250" cy="190" r="40" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+    <text x="250" y="186" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle">Клетка</text>
+    <text x="250" y="198" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">единица</text>
+    
+    <!-- Surrounding topics -->
+    <rect x="40" y="120" width="100" height="30" rx="5" fill="#E3F2FD" stroke="#42A5F5" stroke-width="1"/>
+    <text x="90" y="139" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Молекулярный</text>
+    <line x1="140" y1="135" x2="210" y2="170" stroke="#42A5F5" stroke-width="1.5"/>
+    
+    <rect x="370" y="120" width="100" height="30" rx="5" fill="#FFF3E0" stroke="#FFA726" stroke-width="1"/>
+    <text x="420" y="139" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">Клеточный</text>
+    <line x1="370" y1="135" x2="290" y2="170" stroke="#FFA726" stroke-width="1.5"/>
+    
+    <rect x="20" y="230" width="110" height="30" rx="5" fill="#FCE4EC" stroke="#EF5350" stroke-width="1"/>
+    <text x="75" y="249" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Обмен веществ</text>
+    <line x1="130" y1="245" x2="210" y2="210" stroke="#EF5350" stroke-width="1.5"/>
+    
+    <rect x="370" y="230" width="100" height="30" rx="5" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="420" y="249" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Деление клетки</text>
+    <line x1="370" y1="245" x2="290" y2="210" stroke="#66BB6A" stroke-width="1.5"/>
+    
+    <rect x="150" y="270" width="80" height="25" rx="5" fill="#F3E5F5" stroke="#AB47BC" stroke-width="1"/>
+    <text x="190" y="287" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle">Генетика</text>
+    <line x1="210" y1="270" x2="235" y2="230" stroke="#AB47BC" stroke-width="1.5"/>
+    
+    <rect x="270" y="270" width="80" height="25" rx="5" fill="#FFEBEE" stroke="#EF5350" stroke-width="1"/>
+    <text x="310" y="287" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Онтогенез</text>
+    <line x1="290" y1="270" x2="265" y2="230" stroke="#EF5350" stroke-width="1.5"/>
+
+  </g>
+  <text x="250" y="325" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Обобщение курса биологии 10 класс</text>
+</svg>

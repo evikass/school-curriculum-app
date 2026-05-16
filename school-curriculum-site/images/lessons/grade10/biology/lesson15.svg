@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Пластический и энергетический обмен</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 15</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
+
+    <!-- Central: Metabolism -->
+    <rect x="170" y="90" width="160" height="28" rx="5" fill="#2E7D32"/>
+    <text x="250" y="109" font-family="Arial,sans-serif" font-size="13" fill="white" text-anchor="middle">Обмен веществ</text>
+    
+    <!-- Left: Anabolism -->
+    <line x1="200" y1="118" x2="120" y2="140" stroke="#66BB6A" stroke-width="2"/>
+    <rect x="25" y="140" width="195" height="150" rx="5" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="122" y="158" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">Ассимиляция</text>
+    <text x="122" y="172" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">(Пластический обмен)</text>
+    
+    <rect x="35" y="182" width="175" height="18" rx="3" fill="#C8E6C9"/>
+    <text x="122" y="195" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Простые &#x2192; Сложные</text>
+    <rect x="35" y="205" width="175" height="18" rx="3" fill="#C8E6C9"/>
+    <text x="122" y="218" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Энергия поглощается</text>
+    <rect x="35" y="228" width="175" height="18" rx="3" fill="#C8E6C9"/>
+    <text x="122" y="241" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">АТФ расходуется</text>
+    <text x="122" y="262" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Фотосинтез, синтез белка</text>
+    <text x="122" y="275" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Синтез липидов, гликогена</text>
+    
+    <!-- Right: Catabolism -->
+    <line x1="300" y1="118" x2="380" y2="140" stroke="#EF5350" stroke-width="2"/>
+    <rect x="280" y="140" width="195" height="150" rx="5" fill="#FFEBEE" stroke="#EF5350" stroke-width="1"/>
+    <text x="377" y="158" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#C62828" text-anchor="middle">Диссимиляция</text>
+    <text x="377" y="172" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">(Энергетический обмен)</text>
+    
+    <rect x="290" y="182" width="175" height="18" rx="3" fill="#FFCDD2"/>
+    <text x="377" y="195" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Сложные &#x2192; Простые</text>
+    <rect x="290" y="205" width="175" height="18" rx="3" fill="#FFCDD2"/>
+    <text x="377" y="218" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Энергия выделяется</text>
+    <rect x="290" y="228" width="175" height="18" rx="3" fill="#FFCDD2"/>
+    <text x="377" y="241" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">АТФ синтезируется</text>
+    <text x="377" y="262" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Дыхание, гликолиз</text>
+    <text x="377" y="275" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Брожение</text>
+
+  </g>
+  <text x="250" y="325" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Обмен веществ (метаболизм)</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#66BB6A" stroke-width="3"/>
+  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#66BB6A" text-anchor="middle">Регуляция транскрипции</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 19</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#66BB6A" stroke-width="2" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    <rect x="15" y="85" width="470" height="215" fill="#F1F8E9" opacity="0.5"/>
+
+    <!-- Gene regulation diagram -->
+    <text x="250" y="103" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">Оперонная модель</text>
+    
+    <!-- Operon structure -->
+    <rect x="40" y="115" width="60" height="22" rx="3" fill="#EF5350"/>
+    <text x="70" y="130" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Промотор</text>
+    <rect x="105" y="115" width="55" height="22" rx="3" fill="#FFA726"/>
+    <text x="132" y="130" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Оператор</text>
+    <rect x="165" y="115" width="55" height="22" rx="3" fill="#42A5F5"/>
+    <text x="192" y="130" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Ген 1</text>
+    <rect x="225" y="115" width="55" height="22" rx="3" fill="#66BB6A"/>
+    <text x="252" y="130" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Ген 2</text>
+    <rect x="285" y="115" width="55" height="22" rx="3" fill="#AB47BC"/>
+    <text x="312" y="130" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Ген 3</text>
+    
+    <!-- Regulator gene -->
+    <rect x="370" y="115" width="80" height="22" rx="3" fill="#78909C"/>
+    <text x="410" y="130" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Регулятор</text>
+    
+    <!-- Repressor -->
+    <line x1="410" y1="140" x2="132" y2="158" stroke="#78909C" stroke-width="2"/>
+    <circle cx="132" cy="162" r="12" fill="#90A4AE" stroke="#546E7A" stroke-width="1"/>
+    <text x="132" y="165" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Репр.</text>
+    
+    <!-- Active operon -->
+    <rect x="40" y="195" width="420" height="45" rx="5" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+    <text x="250" y="212" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle">Активный оперон (без репрессора)</text>
+    <text x="250" y="228" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">РНК-полимераза &#x2192; транскрипция &#x2192; белки</text>
+    
+    <!-- Repressed operon -->
+    <rect x="40" y="248" width="420" height="45" rx="5" fill="#FFEBEE" stroke="#EF5350" stroke-width="1"/>
+    <text x="250" y="265" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Неактивный оперон (репрессор блокирует)</text>
+    <text x="250" y="281" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Транскрипция невозможна</text>
+
+  </g>
+  <text x="250" y="325" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">Управление синтезом белка</text>
+</svg>
