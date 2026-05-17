@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" rx="16" fill="url(#bg)" stroke="#C8E6C9" stroke-width="2"/>
+  <circle cx="420" cy="60" r="45" fill="#E8F5E9" opacity="0.6"/>
+  <circle cx="60" cy="290" r="35" fill="#E8F5E9" opacity="0.4"/>
+  <rect x="215" y="70" width="70" height="50" rx="5" fill="#8D6E63" opacity="0.5"/><path d="M220 80 L230 90 L240 75 L250 85 L260 70 L270 80 L280 75" stroke="#FF5722" fill="none" stroke-width="2"/><path d="M225 120 L275 120" stroke="#795548" stroke-width="2"/>
+  <text x="250" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2E7D32" font-weight="bold">Влияние человека</text>
+  <text x="250" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#66BB6A">Биология · 9 класс</text>
+</svg>
