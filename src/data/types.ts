@@ -99,7 +99,8 @@ export const subjectNames: Record<string, { title: string; icon: string; color: 
   religion: { title: "Основы религиозных культур", icon: "HeartHandshake", color: "text-amber-400" },
   safety: { title: "Основы безопасности", icon: "Shield", color: "text-slate-400" },
   astronomy: { title: "Астрономия", icon: "Telescope", color: "text-violet-400" },
-  ecology: { title: "Экология", icon: "Leaf", color: "text-green-400" }
+  ecology: { title: "Экология", icon: "Leaf", color: "text-green-400" },
+  "history-russia": { title: "История России", icon: "Landmark", color: "text-amber-500" }
 };
 
 // Порядок предметов по классам
@@ -114,7 +115,7 @@ export const gradeSubjects: Record<number, string[]> = {
   7: ["russian", "literature", "algebra", "geometry", "physics", "history", "biology", "geography", "english", "tech", "art", "music", "pe", "safety"],
   8: ["russian", "literature", "algebra", "geometry", "physics", "chemistry", "history", "biology", "geography", "english", "tech", "art", "music", "pe", "safety"],
   9: ["russian", "literature", "algebra", "geometry", "physics", "chemistry", "history", "biology", "geography", "english", "tech", "art", "music", "pe", "safety"],
-  10: ["russian", "literature", "algebra", "geometry", "physics", "chemistry", "history", "social", "biology", "geography", "english", "informatics", "pe", "safety"],
+  10: ["russian", "literature", "algebra", "geometry", "physics", "chemistry", "history", "history-russia", "social", "biology", "geography", "english", "informatics", "pe", "safety"],
   11: ["russian", "literature", "algebra", "geometry", "physics", "chemistry", "history", "social", "biology", "geography", "english", "informatics", "pe", "safety"]
 };
 

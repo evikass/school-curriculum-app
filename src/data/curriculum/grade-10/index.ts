@@ -43,6 +43,12 @@ export const grade10Subjects = [
     topics: ["XX век", "Революции", "ВОВ"]
   },
   {
+    title: "История России",
+    icon: "Landmark",
+    color: "text-amber-500",
+    topics: ["Древняя Русь", "Монголы и Москва", "Российское государство", "Империя"]
+  },
+  {
     title: "Обществознание",
     icon: "Users",
     color: "text-violet-400",

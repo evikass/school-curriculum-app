@@ -338,6 +338,8 @@ import { lessons as grade10geometryLessons, games as grade10geometryGames } from
 export { grade10geometryLessons, grade10geometryGames };
 import { lessons as grade10historyLessons, games as grade10historyGames } from './grades/10/history';
 export { grade10historyLessons, grade10historyGames };
+import { lessons as grade10historyRussiaLessons, games as grade10historyRussiaGames } from './grades/10/history-russia';
+export { grade10historyRussiaLessons, grade10historyRussiaGames };
 import { lessons as grade10informaticsLessons, games as grade10informaticsGames } from './grades/10/informatics';
 export { grade10informaticsLessons, grade10informaticsGames };
 import { lessons as grade10labLessons, games as grade10labGames } from './grades/10/lab';
