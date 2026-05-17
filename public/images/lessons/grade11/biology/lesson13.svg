@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" rx="16" fill="url(#bg)" stroke="#C8E6C9" stroke-width="2"/>
+  <circle cx="420" cy="60" r="45" fill="#E8F5E9" opacity="0.6"/>
+  <circle cx="60" cy="290" r="35" fill="#E8F5E9" opacity="0.4"/>
+  <circle cx="250" cy="110" r="40" fill="#A5D6A7"/><circle cx="250" cy="110" r="25" fill="#81C784"/><path d="M240 80 L250 50 L260 80" stroke="#4CAF50" fill="none" stroke-width="2"/><rect x="225" y="150" width="50" height="40" rx="5" fill="#8D6E63" opacity="0.5"/>
+  <text x="250" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2E7D32" font-weight="bold">Мезозой</text>
+  <text x="250" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#66BB6A">Биология · 11 класс</text>
+</svg>
