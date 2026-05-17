@@ -75,7 +75,7 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
   })()
 
   const sections = [
-    { title: 'Теория', icon: BookOpen, content: lesson.theory || lesson.description },
+    { title: 'Теория', icon: BookOpen, content: lesson.theory || lesson.content || lesson.description },
     { title: 'Ключевые моменты', icon: Lightbulb, content: autoKeyPoints },
     { title: 'Примеры', icon: Target, content: autoExamples },
     { title: 'Задания', icon: CheckCircle, content: lesson.tasks }
