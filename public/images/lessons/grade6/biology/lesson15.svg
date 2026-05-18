@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#2E7D32" text-anchor="middle">Побег и стебель</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология 6 класс - Урок 15</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#2E7D32" stroke-width="2" opacity="0.25"/>
+  
+  <rect x="30" y="88" width="440" height="210" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.7"/>
+  <text x="60" y="100" font-family="Arial,sans-serif" font-size="9" fill="#333">• Стебель + листья + почки</text>
+<text x="60" y="122" font-family="Arial,sans-serif" font-size="9" fill="#333">• Камбий — рост в толщину</text>
+<text x="60" y="144" font-family="Arial,sans-serif" font-size="9" fill="#333">• Годичные кольца</text>
+<text x="60" y="166" font-family="Arial,sans-serif" font-size="9" fill="#333">• Клубень, луковица</text>
+
+  
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология 6 класс</text>
+</svg>
