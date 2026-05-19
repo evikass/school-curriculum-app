@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Углеводы и липиды</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 10 класс — Урок 6</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(130,175)">
+<rect x="-80" y="-70" width="160" height="140" rx="5" fill="white" stroke="#FF9800" stroke-width="1.5"/>
+<text x="0" y="-55" font-family="Arial,sans-serif" font-size="8" fill="#FF9800" text-anchor="middle" font-weight="bold">Углеводы</text>
+<line x1="-65" y1="-48" x2="65" y2="-48" stroke="#FF9800" stroke-width="0.5"/>
+<text x="0" y="-33" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle" font-weight="bold">Моносахариды</text>
+<text x="0" y="-20" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Глюкоза C6H12O6</text>
+<text x="0" y="-7" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Фруктоза, рибоза</text>
+<text x="0" y="10" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle" font-weight="bold">Дисахариды</text>
+<text x="0" y="23" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Сахароза, лактоза</text>
+<text x="0" y="40" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle" font-weight="bold">Полисахариды</text>
+<text x="0" y="53" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Крахмал, гликоген, целлюлоза</text>
+</g>
+<g transform="translate(370,175)">
+<rect x="-80" y="-70" width="160" height="140" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
+<text x="0" y="-55" font-family="Arial,sans-serif" font-size="8" fill="#9C27B0" text-anchor="middle" font-weight="bold">Липиды</text>
+<line x1="-65" y1="-48" x2="65" y2="-48" stroke="#9C27B0" stroke-width="0.5"/>
+<text x="0" y="-33" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle" font-weight="bold">Простые липиды</text>
+<text x="0" y="-20" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Жиры (триацилглицерины)</text>
+<text x="0" y="-7" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Воска</text>
+<text x="0" y="10" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle" font-weight="bold">Сложные липиды</text>
+<text x="0" y="23" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Фосфолипиды мембран</text>
+<text x="0" y="40" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle" font-weight="bold">Стероиды</text>
+<text x="0" y="53" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Холестерин, гормоны</text>
+</g>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 10 класс</text>
+</svg>
