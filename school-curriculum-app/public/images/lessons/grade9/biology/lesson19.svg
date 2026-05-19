@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Экологические факторы</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 9 класс — Урок 19</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(120,120)">
+<rect x="-70" y="-35" width="140" height="70" rx="5" fill="#FF9800" opacity="0.15" stroke="#E65100" stroke-width="1.5"/>
+<text x="0" y="-20" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Абиотические</text>
+<line x1="-55" y1="-12" x2="55" y2="-12" stroke="#E65100" stroke-width="0.5"/>
+<text x="0" y="0" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Свет, температура,</text>
+<text x="0" y="12" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">влажность, воздух,</text>
+<text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">давление, pH</text>
+</g>
+<g transform="translate(380,120)">
+<rect x="-70" y="-35" width="140" height="70" rx="5" fill="#4CAF50" opacity="0.15" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="0" y="-20" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">Биотические</text>
+<line x1="-55" y1="-12" x2="55" y2="-12" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="0" y="0" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Хищничество, конкуренция,</text>
+<text x="0" y="12" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">симбиоз, паразитизм,</text>
+<text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">мутуализм, комменсализм</text>
+</g>
+<g transform="translate(250,230)">
+<rect x="-70" y="-35" width="140" height="70" rx="5" fill="#9C27B0" opacity="0.15" stroke="#7B1FA2" stroke-width="1.5"/>
+<text x="0" y="-20" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Антропогенные</text>
+<line x1="-55" y1="-12" x2="55" y2="-12" stroke="#7B1FA2" stroke-width="0.5"/>
+<text x="0" y="0" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Загрязнение, вырубка,</text>
+<text x="0" y="12" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">осушение, строительство,</text>
+<text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">интродукция видов</text>
+</g>
+<rect x="30" y="285" width="440" height="25" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="299" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Закон оптимума: наилучшее значение фактора для организма</text>
+<text x="250" y="310" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Закон минимума Либиха: фактор в минимуме ограничивает рост</text>
+<text x="250" y="321" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Ограничивающий фактор: фактор, отклоняющийся от оптимума</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 9 класс</text>
+</svg>
