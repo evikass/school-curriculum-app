@@ -1,372 +1,49 @@
-# ИНЕТШКОЛА - Work Log
-
 ---
-Task ID: 32
-Agent: Main Agent
-Task: Обеспечить 1:1 маппинг урок→тест для 11 класса
+Task ID: 1
+Agent: main
+Task: Fix biology grade 10 lessons - numbering, splitting, missing lessons
 
 Work Log:
-- Проанализированы все 16 предметов 11 класса
-- Проверено соответствие уроков и тестов
-- Результаты анализа:
-  - ✅ Алгебра (8 уроков = 8 тестов + 1 доп. "Производная функции")
-  - ✅ Русский язык (12 уроков = 12 тестов + 13 доп.legacy)
-  - ✅ Литература (12 уроков = 12 тестов + 13 доп.legacy)
-  - ✅ Физика (8 уроков = 8 тестов + 2 доп.legacy)
-  - ✅ Химия (10 уроков = 10 тестов)
-  - ✅ Биология (10 уроков = 10 тестов)
-  - ✅ Обществознание (12 уроков = 12 тестов)
-  - ✅ География (12 уроков = 12 тестов)
-  - ✅ Английский (10 уроков = 10 тестов)
-  - ✅ Информатика (12 уроков = 12 тестов)
-  - ✅ Экономика (32 урока = 32 теста)
-  - ✅ Программирование (32 урока = 32 теста)
-  - ✅ Физкультура (12 уроков = 12 тестов)
-  - ✅ ОБЖ (12 уроков = 12 тестов)
-  - ❌ Геометрия (12 уроков, 11 тестов) — не хватало "Комбинации тел"
-  - ❌ История (12 уроков, 11 тестов) — не хватало "Уроки истории"
-- Добавлены недостающие тесты:
-  - Геометрия: добавлен тест "Комбинации тел" (6 вопросов о вписанных/описанных телах)
-  - История: добавлен тест "Уроки истории" (6 вопросов об исторической памяти, НТР, итогах XX века)
-- Версия обновлена до v3.731
+- Cloned evikass/school-curriculum-app repo
+- Analyzed current state: 31 lessons with broken numbering in biology.json, topics[] mismatching detailedTopics
+- Fixed topics[] to match detailedTopics exactly ("Молекулярный уровень" → "Молекулярный уровень организации", etc.)
+- Renumbered all 31 existing lessons to new global numbering (reverse order to avoid conflicts)
+- Split lesson 6 "Органические вещества клетки" into lesson 6 "Углеводы и липиды" and lesson 7 "Белки" with full content
+- Split lesson 13 "Органоиды клетки" into lesson 14 "Ядро" and lesson 15 "Органеллы цитоплазмы" with full content
+- Split lesson 26 "Взаимодействие генов и изменчивость" into lesson 29 "Взаимодействие генов" and lesson 30 "Изменчивость"
+- Added lesson 17 "Клеточный цикл" (G1, S, G2, M phases, checkpoints, cyclins, CDK, apoptosis, cancer)
+- Added lesson 31 "Генетика пола" (XX/XY, sex-linked inheritance, hemophilia, color blindness, Y-linked traits, ЕГЭ examples)
+- Added quiz entries in games section for all 5 new lessons
+- Fixed unterminated string in lesson 20 (фотосинтез) and missing commas
+- Fixed indentation normalization
+- Renumbered SVG files (1-31 → 1-36) and created 5 new SVGs
+- Regenerated biology.json from TypeScript source using tsx (36 lessons, 36 games)
+- Copied JSON and SVGs to school-curriculum-site and android directories
+- Committed and pushed to main, merged to site branch
 
 Stage Summary:
-- 11 класс: добавлено 2 теста, теперь все 16 предметов имеют 1:1 маппинг
-- Общее число уроков 11 класса: ~176 уроков = ~176 тестов
-- Версия: v3.731
-
----
-Task ID: 25
-Agent: Main Agent
-Task: Добавление полных уроков для Музыки 5 класс
-
-Work Log:
-- Полностью переработан файл /src/data/grades/5/music/index.ts
-- Добавлены полноценные уроки с теорией, примерами и фактами для всех 15 уроков:
-  - Урок 1: Что такое музыка (элементы музыки, музыкальные и немузыкальные звуки)
-  - Урок 2: Классификация инструментов (струнные, духовые, ударные, клавишные)
-  - Урок 3: Симфонический оркестр (состав, дирижёр, слушание)
-  - Урок 4: Народные инструменты (балалайка, баян, домра, гусли)
-  - Урок 5: Песня и романс (народные песни, виды романсов)
-  - Урок 6: Опера (структура, ария и хор, известные оперы)
-  - Урок 7: Балет (структура, балеты Чайковского)
-  - Урок 8: Симфония и концерт (структура симфонии, концерты для солиста)
-  - Урок 9: М.И. Глинка (биография, «Иван Сусанин», «Руслан и Людмила»)
-  - Урок 10: П.И. Чайковский (биография, три балета)
-  - Урок 11: М.П. Мусоргский (биография, «Картинки с выставки», «Борис Годунов»)
-  - Урок 12: Н.А. Римский-Корсаков (биография, «Садко», «Шехеразада»)
-  - Урок 13: Музыка в нашей жизни (праздники, эмоции, традиции)
-  - Урок 14: Музыка и другие искусства (литература, живопись, театр, кино)
-  - Урок 15: Современная музыка (поп, рок, джаз, электронная)
-- Добавлены импорты игр для музыки, ОБЖ, технологии, ИЗО и физкультуры в index.ts
-- Обновлена версия до v3.148
-
-Stage Summary:
-- Добавлено 15 полноценных уроков по музыке для 5 класса
-- Каждый урок содержит теорию, таблицы, примеры, интересные факты
-- Добавлено 3 игры по музыке (инструменты, жанры, композиторы)
-- Развёртывание: v3.148 на GitHub Pages
+- Final lesson count: 36 (was 31)
+- Topics distribution: Введение(4), Молекулярный уровень(7), Клеточный уровень(6), Обмен веществ(5), Деление клетки(4), Генетика(6), Онтогенез и развитие(4)
+- Commit: 3b629c3d pushed to main, 47c0acb0 pushed to site
+- All TypeScript compilation passes with no errors
 
 ---
 Task ID: 1
-Agent: Main Agent
-Task: Продолжение разработки - добавление новых функций
-
-Work Log:
-- Создан компонент WeeklyChallenges (система недельных челленджей)
-- Создан компонент StudyStats (панель статистики обучения)
-- Обновлён SchoolContext с поддержкой ежедневного отслеживания прогресса (todayLessons, todayGames, todayPoints)
-- Улучшен компонент DailyTasks с реальным отслеживанием ежедневного прогресса
-- Добавлены новые достижения (всего 36 достижений):
-  - Новые уровни баллов: 1500, 3000
-  - Новые уровни серий: 21, 60, 100 дней
-  - Новые уровни игр: 100 игр
-  - Новые уровни точности: 70%, 95%
-  - Новые уровни ответов: 50, 100, 500, 1000 вопросов
-- Обновлён index.ts с экспортом новых компонентов
-- Обновлён page.tsx с подключением WeeklyChallenges и StudyStats
-
-Stage Summary:
-- Добавлено 2 новых компонента: WeeklyChallenges, StudyStats
-- Расширена система достижений с 25 до 36 достижений
-- Добавлено ежедневное отслеживание прогресса в SchoolContext
-- page.tsx остался в пределах лимита (68 строк)
-
----
-Task ID: 24
-Agent: Main Agent
-Task: Исправление багов VK Mini Apps по результатам тестирования
-
-Work Log:
-- Исправлен баг "Числа 1-5" (1 класс): добавлено поле options для типа order в игре
-  - Файл: /src/data/games/grade-1/index.ts
-  - Проблема: тип order не имел массива options, что приводило к невозможности отображения задания
-  - Решение: добавлено `options: ["3", "1", "5", "2"]` для корректного отображения
-
-- Исправлен баг "Найди пару" (MemoryGame): дублирующиеся значения 60
-  - Файл: /src/components/school/MemoryGame.tsx
-  - Проблема: `{ left: '12 × 5', right: '60' }` и `{ left: '15 × 4', right: '60' }` имели одинаковый результат, что путало игру
-  - Решение: заменено `{ left: '15 × 4', right: '60' }` на `{ left: '15 × 3', right: '45' }`
-
-- Исправлен баг "Лучшая серия" (StreakCalendar): счётчик показывал 0
-  - Файл: /src/components/school/StreakCalendar.tsx
-  - Проблема: longestStreak инициализировался только из streakCalendar данных, но не из currentStreak
-  - Решение: 
-    - longestStreak теперь инициализируется значением currentStreak
-    - Исправлена логика подсчёта серии - теперь проверяются последовательные даты, а не просто наличие активности
-
-- Исправлен баг "ЖИ-ШИ пиши с И": строчная 'и' не принималась
-  - Файл: /src/components/school/Gameplay.tsx
-  - Проблема: функция checkAnswer не приводила строки к общему регистру
-  - Решение: добавлено `.trim().toUpperCase()` для сравнения строк без учёта регистра
-
-- Исправлен баг "Таблица умножения на 2": тип match не работал
-  - Файл: /src/components/school/Gameplay.tsx
-  - Проблема: Gameplay.tsx ожидал формат `["left→right", ...]`, но данные имели формат параллельных массивов
-  - Решение: обновлён компонент для поддержки двух форматов:
-    - Новый: `options = [left1, left2, right1, right2], correctAnswer = ["left→right", ...]`
-    - Старый: `options = [left1, left2], correctAnswer = [right1, right2]`
-  - Добавлено автоматическое перемешивание правого столбца для старого формата
-
-- Исправлен баг "Сравнение чисел" (2 класс): тип order не имел кнопки проверки
-  - Файл: /src/components/school/Gameplay.tsx
-  - Проблема: тип order имел только поле ввода без кнопки отправки
-  - Решение:
-    - Добавлена функция `submitOrderAnswer()` для проверки ответа
-    - Добавлена кнопка "Проверить"
-    - Добавлена поддержка Enter для отправки
-    - Добавлен блок с результатом проверки
-
-- Исправлены данные игр типа match в 3 классе:
-  - Файл: /src/data/grades/3/math/index.ts
-  - "Таблица умножения: Соедини пары" - обновлён формат данных
-  - "Деление: Соедини пары" - обновлён формат данных
-
-Stage Summary:
-- Исправлено 6 критических багов, выявленных тестировщиками VK Mini Apps
-- Улучшена совместимость типов игр (match, order, fill)
-- Все типы игр теперь имеют корректную кнопку проверки
-- Добавлена поддержка нескольких форматов данных для типа match
-- Деплой: https://evikass.github.io/school-curriculum-app/
-
----
-Task ID: 26
-Agent: Main Agent
-Task: Исправление отображения полных уроков в 3 классе
-
-Work Log:
-- Выявлена проблема: KidLessonViewer отображал только поле `description` (короткое описание)
-  вместо полного содержания урока в поле `content` (markdown)
-- Обновлён интерфейс `LessonData` в SchoolContext.tsx:
-  - Добавлены поля: `image`, `content`, `examples`, `facts`
-- Обновлён интерфейс `LessonItem` в types.ts:
-  - Добавлено поле `content` для полного содержания урока
-- Исправлен KidLessonViewer.tsx:
-  - Изменено отображение контента: `content || description`
-  - Добавлен блок "Примеры" с cyan стилизацией
-  - Добавлен блок "Интересные факты" с purple стилизацией
-- LessonDetailModal.tsx уже корректно использовал поле `content`
-- Обновлена версия до v3.333
-
-Stage Summary:
-- Исправлено отображение полных уроков в 3 классе (и других классах)
-- Теперь уроки показывают полное содержание вместо короткого описания
-- Добавлены секции для примеров и интересных фактов
-- Деплой: https://evikass.github.io/school-curriculum-app/ (gh-pages branch)
-
----
-Task ID: 27
-Agent: Main Agent
-Task: Проверка соответствия тестов урокам по Технологии (3 класс)
-
-Work Log:
-- Проверены уроки по технологии за 3 класс:
-  - 📄 Работа с бумагой (4 урока): Виды бумаги, Разметка деталей, Вырезание деталей, Аппликация
-  - 🧸 Лепка (2 урока): Пластилин, Солёное тесто
-  - 📦 Моделирование (2 урока): Оригами, Модели из природного материала
-- Найдены проблемы:
-  1. Игры из tech/index.ts не были импортированы в главный index.ts
-  2. Отсутствовал тест по теме "Моделирование"
-- Исправления:
-  1. Добавлен импорт grade3TechGames в src/data/index.ts
-  2. Добавлен тест "Моделирование 📦" с вопросами по оригами и природным материалам
-  3. Добавлен grade3TechGames в allGames[3]
-- Обновлена версия до v3.344
-
-Stage Summary:
-- Теперь все 4 темы по технологии имеют соответствующие тесты:
-  - Работа с бумагой
-  - Аппликация
-  - Лепка
-  - Моделирование (新增)
-- Деплой: https://evikass.github.io/school-curriculum-app/ (v3.344)
-
----
-Task ID: 28
-Agent: Main Agent
-Task: Проверка соответствия тестов урокам по ИЗО (3 класс)
-
-Work Log:
-- Проверены уроки по ИЗО за 3 класс:
-  - 🎨 Рисование: Радуга цветов, Линии и штрихи, Геометрические фигуры
-  - 🖼️ Живопись: Жанры живописи, Русские художники, Рисование с натуры
-  - 🪆 Народное искусство: Дымковская игрушка, Хохлома, Матрёшка
-  - 🎭 Декоративное творчество: Аппликация, Лепка, Выставка
-- Найдены проблемы:
-  1. Игры из art/index.ts не были импортированы в главный index.ts
-  2. Отсутствовал тест "Линии и фигуры"
-  3. Отсутствовал тест "Русские художники"
-  4. Отсутствовал тест "Декоративное творчество"
-- Исправления:
-  1. Добавлен импорт grade3ArtGames в src/data/index.ts
-  2. Добавлен тест "Линии и фигуры ✏️" (виды линий, геометрические фигуры)
-  3. Добавлен тест "Русские художники 🏛️" (Левитан, Репин, Васнецов)
-  4. Добавлен тест "Декоративное творчество 🎭" (аппликация, лепка)
-- Обновлена версия до v3.345
-
-Stage Summary:
-- Теперь все 4 темы по ИЗО имеют соответствующие тесты (всего 6 тестов):
-  - Цвета 🎨
-  - Линии и фигуры ✏️ (新增)
-  - Жанры живописи 🖼️
-  - Русские художники 🏛️ (新增)
-  - Народные промыслы 🪆
-  - Декоративное творчество 🎭 (新增)
-- Деплой: https://evikass.github.io/school-curriculum-app/ (v3.345)
-
----
-Task ID: 29
-Agent: Main Agent
-Task: Проверка соответствия тестов урокам по Музыке (3 класс)
-
-Work Log:
-- Проверены уроки по Музыке за 3 класс:
-  - 🎹 Музыкальные инструменты: Группы инструментов, Нотная грамота, Русские народные инструменты
-  - 🎼 Русские композиторы: Глинка, Чайковский, Римский-Корсаков
-  - 🎵 Народные песни: Русские народные песни
-- Найдены проблемы:
-  1. Игры из music/index.ts не были импортированы в главный index.ts
-  2. Отсутствовал тест "Нотная грамота"
-  3. Отсутствовал тест "Народные песни"
-- Исправления:
-  1. Добавлен импорт grade3MusicGames в src/data/index.ts
-  2. Добавлен тест "Нотная грамота 🎼" (ноты, нотный стан, длительности)
-  3. Добавлен тест "Народные песни 🎵" (виды песен, традиции)
-  4. Улучшен тест "Музыкальные инструменты" - добавлены духовые
-  5. Улучшен тест "Русские композиторы" - добавлены вопросы по операм
-- Обновлена версия до v3.346
-
-Stage Summary:
-- Теперь все 3 темы по Музыке имеют соответствующие тесты (всего 4 теста):
-  - Музыкальные инструменты 🎹
-  - Нотная грамота 🎼 (新增)
-  - Русские композиторы 🎻
-  - Народные песни 🎵 (新增)
-- Деплой: https://evikass.github.io/school-curriculum-app/ (v3.346)
-
----
-Task ID: 30
-Agent: Main Agent
-Task: Проверка соответствия тестов урокам по Физической культуре (3 класс)
-
-Work Log:
-- Проверены уроки по ФК за 3 класс:
-  - 🤸 Гимнастика: Строевые упражнения, Гимнастические упражнения, Упражнения с предметами
-  - 🏃 Лёгкая атлетика: Бег и ходьба, Прыжки, Метание
-  - ⚽ Подвижные игры: Футбол, Баскетбол, Волейбол
-  - 🎿 Зимние виды спорта: Лыжная подготовка, Катание на коньках, Зимние игры
-- Найдены проблемы:
-  1. Игры из pe/index.ts не были импортированы в главный index.ts
-  2. Отсутствовал тест "Лёгкая атлетика"
-- Исправления:
-  1. Добавлен импорт grade3PEGames в src/data/index.ts
-  2. Добавлен тест "Лёгкая атлетика 🏃" (бег, прыжки, метание)
-  3. Улучшен тест "Гимнастика" - добавлены упражнения с предметами
-  4. Улучшен тест "Зимние виды спорта" - добавлен вопрос о лыжном ходе
-- Обновлена версия до v3.347
-
-Stage Summary:
-- Теперь все 4 темы по ФК имеют соответствующие тесты (всего 4 теста):
-  - Гимнастика 🤸
-  - Лёгкая атлетика 🏃 (新增)
-  - Спортивные игры ⚽
-  - Зимние виды спорта ⛷️
-- Деплой: https://evikass.github.io/school-curriculum-app/ (v3.347)
-
----
-Task ID: 31
-Agent: Main Agent
-Task: Обеспечить 1:1 маппинг урок→тест для классов 3,4,5,6,8,9,10
-
-Work Log:
-- Проанализирована структура данных: каждый предметный JSON содержит `lessons` и `games`
-- Выявлены предметы с нехваткой/избытком тестов в 7 классах
-- Добавлены недостающие тесты для каждого урока без теста:
-  - Grade 3: +59 тестов (12 предметов, 183 урока = 183 теста)
-  - Grade 4: +1 тест (1 предмет, 222 = 222)
-  - Grade 5: +70 тестов (13 предметов, 286 = 286)
-  - Grade 6: +36 тестов (9 предметов, 210 = 210)
-  - Grade 8: +9 тестов, -2 лишних (3 предмета, 204 = 204)
-  - Grade 9: +2 теста, -10 лишних (4 предмета, 299 = 299)
-  - Grade 10: +35 тестов, -1 лишний (5 предметов, 333 = 333)
-- Пересобраны _bundle.json для всех затронутых классов
-- Обнаружена проблема с emoji в safety.json grade 5 — решена через ensure_ascii=True
-- Версия обновлена до v3.730
-- Force push на origin/main
-
-Stage Summary:
-- Всего добавлено ~212 новых тестов и удалено ~13 лишних
-- Все 7 классов теперь имеют точное соответствие 1 урок = 1 тест
-- Правило: 1 урок = 1 тест (NOT keyword matching)
----
-Task ID: grade0-1to1-mapping
 Agent: main
-Task: Ensure 1:1 lesson-to-quiz mapping for grade 0 (подготовительный класс)
+Task: Fix biology grade 10 lessons - SVG path bug and deployment
 
 Work Log:
-- Analyzed all 8 subjects in grade 0: math, russian, reading, world, art, craft, music, PE
-- Found 4 subjects with 8 lessons (already had 8 games but misaligned) and 4 subjects with 12 lessons (had only 3-5 games, needed 9+ more)
-- Processed all 8 subjects in parallel using subagents
-- Replaced games arrays in all subject files with 1:1 mapping (each lesson gets exactly one dedicated test)
-- All game titles start with "Тест: " followed by the lesson topic
-- Removed all "Никто не знает" / "Не знаю" options, replaced with plausible alternatives
-- Each game has exactly 5 tasks
-- Build verified successfully
+- Analyzed current state: source has 36 lessons, JSON has 36 lessons, SVG files 1-36 all present
+- Found that deployed version (gh-pages) only had 31 lessons with broken per-topic numbering
+- Identified bug: Lesson 26 referenced lesson29.svg instead of lesson26.svg in both index.ts and JSON
+- Fixed SVG path in index.ts: lesson29.svg → lesson26.svg
+- Fixed SVG path in JSON directly (npm run build doesn't regenerate the JSON)
+- Copied updated JSON to all 3 locations (public/, school-curriculum-site/, android/)
+- Committed and pushed to main
+- Merged main into site branch and pushed - triggers GitHub Actions deployment
 
 Stage Summary:
-- Grade 0 fully processed with 1:1 lesson-to-quiz mapping
-- Total: 8 subjects, 80 lessons, 80 dedicated tests
-- Math: 8 lessons → 8 tests ✓
-- Russian: 8 lessons → 8 tests ✓
-- Reading: 8 lessons → 8 tests ✓
-- World: 8 lessons → 8 tests ✓
-- Art: 12 lessons → 12 tests ✓
-- Craft: 12 lessons → 12 tests ✓
-- Music: 12 lessons → 12 tests ✓
-- PE: 12 lessons → 12 tests ✓
-- Build passes successfully
-
----
-Task ID: 1:1-mapping-all-grades
-Agent: Super Z (main)
-Task: Ensure 1:1 lesson-to-quiz mapping across ALL grades (0-11)
-
-Work Log:
-- Analyzed all 214 subject data files across 12 grades
-- Identified subjects with missing games in grades 3, 5, 6, 8, 9, 10
-- Grade 3: Added ~94 missing quiz games across 11 subjects
-- Grade 5: Added ~121 missing quiz games across 11 subjects
-- Grade 6: Added 37 missing games (chemistry: 10, coding: 8, crafts: 10, physics: 9, ecology: 9, math: 4)
-- Grade 8: Added 9 missing games (coding: 6, russian: 3)
-- Grade 9: Added 2 missing games (informatics: 2)
-- Grade 10: Added 29 missing games (economy: 27, lab: 2, philosophy: 2)
-- Fixed existing games with fewer than 5 tasks
-- Verified all grades have at least 1:1 mapping
-- Build passes successfully
-- Version bumped to 3.734
-
-Stage Summary:
-- Total: 2354 lessons, 2556 games across all 12 grades
-- Every lesson now has at least one dedicated test (1 урок = 1 тест)
-- 47 files changed, 6805 insertions, 1655 deletions
-- Version 3.734 pushed to main
+- Source file fix: lesson26 SVG path corrected
+- JSON fix: lesson26 SVG path corrected in all 3 copies
+- Deployment: Pushed to site branch, GitHub Actions should deploy to gh-pages with 36 lessons
+- Previous gh-pages had only 31 lessons with broken numbering; new deployment will have all 36

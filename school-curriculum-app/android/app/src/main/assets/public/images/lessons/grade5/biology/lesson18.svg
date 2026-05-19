@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Кишечнополостные и черви</text>
+  <text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 5 класс - Урок 18</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+  
+  <!-- Hydra (Кишечнополостное) -->
+  <g transform="translate(130,180)">
+    <!-- Body column -->
+    <path d="M-15 -20 Q-18 0 -15 30 Q-12 50 -8 55" stroke="#EF5350" stroke-width="2" fill="#FFCDD2"/>
+    <path d="M15 -20 Q18 0 15 30 Q12 50 8 55" stroke="#EF5350" stroke-width="2" fill="#FFCDD2"/>
+    <path d="M-8 55 Q0 60 8 55" fill="#FFCDD2" stroke="#EF5350" stroke-width="1.5"/>
+    <!-- Tentacles -->
+    <path d="M-15 -20 Q-30 -40 -35 -50" stroke="#EF5350" stroke-width="2" fill="none"/>
+    <path d="M-10 -22 Q-15 -45 -12 -55" stroke="#EF5350" stroke-width="2" fill="none"/>
+    <path d="M-5 -23 Q0 -48 5 -55" stroke="#EF5350" stroke-width="2" fill="none"/>
+    <path d="M5 -23 Q10 -45 12 -52" stroke="#EF5350" stroke-width="2" fill="none"/>
+    <path d="M10 -22 Q20 -40 28 -48" stroke="#EF5350" stroke-width="2" fill="none"/>
+    <path d="M15 -20 Q30 -38 38 -45" stroke="#EF5350" stroke-width="2" fill="none"/>
+    <!-- Tentacle knobs (cnidocytes) -->
+    <circle cx="-35" cy="-50" r="3" fill="#E53935"/>
+    <circle cx="-12" cy="-55" r="3" fill="#E53935"/>
+    <circle cx="5" cy="-55" r="3" fill="#E53935"/>
+    <circle cx="12" cy="-52" r="3" fill="#E53935"/>
+    <circle cx="28" cy="-48" r="3" fill="#E53935"/>
+    <circle cx="38" cy="-45" r="3" fill="#E53935"/>
+    <!-- Mouth/hypostome -->
+    <ellipse cx="0" cy="-18" rx="12" ry="5" fill="#EF9A9A" stroke="#E53935" stroke-width="1"/>
+    <!-- Inner cavity (gastrovascular) -->
+    <path d="M-8 -15 Q-10 10 -6 35 Q0 40 6 35 Q10 10 8 -15" fill="#FFAB91" opacity="0.3"/>
+    <!-- Basal disc -->
+    <ellipse cx="0" cy="57" rx="10" ry="4" fill="#EF9A9A" stroke="#E53935" stroke-width="1"/>
+    <!-- Bud (asexual reproduction) -->
+    <path d="M15 10 Q25 5 28 12 Q30 20 22 22 Q15 20 15 10 Z" fill="#FFCDD2" stroke="#EF5350" stroke-width="1"/>
+    <text x="0" y="80" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Гидра</text>
+    <text x="0" y="92" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">(кишечнополостное)</text>
+  </g>
+  <!-- Hydra labels -->
+  <text x="230" y="100" font-family="Arial,sans-serif" font-size="7" fill="#333">Щупальца</text>
+  <line x1="229" y1="102" x2="160" y2="128" stroke="#333" stroke-width="0.5"/>
+  <text x="250" y="135" font-family="Arial,sans-serif" font-size="7" fill="#333">Рот</text>
+  <line x1="240" y1="137" x2="145" y2="162" stroke="#333" stroke-width="0.5"/>
+  <text x="250" y="170" font-family="Arial,sans-serif" font-size="7" fill="#333">Кишечная полость</text>
+  <line x1="250" y1="172" x2="135" y2="185" stroke="#333" stroke-width="0.5"/>
+  <text x="250" y="200" font-family="Arial,sans-serif" font-size="7" fill="#333">Подошва</text>
+  <line x1="250" y1="202" x2="140" y2="235" stroke="#333" stroke-width="0.5"/>
+  <text x="250" y="115" font-family="Arial,sans-serif" font-size="7" fill="#C62828">Стрекательные клетки</text>
+  <line x1="265" y1="113" x2="170" y2="130" stroke="#333" stroke-width="0.5"/>
+  <!-- Flatworm (Плоский червь) -->
+  <g transform="translate(400,150)">
+    <!-- Planaria body -->
+    <path d="M-10 -35 Q-25 -40 -35 -35 Q-40 -30 -35 -25 Q-25 -20 -10 -22 L-10 22 Q-25 20 -35 25 Q-40 30 -35 35 Q-25 40 -10 35 L10 35 Q25 40 35 35 Q40 30 35 25 Q25 20 10 22 L10 -22 Q25 -20 35 -25 Q40 -30 35 -35 Q25 -40 10 -35 Z" fill="#FFE0B2" stroke="#E65100" stroke-width="1.5"/>
+    <!-- Eyespots -->
+    <circle cx="-20" cy="-32" r="4" fill="#333"/>
+    <circle cx="20" cy="-32" r="4" fill="#333"/>
+    <!-- Auricles -->
+    <path d="M-30 -35 Q-35 -45 -25 -42" stroke="#E65100" stroke-width="1.5" fill="#FFE0B2"/>
+    <path d="M30 -35 Q35 -45 25 -42" stroke="#E65100" stroke-width="1.5" fill="#FFE0B2"/>
+    <!-- Pharynx -->
+    <ellipse cx="0" cy="0" rx="6" ry="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+    <!-- Gut branches -->
+    <path d="M0 -8 Q-15 -20 -25 -15" stroke="#E65100" stroke-width="0.8" fill="none"/>
+    <path d="M0 -8 Q15 -20 25 -15" stroke="#E65100" stroke-width="0.8" fill="none"/>
+    <path d="M0 8 Q-15 20 -25 15" stroke="#E65100" stroke-width="0.8" fill="none"/>
+    <path d="M0 8 Q15 20 25 15" stroke="#E65100" stroke-width="0.8" fill="none"/>
+    <text x="0" y="55" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Планария</text>
+    <text x="0" y="67" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">(плоский червь)</text>
+  </g>
+  <!-- Roundworm -->
+  <g transform="translate(400,270)">
+    <path d="M-40 0 Q-35 -8 0 -6 Q35 -8 40 0 Q35 8 0 6 Q-35 8 -40 0 Z" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.5"/>
+    <!-- Pointed ends -->
+    <path d="M-40 0 L-48 -2 L-48 2 Z" fill="#F9A825"/>
+    <path d="M40 0 L48 -2 L48 2 Z" fill="#F9A825"/>
+    <!-- Mouth -->
+    <circle cx="-45" cy="0" r="2" fill="#F57F17"/>
+    <!-- Gut -->
+    <line x1="-40" y1="0" x2="40" y2="0" stroke="#F57F17" stroke-width="1" opacity="0.5"/>
+    <text x="0" y="25" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle" font-weight="bold">Круглый червь (аскарида)</text>
+  </g>
+  <!-- Comparison -->
+  <rect x="280" y="85" width="200" height="18" rx="3" fill="#2E7D32" opacity="0.1"/>
+  <text x="380" y="97" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">Двусторонняя симметрия, 3 слоя клеток</text>
+
+  <rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 5 класс</text>
+</svg>
