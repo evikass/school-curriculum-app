@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Эволюция и развитие животного мира</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 31</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<!-- Evolution timeline -->
+<line x1="40" y1="180" x2="460" y2="180" stroke="#2E7D32" stroke-width="3"/>
+<!-- Arrow at end -->
+<path d="M460,180 L455,175 M460,180 L455,185" stroke="#2E7D32" stroke-width="2" fill="none"/>
+<!-- Timeline nodes -->
+<circle cx="70" cy="180" r="8" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/>
+<text x="70" y="183" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">1</text>
+<text x="70" y="205" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Простейшие</text>
+
+<circle cx="130" cy="180" r="8" fill="#9C27B0" stroke="#7B1FA2" stroke-width="1.5"/>
+<text x="130" y="183" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">2</text>
+<text x="130" y="205" font-family="Arial,sans-serif" font-size="6" fill="#7B1FA2" text-anchor="middle">Кишечнополостные</text>
+
+<circle cx="195" cy="180" r="8" fill="#795548" stroke="#4E342E" stroke-width="1.5"/>
+<text x="195" y="183" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">3</text>
+<text x="195" y="205" font-family="Arial,sans-serif" font-size="6" fill="#4E342E" text-anchor="middle">Черви</text>
+
+<circle cx="250" cy="180" r="8" fill="#00BCD4" stroke="#00838F" stroke-width="1.5"/>
+<text x="250" y="183" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">4</text>
+<text x="250" y="205" font-family="Arial,sans-serif" font-size="6" fill="#00838F" text-anchor="middle">Моллюски</text>
+
+<circle cx="305" cy="180" r="8" fill="#F44336" stroke="#C62828" stroke-width="1.5"/>
+<text x="305" y="183" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">5</text>
+<text x="305" y="205" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle">Членистоногие</text>
+
+<circle cx="360" cy="180" r="8" fill="#2196F3" stroke="#1565C0" stroke-width="1.5"/>
+<text x="360" y="183" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">6</text>
+<text x="360" y="205" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Рыбы</text>
+
+<circle cx="400" cy="180" r="8" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="400" y="183" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">7</text>
+<text x="400" y="205" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Земноводные</text>
+
+<circle cx="430" cy="140" r="8" fill="#8D6E63" stroke="#4E342E" stroke-width="1.5"/>
+<text x="430" y="143" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">8</text>
+<text x="430" y="125" font-family="Arial,sans-serif" font-size="6" fill="#4E342E" text-anchor="middle">Пресмыкающиеся</text>
+
+<circle cx="445" cy="100" r="8" fill="#64B5F6" stroke="#1565C0" stroke-width="1.5"/>
+<text x="445" y="103" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">9</text>
+<text x="445" y="85" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Птицы</text>
+
+<circle cx="460" cy="60" r="8" fill="#A1887F" stroke="#4E342E" stroke-width="1.5"/>
+<text x="460" y="63" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">10</text>
+<text x="460" y="45" font-family="Arial,sans-serif" font-size="6" fill="#4E342E" text-anchor="middle">Млекопитающие</text>
+
+<!-- Increasing complexity arrow -->
+<text x="30" y="100" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" transform="rotate(-90,30,130)">Усложнение</text>
+<rect x="30" y="230" width="440" height="80" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="244" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Эволюция — историческое развитие органического мира</text>
+<text x="250" y="256" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Движущие силы: наследственность, изменчивость, естественный отбор</text>
+<text x="250" y="268" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Главные направления: усложнение строения, дифференциация органов</text>
+<text x="250" y="280" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">От одноклеточных к многоклеточным | От водных к наземным</text>
+<text x="250" y="292" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Переходные формы: латимерия, ехидна, утконос</text>
+<text x="250" y="304" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Искусственный отбор — основа селекции</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+</svg>
