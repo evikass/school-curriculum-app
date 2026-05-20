@@ -321,7 +321,7 @@ import { lessons as grade11Russian } from './grades/11/russian'
 import { lessons as grade11Literature } from './grades/11/literature'
 import { lessons as grade11Algebra } from './grades/11/algebra'
 import { lessons as grade11Geometry } from './grades/11/geometry'
-import { lessons as grade11Physics } from './grades/11/physics'
+import { lessons as grade11Physics, games as grade11PhysicsGames } from './grades/11/physics'
 import { lessons as grade11Chemistry } from './grades/11/chemistry'
 import { lessons as grade11History } from './grades/11/history'
 import { lessons as grade11Social } from './grades/11/social'
@@ -410,7 +410,7 @@ export const allGames: Record<number, GameLesson[]> = {
   8: [...eighthGradeGames, ...grade8PhysicsGames, ...grade8CodingGames, ...grade8SocialGames, ...grade8EconomyGames, ...grade8InformaticsGames, ...grade8RoboticsGames, ...grade8LawGames],
   9: [...ninthGradeGames, ...grade9AlgebraGames, ...grade9GeometryGames, ...grade9PhysicsGames, ...grade9ChemistryGames, ...grade9BiologyGames, ...grade9GeographyGames, ...grade9HistoryGames, ...grade9RussianGames, ...grade9LiteratureGames, ...grade9SocialGames, ...grade9CodingGames, ...grade9InformaticsGames, ...grade9PsychologyGames, ...grade9EconomyGames, ...grade9CareerGames, ...grade9OGEGames],
   10: [...tenthGradeGames, ...grade10EconomyGames, ...grade10CodingGames, ...grade10TechGames, ...grade10ArtGames, ...grade10CareerGames, ...grade10AstronomyGames, ...grade10BusinessGames, ...grade10PhilosophyGames, ...grade10ProjectsGames, ...grade10LabGames, ...grade10EGEGames],
-  11: [...eleventhGradeGames, ...grade11EconomyGames, ...grade11CodingGames],
+  11: [...eleventhGradeGames, ...grade11PhysicsGames, ...grade11EconomyGames, ...grade11CodingGames],
 }
 
 // Curriculum данные
