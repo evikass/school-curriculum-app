@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<defs><linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#1a1a2e"/><stop offset="100%" style="stop-color:#16213e"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#bg)"/>
+<text x="200" y="22" text-anchor="middle" fill="#ffeaa7" font-size="12" font-weight="bold">Электромагнитные волны</text>
+<!-- E and B vectors -->
+<line x1="50" y1="150" x2="350" y2="150" stroke="#636e72" stroke-width="1"/>
+<polygon points="347,147 355,150 347,153" fill="#636e72"/>
+<text x="360" y="153" fill="#636e72" font-size="8">v</text>
+<!-- E field (vertical) -->
+<path d="M80,150 Q90,100 100,150 Q110,200 120,150 Q130,100 140,150 Q150,200 160,150 Q170,100 180,150 Q190,200 200,150 Q210,100 220,150 Q230,200 240,150 Q250,100 260,150 Q270,200 280,150 Q290,100 300,150" fill="none" stroke="#ff7675" stroke-width="2"/>
+<text x="70" y="100" fill="#ff7675" font-size="10">E</text>
+<!-- B field (depth - shown as width) -->
+<path d="M80,150 Q90,135 100,150 Q110,165 120,150 Q130,135 140,150 Q150,165 160,150 Q170,135 180,150 Q190,165 200,150 Q210,135 220,150 Q230,165 240,150 Q250,135 260,150 Q270,165 280,150 Q290,135 300,150" fill="none" stroke="#74b9ff" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="70" y="168" fill="#74b9ff" font-size="10">B</text>
+<!-- Key properties -->
+<text x="200" y="40" text-anchor="middle" fill="#55efc4" font-size="10">E перп. B перп. v (поперечная)</text>
+<text x="200" y="55" text-anchor="middle" fill="#ffd700" font-size="14" font-weight="bold">c = l * v = 3*10^8 м/с</text>
+<!-- EM spectrum -->
+<rect x="20" y="200" width="360" height="85" rx="8" fill="#2d3436" opacity="0.6"/>
+<text x="200" y="218" text-anchor="middle" fill="#ffeaa7" font-size="10" font-weight="bold">Шкала ЭМВ</text>
+<rect x="30" y="225" width="30" height="15" rx="2" fill="#a29bfe"/>
+<text x="45" y="237" text-anchor="middle" fill="#fff" font-size="6">гамма</text>
+<rect x="65" y="225" width="40" height="15" rx="2" fill="#6c5ce7"/>
+<text x="85" y="237" text-anchor="middle" fill="#fff" font-size="6">рентген</text>
+<rect x="110" y="225" width="30" height="15" rx="2" fill="#fd79a8"/>
+<text x="125" y="237" text-anchor="middle" fill="#fff" font-size="6">УФ</text>
+<rect x="145" y="225" width="50" height="15" rx="2" fill="#ffeaa7"/>
+<text x="170" y="237" text-anchor="middle" fill="#2d3436" font-size="6">видимый</text>
+<rect x="200" y="225" width="40" height="15" rx="2" fill="#e17055"/>
+<text x="220" y="237" text-anchor="middle" fill="#fff" font-size="6">ИК</text>
+<rect x="245" y="225" width="40" height="15" rx="2" fill="#ff7675"/>
+<text x="265" y="237" text-anchor="middle" fill="#fff" font-size="6">микро</text>
+<rect x="290" y="225" width="80" height="15" rx="2" fill="#ff7675" opacity="0.6"/>
+<text x="330" y="237" text-anchor="middle" fill="#fff" font-size="6">радиоволны</text>
+<!-- Arrow: increasing l -->
+<line x1="30" y1="250" x2="370" y2="250" stroke="#ffd700" stroke-width="1"/>
+<polygon points="368,247 375,250 368,253" fill="#ffd700"/>
+<text x="200" y="265" text-anchor="middle" fill="#ffd700" font-size="8">l растет -></text>
+<!-- Arrow: decreasing v -->
+<line x1="370" y1="275" x2="30" y2="275" stroke="#55efc4" stroke-width="1"/>
+<polygon points="32,272 25,275 32,278" fill="#55efc4"/>
+<text x="200" y="288" text-anchor="middle" fill="#55efc4" font-size="8"><- v растет</text>
+</svg>
