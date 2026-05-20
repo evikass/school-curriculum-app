@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <marker id="arrW" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#fff"/>
+    </marker>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg3)"/>
+  <!-- V-A characteristic graph -->
+  <text x="130" y="25" text-anchor="middle" fill="#ffeaa7" font-size="12" font-weight="bold">Вольтамперная характеристика</text>
+  <!-- Axes -->
+  <line x1="60" y1="220" x2="220" y2="220" stroke="#dfe6e9" stroke-width="1.5" marker-end="url(#arrW)"/>
+  <line x1="60" y1="220" x2="60" y2="40" stroke="#dfe6e9" stroke-width="1.5" marker-end="url(#arrW)"/>
+  <text x="225" y="225" fill="#dfe6e9" font-size="10">U, В</text>
+  <text x="40" y="45" fill="#dfe6e9" font-size="10">I, А</text>
+  <!-- Grid -->
+  <line x1="60" y1="180" x2="210" y2="180" stroke="#636e72" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="60" y1="140" x2="210" y2="140" stroke="#636e72" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="60" y1="100" x2="210" y2="100" stroke="#636e72" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="110" y1="50" x2="110" y2="220" stroke="#636e72" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="160" y1="50" x2="160" y2="220" stroke="#636e72" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <!-- Ohmic line -->
+  <line x1="60" y1="220" x2="200" y2="80" stroke="#55efc4" stroke-width="2.5"/>
+  <text x="165" y="75" fill="#55efc4" font-size="9">R = const</text>
+  <!-- R1 line (steeper = more R) -->
+  <line x1="60" y1="220" x2="140" y2="80" stroke="#ff7675" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="105" y="75" fill="#ff7675" font-size="8">R1&gt;R</text>
+  <!-- Point on graph -->
+  <circle cx="140" cy="140" r="4" fill="#ffeaa7"/>
+  <line x1="60" y1="140" x2="140" y2="140" stroke="#ffeaa7" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="140" y1="140" x2="140" y2="220" stroke="#ffeaa7" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="50" y="143" fill="#ffeaa7" font-size="8">I</text>
+  <text x="143" y="232" fill="#ffeaa7" font-size="8">U</text>
+  <!-- Right side: Resistance formula -->
+  <text x="320" y="50" text-anchor="middle" fill="#ffeaa7" font-size="13" font-weight="bold">Закон Ома</text>
+  <text x="320" y="75" text-anchor="middle" fill="#55efc4" font-size="16" font-weight="bold">I = U/R</text>
+  <!-- Wire diagram -->
+  <rect x="260" y="100" width="120" height="20" rx="3" fill="#636e72" opacity="0.3"/>
+  <text x="320" y="115" text-anchor="middle" fill="#dfe6e9" font-size="9">l</text>
+  <line x1="260" y1="110" x2="260" y2="130" stroke="#dfe6e9" stroke-width="0.5"/>
+  <line x1="380" y1="110" x2="380" y2="130" stroke="#dfe6e9" stroke-width="0.5"/>
+  <circle cx="320" cy="140" r="10" fill="none" stroke="#dfe6e9" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="320" y="143" text-anchor="middle" fill="#dfe6e9" font-size="7">S</text>
+  <!-- R formula -->
+  <text x="320" y="170" text-anchor="middle" fill="#ff7675" font-size="14" font-weight="bold">R = pl/S</text>
+  <!-- Temperature dependence -->
+  <text x="320" y="200" text-anchor="middle" fill="#ffeaa7" font-size="10">R(T):</text>
+  <text x="320" y="218" text-anchor="middle" fill="#55efc4" font-size="10">Металл: R растет</text>
+  <line x1="280" y1="225" x2="360" y2="225" stroke="#55efc4" stroke-width="0.5"/>
+  <path d="M280,230 Q320,225 360,215" fill="none" stroke="#55efc4" stroke-width="1.5"/>
+  <text x="320" y="248" text-anchor="middle" fill="#ff7675" font-size="10">Полупр.: R падает</text>
+  <path d="M280,260 Q320,255 360,270" fill="none" stroke="#ff7675" stroke-width="1.5"/>
+  <text x="320" y="285" text-anchor="middle" fill="#a29bfe" font-size="9">Сверхпров.: R=0</text>
+</svg>
