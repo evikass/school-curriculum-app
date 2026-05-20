@@ -9,17 +9,29 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout
+      - name: Checkout site-new branch
         uses: actions/checkout@v4
+        with:
+          ref: site-new
+          path: app
+      - name: Checkout site branch
+        uses: actions/checkout@v4
+        with:
+          ref: site
+          path: data
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: Copy data files to app
+        run: |
+          cp -r data/school-curriculum-app/public/data app/public/
+          cp -r data/school-curriculum-app/public/images app/public/
       - name: Install dependencies
-        run: cd school-curriculum-app && npm ci
+        run: cd app && npm install
       - name: Build
-        run: cd school-curriculum-app && npm run build
+        run: cd app && npm run build
       - name: Deploy to gh-pages
-        run: cd school-curriculum-app && npx gh-pages -d out -t
+        run: cd app && npx gh-pages -d out -t
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
