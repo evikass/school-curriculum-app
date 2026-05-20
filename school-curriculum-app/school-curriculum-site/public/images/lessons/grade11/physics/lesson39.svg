@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<defs><linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#0d1b2a"/><stop offset="100%" style="stop-color:#1b263b"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#bg)"/>
+<text x="200" y="22" text-anchor="middle" fill="#ffeaa7" font-size="12" font-weight="bold">Фотоэффект</text>
+<!-- Experiment setup -->
+<text x="120" y="48" text-anchor="middle" fill="#ffeaa7" font-size="9" font-weight="bold">Схема опыта</text>
+<!-- Light -->
+<line x1="30" y1="85" x2="70" y2="85" stroke="#ffd700" stroke-width="2"/>
+<polygon points="68,82 75,85 68,88" fill="#ffd700"/>
+<text x="30" y="80" fill="#ffd700" font-size="8">hv</text>
+<!-- Cathode -->
+<rect x="75" y="65" width="10" height="40" rx="2" fill="#74b9ff" opacity="0.5" stroke="#74b9ff" stroke-width="1"/>
+<text x="80" y="115" text-anchor="middle" fill="#74b9ff" font-size="7">K-</text>
+<!-- Anode -->
+<rect x="130" y="65" width="10" height="40" rx="2" fill="#ff7675" opacity="0.5" stroke="#ff7675" stroke-width="1"/>
+<text x="135" y="115" text-anchor="middle" fill="#ff7675" font-size="7">A+</text>
+<!-- Electrons -->
+<circle cx="95" cy="80" r="2" fill="#55efc4"/>
+<line x1="97" y1="80" x2="128" y2="80" stroke="#55efc4" stroke-width="0.5" stroke-dasharray="2,2"/>
+<circle cx="105" cy="90" r="2" fill="#55efc4"/>
+<line x1="107" y1="90" x2="128" y2="88" stroke="#55efc4" stroke-width="0.5" stroke-dasharray="2,2"/>
+<text x="110" y="70" fill="#55efc4" font-size="6">e-</text>
+<!-- Ammeter -->
+<circle cx="105" cy="130" r="10" fill="none" stroke="#a29bfe" stroke-width="1"/>
+<text x="105" y="133" text-anchor="middle" fill="#a29bfe" font-size="7">A</text>
+<line x1="80" y1="105" x2="80" y2="130" stroke="#ffd700" stroke-width="1"/>
+<line x1="80" y1="130" x2="95" y2="130" stroke="#ffd700" stroke-width="1"/>
+<line x1="115" y1="130" x2="135" y2="130" stroke="#ffd700" stroke-width="1"/>
+<line x1="135" y1="130" x2="135" y2="105" stroke="#ffd700" stroke-width="1"/>
+<!-- Einstein equation -->
+<rect x="190" y="40" width="200" height="60" rx="8" fill="#6c5ce7" opacity="0.2" stroke="#a29bfe" stroke-width="1"/>
+<text x="290" y="60" text-anchor="middle" fill="#ffeaa7" font-size="10" font-weight="bold">Уравнение Эйнштейна</text>
+<text x="290" y="82" text-anchor="middle" fill="#55efc4" font-size="16" font-weight="bold">hv = A + mv2/2</text>
+<!-- Red boundary -->
+<text x="290" y="115" text-anchor="middle" fill="#ff7675" font-size="10" font-weight="bold">Красная граница</text>
+<text x="290" y="132" text-anchor="middle" fill="#ff7675" font-size="12">v0 = A/h</text>
+<text x="290" y="148" text-anchor="middle" fill="#636e72" font-size="8">v < v0 — фотоэффекта нет!</text>
+<!-- Graph: E_k vs v -->
+<line x1="30" y1="230" x2="200" y2="230" stroke="#dfe6e9" stroke-width="1"/>
+<line x1="30" y1="230" x2="30" y2="170" stroke="#dfe6e9" stroke-width="1"/>
+<text x="205" y="233" fill="#dfe6e9" font-size="7">v</text>
+<text x="18" y="173" fill="#dfe6e9" font-size="7">E_k</text>
+<!-- Line -->
+<line x1="80" y1="230" x2="190" y2="170" stroke="#55efc4" stroke-width="2"/>
+<!-- v0 mark -->
+<line x1="80" y1="230" x2="80" y2="235" stroke="#ff7675" stroke-width="1"/>
+<text x="80" y="245" text-anchor="middle" fill="#ff7675" font-size="7">v0</text>
+<!-- A label -->
+<line x1="30" y1="230" x2="80" y2="230" stroke="#ffd700" stroke-width="1"/>
+<text x="55" y="225" fill="#ffd700" font-size="7">A</text>
+<!-- Slope = h -->
+<text x="160" y="185" fill="#55efc4" font-size="8">tg(a) = h</text>
+<!-- Laws -->
+<rect x="220" y="165" width="170" height="125" rx="5" fill="#2d3436" opacity="0.6"/>
+<text x="305" y="185" text-anchor="middle" fill="#ffeaa7" font-size="9" font-weight="bold">Законы Столетова</text>
+<text x="235" y="205" fill="#55efc4" font-size="8">1. I_нас ~ интенсивность</text>
+<text x="235" y="222" fill="#ff7675" font-size="8">2. E_k ~ v (не от I!)</text>
+<text x="235" y="239" fill="#74b9ff" font-size="8">3. Красная граница v0</text>
+<text x="235" y="260" fill="#a29bfe" font-size="8">Классика не могла</text>
+<text x="235" y="275" fill="#a29bfe" font-size="8">объяснить эти законы!</text>
+</svg>
