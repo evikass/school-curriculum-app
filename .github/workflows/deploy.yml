@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
   push:
-    branches: [site]
+    branches: [site, site-new]
   workflow_dispatch:
 jobs:
   build-and-deploy:
@@ -14,19 +14,10 @@ jobs:
         with:
           ref: site-new
           path: app
-      - name: Checkout site branch
-        uses: actions/checkout@v4
-        with:
-          ref: site
-          path: data
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Copy data files to app
-        run: |
-          cp -r data/school-curriculum-app/public/data app/public/
-          cp -r data/school-curriculum-app/public/images app/public/
       - name: Install dependencies
         run: cd app && npm install
       - name: Build
