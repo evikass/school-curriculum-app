@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      .bounce { animation: bounce 1.5s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FFF3E0"/>
+  <text x="250" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#E65100" text-anchor="middle">🎮 Музыкальные игры</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#FF9800"/>
+  
+  <!-- Musical instruments -->
+  <g transform="translate(30, 80)">
+    <g class="bounce" style="animation-delay: 0s;">
+      <rect x="10" y="10" width="90" height="90" fill="#FFCCBC" stroke="#FF5722" stroke-width="2" rx="10"/>
+      <text x="55" y="60" font-size="40" text-anchor="middle">🥁</text>
+      <text x="55" y="85" font-family="Arial" font-size="10" fill="#D84315" text-anchor="middle">Барабан</text>
+    </g>
+    
+    <g class="bounce" style="animation-delay: 0.2s;">
+      <rect x="115" y="10" width="90" height="90" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="10"/>
+      <text x="160" y="60" font-size="40" text-anchor="middle">🎹</text>
+      <text x="160" y="85" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">Пианино</text>
+    </g>
+    
+    <g class="bounce" style="animation-delay: 0.4s;">
+      <rect x="220" y="10" width="90" height="90" fill="#BBDEFB" stroke="#2196F3" stroke-width="2" rx="10"/>
+      <text x="265" y="60" font-size="40" text-anchor="middle">🎺</text>
+      <text x="265" y="85" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">Труба</text>
+    </g>
+    
+    <g class="bounce" style="animation-delay: 0.6s;">
+      <rect x="325" y="10" width="90" height="90" fill="#F8BBD9" stroke="#E91E63" stroke-width="2" rx="10"/>
+      <text x="370" y="60" font-size="40" text-anchor="middle">🎸</text>
+      <text x="370" y="85" font-family="Arial" font-size="10" fill="#AD1457" text-anchor="middle">Гитара</text>
+    </g>
+  </g>
+  
+  <!-- Games -->
+  <g transform="translate(50, 210)">
+    <text x="200" y="0" font-family="Arial" font-size="14" fill="#E65100" text-anchor="middle">Игры с музыкой:</text>
+    
+    <g transform="translate(20, 20)">
+      <rect x="0" y="0" width="110" height="70" fill="#E3F2FD" stroke="#2196F3" stroke-width="2" rx="8"/>
+      <text x="55" y="30" font-family="Arial" font-size="11" fill="#1565C0" text-anchor="middle">Угадай</text>
+      <text x="55" y="48" font-family="Arial" font-size="11" fill="#1565C0" text-anchor="middle">инструмент</text>
+    </g>
+    
+    <g transform="translate(150, 20)">
+      <rect x="0" y="0" width="110" height="70" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="8"/>
+      <text x="55" y="30" font-family="Arial" font-size="11" fill="#2E7D32" text-anchor="middle">Повтори</text>
+      <text x="55" y="48" font-family="Arial" font-size="11" fill="#2E7D32" text-anchor="middle">ритм</text>
+    </g>
+    
+    <g transform="translate(280, 20)">
+      <rect x="0" y="0" width="110" height="70" fill="#FFCCBC" stroke="#FF5722" stroke-width="2" rx="8"/>
+      <text x="55" y="30" font-family="Arial" font-size="11" fill="#D84315" text-anchor="middle">Музыкальные</text>
+      <text x="55" y="48" font-family="Arial" font-size="11" fill="#D84315" text-anchor="middle">стулья</text>
+    </g>
+  </g>
+</svg>

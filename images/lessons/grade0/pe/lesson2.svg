@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes jump { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-30px); } }
+      .jump { animation: jump 1s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#E8F5E9"/>
+  <text x="250" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#2E7D32" text-anchor="middle">🦘 Прыжки</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#66BB6A"/>
+  
+  <!-- Jumping children -->
+  <g transform="translate(30, 80)">
+    <!-- Ground -->
+    <rect x="0" y="120" width="440" height="10" fill="#8BC34A" rx="5"/>
+    
+    <!-- Child jumping on two feet -->
+    <g class="jump" style="animation-delay: 0s;">
+      <circle cx="80" cy="60" r="25" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+      <circle cx="72" cy="56" r="4" fill="#5D4037"/>
+      <circle cx="88" cy="56" r="4" fill="#5D4037"/>
+      <path d="M72,70 Q80,78 88,70" fill="none" stroke="#5D4037" stroke-width="2"/>
+      <rect x="68" y="85" width="24" height="35" fill="#2196F3" rx="5"/>
+      <!-- Arms up -->
+      <rect x="55" y="85" width="8" height="25" fill="#FFCC80" rx="3" transform="rotate(-30, 55, 85)"/>
+      <rect x="97" y="85" width="8" height="25" fill="#FFCC80" rx="3" transform="rotate(30, 105, 85)"/>
+      <!-- Legs together -->
+      <rect x="75" y="120" width="10" height="20" fill="#1565C0" rx="3"/>
+    </g>
+    
+    <!-- Child on one foot -->
+    <g class="jump" style="animation-delay: 0.3s;">
+      <circle cx="200" cy="70" r="25" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+      <circle cx="192" cy="66" r="4" fill="#5D4037"/>
+      <circle cx="208" cy="66" r="4" fill="#5D4037"/>
+      <path d="M192,80 Q200,88 208,80" fill="none" stroke="#5D4037" stroke-width="2"/>
+      <rect x="188" y="95" width="24" height="35" fill="#E91E63" rx="5"/>
+      <!-- One leg -->
+      <rect x="195" y="130" width="10" height="20" fill="#AD1457" rx="3"/>
+    </g>
+    
+    <!-- Child jumping over -->
+    <g class="jump" style="animation-delay: 0.6s;">
+      <circle cx="320" cy="55" r="25" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+      <circle cx="312" cy="51" r="4" fill="#5D4037"/>
+      <circle cx="328" cy="51" r="4" fill="#5D4037"/>
+      <path d="M312,65 Q320,73 328,65" fill="none" stroke="#5D4037" stroke-width="2"/>
+      <rect x="308" y="80" width="24" height="35" fill="#FF9800" rx="5"/>
+      <rect x="315" y="115" width="10" height="25" fill="#E65100" rx="3" transform="rotate(15, 320, 115)"/>
+      <rect x="315" y="115" width="10" height="25" fill="#E65100" rx="3" transform="rotate(-15, 320, 115)"/>
+    </g>
+    
+    <!-- Jump rope -->
+    <ellipse cx="400" cy="80" rx="30" ry="50" fill="none" stroke="#F44336" stroke-width="3" stroke-dasharray="10,5"/>
+    <g class="jump" style="animation-delay: 0.5s;">
+      <circle cx="400" cy="50" r="22" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+      <circle cx="393" cy="47" r="3" fill="#5D4037"/>
+      <circle cx="407" cy="47" r="3" fill="#5D4037"/>
+      <path d="M393,58 Q400,65 407,58" fill="none" stroke="#5D4037" stroke-width="2"/>
+      <rect x="390" y="72" width="20" height="30" fill="#9C27B0" rx="5"/>
+    </g>
+  </g>
+  
+  <!-- Jump types -->
+  <g transform="translate(50, 240)">
+    <text x="200" y="0" font-family="Arial" font-size="14" fill="#2E7D32" text-anchor="middle">Виды прыжков:</text>
+    
+    <g transform="translate(10, 20)">
+      <rect x="0" y="0" width="80" height="50" fill="#E3F2FD" stroke="#2196F3" stroke-width="2" rx="8"/>
+      <text x="40" y="30" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">На двух</text>
+      <text x="40" y="43" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">ногах</text>
+    </g>
+    
+    <g transform="translate(100, 20)">
+      <rect x="0" y="0" width="80" height="50" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="8"/>
+      <text x="40" y="30" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">На одной</text>
+      <text x="40" y="43" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">ноге</text>
+    </g>
+    
+    <g transform="translate(190, 20)">
+      <rect x="0" y="0" width="80" height="50" fill="#FFCCBC" stroke="#FF5722" stroke-width="2" rx="8"/>
+      <text x="40" y="30" font-family="Arial" font-size="10" fill="#D84315" text-anchor="middle">Через</text>
+      <text x="40" y="43" font-family="Arial" font-size="10" fill="#D84315" text-anchor="middle">предметы</text>
+    </g>
+    
+    <g transform="translate(280, 20)">
+      <rect x="0" y="0" width="80" height="50" fill="#F8BBD9" stroke="#E91E63" stroke-width="2" rx="8"/>
+      <text x="40" y="30" font-family="Arial" font-size="10" fill="#AD1457" text-anchor="middle">Со</text>
+      <text x="40" y="43" font-family="Arial" font-size="10" fill="#AD1457" text-anchor="middle">скакалкой</text>
+    </g>
+  </g>
+</svg>

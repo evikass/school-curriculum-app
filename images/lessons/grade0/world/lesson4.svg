@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FFEBEE"/>
+  
+  <!-- Title -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">⚠️ Правила безопасности</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#EF5350"/>
+  
+  <!-- Warning sign -->
+  <g class="pulse" transform="translate(200, 70)">
+    <polygon points="50,0 100,85 0,85" fill="#FFEB3B" stroke="#F57F17" stroke-width="3"/>
+    <text x="50" y="60" font-family="Arial" font-size="40" font-weight="bold" fill="#333" text-anchor="middle">!</text>
+  </g>
+  
+  <!-- Safety rules -->
+  <g transform="translate(30, 170)">
+    <!-- Rule 1: Traffic -->
+    <g>
+      <rect x="0" y="0" width="130" height="80" fill="#E3F2FD" stroke="#2196F3" stroke-width="2" rx="10"/>
+      <text x="65" y="30" font-family="Arial" font-size="30" text-anchor="middle">🚦</text>
+      <text x="65" y="55" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">Переходи улицу</text>
+      <text x="65" y="70" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">на зелёный!</text>
+    </g>
+    
+    <!-- Rule 2: Strangers -->
+    <g>
+      <rect x="145" y="0" width="130" height="80" fill="#FFF3E0" stroke="#FF9800" stroke-width="2" rx="10"/>
+      <text x="210" y="30" font-family="Arial" font-size="30" text-anchor="middle">🚫</text>
+      <text x="210" y="55" font-family="Arial" font-size="10" fill="#E65100" text-anchor="middle">Не говори с</text>
+      <text x="210" y="70" font-family="Arial" font-size="10" fill="#E65100" text-anchor="middle">незнакомцами!</text>
+    </g>
+    
+    <!-- Rule 3: Fire -->
+    <g>
+      <rect x="290" y="0" width="130" height="80" fill="#FFEBEE" stroke="#F44336" stroke-width="2" rx="10"/>
+      <text x="355" y="30" font-family="Arial" font-size="30" text-anchor="middle">🔥</text>
+      <text x="355" y="55" font-family="Arial" font-size="10" fill="#C62828" text-anchor="middle">Не играй с</text>
+      <text x="355" y="70" font-family="Arial" font-size="10" fill="#C62828" text-anchor="middle">огнём!</text>
+    </g>
+  </g>
+  
+  <!-- Emergency numbers -->
+  <g transform="translate(50, 270)">
+    <text x="200" y="0" font-family="Arial" font-size="14" font-weight="bold" fill="#C62828" text-anchor="middle">Экстренные номера:</text>
+    
+    <g transform="translate(30, 20)">
+      <rect x="0" y="0" width="100" height="40" fill="#C62828" rx="5"/>
+      <text x="50" y="28" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">112</text>
+      <text x="50" y="55" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Единый</text>
+    </g>
+    
+    <g transform="translate(150, 20)">
+      <rect x="0" y="0" width="100" height="40" fill="#2196F3" rx="5"/>
+      <text x="50" y="28" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">02</text>
+      <text x="50" y="55" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Полиция</text>
+    </g>
+    
+    <g transform="translate(270, 20)">
+      <rect x="0" y="0" width="100" height="40" fill="#F44336" rx="5"/>
+      <text x="50" y="28" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">01</text>
+      <text x="50" y="55" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Пожарная</text>
+    </g>
+  </g>
+</svg>

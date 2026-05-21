@@ -9,34 +9,20 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout site-new branch (app code + TypeScript data)
+      - name: Checkout site branch
         uses: actions/checkout@v4
-        with:
-          ref: site-new
-          path: app
-      - name: Checkout site branch (SVG images + legacy data)
-        uses: actions/checkout@v4
-        with:
-          ref: site
-          path: data
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Copy SVG images from site branch
-        run: |
-          # Only copy SVG images - TypeScript data in src/data/ is the source of truth
-          mkdir -p app/public/images
-          if [ -d "data/school-curriculum-app/public/images" ]; then
-            cp -r data/school-curriculum-app/public/images/* app/public/images/ 2>/dev/null || true
-          fi
       - name: Install dependencies
-        run: cd app && npm install
+        run: npm install
       - name: Build
-        run: cd app && npm run build
+        run: npm run build
       - name: Deploy to gh-pages
         run: |
-          cd app
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           npx gh-pages -d out -t -r "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

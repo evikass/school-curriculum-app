@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="water8" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4FC3F7;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#29B6F6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0288D1;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="wave8" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#81D4FA;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#4FC3F7;stop-opacity:0.8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#E1F5FE"/>
+  
+  <!-- Title -->
+  <rect x="150" y="10" width="200" height="45" rx="10" fill="#FFF" stroke="#0288D1" stroke-width="2"/>
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#01579B" text-anchor="middle">💧 Вода</text>
+  
+  <!-- Water surface with waves -->
+  <rect x="0" y="180" width="500" height="170" fill="url(#water8)"/>
+  
+  <!-- Animated waves -->
+  <path d="M0,180 Q50,170 100,180 Q150,190 200,180 Q250,170 300,180 Q350,190 400,180 Q450,170 500,180" fill="url(#wave8)">
+    <animate attributeName="d" values="M0,180 Q50,170 100,180 Q150,190 200,180 Q250,170 300,180 Q350,190 400,180 Q450,170 500,180;M0,180 Q50,190 100,180 Q150,170 200,180 Q250,190 300,180 Q350,170 400,180 Q450,190 500,180;M0,180 Q50,170 100,180 Q150,190 200,180 Q250,170 300,180 Q350,190 400,180 Q450,170 500,180" dur="2s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Bathtub scene -->
+  <g transform="translate(20, 100)">
+    <rect x="0" y="0" width="130" height="100" fill="#FFF" rx="10" stroke="#0288D1" stroke-width="2"/>
+    <text x="65" y="18" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#01579B" text-anchor="middle">ВАННАЯ</text>
+    
+    <!-- Bathtub -->
+    <ellipse cx="65" cy="60" rx="50" ry="20" fill="#ECEFF1"/>
+    <rect x="15" y="45" width="100" height="20" fill="#ECEFF1"/>
+    <!-- Water in tub -->
+    <ellipse cx="65" cy="55" rx="45" ry="15" fill="#4FC3F7">
+      <animate attributeName="cy" values="55;53;55" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <!-- Faucet -->
+    <rect x="90" y="30" width="15" height="20" fill="#90A4AE"/>
+    <rect x="95" y="45" width="8" height="15" fill="#B0BEC5"/>
+    
+    <!-- Water drops -->
+    <ellipse cx="99" cy="65" rx="3" ry="5" fill="#81D4FA">
+      <animate attributeName="cy" values="55;70;55" dur="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <!-- Warning - don't leave unattended -->
+    <text x="65" y="95" font-family="Arial, sans-serif" font-size="8" fill="#D32F2F" text-anchor="middle">⚠️ Не оставайся один!</text>
+  </g>
+  
+  <!-- Pool/River danger -->
+  <g transform="translate(280, 80)">
+    <rect x="0" y="0" width="120" height="110" fill="#E3F2FD" rx="10" stroke="#0288D1" stroke-width="2"/>
+    <text x="60" y="18" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#01579B" text-anchor="middle">ВОДОЁМ</text>
+    
+    <!-- Water -->
+    <rect x="10" y="40" width="100" height="50" fill="#4FC3F7" rx="5"/>
+    
+    <!-- Person drowning sign -->
+    <circle cx="60" cy="55" r="12" fill="#FFCC80"/>
+    <rect x="55" y="67" width="10" height="12" fill="#42A5F5"/>
+    <!-- Waves around person -->
+    <path d="M40,75 Q50,70 60,75 Q70,80 80,75" stroke="#FFF" stroke-width="2" fill="none">
+      <animate attributeName="d" values="M40,75 Q50,70 60,75 Q70,80 80,75;M40,75 Q50,80 60,75 Q70,70 80,75;M40,75 Q50,70 60,75 Q70,80 80,75" dur="1s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Prohibition -->
+    <circle cx="60" cy="65" r="35" fill="none" stroke="#F44336" stroke-width="3"/>
+    <line x1="35" y1="40" x2="85" y2="90" stroke="#F44336" stroke-width="3"/>
+    
+    <text x="60" y="105" font-family="Arial, sans-serif" font-size="8" fill="#D32F2F" text-anchor="middle">Не купайся один!</text>
+  </g>
+  
+  <!-- Ice warning -->
+  <g transform="translate(170, 110)">
+    <rect x="0" y="0" width="90" height="80" fill="#E8EAF6" rx="10" stroke="#3F51B5" stroke-width="2"/>
+    <text x="45" y="15" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#1A237E" text-anchor="middle">ЛЁД</text>
+    
+    <!-- Ice surface -->
+    <rect x="10" y="30" width="70" height="25" fill="#B3E5FC" rx="3"/>
+    <line x1="15" y1="35" x2="75" y2="35" stroke="#81D4FA"/>
+    <line x1="15" y1="45" x2="75" y2="45" stroke="#81D4FA"/>
+    
+    <!-- Crack -->
+    <path d="M45,30 L40,40 L50,45 L45,55" stroke="#F44336" stroke-width="2" fill="none">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+    </path>
+    
+    <text x="45" y="70" font-family="Arial, sans-serif" font-size="7" fill="#D32F2F" text-anchor="middle">Опасно!</text>
+  </g>
+  
+  <!-- Bubbles animation -->
+  <g>
+    <circle cx="50" cy="250" r="8" fill="#81D4FA" opacity="0.6">
+      <animate attributeName="cy" values="280;200;280" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="270" r="5" fill="#81D4FA" opacity="0.5">
+      <animate attributeName="cy" values="300;220;300" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="240" r="7" fill="#81D4FA" opacity="0.6">
+      <animate attributeName="cy" values="280;200;280" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="260" r="6" fill="#81D4FA" opacity="0.5">
+      <animate attributeName="cy" values="290;210;290" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Safety rules -->
+  <rect x="50" y="290" width="400" height="50" rx="10" fill="#FFF" stroke="#0288D1" stroke-width="2"/>
+  <text x="250" y="310" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#01579B" text-anchor="middle">💧 Правила безопасности на воде:</text>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="10" fill="#0277BD" text-anchor="middle">• Не купайся один • Не заходи глубоко • Не ходи по льду • Не играй у воды</text>
+  
+  <!-- Life buoy -->
+  <g transform="translate(460, 295)">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#F44336" stroke-width="6"/>
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#FFF" stroke-width="3" stroke-dasharray="8,8"/>
+  </g>
+  
+  <!-- Warning signs -->
+  <polygon points="30,60 15,85 45,85" fill="#FFC107" stroke="#FF6F00" stroke-width="2"/>
+  <text x="30" y="78" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#000" text-anchor="middle">!</text>
+  
+  <polygon points="470,60 455,85 485,85" fill="#FFC107" stroke="#FF6F00" stroke-width="2"/>
+  <text x="470" y="78" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#000" text-anchor="middle">!</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes run { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(10px); } }
+      @keyframes walk { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      .run { animation: run 0.5s ease-in-out infinite; }
+      .walk { animation: walk 1s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  <text x="250" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#E65100" text-anchor="middle">🏃 Ходьба и бег</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#FF9800"/>
+  
+  <!-- Running track -->
+  <g transform="translate(30, 80)">
+    <rect x="0" y="0" width="440" height="120" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="2" rx="10"/>
+    <line x1="0" y1="40" x2="440" y2="40" stroke="#E0E0E0" stroke-width="1" stroke-dasharray="20,10"/>
+    <line x1="0" y1="80" x2="440" y2="80" stroke="#E0E0E0" stroke-width="1" stroke-dasharray="20,10"/>
+    
+    <!-- Running children -->
+    <g class="run" style="animation-delay: 0s;">
+      <circle cx="60" cy="30" r="18" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+      <rect x="52" y="48" width="16" height="25" fill="#2196F3" rx="3"/>
+      <rect x="50" y="73" width="8" height="20" fill="#1565C0" rx="2"/>
+      <rect x="62" y="73" width="8" height="20" fill="#1565C0" rx="2" transform="rotate(20, 66, 83)"/>
+    </g>
+    
+    <g class="run" style="animation-delay: 0.2s;">
+      <circle cx="150" cy="70" r="18" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+      <rect x="142" y="88" width="16" height="25" fill="#E91E63" rx="3"/>
+      <rect x="140" y="113" width="8" height="20" fill="#AD1457" rx="2"/>
+      <rect x="152" y="113" width="8" height="20" fill="#AD1457" rx="2" transform="rotate(-20, 156, 123)"/>
+    </g>
+    
+    <g class="run" style="animation-delay: 0.4s;">
+      <circle cx="250" cy="30" r="18" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+      <rect x="242" y="48" width="16" height="25" fill="#4CAF50" rx="3"/>
+      <rect x="240" y="73" width="8" height="20" fill="#2E7D32" rx="2"/>
+      <rect x="252" y="73" width="8" height="20" fill="#2E7D32" rx="2" transform="rotate(20, 256, 83)"/>
+    </g>
+    
+    <g class="run" style="animation-delay: 0.6s;">
+      <circle cx="350" cy="70" r="18" fill="#FFCC80" stroke="#F57C00" stroke-width="2"/>
+      <rect x="342" y="88" width="16" height="25" fill="#FF9800" rx="3"/>
+      <rect x="340" y="113" width="8" height="20" fill="#E65100" rx="2"/>
+      <rect x="352" y="113" width="8" height="20" fill="#E65100" rx="2" transform="rotate(-20, 356, 123)"/>
+    </g>
+  </g>
+  
+  <!-- Walking vs Running -->
+  <g transform="translate(50, 220)">
+    <text x="200" y="0" font-family="Arial" font-size="14" fill="#E65100" text-anchor="middle">Правильно двигайся:</text>
+    
+    <g transform="translate(30, 20)">
+      <rect x="0" y="0" width="130" height="70" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="8"/>
+      <text x="65" y="25" font-family="Arial" font-size="20" text-anchor="middle">🚶</text>
+      <text x="65" y="50" font-family="Arial" font-size="11" fill="#2E7D32" text-anchor="middle">Ходьба - медленно</text>
+    </g>
+    
+    <g transform="translate(200, 20)">
+      <rect x="0" y="0" width="130" height="70" fill="#FFCCBC" stroke="#FF5722" stroke-width="2" rx="8"/>
+      <text x="65" y="25" font-family="Arial" font-size="20" text-anchor="middle">🏃</text>
+      <text x="65" y="50" font-family="Arial" font-size="11" fill="#D84315" text-anchor="middle">Бег - быстро</text>
+    </g>
+  </g>
+</svg>

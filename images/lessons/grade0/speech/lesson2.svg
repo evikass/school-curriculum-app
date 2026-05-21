@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      .bounce { animation: bounce 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  
+  <!-- Title -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#F57F17" text-anchor="middle">📝 Слова и слоги</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#FFC107"/>
+  
+  <!-- Syllable explanation -->
+  <g transform="translate(50, 80)">
+    <text x="200" y="0" font-family="Arial" font-size="16" fill="#F57F17" text-anchor="middle">Сколько слогов в слове?</text>
+    
+    <!-- Word: МА-МА (2 syllables) -->
+    <g transform="translate(0, 30)">
+      <rect x="20" y="0" width="70" height="50" fill="#FFEB3B" stroke="#F57F17" stroke-width="2" rx="10"/>
+      <text x="55" y="35" font-family="Arial" font-size="24" font-weight="bold" fill="#E65100" text-anchor="middle">МА</text>
+      <rect x="95" y="0" width="70" height="50" fill="#FFEB3B" stroke="#F57F17" stroke-width="2" rx="10"/>
+      <text x="130" y="35" font-family="Arial" font-size="24" font-weight="bold" fill="#E65100" text-anchor="middle">МА</text>
+      <text x="92" y="80" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">ма-ма (2 слога)</text>
+      <!-- Clap hands -->
+      <g class="bounce">
+        <text x="92" y="110" font-family="Arial" font-size="20" text-anchor="middle">👏👏</text>
+      </g>
+    </g>
+    
+    <!-- Word: ПА-ПА (2 syllables) -->
+    <g transform="translate(200, 30)">
+      <rect x="20" y="0" width="70" height="50" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="10"/>
+      <text x="55" y="35" font-family="Arial" font-size="24" font-weight="bold" fill="#2E7D32" text-anchor="middle">ПА</text>
+      <rect x="95" y="0" width="70" height="50" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="10"/>
+      <text x="130" y="35" font-family="Arial" font-size="24" font-weight="bold" fill="#2E7D32" text-anchor="middle">ПА</text>
+      <text x="92" y="80" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">па-па (2 слога)</text>
+      <g class="bounce" style="animation-delay: 0.3s;">
+        <text x="92" y="110" font-family="Arial" font-size="20" text-anchor="middle">👏👏</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Practice words -->
+  <g transform="translate(50, 250)">
+    <text x="200" y="0" font-family="Arial" font-size="14" fill="#F57F17" text-anchor="middle">Хлопни столько раз, сколько слогов!</text>
+    
+    <g transform="translate(30, 20)">
+      <rect x="0" y="0" width="80" height="40" fill="#BBDEFB" stroke="#2196F3" stroke-width="2" rx="8"/>
+      <text x="40" y="28" font-family="Arial" font-size="16" font-weight="bold" fill="#1565C0" text-anchor="middle">КО-ША</text>
+      
+      <rect x="100" y="0" width="80" height="40" fill="#F8BBD9" stroke="#E91E63" stroke-width="2" rx="8"/>
+      <text x="140" y="28" font-family="Arial" font-size="16" font-weight="bold" fill="#AD1457" text-anchor="middle">СО-БА-КА</text>
+      
+      <rect x="200" y="0" width="80" height="40" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="8"/>
+      <text x="240" y="28" font-family="Arial" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">МА-ШИ-НА</text>
+      
+      <rect x="300" y="0" width="80" height="40" fill="#FFCCBC" stroke="#FF5722" stroke-width="2" rx="8"/>
+      <text x="340" y="28" font-family="Arial" font-size="16" font-weight="bold" fill="#D84315" text-anchor="middle">ШАР</text>
+    </g>
+  </g>
+</svg>

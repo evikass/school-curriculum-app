@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="grad16" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFAFA"/>
+      <stop offset="100%" style="stop-color:#E0E0E0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#grad16)"/>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#424242" text-anchor="middle">🎨 Colours</text>
+  <rect x="100" y="45" width="300" height="2" rx="1" fill="#757575" opacity="0.6"/>
+  
+  <!-- Colours grid -->
+  <g font-family="Arial, sans-serif">
+    <!-- Red -->
+    <rect x="20" y="65" width="110" height="70" fill="#F44336" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="75" y="105" font-size="14" fill="white" text-anchor="middle" font-weight="bold">red</text>
+    <text x="75" y="120" font-size="9" fill="#FFCDD2" text-anchor="middle">красный</text>
+    
+    <!-- Blue -->
+    <rect x="140" y="65" width="110" height="70" fill="#2196F3" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="195" y="105" font-size="14" fill="white" text-anchor="middle" font-weight="bold">blue</text>
+    <text x="195" y="120" font-size="9" fill="#BBDEFB" text-anchor="middle">синий</text>
+    
+    <!-- Green -->
+    <rect x="260" y="65" width="110" height="70" fill="#4CAF50" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="315" y="105" font-size="14" fill="white" text-anchor="middle" font-weight="bold">green</text>
+    <text x="315" y="120" font-size="9" fill="#C8E6C9" text-anchor="middle">зелёный</text>
+    
+    <!-- Yellow -->
+    <rect x="380" y="65" width="100" height="70" fill="#FFEB3B" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="430" y="105" font-size="14" fill="#5D4037" text-anchor="middle" font-weight="bold">yellow</text>
+    <text x="430" y="120" font-size="9" fill="#5D4037" text-anchor="middle">жёлтый</text>
+    
+    <!-- Orange -->
+    <rect x="20" y="145" width="110" height="70" fill="#FF9800" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="75" y="185" font-size="14" fill="white" text-anchor="middle" font-weight="bold">orange</text>
+    <text x="75" y="200" font-size="9" fill="#FFE0B2" text-anchor="middle">оранжевый</text>
+    
+    <!-- Purple -->
+    <rect x="140" y="145" width="110" height="70" fill="#9C27B0" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="195" y="185" font-size="14" fill="white" text-anchor="middle" font-weight="bold">purple</text>
+    <text x="195" y="200" font-size="9" fill="#E1BEE7" text-anchor="middle">фиолетовый</text>
+    
+    <!-- Pink -->
+    <rect x="260" y="145" width="110" height="70" fill="#E91E63" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="315" y="185" font-size="14" fill="white" text-anchor="middle" font-weight="bold">pink</text>
+    <text x="315" y="200" font-size="9" fill="#F8BBD9" text-anchor="middle">розовый</text>
+    
+    <!-- Brown -->
+    <rect x="380" y="145" width="100" height="70" fill="#795548" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="430" y="185" font-size="14" fill="white" text-anchor="middle" font-weight="bold">brown</text>
+    <text x="430" y="200" font-size="9" fill="#D7CCC8" text-anchor="middle">коричневый</text>
+    
+    <!-- Black -->
+    <rect x="70" y="225" width="110" height="70" fill="#212121" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="125" y="265" font-size="14" fill="white" text-anchor="middle" font-weight="bold">black</text>
+    <text x="125" y="280" font-size="9" fill="#9E9E9E" text-anchor="middle">чёрный</text>
+    
+    <!-- White -->
+    <rect x="190" y="225" width="110" height="70" fill="#FAFAFA" rx="10" stroke="#E0E0E0" stroke-width="2">
+      <animate attributeName="fill" values="#FAFAFA;#F5F5F5;#FAFAFA" dur="4.9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="245" y="265" font-size="14" fill="#424242" text-anchor="middle" font-weight="bold">white</text>
+    <text x="245" y="280" font-size="9" fill="#757575" text-anchor="middle">белый</text>
+    
+    <!-- Grey -->
+    <rect x="310" y="225" width="110" height="70" fill="#9E9E9E" rx="10">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="365" y="265" font-size="14" fill="white" text-anchor="middle" font-weight="bold">grey</text>
+    <text x="365" y="280" font-size="9" fill="#E0E0E0" text-anchor="middle">серый</text>
+  </g>
+  
+  <!-- Rainbow at bottom -->
+  <g opacity="0.6">
+    <path d="M20 340 Q250 280 480 340" stroke="#F44336" stroke-width="8" fill="none"/>
+    <path d="M25 340 Q250 285 475 340" stroke="#FF9800" stroke-width="8" fill="none"/>
+    <path d="M30 340 Q250 290 470 340" stroke="#FFEB3B" stroke-width="8" fill="none"/>
+    <path d="M35 340 Q250 295 465 340" stroke="#4CAF50" stroke-width="8" fill="none"/>
+    <path d="M40 340 Q250 300 460 340" stroke="#2196F3" stroke-width="8" fill="none"/>
+    <path d="M45 340 Q250 305 455 340" stroke="#9C27B0" stroke-width="8" fill="none"/>
+  </g>
+  
+  <!-- Lesson number -->
+  <circle cx="30" cy="320" r="20" fill="#424242" opacity="0.9"/>
+  <text x="30" y="326" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">16</text>
+</svg>

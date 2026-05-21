@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      .bounce { animation: bounce 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#F1F8E9"/>
+  
+  <!-- Title -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#33691E" text-anchor="middle">🐄 Домашние животные</text>
+  <rect x="100" y="50" width="300" height="3" rx="2" fill="#8BC34A"/>
+  
+  <!-- Farm scene -->
+  <g transform="translate(30, 80)">
+    <!-- Barn background -->
+    <rect x="0" y="0" width="440" height="180" fill="#FFECB3" stroke="#FF8F00" stroke-width="2" rx="10"/>
+    
+    <!-- Cat -->
+    <g class="bounce" style="animation-delay: 0s;">
+      <ellipse cx="70" cy="80" rx="30" ry="20" fill="#FF9800" stroke="#E65100" stroke-width="2"/>
+      <circle cx="55" cy="60" r="18" fill="#FF9800" stroke="#E65100" stroke-width="2"/>
+      <polygon points="42,45 50,55 40,55" fill="#FF9800" stroke="#E65100" stroke-width="1"/>
+      <polygon points="68,45 60,55 70,55" fill="#FF9800" stroke="#E65100" stroke-width="1"/>
+      <circle cx="50" cy="58" r="3" fill="#4CAF50"/>
+      <circle cx="60" cy="58" r="3" fill="#4CAF50"/>
+      <path d="M52,65 Q55,70 58,65" fill="none" stroke="#E65100" stroke-width="2"/>
+      <text x="70" y="115" font-family="Arial" font-size="11" fill="#333" text-anchor="middle">Кошка</text>
+    </g>
+    
+    <!-- Dog -->
+    <g class="bounce" style="animation-delay: 0.2s;">
+      <ellipse cx="150" cy="85" rx="35" ry="25" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+      <circle cx="130" cy="60" r="22" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+      <ellipse cx="115" cy="45" rx="8" ry="12" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+      <ellipse cx="145" cy="45" rx="8" ry="12" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+      <circle cx="123" cy="58" r="4" fill="#333"/>
+      <circle cx="137" cy="58" r="4" fill="#333"/>
+      <ellipse cx="130" cy="70" rx="6" ry="4" fill="#333"/>
+      <text x="150" y="125" font-family="Arial" font-size="11" fill="#333" text-anchor="middle">Собака</text>
+    </g>
+    
+    <!-- Cow -->
+    <g class="bounce" style="animation-delay: 0.4s;">
+      <ellipse cx="260" cy="80" rx="45" ry="30" fill="#FFF9C4" stroke="#FBC02D" stroke-width="2"/>
+      <ellipse cx="205" cy="65" rx="25" ry="20" fill="#FFF9C4" stroke="#FBC02D" stroke-width="2"/>
+      <!-- Spots -->
+      <ellipse cx="240" cy="75" rx="10" ry="8" fill="#5D4037"/>
+      <ellipse cx="275" cy="85" rx="8" ry="6" fill="#5D4037"/>
+      <circle cx="200" cy="55" r="3" fill="#333"/>
+      <circle cx="210" cy="55" r="3" fill="#333"/>
+      <ellipse cx="205" cy="68" rx="8" ry="5" fill="#F48FB1"/>
+      <!-- Horns -->
+      <path d="M195,45 Q190,35 195,30" fill="none" stroke="#8D6E63" stroke-width="3"/>
+      <path d="M215,45 Q220,35 215,30" fill="none" stroke="#8D6E63" stroke-width="3"/>
+      <text x="260" y="125" font-family="Arial" font-size="11" fill="#333" text-anchor="middle">Корова</text>
+    </g>
+    
+    <!-- Chicken -->
+    <g class="bounce" style="animation-delay: 0.6s;">
+      <ellipse cx="360" cy="85" rx="25" ry="20" fill="#FFF9C4" stroke="#FBC02D" stroke-width="2"/>
+      <circle cx="345" cy="65" r="15" fill="#FFF9C4" stroke="#FBC02D" stroke-width="2"/>
+      <polygon points="345,50 340,60 350,60" fill="#FF5722"/>
+      <circle cx="340" cy="62" r="3" fill="#333"/>
+      <circle cx="350" cy="62" r="3" fill="#333"/>
+      <!-- Comb -->
+      <path d="M340,48 Q343,40 346,48 Q349,40 352,48" fill="#F44336" stroke="#D32F2F" stroke-width="1"/>
+      <text x="360" y="120" font-family="Arial" font-size="11" fill="#333" text-anchor="middle">Курица</text>
+    </g>
+    
+    <!-- Horse -->
+    <g class="bounce" style="animation-delay: 0.8s;">
+      <ellipse cx="430" cy="75" rx="30" ry="22" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+      <ellipse cx="395" cy="55" rx="18" ry="15" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+      <circle cx="388" cy="52" r="3" fill="#333"/>
+      <!-- Mane -->
+      <path d="M400,40 Q405,45 400,50 Q405,55 400,60 Q405,65 400,70" fill="none" stroke="#4E342E" stroke-width="3"/>
+      <text x="420" y="115" font-family="Arial" font-size="11" fill="#333" text-anchor="middle">Лошадь</text>
+    </g>
+  </g>
+  
+  <!-- Question -->
+  <g transform="translate(50, 280)">
+    <text x="200" y="0" font-family="Arial" font-size="14" fill="#33691E" text-anchor="middle">Какую пользу приносят домашние животные?</text>
+  </g>
+</svg>
