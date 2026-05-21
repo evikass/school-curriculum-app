@@ -27,6 +27,6 @@ jobs:
           cd app
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          npx gh-pages -d out -t
+          npx gh-pages -d out -t -r "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
