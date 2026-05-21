@@ -1974,11 +1974,11 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Какое из чисел иррациональное?", options: ['√4', '√9', '√7', '√16'], correctAnswer: '√7', hint: 'Корень из не-точного квадрата' },
-      { type: 'fill', question: "8^(2/3) = __", correctAnswer: '4', hint: '8^(2/3) = (³√8)²' },
-      { type: 'quiz', question: "Множество R — это объединение:", options: ['N и Z', 'Z и Q', 'Q и I', 'N и I'], correctAnswer: 'Q и I', hint: 'Рациональные + иррациональные' },
-      { type: 'fill', question: "27^(-1/3) = 1/__", correctAnswer: '3', hint: '27^(1/3) = 3' },
-      { type: 'quiz', question: "Сравните 2^√2 и 2^√3:", options: ['2^√2 < 2^√3', '2^√2 > 2^√3', 'Равны', 'Нельзя сравнить'], correctAnswer: '2^√2 < 2^√3', hint: '2 > 1, значит функция возрастает' }
+      { type: 'quiz', question: "Какое из чисел иррациональное?", options: ['√4', '√9', '√7', '√16', '√25'], correctAnswer: '√7', hint: 'Корень из не-точного квадрата' },
+      { type: 'quiz', question: "Вычислите: 8^(2/3) = ?", options: ['2', '3', '4', '6', '8'], correctAnswer: '4', hint: '8^(2/3) = (cube root of 8)^2' },
+      { type: 'quiz', question: "Множество R — это объединение:", options: ['N и Z', 'Z и Q', 'Q и I', 'N и I', 'N и Q'], correctAnswer: 'Q и I', hint: 'Рациональные + иррациональные' },
+      { type: 'quiz', question: "Вычислите: 27^(-1/3) = ?", options: ['1/3', '1/9', '-3', '3', '1/27'], correctAnswer: '1/3', hint: '27^(1/3) = 3, значит 27^(-1/3) = 1/3' },
+      { type: 'quiz', question: "Сравните 2^√2 и 2^√3:", options: ['2^√2 < 2^√3', '2^√2 > 2^√3', 'Равны', 'Нельзя сравнить', 'Зависит от округления'], correctAnswer: '2^√2 < 2^√3', hint: '2 > 1, значит функция возрастает' }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь действительные числа и степени!" }
   },
@@ -1988,10 +1988,11 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Функция y = x⁴ является:", options: ['Чётной', 'Нечётной', 'Ни той, ни другой', 'Обеими'], correctAnswer: 'Чётной', hint: '(-x)⁴ = x⁴' },
-      { type: 'fill', question: "√(x²) = |__|", correctAnswer: 'x', hint: 'Арифметический корень неотрицателен' },
-      { type: 'quiz', question: "Область определения y = √x:", options: ['(-∞; +∞)', '[0; +∞)', '(0; +∞)', 'R'], correctAnswer: '[0; +∞)', hint: 'Корень определён при x ≥ 0' },
-      { type: 'quiz', question: "Асимптоты y = 1/x:", options: ['x = 0 и y = 0', 'x = 1 и y = 1', 'Только x = 0', 'Нет асимптот'], correctAnswer: 'x = 0 и y = 0', hint: 'Гипербола имеет две асимптоты' }
+      { type: 'quiz', question: "Функция y = x^4 является:", options: ['Чётной', 'Нечётной', 'Ни той, ни другой', 'Обеими', 'Периодической'], correctAnswer: 'Чётной', hint: '(-x)^4 = x^4' },
+      { type: 'quiz', question: "√(x^2) равно:", options: ['x', '-x', '|x|', 'x^2', '0'], correctAnswer: '|x|', hint: 'Арифметический корень неотрицателен' },
+      { type: 'quiz', question: "Область определения y = √x:", options: ['(-∞; +∞)', '[0; +∞)', '(0; +∞)', 'R', '(-∞; 0]'], correctAnswer: '[0; +∞)', hint: 'Корень определён при x >= 0' },
+      { type: 'quiz', question: "Асимптоты y = 1/x:", options: ['x = 0 и y = 0', 'x = 1 и y = 1', 'Только x = 0', 'Нет асимптот', 'Только y = 0'], correctAnswer: 'x = 0 и y = 0', hint: 'Гипербола имеет две асимптоты' },
+      { type: 'quiz', question: "Функция y = ∛x определена:", options: ['При x >= 0', 'При x > 0', 'Для всех действительных x', 'При x != 0', 'При x >= 1'], correctAnswer: 'Для всех действительных x', hint: 'Кубический корень существует для любого числа' }
     ],
     reward: { stars: 3, message: "Круто! Ты освоил степенную функцию!" }
   },
@@ -2001,10 +2002,11 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "2^x = 16. x = ?", options: ['2', '3', '4', '8'], correctAnswer: '4', hint: '2⁴ = 16' },
-      { type: 'fill', question: "3^x = 81. x = __", correctAnswer: '4', hint: '3⁴ = 81' },
-      { type: 'quiz', question: "При a > 1 показательная функция y = a^x:", options: ['Возрастает', 'Убывает', 'Постоянна', 'Колеблется'], correctAnswer: 'Возрастает', hint: 'Свойство при a > 1' },
-      { type: 'quiz', question: "Область значений y = a^x:", options: ['(-∞; +∞)', '(0; +∞)', '[-1; 1]', '[0; +∞)'], correctAnswer: '(0; +∞)', hint: 'График выше оси Ox' }
+      { type: 'quiz', question: "2^x = 16. x = ?", options: ['2', '3', '4', '8', '16'], correctAnswer: '4', hint: '2^4 = 16' },
+      { type: 'quiz', question: "3^x = 81. x = ?", options: ['2', '3', '4', '5', '9'], correctAnswer: '4', hint: '3^4 = 81' },
+      { type: 'quiz', question: "При a > 1 показательная функция y = a^x:", options: ['Возрастает', 'Убывает', 'Постоянна', 'Колеблется', 'Сначала возрастает, потом убывает'], correctAnswer: 'Возрастает', hint: 'Свойство при a > 1' },
+      { type: 'quiz', question: "Область значений y = a^x:", options: ['(-∞; +∞)', '(0; +∞)', '[-1; 1]', '[0; +∞)', '(-∞; 0)'], correctAnswer: '(0; +∞)', hint: 'График выше оси Ox' },
+      { type: 'quiz', question: "Через какую точку проходит любой график y = a^x?", options: ['(0, 0)', '(1, 0)', '(0, 1)', '(1, 1)', '(1, a)'], correctAnswer: '(0, 1)', hint: 'a^0 = 1 для любого a > 0' }
     ],
     reward: { stars: 3, message: "Круто! Ты освоил показательную функцию!" }
   },
@@ -2014,11 +2016,11 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "log₂8 = ?", options: ['2', '3', '4', '8'], correctAnswer: '3', hint: '2³ = 8' },
-      { type: 'fill', question: "log₃27 = __", correctAnswer: '3', hint: '3³ = 27' },
-      { type: 'quiz', question: "log₂(4 × 8) = ?", options: ['4', '5', '6', '7'], correctAnswer: '5', hint: 'log₂32' },
-      { type: 'quiz', question: "log₅10 - log₅2 = ?", options: ['1', '2', '5', '8'], correctAnswer: '1', hint: 'log₅(10/2)' },
-      { type: 'fill', question: "ln e = __", correctAnswer: '1', hint: 'logₑe = 1' }
+      { type: 'quiz', question: "log₂8 = ?", options: ['2', '3', '4', '8', '6'], correctAnswer: '3', hint: '2^3 = 8' },
+      { type: 'quiz', question: "log₃27 = ?", options: ['2', '3', '4', '9', '6'], correctAnswer: '3', hint: '3^3 = 27' },
+      { type: 'quiz', question: "log₂(4 × 8) = ?", options: ['4', '5', '6', '7', '3'], correctAnswer: '5', hint: 'log₂32 = 5' },
+      { type: 'quiz', question: "log₅10 - log₅2 = ?", options: ['1', '2', '5', '8', '3'], correctAnswer: '1', hint: 'log₅(10/2) = log₅5' },
+      { type: 'quiz', question: "ln e = ?", options: ['0', '1', '2', 'e', '10'], correctAnswer: '1', hint: 'logₑe = 1' }
     ],
     reward: { stars: 3, message: "Отлично! Ты знаешь логарифмы!" }
   },
@@ -2028,10 +2030,11 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "log₂x = 3. x = __", correctAnswer: '8', hint: '2³ = 8' },
-      { type: 'quiz', question: "log₃(x - 1) = 2. x = ?", options: ['7', '8', '9', '10'], correctAnswer: '10', hint: 'x - 1 = 9' },
-      { type: 'quiz', question: "При решении logₐf(x) > logₐg(x) при a > 1:", options: ['f(x) > g(x)', 'f(x) < g(x)', 'f(x) = g(x)', 'Нельзя решить'], correctAnswer: 'f(x) > g(x)', hint: 'Знак сохраняется при a > 1' },
-      { type: 'fill', question: "lg 100 = __", correctAnswer: '2', hint: '10² = 100' }
+      { type: 'quiz', question: "log₂x = 3. x = ?", options: ['6', '8', '9', '5', '16'], correctAnswer: '8', hint: '2^3 = 8' },
+      { type: 'quiz', question: "log₃(x - 1) = 2. x = ?", options: ['7', '8', '9', '10', '4'], correctAnswer: '10', hint: 'x - 1 = 9' },
+      { type: 'quiz', question: "При решении logₐf(x) > logₐg(x) при a > 1:", options: ['f(x) > g(x)', 'f(x) < g(x)', 'f(x) = g(x)', 'Нельзя решить', 'f(x) >= g(x)'], correctAnswer: 'f(x) > g(x)', hint: 'Знак сохраняется при a > 1' },
+      { type: 'quiz', question: "lg 100 = ?", options: ['1', '2', '10', '3', '0'], correctAnswer: '2', hint: '10^2 = 100' },
+      { type: 'quiz', question: "ОДЗ логарифма logₐb требует:", options: ['a > 0, b > 0', 'a > 0, a != 1, b > 0', 'a > 1, b > 0', 'a != 0, b != 0', 'a > 0, b > 1'], correctAnswer: 'a > 0, a != 1, b > 0', hint: 'Основание положительно и не равно 1, аргумент положителен' }
     ],
     reward: { stars: 3, message: "Супер! Ты умеешь решать логарифмические уравнения и неравенства!" }
   },
@@ -2041,11 +2044,11 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "sin 30° = __", correctAnswer: '0.5', hint: 'sin 30° = 1/2' },
-      { type: 'quiz', question: "cos 60° = ?", options: ['0', '0.5', '1', '√3/2'], correctAnswer: '0.5', hint: 'cos 60° = 1/2' },
-      { type: 'quiz', question: "sin²x + cos²x = ?", options: ['0', '1', '2sin x', '2cos x'], correctAnswer: '1', hint: 'Основное триг. тождество' },
-      { type: 'fill', question: "tan 45° = __", correctAnswer: '1', hint: 'sin 45°/cos 45° = 1' },
-      { type: 'quiz', question: "sin 2α = ?", options: ['2sin α cos α', 'sin²α', '2cos²α', 'cos 2α'], correctAnswer: '2sin α cos α', hint: 'Формула двойного угла' }
+      { type: 'quiz', question: "sin 30° = ?", options: ['√3/2', '0.5', '1', '√2/2', '0'], correctAnswer: '0.5', hint: 'sin 30° = 1/2' },
+      { type: 'quiz', question: "cos 60° = ?", options: ['0', '0.5', '1', '√3/2', '√2/2'], correctAnswer: '0.5', hint: 'cos 60° = 1/2' },
+      { type: 'quiz', question: "sin²x + cos²x = ?", options: ['0', '1', '2sin x', '2cos x', 'sin 2x'], correctAnswer: '1', hint: 'Основное триг. тождество' },
+      { type: 'quiz', question: "tan 45° = ?", options: ['0', '0.5', '1', '√3', '√2'], correctAnswer: '1', hint: 'sin 45°/cos 45° = 1' },
+      { type: 'quiz', question: "sin 2α = ?", options: ['2sin α cos α', 'sin²α', '2cos²α', 'cos 2α', '2sin α'], correctAnswer: '2sin α cos α', hint: 'Формула двойного угла' }
     ],
     reward: { stars: 3, message: "Круто! Ты знаешь тригонометрические формулы!" }
   },
@@ -2055,10 +2058,11 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "cos x = 1/2. x = ?", options: ['±π/3 + 2πn', 'π/6 + πn', '±π/6 + 2πn', 'π/3 + πn'], correctAnswer: '±π/3 + 2πn', hint: 'arccos(1/2) = π/3' },
-      { type: 'fill', question: "sin x = 0. x = __n", correctAnswer: 'π', hint: 'Нули синуса' },
-      { type: 'quiz', question: "Решение уравнения tan x = a:", options: ['x = arctg a + πn', 'x = arctg a + 2πn', 'x = ±arctg a + πn', 'x = arctg a + π/2 + πn'], correctAnswer: 'x = arctg a + πn', hint: 'Период тангенса π' },
-      { type: 'quiz', question: "arcsin(-1/2) = ?", options: ['-π/6', 'π/6', '-5π/6', '5π/6'], correctAnswer: '-π/6', hint: 'arcsin(-a) = -arcsin(a)' }
+      { type: 'quiz', question: "cos x = 1/2. x = ?", options: ['±π/3 + 2πn', 'π/6 + πn', '±π/6 + 2πn', 'π/3 + πn', 'π/2 + 2πn'], correctAnswer: '±π/3 + 2πn', hint: 'arccos(1/2) = π/3' },
+      { type: 'quiz', question: "sin x = 0. Общий вид решения:", options: ['x = πn', 'x = 2πn', 'x = π/2 + πn', 'x = π + 2πn', 'x = π + πn'], correctAnswer: 'x = πn', hint: 'Нули синуса при x = πn' },
+      { type: 'quiz', question: "Решение уравнения tan x = a:", options: ['x = arctg a + πn', 'x = arctg a + 2πn', 'x = ±arctg a + πn', 'x = arctg a + π/2 + πn', 'x = arctg a + π/2 + 2πn'], correctAnswer: 'x = arctg a + πn', hint: 'Период тангенса π' },
+      { type: 'quiz', question: "arcsin(-1/2) = ?", options: ['-π/6', 'π/6', '-5π/6', '5π/6', '-π/3'], correctAnswer: '-π/6', hint: 'arcsin(-a) = -arcsin(a)' },
+      { type: 'quiz', question: "arccos(√2/2) = ?", options: ['π/6', 'π/4', 'π/3', 'π/2', '3π/4'], correctAnswer: 'π/4', hint: 'cos(π/4) = √2/2' }
     ],
     reward: { stars: 3, message: "Отлично! Ты решаешь тригонометрические уравнения!" }
   },
@@ -2068,10 +2072,11 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-indigo-400",
     tasks: [
-      { type: 'quiz', question: "Период функции y = sin x:", options: ['π', '2π', 'π/2', '4π'], correctAnswer: '2π', hint: 'Наименьший положительный период' },
-      { type: 'quiz', question: "y = cos x — какая функция?", options: ['Нечётная', 'Чётная', 'Ни та, ни другая', 'Обе'], correctAnswer: 'Чётная', hint: 'cos(-x) = cos x' },
-      { type: 'fill', question: "Период y = sin 3x равен 2π/__", correctAnswer: '3', hint: 'T = 2π/k' },
-      { type: 'quiz', question: "Область значений y = sin x:", options: ['(0; 1)', '[-1; 1]', '(-∞; +∞)', '[0; 1]'], correctAnswer: '[-1; 1]', hint: 'Синус принимает значения от -1 до 1' }
+      { type: 'quiz', question: "Период функции y = sin x:", options: ['π', '2π', 'π/2', '4π', '3π'], correctAnswer: '2π', hint: 'Наименьший положительный период' },
+      { type: 'quiz', question: "y = cos x — какая функция?", options: ['Нечётная', 'Чётная', 'Ни та, ни другая', 'Обе', 'Периодическая с периодом π'], correctAnswer: 'Чётная', hint: 'cos(-x) = cos x' },
+      { type: 'quiz', question: "Период y = sin 3x равен:", options: ['2π', '2π/3', '3π', 'π/3', '6π'], correctAnswer: '2π/3', hint: 'T = 2π/k' },
+      { type: 'quiz', question: "Область значений y = sin x:", options: ['(0; 1)', '[-1; 1]', '(-∞; +∞)', '[0; 1]', '[-π; π]'], correctAnswer: '[-1; 1]', hint: 'Синус принимает значения от -1 до 1' },
+      { type: 'quiz', question: "y = sin x — какая функция?", options: ['Чётная', 'Нечётная', 'Ни та, ни другая', 'Обе', 'Периодическая с периодом π'], correctAnswer: 'Нечётная', hint: 'sin(-x) = -sin x' }
     ],
     reward: { stars: 3, message: "Ты знаешь тригонометрические функции!" }
   },
@@ -2081,11 +2086,11 @@ export const games: GameLesson[] = [
     icon: "Calculator",
     color: "text-indigo-400",
     tasks: [
-      { type: 'fill', question: "(x³)' = __x²", correctAnswer: '3', hint: 'nx^(n-1)' },
-      { type: 'quiz', question: "(sin x)' = ?", options: ['cos x', '-cos x', 'sin x', '-sin x'], correctAnswer: 'cos x', hint: 'Таблица производных' },
-      { type: 'quiz', question: "Геометрический смысл производной:", options: ['Площадь под графиком', 'Угол наклона касательной', 'Расстояние до оси', 'Скорость вращения'], correctAnswer: 'Угол наклона касательной', hint: 'f\'(x₀) = tan α' },
-      { type: 'fill', question: "(e^x)' = e^__", correctAnswer: 'x', hint: 'Экспонента равна своей производной' },
-      { type: 'quiz', question: "Если f'(x) > 0 на промежутке, то f(x):", options: ['Возрастает', 'Убывает', 'Постоянна', 'Имеет экстремум'], correctAnswer: 'Возрастает', hint: 'Признак возрастания' }
+      { type: 'quiz', question: "(x^3)' = ?", options: ['x^2', '3x', '3x^2', '2x^3', '3x^3'], correctAnswer: '3x^2', hint: 'nx^(n-1)' },
+      { type: 'quiz', question: "(sin x)' = ?", options: ['cos x', '-cos x', 'sin x', '-sin x', 'tan x'], correctAnswer: 'cos x', hint: 'Таблица производных' },
+      { type: 'quiz', question: "Геометрический смысл производной:", options: ['Площадь под графиком', 'Угол наклона касательной', 'Расстояние до оси', 'Скорость вращения', 'Длина кривой'], correctAnswer: 'Угол наклона касательной', hint: "f'(x₀) = tg α" },
+      { type: 'quiz', question: "(e^x)' = ?", options: ['xe^(x-1)', 'e^x', 'e^(x-1)', 'x*e^x', 'ln x'], correctAnswer: 'e^x', hint: 'Экспонента равна своей производной' },
+      { type: 'quiz', question: "Если f'(x) > 0 на промежутке, то f(x):", options: ['Возрастает', 'Убывает', 'Постоянна', 'Имеет экстремум', 'Периодическая'], correctAnswer: 'Возрастает', hint: 'Признак возрастания' }
     ],
     reward: { stars: 3, message: "Отлично! Ты владеешь производной!" }
   }

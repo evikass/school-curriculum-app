@@ -1226,11 +1226,11 @@ export const games: GameLesson[] = [
     icon: "Code",
     color: "text-sky-400",
     tasks: [
-      { type: "quiz", question: "Какой тип данных используется для хранения текста в Python?", options: ["int", "float", "str", "bool"], correctAnswer: "str", hint: "Этот тип данных сокращённо от слова string" },
-      { type: "quiz", question: "Что делает оператор // в Python?", options: ["Обычное деление", "Целочисленное деление", "Остаток от деления", "Возведение в степень"], correctAnswer: "Целочисленное деление", hint: "Этот оператор возвращает только целую часть от деления" },
-      { type: "find", question: "Выберите неизменяемые типы данных в Python:", options: ["list", "tuple", "dict", "str", "set", "int"], correctAnswer: ["tuple", "str", "int"], hint: "Неизменяемые типы нельзя модифицировать после создания" },
-      { type: "match", question: "Соотнесите операцию с результатом:", options: ["7 // 2", "7 % 2", "7 / 2", "2 ** 3"], correctAnswer: ["3", "1", "3.5", "8"], hint: "Каждая операция в Python имеет свой результат" },
-      { type: "fill", question: "Функция ___() используется для определения типа переменной в Python.", correctAnswer: "type", hint: "Эта встроенная функция возвращает тип объекта" }
+      { type: "quiz", question: "Какой тип данных используется для хранения текста в Python?", options: ["int", "float", "str", "bool", "list"], correctAnswer: "str", hint: "Этот тип данных сокращённо от слова string" },
+      { type: "quiz", question: "Что делает оператор // в Python?", options: ["Обычное деление", "Целочисленное деление", "Остаток от деления", "Возведение в степень", "Побитовое ИЛИ"], correctAnswer: "Целочисленное деление", hint: "Этот оператор возвращает только целую часть от деления" },
+      { type: "quiz", question: "Какая функция используется для определения типа переменной в Python?", options: ["type()", "typeof()", "dtype()", "class()", "info()"], correctAnswer: "type()", hint: "Эта встроенная функция возвращает тип объекта" },
+      { type: "quiz", question: "Какой из этих типов данных является неизменяемым в Python?", options: ["list", "dict", "set", "tuple", "bytearray"], correctAnswer: "tuple", hint: "Неизменяемые типы нельзя модифицировать после создания" },
+      { type: "quiz", question: "Что вернёт выражение 2 ** 3 в Python?", options: ["5", "6", "8", "9", "1"], correctAnswer: "8", hint: "Оператор ** возводит в степень" }
     ],
     reward: { stars: 3, message: "Отличное знание основ Python! 🐍" }
   },
@@ -1240,11 +1240,11 @@ export const games: GameLesson[] = [
     icon: "Database",
     color: "text-violet-400",
     tasks: [
-      { type: "quiz", question: "Какая структура данных хранит пары ключ-значение?", options: ["Список", "Кортеж", "Словарь", "Множество"], correctAnswer: "Словарь", hint: "Эта структура также называется dict" },
-      { type: "quiz", question: "Что вернёт выражение [1, 2, 3][-1]?", options: ["1", "2", "3", "Ошибка"], correctAnswer: "3", hint: "Отрицательный индекс отсчитывает элементы с конца" },
-      { type: "find", question: "Выберите изменяемые структуры данных:", options: ["list", "tuple", "dict", "str", "set", "frozenset"], correctAnswer: ["list", "dict", "set"], hint: "Изменяемые структуры позволяют добавлять и удалять элементы" },
-      { type: "match", question: "Соотнесите метод с его действием:", options: ["append()", "pop()", "sort()", "count()"], correctAnswer: ["Добавить в конец", "Удалить и вернуть элемент", "Отсортировать на месте", "Подсчитать вхождения"], hint: "Каждый метод списка выполняет определённое действие" },
-      { type: "fill", question: "___ comprehension — это компактный способ создания списков в Python.", correctAnswer: "List", hint: "Это выражение в квадратных скобках с циклом for внутри" }
+      { type: "quiz", question: "Какая структура данных хранит пары ключ-значение?", options: ["Список", "Кортеж", "Словарь", "Множество", "Строка"], correctAnswer: "Словарь", hint: "Эта структура также называется dict" },
+      { type: "quiz", question: "Что вернёт выражение [1, 2, 3][-1]?", options: ["1", "2", "3", "Ошибка", "None"], correctAnswer: "3", hint: "Отрицательный индекс отсчитывает элементы с конца" },
+      { type: "quiz", question: "Что такое List comprehension в Python?", options: ["Компактный способ создания списков", "Метод сортировки списка", "Тип цикла while", "Способ удаления элементов", "Встроенная функция range()"], correctAnswer: "Компактный способ создания списков", hint: "Выражение в квадратных скобках с циклом for внутри" },
+      { type: "quiz", question: "Какой метод списка добавляет элемент в конец?", options: ["insert()", "append()", "push()", "add()", "extend()"], correctAnswer: "append()", hint: "Этот метод добавляет один элемент в конец списка" },
+      { type: "quiz", question: "Какая операция над множествами возвращает общие элементы двух множеств?", options: ["union (|)", "intersection (&)", "difference (-)", "symmetric_difference (^)", "issubset (<=)"], correctAnswer: "intersection (&)", hint: "Пересечение множеств" }
     ],
     reward: { stars: 3, message: "Мастер структур данных! 📊" }
   },
@@ -1254,11 +1254,11 @@ export const games: GameLesson[] = [
     icon: "Box",
     color: "text-emerald-400",
     tasks: [
-      { type: "quiz", question: "Какой метод вызывается при создании нового объекта класса?", options: ["__new__", "__init__", "__create__", "__start__"], correctAnswer: "__init__", hint: "Этот метод инициализирует атрибуты объекта" },
-      { type: "quiz", question: "Что означает принцип инкапсуляции в ООП?", options: ["Сокрытие деталей реализации", "Создание подклассов", "Использование одного интерфейса", "Переопределение методов"], correctAnswer: "Сокрытие деталей реализации", hint: "Этот принцип защищает внутреннее состояние объекта" },
-      { type: "find", question: "Выберите основные принципы ООП:", options: ["Инкапсуляция", "Наследование", "Полиморфизм", "Абстракция", "Рекурсия", "Итерация"], correctAnswer: ["Инкапсуляция", "Наследование", "Полиморфизм", "Абстракция"], hint: "Это четыре кита объектно-ориентированного программирования" },
-      { type: "match", question: "Соотнесите магический метод с его назначением:", options: ["__str__", "__len__", "__add__", "__eq__"], correctAnswer: ["Строковое представление", "Длина объекта", "Сложение объектов", "Сравнение на равенство"], hint: "Магические методы определяют поведение объектов" },
-      { type: "fill", question: "Функция ___() позволяет вызвать метод родительского класса в дочернем.", correctAnswer: "super", hint: "Эта функция обращается к родительскому классу" }
+      { type: "quiz", question: "Какой метод вызывается при создании нового объекта класса?", options: ["__new__", "__init__", "__create__", "__start__", "__build__"], correctAnswer: "__init__", hint: "Этот метод инициализирует атрибуты объекта" },
+      { type: "quiz", question: "Что означает принцип инкапсуляции в ООП?", options: ["Сокрытие деталей реализации", "Создание подклассов", "Использование одного интерфейса", "Переопределение методов", "Наследование атрибутов"], correctAnswer: "Сокрытие деталей реализации", hint: "Этот принцип защищает внутреннее состояние объекта" },
+      { type: "quiz", question: "Какая функция позволяет вызвать метод родительского класса в дочернем?", options: ["parent()", "super()", "base()", "this()", "self()"], correctAnswer: "super()", hint: "Эта функция обращается к родительскому классу" },
+      { type: "quiz", question: "Что такое полиморфизм в ООП?", options: ["Сокрытие данных", "Возможность использовать объекты разных классов через один интерфейс", "Наследование атрибутов", "Создание абстрактных классов", "Статические методы"], correctAnswer: "Возможность использовать объекты разных классов через один интерфейс", hint: "Одинаковые методы с разной реализацией" },
+      { type: "quiz", question: "Какой декоратор превращает метод в атрибут для контролируемого доступа?", options: ["@staticmethod", "@classmethod", "@property", "@abstractmethod", "@getter"], correctAnswer: "@property", hint: "Позволяет обращаться к методу как к атрибуту" }
     ],
     reward: { stars: 3, message: "Объектно-ориентированный мастер! 🏗️" }
   },
@@ -1268,11 +1268,11 @@ export const games: GameLesson[] = [
     icon: "GitBranch",
     color: "text-blue-400",
     tasks: [
-      { type: "quiz", question: "Какова сложность бинарного поиска?", options: ["O(1)", "O(n)", "O(log n)", "O(n^2)"], correctAnswer: "O(log n)", hint: "На каждом шаге отбрасывается половина элементов" },
-      { type: "quiz", question: "Какая сортировка в среднем работает за O(n log n)?", options: ["Пузырьковая", "Быстрая", "Выбором", "Вставками"], correctAnswer: "Быстрая", hint: "Название этой сортировки говорит само за себя" },
-      { type: "find", question: "Выберите алгоритмы со сложностью O(n log n):", options: ["QuickSort", "MergeSort", "BubbleSort", "InsertionSort", "TimSort", "SelectionSort"], correctAnswer: ["QuickSort", "MergeSort", "TimSort"], hint: "Эффективные алгоритмы сортировки работают за логарифмическое время" },
-      { type: "match", question: "Соотнесите алгоритм с его сложностью:", options: ["Линейный поиск", "Бинарный поиск", "Пузырьковая сортировка", "Сортировка слиянием"], correctAnswer: ["O(n)", "O(log n)", "O(n^2)", "O(n log n)"], hint: "Сложность определяет скорость роста времени выполнения" },
-      { type: "fill", question: "___ — это приём запоминания результатов подзадач для ускорения рекурсии.", correctAnswer: "Мемоизация", hint: "Этот приём кэширует результаты функций" }
+      { type: "quiz", question: "Какова сложность бинарного поиска?", options: ["O(1)", "O(n)", "O(log n)", "O(n^2)", "O(n log n)"], correctAnswer: "O(log n)", hint: "На каждом шаге отбрасывается половина элементов" },
+      { type: "quiz", question: "Какая сортировка в среднем работает за O(n log n)?", options: ["Пузырьковая", "Быстрая", "Выбором", "Вставками", "Глупая"], correctAnswer: "Быстрая", hint: "Название этой сортировки говорит само за себя" },
+      { type: "quiz", question: "Какова сложность линейного поиска в худшем случае?", options: ["O(1)", "O(log n)", "O(n)", "O(n^2)", "O(n!)"], correctAnswer: "O(n)", hint: "Приходится проверять каждый элемент" },
+      { type: "quiz", question: "Какой алгоритм сортировки использует стратегию 'разделяй и властвуй' и требует дополнительной памяти O(n)?", options: ["QuickSort", "MergeSort", "BubbleSort", "InsertionSort", "SelectionSort"], correctAnswer: "MergeSort", hint: "Делим массив пополам, сортируем, сливаем" },
+      { type: "quiz", question: "Что такое мемоизация?", options: ["Приём запоминания результатов подзадач для ускорения рекурсии", "Метод сортировки массива", "Способ обхода дерева", "Алгоритм сжатия данных", "Тип цикла в Python"], correctAnswer: "Приём запоминания результатов подзадач для ускорения рекурсии", hint: "Этот приём кэширует результаты функций" }
     ],
     reward: { stars: 3, message: "Алгоритмическое мышление на высоте! 🧠" }
   },
@@ -1282,11 +1282,11 @@ export const games: GameLesson[] = [
     icon: "FileText",
     color: "text-amber-400",
     tasks: [
-      { type: "quiz", question: "Какой режим открытия файла нужно использовать для добавления данных в конец?", options: ["r", "w", "a", "x"], correctAnswer: "a", hint: "Этот режим от слова append" },
-      { type: "quiz", question: "Какой формат данных чаще всего используется в REST API?", options: ["XML", "YAML", "JSON", "CSV"], correctAnswer: "JSON", hint: "Этот формат основан на синтаксисе JavaScript" },
-      { type: "find", question: "Выберите форматы данных для обмена информацией:", options: ["JSON", "CSV", "PNG", "XML", "MP3", "YAML"], correctAnswer: ["JSON", "CSV", "XML", "YAML"], hint: "Это текстовые форматы для хранения структурированных данных" },
-      { type: "match", question: "Соотнесите HTTP-метод с его действием:", options: ["GET", "POST", "PUT", "DELETE"], correctAnswer: ["Получить данные", "Создать ресурс", "Обновить ресурс", "Удалить ресурс"], hint: "Каждый HTTP-метод выполняет свою роль в REST" },
-      { type: "fill", question: "Конструкция ___ гарантирует автоматическое закрытие файла в Python.", correctAnswer: "with", hint: "Этот оператор создаёт контекст для работы с ресурсами" }
+      { type: "quiz", question: "Какой режим открытия файла нужно использовать для добавления данных в конец?", options: ["r", "w", "a", "x", "rb"], correctAnswer: "a", hint: "Этот режим от слова append" },
+      { type: "quiz", question: "Какой формат данных чаще всего используется в REST API?", options: ["XML", "YAML", "JSON", "CSV", "HTML"], correctAnswer: "JSON", hint: "Этот формат основан на синтаксисе JavaScript" },
+      { type: "quiz", question: "Какая конструкция гарантирует автоматическое закрытие файла в Python?", options: ["try-finally", "with", "close()", "del", "exit()"], correctAnswer: "with", hint: "Этот оператор создаёт контекст для работы с ресурсами" },
+      { type: "quiz", question: "Какой HTTP-метод используется для получения данных с сервера?", options: ["POST", "GET", "PUT", "DELETE", "PATCH"], correctAnswer: "GET", hint: "Этот метод только читает данные, не изменяя их" },
+      { type: "quiz", question: "Какой метод Python читает все строки файла в список?", options: ["read()", "readline()", "readlines()", "write()", "seek()"], correctAnswer: "readlines()", hint: "Возвращает список, где каждый элемент — строка файла" }
     ],
     reward: { stars: 3, message: "Мастер работы с данными! 💾" }
   },
@@ -1296,11 +1296,11 @@ export const games: GameLesson[] = [
     icon: "Globe",
     color: "text-rose-400",
     tasks: [
-      { type: "quiz", question: "Какой тег HTML используется для создания ссылки?", options: ["link", "a", "href", "url"], correctAnswer: "a", hint: "Этот тег от слова anchor" },
-      { type: "quiz", question: "Какой веб-фреймворк является микрофреймворком?", options: ["Django", "Flask", "Pyramid", "Tornado"], correctAnswer: "Flask", hint: "Этот фреймворк минималистичен и гибок" },
-      { type: "find", question: "Выберите принципы REST API:", options: ["Stateless", "Ресурсы через URL", "Хранение сессий на сервере", "HTTP-методы как действия", "Единообразный интерфейс", "SOAP-протокол"], correctAnswer: ["Stateless", "Ресурсы через URL", "HTTP-методы как действия", "Единообразный интерфейс"], hint: "REST — это архитектурный стиль с определёнными ограничениями" },
-      { type: "match", question: "Соотнесите код ответа HTTP с его значением:", options: ["200", "201", "404", "500"], correctAnswer: ["OK", "Created", "Not Found", "Internal Server Error"], hint: "Коды ответов помогают понять результат запроса" },
-      { type: "fill", question: "___ — это язык описания внешнего вида HTML-документа.", correctAnswer: "CSS", hint: "Каскадные таблицы стилей" }
+      { type: "quiz", question: "Какой тег HTML используется для создания ссылки?", options: ["link", "a", "href", "url", "nav"], correctAnswer: "a", hint: "Этот тег от слова anchor" },
+      { type: "quiz", question: "Какой веб-фреймворк Python является микрофреймворком?", options: ["Django", "Flask", "Pyramid", "Tornado", "FastAPI"], correctAnswer: "Flask", hint: "Этот фреймворк минималистичен и гибок" },
+      { type: "quiz", question: "Какой язык описывает внешний вид HTML-документа?", options: ["JavaScript", "CSS", "SQL", "Python", "PHP"], correctAnswer: "CSS", hint: "Каскадные таблицы стилей" },
+      { type: "quiz", question: "Что означает HTTP-код ответа 404?", options: ["OK", "Created", "Not Found", "Internal Server Error", "Bad Request"], correctAnswer: "Not Found", hint: "Ресурс не найден на сервере" },
+      { type: "quiz", question: "Какой HTTP-метод используется для создания нового ресурса на сервере?", options: ["GET", "POST", "PUT", "DELETE", "HEAD"], correctAnswer: "POST", hint: "Этот метод отправляет данные на сервер для создания ресурса" }
     ],
     reward: { stars: 3, message: "Веб-разработчик уровня про! 🌐" }
   },
@@ -1310,11 +1310,11 @@ export const games: GameLesson[] = [
     icon: "Shield",
     color: "text-red-400",
     tasks: [
-      { type: "quiz", question: "Какой алгоритм рекомендуется для хеширования паролей?", options: ["MD5", "SHA-1", "bcrypt", "CRC32"], correctAnswer: "bcrypt", hint: "Медленные алгоритмы безопаснее для паролей" },
-      { type: "quiz", question: "Какой подход предполагает написание тестов до кода?", options: ["BDD", "TDD", "DDD", "SCRUM"], correctAnswer: "TDD", hint: "Test-Driven Development — разработка через тестирование" },
-      { type: "find", question: "Выберите распространённые веб-уязвимости:", options: ["SQL-инъекция", "XSS", "Type Error", "CSRF", "Null Pointer", "Path Traversal"], correctAnswer: ["SQL-инъекция", "XSS", "CSRF", "Path Traversal"], hint: "Это уязвимости из списка OWASP Top 10" },
-      { type: "match", question: "Соотнесите тип теста с его описанием:", options: ["Unit-тест", "Интеграционный", "E2E-тест", "Нагрузочный"], correctAnswer: ["Проверка одной функции", "Проверка взаимодействия компонентов", "Проверка всего сценария", "Проверка производительности"], hint: "Каждый тип теста имеет свою область ответственности" },
-      { type: "fill", question: "___-уязвимость позволяет внедрить вредоносный JavaScript-код в веб-страницу.", correctAnswer: "XSS", hint: "Cross-Site Scripting — межсайтовый скриптинг" }
+      { type: "quiz", question: "Какой алгоритм рекомендуется для хеширования паролей?", options: ["MD5", "SHA-1", "bcrypt", "CRC32", "SHA-256"], correctAnswer: "bcrypt", hint: "Медленные алгоритмы безопаснее для паролей" },
+      { type: "quiz", question: "Какой подход предполагает написание тестов до кода?", options: ["BDD", "TDD", "DDD", "SCRUM", "CI/CD"], correctAnswer: "TDD", hint: "Test-Driven Development — разработка через тестирование" },
+      { type: "quiz", question: "Какая уязвимость позволяет внедрить вредоносный JavaScript-код в веб-страницу?", options: ["SQL-инъекция", "XSS", "CSRF", "Path Traversal", "DDoS"], correctAnswer: "XSS", hint: "Cross-Site Scripting — межсайтовый скриптинг" },
+      { type: "quiz", question: "Что такое SQL-инъекция?", options: ["Внедрение вредоносного SQL-кода в запрос", "Тип шифрования данных", "Метод тестирования базы данных", "Способ оптимизации запросов", "Протокол передачи данных"], correctAnswer: "Внедрение вредоносного SQL-кода в запрос", hint: "Одна из самых опасных веб-уязвимостей" },
+      { type: "quiz", question: "Какой тип тестирования проверяет одну функцию или модуль изолированно?", options: ["Интеграционный", "E2E-тест", "Unit-тест", "Нагрузочный", "Регрессионный"], correctAnswer: "Unit-тест", hint: "Модульное тестирование проверяет минимальную единицу кода" }
     ],
     reward: { stars: 3, message: "Защитник киберпространства! 🛡️" }
   }
