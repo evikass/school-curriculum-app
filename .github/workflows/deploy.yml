@@ -9,12 +9,12 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout site-new branch
+      - name: Checkout site-new branch (app code + TypeScript data)
         uses: actions/checkout@v4
         with:
           ref: site-new
           path: app
-      - name: Checkout site branch
+      - name: Checkout site branch (SVG images + legacy data)
         uses: actions/checkout@v4
         with:
           ref: site
@@ -23,10 +23,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Copy data files to app
+      - name: Copy SVG images from site branch
         run: |
-          cp -r data/school-curriculum-app/public/data app/public/
-          cp -r data/school-curriculum-app/public/images app/public/
+          # Only copy SVG images - TypeScript data in src/data/ is the source of truth
+          mkdir -p app/public/images
+          if [ -d "data/school-curriculum-app/public/images" ]; then
+            cp -r data/school-curriculum-app/public/images/* app/public/images/ 2>/dev/null || true
+          fi
       - name: Install dependencies
         run: cd app && npm install
       - name: Build
