@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
   push:
-    branches: [site, site-new]
+    branches: [site-new]
   workflow_dispatch:
 jobs:
   build-and-deploy:
@@ -9,15 +9,27 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout site-new branch
+      - name: Checkout site-new branch (app code + TypeScript data)
         uses: actions/checkout@v4
         with:
           ref: site-new
           path: app
+      - name: Checkout site branch (SVG images)
+        uses: actions/checkout@v4
+        with:
+          ref: site
+          path: images-data
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: Copy SVG images from site branch
+        run: |
+          # Copy SVG images from site branch to app public directory
+          if [ -d "images-data/school-curriculum-app/public/images" ]; then
+            mkdir -p app/public/images
+            cp -r images-data/school-curriculum-app/public/images/* app/public/images/ 2>/dev/null || true
+          fi
       - name: Install dependencies
         run: cd app && npm install
       - name: Build
