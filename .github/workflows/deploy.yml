@@ -23,6 +23,10 @@ jobs:
       - name: Build
         run: cd app && npm run build
       - name: Deploy to gh-pages
-        run: cd app && npx gh-pages -d out -t
+        run: |
+          cd app
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          npx gh-pages -d out -t
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
