@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#BBDEFB"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Центр масс. Теорема о движении центра масс</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 28</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(150,180)">
+<!-- Two masses on a rod -->
+<circle cx="-60" cy="0" r="15" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+<text x="-60" y="4" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">m1</text>
+<circle cx="60" cy="0" r="10" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
+<text x="60" y="4" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">m2</text>
+<!-- Rod -->
+<line x1="-45" y1="0" x2="50" y2="0" stroke="#333" stroke-width="2"/>
+<!-- Center of mass -->
+<circle cx="-15" cy="0" r="4" fill="#E53935" stroke="#C62828" stroke-width="1.5"/>
+<text x="-15" y="-10" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">ЦМ</text>
+</g>
+<g transform="translate(400,140)">
+<rect x="-80" y="-55" width="160" height="110" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+<text x="0" y="-40" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">Координата ЦМ</text>
+<line x1="-65" y1="-33" x2="65" y2="-33" stroke="#1565C0" stroke-width="0.5"/>
+<text x="0" y="-18" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">xцм = (m1*x1+m2*x2)</text>
+<text x="0" y="-3" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">/ (m1+m2)</text>
+<line x1="-65" y1="10" x2="65" y2="10" stroke="#1565C0" stroke-width="0.5"/>
+<text x="0" y="25" font-family="Arial,sans-serif" font-size="6" fill="#E53935" text-anchor="middle" font-weight="bold">Теорема</text>
+<text x="0" y="40" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Fвнешн = M*aцм</text>
+<text x="0" y="52" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">ЦМ движется как материальная точка</text>
+</g>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#1565C0" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Физика 10 класс</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Общая характеристика царства Растения</text>
+  <text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 6 класс - Урок 11</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+  
+  <!-- Plant kingdom overview -->
+  <g transform="translate(250,185)">
+    <!-- Central title -->
+    <circle cx="0" cy="0" r="35" fill="#2E7D32" opacity="0.8"/>
+    <text x="0" y="-3" font-family="Arial,sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">Растения</text>
+    <text x="0" y="10" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">(автотрофы)</text>
+    <!-- Branches -->
+    <line x1="-30" y1="-25" x2="-100" y2="-70" stroke="#795548" stroke-width="2"/>
+    <line x1="30" y1="-25" x2="100" y2="-70" stroke="#795548" stroke-width="2"/>
+    <line x1="-35" y1="0" x2="-120" y2="0" stroke="#795548" stroke-width="2"/>
+    <line x1="35" y1="0" x2="120" y2="0" stroke="#795548" stroke-width="2"/>
+    <line x1="-25" y1="25" x2="-90" y2="70" stroke="#795548" stroke-width="2"/>
+    <line x1="25" y1="25" x2="90" y2="70" stroke="#795548" stroke-width="2"/>
+    <!-- Водоросли -->
+    <ellipse cx="-115" cy="-75" rx="40" ry="16" fill="#4CAF50" opacity="0.6"/>
+    <text x="-115" y="-72" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Водоросли</text>
+    <!-- Мхи -->
+    <ellipse cx="115" cy="-75" rx="35" ry="16" fill="#66BB6A" opacity="0.6"/>
+    <text x="115" y="-72" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Мхи</text>
+    <!-- Папоротники -->
+    <ellipse cx="-135" cy="0" rx="45" ry="16" fill="#43A047" opacity="0.6"/>
+    <text x="-135" y="3" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Папоротники</text>
+    <!-- Голосеменные -->
+    <ellipse cx="135" cy="0" rx="45" ry="16" fill="#2E7D32" opacity="0.6"/>
+    <text x="135" y="3" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Голосеменные</text>
+    <!-- Покрытосеменные -->
+    <ellipse cx="-105" cy="75" rx="50" ry="16" fill="#1B5E20" opacity="0.6"/>
+    <text x="-105" y="72" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle" font-weight="bold">Покрытосеменные</text>
+    <text x="-105" y="83" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">(цветковые)</text>
+    <!-- Evolution arrow -->
+    <text x="105" y="68" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">Цветковые</text>
+    <text x="105" y="78" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">самые</text>
+    <text x="105" y="88" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">сложные</text>
+  </g>
+  <!-- Characteristics -->
+  <rect x="20" y="280" width="460" height="35" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+  <text x="250" y="296" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">Признаки растений: автотрофы (фотосинтез), клеточная стенка из целлюлозы, неподвижны</text>
+  <text x="250" y="310" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Растут всю жизнь, запасное вещество - крахмал</text>
+
+  <rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 6 класс</text>
+</svg>

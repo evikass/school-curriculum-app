@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/><text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Разнообразие и значение цветковых растений</text><text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 6 класс - Урок 21</text><line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+  <!-- Plant families -->
+  <g transform="translate(80,110)">
+    <!-- Rose family flower -->
+    <g transform="translate(0,0)">
+      <ellipse cx="0" cy="-10" rx="6" ry="12" fill="#F48FB1" opacity="0.7"/>
+      <ellipse cx="10" cy="-3" rx="6" ry="12" fill="#F48FB1" opacity="0.7" transform="rotate(72,0,0)"/>
+      <ellipse cx="6" cy="8" rx="6" ry="12" fill="#F48FB1" opacity="0.7" transform="rotate(144,0,0)"/>
+      <ellipse cx="-6" cy="8" rx="6" ry="12" fill="#F48FB1" opacity="0.7" transform="rotate(216,0,0)"/>
+      <ellipse cx="-10" cy="-3" rx="6" ry="12" fill="#F48FB1" opacity="0.7" transform="rotate(288,0,0)"/>
+      <circle cx="0" cy="0" r="5" fill="#FFC107"/>
+      <text x="0" y="25" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Розоцветные</text>
+      <text x="0" y="36" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">яблоня, роза</text>
+    </g>
+  </g>
+  <g transform="translate(200,110)">
+    <!-- Legume flower -->
+    <path d="M-5 -15 Q0 -20 5 -15 L8 -5 Q5 5 -5 5 L-8 -5 Z" fill="#CE93D8" stroke="#8E24AA" stroke-width="1"/>
+    <path d="M-3 -8 Q0 -12 3 -8" fill="#AB47BC" stroke="#8E24AA" stroke-width="0.5"/>
+    <text x="0" y="20" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Бобовые</text>
+    <text x="0" y="31" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">горох, фасоль</text>
+  </g>
+  <g transform="translate(310,110)">
+    <!-- Aster family - sunflower -->
+    <circle cx="0" cy="0" r="10" fill="#795548"/>
+    <ellipse cx="-10" cy="-8" rx="8" ry="4" fill="#FFC107" transform="rotate(-30,-10,-8)"/>
+    <ellipse cx="10" cy="-8" rx="8" ry="4" fill="#FFC107" transform="rotate(30,10,-8)"/>
+    <ellipse cx="-12" cy="3" rx="8" ry="4" fill="#FFC107" transform="rotate(-50,-12,3)"/>
+    <ellipse cx="12" cy="3" rx="8" ry="4" fill="#FFC107" transform="rotate(50,12,3)"/>
+    <ellipse cx="0" cy="-14" rx="8" ry="4" fill="#FFC107"/>
+    <ellipse cx="0" cy="14" rx="8" ry="4" fill="#FFC107"/>
+    <text x="0" y="28" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Сложноцветные</text>
+    <text x="0" y="39" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">подсолнечник, астра</text>
+  </g>
+  <g transform="translate(430,110)">
+    <!-- Grass family -->
+    <path d="M0 15 L0 -10" stroke="#66BB6A" stroke-width="2"/>
+    <path d="M0 -10 Q-8 -18 -5 -25" stroke="#81C784" stroke-width="1.5" fill="none"/>
+    <path d="M0 -10 Q8 -18 5 -25" stroke="#81C784" stroke-width="1.5" fill="none"/>
+    <path d="M0 -5 Q-10 -12 -10 -18" stroke="#81C784" stroke-width="1" fill="#81C784" opacity="0.5"/>
+    <text x="0" y="28" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Злаки</text>
+    <text x="0" y="39" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">пшеница, рис</text>
+  </g>
+  <!-- Importance -->
+  <rect x="30" y="185" width="440" height="120" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+  <text x="250" y="203" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Значение цветковых растений</text>
+  <text x="50" y="220" font-family="Arial,sans-serif" font-size="8" fill="#555">Пища: злаки (хлеб), овощи, фрукты, бобовые (белки)</text>
+  <text x="50" y="235" font-family="Arial,sans-serif" font-size="8" fill="#555">Лекарства: ромашка, валериана, шиповник</text>
+  <text x="50" y="250" font-family="Arial,sans-serif" font-size="8" fill="#555">Декоративные: розы, тюльпаны, хризантемы</text>
+  <text x="50" y="265" font-family="Arial,sans-serif" font-size="8" fill="#555">Технические: лён (ткани), хлопок, каучук (гевея)</text>
+  <text x="50" y="280" font-family="Arial,sans-serif" font-size="8" fill="#555">Кормовые: клевер, люцерна, кукуруза</text>
+  <text x="50" y="298" font-family="Arial,sans-serif" font-size="7" fill="#C62828">Цветковые = основа жизни человека на Земле</text>
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/><text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 6 класс</text></svg>

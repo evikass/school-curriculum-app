@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[35493,["/school-curriculum-app/_next/static/chunks/0bpova-rid9pu.js","/school-curriculum-app/_next/static/chunks/0e~am~p7~.7rt.js","/school-curriculum-app/_next/static/chunks/0_5-dkp8sf-~o.js"],"default"]
-3:I[62129,["/school-curriculum-app/_next/static/chunks/0bpova-rid9pu.js","/school-curriculum-app/_next/static/chunks/0e~am~p7~.7rt.js","/school-curriculum-app/_next/static/chunks/0_5-dkp8sf-~o.js"],"default"]
+2:I[97512,["/school-curriculum-app/_next/static/chunks/0d02iaodzzppg.js","/school-curriculum-app/_next/static/chunks/11d4zrtdqd96j.js","/school-curriculum-app/_next/static/chunks/0c-y56l5opsqf.js"],"default"]
+3:I[27242,["/school-curriculum-app/_next/static/chunks/0d02iaodzzppg.js","/school-curriculum-app/_next/static/chunks/11d4zrtdqd96j.js","/school-curriculum-app/_next/static/chunks/0c-y56l5opsqf.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"nYKwM2m77vmfE6ttnbIrM"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"Ty8_kK7cNI4oIy3VWyDYm"}

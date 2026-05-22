@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[6280,["/school-curriculum-app/_next/static/chunks/0bpova-rid9pu.js","/school-curriculum-app/_next/static/chunks/0e~am~p7~.7rt.js","/school-curriculum-app/_next/static/chunks/0_5-dkp8sf-~o.js"],"ClientPageRoot"]
-3:I[10303,["/school-curriculum-app/_next/static/chunks/0bpova-rid9pu.js","/school-curriculum-app/_next/static/chunks/0e~am~p7~.7rt.js","/school-curriculum-app/_next/static/chunks/0_5-dkp8sf-~o.js","/school-curriculum-app/_next/static/chunks/0_9a6q1ut8gzk.js"],"default"]
-6:I[89507,["/school-curriculum-app/_next/static/chunks/0bpova-rid9pu.js","/school-curriculum-app/_next/static/chunks/0e~am~p7~.7rt.js","/school-curriculum-app/_next/static/chunks/0_5-dkp8sf-~o.js"],"OutletBoundary"]
+2:I[37817,["/school-curriculum-app/_next/static/chunks/0d02iaodzzppg.js","/school-curriculum-app/_next/static/chunks/11d4zrtdqd96j.js","/school-curriculum-app/_next/static/chunks/0c-y56l5opsqf.js"],"ClientPageRoot"]
+3:I[40979,["/school-curriculum-app/_next/static/chunks/0d02iaodzzppg.js","/school-curriculum-app/_next/static/chunks/11d4zrtdqd96j.js","/school-curriculum-app/_next/static/chunks/0c-y56l5opsqf.js","/school-curriculum-app/_next/static/chunks/02p2kh7by1bv7.js"],"default"]
+6:I[49421,["/school-curriculum-app/_next/static/chunks/0d02iaodzzppg.js","/school-curriculum-app/_next/static/chunks/11d4zrtdqd96j.js","/school-curriculum-app/_next/static/chunks/0c-y56l5opsqf.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/school-curriculum-app/_next/static/chunks/0_9a6q1ut8gzk.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"nYKwM2m77vmfE6ttnbIrM"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/school-curriculum-app/_next/static/chunks/02p2kh7by1bv7.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Ty8_kK7cNI4oIy3VWyDYm"}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
