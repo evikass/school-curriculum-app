@@ -1,10 +1,10 @@
 // Типы для уроков и мини-игр
 
 export interface LessonTask {
-  type: 'quiz' | 'match' | 'order' | 'find' | 'fill' | 'drag';
+  type: 'quiz';
   question: string;
   options?: string[];
-  correctAnswer: string | string[];
+  correctAnswer: string;
   hint?: string;
   image?: string;
 }
