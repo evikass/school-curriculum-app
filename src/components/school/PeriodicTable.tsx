@@ -2497,9 +2497,9 @@ export default function PeriodicTable({ onClose }: Props) {
 
   return (
     <div className="relative w-full">
-      {/* Close button - centered at top */}
+      {/* Close button - centered, pushed down for mobile visibility */}
       {onClose && (
-        <div className="flex justify-center mb-4">
+        <div className="flex justify-center mt-16 mb-4">
           <button
             onClick={onClose}
             className="px-6 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors flex items-center gap-2 text-white font-medium"
