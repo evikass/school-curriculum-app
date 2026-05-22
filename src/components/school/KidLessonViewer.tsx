@@ -1,7 +1,7 @@
 'use client'
 
 import { useSchool, LessonData } from '@/context/SchoolContext'
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import {
   ArrowLeft, Star, BookOpen, ChevronDown, ChevronRight, Gamepad2, Play,
   Calculator, Palette, Music, Dumbbell, Globe, BookOpenText,
@@ -12,7 +12,7 @@ import {
 import { generateLessonQuiz } from '@/lib/lessonQuizGenerator'
 import LessonAnimatedSVG from './LessonAnimatedSVG'
 import PeriodicTable from './PeriodicTable'
-import { LessonTopic, LessonItem } from '@/data/types'
+import { LessonTopic, LessonItem, GameLesson } from '@/data/types'
 
 // Цвета для смысловых блоков
 const blockColors = [
@@ -292,9 +292,33 @@ export default function KidLessonViewer() {
   if (!selectedSubject) return null
 
   const topics = selectedSubject.detailedTopics || []
-  // Фильтруем игры только по текущему предмету
+  // Фильтруем готовые игры только по текущему предмету
   const allGames = contextGames || []
-  const games = allGames.filter(g => g.subject === selectedSubject?.title)
+  const preMadeGames = allGames.filter(g => g.subject === selectedSubject?.title)
+  
+  // Если готовых игр нет — генерируем из уроков предмета
+  const games = useMemo(() => {
+    if (preMadeGames.length > 0) return preMadeGames
+    if (!selectedSubject?.detailedTopics) return []
+
+    const generated: GameLesson[] = []
+    let count = 0
+    for (const topic of selectedSubject.detailedTopics) {
+      const lessons = topic.subtopics
+        ? topic.subtopics.flatMap((st: any) => st.lessons)
+        : (topic.lessons || [])
+      for (const lesson of lessons) {
+        if (count >= 10) break
+        const game = generateLessonQuiz(lesson.title, lesson.description, selectedSubject.title)
+        if (game) {
+          generated.push(game)
+          count++
+        }
+      }
+      if (count >= 10) break
+    }
+    return generated
+  }, [preMadeGames, selectedSubject])
 
   // Если выбран урок - показываем его содержимое
   if (selectedLesson) {
@@ -521,35 +545,43 @@ export default function KidLessonViewer() {
         <div className="text-center mb-10">
           <div className="text-6xl mb-4">🎮</div>
           <h2 className="text-3xl md:text-4xl font-black text-white">Игры и задания</h2>
-          <p className="text-xl text-purple-200 mt-2">{games.length} игр!</p>
+          <p className="text-xl text-purple-200 mt-2">{games.length} {games.length === 1 ? 'игра' : games.length < 5 ? 'игры' : 'игр'}!</p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          {games.map((game, index) => (
-            <button
-              key={index}
-              onClick={() => selectGame(game)}
-              className="p-6 rounded-3xl bg-gradient-to-br from-purple-600/50 to-pink-600/50 
-                         border-4 border-white/20 hover:border-yellow-400
-                         text-left transition-all hover:scale-[1.02] group"
-            >
-              <div className="flex items-center gap-4 mb-3">
-                <div className="p-4 rounded-2xl bg-gradient-to-br from-yellow-400 to-orange-500">
-                  <Gamepad2 className="w-8 h-8 text-white" />
+        {games.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {games.map((game, index) => (
+              <button
+                key={index}
+                onClick={() => selectGame(game)}
+                className="p-6 rounded-3xl bg-gradient-to-br from-purple-600/50 to-pink-600/50 
+                           border-4 border-white/20 hover:border-yellow-400
+                           text-left transition-all hover:scale-[1.02] group"
+              >
+                <div className="flex items-center gap-4 mb-3">
+                  <div className="p-4 rounded-2xl bg-gradient-to-br from-yellow-400 to-orange-500">
+                    <Gamepad2 className="w-8 h-8 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white">{game.title}</h4>
+                    <p className="text-lg text-purple-200">{game.tasks.length} заданий</p>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="text-xl font-bold text-white">{game.title}</h4>
-                  <p className="text-lg text-purple-200">{game.tasks.length} заданий</p>
+                <div className="flex items-center gap-2 text-yellow-400">
+                  <Star className="w-5 h-5 fill-yellow-400" />
+                  <span className="font-medium">{game.reward.stars} звёзд</span>
+                  <Play className="w-5 h-5 ml-auto group-hover:scale-110 transition-transform" />
                 </div>
-              </div>
-              <div className="flex items-center gap-2 text-yellow-400">
-                <Star className="w-5 h-5 fill-yellow-400" />
-                <span className="font-medium">{game.reward.stars} звёзд</span>
-                <Play className="w-5 h-5 ml-auto group-hover:scale-110 transition-transform" />
-              </div>
-            </button>
-          ))}
-        </div>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-12">
+            <Gamepad2 className="w-16 h-16 text-white/20 mx-auto mb-4" />
+            <p className="text-white/50 text-xl">Игры скоро появятся!</p>
+            <p className="text-white/30 text-base mt-2">Запустите тест из любого урока 📝</p>
+          </div>
+        )}
       </div>
     )
   }
@@ -579,19 +611,17 @@ export default function KidLessonViewer() {
             <ArrowLeft className="w-4 h-4 md:w-5 md:h-5" /> Назад
           </button>
           
-          {games.length > 0 && (
-            <button
-              onClick={() => setShowGames(true)}
-              className="px-4 md:px-5 py-2.5 md:py-3 text-base md:text-lg font-bold 
-                         bg-gradient-to-r from-green-500 to-teal-500 
-                         hover:from-green-400 hover:to-teal-400
-                         text-white rounded-2xl transition-all hover:scale-105 
-                         flex items-center gap-2"
-            >
-              <Gamepad2 className="w-4 h-4 md:w-5 md:h-5" />
-              Игры ({games.length})
-            </button>
-          )}
+          <button
+            onClick={() => setShowGames(true)}
+            className="px-4 md:px-5 py-2.5 md:py-3 text-base md:text-lg font-bold 
+                       bg-gradient-to-r from-green-500 to-teal-500 
+                       hover:from-green-400 hover:to-teal-400
+                       text-white rounded-2xl transition-all hover:scale-105 
+                       flex items-center gap-2"
+          >
+            <Gamepad2 className="w-4 h-4 md:w-5 md:h-5" />
+            Игры ({games.length})
+          </button>
         </div>
       </div>
 

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { useSchool } from '@/context/SchoolContext'
 import { LessonTopic, TopicSection, GameLesson } from '@/data/types'
 import {
@@ -29,9 +29,33 @@ export default function LessonViewer() {
   const [detailLesson, setDetailLesson] = useState<SelectedLesson | null>(null)
   const [isDetailOpen, setIsDetailOpen] = useState(false)
   
-  // Фильтруем игры только по текущему предмету
+  // Фильтруем готовые игры только по текущему предмету
   const allGames = contextGames || []
-  const games = allGames.filter(g => g.subject === selectedSubject?.title)
+  const preMadeGames = allGames.filter(g => g.subject === selectedSubject?.title)
+
+  // Если готовых игр нет — генерируем из уроков предмета
+  const games = useMemo(() => {
+    if (preMadeGames.length > 0) return preMadeGames
+    if (!selectedSubject?.detailedTopics) return []
+
+    const generated: GameLesson[] = []
+    let count = 0
+    for (const topic of selectedSubject.detailedTopics) {
+      const lessons = topic.subtopics
+        ? topic.subtopics.flatMap(st => st.lessons)
+        : (topic.lessons || [])
+      for (const lesson of lessons) {
+        if (count >= 10) break
+        const game = generateLessonQuiz(lesson.title, lesson.description, selectedSubject.title)
+        if (game) {
+          generated.push(game)
+          count++
+        }
+      }
+      if (count >= 10) break
+    }
+    return generated
+  }, [preMadeGames, selectedSubject])
 
   // При возврате из теста - открыть модальное окно с уроком
   useEffect(() => {
@@ -172,17 +196,15 @@ export default function LessonViewer() {
         >
           📘 Уроки
         </button>
-        {games.length > 0 && (
-          <button
-            onClick={() => setCurrentTab('games')}
-            className={`px-6 py-3 rounded-2xl font-bold text-lg transition-all whitespace-nowrap
-              ${currentTab === 'games' 
-                ? 'bg-gradient-to-r from-green-500 to-teal-500 text-white shadow-lg' 
-                : 'bg-white/10 text-white/70 hover:bg-white/20'}`}
-          >
-            🎮 Игры ({games.length})
-          </button>
-        )}
+        <button
+          onClick={() => setCurrentTab('games')}
+          className={`px-6 py-3 rounded-2xl font-bold text-lg transition-all whitespace-nowrap
+            ${currentTab === 'games' 
+              ? 'bg-gradient-to-r from-green-500 to-teal-500 text-white shadow-lg' 
+              : 'bg-white/10 text-white/70 hover:bg-white/20'}`}
+        >
+          🎮 Игры ({games.length})
+        </button>
       </div>
 
       {/* Content */}
@@ -303,33 +325,41 @@ export default function LessonViewer() {
       )}
 
       {/* Games tab */}
-      {currentTab === 'games' && games.length > 0 && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {games.map((game: GameLesson, index: number) => (
-            <button
-              key={index}
-              onClick={() => selectGameFromLesson(game)}
-              className="p-6 rounded-3xl bg-gradient-to-br from-purple-600/50 to-pink-600/50 
-                         border-2 border-white/20 hover:border-white/40
-                         text-left transition-all hover:scale-[1.02] group"
-            >
-              <div className="flex items-center gap-4 mb-3">
-                <div className="p-3 rounded-2xl bg-gradient-to-br from-yellow-400 to-orange-500">
-                  <Gamepad2 className="w-8 h-8 text-white" />
+      {currentTab === 'games' && (
+        games.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {games.map((game: GameLesson, index: number) => (
+              <button
+                key={index}
+                onClick={() => selectGameFromLesson(game)}
+                className="p-6 rounded-3xl bg-gradient-to-br from-purple-600/50 to-pink-600/50 
+                           border-2 border-white/20 hover:border-white/40
+                           text-left transition-all hover:scale-[1.02] group"
+              >
+                <div className="flex items-center gap-4 mb-3">
+                  <div className="p-3 rounded-2xl bg-gradient-to-br from-yellow-400 to-orange-500">
+                    <Gamepad2 className="w-8 h-8 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white">{game.title}</h4>
+                    <p className="text-purple-200">{game.tasks.length} заданий</p>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="text-xl font-bold text-white">{game.title}</h4>
-                  <p className="text-purple-200">{game.tasks.length} заданий</p>
+                <div className="flex items-center gap-2 text-yellow-400">
+                  <Star className="w-5 h-5 fill-yellow-400" />
+                  <span className="font-medium">{game.reward.stars} звёзд</span>
+                  <Play className="w-5 h-5 ml-auto group-hover:scale-110 transition-transform" />
                 </div>
-              </div>
-              <div className="flex items-center gap-2 text-yellow-400">
-                <Star className="w-5 h-5 fill-yellow-400" />
-                <span className="font-medium">{game.reward.stars} звёзд</span>
-                <Play className="w-5 h-5 ml-auto group-hover:scale-110 transition-transform" />
-              </div>
-            </button>
-          ))}
-        </div>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-12">
+            <Gamepad2 className="w-16 h-16 text-white/20 mx-auto mb-4" />
+            <p className="text-white/50 text-lg">Игры для этого предмета скоро появятся</p>
+            <p className="text-white/30 text-sm mt-2">Вы можете запустить тест из любого урока</p>
+          </div>
+        )
       )}
       
       {/* Модальное окно урока */}
