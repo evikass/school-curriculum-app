@@ -90,7 +90,7 @@ function Nucleus({ atomicNumber, color, symbol }: { atomicNumber: number; color:
 
   return (
     <group ref={groupRef}>
-      {/* Основное ядро - светящаяся сфера */}
+      {/* Основное ядро - полупрозрачная светящаяся сфера */}
       <Sphere args={[0.5, 32, 32]}>
         <meshStandardMaterial
           color={color}
@@ -98,15 +98,17 @@ function Nucleus({ atomicNumber, color, symbol }: { atomicNumber: number; color:
           emissiveIntensity={0.5}
           metalness={0.3}
           roughness={0.4}
+          transparent
+          opacity={0.25}
         />
       </Sphere>
       
-      {/* Внутренняя светящаяся сфера */}
-      <Sphere args={[0.52, 32, 32]}>
+      {/* Внешнее свечение ядра */}
+      <Sphere args={[0.55, 32, 32]}>
         <meshBasicMaterial
           color={color}
           transparent
-          opacity={0.3}
+          opacity={0.15}
         />
       </Sphere>
       
@@ -125,11 +127,11 @@ function Nucleus({ atomicNumber, color, symbol }: { atomicNumber: number; color:
               radius * Math.cos(phi)
             ]}
           >
-            <sphereGeometry args={[0.06, 16, 16]} />
+            <sphereGeometry args={[0.09, 16, 16]} />
             <meshStandardMaterial
               color={i % 2 === 0 ? '#ff6b6b' : '#4dabf7'}
               emissive={i % 2 === 0 ? '#ff6b6b' : '#4dabf7'}
-              emissiveIntensity={0.3}
+              emissiveIntensity={0.8}
             />
           </mesh>
         )
@@ -2499,7 +2501,7 @@ export default function PeriodicTable({ onClose }: Props) {
     <div className="relative w-full">
       {/* Close button - centered, pushed down for mobile visibility */}
       {onClose && (
-        <div className="flex justify-center mt-16 mb-4">
+        <div className="flex justify-center mt-24 mb-4">
           <button
             onClick={onClose}
             className="px-6 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors flex items-center gap-2 text-white font-medium"
