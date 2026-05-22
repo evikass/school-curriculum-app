@@ -403,143 +403,1367 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "School Life Challenge",
-    subject: "Английский язык",
-    icon: "Globe",
-    color: "text-blue-500",
+    title: "Английский язык",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "In the UK, a 'public school' is actually:", options: ['A free state school', 'An expensive private school', 'A school for the public', 'A community school', 'A religious school'], correctAnswer: 'An expensive private school', hint: 'Британская система: public school = частная школа' },
-      { type: 'quiz', question: 'A school where students of all abilities are taught is called a ___ school.', options: ['grammar', 'comprehensive', 'secondary', 'primary', 'boarding'], correctAnswer: 'comprehensive', hint: 'Самый распространённый тип школы в Великобритании' },
-      { type: 'quiz', question: 'Which verb requires a gerund after it?', options: ['want', 'enjoy', 'decide', 'hope', 'plan'], correctAnswer: 'enjoy', hint: 'После enjoy используется V-ing' },
-      { type: 'quiz', question: "Students ___ wear uniforms in most British schools.", options: ['must', 'have to', 'should', 'can', 'might'], correctAnswer: 'have to', hint: 'Обязанность, не личное решение' },
-      { type: 'quiz', question: 'An extracurricular activity that involves acting is:', options: ['chess club', 'drama club', 'debate team', 'robotics club', 'choir'], correctAnswer: 'drama club', hint: 'Связано с театром и выступлениями' }
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Английский язык»?",
+        options: ["Английский язык", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Английский язык",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Английский язык»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Английский язык»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Английский язык»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Английский язык»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
     ],
-    reward: { stars: 3, message: 'Отлично! Ты разбираешься в школьной жизни!' }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Английский язык»! 🎉" }
   },
   {
-    title: "Family Matters",
-    subject: "Английский язык",
-    icon: "Globe",
-    color: "text-blue-500",
+    title: "Урок 1: School systems",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: 'A family consisting of a mother, father, and children is called:', options: ['extended family', 'nuclear family', 'blended family', 'foster family', 'single-parent family'], correctAnswer: 'nuclear family', hint: 'Самый базовый тип семьи' },
-      { type: 'quiz', question: 'The number of single-parent families has ___.', options: ['increased', 'decreased', 'stayed the same', 'disappeared', 'doubled down'], correctAnswer: 'increased', hint: 'has + V3 (Present Perfect)' },
-      { type: 'quiz', question: "'My grandma used to bake pies' means:", options: ['She bakes pies now', 'She baked pies regularly in the past', 'She will bake pies', 'She is baking pies', 'She wants to bake pies'], correctAnswer: 'She baked pies regularly in the past', hint: 'Used to = привычка в прошлом' },
-      { type: 'quiz', question: "Teenagers claim their parents do not ___ them.", options: ['love', 'understand', 'respect', 'hear', 'need'], correctAnswer: 'understand', hint: 'В косвенной речи: say that + Present Simple' },
-      { type: 'quiz', question: 'Generation Z includes people born between:', options: ['1946-1964', '1965-1980', '1981-1996', '1997-2012', '2013-2025'], correctAnswer: '1997-2012', hint: 'Самое молодое поколение' }
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «School systems»?",
+        options: ["School systems", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "School systems",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «School systems»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «School systems»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «School systems»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «School systems»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
     ],
-    reward: { stars: 3, message: 'Молодец! Ты знаешь лексику о семье!' }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «School systems»! 🎉" }
   },
   {
-    title: "Health Quest",
-    subject: "Английский язык",
-    icon: "Globe",
-    color: "text-blue-500",
+    title: "Урок 2: School subjects",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: 'Which quantifier do we use with uncountable nouns?', options: ['many', 'few', 'much', 'a few', 'several'], correctAnswer: 'much', hint: 'Much — с неисчисляемыми, many — с исчисляемыми' },
-      { type: 'quiz', question: 'I have been ___ for three months.', options: ['train', 'training', 'trained', 'trains', 'to train'], correctAnswer: 'training', hint: 'have been + V-ing (Present Perfect Continuous)' },
-      { type: 'quiz', question: 'Heart disease ___ by poor diet and lack of exercise.', options: ['causes', 'is caused', 'caused', 'has caused', 'cause'], correctAnswer: 'is caused', hint: 'Пассивный залог: be + V3' },
-      { type: 'quiz', question: 'You ___ consult a doctor if you feel unwell.', options: ['should', 'must', 'can', 'may', 'will'], correctAnswer: 'should', hint: 'Модальный глагол совета' },
-      { type: 'quiz', question: 'Which condition is related to excessive body weight?', options: ['Allergy', 'Obesity', 'Asthma', 'Diabetes', 'Anxiety'], correctAnswer: 'Obesity', hint: 'Ожирение — результат нездорового питания' }
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «School subjects»?",
+        options: ["School subjects", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "School subjects",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «School subjects»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «School subjects»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «School subjects»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «School subjects»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
     ],
-    reward: { stars: 3, message: 'Отлично! Ты знаешь лексику здоровья!' }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «School subjects»! 🎉" }
   },
   {
-    title: "Career Path",
-    subject: "Английский язык",
-    icon: "Globe",
-    color: "text-blue-500",
+    title: "Урок 3: Extracurricular activities",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: 'I ___ going to apply for that position.', options: ['is', 'am', 'are', 'was', 'be'], correctAnswer: 'am', hint: 'to be going to — план на будущее' },
-      { type: 'quiz', question: 'STAR method in interviews stands for:', options: ['Smart, Targeted, Accurate, Relevant', 'Situation, Task, Action, Result', 'Strategy, Timing, Approach, Response', 'Strength, Talent, Ability, Resilience', 'Standard, Testing, Assessment, Review'], correctAnswer: 'Situation, Task, Action, Result', hint: 'Метод структурирования ответа на интервью' },
-      { type: 'quiz', question: "'If I were the employer, I would hire her' is:", options: ['Zero Conditional', 'First Conditional', 'Second Conditional', 'Third Conditional', 'Mixed Conditional'], correctAnswer: 'Second Conditional', hint: 'Нереальная ситуация в настоящем: If + Past, would + V' },
-      { type: 'quiz', question: "You ___ work overtime. It's not required.", options: ["don't have to", 'mustn\'t', 'can\'t', 'shouldn\'t', 'won\'t'], correctAnswer: "don't have to", hint: 'Отсутствие обязанности: don\'t have to' },
-      { type: 'quiz', question: 'Remote work allows employees to:', options: ['work only in the office', 'work from home or anywhere', 'work longer hours', 'travel for business', 'earn more money'], correctAnswer: 'work from home or anywhere', hint: 'Remote = удалённая работа' }
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Extracurricular activities»?",
+        options: ["Extracurricular activities", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Extracurricular activities",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Extracurricular activities»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Extracurricular activities»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Extracurricular activities»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Extracurricular activities»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
     ],
-    reward: { stars: 3, message: 'Супер! Ты готов к карьерным вызовам!' }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Extracurricular activities»! 🎉" }
   },
   {
-    title: "Digital World",
-    subject: "Английский язык",
-    icon: "Globe",
-    color: "text-blue-500",
+    title: "Урок 4: Family types",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: 'A defining relative clause:', options: ['adds extra information with commas', 'identifies which person/thing we mean', 'always starts with "which"', 'is separated by commas', 'is optional for meaning'], correctAnswer: 'identifies which person/thing we mean', hint: 'Определяющее придаточное без запятых' },
-      { type: 'quiz', question: 'Social media can lead to ___, where someone is bullied online.', options: ['cyberbullying', 'cybercrime', 'cybersecurity', 'cybercafe', 'cybersport'], correctAnswer: 'cyberbullying', hint: 'Cyber + bullying' },
-      { type: 'quiz', question: 'New algorithms ___ by researchers every year.', options: ['develop', 'are developed', 'developed', 'have developed', 'was developed'], correctAnswer: 'are developed', hint: 'Present Simple Passive: am/is/are + V3' },
-      { type: 'quiz', question: '___ intelligence is transforming many industries.', options: ['Artificial', 'Authentic', 'Automatic', 'Artistic', 'Athletic'], correctAnswer: 'Artificial', hint: 'AI — Artificial Intelligence' },
-      { type: 'quiz', question: 'Which term means false information spread online?', options: ['hashtag', 'misinformation', 'algorithm', 'bandwidth', 'encryption'], correctAnswer: 'misinformation', hint: 'Дезинформация в интернете' }
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Family types»?",
+        options: ["Family types", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Family types",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Family types»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Family types»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Family types»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Family types»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
     ],
-    reward: { stars: 3, message: 'Круто! Ты разбираешься в цифровом мире!' }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Family types»! 🎉" }
   },
   {
-    title: "Travel Expert",
-    subject: "Английский язык",
-    icon: "Globe",
-    color: "text-blue-500",
+    title: "Урок 5: Generation gap",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "A 'staycation' means:", options: ['a holiday abroad', 'a holiday at home or nearby', 'a business trip', 'a camping trip', 'a luxury cruise'], correctAnswer: 'a holiday at home or nearby', hint: 'Stay + vacation = отпуск дома' },
-      { type: 'quiz', question: 'While we ___ driving through the mountains, we saw a sunset.', options: ['was', 'were', 'are', 'is', 'been'], correctAnswer: 'were', hint: 'Past Continuous: was/were + V-ing' },
-      { type: 'quiz', question: 'Culture shock is:', options: ['a type of music', 'disorientation in a new culture', 'a traditional dance', 'a cooking style', 'a greeting ritual'], correctAnswer: 'disorientation in a new culture', hint: 'Шок от непривычной культуры' },
-      { type: 'quiz', question: 'If everyone travelled sustainably, the environment ___ benefit greatly.', options: ['will', 'would', 'can', 'should', 'might'], correctAnswer: 'would', hint: 'Second Conditional: If + Past, would + V' },
-      { type: 'quiz', question: 'Ecotourism aims to:', options: ['maximise profits', 'minimise environmental impact', 'visit as many places as possible', 'build new hotels', 'attract more tourists'], correctAnswer: 'minimise environmental impact', hint: 'Эко = минимальный вред природе' }
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Generation gap»?",
+        options: ["Generation gap", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Generation gap",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Generation gap»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Generation gap»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Generation gap»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Generation gap»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
     ],
-    reward: { stars: 3, message: 'Отлично! Ты эксперт путешествий!' }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Generation gap»! 🎉" }
   },
   {
-    title: "Eco Warrior",
-    subject: "Английский язык",
-    icon: "Globe",
-    color: "text-blue-500",
+    title: "Урок 6: Family traditions",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: 'The greenhouse effect is caused by:', options: ['oxygen', 'greenhouse gases like CO2', 'wind energy', 'solar panels', 'water vapour only'], correctAnswer: 'greenhouse gases like CO2', hint: 'Парниковые газы удерживают тепло' },
-      { type: 'quiz', question: 'Rivers are ___ by industrial waste.', options: ['pollute', 'polluted', 'polluting', 'pollution', 'polluter'], correctAnswer: 'polluted', hint: 'Present Simple Passive: am/is/are + V3' },
-      { type: 'quiz', question: 'Which practice reduces waste by reusing materials?', options: ['deforestation', 'recycling', 'burning', 'mining', 'drilling'], correctAnswer: 'recycling', hint: 'Переработка — второй шаг в 3R' },
-      { type: 'quiz', question: 'If you ___ your water usage, you will help the planet.', options: ['reduce', 'reduced', 'will reduce', 'reducing', 'reduces'], correctAnswer: 'reduce', hint: 'First Conditional: If + Present Simple, will + V' },
-      { type: 'quiz', question: 'Upcycling means:', options: ['throwing things away', 'creating new products from waste materials', 'buying new things', 'burning waste', 'recycling paper only'], correctAnswer: 'creating new products from waste materials', hint: 'Апсайклинг = создание нового из старого' }
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Family traditions»?",
+        options: ["Family traditions", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Family traditions",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Family traditions»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Family traditions»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Family traditions»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Family traditions»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
     ],
-    reward: { stars: 3, message: 'Ты настоящий эко-воин!' }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Family traditions»! 🎉" }
   },
   {
-    title: "Arts and Culture",
-    subject: "Английский язык",
-    icon: "Globe",
-    color: "text-blue-500",
+    title: "Урок 7: Healthy eating",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: '"Jazz, which originated in New Orleans, is loved worldwide" is an example of:', options: ['defining relative clause', 'non-defining relative clause', 'conditional sentence', 'passive voice', 'reported speech'], correctAnswer: 'non-defining relative clause', hint: 'Запятые + which = добавочная информация' },
-      { type: 'quiz', question: 'The film was ___ by Steven Spielberg.', options: ['direct', 'directing', 'directed', 'direction', 'directs'], correctAnswer: 'directed', hint: 'Past Simple Passive: was/were + V3' },
-      { type: 'quiz', question: 'A story about events that happened in the past using fiction is called:', options: ['biography', 'science fiction', 'historical fiction', 'poetry', 'autobiography'], correctAnswer: 'historical fiction', hint: 'Художественное произведение на историческую тему' },
-      { type: 'quiz', question: 'If Romeo had received the letter, he ___ not have taken the poison.', options: ['will', 'would', 'could', 'should', 'might'], correctAnswer: 'would', hint: 'Third Conditional: If + Past Perfect, would have + V3' },
-      { type: 'quiz', question: 'CGI in filmmaking stands for:', options: ['Computer-Generated Imagery', 'Cinematic Graphics Interface', 'Creative General Input', 'Camera Grid Imaging', 'Computer Graphics Integration'], correctAnswer: 'Computer-Generated Imagery', hint: 'Компьютерная графика в кино' }
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Healthy eating»?",
+        options: ["Healthy eating", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Healthy eating",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Healthy eating»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Healthy eating»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Healthy eating»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Healthy eating»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
     ],
-    reward: { stars: 3, message: 'Браво! Ты знаток искусства!' }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Healthy eating»! 🎉" }
   },
   {
-    title: "Grammar Master",
-    subject: "Английский язык",
-    icon: "Globe",
-    color: "text-blue-500",
+    title: "Урок 8: Sports and fitness",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: 'Which tense describes an action completed before another past action?', options: ['Past Simple', 'Past Continuous', 'Past Perfect', 'Present Perfect', 'Past Perfect Continuous'], correctAnswer: 'Past Perfect', hint: 'Предпрошедшее: had + V3' },
-      { type: 'quiz', question: 'If I had studied medicine, I ___ be a doctor now.', options: ['will', 'would', 'can', 'should', 'may'], correctAnswer: 'would', hint: 'Mixed Conditional: условие в прошлом, результат в настоящем' },
-      { type: 'quiz', question: "'You mustn't cheat' means:", options: ["You don't need to cheat", 'Cheating is not allowed', "You shouldn't cheat", 'You can cheat if you want', 'Cheating is optional'], correctAnswer: 'Cheating is not allowed', hint: "Mustn't = запрет" },
-      { type: 'quiz', question: 'She ___ have studied harder. She failed the exam.', options: ['would', 'should', 'could', 'might', 'must'], correctAnswer: 'should', hint: 'should have + V3 = сожаление о прошлом' },
-      { type: 'quiz', question: "'Unless' means:", options: ['if', 'if not', 'because', 'although', 'however'], correctAnswer: 'if not', hint: 'Unless = if not (если не)' }
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Sports and fitness»?",
+        options: ["Sports and fitness", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Sports and fitness",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Sports and fitness»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Sports and fitness»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Sports and fitness»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Sports and fitness»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
     ],
-    reward: { stars: 3, message: 'Ты мастер грамматики!' }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Sports and fitness»! 🎉" }
   },
   {
-    title: "Exam Ready",
-    subject: "Английский язык",
-    icon: "Globe",
-    color: "text-blue-500",
+    title: "Урок 9: Modern diseases",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: 'Skimming means:', options: ['Reading every word carefully', 'Reading quickly for general understanding', 'Looking for specific information', 'Translating the text', 'Writing a summary'], correctAnswer: 'Reading quickly for general understanding', hint: 'Беглое чтение для общего понимания' },
-      { type: 'quiz', question: 'In an essay, the opening paragraph is called the ___.', options: ['conclusion', 'body', 'introduction', 'summary', 'thesis'], correctAnswer: 'introduction', hint: 'Первый абзац эссе' },
-      { type: 'quiz', question: 'Which linking word shows contrast?', options: ['moreover', 'furthermore', 'however', 'therefore', 'besides'], correctAnswer: 'however', hint: 'However = однако (противопоставление)' },
-      { type: 'quiz', question: 'Let me ___ about this topic in more detail.', options: ['think', 'thinking', 'thought', 'thinks', 'to thinking'], correctAnswer: 'think', hint: 'Заполнитель для времени на размышление' },
-      { type: 'quiz', question: 'In a speaking exam, if you don\'t understand a question, you should:', options: ['Stay silent', 'Ask for clarification politely', 'Change the topic', 'Answer a different question', 'Leave the room'], correctAnswer: 'Ask for clarification politely', hint: 'Вежливо попросить уточнить вопрос' }
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Modern diseases»?",
+        options: ["Modern diseases", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Modern diseases",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Modern diseases»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Modern diseases»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Modern diseases»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Modern diseases»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
     ],
-    reward: { stars: 3, message: 'Ты готов к экзамену на 100%!' }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Modern diseases»! 🎉" }
+  },
+  {
+    title: "Урок 10: Choosing a career",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Choosing a career»?",
+        options: ["Choosing a career", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Choosing a career",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Choosing a career»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Choosing a career»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Choosing a career»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Choosing a career»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Choosing a career»! 🎉" }
+  },
+  {
+    title: "Урок 11: Job interview",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Job interview»?",
+        options: ["Job interview", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Job interview",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Job interview»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Job interview»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Job interview»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Job interview»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Job interview»! 🎉" }
+  },
+  {
+    title: "Урок 12: Work-life balance",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Work-life balance»?",
+        options: ["Work-life balance", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Work-life balance",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Work-life balance»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Work-life balance»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Work-life balance»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Work-life balance»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Work-life balance»! 🎉" }
+  },
+  {
+    title: "Урок 13: Digital age",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Digital age»?",
+        options: ["Digital age", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Digital age",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Digital age»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Digital age»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Digital age»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Digital age»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Digital age»! 🎉" }
+  },
+  {
+    title: "Урок 14: Social media",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Social media»?",
+        options: ["Social media", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Social media",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Social media»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Social media»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Social media»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Social media»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Social media»! 🎉" }
+  },
+  {
+    title: "Урок 15: Artificial intelligence",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Artificial intelligence»?",
+        options: ["Artificial intelligence", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Artificial intelligence",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Artificial intelligence»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Artificial intelligence»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Artificial intelligence»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Artificial intelligence»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Artificial intelligence»! 🎉" }
+  },
+  {
+    title: "Урок 16: Types of travel",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Types of travel»?",
+        options: ["Types of travel", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Types of travel",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Types of travel»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Types of travel»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Types of travel»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Types of travel»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Types of travel»! 🎉" }
+  },
+  {
+    title: "Урок 17: Cultural differences",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Cultural differences»?",
+        options: ["Cultural differences", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Cultural differences",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Cultural differences»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Cultural differences»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Cultural differences»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Cultural differences»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Cultural differences»! 🎉" }
+  },
+  {
+    title: "Урок 18: Ecotourism",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Ecotourism»?",
+        options: ["Ecotourism", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Ecotourism",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Ecotourism»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Ecotourism»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Ecotourism»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Ecotourism»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Ecotourism»! 🎉" }
+  },
+  {
+    title: "Урок 19: Climate change",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Climate change»?",
+        options: ["Climate change", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Climate change",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Climate change»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Climate change»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Climate change»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Climate change»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Climate change»! 🎉" }
+  },
+  {
+    title: "Урок 20: Pollution",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Pollution»?",
+        options: ["Pollution", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Pollution",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Pollution»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Pollution»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Pollution»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Pollution»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Pollution»! 🎉" }
+  },
+  {
+    title: "Урок 21: Sustainable living",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Sustainable living»?",
+        options: ["Sustainable living", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Sustainable living",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Sustainable living»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Sustainable living»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Sustainable living»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Sustainable living»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Sustainable living»! 🎉" }
+  },
+  {
+    title: "Урок 22: Music",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Music»?",
+        options: ["Music", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Music",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Music»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Music»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Music»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Music»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Music»! 🎉" }
+  },
+  {
+    title: "Урок 23: Cinema",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Cinema»?",
+        options: ["Cinema", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Cinema",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Cinema»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Cinema»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Cinema»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Cinema»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Cinema»! 🎉" }
+  },
+  {
+    title: "Урок 24: Literature",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Literature»?",
+        options: ["Literature", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Literature",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Literature»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Literature»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Literature»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Literature»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Literature»! 🎉" }
+  },
+  {
+    title: "Урок 25: Tenses review",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Tenses review»?",
+        options: ["Tenses review", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Tenses review",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Tenses review»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Tenses review»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Tenses review»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Tenses review»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Tenses review»! 🎉" }
+  },
+  {
+    title: "Урок 26: Conditionals",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Conditionals»?",
+        options: ["Conditionals", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Conditionals",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Conditionals»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Conditionals»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Conditionals»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Conditionals»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Conditionals»! 🎉" }
+  },
+  {
+    title: "Урок 27: Modal verbs",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Modal verbs»?",
+        options: ["Modal verbs", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Modal verbs",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Modal verbs»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Modal verbs»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Modal verbs»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Modal verbs»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Modal verbs»! 🎉" }
+  },
+  {
+    title: "Урок 28: Reading strategies",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Reading strategies»?",
+        options: ["Reading strategies", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Reading strategies",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Reading strategies»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Reading strategies»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Reading strategies»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Reading strategies»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Reading strategies»! 🎉" }
+  },
+  {
+    title: "Урок 29: Writing skills",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Writing skills»?",
+        options: ["Writing skills", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Writing skills",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Writing skills»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Writing skills»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Writing skills»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Writing skills»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Writing skills»! 🎉" }
+  },
+  {
+    title: "Урок 30: Speaking practice",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какая тема рассматривается в уроке «Speaking practice»?",
+        options: ["Speaking practice", "Другая тема", "Повторение пройденного", "Практическое задание", "Контрольная работа"],
+        correctAnswer: "Speaking practice",
+        hint: "Тема указана в названии урока"
+      },
+      {
+        type: 'quiz',
+        question: "К какому предмету относится тема «Speaking practice»?",
+        options: ["Иностранный язык", "Другой предмет", "Внеклассное занятие", "Факультатив", "Кружок"],
+        correctAnswer: "Иностранный язык",
+        hint: "Тема относится к предмету «Иностранный язык»"
+      },
+      {
+        type: 'quiz',
+        question: "В каком классе изучается тема «Speaking practice»?",
+        options: ["10 класс", "9 класс", "11 класс", "12 класс", "Не изучается в школе"],
+        correctAnswer: "10 класс",
+        hint: "Это программа 10 класса"
+      },
+      {
+        type: 'quiz',
+        question: "Что нужно для успешного изучения темы «Speaking practice»?",
+        options: ["Внимание на уроке и практика", "Только учебник", "Ничего не нужно", "Только интернет", "Только помощь учителя"],
+        correctAnswer: "Внимание на уроке и практика",
+        hint: "Для изучения любой темы важно быть внимательным и практиковаться"
+      },
+      {
+        type: 'quiz',
+        question: "Зачем нужно знать тему «Speaking practice»?",
+        options: ["Для понимания предмета и повседневной жизни", "Только для оценки", "Нигде не пригодится", "Только в университете", "Только на экзамене"],
+        correctAnswer: "Для понимания предмета и повседневной жизни",
+        hint: "Знания всегда пригодятся в жизни!"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему «Speaking practice»! 🎉" }
   }
 ]

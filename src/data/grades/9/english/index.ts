@@ -243,87 +243,531 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Путешествия",
+    title: "Виды путешествий",
     subject: "Иностранный язык",
-    icon: "Plane",
+    icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What is 'accommodation'?", options: ["Place to stay", "Type of food", "Transport", "Currency"], correctAnswer: "Place to stay", hint: "Hotel, hostel, etc." },
-      { type: 'fill', question: "I'd like a window ___. (место у окна)", correctAnswer: "seat", hint: "On a plane" },
-      { type: 'quiz', question: "'Departure' means:", options: ["Leaving", "Arriving", "Staying", "Booking"], correctAnswer: "Leaving", hint: "Opposite of arrival" },
-      { type: 'fill', question: "My flight was ___ for two hours. (задержан)", correctAnswer: "delayed", hint: "Not on time" },
-      { type: 'quiz', question: "Where do you pick up your luggage?", options: ["Baggage claim", "Check-in", "Gate", "Customs"], correctAnswer: "Baggage claim", hint: "After arrival" }
+      {
+        type: 'quiz',
+        question: "Что такое Present Perfect для описания опыта путешествий:?",
+        options: ["Специальный метод вычисления", "Это понятие из другого раздела", "Понятие, обратное данному", "Вспомогательный термин", "I have visited Paris. (Я посетил Париж.)"],
+        correctAnswer: "I have visited Paris. (Я посетил Париж.)",
+        hint: "Вспомни определение из урока про Present Perfect для описания опыта путешествий:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Travel vocabulary:»",
+        options: ["Связанный термин", "Дополнительный элемент", "Другой термин", "Вспомогательное понятие", "Travel vocabulary:"],
+        correctAnswer: "Travel vocabulary:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Изучение лексики по теме путешествия: авиаперелёты, железнодорожные поездки, круизы, автотуризм.",
+        options: ["Частично верно", "Да, верно", "Нет, неверно", "Зависит от контекста", "Только в некоторых случаях"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: чения), accommodation (размещение), itinerary (маршрут), sightseeing (осмотр достопримечательностей).",
+        options: ["Частично верно", "Да, верно", "Нет, неверно", "Только в некоторых случаях", "Зависит от контекста"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Present Perfect для описания опыта путешествий: - I have visited Paris.",
+        options: ["Да, верно", "Нет, неверно", "Зависит от контекста", "Частично верно", "Только в некоторых случаях"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
     ],
-    reward: { stars: 3, message: "Отлично! Ты готов к путешествию!" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Профессии",
+    title: "В аэропорту",
     subject: "Иностранный язык",
-    icon: "Briefcase",
+    icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "A ___ treats patients in a hospital. (врач)", correctAnswer: "doctor", hint: "Medical professional" },
-      { type: 'quiz', question: "Who prepares financial reports?", options: ["Accountant", "Doctor", "Teacher", "Driver"], correctAnswer: "Accountant", hint: "Works with numbers" },
-      { type: 'fill', question: "I work as a software ___ at Google. (разработчик)", correctAnswer: "developer", hint: "Creates programs" },
-      { type: 'quiz', question: "A lawyer works in:", options: ["Law firm", "Hospital", "School", "Restaurant"], correctAnswer: "Law firm", hint: "Legal services" },
-      { type: 'fill', question: "She has been ___ for ten years. (работать)", correctAnswer: "working", hint: "Present perfect continuous" }
+      {
+        type: 'quiz',
+        question: "Что такое Useful phrases:?",
+        options: ["Вспомогательный термин", "Понятие, обратное данному", "Where is the check-in counter? (Где стойка регистрации?)", "Это понятие из другого раздела", "Специальный метод вычисления"],
+        correctAnswer: "Where is the check-in counter? (Где стойка регистрации?)",
+        hint: "Вспомни определение из урока про Useful phrases:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Airport vocabulary:»",
+        options: ["Airport vocabulary:", "Вспомогательное понятие", "Дополнительный элемент", "Связанный термин", "Другой термин"],
+        correctAnswer: "Airport vocabulary:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Useful phrases:»",
+        options: ["Связанный термин", "Дополнительный элемент", "Другой термин", "Вспомогательное понятие", "Useful phrases:"],
+        correctAnswer: "Useful phrases:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Лексика для ориентирования в аэропорту: регистрация, паспортный контроль, таможня, посадка.",
+        options: ["Зависит от контекста", "Только в некоторых случаях", "Нет, неверно", "Частично верно", "Да, верно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: re lounge (зал вылета), gate (выход на посадку), customs (таможня), baggage claim (получение багажа).",
+        options: ["Да, верно", "Частично верно", "Только в некоторых случаях", "Нет, неверно", "Зависит от контекста"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
     ],
-    reward: { stars: 3, message: "Ты хорошо знаешь названия профессий!" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Экология",
+    title: "В гостинице",
     subject: "Иностранный язык",
-    icon: "Leaf",
+    icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What causes global warming?", options: ["Greenhouse gases", "Recycling", "Wind energy", "Solar panels"], correctAnswer: "Greenhouse gases", hint: "Carbon dioxide, methane" },
-      { type: 'fill', question: "We need to ___ plastic waste. (перерабатывать)", correctAnswer: "recycle", hint: "Process for reuse" },
-      { type: 'quiz', question: "Which animal is endangered?", options: ["Panda", "Cat", "Dog", "Rabbit"], correctAnswer: "Panda", hint: "Risk of extinction" },
-      { type: 'fill', question: "___ is the clearing of forests. (вырубка лесов)", correctAnswer: "Deforestation", hint: "Cutting down trees" },
-      { type: 'quiz', question: "Solar and wind are ___ energy sources.", options: ["Renewable", "Fossil", "Nuclear", "Electric"], correctAnswer: "Renewable", hint: "Can be replenished" }
+      {
+        type: 'quiz',
+        question: "Что такое Making a reservation:?",
+        options: ["Это понятие из другого раздела", "Специальный метод вычисления", "Понятие, обратное данному", "Вспомогательный термин", "I'd like to book a room for two nights. (Я хотел бы забронировать номер на две н..."],
+        correctAnswer: "I'd like to book a room for two nights. (Я хотел бы забронировать номер на две н...",
+        hint: "Вспомни определение из урока про Making a reservation:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Hotel vocabulary:»",
+        options: ["Другой термин", "Hotel vocabulary:", "Дополнительный элемент", "Связанный термин", "Вспомогательное понятие"],
+        correctAnswer: "Hotel vocabulary:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Making a reservation:»",
+        options: ["Связанный термин", "Making a reservation:", "Вспомогательное понятие", "Дополнительный элемент", "Другой термин"],
+        correctAnswer: "Making a reservation:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Бронирование номера, регистрация заезда и выезда, решение проблем в отеле.",
+        options: ["Нет, неверно", "Зависит от контекста", "Только в некоторых случаях", "Да, верно", "Частично верно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: om service (обслуживание номеров), amenities (удобства), deposit (залог), complimentary (бесплатный).",
+        options: ["Частично верно", "Нет, неверно", "Только в некоторых случаях", "Зависит от контекста", "Да, верно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
     ],
-    reward: { stars: 3, message: "Ты понимаешь экологические проблемы!" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "СМИ и технологии",
+    title: "Мир профессий",
     subject: "Иностранный язык",
-    icon: "Monitor",
+    icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "The ___ of the article caught my attention. (заголовок)", correctAnswer: "headline", hint: "Title of a news piece" },
-      { type: 'quiz', question: "AI stands for:", options: ["Artificial Intelligence", "Automated Internet", "Advanced Innovation", "Audio Interface"], correctAnswer: "Artificial Intelligence", hint: "Smart machines" },
-      { type: 'fill', question: "Don't forget to create a ___ of your files. (резервная копия)", correctAnswer: "backup", hint: "Extra copy" },
-      { type: 'quiz', question: "Which is a social media platform?", options: ["Instagram", "Microsoft Word", "Google Chrome", "Netflix"], correctAnswer: "Instagram", hint: "Photo and video sharing" },
-      { type: 'fill', question: "Virtual ___ creates computer-generated environments. (реальность)", correctAnswer: "reality", hint: "VR technology" }
+      {
+        type: 'quiz',
+        question: "Что такое Modal verbs for job requirements:?",
+        options: ["You must have a medical degree to become a doctor. (Вы должны иметь медицинскую ...", "Понятие, обратное данному", "Специальный метод вычисления", "Это понятие из другого раздела", "Вспомогательный термин"],
+        correctAnswer: "You must have a medical degree to become a doctor. (Вы должны иметь медицинскую ...",
+        hint: "Вспомни определение из урока про Modal verbs for job requirements:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Professions:»",
+        options: ["Связанный термин", "Другой термин", "Вспомогательное понятие", "Professions:", "Дополнительный элемент"],
+        correctAnswer: "Professions:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Изучение названий профессий, описание обязанностей и требований.",
+        options: ["Да, верно", "Только в некоторых случаях", "Зависит от контекста", "Нет, неверно", "Частично верно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Модальные глаголы для описания профессиональных требований.",
+        options: ["Зависит от контекста", "Нет, неверно", "Да, верно", "Только в некоторых случаях", "Частично верно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: ant (бухгалтер), software developer (разработчик ПО), journalist (журналист), architect (архитектор).",
+        options: ["Частично верно", "Только в некоторых случаях", "Зависит от контекста", "Да, верно", "Нет, неверно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
     ],
-    reward: { stars: 3, message: "Отличное знание современной лексики!" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Грамматика",
+    title: "Поиск работы",
     subject: "Иностранный язык",
-    icon: "BookOpen",
+    icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "I have ___ been to Paris. (никогда)", correctAnswer: "never", hint: "Negative experience" },
-      { type: 'quiz', question: "Choose the correct form: She ___ here for five years.", options: ["has worked", "have worked", "worked", "working"], correctAnswer: "has worked", hint: "Present perfect" },
-      { type: 'fill', question: "You ___ wear a seatbelt in a car. (должен)", correctAnswer: "must", hint: "Obligation" },
-      { type: 'quiz', question: "I look forward to ___ from you.", options: ["hearing", "hear", "heard", "hears"], correctAnswer: "hearing", hint: "After 'look forward to' use -ing" },
-      { type: 'fill', question: "The report was ___ yesterday. (написан)", correctAnswer: "written", hint: "Passive voice" }
+      {
+        type: 'quiz',
+        question: "Что такое Interview phrases:?",
+        options: ["Специальный метод вычисления", "Вспомогательный термин", "Это понятие из другого раздела", "Понятие, обратное данному", "Tell me about yourself. (Расскажите о себе.)"],
+        correctAnswer: "Tell me about yourself. (Расскажите о себе.)",
+        hint: "Вспомни определение из урока про Interview phrases:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Job search vocabulary:»",
+        options: ["Вспомогательное понятие", "Связанный термин", "Дополнительный элемент", "Job search vocabulary:", "Другой термин"],
+        correctAnswer: "Job search vocabulary:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Interview phrases:»",
+        options: ["Вспомогательное понятие", "Другой термин", "Interview phrases:", "Связанный термин", "Дополнительный элемент"],
+        correctAnswer: "Interview phrases:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Написание резюме, сопроводительного письма, подготовка к собеседованию.",
+        options: ["Частично верно", "Только в некоторых случаях", "Нет, неверно", "Да, верно", "Зависит от контекста"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: ew (собеседование), vacancy (вакансия), applicant (соискатель), salary (зарплата), benefits (льготы).",
+        options: ["Да, верно", "Зависит от контекста", "Частично верно", "Только в некоторых случаях", "Нет, неверно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
     ],
-    reward: { stars: 3, message: "Ты отлично владеешь грамматикой!" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Деловой английский",
+    title: "Деловое общение",
     subject: "Иностранный язык",
-    icon: "FileText",
+    icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'fill', question: "I'm writing to apply for the ___ of manager. (должность)", correctAnswer: "position", hint: "Job role" },
-      { type: 'quiz', question: "What is a 'deadline'?", options: ["Final date", "Starting time", "Meeting", "Contract"], correctAnswer: "Final date", hint: "Time limit" },
-      { type: 'fill', question: "Please find my CV ___ to this email. (приложенным)", correctAnswer: "attached", hint: "Included in email" },
-      { type: 'quiz', question: "A formal way to end a business email:", options: ["Best regards", "See ya", "Later", "Bye-bye"], correctAnswer: "Best regards", hint: "Professional closing" },
-      { type: 'fill', question: "We need to schedule a ___. (встречу)", correctAnswer: "meeting", hint: "Business gathering" }
+      {
+        type: 'quiz',
+        question: "Что такое Email phrases:?",
+        options: ["I am writing to inquire about... (Я пишу, чтобы узнать о...)", "Вспомогательный термин", "Специальный метод вычисления", "Понятие, обратное данному", "Это понятие из другого раздела"],
+        correctAnswer: "I am writing to inquire about... (Я пишу, чтобы узнать о...)",
+        hint: "Вспомни определение из урока про Email phrases:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Business vocabulary:»",
+        options: ["Вспомогательное понятие", "Другой термин", "Дополнительный элемент", "Business vocabulary:", "Связанный термин"],
+        correctAnswer: "Business vocabulary:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Email phrases:»",
+        options: ["Другой термин", "Дополнительный элемент", "Вспомогательное понятие", "Email phrases:", "Связанный термин"],
+        correctAnswer: "Email phrases:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Деловая переписка, телефонные разговоры, презентации.",
+        options: ["Да, верно", "Зависит от контекста", "Нет, неверно", "Частично верно", "Только в некоторых случаях"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Профессиональный этикет.",
+        options: ["Нет, неверно", "Только в некоторых случаях", "Частично верно", "Да, верно", "Зависит от контекста"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
     ],
-    reward: { stars: 3, message: "Ты готов к деловому общению!" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Экологические проблемы",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Causes and effects:?",
+        options: ["Это понятие из другого раздела", "Специальный метод вычисления", "Понятие, обратное данному", "Pollution causes health problems. (Загрязнение вызывает проблемы со здоровьем.)", "Вспомогательный термин"],
+        correctAnswer: "Pollution causes health problems. (Загрязнение вызывает проблемы со здоровьем.)",
+        hint: "Вспомни определение из урока про Causes and effects:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Environmental problems:»",
+        options: ["Вспомогательное понятие", "Другой термин", "Связанный термин", "Environmental problems:", "Дополнительный элемент"],
+        correctAnswer: "Environmental problems:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Causes and effects:»",
+        options: ["Causes and effects:", "Дополнительный элемент", "Связанный термин", "Другой термин", "Вспомогательное понятие"],
+        correctAnswer: "Causes and effects:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Изучение лексики по теме экологии: загрязнение, изменение климата, исчезновение видов.",
+        options: ["Да, верно", "Частично верно", "Нет, неверно", "Только в некоторых случаях", "Зависит от контекста"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: warming (глобальное потепление), deforestation (вырубка лесов), endangered species (исчезающие виды).",
+        options: ["Частично верно", "Зависит от контекста", "Да, верно", "Нет, неверно", "Только в некоторых случаях"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Защита окружающей среды",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Actions:?",
+        options: ["We should reduce, reuse, and recycle. (Мы должны сокращать, повторно использоват...", "Понятие, обратное данному", "Специальный метод вычисления", "Вспомогательный термин", "Это понятие из другого раздела"],
+        correctAnswer: "We should reduce, reuse, and recycle. (Мы должны сокращать, повторно использоват...",
+        hint: "Вспомни определение из урока про Actions:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Environmental protection:»",
+        options: ["Environmental protection:", "Связанный термин", "Вспомогательное понятие", "Другой термин", "Дополнительный элемент"],
+        correctAnswer: "Environmental protection:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Actions:»",
+        options: ["Другой термин", "Связанный термин", "Дополнительный элемент", "Actions:", "Вспомогательное понятие"],
+        correctAnswer: "Actions:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Способы защиты природы: переработка, энергосбережение, устойчивое развитие.",
+        options: ["Только в некоторых случаях", "Зависит от контекста", "Частично верно", "Нет, неверно", "Да, верно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: sustainable development (устойчивое развитие), conservation (сохранение), eco-friendly (экологичный).",
+        options: ["Частично верно", "Зависит от контекста", "Только в некоторых случаях", "Да, верно", "Нет, неверно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Типы СМИ",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Media types:»",
+        options: ["Media types:", "Вспомогательное понятие", "Другой термин", "Связанный термин", "Дополнительный элемент"],
+        correctAnswer: "Media types:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Media vocabulary:»",
+        options: ["Media vocabulary:", "Вспомогательное понятие", "Связанный термин", "Дополнительный элемент", "Другой термин"],
+        correctAnswer: "Media vocabulary:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Изучение типов средств массовой информации: печать, радио, телевидение, интернет-медиа.",
+        options: ["Да, верно", "Зависит от контекста", "Частично верно", "Только в некоторых случаях", "Нет, неверно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: elevision (телевидение), radio (радио), online news (онлайн-новости), social media (социальные сети).",
+        options: ["Нет, неверно", "Только в некоторых случаях", "Зависит от контекста", "Частично верно", "Да, верно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: tor (редактор), headline (заголовок), article (статья), broadcast (трансляция), coverage (освещение).",
+        options: ["Нет, неверно", "Да, верно", "Частично верно", "Только в некоторых случаях", "Зависит от контекста"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Социальные сети",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Social media vocabulary:»",
+        options: ["Другой термин", "Вспомогательное понятие", "Social media vocabulary:", "Связанный термин", "Дополнительный элемент"],
+        correctAnswer: "Social media vocabulary:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Advantages:»",
+        options: ["Вспомогательное понятие", "Advantages:", "Дополнительный элемент", "Другой термин", "Связанный термин"],
+        correctAnswer: "Advantages:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Disadvantages:»",
+        options: ["Disadvantages:", "Связанный термин", "Дополнительный элемент", "Вспомогательное понятие", "Другой термин"],
+        correctAnswer: "Disadvantages:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Влияние социальных сетей на общество, преимущества и недостатки.",
+        options: ["Да, верно", "Частично верно", "Нет, неверно", "Зависит от контекста", "Только в некоторых случаях"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Безопасность в интернете.",
+        options: ["Частично верно", "Да, верно", "Только в некоторых случаях", "Нет, неверно", "Зависит от контекста"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Технологии будущего",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Technology vocabulary:»",
+        options: ["Дополнительный элемент", "Technology vocabulary:", "Другой термин", "Вспомогательное понятие", "Связанный термин"],
+        correctAnswer: "Technology vocabulary:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Future technologies:»",
+        options: ["Другой термин", "Связанный термин", "Future technologies:", "Дополнительный элемент", "Вспомогательное понятие"],
+        correctAnswer: "Future technologies:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Изучение лексики по теме технологий: искусственный интеллект, роботы, виртуальная реальность.",
+        options: ["Частично верно", "Да, верно", "Нет, неверно", "Зависит от контекста", "Только в некоторых случаях"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: хника), virtual reality (виртуальная реальность), automation (автоматизация), innovation (инновация).",
+        options: ["Да, верно", "Нет, неверно", "Частично верно", "Только в некоторых случаях", "Зависит от контекста"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: smart homes (умные дома), medical robots (медицинские роботы), space exploration (освоение космоса).",
+        options: ["Зависит от контекста", "Только в некоторых случаях", "Частично верно", "Да, верно", "Нет, неверно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Цифровая грамотность",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Online safety tips:?",
+        options: ["Вспомогательный термин", "Понятие, обратное данному", "Специальный метод вычисления", "Это понятие из другого раздела", "Use strong passwords. (Используйте надёжные пароли.)"],
+        correctAnswer: "Use strong passwords. (Используйте надёжные пароли.)",
+        hint: "Вспомни определение из урока про Online safety tips:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Digital literacy vocabulary:»",
+        options: ["Вспомогательное понятие", "Связанный термин", "Digital literacy vocabulary:", "Дополнительный элемент", "Другой термин"],
+        correctAnswer: "Digital literacy vocabulary:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Online safety tips:»",
+        options: ["Связанный термин", "Дополнительный элемент", "Другой термин", "Online safety tips:", "Вспомогательное понятие"],
+        correctAnswer: "Online safety tips:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Безопасное использование технологий, защита личных данных, критическое мышление в цифровую эпоху.",
+        options: ["Нет, неверно", "Зависит от контекста", "Частично верно", "Только в некоторых случаях", "Да, верно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: оль), encryption (шифрование), phishing (фишинг), malware (вредоносное ПО), backup (резервная копия).",
+        options: ["Да, верно", "Зависит от контекста", "Нет, неверно", "Только в некоторых случаях", "Частично верно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   }
 ]

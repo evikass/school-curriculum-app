@@ -329,29 +329,267 @@ Love,
 
 export const games: GameLesson[] = [
   {
-    title: "Daily Life",
-    subject: "English",
+    title: "Daily Routines and Habits",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What time do you ___ get up?", options: ["usually", "ever", "never", "always"], correctAnswer: "usually", hint: "Frequency adverb" },
-      { type: 'quiz', question: "She ___ has breakfast at 8 am.", options: ["have to", "has to", "must to", "should to"], correctAnswer: "has to", hint: "Obligation for he/she/it" },
-      { type: 'find', question: "Select household chores:", options: ["Do homework", "Do the washing-up", "Watch TV", "Make the bed", "Play games"], correctAnswer: ["Do the washing-up", "Make the bed"], hint: "Work around the house" },
-      { type: 'quiz', question: "I'm ___ visit Paris next summer.", options: ["will", "going to", "will be", "would"], correctAnswer: "going to", hint: "Plans for future" }
+      {
+        type: 'quiz',
+        question: "Что такое Daily Routines?",
+        options: ["повседневные дела и привычки.", "Это понятие из другого раздела", "Вспомогательный термин", "Специальный метод вычисления", "Понятие, обратное данному"],
+        correctAnswer: "повседневные дела и привычки.",
+        hint: "Вспомни определение из урока про Daily Routines"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Present Simple for Routines:?",
+        options: ["Вспомогательный термин", "Это понятие из другого раздела", "Специальный метод вычисления", "I usually wake up at 7 o'clock.", "Понятие, обратное данному"],
+        correctAnswer: "I usually wake up at 7 o'clock.",
+        hint: "Вспомни определение из урока про Present Simple for Routines:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Frequency Adverbs:?",
+        options: ["Понятие, обратное данному", "Always — всегда (100%)", "Это понятие из другого раздела", "Вспомогательный термин", "Специальный метод вычисления"],
+        correctAnswer: "Always — всегда (100%)",
+        hint: "Вспомни определение из урока про Frequency Adverbs:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Position in sentence:?",
+        options: ["Понятие, обратное данному", "Специальный метод вычисления", "Вспомогательный термин", "Это понятие из другого раздела", "Before the main verb: I always eat breakfast."],
+        correctAnswer: "Before the main verb: I always eat breakfast.",
+        hint: "Вспомни определение из урока про Position in sentence:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Daily Activities:?",
+        options: ["Специальный метод вычисления", "Понятие, обратное данному", "Это понятие из другого раздела", "Wake up — просыпаться", "Вспомогательный термин"],
+        correctAnswer: "Wake up — просыпаться",
+        hint: "Вспомни определение из урока про Daily Activities:"
+      },
     ],
-    reward: { stars: 3, message: "Excellent! You know daily routines! 🌟" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Travel and Environment",
-    subject: "English",
+    title: "Household Chores",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What's the Russian for 'boarding pass'?", options: ["Билет", "Посадочный талон", "Багаж", "Регистрация"], correctAnswer: "Посадочный талон", hint: "At the airport" },
-      { type: 'quiz', question: "We ___ protect nature.", options: ["should", "must", "have", "need"], correctAnswer: "must", hint: "Strong obligation" },
-      { type: 'find', question: "Select environmental problems:", options: ["Pollution", "Journey", "Global warming", "Deforestation", "Hotel"], correctAnswer: ["Pollution", "Global warming", "Deforestation"], hint: "Issues with nature" },
-      { type: 'quiz', question: "Have you ever ___ this app?", options: ["use", "used", "using", "uses"], correctAnswer: "used", hint: "Present Perfect" }
+      {
+        type: 'quiz',
+        question: "Что такое Household Chores?",
+        options: ["домашние обязанности.", "Понятие, обратное данному", "Вспомогательный термин", "Это понятие из другого раздела", "Специальный метод вычисления"],
+        correctAnswer: "домашние обязанности.",
+        hint: "Вспомни определение из урока про Household Chores"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Common Chores:?",
+        options: ["Do the washing-up — мыть посуду", "Понятие, обратное данному", "Вспомогательный термин", "Специальный метод вычисления", "Это понятие из другого раздела"],
+        correctAnswer: "Do the washing-up — мыть посуду",
+        hint: "Вспомни определение из урока про Common Chores:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Have to / Has to:?",
+        options: ["Вспомогательный термин", "I have to clean my room.", "Специальный метод вычисления", "Это понятие из другого раздела", "Понятие, обратное данному"],
+        correctAnswer: "I have to clean my room.",
+        hint: "Вспомни определение из урока про Have to / Has to:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Must:?",
+        options: ["Специальный метод вычисления", "Понятие, обратное данному", "You must help your parents.", "Вспомогательный термин", "Это понятие из другого раздела"],
+        correctAnswer: "You must help your parents.",
+        hint: "Вспомни определение из урока про Must:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Should:?",
+        options: ["Понятие, обратное данному", "Это понятие из другого раздела", "Вспомогательный термин", "Специальный метод вычисления", "You should help your mother."],
+        correctAnswer: "You should help your mother.",
+        hint: "Вспомни определение из урока про Should:"
+      },
     ],
-    reward: { stars: 3, message: "Great job! You're an English pro! 🎉" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Planning a Trip",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Travel Vocabulary:?",
+        options: ["Понятие, обратное данному", "Journey — путешествие", "Вспомогательный термин", "Специальный метод вычисления", "Это понятие из другого раздела"],
+        correctAnswer: "Journey — путешествие",
+        hint: "Вспомни определение из урока про Travel Vocabulary:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Transport:?",
+        options: ["Понятие, обратное данному", "Специальный метод вычисления", "Это понятие из другого раздела", "Вспомогательный термин", "By plane — самолётом"],
+        correctAnswer: "By plane — самолётом",
+        hint: "Вспомни определение из урока про Transport:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое At the Airport:?",
+        options: ["Вспомогательный термин", "Специальный метод вычисления", "Понятие, обратное данному", "Это понятие из другого раздела", "Check-in — регистрация"],
+        correctAnswer: "Check-in — регистрация",
+        hint: "Вспомни определение из урока про At the Airport:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Booking a Hotel:?",
+        options: ["Специальный метод вычисления", "Это понятие из другого раздела", "Вспомогательный термин", "Book a room — забронировать номер", "Понятие, обратное данному"],
+        correctAnswer: "Book a room — забронировать номер",
+        hint: "Вспомни определение из урока про Booking a Hotel:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Going to:?",
+        options: ["Специальный метод вычисления", "Это понятие из другого раздела", "Понятие, обратное данному", "Вспомогательный термин", "I'm going to visit Paris."],
+        correctAnswer: "I'm going to visit Paris.",
+        hint: "Вспомни определение из урока про Going to:"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Sightseeing and Activities",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Places to Visit:?",
+        options: ["Это понятие из другого раздела", "Вспомогательный термин", "Museum — музей", "Понятие, обратное данному", "Специальный метод вычисления"],
+        correctAnswer: "Museum — музей",
+        hint: "Вспомни определение из урока про Places to Visit:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Useful Phrases:?",
+        options: ["Вспомогательный термин", "What's there to see?", "Понятие, обратное данному", "Это понятие из другого раздела", "Специальный метод вычисления"],
+        correctAnswer: "What's there to see?",
+        hint: "Вспомни определение из урока про Useful Phrases:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Describing Places:?",
+        options: ["Это понятие из другого раздела", "Вспомогательный термин", "Beautiful — красивый", "Специальный метод вычисления", "Понятие, обратное данному"],
+        correctAnswer: "Beautiful — красивый",
+        hint: "Вспомни определение из урока про Describing Places:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Past Simple for Travel Stories:?",
+        options: ["Специальный метод вычисления", "I visited the Louvre last year.", "Понятие, обратное данному", "Это понятие из другого раздела", "Вспомогательный термин"],
+        correctAnswer: "I visited the Louvre last year.",
+        hint: "Вспомни определение из урока про Past Simple for Travel Stories:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Places to Visit:»",
+        options: ["Другой термин", "Связанный термин", "Дополнительный элемент", "Places to Visit:", "Вспомогательное понятие"],
+        correctAnswer: "Places to Visit:",
+        hint: "Это ключевое понятие из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Environmental Problems",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Environmental Issues:?",
+        options: ["Pollution — загрязнение", "Это понятие из другого раздела", "Специальный метод вычисления", "Вспомогательный термин", "Понятие, обратное данному"],
+        correctAnswer: "Pollution — загрязнение",
+        hint: "Вспомни определение из урока про Environmental Issues:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Causes:?",
+        options: ["Cars produce exhaust fumes.", "Понятие, обратное данному", "Вспомогательный термин", "Это понятие из другого раздела", "Специальный метод вычисления"],
+        correctAnswer: "Cars produce exhaust fumes.",
+        hint: "Вспомни определение из урока про Causes:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Consequences:?",
+        options: ["Это понятие из другого раздела", "Специальный метод вычисления", "Animals lose their habitats.", "Понятие, обратное данному", "Вспомогательный термин"],
+        correctAnswer: "Animals lose their habitats.",
+        hint: "Вспомни определение из урока про Consequences:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Should:?",
+        options: ["Понятие, обратное данному", "Специальный метод вычисления", "Вспомогательный термин", "Это понятие из другого раздела", "We should recycle more."],
+        correctAnswer: "We should recycle more.",
+        hint: "Вспомни определение из урока про Should:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Must:?",
+        options: ["Специальный метод вычисления", "We must protect nature.", "Вспомогательный термин", "Понятие, обратное данному", "Это понятие из другого раздела"],
+        correctAnswer: "We must protect nature.",
+        hint: "Вспомни определение из урока про Must:"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Digital World",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Technology Vocabulary:?",
+        options: ["Computer — компьютер", "Специальный метод вычисления", "Понятие, обратное данному", "Это понятие из другого раздела", "Вспомогательный термин"],
+        correctAnswer: "Computer — компьютер",
+        hint: "Вспомни определение из урока про Technology Vocabulary:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Digital Activities:?",
+        options: ["Специальный метод вычисления", "Понятие, обратное данному", "Это понятие из другого раздела", "Вспомогательный термин", "Go online — выходить в интернет"],
+        correctAnswer: "Go online — выходить в интернет",
+        hint: "Вспомни определение из урока про Digital Activities:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Present Perfect for Experience:?",
+        options: ["Понятие, обратное данному", "I have bought a new smartphone.", "Специальный метод вычисления", "Это понятие из другого раздела", "Вспомогательный термин"],
+        correctAnswer: "I have bought a new smartphone.",
+        hint: "Вспомни определение из урока про Present Perfect for Experience:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Internet Safety:?",
+        options: ["Это понятие из другого раздела", "Специальный метод вычисления", "Вспомогательный термин", "Понятие, обратное данному", "Keep your password safe."],
+        correctAnswer: "Keep your password safe.",
+        hint: "Вспомни определение из урока про Internet Safety:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Pros:?",
+        options: ["Это понятие из другого раздела", "Вспомогательный термин", "Специальный метод вычисления", "Понятие, обратное данному", "Easy communication"],
+        correctAnswer: "Easy communication",
+        hint: "Вспомни определение из урока про Pros:"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   }
 ]

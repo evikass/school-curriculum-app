@@ -2012,68 +2012,1059 @@ Will + подлежащее + глагол?
 
 export const games: GameLesson[] = [
   {
-    title: "Приветствие и знакомство",
+    title: "Урок 1: Приветствие и прощание",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «Как тебя зовут?»", options: ["How old are you?", "What is your name?", "Where are you from?"], correctAnswer: "What is your name?", hint: "Name = имя" },
-      { type: 'quiz', question: "Как ответить на «How are you?»?", options: ["I am 12", "I am fine", "I am from Russia"], correctAnswer: "I am fine", hint: "Fine = хорошо" },
-      { type: 'find', question: "Выбери фразы приветствия:", options: ["Hello", "Goodbye", "Hi", "Good night", "Good morning", "See you"], correctAnswer: ["Hello", "Hi", "Good morning"], hint: "Hello, Hi, Good morning = приветствие" },
-      { type: 'quiz', question: "Nice to meet you = ?", options: ["До свидания", "Приятно познакомиться", "Как дела"], correctAnswer: "Приятно познакомиться", hint: "Meet = встречать, знакомиться" }
+      {
+        type: 'quiz',
+        question: "Как сказать 'доброе утро' на английском?",
+        options: ["Hello", "Hi", "Good morning", "Good afternoon", "Good evening"],
+        correctAnswer: "Good morning",
+        hint: "Это приветствие, которое используется до полудня"
+      },
+      {
+        type: 'quiz',
+        question: "Какой вариант прощания является неформальным?",
+        options: ["Goodbye", "Bye", "See you later", "Good evening", "Good morning"],
+        correctAnswer: "Bye",
+        hint: "Это короткое неформальное прощание, которое используется в разговорной речи"
+      },
+      {
+        type: 'quiz',
+        question: "Как переводится 'Hello'?",
+        options: ["Привет", "До свидания", "Добрый день", "Увидимся", "Пока"],
+        correctAnswer: "Привет",
+        hint: "Это стандартное приветствие, используемое в большинстве ситуаций"
+      },
+      {
+        type: 'quiz',
+        question: "Как сказать 'до свидания' на английском?",
+        options: ["Hi", "Bye", "See you later", "Goodbye", "Good morning"],
+        correctAnswer: "Goodbye",
+        hint: "Это стандартное прощание, используемое в большинстве ситуаций"
+      },
+      {
+        type: 'quiz',
+        question: "Какой перевод у фразы 'See you later'?",
+        options: ["Добрый вечер", "Доброе утро", "Увидимся", "До свидания", "Привет"],
+        correctAnswer: "Увидимся",
+        hint: "Это прощание, которое означает, что вы увидите человека позже"
+      },
     ],
-    reward: { stars: 3, message: "Great! Ты умеешь знакомиться! 👋" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Погода и времена года",
+    title: "Урок 2: Личная информация",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Как сказать «солнечно»?", options: ["Rainy", "Sunny", "Cloudy"], correctAnswer: "Sunny", hint: "Sun = солнце" },
-      { type: 'find', question: "Выбери названия времён года:", options: ["Monday", "Winter", "Spring", "January", "Summer", "Autumn"], correctAnswer: ["Winter", "Spring", "Summer", "Autumn"], hint: "Seasons = времена года" },
-      { type: 'quiz', question: "What's the weather like? = ?", options: ["Который час?", "Какая погода?", "Как дела?"], correctAnswer: "Какая погода?", hint: "Weather = погода" },
-      { type: 'quiz', question: "Какая погода: It's raining?", options: ["Солнечно", "Дождливо", "Снежно"], correctAnswer: "Дождливо", hint: "Rain = дождь" }
+      {
+        type: 'quiz',
+        question: "Как по-английски спросить имя человека?",
+        options: ["What is your name?", "How old are you?", "Where are you from?", "What is your address?", "How are you?"],
+        correctAnswer: "What is your name?",
+        hint: "Это вопрос, который задают, чтобы узнать имя человека."
+      },
+      {
+        type: 'quiz',
+        question: "Как правильно ответить на вопрос 'How old are you?' (Сколько тебе лет)?",
+        options: ["I am fine, thank you.", "I am from Russia.", "I am 10 years old.", "My name is Alex.", "I live in Moscow."],
+        correctAnswer: "I am 10 years old.",
+        hint: "В ответе нужно указать свой возраст."
+      },
+      {
+        type: 'quiz',
+        question: "Как по-английски спросить, откуда человек?",
+        options: ["What is your name?", "How old are you?", "Where are you from?", "What is your address?", "What is your phone number?"],
+        correctAnswer: "Where are you from?",
+        hint: "Этот вопрос спрашивает о стране или городе происхождения человека."
+      },
+      {
+        type: 'quiz',
+        question: "Как правильно ответить на вопрос 'What is your name?' (Как тебя зовут)?",
+        options: ["I am 10 years old.", "I am from Russia.", "My name is Anna.", "I live in Moscow.", "I like English."],
+        correctAnswer: "My name is Anna.",
+        hint: "В ответе нужно указать свое имя."
+      },
+      {
+        type: 'quiz',
+        question: "Как по-английски спросить адрес человека?",
+        options: ["What is your name?", "How old are you?", "Where are you from?", "What is your address?", "What is your phone number?"],
+        correctAnswer: "What is your address?",
+        hint: "Этот вопрос спрашивает о месте проживания человека."
+      },
     ],
-    reward: { stars: 3, message: "Excellent! Ты говоришь о погоде! ☀️" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Семья и дом",
+    title: "Урок 3: Страны и национальности",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Mother - это?", options: ["Папа", "Мама", "Бабушка"], correctAnswer: "Мама", hint: "Mother = мама" },
-      { type: 'find', question: "Выбери названия комнат:", options: ["Kitchen", "Car", "Bedroom", "Garden", "Bathroom", "Living room"], correctAnswer: ["Kitchen", "Bedroom", "Bathroom", "Living room"], hint: "Rooms = комнаты" },
-      { type: 'quiz', question: "Как будет «семья»?", options: ["Friend", "Family", "House"], correctAnswer: "Family", hint: "Family = семья" },
-      { type: 'quiz', question: "Sister - это?", options: ["Сестра", "Брат", "Тётя"], correctAnswer: "Сестра", hint: "Sister = сестра" }
+      {
+        type: 'quiz',
+        question: "Как будет Россия на английском языке?",
+        options: ["Russia", "Rusia", "Rossiya", "Russe", "Russland"],
+        correctAnswer: "Russia",
+        hint: "Страна Россия на английском языке пишется с буквой 's' в середине."
+      },
+      {
+        type: 'quiz',
+        question: "Как называется национальность человека из Франции?",
+        options: ["Frenchman", "France", "Frensh", "Frenchi", "Francais"],
+        correctAnswer: "French",
+        hint: "Национальность образуется добавлением окончания '-ish' или '-ch' к названию страны."
+      },
+      {
+        type: 'quiz',
+        question: "Как называется страна, которая на английском называется Germany?",
+        options: ["Германия", "Германия", "Германия", "Германия", "Германия"],
+        correctAnswer: "Германия",
+        hint: "Это страна в Центральной Европе, известная своей историей и промышленностью."
+      },
+      {
+        type: 'quiz',
+        question: "Как называется национальность человека из Великобритании?",
+        options: ["British", "English", "Scotland", "United Kingdom", "UK"],
+        correctAnswer: "British",
+        hint: "Великобритания состоит из Англии, Шотландии, Уэльса и Северной Ирландии."
+      },
+      {
+        type: 'quiz',
+        question: "Как называется страна, которая на английском называется the USA?",
+        options: ["Соединенные Штаты Америки", "Американские Штаты", "США", "United States", "America"],
+        correctAnswer: "США",
+        hint: "Это страна в Северной Америке, часто сокращаемая до США."
+      },
     ],
-    reward: { stars: 3, message: "Wonderful! Ты говоришь о семье! 🏠" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Present Simple vs Present Continuous",
+    title: "Урок 4: Профессии",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Когда используем Present Simple?", options: ["Для регулярных действий", "Для действий сейчас", "Для прошлого"], correctAnswer: "Для регулярных действий", hint: "Present Simple: I play tennis every day" },
-      { type: 'quiz', question: "Когда используем Present Continuous?", options: ["Для регулярных действий", "Для действий в данный момент", "Для будущего"], correctAnswer: "Для действий в данный момент", hint: "Present Continuous: I am playing now" },
-      { type: 'find', question: "Выбери предложения в Present Continuous:", options: ["I am reading now", "She reads every day", "They are playing", "He works here", "We are watching TV"], correctAnswer: ["I am reading now", "They are playing", "We are watching TV"], hint: "Present Continuous = am/is/are + verb-ing" },
-      { type: 'quiz', question: "I ___ to school every day. (go)", options: ["am going", "go", "went"], correctAnswer: "go", hint: "Present Simple для регулярных действий" }
+      {
+        type: 'quiz',
+        question: "Как переводится профессия 'teacher' на русский язык?",
+        options: ["Врач", "Учитель", "Инженер", "Водитель", "Рабочий"],
+        correctAnswer: "Учитель",
+        hint: "Эта профессия связана с обучением и образованием."
+      },
+      {
+        type: 'quiz',
+        question: "Какая профессия образуется с помощью суффикса -or?",
+        options: ["Actor", "Doctor", "Scientist", "Writer", "Cook"],
+        correctAnswer: "Doctor",
+        hint: "Эта профессия связана с медициной и лечением людей."
+      },
+      {
+        type: 'quiz',
+        question: "Как переводится профессия 'engineer' на русский язык?",
+        options: ["Врач", "Учитель", "Инженер", "Водитель", "Рабочий"],
+        correctAnswer: "Инженер",
+        hint: "Эта профессия связана с проектированием и строительством."
+      },
+      {
+        type: 'quiz',
+        question: "Какая профессия связана с полетами?",
+        options: ["Pilot", "Actor", "Artist", "Cook", "Worker"],
+        correctAnswer: "Pilot",
+        hint: "Эта профессия связана с управлением самолетом или другим летательным аппаратом."
+      },
+      {
+        type: 'quiz',
+        question: "Как переводится профессия 'artist' на русский язык?",
+        options: ["Писатель", "Художник", "Учёный", "Повар", "Актёр"],
+        correctAnswer: "Художник",
+        hint: "Эта профессия связана с созданием произведений искусства."
+      },
     ],
-    reward: { stars: 3, message: "Great! Ты знаешь времена! ⏰" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Past Simple - прошедшее время",
+    title: "Урок 5: Погода и времена года",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "Go в прошедшем времени = ?", options: ["goed", "went", "gone"], correctAnswer: "went", hint: "Go - неправильный глагол: went" },
-      { type: 'quiz', question: "Play в прошедшем времени = ?", options: ["played", "plaied", "playd"], correctAnswer: "played", hint: "Play - правильный глагол + ed" },
-      { type: 'find', question: "Выбери глаголы в Past Simple:", options: ["Went", "Go", "Played", "Eat", "Visited", "See"], correctAnswer: ["Went", "Played", "Visited"], hint: "Past Simple = прошедшее время" },
-      { type: 'quiz', question: "I ___ to the cinema yesterday.", options: ["go", "went", "am going"], correctAnswer: "went", hint: "Yesterday = вчера (прошедшее время)" }
+      {
+        type: 'quiz',
+        question: "Какое время года в декабре, январе и феврале?",
+        options: ["winter", "spring", "summer", "autumn", "January"],
+        correctAnswer: "winter",
+        hint: "Декабрь, январь и февраль - зимние месяцы."
+      },
+      {
+        type: 'quiz',
+        question: "Какое время года в марте, апреле и мае?",
+        options: ["winter", "spring", "summer", "autumn", "December"],
+        correctAnswer: "spring",
+        hint: "Март, апрель и май - весенние месяцы."
+      },
+      {
+        type: 'quiz',
+        question: "Какое время года в сентябре, октябре и ноябре?",
+        options: ["winter", "spring", "summer", "autumn", "September"],
+        correctAnswer: "autumn",
+        hint: "Сентябрь, октябрь и ноябрь - осенние месяцы."
+      },
+      {
+        type: 'quiz',
+        question: "Какой месяц является летним?",
+        options: ["January", "March", "May", "July", "November"],
+        correctAnswer: "July",
+        hint: "Июль - летний месяц."
+      },
+      {
+        type: 'quiz',
+        question: "Какое слово означает 'погода' на английском языке?",
+        options: ["season", "month", "weather", "year", "temperature"],
+        correctAnswer: "weather",
+        hint: "Погода - это состояние атмосферы в данный момент."
+      },
     ],
-    reward: { stars: 3, message: "Excellent! Ты знаешь прошедшее время! 📅" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 6: Природа и животные",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как переводится слово 'lion' на русский язык?",
+        options: ["Тигр", "Слон", "Лев", "Медведь", "Волк"],
+        correctAnswer: "Лев",
+        hint: "Это царь зверей, у него есть грива."
+      },
+      {
+        type: 'quiz',
+        question: "Какое животное изображено эмодзи 🐘?",
+        options: ["Тигр", "Слон", "Лев", "Медведь", "Жираф"],
+        correctAnswer: "Слон",
+        hint: "Это большое серое животное с длинным хоботом."
+      },
+      {
+        type: 'quiz',
+        question: "Как переводится слово 'fox' на русский язык?",
+        options: ["Лиса", "Волк", "Обезьяна", "Крокодил", "Зебра"],
+        correctAnswer: "Лиса",
+        hint: "Это умное рыжее животное из сказки."
+      },
+      {
+        type: 'quiz',
+        question: "Какое животное самое высокое в мире?",
+        options: ["Обезьяна", "Крокодил", "Жираф", "Лев", "Зебра"],
+        correctAnswer: "Жираф",
+        hint: "Это животное с очень длинной шеей."
+      },
+      {
+        type: 'quiz',
+        question: "Какое животное изображено эмодзи 🐊?",
+        options: ["Тигр", "Крокодил", "Слон", "Медведь", "Волк"],
+        correctAnswer: "Крокодил",
+        hint: "Это зеленое хищное животное с длинной пастью."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 7: В городе",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Где можно купить продукты питания?",
+        options: ["school", "hospital", "shop", "library", "museum"],
+        correctAnswer: "shop",
+        hint: "Место, где продают товары"
+      },
+      {
+        type: 'quiz',
+        question: "Где лечат людей?",
+        options: ["bank", "post office", "hospital", "cinema", "park"],
+        correctAnswer: "hospital",
+        hint: "Здесь работают врачи и медсестры"
+      },
+      {
+        type: 'quiz',
+        question: "Где можно взять книги почитать?",
+        options: ["museum", "theatre", "library", "restaurant", "supermarket"],
+        correctAnswer: "library",
+        hint: "Место с множеством книг"
+      },
+      {
+        type: 'quiz',
+        question: "Где можно посмотреть фильм?",
+        options: ["bank", "cinema", "school", "post office", "park"],
+        correctAnswer: "cinema",
+        hint: "Место для просмотра фильмов"
+      },
+      {
+        type: 'quiz',
+        question: "Где можно отправить письмо?",
+        options: ["shop", "museum", "post office", "bank", "hospital"],
+        correctAnswer: "post office",
+        hint: "Место для отправки и получения почты"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 8: Транспорт",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как по-английски будет 'машина'?",
+        options: ["car", "bus", "train", "plane", "ship"],
+        correctAnswer: "car",
+        hint: "Это транспортное средство с четырьмя колёсами, которое обычно используется для поездок по городу."
+      },
+      {
+        type: 'quiz',
+        question: "Выберите правильный перевод слова 'go'",
+        options: ["ехать", "идти", "вести", "прилетать", "плыть"],
+        correctAnswer: "ехать",
+        hint: "Этот глагол используется для обозначения движения в любом виде транспорта."
+      },
+      {
+        type: 'quiz',
+        question: "Какой транспорт движется по рельсам?",
+        options: ["car", "bicycle", "train", "taxi", "tram"],
+        correctAnswer: "train",
+        hint: "Этот вид транспорта обычно перевозит пассажиров между городами и движется по специальным путям."
+      },
+      {
+        type: 'quiz',
+        question: "Как по-английски будет 'метро'?",
+        options: ["metro", "tram", "underground", "plane", "ship"],
+        correctAnswer: "metro",
+        hint: "Этот вид транспорта перемещает пассажиров под землёй в больших городах."
+      },
+      {
+        type: 'quiz',
+        question: "Выберите правильный перевод слова 'drive'",
+        options: ["ехать", "идти", "вести", "летать", "плыть"],
+        correctAnswer: "вести",
+        hint: "Этот глагол используется, когда говорящий сам управляет транспортным средством."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 9: Члены семьи",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как будет по-английски 'мама'?",
+        options: ["father", "mother", "sister", "brother", "grandma"],
+        correctAnswer: "mother",
+        hint: "Это слово обозначает женского родителя."
+      },
+      {
+        type: 'quiz',
+        question: "Как будет по-английски 'брат'?",
+        options: ["sister", "brother", "uncle", "aunt", "grandfather"],
+        correctAnswer: "brother",
+        hint: "Это слово обозначает мальчика в семье, у которого есть общие родители с вами."
+      },
+      {
+        type: 'quiz',
+        question: "Как будет по-английски 'бабушка'?",
+        options: ["grandfather", "grandmother", "aunt", "uncle", "parent"],
+        correctAnswer: "grandmother",
+        hint: "Это слово обозначifies мать вашего отца или матери."
+      },
+      {
+        type: 'quiz',
+        question: "Как будет по-английски 'тётя'?",
+        options: ["uncle", "aunt", "sister", "mother", "grandma"],
+        correctAnswer: "aunt",
+        hint: "Это слово обозначает сестру вашего отца или матери."
+      },
+      {
+        type: 'quiz',
+        question: "Как будет по-английски 'родители' (во множественном числе)?",
+        options: ["parent", "parents", "mother", "father", "family"],
+        correctAnswer: "parents",
+        hint: "Это слово является множественным числом от слова 'родитель'."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 10: Внешность и характер",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как переводится на русский язык слово 'slim'?",
+        options: ["Высокий", "Низкий", "Стройный", "Полный", "Среднего роста"],
+        correctAnswer: "Стройный",
+        hint: "Это слово описывает человека с тонкой фигурой."
+      },
+      {
+        type: 'quiz',
+        question: "Как переводится на русский язык 'long hair'?",
+        options: ["Короткие волосы", "Длинные волосы", "Кудрявые волосы", "Прямые волосы", "Редкие волосы"],
+        correctAnswer: "Длинные волосы",
+        hint: "Это описание волос, которые достигают плеч или длиннее."
+      },
+      {
+        type: 'quiz',
+        question: "Как на английском сказать, что человек среднего роста?",
+        options: ["Tall", "Short", "Medium height", "Athletic", "Plump"],
+        correctAnswer: "Medium height",
+        hint: "Это комбинация двух слов: 'средний' и 'рост'."
+      },
+      {
+        type: 'quiz',
+        question: "Как переводится слово 'athletic'?",
+        options: ["Худой", "Толстый", "Сильный, атлетического телосложения", "Высокий", "Низкий"],
+        correctAnswer: "Сильный, атлетического телосложения",
+        hint: "Это слово описывает человека, который занимается спортом и имеет крепкое телосложение."
+      },
+      {
+        type: 'quiz',
+        question: "Как на английском сказать, что у человека короткие волосы?",
+        options: ["Long hair", "Short hair", "Straight hair", "Curly hair", "Wavy hair"],
+        correctAnswer: "Short hair",
+        hint: "Это противоположность 'long hair' (длинные волосы)."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 11: Друзья",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как по-английски будет 'друг'?",
+        options: ["friend", "friendship", "best friend", "classmate", "neighbour"],
+        correctAnswer: "friend",
+        hint: "Это слово обозначает человека, с которым у вас хорошие отношения."
+      },
+      {
+        type: 'quiz',
+        question: "Как переводится фраза 'best friend'?",
+        options: ["школьный товарищ", "сосед", "лучший друг", "одноклассник", "дружба"],
+        correctAnswer: "лучший друг",
+        hint: "Это самый близкий друг, с которым вы проводите больше всего времени."
+      },
+      {
+        type: 'quiz',
+        question: "Как по-английски говорят 'помогать друг другу'?",
+        options: ["play together", "go for a walk", "help each other", "be friends", "study together"],
+        correctAnswer: "help each other",
+        hint: "Эта фраза состоит из двух слов: 'help' (помогать) и 'each other' (друг друга)."
+      },
+      {
+        type: 'quiz',
+        question: "Кто такой 'classmate'?",
+        options: ["человек, с которым вы живете рядом", "ваш лучший друг", "ваш одноклассник", "человек, с которым вы учитесь в одной школе", "ваш сосед"],
+        correctAnswer: "ваш одноклассник",
+        hint: "Это слово происходит от слова 'class' (класс)."
+      },
+      {
+        type: 'quiz',
+        question: "Что делают друзья вместе?",
+        options: ["only argue", "only study", "play together and help each other", "only watch TV", "only talk on the phone"],
+        correctAnswer: "play together and help each other",
+        hint: "Друзья делают много разных вещей вместе, но две основные активности из списка - это игры и взаимопомощь."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 12: Дом и быт",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как переводится слово 'house' на русский язык?",
+        options: ["Квартира", "Комната", "Дом", "Сад", "Кабинет"],
+        correctAnswer: "Дом",
+        hint: "Это место, где люди живут, обычно с несколькими комнатами и участком земли."
+      },
+      {
+        type: 'quiz',
+        question: "Как называется комната, где люди спят?",
+        options: ["Kitchen", "Bedroom", "Bathroom", "Living room", "Study"],
+        correctAnswer: "Bedroom",
+        hint: "Эта комната ассоциируется с кроватью и сном."
+      },
+      {
+        type: 'quiz',
+        question: "Где обычно готовят еду?",
+        options: ["Bedroom", "Kitchen", "Bathroom", "Living room", "Toilet"],
+        correctAnswer: "Kitchen",
+        hint: "В этой комнате есть плита, холодильник и другая бытовая техника для приготовления пищи."
+      },
+      {
+        type: 'quiz',
+        question: "Как переводится слово 'flat' на русский язык?",
+        options: ["Дом", "Квартира", "Комната", "Сад", "Кабинет"],
+        correctAnswer: "Квартира",
+        hint: "Это жилое помещение, обычно расположенное в многоквартирном доме."
+      },
+      {
+        type: 'quiz',
+        question: "Где люди принимают душ?",
+        options: ["Kitchen", "Bedroom", "Bathroom", "Living room", "Hall"],
+        correctAnswer: "Bathroom",
+        hint: "Эта комната часто содержит ванную, душ и туалет."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 13: Школьные предметы",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как по-английски называется предмет 'математика'?",
+        options: ["Maths", "Mathematics", "Math", "Both A and B", "All of the above"],
+        correctAnswer: "Both A and B",
+        hint: "В британском английском часто используется 'Maths', а в американском - 'Mathematics'"
+      },
+      {
+        type: 'quiz',
+        question: "Какой предмет изучает законы природы и физические явления?",
+        options: ["Biology", "Chemistry", "Physics", "Geography", "History"],
+        correctAnswer: "Physics",
+        hint: "Этот предмет изучает механику, электричество, оптику и другие физические явления"
+      },
+      {
+        type: 'quiz',
+        question: "Как по-английски сокращают Physical Education?",
+        options: ["PE", "PhE", "PhysEd", "PHE", "PhyEd"],
+        correctAnswer: "PE",
+        hint: "Это стандартное сокращение для урока физкультуры в школах"
+      },
+      {
+        type: 'quiz',
+        question: "Какой предмет изучает растения, животных и их организмы?",
+        options: ["Physics", "Chemistry", "Biology", "Geography", "Art"],
+        correctAnswer: "Biology",
+        hint: "Этот предмет изучает живые организмы и их взаимодействие с окружающей средой"
+      },
+      {
+        type: 'quiz',
+        question: "Какой предмет изучает страны, континенты и климат?",
+        options: ["History", "Geography", "Biology", "Chemistry", "Art"],
+        correctAnswer: "Geography",
+        hint: "Этот предмет изучает Землю, ее поверхности, климат и население"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 14: В классе",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как по-английски называется классная комната?",
+        options: ["classroom", "blackboard", "desk", "chair", "window"],
+        correctAnswer: "classroom",
+        hint: "Это место, где проходят уроки в школе."
+      },
+      {
+        type: 'quiz',
+        question: "Что по-английски доска для письма мелом?",
+        options: ["whiteboard", "blackboard", "teacher's desk", "wall", "door"],
+        correctAnswer: "blackboard",
+        hint: "Эта доска обычно черная или зеленая, и на ней пишут мелом."
+      },
+      {
+        type: 'quiz',
+        question: "Как называется мебель, за которой сидят ученики?",
+        options: ["chair", "desk", "bookcase", "floor", "ceiling"],
+        correctAnswer: "desk",
+        hint: "Это стол, за которым ученики пишут и учатся."
+      },
+      {
+        type: 'quiz',
+        question: "Как называется шкаф для книг в классе?",
+        options: ["window", "door", "bookcase", "blackboard", "teacher's desk"],
+        correctAnswer: "bookcase",
+        hint: "Это мебель, где хранят книги."
+      },
+      {
+        type: 'quiz',
+        question: "Как по-английски называется место, где стоит учитель?",
+        options: ["student's desk", "chair", "teacher's desk", "wall", "floor"],
+        correctAnswer: "teacher's desk",
+        hint: "Это стол, который используется учителем в классе."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 15: Распорядок дня",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как переводится на русский язык 'wake up'?",
+        options: ["Просыпаться", "Вставать", "Умыться", "Чистить зубы", "Завтракать"],
+        correctAnswer: "Просыпаться",
+        hint: "Это действие, которое вы делаете утром, когда заканчиваете спать."
+      },
+      {
+        type: 'quiz',
+        question: "Какой глагол означает 'чистить зубы'?",
+        options: ["Get up", "Wash", "Brush teeth", "Have breakfast", "Get dressed"],
+        correctAnswer: "Brush teeth",
+        hint: "Это действие, которое нужно делать утром и вечером для здоровья зубов."
+      },
+      {
+        type: 'quiz',
+        question: "Что переводится как 'идти в школу'?",
+        options: ["Get dressed", "Go to school", "Have lessons", "Have lunch", "Have breakfast"],
+        correctAnswer: "Go to school",
+        hint: "Это действие, которое вы делаете утром после завтрака."
+      },
+      {
+        type: 'quiz',
+        question: "Какой глагол означает 'завтракать'?",
+        options: ["Get up", "Have breakfast", "Wash", "Brush teeth", "Get dressed"],
+        correctAnswer: "Have breakfast",
+        hint: "Это первый прием пищи в течение дня."
+      },
+      {
+        type: 'quiz',
+        question: "Как переводится 'have lessons'?",
+        options: ["Иметь уроки", "Одеваться", "Обедать", "Просыпаться", "Идти в школу"],
+        correctAnswer: "Иметь уроки",
+        hint: "Это действие, которое вы делаете в школе в течение учебного дня."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 16: Выходные и каникулы",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какой день недели является последним в рабочей неделе?",
+        options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        correctAnswer: "Friday",
+        hint: "Это день перед выходными"
+      },
+      {
+        type: 'quiz',
+        question: "Какой день недели является первым в выходные?",
+        options: ["Friday", "Saturday", "Sunday", "Thursday", "Monday"],
+        correctAnswer: "Saturday",
+        hint: "Это день после пятницы"
+      },
+      {
+        type: 'quiz',
+        question: "Какой день недели является вторым в выходные?",
+        options: ["Saturday", "Sunday", "Monday", "Friday", "Thursday"],
+        correctAnswer: "Sunday",
+        hint: "Это последний день недели"
+      },
+      {
+        type: 'quiz',
+        question: "Какой день недели имеет сокращение Wed?",
+        options: ["Wednesday", "Tuesday", "Thursday", "Friday", "Monday"],
+        correctAnswer: "Wednesday",
+        hint: "Это середина недели"
+      },
+      {
+        type: 'quiz',
+        question: "Какой день недели имеет сокращение Thu?",
+        options: ["Thursday", "Tuesday", "Wednesday", "Friday", "Monday"],
+        correctAnswer: "Thursday",
+        hint: "Это день перед последним рабочим днем"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 17: Продукты питания",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как по-английски будет 'хлеб'?",
+        options: ["bread", "rice", "pasta", "cereal", "meat"],
+        correctAnswer: "bread",
+        hint: "Это основной продукт из злаков, который часто едят с супом."
+      },
+      {
+        type: 'quiz',
+        question: "Какой продукт относится к молочным?",
+        options: ["fish", "chicken", "milk", "butter", "pasta"],
+        correctAnswer: "milk",
+        hint: "Этот продукт получают от коров и пьют на завтрак."
+      },
+      {
+        type: 'quiz',
+        question: "Что такое 'cheese' по-русски?",
+        options: ["масло", "молоко", "сыр", "йогурт", "рис"],
+        correctAnswer: "сыр",
+        hint: "Этот продукт делают из молока и часто добавляют в пиццу."
+      },
+      {
+        type: 'quiz',
+        question: "Как из перечисленного НЕ является мясом?",
+        options: ["beef", "chicken", "pork", "fish", "steak"],
+        correctAnswer: "fish",
+        hint: "Это обитает в воде, а не на суше."
+      },
+      {
+        type: 'quiz',
+        question: "Что такое 'yoghurt' по-русски?",
+        options: ["масло", "молоко", "сыр", "йогурт", "хлеб"],
+        correctAnswer: "йогурт",
+        hint: "Это молочный продукт, который часто едят с ягодами или мёдом."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 18: В кафе и ресторане",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как по-английски будет 'пицца'?",
+        options: ["pizza", "pasta", "pastry", "pie", "pancake"],
+        correctAnswer: "pizza",
+        hint: "Это итальянское блюдо с сыром и томатами"
+      },
+      {
+        type: 'quiz',
+        question: "Как переводится фразу 'Can I help you?'?",
+        options: ["Могу я вам помочь?", "Что вы хотите?", "Как вас зовут?", "Сколько это стоит?", "Где туалет?"],
+        correctAnswer: "Могу я вам помочь?",
+        hint: "Это стандартное приветствие официанта в кафе"
+      },
+      {
+        type: 'quiz',
+        question: "Какое из этих блюд не входит в список урока?",
+        options: ["hamburger", "sandwich", "salad", "steak", "soup"],
+        correctAnswer: "steak",
+        hint: "Посмотрите внимательно на список блюд в уроке"
+      },
+      {
+        type: 'quiz',
+        question: "Как по-английски будет 'суп'?",
+        options: ["salad", "soup", "sauce", "steak", "sandwich"],
+        correctAnswer: "soup",
+        hint: "Это горячее жидкое блюдо, которое подают перед основным"
+      },
+      {
+        type: 'quiz',
+        question: "Какое из этих блюд является десертом?",
+        options: ["hamburger", "salad", "soup", "ice cream", "sandwich"],
+        correctAnswer: "ice cream",
+        hint: "Это холодный сладкий продукт, который едят после основного блюда"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 19: Покупки",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Where can you buy bread?",
+        options: ["supermarket", "butcher's", "greengrocer's", "bookshop", "shoe shop"],
+        correctAnswer: "supermarket",
+        hint: "Bread is a baked product."
+      },
+      {
+        type: 'quiz',
+        question: "Where can you buy fresh vegetables?",
+        options: ["bakery", "greengrocer's", "clothes shop", "toy shop", "butcher's"],
+        correctAnswer: "greengrocer's",
+        hint: "Vegetables are like carrots, tomatoes, and cucumbers."
+      },
+      {
+        type: 'quiz',
+        question: "Where would you buy a new pair of shoes?",
+        options: ["bookshop", "shoe shop", "supermarket", "bakery", "butcher's"],
+        correctAnswer: "shoe shop",
+        hint: "Think about footwear."
+      },
+      {
+        type: 'quiz',
+        question: "Where can you buy meat?",
+        options: ["bakery", "butcher's", "greengrocer's", "toy shop", "clothes shop"],
+        correctAnswer: "butcher's",
+        hint: "Meat comes from animals like cows, pigs, and chickens."
+      },
+      {
+        type: 'quiz',
+        question: "Where can you buy books?",
+        options: ["bookshop", "supermarket", "bakery", "butcher's", "greengrocer's"],
+        correctAnswer: "bookshop",
+        hint: "Books are for reading."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 20: Одежда",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Как по-английски будет пальто?",
+        options: ["Jacket", "Coat", "Raincoat", "Dress", "Sweater"],
+        correctAnswer: "Coat",
+        hint: "Это верхняя одежда, которую носят в холодную погоду."
+      },
+      {
+        type: 'quiz',
+        question: "Выберите правильное перевод слова 'jeans'",
+        options: ["Платье", "Джинсы", "Брюки", "Рубашка", "Футболка"],
+        correctAnswer: "Джинсы",
+        hint: "Это популярная повседневная одежда, обычно синего цвета."
+      },
+      {
+        type: 'quiz',
+        question: "Какой предмет одежды не относится к верхней одежде?",
+        options: ["Coat", "Jacket", "Raincoat", "T-shirt", "Sweater"],
+        correctAnswer: "T-shirt",
+        hint: "Это повседневная одежда, которую носят под верхней одеждой."
+      },
+      {
+        type: 'quiz',
+        question: "Как по-английски будет юбка?",
+        options: ["Dress", "Skirt", "Trousers", "Jeans", "Shirt"],
+        correctAnswer: "Skirt",
+        hint: "Это предмет одежды, который носят на нижней части тела."
+      },
+      {
+        type: 'quiz',
+        question: "Какой предмет одежды носят под пальто?",
+        options: ["Coat", "Raincoat", "Sweater", "T-shirt", "Jeans"],
+        correctAnswer: "Sweater",
+        hint: "Это теплая одежда, которую надевают поверх рубашки или футболки."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 21: Present Simple",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какое время используется для описания регулярных, повторяющихся действий?",
+        options: ["Present Continuous", "Present Simple", "Past Simple", "Future Simple", "Present Perfect"],
+        correctAnswer: "Present Simple",
+        hint: "Present Simple используется для регулярных, повторяющихся действий, фактов и истин, а также для расписаний."
+      },
+      {
+        type: 'quiz',
+        question: "Какая правильная форма глагола для местоимения 'He' в Present Simple?",
+        options: ["work", "works", "working", "worked", "is working"],
+        correctAnswer: "works",
+        hint: "Для местоимений He/She/It в Present Simple добавляется окончание -s/-es к глаголу."
+      },
+      {
+        type: 'quiz',
+        question: "Какое из этих предложений описывает факт или истину?",
+        options: ["I am eating breakfast now.", "She goes to school every day.", "The Earth is round.", "They are playing football.", "He will come tomorrow."],
+        correctAnswer: "The Earth is round.",
+        hint: "Present Simple используется для выражения фактов и истин."
+      },
+      {
+        type: 'quiz',
+        question: "Какое предложение составлено правильно?",
+        options: ["She don't like coffee.", "He go to school every day.", "I plays tennis on weekends.", "They work in an office.", "We lives in London."],
+        correctAnswer: "They work in an office.",
+        hint: "Для местоимения 'They' используется форма глагола без окончания -s/-es."
+      },
+      {
+        type: 'quiz',
+        question: "Какое из этих предложений описывает расписание?",
+        options: ["I drink water.", "The train leaves at 8:00 AM.", "She reads books.", "They play football.", "We eat pizza."],
+        correctAnswer: "The train leaves at 8:00 AM.",
+        hint: "Present Simple используется для описания расписаний (поездов, самолетов, уроков и т.д.)."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 22: Present Continuous",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какое из следующих предложений использует Present Continuous для действия, происходящего прямо сейчас?",
+        options: ["I play football every Sunday.", "She is playing the piano now.", "They played basketball yesterday.", "He will visit his friends tomorrow.", "We eat dinner at 7 PM."],
+        correctAnswer: "She is playing the piano now.",
+        hint: "Present Continuous для действий прямо сейчас включает форму 'am/is/are + глагол с окончанием -ing'."
+      },
+      {
+        type: 'quiz',
+        question: "Как образуется Present Continuous в отрицательной форме?",
+        options: ["do/does + not + глагол", "am/is/are + not + глагол", "will + not + глагол", "was/were + not + глагол", "не + глагол"],
+        correctAnswer: "am/is/are + not + глагол",
+        hint: "Для отрицательной формы Present Continuous используется 'am/is/are + not + глагол с окончанием -ing'."
+      },
+      {
+        type: 'quiz',
+        question: "Какой вопрос правильно образован для Present Continuous?",
+        options: ["You go to school?", "Are you going to school?", "Do you go to school?", "You are go to school?", "Did you go to school?"],
+        correctAnswer: "Are you going to school?",
+        hint: "Вопрос в Present Continuous начинается с 'Am/Is/Are', затем подлежащее и глагол с окончанием -ing."
+      },
+      {
+        type: 'quiz',
+        question: "Выберите предложение, которое использует Present Continuous для планов на ближайшее будущее:",
+        options: ["I am visiting my grandparents next week.", "I visit my grandparents every week.", "I visited my grandparents last week.", "I will visit my grandparents next week.", "I have visited my grandparents this week."],
+        correctAnswer: "I am visiting my grandparents next week.",
+        hint: "Present Continuous может использоваться для планов на ближайшее будущее, особенно когда есть указание на время."
+      },
+      {
+        type: 'quiz',
+        question: "Какое из следующих слов НЕ используется в Present Continuous?",
+        options: ["know", "think", "love", "hate", "study"],
+        correctAnswer: "know",
+        hint: "Глаголы состояния (know, believe, understand, like, love) обычно не используются в Present Continuous, так как они обозначают постоянные состояния, а не действия."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 23: Past Simple",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какое время используется для описания действий, завершённых в прошлом?",
+        options: ["Present Simple", "Past Simple", "Future Simple", "Present Continuous", "Past Continuous"],
+        correctAnswer: "Past Simple",
+        hint: "Past Simple используется для действий, которые уже завершились в прошлом."
+      },
+      {
+        type: 'quiz',
+        question: "Какое окончание добавляется к правильным глаголам в Past Simple?",
+        options: ["-ed", "-ing", "-s", "-en", "-er"],
+        correctAnswer: "-ed",
+        hint: "Правильные глаголы в Past Simple образуются добавлением окончания -ed."
+      },
+      {
+        type: 'quiz',
+        question: "Какая форма глагола 'to be' используется с местоимением 'I' в Past Simple?",
+        options: ["am", "is", "are", "was", "were"],
+        correctAnswer: "was",
+        hint: "Глагол 'to be' в Past Simple для местоимения 'I' имеет форму 'was'."
+      },
+      {
+        type: 'quiz',
+        question: "Какое предложение описывает последовательность действий в прошлом?",
+        options: ["I eat breakfast every day.", "She will come tomorrow.", "He played football and then watched TV.", "They are playing now.", "I am reading a book."],
+        correctAnswer: "He played football and then watched TV.",
+        hint: "Последовательность действий в прошлом выражается с помощью Past Simple и союзов like 'and then', 'after that'."
+      },
+      {
+        type: 'quiz',
+        question: "Какое предложение описывает историческое событие?",
+        options: ["The sun rises in the east.", "They build a new school next year.", "The Roman Empire fell in 476 AD.", "She is cooking dinner now.", "I have been to London."],
+        correctAnswer: "The Roman Empire fell in 476 AD.",
+        hint: "Исторические события обычно описываются в Past Simple."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Урок 24: Future Simple",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какое из следующих предложений использует Future Simple для выражения будущих действий?",
+        options: ["Я ем яблоко", "Я буду есть яблоко", "Я съел яблоко", "Я ем яблоко сейчас", "Я ем яблоко каждый день"],
+        correctAnswer: "Я буду есть яблоко",
+        hint: "Future Simple используется для действий, которые произойдут в будущем."
+      },
+      {
+        type: 'quiz',
+        question: "Как образуется Future Simple для глагола 'to go'?",
+        options: ["Go", "Goes", "Will go", "Going", "Went"],
+        correctAnswer: "Will go",
+        hint: "Future Simple образуется с помощью вспомогательного глагола 'will' и инфинитива глагола без частицы 'to'."
+      },
+      {
+        type: 'quiz',
+        question: "Выберите правильную форму Future Simple для предложения: 'She ________ her homework tomorrow.'",
+        options: ["do", "does", "will do", "doing", "did"],
+        correctAnswer: "will do",
+        hint: "Для выражения будущих действий используется Future Simple с вспомогательным глаголом 'will'."
+      },
+      {
+        type: 'quiz',
+        question: "Какое предложение выражает предсказание с помощью Future Simple?",
+        options: ["It rains tomorrow", "It will rain tomorrow", "It is raining tomorrow", "It rained yesterday", "It has rained"],
+        correctAnswer: "It will rain tomorrow",
+        hint: "Future Simple используется для предсказаний о будущем."
+      },
+      {
+        type: 'quiz',
+        question: "Выберите предложение, которое выражает мгновенное решение с помощью Future Simple:",
+        options: ["I will call you later", "I am calling you now", "I called you yesterday", "I call you every day", "I have called you"],
+        correctAnswer: "I will call you later",
+        hint: "Future Simple используется для выражения мгновенных решений, принятых в момент речи."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   }
 ]

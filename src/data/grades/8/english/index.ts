@@ -709,56 +709,400 @@ If + Past Perfect, would have + V3
 
 export const games: GameLesson[] = [
   {
-    title: "Present Tenses",
+    title: "Present Simple",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "I ___ to school every day.", options: ["am going", "go", "have gone", "went"], correctAnswer: "go", hint: "Regular action = Present Simple" },
-      { type: 'quiz', question: "Look! It ___ .", options: ["rains", "is raining", "rained", "has rained"], correctAnswer: "is raining", hint: "Happening now = Present Continuous" },
-      { type: 'fill', question: "I have ___ (see) this film already.", correctAnswer: "seen", hint: "Present Perfect uses V3" },
-      { type: 'quiz', question: "She ___ in London for 5 years.", options: ["lives", "is living", "has lived", "lived"], correctAnswer: "has lived", hint: "For + period = Present Perfect" }
+      {
+        type: 'quiz',
+        question: "Что такое Основные случаи употребления:?",
+        options: ["Это понятие из другого раздела", "Понятие, обратное данному", "Специальный метод вычисления", "Регулярные, повторяющиеся действия:", "Вспомогательный термин"],
+        correctAnswer: "Регулярные, повторяющиеся действия:",
+        hint: "Вспомни определение из урока про Основные случаи употребления:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Правила правописания:?",
+        options: ["work → works", "Это понятие из другого раздела", "Понятие, обратное данному", "Вспомогательный термин", "Специальный метод вычисления"],
+        correctAnswer: "work → works",
+        hint: "Вспомни определение из урока про Правила правописания:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Present Simple»",
+        options: ["Вспомогательное понятие", "Present Simple", "Дополнительный элемент", "Другой термин", "Связанный термин"],
+        correctAnswer: "Present Simple",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Основные случаи употребления:»",
+        options: ["Основные случаи употребления:", "Другой термин", "Дополнительный элемент", "Связанный термин", "Вспомогательное понятие"],
+        correctAnswer: "Основные случаи употребления:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Образование утверждений:»",
+        options: ["Образование утверждений:", "Другой термин", "Вспомогательное понятие", "Дополнительный элемент", "Связанный термин"],
+        correctAnswer: "Образование утверждений:",
+        hint: "Это ключевое понятие из урока"
+      },
     ],
-    reward: { stars: 3, message: "Excellent! You know Present Tenses! 🌟" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Past Tenses",
+    title: "Present Continuous",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "We ___ to the cinema yesterday.", options: ["go", "are going", "went", "have gone"], correctAnswer: "went", hint: "Yesterday = Past Simple" },
-      { type: 'quiz', question: "At 5 o'clock yesterday I ___ TV.", options: ["watched", "was watching", "have watched", "watch"], correctAnswer: "was watching", hint: "At specific time in the past = Past Continuous" },
-      { type: 'fill', question: "Did she ___ (come) to the party?", correctAnswer: "come", hint: "Did + base form" },
-      { type: 'quiz', question: "When the phone rang, I ___ .", options: ["slept", "was sleeping", "have slept", "sleep"], correctAnswer: "was sleeping", hint: "Interrupted action = Past Continuous" }
+      {
+        type: 'quiz',
+        question: "Что такое Основные случаи употребления:?",
+        options: ["Это понятие из другого раздела", "Специальный метод вычисления", "Вспомогательный термин", "Понятие, обратное данному", "Действие в момент речи:"],
+        correctAnswer: "Действие в момент речи:",
+        hint: "Вспомни определение из урока про Основные случаи употребления:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Правила правописания:?",
+        options: ["Вспомогательный термин", "Это понятие из другого раздела", "Понятие, обратное данному", "Специальный метод вычисления", "work → working"],
+        correctAnswer: "work → working",
+        hint: "Вспомни определение из урока про Правила правописания:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Глаголы, не употребляющиеся в Continuous:?",
+        options: ["Понятие, обратное данному", "состояния: be, have, know, understand, believe", "Специальный метод вычисления", "Вспомогательный термин", "Это понятие из другого раздела"],
+        correctAnswer: "состояния: be, have, know, understand, believe",
+        hint: "Вспомни определение из урока про Глаголы, не употребляющиеся в Continuous:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Present Continuous»",
+        options: ["Другой термин", "Present Continuous", "Вспомогательное понятие", "Связанный термин", "Дополнительный элемент"],
+        correctAnswer: "Present Continuous",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Основные случаи употребления:»",
+        options: ["Дополнительный элемент", "Связанный термин", "Вспомогательное понятие", "Другой термин", "Основные случаи употребления:"],
+        correctAnswer: "Основные случаи употребления:",
+        hint: "Это ключевое понятие из урока"
+      },
     ],
-    reward: { stars: 3, message: "Great job! You understand Past Tenses! ⏮️" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Future Tenses",
+    title: "Present Perfect",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "I think it ___ rain tomorrow.", options: ["will", "is going to", "would", "shall"], correctAnswer: "will", hint: "Prediction = will" },
-      { type: 'quiz', question: "Look at the clouds! It ___ rain.", options: ["will", "is going to", "would", "shall"], correctAnswer: "is going to", hint: "Evidence now = going to" },
-      { type: 'fill', question: "I'm going ___ (study) tonight.", correctAnswer: "to study", hint: "going to + V" },
-      { type: 'quiz', question: "We ___ meet tomorrow at 5. (agreed)", options: ["will", "are going to", "are meeting", "would"], correctAnswer: "are meeting", hint: "Arrangement = Present Continuous" }
+      {
+        type: 'quiz',
+        question: "Что такое Основные случаи употребления:?",
+        options: ["Понятие, обратное данному", "Действие завершилось, результат важен сейчас:", "Специальный метод вычисления", "Это понятие из другого раздела", "Вспомогательный термин"],
+        correctAnswer: "Действие завершилось, результат важен сейчас:",
+        hint: "Вспомни определение из урока про Основные случаи употребления:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Present Perfect»",
+        options: ["Связанный термин", "Дополнительный элемент", "Present Perfect", "Другой термин", "Вспомогательное понятие"],
+        correctAnswer: "Present Perfect",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Основные случаи употребления:»",
+        options: ["Связанный термин", "Вспомогательное понятие", "Основные случаи употребления:", "Дополнительный элемент", "Другой термин"],
+        correctAnswer: "Основные случаи употребления:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Образование:»",
+        options: ["Образование:", "Связанный термин", "Дополнительный элемент", "Вспомогательное понятие", "Другой термин"],
+        correctAnswer: "Образование:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Правильные глаголы:»",
+        options: ["Вспомогательное понятие", "Дополнительный элемент", "Правильные глаголы:", "Связанный термин", "Другой термин"],
+        correctAnswer: "Правильные глаголы:",
+        hint: "Это ключевое понятие из урока"
+      },
     ],
-    reward: { stars: 3, message: "Well done! You know Future Tenses! 🔮" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Modal Verbs",
+    title: "Past Simple",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "You ___ smoke here. It's forbidden.", options: ["can't", "mustn't", "shouldn't", "don't have to"], correctAnswer: "mustn't", hint: "Forbidden = mustn't" },
-      { type: 'quiz', question: "You ___ see a doctor. You look ill.", options: ["can", "must", "should", "may"], correctAnswer: "should", hint: "Advice = should" },
-      { type: 'fill', question: "She can ___ (speak) three languages.", correctAnswer: "speak", hint: "can + base form" },
-      { type: 'quiz', question: "___ you help me, please?", options: ["Can", "Must", "Should", "Have to"], correctAnswer: "Can", hint: "Request = Can/Could" }
+      {
+        type: 'quiz',
+        question: "Что такое Основные случаи употребления:?",
+        options: ["Завершённые действия в прошлом:", "Понятие, обратное данному", "Специальный метод вычисления", "Вспомогательный термин", "Это понятие из другого раздела"],
+        correctAnswer: "Завершённые действия в прошлом:",
+        hint: "Вспомни определение из урока про Основные случаи употребления:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Правила правописания:?",
+        options: ["Специальный метод вычисления", "Понятие, обратное данному", "Это понятие из другого раздела", "work → worked", "Вспомогательный термин"],
+        correctAnswer: "work → worked",
+        hint: "Вспомни определение из урока про Правила правописания:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Past Simple»",
+        options: ["Дополнительный элемент", "Связанный термин", "Past Simple", "Вспомогательное понятие", "Другой термин"],
+        correctAnswer: "Past Simple",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Основные случаи употребления:»",
+        options: ["Вспомогательное понятие", "Другой термин", "Дополнительный элемент", "Основные случаи употребления:", "Связанный термин"],
+        correctAnswer: "Основные случаи употребления:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Вопросы:»",
+        options: ["Связанный термин", "Вопросы:", "Другой термин", "Дополнительный элемент", "Вспомогательное понятие"],
+        correctAnswer: "Вопросы:",
+        hint: "Это ключевое понятие из урока"
+      },
     ],
-    reward: { stars: 3, message: "Perfect! You understand Modal Verbs! ✨" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Past Continuous",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Основные случаи употребления:?",
+        options: ["Понятие, обратное данному", "Действие в определённый момент прошлого:", "Специальный метод вычисления", "Вспомогательный термин", "Это понятие из другого раздела"],
+        correctAnswer: "Действие в определённый момент прошлого:",
+        hint: "Вспомни определение из урока про Основные случаи употребления:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Past Continuous»",
+        options: ["Вспомогательное понятие", "Другой термин", "Past Continuous", "Дополнительный элемент", "Связанный термин"],
+        correctAnswer: "Past Continuous",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Основные случаи употребления:»",
+        options: ["Дополнительный элемент", "Основные случаи употребления:", "Вспомогательное понятие", "Другой термин", "Связанный термин"],
+        correctAnswer: "Основные случаи употребления:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Образование:»",
+        options: ["Дополнительный элемент", "Образование:", "Вспомогательное понятие", "Связанный термин", "Другой термин"],
+        correctAnswer: "Образование:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Вопросы:»",
+        options: ["Другой термин", "Связанный термин", "Вспомогательное понятие", "Вопросы:", "Дополнительный элемент"],
+        correctAnswer: "Вопросы:",
+        hint: "Это ключевое понятие из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Future Simple",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Основные случаи употребления:?",
+        options: ["Понятие, обратное данному", "Это понятие из другого раздела", "Специальный метод вычисления", "Мгновенные решения:", "Вспомогательный термин"],
+        correctAnswer: "Мгновенные решения:",
+        hint: "Вспомни определение из урока про Основные случаи употребления:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Future Simple (will + V)»",
+        options: ["Связанный термин", "Дополнительный элемент", "Другой термин", "Вспомогательное понятие", "Future Simple (will + V)"],
+        correctAnswer: "Future Simple (will + V)",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Основные случаи употребления:»",
+        options: ["Дополнительный элемент", "Другой термин", "Основные случаи употребления:", "Вспомогательное понятие", "Связанный термин"],
+        correctAnswer: "Основные случаи употребления:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Образование:»",
+        options: ["Образование:", "Связанный термин", "Другой термин", "Дополнительный элемент", "Вспомогательное понятие"],
+        correctAnswer: "Образование:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Утверждения:»",
+        options: ["Связанный термин", "Вспомогательное понятие", "Утверждения:", "Другой термин", "Дополнительный элемент"],
+        correctAnswer: "Утверждения:",
+        hint: "Это ключевое понятие из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "To be going to",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Основные случаи употребления:?",
+        options: ["Понятие, обратное данному", "Специальный метод вычисления", "Это понятие из другого раздела", "Планы и намерения:", "Вспомогательный термин"],
+        correctAnswer: "Планы и намерения:",
+        hint: "Вспомни определение из урока про Основные случаи употребления:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «To be going to + V»",
+        options: ["Другой термин", "Связанный термин", "Дополнительный элемент", "Вспомогательное понятие", "To be going to + V"],
+        correctAnswer: "To be going to + V",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Основные случаи употребления:»",
+        options: ["Связанный термин", "Основные случаи употребления:", "Дополнительный элемент", "Другой термин", "Вспомогательное понятие"],
+        correctAnswer: "Основные случаи употребления:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Образование:»",
+        options: ["Другой термин", "Дополнительный элемент", "Связанный термин", "Образование:", "Вспомогательное понятие"],
+        correctAnswer: "Образование:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Вопросы:»",
+        options: ["Вопросы:", "Другой термин", "Вспомогательное понятие", "Дополнительный элемент", "Связанный термин"],
+        correctAnswer: "Вопросы:",
+        hint: "Это ключевое понятие из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Modal Verbs: Can, Could, Must",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «MUST vs HAVE TO:»",
+        options: ["MUST vs HAVE TO:", "Дополнительный элемент", "Другой термин", "Вспомогательное понятие", "Связанный термин"],
+        correctAnswer: "MUST vs HAVE TO:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «MUSTN'T vs DON'T HAVE TO:»",
+        options: ["MUSTN'T vs DON'T HAVE TO:", "Дополнительный элемент", "Связанный термин", "Другой термин", "Вспомогательное понятие"],
+        correctAnswer: "MUSTN'T vs DON'T HAVE TO:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Примеры:»",
+        options: ["Связанный термин", "Другой термин", "Дополнительный элемент", "Вспомогательное понятие", "Примеры:"],
+        correctAnswer: "Примеры:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: Modal Verbs (Модальные глаголы) выражают отношение говорящего к действию.",
+        options: ["Частично верно", "Зависит от контекста", "Нет, неверно", "Только в некоторых случаях", "Да, верно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: CAN — физическая возможность, умение: - *I can swim.",
+        options: ["Нет, неверно", "Только в некоторых случаях", "Частично верно", "Да, верно", "Зависит от контекста"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Modal Verbs: Should, May, Might",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «SHOULD — совет, рекомендация:»",
+        options: ["Вспомогательное понятие", "Дополнительный элемент", "SHOULD — совет, рекомендация:", "Другой термин", "Связанный термин"],
+        correctAnswer: "SHOULD — совет, рекомендация:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «MIGHT — меньшая вероятность:»",
+        options: ["Дополнительный элемент", "MIGHT — меньшая вероятность:", "Связанный термин", "Другой термин", "Вспомогательное понятие"],
+        correctAnswer: "MIGHT — меньшая вероятность:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Степени вероятности:»",
+        options: ["Вспомогательное понятие", "Дополнительный элемент", "Другой термин", "Степени вероятности:", "Связанный термин"],
+        correctAnswer: "Степени вероятности:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Примеры:»",
+        options: ["Примеры:", "Другой термин", "Дополнительный элемент", "Вспомогательное понятие", "Связанный термин"],
+        correctAnswer: "Примеры:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: SHOULD — совет, рекомендация: - *You should see a doctor.",
+        options: ["Зависит от контекста", "Частично верно", "Да, верно", "Нет, неверно", "Только в некоторых случаях"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
     title: "Passive Voice",
@@ -766,24 +1110,262 @@ export const games: GameLesson[] = [
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "English ___ all over the world.", options: ["speaks", "is spoken", "spoke", "is speaking"], correctAnswer: "is spoken", hint: "Present Simple Passive" },
-      { type: 'quiz', question: "The letter ___ yesterday.", options: ["sent", "was sent", "is sent", "sends"], correctAnswer: "was sent", hint: "Past Simple Passive" },
-      { type: 'fill', question: "The book will be ___ (finish) soon.", correctAnswer: "finished", hint: "will be + V3" },
-      { type: 'quiz', question: "This picture was painted ___ Picasso.", options: ["with", "by", "from", "of"], correctAnswer: "by", hint: "Agent = by" }
+      {
+        type: 'quiz',
+        question: "Что такое Passive Voice (Страдательный залог)?",
+        options: ["действие производится над подлежащим.", "Понятие, обратное данному", "Вспомогательный термин", "Это понятие из другого раздела", "Специальный метод вычисления"],
+        correctAnswer: "действие производится над подлежащим.",
+        hint: "Вспомни определение из урока про Passive Voice (Страдательный залог)"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Active:»",
+        options: ["Active:", "Дополнительный элемент", "Вспомогательное понятие", "Другой термин", "Связанный термин"],
+        correctAnswer: "Active:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Passive:»",
+        options: ["Дополнительный элемент", "Связанный термин", "Другой термин", "Вспомогательное понятие", "Passive:"],
+        correctAnswer: "Passive:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Образование Passive Voice:»",
+        options: ["Дополнительный элемент", "Связанный термин", "Вспомогательное понятие", "Другой термин", "Образование Passive Voice:"],
+        correctAnswer: "Образование Passive Voice:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Present Simple Passive:»",
+        options: ["Вспомогательное понятие", "Другой термин", "Present Simple Passive:", "Дополнительный элемент", "Связанный термин"],
+        correctAnswer: "Present Simple Passive:",
+        hint: "Это ключевое понятие из урока"
+      },
     ],
-    reward: { stars: 3, message: "Excellent! You know Passive Voice! 📝" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Conditionals",
+    title: "Conditionals: Zero and First",
     subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "If it rains, I ___ at home.", options: ["stay", "will stay", "would stay", "stayed"], correctAnswer: "will stay", hint: "First Conditional" },
-      { type: 'quiz', question: "If I were you, I ___ accept.", options: ["will", "would", "would have", "had"], correctAnswer: "would", hint: "Second Conditional" },
-      { type: 'fill', question: "If I had known, I ___ have told you.", correctAnswer: "would", hint: "Third Conditional" },
-      { type: 'quiz', question: "If you heat water to 100°C, it ___.", options: ["will boil", "would boil", "boils", "boiled"], correctAnswer: "boils", hint: "Zero Conditional = fact" }
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Структура First Conditional:»",
+        options: ["Структура First Conditional:", "Вспомогательное понятие", "Дополнительный элемент", "Связанный термин", "Другой термин"],
+        correctAnswer: "Структура First Conditional:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Вариации Main Clause:»",
+        options: ["Связанный термин", "Другой термин", "Вспомогательное понятие", "Дополнительный элемент", "Вариации Main Clause:"],
+        correctAnswer: "Вариации Main Clause:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Unless = If not:»",
+        options: ["Дополнительный элемент", "Связанный термин", "Вспомогательное понятие", "Unless = If not:", "Другой термин"],
+        correctAnswer: "Unless = If not:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «When vs If:»",
+        options: ["Дополнительный элемент", "Вспомогательное понятие", "Другой термин", "When vs If:", "Связанный термин"],
+        correctAnswer: "When vs If:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Примеры:»",
+        options: ["Дополнительный элемент", "Примеры:", "Вспомогательное понятие", "Связанный термин", "Другой термин"],
+        correctAnswer: "Примеры:",
+        hint: "Это ключевое понятие из урока"
+      },
     ],
-    reward: { stars: 3, message: "Great! You understand Conditionals! 🔀" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Conditionals: Second and Third",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Важно:»",
+        options: ["Связанный термин", "Дополнительный элемент", "Другой термин", "Вспомогательное понятие", "Важно:"],
+        correctAnswer: "Важно:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Таблица условных предложений:»",
+        options: ["Вспомогательное понятие", "Связанный термин", "Дополнительный элемент", "Таблица условных предложений:", "Другой термин"],
+        correctAnswer: "Таблица условных предложений:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Примеры:»",
+        options: ["Дополнительный элемент", "Вспомогательное понятие", "Примеры:", "Другой термин", "Связанный термин"],
+        correctAnswer: "Примеры:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: условия в настоящем: If + Past Simple, would + V - *If I had a million dollars, I would buy a house.",
+        options: ["Только в некоторых случаях", "Нет, неверно", "Частично верно", "Зависит от контекста", "Да, верно"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Верно ли утверждение: * - *If I were you, I would accept the offer.",
+        options: ["Нет, неверно", "Да, верно", "Зависит от контекста", "Частично верно", "Только в некоторых случаях"],
+        correctAnswer: "Да, верно",
+        hint: "Это утверждение из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Daily Routine",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Утро (Morning):?",
+        options: ["wake up — просыпаться", "Вспомогательный термин", "Понятие, обратное данному", "Это понятие из другого раздела", "Специальный метод вычисления"],
+        correctAnswer: "wake up — просыпаться",
+        hint: "Вспомни определение из урока про Утро (Morning):"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое День (Day):?",
+        options: ["Специальный метод вычисления", "have lunch — обедать", "Вспомогательный термин", "Это понятие из другого раздела", "Понятие, обратное данному"],
+        correctAnswer: "have lunch — обедать",
+        hint: "Вспомни определение из урока про День (Day):"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Вечер (Evening):?",
+        options: ["Понятие, обратное данному", "Специальный метод вычисления", "Вспомогательный термин", "Это понятие из другого раздела", "come home — приходить домой"],
+        correctAnswer: "come home — приходить домой",
+        hint: "Вспомни определение из урока про Вечер (Evening):"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Предлоги времени:?",
+        options: ["at 7 o'clock, at noon, at night", "Специальный метод вычисления", "Вспомогательный термин", "Понятие, обратное данному", "Это понятие из другого раздела"],
+        correctAnswer: "at 7 o'clock, at noon, at night",
+        hint: "Вспомни определение из урока про Предлоги времени:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Утро (Morning):»",
+        options: ["Дополнительный элемент", "Вспомогательное понятие", "Связанный термин", "Другой термин", "Утро (Morning):"],
+        correctAnswer: "Утро (Morning):",
+        hint: "Это ключевое понятие из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Hobbies and Free Time",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Виды хобби:?",
+        options: ["Это понятие из другого раздела", "Специальный метод вычисления", "read books / magazines — читать книги/журналы", "Вспомогательный термин", "Понятие, обратное данному"],
+        correctAnswer: "read books / magazines — читать книги/журналы",
+        hint: "Вспомни определение из урока про Виды хобби:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Музыкальные инструменты:?",
+        options: ["Понятие, обратное данному", "Вспомогательный термин", "Это понятие из другого раздела", "Специальный метод вычисления", "play the piano — играть на пианино"],
+        correctAnswer: "play the piano — играть на пианино",
+        hint: "Вспомни определение из урока про Музыкальные инструменты:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Спорт:?",
+        options: ["Это понятие из другого раздела", "Понятие, обратное данному", "Вспомогательный термин", "play football / tennis / basketball", "Специальный метод вычисления"],
+        correctAnswer: "play football / tennis / basketball",
+        hint: "Вспомни определение из урока про Спорт:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Виды хобби:»",
+        options: ["Дополнительный элемент", "Связанный термин", "Другой термин", "Виды хобби:", "Вспомогательное понятие"],
+        correctAnswer: "Виды хобби:",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Музыкальные инструменты:»",
+        options: ["Вспомогательное понятие", "Музыкальные инструменты:", "Дополнительный элемент", "Другой термин", "Связанный термин"],
+        correctAnswer: "Музыкальные инструменты:",
+        hint: "Это ключевое понятие из урока"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Reading Strategies",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое 1. Skimming (Просмотровое чтение):?",
+        options: ["Специальный метод вычисления", "Быстрое прочтение для общего понимания", "Понятие, обратное данному", "Вспомогательный термин", "Это понятие из другого раздела"],
+        correctAnswer: "Быстрое прочтение для общего понимания",
+        hint: "Вспомни определение из урока про 1. Skimming (Просмотровое чтение):"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое 2. Scanning (Поисковое чтение):?",
+        options: ["Специальный метод вычисления", "Это понятие из другого раздела", "Понятие, обратное данному", "Вспомогательный термин", "Поиск конкретной информации"],
+        correctAnswer: "Поиск конкретной информации",
+        hint: "Вспомни определение из урока про 2. Scanning (Поисковое чтение):"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое 3. Detailed Reading (Изучающее чтение):?",
+        options: ["Внимательное чтение всего текста", "Понятие, обратное данному", "Специальный метод вычисления", "Вспомогательный термин", "Это понятие из другого раздела"],
+        correctAnswer: "Внимательное чтение всего текста",
+        hint: "Вспомни определение из урока про 3. Detailed Reading (Изучающее чтение):"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Структура текста:?",
+        options: ["Вспомогательный термин", "Это понятие из другого раздела", "Introduction (введение) — главная идея", "Понятие, обратное данному", "Специальный метод вычисления"],
+        correctAnswer: "Introduction (введение) — главная идея",
+        hint: "Вспомни определение из урока про Структура текста:"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое При чтении обращайте внимание на:?",
+        options: ["Вспомогательный термин", "Title — заголовок", "Специальный метод вычисления", "Понятие, обратное данному", "Это понятие из другого раздела"],
+        correctAnswer: "Title — заголовок",
+        hint: "Вспомни определение из урока про При чтении обращайте внимание на:"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   }
 ]

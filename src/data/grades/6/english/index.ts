@@ -632,55 +632,355 @@ export const lessons: SubjectData = {
 
 export const games: GameLesson[] = [
   {
-    title: "Family and Appearance",
-    subject: "English",
+    title: "Family Members",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "How do you say 'мама' in English?", options: ["Father", "Mother", "Sister", "Brother"], correctAnswer: "Mother", hint: "Female parent" },
-      { type: 'find', question: "Choose family members:", options: ["Mother", "Teacher", "Father", "Doctor", "Sister", "Driver"], correctAnswer: ["Mother", "Father", "Sister"], hint: "People in a family" },
-      { type: 'quiz', question: "What does 'slim' mean?", options: ["Высокий", "Стройный", "Полный", "Низкий"], correctAnswer: "Стройный", hint: "Body type" },
-      { type: 'quiz', question: "How do you say 'у него голубые глаза'?", options: ["He has green eyes", "He has blue eyes", "He has brown eyes", "He has black eyes"], correctAnswer: "He has blue eyes", hint: "Eye color" }
+      {
+        type: 'quiz',
+        question: "Что такое Grandparents?",
+        options: ["бабушка и дедушка", "Понятие, обратное данному", "Вспомогательный термин", "Специальный метод вычисления", "Это понятие из другого раздела"],
+        correctAnswer: "бабушка и дедушка",
+        hint: "Вспомни определение из урока про Grandparents"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Cousin?",
+        options: ["Это понятие из другого раздела", "Вспомогательный термин", "Специальный метод вычисления", "двоюродный брат/сестра", "Понятие, обратное данному"],
+        correctAnswer: "двоюродный брат/сестра",
+        hint: "Вспомни определение из урока про Cousin"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Key Points:?",
+        options: ["Вспомогательный термин", "Понятие, обратное данному", "Use \"my, your, his, her\" for singular", "Это понятие из другого раздела", "Специальный метод вычисления"],
+        correctAnswer: "Use \"my, your, his, her\" for singular",
+        hint: "Вспомни определение из урока про Key Points:"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Mother / Mom / Mum»",
+        options: ["Mother / Mom / Mum", "Другой термин", "Вспомогательное понятие", "Дополнительный элемент", "Связанный термин"],
+        correctAnswer: "Mother / Mom / Mum",
+        hint: "Это ключевое понятие из урока"
+      },
+      {
+        type: 'quiz',
+        question: "Какой термин пропущен? В уроке говорится о «Father / Dad»",
+        options: ["Вспомогательное понятие", "Связанный термин", "Father / Dad", "Другой термин", "Дополнительный элемент"],
+        correctAnswer: "Father / Dad",
+        hint: "Это ключевое понятие из урока"
+      },
     ],
-    reward: { stars: 3, message: "Great! You know family vocabulary! 👨‍👩‍👧‍👦" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Time and Routine",
-    subject: "English",
+    title: "Describing People",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "What time is 'half past seven'?", options: ["7:00", "7:15", "7:30", "7:45"], correctAnswer: "7:30", hint: "30 minutes after 7" },
-      { type: 'find', question: "Choose daily activities:", options: ["Wake up", "Play", "Have breakfast", "Sleep", "Go to school", "Run"], correctAnswer: ["Wake up", "Have breakfast", "Go to school"], hint: "Morning activities" },
-      { type: 'quiz', question: "Which preposition: '___ Monday'?", options: ["at", "on", "in", "to"], correctAnswer: "on", hint: "For days of the week" },
-      { type: 'quiz', question: "What does 'usually' mean?", options: ["Всегда", "Обычно", "Иногда", "Никогда"], correctAnswer: "Обычно", hint: "Adverb of frequency" }
+      {
+        type: 'quiz',
+        question: "Что такое medium height?",
+        options: ["Специальный метод вычисления", "Понятие, обратное данному", "Это понятие из другого раздела", "среднего роста", "Вспомогательный термин"],
+        correctAnswer: "среднего роста",
+        hint: "Вспомни определение из урока про medium height"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое athletic?",
+        options: ["Вспомогательный термин", "Это понятие из другого раздела", "Специальный метод вычисления", "Понятие, обратное данному", "атлетический"],
+        correctAnswer: "атлетический",
+        hint: "Вспомни определение из урока про athletic"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое long / short hair?",
+        options: ["Это понятие из другого раздела", "Специальный метод вычисления", "Понятие, обратное данному", "длинные / короткие волосы", "Вспомогательный термин"],
+        correctAnswer: "длинные / короткие волосы",
+        hint: "Вспомни определение из урока про long / short hair"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое blue eyes?",
+        options: ["Понятие, обратное данному", "Это понятие из другого раздела", "голубые глаза", "Специальный метод вычисления", "Вспомогательный термин"],
+        correctAnswer: "голубые глаза",
+        hint: "Вспомни определение из урока про blue eyes"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое brown eyes?",
+        options: ["Это понятие из другого раздела", "карие глаза", "Понятие, обратное данному", "Вспомогательный термин", "Специальный метод вычисления"],
+        correctAnswer: "карие глаза",
+        hint: "Вспомни определение из урока про brown eyes"
+      },
     ],
-    reward: { stars: 3, message: "Great! You know daily routine! ⏰" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Hobbies and Abilities",
-    subject: "English",
+    title: "Time and Daily Activities",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "How do you say 'играть на гитаре'?", options: ["play guitar", "play the guitar", "play a guitar", "playing guitar"], correctAnswer: "play the guitar", hint: "Use 'the' for instruments" },
-      { type: 'find', question: "Choose hobbies:", options: ["Reading", "Walking", "Swimming", "Sleeping", "Drawing", "Eating"], correctAnswer: ["Reading", "Swimming", "Drawing"], hint: "Activities people do for fun" },
-      { type: 'quiz', question: "Complete: 'She ___ play tennis.'", options: ["can", "cans", "can to", "is can"], correctAnswer: "can", hint: "Modal verb stays the same" },
-      { type: 'quiz', question: "What does 'can't' mean?", options: ["Могу", "Не могу", "Хочу", "Не хочу"], correctAnswer: "Не могу", hint: "Negative ability" }
+      {
+        type: 'quiz',
+        question: "Что такое half past seven?",
+        options: ["Это понятие из другого раздела", "Вспомогательный термин", "Специальный метод вычисления", "Понятие, обратное данному", "половина восьмого (7:30)"],
+        correctAnswer: "половина восьмого (7:30)",
+        hint: "Вспомни определение из урока про half past seven"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое quarter past seven?",
+        options: ["четверть восьмого (7:15)", "Вспомогательный термин", "Это понятие из другого раздела", "Понятие, обратное данному", "Специальный метод вычисления"],
+        correctAnswer: "четверть восьмого (7:15)",
+        hint: "Вспомни определение из урока про quarter past seven"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое quarter to eight?",
+        options: ["Понятие, обратное данному", "Вспомогательный термин", "Это понятие из другого раздела", "без четверти восемь (7:45)", "Специальный метод вычисления"],
+        correctAnswer: "без четверти восемь (7:45)",
+        hint: "Вспомни определение из урока про quarter to eight"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое ten past three?",
+        options: ["Это понятие из другого раздела", "Понятие, обратное данному", "Специальный метод вычисления", "Вспомогательный термин", "десять минут четвёртого (3:10)"],
+        correctAnswer: "десять минут четвёртого (3:10)",
+        hint: "Вспомни определение из урока про ten past three"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое twenty to six?",
+        options: ["Специальный метод вычисления", "без двадцати шесть (5:40)", "Это понятие из другого раздела", "Вспомогательный термин", "Понятие, обратное данному"],
+        correctAnswer: "без двадцати шесть (5:40)",
+        hint: "Вспомни определение из урока про twenty to six"
+      },
     ],
-    reward: { stars: 3, message: "Amazing! You know hobbies and abilities! 🎨" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   },
   {
-    title: "Travelling",
-    subject: "English",
+    title: "Days of the Week and Prepositions",
+    subject: "Иностранный язык",
     icon: "Languages",
     color: "text-pink-400",
     tasks: [
-      { type: 'quiz', question: "How do you say 'паспорт' in English?", options: ["Ticket", "Passport", "Boarding pass", "Visa"], correctAnswer: "Passport", hint: "Travel document" },
-      { type: 'find', question: "Choose airport places:", options: ["Gate", "School", "Check-in desk", "Hospital", "Customs", "Park"], correctAnswer: ["Gate", "Check-in desk", "Customs"], hint: "Places at an airport" },
-      { type: 'quiz', question: "What nationality is from France?", options: ["French", "Francish", "France", "Franch"], correctAnswer: "French", hint: "People from France" },
-      { type: 'quiz', question: "Complete: 'I'm ___ Russia.'", options: ["from", "in", "at", "of"], correctAnswer: "from", hint: "Talking about origin" }
+      {
+        type: 'quiz',
+        question: "Что такое Monday?",
+        options: ["Специальный метод вычисления", "Понятие, обратное данному", "понедельник", "Это понятие из другого раздела", "Вспомогательный термин"],
+        correctAnswer: "понедельник",
+        hint: "Вспомни определение из урока про Monday"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Sunday?",
+        options: ["Это понятие из другого раздела", "Понятие, обратное данному", "Специальный метод вычисления", "Вспомогательный термин", "воскресенье"],
+        correctAnswer: "воскресенье",
+        hint: "Вспомни определение из урока про Sunday"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое on Monday?",
+        options: ["Вспомогательный термин", "Специальный метод вычисления", "в понедельник", "Понятие, обратное данному", "Это понятие из другого раздела"],
+        correctAnswer: "в понедельник",
+        hint: "Вспомни определение из урока про on Monday"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое on Friday morning?",
+        options: ["Это понятие из другого раздела", "в пятницу утром", "Понятие, обратное данному", "Специальный метод вычисления", "Вспомогательный термин"],
+        correctAnswer: "в пятницу утром",
+        hint: "Вспомни определение из урока про on Friday morning"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое on my birthday?",
+        options: ["Это понятие из другого раздела", "Понятие, обратное данному", "Вспомогательный термин", "в мой день рождения", "Специальный метод вычисления"],
+        correctAnswer: "в мой день рождения",
+        hint: "Вспомни определение из урока про on my birthday"
+      },
     ],
-    reward: { stars: 3, message: "Excellent! You're ready to travel! ✈️" }
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Free Time Activities",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое play football?",
+        options: ["Вспомогательный термин", "играть в футбол", "Понятие, обратное данному", "Специальный метод вычисления", "Это понятие из другого раздела"],
+        correctAnswer: "играть в футбол",
+        hint: "Вспомни определение из урока про play football"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое play basketball?",
+        options: ["Это понятие из другого раздела", "играть в баскетбол", "Понятие, обратное данному", "Вспомогательный термин", "Специальный метод вычисления"],
+        correctAnswer: "играть в баскетбол",
+        hint: "Вспомни определение из урока про play basketball"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое play tennis?",
+        options: ["Специальный метод вычисления", "Это понятие из другого раздела", "Понятие, обратное данному", "играть в теннис", "Вспомогательный термин"],
+        correctAnswer: "играть в теннис",
+        hint: "Вспомни определение из урока про play tennis"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое play volleyball?",
+        options: ["Это понятие из другого раздела", "Специальный метод вычисления", "играть в волейбол", "Вспомогательный термин", "Понятие, обратное данному"],
+        correctAnswer: "играть в волейбол",
+        hint: "Вспомни определение из урока про play volleyball"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое ride a bike?",
+        options: ["Это понятие из другого раздела", "кататься на велосипеде", "Вспомогательный термин", "Понятие, обратное данному", "Специальный метод вычисления"],
+        correctAnswer: "кататься на велосипеде",
+        hint: "Вспомни определение из урока про ride a bike"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Can / Can't for Abilities",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое can?",
+        options: ["Специальный метод вычисления", "мочь, уметь (ability)", "Вспомогательный термин", "Понятие, обратное данному", "Это понятие из другого раздела"],
+        correctAnswer: "мочь, уметь (ability)",
+        hint: "Вспомни определение из урока про can"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое can't / cannot?",
+        options: ["Специальный метод вычисления", "Вспомогательный термин", "Понятие, обратное данному", "Это понятие из другого раздела", "не мочь, не уметь"],
+        correctAnswer: "не мочь, не уметь",
+        hint: "Вспомни определение из урока про can't / cannot"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое No, I can't.?",
+        options: ["Это понятие из другого раздела", "Вспомогательный термин", "Специальный метод вычисления", "Нет, не умею.", "Понятие, обратное данному"],
+        correctAnswer: "Нет, не умею.",
+        hint: "Вспомни определение из урока про No, I can't."
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Yes, she can.?",
+        options: ["Вспомогательный термин", "Это понятие из другого раздела", "Понятие, обратное данному", "Специальный метод вычисления", "Да, она умеет."],
+        correctAnswer: "Да, она умеет.",
+        hint: "Вспомни определение из урока про Yes, she can."
+      },
+      {
+        type: 'quiz',
+        question: "Что такое No, he can't.?",
+        options: ["Понятие, обратное данному", "Нет, он не умеет.", "Специальный метод вычисления", "Вспомогательный термин", "Это понятие из другого раздела"],
+        correctAnswer: "Нет, он не умеет.",
+        hint: "Вспомни определение из урока про No, he can't."
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "At the Airport",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое arrival hall?",
+        options: ["зал прилёта", "Специальный метод вычисления", "Понятие, обратное данному", "Вспомогательный термин", "Это понятие из другого раздела"],
+        correctAnswer: "зал прилёта",
+        hint: "Вспомни определение из урока про arrival hall"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое gate?",
+        options: ["Вспомогательный термин", "Понятие, обратное данному", "выход на посадку", "Это понятие из другого раздела", "Специальный метод вычисления"],
+        correctAnswer: "выход на посадку",
+        hint: "Вспомни определение из урока про gate"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое baggage claim?",
+        options: ["Понятие, обратное данному", "Специальный метод вычисления", "Вспомогательный термин", "выдача багажа", "Это понятие из другого раздела"],
+        correctAnswer: "выдача багажа",
+        hint: "Вспомни определение из урока про baggage claim"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое check-in desk?",
+        options: ["Специальный метод вычисления", "стойка регистрации", "Вспомогательный термин", "Понятие, обратное данному", "Это понятие из другого раздела"],
+        correctAnswer: "стойка регистрации",
+        hint: "Вспомни определение из урока про check-in desk"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое duty-free shop?",
+        options: ["Вспомогательный термин", "Понятие, обратное данному", "Специальный метод вычисления", "магазин беспошлинной торговли", "Это понятие из другого раздела"],
+        correctAnswer: "магазин беспошлинной торговли",
+        hint: "Вспомни определение из урока про duty-free shop"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
+  },
+  {
+    title: "Countries and Nationalities",
+    subject: "Иностранный язык",
+    icon: "Languages",
+    color: "text-pink-400",
+    tasks: [
+      {
+        type: 'quiz',
+        question: "Что такое Russian?",
+        options: ["Понятие, обратное данному", "русский язык", "Вспомогательный термин", "Специальный метод вычисления", "Это понятие из другого раздела"],
+        correctAnswer: "русский язык",
+        hint: "Вспомни определение из урока про Russian"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое English?",
+        options: ["Понятие, обратное данному", "Специальный метод вычисления", "Вспомогательный термин", "английский язык", "Это понятие из другого раздела"],
+        correctAnswer: "английский язык",
+        hint: "Вспомни определение из урока про English"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое French?",
+        options: ["Это понятие из другого раздела", "Специальный метод вычисления", "Вспомогательный термин", "Понятие, обратное данному", "французский язык"],
+        correctAnswer: "французский язык",
+        hint: "Вспомни определение из урока про French"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое German?",
+        options: ["немецкий язык", "Специальный метод вычисления", "Вспомогательный термин", "Это понятие из другого раздела", "Понятие, обратное данному"],
+        correctAnswer: "немецкий язык",
+        hint: "Вспомни определение из урока про German"
+      },
+      {
+        type: 'quiz',
+        question: "Что такое Spanish?",
+        options: ["Вспомогательный термин", "Это понятие из другого раздела", "Понятие, обратное данному", "Специальный метод вычисления", "испанский язык"],
+        correctAnswer: "испанский язык",
+        hint: "Вспомни определение из урока про Spanish"
+      },
+    ],
+    reward: { stars: 3, message: "Отлично! Ты знаешь тему! 🎉" }
   }
 ]
