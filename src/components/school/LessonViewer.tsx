@@ -29,7 +29,9 @@ export default function LessonViewer() {
   const [detailLesson, setDetailLesson] = useState<SelectedLesson | null>(null)
   const [isDetailOpen, setIsDetailOpen] = useState(false)
   
-  const games = contextGames || []
+  // Фильтруем игры только по текущему предмету
+  const allGames = contextGames || []
+  const games = allGames.filter(g => g.subject === selectedSubject?.title)
 
   // При возврате из теста - открыть модальное окно с уроком
   useEffect(() => {
@@ -119,13 +121,8 @@ export default function LessonViewer() {
     if (generatedGame) {
       selectGameFromLesson(generatedGame)
     } else if (games.length > 0) {
-      // Fallback - случайная игра по предмету
-      const subjectGames = games.filter(g => g.subject === selectedSubject.title)
-      if (subjectGames.length > 0) {
-        selectGameFromLesson(subjectGames[Math.floor(Math.random() * subjectGames.length)])
-      } else {
-        selectGameFromLesson(games[Math.floor(Math.random() * games.length)])
-      }
+      // Fallback - случайная игра по предмету (games уже отфильтрованы по предмету)
+      selectGameFromLesson(games[Math.floor(Math.random() * games.length)])
     }
   }
   

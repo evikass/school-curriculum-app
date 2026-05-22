@@ -292,7 +292,9 @@ export default function KidLessonViewer() {
   if (!selectedSubject) return null
 
   const topics = selectedSubject.detailedTopics || []
-  const games = contextGames || []
+  // Фильтруем игры только по текущему предмету
+  const allGames = contextGames || []
+  const games = allGames.filter(g => g.subject === selectedSubject?.title)
 
   // Если выбран урок - показываем его содержимое
   if (selectedLesson) {
@@ -410,13 +412,9 @@ export default function KidLessonViewer() {
               {/* Кнопка Тест - всегда видна */}
               <button
                 onClick={() => {
-                  const subjectGames = games.filter(g =>
-                    g.subject === selectedSubject.title ||
-                    selectedSubject.title.toLowerCase().includes(g.subject.toLowerCase()) ||
-                    g.subject.toLowerCase().includes(selectedSubject.title.toLowerCase())
-                  )
-                  if (subjectGames.length > 0) {
-                    const randomGame = subjectGames[Math.floor(Math.random() * subjectGames.length)]
+                  // games уже отфильтрованы по текущему предмету
+                  if (games.length > 0) {
+                    const randomGame = games[Math.floor(Math.random() * games.length)]
                     selectGameFromLesson(randomGame)
                   } else {
                     const generatedGame = generateLessonQuiz(
@@ -426,9 +424,6 @@ export default function KidLessonViewer() {
                     )
                     if (generatedGame) {
                       selectGameFromLesson(generatedGame)
-                    } else if (games.length > 0) {
-                      const randomGame = games[Math.floor(Math.random() * games.length)]
-                      selectGameFromLesson(randomGame)
                     }
                   }
                 }}
