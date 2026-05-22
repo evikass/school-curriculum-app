@@ -404,6 +404,66 @@ function ElectronConfigDisplay({ atomicNumber }: { atomicNumber: number }) {
   )
 }
 
+// Отображение состава ядра (протоны и нейтроны)
+function NucleusConfigDisplay({ atomicNumber, atomicMass }: { atomicNumber: number; atomicMass: string }) {
+  const neutronCount = Math.round(parseFloat(atomicMass)) - atomicNumber
+  
+  return (
+    <div className="bg-black/30 rounded-lg p-2 sm:p-3 backdrop-blur-sm border border-white/10">
+      <div className="text-[10px] sm:text-xs text-white/60 mb-1.5 text-center font-medium">Состав ядра</div>
+      <div className="space-y-1.5">
+        {/* Протоны */}
+        <div className="flex items-center gap-2">
+          <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center text-white text-[10px] sm:text-xs font-bold shadow-lg flex-shrink-0">
+            p+
+          </div>
+          <div className="flex-1 flex items-center gap-0.5 flex-wrap">
+            {Array.from({ length: Math.min(atomicNumber, 40) }).map((_, i) => (
+              <motion.div
+                key={i}
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ delay: i * 0.015, duration: 0.2 }}
+                className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-gradient-to-br from-red-400 to-red-600 shadow-sm"
+              />
+            ))}
+            {atomicNumber > 40 && (
+              <span className="text-red-400 text-[10px] sm:text-xs ml-0.5">+{atomicNumber - 40}</span>
+            )}
+          </div>
+          <div className="text-white font-bold text-xs sm:text-sm w-5 sm:w-6 text-right flex-shrink-0">{atomicNumber}</div>
+        </div>
+        {/* Нейтроны */}
+        <div className="flex items-center gap-2">
+          <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white text-[10px] sm:text-xs font-bold shadow-lg flex-shrink-0">
+            n
+          </div>
+          <div className="flex-1 flex items-center gap-0.5 flex-wrap">
+            {Array.from({ length: Math.min(neutronCount, 40) }).map((_, i) => (
+              <motion.div
+                key={i}
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ delay: 0.3 + i * 0.015, duration: 0.2 }}
+                className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 shadow-sm"
+              />
+            ))}
+            {neutronCount > 40 && (
+              <span className="text-blue-400 text-[10px] sm:text-xs ml-0.5">+{neutronCount - 40}</span>
+            )}
+          </div>
+          <div className="text-white font-bold text-xs sm:text-sm w-5 sm:w-6 text-right flex-shrink-0">{neutronCount}</div>
+        </div>
+      </div>
+      <div className="mt-1.5 pt-1.5 border-t border-white/10 text-center">
+        <span className="text-white/80 text-[10px] sm:text-xs">Массовое число: </span>
+        <span className="text-white font-bold text-xs sm:text-sm">{atomicNumber + neutronCount}</span>
+        <span className="text-white/60 text-[10px] sm:text-xs"> ({atomicNumber}p + {neutronCount}n)</span>
+      </div>
+    </div>
+  )
+}
+
 // Все 118 элементов с подробной информацией
 const elements: {
   atomicNumber: number
@@ -2646,6 +2706,11 @@ export default function PeriodicTable({ onClose }: Props) {
                     category={selectedElement.category}
                     symbol={selectedElement.symbol}
                   />
+                </div>
+                
+                {/* Nucleus Composition - protons & neutrons */}
+                <div className="mt-2">
+                  <NucleusConfigDisplay atomicNumber={selectedElement.atomicNumber} atomicMass={selectedElement.atomicMass} />
                 </div>
                 
                 {/* Electron Configuration - below 3D model */}
