@@ -1,0 +1,136 @@
+name: Build Android APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_name:
+        description: Version for APK
+        required: true
+        default: "3.794"
+      source_ref:
+        description: Source ref with code
+        required: false
+        default: "source-v3.806"
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_ref }}
+          fetch-depth: 0
+
+      - name: Override package version
+        run: |
+          VERSION="${{ inputs.version_name }}"
+          node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('package.json'));p.version='$VERSION';fs.writeFileSync('package.json',JSON.stringify(p,null,2)+'\n')"
+
+      - name: Update version.ts
+        run: echo "export const APP_VERSION = 'v${{ inputs.version_name }}'" > src/data/version.ts
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Capacitor
+        run: |
+          npm install @capacitor/cli @capacitor/core @capacitor/android
+          npx cap --version
+
+      - name: Build Next.js
+        run: npm run build
+        env:
+          BASE_PATH: ""
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "zulu"
+          java-version: "21"
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android platform
+        run: yes | sdkmanager "platforms;android-36" "build-tools;36.0.0"
+
+      - name: Initialize Capacitor
+        run: |
+          rm -rf android/
+          npx cap add android
+          npx cap sync android
+
+      - name: Configure Android build
+        run: |
+          sed -i '/android {/a\    configurations.all {\n        resolutionStrategy {\n            force '\''org.jetbrains.kotlin:kotlin-stdlib:1.9.25'\''\n            force '\''org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.25'\''\n        }\n    }' android/app/build.gradle
+          
+          sed -i '/android {/a\    signingConfigs {\n        release {\n            storeFile file("release.keystore")\n            storePassword "${{ secrets.KEYSTORE_PASSWORD }}"\n            keyAlias "${{ secrets.KEY_ALIAS }}"\n            keyPassword "${{ secrets.KEY_PASSWORD }}"\n        }\n    }' android/app/build.gradle
+          
+          sed -i '/release {/a\            signingConfig signingConfigs.release' android/app/build.gradle
+
+      - name: Restore signing keystore
+        run: echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.keystore
+
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      - name: Copy app icons
+        run: |
+          for dir in mipmap-mdpi mipmap-hdpi mipmap-xhdpi mipmap-xxhdpi mipmap-xxxhdpi; do
+            mkdir -p "android/app/src/main/res/$dir"
+          done
+          ICON_SRC=""
+          [ -f "public/icon-512.png" ] && ICON_SRC="public/icon-512.png"
+          [ -f "public/favicon.png" ] && [ -z "$ICON_SRC" ] && ICON_SRC="public/favicon.png"
+          if [ -n "$ICON_SRC" ]; then
+            declare -A SIZES=( [mdpi]=48 [hdpi]=72 [xhdpi]=96 [xxhdpi]=144 [xxxhdpi]=192 )
+            for dpi in mdpi hdpi xhdpi xxhdpi xxxhdpi; do
+              SIZE=${SIZES[$dpi]}
+              DIR="android/app/src/main/res/mipmap-$dpi"
+              LOGO_SIZE=$(python3 -c "print(int($SIZE * 0.66))")
+              OFFSET=$(python3 -c "print(int(($SIZE - $LOGO_SIZE) / 2))")
+              convert -size "${SIZE}x${SIZE}" xc:"#1e1b4b" "$DIR/ic_launcher_background.png"
+              convert -size "${SIZE}x${SIZE}" xc:none \( "$ICON_SRC" -resize "${LOGO_SIZE}x${LOGO_SIZE}" \) -geometry "+${OFFSET}+${OFFSET}" -composite "$DIR/ic_launcher_foreground.png"
+              convert "$DIR/ic_launcher_background.png" \( "$ICON_SRC" -resize "${LOGO_SIZE}x${LOGO_SIZE}" \) -geometry "+${OFFSET}+${OFFSET}" -composite "$DIR/ic_launcher.png"
+              cp "$DIR/ic_launcher.png" "$DIR/ic_launcher_round.png"
+            done
+          fi
+
+      - name: Set Android version
+        run: |
+          VERSION="${{ inputs.version_name }}"
+          VERSION_CODE=$(echo "$VERSION" | tr -d '.')
+          sed -i "s/versionCode [0-9]*/versionCode $VERSION_CODE/" android/app/build.gradle
+          sed -i "s/versionName \"[^\"]*\"/versionName \"$VERSION\"/" android/app/build.gradle
+
+      - name: Build APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease
+
+      - name: Upload APK to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ inputs.version_name }}
+          name: v${{ inputs.version_name }} APK for RuStore
+          files: android/app/build/outputs/apk/release/app-release.apk
+          body: |
+            APK for RuStore upload
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: inetshkola-apk
+          path: android/app/build/outputs/apk/release/app-release.apk
