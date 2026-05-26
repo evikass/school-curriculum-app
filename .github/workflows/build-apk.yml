@@ -1,10 +1,13 @@
 name: Build Android APK
 
 on:
+  push:
+    tags:
+      - "apk-v*"
   workflow_dispatch:
     inputs:
       version_name:
-        description: "Version for APK (e.g. 3.795)"
+        description: "Version for APK"
         required: true
         default: "3.795"
 
@@ -13,27 +16,19 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
-      - name: Checkout deployed site from gh-pages
+      - name: Checkout gh-pages
         uses: actions/checkout@v4
         with:
           ref: gh-pages
           fetch-depth: 0
-
-      - name: Show site info
-        run: |
-          echo "=== Deployed site content ==="
-          du -sh .
-          du -sh data/ 2>/dev/null || true
-          ls data/grades/ 2>/dev/null | wc -l
 
       - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
           node-version: "22"
 
-      - name: Initialize Capacitor project
+      - name: Init Capacitor
         run: |
           npm init -y
           npm install @capacitor/core@^6 @capacitor/android@^6
@@ -41,17 +36,14 @@ jobs:
 
       - name: Create Capacitor config
         run: |
-          VERSION="${{ inputs.version_name }}"
-          cat > capacitor.config.json << 'CAPCFG'
+          cat > capacitor.config.json << 'EOF'
           {
             "appId": "ru.inetshkola.app",
-            "appName": "ИНЕТШКОЛА",
+            "appName": "INETSHKOLA",
             "webDir": ".",
-            "server": {
-              "androidScheme": "https"
-            }
+            "server": { "androidScheme": "https" }
           }
-          CAPCFG
+          EOF
           sed -i 's|/school-curriculum-app/|/|g' manifest.json 2>/dev/null || true
           find . -name "*.html" -exec sed -i 's|/school-curriculum-app/|/|g' {} + 2>/dev/null || true
 
@@ -64,39 +56,35 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Install Android platform and build-tools
+      - name: Install Android platform
         run: yes | sdkmanager "platforms;android-35" "build-tools;35.0.0"
 
-      - name: Add Capacitor Android platform
+      - name: Add Android platform
         run: |
           npx cap add android
           npx cap sync android
 
-      - name: Configure Android signing
+      - name: Configure signing
         run: |
           sed -i '/android {/a\    signingConfigs {\n        release {\n            storeFile file("release.keystore")\n            storePassword "${{ secrets.KEYSTORE_PASSWORD }}"\n            keyAlias "${{ secrets.KEY_ALIAS }}"\n            keyPassword "${{ secrets.KEY_PASSWORD }}"\n        }\n    }' android/app/build.gradle
           sed -i '/release {/a\            signingConfig signingConfigs.release' android/app/build.gradle
 
-      - name: Restore signing keystore
+      - name: Restore keystore
         run: echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.keystore
 
       - name: Install ImageMagick
         run: sudo apt-get update && sudo apt-get install -y imagemagick
 
-      - name: Copy app icons
+      - name: Copy icons
         run: |
           for dir in mipmap-mdpi mipmap-hdpi mipmap-xhdpi mipmap-xxhdpi mipmap-xxxhdpi; do
             mkdir -p "android/app/src/main/res/$dir"
           done
           ICON_SRC=""
-          if [ -f "icon-512.png" ]; then ICON_SRC="icon-512.png"; fi
-          if [ -z "$ICON_SRC" ] && [ -f "favicon.png" ]; then ICON_SRC="favicon.png"; fi
+          [ -f "icon-512.png" ] && ICON_SRC="icon-512.png"
+          [ -z "$ICON_SRC" ] && [ -f "favicon.png" ] && ICON_SRC="favicon.png"
           if [ -n "$ICON_SRC" ]; then
-            SIZES_MDPI=48
-            SIZES_HDPI=72
-            SIZES_XHDPI=96
-            SIZES_XXHDPI=144
-            SIZES_XXXHDPI=192
+            SIZES_MDPI=48; SIZES_HDPI=72; SIZES_XHDPI=96; SIZES_XXHDPI=144; SIZES_XXXHDPI=192
             for dpi in mdpi hdpi xhdpi xxhdpi xxxhdpi; do
               eval "SIZE=\$SIZES_$(echo $dpi | tr '[:lower:]' '[:upper:]')"
               DIR="android/app/src/main/res/mipmap-$dpi"
@@ -109,11 +97,10 @@ jobs:
             done
           fi
 
-      - name: Set Android version
+      - name: Set version
         run: |
-          PKG_VERSION="${{ inputs.version_name }}"
+          PKG_VERSION="${{ inputs.version_name || '3.795' }}"
           VERSION_CODE=$(echo "$PKG_VERSION" | tr -d '.')
-          echo "Setting versionName=$PKG_VERSION versionCode=$VERSION_CODE"
           sed -i "s/versionCode [0-9]*/versionCode $VERSION_CODE/" android/app/build.gradle
           sed -i "s/versionName \"[^\"]*\"/versionName \"$PKG_VERSION\"/" android/app/build.gradle
 
@@ -125,22 +112,20 @@ jobs:
 
       - name: Check APK size
         run: |
-          APK_PATH="android/app/build/outputs/apk/release/app-release.apk"
-          APK_SIZE=$(stat -c%s "$APK_PATH")
-          echo "APK size: $(( APK_SIZE / 1024 / 1024 )) MB ($APK_SIZE bytes)"
+          APK="android/app/build/outputs/apk/release/app-release.apk"
+          echo "APK size: $(du -h $APK | cut -f1)"
 
-      - name: Upload APK to Release
+      - name: Upload to Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ inputs.version_name }}
-          name: "v${{ inputs.version_name }} - APK for RuStore"
+          tag_name: v${{ inputs.version_name || '3.795' }}
+          name: "v${{ inputs.version_name || '3.795' }} APK for RuStore"
           files: android/app/build/outputs/apk/release/app-release.apk
-          body: |
-            APK for RuStore upload
+          body: APK for RuStore upload
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload APK artifact
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: inetshkola-apk
