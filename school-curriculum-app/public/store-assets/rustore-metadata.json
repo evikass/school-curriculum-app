@@ -1,0 +1,55 @@
+{
+  "appName": "ИНЕТШКОЛА",
+  "packageName": "ru.inetshkola.app",
+  "versionCode": 3794,
+  "versionName": "3.794",
+  "minSdkVersion": 21,
+  "targetSdkVersion": 34,
+  "category": "education",
+  "appType": "pwa",
+
+  "title_ru": "ИНЕТШКОЛА — Интерактивная школьная программа",
+  "shortDescription_ru": "Уроки и тесты по всем предметам для 0-11 классов по программе РФ",
+  "fullDescription_ru": "ИНЕТШКОЛА — бесплатное образовательное приложение для школьников 0–11 классов. Интерактивные уроки, подробные теории и мини-тесты по всем основным предметам школьной программы Российской Федерации.\n\n📚 Что внутри:\n• 12 классов — от подготовительного до 11-го\n• Все основные предметы: математика, русский язык, литература, биология, физика, химия, история, география, информатика и другие\n• Подробные уроки с иллюстрациями по учебникам известных авторов (Пасечник В.В. и др.)\n• Интерактивные тесты для проверки знаний\n• Научные SVG-иллюстрации к каждому уроку\n\n🔬 Биология (5–11 классы):\n• 5 класс: 43 подробных урока по учебнику Пасечник В.В. — от строения клетки до охраны природы\n• 6–11 классы: полный курс с теорией, иллюстрациями и тестами\n\n🧮 Математика и физика:\n• Арифметика, алгебра, геометрия\n• Задачи с пошаговым решением\n• Формулы и определения\n\n📖 Гуманитарные предметы:\n• Русский язык и литература\n• История России и всеобщая история\n• Обществознание\n\n🌍 Естественные науки:\n• География с картами\n• Химия с таблицей Менделеева\n• Информатика и программирование\n\n✨ Особенности:\n• Работает без интернета (PWA)\n• Адаптивный дизайн для телефона и планшета\n• Регулярные обновления контента\n• Полностью бесплатно, без рекламы\n\nПриложение создано для учеников, родителей и учителей. Помогает подготовиться к урокам, контрольным и экзаменам (ОГЭ, ЕГЭ).",
+
+  "keywords_ru": "школа,учеба,уроки,тесты,биология,математика,физика,химия,история,ОГЭ,ЕГЭ,5 класс,образование,Пасечник",
+
+  "developerName": "ИНЕТШКОЛА",
+  "developerEmail": "inetshkola@yandex.ru",
+  "developerWebsite": "https://evikass.github.io/school-curriculum-app/",
+  "privacyPolicyUrl": "https://evikass.github.io/school-curriculum-app/store-assets/privacy-policy-ru.html",
+  "termsOfUseUrl": "https://evikass.github.io/school-curriculum-app/store-assets/terms-ru.html",
+
+  "pwaUrl": "https://evikass.github.io/school-curriculum-app/",
+  "pwaManifestUrl": "https://evikass.github.io/school-curriculum-app/manifest.json",
+
+  "icons": {
+    "36x36": "store-assets/icons/icon-36.png",
+    "48x48": "store-assets/icons/icon-48.png",
+    "72x72": "store-assets/icons/icon-72.png",
+    "96x96": "store-assets/icons/icon-96.png",
+    "144x144": "store-assets/icons/icon-144.png",
+    "192x192": "store-assets/icons/icon-192.png",
+    "512x512": "store-assets/icons/icon-512.png"
+  },
+
+  "screenshots": {
+    "phone": [
+      "store-assets/screenshots/phone-1-home.png",
+      "store-assets/screenshots/phone-2-grade.png",
+      "store-assets/screenshots/phone-3-content.png"
+    ],
+    "tablet": [
+      "store-assets/screenshots/tablet-1-home.png"
+    ],
+    "featureGraphic": "store-assets/screenshots/feature-graphic.png"
+  },
+
+  "ageRating": "0+",
+  "contentRating": "Everyone",
+  "containsAds": false,
+  "containsInAppPurchases": false,
+  "isFree": true,
+
+  "changelog_ru": "v3.794:\n• Биология 5 класс: 43 подробных урока с полной теорией по учебнику Пасечник В.В.\n• 43 интерактивных теста с вопросами\n• Обновлённые научные SVG-иллюстрации для всех уроков биологии 5 класса\n• Исправлены ошибки деплоя на GitHub Pages"
+}
