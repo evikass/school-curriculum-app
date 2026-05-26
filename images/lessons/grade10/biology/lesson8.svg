@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8EAF6"/><stop offset="100%" stop-color="#C5CAE9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1A237E" text-anchor="middle">Белки: состав и строение</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 10 класс — Урок 8</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#283593" stroke-width="1" opacity="0.3"/>
+
+<!-- Amino acid structure -->
+<g transform="translate(105,145)">
+  <rect x="-75" y="-65" width="150" height="145" rx="6" fill="white" opacity="0.92" stroke="#283593" stroke-width="1"/>
+  <text x="0" y="-48" font-family="Arial,sans-serif" font-size="9" fill="#1A237E" text-anchor="middle" font-weight="bold">АМИНОКИСЛОТА</text>
+  <line x1="-60" y1="-42" x2="60" y2="-42" stroke="#283593" stroke-width="0.5"/>
+
+  <!-- Central carbon -->
+  <circle cx="0" cy="0" r="12" fill="#283593" opacity="0.2" stroke="#283593" stroke-width="1.5"/>
+  <text x="0" y="4" font-family="Arial,sans-serif" font-size="8" fill="#1A237E" text-anchor="middle" font-weight="bold">C</text>
+
+  <!-- Amino group -->
+  <rect x="-55" y="-12" width="28" height="22" rx="3" fill="#2196F3" opacity="0.3" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="-41" y="-1" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">NH2</text>
+  <text x="-41" y="7" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">Аминогруппа</text>
+  <line x1="-27" y1="0" x2="-12" y2="0" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Carboxyl group -->
+  <rect x="27" y="-12" width="28" height="22" rx="3" fill="#F44336" opacity="0.3" stroke="#C62828" stroke-width="1.2"/>
+  <text x="41" y="-1" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">COOH</text>
+  <text x="41" y="7" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">Карбоксил</text>
+  <line x1="12" y1="0" x2="27" y2="0" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Hydrogen -->
+  <line x1="0" y1="12" x2="0" y2="25" stroke="#333" stroke-width="1.5"/>
+  <circle cx="0" cy="30" r="7" fill="#E0E0E0" stroke="#9E9E9E" stroke-width="1"/>
+  <text x="0" y="34" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">H</text>
+
+  <!-- R group -->
+  <line x1="0" y1="-12" x2="0" y2="-25" stroke="#333" stroke-width="1.5"/>
+  <rect x="-12" y="-42" width="24" height="16" rx="3" fill="#4CAF50" opacity="0.3" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="0" y="-35" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">R</text>
+  <text x="0" y="-27" font-family="Arial,sans-serif" font-size="4" fill="#2E7D32" text-anchor="middle">радикал</text>
+
+  <text x="0" y="55" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">20 аминокислот —</text>
+  <text x="0" y="63" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">«буквы» белкового алфавита</text>
+  <text x="0" y="73" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">8 незаменимых (не синтезируются)</text>
+</g>
+
+<!-- Peptide bond formation -->
+<g transform="translate(250,130)">
+  <rect x="-35" y="-15" width="70" height="30" rx="4" fill="#FF9800" opacity="0.15" stroke="#E65100" stroke-width="0.8"/>
+  <text x="0" y="-3" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle" font-weight="bold">Пептидная связь</text>
+  <text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">—CO—NH—</text>
+  <text x="0" y="16" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">+ H2O (конденсация)</text>
+</g>
+
+<!-- Protein structure levels -->
+<g transform="translate(380,80)">
+  <rect x="-75" y="-15" width="150" height="215" rx="6" fill="white" opacity="0.92" stroke="#283593" stroke-width="1"/>
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="9" fill="#1A237E" text-anchor="middle" font-weight="bold">УРОВНИ ОРГАНИЗАЦИИ</text>
+  <line x1="-60" y1="6" x2="60" y2="6" stroke="#283593" stroke-width="0.5"/>
+
+  <!-- Primary -->
+  <g transform="translate(0,25)">
+    <circle cx="-55" cy="0" r="8" fill="#F44336" opacity="0.2" stroke="#F44336" stroke-width="1"/>
+    <text x="-55" y="3" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle" font-weight="bold">I</text>
+    <text x="-30" y="-2" font-family="Arial,sans-serif" font-size="7" fill="#1A237E" font-weight="bold">Первичная</text>
+    <text x="-30" y="8" font-family="Arial,sans-serif" font-size="5" fill="#666">Цепь аминокислот</text>
+    <!-- Beads on string -->
+    <circle cx="25" cy="0" r="3" fill="#F44336" opacity="0.5"/>
+    <circle cx="33" cy="0" r="3" fill="#2196F3" opacity="0.5"/>
+    <circle cx="41" cy="0" r="3" fill="#4CAF50" opacity="0.5"/>
+    <circle cx="49" cy="0" r="3" fill="#FF9800" opacity="0.5"/>
+    <circle cx="57" cy="0" r="3" fill="#9C27B0" opacity="0.5"/>
+    <line x1="28" y1="0" x2="54" y2="0" stroke="#333" stroke-width="0.8"/>
+  </g>
+
+  <!-- Secondary -->
+  <g transform="translate(0,60)">
+    <circle cx="-55" cy="0" r="8" fill="#2196F3" opacity="0.2" stroke="#2196F3" stroke-width="1"/>
+    <text x="-55" y="3" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle" font-weight="bold">II</text>
+    <text x="-30" y="-2" font-family="Arial,sans-serif" font-size="7" fill="#1A237E" font-weight="bold">Вторичная</text>
+    <text x="-30" y="8" font-family="Arial,sans-serif" font-size="5" fill="#666">Спираль, складка</text>
+    <!-- Alpha helix -->
+    <path d="M25,-5 Q30,-10 35,-5 Q40,0 45,-5 Q50,-10 55,-5" fill="none" stroke="#2196F3" stroke-width="1.5"/>
+    <path d="M25,3 Q30,8 35,3 Q40,-2 45,3 Q50,8 55,3" fill="none" stroke="#2196F3" stroke-width="1"/>
+  </g>
+
+  <!-- Tertiary -->
+  <g transform="translate(0,95)">
+    <circle cx="-55" cy="0" r="8" fill="#4CAF50" opacity="0.2" stroke="#4CAF50" stroke-width="1"/>
+    <text x="-55" y="3" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">III</text>
+    <text x="-30" y="-2" font-family="Arial,sans-serif" font-size="7" fill="#1A237E" font-weight="bold">Третичная</text>
+    <text x="-30" y="8" font-family="Arial,sans-serif" font-size="5" fill="#666">Глобула, фибрилла</text>
+    <!-- Globular shape -->
+    <ellipse cx="42" cy="0" rx="15" ry="10" fill="#4CAF50" opacity="0.3" stroke="#2E7D32" stroke-width="1"/>
+    <path d="M30,-5 Q42,-15 54,-5" fill="none" stroke="#2E7D32" stroke-width="1"/>
+    <path d="M30,5 Q42,15 54,5" fill="none" stroke="#2E7D32" stroke-width="1"/>
+  </g>
+
+  <!-- Quaternary -->
+  <g transform="translate(0,130)">
+    <circle cx="-55" cy="0" r="8" fill="#9C27B0" opacity="0.2" stroke="#9C27B0" stroke-width="1"/>
+    <text x="-55" y="3" font-family="Arial,sans-serif" font-size="5" fill="#7B1FA2" text-anchor="middle" font-weight="bold">IV</text>
+    <text x="-30" y="-2" font-family="Arial,sans-serif" font-size="7" fill="#1A237E" font-weight="bold">Четвертичная</text>
+    <text x="-30" y="8" font-family="Arial,sans-serif" font-size="5" fill="#666">Несколько субъединиц</text>
+    <!-- Multiple subunits -->
+    <ellipse cx="32" cy="-3" rx="10" ry="7" fill="#9C27B0" opacity="0.25" stroke="#7B1FA2" stroke-width="0.8"/>
+    <ellipse cx="52" cy="-3" rx="10" ry="7" fill="#F44336" opacity="0.25" stroke="#C62828" stroke-width="0.8"/>
+    <ellipse cx="42" cy="8" rx="10" ry="7" fill="#2196F3" opacity="0.25" stroke="#1565C0" stroke-width="0.8"/>
+  </g>
+
+  <!-- Bonds maintaining structure -->
+  <g transform="translate(0,160)">
+    <line x1="-60" y1="0" x2="60" y2="0" stroke="#ccc" stroke-width="0.3"/>
+    <text x="0" y="12" font-family="Arial,sans-serif" font-size="6" fill="#1A237E" text-anchor="middle" font-weight="bold">Связи, удерживающие структуру:</text>
+    <text x="-40" y="24" font-family="Arial,sans-serif" font-size="5" fill="#C62828">S—S дисульфидные</text>
+    <text x="30" y="24" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">Ионные</text>
+    <text x="-40" y="34" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">Водородные</text>
+    <text x="30" y="34" font-family="Arial,sans-serif" font-size="5" fill="#E65100">Гидрофобные</text>
+  </g>
+</g>
+
+<!-- Denaturation note at bottom -->
+<g transform="translate(30,300)">
+  <rect x="0" y="0" width="440" height="28" rx="5" fill="white" opacity="0.9" stroke="#C62828" stroke-width="1"/>
+  <text x="220" y="12" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">Денатурация — разрушение природной структуры белка (температура, кислоты, соли тяжёлых металлов)</text>
+  <text x="220" y="23" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Ренатурация возможна, если не разрушена первичная структура</text>
+</g>
+
+<rect x="10" y="334" width="480" height="12" rx="4" fill="#283593" opacity="0.85"/>
+<text x="250" y="344" font-family="Arial,sans-serif" font-size="8" text-anchor="middle" fill="white" font-weight="bold">Белки — полимеры из аминокислот, соединённых пептидными связями | До 50% сухой массы клетки</text>
+</svg>

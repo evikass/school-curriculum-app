@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF3E0"/><stop offset="100%" stop-color="#FFE0B2"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#BF360C" text-anchor="middle">Минеральные соли и их биологическая роль</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 10 класс — Урок 5</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#E65100" stroke-width="1" opacity="0.3"/>
+
+<!-- Bone with Calcium -->
+<g transform="translate(90,140)">
+  <path d="M-35,-25 Q-40,-30 -35,-35 Q-25,-40 -15,-35 L25,-35 Q35,-40 40,-30 Q45,-20 35,-15 L35,15 Q45,20 40,30 Q35,40 25,35 L-15,35 Q-25,40 -35,35 Q-40,25 -35,15 Z" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.5"/>
+  <!-- Bone internal structure -->
+  <ellipse cx="0" cy="0" rx="20" ry="22" fill="#FFECB3" opacity="0.5"/>
+  <!-- Ca label -->
+  <circle cx="0" cy="0" r="14" fill="#FF9800" opacity="0.3" stroke="#E65100" stroke-width="1"/>
+  <text x="0" y="5" font-family="Arial,sans-serif" font-size="10" fill="#BF360C" text-anchor="middle" font-weight="bold">Ca</text>
+  <text x="0" y="52" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">Кальций</text>
+  <text x="0" y="62" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Кости, зубы, свёртывание</text>
+  <text x="0" y="71" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">крови, мышечное сокращение</text>
+</g>
+
+<!-- Nerve cell with Na/K -->
+<g transform="translate(245,135)">
+  <!-- Cell body -->
+  <ellipse cx="0" cy="0" rx="30" ry="25" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+  <ellipse cx="0" cy="-3" rx="12" ry="10" fill="#C8E6C9" stroke="#388E3C" stroke-width="0.8"/>
+  <!-- Axon -->
+  <path d="M30,5 Q50,0 70,5 Q90,10 110,5 Q120,3 130,5" fill="none" stroke="#2E7D32" stroke-width="2"/>
+  <!-- Myelin segments -->
+  <rect x="35" y="-2" width="18" height="14" rx="4" fill="#81C784" opacity="0.4" stroke="#4CAF50" stroke-width="0.5"/>
+  <rect x="58" y="-2" width="18" height="14" rx="4" fill="#81C784" opacity="0.4" stroke="#4CAF50" stroke-width="0.5"/>
+  <rect x="81" y="-2" width="18" height="14" rx="4" fill="#81C784" opacity="0.4" stroke="#4CAF50" stroke-width="0.5"/>
+  <!-- Axon terminals -->
+  <circle cx="132" cy="5" r="4" fill="#4CAF50" opacity="0.6"/>
+  <circle cx="138" cy="10" r="3" fill="#4CAF50" opacity="0.5"/>
+  <circle cx="135" cy="0" r="3" fill="#4CAF50" opacity="0.5"/>
+  <!-- Dendrites -->
+  <path d="M-20,-20 L-30,-35 L-35,-30" fill="none" stroke="#2E7D32" stroke-width="1.2"/>
+  <path d="M-5,-25 L-10,-40 L-15,-38" fill="none" stroke="#2E7D32" stroke-width="1.2"/>
+  <path d="M10,-22 L15,-35 L20,-33" fill="none" stroke="#2E7D32" stroke-width="1.2"/>
+
+  <!-- Na/K pump arrow -->
+  <g transform="translate(-5,15)">
+    <rect x="-15" y="0" width="30" height="16" rx="3" fill="#1565C0" opacity="0.2" stroke="#1565C0" stroke-width="0.8"/>
+    <text x="0" y="8" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle" font-weight="bold">Na/K</text>
+    <text x="0" y="14" font-family="Arial,sans-serif" font-size="4" fill="#1565C0" text-anchor="middle">насос</text>
+  </g>
+
+  <!-- Na+ outside -->
+  <text x="-35" y="10" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">Na+</text>
+  <!-- K+ inside -->
+  <text x="15" y="-8" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" font-weight="bold">K+</text>
+
+  <text x="50" y="30" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Натрий и Калий</text>
+  <text x="50" y="40" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Нервные импульсы, мембранный</text>
+  <text x="50" y="48" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">потенциал, осмотическое давление</text>
+</g>
+
+<!-- Magnesium + Chlorophyll -->
+<g transform="translate(410,140)">
+  <!-- Chlorophyll molecule simplified -->
+  <rect x="-30" y="-30" width="60" height="60" rx="5" fill="#1B5E20" opacity="0.15" stroke="#2E7D32" stroke-width="1"/>
+  <!-- Porphyrin ring -->
+  <circle cx="0" cy="0" r="18" fill="none" stroke="#2E7D32" stroke-width="1.5"/>
+  <circle cx="0" cy="0" r="12" fill="none" stroke="#388E3C" stroke-width="1"/>
+  <!-- Mg center -->
+  <circle cx="0" cy="0" r="7" fill="#4CAF50" opacity="0.5" stroke="#1B5E20" stroke-width="1"/>
+  <text x="0" y="3" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Mg</text>
+  <!-- N atoms -->
+  <circle cx="0" cy="-14" r="3" fill="#9C27B0" opacity="0.5"/>
+  <circle cx="14" cy="0" r="3" fill="#9C27B0" opacity="0.5"/>
+  <circle cx="0" cy="14" r="3" fill="#9C27B0" opacity="0.5"/>
+  <circle cx="-14" cy="0" r="3" fill="#9C27B0" opacity="0.5"/>
+
+  <text x="0" y="42" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Магний</text>
+  <text x="0" y="52" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Хлорофилл, ферменты,</text>
+  <text x="0" y="60" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">рибосомы</text>
+</g>
+
+<!-- Iron + Hemoglobin -->
+<g transform="translate(90,260)">
+  <ellipse cx="0" cy="0" rx="25" ry="12" fill="#F44336" opacity="0.3" stroke="#C62828" stroke-width="1.2"/>
+  <!-- Heme group -->
+  <circle cx="0" cy="0" r="8" fill="#C62828" opacity="0.4"/>
+  <text x="0" y="3" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle" font-weight="bold">Fe</text>
+  <!-- O2 -->
+  <text x="20" y="-5" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" font-weight="bold">O2</text>
+  <line x1="8" y1="-2" x2="16" y2="-4" stroke="#1565C0" stroke-width="1" stroke-dasharray="2,1"/>
+  <text x="0" y="25" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">Железо (Fe)</text>
+  <text x="0" y="33" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Гемоглобин, миоглобин</text>
+</g>
+
+<!-- Phosphorus -->
+<g transform="translate(250,260)">
+  <rect x="-40" y="-15" width="80" height="30" rx="5" fill="#FF9800" opacity="0.15" stroke="#E65100" stroke-width="1"/>
+  <!-- ATP structure simplified -->
+  <text x="0" y="-5" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">АТФ — P—P—P</text>
+  <!-- Energy squiggle -->
+  <path d="M-15,5 Q-10,2 -5,5 Q0,8 5,5 Q10,2 15,5" fill="none" stroke="#F44336" stroke-width="1.5"/>
+  <text x="0" y="20" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Фосфор (P)</text>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">АТФ, ДНК, РНК, мембраны</text>
+</g>
+
+<!-- Chlorine -->
+<g transform="translate(410,260)">
+  <rect x="-40" y="-15" width="80" height="30" rx="5" fill="#00BCD4" opacity="0.15" stroke="#00838F" stroke-width="1"/>
+  <text x="0" y="-3" font-family="Arial,sans-serif" font-size="9" fill="#00838F" text-anchor="middle" font-weight="bold">HCl</text>
+  <text x="0" y="7" font-family="Arial,sans-serif" font-size="6" fill="#00838F" text-anchor="middle">pH = 1–2</text>
+  <text x="0" y="20" font-family="Arial,sans-serif" font-size="7" fill="#00838F" text-anchor="middle" font-weight="bold">Хлор (Cl)</text>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Желудочный сок, pH</text>
+</g>
+
+<rect x="10" y="320" width="480" height="24" rx="4" fill="#E65100" opacity="0.85"/>
+<text x="250" y="333" font-family="Arial,sans-serif" font-size="8" text-anchor="middle" fill="white" font-weight="bold">Минеральные соли диссоциируют на ионы — катионы и анионы, обеспечивающие жизненно важные функции</text>
+<text x="250" y="342" font-family="Arial,sans-serif" font-size="7" text-anchor="middle" fill="#FFE0B2">Нарушение ионного состава → нарушение гомеостаза</text>
+</svg>

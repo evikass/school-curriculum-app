@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Многообразие и значение покрытосеменных</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 27</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- PLANT FAMILIES (top section) -->
+<text x="250" y="68" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Основные семейства</text>
+
+<!-- Розоцветные (Rosaceae) -->
+<g transform="translate(58,105)">
+  <rect x="-38" y="-28" width="76" height="56" rx="5" fill="#FCE4EC" stroke="#E91E63" stroke-width="0.8"/>
+  <text x="0" y="-18" font-family="Arial,sans-serif" font-size="7" fill="#C2185B" text-anchor="middle" font-weight="bold">Розоцветные</text>
+  <!-- Simple 5-petal flower -->
+  <circle cx="0" cy="2" r="3" fill="#FFC107"/>
+  <path d="M0,0 Q-6,-6 -3,-12 Q0,-8 0,0" fill="#E91E63" opacity="0.7"/>
+  <path d="M0,0 Q6,-6 3,-12 Q0,-8 0,0" fill="#E91E63" opacity="0.7"/>
+  <path d="M0,0 Q-10,0 -12,-6 Q-6,-4 0,0" fill="#F06292" opacity="0.6"/>
+  <path d="M0,0 Q10,0 12,-6 Q6,-4 0,0" fill="#F06292" opacity="0.6"/>
+  <path d="M0,0 Q-6,6 -8,0 Q-4,0 0,0" fill="#EC407A" opacity="0.5"/>
+  <!-- Fruit (apple) -->
+  <circle cx="-18" cy="14" r="5" fill="#F44336" opacity="0.7"/>
+  <text x="8" y="18" font-family="Arial,sans-serif" font-size="5" fill="#C2185B">Яблоня, шиповник</text>
+</g>
+
+<!-- Бобовые (Fabaceae) -->
+<g transform="translate(165,105)">
+  <rect x="-38" y="-28" width="76" height="56" rx="5" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.8"/>
+  <text x="0" y="-18" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Бобовые</text>
+  <!-- Papilionaceous flower -->
+  <path d="M0,-5 Q-5,-12 0,-15 Q5,-12 0,-5" fill="#9C27B0" opacity="0.6"/>
+  <path d="M0,-5 Q-10,-5 -12,0 Q-6,-2 0,-5" fill="#AB47BC" opacity="0.5"/>
+  <path d="M0,-5 Q10,-5 12,0 Q6,-2 0,-5" fill="#AB47BC" opacity="0.5"/>
+  <!-- Pod (bean) -->
+  <rect x="-18" y="8" width="14" height="6" rx="3" fill="#8BC34A" stroke="#558B2F" stroke-width="0.5"/>
+  <circle cx="-14" cy="11" r="2" fill="#795548"/>
+  <circle cx="-9" cy="11" r="2" fill="#795548"/>
+  <text x="5" y="18" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">Горох, клевер</text>
+</g>
+
+<!-- Крестоцветные (Brassicaceae) -->
+<g transform="translate(272,105)">
+  <rect x="-38" y="-28" width="76" height="56" rx="5" fill="#FFF9C4" stroke="#FBC02D" stroke-width="0.8"/>
+  <text x="0" y="-18" font-family="Arial,sans-serif" font-size="7" fill="#F57F17" text-anchor="middle" font-weight="bold">Крестоцветные</text>
+  <!-- 4-petal cross flower -->
+  <path d="M0,-2 Q-3,-8 0,-12 Q3,-8 0,-2" fill="#FFEB3B" opacity="0.8"/>
+  <path d="M0,-2 Q6,-5 10,-2 Q6,1 0,-2" fill="#FFEB3B" opacity="0.8"/>
+  <path d="M0,-2 Q-6,-5 -10,-2 Q-6,1 0,-2" fill="#FFEB3B" opacity="0.8"/>
+  <path d="M0,-2 Q3,4 0,8 Q-3,4 0,-2" fill="#FFEB3B" opacity="0.8"/>
+  <circle cx="0" cy="-2" r="2" fill="#F9A825"/>
+  <text x="0" y="20" font-family="Arial,sans-serif" font-size="5" fill="#F57F17" text-anchor="middle">Капуста, редис</text>
+</g>
+
+<!-- Паслёновые (Solanaceae) -->
+<g transform="translate(379,105)">
+  <rect x="-38" y="-28" width="76" height="56" rx="5" fill="#F3E5F5" stroke="#9C27B0" stroke-width="0.8"/>
+  <text x="0" y="-18" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Паслёновые</text>
+  <!-- 5-petal star flower -->
+  <path d="M0,-2 Q-2,-8 0,-12 Q2,-8 0,-2" fill="#9C27B0" opacity="0.6"/>
+  <path d="M0,-2 Q5,-7 10,-5 Q6,-1 0,-2" fill="#9C27B0" opacity="0.6"/>
+  <path d="M0,-2 Q5,3 8,8 Q3,3 0,-2" fill="#9C27B0" opacity="0.5"/>
+  <path d="M0,-2 Q-5,3 -8,8 Q-3,3 0,-2" fill="#9C27B0" opacity="0.5"/>
+  <path d="M0,-2 Q-5,-7 -10,-5 Q-6,-1 0,-2" fill="#9C27B0" opacity="0.6"/>
+  <circle cx="0" cy="-2" r="2" fill="#FFC107"/>
+  <!-- Tomato -->
+  <circle cx="-16" cy="12" r="5" fill="#F44336" opacity="0.7"/>
+  <text x="8" y="18" font-family="Arial,sans-serif" font-size="5" fill="#7B1FA2">Картофель, томат</text>
+</g>
+
+<!-- Сложноцветные (Asteraceae) -->
+<g transform="translate(105,190)">
+  <rect x="-38" y="-28" width="76" height="56" rx="5" fill="#FFF3E0" stroke="#FF9800" stroke-width="0.8"/>
+  <text x="0" y="-18" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Сложноцветные</text>
+  <!-- Composite flower - disc + ray florets -->
+  <circle cx="0" cy="0" r="5" fill="#FFC107"/>
+  <circle cx="0" cy="-8" r="3" fill="#FF9800" opacity="0.6"/>
+  <circle cx="6" cy="-5" r="3" fill="#FF9800" opacity="0.6"/>
+  <circle cx="6" cy="4" r="3" fill="#FF9800" opacity="0.6"/>
+  <circle cx="0" cy="8" r="3" fill="#FF9800" opacity="0.6"/>
+  <circle cx="-6" cy="4" r="3" fill="#FF9800" opacity="0.6"/>
+  <circle cx="-6" cy="-5" r="3" fill="#FF9800" opacity="0.6"/>
+  <!-- Ray petals -->
+  <ellipse cx="0" cy="-14" rx="2" ry="5" fill="#FFB74D" opacity="0.5"/>
+  <ellipse cx="12" cy="-7" rx="5" ry="2" fill="#FFB74D" opacity="0.5" transform="rotate(30,12,-7)"/>
+  <text x="0" y="20" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Подсолнечник, ромашка</text>
+</g>
+
+<!-- Злаковые (Poaceae) -->
+<g transform="translate(230,190)">
+  <rect x="-38" y="-28" width="76" height="56" rx="5" fill="#E8F5E9" stroke="#8BC34A" stroke-width="0.8"/>
+  <text x="0" y="-18" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle" font-weight="bold">Злаковые</text>
+  <!-- Grass stem with spike -->
+  <line x1="0" y1="18" x2="0" y2="-8" stroke="#4CAF50" stroke-width="1.5"/>
+  <!-- Leaves -->
+  <path d="M0,10 Q-10,8 -15,12" fill="none" stroke="#4CAF50" stroke-width="1"/>
+  <path d="M0,5 Q10,3 15,7" fill="none" stroke="#4CAF50" stroke-width="1"/>
+  <!-- Spike/ear -->
+  <ellipse cx="0" cy="-14" rx="3" ry="7" fill="#FFD54F" stroke="#F9A825" stroke-width="0.5"/>
+  <ellipse cx="2" cy="-10" rx="3" ry="4" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+  <!-- Awns -->
+  <line x1="0" y1="-21" x2="0" y2="-26" stroke="#F9A825" stroke-width="0.5"/>
+  <text x="0" y="20" font-family="Arial,sans-serif" font-size="5" fill="#33691E" text-anchor="middle">Пшеница, кукуруза</text>
+</g>
+
+<!-- LIFE FORMS (bottom left) -->
+<text x="370" y="170" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Жизненные формы</text>
+
+<!-- Tree -->
+<g transform="translate(325,200)">
+  <rect x="-2" y="5" width="4" height="12" fill="#795548"/>
+  <ellipse cx="0" cy="-2" rx="12" ry="10" fill="#2E7D32" opacity="0.7"/>
+  <text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Деревья</text>
+</g>
+
+<!-- Shrub -->
+<g transform="translate(375,200)">
+  <rect x="-1" y="5" width="2" height="10" fill="#795548"/>
+  <ellipse cx="-4" cy="0" rx="7" ry="6" fill="#388E3C" opacity="0.7"/>
+  <ellipse cx="5" cy="2" rx="6" ry="5" fill="#4CAF50" opacity="0.6"/>
+  <text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Кустарники</text>
+</g>
+
+<!-- Herb -->
+<g transform="translate(425,200)">
+  <line x1="0" y1="14" x2="0" y2="-2" stroke="#4CAF50" stroke-width="1.5"/>
+  <ellipse cx="-5" cy="-5" rx="4" ry="3" fill="#66BB6A"/>
+  <ellipse cx="5" cy="-3" rx="4" ry="3" fill="#66BB6A"/>
+  <circle cx="0" cy="-6" r="3" fill="#E91E63" opacity="0.5"/>
+  <text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Травы</text>
+</g>
+
+<!-- ECONOMIC IMPORTANCE (bottom) -->
+<text x="250" y="250" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Значение в хозяйстве</text>
+<line x1="30" y1="254" x2="470" y2="254" stroke="#2E7D32" stroke-width="0.5" opacity="0.3"/>
+
+<!-- Food -->
+<g transform="translate(60,280)">
+  <circle cx="0" cy="0" r="18" fill="#FFF3E0" stroke="#FF9800" stroke-width="1"/>
+  <!-- Bread icon -->
+  <rect x="-8" y="-3" width="16" height="8" rx="3" fill="#FFCC80" stroke="#F57C00" stroke-width="0.5"/>
+  <path d="M-6,-3 Q0,-8 6,-3" fill="#FFE0B2"/>
+  <!-- Wheat stalk -->
+  <line x1="0" y1="-10" x2="0" y2="-14" stroke="#F9A825" stroke-width="0.8"/>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Пища</text>
+  <text x="0" y="36" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Злаки, овощи, фрукты</text>
+</g>
+
+<!-- Medicine -->
+<g transform="translate(150,280)">
+  <circle cx="0" cy="0" r="18" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1"/>
+  <!-- Cross -->
+  <rect x="-2" y="-8" width="4" height="16" rx="1" fill="#4CAF50" opacity="0.7"/>
+  <rect x="-8" y="-2" width="16" height="4" rx="1" fill="#4CAF50" opacity="0.7"/>
+  <!-- Leaf -->
+  <path d="M6,-6 Q10,-8 12,-4 Q8,-2 6,-6" fill="#81C784"/>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Медицина</text>
+  <text x="0" y="36" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Камфора, хина, мята</text>
+</g>
+
+<!-- Industry -->
+<g transform="translate(240,280)">
+  <circle cx="0" cy="0" r="18" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <!-- Factory/gear -->
+  <circle cx="0" cy="0" r="7" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+  <rect x="-1.5" y="-10" width="3" height="4" fill="#1565C0"/>
+  <rect x="-1.5" y="6" width="3" height="4" fill="#1565C0"/>
+  <rect x="-10" y="-1.5" width="4" height="3" fill="#1565C0"/>
+  <rect x="6" y="-1.5" width="4" height="3" fill="#1565C0"/>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">Промышленность</text>
+  <text x="0" y="36" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Хлопок, лён, каучук</text>
+</g>
+
+<!-- Ornamental -->
+<g transform="translate(330,280)">
+  <circle cx="0" cy="0" r="18" fill="#FCE4EC" stroke="#E91E63" stroke-width="1"/>
+  <!-- Tulip-like flower -->
+  <path d="M0,8 Q-6,2 -5,-4 Q0,-8 5,-4 Q6,2 0,8" fill="#E91E63" opacity="0.7"/>
+  <line x1="0" y1="8" x2="0" y2="14" stroke="#4CAF50" stroke-width="1"/>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="7" fill="#C2185B" text-anchor="middle" font-weight="bold">Декоративные</text>
+  <text x="0" y="36" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Розы, тюльпаны, орхидеи</text>
+</g>
+
+<!-- Ecology -->
+<g transform="translate(420,280)">
+  <circle cx="0" cy="0" r="18" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <!-- Earth with leaf -->
+  <circle cx="0" cy="0" r="8" fill="#81D4FA" opacity="0.5" stroke="#2E7D32" stroke-width="0.8"/>
+  <path d="M0,-8 Q4,-12 8,-8 Q4,-4 0,-8" fill="#4CAF50"/>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Экология</text>
+  <text x="0" y="36" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Кислород, пищевые цепи</text>
+</g>
+
+<!-- Red Book note -->
+<text x="250" y="340" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle">!! Многие виды в Красной книге России — охрана заповедниками и национальными парками</text>
+</svg>

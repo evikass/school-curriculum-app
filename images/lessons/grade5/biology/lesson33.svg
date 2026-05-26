@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="24" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Рост и развитие растений</text>
+  <text x="250" y="37" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 33</text>
+  <line x1="30" y1="43" x2="470" y2="43" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+  <!-- Section 1: Growth stages -->
+  <text x="120" y="58" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Стадии роста</text>
+
+  <!-- Seed -->
+  <ellipse cx="40" cy="90" rx="12" ry="8" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+  <text x="40" y="107" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Семя</text>
+
+  <!-- Arrow -->
+  <path d="M55 90 L70 90" fill="none" stroke="#2E7D32" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Sprout -->
+  <rect x="78" y="85" width="3" height="15" fill="#66BB6A" rx="1"/>
+  <ellipse cx="80" cy="82" rx="6" ry="4" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="80" y="107" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Росток</text>
+
+  <!-- Arrow -->
+  <path d="M90 90 L105 90" fill="none" stroke="#2E7D32" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Small plant -->
+  <rect x="115" y="78" width="4" height="22" fill="#795548" rx="1"/>
+  <ellipse cx="117" cy="74" rx="10" ry="7" fill="url(#leaf)" stroke="#1B5E20" stroke-width="0.5"/>
+  <line x1="117" y1="74" x2="117" y2="67" stroke="#1B5E20" stroke-width="0.5"/>
+  <text x="117" y="107" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Рост</text>
+
+  <!-- Arrow -->
+  <path d="M130 90 L145 90" fill="none" stroke="#2E7D32" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Mature plant with flower -->
+  <rect x="158" y="68" width="5" height="30" fill="#795548" rx="1"/>
+  <ellipse cx="155" cy="65" rx="10" ry="7" fill="url(#leaf)" stroke="#1B5E20" stroke-width="0.5"/>
+  <ellipse cx="168" cy="62" rx="10" ry="7" fill="url(#leaf)" stroke="#1B5E20" stroke-width="0.5"/>
+  <circle cx="161" cy="53" r="6" fill="#FF80AB" stroke="#C2185B" stroke-width="0.5"/>
+  <circle cx="161" cy="53" r="3" fill="#FFE082"/>
+  <text x="161" y="107" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Цветение</text>
+
+  <!-- Arrow -->
+  <path d="M175 90 L190 90" fill="none" stroke="#2E7D32" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Fruiting plant -->
+  <rect x="200" y="70" width="5" height="28" fill="#795548" rx="1"/>
+  <ellipse cx="197" cy="67" rx="9" ry="6" fill="url(#leaf)" stroke="#1B5E20" stroke-width="0.5"/>
+  <ellipse cx="209" cy="64" rx="9" ry="6" fill="url(#leaf)" stroke="#1B5E20" stroke-width="0.5"/>
+  <circle cx="202" cy="57" r="5" fill="#FF7043" stroke="#BF360C" stroke-width="0.5"/>
+  <text x="202" y="107" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Плод</text>
+
+  <!-- Section 2: Tropisms -->
+  <text x="250" y="125" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Тропизмы — направленный рост</text>
+
+  <!-- Phototropism -->
+  <rect x="30" y="132" width="110" height="70" rx="5" fill="#FFF8E1" stroke="#F9A825" stroke-width="0.8"/>
+  <text x="85" y="145" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Фототропизм</text>
+  <!-- Sun -->
+  <circle cx="125" cy="155" r="8" fill="#FFB300"/>
+  <line x1="125" y1="143" x2="125" y2="140" stroke="#FFB300" stroke-width="1"/>
+  <line x1="133" y1="155" x2="136" y2="155" stroke="#FFB300" stroke-width="1"/>
+  <line x1="130" y1="148" x2="133" y2="145" stroke="#FFB300" stroke-width="0.8"/>
+  <!-- Plant bending toward light -->
+  <rect x="55" y="170" width="3" height="25" fill="#795548" rx="1"/>
+  <path d="M56 170 Q70 160 80 155" fill="none" stroke="#66BB6A" stroke-width="2"/>
+  <ellipse cx="82" cy="153" rx="8" ry="5" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="85" y="198" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">к свету ↑</text>
+
+  <!-- Geotropism -->
+  <rect x="150" y="132" width="110" height="70" rx="5" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="205" y="145" font-family="Arial,sans-serif" font-size="7" fill="#4A148C" text-anchor="middle" font-weight="bold">Геотропизм</text>
+  <!-- Gravity arrow -->
+  <path d="M205 150 L205 165" fill="none" stroke="#7B1FA2" stroke-width="1.5" marker-end="url(#arrP)"/>
+  <text x="215" y="158" font-family="Arial,sans-serif" font-size="6" fill="#7B1FA2">g</text>
+  <!-- Root going down -->
+  <rect x="200" y="155" width="4" height="8" fill="#795548" rx="1"/>
+  <path d="M202 163 Q200 175 198 185" fill="none" stroke="#8D6E63" stroke-width="2"/>
+  <path d="M198 175 L192 178" fill="none" stroke="#8D6E63" stroke-width="1"/>
+  <path d="M198 180 L195 183" fill="none" stroke="#8D6E63" stroke-width="1"/>
+  <text x="205" y="198" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">корень ↓ вниз</text>
+
+  <!-- Hydrotropism -->
+  <rect x="270" y="132" width="110" height="70" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="325" y="145" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" text-anchor="middle" font-weight="bold">Гидротропизм</text>
+  <!-- Water source -->
+  <ellipse cx="365" cy="180" rx="12" ry="8" fill="#90CAF9" stroke="#1565C0" stroke-width="0.5"/>
+  <text x="365" y="183" font-family="Arial,sans-serif" font-size="5" fill="#0D47A1" text-anchor="middle">H₂O</text>
+  <!-- Root bending toward water -->
+  <rect x="290" y="165" width="3" height="8" fill="#795548" rx="1"/>
+  <path d="M291 173 Q310 178 340 178" fill="none" stroke="#8D6E63" stroke-width="2"/>
+  <text x="325" y="198" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">к воде →</text>
+
+  <!-- Chemotropism -->
+  <rect x="390" y="132" width="100" height="70" rx="5" fill="#EFEBE9" stroke="#5D4037" stroke-width="0.8"/>
+  <text x="440" y="145" font-family="Arial,sans-serif" font-size="7" fill="#3E2723" text-anchor="middle" font-weight="bold">Хемотропизм</text>
+  <!-- Chemical zone -->
+  <circle cx="470" cy="180" r="10" fill="#FFCC80" stroke="#E65100" stroke-width="0.5"/>
+  <text x="470" y="183" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">вещ.</text>
+  <!-- Root growing toward chemical -->
+  <rect x="410" y="165" width="3" height="8" fill="#795548" rx="1"/>
+  <path d="M411 173 Q430 178 455 178" fill="none" stroke="#8D6E63" stroke-width="2"/>
+  <text x="440" y="198" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">к веществам</text>
+
+  <!-- Section 3: Life forms -->
+  <text x="250" y="218" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Жизненные формы растений</text>
+
+  <!-- Tree -->
+  <rect x="40" y="240" width="7" height="40" fill="#795548" rx="1"/>
+  <ellipse cx="43" cy="225" rx="22" ry="18" fill="#4CAF50" stroke="#2E7D32" stroke-width="1"/>
+  <text x="43" y="290" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Дерево</text>
+  <text x="43" y="300" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">1 ствол</text>
+  <text x="43" y="308" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">многолетнее</text>
+
+  <!-- Shrub -->
+  <rect x="120" y="248" width="4" height="30" fill="#795548" rx="1"/>
+  <rect x="132" y="250" width="4" height="28" fill="#795548" rx="1"/>
+  <rect x="142" y="246" width="4" height="32" fill="#795548" rx="1"/>
+  <ellipse cx="125" cy="235" rx="18" ry="14" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+  <ellipse cx="137" cy="232" rx="15" ry="12" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="130" y="290" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Кустарник</text>
+  <text x="130" y="300" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">много стволов</text>
+  <text x="130" y="308" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">многолетнее</text>
+
+  <!-- Herb -->
+  <rect x="215" y="258" width="3" height="20" fill="#66BB6A" rx="1"/>
+  <ellipse cx="216" cy="253" rx="10" ry="7" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+  <line x1="216" y1="253" x2="216" y2="248" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="216" y="290" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Трава</text>
+  <text x="216" y="300" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">мягкий стебель</text>
+
+  <!-- Duration types -->
+  <rect x="280" y="225" width="200" height="110" rx="5" fill="#FFF3E0" stroke="#E65100" stroke-width="0.8"/>
+  <text x="380" y="240" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">По продолжительности жизни</text>
+
+  <rect x="290" y="248" width="55" height="25" rx="3" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="317" y="260" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Однолетние</text>
+  <text x="317" y="269" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">1 сезон</text>
+
+  <rect x="355" y="248" width="55" height="25" rx="3" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.5"/>
+  <text x="382" y="260" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Двулетние</text>
+  <text x="382" y="269" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">2 сезона</text>
+
+  <rect x="420" y="248" width="55" height="25" rx="3" fill="#FFCCBC" stroke="#BF360C" stroke-width="0.5"/>
+  <text x="447" y="260" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" text-anchor="middle">Многолетние</text>
+  <text x="447" y="269" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">много лет</text>
+
+  <!-- Examples -->
+  <text x="317" y="285" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">горох, пшеница</text>
+  <text x="382" y="285" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">морковь, свёкла</text>
+  <text x="447" y="285" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">дуб, яблоня</text>
+
+  <!-- Growth zones -->
+  <text x="380" y="300" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Зоны корня:</text>
+  <text x="305" y="312" font-family="Arial,sans-serif" font-size="5.5" fill="#333">чехлик → деление → рост → всасывание → проведение</text>
+  <text x="380" y="325" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Рост: верхушечный (апикальный) и боковой (камбий)</text>
+
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <path d="M0,0 L6,2 L0,4 Z" fill="#2E7D32"/>
+    </marker>
+    <marker id="arrP" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <path d="M0,0 L6,2 L0,4 Z" fill="#7B1FA2"/>
+    </marker>
+  </defs>
+</svg>

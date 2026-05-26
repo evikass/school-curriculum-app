@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Органы и системы органов. Регуляция функций</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 8 класс — Урок 9</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Central human body outline -->
+<g transform="translate(160,100)">
+  <!-- Head -->
+  <ellipse cx="40" cy="10" rx="16" ry="18" fill="none" stroke="#555" stroke-width="1.5"/>
+  <!-- Neck -->
+  <line x1="35" y1="28" x2="35" y2="38" stroke="#555" stroke-width="1.2"/>
+  <line x1="45" y1="28" x2="45" y2="38" stroke="#555" stroke-width="1.2"/>
+  <!-- Torso -->
+  <path d="M20,38 L60,38 L58,110 L22,110 Z" fill="none" stroke="#555" stroke-width="1.5"/>
+  <!-- Arms -->
+  <line x1="20" y1="42" x2="-5" y2="80" stroke="#555" stroke-width="1.2"/>
+  <line x1="-5" y1="80" x2="-10" y2="105" stroke="#555" stroke-width="1"/>
+  <line x1="60" y1="42" x2="85" y2="80" stroke="#555" stroke-width="1.2"/>
+  <line x1="85" y1="80" x2="90" y2="105" stroke="#555" stroke-width="1"/>
+  <!-- Legs -->
+  <line x1="30" y1="110" x2="22" y2="175" stroke="#555" stroke-width="1.2"/>
+  <line x1="22" y1="175" x2="18" y2="195" stroke="#555" stroke-width="1"/>
+  <line x1="50" y1="110" x2="58" y2="175" stroke="#555" stroke-width="1.2"/>
+  <line x1="58" y1="175" x2="62" y2="195" stroke="#555" stroke-width="1"/>
+
+  <!-- SKELETAL SYSTEM (overlay, blue) -->
+  <!-- Skull -->
+  <ellipse cx="40" cy="10" rx="12" ry="14" fill="none" stroke="#1565C0" stroke-width="0.8" stroke-dasharray="2,1"/>
+  <!-- Spine -->
+  <line x1="40" y1="26" x2="40" y2="110" stroke="#1565C0" stroke-width="1.5" stroke-dasharray="2,1"/>
+  <!-- Ribs -->
+  <path d="M30,50 Q40,48 50,50" fill="none" stroke="#1565C0" stroke-width="0.6" stroke-dasharray="2,1"/>
+  <path d="M28,58 Q40,56 52,58" fill="none" stroke="#1565C0" stroke-width="0.6" stroke-dasharray="2,1"/>
+  <path d="M27,66 Q40,64 53,66" fill="none" stroke="#1565C0" stroke-width="0.6" stroke-dasharray="2,1"/>
+
+  <!-- CIRCULATORY SYSTEM (red) -->
+  <!-- Heart -->
+  <path d="M38,55 C38,51 42,50 44,53 C46,50 50,51 50,55 C50,59 44,63 44,65 C44,63 38,59 38,55Z" fill="#EF5350" stroke="#C62828" stroke-width="0.8"/>
+  <!-- Blood vessels -->
+  <path d="M44,55 Q30,45 20,42" fill="none" stroke="#EF5350" stroke-width="0.8"/>
+  <path d="M44,55 Q55,45 60,42" fill="none" stroke="#EF5350" stroke-width="0.8"/>
+  <path d="M44,65 Q35,85 30,110" fill="none" stroke="#EF5350" stroke-width="0.8"/>
+  <path d="M44,65 Q55,85 55,110" fill="none" stroke="#EF5350" stroke-width="0.8"/>
+  <!-- Veins (blue) -->
+  <path d="M42,60 Q25,70 22,85" fill="none" stroke="#42A5F5" stroke-width="0.6"/>
+  <path d="M46,60 Q58,70 60,85" fill="none" stroke="#42A5F5" stroke-width="0.6"/>
+
+  <!-- RESPIRATORY SYSTEM (teal) -->
+  <!-- Lungs -->
+  <ellipse cx="28" cy="62" rx="10" ry="16" fill="none" stroke="#00897B" stroke-width="0.8"/>
+  <ellipse cx="52" cy="62" rx="10" ry="16" fill="none" stroke="#00897B" stroke-width="0.8"/>
+  <!-- Trachea -->
+  <line x1="40" y1="30" x2="40" y2="48" stroke="#00897B" stroke-width="1"/>
+  <!-- Bronchi -->
+  <path d="M40,48 Q35,52 28,52" fill="none" stroke="#00897B" stroke-width="0.7"/>
+  <path d="M40,48 Q45,52 52,52" fill="none" stroke="#00897B" stroke-width="0.7"/>
+
+  <!-- DIGESTIVE SYSTEM (orange) -->
+  <!-- Esophagus -->
+  <line x1="42" y1="35" x2="43" y2="65" stroke="#FF9800" stroke-width="0.8" stroke-dasharray="1,1"/>
+  <!-- Stomach -->
+  <path d="M38,68 Q32,70 32,78 Q32,85 38,85 Q45,85 46,78 Q47,70 42,68" fill="#FFE0B2" stroke="#FF9800" stroke-width="0.8"/>
+  <!-- Intestine -->
+  <path d="M38,85 Q35,90 33,95 Q30,100 35,105 Q40,108 45,105 Q50,102 47,97 Q44,92 42,95 Q40,98 43,102" fill="none" stroke="#FF9800" stroke-width="0.7"/>
+  <!-- Liver -->
+  <ellipse cx="32" cy="72" rx="8" ry="5" fill="#FFCC80" stroke="#FF9800" stroke-width="0.6" opacity="0.5"/>
+
+  <!-- NERVOUS SYSTEM (purple) -->
+  <!-- Brain -->
+  <path d="M28,5 Q30,-3 40,-3 Q50,-3 52,5" fill="none" stroke="#6A1B9A" stroke-width="1" stroke-dasharray="2,1"/>
+  <!-- Spinal cord -->
+  <line x1="40" y1="28" x2="40" y2="108" stroke="#6A1B9A" stroke-width="1.2"/>
+  <!-- Nerves branching -->
+  <path d="M40,50 Q25,48 15,55" fill="none" stroke="#6A1B9A" stroke-width="0.5"/>
+  <path d="M40,50 Q55,48 65,55" fill="none" stroke="#6A1B9A" stroke-width="0.5"/>
+  <path d="M40,70 Q28,68 18,72" fill="none" stroke="#6A1B9A" stroke-width="0.5"/>
+  <path d="M40,70 Q52,68 62,72" fill="none" stroke="#6A1B9A" stroke-width="0.5"/>
+  <path d="M40,90 Q30,88 25,95" fill="none" stroke="#6A1B9A" stroke-width="0.5"/>
+  <path d="M40,90 Q50,88 55,95" fill="none" stroke="#6A1B9A" stroke-width="0.5"/>
+
+  <!-- ENDOCRINE SYSTEM (pink) -->
+  <!-- Pituitary -->
+  <circle cx="40" cy="2" r="2" fill="#E91E63" stroke="#880E4F" stroke-width="0.5"/>
+  <!-- Thyroid -->
+  <path d="M35,30 Q40,33 45,30" fill="none" stroke="#E91E63" stroke-width="1.2"/>
+  <!-- Adrenal -->
+  <circle cx="36" cy="80" r="2.5" fill="#F48FB1" stroke="#E91E63" stroke-width="0.5"/>
+  <circle cx="50" cy="80" r="2.5" fill="#F48FB1" stroke="#E91E63" stroke-width="0.5"/>
+</g>
+
+<!-- System labels on the left -->
+<!-- Skeletal -->
+<g>
+  <line x1="105" y1="145" x2="85" y2="135" stroke="#1565C0" stroke-width="0.6"/>
+  <rect x="10" y="125" width="75" height="22" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="47" y="137" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle" font-weight="bold">Скелетная</text>
+  <text x="47" y="144" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Кости, суставы</text>
+</g>
+
+<!-- Circulatory -->
+<g>
+  <line x1="200" y1="155" x2="85" y2="162" stroke="#C62828" stroke-width="0.6"/>
+  <rect x="10" y="152" width="75" height="22" rx="4" fill="#FFEBEE" stroke="#C62828" stroke-width="0.8"/>
+  <text x="47" y="164" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle" font-weight="bold">Кровеносная</text>
+  <text x="47" y="171" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Сердце, сосуды</text>
+</g>
+
+<!-- Respiratory -->
+<g>
+  <line x1="188" y1="165" x2="85" y2="190" stroke="#00897B" stroke-width="0.6"/>
+  <rect x="10" y="180" width="75" height="22" rx="4" fill="#E0F2F1" stroke="#00897B" stroke-width="0.8"/>
+  <text x="47" y="192" font-family="Arial,sans-serif" font-size="6" fill="#00897B" text-anchor="middle" font-weight="bold">Дыхательная</text>
+  <text x="47" y="199" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Лёгкие, бронхи</text>
+</g>
+
+<!-- System labels on the right -->
+<!-- Digestive -->
+<g>
+  <line x1="210" y1="175" x2="415" y2="135" stroke="#FF9800" stroke-width="0.6"/>
+  <rect x="415" y="125" width="75" height="22" rx="4" fill="#FFF3E0" stroke="#FF9800" stroke-width="0.8"/>
+  <text x="452" y="137" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle" font-weight="bold">Пищеварительная</text>
+  <text x="452" y="144" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">ЖКТ, печень</text>
+</g>
+
+<!-- Nervous -->
+<g>
+  <line x1="200" y1="120" x2="415" y2="162" stroke="#6A1B9A" stroke-width="0.6"/>
+  <rect x="415" y="152" width="75" height="22" rx="4" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="0.8"/>
+  <text x="452" y="164" font-family="Arial,sans-serif" font-size="6" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Нервная</text>
+  <text x="452" y="171" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Мозг, нервы</text>
+</g>
+
+<!-- Endocrine -->
+<g>
+  <line x1="196" y1="185" x2="415" y2="190" stroke="#E91E63" stroke-width="0.6"/>
+  <rect x="415" y="180" width="75" height="22" rx="4" fill="#FCE4EC" stroke="#E91E63" stroke-width="0.8"/>
+  <text x="452" y="192" font-family="Arial,sans-serif" font-size="6" fill="#C2185B" text-anchor="middle" font-weight="bold">Эндокринная</text>
+  <text x="452" y="199" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Железы, гормоны</text>
+</g>
+
+<!-- Bottom panel: Regulation types -->
+<rect x="15" y="215" width="470" height="98" rx="6" fill="white" opacity="0.85" stroke="#2E7D32" stroke-width="1"/>
+<text x="250" y="230" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">РЕГУЛЯЦИЯ ФУНКЦИЙ ОРГАНИЗМА</text>
+<line x1="30" y1="234" x2="470" y2="234" stroke="#2E7D32" stroke-width="0.5" opacity="0.4"/>
+
+<!-- Nervous regulation (left) -->
+<rect x="25" y="240" width="215" height="65" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1"/>
+<text x="132" y="254" font-family="Arial,sans-serif" font-size="8" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Нервная регуляция</text>
+<line x1="40" y1="258" x2="225" y2="258" stroke="#6A1B9A" stroke-width="0.4" opacity="0.5"/>
+<!-- Nerve impulse diagram -->
+<text x="38" y="269" font-family="Arial,sans-serif" font-size="5.5" fill="#555">Раздражитель → Рецептор →</text>
+<text x="38" y="277" font-family="Arial,sans-serif" font-size="5.5" fill="#555">→ Нервный импульс → ЦНС →</text>
+<text x="38" y="285" font-family="Arial,sans-serif" font-size="5.5" fill="#555">→ Исполнительный орган (эффектор)</text>
+<!-- Speed indicator -->
+<rect x="155" y="262" width="72" height="14" rx="3" fill="#CE93D8" opacity="0.3"/>
+<text x="191" y="272" font-family="Arial,sans-serif" font-size="5.5" fill="#6A1B9A" text-anchor="middle" font-weight="bold">⚡ Быстрая</text>
+<text x="191" y="296" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">Рефлекс — основная форма</text>
+
+<!-- Humoral regulation (right) -->
+<rect x="260" y="240" width="215" height="65" rx="5" fill="#FCE4EC" stroke="#E91E63" stroke-width="1"/>
+<text x="367" y="254" font-family="Arial,sans-serif" font-size="8" fill="#C2185B" text-anchor="middle" font-weight="bold">Гуморальная регуляция</text>
+<line x1="275" y1="258" x2="460" y2="258" stroke="#E91E63" stroke-width="0.4" opacity="0.5"/>
+<!-- Hormone pathway diagram -->
+<text x="273" y="269" font-family="Arial,sans-serif" font-size="5.5" fill="#555">Железа → Гормон → Кровь →</text>
+<text x="273" y="277" font-family="Arial,sans-serif" font-size="5.5" fill="#555">→ Транспорт → Клетка-мишень →</text>
+<text x="273" y="285" font-family="Arial,sans-serif" font-size="5.5" fill="#555">→ Изменение функции органа</text>
+<!-- Speed indicator -->
+<rect x="390" y="262" width="72" height="14" rx="3" fill="#F48FB1" opacity="0.3"/>
+<text x="426" y="272" font-family="Arial,sans-serif" font-size="5.5" fill="#C2185B" text-anchor="middle" font-weight="bold">🐢 Медленная</text>
+<text x="367" y="296" font-family="Arial,sans-serif" font-size="5" fill="#C2185B" text-anchor="middle">Гормоны — химические вещества</text>
+
+<!-- Connection arrow between two types -->
+<text x="247" y="275" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">⟷</text>
+
+<!-- Footer bar -->
+<rect x="3" y="323" width="494" height="24" rx="0" fill="#2E7D32"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Нервная и гуморальная регуляция работают согласованно — нейрогуморальная регуляция</text>
+</svg>

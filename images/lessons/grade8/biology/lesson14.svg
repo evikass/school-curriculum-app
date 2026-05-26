@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20" text-anchor="middle">Нарушения опорно-двигательной системы</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 8 класс — Урок 14</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Central Healthy Spine (S-curve) -->
+<g transform="translate(250,175)">
+  <rect x="-50" y="-95" width="100" height="195" rx="5" fill="white" opacity="0.92" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="-50" y="-95" width="100" height="16" rx="5" fill="#2E7D32" opacity="0.85"/>
+  <rect x="-50" y="-83" width="100" height="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="0" y="-82" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Норма</text>
+
+  <!-- Healthy S-curve spine -->
+  <!-- Vertebrae -->
+  <g>
+    <!-- Cervical (slight forward curve) -->
+    <rect x="-8" y="-72" width="16" height="8" rx="2" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.6"/>
+    <rect x="-9" y="-62" width="18" height="8" rx="2" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.6"/>
+    <rect x="-10" y="-52" width="20" height="8" rx="2" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.6"/>
+    <rect x="-10" y="-42" width="20" height="8" rx="2" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.6"/>
+    <rect x="-10" y="-32" width="20" height="8" rx="2" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.6"/>
+
+    <!-- Thoracic (slight backward curve) -->
+    <rect x="-11" y="-22" width="22" height="8" rx="2" fill="#81C784" stroke="#2E7D32" stroke-width="0.6"/>
+    <rect x="-12" y="-12" width="24" height="8" rx="2" fill="#81C784" stroke="#2E7D32" stroke-width="0.6"/>
+    <rect x="-12" y="-2" width="24" height="8" rx="2" fill="#81C784" stroke="#2E7D32" stroke-width="0.6"/>
+    <rect x="-12" y="8" width="24" height="8" rx="2" fill="#81C784" stroke="#2E7D32" stroke-width="0.6"/>
+    <rect x="-11" y="18" width="22" height="8" rx="2" fill="#81C784" stroke="#2E7D32" stroke-width="0.6"/>
+
+    <!-- Lumbar (forward curve) -->
+    <rect x="-10" y="28" width="20" height="8" rx="2" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.6"/>
+    <rect x="-9" y="38" width="18" height="8" rx="2" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.6"/>
+    <rect x="-8" y="48" width="16" height="8" rx="2" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.6"/>
+
+    <!-- Sacrum -->
+    <path d="M-10,58 L10,58 L8,72 L-8,72 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.6"/>
+  </g>
+
+  <!-- S-curve outline -->
+  <path d="M-18,-75 Q-22,-55 -20,-35 Q-25,-15 -22,5 Q-18,25 -14,45 Q-10,55 -5,62" fill="none" stroke="#1B5E20" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- Labels -->
+  <text x="22" y="-58" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">Шейный</text>
+  <text x="22" y="-52" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">(лордоз)</text>
+  <text x="25" y="-8" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">Грудной</text>
+  <text x="25" y="-2" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">(кифоз)</text>
+  <text x="18" y="38" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">Поясничный</text>
+  <text x="18" y="44" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">(лордоз)</text>
+
+  <!-- Check mark for normal -->
+  <text x="0" y="85" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">✓ Норма</text>
+</g>
+
+<!-- Scoliosis (left) -->
+<g transform="translate(85,175)">
+  <rect x="-45" y="-95" width="90" height="195" rx="5" fill="white" opacity="0.92" stroke="#D32F2F" stroke-width="1"/>
+  <rect x="-45" y="-95" width="90" height="16" rx="5" fill="#D32F2F" opacity="0.85"/>
+  <rect x="-45" y="-83" width="90" height="4" fill="#D32F2F" opacity="0.85"/>
+  <text x="0" y="-82" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Сколиоз</text>
+
+  <!-- Scoliosis spine (lateral curvature) -->
+  <g>
+    <rect x="-6" y="-72" width="12" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="-10" y="-63" width="14" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="-16" y="-54" width="16" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="-18" y="-45" width="16" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="-14" y="-36" width="16" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="-8" y="-27" width="16" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="-2" y="-18" width="16" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="2" y="-9" width="16" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="6" y="0" width="16" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="4" y="9" width="16" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="-2" y="18" width="16" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="-6" y="27" width="14" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="-6" y="36" width="12" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <rect x="-5" y="45" width="12" height="7" rx="2" fill="#FFCDD2" stroke="#D32F2F" stroke-width="0.6"/>
+    <path d="M-8,55 L6,55 L5,65 L-6,65 Z" fill="#EF9A9A" stroke="#D32F2F" stroke-width="0.6"/>
+  </g>
+
+  <!-- Curved outline showing S-shape -->
+  <path d="M-5,-75 Q-25,-50 -20,-30 Q0,-15 12,-5 Q20,10 5,30 Q-5,40 -5,55" fill="none" stroke="#D32F2F" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <text x="0" y="80" font-family="Arial,sans-serif" font-size="5" fill="#D32F2F" text-anchor="middle">Боковое</text>
+  <text x="0" y="87" font-family="Arial,sans-serif" font-size="5" fill="#D32F2F" text-anchor="middle">искривление</text>
+</g>
+
+<!-- Kyphosis (right) -->
+<g transform="translate(415,140)">
+  <rect x="-40" y="-70" width="80" height="95" rx="5" fill="white" opacity="0.92" stroke="#E65100" stroke-width="1"/>
+  <rect x="-40" y="-70" width="80" height="14" rx="5" fill="#E65100" opacity="0.85"/>
+  <rect x="-40" y="-60" width="80" height="4" fill="#E65100" opacity="0.85"/>
+  <text x="0" y="-59" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Кифоз</text>
+
+  <!-- Kyphosis spine (excessive thoracic curve) -->
+  <rect x="-6" y="-48" width="12" height="6" rx="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.6"/>
+  <rect x="-9" y="-40" width="14" height="6" rx="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.6"/>
+  <rect x="-13" y="-32" width="16" height="6" rx="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.6"/>
+  <rect x="-15" y="-24" width="18" height="6" rx="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.6"/>
+  <rect x="-14" y="-16" width="18" height="6" rx="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.6"/>
+  <rect x="-10" y="-8" width="16" height="6" rx="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.6"/>
+  <rect x="-6" y="0" width="14" height="6" rx="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.6"/>
+  <rect x="-4" y="8" width="12" height="6" rx="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.6"/>
+
+  <text x="0" y="22" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Избыточный</text>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">грудной изгиб</text>
+</g>
+
+<!-- Lordosis (right bottom) -->
+<g transform="translate(415,230)">
+  <rect x="-40" y="-20" width="80" height="70" rx="5" fill="white" opacity="0.92" stroke="#7B1FA2" stroke-width="1"/>
+  <rect x="-40" y="-20" width="80" height="14" rx="5" fill="#7B1FA2" opacity="0.85"/>
+  <rect x="-40" y="-10" width="80" height="4" fill="#7B1FA2" opacity="0.85"/>
+  <text x="0" y="-9" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Лордоз</text>
+
+  <!-- Lordosis spine (excessive lumbar curve) -->
+  <rect x="-5" y="0" width="10" height="5" rx="2" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="0.6"/>
+  <rect x="-8" y="7" width="12" height="5" rx="2" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="0.6"/>
+  <rect x="-12" y="14" width="14" height="5" rx="2" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="0.6"/>
+  <rect x="-14" y="21" width="16" height="5" rx="2" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="0.6"/>
+  <rect x="-10" y="28" width="14" height="5" rx="2" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="0.6"/>
+  <rect x="-6" y="35" width="12" height="5" rx="2" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="0.6"/>
+
+  <text x="0" y="46" font-family="Arial,sans-serif" font-size="5" fill="#7B1FA2" text-anchor="middle">Избыточный</text>
+  <text x="0" y="52" font-family="Arial,sans-serif" font-size="5" fill="#7B1FA2" text-anchor="middle">поясничный изгиб</text>
+</g>
+
+<!-- Flat foot diagram (bottom left) -->
+<g transform="translate(85,300)">
+  <rect x="-45" y="-12" width="90" height="25" rx="4" fill="white" opacity="0.92" stroke="#2E7D32" stroke-width="1"/>
+
+  <!-- Normal foot arch -->
+  <g transform="translate(-20,0)">
+    <path d="M-12,5 Q-12,-4 -6,-4 Q0,-4 0,5" fill="none" stroke="#2E7D32" stroke-width="1.2"/>
+    <line x1="-14" y1="5" x2="2" y2="5" stroke="#795548" stroke-width="0.8"/>
+    <text x="-6" y="10" font-family="Arial,sans-serif" font-size="4" fill="#2E7D32" text-anchor="middle">Норма</text>
+  </g>
+
+  <!-- Flat foot -->
+  <g transform="translate(22,0)">
+    <path d="M-12,5 Q-12,2 -6,2 Q0,2 0,5" fill="none" stroke="#D32F2F" stroke-width="1.2"/>
+    <line x1="-14" y1="5" x2="2" y2="5" stroke="#795548" stroke-width="0.8"/>
+    <text x="-6" y="10" font-family="Arial,sans-serif" font-size="4" fill="#D32F2F" text-anchor="middle">Плоскостопие</text>
+  </g>
+</g>
+
+<!-- Prevention rules (bottom center) -->
+<g transform="translate(195,300)">
+  <rect x="0" y="-12" width="160" height="25" rx="4" fill="white" opacity="0.92" stroke="#2E7D32" stroke-width="1"/>
+  <text x="80" y="-2" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle" font-weight="bold">Профилактика:</text>
+  <text x="80" y="6" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Правильная осанка • Физкультура</text>
+  <text x="80" y="13" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Удобная мебель • Чередование труда/отдыха</text>
+</g>
+
+<!-- First aid panel (bottom right) -->
+<g transform="translate(370,300)">
+  <rect x="0" y="-12" width="115" height="25" rx="4" fill="white" opacity="0.92" stroke="#2E7D32" stroke-width="1"/>
+  <text x="57" y="-2" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle" font-weight="bold">Первая помощь:</text>
+  <text x="57" y="6" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Перелом — шина, покой</text>
+  <text x="57" y="13" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Вывих — врач | Растяжение — холод</text>
+</g>
+
+<rect x="10" y="328" width="480" height="8" rx="4" fill="#2E7D32" opacity="0.85"/>
+</svg>

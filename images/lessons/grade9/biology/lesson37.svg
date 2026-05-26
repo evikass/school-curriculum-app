@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#1B5E20">Биоценоз</text>
+  <line x1="100" y1="40" x2="400" y2="40" stroke="#2E7D32" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Forest layers diagram -->
+  <g transform="translate(15,50)">
+    <rect x="0" y="0" width="240" height="185" rx="6" fill="white" fill-opacity="0.6" stroke="#2E7D32" stroke-width="1"/>
+    <text x="120" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20">Ярусность леса</text>
+
+    <!-- Sky background -->
+    <rect x="5" y="20" width="230" height="160" fill="#E8F5E9" rx="3" opacity="0.3"/>
+
+    <!-- Ярус 1: Древесный -->
+    <rect x="10" y="22" width="220" height="40" rx="2" fill="#A5D6A7" opacity="0.4"/>
+    <!-- Tall trees -->
+    <rect x="40" y="30" width="8" height="25" fill="#5D4037"/>
+    <ellipse cx="44" cy="26" rx="20" ry="14" fill="#2E7D32" opacity="0.8"/>
+    <rect x="120" y="28" width="8" height="28" fill="#5D4037"/>
+    <ellipse cx="124" cy="24" rx="22" ry="15" fill="#388E3C" opacity="0.8"/>
+    <rect x="190" y="32" width="7" height="22" fill="#5D4037"/>
+    <ellipse cx="193" cy="28" rx="18" ry="12" fill="#2E7D32" opacity="0.8"/>
+    <text x="22" y="36" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">I</text>
+    <text x="216" y="36" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20">Древесный</text>
+
+    <!-- Ярус 2: Кустарниковый -->
+    <rect x="10" y="62" width="220" height="35" rx="2" fill="#C8E6C9" opacity="0.4"/>
+    <!-- Shrubs -->
+    <ellipse cx="50" cy="72" rx="15" ry="10" fill="#66BB6A" opacity="0.7"/>
+    <ellipse cx="100" cy="74" rx="18" ry="11" fill="#4CAF50" opacity="0.7"/>
+    <ellipse cx="160" cy="72" rx="14" ry="9" fill="#66BB6A" opacity="0.7"/>
+    <ellipse cx="210" cy="75" rx="12" ry="8" fill="#4CAF50" opacity="0.7"/>
+    <text x="22" y="72" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">II</text>
+    <text x="216" y="72" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20">Кустарниковый</text>
+
+    <!-- Ярус 3: Травянистый -->
+    <rect x="10" y="97" width="220" height="30" rx="2" fill="#E8F5E9" opacity="0.4"/>
+    <!-- Grass -->
+    <path d="M20,122 L22,108 L24,122" fill="none" stroke="#81C784" stroke-width="1.5"/>
+    <path d="M40,122 L43,105 L46,122" fill="none" stroke="#A5D6A7" stroke-width="1.5"/>
+    <path d="M70,122 L72,110 L74,122" fill="none" stroke="#81C784" stroke-width="1.5"/>
+    <path d="M100,122 L103,107 L106,122" fill="none" stroke="#A5D6A7" stroke-width="1.5"/>
+    <path d="M140,122 L142,112 L144,122" fill="none" stroke="#81C784" stroke-width="1.5"/>
+    <path d="M180,122 L183,108 L186,122" fill="none" stroke="#A5D6A7" stroke-width="1.5"/>
+    <!-- Flowers -->
+    <circle cx="43" cy="104" r="3" fill="#FF7043"/>
+    <circle cx="103" cy="106" r="2.5" fill="#FFAB91"/>
+    <text x="22" y="110" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">III</text>
+    <text x="216" y="110" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20">Травянистый</text>
+
+    <!-- Ярус 4: Мохово-лишайниковый -->
+    <rect x="10" y="127" width="220" height="20" rx="2" fill="#DCEDC8" opacity="0.4"/>
+    <ellipse cx="40" cy="137" rx="12" ry="5" fill="#9E9D24" opacity="0.4"/>
+    <ellipse cx="80" cy="138" rx="10" ry="4" fill="#8BC34A" opacity="0.3"/>
+    <ellipse cx="130" cy="137" rx="14" ry="5" fill="#9E9D24" opacity="0.4"/>
+    <ellipse cx="180" cy="138" rx="11" ry="4" fill="#8BC34A" opacity="0.3"/>
+    <text x="22" y="138" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">IV</text>
+    <text x="216" y="138" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20">Мохово-лишайн.</text>
+
+    <!-- Ground -->
+    <rect x="5" y="148" width="230" height="8" fill="#795548" opacity="0.3" rx="2"/>
+    <text x="5" y="165" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" font-style="italic">Ярусность → уменьшение конкуренции</text>
+  </g>
+
+  <!-- Species diversity -->
+  <g transform="translate(265,50)">
+    <rect x="0" y="0" width="220" height="95" rx="6" fill="white" fill-opacity="0.6" stroke="#2E7D32" stroke-width="1"/>
+    <text x="110" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20">Видовое разнообразие</text>
+
+    <!-- Diversity bar chart -->
+    <rect x="15" y="25" width="20" height="50" rx="1" fill="#2E7D32"/>
+    <text x="25" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">Тропики</text>
+
+    <rect x="45" y="32" width="20" height="43" rx="1" fill="#43A047"/>
+    <text x="55" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">Шир. лес</text>
+
+    <rect x="75" y="40" width="20" height="35" rx="1" fill="#66BB6A"/>
+    <text x="85" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">Тайга</text>
+
+    <rect x="105" y="50" width="20" height="25" rx="1" fill="#81C784"/>
+    <text x="115" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">Тундра</text>
+
+    <rect x="135" y="55" width="20" height="20" rx="1" fill="#A5D6A7"/>
+    <text x="145" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">Пустыня</text>
+
+    <!-- Arrow -->
+    <line x1="15" y1="88" x2="160" y2="88" stroke="#2E7D32" stroke-width="1"/>
+    <polygon points="160,86 166,88 160,90" fill="#2E7D32"/>
+    <text x="90" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">→ снижение разнообразия</text>
+  </g>
+
+  <!-- Ecological niche -->
+  <g transform="translate(265,155)">
+    <rect x="0" y="0" width="220" height="80" rx="6" fill="white" fill-opacity="0.6" stroke="#2E7D32" stroke-width="1"/>
+    <text x="110" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20">Экологическая ниша</text>
+
+    <!-- Niche diagram - overlapping circles -->
+    <circle cx="70" cy="48" r="25" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1" opacity="0.5"/>
+    <circle cx="110" cy="48" r="25" fill="#A5D6A7" stroke="#388E3C" stroke-width="1" opacity="0.5"/>
+    <!-- Overlap zone -->
+    <path d="M85,28 A25,25 0 0,1 85,68 A25,25 0 0,1 85,28" fill="#FF8A65" opacity="0.3" stroke="#E65100" stroke-width="0.8"/>
+    <text x="55" y="50" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">Вид А</text>
+    <text x="120" y="50" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">Вид Б</text>
+    <text x="85" y="54" font-family="Arial,sans-serif" font-size="6" fill="#E65100">Конкуренция</text>
+  </g>
+
+  <!-- Types of interactions -->
+  <g transform="translate(15,245)">
+    <rect x="0" y="0" width="470" height="90" rx="6" fill="white" fill-opacity="0.5" stroke="#2E7D32" stroke-width="1"/>
+    <text x="235" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20">Типы связей в биоценозе</text>
+
+    <!-- Interaction cards -->
+    <g transform="translate(5,24)">
+      <rect x="0" y="0" width="70" height="55" rx="3" fill="#E8F5E9" stroke="#66BB6A" stroke-width="0.8"/>
+      <text x="35" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#1B5E20">Мутуализм</text>
+      <text x="35" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="10">🤝</text>
+      <text x="35" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">+ +</text>
+      <text x="35" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">Обоюдная польза</text>
+    </g>
+    <g transform="translate(80,24)">
+      <rect x="0" y="0" width="70" height="55" rx="3" fill="#E8F5E9" stroke="#66BB6A" stroke-width="0.8"/>
+      <text x="35" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#1B5E20">Хищничество</text>
+      <text x="35" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="10">🐺🐰</text>
+      <text x="35" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">+ −</text>
+      <text x="35" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">Поедание жертвы</text>
+    </g>
+    <g transform="translate(155,24)">
+      <rect x="0" y="0" width="70" height="55" rx="3" fill="#E8F5E9" stroke="#66BB6A" stroke-width="0.8"/>
+      <text x="35" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#1B5E20">Паразитизм</text>
+      <text x="35" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="10">🦠👤</text>
+      <text x="35" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">+ −</text>
+      <text x="35" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">За счёт хозяина</text>
+    </g>
+    <g transform="translate(230,24)">
+      <rect x="0" y="0" width="70" height="55" rx="3" fill="#E8F5E9" stroke="#66BB6A" stroke-width="0.8"/>
+      <text x="35" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#1B5E20">Конкуренция</text>
+      <text x="35" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="10">⚔️</text>
+      <text x="35" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">− −</text>
+      <text x="35" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">Борьба за ресурс</text>
+    </g>
+    <g transform="translate(305,24)">
+      <rect x="0" y="0" width="70" height="55" rx="3" fill="#E8F5E9" stroke="#66BB6A" stroke-width="0.8"/>
+      <text x="35" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#1B5E20">Комменсализм</text>
+      <text x="35" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="10">🐟🐋</text>
+      <text x="35" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">+ 0</text>
+      <text x="35" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">Один выгоде</text>
+    </g>
+    <g transform="translate(380,24)">
+      <rect x="0" y="0" width="85" height="55" rx="3" fill="#E8F5E9" stroke="#66BB6A" stroke-width="0.8"/>
+      <text x="42" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#1B5E20">Нейтрализм</text>
+      <text x="42" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="10">🌿🦌</text>
+      <text x="42" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">0 0</text>
+      <text x="42" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">Не влияют друг на друга</text>
+    </g>
+  </g>
+
+  <text x="480" y="340" text-anchor="end" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" opacity="0.6">Урок 37</text>
+</svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8EAF6"/><stop offset="100%" stop-color="#C5CAE9"/></linearGradient>
+  <linearGradient id="memGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#90CAF9"/><stop offset="100%" stop-color="#42A5F5"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+<!-- Title bar -->
+<rect x="3" y="3" width="494" height="38" rx="8" fill="#1565C0"/>
+<rect x="3" y="30" width="494" height="11" fill="#1565C0"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">Окислительное фосфорилирование и дыхательная цепь</text>
+<text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle">Биология 10 класс — Урок 26</text>
+
+<!-- Inner mitochondrial membrane (double line) -->
+<rect x="20" y="75" width="460" height="200" rx="6" fill="#E3F2FD" stroke="#64B5F6" stroke-width="1" opacity="0.5"/>
+<!-- Top membrane line -->
+<rect x="20" y="75" width="460" height="8" rx="3" fill="url(#memGrad)" stroke="#1565C0" stroke-width="1"/>
+<text x="490" y="82" font-family="Arial,sans-serif" font-size="6" fill="#0D47A1">Межмембранное пространство (H⁺)</text>
+<!-- Bottom membrane line -->
+<rect x="20" y="267" width="460" height="8" rx="3" fill="url(#memGrad)" stroke="#1565C0" stroke-width="1"/>
+<text x="490" y="288" font-family="Arial,sans-serif" font-size="6" fill="#0D47A1">Матрикс митохондрии</text>
+
+<!-- Proton gradient arrows (top) -->
+<text x="150" y="96" font-family="Arial,sans-serif" font-size="8" fill="#E53935" text-anchor="middle">H⁺ H⁺ H⁺ H⁺ H⁺</text>
+<text x="320" y="96" font-family="Arial,sans-serif" font-size="8" fill="#E53935" text-anchor="middle">H⁺ H⁺ H⁺ H⁺ H⁺</text>
+
+<!-- COMPLEX I -->
+<rect x="40" y="110" width="70" height="70" rx="8" fill="#EF5350" stroke="#B71C1C" stroke-width="2"/>
+<text x="75" y="140" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">I</text>
+<text x="75" y="153" font-family="Arial,sans-serif" font-size="7" fill="#FFCDD2" text-anchor="middle">НАДН-</text>
+<text x="75" y="162" font-family="Arial,sans-serif" font-size="7" fill="#FFCDD2" text-anchor="middle">дегидрогеназа</text>
+<!-- NADH input -->
+<path d="M75,108 L75,85" stroke="#1565C0" stroke-width="1.5" marker-end="url(#arrB2)"/>
+<defs><marker id="arrB2" markerWidth="5" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L5,2 L0,4 Z" fill="#1565C0"/></marker></defs>
+<text x="75" y="80" font-family="Arial,sans-serif" font-size="8" fill="#0D47A1" text-anchor="middle">NADH</text>
+<!-- H+ pumped out -->
+<path d="M55,108 L55,96" stroke="#E53935" stroke-width="1.5" marker-end="url(#arrR3)"/>
+<text x="42" y="96" font-family="Arial,sans-serif" font-size="7" fill="#E53935">4H⁺↑</text>
+<defs><marker id="arrR3" markerWidth="5" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L5,2 L0,4 Z" fill="#E53935"/></marker></defs>
+
+<!-- Electron flow arrow I → III -->
+<path d="M110,145 L160,145" stroke="#FFEB3B" stroke-width="2.5" marker-end="url(#arrY)"/>
+<defs><marker id="arrY" markerWidth="5" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L5,2 L0,4 Z" fill="#FFEB3B"/></marker></defs>
+<text x="135" y="140" font-family="Arial,sans-serif" font-size="7" fill="#F57F17">e⁻</text>
+
+<!-- CoQ label -->
+<rect x="125" y="148" width="30" height="14" rx="4" fill="#FFF176" stroke="#F9A825" stroke-width="1"/>
+<text x="140" y="158" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">CoQ</text>
+
+<!-- COMPLEX III -->
+<rect x="165" y="110" width="70" height="70" rx="8" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+<text x="200" y="140" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">III</text>
+<text x="200" y="153" font-family="Arial,sans-serif" font-size="7" fill="#C8E6C9" text-anchor="middle">Цитохром</text>
+<text x="200" y="162" font-family="Arial,sans-serif" font-size="7" fill="#C8E6C9" text-anchor="middle">bc1</text>
+<!-- H+ pumped out -->
+<path d="M180,108 L180,96" stroke="#E53935" stroke-width="1.5" marker-end="url(#arrR3)"/>
+<text x="167" y="96" font-family="Arial,sans-serif" font-size="7" fill="#E53935">4H⁺↑</text>
+
+<!-- Electron flow arrow III → IV -->
+<path d="M235,145 L285,145" stroke="#FFEB3B" stroke-width="2.5" marker-end="url(#arrY)"/>
+<text x="260" y="140" font-family="Arial,sans-serif" font-size="7" fill="#F57F17">e⁻</text>
+
+<!-- Cytochrome c label -->
+<rect x="250" y="148" width="30" height="14" rx="4" fill="#FFF176" stroke="#F9A825" stroke-width="1"/>
+<text x="265" y="158" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Cyt c</text>
+
+<!-- COMPLEX IV -->
+<rect x="290" y="110" width="70" height="70" rx="8" fill="#AB47BC" stroke="#6A1B9A" stroke-width="2"/>
+<text x="325" y="140" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">IV</text>
+<text x="325" y="153" font-family="Arial,sans-serif" font-size="7" fill="#E1BEE7" text-anchor="middle">Цитохром</text>
+<text x="325" y="162" font-family="Arial,sans-serif" font-size="7" fill="#E1BEE7" text-anchor="middle">оксидаза</text>
+<!-- H+ pumped out -->
+<path d="M305,108 L305,96" stroke="#E53935" stroke-width="1.5" marker-end="url(#arrR3)"/>
+<text x="292" y="96" font-family="Arial,sans-serif" font-size="7" fill="#E53935">2H⁺↑</text>
+
+<!-- O2 as final electron acceptor -->
+<path d="M325,180 L325,267" stroke="#0D47A1" stroke-width="1.5" marker-end="url(#arrB2)"/>
+<text x="340" y="220" font-family="Arial,sans-serif" font-size="8" fill="#0D47A1">½O₂ + 2H⁺</text>
+<text x="340" y="232" font-family="Arial,sans-serif" font-size="8" fill="#0D47A1">→ H₂O</text>
+<!-- Water molecule -->
+<circle cx="325" cy="278" r="8" fill="#42A5F5" stroke="#0D47A1" stroke-width="1"/>
+<text x="325" y="281" font-family="Arial,sans-serif" font-size="6" fill="#fff" text-anchor="middle">H₂O</text>
+
+<!-- FADH2 input to Complex II -->
+<rect x="165" y="195" width="70" height="40" rx="6" fill="#FF8A65" stroke="#BF360C" stroke-width="1.5"/>
+<text x="200" y="210" font-family="Arial,sans-serif" font-size="8" fill="#fff" text-anchor="middle">II</text>
+<text x="200" y="220" font-family="Arial,sans-serif" font-size="7" fill="#FFCCBC" text-anchor="middle">СукцинатДГ</text>
+<path d="M200,195 L200,180" stroke="#FF8A65" stroke-width="1.5" marker-end="url(#arrO3)"/>
+<defs><marker id="arrO3" markerWidth="5" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L5,2 L0,4 Z" fill="#FF8A65"/></marker></defs>
+<text x="200" y="190" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" text-anchor="middle">FADH₂</text>
+<!-- No H+ pumped from Complex II -->
+<text x="165" y="235" font-family="Arial,sans-serif" font-size="6" fill="#BF360C">(не качает H⁺)</text>
+
+<!-- ATP SYNTHASE -->
+<rect x="400" y="105" width="65" height="80" rx="8" fill="#FFD54F" stroke="#F57F17" stroke-width="2"/>
+<!-- Rotor symbol -->
+<circle cx="432" cy="135" r="15" fill="#FFF176" stroke="#F57F17" stroke-width="1.5"/>
+<text x="432" y="138" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">ATP</text>
+<text x="432" y="148" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">синтаза</text>
+<!-- H+ flowing through -->
+<path d="M432,267 L432,190" stroke="#E53935" stroke-width="2" marker-end="url(#arrR3)"/>
+<text x="450" y="250" font-family="Arial,sans-serif" font-size="7" fill="#E53935">H⁺</text>
+<text x="450" y="260" font-family="Arial,sans-serif" font-size="7" fill="#E53935">↓поток</text>
+
+<!-- ATP output -->
+<path d="M432,105 L432,92" stroke="#2E7D32" stroke-width="2" marker-end="url(#arrG4)"/>
+<defs><marker id="arrG4" markerWidth="5" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L5,2 L0,4 Z" fill="#2E7D32"/></marker></defs>
+<text x="432" y="88" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">АТФ!</text>
+
+<!-- ADP + Pi input -->
+<text x="470" y="120" font-family="Arial,sans-serif" font-size="7" fill="#1565C0">ADP+Pi</text>
+
+<!-- Summary at bottom -->
+<rect x="15" y="296" width="470" height="44" rx="8" fill="#0D47A1"/>
+<text x="250" y="312" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#FFEB3B" text-anchor="middle">Окислительное фосфорилирование: ~34 АТФ</text>
+<text x="250" y="325" font-family="Arial,sans-serif" font-size="8" fill="#90CAF9" text-anchor="middle">Общий выход за глюкозу: 2(гликолиз) + 2(Кребс) + 34(ОФ) = ~38 АТФ</text>
+<text x="250" y="337" font-family="Arial,sans-serif" font-size="7" fill="#64B5F6" text-anchor="middle">O₂ — конечный акцептор электронов | Протонный градиент → хемиосмос → АТФ</text>
+</svg>

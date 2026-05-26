@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="infectGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFCDD2"/>
+      <stop offset="100%" stop-color="#E53935"/>
+    </linearGradient>
+    <linearGradient id="traumaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE0B2"/>
+      <stop offset="100%" stop-color="#F57C00"/>
+    </linearGradient>
+    <linearGradient id="vascularGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8BBD0"/>
+      <stop offset="100%" stop-color="#C2185B"/>
+    </linearGradient>
+    <linearGradient id="stressGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D1C4E9"/>
+      <stop offset="100%" stop-color="#7E57C2"/>
+    </linearGradient>
+    <linearGradient id="brainGrad" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#FFAB91"/>
+      <stop offset="100%" stop-color="#E64A19"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="url(#bg)" stroke="#2E7D32" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B5E20" font-family="Arial">Нарушения нервной системы и их профилактика</text>
+  <text x="250" y="35" text-anchor="middle" font-size="9" fill="#666" font-family="Arial">Биология 8 класс — Урок 40</text>
+  <line x1="15" y1="42" x2="485" y2="42" stroke="#2E7D32" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ===== DISORDER TYPES (4 quadrants top area) ===== -->
+
+  <!-- 1. Infectious disorders -->
+  <rect x="15" y="48" width="115" height="82" rx="5" fill="white" fill-opacity="0.7" stroke="#E53935" stroke-width="0.8"/>
+  <rect x="15" y="48" width="115" height="16" rx="5" fill="url(#infectGrad)"/>
+  <rect x="15" y="56" width="115" height="8" fill="url(#infectGrad)"/>
+  <!-- Virus icon -->
+  <circle cx="30" cy="56" r="5" fill="white" opacity="0.8"/>
+  <line x1="30" y1="50" x2="30" y2="48" stroke="white" stroke-width="0.6"/>
+  <line x1="30" y1="62" x2="30" y2="64" stroke="white" stroke-width="0.6"/>
+  <line x1="24" y1="56" x2="22" y2="56" stroke="white" stroke-width="0.6"/>
+  <line x1="36" y1="56" x2="38" y2="56" stroke="white" stroke-width="0.6"/>
+  <text x="73" y="60" text-anchor="middle" font-size="7" font-weight="bold" fill="white" font-family="Arial">Инфекционные</text>
+  <text x="25" y="74" font-size="5.5" fill="#333" font-family="Arial">• Менингит</text>
+  <text x="25" y="82" font-size="5.5" fill="#333" font-family="Arial">  (воспаление оболочек)</text>
+  <text x="25" y="90" font-size="5.5" fill="#333" font-family="Arial">• Энцефалит</text>
+  <text x="25" y="98" font-size="5.5" fill="#333" font-family="Arial">  (воспаление мозга)</text>
+  <text x="25" y="106" font-size="5.5" fill="#333" font-family="Arial">• Полиомиелит</text>
+  <text x="25" y="114" font-size="5.5" fill="#333" font-family="Arial">  (поражение нейронов)</text>
+  <text x="25" y="123" font-size="5" font-weight="bold" fill="#C62828" font-family="Arial">⚠ Прививки!</text>
+
+  <!-- 2. Traumatic disorders -->
+  <rect x="135" y="48" width="115" height="82" rx="5" fill="white" fill-opacity="0.7" stroke="#F57C00" stroke-width="0.8"/>
+  <rect x="135" y="48" width="115" height="16" rx="5" fill="url(#traumaGrad)"/>
+  <rect x="135" y="56" width="115" height="8" fill="url(#traumaGrad)"/>
+  <!-- Impact icon -->
+  <text x="150" y="60" font-size="10" fill="white" font-family="Arial">⚡</text>
+  <text x="193" y="60" text-anchor="middle" font-size="7" font-weight="bold" fill="white" font-family="Arial">Травматические</text>
+  <text x="145" y="74" font-size="5.5" fill="#333" font-family="Arial">• Сотрясение мозга</text>
+  <text x="145" y="82" font-size="5.5" fill="#333" font-family="Arial">  (лёгкая ЧМТ)</text>
+  <text x="145" y="90" font-size="5.5" fill="#333" font-family="Arial">• Ушиб мозга</text>
+  <text x="145" y="98" font-size="5.5" fill="#333" font-family="Arial">  (средняя/тяжёлая)</text>
+  <text x="145" y="106" font-size="5.5" fill="#333" font-family="Arial">• Сдавление мозга</text>
+  <text x="145" y="114" font-size="5.5" fill="#333" font-family="Arial">• Травмы позвоночника</text>
+  <text x="145" y="123" font-size="5" font-weight="bold" fill="#E65100" font-family="Arial">⚠ Шлем и ремень!</text>
+
+  <!-- 3. Vascular disorders -->
+  <rect x="255" y="48" width="115" height="82" rx="5" fill="white" fill-opacity="0.7" stroke="#C2185B" stroke-width="0.8"/>
+  <rect x="255" y="48" width="115" height="16" rx="5" fill="url(#vascularGrad)"/>
+  <rect x="255" y="56" width="115" height="8" fill="url(#vascularGrad)"/>
+  <text x="313" y="60" text-anchor="middle" font-size="7" font-weight="bold" fill="white" font-family="Arial">Сосудистые</text>
+  <text x="265" y="74" font-size="5.5" fill="#333" font-family="Arial">• Инсульт ишемический</text>
+  <text x="265" y="82" font-size="5.5" fill="#333" font-family="Arial">  (закупорка сосуда)</text>
+  <text x="265" y="90" font-size="5.5" fill="#333" font-family="Arial">• Инсульт геморрагич.</text>
+  <text x="265" y="98" font-size="5.5" fill="#333" font-family="Arial">  (разрыв сосуда)</text>
+  <text x="265" y="106" font-size="5.5" fill="#333" font-family="Arial">• Транзиторная ишемия</text>
+  <text x="265" y="114" font-size="5.5" fill="#333" font-family="Arial">• Аневризма</text>
+  <text x="265" y="123" font-size="5" font-weight="bold" fill="#AD1457" font-family="Arial">⚠ Давление и холестерин!</text>
+
+  <!-- 4. Neuroses and stress -->
+  <rect x="375" y="48" width="110" height="82" rx="5" fill="white" fill-opacity="0.7" stroke="#7E57C2" stroke-width="0.8"/>
+  <rect x="375" y="48" width="110" height="16" rx="5" fill="url(#stressGrad)"/>
+  <rect x="375" y="56" width="110" height="8" fill="url(#stressGrad)"/>
+  <text x="430" y="60" text-anchor="middle" font-size="7" font-weight="bold" fill="white" font-family="Arial">Неврозы/стресс</text>
+  <text x="385" y="74" font-size="5.5" fill="#333" font-family="Arial">• Неврастения</text>
+  <text x="385" y="82" font-size="5.5" fill="#333" font-family="Arial">• Тревожные расст.</text>
+  <text x="385" y="90" font-size="5.5" fill="#333" font-family="Arial">• Депрессия</text>
+  <text x="385" y="98" font-size="5.5" fill="#333" font-family="Arial">• Хронический стресс</text>
+  <text x="385" y="106" font-size="5.5" fill="#333" font-family="Arial">• Панические атаки</text>
+  <text x="385" y="114" font-size="5.5" fill="#333" font-family="Arial">• Бессонница</text>
+  <text x="385" y="123" font-size="5" font-weight="bold" fill="#4527A0" font-family="Arial">⚠ Отдых и сон!</text>
+
+  <!-- ===== BRAIN WITH STROKE MARKING (center) ===== -->
+  <rect x="130" y="138" width="170" height="90" rx="6" fill="white" fill-opacity="0.5" stroke="#666" stroke-width="0.5"/>
+  <text x="215" y="150" text-anchor="middle" font-size="6.5" font-weight="bold" fill="#333" font-family="Arial">Инсульт — повреждение мозга</text>
+
+  <!-- Brain shape -->
+  <path d="M170,170 Q170,158 190,155 Q210,152 225,155 Q245,158 250,165 Q255,158 260,160 Q268,163 268,175 Q268,190 255,195 Q245,198 235,195 Q225,198 215,195 Q205,198 195,195 Q180,190 175,180 Q170,175 170,170 Z" fill="url(#brainGrad)" stroke="#BF360C" stroke-width="1"/>
+  <!-- Brain wrinkles -->
+  <path d="M195,165 Q215,160 240,168" fill="none" stroke="#BF360C" stroke-width="0.5" opacity="0.5"/>
+  <path d="M190,175 Q215,170 245,178" fill="none" stroke="#BF360C" stroke-width="0.5" opacity="0.5"/>
+  <path d="M195,185 Q215,180 235,188" fill="none" stroke="#BF360C" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Ischemic stroke site -->
+  <circle cx="200" cy="175" r="10" fill="#90CAF9" stroke="#1565C0" stroke-width="1" opacity="0.7"/>
+  <text x="200" y="178" text-anchor="middle" font-size="4.5" font-weight="bold" fill="#0D47A1" font-family="Arial">Ишемия</text>
+
+  <!-- Hemorrhagic stroke site -->
+  <circle cx="248" cy="172" r="8" fill="#EF9A9A" stroke="#C62828" stroke-width="1" opacity="0.7"/>
+  <text x="248" y="175" text-anchor="middle" font-size="4" font-weight="bold" fill="#B71C1C" font-family="Arial">Кровоизл.</text>
+
+  <!-- Arrow labels -->
+  <line x1="200" y1="185" x2="185" y2="210" stroke="#1565C0" stroke-width="0.5"/>
+  <text x="172" y="216" font-size="4.5" fill="#1565C0" font-family="Arial">Закупорка</text>
+  <text x="172" y="222" font-size="4.5" fill="#1565C0" font-family="Arial">сосуда →</text>
+
+  <line x1="248" y1="180" x2="260" y2="210" stroke="#C62828" stroke-width="0.5"/>
+  <text x="248" y="216" font-size="4.5" fill="#C62828" font-family="Arial">Разрыв</text>
+  <text x="248" y="222" font-size="4.5" fill="#C62828" font-family="Arial">сосуда →</text>
+
+  <!-- ===== PREVENTION PANEL (right side) ===== -->
+  <rect x="310" y="138" width="175" height="90" rx="6" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="397" y="151" text-anchor="middle" font-size="7" font-weight="bold" fill="#1B5E20" font-family="Arial">Профилактика</text>
+
+  <!-- Prevention items with icons -->
+  <rect x="318" y="157" width="160" height="10" rx="2" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="0.3"/>
+  <text x="323" y="165" font-size="5.5" fill="#2E7D32" font-family="Arial">🪖 Шлем при езде на велосипеде/мото</text>
+
+  <rect x="318" y="169" width="160" height="10" rx="2" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="0.3"/>
+  <text x="323" y="177" font-size="5.5" fill="#2E7D32" font-family="Arial">🔩 Ремень безопасности в автомобиле</text>
+
+  <rect x="318" y="181" width="160" height="10" rx="2" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="0.3"/>
+  <text x="323" y="189" font-size="5.5" fill="#2E7D32" font-family="Arial">😌 Управление стрессом и отдых</text>
+
+  <rect x="318" y="193" width="160" height="10" rx="2" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="0.3"/>
+  <text x="323" y="201" font-size="5.5" fill="#2E7D32" font-family="Arial">😴 Полноценный сон (7-9 часов)</text>
+
+  <rect x="318" y="205" width="160" height="10" rx="2" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="0.3"/>
+  <text x="323" y="213" font-size="5.5" fill="#2E7D32" font-family="Arial">🚫 Отказ от наркотиков и алкоголя</text>
+
+  <rect x="318" y="217" width="160" height="10" rx="2" fill="#FFF3E0" stroke="#FFB74D" stroke-width="0.3"/>
+  <text x="323" y="225" font-size="5.5" fill="#E65100" font-family="Arial">💪 Физическая активность и питание</text>
+
+  <!-- ===== FAST SIGNS OF STROKE (bottom) ===== -->
+  <rect x="15" y="235" width="470" height="82" rx="6" fill="white" fill-opacity="0.7" stroke="#E53935" stroke-width="1"/>
+  <rect x="15" y="235" width="470" height="16" rx="6" fill="#E53935"/>
+  <rect x="15" y="243" width="470" height="8" fill="#E53935"/>
+  <text x="250" y="249" text-anchor="middle" font-size="8" font-weight="bold" fill="white" font-family="Arial">ПРИЗНАКИ ИНСУЛЬТА — правило FAST</text>
+
+  <!-- F - Face -->
+  <rect x="25" y="258" width="105" height="52" rx="4" fill="#FFEBEE" stroke="#E53935" stroke-width="0.6"/>
+  <text x="77" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#C62828" font-family="Arial">F</text>
+  <text x="77" y="283" text-anchor="middle" font-size="6" font-weight="bold" fill="#C62828" font-family="Arial">Face — Лицо</text>
+  <text x="77" y="292" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Асимметрия лица,</text>
+  <text x="77" y="300" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">опущение угла рта,</text>
+  <text x="77" y="308" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">невозможность улыбнуться</text>
+
+  <!-- A - Arm -->
+  <rect x="137" y="258" width="105" height="52" rx="4" fill="#FFF3E0" stroke="#F57C00" stroke-width="0.6"/>
+  <text x="189" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#E65100" font-family="Arial">A</text>
+  <text x="189" y="283" text-anchor="middle" font-size="6" font-weight="bold" fill="#E65100" font-family="Arial">Arm — Рука</text>
+  <text x="189" y="292" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Слабость или</text>
+  <text x="189" y="300" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">онемение руки,</text>
+  <text x="189" y="308" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">не может поднять обе</text>
+
+  <!-- S - Speech -->
+  <rect x="249" y="258" width="105" height="52" rx="4" fill="#E8F5E9" stroke="#43A047" stroke-width="0.6"/>
+  <text x="301" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#2E7D32" font-family="Arial">S</text>
+  <text x="301" y="283" text-anchor="middle" font-size="6" font-weight="bold" fill="#2E7D32" font-family="Arial">Speech — Речь</text>
+  <text x="301" y="292" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Невнятная речь,</text>
+  <text x="301" y="300" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">затруднённое</text>
+  <text x="301" y="308" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">произношение слов</text>
+
+  <!-- T - Time -->
+  <rect x="361" y="258" width="115" height="52" rx="4" fill="#EDE7F6" stroke="#7E57C2" stroke-width="0.6"/>
+  <text x="418" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#4527A0" font-family="Arial">T</text>
+  <text x="418" y="283" text-anchor="middle" font-size="6" font-weight="bold" fill="#4527A0" font-family="Arial">Time — Время</text>
+  <text x="418" y="292" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Срочно вызовите</text>
+  <text x="418" y="300" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">скорую помощь!</text>
+  <text x="418" y="308" text-anchor="middle" font-size="6" font-weight="bold" fill="#C62828" font-family="Arial">⏱ 103 / 112</text>
+
+  <!-- Footer bar -->
+  <rect x="2" y="325" width="496" height="23" rx="0 0 12 12" fill="#2E7D32"/>
+  <text x="250" y="340" text-anchor="middle" font-size="8" fill="white" font-family="Arial">Здоровый образ жизни — лучшая профилактика заболеваний нервной системы</text>
+</svg>

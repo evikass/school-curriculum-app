@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#BBDEFB"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle">Ядро клетки</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 10 класс — Урок 19</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#1565C0" stroke-width="1" opacity="0.3"/>
+
+<!-- Nucleus cross-section -->
+<g transform="translate(160,180)">
+  <!-- Nuclear envelope (double membrane) -->
+  <ellipse cx="0" cy="0" rx="110" ry="80" fill="#BBDEFB" opacity="0.3" stroke="#1565C0" stroke-width="2.5"/>
+  <ellipse cx="0" cy="0" rx="106" ry="76" fill="none" stroke="#0D47A1" stroke-width="1" stroke-dasharray="4,2"/>
+
+  <!-- Nuclear pores -->
+  <circle cx="-95" cy="-20" r="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="-80" cy="-55" r="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="-30" cy="-72" r="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="30" cy="-72" r="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="80" cy="-55" r="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="95" cy="-20" r="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="90" cy="30" r="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="50" cy="65" r="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="-50" cy="65" r="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="-90" cy="30" r="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+
+  <!-- Nucleolus -->
+  <ellipse cx="20" cy="5" rx="25" ry="18" fill="#7B1FA2" opacity="0.2" stroke="#6A1B9A" stroke-width="1.5"/>
+  <text x="20" y="3" font-family="Arial,sans-serif" font-size="7" fill="#4A148C" text-anchor="middle" font-weight="bold">Ядрышко</text>
+  <text x="20" y="12" font-family="Arial,sans-serif" font-size="5" fill="#4A148C" text-anchor="middle">Синтез рРНК</text>
+
+  <!-- Chromatin (DNA + proteins) -->
+  <g opacity="0.4">
+    <path d="M-60,-30 Q-50,-35 -40,-28 Q-30,-20 -20,-28" fill="none" stroke="#1565C0" stroke-width="2"/>
+    <path d="M-50,-10 Q-40,-15 -30,-8 Q-20,0 -10,-8" fill="none" stroke="#C62828" stroke-width="2"/>
+    <path d="M-40,20 Q-30,15 -20,22 Q-10,30 0,22" fill="none" stroke="#2E7D32" stroke-width="2"/>
+    <path d="M40,-30 Q50,-35 60,-28 Q70,-20 80,-28" fill="none" stroke="#9C27B0" stroke-width="2"/>
+    <path d="M50,10 Q60,5 70,12 Q80,20 85,12" fill="none" stroke="#FF9800" stroke-width="2"/>
+    <path d="M-70,40 Q-60,35 -50,42 Q-40,50 -30,42" fill="none" stroke="#1565C0" stroke-width="2"/>
+  </g>
+
+  <!-- Labels -->
+  <text x="-90" y="-65" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" font-weight="bold">Ядерная</text>
+  <text x="-90" y="-57" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" font-weight="bold">пора</text>
+
+  <!-- Nuclear envelope label -->
+  <text x="0" y="-78" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" text-anchor="middle" font-weight="bold">Ядерная оболочка (2 мембраны)</text>
+
+  <!-- Chromatin label -->
+  <text x="-65" y="-38" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">Хроматин</text>
+  <text x="-65" y="-30" font-family="Arial,sans-serif" font-size="5" fill="#555">ДНК + гистоны</text>
+
+  <!-- mRNA export arrow -->
+  <path d="M-95,-18 L-110,-18" fill="none" stroke="#E91E63" stroke-width="1.5"/>
+  <polygon points="-110,-18 -106,-21 -106,-15" fill="#E91E63"/>
+  <text x="-120" y="-14" font-family="Arial,sans-serif" font-size="5" fill="#E91E63">мРНК →</text>
+
+  <!-- karyoplasm label -->
+  <text x="-15" y="45" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Кариоплазма (ядерный сок)</text>
+</g>
+
+<!-- Nucleus functions panel -->
+<g transform="translate(390,90)">
+  <rect x="-70" y="-15" width="140" height="130" rx="6" fill="white" opacity="0.92" stroke="#1565C0" stroke-width="1"/>
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1" text-anchor="middle" font-weight="bold">ФУНКЦИИ ЯДРА</text>
+  <line x1="-55" y1="5" x2="55" y2="5" stroke="#1565C0" stroke-width="0.5"/>
+
+  <g transform="translate(0,18)">
+    <circle cx="-45" cy="0" r="5" fill="#1565C0" opacity="0.3"/>
+    <text x="-45" y="3" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">1</text>
+    <text x="-35" y="3" font-family="Arial,sans-serif" font-size="6" fill="#333">Хранение генетической информации</text>
+  </g>
+  <g transform="translate(0,34)">
+    <circle cx="-45" cy="0" r="5" fill="#2E7D32" opacity="0.3"/>
+    <text x="-45" y="3" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">2</text>
+    <text x="-35" y="3" font-family="Arial,sans-serif" font-size="6" fill="#333">Передача наследственной информации</text>
+  </g>
+  <g transform="translate(0,50)">
+    <circle cx="-45" cy="0" r="5" fill="#E65100" opacity="0.3"/>
+    <text x="-45" y="3" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">3</text>
+    <text x="-35" y="3" font-family="Arial,sans-serif" font-size="6" fill="#333">Реализация генетической информации</text>
+  </g>
+  <g transform="translate(0,66)">
+    <circle cx="-45" cy="0" r="5" fill="#9C27B0" opacity="0.3"/>
+    <text x="-45" y="3" font-family="Arial,sans-serif" font-size="5" fill="#9C27B0" text-anchor="middle">4</text>
+    <text x="-35" y="3" font-family="Arial,sans-serif" font-size="6" fill="#333">Регуляция жизнедеятельности клетки</text>
+  </g>
+  <g transform="translate(0,82)">
+    <circle cx="-45" cy="0" r="5" fill="#C62828" opacity="0.3"/>
+    <text x="-45" y="3" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">5</text>
+    <text x="-35" y="3" font-family="Arial,sans-serif" font-size="6" fill="#333">Синтез ДНК и РНК (репликация, транскрипция)</text>
+  </g>
+  <g transform="translate(0,98)">
+    <circle cx="-45" cy="0" r="5" fill="#795548" opacity="0.3"/>
+    <text x="-45" y="3" font-family="Arial,sans-serif" font-size="5" fill="#795548" text-anchor="middle">6</text>
+    <text x="-35" y="3" font-family="Arial,sans-serif" font-size="6" fill="#333">Сборка рибосом (в ядрышке)</text>
+  </g>
+</g>
+
+<!-- Chromosome info -->
+<g transform="translate(390,260)">
+  <rect x="-70" y="-15" width="140" height="65" rx="6" fill="white" opacity="0.92" stroke="#C62828" stroke-width="1"/>
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">ХРОМОСОМЫ</text>
+  <line x1="-55" y1="5" x2="55" y2="5" stroke="#C62828" stroke-width="0.5"/>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Хроматин → Хромосомы (при делении)</text>
+  <text x="0" y="30" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Человек: 2n = 46 (23 пары)</text>
+  <text x="0" y="42" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Дрозофила: 2n = 8</text>
+</g>
+
+<rect x="10" y="336" width="480" height="8" rx="4" fill="#1565C0" opacity="0.85"/>
+</svg>

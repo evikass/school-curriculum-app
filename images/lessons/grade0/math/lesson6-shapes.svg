@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      .circle { animation: spin 10s linear infinite; }
+      .shape { animation: bounce 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#f0fdf4"/>
+  
+  <!-- Title -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#15803d">Геометрические фигуры 🔷</text>
+  
+  <!-- Circle -->
+  <g class="circle" style="transform-origin: 80px 100px">
+    <circle cx="80" cy="100" r="45" fill="#ef4444" stroke="#dc2626" stroke-width="3"/>
+  </g>
+  <text x="80" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">Круг ⭕</text>
+  <text x="80" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Без углов</text>
+  
+  <!-- Square -->
+  <g class="shape" style="animation-delay: 0.2s">
+    <rect x="150" y="55" width="90" height="90" fill="#3b82f6" stroke="#2563eb" stroke-width="3" rx="5"/>
+  </g>
+  <text x="195" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2563eb">Квадрат ⬜</text>
+  <text x="195" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">4 угла</text>
+  
+  <!-- Triangle -->
+  <g class="shape" style="animation-delay: 0.4s">
+    <polygon points="320,55 280,145 360,145" fill="#eab308" stroke="#ca8a04" stroke-width="3"/>
+  </g>
+  <text x="320" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ca8a04">Треугольник 🔺</text>
+  <text x="320" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">3 угла</text>
+  
+  <!-- Rectangle -->
+  <g class="shape" style="animation-delay: 0.6s">
+    <rect x="390" y="65" width="80" height="70" fill="#22c55e" stroke="#16a34a" stroke-width="3" rx="5"/>
+  </g>
+  <text x="430" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#16a34a">Прямоугольник ▭</text>
+  <text x="430" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">4 угла</text>
+  
+  <!-- Oval -->
+  <g class="shape" style="animation-delay: 0.8s">
+    <ellipse cx="120" cy="270" rx="60" ry="40" fill="#a855f7" stroke="#9333ea" stroke-width="3"/>
+  </g>
+  <text x="120" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9333ea">Овал ⬭</text>
+  
+  <!-- Real world examples -->
+  <rect x="200" y="210" width="280" height="120" fill="#fef3c7" rx="15"/>
+  <text x="340" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#b45309">На что похоже?</text>
+  
+  <text x="230" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">⭕ Солнце, мяч</text>
+  <text x="340" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">⬜ Окно, книга</text>
+  <text x="450" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">🔺 Крыша, ёлка</text>
+  
+  <text x="230" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">▭ Дверь, стол</text>
+  <text x="340" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">⬭ Яйцо, огурец</text>
+  
+  <text x="340" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d97706">Найди фигуры вокруг себя! 👀</text>
+</svg>

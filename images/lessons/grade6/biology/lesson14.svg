@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Лишайники</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 14</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Section 1: Cross-section of lichen (main diagram) -->
+<text x="140" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Анатомическое строение лишайника</text>
+
+<g transform="translate(30,75)">
+<!-- Cross-section body -->
+<path d="M0,50 Q5,20 40,15 Q80,10 120,15 Q160,22 200,25 Q210,30 210,50 Q200,60 160,65 Q120,70 80,68 Q40,65 10,60 Q0,55 0,50Z" fill="#BDBDBD" opacity="0.4" stroke="#757575" stroke-width="1.2"/>
+
+<!-- Upper cortex (коровой слой) -->
+<path d="M0,50 Q5,20 40,15 Q80,10 120,15 Q160,22 200,25 Q210,30 210,35" fill="none" stroke="#5D4037" stroke-width="3" opacity="0.7"/>
+<text x="225" y="28" font-family="Arial,sans-serif" font-size="7" fill="#5D4037">коровой слой</text>
+<text x="225" y="36" font-family="Arial,sans-serif" font-size="6" fill="#5D4037">(верхняя кора)</text>
+<line x1="210" y1="30" x2="222" y2="28" stroke="#5D4037" stroke-width="0.4"/>
+
+<!-- Algal layer (слой водорослей / гонидиальный слой) -->
+<path d="M5,48 Q10,25 45,22 Q85,17 125,20 Q165,25 205,28 Q210,32 210,38" fill="#81C784" opacity="0.4" stroke="#4CAF50" stroke-width="0.5"/>
+<!-- Individual algal cells -->
+<circle cx="40" cy="25" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<circle cx="60" cy="22" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<circle cx="80" cy="20" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<circle cx="100" cy="19" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<circle cx="120" cy="20" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<circle cx="140" cy="23" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<circle cx="160" cy="26" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<circle cx="180" cy="28" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<circle cx="195" cy="30" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+
+<text x="225" y="46" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">слой водорослей</text>
+<text x="225" y="54" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">(гонидиальный)</text>
+<line x1="195" y1="42" x2="222" y2="46" stroke="#2E7D32" stroke-width="0.4"/>
+
+<!-- Medulla (сердцевина) -->
+<path d="M8,48 Q15,32 50,30 Q90,27 130,28 Q170,30 205,33 Q212,38 212,45" fill="#EFEBE9" opacity="0.3" stroke="#BDBDBD" stroke-width="0.5"/>
+<!-- Fungal hyphae in medulla -->
+<path d="M20,42 Q40,38 60,40 Q80,42 100,38" fill="none" stroke="#9E9E9E" stroke-width="0.5"/>
+<path d="M30,45 Q50,42 70,44 Q90,46 110,42" fill="none" stroke="#9E9E9E" stroke-width="0.5"/>
+<path d="M40,48 Q60,45 80,47 Q100,49 120,45" fill="none" stroke="#9E9E9E" stroke-width="0.5"/>
+
+<text x="225" y="62" font-family="Arial,sans-serif" font-size="7" fill="#757575">сердцевина</text>
+<text x="225" y="70" font-family="Arial,sans-serif" font-size="6" fill="#757575">(гифы гриба)</text>
+<line x1="180" y1="52" x2="222" y2="62" stroke="#757575" stroke-width="0.4"/>
+
+<!-- Lower cortex -->
+<path d="M10,58 Q40,63 80,65 Q120,67 160,64 Q190,60 205,55 Q210,52 210,50" fill="none" stroke="#5D4037" stroke-width="2.5" opacity="0.6"/>
+<text x="225" y="76" font-family="Arial,sans-serif" font-size="7" fill="#5D4037">нижняя кора</text>
+<line x1="190" y1="62" x2="222" y2="76" stroke="#5D4037" stroke-width="0.4"/>
+
+<!-- Rhizines -->
+<path d="M40,66 Q38,72 36,78" fill="none" stroke="#795548" stroke-width="0.8"/>
+<path d="M70,68 Q68,74 66,80" fill="none" stroke="#795548" stroke-width="0.8"/>
+<path d="M100,67 Q98,73 96,79" fill="none" stroke="#795548" stroke-width="0.8"/>
+<path d="M130,66 Q128,72 126,78" fill="none" stroke="#795548" stroke-width="0.8"/>
+<path d="M160,64 Q158,70 156,76" fill="none" stroke="#795548" stroke-width="0.8"/>
+<text x="110" y="85" font-family="Arial,sans-serif" font-size="6" fill="#795548" text-anchor="middle">ризины (прикрепление)</text>
+</g>
+
+<!-- Symbiosis symbol -->
+<g transform="translate(20,168)">
+<rect x="0" y="0" width="130" height="28" rx="4" fill="white" opacity="0.5" stroke="#9C27B0" stroke-width="0.6"/>
+<text x="65" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#9C27B0" text-anchor="middle">Симбиоз</text>
+<text x="10" y="22" font-family="Arial,sans-serif" font-size="6" fill="#5D4037">Гриб (микобионт)</text>
+<text x="82" y="22" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">+ Водоросль (фикобионт)</text>
+</g>
+
+<!-- Section 2: Three types of lichens -->
+<text x="345" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Три формы лишайников</text>
+
+<!-- Накипной (Crustose) -->
+<g transform="translate(260,78)">
+<rect x="0" y="0" width="80" height="50" rx="4" fill="white" opacity="0.3" stroke="#9E9E9E" stroke-width="0.5"/>
+<text x="40" y="10" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#757575" text-anchor="middle">Накипной</text>
+<!-- Rock surface -->
+<rect x="5" y="15" width="70" height="25" rx="2" fill="#9E9E9E" opacity="0.3" stroke="#757575" stroke-width="0.5"/>
+<!-- Crustose lichen patches -->
+<ellipse cx="25" cy="28" rx="12" ry="6" fill="#C8B560" opacity="0.6" stroke="#8D6E63" stroke-width="0.5"/>
+<ellipse cx="55" cy="25" rx="10" ry="5" fill="#A5D6A7" opacity="0.5" stroke="#66BB6A" stroke-width="0.5"/>
+<ellipse cx="40" cy="33" rx="8" ry="4" fill="#FFE082" opacity="0.5" stroke="#F9A825" stroke-width="0.5"/>
+<text x="40" y="48" font-family="Arial,sans-serif" font-size="5.5" fill="#757575" text-anchor="middle">Леканора, Лецидея</text>
+</g>
+
+<!-- Листовой (Foliose) -->
+<g transform="translate(350,78)">
+<rect x="0" y="0" width="80" height="50" rx="4" fill="white" opacity="0.3" stroke="#9E9E9E" stroke-width="0.5"/>
+<text x="40" y="10" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#558B2F" text-anchor="middle">Листовой</text>
+<!-- Bark surface -->
+<rect x="5" y="15" width="70" height="25" rx="2" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.5"/>
+<!-- Foliose lichen lobes -->
+<path d="M10,20 Q20,15 30,18 Q35,20 40,16 Q50,13 55,20 Q48,25 40,22 Q30,25 20,22 Q12,24 10,20Z" fill="#81C784" opacity="0.5" stroke="#4CAF50" stroke-width="0.6"/>
+<path d="M30,25 Q40,22 50,25 Q55,30 50,35 Q40,38 30,35 Q25,30 30,25Z" fill="#A5D6A7" opacity="0.5" stroke="#66BB6A" stroke-width="0.6"/>
+<text x="40" y="48" font-family="Arial,sans-serif" font-size="5.5" fill="#558B2F" text-anchor="middle">Пармелия, Ксантория</text>
+</g>
+
+<!-- Кустистый (Fruticose) -->
+<g transform="translate(260,135)">
+<rect x="0" y="0" width="80" height="55" rx="4" fill="white" opacity="0.3" stroke="#9E9E9E" stroke-width="0.5"/>
+<text x="40" y="10" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#33691E" text-anchor="middle">Кустистый</text>
+<!-- Branching fruticose lichen -->
+<line x1="40" y1="48" x2="40" y2="30" stroke="#795548" stroke-width="1.5"/>
+<line x1="40" y1="35" x2="30" y2="22" stroke="#795548" stroke-width="1.2"/>
+<line x1="40" y1="32" x2="52" y2="20" stroke="#795548" stroke-width="1.2"/>
+<line x1="30" y1="22" x2="25" y2="15" stroke="#795548" stroke-width="0.8"/>
+<line x1="30" y1="22" x2="35" y2="14" stroke="#795548" stroke-width="0.8"/>
+<line x1="52" y1="20" x2="48" y2="13" stroke="#795548" stroke-width="0.8"/>
+<line x1="52" y1="20" x2="58" y2="14" stroke="#795548" stroke-width="0.8"/>
+<!-- Cup-like tips -->
+<ellipse cx="25" cy="14" rx="3" ry="2" fill="#81C784" opacity="0.5"/>
+<ellipse cx="35" cy="13" rx="3" ry="2" fill="#81C784" opacity="0.5"/>
+<ellipse cx="48" cy="12" rx="3" ry="2" fill="#81C784" opacity="0.5"/>
+<ellipse cx="58" cy="13" rx="3" ry="2" fill="#81C784" opacity="0.5"/>
+<text x="40" y="54" font-family="Arial,sans-serif" font-size="5.5" fill="#33691E" text-anchor="middle">Кладония, Уснея</text>
+</g>
+
+<!-- Ягель (олений мох) - important fruticose -->
+<g transform="translate(350,135)">
+<rect x="0" y="0" width="80" height="55" rx="4" fill="white" opacity="0.3" stroke="#9E9E9E" stroke-width="0.5"/>
+<text x="40" y="10" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#33691E" text-anchor="middle">Ягель</text>
+<!-- Cladonia rangiferina - branching white-grey -->
+<line x1="40" y1="50" x2="40" y2="30" stroke="#BDBDBD" stroke-width="2"/>
+<line x1="40" y1="38" x2="32" y2="25" stroke="#BDBDBD" stroke-width="1.5"/>
+<line x1="40" y1="35" x2="50" y2="22" stroke="#BDBDBD" stroke-width="1.5"/>
+<line x1="32" y1="25" x2="28" y2="17" stroke="#CFD8DC" stroke-width="1"/>
+<line x1="32" y1="25" x2="36" y2="16" stroke="#CFD8DC" stroke-width="1"/>
+<line x1="50" y1="22" x2="46" y2="14" stroke="#CFD8DC" stroke-width="1"/>
+<line x1="50" y1="22" x2="55" y2="15" stroke="#CFD8DC" stroke-width="1"/>
+<line x1="28" y1="17" x2="24" y2="12" stroke="#E0E0E0" stroke-width="0.8"/>
+<line x1="36" y1="16" x2="38" y2="11" stroke="#E0E0E0" stroke-width="0.8"/>
+<text x="40" y="54" font-family="Arial,sans-serif" font-size="5.5" fill="#546E7A" text-anchor="middle">корм оленей</text>
+</g>
+
+<!-- Section 3: Reproduction - Soredia and Isidia -->
+<text x="135" y="200" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Размножение лишайников</text>
+
+<!-- Soredia -->
+<g transform="translate(15,210)">
+<rect x="0" y="0" width="110" height="65" rx="4" fill="white" opacity="0.4" stroke="#4CAF50" stroke-width="0.5"/>
+<text x="55" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#2E7D32" text-anchor="middle">Соредии</text>
+<!-- Soredium close-up -->
+<circle cx="55" cy="32" r="8" fill="#EFEBE9" stroke="#9E9E9E" stroke-width="0.8"/>
+<!-- Algal cells inside -->
+<circle cx="52" cy="30" r="2" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.4"/>
+<circle cx="57" cy="28" r="1.8" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.4"/>
+<circle cx="54" cy="34" r="1.5" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.4"/>
+<!-- Fungal hyphae wrapping -->
+<path d="M47,32 Q50,24 55,24 Q60,24 63,30" fill="none" stroke="#9E9E9E" stroke-width="0.6"/>
+<path d="M48,35 Q52,38 58,36 Q62,34 63,32" fill="none" stroke="#9E9E9E" stroke-width="0.6"/>
+<!-- Soredia being released from surface -->
+<circle cx="25" cy="22" r="2.5" fill="#BDBDBD" stroke="#9E9E9E" stroke-width="0.4"/>
+<circle cx="22" cy="18" r="2" fill="#BDBDBD" stroke="#9E9E9E" stroke-width="0.3"/>
+<!-- Wind arrows -->
+<path d="M15,20 L8,16" fill="none" stroke="#90CAF9" stroke-width="0.5"/>
+<path d="M14,22 L6,20" fill="none" stroke="#90CAF9" stroke-width="0.5"/>
+<text x="55" y="48" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">пылевидные</text>
+<text x="55" y="55" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">комочки из гиф</text>
+<text x="55" y="62" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">+ клеток водоросли</text>
+</g>
+
+<!-- Isidia -->
+<g transform="translate(135,210)">
+<rect x="0" y="0" width="110" height="65" rx="4" fill="white" opacity="0.4" stroke="#FF9800" stroke-width="0.5"/>
+<text x="55" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#E65100" text-anchor="middle">Изидии</text>
+<!-- Lichen surface with isidia -->
+<path d="M15,45 Q30,40 55,42 Q80,44 95,40" fill="none" stroke="#9E9E9E" stroke-width="2"/>
+<!-- Isidia - small outgrowths -->
+<ellipse cx="25" cy="36" rx="4" ry="7" fill="#BDBDBD" stroke="#757575" stroke-width="0.6"/>
+<ellipse cx="38" cy="34" rx="3.5" ry="8" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.5"/>
+<ellipse cx="50" cy="35" rx="4" ry="7" fill="#BDBDBD" stroke="#757575" stroke-width="0.6"/>
+<ellipse cx="63" cy="33" rx="3.5" ry="8" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.5"/>
+<ellipse cx="75" cy="35" rx="4" ry="7" fill="#BDBDBD" stroke="#757575" stroke-width="0.6"/>
+<ellipse cx="85" cy="34" rx="3" ry="6" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.5"/>
+<!-- Breaking off arrow -->
+<path d="M50,26 L48,18" fill="none" stroke="#E65100" stroke-width="0.8"/>
+<polygon points="47,18 50,14 51,19" fill="#E65100"/>
+<text x="55" y="56" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">выросты на поверхности</text>
+<text x="55" y="63" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">отламываются и растут</text>
+</g>
+
+<!-- Spore reproduction -->
+<g transform="translate(255,210)">
+<rect x="0" y="0" width="110" height="65" rx="4" fill="white" opacity="0.4" stroke="#9C27B0" stroke-width="0.5"/>
+<text x="55" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Спорами гриба</text>
+<!-- Apothecium (fruiting body) -->
+<ellipse cx="55" cy="40" rx="20" ry="8" fill="#8D6E63" opacity="0.4" stroke="#5D4037" stroke-width="0.8"/>
+<!-- Cup shape -->
+<path d="M35,40 Q35,30 55,28 Q75,30 75,40" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.6"/>
+<!-- Spores being released -->
+<circle cx="45" cy="22" r="1.5" fill="#5D4037" opacity="0.5"/>
+<circle cx="55" cy="18" r="1.5" fill="#5D4037" opacity="0.5"/>
+<circle cx="65" cy="22" r="1.5" fill="#5D4037" opacity="0.5"/>
+<circle cx="50" cy="15" r="1.2" fill="#5D4037" opacity="0.4"/>
+<circle cx="60" cy="14" r="1.2" fill="#5D4037" opacity="0.4"/>
+<text x="55" y="56" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">споры гриба должны</text>
+<text x="55" y="63" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">встретить водоросль</text>
+</g>
+
+<!-- Bioindicators note -->
+<g transform="translate(375,210)">
+<rect x="0" y="0" width="110" height="65" rx="4" fill="white" opacity="0.4" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="55" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Биоиндикаторы</text>
+<!-- Clean air -->
+<circle cx="30" cy="30" r="10" fill="#81C784" opacity="0.3" stroke="#4CAF50" stroke-width="0.6"/>
+<text x="30" y="33" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">чистый</text>
+<text x="30" y="39" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">воздух</text>
+<!-- Arrow -->
+<path d="M42,30 L50,30" fill="none" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="46" y="27" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">→</text>
+<!-- Lichen -->
+<path d="M55,25 Q65,20 75,25 Q80,30 75,35 Q65,38 55,35 Q50,30 55,25Z" fill="#A5D6A7" opacity="0.5" stroke="#4CAF50" stroke-width="0.6"/>
+<!-- Polluted -->
+<circle cx="30" cy="52" r="8" fill="#FFCDD2" opacity="0.3" stroke="#F44336" stroke-width="0.6"/>
+<text x="30" y="50" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">грязный</text>
+<text x="30" y="56" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">воздух</text>
+<!-- X mark -->
+<line x1="62" y1="48" x2="78" y2="58" stroke="#F44336" stroke-width="1.5"/>
+<line x1="78" y1="48" x2="62" y2="58" stroke="#F44336" stroke-width="1.5"/>
+<text x="70" y="64" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">лишайников нет</text>
+</g>
+
+<!-- Bottom summary -->
+<g transform="translate(15,285)">
+<rect x="0" y="0" width="470" height="48" rx="5" fill="white" opacity="0.5" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="235" y="14" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Особенности лишайников</text>
+<text x="10" y="26" font-family="Arial,sans-serif" font-size="6" fill="#333">• Двойная природа: гриб + водоросль (или цианобактерия)</text>
+<text x="10" y="35" font-family="Arial,sans-serif" font-size="6" fill="#333">• Растут крайне медленно (1-5 мм/год), живут до 100-600 лет</text>
+<text x="10" y="44" font-family="Arial,sans-serif" font-size="6" fill="#333">• Пионеры: первыми заселяют голые скалы, подготавливают почву для других организмов</text>
+</g>
+</svg>

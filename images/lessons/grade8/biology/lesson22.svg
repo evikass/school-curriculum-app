@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9"/>
+      <stop offset="100%" style="stop-color:#C8E6C9"/>
+    </linearGradient>
+    <marker id="arrO2" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#D32F2F"/>
+    </marker>
+    <marker id="arrCO2" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+      <polygon points="0,0 6,2 0,4" fill="#1565C0"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="url(#bg)" stroke="#2E7D32" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20">Газообмен в лёгких и тканях</text>
+  <text x="250" y="34" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666">Биология 8 класс — Урок 22</text>
+  <line x1="20" y1="40" x2="480" y2="40" stroke="#2E7D32" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- === LEFT PANEL: Gas exchange in LUNGS === -->
+  <rect x="12" y="48" width="230" height="195" rx="8" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="1"/>
+  <text x="127" y="63" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20">В лёгких</text>
+
+  <!-- Alveolus -->
+  <ellipse cx="127" cy="135" rx="55" ry="50" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5" opacity="0.6"/>
+  <ellipse cx="127" cy="135" rx="45" ry="40" fill="#FFEBEE" stroke="#EF9A9A" stroke-width="0.8"/>
+  <text x="127" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#B71C1C">Альвеола</text>
+
+  <!-- Air inside alveolus -->
+  <text x="110" y="118" font-family="Arial,sans-serif" font-size="6" fill="#D32F2F">O₂</text>
+  <text x="130" y="155" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">CO₂</text>
+
+  <!-- O2 arrow: from alveolus air into blood -->
+  <line x1="100" y1="118" x2="80" y2="108" stroke="#D32F2F" stroke-width="1.2" marker-end="url(#arrO2)"/>
+  <text x="72" y="103" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#D32F2F">O₂ →</text>
+
+  <!-- CO2 arrow: from blood into alveolus -->
+  <line x1="80" y1="155" x2="100" y2="155" stroke="#1565C0" stroke-width="1.2" marker-end="url(#arrCO2)"/>
+  <text x="55" y="160" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#1565C0">← CO₂</text>
+
+  <!-- Capillary on left (venous blood coming in - blue-ish) -->
+  <path d="M40,95 Q30,100 28,115 Q26,130 35,145 Q40,155 50,160" fill="none" stroke="#1E88E5" stroke-width="3" opacity="0.7" stroke-linecap="round"/>
+  <text x="18" y="92" font-family="Arial,sans-serif" font-size="5.5" fill="#1E88E5">Венозная кровь</text>
+  <text x="15" y="99" font-family="Arial,sans-serif" font-size="5.5" fill="#1E88E5">(много CO₂)</text>
+
+  <!-- Capillary on right (arterial blood going out - red) -->
+  <path d="M205,95 Q215,100 217,115 Q219,130 210,145 Q205,155 195,160" fill="none" stroke="#D32F2F" stroke-width="3" opacity="0.7" stroke-linecap="round"/>
+  <text x="190" y="92" font-family="Arial,sans-serif" font-size="5.5" fill="#D32F2F">Артериальная кровь</text>
+  <text x="190" y="99" font-family="Arial,sans-serif" font-size="5.5" fill="#D32F2F">(много O₂)</text>
+
+  <!-- O2 arrow: from alveolus to right capillary -->
+  <line x1="155" y1="118" x2="175" y2="108" stroke="#D32F2F" stroke-width="1.2" marker-end="url(#arrO2)"/>
+  <text x="160" y="103" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#D32F2F">→ O₂</text>
+
+  <!-- CO2 arrow: from right capillary to alveolus -->
+  <line x1="175" y1="155" x2="155" y2="155" stroke="#1565C0" stroke-width="1.2" marker-end="url(#arrCO2)"/>
+  <text x="162" y="165" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#1565C0">CO₂ ←</text>
+
+  <!-- Direction labels -->
+  <text x="75" y="82" font-family="Arial,sans-serif" font-size="6" fill="#D32F2F">O₂: альвеола → кровь</text>
+  <text x="75" y="190" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">CO₂: кровь → альвеола</text>
+
+  <!-- Summary in lung panel -->
+  <rect x="22" y="198" width="210" height="35" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="127" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#333">Венозная кровь → обогащается O₂ →</text>
+  <text x="127" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#333">→ отдаёт CO₂ → становится артериальной</text>
+  <text x="127" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" font-weight="bold">Лёгочный круг: венозная → артериальная</text>
+
+  <!-- === RIGHT PANEL: Gas exchange in TISSUES === -->
+  <rect x="258" y="48" width="230" height="195" rx="8" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="1"/>
+  <text x="373" y="63" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20">В тканях</text>
+
+  <!-- Cell -->
+  <rect x="345" y="105" width="55" height="60" rx="8" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="372" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#0D47A1">Клетка</text>
+  <text x="372" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0">митохондрии</text>
+  <!-- Mitochondria -->
+  <ellipse cx="362" cy="150" rx="8" ry="4" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.6"/>
+  <ellipse cx="380" cy="152" rx="7" ry="3.5" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.6"/>
+
+  <!-- O2 arrow: from blood into cell -->
+  <line x1="320" y1="120" x2="345" y2="120" stroke="#D32F2F" stroke-width="1.2" marker-end="url(#arrO2)"/>
+  <text x="300" y="117" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#D32F2F">O₂ →</text>
+
+  <!-- CO2 arrow: from cell into blood -->
+  <line x1="345" y1="155" x2="320" y2="155" stroke="#1565C0" stroke-width="1.2" marker-end="url(#arrCO2)"/>
+  <text x="296" y="162" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#1565C0">← CO₂</text>
+
+  <!-- Capillary on left (arterial blood coming in - red) -->
+  <path d="M290,100 Q280,105 278,120 Q276,135 285,150 Q290,160 298,165" fill="none" stroke="#D32F2F" stroke-width="3" opacity="0.7" stroke-linecap="round"/>
+  <text x="265" y="95" font-family="Arial,sans-serif" font-size="5.5" fill="#D32F2F">Артериальная кровь</text>
+  <text x="262" y="102" font-family="Arial,sans-serif" font-size="5.5" fill="#D32F2F">(много O₂)</text>
+
+  <!-- Capillary on right (venous blood going out - blue) -->
+  <path d="M453,100 Q463,105 465,120 Q467,135 458,150 Q453,160 445,165" fill="none" stroke="#1E88E5" stroke-width="3" opacity="0.7" stroke-linecap="round"/>
+  <text x="430" y="95" font-family="Arial,sans-serif" font-size="5.5" fill="#1E88E5">Венозная кровь</text>
+  <text x="432" y="102" font-family="Arial,sans-serif" font-size="5.5" fill="#1E88E5">(много CO₂)</text>
+
+  <!-- O2 arrows to right capillary side -->
+  <line x1="400" y1="120" x2="430" y2="120" stroke="#D32F2F" stroke-width="0.8" stroke-dasharray="2,1"/>
+  <line x1="430" y1="155" x2="400" y2="155" stroke="#1565C0" stroke-width="0.8" stroke-dasharray="2,1"/>
+
+  <!-- Tissue summary -->
+  <rect x="268" y="198" width="210" height="35" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="373" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#333">Артериальная кровь → отдаёт O₂ клеткам →</text>
+  <text x="373" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#333">→ забирает CO₂ → становится венозной</text>
+  <text x="373" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" font-weight="bold">Большой круг: артериальная → венозная</text>
+
+  <!-- === HEMOGLOBIN BINDING DIAGRAM === -->
+  <rect x="12" y="250" width="230" height="75" rx="6" fill="white" fill-opacity="0.8" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="127" y="264" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20">Гемоглобин и перенос газов</text>
+  <line x1="22" y1="268" x2="232" y2="268" stroke="#2E7D32" stroke-width="0.3"/>
+
+  <!-- Hemoglobin molecule -->
+  <circle cx="60" cy="290" r="12" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <text x="60" y="293" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#B71C1C">Hb</text>
+  <text x="60" y="307" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#666">дезоксигемоглобин</text>
+
+  <!-- + O2 -->
+  <text x="92" y="293" font-family="Arial,sans-serif" font-size="8" fill="#333">+</text>
+  <circle cx="108" cy="290" r="8" fill="#FFEBEE" stroke="#D32F2F" stroke-width="0.8"/>
+  <text x="108" y="293" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#D32F2F">4O₂</text>
+
+  <!-- = -->
+  <text x="128" y="293" font-family="Arial,sans-serif" font-size="8" fill="#333">=</text>
+
+  <!-- Oxyhemoglobin -->
+  <circle cx="160" cy="290" r="14" fill="#EF9A9A" stroke="#C62828" stroke-width="1.2"/>
+  <text x="160" y="288" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#B71C1C">HbO₂</text>
+  <text x="160" y="296" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.5" fill="#fff">4</text>
+  <text x="160" y="307" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#333">оксигемоглобин</text>
+
+  <!-- Reversible arrows -->
+  <path d="M78,280 L140,280" stroke="#2E7D32" stroke-width="0.8" marker-end="url(#arrG)"/>
+  <path d="M140,300 L78,300" stroke="#795548" stroke-width="0.8" marker-end="url(#arrB)"/>
+  <defs>
+    <marker id="arrG" markerWidth="5" markerHeight="4" refX="4" refY="2" orient="auto">
+      <polygon points="0,0 5,2 0,4" fill="#2E7D32"/>
+    </marker>
+    <marker id="arrB" markerWidth="5" markerHeight="4" refX="4" refY="2" orient="auto">
+      <polygon points="0,0 5,2 0,4" fill="#795548"/>
+    </marker>
+  </defs>
+  <text x="110" y="277" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">в лёгких</text>
+  <text x="110" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#795548">в тканях</text>
+
+  <!-- CO2 transport note -->
+  <text x="210" y="290" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0">CO₂ переносится:</text>
+  <text x="210" y="298" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">• HbCO₂ (карбгемоглобин)</text>
+  <text x="210" y="305" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">• NaHCO₃ (бикарбонат)</text>
+  <text x="210" y="312" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">• растворён в плазме</text>
+
+  <!-- === SIDE PANEL: Partial pressures === -->
+  <rect x="258" y="250" width="230" height="75" rx="6" fill="white" fill-opacity="0.8" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="373" y="264" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20">Парциальное давление газов</text>
+  <line x1="268" y1="268" x2="478" y2="268" stroke="#2E7D32" stroke-width="0.3"/>
+
+  <!-- Table header -->
+  <text x="290" y="280" font-family="Arial,sans-serif" font-size="6.5" font-weight="bold" fill="#333">Место</text>
+  <text x="370" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" font-weight="bold" fill="#D32F2F">pO₂ (мм рт.ст.)</text>
+  <text x="455" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" font-weight="bold" fill="#1565C0">pCO₂ (мм рт.ст.)</text>
+  <line x1="268" y1="283" x2="478" y2="283" stroke="#ccc" stroke-width="0.3"/>
+
+  <text x="290" y="293" font-family="Arial,sans-serif" font-size="6" fill="#333">Альвеолярный воздух</text>
+  <text x="370" y="293" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#D32F2F">100</text>
+  <text x="455" y="293" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">40</text>
+
+  <text x="290" y="303" font-family="Arial,sans-serif" font-size="6" fill="#333">Венозная кровь</text>
+  <text x="370" y="303" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#D32F2F">40</text>
+  <text x="455" y="303" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">46</text>
+
+  <text x="290" y="313" font-family="Arial,sans-serif" font-size="6" fill="#333">Артериальная кровь</text>
+  <text x="370" y="313" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#D32F2F">95</text>
+  <text x="455" y="313" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">40</text>
+
+  <text x="290" y="323" font-family="Arial,sans-serif" font-size="6" fill="#333">Ткани</text>
+  <text x="370" y="323" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#D32F2F">30</text>
+  <text x="455" y="323" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">50</text>
+
+  <!-- Diffusion principle -->
+  <text x="373" y="340" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" font-weight="bold">Диффузия: из области высокого давления → в область низкого</text>
+
+  <!-- Footer -->
+  <rect x="2" y="338" width="496" height="10" rx="0 0 12 12" fill="#2E7D32"/>
+  <text x="250" y="346" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">Газообмен происходит путём диффузии: O₂ и CO₂ движутся от высокого давления к низкому</text>
+</svg>

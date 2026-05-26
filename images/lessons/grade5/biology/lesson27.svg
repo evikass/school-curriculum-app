@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Цветок</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 27</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Section 1: Complete flower diagram -->
+<text x="140" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Строение цветка (схема)</text>
+
+<g transform="translate(15,72)">
+<!-- Pedicel (цветоножка) -->
+<rect x="120" y="140" width="8" height="40" fill="#66BB6A" rx="2"/>
+<text x="105" y="165" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">цветоножка</text>
+<line x1="112" y1="162" x2="118" y2="162" stroke="#2E7D32" stroke-width="0.3"/>
+
+<!-- Receptacle (цветоложе) -->
+<ellipse cx="124" cy="135" rx="20" ry="8" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+<text x="158" y="133" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">цветоложе</text>
+<line x1="144" y1="132" x2="155" y2="132" stroke="#1B5E20" stroke-width="0.3"/>
+
+<!-- Sepals (чашелистики) -->
+<ellipse cx="105" cy="122" rx="6" ry="14" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.8" transform="rotate(-25,105,122)"/>
+<ellipse cx="124" cy="118" rx="6" ry="14" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.8"/>
+<ellipse cx="143" cy="122" rx="6" ry="14" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.8" transform="rotate(25,143,122)"/>
+<text x="45" y="120" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">чашелистики</text>
+<text x="45" y="128" font-family="Arial,sans-serif" font-size="5" fill="#888">(чашечка)</text>
+<line x1="98" y1="120" x2="78" y2="120" stroke="#2E7D32" stroke-width="0.3"/>
+
+<!-- Petals (лепестки) -->
+<ellipse cx="94" cy="95" rx="10" ry="25" fill="#F48FB1" stroke="#E91E63" stroke-width="0.8" transform="rotate(-40,94,95)"/>
+<ellipse cx="112" cy="82" rx="10" ry="25" fill="#F06292" stroke="#E91E63" stroke-width="0.8" transform="rotate(-15,112,82)"/>
+<ellipse cx="136" cy="82" rx="10" ry="25" fill="#F06292" stroke="#E91E63" stroke-width="0.8" transform="rotate(15,136,82)"/>
+<ellipse cx="154" cy="95" rx="10" ry="25" fill="#F48FB1" stroke="#E91E63" stroke-width="0.8" transform="rotate(40,154,95)"/>
+<text x="175" y="85" font-family="Arial,sans-serif" font-size="6" fill="#C62828">лепестки</text>
+<text x="175" y="93" font-family="Arial,sans-serif" font-size="5" fill="#888">(венчик)</text>
+<line x1="162" y1="88" x2="172" y2="87" stroke="#C62828" stroke-width="0.3"/>
+
+<!-- Stamens (тычинки) -->
+<!-- Stamen 1 -->
+<line x1="104" y1="110" x2="100" y2="80" stroke="#FFD54F" stroke-width="1"/>
+<ellipse cx="100" cy="76" rx="5" ry="8" fill="#FFC107" stroke="#F57F17" stroke-width="0.8"/>
+<!-- Stamen 2 -->
+<line x1="124" y1="108" x2="124" y2="75" stroke="#FFD54F" stroke-width="1"/>
+<ellipse cx="124" cy="71" rx="5" ry="8" fill="#FFC107" stroke="#F57F17" stroke-width="0.8"/>
+<!-- Stamen 3 -->
+<line x1="144" y1="110" x2="148" y2="80" stroke="#FFD54F" stroke-width="1"/>
+<ellipse cx="148" cy="76" rx="5" ry="8" fill="#FFC107" stroke="#F57F17" stroke-width="0.8"/>
+<!-- Stamen 4 -->
+<line x1="114" y1="105" x2="110" y2="78" stroke="#FFD54F" stroke-width="0.8"/>
+<ellipse cx="110" cy="74" rx="4" ry="7" fill="#FFC107" stroke="#F57F17" stroke-width="0.6"/>
+<!-- Stamen 5 -->
+<line x1="134" y1="105" x2="138" y2="78" stroke="#FFD54F" stroke-width="0.8"/>
+<ellipse cx="138" cy="74" rx="4" ry="7" fill="#FFC107" stroke="#F57F17" stroke-width="0.6"/>
+<text x="165" y="72" font-family="Arial,sans-serif" font-size="6" fill="#F57F17">тычинки</text>
+<text x="165" y="80" font-family="Arial,sans-serif" font-size="5" fill="#888">(пыльники)</text>
+<line x1="153" y1="73" x2="162" y2="73" stroke="#F57F17" stroke-width="0.3"/>
+
+<!-- Pistil (пестик) -->
+<!-- Ovary (завязь) -->
+<ellipse cx="124" cy="108" rx="10" ry="12" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+<!-- Style (столбик) -->
+<line x1="124" y1="96" x2="124" y2="68" stroke="#4CAF50" stroke-width="1.5"/>
+<!-- Stigma (рыльце) -->
+<ellipse cx="124" cy="62" rx="8" ry="5" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+<!-- Ovules inside ovary -->
+<circle cx="121" cy="108" r="2" fill="#FFEB3B"/>
+<circle cx="127" cy="110" r="2" fill="#FFEB3B"/>
+<text x="165" y="100" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">пестик</text>
+<line x1="134" y1="105" x2="162" y2="100" stroke="#1B5E20" stroke-width="0.3"/>
+<text x="165" y="108" font-family="Arial,sans-serif" font-size="5" fill="#66BB6A">рыльце</text>
+<line x1="130" y1="62" x2="162" y2="108" stroke="#66BB6A" stroke-width="0.2"/>
+<text x="165" y="116" font-family="Arial,sans-serif" font-size="5" fill="#4CAF50">столбик</text>
+<text x="165" y="124" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">завязь (семяпочки)</text>
+</g>
+
+<!-- Section 2: Stamen detail -->
+<text x="370" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Тычинка (увеличенно)</text>
+
+<g transform="translate(305,72)">
+<!-- Filament (тычиночная нить) -->
+<rect x="38" y="50" width="5" height="60" fill="#FFD54F" stroke="#F57F17" stroke-width="0.8" rx="1"/>
+<!-- Anther (пыльник) -->
+<ellipse cx="40" cy="40" rx="12" ry="18" fill="#FFC107" stroke="#F57F17" stroke-width="1.2"/>
+<!-- Two thecae -->
+<line x1="40" y1="25" x2="40" y2="55" stroke="#F57F17" stroke-width="0.5"/>
+<!-- Pollen grains (пыльцевые зёрна) -->
+<circle cx="34" cy="35" r="2" fill="#FFEB3B" stroke="#F57F17" stroke-width="0.3"/>
+<circle cx="34" cy="42" r="2" fill="#FFEB3B" stroke="#F57F17" stroke-width="0.3"/>
+<circle cx="34" cy="49" r="2" fill="#FFEB3B" stroke="#F57F17" stroke-width="0.3"/>
+<circle cx="46" cy="35" r="2" fill="#FFEB3B" stroke="#F57F17" stroke-width="0.3"/>
+<circle cx="46" cy="42" r="2" fill="#FFEB3B" stroke="#F57F17" stroke-width="0.3"/>
+<circle cx="46" cy="49" r="2" fill="#FFEB3B" stroke="#F57F17" stroke-width="0.3"/>
+
+<!-- Labels -->
+<text x="58" y="35" font-family="Arial,sans-serif" font-size="6" fill="#F57F17">пыльник</text>
+<text x="58" y="42" font-family="Arial,sans-serif" font-size="5" fill="#888">(гнёзда с пыльцой)</text>
+<text x="58" y="60" font-family="Arial,sans-serif" font-size="6" fill="#FFD54F">тычиночная</text>
+<text x="58" y="67" font-family="Arial,sans-serif" font-size="6" fill="#FFD54F">нить</text>
+<line x1="52" y1="38" x2="56" y2="37" stroke="#F57F17" stroke-width="0.3"/>
+<line x1="43" y1="58" x2="56" y2="60" stroke="#FFD54F" stroke-width="0.3"/>
+
+<!-- Pollen detail -->
+<circle cx="30" cy="75" r="5" fill="#FFEB3B" stroke="#F57F17" stroke-width="0.8"/>
+<circle cx="30" cy="75" r="2" fill="#FFC107"/>
+<text x="30" y="85" font-family="Arial,sans-serif" font-size="5" fill="#F57F17" text-anchor="middle">пыльцевое</text>
+<text x="30" y="91" font-family="Arial,sans-serif" font-size="5" fill="#F57F17" text-anchor="middle">зерно</text>
+<text x="30" y="97" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="middle">(муж. гаметофит)</text>
+</g>
+
+<!-- Section 3: Pistil detail -->
+<text x="370" y="172" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Пестик (увеличенно)</text>
+
+<g transform="translate(305,178)">
+<!-- Stigma -->
+<path d="M35,10 Q30,5 25,8 Q22,12 28,15 Q33,18 38,15 Q44,12 42,8 Q38,5 35,10Z" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+<!-- Sticky surface dots -->
+<circle cx="28" cy="10" r="1" fill="#FFEB3B"/>
+<circle cx="35" cy="9" r="1" fill="#FFEB3B"/>
+<circle cx="42" cy="10" r="1" fill="#FFEB3B"/>
+
+<!-- Style -->
+<rect x="33" y="15" width="5" height="30" fill="#81C784" stroke="#4CAF50" stroke-width="0.6" rx="1"/>
+
+<!-- Ovary -->
+<ellipse cx="35" cy="55" rx="18" ry="15" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1.2"/>
+<!-- Ovules inside -->
+<circle cx="28" cy="52" r="4" fill="#FFF9C4" stroke="#FBC02D" stroke-width="0.5"/>
+<circle cx="42" cy="55" r="4" fill="#FFF9C4" stroke="#FBC02D" stroke-width="0.5"/>
+<circle cx="35" cy="60" r="3" fill="#FFF9C4" stroke="#FBC02D" stroke-width="0.5"/>
+
+<!-- Labels -->
+<text x="60" y="10" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">рыльце</text>
+<text x="60" y="17" font-family="Arial,sans-serif" font-size="5" fill="#888">(ловит пыльцу)</text>
+<line x1="44" y1="10" x2="58" y2="10" stroke="#2E7D32" stroke-width="0.3"/>
+
+<text x="60" y="32" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50">столбик</text>
+<text x="60" y="39" font-family="Arial,sans-serif" font-size="5" fill="#888">(проводник пыльцы)</text>
+<line x1="38" y1="30" x2="58" y2="31" stroke="#4CAF50" stroke-width="0.3"/>
+
+<text x="60" y="52" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">завязь</text>
+<text x="60" y="59" font-family="Arial,sans-serif" font-size="5" fill="#888">(семяпочки внутри)</text>
+<line x1="53" y1="52" x2="58" y2="52" stroke="#1B5E20" stroke-width="0.3"/>
+
+<text x="28" y="68" font-family="Arial,sans-serif" font-size="5" fill="#FBC02D" text-anchor="middle">семяпочки</text>
+<text x="28" y="74" font-family="Arial,sans-serif" font-size="4" fill="#FBC02D" text-anchor="middle">(будущие семена)</text>
+</g>
+
+<!-- Section 4: Flower formula and parts summary -->
+<text x="140" y="220" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Формула цветка шиповника</text>
+
+<g transform="translate(20,228)">
+<rect x="0" y="0" width="230" height="105" rx="5" fill="white" fill-opacity="0.5" stroke="#2E7D32" stroke-width="0.5"/>
+
+<!-- Formula -->
+<text x="115" y="18" font-family="Arial,sans-serif" font-size="10" fill="#1B5E20" text-anchor="middle">✳ K₅ C₅ A∞ G∞</text>
+
+<!-- Explanation -->
+<text x="10" y="35" font-family="Arial,sans-serif" font-size="6" fill="#333">✳ — актиноморфный (правильный) цветок</text>
+<text x="10" y="47" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50">K₅ — чашечка из 5 чашелистиков</text>
+<text x="10" y="59" font-family="Arial,sans-serif" font-size="6" fill="#E91E63">C₅ — венчик из 5 лепестков</text>
+<text x="10" y="71" font-family="Arial,sans-serif" font-size="6" fill="#FFC107">A∞ — тычинок много (∞ — неопределённое число)</text>
+<text x="10" y="83" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">G∞ — пестиков много, завязь нижняя</text>
+<line x1="0" y1="88" x2="230" y2="88" stroke="#E8F5E9" stroke-width="0.5"/>
+<text x="115" y="98" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Околоцветник — чашечка + венчик (двойной)</text>
+</g>
+
+<!-- Flower types summary -->
+<g transform="translate(265,228)">
+<rect x="0" y="0" width="215" height="105" rx="5" fill="white" fill-opacity="0.5" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="107" y="13" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Типы цветков</text>
+
+<text x="10" y="28" font-family="Arial,sans-serif" font-size="6" fill="#333">Обоеполый — есть тычинки и пестики</text>
+<text x="10" y="40" font-family="Arial,sans-serif" font-size="6" fill="#333">Раздельнополый:</text>
+<text x="20" y="50" font-family="Arial,sans-serif" font-size="6" fill="#FFC107">♂ тычиночный (только тычинки)</text>
+<text x="20" y="60" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">♀ пестичный (только пестики)</text>
+<line x1="0" y1="65" x2="215" y2="65" stroke="#E8F5E9" stroke-width="0.5"/>
+<text x="10" y="76" font-family="Arial,sans-serif" font-size="6" fill="#333">Однодомные — ♂ и ♀ на одном растении</text>
+<text x="15" y="85" font-family="Arial,sans-serif" font-size="5" fill="#888">(огурец, кукуруза, дуб)</text>
+<text x="10" y="96" font-family="Arial,sans-serif" font-size="6" fill="#333">Двудомные — ♂ и ♀ на разных растениях</text>
+<text x="15" y="105" font-family="Arial,sans-serif" font-size="5" fill="#888">(тополь, ива, облепиха)</text>
+</g>
+</svg>

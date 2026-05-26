@@ -1,0 +1,7 @@
+:HL["/school-curriculum-app/_next/static/chunks/0aaiq4pf22jlz.css","style"]
+:HL["/school-curriculum-app/_next/static/chunks/0ens4ofhkaman.css","style"]
+:HL["/school-curriculum-app/_next/static/media/07454f8ad8aaac57-s.p.0tqkxa-w3pk~c.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/school-curriculum-app/_next/static/media/797e433ab948586e-s.p.09zddjkbdep5a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/school-curriculum-app/_next/static/media/7f11d98043fdedc9-s.p.0r4w1y.tjq0ay.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/school-curriculum-app/_next/static/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"zhTevzBHDE86mhnHO_i7Q"}
